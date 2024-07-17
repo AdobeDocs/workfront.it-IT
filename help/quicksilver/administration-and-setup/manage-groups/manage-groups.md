@@ -22,8 +22,8 @@ ht-degree: 0%
 Questa sezione contiene le seguenti sottosezioni:
 
 * [Panoramica sui gruppi](../../administration-and-setup/manage-groups/groups-overview/groups-overview.md)
-* [Creare e gestire i gruppi](../../administration-and-setup/manage-groups/create-and-manage-groups/create-and-manage-groups.md)
-* [Creare e gestire i sottogruppi](../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-and-manage-subgroups.md)
+* [Crea e gestisci gruppi](../../administration-and-setup/manage-groups/create-and-manage-groups/create-and-manage-groups.md)
+* [Crea e gestisci sottogruppi](../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-and-manage-subgroups.md)
 * [Ruoli di gruppo](../../administration-and-setup/manage-groups/group-roles/group-roles.md)
 * [Utilizzare gli oggetti di un gruppo](../../administration-and-setup/manage-groups/work-with-group-objects/work-with-a-groups-objects.md)
 * [Gestire gli stati dei gruppi](../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md)

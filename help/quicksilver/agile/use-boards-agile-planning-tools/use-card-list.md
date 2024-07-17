@@ -50,9 +50,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 {{step1-to-boards}}
 
 1. Per aprire un flusso di lavoro, fare clic su [!UICONTROL **Visualizza flusso di lavoro**].
-1. Fai clic su [!UICONTROL **Elenco schede**] scheda.
-1. Clic [!UICONTROL **Aggiungi scheda**].
-1. In [!UICONTROL **Crea/Modifica scheda**] , aggiungi le seguenti informazioni:
+1. Fare clic sulla scheda [!UICONTROL **Elenco schede**].
+1. Fai clic su [!UICONTROL **Aggiungi scheda**].
+1. Nella finestra di dialogo [!UICONTROL **Crea/Modifica scheda**], aggiungi le seguenti informazioni:
 
    <table style="table-layout:auto"> 
     <tbody> 
@@ -88,50 +88,50 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Visualizza schede
 
-Per visualizzare tutte le schede del flusso di lavoro in un unico elenco, fare clic su [!UICONTROL **Vista a elenco**] nella scheda Elenco schede.
+Per visualizzare tutte le schede del flusso di lavoro in un unico elenco, fare clic su [!UICONTROL **Vista elenco**] nella scheda Elenco schede.
 
-Per visualizzare tutte le schede del flusso di lavoro raggruppate per iterazione, fare clic su [!UICONTROL **Vista iterazione**]. Le schede non pianificate vengono visualizzate nel proprio gruppo.
+Per visualizzare tutte le schede del flusso di lavoro raggruppate per iterazione, fare clic su [!UICONTROL **Visualizzazione iterazione**]. Le schede non pianificate vengono visualizzate nel proprio gruppo.
 
-Per modificare una scheda esistente, selezionala nell’elenco e fai clic su [!UICONTROL **Modifica**].
+Per modificare una scheda esistente, selezionarla nell&#39;elenco e fare clic su [!UICONTROL **Modifica**].
 
-Per eliminare una scheda, selezionala nell’elenco e fai clic su [!UICONTROL **Elimina**].
+Per eliminare una scheda, selezionarla nell&#39;elenco e fare clic su [!UICONTROL **Elimina**].
 
 ### Filtra schede
 
-Le schede possono essere archiviate solo dalla bacheca di iterazione. Quando una scheda viene archiviata, non viene visualizzata nell’elenco a meno che non si filtra per mostrare le schede archiviate. Per informazioni sull&#39;archiviazione di una scheda, vedere [Eliminare o archiviare una scheda da una bacheca](/help/quicksilver/agile/get-started-with-boards/delete-board-items.md).
+Le schede possono essere archiviate solo dalla bacheca di iterazione. Quando una scheda viene archiviata, non viene visualizzata nell’elenco a meno che non si filtra per mostrare le schede archiviate. Per informazioni sull&#39;archiviazione di una scheda, vedere [Eliminare o archiviare una scheda da una scheda](/help/quicksilver/agile/get-started-with-boards/delete-board-items.md).
 
 1. Accedere all&#39;elenco delle schede per il flusso di lavoro.
-1. Clic [!UICONTROL **Filtro**] e seleziona [!UICONTROL **Tutti**], [!UICONTROL **Schede attive**], o [!UICONTROL **Schede archiviate**].
+1. Fai clic su [!UICONTROL **Filtro**] e seleziona [!UICONTROL **Tutte**], [!UICONTROL **Schede attive**] o [!UICONTROL **Schede archiviate**].
 
-   Quando nell’elenco delle schede viene applicato un filtro diverso da quello predefinito, viene visualizzato un indicatore sull’icona del filtro ![Filtro applicato](assets/boards-filterapplied-30x30.png).
+   Quando nell&#39;elenco delle schede viene applicato un filtro diverso da quello predefinito, viene visualizzato un indicatore sull&#39;icona del filtro ![Filtro applicato](assets/boards-filterapplied-30x30.png).
 
 ### Cerca nell’elenco delle schede
 
 1. Accedere all&#39;elenco delle schede per il flusso di lavoro.
-1. Clic [!UICONTROL **Ricerca**] e digita un termine di ricerca. Quindi premere Invio.
+1. Fai clic su [!UICONTROL **Cerca**] e digita un termine di ricerca. Quindi premere Invio.
 
    Vengono visualizzate tutte le schede che contengono il termine di ricerca.
 Fare clic sulla X per annullare la ricerca.
 
-   ![Cercare le schede in una bacheca](assets/boards-searchbox.png)
+   ![Cerca le schede in una bacheca](assets/boards-searchbox.png)
 
 ## Aggiungere schede a un’iterazione
 
 >[!NOTE]
 >
->È necessario creare un&#39;iterazione prima di aggiungervi schede. Per informazioni, consulta [Creare un’iterazione in un flusso di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+>È necessario creare un&#39;iterazione prima di aggiungervi schede. Per informazioni, vedere [Creare un&#39;iterazione in un flusso di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 1. Accedere all&#39;elenco delle schede per il flusso di lavoro.
-1. Seleziona la [!UICONTROL **Vista iterazione**] per vedere quali schede sono assegnate a un’iterazione e quali non sono pianificate.
-1. Seleziona una scheda non pianificata nell’elenco e fai clic su [!UICONTROL **Modifica**].
-1. Selezionare un&#39;iterazione in [!UICONTROL **Iterazioni**] campo.
-1. Se utilizzate i punti storia, immettete un valore in [!UICONTROL **Stima**] campo.
+1. Selezionare la [!UICONTROL **Visualizzazione iterazione**] per vedere quali schede sono assegnate a un&#39;iterazione e quali non sono pianificate.
+1. Selezionare una scheda non pianificata nell&#39;elenco e fare clic su [!UICONTROL **Modifica**].
+1. Selezionare un&#39;iterazione nel campo [!UICONTROL **Iterazioni**].
+1. Se utilizzi i punti storia, immetti un valore nel campo [!UICONTROL **Stima**].
 1. Fai clic su [!UICONTROL **Salva**].
 
    La scheda viene spostata nell&#39;iterazione e le metriche di iterazione riflettono il numero di schede e punti.
 
-   Puoi anche trascinare una scheda dal gruppo Schede non pianificate nell’iterazione, oppure fare clic su [!UICONTROL **Aggiungi scheda**] per aggiungere una nuova scheda all&#39;iterazione.
+   Puoi anche trascinare una scheda dal gruppo di schede non pianificate nell&#39;iterazione, oppure fai clic su [!UICONTROL **Aggiungi scheda**] per aggiungere una nuova scheda all&#39;iterazione.
 
 >[!TIP]
 >
->Se è stata creata una bacheca del processo di iterazione, tutte le schede non pianificate presenti nell&#39;elenco vengono visualizzate nel [!UICONTROL Backlog] colonna. Quando una scheda viene spostata in un’altra colonna, diventa parte dell’iterazione attiva. Le schede aggiunte all’iterazione nell’elenco delle schede vengono aggiunte a una colonna in base al loro stato.
+>Se è stata creata una bacheca per il processo di iterazione, tutte le schede non pianificate nell&#39;elenco delle schede vengono visualizzate nella colonna [!UICONTROL Backlog]. Quando una scheda viene spostata in un’altra colonna, diventa parte dell’iterazione attiva. Le schede aggiunte all’iterazione nell’elenco delle schede vengono aggiunte a una colonna in base al loro stato.

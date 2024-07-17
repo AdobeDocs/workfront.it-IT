@@ -31,9 +31,9 @@ A seconda dell’area di Workfront da cui accedi all’attività o al problema, 
 
   >[!TIP]
   >
-  >È possibile sostituire il pulsante Lavoraci con un pulsante Avvia. Per informazioni sulla sostituzione del pulsante Lavoraci con un pulsante Start, vedere  [Sostituire il pulsante Lavoraci con un pulsante Start](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md) .
+  >È possibile sostituire il pulsante Lavoraci con un pulsante Avvia. Per informazioni sulla sostituzione del pulsante Lavoraci con un pulsante Start, vedere [Sostituire il pulsante Lavoraci con un pulsante Start](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md) .
 
-* Dopo aver fatto clic su Accetta lavoro, il pulsante diventa Contrassegna come completato o Fine , a seconda di dove si accede all’attività o al problema in Workfront. Per informazioni su dove è possibile accedere al pulsante Lavoraci, vedere la sezione [Individuare il pulsante Lavoraci e Fine](#locate-the-work-on-it-and-done-button) in questo articolo.
+* Dopo aver fatto clic su Accetta lavoro, il pulsante diventa Contrassegna come completato o Fine , a seconda di dove si accede all’attività o al problema in Workfront. Per informazioni su dove è possibile accedere al pulsante Lavoraci, vedere la sezione [Individuare il pulsante Lavoraci e completati](#locate-the-work-on-it-and-done-button) in questo articolo.
 
   ![](assets/nwe-mark-as-done-button-350x122.png)
 
@@ -47,15 +47,15 @@ Puoi individuare il pulsante Lavoraci e Fine nelle seguenti aree di Workfront:
 
 * L’area Home, sia nell’elenco di lavoro che nel pannello dei dettagli
 
-  Per informazioni su come contrassegnare un elemento come completato nell&#39;area Home, vedere [Contrassegna un elemento come completato nell’area Home](../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md).
+  Per informazioni su come contrassegnare un elemento come completato nell&#39;area Home, vedere [Contrassegnare un elemento come completato nell&#39;area Home](../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md).
 
 * Nell’intestazione dell’attività o del problema
 
-  Per informazioni sulle intestazioni degli oggetti, vedi [Nuove intestazioni oggetto](../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
+  Per informazioni sulle intestazioni degli oggetti, vedere [Nuove intestazioni degli oggetti](../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 
 * Nel pannello Riepilogo dell’attività o del problema in un elenco o nel Bilanciatore dei carichi di lavoro
 
-  Per informazioni sull&#39;utilizzo del pannello Riepilogo, consultate [Panoramica di riepilogo](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+  Per informazioni sull&#39;utilizzo del pannello Riepilogo, vedere [Panoramica di riepilogo](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 ## Panoramica dei campi che vengono aggiornati automaticamente quando si fa clic sul pulsante Lavoraci e Fine
 
@@ -73,11 +73,11 @@ Quando fai clic su Lavoraci, vengono aggiornati anche i seguenti elementi:
 
   >[!TIP]
   >
-  >Il campo Stato assegnazione è visibile solo nei report e negli elenchi. Per informazioni sul campo Stato assegnazione, vedere [Glossario della terminologia di Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+  >Il campo Stato assegnazione è visibile solo nei report e negli elenchi. Per informazioni sul campo Stato assegnazione, vedere il [Glossario della terminologia di Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 * Conferma data
 
-  Per informazioni sulla data di conferma, consulta [Panoramica sulla data di conferma](../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+  Per informazioni sulla data del commit, vedere [Panoramica sulla data del commit](../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 ### Pulsante Start {#start-button}
 
@@ -88,7 +88,7 @@ Oltre ai campi che vengono aggiornati quando si fa clic sul pulsante Lavoraci, q
 * Stato
 * Data d&#39;Inizio Reale
 
-  Per informazioni sulla data di inizio effettiva, vedere [Panoramica della data di inizio effettiva del progetto](../../manage-work/projects/planning-a-project/project-actual-start-date.md).
+  Per informazioni sulla data di inizio effettiva, vedere [Panoramica sulla data di inizio effettiva del progetto](../../manage-work/projects/planning-a-project/project-actual-start-date.md).
 
 * Data di completamento effettiva se il pulsante Inizio è associato a uno stato che equivale a Completo o Chiuso.
 

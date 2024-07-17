@@ -1,8 +1,8 @@
 ---
-title: Assegnare priorità ai progetti in Portfoli Optimizer
+title: Assegna priorità ai progetti in Portfolio Optimizer
 product-area: portfolios;projects
 navigation-topic: portfolio-optimizer
-description: Puoi assegnare la priorità ai tuoi progetti in Portfoli Optimizer per stabilire l'ordine in cui devono essere completati.
+description: Puoi assegnare la priorità ai progetti in Ottimizzatore Portfolio, per stabilire l’ordine in cui devono essere completati.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
@@ -13,22 +13,22 @@ ht-degree: 0%
 
 ---
 
-# Assegnare priorità ai progetti [!UICONTROL Ottimizzatore Portfolio]
+# Assegna priorità ai progetti in [!UICONTROL Ottimizzatore Portfolio]
 
-Puoi assegnare la priorità ai tuoi progetti nel [!UICONTROL Ottimizzatore Portfolio], stabilire l&#39;ordine in cui devono essere completati.
+Puoi assegnare la priorità ai progetti in [!UICONTROL Ottimizzatore Portfolio], per stabilire l&#39;ordine in cui devono essere completati.
 
-Quando utilizzi la variabile [!UICONTROL Ottimizzatore Portfolio]:
+Quando si utilizza [!UICONTROL Ottimizzatore Portfolio], tenere presente quanto segue:
 
-* I progetti nella parte superiore del [!UICONTROL Ottimizzatore Portfolio] sono considerati più importanti di quelli elencati verso il basso. Sarà necessario completare i progetti in ordine di priorità nella [!UICONTROL Ottimizzatore Portfolio] per ottimizzare il Portfolio.
-* La priorità dei progetti [!UICONTROL Ottimizzatore Portfolio] non è correlato al [!UICONTROL Priorità] campo situato sul [!UICONTROL Dettagli progetto] scheda di un progetto.
+* I progetti nella parte superiore dell&#39;[!UICONTROL Ottimizzatore Portfolio] sono considerati più importanti di quelli elencati nella parte inferiore. Per ottimizzare il Portfolio, è necessario completare i progetti in base alla loro priorità in [!UICONTROL Ottimizzatore Portfolio].
+* La priorità dei progetti nel [!UICONTROL Ottimizzatore Portfolio] non è correlata al campo [!UICONTROL Priorità] nella scheda [!UICONTROL Dettagli progetto] di un progetto.
 
-   La [!UICONTROL Priorità] sul campo [!UICONTROL Dettagli progetto] scheda è un flag visivo che viene specificato manualmente per comprendere l’importanza di un progetto.
+  Il campo [!UICONTROL Priority] nella scheda [!UICONTROL Project Details] è un contrassegno visivo specificato manualmente per comprendere l&#39;importanza di un progetto.
 
-* La priorità dei progetti in Portfoli Optimizer è visibile nel [!DNL Resource Planner], se è abilitato. In [!DNL Resource Planner], i progetti ricevono risorse secondo l&#39;ordine dei loro [!UICONTROL Planner risorse] la priorità e non quella [!UICONTROL Priorità Portfolio].
+* La priorità dei progetti in Ottimizzatore Portfolio è visibile in [!DNL Resource Planner], se è abilitato. In [!DNL Resource Planner], i progetti ricevono le risorse in base all&#39;ordine della priorità [!UICONTROL Pianificazione risorse] e non a quello della priorità [!UICONTROL Portfolio].
 
-   Per informazioni sulla priorità dei progetti nella [!UICONTROL Planner risorse], vedi l&#39;articolo [Assegnare priorità ai progetti [!UICONTROL Planner risorse]](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
+  Per informazioni sull&#39;assegnazione delle priorità ai progetti nella [!UICONTROL Programmazione risorse], vedere l&#39;articolo [Assegnazione delle priorità ai progetti nella [!UICONTROL Programmazione risorse]](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
 
-* La **[!UICONTROL Priorità del progetto]** area [!UICONTROL Ottimizzatore Portfolio] visualizza i progetti nell’ordine [!UICONTROL Date di inizio pianificate] e [!UICONTROL Valore netto], per impostazione predefinita.
+* Per impostazione predefinita, nell&#39;area **[!UICONTROL Prioritization]** del [!UICONTROL Ottimizzatore Portfolio] i progetti vengono visualizzati nell&#39;ordine di [!UICONTROL Date inizio pianificate] e [!UICONTROL Valore netto].
 
 ## Requisiti di accesso
 
@@ -44,41 +44,41 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Licenze Adobe Workfront*</td> 
-   <td> <p>[!UICONTROL Business] o superiore</p> </td> 
+   <td> <p>[!UICONTROL Business] o versione successiva</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Accesso a progetti e Portfoli con modifica</p> <p>Nota: Se non hai ancora accesso, chiedi [!DNL Workfront] amministratore se imposta ulteriori restrizioni nel livello di accesso. Per informazioni su come [!DNL Workfront] l'amministratore può modificare il livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Accesso a progetti e Portfoli tramite [!UICONTROL Edit]</p> <p>Nota: se non disponi ancora dell'accesso, chiedi all'amministratore [!DNL Workfront] se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di [!DNL Workfront] può modificare il tuo livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Autorizzazioni di gestione per il portfolio</p> <p>Collaborare o autorizzazioni superiori per i progetti</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Autorizzazioni di [!UICONTROL Manage] per il portfolio</p> <p>Contribute o autorizzazioni superiori per i progetti</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
 
-## Modificare la priorità dei progetti nel [!UICONTROL Ottimizzatore Portfolio]
+## Modifica la priorità dei progetti in [!UICONTROL Ottimizzatore Portfolio]
 
-1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di Adobe Workfront.
 
 1. Fai clic su **[!UICONTROL Portfoli]**.
-1. (Facoltativo) Seleziona il filtro corretto nella sezione **[!UICONTROL Filtro]** menu a discesa, per visualizzare l’elenco corretto dei portfolio.
+1. (Facoltativo) Seleziona il filtro corretto nel menu a discesa **[!UICONTROL Filtro]**, per visualizzare l&#39;elenco corretto dei portfolio.
 1. Fai clic sul nome di un portfolio per aprirlo.
-1. Fai clic su **[!UICONTROL Ottimizzazione del Portfolio]** nel pannello a sinistra.
-1. In [!UICONTROL ottimizzazione del progetto] consente di modificare la priorità dei progetti trascinandoli in ordine di priorità e rilasciandoli nella posizione di visualizzazione desiderata.
+1. Fai clic su **[!UICONTROL Ottimizzazione Portfoli]** nel pannello a sinistra.
+1. Nell&#39;area [!UICONTROL ottimizzazione del progetto], modifica la priorità dei progetti trascinando i progetti in ordine di priorità e rilasciandoli nella posizione di visualizzazione desiderata.
 
    ![](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
-   Fai clic su **[!UICONTROL Imposta priorità]** nell’area di ottimizzazione del progetto al termine della riorganizzazione dei progetti. I progetti riceveranno un nuovo numero in base al nuovo ordine.
+   Fare clic su **[!UICONTROL Imposta priorità]** nell&#39;area di ottimizzazione del progetto al termine della ridisposizione dei progetti. I progetti riceveranno un nuovo numero in base al nuovo ordine.
 
-1. Fai clic su **[!UICONTROL Salva]** per salvare la priorità del nuovo progetto in [!UICONTROL Ottimizzatore Portfolio]. La priorità è indicata come numero nel numero **#** colonna.
+1. Fai clic su **[!UICONTROL Salva]** per salvare la priorità del nuovo progetto in [!UICONTROL Ottimizzatore Portfolio]. La priorità è elencata come numero nella colonna numero **#**.
 
    >[!TIP]
    >
-   >Ciò non modifica necessariamente l’ordine dei progetti nel [!UICONTROL Ottimizzatore Portfolio], poiché l’elenco dei progetti può essere ordinato in base a una colonna diversa da **#** colonna. Fai clic sul pulsante **#** intestazione di colonna per ordinare l’elenco in base alla priorità del progetto.
+   >Ciò non modifica necessariamente l&#39;ordine dei progetti nell&#39;[!UICONTROL Ottimizzatore Portfolio], poiché l&#39;elenco dei progetti potrebbe essere ordinato in base a una colonna diversa da **#**. Fare clic sull&#39;intestazione di colonna **#** per ordinare l&#39;elenco in base alla priorità del progetto.
 
-   Puoi visualizzare la priorità del progetto così come viene visualizzata nella [!UICONTROL Ottimizzatore Portfolio] nel Planner risorse, abilitando il **[!UICONTROL Visualizzare le priorità del Portfolio]** in Resource Planner.
+   È possibile visualizzare la priorità del progetto così come appare in [!UICONTROL Ottimizzatore Portfolio] nella Programmazione risorse, abilitando l&#39;impostazione **[!UICONTROL Visualizza priorità Portfolio]** nella Programmazione risorse.
 
-   Per informazioni sulla priorità dei progetti nella [!UICONTROL Planner risorse], vedi l&#39;articolo [Assegnare priorità ai progetti [!UICONTROL Planner risorse]](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
+   Per informazioni sull&#39;assegnazione delle priorità ai progetti nella [!UICONTROL Programmazione risorse], vedere l&#39;articolo [Assegnazione delle priorità ai progetti nella [!UICONTROL Programmazione risorse]](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Panoramica delle dashboard di Canvas
 
-Le dashboard di Canvas consentono di visualizzare facilmente i dati di Adobe Workfront aggiungendo vari tipi di rapporti a un’area di lavoro personalizzabile. Per istruzioni di base sull’utilizzo delle dashboard di Canvas, inizia con l’articolo [Introduzione ai dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md). In caso contrario, consulta l’indice dell’articolo seguente per ulteriori informazioni su un argomento specifico.
+Le dashboard di Canvas consentono di visualizzare facilmente i dati di Adobe Workfront aggiungendo vari tipi di rapporti a un’area di lavoro personalizzabile. Per istruzioni di base sull&#39;utilizzo dei dashboard di Canvas, iniziare con l&#39;articolo [Introduzione ai dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md). In caso contrario, consulta l’indice dell’articolo seguente per ulteriori informazioni su un argomento specifico.
 
 ## Dashboard Canvas: indice degli articoli
 
@@ -26,7 +26,7 @@ Questa sezione contiene i seguenti articoli:
    * [Introduzione ai dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
    * [Aggiungere, rimuovere o disporre i rapporti in un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
    * [Condividere un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
-* [Tipi di rapporti del dashboard Area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
+* [Tipi di report per il dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
    * [Aggiungere un rapporto esistente a un dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
    * [Creare un rapporto KPI in un dashboard Area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
    * [Creare un rapporto di grafico in un dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)

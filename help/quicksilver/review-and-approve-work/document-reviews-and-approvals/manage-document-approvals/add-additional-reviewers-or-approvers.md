@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Il contenuto di questo articolo fa riferimento alla funzionalità di approvazione dei documenti aggiornata, disponibile solo per account specifici. Per informazioni sui processi di approvazione standard, vedi gli articoli elencati in [Approvazioni lavoro](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>Il contenuto di questo articolo fa riferimento alla funzionalità di approvazione dei documenti aggiornata, disponibile solo per account specifici. Per informazioni sui processi di approvazione standard, vedere gli articoli elencati in [Approvazioni di lavoro](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Requisiti di accesso
 
@@ -43,12 +43,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Accesso di visualizzazione o accesso successivo all’oggetto associato alla richiesta di accesso o approvazione </p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Accesso di visualizzazione o accesso successivo all’oggetto associato alla richiesta di accesso o approvazione </p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Aggiungere ulteriori approvatori o revisori dalla pagina Dettagli documento
 
@@ -56,19 +56,19 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Seleziona **Approvazioni** nel riquadro a sinistra. Tutti gli approvatori e i revisori esistenti sono elencati qui.
 
-1. Per aggiungere un approvatore, verificare che **Approvatore** è selezionata, quindi inizia a digitare **Revisori** casella di testo. Puoi aggiungere utenti o team di Workfront per nome. Se invece desideri aggiungere un revisore, deseleziona semplicemente **Approvatore** prima di digitare.
+1. Per aggiungere un approvatore, assicurati che la casella di controllo **Approvatore** sia selezionata e inizia a digitare nella casella di testo **Revisori**. Puoi aggiungere utenti o team di Workfront per nome. Se invece desideri aggiungere un revisore, deseleziona semplicemente la casella di controllo **Approvatore** prima di digitare.
 
 1. Ripeti il passaggio precedente per aggiungere altri approvatori o revisori.
 
 ## Aggiungere altri approvatori o revisori dal riepilogo del documento
 
-1. Vai al progetto, all’attività o al problema che contiene il documento, quindi seleziona **Documenti**.
+1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
 
 1. Fare clic sul documento necessario per aprire il riquadro Riepilogo documento.
 
 1. Selezionare la versione del documento a cui si desidera aggiungere un approvatore o un revisore nel menu a discesa della versione. Per impostazione predefinita, viene selezionata la versione più recente.
 
-1. Scorri verso il basso fino a **Approvazioni** nel riquadro Riepilogo documento, in cui sono elencati tutti gli approvatori e i revisori esistenti. Per aggiungere un approvatore, verificare che **Approvatore** è selezionata, quindi inizia a digitare **Revisori** casella di testo. Puoi aggiungere utenti o team di Workfront per nome. Se invece desideri aggiungere un revisore, deseleziona semplicemente **Approvatore** prima di digitare.
+1. Scorri verso il basso fino alla sezione **Approvazioni** nel riquadro Riepilogo documento, in cui sono elencati tutti gli approvatori e i revisori esistenti. Per aggiungere un approvatore, assicurati che la casella di controllo **Approvatore** sia selezionata e inizia a digitare nella casella di testo **Revisori**. Puoi aggiungere utenti o team di Workfront per nome. Se invece desideri aggiungere un revisore, deseleziona semplicemente la casella di controllo **Approvatore** prima di digitare.
 
 1. Ripeti il passaggio precedente per aggiungere altri approvatori o revisori.
 

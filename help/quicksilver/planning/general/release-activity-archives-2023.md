@@ -26,12 +26,12 @@ ht-degree: 0%
 >
 >Il rappresentante del tuo account ti informerà se partecipi a questa fase.
 >
->Per ulteriori informazioni, consulta [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+>Per ulteriori informazioni, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 >
 
 In questo articolo sono elencate le funzioni rilasciate dopo il lancio del programma Adobe Workfront Planning, il 22 maggio 2023, per l’anno 2023.
 
-Per informazioni sulle funzioni rilasciate nel 2024, consulta [Attività della versione corrente di Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md).
+Per informazioni sulle funzionalità rilasciate durante il 2024, consulta [Attività della versione corrente di Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md).
 
 Le funzioni rilasciate sono elencate in ordine di rilascio, a partire da quelle più recenti. I clienti che partecipano al programma Workfront Planning possono accedere a tutte le funzioni degli ambienti di produzione.
 
@@ -45,7 +45,7 @@ Workfront Planning è stato temporaneamente rimosso dagli ambienti Anteprima e S
 
 Anteprima e produzione: 27 dicembre 2023
 
-È ora possibile cercare una parola chiave per trovare rapidamente un record nella vista timeline. Per trovare un record è possibile utilizzare parole chiave e caratteri speciali da qualsiasi campo visibile sullo schermo. Per informazioni, consulta [Gestire la visualizzazione della timeline](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+È ora possibile cercare una parola chiave per trovare rapidamente un record nella vista timeline. Per trovare un record è possibile utilizzare parole chiave e caratteri speciali da qualsiasi campo visibile sullo schermo. Per informazioni, vedere [Gestire la visualizzazione della sequenza temporale](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Settimana del 18 dicembre 2023
 
@@ -69,7 +69,7 @@ Anteprima e produzione per tutti i clienti: 18 dicembre 2023
 
 L’esperienza di aggiunta di commenti per i record delle funzionalità di pianificazione corrisponde alla nuova esperienza di aggiunta di commenti per gli oggetti di Workfront.
 
-Per ulteriori informazioni, consulta [Gestisci commenti record](/help/quicksilver/planning/records/manage-record-comments.md).
+Per ulteriori informazioni, vedere [Gestire i commenti dei record](/help/quicksilver/planning/records/manage-record-comments.md).
 
 ### Connettore Workfront Planning per Adobe Workfront Fusion
 
@@ -79,7 +79,7 @@ Produzione: 21 dicembre 2023
 >
 >La tua organizzazione deve acquistare Adobe Workfront Fusion per poter creare connessioni con le funzionalità di pianificazione di Adobe Workfront.
 >
->Per informazioni, consulta [Panoramica di Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
+>Per informazioni, vedere [Panoramica di Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
 
 Ora è possibile utilizzare Adobe Workfront Fusion per connettersi alle funzionalità di pianificazione. Con la nuova connessione Fusion, è possibile:
 
@@ -95,7 +95,7 @@ Ora è possibile utilizzare Adobe Workfront Fusion per connettersi alle funziona
 
 * Attiva uno scenario quando viene apportata una modifica alle funzionalità di pianificazione
 
-Per ulteriori informazioni, consulta [Moduli di Adobe Workfront Planning](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
+Per ulteriori informazioni, vedere [Moduli di Adobe Workfront Planning](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
 
 ## Settimana dell’11 dicembre 2023
 
@@ -125,7 +125,7 @@ Con questo miglioramento, tieni presente quanto segue:
 
 * Tutte le visualizzazioni tabella di un tipo di record hanno lo stesso campo principale selezionato.
 
-Per ulteriori informazioni, consulta [Gestire la vista tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
+Per ulteriori informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 ### Collegare i record delle funzionalità di pianificazione con Adobe Experience Manager Assets
 
@@ -137,7 +137,7 @@ Versione di produzione: 21 dicembre 2023
 >
 >Per poter collegare i record delle funzionalità di Adobe Workfront Planning ad Adobe Experience Manager Assets, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Business Platform o Adobe Admin Console.
 >
->In caso di domande sull’onboarding per Adobe Admin Console, consulta [Domande frequenti sull’esperienza unificata di Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+>Se hai domande sull&#39;onboarding in Adobe Admin Console, consulta le [Domande frequenti sull&#39;esperienza unificata di Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 È ora possibile stabilire una connessione tra i tipi di record delle funzionalità di Adobe Workfront Planning e Adobe Experience Manager Assets.
 
@@ -153,7 +153,7 @@ Dopo aver stabilito la connessione, con questo aggiornamento sono disponibili le
 
 * È possibile fare clic sul nome del cespite nella vista a tabella del record della funzionalità di pianificazione dal campo record connesso e visualizzare una finestra popup con la miniatura del cespite e diversi campi chiave. Dalla finestra pop-up, puoi passare al visualizzatore di risorse in Experience Manager e visualizzare tutti i dettagli relativi.
 
-Per ulteriori informazioni, consulta [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
+Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## Settimana del 4 dicembre 2023
 
@@ -174,9 +174,9 @@ Considera quanto segue:
 
 * Non è possibile copiare e incollare i valori dei campi visualizzati nell&#39;area Dettagli di un record.
 
-Per ulteriori informazioni, consulta [Modifica record](/help/quicksilver/planning/records/edit-records.md).
+Per ulteriori informazioni, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).
 
-Per informazioni sui campi collegati, consulta [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
+Per informazioni sui campi collegati, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## Settimana del 27 novembre 2023
 
@@ -200,7 +200,7 @@ Considera quanto segue:
 
    * Campi collegati creati in seguito alla connessione di record
 
-Per ulteriori informazioni, consulta [Modifica record](/help/quicksilver/planning/records/edit-records.md).
+Per ulteriori informazioni, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).
 
 ## Settimana del 6 novembre 2023
 
@@ -210,7 +210,7 @@ Anteprima e produzione: 7 novembre 2023
 
 È ora possibile raggruppare i record nella vista tabella di una pagina del tipo di record. È possibile eseguire il raggruppamento per tre campi univoci nell&#39;interfaccia della funzionalità di pianificazione<!--checking into this for now: and by four fields when using the API-->.
 
-Per ulteriori informazioni, consulta [Gestire la vista tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
+Per ulteriori informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 ## Settimana del 30 ottobre 2023
 
@@ -230,7 +230,7 @@ Sono stati introdotti i seguenti tipi di campi per i record delle funzionalità 
 
 I valori dei campi creati da questi tipi di campo sono di sola lettura e acquisiscono il nome dell&#39;utente che ha creato o modificato per ultimo un record oppure la data in cui il record è stato creato o modificato per ultimo.
 
-Per ulteriori informazioni, consulta [Crea campi](/help/quicksilver/planning/fields/create-fields.md).
+Per ulteriori informazioni, vedere [Creare i campi](/help/quicksilver/planning/fields/create-fields.md).
 
 ### Passare a oggetti Workfront da un record delle funzionalità di pianificazione
 
@@ -242,7 +242,7 @@ Anteprima e produzione: 31 ottobre 2023
 
 * Pagina record oggetto Workfront di sola lettura
 
-Per ulteriori informazioni, consulta [Collega record](/help/quicksilver/planning/records/connect-records.md).
+Per ulteriori informazioni, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md).
 
 ### Navigazione migliorata nella vista a tabella
 
@@ -258,7 +258,7 @@ Di seguito sono riportati alcuni miglioramenti:
 
 * Utilizzare la combinazione di tastiera Maiusc + Invio per aggiungere un nuovo record (o riga) nella tabella.
 
-Per ulteriori informazioni, consulta [Collega record](/help/quicksilver/planning/records/connect-records.md).
+Per ulteriori informazioni, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md).
 
 ## Settimana del 16 ottobre 2023
 
@@ -266,13 +266,13 @@ Per ulteriori informazioni, consulta [Collega record](/help/quicksilver/planning
 
 Anteprima e produzione: 16 ottobre 2023
 
-È ora possibile aggiungere un campo di tipo Persone ai tipi di record delle funzionalità di pianificazione. È possibile utilizzare i campi di tipo Persone per associare gli utenti esistenti a un record. Per informazioni, consulta [Crea campi](/help/quicksilver/planning/fields/create-fields.md).
+È ora possibile aggiungere un campo di tipo Persone ai tipi di record delle funzionalità di pianificazione. È possibile utilizzare i campi di tipo Persone per associare gli utenti esistenti a un record. Per informazioni, vedere [Creare i campi](/help/quicksilver/planning/fields/create-fields.md).
 
 ### Formato Rich Text per campi Paragrafo
 
 Anteprima e produzione: 16 ottobre 2023
 
-Sono stati aggiunti controlli di formato Rich Text per i campi di tipo Paragrafo. È possibile formattare i campi paragrafo utilizzando il formato RTF nella visualizzazione Tabella di un tipo di record o nella pagina di record. Per ulteriori informazioni, consulta [Modifica record](/help/quicksilver/planning/records/edit-records.md).
+Sono stati aggiunti controlli di formato Rich Text per i campi di tipo Paragrafo. È possibile formattare i campi paragrafo utilizzando il formato RTF nella visualizzazione Tabella di un tipo di record o nella pagina di record. Per ulteriori informazioni, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).
 
 
 ### Registrazione e raggruppamento della codifica colore per la visualizzazione Timeline
@@ -301,7 +301,7 @@ Di seguito sono riportate le opzioni relative ai colori che è possibile sceglie
 
 Quando si abbinano i colori a un determinato campo, è possibile selezionare solo i campi con opzioni codificate per colore.
 
-Per ulteriori informazioni, consulta [Gestire la visualizzazione della timeline](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+Per ulteriori informazioni, vedere [Gestire la visualizzazione della sequenza temporale](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Settimana del 9 ottobre 2023
 
@@ -309,7 +309,7 @@ Per ulteriori informazioni, consulta [Gestire la visualizzazione della timeline]
 
 Anteprima e produzione: 9 ottobre 2023
 
-È ora possibile cercare una parola chiave per trovare rapidamente un record nella vista tabella. Per trovare un record è possibile utilizzare parole chiave e caratteri speciali da qualsiasi campo visibile sullo schermo. Per informazioni, consulta [Gestire la vista tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
+È ora possibile cercare una parola chiave per trovare rapidamente un record nella vista tabella. Per trovare un record è possibile utilizzare parole chiave e caratteri speciali da qualsiasi campo visibile sullo schermo. Per informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 ## Settimana del 18 settembre 2023
 
@@ -317,7 +317,7 @@ Anteprima e produzione: 9 ottobre 2023
 
 Anteprima e produzione: 20 settembre 2023
 
-È ora possibile riordinare una o più righe (o record) nella visualizzazione Tabella di una pagina del tipo di record. Per informazioni, consulta [Gestire la vista tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
+È ora possibile riordinare una o più righe (o record) nella visualizzazione Tabella di una pagina del tipo di record. Per informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 ## Settimana del 4 settembre 2023
 
@@ -358,7 +358,7 @@ Per visualizzare le informazioni corrette su un determinato set di record, in pa
 
 È possibile nascondere o visualizzare singoli campi da ogni intestazione delle colonne dei campi oppure gestire tutti i campi del tipo di record da un&#39;impostazione nella barra degli strumenti della visualizzazione tabella.
 
-Per ulteriori informazioni, consulta [Gestire la vista tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
+Per ulteriori informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 ## Settimana del 21 agosto 2023
 

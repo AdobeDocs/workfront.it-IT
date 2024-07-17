@@ -23,5 +23,5 @@ ht-degree: 0%
 * [Modifica commenti bozza](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/edit-a-proof-comment.md)
 * [Risolvi commenti bozza](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/resolve-proof-comments.md)
 * [Elimina commenti bozza](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/delete-proof-comment.md)
-* [Utilizzare le azioni sui commenti della bozza](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)
+* [Utilizza azioni sui commenti della bozza](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)
 * [Assegnare tag agli utenti per condividere una bozza](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md)

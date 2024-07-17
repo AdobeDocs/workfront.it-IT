@@ -2,8 +2,8 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: '''Panoramica sul vincolo di attività: Inizia non oltre"'
-description: Avvia non più tardi di (SNLT) è un Vincolo di attività che consente di programmare l'inizio di un'attività prima della data specificata.
+title: "Panoramica sul vincolo attività: inizia non più tardi di"
+description: Iniziare non più tardi di (SNLT) è un vincolo attività che pianifica l'inizio di un'attività prima della data specificata.
 author: Alina
 feature: Work Management
 exl-id: 86139ce6-c6b1-4ac4-a5cb-fd4aa899a025
@@ -14,33 +14,34 @@ ht-degree: 0%
 
 ---
 
-# Panoramica sul vincolo di attività: Inizia non oltre
+# Panoramica sui vincoli delle attività: inizia non più tardi di
 
-Avvia non più tardi di (SNLT) è un Vincolo di attività che consente di programmare l&#39;inizio di un&#39;attività prima della data specificata.
+Iniziare non più tardi di (SNLT) è un vincolo attività che pianifica l&#39;inizio di un&#39;attività prima della data specificata.
 
-Quando si lavora con il vincolo SNLT, tenere presente quanto segue:
+Quando si utilizza il vincolo SNLT, tenere presente quanto segue:
 
-* È necessario utilizzare il vincolo Inizio non più tardi di quando il progetto è pianificato da data di completamento. In questo caso, è possibile fornire un vincolo morbido a un&#39;attività prima che altri task dipendenti vengano visualizzati come a rischio.
-* Inizia non più tardi è il vincolo predefinito se un progetto utilizza una modalità di pianificazione di Pianificazione da Data completamento e l&#39;impostazione predefinita del sistema o del gruppo per la data di inizio di un&#39;attività è Oggi. Per informazioni su dove impostare il Vincolo predefinito per una nuova attività, fare riferimento a [Configurare le preferenze relative alle attività e ai problemi a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
-* Quando si utilizza il vincolo SNLT con un progetto di pianificazione da data di inizio, Adobe Workfront pianifica l&#39;attività come se si trattasse di un&#39;attività il più presto possibile.
-* Quando si sposta o si copia un&#39;attività con un vincolo SNLT in un altro progetto, il vincolo dell&#39;attività o delle date del progetto potrebbe variare a seconda delle date del vincolo e delle date di inizio e completamento del progetto. Esistono i seguenti scenari:
+* Utilizzare il vincolo Inizio non oltre il quando il progetto viene programmato dalla data di completamento. In questo caso, è possibile fornire un vincolo morbido a un&#39;attività prima che quest&#39;ultima obblighi altre attività dipendenti a essere visualizzate come A rischio.
+* Iniziare non dopo di è il vincolo predefinito se un progetto utilizza la modalità di programmazione Pianificazione dalla data di completamento e se la data di inizio di un&#39;attività è Oggi come impostazione predefinita del sistema o del gruppo. Per informazioni su dove impostare il vincolo predefinito per una nuova attività, fare riferimento a [Configurare le preferenze relative alle attività e ai problemi a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* Quando si utilizza il vincolo SNLT con un progetto Pianifica dalla data di inizio, Adobe Workfront pianifica l&#39;attività come se si trattasse di un&#39;attività Il più presto possibile.
+* Quando si sposta o si copia un&#39;attività con un vincolo SNLT in un altro progetto, il vincolo dell&#39;attività o delle date del progetto può variare a seconda delle date del vincolo e delle date di inizio e di completamento del progetto. Esistono i seguenti scenari:
 
-   * Quando il progetto di destinazione è programmato da inizio:
+   * Quando il progetto di destinazione è programmato dall’inizio:
 
-      * Quando la data di vincolo dell&#39;attività è precedente alla data di inizio pianificata del progetto, il vincolo dell&#39;attività diventa Non appena possibile.
-      * Quando la data di vincolo dell&#39;attività è successiva alla data di completamento pianificata del progetto, la data di completamento pianificato del progetto viene modificata in modo da corrispondere alla data di vincolo di completamento dell&#39;attività.
+      * Quando la data di vincolo dell&#39;attività è precedente alla data di inizio pianificata del progetto, il vincolo dell&#39;attività viene impostato su Il più presto possibile.
+      * Quando la data vincolo dell&#39;attività è successiva alla data completamento pianificato del progetto, la data completamento pianificato del progetto viene modificata in modo da corrispondere alla data vincolo completamento dell&#39;attività.
 
-      * Quando il progetto di destinazione è programmato da completamento:
+      * Quando il progetto di destinazione è programmato dal completamento:
 
-         * Quando la data di vincolo dell&#39;attività è successiva alla data di completamento del progetto, il vincolo dell&#39;attività diventa il più tardi possibile.
-         * Quando la data di vincolo dell&#39;attività è precedente alla data di inizio pianificata del progetto, la data di inizio pianificata del progetto viene modificata in modo da corrispondere alla data di vincolo iniziale dell&#39;attività.
-      * Indipendentemente dalla pianificazione del progetto, quando la data del vincolo dell&#39;attività si trova entro le date di inizio e di completamento del progetto, non vi sono modifiche al Vincolo attività o alle date del progetto.
+         * Quando la data vincolo dell&#39;attività è successiva alla data di completamento del progetto, il vincolo attività diventa il più tardi possibile.
+         * Quando la data vincolo dell&#39;attività è precedente alla data inizio pianificata del progetto, la data inizio pianificata del progetto viene modificata in modo da corrispondere alla data vincolo inizio dell&#39;attività.
 
-   Per informazioni sullo spostamento delle attività, consulta [Sposta attività](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+      * Indipendentemente dalla programmazione del progetto, se la data vincolo dell&#39;attività è compresa tra le date di inizio e di completamento del progetto, non verranno apportate modifiche al vincolo attività o alle date del progetto.
 
-   Per informazioni sulla copia delle attività, vedere [Copia e duplica le attività](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Per informazioni sullo spostamento delle attività, vedere [Sposta attività](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
-Per informazioni su come aggiornare il vincolo di attività su un&#39;attività, vedere [Aggiornare il vincolo di attività di un&#39;attività](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+  Per informazioni sulla copia delle attività, vedere [Copia e duplica attività](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+
+Per informazioni su come aggiornare il vincolo attività in un&#39;attività, vedere [Aggiornare il vincolo attività di un&#39;attività](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

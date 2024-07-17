@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
+source-git-commit: f2b6f0fb8a24723fec60c6fc1a99e1b8f9cf39c7
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -49,21 +49,56 @@ Per una panoramica della nuova pianificazione di Workfront, accedere ai seguenti
 <!--* [View a video demonstration of Adobe Workfront Planning](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 * [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md): panoramica di alto livello di Adobe Workfront Planning, inclusi la terminologia e i concetti specifici di questa soluzione. È consigliabile iniziare il percorso con Workfront Planning.
-* [Attività della versione corrente di Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md): elenco di tutte le funzioni rilasciate dall’avvio del programma Adobe Workfront Planning, il 22 maggio 2023, con date di rilascio esatte e una breve panoramica di ciascuna funzione.
-* [Panoramica dell’Assistente di Adobe Workfront Planning AI](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): con l’Assistente di Workfront AI per Planning è possibile cercare record oppure creare, aggiornare ed eliminare record utilizzando comandi e consentendo all’assistente di svolgere il lavoro al posto tuo.
+* [Attività della versione corrente di Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md): elenco di tutte le funzionalità rilasciate dall&#39;avvio del programma Adobe Workfront Planning, il 22 maggio 2023, con date di rilascio esatte e una breve panoramica di ciascuna funzionalità.
+* [Panoramica dell&#39;Assistente di Adobe Workfront Planning AI](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): con l&#39;Assistente di Workfront AI per Planning è possibile cercare record oppure creare, aggiornare ed eliminare record utilizzando i comandi e consentendo all&#39;assistente di eseguire il lavoro desiderato.
 
-  L’Assistente all’intelligenza artificiale di Workfront è attualmente disponibile per alcuni clienti in una fase beta. Contatta il rappresentante del tuo account per sapere se hai i requisiti per partecipare e provare questa nuova offerta.
+  >[!NOTE]
+  >
+  >    L’Assistente all’intelligenza artificiale di Workfront è attualmente disponibile per alcuni clienti in una fase beta. Contatta il rappresentante del tuo account per sapere se hai i requisiti per partecipare e provare questa nuova offerta.
 
-* [Moduli di Adobe Workfront Planning per Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md): con i moduli di Adobe Workfront Planning è possibile attivare uno scenario quando si verificano eventi in Workfront Planning. Puoi anche creare, leggere, aggiornare ed eliminare record oppure eseguire una chiamata API personalizzata all’account Adobe Workfront Planning.
+* [Moduli Adobe Workfront Planning per Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md): con i moduli Adobe Workfront Planning è possibile attivare uno scenario quando si verificano eventi in Workfront Planning. Puoi anche creare, leggere, aggiornare ed eliminare record oppure eseguire una chiamata API personalizzata all’account Adobe Workfront Planning.
 
 ## Architettura e funzionalità di Workfront Planning
 
 Le sezioni seguenti contengono articoli che descrivono in dettaglio le funzioni attualmente disponibili per Workfront Planning:
 
-* [Informazioni su accesso e autorizzazioni: indice articolo](/help/quicksilver/planning/access/access-information.md): informazioni sull&#39;accesso e sulle autorizzazioni necessarie per utilizzare Workfront Planning.
-* [Architettura: indice degli articoli](/help/quicksilver/planning/architecture/architecture-information.md): informazioni approfondite sull&#39;architettura di Workfront Planning, con istruzioni dettagliate su come creare e gestire aree di lavoro e tipi di record.
-* [Campi: indice articolo](/help/quicksilver/planning/fields/fields-information.md): informazioni approfondite e istruzioni dettagliate sulla creazione di campi personalizzati per i tipi di record.
-* [Record: indice articolo](/help/quicksilver/planning/records/records-information.md): informazioni approfondite e istruzioni dettagliate su come creare e gestire i record.
-* [Visualizzazioni: indice articolo](/help/quicksilver/planning/views/views-information.md): informazioni approfondite sulle visualizzazioni dei record e su come gestirle quando si visualizza una pagina del tipo di record.
-* [Notifiche: indice articolo](/help/quicksilver/planning/notifications/notifications-information.md): informazioni sulle notifiche e-mail e in-app generate dagli eventi in Workfront Planning.
+* [Informazioni sull&#39;accesso e sulle autorizzazioni: l&#39;articolo index](/help/quicksilver/planning/access/access-information.md) contiene le seguenti informazioni:
+
+   * Licenze Workfront e autorizzazioni Planning
+   * Pianificazione delle autorizzazioni di condivisione
+   * Condividere le visualizzazioni
+   * Condividere le aree di lavoro (tipi di record, record e campi)
+
+* [Architettura: l&#39;indice dell&#39;articolo](/help/quicksilver/planning/architecture/architecture-information.md) contiene le seguenti informazioni:
+
+   * Creare, modificare ed eliminare aree di lavoro
+   * Crea, modifica, elimina tipi di record
+   * Collegare tipi di record ed esempi di connessione dei tipi di record
+   * Modello Workspace
+
+* [Campi: l&#39;indice dell&#39;articolo](/help/quicksilver/planning/fields/fields-information.md) contiene le seguenti informazioni:
+
+   * Creare, modificare ed eliminare campi
+   * Campi formula
+   * Campi primari
+
+* [Record: l&#39;indice dell&#39;articolo](/help/quicksilver/planning/records/records-information.md) contiene le seguenti informazioni:
+
+   * Creare, modificare ed eliminare record
+   * Connetti record
+   * Aggiungere una copertina o una miniatura a un record
+   * Sezione Registra commenti e cronologia
+   * Condividere i record
+   * Sezione Workfront Planning per gli oggetti Workfront
+
+* [Visualizzazioni: l&#39;indice dell&#39;articolo](/help/quicksilver/planning/views/views-information.md) contiene le seguenti informazioni:
+
+   * Creare visualizzazioni record
+   * Gestire le visualizzazioni tabella, timeline e calendario
+
+* [Notifiche: indice articolo](/help/quicksilver/planning/notifications/notifications-information.md) contiene le seguenti informazioni:
+
+   * Gestire le preferenze di notifica
+   * Pianificazione delle notifiche in-app
+   * Notifiche e-mail di pianificazione
 

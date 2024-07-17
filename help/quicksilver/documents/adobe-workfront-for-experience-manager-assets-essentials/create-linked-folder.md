@@ -39,7 +39,7 @@ Devi avere i seguenti:
   <tr>
    <td><strong>Prodotto</strong>
    </td>
-   <td>È necessario disporre di Experience Manager Assets as a Cloud Service o Assets Essentials e aggiungerli al prodotto come utente.
+   <td>È necessario disporre di Assets Essentials di Experience Manager Assets as a Cloud Service e aggiungerli al prodotto come utente.
    </td>
   </tr>
   <tr>
@@ -64,7 +64,7 @@ Devi avere i seguenti:
 
 Prima di iniziare,
 
-* L’amministratore di Workfront deve configurare un’integrazione Experience Manager. Per ulteriori informazioni, consulta [Configurare l’integrazione di Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) o [Configurare l’integrazione di Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* L’amministratore di Workfront deve configurare un’integrazione Experience Manager. Per ulteriori informazioni, consulta [Configurare Experience Manager Assets as a Cloud Service Integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) o [Configurare l&#39;integrazione Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 
 ## Creare una cartella collegata
@@ -78,11 +78,11 @@ Per creare una cartella collegata:
 
 
 1. Passa al progetto in cui desideri inserire la cartella.
-1. Seleziona **Aggiungi nuovo**, quindi vai all’integrazione di Experience Manager configurata dall’amministratore.
+1. Seleziona **Aggiungi nuovo**, quindi vai all&#39;integrazione di Experience Manager configurata dall&#39;amministratore.
 
    >[!NOTE]
    >
    >L’amministratore di Workfront può scegliere qualsiasi nome per questa integrazione, pertanto potrebbe non menzionare specificamente Experience Manager Assets o Assets Essentials.
 
-1. Seleziona **Crea cartella collegata**. Viene creata automaticamente una cartella in Experience Manager in base alla posizione specificata al momento della configurazione dell&#39;integrazione.
-   ![creare una cartella collegata](assets/linked-folder.png)
+1. Selezionare **Crea cartella collegata**. Viene creata automaticamente una cartella in Experience Manager in base alla posizione specificata al momento della configurazione dell&#39;integrazione.
+   ![crea una cartella collegata](assets/linked-folder.png)

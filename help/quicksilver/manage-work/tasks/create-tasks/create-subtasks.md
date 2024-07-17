@@ -45,7 +45,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Autorizzazioni per contribuire al progetto e all'attività padre con la possibilità di aggiungere attività o versione successiva</p> <p>Dopo aver creato l'attività, si ricevono automaticamente le autorizzazioni di gestione.</p>  </td> 
+   <td> <p>Autorizzazioni di Contribute per il progetto e l'attività padre con la possibilità di aggiungere attività o versione successiva</p> <p>Dopo aver creato l'attività, si ricevono automaticamente le autorizzazioni di gestione.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,16 +61,16 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 ### Crea sottoattività dall&#39;elenco delle attività {#create-subtasks-from-the-task-list}
 
 1. Passare al progetto in cui si desidera creare le sottoattività.
-1. Fai clic su **Attività** nel pannello a sinistra.
+1. Fai clic sulla sezione **Attività** nel pannello a sinistra.
 1. (Facoltativo) Se l&#39;attività che si desidera rendere l&#39;attività figlio non si trova direttamente sotto l&#39;attività che si desidera impostare come padre, trascinarla nella posizione appropriata nell&#39;elenco delle attività.
 1. Selezionare l&#39;attività che si desidera impostare come sottoattività ed eseguire una delle operazioni seguenti:
 
-   * Fai clic su **Rientra** icona ![](assets/indent-icon-nwe-33x29.png) per rendere l&#39;attività selezionata una sottoattività dell&#39;attività direttamente sopra di essa.
+   * Fai clic sull&#39;icona **Rientro** ![](assets/indent-icon-nwe-33x29.png) per rendere l&#39;attività selezionata una sottoattività dell&#39;attività direttamente sopra di essa.
    * Quando si utilizza una tastiera QWERTY inglese standard, premere Option + > (Mac) o Alt + > (Windows) sulla tastiera. Altre lingue possono utilizzare i comandi Option + , (Mac) o Alt + , (Windows) per applicare un rientro.
 
      >[!TIP]
      >
-     >Le scelte rapide da tastiera non funzionano quando si modificano attività in modalità di modifica in linea. In questo caso, utilizza l’icona Rientro ![](assets/cs1.png) per creare sottoattività.
+     >Le scelte rapide da tastiera non funzionano quando si modificano attività in modalità di modifica in linea. In questo caso, utilizzare l&#39;icona Rientro ![](assets/cs1.png) per creare sottoattività.
 
    * Trascinare e rilasciare l&#39;attività sull&#39;attività che si desidera designare come attività padre.
 
@@ -81,21 +81,21 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 ### Crea sottoattività dalla sezione Attività secondarie {#create-subtasks-from-the-task-subtasks-section}
 
 1. Passare al progetto in cui si desidera creare le sottoattività.
-1. Fai clic su **Attività** nel pannello a sinistra.
+1. Fai clic sulla sezione **Attività** nel pannello a sinistra.
 1. Fare clic sul nome dell&#39;attività in cui si desidera creare un&#39;attività secondaria.
-1. Fai clic su **Sottoattività** nel pannello a sinistra.
-1. Clic **Nuova attività.**
+1. Fai clic sulla sezione **Sottoattività** nel pannello a sinistra.
+1. Fai clic su **Nuova attività.**
 
-   Per continuare a creare l&#39;attività secondaria, seguire la procedura descritta nell&#39;articolo seguente: [Creare attività in un progetto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+   Segui i passaggi descritti nel seguente articolo per continuare a creare la sottoattività: [Crea attività in un progetto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-1. Clic **Salva l&#39;Attività.**
+1. Fai clic su **Salva attività.**
 
 ## Rendere un&#39;attività secondaria un&#39;attività principale
 
 1. Passare al progetto in cui si desidera impostare un&#39;attività secondaria come attività principale.
-1. Fai clic su **Attività** nel pannello a sinistra.
+1. Fai clic sulla sezione **Attività** nel pannello a sinistra.
 1. Selezionare l&#39;attività secondaria che si desidera rendere un&#39;attività principale.
-1. Fai clic su **Riduci rientro** icona ![](assets/outdent-icon-nwe-31x29.png) per rendere l&#39;attività secondaria un&#39;attività principale.
+1. Fai clic sull&#39;icona **Rientro negativo** ![](assets/outdent-icon-nwe-31x29.png) per rendere l&#39;attività secondaria un&#39;attività principale.
 
    Oppure
 

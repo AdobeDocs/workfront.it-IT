@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti relativi al flusso di aggiornamenti e alle notifiche apportati con la versione del primo trimestre 2024 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione con la versione del primo trimestre 2024.
 
-Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rilascio del primo trimestre 2024, consulta [Panoramica sulla versione del primo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del primo trimestre 2024, consulta [Panoramica sulla versione del primo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 ## Trascinare l&#39;immagine in un commento nella sezione Aggiornamenti
 
@@ -26,7 +26,7 @@ Per migliorare il contenuto dei commenti, ora puoi trascinare rapidamente un’i
 
 Questa funzionalità era già presente nel flusso di commenti legacy e ora è stata aggiunta alla nuova esperienza di commento.
 
-Per ulteriori informazioni, consulta [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Per ulteriori informazioni, vedere [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## La nuova esperienza con commenti acquisisce tutte le informazioni per progetti, attività, problemi e documenti
 
@@ -38,9 +38,9 @@ Per trovare rapidamente le informazioni nella sezione Aggiornamenti di un oggett
 
 I commenti rilevanti per la ricerca vengono filtrati e le parole chiave vengono evidenziate in modo da poterli trovare facilmente.
 
-Per ulteriori informazioni, consulta [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Per ulteriori informazioni, vedere [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3425730/){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità.](https://video.tv.adobe.com/v/3425730/){target=_blank}
 
 ## Copiare e incollare un’immagine in un commento nella sezione Aggiornamenti
 
@@ -48,6 +48,6 @@ Per fornire contesto al contenuto di un messaggio, è ora possibile allegare rap
 
 Sono supportati i seguenti formati di file: .jpg, .jpeg, .png, .gif.
 
-Per ulteriori informazioni, consulta [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Per ulteriori informazioni, vedere [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3425731/){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità.](https://video.tv.adobe.com/v/3425731/){target=_blank}

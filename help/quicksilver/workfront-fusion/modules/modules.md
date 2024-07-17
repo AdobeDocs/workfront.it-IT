@@ -3,7 +3,7 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-2-0
-title: Moduli in [!DNL Adobe] Workfront Fusion
+title: Moduli in  [!DNL Adobe] Workfront Fusion
 description: Gli articoli elencati di seguito descrivono moduli specifici e le relative funzionalità in [!DNL Adobe Workfront Fusion].
 author: Becky
 feature: Workfront Fusion
@@ -21,8 +21,8 @@ ht-degree: 0%
 Questa sezione contiene i seguenti articoli:
 
 * [Tipi di moduli](../../workfront-fusion/modules/module-types.md)
-* [Configurare le impostazioni di un modulo in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/configure-a-modules-settings.md)
-* [Scegli da dove inizia un modulo trigger [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/choose-where-trigger-module-starts.md)
+* [Configura le impostazioni di un modulo in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/configure-a-modules-settings.md)
+* [Scegli dove inizia un modulo trigger in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/choose-where-trigger-module-starts.md)
 * [Trigger istantanei (webhook) in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/webhooks/instant-triggers-webhooks.md)
 * [Archivi dati in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
 * [Strutture di dati in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-structures.md)

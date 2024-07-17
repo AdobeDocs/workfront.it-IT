@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti apportati al progetto con la versione 23.3. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione con la versione 23.3 del 20 e 21 luglio 2023.
 
-Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio 23.3, consulta [Panoramica sulla versione 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio 23.3, vedere [Panoramica sulla versione 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Approvazioni nuovi documenti
 
@@ -29,7 +29,7 @@ In questa prima versione, il processo di approvazione è stato semplificato sia 
 * Prendi decisioni di approvazione direttamente da My Updates and Home
 * Creare approvazioni per specifiche versioni di documenti
 
-Per ulteriori informazioni sull&#39;utilizzo delle nuove approvazioni di documenti, vedere [Panoramica sulle nuove approvazioni documenti](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.html).
+Per ulteriori informazioni sull&#39;utilizzo delle nuove approvazioni dei documenti, vedere [Panoramica sulle nuove approvazioni dei documenti](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.html).
 
 ## Pulsante Nuova condivisione
 

@@ -2,7 +2,7 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: email-alerts-workfront-proof
-title: Configurare le impostazioni delle notifiche e-mail in [!DNL Workfront Proof]
+title: Configura le impostazioni delle notifiche e-mail in [!DNL Workfront Proof]
 description: Le notifiche e-mail generate da Workfront Proof informano i collaboratori sulle recenti attività su bozze, ad esempio commenti, risposte o decisioni.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -14,30 +14,30 @@ ht-degree: 0%
 
 ---
 
-# Configurare le impostazioni delle notifiche e-mail in [!DNL Workfront Proof]
+# Configura le impostazioni delle notifiche e-mail in [!DNL Workfront Proof]
 
 <!--Audited: 01/2024-->
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alle funzionalità del prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Bozza](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
 Le notifiche e-mail informano i collaboratori sulle attività recenti relative alle bozze, ad esempio commenti, risposte o decisioni.
 
 Puoi impostare le notifiche e-mail per i revisori nelle seguenti aree:
 
-Le notifiche e-mail per i revisori possono essere impostate sulla pagina Nuova bozza, [!UICONTROL Nuova versione] e gestito in [!UICONTROL Flusso di lavoro] sezione del [!UICONTROL Dettagli bozza] pagina. Per ulteriori informazioni, consulta [Generare bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
+Le notifiche e-mail per i revisori possono essere impostate sulla pagina Nuova bozza, [!UICONTROL Nuova versione], e gestite nella sezione [!UICONTROL Flusso di lavoro] della pagina [!UICONTROL Dettagli bozza]. Per ulteriori informazioni, vedere [Generare bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
 * Pagina Nuova bozza
-* Il [!UICONTROL Nuova versione] pagina
-* Il [!UICONTROL Flusso di lavoro] sezione del [!UICONTROL Dettagli bozza] pagina.
+* Pagina [!UICONTROL Nuova versione]
+* La sezione [!UICONTROL Workflow] della pagina [!UICONTROL Dettagli bozza].
 
-Per ulteriori informazioni, consulta [Generare bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
+Per ulteriori informazioni, vedere [Generare bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
 
-* [Generare bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) [Generare bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
+* [Genera bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) [Genera bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
-* [Gestire i dettagli della bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+* [Gestisci dettagli bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
 
 Ogni utente può anche impostare le proprie impostazioni di avviso e-mail, che vengono applicate automaticamente quando viene condivisa una bozza con lui, nel caso in cui i collaboratori abbiano le loro preferenze o gli amministratori dell’account abbiano i loro consigli sulla frequenza degli avvisi. Questo può essere impostato come valore predefinito della bozza nelle pagine dei dettagli degli utenti.
@@ -48,9 +48,9 @@ Ogni utente può anche impostare le proprie impostazioni di avviso e-mail, che v
 >
 >Queste impostazioni vengono consigliate quando gli utenti creano le bozze e aggiungono questi collaboratori. Tuttavia, si tratta solo di suggerimenti, che possono essere modificati in qualsiasi momento durante il processo di revisione e le modifiche si applicano a tutte le attività effettuate dopo la modifica. Le impostazioni predefinite della bozza vengono ignorate dalle impostazioni a livello di bozza.
 
-Utenti con [!UICONTROL Amministratore] o [!UICONTROL Amministratore fatturazione] I profili possono anche impostare le impostazioni predefinite della bozza per altri utenti nel loro account da Impostazioni account.
+Gli utenti con i profili [!UICONTROL Amministratore] o [!UICONTROL Amministratore fatturazione] possono impostare le impostazioni predefinite della bozza per altri utenti nel proprio account dall&#39;interno delle impostazioni account.
 
-Per informazioni sui profili, consulta [Profili delle autorizzazioni di bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+Per informazioni sui profili, consulta [Profili autorizzazioni bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
 ## Requisiti di accesso
 
@@ -67,16 +67,16 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 +++
 
-## Configurare i valori predefiniti per la bozza nelle impostazioni personali ([!DNL Workfront Proof] (solo utenti)
+## Configura impostazioni bozza predefinite in impostazioni personali ([!DNL Workfront Proof] utenti)
 
 È possibile configurare le impostazioni della bozza per le bozze create.
 
 <!--For information about proof settings the [!DNL Workfront] administrator or [!DNL Workfront Proof] administrator can configure, see .-->
 
-1. Clic **[!UICONTROL Impostazioni]** > **[!UICONTROL Impostazioni personali]**.
+1. Fare clic su **[!UICONTROL Impostazioni]** > **[!UICONTROL Impostazioni personali]**.
 
-1. Fai clic su **[!UICONTROL Valori predefiniti bozza]** scheda.
-1. Clic **[!UICONTROL Impostazioni di notifica e-mail predefinite]** per espanderlo.
+1. Fare clic sulla scheda **[!UICONTROL Impostazioni predefinite bozza]**.
+1. Fare clic su **[!UICONTROL Impostazioni notifiche e-mail predefinite]** per espanderle.
 1. Nell’elenco a discesa a destra delle due impostazioni seguenti, seleziona una delle opzioni illustrate nella tabella seguente.
 
    * **[!UICONTROL Avviso e-mail predefinito]**: influisce su ogni bozza condivisa con te. Questa impostazione può essere ignorata a livello di bozza.
@@ -84,7 +84,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    >[!NOTE]
    >
-   >Se non si sceglie una delle opzioni seguenti, [!DNL Workfront Proof] ti invia un riepilogo giornaliero delle attività sulle bozze.
+   >Se non si sceglie una delle opzioni seguenti, [!DNL Workfront Proof] invia un riepilogo giornaliero dell&#39;attività nelle bozze.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -96,7 +96,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Risponde ai miei commenti]</td> 
-      <td>Un'e-mail viene inviata al revisore solo se qualcuno risponde esplicitamente al proprio commento (questo esclude le proprie risposte sui propri commenti). Ciò significa che se qualcuno sulla bozza fa un nuovo commento, il revisore non riceve alcuna notifica.<p>Questa impostazione è consigliata per i clienti della bozza, in modo che non ricevano alcuna notifica di altri commenti sulla bozza e ricevano solo le risposte ai propri commenti.</p><p>Anche se ai revisori con questa impostazione di avviso e-mail non vengono notificati altri nuovi commenti, possono comunque visualizzare tutti i commenti sulla bozza nel visualizzatore di bozze.</p><p>Per informazioni sui commenti, vedi <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Visualizza e rispondi ai commenti della bozza</a>.</p></td> 
+      <td>Un'e-mail viene inviata al revisore solo se qualcuno risponde esplicitamente al proprio commento (questo esclude le proprie risposte sui propri commenti). Ciò significa che se qualcuno sulla bozza fa un nuovo commento, il revisore non riceve alcuna notifica.<p>Questa impostazione è consigliata per i clienti della bozza, in modo che non ricevano alcuna notifica di altri commenti sulla bozza e ricevano solo le risposte ai propri commenti.</p><p>Anche se ai revisori con questa impostazione di avviso e-mail non vengono notificati altri nuovi commenti, possono comunque visualizzare tutti i commenti sulla bozza nel visualizzatore di bozze.</p><p>Per informazioni sui commenti, vedere <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Visualizzare e rispondere ai commenti della bozza</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Decisions]</td> 
@@ -112,7 +112,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      </tr> 
      <tr> 
       <td role="rowheader">Riepilogo giornaliero di [!UICONTROL]</td> 
-      <td>[!DNL Workfront] invia un’e-mail con tutti i commenti, le risposte e le decisioni elencati solo nei giorni in cui è presente un’attività oltre alla tua.<p>Questo avviso è un buon modo per visualizzare un riepilogo del progetto senza essere sommersi da più aggiornamenti durante la giornata.</p><p>Un caso d’uso di esempio per questo riepilogo è un responsabile di reparto che desidera monitorare l’avanzamento generale del progetto.</p><p>Per ulteriori informazioni, consulta <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Gestire le notifiche per i commenti e le decisioni relativi alle bozze</a>.</p></td> 
+      <td>[!DNL Workfront] invia un’e-mail con tutti i commenti, le risposte e le decisioni elencati solo nei giorni in cui è presente un’attività oltre alla tua.<p>Questo avviso è un buon modo per visualizzare un riepilogo del progetto senza essere sommersi da più aggiornamenti durante la giornata.</p><p>Un caso d’uso di esempio per questo riepilogo è un responsabile di reparto che desidera monitorare l’avanzamento generale del progetto.</p><p>Per ulteriori informazioni, consulta <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Gestire le notifiche per i commenti e le decisioni relative alle bozze</a>.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL No email]</td> 
@@ -129,7 +129,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Conferma e-mail quando le bozze sono pronte]</td> 
-      <td>Specifica se desideri ricevere un’e-mail di [!UICONTROL Proof made] quando crei una bozza. Per ulteriori informazioni, consulta <a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref">E-mail [!UICONTROL Proof Made]</a></td> 
+      <td>Specifica se desideri ricevere un’e-mail di [!UICONTROL Proof made] quando crei una bozza. Per ulteriori informazioni, vedere <a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref">E-mail [!UICONTROL Proof Made]</a></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Formato delle e-mail inviate all'utente] </td> 
@@ -139,7 +139,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
     </tbody> 
    </table>
 
-1. Sotto **[!UICONTROL Impostazioni dei messaggi]**, modificare uno dei seguenti elementi:
+1. In **[!UICONTROL Impostazioni messaggio]**, modificare una delle impostazioni seguenti:
 
    | Modello di bozza | Descrizione |
    |---|---|
@@ -150,26 +150,26 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 È possibile modificare gli avvisi e-mail per un destinatario specifico in un&#39;azione batch.
 
-1. Clic **[!UICONTROL Contatti]** nel pannello di navigazione a sinistra.
-1. Fai clic su **[!UICONTROL Altro]** menu ![](assets/more-button-small.png) per il destinatario, quindi fai clic su **[!UICONTROL Visualizza dettagli membro]** nel menu a discesa.
+1. Fai clic su **[!UICONTROL Contatti]** nel pannello di navigazione a sinistra.
+1. Fai clic sul menu **[!UICONTROL Altro]** ![](assets/more-button-small.png) per il destinatario, quindi fai clic su **[!UICONTROL Visualizza dettagli membro]** nel menu a discesa.
 
-1. Apri **[!UICONTROL Elementi condivisi]** sezione.
+1. Apri la sezione **[!UICONTROL Elementi condivisi]**.
 1. Seleziona la casella di controllo a sinistra di ogni elemento per il quale desideri modificare l’avviso e-mail.
-1. Clic **[!UICONTROL Altro]** sopra l’elenco degli elementi condivisi, quindi fai clic su **[!UICONTROL Modifica avviso e-mail]** nel menu a discesa.
+1. Fai clic su **[!UICONTROL Altro]** sopra l&#39;elenco degli elementi condivisi, quindi fai clic su **[!UICONTROL Modifica avviso e-mail]** nel menu a discesa.
 
-1. Modifica l’avviso e-mail, quindi fai clic su **[!UICONTROL Invia]**.
+1. Modifica l&#39;avviso e-mail, quindi fai clic su **[!UICONTROL Invia]**.
 
 ## Configurare le impostazioni predefinite della bozza per un utente
 
-Se sei un [!DNL Workfront Proof] amministratore, puoi impostare le impostazioni predefinite della bozza per gli utenti nel tuo account.
+Se sei un amministratore di [!DNL Workfront Proof], puoi impostare le impostazioni predefinite della bozza per gli utenti nel tuo account.
 
-1. Clic **[!UICONTROL Impostazioni]** > **[!UICONTROL Impostazioni account]**.
+1. Fare clic su **[!UICONTROL Impostazioni]** > **[!UICONTROL Impostazioni account]**.
 
-1. Apri **[!UICONTROL Utenti]** scheda.
-1. Apri **[!UICONTROL Altro]** menu ![More_button_small.png](assets/more-button-small.png) a destra del nome dell’utente.
+1. Apri la scheda **[!UICONTROL Utenti]**.
+1. Apri il menu **[!UICONTROL Altro]** ![Altro_button_small.png](assets/more-button-small.png) a destra del nome dell&#39;utente.
 
-1. Clic **[!UICONTROL Visualizza dettagli utenti]** nel menu a discesa.
-1. Sotto **[!UICONTROL Impostazioni]**, fai clic su **[!UICONTROL Impostazioni predefinite degli avvisi e-mail]** per espanderlo.
+1. Fare clic su **[!UICONTROL Visualizza dettagli utenti]** nel menu a discesa.
+1. In **[!UICONTROL Impostazioni]**, fai clic su **[!UICONTROL Impostazioni predefinite avvisi e-mail]** per espanderlo.
 
 1. Nell’elenco a discesa a destra delle due impostazioni seguenti, seleziona una delle opzioni illustrate nella tabella seguente:
 
@@ -178,7 +178,7 @@ Se sei un [!DNL Workfront Proof] amministratore, puoi impostare le impostazioni 
 
    >[!NOTE]
    >
-   >Se non scegli una delle seguenti opzioni per un utente, [!DNL Workfront Proof] invia agli utenti un riepilogo giornaliero delle attività sulle bozze.
+   >Se non scegli una delle seguenti opzioni per un utente, [!DNL Workfront Proof] invia agli utenti un riepilogo giornaliero sull&#39;attività nelle bozze.
 
    <table style="table-layout:auto">
     <col>
@@ -190,7 +190,7 @@ Se sei un [!DNL Workfront Proof] amministratore, puoi impostare le impostazioni 
      </tr>
      <tr>
       <td role="rowheader">[!UICONTROL Risponde ai miei commenti]</td>
-      <td>Un'e-mail viene inviata al revisore solo se qualcuno risponde esplicitamente al proprio commento (questo esclude le proprie risposte sui propri commenti). Ciò significa che se qualcuno sulla bozza fa un nuovo commento, il revisore non riceve alcuna notifica.<p>Questa impostazione è consigliata per i clienti della bozza, in modo che non ricevano alcuna notifica di altri commenti sulla bozza e ricevano solo le risposte ai propri commenti.</p><p>Anche se ai revisori con questa impostazione di avviso e-mail non vengono notificati altri nuovi commenti, possono comunque visualizzare tutti i commenti sulla bozza nel visualizzatore di bozze.</p><p>Per informazioni sui commenti, vedi <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Visualizza e rispondi ai commenti della bozza</a>.</p></td>
+      <td>Un'e-mail viene inviata al revisore solo se qualcuno risponde esplicitamente al proprio commento (questo esclude le proprie risposte sui propri commenti). Ciò significa che se qualcuno sulla bozza fa un nuovo commento, il revisore non riceve alcuna notifica.<p>Questa impostazione è consigliata per i clienti della bozza, in modo che non ricevano alcuna notifica di altri commenti sulla bozza e ricevano solo le risposte ai propri commenti.</p><p>Anche se ai revisori con questa impostazione di avviso e-mail non vengono notificati altri nuovi commenti, possono comunque visualizzare tutti i commenti sulla bozza nel visualizzatore di bozze.</p><p>Per informazioni sui commenti, vedere <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Visualizzare e rispondere ai commenti della bozza</a>.</p></td>
      </tr>
      <tr>
       <td role="rowheader">[!UICONTROL Decisions]</td>
@@ -206,7 +206,7 @@ Se sei un [!DNL Workfront Proof] amministratore, puoi impostare le impostazioni 
      </tr>
      <tr>
       <td role="rowheader">Riepilogo giornaliero di [!UICONTROL]</td>
-      <td>[!DNL Workfront] invia un’e-mail con tutti i commenti, le risposte e le decisioni elencati solo nei giorni in cui è presente un’attività oltre alla tua.<p>Questo avviso è un buon modo per visualizzare un riepilogo del progetto senza essere sommersi da più aggiornamenti durante la giornata.</p><p>Un caso d’uso di esempio per questo riepilogo è un responsabile di reparto che desidera monitorare l’avanzamento generale del progetto.</p><p>Per ulteriori informazioni, consulta <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Gestire le notifiche per i commenti e le decisioni relativi alle bozze</a>.</p></td>
+      <td>[!DNL Workfront] invia un’e-mail con tutti i commenti, le risposte e le decisioni elencati solo nei giorni in cui è presente un’attività oltre alla tua.<p>Questo avviso è un buon modo per visualizzare un riepilogo del progetto senza essere sommersi da più aggiornamenti durante la giornata.</p><p>Un caso d’uso di esempio per questo riepilogo è un responsabile di reparto che desidera monitorare l’avanzamento generale del progetto.</p><p>Per ulteriori informazioni, consulta <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Gestire le notifiche per i commenti e le decisioni relative alle bozze</a>.</p></td>
      </tr>
      <tr data-mc-conditions="">
       <td role="rowheader">[!UICONTROL No email]</td>
@@ -215,7 +215,7 @@ Se sei un [!DNL Workfront Proof] amministratore, puoi impostare le impostazioni 
     </tbody>
    </table>
 
-1. Nella parte restante **[!UICONTROL Impostazioni predefinite degli avvisi e-mail]**, modificare uno dei seguenti elementi:
+1. Nelle **[!UICONTROL impostazioni predefinite per gli avvisi e-mail]** rimanenti, modificare una delle seguenti impostazioni:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -223,7 +223,7 @@ Se sei un [!DNL Workfront Proof] amministratore, puoi impostare le impostazioni 
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Conferma e-mail quando le bozze sono pronte]</td> 
-      <td>Specifica se desideri ricevere un’e-mail di [!UICONTROL Proof made] quando crei una bozza. Per ulteriori informazioni, consulta <a href="https://support.workfront.com/hc/en-us/article">E-Mail Di [!UICONTROL Proof Made].</a></td> 
+      <td>Specifica se desideri ricevere un’e-mail di [!UICONTROL Proof made] quando crei una bozza. Per ulteriori informazioni, vedere <a href="https://support.workfront.com/hc/en-us/article">E-mail [!UICONTROL Proof Made].</a></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Formato delle e-mail inviate all'utente] </td> 

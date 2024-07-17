@@ -17,11 +17,11 @@ ht-degree: 12%
 
 Il data lake di Workfront è un nuovo strumento attualmente in fase di sviluppo che fornisce un’interfaccia dedicata alle organizzazioni per estrarre i dati da utilizzare negli strumenti di analisi aziendale più diffusi o da archiviare in data warehouse esterni, senza la necessità di complicate soluzioni API o Fusion. Questa pagina contiene informazioni su come puoi aiutarci testando e fornendo feedback su questo strumento durante la nostra versione beta in corso.
 
-Per informazioni sull’utilizzo del data lake di Workfront, consulta [Panoramica del data lake di Workfront](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
+Per informazioni sull&#39;utilizzo del data lake Workfront, vedere [Panoramica del data lake Workfront](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
-**Pianificazione beta:**
+**Pianificazione Beta:**
 
-* Data di inizio beta - 15 aprile 2024
+* Data di inizio di Beta: 15 aprile 2024
 * Data di rilascio pianificata - TBA
 
 ## Partecipare alla versione beta
@@ -34,17 +34,17 @@ Per informazioni sull’utilizzo del data lake di Workfront, consulta [Panoramic
 
 Per iscrivere la tua organizzazione alla versione beta, compila e invia il modulo al seguente collegamento:
 
-[Registrazione beta del data lake di Workfront](https://adobe.ly/workfrontdatalake)
+[Registrazione data lake beta Workfront](https://adobe.ly/workfrontdatalake)
 
 ### Fornisci feedback
 
 Il feedback è apprezzato durante lo sviluppo di questo strumento nel corso della versione beta. Segui le istruzioni qui sotto per condividere la tua esperienza con noi.
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **Configurazione**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **Setup**.
 
 1. Nel pannello a sinistra, fai clic su **Sistema** > **Accesso ai dati**.
 
-1. Fai clic su **Invia feedback** nella parte inferiore della pagina, quindi compila il modulo con il tuo feedback.
+1. Fai clic sul pulsante **Invia feedback** nella parte inferiore della pagina, quindi compila il modulo con il tuo feedback.
 
 ## Funzioni pianificate
 

@@ -18,18 +18,18 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-Adobe [!DNL Workfront] l’amministratore configura le notifiche e-mail ricevute dagli utenti quando si verificano eventi in Workfront (come descritto in [[!UICONTROL Configura evento] notifiche per tutti gli utenti del sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
+L&#39;amministratore di Adobe [!DNL Workfront] configura le notifiche e-mail ricevute dagli utenti quando si verificano eventi in Workfront (come descritto in [[!UICONTROL Configurare le notifiche evento] per tutti gli utenti del sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
-L’amministratore del gruppo può anche configurare quali notifiche vengono attivate per te e per gli utenti nel tuo [!UICONTROL Gruppo Predefinito]. Se il [!UICONTROL Gruppo Predefinito] è un sottogruppo, ricevi le notifiche attivate per il gruppo di livello superiore rispetto al tuo gruppo.
+L&#39;amministratore del gruppo può anche configurare le notifiche attivate per te e per gli utenti del [!UICONTROL Gruppo predefinito]. Se il [!UICONTROL Gruppo predefinito] è un sottogruppo, riceverai le notifiche attivate per il gruppo di primo livello al di sopra del gruppo.
 
 Puoi personalizzare ulteriormente questa impostazione configurando le notifiche che ricevi. Puoi anche scegliere se ricevere le notifiche quando gli eventi si verificano o in un’e-mail di riepilogo giornaliera.
 
-Per ulteriori informazioni sulle notifiche e-mail, consulta [[!DNL Adobe Workfront] notifiche](../../workfront-basics/using-notifications/wf-notifications.md).
+Per ulteriori informazioni sulle notifiche e-mail, vedi [[!DNL Adobe Workfront] notifiche](../../workfront-basics/using-notifications/wf-notifications.md).
 
 >[!NOTE]
 >
 >* Se si attiva un tipo di notifica e successivamente si scopre che non vengono ricevute notifiche di quel tipo, è possibile che tale tipo non sia applicabile al ruolo.
->* Il [!DNL Workfront] un amministratore o un amministratore gruppo non può configurare le notifiche per [!DNL Workfront Goals]. Per ulteriori informazioni sulle notifiche, vedere [!DNL Workfront] l&#39;amministratore può configurare, vedi [Configurare le notifiche degli eventi per tutti gli utenti del sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md). Per informazioni sulla configurazione di singole notifiche per [!DNL Workfront Goals] continua a leggere questo articolo.
+>* L&#39;amministratore di [!DNL Workfront] o un amministratore gruppo non può configurare le notifiche per [!DNL Workfront Goals]. Per ulteriori informazioni sulle notifiche configurabili dall&#39;amministratore [!DNL Workfront], vedere [Configurare le notifiche degli eventi per tutti gli utenti del sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md). Per informazioni sulla configurazione di singole notifiche per [!DNL Workfront Goals], continuare a leggere questo articolo.
 >
 
 ## Requisiti di accesso
@@ -67,9 +67,9 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 {{step1-click-profile-pic}}
 
-1. Fai clic su **[!UICONTROL Altro]** icona ![](assets/more-icon.png) accanto al tuo nome, quindi fai clic su **[!UICONTROL Modifica]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Altro]** ![](assets/more-icon.png) accanto al tuo nome, quindi fai clic su **[!UICONTROL Modifica]**.
 
-1. In **[!UICONTROL Modifica persona]** che viene visualizzata, passa alla **[!UICONTROL Notifiche]** sezione.
+1. Nella casella **[!UICONTROL Modifica persona]** visualizzata, vai alla sezione **[!UICONTROL Notifiche]**.
 
 1. Fare clic su una categoria per visualizzare le impostazioni di notifica correlate a tale categoria.
 
@@ -81,21 +81,21 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    >[!NOTE]
    >
-   >I membri del team di un progetto continuano a ricevere notifiche e-mail finché non vengono rimossi dal team, anche se non hanno più accesso al progetto. Per istruzioni sulla rimozione di utenti da un team, vedi [Rimuovere utenti dai progetti](../../manage-work/projects/manage-projects/remove-users-from-projects.md).
+   >I membri del team di un progetto continuano a ricevere notifiche e-mail finché non vengono rimossi dal team, anche se non hanno più accesso al progetto. Per istruzioni sulla rimozione degli utenti da un team, vedere [Rimuovere gli utenti dai progetti](../../manage-work/projects/manage-projects/remove-users-from-projects.md).
 
-   Per **[!UICONTROL Comunicazione]** categoria, puoi selezionare singole notifiche solo per la consegna immediata. Affinché le notifiche vengano recapitate in un riepilogo giornaliero, è necessario selezionarle tutte.
+   Per la categoria **[!UICONTROL Comunicazione]**, è possibile selezionare singole notifiche solo per la consegna immediata. Affinché le notifiche vengano recapitate in un riepilogo giornaliero, è necessario selezionarle tutte.
 
    Se tutte le notifiche e-mail per una determinata categoria sono attivate, la casella nel titolo della categoria viene visualizzata come selezionata. Se tutte le notifiche e-mail in una determinata categoria sono disattivate, la casella viene deselezionata. Se alcune notifiche sono attivate e altre sono disattivate, la casella di controllo della categoria viene visualizzata come una linea retta.\
-   Quando modifichi un’impostazione di notifica, l’etichetta **[!UICONTROL Modificato]** per l&#39;impostazione di notifica, per comunicare che l&#39;impostazione di notifica è stata modificata.
+   Quando modifichi un&#39;impostazione di notifica, viene visualizzata l&#39;etichetta **[!UICONTROL Modificato]** per tale impostazione di notifica, per informarti che l&#39;impostazione di notifica è stata modificata.
 
-1. Se hai selezionato delle notifiche da inviare come riepilogo giornaliero, seleziona l’ora del giorno in cui desideri riceverla nella parte superiore della **[!UICONTROL Notifiche]** sezione nella sezione **[!UICONTROL Invia digest tramite e-mail ogni giorno dopo]** menu.
+1. Se hai selezionato delle notifiche da inviare come riepilogo giornaliero, seleziona l&#39;ora del giorno in cui desideri riceverla nella parte superiore della sezione **[!UICONTROL Notifiche]** nel menu **[!UICONTROL Invia riepilogo giornaliero tramite posta elettronica dopo]**.
 
    ![](assets/digest-time-stamp-my-settings-350x78.png)
 
    Il riepilogo giornaliero include gli eventi che soddisfano i criteri delle notifiche 24 ore prima dell’ora selezionata. Ricevi un’e-mail di riepilogo giornaliero per ogni tipo di notifica.\
    Il riepilogo giornaliero può arrivare dopo l’orario selezionato, a seconda di quante e-mail sono in coda per la consegna nel sistema. L’ora indicata corrisponde all’ora locale specificata nelle impostazioni del browser.
 
-1. (Condizionale e facoltativo) Quando modifichi le impostazioni delle notifiche e-mail nell’ambiente di anteprima, abilita **[!UICONTROL Ricevi e-mail da questo ambiente di test]** impostazione per la ricezione di e-mail. Le e-mail non vengono generate automaticamente dall’ambiente di anteprima.
+1. (Condizionale e facoltativo) Quando modifichi le impostazioni delle notifiche e-mail nell&#39;ambiente di anteprima, abilita l&#39;impostazione **[!UICONTROL Ricevi e-mail da questo ambiente di test]** per ricevere e-mail. Le e-mail non vengono generate automaticamente dall’ambiente di anteprima.
 
    ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.3 Miglioramenti alla gestione delle risorse
 
-Questa pagina descrive tutti i miglioramenti alla gestione delle risorse apportati con la versione 22.3 all’ambiente di anteprima. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana dell’11 luglio 2022. Per un elenco di tutte le modifiche disponibili con la versione 22.3, consulta [Panoramica sulla versione 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Questa pagina descrive tutti i miglioramenti alla gestione delle risorse apportati con la versione 22.3 all’ambiente di anteprima. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana dell’11 luglio 2022. Per un elenco di tutte le modifiche disponibili con la versione 22.3, vedere [Panoramica sulla versione 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Preferenze di ordinamento e miglioramenti a livello di usabilità nel Bilanciatore dei carichi di lavoro
 
@@ -32,5 +32,5 @@ Per migliorare la tua esperienza nell’utilizzo del Bilanciatore dei carichi di
 * Design aggiornato e di facile lettura per le date previste.
 
 
-Per ulteriori informazioni, consulta [Navigare nel Bilanciatore dei carichi di lavoro](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Per ulteriori informazioni, vedere [Navigare nel Bilanciatore dei carichi di lavoro](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 

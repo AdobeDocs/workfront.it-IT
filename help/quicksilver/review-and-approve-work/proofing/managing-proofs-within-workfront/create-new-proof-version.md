@@ -2,33 +2,33 @@
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: Creare una nuova versione di una bozza
-description: La gestione del feedback in più versioni o revisioni di un pezzo di lavoro può essere una sfida enorme. Workfront semplifica questo processo consentendo di creare e confrontare più versioni di una bozza.
+description: Gestire il feedback tra più versioni o revisioni di un lavoro può essere una sfida enorme. Workfront semplifica questo processo consentendo la creazione e il confronto di più versioni di una bozza.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
 source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
 workflow-type: tm+mt
-source-wordcount: '1721'
+source-wordcount: '1723'
 ht-degree: 0%
 
 ---
 
 # Creare una nuova versione di una bozza
 
-La gestione del feedback in più versioni o revisioni di un pezzo di lavoro può essere una sfida enorme. Workfront semplifica questo processo consentendo di creare e confrontare più versioni di una bozza.
+Gestire il feedback tra più versioni o revisioni di un lavoro può essere una sfida enorme. Workfront semplifica questo processo consentendo la creazione e il confronto di più versioni di una bozza.
 
-Quando crei una nuova versione di una bozza, considera quanto segue:
+Quando crei una nuova versione di una bozza, considera le seguenti informazioni:
 
-* Puoi concedere a un utente l’autorizzazione per vedere una versione ma non un’altra. Al contrario, se condividi una versione successiva con un utente, quest’ultimo non può vedere le versioni precedenti a meno che tu non torni indietro e conceda esplicitamente all’utente l’accesso a tali versioni precedenti.
-* Per creare una nuova versione di una bozza, è necessario disporre dei diritti di modifica sulla bozza.
+* Puoi assegnare a un utente l’autorizzazione per visualizzare una versione, ma non un’altra. Al contrario, se condividi una versione successiva con un utente, quest’ultimo non può visualizzare le versioni precedenti a meno che tu non torni indietro e conceda esplicitamente all’utente l’accesso a tali versioni precedenti.
+* Per creare una nuova versione di una bozza, è necessario disporre dei diritti di modifica per la bozza.
 
-   Vedi [Gestire i ruoli delle prove in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) e [Profili delle autorizzazioni di prova in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) per ottenere ulteriori informazioni su chi dispone di diritti di modifica su una bozza.
+  Per ulteriori informazioni su chi dispone dei diritti di modifica su una bozza, consulta [Gestire i ruoli della bozza in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) e [Profili delle autorizzazioni della bozza in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
-   Per informazioni sulla condivisione delle versioni a prova, vedi  [Condividi una bozza in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
+  Per informazioni sulla condivisione delle versioni delle bozze, consulta  [Condividi bozza in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
 
 >[!IMPORTANT]
 >
->Se una bozza viene creata in Adobe Workfront, è necessario creare anche tutte le nuove versioni create per tale bozza all’interno di Workfront. Non è possibile creare una nuova versione di una bozza all’interno di Workfront Proof se la bozza è stata creata in Workfront.
+>Se viene creata una bozza in Adobe Workfront, tutte le nuove versioni create per tale bozza devono essere create anche in Workfront. Non è possibile creare una nuova versione di una bozza in Workfront Proof se tale bozza è stata creata in Workfront.
 
 ## Requisiti di accesso
 
@@ -39,47 +39,47 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
-   <td> <p>Piano attuale: Pro o superiore</p> <p>oppure</p> <p>Piano legacy: Seleziona o Premium</p> <p>Per ulteriori informazioni sulla verifica dell’accesso con i diversi piani, consulta <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accesso alle funzionalità di correzione in Workfront</a>.</p> </td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td> <p>Piano corrente: Pro o superiore</p> <p>oppure</p> <p>Piano legacy: Seleziona o Premium</p> <p>Per ulteriori informazioni sulla verifica dell'accesso con i diversi piani, vedere <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accesso alla funzionalità di verifica in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano attuale: Lavoro o piano</p> <p>Piano legacy: Qualsiasi (è necessario che la correzione sia attivata per l’utente)</p> </td> 
+   <td> <p>Piano corrente: Lavoro o Piano</p> <p>Piano legacy: qualsiasi (per l’utente deve essere abilitata la verifica)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Profilo autorizzazione bozza </td> 
    <td>Manager o superiore</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Modifica accesso ai documenti</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modifica accesso ai documenti</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il ruolo o il profilo delle autorizzazioni di prova, contattare l&#39;amministratore Workfront o Workfront Proof.
+&#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
 
 ## Creare una nuova versione di una bozza in Workfront
 
-Esistono diversi modi per caricare una nuova versione di prova in Workfront. Le impostazioni predefinite della bozza possono essere riportate o meno dalla versione precedente a seconda del metodo scelto:
+Esistono diversi modi per caricare una nuova versione di bozza in Workfront. Le impostazioni di bozza predefinite possono essere o meno riportate dalla versione precedente, a seconda del metodo scelto:
 
-* **Generazione automatica di bozze durante il caricamento di documenti**: Le impostazioni di bozza predefinite non vengono riportate. Se questa impostazione è abilitata nel profilo utente, le impostazioni di bozza predefinite non vengono mantenute quando trascini e rilasci una nuova versione.
-* **Crea bozza > Semplice**: Le impostazioni di bozza predefinite non vengono riportate. Se scegli Semplice durante la creazione di una nuova versione di bozza, le impostazioni di bozza predefinite non vengono riportate dalla versione precedente.
-* **Aggiungi nuovo > Versione > Prova**: Le impostazioni di bozza predefinite vengono riportate dalla versione precedente.
-* **Crea bozza > Avanzate**: Le impostazioni di bozza predefinite vengono riportate dalla versione precedente.
+* **Genera automaticamente le bozze durante il caricamento dei documenti**: le impostazioni di bozza predefinite non vengono riportate. Se questa impostazione è abilitata nel profilo utente, le impostazioni predefinite della bozza non vengono riportate quando si trascina e rilascia una nuova versione.
+* **Crea bozza > Semplice**: le impostazioni di bozza predefinite non vengono riportate. Se selezioni Semplice durante la creazione di una nuova versione della bozza, le impostazioni predefinite della bozza non vengono riportate dalla versione precedente.
+* **Aggiungi nuovo > Versione > Bozza**: le impostazioni di bozza predefinite vengono riportate dalla versione precedente.
+* **Crea bozza > Avanzate**: le impostazioni predefinite della bozza vengono riportate dalla versione precedente.
 
-   <table>
+  <table>
   <tbody>
   <tr>
   <td>Genera automaticamente delle bozze quando vengono caricati i documenti</td>
-  <td>Le impostazioni di bozza predefinite non vengono riportate. Se questa impostazione è abilitata nel profilo utente, le impostazioni di bozza predefinite non vengono mantenute quando trascini e rilasci una nuova versione.</td>
+  <td>Le impostazioni di bozza predefinite non vengono riportate. Se questa impostazione è abilitata nel profilo utente, le impostazioni predefinite della bozza non vengono riportate quando si trascina e rilascia una nuova versione.</td>
   </tr>
   <tr>
   <td>Crea bozza &gt; Semplice</td>
-  <td>Le impostazioni di bozza predefinite non vengono riportate. Se scegli Semplice durante la creazione di una nuova versione di bozza, le impostazioni di bozza predefinite non vengono riportate dalla versione precedente.</td>
+  <td>Le impostazioni di bozza predefinite non vengono riportate. Se selezioni Semplice durante la creazione di una nuova versione della bozza, le impostazioni predefinite della bozza non vengono riportate dalla versione precedente.</td>
   </tr>
   <tr>
-  <td>Aggiungi nuovo &gt; Versione &gt; Prova</td>
+  <td>Aggiungi nuovo &gt; Versione &gt; Bozza</td>
   <td>Le impostazioni di bozza predefinite vengono riportate dalla versione precedente.</td>
   </tr>
   <tr>
@@ -99,26 +99,26 @@ Per creare una nuova versione di una bozza:
 
    Oppure
 
-   Seleziona la riga in cui è elencata la bozza, fai clic su **Aggiungi nuovo** > **Versione**, quindi fai clic sull’opzione da utilizzare per aggiungere la nuova versione della bozza.
+   Seleziona la riga in cui è elencata la bozza, fai clic su **Aggiungi nuovo** > **Versione**, quindi fai clic sull&#39;opzione che desideri utilizzare per aggiungere la nuova versione della bozza.
 
    ![](assets/add-new-version-350x185.png)
 
-## Creare una nuova versione di una bozza dal visualizzatore di correzione (solo per Workfront Proof)
+## Creare una nuova versione di una bozza dal visualizzatore di bozze (solo Workfront Proof)
 
-Se utilizzi Workfront Proof autonomo, puoi creare una nuova versione di una bozza contenente un singolo file o un’acquisizione Web. 
+Se utilizzi il Workfront Proof autonomo, puoi creare una nuova versione di una bozza contenente un singolo file o una web capture. 
 
 >[!NOTE]
 >
->Se il tuo account è su un piano Enterprise e carichi più file o acquisizioni web, verranno automaticamente combinati in una singola nuova versione. Vedi [Creare una bozza a più pagine](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md) per ulteriori informazioni.
+>Se il tuo account fa parte di un piano Enterprise e carichi più file o clip web, questi verranno automaticamente combinati in un’unica nuova versione. Per ulteriori informazioni, consulta [Creare una bozza multipagina](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md).
 
 Per creare una nuova versione di una bozza in Workfront Proof:
 
 1. Apri la bozza.
-1. Fai clic sul pulsante **Versione** menu a discesa nell&#39;angolo in alto a sinistra, quindi fai clic su **+ Nuova versione** nella casella visualizzata.
+1. Fai clic sul menu a discesa **Versione** nell&#39;angolo superiore sinistro, quindi fai clic su **+ Nuova versione** nella casella visualizzata.
 
-   Sulla **Nuova versione a prova di** viene visualizzata una pagina che mostra tutti i revisori della versione precedente, inclusi i relativi ruoli e le impostazioni di notifica via e-mail. Puoi modificare facilmente i ruoli e le notifiche dei revisori esistenti o rimuovere i revisori esistenti dalla nuova versione di questa pagina.
+   Nella pagina **Nuova versione bozza di** visualizzata è possibile visualizzare tutti i revisori della versione precedente, inclusi i ruoli e le impostazioni delle notifiche e-mail. Puoi modificare facilmente i ruoli e le notifiche dei revisori esistenti o rimuovere i revisori esistenti dalla nuova versione in questa pagina.
 
-1. Sotto **Aggiungi file**, carica un file come nuova versione della bozza trascinandolo dal computer o facendo clic su **navigare** e selezionare il file desiderato. È possibile digitare un **Nome della bozza** per la versione o lasciare vuota questa casella per utilizzare lo stesso nome file con un numero di versione aggiunto alla fine.
+1. In **Aggiungi file**, carica un file come nuova versione della bozza trascinandolo dal computer o facendo clic su **sfoglia** e selezionando il file desiderato. È possibile digitare un **Nome bozza** per la versione oppure lasciare vuota questa casella per utilizzare lo stesso nome file con un numero di versione aggiunto alla fine.
 
    Oppure
 
@@ -126,51 +126,51 @@ Per creare una nuova versione di una bozza in Workfront Proof:
 
    >[!NOTE]
    >
-   >La funzione di trascinamento è disponibile solo con i browser che supportano completamente HTML5. Ciò esclude Internet Explorer da 7 a 9 e Safari.
+   >Il trascinamento della selezione è disponibile solo con i browser che supportano completamente HTML5. Sono esclusi Internet Explorer 7-9 e Safari.
 
-1. Sotto **Flusso di lavoro**, apporta una delle seguenti modifiche per specificare i revisori per questa versione della bozza.
+1. In **Flusso di lavoro**, apporta una delle seguenti modifiche per specificare i revisori per questa versione della bozza.
 
    I revisori della versione precedente vengono sostituiti dai revisori aggiunti.
 
-   * Modificare la **Proprietario** della versione a un altro utente del tuo account.\
-      Per informazioni sulle autorizzazioni del proprietario, consulta [Profili delle autorizzazioni di prova in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+   * Modifica il **Proprietario** della versione con un altro utente nel tuo account.\
+     Per informazioni sulle autorizzazioni del proprietario, vedere [Profili autorizzazioni bozza in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
-   * Utilizzo della **Digitare il nome del contatto o l&#39;indirizzo e-mail per aggiungere una casella del destinatario**, aggiungi i revisori alla versione. Puoi specificare un **Ruolo di prova** e **Avvisi e-mail** digita per ogni destinatario.
+   * Utilizzando **Digita il nome o l&#39;indirizzo di posta elettronica del contatto per aggiungere una casella del destinatario**, aggiungi i revisori alla versione. Puoi specificare un **Ruolo bozza** e un tipo **Avvisi e-mail** per ogni destinatario.
 
-      Per informazioni sull’aggiunta di gruppi alla bozza, consulta  [Aggiungi gruppi a una bozza](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md). Per informazioni sui ruoli, consulta [Gestire i ruoli delle prove in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+     Per informazioni sull’aggiunta di gruppi alla bozza, consulta  [Aggiungere gruppi a una bozza](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md). Per informazioni sui ruoli, vedere [Gestione ruoli bozza in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
-      >[!NOTE]
-      >
-      >Se il creatore o il proprietario della prova ha [E-mail di bozza creata](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) disattivato per impostazione predefinita (nelle impostazioni personali), non riceverà alcun messaggio e-mail Proof made o New proof nemmeno se la casella Notifica le persone tramite e-mail è selezionata nella pagina Nuova bozza . Per informazioni sulle notifiche e-mail, vedi [Configurare le impostazioni di notifica e-mail in Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md). Vedi anche [E-mail di bozza creata](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) e [Nuova e-mail a prova di](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
+     >[!NOTE]
+     >
+     >Se il creatore o il proprietario di  la bozza ha [L&#39;e-mail bozza creata](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) disabilitata per impostazione predefinita (nelle impostazioni personali), non riceverà alcuna e-mail bozza creata o nuova bozza anche se nella pagina Nuova bozza è selezionata la casella Notify people by email (Notifica persone per e-mail). Per informazioni sulle notifiche e-mail, vedere [Configurare le impostazioni delle notifiche e-mail in Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md). Vedi anche [E-mail bozza creata](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) e [E-mail nuova bozza](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
 
-   * Imposta una scadenza della bozza per la versione.
-   * Passa il puntatore del mouse sul nome di un revisore per vedere tutte le decisioni prese in merito a una versione precedente.
+   * Imposta una scadenza per la bozza della versione.
+   * Passa il puntatore del mouse sul nome di un revisore per vedere tutte le decisioni che ha preso su una versione precedente.
 
-1. Sotto **Notifica e-mail**, effettua una delle seguenti operazioni:
+1. In **Notifica e-mail** eseguire una delle operazioni seguenti:
 
-   * Specifica se desideri avvisare i revisori della nuova versione.\
-      La selezione verrà registrata nella sezione Attività della pagina Dettagli bozza. Per ulteriori informazioni, consulta [Gestire i dettagli delle prove in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+   * Specificare se si desidera notificare ai revisori la nuova versione.\
+     La selezione verrà registrata nella sezione Attività della pagina Dettagli bozza. Per ulteriori informazioni, vedere [Gestire i dettagli della bozza in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
    * Aggiungi un oggetto e un messaggio personalizzati.
 
-1. In **Organizzazione** eseguire una delle operazioni seguenti: 
+1. Nella sezione **Organizzazione** eseguire una delle operazioni seguenti: 
 
-   * Applica uno o più tag alla bozza. Per ulteriori informazioni, consulta [Creare e gestire tag in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md).\
-      I tag vengono ereditati anche dalla versione precedente della bozza. Se aggiungi un nuovo tag alla nuova versione, vengono assegnati tag anche alle versioni precedenti.
+   * Applica uno o più tag alla bozza. Per ulteriori informazioni, vedere [Creare e gestire i tag in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md).\
+     I tag vengono ereditati anche dalla versione precedente della bozza. Se aggiungi un nuovo tag alla nuova versione, vengono taggate anche le versioni precedenti.
 
-   * Aggiungi la versione a una cartella. Vedi [Gestione cartelle in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) per ulteriori informazioni. La cartella verrà copiata dalla versione precedente della bozza. Se selezioni una cartella diversa, l’intera bozza (tutte le versioni) verrà spostata.
+   * Aggiungi la versione a una cartella. Per ulteriori informazioni, vedere [Gestione cartelle in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md). La cartella verrà copiata dalla versione precedente della bozza. Se selezioni una cartella diversa, verrà spostata l’intera bozza (tutte le versioni).
 
-   * Gli amministratori e gli amministratori di fatturazione possono rendere obbligatorio il campo della cartella per l’intero account nella scheda Impostazioni. Per ulteriori informazioni, consulta .
+   * Gli amministratori di fatturazione e gli amministratori possono rendere obbligatorio il campo della cartella in tutto l’account nella scheda Impostazioni. Per ulteriori informazioni, vedere.
 
-1. In Impostazioni bozza, apporta una delle seguenti modifiche:
+1. In Impostazioni bozza apportare una delle modifiche seguenti:
 
    * Richiedi accesso alla bozza
-   * Richiedi firme elettroniche sulla bozza (solo piano aziendale)
-   * Blocca la prova quando vengono prese tutte le decisioni
+   * Richiedi firme elettroniche nella bozza (solo per il piano Enterprise)
+   * Blocca la bozza quando vengono prese tutte le decisioni
    * Consenti o blocca il download del file originale
-   * Condivisione pubblica delle prove, comprese le impostazioni di condivisione pubbliche
+   * Condivisione pubblica della bozza, incluse le impostazioni di condivisione pubbliche
    * Iscrizione alla bozza\
-      Le selezioni effettuate in questa sezione vengono visualizzate nella pagina dei dettagli Prova (dove è possibile modificare alcuni campi). Per ulteriori informazioni, consulta [Gestire i dettagli delle prove in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+     Le selezioni effettuate in questa sezione vengono visualizzate nella pagina Dettagli bozza (dove è possibile modificare alcuni campi). Per ulteriori informazioni, vedere [Gestire i dettagli della bozza in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Create a new version of a proof from the proofing viewer</h2>
@@ -224,17 +224,18 @@ If the creator or owner of&nbsp;&nbsp;the proof has
 Se nella versione precedente della bozza era incluso un oggetto/messaggio personalizzato, questo verrà visualizzato per impostazione predefinita nella pagina Nuova versione. È possibile:
 
 * Modifica l’oggetto e il messaggio.
-* Deseleziona la casella Notifica le persone per e-mail, il che significa che nessun messaggio e-mail verrà inviato ai tuoi revisori per avvisarli di avere una nuova versione da rivedere.
+* Deselezionare la casella Notify people by email (Notifica alle persone per posta elettronica), ovvero non verrà inviata alcuna e-mail ai revisori per notificare loro che dispongono di una nuova versione da rivedere.
 
-   >[!NOTE]
-    Questo non è influenzato da alcun oggetto/messaggio personalizzato predefinito salvato nelle impostazioni personali.
+  >[!NOTE]
+  >
+  > Nessun oggetto/messaggio personalizzato predefinito salvato nelle impostazioni personali influisce su questo valore.
 
-Se nelle impostazioni personali sono stati salvati un oggetto e un messaggio predefiniti, questo influisce sul messaggio visualizzato per impostazione predefinita nella pagina Nuova versione:
+Se nelle impostazioni personali sono salvati un oggetto e un messaggio predefiniti, questo influirà sul messaggio visualizzato per impostazione predefinita nella pagina Nuova versione:
 
-* Se hai scelto di inviare una notifica via e-mail ai revisori per la versione precedente della bozza utilizzando l’e-mail standard (ad esempio, nessun oggetto/messaggio personalizzato), l’oggetto/messaggio personalizzato predefinito (impostazioni personali) verrà visualizzato nella pagina Nuova versione . Puoi quindi modificare l’oggetto e il messaggio personalizzati o deselezionare la casella Notifica le persone per e-mail (ovvero non verrà inviata alcuna e-mail ai revisori per avvisarli di avere una nuova versione da rivedere).
-* Se si sceglie di non inviare una notifica tramite e-mail ai revisori per la versione precedente della bozza (ad esempio, nessuna e-mail standard o personalizzata), la pagina Nuova versione non includerà alcun messaggio per impostazione predefinita. Per informare i revisori della nuova versione, fai clic sul collegamento Invia un messaggio, che mostrerà l’oggetto/messaggio personalizzato predefinito (in base alle impostazioni personali). Puoi quindi modificare l’oggetto personalizzato e il messaggio, se necessario.
+* Se si sceglie di inviare una notifica ai revisori tramite e-mail per la versione precedente della bozza utilizzando l&#39;e-mail standard (ad esempio, nessun oggetto/messaggio personalizzato), l&#39;oggetto/messaggio personalizzato predefinito (le impostazioni personali) verrà visualizzato nella pagina Nuova versione. Puoi quindi modificare l’oggetto personalizzato e il messaggio o deselezionare la casella Notifica alle persone per e-mail (ovvero non verrà inviata alcuna e-mail ai revisori per comunicare loro che dispongono di una nuova versione da rivedere).
+* Se hai scelto di non inviare ai revisori una notifica via e-mail per la versione precedente della bozza (ad esempio, senza inviare un’e-mail standard o personalizzata), la pagina Nuova versione non includerà alcun messaggio per impostazione predefinita. Per notificare ai revisori la nuova versione, fare clic sul collegamento Invia un messaggio, che consente di visualizzare l&#39;oggetto o il messaggio personalizzato predefinito (in base alle impostazioni personali). Se necessario, puoi quindi modificare l’oggetto personalizzato e il messaggio.
 
-Se nelle impostazioni personali non è stato salvato un oggetto e un messaggio predefiniti, nella pagina Nuova versione verrà visualizzato quanto segue:
+Se nelle impostazioni personali non vengono salvati un oggetto e un messaggio predefiniti, nella pagina Nuova versione verrà visualizzato quanto segue:
 
-* Se hai scelto di inviare una notifica via e-mail ai revisori per la versione precedente della bozza utilizzando l’e-mail standard (ad esempio, nessun oggetto/messaggio personalizzato), l’opzione Notifica le persone per e-mail sarà selezionata per impostazione predefinita nella pagina Nuova versione . Per aggiungere un messaggio personalizzato, fai clic sul collegamento .
-* Se si sceglie di non inviare una notifica tramite e-mail ai revisori per la versione precedente della bozza (ad esempio, nessuna e-mail standard o personalizzata), la pagina Nuova versione non includerà alcun messaggio per impostazione predefinita. Per informare i revisori della nuova versione, fai clic sul collegamento Invia un messaggio . Puoi quindi aggiungere un oggetto e un messaggio personalizzati facendo clic sul collegamento Aggiungi messaggio personalizzato .
+* Se si sceglie di inviare una notifica ai revisori tramite e-mail per la versione precedente della bozza utilizzando l&#39;e-mail standard (ad esempio, nessun oggetto/messaggio personalizzato), nella pagina Nuova versione verrà selezionata per impostazione predefinita l&#39;opzione Notifica persone per e-mail. Per aggiungere un messaggio personalizzato, fai clic sul collegamento.
+* Se hai scelto di non inviare ai revisori una notifica via e-mail per la versione precedente della bozza (ad esempio, senza inviare un’e-mail standard o personalizzata), la pagina Nuova versione non includerà alcun messaggio per impostazione predefinita. Per notificare ai revisori la nuova versione, fare clic sul collegamento Invia un messaggio. È quindi possibile aggiungere un oggetto e un messaggio personalizzati facendo clic sul collegamento Aggiungi messaggio personalizzato.

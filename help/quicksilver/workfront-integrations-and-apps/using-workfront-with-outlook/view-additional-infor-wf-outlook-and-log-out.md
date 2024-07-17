@@ -1,8 +1,8 @@
 ---
 product-area: workfront-integrations
 navigation-topic: workfront-for-outlook
-title: Visualizza informazioni aggiuntive su Adobe Workfront per Outlook ed esci
-description: È possibile visualizzare i dettagli della versione del componente aggiuntivo Adobe Workfront per Outlook, passare direttamente alla versione Web, inviare feedback o disconnettersi.
+title: Visualizza informazioni aggiuntive su Adobe Workfront per Outlook e disconnetti
+description: È possibile visualizzare i dettagli sulla versione del componente aggiuntivo Adobe Workfront per Outlook, passare direttamente alla versione Web, inviare commenti e suggerimenti o disconnettersi.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: f2200d71-c81e-4b15-b631-07e08562609b
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# Visualizza informazioni aggiuntive su [!DNL Adobe Workfront for Outlook] e disconnessione
+# Visualizza ulteriori informazioni su [!DNL Adobe Workfront for Outlook] e disconnetti
 
-Puoi visualizzare i dettagli sulla versione di [!DNL Adobe Workfront] add-in per [!DNL Outlook], accedi direttamente alla versione web, invia feedback o disconnetti.
+È possibile visualizzare i dettagli sulla versione del componente aggiuntivo [!DNL Adobe Workfront] per [!DNL Outlook], passare direttamente alla versione Web, inviare feedback o disconnettersi.
 
 ## Requisiti di accesso
 
@@ -31,28 +31,28 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+   <td> <p>[!UICONTROL Lavoro], [!UICONTROL Piano]</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
 
 ## Prerequisiti
 
-Le [!DNL Workfront] l&#39;amministratore deve abilitare [!DNL Outlook for Office] con [!DNL Workfront] prima di poter utilizzare questa integrazione.
+L&#39;amministratore di [!DNL Workfront] deve abilitare [!DNL Outlook for Office] con [!DNL Workfront] prima di poter utilizzare questa integrazione.
 
-## Visualizza informazioni aggiuntive su [!DNL Adobe Workfront for Outlook] e disconnessione
+## Visualizza ulteriori informazioni su [!DNL Adobe Workfront for Outlook] e disconnetti
 
-1. Seleziona un messaggio e-mail in [!DNL Outlook].
-1. Fai clic su **[!DNL Workfront]** per visualizzare il componente aggiuntivo Workfront.
+1. Selezionare un&#39;e-mail in [!DNL Outlook].
+1. Fare clic sull&#39;icona **[!DNL Workfront]** per visualizzare il componente aggiuntivo Workfront.
 1. Fai clic sulla freccia a discesa accanto al nome utente.
 
-1. Fai clic su una delle seguenti opzioni:
+1. Fare clic su una delle opzioni seguenti:
 
-   * **[!UICONTROL Informazioni]:** Visualizza informazioni sul componente aggiuntivo Workfront, inclusa la versione corrente, le novità, e un collegamento a informazioni dettagliate sul sito della Guida di Workfront.
+   * **[!UICONTROL Informazioni su]:** Visualizzare informazioni sul componente aggiuntivo di Workfront, inclusa la versione corrente, le novità e un collegamento alle informazioni sulle procedure nel sito della Guida di Workfront.
    * **[!UICONTROL Versione Web]:** Avvia l&#39;applicazione Workfront completa in una nuova finestra del browser.
-   * **Invia feedback:** Invia feedback a [!DNL Workfront] relativo al componente aggiuntivo Workfront.
-   * **[!UICONTROL Logout]:** Esci da [!DNL Workfront] add-in.
+   * **Invia feedback:** Invia feedback a [!DNL Workfront] in merito al componente aggiuntivo Workfront.
+   * **[!UICONTROL Disconnessione]:** Disconnettersi dal componente aggiuntivo [!DNL Workfront].
 
-      Questa opzione non ti disconnette [!DNL Outlook].
+     Questa opzione non consente di uscire da [!DNL Outlook].

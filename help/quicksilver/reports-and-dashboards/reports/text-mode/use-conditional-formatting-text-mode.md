@@ -67,9 +67,9 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 La modalità testo consente di creare visualizzazioni, filtri, raggruppamenti e prompt più complessi, consentendo di utilizzare campi non disponibili nell&#39;interfaccia standard.
 
-Per un elenco completo di tutti i campi da segnalare, vedi  [API Explorer](../../../wf-api/general/api-explorer.md).
+Per un elenco completo di tutti i campi da segnalare, consulta [API Explorer](../../../wf-api/general/api-explorer.md).
 
-Per ulteriori informazioni sull&#39;utilizzo della sintassi in modalità testo, vedere [Panoramica sulla sintassi della modalità testo](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+Per ulteriori informazioni sull&#39;utilizzo della sintassi in modalità testo, vedere [Panoramica sulla sintassi in modalità testo](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
 È inoltre possibile utilizzare la modalità testo per formattare le visualizzazioni nei report e negli elenchi. Utilizzando la formattazione condizionale, è possibile modificare le visualizzazioni dei rapporti modificando il tipo di carattere e lo sfondo dei risultati, nonché le icone e i contrassegni. È consigliabile creare sempre le visualizzazioni utilizzando prima l’interfaccia standard e passare all’interfaccia in modalità testo solo quando assolutamente necessario.
 
@@ -79,18 +79,18 @@ Per ulteriori informazioni sull&#39;utilizzo della sintassi in modalità testo, 
 
 ## Aggiungere la formattazione condizionale alle visualizzazioni
 
-Per ulteriori informazioni sull&#39;applicazione della formattazione condizionale a una visualizzazione nell&#39;interfaccia standard del generatore, vedere [Utilizzare la formattazione condizionale nelle visualizzazioni](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+Per ulteriori informazioni sull&#39;applicazione della formattazione condizionale a una visualizzazione nell&#39;interfaccia del generatore standard, vedere [Utilizzare la formattazione condizionale nelle visualizzazioni](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
 Per aggiungere la formattazione condizionale a una visualizzazione nell&#39;interfaccia della modalità testo:
 
 1. Consente di passare a un elenco di oggetti.
 1. Espandere il menu a discesa di una visualizzazione a cui si desidera aggiungere la formattazione condizionale.
-1. Clic **Personalizza visualizzazione**.
+1. Fare clic su **Personalizza visualizzazione**.
 1. Fare clic sulla colonna della visualizzazione alla quale si desidera applicare la formattazione condizionale.
-1. Clic **Passa alla modalità testo**.
-1. In **Mostra in questa colonna:** , fare clic su **Fare clic per modificare il testo**.
-1. Aggiungi gli esempi di codice forniti in [Formattare le visualizzazioni utilizzando la modalità testo](#format-views-using-text-mode) nella parte inferiore del testo nella colonna selezionata.
-1. Clic **Salva**, quindi fai clic su **Salva visualizzazione**.
+1. Fare clic su **Passa alla modalità testo**.
+1. Nell&#39;area **Mostra in questa colonna:**, fare clic su **Fare clic per modificare il testo**.
+1. Aggiungere gli esempi di codice forniti in [Formattare le visualizzazioni utilizzando la modalità testo](#format-views-using-text-mode) nella parte inferiore del testo nella colonna selezionata.
+1. Fai clic su **Salva**, quindi su **Salva visualizzazione**.
 
 ## Formattare le visualizzazioni utilizzando la modalità testo {#format-views-using-text-mode}
 
@@ -106,13 +106,13 @@ Per aggiungere la formattazione condizionale a una visualizzazione nell&#39;inte
 
 Quando si utilizza la formattazione condizionale in una visualizzazione, è possibile personalizzare i seguenti elementi di una colonna:
 
-* [Intestazioni di colonna](#column-headers)
-* [Formato date](#format-dates)
+* [Intestazioni colonna](#column-headers)
+* [Formatta date](#format-dates)
 * [Formato numeri](#format-numbers)
 
 #### Intestazioni di colonna {#column-headers}
 
-Per modificare l’intestazione di colonna visualizzata, aggiungi il seguente codice alla colonna: `displayname= [Name of column]`. Ad esempio, per nominare una colonna Proprietario progetto, il codice di testo sarà simile al seguente:
+Per modificare l&#39;intestazione di colonna visualizzata, aggiungere il codice seguente alla colonna: `displayname= [Name of column]`. Ad esempio, per nominare una colonna Proprietario progetto, il codice di testo sarà simile al seguente:
 
 `displayname=Project Owner`
 
@@ -120,7 +120,7 @@ Per modificare l’intestazione di colonna visualizzata, aggiungi il seguente co
 
 Le date possono essere configurate per la visualizzazione in vari formati.
 
-Per ulteriori informazioni, consulta [Formattare le date nei report in modalità testo](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md).
+Per ulteriori informazioni, vedere [Formattare le date nei report in modalità testo](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
@@ -183,7 +183,7 @@ Per ulteriori informazioni, consulta [Formattare le date nei report in modalità
 
 È possibile formattare i valori numerici per visualizzare le informazioni più adatte alle proprie esigenze di reporting.
 
-Per ulteriori informazioni, consulta [Formattare numeri, valuta e valori percentuali nei report in modalità testo](../../../reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md).
+Per ulteriori informazioni, vedere [Formattare numeri, valuta e valori percentuali nei report in modalità testo](../../../reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -250,7 +250,7 @@ Le regole di colonna consentono di aggiungere immagini, colore, formattazione e 
 * [Formattazione condizionale](#conditional-formatting)
 * [Più formati condizionali](#multiple-conditional-formats)
 * [Applica testo](#apply-text)
-* [Applicare formati di riga](#apply-row-formats)
+* [Applica formati righe](#apply-row-formats)
 * [Applicare le immagini](#apply-images)
 
 #### Formattazione condizionale {#conditional-formatting}
@@ -260,7 +260,7 @@ Quando si incorpora un colore o si formatta un testo, è necessario applicare un
 >[!NOTE]
 >
 >La formattazione condizionale potrebbe non essere supportata nelle colonne unite.\
->Per ulteriori informazioni sull&#39;unione di colonne con la modalità testo, vedere [Vista: unire le informazioni provenienti da più colonne in una colonna condivisa](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+>Per ulteriori informazioni sull&#39;unione delle colonne con la modalità testo, vedere [Visualizzazione: unire le informazioni di più colonne in una colonna condivisa](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 
 Inserisci il seguente codice in qualsiasi colonna in cui desideri aggiungere la formattazione condizionale:
 
@@ -278,11 +278,11 @@ styledef.case.0.comparison.trueproperty.0.value= [format style]
 
 >[!NOTE]
 >
->Il `styledef.case.0.comparison.icon` La riga è sempre false a meno che non si utilizzino le icone.
+>La riga `styledef.case.0.comparison.icon` è sempre false a meno che non si utilizzino le icone.
 >
->Il `styledef.case.0.comparison.truetext` La riga viene sempre lasciata vuota fino a quando non si utilizza la sovrascrittura del testo.
+>La riga `styledef.case.0.comparison.truetext` viene sempre lasciata vuota fino a quando non si utilizza il testo sovrascritto.
 >
->Il `styledef.case.0.comparison.righttext` la riga è vuota quando il qualificatore non è vuoto.
+>La riga `styledef.case.0.comparison.righttext` è vuota quando il qualificatore non è vuoto.
 
 Ad esempio, se desideri visualizzare il Nome azienda in verde in un report di progetto, puoi utilizzare il seguente codice:
 
@@ -300,8 +300,8 @@ styledef.case.0.comparison.trueproperty.0.value=03a219
 
 >[!NOTE]
 >
->* Questa istruzione può essere applicata a una colonna Nome società, ma può anche essere applicata a qualsiasi altra colonna del report. Il testo verde viene visualizzato solo se al progetto è associata una società. Ricorda la `[field name]`, `[value]`, e `[qualifier]` guida, a prescindere dal fatto che il condizionamento venga visualizzato sulla colonna.
->* Quando si lavora con i qualificatori, si consiglia di utilizzare `cicontains` anziché `equal`. Per impostazione predefinita, `equal` cerca i numeri ID. Utilizzo di `cicontains` qualificatore, puoi accedere agli elementi in base al loro nome.
+>* Questa istruzione può essere applicata a una colonna Nome società, ma può anche essere applicata a qualsiasi altra colonna del report. Il testo verde viene visualizzato solo se al progetto è associata una società. Ricordare l&#39;unità `[field name]`, `[value]` e `[qualifier]`, indipendentemente dal fatto che il condizionamento venga visualizzato o meno nella colonna.
+>* Quando si lavora con i qualificatori, è consigliabile utilizzare `cicontains` anziché `equal`. Per impostazione predefinita, `equal` cerca i numeri ID. Utilizzando il qualificatore `cicontains`, è possibile accedere agli elementi in base al loro nome.
 
 ![](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png)
 
@@ -318,7 +318,7 @@ styledef.case.0.comparison.trueproperty.0.value= [format style]
 
 Utilizzare le tabelle seguenti per identificare le righe da modificare e i valori da specificare per definire lo stile di formato della colonna:
 
-| **Colore testo** | **Line: textcolor=** |
+| **Colore testo** | **Linea: textcolor=** |
 |---|---|
 | Nero | `000000` |
 | Blu scuro | `0c6aca` |
@@ -331,7 +331,7 @@ Utilizzare le tabelle seguenti per identificare le righe da modificare e i valor
 
 {style="table-layout:auto"}
 
-| **Allineamento** | **Line: align=** |
+| **Allineamento** | **Riga: align=** |
 |---|---|
 | Allineamento a sinistra | `left` |
 | Allineamento a destra | `right` |
@@ -346,7 +346,7 @@ Utilizzare le tabelle seguenti per identificare le righe da modificare e i valor
 
 {style="table-layout:auto"}
 
-| **Colore di sfondo** | **Line: bgcolor=** |
+| **Colore sfondo** | **Riga: bgcolor=** |
 |---|---|
 | Verde acqua | `dcf6f7` |
 | Verde | `def6e2` |
@@ -408,7 +408,7 @@ styledef.case.0.comparison.truetext=not today
 
 >[!NOTE]
 >
->Le righe che iniziano con `case.0.` confronti tra casi d’uso per identificare l’utilizzo del testo. Le righe che iniziano con `styledef.case.0.` sono le prime istruzioni di formattazione condizionale in cui viene identificato l’utilizzo del testo tramite `truetext` espressione. Assicurati di impostare `truetext` a un valore, anziché lasciarlo vuoto.
+>Le righe che iniziano con `case.0.` confronti tra casi d&#39;uso per identificare l&#39;uso del testo. Le righe che iniziano con `styledef.case.0.` sono le prime istruzioni di formattazione condizionale in cui viene identificato l&#39;utilizzo del testo tramite l&#39;espressione `truetext`. Assicurarsi di impostare `truetext` su un valore, anziché lasciarlo vuoto.
 
 ![](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png)
 
@@ -473,7 +473,7 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 
 >[!NOTE]
 >
->Si noti che l&#39;istruzione utilizza `icon=true` espressione. Questa istruzione è diversa anche da altre istruzioni di formattazione condizionale in quanto non utilizza `style.def` ma piuttosto un formato immagine univoco.
+>L&#39;istruzione utilizza l&#39;espressione `icon=true`. Questa istruzione è diversa anche da altre istruzioni di formattazione condizionale in quanto non utilizza il formato `style.def`, ma un formato immagine univoco.
 
 ![](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png)
 
@@ -485,11 +485,11 @@ Per utilizzare le immagini disponibili, applica il codice e i valori seguenti:
 |---|---|
 | Faccia accigliata ![](assets/face-sad.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
 | Volto felice ![](assets/face-happy.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif` |
-| Flag blu  ![](assets/flag-blue-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif` |
-| Flag verde  ![](assets/flag-green-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
-| Segnalazione rossa  ![](assets/flag-red-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
-| Flag giallo  ![](assets/flag-yellow-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
-| Cerchio nero  ![](assets/dot-black.png) | =`/interface/images/v4_redux/icons/casebuilder/light_black.gif` |
+| Flag blu ![](assets/flag-blue-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif` |
+| Flag verde ![](assets/flag-green-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
+| Contrassegno rosso ![](assets/flag-red-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
+| Flag giallo ![](assets/flag-yellow-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
+| Cerchio nero ![](assets/dot-black.png) | =`/interface/images/v4_redux/icons/casebuilder/light_black.gif` |
 | Cerchio blu ![](assets/dot-blue.png) | =`/interface/images/v4_redux/icons/casebuilder/light_blue.gif` |
 | Cerchio grigio ![](assets/dot-gray.png) | =`/interface/images/v4_redux/icons/casebuilder/light_grey.gif` |
 | Cerchio verde ![](assets/dot-green.png) | =`/interface/images/v4_redux/icons/casebuilder/light_green.gif` |
@@ -502,15 +502,15 @@ Per utilizzare le immagini disponibili, applica il codice e i valori seguenti:
 
 {style="table-layout:auto"}
 
-### Formattare in modo condizionale una `valueexpression` {#conditionally-format-a-valueexpression}
+### Formatta in modo condizionale `valueexpression` {#conditionally-format-a-valueexpression}
 
-Per visualizzare un valore calcolato in una colonna, è possibile sostituire il `valuefield` riga di codice nella colonna con una `valueexpression`. Un valore calcolato consente di visualizzare un nuovo valore per un oggetto in base al calcolo tra due campi esistenti sullo stesso oggetto.
+Per visualizzare un valore calcolato in una colonna, è possibile sostituire la riga di codice `valuefield` nella colonna con `valueexpression`. Un valore calcolato consente di visualizzare un nuovo valore per un oggetto in base al calcolo tra due campi esistenti sullo stesso oggetto.
 
-Per ulteriori informazioni su come formattare `valueexpression line`, vedi [Panoramica sulla sintassi della modalità testo](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+Per ulteriori informazioni su come formattare `valueexpression line`, vedere [Panoramica sulla sintassi della modalità testo](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
-Non è possibile formattare in modo condizionale una colonna che contiene `valueexpression` riga di codice. È invece possibile aggiungere un campo personalizzato calcolato a un modulo personalizzato e associarlo agli oggetti visualizzati nel report. È quindi possibile formattare in modo condizionale le colonne che visualizzano questo campo.
+Impossibile formattare in modo condizionale una colonna contenente una riga di codice `valueexpression`. È invece possibile aggiungere un campo personalizzato calcolato a un modulo personalizzato e associarlo agli oggetti visualizzati nel report. È quindi possibile formattare in modo condizionale le colonne che visualizzano questo campo.
 
-Per ulteriori informazioni sui campi personalizzati calcolati, vedi [Aggiungere dati calcolati a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Per ulteriori informazioni sui campi personalizzati calcolati, vedere [Aggiungere dati calcolati a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 ## Aggiungere un valore aggregatore in una colonna Modalità testo
 
@@ -524,7 +524,7 @@ Quando si aggiungono aggregatori a una colonna in modalità testo, tenere presen
    * Data
    * Valuta
 
-* È possibile aggiungere un aggregatore a una colonna che visualizza un calcolo. Il valore aggregato viene visualizzato nel raggruppamento della visualizzazione o del report. Per ulteriori informazioni, consulta [Raggruppamento: visualizza il risultato dell’aggregazione di più valori calcolati in un raggruppamento](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
+* È possibile aggiungere un aggregatore a una colonna che visualizza un calcolo. Il valore aggregato viene visualizzato nel raggruppamento della visualizzazione o del report. Per ulteriori informazioni, vedere [Raggruppamento: visualizzare il risultato dell&#39;aggregazione di più valori calcolati in un raggruppamento](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
 * Le righe di codice per la definizione della colonna devono essere identiche alle righe di codice che introducono l&#39;aggregatore e precedute da &quot;aggregatore&quot;. Ad esempio, in una colonna in cui vengono visualizzate le ore pianificate in un progetto, la modalità testo delle righe principali della colonna è:
 
 ```
@@ -534,10 +534,10 @@ Quando si aggiungono aggregatori a una colonna in modalità testo, tenere presen
 
 Quando si desidera aggregare i valori di tutte le righe nel raggruppamento della visualizzazione, è possibile aggiungere il codice seguente per aggiungere i valori aggregatore:
 
-`aggregator.valuefield=workRequired` (il `aggregator.valuefield` la riga deve essere uguale alla `valuefield` che descrive la colonna)
+`aggregator.valuefield=workRequired` (la riga `aggregator.valuefield` deve essere uguale a `valuefield` che descrive la colonna)
 
-`aggregator.valueformat=compound` (il `aggregator.valueformat` la riga deve avere lo stesso valore della `valueformat` che descrive la colonna)
+`aggregator.valueformat=compound` (la riga `aggregator.valueformat` deve avere lo stesso valore di `valueformat` che descrive la colonna)
 
-`aggregator.function=SUM` (questa è una riga obbligatoria che indica come aggregare la colonna; in questo caso, si desidera aggiungere tutte le singole ore pianificate in un unico numero nella riga di raggruppamento)
+`aggregator.function=SUM` (riga obbligatoria che indica come aggregare la colonna. In questo caso, aggiungere tutte le singole ore pianificate in un unico numero nella riga di raggruppamento)
 
-`aggregator.displayformat=minutesAsHoursString` (poiché le ore sono memorizzate in Workfront in pochi minuti, è necessario indicare `displayformat` per le ore in cui sono conservati in minuti)
+`aggregator.displayformat=minutesAsHoursString` (poiché le ore sono archiviate in Workfront in pochi minuti, si desidera indicare `displayformat` per le ore archiviate in pochi minuti)

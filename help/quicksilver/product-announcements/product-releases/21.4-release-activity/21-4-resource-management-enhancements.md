@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti alla gestione delle risorse apportati con la versione 21.4 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 4 ottobre 2021.
 
-Per un elenco di tutte le modifiche disponibili con la versione 21.4, consulta [Panoramica sulla versione 21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 21.4, consulta la [Panoramica sulla versione 21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Eseguire assegnazioni rapide nel Bilanciatore dei carichi di lavoro
 
@@ -25,7 +25,7 @@ Per un elenco di tutte le modifiche disponibili con la versione 21.4, consulta [
 
 Prima di questo miglioramento, era possibile assegnare gli elementi solo facendo clic sul menu Altro di un’attività o di un problema e utilizzando l’opzione Assegna. Ora le ore pianificate assegnate all’utente vengono aggiornate in tempo reale durante il trascinamento delle attività.
 
-Per informazioni sull&#39;assegnazione degli elementi di lavoro nel Bilanciatore dei carichi di lavoro, vedere [Panoramica sull’assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Per informazioni sull&#39;assegnazione di elementi di lavoro nel Bilanciatore dei carichi di lavoro, vedere [Panoramica sull&#39;assegnazione di lavoro nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Nuova opzione predefinita per il Bilanciatore dei carichi di lavoro
 
@@ -48,5 +48,5 @@ Per ulteriori informazioni, consulta [Gestire i filtri nel Bilanciatore dei cari
 
 >[!NOTE]
 >
->Con gli aggiornamenti del filtro, è stato eliminato il **Tutti gli elementi di lavoro** e **Elementi di lavoro di questo progetto** filtri incorporati nel Bilanciatore dei carichi di lavoro di un progetto.
+>Con gli aggiornamenti del filtro sono stati eliminati i filtri incorporati **Tutti gli elementi di lavoro** e **Elementi di lavoro di questo progetto** nel Bilanciatore dei carichi di lavoro di un progetto.
 

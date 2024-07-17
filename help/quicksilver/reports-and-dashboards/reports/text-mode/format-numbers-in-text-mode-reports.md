@@ -19,7 +19,7 @@ ht-degree: 7%
 
 I valori numerici, inclusa la valuta, possono essere configurati per la visualizzazione in diversi formati nei rapporti ed elenchi in Adobe Workfront.
 
-Per modificare il formato di un valore numerico, è necessario modificare **valueformat** riga della colonna.
+Per modificare il formato di un valore numerico, è necessario modificare la riga **valueformat** della colonna.
 
 Ad esempio, per visualizzare la colonna Budget come $1000, la riga del formato del valore sarà simile alla seguente:
 
@@ -30,11 +30,11 @@ valuefield=budget
 
 Per ulteriori informazioni sull&#39;applicazione della formattazione condizionale nei report e negli elenchi di Workfront utilizzando la modalità testo, vedere [Utilizzare la formattazione condizionale in modalità testo](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
-È possibile formattare i numeri utilizzando i seguenti valori per `valueformat` riga della colonna:
+È possibile formattare i numeri utilizzando i seguenti valori per la riga `valueformat` della colonna:
 
 | Esempio | `valueformat=` |
 |---|---|
-| 1234 | <pre>doubleAsString</pre> <br>o <br><pre>int</pre> |
+| 1234 | <pre>doubleAsString</pre> <br> o <br><pre>int</pre> |
 | 1.234 | <pre>doubleAsInt</pre> |
 | $1,234 | <pre>currencyStringCurrencyRounded</pre> |
 | 1234,56 | <pre>doubleAsDouble</pre> |

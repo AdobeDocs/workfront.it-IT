@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >La procedura descritta in questa pagina si applica solo alle organizzazioni che non sono ancora state caricate in [!UICONTROL Adobe Admin Console].
 >
->Se per la tua organizzazione è stato eseguito l’onboarding in [!UICONTROL Adobe Admin Console], vedi [Differenze di amministrazione basate sulla piattaforma ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Se la tua organizzazione è stata integrata in [!UICONTROL Adobe Admin Console], vedi [Differenze di amministrazione basate su Platform ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 ## Problema
 
@@ -47,14 +47,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] licenza</td> 
+   <td role="rowheader">Licenza Adobe [!DNL Workfront]</td> 
    <td> 
    <p>Nuovo: Standard</p>
    <p>Corrente: Piano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Devi essere un [!DNL Workfront] amministratore. Per ulteriori informazioni, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente l'accesso amministrativo completo</a>.</p>  </td> 
+   <td> <p>Devi essere un amministratore [!DNL Workfront]. Per ulteriori informazioni, vedere <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente l'accesso amministrativo completo</a>.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,10 +65,10 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Soluzione
 
-1. Nel server ADFS Manager, andare a **[!UICONTROL Relazioni di attendibilità]** > **[!UICONTROL Trust relying party]** > `<your party trust>` proprietà.
+1. Nel server di gestione ADFS, passare a **[!UICONTROL Relazioni di trust]** > **[!UICONTROL Trust tra entità]** > `<your party trust>` proprietà.
 
-1. Sotto **[!UICONTROL Endpoint]** , fare clic su **[!UICONTROL Aggiungi]**.
+1. Nella scheda **[!UICONTROL Endpoints]**, fai clic su **[!UICONTROL Aggiungi]**.
 
-1. **[!UICONTROL Tipo di endpoint]** = Logout SAML, Binding = POST, URL = https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0
+1. **[!UICONTROL Tipo endpoint]** = Disconnessione SAML, Binding = POST, URL = https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0
 
    Puoi impostare un URL di risposta se desideri che venga reindirizzato a un’altra pagina. Tuttavia, è consigliabile utilizzare il sito ADFS perché avverte che è stata eseguita la disconnessione, ma è comunque necessario chiudere il browser.

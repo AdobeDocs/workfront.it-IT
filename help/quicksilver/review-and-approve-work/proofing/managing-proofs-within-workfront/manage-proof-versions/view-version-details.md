@@ -1,6 +1,6 @@
 ---
-title: Visualizzare e gestire i dettagli della versione di prova
-description: Visualizzare e gestire i dettagli della versione di prova
+title: Visualizzare e gestire i dettagli della versione della bozza
+description: Visualizzare e gestire i dettagli della versione della bozza
 author: Courtney
 draft: Probably
 feature: Digital Content and Documents
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 ---
 
-# Visualizzare e gestire i dettagli della versione di prova
+# Visualizzare e gestire i dettagli della versione della bozza
 
 Puoi visualizzare e gestire i dettagli della bozza.
 
@@ -25,48 +25,48 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
-   <td> <p>Piano attuale: Pro o superiore</p> <p>oppure</p> <p>Piano legacy: Seleziona o Premium</p> <p>Per ulteriori informazioni sulla verifica dell’accesso con i diversi piani, consulta <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accesso alle funzionalità di correzione in Workfront</a>.</p> </td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td> <p>Piano corrente: Pro o superiore</p> <p>oppure</p> <p>Piano legacy: Seleziona o Premium</p> <p>Per ulteriori informazioni sulla verifica dell'accesso con i diversi piani, vedere <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accesso alla funzionalità di verifica in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano attuale: Lavoro o piano</p> <p>Piano legacy: Qualsiasi (è necessario che la correzione sia attivata per l’utente)</p> </td> 
+   <td> <p>Piano corrente: Lavoro o Piano</p> <p>Piano legacy: qualsiasi (per l’utente deve essere abilitata la verifica)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Profilo autorizzazione bozza </td> 
    <td>Manager o superiore</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Modifica accesso ai documenti</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modifica accesso ai documenti</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il ruolo o il profilo delle autorizzazioni di prova, contattare l&#39;amministratore Workfront o Workfront Proof.
+&#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
 
-## Visualizzare e gestire i dettagli di una versione di prova precedente
+## Visualizzare e gestire i dettagli di una versione di bozza precedente
 
-1. Nell’elenco dei documenti, passa il cursore del mouse sulla riga contenente la bozza, quindi fai clic su **Dettagli documento**.
-1. Nella parte superiore della pagina Dettagli documento fare clic sul menu a discesa accanto al nome, quindi fare clic sul nome della versione che si desidera visualizzare e gestire.
+1. In un elenco di documenti, passa il cursore del mouse sulla riga contenente la bozza, quindi fai clic su **Dettagli documento**.
+1. Nella parte superiore della pagina Dettagli documento fare clic sul menu a discesa accanto al nome, quindi sul nome della versione che si desidera visualizzare e gestire.
 
    ![](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
 
-   Oltre a visualizzare i dettagli della versione, puoi apportare modifiche alla versione, ad esempio nome, metadati e impostazioni di correzione (se è una bozza del documento).
+   Oltre a visualizzare i dettagli della versione, è possibile modificarne il nome, i metadati e le impostazioni di correzione (se si tratta di una bozza di documento).
 
-## Visualizzare i dettagli di correzione per una versione precedente
+## Visualizzare i dettagli della verifica per una versione precedente
 
-Gli utenti devono disporre di una licenza di correzione per visualizzare i dettagli della prova di una versione precedente di un documento protetto.
+Gli utenti devono disporre di una licenza di verifica per visualizzare i dettagli di una bozza di una versione precedente di un documento revisionato.
 
-1. Passa al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
-1. Trova la prova di cui hai bisogno.
-1. In **Versione** nell&#39;area Riepilogo, fai clic sulla versione, quindi fai clic su **Dettagli** nell’elenco a discesa visualizzato.
+1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
+1. Trova la bozza necessaria.
+1. Nell&#39;area **Versione** del riepilogo, fare clic sulla versione, quindi su **Dettagli** nell&#39;elenco a discesa visualizzato.
 
-1. Nella pagina Dettagli documento fare clic su **Flusso di lavoro di correzione** nel pannello a sinistra per effettuare una delle seguenti operazioni:
+1. Nella pagina Dettagli documento, fare clic su **Flusso di lavoro di verifica** nel pannello sinistro per eseguire una delle operazioni seguenti:
 
    * Aggiungi un flusso di lavoro automatizzato. Per ulteriori informazioni, consulta la sezione nell’articolo .
-   * Condividi l’URL pubblico della bozza. Per ulteriori informazioni, consulta [Condivisione di un collegamento a una bozza](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#share) in [Condividere una bozza in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
-   * Visualizza tutte le attività che si sono verificate sulla bozza.
+   * Condividi l’URL pubblico della bozza. Per ulteriori informazioni, vedere [Condividere un collegamento a una bozza](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#share) in [Condividere una bozza in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+   * Visualizza tutte le attività verificatesi sulla bozza.
    * Invia messaggi di promemoria ai revisori sulla bozza.
 
 1. Fai clic su **Fine**.

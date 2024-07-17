@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Attività di rilascio 2018.3 Beta 1
-description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.3 Beta 1. La funzionalità sarà disponibile nell’ambiente di anteprima il 1° giugno 2018. I miglioramenti della bozza rilasciati con Beta 1 saranno disponibili nell’ambiente di anteprima mercoledì 18 luglio. Sarà disponibile nell’ambiente di produzione a novembre 2018.
+title: Attività sulla versione 2018.3 di Beta 1
+description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.3 di Beta 1. La funzionalità sarà disponibile nell’ambiente di anteprima il 1° giugno 2018. I miglioramenti della bozza rilasciati con Beta 1 saranno disponibili nell’ambiente di anteprima mercoledì 18 luglio. Sarà disponibile nell’ambiente di produzione a novembre 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,21 +14,21 @@ ht-degree: 0%
 
 ---
 
-# Attività di rilascio 2018.3 Beta 1
+# Attività sulla versione 2018.3 di Beta 1
 
-Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.3 Beta 1. La funzionalità sarà disponibile nell’ambiente di anteprima il 1° giugno 2018. I miglioramenti della bozza rilasciati con Beta 1 saranno disponibili nell’ambiente di anteprima mercoledì 18 luglio. Sarà disponibile nell’ambiente di produzione a novembre 2018.
+Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.3 di Beta 1. La funzionalità sarà disponibile nell’ambiente di anteprima il 1° giugno 2018. I miglioramenti della bozza rilasciati con Beta 1 saranno disponibili nell’ambiente di anteprima mercoledì 18 luglio. Sarà disponibile nell’ambiente di produzione a novembre 2018.
 
 >[!NOTE]
 >
 > La funzionalità descritta in questa pagina è soggetta a modifiche prima della disponibilità nell’ambiente di produzione.
 
-Per un elenco di tutte le modifiche apportate nel 2018.3, consulta  [Panoramica sull’attività della versione 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Per un elenco di tutte le modifiche apportate nel 2018.3, consulta  Panoramica sull&#39;attività della versione di [2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
-La versione 2018.3 Beta 1 contiene i seguenti miglioramenti:
+La versione 2018.3 di Beta 1 contiene i seguenti miglioramenti:
 
-* [Accedere alle richieste del team nella Home](#access-team-requests-in-home)
+* [Accedi alle richieste del team nella Home](#access-team-requests-in-home)
 * [Visualizza informazioni attività nel diagramma di Gantt dell&#39;elenco progetti](#view-task-information-in-the-project-list-gantt-chart)
-* [Miglioramenti durante l&#39;esportazione delle visualizzazioni Ruolo e Progetto della Programmazione delle risorse](#improvements-when-exporting-the-role-and-project-views-of-the-resource-planner)
+* [Miglioramenti durante l&#39;esportazione delle visualizzazioni Ruolo e Progetto della Programmazione delle Risorse](#improvements-when-exporting-the-role-and-project-views-of-the-resource-planner)
 * [Accedere a più bozze direttamente dal visualizzatore di bozze (Workfront Proof)](#access-multiple-proofs-directly-from-the-proofing-viewer-workfront-proof)
 
 ## Accedere alle richieste del team nella Home {#access-team-requests-in-home}
@@ -37,7 +37,7 @@ Ora è possibile accedere a Richieste team nella sezione Home.
 
 Prima di questa modifica, era possibile accedere solo alle Richieste di lavoro dall’area Home.
 
-Per ulteriori informazioni, consulta [Gestire le richieste di lavoro e team nell’area Home](../../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md).
+Per ulteriori informazioni, vedere [Gestire le richieste di lavoro e team nell&#39;area Home](../../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md).
 
 ## Visualizza informazioni attività nel diagramma di Gantt dell&#39;elenco progetti {#view-task-information-in-the-project-list-gantt-chart}
 
@@ -45,7 +45,7 @@ Per ulteriori informazioni, consulta [Gestire le richieste di lavoro e team nell
 
 In precedenza era possibile visualizzare le informazioni sulle attività solo nel Diagramma di Gantt Elenco attività o all&#39;interno di un progetto.
 
-Per ulteriori informazioni, consulta [Visualizzare le informazioni nel diagramma di Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md) nell’articolo [Visualizzare le informazioni nel diagramma di Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
+Per ulteriori informazioni, vedere [Visualizzare informazioni nel Diagramma di Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md) nell&#39;articolo [Visualizzare informazioni nel Diagramma di Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
 
 ## Miglioramenti durante l&#39;esportazione delle visualizzazioni Ruolo e Progetto della Programmazione delle risorse {#improvements-when-exporting-the-role-and-project-views-of-the-resource-planner}
 
@@ -56,7 +56,7 @@ Prima di questo miglioramento, era necessario effettuare le seguenti operazioni:
 * Espandere manualmente tutti i livelli di informazioni (ruolo, progetto e utente), quindi esportarli dalla Programmazione delle risorse nella Vista ruolo.
 * Scorri manualmente fino alla parte inferiore dell’elenco per esportare tutti i livelli di informazioni (progetto, ruolo e utente) dalla Programmazione delle risorse nella Vista progetto.
 
-Per ulteriori informazioni sull&#39;esportazione della Programmazione delle risorse, vedi [Limitazioni della visualizzazione di Programmazione delle risorse](../../../../resource-mgmt/resource-planning/resource-planner-display-limitations.md).
+Per ulteriori informazioni sull&#39;esportazione della Programmazione delle risorse, vedere [Limitazioni di visualizzazione della Programmazione delle risorse](../../../../resource-mgmt/resource-planning/resource-planner-display-limitations.md).
 
 ## Accedere a più bozze direttamente dal visualizzatore di bozze (Workfront Proof) {#access-multiple-proofs-directly-from-the-proofing-viewer-workfront-proof}
 
@@ -70,4 +70,4 @@ In precedenza, quando si utilizzava Workfront Proof, non era possibile accedere 
 
 Questa funzionalità è disponibile solo quando si utilizza il Visualizzatore bozze Web o il Visualizzatore bozze desktop e non quando si utilizza il Visualizzatore bozze legacy.
 
-Per ulteriori informazioni, consulta [Utilizzare più bozze nel visualizzatore di bozze](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/work-with-multiple-proofs.md).
+Per ulteriori informazioni, vedere [Utilizzare più bozze nel visualizzatore di bozze](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/work-with-multiple-proofs.md).

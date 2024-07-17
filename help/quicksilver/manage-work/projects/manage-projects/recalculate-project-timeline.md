@@ -1,25 +1,25 @@
 ---
 product-area: projects
 navigation-topic: manage-projects
-title: Ricalcolare le timeline dei progetti
-description: Il ricalcolo delle timeline consente ai responsabili di vedere come diversi fattori correlati al progetto influiscono sulla timeline del progetto. La timeline di un progetto si riferisce alle date pianificate e proiettate.
+title: Ricalcolare i timeline dei progetti
+description: Il ricalcolo delle sequenze temporali consente ai responsabili di vedere in che modo fattori diversi correlati al progetto influiscono sulla sequenza temporale del progetto. La tempistica di un progetto si riferisce a date pianificate e previste.
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
 source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1021'
 ht-degree: 0%
 
 ---
 
-# Ricalcolare le timeline dei progetti
+# Ricalcolare i timeline dei progetti
 
-Il ricalcolo delle timeline consente ai responsabili di vedere come diversi fattori correlati al progetto influiscono sulla timeline del progetto. La timeline di un progetto si riferisce alle date pianificate e proiettate.
+Il ricalcolo delle sequenze temporali consente ai responsabili di vedere in che modo fattori diversi correlati al progetto influiscono sulla sequenza temporale del progetto. La tempistica di un progetto si riferisce a date pianificate e previste.
 
-Le modifiche apportate alle pianificazioni, al tempo di inattività del personale e ad altri elementi che non rientrano nell’ambito di un progetto non influiscono immediatamente sulla timeline del progetto. La timeline del progetto viene interessata dal ricalcolo della timeline. Le influenze esterne hanno effetto sul progetto solo dopo il ricalcolo.
+Le modifiche apportate alle pianificazioni, alle ferie del personale e ad altri elementi al di fuori dell’ambito di un progetto non influiscono immediatamente sulla sequenza temporale del progetto. La sequenza temporale del progetto è interessata dal ricalcolo. Le influenze esterne non hanno effetto sul progetto fino a quando non si verifica il ricalcolo.
 
-Questo articolo descrive i modi in cui avviene il ricalcolo della timeline.
+Questo articolo descrive i modi in cui si verifica il ricalcolo della sequenza temporale.
 
 ## Requisiti di accesso
 
@@ -53,16 +53,16 @@ Questo articolo descrive i modi in cui avviene il ricalcolo della timeline.
  </tbody> 
 </table>
 -->
-Il ricalcolo automatico della timeline avviene senza un accesso speciale per gli utenti coinvolti nell’attività di progetto.
+Il ricalcolo automatico della sequenza temporale viene eseguito senza l&#39;accesso speciale per gli utenti coinvolti nel progetto.
 
-Tuttavia, per ricalcolare manualmente la timeline di un progetto è necessario disporre del seguente accesso:
+Tuttavia, per ricalcolare manualmente la timeline di un progetto, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
@@ -70,46 +70,46 @@ Tuttavia, per ricalcolare manualmente la timeline di un progetto è necessario d
    <td> <p>Piano </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Modifica accesso a progetti</p> <p>L’amministratore di sistema ricalcola la cronologia di tutti i progetti nel sistema</p> <p><b>NOTA</b>
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modifica accesso ai progetti</p> <p>L’amministratore di sistema ricalcola la timeline per tutti i progetti nel sistema</p> <p><b>NOTA</b>
 
-Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
+Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Ricalcolo automatico
 
-Per impostazione predefinita, le timeline del progetto vengono ricalcolate automaticamente ogni giorno quando l’ambito del progetto cambia o ogni notte. L’amministratore di Workfront determina se calcolare automaticamente le timeline ogni notte o con ogni modifica dell’ambito gestendo le impostazioni delle timeline nell’area Preferenze progetto di Configurazione. Per ulteriori informazioni, consulta [Configurare i calcoli della timeline per i progetti](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+Per impostazione predefinita, le sequenze temporali del progetto vengono ricalcolate automaticamente ogni giorno quando l’ambito del progetto cambia o ogni notte. L’amministratore di Workfront determina se calcolare automaticamente le timeline ogni notte o con ogni modifica dell’ambito gestendo le impostazioni delle Timeline nell’area Preferenze progetto di Configura. Per ulteriori informazioni, vedere [Configurare i ricalcoli della sequenza temporale per i progetti](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
 >[!NOTE]
 >
->Se la tempistica di un progetto è superiore a 15 anni, il ricalcolo automatico è disattivato per quel progetto. È possibile selezionare solo un tipo di aggiornamento manuale per un progetto di durata superiore a 15 anni. Se cambi le date del progetto con meno di 15 anni, devi ricalcolare manualmente la timeline una volta prima che venga calcolata automaticamente.
+>Se la cronologia di un progetto supera i 15 anni, il ricalcolo automatico viene disattivato per tale progetto. È possibile selezionare solo il tipo di aggiornamento Manuale per un progetto di durata superiore a 15 anni. Se si modificano le date del progetto in meno di 15 anni, è necessario ricalcolare manualmente la sequenza temporale una volta prima che venga calcolata automaticamente.
 
-* [Ricalcolo automatico delle timeline del progetto](#automatic-recalculation-of-project-timelines)
-* [Azioni che attivano un ricalcolo automatico delle timeline dei progetti](#actions-that-trigger-an-automatic-recalculation-of-project-timelines)
+* [Ricalcolo automatico delle sequenze temporali del progetto](#automatic-recalculation-of-project-timelines)
+* [Azioni che attivano il ricalcolo automatico delle sequenze temporali del progetto](#actions-that-trigger-an-automatic-recalculation-of-project-timelines)
 
-### Ricalcolo automatico delle timeline del progetto {#automatic-recalculation-of-project-timelines}
+### Ricalcolo automatico delle sequenze temporali del progetto {#automatic-recalculation-of-project-timelines}
 
-Adobe Workfront ricalcola giornalmente le timeline solo per i progetti in cui sono soddisfatte tutte le seguenti condizioni:
+Adobe Workfront ricalcola le sequenze temporali ogni giorno solo per i progetti in cui sono soddisfatte tutte le seguenti condizioni:
 
-* Hanno lo stato Current
-* Tipo di aggiornamento del progetto è impostato su Automatico o Automatico e su Modifica
+* Hanno lo stato Attuale
+* Tipo di aggiornamento del progetto è impostato su Automatico o Automatico e su In modifica
 
-   Per informazioni sul tipo di progetto Tipo di aggiornamento, consulta [Panoramica sul tipo di aggiornamento del progetto](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
+  Per informazioni sul tipo di aggiornamento del progetto, vedere [Panoramica sul tipo di aggiornamento del progetto](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
 
-* Avere una Data ultimo aggiornamento negli ultimi tre mesi\
-   L’amministratore Workfront può modificare questa funzionalità predefinita, come descritto in [Configurare i calcoli della timeline per i progetti](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+* Hanno una data dell’ultimo aggiornamento negli ultimi tre mesi\
+  L&#39;amministratore di Workfront può modificare questa funzionalità predefinita, come descritto in [Configurare i ricalcoli della sequenza temporale per i progetti](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
-* L&#39;ultima data di calcolo della timeline del progetto non si trova nel giorno di calendario corrente. Ciò significa che l’ultima data di calcolo della timeline del progetto è precedente alle 00:00 del giorno corrente.
+* L&#39;ultima data di calcolo della sequenza temporale del progetto non rientra nel giorno di calendario corrente. Ciò significa che la data dell&#39;ultimo calcolo della sequenza temporale del progetto è precedente alle 00:00 del giorno corrente.
 
-Puoi configurare la frequenza di aggiornamento della timeline del progetto. Quando la timeline del progetto viene aggiornata, viene ricalcolata in base alle modifiche apportate al progetto.
+Puoi configurare la frequenza con cui viene aggiornata la timeline per il progetto. Quando la sequenza temporale del progetto viene aggiornata, viene ricalcolata in base alle modifiche apportate al progetto.
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -122,7 +122,7 @@ or changes made to another project that the timeline is dependent on
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: above, the last part is drafted because of this: I don't think this is right because we told people that in the case of cross-project predecessors, the timeline must be calculated manually for the successor to see the updates in the predecessor's project. Drafting for now.)</p>
 -->
 
-Per informazioni, consulta [Seleziona il tipo di aggiornamento del progetto](../../../manage-work/projects/manage-projects/select-project-update-type.md).
+Per informazioni, vedere [Selezionare il tipo di aggiornamento del progetto](../../../manage-work/projects/manage-projects/select-project-update-type.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -145,71 +145,71 @@ If the timeline of a project is longer than 15 years, the automatic recalculatio
 </div>
 -->
 
-### Azioni che attivano un ricalcolo automatico delle timeline dei progetti {#actions-that-trigger-an-automatic-recalculation-of-project-timelines}
+### Azioni che attivano il ricalcolo automatico delle sequenze temporali del progetto {#actions-that-trigger-an-automatic-recalculation-of-project-timelines}
 
-Varie modifiche dell’ambito nel ciclo di vita di un progetto ricalcolano automaticamente la timeline del progetto, comprese le azioni seguenti:
+Varie modifiche di ambito nella durata di un progetto ricalcolano automaticamente la sequenza temporale del progetto, incluse le azioni seguenti:
 
 * Aggiornamento dello stato dell&#39;attività.
 * Spostamento di un&#39;attività in un progetto diverso.
 * Aggiornamento della data pianificata o delle date di completamento pianificate delle attività.
-* Aggiornamento del tipo di durata, del vincolo di attività o del numero di assegnatari nelle attività.
-* Aggiornamento delle relazioni predecessori delle attività.
-* Aggiunta di un&#39;approvazione a un&#39;attività che aggiunge anche tempo alla data di completamento pianificata dell&#39;attività.\
-   Per ulteriori informazioni sulle impostazioni di approvazione, vedi [Configurare le impostazioni di approvazione globali](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
+* Aggiornamento del tipo di durata, del vincolo dell&#39;attività o del numero di assegnatari delle attività.
+* Aggiornamento delle relazioni dei predecessori delle attività.
+* Aggiungendo un&#39;approvazione a un&#39;attività si aggiunge anche del tempo alla Data di completamento pianificata dell&#39;attività.\
+  Per ulteriori informazioni sulle impostazioni di approvazione, vedere [Configurare le impostazioni di approvazione globali](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
 
 ## Ricalcolo manuale {#manual-recalculation}
 
-In qualità di proprietario del progetto, puoi ricalcolare manualmente le timeline per i singoli progetti. L’amministratore di Workfront può ricalcolare manualmente tutte le timeline in Workfront.
+In qualità di proprietario di un progetto, puoi ricalcolare manualmente le tempistiche per i singoli progetti. L’amministratore di Workfront può ricalcolare manualmente tutte le timeline in Workfront.
 
-* [Ricalcolare le timeline per singoli progetti o in serie](#recalculate-timelines-for-individual-projects-or-in-bulk)
+* [Ricalcolare i timeline per singoli progetti o in blocco](#recalculate-timelines-for-individual-projects-or-in-bulk)
 * [Ricalcolare manualmente le timeline in blocco nella casella Modifica progetti](#manually-recalculate-timelines-in-bulk-in-the-edit-projects-box)
-* [Ricalcola le timeline per tutti i progetti nel sistema (solo per amministratori Workfront)](#recalculate-timelines-for-all-projects-in-the-system-workfront-administrators-only)
+* [Ricalcolare le tempistiche per tutti i progetti nel sistema (solo per amministratori Workfront)](#recalculate-timelines-for-all-projects-in-the-system-workfront-administrators-only)
 
-### Ricalcolare le timeline per singoli progetti o in serie {#recalculate-timelines-for-individual-projects-or-in-bulk}
+### Ricalcolare le tempistiche per singoli progetti o in blocco {#recalculate-timelines-for-individual-projects-or-in-bulk}
 
-Puoi ricalcolare la timeline di un progetto in Workfront dalla pagina del progetto o da un elenco o da un rapporto di progetto.
+È possibile ricalcolare la sequenza temporale di un progetto in Workfront dalla pagina del progetto o da un elenco o report di progetti.
 
-1. Passa al progetto per il quale desideri ricalcolare la timeline e fai clic sul pulsante **Altro** icona ![](assets/qs-more-menu.png) a sinistra del nome del progetto
+1. Vai al progetto per il quale vuoi ricalcolare la timeline e fai clic sull&#39;icona **Altro** ![](assets/qs-more-menu.png) a sinistra del nome del progetto
 
    ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    Oppure
 
-   Vai a un elenco o a un rapporto di progetti e seleziona uno o più progetti, quindi fai clic su **Altro** icona ![](assets/qs-more-menu.png) in cima all&#39;elenco.
+   Vai a un elenco o a un report di progetti e seleziona uno o più progetti, quindi fai clic sull&#39;icona **Altro** ![](assets/qs-more-menu.png) nella parte superiore dell&#39;elenco.
 
    ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
-   >A seconda della complessità dei progetti, si consiglia di non selezionare un gran numero di progetti quando si ricalcolano le timeline in blocco per garantire prestazioni ottimali. Alcuni elementi che potrebbero rendere un progetto troppo complesso potrebbero essere più dipendenze o assegnazioni o un numero elevato di campi personalizzati.
+   >A seconda della complessità dei progetti, si consiglia di non selezionare un numero elevato di progetti durante il ricalcolo in blocco delle rispettive sequenze temporali per garantire prestazioni ottimali. Alcuni elementi che potrebbero rendere un progetto troppo complesso potrebbero essere più dipendenze o assegnazioni o un numero elevato di campi personalizzati.
 
-1. Fai clic su **Ricalcola timeline**.
+1. Fare clic su **Ricalcola sequenza temporale**.
 
-   Una volta ricalcolata la timeline, viene visualizzato un messaggio che indica che il ricalcolo è stato eseguito correttamente.
+   Dopo il ricalcolo della sequenza temporale, viene visualizzato un messaggio che indica che il ricalcolo è stato eseguito correttamente.
 
    >[!TIP]
    >
-   >Prima che il ricalcolo della timeline sia completato, alcune date pianificate o previste potrebbero apparire in grigio. Ciò significa che il ricalcolo non è ancora completato e che le date sono soggette a modifiche.
+   >Prima che il ricalcolo della sequenza temporale sia completato, alcune date pianificate o previste potrebbero apparire inattive. Ciò significa che il ricalcolo non è ancora terminato e che le date sono soggette a modifiche.
 
-### Ricalcolare manualmente le timeline in blocco nella casella Modifica progetti {#manually-recalculate-timelines-in-bulk-in-the-edit-projects-box}
+### Ricalcolare manualmente le sequenze temporali in blocco nella casella Modifica progetti {#manually-recalculate-timelines-in-bulk-in-the-edit-projects-box}
 
-Puoi ricalcolare manualmente le timeline di diversi progetti modificandole in blocco.
+Puoi ricalcolare manualmente le timeline di diversi progetti modificandoli in blocco.
 
 >[!TIP]
 >
->A seconda della complessità dei progetti, si consiglia di non selezionare un gran numero di progetti quando li si modifica in serie per garantire prestazioni ottimali. Alcuni elementi che potrebbero rendere un progetto troppo complesso potrebbero essere più dipendenze o assegnazioni o un numero elevato di campi personalizzati.
+>A seconda della complessità dei progetti, si consiglia di non selezionare un numero elevato di progetti quando li si modifica in blocco per garantire prestazioni ottimali. Alcuni elementi che potrebbero rendere un progetto troppo complesso potrebbero essere più dipendenze o assegnazioni o un numero elevato di campi personalizzati.
 
-1. Vai a un elenco di progetti.
-1. Seleziona diversi progetti nell’elenco, quindi fai clic su **Modifica**.
+1. Consente di passare a un elenco di progetti.
+1. Seleziona diversi progetti nell&#39;elenco, quindi fai clic su **Modifica**.
 1. Fai clic su **Impostazioni**, quindi seleziona **Ricalcola timeline**.
 
 1. Fai clic su **Salva modifiche**.
 
-### Ricalcola le timeline per tutti i progetti nel sistema (solo per amministratori Workfront) {#recalculate-timelines-for-all-projects-in-the-system-workfront-administrators-only}
+### Ricalcolare le tempistiche per tutti i progetti nel sistema (solo per amministratori Workfront) {#recalculate-timelines-for-all-projects-in-the-system-workfront-administrators-only}
 
-Gli amministratori di Workfront possono eseguire la diagnostica Ricalcola timeline per ricalcolare immediatamente tutte le timeline nel sistema Workfront. Questo consente a tutti i project manager di vedere immediatamente l’influenza dei cambiamenti esterni sia sulle date pianificate che su quelle previste.
+Gli amministratori di Workfront possono eseguire la diagnostica Ricalcola sequenza temporale per ricalcolare immediatamente tutte le sequenze temporali nel sistema Workfront. Questo consente a tutti i project manager di visualizzare immediatamente l&#39;influenza di modifiche esterne sia nelle date pianificate che in quelle previste.
 
-Per ulteriori informazioni sul ricalcolo delle timeline per l’intero sito Workfront, consulta la sezione &quot;Ricalcolare le timeline per l’intera istanza Workfront&quot; in [Configurare i calcoli della timeline per i progetti](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+Per ulteriori informazioni sul ricalcolo delle sequenze temporali per l&#39;intero sito Workfront, vedere la sezione &quot;Ricalcolare le sequenze temporali per l&#39;intera istanza Workfront&quot; in [Configurare i ricalcoli delle sequenze temporali per i progetti](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

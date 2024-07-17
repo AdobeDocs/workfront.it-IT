@@ -42,16 +42,16 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Configurazioni del livello di accesso*</td> 
-   <td> <p>Accesso amministrativo ai moduli personalizzati<br>Per informazioni sulla concessione dell'accesso amministrativo dal livello di accesso, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Concedere agli utenti l'accesso amministrativo a determinate aree</a>.</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <p>Accesso amministrativo ai moduli personalizzati<br>Per informazioni sulla concessione dell'accesso amministrativo dal livello di accesso, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Concedere agli utenti l'accesso amministrativo ad alcune aree</a>.</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Autorizzazioni oggetto</p> </td> 
-   <td> <p>Contribuire all’accesso all’oggetto in cui è allegato il modulo con l’accesso Modifica modulo personalizzato</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Accesso di Contribute all’oggetto in cui è allegato il modulo con accesso per modificare il modulo personalizzato</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Visualizzare il manager dell’autore di un problema nel modulo personalizzato del problema
 
@@ -64,7 +64,7 @@ I passaggi seguenti mostrano come creare un campo calcolato per un modulo person
    * [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
    * [Aggiungere dati calcolati a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
 
-1. Copia e incolla il seguente codice in modalità testo nel **Calcolo** campo del modulo personalizzato:
+1. Copia e incolla il seguente codice in modalità testo nel campo **Calcolo** del modulo personalizzato:
 
    ```
    {owner}.{manager}.{name}
@@ -74,6 +74,6 @@ I passaggi seguenti mostrano come creare un campo calcolato per un modulo person
    >
    >Nei calcoli dei campi personalizzati viene fatta distinzione tra maiuscole e minuscole.
 
-1. Clic **Fine**, quindi **Salva e chiudi**.
+1. Fai clic su **Fine**, quindi su **Salva + Chiudi**.
 
    Il manager dell’utente che ha creato il problema viene visualizzato nel campo calcolato quando il modulo che contiene il campo viene allegato a un problema.

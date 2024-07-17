@@ -1,8 +1,8 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: Adeguare le date di budget nel Planner risorse
-description: Se si riscontrano sovrassegnazioni delle risorse dopo averle inserite in budget nel Planner risorse, è possibile esplorare scenari What-if spostando le ore in budget, FTE o Costi in un altro intervallo di tempo. In base ai risultati di questi scenari, puoi quindi regolare le ore, gli FTE o i costi preventivati.
+title: Adeguare le date di budget nella Programmazione risorse
+description: Se si riscontrano sovrassegnazioni di risorse dopo averle preventivate nella Programmazione risorse, è possibile esplorare gli scenari di simulazione spostando le ore preventivate, l'FTE o i costi in un altro intervallo di tempo. In base ai risultati ottenuti in questi scenari, è possibile adeguare le ore, il FTE o il costo preventivati.
 author: Alina
 feature: Resource Management
 exl-id: bc49d45a-73a5-4b02-9054-9c9dbb54224d
@@ -13,22 +13,22 @@ ht-degree: 1%
 
 ---
 
-# Adeguare le date di budget nel Planner risorse
+# Adeguare le date di budget nella Programmazione risorse
 
-Se si riscontrano sovrassegnazioni delle risorse dopo averle inserite in budget nel Planner risorse, è possibile esplorare scenari What-if spostando le ore in budget, FTE o Costi in un altro intervallo di tempo. In base ai risultati di questi scenari, puoi quindi regolare le ore, gli FTE o i costi preventivati.
+Se si riscontrano sovrassegnazioni di risorse dopo averle preventivate nella Programmazione risorse, è possibile esplorare gli scenari di simulazione spostando le ore preventivate, l&#39;FTE o i costi in un altro intervallo di tempo. In base ai risultati ottenuti in questi scenari, è possibile adeguare le ore, il FTE o il costo preventivati.
 
-Le sovrallocazioni possono apparire quando le ore previste, gli FTE o i costi delle risorse sono superiori alle ore disponibili, agli FTE o ai Costi. Questo genera un valore netto negativo.
+Le sovrassegnazioni possono essere visualizzate quando le ore preventivate, il valore FTE o i costi delle risorse sono superiori alle ore disponibili, al valore FTE o ai costi. Questo genera un valore netto negativo.
 
 ## Requisiti di accesso
 
-Devi disporre dei seguenti elementi:
+Devi avere i seguenti:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Pro e superiore</p> </td> 
   </tr> 
   <tr> 
@@ -36,43 +36,43 @@ Devi disporre dei seguenti elementi:
    <td> <p>Piano </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Modifica l'accesso a Gestione risorse che include l'accesso a Modifica priorità e ore di budget nel Planner risorse</p> <p>Modificare l’accesso a Dati finanziari, Progetti e Utenti</p> <p><b>NOTA</b>
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modifica l'accesso a Gestione risorse, incluso l'accesso a Modifica priorità e ore preventivate nella Programmazione risorse</p> <p>Modifica accesso a dati finanziari, progetti e utenti</p> <p><b>NOTA</b>
 
-Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
+Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Consente di gestire le autorizzazioni per i progetti per i quali si desidera assegnare il budget alle informazioni con la possibilità di gestire le finanze</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per i progetti per i quali si desidera preventivare le informazioni con la possibilità di gestire le finanze</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Modifica date budget
 
-1. Vai al Planner risorse e seleziona **Visualizza per progetto**.
+1. Vai alla Programmazione delle risorse e seleziona **Visualizza per progetto**.
 
    >[!NOTE]
    >
-   >È possibile utilizzare l&#39;opzione Regola date budget solo quando si visualizza il planner risorse per progetto.
+   >È possibile utilizzare l&#39;opzione Adegua date preventivate solo quando si visualizza la Programmazione risorse per progetto.
 
-1. Passa il puntatore del mouse sul nome di un progetto, quindi fai clic sul pulsante **Altro** menu.
-1. Fai clic su **Adeguamento date budget**.\
-   Viene visualizzata la timeline dell’allocazione del progetto.\
-   L&#39;intervallo di tempo in cui le ore sono attualmente in budget viene evidenziato in arancione in caso di conflitto di budget e in blu in caso di conflitti.
+1. Passa il puntatore del mouse sul nome di un progetto, quindi fai clic sul menu **Altro**.
+1. Fare clic su **Modifica date budget**.\
+   Viene visualizzata la timeline di allocazione del progetto.\
+   L&#39;intervallo di tempo in cui le ore sono attualmente preventivate è evidenziato in arancione se si verifica un conflitto di budget e in blu se non si verificano conflitti.
 
    ![](assets/rp-adjust-budgeting-dates-with-no-done-button-350x63.png)
 
-1. Trascina e rilascia l’intervallo di tempo evidenziato in un altro momento per capire dove non ci sono conflitti di budget per il progetto selezionato. Quando si trova un intervallo di tempo in cui il valore Net è positivo, l&#39;intervallo di tempo evidenziato diventa blu.
-1. Fai clic sulla &quot;x&quot; nell’angolo in alto a destra della timeline di allocazione del progetto per chiuderla.
-1. Rimuovi le ore previste dalla timeline esistente del progetto e aggiungili alla timeline che mostra la maggiore disponibilità.
+1. Trascina e rilascia l’intervallo di tempo evidenziato in un altro momento per capire dove non sono presenti conflitti di budget per il progetto selezionato. Quando si trova un intervallo di tempo in cui il valore Netto è positivo, l&#39;intervallo di tempo evidenziato diventa blu.
+1. Fai clic sulla &quot;x&quot; nell’angolo superiore destro della timeline di allocazione del progetto per chiuderla.
+1. Rimuovi le ore preventivate dalla timeline esistente del progetto e aggiungile alla timeline che mostra la maggiore disponibilità.
 1. Fai clic su **Salva**.
-1. (Condizionale e facoltativo) Se gli intervalli di tempo senza conflitti di budget si trovano al di fuori della timeline del progetto, fai clic sul nome del progetto per accedere al progetto.
-1. (Condizionale e facoltativo) Fai clic su **Modifica progetto**, quindi modifica il **Data di inizio prevista** o **Data completamento pianificata** modificare la cronologia del progetto per l&#39;intervallo di tempo senza conflitti di budget.\
-   Per ulteriori informazioni sulla modifica dei progetti, consulta l’articolo [Modifica progetti](../../manage-work/projects/manage-projects/edit-projects.md).
+1. (Condizionale e facoltativo) Se gli intervalli di tempo senza conflitti di budget non rientrano nella cronologia del progetto, fare clic sul nome del progetto per accedere al progetto.
+1. (Condizionale e facoltativo) Fai clic su **Modifica progetto**, quindi modifica la **Data inizio pianificata** o la **Data completamento pianificata** per modificare la sequenza temporale del progetto per l&#39;intervallo di tempo senza conflitti di budget.\
+   Per ulteriori informazioni sulla modifica di progetti, vedere l&#39;articolo [Modifica progetti](../../manage-work/projects/manage-projects/edit-projects.md).
 
 1. (Condizionale e facoltativo) Fai clic su **Salva modifiche**.
-1. Tornare al Planner risorse e reinserire le ore previste, le FTE o i Costi nell&#39;intervallo di tempo senza conflitti di budget.
+1. Tornare alla Programmazione delle risorse e inserire nuovamente le ore, i FTE o i costi preventivati nel periodo di tempo senza conflitti di budget.
 1. Fai clic su **Salva**.

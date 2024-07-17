@@ -16,17 +16,17 @@ ht-degree: 0%
 
 # Panoramica sul tipo di durata: semplice
 
-Il Tipo di Durata Semplice è un Tipo di Durata che puoi impostare per un’attività in Adobe Workfront. Per informazioni generali sui tipi di durata in Workfront, vedi [Panoramica sulla durata e sul tipo di durata dell&#39;attività](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+Il Tipo di Durata Semplice è un Tipo di Durata che puoi impostare per un’attività in Adobe Workfront. Per informazioni generali sui tipi di durata in Workfront, vedere [Panoramica sulla durata dell&#39;attività e sul tipo di durata](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 ## Panoramica del tipo di durata semplice
 
-Il Workfront o un amministratore di gruppo può impostare il Tipo di durata predefinito del sistema o del gruppo come Semplice. In questo caso, tutte le nuove attività verranno create con questo Tipo di durata. Per informazioni sulla modifica delle preferenze di attività e problemi come parte delle preferenze di progetto a livello di sistema o di gruppo, consulta [Configurare le preferenze per attività e problemi a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Il Workfront o un amministratore di gruppo può impostare il Tipo di durata predefinito del sistema o del gruppo come Semplice. In questo caso, tutte le nuove attività verranno create con questo Tipo di durata. Per informazioni sulla modifica delle preferenze di attività e problemi come parte delle preferenze di progetto a livello di sistema o di gruppo, consulta [Configurare le preferenze di problema e attività a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 Quando un’attività ha un Tipo di durata semplice, si verificano gli eventi seguenti:
 
 * I project manager possono modificare sia la durata che le ore pianificate di un&#39;attività quando modificano la modalità di distribuzione di tali ore tra gli assegnatari.
 
-  Per informazioni, consulta [Aggiornare le ore e la durata pianificate di un&#39;attività con un tipo di durata semplice](../../../manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md).
+  Per informazioni, vedere [Aggiornare le ore e la durata pianificate di un&#39;attività con un tipo di durata semplice](../../../manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md).
 
   >[!IMPORTANT]
   >
@@ -36,7 +36,7 @@ Quando un’attività ha un Tipo di durata semplice, si verificano gli eventi se
   >
   > `Task Duration = Task Planned Hours / Typical hours per work day`
   >
-  >L&#39;amministratore di Workfront definisce `Typical hours per work day` nell’area Preferenze progetto della Configurazione dell’istanza.
+  >L&#39;amministratore di Workfront definisce `Typical hours per work day` nell&#39;area Preferenze progetto della Configurazione dell&#39;istanza.
 
 * La percentuale di allocazione è nascosta e le ore di allocazione sono disponibili per la modifica.
 * Per tutti i nuovi clienti, il Tipo di durata a livello di sistema è impostato su Semplice.

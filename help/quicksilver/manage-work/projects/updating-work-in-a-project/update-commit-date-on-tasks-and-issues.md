@@ -16,13 +16,13 @@ ht-degree: 0%
 
 # Aggiorna le date di conferma per attività e problemi
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti oppure nell’ambiente di produzione per i clienti che hanno abilitato le versioni rapide.</span>
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente di anteprima per tutti i clienti oppure nell&#39;ambiente di produzione per i clienti che hanno abilitato le versioni rapide.</span>
 
-<span class="preview">Per informazioni sulle versioni rapide, consulta [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">Per informazioni sulle versioni rapide, vedi [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 <span class="preview">Per informazioni sulla versione corrente, consulta [Panoramica sulla versione del terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
-Puoi aggiornare manualmente la data di conferma di un’attività o di un problema che ti è stato assegnato. Per ulteriori informazioni sulle date di conferma in Adobe Workfront, consulta [Panoramica sulla data di conferma](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+Puoi aggiornare manualmente la data di conferma di un’attività o di un problema che ti è stato assegnato. Per ulteriori informazioni su Conferma date in Adobe Workfront, consulta [Panoramica sulla conferma data](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 ## Requisiti di accesso
 
@@ -77,10 +77,10 @@ Prima di poter modificare la Data di conferma di un’attività o di un problema
 Puoi aggiornare la Data di conferma di un’attività o di un problema nelle seguenti aree di Workfront:
 
 * La sezione Dettagli di un’attività o di un problema
-* <span class="preview">Intestazione dell’attività o del problema</span>
+* <span class="preview">Intestazione attività o problema</span>
 
-  <span class="preview">L’amministratore del Workfront o del gruppo deve aggiungere la Data di conferma all’intestazione dell’attività o del problema del modello di layout per visualizzarla dalla pagina dell’attività o del problema.
-Per informazioni, consulta [Personalizzare le intestazioni degli oggetti utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).</span>
+  <span class="preview">L&#39;amministratore del Workfront o del gruppo deve aggiungere la data di conferma all&#39;intestazione dell&#39;attività o del problema del modello di layout per visualizzarla dalla pagina dell&#39;attività o del problema.
+Per informazioni, vedere [Personalizzare le intestazioni degli oggetti utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).</span>
 
 L’aggiornamento della data di conferma è identico per attività e problemi.
 
@@ -91,20 +91,20 @@ L’aggiornamento della data di conferma è identico per attività e problemi.
 >Per ulteriori informazioni, consulta i seguenti articoli:
 >
 >* [Panoramica di riepilogo](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
->* [Personalizzare Home e Riepilogo utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+>* [Personalizza la home e il riepilogo utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 
-1. Vai a un&#39;attività o a un problema che ti è stato assegnato come **Proprietario**.
+1. Vai a un&#39;attività o a un problema a cui sei assegnato come **Proprietario**.
 
-   Per ulteriori informazioni su come individuare il proprietario dell’attività per un problema o un’attività, consulta la sezione [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) nell’articolo [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+   Per ulteriori informazioni su come individuare il proprietario dell&#39;attività per un problema o un&#39;attività, vedere la sezione [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) nell&#39;articolo [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-1. <span class="preview">(Condizionale e facoltativo) Se l’amministratore del Workfront o del gruppo ha aggiunto la Data conferma all’intestazione dell’attività o del problema, fai clic su **Conferma data** nell’intestazione, quindi seleziona una data dal calendario. Se la Data del commit non è nell&#39;intestazione, procedere come segue. </span>
+1. <span class="preview">(Condizionale e facoltativo) Se l&#39;amministratore del Workfront o del gruppo ha aggiunto la Data conferma all&#39;intestazione dell&#39;attività o del problema, fare clic sul campo **Data conferma** nell&#39;intestazione, quindi selezionare una data dal calendario. Se la Data del commit non è nell&#39;intestazione, procedere come segue. </span>
 
    <span class="preview">![](assets/commit-date-task-header.png)</span>
 
-1. Clic **Dettagli Attività** o **Dettagli problema** nel pannello a sinistra.
-1. Clic **Panoramica** per espanderlo.
-1. Aggiornare il **Conferma data** campo.
+1. Fai clic su **Dettagli attività** o **Dettagli problema** nel pannello a sinistra.
+1. Fai clic su **Panoramica** per espanderlo.
+1. Aggiorna il campo **Commit Date**.
 
    ![](assets/task-commit-date-edit-highlighted-details-page.png)
 
@@ -126,6 +126,6 @@ L’aggiornamento della data di conferma è identico per attività e problemi.
 
      <!--![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
 
-     Per informazioni sulle notifiche e sugli aggiornamenti attivati da questa modifica, consulta la sezione &quot;Notifiche e aggiornamenti attivati dalla modifica della data di conferma&quot; nell’articolo [Panoramica sulla data di conferma](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+     Per informazioni sulle notifiche e sugli aggiornamenti attivati da questa modifica, vedere la sezione &quot;Notifiche e aggiornamenti attivati dalla modifica della data di conferma&quot; nell&#39;articolo [Panoramica sulla data di conferma](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 <!--at the Production update stream when removing legacy - replace the last bullet with: The Project Owner is notified in the Systems Activity and the All tabs of the Updates section that you have suggested a new Commit Date. They can then update the Planned Completion Date accordingly by editing the task or the issue.-->

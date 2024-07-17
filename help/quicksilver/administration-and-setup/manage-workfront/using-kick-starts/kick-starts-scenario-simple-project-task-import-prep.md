@@ -85,7 +85,7 @@ Le attività padre ereditano la durata, il lavoro e la percentuale di completame
 
 >[!NOTE]
 >
->Le istruzioni fornite in questo scenario non sono così esplicite come le istruzioni dettagliate fornite in [Scenario di avvio: società, gruppo, ruolo e preparazione di avvio utente](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md). Il presupposto è che tu abbia già imparato a cercare e copiare i valori dai fogli Azienda e Gruppo, quindi questi passaggi saranno menzionati, ma non descritti in modo specifico.
+>Le istruzioni fornite in questo scenario non sono esplicite come le istruzioni dettagliate fornite in [Scenario di avvio: società, gruppo, ruolo e preparazione di avvio utente](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md). Il presupposto è che tu abbia già imparato a cercare e copiare i valori dai fogli Azienda e Gruppo, quindi questi passaggi saranno menzionati, ma non descritti in modo specifico.
 
 1. Configura.
 1. Importa utenti.
@@ -284,9 +284,9 @@ A meno che tu non abbia già creato dei progetti in Workfront, questo campo deve
 
 Impostare i valori per i seguenti campi del progetto:
 
-* **Imposta colonna isNew**
+* **Imposta isNew column**
 Immettere TRUE nelle righe da 3 a 6 per la colonna isNew.
-* **Impostare ID univoci**
+* **Imposta ID univoci**
 Immettere un ID univoco in ogni riga per la colonna ID. In genere, i numeri interi a partire da 1 funzionano correttamente durante la creazione di nuovi record.
 * **Imposta nomi progetto**
 Immettere i nomi di ciascun progetto nella colonna setName.
@@ -300,9 +300,9 @@ Immettere i nomi di ciascun progetto nella colonna setName.
 
 * **Imposta numeri attività**
 Immettere i valori nella colonna setTaskNumber per controllare l&#39;ordine di visualizzazione delle attività nel piano di progetto.
-* **Fornisci le date del progetto.**
+* **Fornire le date del progetto.**
 Immettere la Data inizio pianificata per ogni progetto nella colonna setPlannedStartDate.
-* **Imposta altri dettagli necessari.**
+* **Impostare altri dettagli necessari.**
 Compila altri dettagli, ad esempio una descrizione o lo stato corrente, secondo necessità. Cercare gli ID gruppo per ciascun progetto nel foglio Gruppo di gruppi e inserirli nella colonna setGroupID per i rispettivi progetti. Cercare l&#39;ID società per i progetti nel foglio Società della società e inserirlo nella colonna setCompanyID. Cercare l&#39;ID utente per ogni proprietario del progetto nel foglio Utente e inserirlo nella colonna setOwnerID. Cercare l&#39;ID utente di ogni sponsor del progetto nel foglio Utente e inserirlo nella colonna setSponsorID.
 
 ![](assets/im9.png)
@@ -315,7 +315,7 @@ Compila altri dettagli, ad esempio una descrizione o lo stato corrente, secondo 
 
 È possibile aggiungere informazioni sulle attività del progetto durante l&#39;importazione del progetto mediante l&#39;avvio.
 
-Apri il file Workfront.xlsx appena scaricato. **Passare alla finestra Attività.**
+Apri il file Workfront.xlsx appena scaricato. **Vai all&#39;elenco Attività.**
 
 Questo foglio deve essere vuoto, a meno che non siano già state create attività in Workfront.
 
@@ -333,7 +333,7 @@ Impostare i valori per i campi delle attività seguenti:
 Inserisci un ID univoco in ogni riga per la colonna ID.
 * **Imposta nomi**
 Immettere i nomi delle attività nella colonna setName.
-* **Conferma ID Progetto**
+* **Conferma ID progetto**
 Immettere l&#39;ID impostato per l&#39;implementazione del progetto Workfront; esaminare il foglio Progetto PROJ per assicurarsi che sia l&#39;ID corretto.
 * **Imposta utenti**
 Andare al foglio Utente per cercare l&#39;ID dell&#39;utente assegnato a ogni attività e immettere questi valori nelle rispettive celle della colonna setAssignedToID.
@@ -376,6 +376,6 @@ Impostare la durata di ogni attività immettendo il numero di ore, giorni, setti
    1. Aggiorna assegnazioni attività e percentuale di completamento.
    1. Ripeti questi passaggi per le attività del progetto successivo.
 
-* **Importa il file Excel**
+* **Importa il file di Excel**
 
-  Seguire le istruzioni fornite in [Importare dati in Adobe Workfront utilizzando un modello di avvio](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Segui le istruzioni fornite in [Importa dati in Adobe Workfront utilizzando un modello di avvio](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).

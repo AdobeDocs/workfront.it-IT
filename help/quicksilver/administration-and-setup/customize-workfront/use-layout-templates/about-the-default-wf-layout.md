@@ -18,13 +18,13 @@ ht-degree: 6%
 
 # Informazioni sul layout predefinito di Adobe Workfront
 
-Il layout di default è la disposizione del menu principale ![](assets/main-menu-icon.png), il pannello sinistro e le visualizzazioni, i raggruppamenti e i filtri prima che un amministratore Adobe Workfront apporti modifiche utilizzando un modello di layout.
+Il layout predefinito è la disposizione del menu principale ![](assets/main-menu-icon.png), del pannello sinistro e delle visualizzazioni, dei raggruppamenti e dei filtri prima che un amministratore Adobe Workfront apporti modifiche utilizzando un modello di layout.
 
-Per informazioni su come un amministratore di Workfront può modificare il layout predefinito di un utente assegnandogli un modello di layout, consulta [Assegnare utenti a un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+Per informazioni su come un amministratore di Workfront può modificare il layout predefinito di un utente assegnandogli un modello di layout, vedere [Assegnare utenti a un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
 >[!NOTE]
 >
->Gli utenti possono modificare il proprio layout modificando le preferenze del profilo utente. Per ulteriori informazioni, vedere [Preferenze](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) sezione in [Configura le mie impostazioni](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+>Gli utenti possono modificare il proprio layout modificando le preferenze del profilo utente. Per ulteriori informazioni, vedere la sezione [Preferenze](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) in [Configura impostazioni personali](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 
 ## Layout predefiniti per ogni livello di accesso
 
@@ -57,8 +57,8 @@ La tabella seguente mostra gli elementi del pannello sinistro visualizzati per i
   <tr> 
    <td rowspan="2"><strong>Progetti</strong> </td> 
    <td><strong>Progetti</strong> </td> 
-   <td>✔ <br>(Area di destinazione predefinita)</td> 
-   <td><span style="font-weight: 400;"> ✔</span> <br>(Area di destinazione predefinita)</td> 
+   <td>✔ <br>(area di destinazione predefinita)</td> 
+   <td><span style="font-weight: 400;"> ✔</span> <br>(area di destinazione predefinita)</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -159,13 +159,13 @@ La tabella seguente mostra gli elementi del pannello sinistro visualizzati per i
    <td>✔ </td> 
   </tr> 
   <tr> 
-   <td><strong>Richieste che ho inviato</strong> </td> 
+   <td><strong>Richieste inviate</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
-   <td>✔ <br>(Area di destinazione predefinita)</td> 
-   <td>✔ <br>(Area di destinazione predefinita)</td> 
+   <td>✔ <br>(area di destinazione predefinita)</td> 
+   <td>✔ <br>(area di destinazione predefinita)</td> 
   </tr> 
   <tr> 
    <td><strong>Tutte le richieste</strong> </td> 
@@ -187,7 +187,7 @@ La tabella seguente mostra gli elementi del pannello sinistro visualizzati per i
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Schede orario che approvo</strong> </td> 
+   <td><strong>Schede orario approvate</strong> </td> 
    <td>✔</td> 
    <td>✔ </td> 
    <td> </td> 

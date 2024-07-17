@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti alla gestione dei progetti e delle risorse apportati con la versione 23.1 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 16 gennaio 2023.
 
-Per un elenco di tutte le modifiche disponibili con la versione 23.1, consulta [Panoramica sulla versione 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 23.1, consulta la [Panoramica sulla versione 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
 ## Ruoli secondari aggiunti all’elenco Altre assegnazioni durante l’assegnazione in blocco di elementi nel Bilanciatore dei carichi di lavoro
 
@@ -29,14 +29,14 @@ Per ulteriori informazioni, consulta [Assegnare il lavoro in blocco utilizzando 
 
 Per prepararci a rendere obsoleti e rimossi gli strumenti di pianificazione delle risorse, abbiamo spostato l’opzione &quot;Aggiungi utenti&quot; dalla sezione Pianificazione di un progetto alla sezione Persone. Quando si aggiungono utenti a un progetto, gli utenti che non sono associati agli elementi del progetto diventano parte del Team del progetto.
 
-Per ulteriori informazioni, consulta [Gestione del team di progetto](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
+Per ulteriori informazioni, vedere [Gestione del team di progetto](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
 
-[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3412443/){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3412443/){target=_blank}
 
 ## Copiare un collegamento diretto per una cartella di documenti
 
 È ora possibile copiare e condividere collegamenti alle cartelle di documenti per accedere rapidamente a tali cartelle. Per visualizzare la cartella, gli utenti devono disporre almeno dell&#39;accesso di visualizzazione all&#39;oggetto.
 
-Per ulteriori informazioni, consulta [Copiare e condividere un collegamento a una cartella di documenti](/help/quicksilver/documents/managing-documents/copy-a-doc-folder-url.md).
+Per ulteriori informazioni, vedere [Copiare e condividere un collegamento a una cartella documenti](/help/quicksilver/documents/managing-documents/copy-a-doc-folder-url.md).
 
-[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3412385/){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3412385/){target=_blank}

@@ -28,7 +28,7 @@ Per un elenco di tutte le modifiche disponibili con la versione del terzo trimes
 
 L&#39;elenco dei suggerimenti per le assegnazioni è stato aggiornato con un design più moderno, coerente in tutte le aree di Workfront. Quando aggiungi un’assegnazione a un’attività o a un problema dall’intestazione, dalla vista a elenco o dalla schermata Assegnazione avanzata, l’esperienza è la stessa. I suggerimenti sono suddivisi in sezioni per consentire di trovare rapidamente la persona, il team o la mansione corretta per l&#39;assegnazione.
 
-Per informazioni, consulta [Assegna attività](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md), [Assegna problemi](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md), e [Crea assegnazioni avanzate](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+Per informazioni, vedere [Assegnare attività](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md), [Assegnare problemi](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md) e [Creare assegnazioni avanzate](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
 ## Aggiornamenti look-and-feel dei moduli personalizzati sui dettagli del documento
 
@@ -38,7 +38,7 @@ Per informazioni, consulta [Assegna attività](/help/quicksilver/manage-work/tas
 
 Abbiamo aggiornato la pagina Dettagli documento > Forms personalizzato con un design più moderno che è coerente con altre aree di Workfront. La pagina ora supporta funzioni avanzate per i moduli personalizzati, ad esempio i campi di ricerca esterna.
 
-Per informazioni, consulta [Panoramica dei dettagli del documento](/help/quicksilver/documents/managing-documents/document-details-overview.md).
+Per informazioni, vedere [Panoramica dei dettagli del documento](/help/quicksilver/documents/managing-documents/document-details-overview.md).
 
 ## Aggiornamenti look-and-feel dei moduli personalizzati sui dettagli dell’iterazione
 
@@ -48,7 +48,7 @@ Per informazioni, consulta [Panoramica dei dettagli del documento](/help/quicksi
 
 Abbiamo aggiornato la pagina Dettagli iterazione > Forms personalizzato con un design più moderno che è coerente con altre aree di Workfront. La pagina ora supporta funzioni avanzate per i moduli personalizzati, ad esempio i campi di ricerca esterna.
 
-Per informazioni, consulta [Creare una storia agile in un’iterazione](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md).
+Per informazioni, vedere [Creare una storia agile in un&#39;iterazione](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md).
 
 ## Aggiornamenti look-and-feel per l’area Gruppi
 
@@ -58,7 +58,7 @@ Per informazioni, consulta [Creare una storia agile in un’iterazione](/help/qu
 
 Abbiamo aggiornato l’elenco dei gruppi principali nell’area Configura > Gruppi con un design più moderno che è coerente con altre aree di Workfront. Tutte le finestre di dialogo per i gruppi e i sottogruppi (aggiunta, modifica, copia, disattivazione, eliminazione), accessibili dall&#39;elenco Gruppi o dal menu Altro per un gruppo o un sottogruppo specifico, presentano anche la struttura aggiornata.
 
-Per informazioni, consulta [Creare un gruppo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) e [Gestire un gruppo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md).
+Per informazioni, vedere [Creare un gruppo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) e [Gestire un gruppo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md).
 
 ## Aggiornamenti look-and-feel dell’elenco dei tassi di cambio
 
@@ -68,7 +68,7 @@ Per informazioni, consulta [Creare un gruppo](/help/quicksilver/administration-a
 
 La schermata Tassi di cambio è stata aggiornata con un design più moderno, coerente con le altre aree di Workfront.
 
-Per informazioni, consulta [Imposta tassi di cambio](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+Per informazioni, vedere [Impostare i tassi di cambio](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
 ## Aggiornamenti look-and-feel dell’elenco dei ruoli
 
@@ -78,4 +78,4 @@ Per informazioni, consulta [Imposta tassi di cambio](/help/quicksilver/administr
 
 La schermata Ruoli è stata aggiornata con un design più moderno, coerente con le altre aree di Workfront.
 
-Per informazioni, consulta [Creare e gestire le mansioni](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+Per informazioni, vedere [Creare e gestire ruoli](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).

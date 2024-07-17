@@ -20,11 +20,11 @@ Questi webinar si sono concentrati sulle funzionalità incluse nella versione 20
 
 La versione 2017.2 è attualmente disponibile per il test in Anteprima; la versione 2017.2 sarà disponibile nell’ambiente di produzione alla fine di luglio o all’inizio di agosto 2017.
 
-Per informazioni più dettagliate sulle funzionalità trattate nei webinar, vedi [Panoramica sull’attività della versione 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md) pagina.
+Per visualizzare informazioni più dettagliate sulle funzionalità trattate nei webinar, consulta la pagina [Panoramica delle attività sulla versione 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md).
 
 Sono disponibili le seguenti registrazioni di webinar:
 
-* [Webinar sulla versione 2017.2 (27 giugno 2017)](#2017-2-release-webinar-june-27-2017)
+* Webinar sulla versione di [2017.2 (27 giugno 2017)](#2017-2-release-webinar-june-27-2017)
 * [2017.2 Beta 1 e 2 (24 maggio 2017)](#2017-2-beta-1-and-2-may-24-2017)
 
 ## Webinar sulla versione 2017.2 (27 giugno 2017) {#2017-2-release-webinar-june-27-2017}
@@ -38,7 +38,7 @@ Per comodità, il webinar è suddiviso nei seguenti argomenti:
 * [Bozza](#proofing)
 * [Altri miglioramenti](#other-enhancements)
 * [Dispositivi mobili](#mobile)
-* [Funzionalità da rimuovere](#functionality-being-removed)
+* [Funzionalità Da Rimuovere](#functionality-being-removed)
 * [Amministratori e sviluppatori](#administrators-and-developers)
 
 ### Introduzione {#introduction}
@@ -102,4 +102,4 @@ Questa parte del webinar contiene i seguenti argomenti:
 
 ## 2017.2 Beta 1 e 2 (24 maggio 2017) {#2017-2-beta-1-and-2-may-24-2017}
 
-Il webinar sulla versione è stato presentato il 24 maggio 2017. Questo webinar tratta le funzionalità rese disponibili con le versioni 2017.2 Beta 1 e Beta 2.
+Il webinar sulla versione è stato presentato il 24 maggio 2017. Questo webinar tratta le funzionalità rese disponibili con le versioni 2017.2 di Beta 1 e Beta 2.

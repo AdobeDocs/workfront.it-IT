@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti apportati da Analytics all’ambiente di anteprima con la versione 20.4. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione nella settimana del 9 novembre 2020.
 
-Per un elenco di tutte le modifiche disponibili con la versione 20.4, consulta [Panoramica sulla versione 20.4](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 20.4, consulta la [panoramica sulla versione 20.4](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
 
 ## Impaginazione e ordinamento aggiunti ad analisi avanzate
 
@@ -29,4 +29,4 @@ Per consentirti di visualizzare le informazioni che desideri visualizzare senza 
 
 In precedenza, l’area Analisi avanzata limitava a 50 il numero di progetti che era possibile esaminare.
 
-Questa funzione è ora inclusa nel [Funzionalità avanzate di analisi, parte 1 del percorso di apprendimento](https://one.workfront.com/s/learningpath2/enhanced-analytics-part-1-overview-20Y0z000000bmgOEAQ) su Workfront One.
+Questa funzionalità è ora inclusa nel percorso di apprendimento [Analisi avanzata, Parte 1](https://one.workfront.com/s/learningpath2/enhanced-analytics-part-1-overview-20Y0z000000bmgOEAQ) in Workfront One.

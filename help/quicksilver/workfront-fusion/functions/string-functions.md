@@ -36,7 +36,7 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licenza**</td>  
    <td> 
-   <p>Corrente: No [!DNL Workfront Fusion] requisito di licenza.</p> 
+   <p>Corrente: nessun requisito di licenza [!DNL Workfront Fusion].</p> 
    <p>Oppure</p> 
    <p>Legacy: qualsiasi </p> 
    </td>  
@@ -44,7 +44,7 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   <tr>  
    <td role="rowheader">Prodotto</td>  
    <td> 
-   <p>Nuovo:</p> <ul><li>[!UICONTROL Select] o [!UICONTROL Prime] [!DNL Workfront] Piano: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Piano: [!DNL Workfront Fusion] è incluso.</li></ul> 
+   <p>Nuovo:</p> <ul><li>Piano [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Workfront]: l'organizzazione deve acquistare [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Il piano [!DNL Workfront Fusion] è incluso.</li></ul> 
    <p>Oppure</p> 
    <p>Corrente: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion].</p> 
    </td>  
@@ -54,7 +54,7 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## [!UICONTROL lunghezza (testo o buffer)]
 
@@ -68,7 +68,7 @@ Restituisce la lunghezza della stringa di testo (numero di caratteri) o del buff
 >
 >Restituisce: 5
 
-## [!UICONTROL lower (testo)]
+## [!UICONTROL inferiore (testo)]
 
 Converte tutti i caratteri alfabetici di una stringa di testo in minuscolo.
 
@@ -80,7 +80,7 @@ Converte tutti i caratteri alfabetici di una stringa di testo in minuscolo.
 >
 >Restituisce: hello
 
-## [!UICONTROL maiuscolo (testo)]
+## [!UICONTROL maiuscole (testo)]
 
 Converte il primo carattere di una stringa di testo in maiuscolo.
 
@@ -103,7 +103,7 @@ Usa la maiuscola per la prima lettera di ogni parola e le minuscole per tutte le
 >
 >Restituisce: [!UICONTROL Hello World]
 
-## [!UICONTROL ascii (testo; [rimuovere i segni diacritici])]
+## [!UICONTROL ascii (testo; [rimuovere segni diacritici])]
 
 Rimuove tutti i caratteri non ascii da una stringa di testo.
 
@@ -121,7 +121,7 @@ Rimuove tutti i caratteri non ascii da una stringa di testo.
 
 
 
-## [!UICONTROL replace (testo;stringa di ricerca; stringa di sostituzione)]
+## [!UICONTROL sostituisci (testo;stringa di ricerca; stringa di sostituzione)]
 
 sostituisce la stringa di ricerca con la nuova stringa.
 
@@ -131,9 +131,9 @@ sostituisce la stringa di ricerca con la nuova stringa.
 >
 >`replace( Hello World ; Hello ; Hi )`
 >
->Restituisce: [!UICONTROL Hi World]
+>Restituisce: [!UICONTROL Salve mondo]
 
-Espressioni regolari (racchiuse in `/.../`) può essere utilizzato come stringa di ricerca con una combinazione di flag (come `g`, `i`, `m`) aggiunto:
+Le espressioni regolari (racchiuse in `/.../`) possono essere utilizzate come stringa di ricerca con una combinazione di flag (ad esempio `g`, `i`, `m`) aggiunti:
 
 >[!INFO]
 >
@@ -146,7 +146,7 @@ Espressioni regolari (racchiuse in `/.../`) può essere utilizzato come stringa 
 La stringa di sostituzione può includere i seguenti modelli di sostituzione speciali:
 
 * `$&` Inserisce la sottostringa corrispondente.
-* `$n` Dove n è un numero intero positivo minore di 100, inserisce l&#39;ennesima stringa di submatch tra parentesi. È indicizzato 1.
+* `$n` Dove n è un numero intero positivo minore di 100, inserisce l&#39;ennesima stringa tra parentesi. È indicizzato 1.
 
 >[!INFO]
 >
@@ -164,13 +164,13 @@ La stringa di sostituzione può includere i seguenti modelli di sostituzione spe
 >
 >Non utilizzare gruppi di acquisizione denominati come `/ is (?<number>\d+)/` nell&#39;argomento della stringa di sostituzione. In questo caso si verifica un errore.
 
-Per ulteriori informazioni sulle espressioni regolari, consulta [Parser testo](../../workfront-fusion/apps-and-their-modules/text-parser.md).
+Per ulteriori informazioni sulle espressioni regolari, vedere [Parser di testo](../../workfront-fusion/apps-and-their-modules/text-parser.md).
 
-## [!UICONTROL trim (testo)]
+## [!UICONTROL ritaglio (testo)]
 
 Rimuove gli spazi all&#39;inizio o alla fine del testo.
 
-## [!UICONTROL upper (testo)]
+## [!UICONTROL superiore (testo)]
 
 Converte tutti i caratteri alfabetici in maiuscolo in una stringa di testo.
 
@@ -253,7 +253,7 @@ Decodifica caratteri speciali in un URL in testo.
 >**Esempio:**
 >`decodeURL( Automate%20your%20workflow )`
 >
->Restituisce: [!UICONTROL Automatizzare il flusso di lavoro]
+>Restituisce: [!UICONTROL Automatizza il flusso di lavoro]
 
 ## [!UICONTROL escapeHTML (testo)]
 
@@ -267,7 +267,7 @@ Esclude tutti i tag HTML nel testo.
 >
 > Restituisce: `&lt;b&gt;Hello&lt;/b&gt;`
 
-## [!UICONTROL escapeMarkdown(testo)]
+## [!UICONTROL escapeMarkdown(text)]
 
 Evita tutti i tag Markdown nel testo.
 
@@ -353,7 +353,7 @@ Calcola l’hash sha256 di una stringa. Se l&#39;argomento chiave è specificato
 >
 >Restituisce: ed3d7397eec7b94453035b67ba4468c883ee3bedeb57137f7371f2e0cf5e2bbc
 
-## [!UICONTROL sha512 (testo; [codifica di output]; [chiave]; [codifica chiave])]
+## [!UICONTROL sha512 (testo; [codifica output]; [chiave]; [codifica chiave])]
 
 Calcola l’hash sha512 di una stringa. Se l&#39;argomento chiave è specificato, viene restituito l&#39;hash HMAC sha512.
 
@@ -361,15 +361,15 @@ Codifiche supportate
 
 * &quot;[!UICONTROL esadecimale]&quot; (impostazione predefinita)
 * &quot;[!UICONTROL base64]&quot;
-* &quot;[!UICONTROL latino1]&quot;
+* &quot;[!UICONTROL latin1]&quot;
 
 Codifiche chiave supportate:
 
-* &quot;[!UICONTROL text]&quot; (impostazione predefinita)
-* &quot;[!UICONTROL esadecimale]&quot;
+* &quot;[!UICONTROL testo]&quot; (impostazione predefinita)
+* &quot;[!UICONTROL hex]&quot;
 * &quot;[!UICONTROL base64]&quot; o &quot;[!UICONTROL binario]&quot;
 
-Quando si utilizza &quot;[!UICONTROL binario]&quot;, una chiave deve essere un buffer, non una stringa.
+Quando si utilizza la codifica di chiave &quot;[!UICONTROL binary]&quot;, una chiave deve essere un buffer, non una stringa.
 
 >[!INFO]
 >

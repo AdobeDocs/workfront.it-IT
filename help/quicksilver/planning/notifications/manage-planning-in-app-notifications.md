@@ -22,9 +22,9 @@ Quando qualcuno ti assegna un tag in un commento del record, potresti ricevere u
 >
 >Per poter ricevere notifiche da Workfront Planning, l&#39;azienda deve essere un Adobe cliente di Unified Experience.
 >
->Per informazioni, consulta [Adobe di esperienza unificata per Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>Per informazioni, vedere [Esperienza unificata di Adobe per Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-Per informazioni sull&#39;assegnazione di tag ad altri utenti in un commento del record, vedere [Gestisci commenti record](/help/quicksilver/planning/records/manage-record-comments.md).
+Per informazioni sull&#39;assegnazione di tag ad altri utenti in un commento record, vedere [Gestire i commenti record](/help/quicksilver/planning/records/manage-record-comments.md).
 
 ## Requisiti di accesso
 
@@ -42,7 +42,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <p> Prodotto</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>Per ricevere notifiche da Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata nell’esperienza unificata di Adobe. Per informazioni, consulta <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe di esperienza unificata per Workfront</a>.</p></td>
+   <p>Per ricevere notifiche da Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata nell’esperienza unificata di Adobe. Per informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata di Adobe per Workfront</a>.</p></td>
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
@@ -69,14 +69,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>
 <tr>
    <td role="rowheader"><p>Autorizzazioni</p></td>
-   <td> <p>Visualizzare o modificare le autorizzazioni per un'area di lavoro</a> </p>  
+   <td> <p>Visualizza o autorizzazioni superiori per un'area di lavoro</a> </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>L'amministratore del Workfront o del gruppo deve aggiungere l'area Planning nel modello di layout. Per informazioni, consulta <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica degli accessi</a>. </p>  
+   <td> <p>L'amministratore del Workfront o del gruppo deve aggiungere l'area Planning nel modello di layout. Per informazioni, vedere <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica dell'accesso</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -85,7 +85,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Gestire le notifiche in-app
 
-1. (Condizionale) Dopo che qualcuno ti ha taggato in un commento su un record, passa alla pagina in-app **Notifiche** icona ![](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud.
+1. (Condizionale) Dopo che un utente ti ha contrassegnato in un commento su un record, passa all&#39;icona in-app **Notifiche** ![](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud.
 
    ![](assets/in-app-notification-example.png)
 
@@ -93,5 +93,5 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    La pagina dei dettagli del record viene visualizzata in Workfront Planning. È possibile aggiornare il record o rispondere al commento.
 
-1. (Facoltativo) Fai clic su **Contrassegna tutto come letto** per indicare di aver letto tutte le notifiche.
-1. (Facoltativo) Fai clic su **Visualizza tutto** per passare al **Notifiche** in Adobe Experience Cloud.
+1. (Facoltativo) Fai clic su **Segna tutto come letto** per indicare che hai letto tutte le notifiche.
+1. (Facoltativo) Fai clic su **Visualizza tutto** per passare alla pagina **Notifiche** in Adobe Experience Cloud.

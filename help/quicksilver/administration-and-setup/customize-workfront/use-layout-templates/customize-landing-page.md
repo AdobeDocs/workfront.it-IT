@@ -23,7 +23,7 @@ Per informazioni sulla creazione di modelli di layout, vedere [Creare e gestire 
 
 Per informazioni sui modelli di layout per i gruppi, vedere [Creare e modificare i modelli di layout di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Dopo aver configurato un modello di layout, è necessario assegnarlo agli utenti affinché le modifiche apportate siano visibili agli altri utenti. Per informazioni sull&#39;assegnazione di un modello di layout agli utenti, vedere [Assegnare utenti a un modello di layout](../use-layout-templates/assign-users-to-layout-template.md).
+Dopo aver configurato un modello di layout, è necessario assegnarlo agli utenti affinché le modifiche apportate siano visibili agli altri utenti. Per informazioni sull&#39;assegnazione di un modello di layout agli utenti, vedere [Assegnare gli utenti a un modello di layout](../use-layout-templates/assign-users-to-layout-template.md).
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Per eseguire questi passaggi a livello di sistema, è necessario disporre del livello di accesso Amministratore di sistema.
-Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p> <p><b>NOTA</b>: se ancora non disponi dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p> <p><b>NOTA</b>: se non disponi ancora dell'accesso, chiedi all'amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,17 +56,17 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
 ## Personalizzare la pagina di destinazione
 
 1. Iniziare a lavorare su un modello di layout, come descritto in [Creare e gestire modelli di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. In **Area di navigazione superiore**, fai clic su **Seleziona pagina di destinazione**, quindi selezionare l&#39;area che gli utenti dovranno visualizzare al momento dell&#39;accesso.
+1. Nell&#39;**area di navigazione superiore**, fai clic su **Seleziona pagina di destinazione**, quindi seleziona l&#39;area che desideri che gli utenti visualizzino al momento dell&#39;accesso.
 
    >[!IMPORTANT]
    >
-   >Per visualizzare le aree Scenari e Obiettivi sono necessarie licenze aggiuntive. Per informazioni sugli obiettivi di Workfront, consulta [Panoramica sugli obiettivi di Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md) o per informazioni su Workfront Scenario Planner, consulta [Panoramica sulla pianificazione degli scenari](../../../scenario-planner/scenario-planner-overview.md).
+   >Per visualizzare le aree Scenari e Obiettivi sono necessarie licenze aggiuntive. Per informazioni sugli obiettivi di Workfront, vedere [Panoramica sugli obiettivi di Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md) oppure per informazioni sulla Pianificazione scenario di Workfront, vedere [Panoramica sulla Pianificazione scenario](../../../scenario-planner/scenario-planner-overview.md).
 
 1. Continuate a personalizzare il modello di layout.
 
    Oppure
 
-   Se hai finito di personalizzare, fai clic su **Salva**.
+   Se hai completato la personalizzazione, fai clic su **Salva**.
 
    >[!TIP]
    >

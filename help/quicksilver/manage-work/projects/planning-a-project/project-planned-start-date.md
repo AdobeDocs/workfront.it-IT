@@ -25,7 +25,7 @@ ht-degree: 0%
 </div>
 -->
 
-L&#39;Inizio pianificato e le Date di completamento pianificate di un progetto si basano sulle date delle attività del progetto. Questo articolo descrive la data di inizio pianificata di un progetto. Per informazioni sulla data di inizio pianificata dell&#39;attività, vedere [Panoramica della data di inizio pianificata dell&#39;attività](../../../manage-work/tasks/task-information/task-planned-start-date.md).
+L&#39;Inizio pianificato e le Date di completamento pianificate di un progetto si basano sulle date delle attività del progetto. Questo articolo descrive la data di inizio pianificata di un progetto. Per informazioni sulla data di inizio pianificata dell&#39;attività, vedere [Panoramica sulla data di inizio pianificata dell&#39;attività](../../../manage-work/tasks/task-information/task-planned-start-date.md).
 
 La data di inizio pianificata di un progetto può essere impostata manualmente o automaticamente, a seconda che il progetto sia pianificato dall’inizio o dalla data di completamento.
 
@@ -62,7 +62,7 @@ La Data inizio pianificata di un progetto viene impostata automaticamente quando
 
   La Data inizio pianificata viene calcolata automaticamente da Adobe Workfront in base alla data selezionata per la Data completamento e alle durate di tutte le attività del progetto.
 
-  Per informazioni sulla creazione di un progetto da zero, consulta [Creare un progetto](../../../manage-work/projects/create-projects/create-project.md).
+  Per informazioni sulla creazione di un progetto da zero, vedere [Creare un progetto](../../../manage-work/projects/create-projects/create-project.md).
 
 * importalo da Microsoft Project.
 
@@ -74,9 +74,9 @@ La Data inizio pianificata di un progetto viene impostata automaticamente quando
 
   La Data inizio pianificata corrisponde sempre all&#39;ora e alla data del computer, a meno che non venga specificato diversamente nel campo setPlannedStartDate del foglio Progetto del file di avvio.
 
-  Per informazioni sull&#39;importazione di dati mediante l&#39;avvio automatico, vedere [Importare dati in Adobe Workfront utilizzando un modello di avvio](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Per informazioni sull&#39;importazione di dati tramite l&#39;avvio automatico, vedere [Importare dati in Adobe Workfront utilizzando un modello di avvio](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
-  Per informazioni sull&#39;importazione di progetti mediante l&#39;avvio, vedere [Scenario di avvio: preparazione semplice per l’importazione di un progetto e un’attività](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
+  Per informazioni sull&#39;importazione di progetti tramite Kick-Start, vedere [Scenario Kick-Start: preparazione dell&#39;importazione di un progetto semplice e di un&#39;attività](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -97,7 +97,7 @@ La Data inizio pianificata di un progetto viene impostata automaticamente quando
 
 È possibile specificare la data di inizio pianificata di un&#39;attività oppure lasciare che sia Workfront a calcolarla in base a determinati criteri.
 
-Per informazioni sulla data di inizio pianificata di un&#39;attività, vedere [Panoramica della data di inizio pianificata dell&#39;attività](../../../manage-work/tasks/task-information/task-planned-start-date.md).
+Per informazioni sulla data di inizio pianificata di un&#39;attività, vedere [Panoramica sulla data di inizio pianificata dell&#39;attività](../../../manage-work/tasks/task-information/task-planned-start-date.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

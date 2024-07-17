@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Adobe Workfront Goals viene fornito con una serie di notifiche di eventi che puoi abilitare per il tuo account. Queste notifiche di eventi attivano la comunicazione e-mail ogni volta che viene soddisfatta la condizione definita dall’evento.
 
-Per informazioni sulle notifiche che è possibile abilitare per gli obiettivi di Workfront, consulta [Notifiche: Obiettivi](../../workfront-basics/using-notifications/notifications-goals.md).
+Per informazioni sulle notifiche che è possibile abilitare per gli obiettivi di Workfront, vedere [Notifiche: Obiettivi](../../workfront-basics/using-notifications/notifications-goals.md).
 
-Per informazioni sulla gestione delle notifiche in Adobe Workfront, consulta [Modifica le tue notifiche e-mail](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Per informazioni sulla gestione delle notifiche in Adobe Workfront, vedi [Modificare le tue notifiche e-mail](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

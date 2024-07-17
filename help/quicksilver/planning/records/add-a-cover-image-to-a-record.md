@@ -25,7 +25,7 @@ Per informazioni sulla modifica dei record, vedere [Modifica record](/help/quick
 
 È necessario creare i tipi di record prima di iniziare a creare e modificare i record.
 
-Per informazioni, consulta [Crea tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
+Per informazioni, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ## Requisiti di accesso
 
@@ -78,14 +78,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td>  <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale. </p> <p>Per informazioni, consulta <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica degli accessi</a>. </p>  
+   <td>  <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale. </p> <p>Per informazioni, vedere <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica dell'accesso</a>. </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-*Per ulteriori informazioni, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per ulteriori informazioni, vedere [Requisiti di accesso in Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Considerazioni sulle immagini di copertina della pagina di registrazione
 
@@ -122,46 +122,46 @@ Considera quanto segue:
 
    Oppure
 
-   Nella vista tabella, fare clic sul pulsante **Apri dettagli** icona ![](assets/open-details-icon-in-table-name-field.png) nella prima colonna.
+   Nella vista tabella fare clic sull&#39;icona ![](assets/open-details-icon-in-table-name-field.png) **Apri dettagli** nella prima colonna.
 
    L&#39;anteprima del record viene visualizzata nella vista.
 
    ![](assets/details-box.png)
 
-1. (Facoltativo) Fai clic su **Apri in una nuova scheda** icona ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda.
+1. (Facoltativo) Fai clic sull&#39;icona **Apri in una nuova scheda** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda.
 
    Viene visualizzata la pagina del record.
 
    ![](assets/details-page.png)
 
-1. Nell&#39;anteprima del record o nella pagina, fare clic su **Aggiungi copertina**
+1. Nell&#39;anteprima record o nella pagina, fare clic su **Aggiungi copertina**
 
 
    Oppure
 
-   Passa il puntatore del mouse su un&#39;immagine di copertina esistente e fai clic su **Altro** menu ![](assets/more-menu.png) , quindi fai clic su **Carica**. <!--check the casing here; I logged a bug for this-->
-Il **Registra copertina** La casella si apre in **Carica** scheda.
+   Passa il puntatore del mouse su un&#39;immagine di copertina esistente, fai clic sul menu **Altro** ![](assets/more-menu.png), quindi fai clic su **Carica**. <!--check the casing here; I logged a bug for this-->
+La casella **Copertina record** si apre nella scheda **Carica**.
 
    ![](assets/record-cover-box-for-upload.png)
 
-1. Clic **Sfoglia immagini** e cercare un&#39;immagine nel computer per selezionarla e aggiungerla.
+1. Fare clic su **Sfoglia immagini** e cercare un&#39;immagine nel computer per selezionarla e aggiungerla.
 
-1. (Facoltativo) Per rimuovere l&#39;immagine prima di salvarla, fare clic sul pulsante **Carica nuova immagine** icona ![](assets/upload-new-image-icon.png) , e carica una nuova immagine.
+1. (Facoltativo) Per rimuovere l&#39;immagine prima di salvarla, fare clic sull&#39;icona ![](assets/upload-new-image-icon.png) di **Carica nuova immagine** e caricare una nuova immagine.
 
-1. (Facoltativo) Fai clic su **Galleria** , quindi fare clic su un&#39;immagine nella raccolta di immagini. Impossibile modificare la raccolta di immagini.
+1. (Facoltativo) Fai clic sulla scheda **Galleria**, quindi fai clic su un&#39;immagine nella raccolta di immagini. Impossibile modificare la raccolta di immagini.
 
    ![](assets/record-cover-box-for-gallery.png)
 
-1. Clic **Usa immagine**.
+1. Fare clic su **Usa immagine**.
 
    L’immagine viene caricata nella parte superiore dell’anteprima del record o della pagina e le modifiche vengono salvate automaticamente.
 
    ![](assets/record-page-with-cover-image.png)
 
-1. (Facoltativo) Passa il puntatore sull&#39;immagine, quindi fai clic sul pulsante **Altro** menu ![](assets/more-menu.png) nell&#39;angolo inferiore destro dell&#39;immagine di copertina, quindi eseguire una delle operazioni seguenti:
+1. (Facoltativo) Passa il puntatore del mouse sull&#39;immagine, quindi fai clic sul menu **Altro** ![](assets/more-menu.png) nell&#39;angolo inferiore destro dell&#39;immagine di copertina, quindi effettua una delle seguenti operazioni:
 
-   * Clic **Carica** se si desidera sostituire l&#39;immagine di copertina e ripetere il passaggio 6 per caricare e salvare una nuova immagine.
-   * Clic **Riposiziona**, e utilizzare il **Riposiziona** strumento ![](assets/reposition-tool-icon.png) per centrare l&#39;immagine di copertina, quindi fare clic su **Salva** al termine.
-   * Clic **Rimuovi** per rimuovere l&#39;immagine di copertina
+   * Fare clic su **Carica** se si desidera sostituire l&#39;immagine di copertina e ripetere il passaggio 6 per caricare e salvare una nuova immagine.
+   * Fai clic su **Riposiziona** e utilizza lo strumento **Riposiziona** ![](assets/reposition-tool-icon.png) per centrare l&#39;immagine di copertina, quindi al termine fai clic su **Salva**.
+   * Fai clic su **Rimuovi** per rimuovere l&#39;immagine di copertina.
 
    Workfront salva automaticamente le modifiche.

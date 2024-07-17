@@ -19,7 +19,7 @@ ht-degree: 0%
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
 -->
 
-Puoi configurare un progetto per consentire agli utenti di aggiungere problemi al progetto tramite e-mail. Puoi consentire l’invio di e-mail di problemi in un progetto solo se il progetto è designato come coda di richieste. Per ulteriori informazioni sulla creazione di un progetto di coda richieste, consulta [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Puoi configurare un progetto per consentire agli utenti di aggiungere problemi al progetto tramite e-mail. Puoi consentire l’invio di e-mail di problemi in un progetto solo se il progetto è designato come coda di richieste. Per ulteriori informazioni sulla creazione di un progetto di coda richieste, vedere [Creare una coda richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 ## Requisiti di accesso
 
@@ -43,7 +43,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
    <td> <p>Modifica l'accesso alle Issues</p> <p><b>NOTA</b>
 
-Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
+Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
 </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Object permissions</td> 
@@ -53,7 +53,7 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Prerequisiti
 
@@ -80,12 +80,12 @@ Prima di abilitare questa funzione è necessario soddisfare le seguenti condizio
 >È consigliabile che il progetto configurato per la ricezione di richieste tramite e-mail non contenga più di un argomento della coda. Se le richieste inviate sono destinate a risorse o progetti diversi, è necessario indirizzarle o spostarle manualmente, dopo l’invio.
 
 1. Vai al progetto che desideri abilitare per ricevere i problemi tramite e-mail.
-1. Clic **Dettagli coda** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro** prima.
-1. In **Tipo di coda** area, seleziona **Coda richieste di aiuto di Publish as**.
+1. Fai clic su **Dettagli coda** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro**.
+1. Nell&#39;area **Tipo coda**, selezionare **Publish come Coda richieste della Guida**.
 
-1. Scorri verso il basso fino a **Impostazioni coda e-mail** , quindi seleziona **Abilita l’acquisizione delle richieste tramite e-mail**.
+1. Scorri verso il basso fino all&#39;area **Impostazioni coda e-mail**, quindi seleziona **Abilita acquisizione richieste tramite e-mail**.
 
-1. Inserisci l’inizio dell’indirizzo e-mail nel **Indirizzo e-mail assegnazione** casella.
+1. Immettere l&#39;inizio dell&#39;indirizzo e-mail nella casella **Indirizzo e-mail assegnazione**.
 
    Devi creare un indirizzo e-mail univoco. È consigliabile utilizzare il nome della società come parte dell’indirizzo e-mail di assegnazione.
 
@@ -98,7 +98,7 @@ Prima di abilitare questa funzione è necessario soddisfare le seguenti condizio
    >This was the case previously, but it's not working this way anymore, since August 2022: * Emails forwarded to this email address are not added as issues to the project in&nbsp;Workfront. Only emails created from this email address are added as issues.
    -->
 
-1. (Facoltativo) Seleziona la **Inoltra tutti i problemi che non vengono inviati tramite e-mail**, quindi inserisci un indirizzo e-mail di inoltro nella casella qui sotto.
+1. (Facoltativo) Seleziona **Inoltra tutti i problemi che non vengono inviati tramite e-mail**, quindi inserisci un indirizzo e-mail di inoltro nella casella qui sotto.
 
    Questo indirizzo e-mail riceve informazioni sulle e-mail che non sono state inviate al progetto.
 

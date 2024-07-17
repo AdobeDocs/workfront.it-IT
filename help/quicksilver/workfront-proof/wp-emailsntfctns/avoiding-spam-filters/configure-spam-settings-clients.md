@@ -2,25 +2,25 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: avoiding-spam-filters
-title: Configurare le impostazioni di posta indesiderata per i client e-mail comuni
-description: 'Puoi configurare il client e-mail per garantire che: [!DNL Workfront Proof] le e-mail non vengono inviate alla cartella spam.'
+title: Configurare le impostazioni di posta indesiderata per i client e-mail più comuni
+description: Puoi configurare il tuo client di posta elettronica in modo che [!DNL Workfront Proof] le e-mail non vengano inviate alla cartella di posta indesiderata.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 41517540-c5a8-4bf5-997b-e7a605337e73
 source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1480'
 ht-degree: 0%
 
 ---
 
-# Configurare le impostazioni di posta indesiderata per i client e-mail comuni
+# Configurare le impostazioni di posta indesiderata per i client e-mail più comuni
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alla funzionalità del prodotto standalone [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Copertura](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
-Puoi configurare il client e-mail per garantire che: [!DNL Workfront Proof] le e-mail non vengono inviate alla cartella spam.
+È possibile configurare il client di posta elettronica per assicurarsi che [!DNL Workfront Proof] messaggi di posta elettronica non vengano inviati alla cartella di posta indesiderata.
 
 Le sezioni seguenti descrivono questo processo per vari client e-mail:
 
@@ -28,201 +28,201 @@ Le sezioni seguenti descrivono questo processo per vari client e-mail:
 
 In questa sezione:
 
-* Aggiungi i due [!DNL Workfront Proof] &quot;[!UICONTROL da]&quot; indirizzi al tuo [!UICONTROL Contatti] elenco in [!DNL Gmail] o creare filtri per impedire [!UICONTROL Gmail] da indirizzi a [!UICONTROL Spam] cartella
-* Rimuovi eventuali elementi esistenti [!DNL Workfront Proof] e-mail [!UICONTROL Spam] cartella e modifica eventuali filtri che instradano [!DNL Workfront Proof] messaggi al cestino
+* Aggiungi i due indirizzi [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; all&#39;elenco [!UICONTROL Contatti] in [!DNL Gmail] oppure crea filtri per impedire a [!UICONTROL Gmail] di instradare le e-mail da tali indirizzi alla cartella [!UICONTROL Spam]
+* Rimuovi [!DNL Workfront Proof] e-mail esistenti dalla cartella [!UICONTROL Spam] e modifica i filtri che indirizzano [!DNL Workfront Proof] messaggi al cestino
 
-### Per il nuovo [!DNL Workfront Proof] e-mail
+### Per le nuove e-mail di [!DNL Workfront Proof]
 
-Aggiungi i due [!DNL Workfront Proof] &quot;[!UICONTROL da]&quot; indirizzi al tuo [!UICONTROL Contatti] elenco in [!DNL Gmail] o creare filtri e-mail da mantenere [!DNL Workfront Proof] e-mail da indirizzare al tuo [!UICONTROL Spam] cartella per [!DNL Gmail]. Per aggiungere i due [!DNL Workfront Proof] &quot;[!UICONTROL da]&quot; indirizzi al tuo [!UICONTROL Contatti] elenco:
+Aggiungi i due indirizzi [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; all&#39;elenco [!UICONTROL Contatti] in [!DNL Gmail] oppure crea filtri e-mail per evitare che [!DNL Workfront Proof] e-mail vengano instradate alla cartella [!UICONTROL Spam] da [!DNL Gmail]. Per aggiungere i due indirizzi [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; all&#39;elenco [!UICONTROL Contacts]:
 
-1. Fai clic su **[!UICONTROL Contatti]** di seguito **[!UICONTROL Posta]** nell’angolo in alto a sinistra di qualsiasi pagina Gmail.
+1. Fai clic su **[!UICONTROL Contatti]** sotto **[!UICONTROL Posta]** nell&#39;angolo in alto a sinistra di qualsiasi pagina Gmail.
 
-1. Potrebbe essere necessario fare clic su un segno più (+) dopo [!UICONTROL Posta] per visualizzare [!UICONTROL Contatti] e [!UICONTROL Attività]. Se il segno più non viene visualizzato, spostare il cursore su [!UICONTROL Posta]e viene visualizzato il segno più .
-1. Fai clic sul pulsante **[!UICONTROL Aggiungi a &quot;Contatti personali&quot;]** al di sopra dell&#39;elenco dei contatti e dei relativi indirizzi e-mail.
-1. Copia e incolla il primo &quot;[!UICONTROL da]&quot; nella finestra di dialogo dell&#39;indirizzo e-mail non etichettato.
+1. Potrebbe essere necessario fare clic su un segno più (+) dopo [!UICONTROL Posta] per visualizzare [!UICONTROL Contatti] e [!UICONTROL Attività]. Se il segno più non viene visualizzato, spostare il cursore su [!UICONTROL Posta] e verrà visualizzato il segno più.
+1. Fai clic sul pulsante **[!UICONTROL Aggiungi a &quot;Contatti personali&quot;]** sopra l&#39;elenco dei contatti e i relativi indirizzi e-mail.
+1. Copia e incolla il primo indirizzo &quot;[!UICONTROL da]&quot; nella finestra di dialogo dell&#39;indirizzo e-mail senza etichetta.
 1. Fai clic su **[!UICONTROL Aggiungi]** sotto la finestra di dialogo. L&#39;indirizzo viene aggiunto all&#39;elenco dei contatti.
-1. Per il secondo &quot;[!UICONTROL da]&quot; indirizzo, ripetere i passaggi 2-4.
+1. Per il secondo indirizzo &quot;[!UICONTROL from]&quot;, ripetere i passaggi 2-4.
 
-In alternativa, per creare un filtro e-mail per ciascuno dei due [!DNL Workfront Proof] &quot;[!UICONTROL da]&quot; indirizzi:
+In alternativa, per creare un filtro e-mail per ciascuno dei due indirizzi [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot;:
 
-1. Fai clic su **[!UICONTROL Creare un filtro]** accanto al **[!UICONTROL Ricerca]** nella parte superiore di qualsiasi pagina Gmail.
+1. Fai clic su **[!UICONTROL Crea un filtro]** accanto ai pulsanti **[!UICONTROL Cerca]** nella parte superiore di qualsiasi pagina Gmail.
 
-1. Copia e incolla il primo &quot;[!UICONTROL da]&quot; nell&#39;indirizzo **[!UICONTROL Da]** nel campo **[!UICONTROL Creare un filtro]** scatola.
+1. Copia e incolla il primo indirizzo &quot;[!UICONTROL from]&quot; nel campo **[!UICONTROL From]** nella casella **[!UICONTROL Create a Filter]**.
 
-1. Fai clic sul pulsante **[!UICONTROL Passaggio successivo]** pulsante .
-1. Da **[!UICONTROL Scegli azione]** elenco, selezionare **[!UICONTROL Non inviarlo mai a Spam]**.
+1. Fai clic sul pulsante **[!UICONTROL Passaggio successivo]**.
+1. Dall&#39;elenco **[!UICONTROL Scegli azione]**, seleziona **[!UICONTROL Non inviarlo mai a posta indesiderata]**.
 
-1. Fai clic sul pulsante **[!UICONTROL Crea filtro]** pulsante . Il filtro viene aggiunto all’elenco dei filtri nel [!UICONTROL Impostazioni] pagina.
-1. Per il secondo &quot;[!UICONTROL da]&quot; indirizzo, fai clic su **[!UICONTROL Creare un filtro]** nella parte inferiore della pagina Impostazioni e ripeti i passaggi da 2 a 5.
+1. Fare clic sul pulsante **[!UICONTROL Crea filtro]**. Il filtro viene aggiunto all&#39;elenco dei filtri nella pagina [!UICONTROL Impostazioni].
+1. Per il secondo indirizzo &quot;[!UICONTROL from]&quot;, fare clic su **[!UICONTROL Crea un filtro]** nella parte inferiore della pagina Impostazioni e ripetere i passaggi 2-5.
 
-### Per esistente [!DNL Workfront Proof] e-mail
+### Per [!DNL Workfront Proof] e-mail esistenti
 
-Per rimuovere [!DNL Workfront Proof] invia e-mail a [!DNL Gmail] ha effettuato [!UICONTROL Spam] dall&#39;ultima eliminazione:
+Per rimuovere le e-mail [!DNL Workfront Proof] inserite da [!DNL Gmail] nella cartella [!UICONTROL Spam] dall&#39;ultima cancellazione:
 
-1. Fai clic su **[!UICONTROL Spam]** nell’elenco delle cartelle sul lato sinistro di qualsiasi pagina Gmail.
-1. Seleziona uno [!DNL Workfront Proof] e-mail [!UICONTROL Spam] cartella.
-1. Fai clic sul pulsante **[!UICONTROL Non spam]** sopra il pulsante [!UICONTROL Spam] elenco.\
-   Ora li troverai [!DNL Workfront Proof] e-mail nella tua casella in entrata.
+1. Fai clic su **[!UICONTROL Spam]** nell&#39;elenco delle cartelle sul lato sinistro di qualsiasi pagina Gmail.
+1. Seleziona [!DNL Workfront Proof] e-mail nella cartella [!UICONTROL Spam].
+1. Fai clic sul pulsante **[!UICONTROL Non spam]** sopra l&#39;elenco [!UICONTROL Spam].\
+   Queste e-mail di [!DNL Workfront Proof] verranno ora trovate nella tua casella in entrata.
 
-Per modificare i filtri inviati [!DNL Workfront Proof] e-mail al cestino:
+Per modificare i filtri che inviano e-mail a [!DNL Workfront Proof] nel cestino:
 
-1. Fai clic su **[!UICONTROL Creare un filtro]** accanto al [!UICONTROL Ricerca] nella parte superiore di qualsiasi pagina Gmail.
-1. Fai clic su **[!UICONTROL Mostra filtri correnti]** nella parte inferiore del [!UICONTROL Creare un filtro] finestra di dialogo. I filtri esistenti sono elencati nella pagina Impostazioni per campo (da) e nome o indirizzo.
-1. Se la [!UICONTROL Esegui questa azione per un [!DNL Workfront Proof] indirizzo] filtro [!UICONTROL Elimina], fai clic su **[!UICONTROL modifica]**.
-1. Fai clic sul pulsante **[!UICONTROL Passaggio successivo]** pulsante .
-1. Deseleziona la **[!UICONTROL Elimina]** e seleziona **[!UICONTROL Non inviarlo mai a Spam]**.
+1. Fai clic su **[!UICONTROL Crea un filtro]** accanto ai pulsanti [!UICONTROL Cerca] nella parte superiore di qualsiasi pagina Gmail.
+1. Fare clic su **[!UICONTROL Mostra filtri correnti]** nella parte inferiore della finestra di dialogo [!UICONTROL Crea filtro]. I filtri esistenti sono elencati nella pagina Impostazioni per campo (da) e nome o indirizzo.
+1. Se [!UICONTROL Esegui questa azione per un filtro [!DNL Workfront Proof] indirizzo] esistente è [!UICONTROL Elimina], fai clic su **[!UICONTROL modifica]**.
+1. Fai clic sul pulsante **[!UICONTROL Passaggio successivo]**.
+1. Deseleziona l&#39;opzione **[!UICONTROL Elimina]** e seleziona **[!UICONTROL Non inviarla mai a Spam]**.
 
-1. Fai clic sul pulsante **[!UICONTROL Aggiorna filtro]** pulsante .\
-   La [!UICONTROL Impostazioni] viene visualizzata nuovamente la pagina.
+1. Fare clic sul pulsante **[!UICONTROL Aggiorna filtro]**.\
+   La pagina [!UICONTROL Impostazioni] verrà visualizzata nuovamente.
 
-1. Se supplementare [!DNL Workfront Proof] vengono elencati i filtri per gli indirizzi, ripeti i passaggi 3-6 per ciascuno di essi.
+1. Se sono elencati altri filtri di indirizzo [!DNL Workfront Proof], ripetere i passaggi 3-6 per ciascuno di essi.
 
 ## [!DNL Microsoft Outlook] 2003 - 2007
 
 In questa sezione:
 
-* Aggiungi i due [!DNL Workfront Proof] &quot;[!UICONTROL da]&quot; indirizzi al [!UICONTROL Mittenti sicuri] elenco in [!DNL Outlook]
-* Rimuovi eventuali elementi esistenti [!DNL Workfront Proof] e-mail [!UICONTROL Posta indesiderata] cartella ed eventuali &quot;[!UICONTROL da]&quot; indirizzi da [!UICONTROL Mittenti bloccati] elenco
+* Aggiungi i due indirizzi [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; all&#39;elenco [!UICONTROL Mittenti attendibili] in [!DNL Outlook]
+* Rimuovi [!DNL Workfront Proof] e-mail esistenti dalla cartella [!UICONTROL Posta indesiderata] e qualsiasi indirizzo &quot;[!UICONTROL da]&quot; dall&#39;elenco [!UICONTROL Mittenti bloccati]
 
-### Per il nuovo [!DNL Workfront Proof] e-mail
+### Per le nuove e-mail di [!DNL Workfront Proof]
 
-Per aggiungere i due [!DNL Workfront Proof] &quot;[!UICONTROL da]&quot; indirizzi all&#39;elenco Mittenti attendibili in Outlook:
+Per aggiungere i due indirizzi [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; all&#39;elenco Mittenti attendibili in Outlook:
 
-1. Fai clic su **[!UICONTROL Opzioni]** sulla **[!UICONTROL Strumenti]** menu.
+1. Fare clic su **[!UICONTROL Opzioni]** nel menu **[!UICONTROL Strumenti]**.
 
-1. Fai clic su **[!UICONTROL Posta indesiderata]** sotto **[!UICONTROL Posta elettronica]** sulla **[!UICONTROL Preferenze]** scheda .
+1. Fare clic su **[!UICONTROL Posta indesiderata]** in **[!UICONTROL Posta elettronica]** nella scheda **[!UICONTROL Preferenze]**.
 
-1. Fai clic su **[!UICONTROL Aggiungi]** sulla **[!UICONTROL Mittenti sicuri]** scheda .
+1. Fai clic su **[!UICONTROL Aggiungi]** nella scheda **[!UICONTROL Mittenti attendibili]**.
 
-1. Copia e incolla il primo &quot;[!UICONTROL da]&quot; indirizzo o solo il nome di dominio (il resto del nome dopo il segno @) nel **[!UICONTROL Aggiungi indirizzo o dominio]** scatola.
-1. Fai clic su **[!UICONTROL OK]**. L’indirizzo viene aggiunto all’elenco.
-1. Per il secondo &quot;[!UICONTROL da]&quot; indirizzo, ripetere i passaggi 3-5.
+1. Copiare e incollare il primo indirizzo &quot;[!UICONTROL da]&quot; o solo il nome di dominio (il resto del nome dopo il simbolo @) nella casella **[!UICONTROL Aggiungi indirizzo o dominio]**.
+1. Fare clic su **[!UICONTROL OK]**. L’indirizzo viene aggiunto all’elenco.
+1. Per il secondo indirizzo &quot;[!UICONTROL from]&quot;, ripetere i passaggi 3-5.
 
-### Per esistente [!DNL Workfront Proof] e-mail
+### Per [!DNL Workfront Proof] e-mail esistenti
 
-Per rimuovere [!DNL Workfront Proof] invia e-mail a [!DNL Outlook] ha effettuato [!UICONTROL Posta indesiderata] dall&#39;ultima eliminazione:
+Per rimuovere le e-mail [!DNL Workfront Proof] inserite da [!DNL Outlook] nella cartella [!UICONTROL Posta indesiderata] dall&#39;ultima cancellazione:
 
-1. Fai clic sul pulsante **[!UICONTROL Posta indesiderata]** nel riquadro di spostamento.
-1. Se ce ne sono [!DNL Workfront Proof] e-mail nella cartella, fai clic con il pulsante destro del mouse su ciascuna e-mail, seleziona [!UICONTROL Posta indesiderata], quindi fai clic su **[!UICONTROL Contrassegna come non spazzatura]**.
-1. Ora li troverai [!DNL Workfront Proof] e-mail nella tua casella in entrata.
+1. Fare clic sulla cartella **[!UICONTROL Posta indesiderata]** nel riquadro di spostamento.
+1. Se nella cartella sono presenti [!DNL Workfront Proof] e-mail, fare clic con il pulsante destro del mouse su ogni e-mail, selezionare [!UICONTROL Posta indesiderata], quindi fare clic su **[!UICONTROL Contrassegna come non indesiderata]**.
+1. Queste e-mail di [!DNL Workfront Proof] verranno ora trovate nella tua casella in entrata.
 
-Per verificare l&#39;eventuale [!DNL Workfront Proof] &quot;[!UICONTROL da]&quot; Gli indirizzi si trovano nell&#39;elenco Mittenti bloccati:
+Per verificare se nell&#39;elenco Mittenti bloccati sono presenti indirizzi [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot;:
 
-1. Fai clic su **[!UICONTROL Opzioni]** sulla **[!UICONTROL Strumenti]** menu
+1. Fai clic su **[!UICONTROL Opzioni]** nel menu **[!UICONTROL Strumenti]**
 
-1. Fai clic su **[!UICONTROL Posta indesiderata]** sotto **[!UICONTROL Posta elettronica]** sulla **[!UICONTROL Preferenze]** scheda .
+1. Fare clic su **[!UICONTROL Posta indesiderata]** in **[!UICONTROL Posta elettronica]** nella scheda **[!UICONTROL Preferenze]**.
 
-1. Fai clic sul pulsante **[!UICONTROL Mittenti bloccati]** scheda .
-1. Se [!DNL Workfront Proof] gli indirizzi sono nell’elenco, fai clic su ciascuno di essi e quindi fai clic su **[!UICONTROL Rimuovi]**.
+1. Fare clic sulla scheda **[!UICONTROL Mittenti bloccati]**.
+1. Se nell&#39;elenco sono presenti indirizzi [!DNL Workfront Proof], fare clic su ciascuno di essi e quindi su **[!UICONTROL Rimuovi]**.
 
 ## [!DNL Windows Live Hotmail]
 
 In questa sezione:
 
-* Aggiungi i due [!DNL Workfront Proof] &quot;[!UICONTROL da]&quot; indirizzi al [!UICONTROL Mittenti sicuri] elenco in [!DNL Windows Live Hotmail]
-* Rimuovi eventuali elementi esistenti [!DNL Workfront Proof] e-mail dalla cartella Posta indesiderata e da qualsiasi &quot;[!UICONTROL da]&quot; indirizzi da [!UICONTROL Mittenti bloccati] elenco
+* Aggiungi i due indirizzi [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; all&#39;elenco [!UICONTROL Mittenti attendibili] in [!DNL Windows Live Hotmail]
+* Rimuovi [!DNL Workfront Proof] e-mail esistenti dalla cartella Posta indesiderata e qualsiasi indirizzo &quot;[!UICONTROL from]&quot; dall&#39;elenco [!UICONTROL Mittenti bloccati]
 
-### Per il nuovo [!DNL Workfront Proof] e-mail
+### Per le nuove e-mail di [!DNL Workfront Proof]
 
-Per aggiungere i due [!DNL Workfront Proof] &quot;[!UICONTROL da]&quot; indirizzi al tuo [!UICONTROL Mittenti sicuri] elenco in [!DNL Windows Live Hotmail]:
-
-1. Fai clic su **[!UICONTROL Opzioni]** nell&#39;angolo superiore destro della pagina della cassetta postale.
-1. Fai clic su **[!UICONTROL Altre opzioni]**.
-1. Fai clic su **[!UICONTROL Mittenti sicuri e bloccati]** sotto **[!UICONTROL Posta indesiderata]**.
-
-1. Fai clic su **[!UICONTROL Mittenti sicuri]**.
-1. Copia e incolla il primo &quot;[!UICONTROL da]&quot; indirizzo o solo il nome di dominio (il resto del nome dopo il simbolo @) nel [!UICONTROL Mittente] o dominio da contrassegnare come campo sicuro.
-1. Fai clic sul pulsante **[!UICONTROL Aggiungi all’elenco]** pulsante . L&#39;indirizzo viene visualizzato nell&#39;elenco.
-1. Per il secondo &quot;[!UICONTROL da]&quot; indirizzo, ripetere i passaggi 4-6.
-
-### Per esistente [!DNL Workfront Proof] e-mail
-
-Per rimuovere [!DNL Workfront Proof] invia e-mail a [!DNL Windows Live Hotmail] ha effettuato [!UICONTROL Junk] cartella di posta elettronica dall&#39;ultima eliminazione:
-
-1. Fai clic su **[!UICONTROL Junk]** sotto **[!UICONTROL Cartelle]** sul lato sinistro della pagina.
-
-1. Se ce ne sono [!DNL Workfront Proof] e-mail in questa cartella, apri ogni e-mail e fai clic su **[!UICONTROL Non spazzatura]** link.
-1. Ora li troverai [!DNL Workfront Proof] e-mail nella tua casella in entrata.
-
-Per verificare l&#39;eventuale [!DNL Workfront Proof] &quot;[!UICONTROL da]&quot; gli indirizzi si trovano nella [!UICONTROL Mittenti bloccati] elenco:
+Per aggiungere i due indirizzi [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; all&#39;elenco [!UICONTROL Mittenti attendibili] in [!DNL Windows Live Hotmail]:
 
 1. Fai clic su **[!UICONTROL Opzioni]** nell&#39;angolo superiore destro della pagina della cassetta postale.
 1. Fai clic su **[!UICONTROL Altre opzioni]**.
-1. Fai clic su **[!UICONTROL Mittenti sicuri e bloccati]** sotto **[!UICONTROL Posta indesiderata]**.
+1. Fare clic su **[!UICONTROL Mittenti sicuri e bloccati]** in **[!UICONTROL Posta indesiderata]**.
+
+1. Fare clic su **[!UICONTROL Mittenti attendibili]**.
+1. Copia e incolla il primo indirizzo &quot;[!UICONTROL from]&quot; o solo il nome di dominio (il resto del nome dopo il segno @) nel [!UICONTROL Sender] o dominio per contrassegnare come campo sicuro.
+1. Fare clic sul pulsante **[!UICONTROL Aggiungi all&#39;elenco]**. L&#39;indirizzo viene visualizzato nell&#39;elenco.
+1. Per il secondo indirizzo &quot;[!UICONTROL from]&quot;, ripetere i passaggi 4-6.
+
+### Per [!DNL Workfront Proof] e-mail esistenti
+
+Per rimuovere [!DNL Workfront Proof] messaggi di posta elettronica inseriti da [!DNL Windows Live Hotmail] nella cartella di posta elettronica [!UICONTROL Posta indesiderata] dall&#39;ultima cancellazione:
+
+1. Fai clic su **[!UICONTROL Posta indesiderata]** in **[!UICONTROL Cartelle]** sul lato sinistro della pagina.
+
+1. Se nella cartella sono presenti [!DNL Workfront Proof] e-mail, apri ogni e-mail e fai clic sul collegamento **[!UICONTROL Non inviare posta indesiderata]**.
+1. Queste e-mail di [!DNL Workfront Proof] verranno ora trovate nella tua casella in entrata.
+
+Per verificare se nell&#39;elenco [!UICONTROL Mittenti bloccati] sono presenti indirizzi [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot;:
+
+1. Fai clic su **[!UICONTROL Opzioni]** nell&#39;angolo superiore destro della pagina della cassetta postale.
+1. Fai clic su **[!UICONTROL Altre opzioni]**.
+1. Fare clic su **[!UICONTROL Mittenti sicuri e bloccati]** in **[!UICONTROL Posta indesiderata]**.
 
 1. Fai clic su **[!UICONTROL Mittenti bloccati]**.
-1. Se [!DNL Workfront Proof] gli indirizzi sono nell’elenco, selezionali e fai clic sul pulsante **[!UICONTROL Rimuovi dall&#39;elenco]** pulsante .
+1. Se nell&#39;elenco sono presenti indirizzi [!DNL Workfront Proof], selezionarli e fare clic sul pulsante **[!UICONTROL Rimuovi dall&#39;elenco]**.
 
 ## [!DNL Yahoo Mail]
 
 In questa sezione:
 
-* Aggiungi i due [!DNL Workfront Proof] &quot;[!UICONTROL da]&quot; indirizzi dei filtri da avere [!DNL Yahoo Mail] inviare [!DNL Workfront Proof] invia un messaggio e-mail alla tua casella in entrata
-* Rimuovi esistente [!DNL Workfront Proof] e-mail dal [!UICONTROL Spam] cartella
+* Aggiungi i due indirizzi [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; ai filtri per fare in modo che [!DNL Yahoo Mail] invii l&#39;e-mail a [!DNL Workfront Proof] nella tua casella in entrata
+* Rimuovi [!DNL Workfront Proof] e-mail esistenti dalla cartella [!UICONTROL Spam]
 
-### Per il nuovo [!DNL Workfront Proof] e-mail
+### Per le nuove e-mail di [!DNL Workfront Proof]
 
-Per creare un nuovo filtro in [!DNL Yahoo Mail] per ciascuno [!DNL Workfront Proof] &quot;[!UICONTROL da]&quot; indirizzo:
+Per creare un nuovo filtro in [!DNL Yahoo Mail] per ogni indirizzo [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot;:
 
-1. Fai clic su **[!UICONTROL Opzioni]** nell&#39;angolo superiore destro della pagina Mail.
+1. Fare clic su **[!UICONTROL Opzioni]** nell&#39;angolo superiore destro della pagina Posta elettronica.
 1. Fai clic su **[!UICONTROL Altre opzioni]**.
 1. Fai clic su **[!UICONTROL Filtri]** sul lato sinistro della pagina.
-1. Fai clic su **[!UICONTROL Creare o modificare filtri]**.
-1. Fai clic su **[!UICONTROL Aggiungi]** nella pagina Filtri .
+1. Fare clic su **[!UICONTROL Crea o modifica filtri]**.
+1. Fare clic su **[!UICONTROL Aggiungi]** nella pagina Filtri.
 1. Assegna un nome al filtro.
-1. Per [!UICONTROL Intestazione da] seleziona la regola **[!UICONTROL contiene]** e copia e incolla il primo &quot;[!UICONTROL da]&quot; indirizzo o solo il nome di dominio (il resto del nome dopo il segno @).
-1. Fai clic su **[!UICONTROL Scegli cartella]** e seleziona **[!UICONTROL Inbox]**.
+1. Per la regola [!UICONTROL From header], seleziona l&#39;opzione **[!UICONTROL contains]** e copia e incolla il primo indirizzo &quot;[!UICONTROL from]&quot; o solo il nome di dominio (il resto del nome dopo il simbolo @).
+1. Fare clic su **[!UICONTROL Scegli cartella]** e selezionare **[!UICONTROL Posta in arrivo]**.
 
-1. Fai clic sul pulsante *[!UICONTROL *Aggiungi filtro]** pulsante. Il filtro viene visualizzato nell’elenco Filtri .
-1. Per il secondo &quot;[!UICONTROL da]&quot; indirizzo, ripetere i passaggi 5-9.
+1. Fare clic sul pulsante *[!UICONTROL *Aggiungi filtro]**. Il filtro viene visualizzato nell&#39;elenco Filtri.
+1. Per il secondo indirizzo &quot;[!UICONTROL from]&quot;, ripetere i passaggi 5-9.
 
-### Per esistente [!DNL Workfront Proof] e-mail
+### Per [!DNL Workfront Proof] e-mail esistenti
 
-Per rimuovere [!DNL Workfront Proof] invia e-mail a [!DNL Yahoo Mail] è stato indirizzato al tuo [!UICONTROL Spam] dall&#39;ultima eliminazione:
+Per rimuovere [!DNL Workfront Proof] e-mail che [!DNL Yahoo Mail] ha inviato alla cartella [!UICONTROL Spam] dall&#39;ultima cancellazione:
 
-1. Seleziona la **[!UICONTROL Spam]** dal lato sinistro del [!UICONTROL Posta] pagina.
-1. Se ce ne sono [!DNL Workfront Proof] e-mail nella cartella, seleziona ogni e-mail e fai clic sul **[!UICONTROL Non spam]** pulsante .
-1. Ora trovi queste e-mail nella tua casella in entrata.
+1. Selezionare la cartella **[!UICONTROL Spam]** dal lato sinistro della pagina [!UICONTROL Posta].
+1. Se nella cartella sono presenti [!DNL Workfront Proof] e-mail, seleziona ogni e-mail e fai clic sul pulsante **[!UICONTROL Non spam]**.
+1. Ora troverai tali e-mail nella tua casella in entrata.
 
-Per rimuovere [!DNL Workfront Proof] &quot;[!UICONTROL da]&quot; indirizzi dall&#39;elenco degli indirizzi bloccati:
+Per rimuovere qualsiasi indirizzo [!DNL Workfront Proof] &quot;[!UICONTROL da]&quot; dall&#39;elenco degli indirizzi bloccati:
 
-1. Fai clic su **[!UICONTROL Opzioni]** nell&#39;angolo superiore destro della pagina Mail.
+1. Fare clic su **[!UICONTROL Opzioni]** nell&#39;angolo superiore destro della pagina Posta elettronica.
 1. Fai clic su **[!UICONTROL Altre opzioni]**.
 1. Fai clic su **[!UICONTROL Spam]** sul lato sinistro della pagina.
-1. Se [!DNL Workfront Proof] gli indirizzi o i nomi di dominio vengono visualizzati nella **[!UICONTROL Indirizzi e-mail bloccati]** nella sezione della pagina Spam, seleziona ogni voce e fai clic sul pulsante **[!UICONTROL Rimuovi]** pulsante .
+1. Se nella sezione **[!UICONTROL Indirizzi e-mail bloccati]** della pagina Spam vengono visualizzati indirizzi o nomi di dominio [!DNL Workfront Proof], selezionare ogni voce e fare clic sul pulsante **[!UICONTROL Rimuovi]**.
 
 ## [!DNL Aol]
 
 In questa sezione:
 
-* Aggiungi i due [!DNL Workfront Proof] &quot;[!UICONTROL da]&quot; indirizzi al tuo [!DNL Aol] [!UICONTROL Rubrica]
-* Rimuovi eventuali elementi esistenti [!DNL Workfront Proof] e-mail dal [!DNL Aol] [!UICONTROL Spam] Cartella ed eventuali [!DNL Workfront Proof] &quot;[!UICONTROL da]&quot; indirizzi dall&#39;elenco di indirizzi bloccati nel [!DNL Aol] [!UICONTROL Spam] filter
+* Aggiungi i due indirizzi [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; alla [!DNL Aol] [!UICONTROL Rubrica]
+* Rimuovi [!DNL Workfront Proof] e-mail esistenti dalla cartella [!DNL Aol] [!UICONTROL Spam] e qualsiasi indirizzo [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; dall&#39;elenco indirizzi bloccati nel filtro [!DNL Aol] [!UICONTROL Spam]
 
-### Per il nuovo [!DNL Workfront Proof] e-mail
+### Per le nuove e-mail di [!DNL Workfront Proof]
 
-Per aggiungere i due [!DNL Workfront Proof] &quot;[!UICONTROL da]&quot; indirizzi al tuo [!DNL Aol] [!UICONTROL Rubrica]:
+Per aggiungere i due indirizzi [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; alla [!DNL Aol] [!UICONTROL Rubrica]:
 
-1. Fai clic sul pulsante **[!UICONTROL Posta]** menu.
-1. Seleziona **[!UICONTROL Rubrica]**.
-1. Fai clic sul pulsante [!UICONTROL Aggiungi] nella parte inferiore del [!UICONTROL Rubrica] finestra.
-1. In **[!UICONTROL Scheda indirizzo per il nuovo contatto]** finestra, copia e incolla il primo &quot;[!UICONTROL da]&quot; nell&#39;indirizzo [!UICONTROL Altro messaggio di posta elettronica] e controlla il [!UICONTROL Posta elettronica principale] pulsante di scelta accanto a quel campo.
+1. Fare clic sul menu **[!UICONTROL Posta]**.
+1. Selezionare **[!UICONTROL Rubrica]**.
+1. Fare clic sul pulsante [!UICONTROL Aggiungi] nella parte inferiore della finestra [!UICONTROL Rubrica].
+1. Nella finestra **[!UICONTROL Scheda indirizzo per nuovo contatto]**, copiare e incollare il primo indirizzo &quot;[!UICONTROL da]&quot; nel campo [!UICONTROL Altro indirizzo di posta elettronica] e selezionare il pulsante di opzione [!UICONTROL Posta elettronica principale] accanto a tale campo.
 1. Fai clic su **[!UICONTROL Salva]**.
-1. Per il secondo &quot;[!UICONTROL da]&quot; indirizzo, ripetere i passaggi 3-5.
+1. Per il secondo indirizzo &quot;[!UICONTROL from]&quot;, ripetere i passaggi 3-5.
 
-### Per esistente [!DNL Workfront Proof] e-mail
+### Per [!DNL Workfront Proof] e-mail esistenti
 
-Per rimuovere [!DNL Workfront Proof] invia e-mail a [!DNL Aol] è stato indirizzato al tuo [!UICONTROL Spam] dall&#39;ultima eliminazione:
+Per rimuovere [!DNL Workfront Proof] e-mail che [!DNL Aol] ha inviato alla cartella [!UICONTROL Spam] dall&#39;ultima cancellazione:
 
-1. Fai clic sul pulsante [!UICONTROL Posta] menu.
-1. Seleziona la **[!UICONTROL Spam]** Cartella.
-1. Se ce ne sono [!DNL Workfront Proof] e-mail nella cartella, apri ogni e-mail alla volta e fai clic sul **[!UICONTROL Questo Non È Spam]** pulsante .
-1. Ora li troverai [!DNL Workfront Proof] e-mail nella tua casella in entrata.
+1. Fare clic sul menu [!UICONTROL Posta].
+1. Seleziona la cartella **[!UICONTROL Spam]**.
+1. Se nella cartella sono presenti [!DNL Workfront Proof] e-mail, apri ogni e-mail una alla volta e fai clic sul pulsante **[!UICONTROL Non è spam]**.
+1. Queste e-mail di [!DNL Workfront Proof] verranno ora trovate nella tua casella in entrata.
 
-Per verificare l&#39;eventuale [!DNL Workfront Proof] &quot;[!UICONTROL da]&quot; gli indirizzi sono bloccati nel [!DNL Aol] [!UICONTROL Spam] filtro:
+Per verificare se gli indirizzi [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; sono bloccati nel filtro [!DNL Aol] [!UICONTROL Spam]:
 
-1. Vai a **[!UICONTROL [!DNL Aol]Parola chiave: Controlli posta]** per visualizzare [!UICONTROL Impostazioni posta indesiderata] pagina.
+1. Vai a **[!UICONTROL [!DNL Aol]Parola chiave: controlli di posta]** per visualizzare la pagina [!UICONTROL Impostazioni posta indesiderata].
 
-1. La [!DNL Aol] [!UICONTROL Parola chiave] è una funzione solo di [!DNL Aol] software. Se hai bisogno di istruzioni per accedere al [!UICONTROL Impostazioni posta indesiderata] pagina da [!DNL Aol] [!UICONTROL Webmail] o [!DNL Aol] [!UICONTROL Desktop], vedi [!DNL Aol] aiuto.
-1. Se **[!UICONTROL Blocca posta dagli indirizzi specificati]** è selezionato in **[!UICONTROL Filtro mittente]** campo ed eventuali [!DNL Workfront Proof] gli indirizzi o i nomi di dominio sono inclusi nell’elenco degli indirizzi bloccati, cancellandoli dall’elenco.
+1. [!DNL Aol] [!UICONTROL Parola chiave] è una caratteristica solo del software [!DNL Aol]. Se hai bisogno di istruzioni per accedere alla pagina [!UICONTROL Impostazioni posta indesiderata] da [!DNL Aol] [!UICONTROL Posta elettronica] o [!DNL Aol] [!UICONTROL Desktop], consulta la guida di [!DNL Aol].
+1. Se **[!UICONTROL Blocca posta da indirizzi specificati]** è selezionato nel campo **[!UICONTROL Filtro mittente]** e qualsiasi indirizzo o nome di dominio [!DNL Workfront Proof] è incluso nell&#39;elenco degli indirizzi bloccati, eliminare ciascuno di questi indirizzi dall&#39;elenco.
 
 1. Fai clic su **[!UICONTROL Salva]**.

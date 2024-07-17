@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: 64cc52b7-d97b-4b41-9101-530e7db2d26e
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -45,29 +45,29 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Gestire le autorizzazioni per un report per modificare un raggruppamento in un report</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un report per modificare un raggruppamento in un report</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Creare un raggruppamento
 
 1. Passa al report o all’elenco in cui desideri creare il raggruppamento personalizzato.
-1. Fai clic su **Raggruppamento** icona .
+1. Fai clic sull&#39;icona **Raggruppamento**.
 
    ![Seleziona nuovo raggruppamento](assets/newgrouping-nwe-standard-350x304.png)
 
-1. Clic **Nuovo raggruppamento**.
+1. Fare clic su **Nuovo raggruppamento**.
 Il generatore di interfacce per la creazione dei lanci di raggruppamento.
 
-1. In **Anteprima raggruppamento** , fare clic su **Aggiungi raggruppamento** per definire la modalità di organizzazione delle informazioni contenute nel rapporto. Di seguito è riportata un’anteprima dell’aspetto del raggruppamento nel rapporto.
+1. Nella sezione **Anteprima raggruppamento** fare clic su **Aggiungi raggruppamento** per definire la modalità di organizzazione delle informazioni nel report. Di seguito è riportata un’anteprima dell’aspetto del raggruppamento nel rapporto.
 
 1. Iniziare a digitare il nome del campo che rappresenta la modalità di organizzazione delle informazioni nel report, quindi fare clic su di esso quando viene visualizzato nell&#39;elenco a discesa.
-1. (Facoltativo e condizionale) Quando crei un raggruppamento in un elenco aggiornato, seleziona **Comprimi questo raggruppamento per impostazione predefinita** se si desidera che i risultati del raggruppamento vengano visualizzati compressi anziché espansi. Questa impostazione è disabilitata per impostazione predefinita e i risultati del raggruppamento vengono sempre visualizzati nell&#39;elenco espanso.
+1. (Facoltativo e condizionale) Quando crei un raggruppamento in un elenco aggiornato, seleziona **Comprimi questo raggruppamento per impostazione predefinita** se desideri che i risultati del raggruppamento vengano visualizzati compressi anziché espansi. Questa impostazione è disabilitata per impostazione predefinita e i risultati del raggruppamento vengono sempre visualizzati nell&#39;elenco espanso.
 
-   Per informazioni sugli elenchi aggiornati e legacy, consulta la sezione [Differenza tra gli elenchi aggiornati e quelli legacy](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) nell’articolo [Introduzione agli elenchi in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+   Per informazioni sugli elenchi aggiornati e legacy, vedere la sezione [Differenza tra gli elenchi aggiornati e legacy](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) nell&#39;articolo [Introduzione agli elenchi in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">(NOTE: the tips repeat in the Edit existing grouping article and Common uses of text mode)</p>
@@ -78,18 +78,17 @@ Il generatore di interfacce per la creazione dei lanci di raggruppamento.
    >* Quando si modificano manualmente i raggruppamenti durante la visualizzazione di un elenco, Workfront ricorda la preferenza manuale fino alla disconnessione. Quando effettui di nuovo l’accesso, l’elenco viene visualizzato in base a questa impostazione.
    >* I risultati di un raggruppamento vengono sempre visualizzati in modalità espansa dopo essere stati accessibili da un elemento del grafico o in un elenco legacy. In questi casi, questa impostazione viene ignorata.
 
-
 1. Ripeti i passaggi 4, 5 e 6 per definire raggruppamenti aggiuntivi.\
-   È possibile definire fino a tre raggruppamenti per organizzare le informazioni. È possibile organizzare ulteriormente le informazioni con un massimo di quattro raggruppamenti creando un rapporto matrice. Per ulteriori informazioni sui report matrice, vedere [Creare un rapporto matrice](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+   È possibile definire fino a tre raggruppamenti per organizzare le informazioni. È possibile organizzare ulteriormente le informazioni con un massimo di quattro raggruppamenti creando un rapporto matrice. Per ulteriori informazioni sui report matrice, vedere [Creare un report matrice](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-1. Clic **Salva raggruppamento**.
+1. Fare clic su **Salva raggruppamento**.
 
 ## Informazioni aggiuntive
 
 Vedi anche:
 
 * [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
-* [Elementi di reporting: filtri, viste e raggruppamenti](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
+* [Elementi di reporting: filtri, visualizzazioni e raggruppamenti](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
 * [Modifica raggruppamenti esistenti](../../../reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md)
 
 <!--

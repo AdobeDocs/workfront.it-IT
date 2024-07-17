@@ -3,8 +3,8 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: Tipo di licenza utente esterno mancante nei livelli di accesso
-description: Non riesco più a visualizzare il tipo di licenza per l'utente esterno in Livelli di accesso in Configurazione.
+title: Tipo di licenza utente esterno mancante dai livelli di accesso
+description: Non è più possibile visualizzare il tipo di licenza per utente esterno in Livelli di accesso in Configurazione.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -16,11 +16,11 @@ ht-degree: 1%
 
 ---
 
-# Tipo di licenza utente esterno mancante nei livelli di accesso
+# Tipo di licenza utente esterno mancante dai livelli di accesso
 
 ## Problema
 
-Non riesco più a visualizzare il tipo di licenza per l&#39;utente esterno in Livelli di accesso in Configurazione.
+Non è più possibile visualizzare il tipo di licenza per utente esterno in Livelli di accesso in Configurazione.
 
 ## Requisiti di accesso
 
@@ -39,8 +39,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td>Piano</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso</td> 
-   <td> <p>Devi essere un [!DNL Workfront] amministratore. Per ulteriori informazioni, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente pieno accesso amministrativo</a>.</p> <p><b>NOTA</b>: Se non hai ancora accesso, chiedi [!DNL Workfront] amministratore se imposta ulteriori restrizioni nel livello di accesso. Per informazioni su come [!DNL Workfront] l'amministratore può modificare il livello di accesso, vedi <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Devi essere un amministratore [!DNL Workfront]. Per ulteriori informazioni, vedere <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente l'accesso amministrativo completo</a>.</p> <p><b>NOTA</b>: se non disponi ancora dell'accesso, chiedi all'amministratore di [!DNL Workfront] se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di [!DNL Workfront] può modificare il tuo livello di accesso, vedi <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,6 +49,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Sistema]** > **[!UICONTROL Preferenze]**.
 
-1. In **[!UICONTROL Sicurezza]** , assicurati che l&#39;opzione **[!UICONTROL Collabora con persone senza account Workfront utilizzando il loro indirizzo e-mail]** è abilitato.
+1. Nella sezione **[!UICONTROL Sicurezza]**, assicurati che sia abilitata l&#39;opzione **[!UICONTROL Collaborare con persone senza account Workfront utilizzando il loro indirizzo e-mail]**.
 
-   Se questa opzione non è abilitata, l’utente esterno non viene visualizzato in Configurazione livello di accesso.
+   Se questa opzione non è abilitata, l&#39;utente esterno non viene visualizzato in Configurazione del livello di accesso.

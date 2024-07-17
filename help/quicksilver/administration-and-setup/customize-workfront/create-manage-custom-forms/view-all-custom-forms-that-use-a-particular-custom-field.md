@@ -19,7 +19,7 @@ ht-degree: 0%
 
 È possibile individuare i moduli personalizzati che utilizzano un campo personalizzato o un widget che si desidera modificare o eliminare. È importante valutare se i moduli personalizzati avranno bisogno di modifiche per continuare a funzionare correttamente o per continuare a essere utili dopo aver modificato o eliminato il campo o il widget.
 
-Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, vedi [Aggiungere un campo personalizzato a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) e [Aggiungere o modificare un widget di risorse in un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, consulta [Aggiungere un campo personalizzato a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) e [Aggiungere o modificare un widget di risorse in un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Requisiti di accesso
 
@@ -54,5 +54,5 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 {{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su **Forms personalizzato**.
-1. Clic **Campi**, cercare il campo o il widget in **Nome** , quindi visualizzare **Forms** per vedere quali moduli personalizzati utilizzano il campo o il widget.
+1. Fai clic su **Campi**, cerca il campo o il widget nella colonna **Nome**, quindi visualizza la colonna **Forms** per vedere quali moduli personalizzati utilizzano il campo o il widget.
 1. (Facoltativo) Fai clic sul nome di uno di questi moduli personalizzati per passare al modulo e considerare le modifiche da apportare al modulo in caso di modifica del campo o del widget.

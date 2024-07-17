@@ -3,7 +3,7 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: Gestisci cartelle in [!DNL Workfront Proof]
-description: Tutte le cartelle sono allocate nella barra laterale di navigazione a sinistra in [!UICONTROL Cartelle] scheda . Se un utente di un altro [!DNL Workfront Proof] l'account condivide con te una cartella (o condivide le prove che si trovano in una cartella), la cartella è anche elencata nel [!UICONTROL Cartelle] scheda .
+description: Tutte le cartelle sono allocate nella barra laterale di navigazione a sinistra in nella scheda [!UICONTROL Cartelle]. Se un utente di un account  [!DNL Workfront Proof]  diverso condivide una cartella con te (o condivide le bozze che si trovano in una cartella), la cartella è elencata anche nella scheda [!UICONTROL Cartelle].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ddc8d388-d161-4c70-8e7b-16c16b6ac3d7
@@ -18,66 +18,66 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alla funzionalità del prodotto standalone [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Copertura](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
-Tutte le cartelle sono allocate nella barra laterale di navigazione a sinistra in [!UICONTROL Cartelle] scheda . Se un utente di un altro [!DNL Workfront Proof] l&#39;account condivide con te una cartella (o condivide le prove che si trovano in una cartella), la cartella è anche elencata nel [!UICONTROL Cartelle] scheda .
+Tutte le cartelle sono allocate nella barra laterale di navigazione a sinistra in nella scheda [!UICONTROL Cartelle]. Se un utente di un account [!DNL Workfront Proof] diverso condivide una cartella con te (o condivide le bozze presenti in una cartella), la cartella viene elencata anche nella scheda [!UICONTROL Cartelle].
 
-## Gestione delle cartelle dal [!UICONTROL Cartelle account] Pagina
+## Gestione delle cartelle dalla pagina [!UICONTROL Cartelle account]
 
-La [!UICONTROL Cartelle account] La pagina mostra tutte le cartelle del tuo account (comprese le cartelle condivise con te da utenti di altri [!DNL Workfront Proof] account) e consente di gestirli con facilità.
+La pagina [!UICONTROL Cartelle account] mostra tutte le cartelle del tuo account (incluse quelle che sono state condivise con te da utenti di altri account [!DNL Workfront Proof]) e ti consente di gestirle con facilità.
 
-1. Fai clic su **[!UICONTROL [Nome account] cartelle]** nella barra laterale di navigazione a sinistra.\
-   Questa pagina mostra le seguenti informazioni per ogni cartella:
+1. Fai clic su **[!UICONTROL [Cartelle del nome account]]** nella barra laterale di navigazione a sinistra.\
+   Questa pagina mostra le seguenti informazioni per ciascuna cartella:
 
    * Nome
-   * Tipo - Pubblico o Privato
+   * Tipo: pubblico o privato
    * Numero di elementi nella cartella
    * Proprietario della cartella
    * Client/progetto
    * Data di creazione della cartella
 
-1. Selezionare le cartelle da gestire in uno dei seguenti modi:
+1. Selezionare le cartelle da gestire in uno dei modi seguenti:
 
    * Seleziona una cartella selezionando la casella di controllo accanto alla cartella.
    * Seleziona tutte le cartelle selezionando la casella di controllo sopra l’elenco.
 
-      >[!NOTE]
-      >
-      >È possibile selezionare solo le cartelle per le quali si dispone dei diritti di modifica.
+     >[!NOTE]
+     >
+     >Puoi selezionare solo le cartelle per le quali disponi dei diritti di modifica.
 
-      Sopra l’elenco delle cartelle viene visualizzata una barra degli strumenti.
+     Una barra degli strumenti viene visualizzata sopra l&#39;elenco delle cartelle.
 
-1. Dalla barra degli strumenti, effettua una delle seguenti operazioni:
+1. Dalla barra degli strumenti, esegui una delle azioni seguenti:
 
-   * Spostare le cartelle in una cartella diversa.
-   * Condividi le cartelle con altri utenti.
-   * Elimina le cartelle.
-   * Da **[!UICONTROL Altro]** modificare il proprietario della cartella.
+   * Sposta le cartelle in un&#39;altra cartella.
+   * Condividere le cartelle con altri utenti.
+   * Eliminare le cartelle.
+   * Cambia il proprietario della cartella dal menu **[!UICONTROL Altro]**.
 
-1. Seleziona la casella di controllo di una singola cartella, quindi fai clic sul pulsante **[!UICONTROL Altro]** (tre punti) a destra per visualizzare le seguenti opzioni aggiuntive (a seconda del livello di accesso):
+1. Seleziona la casella di controllo per una singola cartella, quindi fai clic sul menu **[!UICONTROL Altro]** (tre punti) a destra per visualizzare le seguenti opzioni aggiuntive (a seconda del livello di accesso):
 
-   * **[!UICONTROL Visualizza dettagli cartella]**: Visualizza la pagina dei dettagli della cartella.
-   * **[!UICONTROL Nuova prova]**: Visualizza la nuova pagina di bozza con il campo cartella compilato automaticamente con il nome della cartella selezionata.
-   * **[!UICONTROL Carica file]**: Visualizza la nuova pagina di file. Il campo della cartella verrà compilato automaticamente con il nome della cartella selezionata.
-   * **[!UICONTROL Nuova sottocartella]**: Consente di creare una cartella nidificata all’interno della cartella selezionata.
-   * **[!UICONTROL Condividi]**: Consente di aggiungere nuove persone alla cartella.
-   * **[!UICONTROL Riepilogo di Excel]**: Consente di scaricare un riepilogo Excel delle bozze presenti nella cartella.
-   * **[!UICONTROL Elimina]**: Sposta la cartella nel Cestino.
+   * **[!UICONTROL Visualizza dettagli cartella]**: visualizza la pagina dei dettagli della cartella.
+   * **[!UICONTROL Nuova bozza]**: visualizza la nuova pagina della bozza con il campo cartella popolato automaticamente con il nome della cartella selezionata.
+   * **[!UICONTROL Carica file]**: visualizza la nuova pagina del file. Nel campo della cartella verrà automaticamente inserito il nome della cartella selezionata.
+   * **[!UICONTROL Nuova sottocartella]**: consente di creare una cartella nidificata all&#39;interno della cartella selezionata.
+   * **[!UICONTROL Condividi]**: consente di aggiungere nuove persone alla cartella.
+   * **[!UICONTROL Riepilogo Excel]**: ti consente di scaricare un riepilogo Excel delle bozze nella cartella.
+   * **[!UICONTROL Elimina]**: sposta la cartella nel cestino.
 
 >[!NOTE]
 >
->Quando si elimina una cartella principale, vengono eliminate anche tutte le sottocartelle, le bozze e i file all’interno della cartella.
+>Quando elimini una cartella principale, vengono eliminate anche tutte le sottocartelle, le bozze e i file all’interno della cartella.
 
 ## Gestione di una cartella dalla pagina Dettagli cartella
 
-1. Fai clic sul pulsante **[!UICONTROL Altro]** (tre punti) a destra di una cartella, quindi fai clic su **[!UICONTROL Visualizza dettagli cartella]**.\
-   Puoi anche fare clic sul nome della cartella nel **[!UICONTROL Cartelle personali]** nella barra laterale sinistra per accedere al **[!UICONTROL Dettagli della cartella]** pagina.
+1. Fai clic sul menu **[!UICONTROL Altro]** (tre punti) a destra di una cartella, quindi fai clic su **[!UICONTROL Visualizza dettagli cartella]**.\
+   Puoi anche fare clic sul nome della cartella nell&#39;elenco **[!UICONTROL Cartelle personali]** nella barra laterale a sinistra per accedere alla pagina **[!UICONTROL Dettagli cartella]**.
 
-1. Esegui una delle seguenti operazioni:
+1. Eseguire una delle azioni seguenti:
 
-   * Spostare la cartella in una cartella principale diversa.\
+   * Sposta la cartella in modo che si trovi in una cartella padre diversa.\
 
-      Sposta la cartella al livello superiore facendo clic su **[!UICONTROL Nessuna cartella selezionata]** nel menu a discesa .
+     Spostare la cartella al livello superiore facendo clic su **[!UICONTROL Nessuna cartella selezionata]** nel menu a discesa.
 
    * Condividi la cartella con altri utenti.
    * Crea una nuova sottocartella.
@@ -86,8 +86,8 @@ La [!UICONTROL Cartelle account] La pagina mostra tutte le cartelle del tuo acco
 
 ## Ridenominazione di una cartella
 
-1. Fai clic sul pulsante **[!UICONTROL Altro]** (tre punti) a destra di una cartella, quindi fai clic su **[!UICONTROL Visualizza dettagli cartella]**.\
-   Puoi anche fare clic sul nome della cartella nel **[!UICONTROL Cartelle personali]** nella barra laterale sinistra per accedere al **[!UICONTROL Dettagli della cartella]** pagina.
+1. Fai clic sul menu **[!UICONTROL Altro]** (tre punti) a destra di una cartella, quindi fai clic su **[!UICONTROL Visualizza dettagli cartella]**.\
+   Puoi anche fare clic sul nome della cartella nell&#39;elenco **[!UICONTROL Cartelle personali]** nella barra laterale a sinistra per accedere alla pagina **[!UICONTROL Dettagli cartella]**.
 
 1. Fai clic sul nome della cartella nella parte superiore della pagina.
 1. Modifica il nome, quindi fai clic all’esterno della casella.\
@@ -95,37 +95,37 @@ La [!UICONTROL Cartelle account] La pagina mostra tutte le cartelle del tuo acco
 
 ## Modifica di una cartella pubblica in una cartella privata
 
-1. Fai clic sul pulsante **[!UICONTROL Altro]** (tre punti) a destra di una cartella, quindi fai clic su **[!UICONTROL Visualizza dettagli cartella]**.
+1. Fai clic sul menu **[!UICONTROL Altro]** (tre punti) a destra di una cartella, quindi fai clic su **[!UICONTROL Visualizza dettagli cartella]**.
 
 1. Fai clic sull’icona della cartella accanto al nome della cartella.
 
 ## Eliminazione di una cartella
 
-È possibile eliminare una cartella dalle posizioni seguenti:
+Puoi eliminare una cartella dai seguenti percorsi:
 
-* [Eliminazione di una cartella dal [!UICONTROL Cartelle account] Pagina](#deleting-a-folder-from-the-account-folders-page)
-* [Eliminazione di una cartella dal [!UICONTROL Dettagli cartella] Pagina](#deleting-a-folder-from-the-folder-details-page)
+* [Eliminazione di una cartella dalla pagina [!UICONTROL Cartelle account]](#deleting-a-folder-from-the-account-folders-page)
+* [Eliminazione di una cartella dalla pagina [!UICONTROL Dettagli cartella]](#deleting-a-folder-from-the-folder-details-page)
 
 >[!NOTE]
 >
->Quando elimini una cartella principale, tutte le sottocartelle, le bozze e i file all’interno della cartella vengono spostati nella cartella [Ripristina e svuota il cestino in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+>Quando si elimina una cartella principale, tutte le sottocartelle, le bozze e i file all&#39;interno della cartella vengono spostati in [Ripristina e svuota il cestino in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
-### Eliminazione di una cartella dal [!UICONTROL Cartelle account] Pagina {#deleting-a-folder-from-the-account-folders-page}
+### Eliminazione di una cartella dalla pagina [!UICONTROL Cartelle account] {#deleting-a-folder-from-the-account-folders-page}
 
-1. Fai clic su **(Nome account) [!UICONTROL cartelle]** nella barra laterale di navigazione a sinistra per accedere al [!UICONTROL Cartelle account] pagina.\
-   Puoi anche fare clic sul nome della cartella nel **[!UICONTROL Cartelle personali]** nella barra laterale sinistra per accedere al **[!UICONTROL Dettagli della cartella]** pagina.
+1. Fai clic su **(Nome account) [!UICONTROL cartelle]** nella barra laterale di navigazione a sinistra per accedere alla pagina [!UICONTROL Cartelle account].\
+   Puoi anche fare clic sul nome della cartella nell&#39;elenco **[!UICONTROL Cartelle personali]** nella barra laterale a sinistra per accedere alla pagina **[!UICONTROL Dettagli cartella]**.
 
-1. Selezionare la casella di controllo di una o più cartelle.
-1. Fai clic sul pulsante **[!UICONTROL Elimina]** Icona (cestino).
+1. Selezionare la casella di controllo per una o più cartelle.
+1. Fai clic sull&#39;icona **[!UICONTROL Elimina]** (cestino).
 
    >[!NOTE]
    >
-   >Gli elementi eliminati rimangono nella cartella Cestino fino a quando il Cestino non viene svuotato (o la cartella viene ripristinata).
+   >Gli elementi eliminati rimangono nella cartella Cestino fino a quando il cestino non viene svuotato o la cartella non viene ripristinata.
 
 ### Eliminazione di una cartella dalla pagina Dettagli cartella {#deleting-a-folder-from-the-folder-details-page}
 
-1. Fai clic sul pulsante **[!UICONTROL Altro]** (tre punti) a destra di una cartella, quindi fai clic su **[!UICONTROL Visualizza dettagli cartella]**.\
-   Puoi anche fare clic sul nome della cartella nel **[!UICONTROL Cartelle personali]** nella barra laterale sinistra per accedere al **[!UICONTROL Dettagli della cartella]** pagina.
+1. Fai clic sul menu **[!UICONTROL Altro]** (tre punti) a destra di una cartella, quindi fai clic su **[!UICONTROL Visualizza dettagli cartella]**.\
+   Puoi anche fare clic sul nome della cartella nell&#39;elenco **[!UICONTROL Cartelle personali]** nella barra laterale a sinistra per accedere alla pagina **[!UICONTROL Dettagli cartella]**.
 
-1. Fai clic sul pulsante **[!UICONTROL Elimina]** Icona (cestino) nella parte superiore della pagina.
-1. Fai clic su **[!UICONTROL OK]** per confermare l’eliminazione.
+1. Fai clic sull&#39;icona **[!UICONTROL Elimina]** (cestino) nella parte superiore della pagina.
+1. Fai clic su **[!UICONTROL OK]** per confermare l&#39;eliminazione.

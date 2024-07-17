@@ -10,8 +10,8 @@ role: Developer
 exl-id: 7b594df5-c87f-45d4-b84a-cae17171e906
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 7%
+source-wordcount: '268'
+ht-degree: 2%
 
 ---
 
@@ -46,7 +46,7 @@ GET /metadata?id=[ID documento o cartella]
 
  
 
-## risposta
+## Risposta
 
 <table style="table-layout:auto"> 
  <col> 
@@ -61,7 +61,7 @@ GET /metadata?id=[ID documento o cartella]
  </thead> 
  <tbody> 
   <tr> 
-   <td>title </td> 
+   <td>titolo </td> 
    <td>Stringa </td> 
    <td>Nome del documento o della cartella</td> 
   </tr> 
@@ -109,7 +109,7 @@ GET /metadata?id=[ID documento o cartella]
 </table>
 
 **Esempio:** https://www.acme.com/api/metadata?id=12345
-<pre>{<br>title:"Il mio documento",<br>kind:"file"<br>id":12345<br>viewLink:"https://www.acme.com/viewDocument?id=12345",<br>downloadLink:"https://www.acme.com/downloadDocument?id=12345",<br>mimeType:"image/png",<br>dateModificato:"20140605T17:39:45,251Z",<br>dimensioni: "32554694"<br>}</pre>
+<pre>{<br>titolo:"Il mio documento",<br>tipo:"file"<br>id":"12345",<br>viewLink:"https://www.acme.com/viewDocument?id=12345",<br>downloadLink:"https://www.acme.com/downloadDocument?id=12345",<br>mimeType:"image/png",<br>dateModified:"20140605T17:39:45.251Z",<br>dimensioni: "32554694"<br>}</pre>
 
 >[!NOTE]
 >

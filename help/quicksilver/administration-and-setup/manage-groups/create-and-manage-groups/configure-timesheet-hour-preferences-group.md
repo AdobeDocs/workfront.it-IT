@@ -30,11 +30,11 @@ Le sezioni seguenti della pagina Preferenze scheda orario e ore sono configurabi
 
 * Progetti, attività e problemi eliminati
 
-Per informazioni su come un amministratore di Workfront sblocca una preferenza per schede orario e ore, consulta la sezione [Sblocca le preferenze orario e scheda orario per i gruppi](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) nell’articolo [Configurare le preferenze di orario e scheda orario](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Per informazioni su come un amministratore di Workfront sblocca una preferenza di tipo scheda orario e ora, vedere la sezione [Sbloccare le preferenze di tipo scheda orario e ora per i gruppi](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) nell&#39;articolo [Configurare le preferenze di tipo scheda orario e ora](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 >[!TIP]
 >
->La configurazione a livello di gruppo è possibile anche per le preferenze del progetto e per le preferenze di attività e problemi. Per informazioni, consulta [Configurare le preferenze di progetto per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) e [Configurare le preferenze per attività e problemi per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+>La configurazione a livello di gruppo è possibile anche per le preferenze del progetto e per le preferenze di attività e problemi. Per informazioni, consulta [Configurare le preferenze del progetto per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) e [Configurare le preferenze per attività e problemi per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
 ## Requisiti di accesso
 
@@ -52,12 +52,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano </p> <p>Devi essere un amministratore di gruppo del gruppo o un amministratore di Workfront. Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Amministratori di gruppi</a> e <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente l'accesso amministrativo completo</a>.</p> </td> 
+   <td> <p>Piano </p> <p>Devi essere un amministratore di gruppo del gruppo o un amministratore di Workfront. Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Amministratori di gruppi</a> e <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente l'accesso amministrativo completo</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano o il tipo di licenza disponibile, contattare l&#39;amministratore di Workfront.
+&#42;Per conoscere il piano o il tipo di licenza di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 +++
 
@@ -73,7 +73,7 @@ Considera le seguenti informazioni sulla configurazione di una scheda orario sbl
   Add example here?
   -->
 
-* Dopo che un amministratore di Workfront sblocca una preferenza a livello di sistema e la configuri per il gruppo, puoi bloccarla per garantire che tutti gli utenti dei gruppi sottostanti utilizzino la stessa configurazione. Ciò è parallelo alla possibilità che un amministratore di Workfront deve configurare e bloccare una preferenza per tutti gli utenti del sistema. Per ulteriori informazioni, consulta [Blocca o sblocca una preferenza di tipo Timesheet gruppo e Ora](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
+* Dopo che un amministratore di Workfront sblocca una preferenza a livello di sistema e la configuri per il gruppo, puoi bloccarla per garantire che tutti gli utenti dei gruppi sottostanti utilizzino la stessa configurazione. Ciò è parallelo alla possibilità che un amministratore di Workfront deve configurare e bloccare una preferenza per tutti gli utenti del sistema. Per ulteriori informazioni, vedere [Bloccare o sbloccare una scheda orario e una preferenza orario di gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
 
 ## Configurare una preferenza per schede orario o ore sbloccate per un gruppo
 
@@ -81,14 +81,14 @@ Considera le seguenti informazioni sulla configurazione di una scheda orario sbl
 >
 >Se sei un amministratore di Workfront, puoi saltare i passaggi 1-4 da Configurazione > Scheda orario e ore > Preferenze, quindi cercare il nome del gruppo nella casella nella parte superiore della pagina.
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
 1. Nel pannello a sinistra, fai clic su **Gruppi** ![](assets/groups-icon.png).
 
 1. Fai clic sul nome del gruppo di cui desideri configurare le preferenze per le ore o la scheda orario.
 1. Nel pannello a sinistra, fai clic su **Schede orario e ore**.
 
-1. Nella pagina visualizzata, in **Preferenze generali** configurare una delle opzioni seguenti:
+1. Nella pagina visualizzata, nella sezione **Preferenze generali** configura una delle seguenti opzioni:
 
    >[!TIP]
    >
@@ -106,7 +106,7 @@ Considera le seguenti informazioni sulla configurazione di una scheda orario sbl
        <li>Le loro schede orario come Ora generale</li>
        </ul> 
        <p>Questa funzione è utile quando gli utenti hanno intenzione di allontanarsi dall’ufficio e desiderano registrare in anticipo l’ora.</p> 
-       <p><b>NOTA</b>: non puoi impedire agli utenti di registrare il tempo per attività o problemi chiusi o annullati. Puoi impedire agli utenti di registrare solo il tempo su progetti completi o inattivi. È consigliabile utilizzare i filtri negli elenchi di attività e problemi per escludere che quelli completati o annullati siano visibili agli utenti.</p> </td> 
+       <p><b>NOTA</b>: non è possibile impedire agli utenti di registrare il tempo per attività o problemi chiusi o annullati. Puoi impedire agli utenti di registrare solo il tempo su progetti completi o inattivi. È consigliabile utilizzare i filtri negli elenchi di attività e problemi per escludere che quelli completati o annullati siano visibili agli utenti.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Aggiungi spese da una scheda orario</td> 
@@ -138,7 +138,7 @@ Considera le seguenti informazioni sulla configurazione di una scheda orario sbl
     </tbody> 
    </table>
 
-1. In **Dove gli utenti possono registrare il tempo** configurare una delle opzioni seguenti:
+1. Nella sezione **Dove gli utenti possono registrare l&#39;ora**, configura una delle seguenti opzioni:
 
    <table style="table-layout:auto">
     <col>
@@ -163,14 +163,14 @@ Considera le seguenti informazioni sulla configurazione di una scheda orario sbl
    >
    >Questa preferenza viene applicata in base alla configurazione delle preferenze del Gruppo Predefinito dell&#39;utente. Se queste impostazioni sono abilitate nelle preferenze del Gruppo predefinito dell’utente, quest’ultimo potrà registrare il tempo direttamente sui progetti, compresi quelli completati o inattivi, indipendentemente dal fatto che le preferenze di gruppo del progetto lo consentano o meno.
 
-1. In **Precompila schede orario** configurare una delle opzioni seguenti:
+1. Nella sezione **Precompila schede orario**, configura una delle seguenti opzioni:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Lavoro entro &lt;number of="" weeks=""&gt; dell'intervallo di lavoro della scheda orario</td> 
+      <td role="rowheader">Lavoro che si trova entro &lt;numero di settimane&gt; dell’intervallo di lavoro della scheda orario</td> 
       <td> <p>Definisce il numero di settimane precedenti e successive all'intervallo di date della scheda orario contenente le date delle attività e delle Issues assegnate all'utente. L’impostazione predefinita è 1 settimana e puoi estendere questo intervallo a 4 settimane. Ciò significa che la scheda orario è precompilata con attività e problemi che hanno date comprese tra quattro settimane prima dell’intervallo di date della scheda orario e fino a quattro settimane dopo l’intervallo di date della scheda orario, se selezioni 4 settimane per l’intervallo. </p> </td> 
      </tr> 
      <tr> 

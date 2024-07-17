@@ -27,12 +27,12 @@ Gli amministratori possono controllare e personalizzare l’esperienza utente in
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md" class="MCXref xref" xrefformat="{para}">Workfront administration in the Adobe Admin Console</a> </li>
   -->
 
-* [Configurare Adobe Workfront](../administration-and-setup/set-up-workfront/set-up-workfront.md)
+* [Configura Adobe Workfront](../administration-and-setup/set-up-workfront/set-up-workfront.md)
 * [Gestione utente](../administration-and-setup/add-users/add-users.md)
-* [Personalizzare Adobe Workfront](../administration-and-setup/customize-workfront/customize-workfront.md)
-* [Gestire Adobe Workfront](../administration-and-setup/manage-workfront/manage-workfront.md)
+* [Personalizza Adobe Workfront](../administration-and-setup/customize-workfront/customize-workfront.md)
+* [Gestisci Adobe Workfront](../administration-and-setup/manage-workfront/manage-workfront.md)
 * [Gestisci gruppi](../administration-and-setup/manage-groups/manage-groups.md)
 * [Configurare le integrazioni](../administration-and-setup/configure-integrations/workfront-integrations.md)
 * [Blueprint](../administration-and-setup/blueprints/blueprints.md)
-* [Domande frequenti sugli amministratori](../administration-and-setup/administrator-faqs/adminstrator-faqs.md)
+* [Domande frequenti sull&#39;amministratore](../administration-and-setup/administrator-faqs/adminstrator-faqs.md)
 * [Suggerimenti, trucchi e risoluzione dei problemi per l’amministrazione e la configurazione](../administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)

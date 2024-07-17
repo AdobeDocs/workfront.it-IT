@@ -22,9 +22,9 @@ Questa sezione contiene i seguenti articoli:
 
 * [Formato del dominio per le chiamate API di Adobe Workfront](../../wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md)
 * [Errore API: &quot;Il server remoto ha restituito un errore: (400) Richiesta non valida&quot;](../../wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
-* [Duplicati restituiti durante una ricerca impaginata di grandi dimensioni](../../wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
-* [Ordinamento dei risultati della query nell’API](../../wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)
-* [L’aggiornamento a emailAddr non aggiorna il nome utente](../../wf-api/tips-tricks-and-troubleshooting/update-email-addr-and-username.md)
+* [Sono stati restituiti duplicati durante una ricerca impaginata di grandi dimensioni](../../wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
+* [Ordinamento dei risultati della query nell&#39;API](../../wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)
+* [L&#39;aggiornamento a emailAddr non aggiorna il nome utente](../../wf-api/tips-tricks-and-troubleshooting/update-email-addr-and-username.md)
 * [Aggiungere opzioni di verifica avanzate durante la creazione di una bozza tramite l’API Adobe Workfront](../../wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md)
 * [Configurazione opzioni per OPTASK copyIssue](../../wf-api/tips-tricks-and-troubleshooting/copyissue-options.md)
 * [Recuperare le informazioni sulla valuta per un progetto quando la valuta è Null (non assegnata)](../../wf-api/tips-tricks-and-troubleshooting/retrieve-currency-when-null.md)

@@ -20,13 +20,13 @@ ht-degree: 0%
 
 A differenza di Workfront, dove i tipi di oggetto sono predefiniti, in Adobe Workfront Planning è possibile creare tipi di oggetto personalizzati. In Workfront, ad esempio, sono già stati creati i tipi di oggetto Programma, Portfolio, Progetto, Attività o Problema.
 
-I tipi di oggetto di Workfront Planning sono denominati &quot;tipi di record&quot; ed esistono solo quando vengono creati dagli utenti. I tipi di record sono i blocchi predefiniti di un&#39;area di lavoro di Workfront Planning. Per informazioni sulle aree di lavoro, consulta [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
+I tipi di oggetto di Workfront Planning sono denominati &quot;tipi di record&quot; ed esistono solo quando vengono creati dagli utenti. I tipi di record sono i blocchi predefiniti di un&#39;area di lavoro di Workfront Planning. Per informazioni sulle aree di lavoro, vedere [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
 
 ## Panoramica del tipo di record
 
 In Workfront Planning è possibile creare tipi di record personalizzati che soddisfino le esigenze dell&#39;organizzazione.
 
-Per informazioni sulla creazione di tipi di record, vedere [Crea tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
+Per informazioni sulla creazione di tipi di record, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
 
 * Quando si crea un&#39;area di lavoro da un modello, i tipi di record vengono creati nelle sezioni dell&#39;area di lavoro riportate di seguito.
 

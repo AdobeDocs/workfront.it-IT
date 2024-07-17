@@ -45,7 +45,7 @@ Per ulteriori informazioni, consulta [Gestire le allocazioni utente nel Bilancia
 
 Abbiamo aggiornato le schede Notifiche e-mail, Notifiche promemoria e Modelli e-mail nell’area Configura > E-mail > Notifiche per renderle più moderne e coerenti con le altre aree di Workfront.
 
-Per informazioni, consulta [Configurare le notifiche degli eventi per tutti gli utenti del sistema](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+Per informazioni, vedere [Configurare le notifiche degli eventi per tutti gli utenti del sistema](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 ## Aggiornamenti look-and-feel per le schermate dei ruoli
 
@@ -55,4 +55,4 @@ Per informazioni, consulta [Configurare le notifiche degli eventi per tutti gli 
 
 Le schermate Nuovo ruolo e Modifica ruolo sono state aggiornate a un design più moderno, coerente con le altre aree di Workfront.
 
-Per informazioni, consulta [Creare e gestire le mansioni](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+Per informazioni, vedere [Creare e gestire ruoli](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).

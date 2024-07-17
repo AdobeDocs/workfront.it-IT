@@ -2,30 +2,30 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: single-sign-on-in-workfront
-title: Abilita Outlook per l'uso con Workfront e SAML 2.0
-description: Se si abilita l'autenticazione SAML 2.0 e si desidera che gli utenti siano in grado di accedere a Workfront da Microsoft Outlook utilizzando le proprie credenziali SAML 2.0, è necessario abilitare SAML 2.0 per l'autenticazione nei componenti aggiuntivi di Office.
+title: Abilitare Outlook per l'utilizzo con Workfront e SAML 2.0
+description: Se si attiva l'autenticazione SAML 2.0 e si desidera consentire agli utenti di accedere a Workfront da Microsoft Outlook utilizzando le credenziali SAML 2.0, è necessario abilitare SAML 2.0 per l'autenticazione nei componenti aggiuntivi di Office.
 author: Caroline, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8a55d364-962a-4eef-8968-b2233a71cf31
 source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 1%
+source-wordcount: '308'
+ht-degree: 0%
 
 ---
 
-# Abilita Outlook per l&#39;uso con Workfront e SAML 2.0
+# Abilitare Outlook per l&#39;utilizzo con Workfront e SAML 2.0
 
-Se si abilita l&#39;autenticazione SAML 2.0 e si desidera che gli utenti siano in grado di accedere a Workfront da Microsoft Outlook utilizzando le proprie credenziali SAML 2.0, è necessario abilitare SAML 2.0 per l&#39;autenticazione nei componenti aggiuntivi di Office.
+Se si attiva l&#39;autenticazione SAML 2.0 e si desidera consentire agli utenti di accedere a Workfront da Microsoft Outlook utilizzando le credenziali SAML 2.0, è necessario abilitare SAML 2.0 per l&#39;autenticazione nei componenti aggiuntivi di Office.
 
 >[!NOTE]
 >
->Questa opzione non è disponibile se l&#39;istanza Workfront della tua organizzazione utilizza un portale SSO personalizzato.>
+>Questa opzione non è disponibile se l’istanza Workfront dell’organizzazione utilizza un portale SSO personalizzato.>
 ><!--
 >or is enabled with Adobe IMS>
 >-->
->Per ulteriori informazioni, rivolgiti al tuo amministratore di rete o IT.
+>Per ulteriori informazioni, rivolgersi all&#39;amministratore di rete o IT.
 
 ## Requisiti di accesso
 
@@ -44,28 +44,29 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td>Piano</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso</td> 
-   <td> <p>Devi essere un amministratore Workfront.</p> <p><b>NOTA</b>: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Devi essere un amministratore di Workfront.</p> <p><b>NOTA</b>: se non disponi ancora dell'accesso, chiedi all'amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Abilita Outlook per l&#39;uso con Workfront e SAML 2.0
+## Abilitare Outlook per l&#39;utilizzo con Workfront e SAML 2.0
 
-1. Fai clic su **Configurazione** nell’angolo in alto a destra di Adobe Workfront sulla barra di navigazione globale.
-1. Fai clic su **Sistema** > **Preferenze**.
+1. Fai clic su **Configurazione** nell&#39;angolo superiore destro di Adobe Workfront nella barra di navigazione globale.
+1. Fare clic su **Sistema** > **Preferenze**.
 
-1. In **Sicurezza** sezione , assicurati che **Consenti autenticazione SAML 2.0 nei componenti aggiuntivi di Office 365**&#x200B;è abilitato.
+1. Nella sezione **Sicurezza**, verificare che **Consenti autenticazione SAML 2.0 nei componenti aggiuntivi di Office 365** sia abilitato.
 
-   Questa opzione consente di incorporare Workfront in un Iframe solo per i componenti aggiuntivi di Office 365. Questo non apre una violazione di click-jacking in quanto non è coinvolto alcun contenuto cliccabile.
+   Questa opzione consente di incorporare Workfront in un Iframe solo per i componenti aggiuntivi di Office 365. Questa operazione non apre una violazione del click-jacking, in quanto non è presente alcun contenuto cliccabile.
 
    Questa opzione è attivata per impostazione predefinita.
 
    >[!NOTE]
    >
-   >Se abiliti l’opzione **Consenti incorporazione di Workfront in un iframe**, l’opzione **Consenti autenticazione SAML 2.0 nei componenti aggiuntivi di Office 365** è oscurato e abilitato.
+   >Se si abilita l&#39;opzione **Consenti incorporamento di Workfront in un iframe**, l&#39;opzione **Consenti autenticazione SAML 2.0 nei componenti aggiuntivi di Office 365** è disabilitata e abilitata.
    >
    >![](assets/if-you-enable.png)
+   >
 
 1. Fai clic su **Salva**.
 

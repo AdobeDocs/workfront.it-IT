@@ -3,25 +3,25 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-system-defaults
 title: Configurare le preferenze di Gestione risorse
-description: Come un [!DNL Adobe Workfront] amministratore è possibile configurare le Preferenze di Gestione risorse per il sistema. Queste preferenze di Gestione risorse determinano il modo in cui vengono calcolati la disponibilità o la capacità utente e l'FTE per [!DNL Workfront] strumenti di pianificazione e pianificazione delle risorse.
+description: In qualità di amministratore di  [!DNL Adobe Workfront]  puoi configurare le preferenze di gestione delle risorse per il tuo sistema. Queste preferenze di Gestione risorse determinano il modo in cui vengono calcolati la disponibilità o la capacità dell'utente e l'FTE per gli strumenti di pianificazione e pianificazione delle risorse  [!DNL Workfront] .
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
 source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
 
-# Configura [!UICONTROL Gestione risorse] preferenze
+# Configura preferenze [!UICONTROL Gestione risorse]
 
 <!--Linked to lots of articles for resource planning and LINKED TO CONTEXT SENSITIVE HELP - DO NOT CHANGE OR REMOVE!</p>
 Edit the first part, once they add more settings in the Res Management Preferences - right now, only the FTE calculation is the
 -->
 
-Come un [!DNL Adobe Workfront] amministratore è possibile configurare [!UICONTROL Gestione risorse] Preferenze per il sistema. Queste preferenze determinano il modo in cui vengono calcolati l’ora dell’utente, la disponibilità o la capacità FTE per [!DNL Workfront] strumenti di pianificazione e pianificazione delle risorse.
+In qualità di amministratore di [!DNL Adobe Workfront] puoi configurare le [!UICONTROL Preferenze di gestione risorse] per il tuo sistema. Queste preferenze determinano il modo in cui vengono calcolati l&#39;ora utente o la disponibilità o la capacità FTE per gli strumenti di pianificazione e pianificazione delle risorse [!DNL Workfront].
 
 ## Requisiti di accesso
 
@@ -70,9 +70,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Livello di accesso Amministratore di sistema</p> <p>Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente l'accesso amministrativo completo</a>.</p> <p><b>NOTA</b>:
+   <td> <p>Livello di accesso Amministratore di sistema</p> <p>Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente l'accesso amministrativo completo</a>.</p> <p><b>NOTA</b>:
 
-Se ancora non disponi dell’accesso, chiedi al tuo [!DNL Workfront] amministratore se impostano restrizioni aggiuntive nel livello di accesso. Per informazioni su come [!DNL Workfront] l&#39;amministratore può modificare il tuo livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
+Se non disponi ancora dell&#39;accesso, chiedi all&#39;amministratore [!DNL Workfront] se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di [!DNL Workfront] può modificare il tuo livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
 </tr> 
  </tbody> 
 </table>
@@ -81,48 +81,49 @@ Se ancora non disponi dell’accesso, chiedi al tuo [!DNL Workfront] amministrat
 
 Nel calcolare la capacità di un utente, Workfront prende in considerazione le seguenti informazioni:
 
-* Workfront Il numero di ore pianificate, come definito nella Pianificazione dell&#39;utente o nel [!UICONTROL Pianificazione predefinita]
-* [!UICONTROL Pianificazione] [!UICONTROL Eccezioni] (a seconda di quale [!UICONTROL Pianificazione] possono essere le eccezioni della pianificazione dell&#39;utente o quelle associate alla [!DNL Workfront] [!UICONTROL Pianificazione predefinita])
+* Il numero di ore pianificate, come definito nella Pianificazione dell&#39;utente o nella [!UICONTROL Pianificazione predefinita] del sistema Workfront
+* [!UICONTROL Pianificazione] [!UICONTROL Eccezioni] (a seconda della [!UICONTROL Pianificazione] utilizzata, può trattarsi delle eccezioni della pianificazione dell&#39;utente o di quelle associate alla [!DNL Workfront] [!UICONTROL Pianificazione predefinita])
 * Indisponibilità dell&#39;utente
-* Il valore dell&#39;equivalente a tempo pieno ([!UICONTROL FTE]) dell&#39;utente o dell&#39;utente [!DNL Workfront] di rete. Il [!UICONTROL FTE] è uguale a 1 quando l’utente lavora a tempo pieno, come definito nella pianificazione.
-* Il valore di [!UICONTROL Orario di lavoro] per l’utente che fa riferimento al tempo trascorso dall’utente sul lavoro relativo al progetto. Non sono compresi i tempi di lavoro, come riunioni e corsi di formazione. Il [!UICONTROL Orario di lavoro] è uguale a 1 quando l’utente è disponibile per lavorare tutto il tempo come indicato da [!UICONTROL FTE] o la pianificazione, il che significa che non trascorrono tempo su lavori non correlati al progetto, come riunioni o corsi di formazione.
+* Valore dell&#39;equivalente a tempo pieno ([!UICONTROL FTE]) dell&#39;utente o del sistema [!DNL Workfront]. Il [!UICONTROL FTE] è uguale a 1 quando l&#39;utente lavora a tempo pieno, come definito nella pianificazione.
+* Il valore di [!UICONTROL Tempo di lavoro] per l&#39;utente che fa riferimento al tempo che l&#39;utente trascorre sul lavoro relativo al progetto. Non sono compresi i tempi di lavoro, come riunioni e corsi di formazione. Il [!UICONTROL Tempo di lavoro] è uguale a 1 quando l&#39;utente è disponibile a lavorare per l&#39;intero tempo come indicato dal [!UICONTROL FTE] o dalla pianificazione, il che significa che non trascorre tempo su lavori non correlati al progetto, come riunioni o corsi di formazione.
 
 
-Per informazioni sulle risorse di pianificazione e programmazione in [!DNL Workfront], vedi [Introduzione alla gestione delle risorse](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
+Per informazioni sulla pianificazione e la programmazione delle risorse in [!DNL Workfront], vedere [Introduzione a Gestione risorse](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
 
-## Configura [!UICONTROL Gestione risorse] preferenze
+## Configura preferenze [!UICONTROL Gestione risorse]
 
 >[!NOTE]
 >
 >Poiché si tratta di un&#39;impostazione globale, questa selezione influisce su tutti i calcoli per l&#39;intero sistema, per tutti gli utenti, in tutti gli strumenti di gestione delle risorse.
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Workfront], quindi fai clic su **[!UICONTROL Configurazione]** ![](assets/gear-icon-settings.png).
-1. Clic **[!UICONTROL Gestione risorse]**.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Workfront], quindi fai clic su **[!UICONTROL Configurazione]** ![](assets/gear-icon-settings.png).
+1. Fare clic su **[!UICONTROL Gestione risorse]**.
 1. Selezionare uno dei metodi seguenti per calcolare la disponibilità degli utenti in [!DNL Workfront]:
 
-   * **Lo Schedule Predefinito**: [!DNL Workfront] utilizza la pianificazione predefinita del sistema e il singolo FTE dell’utente per calcolare le ore disponibili dell’utente negli strumenti di gestione delle risorse.
+   * **La pianificazione predefinita**: [!DNL Workfront] utilizza la pianificazione predefinita del sistema e il singolo FTE dell&#39;utente per calcolare le ore disponibili dell&#39;utente negli strumenti di gestione delle risorse.
 
-      Per ulteriori informazioni sulle pianificazioni, consulta [Creare una pianificazione](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+     Per ulteriori informazioni sulle pianificazioni, vedere [Creare una pianificazione](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-      Per ulteriori informazioni su come individuare il valore del [!UICONTROL FTE], vedi  [Modificare il profilo di un utente](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+     Per ulteriori informazioni sull&#39;individuazione del valore di [!UICONTROL FTE] dell&#39;utente, vedere [Modificare il profilo di un utente](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-      Workfront calcola le ore disponibili di un utente utilizzando la formula seguente quando l’amministratore di Workfront sceglie [!UICONTROL Pianificazione predefinita]:
-
-
-      `User Available Hours = [([!UICONTROL Default Schedule] Hours - [!UICONTROL Exceptions]) * [!UICONTROL FTE] - Time off hours] * [!UICONTROL Work Time]`
+     Workfront calcola le ore disponibili di un utente utilizzando la formula seguente quando l&#39;amministratore di Workfront sceglie la [!UICONTROL pianificazione predefinita]:
 
 
-      >[!INFO]
-      >
-      >Ad esempio, se la pianificazione predefinita è di 40 ore alla settimana, l’FTE nel profilo dell’utente è 0,5, l’utente ha 1 ora di inattività in un giorno e il [!UICONTROL Orario di lavoro] nel profilo dell’utente è 0,5, l’utente è disponibile per il lavoro effettivo del progetto per 9,5 ore alla settimana.
-      >
-      >Se l’utente ha 1 ora di inattività in un giorno, le ore disponibili verranno calcolate come segue:
-      >
-      >
-      >`User Available Hours = [((40 - 0) * 0.5) - 1] * 0.5 = 9.5 hours`
+     `User Available Hours = [([!UICONTROL Default Schedule] Hours - [!UICONTROL Exceptions]) * [!UICONTROL FTE] - Time off hours] * [!UICONTROL Work Time]`
 
-      <!--This used to be the calculation before we implemented the Work Time field: 
+
+     >[!INFO]
+     >
+     >Ad esempio, se la pianificazione predefinita è di 40 ore alla settimana, l&#39;FTE nel profilo dell&#39;utente è 0,5, l&#39;utente ha 1 ora di inattività al giorno e l&#39;[!UICONTROL orario di lavoro] nel profilo dell&#39;utente è 0,5, l&#39;utente è disponibile per il lavoro effettivo del progetto per 9,5 ore alla settimana.
+     >
+     >Se l’utente ha 1 ora di inattività in un giorno, le ore disponibili verranno calcolate come segue:
+     >
+     >
+     >`User Available Hours = [((40 - 0) * 0.5) - 1] * 0.5 = 9.5 hours`
+     >
+
+     <!--This used to be the calculation before we implemented the Work Time field: 
     
       ```
       User Available Hours = ([!UICONTROL Default Schedule] Hours - Exceptions) * FTE - Time off hours
@@ -140,7 +141,7 @@ Per informazioni sulle risorse di pianificazione e programmazione in [!DNL Workf
 
 
 
-      <!--      
+     <!--      
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>In the Production environment: (NOTE: this is the old way it was working, before the 22.2 release)</p><p><code>User Available Hours = (Default Schedule Hours - (Schedule Exceptions + Time off hours)) * User FTE value</code></p>      
       <div class="example" data-mc-autonum="<b>Example: </b>">      
       <span class="autonumber"><span><b>Example: </b></span></span>      
@@ -152,38 +153,39 @@ Per informazioni sulle risorse di pianificazione e programmazione in [!DNL Workf
       </div></li>      
       -->
 
-   * **La pianificazione dell&#39;utente**: [!DNL Workfront] utilizza la pianificazione dell&#39;utente e [!UICONTROL Pianificazione predefinita] del sistema per calcolare il valore Disponibile [!UICONTROL FTE] valore dell’utente negli strumenti di gestione delle risorse. Le ore disponibili vengono calcolate solo in base alla pianificazione dell&#39;utente. Il valore della proprietà [!UICONTROL FTE] dell’utente viene ignorata. Questa è l&#39;impostazione predefinita.
+   * **La pianificazione dell&#39;utente**: [!DNL Workfront] utilizza la pianificazione dell&#39;utente e la [!UICONTROL pianificazione predefinita] del sistema per calcolare il valore di [!UICONTROL FTE] disponibile dell&#39;utente negli strumenti di gestione delle risorse. Le ore disponibili vengono calcolate solo in base alla pianificazione dell&#39;utente. Il valore di [!UICONTROL FTE] dell&#39;utente viene ignorato. Questa è l&#39;impostazione predefinita.
 
-      Per ulteriori informazioni sulle pianificazioni, consulta [Creare una pianificazione](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+     Per ulteriori informazioni sulle pianificazioni, vedere [Creare una pianificazione](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-      Per ulteriori informazioni sulle [!UICONTROL Pianificazione], vedi  [Modificare il profilo di un utente](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+     Per ulteriori informazioni sulla [!UICONTROL pianificazione] di un utente, vedere [Modifica del profilo di un utente](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-      >[!NOTE]
-      >
-      >Se l&#39;utente non è associato a una pianificazione, le Ore disponibili per l&#39;utente vengono calcolate utilizzando solo [!UICONTROL Pianificazione predefinita].
+     >[!NOTE]
+     >
+     >Se l&#39;utente non è associato a una pianificazione, le ore disponibili per l&#39;utente vengono calcolate utilizzando solo la [!UICONTROL pianificazione predefinita].
 
-      Le ore disponibili per l’utente vengono calcolate con la seguente formula:
-
-
-      `User Available Hours = (Hours from the [!UICONTROL Schedule] of the User - Schedule Exceptions - Time off hours) * [!UICONTROL Work Time]`
+     Le ore disponibili per l’utente vengono calcolate con la seguente formula:
 
 
-      Disponibile [!UICONTROL FTE] per l’utente viene calcolato con la seguente formula:
+     `User Available Hours = (Hours from the [!UICONTROL Schedule] of the User - Schedule Exceptions - Time off hours) * [!UICONTROL Work Time]`
 
 
-      `User Available [!UICONTROL FTE] = [(Hours from the [!UICONTROL Schedule] of the User - Schedule Exceptions - Time off hours) * [!UICONTROL Work Time]] / [!UICONTROL Default Schedule] hours`
+     Il valore di [!UICONTROL FTE] disponibile per l&#39;utente viene calcolato con la formula seguente:
 
 
-      >[!INFO]
-      >
-      >Ad esempio, se [!UICONTROL Pianificazione predefinita] è di 40 ore alla settimana, la pianificazione dell’utente è di 30 ore alla settimana e il [!UICONTROL Orario di lavoro] è 0,5 [!UICONTROL FTE] dell&#39;utente è 0,35.
-      >
-      >Se l’utente ha 2 ore di ferie in un giorno, le loro Settimane disponibili [!UICONTROL FTE] viene calcolato come segue:
-      >
-      >
-      >`User Weekly Available [!UICONTROL FTE] = [(30-2) * 0.5] / 40 = 0.35`
+     `User Available [!UICONTROL FTE] = [(Hours from the [!UICONTROL Schedule] of the User - Schedule Exceptions - Time off hours) * [!UICONTROL Work Time]] / [!UICONTROL Default Schedule] hours`
 
-      <!--This used to be the calculation before we implemented the Work Time field: 
+
+     >[!INFO]
+     >
+     >Ad esempio, se la [!UICONTROL pianificazione predefinita] è di 40 ore settimanali, la pianificazione dell&#39;utente è di 30 ore settimanali e il [!UICONTROL orario di lavoro] dell&#39;utente è 0,5, il [!UICONTROL FTE] dell&#39;utente è 0,35.
+     >
+     >Se l&#39;utente ha 2 ore di inattività in un giorno, le sue [!UICONTROL FTE] settimanali disponibili verranno calcolate come segue:
+     >
+     >
+     >`User Weekly Available [!UICONTROL FTE] = [(30-2) * 0.5] / 40 = 0.35`
+     >
+
+     <!--This used to be the calculation before we implemented the Work Time field: 
       
 
       The Available hours for the user are calculated by the following formula:

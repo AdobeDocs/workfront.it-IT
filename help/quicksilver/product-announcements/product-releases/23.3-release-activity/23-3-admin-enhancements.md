@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti per gli amministratori apportati alla versione 23.3. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione con la versione 23.3 del 20 e 21 luglio 2023.
 
-Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio 23.3, consulta [Panoramica sulla versione 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio 23.3, vedere [Panoramica sulla versione 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Velocizzare i cicli di rilascio di Workfront
 
@@ -24,15 +24,15 @@ Per consentirti di ricevere più rapidamente nuovi aggiornamenti e funzioni dei 
 
 In precedenza, le funzioni e le funzionalità venivano rilasciate su un ciclo trimestrale per tutti i clienti.
 
-Per ulteriori informazioni, consulta [Attiva o disattiva il processo di rilascio rapido](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+Per ulteriori informazioni, vedere [Attivare o disattivare il processo di rilascio rapido](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## Controllo a livello di gruppo disponibile per la preferenza relativa alle ore e alla scheda orario &quot;Dove gli utenti possono registrare il tempo&quot;
 
 L’amministratore di sistema ora può bloccare e sbloccare la scheda orario e la preferenza orario &quot;Dove gli utenti possono registrare l’ora&quot;. Quando questa preferenza viene sbloccata, gli amministratori di gruppi possono configurare le impostazioni &quot;Where users can log time&quot; (Dove gli utenti possono registrare il tempo) separatamente per ciascun gruppo.
 
-Per ulteriori informazioni, consulta [Configurare le preferenze di orario e scheda orario](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) e [Configurare le preferenze di orario e scheda orario per un gruppo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+Per ulteriori informazioni, vedere [Configurare le preferenze di orario e scheda orario](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) e [Configurare le preferenze di orario e scheda orario per un gruppo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
-[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3419111/){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3419111/){target=_blank}
 
 ## Visualizza gli indicatori logici e ignora quelli e le regole visualizzati nella versione beta di Progettazione moduli
 
@@ -44,4 +44,4 @@ Inoltre, quando si apre un modulo personalizzato nella versione beta di Progetta
 
 La modifica della logica esistente e l’aggiunta di una nuova logica a un modulo personalizzato non sono ancora disponibili nella versione beta di Progettazione moduli, ma sono pianificate per il futuro.
 
-Per ulteriori informazioni, consulta [Panoramica di Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).
+Per ulteriori informazioni, vedere [Panoramica di Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).

@@ -10,7 +10,7 @@ role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
 source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >La procedura descritta in questa pagina si applica solo alle organizzazioni che non sono ancora state caricate in [!DNL Adobe Experience Cloud].
 >
-> Se per la tua organizzazione è stato eseguito l’onboarding in [!DNL Adobe Experience Cloud], branding non disponibile.
+> Se per la tua organizzazione è stato eseguito l&#39;onboarding in [!DNL Adobe Experience Cloud], il branding non è disponibile.
 
 È possibile utilizzare un modello di layout per personalizzare i logo nell&#39;area di navigazione superiore e nel menu principale per determinati gruppi, team, mansioni e utenti. Questa funzione è particolarmente utile per i gruppi di una grande organizzazione che dispongono di un proprio marchio.
 
@@ -29,7 +29,7 @@ Per informazioni sui modelli di layout per i gruppi, vedere [Creare e modificare
 
 >[!NOTE]
 >
->Un amministratore Workfront può effettuare le stesse personalizzazioni di branding per l’intera organizzazione a livello di sistema, come spiegato in [Personalizza l’istanza di Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). Tuttavia, il branding in un modello di layout sostituisce il branding a livello di sistema.
+>Un amministratore Workfront può effettuare le stesse personalizzazioni di branding per l&#39;intera organizzazione a livello di sistema, come spiegato in [Personalizza l&#39;istanza Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). Tuttavia, il branding in un modello di layout sostituisce il branding a livello di sistema.
 ><!--
 >Maybe add a section about deleting these 2 settings to revert to default branding?
 >-->
@@ -53,7 +53,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Per eseguire questi passaggi a livello di sistema, è necessario disporre del livello di accesso Amministratore di sistema.
-Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p> <p><b>NOTA</b>: se ancora non disponi dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p> <p><b>NOTA</b>: se non disponi ancora dell'accesso, chiedi all'amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,7 +61,7 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
 ## Brand Adobe Workfront utilizzando un modello di layout
 
 1. Iniziare a lavorare su un modello di layout, come descritto in [Creare e gestire modelli di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Fare clic sulla freccia giù ![](assets/dropdown-arrow.png) in **Personalizzare gli elementi visualizzati dagli utenti**, quindi fai clic su **Marchio**.
+1. Fai clic sulla freccia giù ![](assets/dropdown-arrow.png) in **Personalizza gli elementi visualizzati dagli utenti**, quindi fai clic su **Branding**.
 1. Per personalizzare Workfront con immagini di branding per gli utenti a cui è assegnato questo modello di layout, effettuare una delle seguenti modifiche.
 
    <table style="table-layout:auto"> 
@@ -69,12 +69,12 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>Icona Marchio della Home <span style="font-weight: normal;">(viene visualizzato all’estrema sinistra dell’area di navigazione superiore)</span></p> </td> 
-      <td> <p>In <strong>Area di navigazione superiore</strong> sezione, sotto <strong>Icona Home</strong>, fare clic in un punto qualsiasi della casella, quindi individuare e selezionare l'immagine del logo. Oppure trascina un’immagine nella casella.</p> <p>Per ritagliare l'immagine, utilizzare i controlli di scorrimento e trascinare l'immagine nella posizione desiderata all'interno dello spazio prescritto.</p> <p>Si consiglia un'immagine 120 x 120. Può essere in uno dei seguenti formati: GIF, JPG, PNG, SVG.</p> <p>Questa icona viene visualizzata anche nei report, elenchi, dashboard e report consegnati che gli utenti esportano come file PDF.</p> </td> 
+      <td role="rowheader"> <p>Contrassegna l'icona Home <span style="font-weight: normal;"> (viene visualizzata all'estrema sinistra dell'area di navigazione superiore)</span></p> </td> 
+      <td> <p>Nella sezione <strong>Area di navigazione superiore</strong>, in <strong>Icona Home</strong>, fai clic in un punto qualsiasi della casella, quindi individua e seleziona l'immagine del logo. Oppure trascina un’immagine nella casella.</p> <p>Per ritagliare l'immagine, utilizzare i controlli di scorrimento e trascinare l'immagine nella posizione desiderata all'interno dello spazio prescritto.</p> <p>Si consiglia un'immagine 120 x 120. Può essere in uno dei seguenti formati: GIF, JPG, PNG, SVG.</p> <p>Questa icona viene visualizzata anche nei report, elenchi, dashboard e report consegnati che gli utenti esportano come file PDF.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>Marchio del menu principale <img src="assets/main-menu-icon.png"> logo <span style="font-weight: normal;">(viene visualizzato nell'angolo superiore destro del menu principale)</span></p> </td> 
-      <td> <p> <p> <p>In <strong>Area di navigazione superiore</strong> sezione, sotto <strong>Logo menu principale</strong>, fare clic in un punto qualsiasi della casella, quindi individuare e selezionare l'immagine del logo. Oppure trascina un’immagine nella casella.</p> <p>Per ritagliare l'immagine, utilizzare i controlli di scorrimento e trascinare l'immagine nella posizione desiderata all'interno dello spazio prescritto.</p> <p>Si consiglia un'immagine di 300 x 120 pixel. Può essere in uno dei seguenti formati: GIF, JPG, PNG, SVG.</p> </p> </p> </td> 
+      <td role="rowheader"> <p>Marchio il logo del menu principale <img src="assets/main-menu-icon.png"> <span style="font-weight: normal;">(viene visualizzato nell'angolo superiore destro del menu principale)</span></p> </td> 
+      <td> <p> <p> <p>Nella sezione <strong>Area di navigazione superiore</strong>, in <strong>Logo menu principale</strong>, fai clic in un punto qualsiasi della casella, quindi individua e seleziona l'immagine del tuo logo. Oppure trascina un’immagine nella casella.</p> <p>Per ritagliare l'immagine, utilizzare i controlli di scorrimento e trascinare l'immagine nella posizione desiderata all'interno dello spazio prescritto.</p> <p>Si consiglia un'immagine di 300 x 120 pixel. Può essere in uno dei seguenti formati: GIF, JPG, PNG, SVG.</p> </p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -83,7 +83,7 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
 
    Oppure
 
-   Se hai finito di personalizzare, fai clic su **Salva**.
+   Se hai completato la personalizzazione, fai clic su **Salva**.
 
    >[!TIP]
    >

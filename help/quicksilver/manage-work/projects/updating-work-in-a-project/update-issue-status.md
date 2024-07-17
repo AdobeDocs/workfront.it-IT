@@ -68,7 +68,7 @@ Il tuo amministratore Adobe Workfront può aggiungere stati personalizzati per i
 
 Per ulteriori informazioni sugli stati personalizzati e sui tipi di problemi, consulta i seguenti articoli:
 
-* [Creare o modificare uno stato](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)
+* [Crea o modifica uno stato](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)
 * [Crea problemi](../../../manage-work/issues/manage-issues/create-issues.md)
 
 Puoi aggiornare manualmente gli stati dei problemi oppure puoi consentire a Workfront di aggiornarli automaticamente quando si verificano determinate azioni.
@@ -86,8 +86,8 @@ Puoi aggiornare manualmente gli stati dei problemi oppure puoi consentire a Work
 Per aggiornare manualmente lo stato del problema nell’intestazione del problema:
 
 1. Passa a un problema per il quale desideri aggiornare lo stato.
-1. Fai clic su **Stato** nell’intestazione del problema e seleziona un nuovo stato.
-1. Per fornire un’indicazione visiva del completamento del problema, trascina o fai doppio clic sulla bolla sotto **Percentuale completamento** nell’intestazione del problema
+1. Fai clic sul campo **Stato** nell&#39;intestazione del problema e seleziona un nuovo stato.
+1. Per fornire un&#39;indicazione visiva del completamento del problema, trascina o fai doppio clic sulla bolla sotto **Percentuale completata** nell&#39;intestazione del problema
 
    Oppure
 
@@ -97,12 +97,12 @@ Per aggiornare manualmente lo stato del problema nell’intestazione del problem
 
 1. (Facoltativo) Per fornire ulteriori informazioni sull&#39;aggiornamento, effettuare una delle seguenti operazioni:
 
-   * Per aggiungere una nota sull&#39;aggiornamento, passare alla **Aggiornamenti** e fai clic su **Nuovo commento**, quindi digita una nota.
+   * Per aggiungere una nota sull&#39;aggiornamento, vai alla sezione **Aggiornamenti** e fai clic su **Nuovo commento**, quindi digita una nota.
 
      ![](assets/nwe-issue-update-stream-message-box-350x125.png)
 
-   * Per avvisare alcuni utenti dell’aggiornamento, digita i loro nomi nel **Assegna tag a persone o team** che viene visualizzato quando si digita un commento. Per ulteriori informazioni, consulta [Assegna tag ad altri utenti in caso di aggiornamenti](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-   * Per aggiornare la data di conferma del problema, fai clic su **Dettagli problema**, quindi modifica il **Conferma data** campo. Per informazioni, consulta [Modifica problemi](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
+   * Per notificare l&#39;aggiornamento ad alcuni utenti, digitarne il nome nel campo **Assegna tag a persone o team** visualizzato quando si digita un commento. Per ulteriori informazioni, consulta [Assegnare tag ad altri in occasione di aggiornamenti](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   * Per aggiornare la data di conferma del problema, fai clic su **Dettagli problema**, quindi modifica il campo **Data conferma**. Per informazioni, vedere [Modifica problemi](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
 
 
    >[!IMPORTANT]
@@ -136,7 +136,7 @@ Quando si verificano le azioni elencate nella tabella seguente, Workfront aggior
 
 >[!NOTE]
 >
->Gli stati riportati nella tabella seguente sono stati di sistema predefiniti. L’amministratore di Workfront o un amministratore di gruppo può rinominare gli stati nell’istanza di Workfront. Per informazioni sulla creazione e la gestione degli stati in Workfront, consulta [Creare o modificare uno stato](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+>Gli stati riportati nella tabella seguente sono stati di sistema predefiniti. L’amministratore di Workfront o un amministratore di gruppo può rinominare gli stati nell’istanza di Workfront. Per informazioni sulla creazione e la gestione degli stati in Workfront, vedere [Creare o modificare uno stato](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -161,12 +161,12 @@ Quando si verificano le azioni elencate nella tabella seguente, Workfront aggior
   <tr> 
    <td>Aggiornare lo stato di un oggetto di risoluzione associato al problema</td> 
    <td>Vari stati</td> 
-   <td> <p>Vari stati</p> <p>Per informazioni sulla risoluzione degli oggetti e sul modo in cui influiscono sullo stato dei problemi, vedere la sezione "Sincronizzare lo stato dell'oggetto risolvibile con quello dell'oggetto risolutivo" nell'articolo <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Panoramica sugli oggetti risolvibili e risolvibili </a>.</p> </td> 
+   <td> <p>Vari stati</p> <p>Per informazioni sulla risoluzione degli oggetti e sul modo in cui influiscono sullo stato dei problemi, vedere la sezione "Sincronizzare lo stato dell'oggetto risolvibile con quello dell'oggetto risolvibile" nell'articolo <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Panoramica sugli oggetti risolvibili e risolvibili </a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span>Fai clic sul pulsante Avvia problema per accettare di lavorare su un problema assegnato a te</span> </td> 
+   <td><span>Fare clic sul pulsante Avvia problema per accettare di lavorare su un problema assegnato</span> </td> 
    <td><span>Nuovo</span> </td> 
-   <td> <p>Qualsiasi stato associato al pulsante Avvia problema nelle impostazioni del team predefinito. </p> <p>Per informazioni sulla sostituzione del pulsante Lavoraci con un pulsante Avvia problema, vedi <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Sostituire il pulsante Lavoraci con un pulsante Start</a></span><span>.</span> </p> <p>Suggerimento: clic <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">il pulsante Annulla</span> dopo aver fatto clic su Avvia problema, lo stato viene ripristinato su Nuovo. </p> </td> 
+   <td> <p>Qualsiasi stato associato al pulsante Avvia problema nelle impostazioni del team predefinito. </p> <p>Per informazioni sulla sostituzione del pulsante Lavoraci con un pulsante Avvia problema, vedere <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Sostituire il pulsante Lavoraci con un pulsante Avvia</a></span><span>.</span> </p> <p>Suggerimento: facendo clic sul pulsante Annulla <span data-mc-conditions="QuicksilverOrClassic.Quicksilver"></span> dopo aver fatto clic su Avvia problema, lo stato viene ripristinato su Nuovo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

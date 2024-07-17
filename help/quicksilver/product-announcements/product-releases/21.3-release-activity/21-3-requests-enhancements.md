@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti apportati con la versione 21.3 all’ambiente di anteprima. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana del 21 luglio 2021.
 
-Per un elenco di tutte le modifiche disponibili con la versione 21.3, consulta [Panoramica sulla versione 21.3](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 21.3, vedere [Panoramica sulla versione 21.3](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Trovare le richieste per percorsi recenti o effettuando ricerche utilizzando una parola chiave
 

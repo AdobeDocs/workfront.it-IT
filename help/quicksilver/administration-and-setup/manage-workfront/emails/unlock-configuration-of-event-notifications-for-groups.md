@@ -21,7 +21,7 @@ Se sei un amministratore di Adobe Workfront, puoi sbloccare o bloccare nuovament
 
 Se al di sopra del gruppo gestito sono presenti gruppi, anche gli amministratori possono eseguire questa operazione per il gruppo. Lo stesso vale per gli amministratori di Workfront (per qualsiasi gruppo).
 
-Quando un amministratore configura una notifica di evento per un gruppo, la configurazione influisce sugli utenti per i quali tale gruppo, o uno dei suoi sottogruppi, è il proprio Gruppo predefinito. Nei profili utente, questi utenti visualizzano le notifiche degli eventi attivate per il proprio Gruppo predefinito anziché le notifiche degli eventi attivate a livello di sistema. Per ulteriori informazioni, consulta [Visualizzare e configurare le notifiche degli eventi per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+Quando un amministratore configura una notifica di evento per un gruppo, la configurazione influisce sugli utenti per i quali tale gruppo, o uno dei suoi sottogruppi, è il proprio Gruppo predefinito. Nei profili utente, questi utenti visualizzano le notifiche degli eventi attivate per il proprio Gruppo predefinito anziché le notifiche degli eventi attivate a livello di sistema. Per ulteriori informazioni, vedere [Visualizzare e configurare le notifiche degli eventi per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
 
 >[!NOTE]
 >
@@ -58,19 +58,19 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 >
 >Quando si blocca nuovamente una notifica, tutti i gruppi nel sistema ereditano la notifica esattamente come è stata impostata. In questo modo si ignorano eventuali modifiche apportate dagli amministratori dei gruppi ai propri gruppi. È quindi consigliabile consultarli prima.
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
-1. Clic **E-mail** > **Notifiche**.
+1. Fai clic su **E-mail** > **Notifiche**.
 
-1. Assicurati che le **Notifiche evento** è aperta.
-1. Fai clic sull’icona a destra della notifica per passare al bloccato ![Icona Blocca](assets/lock-toggle-button.png) o sbloccato ![Icona Sblocca](assets/unlock-toggle-button.png) posizione.
+1. Assicurati che la scheda **Notifiche evento** sia aperta.
+1. Fai clic sull&#39;icona a destra della notifica per passare all&#39;icona ![Blocca](assets/lock-toggle-button.png) o alla posizione ![Sblocca icona](assets/unlock-toggle-button.png) bloccata.
 
    Oppure
 
-   Se desideri sbloccare o bloccare più notifiche contemporaneamente, selezionale, quindi fai clic su Sblocca ![Icona Sblocca](assets/unlock-icon-toolbar.png) o Blocco ![Icona Blocca](assets/lock-icon-locked-qs.png) che viene visualizzato nella barra degli strumenti sopra l’elenco.
+   Se desideri sbloccare o bloccare più notifiche contemporaneamente, selezionale, quindi fai clic sull&#39;icona Sblocca ![Sblocca](assets/unlock-icon-toolbar.png) o Blocca l&#39;icona ![Blocca](assets/lock-icon-locked-qs.png) visualizzata nella barra degli strumenti sopra l&#39;elenco.
 
 1. Fai clic su **Salva**.
 1. (Facoltativo) Se si desidera configurare la notifica dell&#39;evento per un gruppo di livello superiore invece di lasciare questa attività all&#39;amministratore del gruppo, è possibile effettuare una delle seguenti operazioni:
 
-   * Elimina **Notifiche eventi di sistema** nella casella di ricerca sopra l’elenco delle notifiche, cerca e seleziona il nome del gruppo di livello superiore per elencare le notifiche, quindi attiva o disattiva le notifiche sbloccate nell’elenco visualizzato.
-   * Clic **Gruppi** nel menu sinistro fare clic sul nome del gruppo di primo livello. Clic **Notifiche evento** nel pannello a sinistra, quindi configura la notifica dell’evento sbloccato, come spiegato in [Visualizzare e configurare le notifiche degli eventi per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+   * Elimina **Notifiche eventi di sistema** nella casella di ricerca sopra l&#39;elenco delle notifiche, cerca e seleziona il nome del gruppo di primo livello per elencare le notifiche, quindi attiva o disattiva le notifiche sbloccate nell&#39;elenco visualizzato.
+   * Fai clic su **Gruppi** nel menu a sinistra, quindi fai clic sul nome del gruppo di primo livello. Fai clic su **Notifiche evento** nel pannello a sinistra, quindi configura la notifica dell&#39;evento sbloccato, come spiegato in [Visualizza e configura le notifiche dell&#39;evento per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).

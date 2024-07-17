@@ -47,16 +47,16 @@ Devi avere i seguenti:
      <li> <p>Progetti</p> </li> 
      <li> <p>Attività</p> </li> 
      <li> <p>Problemi</p> </li> 
-    </ul> <p>Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+    </ul> <p>Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Autorizzazioni di Contribute o superiori per progetti, attività e problemi </p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Autorizzazioni Contribute o superiori per progetti, attività e problemi </p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Aggiornare attività e problemi nel pannello Riepilogo del Bilanciatore dei carichi di lavoro
 
@@ -64,33 +64,33 @@ Devi avere i seguenti:
 
    Il Bilanciatore dei carichi di lavoro visualizza le informazioni sull’assegnazione del lavoro a partire dalla settimana corrente.
 
-1. Vai a **Lavoro non assegnato** e trovare un elemento di lavoro.
+1. Vai all&#39;area **Lavoro non assegnato** e trova un elemento di lavoro.
 
    Oppure
 
-   Vai a **Lavoro assegnato** , espandere un utente e trovare un elemento di lavoro.
+   Vai all&#39;area **Lavoro assegnato**, espandi un utente e trova un elemento di lavoro.
 
 1. Fai clic sulla barra di un’attività o di un problema per aprire il pannello Riepilogo a destra.
 
    Oppure
 
-   Clic **Apri riepilogo** icona ![](assets/summary-panel-icon.png), quindi fai clic sulla barra di un’attività o di un problema per aprire il pannello Riepilogo.
+   Fai clic sull&#39;icona ![](assets/summary-panel-icon.png) di **Apri riepilogo**, quindi fai clic sulla barra di un&#39;attività o di un problema per aprire il pannello Riepilogo.
 
    Oppure
 
-   Fai clic su **Altro** menu ![](assets/more-icon.png) a destra di un’attività o di un problema, quindi fai clic su **Apri riepilogo**.
+   Fai clic sul menu **Altro** ![](assets/more-icon.png) a destra di un&#39;attività o di un problema, quindi fai clic su **Apri riepilogo**.
 
    Il pannello Riepilogo si apre a destra.
 
    <div class="preview">
 
    Esempio del pannello Riepilogo nell’ambiente di anteprima:
-   ![Pannello Riepilogo](assets/summary-panel-task-wb-new-comments.png)
+   ![Pannello di riepilogo](assets/summary-panel-task-wb-new-comments.png)
 
    </div>
 
    Esempio del pannello Riepilogo nell’ambiente di produzione:
-   ![Pannello Riepilogo](assets/summary-panel-for-task-in-workload-balancer-350x449.png)
+   ![Pannello di riepilogo](assets/summary-panel-for-task-in-workload-balancer-350x449.png)
 
 1. Modificare un certo numero di campi per l&#39;elemento di lavoro, immettere un aggiornamento oppure passare da qui ad altre aree di Workfront per aggiungere documenti o altre informazioni all&#39;elemento di lavoro.
 
@@ -98,7 +98,7 @@ Devi avere i seguenti:
    >
    >Se si passa dalla sezione Riepilogo alla sezione Sottoattività per aggiungere sottoattività, l&#39;attività originale viene rimossa, perché le attività padre non vengono visualizzate nel Bilanciatore dei carichi di lavoro.
 
-   Per ulteriori informazioni sull&#39;aggiornamento delle informazioni tramite Riepilogo, vedere [Panoramica di riepilogo](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+   Per ulteriori informazioni sull&#39;aggiornamento delle informazioni tramite Riepilogo, vedere [Panoramica di Riepilogo](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-1. (Condizionale) Se hai aperto una delle sezioni dell’elemento di lavoro, fai clic su **pulsante Indietro** per tornare al Bilanciatore dei carichi di lavoro.
-1. Fai clic su **Icona Chiudi** ![](assets/close-icon.png) nell&#39;angolo superiore destro del Riepilogo, per chiuderlo.
+1. (Condizionale) Se hai aperto una delle sezioni dell&#39;elemento di lavoro, fai clic sul **pulsante Indietro** del browser per tornare al Bilanciatore dei carichi di lavoro.
+1. Fare clic sull&#39;icona **Chiudi** ![](assets/close-icon.png) nell&#39;angolo superiore destro del riepilogo per chiuderlo.

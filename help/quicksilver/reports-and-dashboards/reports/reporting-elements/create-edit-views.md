@@ -17,7 +17,7 @@ ht-degree: 1%
 
 È possibile personalizzare il tipo di informazioni visualizzate sullo schermo utilizzando le viste. In Adobe Workfront è possibile utilizzare diversi tipi di visualizzazioni.
 
-Questo articolo descrive come creare e modificare le viste standard per gli elenchi e i rapporti e come creare viste agili. Per ulteriori informazioni, consulta [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Questo articolo descrive come creare e modificare le viste standard per gli elenchi e i rapporti e come creare viste agili. Per ulteriori informazioni, vedere [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Requisiti di accesso
 
@@ -43,12 +43,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Gestire le autorizzazioni per un report per creare o modificare una visualizzazione in un report</p> <p>Gestire le autorizzazioni per una visualizzazione per modificarla</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un report per creare o modificare una visualizzazione in un report</p> <p>Gestire le autorizzazioni per una visualizzazione per modificarla</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 +++
 
@@ -63,19 +63,19 @@ Il processo di creazione o personalizzazione di una vista varia a seconda che si
 
 Potete creare una nuova vista standard oppure personalizzare una vista standard esistente creata in precedenza.
 
-1. Fai clic su **Visualizza** in qualsiasi elenco in cui si desidera creare o personalizzare una visualizzazione.
+1. Fare clic sul menu a discesa **Visualizza** in qualsiasi elenco in cui si desidera creare o personalizzare una visualizzazione.
 1. (Facoltativo) Per personalizzare una vista esistente, selezionate la vista standard da personalizzare.\
    Le visualizzazioni standard sono disponibili in qualsiasi tipo di elenco in Workfront, ad esempio un report, un elenco di progetti o un elenco di attività.
-1. Fai clic su **Visualizza** menu a discesa, quindi fai clic su **Personalizza visualizzazione** o **Nuova visualizzazione**.\
-   Il **Personalizza visualizzazione** viene visualizzata.
+1. Fai clic sul menu a discesa **Visualizza**, quindi fai clic su **Personalizza visualizzazione** o **Nuova visualizzazione**.\
+   Viene visualizzata la finestra di dialogo **Personalizza visualizzazione**.
 
-1. In **Anteprima colonna** eseguire una delle operazioni seguenti:
+1. Nella sezione **Anteprima colonna** eseguire una delle operazioni seguenti:
 
    * Modificare il valore di una colonna facendo clic sul titolo della colonna e selezionando un nuovo campo.
-   * Aggiungere una colonna facendo clic su **Aggiungi colonna**, iniziare a digitare il nome della colonna che si desidera aggiungere, quindi fare clic su di essa quando viene visualizzata nell&#39;elenco a discesa.
+   * Aggiungere una colonna facendo clic su **Aggiungi colonna**, digitare il nome della colonna che si desidera aggiungere, quindi fare clic su di essa quando viene visualizzata nell&#39;elenco a discesa.
    * Modificare l&#39;ordine di visualizzazione delle colonne trascinando il titolo della colonna in una nuova posizione.
 
-      * (Facoltativo) In **Impostazioni colonna** , fare clic sul pulsante **Riepiloga questa colonna per** , quindi selezionare una delle opzioni disponibili per il riepilogo delle informazioni. Quando si sceglie questa opzione, le informazioni nella colonna vengono aggregate nei raggruppamenti del rapporto.\
+      * (Facoltativo) Nell&#39;area **Impostazioni colonna**, fare clic sull&#39;elenco a discesa **Riepiloga colonna per**, quindi selezionare una delle opzioni disponibili per il riepilogo delle informazioni. Quando si sceglie questa opzione, le informazioni nella colonna vengono aggregate nei raggruppamenti del rapporto.\
         Per i campi data, è possibile riepilogare i valori utilizzando le opzioni seguenti:
 
          * Massimo
@@ -100,9 +100,9 @@ Potete creare una nuova vista standard oppure personalizzare una vista standard 
         >   
         >
 
-        Per ulteriori informazioni sull’utilizzo dei raggruppamenti in un rapporto, consulta l’articolo [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+        Per ulteriori informazioni sull&#39;utilizzo dei raggruppamenti in un report, vedere l&#39;articolo [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-      * (Facoltativo) Fai clic su **Opzioni avanzate** per specificare le seguenti informazioni per la colonna:
+      * (Facoltativo) Fare clic su **Opzioni avanzate** per specificare le seguenti informazioni per la colonna:
 
         <table style="table-layout:auto"> 
          <col> 
@@ -122,22 +122,22 @@ Potete creare una nuova vista standard oppure personalizzare una vista standard 
           </tr> 
           <tr> 
            <td role="rowheader"><strong>Regole colonna</strong></td> 
-           <td><p>Clic <strong>Aggiungi una regola per questa colonna</strong> per definire una regola per la colonna. Dopo aver aggiunto una regola, è possibile definire stili di campo e di testo per la visualizzazione dei campi corrispondenti alla regola. Clic <strong>Aggiungi regola</strong> al termine della definizione della regola.</p></td> 
+           <td><p>Fai clic su <strong>Aggiungi una regola per questa colonna</strong> per definire una regola per la colonna. Dopo aver aggiunto una regola, è possibile definire stili di campo e di testo per la visualizzazione dei campi corrispondenti alla regola. Fai clic su <strong>Aggiungi regola</strong> dopo aver completato la definizione della regola.</p></td> 
           </tr> 
          </tbody> 
         </table>
 
-        Per ulteriori informazioni sulla formattazione condizionale delle visualizzazioni nei rapporti, consulta l’articolo [Utilizzare la formattazione condizionale in modalità testo](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
+        Per ulteriori informazioni sulla formattazione condizionale delle visualizzazioni nei report, vedere l&#39;articolo [Utilizzare la formattazione condizionale in modalità testo](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
-1. (Condizionale) Se hai fatto clic **Opzioni avanzate**, fai clic su **Fine**.
+1. (Condizionale) Se hai selezionato **Opzioni avanzate**, fai clic su **Fine**.
 
-1. Clic **Salva visualizzazione** per creare una nuova visualizzazione o sostituire la visualizzazione corrente con le modifiche apportate.\
+1. Fai clic su **Salva visualizzazione** per creare una nuova visualizzazione o per sostituire la visualizzazione corrente con le modifiche.\
    Oppure\
-   Clic **Salva come nuova vista** per salvare le modifiche come nuova visualizzazione.
+   Fai clic su **Salva come nuova visualizzazione** per salvare le modifiche come nuova visualizzazione.
 
    >[!TIP]
    >
-   >Il **Salva come nuova vista** è l’unica opzione disponibile quando personalizzi una vista Workfront incorporata.
+   >**Salva come nuova visualizzazione** è l&#39;unica opzione disponibile quando si personalizza una visualizzazione predefinita di Workfront.
 
    Il modo in cui la vista viene salvata dipende dal tuo accesso. Se la vista è stata creata in origine, è possibile salvare le modifiche; in caso contrario, viene richiesto di salvare una versione. Le modifiche apportate alla visualizzazione hanno un impatto sugli utenti con cui la visualizzazione è stata condivisa.
 
@@ -149,7 +149,7 @@ Puoi creare una vista Agile o personalizzare una vista Agile esistente creata in
 >
 >Le visualizzazioni Agile sono disponibili solo quando si visualizza un progetto.
 
-Per ulteriori informazioni sulle visualizzazioni Agile, consulta l’articolo [Gestire un progetto nella visualizzazione Agile](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Per ulteriori informazioni sulle visualizzazioni Agile, vedi l&#39;articolo [Gestione di un progetto in Visualizzazione Agile](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 >[!NOTE]
 >
@@ -158,22 +158,22 @@ Per ulteriori informazioni sulle visualizzazioni Agile, consulta l’articolo [G
 Per creare o personalizzare una visualizzazione Agile:
 
 1. Consente di passare all&#39;elenco delle attività di un progetto.
-1. Fai clic su **Scheda madre** icona ![Icona bacheca](assets/board-icon-for-agile-view.png)e quindi fare clic su **Usa agile legacy** nella vista bacheca.
+1. Fai clic sull&#39;icona **Bacheca** ![Icona Bacheca](assets/board-icon-for-agile-view.png), quindi fai clic su **Utilizza legacy agile** nella visualizzazione Bacheca.
 
 1. (Condizionale) Per personalizzare una visualizzazione Agile esistente:
 
-   1. Fai clic su **Visualizza** , quindi selezionare la visualizzazione Agile che si desidera personalizzare.\
+   1. Fai clic sul menu a discesa **Visualizza**, quindi seleziona la visualizzazione Agile che desideri personalizzare.\
       Non è possibile personalizzare la visualizzazione Agile predefinita.
 
-   1. Fai clic su **Visualizza** nuovamente, quindi fai clic su **Personalizza visualizzazione**.\
+   1. Fai di nuovo clic sul menu a discesa **Visualizza**, quindi fai clic su **Personalizza visualizzazione**.\
       ![](assets/view-agile-customize.png)
 
 1. (Condizionale) Per creare una nuova visualizzazione Agile, fai clic su **Nuova visualizzazione**.\
-   Il **Personalizza visualizzazione Agile** viene visualizzata.
+   Viene visualizzata la finestra di dialogo **Personalizza visualizzazione Agile**.
 
-1. In **Personalizza visualizzazione Agile** specifica un nome per la visualizzazione Agile.\
+1. Nella finestra di dialogo **Personalizza visualizzazione Agile**, specifica un nome per la visualizzazione Agile.\
    È consigliabile includere la parola &quot;Agile&quot; nel nome della visualizzazione, in modo che gli utenti sappiano che si tratta di una visualizzazione Agile.\
-   Questo nome viene visualizzato nel **Visualizza** menu a discesa quando si seleziona una vista.
+   Questo nome viene visualizzato nel menu a discesa **Visualizza** quando si seleziona una visualizzazione.
 
 1. Definite le colonne di stato da visualizzare sullo storyboard nella visualizzazione agile. Questi sono gli stati delle attività definiti dall&#39;amministratore di Workfront, come descritto in [Creare o modificare uno stato](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
@@ -187,16 +187,16 @@ Per creare o personalizzare una visualizzazione Agile:
     <col>
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Colonne di stato riordino:</strong> </td> 
+      <td role="rowheader"><strong>Riordina colonne stato:</strong> </td> 
       <td> Trascinare una colonna di stato nell'ordine in cui si desidera visualizzarla.<br><img src="assets/agile-project-reorderstatuses-350x141.png" alt="" style="width: 350;height: 141;"></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Rimuovi colonne di stato:</strong> </td> 
-      <td>Fare clic sull'icona (x) nella colonna che si desidera rimuovere.<br>Non puoi rimuovere lo stato "Nuovo" a meno che non sia stato aggiunto uno stato personalizzato alla vista e che tale stato personalizzato sia uguale a "Nuovo".<br>Per informazioni sulla creazione di uno stato personalizzato, consulta <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Creare o modificare uno stato</a>.</td> 
+      <td role="rowheader"><strong>Rimuovi le colonne di stato:</strong> </td> 
+      <td>Fare clic sull'icona (x) nella colonna che si desidera rimuovere.<br>Non è possibile rimuovere lo stato "Nuovo" a meno che non sia stato aggiunto uno stato personalizzato alla visualizzazione e tale stato personalizzato non sia uguale a "Nuovo".<br>Per informazioni sulla creazione di uno stato personalizzato, vedere <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Creare o modificare uno stato</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Aggiungi colonne di stato:</strong> </td> 
-      <td> <p>Fai clic su <strong>Più</strong> , quindi selezionare lo stato da aggiungere.<br>Vengono visualizzati tutti gli stati di sistema predefiniti e gli eventuali stati personalizzati condivisi con l'utente.<br>Puoi configurare fino a 10 stati da visualizzare.</p></td> 
+      <td> <p>Fai clic sull'icona <strong>Plus</strong>, quindi seleziona lo stato che desideri aggiungere.<br>Vengono visualizzati tutti gli stati di sistema predefiniti e gli eventuali stati personalizzati condivisi con l'utente.<br>È possibile configurare fino a 10 stati da visualizzare.</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -205,7 +205,7 @@ Per creare o personalizzare una visualizzazione Agile:
         <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE FOR ADD STATUS COLUMNS: research this and add: [! What if the status has been shared with me or a group I'm in (so I can see it here), but the status hasn't been shared with another user who also has access to a project where I later apply this view? Can that user still see this status on the project?]) </p>
        -->
 
-1. In **Associa colore scheda a** , selezionare una delle opzioni seguenti:
+1. Nell&#39;area **Associa colore scheda a** selezionare una delle opzioni seguenti:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -213,29 +213,29 @@ Per creare o personalizzare una visualizzazione Agile:
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Storia:</strong> </td> 
-      <td>Tutte le sottoattività corrispondono al colore dell'attività padre, in modo che i colori di tutti i brani di una determinata corsia siano gli stessi.<br>I colori vengono assegnati in modo casuale alle attività quando vengono create se l'attività non ha alcuna sottoattività o non ha un'attività padre.</td> 
+      <td>Tutte le sottoattività corrispondono al colore dell'attività padre, in modo che i colori di tutti i brani di una determinata corsia siano gli stessi.<br>I colori vengono assegnati in modo casuale alle attività quando vengono create se l'attività non ha sottoattività o non ha un'attività padre.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Forma libera:</strong> </td> 
-      <td> Tutte le schede sono visualizzate in blu per impostazione predefinita finché un utente non cambia il colore manualmente, come descritto nell’articolo <a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md" class="MCXref xref">Categorizzare le storie per colore sulla bacheca Scrum</a>. </td> 
+      <td role="rowheader"><strong>Formato libero:</strong> </td> 
+      <td> Tutte le schede sono visualizzate in blu per impostazione predefinita finché un utente non cambia il colore manualmente, come descritto nell'articolo <a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md" class="MCXref xref">Categorizzare le storie per colore sulla bacheca Scrum</a>. </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Priorità:</strong> </td> 
       <td> <p> I colori sono associati alla priorità del brano, come segue:</p> 
        <ul> 
         <li>Alto = Rosso</li> 
-        <li>Medio = Giallo</li> 
-        <li>Basso = Verde<br>Se l'amministratore di Workfront ha configurato delle priorità personalizzate per il sistema Workfront, la priorità più alta è rossa, la seconda è gialla e le altre sono verdi.</li> 
+        <li>Medium = Giallo</li> 
+        <li>Bassa = Verde<br>Se l'amministratore di Workfront ha configurato priorità personalizzate per il sistema Workfront, la priorità più alta è rossa, la seconda più alta è gialla e le rimanenti sono verdi.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Proprietario attività:</strong> </td> 
-      <td> Tutti i brani con lo stesso assegnatario principale sono dello stesso colore.<br>L'assegnatario principale è l'utente che è stato assegnato per primo all'attività. </td> 
+      <td> Tutti i brani con lo stesso assegnatario principale sono dello stesso colore.<br>L'assegnatario principale è l'utente che è stato assegnato per la prima volta all'attività. </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. In **Agile** , nella sezione **Campi aggiuntivi** , fare clic su **Aggiungi campo**, quindi selezionare il campo che si desidera aggiungere alle schede delle storie. Si tratta degli stessi campi che è possibile aggiungere quando si crea una visualizzazione personalizzata o si creano colonne per un report.\
+1. Nella sezione **Agile**, nell&#39;area **Campi aggiuntivi**, fare clic su **Aggiungi campo**, quindi selezionare il campo che si desidera aggiungere alle schede delle storie. Si tratta degli stessi campi che è possibile aggiungere quando si crea una visualizzazione personalizzata o si creano colonne per un report.\
    Ripetete questa procedura per aggiungere fino a tre campi aggiuntivi alle schede delle storie.\
    Quando si aggiungono campi alle schede delle storie, i campi sono di sola visualizzazione e vengono visualizzati solo quando il campo è popolato.
 
@@ -254,4 +254,4 @@ Per creare o personalizzare una visualizzazione Agile:
 1. Fai clic su **Salva**.\
    Il modo in cui la vista viene salvata dipende dal tuo accesso. Se la vista è stata creata in origine, è possibile salvare le modifiche; in caso contrario, viene richiesto di salvare una versione. Le modifiche apportate alla visualizzazione hanno un impatto sugli utenti con cui la visualizzazione è stata condivisa.
 
-1. (Facoltativo) Fai clic su **Elenco** per tornare all&#39;elenco delle attività.
+1. (Facoltativo) Fai clic sull&#39;icona **Elenco** per tornare all&#39;elenco delle attività.

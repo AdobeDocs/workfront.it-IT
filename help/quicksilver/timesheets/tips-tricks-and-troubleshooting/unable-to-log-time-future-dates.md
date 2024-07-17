@@ -30,12 +30,12 @@ Gli amministratori di sistema possono aggiornare un’impostazione per consentir
 
 In qualità di amministratore di sistema, eseguire le operazioni seguenti:
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
 1. Espandi **Schede orario e ore**, quindi fai clic su **Preferenze**.
 
-1. In **Preferenze generali** , seleziona la sezione **Registra ore per date future**.
+1. Nella sezione **Preferenze generali**, seleziona **Registra ore per date future**.
 
 1. Fai clic su **Salva**.
 
-Per ulteriori informazioni su questa e altre opzioni relative alle schede orario e alle ore, consulta [Configurare le preferenze di orario e scheda orario](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Per ulteriori informazioni su questa e altre opzioni relative alle schede orario e alle ore, consulta [Configurare le preferenze per le ore e le schede orario](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).

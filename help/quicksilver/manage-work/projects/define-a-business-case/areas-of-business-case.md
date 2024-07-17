@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: 0646e4f0-e8fb-48f2-b533-358229543081
 source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
 workflow-type: tm+mt
-source-wordcount: '1604'
+source-wordcount: '1605'
 ht-degree: 2%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 2%
 
 Questo articolo descrive le aree del Business Case di un progetto.
 
-Per informazioni sulla creazione di un Business Case per un progetto, consulta [Creare un business case per un progetto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Per informazioni sulla creazione di un Business Case per un progetto, vedere [Creare un Business Case per un progetto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-L’amministratore di Adobe Workfront o l’amministratore di gruppo deve abilitare tutte le sezioni del Business Case prima che siano visibili sul progetto, fatta eccezione per la sezione Informazioni progetto . La sezione Informazioni progetto è attivata per impostazione predefinita.
+L’amministratore di Adobe Workfront o l’amministratore di gruppo deve abilitare tutte le sezioni nel Business Case prima che siano visibili nel progetto, ad eccezione della sezione Informazioni progetto. La sezione Informazioni progetto è attivata per impostazione predefinita.
 
-Per ulteriori informazioni sull&#39;abilitazione delle aree del Business Case, vedere la sezione &quot;Business Case&quot; in  [Configurare le preferenze del progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Per ulteriori informazioni sull&#39;abilitazione delle aree del Business Case, vedere la sezione &quot;Business Case&quot; in  [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-Di seguito sono elencate le aree nel Business Case di un progetto:
+Di seguito sono riportate le aree nel Business Case di un progetto:
 
 * Info Prog
 * Obiettivi
@@ -36,174 +36,176 @@ Di seguito sono elencate le aree nel Business Case di un progetto:
 
 ## Info Prog
 
-La **Informazioni progetto** l&#39;area del Business Case non è configurabile dall&#39;amministratore Workfront. Tutti i progetti dispongono di un’area Informazioni progetto nel Business Case. 
+L&#39;area **Informazioni progetto** del caso di business non è configurabile dall&#39;amministratore di Workfront. Tutti i progetti hanno un&#39;area Informazioni progetto nel Business Case. 
 
-La sezione Informazioni progetto del Business case include le informazioni di base di un progetto, prima che il progetto sia effettivamente iniziato.
+La sezione Informazioni progetto del caso di business include le informazioni di base di un progetto, prima che il progetto sia effettivamente iniziato.
 
-È consigliabile modificare i campi seguenti:
+Prendi in considerazione la modifica dei seguenti campi:
 
-* **Descrizione**: Specifica una descrizione del progetto.
+* **Descrizione**: specifica una descrizione per il progetto.
 * **Proprietario progetto**
 
-   Per impostazione predefinita, l’utente che crea il progetto è anche il proprietario del progetto. È possibile modificare questo campo e indicare un altro utente attivo come proprietario del progetto.
+  Per impostazione predefinita, l’utente che crea il progetto è anche proprietario del progetto. Puoi modificare questo campo e indicare un altro utente attivo come proprietario del progetto.
 
 * **Sponsor Progetto**
 
-   Considera l’aggiunta di un altro utente oltre al proprietario del progetto come sponsor del progetto. Lo sponsor riceve l&#39;approvazione del Business Case. 
+  Valuta l’aggiunta di un utente diverso dal proprietario del progetto come sponsor del progetto. Lo sponsor riceve l&#39;approvazione del Business Case. 
 
-* **Portfolio**: Specifica un Portfolio per il progetto. È necessario creare il Portfolio e inserirlo nello stato di **Attivo** prima che sia disponibile per la selezione in questo menu a discesa.
+* **Portfolio**: specificare un Portfolio per il progetto. È necessario creare il Portfolio e impostarlo sullo stato **Attivo** prima che sia disponibile per la selezione in questo menu a discesa.
 
-   Per ulteriori informazioni sui portfolio, consulta [Panoramica del Portfolio in Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+  Per ulteriori informazioni sui portfolio, vedere [Panoramica sui Portfoli in Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
-   Per ulteriori informazioni sulla creazione di Portfoli, consulta [Creare un portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
+  Per ulteriori informazioni sulla creazione di Portfoli, vedere [Creazione di un portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 
-* **Vantaggio pianificato**: Stimare quale sarà il beneficio monetario previsto per la tua organizzazione al termine del progetto. Può essere un qualsiasi ammontare di valuta e deve essere un valore positivo. Ad esempio $10.000.
-* **Stato**: Per impostazione predefinita, lo stato di una richiesta di progetto è impostato su **Idea**.
+* **Vantaggio pianificato**: stimare il beneficio monetario previsto per l&#39;organizzazione al completamento del progetto. Può essere qualsiasi quantità di valuta e deve essere un valore positivo. Ad esempio, $10.000.
+* **Stato**: per impostazione predefinita, lo Stato di una richiesta di progetto è impostato su **Idea**.
 
-   Se si modifica lo stato in un valore diverso da Idea o Pianificazione, la proprietà **Invia** Il pulsante scompare dall&#39;area Sintetico casi aziendali e non è più possibile inviare il Business Case per l&#39;approvazione. 
+  Se si modifica lo stato in un elemento diverso da Idea o Planning, il pulsante **Invia** scompare dall&#39;area Riepilogo caso di business e non è più possibile inviare il caso di business per l&#39;approvazione. 
 
-* **Data di inizio fissa**: Specifica la data di inizio del progetto.
-* **Data di fine fissa**: Specifica la data in cui vuoi che il progetto termini.
+* **Data di inizio fissata**: specifica la data di inizio desiderata per il progetto.
+* **Data di fine fissata**: specifica la data di fine del progetto.
 
-   >[!NOTE]
-   >
-   >Le date di inizio e fine fisse nel caso aziendale non influiscono sulle date di inizio e di completamento pianificate del progetto. Questi rappresentano le date richieste dal creatore del progetto per il momento in cui il progetto si svilupperebbe idealmente. Le date di inizio e di completamento pianificati del progetto mostrano invece la tempistica pianificata per il progetto, in base alle attività del progetto.
+  >[!NOTE]
+  >
+  >Le date di inizio e di fine fisse nel caso di business non influiscono sulle date di inizio e di completamento pianificate del progetto. Queste rappresentano le date richieste dal creatore del progetto per lo sviluppo ottimale dello stesso. Le date di inizio pianificata e di completamento pianificata del progetto mostrano invece la sequenza temporale pianificata per il progetto, basata sulle attività del progetto stesso.
 
 ## Obiettivi
 
-Gli obiettivi definiscono gli obiettivi del progetto. Questa area è abilitata per impostazione predefinita nel Business Case, ma l’amministratore di Workfront potrebbe scegliere di non visualizzarla. In questo campo vengono visualizzati gli obiettivi in ordine di priorità.
+Gli obiettivi definiscono gli obiettivi del progetto. Questa area è abilitata per impostazione predefinita nel Business Case, ma l’amministratore di Workfront potrebbe scegliere di non visualizzarla. Questo campo visualizza gli obiettivi in ordine di priorità.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: below snippet: NWE only, not classic)</p>
 -->
 
 >[!TIP]
-Puoi creare obiettivi strategici per la tua organizzazione che non sono collegati al singolo Business Case di un progetto. Devi avere accesso agli obiettivi di Adobe Workfront per poter creare obiettivi strategici. Puoi quindi collegarli a progetti esterni ai rispettivi casi aziendali. Per informazioni sulla creazione di obiettivi utilizzando gli obiettivi di Workfront, vedi [Panoramica sugli obiettivi di Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
+>
+>Puoi creare obiettivi strategici per la tua organizzazione che non sono collegati al singolo caso di business di un progetto. Per poter creare obiettivi strategici, devi poter accedere agli obiettivi di Adobe Workfront. Puoi quindi collegarli a progetti al di fuori dei loro casi aziendali. Per informazioni sulla creazione di obiettivi utilizzando gli obiettivi di Workfront, consulta [Panoramica sugli obiettivi di Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
-La definizione degli obiettivi è facoltativa per il progetto per ricevere un punteggio in Portfoli Optimizer. Questa sezione è l’unica sezione facoltativa nel Business Case. Tutte le altre sezioni del Business Case devono essere completate prima che il progetto venga valutato in Portfoli Optimizer. È possibile indicare un livello di priorità per un obiettivo durante la creazione dell&#39;obiettivo.
+La definizione degli obiettivi è facoltativa per il progetto che deve ricevere un Punteggio in Ottimizzatore Portfolio. Questa è l&#39;unica sezione facoltativa del Business Case. Prima di assegnare un punteggio al progetto in Ottimizzatore Portfolio, è necessario completare tutte le altre sezioni del Business Case. È possibile indicare un livello di priorità per un obiettivo durante la creazione.
 
-Per ulteriori informazioni sugli obiettivi, vedi  [Creare gli obiettivi del caso aziendale](../../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
+Per ulteriori informazioni sugli obiettivi, consulta  [Crea obiettivi caso di business](../../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
 
 ## Spese
 
-Le spese rappresentano i costi non lavorativi che potrebbero essere sostenuti durante la durata di un progetto. Questa area è abilitata per impostazione predefinita nel Business Case, ma l’amministratore di Workfront potrebbe scegliere di non visualizzarla. 
+Le spese rappresentano i costi non di manodopera che potrebbero essere sostenuti durante la durata di un progetto. Questa area è abilitata per impostazione predefinita nel Business Case, ma l’amministratore di Workfront potrebbe scegliere di non visualizzarla. 
 
-Tutte le spese inserite nel Business Case vengono inoltre inserite nella scheda Spese del progetto, come Spese pianificate.
+Tutte le spese inserite nel Business Case vengono inoltre immesse nella scheda Spese del progetto, come Spese pianificate.
 
-Le spese influiscono sui seguenti campi del progetto:
+Le spese interessano i seguenti campi del progetto:
 
 * Bdg prv
 * Valore Netto
 
-Per ulteriori informazioni sui costi preventivati e sui valori netti, vedere [Panoramica dei campi finanziari del Business Case](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
+Per ulteriori informazioni sui costi preventivati e i valori netti, vedere [Panoramica sui campi finanziari del caso aziendale](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
 
-Per ulteriori informazioni sulle spese, vedi  [Gestione delle spese di progetto](../../../manage-work/projects/project-finances/manage-project-expenses.md) .
+Per ulteriori informazioni sulle spese, consulta  [Gestione spese progetto](../../../manage-work/projects/project-finances/manage-project-expenses.md) .
 
-L&#39;amministratore Workfront può impostare tipi di spesa personalizzati.
+L’amministratore di Workfront può impostare tipi di spesa personalizzati.
 
-Per ulteriori informazioni sulla creazione di tipi di spesa personalizzati, consulta [Crea tipi di spesa personalizzati](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md). 
+Per ulteriori informazioni sulla creazione di tipi di spesa personalizzati, vedere [Creare tipi di spesa personalizzati](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md). 
 
 ## Budget di risorse
 
-È possibile eseguire le azioni seguenti nell&#39;area Resource Budgeting del caso Business:
+Nell&#39;area Budget risorse del caso aziendale è possibile eseguire le azioni riportate di seguito.
 
-* Associa pool di risorse al progetto.
-* Budget delle risorse a livello di progetto.
+* Associa i gruppi di risorse al progetto.
+* Preventivare le risorse a livello di progetto.
 
-Le ore previste in budget per le risorse nel progetto vengono visualizzate nell&#39;area Budget risorse del Business Case, generando il costo del lavoro a budget del progetto. Questa area del Business Case è attivata per impostazione predefinita.
+Le ore preventivate per le risorse del progetto vengono visualizzate nell&#39;area Budget risorse del caso aziendale, generando il costo manodopera preventivato del progetto. Questa area del Business Case è attivata per impostazione predefinita.
 
-Per ulteriori informazioni sulle risorse di budget per il progetto nel Business Case, vedi [Risorse di budget nel Business Case](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+Per ulteriori informazioni sulle risorse di budget per il progetto nel Business Case, vedere [Risorse di budget nel Business Case](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
 ![](assets/business-case-sp-selected-with-choose-button-350x121.png)
 
-Quando si visualizza la sezione Resource Budgeting del Business Case, tenere presente quanto segue:
+Quando si visualizza la sezione Budget risorse del caso aziendale, tenere presente quanto segue:
 
-* Puoi eseguire il budget delle informazioni sulle risorse qui utilizzando i seguenti strumenti:
+* È possibile preventivare le informazioni sulle risorse utilizzando i seguenti strumenti:
 
-   * Planner risorse
+   * Pianificazione risorse
 
-      Per informazioni, consulta [Risorse di budget nel Business Case utilizzando il Resource Planner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
+     Per informazioni, vedere [Risorse preventivate nel Business Case utilizzando la pianificazione risorse](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
 
-   * Scenario Planner : se la tua azienda ha acquistato una licenza aggiuntiva per Adobe Scenario Planner
+   * Scenario Planner , se la società ha acquistato una licenza aggiuntiva, ad Adobe Scenario Planner
 
-      Per ulteriori informazioni, consulta [Risorse di budget nel caso aziendale utilizzando il Planner scenario](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
+     Per ulteriori informazioni, vedere [Risorse budget nel caso di business utilizzando la Pianificazione scenario](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
-      Il planner scenario è disponibile solo nella nuova esperienza Adobe Workfront e richiede una licenza aggiuntiva. Per informazioni su Workfront Scenario Planner, vedi [Panoramica di Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
+     La Pianificazione scenario è disponibile solo nella nuova esperienza Adobe Workfront e richiede una licenza aggiuntiva. Per informazioni su Workfront Scenario Planner, vedere [Panoramica di Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
 
-* Le informazioni visualizzate qui vengono visualizzate anche nel Planner risorse o nel Planner scenario a livello di sistema. 
+* Le informazioni visualizzate qui vengono visualizzate anche nella Programmazione delle risorse o nella Pianificazione degli scenari a livello di sistema. 
 
-   <!--
+  <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the "or" stays in&nbsp;NWE&nbsp;only)<br></p>
   -->
 
-* Dopo aver impostato il budget per le risorse, nell&#39;area Budget risorse viene visualizzato il costo manodopera a budget del progetto se i ruoli sono associati ai tassi Costo per ora. Il costo del lavoro a budget viene visualizzato nella valuta del progetto.
+* Dopo aver impostato le risorse nel budget, il Costo manodopera preventivato del progetto viene visualizzato nell&#39;area Budget risorse se i ruoli sono associati alle tariffe Costo per ora. Il Costo manodopera preventivato viene visualizzato nella valuta del progetto.
 
-   >[!IMPORTANT]
-   Il costo del lavoro a budget è il costo associato ai ruoli del progetto e non agli utenti. La somma di tutti i costi del lavoro a budget per gli utenti può essere uguale o meno al costo del lavoro a budget del ruolo del lavoro associato agli utenti. 
+  >[!IMPORTANT]
+  >
+  >Il Costo manodopera preventivato è il costo associato ai ruoli nel progetto e non agli utenti. La somma di tutti i costi manodopera preventivati per gli utenti può essere uguale o meno al costo manodopera preventivato della mansione associata agli utenti. 
 
-   Per ulteriori informazioni sul costo del lavoro a budget, vedere [Panoramica dei campi finanziari del Business Case](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
+  Per ulteriori informazioni sul costo manodopera preventivato, vedere [Panoramica dei campi finanziari del caso aziendale](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
 
-   Per ulteriori informazioni sulla creazione di ruoli di lavoro e sull&#39;associazione dei tassi di costo per ora con essi, vedere [Creare e gestire ruoli di lavoro](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  Per ulteriori informazioni sulla creazione di mansioni e sull&#39;associazione delle tariffe del costo orario, vedere [Creare e gestire mansioni](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 ## Rischi
 
-I rischi sono fattori che potrebbero impedire il completamento di un progetto in tempo o in budget. La definizione di questi fattori è importante per il responsabile del Portfolio o il promotore del progetto per prendere una decisione istruita sull&#39;approvazione del progetto. Questa area è abilitata per impostazione predefinita nel Business Case, ma l’amministratore di Workfront potrebbe scegliere di non visualizzarla.
+I rischi sono fattori che possono impedire a un progetto di terminare in tempo o nel rispetto del budget. La definizione di questi fattori è importante perché il responsabile del Portfolio o lo sponsor del progetto prenda una decisione informata sull’approvazione del progetto. Questa area è abilitata per impostazione predefinita nel Business Case, ma l’amministratore di Workfront potrebbe scegliere di non visualizzarla.
 
-È possibile associare un costo potenziale ai rischi che si definiscono nel caso in cui si verifichino. Il costo dei rischi di un progetto influisce sul valore netto del progetto. 
+È possibile associare un costo potenziale ai rischi che si stanno definendo nel caso in cui si verifichino. Il costo dei rischi di un progetto influisce sul valore netto del progetto. 
 
-Per ulteriori informazioni sul valore netto del progetto, consulta [Panoramica dei campi finanziari del Business Case](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
+Per ulteriori informazioni sul valore netto del progetto, vedere [Panoramica dei campi finanziari del caso aziendale](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
 
-Per ulteriori informazioni sulla creazione dei rischi, consulta  [Creare e modificare i rischi relativi ai progetti](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
+Per ulteriori informazioni sulla creazione di rischi, consulta  [Crea e modifica rischi nei progetti](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
 
-Il tuo amministratore Workfront può impostare tipi di rischio personalizzati.
+L’amministratore di Workfront può impostare tipi di rischio personalizzati.
 
-Per ulteriori informazioni sulla creazione e la modifica di tipi di rischio personalizzati, consulta [Modificare e creare tipi di rischio](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
+Per ulteriori informazioni sulla creazione e la modifica di tipi di rischio personalizzati, vedere [Modificare e creare tipi di rischio](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
 
 ## Scorecard
 
 Le scorecard misurano l’allineamento del progetto. Questa area è abilitata per impostazione predefinita nel Business Case, ma l’amministratore di Workfront potrebbe scegliere di non visualizzarla.
 
-Per ulteriori informazioni sull’applicazione di una scorecard a un progetto e sulla generazione di un punteggio di allineamento, consulta [Applicare una scorecard a un progetto e generare un punteggio di allineamento](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
+Per ulteriori informazioni sull&#39;applicazione di una scorecard a un progetto e sulla generazione di un punteggio di allineamento, vedere [Applicare una scorecard a un progetto e generare un punteggio di allineamento](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
-Per applicare una scorecard, è necessario crearne una all’amministratore Workfront. La **Scorecard** l&#39;area del Business Case viene visualizzata solo se viene creata una scorecard.
+Per applicare una scorecard, l’amministratore di Workfront deve crearne una. L&#39;area **Scorecard** del Business Case non viene visualizzata a meno che non venga creata una scorecard.
 
-Per ulteriori informazioni sulla creazione di una scorecard, vedi  [Creare una scorecard](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+Per ulteriori informazioni sulla creazione di una scorecard, consulta  [Creare una scorecard](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
 ## Moduli personalizzati
 
-Puoi allegare Forms personalizzato a un progetto durante la definizione di un caso aziendale. Questa area non è abilitata per impostazione predefinita nel Business Case. L’amministratore di Workfront deve abilitarlo per visualizzarlo nel Business Case.
+Quando definisci un caso di business, puoi allegare un Forms personalizzato a un progetto. Per impostazione predefinita, quest&#39;area non è abilitata nel Business Case. L&#39;amministratore di Workfront deve abilitarlo per la visualizzazione nel Business Case.
 
-Per ulteriori informazioni sull&#39;abilitazione delle aree del Business Case, vedere [Configurare le preferenze del progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Per ulteriori informazioni sull&#39;abilitazione delle aree del caso di business, vedere [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-Per applicare un modulo personalizzato, è innanzitutto necessario che l’amministratore di Workfront crei un modulo personalizzato.
+Per applicare un modulo personalizzato, l’amministratore di Workfront deve innanzitutto crearne uno personalizzato.
 
-Per ulteriori informazioni sulla creazione di un modulo personalizzato, vedere [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) .
+Per ulteriori informazioni sulla creazione di un modulo personalizzato, vedere [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-È possibile utilizzare moduli personalizzati per raccogliere informazioni aggiuntive non visualizzate negli altri campi del Business Case.
+È possibile utilizzare i moduli personalizzati per raccogliere informazioni aggiuntive non visualizzate negli altri campi del Business Case.
 
-Per ulteriori informazioni sull’applicazione di un modulo personalizzato, vedere [Allegare un modulo personalizzato a un business case](../../../manage-work/projects/define-a-business-case/attach-custom-form-to-business-case.md).
+Per ulteriori informazioni sull&#39;applicazione di un modulo personalizzato, vedere [Allegare un modulo personalizzato a un caso aziendale](../../../manage-work/projects/define-a-business-case/attach-custom-form-to-business-case.md).
 
 ## Riassunto del Business Case
 
-* [Panoramica del sintetico del caso aziendale](#overview-of-the-business-case-summary)
+* [Panoramica del riepilogo del caso di business](#overview-of-the-business-case-summary)
 * [Esportare il Business Case](#export-the-business-case)
 
-### Panoramica del sintetico del caso aziendale {#overview-of-the-business-case-summary}
+### Panoramica del Business Case Summary {#overview-of-the-business-case-summary}
 
-Puoi visualizzare un riepilogo delle finanze del progetto principale e se un progetto è allineato o meno con una scorecard nel pannello Riepilogo del caso commerciale, nell’angolo in alto a destra del Business Case .
+Nel pannello Riepilogo caso di business, nell&#39;angolo superiore destro del caso di business, è possibile visualizzare un riepilogo dei principali dati finanziari del progetto e se un progetto è allineato o meno con una scorecard.
 
-Non è possibile modificare il sintetico del caso aziendale. Questa è solo una rapida visualizzazione dello stato del progetto in quanto si riferisce ai campi finanziari e alla scorecard. \
+Non è possibile modificare il Riepilogo caso di business. Questa è solo una rapida visualizzazione dello stato del progetto in quanto si riferisce ai campi finanziari e alla scorecard. \
  
 
-I campi seguenti vengono visualizzati nel riepilogo del Business Case:
+Nel Riepilogo caso di business vengono visualizzati i campi riportati di seguito.
 
-* Valore netto del progetto
-* Costo preventivato del progetto
-* Costo potenziale del rischio
-* Il beneficio previsto
+* Valore netto progetto
+* Costo preventivato progetto
+* Il Costo Potenziale Del Rischio
+* Il beneficio pianificato
 * Punteggio di allineamento
 
-Per ulteriori informazioni su questi campi, consulta [Panoramica dei campi finanziari del Business Case](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
+Per ulteriori informazioni su questi campi, vedere [Panoramica dei campi finanziari del caso aziendale](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
 
 ### Esportare il Business Case {#export-the-business-case}
 
@@ -211,9 +213,9 @@ Per ulteriori informazioni su questi campi, consulta [Panoramica dei campi finan
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: made this into a standalone article, linked in the first paragraph of this section)</p>
 -->
 
-È possibile esportare il Business Case in un file PDF, nel caso sia necessario stamparlo o allegarlo a un&#39;e-mail in un formato più compatto. 
+È possibile esportare il Business Case in un file PDF, nel caso sia necessario stamparlo o allegarlo a un messaggio di posta elettronica in un formato più compatto. 
 
-Per informazioni, consulta [Esportare il Business Case di un progetto](../../../manage-work/projects/define-a-business-case/export-business-case.md).
+Per informazioni, vedere [Esportare il Business Case di un progetto](../../../manage-work/projects/define-a-business-case/export-business-case.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

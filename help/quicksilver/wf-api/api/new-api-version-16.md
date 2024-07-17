@@ -9,7 +9,7 @@ role: Developer
 exl-id: a3d8534b-fe6e-4782-baab-7c94555ea40c
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Per un determinato elemento di lavoro, ad esempio un&#39;attività, un documento
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Questo campo è stato aggiunto e mostra il numero di minuti di lavoro al giorno necessari. Ha il formato <code>YYYY-MM-DD: (number of minutes)</code>, e tiene conto del fuso orario.</p>
+            <p>Questo campo è stato aggiunto e mostra il numero di minuti di lavoro al giorno necessari. Ha il formato <code>YYYY-MM-DD: (number of minutes)</code> e prende in considerazione il fuso orario.</p>
           </li>
         </ul>
       </td>
@@ -118,7 +118,7 @@ Un oggetto assegnazione rappresenta la connessione tra un elemento di lavoro e l
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Questo campo è stato aggiunto e mostra il numero di minuti di lavoro al giorno necessari. Ha il formato <code>YYYY-MM-DD: (number of minutes)</code>, e tiene conto del fuso orario.</p>
+            <p>Questo campo è stato aggiunto e mostra il numero di minuti di lavoro al giorno necessari. Ha il formato <code>YYYY-MM-DD: (number of minutes)</code> e prende in considerazione il fuso orario.</p>
           </li>
           <li>
             <p><b>isContoured</b>
@@ -169,7 +169,7 @@ Un oggetto CustomerPreferences rappresenta l&#39;insieme di preferenze impostate
       <td>
         <ul>
           <li>
-            <p><b>name</b>
+            <p><b>nome</b>
             </p>
             <p>Sono stati aggiunti i seguenti valori possibili:</p>
             <ul>
@@ -208,12 +208,12 @@ Un oggetto ExternalSection è una pagina Web esterna incorporata in un report Wo
       <td>
         <ul>
            <li>
-            <p><b>CALCULATIONIframeURL</b>
+            <p><b>calcolaURLIframe</b>
             </p>
             <p>Questa opzione è stata aggiunta e calcola l’URL di un iFrame incorporato in un rapporto.</p>
          </li>
           <li>
-            <p><b>CALCULATIONIframeURLS</b>
+            <p><b>calcolaURLIframe</b>
             </p>
             <p>Questa funzione è stata aggiunta e calcola gli URL di iFrame incorporati in un rapporto.</p>
          </li>
@@ -235,9 +235,9 @@ Un oggetto Hour rappresenta un&#39;ora registrata da un utente su una scheda ora
       <td>
         <ul>
           <li>
-            <p><b>timesheetHourIdentifier</b>
+            <p><b>identificatoreOraScheda orario</b>
             </p>
-            <p>Aggiunta completata. Questo parametro viene utilizzato per identificare le ore create con <code>batchSave</code>. </p>
+            <p>Aggiunto. Questo parametro viene utilizzato per identificare le ore create con <code>batchSave</code>. </p>
            </li>
         </ul>
       </td>
@@ -289,7 +289,7 @@ Un oggetto Note è un commento o un aggiornamento effettuato su un oggetto Workf
       <td>
         <ul>
           <li>
-            <p><b>allegatiDocumenti</b>
+            <p><b>documenti allegati</b>
             </p>
             <p>Questo campo è stato aggiunto e rappresenta un elenco di documenti allegati al commento.</p>
           </li>
@@ -314,7 +314,7 @@ Un oggetto OpTask è comunemente noto come Issue. Un problema è un elemento di 
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Questo campo è stato aggiunto e mostra il numero di minuti di lavoro al giorno necessari. Ha il formato <code>YYYY-MM-DD: (number of minutes)</code>, e tiene conto del fuso orario.</p>
+            <p>Questo campo è stato aggiunto e mostra il numero di minuti di lavoro al giorno necessari. Ha il formato <code>YYYY-MM-DD: (number of minutes)</code> e prende in considerazione il fuso orario.</p>
           </li>
         </ul>
       </td>
@@ -324,9 +324,9 @@ Un oggetto OpTask è comunemente noto come Issue. Un problema è un elemento di 
       <td>
         <ul>
            <li>
-            <p><b>assignMultiple</b>
+            <p><b>assegnaMultiplo</b>
             </p>
-            <p>Questa azione ha aggiunto il campo <code>teamIDs</code> per supportare la funzionalità di assegnazione di più team a un’attività o a un problema.</p>
+            <p>Questa azione ha aggiunto il campo <code>teamIDs</code> per supportare la funzionalità di assegnazione di più team a un'attività o a un problema.</p>
          </li>
         </ul>
       </td>
@@ -404,7 +404,7 @@ L&#39;oggetto RichTextNote ha rimosso il flag `REPORTABLE`.
 
 ### Ruolo/Ruolo (ROLE)
 
-Un oggetto Role (ruolo) rappresenta una capacità funzionale o un insieme di competenze che un utente potrebbe acquisire, ad esempio Designer o Product Manager.
+Un oggetto Ruolo (ruolo) rappresenta una capacità funzionale o un insieme di competenze che un utente potrebbe acquisire, ad esempio Designer o Product Manager.
 
 <table>
   <col/>
@@ -439,7 +439,7 @@ Un oggetto Task rappresenta un elemento di lavoro che deve essere eseguito come 
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Questo campo è stato aggiunto e mostra il numero di minuti di lavoro al giorno necessari. Ha il formato <code>YYYY-MM-DD: (number of minutes)</code>, e tiene conto del fuso orario.</p>
+            <p>Questo campo è stato aggiunto e mostra il numero di minuti di lavoro al giorno necessari. Ha il formato <code>YYYY-MM-DD: (number of minutes)</code> e prende in considerazione il fuso orario.</p>
           </li>
         </ul>
       </td>
@@ -449,9 +449,9 @@ Un oggetto Task rappresenta un elemento di lavoro che deve essere eseguito come 
       <td>
         <ul>
            <li>
-            <p><b>assignMultiple</b>
+            <p><b>assegnaMultiplo</b>
             </p>
-            <p>Questa azione ha aggiunto il campo <code>teamIDs</code> per supportare la funzionalità di assegnazione di più team a un’attività o a un problema.</p>
+            <p>Questa azione ha aggiunto il campo <code>teamIDs</code> per supportare la funzionalità di assegnazione di più team a un'attività o a un problema.</p>
          </li>
         </ul>
       </td>
@@ -484,7 +484,7 @@ Un oggetto Timesheet rappresenta un foglio ore virtuale che consente agli utenti
            <li>
             <p><b>totalDays</b>
             </p>
-            <p>Questo parametro è stato aggiunto e memorizza la durata delle schede orario in giorni indipendentemente dalle modifiche apportate a "Ore equivalenti per Full Workday".  Ad esempio, se l’opzione Ore equivalenti è impostata su 6 e viene registrato un giorno, l’opzione Ore equivalenti viene modificata in 8 ore, <code>totalDays</code> ha ancora un valore pari a 1.</p>
+            <p>Questo parametro è stato aggiunto e memorizza la durata delle schede orario in giorni indipendentemente dalle modifiche apportate a "Ore equivalenti per Full Workday".  Ad esempio, se l'argomento Ore equivalenti è impostato su 6 e viene registrato un giorno, l'argomento Ore equivalenti viene modificato in 8 ore, <code>totalDays</code> ha ancora il valore 1.</p>
          </li>
         </ul>
       </td>
@@ -506,7 +506,7 @@ Un oggetto Timesheet rappresenta un foglio ore virtuale che consente agli utenti
           <li>
             <p><b>addJoinForNullableFields</b>
             </p>
-            <p>Questa azione è stata aggiunta e accetta una mappa di query di filtro e aggiunge <code>allowingnull</code> join per campi nullable.</p>
+            <p>Questa azione è stata aggiunta e accetta una mappa di query di filtro e aggiunge l'unione <code>allowingnull</code> per i campi nullable.</p>
          </li>
          <li>
             <p><b>disableSystemWideVisibility
@@ -514,7 +514,7 @@ Un oggetto Timesheet rappresenta un foglio ore virtuale che consente agli utenti
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>Queste azioni supportano la possibilità di condividere filtri, visualizzazioni e raggruppamenti a livello di sistema.</p><p>Per ulteriori informazioni, consulta <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Rendi filtri, viste o raggruppamenti disponibili a tutti gli utenti</a>.</p>
+            <p>Queste azioni supportano la possibilità di condividere filtri, visualizzazioni e raggruppamenti a livello di sistema.</p><p>Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Rendere disponibili filtri, visualizzazioni o raggruppamenti per tutti gli utenti</a>.</p>
          </li>
         </ul>
       </td>
@@ -538,7 +538,7 @@ Un oggetto Timesheet rappresenta un foglio ore virtuale che consente agli utenti
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>Queste azioni supportano la possibilità di condividere filtri, visualizzazioni e raggruppamenti a livello di sistema.</p><p>Per ulteriori informazioni, consulta <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Rendi filtri, viste o raggruppamenti disponibili a tutti gli utenti</a>.</p>
+            <p>Queste azioni supportano la possibilità di condividere filtri, visualizzazioni e raggruppamenti a livello di sistema.</p><p>Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Rendere disponibili filtri, visualizzazioni o raggruppamenti per tutti gli utenti</a>.</p>
          </li>
         </ul>
       </td>
@@ -579,7 +579,7 @@ Un oggetto Timesheet rappresenta un foglio ore virtuale che consente agli utenti
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>Queste azioni supportano la possibilità di condividere filtri, visualizzazioni e raggruppamenti a livello di sistema.</p><p>Per ulteriori informazioni, consulta <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Rendi filtri, viste o raggruppamenti disponibili a tutti gli utenti</a>.</p>
+            <p>Queste azioni supportano la possibilità di condividere filtri, visualizzazioni e raggruppamenti a livello di sistema.</p><p>Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Rendere disponibili filtri, visualizzazioni o raggruppamenti per tutti gli utenti</a>.</p>
          </li>
         </ul>
       </td>
@@ -621,7 +621,7 @@ Un oggetto UserNote è una notifica.
       <td>
         <ul>
           <li>
-            <p><b>myAllObjectTypesUnreadNotifications</b>
+            <p><b>allObjectTypesUnreadNotifications</b>
             </p>
             <p>È stato aggiunto il seguente valore possibile:
             <ul>
@@ -650,7 +650,7 @@ Un oggetto Work è un&#39;interfaccia comune ereditata sia da Task che da OpTask
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Questo campo è stato aggiunto e mostra il numero di minuti di lavoro al giorno necessari. Ha il formato <code>YYYY-MM-DD: (number of minutes)</code>, e tiene conto del fuso orario.</p>
+            <p>Questo campo è stato aggiunto e mostra il numero di minuti di lavoro al giorno necessari. Ha il formato <code>YYYY-MM-DD: (number of minutes)</code> e prende in considerazione il fuso orario.</p>
           </li>
         </ul>
       </td>

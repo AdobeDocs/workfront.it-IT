@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Modificare un nome utente
-description: Puoi modificare il nome utente di un utente (indirizzo e-mail) modificando il suo profilo utente.
+description: Puoi modificare il nome utente (indirizzo e-mail) di un utente modificandone il profilo utente.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -18,4 +18,4 @@ ht-degree: 0%
 
 # Modificare un nome utente
 
-Puoi modificare il nome utente di un utente (indirizzo e-mail) modificando il suo profilo utente. Per istruzioni, consulta le informazioni sul campo Indirizzo e-mail in [Modificare il profilo di un utente](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Puoi modificare il nome utente (indirizzo e-mail) di un utente modificandone il profilo utente. Per istruzioni, vedere le informazioni relative al campo Indirizzo di posta elettronica in [Modifica profilo utente](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).

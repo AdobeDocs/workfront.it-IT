@@ -3,85 +3,85 @@ product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: basecamp-classic
 title: Aggiungere una bozza a un progetto Basecamp Classic
-description: Dopo aver impostato il [!DNL Basecamp Classic] integrazione puoi iniziare ad aggiungere bozze ai progetti all’interno della [!DNL Basecamp Classic] conto.
+description: Dopo aver configurato l'integrazione di [!DNL Basecamp Classic] puoi iniziare ad aggiungere bozze ai progetti all'interno del tuo [!DNL Basecamp Classic] account.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: fbca81fb-97c4-449a-9c64-cfd902ea1e19
 source-git-commit: a6c79166c50af5bfe4c0341d003052179ce78373
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
 
-# Aggiungi una bozza a una [!DNL Basecamp Classic] Progetto
+# Aggiungi una bozza a un progetto [!DNL Basecamp Classic]
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alla funzionalità del prodotto standalone [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Copertura](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
-Dopo aver impostato il [!DNL Basecamp Classic] integrazione puoi iniziare ad aggiungere bozze ai progetti all’interno della [!DNL Basecamp Classic] conto.
+Dopo aver configurato l&#39;integrazione di [!DNL Basecamp Classic] puoi iniziare ad aggiungere bozze ai progetti all&#39;interno del tuo account [!DNL Basecamp Classic].
 
-Dopo aver aggiunto una bozza a un [!DNL Basecamp Classic] i revisori riceveranno una notifica e-mail che conterrà un collegamento per visualizzare la bozza in [!DNL Workfront Proof] e un collegamento per aprire il messaggio nelle [!DNL Basecamp Classic] conto.
+Dopo aver aggiunto una bozza a un progetto [!DNL Basecamp Classic], i revisori riceveranno una notifica e-mail contenente un collegamento per visualizzare la bozza in [!DNL Workfront Proof] e un collegamento per aprire il messaggio nel loro account [!DNL Basecamp Classic].
 
-Una volta aperto il messaggio, potranno commentare e prendere decisioni sulla prova dall&#39;interno del loro [!DNL Basecamp] conto.
+Una volta aperto il messaggio, sarà possibile aggiungere commenti e prendere decisioni sulla bozza dall&#39;interno del proprio account [!DNL Basecamp].
 
-Per ulteriori informazioni, consulta [Rivedi una bozza in [!DNL Basecamp Classic]](../../../workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md).
+Per ulteriori informazioni, vedere [Rivedere una bozza in [!DNL Basecamp Classic]](../../../workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md).
 
-## Aggiunta di una nuova bozza a un [!DNL Basecamp Classic] Progetto
+## Aggiunta di una nuova bozza a un progetto [!DNL Basecamp Classic]
 
 >[!NOTE]
 >
->Prima di aggiungere una bozza a [!DNL Basecamp Classic], assicurati che [!DNL Basecamp] l&#39;integrazione è abilitata e l&#39;utente dispone delle [!DNL Basecamp] account scelto nelle impostazioni Personali (in quanto può essere integrato con più di un [!DNL [!DNL Basecamp]] account, ma aggiungi solo bozze a uno [!DNL Basecamp] conto alla volta). Per informazioni sulle impostazioni, consulta [Impostazioni personali.](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings)
+>Prima di aggiungere una bozza a [!DNL Basecamp Classic], è necessario assicurarsi che l&#39;integrazione di [!DNL Basecamp] sia abilitata e che l&#39;account [!DNL Basecamp] pertinente sia stato scelto nelle impostazioni personali (in quanto è possibile eseguire l&#39;integrazione con più account [!DNL [!DNL Basecamp]], ma è possibile aggiungere bozze solo a un account [!DNL Basecamp] alla volta). Per informazioni sulle impostazioni, vedere [Impostazioni personali.](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings)
 
-1. Crea una bozza come descritto in [Genera bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
-1. Se desideri inviare una notifica ai revisori via e-mail, assicurati che **[!UICONTROL Informa le persone per posta]** è selezionato.\
-   Tieni presente che [!DNL Basecamp] i revisori riceveranno un [!DNL Basecamp] messaggio.
+1. Creare una bozza come descritto in [Generare bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
+1. Se desideri inviare una notifica via e-mail ai revisori, assicurati che sia selezionato **[!UICONTROL Notifica agli utenti per posta]**.\
+   I revisori di [!DNL Basecamp] riceveranno un messaggio aggiuntivo di [!DNL Basecamp].
 
-1. In **[!UICONTROL Organizza]** sezione, fai clic su **[!UICONTROL Aggiungi una bozza a un [!DNL Basecamp] progetto]**.
+1. Nella sezione **[!UICONTROL Organizza]**, fai clic su **[!UICONTROL Aggiungi bozza a un progetto [!DNL Basecamp]]**.
 
-1. In **[!UICONTROL Aggiungi a[!DNL Basecamp]]** casella visualizzata, fai clic su **[!UICONTROL Aggiornare i dati]** per eseguire la sincronizzazione con [!DNL Basecamp Classic].
+1. Nella casella **[!UICONTROL Aggiungi a[!DNL Basecamp]]** visualizzata, fare clic su **[!UICONTROL Aggiorna i dati]** per eseguire la sincronizzazione con [!DNL Basecamp Classic].
 
-1. Specifica se la bozza deve essere privata in [!DNL Basecamp] (opzione non disponibile in Nuovo [!DNL Basecamp]).
-1. Seleziona la tua [!DNL Basecamp Classic] progetto.
-1. Seleziona la tua [!UICONTROL [!DNL Basecamp Classic] Categoria messaggio].
-1. Sotto **[!UICONTROL Persone coinvolte nel progetto]**, seleziona le caselle di controllo per i revisori nel [!DNL Basecamp Classic] account da aggiungere alla bozza.\
-   I revisori vengono visualizzati nel relativo avviso ruolo/e-mail predefinito. I revisori selezionati riceveranno un messaggio in [!DNL Basecamp] per questa bozza e anche una notifica via e-mail da [!DNL Workfront Proof].
+1. Specificare se si desidera che la bozza sia privata in [!DNL Basecamp] (opzione non disponibile nel nuovo [!DNL Basecamp]).
+1. Seleziona il progetto [!DNL Basecamp Classic].
+1. Seleziona la [!UICONTROL [!DNL Basecamp Classic] categoria di messaggi].
+1. In **[!UICONTROL Persone nel progetto]**, seleziona le caselle di controllo per i revisori nel tuo account [!DNL Basecamp Classic] che desideri aggiungere alla bozza.\
+   I revisori vengono visualizzati nel loro ruolo predefinito/avviso e-mail. I revisori selezionati riceveranno un messaggio in [!DNL Basecamp] per questa bozza e una notifica e-mail da [!DNL Workfront Proof].
 
-1. Se i valori predefiniti del revisore sono stati modificati, è necessario aggiornare il [!DNL Basecamp] verranno utilizzati i dati prima dei nuovi valori predefiniti. Per aggiornare [!DNL Basecamp] fai clic su &quot;[!UICONTROL aggiorna]&quot; collegamento [!DNL Basecamp] popup [!DNL Workfront Proof]. Includi il tuo nome se desideri ricevere anche il messaggio in [!DNL Basecamp].
-1. Fai clic su **[!UICONTROL OK]**.
-1. Applica tutte le altre impostazioni richieste per la bozza (come normale) e fai clic su **[!UICONTROL Salva]** per presentare la tua prova.
+1. Se i valori predefiniti del revisore sono stati modificati, è necessario aggiornare i dati di [!DNL Basecamp] prima di utilizzare i nuovi valori predefiniti. Per aggiornare i dati di [!DNL Basecamp], fare clic sul collegamento &quot;[!UICONTROL aggiorna]&quot; nel popup [!DNL Basecamp] in [!DNL Workfront Proof]. Includere il proprio nome se si desidera ricevere il messaggio anche in [!DNL Basecamp].
+1. Fare clic su **[!UICONTROL OK]**.
+1. Applica le altre impostazioni necessarie per la bozza (come di consueto) e fai clic su **[!UICONTROL Salva]** per inviare la bozza.
 
-## Aggiunta di una bozza esistente a un [!DNL Basecamp Classic] Progetto
+## Aggiunta di una bozza esistente a un progetto [!DNL Basecamp Classic]
 
-1. In [!DNL Workfront Proof], vai al [!UICONTROL Dettagli della bozza] come descritto in  [Gestisci dettagli bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
-1. In **[!UICONTROL Flusso di lavoro]** apri la sezione **[!UICONTROL Altre opzioni di condivisione]** sezione .
+1. In [!DNL Workfront Proof], passare alla pagina [!UICONTROL Dettagli bozza], come descritto in [Gestione dettagli bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+1. Nella sezione **[!UICONTROL Workflow]**, apri la sezione **[!UICONTROL Altre opzioni di condivisione]**.
 
-1. Assicurati **[!UICONTROL URL di prova]** e **[!UICONTROL Codice di incorporamento]** sono impostati su **[!UICONTROL Abilita]**.
+1. Assicurarsi che **[!UICONTROL URL bozza]** e **[!UICONTROL Codice di incorporamento]** siano impostati su **[!UICONTROL Abilita]**.
 
-1. Fai clic su **[!UICONTROL Aggiungi una bozza a un [!DNL Basecamp] progetto]**.
-1. In [!UICONTROL Aggiungi a [!DNL Basecamp]] nella casella visualizzata, effettuare le seguenti operazioni:
+1. Fai clic su **[!UICONTROL Aggiungi bozza a un progetto [!DNL Basecamp]]**.
+1. Nella casella [!UICONTROL Aggiungi a [!DNL Basecamp]] visualizzata eseguire le operazioni seguenti:
 
-   1. Fai clic su **[!UICONTROL Aggiornare i dati]** per eseguire la sincronizzazione con [!DNL Basecamp Classic] prima di procedere.
-   1. Specifica se la bozza deve essere [!UICONTROL Privato] in [!DNL Basecamp] (opzione non disponibile in Nuovo [!DNL Basecamp]).
-   1. Seleziona la tua [!DNL Basecamp Classic] progetto.
-   1. Seleziona la tua [!UICONTROL [!DNL Basecamp Classic] Categoria messaggio].
-   1. Sotto **[!UICONTROL Persone coinvolte nel progetto]**, seleziona le caselle di controllo per i revisori nel [!DNL Basecamp Classic] account da aggiungere alla bozza.
-   1. I revisori vengono visualizzati nel relativo avviso ruolo/e-mail predefinito. I revisori selezionati ricevono un messaggio in [!DNL Basecamp] per questa bozza e anche una notifica via e-mail da [!DNL Workfront Proof].
+   1. Fare clic su **[!UICONTROL Aggiorna i dati]** per eseguire la sincronizzazione con [!DNL Basecamp Classic] prima di continuare.
+   1. Specificare se si desidera che la bozza sia [!UICONTROL Privata] in [!DNL Basecamp] (opzione non disponibile in Nuovo [!DNL Basecamp]).
+   1. Seleziona il progetto [!DNL Basecamp Classic].
+   1. Seleziona la [!UICONTROL [!DNL Basecamp Classic] categoria di messaggi].
+   1. In **[!UICONTROL Persone nel progetto]**, seleziona le caselle di controllo per i revisori nel tuo account [!DNL Basecamp Classic] che desideri aggiungere alla bozza.
+   1. I revisori vengono visualizzati nel loro ruolo predefinito/avviso e-mail. I revisori selezionati ricevono un messaggio in [!DNL Basecamp] per questa bozza e una notifica e-mail da [!DNL Workfront Proof].
 
       >[!NOTE]
       >
-      > Se i valori predefiniti del revisore sono stati modificati, è necessario aggiornare il [!DNL Basecamp] verranno utilizzati i dati prima dei nuovi valori predefiniti. Per aggiornare [!DNL Basecamp] fai clic su &quot;[!UICONTROL aggiorna]&quot; collegamento [!DNL Basecamp] popup [!DNL Workfront Proof]. Includi il tuo nome se desideri ricevere anche il messaggio in [!DNL Basecamp].
+      > Se i valori predefiniti del revisore sono stati modificati, è necessario aggiornare i dati di [!DNL Basecamp] prima di utilizzare i nuovi valori predefiniti. Per aggiornare i dati di [!DNL Basecamp], fare clic sul collegamento &quot;[!UICONTROL aggiorna]&quot; nel popup [!DNL Basecamp] in [!DNL Workfront Proof]. Includere il proprio nome se si desidera ricevere il messaggio anche in [!DNL Basecamp].
 
-1. Fai clic su **[!UICONTROL OK]**.
+1. Fare clic su **[!UICONTROL OK]**.
 
-Dopo aver aggiunto la bozza al [!DNL Basecamp Classic] vedrai ulteriori opzioni visualizzate nel [!UICONTROL Altre opzioni di condivisione] della sezione [!UICONTROL Dettagli della bozza] (per informazioni su questa pagina, consulta [Gestisci dettagli bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md). Potrai:
+Dopo aver aggiunto la bozza al progetto [!DNL Basecamp Classic], verranno visualizzate ulteriori opzioni nella sezione [!UICONTROL Altre opzioni di condivisione] della pagina [!UICONTROL Dettagli bozza] (per informazioni su questa pagina, vedi [Gestione dettagli bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md). Sarai in grado di:
 
-* Modifica le [!DNL Basecamp Classic] dettagli del progetto.
-* Passa al messaggio in [!DNL Basecamp Classic] facendo clic sull’URL del progetto nella parte inferiore della casella (l’URL include un identificatore per questa bozza).
+* Modifica i dettagli del progetto [!DNL Basecamp Classic].
+* Passare al messaggio in [!DNL Basecamp Classic] facendo clic sull&#39;URL del progetto nella parte inferiore della casella (l&#39;URL include un identificatore per questa bozza).
 
 >[!NOTE]
 >
-> Se non hai una [!DNL Basecamp Classic] sessione aperta in un&#39;altra finestra del browser, è necessario accedere al [!DNL Basecamp Classic] prima di visualizzare il messaggio in [!DNL Basecamp].
+> Se non hai una sessione [!DNL Basecamp Classic] aperta in un&#39;altra finestra del browser, devi accedere al tuo account [!DNL Basecamp Classic] prima di visualizzare il messaggio in [!DNL Basecamp].
 
-Vedi anche [Rivedi una bozza in [!DNL Basecamp Classic]](../../../workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md).
+Vedi anche [Rivedere una bozza in [!DNL Basecamp Classic]](../../../workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md).

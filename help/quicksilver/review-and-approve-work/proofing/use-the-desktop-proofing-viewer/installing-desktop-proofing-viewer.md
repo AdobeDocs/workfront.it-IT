@@ -63,11 +63,11 @@ In caso contrario, puoi seguire i passaggi seguenti.
 
 1. Per scaricare l’app, effettua una delle seguenti operazioni:
 
-   * Se utilizzi l’ambiente Produzione, fai clic su [Download di produzione Mac per il visualizzatore di bozze desktop.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.35.pkg)
-   * Se utilizzi l’ambiente di anteprima, fai clic su [Download dell&#39;anteprima di Mac per il visualizzatore di bozze desktop.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.35.pkg)
+   * Se si utilizza l&#39;ambiente di produzione, fare clic su [Download di produzione Mac per il Visualizzatore bozze desktop.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.35.pkg)
+   * Se si utilizza l&#39;ambiente di anteprima, fare clic su [Download anteprima Mac per il visualizzatore di bozze desktop.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.35.pkg)
 
 1. Aprire il file appena scaricato per avviare l&#39;installazione.
-1. Nella casella di installazione visualizzata fare clic su **Continua**, quindi fai clic su **Installa**.
+1. Nella casella di installazione visualizzata, fare clic su **Continua**, quindi su **Installa**.
 
    ![00000776.png](assets/00000776-350x244.png)
 
@@ -75,7 +75,7 @@ In caso contrario, puoi seguire i passaggi seguenti.
 
 >[!NOTE]
 >
->Se il Visualizzatore bozze desktop non viene avviato quando si apre una bozza interattiva, è probabile che l&#39;amministratore di Workfront o Workfront Proof debba configurare il Visualizzatore bozze desktop come visualizzatore predefinito per le bozze interattive, come descritto in [Impostazione utente per l’apertura di bozze non interattive nel visualizzatore bozze desktop](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-opening-non-interactive-proofs-in-the-desktop-proofing-viewer).
+>Se il Visualizzatore bozze desktop non viene avviato quando si apre una bozza interattiva, probabilmente l&#39;amministratore di Workfront o Workfront Proof dovrà configurare il Visualizzatore bozze desktop come visualizzatore predefinito per le bozze interattive, come descritto in [Impostazione utente per l&#39;apertura di bozze non interattive nel Visualizzatore bozze desktop](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-opening-non-interactive-proofs-in-the-desktop-proofing-viewer).
 
 ## Installare il Visualizzatore bozze desktop in Windows
 
@@ -83,20 +83,20 @@ Se l’amministratore di Workfront o Workfront Proof ha scaricato l’app sulla 
 
 >[!TIP]
 >
->È possibile utilizzare la riga di comando per installare Desktop Proofing Viewer eseguendo il comando `Workfront Proof Setup 2.1.34.exe" /S`
+>È possibile utilizzare la riga di comando per installare Desktop Proofing Viewer eseguendo `Workfront Proof Setup 2.1.34.exe" /S`
 
 1. Per scaricare l’app, effettua una delle seguenti operazioni:
 
-   * Nell’ambiente di produzione, fai clic su [Download di Windows Production per il Visualizzatore bozze desktop.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.35.exe)
-   * Nell’ambiente di anteprima, fai clic su [Download dell&#39;anteprima di Windows per il visualizzatore di bozze desktop](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.35.exe)
+   * Nell&#39;ambiente di produzione, fare clic su [Download di produzione Windows per il Visualizzatore bozze desktop.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.35.exe)
+   * Nell&#39;ambiente di anteprima, fare clic su [Scarica anteprima Windows per il Visualizzatore bozze desktop](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.35.exe)
 
 1. Aprire il file appena scaricato per avviare l&#39;installazione.
 1. Nella casella di installazione visualizzata, aprire il file appena scaricato per avviare l&#39;installazione.
 
    ![Screen_Shot_2018-05-02_at_10.56.55_AM.png](assets/screen-shot-2018-05-02-at-10.56.55-am-350x271.png)
 
-1. Nella casella di avviso di protezione visualizzata fare clic su **Esegui**. Il Visualizzatore bozze desktop viene installato ed eseguito automaticamente.
+1. Nella casella di avviso di protezione visualizzata, fare clic su **Esegui**. Il Visualizzatore bozze desktop viene installato ed eseguito automaticamente.
 1. (Condizionale) Se installi l’applicazione utilizzando Internet Explorer, aggiorna la pagina di avvio nel browser dopo l’installazione dell’applicazione.
 1. Apri una bozza interattiva dall’area Documenti.
 
-Dopo aver installato il Visualizzatore bozze desktop, tutte le bozze interattive vengono aperte nel Visualizzatore bozze desktop. Se il Visualizzatore bozze desktop non viene avviato quando si apre una bozza interattiva, è probabile che l&#39;amministratore di Workfront o Workfront Proof debba configurare il Visualizzatore bozze desktop come visualizzatore predefinito per le bozze interattive, come descritto in [Impostazione utente per l’apertura di bozze non interattive nel visualizzatore bozze desktop](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs).
+Dopo aver installato il Visualizzatore bozze desktop, tutte le bozze interattive vengono aperte nel Visualizzatore bozze desktop. Se il Visualizzatore bozze desktop non viene avviato quando si apre una bozza interattiva, probabilmente l&#39;amministratore di Workfront o Workfront Proof dovrà configurare il Visualizzatore bozze desktop come visualizzatore predefinito per le bozze interattive, come descritto in [Impostazione utente per l&#39;apertura di bozze non interattive nel Visualizzatore bozze desktop](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs).

@@ -9,7 +9,7 @@ exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
 source-git-commit: 72511f98e05c160e2ca69def8aa3a929ed62bb40
 workflow-type: tm+mt
 source-wordcount: '522'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -43,12 +43,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per il progetto con le autorizzazioni per Gestire le finanze</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per il progetto con le autorizzazioni per Gestire le finanze</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Abilita l&#39;opzione di sostituzione delle tariffe di fatturazione a livello di società
 
@@ -57,14 +57,14 @@ Quando una società è associata a un progetto e questa opzione è abilitata, le
 Quando un utente ricalcola manualmente i dati finanziari sul progetto, vengono applicate eventuali modifiche alle tariffe di fatturazione della società. Anche i calcoli dei ricavi storici vengono sostituiti a meno che non vengano contrassegnati come fatturati.
 
 1. Vai a un progetto.
-1. Fai clic su **Altro** menu ![](assets/qs-more-icon-on-an-object.png) accanto al nome del progetto nell’intestazione, quindi fai clic su **Modifica**.
-1. In **Finanza** , abilita **Consenti tariffe di fatturazione a livello di società per sostituire le tariffe di fatturazione a livello di progetto**.
+1. Fai clic sul menu **Altro** ![](assets/qs-more-icon-on-an-object.png) accanto al nome del progetto nell&#39;intestazione, quindi fai clic su **Modifica**.
+1. Nella sezione **Finanza**, abilita **Consenti tariffe di fatturazione a livello di società per sostituire le tariffe di fatturazione a livello di progetto**.
 
    >[!CAUTION]
    >
-   >L’abilitazione di questa opzione sostituisce i calcoli dei ricavi storici a meno che non siano contrassegnati come fatturati. Puoi conservare i calcoli dei ricavi storici creando un record di fatturazione. Per ulteriori informazioni, consulta l’articolo [Crea record fatturazione](../../../manage-work/projects/project-finances/create-billing-records.md)
+   >L’abilitazione di questa opzione sostituisce i calcoli dei ricavi storici a meno che non siano contrassegnati come fatturati. Puoi conservare i calcoli dei ricavi storici creando un record di fatturazione. Per ulteriori informazioni, vedere l&#39;articolo [Creare record fatturazione](../../../manage-work/projects/project-finances/create-billing-records.md)
 
-1. Clic **Salva modifiche**.
+1. Fai clic su **Salva modifiche**.
 
 ## Aggiornare le tariffe di fatturazione a livello aziendale e applicarle a un progetto
 
@@ -74,13 +74,13 @@ Dopo aver abilitato l&#39;opzione di sostituzione delle tariffe di fatturazione 
 >
 >Per aggiornare le tariffe di fatturazione a livello aziendale, gli utenti devono avere accesso alle Aziende nel proprio livello di accesso.
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione**.
-1. Clic **Aziende**.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione**.
+1. Fai clic su **Aziende**.
 1. Fare clic sul nome della società associata al progetto per la quale è stata abilitata la sostituzione delle tariffe di fatturazione a livello di società.
-1. Clic **Tariffe di fatturazione** nel pannello a sinistra.
-1. Aggiornare il **Tariffa di fatturazione della società** e le date di inizio/fine per una mansione esistente, quindi premere Invio.
+1. Fai clic su **Tariffe di fatturazione** nel pannello a sinistra.
+1. Aggiornare la **tariffa di fatturazione aziendale** e le date di inizio/fine per una mansione esistente, quindi premere Invio.
 
-   Per aggiungere una nuova tariffa di fatturazione della società con data effettiva, selezionare una tariffa di fatturazione per la mansione e fare clic su **Modifica**. Per ulteriori informazioni sulle tariffe di fatturazione aziendali effettive per data, consulta [Sostituisci le tariffe di fatturazione dei ruoli a livello aziendale](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
+   Per aggiungere una nuova tariffa di fatturazione della società con data effettiva, selezionare una tariffa di fatturazione per la mansione e fare clic su **Modifica**. Per ulteriori informazioni sulle tariffe di fatturazione della società valide per la data, vedere [Sostituire le tariffe di fatturazione dei ruoli a livello di società](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 1. Per aggiornare le tariffe aziendali per uno o più progetti, effettuare una delle seguenti operazioni:
 
@@ -88,11 +88,11 @@ Dopo aver abilitato l&#39;opzione di sostituzione delle tariffe di fatturazione 
 
       1. Consente di passare a un elenco di progetti.
       1. Seleziona la casella di controllo in linea con i progetti da aggiornare.
-      1. Clic **Modifica**.
-      1. Nella sezione Settings, abilita **Ricalcolare Costi E Ricavi** opzione.
-      1. Clic **Salva modifiche**.
+      1. Fai clic su **Modifica**.
+      1. Nella sezione Impostazioni abilitare l&#39;opzione **Ricalcola costi e ricavi**.
+      1. Fai clic su **Salva modifiche**.
 
    * Progetto singolo:
 
       1. Vai al progetto per il quale hai abilitato la sostituzione delle tariffe di fatturazione a livello di società.
-      1. Fai clic su **Altro** menu ![](assets/qs-more-icon-on-an-object.png) accanto al nome del progetto nell’intestazione, quindi fai clic su **Ricalcola dati finanziari**.
+      1. Fai clic sul menu **Altro** ![](assets/qs-more-icon-on-an-object.png) accanto al nome del progetto nell&#39;intestazione, quindi fai clic su **Ricalcola dati finanziari**.

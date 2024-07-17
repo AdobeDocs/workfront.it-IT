@@ -42,12 +42,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Accesso di visualizzazione o accesso successivo all’oggetto associato alla richiesta di accesso o approvazione </p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Accesso di visualizzazione o accesso successivo all’oggetto associato alla richiesta di accesso o approvazione </p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Richieste di accesso
 
@@ -66,43 +66,43 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 Per ricordare a un altro utente di approvare la richiesta di accesso per un oggetto:
 
-1. Fai clic su **Home** icona ![](assets/home-icon-30x29.png) nell’angolo in alto a sinistra di Adobe Workfront.
+1. Fai clic sull&#39;icona **Home** ![](assets/home-icon-30x29.png) nell&#39;angolo superiore sinistro di Adobe Workfront.
 
    >[!NOTE]
    >
    >L’amministratore di Workfront potrebbe apportare le seguenti modifiche all’icona Home nel tuo ambiente:
    >
    >* Sostituiscilo con un’immagine personalizzata per illustrare la tua organizzazione. In questo caso, l’icona avrà un aspetto diverso da quello mostrato in questo articolo.
-   >* Sostituisci la pagina collegata con un’altra pagina. In questo caso, fai clic su **Menu principale** ![](assets/main-menu-icon.png) nell’angolo superiore destro della pagina, quindi fai clic su **Home**.
+   >* Sostituisci la pagina collegata con un’altra pagina. In questo caso, fai clic sul **menu principale** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro della pagina, quindi fai clic su **Home**.
 
-1. In **Elenco lavori** Area, vai a **Approvazioni che ho inviato** raggruppamento.
+1. Nell&#39;area **Elenco lavori**, vai al raggruppamento **Approvazioni inviate**.
 
-1. Seleziona un **Richiesta di accesso** approvazione nella sezione Work List (Elenco di lavoro).
+1. Selezionare una **richiesta di accesso** approvazione nel Work List (Elenco di lavoro).
 
    Verrà aperta la richiesta di accesso a destra di Elenco lavori.
 
    ![](assets/access-request-pending-approval-nwe-350x104.png)
 
-1. Clic **Ricorda** nell’angolo in alto a destra del pannello a destra per inviare una notifica all’approvatore.
+1. Fai clic su **Ricorda** nell&#39;angolo superiore destro del pannello di destra per inviare una notifica all&#39;approvatore.
 
 ## Documenti
 
-1. Fai clic su **Home** icona ![](assets/home-icon-30x29.png) nell’angolo in alto a sinistra di Adobe Workfront.
+1. Fai clic sull&#39;icona **Home** ![](assets/home-icon-30x29.png) nell&#39;angolo superiore sinistro di Adobe Workfront.
 
    >[!NOTE]
    >
    >L’amministratore di Workfront potrebbe apportare le seguenti modifiche all’icona Home nel tuo ambiente:
    >
    >* Sostituiscilo con un’immagine personalizzata per illustrare la tua organizzazione. In questo caso, l’icona avrà un aspetto diverso da quello mostrato in questo articolo.
-   >* Sostituisci la pagina collegata con un’altra pagina. In questo caso, fai clic su **Menu principale** ![](assets/main-menu-icon.png) nell’angolo superiore destro della pagina, quindi fai clic su **Home**.
+   >* Sostituisci la pagina collegata con un’altra pagina. In questo caso, fai clic sul **menu principale** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro della pagina, quindi fai clic su **Home**.
 
-1. In **Elenco lavori** Area, vai a **Approvazioni che ho inviato** raggruppamento.
+1. Nell&#39;area **Elenco lavori**, vai al raggruppamento **Approvazioni inviate**.
 
-1. Fai clic su un **Documento** approvazione nella sezione Work List (Elenco di lavoro).
+1. Fare clic su un&#39;approvazione **Documento** nell&#39;Elenco lavori.
 
    Verrà aperta l&#39;approvazione del documento a destra di Elenco lavori.\
    ![](assets/document-350x232.png)
 
-1. Clic **Gestisci approvazioni** nell’angolo superiore destro del pannello di destra.
-1. Fai clic su **Ricorda** per inviare una notifica all&#39;approvatore.\
+1. Fai clic su **Gestisci approvazioni** nell&#39;angolo superiore destro del pannello di destra.
+1. Fai clic sull&#39;icona **Ricorda** per inviare una notifica all&#39;approvatore.\
    ![reminiscenza.png](assets/remind-350x41.png)

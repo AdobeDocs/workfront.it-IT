@@ -20,7 +20,7 @@ In qualità di amministratore di Workfront, puoi creare notifiche di promemoria 
 
 Le notifiche di promemoria generano e-mail inviate agli utenti in base a criteri specificati. Le notifiche di promemoria ricordano agli utenti di un’azione la necessità di eseguire per un’attività, un problema, un progetto o una scheda orario.
 
-Dopo aver creato le notifiche di promemoria, gli utenti possono associarle manualmente agli elementi di lavoro, ad esempio progetti, attività, problemi e schede orario. Per informazioni, consulta [Allegare una notifica di promemoria a un oggetto](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md).
+Dopo aver creato le notifiche di promemoria, gli utenti possono associarle manualmente agli elementi di lavoro, ad esempio progetti, attività, problemi e schede orario. Per informazioni, vedere [Allegare una notifica di promemoria a un oggetto](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md).
 
 <!--
 DRAFTED IN FLARE:
@@ -59,7 +59,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-*Per maggiori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,23 +71,23 @@ In alternativa, puoi utilizzare l’e-mail predefinita inclusa nella notifica de
 
 Se desideri personalizzare l’e-mail di promemoria, devi creare un modello e-mail e allegarlo alla notifica del promemoria.
 
-Per informazioni su come creare un modello e-mail, consulta [Configurare i modelli e-mail](../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md).
+Per informazioni su come creare un modello di posta elettronica, vedere [Configurare i modelli di posta elettronica](../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md).
 
 ## Creare una notifica di promemoria
 
 {{step-1-to-setup}}
 
-1. Clic **E-mail** > **Notifiche** > **Avvisi di Promemoria**.
+1. Fai clic su **Email** > **Notifiche** > **Notifiche promemoria**.
 
    ![](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
 
-1. Clic **Nuovo Avviso di Promemoria**.
+1. Fai clic su **Nuova notifica promemoria**.
 
 1. Nell&#39;elenco a discesa fare clic sul tipo di oggetto che si desidera associare alla notifica di promemoria.
 
-   Ad esempio, se desideri allegare una notifica di promemoria a una scheda orario, fai clic su **Scheda orario**.
+   Ad esempio, se si desidera allegare una notifica di promemoria a una scheda orario, fare clic su **Scheda orario**.
 
-1. In **Nuovo Avviso di Promemoria** nella casella visualizzata, specificare le seguenti informazioni.
+1. Nella casella **Nuova notifica promemoria** visualizzata, specificare le informazioni seguenti.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -99,7 +99,7 @@ Per informazioni su come creare un modello e-mail, consulta [Configurare i model
      </tr> 
      <tr> 
       <td role="rowheader">Periodo idoneo</td> 
-      <td> <p>Specifica il numero di ore, giorni lavorativi, giorni (giorni di calendario), settimane o mesi prima o dopo la data nella <strong>Tempistica</strong> campo.</p> <p><b>NOTA</b>:  
+      <td> <p>Specifica il numero di ore, giorni lavorativi, giorni (giorni di calendario), settimane o mesi prima o dopo la data nel campo <strong>Timing</strong>.</p> <p><b>NOTA</b>:  
         <ul> 
          <li> <p>Le notifiche di promemoria iniziano 24 ore dopo la data specificata e una volta soddisfatti tutti i criteri.</p> </li> 
          <li> <p>Le notifiche di promemoria per progetti, attività e problemi si attivano ogni notte a mezzanotte, ora di montagna negli Stati Uniti. Tutti gli oggetti idonei per una notifica di promemoria da quel giorno attivano una notifica agli utenti designati poco dopo tale momento.</p> </li> 
@@ -122,14 +122,14 @@ Per informazioni su come creare un modello e-mail, consulta [Configurare i model
       <td role="rowheader">Criteri</td> 
       <td> <p>Selezionare i criteri per qualificare la notifica di promemoria da programmare. Le notifiche di promemoria non vengono pianificate a meno che la selezione dei criteri non sia soddisfatta.</p> <p>A seconda del tipo di oggetto selezionato nel passaggio 4, sono disponibili le seguenti opzioni di criteri:</p> 
        <ul> 
-        <li><strong>Incompleto nei progetti correnti:</strong> <i>(Disponibile per promemoria attività e problemi)</i> La notifica di promemoria è pianificata per essere inviata solo quando lo stato dell'oggetto a cui è associata la notifica di promemoria non è Completo e lo stato del progetto è Corrente.</li> 
-        <li><strong>Tutto nei progetti correnti:</strong> <i>(Disponibile per promemoria attività e problemi)</i> La notifica di promemoria è pianificata per essere inviata indipendentemente dallo stato dell'oggetto e solo quando lo stato del progetto a cui è associata la notifica di promemoria è Corrente.</li> 
-        <li><strong>Progetti non Completati:</strong> <i>(Disponibile per i promemoria dei progetti)</i> La notifica di promemoria è pianificata per essere inviata quando lo stato del progetto è diverso da Completo.</li> 
-        <li><strong>Tutti i progetti:</strong> <i>(Disponibile per i promemoria dei progetti)</i> La notifica di promemoria è pianificata per essere inviata indipendentemente dallo stato del progetto.</li> 
-        <li><strong>Schede orario aperte:</strong> <i>(Disponibile per i promemoria delle schede orario)</i> La notifica di promemoria è pianificata per essere inviata quando lo stato della scheda orario è Aperto.</li> 
-        <li><strong>Schede orario inviate:</strong> <i>(Disponibile per i promemoria delle schede orario)</i> La notifica di promemoria è pianificata per essere inviata quando lo stato della scheda orario è Inviato.</li> 
-        <li><strong>Scheda orario aperta o meno di 40 ore a settimana:</strong> <i>(Disponibile per i promemoria delle schede orario)</i> La notifica di promemoria è pianificata per essere inviata quando lo stato della scheda orario è Aperto o quando la scheda orario ha registrato meno di 40 ore.</li> 
-        <li><strong>Modello e-mail:</strong> Dall’elenco a discesa, seleziona un modello e-mail da allegare al promemoria.<br>Per informazioni su come creare un modello e-mail, consulta <a href="../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md" class="MCXref xref">Configurare i modelli e-mail</a>.</li> 
+        <li><strong>Incompleto nei progetti correnti:</strong> <i>(Disponibile per promemoria attività e problemi)</i> La notifica promemoria è pianificata per essere inviata solo quando lo stato dell'oggetto a cui è associata la notifica promemoria non è Completo e lo stato del progetto è Corrente.</li> 
+        <li><strong>Tutti i progetti correnti:</strong> <i>(Disponibile per promemoria attività e problemi)</i> La notifica promemoria è pianificata per essere inviata indipendentemente dallo stato dell'oggetto e solo quando lo stato del progetto a cui è associata la notifica promemoria è Corrente.</li> 
+        <li><strong>Progetti incompleti:</strong> <i>(Disponibile per i promemoria del progetto)</i> La notifica del promemoria è programmata per essere inviata quando lo stato del progetto è tutt'altro che Completo.</li> 
+        <li><strong>Tutti i progetti:</strong> <i>(Disponibile per i promemoria del progetto)</i> La notifica del promemoria è pianificata per essere inviata indipendentemente dallo stato del progetto.</li> 
+        <li><strong>Schede orario aperte:</strong> <i>(Disponibile per i promemoria delle schede orario)</i> La notifica del promemoria è pianificata per essere inviata quando lo stato della scheda orario è Aperto.</li> 
+        <li><strong>Schede orario inviate:</strong> <i>(Disponibile per i promemoria delle schede orario)</i> La notifica del promemoria è pianificata per essere inviata quando lo stato della scheda orario è Inviato.</li> 
+        <li><strong>Apri scheda orario o meno di 40 ore alla settimana:</strong> <i>(Disponibile per i promemoria della scheda orario)</i> La notifica del promemoria è pianificata per essere inviata quando lo stato della scheda orario è Aperto o quando la scheda orario ha registrato meno di 40 ore.</li> 
+        <li><strong>Modello e-mail:</strong> dall'elenco a discesa, selezionare un modello e-mail da allegare al promemoria.<br>Per informazioni su come creare un modello di posta elettronica, fare riferimento a <a href="../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md" class="MCXref xref">Configurare i modelli di posta elettronica</a>.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -157,7 +157,7 @@ Per informazioni su come creare un modello e-mail, consulta [Configurare i model
 
 Quando la condizione viene soddisfatta sull’elemento a cui è allegata la notifica del promemoria, viene attivata una notifica e-mail all’utente definito nella notifica del promemoria.
 
-Per ulteriori informazioni sulla ricezione delle notifiche di promemoria, vedere [Notifiche promemoria](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications) sezione in [Notifiche Adobe Workfront](../../../workfront-basics/using-notifications/wf-notifications.md).
+Per ulteriori informazioni sulla ricezione di notifiche di promemoria, vedere la sezione [Notifiche di promemoria](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications) in [Notifiche di Adobe Workfront](../../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Consegna notifiche promemoria test
 
@@ -170,9 +170,9 @@ Per attivare manualmente una notifica di promemoria:
 
 {{step-1-to-setup}}
 
-1. Clic **Sistema** > **Diagnostica** nell&#39;angolo inferiore sinistro di Workfront.
+1. Fare clic su **Sistema** > **Diagnostica** nell&#39;angolo inferiore sinistro di Workfront.
 
-1. Clic **Invia Avvisi di Promemoria** e attendi la conferma, nella parte superiore della schermata, dell’invio.
+1. Fai clic su **Invia notifiche promemoria** e attendi la conferma nella parte superiore della schermata dell&#39;invio.
 
    Gli utenti designati nella notifica del promemoria ricevono un messaggio e-mail.
 

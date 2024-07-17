@@ -9,8 +9,8 @@ role: Developer
 exl-id: 3606b6c3-b373-47ea-9cb5-813bd3af8da7
 source-git-commit: c547ff323ad9e43472074964ac365447755e4aa5
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 0%
+source-wordcount: '284'
+ht-degree: 2%
 
 ---
 
@@ -65,7 +65,7 @@ server {
 }
 ```
 
-Per ulteriori informazioni, vedere [Documentazione di NGiNX per ngx_http_ssl_module](https://nginx.org/en/docs/http/ngx_http_ssl_module.html).
+Per ulteriori informazioni, consulta la documentazione di [NGiNX per ngx_http_ssl_module](https://nginx.org/en/docs/http/ngx_http_ssl_module.html).
 
 ### Apache
 
@@ -96,7 +96,7 @@ Per ulteriori informazioni, consulta
 
 | Ambiente WF | Nome comune certificato | Oggetto certificato (DN) |
 | -- | -- | -- |
-| Produzione | *.prod.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.prod.eventsubscriptions.workfront.com |
+| Production | *.prod.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.prod.eventsubscriptions.workfront.com |
 | Anteprima | *.preview.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.preview.eventsubscriptions.workfront.com |
 | Sandbox 1 | *.sandbox.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.sandbox.eventsubscriptions.workfront.com |
 | Sandbox 2 | *.sandbox.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.sandbox.eventsubscriptions.workfront.com |

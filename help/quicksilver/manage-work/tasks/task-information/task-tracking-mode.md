@@ -20,7 +20,7 @@ ht-degree: 2%
 
 È possibile regolare l&#39;impostazione della modalità Tracciamento di un&#39;attività durante la creazione o la modifica di un&#39;attività per controllare come e quando vengono visualizzati gli indicatori di stato di avanzamento di un&#39;attività. Adobe Workfront mostra i flag di stato di avanzamento quando configuri alcune impostazioni per il tracciamento dell’avanzamento delle attività.
 
-Per ulteriori informazioni sullo stato di avanzamento delle attività, vedere [Panoramica sullo stato di avanzamento dell’attività](../../../manage-work/tasks/task-information/task-progress-status.md).
+Per ulteriori informazioni sullo stato di avanzamento delle attività, vedere [Panoramica sullo stato di avanzamento delle attività](../../../manage-work/tasks/task-information/task-progress-status.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -38,7 +38,7 @@ Per ulteriori informazioni sullo stato di avanzamento delle attività, vedere [P
 
 ## Opzioni della modalità di tracciamento {#tracking-mode-options}
 
-In qualità di proprietario di un&#39;attività o di project manager, è possibile selezionare il modo in cui Workfront indica lo stato di avanzamento di ogni attività. Per informazioni su come impostare la modalità di tracciamento per le attività, consulta [Imposta modalità di verifica per le attività](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md).
+In qualità di proprietario di un&#39;attività o di project manager, è possibile selezionare il modo in cui Workfront indica lo stato di avanzamento di ogni attività. Per informazioni su come impostare la modalità di verifica per le attività, vedere [Impostare la modalità di verifica per le attività](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md).
 
 Puoi scegliere tra le seguenti opzioni:
 
@@ -71,7 +71,7 @@ Esistono le seguenti eccezioni:
 
 >[!IMPORTANT]
 >
->Se si seleziona l&#39;opzione per il completamento automatico delle attività, l&#39;attività viene contrassegnata come completata quando viene ricalcolata l&#39;ora del progetto. Se il tipo di aggiornamento del progetto è impostato su Automatico o Automatico e su Modifica, la sequenza temporale del progetto viene calcolata quotidianamente. Per informazioni sui ricalcoli della sequenza temporale nei progetti, consulta [Ricalcolare i timeline dei progetti](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+>Se si seleziona l&#39;opzione per il completamento automatico delle attività, l&#39;attività viene contrassegnata come completata quando viene ricalcolata l&#39;ora del progetto. Se il tipo di aggiornamento del progetto è impostato su Automatico o Automatico e su Modifica, la sequenza temporale del progetto viene calcolata quotidianamente. Per informazioni sui ricalcoli della sequenza temporale nei progetti, vedere [Ricalcolare le sequenze temporali dei progetti](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 >
 >L&#39;ora della data di completamento effettiva è la mezzanotte del giorno in cui la sequenza temporale viene calcolata automaticamente. L’ora utilizzata per generare questa marca temporale è il fuso orario del sistema definito dall’amministratore di Workfront nella sezione Informazioni cliente di Configurazione. Per informazioni sull&#39;impostazione del fuso orario del sistema, vedere [Configurare le informazioni di base per il sistema](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 

@@ -17,7 +17,7 @@ ht-degree: 3%
 
 Questa pagina descrive piccoli aggiornamenti all’aspetto di varie aree dell’applicazione Adobe Workfront che sono stati apportati nell’arco temporale della versione 23.1. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione almeno 2 settimane dopo il rilascio in anteprima.
 
-Per un elenco di tutte le modifiche disponibili con la versione 23.1, consulta [Panoramica sulla versione 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 23.1, consulta la [Panoramica sulla versione 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
 ## Elenchi aggiornati nell’area Configurazione > Interfaccia
 
@@ -43,7 +43,7 @@ Oltre a un aspetto aggiornato, nella casella Nuovo modello sono disponibili anch
 * È stata rimossa la casella di controllo &quot;È attivo&quot; per eliminare la ridondanza con le opzioni del menu Altro nella pagina del modello.
 * È stata rimossa la sezione Commenti per eliminare la ridondanza con la sezione Aggiornamenti.
 
-Per ulteriori informazioni, consulta [Modificare i modelli di progetto](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
+Per ulteriori informazioni, vedere [Modifica modelli di progetto](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 ## Nuovo look and feel per Workfront per l’integrazione Jira
 
@@ -55,7 +55,7 @@ Per garantire un’esperienza più coerente all’interno di Jira, abbiamo aggio
 
 La funzionalità di Workfront per l’integrazione con Jira non è cambiata.
 
-Per ulteriori informazioni sull’integrazione di Workfront per Jira, consulta [Adobe Workfront per Jira](/help/quicksilver/workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md).
+Per ulteriori informazioni sull&#39;integrazione di Workfront per Jira, vedere [Adobe Workfront per Jira](/help/quicksilver/workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md).
 
 ## Selezione intelligente degli utenti durante l’aggiornamento dei campi utente
 
@@ -83,7 +83,7 @@ Quando aggiungi utenti ai seguenti campi, vengono visualizzate ulteriori informa
 
 Ora, quando aggiungi un utente ai campi utente elencati sopra, oltre al nome dell’utente e all’avatar, vengono visualizzati anche il Ruolo principale e l’e-mail. Questo aiuta a distinguere tra più utenti con nomi simili o identici.
 
-Per ulteriori informazioni e per visualizzare una dimostrazione video di una funzione simile, consulta &quot;Selezione intelligente degli utenti per i ruoli di progetto nelle aree Modifica e Dettagli&quot; in [22.4 Miglioramenti al progetto](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
+Per ulteriori informazioni e per visualizzare una dimostrazione video di una funzione simile, vedere &quot;Selezione intelligente degli utenti per i ruoli di progetto nelle aree Modifica e Dettagli&quot; in [22.4 Miglioramenti al progetto](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
 
 ## Aggiornamenti look and feel alla pagina delle notifiche
 
@@ -99,7 +99,7 @@ L’esperienza con filtro beta è stata aggiunta agli elenchi di progetti, attiv
 
 Questa pagina registra quando i nuovi filtri vengono aggiunti ad altre aree dell’applicazione Adobe Workfront durante il periodo di rilascio 23.1.
 
-Per informazioni sull’utilizzo dei nuovi filtri, consulta [Creare o modificare filtri in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+Per informazioni sull&#39;utilizzo dei nuovi filtri, vedere [Creare o modificare filtri in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 ### Elenchi aggiornati con i nuovi filtri
 

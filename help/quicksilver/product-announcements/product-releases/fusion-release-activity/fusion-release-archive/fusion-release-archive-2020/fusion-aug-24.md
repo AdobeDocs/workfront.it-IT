@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti apportati ad Adobe Workfront Fusion la settimana del 17 agosto 2020.
 
-Per un elenco di tutte le modifiche recenti, vedi [Attività di rilascio di Adobe Workfront Fusion](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Per un elenco di tutte le modifiche recenti, vedere [Attività di Adobe Workfront Fusion release](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedi [Aggiornamenti di manutenzione per Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
+Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedere la pagina [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
 
 ## Conversione più semplice di oggetti con dati personalizzati nel modulo &quot;Misc Action&quot; di Workfront
 
@@ -32,7 +32,7 @@ Quando si seleziona l&#39;azione convertToProject o convertToTask, le nuove funz
 * È ora disponibile un nuovo elenco di campi standard di Project (o Task) che è possibile compilare o mappare per il nuovo oggetto. In precedenza, questo modulo richiedeva una configurazione avanzata. Se hai utilizzato questo modulo in precedenza, la configurazione avanzata è ancora disponibile in Impostazioni avanzate.
 * Nuovo parametro: Copia dati personalizzati. Se attivati, tutti i campi personalizzati con valori sull&#39;oggetto originale e presenti sul nuovo oggetto vengono automaticamente copiati nel nuovo oggetto.
 
-Per ulteriori informazioni, consulta [Moduli Adobe Workfront](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Per ulteriori informazioni, vedere [Moduli Adobe Workfront](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 ## Carica un documento in una cartella specifica nel modulo Carica documento di Workfront.
 
@@ -40,7 +40,7 @@ Adesso, quando si carica un documento in un progetto, un&#39;attività o un prob
 
 In precedenza, il caricamento diretto in una cartella non era disponibile.
 
-Per ulteriori informazioni, consulta [Moduli Adobe Workfront](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Per ulteriori informazioni, vedere [Moduli Adobe Workfront](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 ## Sono ora disponibili moduli e CRM Hubspot
 

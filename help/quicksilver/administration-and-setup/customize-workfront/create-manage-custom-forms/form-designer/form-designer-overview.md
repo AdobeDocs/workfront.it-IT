@@ -27,23 +27,23 @@ Il nuovo progettista di moduli dispone di una nuova area di lavoro in stile area
 
 Un pulsante nella parte superiore sia del nuovo progettista di moduli che del generatore di moduli legacy consente di passare da una versione all’altra.
 
-![Passa a nuovo progettista modulo](assets/switch-views.png)
+![Passa a nuova finestra di progettazione moduli](assets/switch-views.png)
 
 ## Nuova funzionalità disponibile con il progettista del modulo
 
 Con il nuovo form designer è stata aggiunta la possibilità di:
 
-* **Copiare un campo**: ora puoi copiare i campi esistenti facendo clic sull’icona Copia sui campi direttamente dall’area di lavoro.
+* **Copiare un campo**: è ora possibile copiare i campi esistenti facendo clic sull&#39;icona Copia nei campi direttamente dall&#39;area di lavoro.
 
-* **Modificare le dimensioni per il testo descrittivo**: ora puoi assegnare dimensioni piccole, medie o grandi ai campi Testo descrittivo. È inoltre possibile utilizzarli nella stessa riga con altri campi.
+* **Modifica le dimensioni per il testo descrittivo**: ora puoi assegnare dimensioni piccole, medie o grandi ai campi Testo descrittivo. È inoltre possibile utilizzarli nella stessa riga con altri campi.
 
-* **Usa una sezione predefinita**: se il creatore del modulo non ha aggiunto una sezione nella parte superiore del modulo, nell’area di lavoro è ora visibile una sezione predefinita che consente agli utenti di regolare le autorizzazioni per i campi ai quali non è assegnata alcuna sezione personalizzata.
+* **Utilizza una sezione predefinita**: se il creatore del modulo non ha aggiunto una sezione nella parte superiore del modulo, nell&#39;area di lavoro è ora visibile una sezione predefinita, in modo che gli utenti possano modificare le autorizzazioni per i campi a cui non è assegnata alcuna sezione personalizzata.
 
   >[!NOTE]
   >
   >La sezione Default non è visibile all&#39;interno degli oggetti dopo che il modulo è stato associato all&#39;oggetto.
 
-* **Utilizzare un campo di ricerca esterno**: questo tipo di campo chiama un’API esterna e restituisce i valori come opzioni in un campo a discesa.
+* **Utilizza un campo di ricerca esterno**: questo tipo di campo chiama un&#39;API esterna e restituisce i valori come opzioni in un campo a discesa.
 
 ## Funzionalità rimossa dal progettista del modulo
 

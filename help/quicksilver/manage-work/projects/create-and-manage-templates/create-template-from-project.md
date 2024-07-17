@@ -9,7 +9,7 @@ role: User
 exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
 source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '478'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Dopo aver salvato un progetto esistente come modello, è possibile utilizzare il
 >
 >Quando si salva un progetto come modello, le date effettive delle attività e del progetto non vengono salvate come modello.
 >
->Un modello e le relative attività non dispongono di date effettive, ma di un&#39;indicazione del giorno (a partire dal quale potrebbe iniziare il progetto futuro) in cui un&#39;attività potrebbe iniziare e del giorno in cui l&#39;attività potrebbe dover essere completata. Quando si utilizzano i modelli per creare i progetti futuri, i progetti riceveranno le date effettive. Per informazioni, consulta [Creare un progetto](../create-projects/create-project.md).
+>Un modello e le relative attività non dispongono di date effettive, ma di un&#39;indicazione del giorno (a partire dal quale potrebbe iniziare il progetto futuro) in cui un&#39;attività potrebbe iniziare e del giorno in cui l&#39;attività potrebbe dover essere completata. Quando si utilizzano i modelli per creare i progetti futuri, i progetti riceveranno le date effettive. Per informazioni, vedere [Creare un progetto](../create-projects/create-project.md).
 
 ## Requisiti di accesso
 
@@ -52,17 +52,17 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizzare o accedere ad autorizzazioni superiori per un progetto </p> <p>Dopo la creazione, si ottengono le autorizzazioni di gestione per il modello</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Visualizzare o accedere ad autorizzazioni superiori per un progetto </p> <p>Dopo la creazione, si ottengono le autorizzazioni di gestione per il modello</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Crea modello da progetto
 
 1. Vai al progetto che desideri salvare come modello.
-1. Fai clic su **Altro** menu ![](assets/qs-more-icon-on-an-object.png), quindi **Salva come modello**.
+1. Fai clic sul menu **Altro** ![](assets/qs-more-icon-on-an-object.png), quindi **Salva come modello**.
 1. Specificare le informazioni seguenti per il modello:
 
    <table style="table-layout:auto"> 
@@ -82,7 +82,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
       <td> <p>Selezionare una delle opzioni seguenti:</p> 
        <ul> 
         <li> <p><strong>Sì</strong>: altri utenti possono trovare il modello e allegarlo ai progetti.</p> </li> 
-        <li><strong>No</strong>: altri utenti non possono trovare il modello e allegarlo ai progetti.</li> 
+        <li><strong>No</strong>: altri utenti non possono trovare il modello e non possono allegarlo ai progetti.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -92,21 +92,21 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
     </tbody> 
    </table>
 
-1. Clic **Gestisci Forms** per rimuovere o riordinare i moduli. Per informazioni su come rimuovere e riordinare i moduli personalizzati nel modello, vedere [Moduli personalizzati](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
+1. Fare clic su **Gestisci Forms** per rimuovere o riordinare i moduli. Per informazioni su come rimuovere e riordinare i moduli personalizzati nel modello, vedere [Moduli personalizzati](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
    ![](assets/save-as-template-first-step-350x159.png)
 
-1. Clic **Passaggio successivo.**
-1. In **Opzioni** , selezionare la casella di controllo accanto alle informazioni che si desidera cancellare dal modello.
+1. Fai clic su **Passaggio successivo.**
+1. Nella sezione **Opzioni**, seleziona la casella di controllo accanto alle informazioni che desideri cancellare dal modello.
 
    ![](assets/save-as-template-options-step-350x109.png)
 
-1. Clic **Passaggio successivo.**
-1. In **Escludi** , selezionare le attività da escludere dal progetto.
+1. Fai clic su **Passaggio successivo.**
+1. Nella sezione **Escludi** selezionare le attività che si desidera escludere dal progetto.
 
    ![](assets/save-as-template-exclude-350x205.png)
 
-1. Clic **Termina e salva il modello.**
+1. Fare clic su **Fine e salva modello.**
 
    Il modello viene ora visualizzato nell’elenco dei modelli disponibili e può essere allegato a un progetto esistente o utilizzato per crearne uno nuovo.
 

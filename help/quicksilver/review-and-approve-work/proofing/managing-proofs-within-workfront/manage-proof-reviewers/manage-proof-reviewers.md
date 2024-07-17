@@ -17,6 +17,6 @@ ht-degree: 0%
 
 # Gestire i revisori delle bozze
 
-* [Configurare le impostazioni di accesso e abbonamento per una bozza](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
-* [Condividere una bozza in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
+* [Configurare le impostazioni di accesso e sottoscrizione per una bozza](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
+* [Condividi una bozza in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
 * [Inviare messaggi e-mail ai revisori su una bozza](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/send-email-messages-to-users-proof.md)

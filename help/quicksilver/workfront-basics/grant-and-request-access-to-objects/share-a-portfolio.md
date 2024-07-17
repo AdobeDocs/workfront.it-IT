@@ -14,22 +14,22 @@ ht-degree: 0%
 
 # Condividere un portfolio
 
-Il tuo amministratore Adobe Workfront può concederti l’accesso per visualizzare o modificare i portfolio durante l’assegnazione del livello di accesso. Per poter accedere alla modifica di un portfolio è necessario disporre di una licenza Pianificazione. Per ulteriori informazioni, consulta [Concedere l’accesso ai portfolio](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md).
+Il tuo amministratore Adobe Workfront può concederti l’accesso per visualizzare o modificare i portfolio durante l’assegnazione del livello di accesso. Per poter accedere alla modifica di un portfolio è necessario disporre di una licenza Pianificazione. Per ulteriori informazioni, vedere [Concedere l&#39;accesso ai portafogli](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md).
 
-Oltre al livello di accesso che ti è stato concesso, puoi anche ricevere le autorizzazioni per visualizzare o gestire portfolio specifici da parte di utenti che possono condividerli con te. Per ulteriori informazioni sui livelli di accesso e sulle autorizzazioni, consulta [Funzionamento congiunto dei livelli di accesso e delle autorizzazioni](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+Oltre al livello di accesso che ti è stato concesso, puoi anche ricevere le autorizzazioni per visualizzare o gestire portfolio specifici da parte di utenti che possono condividerli con te. Per ulteriori informazioni sui livelli di accesso e sulle autorizzazioni, vedere [Funzionamento dei livelli di accesso e delle autorizzazioni](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 Le autorizzazioni sono specifiche per un elemento in Workfront e definiscono quali azioni gli utenti possono intraprendere su tale elemento.
 
 ## Considerazioni sulla condivisione dei portfolio
 
-Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica delle autorizzazioni di condivisione sugli oggetti](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle autorizzazioni di condivisione per gli oggetti](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 >[!NOTE]
 >
 >Un amministratore di Workfront può aggiungere o rimuovere autorizzazioni per qualsiasi elemento del sistema, per tutti gli utenti, senza esserne il proprietario.
 
 * Per impostazione predefinita, l’autore di un portfolio dispone delle autorizzazioni di gestione.
-* Puoi condividere un portfolio singolarmente oppure più portfolio contemporaneamente. Condividere un portfolio è identico a condividere altri oggetti in Workfront. Per informazioni, consulta [Condividere un oggetto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* Puoi condividere un portfolio singolarmente oppure più portfolio contemporaneamente. Condividere un portfolio è identico a condividere altri oggetti in Workfront. Per informazioni, vedere [Condividere un oggetto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
 * È possibile concedere autorizzazioni di visualizzazione o gestione solo ai Portfoli.
 
@@ -37,7 +37,7 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica delle a
 
 * Quando si condivide un portfolio, per impostazione predefinita gli utenti ereditano le stesse autorizzazioni per tutti gli oggetti figlio associati al portfolio.
 
-  Per ulteriori informazioni sulla gerarchia degli oggetti in Workfront, consulta [Comprendere gli oggetti in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+  Per ulteriori informazioni sulla gerarchia degli oggetti in Workfront, vedere [Informazioni sugli oggetti in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 * Puoi rimuovere le autorizzazioni ereditate dal Portfolio. Per ulteriori informazioni sulla rimozione delle autorizzazioni dagli oggetti, vedere [Rimuovere le autorizzazioni dagli oggetti](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
@@ -55,8 +55,8 @@ Nella tabella seguente vengono indicate le autorizzazioni che è possibile conce
 | Aggiungere o rimuovere un programma&#42; | ✓ |   |
 | Aggiungere o rimuovere un progetto&#42; | ✓ |   |
 | Approvare un progetto | ✓ |   |
-| Ottimizzazione del Portfolio&#42; | ✓ |   |
-| Aggiungi una cartella documenti&#42; | ✓ | ✓ |
+| Ottimizzazione Portfolio&#42; | ✓ |   |
+| Aggiungi cartella documenti&#42; | ✓ | ✓ |
 | Aggiungi un documento | ✓ | ✓ |
 | Aggiornamenti/commenti | ✓ | ✓ |
 | Condividi | ✓ | ✓ |

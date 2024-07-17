@@ -17,12 +17,12 @@ Il generatore di campi nell’area di lavoro Reporting consente di creare campi 
 
 ## Prerequisiti
 
-Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per ulteriori informazioni, consulta [Reporting Canvas beta: panoramica](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per ulteriori informazioni, vedere [Reporting Canvas beta: overview](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Creare un campo formula
 
-1. Creare o passare a un blocco di tabella, come descritto in [Aggiungere o modificare un blocco di tabella nell’area di lavoro rapporti](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
-1. Nell’intestazione della tabella del rapporto, fai clic su **Modifica** icona ![](assets/edit-icon.png).
+1. Creare o passare a un blocco di tabella, come descritto in [Aggiungere o modificare un blocco di tabella nell&#39;area di lavoro Reporting](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
+1. Nell&#39;intestazione della tabella del report, fare clic sull&#39;icona **Modifica** ![](assets/edit-icon.png).
 
    ![](assets/edit-icon-table-header-350x71.png)
 
@@ -30,14 +30,14 @@ Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per u
    >
    >Se la tabella è stata appena creata e non sono ancora stati aggiunti campi, fare clic sul pulsante Modifica al centro della tabella.
 
-1. Clic **Nuovo +** nella parte superiore della **Campi** nel pannello di destra.
-1. Nella nuova pagina visualizzata, fai clic su **Modifica** icona ![](assets/edit-icon.png) accanto al nome del campo nell&#39;angolo in alto a sinistra per modificare il nome del campo formula.
-1. Trascina **Funzioni** o **Campi** dal pannello a sinistra al generatore di campi al centro per aggiungerli al campo formula.
+1. Fai clic su **Nuovo +** nella parte superiore dell&#39;elenco **Campi** nel pannello di destra.
+1. Nella nuova pagina visualizzata, fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png) accanto al nome del campo nell&#39;angolo in alto a sinistra per modificare il nome del campo formula.
+1. Trascina **Funzioni** o **Campi** dal pannello di sinistra al generatore di campi al centro per aggiungerli al campo formula.
 
 
    >[!TIP]
    >
-   >Quando si crea il campo formula, il **Anteprima campo** sulla destra vengono visualizzati esempi del campo risultante.
+   >Durante la creazione del campo formula, l&#39;**Anteprima campo** a destra visualizza esempi del campo risultante.
 
    Ogni funzione contiene un numero di rettangoli punteggiati vuoti che verranno utilizzati come argomenti nel calcolo di un risultato. Questi possono essere compilati immettendo testo statico o numeri, trascinando un campo dal pannello di sinistra (utilizzando il valore del campo nel calcolo) o trascinando un’altra funzione (creando una funzione nidificata). Le funzioni possibili includono:
 
@@ -67,4 +67,4 @@ Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per u
 
    {style="table-layout:auto"}
 
-1. Fai clic su **Torna indietro** nell&#39;angolo in alto a sinistra dello schermo per tornare alla tabella.
+1. Fai clic sulla freccia **Indietro** nell&#39;angolo in alto a sinistra dello schermo per tornare alla tabella.

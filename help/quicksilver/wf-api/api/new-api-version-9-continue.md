@@ -9,14 +9,14 @@ role: Developer
 exl-id: 0af97c16-e6a7-4796-92e0-4c2d9751c845
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 25%
+source-wordcount: '153'
+ht-degree: 24%
 
 ---
 
 # Novità dell&#39;API versione 9 (continua)
 
-Questa lista è la seconda metà di una lista più grande. La prima metà può essere localizzata al seguente indirizzo: [Novità dell’API versione 9](../../wf-api/api/new-api-version-9.md). L’elenco degli aggiornamenti della versione 9 è disponibile all’indirizzo [Aggiornamenti a API versione 9](../../wf-api/api/new-api-version-9-updates.md).
+Questa lista è la seconda metà di una lista più grande. La prima metà può essere individuata in [Novità dell&#39;API versione 9](../../wf-api/api/new-api-version-9.md). Troverai l&#39;elenco degli aggiornamenti alla versione 9 all&#39;indirizzo [Aggiornamenti all&#39;API versione 9](../../wf-api/api/new-api-version-9-updates.md).
 
 ## PortalSection
 

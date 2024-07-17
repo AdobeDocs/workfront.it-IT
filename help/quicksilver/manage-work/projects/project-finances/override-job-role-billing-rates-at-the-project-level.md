@@ -1,31 +1,31 @@
 ---
 product-area: projects
 navigation-topic: financials
-title: Ignora tassi di fatturazione ruolo lavoro a livello di progetto
-description: In qualità di project manager, puoi specificare il tasso di fatturazione per un ruolo di lavoro in un progetto specifico. Questo tasso di fatturazione a livello di progetto sostituisce il tasso di fatturazione a livello di sistema per questo ruolo di lavoro. Workfront utilizza il tasso di fatturazione a livello di progetto del ruolo di processo per calcolare i ricavi, invece di utilizzare il tasso di fatturazione a livello di sistema.
+title: Sostituisci tariffe di fatturazione mansione a livello di progetto
+description: In qualità di project manager, puoi specificare la tariffa di fatturazione per una mansione in un progetto specifico. Questa tariffa di fatturazione a livello di progetto sostituisce la tariffa di fatturazione a livello di sistema per questa mansione. Per calcolare i ricavi, Workfront utilizza la tariffa di fatturazione a livello di progetto della mansione, anziché la tariffa di fatturazione a livello di sistema.
 author: Alina
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
 
-# Ignora tassi di fatturazione ruolo lavoro a livello di progetto
+# Sostituisci tariffe di fatturazione mansione a livello di progetto
 
-In qualità di project manager, puoi specificare il tasso di fatturazione per un ruolo di lavoro in un progetto specifico. Questo tasso di fatturazione a livello di progetto sostituisce il tasso di fatturazione a livello di sistema per questo ruolo di lavoro. Workfront utilizza il tasso di fatturazione a livello di progetto del ruolo di processo per calcolare i ricavi, invece di utilizzare il tasso di fatturazione a livello di sistema.
+In qualità di project manager, puoi specificare la tariffa di fatturazione per una mansione in un progetto specifico. Questa tariffa di fatturazione a livello di progetto sostituisce la tariffa di fatturazione a livello di sistema per questa mansione. Per calcolare i ricavi, Workfront utilizza la tariffa di fatturazione a livello di progetto della mansione, anziché la tariffa di fatturazione a livello di sistema.
 
-Questo articolo descrive come ignorare le tariffe di fatturazione dei ruoli di lavoro del sistema per un progetto.
+Questo articolo descrive come sostituire le tariffe di fatturazione dei ruoli di sistema per un progetto.
 
-Per informazioni generali sull&#39;override dei tassi di fatturazione dei ruoli di lavoro per i progetti e sul calcolo dei ricavi dei progetti, consulta [Panoramica sulla priorità dei tassi di fatturazione dei ruoli di lavoro e sul calcolo dei ricavi per un progetto](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Per informazioni generali sulla sostituzione delle tariffe di fatturazione dei ruoli per i progetti e sul calcolo dei ricavi del progetto, vedere [Panoramica sulla sostituzione delle tariffe di fatturazione dei ruoli e sul calcolo dei ricavi per un progetto](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
-Per ulteriori informazioni sul ruolo del lavoro utilizzato per calcolare i ricavi del progetto, consulta la sezione &quot;Informazioni sui calcoli dei ricavi per le attività in base alle assegnazioni di utenti e ruoli&quot; nell’articolo [Panoramica di fatturazione e ricavi](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Per ulteriori informazioni sulla mansione utilizzata per calcolare i ricavi sul progetto, vedere la sezione &quot;Informazioni sui calcoli dei ricavi per le attività basate sulle assegnazioni di utenti e ruoli&quot; nell&#39;articolo [Panoramica su fatturazione e ricavi](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 >[!NOTE]
 >
->Nel caso dei ricavi effettivi, i tassi di fatturazione applicati alle ore aggiunte a un record di fatturazione contrassegnato come Fatturato non devono essere influenzati dalle sostituzioni dei tassi di fatturazione che si verificano dopo la fatturazione del record di fatturazione.
+>Nel caso del reddito effettivo, le tariffe di fatturazione applicate alle ore aggiunte a una fatturazione contrassegnata come Fatturata, non devono essere influenzate dalle sostituzioni delle tariffe di fatturazione che si verificano dopo la fatturazione della fatturazione.
 
 ## Requisiti di accesso
 
@@ -36,7 +36,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
@@ -44,68 +44,68 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>Piano </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Modifica l’accesso a progetti e dati finanziari</p> <p>Accesso amministrativo per i ruoli di lavoro</p> <p>Nota: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modifica accesso a progetti e dati finanziari</p> <p>Accesso amministrativo per le mansioni</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestisci le autorizzazioni per il progetto che include Modifica dati finanziari </p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestisci le autorizzazioni per il progetto che includono Modifica dati finanziari </p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
-## Ignora tassi di fatturazione ruolo lavoro a livello di progetto
+## Sostituisci tariffe di fatturazione mansione a livello di progetto
 
-È possibile ignorare il tasso di fatturazione di un ruolo di lavoro in un progetto nei seguenti modi:
+Puoi sovrascrivere la tariffa di fatturazione di una mansione su un progetto nei seguenti modi:
 
-* Una volta, selezionando un nuovo tasso per il ruolo di lavoro.\
-   Il nuovo tasso viene utilizzato per l’intera durata del progetto, per calcolare i ricavi.
+* Una volta, selezionando una nuova tariffa per la mansione.\
+  Il nuovo tasso viene utilizzato per l&#39;intera durata del progetto, per calcolare le entrate.
 
-* Più volte, selezionando diversi nuovi tassi per specifici intervalli di date.\
-   È possibile utilizzare un tasso diverso per ogni intervallo di date specificato.
+* Più volte, selezionando diverse nuove tariffe per intervalli di date specifici.\
+  È possibile utilizzare un tasso diverso durante ogni intervallo di date specificato.
 
 >[!TIP]
 >
->Non è possibile ignorare le tariffe di fatturazione utente per un progetto.
+>Non puoi sovrascrivere le tariffe di fatturazione degli utenti per un progetto.
 
-Per ignorare un tasso di fatturazione per un progetto:
+Per sostituire una tariffa di fatturazione per un progetto:
 
-1. Passa al progetto per il quale desideri ignorare le tariffe di fatturazione.
-1. Fai clic su **Tassi di fatturazione** nel pannello a sinistra. Potrebbe essere necessario fare clic **Mostra altro**.
-1. Fai clic su **Aggiungi tasso di fatturazione** > **Nuovo tasso di fatturazione**.
+1. Vai al progetto per il quale desideri sostituire le tariffe di fatturazione.
+1. Fai clic su **Tariffe di fatturazione** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro**.
+1. Fai clic su **Aggiungi tariffa di fatturazione** > **Nuova tariffa di fatturazione**.
 
-   Viene visualizzata la casella Nuovo tasso di fatturazione.
+   Viene visualizzata la casella Nuova tariffa di fatturazione.
 
-1. In **Ruolo** selezionare il ruolo del processo per il quale si desidera modificare il tasso di fatturazione.
+1. Nel campo **Mansione**, selezionare la mansione per la quale si desidera modificare la tariffa di fatturazione.
 
    ![](assets/override-billing-rate-on-project-nwe-350x310.png)
 
-   La **Tasso di fatturazione predefinito** visualizza la frequenza a livello di sistema per questo ruolo di processo.
+   Nel campo **Tariffa di fatturazione predefinita** viene visualizzata la tariffa a livello di sistema per questa mansione.
 
-1. In **Tassi di fatturazione 1** immettere l&#39;override del tasso di fatturazione una tantum, quindi fare clic su **Salva** per ignorare una volta il tasso di fatturazione
+1. Nel campo **Tariffe di fatturazione 1**, inserisci la sostituzione della tariffa di fatturazione una tantum, quindi fai clic su **Salva** per sostituire la tariffa di fatturazione una volta
 
    Oppure
 
-   Fai clic su **Aggiungi tasso** per aggiungere più sostituzioni del tasso di fatturazione.
+   Fai clic su **Aggiungi tariffa** per aggiungere altre sostituzioni della tariffa di fatturazione.
 
-1. (Condizionale) Se stai aggiungendo più di una sostituzione del tasso di fatturazione, specifica le seguenti informazioni:
+1. (Condizionale) Se stai aggiungendo più di una sostituzione della tariffa di fatturazione, specifica le seguenti informazioni:
 
-   * **Tassi di fatturazione 1**: il valore del tasso di fatturazione dall&#39;inizio del progetto alla prima data della prima sostituzione. In genere si tratta della stessa quantità di **Frequenza predefinita**.
-   * **Data di inizio**: si tratta della data in cui termina il tasso predefinito.
-   * **Data di fine**: la data in cui termina l&#39;override del nuovo tasso di fatturazione.
+   * **Tariffe di fatturazione 1**: il valore della tariffa di fatturazione dall&#39;inizio del progetto alla prima data della prima sostituzione. In genere si tratta della stessa quantità della **Tariffa predefinita**.
+   * **Data inizio**: è la data in cui termina la tariffa predefinita.
+   * **Data di fine**: la data in cui termina la nuova sostituzione della tariffa di fatturazione.
 
-   ![new_billing_rate_with_adjustment_date.png](assets/new-billing-rate-with-adjustment-dates-350x266.png)
+   ![new_billing_rate_with_adjustment_dates.png](assets/new-billing-rate-with-adjustment-dates-350x266.png)
 
-1. Il fuso orario per le date selezionate viene visualizzato nella parte inferiore della casella Nuovo tasso di fatturazione. Questo è il fuso orario associato all’istanza Workfront, come mostrato nell’area Informazioni cliente di Configurazione. Per informazioni, consulta [Configurare le informazioni di base per il sistema](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
-1. Workfront applica la percentuale di ruolo di sostituzione alle ore che si verificano durante i periodi di tempo specificati durante il calcolo dei ricavi del progetto.
-1. Non dovrebbero esserci divari tra i fotogrammi temporali di due tassi di sostituzione. La **Data di inizio** di un tasso di sostituzione deve essere il giorno immediatamente successivo al **Data di fine** della data di sostituzione precedente.
+1. Il fuso orario per le date selezionate viene visualizzato nella parte inferiore della casella Nuova tariffa di fatturazione. Si tratta del fuso orario associato all’istanza Workfront, come mostrato nell’area Informazioni cliente di Configura. Per informazioni, vedere [Configurare le informazioni di base per il sistema](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+1. Workfront applica il tasso di ruolo di sostituzione alle ore che si verificano durante gli intervalli di tempo specificati durante il calcolo dei ricavi sul progetto.
+1. Non devono esserci intervalli tra gli intervalli di tempo di due tassi di sostituzione. La **Data inizio** di una tariffa di sostituzione deve essere il giorno immediatamente successivo alla **Data fine** della data di sostituzione precedente.
 
-1. Non è possibile specificare una data di inizio per il primo tasso di sostituzione, né una data di fine per l&#39;ultimo tasso di sostituzione.\
-   È consigliabile utilizzare il tasso predefinito per il primo tasso di sostituzione.\
-   Workfront presuppone che il primo tasso di sostituzione sia applicato per tutte le ore con una data precedente alla data di fine della prima sostituzione e che l&#39;ultimo tasso di sostituzione sia applicato per tutte le ore con una data successiva alla data di inizio dell&#39;ultima sostituzione.\
-   Se viene registrata un&#39;ora prima della data di inizio prevista del progetto, viene utilizzata la prima tariffa di fatturazione.\
-   Se dopo la data di completamento pianificata del progetto viene registrata un’ora, viene utilizzato l’ultimo tasso di fatturazione.
+1. Non è possibile specificare una data di inizio per il primo tasso di sostituzione né una data di fine per l&#39;ultimo tasso di sostituzione.\
+   È consigliabile utilizzare la tariffa predefinita per la prima tariffa di sostituzione.\
+   Workfront presuppone che il primo tasso di sostituzione venga applicato a tutte le ore con una data precedente alla data di fine della prima sostituzione e che l’ultimo tasso di sostituzione venga applicato a tutte le ore con una data successiva alla data di inizio dell’ultima sostituzione.\
+   Se viene registrata un’ora prima della data di inizio pianificata del progetto, viene utilizzata la prima tariffa di fatturazione.\
+   Se viene registrata un’ora dopo la data di completamento pianificata del progetto, viene utilizzata l’ultima tariffa di fatturazione.
 
 1. Fai clic su **Salva**.

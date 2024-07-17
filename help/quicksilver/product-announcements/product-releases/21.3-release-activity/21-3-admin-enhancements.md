@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti per gli amministratori apportati con la versione 21.3 all’ambiente di anteprima. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana del 21 luglio 2021.
 
-Per un elenco di tutte le modifiche disponibili con la versione 21.3, consulta [Panoramica sulla versione 21.3](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 21.3, vedere [Panoramica sulla versione 21.3](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Blueprint disponibili in produzione con la versione 21.3
 
@@ -25,9 +25,9 @@ La funzionalità blueprint sarà generalmente disponibile con la versione di pro
 
 Blueprint fornisce elementi di base per aiutarti a creare un sistema di gestione del lavoro che cresce con te. Gli amministratori di sistema possono sfogliare il catalogo dei blueprint e installare modelli di progetto pronti all’uso.
 
-Per ulteriori informazioni, consulta [Panoramica dei blueprint](../../../administration-and-setup/blueprints/blueprints-overview.md).
+Per ulteriori informazioni, consulta [Panoramica blueprint](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
-Questa funzione è ora inclusa nel [Modelli di progetto nella nuova esperienza Workfront](https://one.workfront.com/s/learningpath4/project-templates-in-the-new-workfront-experience-MCGLS7GRNLDZDFPF6AEOGIDZFDG4) percorso di apprendimento in Workfront One.
+Questa funzionalità è ora inclusa nei [modelli di progetto nella nuova esperienza Workfront](https://one.workfront.com/s/learningpath4/project-templates-in-the-new-workfront-experience-MCGLS7GRNLDZDFPF6AEOGIDZFDG4) nel percorso di apprendimento di Workfront One.
 
 ## Novità per gli amministratori di gruppi: creare e gestire gli stati di un gruppo a qualsiasi livello
 
@@ -43,13 +43,13 @@ Anche gli amministratori di Workfront possono eseguire queste operazioni (per tu
 
 In precedenza, questa funzionalità era disponibile solo per i gruppi di primo livello.
 
-Per ulteriori informazioni, consulta [Gestire gli stati dei gruppi](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).
+Per ulteriori informazioni, vedere [Gestire gli stati dei gruppi](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).
 
 ## Novità per gli amministratori: creare un modulo personalizzato per i record di fatturazione
 
 Ora puoi migliorare il modo in cui gli utenti acquisiscono le informazioni di fatturazione creando un modulo personalizzato per il record di fatturazione. Gli utenti possono allegare il modulo personalizzato a un record di fatturazione, compilarlo ed eseguire rapporti che includono le informazioni contenute nel modulo.
 
-Per informazioni sulla creazione di moduli personalizzati, consulta [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Per informazioni sulla creazione di moduli personalizzati, vedere [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-Per informazioni sull’associazione di un modulo personalizzato per record fatturazione a un progetto, consulta [Aggiungere un modulo personalizzato a un oggetto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+Per informazioni su come allegare un modulo personalizzato per record fatturazione a un progetto, vedere [Aggiungere un modulo personalizzato a un oggetto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Questa pagina descrive piccoli aggiornamenti all’aspetto di varie aree dell’applicazione Adobe Workfront che sono stati apportati nell’arco temporale della versione 22.2. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione almeno 2 settimane dopo il rilascio in anteprima.
 
-Per un elenco di tutte le modifiche disponibili con la versione 22.2, consulta [Panoramica sulla versione 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 22.2, vedere [Panoramica sulla versione 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Pagina Approvazioni aggiornata
 
@@ -35,7 +35,7 @@ Le pagine Approvazione nelle seguenti aree ora hanno un aspetto moderno, in line
 
 >[!NOTE]
 >
-Versione di anteprima: 24 febbraio 2022; versione di produzione stimata: rollout graduale a partire dal 9 marzo, con disponibilità per tutti i clienti entro il 18 marzo 2022.
+>Versione di anteprima: 24 febbraio 2022; versione di produzione stimata: rollout graduale a partire dal 9 marzo, con disponibilità per tutti i clienti entro il 18 marzo 2022.
 
 Abbiamo migliorato le prestazioni dell’area documenti in Workfront. La pagina Documenti ora viene caricata molto più rapidamente.
 
@@ -55,7 +55,7 @@ Le barre degli strumenti degli elenchi e dei rapporti seguenti hanno ora un aspe
 
 >[!NOTE]
 >
-La barra degli strumenti per questi stessi rapporti nelle dashboard è stata aggiornata anche in Produzione con il settimanale [Aggiornamento di manutenzione](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) il 3 marzo 2022.
+>La barra degli strumenti per questi stessi rapporti nelle dashboard è stata aggiornata anche in Produzione con l’aggiornamento settimanale di [manutenzione](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) il 3 marzo 2022.
 
 * Rapporti sul progetto
 * Report attività

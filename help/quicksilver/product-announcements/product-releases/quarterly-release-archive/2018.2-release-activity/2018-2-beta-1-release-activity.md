@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Attività sulla versione 2018.2 Beta 1
-description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.2 Beta 1. La funzionalità è stata resa disponibile nell’ambiente di anteprima il 22 marzo 2018. Sarà disponibile nell’ambiente di produzione a giugno 2018.
+title: Attività sulla versione 2018.2 di Beta 1
+description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.2 di Beta 1. La funzionalità è stata resa disponibile nell’ambiente di anteprima il 22 marzo 2018. Sarà disponibile nell’ambiente di produzione a giugno 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,24 +14,24 @@ ht-degree: 0%
 
 ---
 
-# Attività sulla versione 2018.2 Beta 1
+# Attività sulla versione 2018.2 di Beta 1
 
-Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.2 Beta 1. La funzionalità è stata resa disponibile nell’ambiente di anteprima il 22 marzo 2018. Sarà disponibile nell’ambiente di produzione a giugno 2018.
+Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.2 di Beta 1. La funzionalità è stata resa disponibile nell’ambiente di anteprima il 22 marzo 2018. Sarà disponibile nell’ambiente di produzione a giugno 2018.
 
 >[!IMPORTANT]
 >
 >La funzionalità descritta in questa pagina è soggetta a modifiche prima della disponibilità nell’ambiente di produzione.
 
-Per un elenco di tutte le modifiche apportate in 2018.2, consulta [Panoramica sull’attività della versione 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+Per un elenco di tutte le modifiche apportate in 2018.2, consulta [Panoramica delle attività sulla versione 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
-La versione 2018.2 Beta 1 contiene i seguenti miglioramenti:
+La versione 2018.2 di Beta 1 contiene i seguenti miglioramenti:
 
-* [Modificare le date delle attività nel diagramma di Gantt](#modify-task-dates-in-the-gantt-chart)
+* [Modifica date attività nel Diagramma di Gantt](#modify-task-dates-in-the-gantt-chart)
 * [Accedere al diagramma di Gantt del progetto dalla scheda Aggiornamenti](#access-the-project-gantt-chart-from-the-updates-tab) (temporaneamente rimosso)
 
-* [Sono stati reintrodotti diversi collegamenti ai documenti nell&#39;elenco dei documenti](#various-links-re-introduced-to-documents-on-the-document-list)
-* [Miglioramenti nella visualizzazione utente nella Programmazione delle risorse](#user-view-improvements-in-the-resource-planner)
-* [Nuova esperienza nell’elenco dei progetti](#new-project-list-experience)
+* [Vari collegamenti reintrodotti ai documenti nell&#39;elenco dei documenti](#various-links-re-introduced-to-documents-on-the-document-list)
+* [Miglioramenti alla visualizzazione utente nella Programmazione delle risorse](#user-view-improvements-in-the-resource-planner)
+* [Nuova esperienza elenco progetti](#new-project-list-experience)
 * [Nuova scheda Cerca aggiornamenti](#new-look-for-updates-tab)
 * [Miglioramenti per dispositivi mobili](#mobile-improvements)
 
@@ -41,7 +41,7 @@ Ora puoi trascinare il campo delle attività per modificare l’Inizio pianifica
 
 Prima di questa modifica, era possibile modificare le date delle attività solo nell&#39;elenco delle attività o a livello di attività.
 
-Per ulteriori informazioni, consulta [Aggiorna informazioni nell&#39;elenco delle attività Diagramma di Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+Per ulteriori informazioni, vedere [Aggiornare le informazioni nell&#39;elenco delle attività Diagramma di Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
 
 ## Accedere al diagramma di Gantt del progetto dalla scheda Aggiornamenti {#access-the-project-gantt-chart-from-the-updates-tab}
 
@@ -53,9 +53,9 @@ Per ulteriori informazioni, consulta [Aggiorna informazioni nell&#39;elenco dell
 
 Prima di questa modifica, il collegamento Timeline progetto apriva il Grafico di Gantt legacy.
 
-Per ulteriori informazioni, consulta [Panoramica sulla data di conferma](../../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+Per ulteriori informazioni, vedere [Panoramica sulla data di conferma](../../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
-Per ulteriori informazioni, consulta [Panoramica di Portfoli Optimizer](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+Per ulteriori informazioni, vedere [Panoramica di Portfolio Optimizer](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 ## Sono stati reintrodotti diversi collegamenti ai documenti nell&#39;elenco dei documenti {#various-links-re-introduced-to-documents-on-the-document-list}
 
@@ -95,7 +95,7 @@ La seguente funzionalità è stata temporaneamente disabilitata in Pianificazion
 
 Prima di questi miglioramenti, è stato segnalato che la pianificazione delle risorse era lenta da caricare e che erano state notate incongruenze nei dati visualizzati. Grazie a questi miglioramenti, ora dovrebbero essere eliminati.
 
-Per ulteriori informazioni sulle aree della Programmazione delle risorse, vedi [Panoramica sulla navigazione in Programmazione delle risorse](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Per ulteriori informazioni sulle aree della Programmazione delle risorse, vedere [Panoramica sulla navigazione di Programmazione delle risorse](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 <!--
 <p dir="ltr" data-mc-conditions="QuicksilverOrClassic.Draft mode">To participate in our current beta program and give us feedback on the functionality of the Resource Planner, see <a href="../../../../product-announcements/betas/resource-planner-performance-beta.md" class="MCXref xref">Resource Planner performance beta </a></p>
@@ -119,10 +119,10 @@ Nella maggior parte dei casi, le modifiche riguardano la velocità e l&#39;effic
 
 Le seguenti funzioni sono state temporaneamente disattivate negli elenchi di progetti specificati:
 
-* Ridimensionamento delle colonne (questa funzionalità è stata reintrodotta con la versione 2018.2 Beta 5)
+* Ridimensionamento delle colonne (questa funzionalità è stata reintrodotta nella versione 2018.2 di Beta 5)
 * Riordinamento colonne
-* I campi dell’icona di stato vengono visualizzati come vuoti (questa funzionalità è stata reintrodotta nella versione 2018.2 Beta 5)
-* Il grafico Gantt non è accessibile (questa funzionalità è stata reintrodotta nella versione 2018.2 Beta 3).
+* I campi dell’icona di stato vengono visualizzati come vuoti (questa funzionalità è stata reintrodotta nella versione 2018.2 di Beta 5)
+* Il grafico Gantt non è accessibile (questa funzionalità è stata reintrodotta nella versione 2018.2 di Beta 3).
 
 Per ulteriori informazioni sull&#39;utilizzo degli elenchi, vedere [Introduzione agli elenchi in Adobe Workfront](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
@@ -146,7 +146,7 @@ Nella tabella seguente sono riportati gli aggiornamenti apportati alla scheda Ag
    <th> <p><strong>Attività</strong> </p> </th> 
    <th> <p><strong>Azione utente precedente</strong> </p> </th> 
    <th> <p><strong>Azione per nuovo utente</strong> </p> </th> 
-   <th> <p><strong>Per ulteriori informazioni, consulta...</strong> </p> </th> 
+   <th> <p><strong>Per ulteriori informazioni, vedere...</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -154,7 +154,7 @@ Nella tabella seguente sono riportati gli aggiornamenti apportati alla scheda Ag
    <td> <p>Registrazione dell’ora su una scheda orario</p> </td> 
    <td> <p>Fare clic sul collegamento Tempo di registrazione</p> </td> 
    <td> <p>Fare clic sul pulsante Tempo di registrazione</p> </td> 
-   <td> <p><a href="../../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Tempo di connessione</a> </p> </td> 
+   <td> <p><a href="../../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Registrare ore</a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Esclusione degli aggiornamenti di sistema nella scheda Aggiornamenti</p> </td> 
@@ -178,13 +178,13 @@ Nella tabella seguente sono riportati gli aggiornamenti apportati alla scheda Ag
    <td> <p>Consenti solo agli utenti della tua azienda di visualizzare un oggetto</p> </td> 
    <td> <p>Fai clic sull’icona Blocca</p> </td> 
    <td> <p>Attiva/disattiva da privato a società</p> </td> 
-   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Assegna tag ad altri utenti in caso di aggiornamenti</a> </p> </td> 
+   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Assegna tag ad altri utenti negli aggiornamenti</a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Consenti agli utenti esterni all'azienda di visualizzare un oggetto</p> </td> 
    <td> <p>Fai clic sull’icona Blocca</p> </td> 
    <td> <p>Disattiva l'opzione Da privato a società</p> </td> 
-   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Assegna tag ad altri utenti in caso di aggiornamenti</a> </p> </td> 
+   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Assegna tag ad altri utenti negli aggiornamenti</a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aggiungere una risposta o un aggiornamento a un commento o a un aggiornamento</p> </td> 
@@ -203,7 +203,7 @@ L’app mobile contiene i seguenti miglioramenti:
 
   Per ulteriori informazioni sulla condivisione di collegamenti, vedere .
 
-  Questo aggiornamento verrà rilasciato ad iOS a volte questa settimana, e l&#39;aggiornamento Android dovrebbe seguire poco dopo.
+  Questo aggiornamento verrà rilasciato ad iOS a volte questa settimana, e l’aggiornamento Android dovrebbe seguire poco dopo.
 
 * Abbiamo aggiornato i requisiti di supporto per la piattaforma iOS per supportare iPhone X.
 

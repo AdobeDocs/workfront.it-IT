@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Quando lavori a un progetto, potresti scoprire che si verificano eventi imprevisti. È possibile registrare tali eventi imprevisti come problemi per un progetto o un&#39;attività particolare. Puoi anche inviare richieste, che vengono registrate come problemi in un progetto designato come coda di richieste. I problemi e le richieste sono considerati intercambiabili in Adobe Workfront.
 
-Per informazioni sulla creazione di problemi in [!DNL Workfront], vedi [Crea problemi](../../../manage-work/issues/manage-issues/create-issues.md). Per informazioni sulla creazione di richieste in [!DNL Workfront], vedi [Crea e invia [!DNL Adobe Workfront] richieste](../../../manage-work/requests/create-requests/create-submit-requests.md). Per informazioni sull’associazione dei tipi di richiesta ai progetti, consulta [Definire i tipi di richiesta per un progetto](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md).
+Per informazioni sulla creazione di problemi in [!DNL Workfront], vedi [Crea problemi](../../../manage-work/issues/manage-issues/create-issues.md). Per informazioni sulla creazione di richieste in [!DNL Workfront], vedere [Creare e inviare [!DNL Adobe Workfront] richieste](../../../manage-work/requests/create-requests/create-submit-requests.md). Per informazioni sull&#39;associazione dei tipi di richiesta ai progetti, vedere [Definire i tipi di richiesta per un progetto](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md).
 
 ## Requisiti di accesso
 
@@ -39,7 +39,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Devi essere un [!DNL Workfront] amministratore.</p> <p><b>NOTA</b>: se ancora non disponi dell’accesso, chiedi al tuo [!DNL Workfront] amministratore se impostano restrizioni aggiuntive nel livello di accesso. Per informazioni su come [!DNL Workfront] l'amministratore può modificare il tuo livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <p>Devi essere un amministratore [!DNL Workfront].</p> <p><b>NOTA</b>: se non disponi ancora dell'accesso, chiedi all'amministratore di [!DNL Workfront] se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di [!DNL Workfront] può modificare il tuo livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,33 +63,33 @@ You must have at least one request type selected. You can select multiple reques
 
 ## Personalizzare i nomi dei tipi di richiesta
 
-As a [!DNL Workfront] amministratore, puoi configurare i nomi dei tipi di richiesta nel sistema. I nuovi nomi sono visibili in qualsiasi area di [!DNL Workfront] in cui **[!UICONTROL Tipo di problema]** o **[!UICONTROL Tipo di richiesta]** visualizzazione campi:
+In qualità di amministratore [!DNL Workfront], puoi configurare i nomi dei tipi di richiesta nel sistema. I nuovi nomi sono visibili in qualsiasi area di [!DNL Workfront] in cui vengono visualizzati i campi **[!UICONTROL Tipo di problema]** o **[!UICONTROL Tipo di richiesta]**:
 
-* In **[!UICONTROL Dettagli coda]** area di un progetto che riceverà i problemi o le richieste.
-* Se per una coda di richieste sono selezionati più tipi di richiesta, nella **[!UICONTROL Crea una Issue] Modulo** nel **[!UICONTROL Tipo di problema]** quando crei un nuovo problema o invii una nuova richiesta.
+* Nell&#39;area **[!UICONTROL Dettagli coda]** di un progetto che riceverà i problemi o le richieste.
+* Se per una coda di richieste sono selezionati più tipi di richiesta, nel modulo **[!UICONTROL Nuovo problema]** nel campo **[!UICONTROL Tipo problema]** quando si crea un nuovo problema o si invia una nuova richiesta.
 
-   Per ulteriori informazioni sulla creazione di problemi in [!DNL Workfront], vedi  [Crea problemi](../../../manage-work/issues/manage-issues/create-issues.md)
+  Per ulteriori informazioni sulla creazione di problemi in [!DNL Workfront], vedi [Crea problemi](../../../manage-work/issues/manage-issues/create-issues.md)
 
-   Per ulteriori informazioni sulla creazione di richieste in [!DNL Workfront], vedi  [Crea e invia [!DNL Adobe Workfront] richieste](../../../manage-work/requests/create-requests/create-submit-requests.md).
+  Per ulteriori informazioni sulla creazione di richieste in [!DNL Workfront], vedere [Creare e inviare [!DNL Adobe Workfront] richieste](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
-* Il giorno **[!UICONTROL Dettagli argomento coda]** , quando si configura Argomento coda.\
-   Per ulteriori informazioni sulla creazione degli argomenti della coda, vedere [Crea argomenti coda](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+* Nel modulo **[!UICONTROL Dettagli argomento coda]**, quando si configura l&#39;argomento coda.\
+   Per ulteriori informazioni sulla creazione degli argomenti della coda, vedere [Creare argomenti della coda](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
 Per personalizzare i nomi dei tipi di richiesta:
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Configurazione]** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Configurazione]** ![](assets/gear-icon-settings.png).
 
-1. Clic **[!UICONTROL Preferenze progetto]** > **[!UICONTROL Stati]**.
+1. Fai clic su **[!UICONTROL Preferenze progetto]** > **[!UICONTROL Stati]**.
 
-1. Fai clic su **[!UICONTROL Problemi]** scheda.
-1. Nella parte superiore della sezione **[!UICONTROL Problemi]** , passa il puntatore sul nome di un tipo di richiesta, quindi fai clic sul pulsante **[!UICONTROL Modifica]** che viene visualizzata.
+1. Fai clic sulla scheda **[!UICONTROL Issues]**.
+1. Nella parte superiore della scheda **[!UICONTROL Problemi]**, passa il puntatore del mouse sul nome di un tipo di richiesta, quindi fai clic sull&#39;icona **[!UICONTROL Modifica]** visualizzata.
 
    ![](assets/edit-request-type-name-nwe.png)
 
-1. Nella casella visualizzata, digita un nuovo nome, quindi premi **[!UICONTROL Invio]**.
+1. Nella casella visualizzata digitare un nuovo nome e premere **[!UICONTROL Invio]**.
 
 ## Configurare gli stati dei problemi in diversi tipi di richiesta
 
 È possibile associare ogni tipo di richiesta a diversi stati di problema. Puoi anche modificare l’ordine in cui gli stati vengono visualizzati su un problema, a seconda del tipo di problema.
 
-Per ulteriori informazioni sulla modifica dell&#39;ordine predefinito degli stati dei problemi e sulla configurazione degli stati dei problemi, vedere [Creare o modificare uno stato](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) sezione in [Creare o modificare uno stato](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+Per ulteriori informazioni sulla modifica dell&#39;ordine predefinito degli stati dei problemi e sulla configurazione degli stati dei problemi, vedere la sezione [Creare o modificare uno stato](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) in [Creare o modificare uno stato](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).

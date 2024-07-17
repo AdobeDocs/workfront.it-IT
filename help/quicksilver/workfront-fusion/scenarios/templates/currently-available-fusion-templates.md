@@ -20,13 +20,13 @@ In Adobe Workfront Fusion sono attualmente disponibili i seguenti modelli pubbli
 
 È possibile che nel team o nell&#39;organizzazione siano disponibili altri modelli creati dal team.
 
-Per visualizzare i modelli disponibili, fai clic su **Modelli** icona ![](assets/fusion-template-icon.png) nel menu di navigazione laterale in Fusion.
+Per visualizzare i modelli disponibili, fare clic sull&#39;icona ![](assets/fusion-template-icon.png) **Modelli** nel menu di navigazione laterale di Fusion.
 
 ## Modelli Workfront
 
 Questi modelli automatizzano i processi e i flussi di lavoro di Workfront.
 
-### [!BADGE Novità!]{type=Informative}
+### [!BADGE Nuovo!]{type=Informative}
 
 Questo modello Fusion crea una checklist standard per tutte le schede che immettono una colonna specifica su una bacheca specifica a tempo.
 
@@ -128,9 +128,9 @@ Questi modelli supportano l&#39;integrazione Workfront-Marketo.
 
 ### Approvare la bozza e-mail del Marketo Engage con i flussi di lavoro di approvazione di Workfront
 
-Questo fa parte dell’integrazione Revisione e approvazione tra Workfront e Marketi Engage. Questo modello rileva se è stata approvata una bozza e-mail in Workfront, quindi aggiorna l’e-mail corrispondente nel Marketo Engage in base all’approvazione.
+Questo fa parte dell’integrazione Revisione e approvazione tra Workfront e Marketo Engage. Questo modello rileva se è stata approvata una bozza e-mail in Workfront, quindi aggiorna l’e-mail corrispondente nel Marketo Engage in base all’approvazione.
 
-### Acquisisci le richieste delle campagne di marketing in Workfront e automatizza la creazione di campagne in Marketi Engage
+### Acquisisci le richieste delle campagne di marketing in Workfront e automatizza la creazione di campagne in Marketo Engage
 
 Questo scenario offre un modo programmatico per creare campagne e-mail e webinar in Marketo Engage da una richiesta effettuata in Workfront. Utilizzando l’automazione per creare, organizzare e configurare le campagne, i team sono in grado di migliorare l’efficienza.
 
@@ -155,7 +155,7 @@ Questo modello consente di verificare se è stata apportata una modifica a una c
 
 Questi modelli supportano l’integrazione Workfront-Anaplan e prevedono una configurazione specifica sia in Anaplan che in Workfront. Per informazioni su questi modelli e sulle relative configurazioni richieste, consulta gli articoli relativi ai singoli modelli.
 
-Per ulteriori informazioni sull’integrazione Workfront-Anaplan, consulta [Adobe Workfront con Anaplan](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md).
+Per ulteriori informazioni sull&#39;integrazione Workfront-Anaplan, vedere [Adobe Workfront con Anaplan](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md).
 
 >[!NOTE]
 >
@@ -163,19 +163,19 @@ Per ulteriori informazioni sull’integrazione Workfront-Anaplan, consulta [Adob
 
 ### Flussi di lavoro di ottimizzazione della spesa
 
-* [Invia [!DNL Adobe Workfront] aggiornamenti del progetto a un [!DNL Anaplan] voce di elenco](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
-* [Invia [!DNL Adobe Workfront] spese per un [!DNL Anaplan] voce di elenco](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
-* [Invia [!DNL Adobe Workfront] aggiornamenti ore effettive di un [!DNL Anaplan] voce di elenco](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [Invia aggiornamenti di  [!DNL Adobe Workfront] progetto a una [!DNL Anaplan] voce di elenco](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [Invia [!DNL Adobe Workfront] spese a una [!DNL Anaplan] voce di elenco](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
+* [Invia  [!DNL Adobe Workfront] aggiornamenti ore effettive a una voce di elenco  [!DNL Anaplan] ](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
 
 ### Flussi di lavoro per collegare le richieste di budget
 
-* [Creare un [!DNL Anaplan] voce di elenco da un [!DNL Adobe Workfront] richiesta budget](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
-* [Applicare un [!DNL Anaplan] allocazione budget a un [!DNL Adobe Workfront] progetto](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
+* [Crea una voce di elenco  [!DNL Anaplan]  da una richiesta budget  [!DNL Adobe Workfront] ](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
+* [Applica un&#39;allocazione di budget di  [!DNL Anaplan]  a un progetto di  [!DNL Adobe Workfront] ](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
 
 ### Flussi di lavoro per collegare le richieste delle campagne
 
-* [Creare un [!DNL Anaplan] voce di elenco da un [!DNL Adobe Workfront] richiesta campagna](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
-* [Applicare un [!DNL Anaplan] allocazione budget a un [!DNL Adobe Workfront] richiesta campagna o progetto campagna](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+* [Crea un elemento di elenco  [!DNL Anaplan]  da una richiesta di campagna  [!DNL Adobe Workfront] ](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
+* [Applica un&#39;allocazione di budget di  [!DNL Anaplan]  a una richiesta o a un progetto di campagna di  [!DNL Adobe Workfront] ](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
 
 
 <!--[!BADGE New!]{type=Informative} -->

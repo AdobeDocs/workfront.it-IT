@@ -60,7 +60,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Prerequisiti
 
-Per i prerequisiti per utilizzare Enhanced Analytics, consulta la sezione &quot;Prerequisiti&quot; in [Panoramica di analisi avanzate](../enhanced-analytics/enhanced-analytics-overview.md).
+Per i prerequisiti per l&#39;utilizzo di Analisi avanzate, vedere la sezione &quot;Prerequisiti&quot; in [Panoramica di Analisi avanzate](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Comprendere la visualizzazione Burndown
 
@@ -70,9 +70,9 @@ La linea blu continua mostra la velocità pianificata dalla data di inizio alla 
 
 La linea effettiva mostra il numero di ore, o giorni, trascorsi sul progetto nel tempo. Il colore di questa riga indica ogni giorno la condizione del progetto:
 
-* **Verde**: il progetto è sulla destinazione.
+* **Verde**: il progetto è in arrivo.
 
-  ![Sul target](assets/burndown-green.png)
+  ![In destinazione](assets/burndown-green.png)
 
 * **Arancione**: progetto a rischio.
 
@@ -80,9 +80,9 @@ La linea effettiva mostra il numero di ore, o giorni, trascorsi sul progetto nel
 
 * **Rosso**: il progetto è in difficoltà.
 
-  ![Nei guai](assets/burndown-red.png)
+  ![Problemi](assets/burndown-red.png)
 
-Per ulteriori informazioni su queste condizioni del progetto, vedi [Panoramica della condizione e del tipo di condizione del progetto](../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
+Per ulteriori informazioni su queste condizioni del progetto, vedere [Panoramica sulla condizione e sul tipo di condizione del progetto](../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
 Quando la linea effettiva si sposta verticalmente verso l&#39;alto, il lavoro è stato aggiunto al progetto. Quando la linea si sposta verticalmente verso il basso, il lavoro per il progetto è stato rimosso o completato.
 
@@ -94,7 +94,7 @@ La visualizzazione Burndown di tutte queste informazioni consente di determinare
 * Come i problemi in arrivo (o il lavoro non pianificato) hanno influenzato il lavoro pianificato
 * Quali eventi hanno esteso il progetto oltre la data di completamento originale
 
-Per scoprire come ottenere i dati migliori per questa visualizzazione, consulta [Panoramica di analisi avanzate](../enhanced-analytics/enhanced-analytics-overview.md).
+Per informazioni su come ottenere i dati migliori per questa visualizzazione, consulta [Panoramica sulle analisi avanzate](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Visualizzare la visualizzazione Burndown
 
@@ -104,11 +104,11 @@ Per scoprire come ottenere i dati migliori per questa visualizzazione, consulta 
 
    ![Seleziona date](assets/filters-select-date-range-350x344.png)
 
-   Per informazioni sull’utilizzo del filtro per intervalli di date, consulta [Applicare i filtri nelle analisi avanzate](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Per informazioni sull&#39;utilizzo del filtro dell&#39;intervallo di date, vedere [Applicare filtri in Analisi avanzate](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 1. (Condizionale) Se devi limitare il set di dati del progetto, seleziona e applica i filtri che desideri utilizzare.
 
-   Per ulteriori informazioni sull’aggiunta di filtri in Analisi avanzate, consulta [Applicare i filtri nelle analisi avanzate](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Per ulteriori informazioni sull&#39;aggiunta di filtri in Analisi avanzate, vedere [Applicare filtri in Analisi avanzate](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
    Dopo aver aggiunto i filtri, vengono visualizzati i dati per un massimo di 50 progetti e i filtri rimangono attivi anche dopo che hai lasciato la pagina o disconnesso da Workfront.
 
@@ -116,7 +116,7 @@ Per scoprire come ottenere i dati migliori per questa visualizzazione, consulta 
 
    Tutte le altre visualizzazioni vengono aggiornate allo stesso intervallo di date e viene creato automaticamente un filtro per l’intervallo di tempo.
 
-   ![Filtro intervallo temporale](assets/timeframe-filter-350x220.png)
+   ![Filtro intervallo di tempo](assets/timeframe-filter-350x220.png)
 
 1. Nella visualizzazione Piano di volo o Mappa ad albero Progetto, fai clic su un progetto per visualizzare ulteriori informazioni.
 
@@ -126,35 +126,35 @@ Per scoprire come ottenere i dati migliori per questa visualizzazione, consulta 
    >
    >Per ulteriori informazioni su queste altre visualizzazioni, consulta:
    >
-   >   * [Visualizzare la visualizzazione del piano di volo in Analisi avanzate](../enhanced-analytics/flight-plan-overview.md)
-   >   * [Visualizzare la mappa ad albero del progetto in Analisi avanzate](../enhanced-analytics/project-treemap-overview.md)
-   >   * [Visualizzare la visualizzazione Attività in volo in Analisi avanzate](../enhanced-analytics/tasks-in-flight-overview.md)
+   >   * [Visualizzazione del piano di volo in Analisi avanzate](../enhanced-analytics/flight-plan-overview.md)
+   >   * [Visualizzazione Mappa ad albero progetto in Analisi avanzate](../enhanced-analytics/project-treemap-overview.md)
+   >   * [Visualizza le Attività nella visualizzazione di volo in Analisi avanzate](../enhanced-analytics/tasks-in-flight-overview.md)
    >
 
-1. (Facoltativo) Modifica la visualizzazione da ore pianificate a **durata**.
+1. (Facoltativo) Cambia la visualizzazione da ore pianificate a **durata**.
 
    L’opzione Ore pianificate è selezionata per impostazione predefinita.
 
    >[!NOTE]
    >
-   >Selezione **durata** modifica le informazioni su tutte le ore in giorni.\
+   >Selezionando **durata** tutte le informazioni sulle ore vengono convertite in giorni.\
    >![Burndown durata](assets/duration-burndown-350x112.png)\
-   >Per ulteriori informazioni sulla durata nell’area Analisi avanzata, consulta la sezione &quot;Visualizzazione della durata&quot; in [Panoramica di analisi avanzate](../enhanced-analytics/enhanced-analytics-overview.md#duration-view).
+   >Per ulteriori informazioni sulla durata nell&#39;area Analisi avanzata, vedere la sezione &quot;Visualizzazione della durata&quot; in [Panoramica analisi avanzata](../enhanced-analytics/enhanced-analytics-overview.md#duration-view).
 
 1. Fate clic su un punto qualsiasi del grafico a linee.
 
    Sotto il grafico vengono visualizzate la data esatta e ulteriori informazioni sulle attività e le ore, o giorni, per il giorno selezionato.
 
-   ![Dettagli burndown](assets/burndown-task-and-hour-changes-350x121.png)
+   ![Dettagli Burndown](assets/burndown-task-and-hour-changes-350x121.png)
 
    >[!NOTE]
    >
    >Se la velocità effettiva è una linea piatta che corre lungo l’asse x (in linea con 0 ore o 0 giorni) della visualizzazione, significa che non sono state aggiunte al progetto ore o giorni pianificati.\
    >Se la velocità effettiva è una linea piatta sopra l&#39;asse x (allineata con un numero di ore o giorni) che non scende mai, significa che nessuna attività è stata completata entro il periodo di tempo filtrato.
 
-1. (Facoltativo) Per esportare i dati di visualizzazione, fai clic sul pulsante **Esporta** icona ![Icona Esporta](assets/export.png) nell’angolo in alto a destra della visualizzazione e seleziona il formato di esportazione:
+1. (Facoltativo) Per esportare i dati di visualizzazione, fai clic sull&#39;icona **Esporta** ![Icona Esporta](assets/export.png) nell&#39;angolo in alto a destra della visualizzazione e seleziona il formato di esportazione:
 
    * Grafico (PNG)
    * Tabella dati (XSLX)
 
-1. (Facoltativo) Per visualizzare i dettagli sull’avanzamento delle attività nel progetto selezionato, osserva la visualizzazione Attività in volo che viene visualizzata sotto la visualizzazione Burndown. Per ulteriori informazioni, consulta [Visualizzare la visualizzazione Attività in volo in Analisi avanzate](/help/quicksilver/enhanced-analytics/tasks-in-flight-overview.md).
+1. (Facoltativo) Per visualizzare i dettagli sull’avanzamento delle attività nel progetto selezionato, osserva la visualizzazione Attività in volo che viene visualizzata sotto la visualizzazione Burndown. Per ulteriori informazioni, consulta [Visualizzare le attività nella visualizzazione di volo in Analisi avanzate](/help/quicksilver/enhanced-analytics/tasks-in-flight-overview.md).

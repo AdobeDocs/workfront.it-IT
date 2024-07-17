@@ -58,9 +58,9 @@ I moduli personalizzati visualizzano icone per indicare la logica applicata a de
 | Icona | Posizione nel campo in Progettazione moduli | Definizione |
 |--- |--- |--- |
 | ![Logica di visualizzazione per il campo di destinazione](assets/display-logic-bottom-left.png) | In basso a sinistra | Il campo è il campo di destinazione per la logica di visualizzazione. Se nel modulo viene effettuata una selezione specifica, viene visualizzato questo campo. |
-| ![Definire l’icona della logica di visualizzazione](assets/display-logic-bottom-right.png) | In basso a destra | Il campo definisce la logica di visualizzazione. Una selezione o un valore specifico in questo campo visualizza il campo di destinazione. |
+| ![Definisci l&#39;icona della logica di visualizzazione](assets/display-logic-bottom-right.png) | In basso a destra | Il campo definisce la logica di visualizzazione. Una selezione o un valore specifico in questo campo visualizza il campo di destinazione. |
 | ![Logica di salto per il campo di destinazione](assets/skip-logic-bottom-left.png) | In basso a sinistra | Il campo è il campo di destinazione per la logica di salto. Se nel modulo viene effettuata una selezione specifica, il modulo passa a questo campo e i campi intermedi sono nascosti. |
-| ![Icona Definisci logica di salto](assets/skip-logic-bottom-right.png) | In basso a destra | Il campo definisce la logica di salto. Una selezione o un valore specifico in questo campo ignora altri campi e passa direttamente al campo di destinazione. |
+| ![Definisci l&#39;icona per ignorare la logica](assets/skip-logic-bottom-right.png) | In basso a destra | Il campo definisce la logica di salto. Una selezione o un valore specifico in questo campo ignora altri campi e passa direttamente al campo di destinazione. |
 
 ![Icone logiche](assets/logic-icons-3.png)
 
@@ -71,7 +71,7 @@ Seleziona un campo a cui è applicata la logica per visualizzare le regole di lo
 ## Considerazioni per l’utilizzo della logica di visualizzazione e della logica di salto
 
 * Per aggiungere la logica di visualizzazione a un campo personalizzato, a un widget o a un&#39;interruzione di sezione, è necessario posizionare almeno un campo a scelta multipla (pulsanti di scelta, elenco a discesa o caselle di controllo) prima di inserirlo nel modulo.
-Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, vedi [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, vedere [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * Non è possibile aggiungere logica di salto a un widget o a un’interruzione di sezione. È possibile aggiungerlo solo a un campo a scelta multipla (pulsanti di scelta, menu a discesa o caselle di controllo).
 * È possibile aggiungere logica di visualizzazione e logica di salto a un campo personalizzato se si verificano tutte le condizioni seguenti relative al campo personalizzato:
 
@@ -93,12 +93,12 @@ La logica di visualizzazione definisce quali campi personalizzati vengono visual
 
 {{step-1-to-setup}}
 
-1. Clic **Forms personalizzato**.
-1. Crea un nuovo modulo personalizzato o apri un modulo esistente. Consulta [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) per i dettagli.
+1. Fare clic su **Forms personalizzato**.
+1. Crea un nuovo modulo personalizzato o apri un modulo esistente. Per ulteriori informazioni, vedere [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 1. Aggiungi i campi al modulo in base alle esigenze. Almeno un campo a scelta multipla (pulsante di opzione, elenco a discesa o casella di controllo) deve essere posizionato prima del campo di destinazione che verrà visualizzato.
-1. Seleziona il campo di destinazione e fai clic su **Aggiungi logica** in basso a sinistra.
-1. Seleziona la **Logica di visualizzazione** scheda.
-1. Clic **Aggiungi regola di visualizzazione** nel generatore di logica.
+1. Seleziona il campo di destinazione e fai clic su **Aggiungi logica** in basso a sinistra nella schermata.
+1. Selezionare la scheda **Logica di visualizzazione**.
+1. Fai clic su **Aggiungi regola di visualizzazione** nel generatore di logica.
 
    ![Generatore di logica di visualizzazione](assets/custom-form-logic-builder-display-blank.png)
 
@@ -106,14 +106,14 @@ La logica di visualizzazione definisce quali campi personalizzati vengono visual
 
    1. La prima opzione consiste nel scegliere il campo di definizione. Questo è il campo con il valore di selezione che visualizza la destinazione. Deve essere un campo a scelta multipla.
    1. La seconda opzione consiste nel scegliere il valore di selezione. Sono disponibili solo i valori già definiti per quel campo.
-   1. La terza opzione è **Selezionato** o **Non selezionato**. Scelta **Selezionato** significa che quando il valore è selezionato, viene visualizzato il campo di destinazione. Scelta **Non selezionato** significa che quando nel campo di definizione viene selezionato un altro valore, viene visualizzato il campo di destinazione.
-   1. Per aggiungere una **E** all&#39;istruzione logica, fare clic su **Aggiungi regola** direttamente sotto la regola appena creata. Segui le stesse istruzioni per generare la regola. Affinché il campo di destinazione venga visualizzato, è necessario che siano soddisfatte tutte le regole AND.
+   1. La terza opzione è **Selezionato** o **Non selezionato**. Scegliendo **Selezionato**, quando il valore è selezionato, viene visualizzato il campo di destinazione. La scelta di **Non selezionato** indica che quando nel campo di definizione viene selezionato un altro valore, viene visualizzato il campo di destinazione.
+   1. Per aggiungere una regola **And** all&#39;istruzione logica, fare clic su **Aggiungi regola** direttamente sotto la regola appena creata. Segui le stesse istruzioni per generare la regola. Affinché il campo di destinazione venga visualizzato, è necessario che siano soddisfatte tutte le regole AND.
 
       ![Generatore di logica di visualizzazione](assets/custom-form-logic-builder-display1.png)
 
-   1. Per aggiungere una **Oppure** all&#39;istruzione logica, fare clic su **Aggiungi regola** nella parte inferiore del generatore di logica. Quindi, fai clic su **Aggiungi regola** all’interno dell’area O e segui gli stessi prompt per creare la regola. Quando viene soddisfatta una regola Or, viene visualizzato il campo di destinazione.
+   1. Per aggiungere una regola **Or** all&#39;istruzione di logica, fare clic su **Aggiungi regola** nella parte inferiore del generatore di logica. Quindi, fai clic su **Aggiungi regola** all&#39;interno dell&#39;area O e segui le stesse istruzioni per generare la regola. Quando viene soddisfatta una regola Or, viene visualizzato il campo di destinazione.
 
-1. Clic **Salva** al termine della creazione dell&#39;istruzione logica.
+1. Fai clic su **Salva** al termine della creazione dell&#39;istruzione logica.
 
    Le icone della logica di visualizzazione vengono aggiunte al campo di destinazione e al campo di definizione nel progettista del modulo.
 
@@ -123,12 +123,12 @@ La logica di salto definisce i campi modulo personalizzati che vengono saltati q
 
 {{step-1-to-setup}}
 
-1. Clic **Forms personalizzato**.
-1. Crea un nuovo modulo personalizzato o apri un modulo esistente. Consulta [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) per i dettagli.
+1. Fare clic su **Forms personalizzato**.
+1. Crea un nuovo modulo personalizzato o apri un modulo esistente. Per ulteriori informazioni, vedere [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 1. Aggiungi i campi al modulo in base alle esigenze. Il campo di definizione per la logica di salto deve essere un campo a scelta multipla (pulsante di scelta, elenco a discesa o casella di controllo).
-1. Seleziona il campo di definizione e fai clic su **Aggiungi logica** in basso a sinistra.
-1. Seleziona la **Salta logica** scheda.
-1. Clic **Aggiungi Ignora regola** nel generatore di logica.
+1. Seleziona il campo di definizione e fai clic su **Aggiungi logica** in basso a sinistra nella schermata.
+1. Selezionare la scheda **Ignora logica**.
+1. Fai clic su **Aggiungi Ignora regola** nel generatore di logica.
 
    ![Ignora generatore di logica](assets/custom-form-logic-builder-skip-blank.png)
 
@@ -136,14 +136,14 @@ La logica di salto definisce i campi modulo personalizzati che vengono saltati q
 
    1. Il campo di definizione viene visualizzato nel generatore. È il campo a cui hai selezionato la logica di salto.
    1. La prima opzione consiste nel scegliere il valore di selezione. Sono disponibili solo i valori già definiti per il campo.
-   1. La seconda opzione è **Selezionato** o **Non selezionato**. Scelta **Selezionato** significa che quando il valore è selezionato, viene visualizzato il campo di destinazione e i campi in mezzo vengono ignorati. Scelta **Non selezionato** significa che quando nel campo di definizione viene selezionato un altro valore, viene visualizzato il campo di destinazione e i campi compresi tra questi vengono ignorati.
-   1. La terza opzione è il campo di destinazione o il punto in cui passare. Seleziona un nome di campo o **Fine del modulo**. Potrebbe essere necessario fare clic sulla parola &quot;vuoto&quot; prima di selezionare un&#39;opzione.
+   1. La seconda opzione è **Selezionato** o **Non selezionato**. La scelta di **Selezionato** implica che quando il valore è selezionato, il campo di destinazione viene visualizzato e i campi intermedi vengono ignorati. La scelta di **Non selezionato** indica che quando nel campo di definizione viene selezionato un altro valore, viene visualizzato il campo di destinazione e i campi intermedi vengono ignorati.
+   1. La terza opzione è il campo di destinazione o il punto in cui passare. Selezionare un nome di campo o **Fine modulo**. Potrebbe essere necessario fare clic sulla parola &quot;vuoto&quot; prima di selezionare un&#39;opzione.
 
       ![Ignora generatore di logica](assets/custom-form-logic-builder-skip1.png)
 
-   1. Per aggiungere una **Oppure** all&#39;istruzione logica, fare clic su **Aggiungi regola** nella parte inferiore del generatore di logica. Quindi, seleziona le opzioni seguendo le stesse istruzioni per creare la regola. Quando uno **Oppure** è soddisfatta, viene visualizzato il campo di destinazione.
+   1. Per aggiungere una regola **Or** all&#39;istruzione di logica, fare clic su **Aggiungi regola** nella parte inferiore del generatore di logica. Quindi, seleziona le opzioni seguendo le stesse istruzioni per creare la regola. Quando viene soddisfatta una regola **Or**, viene visualizzato il campo di destinazione.
 
-1. Clic **Salva** al termine della creazione dell&#39;istruzione logica.
+1. Fai clic su **Salva** al termine della creazione dell&#39;istruzione logica.
 
    Le icone di salto della logica vengono aggiunte al campo di destinazione e al campo di definizione nel progettista del modulo.
 

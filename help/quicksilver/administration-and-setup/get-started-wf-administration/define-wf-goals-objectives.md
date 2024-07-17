@@ -37,11 +37,11 @@ Per ottenere questo risultato in Workfront, configura quanto segue:
 
 * Crea una coda di richieste Workfront per gestire richieste specifiche all’interno dell’organizzazione.
 
-  Per ulteriori informazioni sulle code di richieste, consulta [Creare una coda di richieste](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+  Per ulteriori informazioni sulle code di richieste, vedere [Creare una coda di richieste](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 * Crea un rapporto per visualizzare eventuali problemi in sospeso non chiusi entro 5 giorni.
 
-  Per ulteriori informazioni sulla creazione di rapporti, consulta [Creare un rapporto personalizzato](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Per ulteriori informazioni sulla creazione di report, vedere [Creare un report personalizzato](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Migliorare il tempo dedicato ai progetti e la spesa di bilancio nel prossimo anno
 
@@ -49,22 +49,22 @@ Per ottenere questo risultato in Workfront, configura quanto segue:
 
 * Sviluppa una metodologia di progetto standard per la tua organizzazione. Ciò include l’identificazione degli utenti responsabili della creazione e della gestione dei progetti e la concessione di eventuali approvazioni.
 
-  Per ulteriori informazioni sulla creazione di progetti, consulta [Creare un progetto](../../manage-work/projects/create-projects/create-project.md).
+  Per ulteriori informazioni sulla creazione di progetti, vedere [Creare un progetto](../../manage-work/projects/create-projects/create-project.md).
 
-  Per ulteriori informazioni sulla creazione di processi di approvazione, consulta [Creare un processo di approvazione per gli elementi di lavoro](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+  Per ulteriori informazioni sulla creazione dei processi di approvazione, vedere [Creare un processo di approvazione per gli elementi di lavoro](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 * Stabilire se organizzare i progetti in portfolio e programmi per una gestione più approfondita del budget e delle risorse.
 
-  Per ulteriori informazioni sulla creazione dei portfolio, consulta [Creare un portfolio](../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
+  Per ulteriori informazioni sulla creazione di portfolio, vedere [Creare un portfolio](../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 
 * Includi un approccio basato sulle best practice per garantire qualità in ogni progetto.
 * Identifica eventuali progetti ripetibili che possono essere utilizzati per creare modelli.
 
-  Per ulteriori informazioni sulla creazione di modelli, consulta [Creare un modello di progetto](../../manage-work/projects/create-and-manage-templates/create-template.md).
+  Per ulteriori informazioni sulla creazione di modelli, vedere [Creare un modello di progetto](../../manage-work/projects/create-and-manage-templates/create-template.md).
 
 * Crea una dashboard che visualizzi l’avanzamento dei portfolio di progetti di quest’anno.
 
-  Per ulteriori informazioni sulla creazione di un dashboard, consulta [Creare un dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+  Per ulteriori informazioni sulla creazione di un dashboard, vedere [Creare un dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
 ## Migliorare la qualità dei servizi con una migliore gestione dei processi interni
 

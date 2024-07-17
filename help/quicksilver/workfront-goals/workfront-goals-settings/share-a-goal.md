@@ -54,7 +54,7 @@ Devi avere i seguenti:
 <li>Un piano Select o Prime Adobe Workfront e un’ulteriore licenza Adobe Workfront Goals.</li>
 <li>Un piano Workfront Ultimate che include gli obiettivi Workfront per impostazione predefinita. </li></ul>
  <p>Oppure</p>
- <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, consulta <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l’utilizzo degli obiettivi di Workfront</a>. </p> </td>
+ <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Livello di accesso</td>
@@ -66,7 +66,7 @@ Devi avere i seguenti:
   <div>
   <p>Visualizza o autorizzazioni superiori per l’obiettivo per visualizzarlo</p>
   <p>Gestire le autorizzazioni per l’obiettivo per modificarlo</p>
-  <p>Per informazioni sulla condivisione degli obiettivi, consulta <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Condividere un obiettivo in Obiettivi di Workfront</a>. </p>
+  <p>Per informazioni sulla condivisione degli obiettivi, vedere <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Condividere un obiettivo in Obiettivi di Workfront</a>. </p>
   </div> </td>
  </tr>
 <tr>
@@ -77,7 +77,7 @@ Devi avere i seguenti:
 </tbody>
 </table>
 
-*Per ulteriori informazioni, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Considerazioni sulla condivisione degli obiettivi
 
@@ -118,7 +118,7 @@ Devi avere i seguenti:
 
 ## Condividere un obiettivo
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) > **Obiettivi** nell’angolo superiore destro.
+1. Fai clic sull&#39;icona **Main Menu** ![](assets/main-menu-icon.png) > **Goals** nell&#39;angolo superiore destro.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../workfront-goals-settings/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -127,7 +127,7 @@ Devi avere i seguenti:
 
 1. Fai clic sul nome di un obiettivo nell’elenco. Viene visualizzata la pagina dell’obiettivo.
 
-1. Fai clic su **Icona Altro** accanto al nome dell’obiettivo, quindi fai clic su **Condividi**.
+1. Fai clic sull&#39;icona **Altro** accanto al nome dell&#39;obiettivo, quindi fai clic su **Condividi**.
 
    ![](assets/more-menu-highlighted-goal-details-panel-with-share-link-350x156.png)
 
@@ -137,20 +137,20 @@ Devi avere i seguenti:
 
 1. Esegui una delle operazioni seguenti:
 
-   * Seleziona la **Gestisci a livello di sistema** impostazione per assegnare le autorizzazioni di gestione a tutti gli utenti del sistema che hanno accesso in modifica agli obiettivi nel loro livello di accesso. Questa opzione è deselezionata per impostazione predefinita per tutti i nuovi obiettivi.
-   * Inizia a digitare il nome di un utente a cui desideri assegnare le autorizzazioni di gestione in **Concedi accesso in gestione a** casella. Seleziona il nome quando viene visualizzato nel’elenco.
+   * Selezionare l&#39;impostazione **Gestisci a livello di sistema** per assegnare le autorizzazioni di gestione a tutti gli utenti del sistema che dispongono dell&#39;accesso di modifica agli obiettivi nel proprio livello di accesso. Questa opzione è deselezionata per impostazione predefinita per tutti i nuovi obiettivi.
+   * Inizia a digitare il nome di un utente a cui desideri assegnare le autorizzazioni di gestione nella casella **Concedi accesso di gestione a**. Seleziona il nome quando viene visualizzato nel’elenco.
 
      >[!TIP]
      >
      >Puoi condividere un obiettivo solo con altri utenti. Non puoi condividere gli obiettivi con gruppi, team o la tua azienda.
 
-1. Clic **Condividi**.
+1. Fai clic su **Condividi**.
 
    L&#39;obiettivo viene condiviso con gli utenti specificati. Un’etichetta &quot;a livello di sistema&quot; o il nome degli utenti che dispongono delle autorizzazioni di gestione per l’obiettivo vengono visualizzati nel campo Accesso a gestione del pannello Dettagli obiettivo.
 
 ## Opzioni di autorizzazione per obiettivo
 
-Nella tabella seguente sono elencate le autorizzazioni che è possibile concedere durante la condivisione di un obiettivo. Per ulteriori informazioni sugli utenti dell’accesso ottenuti in base alla propria licenza, consulta [Concedere l’accesso agli obiettivi di Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+Nella tabella seguente sono elencate le autorizzazioni che è possibile concedere durante la condivisione di un obiettivo. Per ulteriori informazioni sull&#39;accesso degli utenti in base alla licenza, vedere [Concedere l&#39;accesso agli obiettivi di Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -234,8 +234,8 @@ Nella tabella seguente sono elencate le autorizzazioni che è possibile conceder
 
 **Devi avere accesso a Visualizza progetti e alle autorizzazioni di visualizzazione per i progetti aggiunti o che desideri aggiungere all’obiettivo per visualizzarli.
 
-Per informazioni sul livello di accesso al progetto, vedi [Concedere l’accesso ai progetti](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+Per informazioni sul livello di accesso al progetto, vedere [Concedere l&#39;accesso ai progetti](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
-Per informazioni sulle autorizzazioni per i progetti, consulta [Condividere un progetto in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+Per informazioni sulle autorizzazioni del progetto, vedere [Condividere un progetto in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
  

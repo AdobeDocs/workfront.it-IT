@@ -16,18 +16,18 @@ ht-degree: 0%
 
 ---
 
-# Workfront Proof: indice articolo
+# Workfront Proof: indice degli articoli
 
 <!-- Audited: 12/2023 -->
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alle funzionalità del prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica in Adobe Workfront, consulta [Bozza](../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica in Adobe Workfront, vedere [Verifica](../review-and-approve-work/proofing/proofing.md).
 
 Questa sezione contiene le seguenti sottosezioni:
 
-* [Guida introduttiva a [!DNL Workfront Proof]: indice dell’articolo](../workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
-* [Utilizzare bozze e file in [!DNL Workfront Proof]](../workfront-proof/wp-work-proofsfiles/wp-work-proofs-files.md)
+* [Guida introduttiva a  [!DNL Workfront Proof]: indice articolo](../workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
+* [Operazioni con bozze e file in [!DNL Workfront Proof]](../workfront-proof/wp-work-proofsfiles/wp-work-proofs-files.md)
 * [[!DNL Workfront Proof] amministrazione account](../workfront-proof/wp-acct-admin/wp-account-admin.md)
 * [[!DNL Workfront Proof] Impostazioni fatturazione](../workfront-proof/wp-billingsettings/wp-billing-settings.md)
 * [Notifiche e promemoria bozza](../workfront-proof/wp-emailsntfctns/wp-emails-and-notifications.md)

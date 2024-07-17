@@ -2,8 +2,8 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: '''Panoramica sul vincolo di attività: Fine non oltre"'
-description: Fine Non più tardi di (FNLT) è un Vincolo di attività che consente di programmare il completamento di un'attività prima della data specificata.
+title: "Panoramica sul vincolo attività: termina non più tardi di"
+description: Finire non oltre il (FNLT) è un vincolo attività che pianifica il completamento di un'attività prima della data specificata.
 author: Alina
 feature: Work Management
 exl-id: ea0e74fb-45a0-4466-b57d-294a9babb340
@@ -14,32 +14,33 @@ ht-degree: 0%
 
 ---
 
-# Panoramica sul vincolo di attività: Fine entro
+# Panoramica sui vincoli attività: Termina non più tardi di
 
-Fine Non più tardi di (FNLT) è un Vincolo di attività che consente di programmare il completamento di un&#39;attività prima della data specificata.
+Finire non oltre il (FNLT) è un vincolo attività che pianifica il completamento di un&#39;attività prima della data specificata.
 
-## Panoramica del vincolo Fine non oltre
+## Panoramica del vincolo Fine non oltre il
 
-Quando si utilizza il vincolo Fine non più tardi di (FNLT) per un&#39;attività, tenere presente quanto segue:
+Quando si utilizza il vincolo Finire non oltre il (FNLT) per un&#39;attività, tenere presente quanto segue:
 
-* Utilizzare questo vincolo quando il progetto è programmato dalla data di inizio. In questo caso, è possibile fornire un vincolo morbido a un&#39;attività prima che altri task dipendenti vengano visualizzati come a rischio.
-* Quando si utilizza il vincolo FNLT con un progetto di data di completamento da programma, questo vincolo consente di programmare l&#39;attività come se si trattasse di un&#39;attività il più tardi possibile.
-* Quando si sposta o si copia un&#39;attività con un vincolo FNET in un altro progetto, il vincolo dell&#39;attività o delle date del progetto potrebbe variare a seconda delle date del vincolo e delle date di inizio e completamento del progetto. Esistono i seguenti scenari:
+* Utilizzare questo vincolo quando il progetto è programmato dalla data di inizio. In questo caso, è possibile fornire un vincolo morbido a un&#39;attività prima che quest&#39;ultima obblighi altre attività dipendenti a essere visualizzate come A rischio.
+* Quando si utilizza il vincolo FNLT con un progetto Pianifica da data di completamento, questo vincolo pianifica l&#39;attività come se si trattasse di un&#39;attività Il più tardi possibile.
+* Quando si sposta o si copia un&#39;attività con un vincolo FNET in un altro progetto, il vincolo dell&#39;attività o delle date del progetto può variare a seconda delle date del vincolo e delle date di inizio e di completamento del progetto. Esistono i seguenti scenari:
 
-   * Quando il progetto di destinazione è programmato da inizio:
+   * Quando il progetto di destinazione è programmato dall’inizio:
 
-      * Quando la data di vincolo dell&#39;attività è precedente alla data di inizio pianificata del progetto, il vincolo dell&#39;attività diventa Non appena possibile.
-      * Quando la data di vincolo dell&#39;attività è successiva alla data di completamento pianificata del progetto, la data di completamento pianificato del progetto viene modificata in modo da corrispondere alla data di vincolo di completamento dell&#39;attività.
+      * Quando la data di vincolo dell&#39;attività è precedente alla data di inizio pianificata del progetto, il vincolo dell&#39;attività viene impostato su Il più presto possibile.
+      * Quando la data vincolo dell&#39;attività è successiva alla data completamento pianificato del progetto, la data completamento pianificato del progetto viene modificata in modo da corrispondere alla data vincolo completamento dell&#39;attività.
 
-      * Quando il progetto di destinazione è programmato da completamento:
+      * Quando il progetto di destinazione è programmato dal completamento:
 
-         * Quando la data di vincolo dell&#39;attività è successiva alla data di completamento del progetto, il vincolo dell&#39;attività diventa il più tardi possibile.
-         * Quando la data di vincolo dell&#39;attività è precedente alla data di inizio pianificata del progetto, la data di inizio pianificata del progetto viene modificata in modo da corrispondere alla data di vincolo iniziale dell&#39;attività.
-      * Indipendentemente dalla pianificazione del progetto, quando la data del vincolo dell&#39;attività si trova entro le date di inizio e di completamento del progetto, non vi sono modifiche al Vincolo attività o alle date del progetto.
+         * Quando la data vincolo dell&#39;attività è successiva alla data di completamento del progetto, il vincolo attività diventa il più tardi possibile.
+         * Quando la data vincolo dell&#39;attività è precedente alla data inizio pianificata del progetto, la data inizio pianificata del progetto viene modificata in modo da corrispondere alla data vincolo inizio dell&#39;attività.
 
-   Per informazioni sullo spostamento delle attività, consulta [Sposta attività](../../../manage-work/tasks/manage-tasks/move-tasks.md). Per informazioni sulla copia delle attività, vedere [Copia e duplica le attività](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+      * Indipendentemente dalla programmazione del progetto, se la data vincolo dell&#39;attività è compresa tra le date di inizio e di completamento del progetto, non verranno apportate modifiche al vincolo attività o alle date del progetto.
 
-Per informazioni su come aggiornare il vincolo di attività su un&#39;attività, vedere [Aggiornare il vincolo di attività di un&#39;attività](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+  Per informazioni sullo spostamento delle attività, vedere [Sposta attività](../../../manage-work/tasks/manage-tasks/move-tasks.md). Per informazioni sulla copia delle attività, vedere [Copia e duplica attività](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+
+Per informazioni su come aggiornare il vincolo attività in un&#39;attività, vedere [Aggiornare il vincolo attività di un&#39;attività](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

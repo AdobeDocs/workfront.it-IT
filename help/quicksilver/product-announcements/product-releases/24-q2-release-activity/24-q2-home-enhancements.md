@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione del secondo trimestre 2024. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione con la versione del secondo trimestre 2024.
 
-Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rilascio del secondo trimestre 2024, consulta [Panoramica sulla versione del secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del secondo trimestre 2024, consulta [Panoramica sulla versione del secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
 ## Opzioni colonna aggiunte ai controlli amministratore per la nuova Home utilizzando i modelli di layout
 
@@ -26,4 +26,4 @@ Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rila
 
 Gli amministratori possono ora personalizzare le colonne disponibili per gli utenti in nuovi widget Home specifici utilizzando i modelli di layout. Le opzioni includono la possibilità di nascondere o visualizzare le colonne predefinite e di aggiungere campi esistenti come nuove colonne.
 
-Per ulteriori informazioni, consulta [Personalizzare la nuova Home utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).
+Per ulteriori informazioni, vedere [Personalizzare la nuova home utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).

@@ -4,13 +4,13 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: system-information
 title: Impostazioni lingua in [!DNL Workfront Proof]
-description: Come [!DNL Workfront Proof] amministratore, puoi scegliere la lingua da utilizzare in [!DNL Workfront Proof] per tutti gli utenti nel tuo account.
+description: In qualità di  [!DNL Workfront Proof] amministratore, puoi scegliere la lingua da utilizzare in [!DNL Workfront Proof] per tutti gli utenti del tuo account.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ca585494-5cda-4c41-b9b2-908e24d210d6
 source-git-commit: bf6c6c497d98d91ca78f892606a52f82ee4b5666
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '349'
 ht-degree: 2%
 
 ---
@@ -19,16 +19,16 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alla funzionalità del prodotto standalone [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Copertura](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
-Come [!DNL Workfront Proof] amministratore, puoi scegliere la lingua da utilizzare in [!DNL Workfront Proof] per tutti gli utenti nel tuo account.
+In qualità di amministratore di [!DNL Workfront Proof], puoi scegliere la lingua da utilizzare in [!DNL Workfront Proof] per tutti gli utenti del tuo account.
 
 ## Lingue supportate in [!DNL Workfront Proof]
 
 [!DNL Workfront Proof] è disponibile nelle seguenti lingue:
 
-* Inglese (USA / Regno Unito)
-* Brasiliano (portoghese)
+* Inglese (Stati Uniti / Regno Unito)
+* Brasiliano (Portoghese)
 * Cinese
 * Olandese
 * Francese
@@ -38,37 +38,37 @@ Come [!DNL Workfront Proof] amministratore, puoi scegliere la lingua da utilizza
 * Spagnolo
 * Svedese
 
-## Modificare la lingua predefinita in [!UICONTROL Impostazioni account]
+## Cambia la lingua predefinita in [!UICONTROL Impostazioni account]
 
-Per modificare la lingua predefinita del tuo account, segui i passaggi riportati di seguito.
+Per cambiare la lingua predefinita del tuo account, segui i passaggi indicati di seguito.
 
-1. Vai a **[!UICONTROL Dettagli]** scheda in **[!UICONTROL Impostazioni account]** in [!DNL Workfront Proof].
+1. Vai alla scheda **[!UICONTROL Dettagli]** in **[!UICONTROL Impostazioni account]** in [!DNL Workfront Proof].
 
-1. In **[!UICONTROL Dettagli account]** sezione, fai clic su **[!UICONTROL Modifica]** per **[!UICONTROL Lingua predefinita]** impostazioni.
+1. Nella sezione **[!UICONTROL Dettagli account]**, fai clic su **[!UICONTROL Modifica]** per le impostazioni di **[!UICONTROL Lingua predefinita]**.
 
-1. Nel menu a discesa seleziona la lingua predefinita.\
-   ![account_language_setting.png](assets/account-language-setting-350x230.png)
+1. Nel menu a discesa, seleziona la lingua predefinita.\
+   ![impostazione_lingua_account.png](assets/account-language-setting-350x230.png)
 
 1. Fai clic su **[!UICONTROL Salva].**
 
 ## Modifica della lingua predefinita in [!UICONTROL Impostazioni personali]
 
-Individuale [!DNL Workfront Proof] gli utenti possono specificare una lingua diversa da quella utilizzata per impostazione predefinita nel proprio account. Per modificare la lingua predefinita personale, segui i passaggi seguenti.
+I singoli utenti di [!DNL Workfront Proof] possono specificare una lingua diversa da quella utilizzata per impostazione predefinita nel proprio account. Per modificare la lingua predefinita personale, attieniti alla procedura seguente.
 
-1. Vai a **[!UICONTROL Dati personali]** nella scheda **[!UICONTROL Impostazioni personali]** in [!DNL Workfront Proof].\
-   Per ulteriori informazioni, consulta [Gestisci [!DNL Workfront Proof] utenti](../../../workfront-proof/wp-acct-admin/account-settings/manage-wp-users.md).
+1. Vai alla scheda **[!UICONTROL Dati personali]** nelle **[!UICONTROL Impostazioni personali]** in [!DNL Workfront Proof].\
+   Per ulteriori informazioni, vedi [Gestisci [!DNL Workfront Proof] utenti](../../../workfront-proof/wp-acct-admin/account-settings/manage-wp-users.md).
 
-1. Fai clic sulla lingua visibile nel **[!UICONTROL Lingua]** impostazione.
-1. Nel menu a discesa , seleziona la lingua preferita. La selezione verrà salvata automaticamente.\
-   ![personal_language_setting.png](assets/personal-language-setting-350x197.png)
+1. Fare clic sulla lingua visibile nell&#39;impostazione **[!UICONTROL Lingua]**.
+1. Nel menu a discesa, seleziona la lingua preferita. La selezione verrà salvata automaticamente.\
+   ![impostazioni_lingua_personale.png](assets/personal-language-setting-350x197.png)
 
-## Aggiungi Commenti Di Prova Utilizzando Alfabeto Non Latino
+## Aggiungi commenti bozza utilizzando un alfabeto non latino
 
 È possibile aggiungere commenti utilizzando un alfabeto diverso dalla lingua predefinita. Quando vengono visualizzati da un altro destinatario della bozza, i commenti vengono visualizzati nella lingua utilizzata per aggiungere il contenuto.
 
-È possibile scegliere tra i seguenti alfabeti:
+Puoi scegliere tra i seguenti alfabeti:
 
-* Script latino
+* alfabeto latino
 * Cinese
 * Coreano
 * Giapponese
@@ -77,14 +77,14 @@ Individuale [!DNL Workfront Proof] gli utenti possono specificare una lingua div
 * Arabo
 * Greco
 
-## Impostazioni lingua del visualizzatore di prova
+## Impostazioni lingua visualizzatore bozza
 
-La capacità di regolare la lingua nel visualizzatore di correzione dipende dal fatto che la persona che accede a una bozza sia un utente o un ospite.
+La possibilità di regolare la lingua nel visualizzatore di bozze dipende dal fatto che la persona che accede a una bozza sia un utente o un ospite.
 
-Per [!DNL Workfront Proof] utenti, il Visualizzatore di prove visualizza il contenuto nella lingua predefinita impostata nel relativo [!UICONTROL Impostazioni personali].
+Per [!DNL Workfront Proof] utenti, il Visualizzatore bozze visualizza il contenuto nella lingua predefinita impostata nelle [!UICONTROL Impostazioni personali].
 
-Per gli ospiti, il visualizzatore di correzione visualizza il contenuto nella lingua impostata dal proprietario della bozza nel [!UICONTROL Impostazioni personali].
+Per gli ospiti, il visualizzatore di bozze visualizza il contenuto nella lingua impostata dal proprietario della bozza nelle [!UICONTROL Impostazioni personali].
 
 >[!NOTE]
 >
->Se nell’account sono presenti azioni o decisioni personalizzate, queste verranno visualizzate nella lingua in cui sono state originariamente aggiunte, indipendentemente dalle preferenze linguistiche dei revisori.
+>Se nell’account sono presenti azioni o decisioni personalizzate, queste verranno visualizzate nella lingua in cui sono state originariamente aggiunte, indipendentemente dalle preferenze della lingua dei revisori.

@@ -49,12 +49,12 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Esempio: sostituisci il nome di un progetto in una vista progetto con un’immagine:
 
@@ -66,7 +66,6 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
    >* Evita l&#39;uso di immagini caricate su Workfront. Poiché le immagini memorizzate in Workfront non sono disponibili al pubblico e dispongono di una chiave di accesso che scade dopo un certo periodo di tempo, con il passare del tempo questa visualizzazione non viene più visualizzata.
    >* Un&#39;immagine salvata nel computer non ha un URL intrinseco. Trova un sito che fornisca hosting di immagini e ospiti la tua immagine lì. È possibile che l&#39;organizzazione disponga già di un sito di questo tipo.
 
-
 1. Utilizzando il browser Web, accedi all’immagine salvata.
 1. Per ottenere l’URL dell’immagine, effettua le seguenti operazioni:
 
@@ -74,14 +73,14 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: I used this blog post to document what kind of image we need for this: https://www.canto.com/blog/image-url/ (consulting uses this)) </p>
    -->
 
-   1. Fai clic con il pulsante destro del mouse e seleziona (Copia negli Appunti) **Copia posizione immagine**, o **Ottieni collegamento**, a seconda del browser. Ora disponi dell’URL per quell’immagine specifica e puoi incollarla dagli Appunti.
+   1. Fai clic con il pulsante destro del mouse e seleziona **Copia percorso immagine** o **Ottieni collegamento**, a seconda del browser in uso. Ora disponi dell’URL per quell’immagine specifica e puoi incollarla dagli Appunti.
    1. Assicurati che tutti coloro che dispongono di quel collegamento siano autorizzati a visualizzare l’immagine semplicemente andando sul collegamento e che non abbiano bisogno di un accesso per accedervi.
 
-1. Vai a un progetto, fai clic su **Altro** menu ![](assets/more-icon-45x33.png) accanto al nome del progetto, quindi fai clic su **Modifica**.
+1. Vai a un progetto, fai clic sul menu **Altro** ![](assets/more-icon-45x33.png) accanto al nome del progetto, quindi fai clic su **Modifica**.
 
-1. In **URL** , aggiungi il collegamento all&#39;immagine.
+1. Aggiungi il collegamento all&#39;immagine nel campo **URL**.
 1. Passare a una visualizzazione di progetto in un elenco o in un report e personalizzare la visualizzazione.
-1. Fai clic sull’intestazione della colonna per il **Nome progetto**, quindi fai clic su **Passa alla modalità testo**.
+1. Fai clic sull&#39;intestazione della colonna per il **Nome progetto**, quindi fai clic su **Passa a modalità testo**.
 
 1. Aggiungi il seguente codice alla colonna del codice esistente:
 
@@ -135,4 +134,4 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 
    L&#39;immagine selezionata sostituisce il nome del progetto nella vista Progetto e l&#39;immagine è un collegamento al progetto.
 
-1. Clic **Salva visualizzazione**.
+1. Fai clic su **Salva vista**.

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti per dispositivi mobili in arrivo con la versione 21.1. Questi miglioramenti saranno resi disponibili nei negozi mobili nella settimana del 15 febbraio 2021.
 
-Per un elenco di tutte le modifiche disponibili con la versione 21.1, consulta [Panoramica sulla versione 21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 21.1, consulta la [panoramica sulla versione 21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Nuove breadcrumb di navigazione nell’app Adobe Workfront
 
@@ -27,10 +27,10 @@ Abbiamo aggiunto la navigazione breadcrumb all’app mobile Workfront. Ora è po
 
 Ora è possibile utilizzare la formattazione RTF nei campi di testo del modulo personalizzato nell’app mobile di Workfront.
 
-Per ulteriori informazioni su come creare un modulo personalizzato con campi di testo, consulta [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Per ulteriori informazioni su come creare un modulo personalizzato con campi di testo, vedere [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 ## Gli utenti SSO possono ora accedere nuovamente all’app Workfront con tecnologia Face ID o Fingerprint
 
 Se la tua organizzazione utilizza l&#39;SSO, ora puoi utilizzare il tuo Face ID o l&#39;impronta digitale per accedere all&#39;app mobile di Workfront dopo il timeout della sessione. Devi accedere con le tue credenziali SSO inizialmente però.
 
-Per informazioni su come accedere all’app mobile Workfront con SSO, consulta [Accedere ad Adobe Workfront](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
+Per informazioni su come accedere all&#39;app mobile Workfront con SSO, vedere [Accedere ad Adobe Workfront](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).

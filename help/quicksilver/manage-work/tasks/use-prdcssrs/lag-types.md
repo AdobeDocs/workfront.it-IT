@@ -94,15 +94,15 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 ### Indicare i tipi di ritardo nella sezione Predecessori di un&#39;attività {#indicate-lag-types-in-the-predecessors-section-of-a-task}
 
 1. Passare a un&#39;attività per la quale si desidera definire il predecessore e il Tipo di Lag.
-1. Clic **Predecessori** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro**, e quindi **Predecessori**.
-1. Clic **Aggiungi predecessore**.
-1. (Facoltativo) Se desideri aggiungere un predecessore per più progetti, sostituisci il **Progetto principale** con un altro progetto.
+1. Fai clic su **Predecessori** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro** e quindi su **Predecessori**.
+1. Fai clic su **Aggiungi predecessore**.
+1. (Facoltativo) Se desideri aggiungere un predecessore per più progetti, sostituisci il nome del **progetto principale** con un altro progetto.
 1. Inizia a digitare il nome dell&#39;attività predecessore, quindi selezionalo quando viene visualizzato nell&#39;elenco.
-1. Seleziona la **Tipo di dipendenza**.
+1. Selezionare il **tipo di dipendenza**.
 
-   Per ulteriori informazioni sui tipi di dipendenza predecessori, vedere [Panoramica dei tipi di relazione tra attività](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+   Per ulteriori informazioni sui tipi di dipendenza predecessori, vedere [Panoramica sui tipi di relazione tra attività](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-1. Specifica un **Lag** quantità utilizzando un valore numerico. È possibile specificare numeri negativi per indicare un ritardo negativo.
+1. Specificare un valore di **Lag** utilizzando un valore numerico. È possibile specificare numeri negativi per indicare un ritardo negativo.
 1. Seleziona tra le seguenti opzioni per identificare il tipo di ritardo che desideri indicare per il tuo predecessore:
 
    * **Giorni**
@@ -111,30 +111,30 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    * **Giorno della settimana**
    * **Giorno della settimana (diverso da zero)**
 
-     Per ulteriori informazioni su questi tipi di Lag e su come vengono calcolati, consulta la sezione [Tipi di Lag](#lag-types) in questo articolo.
+     Per ulteriori informazioni su questi tipi di Lag e su come vengono calcolati, vedere la sezione [Tipi di Lag](#lag-types) in questo articolo.
 
 1. Fai clic su **Salva**.
 
 ### Indicare i tipi di ritardo in un elenco delle attività  {#indicate-lag-types-in-a-task-list}
 
-1. Passare a un elenco di attività e selezionare **Standard** visualizzazione.
+1. Passare a un elenco di attività e selezionare la visualizzazione **Standard**.
 
-1. Fai clic all’interno del **Predecessori** colonna corrispondente all&#39;attività per la quale si desidera specificare un predecessore e un ritardo.
+1. Fai clic nella colonna **Predecessori** corrispondente all&#39;attività per la quale desideri specificare un predecessore e un ritardo.
 1. Immetti quanto segue senza spazi:
 
    * numero dell&#39;attività che si desidera indicare come predecessore dell&#39;attività selezionata
    * abbreviazione del tipo di relazione che si desidera indicare tra le attività
 
-     Per ulteriori informazioni sulle abbreviazioni per i tipi di dipendenza, vedere [Panoramica dei tipi di relazione tra attività](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+     Per ulteriori informazioni sulle abbreviazioni per i tipi di dipendenza, vedere [Panoramica sui tipi di relazione tra attività](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
    * un **+** per un ritardo positivo o un **-** per un ritardo negativo
 
    * l&#39;ammontare del ritardo
    * l’abbreviazione del Tipo di Lag che desideri utilizzare
 
-     Per ulteriori informazioni sulle abbreviazioni per Lag Types, consulta la sezione [Tipi di Lag](#lag-types) in questo articolo.
+     Per ulteriori informazioni sulle abbreviazioni per i tipi di Lag, vedere la sezione [Tipi di Lag](#lag-types) in questo articolo.
 
-   Ad esempio, per indicare che un&#39;attività ha un predecessore e un ritardo positivo di 2 giorni, è necessario immettere `1fs+2d` nella colonna Predecessori.
+   Ad esempio, per indicare che un&#39;attività ha un predecessore e un ritardo positivo di 2 giorni, immettere `1fs+2d` nella colonna Predecessori.
 
 1. Premi Invio sulla tastiera per salvare le modifiche apportate all’attività.
 

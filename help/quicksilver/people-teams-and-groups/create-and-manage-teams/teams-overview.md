@@ -18,20 +18,20 @@ ht-degree: 0%
 
 <!-- Audited: 01/2024 -->
 
-Scopo di un team in [!DNL Adobe Workfront] acquisire la dinamica reale dei gruppi di lavoro funzionali sul posto di lavoro.
+Lo scopo di un team in [!DNL Adobe Workfront] è acquisire la dinamica reale dei gruppi di lavoro funzionali sul posto di lavoro.
 
-Per informazioni su come utilizzare i team invece dei gruppi, consulta [Gruppi e team in [!DNL Adobe Workfront]](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md).
+Per informazioni su quando utilizzare i team invece dei gruppi, vedi [Gruppi e team in [!DNL Adobe Workfront]](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md).
 
 ## Organizzazione team
 
-A [!DNL Workfront Team] è diverso da un team di progetto. [!DNL Workfront] i team includono persone con diversi ruoli o scopi, che sono affiliate funzionalmente e organizzate in un&#39;unità di lavoro. Un singolo utente può appartenere a più team. I membri del team possono corrispondere alle relazioni dell&#39;organigramma, ma possono anche essere visualizzati all&#39;esterno della struttura del reparto.
+Un [!DNL Workfront Team] è diverso da un team di progetto. [!DNL Workfront] team includono persone con diversi ruoli o scopi, che sono affiliate funzionalmente e organizzate in un&#39;unità di lavoro. Un singolo utente può appartenere a più team. I membri del team possono corrispondere alle relazioni dell&#39;organigramma, ma possono anche essere visualizzati all&#39;esterno della struttura del reparto.
 
 ## Creazione team
 
-I team vengono in genere creati da un [!DNL Workfront] , ma un utente con l’accesso appropriato può anche creare dei team. Una volta creato un team, il Project Manager può assegnare un intero team a un&#39;attività invece di decidere un singolo utente o una mansione. Per ulteriori informazioni, consulta [Creare un team](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/create-a-team.md).
+I team vengono in genere creati da un amministratore [!DNL Workfront], ma un utente con l&#39;accesso appropriato può anche creare i team. Una volta creato un team, il Project Manager può assegnare un intero team a un&#39;attività invece di decidere un singolo utente o una mansione. Per ulteriori informazioni, vedere [Creare un team](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 
 ## Assegnazioni team
 
 Un Project Manager non sempre sa quale individuo completerà un&#39;assegnazione, ma semplicemente che una determinata unità di lavoro o un determinato team completa un lavoro di quella specifica natura.
 
-I membri di un team assegnato possono anche accedere a [!UICONTROL Team] > [!UICONTROL Team] Richieste e visualizzare le attività assegnate al relativo team. Possono valutare l&#39;impatto di un compito e si offrono come volontari per lavorarci. Per ulteriori informazioni, consulta [Panoramica delle richieste dei team](/help/quicksilver/people-teams-and-groups/work-with-team-requests/team-requests-overview.md).
+I membri di un team assegnato possono anche accedere all&#39;area [!UICONTROL Team] > [!UICONTROL Team] Richieste e visualizzare le attività assegnate al proprio team. Possono valutare l&#39;impatto di un compito e si offrono come volontari per lavorarci. Per ulteriori informazioni, vedere [Panoramica delle richieste team](/help/quicksilver/people-teams-and-groups/work-with-team-requests/team-requests-overview.md).

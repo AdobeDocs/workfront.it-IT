@@ -91,12 +91,12 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 1. Creare una Regola di indirizzamento, un Gruppo di argomenti e un modulo personalizzato, se si intende associarli all&#39;Argomento coda.\
    Per ulteriori informazioni su come creare Regole di indirizzamento, Gruppi di argomenti o moduli personalizzati, consulta i seguenti articoli:
 
-   * [Creare regole di instradamento](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
+   * [Crea regole di routing](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
    * [Crea gruppi di argomenti](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
    * [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
 
 1. Passare al progetto che si è scelto di abilitare come coda di richieste di aiuto e dove si desidera creare un nuovo argomento della coda.\
-   Per ulteriori informazioni su come designare un progetto come coda di richieste di aiuto, consultate [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   Per ulteriori informazioni su come designare un progetto come coda di richieste di assistenza, vedere [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
    È possibile organizzare gli argomenti correlati della coda in un gruppo di argomenti. In questo modo il richiedente disporrà di una serie di menu a discesa quando effettua una richiesta.
 
@@ -104,11 +104,11 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    È possibile nidificare gli argomenti della coda direttamente sotto il progetto designato come coda di richieste di aiuto, senza un gruppo di argomenti.
 
-   Per informazioni sulla creazione di gruppi di argomenti, vedere [Crea gruppi di argomenti](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
+   Per informazioni sulla creazione di gruppi di argomenti, vedere [Creare gruppi di argomenti](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
-1. Clic **Argomenti Coda** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro**, quindi **Argomenti Coda**.
-1. Clic **Nuovo argomento coda**.
-1. Il giorno **Nuovo argomento coda** immetti quanto segue:
+1. Fai clic su **Argomenti coda** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro**, quindi su **Argomenti coda**.
+1. Fare clic su **Nuovo argomento coda**.
+1. Nel modulo **Nuovo argomento coda** immettere quanto segue:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -123,18 +123,18 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       <td>Descrivere la coda di richieste. La descrizione viene visualizzata quando gli utenti selezionano l’argomento della coda durante il processo di invio di una nuova richiesta. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Aggiungi a gruppo di argomenti</strong> </td> 
-      <td> Se nel progetto non sono presenti gruppi di argomenti, il nome predefinito del progetto sarà Gruppo di argomenti.<br>Se si desidera creare gruppi di argomenti aggiuntivi da qui, selezionare <strong>Crea nuovo gruppo di argomenti</strong> dal menu a discesa.<br><img src="assets/create-new-topic-group-within-queue-topic-350x203.png" alt="create_new_topic_group_within_queue_topic.png" style="width: 350;height: 203;"></td> 
+      <td role="rowheader"><strong>Aggiungi al gruppo di argomenti</strong> </td> 
+      <td> Se nel progetto non sono presenti gruppi di argomenti, il nome predefinito del progetto sarà Gruppo di argomenti.<br>Per creare altri gruppi di argomenti da qui, selezionare <strong>Crea nuovo gruppo di argomenti</strong> dal menu a discesa.<br><img src="assets/create-new-topic-group-within-queue-topic-350x203.png" alt="create_new_topic_group_within_queue_topic.png" style="width: 350;height: 203;"></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Moduli personalizzati</strong> </td> 
-      <td>Selezionare i moduli personalizzati da associare all'argomento della coda. È necessario creare moduli personalizzati per i problemi prima di associarli agli argomenti della coda. Per informazioni sulla creazione di moduli personalizzati, consulta <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Creare o modificare un modulo personalizzato</a>.</td> 
+      <td>Selezionare i moduli personalizzati da associare all'argomento della coda. È necessario creare moduli personalizzati per i problemi prima di associarli agli argomenti della coda. Per informazioni sulla creazione di moduli personalizzati, vedere <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Creare o modificare un modulo personalizzato</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Approvazione predefinita</strong></td> 
-      <td> <p>Associa un processo di approvazione a questo argomento della coda. In questo menu a discesa sono visibili solo i processi di approvazione del problema. Tutti i problemi inviati a questa coda saranno associati a questo processo di approvazione. Prima di poter associare i processi di approvazione a livello di sistema agli argomenti della coda, l'amministratore di Adobe Workfront deve definirli. <span>Un utente con accesso amministrativo ai processi di approvazione può anche creare processi di approvazione specifici per il gruppo.</span> Per ulteriori informazioni sulla creazione di processi di approvazione, vedere <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Creare un processo di approvazione per gli elementi di lavoro</a>.<br></p> 
+      <td> <p>Associa un processo di approvazione a questo argomento della coda. In questo menu a discesa sono visibili solo i processi di approvazione del problema. Tutti i problemi inviati a questa coda saranno associati a questo processo di approvazione. Prima di poter associare i processi di approvazione a livello di sistema agli argomenti della coda, l'amministratore di Adobe Workfront deve definirli. <span>Un utente con accesso amministrativo ai processi di approvazione può inoltre creare processi di approvazione specifici per il gruppo.</span> Per ulteriori informazioni sulla creazione di processi di approvazione, vedere <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Creare un processo di approvazione per gli elementi di lavoro</a>.<br></p> 
        <div> 
-        <p>Importante: se il gruppo del progetto cambia, il processo di approvazione specifico del gruppo allegato ai problemi esistenti diventa un processo di approvazione a utente singolo. Per ulteriori informazioni su come le modifiche al gruppo del progetto o le modifiche nel processo di approvazione influiscono sulle impostazioni di approvazione, vedi <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Effetti delle modifiche al gruppo e al processo di approvazione sui processi di approvazione assegnati</a>.</p> 
+        <p>Importante: se il gruppo del progetto cambia, il processo di approvazione specifico del gruppo allegato ai problemi esistenti diventa un processo di approvazione a utente singolo. Per ulteriori informazioni su come le modifiche al gruppo del progetto o le modifiche al processo di approvazione influiscono sulle impostazioni di approvazione, vedere <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Come le modifiche al gruppo e al processo di approvazione influiscono sui processi di approvazione assegnati</a>.</p> 
         <p>Quando aggiungi processi di approvazione agli argomenti in coda, tieni presente quanto segue: </p> 
         <ul style="list-style-type: circle;"> 
          <li>Nell'elenco vengono visualizzati solo i processi di approvazione attivi. </li> 
@@ -147,16 +147,16 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       <td>Questa è la durata predefinita della richiesta e la data di completamento pianificata della richiesta viene calcolata in base a questo valore.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Percorso predefinito</strong> </td> 
-      <td>Specificare la regola di routing da associare all'argomento coda. È necessario creare la regola di routing prima di allegarla a un Argomento coda. Per informazioni, consulta <a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md">Creare regole di instradamento</a>. </td> 
+      <td role="rowheader"><strong>Route predefinita</strong> </td> 
+      <td>Specificare la regola di routing da associare all'argomento coda. È necessario creare la regola di routing prima di allegarla a un Argomento coda. Per informazioni, vedere <a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md">Creare regole di routing</a>. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Tipi di richieste</strong> </td> 
-      <td> <p>Scegliere il tipo di richieste archiviate dall'argomento coda. Le opzioni visibili sono impostate su <strong>Dettagli coda</strong> del progetto. Questo è un campo obbligatorio. </p>
+      <td role="rowheader"><strong>Tipi di richiesta</strong> </td> 
+      <td> <p>Scegliere il tipo di richieste archiviate dall'argomento coda. Le opzioni visibili sono impostate nella scheda <strong>Dettagli coda</strong> del progetto. Questo è un campo obbligatorio. </p>
 
    <p><b>NOTA</b>:
 
-   I tipi vengono visualizzati come selezione nell&#39;area Richieste solo se il tipo di richiesta è selezionato nelle pagine Dettagli coda e Argomento coda. Per informazioni sulla configurazione dell’area Dettagli coda di un progetto, consulta <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Creare una coda di richieste</a>. </p> <p>Selezionare uno dei tipi seguenti:</p>
+   I tipi vengono visualizzati come selezione nell&#39;area Richieste solo se il tipo di richiesta è selezionato nelle pagine Dettagli coda e Argomento coda. Per informazioni sulla configurazione dell&#39;area Dettagli coda di un progetto, vedere <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Creare una coda di richieste</a>. </p> <p>Selezionare uno dei tipi seguenti:</p>
    <ul>
    <li>Segnalazione Bug</li>
    <li>Richiesta di Modifica</li>

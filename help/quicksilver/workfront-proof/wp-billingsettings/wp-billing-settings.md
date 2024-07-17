@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: workfront-proof-navigation-topic
-title: Impostazioni fatturazione bozza Workfront
-description: Ulteriori informazioni sulla fatturazione Workfront Proof.
+title: Impostazioni fatturazione Workfront Proof
+description: Ulteriori informazioni sulla fatturazione di Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Workfront Proof] Impostazioni fatturazione
+# Impostazioni fatturazione [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alle funzionalità del prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Bozza](../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../review-and-approve-work/proofing/proofing.md).
 
 Questa sezione contiene le seguenti sottosezioni:
 

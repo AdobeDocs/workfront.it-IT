@@ -1,6 +1,6 @@
 ---
-title: Verifica delle limitazioni della collaborazione con persone esterne all’organizzazione
-description: Verifica delle limitazioni della collaborazione con persone esterne all’organizzazione
+title: Verifica dei limiti di collaborazione con persone esterne all’organizzazione
+description: Verifica dei limiti di collaborazione con persone esterne all’organizzazione
 author: Courtney
 draft: Probably
 source-git-commit: de30bd970bda06c706e5156d5195e8568558e593
@@ -10,30 +10,30 @@ ht-degree: 0%
 
 ---
 
-# Verifica delle limitazioni della collaborazione con persone esterne all’organizzazione
+# Verifica dei limiti di collaborazione con persone esterne all’organizzazione
 
-Durante la comunicazione con persone esterne all’organizzazione è necessario tenere presenti alcune limitazioni quando queste vengono aggiunte a una bozza, in particolare se la persona al di fuori dell’organizzazione dispone dell’accesso per le prove in un ambiente separato.
+Esistono alcune limitazioni di cui tenere conto nelle comunicazioni con persone esterne all’organizzazione quando vengono aggiunte a una bozza, in particolare se la persona esterna all’organizzazione dispone dell’accesso alle bozze in un ambiente separato.
 
-## Contatti con la distinzione di membro
+## Contatti con la distinzione degli Stati membri
 
-Esistono tre tipi di contatti in un ambiente di correzione:
+In un ambiente di verifica esistono tre tipi di contatti:
 
-* **Utenti**: Gli utenti dispongono di un accesso Workfront Proof nell’ambiente della tua organizzazione.
-* **Membri**: I membri dispongono del proprio accesso Workfront Proof nell’ambiente di un’altra organizzazione (non il proprio). Non è possibile convertire i membri in utenti nel proprio ambiente.
-* **Ospiti**: Gli ospiti non dispongono del proprio accesso Workfront Proof nell’ambiente della tua organizzazione, ma hai aggiunto i loro dettagli al tuo account (ad esempio, revisori ospiti sulle bozze). Puoi convertire gli ospiti in utenti.
+* **Utenti**: gli utenti dispongono di un accesso a Workfront Proof nell&#39;ambiente della tua organizzazione.
+* **Membri**: i membri dispongono del proprio accesso a Workfront Proof nell&#39;ambiente di un&#39;altra organizzazione (non nel proprio). Non è possibile convertire i membri in utenti nell&#39;ambiente.
+* **Ospiti**: gli ospiti non dispongono del proprio accesso a Workfront Proof nell&#39;ambiente della tua organizzazione, ma hai aggiunto i loro dettagli al tuo account (ad esempio, i revisori ospiti sulle bozze). Puoi convertire gli ospiti in utenti.
 
-Poiché i membri non possono essere convertiti in utenti, la loro capacità di assegnare tag alle persone nei commenti della bozza è limitata agli utenti di *organizzazione originale*.
+Poiché i membri non possono essere convertiti in utenti, la possibilità di assegnare tag alle persone nei commenti della bozza è limitata agli utenti della *organizzazione originale*.
 
-**Esempio:** La società A invita un utente esterno a rivedere una bozza. Questo utente esiste già in un ambiente di prova separato, la società B.
-
- 
-
-Quando la società A invita l&#39;utente esterno alla bozza, l&#39;utente esterno viene aggiunto all&#39;elenco dei contatti della società A come membro. I revisori nel flusso di lavoro di prova della società A possono assegnare all&#39;utente esterno un tag nei commenti di prova perché si trovano nella directory dei contatti della società A.
+**Esempio:** la società A invita un utente esterno a rivedere una bozza. Questo utente esiste già in un ambiente di bozza separato, Società B.
 
  
 
-L&#39;utente esterno non può assegnare tag agli utenti della società A, anche se si trovano nello stesso flusso di lavoro di prova, perché gli utenti della società A non sono stati aggiunti come contatti alla società B.
+Quando la società A invita l’utente esterno alla bozza, quest’ultimo viene aggiunto all’elenco dei contatti della società A in qualità di membro. I revisori nel flusso di lavoro delle bozze dalla società A possono assegnare tag all’utente esterno nei commenti della bozza perché si trovano ora nella directory dei contatti della società A.
 
  
 
-L&#39;utente esterno della società B può assegnare tag ad altri utenti della società B se si trovano nel flusso di lavoro di prova o se dispongono dell&#39;autorizzazione per condividere la bozza con nuovi utenti, perché questi utenti esistono come contatti nella società B.
+L’utente esterno non può assegnare tag agli utenti della società A, anche se si trovano nello stesso flusso di lavoro della bozza, perché gli utenti della società A non sono stati aggiunti come contatti alla società B.
+
+ 
+
+L’utente esterno della Società B può assegnare tag ad altri utenti della Società B se si trovano nel flusso di lavoro della bozza o se dispone dell’autorizzazione per condividere la bozza con i nuovi utenti, in quanto tali utenti esistono come contatti nella Società B.

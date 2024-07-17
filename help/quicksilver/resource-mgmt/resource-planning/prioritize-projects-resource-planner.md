@@ -1,32 +1,32 @@
 ---
 product-area: resource-management;projects
 navigation-topic: resource-planning
-title: Assegnare priorità ai progetti nel planner risorse
-description: I progetti sono elencati in ordine di priorità nel Planner risorse con il progetto più importante nella parte superiore.
+title: Assegna priorità ai progetti nella Programmazione delle risorse
+description: I progetti sono elencati in ordine di priorità nella Programmazione delle risorse, con il progetto più importante in alto.
 author: Alina
 feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
 source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1323'
 ht-degree: 1%
 
 ---
 
-# Assegnare priorità ai progetti nel planner risorse
+# Assegna priorità ai progetti nella Programmazione delle risorse
 
-I progetti sono elencati in ordine di priorità nel Planner risorse con il progetto più importante nella parte superiore.
+I progetti sono elencati in ordine di priorità nella Programmazione delle risorse, con il progetto più importante in alto.
 
 ## Requisiti di accesso
 
-Devi disporre dei seguenti elementi:
+Devi avere i seguenti:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Pro e superiore</p> </td> 
   </tr> 
   <tr> 
@@ -34,85 +34,85 @@ Devi disporre dei seguenti elementi:
    <td> <p>Piano </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Modifica l'accesso a Gestione risorse che include l'accesso a Modifica priorità e ore di budget nel Planner risorse</p> <p>Modificare l’accesso a Dati finanziari, Progetti e Utenti</p> <p><b>NOTA</b>
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modifica l'accesso a Gestione risorse, incluso l'accesso a Modifica priorità e ore preventivate nella Programmazione risorse</p> <p>Modifica accesso a dati finanziari, progetti e utenti</p> <p><b>NOTA</b>
 
-Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
+Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Consente di gestire le autorizzazioni per i progetti per i quali si desidera assegnare il budget alle informazioni con la possibilità di gestire le finanze</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per i progetti per i quali si desidera preventivare le informazioni con la possibilità di gestire le finanze</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
-## Ordine predefinito dei progetti nel Planner risorse
+## Ordine predefinito dei progetti nella Programmazione delle risorse
 
-Per impostazione predefinita, i progetti sono elencati nella Vista progetto del Planner risorse tenendo conto dei criteri riportati di seguito.
+Per impostazione predefinita, i progetti sono elencati nella Vista progetto della Programmazione delle risorse tenendo conto dei criteri riportati di seguito.
 
 >[!IMPORTANT]
 >
->I progetti vengono elencati in base ai tre criteri seguenti solo la prima volta che si apre il Planner risorse. Tuttavia, questa priorità predefinita diventa automaticamente la priorità personalizzata e non può essere ripristinata alla priorità originale ogni volta che si esegue una delle seguenti operazioni:
+>I progetti vengono elencati in base ai tre criteri riportati di seguito solo la prima volta che si apre la Programmazione delle risorse. Tuttavia, questa priorità predefinita diventa automaticamente la tua priorità personalizzata e non può essere ripristinata alla priorità originale quando effettui una delle seguenti operazioni:
 >
 >* Quando fai clic su Salva in qualsiasi momento.
->* Quando si modifica manualmente la priorità di pianificazione del progetto. Per informazioni sulla modifica manuale della priorità di pianificazione del progetto, consulta la sezione [Modificare manualmente la priorità di pianificazione del progetto](#manually-change-the-project-planning-priority) in questo articolo.
+>* Quando si modifica manualmente la priorità di pianificazione del progetto. Per informazioni sulla modifica manuale della priorità di pianificazione del progetto, vedere la sezione [Modificare manualmente la priorità di pianificazione del progetto](#manually-change-the-project-planning-priority) in questo articolo.
 >
->Una volta che la priorità del progetto diventa la priorità personalizzata, eventuali modifiche nelle informazioni del progetto non influiscono più sull’ordine dei progetti che utilizzano questi criteri. In seguito, puoi assegnare priorità ai progetti solo manualmente.
+>Quando la priorità del progetto diventa personalizzata, eventuali modifiche apportate alle informazioni del progetto non influiscono più sull’ordine dei progetti che utilizzano questi criteri. Dopodiché, puoi assegnare la priorità ai progetti solo manualmente.
 
-I criteri predefiniti originali per elencare i progetti nella visualizzazione Progetto sono i seguenti, in questo ordine:
+I criteri predefiniti originali per l’elenco dei progetti nella visualizzazione Progetto sono i seguenti, nell’ordine indicato:
 
-1. Punteggio di allineamento sul progetto.\
-   Per ulteriori informazioni sul punteggio di allineamento del progetto, consulta [Applicare una scorecard a un progetto e generare un punteggio di allineamento](../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md) .
+1. In base al punteggio di allineamento sul progetto.\
+   Per ulteriori informazioni sul punteggio di allineamento del progetto, vedere [Applicare una scorecard a un progetto e generare un punteggio di allineamento](../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md) .
 
-1. In base alla data di inizio prevista del progetto (se il campo Allineamento è nullo o corrisponde a più progetti).
-1. Alfabeticamente (se il campo Allineamento è null o è lo stesso e la data di inizio pianificato è la stessa per diversi progetti).
+1. Dalla data di inizio pianificata del progetto (se il campo Allineamento è nullo o è lo stesso per diversi progetti).
+1. In ordine alfabetico (se il campo Allineamento è nullo o è lo stesso e la data di inizio pianificata è la stessa per diversi progetti).
 
-Quando si lavora con le priorità del progetto nel Planner risorse, tenere presente quanto segue:
+Quando si lavora con le priorità del progetto nella Programmazione risorse, considera quanto segue:
 
-* Puoi personalizzare manualmente la priorità del progetto solo quando applichi la visualizzazione Progetto. Viene inoltre modificato l’ordine dei progetti nel Planner risorse.
-* Quando si applicano le visualizzazioni Ruolo o Utente nel Planner risorse, i progetti vengono visualizzati nello stesso ordine di priorità stabilito nella visualizzazione Progetto.
-* L’ordine dei progetti nel Planner risorse è univoco per te. Altri utenti possono visualizzare gli stessi progetti nel Planner risorse, ma in un ordine diverso. Non è possibile creare rapporti sul campo Priorità pianificazione progetto. Questo è visibile solo nel Planner risorse e funge da flag per assegnare la priorità ai progetti.
+* È possibile personalizzare manualmente la priorità del progetto solo quando si applica la Vista progetto. Questo cambia anche l&#39;ordine dei progetti nella Programmazione delle risorse.
+* Quando si applicano le visualizzazioni Ruolo o Utente nella Programmazione delle risorse, i progetti vengono visualizzati nello stesso ordine di priorità stabilito nella Visualizzazione Progetto.
+* L&#39;ordine dei progetti nella Programmazione delle risorse è univoco. Gli altri utenti possono visualizzare gli stessi progetti nella Programmazione delle risorse, ma in un ordine diverso. Non è possibile creare rapporti sul campo Priorità pianificazione progetto. È visibile solo nella Programmazione delle risorse e serve come indicatore per assegnare la priorità ai progetti.
 
-I progetti associati a un portfolio possono avere una priorità a livello di portfolio. È possibile abilitare la visualizzazione della priorità del portfolio di un progetto nel Planner risorse, oltre alla priorità Planner risorse. Puoi anche ordinare i progetti in base alla loro priorità di portafoglio.
+I progetti associati a un portfolio potrebbero avere una priorità a livello di portfolio. È possibile abilitare la visualizzazione della priorità del portfolio di un progetto nella Programmazione delle risorse, oltre alla priorità della Programmazione delle risorse. Puoi anche ordinare i progetti in base alla loro priorità di portfolio.
 
 ## Modificare manualmente la priorità di pianificazione del progetto {#manually-change-the-project-planning-priority}
 
-Per riordinare i progetti in Resource Planner è necessario disporre dell&#39;accesso Modifica a Gestione risorse e delle autorizzazioni Gestione risorse per i progetti.
+Per riordinare i progetti in Pianificazione risorse, è necessario disporre dell&#39;accesso in Modifica a Gestione risorse e delle autorizzazioni Gestione risorse per i progetti.
 
-Attribuendo ai progetti una nuova priorità, puoi classificarli in ordine di importanza.
+Assegnando una nuova priorità ai progetti, è possibile classificarli in ordine di importanza.
 
-Per modificare la priorità di pianificazione del progetto:
+Per modificare la Priorità di pianificazione del progetto:
 
-1. Vai a **Planner risorse**.
+1. Vai alla **Programmazione risorse**.
 
 1. Fare clic all&#39;interno del campo a sinistra del nome del progetto che contiene un numero e immettere un numero per modificare la priorità di pianificazione, quindi premere Invio.\
    ![](assets/mceclip4.png)\
    Oppure\
-   Passa il puntatore del mouse sul nome del progetto e fai clic sull’indicatore a sinistra del nome del progetto, trascinalo e rilascialo nel punto corretto per modificare la priorità.
+   Passa il puntatore del mouse sul nome del progetto, fai clic sull’indicatore a sinistra del nome del progetto, trascinalo e rilascialo nel punto corretto per modificare la priorità.
 
-   ![drag_and_drop_projects_RP_1_.png](assets/drag-and-drop-projects-rp--1--350x184.png)
+   ![drag_and_drop_projects_RP__1_.png](assets/drag-and-drop-projects-rp--1--350x184.png)
 
-   Quando selezioni i numeri per assegnare priorità ai progetti, seleziona i numeri più bassi per le priorità più importanti e quelli più alti per le priorità più basse (meno importanti). Quando si modifica il numero di priorità di un progetto in un numero inferiore (priorità più elevata), tutti gli altri progetti nel Planner risorse vengono spostati verso il basso nell’elenco (diventano meno importanti).\
-   Quando si modifica il numero di priorità di un progetto in un numero maggiore (priorità inferiore), tutti gli altri progetti nel Planner risorse vengono inseriti nell’elenco (diventano più importanti).
+   Quando selezioni i numeri per assegnare la priorità ai progetti, seleziona numeri più bassi per priorità più alte (più importanti) e numeri più alti per priorità più basse (meno importanti). Quando modifichi il numero di priorità di un progetto in un numero inferiore (priorità più alta), tutti gli altri progetti nella Programmazione delle risorse vengono spostati verso il basso nell’elenco (diventa meno importante).\
+   Quando si modifica il numero di priorità di un progetto in un numero più alto (priorità inferiore), tutti gli altri progetti nella Programmazione delle risorse vengono spostati verso l&#39;alto nell&#39;elenco (diventa più importante).
 
 1. Fai clic su **Salva**.\
-   L’ordine dei progetti cambia in base alle selezioni effettuate e questo diventa la priorità del progetto personalizzato nel Planner risorse. Altri utenti non possono visualizzare l&#39;ordine di priorità dei progetti nel Planner risorse, anche se potrebbero visualizzare gli stessi progetti nei rispettivi Planner risorse.
+   L’ordine dei progetti cambia in base alle selezioni effettuate e questa diventa la priorità del progetto personalizzato nella Programmazione delle risorse. Gli altri utenti non possono visualizzare l&#39;ordine di priorità per i progetti nella Programmazione delle risorse, anche se potrebbero essere in grado di visualizzare gli stessi progetti nella Programmazione delle risorse.
 
-## Ordinare i progetti in base alla priorità Portfolio nel planner risorse
+## Ordinare i progetti in base alla loro priorità di Portfolio nella Programmazione delle risorse
 
 >[!IMPORTANT]
 >
->La tua azienda deve disporre di un piano Business o Workfront superiore per assegnare la priorità ai progetti in Portfoli Optimizer.
+>L&#39;azienda deve disporre di un piano Business o Workfront di livello superiore per assegnare la priorità ai progetti in Ottimizzatore Portfolio.
 >
->Per ulteriori informazioni sui piani Workfront, vedi [I nostri piani](https://www.workfront.com/plans).
+>Per ulteriori informazioni sui piani di Workfront, vedere [I nostri piani](https://www.workfront.com/plans).
 >
->Per informazioni sulla priorità dei progetti in Portfoli Optimizer, vedi [Assegnare priorità ai progetti in Portfoli Optimizer](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
+>Per informazioni sull&#39;assegnazione delle priorità ai progetti in Ottimizzatore Portfolio, vedere [Assegnare priorità ai progetti in Ottimizzatore Portfolio](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
-1. Apri **Planner risorse** in **Visualizzazione progetto**.
-1. Fai clic sul pulsante **Impostazioni** icona.
-1. Abilita la **Visualizzare le priorità del Portfolio** impostazione per visualizzare le priorità del progetto in base al Portfolio a cui sono assegnate. La priorità dei progetti in base al loro portfolio viene visualizzata accanto alla priorità Planner risorse. Questa impostazione è disabilitata per impostazione predefinita.
+1. Apri **Programmazione risorse** nella **Visualizzazione progetto**.
+1. Fai clic sull&#39;icona **Impostazioni**.
+1. Abilita l&#39;impostazione **Visualizza priorità Portfolio** per visualizzare le priorità del progetto in base al Portfolio a cui sono assegnate. La priorità dei progetti in base al loro portfolio viene visualizzata accanto alla priorità Pianificazione risorse. Questa impostazione è disabilitata per impostazione predefinita.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: check screen shot to see if this is accurate still - should say Order, and not Sort:)</p>
@@ -120,11 +120,11 @@ Per modificare la priorità di pianificazione del progetto:
 
    ![](assets/rp-portfolio-priority-unordered-edit-350x180.png)
 
-   Le priorità del portfolio dei progetti vengono visualizzate solo nella vista Progetto del Planner risorse.
+   Le priorità del portfolio dei progetti vengono visualizzate solo nella visualizzazione Progetto della Programmazione delle risorse.
 
-1. Fai clic su **Ordine** ordinare i progetti in base alle priorità del portafoglio.
+1. Fai clic su **Ordine** per ordinare i progetti in base alle priorità del portfolio.
 
-   Se disponi di progetti che appartengono a più di un portfolio, puoi visualizzare più progetti con la stessa priorità del portfolio nel Planner risorse. In questo caso, i progetti con la stessa priorità di portafoglio sono elencati in base ai seguenti criteri, in questo ordine:
+   Se ci sono progetti che appartengono a più portfolio, nella Programmazione delle risorse puoi vedere più progetti con la stessa priorità di portfolio. In questo caso, i progetti con la stessa priorità di portafoglio sono elencati in base ai seguenti criteri, nell’ordine indicato:
 
    1. Punteggio dell&#39;Allineamento
    1. Data di inizio pianificata
@@ -134,20 +134,20 @@ Per modificare la priorità di pianificazione del progetto:
 
 1. Fai clic su **Salva**.
 
-## L&#39;effetto della modifica della priorità di pianificazione del progetto sulle ore disponibili per l&#39;utente
+## Effetto della modifica della priorità di pianificazione del progetto sulle ore disponibili per l&#39;utente
 
-La priorità di pianificazione del progetto influisce sulle ore disponibili degli utenti. Gli utenti associati al progetto con priorità più elevata mostrano la disponibilità massima per la colonna Ore disponibili (AVL) per il progetto, in base alle loro pianificazioni.
+La priorità di pianificazione del progetto influisce sulle ore disponibili degli utenti. Gli utenti associati al progetto con priorità più alta mostrano la massima disponibilità per la colonna Ore disponibili (AVL) per questo progetto, in base alle loro pianificazioni.
 
-Gli stessi utenti associati al secondo progetto in ordine di priorità mostreranno un valore Orari disponibili che rappresenta la differenza tra l’intero importo di Ore disponibili e quello già preventivato per il primo progetto nella colonna Orari a budget e così via. Per informazioni sulle risorse di budget nel Planner risorse, vedere [Risorse di budget nel planner risorse utilizzando le visualizzazioni Progetto e Ruolo](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+Gli stessi utenti associati al secondo progetto in ordine di priorità mostreranno un valore Ore disponibili che è la differenza tra l’intero importo di Ore disponibili e quello che è già stato preventivato per il primo progetto nella colonna Ore preventivate e così via. Per informazioni sull&#39;impostazione del budget delle risorse nella Programmazione delle risorse, vedere [Risorse preventivate nella Programmazione delle risorse utilizzando le visualizzazioni Progetto e Ruolo](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
-Se per un utente non sono state previste ore in budget per il primo progetto (in ordine di priorità), ma per il secondo progetto sono state previste ore in budget per lo stesso utente, l’utente mostrerà l’intera quantità di ore disponibili per entrambi i progetti.
+Se non sono state preventivate ore per il primo progetto (in ordine di priorità) per un utente, ma sono state preventivate ore per il secondo progetto per lo stesso utente, l’utente mostrerà l’intera quantità di ore disponibili per entrambi i progetti.
 
-Si consiglia di aggiornare la colonna Orari a budget per gli utenti nell’ordine dei progetti nel Planner risorse, in modo da visualizzare in modo preciso le ore disponibili per l’utente in qualsiasi momento.
+È consigliabile aggiornare la colonna Ore preventivate per gli utenti in base all&#39;ordine dei progetti nella Programmazione delle risorse, per garantire che sia sempre possibile visualizzare con precisione le Ore disponibili per l&#39;utente.
 
 >[!NOTE]
 >
->Poiché la priorità di pianificazione del progetto è univoca per ogni gestore di risorse, il secondo progetto prioritario potrebbe essere un primo progetto prioritario per un altro utente che visualizza gli stessi progetti nel relativo planner risorse. Se un altro gestore di risorse esegue il budget di una risorsa per il primo progetto, le ore disponibili diminuiranno per la risorsa per il primo progetto in base a tale modifica.
+>Poiché la Priorità di pianificazione del progetto è specifica per ogni responsabile delle risorse, il secondo progetto prioritario potrebbe essere un progetto prioritario per un altro utente che visualizza gli stessi progetti nella programmazione delle risorse. Se un altro responsabile delle risorse assegna una risorsa per il primo progetto, le ore disponibili diminuiranno per tale risorsa per il primo progetto in base a tale modifica.
 >
->L’utente che calcola il budget delle ore assegna prima tale risorsa e riduce il numero di ore disponibili per tale risorsa in tutto il sistema. La quantità di ore disponibili deve essere aggiornata per tutti gli utenti non appena le ore previste vengono salvate per una risorsa nel planner risorse.
+>L&#39;utente che esegue il budget delle ore assegna per primo tale risorsa e ne riduce il numero in tutto il sistema. La quantità di Ore disponibili deve essere aggiornata per tutti gli utenti non appena le Ore preventivate vengono salvate per una risorsa nella Programmazione delle risorse.
 >
->Per ulteriori informazioni sulle ore disponibili, consulta [Disponibilità e assegnazione delle risorse](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md#availability-and-allocation-of-resources).
+>Per ulteriori informazioni sulle ore disponibili, vedere [Disponibilità e allocazione delle risorse](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md#availability-and-allocation-of-resources).

@@ -23,7 +23,7 @@ Per utilizzare le funzionalità descritte in questo articolo, l’organizzazione
 
      Oppure
 
-     Una licenza aggiuntiva per Adobe Workfront Goals per i piani Prime o Select Adobe Workfront. Per informazioni, consulta [piano Adobe Workfront](https://www.workfront.com/plans).
+     Una licenza aggiuntiva per Adobe Workfront Goals per i piani Prime o Select Adobe Workfront. Per informazioni, vedere [Piano Adobe Workfront](https://www.workfront.com/plans).
 
 * Per il piano corrente e la struttura delle licenze:
 
@@ -32,7 +32,7 @@ Per utilizzare le funzionalità descritte in questo articolo, l’organizzazione
 
 Contatta il tuo account manager Workfront per saperne di più su una licenza Workfront Goals.
 
-Per ulteriori informazioni sull’accesso agli obiettivi di Workfront, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Per ulteriori informazioni sull&#39;accesso agli obiettivi di Workfront, vedere [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Adobe Workfront calcola automaticamente il progresso dell’obiettivo in base al progresso dei suoi indicatori di progresso.
 
@@ -56,8 +56,8 @@ Dopo aver attivato un obiettivo, Workfront Goals inizia a calcolarne l’avanzam
 
 <!--drafted for the redesign: replace the screen shot above with the redesigned one which is white, not black-->
 
-* [Percentuale di completamento effettiva](#actual-percent-complete)
-* [Percentuale di completamento prevista](#expected-percent-complete)
+* [Percentuale effettiva completata](#actual-percent-complete)
+* [Percentuale prevista completata](#expected-percent-complete)
 * [Avanzamento e condizione](#progress)
 
 ### Percentuale di completamento effettiva {#actual-percent-complete}
@@ -68,15 +68,15 @@ I seguenti elementi sono considerati indicatori di progresso per gli obiettivi:
 
 * Risultati
 
-  Per informazioni sull’aggiunta di risultati agli obiettivi, consulta [Aggiungere risultati agli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+  Per informazioni sull&#39;aggiunta di risultati agli obiettivi, vedere [Aggiungere risultati agli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md).
 
 * Attività
 
-  Per informazioni sull’aggiunta di attività, compresi i progetti, agli obiettivi, vedi [Aggiungere attività agli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+  Per informazioni sull&#39;aggiunta di attività, inclusi progetti, agli obiettivi, vedere [Aggiungere attività agli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
 
 * Obiettivi figlio allineati
 
-  Per informazioni sugli obiettivi principali e secondari, consulta [Allineare gli obiettivi collegandoli in Obiettivi di Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+  Per informazioni sugli obiettivi principali e secondari, vedere [Allineare gli obiettivi collegandoli in Obiettivi di Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
   Obiettivi Workfront calcola la percentuale effettiva di completamento utilizzando la formula seguente:
 
@@ -137,13 +137,13 @@ La tabella seguente elenca le etichette delle condizioni di obiettivo e le perce
   </tr> 
   <tr> 
    <td>Nuovo</td> 
-   <td> <p>L’obiettivo è stato appena creato e non sta ancora registrando l’avanzamento. L’avanzamento di un obiettivo viene visualizzato come Nuovo finché non viene aggiornato per la prima volta. </p> <p>Per informazioni sull’aggiornamento dell’avanzamento dell’obiettivo, consulta <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md" class="MCXref xref">Aggiornamento dell’avanzamento dell’obiettivo in Obiettivi di Adobe Workfront</a>.</p> </td> 
+   <td> <p>L’obiettivo è stato appena creato e non sta ancora registrando l’avanzamento. L’avanzamento di un obiettivo viene visualizzato come Nuovo finché non viene aggiornato per la prima volta. </p> <p>Per informazioni sull'aggiornamento dell'avanzamento dell'obiettivo, vedere <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md" class="MCXref xref">Aggiornare l'avanzamento dell'obiettivo in Obiettivi di Adobe Workfront</a>.</p> </td> 
    <td>Nessuna percentuale</td> 
    <td>Nessuna barra</td> 
    <td><img src="assets/new-goal-icon-condition.png" alt="new_goal_icon_condition.png"></td>
   </tr> 
   <tr> 
-   <td> <p><span>On Target</span> </p> </td> 
+   <td> <p><span>Su Target</span> </p> </td> 
    <td>L’obiettivo funziona come previsto ed è molto probabile che venga completato in tempo. </td> 
    <td>90-100%</td> 
    <td>Verde</td> 
@@ -157,7 +157,7 @@ La tabella seguente elenca le etichette delle condizioni di obiettivo e le perce
    <td><img src="assets/at-risk-icon-condition.png" alt="at_risk_icon_condition.png"></td> 
   </tr> 
   <tr> 
-   <td> <p><span>In difficoltà</span> </p> </td> 
+   <td> <p><span>Problemi</span> </p> </td> 
    <td> <p>È molto probabile che l’obiettivo non venga completato in tempo. </p> </td> 
    <td>0-69,99%</td> 
    <td>Rosso</td> 

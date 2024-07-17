@@ -19,7 +19,7 @@ ht-degree: 2%
 
 Questa pagina descrive tutti i miglioramenti di Project Management apportati con la versione 21.1 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 15 febbraio 2021.
 
-Per un elenco di tutte le modifiche disponibili con la versione 21.1, consulta [Panoramica sulla versione 21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 21.1, consulta la [panoramica sulla versione 21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Le funzioni di analisi avanzate vengono ora visualizzate per impostazione predefinita
 
@@ -29,7 +29,7 @@ Per un elenco di tutte le modifiche disponibili con la versione 21.1, consulta [
 
 Nel modello di layout predefinito, l’area Analytics è ora attivata per impostazione predefinita, il che significa che gli utenti assegnati a questo modello di layout ora visualizzano l’area Analytics nella barra di navigazione globale in Adobe Workfront Classic e il menu principale nella nuova esperienza Adobe Workfront.
 
-Per ulteriori informazioni sulle funzioni di analisi avanzate, consulta [Panoramica di analisi avanzate](../../../enhanced-analytics/enhanced-analytics-overview.md).
+Per ulteriori informazioni sulle analisi avanzate, consulta [Panoramica sulle analisi avanzate](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Analisi avanzate disponibili per tutti i cluster
 
@@ -37,7 +37,7 @@ L&#39;analisi avanzata è disponibile per tutti i cluster Workfront, inclusi i c
 
 In precedenza, l’analisi avanzata non era disponibile con Google Cloud Platform, impedendo ai clienti nel cluster 6 di accedere all’area Analytics. Ora i clienti aziendali e aziendali del cluster 6 possono accedere all’area di Analytics.
 
-Per ulteriori informazioni sulle funzioni di analisi avanzate, consulta [Panoramica di analisi avanzate](../../../enhanced-analytics/enhanced-analytics-overview.md).
+Per ulteriori informazioni sulle analisi avanzate, consulta [Panoramica sulle analisi avanzate](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## La pagina Persone è ora disponibile per tutti i cluster
 
@@ -49,4 +49,4 @@ La pagina Persone è ora disponibile in Workfront Classic per il cluster 4. Ques
 
 Questa pagina era precedentemente disponibile con la versione 20.3 sia in Workfront Classic che nella nuova esperienza Workfront per tutti gli altri cluster.
 
-Per ulteriori informazioni sui grafici disponibili nella pagina Persone, consulta [Panoramica di analisi avanzate](../../../enhanced-analytics/enhanced-analytics-overview.md).
+Per ulteriori informazioni sui grafici disponibili nella pagina Persone, consulta [Panoramica analisi avanzata](../../../enhanced-analytics/enhanced-analytics-overview.md).

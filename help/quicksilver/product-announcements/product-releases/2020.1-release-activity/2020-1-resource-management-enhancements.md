@@ -24,7 +24,7 @@ Per un elenco di tutte le modifiche disponibili con la versione 2020.1, consulta
 
 Per aiutarti a capire in che modo i singoli progetti, attività o elementi inaccessibili contribuiscono al carico di lavoro degli utenti e per poter prendere le decisioni corrette per la riassegnazione nel Bilanciatore dei carichi di lavoro, abbiamo introdotto un’impostazione che consente di visualizzare la distribuzione oraria per singoli progetti, attività ed elementi inaccessibili.
 
-Per informazioni sulla gestione delle ore nel Bilanciatore dei carichi di lavoro, consulta [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Per informazioni sulla gestione delle ore nel Bilanciatore dei carichi di lavoro, vedere [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Mostra le ore pianificate giornaliere per le attività e gli elementi inaccessibili nell’area Lavoro non assegnato del Bilanciatore dei carichi di lavoro
 
@@ -32,13 +32,13 @@ Per comprendere in che modo singoli progetti, attività o elementi inaccessibili
 
 Prima di questa modifica, questa impostazione aggiornava solo le informazioni nell’area Lavoro assegnato del Bilanciatore.
 
-Per informazioni sulla navigazione nel Bilanciatore dei carichi di lavoro, vedi [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Per informazioni sulla navigazione nel Bilanciatore dei carichi di lavoro, vedere [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Regolare la durata della timeline nel Bilanciatore dei carichi di lavoro
 
 È ora possibile selezionare il numero di settimane visualizzate nel Bilanciatore dei carichi di lavoro: è possibile scegliere tra 2, 4 o 6 settimane. In precedenza, il numero di settimane era impostato su 4 per impostazione predefinita.
 
-Per informazioni sulla navigazione nel Bilanciatore dei carichi di lavoro, vedi [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Per informazioni sulla navigazione nel Bilanciatore dei carichi di lavoro, vedere [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Impostazione Visualizza ore effettive rimossa dalla pianificazione risorse
 
@@ -46,10 +46,10 @@ Per semplificare la visualizzazione delle ore effettive nella Programmazione del
 
 È comunque possibile visualizzare le ore effettive quando si visualizza la Programmazione delle risorse nella Vista utente utilizzando la funzione Personalizza vista.
 
-Per informazioni sulla navigazione nella Programmazione delle risorse, vedi [Panoramica sulla navigazione in Programmazione delle risorse](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Per informazioni sull&#39;esplorazione della Programmazione delle risorse, vedere [Panoramica sulla navigazione della Programmazione delle risorse](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Navigazione migliorata nel Bilanciatore dei carichi di lavoro
 
 Ora è possibile spostarsi avanti e indietro nel Bilanciatore dei carichi di lavoro una volta alla volta. Prima di questo miglioramento, quando si faceva clic sulle icone Indietro e Avanti, l’intervallo di tempo cambiava di quattro periodi di tempo alla volta.
 
-Per informazioni sull’utilizzo del Bilanciatore dei carichi di lavoro, consulta [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Per informazioni sull&#39;utilizzo del Bilanciatore dei carichi di lavoro, vedere [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).

@@ -19,8 +19,8 @@ ht-degree: 0%
 
 Questa sezione contiene i seguenti articoli:
 
-* [Domande frequenti sui rapporti](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)
+* [Domande frequenti sui report](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)
 * [Messaggio di errore sul calendario: &quot;Questo calendario dispone dei diritti di visualizzazione di un utente disattivato.&quot;](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-message-calendar.md)
-* [Messaggio di errore durante l’esecuzione di un rapporto: &quot;Non hai effettuato l’accesso&quot;.](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-running-report.md)
-* [Modifica in linea delle date sposta la visualizzazione del calendario fuori dagli schemi](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/date-edits-shift-calendar.md)
+* [Messaggio di errore durante l&#39;esecuzione di un report: &quot;Non hai effettuato l&#39;accesso.&quot;](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-running-report.md)
+* [La modifica in linea delle date sposta la visualizzazione del calendario fuori dalla casella](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/date-edits-shift-calendar.md)
 * [I dati delle colonne condivise non vengono visualizzati nei rapporti del dashboard](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/shared-columns-not-displayed-in-report-dashboard.md)

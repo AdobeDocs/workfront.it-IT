@@ -1,27 +1,27 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
-title: Crea un [!DNL Anaplan] voce di elenco da un [!DNL Adobe Workfront] richiesta campagna
-description: Questo scenario di integrazione collega un [!DNL Adobe Workfront] progetto con un [!DNL Anaplan] voce dell'elenco di budget.
+title: Crea un elemento di elenco  [!DNL Anaplan]  da una richiesta di campagna  [!DNL Adobe Workfront]
+description: Questo scenario di integrazione collega un  [!DNL Adobe Workfront] progetto con una [!DNL Anaplan] voce di elenco budget.
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: daf6a18d-a3df-497d-a612-8a4645b1a8c9
 source-git-commit: 4ab731b14dc5435386fd0d887501788fa37223a2
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 2%
+source-wordcount: '731'
+ht-degree: 1%
 
 ---
 
-# Crea un [!DNL Anaplan] voce di elenco da un [!DNL Adobe Workfront] richiesta campagna
+# Crea un elemento di elenco [!DNL Anaplan] da una richiesta di campagna [!DNL Adobe Workfront]
 
-Questo scenario di integrazione collega un [!DNL Adobe Workfront] progetto con un [!DNL Anaplan] voce dell&#39;elenco di budget.
+Questo scenario di integrazione collega un progetto [!DNL Adobe Workfront] con una voce di elenco budget [!DNL Anaplan].
 
-Questo scenario verifica la presenza di nuove richieste di campagna aggiunte a una coda di richiesta. Non appena viene registrata una richiesta di campagna, viene aggiunta una voce di linea di budget in [!DNL Anaplan] avviare il processo di finanziamento.
+Questo scenario verifica la presenza di nuove richieste di campagna aggiunte a una coda di richieste. Non appena viene registrata una richiesta di campagna, in [!DNL Anaplan] viene aggiunta una voce di budget per avviare il processo di finanziamento.
 
 >[!IMPORTANT]
 >
->&quot;Campaign&quot; in questo articolo fa riferimento al caso di utilizzo della campagna di marketing che questo scenario rappresenta e non è in alcun modo connesso al [!DNL Workfront Fusion] Connettore Adobe Campaign o al server obsoleto di recente [!UICONTROL Campaign] oggetto in [!DNL Workfront].
+>&quot;Campaign&quot; in questo articolo si riferisce al caso di utilizzo della campagna di marketing che questo scenario rappresenta e non è in alcun modo connesso al connettore Adobe Campaign [!DNL Workfront Fusion] o all&#39;oggetto [!UICONTROL Campaign] deprecato di recente in [!DNL Workfront].
 
 ## Requisiti di accesso
 
@@ -32,8 +32,8 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano [!UICONTROL Adobe Workfront]*</td> 
-   <td> <p>[!UICONTROL Pro] o superiore</p> </td> 
+   <td role="rowheader">Piano [!UICONTROL Adobe Workfront]*</td> 
+   <td> <p>[!UICONTROL Pro] o versione successiva</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza*</td> 
@@ -41,45 +41,45 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licenza**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione del lavoro] </p> </td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione lavoro] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
-   <td>La tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</td> 
+   <td>La tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
 
-&#42;&#42;Per informazioni su [!DNL Adobe Workfront Fusion] licenze, vedi [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Evento di attivazione
 
 L’esecuzione di questo scenario è pianificata ogni 15 minuti.
 
-## Previsto [!DNL Workfront] Configurazione
+## Configurazione [!DNL Workfront] prevista
 
-Devi avere le seguenti caratteristiche in [!DNL Workfront] per utilizzare questo scenario:
+Per utilizzare questo scenario, è necessario disporre dei seguenti elementi in [!DNL Workfront]:
 
-* Un profilo utente in [!DNL Workfront] denominato **[!UICONTROL [!DNL Anaplan]Integrazione]** che dispone dei diritti di amministratore di sistema.
+* Un profilo utente in [!DNL Workfront] denominato Integrazione **[!UICONTROL [!DNL Anaplan]]**, con diritti di amministratore di sistema.
 
-   Per informazioni sulla creazione di un utente in [!DNL Workfront], vedi [Aggiungi utenti](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+  Per informazioni sulla creazione di un utente in [!DNL Workfront], vedere [Aggiungere utenti](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
-* A **[!UICONTROL Brief della campagna]** modulo personalizzato allegato al [!UICONTROL Richiesta] oggetto.
+* Modulo personalizzato **[!UICONTROL Brief campagna]** allegato all&#39;oggetto [!UICONTROL Request].
 
-   Per facilitare la mappatura dei dati su Anaplan, è necessario includere nel modulo personalizzato i seguenti campi obbligatori:
+  I seguenti campi obbligatori devono essere inclusi nel modulo personalizzato per facilitare la mappatura dei dati ad Anaplan:
 
-   | Nome Campo | Tipo di campo |
-   |---|---|
-   | [!UICONTROL Totale fondi richiesti] |  |
-   | [!UICONTROL Fondi per la manodopera richiesti] |  |
-   | [!UICONTROL Fondi di spesa richiesti] |  |
-   | [!UICONTROL Invio eseguito a [!DNL Anaplan]] | Casella di controllo |
+  | Nome Campo | Tipo di campo |
+  |---|---|
+  | [!UICONTROL Totale fondi richiesti] |   |
+  | [!UICONTROL Fondi manodopera richiesti] |   |
+  | [!UICONTROL Fondi spese richiesti] |   |
+  | [!UICONTROL Inviato a [!DNL Anaplan]] | Casella di controllo |
 
-   Nel modulo possono essere presenti i seguenti campi facoltativi. Questo scenario mappa solo i campi precedenti, ma è possibile mappare eventuali campi aggiuntivi nella descrizione della campagna.
+  Nel modulo possono essere presenti i seguenti campi facoltativi. Questo scenario mappa solo i campi di cui sopra, ma è possibile mappare eventuali campi aggiuntivi nel resoconto della campagna.
 
-   <table style="table-layout:auto"> 
+  <table style="table-layout:auto"> 
    <col> 
    <col> 
    <thead> 
@@ -90,89 +90,89 @@ Devi avere le seguenti caratteristiche in [!DNL Workfront] per utilizzare questo
    </thead> 
    <tbody> 
     <tr> 
-     <td role="rowheader">[!UICONTROL In Data Di Inizio Mercato]</td> 
+     <td role="rowheader">[!UICONTROL Nella Data Di Inizio Del Mercato]</td> 
      <td>Data </td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL In Data Di Fine Mercato]</td> 
+     <td role="rowheader">[!UICONTROL Nella Data Di Fine Del Mercato]</td> 
      <td>Data</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL Panoramica della campagna]</td> 
+     <td role="rowheader">Panoramica di [!UICONTROL Campaign]</td> 
      <td>Campo di testo paragrafo</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL Messaggio chiave]</td> 
+     <td role="rowheader">[!UICONTROL Key Message]</td> 
      <td>Campo di testo paragrafo</td> 
     </tr> 
     <tr> 
      <td role="rowheader">[!UICONTROL Target Audience]</td> 
-     <td> <p>A discesa</p> <p>Includi opzioni che corrispondono ai tuoi processi.</p> </td> 
+     <td> <p>A discesa</p> <p>Includi opzioni che si adattano ai tuoi processi.</p> </td> 
     </tr> 
    </tbody> 
   </table>
 
-   Per informazioni sulla creazione di moduli personalizzati, vedere [Creare o modificare un modulo personalizzato](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+  Per informazioni sulla creazione di moduli personalizzati, vedere [Creare o modificare un modulo personalizzato](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
 
-* Un progetto configurato come coda di richiesta per acquisire nuove richieste di campagna. La [!UICONTROL Brief della campagna] a queste richieste deve essere allegato il modulo.
+* Un progetto configurato come coda di richieste per acquisire nuove richieste di campagne. Il modulo [!UICONTROL Brief campagna] deve essere allegato a queste richieste.
 
-## Previsto [!DNL Anaplan] Configurazione
+## Configurazione [!DNL Anaplan] prevista
 
-Devi avere le seguenti caratteristiche in [!DNL Anaplan] per utilizzare questo scenario:
+Per utilizzare questo scenario, è necessario disporre dei seguenti elementi in [!DNL Anaplan]:
 
-* Un profilo utente in [!DNL Anaplan] denominato **[!UICONTROL [!DNL Workfront]Integrazione]** che dispone dei diritti di amministratore di sistema.
-* La [!DNL Anaplan] Modello da utilizzare per lo scenario.
-* Elenco all’interno della [!DNL Anaplan] Modello che acquisisce i budget delle campagne.
+* Un profilo utente in [!DNL Anaplan] denominato Integrazione **[!UICONTROL [!DNL Workfront]]**, con diritti di amministratore di sistema.
+* Modello [!DNL Anaplan] che si desidera utilizzare per questo scenario.
+* Elenco all&#39;interno del modello [!DNL Anaplan] che acquisisce i budget delle campagne.
 
-   Il modulo dell’elenco deve supportare la ricezione dei seguenti attributi:
+  Il modulo dell’elenco deve supportare la ricezione dei seguenti attributi:
 
    * [!UICONTROL [!DNL Workfront] GUID richiesta]
    * [!UICONTROL [!DNL Workfront] GUID progetto]
    * [!UICONTROL Nome campagna]
-   * [!UICONTROL Fondi per la manodopera richiesti]
-   * [!UICONTROL Fondi di spesa richiesti]
+   * [!UICONTROL Fondi manodopera richiesti]
+   * [!UICONTROL Fondi spese richiesti]
    * [!UICONTROL Tipo di richiesta budget]
 
-   Questo elenco e questo modulo devono memorizzare ulteriori dettagli necessari per la normale funzionalità di [!DNL Anaplan], compresa la possibilità di impostare un budget e comunicare che la voce dell&#39;elenco di budget è pronta per essere sincronizzata di nuovo in [!DNL Workfront].
+  Questo elenco e modulo devono memorizzare ulteriori dettagli necessari per la normale funzionalità di [!DNL Anaplan], inclusa la possibilità di impostare un budget e comunicare che la voce dell&#39;elenco di budget è pronta per essere sincronizzata nuovamente in [!DNL Workfront].
 
-Per istruzioni su una di queste azioni, consulta la sezione [!DNL Anaplan] documentazione.
+Per istruzioni su una di queste azioni, vedere la documentazione di [!DNL Anaplan].
 
-## Implementazione in [!DNL Workfront Fusion]
+## Distribuzione in [!DNL Workfront Fusion]
 
-Completa i seguenti passaggi per distribuire questo scenario di integrazione al tuo [!DNL Fusion] conto. Questa operazione deve essere eseguita solo dopo il completamento del [!DNL Workfront] e [!DNL Anaplan] configurazione.
+Per distribuire lo scenario di integrazione all&#39;account [!DNL Fusion], completare i passaggi seguenti. Questa operazione deve essere eseguita solo dopo aver completato la configurazione [!DNL Workfront] e [!DNL Anaplan] richieste.
 
-1. Passa a [!UICONTROL Modelli] menu in [!DNL Workfront Fusion] e fai clic su **[!UICONTROL Crea un [!DNL Anaplan] voce di elenco da una richiesta di campagna Workfront]** modello di scenario.
-1. Sostituisci i valori delle variabili seguenti [!DNL Anaplan] variabili:
+1. Passare al menu [!UICONTROL Modelli] in [!DNL Workfront Fusion] e fare clic sul modello di scenario **[!UICONTROL Crea un elemento di elenco [!DNL Anaplan] da una richiesta di Workfront Campaign]**.
+1. Sostituire i valori delle variabili per le seguenti [!DNL Anaplan] variabili:
 
-   | Nome della variabile | Sostituisci il valore con |
+   | Nome variabile | Sostituisci valore con |
    |---|---|
-   | [!UICONTROL [!DNL Anaplan] ID area di lavoro] | L’ID di un’area di lavoro dal tuo [!DNL Anaplan] conto. |
-   | [!UICONTROL [!DNL Anaplan] ID modello] | L&#39;ID di un modello dal [!DNL Anaplan] e l&#39;area di lavoro selezionata. |
-   | [!UICONTROL [!DNL Anaplan] Nome modulo] | Nome del modulo che descrive gli attributi della campagna nel [!DNL Anaplan] Elenco. |
-   | [!UICONTROL Nome elenco campagne] | Nome dell&#39;elenco [!DNL Anaplan] e l&#39;area di lavoro e il modello selezionati. |
+   | [!UICONTROL [!DNL Anaplan] ID Workspace] | ID di un&#39;area di lavoro dall&#39;account [!DNL Anaplan]. |
+   | ID modello [!UICONTROL [!DNL Anaplan]] | L&#39;ID di un modello dall&#39;account [!DNL Anaplan] e dall&#39;area di lavoro selezionata. |
+   | Nome modulo [!UICONTROL [!DNL Anaplan]] | Il nome del modulo che descrive gli attributi della campagna nell&#39;elenco [!DNL Anaplan] selezionato. |
+   | [!UICONTROL Nome elenco campagne] | Il nome dell&#39;elenco dall&#39;account [!DNL Anaplan] e dall&#39;area di lavoro e dal modello selezionati. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
-   I dettagli sulla configurazione dei file e dei processi sono forniti nella sezione [!DNL Anaplan] documentazione di installazione.
+   I dettagli sulla configurazione dei file e dei processi sono forniti nella documentazione di installazione di [!DNL Anaplan].
 
-1. Seleziona o aggiungi un [!DNL Anaplan] profilo di connessione.
-1. Aggiorna tutti gli altri [!DNL Anaplan] moduli con un [!DNL Anaplan] quando richiesto.
-1. Seleziona o aggiungi un [!DNL Workfront] profilo di connessione.
+1. Selezionare o aggiungere un profilo di connessione [!DNL Anaplan].
+1. Aggiorna tutti i moduli [!DNL Anaplan] rimanenti con una connessione [!DNL Anaplan], quando richiesto.
+1. Selezionare o aggiungere un profilo di connessione [!DNL Workfront].
 
-   Dopo aver distribuito il modello, questo è il modulo che verrà aggiornato per aggiungere o rimuovere i riferimenti di campo personalizzati dal valore della proprietà field se si desidera modificare i campi mappati predefiniti in [!DNL Anaplan].
+   Dopo aver distribuito il modello, questo è il modulo che verrà aggiornato per aggiungere o rimuovere i riferimenti ai campi personalizzati dal valore della proprietà fields se si desidera modificare i campi mappati predefiniti in [!DNL Anaplan].
 
-1. Aggiorna tutti gli altri [!DNL Workfront] moduli con un [!DNL Workfront] quando richiesto.
+1. Aggiorna tutti i moduli [!DNL Workfront] rimanenti con una connessione [!DNL Workfront], quando richiesto.
 
 ## Altri modelli di scenario consigliati
 
-Per completare il flusso di lavoro rappresentato da questo modello, devi anche distribuire il seguente modello aggiuntivo:
+Per completare il flusso di lavoro rappresentato da questo modello, è necessario distribuire anche il seguente modello aggiuntivo:
 
-* [[!UICONTROL Applica un [!DNL Anaplan] assegnazione di bilancio a un [!DNL Adobe Workfront] richiesta di campagna o progetto della campagna]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+* [[!UICONTROL Applica un [!DNL Anaplan] allocazione budget a una [!DNL Adobe Workfront] richiesta campagna o progetto campagna]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
 
-Gli scenari aggiuntivi per l’ottimizzazione della spesa includono:
+Altri scenari per l’ottimizzazione della spesa includono:
 
-* [[!UICONTROL Invia [!DNL Adobe Workfront] aggiornamento del progetto a un [!DNL Anaplan] voce di elenco]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
+* [[!UICONTROL Invia [!DNL Adobe Workfront] aggiornamenti di progetto a una [!DNL Anaplan] voce di elenco]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
 
-* [[!UICONTROL Invia [!DNL Adobe Workfront] le ore effettive vengono aggiornate su un [!DNL Anaplan] voce di elenco]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [[!UICONTROL Invia [!DNL Adobe Workfront] aggiornamenti ore effettive a una [!DNL Anaplan] voce di elenco]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
 
-* [[!UICONTROL Invia [!DNL Adobe Workfront] spese per un [!DNL Anaplan] voce di elenco]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
+* [[!UICONTROL Invia [!DNL Adobe Workfront] spese a una [!DNL Anaplan] voce di elenco]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)

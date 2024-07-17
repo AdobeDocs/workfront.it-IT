@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Attività sulla versione 2018.3 Beta 2
-description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.3 Beta 2. La funzionalità sarà disponibile nell’ambiente di anteprima il 1° agosto 2018. I miglioramenti della bozza rilasciati con Beta 2 saranno disponibili nell’ambiente di anteprima mercoledì 18 luglio. Sarà disponibile nell’ambiente di produzione a novembre 2018.
+title: Attività sulla versione 2018.3 di Beta 2
+description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.3 di Beta 2. La funzionalità sarà disponibile nell’ambiente di anteprima il 1° agosto 2018. I miglioramenti della bozza rilasciati con Beta 2 saranno disponibili nell’ambiente di anteprima mercoledì 18 luglio. Sarà disponibile nell’ambiente di produzione a novembre 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,31 +14,31 @@ ht-degree: 0%
 
 ---
 
-# Attività sulla versione 2018.3 Beta 2
+# Attività sulla versione 2018.3 di Beta 2
 
-Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.3 Beta 2. La funzionalità sarà disponibile nell’ambiente di anteprima il 1° agosto 2018. I miglioramenti della bozza rilasciati con Beta 2 saranno disponibili nell’ambiente di anteprima mercoledì 18 luglio. Sarà disponibile nell’ambiente di produzione a novembre 2018.
+Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.3 di Beta 2. La funzionalità sarà disponibile nell’ambiente di anteprima il 1° agosto 2018. I miglioramenti della bozza rilasciati con Beta 2 saranno disponibili nell’ambiente di anteprima mercoledì 18 luglio. Sarà disponibile nell’ambiente di produzione a novembre 2018.
 
 >[!NOTE]
 >
 > La funzionalità descritta in questa pagina è soggetta a modifiche prima della disponibilità nell’ambiente di produzione.
 
-Per un elenco di tutte le modifiche apportate nel 2018.3, consulta  [Panoramica sull’attività della versione 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Per un elenco di tutte le modifiche apportate nel 2018.3, consulta  Panoramica sull&#39;attività della versione di [2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
-La versione 2018.3 Beta 2 contiene miglioramenti sia per gli amministratori di Workfront che per altri utenti:
+La versione 2018.3 di Beta 2 contiene miglioramenti sia per gli amministratori di Workfront che per altri utenti:
 
-**Per gli amministratori**
+**Per Amministratori**
 
 * [Aggiornare l’indirizzo e-mail nel profilo utente come amministratore di gruppo](#update-the-email-address-in-the-user-profile-as-a-group-administrator)
 
-**Per tutti gli utenti**
+**Per Tutti Gli Utenti**
 
-* [Visualizza le approvazioni delegate a me nell’area Home](#view-approvals-delegated-to-me-in-the-home-area)
+* [Visualizza le approvazioni delegate a me nell&#39;area Home](#view-approvals-delegated-to-me-in-the-home-area)
 * [Esporta dati per un determinato periodo nella pianificazione risorse](#export-data-for-a-given-period-in-the-resource-planner)
-* [I totali giornalieri ora vengono visualizzati in rosso quando l’utente è sovrassegnato](#daily-totals-now-display-in-red-when-the-user-is-overallocated)
-* [Le attività e i problemi sono nascosti nella timeline di programmazione quando ridotti a icona](#tasks-and-issues-are-hidden-on-the-scheduling-timeline-when-minimized)
-* [Filtrare commenti e risposte per utente nel visualizzatore di bozze](#filter-comments-and-replies-by-user-in-the-proofing-viewer)
-* [Commento su un intervallo di riprese in una bozza video](#comment-on-a-range-of-footage-in-a-video-proof)
-* [Nuovo strumento Polilinea per il markup di commenti nel visualizzatore di bozze](#new-polyline-tool-for-comment-markup-in-the-proofing-viewer)
+* [I Totali Giornalieri Ora Vengono Visualizzati In Rosso Quando L&#39;Utente È Sovrassegnato](#daily-totals-now-display-in-red-when-the-user-is-overallocated)
+* [Le attività e i problemi sono nascosti nella sequenza temporale di pianificazione quando ridotti a icona](#tasks-and-issues-are-hidden-on-the-scheduling-timeline-when-minimized)
+* [Filtra commenti e risposte per utente nel visualizzatore di bozze](#filter-comments-and-replies-by-user-in-the-proofing-viewer)
+* [Commento su un intervallo di metraggio in una bozza video](#comment-on-a-range-of-footage-in-a-video-proof)
+* [Nuovo strumento polilinea per il markup dei commenti nel visualizzatore di bozze](#new-polyline-tool-for-comment-markup-in-the-proofing-viewer)
 * [Rimozione Flash per condivisione report, calendario e documenti](#flash-removal-for-report-calendar-and-document-sharing)
 
 ## Aggiornare l’indirizzo e-mail nel profilo utente come amministratore di gruppo {#update-the-email-address-in-the-user-profile-as-a-group-administrator}
@@ -47,7 +47,7 @@ Ora puoi aggiornare gli indirizzi e-mail per gli utenti che appartengono a un gr
 
 In precedenza, solo gli amministratori di Workfront potevano aggiornare gli indirizzi e-mail per altri utenti. 
 
-Per ulteriori informazioni, consulta [Amministratori di gruppi](../../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+Per ulteriori informazioni, vedere [Amministratori di gruppi](../../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
 
 ## Visualizza le approvazioni delegate a me nell’area Home {#view-approvals-delegated-to-me-in-the-home-area}
 
@@ -55,7 +55,7 @@ Ora puoi utilizzare l’area Home per visualizzare le approvazioni di progetti, 
 
 Prima di questa modifica, era possibile visualizzare le approvazioni delegate solo nell’area Il mio lavoro.
 
-Per ulteriori informazioni, consulta [Delega richiesta di approvazione](../../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+Per ulteriori informazioni, vedere [Delegare la richiesta di approvazione](../../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 ## Esporta dati per un determinato periodo nella pianificazione risorse {#export-data-for-a-given-period-in-the-resource-planner}
 
@@ -63,13 +63,13 @@ Durante l’esportazione delle informazioni nella Programmazione risorse viene o
 
 Prima di questo miglioramento, era possibile esportare solo le informazioni visualizzate sullo schermo.
 
-Per ulteriori informazioni sull&#39;esportazione di dati dalla Programmazione delle risorse, vedi [Panoramica sulla navigazione in Programmazione delle risorse](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md) nell’articolo [Panoramica sulla navigazione in Programmazione delle risorse](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Per ulteriori informazioni sull&#39;esportazione dei dati dalla Programmazione delle risorse, vedere [Panoramica sulla navigazione di Programmazione delle risorse](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md) nell&#39;articolo [Panoramica sulla navigazione di Programmazione delle risorse](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## I totali giornalieri ora vengono visualizzati in rosso quando l’utente è sovrassegnato {#daily-totals-now-display-in-red-when-the-user-is-overallocated}
 
 >[!NOTE]
 >
->Gli strumenti di pianificazione delle risorse sono stati dichiarati obsoleti e rimossi da Workfront con la versione 23.1. Per informazioni sulla programmazione delle risorse tramite il Bilanciatore dei carichi di lavoro, consulta [Panoramica del Bilanciatore dei carichi di lavoro](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Gli strumenti di pianificazione delle risorse sono stati dichiarati obsoleti e rimossi da Workfront con la versione 23.1. Per informazioni sulla pianificazione delle risorse tramite il Bilanciatore dei carichi di lavoro, vedere [Panoramica del Bilanciatore dei carichi di lavoro](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Quando un utente è sovrassegnato, i totali giornalieri per i giorni in cui l’utente è sovrassegnato ora vengono visualizzati in rosso. Questa opzione viene visualizzata solo quando l’opzione Mostra i totali per le ore pianificate giornaliere è abilitata nelle impostazioni della timeline di programmazione. Prima di questo miglioramento, esisteva un indicatore rosso per i giorni in cui l’utente era sovrassegnato, ma i totali giornalieri venivano visualizzati senza evidenziazione rossa.
 
@@ -81,7 +81,7 @@ Quando riduci a icona le attività e i problemi nella sequenza temporale della p
 
 In precedenza, quando si riducevano le attività e i problemi, le attività e i problemi rimanevano nella timeline di pianificazione per gli utenti e i ruoli, ma venivano visualizzati in una visualizzazione compressa.
 
-Per ulteriori informazioni sulla riduzione delle attività e dei problemi nella programmazione temporale, vedere &quot;Introduzione alla programmazione delle risorse&quot;.
+Per ulteriori informazioni su come ridurre al minimo le attività e i problemi nella sequenza temporale di pianificazione, consulta  &quot;Introduzione alla pianificazione delle risorse&quot;.
 
 ## Filtrare commenti e risposte per utente nel visualizzatore di bozze {#filter-comments-and-replies-by-user-in-the-proofing-viewer}
 

@@ -1,23 +1,23 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
-title: Modifica delle informazioni del racconto
-description: Quando visualizzi un riquadro della storia sulla bacheca Kanban, alcune informazioni sono disponibili per la modifica in linea, direttamente dal riquadro della storia.
+title: Modifica informazioni brano
+description: Quando visualizzi una sezione del brano sulla bacheca Kanban, alcune informazioni sono disponibili per la modifica in linea direttamente dalla sezione del brano.
 author: Lisa
 feature: Agile
 exl-id: a22a7b61-b331-4c98-9421-e7fccedcd096
 source-git-commit: 9da0c8234f563a0202cd15017b37a341476f7406
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
 
-# Modifica delle informazioni del racconto
+# Modifica informazioni brano
 
 ## Comprendere quali informazioni possono essere visualizzate e modificate {#understand-what-information-can-be-viewed-and-edited}
 
-Quando si visualizza una porzione di storia su [!UICONTROL Kanban] bacheca, sono disponibili le informazioni riportate nella seguente tabella. Puoi modificare la maggior parte delle informazioni in linea, direttamente dalla sezione della storia.
+Quando si visualizza un riquadro storia sulla bacheca [!UICONTROL Kanban], sono disponibili le informazioni riportate nella tabella seguente. Puoi modificare la maggior parte delle informazioni in linea, direttamente dal riquadro del brano.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -25,29 +25,29 @@ Quando si visualizza una porzione di storia su [!UICONTROL Kanban] bacheca, sono
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Informazione</strong> </th> 
+   <th><strong>Informazioni</strong> </th> 
    <th><strong>Visibile</strong> </th> 
-   <th><strong>Modificabile in linea</strong> </th> 
+   <th><strong>In linea modificabile</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Nome del brano con un collegamento diretto all’attività o al problema</td> 
+   <td>Il nome del brano con un collegamento diretto all’attività o al problema</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Nome del progetto con un collegamento diretto al progetto</p> </td> 
+   <td> <p>Il nome del progetto con un collegamento diretto al progetto</p> </td> 
    <td>✓ </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Il numero di punti o ore di completamento della storia e il numero di punti o ore assegnati alla storia<br>Questi numeri vengono utilizzati per calcolare e visualizzare la percentuale di completamento per ogni storia.</p> </td> 
+   <td> <p>Il numero di punti o ore completate sul brano e il numero di punti o ore assegnate al brano<br>Questi numeri vengono utilizzati per calcolare e visualizzare la percentuale di completamento per ogni brano.</p> </td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Percentuale di completamento [!UICONTROL] per ogni storia e problema.<br>La percentuale di completamento viene calcolata in base alla percentuale di completamento per ogni storia.<br></p> <p>Quando si aggiorna la percentuale di completamento per una storia o un problema, è possibile scegliere un numero compreso tra 0 e 100.</p> </td> 
+   <td> <p>Il [!UICONTROL Percent Complete] per ogni storia e problema.<br>[!UICONTROL La percentuale di completamento] per l'iterazione viene calcolata in base alla [!UICONTROL Percent Complete] per ogni brano.<br></p> <p>Quando aggiorni [!UICONTROL Percent Complete] per una storia o un problema, puoi scegliere un numero qualsiasi tra 0 e 100.</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -57,12 +57,12 @@ Quando si visualizza una porzione di storia su [!UICONTROL Kanban] bacheca, sono
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Colore o categoria della tessera</p> </td> 
+   <td> <p>Colore o categoria della sezione</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Eventuali campi aggiuntivi (compresi i campi personalizzati) che potrebbero essere stati aggiunti alla visualizzazione agile modificando la visualizzazione agile, come descritto in "Creazione e personalizzazione di una visualizzazione Agile" in <a href="../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Panoramica delle visualizzazioni in [!DNL Adobe Workfront]</a></p> </td> 
+   <td> <p>Eventuali campi aggiuntivi (inclusi i campi personalizzati) che potrebbero essere stati aggiunti alla visualizzazione Agile modificando la visualizzazione Agile, come descritto in "Creazione e personalizzazione di una visualizzazione Agile" in <a href="../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Panoramica delle visualizzazioni in [!DNL Adobe Workfront]</a></p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -83,32 +83,32 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>[!UICONTROL Work] o superiore</p> </td> 
+   <td> <p>[!UICONTROL Work] o versione successiva</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurazioni a livello di accesso*</strong></td> 
-   <td> <p>[!UICONTROL Worker] o superiore</p> <p>Nota: Se non hai ancora accesso, chiedi [!DNL Workfront] amministratore se imposta ulteriori restrizioni nel livello di accesso. Per informazioni su come [!DNL Workfront] l'amministratore può modificare il livello di accesso, vedi <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
+   <td> <p>[!UICONTROL Worker] o versione successiva</p> <p>Nota: se non disponi ancora dell'accesso, chiedi all'amministratore [!DNL Workfront] se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di [!DNL Workfront] può modificare il livello di accesso, vedere <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
 
-## Visualizzare e modificare le informazioni su un riquadro della storia
+## Visualizzare e modificare le informazioni su un riquadro del brano
 
-1. Fai clic sul pulsante *[!UICONTROL *Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Team]**.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del *[!UICONTROL *Main Menu]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Teams]**.
 
-1. (Facoltativo) Fai clic sul pulsante **[!UICONTROL Cambia team]** icona ![Icona Cambia team](assets/switch-team-icon.png), quindi seleziona un nuovo team Kanban dal menu a discesa o cerca un team nella barra di ricerca.
+1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Cambia team](assets/switch-team-icon.png), quindi seleziona un nuovo team Kanban dal menu a discesa o cerca un team nella barra di ricerca.
 
-1. Vai a [!UICONTROL Kanban] consiglio di amministrazione.
-1. Espandi la sezione del brano per visualizzare tutti i campi associati al brano.
+1. Vai alla bacheca [!UICONTROL Kanban].
+1. Espandere il riquadro del brano per visualizzare tutti i campi associati al brano.
 
    ![](assets/story-expanded-on-kanban-board-2021-350x405.png)
 
-1. (Facoltativo) Per modificare un campo, fai clic sul campo, quindi apporta eventuali modifiche.\
-   Devi avere [!UICONTROL Modifica] diritti all&#39;attività o al problema per modificare il riquadro della storia.\
-   Per ulteriori informazioni su ciascun campo e sulla possibilità di modificarlo, consulta [Comprendere quali informazioni possono essere visualizzate e modificate](#understand-what-information-can-be-viewed-and-edited).
+1. (Facoltativo) Per modificare un campo, fai clic sul campo e apporta le modifiche necessarie.\
+   Per modificare il riquadro della storia, è necessario disporre dei diritti [!UICONTROL Modifica] per l&#39;attività o il problema.\
+   Per ulteriori informazioni su ciascun campo e sulla possibilità di modificarlo, vedere [Informazioni sulle informazioni visualizzabili e modificabili](#understand-what-information-can-be-viewed-and-edited).
 
 >[!NOTE]
 >
->Per modificare la variabile [!UICONTROL Percentuale completata], è necessario digitare un numero compreso tra 0 e 100. Il campo non è un cursore che puoi spostare.
+>Per modificare la [!UICONTROL Percentuale completata], è necessario digitare un numero compreso tra 0 e 100. Il campo non è un dispositivo di scorrimento da spostare.

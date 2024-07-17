@@ -21,7 +21,7 @@ Per ulteriori informazioni sulle funzioni e sulle versioni pianificate per le ap
 
 >[!IMPORTANT]
 >
->Il contenuto di questo articolo fa riferimento alla funzionalità di approvazione dei documenti aggiornata, disponibile solo per account specifici. Per informazioni sui processi di approvazione standard, vedi gli articoli elencati in [Approvazioni lavoro](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>Il contenuto di questo articolo fa riferimento alla funzionalità di approvazione dei documenti aggiornata, disponibile solo per account specifici. Per informazioni sui processi di approvazione standard, vedere gli articoli elencati in [Approvazioni di lavoro](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Nuove funzioni e obiettivi di progettazione
 
@@ -47,9 +47,9 @@ Se desideri che nell’ambiente di produzione siano abilitate le approvazioni de
 
 ## Utilizzo delle approvazioni di nuovi documenti
 
-Per gli utenti che desiderano creare o gestire approvazioni di documenti, vedi gli articoli elencati in [Impostare e gestire le approvazioni di risorse e documenti: indice articoli](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+Per gli utenti che desiderano creare o gestire le approvazioni dei documenti, vedere gli articoli elencati in [Configurare e gestire le approvazioni di risorse e documenti: indice articolo](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
 
-Per gli utenti che desiderano rivedere o approvare documenti per i quali hanno ricevuto una richiesta, vedere gli articoli elencati in [Approvare e rivedere i documenti: indice articolo](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
+Per gli utenti che desiderano rivedere o approvare documenti per i quali hanno ricevuto una richiesta, vedere gli articoli elencati in [Approvare e rivedere documenti: indice articolo](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
 
 >[!IMPORTANT]
 >

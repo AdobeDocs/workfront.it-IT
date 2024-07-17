@@ -65,7 +65,7 @@ Gli utenti con il livello di accesso Amministratore di sistema possono eseguire 
 
 Ha inoltre accesso all&#39;area Setup (Configurazione) completa, in cui può modificare qualsiasi impostazione a livello di sistema e accedere a tutte le aree nel Main Menu (Menu principale).
 
-Per ulteriori informazioni, consulta [Concedere a un utente l&#39;accesso amministrativo completo](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+Per ulteriori informazioni, vedere [Concedere a un utente l&#39;accesso amministrativo completo](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
 ### Livello di accesso standard
 
@@ -266,7 +266,7 @@ Utenti con questo livello di accesso integrato:
 * Può approvare progetti, attività e problemi
 * Può rivedere lo stato dei problemi che ha inviato
 * Può essere assegnato ad elementi di lavoro ma non può completarli
-* Può accedere alle richieste solo dal menu principale. Per ulteriori informazioni sulle code di richieste, consulta [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* Può accedere alle richieste solo dal menu principale. Per ulteriori informazioni sulle code di richieste, vedere [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 >[!NOTE]
 >
@@ -314,7 +314,7 @@ Non puoi modificare questo livello di accesso.
 
 >[!IMPORTANT]
 >
->L’utente esterno è disponibile solo se l’opzione &quot;Collaborazione con persone senza account Workfront utilizzando il loro indirizzo e-mail&quot; è abilitata nell’area Preferenze di sistema in Configurazione. Per ulteriori informazioni, consulta [Configurare le preferenze di sicurezza del sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+>L’utente esterno è disponibile solo se l’opzione &quot;Collaborazione con persone senza account Workfront utilizzando il loro indirizzo e-mail&quot; è abilitata nell’area Preferenze di sistema in Configurazione. Per ulteriori informazioni, vedere [Configurare le preferenze di sicurezza del sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 #### **Dettagli di accesso**
 
@@ -393,14 +393,14 @@ Gli utenti possono accedere a singoli oggetti quando altri utenti condividono e 
 
 Un utente può concedere al destinatario le seguenti autorizzazioni per il singolo oggetto:
 
-* **Visualizza**: questo livello di autorizzazione consente al destinatario di condividere l’oggetto in uno dei seguenti modi:
+* **Visualizzazione**: questo livello di autorizzazione consente al destinatario di condividere l&#39;oggetto in uno dei modi seguenti:
 
    * A livello di sistema, in modo che tutti gli utenti possano visualizzarlo (non disponibile per tutti gli oggetti)
    * Con utenti esterni che non dispongono di una licenza Workfront (non disponibile per tutti gli oggetti)
    * Con un indirizzo e-mail (disponibile solo per documenti e calendari)
 
-* **Contribuisci**: (non disponibile per tutti gli oggetti)
-* **Gestisci**: quando qualcuno condivide un oggetto, i diritti del destinatario sull’oggetto sono determinati da una combinazione del livello di accesso del destinatario e delle autorizzazioni per l’oggetto concesse dal condivisore. Il livello di accesso più basso disponibile in tale combinazione è quello che determina il comportamento del destinatario con l’oggetto.
+* **Contribute**: (non disponibile per tutti gli oggetti)
+* **Gestisci**: quando qualcuno condivide un oggetto, i diritti del destinatario sull&#39;oggetto sono determinati da una combinazione del livello di accesso del destinatario e delle autorizzazioni per l&#39;oggetto concesse dal condivisore. Il livello di accesso più basso disponibile in tale combinazione è quello che determina il comportamento del destinatario con l’oggetto.
 
 ### Scenari di esempio
 

@@ -2,7 +2,7 @@
 product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Reimpostare la password di un utente con l'autenticazione avanzata
-description: Quando l'autenticazione avanzata (eAuth) è abilitata per [!DNL Workfront] Ambiente, a [!DNL Workfront] l'amministratore non può reimpostare le credenziali di accesso per un altro utente. Questo è diverso da [!DNL Workfront] ambienti senza eAuth o ambienti per i quali è abilitato Single Sign On (SSO).
+description: Quando l'autenticazione avanzata (eAuth) è abilitata per l'ambiente  [!DNL Workfront] , un amministratore  [!DNL Workfront]  non può reimpostare le credenziali di accesso per un altro utente. Differisce dagli ambienti  [!DNL Workfront]  senza eAuth o dagli ambienti per i quali è abilitato Single Sign On (SSO).
 author: Lisa
 feature: Get Started with Workfront
 hide: true
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!--This article has been hidden by request-->
 
-Quando l&#39;autenticazione avanzata (eAuth) è abilitata per [!DNL Workfront] Ambiente, a [!DNL Workfront] l&#39;amministratore non può reimpostare le credenziali di accesso per un altro utente. Questo è diverso da [!DNL Workfront] ambienti senza eAuth o ambienti per i quali è abilitato Single Sign On (SSO).
+Quando l&#39;autenticazione avanzata (eAuth) è abilitata per l&#39;ambiente [!DNL Workfront], un amministratore di [!DNL Workfront] non può reimpostare le credenziali di accesso per un altro utente. Differisce dagli ambienti [!DNL Workfront] senza eAuth o dagli ambienti per i quali è abilitato Single Sign On (SSO).
 
 ## Requisiti di accesso
 
@@ -44,21 +44,21 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore [!DNL Workfront].
 
 ## Reimpostare la password di un utente in un ambiente abilitato per eAuth
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Workfront], quindi fai clic su **[!UICONTROL Utenti]** ![](assets/users-icon-in-main-menu.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Workfront], quindi fai clic su **[!UICONTROL Utenti]** ![](assets/users-icon-in-main-menu.png).
 
    ![](assets/main-menu-options-350x481.png)
 
-1. Seleziona la **[!UICONTROL Utente]** che richiede una reimpostazione della password.
+1. Selezionare l&#39;**[!UICONTROL utente]** che richiede la reimpostazione della password.
    ![](assets/100520classicnweselectuser-350x105.png)
 
-1. Fai clic su **[!UICONTROL Altro] pulsante** che viene visualizzato dopo aver scelto il **[!UICONTROL Utente]** e seleziona la **[!UICONTROL Invia e-mail Password dimenticata]** dal menu a discesa.
+1. Fai clic sul pulsante **[!UICONTROL Altro]** che viene visualizzato dopo aver scelto l&#39;**[!UICONTROL Utente]** desiderato e seleziona l&#39;opzione **[!UICONTROL Invia e-mail Password dimenticata]** dal menu a discesa.
 
    ![](assets/100520classicnwesendemail-350x134.png)
 
-Dopo aver selezionato **[!UICONTROL Invia e-mail Password dimenticata]** , all&#39;utente selezionato viene inviata un&#39;e-mail contenente istruzioni per la modifica della password.
+Dopo aver selezionato l&#39;opzione **[!UICONTROL Invia e-mail Password dimenticata]**, viene inviata un&#39;e-mail all&#39;utente selezionato contenente le istruzioni per la modifica della propria password.
 
 ![](assets/pwresetemail-resized-350x461.png)

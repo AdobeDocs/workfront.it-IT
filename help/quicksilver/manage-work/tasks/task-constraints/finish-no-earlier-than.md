@@ -2,8 +2,8 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: '''Panoramica sul vincolo di attività: Fine non precedente a"'
-description: Fine Non precedente a (FNET) è un Vincolo di attività che pianifica il completamento di un'attività dopo la data specificata.
+title: "Panoramica sul vincolo attività: termina non prima di"
+description: Finire non prima di (FNET) è un vincolo attività che pianifica il completamento di un'attività dopo la data specificata.
 author: Alina
 feature: Work Management
 exl-id: b1dbf5c9-34b6-4c25-b582-ce9454501e03
@@ -14,31 +14,33 @@ ht-degree: 0%
 
 ---
 
-# Panoramica sul vincolo di attività: Fine Non Precedente A
+# Panoramica sui vincoli attività: Finire non prima di
 
-Fine Non precedente a (FNET) è un Vincolo di attività che pianifica il completamento di un&#39;attività dopo la data specificata.
+Finire non prima di (FNET) è un vincolo attività che pianifica il completamento di un&#39;attività dopo la data specificata.
 
-## Panoramica del vincolo Fine non precedente a
+## Panoramica del vincolo Finire non prima del
 
-Quando si utilizza il vincolo Fine non precedente a (FNET) per un&#39;attività, tenere presente quanto segue:
+Quando si utilizza il vincolo Finire non prima di (FNET) per un&#39;attività, tenere presente quanto segue:
 
-* Utilizzare questo vincolo quando il progetto è programmato dalla data di completamento. In questo caso, è possibile fornire un vincolo morbido all&#39;attività prima di forzare altre attività dipendenti a mostrare a rischio.
-* Quando si utilizza FNET su un progetto pianificato **Dalla data di inizio**, il vincolo pianifica l&#39;attività come avrebbe programmato se il vincolo fosse il più presto possibile.
-* Quando si sposta o si copia un&#39;attività con un vincolo FNET in un altro progetto, il vincolo dell&#39;attività o delle date del progetto potrebbe variare a seconda delle date del vincolo e delle date di inizio e completamento del progetto. Esistono i seguenti scenari:
+* Utilizzare questo vincolo quando il progetto è programmato dalla data di completamento. In questo caso, è possibile impostare un vincolo morbido sull&#39;attività prima di forzare la visualizzazione a rischio di altre attività dipendenti.
+* Quando si utilizza FNET in un progetto pianificato **Dalla data di inizio**, il vincolo pianifica l&#39;attività come se fosse programmata nel più breve tempo possibile.
+* Quando si sposta o si copia un&#39;attività con un vincolo FNET in un altro progetto, il vincolo dell&#39;attività o delle date del progetto può variare a seconda delle date del vincolo e delle date di inizio e di completamento del progetto. Esistono i seguenti scenari:
 
-   * Quando il progetto di destinazione è programmato da inizio:
+   * Quando il progetto di destinazione è programmato dall’inizio:
 
-      * Quando la data di vincolo dell&#39;attività è precedente alla data di inizio pianificata del progetto, il vincolo dell&#39;attività diventa Non appena possibile.
-      * Quando la data di vincolo dell&#39;attività è successiva alla data di completamento pianificata del progetto, la data di completamento pianificato del progetto viene modificata in modo da corrispondere alla data di vincolo di completamento dell&#39;attività.
-   * Quando il progetto di destinazione è programmato da completamento:
+      * Quando la data di vincolo dell&#39;attività è precedente alla data di inizio pianificata del progetto, il vincolo dell&#39;attività viene impostato su Il più presto possibile.
+      * Quando la data vincolo dell&#39;attività è successiva alla data completamento pianificato del progetto, la data completamento pianificato del progetto viene modificata in modo da corrispondere alla data vincolo completamento dell&#39;attività.
 
-      * Quando la data di vincolo dell&#39;attività è successiva alla data di completamento del progetto, il vincolo dell&#39;attività diventa il più tardi possibile.
-      * Quando la data di vincolo dell&#39;attività è precedente alla data di inizio pianificata del progetto, la data di inizio pianificata del progetto viene modificata in modo da corrispondere alla data di vincolo iniziale dell&#39;attività.
-   * Indipendentemente dalla pianificazione del progetto, quando la data del vincolo dell&#39;attività si trova entro le date di inizio e di completamento del progetto, non vi sono modifiche al Vincolo attività o alle date del progetto.
+   * Quando il progetto di destinazione è programmato dal completamento:
 
-   Per informazioni sullo spostamento delle attività, consulta [Sposta attività](../../../manage-work/tasks/manage-tasks/move-tasks.md). Per informazioni sulla copia delle attività, vedere [Copia e duplica le attività](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+      * Quando la data vincolo dell&#39;attività è successiva alla data di completamento del progetto, il vincolo attività diventa il più tardi possibile.
+      * Quando la data vincolo dell&#39;attività è precedente alla data inizio pianificata del progetto, la data inizio pianificata del progetto viene modificata in modo da corrispondere alla data vincolo inizio dell&#39;attività.
 
-   Per informazioni su come aggiornare il vincolo di attività su un&#39;attività, vedere [Aggiornare il vincolo di attività di un&#39;attività](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+   * Indipendentemente dalla programmazione del progetto, se la data vincolo dell&#39;attività è compresa tra le date di inizio e di completamento del progetto, non verranno apportate modifiche al vincolo attività o alle date del progetto.
+
+  Per informazioni sullo spostamento delle attività, vedere [Sposta attività](../../../manage-work/tasks/manage-tasks/move-tasks.md). Per informazioni sulla copia delle attività, vedere [Copia e duplica attività](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+
+  Per informazioni su come aggiornare il vincolo attività in un&#39;attività, vedere [Aggiornare il vincolo attività di un&#39;attività](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

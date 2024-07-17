@@ -55,22 +55,22 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 >
 >Le autorizzazioni di interruzione di sezione possono essere influenzate dal tipo di oggetto. L’autorizzazione Modifica limitata per le interruzioni di sezione del modulo personalizzato è disponibile solo per i tipi di oggetto Progetto, Attività, Problema e Utente.
 >
->Per ulteriori informazioni, consulta [Come più tipi di oggetto possono influire sulle autorizzazioni dell’interruzione di sezione](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md#how-multiple-object-types-can-affect-section-break-permissions).
+>Per ulteriori informazioni, vedere [Come più tipi di oggetto possono influire sulle autorizzazioni di interruzione di sezione](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md#how-multiple-object-types-can-affect-section-break-permissions).
 
 
 {{step-1-to-setup}}
 
-1. Clic **Forms personalizzato** nel pannello a sinistra.
+1. Fai clic su **Forms personalizzato** nel pannello a sinistra.
 
    Nella visualizzazione visualizzata è possibile esaminare tutti i moduli personalizzati creati per l&#39;organizzazione. È inoltre possibile vedere chi ha creato ogni modulo, con quale tipo di oggetto funziona e se è attivo.
 
-1. Seleziona il modulo personalizzato a cui desideri aggiungere altri tipi di oggetto, quindi fai clic su ![Icona Modifica](assets/edit-icon2.png).
+1. Selezionare il modulo personalizzato a cui si desidera aggiungere altri tipi di oggetto, quindi fare clic su ![Icona Modifica](assets/edit-icon2.png).
 
-1. Nella parte superiore del modulo fare clic sul segno più + dopo **Tipi di oggetto**, quindi seleziona il tipo desiderato nel menu visualizzato. È possibile ripetere questa operazione per aggiungere tutti i tipi di oggetto desiderati.
+1. Nella parte superiore del modulo fare clic sul segno più + dopo **Tipi di oggetto**, quindi selezionare il tipo desiderato nel menu visualizzato. È possibile ripetere questa operazione per aggiungere tutti i tipi di oggetto desiderati.
 
    ![](assets/add-new-object.png)
 
-1. Clic **Salva e chiudi**.
+1. Fare clic su **Salva e chiudi**.
 
    >[!TIP]
    >
@@ -90,11 +90,11 @@ Per eliminare un tipo di oggetto:
 
 {{step-1-to-setup}}
 
-1. Clic **Forms personalizzato** nel pannello a sinistra.
-1. Seleziona il modulo personalizzato da modificare, quindi fai clic su ![Icona Modifica](assets/edit-icon2.png).
-1. Fai clic sulla X su uno qualsiasi dei **Tipi di oggetto** che si desidera eliminare dal modulo.
+1. Fai clic su **Forms personalizzato** nel pannello a sinistra.
+1. Seleziona il modulo personalizzato da modificare, quindi fai clic sull&#39;![icona Modifica](assets/edit-icon2.png).
+1. Fare clic sulla X su uno qualsiasi dei **Tipi di oggetto** che si desidera eliminare dal modulo.
 
    ![](assets/delete-object-types.png)
 
 1. (Facoltativo) Ripetere il passaggio precedente per qualsiasi altro tipo di oggetto che si desidera rimuovere dal modulo.
-1. Clic **Applica**, quindi fai clic su **Salva e chiudi**.
+1. Fai clic su **Applica**, quindi su **Salva e chiudi**.

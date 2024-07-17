@@ -2,79 +2,80 @@
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: Condividere un problema
-description: L’amministratore Adobe Workfront consente agli utenti di visualizzare o modificare i problemi quando assegnano i livelli di accesso. Per ulteriori informazioni sulla concessione dell’accesso ai problemi, consulta Concedere l’accesso ai problemi.
+description: L’amministratore di Adobe Workfront consente agli utenti di visualizzare o modificare i problemi quando assegnano i livelli di accesso. Per ulteriori informazioni su come concedere l’accesso ai problemi, consulta Concedere l’accesso ai problemi.
 author: Alina
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
 source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 4%
+source-wordcount: '695'
+ht-degree: 2%
 
 ---
 
 # Condividere un problema
 
-L’amministratore Adobe Workfront consente agli utenti di visualizzare o modificare i problemi quando assegnano i livelli di accesso. Per ulteriori informazioni sulla concessione dell’accesso ai problemi, consulta [Concedere l’accesso ai problemi](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md).
+L’amministratore di Adobe Workfront consente agli utenti di visualizzare o modificare i problemi quando assegnano i livelli di accesso. Per ulteriori informazioni sulla concessione dell&#39;accesso ai problemi, vedere [Concedere l&#39;accesso ai problemi](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md).
 
-Oltre al livello di accesso concesso agli utenti, puoi anche concedere loro le autorizzazioni per visualizzare, Contribute o gestire problemi specifici a cui hai accesso per condividere. Per ulteriori informazioni sui livelli di accesso e le autorizzazioni, consulta [Funzionamento congiunto dei livelli di accesso e delle autorizzazioni](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+Oltre al livello di accesso concesso agli utenti, è possibile concedere loro le autorizzazioni per visualizzare, Contribute o gestire problemi specifici a cui si ha accesso per la condivisione. Per ulteriori informazioni sui livelli di accesso e sulle autorizzazioni, vedere [Funzionamento dei livelli di accesso e delle autorizzazioni](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 Le autorizzazioni sono specifiche per un elemento in Workfront e definiscono quali azioni è possibile eseguire su tale elemento.
 
 ## Considerazioni sulla condivisione dei problemi
 
-Oltre alle considerazioni seguenti, vedi [Panoramica della condivisione delle autorizzazioni sugli oggetti](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle autorizzazioni di condivisione per gli oggetti](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 >[!NOTE]
 >
->Un amministratore Workfront può aggiungere o rimuovere autorizzazioni per qualsiasi elemento del sistema, per tutti gli utenti, senza esserne il proprietario.
+>Un amministratore di Workfront può aggiungere o rimuovere autorizzazioni per qualsiasi elemento del sistema, per tutti gli utenti, senza esserne il proprietario.
 
-* Per impostazione predefinita, il creatore di un problema dispone delle autorizzazioni Manage (Gestisci).
-* Puoi condividere i problemi singolarmente oppure puoi condividerli diversi alla volta. La condivisione di problemi è identica alla condivisione di altri elementi in Workfront. Per ulteriori informazioni sulla condivisione di elementi in Workfront, vedi [Condividere un oggetto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* Per impostazione predefinita, l’autore di un problema dispone delle autorizzazioni di gestione.
+* È possibile condividere i problemi singolarmente o più problemi contemporaneamente. I problemi di condivisione sono identici agli altri elementi di Workfront. Per ulteriori informazioni sulla condivisione di elementi in Workfront, vedere [Condividere un oggetto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * Puoi concedere le seguenti autorizzazioni a un problema: 
 
    * Visualizza
 
-      ![view_on_issue.png](assets/view-on-issue-221x216.png)
+     ![visualizza_su_problema.png](assets/view-on-issue-221x216.png)
 
-   * Gestisci
+   * Gestire
 
-      ![manage_on_issues.png](assets/manage-on-issues-179x199.png)
+     ![gestisci_su_problemi.png](assets/manage-on-issues-179x199.png)
 
-   * contribuire\
-      ![contrib_on_issue.png](assets/contribute-on-issue-156x205.png)
+   * Contribuisci\
+     ![contribuisci_su_problema.png](assets/contribute-on-issue-156x205.png)
 
 * Quando condividi un problema, tutti i documenti allegati al problema ereditano le stesse autorizzazioni.
 
-   L’amministratore di Workfront può specificare se i documenti devono ereditare le autorizzazioni da oggetti superiori nel livello di accesso dell’utente. Per ulteriori informazioni sulla limitazione delle autorizzazioni ereditate ai documenti, vedere [Creare o modificare livelli di accesso personalizzati](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  L&#39;amministratore di Workfront può specificare se i documenti devono ereditare le autorizzazioni da oggetti di livello superiore nel livello di accesso dell&#39;utente. Per ulteriori informazioni sulla limitazione delle autorizzazioni ereditate sui documenti, vedere [Creare o modificare livelli di accesso personalizzati](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-* È possibile rimuovere le autorizzazioni ereditate da un problema. Per ulteriori informazioni, consulta [Rimuovere le autorizzazioni dagli oggetti](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+* È possibile rimuovere le autorizzazioni ereditate da un problema. Per ulteriori informazioni, vedere [Rimuovere le autorizzazioni dagli oggetti](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
-## Come condividere un problema
+## Modi per condividere un problema
 
-* Manualmente, simile alla condivisione di qualsiasi altro oggetto in Workfront. Per ulteriori informazioni sulla condivisione di oggetti in Workfront, consulta [Condividere un oggetto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
-* Automaticamente, eseguendo una delle operazioni seguenti:
+* Manuale, simile alla condivisione di qualsiasi altro oggetto in Workfront. Per ulteriori informazioni sulla condivisione di oggetti in Workfront, vedere [Condividere un oggetto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* Automaticamente, effettuando una delle seguenti operazioni:
 
-   * Specifica le autorizzazioni per uno qualsiasi degli oggetti principali del problema: progetto, programma o portfolio. I problemi ereditano le autorizzazioni dai relativi oggetti principali. Per informazioni sulla visualizzazione delle autorizzazioni ereditate sugli oggetti, vedere [Visualizzare le autorizzazioni ereditate sugli oggetti](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
-   * Aggiungi entità alla condivisione di progetti in un modello utilizzato per creare il progetto su cui si verifica il problema. Per informazioni sulla condivisione di progetti da modelli, consulta [Condividere un modello](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+   * Specifica le autorizzazioni per uno qualsiasi degli oggetti principali del problema: progetto, programma o portfolio. I problemi ereditano le autorizzazioni dai loro oggetti principali. Per informazioni sulla visualizzazione delle autorizzazioni ereditate sugli oggetti, vedere [Visualizzare le autorizzazioni ereditate sugli oggetti](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+   * Aggiungere entità alla condivisione di progetto in un modello utilizzato per creare il progetto in cui si trova il problema. Per informazioni sulla condivisione di progetti da modelli, vedere [Condividere un modello](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Specifica le autorizzazioni per tutti i problemi di un progetto quando modifichi il progetto. Per informazioni sulla gestione dell’accesso ai problemi o alle richieste sul progetto in base alle autorizzazioni di un utente per il progetto, consulta la sezione [](../../manage-work/projects/manage-projects/edit-projects.md#access) sezione dell&#39;articolo [Modifica progetti](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Specifica le autorizzazioni per tutti i problemi in un progetto quando lo modifichi. Per informazioni sulla gestione dell&#39;accesso a problemi o richieste sul progetto in base alle autorizzazioni di un utente per il progetto, vedere la sezione [](../../manage-work/projects/manage-projects/edit-projects.md#access) nell&#39;articolo [Modifica progetti](../../manage-work/projects/manage-projects/edit-projects.md).
 
-      >[!TIP]
-      >
-      >Se non si specifica quali autorizzazioni di problema si desidera concedere agli utenti quando vengono assegnati ai problemi del progetto, per impostazione predefinita ricevono le stesse autorizzazioni disponibili per il progetto.
+     >[!TIP]
+     >
+     >Se non si specifica il problema di autorizzazioni che gli utenti devono avere quando sono assegnati ai problemi del progetto, per impostazione predefinita ricevono le stesse autorizzazioni che hanno sul progetto.
 
-   * Specifica le autorizzazioni che gli utenti ricevono per i problemi che inviano in una coda di richiesta durante la creazione di una coda di richiesta. Per informazioni, consulta [Creare una coda di richiesta](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   * Specifica le autorizzazioni che gli utenti ricevono in caso di problemi inviati in una coda di richieste durante la creazione di una coda di richieste. Per informazioni, vedere [Creare una coda di richieste](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-      >[!IMPORTANT]
-      >
-      >Le autorizzazioni vengono concesse in modo diverso a seconda che il progetto venga pubblicato o meno come coda di richiesta:
-      >
-      >   
-      >   
-      >   * Quando un utente invia una richiesta a un progetto pubblicato come coda di richiesta, gli utenti Contatto principale e Inserito da ricevono l’autorizzazione specificata.
-      >   * Quando un utente invia una richiesta a un progetto non pubblicato come coda di richiesta, al contatto principale (se diverso dall&#39;utente inserito dall&#39;utente) viene concessa l&#39;autorizzazione specificata e all&#39;utente inserito da vengono concesse le autorizzazioni di gestione al problema.
-
+     >[!IMPORTANT]
+     >
+     >Le autorizzazioni vengono concesse in modo diverso a seconda che il progetto sia pubblicato o meno come coda di richieste:
+     >
+     >   
+     >   
+     >   * Quando un utente invia una richiesta a un progetto pubblicato come coda di richieste, agli utenti Contatto principale e Immesso da viene concessa l’autorizzazione specificata.
+     >   * Quando un utente invia una richiesta a un progetto non pubblicato come coda di richieste, al contatto principale (se diverso dall’utente Inserito da) viene concessa l’autorizzazione specificata e all’utente Inserito da vengono concesse le autorizzazioni Gestione del problema.
+     >   
+     >
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -131,9 +132,9 @@ Oltre alle considerazioni seguenti, vedi [Panoramica della condivisione delle au
 </div>
 -->
 
-## Autorizzazioni di problema
+## Autorizzazioni problema
 
-Nella tabella seguente vengono visualizzate le autorizzazioni concesse agli utenti quando consentono loro di visualizzare, utilizzare Contribute o gestire un problema:
+La tabella seguente mostra le autorizzazioni che puoi concedere agli utenti quando consenti loro di visualizzare, Contribute o gestire un problema:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -144,11 +145,11 @@ Nella tabella seguente vengono visualizzate le autorizzazioni concesse agli uten
   <tr> 
    <td><strong>Azioni</strong> </td> 
    <td><strong>Gestisci</strong> </td> 
-   <td><strong>contribuire</strong> </td> 
+   <td><strong>Contribute</strong> </td> 
    <td><strong>Visualizza</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p>Aggiungi  problemi</p> </td> 
+   <td> <p>Aggiungi problemi</p> </td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
@@ -178,7 +179,7 @@ Nella tabella seguente vengono visualizzate le autorizzazioni concesse agli uten
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Aggiungi processo di approvazione</td> 
+   <td>Aggiungere Un Processo Di Approvazione</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 

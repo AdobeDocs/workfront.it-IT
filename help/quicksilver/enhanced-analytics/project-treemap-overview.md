@@ -10,7 +10,7 @@ exl-id: 6216465e-c3bb-4f2f-b71c-766ad0c2ed40
 source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
 source-wordcount: '815'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -57,7 +57,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Prerequisiti
 
-Per i prerequisiti per utilizzare Enhanced Analytics, consulta la sezione &quot;Prerequisiti&quot; in [Panoramica di analisi avanzate](../enhanced-analytics/enhanced-analytics-overview.md).
+Per i prerequisiti per l&#39;utilizzo di Analisi avanzate, vedere la sezione &quot;Prerequisiti&quot; in [Panoramica di Analisi avanzate](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Comprendere la visualizzazione Mappa ad albero progetto
 
@@ -65,15 +65,15 @@ Le caselle nella visualizzazione Mappa ad albero Progetto rappresentano i proget
 
 La visualizzazione Mappa ad albero Progetto è composta da:
 
-* **Scatole blu chiare più piccole**: i progetti che hanno meno ore (o giorni) vengono visualizzati come caselle più piccole di colore blu chiaro.
+* **Caselle blu chiaro più piccole**: i progetti con un numero inferiore di ore o giorni vengono visualizzati come caselle più piccole con un colore blu chiaro.
 
   ![](assets/project-treemap-smaller-box.png)
 
-* **Caselle blu più grandi e scure**: i progetti con più ore (o giorni) vengono visualizzati come caselle più grandi di colore blu scuro.
+* **Caselle blu più grandi e scure**: i progetti con più ore o giorni vengono visualizzati come caselle più grandi con un colore blu scuro.
 
   ![](assets/project-treemap-larger-box-350x205.png)
 
-* **Scatole blu di medie dimensioni**: i progetti che rientrano tra le due categorie vengono visualizzati come caselle di medie dimensioni con una sfumatura di blu tra i colori blu scuro e blu chiaro. Ci sono 3 possibili sfumature di blu per le scatole di medie dimensioni.
+* **Caselle blu di dimensioni Medium**: i progetti compresi tra le due categorie vengono visualizzati come caselle di medie dimensioni con una sfumatura blu tra i colori blu scuro e blu chiaro. Ci sono 3 possibili sfumature di blu per le scatole di medie dimensioni.
 
 La legenda a destra mostra un raggruppamento di ore completate per ogni tonalità di blu. Questa legenda è dinamica e si aggiorna in base ai dati.
 
@@ -91,29 +91,29 @@ La visualizzazione di queste informazioni consente di determinare:
 * Se i team si concentrano sulle cose giuste.
 * Quando si fa clic su un progetto specifico, quanto l’ambito di un progetto è cambiato in quel periodo di tempo.
 
-Per scoprire come ottenere i dati migliori per questa visualizzazione, consulta [Panoramica di analisi avanzate](../enhanced-analytics/enhanced-analytics-overview.md).
+Per informazioni su come ottenere i dati migliori per questa visualizzazione, consulta [Panoramica sulle analisi avanzate](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Visualizzare la mappa ad albero del progetto
 
-1. Fai clic sull’icona Menu principale ![](assets/main-menu-icon-16x12.png), quindi seleziona **Analytics**.
+1. Fai clic sull&#39;icona del menu principale ![](assets/main-menu-icon-16x12.png), quindi seleziona **Analytics**.
 1. (Facoltativo) Per utilizzare un intervallo di date diverso, seleziona nuove date di inizio e fine dal filtro dell’intervallo di date.
 
    ![](assets/filters-select-date-range-350x344.png)
 
-   Per informazioni sull’utilizzo del filtro per intervalli di date, consulta [Applicare i filtri nelle analisi avanzate](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Per informazioni sull&#39;utilizzo del filtro dell&#39;intervallo di date, vedere [Applicare filtri in Analisi avanzate](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 1. (Condizionale) Se devi limitare il set di dati del progetto, seleziona e applica i filtri che desideri utilizzare.
 
-   Per ulteriori informazioni sull’aggiunta di filtri in Analisi avanzate, consulta [Applicare i filtri nelle analisi avanzate](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Per ulteriori informazioni sull&#39;aggiunta di filtri in Analisi avanzate, vedere [Applicare filtri in Analisi avanzate](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
    Dopo aver aggiunto i filtri, vengono visualizzati i dati per un massimo di 50 progetti e i filtri rimangono attivi anche dopo che hai lasciato la pagina o disconnesso da Workfront.
 
-1. (Facoltativo) Per modificare l’ordinamento dei progetti, fai clic sul pulsante **Ordina per** nell’angolo superiore destro della visualizzazione Mappa ad albero Progetto, quindi seleziona una nuova opzione di ordinamento:
+1. (Facoltativo) Per modificare l&#39;ordinamento dei progetti, fai clic sul menu **Ordina per** nell&#39;angolo superiore destro della visualizzazione Mappa ad albero progetto, quindi seleziona una nuova opzione di ordinamento:
 
    * **A - Z**
    * **Z - A**
    * **Data di completamento pianificata**
-   * **Data di inizio pianificata**
+   * **Data inizio pianificata**
 
    Tutte le altre visualizzazioni nella pagina vengono aggiornate in base alla selezione dell’ordinamento.
 
@@ -123,7 +123,7 @@ Per scoprire come ottenere i dati migliori per questa visualizzazione, consulta 
 
    ![](assets/pagination-350x118.png)
 
-1. (Facoltativo) Cambia la vista da **ore pianificate** a **durata**.
+1. (Facoltativo) Cambia la visualizzazione da **ore pianificate** a **durata**.
 
    L’opzione Ore pianificate è selezionata per impostazione predefinita.
 
@@ -133,16 +133,16 @@ Per scoprire come ottenere i dati migliori per questa visualizzazione, consulta 
 
    >[!NOTE]
    >
-   >Se hai selezionato **durata** visualizza i seguenti dettagli sulla durata:
+   >Se hai selezionato la visualizzazione **duration**, visualizzerai i seguenti dettagli sulla durata:
    >
-   >* **Intervallo temporale pianificato**: numero di giorni pianificati per il completamento del progetto.
-   >* **Giorni lavorati**: la durata pianificata per ogni attività completata entro l’intervallo di date selezionato nella parte superiore, divisa per il numero di ore in un giorno.
+   >* **Intervallo temporale pianificato**: il numero di giorni pianificati per il completamento del progetto.
+   >* **Giorni di lavoro**: la durata pianificata per ogni attività completata entro l&#39;intervallo di date selezionato nella parte superiore, divisa per il numero di ore in un giorno.
    >   
    >![](assets/duration-treemap-350x159.png)
    >
-   >Per ulteriori informazioni sulla durata, consulta la sezione &quot;Visualizzazione della durata&quot; in [Panoramica di analisi avanzate](../enhanced-analytics/enhanced-analytics-overview.md).
+   >Per ulteriori informazioni sulla durata, consulta la sezione &quot;Visualizzazione durata&quot; in [Panoramica analisi avanzata](../enhanced-analytics/enhanced-analytics-overview.md).
 
-1. (Facoltativo) Per esportare i dati di visualizzazione, fai clic sul pulsante **Icona Esporta** ![](assets/export.png) nell’angolo in alto a destra della visualizzazione, seleziona il formato di esportazione:
+1. (Facoltativo) Per esportare i dati di visualizzazione, fai clic sull&#39;icona **Esporta** ![](assets/export.png) nell&#39;angolo in alto a destra della visualizzazione, quindi seleziona il formato di esportazione:
 
    * **Grafico (PNG)**
    * **Tabella dati (XSLX)**

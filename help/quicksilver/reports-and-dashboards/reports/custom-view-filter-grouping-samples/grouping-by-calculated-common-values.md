@@ -9,7 +9,7 @@ feature: Reports and Dashboards
 exl-id: 93b743ce-7e54-4a96-933b-912e2107a84f
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -43,21 +43,21 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 </tr>   
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Organizza i risultati elenco in base a un valore calcolato comune a tutti gli oggetti del raggruppamento
 
 Per applicare questo raggruppamento a un elenco di attività:
 
 1. Consente di passare a un elenco di attività.
-1. Dalla sezione **Raggruppamento** menu a discesa, seleziona **Nuovo raggruppamento**.
+1. Dal menu a discesa **Raggruppamento** selezionare **Nuovo raggruppamento**.
 
-1. Clic **Passa alla modalità testo**.
+1. Fare clic su **Passa alla modalità testo**.
 1. Nello spazio disponibile, aggiungi il seguente codice:
 
    ```
@@ -72,4 +72,4 @@ Per applicare questo raggruppamento a un elenco di attività:
    }>25&&{percentComplete}<=50,'26-50%',IF({percentComplete}>50&&{percentComplete}<=75,'51-75%',IF({percentComplete}>75&&{percentComplete}<=100,'76-100%',''))))<br>group.0.linkedname=direct<br>group.0.valueformat=doubleAsString<br>group.0.namekey=percentComplete
    ```
 
-1. Clic **Fine**, quindi **Salva raggruppamento**.
+1. Fai clic su **Fine**, quindi su **Salva raggruppamento**.

@@ -27,7 +27,7 @@ Per eseguire l’integrazione con Workfront e consentire all’app client di com
 
 ## Creare un&#39;applicazione OAuth2
 
-Per istruzioni sulla creazione dell&#39;applicazione OAuth2, vedi [Creare un&#39;applicazione OAuth2 utilizzando le credenziali utente (flusso del codice di autorizzazione)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create3) in [Creazione di applicazioni OAuth2 per le integrazioni Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+Per istruzioni sulla creazione dell&#39;applicazione OAuth2, vedere [Creare un&#39;applicazione OAuth2 utilizzando le credenziali utente (flusso del codice di autorizzazione)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create3) in [Creare applicazioni OAuth2 per le integrazioni Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
 >[!NOTE]
 >
@@ -44,11 +44,11 @@ Gli utenti devono effettuare l’accesso per autorizzare questa integrazione nel
   ```
 
 
-* `client_id`: questo è l’ID client generato al momento della creazione dell’app OAuth2 in Workfront.
+* `client_id`: ID client generato al momento della creazione dell&#39;app OAuth2 in Workfront.
 
-* `redirect_uri`: questo è l’URL di reindirizzamento immesso durante la creazione dell’app. Gli utenti verranno indirizzati a questa pagina dopo aver autorizzato l’app per il loro account.
+* `redirect_uri`: URL di reindirizzamento immesso durante la creazione dell&#39;app. Gli utenti verranno indirizzati a questa pagina dopo aver autorizzato l’app per il loro account.
 
-* `response_type`: questo deve avere il valore `code`.
+* `response_type`: deve avere il valore `code`.
 
 L’URL per la pagina di autorizzazione è quindi:
 
@@ -95,17 +95,17 @@ Per accedere agli utenti con OAuth2, utilizza la procedura seguente:
 
    ![](assets/consent-screen-350x227.png)
 
-1. Se l’utente consente l’accesso, la pagina viene reindirizzata al `redirect_url`. Il reindirizzamento deve includere i seguenti parametri di query:
+1. Se l&#39;utente consente l&#39;accesso, la pagina verrà reindirizzata a `redirect_url`. Il reindirizzamento deve includere i seguenti parametri di query:
 
 * `code`: codice di autorizzazione necessario per ottenere il token di accesso/aggiornamento.
 * `domain`: dominio della tua organizzazione. Esempio: in `myorganization.my.workfront.com`, il dominio è `myorganization`.
-* `lane`: la corsia della richiesta. Esempio: in `myorganization.preview.workfront.com`, la corsia è `preview`.
+* `lane`: percorso della richiesta. Esempio: in `myorganization.preview.workfront.com`, la corsia è `preview`.
 
   >[!IMPORTANT]
   >
-  >Il `code` è valido solo per 2 minuti. Pertanto, devi ottenere i token di aggiornamento e di accesso entro tale periodo di tempo.
+  >`code` è valido solo per 2 minuti. Pertanto, devi ottenere i token di aggiornamento e di accesso entro tale periodo di tempo.
 
-1. Quando si dispone di un codice, è possibile richiedere l’aggiornamento e accedere ai token inviando il codice insieme alle credenziali dell’app client a `/integrations/oauth2/api/v1/token` endpoint.
+1. Quando si dispone di un codice, è possibile richiedere l&#39;aggiornamento e accedere ai token inviando il codice insieme alle credenziali dell&#39;app client all&#39;endpoint `/integrations/oauth2/api/v1/token`.
 
    L’URL completo della richiesta del token è
 
@@ -113,7 +113,7 @@ Per accedere agli utenti con OAuth2, utilizza la procedura seguente:
    https://<URL of your organization's domain></span>/integrations/oauth2/api/v1/token
    ```
 
-   **Esempi:**  Esempio di chiamata CURL all’endpoint token:
+   **Esempi:** esempio di chiamata CURL all&#39;endpoint token:
 
    Esempio 1
 
@@ -157,7 +157,7 @@ Per accedere agli utenti con OAuth2, utilizza la procedura seguente:
    }
    ```
 
-   Il token di accesso è uguale a ```sessionID```, e scade nello stesso modo del normale ```sessionID```
+   Il token di accesso è uguale a ```sessionID``` e scade allo stesso modo del normale ```sessionID```
 
    >[!IMPORTANT]
    >
@@ -208,4 +208,4 @@ Restituisce il seguente risultato:
 }
 ```
 
-E di nuovo il token di accesso è il `sessionID` che può essere utilizzato per effettuare una richiesta API a Workfront.
+Il token di accesso è `sessionID`, che può essere utilizzato per effettuare una richiesta API a Workfront.

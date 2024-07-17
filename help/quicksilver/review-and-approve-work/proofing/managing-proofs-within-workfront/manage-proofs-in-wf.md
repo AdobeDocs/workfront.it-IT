@@ -19,9 +19,9 @@ ht-degree: 0%
 
 Questa sezione contiene i seguenti articoli:
 
-* [Gestire le bozze](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs/manage-proofs.md)
-* [Gestire le versioni delle bozze](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
-* [Gestire i revisori delle bozze](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-reviewers/manage-proof-reviewers.md)
-* [Gestire le notifiche delle bozze](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-notifications/manage-proof-notifications.md)
-* [Gestire le scadenze delle bozze](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/manage-proof-deadlines.md)
+* [Gestisci bozze](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs/manage-proofs.md)
+* [Gestione versioni bozza](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
+* [Gestione revisori bozze](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-reviewers/manage-proof-reviewers.md)
+* [Gestione notifiche bozze](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-notifications/manage-proof-notifications.md)
+* [Gestione scadenze bozza](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/manage-proof-deadlines.md)
 * [Gestire le bozze automatizzate](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-automated-proofs/manage-automated-proofs.md)

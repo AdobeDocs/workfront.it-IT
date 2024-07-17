@@ -2,7 +2,7 @@
 product-area: workfront-integrations
 navigation-topic: workfront-for-salesforce
 title: Installa [!DNL Adobe Workfront] per [!DNL Salesforce]
-description: Per installare l’app prima che diventi disponibile nella [!DNL Salesforce] AppExchange, vedere Installazione [!DNL Workfront] per Salesforce prima che diventi disponibile nel marketplace di AppExchange.
+description: Per installare l'app prima che diventi disponibile nell'AppExchange  [!DNL Salesforce] , vedi Installazione di  [!DNL Workfront]  per Salesforce prima che diventi disponibile nel Marketplace dell'AppExchange.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
@@ -19,14 +19,14 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Per installare l’app prima che diventi disponibile nella [!DNL Salesforce AppExchange], vedi [Installazione [!DNL Workfront for Salesforce] prima che diventi disponibile in [!DNL AppExchange] Marketplace](#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace).
+>Per installare l&#39;app prima che diventi disponibile in [!DNL Salesforce AppExchange], vedi [Installazione [!DNL Workfront for Salesforce] prima che diventi disponibile nel [!DNL AppExchange] Marketplace](#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace).
 
-As a [!DNL Salesforce] e [!DNL Adobe Workfront] amministratore, è possibile installare [!DNL Workfront for Salesforce] per consentire [!DNL Salesforce] utenti da inviare [!DNL Workfront] richiede e crea automaticamente progetti senza mai uscire da Salesforce.
+In qualità di amministratore di [!DNL Salesforce] e [!DNL Adobe Workfront], puoi installare [!DNL Workfront for Salesforce] per consentire agli utenti di [!DNL Salesforce] di inviare [!DNL Workfront] richieste e creare automaticamente progetti senza mai uscire da Salesforce.
 
-Per informazioni generali su ciò che è possibile aspettarsi installando [!DNL Workfront for Salesforce], vedi [[!DNL Adobe Workfront for Salesforce] panoramica](../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce-overview.md).
+Per informazioni generali su ciò che è possibile aspettarsi installando [!DNL Workfront for Salesforce], vedere [[!DNL Adobe Workfront for Salesforce] panoramica](../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce-overview.md).
 
-* [Prerequisiti per l’installazione e l’utilizzo di [!DNL Workfront for Salesforce]](#prerequisites-for-installing-and-using-workfront-for-salesforce)
-* [Installazione [!DNL Workfront for Salesforce]](#installing-workfrontfor-salesforce)
+* [Prerequisiti per l&#39;installazione e l&#39;utilizzo di  [!DNL Workfront for Salesforce]](#prerequisites-for-installing-and-using-workfront-for-salesforce)
+* [Installazione di  [!DNL Workfront for Salesforce] in corso](#installing-workfrontfor-salesforce)
 
 ## Requisiti di accesso
 
@@ -52,28 +52,28 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 +++
 
-## Prerequisiti per l’installazione e l’utilizzo di [!DNL Workfront for Salesforce] {#prerequisites-for-installing-and-using-workfront-for-salesforce}
+## Prerequisiti per l&#39;installazione e l&#39;utilizzo di [!DNL Workfront for Salesforce] {#prerequisites-for-installing-and-using-workfront-for-salesforce}
 
-* È necessario disporre di [!DNL Salesforce] con accesso a un account amministratore di sistema per installare l’app.
-* È necessario disporre di [!DNL Workfront] con accesso a un account amministratore di sistema per configurare l’integrazione.
-* [!UICONTROL Salesforce] gli utenti devono avere [!DNL Workfront] conto per poter:
+* Per installare l&#39;app, è necessario disporre di un&#39;istanza [!DNL Salesforce] con accesso a un account amministratore di sistema.
+* Per configurare l&#39;integrazione è necessario disporre di un&#39;istanza [!DNL Workfront] con accesso a un account amministratore di sistema.
+* [!UICONTROL Gli utenti Salesforce] devono avere un account [!DNL Workfront] per poter:
 
    * Crea [!DNL Workfront] richieste da [!DNL Salesforce]
    * Visualizza [!DNL Workfront] richieste o progetti in Salesforce
 
-## Installazione [!DNL Workfront for Salesforce] {#installing-workfront-for-salesforce}
+## Installazione di [!DNL Workfront for Salesforce] in corso {#installing-workfront-for-salesforce}
 
-Devi essere un [!DNL Salesforce] e un [!DNL Workfront] l&#39;amministratore di sistema per installare e configurare [!DNL Workfront for Salesforce].
+Per installare e configurare [!DNL Workfront for Salesforce] è necessario essere un [!DNL Salesforce] e un amministratore di sistema [!DNL Workfront].
 
-Nelle sottosezioni seguenti viene descritto come installare [!DNL Workfront] per [!DNL Salesforce] Ambiente di produzione. Puoi seguire gli stessi passaggi per installare [!DNL Workfront] per [!DNL Salesforce] Ambiente sandbox.
+Nelle sottosezioni seguenti viene descritto come installare [!DNL Workfront] per l&#39;ambiente di produzione [!DNL Salesforce]. Puoi seguire gli stessi passaggi per installare [!DNL Workfront] per l&#39;ambiente sandbox [!DNL Salesforce].
 
-* [Installazione [!DNL Workfront for Salesforce] prima che diventi disponibile in [!DNL AppExchange] Marketplace](#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace)
-* [Installazione [!DNL Workfront for Salesforce] nel [!DNL Salesforce Classic] Framework](#installing-workfront-for-salesforce-in-the-salesforce-classic-framework)
-* [Installazione [!DNL Workfront for Salesforce] nel [!DNL Salesforce Lightning Experience] Framework](#installing-workfront-for-salesforce-in-the-salesforce-lightning-experience-framework)
+* [Installazione di  [!DNL Workfront for Salesforce] prima che diventi disponibile nel [!DNL AppExchange] Marketplace](#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace)
+* [Installazione di  [!DNL Workfront for Salesforce]  in  [!DNL Salesforce Classic] Framework](#installing-workfront-for-salesforce-in-the-salesforce-classic-framework)
+* [Installazione di  [!DNL Workfront for Salesforce]  in  [!DNL Salesforce Lightning Experience] Framework](#installing-workfront-for-salesforce-in-the-salesforce-lightning-experience-framework)
 
-### Installazione [!DNL Workfront for Salesforce] prima che diventi disponibile in [!DNL AppExchange] Marketplace {#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace}
+### Installazione di [!DNL Workfront for Salesforce] prima che diventi disponibile nel marketplace [!DNL AppExchange] {#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace}
 
-[!DNL Workfront for Salesforce] sarà disponibile nel [!DNL Salesforce AppExchange] presto.
+[!DNL Workfront for Salesforce] sarà presto disponibile in [!DNL Salesforce AppExchange].
 
 Per installare l’app prima che sia disponibile:
 
@@ -89,111 +89,111 @@ Per installare l’app prima che sia disponibile:
    >
    >Devi aver effettuato l’accesso a Salesforce per accedere a queste pagine.
 
-1. Controlla la **[!UICONTROL Sì, consenti l’accesso a questi siti web di terze parti]** casella.
+1. Selezionare la casella **[!UICONTROL Sì, concedere l&#39;accesso a questi siti Web di terze parti]**.
 
    Viene visualizzata una schermata di caricamento. L&#39;installazione potrebbe richiedere del tempo.
 
-1. Clic **[!UICONTROL Fine]** al termine dell’installazione.
+1. Al termine dell&#39;installazione, fare clic su **[!UICONTROL Fine]**.
 
-1. Accedi a **[!UICONTROL Configurazione]** > **[!UICONTROL Sicurezza] Controlli** > **[!UICONTROL Impostazioni sito remoto]**.
+1. Passa a **[!UICONTROL Configurazione]** > **[!UICONTROL Sicurezza] Controlli** > **[!UICONTROL Impostazioni sito remoto]**.
 1. (Condizionale) Seleziona Workfront dall’elenco.
 
    Oppure
 
-   Se non vede il [!DNL Workfront] URL elencato in **[!UICONTROL Tutti i siti remoti]** , fare clic su **[!UICONTROL Nuovo sito remoto]**.
+   Se l&#39;URL di [!DNL Workfront] non viene visualizzato nell&#39;elenco **[!UICONTROL Tutti i siti remoti]**, fare clic su **[!UICONTROL Nuovo sito remoto]**.
 
-1. (Condizionale) Se aggiungi il sito, specifica **[!UICONTROL Nome sito remoto]**.
+1. (Condizionale) Se si aggiunge il sito, specificare **[!UICONTROL Nome sito remoto]**.
 
-   Ad esempio: *[!DNL Workfront]*.
+   Ad esempio, *[!DNL Workfront]*.
 
-1. (Condizionale) Se aggiungi il sito, specifica **[!UICONTROL URL sito remoto]**.
+1. (Condizionale) Se si aggiunge il sito, specificare l&#39;**[!UICONTROL URL sito remoto]**.
 
-   Ad esempio: *yourDomain.my.workfront.com*.
+   Ad esempio, *yourDomain.my.workfront.com*.
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
-   Il [!DNL Workfront] l&#39;app è ora installata sul tuo [!DNL Salesforce] e **[!UICONTROL Opportunità Workfront]** e **[!UICONTROL WorkfrontAccounts]** [!UICONTROL Visualforce] Le pagine sono state create nell’ambiente.
+   L&#39;app [!DNL Workfront] è ora installata nell&#39;istanza [!DNL Salesforce] e le pagine **[!UICONTROL WorkfrontOpportunities]** e **[!UICONTROL WorkfrontAccounts]** [!UICONTROL Visualforce] sono state create nell&#39;ambiente.
 
-   [!DNL Salesforce] Gli utenti possono utilizzare l’app dopo che hai aggiunto [!DNL Workfront] sezione alla loro [!UICONTROL opportunità] o [!UICONTROL Account] layout di pagina.\
+   [!DNL Salesforce] utenti possono utilizzare l&#39;app dopo aver aggiunto la sezione [!DNL Workfront] ai layout di pagina [!UICONTROL Opportunity] o [!UICONTROL Account].\
    Per informazioni sulla configurazione della sezione Workfront per gli utenti, consulta [Configurare la sezione Adobe Workfront per gli utenti Salesforce](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
 
-### Installazione [!DNL Workfront] per [!DNL Salesforce] nel [!DNL Salesforce Classic] Framework
+### Installazione di [!DNL Workfront] per [!DNL Salesforce] nel framework [!DNL Salesforce Classic]
 
-1. Accedi a [!DNL Salesforce] come amministratore di sistema.
+1. Accedere a [!DNL Salesforce] come amministratore di sistema.
 1. Vai a **Configurazione.**
-1. In **Genera** , fare clic su **AppExchange Marketplace**.
+1. Nella sezione **Build**, fai clic su **AppExchange Marketplace**.
 
-1. In **Cerca app di AppExchange** casella, digitare **Workfront**.
+1. Nella casella **App AppExchange ricerca** digitare **Workfront**.
 
-1. Fai clic sull’app Workfront quando la trovi, quindi fai clic su **Ottieni subito**.
-1. Clic **[!UICONTROL Installazione in produzione]** per installare [!DNL Workfront] app nel tuo [!DNL Salesforce] Ambiente di produzione. (consigliato)
-1. Dopo aver letto e accettato i termini e le condizioni, abilita **[!UICONTROL Ho letto e accetto i termini e le condizioni]** campo.
-1. Clic **[!UICONTROL Conferma e installa]**.
+1. Fai clic sull&#39;app Workfront quando la trovi, quindi fai clic su **Scarica ora**.
+1. Fai clic su **[!UICONTROL Installa in produzione]** per installare l&#39;app [!DNL Workfront] nell&#39;ambiente di produzione [!DNL Salesforce]. (consigliato)
+1. Dopo aver letto e accettato i termini e le condizioni, abilita il campo **[!UICONTROL Ho letto e accetto i termini e le condizioni]**.
+1. Fare clic su **[!UICONTROL Conferma e installa]**.
 1. Seleziona **[!UICONTROL Installa per tutti gli utenti]** (scelta consigliata), quindi fai clic su **[!UICONTROL Installa]**.
 
-1. (Condizionale) Se viene richiesto se desideri approvare l’accesso di terze parti, seleziona **[!UICONTROL Sì, consenti l’accesso a questi siti web di terze parti]**, quindi fai clic su **[!UICONTROL Continua]**.
+1. (Condizionale) Se viene richiesto se si desidera approvare l&#39;accesso di terze parti, selezionare **[!UICONTROL Sì, concedere l&#39;accesso a questi siti Web di terze parti]**, quindi fare clic su **[!UICONTROL Continua]**.
 
-1. Clic **[!UICONTROL Fine]** al termine dell’installazione.
+1. Al termine dell&#39;installazione, fare clic su **[!UICONTROL Fine]**.
 
-   Il [!DNL Workfront] l&#39;app è elencata in **[!UICONTROL Pacchetti installati]**.
+   L&#39;app [!DNL Workfront] è elencata in **[!UICONTROL Pacchetti installati]**.
 
 
-1. Accedi a **[!UICONTROL Configurazione>Controlli di protezione>Impostazioni sito remoto]**.
-1. (Condizionale) Se non vedi il [!DNL Workfront] URL elencato in **[!UICONTROL Tutti i siti remoti]** , fare clic su **[!UICONTROL Nuovo sito remoto]**.
+1. Passare a **[!UICONTROL Configurazione>Controlli di protezione>Impostazioni sito remoto]**.
+1. (Condizionale) Se l&#39;URL [!DNL Workfront] non viene visualizzato nell&#39;elenco **[!UICONTROL Tutti i siti remoti]**, fare clic su **[!UICONTROL Nuovo sito remoto]**.
 
-1. (Condizionale) Se aggiungi il sito, specifica **[!UICONTROL Nome sito remoto]**.
-Ad esempio: *[!DNL Workfront]*.
+1. (Condizionale) Se si aggiunge il sito, specificare **[!UICONTROL Nome sito remoto]**.
+Ad esempio, *[!DNL Workfront]*.
 
-1. (Condizionale) Se aggiungi il sito, specifica **[!UICONTROL URL sito remoto]**.
-Ad esempio: *yourDomain.my.workfront.com*.
+1. (Condizionale) Se si aggiunge il sito, specificare l&#39;**[!UICONTROL URL sito remoto]**.
+Ad esempio, *yourDomain.my.workfront.com*.
 
 1. Fai clic su **[!UICONTROL Salva]**.\
-   Il [!DNL Workfront] l&#39;app è ora installata sul tuo [!DNL Salesforce] dell&#39;istanza. Il **[!UICONTROL Opportunità Workfront]** e **[!UICONTROL WorkfrontAccounts]** [!UICONTROL Visualforce] Le pagine sono state create nell&#39;ambiente.\
-   [!DNL Salesforce] Gli utenti non possono ancora utilizzare l&#39;app finché non aggiungi il [!DNL Workfront] sezione alla loro [!UICONTROL opportunità] o [!UICONTROL Account] layout di pagina.\
-   Per informazioni sulla configurazione di [!DNL Workfront] sezione per gli utenti, consulta [Configurare [!DNL Adobe Workfront] sezione per [!DNL Salesforce] utenti](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
+   L&#39;app [!DNL Workfront] è ora installata nell&#39;istanza [!DNL Salesforce]. Le pagine **[!UICONTROL WorkfrontOpportunities]** e **[!UICONTROL WorkfrontAccounts]** [!UICONTROL Visualforce] sono state create nel tuo ambiente.\
+   [!DNL Salesforce] utenti non possono ancora utilizzare l&#39;app finché non aggiungi la sezione [!DNL Workfront] ai layout di pagina [!UICONTROL Opportunity] o [!UICONTROL Account].\
+   Per informazioni sulla configurazione della sezione [!DNL Workfront] per gli utenti, vedere [Configurare la sezione  [!DNL Adobe Workfront] per [!DNL Salesforce] utenti](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
 
-### Installazione [!DNL Workfront for Salesforce] nel [!DNL Salesforce Lightning Experience] Framework
+### Installazione di [!DNL Workfront for Salesforce] nel framework [!DNL Salesforce Lightning Experience]
 
-1. Accedi a [!DNL Salesforce] come amministratore di sistema.
-1. Fai clic su **[!UICONTROL Configurazione] icona**, quindi fai clic su **[!UICONTROL Configurazione]**.
+1. Accedere a [!DNL Salesforce] come amministratore di sistema.
+1. Fai clic sull&#39;icona **[!UICONTROL Setup]**, quindi fai clic su **[!UICONTROL Setup]**.
 
-1. In **[!UICONTROL STRUMENTI DELLA PIATTAFORMA]** , espandere **[!UICONTROL App].**
+1. Nella sezione **[!UICONTROL STRUMENTI PLATFORM]**, espandi **[!UICONTROL App].**
 
-1. Clic **[!DNL AppExchange Marketplace]**.
-1. In **[!UICONTROL Ricerca [!DNL AppExchange] App]** casella, digitare **[!DNL Workfront]**.
+1. Fare clic su **[!DNL AppExchange Marketplace]**.
+1. Nella casella **[!UICONTROL Cerca [!DNL AppExchange] app]** digitare **[!DNL Workfront]**.
 
-1. Fai clic sull’app Workfront quando la trovi, quindi fai clic su **Ottieni subito**.
-1. Clic **[!UICONTROL Apri schermata di accesso]**.\
-   Devi accedere con il tuo [!DNL Workfront] account amministratore per [!DNL Salesforce].
+1. Fai clic sull&#39;app Workfront quando la trovi, quindi fai clic su **Scarica ora**.
+1. Fare clic su **[!UICONTROL Apri schermata di accesso]**.\
+   Devi accedere con il tuo account amministratore [!DNL Workfront] per [!DNL Salesforce].
 
-1. Clic **[!UICONTROL Consenti]**.
-1. In **[!UICONTROL Installa in questa organizzazione]** , fare clic su **[!UICONTROL Installa qui]** per installare [!DNL Workfront] nel tuo [!DNL Salesforce] Ambiente di produzione. (consigliato)
+1. Fare clic su **[!UICONTROL Consenti]**.
+1. Nella casella **[!UICONTROL Installa in questa organizzazione]**, fare clic su **[!UICONTROL Installa qui]** per installare [!DNL Workfront] nell&#39;ambiente di produzione [!DNL Salesforce]. (consigliato)
 
-1. Dopo aver letto e accettato i termini e le condizioni, abilita **[!UICONTROL Ho letto e accetto i termini e le condizioni]** campo.
-1. Clic **[!UICONTROL Conferma e installa]**.
+1. Dopo aver letto e accettato i termini e le condizioni, abilita il campo **[!UICONTROL Ho letto e accetto i termini e le condizioni]**.
+1. Fare clic su **[!UICONTROL Conferma e installa]**.
 1. Seleziona **[!UICONTROL Installa per tutti gli utenti]** (scelta consigliata), quindi fai clic su **[!UICONTROL Installa]**.
 
-1. (Condizionale) Se viene richiesto se desideri approvare l’accesso di terze parti, seleziona **[!UICONTROL Sì, consenti l’accesso a questi siti web di terze parti]**, quindi fai clic su **[!UICONTROL Continua]**.
+1. (Condizionale) Se viene richiesto se si desidera approvare l&#39;accesso di terze parti, selezionare **[!UICONTROL Sì, concedere l&#39;accesso a questi siti Web di terze parti]**, quindi fare clic su **[!UICONTROL Continua]**.
 
-1. Clic **[!UICONTROL Fine]** al termine dell’installazione.
+1. Al termine dell&#39;installazione, fare clic su **[!UICONTROL Fine]**.
 
-   Il [!DNL Workfront] l&#39;app è elencata in **[!UICONTROL Pacchetti installati]**.
+   L&#39;app [!DNL Workfront] è elencata in **[!UICONTROL Pacchetti installati]**.
 
-1. Accedi a **[!UICONTROL Configurazione].**
-1. In **[!UICONTROL IMPOSTAZIONI]** , espandere **[!UICONTROL Sicurezza].**
+1. Passa a **[!UICONTROL Configurazione].**
+1. Nella sezione **[!UICONTROL SETTINGS]** espandere **[!UICONTROL Security].**
 
-1. Clic **[!UICONTROL Impostazioni sito remoto]**.
-1. (Condizionale) Se non vedi il [!DNL Workfront] URL elencato in **[!UICONTROL Tutti i siti remoti]** , fare clic su **[!UICONTROL Nuovo sito remoto]**.
+1. Fare clic su **[!UICONTROL Impostazioni sito remoto]**.
+1. (Condizionale) Se l&#39;URL [!DNL Workfront] non viene visualizzato nell&#39;elenco **[!UICONTROL Tutti i siti remoti]**, fare clic su **[!UICONTROL Nuovo sito remoto]**.
 
-1. (Condizionale) Se aggiungi il sito, specifica **[!UICONTROL Nome sito remoto]**.
-Ad esempio: *[!DNL Workfront]*.
+1. (Condizionale) Se si aggiunge il sito, specificare **[!UICONTROL Nome sito remoto]**.
+Ad esempio, *[!DNL Workfront]*.
 
-1. (Condizionale) Se aggiungi il sito, specifica **[!UICONTROL URL sito remoto]**.
-Ad esempio: *yourDomain.my.workfront.com*.
+1. (Condizionale) Se si aggiunge il sito, specificare l&#39;**[!UICONTROL URL sito remoto]**.
+Ad esempio, *yourDomain.my.workfront.com*.
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
-   Il [!DNL Workfront] l&#39;app è ora installata sul tuo [!DNL Salesforce] e **[!DNL Workfront]** Il componente viene ora aggiunto all&#39;ambiente.
+   L&#39;app [!DNL Workfront] è ora installata nell&#39;istanza [!DNL Salesforce] e il componente **[!DNL Workfront]** è stato aggiunto all&#39;ambiente.
 
-   [!UICONTROL Salesforce] Gli utenti possono utilizzare [!DNL Workfront] una volta aggiunto il [!DNL Workfront] sezione alla loro [!UICONTROL opportunità] o [!UICONTROL Account] layout di pagina.\
-   Per informazioni sulla configurazione di [!DNL Workfront] sezione per gli utenti, consulta [Configurare [!DNL Adobe Workfront] sezione per [!DNL Salesforce] utenti](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
+   Gli utenti di [!UICONTROL Salesforce] possono utilizzare l&#39;app [!DNL Workfront] dopo aver aggiunto la sezione [!DNL Workfront] ai layout di pagina [!UICONTROL Opportunity] o [!UICONTROL Account].\
+   Per informazioni sulla configurazione della sezione [!DNL Workfront] per gli utenti, vedere [Configurare la sezione  [!DNL Adobe Workfront] per [!DNL Salesforce] utenti](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).

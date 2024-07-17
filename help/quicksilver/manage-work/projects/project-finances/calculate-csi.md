@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
 source-git-commit: 1cf679376517293f0e0f28b461bd9ecab9283035
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -42,9 +42,9 @@ Workfront calcola l&#39;indice di prestazioni dei costi (CSI, Cost Performance I
 
 `CSI = CPI x SPI`
 
-Per informazioni sull’indice dei prezzi al consumo, consulta l’articolo [Calcola indice prestazioni costi (IPC)](../../../manage-work/projects/project-finances/calculate-cpi.md).
+Per informazioni sull&#39;indice dei prezzi al consumo, vedere l&#39;articolo [Calcolare l&#39;indice delle prestazioni dei costi (IPC)](../../../manage-work/projects/project-finances/calculate-cpi.md).
 
-Per informazioni su SPI, vedere l&#39;articolo [Calcola indice prestazioni Schedule (SPI)](../../../manage-work/projects/project-finances/calculate-spi.md).
+Per informazioni su SPI, vedere l&#39;articolo [Calcolare l&#39;indice delle prestazioni della pianificazione (SPI)](../../../manage-work/projects/project-finances/calculate-spi.md).
 
 CSI ha i seguenti tre valori possibili:
 

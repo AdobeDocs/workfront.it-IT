@@ -2,64 +2,64 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: proof-types
-title: Creare una bozza statica del sito web utilizzando [!DNL Workfront Proof]
-description: Puoi creare bozze statiche dalle pagine web. Inoltre, è possibile simulare vari dispositivi definendo la risoluzione dello schermo delle immagini.
+title: Crea bozza sito Web statico utilizzando  [!DNL Workfront Proof]
+description: Puoi creare bozze statiche dalle pagine web. Inoltre, è possibile simulare vari dispositivi definendo la risoluzione dello schermo delle clip.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b93ed288-1bf2-4268-96c3-6263ab6be633
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
 
-# Creare una bozza statica del sito web utilizzando [!DNL Workfront Proof]
+# Creare una bozza statica del sito Web utilizzando [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alla funzionalità del prodotto standalone [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Copertura](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
-Puoi creare bozze statiche dalle pagine web. Inoltre, è possibile simulare vari dispositivi definendo la risoluzione dello schermo delle immagini.
+Puoi creare bozze statiche dalle pagine web. Inoltre, è possibile simulare vari dispositivi definendo la risoluzione dello schermo delle clip.
 
-## Creazione di una bozza statica del sito web
+## Creazione di una bozza statica di un sito web
 
-1. Apri [!UICONTROL Nuova prova] come descritto in [Genera bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
-1. Incolla o digita l’URL nel **www.shareyourlink.com** scatola.
+1. Aprire la pagina [!UICONTROL Nuova bozza], come descritto in [Genera bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
+1. Incolla o digita l&#39;URL nella casella **www.shareyourlink.com**.
 1. Puoi ripetere questo passaggio per aggiungere più URL.
-1. Sotto questa casella, fai clic sulla risoluzione (il valore predefinito è 1366x768), quindi seleziona le risoluzioni desiderate nel **[!UICONTROL Risoluzione dello schermo]** scatola.
-Seleziona una risoluzione più piccola se desideri provare le progettazioni per i dispositivi mobili. In genere, le progettazioni vengono caricate in base alla risoluzione dello schermo/della finestra del browser.
+1. Fai clic sulla risoluzione (il valore predefinito è 1366x768) nella casella **[!UICONTROL Risoluzione schermo]**, quindi seleziona le risoluzioni desiderate.
+Seleziona una risoluzione inferiore se desideri verificare le progettazioni per i dispositivi mobili. In genere, le progettazioni vengono caricate in base alla risoluzione dello schermo o della finestra del browser.
 
-1. Fai clic su **[!UICONTROL Cercare pagine secondarie]** se desideri includere pagine connesse che si trovano nello stesso dominio/sottodominio dell’URL immesso.
-   [!DNL Workfront Proof] analizza le pagine collegate e le elenca sotto la sezione **[!UICONTROL Cercare pagine secondarie]** opzione . Puoi selezionare le pagine da includere.
+1. Fare clic su **[!UICONTROL Cerca pagine secondarie]** se si desidera includere pagine connesse che si trovano nello stesso dominio/sottodominio dell&#39;URL immesso.
+   [!DNL Workfront Proof] analizza le pagine collegate e le elenca sotto l&#39;opzione **[!UICONTROL Cerca pagine secondarie]**. Puoi selezionare le pagine da includere.
 
-1. Con la [!UICONTROL Combinare bozze] è possibile inviare tutte le pagine web come una singola bozza a più pagine.
-1. Fai clic su **[!UICONTROL Fine]**, quindi completa la configurazione della bozza come spiegato in [Genera bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
+1. Con la funzionalità [!UICONTROL Combina bozze] è possibile inviare tutte le pagine Web come una bozza multipagina singola.
+1. Fai clic su **[!UICONTROL Fine]**, quindi completa la configurazione della bozza come descritto in [Genera bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
 
-## Informazioni su pagine e pagine protette da password che richiedono autorizzazione
+## Informazioni sulle pagine protette da password e sulle pagine che richiedono l’autorizzazione
 
-[!DNL Workfront Proof] impossibile acquisire un sito web protetto da password come bozza statica.
+[!DNL Workfront Proof] non è in grado di acquisire come bozza statica un sito Web protetto da password.
 
-Per creare bozze da pagine che richiedono l’autorizzazione, il team IT deve aggiungere uno dei seguenti URL all’Inserire nell&#39;elenco Consentiti dell’azienda attraverso cui il nostro strumento di acquisizione Web si connette:
+Per creare bozze da pagine che richiedono un’autorizzazione, il team IT deve aggiungere uno dei seguenti URL al Inserisco nell&#39;elenco Consentiti di acquisizione dei dati dell’azienda tramite il quale si connette il nostro strumento di acquisizione web:
 
 **Cluster AWS negli Stati Uniti**: webcapture.proofhq.com
 
 **Cluster GCP negli Stati Uniti**: webcapture.gcp.proofhq.com
 
-**Cluster EMEA**: webcapture.proofhq.eu
+**Cluster EMEA**: webcapture.probhq.eu
 
 >[!NOTE]
 >
->Si consiglia di eseguire prove interattive anziché prove statiche per le pagine interne che richiedono autorizzazioni e i siti web protetti da password. Per ulteriori informazioni, consulta [Panoramica delle bozze dei contenuti interattivi](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
+>Consigliamo di eseguire prove interattive anziché statiche per le pagine interne che richiedono autorizzazioni e siti web protetti da password. Per ulteriori informazioni, vedere [Panoramica delle bozze dei contenuti interattivi](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
-## Informazioni sull’elaborazione delle bozze statiche dei siti web
+## Informazioni sull’elaborazione di bozze statiche per siti web
 
-* Le animazioni, i video incorporati, gli script e le interazioni non possono essere inclusi nelle bozze dei siti web statici. Per verificare il contenuto interattivo, consulta [Genera bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) in [Genera bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
+* Animazioni, video incorporati, script e interazioni non possono essere inclusi nelle bozze statiche del sito web. Per verificare il contenuto interattivo, vedere [Generare bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) in [Generare bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
 
-* Le pagine di prova vengono generalmente preparate acquisite alla velocità di circa 20 secondi per pagina. Tuttavia, il tempo complessivo di preparazione dipende anche dai server in cui sono ospitate le pagine. Lo strumento attende 60 secondi per il caricamento di ogni URL inviato. Se questo tempo di attesa viene superato, la prova non riesce.
+* Le pagine delle bozze vengono generalmente preparate e acquisite alla velocità di circa 20 secondi per pagina. Tuttavia, il tempo di preparazione complessivo dipende anche dai server in cui sono ospitate le pagine. Lo strumento attende 60 secondi per ogni URL inviato da caricare. Se questo tempo di attesa viene superato, la bozza non riesce.
 * Per le bozze combinate, se uno degli URL non risponde allo strumento di acquisizione, la bozza non riesce.
-* [!DNL Workfront Proof] acquisisce pagine web fino a 195 pollici dopo la rasterizzazione. Se la pagina web è più lunga di questa, la bozza non riesce.
-* L’estrazione del testo è disponibile su tutti gli elementi di testo, ma il testo inserito come immagini non viene estratto.
-* I collegamenti ipertestuali sono selezionabili nelle bozze e le pagine collegate si aprono nelle nuove schede del browser.
-* I collegamenti ipertestuali sulle immagini non possono essere cliccati se gli elementi style=&quot;display:block&quot; sono utilizzati all’interno della `<a>` tag. È consigliabile regolare queste parti della progettazione della pagina.
-* Per ottenere i migliori risultati, consigliamo di creare le pagine utilizzando le best practice di codifica e gli standard riconosciuti.
+* [!DNL Workfront Proof] acquisisce le pagine Web fino a 195 pollici dopo la rasterizzazione. Se la pagina web è più lunga di questa, la bozza non riesce.
+* L’estrazione del testo è disponibile su tutti gli elementi di testo, ma il testo inserito come immagine non viene estratto.
+* È possibile fare clic sui collegamenti ipertestuali nelle bozze e aprire le pagine collegate nelle nuove schede del browser.
+* I collegamenti ipertestuali sulle immagini non sono cliccabili se gli elementi style=&quot;display:block&quot; sono utilizzati all&#39;interno dei tag `<a>`. È consigliabile regolare queste parti della progettazione della pagina.
+* Per ottenere risultati ottimali, consigliamo di creare le pagine utilizzando le best practice di codifica e gli standard riconosciuti.

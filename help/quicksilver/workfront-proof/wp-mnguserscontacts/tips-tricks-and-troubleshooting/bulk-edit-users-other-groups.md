@@ -3,8 +3,8 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-users-and-contacts
-title: Modifica in serie altri gruppi dell'utente
-description: Durante la modifica in serie ho tentato di aggiungere un singolo altro gruppo a numerosi utenti. Dopo aver salvato le modifiche, tutti gli altri gruppi esistenti sono stati rimossi e solo il nuovo altro gruppo è rimasto.
+title: Modifica in blocco altri gruppi dell'utente
+description: Durante la modifica in blocco ho tentato di aggiungere un singolo Altri gruppi a numerosi utenti. Dopo il salvataggio delle modifiche, tutti gli altri gruppi esistenti sono stati rimossi e solo il nuovo Altro gruppo è rimasto.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: f2402830-3263-4204-ba8a-9028ef937577
@@ -15,25 +15,28 @@ ht-degree: 0%
 
 ---
 
-# Modifica in serie altri gruppi dell&#39;utente
+# Modifica in blocco altri gruppi dell&#39;utente
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alla funzionalità del prodotto standalone [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Copertura](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Problema:
 
-Durante la modifica in serie ho tentato di aggiungere un singolo altro gruppo a numerosi utenti.
-Dopo aver salvato le modifiche, tutti gli altri gruppi esistenti sono stati rimossi e solo il nuovo altro gruppo è rimasto.
+Durante la modifica in blocco ho tentato di aggiungere un singolo Altri gruppi a numerosi utenti.
+Dopo il salvataggio delle modifiche, tutti gli altri gruppi esistenti sono stati rimossi e solo il nuovo Altro gruppo è rimasto.
 
 ## Risposta:
 
-Il comportamento risultante dipende dall’appartenenza al gruppo corrente degli utenti selezionati:
+Il comportamento risultante dipende dall&#39;appartenenza al gruppo corrente degli utenti selezionati:
 
-* Se tutti gli utenti selezionati Altre appartenenze a gruppi corrispondono esattamente.. Dopo aver selezionato gli utenti e selezionato [!UICONTROL modifica], [!UICONTROL Altri gruppi] Il campo mostrerà l’elenco completo di tutti i gruppi a cui appartengono questi utenti.
+* Se tutti gli utenti selezionati l&#39;appartenenza ad altri gruppi corrisponde esattamente...
+Dopo aver selezionato gli utenti e aver selezionato [!UICONTROL modifica], nel campo [!UICONTROL Altri gruppi] verrà visualizzato l&#39;elenco completo
+di tutti i gruppi a cui appartengono questi utenti.
 
-* Se gli utenti selezionati hanno appartenenze diverse ad Altri gruppi... Dopo aver selezionato gli utenti e fatto clic su [!UICONTROL Modifica], [!UICONTROL Altri gruppi] Il campo sarà vuoto.
+* Se gli utenti selezionati hanno appartenenze ad altri gruppi diverse...
+Dopo aver selezionato gli utenti e aver fatto clic su [!UICONTROL Modifica], il campo [!UICONTROL Altri gruppi] sarà vuoto.
 
-Quando fai clic su **[!UICONTROL Salva modifiche]**, viene salvato tutto ciò che viene visualizzato nel campo Altri gruppi .
+Quando fai clic su **[!UICONTROL Salva modifiche]**, viene salvato tutto ciò che viene visualizzato nel campo Altri gruppi.
 
-Il contenuto precedente del campo viene sovrascritto.
+I contenuti precedenti del campo vengono sovrascritti.

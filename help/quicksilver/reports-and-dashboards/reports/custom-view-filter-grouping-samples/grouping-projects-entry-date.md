@@ -9,8 +9,8 @@ feature: Reports and Dashboards
 exl-id: 511faad5-b5bd-4e2d-8daa-3fcde49a502c
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 0%
+source-wordcount: '253'
+ht-degree: 1%
 
 ---
 
@@ -49,24 +49,24 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 </tr>  
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Raggruppa progetti per data immissione
 
 Per applicare questo raggruppamento:
 
 1. Passare a un report di progetto esistente o creare un nuovo report di progetto.\
-   Per ulteriori informazioni sulla creazione di un rapporto, consulta l’articolo [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   Per ulteriori informazioni sulla creazione di un report, vedere l&#39;articolo [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. Dalla sezione **Raggruppamento** , fare clic su **Aggiungi raggruppamento**.
+1. Dalla scheda **Raggruppamento**, fai clic su **Aggiungi raggruppamento**.
 
-1. Clic **Passa alla modalità testo**.
-1. Rimuovi il testo nella **Raggruppa il report** area.
+1. Fare clic su **Passa alla modalità testo**.
+1. Rimuovi il testo nell&#39;area **Raggruppa il report**.
 1. Sostituisci il testo con il seguente codice:
 
    ```
@@ -89,4 +89,4 @@ Per applicare questo raggruppamento:
    textmode=true
    ```
 
-1. Clic **Salva e chiudi**.
+1. Fai clic su **Salva e Chiudi**.

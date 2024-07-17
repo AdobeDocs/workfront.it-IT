@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Questo articolo mostra come impostare i predecessori utilizzando la scheda Predecessori all’interno di un’attività.
 
-Per informazioni sull&#39;impostazione dei predecessori in un elenco di attività, vedere [Creare una relazione predecessore nell&#39;elenco delle attività](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
+Per informazioni sull&#39;impostazione dei predecessori in un elenco di attività, vedere [Creare una relazione predecessore nell&#39;elenco attività](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
 
 Puoi visualizzare i predecessori delle attività nelle seguenti aree di Adobe Workfront:
 
@@ -27,7 +27,7 @@ Puoi visualizzare i predecessori delle attività nelle seguenti aree di Adobe Wo
 * Nel diagramma di Gantt
 * Nell&#39;elenco delle attività nella colonna Predecessori
 
-Per informazioni sui predecessori, vedere [Panoramica dei predecessori delle attività](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Per informazioni sui predecessori, vedere [Panoramica sui predecessori delle attività](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 ## Requisiti di accesso
 
@@ -51,38 +51,38 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per le attività e il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per le attività e il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Creare un predecessore per un&#39;attività
 
-1. Passare a un&#39;attività da designare come attività dipendente, quindi fare clic su **Predecessori** nel pannello a sinistra.
+1. Vai a un&#39;attività che vuoi designare come attività dipendente, quindi fai clic su **Predecessori** nel pannello a sinistra.
 
-   Potrebbe essere necessario fare clic su **Mostra altro**, quindi **Predecessori**.
+   Potrebbe essere necessario fare clic su **Mostra altro**, quindi su **Predecessori**.
 
-1. Clic **+Aggiungi predecessore**.
-1. (Facoltativo) Per aggiungere un predecessore per più progetti, sostituisci il nome del progetto in **Progetto principale** in un altro progetto, quindi digitare il nome dell&#39;attività o delle attività che si desidera come predecessori.
+1. Fai clic su **+Aggiungi predecessore**.
+1. (Facoltativo) Per aggiungere un predecessore per più progetti, sostituisci il nome del progetto nel campo **Progetto principale** con un altro progetto, quindi digita il nome dell&#39;attività o delle attività che desideri come predecessori.
 
-   Per informazioni sull’aggiunta di predecessori per più progetti, consulta [Creare predecessori per più progetti](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
+   Per informazioni sull&#39;aggiunta di predecessori per più progetti, vedere [Creare predecessori per più progetti](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
 
 1. Digitare il nome dell&#39;attività o delle attività da designare come predecessori.
 
    ![](assets/add-predecessor-box-nwe-350x465.png)
 
-1. Seleziona un **Tipo di dipendenza**.
+1. Selezionare un **tipo di dipendenza**.
 
-   Per informazioni sui tipi di relazione tra attività, vedere [Panoramica dei tipi di relazione tra attività](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+   Per informazioni sui tipi di relazione tra attività, vedere [Panoramica sui tipi di relazione tra attività](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-1. Specifica un **Lag** importo in giorni.
+1. Specifica un valore di **Lag** in giorni.
 
-   Per informazioni sui tipi di Lag, vedi &#x200B; [Panoramica sui tipi di ritardo](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+   Per informazioni sui tipi di lag, vedere &#x200B; [Panoramica sui tipi di lag](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
-1. Seleziona **Enforced** se si desidera applicare la relazione predecessore tra le due attività.
+1. Selezionare **Imposto** se si desidera applicare la relazione predecessore tra le due attività.
 
-   Per informazioni sull&#39;applicazione dei predecessori, vedere [Imponi predecessori](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
+   Per informazioni sull&#39;applicazione dei predecessori, vedere [Applicazione dei predecessori](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
 1. Fai clic su **Salva**.

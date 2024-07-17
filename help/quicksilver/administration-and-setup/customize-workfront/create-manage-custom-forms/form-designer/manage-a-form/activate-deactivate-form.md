@@ -62,8 +62,8 @@ Per disattivare un modulo personalizzato:
 {{step-1-to-setup}}
 
 1. Nel pannello a sinistra, scegli **Forms personalizzato**.
-1. In **Forms** , selezionare il modulo personalizzato che si desidera disattivare.
-1. Nella colonna È attivo scegliere **Falso** e fai clic su fuori dalla colonna. Modulo non più attivo.
+1. Nell&#39;area **Forms** selezionare il modulo personalizzato che si desidera disattivare.
+1. Nella colonna È attivo, scegliere **False** e fare clic all&#39;esterno della colonna. Modulo non più attivo.
 
 ## Riattivare un modulo personalizzato
 
@@ -72,5 +72,5 @@ Se si riattiva un modulo personalizzato, vengono mantenute le impostazioni prece
 {{step-1-to-setup}}
 
 1. Nel pannello a sinistra, scegli **Forms personalizzato**.
-1. In **Forms** , selezionare il modulo personalizzato che si desidera riattivare.
-1. Nella colonna È attivo scegliere **Vero** e fai clic su fuori dalla colonna. Il modulo è ora attivo.
+1. Nell&#39;area **Forms** selezionare il modulo personalizzato che si desidera riattivare.
+1. Nella colonna È attivo scegliere **True** e fare clic all&#39;esterno della colonna. Il modulo è ora attivo.

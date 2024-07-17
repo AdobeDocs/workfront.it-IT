@@ -9,8 +9,8 @@ role: Developer
 exl-id: a2b8ef01-1c14-47a5-8b0a-550b17b526ff
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 6%
+source-wordcount: '122'
+ht-degree: 4%
 
 ---
 
@@ -34,9 +34,9 @@ Per includere una delle opzioni seguenti, immettere il numero intero corrisponde
 
 Esempi:
 
-* Per cancellare l’avanzamento quando copi il problema, immetti un `options` valore di `4`.
+* Per cancellare l&#39;avanzamento quando si copia il problema, immettere un valore `options` di `4`.
 
-* Per cancellare sia l&#39;avanzamento che i documenti, immetti un `options` valore di `132`.
+* Per cancellare sia l&#39;avanzamento che i documenti, immetti un valore `options` di `132`.
 
   Annulla avanzamento = 4
 

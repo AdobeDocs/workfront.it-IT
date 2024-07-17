@@ -16,8 +16,8 @@ ht-degree: 0%
 
 Questa sezione contiene i seguenti articoli:
 
-* [Aggiungere o modificare un blocco di tabella nell’area di lavoro rapporti](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
-* [Configurare una colonna di tabella nell’area di lavoro Reporting](../../../reports-and-dashboards/reporting-canvas/table-blocks/modify-columns-table.md)
-* [Creare un campo formula nell’area di lavoro Reporting](../../../reports-and-dashboards/reporting-canvas/table-blocks/create-formula-field.md)
-* [Raggruppare le righe di tabella nell’area di lavoro rapporti](../../../reports-and-dashboards/reporting-canvas/table-blocks/group-rows-in-table.md)
+* [Aggiungere o modificare un blocco di tabella nell&#39;area di lavoro report](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
+* [Configurare una colonna di tabella nell&#39;area di lavoro Reporting](../../../reports-and-dashboards/reporting-canvas/table-blocks/modify-columns-table.md)
+* [Creare un campo formula nell&#39;area di lavoro Reporting](../../../reports-and-dashboards/reporting-canvas/table-blocks/create-formula-field.md)
+* [Raggruppa righe di tabella nell&#39;area di lavoro di reporting](../../../reports-and-dashboards/reporting-canvas/table-blocks/group-rows-in-table.md)
 * [Filtrare una tabella in Reporting Canvas (Area di lavoro rapporti)](../../../reports-and-dashboards/reporting-canvas/table-blocks/configure-filter-rules-for-table.md)

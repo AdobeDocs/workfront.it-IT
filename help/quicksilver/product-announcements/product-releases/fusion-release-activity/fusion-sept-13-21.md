@@ -1,6 +1,6 @@
 ---
-title: Attività di rilascio di Workfront Fusion:&nbsp;Settimana del 13 settembre 2021
-description: Attività di rilascio di Workfront Fusion:&nbsp;Settimana del 13 settembre 2021
+title: Attività del rilascio di Workfront Fusion:&nbsp;Settimana del 13 settembre 2021
+description: Attività del rilascio di Workfront Fusion:&nbsp;Settimana del 13 settembre 2021
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti apportati ad Adobe Workfront Fusion la settimana del 23 settembre 2021.
 
-Per un elenco di tutte le modifiche recenti, vedi [Attività di rilascio di Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Per un elenco di tutte le modifiche recenti, vedere [Attività di Adobe Workfront Fusion release](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedi [Aggiornamenti di manutenzione per Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
+Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedere la pagina [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
 
 ## Filtrare e ordinare la cronologia di esecuzione dello scenario di Workfront Fusion
 
@@ -41,7 +41,7 @@ Abbiamo anche reso possibile ordinare la cronologia di esecuzione dello scenario
 * Numero di operazioni
 * Quantità di dati trasferiti
 
-Per ulteriori informazioni sul filtraggio e l’ordinamento della cronologia di esecuzione, consulta [Visualizzare la cronologia di esecuzione di uno scenario in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
+Per ulteriori informazioni sul filtraggio e l&#39;ordinamento della cronologia di esecuzione, vedere [Visualizzare la cronologia di esecuzione di uno scenario in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
 
 ## I collegamenti della Guida in linea in Fusion ora conducono ad articoli specifici
 
@@ -57,7 +57,7 @@ Per chiarezza nella tabella di esecuzione dello scenario, il pulsante Details (D
 
 In precedenza, tutte le esecuzioni avevano un pulsante Dettagli e occasionalmente gli utenti facevano clic sui dettagli solo per scoprire che non erano disponibili dettagli.
 
-Per ulteriori informazioni, consulta [Visualizzare la cronologia di esecuzione di uno scenario in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
+Per ulteriori informazioni, vedere [Visualizzare la cronologia di esecuzione di uno scenario in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
 
 ## Timeout del connettore SDL Managed Translation aumentato a 120 secondi
 

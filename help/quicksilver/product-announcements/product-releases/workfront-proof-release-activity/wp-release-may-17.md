@@ -2,8 +2,8 @@
 content-type: release-notes
 product-area: Workfront Proof
 navigation-topic: proof-release-activity
-title: "Attività di rilascio di Workfront Proof: settimana del 17 maggio 2021"
-description: In questa pagina sono descritte le modifiche apportate all'applicazione di verifica autonoma Workfront Proof. Le modifiche qui descritte non sono applicabili alla funzionalità di verifica all’interno dell’applicazione Adobe Workfront.
+title: "Attività del rilascio di Workfront Proof: settimana del 17 maggio 2021"
+description: Questa pagina descrive le modifiche apportate a Workfront Proof (applicazione di verifica autonoma). Le modifiche qui descritte non sono applicabili alla funzionalità di verifica all’interno dell’applicazione Adobe Workfront.
 author: Luke
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 ---
 
-# Attività rilascio bozza Workfront: settimana del 17 maggio 2021
+# Attività di rilascio di Workfront Proof: settimana del 17 maggio 2021
 
-In questa pagina sono descritte le modifiche apportate all&#39;applicazione di verifica autonoma Workfront Proof. Le modifiche qui descritte non sono applicabili alla funzionalità di verifica all’interno dell’applicazione Adobe Workfront.
+Questa pagina descrive le modifiche apportate a Workfront Proof (applicazione di verifica autonoma). Le modifiche qui descritte non sono applicabili alla funzionalità di verifica all’interno dell’applicazione Adobe Workfront.
 
-## I menu del profilo utente in Workfront Proof ora utilizzano i campi di completamento automatico per cercare gli utenti
+## I menu del profilo utente in Workfront Proof ora utilizzano i campi typeahead per cercare gli utenti.
 
 >[!NOTE]
 >

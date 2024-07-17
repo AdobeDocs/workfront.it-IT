@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Questa pagina fornisce informazioni sulle funzionalità di Adobe Workfront Proof che viene rilasciato nell’ambiente di produzione entro l’arco temporale della versione 23.3.
 
-Per un elenco di tutte le modifiche disponibili per tutte le aree di Workfront a questo punto del ciclo di rilascio 23.3, consulta [Panoramica sulla versione 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Per un elenco di tutte le modifiche disponibili per tutte le aree di Workfront a questo punto del ciclo di rilascio 23.3, vedi [Panoramica sulla versione 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 <table>
             <col style="width: 50%;" />
@@ -37,7 +37,7 @@ Per un elenco di tutte le modifiche disponibili per tutte le aree di Workfront a
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md" class="MCXref xref" xrefformat="{para}">Posticipare gli aggiornamenti per il visualizzatore bozze desktop</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md" class="MCXref xref" xrefformat="{para}">Posticipare gli aggiornamenti per il visualizzatore di bozze per il desktop</a> </p>
                         <p>In base al feedback ricevuto dagli utenti, è stata aggiunta l’opzione per posticipare gli aggiornamenti di Desktop Proofing Viewer (Visualizzatore di bozze desktop). Ora gli utenti possono scegliere di posticipare un aggiornamento e continuare con il proprio lavoro, ma verrà ricordato che è disponibile un aggiornamento ogni volta che aprono il Visualizzatore bozze desktop.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>

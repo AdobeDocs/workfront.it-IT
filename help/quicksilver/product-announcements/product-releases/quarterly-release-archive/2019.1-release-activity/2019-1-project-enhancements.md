@@ -24,7 +24,7 @@ Questa pagina descrive tutti i miglioramenti al progetto inclusi nella versione 
 
 Per un elenco di tutte le modifiche apportate in 2019.1, consulta &quot;Panoramica sull’attività di rilascio 2019.1&quot;.
 
-**Per gli amministratori**
+**Per amministratori**
 
 * [Ripristina modelli dal Cestino](#restore-templates-from-the-recycle-bin)
 * [Mostra marche temporali per i campi data nella Home](#show-timestamps-for-date-fields-in-home)
@@ -33,17 +33,17 @@ Per un elenco di tutte le modifiche apportate in 2019.1, consulta &quot;Panorami
 **Per tutti gli utenti**
 
 * [Miglioramenti Agile](#agile-improvements)
-* [Aggiungere attività e problemi da un elenco a un’iterazione](#add-tasks-and-issues-from-a-list-to-an-iteration)
-* [Nuovi formati carta per l&#39;esportazione del diagramma di Gantt](#new-paper-sizes-for-gantt-chart-export)
-* [Rimozione dell&#39;accesso alle finestre di dialogo nel Diagramma di Gantt in modalità di modifica](#removed-access-to-dialog-boxes-in-the-gantt-chart-while-in-edit-mode)
-* [Visualizzare le informazioni sulle attività nel diagramma di Gantt dell&#39;elenco dei progetti in un programma o in un Portfolio](#view-task-information-in-the-project-list-gantt-chart-in-a-program-or-portfolio)
-* [Accedere al Diagramma di Gantt elenco attività nei modelli](#access-the-task-list-gantt-chart-on-templates)
-* [Ridenominazione della vista Progetto nel Diagramma di Gantt](#renamed-the-project-view-on-the-gantt-chart)
-* [Scenari What-If nel diagramma di Gantt elenco task](#what-if-scenarios-in-the-task-list-gantt-chart)
-* [Miglioramenti all’elenco delle attività](#task-list-improvements)
+* [Aggiungere attività e problemi da un elenco a un&#39;iterazione](#add-tasks-and-issues-from-a-list-to-an-iteration)
+* [Nuove dimensioni carta per esportazione Diagramma di Gantt](#new-paper-sizes-for-gantt-chart-export)
+* [Accesso alle finestre di dialogo rimosso nel Diagramma di Gantt in modalità di modifica](#removed-access-to-dialog-boxes-in-the-gantt-chart-while-in-edit-mode)
+* [Visualizza informazioni attività nel Diagramma di Gantt dell&#39;elenco progetti in un programma o in un Portfolio](#view-task-information-in-the-project-list-gantt-chart-in-a-program-or-portfolio)
+* [Accedere al diagramma di Gantt dell&#39;elenco attività nei modelli](#access-the-task-list-gantt-chart-on-templates)
+* [Visualizzazione progetto rinominata nel Diagramma di Gantt](#renamed-the-project-view-on-the-gantt-chart)
+* [Scenari What-If nel diagramma di Gantt elenco attività](#what-if-scenarios-in-the-task-list-gantt-chart)
+* [Miglioramenti all&#39;elenco attività](#task-list-improvements)
 * [Visualizza elenchi a schermo intero](#display-lists-in-full-screen)
 * [Nuovi elenchi in aree aggiuntive](#new-lists-in-additional-areas)
-* [Inviare un rapporto consegnato in formato XLSX](#send-a-delivered-report-in-xlsx-format)
+* [Invia un report consegnato in formato XLSX](#send-a-delivered-report-in-xlsx-format)
 * [Esporta registri di controllo](#export-audit-logs)
 
 ## Ripristina modelli dal Cestino {#restore-templates-from-the-recycle-bin}
@@ -128,7 +128,7 @@ Per informazioni sulla pianificazione dei rapporti per la consegna, consulta &qu
 
 ## Miglioramenti all’elenco delle attività {#task-list-improvements}
 
-[aggiornamento 18.3 Beta 4 da cui è stato rimosso]
+[aggiorna 18.3 Beta 4 da cui è stato rimosso]
 
 Gli elenchi di attività riprogettati sono stati riabilitati dopo una breve rimozione durante la versione 18.3 beta 4. Sono state inoltre introdotte le seguenti funzioni aggiuntive negli elenchi delle attività che non facevano parte della versione originale:
 

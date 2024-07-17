@@ -9,7 +9,7 @@ exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
 source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
 source-wordcount: '773'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 0%
 * [Modifica problemi](../../../manage-work/issues/manage-issues/edit-issues.md)
 * [Assegna problemi](../../../manage-work/issues/manage-issues/assign-issues.md)
 
-Per informazioni generali sull’assegnazione dei problemi, consulta [Panoramica sulla modifica delle assegnazioni dei problemi](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+Per informazioni generali sull&#39;assegnazione dei problemi, vedere [Panoramica sulla modifica delle assegnazioni dei problemi](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 >[!NOTE]
 >
->È necessario disporre almeno delle autorizzazioni Contribuisci a un problema per poter effettuare assegnazioni al problema.
+>È necessario disporre almeno delle autorizzazioni Contribute per un problema per poter effettuare assegnazioni al problema.
 
 ## Requisiti di accesso
 
@@ -52,12 +52,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per il problema</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per il problema</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -79,30 +79,30 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Ad esempio, puoi creare un filtro per visualizzare solo i problemi con un ruolo specifico come assegnatario. Quindi, puoi sostituire il ruolo con un utente specifico. Effettua le seguenti operazioni:
 
-   1. Fai clic su **Filtro** , quindi fai clic su **Nuovo filtro**.
+   1. Fai clic sull&#39;elenco a discesa **Filtro**, quindi fai clic su **Nuovo filtro**.
 
       Viene visualizzata la finestra di dialogo Nuovo filtro.
 
-   1. Clic **Aggiungi una regola filtro.**
-   1. Per filtrare per un ruolo specifico, espandere **Ruoli di assegnazione,** quindi fai clic su **ID**
+   1. Fare clic su **Aggiungi regola filtro.**
+   1. Per filtrare per un ruolo specifico, espandi **Ruoli assegnazione,** quindi fai clic su **ID.**
 
       Oppure
 
-      Per filtrare per un utente specifico, espandi **Utenti assegnazione,** quindi fai clic su **ID**
+      Per filtrare per un utente specifico, espandi **Utenti assegnazione,** quindi fai clic su **ID.**
 
       >[!TIP]
       >
-      >Non usi **Assegnato a** perché questo campo si riferisce solo al proprietario del problema e non a tutti gli assegnatari.
+      >Non utilizzare **Assegnato a** perché questo campo fa riferimento solo al proprietario del problema e non a tutti gli assegnatari.
 
-   1. Nell’elenco a discesa, seleziona **Uguale** come qualificatore del filtro.
+   1. Nell&#39;elenco a discesa, selezionare **Uguale** come qualificatore del filtro.
    1. Inizia a digitare il nome dell’utente o del ruolo per cui desideri filtrare, quindi fai clic sul nome quando viene visualizzato nell’elenco a discesa.
-   1. Clic **Salva filtro.**
+   1. Fai clic su **Salva filtro.**
 
-1. Selezionare i problemi per i quali si desidera modificare le assegnazioni, quindi fare clic su **Modifica** icona ![](assets/qs-edit-icon.png).
+1. Seleziona i problemi per i quali vuoi modificare le assegnazioni, quindi fai clic sull&#39;icona **Modifica** ![](assets/qs-edit-icon.png).
 
-   Il **Modifica le Issues** visualizzazioni. Gli elementi modificati vengono visualizzati nell&#39;angolo superiore sinistro della pagina.
+   Viene visualizzato **Modifica problemi**. Gli elementi modificati vengono visualizzati nell&#39;angolo superiore sinistro della pagina.
 
-1. Vai a **Assegnazioni** , quindi seleziona **Assegnatario**.
+1. Vai alla sezione **Assegnazioni**, quindi seleziona **Assegnatario**.
 
    ![](assets/classic-assignmens-area-on-edit-box-350x119.png)
 
@@ -114,34 +114,34 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
          >[!TIP]
          >
-         Puoi assegnare più utenti, mansioni o team. Puoi assegnare solo utenti attivi, mansioni e team.
+         >Puoi assegnare più utenti, mansioni o team. Puoi assegnare solo utenti attivi, mansioni e team.
          >
-         Se un utente, una mansione o un team è stato assegnato prima della disattivazione, rimane assegnato all&#39;elemento di lavoro. In questo caso, consigliamo quanto segue:
+         >Se un utente, una mansione o un team è stato assegnato prima della disattivazione, rimane assegnato all&#39;elemento di lavoro. In questo caso, consigliamo quanto segue:
          >
-         * Riassegnare l&#39;elemento di lavoro alle risorse attive.
-         * Associare gli utenti di un team disattivato a un team attivo e riassegnare l&#39;elemento di lavoro al team attivo.
+         >* Riassegnare l&#39;elemento di lavoro alle risorse attive.
+         >* Associare gli utenti di un team disattivato a un team attivo e riassegnare l&#39;elemento di lavoro al team attivo.
 
-         Vengono visualizzate le informazioni comuni a tutti i problemi selezionati. Ad esempio, se lo stesso utente viene assegnato a tutti i problemi, viene visualizzato in **Assegnatario** colonna. Se le informazioni non sono comuni tra i problemi selezionati, non viene visualizzata alcuna informazione.
+         Vengono visualizzate le informazioni comuni a tutti i problemi selezionati. Ad esempio, se lo stesso utente è assegnato a tutti i problemi, viene visualizzato nella colonna **Assegnatario**. Se le informazioni non sono comuni tra i problemi selezionati, non viene visualizzata alcuna informazione.
 
    1. Per rimuovere singoli assegnatari:
 
-      1. Fai clic su **Icona X** accanto al nome dell&#39;assegnatario che si desidera rimuovere se l&#39;assegnatario viene visualizzato nell&#39;elenco Assegnazioni.
+      1. Fare clic sull&#39;icona **X** accanto al nome dell&#39;assegnatario che si desidera rimuovere se l&#39;assegnatario viene visualizzato nell&#39;elenco Assegnazioni.
 
          Oppure
 
-         (Condizionale) Se l&#39;assegnatario che si desidera rimuovere non viene visualizzato nella sezione Assegnazioni perché è assegnato solo ad alcuni dei problemi selezionati, fare clic su **Rimuovi assegnatario** e inizia a digitare il nome dell’assegnatario che desideri rimuovere, quindi fai clic sul nome quando viene visualizzato nell’elenco a discesa.
+         (Condizionale) Se l&#39;assegnatario che si desidera rimuovere non viene visualizzato nella sezione Assegnazioni perché l&#39;assegnatario è assegnato solo ad alcuni dei problemi selezionati, fare clic su **Rimuovi assegnatario** e iniziare a digitare il nome dell&#39;assegnatario che si desidera rimuovere, quindi fare clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
 
-      1. Clic **Rimuovi assegnatario** di nuovo per aggiungere un altro assegnatario da rimuovere.
+      1. Fai di nuovo clic su **Rimuovi assegnatario** per aggiungere un altro assegnatario da rimuovere.
 
    1. Per rimuovere tutti gli assegnatari:
 
-      1. Clic **Rimuovi tutti gli assegnatari esistenti**, quindi fai clic su **Sì, elimina tutti gli assegnatari**.
+      1. Fai clic su **Rimuovi tutti gli assegnatari esistenti**, quindi fai clic su **Sì, elimina tutti gli assegnatari**.
 
          In questo modo vengono rimossi non solo gli assegnatari comuni (assegnatari visualizzati nella finestra di dialogo di modifica), ma anche tutti gli assegnatari per tutti i problemi selezionati.
 
 1. (Facoltativo) Modificare una delle seguenti opzioni per gli assegnatari selezionati da associare ai problemi:
 
-   * **Proprietario problema:** Selezionare il pulsante di opzione per indicare l&#39;assegnatario designato come proprietario dei problemi. Se non è selezionata, Adobe Workfront designa il primo assegnatario come Proprietario del problema. Questa opzione non è disponibile per le assegnazioni del team.
-   * **Ruolo dell&#39;assegnatario**: seleziona un ruolo dall’elenco a discesa. Se non è selezionata, Workfront seleziona automaticamente il ruolo principale dell’utente.
+   * **Proprietario problema:** Selezionare il pulsante di opzione per indicare l&#39;assegnatario designato come proprietario dei problemi. Se non è selezionata, Adobe Workfront designa il primo assegnatario come Proprietario del problema. Questa opzione non è disponibile per le assegnazioni del team.
+   * **Ruolo assegnatario**: selezionare un ruolo dall&#39;elenco a discesa. Se non è selezionata, Workfront seleziona automaticamente il ruolo principale dell’utente.
 
-1. Clic **Salva modifiche**.
+1. Fai clic su **Salva modifiche**.

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 21.2 Altri miglioramenti
 
-Questa pagina descrive tutti gli altri miglioramenti apportati con la versione 21.2 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 10 maggio 2021. Per un elenco di tutte le modifiche disponibili con la versione 21.2, consulta [Panoramica sulla versione 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Questa pagina descrive tutti gli altri miglioramenti apportati con la versione 21.2 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 10 maggio 2021. Per un elenco di tutte le modifiche disponibili con la versione 21.2, consulta la [panoramica sulla versione 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Ora siamo ufficialmente Adobe Workfront
 
@@ -37,19 +37,19 @@ Aree che verranno aggiornate a breve
 * Esportazioni PDF per elenchi e report
 * Icona Favicon nella scheda del browser
 
-**Aree che vengono aggiornate in un secondo momento**
+**Aree che si aggiornano più tardi**
 
 * Notifiche e-mail
 
-## Convalida del inserisco nell&#39;elenco Consentiti dell’e-mail di
+## Convalida del inserisco nell&#39;elenco Consentiti di posta elettronica di
 
 >[!NOTE]
 >
 >Disponibile solo nella nuova esperienza Adobe Workfront.
 
-Se utilizzi il inserisco nell&#39;elenco Consentiti di e-mail, gli indirizzi e-mail nuovi e aggiornati dell’utente vengono ora convalidati in base al inserisco nell&#39;elenco Consentiti di. Quando aggiungi un nuovo utente o ne modifichi uno esistente e immetti un dominio e-mail che non si trova nel inserisco nell&#39;elenco Consentiti di, un messaggio ti avvisa che l’utente non riceverà messaggi e-mail. Puoi comunque salvare il profilo utente, ma devi aggiungere il dominio al inserisco nell&#39;elenco Consentiti di in modo che l’utente riceva le e-mail.
+Se utilizzi il inserisco nell&#39;elenco Consentiti di e-mail, gli indirizzi e-mail nuovi e aggiornati dell’utente vengono ora convalidati in base al inserisco nell&#39;elenco Consentiti di. Quando aggiungi un nuovo utente o ne modifichi uno esistente e immetti un dominio e-mail che non si trova nel elenco Consentiti, viene visualizzato un messaggio per informare che l’utente non riceverà messaggi e-mail. Puoi comunque salvare il profilo utente, ma devi aggiungere il dominio al inserisco nell&#39;elenco Consentiti di in modo che l’utente riceva le e-mail.
 
-Per ulteriori informazioni, consulta [Modificare il profilo di un utente](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Per ulteriori informazioni, vedere [Modificare il profilo di un utente](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ## Nuovo aspetto per le intestazioni oggetto
 
@@ -70,7 +70,7 @@ In precedenza non esisteva alcuna icona e a destra del titolo dell’oggetto app
 
 Anche le intestazioni di pagina delle aree della nuova esperienza Workfront, come Analisi avanzate, Gestione risorse e altre, hanno questo aspetto aggiornato.
 
-Per ulteriori informazioni sulle nuove intestazioni di oggetto nella nuova esperienza Workfront, consulta [Nuove intestazioni oggetto](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
+Per ulteriori informazioni sulle nuove intestazioni oggetto nella nuova esperienza Workfront, vedi [Nuove intestazioni oggetto](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 
 ![](assets/product-announcement-object-header-350x179.png)
 
@@ -96,4 +96,4 @@ Tutti i payload di abbonamento agli eventi ora contengono ogni campo che termina
 
 Blueprint fornisce elementi di base per aiutarti a creare un sistema di gestione del lavoro che cresce con te. Gli amministratori di sistema possono sfogliare il catalogo dei blueprint e installare modelli di progetto pronti all’uso.
 
-Per ulteriori informazioni, consulta [Blueprint](../../../administration-and-setup/blueprints/blueprints.md).
+Per ulteriori informazioni, vedere [Blueprint](../../../administration-and-setup/blueprints/blueprints.md).

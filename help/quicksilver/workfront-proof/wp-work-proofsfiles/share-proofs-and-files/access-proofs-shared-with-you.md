@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
-title: Accedere a una bozza condivisa con te
-description: Quando ricevi un’e-mail su una bozza, questa contiene un URL personale per accedere alla bozza. Per ulteriori informazioni, consulta Nuova e-mail di bozza.
+title: Accedere a una bozza condivisa con l’utente
+description: Quando ricevi un’e-mail relativa a una bozza, questa contiene un URL personale per accedervi. Per ulteriori informazioni, consulta Nuovo messaggio e-mail bozza.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 901013f2-833f-4f6b-921c-eddd4f063247
@@ -14,33 +14,33 @@ ht-degree: 0%
 
 ---
 
-# Accedere a una bozza condivisa con te
+# Accedere a una bozza condivisa con l’utente
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alla funzionalità del prodotto standalone [!DNL Workfront] Prova. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Copertura](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alla funzionalità nel prodotto autonomo [!DNL Workfront] Proof. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
-Quando ricevi un’e-mail su una bozza, questa contiene un URL personale per accedere alla bozza. Per ulteriori informazioni, consulta [Nuova e-mail a prova di](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
+Quando ricevi un’e-mail relativa a una bozza, questa contiene un URL personale per accedervi. Per ulteriori informazioni, vedere [Nuovo messaggio e-mail bozza](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
 
 >[!CAUTION]
 >
->L’URL dell’e-mail è personale e aprirà la bozza con te già identificato come revisore. È importante che l’URL non venga inoltrato a nessun altro utente; se lo fai, qualsiasi commento o decisione che prenderanno sarà a tuo nome. Se desideri che un altro utente visualizzi la bozza e disponi dell’autorizzazione per farlo, utilizza la funzionalità di condivisione delle prove descritta in [Condividi una bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md). Per informazioni sulle autorizzazioni di bozza, vedi [Condividere un documento](../../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md)oppure, se utilizzi [!DNL Workfront Proof], vedi [Profili delle autorizzazioni di prova in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+>L’URL dell’e-mail è personale e aprirà la bozza con l’utente già identificato come revisore. È importante non inoltrare l’URL ad altri utenti; in tal caso, tutti i commenti o le decisioni che prenderanno saranno a tuo nome. Se si desidera che un altro utente visualizzi la bozza e si dispone dell&#39;autorizzazione di bozza per farlo, utilizzare la funzionalità di condivisione delle bozze illustrata in [Condividi bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md). Per informazioni sulle autorizzazioni per le bozze, vedere [Condividi un documento](../../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md) oppure, se si utilizza [!DNL Workfront Proof], vedere [Profili autorizzazioni bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 >
->In alternativa, se sulla bozza è abilitata la condivisione delle prove, puoi consentire a qualcun altro di visualizzare la bozza condividendo l’URL della bozza dal visualizzatore di prove o dal [!UICONTROL Condividi questa bozza con un altro utente] link nel tuo nuovo messaggio e-mail di prova).
+>In alternativa, se sulla bozza è abilitata la condivisione bozze, puoi consentire a un altro utente di visualizzarla condividendo l&#39;URL della bozza dal visualizzatore di bozze o dal collegamento [!UICONTROL Condividi la bozza con un altro utente] nell&#39;e-mail Nuova bozza.
 
 Considera quanto segue sulle bozze condivise:
 
-* Chiunque abbia un indirizzo e-mail valido può essere aggiunto a una bozza. Non devono essere un [!DNL Workfront Proof] utente con credenziali di accesso.
-* Qualsiasi prova condivisa con te verrà visualizzata nella [!DNL Views] pagina del tuo account. Per ulteriori informazioni, consulta [Gestire gli elementi nella pagina Visualizzazioni in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)
-* Quando qualcuno condivide con te un URL di prova, puoi accedere alla bozza come descritto in [[!UICONTROL Condividi l’URL pubblico in [!DNL Workfront Proof]]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md)
+* Chiunque abbia un indirizzo e-mail valido può essere aggiunto a una bozza. Non è necessario che siano utenti di [!DNL Workfront Proof] con credenziali di accesso.
+* Qualsiasi bozza condivisa con te verrà visualizzata nella pagina [!DNL Views] del tuo account. Per ulteriori informazioni, vedere [Gestione elementi nella pagina Visualizzazioni in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)
+* Quando qualcuno condivide con te un URL di bozza, puoi accedere alla bozza come descritto in [[!UICONTROL Condividere l&#39;URL pubblico in [!DNL Workfront Proof]]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md)
 * Puoi cercare qualsiasi bozza condivisa con te in base ai seguenti criteri:
 
    * Nome bozza
    * Descrizione (messaggio associato a una bozza)
-   * Nome del tag (vedi [Creare e gestire i tag in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md))
+   * Nome tag (vedi [Creare e gestire tag in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md))
 
-Per aprire una bozza da un’e-mail ricevuta:
+Per aprire una bozza da un messaggio e-mail ricevuto:
 
-1. Fai clic su **[!UICONTROL Vai alla bozza]** nell’e-mail.
+1. Fai clic su **[!UICONTROL Vai alla bozza]** nell&#39;e-mail.
 
-   La bozza viene visualizzata nel visualizzatore di correzione, pronta per la revisione. Per informazioni sulla revisione della bozza, vedi [Rivedi una bozza](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md).
+   La bozza viene aperta nel visualizzatore di bozze, pronto per la revisione. Per informazioni sulla revisione della bozza, vedere [Rivedere una bozza](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md).

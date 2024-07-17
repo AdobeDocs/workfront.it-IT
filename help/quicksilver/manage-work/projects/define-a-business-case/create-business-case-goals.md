@@ -27,13 +27,13 @@ Durante la creazione di un caso di business, puoi creare una serie di obiettivi 
 Quando crei gli obiettivi del caso di business per i tuoi progetti, tieni presente quanto segue:
 
 * Gli obiettivi dei casi di business sono specifici per il progetto. Non è possibile copiare gli obiettivi da un progetto a un altro, né stabilire obiettivi a livello di sistema. Devono essere definite a livello di ciascun progetto.
-* L’amministratore di Adobe Workfront o l’amministratore di gruppo deve abilitare la sezione Obiettivi per i progetti prima che venga visualizzata nel Caso di business dei progetti. Per informazioni sull’abilitazione dei campi Caso di business per i progetti, consulta [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* L’amministratore di Adobe Workfront o l’amministratore di gruppo deve abilitare la sezione Obiettivi per i progetti prima che venga visualizzata nel Caso di business dei progetti. Per informazioni sull&#39;abilitazione dei campi Caso di business per i progetti, consulta [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * Gli obiettivi non sono una sezione obbligatoria nel Business Case di un progetto.
 
   Un progetto può ricevere un punteggio da assegnare come priorità nell’Ottimizzatore Portfolio, anche se la sezione Obiettivi del caso di business non è definita.
 
-  Per ulteriori informazioni sul punteggio di Portfoli Optimizer, consulta [Applicare una scorecard a un progetto e generare un punteggio di allineamento](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
+  Per ulteriori informazioni sul punteggio di Portfolio Optimizer, vedi [Applicare una scorecard a un progetto e generare un punteggio di allineamento](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
 * Non è possibile creare rapporti sugli obiettivi del caso di business.
 
@@ -61,26 +61,26 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestisci autorizzazioni o versioni successive per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestisci autorizzazioni o versioni successive per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Aggiungere un obiettivo al caso di business di un progetto
 
 1. Passare a un progetto per il quale si desidera definire gli obiettivi del Business Case.
-1. Clic **Business Case nel pannello a sinistra.**
+1. Fai clic su **Business Case nel pannello a sinistra.**
 
    Viene visualizzato il Business Case (Caso di business).
 
    ![](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
 
-1. In **Obiettivi** , fare clic su **Modifica obiettivi**.
+1. Nella sezione **Obiettivi**, fai clic su **Modifica obiettivi**.
 
 1. Specifica gli obiettivi.
-In **Importanza** dal menu a discesa, selezionare il livello di importanza:
+Nel menu a discesa **Importance**, seleziona il livello di importanza:
 
    * Il più alto
    * Alta
@@ -92,5 +92,5 @@ In **Importanza** dal menu a discesa, selezionare il livello di importanza:
 
      Non è possibile personalizzare i livelli di importanza degli obiettivi.
 
-1. (Facoltativo) Per aggiungere un altro obiettivo, fai clic **Aggiungi un altro obiettivo** e ripetere i passaggi 5 e 6.
-1. Clic **Salva**.
+1. (Facoltativo) Per aggiungere un altro obiettivo, fare clic su **Aggiungi un altro obiettivo** e ripetere i passaggi 5 e 6.
+1. Fai clic su **Salva**.

@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Programma beta - Workfront + Frame.io
-description: Siamo entusiasti di annunciare il lancio del nostro programma beta per Workfront + Frame.io. Qui troverai informazioni sull’ultima versione Beta e un breve video che illustra come iniziare.
+title: Programma Beta - Workfront + Frame.io
+description: Siamo lieti di annunciare il lancio del nostro programma Beta per Workfront + Frame.io. Qui trovi informazioni sull’ultima versione di Beta e un breve video che illustra come iniziare.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -14,18 +14,18 @@ ht-degree: 1%
 
 ---
 
-# Programma beta - Workfront + Frame.io
+# Programma Beta - Workfront + Frame.io
 
 Benvenuti nel programma beta per l&#39;integrazione Workfront + Frame.io. Come parte di questa versione beta, potrai accedere in anteprima alla nostra esperienza di integrazione nativa Workfront + Frame.io e condividere il tuo feedback che determinerà l’esperienza finale che rilasceremo alla nostra base di clienti più ampia. Con questa integrazione, puntiamo a creare un flusso di lavoro end-to-end senza attriti tra Workfront e Frame.io con l&#39;obiettivo di fornire una soluzione ideale e unificata per la revisione e l&#39;approvazione.
 
-Qui troverai informazioni sull’ultima versione Beta e un breve video che illustra come iniziare.
+Qui trovi informazioni sull’ultima versione di Beta e un breve video che illustra come iniziare.
 
 >[!IMPORTANT]
 >
 >Questa versione beta è ora chiusa e non accettiamo più nuovi partecipanti.
 
 
-## Maggio 2024: aggiornamenti della versione beta in Workfront
+## Maggio 2024: aggiornamenti della versione di Beta in Workfront
 
 Questa versione di maggio include le seguenti funzionalità:  
 
@@ -48,7 +48,7 @@ Come parte dei nostri sforzi per migliorare la sincronizzazione del progetto tra
 Monitora facilmente lo stato di approvazione di qualsiasi file direttamente dall’elenco dei documenti. Con un semplice clic sullo stato generale, accedi a un raggruppamento dettagliato di tutti i partecipanti coinvolti nel processo di approvazione, insieme ai loro stati individuali. Semplifica inoltre il flusso di lavoro ricordando con un solo clic eventuali approvatori in sospeso, garantendo risposte tempestive ed una gestione efficiente dei documenti. 
 
 
-## Marzo 2024: aggiornamenti della versione beta in Frame.io
+## Marzo 2024: Aggiornamenti della versione di Beta in Frame.io
 
 +++ Espandi per visualizzare le funzionalità rilasciate a marzo 2024
 
@@ -62,15 +62,15 @@ Le voci di menu per l’aggiunta di una risorsa a Workfront sono state aggiornat
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428213/)
 
-## Marzo 2024: Aggiornamenti della versione beta in Workfront
+## Marzo 2024: Aggiornamenti della versione di Beta in Workfront
 
-In questa versione beta sono disponibili:
+In questa versione di Beta sono disponibili:
 
 ### Aggiungere una scadenza a un documento revisioni e approvazioni
 
 È ora possibile specificare una scadenza per gli utenti o i team assegnati alla revisione o all&#39;approvazione di un documento. I revisori e gli approvatori ricevono le notifiche e-mail 72 ore e 24 ore prima della scadenza specificata. La scadenza si riflette anche nel widget Approvazioni nella nuova area Home.
 
-Per ulteriori informazioni, consulta [Creare una richiesta di revisione o approvazione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+Per ulteriori informazioni, vedere [Creare una richiesta di revisione o approvazione del documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 ### Creare e utilizzare modelli di approvazione
 
@@ -81,7 +81,7 @@ Per ulteriori informazioni, consulta [Creare una richiesta di revisione o approv
 
 È possibile applicare i modelli di approvazione dall&#39;area Documenti durante la creazione di un processo di approvazione per un documento.
 
-Per ulteriori informazioni, consulta [Creare un modello di approvazione](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+Per ulteriori informazioni, vedere [Creare un modello di approvazione](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 ### Visualizza informazioni su tutte le approvazioni in un’unica posizione
 
@@ -94,7 +94,7 @@ Per aiutarti a gestire e analizzare rapidamente le richieste di approvazione, ab
 
 Per una visualizzazione più dettagliata, è possibile espandere le categorie elencate in precedenza. Il widget Tutte le approvazioni è disponibile nelle nuove dashboard Home e Canvas.
 
-Per ulteriori informazioni, consulta [Introduzione alla nuova Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Per ulteriori informazioni, vedere [Introduzione alla nuova Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ### Blocca la revisione e le approvazioni una volta presa una decisione generale
 
@@ -112,11 +112,11 @@ Quando viene caricata una nuova versione di un documento, è possibile avviare i
 
 Con questa integrazione, il nostro obiettivo è consentire ai creativi di rimanere nel loro strumento scelto (CC o Frame.io) per condurre la creazione dei contenuti e le revisioni tra pari, mentre i project manager coordinano il lavoro e inizializzano e monitorano il processo di revisione formale dall&#39;interno di Workfront. Ciò può essere ottenuto utilizzando il meglio di entrambe le soluzioni: le nuove approvazioni dei documenti di Workfront per la gestione delle approvazioni dei contenuti, insieme alle funzionalità di revisione dei contenuti offerte da Frame.io. Collettivamente, le nuove approvazioni dei documenti e Frame.io formeranno la nuova esperienza di revisione e approvazione dei contenuti end-to-end. 
 
-Per consentirti di testare facilmente le nuove funzioni del programma beta, abbiamo creato un nuovo account test Frame.io e lo abbiamo collegato a un nuovo gruppo denominato `Frame.io testing` nell’ambiente Workfront Preview o Sandbox esistente.
+Per consentire di testare facilmente le nuove funzioni del programma beta, è stato creato un nuovo account Frame.io di test e l&#39;abbiamo collegato a un nuovo gruppo denominato `Frame.io testing` nell&#39;ambiente Workfront Preview o Sandbox esistente.
 
 ### Istruzioni dettagliate per il test
 
-Abbiamo creato uno scenario di test più complesso per i partecipanti che desiderano testare funzionalità aggiuntive. Una guida per questo scenario di test dettagliato può essere scaricata qui: [Scenario di test dettagliato WF + Frame.io](/help/quicksilver/review-and-approve-work/Documents/assets/WF-Frame-Detailed-Walk-Through-May-Release.pdf).
+Abbiamo creato uno scenario di test più complesso per i partecipanti che desiderano testare funzionalità aggiuntive. Una guida per questo scenario di test dettagliato può essere scaricata qui: [WF + Frame.io scenario di test dettagliato Procedura dettagliata](/help/quicksilver/review-and-approve-work/Documents/assets/WF-Frame-Detailed-Walk-Through-May-Release.pdf).
 
 
 ## Video dimostrativo
@@ -127,4 +127,4 @@ Abbiamo creato uno scenario di test più complesso per i partecipanti che deside
 
 Apprezziamo il tuo contributo e riteniamo che la tua prospettiva sia fondamentale per aiutarci a creare il miglior prodotto possibile.
 
-In caso di feedback specifici su cosa sarebbe necessario per consentire alla tua azienda di adottare questa soluzione in produzione, inviala a [etienneb@adobe.com](mailto:etienneb@adobe.com).
+Poiché hai un feedback specifico su ciò che sarebbe necessario affinché la tua azienda adotti questa soluzione in produzione, inviala a [etienneb@adobe.com](mailto:etienneb@adobe.com).

@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Attività di rilascio di Workfront Fusion: settimana del 14 novembre 2022
 
-**Sono ora disponibili il connettore e i moduli Microsoft Power BI**
+**Il connettore e i moduli Microsoft Power BI sono ora disponibili**
 
 Ora puoi collegare Adobe Workfront Fusion al tuo account Microsoft Power BI.
 
@@ -31,4 +31,4 @@ Con i moduli Microsoft Power BI, è possibile:
 * Aggiungere o eliminare righe in una tabella di set di dati
 * Effettuare una chiamata API personalizzata all’API Microsoft Power BI
 
-Per ulteriori informazioni, consulta [Moduli Microsoft Power BI](../../../workfront-fusion/apps-and-their-modules/powerbi-modules.md).
+Per ulteriori informazioni, vedere [Moduli Microsoft Power BI](../../../workfront-fusion/apps-and-their-modules/powerbi-modules.md).

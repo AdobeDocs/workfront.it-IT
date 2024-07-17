@@ -22,9 +22,9 @@ ht-degree: 1%
 
 Un flusso di lavoro è un gruppo configurabile di schede e schede per la collaborazione sul lavoro. I flussi di lavoro possono includere diversi tipi di bacheche create da modelli e un elenco di schede di elementi di lavoro. In un flusso di lavoro è possibile tenere traccia del lavoro in iterazioni o sprint.
 
-Per ulteriori informazioni, consulta [Utilizza l’elenco delle schede](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) e [Creare un’iterazione in un flusso di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+Per ulteriori informazioni, vedere [Utilizzare l&#39;elenco delle schede](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) e [Creare un&#39;iterazione in un flusso di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
-I flussi di lavoro vengono visualizzati nel dashboard insieme alle singole schede a cui hai accesso che non fanno parte di un flusso di lavoro. Per informazioni sul dashboard delle bacheche, consulta [Utilizzare il dashboard delle bacheche](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). Puoi fare clic sul nome di una bacheca qualsiasi sul dashboard per aprirla.
+I flussi di lavoro vengono visualizzati nel dashboard insieme alle singole schede a cui hai accesso che non fanno parte di un flusso di lavoro. Per informazioni sul dashboard delle bacheche, vedere [Utilizzare il dashboard delle bacheche](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). Puoi fare clic sul nome di una bacheca qualsiasi sul dashboard per aprirla.
 
 ## Requisiti di accesso
 
@@ -55,35 +55,35 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 {{step1-to-boards}}
 
-1. Clic **[!UICONTROL Aggiungi flusso di lavoro]** nel [!UICONTROL Flussi di lavoro] della dashboard.
-1. Digita un nome da sostituire **[!UICONTROL Flusso di lavoro senza titolo]** e premere Invio.
+1. Fare clic su **[!UICONTROL Aggiungi flusso di lavoro]** nell&#39;area [!UICONTROL Flussi di lavoro] del dashboard.
+1. Digitare un nome per sostituire **[!UICONTROL Flusso di lavoro senza titolo]** e premere Invio.
 
-   Puoi aggiungere bacheche al flusso di lavoro o fare clic su [!UICONTROL **Tutte le bacheche**] per tornare alla dashboard.
+   Puoi aggiungere delle bacheche al flusso di lavoro oppure fare clic su [!UICONTROL **Tutte le bacheche**] per tornare alla bacheca.
 
 ## Creare una nuova bacheca in un flusso di lavoro
 
 1. Se non si è già in un flusso di lavoro, fare clic su [!UICONTROL **Visualizza flusso di lavoro**] nel dashboard per aprire un flusso di lavoro esistente.
-1. Clic **[!UICONTROL Aggiungi bacheca]** il [!UICONTROL Schede] del flusso di lavoro.
+1. Fai clic su **[!UICONTROL Aggiungi bacheca]** nella scheda [!UICONTROL Bacheche] del flusso di lavoro.
 1. Seleziona un modello per la bacheca.
 
 | Modello | Descrizione |
 |---------|----------|
 | Bacheca base | Sulla bacheca sono disponibili tre colonne predefinite. È possibile aggiungere nuove colonne e rinominare o eliminare le colonne predefinite. <p>Nessun criterio colonna applicato. |
-| Bacheca Kanban | Nella bacheca sono disponibili le seguenti colonne: Backlog, Nuovo, In corso, Completo e In sospeso. È possibile aggiungere nuove colonne e rinominare o eliminare le colonne predefinite.<p>Per utilizzare il backlog, è necessario impostare i filtri per la colonna Acquisizione. Per informazioni, consulta [Aggiungere una colonna Acquisizione a una bacheca](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Per rivedere i criteri predefiniti per ogni colonna, fare clic sul pulsante [!UICONTROL **Altro** menu] in una colonna e seleziona [!UICONTROL **Modifica**]. Puoi modificare uno qualsiasi di questi criteri predefiniti. Per informazioni, consulta [Gestisci colonne bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
+| Bacheca Kanban | Nella bacheca sono disponibili le seguenti colonne: Backlog, Nuovo, In corso, Completo e In sospeso. È possibile aggiungere nuove colonne e rinominare o eliminare le colonne predefinite.<p>Per utilizzare il backlog, è necessario impostare i filtri per la colonna Acquisizione. Per informazioni, vedere [Aggiungere una colonna di acquisizione a una bacheca](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Per rivedere i criteri predefiniti per ogni colonna, fare clic sul menu [!UICONTROL **Altro**] in una colonna e selezionare [!UICONTROL **Modifica**]. Puoi modificare uno qualsiasi di questi criteri predefiniti. Per informazioni, consulta [Gestire le colonne della bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 | Bacheca retrospettiva | Sulla bacheca sono fornite le seguenti colonne: Cosa è andato bene? Cosa si può migliorare? Chi dovremmo festeggiare? Cosa possiamo fare per muoverci più velocemente? È possibile aggiungere nuove colonne e rinominare o eliminare le colonne predefinite. <p>Nessun criterio colonna applicato. |
-| Processo iterazione | Bacheca utilizzata per definire ed eseguire un&#39;iterazione. <p>Nella bacheca sono disponibili le seguenti colonne: Backlog, Nuovo, In corso, Completo e In sospeso. Non è possibile aggiungere colonne alla bacheca. <p>Per rivedere i criteri predefiniti per ogni colonna, fare clic sul pulsante [!UICONTROL **Altro**] menu su una colonna e seleziona [!UICONTROL **Modifica**]. Puoi modificare uno qualsiasi di questi criteri predefiniti. Per informazioni, consulta [Gestisci colonne bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
+| Processo iterazione | Bacheca utilizzata per definire ed eseguire un&#39;iterazione. <p>Nella bacheca sono disponibili le seguenti colonne: Backlog, Nuovo, In corso, Completo e In sospeso. Non è possibile aggiungere colonne alla bacheca. <p>Per rivedere i criteri predefiniti per ogni colonna, fare clic sul menu [!UICONTROL **Altro**] in una colonna e selezionare [!UICONTROL **Modifica**]. Puoi modificare uno qualsiasi di questi criteri predefiniti. Per informazioni, consulta [Gestire le colonne della bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
-Per ulteriori informazioni sulla configurazione della bacheca, consulta [Creare o modificare una bacheca](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
+Per ulteriori informazioni sulla configurazione della bacheca, vedere [Creare o modificare una bacheca](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
 
 ## Filtrare l’elenco delle bacheche in un flusso di lavoro
 
-Quando nell’elenco della bacheca vengono applicati filtri diversi da quelli predefiniti, sull’icona del filtro viene visualizzato un indicatore ![Filtro applicato](assets/boards-filterapplied-30x30.png). Clic [!UICONTROL **Cancella tutto**] per rimuovere tutti i filtri, quindi fare clic su [!UICONTROL **Nascondi filtri**] per chiudere il pannello dei filtri.
+Quando nell&#39;elenco delle bacheche vengono applicati filtri diversi da quelli predefiniti, viene visualizzato un indicatore sull&#39;icona del filtro ![Filtro applicato](assets/boards-filterapplied-30x30.png). Fai clic su [!UICONTROL **Cancella tutto**] per rimuovere tutti i filtri, quindi fai clic su [!UICONTROL **Nascondi filtri**] per chiudere il pannello dei filtri.
 
 {{step1-to-boards}}
 
-1. Nel dashboard, fai clic su [!UICONTROL **Visualizza flusso di lavoro**] per aprire un workflow.
-1. Fai clic su [!UICONTROL **Schede**] se non è già visualizzata.
-1. Clic [!UICONTROL **Filtro**].
+1. Nel dashboard fare clic su [!UICONTROL **Visualizza flusso di lavoro**] per aprire un flusso di lavoro.
+1. Fare clic sulla scheda [!UICONTROL **Bacheche**] se non è già visualizzata.
+1. Fai clic su [!UICONTROL **Filtro**].
 1. Seleziona le bacheche che desideri visualizzare per stato (bacheche archiviate, bacheche attive o tutte).
 1. Seleziona le bacheche da visualizzare per modello.
 
@@ -97,10 +97,10 @@ Quando nell’elenco della bacheca vengono applicati filtri diversi da quelli pr
 
 {{step1-to-boards}}
 
-1. Nel dashboard, fai clic su [!UICONTROL **Visualizza flusso di lavoro**] per aprire un workflow.
-1. Fai clic su **[!UICONTROL Aggiungi membro]** icona ![Aggiungi membri](assets/boards-addmember-spectrum-25x25.png) per aggiungere membri e team al flusso di lavoro.
+1. Nel dashboard fare clic su [!UICONTROL **Visualizza flusso di lavoro**] per aprire un flusso di lavoro.
+1. Fare clic sull&#39;icona **[!UICONTROL Aggiungi membro]** ![Aggiungi membri](assets/boards-addmember-spectrum-25x25.png) per aggiungere membri e team al flusso di lavoro.
 
-   È lo stesso processo utilizzato per aggiungere membri a una bacheca. Per ulteriori informazioni, consulta [Aggiungere o rimuovere membri da una bacheca](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
+   È lo stesso processo utilizzato per aggiungere membri a una bacheca. Per ulteriori informazioni, vedere [Aggiungere o rimuovere membri da una bacheca](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
 ## Aggiungere origini a un flusso di lavoro
 
@@ -108,22 +108,22 @@ Una sorgente determina la provenienza delle schede nel flusso di lavoro.
 
 {{step1-to-boards}}
 
-1. Fai clic su [!UICONTROL **Sorgenti**] icona ![Icona Sorgenti](assets/sources-icon.png) per definire un&#39;origine per l&#39;importazione delle schede nel flusso di lavoro. Al momento, l’unica origine disponibile è [!DNL Adobe Workfront].
+1. Fai clic sull&#39;icona [!UICONTROL **Origini**] ![Origini](assets/sources-icon.png) per definire un&#39;origine per l&#39;importazione di schede nel flusso di lavoro. Al momento, l&#39;unica origine disponibile è [!DNL Adobe Workfront].
 1. Aggiungi filtri per importare attività e problemi da Workfront come schede.
 
-   L’aggiunta di filtri per le origini del flusso di lavoro è identica all’aggiunta di filtri avanzati per una colonna di acquisizione su una bacheca di base o su una bacheca Kanban. Per ulteriori informazioni, consulta [Aggiungere una colonna Acquisizione a una bacheca](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+   L’aggiunta di filtri per le origini del flusso di lavoro è identica all’aggiunta di filtri avanzati per una colonna di acquisizione su una bacheca di base o su una bacheca Kanban. Per ulteriori informazioni, vedere [Aggiungere una colonna di acquisizione a una bacheca](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 ## Configurare un flusso di lavoro
 
 {{step1-to-boards}}
 
-1. Nel dashboard, fai clic su [!UICONTROL **Visualizza flusso di lavoro**] per aprire un workflow.
-1. Clic [!UICONTROL **Configura**] per aprire [!UICONTROL Configura flusso di lavoro] pannello.
-1. (Facoltativo) Espandi [!UICONTROL **Flusso di lavoro**] e digitare una descrizione del flusso di lavoro. Questa descrizione viene visualizzata nel dashboard.
-1. (Facoltativo) Espandi [!UICONTROL **Iterazioni**] per definire un processo di iterazione per questo flusso di lavoro.
+1. Nel dashboard fare clic su [!UICONTROL **Visualizza flusso di lavoro**] per aprire un flusso di lavoro.
+1. Fare clic su [!UICONTROL **Configura**] per aprire il pannello [!UICONTROL Configura flusso di lavoro].
+1. (Facoltativo) Espandere [!UICONTROL **Flusso di lavoro**] e digitare una descrizione del flusso di lavoro. Questa descrizione viene visualizzata nel dashboard.
+1. (Facoltativo) Espandere [!UICONTROL **Iterazioni**] per definire un processo di iterazione per questo flusso di lavoro.
 
-   Il numero totale di carte, il numero di carte puntate e il numero di iterazioni sono visualizzati nella sezione Elenco carte. Clic [!UICONTROL **Visualizza elenco**] per aprire l’elenco e aggiungere schede. Per ulteriori informazioni, consulta [Utilizza l’elenco delle schede](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
+   Il numero totale di carte, il numero di carte puntate e il numero di iterazioni sono visualizzati nella sezione Elenco carte. Fai clic su [!UICONTROL **Visualizza elenco**] per aprire l&#39;elenco e aggiungere schede. Per ulteriori informazioni, vedere [Utilizzare l&#39;elenco delle schede](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
-   Se è già stata definita un’iterazione, vengono visualizzati la data di inizio, il numero di schede e il numero di punti. Clic [!UICONTROL **Visualizza bacheca**] per aprire la bacheca iterazione. Per ulteriori informazioni, consulta [Creare un’iterazione in un flusso di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+   Se è già stata definita un’iterazione, vengono visualizzati la data di inizio, il numero di schede e il numero di punti. Fare clic su [!UICONTROL **Visualizza bacheca**] per aprire la bacheca di iterazione. Per ulteriori informazioni, vedere [Creare un&#39;iterazione in un workflow](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
-1. (Facoltativo) Espandi [!UICONTROL **Tag**] per aggiungere tag al flusso di lavoro. Cercare un tag o digitare un nuovo nome di tag nella casella di ricerca e premere Invio per crearlo.
+1. Espandi [!UICONTROL **Tag**] per aggiungere tag al flusso di lavoro (facoltativo). Cercare un tag o digitare un nuovo nome di tag nella casella di ricerca e premere Invio per crearlo.

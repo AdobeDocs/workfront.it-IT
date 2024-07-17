@@ -16,12 +16,12 @@ ht-degree: 0%
 
 # Informazioni sulla versione beta delle dashboard di Canvas
 
-Le dashboard di Canvas sono una funzione attualmente in fase di sviluppo che consente di visualizzare facilmente i dati di Adobe Workfront aggiungendo vari tipi di rapporti a un’area di lavoro personalizzabile. Tieni presente che, nonostante la tua partecipazione durante la fase di test della versione beta, alcune parti della funzione potrebbero non essere complete o non funzionare come previsto. Invia un feedback relativo alla tua esperienza seguendo le istruzioni nel [Fornisci feedback](#provide-feedback) sezione successiva.
+Le dashboard di Canvas sono una funzione attualmente in fase di sviluppo che consente di visualizzare facilmente i dati di Adobe Workfront aggiungendo vari tipi di rapporti a un’area di lavoro personalizzabile. Tieni presente che, nonostante la tua partecipazione durante la fase di test della versione beta, alcune parti della funzione potrebbero non essere complete o non funzionare come previsto. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Fornisci feedback](#provide-feedback) di seguito.
 
-Per informazioni di base sull’utilizzo delle dashboard di Canvas, consulta [Introduzione ai dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
-Per un elenco di tutta la documentazione relativa alle dashboard di Canvas, consulta [Panoramica delle dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+Per informazioni di base sull&#39;utilizzo dei dashboard di Canvas, vedere [Introduzione ai dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+Per un elenco di tutta la documentazione relativa ai dashboard di Canvas, vedere [Panoramica dei dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
-**Pianificazione beta:**
+**Pianificazione Beta:**
 
 * Data di inizio della versione beta chiusa - TBA
 * Data di inizio della versione beta aperta - TBA
@@ -33,9 +33,9 @@ Per un elenco di tutta la documentazione relativa alle dashboard di Canvas, cons
 
 Per iscriverti alla versione beta:
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **Dashboard**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **Dashboards**.
 
-1. Fai clic su **Partecipa alla versione beta delle dashboard di Canvas** pulsante beta nell’angolo superiore destro della pagina.
+1. Fai clic sul pulsante **Partecipa alla versione beta dei dashboard di Canvas** nell&#39;angolo in alto a destra della pagina.
 
    >[!NOTE]
    >
@@ -47,11 +47,11 @@ Per iscriverti alla versione beta:
 
 Il feedback è apprezzato durante lo sviluppo di questo strumento nel corso della versione beta. Segui le istruzioni qui sotto per condividere la tua esperienza con noi.
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **Dashboard**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **Dashboards**.
 
 1. Nel pannello a sinistra, fai clic su **Dashboard Canvas**.
 
-1. Fai clic su **Invia feedback** nell’angolo in basso a destra della pagina, quindi inserisci il tuo feedback nel modulo visualizzato e fai clic su **Invia**.
+1. Fai clic sul pulsante **Invia feedback** nell&#39;angolo inferiore destro della pagina, quindi inserisci il tuo feedback nel modulo visualizzato e fai clic su **Invia**.
 
 ## Funzioni pianificate
 

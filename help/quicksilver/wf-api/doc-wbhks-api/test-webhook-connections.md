@@ -10,7 +10,7 @@ role: Developer
 exl-id: 7452ebfc-7c72-4fea-99ac-7f76b12404b8
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '806'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Per eseguire i test sono necessari i seguenti prerequisiti:
 
 Questi test presuppongono inoltre che l’istanza del webhook del documento sia registrata. (Puoi registrare la tua istanza in Workfront in Configurazione > Documenti > Integrazioni personalizzate).
 
-**Prova 1: eseguire il provisioning del servizio Document Webhook per un utente**
+**Test 1: provisioning del servizio Document Webhook per un utente**
 
 Verifica l’URL di autenticazione e l’URL dell’endpoint del token per i provider Webhook basati su OAuth.
 
@@ -41,7 +41,7 @@ Verifica l’URL di autenticazione e l’URL dell’endpoint del token per i pro
 1. (Solo per i servizi OAuth) Dopo aver completato il passaggio precedente, visualizzerai la pagina di autenticazione OAuth2 del servizio in una finestra a comparsa. (Nota: potrebbe essere richiesto di accedere prima al servizio.) Dalla pagina di autenticazione, concedi a Workfront l’accesso all’account dell’utente facendo clic sul pulsante Considera attendibili o Consenti.
 1. Verifica che il servizio sia stato aggiunto al menu a discesa Aggiungi documenti. Se inizialmente non è visibile, prova ad aggiornare il browser.
 
-**Test 2: Collegare un documento in Workfront Test dei seguenti endpoint: /files, /metadata**
+**Test 2: collegare un documento in Workfront Test i seguenti endpoint: /files, /metadata**
 
 1. In Workfront, passare alla pagina principale Documenti facendo clic sul collegamento Documenti nella barra di navigazione superiore.
 1. Selezionare il servizio Web Document in Aggiungi documenti.
@@ -67,7 +67,7 @@ Verifica i seguenti endpoint: /metadata (in particolare viewLink)
 1. Verificare che la schermata di accesso del sistema di gestione dei contenuti venga caricata in una nuova scheda.
 1. Accedi e verifica di essere reindirizzato al documento
 
-**Prova 5: scarica il documento dal sistema di gestione dei contenuti**
+**Test 5: scaricare il documento dal sistema di gestione dei contenuti**
 
 Verifica i seguenti endpoint (in particolare il collegamento di download): /metadata 
 
@@ -75,7 +75,7 @@ Verifica i seguenti endpoint (in particolare il collegamento di download): /meta
 1. Selezionare il documento e fare clic sul collegamento Scarica.
 1. Verifica l’inizio del download.
 
-**Prova 6: cercare il contenuto**
+**Prova 6: ricerca contenuto**
 
 Verifica i seguenti endpoint: /search
 
@@ -84,7 +84,7 @@ Verifica i seguenti endpoint: /search
 1. Dal modale, esegui una ricerca.
 1. Verifica che i risultati della ricerca siano corretti.
 
-**Prova 7: inviare il documento da Workfront al sistema di gestione dei contenuti**
+**Prova 7: invia documento da Workfront a Content Management System**
 
 Verifica i seguenti endpoint: /files, /uploadInit, /upload
 
@@ -95,15 +95,15 @@ Verifica i seguenti endpoint: /files, /uploadInit, /upload
 1. Vai alla cartella di destinazione desiderata e fai clic sul pulsante Salva.
 1. Verificare che il documento sia caricato nella posizione corretta nel sistema di gestione dei contenuti.
 
-**Test 8: visualizzare le miniature in Workfront**
+**Test 8: visualizzazione miniature in Workfront**
 
 Verifica i seguenti endpoint: /thumbnail
 
 1. Collegare un documento a Workfront.
-1. Selezionare il documento nell&#39;elenco.
+1. Seleziona il documento nell’elenco.
 1. Verifica che la miniatura venga visualizzata nel pannello di destra.
 
-**Prova 9: recupero dei byte di contenuto**
+**Prova 9: ottieni i byte di contenuto**
 
 Verifica i seguenti endpoint: /download
 

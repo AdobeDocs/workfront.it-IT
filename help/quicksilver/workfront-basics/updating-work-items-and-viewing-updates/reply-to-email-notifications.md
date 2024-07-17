@@ -70,7 +70,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront. Per ulteriori informazioni, consulta [Requisiti di accesso alla documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront. Per ulteriori informazioni, consulta [Requisiti di accesso per la documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Rispondere a un aggiornamento da una notifica e-mail
 
@@ -79,15 +79,15 @@ Quando ricevi una notifica e-mail, puoi aprire rapidamente l’oggetto Workfront
 1. Apri la notifica e-mail generata da un aggiornamento in Workfront.
 
    ![email.png](assets/email-350x202.png)
-1. Clic **Commento** dalla notifica e-mail.
+1. Fai clic su **Commento** dalla notifica e-mail.
 
    La pagina Dettagli dell&#39;oggetto viene visualizzata in Workfront.
 
 1. Vai all’aggiornamento a cui desideri aggiungere una risposta.
 
-   Oltre a visualizzare gli utenti attivamente coinvolti nella conversazione, puoi vedere chi è stato taggato in ogni risposta nella parte superiore del thread di aggiornamento. Questi utenti, insieme a tutti gli utenti abbonati all’oggetto, ricevono una notifica ogni volta che viene effettuato un aggiornamento o una risposta sull’oggetto. Per assegnare tag a più utenti, consulta [Assegna tag ad altri utenti in caso di aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   Oltre a visualizzare gli utenti attivamente coinvolti nella conversazione, puoi vedere chi è stato taggato in ogni risposta nella parte superiore del thread di aggiornamento. Questi utenti, insieme a tutti gli utenti abbonati all’oggetto, ricevono una notifica ogni volta che viene effettuato un aggiornamento o una risposta sull’oggetto. Per assegnare tag ad altri utenti, vedere [Assegnare tag ad altri utenti negli aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
-1. Clic **Risposta,** immetti la risposta, quindi fai clic su **Rispondi**.
+1. Fai clic su **Rispondi,** immetti la tua risposta, quindi fai clic su **Rispondi**.
 
    La risposta viene aggiunta come nuovo commento al thread di commenti.
 

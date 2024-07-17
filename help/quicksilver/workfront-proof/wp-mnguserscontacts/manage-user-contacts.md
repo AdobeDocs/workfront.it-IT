@@ -19,11 +19,11 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alle funzionalità del prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Bozza](../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../review-and-approve-work/proofing/proofing.md).
 
 Questa sezione contiene le seguenti sottosezioni:
 
 * [Utenti](../../workfront-proof/wp-mnguserscontacts/users/users.md)
 * [Gruppi](../../workfront-proof/wp-mnguserscontacts/groups/groups.md)
 * [Conttati](../../workfront-proof/wp-mnguserscontacts/contacts/contacts.md)
-* [Suggerimenti, trucchi e risoluzione dei problemi per [!DNL Workfront Proof] utenti e contatti](../../workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wfproof.md)
+* [Suggerimenti, trucchi e risoluzione dei problemi per  [!DNL Workfront Proof]  utenti e contatti](../../workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wfproof.md)

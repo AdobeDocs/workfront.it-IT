@@ -27,27 +27,27 @@ ht-degree: 1%
 >     Oppure
 >        
 >   * Una licenza aggiuntiva per Adobe Workfront Goals per i piani Prime o Select Adobe Workfront.
->       Per ulteriori informazioni, consulta [Prezzo e packaging di Adobe Workfront](https://www.workfront.com/plans).
+>       Per ulteriori informazioni, consulta [Determinazione prezzi e packaging di Adobe Workfront](https://www.workfront.com/plans).
 >      
 >* Per il piano corrente e la struttura delle licenze:
 >    
->   * A Pro o superiore [piano Adobe Workfront]
+>   * Un piano Pro o superiore [Adobe Workfront]
 >   * Una licenza Adobe Workfront Goals oltre a una licenza Workfront.
 >    
 >Contatta il tuo account manager Workfront per saperne di più su una licenza Workfront Goals.
 > 
->Per ulteriori informazioni sull’accesso agli obiettivi di Workfront, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Per ulteriori informazioni sull&#39;accesso agli obiettivi di Workfront, vedere [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 
 L’allineamento degli obiettivi è una parte importante della gestione degli obiettivi. Puoi assicurarti che tutti nella tua organizzazione siano sulla stessa pagina su ciò che deve essere raggiunto per portare avanti la strategia, allineando i loro obiettivi l’uno all’altro e agli obiettivi organizzativi di team, gruppi e l’azienda.
 
 Dopo aver stabilito e rivisto gli obiettivi principali dell’azienda, del team o del gruppo, i referenti diretti e i membri del team devono quindi creare obiettivi più mirati che si sovrappongono dal livello superiore. L&#39;ambito di tali obiettivi dovrebbe essere più ristretto e dovrebbe prendere in considerazione la persona designata come responsabile dell&#39;obiettivo e il suo ambito di influenza. L&#39;obiettivo dovrebbe rispondere alla domanda di cosa devono raggiungere loro e il loro team per raggiungere l&#39;obiettivo principale a cui è allineato.
 
-Per ulteriori informazioni sulle best practice per l’allineamento degli obiettivi, consulta [Introduzione agli obiettivi di Adobe Workfront](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
+Per ulteriori informazioni sulle best practice per l&#39;allineamento degli obiettivi, vedere [Introduzione agli obiettivi di Adobe Workfront](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
 
 ## Considerazioni sull’allineamento degli obiettivi
 
-* Un obiettivo non può contribuire a più di un altro obiettivo contemporaneamente. Anche se è possibile allineare più obiettivi figlio allo stesso obiettivo padre, un obiettivo figlio può avere un solo obiettivo padre. Per informazioni sugli obiettivi principali e secondari, vedere [Comprendere gli obiettivi principali e secondari](#understand-parent-and-children-goals) in questo articolo.
+* Un obiettivo non può contribuire a più di un altro obiettivo contemporaneamente. Anche se è possibile allineare più obiettivi figlio allo stesso obiettivo padre, un obiettivo figlio può avere un solo obiettivo padre. Per informazioni sugli obiettivi principali e secondari, vedere la sezione [Comprendere gli obiettivi principali e secondari](#understand-parent-and-children-goals) in questo articolo.
 * Un obiettivo può avere diversi obiettivi allineati (o secondari), nonché diverse attività e risultati. Inoltre, ogni obiettivo figlio può avere altre attività e risultati che influenzano il suo avanzamento e l’avanzamento dell’obiettivo padre.
 
   >[!TIP]
@@ -63,11 +63,11 @@ Per ulteriori informazioni sulle best practice per l’allineamento degli obiett
 
 Esistono due approcci per allineare gli obiettivi:
 
-* **Allineamento dal basso verso l&#39;alto**: puoi collegare direttamente un obiettivo secondario a un obiettivo principale. Per informazioni sull&#39;allineamento dell&#39;obiettivo dal basso verso l&#39;alto, vedere [Allineare gli obiettivi collegandoli in Obiettivi di Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+* **Allineamento bottom-up**: è possibile connettere direttamente un obiettivo figlio a un obiettivo padre. Per informazioni sull&#39;allineamento dell&#39;obiettivo dal basso, vedere [Allineare gli obiettivi collegandoli in Obiettivi di Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
-* **Allineamento top-down**: puoi convertire un risultato o un’attività di un obiettivo in un altro obiettivo. Il nuovo obiettivo diventa l&#39;obiettivo figlio dell&#39;obiettivo originale che diventa l&#39;obiettivo padre. Per informazioni sull’allineamento dell’obiettivo top-down, consulta [Allineare gli obiettivi convertendo risultati e attività in obiettivi](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
+* **Allineamento top-down**: è possibile convertire un risultato o un&#39;attività di un obiettivo in un altro obiettivo. Il nuovo obiettivo diventa l&#39;obiettivo figlio dell&#39;obiettivo originale che diventa l&#39;obiettivo padre. Per informazioni sull&#39;allineamento dell&#39;obiettivo top-down, vedere [Allineare gli obiettivi convertendo risultati e attività in obiettivi](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
 
-Per informazioni sugli obiettivi principali e secondari, vedere [Comprendere gli obiettivi principali e secondari](#understand-parent-and-children-goals) in questo articolo.
+Per informazioni sugli obiettivi principali e secondari, vedere la sezione [Comprendere gli obiettivi principali e secondari](#understand-parent-and-children-goals) in questo articolo.
 
 ## Comprendere gli obiettivi principali e secondari {#understand-parent-and-children-goals}
 
@@ -80,7 +80,7 @@ Quando si lavora con obiettivi figlio e padre, considera quanto segue:
 * Il progresso degli obiettivi secondari indicato dai loro risultati e dalle loro attività influenza il progresso dell’obiettivo principale. Anche altre attività o risultati associati all’obiettivo principale influiscono sull’avanzamento dell’obiettivo principale.
 * Non è possibile aggiornare l&#39;avanzamento di un obiettivo figlio al livello dell&#39;obiettivo padre. È necessario aggiornare le attività e i risultati dell’obiettivo secondario, e questo aggiorna automaticamente l’avanzamento dell’obiettivo secondario e quello dell’obiettivo principale.
 
-  Per informazioni sull’aggiornamento dello stato di avanzamento degli obiettivi, consulta [Aggiornamento dell’avanzamento dell’obiettivo in Obiettivi di Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+  Per informazioni sull&#39;aggiornamento dello stato di avanzamento degli obiettivi, vedere [Aggiornare lo stato di avanzamento degli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 
 ## Individua obiettivi allineati
 

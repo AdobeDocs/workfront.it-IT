@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti gli altri miglioramenti apportati con la versione 20.4 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione nella settimana del 9 novembre 2020.
 
-Per un elenco di tutte le modifiche disponibili con la versione 20.4, consulta [Panoramica sulla versione 20.4](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 20.4, consulta la [panoramica sulla versione 20.4](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
 
 ## Novità per gli amministratori: opzione di ambiente Switch Workfront disponibile
 
@@ -27,13 +27,13 @@ Nella nuova esperienza Workfront, nel menu principale viene visualizzata l’opz
 
 In Workfront Classic, l’opzione Passa alla nuova esperienza viene visualizzata nel menu visualizzato quando si fa clic sull’immagine del profilo nell’angolo in alto a destra della barra di navigazione globale.
 
-Questa funzione è ora inclusa nel [Nozioni di base per gli amministratori, parte 1 del percorso di apprendimento](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) su Workfront One.
+Questa funzionalità è ora inclusa in [Nozioni di base per gli amministratori, parte 1, percorso di apprendimento](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) in Workfront One.
 
 ## Crittografia migliorata per Workfront Proof
 
 Stiamo apportando alcune modifiche per migliorare la forza della crittografia dei dati in movimento dell’applicazione di verifica Workfront. Le crittografie TLS deboli diventeranno obsolete l’11 novembre 2020.
 
-Assicurati di utilizzare un browser supportato per accedere a Workfront. Per ulteriori informazioni sui browser supportati, consulta [Requisiti del browser Adobe Workfront](../../../workfront-basics/workfront-browser-requirements.md).
+Assicurati di utilizzare un browser supportato per accedere a Workfront. Per ulteriori informazioni sui browser supportati, vedere [Requisiti del browser Adobe Workfront](../../../workfront-basics/workfront-browser-requirements.md).
 
 ## Nuovo aspetto per 3 modelli e-mail
 
@@ -43,7 +43,7 @@ Per migliorare la leggibilità e l’esperienza complessiva, i seguenti modelli 
 * Un&#39;attività dipendente a cui sei assegnato è pronta per iniziare
 * Notifica e-mail team con predecessore completo
 
-Per abilitare l’e-mail a scopo di test nell’ambiente di anteprima, consulta la sezione Gestione delle e-mail nell’anteprima in [Modifica le tue notifiche e-mail](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Per abilitare l&#39;e-mail a scopo di test nell&#39;ambiente di anteprima, consulta la sezione Gestione delle e-mail nell&#39;anteprima in [Modifica le tue notifiche e-mail](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Nuove notifiche e-mail per i team
 
@@ -52,7 +52,7 @@ Abbiamo aggiunto la seguente notifica e-mail per i team:
 * Un predecessore di un&#39;attività assegnata al mio team è completato: il team assegnato riceve una notifica e-mail quando un predecessore di una delle loro attività è contrassegnato come completato.
 * Tutti i predecessori di un&#39;attività assegnata al mio team sono completati: il team assegnato riceve una notifica e-mail per ogni predecessore contrassegnato come completato.
 
-Per ulteriori informazioni, consulta [Notifiche: informazioni sul lavoro assegnato a me](../../../workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md).
+Per ulteriori informazioni, vedere [Notifiche: informazioni sul lavoro assegnato a me](../../../workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md).
 
 ## Novità per gli amministratori: miglioramenti alle notifiche e-mail
 
@@ -60,12 +60,12 @@ Ora, con un solo clic, puoi abilitare o disabilitare una notifica e-mail di even
 
 Inoltre, nota il nostro stile moderno che ora migliora l’esperienza di configurazione delle notifiche degli eventi nell’area Notifiche e-mail.
 
-Per informazioni sulla configurazione delle notifiche e-mail, consulta [Configurare le notifiche degli eventi per tutti gli utenti del sistema](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+Per informazioni sulla configurazione delle notifiche e-mail, vedere [Configurare le notifiche degli eventi per tutti gli utenti del sistema](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-Questa funzione è ora inclusa nel [Percorso di apprendimento per le notifiche e-mail e in-app](https://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-20Y4X000000CaZGUA0) su Workfront One.
+Questa funzionalità è ora inclusa nel percorso di apprendimento [Notifiche e-mail e in-app](https://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-20Y4X000000CaZGUA0) in Workfront One.
 
 ## Nuovi oggetti API che attivano gli aggiornamenti delle sottoscrizioni di eventi
 
 Sono stati creati due nuovi oggetti API, documentVersion e proofApproval, configurati per attivare gli aggiornamenti delle sottoscrizioni di eventi quando un documento viene sottoposto a controllo delle versioni o approvato.
 
-Per un elenco completo dei campi associati a ciascun oggetto, consulta [Campi delle risorse di abbonamento agli eventi](../../../wf-api/api/event-sub-resource-fields.md).
+Per un elenco completo dei campi associati a ciascun oggetto, vedere [Campi risorse sottoscrizione evento](../../../wf-api/api/event-sub-resource-fields.md).

@@ -24,7 +24,7 @@ Per utilizzare le funzionalità descritte in questo articolo, l’organizzazione
 
      Oppure
 
-     Una licenza aggiuntiva per Adobe Workfront Goals per i piani Prime o Select Adobe Workfront. Per informazioni, consulta [piano Adobe Workfront](https://www.workfront.com/plans).
+     Una licenza aggiuntiva per Adobe Workfront Goals per i piani Prime o Select Adobe Workfront. Per informazioni, vedere [Piano Adobe Workfront](https://www.workfront.com/plans).
 
 * Per il piano corrente e la struttura delle licenze:
 
@@ -33,7 +33,7 @@ Per utilizzare le funzionalità descritte in questo articolo, l’organizzazione
 
 Contatta il tuo account manager Workfront per saperne di più su una licenza Workfront Goals.
 
-Quando si crea un obiettivo, lo stato dell&#39;obiettivo è Bozza. Per informazioni sulla creazione degli obiettivi, consulta [Creare gli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
+Quando si crea un obiettivo, lo stato dell&#39;obiettivo è Bozza. Per informazioni sulla creazione degli obiettivi, vedere [Creare gli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
 
 Per iniziare a registrare l’avanzamento di un obiettivo, devi attivarlo. Per attivare l’obiettivo e cambiarne lo stato in Attivo, devi innanzitutto aggiungere quanto segue:
 
@@ -47,9 +47,9 @@ Dopo aver aggiunto almeno uno di questi elementi, puoi attivare l’obiettivo. �
 
 >[!IMPORTANT]
 >
-> Un obiettivo può avere un totale di 1000 attività, risultati, progetti o obiettivi allineati.</span>
+> Un obiettivo non può avere più di un totale di 1000 attività, risultati, progetti o obiettivi allineati.</span>
 
-Questo articolo offre una panoramica delle attività e dei risultati. Per informazioni sull&#39;allineamento degli obiettivi, vedere [Allineamento degli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-alignment/goal-alignment.md). Per informazioni sulla connessione dei progetti agli obiettivi, vedi [Aggiungere progetti agli obiettivi in Obiettivi di Adobe Workfront](../results-and-activities/connect-projects-to-goals-overview.md).
+Questo articolo offre una panoramica delle attività e dei risultati. Per informazioni sull&#39;allineamento degli obiettivi, vedere [Allineamento degli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-alignment/goal-alignment.md). Per informazioni sulla connessione dei progetti agli obiettivi, vedere [Aggiungere progetti agli obiettivi in Obiettivi di Adobe Workfront](../results-and-activities/connect-projects-to-goals-overview.md).
 
 ## Panoramica dei risultati
 
@@ -59,7 +59,7 @@ Questo articolo offre una panoramica delle attività e dei risultati. Per inform
 
 I risultati misurano l’avanzamento dell’obiettivo o quanto sei vicino al suo raggiungimento. In qualità di proprietario dell’obiettivo, puoi anche essere proprietario del risultato. Un risultato per l’obiettivo può essere assegnato a un altro utente.
 
-Per informazioni sull’aggiunta di risultati agli obiettivi, consulta [Aggiungere risultati agli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+Per informazioni sull&#39;aggiunta di risultati agli obiettivi, vedere [Aggiungere risultati agli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md).
 
 Puoi aggiungere risultati ai tuoi obiettivi o obiettivi che appartengono ad altre entità della tua organizzazione.
 
@@ -76,7 +76,7 @@ Quando si lavora con i risultati, considera quanto segue:
    * Numero
    * Percentuale
 
-Per ulteriori informazioni sui risultati, consulta l’elenco delle somiglianze tra risultati e attività nella sezione [Somiglianze tra risultati, attività e progetti](#similarities-between-results-activities-and-projects) in questo articolo.
+Per ulteriori informazioni sui risultati, vedere l&#39;elenco delle somiglianze tra risultati e attività nella sezione [Somiglianze tra risultati, attività e progetti](#similarities-between-results-activities-and-projects) in questo articolo.
 
 ## Panoramica sulle attività
 
@@ -86,7 +86,7 @@ This will have additional types in the future - add another section for types?
 
 Le attività, come i risultati, sono specifiche e misurabili e in genere includono un indicatore della percentuale di completamento. In qualità di proprietario dell’obiettivo, puoi anche essere proprietario delle attività associate all’obiettivo. Un&#39;attività per il tuo obiettivo potrebbe anche essere assegnata a un altro utente.
 
-Per informazioni sull’aggiunta di attività agli obiettivi, consulta [Aggiungere attività agli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+Per informazioni sull&#39;aggiunta di attività agli obiettivi, vedere [Aggiungere attività agli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
 
 Quando associ le attività agli obiettivi, tieni presente quanto segue:
 
@@ -115,13 +115,13 @@ Quando associ le attività agli obiettivi, tieni presente quanto segue:
 -->
 <!--drafted for goal redesign: For THE PRODUCTION RELEASE: remove the projects in this article altogether.-->
 
-Per ulteriori informazioni su risultati e attività, consulta l’elenco delle somiglianze tra risultati e attività nella sezione [Somiglianze tra risultati, attività e progetti](#similarities-between-results-activities-and-projects) in questo articolo.
+Per ulteriori informazioni su risultati e attività, vedere l&#39;elenco delle somiglianze tra risultati e attività nella sezione [Somiglianze tra risultati, attività e progetti](#similarities-between-results-activities-and-projects) in questo articolo.
 
 ## Somiglianze tra risultati, attività e progetti {#similarities-between-results-activities-and-projects}
 
 I risultati, le attività e i progetti sono indicatori di progresso degli obiettivi.
 
-Esistono alcune differenze nel modo in cui gestisci i progetti rispetto al modo in cui gestisci risultati e attività. Per informazioni sull’aggiunta di progetti agli obiettivi, consulta [Aggiungere attività agli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md). Per informazioni sui progetti connessi agli obiettivi, vedi [Aggiungere progetti agli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+Esistono alcune differenze nel modo in cui gestisci i progetti rispetto al modo in cui gestisci risultati e attività. Per informazioni sull&#39;aggiunta di progetti agli obiettivi, vedere [Aggiungere attività agli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md). Per informazioni sui progetti connessi agli obiettivi, vedi [Aggiungere progetti agli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
 Oltre a risultati, attività e progetti, puoi anche associare obiettivi secondari a un obiettivo. Gli obiettivi secondari sono anche un tipo di indicatore di progresso per un obiettivo. Per informazioni, consulta [Allineare gli obiettivi collegandoli in Obiettivi di Adobe Workfront](../goal-alignment/align-goals-by-connecting-them.md). L&#39;avanzamento degli indicatori di avanzamento dell&#39;obiettivo figlio determina anche l&#39;avanzamento dell&#39;obiettivo padre.
 
@@ -140,7 +140,7 @@ La tabella seguente mostra somiglianze e differenze tra risultati, attività e p
    <td> <p><strong>Progetti</strong> </p> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td><span style="font-weight: normal;">Puoi personalizzare il nome dell’oggetto nell’interfaccia di Workfront</span> </td> 
+   <td><span style="font-weight: normal;">È possibile personalizzare il nome dell'oggetto nell'interfaccia di Workfront</span> </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td>✔</td> 

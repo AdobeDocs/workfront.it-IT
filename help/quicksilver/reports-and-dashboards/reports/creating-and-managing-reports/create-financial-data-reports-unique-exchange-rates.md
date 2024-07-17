@@ -19,9 +19,9 @@ Se in Adobe Workfront sono stati configurati più tassi di cambio, è possibile 
 
 >[!IMPORTANT]
 >
->Se in una visualizzazione si seleziona una valuta diversa da quella predefinita, i collegamenti non saranno più visualizzati **Aggiungi altre attività** e **Aggiungi altri problemi** in fondo all’elenco dei progetti.
+>Se selezioni una valuta diversa da quella predefinita in una visualizzazione, non vedrai più i collegamenti **Aggiungi altre attività** e **Aggiungi altri problemi** in fondo all&#39;elenco dei progetti.
 
-Per informazioni su come modificare la valuta predefinita per un determinato progetto, consulta [Modificare la valuta del progetto](../../../manage-work/projects/project-finances/change-project-currency.md).
+Per informazioni su come modificare la valuta predefinita per un determinato progetto, vedere [Modificare la valuta del progetto](../../../manage-work/projects/project-finances/change-project-currency.md).
 
 Se nel rapporto sono presenti progetti con una valuta unica, anche le somme in raggruppamenti vengono visualizzate nella valuta predefinita del sistema.
 
@@ -47,23 +47,23 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Prerequisiti
 
-Prima di poter visualizzare le valute alternative come descritto in questa sezione, l’amministratore di Workfront deve innanzitutto abilitare e configurare più valute nell’area Configurazione di Workfront. Per informazioni, consulta [Imposta tassi di cambio](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+Prima di poter visualizzare le valute alternative come descritto in questa sezione, l’amministratore di Workfront deve innanzitutto abilitare e configurare più valute nell’area Configurazione di Workfront. Per informazioni, vedere [Impostare i tassi di cambio](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
 ## Applicare valori finanziari a un rapporto {#apply-financial-values-to-a-report}
 
 Per convertire i valori finanziari tra valute quando si utilizzano i rapporti:
 
 1. Passare al report in cui si desidera convertire i valori finanziari in una valuta diversa.
-1. Fai clic su **Visualizza** menu a discesa, fai clic su **Cambia valuta**, quindi selezionare una delle seguenti valute in cui si desidera visualizzare i valori finanziari:
+1. Fai clic sull&#39;elenco a discesa **Visualizza**, fai clic su **Cambia valuta**, quindi seleziona una delle seguenti valute in cui desideri visualizzare i valori finanziari:
 
    * Valuta originale del progetto
    * Qualsiasi altra valuta
@@ -106,25 +106,25 @@ Per visualizzare in un rapporto due progetti con valute personalizzate:
 
 1. Registra le ore su entrambi i progetti.
 
-   Per ulteriori informazioni sull&#39;ora di registrazione, vedere [Tempo di connessione](../../../timesheets/create-and-manage-timesheets/log-time.md).
+   Per ulteriori informazioni sull&#39;ora di registrazione, vedere [Ora di registrazione](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png), quindi fai clic su **Generazione rapporti**.
-1. Clic **Nuovo rapporto**, quindi **Report di progetto**.
-1. In **Colonne (visualizzazione)** , aggiungi un **Costo Reale** e riepilogarlo per **Somma**.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **Main Menu**, quindi fai clic su **Reporting**.
+1. Fai clic su **Nuovo rapporto**, quindi su **Rapporto progetto**.
+1. Nella scheda **Colonne (visualizzazione)**, aggiungi una colonna **Costo effettivo** e riepilogala per **Somma**.
 
-   Per informazioni su come creare una colonna, consulta [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Per informazioni su come creare una colonna, vedere [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. In **Raggruppamenti** , applica una **Data di completamento Pianificata** raggruppamento.
+1. Nella scheda **Raggruppamenti**, applica un raggruppamento di **Data di completamento pianificata**.
 
    Per informazioni su come creare un raggruppamento, consulta [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-1. In **Filtri** , aggiungi un filtro per **Nome progetto** e selezionare i due progetti con valute diverse.
+1. Nella scheda **Filtri**, aggiungi un filtro per **Nome progetto** e seleziona i due progetti con valute diverse.
 
-   Per informazioni su come creare un filtro, consulta [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Per informazioni su come creare un filtro, vedere [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Clic **Salva e chiudi**.
+1. Fai clic su **Salva e Chiudi**.
 
-   Totale del valore **Costo Reale** viene visualizzato in Raggruppamento utilizzando la valuta predefinita del sistema, indipendentemente dalla valuta dei progetti nel rapporto.
+   Il totale del **Costo effettivo** viene visualizzato nel Raggruppamento utilizzando la valuta predefinita del sistema, indipendentemente dalla valuta dei progetti nel report.
 
    ![Valuta visualizzata nel raggruppamento](assets/qs-currency-displayed-in-groupings-2022-350x292.png)
 
@@ -137,20 +137,20 @@ Se viene applicato un raggruppamento a un’attività o a un elenco di ore all�
 1. Crea un progetto con una valuta personalizzata, diversa da quella predefinita dal sistema.
 1. Vai al progetto e assicurati che includa le ore registrate per le attività.
 
-   Per ulteriori informazioni sull&#39;ora di registrazione, vedere [Tempo di connessione](../../../timesheets/create-and-manage-timesheets/log-time.md).
+   Per ulteriori informazioni sull&#39;ora di registrazione, vedere [Ora di registrazione](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
    >[!NOTE]
    >
    >Le attività devono essere assegnate a utenti o mansioni con tariffe orarie.
 
-1. Clic **Attività**.
-1. Espandi **Visualizza** menu a discesa e selezionare **Nuova visualizzazione**.
-1. Aggiungi **Costo Reale** nella nuova colonna Visualizza come nuova e riepilogarla per **Somma**.
-1. Clic **Fine**, quindi fai clic su **Salva visualizzazione**.
-1. Espandi **Raggruppamento** menu a discesa e selezionare **Nuovo raggruppamento**.
+1. Fai clic su **Attività**.
+1. Espandi il menu a discesa **Visualizza** e seleziona **Nuova visualizzazione**.
+1. Aggiungi **Costo effettivo** nella nuova visualizzazione come nuova colonna e riepilogalo per **Somma**.
+1. Fai clic su **Fine**, quindi fai clic su **Salva visualizzazione**.
+1. Espandi il menu a discesa **Raggruppamento** e seleziona **Nuovo raggruppamento**.
 1. Aggiungi **Data di completamento effettiva** nel nuovo raggruppamento come nuovo campo, quindi fai clic su **Salva raggruppamento**.
 
-   Il **Costo Reale** Questa colonna riepiloga nel nuovo Raggruppamento e visualizza il totale nella valuta del progetto.
+   La colonna **Costo effettivo** contiene un riepilogo nel nuovo raggruppamento e visualizza il totale nella valuta del progetto.
 
 ## Modificare i rapporti con valute univoche
 
@@ -163,12 +163,12 @@ Per modificare in linea un campo finanziario in un report:
    >[!NOTE]
    >
    >Se la valuta predefinita non viene visualizzata per un elenco in qualsiasi altra area, è possibile modificare la visualizzazione in modo da visualizzare la valuta predefinita.\
-   >Per informazioni su come modificare la valuta in una visualizzazione, vedere la sezione di questo articolo [Applicare valori finanziari a un rapporto](#apply-financial-values-to-a-report).
+   >Per informazioni su come modificare la valuta in una visualizzazione, vedere la sezione in questo articolo [Applicare valori finanziari a un report](#apply-financial-values-to-a-report).
 
-1. Clic **Azioni report**, quindi seleziona **Modifica**.
-1. Clic **Impostazioni dei rapporti**.
-1. Fai clic su **Valuta predefinita** a discesa, quindi seleziona **Valuta originale del progetto**.
+1. Fai clic su **Azioni report**, quindi seleziona **Modifica**.
+1. Fare clic su **Impostazioni report**.
+1. Fai clic sull&#39;elenco a discesa **Valuta predefinita**, quindi seleziona **Valuta originale del progetto**.
 
    ![](assets/qs-report-settings-default-currency-350x370.png)
 
-1. Clic **Fine**.
+1. Fai clic su **Fine**.

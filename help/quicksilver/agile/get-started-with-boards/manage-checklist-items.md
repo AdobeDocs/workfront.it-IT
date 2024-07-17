@@ -1,8 +1,8 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Gestione degli elementi delle liste di controllo sulle schede
-description: L'utilizzo di una checklist su una scheda consente di suddividere il lavoro in incrementi più piccoli o aggiungere note alla scheda. Le voci dell'elenco di controllo sono disponibili su schede ad hoc e collegate.
+title: Gestire le voci dell’elenco di controllo sulle schede
+description: L’utilizzo di un elenco di controllo su una scheda consente di suddividere il lavoro in incrementi più piccoli o di aggiungere note alla scheda. Gli elementi dell’elenco di controllo sono disponibili sia su schede ad hoc che su schede connesse.
 author: Lisa
 feature: Agile
 exl-id: 60e47a0a-36fb-4a86-8ec7-b135f9725b79
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 ---
 
-# Gestione degli elementi delle liste di controllo sulle schede
+# Gestire le voci dell’elenco di controllo sulle schede
 
-L&#39;utilizzo di una checklist su una scheda consente di suddividere il lavoro in incrementi più piccoli o aggiungere note alla scheda. Le voci dell&#39;elenco di controllo sono disponibili su schede ad hoc e collegate.
+L’utilizzo di un elenco di controllo su una scheda consente di suddividere il lavoro in incrementi più piccoli o di aggiungere note alla scheda. Gli elementi dell’elenco di controllo sono disponibili sia su schede ad hoc che su schede connesse.
 
-Per informazioni sulle schede, vedi [Aggiunta di una scheda ad hoc a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md), [Utilizzare schede collegate sulle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)e [Gestione delle schede](/help/quicksilver/agile/get-started-with-boards/move-board-items.md).
+Per informazioni sulle schede, consulta [Aggiungere una scheda ad hoc a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md), [Utilizzare le schede connesse nelle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) e [Gestire le schede](/help/quicksilver/agile/get-started-with-boards/move-board-items.md).
 
 ## Requisiti di accesso
 
@@ -35,59 +35,59 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>[!UICONTROL Request] o superiore</p> </td> 
+   <td> <p>[!UICONTROL Request] o versione successiva</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
 
-## Aggiungi una checklist a una scheda
+## Aggiungere un elenco di controllo a una scheda
 
-1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront, quindi fai clic su **[!UICONTROL Schede]**.
-1. Accedete a una bacheca. Per informazioni, consulta [Creare o modificare una bacheca](../../agile/get-started-with-boards/create-edit-board.md).
-1. Fai clic sulla scheda per aprire la [!UICONTROL Dettagli scheda] scatola.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **[!UICONTROL Bacheche]**.
+1. Accedi a una bacheca. Per informazioni, consulta [Creare o modificare una bacheca](../../agile/get-started-with-boards/create-edit-board.md).
+1. Fare clic sulla scheda per aprire la casella [!UICONTROL Dettagli scheda].
 
    Oppure
 
-   Fai clic sul pulsante **[!UICONTROL Altro]** menu ![Menu Altro](assets/more-icon-spectrum.png) sulla scheda e seleziona **[!UICONTROL Modifica]**.
+   Fai clic sul menu **[!UICONTROL Altro]** ![Altro menu](assets/more-icon-spectrum.png) sulla scheda e seleziona **[!UICONTROL Modifica]**.
 
-1. Per aggiungere un nuovo elemento, fai clic su **[!UICONTROL Aggiungi elemento elenco di controllo]**. Quindi, digitare il titolo dell&#39;elemento e premere Invio. Viene aggiunto automaticamente un altro elemento. Continua a inserire titoli per aggiungere altri elementi.
+1. Per aggiungere un nuovo elemento, fare clic su **[!UICONTROL Aggiungi elemento elenco di controllo]**. Digitare quindi il titolo dell&#39;elemento e premere Invio. Un altro elemento viene aggiunto automaticamente. Continua a inserire i titoli per aggiungere altri elementi.
 
-   Il contatore nella parte superiore della lista di controllo mostra il numero di elementi completati e il numero totale di elementi.
+   Il contatore nella parte superiore dell’elenco di controllo mostra il numero di elementi completati e il numero totale di elementi.
 
-1. Fai clic su ![Icona Dettagli](assets/checklist-chevron.png) per aprire [!UICONTROL Dettagli elemento elenco di controllo] scatola.
+1. Fai clic sull&#39;icona ![Dettagli](assets/checklist-chevron.png) per aprire la casella [!UICONTROL Dettagli elemento elenco di controllo].
 
-   ![Casella Dettagli elemento elenco](assets/checklist-item-details.png)
+   ![Casella Dettagli elemento elenco di controllo](assets/checklist-item-details.png)
 
-1. (Facoltativo) Aggiungi una descrizione, assegnatari, data di scadenza e ore di stima per la voce della lista di controllo.
+1. (Facoltativo) Aggiungi una descrizione, gli assegnatari, la data di scadenza e le ore di stima per la voce dell’elenco di controllo.
 
-   Per informazioni su uno di questi campi, vedi [Aggiunta di una scheda ad hoc a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) o [Utilizzare schede collegate sulle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+   Per informazioni su uno di questi campi, vedere [Aggiungere una scheda ad hoc a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) o [Utilizzare schede connesse in bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-1. Fai clic su **[!UICONTROL Chiudi]** per tornare ai dettagli della scheda e all&#39;elenco completo delle voci della lista di controllo.
+1. Fai clic su **[!UICONTROL Chiudi]** per tornare ai dettagli della scheda e all&#39;elenco completo degli elementi dell&#39;elenco di controllo.
 
    Gli assegnatari e la data di scadenza vengono visualizzati sull&#39;elemento.
 
-1. Per copiare un elemento, fai clic sul pulsante **[!UICONTROL Altro]** menu ![Menu Altro](assets/more-icon-spectrum.png) sull’elemento e seleziona **[!UICONTROL Copia]**.
-1. Per eliminare un elemento dell’elenco di controllo, fai clic sul pulsante **[!UICONTROL Altro]** menu ![Menu Altro](assets/more-icon-spectrum.png) sull’elemento e seleziona **[!UICONTROL Elimina]**.
+1. Per copiare un elemento, fare clic sul menu **[!UICONTROL Altro]** ![Altro menu](assets/more-icon-spectrum.png) dell&#39;elemento e selezionare **[!UICONTROL Copia]**.
+1. Per eliminare una voce dell&#39;elenco di controllo, fare clic sul menu **[!UICONTROL Altro]** ![Altro menu](assets/more-icon-spectrum.png) dell&#39;elemento e selezionare **[!UICONTROL Elimina]**.
 
-## Completare gli elementi della lista di controllo
+## Elementi elenco di controllo completati
 
-1. Accedete alla bacheca e individuate la scheda sulla quale si trova la checklist.
-1. Fai clic sulla scheda per aprire la [!UICONTROL Dettagli scheda] scatola.
+1. Accedi alla bacheca e individua la scheda su cui si trova l’elenco di controllo.
+1. Fare clic sulla scheda per aprire la casella [!UICONTROL Dettagli scheda].
 
    Oppure
 
-   Fai clic sul pulsante **[!UICONTROL Altro]** menu ![Menu Altro](assets/more-icon-spectrum.png) sulla scheda e seleziona **[!UICONTROL Modifica]**.
+   Fai clic sul menu **[!UICONTROL Altro]** ![Altro menu](assets/more-icon-spectrum.png) sulla scheda e seleziona **[!UICONTROL Modifica]**.
 
 1. Selezionare la casella di controllo accanto all&#39;elemento completato.
 
-   Il contatore viene aggiornato per mostrare gli elementi completati.
+   Il contatore viene aggiornato in modo da visualizzare gli elementi completati.
 
-   Se è necessario aggiungere nuovamente l’elemento all’elenco, è possibile deselezionare la casella di controllo.
+   È possibile deselezionare la casella di controllo se è necessario aggiungere nuovamente l&#39;elemento all&#39;elenco.
 
-   ![Voce di checklist completata](assets/checklist-items-with-chevron.png)
+   ![Elemento elenco di controllo completato](assets/checklist-items-with-chevron.png)
 
-1. Fai clic su **[!UICONTROL Chiudi]** per tornare al consiglio di amministrazione.
+1. Fai clic su **[!UICONTROL Chiudi]** per tornare alla bacheca.
 
-   Viene aggiornato anche il contatore sulla scheda .
+   Viene aggiornato anche il contatore sulla scheda.

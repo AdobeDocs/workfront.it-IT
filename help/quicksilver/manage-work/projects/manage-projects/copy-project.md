@@ -93,18 +93,18 @@ Devi avere i seguenti:
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>Configurazioni del livello di accesso*</strong> </td> 
-   <td> <p>Modificare l’accesso ai progetti con la possibilità di creare <span>e copia</span> progetti</p> <p><b>NOTA</b>
+   <td> <p>Modifica l'accesso ai progetti con la possibilità di creare <span> e copiare </span> progetti</p> <p><b>NOTA</b>
 
-Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
+Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
 </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Autorizzazioni oggetto</strong> </p> </td> 
-   <td> <p>Visualizza autorizzazioni o versioni successive per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Visualizza autorizzazioni o versioni successive per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Copiare un singolo progetto
 
@@ -112,17 +112,17 @@ Quando si copia un progetto, alcune informazioni vengono copiate anche dal proge
 
 Per copiare un progetto:
 
-1. Vai al progetto da copiare e fai clic su **Altro** icona ![](assets/qs-more-menu.png) a destra del nome del progetto
+1. Vai al progetto da copiare e fai clic sull&#39;icona **Altro** ![](assets/qs-more-menu.png) a destra del nome del progetto
 
    ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    Oppure
 
-   Vai a un elenco o a un report di progetti e seleziona un progetto, quindi fai clic su **Altro** icona ![](assets/qs-more-menu.png) nella parte superiore dell’elenco.
+   Vai a un elenco o a un report di progetti e seleziona un progetto, quindi fai clic sull&#39;icona **Altro** ![](assets/qs-more-menu.png) nella parte superiore dell&#39;elenco.
 
    ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
-1. Clic **Copia**.
+1. Fai clic su **Copia**.
 
 1. Aggiorna il nome del nuovo progetto.
 
@@ -130,9 +130,9 @@ Per copiare un progetto:
 
    ![](assets/copy-project-box-nwe-350x276.png)
 
-1. Seleziona la **Stato** per il nuovo progetto.
+1. Seleziona **Stato** per il nuovo progetto.
 
-   Per impostazione predefinita, il **Stato** corrisponde a quella del progetto originale.
+   Per impostazione predefinita, lo **Stato** corrisponde a quello del progetto originale.
 
 1. (Facoltativo) Deseleziona gli elementi da non copiare nel nuovo progetto. La tabella seguente descrive cosa accade quando si deselezionano gli elementi:
 
@@ -145,7 +145,7 @@ Per copiare un progetto:
       <td role="rowheader">Seleziona tutto</td> 
       <td> <p>Seleziona tutte le opzioni e cancella tutti i campi e gli oggetti elencati dal nuovo progetto.</p> <p><b>SUGGERIMENTO</b>
 
-   Deselezionare <strong>Seleziona tutto</strong> deseleziona tutti gli elementi. </p> </td>
+   Se si deseleziona <strong>Seleziona tutto</strong>, tutti gli elementi verranno deselezionati. </p> </td>
    </tr> 
      <tr> 
       <td role="rowheader">Assegnazioni</td> 
@@ -183,7 +183,7 @@ Per copiare un progetto:
 
 <b>NOTA</b>
 
-Le ore preventivate utilizzando la Pianificazione scenario non vengono mai copiate nel nuovo progetto perché il nuovo progetto non è collegato a un&#39;iniziativa nella Pianificazione scenario. Per ulteriori informazioni, consulta <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Preventivare le risorse nel Business Case utilizzando la Pianificazione scenario</a>
+Le ore preventivate utilizzando la Pianificazione scenario non vengono mai copiate nel nuovo progetto perché il nuovo progetto non è collegato a un&#39;iniziativa nella Pianificazione scenario. Per ulteriori informazioni, consulta <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Risorse budget nel caso di business utilizzando Scenario Planner</a>
 </tr></td>
     <tr> 
       <td role="rowheader">Informazioni finanziarie</td> 
@@ -192,7 +192,7 @@ Le ore preventivate utilizzando la Pianificazione scenario non vengono mai copia
         <li>Scheda secondaria Finanza del progetto</li> 
         <li> Vantaggio pianificato nel Business Case</li> 
         <li>Informazioni finanziarie da tutte le attività<br></li> 
-       </ul> <p>Per ulteriori informazioni sulla scheda secondaria Finanza progetto, vedi <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">Gestire le informazioni nell'area Finanza progetto</a>.</p> </td> 
+       </ul> <p>Per ulteriori informazioni sulla scheda secondaria Finanza progetto, vedere <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">Gestire le informazioni nell'area Finanza progetto</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Processo di approvazione</td> 
@@ -213,7 +213,7 @@ Le ore preventivate utilizzando la Pianificazione scenario non vengono mai copia
     </tbody> 
    </table>
 
-1. Clic **Copia** per creare una copia del progetto.
+1. Fai clic su **Copia** per creare una copia del progetto.
 
    In questo modo viene creato un nuovo progetto simile a quello copiato.
 

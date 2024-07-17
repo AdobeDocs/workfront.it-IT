@@ -2,7 +2,7 @@
 content-type: overview
 navigation-topic: gantt-chart
 title: Panoramica del diagramma di Gantt
-description: Trova informazioni su [!UICONTROL Gantt] Grafico nei seguenti articoli.
+description: Trova informazioni sul grafico [!UICONTROL Gantt] nei seguenti articoli.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 ---
 
-# [!UICONTROL Diagramma di Gantt] panoramica
+# Panoramica di [!UICONTROL Gantt Chart]
 
 Questa sezione contiene i seguenti articoli:
 
-* [Introduzione a [!UICONTROL Diagramma di Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md)
-* [Configurare la modalità di visualizzazione delle informazioni sul [!UICONTROL Diagramma di Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md)
-* [Visualizzare le informazioni in [!UICONTROL Diagramma di Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)
-* [Aggiorna informazioni nell&#39;elenco delle attività [!UICONTROL Diagramma di Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)
-* [Livellare le risorse in [!UICONTROL Diagramma di Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md)
-* [Esporta il [!UICONTROL Diagramma di Gantt] a PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)
+* [Introduzione al [!UICONTROL Diagramma di Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md)
+* [Configura la visualizzazione delle informazioni nel [!UICONTROL Diagramma di Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md)
+* [Visualizza informazioni nel [!UICONTROL Diagramma di Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)
+* [Aggiorna le informazioni nell&#39;elenco attività [!UICONTROL Grafico di Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)
+* [Livella risorse nel [!UICONTROL Diagramma di Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md)
+* [Esporta il [!UICONTROL Grafico di Gantt] in PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)

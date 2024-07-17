@@ -59,7 +59,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano o il tipo di licenza di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano o il tipo di licenza di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 +++
 
@@ -97,7 +97,7 @@ Quando ripristini un progetto, un’attività o un problema, vengono recuperate 
 
 * Ore (e ID ore)
 
-  Se le ore vengono ripristinate sull&#39;elemento eliminato dipende dalle impostazioni scelte durante la configurazione delle preferenze per le schede orario e le ore. Per ulteriori informazioni, consulta [La configurazione influisce sulle ore di eliminazione e ripristino di un oggetto](../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md).
+  Se le ore vengono ripristinate sull&#39;elemento eliminato dipende dalle impostazioni scelte durante la configurazione delle preferenze per le schede orario e le ore. Per ulteriori informazioni, vedere [Configurare gli effetti sulle ore di eliminazione e ripristino di un oggetto](../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md).
 
 * URL dell&#39;elemento
 
@@ -131,20 +131,20 @@ Quando ripristini un progetto, un’attività o un problema, le seguenti informa
 
 * Risoluzione di oggetti
 
-  Un oggetto di risoluzione è un problema convertito configurato con l’opzione **Mantieni il problema originale e collegane la risoluzione a questo** &lt;**progetto** o **task)**>. Se si elimina il progetto o l&#39;attività padre, il problema non viene più identificato come oggetto di risoluzione perché non esiste più un collegamento che lo collega al progetto o all&#39;attività. Se ripristini l’elemento padre, il collegamento non viene ripristinato.
+  Un oggetto di risoluzione è un problema convertito configurato con l&#39;opzione **Mantieni il problema originale e collegane la risoluzione a questo** &lt;**progetto** o **attività)**>. Se si elimina il progetto o l&#39;attività padre, il problema non viene più identificato come oggetto di risoluzione perché non esiste più un collegamento che lo collega al progetto o all&#39;attività. Se ripristini l’elemento padre, il collegamento non viene ripristinato.
 
-  Per ulteriori informazioni su come un amministratore di Workfront o un amministratore di gruppo configura i problemi in modo che corrispondano all’oggetto di risoluzione al momento della conversione, consulta [Configurare le preferenze per attività e problemi a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) e [Configurare le preferenze per attività e problemi per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+  Per ulteriori informazioni su come un amministratore di Workfront o un amministratore di gruppo configura i problemi in modo che corrispondano all&#39;oggetto di risoluzione quando viene convertito, vedere [Configurare le preferenze per attività e problemi a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) e [Configurare le preferenze per attività e problemi per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
-  Per ulteriori informazioni sulla conversione dei problemi, consulta [Panoramica sulla conversione dei problemi in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+  Per ulteriori informazioni sulla conversione dei problemi, vedere [Panoramica sulla conversione dei problemi in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 ## Ripristina elementi
 
 {{step-1-to-setup}}
 
-1. Clic **Cestino** > **Eliminati di recente**.
-1. Fai clic su **Progetti**, **Attività**, **Problemi**, **Modelli**, o **Documenti** a seconda del tipo di elemento che si desidera ripristinare.
+1. Fai clic su **Cestino** > **Eliminato di recente**.
+1. Fai clic sulla scheda **Progetti**, **Attività**, **Problemi**, **Modelli** o **Documenti**, a seconda del tipo di elemento da ripristinare.
 
-   Gli elementi sono ordinati in base al **Data di eliminazione** per impostazione predefinita.
+   Per impostazione predefinita, gli elementi sono ordinati in base alla colonna **Data eliminazione**.
 
 1. Selezionare fino a 10 elementi da ripristinare.
 
@@ -152,8 +152,8 @@ Quando ripristini un progetto, un’attività o un problema, le seguenti informa
 
    Se si elimina un&#39;attività padre, nell&#39;elenco viene visualizzata solo l&#39;attività padre. Tuttavia, quando si ripristina un&#39;attività padre, vengono ripristinate tutte le attività figlio.
 
-1. Clic **Ripristina** per ripristinare gli elementi selezionati nella posizione originale.
-1. (Facoltativo) Per visualizzare rapidamente l’elemento ripristinato, segui i passaggi descritti in [Visualizza elemento ripristinato](../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
+1. Fai clic su **Ripristina** per ripristinare gli elementi selezionati nella posizione originale.
+1. (Facoltativo) Per visualizzare rapidamente l&#39;elemento ripristinato, seguire i passaggi descritti in [Visualizza elemento ripristinato](../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
 
    Per ulteriori informazioni su ciò che accade dopo il ripristino di un elemento, vedere la sezione [Cosa succede dopo il ripristino degli elementi](#what-happens-after-you-restore-items) in questo articolo.
 

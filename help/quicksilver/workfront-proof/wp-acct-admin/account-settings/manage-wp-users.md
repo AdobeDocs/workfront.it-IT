@@ -2,15 +2,15 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: account-settings-workfront-proof
-title: Gestisci [!DNL Workfront Proof] utenti
-description: Come [!DNL Workfront Proof] amministratore, puoi visualizzare le impostazioni utente e gestire gli utenti della bozza nel [!UICONTROL Impostazioni account] area.
+title: Gestisci [!DNL Workfront Proof]  utenti
+description: In qualità di  [!DNL Workfront Proof] amministratore, puoi visualizzare le impostazioni utente e gestire gli utenti bozza nell'area [!UICONTROL Impostazioni account].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 4666cb18-e3a9-408b-8eb1-e00ebe2e6f9c
 source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 3%
+source-wordcount: '166'
+ht-degree: 0%
 
 ---
 
@@ -18,25 +18,25 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alla funzionalità del prodotto standalone [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Copertura](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
-Come [!DNL Workfront Proof] amministratore, puoi visualizzare le impostazioni utente e gestire gli utenti della bozza nel [!UICONTROL Impostazioni account] area.
+In qualità di amministratore [!DNL Workfront Proof], puoi visualizzare le impostazioni utente e gestire gli utenti bozza nell&#39;area [!UICONTROL Impostazioni account].
 
-1. Fai clic su **[!UICONTROL Impostazioni]** > **[!UICONTROL Impostazioni account]** nell&#39;angolo superiore destro del [!DNL Workfront Proof] finestra.
+1. Fare clic su **[!UICONTROL Impostazioni]** > **[!UICONTROL Impostazioni account]** nell&#39;angolo superiore destro della finestra [!DNL Workfront Proof].
 
-1. Apri **[!UICONTROL Utenti]** scheda .
+1. Apri la scheda **[!UICONTROL Utenti]**.
 
-   In questa scheda vengono elencati gli utenti nel tuo account e i relativi dettagli dell’account utente.
+   Questa scheda elenca gli utenti nel tuo account e i relativi dettagli.
 
 1. (Facoltativo) Seleziona uno o più utenti, quindi fai clic su una delle seguenti opzioni:
 
-   | **[!UICONTROL Attiva]** | Attiva l&#39;utente o gli utenti selezionati. |
+   | **[!UICONTROL Attiva]** | Attiva gli utenti selezionati. |
    |---|---|
-   | **[!UICONTROL Disattiva]** | Disattiva gli utenti o gli utenti selezionati. |
-   | **[!UICONTROL Riinvitare]** | Invitare nuovamente l&#39;utente o gli utenti selezionati ad accedere [!DNL Workfront Proof]. |
-   | **[!UICONTROL Reimposta password]** | Reimposta la password per l&#39;utente o gli utenti selezionati. |
-   | **[!UICONTROL Elimina]** | Elimina gli utenti o gli utenti selezionati. |
+   | **[!UICONTROL Disattiva]** | Disattiva gli utenti selezionati. |
+   | **[!UICONTROL Riinvita]** | Invita nuovamente gli utenti selezionati ad accedere a [!DNL Workfront Proof]. |
+   | **[!UICONTROL Reimposta password]** | Reimpostare la password per l&#39;utente o gli utenti selezionati. |
+   | **[!UICONTROL Elimina]** | Elimina gli utenti selezionati. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
-1. (Facoltativo) Fai clic sul pulsante **[!UICONTROL Altro]** icona ![[!DNL More_button_small].png](assets/more-button-small.png) a destra del nome dell&#39;utente, quindi fai clic su un&#39;opzione per visualizzare i dettagli dell&#39;utente o per eliminare l&#39;utente.
+1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Altro]** ![[!DNL More_button_small].png](assets/more-button-small.png) a destra del nome dell&#39;utente, quindi fai clic su un&#39;opzione per visualizzare i dettagli dell&#39;utente o per eliminarlo.

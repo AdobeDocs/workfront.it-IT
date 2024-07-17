@@ -10,8 +10,8 @@ feature: Workfront Fusion
 exl-id: 0f315192-c15e-48e8-a5b6-827c300f0e5c
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 1%
+source-wordcount: '647'
+ht-degree: 0%
 
 ---
 
@@ -38,76 +38,76 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licenza**</td> 
    <td>
-   <p>Fabbisogno di licenza corrente: No [!DNL Workfront Fusion] requisito di licenza.</p>
+   <p>Requisiti di licenza correnti: nessun requisito di licenza [!DNL Workfront Fusion].</p>
    <p>Oppure</p>
-   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro], [!UICONTROL [!DNL Workfront Fusion] per automazione lavoro]</p>
+   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione lavoro], [!UICONTROL [!DNL Workfront Fusion] per automazione lavoro]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
    <td>
-   <p>Fabbisogno prodotto corrente: se si dispone di [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Pianifica, la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo. [!DNL Workfront Fusion] è incluso in [!UICONTROL Ultimate] [!DNL Workfront] piano.</p>
+   <p>Fabbisogno prodotto corrente: se si dispone del piano [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], l'organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo. [!DNL Workfront Fusion] è incluso nel piano [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>Oppure</p>
-   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</p>
+   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore [!DNL Workfront].
 
-Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Ripetitore
 
-È possibile utilizzare una [!UICONTROL Ripetitore] per ripetere un&#39;operazione un determinato numero di volte. A [!UICONTROL Ripetitore] Il modulo genera bundle uno dopo l’altro.
+È possibile utilizzare un modulo [!UICONTROL Repeater] per ripetere un&#39;attività un determinato numero di volte. Un modulo [!UICONTROL Repeater] genera bundle uno dopo l&#39;altro.
 
-Ad esempio, puoi utilizzare un’ [!UICONTROL Ripetitore] per inviare cinque e-mail con gli oggetti &quot;Hello 1&quot;, &quot;Hello 2&quot; e così via, collegando **[!UICONTROL E-mail] >[!UICONTROL Inviami un’e-mail]** al modulo [!UICONTROL Ripetitore] modulo.
+Ad esempio, puoi utilizzare un modulo [!UICONTROL Repeater] per inviare cinque e-mail con gli oggetti &quot;Hello 1&quot;, &quot;Hello 2&quot; e così via, collegando il modulo **[!UICONTROL Email] >[!UICONTROL Send me an email]** al modulo [!UICONTROL Repeater].
 
-Per utilizzare una [!UICONTROL Ripetitore] modulo:
+Per utilizzare un modulo [!UICONTROL Repeater]:
 
-1. Fai clic su [!UICONTROL Controllo del flusso] icona ![](assets/flow-control-icon.gif) nella parte inferiore della schermata, quindi fai clic su **[!UICONTROL Ripetitore]** nel menu visualizzato.
-1. Fai clic su [!UICONTROL Ripetitore] , quindi fai clic su **[!UICONTROL Connetti automaticamente]** nella casella visualizzata.
-1. In [!UICONTROL Controllo del flusso] nella casella visualizzata, digita il numero di ripetizioni (bundle generati) che desideri **[!UICONTROL Si ripete]** casella.
+1. Fai clic sull&#39;icona ![](assets/flow-control-icon.gif) del [!UICONTROL Controllo flusso] nella parte inferiore dello schermo, quindi fai clic su **[!UICONTROL Ripetitore]** nel menu visualizzato.
+1. Fai clic sul bundle [!UICONTROL Repeater], quindi fai clic su **[!UICONTROL Connetti automaticamente]** nella casella visualizzata.
+1. Nella casella [!UICONTROL Controllo flusso] visualizzata digitare il numero di ripetizioni (bundle di output) desiderato nella casella **[!UICONTROL Ripetizioni]**.
 
    Nel nostro esempio di e-mail, digita 5.
 
    ![](assets/repeater-2-350x207.png)
 
-   Il valore dell&#39;elemento aumenta in ogni ripetizione di questo valore specificato nella **[!UICONTROL Passaggio]** , che è possibile visualizzare selezionando **[!UICONTROL Mostra impostazioni avanzate]**. Questo numero è 1 per impostazione predefinita.
+   Il valore dell&#39;elemento aumenta in ogni ripetizione di questo valore specificato nel campo **[!UICONTROL Passaggio]**, che puoi visualizzare selezionando **[!UICONTROL Mostra impostazioni avanzate]**. Questo numero è 1 per impostazione predefinita.
 
-1. Clic **[!UICONTROL OK]** per chiudere **[!UICONTROL Controllo del flusso]** casella.
+1. Fare clic su **[!UICONTROL OK]** per chiudere la casella **[!UICONTROL Controllo flusso]**.
 
-1. Fai clic sull’app o sul modulo di servizio connesso al [!UICONTROL Ripetitore] modulo.
+1. Fare clic sull&#39;app o sul modulo di servizio connesso al modulo [!UICONTROL Repeater].
 1. Nella casella visualizzata digitare le informazioni che si desidera ripetere.
 
-   Nel nostro esempio di e-mail, digita Hello nel [!UICONTROL Oggetto] box, quindi map `i` dal modulo ripetitore.
+   Nel nostro esempio di e-mail, dovresti digitare Hello nella casella [!UICONTROL Oggetto], quindi mappare `i` dal modulo del ripetitore.
 
    ![](assets/repeater-3-350x207.png)
 
 | Voce | Descrizione |
 |---|---|
-| [!UICONTROL Valore iniziale] | Immetti o mappa il numero che desideri che il modulo imposti come `i` nella prima iterazione. Il valore predefinito è 1. |
-| [!UICONTROL Si ripete] | Immetti o mappa il numero di volte in cui desideri che il modulo si ripeta. Questo numero deve essere maggiore o uguale a 0 e minore o uguale a 10.000. |
-| [!UICONTROL Step] | Questo è il numero di cui il modulo aumenta il valore di `i`. Il valore predefinito è 1. |
+| [!UICONTROL Valore iniziale] | Immettere o mappare il numero impostato dal modulo come `i` nella prima iterazione. Il valore predefinito è 1. |
+| [!UICONTROL Ripetizioni] | Immetti o mappa il numero di volte in cui desideri che il modulo si ripeta. Questo numero deve essere maggiore o uguale a 0 e minore o uguale a 10.000. |
+| [!UICONTROL Passaggio] | Numero di cui il modulo aumenta il valore di `i`. Il valore predefinito è 1. |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->Il numero di ripetizioni non è determinato dal valore di `i`, come si farebbe in un loop nella programmazione. Il modulo ripeterà il numero di volte indicato nel [!UICONTROL Si ripete] campo. Il valore `i` modifiche con ogni iterazione del [!DNL repeater] e possono essere mappati su moduli successivi. L’esempio precedente mappa il valore di `i` nel messaggio Hello, che si traduce in messaggi che recitano &quot;Hello 1,&quot; Hello 2,&quot; e così via.
+>Il numero di ripetizioni non è determinato dal valore di `i`, poiché si troverebbe in un ciclo nella programmazione. Il modulo ripeterà il numero di volte indicato nel campo [!UICONTROL Ripeti]. Il valore `i` cambia con ogni iterazione del modulo [!DNL repeater] e può essere mappato ai moduli successivi. Nell&#39;esempio precedente il valore di `i` viene mappato nel messaggio Hello, con messaggi che indicano &quot;Hello 1&quot;, Hello 2&quot; e così via.
 
 ## [!UICONTROL Iteratore]
 
-Un [!UICONTROL Iteratore] è un tipo speciale di modulo che converte un array in una serie di bundle. Ogni elemento dell’array sarà un bundle separato nel [!UICONTROL Iteratore] output del modulo. Per ulteriori informazioni, consulta [[!UICONTROL Iteratore] modulo in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md).
+Un [!UICONTROL Iterator] è un tipo speciale di modulo che converte un array in una serie di bundle. Ogni elemento di array sarà un bundle separato nell&#39;output del modulo [!UICONTROL Iterator]. Per ulteriori informazioni, vedere il modulo [[!UICONTROL Iterator] in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md).
 
 ## Aggregatore array
 
-Un aggregatore di array è un tipo speciale di modulo che consente di unire più bundle in un singolo bundle. Per ulteriori informazioni, consulta [[!UICONTROL Aggregatore] modulo in Adobe Workfront Fusion](../../workfront-fusion/modules/aggregator-module.md).
+Un aggregatore di array è un tipo speciale di modulo che consente di unire più bundle in un singolo bundle. Per ulteriori informazioni, vedere il modulo [[!UICONTROL Aggregator] in Adobe Workfront Fusion](../../workfront-fusion/modules/aggregator-module.md).
 
 ## [!UICONTROL Router]
 
-Il [!UICONTROL Router] consente di diramare il flusso in più route ed elaborare i dati all&#39;interno di ciascuna route in modo diverso. Una volta al [!UICONTROL Router] il modulo riceve un bundle, lo inoltra a ogni route connessa nell&#39;ordine in cui le route sono state collegate al [!UICONTROL Router] modulo. Per ulteriori informazioni, consulta [Modulo router in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/router-module.md).
+Il modulo [!UICONTROL Router] ti consente di diramare il flusso in più route ed elaborare i dati all&#39;interno di ogni route in modo diverso. Quando un modulo [!UICONTROL Router] riceve un bundle, lo inoltra a ogni route connessa nell&#39;ordine in cui le route sono state collegate al modulo [!UICONTROL Router]. Per ulteriori informazioni, vedere [Modulo router in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/router-module.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
 source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1253'
 ht-degree: 3%
 
 ---
@@ -34,11 +34,11 @@ Considera quanto segue:
 
 * Se uno degli elementi rappresentati dalle icone risulta mancante nell&#39;oggetto, l&#39;icona che rappresenta l&#39;elemento mancante viene visualizzata in grigio nella colonna Icone di stato anziché in un&#39;immagine colorata.
 
-  ![task_status_icons.png](assets/task-status-icons.png)
+  ![attività_status_icons.png](assets/task-status-icons.png)
 
-  Per ulteriori informazioni, vedere [Panoramica delle icone e dei flag di stato](#overview-of-status-icons-and-flags) in questo articolo.
+  Per ulteriori informazioni, vedere la sezione [Panoramica delle icone di stato e dei flag](#overview-of-status-icons-and-flags) in questo articolo.
 
-* In alcune visualizzazioni, il **Icone di stato** il campo è denominato **Flag** o **Icone Vista**.\
+* In alcune visualizzazioni, il campo **Icone di stato** è denominato **Flag** o **Icone di visualizzazione**.\
   Non è possibile personalizzare l&#39;aspetto delle icone incluse nel campo Icone di stato.
 
 * Non è possibile modificare il numero di icone nel campo Icone di stato.
@@ -69,12 +69,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per una visualizzazione esistente</p> <p>Gestire le autorizzazioni per un report per aggiungervi colonne</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per una visualizzazione esistente</p> <p>Gestire le autorizzazioni per un report per aggiungervi colonne</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Aggiungere il campo Icone di stato a una visualizzazione
 
@@ -94,29 +94,29 @@ Per aggiungere il campo Icone di stato a una visualizzazione personalizzata crea
    * Spese
    * Documenti
    * Utenti\
-     Solo questi oggetti dispongono di **Icone di stato** campo disponibile.\
+     Solo questi oggetti hanno il campo **Icone di stato** disponibile.\
      Per informazioni sugli elenchi di oggetti, vedere [Introduzione agli elenchi in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-1. Dalla sezione **Visualizza** menu a discesa, seleziona **Nuova visualizzazione**.
+1. Dal menu a discesa **Visualizza**, selezionare **Nuova visualizzazione**.
 
-1. Clic **Aggiungi colonna**.
-1. In **Mostra in questa colonna** inizia a digitare uno dei seguenti nomi di campo, quindi selezionalo quando viene visualizzato nell’elenco:
+1. Fai clic su **Aggiungi colonna**.
+1. Nella casella **Mostra in questa colonna**, inizia a digitare uno dei seguenti nomi di campo, quindi selezionalo quando viene visualizzato nell&#39;elenco:
 
    * *Le icone di Stato*
-   * *Flag*
+   * *Contrassegni*
    * *Icone di visualizzazione *(solo nelle visualizzazioni Documento).
 
    Le icone incorporate sono elencate in uno di questi nomi.\
-   Una vista Modello contiene sia **Icone di stato** e **Flag** campi. In questo caso, le due colonne contengono icone identiche.\
-   Le visualizzazioni del documento contengono **Icone Vista** campo.
+   Una visualizzazione Modello contiene sia le **icone di stato** che i campi **Flag**. In questo caso, le due colonne contengono icone identiche.\
+   Le visualizzazioni documenti contengono un campo **Visualizza icone**.
 
-1. Clic **Salva visualizzazione**.
-1. (Facoltativo) Specifica un nuovo nome per la vista, quindi fai clic su **Salva visualizzazione**.\
-   Questo aggiunge **Icone di stato** nella vista.
+1. Fai clic su **Salva vista**.
+1. (Facoltativo) Specifica un nuovo nome per la visualizzazione, quindi fai clic su **Salva visualizzazione**.\
+   In questo modo viene aggiunta alla visualizzazione la colonna **Icone di stato**.
 1. (Facoltativo) Passa il puntatore del mouse su un&#39;icona per capire cosa rappresenta.
 1. (Facoltativo) Fare clic su un&#39;icona per passare all&#39;area dell&#39;oggetto da essa rappresentata.\
    Non tutte le icone sono collegamenti a oggetti.\
-   Per un elenco completo degli attributi di ciascuna icona, vedere [Panoramica delle icone e dei flag di stato](#overview-of-status-icons-and-flags) sezione.
+   Per un elenco completo degli attributi di ciascuna icona, vedere la sezione [Panoramica delle icone di stato e dei flag](#overview-of-status-icons-and-flags).
 
 ## Panoramica delle icone e dei flag di stato {#overview-of-status-icons-and-flags}
 
@@ -142,7 +142,7 @@ Per poter fare clic su alcune delle icone seguenti e accedere a tali oggetti, è
  <tbody> 
   <tr> 
    <td> <img src="assets/condition-update-icon-on-target-29x34.png" alt="condition_update_icon_on_target.png" style="width: 29;height: 34;">o <img src="assets/screen-shot-2018-08-17-at-9.49.36-am-29x37.png" alt="Screen_Shot_2018-08-17_at_9.49.36_AM.png" style="width: 29;height: 37;"><br><img src="assets/condition-update-icon--in-trouble-29x26.png" alt="condition_update_icon__in_trouble.png" style="width: 29;height: 26;"> o <img src="assets/screen-shot-2018-08-17-at-9.49.23-am-29x26.png" style="width: 29;height: 26;"><br><img src="assets/condition-update-at-risk-27x28.png" alt="condition_update_at_risk.png" style="width: 27;height: 28;"> o <img src="assets/screen-shot-2018-08-17-at-9.49.23-am-33x34.png" alt="Screen_Shot_2018-08-17_at_9.49.23_AM.png" style="width: 33;height: 34;"></td> 
-   <td>Indica che la condizione del progetto è On Target (verde), In Trouble (rosso) o At Risk (giallo).<br>Per informazioni sulla condizione del progetto, vedi <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Panoramica della condizione e del tipo di condizione del progetto</a>.</td> 
+   <td>Indica che la condizione del progetto è On Target (verde), In Trouble (rosso) o At Risk (giallo).<br>Per informazioni sulla condizione del progetto, vedere <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Panoramica sulla condizione e sul tipo di condizione del progetto</a>.</td> 
    <td>Progetti</td> 
    <td>Fare clic per aprire l'elenco delle attività del progetto. </td> 
    <td> </td> 
@@ -190,21 +190,21 @@ Per poter fare clic su alcune delle icone seguenti e accedere a tali oggetti, è
      <li>In ritardo (cerchio rosso)</li> 
      <li>A rischio (diamante blu)</li> 
      <li>Dietro (triangolo giallo)</li> 
-    </ul> <p>Per informazioni sullo stato di avanzamento delle attività, vedere <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Panoramica sullo stato di avanzamento dell’attività</a>.</p> </td> 
+    </ul> <p>Per informazioni sullo stato di avanzamento delle attività, vedere <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Panoramica sullo stato di avanzamento delle attività</a>.</p> </td> 
    <td>Attività</td> 
    <td>Fai clic su per aprire l’attività. </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/task-critical-path-icon-36x35.png" alt="task_critical_path_icon.png" style="width: 36;height: 35;"> oppure <img src="assets/new-critical-path-icon-34x34.png" alt="new_critical_path_icon.png" style="width: 34;height: 34;"></td> 
-   <td>Indica che l'attività si trova nel percorso critico. <br>Per informazioni sulle attività in un percorso critico del progetto, vedi <a href="../../../manage-work/tasks/manage-tasks/critical-path.md" class="MCXref xref">Panoramica del percorso critico del progetto</a>.</td> 
+   <td>Indica che l'attività si trova nel percorso critico. <br>Per informazioni sulle attività in un percorso critico del progetto, vedere <a href="../../../manage-work/tasks/manage-tasks/critical-path.md" class="MCXref xref">Panoramica del percorso critico del progetto</a>.</td> 
    <td>Attività</td> 
    <td>Fai clic su per aprire l’attività.</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/milestone-icon-50x43.png" alt="milestone_icon.png" style="width: 50;height: 43;"> </td> 
-   <td>Indica che l'attività è associata a un'attività cardine. L’amministratore di sistema può personalizzare il colore del rombo nell’ambiente in uso.<br>Per informazioni sulle milestone, vedi <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Creare un percorso milestone</a>.</td> 
+   <td>Indica che l'attività è associata a un'attività cardine. L’amministratore di sistema può personalizzare il colore del rombo nell’ambiente in uso.<br>Per informazioni sulle milestone, vedere <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Creare un percorso milestone</a>.</td> 
    <td>Attività</td> 
    <td>Fai clic su per aprire l’attività. </td> 
    <td> </td> 
@@ -274,21 +274,21 @@ Per poter fare clic su alcune delle icone seguenti e accedere a tali oggetti, è
   </tr> 
   <tr> 
    <td> <img src="assets/billable-expense-icon-44x45.png" alt="billable_pense_icon.png" style="width: 44;height: 45;"> </td> 
-   <td>Indica che una spesa è fatturabile.<br>Per informazioni sulle spese, consulta <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Gestisci spese progetto </a>.</td> 
+   <td>Indica che una spesa è fatturabile.<br>Per informazioni sulle spese, vedere <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Gestire le spese del progetto </a>.</td> 
    <td>Spese</td> 
    <td>Non disponibile</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/expense-reimbursable-icon-44x45.png" alt="pense_rimborssable_icon.png" style="width: 44;height: 45;"> </td> 
-   <td> Indica che una spesa è rimborsabile.<br>Per informazioni sulle spese, consulta <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Gestisci spese progetto </a>.</td> 
+   <td> Indica che una spesa è rimborsabile.<br>Per informazioni sulle spese, vedere <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Gestire le spese del progetto </a>.</td> 
    <td>Spese</td> 
    <td>Non disponibile</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/reimbursed-expense-icon-44x43.png" alt="rimborsed_cost_icon.png" style="width: 44;height: 43;"></td> 
-   <td> Indica che una spesa è stata rimborsata.<br>Per informazioni sulle spese, consulta <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Gestisci spese progetto </a>.</td> 
+   <td> Indica che una spesa è stata rimborsata.<br>Per informazioni sulle spese, vedere <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Gestire le spese del progetto </a>.</td> 
    <td>Spese</td> 
    <td>Non disponibile</td> 
    <td> </td> 

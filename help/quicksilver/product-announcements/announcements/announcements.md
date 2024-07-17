@@ -21,8 +21,8 @@ Di seguito sono riportati alcuni annunci che è possibile conoscere:
 * [Miglioramenti dei moduli personalizzati](../../product-announcements/announcements/custom-form-enhancements.md)
 * [Domande frequenti sulla finestra di manutenzione](../../product-announcements/announcements/maintenance-window-faq.md)
 * [Annulla iscrizione ai messaggi del Centro notifiche](unsubscribe-from-ac-messages.md)
-* [Modifica necessaria per aggiungere bozze al inserisco nell&#39;elenco Consentiti di](proofhq-domain-change-workfront.md)
+* [Modifica necessaria per aggiungere le bozze al inserisco nell&#39;elenco Consentiti di lavoro di un’organizzazione](proofhq-domain-change-workfront.md)
 
 
 
-Per gli annunci precedenti, vedi [Archivio notifiche](announcement-archive/announcement-archive.md).
+Per gli annunci precedenti, vedere l&#39;[Archivio annunci](announcement-archive/announcement-archive.md).

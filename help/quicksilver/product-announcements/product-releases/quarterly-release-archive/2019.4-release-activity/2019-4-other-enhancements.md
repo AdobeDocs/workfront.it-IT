@@ -18,13 +18,13 @@ ht-degree: 0%
 
 Questa pagina descrive vari miglioramenti apportati alla versione 2019.4 di. Sarà reso disponibile nell’ambiente di produzione la settimana dell’11 novembre 2019.
 
-Per un elenco di tutte le modifiche apportate nel 2019.4, consulta [Panoramica sulla versione 2019.4](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
+Per un elenco di tutte le modifiche apportate in 2019.4, consulta [Panoramica sulla versione 2019.4](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <strong>Avviare un flusso di lavoro di verifica automatizzata da un documento Adobe CC</strong> <p>Senza uscire da Adobe CC, è possibile avviare un flusso di lavoro di verifica automatizzato per un documento Adobe CC creato. Per ulteriori informazioni, consulta la sezione <a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md#generate" class="MCXref xref" xrefformat="{para}">Generare una bozza da Illustrator o InDesign</a> nell’articolo <a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md" class="MCXref xref" xrefformat="{para}">Utilizzare l’estensione Workfront per Illustrator e InDesign</a>.</p> </td> 
+   <td> <strong>Avvia un flusso di lavoro di verifica automatizzata da un Adobe documento CC</strong> <p>Senza uscire da Adobe CC, è possibile avviare un flusso di lavoro di verifica automatizzato per un documento Adobe CC creato. Per ulteriori informazioni, vedere la sezione <a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md#generate" class="MCXref xref" xrefformat="{para}">Generare una bozza da Illustrator o InDesign</a> nell'articolo <a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md" class="MCXref xref" xrefformat="{para}">Utilizzare l'estensione Workfront per Illustrator e InDesign</a>.</p> </td> 
   </tr> 
   <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
@@ -55,14 +55,14 @@ Per un elenco di tutte le modifiche apportate nel 2019.4, consulta [Panoramica s
   <tr> 
    <td> 
     <div> 
-     <strong>Ulteriori tipi di oggetto disponibili per i campi automatico in un modulo personalizzato</strong> 
+     <strong>Ulteriori tipi di oggetto disponibili per i campi Typeahead in un modulo personalizzato</strong> 
      <p>Ora, quando si crea un campo personalizzato Automatico, è possibile associare al campo i seguenti tipi di oggetto: Utente, Società, Gruppo, Mansione, Portfolio, Programma, Progetto e Modello.</p> 
      <p>In precedenza era possibile associare solo il tipo di oggetto User a un campo personalizzato Typeahead.</p> 
-     <p>Per ulteriori informazioni, consulta la sezione <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">Creare o modificare un modulo personalizzato</a> nell’articolo <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">Creare o modificare un modulo personalizzato</a>.</p> 
+     <p>Per ulteriori informazioni, vedere la sezione <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">Creare o modificare un modulo personalizzato</a> nell'articolo <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">Creare o modificare un modulo personalizzato</a>.</p> 
     </div> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Nome file della versione più recente di un documento visualizzato</strong> <p>Ora, quando si carica una versione del documento con un nome di file diverso da quello della versione esistente, il nuovo nome di file viene visualizzato in Workfront.</p> <p>In precedenza, quando si aggiungeva una nuova versione con un nome di file diverso, il nome del file della versione precedente continuava a essere visualizzato in Workfront.</p> <p>Per ulteriori informazioni, consulta <a href="../../../../documents/managing-documents/upload-new-document-version.md" class="MCXref xref" xrefformat="{para}">Carica una nuova versione di un documento</a>.</p> </td> 
+   <td> <strong>Nome file della versione più recente di un documento visualizzato</strong> <p>Ora, quando si carica una versione del documento con un nome di file diverso da quello della versione esistente, il nuovo nome di file viene visualizzato in Workfront.</p> <p>In precedenza, quando si aggiungeva una nuova versione con un nome di file diverso, il nome del file della versione precedente continuava a essere visualizzato in Workfront.</p> <p>Per ulteriori informazioni, vedere <a href="../../../../documents/managing-documents/upload-new-document-version.md" class="MCXref xref" xrefformat="{para}">Caricare una nuova versione di un documento</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <strong>Aggiungere un filtro a un campo automatico in un modulo personalizzato</strong> <p>Ora, quando si aggiunge un campo automatico a un modulo personalizzato, è possibile aggiungere un filtro per limitare gli oggetti disponibili quando un utente utilizza il campo. Ad esempio, puoi limitare il campo in modo che l’utente possa selezionare solo i membri del team Marketing e Vendite della tua organizzazione.</p> <p>Per ulteriori informazioni, consulta la sezione Creare e aggiungere un nuovo campo nell’articolo Creazione di un Forms personalizzato.</p> </td> 
@@ -70,18 +70,18 @@ Per un elenco di tutte le modifiche apportate nel 2019.4, consulta [Panoramica s
   <tr> 
    <td> 
     <div> 
-     <strong>Modificare il tipo di visualizzazione di un campo in un modulo personalizzato</strong> 
+     <strong>Modifica il tipo di visualizzazione di un campo in un modulo personalizzato</strong> 
      <p>Ora è possibile modificare il tipo di visualizzazione di un campo in un modulo personalizzato.</p> 
      <p>Se ad esempio è stato creato un campo Caselle di controllo, è possibile modificarlo in un campo a discesa o in un campo Pulsanti di scelta. Questi tre tipi di visualizzazione dei campi sono intercambiabili.</p> 
      <p>In alternativa, se è stato creato un campo di testo a riga singola, è possibile modificarlo in un campo di testo paragrafo. Questi due tipi di visualizzazione dei campi sono intercambiabili.</p> 
      <p>In precedenza, per modificare il tipo di visualizzazione di un campo personalizzato, era necessario creare un nuovo campo ed eliminare quello precedente. Questo richiedeva il trasferimento dei dati, operazione che spesso richiedeva molto tempo.</p> 
-     <p>Per ulteriori informazioni, consulta <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">Creare o modificare un modulo personalizzato</a> nell’articolo <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">Creare o modificare un modulo personalizzato</a></p> 
+     <p>Per ulteriori informazioni, vedere <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">Creare o modificare un modulo personalizzato</a> nell'articolo <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">Creare o modificare un modulo personalizzato</a></p> 
     </div> </td> 
   </tr> 
   <tr> 
    <td> 
     <div> 
-     <strong>Creazione di calendari e rapporti sulle ferie</strong> 
+     <strong>Creazione di calendari e report dell'indisponibilità</strong> 
      <p>Ora puoi vedere il tempo libero dell’utente per una migliore pianificazione ed esecuzione. Puoi anche aggiungere ai dashboard nuovi rapporti e calendari di ferie per una visualizzazione in tempo reale della disponibilità degli utenti.</p> 
     </div> </td> 
   </tr> 

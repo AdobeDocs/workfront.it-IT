@@ -3,7 +3,7 @@ content-type: overview
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
 title: Panoramica di Adobe Workfront for Microsoft Teams
-description: In qualità di proprietario del team, puoi installare [!DNL Adobe Workfront for Microsoft Teams] per il tuo team.
+description: In qualità di proprietario del team, puoi installare l'app  [!DNL Adobe Workfront for Microsoft Teams]  per il tuo team.
 author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
@@ -23,36 +23,36 @@ ht-degree: 0%
 >
 >L’integrazione di Adobe Workfront for Microsoft Teams è attualmente supportata solo per l’esperienza di Microsoft Teams classica.
 
-Come proprietario del team In [!DNL Microsoft Teams], è possibile installare [!DNL Adobe Workfront for Microsoft Teams] per il tuo team.
+In qualità di proprietario del team In [!DNL Microsoft Teams], puoi installare l&#39;app [!DNL Adobe Workfront for Microsoft Teams] per il tuo team.
 
-Utilizzo di [!DNL Workfront] per Microsoft Teams consente di eseguire diverse azioni in [!DNL Workfront] senza mai lasciare Microsoft Teams.
+L&#39;utilizzo di [!DNL Workfront] per i Microsoft Teams consente di eseguire una serie di azioni in [!DNL Workfront] senza mai uscire dai Microsoft Teams.
 
-Per ulteriori informazioni sull&#39;installazione di Workfront per i Microsoft Teams, vedere [Installare Adobe Workfront per i Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+Per ulteriori informazioni sull&#39;installazione di Workfront per Microsoft Teams, vedere [Installare Adobe Workfront per Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
-Dopo aver installato [!DNL Workfront for Microsoft Teams], è possibile effettuare le seguenti operazioni senza uscire dall’istanza di [!DNL Microsoft Teams]:
+Dopo aver installato [!DNL Workfront for Microsoft Teams], è possibile eseguire le operazioni seguenti senza uscire dall&#39;istanza di [!DNL Microsoft Teams]:
 
-* Cerca [!DNL Workfront] progetti, attività e problemi e condividerli con altri utenti.
+* Cerca [!DNL Workfront] progetti, attività e problemi e condividili con altri utenti.
 
-  Per informazioni sulla ricerca e la condivisione [!DNL Workfront] elementi da [!DNL Microsoft Teams], vedi [Cerca e condividi [!DNL Adobe Workfront] elementi in [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md).
+  Per informazioni sulla ricerca e la condivisione di [!DNL Workfront] elementi da [!DNL Microsoft Teams], vedere [Cerca e condividi [!DNL Adobe Workfront] elementi in [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md).
 
 * Crea [!DNL Workfront] attività personali.
 
-  Per informazioni sulla creazione di [!DNL Workfront] attività personali da [!DNL Microsoft Teams], vedi [Crea [!DNL Adobe Workfront] attività da [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
+  Per informazioni sulla creazione di [!DNL Workfront] attività personali da [!DNL Microsoft Teams], vedere [Crea [!DNL Adobe Workfront] attività da [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
 
-* Invia [!DNL Workfront] e verificare lo stato di avanzamento delle richieste inviate.
+* Invia [!DNL Workfront] richieste e controlla l&#39;avanzamento delle richieste inviate.
 
-  Per informazioni sull&#39;invio [!DNL Workfront] richieste da [!DNL Microsoft Teams], vedi [Invio [!DNL Workfront] Richieste da [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/submit-workfront-requests-from-ms-teams.md).
+  Per informazioni sull&#39;invio di [!DNL Workfront] richieste da [!DNL Microsoft Teams], vedere [Invio [!DNL Workfront] richieste da [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/submit-workfront-requests-from-ms-teams.md).
 
-* Rispondi a [!DNL Workfront] notifiche su aggiornamenti e commenti.
+* Rispondere alle notifiche di [!DNL Workfront] su aggiornamenti e commenti.
 * Risponde alle richieste di approvazione dei documenti.\
-   Per informazioni sulla risposta a [!DNL Workfront] notifiche e richieste di approvazione dei documenti da [!DNL Microsoft Teams], vedi [Gestisci [!DNL Adobe Workfront] notifiche in [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
+   Per informazioni sulla risposta alle notifiche di [!DNL Workfront] e alla richiesta di approvazione del documento da [!DNL Microsoft Teams], vedere [Gestisci [!DNL Adobe Workfront] le notifiche in [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
 
-Quando si lavora con, considera quanto segue [!DNL Workfront] per [!DNL Microsoft Teams]:
+Quando si lavora con [!DNL Workfront] per [!DNL Microsoft Teams], tenere presente quanto segue:
 
-* Non è necessario essere un [!DNL Workfront] Amministratore da installare [!DNL Workfront for Microsoft Teams].\
-   L’app è gratuita e puoi aggiungerla al tuo team se sei anche il proprietario di un team in [!DNL Microsoft Teams].
-* Qualsiasi utente in [!DNL Microsoft Team] può utilizzare l’app se è stata installata da un proprietario del team e se dispone di un [!DNL Workfront] account.
-* Se più team devono avere accesso a [!DNL Workfront] da [!DNL Microsoft Teams], devi installare l’app per ogni team.
-* Puoi visualizzare alcune informazioni sulla funzione [!DNL Workfront] elementi in [!DNL Microsoft Teams]. Ad esempio, nome, stato, priorità, assegnatario, data di completamento pianificata di un [!DNL Workfront] elemento. Queste informazioni non possono essere personalizzate.
-* Puoi accedere direttamente al [!DNL Workfront] elementi e documenti di [!DNL Microsoft Teams].
-* [!DNL Microsoft Teams] non supporta più [!DNL Internet Explorer]. Per utilizzare [!DNL Adobe Workfront for Microsoft Teams] , è necessario utilizzare un browser Web diverso da [!DNL Internet Explorer].
+* Non è necessario essere un amministratore [!DNL Workfront] per installare [!DNL Workfront for Microsoft Teams].\
+   L&#39;app è gratuita e puoi aggiungerla al tuo team se sei anche proprietario del team in [!DNL Microsoft Teams].
+* Qualsiasi utente in [!DNL Microsoft Team] può utilizzare l&#39;app se è stata installata da un proprietario del team e se dispone di un account [!DNL Workfront].
+* Se più team devono avere accesso a [!DNL Workfront] da [!DNL Microsoft Teams], è necessario installare l&#39;app per ogni team.
+* È possibile visualizzare alcune informazioni sugli elementi [!DNL Workfront] in [!DNL Microsoft Teams]. Ad esempio, il nome, lo stato, la priorità, l&#39;assegnatario, la data di completamento pianificata di un elemento [!DNL Workfront]. Queste informazioni non possono essere personalizzate.
+* Puoi passare direttamente agli elementi e ai documenti [!DNL Workfront] da [!DNL Microsoft Teams].
+* [!DNL Microsoft Teams] non supporta più [!DNL Internet Explorer]. Per utilizzare l&#39;integrazione di [!DNL Adobe Workfront for Microsoft Teams], è necessario utilizzare un browser Web diverso da [!DNL Internet Explorer].

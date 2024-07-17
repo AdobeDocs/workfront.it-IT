@@ -9,16 +9,16 @@ feature: Reports and Dashboards
 exl-id: 45e9cb13-99c7-4401-962e-2aea5e5258c0
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 0%
+source-wordcount: '308'
+ht-degree: 2%
 
 ---
 
 # Visualizza: aggiungere un elenco di successori attività in una colonna
 
-È possibile aggiungere una colonna a una visualizzazione delle attività per visualizzare un elenco dei successori delle attività. Il **Successori attività** La colonna include il numero del successore e il nome.
+È possibile aggiungere una colonna a una visualizzazione delle attività per visualizzare un elenco dei successori delle attività. La colonna **Successori attività** include il numero del successore e il nome.
 
-![task_view_with_a_list_of_successors_.png](assets/task-view-with-a-list-of-successors--350x118.png)
+![visualizzazione_attività_con_un_elenco_di_successori_.png](assets/task-view-with-a-list-of-successors--350x118.png)
 
 ## Requisiti di accesso
 
@@ -45,25 +45,24 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Aggiungere un elenco di successori attività in una colonna
 
 Per aggiungere questa colonna a una visualizzazione delle attività:
 
 1. Consente di passare a una visualizzazione attività esistente.
-1. Espandi il menu a discesa Visualizza e seleziona **Personalizza visualizzazione**.
-1. Clic **Aggiungi colonna**.
-1. Clic **Passa alla modalità testo**.
-1. Passa il puntatore del mouse sopra **Mostra in questa colonna** e fai clic su **Fare clic per modificare il testo**.
+1. Espandere il menu a discesa Visualizza e selezionare **Personalizza visualizzazione**.
+1. Fai clic su **Aggiungi colonna**.
+1. Fare clic su **Passa alla modalità testo**.
+1. Passa il puntatore del mouse sull&#39;area **Mostra in questa colonna** e fai clic su **Fai clic per modificare il testo**.
 
 1. Rimuovere tutto il testo nella casella Modalità testo e sostituirlo con il seguente codice:
+   <pre>displayname=Successori attività<br>listdelimiter=<br><br>listmethod=nested(successors).LISTS<br>textmode=true<br>type=iterate<br>valueexpression=CONCAT({successor}.{taskNumber},' - ',{successor}.{name})<br>valueformat=HTML</pre>
 
-   <pre>displayname=Successori attività<br>listdelimiter=<br><br>listmethod=nested(successors).LISTS<br>textmode=true<br>type=iterate<br>valueexpression=CONCAT({successore}).{taskNumber},' - ',{successore}.{name})<br>valueformat=HTML</pre>
-
-1. Clic **Salva visualizzazione**.
+1. Fai clic su **Salva vista**.

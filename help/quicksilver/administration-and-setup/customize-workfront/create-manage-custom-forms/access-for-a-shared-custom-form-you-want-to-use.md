@@ -11,8 +11,8 @@ role: Admin
 exl-id: 36172f4c-fe10-49d2-b10b-abb0cfce62c1
 source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 0%
+source-wordcount: '400'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Quando un utente condivide un campo personalizzato con l’accesso Visualizza o Gestisci, può configurare diverse altre impostazioni per definire ulteriormente tale accesso. Se sei un destinatario del campo, queste impostazioni influiscono su ciò che puoi fare con il campo. Quando visualizzi il campo, potresti visualizzare quanto segue.
 
-Per ulteriori informazioni sulla configurazione delle impostazioni di condivisione durante la condivisione di un modulo personalizzato, vedere [Configurare la condivisione per campi e widget personalizzati](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md).
+Per ulteriori informazioni su come gli utenti configurano le impostazioni di condivisione durante la condivisione di un modulo personalizzato, vedere [Configurare la condivisione per campi e widget personalizzati](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -55,7 +55,7 @@ Per ulteriori informazioni sulla configurazione delle impostazioni di condivisio
   <tr> 
    <td> 
     <ul> 
-     <li>Gestisci</li> 
+     <li>Gestire</li> 
      <li>Modificabile a livello di sistema</li> 
     </ul> </td> 
    <td>È possibile aggiungere il campo ai moduli personalizzati e modificare le relative impostazioni, ad esempio l'etichetta, il nome e il tipo.</td> 
@@ -63,7 +63,7 @@ Per ulteriori informazioni sulla configurazione delle impostazioni di condivisio
   <tr> 
    <td> 
     <ul> 
-     <li>Gestisci</li> 
+     <li>Gestire</li> 
     </ul> </td> 
    <td> <p>Se si visualizza la scheda Campi nella pagina principale Forms personalizzato, il pulsante Modifica è disponibile sulla barra degli strumenti quando si seleziona il campo.</p> </td> 
   </tr> 

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Filtro: rapporto Proof Approval (Approvazione della bozza) per omettere le versioni precedenti della bozza
 
-In un rapporto Proof Approval (Approvazione della bozza), è possibile utilizzare il **È la versione del documento corrente** per includere solo le versioni correnti delle bozze in attesa della tua approvazione.
+In un report Proof Approval (Approvazione bozza) è possibile utilizzare il filtro **Is Current Document Version** (È la versione corrente del documento) per includere solo le versioni correnti delle bozze in attesa della propria approvazione.
 
 Ciò è utile, ad esempio, se ti è stato chiesto di approvare bozze che hanno più versioni. Quando si esegue il rapporto Proof Approval (Approvazione della bozza) con il filtro Is Current Document Version (È versione corrente del documento), nel rapporto viene elencata solo la versione corrente di ogni bozza in attesa di approvazione, omettendo le versioni precedenti su cui non è più necessario lavorare. 
 
@@ -45,12 +45,12 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Filtrare il rapporto Proof Approval (Approvazione della bozza) per omettere le versioni precedenti della bozza
 
@@ -62,15 +62,15 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
    <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sarah: Add sub bullets for report creation.</p>
    -->
 
-   Per creare un rapporto Proof Approval personalizzato, fai clic sul menu principale ![](assets/main-menu-icon.png), quindi fai clic su **Rapporti** ![](assets/reports-in-main-menu.png). Clic **Nuovo rapporto**. Nell&#39;elenco visualizzato scorrere fino a e fare clic su **Approvazione bozza**. Clic **Salva e chiudi**, digitare a **Nome report** (facoltativo), quindi fai clic su **Salva report**.
+   Per creare un report Proof Approval personalizzato, fai clic sul menu principale ![](assets/main-menu-icon.png), quindi fai clic su **Report** ![](assets/reports-in-main-menu.png). Fare clic su **Nuovo report**. Nell&#39;elenco visualizzato scorrere fino a e fare clic su **Approvazione bozza**. Fai clic su **Salva + Chiudi**, digita un **Nome report** (facoltativo), quindi fai clic su **Salva report**.
 
-1. Clic **Azioni report > Modifica**.
-1. Clic **Filtri**, quindi fai clic su **Aggiungere una regola di filtro**.
+1. Fare clic su **Azioni report > Modifica**.
+1. Fai clic su **Filtri**, quindi fai clic su **Aggiungi una regola filtro**.
 
    <!--
    <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Tell Proof Lehi this isn't visible unless you scroll to it over on the right, not at all obvious. When on a laptop.</p>
    -->
 
-1. Clic **Approvazione bozza**.
-1. Nell&#39;elenco visualizzato fare clic su **È la versione del documento corrente**.
-1. Clic **Salva e chiudi** nell’angolo in basso a sinistra di Adobe Workfront, fai clic su **Salva report** nella casella visualizzata.
+1. Fare clic su **Approvazione bozza**.
+1. Nell&#39;elenco visualizzato fare clic su **È la versione corrente del documento**.
+1. Fai clic su **Salva + Chiudi** nell&#39;angolo inferiore sinistro di Adobe Workfront, quindi fai clic su **Salva report** nella casella visualizzata.

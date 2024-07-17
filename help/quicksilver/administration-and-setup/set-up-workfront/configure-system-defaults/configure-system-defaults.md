@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;setup
 navigation-topic: set-up-workfront
 title: Configurare i valori predefiniti di sistema
-description: Come un [!DNL Adobe Workfront] amministratore, puoi configurare le impostazioni predefinite di sistema, ad esempio le preferenze per tutti i progetti creati dagli utenti.
+description: In qualità di amministratore di  [!DNL Adobe Workfront] , puoi configurare le impostazioni predefinite di sistema, ad esempio le preferenze per tutti i progetti creati dagli utenti.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -27,7 +27,7 @@ Questa sezione contiene i seguenti articoli:
 * [Configurare i tipi di richiesta](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md)
 * [Personalizzare i tipi di problemi predefiniti](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md)
 * [Creare, modificare e condividere filtri, viste e raggruppamenti predefiniti](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md)
-* [Configura [!UICONTROL Gestione risorse] preferenze](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)
+* [Configura preferenze [!UICONTROL Gestione risorse]](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)
 * [Modificare e creare tipi di rischio](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)
 * [Creare tipi di spesa personalizzati](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)
 * [Creare una scorecard](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)

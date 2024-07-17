@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Eliminare i modelli di progetto
 
-È consigliabile disattivare i modelli che non si utilizzano più, anziché eliminarli, in modo da poter conservare nel tempo informazioni storiche sui progetti. Per informazioni sulla disattivazione di un modello, consulta [Modificare i modelli di progetto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+È consigliabile disattivare i modelli che non si utilizzano più, anziché eliminarli, in modo da poter conservare nel tempo informazioni storiche sui progetti. Per informazioni sulla disattivazione di un modello, vedere [Modifica modelli di progetto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 >[!IMPORTANT]
 >
@@ -43,19 +43,19 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestisci le autorizzazioni per il modello che include le autorizzazioni per eliminarlo</p> <p> <img src="assets/template-manage-permissions-with-advanced-settings-350x352.png" style="width: 350;height: 352;"> </p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestisci le autorizzazioni per il modello che include le autorizzazioni per eliminarlo</p> <p> <img src="assets/template-manage-permissions-with-advanced-settings-350x352.png" style="width: 350;height: 352;"> </p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Considerazioni sull’eliminazione dei modelli
 
 * Le attività aggiunte ai progetti quando il modello è stato allegato rimangono nei progetti. Tuttavia, le informazioni sull&#39;attività modello associate alle attività vengono eliminate.
-* Il nome del modello non è più elencato nel **Modello** campo sul **Panoramica** scheda secondaria del progetto.
+* Il nome del modello non è più elencato nel campo **Modello** nella scheda secondaria **Panoramica** del progetto.
 
-* È possibile ripristinare un modello eliminato di recente dal Cestino. Per informazioni sul recupero degli elementi dal Cestino, vedere [Ripristina elementi eliminati](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+* È possibile ripristinare un modello eliminato di recente dal Cestino. Per informazioni sul ripristino degli elementi dal Cestino, vedere [Ripristinare gli elementi eliminati](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 ## Eliminare un modello
 
@@ -63,10 +63,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 Verrà aperto un elenco di modelli
 
-1. Seleziona il modello da eliminare facendo clic sulla casella di controllo a sinistra del nome del modello, quindi fai clic su **Elimina > Sì, Elimina** per confermare l’eliminazione.
+1. Selezionare il modello da eliminare facendo clic sulla casella di controllo a sinistra del nome del modello, quindi fare clic su **Elimina > Sì, Elimina** per confermare l&#39;eliminazione.
 
    Oppure
 
-   Fai clic sul nome di un modello per accedervi, quindi fai clic su **Altro** menu ![](assets/qs-more-icon-on-an-object.png) , quindi **Elimina modello > Sì, elimina**.
+   Fai clic sul nome di un modello per accedervi, quindi fai clic sul menu **Altro** ![](assets/qs-more-icon-on-an-object.png) , quindi su **Elimina modello > Sì, Elimina**.
 
    Il modello non è più disponibile per essere associato a un progetto.

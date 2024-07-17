@@ -3,8 +3,8 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: promemoria automatici e notifiche promemoria
-description: Questo articolo descrive le differenze tra promemoria automatici e notifiche di promemoria e fornisce scenari per ciascuno di essi. Per ulteriori informazioni su tutti [!DNL Adobe Workfront] notifiche, vedi Adobe [!DNL Workfront] notifiche.
+title: Promemoria automatici e notifiche promemoria
+description: Questo articolo descrive le differenze tra i promemoria automatici e le notifiche dei promemoria e fornisce scenari per ciascuno di essi. Per ulteriori informazioni su tutte [!DNL Adobe Workfront] le notifiche, vediAdobe [!DNL Workfront] notifiche.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -16,29 +16,29 @@ ht-degree: 0%
 
 ---
 
-# promemoria automatici e notifiche promemoria
+# Promemoria automatici e notifiche promemoria
 
-Questo articolo descrive le differenze tra promemoria automatici e notifiche di promemoria e fornisce scenari per ciascuno di essi. Per ulteriori informazioni su tutti [!DNL Adobe Workfront] notifiche, vedi [[!DNL Adobe Workfront] Notifiche](../../workfront-basics/using-notifications/wf-notifications.md).
+Questo articolo descrive le differenze tra i promemoria automatici e le notifiche dei promemoria e fornisce scenari per ciascuno di essi. Per ulteriori informazioni su tutte le [!DNL Adobe Workfront] notifiche, vedi [[!DNL Adobe Workfront] notifiche](../../workfront-basics/using-notifications/wf-notifications.md).
 
-## promemoria automatici
+## Promemoria automatici
 
-Le seguenti caratteristiche sono specifiche dei promemoria automatici:
+Le seguenti caratteristiche sono specifiche per i promemoria automatici:
 
-* Può essere attivato e modificato solo da un [!DNL Workfront] amministratore
-* Sono attivate su tutte le attività e i problemi quando sono in scadenza, in ritardo o in prossimità della data di completamento pianificata
-* Può essere inviato solo all&#39;assegnatario, al responsabile dell&#39;assegnatario o al responsabile del responsabile diretto.
-* Non è possibile allegare un modello e-mail.
+* Può essere attivato e modificato solo da un amministratore [!DNL Workfront]
+* Viene attivato su tutte le attività e i problemi quando sono in scadenza, in ritardo o in prossimità della data di completamento pianificata
+* Possono essere inviate solo all&#39;assegnatario, al responsabile dell&#39;assegnatario o al responsabile del manager immediato.
+* Non è possibile allegare un modello di e-mail a tali modelli.
 
-Scenario: Se desideri attivare i promemoria per tutte le attività e i problemi del sistema, configura le impostazioni di promemoria automatici. Per ulteriori informazioni, consulta [Imposta promemoria automatici](../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md).
+Scenario: se desideri che i promemoria vengano attivati su tutte le attività e i problemi del sistema, configura le impostazioni del promemoria automatico. Per ulteriori informazioni, vedere [Impostare promemoria automatici](../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md).
 
 ## Notifiche promemoria
 
 Le seguenti caratteristiche sono specifiche per le notifiche di promemoria:
 
-* Può essere creato da un amministratore o da qualsiasi utente con una licenza di piano e l&#39;accesso amministrativo alle notifiche dei promemoria
+* Può essere creato da un amministratore o da qualsiasi utente con una licenza Pianificazione e accesso amministrativo agli Avvisi di Promemoria
 * Può essere associato solo manualmente a un oggetto
-* Può solo inviare una notifica relativa all&#39;oggetto allegato
-* Può essere inviato a vari soggetti interessati, ad esempio proprietari, creatori, approvatori o assegnatari
-* Puoi utilizzare l’e-mail predefinita o un modello e-mail personalizzato allegato
+* È possibile inviare una notifica solo per l&#39;oggetto associato
+* Può essere inviato a vari soggetti interessati all&#39;oggetto, come proprietario, creatore, approvatore o assegnatario
+* È possibile utilizzare l’e-mail predefinita o un modello e-mail personalizzato allegato
 
-Scenario: Se desideri creare promemoria per progetti, fogli ore o personalizzare promemoria per attività e problemi, configura le notifiche dei promemoria. Per ulteriori informazioni, consulta [Impostare le notifiche dei promemoria](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
+Scenario: se desideri creare promemoria per progetti, schede orario o personalizzare i promemoria per attività e problemi, configura le notifiche dei promemoria. Per ulteriori informazioni, vedere [Configurare le notifiche promemoria](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).

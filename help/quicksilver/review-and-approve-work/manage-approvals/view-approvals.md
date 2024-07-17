@@ -17,9 +17,9 @@ ht-degree: 0%
 
 I processi di approvazione offrono la flessibilità necessaria per creare approvazioni a più passaggi per progetti, attività e problemi. Gli amministratori di Adobe Workfront definiscono i processi di approvazione per garantire coerenza all’interno del sistema.
 
-Per informazioni sulla creazione di processi di approvazione, consulta [Creare un processo di approvazione per gli elementi di lavoro](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+Per informazioni sulla creazione dei processi di approvazione, vedere [Creare un processo di approvazione per gli elementi di lavoro](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-Per informazioni sull’associazione delle approvazioni al lavoro in Workfront, consulta [Associa un processo di approvazione nuovo o esistente al lavoro](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+Per informazioni sull&#39;associazione delle approvazioni al lavoro in Workfront, vedere [Associare un processo di approvazione nuovo o esistente al lavoro](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 ## Requisiti di accesso
 
@@ -43,26 +43,26 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizza o autorizzazioni superiori per gli oggetti associati alle approvazioni</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Visualizza o autorizzazioni superiori per gli oggetti associati alle approvazioni</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Individuare le approvazioni in Adobe Workfront
 
-Puoi visualizzare o gestire le approvazioni da diverse aree di Workfront. Per informazioni su come gestire le approvazioni in varie aree, consulta [Approvazione del lavoro](../../review-and-approve-work/manage-approvals/approving-work.md).
+Puoi visualizzare o gestire le approvazioni da diverse aree di Workfront. Per informazioni su come gestire le approvazioni in varie aree, vedere [Approvazione del lavoro](../../review-and-approve-work/manage-approvals/approving-work.md).
 
 Puoi visualizzare o gestire le approvazioni dalle seguenti aree:
 
 * Nell’area Home
 
    * Tutti i progetti, le attività, i problemi, le schede orario, i documenti e l’accesso in attesa della tua approvazione vengono visualizzati nell’area Home quando scegli di visualizzare Tutti o Approvazioni.
-   * Le approvazioni che hai inviato a te stesso vengono visualizzate anche nell’area Home, nella sezione Approvazioni inviate della sezione Elenco lavori. Per ulteriori informazioni, vedere [Rivedi il lavoro che invii per l&#39;approvazione nell&#39;area Home](#review-work-you-submit-for-approval-in-the-home-area) in questo articolo.
+   * Le approvazioni che hai inviato a te stesso vengono visualizzate anche nell’area Home, nella sezione Approvazioni inviate della sezione Elenco lavori. Per ulteriori informazioni, vedere la sezione [Rivedi il lavoro inviato per l&#39;approvazione nell&#39;area Home](#review-work-you-submit-for-approval-in-the-home-area) in questo articolo.
    * Le approvazioni vengono rimosse dall&#39;area Home quando il progetto, l&#39;attività o il problema associato è contrassegnato come Risolto, In sospeso, Chiuso o Annullato.
 
-  Per informazioni sull’utilizzo di Home, consulta [Introduzione alla Home](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+  Per informazioni sull&#39;utilizzo della Home, vedere [Introduzione alla Home](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 * Nell’intestazione di un progetto, attività, problema, documento o bozza
 * Nella sezione Approvazioni di un progetto, attività o problema
@@ -74,21 +74,21 @@ Puoi visualizzare o gestire le approvazioni dalle seguenti aree:
 
   È possibile creare un report di approvazione di progetti, attività, problemi o documenti contenente informazioni sull&#39;approvazione.
 
-  Per informazioni sulla creazione di rapporti, consulta [Creare un rapporto personalizzato](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Per informazioni sulla creazione di report, vedere [Creare un report personalizzato](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Rivedi il lavoro che invii per l&#39;approvazione nell&#39;area Home {#review-work-you-submit-for-approval-in-the-home-area}
 
-1. Fai clic su **Home** icona ![](assets/home-icon-30x29.png) nell’angolo in alto a sinistra di Adobe Workfront.
+1. Fai clic sull&#39;icona **Home** ![](assets/home-icon-30x29.png) nell&#39;angolo superiore sinistro di Adobe Workfront.
 
    >[!NOTE]
    >
    >L’amministratore di Workfront potrebbe apportare le seguenti modifiche all’icona Home nel tuo ambiente:
    >
    >* Sostituiscilo con un’immagine personalizzata per illustrare la tua organizzazione. In questo caso, l’icona avrà un aspetto diverso da quello mostrato in questo articolo.
-   >* Sostituisci la pagina collegata con un’altra pagina. In questo caso, fai clic su **Menu principale** ![](assets/main-menu-icon.png) nell’angolo superiore destro della pagina, quindi fai clic su **Home**.
+   >* Sostituisci la pagina collegata con un’altra pagina. In questo caso, fai clic sul **menu principale** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro della pagina, quindi fai clic su **Home**.
 
-1. Seleziona **Elenco lavori**, quindi fare clic su **Filtro** menu a discesa e selezionare **Approvazioni**.
-1. Espandi **Approvazioni che ho inviato** e individuare le approvazioni inviate.
+1. Seleziona **Elenco lavori**, quindi fai clic sul menu a discesa **Filtra** e seleziona **Approvazioni**.
+1. Espandi la sezione **Approvazioni inviate** e individua le approvazioni inviate.
 
    ![](assets/approvals-submitted-section-in-home-nwe-350x401.png)
 
@@ -102,7 +102,7 @@ Puoi visualizzare o gestire le approvazioni dalle seguenti aree:
  <tbody> 
   <tr> 
    <td role="rowheader">Aggiornamenti </td> 
-   <td> <p>Visualizza tutti gli stati di approvazione quando si verificano. Gli stati di approvazione vengono visualizzati in linea con gli altri stati visualizzati nella <strong>Aggiornamenti</strong> sezione.</p> </td> 
+   <td> <p>Visualizza tutti gli stati di approvazione quando si verificano. Gli stati di approvazione vengono visualizzati in linea con gli altri stati visualizzati nella sezione <strong>Aggiornamenti</strong>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Approvazioni</td> 
@@ -116,7 +116,7 @@ Puoi visualizzare o gestire le approvazioni dalle seguenti aree:
 
 ### Utilizzare l&#39;area Aggiornamenti per visualizzare uno stato di approvazione {#use-the-updates-area-to-view-an-approval-status}
 
-Quando viene avviata un’approvazione su un progetto, un’attività o un problema, nella viene visualizzato uno stato **Aggiornamenti** dell&#39;oggetto, che indica lo stato di approvazione. Un nuovo stato viene visualizzato ogni volta che l&#39;oggetto passa attraverso il processo di approvazione. Sono inclusi i seguenti eventi:
+Quando viene avviata un&#39;approvazione su un progetto, un&#39;attività o un problema, nella scheda **Aggiornamenti** dell&#39;oggetto viene visualizzato uno stato che indica lo stato di approvazione. Un nuovo stato viene visualizzato ogni volta che l&#39;oggetto passa attraverso il processo di approvazione. Sono inclusi i seguenti eventi:
 
 * Viene avviato un processo di approvazione su un oggetto. Il processo di approvazione viene avviato quando lo stato viene modificato.
 * L&#39;oggetto viene rifiutato

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Quando crei un progetto in Adobe Workfront, l’utente viene automaticamente impostato come Proprietario del progetto. Puoi aggiornare questo campo con un altro utente. Puoi anche aggiornare il campo Sponsor progetto di un progetto.
 
-Per informazioni sui proprietari e gli sponsor dei progetti, vedi [Panoramica dei proprietari e degli sponsor dei progetti](../../../manage-work/projects/planning-a-project/project-owners-and-sponsors.md).
+Per informazioni sui proprietari e gli sponsor dei progetti, vedere [Panoramica sui proprietari e sugli sponsor dei progetti](../../../manage-work/projects/planning-a-project/project-owners-and-sponsors.md).
 
 >[!TIP]
 >
@@ -25,7 +25,7 @@ Per informazioni sui proprietari e gli sponsor dei progetti, vedi [Panoramica de
 >
 >Se il modello non dispone di un Proprietario, l’utente che crea il progetto dal modello diventa il Proprietario del progetto.
 >
->Per informazioni sulla modifica dei modelli, consulta [Modificare i modelli di progetto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+>Per informazioni sulla modifica dei modelli, vedere [Modifica modelli di progetto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 ## Requisiti di accesso
 
@@ -82,26 +82,26 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Modificare le autorizzazioni per un progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Modificare le autorizzazioni per un progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Aggiornare il proprietario di un progetto
 
 Quando aggiungi un utente come proprietario del progetto, Workfront assegna automaticamente le autorizzazioni necessarie per visualizzare il progetto.
 
 1. Vai al progetto che desideri aggiornare.
-1. Clic **Dettagli progetto** nel pannello a sinistra.
-1. Fai clic su **Modifica** icona ![](assets/qs-edit-icon.png) nell’angolo superiore destro dell’area Project Details (Dettagli progetto), fai clic su  **Panoramica**.
+1. Fai clic su **Dettagli progetto** nel pannello a sinistra.
+1. Fai clic sull&#39;icona **Modifica** ![](assets/qs-edit-icon.png) nell&#39;angolo superiore destro dell&#39;area Dettagli progetto, quindi fai clic su **Panoramica**.
 
-1. Specifica il nome di un utente per **Proprietario progetto** campo.
+1. Specifica il nome di un utente per il campo **Proprietario progetto**.
 
    Solo gli utenti attivi possono essere specificati come Proprietari del progetto.
 
-1. Clic  **Salva modifiche**.
+1. Fai clic su **Salva modifiche**.
 
    Il Proprietario del progetto viene aggiornato nell’intestazione del progetto e nell’area Dettagli progetto.
 
@@ -116,14 +116,14 @@ Quando aggiungi un utente come sponsor del progetto di un progetto, Workfront as
 >Se l&#39;utente aggiunto come sponsor del progetto è un amministratore di sistema, non viene aggiunto all&#39;elenco Condivisione del progetto.
 
 1. Vai al progetto che desideri aggiornare.
-1. Clic **Dettagli progetto** nel pannello a sinistra.
-1. Fai clic su **Modifica** icona ![](assets/qs-edit-icon.png) nell’angolo superiore destro dell’area Project Details (Dettagli progetto), fai clic su  **Panoramica**.
+1. Fai clic su **Dettagli progetto** nel pannello a sinistra.
+1. Fai clic sull&#39;icona **Modifica** ![](assets/qs-edit-icon.png) nell&#39;angolo superiore destro dell&#39;area Dettagli progetto, quindi fai clic su **Panoramica**.
 
-1. Specifica il nome di un utente per **Sponsor Progetto** campo.
+1. Specificare il nome di un utente per il campo **Sponsor progetto**.
 
    Solo gli utenti attivi possono essere specificati come sponsor del progetto.
 
-1. Clic  **Salva modifiche**.
+1. Fai clic su **Salva modifiche**.
 
    Lo sponsor del progetto viene aggiornato nella sezione Project Details (Dettagli progetto).
 

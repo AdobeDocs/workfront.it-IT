@@ -4,7 +4,7 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
-description: È possibile gestire i moduli personalizzati esistenti con Progettazione moduli.
+description: Puoi gestire i moduli personalizzati esistenti con il Designer modulo.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin

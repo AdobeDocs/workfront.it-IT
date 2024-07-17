@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Dopo aver creato un pacchetto, puoi installarlo in un ambiente diverso.
 
-È necessario installare un pacchetto nell&#39;ambiente in cui si desidera copiare gli oggetti **a**. Ad esempio, se configuri un progetto nell’ambiente Sandbox di aggiornamento personalizzato e lo promuovi nell’ambiente di produzione, devi installare il pacchetto nell’ambiente di produzione.
+È necessario installare un pacchetto nell&#39;ambiente in cui si desidera copiare gli oggetti da **a**. Ad esempio, se configuri un progetto nell’ambiente Sandbox di aggiornamento personalizzato e lo promuovi nell’ambiente di produzione, devi installare il pacchetto nell’ambiente di produzione.
 
 >[!IMPORTANT]
 >
@@ -47,7 +47,7 @@ Devi avere i seguenti:
    <tr>
    <td>Configurazioni del livello di accesso
    </td>
-   <td>Devi essere un [!DNL Workfront] amministratore.
+   <td>Devi essere un amministratore [!DNL Workfront].
    </td>
   </tr>
 </table>
@@ -58,7 +58,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 È necessario creare un pacchetto di promozione dell’ambiente prima di installarlo.
 
-Per istruzioni, consulta [Creare o modificare un pacchetto di promozione dell’ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md).
+Per istruzioni, vedere [Creare o modificare un pacchetto di promozione dell&#39;ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md).
 
 ## Stato del pacchetto per l&#39;installazione
 
@@ -68,29 +68,29 @@ Per testare il pacchetto, è consigliabile spostarlo sullo stato TEST e installa
 
 Per modificare lo stato di un pacchetto:
 
-1. Seleziona il pacchetto come descritto in  [Modificare o assemblare un pacchetto esistente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md#create-or-edit-an-environment-promotion-package) nell’articolo Creare e modificare pacchetti di promozione dell’ambiente.
-1. Clic **Modifica pacchetto**.
-1. Clic **Stato**.
+1. Selezionare il pacchetto come descritto in [Modificare o assemblare un pacchetto esistente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md#create-or-edit-an-environment-promotion-package) nell&#39;articolo Creare e modificare pacchetti di promozione dell&#39;ambiente.
+1. Fare clic su **Modifica pacchetto**.
+1. Fai clic su **Stato**.
 1. Seleziona lo stato desiderato dal menu a discesa.
 
-Per ulteriori informazioni sugli stati, consulta [Stati di promozione dell’ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) nell&#39;articolo Panoramica sullo spostamento di oggetti tra ambienti Workfront.
+Per ulteriori informazioni sugli stati, vedere [Stati di promozione dell&#39;ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) nell&#39;articolo Panoramica sullo spostamento di oggetti tra ambienti Workfront.
 
 ## Installare un pacchetto
 
 >[!NOTE]
 >
->* Per installare un pacchetto, devi aver effettuato l’accesso all’ambiente in cui desideri installare il pacchetto. Ambiente in cui si stanno copiando gli oggetti **a**.
+>* Per installare un pacchetto, devi aver effettuato l’accesso all’ambiente in cui desideri installare il pacchetto. Questo è l&#39;ambiente in cui si stanno copiando gli oggetti da **a**.
 
 1. Passa all’ambiente in cui desideri installare il pacchetto.
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **[!UICONTROL Configurazione]** ![Icona Configurazione](/help/_includes/assets/gear-icon-setup.png).
-1. Seleziona **Sistema** nel menu di navigazione a sinistra, seleziona quindi **Promozione dell&#39;ambiente**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic sull&#39;icona **[!UICONTROL Setup]** ![Setup](/help/_includes/assets/gear-icon-setup.png).
+1. Seleziona **Sistema** nell&#39;area di navigazione a sinistra, quindi seleziona **Promozione ambiente**.
 1. Seleziona il pacchetto dall’elenco visualizzato.
 1. Per ogni oggetto che presenta una collisione, selezionare la modalità di risoluzione della collisione.
 
    Per risolvere una collisione, fare clic sulla freccia a discesa accanto al tipo di oggetto e selezionare l&#39;azione che si desidera eseguire.
 
-   Per ulteriori informazioni, consulta [Conflitti](#collisions) in questo articolo
-1. Per distribuire il pacchetto nel nuovo ambiente, fai clic su **Distribuisci** in alto a destra.
+   Per ulteriori informazioni, vedi [Conflitti](#collisions) in questo articolo
+1. Per distribuire il pacchetto nel nuovo ambiente, fare clic su **Distribuisci** in alto a destra.
 
 ## Conflitti
 
@@ -106,18 +106,18 @@ Quando si verifica una collisione, è possibile selezionare la modalità di riso
 
 Per risolvere un conflitto, selezionare un&#39;azione nella colonna Azione di distribuzione oppure utilizzare l&#39;azione predefinita già visualizzata.
 
-* **Crea con nuovo nome**: crea un nuovo oggetto nell’ambiente di destinazione. Se l&#39;oggetto esiste nell&#39;ambiente di destinazione, è possibile creare un nuovo oggetto con un nuovo nome. Se non esiste nell&#39;ambiente di destinazione, è possibile creare l&#39;oggetto con un nuovo nome o con il nome che l&#39;oggetto ha nel pacchetto.
-* **Usa esistente**: l’oggetto nel pacchetto non è installato e l’oggetto già esistente nell’ambiente di destinazione rimane invariato.
-* **Sovrascrivere**: l’oggetto nel pacchetto sostituisce l’oggetto esistente nell’ambiente di destinazione.
+* **Crea con nuovo nome**: crea un nuovo oggetto nell&#39;ambiente di destinazione. Se l&#39;oggetto esiste nell&#39;ambiente di destinazione, è possibile creare un nuovo oggetto con un nuovo nome. Se non esiste nell&#39;ambiente di destinazione, è possibile creare l&#39;oggetto con un nuovo nome o con il nome che l&#39;oggetto ha nel pacchetto.
+* **Usa esistente**: l&#39;oggetto nel pacchetto non è installato e l&#39;oggetto già esistente nell&#39;ambiente di destinazione non è stato modificato.
+* **Sovrascrivi**: l&#39;oggetto nel pacchetto sostituisce l&#39;oggetto esistente nell&#39;ambiente di destinazione.
 
   È inoltre possibile scegliere gli oggetti da sovrascrivere anche se non viene rilevata una collisione.
 
-  Per informazioni dettagliate su come la sovrascrittura influisce sugli oggetti padre e figlio, vedere [Sovrascrittura di oggetti padre e figlio](#overwriting-parent-and-child-objects) in questo articolo.
+  Per informazioni dettagliate su come la sovrascrittura influisce sugli oggetti padre e figlio, vedere [Sovrascrittura degli oggetti padre e figlio](#overwriting-parent-and-child-objects) in questo articolo.
 <!--
 * Do not use: The object in the package is not installed in the target environment. If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
 -->
 
-I valori predefiniti sono `Create new` se l’oggetto non esiste nell’ambiente di destinazione, e `Use existing` se l’oggetto esiste nell’ambiente di destinazione. Per ripristinare la mappatura predefinita, fai clic su **Ripristina mappatura predefinita**.
+I valori predefiniti sono `Create new` se l&#39;oggetto non esiste nell&#39;ambiente di destinazione e `Use existing` se l&#39;oggetto esiste nell&#39;ambiente di destinazione. Per ripristinare il mapping predefinito, fare clic su **Ripristina mapping predefinito**.
 
 ## Sovrascrittura di oggetti padre e figlio
 
@@ -131,9 +131,9 @@ Questa funzionalità ha effetto sui seguenti oggetti padre e figlio:
 
 | Oggetto padre | Oggetti secondari |
 |---|---|
-| Progetto | Attività<br>QueueDef (definizione coda)<br>RoutingRule |
+| Progetto | Task<br>QueueDef (definizione coda)<br>RoutingRule |
 | Modello | TemplateTask<br>QueueDef (definizione coda)<br>RoutingRule |
 | Parametro (campo modulo personalizzato) | ParameterOption (opzione campo modulo personalizzato) |
 | InformazioniCalendario | CalendarSection |
-| QueueDef (definizione coda) | GruppoArgomentiCoda<br>Argomento coda |
+| QueueDef (definizione coda) | QueueTopicGroup<br>ArgomentoCoda |
 

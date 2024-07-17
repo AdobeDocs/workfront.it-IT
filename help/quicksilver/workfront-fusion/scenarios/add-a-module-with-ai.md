@@ -8,7 +8,8 @@ author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
-source-git-commit: cb2dba1c74f1d33be0bb21a7e1cdd176a3577bb2
+exl-id: 899641a0-a104-4be9-b423-34a32e985b53
+source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 1%
@@ -51,14 +52,14 @@ Fusion AI può attualmente generare moduli che si connettono alle seguenti appli
 
 ## Generare un modulo
 
-1. Aggiungi un modulo e seleziona **Genera con IA** dall’elenco delle applicazioni.
+1. Aggiungi un modulo e seleziona **Genera con IA** dall&#39;elenco delle applicazioni.
 
    Oppure
 
-   Fai clic con il pulsante destro del mouse su un’area vuota dell’editor di scenari, quindi seleziona **Genera con IA**.
+   Fai clic con il pulsante destro del mouse su un&#39;area vuota dell&#39;editor di scenari, quindi seleziona **Genera con IA**.
 1. Immettere un prompt di testo nella casella.
 
-   Per suggerimenti sulle richieste, consulta [Suggerimenti per la creazione di prompt di testo](#tips-for-creating-text-prompts) in questo articolo.
+   Per suggerimenti sui prompt, vedere [Suggerimenti per la creazione di prompt di testo](#tips-for-creating-text-prompts) in questo articolo.
 1. Aggiungi il token API per l’applicazione al modulo.
 1. Controlla il modulo per assicurarti che sembri configurato per l’applicazione e l’azione appropriate.
 1. (Condizionale) Se il modulo non è allegato allo scenario, trascinalo nella posizione desiderata.
@@ -89,6 +90,3 @@ Durante la creazione di prompt di testo, tenete presente quanto segue:
 * Poiché ogni modulo di Fusion esegue una singola azione, il prompt di testo deve descrivere un&#39;azione specifica.
 * Utilizza un linguaggio semplice e diretto.
 * Verifica e verifica il modulo. Se non funziona come previsto, perfeziona la richiesta e riprova.
-
-
-

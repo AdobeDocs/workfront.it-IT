@@ -43,7 +43,7 @@ I livelli di accesso predefiniti sono:
 * Richiedente (allegato alla licenza Richiesta)
 * Utente esterno (allegato alla licenza e-mail esterna)
 
-La licenza Workfront per ogni livello di accesso predefinito determina ciò che è disponibile e configurabile nel livello di accesso. Per informazioni sulle licenze Workfront, consulta [Panoramica sulle licenze di Adobe Workfront](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+La licenza Workfront per ogni livello di accesso predefinito determina ciò che è disponibile e configurabile nel livello di accesso. Per informazioni sulle licenze Workfront, vedere [Panoramica sulle licenze Adobe Workfront](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
 Per gli utenti che sono assegnati a esso, un livello di accesso definisce cosa possono vedere e cosa fare con i seguenti tipi di oggetti e aree in Workfront:
 
@@ -67,26 +67,26 @@ In un livello di accesso personalizzato, è possibile configurare le impostazion
 >
 >È consigliabile lasciare invariati i livelli di accesso incorporati in modo da potervi fare riferimento dopo aver configurato gli utenti. Per personalizzare un livello di accesso, copiare il livello di accesso predefinito e modificare la copia. Questa operazione può essere eseguita per ogni livello di accesso, ad eccezione di Amministratore di sistema e Utente esterno.
 
-Per una spiegazione dettagliata di ciascuno dei livelli di accesso predefiniti, vedi [Livelli di accesso incorporati](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
+Per una spiegazione dettagliata di ciascuno dei livelli di accesso predefiniti, vedere [Livelli di accesso incorporati](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
 
-Per istruzioni sull’assegnazione di un livello di accesso a un utente, consulta [Modificare il profilo di un utente](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Per istruzioni sull&#39;assegnazione di un livello di accesso a un utente, vedere [Modificare il profilo di un utente](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ## Autorizzazioni
 
 Quando si condivide un oggetto con un utente del sistema, l&#39;utente può concedere al destinatario le seguenti autorizzazioni.
 
-* **Visualizza**: questo livello di autorizzazione consente al destinatario di condividere l’oggetto in uno dei seguenti modi:
+* **Visualizzazione**: questo livello di autorizzazione consente al destinatario di condividere l&#39;oggetto in uno dei modi seguenti:
 
    * A livello di sistema, in modo che tutti gli utenti possano visualizzarlo (non disponibile per tutti gli oggetti)
    * Con utenti esterni che non dispongono di una licenza Workfront (non disponibile per tutti gli oggetti)
    * Con un indirizzo e-mail (disponibile solo per i documenti)
 
-* **Contribuisci**: (non disponibile per tutti gli oggetti)
-* **Gestisci**: quando qualcuno condivide un oggetto, i diritti del destinatario sull’oggetto sono determinati da una combinazione del livello di accesso del destinatario e delle autorizzazioni per l’oggetto concesse dal condivisore. Il livello di accesso più basso disponibile in tale combinazione è quello che determina il comportamento del destinatario con l’oggetto.
+* **Contribute**: (non disponibile per tutti gli oggetti)
+* **Gestisci**: quando qualcuno condivide un oggetto, i diritti del destinatario sull&#39;oggetto sono determinati da una combinazione del livello di accesso del destinatario e delle autorizzazioni per l&#39;oggetto concesse dal condivisore. Il livello di accesso più basso disponibile in tale combinazione è quello che determina il comportamento del destinatario con l’oggetto.
 
   >[!INFO]
   >
-  >**Esempio:** Se il livello di accesso del destinatario non consente la modifica del progetto, l’utente non può modificare o eliminare un progetto anche se il condivisore ha concesso le autorizzazioni per gestirlo.
+  >**Esempio:** se il livello di accesso del destinatario non consente la modifica del progetto, l&#39;utente non può modificare o eliminare un progetto anche se il condivisore ha concesso le autorizzazioni per gestirlo.
   >
   >In alternativa, se il livello di accesso del destinatario consente la modifica del progetto, ma il condivisore concede autorizzazioni di sola visualizzazione a un progetto, l’utente non può modificare o eliminare il progetto.
 

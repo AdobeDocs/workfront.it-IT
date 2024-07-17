@@ -1,6 +1,6 @@
 ---
-title: Attività di rilascio di Workfront Fusion:&nbsp;Settimana del 3 gennaio 2022
-description: Attività di rilascio di Workfront Fusion:&nbsp;Settimana del 3 gennaio 2022
+title: Attività del rilascio di Workfront Fusion:&nbsp;Settimana del 3 gennaio 2022
+description: Attività del rilascio di Workfront Fusion:&nbsp;Settimana del 3 gennaio 2022
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti apportati ad Adobe Workfront Fusion la settimana del 3 gennaio 2022.
 
-Per un elenco di tutte le modifiche recenti, vedi [Attività di rilascio di Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Per un elenco di tutte le modifiche recenti, vedere [Attività di Adobe Workfront Fusion release](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedi [Aggiornamenti di manutenzione per Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
+Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedere la pagina [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
 
 ## Moduli Frame.io ora disponibili in Workfront Fusion
 
@@ -33,4 +33,4 @@ Con il connettore Frame.io è possibile:
 * Elencare progetti per un team specificato.
 * Effettuare una chiamata API personalizzata.
 
-Per ulteriori informazioni, consulta [Moduli Frame.io](../../../workfront-fusion/apps-and-their-modules/frame-io-modules.md).
+Per ulteriori informazioni, vedere [Moduli Frame.io](../../../workfront-fusion/apps-and-their-modules/frame-io-modules.md).

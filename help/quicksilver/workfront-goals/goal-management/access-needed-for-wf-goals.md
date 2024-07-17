@@ -21,15 +21,15 @@ Prima di poter accedere agli obiettivi di Adobe Workfront Adobe Workfront, l’a
 <!--drafted for P&P - replace the first bullet with this one when licensing changes: 
 * Your company must purchase the correct Adobe Worfront plan or Adobe Workfront Goal license. For information, see the section [Obtain Workfront Goals organization access](#obtain-workfront-goals-organization-access)in this article.-->
 
-* La tua organizzazione deve acquistare la licenza corretta per gli obiettivi Workfront. Per informazioni, consulta la sezione [Ottenere l’accesso all’organizzazione Workfront Goals](#obtain-workfront-goals-organization-access) in questo articolo.
+* La tua organizzazione deve acquistare la licenza corretta per gli obiettivi Workfront. Per informazioni, vedere la sezione [Ottenere l&#39;accesso all&#39;organizzazione per gli obiettivi di Workfront](#obtain-workfront-goals-organization-access) in questo articolo.
 
-* Assegnare il tipo corretto di licenza Workfront. Per informazioni sull’assegnazione dei tipi di licenza e dei livelli di accesso, consulta la sezione [Aggiornare i tipi di licenza e le impostazioni del livello di accesso](#update-license-types-and-access-level-settings) in questo articolo.
+* Assegnare il tipo corretto di licenza Workfront. Per informazioni sull&#39;assegnazione dei tipi di licenza e dei livelli di accesso, vedere la sezione [Aggiornare i tipi di licenza e le impostazioni dei livelli di accesso](#update-license-types-and-access-level-settings) in questo articolo.
 
 >[!NOTE]
 >
 >Gli utenti con un tipo di licenza External non possono accedere agli obiettivi di Workfront.
 
-* Ti consente di accedere agli Obiettivi nel tuo livello di accesso. Per informazioni, consulta [Concedere l’accesso agli obiettivi di Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
+* Ti consente di accedere agli Obiettivi nel tuo livello di accesso. Per informazioni, consulta [Concedere l&#39;accesso agli obiettivi di Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
 
 * Assegnate un modello di layout che includa l&#39;area Obiettivi nel menu principale.
 
@@ -37,11 +37,11 @@ Prima di poter accedere agli obiettivi di Adobe Workfront Adobe Workfront, l’a
   >
   >A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l’area Obiettivi nel menu principale.
 
-  Per informazioni consulta la sezione [Aggiungere obiettivi Workfront a un modello di layout](#add-workfront-goals-to-a-layout-template) in questo articolo.
+  Per informazioni, vedere la sezione [Aggiungere obiettivi Workfront a un modello di layout](#add-workfront-goals-to-a-layout-template) in questo articolo.
 
 * Se devi modificare obiettivi che non hai creato personalmente, il creatore dell’obiettivo deve condividerli con te e concederti le autorizzazioni di gestione.
 
-  Per informazioni, consulta la sezione [Condividere singoli obiettivi con altri utenti](#share-individual-goals-with-other-users) in questo articolo.
+  Per informazioni, vedere la sezione [Condividere singoli obiettivi con altri utenti](#share-individual-goals-with-other-users) in questo articolo.
 
 ## Ottenere l’accesso all’organizzazione Workfront Goals {#obtain-workfront-goals-organization-access}
 
@@ -57,7 +57,7 @@ A seconda del piano Workfront su cui si trova attualmente la società, esistono 
 
   Dopo che la tua organizzazione ha acquistato la licenza aggiuntiva, Workfront abilita Workfront Goals per il tuo account. Per informazioni sull&#39;acquisto di una licenza per Workfront Goals, contattare l&#39;account manager Workfront.
 
-Per informazioni sui requisiti di accesso a Workfront, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Aggiornare i tipi di licenza e le impostazioni del livello di accesso  {#update-license-types-and-access-level-settings}
 
@@ -76,7 +76,7 @@ A seconda del piano Workfront su cui si trova attualmente la società, esistono 
    * Revisiona
    * Richiesta
 
-Dopo che l’amministratore di Workfront ti ha concesso uno di questi tipi di licenza, devi anche darti accesso agli Obiettivi nel tuo livello di accesso. Per informazioni sull’accesso agli obiettivi, consulta [Concedere l’accesso agli obiettivi di Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+Dopo che l’amministratore di Workfront ti ha concesso uno di questi tipi di licenza, devi anche darti accesso agli Obiettivi nel tuo livello di accesso. Per informazioni sull&#39;accesso agli obiettivi, vedere [Concedere l&#39;accesso agli obiettivi di Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 In qualità di amministratore di Workfront, puoi rivedere il numero di licenze Workfront Goals nel tuo sistema e capire quante sono attualmente abilitate. Per ulteriori informazioni, consulta [Gestire le licenze disponibili nel sistema](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
@@ -109,4 +109,4 @@ Per impostazione predefinita, tutti gli utenti che hanno almeno accesso in visua
 
 Qualsiasi utente con l’accesso di modifica agli obiettivi può creare gli obiettivi e ottenere automaticamente l’accesso di gestione agli obiettivi creati. Se devono modificare gli obiettivi di altri utenti, qualcuno con le autorizzazioni di gestione per tali obiettivi deve condividere con loro gli obiettivi che non ha creato.
 
-Per informazioni sulla condivisione degli obiettivi con gli utenti e sull’assegnazione delle relative autorizzazioni di gestione, consulta [Condividere un obiettivo in Obiettivi di Workfront](../../workfront-goals/workfront-goals-settings/share-a-goal.md).
+Per informazioni sulla condivisione degli obiettivi con gli utenti e sull&#39;assegnazione delle relative autorizzazioni di gestione, vedere [Condividere un obiettivo in Obiettivi di Workfront](../../workfront-goals/workfront-goals-settings/share-a-goal.md).

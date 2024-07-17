@@ -20,7 +20,7 @@ ht-degree: 0%
 
 È possibile utilizzare l’interfaccia in modalità testo per creare visualizzazioni, filtri, raggruppamenti e prompt personalizzati più complessi in elenchi e rapporti. La modalità testo consente di accedere ai campi e ai relativi attributi non disponibili nell&#39;interfaccia della modalità standard.
 
-Per informazioni e considerazioni sulla modalità testo prima di iniziare, consulta [Panoramica sulla modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Per informazioni e considerazioni sulla modalità testo prima di iniziare, vedere [Panoramica sulla modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 Per un elenco completo di tutti i campi da segnalare e dei relativi attributi, vedere [API Explorer](../../../wf-api/general/api-explorer.md).
 
@@ -56,7 +56,7 @@ Di seguito sono riportate le linee guida comuni per la creazione di elementi di 
 
   Per informazioni sulla gerarchia degli oggetti in Workfront, vedi:
 
-   * [Comprendere gli oggetti in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
+   * [Informazioni sugli oggetti in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
    * [API Explorer](../../../wf-api/general/api-explorer.md)
 
 * Se possibile, utilizza i caratteri jolly per rendere più dinamici i rapporti e gli elenchi ed evitare di duplicarli per utenti diversi e con timeline simili.
@@ -77,7 +77,7 @@ Le caratteristiche del corpo del cammello sono:
 * Le parole seguenti iniziano sempre con una lettera maiuscola.
 * Non ci sono spazi tra le parole.
 
-**Esempio:** Per fare riferimento alla Data di completamento effettiva di un progetto, il nome del campo che si utilizzerebbe durante la creazione di elementi di reporting in modalità testo è
+**Esempio:** Per fare riferimento alla data di completamento effettiva di un progetto, il nome del campo da utilizzare per la creazione di elementi di reporting in modalità testo è
 
 `actualCompletionDate`
 
@@ -89,14 +89,14 @@ Esistono le seguenti somiglianze tra la sintassi dei set di elementi di reportin
 
   Per informazioni sulle righe chiave dei codici per le visualizzazioni e i raggruppamenti durante la creazione in modalità testo, vedere:
 
-   * [Modificare una vista utilizzando la modalità testo](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+   * [Modificare una visualizzazione utilizzando la modalità testo](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
    * [Modifica modalità testo in un raggruppamento](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
 * Le righe di codice e la sintassi sono simili per i filtri e i prompt personalizzati.
 
   Per ulteriori informazioni, consulta:
 
-   * [Modificare un filtro utilizzando la modalità testo](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
+   * [Modifica un filtro in modalità testo](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
    * [Aggiungere una richiesta a un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 
 ### Sintassi per visualizzazioni e raggruppamenti
@@ -108,7 +108,7 @@ Per informazioni sulla creazione di viste e raggruppamenti, vedere gli articoli 
 * [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
-La riga di codice più importante per una visualizzazione o un raggruppamento è la riga che identifica l&#39;oggetto a cui si fa riferimento nella colonna della visualizzazione o nel raggruppamento. Questa riga di codice può iniziare con `valuefield` o `valueexpression` a seconda che si tratti di un riferimento diretto a un campo di un database Workfront o di un calcolo tra più campi.
+La riga di codice più importante per una visualizzazione o un raggruppamento è la riga che identifica l&#39;oggetto a cui si fa riferimento nella colonna della visualizzazione o nel raggruppamento. Questa riga di codice può iniziare con `valuefield` o `valueexpression` a seconda che il campo sia un riferimento diretto a un campo del database di Workfront o un calcolo tra più campi.
 
 Nella tabella seguente sono elencate le righe di codice più comuni in una visualizzazione o in un raggruppamento:
 
@@ -134,20 +134,20 @@ Nella tabella seguente sono elencate le righe di codice più comuni in una visua
 >
 >  `column.0.valuefield=name`
 >  
->  Per informazioni sulla condivisione delle colonne, vedere [Vista: unire le informazioni provenienti da più colonne in una colonna condivisa](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+>  Per informazioni sulla condivisione delle colonne, vedere [Visualizzazione: unire le informazioni di più colonne in una colonna condivisa](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 >
 
-#### `Valuefield` panoramica della sintassi per visualizzazioni e raggruppamenti
+#### Panoramica della sintassi `Valuefield` per visualizzazioni e raggruppamenti
 
 `Valuefield=` è una riga di codice chiave nelle visualizzazioni e nei raggruppamenti che identifica l&#39;oggetto a cui si fa direttamente riferimento.
 
 La sintassi per i campi che fanno direttamente riferimento a è identica per raggruppamenti e viste.
 
-Le seguenti regole si applicano quando si fa riferimento a oggetti Workfront utilizzando un `valuefield` riga:
+Le regole seguenti si applicano quando si fa riferimento a oggetti Workfront utilizzando una riga `valuefield`:
 
 * Utilizza Camel Case per fare riferimento direttamente ai campi.
 
-  **Esempio:** Per fare riferimento alla data di completamento effettiva dell&#39;attività in una visualizzazione dell&#39;attività, utilizzare la riga seguente:
+  **Esempio:** Per fare riferimento alla data di completamento effettiva dell&#39;attività in una visualizzazione delle attività, utilizzare la riga seguente:
 
   `valuefield=actualCompletionDate`
 
@@ -165,23 +165,23 @@ Le seguenti regole si applicano quando si fa riferimento a oggetti Workfront uti
 
   `valuefield=project:Additional Details`
 
-#### `Valueexpression` panoramica della sintassi per visualizzazioni e raggruppamenti
+#### Panoramica della sintassi `Valueexpression` per visualizzazioni e raggruppamenti
 
-È possibile sostituire il `valuefield=` riga di codice con `valueexpression=` quando si creano visualizzazioni e raggruppamenti in modalità testo quando si desidera fare riferimento a un calcolo tra 2 o più campi.
+È possibile sostituire la riga di codice `valuefield=` con `valueexpression=` durante la creazione di visualizzazioni e raggruppamenti in modalità testo quando si desidera fare riferimento a un calcolo tra 2 o più campi.
 
 >[!TIP]
 >
 >Sebbene sia possibile creare campi calcolati che è possibile visualizzare nei rapporti, le visualizzazioni e i raggruppamenti calcolati sono più dinamici. Le visualizzazioni e i raggruppamenti calcolati vengono aggiornati con nuove informazioni ogni volta che si esegue il report o si visualizza un elenco.
 >
->Per informazioni sulla creazione di colonne calcolate in una visualizzazione, vedere [Campi personalizzati calcolati e colonne calcolate](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
+>Per informazioni sulla creazione di colonne calcolate in una visualizzazione, vedere [Confronto tra campi personalizzati calcolati e colonne calcolate](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
 
 La creazione di un raggruppamento calcolato è simile alla creazione di una colonna calcolata in una visualizzazione.
 
-Le seguenti regole si applicano quando si fa riferimento a oggetti Workfront utilizzando un `valueexpression` riga:
+Le regole seguenti si applicano quando si fa riferimento a oggetti Workfront utilizzando una riga `valueexpression`:
 
 * Utilizza Camel Case per fare riferimento direttamente ai campi e racchiudere ogni campo tra parentesi graffe.
 
-  **Esempio:** Per visualizzare il campo Nome attività in una colonna di attività tramite `valueexpression`, utilizza la riga seguente:
+  **Esempio:** Per visualizzare il campo Nome attività in una colonna dell&#39;attività utilizzando `valueexpression`, utilizzare la riga seguente:
 
   `valueexpression={name}`
 
@@ -211,39 +211,39 @@ Le seguenti regole si applicano quando si fa riferimento a oggetti Workfront uti
 
   `valueexpression={project}.{DE:Additional Details}`
 
-* È possibile utilizzare un carattere jolly in un `valueexpression` ma non in un `valuefield` linea.
+* È possibile utilizzare un carattere jolly in una `valueexpression` ma non in una riga `valuefield`.
 
-  Per informazioni sui caratteri jolly, vedere [Panoramica delle variabili filtro con caratteri jolly](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+  Per informazioni sui caratteri jolly, vedere [Panoramica delle variabili di filtro con caratteri jolly](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 
-#### `Valueformat` panoramica su visualizzazioni e raggruppamenti
+#### `Valueformat` panoramica per visualizzazioni e raggruppamenti
 
-La seconda riga di codice più importante in una visualizzazione o in un raggruppamento è `valueformat=` linea. Questo indica a Workfront in quale formato restituire il valore specificato nel `valuefield` o `valueexpression` linee. Anche se è possibile utilizzare vari formati per `valueformat` linee, si consiglia di utilizzare sempre il seguente valore quando si utilizza `valueexpression`:
+La seconda riga di codice più importante in una visualizzazione o in un raggruppamento è `valueformat=`. Questo indica a Workfront in quale formato restituire il valore specificato nelle righe `valuefield` o `valueexpression`. Sebbene sia possibile utilizzare vari formati per le righe `valueformat`, si consiglia di utilizzare sempre il seguente valore quando si utilizza `valueexpression`:
 
 `valueformat=HTML`
 
-Per ulteriori `valueformat` , vedi anche i seguenti articoli:
+Per ulteriori valori `valueformat`, vedere anche i seguenti articoli:
 
 * [Formattare le date nei report in modalità testo](../../reports/text-mode/format-dates-in-text-mode-reports.md)
 * [Formattare numeri, valuta e valori percentuali nei report in modalità testo](../../reports/text-mode/format-numbers-in-text-mode-reports.md)
 
-#### `width` panoramica sulle visualizzazioni
+#### `width` panoramica per le visualizzazioni
 
 `width=` è la riga di codice in cui è possibile specificare la larghezza di ogni colonna in pixel. Workfront fornisce una larghezza consigliata per ogni campo, anche se a seconda del tipo di campo e del formato, potrebbe essere necessario apportare delle modifiche.
 
-È necessario utilizzare il pulsante aggiuntivo `usewidths=true` riga di codice per applicare la larghezza specificata per la colonna.
+Utilizzare la riga di codice `usewidths=true` aggiuntiva per applicare la larghezza specificata per la colonna.
 
-**Esempio:** Per visualizzare una colonna con una larghezza di 80 pixel, utilizzare le seguenti righe:
+**Esempio:** Per visualizzare una colonna con una larghezza di 80 pixel, utilizzare le righe seguenti:
 
 `width=80`
 
 `usewidths=true`
 
-#### `stretch` panoramica sulle visualizzazioni
+#### `stretch` panoramica per le visualizzazioni
 
-Il `stretch` viene utilizzato per identificare le colonne che occupano spazio aggiuntivo non necessario per la visualizzazione. La larghezza dell’interfaccia utente dell’area di lavoro per un utente tipico è di circa 850 pixel. Ciò significa che se disponi di una vista con quattro colonne (150 pixel ciascuna), la vista occupa 600 di 850 pixel. Nell’interfaccia utente sono presenti 250 pixel aggiuntivi che verranno aggiunti alle colonne per le quali è fornita una percentuale di estensione.
+`stretch` viene utilizzato per identificare quali colonne occupano spazio aggiuntivo non necessario per la visualizzazione. La larghezza dell’interfaccia utente dell’area di lavoro per un utente tipico è di circa 850 pixel. Ciò significa che se disponi di una vista con quattro colonne (150 pixel ciascuna), la vista occupa 600 di 850 pixel. Nell’interfaccia utente sono presenti 250 pixel aggiuntivi che verranno aggiunti alle colonne per le quali è fornita una percentuale di estensione.
 
-L&#39;estensione di una colonna viene applicata quando si utilizza la riga di codice aggiuntiva: `usewidths=true` per almeno una delle colonne della visualizzazione.
+L&#39;estensione di una colonna viene applicata quando si utilizza la riga di codice aggiuntiva `usewidths=true` per almeno una delle colonne della visualizzazione.
 
 **Esempio:** Per indicare che una colonna può utilizzare il 70% dello spazio vuoto in una visualizzazione, utilizzare le righe seguenti:
 
@@ -261,10 +261,10 @@ La sintassi per la creazione di filtri è simile a quella per la creazione di pr
 
 Per informazioni sulla creazione di filtri e prompt personalizzati, consulta:
 
-* [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [Panoramica filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Aggiungere una richiesta a un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 
-Per informazioni sulla creazione di filtri in modalità testo, consulta [Modificare un filtro utilizzando la modalità testo](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
+Per informazioni sulla creazione di filtri in modalità testo, vedere [Modificare un filtro utilizzando la modalità testo](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
 Per creare filtri e prompt personalizzati in modalità testo, puoi utilizzare i seguenti elementi:
 
@@ -287,4 +287,4 @@ Per creare filtri e prompt personalizzati in modalità testo, puoi utilizzare i 
      >
      >I connettori delle istruzioni fanno distinzione tra maiuscole e minuscole e sono sempre maiuscoli. &quot;AND&quot; può essere omesso in modalità testo.
 
-* Caratteri jolly per rendere i filtri più dinamici e personalizzarli per l&#39;ora corrente o per l&#39;utente che ha eseguito l&#39;accesso. Per informazioni sui caratteri jolly, vedere [Panoramica delle variabili filtro con caratteri jolly](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+* Caratteri jolly per rendere i filtri più dinamici e personalizzarli per l&#39;ora corrente o per l&#39;utente che ha eseguito l&#39;accesso. Per informazioni sui caratteri jolly, vedere [Panoramica delle variabili di filtro con caratteri jolly](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).

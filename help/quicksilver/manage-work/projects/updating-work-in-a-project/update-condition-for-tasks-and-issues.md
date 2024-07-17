@@ -15,9 +15,9 @@ ht-degree: 1%
 
 # Aggiorna condizione per attività e problemi
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti oppure nell’ambiente di produzione per i clienti che hanno abilitato le versioni rapide.</span>
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente di anteprima per tutti i clienti oppure nell&#39;ambiente di produzione per i clienti che hanno abilitato le versioni rapide.</span>
 
-<span class="preview">Per informazioni sulle versioni rapide, consulta [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">Per informazioni sulle versioni rapide, vedi [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 <span class="preview">Per informazioni sulla versione corrente, consulta [Panoramica sulla versione del terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
@@ -25,7 +25,7 @@ La condizione di un’attività o di un problema è un flag applicato a tale att
 
 È possibile impostare la condizione di un&#39;attività o di un problema in modo automatico o manuale.
 
-I valori di Condizione a cui si fa riferimento in questo articolo sono disponibili in Workfront per impostazione predefinita. L’amministratore di Adobe Workfront può creare condizioni personalizzate per l’ambiente, come descritto in [Creare o modificare una condizione personalizzata](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+I valori di Condizione a cui si fa riferimento in questo articolo sono disponibili in Workfront per impostazione predefinita. L&#39;amministratore di Adobe Workfront può creare condizioni personalizzate per l&#39;ambiente, come descritto in [Creare o modificare una condizione personalizzata](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
 ## Requisiti di accesso {#access-requirements}
 
@@ -78,11 +78,11 @@ Le condizioni vengono visualizzate come flag associato ad attività o problemi. 
 
 Puoi individuare la Condizione delle attività e dei problemi nelle seguenti aree di Workfront:
 
-* <span class="preview">La pagina Dettagli, dopo che è stata aggiunta da un amministratore di Workfront o di gruppo al modello di layout. Per informazioni, consulta [Personalizzare la visualizzazione Dettagli utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). </span>
+* <span class="preview">La pagina Dettagli, dopo che un amministratore di Workfront o di gruppo l&#39;ha aggiunta al modello di layout. Per informazioni, vedere [Personalizzare la visualizzazione Dettagli utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). </span>
 
-* <span class="preview">L’intestazione di un’attività o di un problema, dopo che un amministratore di Workfront o di un gruppo l’ha aggiunta al modello di layout. Per informazioni, consulta [Personalizzare le intestazioni degli oggetti utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
+* <span class="preview">Intestazione di un&#39;attività o di un problema, dopo che è stata aggiunta da un amministratore di Workfront o di un gruppo al modello di layout. Per informazioni, vedere [Personalizzare le intestazioni degli oggetti utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
 
-* Il pannello Riepilogo, dopo che un amministratore di Workfront o di gruppo lo ha aggiunto al modello di layout. Per informazioni, consulta [Personalizzare Home e Riepilogo utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+* Il pannello Riepilogo, dopo che un amministratore di Workfront o di gruppo lo ha aggiunto al modello di layout. Per informazioni, vedere [Personalizzare la home e il riepilogo utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 * Report ed elenchi quando si visualizza il campo Condizione in una visualizzazione o in un raggruppamento.
 
@@ -92,15 +92,15 @@ Puoi individuare la Condizione delle attività e dei problemi nelle seguenti are
 
 ## Aggiorna automaticamente la condizione aggiornando lo stato
 
-Quando ti viene assegnata un’attività o un problema e fai clic su **Lavoraci** , Avvia attività o Avvia problema, o aggiornarne lo stato, la Condizione dell’attività o del problema cambia automaticamente con la Condizione predefinita associata a **Senza problemi**.
+Quando ti viene assegnata un&#39;attività o un problema e fai clic su **Lavoraci** , Avvia attività o Avvia problema oppure aggiorna lo stato, la condizione dell&#39;attività o del problema cambia automaticamente alla condizione predefinita associata a **Non interrompersi**.
 
-Per informazioni sull&#39;utilizzo di una condizione personalizzata come condizione predefinita, vedere gli articoli  [Impostare una condizione personalizzata come predefinita per le attività e i problemi](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md) e [Impostare una condizione personalizzata come predefinita per i progetti](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md).
+Per informazioni sull&#39;utilizzo di una condizione personalizzata come condizione predefinita, vedere gli articoli [Impostare una condizione personalizzata come predefinita per attività e problemi](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md) e [Impostare una condizione personalizzata come predefinita per i progetti](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md).
 
-Per informazioni sulla modifica dello stato dell&#39;attività, vedere [Aggiorna stato attività](../../../manage-work/projects/updating-work-in-a-project/update-task-status.md).
+Per informazioni sulla modifica dello stato dell&#39;attività, vedere [Aggiornare lo stato dell&#39;attività](../../../manage-work/projects/updating-work-in-a-project/update-task-status.md).
 
 Per informazioni sulla modifica dello stato del problema, vedere [Aggiorna stato problema](../../../manage-work/projects/updating-work-in-a-project/update-issue-status.md).
 
-Per informazioni sull&#39;impostazione del pulsante Lavoraci su un pulsante Avvia attività o Avvia problema, vedere [Sostituire il pulsante Lavoraci con un pulsante Start](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
+Per informazioni sull&#39;impostazione del pulsante Lavoraci su un pulsante Avvia attività o Avvia problema, vedere [Sostituire il pulsante Lavoraci con un pulsante Avvia](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
 
 ## Aggiorna manualmente la condizione
 
@@ -115,7 +115,7 @@ Per informazioni sull&#39;impostazione del pulsante Lavoraci su un pulsante Avvi
 >Per ulteriori informazioni, consulta i seguenti articoli:
 >
 >* [Panoramica di riepilogo](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
->* [Personalizzare Home e Riepilogo utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+>* [Personalizza la home e il riepilogo utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 
 <!--old Condition update - in the commenting stream: 
@@ -130,7 +130,7 @@ Per aggiornare manualmente la condizione di un’attività o di un problema, eff
 
 1. Per aggiornare la Condizione di un’attività o di un problema nell’intestazione dell’attività o del problema:
 
-   1. (Condizionale) Se l’amministratore del Workfront o del gruppo ha aggiunto il campo Condizione all’intestazione dell’attività o del problema del modello di layout, fai clic su **Condizione** nell’intestazione e seleziona una delle seguenti opzioni:
+   1. (Condizionale) Se l&#39;amministratore del Workfront o del gruppo ha aggiunto il campo Condizione all&#39;intestazione dell&#39;attività o del problema del modello di layout, fare clic sul campo **Condizione** nell&#39;intestazione e selezionare una delle opzioni seguenti:
       * Senza problemi
       * Qualche dubbio
       * Problemi notevoli
@@ -140,28 +140,28 @@ Per aggiornare manualmente la condizione di un’attività o di un problema, eff
 
 1. Per aggiornare la Condizione di un’attività o di un problema nella sezione Dettagli dell’attività o del problema:
 
-   1. (Condizionale) Se l’amministratore del Workfront o del gruppo ha aggiunto il campo Condizione alla sezione Dettagli di un’attività o di un problema nel modello di layout, fai clic su **Dettagli** nel pannello a sinistra, fai clic su **Condizione attività** o **Condizione problema** e seleziona una delle seguenti opzioni:
+   1. (Condizionale) Se l&#39;amministratore del Workfront o del gruppo ha aggiunto il campo Condizione alla sezione Dettagli di un&#39;attività o di un problema nel modello di layout, fai clic su **Dettagli** nel pannello a sinistra, quindi fai clic su **Condizione attività** o **Condizione problema** e seleziona una delle seguenti opzioni:
       * Senza problemi
       * Qualche dubbio
       * Problemi notevoli
-1. Clic **Salva modifiche**. La condizione dell’attività o del problema è aggiornata.
+1. Fai clic su **Salva modifiche**. La condizione dell’attività o del problema è aggiornata.
 
 </div>
 
 Per aggiornare la condizione di un&#39;attività o di un problema in un report o in un elenco:
 
-1. Vai a un elenco di attività o problemi per i quali disponi delle autorizzazioni di gestione. Assicurati che **Condizione** nella visualizzazione dell&#39;elenco.
+1. Vai a un elenco di attività o problemi per i quali disponi delle autorizzazioni di gestione. Verificare che il campo **Condizione** sia visibile nella visualizzazione dell&#39;elenco.
 
-1. Aggiornare il **Condizione** del problema o dell’attività in linea, facendo doppio clic sulla condizione esistente e selezionando un nuovo valore dal menu a discesa.
+1. Aggiorna la **condizione** del problema o dell&#39;attività in linea facendo doppio clic sulla condizione esistente e selezionando un nuovo valore dal menu a discesa.
 
    ![](assets/condition-drop-down-values-in-task-list.png)
 
    >[!NOTE]
    >
-   >Le condizioni possono essere personalizzate per il tuo ambiente, per cui potresti trovare più di tre opzioni per Condizione nel tuo ambiente. I nomi delle Condizioni potrebbero essere diversi da quelli elencati sopra. Per informazioni sulla personalizzazione delle Condizioni in Workfront, consulta [Creare o modificare una condizione personalizzata](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+   >Le condizioni possono essere personalizzate per il tuo ambiente, per cui potresti trovare più di tre opzioni per Condizione nel tuo ambiente. I nomi delle Condizioni potrebbero essere diversi da quelli elencati sopra. Per informazioni sulla personalizzazione delle Condizioni in Workfront, vedere [Creare o modificare una condizione personalizzata](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
 
-1. Premi **Invio** sulla tastiera o fare clic all&#39;esterno del campo Condizione per salvare la nuova attività o il problema Condizione.
+1. Premi **Invio** sulla tastiera o fai clic all&#39;esterno del campo Condizione per salvare la nuova attività o la condizione del problema.
 
 <!--   
 <li><p>(NOTE: drafted because I can't do this anymore)</p><p>If you have Manage permissions to the task or issue but are not assigned to it, perhaps as a project manager, add the <strong>Condition</strong> column to any view you use in a task or issue list, then set the <strong>Condition</strong> in inline edit and press Enter.</p><p><img src="assets/change-condition-in-list-view-350x142.png" style="width: 350;height: 142;"></p><p>For information about adding a column to a view, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md">Views overview in Adobe Workfront</a>.</p></li>   

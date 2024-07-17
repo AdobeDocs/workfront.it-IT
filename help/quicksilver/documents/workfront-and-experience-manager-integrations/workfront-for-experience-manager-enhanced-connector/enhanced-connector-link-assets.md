@@ -1,6 +1,6 @@
 ---
 title: Collegare risorse e cartelle con il connettore avanzato
-description: Puoi collegare una risorsa o una cartella da Experience Manager Assets a qualsiasi oggetto Workfront che supporta i documenti.
+description: È possibile collegare una risorsa o una cartella da Experience Manager Assets a qualsiasi oggetto Workfront che supporti i documenti.
 author: Courtney
 draft: Probably
 feature: Digital Content and Documents, Workfront Integrations and Apps
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Collegare risorse e cartelle con il connettore avanzato
 
-Puoi collegare una risorsa o una cartella da Experience Manager Assets a qualsiasi oggetto Workfront che supporta i documenti. Le risorse inviate da Experience Manager Assets non vengono conteggiate per l’archiviazione completa dei documenti in Workfront. I documenti caricati e inviati da Workfront a Experience Manager Assets contano per lo storage complessivo.
+È possibile collegare una risorsa o una cartella da Experience Manager Assets a qualsiasi oggetto Workfront che supporti i documenti. Assets inviato da Experience Manager Assets non viene conteggiato per l’archiviazione complessiva dei documenti in Workfront. I documenti caricati e inviati da Workfront a Experience Manager Assets vengono conteggiati ai fini dell’archiviazione complessiva.
 
 ## Requisiti di accesso
 
@@ -25,51 +25,51 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Richiesta o superiore</p> </td> 
+   <td> <p>Richiedi o superiore</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
    <td>Experience Manager Assets </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Modifica accesso ai documenti</p> <p>Nota: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modifica accesso ai documenti</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizza accesso o superiore a un documento</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Accesso di visualizzazione o superiore in un documento</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Prerequisiti
 
-Prima di iniziare, devi
+Prima di iniziare, è necessario
 
-* Installare Workfront per un connettore avanzato Experience Manager
+* Installare Workfront, ad Experience Manager il connettore avanzato
 
-## Collegamento di una risorsa da Experience Manager Assets
+## Collegare una risorsa da Experience Manager Assets
 
 Puoi collegare una risorsa da Experience Manager Assets a Workfront. Una volta collegata la risorsa, puoi
 
-* [Prova di una risorsa collegata per Experience Manager Assets](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
-* [Caricare una nuova versione di un documento](../../../documents/managing-documents/upload-new-document-version.md)
+* [Verifica di una risorsa collegata per Experience Manager Assets](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
+* [Carica una nuova versione di un documento](../../../documents/managing-documents/upload-new-document-version.md)
 
 Per collegare una risorsa a Experience Manager Assets:
 
-1. Vai a **Documenti** in Workfront in cui si desidera aggiungere il documento.
-1. Fai clic su **Aggiungi nuovo**, quindi scegli l’integrazione Experience Manager Assets configurata dall’amministratore.
+1. Vai all&#39;area **Documenti** in Workfront in cui desideri aggiungere il documento.
+1. Fai clic su **Aggiungi nuovo**, quindi scegli l&#39;integrazione Experience Manager Assets configurata dall&#39;amministratore.
 
    >[!NOTE]
    >
-   >È possibile scegliere qualsiasi nome per questa integrazione, pertanto non può menzionare specificamente Experience Manager Assets.
+   >Qualsiasi nome può essere scelto per questa integrazione, quindi potrebbe non menzionare specificamente Experience Manager Assets.
 
 1. Seleziona le risorse desiderate.
 
@@ -77,18 +77,18 @@ Per collegare una risorsa a Experience Manager Assets:
 
 1. Fai clic su **Collegamento**.
 
-## Collegamento di una cartella da Experience Manager Assets
+## Collegare una cartella da Experience Manager Assets
 
-Le autorizzazioni per visualizzare le singole risorse all’interno di una cartella si basano sulle autorizzazioni di Experience Manager Assets.
+Le autorizzazioni per visualizzare singole risorse all’interno di una cartella si basano sulle autorizzazioni di Experience Manager Assets.
 
 Per collegare una cartella a Experience Manager Assets:
 
-1. Vai a **Documenti** in Workfront in cui si desidera aggiungere il documento.
-1. Fai clic su **Aggiungi nuovo**, quindi scegli l’integrazione Experience Manager Assets configurata dall’amministratore.
+1. Vai all&#39;area **Documenti** in Workfront in cui desideri aggiungere il documento.
+1. Fai clic su **Aggiungi nuovo**, quindi scegli l&#39;integrazione Experience Manager Assets configurata dall&#39;amministratore.
 
    >[!NOTE]
    >
-   >È possibile scegliere qualsiasi nome per questa integrazione, pertanto non può menzionare specificamente Experience Manager Assets.
+   >Qualsiasi nome può essere scelto per questa integrazione, quindi potrebbe non menzionare specificamente Experience Manager Assets.
 
 1. Selezionare le cartelle desiderate.
 
@@ -96,23 +96,23 @@ Per collegare una cartella a Experience Manager Assets:
 
 1. Fai clic su **Collegamento**.
 
-## Collegamento di una nuova versione da Experience Manager Assets
+## Collega una nuova versione da Experience Manager Assets
 
-Puoi estrarre una nuova risorsa da Experience Manager Assets e aggiungerla a una risorsa esistente come nuova versione in Workfront. Se il documento è già collegato e viene aggiunta una nuova versione in Experience Manager Assets, la nuova versione viene visualizzata automaticamente in Workfront.
+Puoi richiamare una nuova risorsa da Experience Manager Assets e aggiungerla a una risorsa esistente come nuova versione in Workfront. Se il documento è già collegato e viene aggiunta una nuova versione in Experience Manager Assets, la nuova versione viene visualizzata automaticamente in Workfront.
 
 >[!TIP]
 >
->Se passi a **Dettagli documento** > **Versioni**.
+>Puoi visualizzare tutte le versioni di una risorsa se vai a **Dettagli documento** > **Versioni**.
 
 Per collegare una nuova versione da Experience Manager Assets:
 
-1. Vai a **Documenti** in Workfront in cui si desidera aggiungere il documento.
-1. Seleziona la risorsa da sostituire con una nuova versione. Non è possibile creare una nuova versione di una risorsa in una cartella collegata.
-1. Fai clic su **Aggiungi nuovo**, quindi scegli l’integrazione Experience Manager Assets configurata dall’amministratore.
+1. Vai all&#39;area **Documenti** in Workfront in cui desideri aggiungere il documento.
+1. Seleziona la risorsa da sostituire con una nuova versione. Non puoi creare una nuova versione di una risorsa in una cartella collegata.
+1. Fai clic su **Aggiungi nuovo**, quindi scegli l&#39;integrazione Experience Manager Assets configurata dall&#39;amministratore.
 
    >[!NOTE]
    >
-   >È possibile scegliere qualsiasi nome per questa integrazione, pertanto non può menzionare specificamente Experience Manager Assets.
+   >Qualsiasi nome può essere scelto per questa integrazione, quindi potrebbe non menzionare specificamente Experience Manager Assets.
 
 1. Seleziona la risorsa desiderata.
 

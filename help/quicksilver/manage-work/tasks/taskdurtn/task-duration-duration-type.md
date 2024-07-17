@@ -21,13 +21,13 @@ ht-degree: 0%
 
 Questo indice contiene collegamenti ai seguenti articoli:
 
-* [Panoramica sulla durata e sul tipo di durata dell&#39;attività](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
-* [Aggiornare il tipo di durata di un&#39;attività](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md)
+* [Panoramica della durata e del tipo di durata dell&#39;attività](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
+* [Aggiorna il tipo di durata di un&#39;attività](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md)
 * [Panoramica sul tipo di durata: assegnazione calcolata](../../../manage-work/tasks/taskdurtn/calculated-assignment.md)
 * [Panoramica sul tipo di durata: basata sulle risorse](../../../manage-work/tasks/taskdurtn/effort-driven.md)
 * [Panoramica sul tipo di durata: lavoro calcolato](../../../manage-work/tasks/taskdurtn/calculated-work.md)
 * [Panoramica sul tipo di durata: semplice](../../../manage-work/tasks/taskdurtn/simple-duration-type.md)
-* [Aggiornare le ore e la durata pianificate di un&#39;attività con un tipo di durata semplice](../../../manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md)
+* [Aggiorna le ore e la durata pianificate di un&#39;attività con un tipo di durata semplice](../../../manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md)
 * [Tipi di durata nei progetti Adobe Workfront e Microsoft](../../../manage-work/tasks/taskdurtn/workfront-ms-project-duration-types.md)
 
 

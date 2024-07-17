@@ -47,9 +47,9 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
-&#42;&#42;Per informazioni sulle licenze di Adobe Workfront Fusion, consulta [Licenze Adobe Workfront Fusion](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;Per informazioni sulle licenze di Adobe Workfront Fusion, vedere [Licenze di Adobe Workfront Fusion](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisiti
 
@@ -85,15 +85,15 @@ Per creare una connessione per i moduli Adobe I/O Events:
       </tr>
       <tr>
         <td role="rowheader">Ambiti aggiuntivi</td>
-        <td>Per aggiungere altri ambiti, fare clic su <b>Aggiungi elemento</b> e inserire l'ambito.</td>
+        <td>Per aggiungere altri ambiti, fare clic su <b>Aggiungi elemento</b> e immettere l'ambito.</td>
       </tr>
       <tr>
         <td role="rowheader">ID client</td>
-        <td>Immetti l'ID client di Adobe. Questo è disponibile nella sezione Dettagli credenziali della console Adobe Developer</td>
+        <td>Immetti l'ID client di Adobe. Questo problema si trova nella sezione Dettagli credenziali di Adobe Developer Console</td>
       </tr>
       <tr>
         <td role="rowheader">Segreto client</td>
-        <td>Immetti il segreto client di Adobe. Questo è disponibile nella sezione Dettagli credenziali della console Adobe Developer</td>
+        <td>Immetti il segreto client di Adobe. Questo problema si trova nella sezione Dettagli credenziali di Adobe Developer Console</td>
       </tr>
       </tr>
         <tr>
@@ -106,26 +106,26 @@ Per creare una connessione per i moduli Adobe I/O Events:
       </tr>
       <tr>
         <td role="rowheader">ID organizzazione IMS</td>
-        <td>Immetti l'ID organizzazione Adobe. Questo è disponibile nella sezione Dettagli credenziali della console Adobe Developer</td>
+        <td>Immetti l'ID organizzazione Adobe. Questo problema si trova nella sezione Dettagli credenziali di Adobe Developer Console</td>
       </tr>
         <tr>
         <td role="rowheader">ID progetto</td>
         <td>Inserisci l'ID progetto. Questo si trova nell’URL delle credenziali del progetto: <code>https://developer.adobe.com/console/projects/{consumer org ID}/ {project ID}/credentials/{credential ID}/details</code></td>
       </tr>
       <tr>
-        <td role="rowheader">ID area di lavoro</td>
-        <td>Per visualizzare l’ID Workspace del progetto, scarica i dettagli del progetto dalla pagina di panoramica del progetto nella console Adobe Developer. </td>
+        <td role="rowheader">ID WORKSPACE</td>
+        <td>Per visualizzare il Workspace ID del progetto, scarica i dettagli del progetto dalla pagina di panoramica del progetto in Adobe Developer Console. </td>
       </tr>
     </tbody>
     </table>
 
-1. Clic **Continua** per salvare la connessione e tornare al modulo.
+1. Fai clic su **Continua** per salvare la connessione e tornare al modulo.
 
 ## Moduli Adobe I/O Events e relativi campi
 
-Quando si configura [!DNL Adobe I/O Events] moduli, [!DNL Workfront Fusion] visualizza i campi elencati di seguito. Oltre a questi, ulteriori [!DNL Adobe I/O Events] I campi potrebbero essere visualizzati in base a fattori quali il livello di accesso nell’app o nel servizio. Un titolo in grassetto in un modulo indica un campo obbligatorio.
+Quando configuri [!DNL Adobe I/O Events] moduli, [!DNL Workfront Fusion] visualizza i campi elencati di seguito. Insieme a questi, potrebbero essere visualizzati ulteriori campi di [!DNL Adobe I/O Events], a seconda di fattori quali il livello di accesso nell&#39;app o nel servizio. Un titolo in grassetto in un modulo indica un campo obbligatorio.
 
-Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possibile utilizzarlo per impostare variabili e funzioni per tale campo. Per ulteriori informazioni, consulta [Mappare le informazioni da un modulo all’altro in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possibile utilizzarlo per impostare variabili e funzioni per tale campo. Per ulteriori informazioni, vedere [Mappare le informazioni da un modulo all&#39;altro in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -141,7 +141,7 @@ Questo modulo di azione utilizza un webhook per creare una descrizione dell’ev
 
 Per creare un webhook:
 
-1. Clic **Aggiungi** accanto al campo Webhook.
+1. Fai clic su **Aggiungi** accanto al campo Webhook.
 1. Compila i campi seguenti:
 
    <table>
@@ -154,7 +154,7 @@ Per creare un webhook:
        </tr>
        <tr>
          <td role="rowheader">[!UICONTROL Connection]</td>
-        <td>Per istruzioni sulla creazione di una connessione a [!DNL Adobe I/O Events], vedi <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >Creare una connessione a [!DNL Adobe I/O Events]</a> in questo articolo.</td>
+        <td>Per istruzioni sulla creazione di una connessione a [!DNL Adobe I/O Events], vedere <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >Creare una connessione a [!DNL Adobe I/O Events]</a> in questo articolo.</td>
        </tr>
        <tr>
          <td role="rowheader">
@@ -197,7 +197,7 @@ Questo modulo di ricerca recupera tutti gli eventi per una registrazione da un g
      <tbody>
        <tr>
          <td role="rowheader">[!UICONTROL Connection]</td>
-        <td>Per istruzioni sulla creazione di una connessione a [!DNL Adobe I/O Events], vedi <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >Creare una connessione a [!DNL Adobe I/O Events]</a> in questo articolo.</td>
+        <td>Per istruzioni sulla creazione di una connessione a [!DNL Adobe I/O Events], vedere <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >Creare una connessione a [!DNL Adobe I/O Events]</a> in questo articolo.</td>
        </tr>
        <tr>
          <td role="rowheader">
@@ -242,7 +242,7 @@ Questo modulo di ricerca recupera tutti gli eventi per una registrazione da un g
 
 #### Effettuare una chiamata API personalizzata
 
-Questo modulo di azione effettua una chiamata API personalizzata al [!DNL Adobe I/O Events] API
+Questo modulo di azione effettua una chiamata API personalizzata all&#39;API [!DNL Adobe I/O Events]
 
 <table>
   <col/>
@@ -250,7 +250,7 @@ Questo modulo di azione effettua una chiamata API personalizzata al [!DNL Adobe 
   <tbody>
     <tr>
      <td role="rowheader">[!UICONTROL Connection]</td>
-        <td>Per istruzioni sulla creazione di una connessione a [!DNL Adobe I/O Events], vedi <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >Creare una connessione a [!DNL Adobe I/O Events]</a> in questo articolo.</td>
+        <td>Per istruzioni sulla creazione di una connessione a [!DNL Adobe I/O Events], vedere <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >Creare una connessione a [!DNL Adobe I/O Events]</a> in questo articolo.</td>
     </tr>
     <tr>
       <td role="rowheader">
@@ -265,7 +265,7 @@ Questo modulo di azione effettua una chiamata API personalizzata al [!DNL Adobe 
         <p>[!UICONTROL Method]</p>
       </td>
       <td>
-  <p>Seleziona il metodo di richiesta HTTP necessario per configurare la chiamata API. Per ulteriori informazioni, consulta <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Metodi di richiesta HTTP in [!DNL Adobe Workfront Fusion]</a>.</p>  
+  <p>Seleziona il metodo di richiesta HTTP necessario per configurare la chiamata API. Per ulteriori informazioni, vedere <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Metodi di richiesta HTTP in [!DNL Adobe Workfront Fusion]</a>.</p>  
       </td>
     </tr>
     <tr>
@@ -284,7 +284,7 @@ Questo modulo di azione effettua una chiamata API personalizzata al [!DNL Adobe 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>Aggiungi il contenuto body per la chiamata API sotto forma di oggetto JSON standard.</p> <p>Nota:  <p>Quando si utilizzano istruzioni condizionali quali <code>if</code> nel JSON, inserisci le virgolette al di fuori dell’istruzione condizionale.</p> 
+   <td> <p>Aggiungi il contenuto body per la chiamata API sotto forma di oggetto JSON standard.</p> <p>Nota:  <p>Quando si utilizzano istruzioni condizionali come <code>if</code> nel JSON, inserire le virgolette al di fuori dell'istruzione condizionale.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
@@ -303,7 +303,7 @@ Questo modulo di ricerca ottiene gli ID evento Adobe I/O per il provider e gli e
      <tbody>
        <tr>
          <td role="rowheader">[!UICONTROL Connection]</td>
-        <td>Per istruzioni sulla creazione di una connessione a [!DNL Adobe I/O Events], vedi <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >Creare una connessione a [!DNL Adobe I/O Events]</a> in questo articolo.</td>
+        <td>Per istruzioni sulla creazione di una connessione a [!DNL Adobe I/O Events], vedere <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >Creare una connessione a [!DNL Adobe I/O Events]</a> in questo articolo.</td>
        </tr>
        <tr>
          <td role="rowheader">

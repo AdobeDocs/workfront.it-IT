@@ -2,54 +2,55 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Panoramica dell'attività Data completamento pianificata
-description: La data di completamento pianificata di un'attività corrisponde alla data in cui l'attività viene impostata per essere completata.
+title: Panoramica della data di completamento pianificata dell'attività
+description: La data di completamento pianificata di un'attività è la data entro la quale l'attività è impostata per il completamento.
 author: Alina
 feature: Work Management
 exl-id: b0522db5-9c68-4b1a-82c8-5a9e613eb2ff
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '782'
 ht-degree: 1%
 
 ---
 
-# Panoramica dell&#39;attività Data completamento pianificata
+# Panoramica della data di completamento pianificata dell&#39;attività
 
-La data di completamento pianificata di un&#39;attività corrisponde alla data in cui l&#39;attività viene impostata per essere completata.
+La data di completamento pianificata di un&#39;attività è la data entro la quale l&#39;attività è impostata per il completamento.
 
-È possibile specificare la data di completamento pianificata di un&#39;attività oppure lasciare che sia possibile calcolarla in base a determinati criteri in Adobe Workfront. 
+È possibile specificare la data di completamento pianificata di un&#39;attività oppure lasciare che sia Adobe Workfront a calcolarla in base a determinati criteri. 
 
-Le date di completamento pianificate delle attività di un progetto determinano la data di completamento pianificato di un progetto quando il progetto viene programmato dalla data di inizio. Per ulteriori informazioni sulla data di completamento pianificata del progetto, vedere [Imposta la data di completamento pianificato del progetto](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
+Le date di completamento pianificate delle attività di un progetto determinano la data di completamento pianificata di un progetto quando il progetto è programmato dalla data di inizio. Per ulteriori informazioni sulla data di completamento pianificata del progetto, vedere [Impostare la data di completamento pianificata del progetto](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
 
 >[!NOTE]
 >
->La data di completamento pianificata di un&#39;attività è diversa dalla data di commit dell&#39;attività o dalla data di completamento prevista dell&#39;attività nei seguenti modi:
+>La data di completamento pianificata di un&#39;attività differisce dalla data di commit dell&#39;attività o dalla data di completamento prevista dell&#39;attività nei modi seguenti:
 >
->* La data di commit è la data in cui la persona assegnata all&#39;attività stima manualmente che avrà completato l&#39;attività. Per ulteriori informazioni, consulta i seguenti articoli:
-   * [Panoramica sulla data del commit](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
-   * [Interazioni tra la data di commit e la data di completamento pianificata](../../../manage-work/projects/updating-work-in-a-project/interactions-between-commit-and-planned-completion-dates.md).
-* La data di completamento prevista è una data calcolata da Workfront e tiene conto dei ritardi nell’attività, delle timeline dell’attività o dei relativi predecessori e di altri fattori per determinare una data di vita reale in cui l’attività può essere completata in modo realistico. Per ulteriori informazioni, consulta [Panoramica della data di completamento prevista per progetti, attività e problemi](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
+>* La Data conferma è la data entro la quale la persona assegnata all&#39;attività calcola manualmente che avrà completato l&#39;attività. Per ulteriori informazioni, consulta i seguenti articoli:
 >
-
+>   * [Panoramica sulla data di conferma](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
+>   * [Interazioni tra la data di conferma e la data di completamento pianificata](../../../manage-work/projects/updating-work-in-a-project/interactions-between-commit-and-planned-completion-dates.md).
+>
+>* La data di completamento prevista è una data calcolata da Workfront e tiene conto dei ritardi dell&#39;attività, delle tempistiche dell&#39;attività o dei suoi predecessori e di altri fattori per determinare una data reale in cui l&#39;attività può essere completata in modo realistico. Per ulteriori informazioni, vedere [Panoramica della data di completamento prevista per progetti, attività e problemi](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
+>
 
 ## Impostare manualmente la data di completamento pianificata di un&#39;attività
 
-Per poter aggiornare la data di completamento pianificata dell&#39;attività, è necessario disporre dell&#39;accesso Modifica alle attività e delle autorizzazioni Gestione per l&#39;attività.
+Per poter aggiornare la data di completamento pianificata dell&#39;attività, è necessario disporre dell&#39;accesso di modifica alle attività e delle autorizzazioni di gestione per l&#39;attività.
 
-L&#39;impostazione della data di completamento pianificata di un&#39;attività dipende dal tipo di Vincolo attività assegnato all&#39;attività. 
+L&#39;impostazione della Data di completamento pianificata di un&#39;attività dipende dal tipo di Vincolo attività assegnato all&#39;attività. 
 
-È possibile impostare manualmente la data di completamento pianificata nelle seguenti aree di Workfront:
+Puoi impostare manualmente la Data di completamento pianificata nelle seguenti aree di Workfront:
 
-* Nella casella Modifica attività, durante la creazione o la modifica di un’attività. Per informazioni, consulta [Modifica delle attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
-* Nell’area Dettagli attività. Per informazioni, consulta [Gestire le informazioni sulle attività nell&#39;area Panoramica dettagli attività](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md).
-* Nell&#39;area Home se viene visualizzata la data di completamento pianificata durante la visualizzazione di un&#39;attività. Per informazioni, consulta [Aggiornare o modificare un elemento di lavoro nell&#39;area Home](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
-* Nell’intestazione dell’attività. Per informazioni, consulta [Nuove intestazioni oggetto](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
-* In un elenco di attività o in un rapporto quando il campo Data completamento pianificato viene visualizzato nella visualizzazione.
+* Nella casella Modifica attività, durante la creazione o la modifica di un&#39;attività. Per informazioni, vedere [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+* Nell&#39;area Dettagli attività. Per informazioni, vedere [Informazioni sulla gestione delle attività nell&#39;area Panoramica dettagli attività](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md).
+* Nell&#39;area Home se la Data di completamento pianificata viene visualizzata quando si visualizza un&#39;attività. Per informazioni, vedere [Aggiornare o modificare un elemento di lavoro nell&#39;area Home](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
+* Nell&#39;intestazione dell&#39;attività. Per informazioni, vedere [Nuove intestazioni oggetto](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
+* In un elenco di attività o in un report quando nella visualizzazione viene visualizzato il campo Data di completamento pianificata.
 
-   Per informazioni, consulta [Modificare le attività in un elenco](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+  Per informazioni, vedere [Modificare le attività in un elenco](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
-È possibile specificare manualmente la data di completamento pianificata quando si seleziona uno dei seguenti vincoli task: 
+È possibile specificare manualmente la Data di completamento pianificata quando si seleziona uno dei seguenti Vincoli attività: 
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -62,47 +63,48 @@ L&#39;impostazione della data di completamento pianificata di un&#39;attività d
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Deve Finire al</p> <p>Finire non Dopo di</p> <p>Finire non Prima di</p> </td> 
-   <td> <p><span class="s1">La data di inizio pianificata viene modificata in modo da mantenere uguale la durata.</span> </p> </td> 
+   <td> <p>Deve Finire al</p> <p>Termina entro e non oltre</p> <p>Finire non Prima di</p> </td> 
+   <td> <p><span class="s1">La data di inizio pianificata viene modificata per mantenere la durata invariata.</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Dati Fissi</p> </td> 
-   <td> <p>La durata viene modificata in modo da mantenere uguale la data di inizio pianificata.</p> </td> 
+   <td> <p>La Durata viene modificata in modo da mantenere la stessa Data di Inizio Pianificata.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Modalità di calcolo automatico della data di completamento pianificata per un&#39;attività da parte di Workfront
+## Calcolo automatico della data di completamento pianificata per un&#39;attività in Workfront
 
-Quando viene calcolato automaticamente dal sistema, quanto segue può influenzare la Data di completamento pianificata di un&#39;attività:
+Quando viene calcolato automaticamente dal sistema, i seguenti elementi possono influenzare la Data di completamento pianificata di un&#39;attività:
 
 * Vincolo attività
 
-   Per ulteriori informazioni sui vincoli di attività, consulta l’articolo [Panoramica sul vincolo di attività](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
+  Per ulteriori informazioni sui vincoli attività, vedere l&#39;articolo [Panoramica sui vincoli attività](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
 * Relazione predecessore attività
 
-   Per ulteriori informazioni sui predecessori delle attività, consulta l’articolo [Panoramica dei predecessori delle attività](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+  Per ulteriori informazioni sui predecessori delle attività, vedere l&#39;articolo [Panoramica sui predecessori delle attività](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
-* Data completamento progetto, quando il progetto è programmato da Data completamento.
-* Tempo di programmazione dell&#39;assegnatario principale dell&#39;attività.
+* Data di completamento progetto, quando il progetto è programmato dalla Data di completamento.
+* L&#39;indisponibilità della programmazione dell&#39;assegnatario principale dell&#39;attività.
 
-   Quando l&#39;Assegnatario principale ha un tempo di inattività programmato durante la durata dell&#39;attività, le date pianificate dell&#39;attività si adeguano di conseguenza quando il **Considerare il tempo di inattività dell&#39;utente nelle durate delle attività** è selezionata per **Ora di disattivazione utente** campo . I nuovi progetti ereditano questa impostazione dall’area Preferenze progetto , ma è possibile modificarla a livello di progetto.
+  Quando l&#39;assegnatario principale ha un&#39;indisponibilità programmata durante la durata dell&#39;attività, le date pianificate dell&#39;attività vengono modificate di conseguenza quando per il campo **Indisponibilità utente** è selezionata l&#39;impostazione **Considera indisponibilità utente nelle durate dell&#39;attività**. I nuovi progetti ereditano questa impostazione dall’area Preferenze progetto, ma è possibile modificarla a livello di progetto.
 
-   Ad esempio, se un&#39;attività con un Vincolo il più presto possibile viene pianificata per l&#39;inizio il 1° giugno e completa il 3 giugno e l&#39;Assegnatario principale ha contrassegnato il 2 giugno per il Time-off, l&#39;attività Data completamento pianificato diventa il 4 giugno.
+  Ad esempio, se un&#39;attività con un vincolo Il più presto possibile è programmata per iniziare il 1° giugno e completare il 3 giugno e l&#39;assegnatario principale ha il 2 giugno contrassegnato per l&#39;indisponibilità, la data di completamento pianificata dell&#39;attività diventa il 4 giugno.
 
-   Per informazioni sulla **Ora di disattivazione utente** preferenza, vedere gli articoli [Configurare le preferenze del progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) o [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
+  Per informazioni sulla preferenza **Indisponibilità utente**, consulta gli articoli [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) o [Modificare i progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-* Il tempo associato alle impostazioni di approvazione se l&#39;attività è associata a un&#39;approvazione. Per ulteriori informazioni, consulta [Configurare le impostazioni di approvazione globali](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
+* Quantità di tempo associata alle impostazioni di approvazione se l&#39;attività è associata a un&#39;approvazione. Per ulteriori informazioni, vedere [Configurare le impostazioni di approvazione globali](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
 
-Se impostata automaticamente, la data di completamento pianificata viene determinata in base al seguente calcolo: 
+Quando viene impostata automaticamente, la Data di completamento pianificata viene determinata in base al seguente calcolo: 
 
 ```
 Planned Completion Date = Planned Start Date + Duration
 ```
 
-Ad esempio, se l’attività ha una data di inizio del 16 settembre e una durata di 10 giorni, la data di completamento pianificata è il 26 settembre.
+Ad esempio, se l&#39;attività ha una data di inizio il 16 settembre e una durata di 10 giorni, la data di completamento pianificata è il 26 settembre.
 
 >[!NOTE]
- Il tipo di aggiornamento per il progetto deve essere impostato su Automatico e Al momento della modifica o Automaticamente affinché le ore e la durata previste vengano regolate automaticamente.\
-Per ulteriori informazioni sul tipo di aggiornamento, consulta l’articolo [Seleziona il tipo di aggiornamento del progetto](../../../manage-work/projects/manage-projects/select-project-update-type.md).
+>
+> Per poter regolare automaticamente le ore e la durata pianificate, il Tipo di aggiornamento per il progetto deve essere impostato su Automatico e su In modifica o Automaticamente.\
+>Per ulteriori informazioni sul tipo di aggiornamento, vedere l&#39;articolo [Selezionare il tipo di aggiornamento del progetto](../../../manage-work/projects/manage-projects/select-project-update-type.md).

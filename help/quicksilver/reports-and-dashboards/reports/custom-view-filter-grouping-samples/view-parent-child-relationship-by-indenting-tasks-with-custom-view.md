@@ -45,22 +45,22 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 </tr>  
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Visualizzare la relazione padre-figlio in un&#39;attività applicando un rientro alle attività
 
 1. Vai al progetto con l’elenco attività che desideri esportare.
-1. Fai clic su **Visualizza** menu a discesa e selezionare **Nuova visualizzazione**.
+1. Fai clic sul menu a discesa **Visualizza** e seleziona **Nuova visualizzazione**.
 
 1. Denomina il filtro nell’angolo in alto a sinistra dello schermo.
-1. Fai clic su nella **Nome attività** intestazione di colonna.
+1. Fai clic sull&#39;intestazione della colonna **Nome attività**.
 
-1. Seleziona **Passa alla modalità testo** in alto a destra.
+1. Selezionare **Passa alla modalità testo** nell&#39;angolo superiore destro.
 1. Fare clic in un punto qualsiasi della casella di testo per modificare il testo e rimuovere tutto il testo esistente.
 1. Incolla il testo seguente:
 

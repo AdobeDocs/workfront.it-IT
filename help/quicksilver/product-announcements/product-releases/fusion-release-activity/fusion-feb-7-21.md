@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti apportati ad Adobe Workfront Fusion la settimana del 7 febbraio 2022.
 
-Per un elenco di tutte le modifiche recenti, vedi [Attività di rilascio di Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Per un elenco di tutte le modifiche recenti, vedere [Attività di Adobe Workfront Fusion release](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedi [Aggiornamenti di manutenzione per Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
+Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedere la pagina [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
 
 ## Connettore e moduli Anaplan ora disponibili
 
@@ -29,7 +29,7 @@ Ora puoi utilizzare Adobe Workfront Fusion per connettersi al tuo account Anapla
 * Creare, leggere, aggiornare, eliminare o cercare record Anaplan
 * Record di importazione batch in Anaplan
 
-Per ulteriori informazioni, consulta [Moduli Anaplan](../../../workfront-fusion/apps-and-their-modules/anaplan-modules.md).
+Per ulteriori informazioni, vedere [Moduli Anaplan](../../../workfront-fusion/apps-and-their-modules/anaplan-modules.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -50,4 +50,4 @@ Per rendere più fluido il processo di creazione dello scenario, è stata rimoss
 
 In precedenza, era possibile selezionare le app sia dalla pagina di selezione che dall’elenco.
 
-Per ulteriori informazioni sulla selezione delle app per il tuo scenario, consulta [Creare uno scenario in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md).
+Per ulteriori informazioni sulla selezione delle app per lo scenario, vedere [Creare uno scenario in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md).

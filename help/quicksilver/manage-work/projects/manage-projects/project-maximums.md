@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: 60576107-89f1-4328-89e2-5b1e5e243fd9
 source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Di seguito sono riportati alcuni esempi di relazioni tra attività che possono i
   </tr> 
   <tr> 
    <td role="rowheader"><p>Calcoli della sequenza temporale</p></td> 
-   <td>Workfront non esegue calcoli automatici della sequenza temporale per i progetti che non vengono aggiornati da 6 mesi e non riprenderanno finché non viene effettuato un aggiornamento.<p>Per i progetti che non vengono aggiornati da tre mesi, Workfront esegue calcoli della sequenza temporale settimanalmente anziché ogni notte.</p><p>Per informazioni sul calcolo della sequenza temporale del progetto, consulta <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Ricalcolare i timeline dei progetti</a>. </p></td> 
+   <td>Workfront non esegue calcoli automatici della sequenza temporale per i progetti che non vengono aggiornati da 6 mesi e non riprenderanno finché non viene effettuato un aggiornamento.<p>Per i progetti che non vengono aggiornati da tre mesi, Workfront esegue calcoli della sequenza temporale settimanalmente anziché ogni notte.</p><p>Per informazioni sul calcolo della sequenza temporale del progetto, vedere <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Ricalcolare le sequenze temporali del progetto</a>. </p></td> 
   </tr> 
  </tbody> 
 </table>

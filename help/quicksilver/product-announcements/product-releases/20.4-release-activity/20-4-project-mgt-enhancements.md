@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti alla gestione dei progetti apportati con la versione 20.4 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione nella settimana del 9 novembre 2020.
 
-Per un elenco di tutte le modifiche disponibili con la versione 20.4, consulta [Panoramica sulla versione 20.4](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 20.4, consulta la [panoramica sulla versione 20.4](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
 
 ## Novità per gli amministratori: controlla come viene condiviso un campo personalizzato
 
@@ -27,13 +27,13 @@ Finora, quando hai creato un campo personalizzato, era modificabile da tutti gli
 
 Inoltre, per rendere più familiare questa esperienza, abbiamo progettato l&#39;interfaccia utente di questa funzionalità in modo che sia simile ad altre aree dell&#39;oggetto condivise in Workfront.
 
-Per ulteriori informazioni, consulta [Configurare la condivisione per campi e widget personalizzati](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md).
+Per ulteriori informazioni, vedere [Configurare la condivisione per campi e widget personalizzati](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md).
 
 ## Novità per gli amministratori: condivisione di moduli personalizzati standardizzati
 
 Abbiamo standardizzato la condivisione per Custom Forms in modo che tu possa usare lo stesso processo di condivisione di oggetti di Workfront che già conosci. La nuova esperienza di condivisione offre maggiore controllo sulle persone che possono modificare, eliminare e utilizzare il Forms personalizzato creato. Puoi limitare la condivisione per un modulo personalizzato a determinati utenti, ruoli, team, gruppi e aziende. Inoltre, è possibile determinare se i destinatari possono visualizzare o gestire il modulo personalizzato.
 
-Per ulteriori informazioni, consulta [Condividere un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).
+Per ulteriori informazioni, vedere [Condividi modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).
 
 ## Esportare moduli personalizzati e informazioni generali dalla sezione Dettagli di un progetto, attività o problema
 
@@ -41,7 +41,7 @@ Per ulteriori informazioni, consulta [Condividere un modulo personalizzato](../.
 
 Oltre a esportare i moduli personalizzati di progetti, attività e problemi, ora puoi anche includere l’area Panoramica nel pdf esportato.
 
-Per informazioni sull’esportazione di moduli personalizzati da un oggetto, consulta [Esportare moduli personalizzati e dettagli oggetto](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+Per informazioni sull&#39;esportazione di moduli personalizzati da un oggetto, vedere [Esportare moduli personalizzati e dettagli oggetto](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
 ## Aggiungere rapidamente un’iterazione
 
@@ -53,7 +53,7 @@ Per semplificare l’esperienza di creazione di un’iterazione, è stato aggiun
 
 Puoi comunque creare un’iterazione sul tag backlog come prima.
 
-Per ulteriori informazioni, consulta [Creare un’iterazione](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md).
+Per ulteriori informazioni, vedere [Creare un&#39;iterazione](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md).
 
 ## Nuova sezione Metriche disponibile nei progetti
 
@@ -65,7 +65,7 @@ Per risparmiare tempo e comprendere meglio lo stato generale di un progetto, in 
 
 È possibile effettuare selezioni nei grafici per visualizzare diversi aspetti delle attività e dei problemi di un progetto e fare clic su alcuni elementi per visualizzare le informazioni sulle attività.
 
-Questa funzione è ora inclusa nel [Planner - Nozioni di base, Parte 3 percorso di apprendimento](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-20Y0z000000bm7xEAA) su Workfront One.
+Questa funzionalità è ora inclusa in [Planner Fundamentals, Part 3 learning path](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-20Y0z000000bm7xEAA) su Workfront One.
 
 ## Novità per gli amministratori: assegnare un Business Leader a un gruppo
 
@@ -73,9 +73,9 @@ Per aiutarti a organizzare e definire meglio i tuoi gruppi, abbiamo aggiunto la 
 
 Il nuovo campo Business Leader può essere utilizzato nei filtri, nelle visualizzazioni e nei raggruppamenti dei rapporti. Ad esempio, è possibile filtrare in base a un determinato Business Leader per elencare solo i gruppi a cui la persona è assegnata in quel ruolo.
 
-Per ulteriori informazioni, consulta [Panoramica di Business Leader](../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md).
+Per ulteriori informazioni, vedere [Panoramica di Business Leader](../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md).
 
-Questa funzione è ora inclusa nel [Nozioni di base per gli amministratori, parte 1 del percorso di apprendimento](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) su Workfront One.
+Questa funzionalità è ora inclusa in [Nozioni di base per gli amministratori, parte 1, percorso di apprendimento](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) in Workfront One.
 
 ## Novità per gli amministratori: associare portfolio, programmi e aziende a gruppi
 
@@ -85,17 +85,17 @@ Ad esempio, puoi elencare tutti i portfolio della tua organizzazione in un rappo
 
 Per ulteriori informazioni, vedere la sezione &quot;Informazioni sull&#39;associazione di un gruppo a un oggetto&quot; nell&#39;articolo [Panoramica sui gruppi](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
-Questa funzione è ora inclusa nel [Nozioni di base per gli amministratori, parte 1 del percorso di apprendimento](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) su Workfront One.
+Questa funzionalità è ora inclusa in [Nozioni di base per gli amministratori, parte 1, percorso di apprendimento](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) in Workfront One.
 
 ## Novità per gli amministratori: gli amministratori di un gruppo assegnato a una società possono gestire la società
 
 Un amministratore di gruppo può gestire con facilità una società associata al proprio gruppo in Workfront. L’accesso per gestire l’azienda è disponibile automaticamente quando viene effettuata l’associazione. Ciò è particolarmente importante quando l’amministratore del gruppo non dispone dell’accesso amministrativo alle aziende.
 
-Per ulteriori informazioni, consulta [Creare e modificare le società](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+Per ulteriori informazioni, vedere [Creare e modificare società](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
-Per informazioni sull’accesso amministrativo alle aziende, consulta [Concedere agli utenti l&#39;accesso amministrativo a determinate aree](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+Per informazioni sull&#39;accesso amministrativo alle aziende, vedere [Concedere agli utenti l&#39;accesso amministrativo ad alcune aree](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-Questa funzione è ora inclusa nel [Nozioni di base per gli amministratori, parte 1 del percorso di apprendimento](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) su Workfront One.
+Questa funzionalità è ora inclusa in [Nozioni di base per gli amministratori, parte 1, percorso di apprendimento](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) in Workfront One.
 
 ## Sostituire il pulsante Lavoraci con un pulsante Start
 
@@ -103,9 +103,9 @@ Per acquisire la data e l&#39;ora di inizio effettivo del lavoro su un elemento 
 
 Aggiornato il 24 settembre: dopo aver fatto clic su Start task (Avvia attività) o Start issue (Avvia problema), ora è possibile scegliere di ripristinare la selezione e indicare che potrebbe non essere possibile iniziare a lavorare su un elemento di lavoro facendo clic su Undo (Annulla). L&#39;elemento di lavoro torna allo stato Nuovo e la Data conferma e la Data inizio effettiva vengono eliminate. L’opzione Annulla viene visualizzata per un periodo di tempo molto breve e viene cancellata dopo aver lasciato la pagina o averla aggiornata.
 
-Per ulteriori informazioni sulla configurazione di questa opzione, consulta [Sostituire il pulsante Lavoraci con un pulsante Start](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
+Per ulteriori informazioni sulla configurazione di questa opzione, vedere [Sostituire il pulsante Lavoraci con un pulsante Start](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
 
-Questa funzione è ora inclusa nel [Nozioni di base sul percorso di apprendimento dei lavoratori](https://one.workfront.com/s/learningpath3/worker-fundamentals-for-the-new-workfront-experience-20Y0z000000blg8EAA) e [Nozioni di base per gli amministratori, parte 1 del percorso di apprendimento](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) su Workfront One.
+Questa funzionalità è ora inclusa nel percorso di apprendimento [Nozioni di base sui lavoratori](https://one.workfront.com/s/learningpath3/worker-fundamentals-for-the-new-workfront-experience-20Y0z000000blg8EAA) e [Nozioni di base sugli amministratori, parte 1, percorso di apprendimento](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) in Workfront One.
 
 ## Consenti più bozze per un argomento della coda
 
@@ -113,7 +113,7 @@ Per offrire maggiore libertà nell’utilizzo delle richieste, non esiste più u
 
 Prima di questo miglioramento, Workfront ha salvato una sola bozza per ogni argomento della coda nella coda richieste.
 
-Per informazioni sull’invio delle richieste, consulta la sezione &quot; [Creare e inviare richieste Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+Per informazioni sull&#39;invio di richieste, vedere &quot; [Creare e inviare richieste Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
 ## Assegnare un gruppo a un team
 
@@ -121,9 +121,9 @@ Per semplificare la gestione e la creazione di rapporti sui team associati a un 
 
 Quando si assegna un team a un gruppo, gli amministratori del gruppo possono gestirlo senza esserne membri. Nella pagina Dettagli team possono visualizzare i team assegnati ai gruppi che gestiscono. Inoltre, possono eseguire un rapporto per elencare tutti i team associati a un determinato gruppo.
 
-Per ulteriori informazioni, consulta [Creare un team](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
+Per ulteriori informazioni, vedere [Creare un team](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 
-Questa funzione è ora inclusa nel [Nozioni di base per gli amministratori, parte 1 del percorso di apprendimento](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) su Workfront One.
+Questa funzionalità è ora inclusa in [Nozioni di base per gli amministratori, parte 1, percorso di apprendimento](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) in Workfront One.
 
 ## I nuovi campi consentono di creare rapporti sui dati di un gruppo di primo livello e di tutti i relativi sottogruppi
 
@@ -140,5 +140,5 @@ Per informazioni sull&#39;utilizzo dei campi negli elenchi e nei report, vedere 
 
 Quando elimini una bozza salvata, ora puoi fare clic su Annulla nel messaggio di conferma che ti informa che la bozza verrà eliminata. In questo modo, non si perde la bozza nel caso in cui si cambia idea su come scartarla.
 
-Questa funzione è disponibile solo nella nuova esperienza Workfront. Per informazioni, consulta [Creare e inviare richieste Workfront](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FManage_work%2FRequests%2FCreate_Requests%2Fcreate-submit-requests.html).
+Questa funzione è disponibile solo nella nuova esperienza Workfront. Per informazioni, vedere [Creare e inviare richieste Workfront](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FManage_work%2FRequests%2FCreate_Requests%2Fcreate-submit-requests.html).
 

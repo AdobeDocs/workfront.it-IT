@@ -63,9 +63,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
-1. Clic **Nuovo modello e-mail**.
+1. Fai clic su **Nuovo modello di e-mail**.
 
-1. In **Nuovo modello e-mail** , specificare le informazioni seguenti:
+1. Nella casella **Nuovo modello di posta elettronica**, specificare le informazioni seguenti:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -97,7 +97,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      </tr> 
      <tr> 
       <td role="rowheader">Corpo </td> 
-      <td> <p>Aggiungi il testo per il contenuto del messaggio e-mail.</p> <p>Puoi utilizzare la formattazione HTML per il contenuto dell’e-mail, come descritto nella sezione <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">Aggiungere formattazione HTML a un modello e-mail</a> in questo articolo.</p> </td> 
+      <td> <p>Aggiungi il testo per il contenuto del messaggio e-mail.</p> <p>È possibile utilizzare la formattazione HTML per il contenuto delle e-mail, come descritto nella sezione <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">Aggiungere la formattazione HTML a un modello e-mail</a> in questo articolo.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -107,17 +107,17 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 ## Aggiungere formattazione HTML a un modello e-mail {#add-html-formatting-to-an-email-template}
 
 Per generare notifiche personalizzate, puoi aggiungere HTML ai modelli e-mail.\
-Inizia a creare il modello e-mail come descritto in [Crea un nuovo modello e-mail](#create-a-new-email-template).
+Iniziare a creare il modello di posta elettronica come descritto in [Creare un nuovo modello di posta elettronica](#create-a-new-email-template).
 
 La formattazione HTML può arricchire i modelli e-mail, come illustrato nelle sezioni seguenti.
 
-* [Collegamento a oggetti Workfront](#link-to-workfront-objects)
+* [Collega a oggetti di Workfront](#link-to-workfront-objects)
 * [Collegamento a campi personalizzati con HTML](#link-to-custom-fields-with-html)
 * [Esempi di e-mail su HTML](#html-email-examples)
 
 ### Collegamento a oggetti Workfront {#link-to-workfront-objects}
 
-È possibile includere collegamenti ai campi di Workfront utilizzando `$$` carattere jolly per indicare al generatore di e-mail di cercare valori dal database associato a un oggetto specifico.
+È possibile includere collegamenti ai campi di Workfront utilizzando il carattere jolly `$$` per indicare al generatore di e-mail di cercare i valori dal database associato a un oggetto specifico.
 
 Ad esempio, il corpo dell’e-mail di una notifica che avvisa l’assegnatario dell’attività che l’attività sta per iniziare può seguire questa struttura:
 
@@ -143,15 +143,15 @@ Ad esempio, il corpo dell’e-mail di una notifica che avvisa l’assegnatario d
 
 Per ottenere il valore &quot;jolly&quot; per un oggetto, effettuare una delle seguenti operazioni:
 
-* Fai riferimento a API Explorer e seleziona i nomi degli oggetti dalla scheda Campi di qualsiasi oggetto. Per ulteriori informazioni su API Explorer, consulta [API Explorer](/help/quicksilver/wf-api/general/api-explorer.md).
+* Fai riferimento a API Explorer e seleziona i nomi degli oggetti dalla scheda Campi di qualsiasi oggetto. Per ulteriori informazioni su API Explorer, vedere [API Explorer](/help/quicksilver/wf-api/general/api-explorer.md).
 
-* Utilizza il `valuefield` valore presente all&#39;interno di una visualizzazione in modalità testo di un report. Per ulteriori informazioni sui valori della modalità testo, consulta [Panoramica sulla modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+* Utilizza il valore `valuefield` che trovi all&#39;interno di una visualizzazione in modalità testo di un report. Per ulteriori informazioni sui valori della modalità testo, vedere [Panoramica della modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-Il `heading` value può essere il nome dell’oggetto, come desideri che appaia nel corpo dell’e-mail.
+Il valore `heading` può essere il nome dell&#39;oggetto, come si desidera che venga visualizzato nel corpo dell&#39;e-mail.
 
 ### Collegamento a campi personalizzati con HTML {#link-to-custom-fields-with-html}
 
-È possibile includere collegamenti a utenti e campi personalizzati utilizzando `$$` carattere jolly per indicare al generatore di e-mail di cercare i valori dal database associato all’oggetto. Devono essere presenti su entrambi i lati del riferimento dell’attributo del database.
+È possibile includere collegamenti a utenti e campi personalizzati utilizzando il carattere jolly `$$` per indicare al generatore di e-mail di cercare i valori dal database associato all&#39;oggetto. Devono essere presenti su entrambi i lati del riferimento dell’attributo del database.
 
 Se ad esempio si aggiunge come HTML il testo seguente, il nome dell&#39;utente assegnato verrà aggiunto alla notifica di promemoria associata a un&#39;attività:
 
@@ -199,7 +199,7 @@ Sostituisci `<your domain>` con il dominio Workfront della tua azienda, senza le
 
 ### Esempi di e-mail su HTML {#html-email-examples}
 
-* [Notifica di promemoria per progetto in ritardo (esempio)](#late-project-reminder-notification-example)
+* [Notifica promemoria progetto in ritardo (esempio)](#late-project-reminder-notification-example)
 * [Promemoria Attività o Problema in procinto di iniziare (esempio)](#task-or-issue-about-to-start-reminder-example)
 
 #### Notifica di promemoria per progetto in ritardo (esempio) {#late-project-reminder-notification-example}
@@ -244,7 +244,7 @@ Il seguente codice può essere incluso in un modello e-mail da utilizzare per le
 
 Sostituisci `<your domain>` con il dominio Workfront della tua azienda, senza le parentesi.
 
-Per utilizzare questa proprietà per un messaggio e-mail relativo a un problema, modifica il `/task/view.` valore nel collegamento all’elemento di lavoro per `/issue/view`.
+Per utilizzare questa proprietà per un&#39;e-mail relativa a un problema, modifica il valore `/task/view.` nel collegamento all&#39;elemento di lavoro in `/issue/view`.
 
 **Oggetto:**
 
@@ -289,4 +289,4 @@ Per utilizzare questa proprietà per un messaggio e-mail relativo a un problema,
 
 ![email_template_delivered.png](assets/email-template-delivered.png)
 
-Dopo aver creato un modello e-mail, gli utenti possono associarlo alle notifiche di promemoria, come descritto in [Configurare le notifiche di promemoria](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
+Dopo aver creato un modello di e-mail, gli utenti possono associarlo alle notifiche di promemoria, come descritto in [Configurare le notifiche di promemoria](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).

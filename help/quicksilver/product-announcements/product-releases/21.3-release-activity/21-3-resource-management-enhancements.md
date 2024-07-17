@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti alla gestione delle risorse apportati con la versione 21.3 all’ambiente di anteprima. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana del 21 luglio 2021.
 
-Per un elenco di tutte le modifiche disponibili con la versione 21.3, consulta [Panoramica sulla versione 21.3](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 21.3, vedere [Panoramica sulla versione 21.3](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Disattiva ruoli non più in uso
 
@@ -29,5 +29,5 @@ Per offrirti la stessa esperienza di con utenti, team e aziende, abbiamo introdo
 
 Le attività e i problemi assegnati a un ruolo disattivato, nonché i processi di approvazione o le regole di instradamento, continuano a essere assegnati a questi ruoli. È necessario aggiornare questi oggetti per sostituire il ruolo inattivo con uno attivo, se non sono ancora stati completati.
 
-Per ulteriori informazioni, consulta [Disattiva mansioni](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
+Per ulteriori informazioni, vedere [Disattivare le mansioni](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
 

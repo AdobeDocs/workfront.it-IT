@@ -306,10 +306,10 @@ Solo gli utenti con una licenza Standard possono avere accesso completo ai dati 
 | Gestire record fatturazione | ✓ |   |   |   |
 | Gestire le spese | ✓ |   |   |   |
 | Visualizza dati finanziari | ✓&#42; | ✓&#42; |   |   |
-| <span class="preview">Gestire le schede delle tariffe</span> | ✓ |   |   |   |
+| <span class="preview">Gestione schede tariffarie</span> | ✓ |   |   |   |
 | Visualizzare le informazioni per costo negli strumenti di pianificazione delle risorse | ✓ |   |   |   |
-| Risorse budget negli strumenti di pianificazione delle risorse&#42;&#42; | ✓ |   |   |   |
-| Visualizzare l&#39;allocazione delle risorse negli strumenti di pianificazione risorse&#42; | ✓ | ✓ |   |   |
+| Risorse budget negli strumenti di pianificazione risorse&#42;&#42; | ✓ |   |   |   |
+| Visualizza allocazione risorse negli strumenti di pianificazione risorse&#42; | ✓ | ✓ |   |   |
 | Creare rischi nei progetti | ✓ |   |   |   |
 | Visualizzare i rischi sui progetti | ✓ | ✓ |   |   |
 
@@ -324,7 +324,7 @@ Solo gli utenti con una licenza Standard possono avere accesso completo alla ges
 | Azione | Standard | Light | Collaboratore | Utente esterno |
 |----------------------------------------------------------------|----------|--------|-------------|---------------|
 | Modifica priorità e ore preventivate nella Programmazione | ✓&#42; |   |   |   |
-| Creare, modificare ed eliminare i gruppi di risorse&#42;&#42; | ✓&#42; |   |   |   |
+| Crea, modifica, elimina i gruppi di risorse&#42;&#42; | ✓&#42; |   |   |   |
 | `Update Planned Hours in the Workload Balancer`&#42;&#42;&#42; | ✓&#42; |   |   |   |
 | Visualizzare le priorità del progetto nella Programmazione delle risorse | ✓&#42; |   |   |   |
 | Visualizzare l&#39;allocazione delle risorse negli strumenti di pianificazione risorse | ✓&#42; | ✓&#42; |   |   |
@@ -336,20 +336,20 @@ Solo gli utenti con una licenza Standard possono avere accesso completo alla ges
 
 &#42; Utilizzando un livello di accesso, gli amministratori di Workfront possono disabilitare o abilitare questa funzionalità.
 
-&#42;&#42;Richiede l&#39;accesso aggiuntivo ai dati finanziari e le autorizzazioni per i dati finanziari del progetto. Se si concede l&#39;accesso Gestione risorse a un utente di Planner che non ha accesso ai dati finanziari, l&#39;utente potrà comunque visualizzare le allocazioni orarie nella Programmazione risorse, ma non potrà passare alla visualizzazione Costo o al Business Case. Per ulteriori informazioni, consulta [Concedere l’accesso ai dati finanziari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) e [Condividere le autorizzazioni finanziarie su un oggetto](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
+&#42;&#42;Richiede l&#39;accesso aggiuntivo ai dati finanziari e le autorizzazioni per i dati finanziari del progetto. Se si concede l&#39;accesso Gestione risorse a un utente di Planner che non ha accesso ai dati finanziari, l&#39;utente potrà comunque visualizzare le allocazioni orarie nella Programmazione risorse, ma non potrà passare alla visualizzazione Costo o al Business Case. Per ulteriori informazioni, vedere [Concedere l&#39;accesso ai dati finanziari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) e [Condividere le autorizzazioni finanziarie su un oggetto](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
-&#42;&#42;&#42;Richiede l&#39;autorizzazione per contribuire all&#39;oggetto con l&#39;opzione Crea assegnazioni abilitata in Impostazioni avanzate. Per informazioni, consulta la sezione [Comprendere le autorizzazioni ereditate e la gerarchia di oggetti](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) nell’articolo [Panoramica delle autorizzazioni di condivisione sugli oggetti](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+&#42;&#42;&#42;Richiede l&#39;autorizzazione di Contribute per l&#39;oggetto, con l&#39;opzione Rendi assegnazioni abilitata in Impostazioni avanzate. Per informazioni, vedere la sezione [Comprendere le autorizzazioni ereditate e la gerarchia degli oggetti](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) nell&#39;articolo [Panoramica delle autorizzazioni di condivisione sugli oggetti](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 ## Area Pianificazione scenario
 
 | Azione | Standard | Light | Collaboratore | Utente esterno |
 |-----------------------------------------------------------------------|----------|-------|-------------|---------------|
 | Crea/modifica piani e iniziative esistenti | ✓ | ✓ |   |   |
-| Aggiungere o modificare le informazioni sui ruoli in piani e iniziative&#42; | ✓ | ✓ |   |   |
-| Aggiungere o modificare le informazioni sui costi per piani e iniziative&#42; | ✓ | ✓ |   |   |
+| Aggiungi o modifica informazioni mansione su piani e iniziative&#42; | ✓ | ✓ |   |   |
+| Aggiungi o modifica informazioni sui costi in piani e iniziative&#42; | ✓ | ✓ |   |   |
 | Elimina piani e iniziative | ✓ | ✓ |   |   |
 | Visualizza scenari nel menu principale | ✓ | ✓ |   |   |
-| Visualizza i piani e le iniziative creati dall&#39;utente&#42; | ✓ | ✓ |   |   |
+| Visualizza piani e iniziative creati dall&#39;utente&#42; | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}
 
@@ -357,7 +357,7 @@ Solo gli utenti con una licenza Standard possono avere accesso completo alla ges
 >
 >Gli utenti possono visualizzare un piano creato da un altro utente solo se con essi è condiviso un collegamento al piano.
 
-&#42; Affinché gli utenti possano visualizzare i dati finanziari in un piano o in un’iniziativa, devono avere accesso ai dati finanziari. Per ulteriori informazioni, consulta [Concedere l’accesso ai dati finanziari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+&#42; Affinché gli utenti possano visualizzare i dati finanziari in un piano o in un&#39;iniziativa, è necessario che abbiano accesso ai dati finanziari. Per ulteriori informazioni, vedere [Concedere l&#39;accesso ai dati finanziari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 ## Area Obiettivi Workfront
 

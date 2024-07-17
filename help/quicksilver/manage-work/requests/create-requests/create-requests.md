@@ -31,10 +31,10 @@ Tutte le richieste vengono visualizzate nell’area Problemi dei progetti per i 
 
 Per ulteriori informazioni su come creare, inviare o inviare richieste tramite e-mail in Workfront, consulta i seguenti articoli:
 
-* [Creare e inviare richieste Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md)
-* [Creare richieste da bozze](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)
-* [Copiare e inviare richieste](../../../manage-work/requests/create-requests/copy-and-submit-requests.md)
-* [Consentire agli utenti di inviare un problema tramite e-mail a un progetto della coda richieste](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md)
-* [Individuare le richieste inviate](../../../manage-work/requests/create-requests/locate-submitted-requests.md)
+* [Crea e invia richieste Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md)
+* [Crea richieste da bozze](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)
+* [Copia e invia richieste](../../../manage-work/requests/create-requests/copy-and-submit-requests.md)
+* [Consenti agli utenti di inviare un problema tramite e-mail a un progetto della coda richieste](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md)
+* [Individua richieste inviate](../../../manage-work/requests/create-requests/locate-submitted-requests.md)
 * [Condividere un collegamento a una coda di richieste](../../../manage-work/requests/create-requests/share-link-to-request-queue.md)
 * [Eliminare una bozza di richiesta](../../../manage-work/requests/create-requests/delete-request-draft.md)

@@ -23,8 +23,8 @@ A differenza delle attività, i problemi non possono determinare la percentuale 
 
 Questa sezione contiene i seguenti articoli:
 
-* [Panoramica sulla durata della Issue](../../../manage-work/issues/issue-information/issue-duration.md)
-* [Aggiorna la priorità del problema](../../../manage-work/issues/issue-information/update-issue-priority.md)
+* [Panoramica sulla durata del problema](../../../manage-work/issues/issue-information/issue-duration.md)
+* [Aggiorna priorità problema](../../../manage-work/issues/issue-information/update-issue-priority.md)
 * [Aggiorna gravità problema](../../../manage-work/issues/issue-information/update-issue-severity.md)
 * [Panoramica della data di completamento pianificata del problema](../../../manage-work/issues/issue-information/issue-planned-completion-date.md)
 * [Utilizza &quot;opTask&quot; e &quot;issue&quot; quando si fa riferimento a problemi](../../../manage-work/issues/issue-information/use-optask-instead-of-issue.md)

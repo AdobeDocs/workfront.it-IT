@@ -21,19 +21,19 @@ ht-degree: 1%
 
 Una completa riprogettazione del reporting in Workfront, il nuovo strumento Reporting Canvas è attualmente in fase di sviluppo. Nella progettazione di Reporting Canvas, abbiamo lavorato sodo per fornire un’esperienza che offra la massima flessibilità associata a un design intuitivo e modulare, in modo che gli utenti come te possano sfruttare al meglio i tuoi dati nella creazione e nella condivisione di report. Grazie a un nuovo tipo di rapporto unificato che consente di trascinare quasi ogni elemento su un’area di lavoro illimitata, la creazione di un capolavoro di dati visivi sarà presto più semplice che mai.
 
-Questo articolo contiene informazioni sulla versione beta privata corrente, limitata a clienti specifici. Nuove funzioni di Reporting Canvas vengono ora distribuite tramite i dashboard di Canvas. Consulta **Piano di sviluppo** per ulteriori informazioni.
+Questo articolo contiene informazioni sulla versione beta privata corrente, limitata a clienti specifici. Nuove funzioni di Reporting Canvas vengono ora distribuite tramite i dashboard di Canvas. Per ulteriori informazioni, vedere **Piano di sviluppo** di seguito.
 
 ### Piano di sviluppo
 
 Siamo nelle fasi finali della risoluzione di un problema di qualità dei dati che abbiamo osservato all’inizio della versione beta di Reporting Canvas. Presto riprenderemo a lavorare per fornire nuove visualizzazioni, espandere la selezione di oggetti Workfront da segnalare e migliorare le esperienze di creazione e distribuzione dei rapporti, tutte parti integranti nella realizzazione dei nostri obiettivi per Reporting Canvas (Area di lavoro di reporting).
 
-Queste nuove esperienze verranno distribuite in modo incrementale, a partire dalla versione 23.2, tramite la nuova pagina Dashboard di Canvas, ora disponibile nell’ambiente di anteprima. Le dashboard di Canvas consentono di visualizzare i rapporti esistenti, insieme alle nuove funzionalità di reporting che stiamo creando, e fungeranno da ambiente principale per la distribuzione e il test delle nuove funzioni di Reporting Canvas. Per ulteriori informazioni sull’attivazione e l’utilizzo delle dashboard di Canvas, consulta [Panoramica delle dashboard di Canvas](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
+Queste nuove esperienze verranno distribuite in modo incrementale, a partire dalla versione 23.2, tramite la nuova pagina Dashboard di Canvas, ora disponibile nell’ambiente di anteprima. Le dashboard di Canvas consentono di visualizzare i rapporti esistenti, insieme alle nuove funzionalità di reporting che stiamo creando, e fungeranno da ambiente principale per la distribuzione e il test delle nuove funzioni di Reporting Canvas. Per ulteriori informazioni sull&#39;attivazione e l&#39;utilizzo dei dashboard di Canvas, vedere [Panoramica dei dashboard di Canvas](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
 
 ## Partecipare alla versione beta
 
 >[!IMPORTANT]
 >
->Le informazioni beta seguenti sono per gli amministratori che sono già stati inclusi nella versione beta dell’area di lavoro rapporti, che non accetta più nuovi partecipanti. Se desideri testare le nuove funzioni di Reporting Canvas man mano che vengono aggiunte, consulta **Piano di sviluppo** per informazioni sull’abilitazione delle dashboard di Canvas.
+>Le informazioni beta seguenti sono per gli amministratori che sono già stati inclusi nella versione beta dell’area di lavoro rapporti, che non accetta più nuovi partecipanti. Se desideri testare le nuove funzioni di Reporting Canvas man mano che vengono aggiunte, consulta **Piano di sviluppo** sopra per informazioni sull&#39;abilitazione di Canvas Dashboards.
 
 ### Disponibilità
 
@@ -43,8 +43,8 @@ La versione beta dell’Area di lavoro rapporti è disponibile per tutte le orga
 
 La versione beta di Reporting Canvas è completamente facoltativa, ma può essere accettata solo da un amministratore Workfront. Per fornire il consenso come amministratore di sistema:
 
-1. Seleziona la **Generazione rapporti (beta)** nel menu principale dell’istanza Workfront.
-1. Clic **Accetta** accettare i termini e le condizioni.
+1. Seleziona l&#39;icona **Reporting (beta)** nel menu principale dell&#39;istanza di Workfront.
+1. Fai clic su **Accetta** per accettare i termini e le condizioni.
 1. Consente di aggiungere i dati dell’organizzazione all’area di lavoro rapporti (l’operazione potrebbe richiedere alcune ore).
 1. Inizia a utilizzare Reporting Canvas (Area di lavoro rapporti).
 
@@ -52,26 +52,26 @@ Dopo l’aggiunta dei dati dell’organizzazione all’area di lavoro rapporti, 
 
 Per fornire il consenso ad altri utenti che non sono amministratori di Workfront:
 
-1. Seleziona la **Generazione rapporti (beta)** nel menu principale dell’istanza Workfront.
+1. Seleziona l&#39;icona **Reporting (beta)** nel menu principale dell&#39;istanza di Workfront.
 1. Fai clic su **Autorizzazioni Reporting Canvas**.
 1. Cerca e seleziona gli utenti specifici a cui desideri partecipare.
 
    >[!IMPORTANT]
    >
-   >Gli utenti a cui si concede l’accesso a Reporting Canvas (Area di lavoro rapporti) avranno accesso a **tutto** dati nel sistema in sola lettura, indipendentemente dalle autorizzazioni standard di visualizzazione di tali dati.
+   >Gli utenti a cui si concede l&#39;accesso a Reporting Canvas avranno accesso a **tutti** i dati nel sistema in sola lettura, indipendentemente dalle autorizzazioni standard per la visualizzazione di tali dati.
 
 1. Fai clic su **Salva**.
-1. Aggiungi il **Generazione rapporti (beta)** nel modello di layout principale di ogni utente selezionato. Per ulteriori informazioni, consulta [Personalizzare il menu principale utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
-1. Ogni utente deve quindi passare singolarmente al **Generazione rapporti (beta)** nel menu principale e accettare i termini e le condizioni.
+1. Aggiungi l&#39;icona **Generazione rapporti (versione beta)** nel modello di layout principale di ogni utente selezionato. Per ulteriori informazioni, vedere [Personalizzare il menu principale utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+1. Ogni utente deve quindi passare individualmente all&#39;icona **Reporting (beta)** nel menu principale e accettare i termini e le condizioni.
 
 ### Invia feedback
 
 Per inviare un feedback sulla versione beta:
 
-1. In Reporting Canvas (Area di lavoro di reporting) in Workfront, fai clic su **Invia feedback** pulsante.
+1. Nell&#39;area di lavoro Reporting di Workfront, fare clic sul pulsante **Invia feedback**.
 1. Compila il modulo, quindi fai clic su **Invia**.
 
-## Domande frequenti sulla versione beta
+## Domande frequenti su Beta
 
 +++Posso migrare i miei rapporti legacy all’area di lavoro di reporting?
 
@@ -86,7 +86,7 @@ La nostra strategia attuale per la migrazione nelle versioni ufficiali consente 
    1. Consente di esportare un file CSV di tutti i rapporti e dashboard del sistema insieme a eventuali informazioni di tracciamento rilevanti (numero di visualizzazioni, quando e da chi).
    1. Fornisci un’esportazione dei rapporti configurati con le consegne pianificate insieme ai destinatari.
 
-1. Seleziona i rapporti e le dashboard di cui vuoi eseguire la migrazione, quindi fai clic su **Migra**
+1. Seleziona i report e le dashboard di cui vuoi eseguire la migrazione, quindi fai clic su **Migra**
 
    Si tratta di una migrazione unidirezionale. Crea una copia dei report e delle dashboard selezionati nell’area di lavoro dei rapporti, lasciando intatto il report o la dashboard legacy nello strumento di reporting corrente.
 
@@ -125,7 +125,7 @@ Un amministratore di Workfront non può rinunciare alla versione beta, ma può e
 
 1. Accedere come amministratore di sistema.
 1. Passa a Reporting Canvas (Area di lavoro rapporti).
-1. Fai clic su Reporting Canvas (Area di lavoro rapporti) **autorizzazioni**.
+1. Fare clic su Reporting Canvas **autorizzazioni**.
 1. Rimuovi dall’elenco gli utenti per i quali hai acconsentito la rinuncia alla versione beta.
 1. Fai clic su **Salva**.
 +++

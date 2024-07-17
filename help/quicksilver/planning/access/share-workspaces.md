@@ -23,7 +23,7 @@ Puoi condividere un’area di lavoro con altri utenti per garantire la collabora
 
 >[!NOTE]
 >
->La concessione di autorizzazioni a un&#39;area di lavoro non consente ad altri utenti di concedere autorizzazioni per le visualizzazioni nelle pagine dei tipi di record. È necessario concedere autorizzazioni alle singole visualizzazioni in una pagina di tipo record per condividerle con altri utenti. Per informazioni, consulta [Condividere una visualizzazione](/help/quicksilver/planning/access/share-views.md).
+>La concessione di autorizzazioni a un&#39;area di lavoro non consente ad altri utenti di concedere autorizzazioni per le visualizzazioni nelle pagine dei tipi di record. È necessario concedere autorizzazioni alle singole visualizzazioni in una pagina di tipo record per condividerle con altri utenti. Per informazioni, vedere [Condividere una visualizzazione](/help/quicksilver/planning/access/share-views.md).
 
 
 ## Requisiti di accesso
@@ -77,13 +77,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale. </p> <p>Per informazioni, consulta <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica degli accessi</a>. </p> 
+   <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale. </p> <p>Per informazioni, vedere <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica dell'accesso</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
-*Per informazioni, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Condividere le autorizzazioni per un’area di lavoro
 
@@ -96,11 +96,11 @@ Per condividere un’area di lavoro con altri utenti:
 
 {{step1-to-planning}}
 
-1. Apri l’area di lavoro che desideri condividere, quindi fai clic su **Condividi** nell&#39;angolo superiore destro dello schermo.
+1. Apri l&#39;area di lavoro che desideri condividere, quindi fai clic su **Condividi** nell&#39;angolo superiore destro dello schermo.
 
    ![](assets/share-button-on-workspace-top-right.png)
 
-1. In **Concedi l’accesso all’area di lavoro a** , inizia a digitare il nome di un utente o di un gruppo, quindi fai clic su di esso quando viene visualizzato nell’elenco.
+1. Nel campo **Concedi l&#39;accesso all&#39;area di lavoro a**, inizia a digitare il nome di un utente o di un gruppo, quindi fai clic su di esso quando viene visualizzato nell&#39;elenco.
 
    ![](assets/sharing-ui-with-groups.png)
 
@@ -109,8 +109,8 @@ Per condividere un’area di lavoro con altri utenti:
    * Contribuisci
    * Gestire
 
-     Per informazioni sui livelli di autorizzazione e sulle azioni che gli utenti possono eseguire per ciascun livello, consulta [Panoramica delle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
-1. Clic **Copia collegamento** per copiare negli Appunti un collegamento all&#39;area di lavoro.
+     Per informazioni sui livelli di autorizzazione e sulle azioni che gli utenti possono eseguire per ogni livello, vedere [Panoramica sulle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+1. Fai clic su **Copia collegamento** per copiare un collegamento nell&#39;area di lavoro negli Appunti.
 1. Condividi il collegamento copiato con altri utenti. Per poter accedere all’area di lavoro, gli utenti che ricevono il collegamento devono essere utenti attivi e accedere a Workfront.
 1. Fai clic su **Salva**.
 
@@ -120,7 +120,7 @@ Per condividere un’area di lavoro con altri utenti:
 
 {{step1-to-planning}}
 
-1. Apri l’area di lavoro a cui desideri rimuovere le autorizzazioni, quindi fai clic su **Condividi** nell&#39;angolo superiore destro dello schermo.
+1. Apri l&#39;area di lavoro a cui vuoi rimuovere le autorizzazioni, quindi fai clic su **Condividi** nell&#39;angolo superiore destro dello schermo.
 1. Fai clic sul menu a discesa a destra del nome di un utente o di un gruppo, quindi fai clic su **Rimuovi**.
 1. Fai clic su **Salva**.
 

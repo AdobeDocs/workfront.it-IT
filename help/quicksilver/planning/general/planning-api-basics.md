@@ -28,12 +28,12 @@ Gli oggetti vengono manipolati inviando una richiesta HTTP al relativo URI univo
 
 I metodi HTTP standard corrispondono alle operazioni seguenti:
 
-* **GET** - Recupera un oggetto per ID, cerca tutti gli oggetti per query
+* **GET** - Recupera un oggetto per ID, cerca tutti gli oggetti tramite una query
 * **POST** - Inserisce un nuovo oggetto
 * **PUT** - Modifica un oggetto esistente
 * **DELETE** - Elimina un oggetto
 
-Per maggiori dettagli ed esempi su ciascuna operazione, vedere [Documentazione per gli sviluppatori API di Workfront Planning](https://developer.adobe.com/wf-planning/).
+Per ulteriori dettagli ed esempi di ciascuna operazione, vedere la [documentazione per gli sviluppatori API di Workfront Planning](https://developer.adobe.com/wf-planning/).
 
 ### Tipi di campi e modificatori di ricerca utilizzati con tali campi
 
@@ -116,25 +116,25 @@ Workfront Planning supporta i seguenti modificatori di ricerca:
         <td>$isAfter </td>
         <td><code>"fieldId": { "$isAfter": "2024-05-14T20:00:00.000Z" } </code> </td>
         <td>Restituisce record il cui valore di campo è dopo il filtro  </td>
-        <td>"2024-05-15T20:00:00,000Z"  </td>
+        <td>"2024-05-15T20:00:00.000Z"  </td>
     </tr>
     <tr>
         <td>$isBefore </td>
         <td><code>"fieldId": { "$isBefore": "2024-05-14T20:00:00.000Z" } </code> </td>
         <td>Restituisce record il cui valore di campo è precedente al filtro </td>
-        <td>"2024-05-12T20:00:00,000Z" </td>
+        <td>"2024-05-12T20:00:00.000Z" </td>
     </tr>
     <tr>
         <td>$isBetween </td>
         <td><code>"fieldId": { "$isBetween": ["2024-05-10T20:00:00.000Z", "2024-05-15T20:00:00.000Z"] } </code> </td>
         <td>Restituisce record il cui valore di campo è compreso tra il filtro  </td>
-        <td><ul><li>"2024-05-12T20:00:00,000Z" </li><li>"2024-05-14T20:00:00,000Z" </li><ul>  </td>
+        <td><ul><li>"2024-05-12T20:00:00.000Z" </li><li>"2024-05-14T20:00:00.000Z" </li><ul>  </td>
     </tr>
     <tr>
         <td>$isNotBetween </td>
         <td><code>"fieldId": { "$isNotBetween": ["2024-05-10T20:00:00.000Z", "2024-05-15T20:00:00.000Z"] } </code> </td>
         <td>Restituisce record il cui valore di campo non è compreso tra il filtro  </td>
-        <td><ul><li>"09/05/2024:00:00,000Z"  </li><li>"2024-05-17T20:00:00,000Z"  </li><ul>  </td>
+        <td><ul><li>"2024-05-09T20:00:00.000Z"  </li><li>"2024-05-17T20:00:00.000Z"  </li><ul>  </td>
     </tr>
     <tr>
         <td>$isAnyOf </td>
@@ -329,9 +329,9 @@ Corpo della richiesta:
 
 ### Limiti delle query e risposte impaginate
 
-Per impostazione predefinita, le richieste API di Planning restituiscono 500 risultati, a partire dall’inizio dell’elenco. Per ignorare il limite predefinito per il numero di risultati, è possibile utilizzare `limit` nelle richieste e impostarlo su un numero diverso, fino a 2.000 risultati.
+Per impostazione predefinita, le richieste API di Planning restituiscono 500 risultati, a partire dall’inizio dell’elenco. Per ignorare il limite predefinito per il numero di risultati, è possibile utilizzare il parametro `limit` nelle richieste e impostarlo su un numero diverso, fino a 2.000 risultati.
 
-È consigliabile utilizzare risposte impaginate per set di dati di grandi dimensioni aggiungendo il `offset` alle richieste. Le risposte impaginate consentono di specificare la posizione del primo risultato che deve essere restituito.
+È consigliabile considerare l&#39;utilizzo di risposte impaginate per set di dati di grandi dimensioni aggiungendo il parametro `offset` alle richieste. Le risposte impaginate consentono di specificare la posizione del primo risultato che deve essere restituito.
 
 Ad esempio, se si desidera restituire i risultati 2001-4000, è possibile utilizzare la seguente richiesta. In questo esempio vengono restituiti 2000 record con stato attivo, a partire dal risultato 2001:
 
@@ -354,7 +354,7 @@ Corpo della richiesta:
 
 Per assicurarti che i risultati siano impaginati correttamente, utilizza un parametro di ordinamento. Questo consente di restituire i risultati nello stesso ordine, in modo che l’impaginazione non si ripeta né salti i risultati.
 
-Per ulteriori informazioni sull’ordinamento, consulta [Ordinamento dei risultati della query nell’API](#sorting-query-results-in-the-api) in questo articolo.
+Per ulteriori informazioni sull&#39;ordinamento, vedere [Ordinamento dei risultati della query nell&#39;API](#sorting-query-results-in-the-api) in questo articolo.
 
 
 

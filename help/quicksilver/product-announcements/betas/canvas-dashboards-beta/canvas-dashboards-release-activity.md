@@ -19,7 +19,7 @@ ht-degree: 0%
 
 In questa pagina sono elencati gli aggiornamenti di sviluppo rilasciati per la versione beta delle dashboard di Canvas su base settimanale.
 
-Per informazioni generali sulla versione beta delle dashboard di Canvas, consulta [Panoramica delle dashboard di Canvas](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
+Per informazioni generali sulla versione beta di Canvas Dashboards, vedere [Panoramica di Canvas Dashboards](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
 
 ## Settimana del 14 agosto
 
@@ -29,6 +29,6 @@ Per informazioni generali sulla versione beta delle dashboard di Canvas, consult
 
 ## Settimana del 5 giugno
 
-* **Rapporti grafico**
+* **Report grafico**
 
-  Ora è possibile aggiungere rapporti grafico a un’area di lavoro, oltre a rapporti elenco. Per ulteriori informazioni sull’aggiunta di un rapporto grafico a un dashboard di Canvas, consulta [Panoramica delle dashboard di Canvas](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
+  Ora è possibile aggiungere rapporti grafico a un’area di lavoro, oltre a rapporti elenco. Per ulteriori informazioni sull&#39;aggiunta di un report grafico a un dashboard Canvas, vedere [Panoramica dei dashboard Canvas](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).

@@ -1,6 +1,6 @@
 ---
-title: Attività di rilascio di Workfront Fusion:&nbsp;Settimana del 15 febbraio 2021
-description: Attività di rilascio di Workfront Fusion:&nbsp;Settimana del 15 febbraio 2021
+title: Attività del rilascio di Workfront Fusion:&nbsp;Settimana del 15 febbraio 2021
+description: Attività del rilascio di Workfront Fusion:&nbsp;Settimana del 15 febbraio 2021
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti apportati ad Adobe Workfront Fusion la settimana del 15 febbraio 2021.
 
-Per un elenco di tutte le modifiche recenti, vedi [Attività di rilascio di Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Per un elenco di tutte le modifiche recenti, vedere [Attività di Adobe Workfront Fusion release](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedi [Aggiornamenti di manutenzione per Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
+Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedere la pagina [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
 
-Questa versione include anche uno o più aggiornamenti di manutenzione. Per informazioni sugli aggiornamenti di manutenzione di Workfront Fusion 2.0, consulta [Aggiornamenti di manutenzione per Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Questa versione include anche uno o più aggiornamenti di manutenzione. Per informazioni sugli aggiornamenti di manutenzione di Workfront Fusion 2.0, vedere [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ## I team ora condividono le impostazioni delle notifiche e-mail
 
@@ -34,7 +34,7 @@ In precedenza, gli utenti impostavano le proprie impostazioni per le notifiche e
 >
 >Fusion applica le impostazioni di notifica dell’organizzazione a livello di team per ogni team dell’organizzazione. Per fare in modo che i team sfruttino la nuova funzionalità di notifica, aggiorna le impostazioni delle notifiche e-mail a livello di team.
 
-Per ulteriori informazioni, consulta [Organizzazioni e team di Adobe Workfront Fusion](../../../workfront-fusion/organizations/organizations-and-teams.md).
+Per ulteriori informazioni, vedere [Organizzazioni e team di Adobe Workfront Fusion](../../../workfront-fusion/organizations/organizations-and-teams.md).
 
 ## Seleziona la versione API nel modulo Workfront > Chiamata API personalizzata
 
@@ -42,4 +42,4 @@ Per rendere le tue chiamate API più personalizzabili, ti abbiamo reso possibile
 
 In precedenza, non era possibile selezionare la versione API di Workfront per questo modulo.
 
-Per ulteriori informazioni, consulta [Moduli Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Per ulteriori informazioni, vedere [Moduli Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).

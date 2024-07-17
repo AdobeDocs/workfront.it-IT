@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.3 Miglioramenti al progetto
 
-Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione 22.3 di Project. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana dell’11 luglio 2022. Per un elenco di tutte le modifiche disponibili con la versione 22.3, consulta [Panoramica sulla versione 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione 22.3 di Project. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana dell’11 luglio 2022. Per un elenco di tutte le modifiche disponibili con la versione 22.3, vedere [Panoramica sulla versione 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Delega fuori sede
 
@@ -39,7 +39,7 @@ Di seguito sono riportate alcune delle funzioni aggiunte con questo aggiornament
 >Solo gli utenti con una licenza Revisione o superiore possono delegare il proprio lavoro ad altri. Il lavoro può essere delegato a qualsiasi utente, indipendentemente dal suo livello di accesso. Gli utenti delegati ricevono le stesse autorizzazioni degli assegnatari per gli elementi delegati. Se queste autorizzazioni sono inferiori alla configurazione del livello di accesso di un utente, agli utenti delegati potrebbe essere impedito di eseguire alcune delle attività sulle attività e sui problemi loro delegati.
 
 
-Per ulteriori informazioni, consulta [Panoramica sulle attività e sui problemi dei delegati](/help/quicksilver/manage-work/delegate-work/delegate-work-overview.md).
+Per ulteriori informazioni, consulta [Panoramica sui problemi e sulle attività dei delegati](/help/quicksilver/manage-work/delegate-work/delegate-work-overview.md).
 
 ## Nuova esperienza durante la conversione di un problema in un’attività
 
@@ -54,7 +54,7 @@ Questo aggiornamento include:
 * I moduli personalizzati predefiniti definiti nell’area Impostazioni attività del progetto di destinazione aggiunto alla nuova attività.
 
 
-Per ulteriori informazioni, consulta [Convertire un problema in un’attività in Adobe Workfront](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-task.md).
+Per ulteriori informazioni, vedere [Convertire un problema in un&#39;attività in Adobe Workfront](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-task.md).
 
 ## Nuova esperienza durante la conversione di un problema in un progetto senza modello
 
@@ -62,19 +62,19 @@ Per rendere il tuo utilizzo di Workfront coerente con la nuova esperienza Workfr
 
 Oltre a un’interfaccia utente aggiornata che corrisponde al resto della nuova esperienza Workfront, è stata aggiunta la possibilità di convertire un problema in progetti vuoti da un elenco o da un rapporto.
 
-Per ulteriori informazioni, consulta [Convertire un problema in un progetto in Adobe Workfront](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-project.md).
+Per ulteriori informazioni, vedere [Convertire un problema in un progetto in Adobe Workfront](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 ## Applicazione di tag avanzati nel flusso di aggiornamento
 
 Sono stati migliorati i tag degli utenti nel flusso di aggiornamento quando crei un nuovo aggiornamento o rispondi a uno esistente. Ora, quando si assegna un tag a un utente per includerlo in un aggiornamento, oltre al nome e all’avatar, vengono visualizzati anche il Ruolo principale e l’e-mail. Questo aiuta a distinguere tra più utenti con nomi simili o identici.
 
-Per ulteriori informazioni, consulta [Assegna tag ad altri utenti in caso di aggiornamenti](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+Per ulteriori informazioni, consulta [Assegnare tag ad altri in occasione di aggiornamenti](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
 ## Nuova sintassi per i calcoli nei campi personalizzati
 
 Per prepararti ai miglioramenti futuri che ti aiuteranno ad aggiungere calcoli ai moduli personalizzati, abbiamo standardizzato la sintassi per i campi di riferimento che aggiungi a un calcolo. È facile utilizzare questa nuova sintassi perché il sistema la inserisce automaticamente quando si inizia a digitare il nome di un campo e quindi a selezionarlo.
 
-Per ulteriori informazioni, consulta la sezione &quot;Generare il calcolo per il campo personalizzato calcolato&quot; in [articolo Aggiungere dati calcolati a un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Per ulteriori informazioni, vedere la sezione &quot;Generare il calcolo per il campo personalizzato calcolato&quot; nell&#39;articolo [Aggiungere dati calcolati a un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 ## Informazioni accurate quando due utenti con un ruolo comune sono coinvolti in un processo di approvazione
 
@@ -84,7 +84,7 @@ Alcuni processi di approvazione richiedono l’approvazione da due ruoli diversi
 
 Prima di questa modifica, entrambe le approvazioni erano registrate per il secondo utente perché condivideva uno dei ruoli di approvazione con il primo approvatore. In questo caso, il secondo approvatore stava sovrascrivendo le informazioni del primo approvatore.
 
-Per ulteriori informazioni sui processi di approvazione in Workfront, consulta [Panoramica del processo di approvazione](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
+Per ulteriori informazioni sui processi di approvazione in Workfront, vedere [Panoramica sui processi di approvazione](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
 
 ## Le ore di allocazione non verranno più rimosse quando si apportano modifiche alle assegnazioni
 
@@ -131,7 +131,7 @@ Sono stati aggiunti i seguenti miglioramenti alle schede madri Adobe Workfront:
 * Indicatore di aggiornamento del campo: ora quando salvi una scheda viene visualizzato un indicatore che indica che gli aggiornamenti sono stati salvati.
 
 
-Per ulteriori informazioni, consulta [Introduzione alle bacheche in Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/get-started-with-boards.md).
+Per ulteriori informazioni, vedere [Introduzione alle bacheche in Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/get-started-with-boards.md).
 
 ## Condividere cartelle solo nei primi cinque livelli di una gerarchia di cartelle
 
@@ -139,13 +139,13 @@ Per garantire le migliori prestazioni agli utenti che condividono cartelle, attu
 
 Ogni cartella al sesto livello o inferiore eredita le configurazioni di condivisione dalla cartella direttamente al di sopra di essa.
 
-Per ulteriori informazioni sulla condivisione delle cartelle, vedere [Condivisione di una cartella documenti di primo livello](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+Per ulteriori informazioni sulla condivisione delle cartelle, vedere [Condividere una cartella documenti di livello principale](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 
 ## Campagne Workfront (Beta): un nuovo modo di gestire il tuo lavoro
 
 >[!NOTE]
 >
->Questa funzione dovrebbe essere rimossa dall’anteprima il 9 gennaio 2023. Per ulteriori informazioni, vedere [Pagina di panoramica sulla versione 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+>Questa funzione dovrebbe essere rimossa dall’anteprima il 9 gennaio 2023. Per ulteriori informazioni, vedere la pagina di panoramica sulla versione di [23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
 >[!NOTE]
 >

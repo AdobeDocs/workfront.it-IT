@@ -5,7 +5,7 @@ product-area: workfront-integrations
 keywords: connettore
 navigation-topic: apps-and-their-modules
 title: Modulo SOAP
-description: È possibile utilizzare il modulo SOAP per connettersi alle API SOAP in Adobe Workfront Fusion.
+description: Puoi utilizzare il modulo SOAP per connettersi alle API SOAP in Adobe Workfront Fusion.
 author: Becky
 feature: Workfront Fusion
 exl-id: 752e0766-25f2-4d22-bed5-7c931284258d
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 ---
 
-# [!UICONTROL SOAP] modulo
+# Modulo [!UICONTROL SOAP]
 
-È possibile utilizzare [!UICONTROL SOAP] modulo a cui connettersi [!UICONTROL SOAP] API in [!UICONTROL Adobe Workfront Fusion].
+È possibile utilizzare il modulo [!UICONTROL SOAP] per connettersi alle API [!UICONTROL SOAP] in [!UICONTROL Adobe Workfront Fusion].
 
 ## Requisiti di accesso
 
@@ -39,40 +39,40 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licenza**</td> 
    <td>
-   <p>Fabbisogno di licenza corrente: No [!DNL Workfront Fusion] requisito di licenza.</p>
+   <p>Requisiti di licenza correnti: nessun requisito di licenza [!DNL Workfront Fusion].</p>
    <p>Oppure</p>
-   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro] </p>
+   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione del lavoro] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
    <td>
-   <p>Fabbisogno prodotto corrente: se si dispone di [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Pianifica, la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo. [!DNL Workfront Fusion] è incluso in [!UICONTROL Ultimate] [!DNL Workfront] piano.</p>
+   <p>Fabbisogno prodotto corrente: se si dispone del piano [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], l'organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo. [!DNL Workfront Fusion] è incluso nel piano [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>Oppure</p>
-   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</p>
+   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore [!DNL Workfront].
 
-Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Limitazioni del [!UICONTROL SOAP] modulo
+## Limitazioni del modulo [!UICONTROL SOAP]
 
 >[!NOTE]
 >
 >I reindirizzamenti sono disattivati durante il caricamento WDSL. Si tratta di una funzione di sicurezza, ma potrebbe significare che i reindirizzamenti non verificati vengono bloccati durante l’esecuzione del modulo.
 
-Il [!UICONTROL SOAP] Il modulo è attualmente in versione beta e non supporta:
+Il modulo [!UICONTROL SOAP] è attualmente in versione beta e non supporta:
 
 * Ridefinire gli elementi
 * Limitazioni per cifre frazionarie
 * Limitazioni per le cifre totali
 * Limitazioni dello spazio vuoto
 * Più parti nei messaggi di input e di output. Sono supportati solo i messaggi in una sola parte
-* Elementi schema XML personalizzati definiti con l&#39;aiuto di [[!UICONTROL SOAP] Codifica](https://schemas.xmlsoap.org) schemi ed elementi.
+* Elementi schema XML personalizzati definiti con l&#39;aiuto di [[!UICONTROL SOAP] schemi ed elementi di codifica](https://schemas.xmlsoap.org).
 
 >[!INFO]
 >
@@ -91,14 +91,14 @@ Il [!UICONTROL SOAP] Il modulo è attualmente in versione beta e non supporta:
 ></complexType>
 >```
 >
->Questo esempio include `soapenc:Array`, `soapenc:arrayType` e `wsdl:arrayType` riferimenti, non ancora supportati in [!UICONTROL Workfront Fusion].
+>Questo esempio include i riferimenti `soapenc:Array`, `soapenc:arrayType` e `wsdl:arrayType`, non ancora supportati in [!UICONTROL Workfront Fusion].
 
 ## Soluzione alternativa
 
-Se il [!UICONTROL SOAP] Il modulo rifiuta di elaborare il file WSDL o genera vari errori nella configurazione del modulo. **[!UICONTROL HTTP] > [!UICONTROL Fai una richiesta]** invece del modulo:
+Se il modulo [!UICONTROL SOAP] rifiuta di elaborare il file WSDL o genera vari errori nella configurazione del modulo, è possibile provare a utilizzare il modulo universale **[!UICONTROL HTTP] > [!UICONTROL Richiedi]**:
 
-1. In entrata [!DNL Workfront Fusion], crea un nuovo scenario.
-1. Inserisci il **[!UICONTROL HTTP] > [!UICONTROL Fai una richiesta]** nello scenario.
+1. In [!DNL Workfront Fusion] creare un nuovo scenario.
+1. Inserisci il modulo **[!UICONTROL HTTP] > [!UICONTROL Invia una richiesta]** nello scenario.
 1. Apri la configurazione del modulo e compila i campi seguenti:
 
    <table style="table-layout:auto"> 
@@ -129,24 +129,24 @@ Se il [!UICONTROL SOAP] Il modulo rifiuta di elaborare il file WSDL o genera var
 1. Aprire una nuova finestra o scheda del browser Web.
 1. Incollare l&#39;URL WSDL nella barra degli indirizzi del browser Web e recuperare il file XML.
 
-   L’URL WSDL in genere termina con `?wsdl`, ma non necessariamente, ad esempio `http://voip.ms/api/v1/server.wsdl`.
+   L&#39;URL WSDL termina in genere con `?wsdl`, ma non necessariamente, ad esempio `http://voip.ms/api/v1/server.wsdl`.
 
 1. Se il file WSDL non viene visualizzato direttamente nel browser Web, aprire il file scaricato in un editor di testo.
-1. Cerca `<service>` o `<wsdl:service>` tag:
+1. Cerca il tag `<service>` o `<wsdl:service>`:
 
    ![](assets/service-350x65.png)
 
-1. Una volta individuato, copia l’URL da `location` attributo.
-1. In entrata [!DNL Workfront Fusion], incolla l’URL nel campo URL del modulo HTTP.
-1. Apri [Online [!UICONTROL SOAP] Client](https://wsdlbrowser.com/) in una nuova finestra/scheda del browser web.
+1. Una volta individuato, copiare l&#39;URL dall&#39;attributo `location`.
+1. In [!DNL Workfront Fusion], incollare l&#39;URL nel campo URL del modulo HTTP.
+1. Apri il [client [!UICONTROL SOAP] in linea](https://wsdlbrowser.com/) in una nuova finestra/scheda del browser Web.
 1. Incollare l&#39;URL WSDL nel campo URL WSDL.
-1. Clic **[!UICONTROL Sfoglia]**.
-1. Scegli dall’elenco delle funzioni a sinistra, ad esempio `getLanguages`.
-1. Copia il contenuto del [!UICONTROL Richiedi XML] area di testo.
-1. In entrata [!UICONTROL Workfront Fusion], incolla il contenuto copiato nel campo URL del modulo.
+1. Fare clic su **[!UICONTROL Sfoglia]**.
+1. Selezionare dall&#39;elenco di funzioni a sinistra, ad esempio `getLanguages`.
+1. Copia il contenuto dell&#39;area di testo [!UICONTROL Richiedi XML].
+1. In [!UICONTROL Workfront Fusion], incolla il contenuto copiato nel campo URL del modulo.
 1. Fornire i valori per i parametri selezionati sostituendo i punti interrogativi con i valori effettivi:
 
    ![](assets/request-xml-350x172.png)
 
-1. Chiudi la configurazione del modulo facendo clic su **[!UICONTROL OK]**.
+1. Chiudere la configurazione del modulo facendo clic su **[!UICONTROL OK]**.
 1. Esegui lo scenario o il modulo.

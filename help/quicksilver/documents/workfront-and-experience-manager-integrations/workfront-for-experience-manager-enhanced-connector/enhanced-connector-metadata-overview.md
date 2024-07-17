@@ -2,33 +2,33 @@
 content-type: overview
 product-area: documents;workfront-integrations
 navigation-topic: workfront-for-experience-manager-enhanced-connector
-title: Panoramica sui metadati dei connettori avanzati di Workfront per Experience Manager
-description: Workfront, ad Experience Manager, un connettore avanzato può acquisire automaticamente i metadati da ideazione a distribuzione. Aumenta la velocità dei contenuti migliorando la ricerca all’interno dell’archivio risorse. Gli utenti possono trovare facilmente tutte le risorse associate a un particolare progetto Workfront ricercando il titolo del progetto, il numero di riferimento, la data o qualsiasi altra proprietà di metadati associata.
+title: Panoramica dei metadati del connettore avanzato di Workfront ad Experience Manager
+description: Il connettore ottimizzato di Workfront ad Experience Manager può acquisire automaticamente i metadati dall’ideazione alla distribuzione. Velocizza i contenuti migliorando la ricercabilità all’interno dell’archivio delle risorse. Gli utenti possono trovare facilmente tutte le risorse associate a un particolare progetto Workfront eseguendo ricerche nel titolo del progetto, nel numero di riferimento, nella data o in altre proprietà di metadati associate.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 0b05e766-6b07-451a-9f43-7f1a980e1a9d
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
-# Panoramica sui metadati dei connettori avanzati di Workfront per Experience Manager
+# Panoramica dei metadati del connettore avanzato di Workfront ad Experience Manager
 
-Workfront, ad Experience Manager, un connettore avanzato può acquisire automaticamente i metadati da ideazione a distribuzione. Aumenta la velocità dei contenuti migliorando la ricerca all’interno dell’archivio risorse. Gli utenti possono trovare facilmente tutte le risorse associate a un particolare progetto Workfront ricercando il titolo del progetto, il numero di riferimento, la data o qualsiasi altra proprietà di metadati associata.
+Il connettore ottimizzato di Workfront ad Experience Manager può acquisire automaticamente i metadati dall’ideazione alla distribuzione. Velocizza i contenuti migliorando la ricercabilità all’interno dell’archivio delle risorse. Gli utenti possono trovare facilmente tutte le risorse associate a un particolare progetto Workfront eseguendo ricerche nel titolo del progetto, nel numero di riferimento, nella data o in altre proprietà di metadati associate.
 
 ## Best practice per i metadati
 
-Workfront, ad Experience Manager, è in grado di mappare tutti i campi modulo personalizzati. Di seguito è riportato un elenco dei campi di metadati comuni da acquisire in Workfront e da allegare alle risorse digitali durante l’invio a Experience Manager Assets.
+Il connettore avanzato di Workfront ad Experience Manager è in grado di mappare tutti i campi del modulo personalizzato. Di seguito è riportato un elenco dei campi di metadati comuni da acquisire in Workfront e da allegare alle risorse digitali quando vengono inviate a Experience Manager Assets.
 
-* Dettagli del progetto
+* Dettagli progetto
 
    * Nome progetto
    * ID progetto o numero di riferimento
    * Descrizione del progetto
-   * Data di inizio e di fine del progetto
-   * Parti interessate
+   * Data di inizio e di fine progetto
+   * Interessati
    * Dipartimento di sponsorizzazione
 
 * Dettagli documento
@@ -45,9 +45,9 @@ Workfront, ad Experience Manager, è in grado di mappare tutti i campi modulo pe
    * Assegnatario
    * Totale ore registrate
 
-* Dettagli del problema
+* Dettagli problema
 
    * Nome problema
    * ID problema o numero di riferimento
-   * Descrizione del problema
+   * Descrizione problema
    * Assegnatario

@@ -3,7 +3,7 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
-title: Risoluzione dei problemi - [!DNL Workfront Proof] visualizzatore di bozze
+title: Risoluzione dei problemi -  [!DNL Workfront Proof] visualizzatore di verifica
 description: Se il contenuto della bozza non viene caricato e puoi visualizzare solo un visualizzatore di bozze vuoto, è probabile che a livello locale sia presente un elemento che blocca l’azione.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -15,17 +15,17 @@ ht-degree: 0%
 
 ---
 
-# Risoluzione dei problemi - [!DNL Workfront Proof] visualizzatore di bozze
+# Risoluzione dei problemi - Visualizzatore di bozze [!DNL Workfront Proof]
 
 <!-- Audited: 01/2024 -->
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alle funzionalità del prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Bozza](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
 Se il contenuto della bozza non viene caricato e puoi visualizzare solo un visualizzatore di bozze vuoto, è probabile che a livello locale sia presente un elemento che blocca l’azione. Prova le soluzioni possibili di seguito.
 
-## Verifica che il browser sia corretto <!--and [!DNL Flash Player]--> la versione è aggiornata
+## Verificare che la versione del browser <!--and [!DNL Flash Player]--> sia aggiornata
 
 Tutti gli sviluppatori lavorano costantemente sulle loro applicazioni e rilasciano regolarmente nuove funzioni e correzioni per i loro prodotti. In questo modo è possibile migliorare l’esperienza utente e mantenere il livello di sicurezza. È quindi consigliabile utilizzare solo le versioni più recenti. Questo consente anche di evitare conflitti tra le applicazioni.
 
@@ -45,7 +45,7 @@ Please note: we do recommend using the original [!DNL Adobe] plugin, so if your 
 
 Di solito la maggior parte dei browser si aggiorna automaticamente, ma se si verificano problemi vale la pena controllare quale versione si sta utilizzando ed eseguire un aggiornamento, se necessario.
 
-Nel browser, vai a [!UICONTROL Menu] e individuare [!UICONTROL Informazioni su] (in alcuni casi può essere visibile in un [!UICONTROL Aiuto] menu). In [!UICONTROL Informazioni su] pop-up, troverai informazioni sulla versione corrente del browser e anche un&#39;opzione per aggiornare/verificare la disponibilità di aggiornamenti.
+Nel browser, vai a [!UICONTROL Menu] e individua l&#39;opzione [!UICONTROL Informazioni su] (in alcuni casi può essere visibile in un menu [!UICONTROL Guida]). Nel pop-up [!UICONTROL Informazioni su], troverai informazioni sulla versione corrente del browser e un&#39;opzione per aggiornare/verificare la disponibilità di aggiornamenti.
 
 Ad esempio, in Chrome:
 
@@ -70,25 +70,25 @@ If there is some storage allocated, but you're working with the bigger proofs wi
 * Non abbiamo un browser preferito, ma se si hanno problemi di prestazioni nel browser corrente, si consiglia di passare a uno diverso.
 * Le bozze si aprono su un computer diverso nella tua posizione?
 Se la bozza non si apre in alcun browser del computer, prova ad aprirla in un altro computer nella tua posizione e/o all’esterno della tua. Questo consente di determinare se un problema si verifica nel computer in uso o se il problema si trova nella rete locale.
-Se il livello di protezione è più elevato, le connessioni a [!DNL Workfront Proof] può essere bloccato da:
+Se il livello di protezione è più elevato, le connessioni a [!DNL Workfront Proof] potrebbero essere bloccate da:
 
    * Il software AV locale
    * Soluzione di sicurezza di rete
    * Configurazione DNS, firewall o proxy
-   * Queste sono le impostazioni che sfuggono al nostro controllo. Sono disponibili varie soluzioni di sicurezza e non siamo in grado di individuare quali sono implementate nella rete e quali potrebbero bloccare le connessioni a [!DNL Workfront Proof]. Inoltre, non è possibile [!DNL Workfront Proof] per decidere la configurazione della sicurezza interna. In caso di problemi durante l&#39;apertura delle bozze su più computer della propria posizione o rete, si consiglia di contattare il team IT in modo che possa verificare le impostazioni di rete e autorizzare o aggiungere [!DNL Workfront Proof] inserire nell&#39;elenco Consentiti all’, se necessario.
+   * Queste sono le impostazioni che sfuggono al nostro controllo. Sono disponibili diverse soluzioni di sicurezza e non è possibile sapere quali sono implementate nella rete e quali potrebbero bloccare le connessioni a [!DNL Workfront Proof]. Non spetta inoltre a [!DNL Workfront Proof] decidere la configurazione della sicurezza interna. In caso di problemi durante l&#39;apertura delle bozze su più computer della propria posizione/rete, è consigliabile contattare il team IT in modo che possa verificare le impostazioni di rete e autorizzare o aggiungere [!DNL Workfront Proof] al inserisco nell&#39;elenco Consentiti di, se necessario.
 
-* Le connessioni a [!DNL Workfront Proof] nella rete?
-All’interno del Visualizzatore bozze vengono caricate le tessere, ovvero i frammenti delle pagine. Se il contenuto non viene caricato correttamente alla fine, è possibile che alcune connessioni a [!DNL Workfront Proof] sono bloccati nella rete. Assicurati che tutte le connessioni e tutti i contenuti di *.proofhq.com siano stati aggiunti al inserisco nell&#39;elenco Consentiti di. Il tuo team IT dovrebbe essere in grado di aiutarti a verificarlo.
+* Le connessioni a [!DNL Workfront Proof] sono consentite nella rete?
+All’interno del Visualizzatore bozze vengono caricate le tessere, ovvero i frammenti delle pagine. Se il contenuto non viene caricato correttamente alla fine, è possibile che alcune connessioni a [!DNL Workfront Proof] siano bloccate nella rete. Assicurati che tutte le connessioni e tutti i contenuti di *.proofhq.com siano stati aggiunti al inserisco nell&#39;elenco Consentiti di. Il tuo team IT dovrebbe essere in grado di aiutarti a verificarlo.
 
 ## Controlla i plug-in
 
-Se il browser è aggiornato e la rete non blocca le connessioni a [!DNL Workfront Proof], nel browser potrebbe essere presente un elemento che influisce sulla visualizzazione delle bozze. Nel browser sono spesso disponibili più plug-in ed estensioni e alcuni di essi potrebbero interferire o entrare in conflitto con gli altri.
+Se il browser è aggiornato e la rete non blocca le connessioni a [!DNL Workfront Proof], potrebbe esserci qualcosa nel browser che influisce sulla visualizzazione delle bozze. Nel browser sono spesso disponibili più plug-in ed estensioni e alcuni di essi potrebbero interferire o entrare in conflitto con gli altri.
 
-La procedura consigliata consiste nel rimuovere tutti i componenti aggiuntivi sconosciuti e mantenere solo quelli utilizzati e considerati attendibili. Ogni browser deve fornire le opzioni per controllare/modificare/eliminare i plug-in e le estensioni. Utilizziamo JavaScript per caricare [!DNL Workfront Proof] in modo da poter controllare in particolare i plug-in che potrebbero interessarlo.
+La procedura consigliata consiste nel rimuovere tutti i componenti aggiuntivi sconosciuti e mantenere solo quelli utilizzati e considerati attendibili. Ogni browser deve fornire le opzioni per controllare/modificare/eliminare i plug-in e le estensioni. JavaScript viene utilizzato per caricare il visualizzatore [!DNL Workfront Proof] e si desidera esaminare in particolare i plug-in che potrebbero influire su tale operazione.
 
 Se esiste un componente aggiuntivo particolare che interferisce con il caricamento delle bozze, puoi provare a controllare i dettagli nella console del browser.
 
-![Console del browser](assets/proofview-4.png)
+![Console browser](assets/proofview-4.png)
 
 Nella maggior parte dei browser più recenti sono disponibili alcuni strumenti per sviluppatori aggiuntivi che possono essere utilizzati per una risoluzione più avanzata dei problemi.
 
@@ -101,8 +101,8 @@ In caso di problemi durante la visualizzazione delle bozze:
 
 ## Verifica impostazioni contenuto misto
 
-Tutte le connessioni a [!DNL Workfront Proof] si trovano su HTTPS. Tuttavia, nella [!DNL Workfront Proof] Il visualizzatore carica le tessere su HTTP e i dati sono protetti con i token. Questo crea contenuti misti che alcuni browser o soluzioni di sicurezza potrebbero bloccare (per impostazione predefinita o tramite configurazione manuale).
+Tutte le connessioni a [!DNL Workfront Proof] sono tramite HTTPS. Tuttavia, nel visualizzatore [!DNL Workfront Proof] le tessere vengono caricate su HTTP e i dati sono protetti con i token. Questo crea contenuti misti che alcuni browser o soluzioni di sicurezza potrebbero bloccare (per impostazione predefinita o tramite configurazione manuale).
 
-Se per questo motivo le bozze non si aprono sul computer (dovresti poter visualizzare gli avvisi pertinenti nella console del browser), autorizza tali connessioni per [!DNL Workfront Proof] o modificare le impostazioni per consentire contenuti misti passivi sul computer. I contenuti misti potrebbero essere bloccati dal browser, dal software AV o dalla configurazione di rete per determinare la causa esatta. Contattare il team IT o gli amministratori di rete. Dovrebbero anche essere in grado di aiutare ad abilitare i contenuti misti sul computer.
+Se questo è il motivo per cui le bozze non si aprono sul computer (dovresti essere in grado di visualizzare gli avvisi pertinenti nella console del browser), autorizzare tali connessioni per [!DNL Workfront Proof] o modificare le impostazioni per consentire contenuti misti passivi sul computer. I contenuti misti potrebbero essere bloccati dal browser, dal software AV o dalla configurazione di rete per determinare la causa esatta. Contattare il team IT o gli amministratori di rete. Dovrebbero anche essere in grado di aiutare ad abilitare i contenuti misti sul computer.
 
 

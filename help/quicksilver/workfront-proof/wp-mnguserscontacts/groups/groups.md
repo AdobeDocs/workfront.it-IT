@@ -20,11 +20,11 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alle funzionalità del prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Bozza](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
 Questa sezione contiene i seguenti articoli:
 
 * [Aggiungere gruppi a una bozza](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md)
-* [Creare gruppi di verifica tramite [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md)
-* [Rendi i gruppi privati tramite [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)
+* [Crea gruppi di verifica tramite  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md)
+* [Rendi i gruppi privati tramite  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)
 * [Gestisci gruppi tramite [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/manage-groups.md)

@@ -19,7 +19,7 @@ Puoi aggiungere rapidamente una scheda a una bacheca e assegnarla a un membro de
 
 >[!NOTE]
 >
->Le schede ad hoc su una bacheca non sono collegate agli elementi di lavoro in [!DNL Adobe Workfront]. Per ulteriori informazioni sulle schede collegate, vedere [Utilizzare le schede collegate sulle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+>Le schede ad hoc di una bacheca non sono connesse agli elementi di lavoro in [!DNL Adobe Workfront]. Per informazioni dettagliate sulle schede collegate, vedere [Utilizzare le schede collegate nelle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Requisiti di accesso
 
@@ -42,30 +42,30 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
 
 ## Aggiungi una scheda ad hoc con dettagli completi
 
-Una scheda ad hoc non è collegata a un elemento di lavoro in [!DNL Adobe Workfront].
+Scheda ad hoc non connessa a un elemento di lavoro in [!DNL Adobe Workfront].
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe] Workfront, quindi fai clic su **[!UICONTROL Schede]**.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe] Workfront, quindi fai clic su **[!UICONTROL Bacheche]**.
 1. Accedi a una bacheca. Per informazioni, consulta [Creare o modificare una bacheca](../../agile/get-started-with-boards/create-edit-board.md).
-1. Clic **[!UICONTROL Aggiungi scheda] > [!UICONTROL Nuova scheda]**.
+1. Fai clic su **[!UICONTROL Aggiungi scheda] > [!UICONTROL Nuova scheda]**.
 
-   Il [!UICONTROL Dettagli scheda] viene visualizzato.
+   Viene visualizzata la casella [!UICONTROL Dettagli scheda].
 
    >[!NOTE]
    >
-   >Se fai clic all’esterno del campo Nome, la scheda ad hoc viene salvata automaticamente come &quot;Senza titolo&quot; nella parte inferiore della colonna più a sinistra. Per uscire senza salvare la scheda, fai clic su [!UICONTROL **Annulla**] senza fare clic in un altro punto della [!UICONTROL Dettagli scheda] casella.
+   >Se fai clic all’esterno del campo Nome, la scheda ad hoc viene salvata automaticamente come &quot;Senza titolo&quot; nella parte inferiore della colonna più a sinistra. Per uscire senza salvare la scheda, fare clic su [!UICONTROL **Annulla**] senza fare clic in un altro punto della casella [!UICONTROL Dettagli scheda].
 
-1. In **[!UICONTROL Dettagli scheda]** , aggiungere le seguenti informazioni:
+1. Nella casella **[!UICONTROL Dettagli scheda]**, aggiungi le seguenti informazioni:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Name]</strong> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Nome]</strong> </td> 
       <td>Il nome della carta.</td> 
      </tr> 
      <tr> 
@@ -74,11 +74,11 @@ Una scheda ad hoc non è collegata a un elemento di lavoro in [!DNL Adobe Workfr
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Colonna]</strong> </td> 
-      <td>Seleziona la colonna per la scheda. Se si lascia il <strong>[!UICONTROL Colonna]</strong> campo vuoto, la scheda viene inserita nella prima colonna a sinistra della bacheca.</td>
+      <td>Seleziona la colonna per la scheda. Se si lascia vuoto il campo <strong>[!UICONTROL Column]</strong>, la scheda verrà inserita nella prima colonna a sinistra della bacheca.</td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Stato]</strong> </td> 
-      <td>Selezionare uno stato per la scheda. Se si fa clic su <strong>[!UICONTROL Segna come completato]</strong> nella parte superiore della scheda, lo stato cambia automaticamente in [!UICONTROL Complete].</td> 
+      <td>Selezionare uno stato per la scheda. Se si fa clic su <strong>[!UICONTROL Mark Complete]</strong> nella parte superiore della scheda, lo stato cambia automaticamente in [!UICONTROL Complete].</td> 
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Scadenza]</strong></td> 
@@ -90,25 +90,25 @@ Una scheda ad hoc non è collegata a un elemento di lavoro in [!DNL Adobe Workfr
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Assegnazioni]</strong> </td> 
-      <td>Per assegnare la scheda, fai clic su <strong>[!UICONTROL Aggiungi assegnazione]</strong> e inizia a digitare un nome nel campo di ricerca. Quindi, selezionalo quando viene visualizzato nell’elenco dei risultati. Puoi aggiungere sia singoli utenti che team e assegnare più persone o team a una scheda.</td>
+      <td>Per assegnare la scheda, fare clic su <strong>[!UICONTROL Aggiungi assegnazione]</strong> e iniziare a digitare un nome nel campo di ricerca. Quindi, selezionalo quando viene visualizzato nell’elenco dei risultati. Puoi aggiungere sia singoli utenti che team e assegnare più persone o team a una scheda.</td>
      </tr>     
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Tags]</strong></td> 
-      <td>Cerca e seleziona i tag per la scheda. Per informazioni sulla creazione di nuovi tag, consulta <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Aggiungi tag</a>.</td> 
+      <td>Cerca e seleziona i tag per la scheda. Per informazioni sulla creazione di nuovi tag, vedere <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Aggiungi tag</a>.</td> 
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Connection]</strong> </td>
-      <td>È possibile collegare una scheda ad hoc a un [!DNL Workfront] attività o problema. Per ulteriori informazioni, consulta "Convertire una scheda ad hoc in una scheda collegata" nell’articolo <a href="/help/quicksilver/agile/get-started-with-boards/connected-cards.md">Utilizzare le schede collegate sulle bacheche</a>.</td>
+      <td role="rowheader"><strong>[!Connessione UICONTROL]</strong> </td>
+      <td>È possibile collegare una scheda ad hoc a un'attività o a un problema [!DNL Workfront]. Per ulteriori informazioni, vedere "Convertire una scheda ad hoc in una scheda connessa" nell'articolo <a href="/help/quicksilver/agile/get-started-with-boards/connected-cards.md">Utilizzare schede collegate nelle bacheche</a>.</td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>Elenco di controllo di [!UICONTROL]</strong> </td> 
-      <td> <p>Clic <strong>[!UICONTROL Aggiungi voce elenco di controllo]</strong>. Digitare quindi il titolo dell'elemento e premere Invio. Un altro elemento viene aggiunto automaticamente. Continua a inserire i titoli per aggiungere altri elementi.</p> <p>Il contatore nella parte superiore dell’elenco di controllo mostra il numero di elementi completati e il numero totale di elementi.</p> <p>Per ulteriori informazioni sugli elementi dell’elenco di controllo, consulta <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Gestire le voci dell’elenco di controllo sulle schede</a>.</p> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Elenco di controllo]</strong> </td> 
+      <td> <p>Fare clic su <strong>[!UICONTROL Add checklist item]</strong>. Digitare quindi il titolo dell'elemento e premere Invio. Un altro elemento viene aggiunto automaticamente. Continua a inserire i titoli per aggiungere altri elementi.</p> <p>Il contatore nella parte superiore dell’elenco di controllo mostra il numero di elementi completati e il numero totale di elementi.</p> <p>Per ulteriori informazioni sugli elementi dell'elenco di controllo, vedere <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Gestire gli elementi dell'elenco di controllo sulle schede</a>.</p> </td> 
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Commenti]</strong></td>
-      <td><p>Fai clic su nella <strong>[!UICONTROL Nuovo commento]</strong> e digita il commento. Utilizza gli strumenti di formattazione per formattare il testo. (Le immagini non sono disponibili nei commenti sulle schede ad hoc.) Per assegnare un tag a una persona o a un team, utilizza la casella di ricerca nella parte inferiore dell’area dei commenti. L’utente non deve essere un membro della bacheca.</p><p><strong>NOTA:</strong> Al momento, gli utenti taggati nei commenti su schede ad hoc non ricevono una notifica e-mail.
-      </p><p>Clic <strong>[!UICONTROL Submit]</strong> per aggiungere il commento alla scheda.</p>
-      <p>Per ulteriori informazioni sui commenti, consulta <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Aggiorna lavoro</a>.</p></td>
+      <td><p>Fare clic nel campo <strong>[!UICONTROL Nuovo commento]</strong> e digitare il commento. Utilizza gli strumenti di formattazione per formattare il testo. (Le immagini non sono disponibili nei commenti sulle schede ad hoc.) Per assegnare un tag a una persona o a un team, utilizza la casella di ricerca nella parte inferiore dell’area dei commenti. L’utente non deve essere un membro della bacheca.</p><p><strong>NOTA:</strong> al momento, gli utenti taggati nei commenti su schede ad hoc non ricevono una notifica e-mail.
+      </p><p>Fare clic su <strong>[!UICONTROL Submit]</strong> per aggiungere il commento alla scheda.</p>
+      <p>Per ulteriori informazioni sui commenti, vedere <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Aggiorna lavoro</a>.</p></td>
      </tr>
     </tbody> 
    </table>
@@ -117,7 +117,7 @@ Una scheda ad hoc non è collegata a un elemento di lavoro in [!DNL Adobe Workfr
 
    Utilizza il pannello di navigazione a sinistra per spostarti tra le sezioni dei campi nei dettagli della scheda.
 
-1. Clic **[!UICONTROL Chiudi]** per aggiungere la scheda alla bacheca.
+1. Fai clic su **[!UICONTROL Chiudi]** per aggiungere la scheda alla bacheca.
 
    Gli assegnatari, i tag, la data di scadenza, il contatore delle liste di controllo, le ore stimate e lo stato vengono visualizzati sulla scheda.
 
@@ -126,14 +126,14 @@ Una scheda ad hoc non è collegata a un elemento di lavoro in [!DNL Adobe Workfr
 Puoi aggiungere schede ad hoc con solo un titolo per popolare rapidamente la bacheca.
 
 1. Accedi alla bacheca a cui desideri aggiungere le schede.
-1. Fai clic su **[!UICONTROL Aggiungi]** icona ![Aggiungi scheda](assets/addicon-spectrum.png) nella colonna in cui desideri aggiungere la scheda.
+1. Fai clic sull&#39;icona **[!UICONTROL Aggiungi]** ![Aggiungi scheda](assets/addicon-spectrum.png) nella colonna in cui desideri aggiungere la scheda.
 1. Digitare il nome della scheda e premere Invio.
 
    Un’altra scheda viene aggiunta automaticamente sotto la nuova scheda.
 
 1. Continua a immettere i nomi delle schede per aggiungerne altre.
 1. Per non aggiungere più schede, fai clic all’esterno della colonna.
-1. Per aggiungere ulteriori dettagli, devi modificare la scheda. Per informazioni, consulta [Modificare una scheda esistente](#edit-an-existing-card) in questo articolo.
+1. Per aggiungere ulteriori dettagli, devi modificare la scheda. Per informazioni, vedere [Modificare una scheda esistente](#edit-an-existing-card) in questo articolo.
 
 ## Modificare una scheda esistente {#edit-an-existing-card}
 
@@ -143,8 +143,8 @@ Puoi aggiungere schede ad hoc con solo un titolo per popolare rapidamente la bac
 
    Oppure
 
-   Fai clic su **[!UICONTROL Altro]** menu ![[!UICONTROL Menu Altro]](assets/more-icon-spectrum.png) sulla scheda e seleziona **[!UICONTROL Modifica]**.
+   Fai clic sul menu **[!UICONTROL Altro]** ![[!UICONTROL Altro menu]](assets/more-icon-spectrum.png) sulla scheda e seleziona **[!UICONTROL Modifica]**.
 
-1. In [!UICONTROL Dettagli scheda] , aggiornare le informazioni in base alle esigenze e fare clic su **[!UICONTROL Chiudi]** per tornare alla bacheca.
+1. Nella casella [!UICONTROL Dettagli scheda], aggiorna le informazioni in base alle esigenze e fai clic su **[!UICONTROL Chiudi]** per tornare alla bacheca.
 
-   Se sono stati abilitati i criteri di colonna per l’aggiornamento dei valori dei campi, la modifica dello stato sulla scheda sposta automaticamente la scheda nella colonna corrispondente. Per ulteriori informazioni, consulta &quot;Definire le impostazioni e i criteri delle colonne&quot; nell’articolo [Gestisci colonne bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+   Se sono stati abilitati i criteri di colonna per l’aggiornamento dei valori dei campi, la modifica dello stato sulla scheda sposta automaticamente la scheda nella colonna corrispondente. Per ulteriori informazioni, vedere &quot;Definire le impostazioni e i criteri delle colonne&quot; nell&#39;articolo [Gestione colonne bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).

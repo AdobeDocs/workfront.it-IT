@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti gli altri miglioramenti apportati con la versione 21.3 all’ambiente di anteprima. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana del 21 luglio 2021.
 
-Per un elenco di tutte le modifiche disponibili con la versione 21.3, consulta [Panoramica sulla versione 21.3](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 21.3, vedere [Panoramica sulla versione 21.3](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Riprogettazione area Home per app mobile
 
@@ -44,4 +44,4 @@ I seguenti articoli verranno aggiornati al rilascio dell’app negli app store:
 
 I filtri di abbonamento agli eventi sono ora abilitati negli ambienti di anteprima. Puoi utilizzare il filtro dell’abbonamento agli eventi per assicurarti di ricevere solo messaggi pertinenti. La creazione di filtri per gli abbonamenti può ridurre in modo significativo il numero di messaggi che l’endpoint deve utilizzare.
 
-Per ulteriori informazioni sugli abbonamenti agli eventi, consulta [API di abbonamento agli eventi](../../../wf-api/general/event-subs-api.md) e [Domande frequenti - Abbonamenti agli eventi](../../../wf-api/general/event-subs-faq.md).
+Per ulteriori informazioni sulle sottoscrizioni di eventi, vedere [API sottoscrizione eventi](../../../wf-api/general/event-subs-api.md) e [Domande frequenti - Sottoscrizioni eventi](../../../wf-api/general/event-subs-faq.md).

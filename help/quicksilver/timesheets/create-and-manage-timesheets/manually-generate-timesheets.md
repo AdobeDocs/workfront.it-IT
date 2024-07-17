@@ -1,8 +1,8 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: Generare manualmente fogli presenze
-description: Per abilitare le modifiche apportate ai profili della scheda attività affinché riflettano nei fogli presenze correnti, è necessario prima eliminare i fogli presenze esistenti e quindi generarne manualmente nuovi. È possibile generare manualmente i fogli ore dall’area Timesheets o dall’area Diagnostics in Setup, come spiegato in questo articolo.
+title: Genera manualmente i timesheet
+description: Per consentire alle modifiche apportate ai profili delle schede orario di essere visibili nelle schede orario correnti, devi prima eliminare le schede orario esistenti e quindi generarne manualmente di nuove. È possibile generare manualmente le schede orario dall’area Schede orario o Diagnostica in Configurazione, come spiegato in questo articolo.
 author: Alina
 feature: Timesheets
 exl-id: 316c270a-c64e-4d83-a035-4128abe33f87
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 ---
 
-# Generare manualmente fogli presenze
+# Genera manualmente i timesheet
 
-Per abilitare le modifiche apportate ai profili della scheda attività affinché riflettano nei fogli presenze correnti, è necessario prima eliminare i fogli presenze esistenti e quindi generarne manualmente nuovi. È possibile generare manualmente i fogli ore dall’area Timesheets o dall’area Diagnostics in Setup, come spiegato in questo articolo.
+Per consentire alle modifiche apportate ai profili delle schede orario di essere visibili nelle schede orario correnti, devi prima eliminare le schede orario esistenti e quindi generarne manualmente di nuove. È possibile generare manualmente le schede orario dall’area Schede orario o Diagnostica in Configurazione, come spiegato in questo articolo.
 
-Per istruzioni sull&#39;eliminazione dei fogli presenze, consulta [Eliminare i fogli presenze in Adobe Workfront](../../timesheets/create-and-manage-timesheets/delete-timesheets.md).
+Per istruzioni sull&#39;eliminazione delle schede orario, vedere [Elimina schede orario in Adobe Workfront](../../timesheets/create-and-manage-timesheets/delete-timesheets.md).
 
 ## Requisiti di accesso
 
@@ -36,45 +36,45 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>Piano </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>È necessario essere un amministratore di Workfront oppure, se si lavora sui profili della scheda attività per un gruppo, è necessario essere un amministratore di gruppo (o un amministratore Workfront). Per ulteriori informazioni, consulta <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Amministratori di gruppo</a>.</p> <p>Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Devi essere un amministratore di Workfront oppure, se lavori sui profili delle schede orario per un gruppo, un amministratore di gruppo (o un amministratore di Workfront). Per ulteriori informazioni, vedere <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Amministratori di gruppi</a>.</p> <p>Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
-## Considerazioni sui fogli presenze generati manualmente
+## Considerazioni sulle schede orario generate manualmente
 
-Quando si generano manualmente fogli presenze:
+Quando generi manualmente le schede orario:
 
-* Vengono generati in base ai profili della scheda attività associati agli utenti. Gli utenti a cui non sono associati profili della scheda attività non ricevono fogli presenze. 
-* Vengono generati solo la scheda attività corrente e quella da seguire. Workfront non genera due fogli presenze per lo stesso periodo. Se si dispone già di una scheda attività per un intervallo di tempo specifico, un&#39;altra non verrà generata quando si utilizza il processo manuale per generare fogli presenze.
+* Vengono generati in base ai profili della scheda orario associati ai tuoi utenti. Gli utenti a cui non sono associati profili della scheda orario non ricevono le schede orario. 
+* Vengono generate solo la scheda orario corrente e quella successiva. Workfront non genera due schede orario per lo stesso periodo. Se disponi già di una scheda orario per un intervallo di tempo specifico, un’altra non verrà generata quando utilizzi il processo manuale per generare le schede orario.
 
-## Generare manualmente i fogli ore dall’area Timesheets &amp; Hours
+## Genera manualmente i Timesheets dalla sezione Timesheets &amp; Hours (Schede orario e ore)
 
-Puoi generare manualmente fogli presenze a livello di sistema o di gruppo dall’area Timesheets &amp; Hours in Configurazione.
+Puoi generare manualmente schede orario a livello di sistema o di gruppo dall’area Schede orario e ore in Configurazione.
 
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
-1. Se si generano fogli presenze in uso in tutto il sistema, fare clic su **Tempi e ore.**
+1. Se stai generando le schede orario in uso in tutto il sistema, fai clic su **Schede orario e ore.**
 
    Oppure
 
-   Se si generano fogli presenze utilizzati da un gruppo specifico, fare clic su **Gruppi**, quindi fai clic sul nome del gruppo.
+   Se stai generando schede orario utilizzate da un gruppo specifico, fai clic su **Gruppi**, quindi fai clic sul nome del gruppo.
 
-1. Fai clic su **Profili scheda attività**.
-1. Fai clic su **Altro**, quindi **Genera fogli presenze**.
+1. Fare clic su **Profili scheda orario**.
+1. Fai clic su **Altro**, quindi su **Genera schede orario**.
 
-   I nuovi fogli presenze vengono creati per un massimo di due periodi di tempo per gli utenti associati ai profili della scheda attività.
+   Le nuove schede orario vengono create per un massimo di due periodi di tempo per gli utenti associati ai profili delle schede orario.
 
-## Generare manualmente fogli presenze a livello di sistema dall&#39;area Diagnostics
+## Genera manualmente schede orario a livello di sistema dall&#39;area Diagnostica
 
-È possibile generare manualmente fogli presenze a livello di sistema dall&#39;area Diagnostica in Configurazione.
+È possibile generare manualmente schede orario a livello di sistema dall&#39;area Diagnostica in Configurazione.
 
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
-1. Espandi **Sistema**, quindi fai clic su **Diagnostica**.
+1. Espandere **Sistema**, quindi fare clic su **Diagnostica**.
 
-1. Fai clic su **Diagnostica di condotta**. 
-1. Fai clic su **Genera fogli presenze**.
+1. Fare clic su **Esegui diagnostica**. 
+1. Fai clic su **Genera schede orario**.

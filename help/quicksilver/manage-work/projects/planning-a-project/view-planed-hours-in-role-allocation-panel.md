@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: plan-a-project
-title: Visualizza le ore pianificate del progetto nel pannello Assegnazione ruolo
-description: Puoi visualizzare l’allocazione dei ruoli per tutti i ruoli di lavoro assegnati agli elementi di un progetto nel pannello Assegnazione ruolo del progetto.
+title: Visualizza le ore pianificate per il progetto nel pannello Allocazione ruoli
+description: È possibile visualizzare l'allocazione dei ruoli per tutte le mansioni assegnate agli elementi di lavoro in un progetto nel pannello Allocazione ruoli del progetto.
 author: Alina
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
@@ -13,18 +13,19 @@ ht-degree: 0%
 
 ---
 
-# Visualizza le ore pianificate del progetto nel pannello Assegnazione ruolo
+# Visualizza le ore pianificate per il progetto nel pannello Allocazione ruoli
 
-Puoi visualizzare l’allocazione dei ruoli per tutti i ruoli di lavoro assegnati agli elementi di un progetto nel pannello Assegnazione ruolo del progetto.
+È possibile visualizzare l&#39;allocazione dei ruoli per tutte le mansioni assegnate agli elementi di lavoro in un progetto nel pannello Allocazione ruoli del progetto.
 
 >[!NOTE]
 >
->Questo articolo fa riferimento alla visualizzazione dei ruoli di lavoro associati alle attività e ai problemi di un progetto e delle ore pianificate assegnate nel pannello Assegnazione ruolo di un progetto. Per informazioni sulla riconciliazione delle ore pianificate con le iniziative che utilizzano il pannello Assegnazione ruoli quando si utilizza il planner scenario di Adobe Workfront, consulta quanto segue:
+>Questo articolo si riferisce alla visualizzazione dei ruoli associati alle attività e ai problemi su un progetto e delle relative ore pianificate allocate nel pannello Allocazione ruoli di un progetto. Per informazioni sulla riconciliazione delle ore pianificate con le ore delle iniziative tramite il pannello Allocazione ruoli quando si utilizza Adobe Workfront Scenario Planner, vedi:
 >
->* [Mostra l&#39;allocazione dei ruoli per progetti e iniziative nell&#39;elenco dei task](../../../scenario-planner/show-role-allocation-task-list-nwe.md)
->* [Mostra l’allocazione dei ruoli per progetti e iniziative nel servizio di bilanciamento del carico di lavoro](../../../scenario-planner/show-role-allocation-workload-balancer.md)
+>* [Mostra allocazione ruoli per progetti e iniziative nell&#39;elenco attività](../../../scenario-planner/show-role-allocation-task-list-nwe.md)
+>* [Mostra allocazione ruoli per progetti e iniziative nel Bilanciatore dei carichi di lavoro](../../../scenario-planner/show-role-allocation-workload-balancer.md)
 >
->  Per visualizzare le ore di iniziativa nel pannello Assegnazione ruoli , devi disporre di una licenza per planner scenario. Per informazioni sul planner dello scenario, consulta [Guida introduttiva a Scenario Planner](../../../scenario-planner/get-started-with-scenario-planning.md) .
+>  Per visualizzare le ore di iniziativa nel pannello Allocazione ruoli, è necessario disporre di una licenza di Pianificazione scenario. Per informazioni sulla Pianificazione scenario, vedere [Introduzione alla Pianificazione scenario](../../../scenario-planner/get-started-with-scenario-planning.md) .
+>
 
 ## Requisiti di accesso
 
@@ -58,60 +59,65 @@ Puoi visualizzare l’allocazione dei ruoli per tutti i ruoli di lavoro assegnat
 
 -->
 
-Devi disporre dei seguenti elementi:
+Devi avere i seguenti:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Revisione o superiore</p> </td> 
+   <td> <p>Revisione o successiva</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Visualizzare o accedere in modo più rapido ai progetti</p> <p>Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Accesso ai progetti di visualizzazione o superiore</p> <p>Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizza o autorizzazioni superiori per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Visualizza o autorizzazioni superiori per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Prerequisiti
 
-Devi disporre dei seguenti elementi:
+Devi avere i seguenti:
 
-* Attività o problemi assegnati ai ruoli o agli utenti associati a un ruolo di lavoro.
+* Attività o problemi assegnati a mansioni o a utenti associati a una mansione.
 
-   >[!TIP]
-   Se le attività o i problemi non vengono assegnati, assegnati ai team o assegnati a utenti privi di ruolo, nel pannello Assegnazione ruolo l’orario pianificato del progetto è zero.
+  >[!TIP]
+  >
+  >Se le attività o i problemi vengono revocati, assegnati a team o assegnati a utenti senza mansione, le ore pianificate del progetto nel pannello Allocazione mansioni sono pari a zero.
 
 * Attività e problemi con una durata superiore a zero.
 
-## Visualizza le ore pianificate del progetto nel pannello Assegnazione ruolo
+## Visualizza le ore pianificate per il progetto nel pannello Allocazione ruoli
 
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront, quindi fai clic su **Progetti**.
-1. Fai clic sul nome di un progetto per accedervi. Viene aperta la pagina Progetto .
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Progetti**.
+1. Fai clic sul nome di un progetto per accedervi. Viene visualizzata la pagina Progetto.
 1. Fai clic su una delle seguenti opzioni nel pannello a sinistra:
 
    * **Attività**
    * **Bilanciamento del carico di lavoro**
 
-1. Fai clic sul pulsante **Mostra allocazione ruolo** icona ![](assets/show-role-allocation-icon.png).
+1. Fai clic sull&#39;icona **Mostra allocazione ruoli** ![](assets/show-role-allocation-icon.png).
 
-   Viene visualizzato il pannello Assegnazione ruolo .
+   Viene visualizzato il pannello Allocazione ruoli.
 
    ![](assets/role-allocation-panel-planned-hours-only-350x316.png)
 
-1. Consulta le seguenti informazioni nella sezione **Assegnazione ruolo** pannello: |Campo | Descrizione | |—|—| | **Ruolo** |Ruoli di lavoro assegnati alle attività e ai problemi del progetto. Questi possono essere ruoli di lavoro assegnati direttamente alle attività e ai problemi o ai ruoli di lavoro associati agli utenti assegnati a attività e problemi del progetto.  | | **Orari pianificati** |Numero totale di ore pianificate dalle attività e dai problemi assegnati ai ruoli di lavoro o agli utenti associati a un ruolo di lavoro nel progetto. |
+1. Rivedi le seguenti informazioni nel pannello **Allocazione ruoli**:
+|Campo | Descrizione|
+|—|—|
+| **Mansione** |Mansioni assegnate ad attività e problemi del progetto. Possono essere ruoli assegnati direttamente ad attività e problemi o ruoli associati agli utenti assegnati ad attività e problemi sul progetto.  |
+| **Ore pianificate** |Il numero totale di ore pianificate per attività e problemi assegnati a mansioni o utenti associati a una mansione sul progetto.  |
 
 
 

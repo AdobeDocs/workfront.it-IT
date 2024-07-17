@@ -30,7 +30,7 @@ hide: yes
 
 È possibile visualizzare i record e i relativi campi in una vista tabella quando si accede alla pagina del tipo di record in Adobe Workfront Planning.
 
-Per informazioni sulle visualizzazioni record e su come gestirle, vedere [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
+Per informazioni sulle visualizzazioni record e su come gestirle, vedere [Gestione delle visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
 
 ## Requisiti di accesso
 
@@ -86,13 +86,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale. </p> <p>Per informazioni, consulta <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica degli accessi</a>. </p> 
+   <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale. </p> <p>Per informazioni, vedere <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica dell'accesso</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
-*Per informazioni, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Gestire una vista tabella {#manage-a-table-view}
 
@@ -102,11 +102,11 @@ Durante la creazione di una vista tabella, tutti i record del tipo selezionato v
 
 Per gestire una vista tabella:
 
-1. Creare una vista tabella come descritto nell&#39;articolo [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
+1. Creare una visualizzazione tabella come descritto nell&#39;articolo [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
 
    ![](assets/table-view-example.png)
 
-1. (Facoltativo) Fai clic su **Altezza riga**, quindi seleziona tra le seguenti opzioni per modificare l’altezza delle righe della tabella:
+1. (Facoltativo) Fai clic su **Altezza riga**, quindi seleziona una delle seguenti opzioni per modificare l&#39;altezza delle righe della tabella:
    * Piccolo
    * Medio
    * Alto
@@ -121,7 +121,7 @@ Per gestire una vista tabella:
 
 ### Aggiungi colonne (o campi) {#add-columns}
 
-Nelle intestazioni di colonna di una vista tabella vengono visualizzati i campi associati ai record della vista. Gli stessi campi visualizzati nella vista tabella vengono visualizzati anche nella sezione Dettagli di un record. Per ulteriori informazioni, consulta [Modifica record](/help/quicksilver/planning/records/edit-records.md).
+Nelle intestazioni di colonna di una vista tabella vengono visualizzati i campi associati ai record della vista. Gli stessi campi visualizzati nella vista tabella vengono visualizzati anche nella sezione Dettagli di un record. Per ulteriori informazioni, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).
 
 <!--this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.-->
 
@@ -129,10 +129,10 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
 
 È possibile aggiungere fino a 500 campi (o colonne) in una visualizzazione tabella.
 
-1. Passare a una pagina del tipo di record e selezionare un **Tabella** dal menu a discesa vista.
+1. Passare a una pagina del tipo di record e selezionare una visualizzazione **Tabella** dal menu a discesa Visualizza.
 
    <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
-1. Inizia ad aggiungere campi (o colonne), come descritto nell’articolo [Crea campi](/help/quicksilver/planning/fields/create-fields.md).
+1. Inizia ad aggiungere campi (o colonne), come descritto nell&#39;articolo [Crea campi](/help/quicksilver/planning/fields/create-fields.md).
 
    Le colonne aggiunte sono visibili a tutti gli utenti che accedono al tipo di record e vengono aggiunte come nuovi campi nella pagina del record.
 
@@ -140,7 +140,7 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
 
    * Prendi l’intestazione della colonna e trascinala nella posizione desiderata. La colonna spostata viene visualizzata brevemente con uno sfondo blu finché non vengono apportate altre modifiche alla tabella.
 
-   * Clic **Campi** nella barra degli strumenti della tabella, trascinare i campi nell&#39;ordine desiderato, quindi fare clic all&#39;esterno del **Visibilità dei campi e ordine** per chiuderlo.
+   * Fai clic su **Campi** nella barra degli strumenti della tabella, trascina i campi nell&#39;ordine desiderato, quindi fai clic all&#39;esterno della casella **Visibilità campi e ordine** per chiuderla.
 
      ![](assets/fields-setting-table-view-toolbar-expanded.png)
 
@@ -153,17 +153,17 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
      >
      >
 
-   * Sostituire il campo nella prima colonna con un altro campo modificando il campo principale. Per ulteriori informazioni, passare al passaggio 4. <!--accurate?-->
+   * Sostituire il campo nella prima colonna con un altro campo modificando il campo principale. Per ulteriori informazioni, continuare con il passaggio 4. <!--accurate?-->
 
-1. (Facoltativo) Passa il puntatore del mouse sul nome di un campo nell&#39;intestazione di colonna di un campo che non viene visualizzato nella prima colonna della tabella, fai clic sulla freccia rivolta verso il basso a destra del nome del campo, quindi fai clic su **Imposta come campo principale**.
+1. (Facoltativo) Posizionare il puntatore del mouse su un nome di campo nell&#39;intestazione di colonna di un campo che non viene visualizzato nella prima colonna della tabella, fare clic sulla freccia rivolta verso il basso a destra del nome del campo, quindi fare clic su **Imposta come campo principale**.
 
    ![](assets/set-as-primary-field-option-table-view.png)
 
-1. Clic **Imposta campo** per confermare.
+1. Fai clic su **Imposta campo** per confermare.
 
    Il campo diventa un campo primario, ovvero viene visualizzato come prima colonna della visualizzazione tabella. Il campo primario precedente si sposta sulla seconda colonna.
 
-   I campi primari diventano il titolo e la visualizzazione del record nell&#39;area dell&#39;intestazione della pagina del record e ovunque vengano visualizzati i record. Ad esempio, il titolo del record viene visualizzato in campi collegati e in tutte le visualizzazioni. Per ulteriori informazioni sui campi primari, consulta [Panoramica del campo primario](/help/quicksilver/planning/fields/primary-field-overview.md).
+   I campi primari diventano il titolo e la visualizzazione del record nell&#39;area dell&#39;intestazione della pagina del record e ovunque vengano visualizzati i record. Ad esempio, il titolo del record viene visualizzato in campi collegati e in tutte le visualizzazioni. Per ulteriori informazioni sui campi primari, vedere [Panoramica campo primario](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Fate clic sulle linee di separazione delle colonne e trascinatele nel punto desiderato per aumentare la larghezza delle colonne.
 
@@ -171,22 +171,22 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
    >
    >Le modifiche apportate alla larghezza e all&#39;ordine delle colonne sono permanenti e visibili a tutti gli utenti che accedono al tipo di record.
 
-1. Passa il puntatore del mouse sull’intestazione della colonna, fai clic sulla freccia rivolta verso il basso, quindi fai clic su **Nascondi campo**
+1. Passa il puntatore del mouse sull&#39;intestazione della colonna, quindi fai clic sulla freccia rivolta verso il basso, quindi fai clic su **Nascondi campo**
 
    Oppure
 
-   Clic **Campi** nella barra degli strumenti della tabella e disattivare l&#39;interruttore associato ai campi (o alle colonne) che si desidera nascondere. Il **Visibilità dei campi e ordine** viene visualizzata la casella.
+   Fare clic su **Campi** nella barra degli strumenti della tabella e disattivare l&#39;interruttore associato ai campi o alle colonne che si desidera nascondere. Viene visualizzata la casella **Visibilità campi e ordine**.
 
    >[!TIP]
    >
    >Il numero di campi nascosti viene visualizzato a sinistra dell’icona Campi nella barra degli strumenti.
 
 
-1. Fai clic su **Campi** e attiva l’interruttore associato ai campi che desideri visualizzare nelle colonne della tabella. Tutti i campi vengono visualizzati per impostazione predefinita.
+1. Fai clic sull&#39;icona **Campi** e abilita l&#39;interruttore associato ai campi che desideri visualizzare nelle colonne della tabella. Tutti i campi vengono visualizzati per impostazione predefinita.
 
 1. Per trovare rapidamente i record che corrispondono a una parola chiave, eseguire le operazioni seguenti:
 
-   1. Fai clic su **Ricerca** icona ![](assets/search-icon.png) e iniziare a digitare una parola chiave associata a qualsiasi campo di un record visualizzato sullo schermo. Accanto all’elemento da cercare viene visualizzato il numero di corrispondenze corrette e viene evidenziato il campo con la corrispondenza corretta.
+   1. Fai clic sull&#39;icona **Ricerca** ![](assets/search-icon.png) e inizia a digitare una parola chiave associata a qualsiasi campo di un record visualizzato sullo schermo. Accanto all’elemento da cercare viene visualizzato il numero di corrispondenze corrette e viene evidenziato il campo con la corrispondenza corretta.
 
       ![](assets/search-box-with-results-blue-outline-table-view.png)
 
@@ -194,11 +194,11 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
 
       Non è possibile utilizzare parole chiave associate a campi nascosti nella visualizzazione Tabella.
 
-   1. Premi **Invio** sulla tastiera per passare al campo trovato successivo.
+   1. Premi **Invio** sulla tastiera per passare al successivo campo trovato.
 
    1. (Facoltativo) Se sono presenti più corrispondenze, fare clic sulle frecce su e giù a destra della parola chiave di ricerca per trovare tutte le corrispondenze nella tabella.
 
-   1. Fai clic su **x** nella casella di ricerca per deselezionare la parola chiave di ricerca.
+   1. Fare clic sull&#39;icona **x** nella casella di ricerca per deselezionare la parola chiave di ricerca.
 
 
 ### Aggiungi righe (o record) {#add-rows}
@@ -207,18 +207,18 @@ Le righe di una vista tabella visualizzano i singoli record del tipo di record s
 
 È possibile avere fino a 50.000 record (o righe) per un tipo di record S.
 
-1. Passare a una pagina del tipo di record e selezionare un **Tabella** dal menu a discesa vista.
+1. Passare a una pagina del tipo di record e selezionare una visualizzazione **Tabella** dal menu a discesa Visualizza.
 
 <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
-1. Inizia ad aggiungere record (o righe), come descritto nell’articolo [Crea record](/help/quicksilver/planning/records/create-records.md).
+1. Inizia ad aggiungere record (o righe), come descritto nell&#39;articolo [Crea record](/help/quicksilver/planning/records/create-records.md).
 
    I record aggiunti nella vista tabella vengono salvati immediatamente e sono visibili a tutti gli utenti che dispongono di autorizzazioni di visualizzazione o di livello superiore per l&#39;area di lavoro.
 
-1. (Facoltativo) Aggiungi una miniatura a ciascun record e fai clic su **Campi** nell’angolo superiore destro della tabella, quindi seleziona l’opzione per **Miniatura** per visualizzarlo a sinistra del campo primario. Per impostazione predefinita è deselezionato.
+1. (Facoltativo) Aggiungi una miniatura a ciascun record e fai clic su **Campi** nell&#39;angolo superiore destro della tabella, quindi seleziona l&#39;interruttore per il campo **Miniatura** per visualizzarlo a sinistra del campo primario. Per impostazione predefinita è deselezionato.
 
-   Per informazioni, consulta [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+   Per informazioni, vedere [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. (Facoltativo) Seleziona uno o più record in una riga, quindi trascina e rilascia la **maniglia** icona ![](assets/handle-icon.png) a sinistra del record per riordinare le righe.
+1. (Facoltativo) Seleziona uno o più record in una riga, quindi trascina e rilascia l&#39;icona **handle** ![](assets/handle-icon.png) a sinistra del record per riordinare le righe.
 
    >[!NOTE]
    >
@@ -258,13 +258,13 @@ Quando si lavora con i filtri nella vista a tabella, considera quanto segue:
 
 Per aggiungere un filtro a una vista tabella:
 
-1. Creare una visualizzazione tabella per una pagina del tipo di record, come descritto nell&#39;articolo [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
-1. Seleziona una vista a tabella, quindi fai clic su **Filtri** nell’angolo superiore destro della tabella.
-1. Clic **Aggiungi condizione** e aggiungi le seguenti informazioni:
+1. Creare una visualizzazione tabella per una pagina del tipo di record, come descritto nell&#39;articolo [Gestione visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
+1. Seleziona una vista tabella, quindi fai clic su **Filtri** nell&#39;angolo superiore destro della tabella.
+1. Fai clic su **Aggiungi condizione** e aggiungi le seguenti informazioni:
 
-   * **Seleziona un campo** in base al quale si desidera filtrare <!-- the tip below might change-->
+   * **Selezionare un campo** da filtrare per <!-- the tip below might change-->
 
-   * **Seleziona un’opzione** (o un modificatore di filtro) per definire il tipo di condizione che il campo deve soddisfare
+   * **Seleziona un&#39;opzione** (o un modificatore di filtro) per definire il tipo di condizione che il campo deve soddisfare
 
      Nella tabella seguente vengono visualizzati i modificatori disponibili per ogni tipo di campo.
 
@@ -336,16 +336,16 @@ Per aggiungere un filtro a una vista tabella:
 
    Non esiste alcun limite al numero di condizioni di filtro che è possibile aggiungere.
 
-1. (Facoltativo) Fai clic su **Aggiungi condizione** per aggiungere un’altra opzione di filtro e ripetere i passaggi precedenti. Il numero di filtri applicati viene visualizzato a sinistra dell’icona Filtri.
+1. (Facoltativo) Fai clic su **Aggiungi condizione** per aggiungere un&#39;altra opzione di filtro e ripetere i passaggi precedenti. Il numero di filtri applicati viene visualizzato a sinistra dell’icona Filtri.
 1. Fai clic sugli operatori seguenti per indicare come vengono unite e devono essere applicate le condizioni del filtro:
 
-   * **E**: devono essere soddisfatte tutte le condizioni specificate.
-   * **Oppure**: deve essere soddisfatta una qualsiasi delle condizioni specificate. Questa è l&#39;opzione predefinita.
+   * **And**: tutte le condizioni specificate devono essere soddisfatte.
+   * **Oppure**: è necessario che una delle condizioni specificate sia soddisfatta. Questa è l&#39;opzione predefinita.
 
    L’elenco dei record viene filtrato automaticamente.  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
-1. (Facoltativo) Fai clic su **Filtri**, quindi fare clic su **x** per rimuovere un filtro. <!--right now you cannot "clear all" for filters, but this might come later-->
+1. (Facoltativo) Fai clic su **Filtri**, quindi fai clic sull&#39;icona **x** per rimuovere un filtro. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 ### Aggiungi raggruppamenti {#add-groupings}
 
@@ -372,12 +372,12 @@ Considera quanto segue:
 
 Per aggiungere un raggruppamento:
 
-1. Creare una visualizzazione timeline per un tipo di record, come descritto nell’articolo [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
-1. Clic **Raggruppamento** nell&#39;angolo superiore destro della vista tabella.
+1. Creare una visualizzazione timeline per un tipo di record, come descritto nell&#39;articolo [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
+1. Fai clic su **Raggruppamento** nell&#39;angolo superiore destro della visualizzazione tabella.
 
    ![](assets/grouping-ui-table-view-with-linked-fields.png)
 
-1. Fai clic su uno dei campi suggeriti oppure fai clic su **Scegli un campo diverso**, cerca un campo diverso, quindi fai clic su di esso quando viene visualizzato nell’elenco.
+1. Fare clic su uno dei campi suggeriti oppure fare clic su **Scegli un campo diverso**, cerca un campo diverso e quindi fare clic su di esso quando viene visualizzato nell&#39;elenco.
 
    Il raggruppamento viene applicato automaticamente alla tabella e i record vengono visualizzati sotto la linea di separazione di raggruppamento.
 
@@ -387,14 +387,14 @@ Per aggiungere un raggruppamento:
 
    ![](assets/grouping-applied-in-table-view.png)
 
-1. (Facoltativo) All&#39;interno del **Raggruppa record per** , fare clic sul pulsante **x** a destra di un campo selezionato per il raggruppamento per rimuovere il raggruppamento
+1. (Facoltativo) Nella casella **Raggruppa record per**, fai clic sull&#39;icona **x** a destra di un campo selezionato per il raggruppamento per rimuovere il raggruppamento
 
    Oppure
 
-   Clic **Cancella tutto** per rimuovere tutti i campi.
+   Fare clic su **Cancella tutto** per rimuovere tutti i campi.
 
-1. Fai clic all’esterno del **Raggruppa record per** per chiuderlo.
-1. (Facoltativo) Fai clic su **+ Nuovo record** al termine di qualsiasi raggruppamento per aggiungere nuovi record, quindi aggiorna la pagina per aggiungere il nuovo record al raggruppamento appropriato. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
+1. Fare clic all&#39;esterno della casella **Raggruppa record per** per chiuderla.
+1. (Facoltativo) Fai clic su **+ Nuovo record** alla fine di qualsiasi raggruppamento per aggiungere nuovi record, quindi aggiorna la pagina per aggiungere il nuovo record al raggruppamento appropriato. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
 ### Aggiungi un ordinamento {#sort-information}
 
@@ -425,32 +425,32 @@ Quando si ordinano i record nella vista tabella, tenere presente quanto segue:
 
 * È possibile fare riferimento a un campo fino a 4 livelli di distanza dal tipo di record corrente. Ad esempio, se si crea un ordinamento per un tipo di record Attività e l&#39;Attività è connessa al tipo di record Prodotto connesso al tipo di record Campagna connesso a un progetto Workfront, è possibile fare riferimento allo Stato del progetto nell&#39;ordinamento che si sta creando per il tipo di record Attività.
 
-Per ordinare <!--ungrouped (add this when sorting for groupings will be available--> eseguire le operazioni seguenti:
+Per ordinare <!--ungrouped (add this when sorting for groupings will be available--> record, eseguire le operazioni seguenti:
 
-1. Creare una vista tabella come descritto nell&#39;articolo [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
-1. Fai clic su **Ordina** icona ![](assets/sort-icon.png) nell&#39;angolo superiore destro della tabella
+1. Creare una visualizzazione tabella come descritto nell&#39;articolo [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
+1. Fai clic sull&#39;icona **Ordina** ![](assets/sort-icon.png) nell&#39;angolo superiore destro della tabella
 
    Oppure
 
-   Passa il puntatore del mouse sul nome di una colonna nella vista tabella, fai clic sulla freccia rivolta verso il basso a destra del nome dell’intestazione della colonna, quindi fai clic su **Ordina per questo campo**. Il campo viene aggiunto come selezione di ordinamento nell’icona Ordina nell’angolo superiore destro della vista tabella.
+   Passa il puntatore del mouse sul nome di una colonna nella vista tabella, fai clic sulla freccia rivolta verso il basso a destra del nome dell&#39;intestazione della colonna, quindi fai clic su **Ordina per questo campo**. Il campo viene aggiunto come selezione di ordinamento nell’icona Ordina nell’angolo superiore destro della vista tabella.
 
-1. (Condizionale) In **Ordina record per** , fare clic su uno dei campi suggeriti oppure fare clic su **Scegli un campo diverso** e cerca un campo diverso, quindi fai clic su di esso quando viene visualizzato nell’elenco.
+1. (Condizionale) Nella casella **Ordina record per** fare clic su uno dei campi suggeriti oppure su **Scegli un campo diverso** e cerca un campo diverso, quindi fare clic su di esso quando viene visualizzato nell&#39;elenco.
 
    L&#39;ordinamento viene applicato automaticamente alla vista tabella e i record vengono visualizzati in base ai criteri selezionati.
 
    <!-- add a step that you can rearrange the sorting fields here, when this will be possible-->
 
-1. (Facoltativo) Fai clic su **Aggiungi condizione** e ripetere i passaggi precedenti per ordinare in base a campi aggiuntivi.
+1. (Facoltativo) Fai clic su **Aggiungi condizione** e ripeti i passaggi precedenti per ordinare in base ai campi aggiuntivi.
 
    Il numero di campi in base ai quali si esegue l’ordinamento viene visualizzato a sinistra dell’icona Ordina nell’angolo superiore destro della barra degli strumenti. È possibile scegliere solo i campi che vengono visualizzati nelle colonne della vista tabella.
 
-1. (Facoltativo) In **Ordina record per** , fare clic sul pulsante **x** a destra di un campo di ordinamento per rimuovere l’ordinamento
+1. (Facoltativo) Nella casella **Ordina record per**, fare clic sull&#39;icona **x** a destra di un campo di ordinamento per rimuovere l&#39;ordinamento
 
    Oppure
 
-   Clic **Cancella tutto** per rimuovere tutti i campi dall&#39;ordinamento.
+   Fare clic su **Cancella tutto** per rimuovere tutti i campi dall&#39;ordinamento.
 
-1. Fai clic all’esterno del **Ordina record per** per chiuderlo.
+1. Fare clic all&#39;esterno della casella **Ordina record per** per chiuderla.
 
    ![](assets/sorting-in-table-view.png)
 

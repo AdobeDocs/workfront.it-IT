@@ -24,9 +24,9 @@ Una condizione è una rappresentazione visiva dell’avanzamento di un progetto,
 Questa sezione contiene i seguenti articoli:
 
 * [Creare o modificare una condizione personalizzata](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)
-* [Modificare l&#39;ordine di visualizzazione delle condizioni](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/change-display-order-of-conditions.md)
+* [Modifica l&#39;ordine di visualizzazione delle condizioni](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/change-display-order-of-conditions.md)
 * [Impostare una condizione personalizzata come predefinita per i progetti](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md)
-* [Impostare una condizione personalizzata come predefinita per le attività e i problemi](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md)
+* [Impostare una condizione personalizzata come predefinita per attività e problemi](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md)
 * [Eliminare una condizione personalizzata](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/delete-custom-conditions.md)
 
-Per ulteriori informazioni sulle condizioni e su come applicarle a progetti, attività e problemi, consulta [Panoramica della condizione e del tipo di condizione del progetto](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md) e [Aggiorna condizione per attività e problemi](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
+Per ulteriori informazioni sulle condizioni e su come applicarle ai progetti, alle attività e ai problemi, vedere [Panoramica sulla condizione e sul tipo di condizione del progetto](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md) e [Aggiorna condizione per attività e problemi](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione del terzo trimestre 2024. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione con la versione del terzo trimestre 2024.
 
-Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rilascio del terzo trimestre 2024, consulta [Panoramica sulla versione del terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del terzo trimestre 2024, consulta [Panoramica sulla versione del terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 ## Aggiornamenti di sicurezza per il visualizzatore bozze desktop
 

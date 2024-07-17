@@ -14,13 +14,13 @@ ht-degree: 1%
 
 ---
 
-# Scegli da dove inizia un modulo trigger [!DNL Adobe Workfront Fusion]
+# Scegli dove inizia un modulo trigger in [!DNL Adobe Workfront Fusion]
 
 Alcuni moduli di attivazione ti consentono di selezionare il primo bundle da cui desideri avviare il recupero dei bundle.
 
 Puoi anche specificare se recuperare tutti i bundle o solo i bundle da dopo una data specifica.
 
-Per ulteriori informazioni sui moduli trigger, consulta la sezione [Moduli di attivazione](../../workfront-fusion/modules/module-types.md#triggers) nell’articolo [Tipi di moduli](../../workfront-fusion/modules/module-types.md).
+Per ulteriori informazioni sui moduli trigger, vedere la sezione [Moduli trigger](../../workfront-fusion/modules/module-types.md#triggers) nell&#39;articolo [Tipi di moduli](../../workfront-fusion/modules/module-types.md).
 
 ## Requisiti di accesso
 
@@ -41,25 +41,25 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   <tr> 
    <td role="rowheader">Licenza [!UICONTROL Adobe Workfront Fusion]**</td> 
    <td>
-   <p>Fabbisogno di licenza corrente: No [!DNL Workfront Fusion] requisito di licenza.</p>
+   <p>Requisiti di licenza correnti: nessun requisito di licenza [!DNL Workfront Fusion].</p>
    <p>Oppure</p>
-   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro] </p>
+   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione del lavoro] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
    <td>
-   <p>Fabbisogno prodotto corrente: se si dispone di [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Pianifica, la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo. [!DNL Workfront Fusion] è incluso in [!UICONTROL Ultimate] [!DNL Workfront] piano.</p>
+   <p>Fabbisogno prodotto corrente: se si dispone del piano [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], l'organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo. [!DNL Workfront Fusion] è incluso nel piano [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>Oppure</p>
-   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</p>
+   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore [!DNL Workfront].
 
-Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Scegli dove inizia un modulo trigger
 
@@ -67,13 +67,13 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe
 
    Oppure
 
-   Modifica le impostazioni del modulo del trigger come descritto in [Configurare le impostazioni di un modulo in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/configure-a-modules-settings.md).
+   Modificare le impostazioni del modulo trigger come descritto in [Configurare le impostazioni di un modulo in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/configure-a-modules-settings.md).
 
    Oppure
 
-   Fare clic con il pulsante destro del mouse sull&#39;icona del modulo trigger nella [!UICONTROL Editor scenario], come descritto in [Creare uno scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+   Fare clic con il pulsante destro del mouse sull&#39;icona del modulo trigger nell&#39;[!UICONTROL Editor scenari], come descritto in [Creare uno scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-1. Seleziona un’opzione nella sezione **[!UICONTROL Scegli da dove iniziare]** che viene visualizzata.
+1. Selezionare un&#39;opzione nella casella **[!UICONTROL Scegli da dove iniziare]** visualizzata.
 
    ![](assets/choose-where-to-start-350x346.jpg)
 

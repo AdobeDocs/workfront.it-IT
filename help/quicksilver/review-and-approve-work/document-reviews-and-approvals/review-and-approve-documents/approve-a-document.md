@@ -17,11 +17,11 @@ ht-degree: 0%
 
 Se si è assegnati come approvatori a un documento, è possibile prendere una decisione in diversi modi.
 
-Per informazioni sulla creazione di una nuova approvazione del documento, vedere [Creare una richiesta di revisione o approvazione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+Per informazioni sulla creazione di una nuova approvazione documento, vedere [Creare una richiesta di revisione o approvazione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 >[!IMPORTANT]
 >
->Il contenuto di questo articolo fa riferimento alla funzionalità di approvazione dei documenti aggiornata, disponibile solo per account specifici. Per informazioni sui processi di approvazione standard, vedi gli articoli elencati in [Approvazioni lavoro](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>Il contenuto di questo articolo fa riferimento alla funzionalità di approvazione dei documenti aggiornata, disponibile solo per account specifici. Per informazioni sui processi di approvazione standard, vedere gli articoli elencati in [Approvazioni di lavoro](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Requisiti di accesso
 
@@ -45,16 +45,16 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizza o autorizzazioni superiori per gli oggetti associati alle approvazioni</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Visualizza o autorizzazioni superiori per gli oggetti associati alle approvazioni</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Approvare un documento dalla Home
 
-1. Fai clic su **Home** icona ![](../assets/home-icon-30x29.png) nell’angolo in alto a sinistra di Adobe Workfront.
+1. Fai clic sull&#39;icona **Home** ![](../assets/home-icon-30x29.png) nell&#39;angolo superiore sinistro di Adobe Workfront.
 
    >[!NOTE]
    >
@@ -62,9 +62,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >
    >* Sostituiscilo con un’immagine personalizzata per illustrare la tua organizzazione. In questo caso, l’icona avrà un aspetto diverso da quello mostrato in questo articolo.
    >
-   >* Sostituisci la pagina collegata con un’altra pagina. In questo caso, fai clic su **Menu principale** ![](../assets/main-menu-icon.png) nell’angolo superiore destro della pagina, quindi fai clic su **Home**.
+   >* Sostituisci la pagina collegata con un’altra pagina. In questo caso, fai clic sul **menu principale** ![](../assets/main-menu-icon.png) nell&#39;angolo superiore destro della pagina, quindi fai clic su **Home**.
 
-1. Clic **Filtri** in alto a sinistra nella pagina e assicurati che **Approvazioni** è selezionato.
+1. Fai clic su **Filtri** in alto a sinistra della pagina e assicurati che **Approvazioni** sia selezionato.
 
    Tutti gli elementi di lavoro che richiedono la tua approvazione vengono visualizzati nell’elenco.
 
@@ -76,19 +76,19 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Fai clic su una delle due opzioni di approvazione seguenti nell’angolo in alto a destra della pagina:
 
-   * Il **Approva** Il menu a discesa contiene due opzioni:
+   * Il menu a discesa **Approva** contiene due opzioni:
 
-      * **Approva** indica che non sono necessarie modifiche per questa versione del documento e che viene concessa l&#39;approvazione.
+      * **Approva** indica che non sono necessarie modifiche per questa versione del documento e che è stata concessa l&#39;approvazione.
 
-      * **Approva con modifiche** indica che nel documento sono ancora necessarie alcune piccole modifiche, ma l&#39;approvazione viene concessa a condizione che tali modifiche vengano apportate. Se si seleziona questa opzione, verrà visualizzata una finestra contenente una casella di testo denominata **Passaggi successivi** dove è possibile specificare le modifiche necessarie per approvare il documento. Immettere tali informazioni e fare clic su **Aggiungi messaggio** oppure puoi fare clic su **Ignora** inviare la decisione di approvazione senza ulteriori informazioni.
+      * **Approva con modifiche** indica che nel documento sono ancora necessarie alcune piccole modifiche, ma l&#39;approvazione viene concessa a condizione che tali modifiche vengano apportate. Se si seleziona questa opzione, verrà visualizzata una finestra contenente una casella di testo denominata **Passaggi successivi** in cui è possibile specificare le modifiche necessarie per approvare il documento. È possibile immettere tali informazioni e fare clic su **Aggiungi messaggio** oppure fare clic su **Ignora** per inviare la decisione di approvazione senza ulteriori informazioni.
 
-   * **Necessità di lavoro** indica che la versione del documento non è approvata e richiede modifiche significative.
+   * **Il lavoro necessario** indica che la versione del documento non è approvata e richiede modifiche significative.
 
    Quando visualizzi le approvazioni dei documenti nella Home, tieni presente quanto segue:
 
-   * Il nome dell’utente che ha richiesto l’approvazione viene visualizzato sopra il nome del documento nella Home con il testo &quot;*Utente A* desidera la tua approvazione per...&quot;, nonché in **Inviato da** nelle informazioni sull’approvazione visualizzate a destra dopo aver selezionato un’approvazione.
+   * Il nome dell&#39;utente che ha richiesto l&#39;approvazione viene visualizzato sopra il nome del documento nella Home con il testo &quot;*L&#39;utente A* desidera l&#39;approvazione il...&quot;, nonché in **Inviato da** nelle informazioni di approvazione visualizzate a destra dopo aver selezionato un&#39;approvazione.
 
-   * Dopo aver preso una decisione su un’approvazione, l’approvazione rimane nella scheda Approvazioni personali con il testo &quot;Presa di decisione&quot; fino a quando non fai clic su **Aggiorna** o fino all&#39;aggiornamento della pagina del browser.
+   * Dopo aver preso una decisione su un&#39;approvazione, l&#39;approvazione rimane nella scheda Approvazioni personali con il testo &quot;Decisione presa&quot; fino a quando non fai clic sul pulsante **Aggiorna** o non aggiorni la pagina del browser.
 
 ## Approvare un documento dalla pagina del documento
 
@@ -104,17 +104,17 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Fai clic su una delle due opzioni di approvazione seguenti nell’angolo in alto a destra della pagina:
 
-   * Il **Approva** Il menu a discesa contiene due opzioni:
+   * Il menu a discesa **Approva** contiene due opzioni:
 
-      * **Approva** indica che non sono necessarie modifiche per questa versione del documento e che viene concessa l&#39;approvazione.
+      * **Approva** indica che non sono necessarie modifiche per questa versione del documento e che è stata concessa l&#39;approvazione.
 
-      * **Approva con modifiche** indica che nel documento sono ancora necessarie alcune piccole modifiche, ma l&#39;approvazione viene concessa a condizione che tali modifiche vengano apportate. Se si seleziona questa opzione, verrà visualizzata una finestra contenente una casella di testo denominata **Passaggi successivi** dove è possibile specificare le modifiche necessarie per approvare il documento. Immettere tali informazioni e fare clic su **Aggiungi messaggio** oppure puoi fare clic su **Ignora** inviare la decisione di approvazione senza ulteriori informazioni.
+      * **Approva con modifiche** indica che nel documento sono ancora necessarie alcune piccole modifiche, ma l&#39;approvazione viene concessa a condizione che tali modifiche vengano apportate. Se si seleziona questa opzione, verrà visualizzata una finestra contenente una casella di testo denominata **Passaggi successivi** in cui è possibile specificare le modifiche necessarie per approvare il documento. È possibile immettere tali informazioni e fare clic su **Aggiungi messaggio** oppure fare clic su **Ignora** per inviare la decisione di approvazione senza ulteriori informazioni.
 
-   * **Necessità di lavoro** indica che la versione del documento non è approvata e richiede modifiche significative.
+   * **Il lavoro necessario** indica che la versione del documento non è approvata e richiede modifiche significative.
 
 ## Approvare un documento dal riquadro Riepilogo documento
 
-1. Vai al progetto, all’attività o al problema che contiene il documento, quindi seleziona **Documenti**.
+1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
 
 1. Fare clic sul documento che richiede l&#39;approvazione e verrà aperto il riquadro Riepilogo documento.
 
@@ -128,10 +128,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Fare clic su una delle due opzioni di approvazione seguenti nell&#39;angolo superiore destro del riquadro Riepilogo documento:
 
-   * Il **Approva** Il menu a discesa contiene due opzioni:
+   * Il menu a discesa **Approva** contiene due opzioni:
 
-      * **Approva** indica che non sono necessarie modifiche per questa versione del documento e che viene concessa l&#39;approvazione.
+      * **Approva** indica che non sono necessarie modifiche per questa versione del documento e che è stata concessa l&#39;approvazione.
 
-      * **Approva con modifiche** indica che nel documento sono ancora necessarie alcune piccole modifiche, ma l&#39;approvazione viene concessa a condizione che tali modifiche vengano apportate. Se si seleziona questa opzione, verrà visualizzata una finestra contenente una casella di testo denominata **Passaggi successivi** dove è possibile specificare le modifiche necessarie per approvare il documento. Immettere tali informazioni e fare clic su **Aggiungi messaggio** oppure puoi fare clic su **Ignora** inviare la decisione di approvazione senza ulteriori informazioni.
+      * **Approva con modifiche** indica che nel documento sono ancora necessarie alcune piccole modifiche, ma l&#39;approvazione viene concessa a condizione che tali modifiche vengano apportate. Se si seleziona questa opzione, verrà visualizzata una finestra contenente una casella di testo denominata **Passaggi successivi** in cui è possibile specificare le modifiche necessarie per approvare il documento. È possibile immettere tali informazioni e fare clic su **Aggiungi messaggio** oppure fare clic su **Ignora** per inviare la decisione di approvazione senza ulteriori informazioni.
 
-   * **Necessità di lavoro** indica che la versione del documento non è approvata e richiede modifiche significative.
+   * **Il lavoro necessario** indica che la versione del documento non è approvata e richiede modifiche significative.

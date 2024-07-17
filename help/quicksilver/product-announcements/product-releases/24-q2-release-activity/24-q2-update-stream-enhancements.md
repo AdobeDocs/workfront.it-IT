@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti relativi al flusso di aggiornamento e alle notifiche apportati con la versione del secondo trimestre 2024 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
-Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rilascio del secondo trimestre 2024, consulta [Panoramica sulla versione del secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del secondo trimestre 2024, consulta [Panoramica sulla versione del secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
 ## Nuove esperienze di commento aggiunte alle iterazioni
 
@@ -24,7 +24,7 @@ Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rila
 >
 >Versione di anteprima: 11 aprile 2024; produzione per tutti i clienti: con la versione 24.4 (11 aprile 2024)
 
-Per garantire un’esperienza coerente in tutta l’applicazione, abbiamo aggiunto la nuova esperienza di commento alle iterazioni. Per informazioni, vedere [Panoramica della sezione di aggiornamento](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Per garantire un’esperienza coerente in tutta l’applicazione, abbiamo aggiunto la nuova esperienza di commento alle iterazioni. Per informazioni, vedere la [panoramica della sezione Aggiornamento](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 ## L’accesso all’area dei commenti legacy è stato rimosso
 
@@ -34,7 +34,7 @@ Per garantire un’esperienza coerente in tutta l’applicazione, abbiamo aggiun
 
 È stato rimosso il pulsante &quot;Nuovo commento&quot; nell’area Aggiornamenti per progetti, attività, problemi e documenti. Il nuovo commento è ora l&#39;opzione predefinita e unica per questi oggetti. Con questa modifica, non sarà più possibile ripristinare l’esperienza di commento precedente. Inoltre, è stata rimossa l’impostazione &quot;Show percent complete on update status&quot; (Mostra percentuale di completamento allo stato di aggiornamento) sul profilo di un utente.
 
-Per ulteriori informazioni, consulta [Nuova esperienza di commento](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+Per ulteriori informazioni, vedere [Nuova esperienza di aggiunta di commenti](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 ## È ora disponibile un nuovo flusso di commenti nelle azioni rapide per i nuovi widget per home
 
@@ -42,9 +42,9 @@ Per ulteriori informazioni, consulta [Nuova esperienza di commento](/help/quicks
 >
 >Versione di anteprima: 1 marzo 2024; produzione per rilascio rapido: con la versione 24.3 (14 marzo 2024); produzione per tutti i clienti: con la versione 24.4 (11 aprile 2024)
 
-È stata aggiunta la nuova funzionalità di aggiunta di commenti al **Aggiungi nuovo aggiornamento** pulsante di azione rapida nei widget Il mio lavoro, I miei progetti, Le mie attività e I miei problemi nella nuova Home.
+È stata aggiunta la nuova funzionalità di aggiunta di commenti al pulsante di azione rapida **Aggiungi nuovo aggiornamento** nei widget Il mio lavoro, I miei progetti, Le mie attività e I miei problemi nella nuova Home.
 
-Per ulteriori informazioni, consulta [Introduzione alla nuova Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Per ulteriori informazioni, vedere [Introduzione alla nuova Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Ulteriori informazioni sui commenti disponibili nella nuova esperienza
 
@@ -57,9 +57,9 @@ Nella nuova esperienza di commento sono stati apportati i seguenti miglioramenti
 * È possibile fare clic sul nome di un commentatore per visualizzarne il nome, la mansione e l&#39;indirizzo di posta elettronica in una casella di informazioni. Queste informazioni possono essere utili per identificare l&#39;utente corretto, se sono presenti più utenti con lo stesso nome. Facendo clic sul nome del commentatore nella casella delle informazioni, viene aperto il relativo profilo utente.
 * Il nome utente viene evidenziato nei commenti su cui sei taggato, quando sei menzionato nel testo del commento.
 
-Per ulteriori informazioni, consulta [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Per ulteriori informazioni, vedere [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discussione su questa funzione specifica inizia alle 2:47).
+[Visualizza una dimostrazione video di questa funzionalità.](https://video.tv.adobe.com/v/3427992/){target=_blank} (la discussione di questa funzione specifica inizia alle 2:47)
 
 ## La scheda Attività di sistema nella nuova esperienza di aggiunta di commenti supporta i commenti di sola lettura
 
@@ -69,9 +69,9 @@ Per ulteriori informazioni, consulta [Aggiorna lavoro](/help/quicksilver/workfro
 
 I commenti aggiunti ai record delle attività di sistema nell’esperienza di commento precedente ora vengono inseriti nella scheda Attività di sistema nella nuova esperienza di commento in sola lettura. Non è possibile rispondere ai record delle attività di sistema nella nuova esperienza di aggiunta di commenti.
 
-Per ulteriori informazioni, consulta [Panoramica della sezione Aggiornamenti](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Per ulteriori informazioni, vedere [Panoramica della sezione Aggiornamenti](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discussione su questa funzione specifica inizia alle 2:00).
+[Visualizza una dimostrazione video di questa funzionalità.](https://video.tv.adobe.com/v/3427992/){target=_blank} (la discussione di questa funzione specifica inizia alle 2:00)
 
 ## Nuova scheda del flusso di aggiornamento per acquisire sia i commenti che le voci delle attività di sistema
 
@@ -83,9 +83,9 @@ Per offrirti una visione cronologicamente coerente sia dei commenti che dei regi
 
 La scheda Tutto è una scheda di sola visualizzazione. Non è possibile rispondere a commenti o assegnare tag ad altri utenti nei commenti esistenti nella scheda Tutti. Per rispondere a un commento specifico, utilizzare il collegamento dalla scheda Tutti alla scheda Commenti.
 
-Per ulteriori informazioni, consulta [Panoramica della sezione Aggiornamenti](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Per ulteriori informazioni, vedere [Panoramica della sezione Aggiornamenti](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discussione su questa funzione specifica inizia alle 0:31).
+[Visualizza una dimostrazione video di questa funzionalità.](https://video.tv.adobe.com/v/3427992/){target=_blank} (la discussione di questa funzione specifica inizia alle 0:31)
 
 ## È ora disponibile un nuovo flusso di commenti nel pannello Riepilogo
 
@@ -95,6 +95,6 @@ Per ulteriori informazioni, consulta [Panoramica della sezione Aggiornamenti](/h
 
 Ora è stata aggiunta la nuova funzionalità di aggiunta di commenti al pannello Riepilogo per gli elenchi di attività e problemi.
 
-Per ulteriori informazioni, consulta [Panoramica di riepilogo](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
+Per ulteriori informazioni, vedere [Panoramica di riepilogo](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3427991/){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità.](https://video.tv.adobe.com/v/3427991/){target=_blank}

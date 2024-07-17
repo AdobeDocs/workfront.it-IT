@@ -9,8 +9,8 @@ role: Developer
 exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 38%
+source-wordcount: '538'
+ht-degree: 34%
 
 ---
 
@@ -23,10 +23,10 @@ ht-degree: 38%
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 | ID | cliente |   |   |   |   | Aggiungi |
-| customerID | progetto |   |   |   |   | Count |
+| customerID | progetto |   |   |   |   | Conta |
 | projectID | resourceManager |   |   |   |   | Elimina |
 | resourceManagerID | modello |   |   |   |   | Ottenere |
-| templateID |   |   |   |   |   | Rapporto  |
+| templateID |   |   |   |   |   | Report  |
 |   |   |   |   |   |   | Ricerca  |
 
 
@@ -44,7 +44,7 @@ ht-degree: 38%
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 | ID |   |   |   | checkDelete | customLabels | Aggiungi |
-|   |   |   |   | inUseByOtherLayoutTemplate | userCustomLabels | Count |
+|   |   |   |   | inUseByOtherLayoutTemplate | userCustomLabels | Conta |
 |   |   |   |   | removeCustomLabel |   | Elimina |
 |   |   |   |   |   |   | Ottenere |
 |   |   |   |   |   |   | Rapporto |
@@ -66,13 +66,13 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Modifiche ai valori possibili
+<sup>1</sup> modifiche ai valori possibili
 
-<sup>2</sup> attributo hasFilters modificato in true
+Attributo hasFilters <sup>2</sup> modificato in true
 
  
 
-### Approval
+### Approvazione
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
@@ -86,7 +86,7 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 
 <sup>1</sup> Convalida data aggiunta
 
-<sup>2</sup> Flag NOT_FILTERABLE aggiunto
+<sup>2</sup> flag NOT_FILTERABLE aggiunto
 
  
 
@@ -110,7 +110,7 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Modifiche ai valori possibili
+<sup>1</sup> modifiche ai valori possibili
 
  
 
@@ -119,7 +119,7 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 | approvalStatus |   |   |   |   |   | Aggiungi |
-| approvalStatusLabel |   |   |   |   |   | Count |
+| approvalStatusLabel |   |   |   |   |   | Conta |
 | commento |   |   |   |   |   | Elimina |
 | enteredByID |   |   |   |   |   | Modifica |
 | entryDate |   |   |   |   |   | Ottenere |
@@ -131,9 +131,9 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Modificato in Segnalabile
+<sup>1</sup> è stato modificato in Segnalabile
 
-<sup>2</sup> Convalida lunghezza massima aggiunta
+<sup>2</sup> Aggiunta Convalida Lunghezza Massima
 
  
 
@@ -146,9 +146,9 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Convalida data aggiunta
+Aggiunta Convalida Data <sup>1</sup>
 
-<sup>2</sup> Flag Not_Filterable aggiunto
+<sup>2</sup> Flag Not_Filterable Aggiunto
 
  
 
@@ -172,7 +172,7 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Flag Not_Filterable aggiunto
+<sup>1</sup> Flag Not_Filterable Aggiunto
 
  
 
@@ -184,7 +184,7 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Flag Not_Filterable aggiunto
+<sup>1</sup> Flag Not_Filterable Aggiunto
 
  
 
@@ -196,7 +196,7 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 
 {style="table-layout:auto"}
 
-<sup>1</sup> aggiunto flag di campo NO_TIME
+<sup>1</sup> ha aggiunto il flag del campo NO_TIME
 
 ### Evento Burndown 
 
@@ -251,7 +251,7 @@ Tasso di cambio 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Convalida PRECISION modificata da 8 a 9
+<sup>1</sup> ha cambiato la convalida PRECISION per 8 a 9
 
  
 
@@ -273,7 +273,7 @@ Tasso di cambio 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Modifiche ai valori possibili
+<sup>1</sup> modifiche ai valori possibili
 
  
 
@@ -285,9 +285,9 @@ Tasso di cambio 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Contrassegnato come RIPRISTINABILE
+<sup>1</sup> contrassegnato come RIPRISTINABILE
 
-<sup>2</sup> Flag Not_Filterable aggiunto
+<sup>2</sup> Flag Not_Filterable Aggiunto
 
  
 
@@ -304,9 +304,9 @@ Tasso di cambio 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Contrassegnati come RESTORABLE e RESOURCE_MANAGEABLE
+<sup>1</sup> contrassegnato come RESTORABLE e RESOURCE_MANAGEABLE
 
-<sup>2</sup> Flag Not_Filterable aggiunto
+<sup>2</sup> Flag Not_Filterable Aggiunto
 
  
 
@@ -319,11 +319,11 @@ Tasso di cambio 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Contrassegnato come RIPRISTINABILE
+<sup>1</sup> contrassegnato come RIPRISTINABILE
 
-<sup>2</sup> Convalida AT_DATE_YEAR_BEFORE aggiunta
+Aggiunta convalida <sup>2</sup> AT_DATE_YEAR_BEFORE
 
-<sup>3</sup> Flag Not_Filterable aggiunto
+<sup>3</sup> Flag Not_Filterable Aggiunto
 
  
 
@@ -346,7 +346,7 @@ Tasso di cambio 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Contrassegnati come RESTORABLE e RESOURCE_MANAGEABLE
+<sup>1</sup> contrassegnato come RESTORABLE e RESOURCE_MANAGEABLE
 
 ### Attività modello<sup>1</sup> 
 
@@ -356,9 +356,9 @@ Tasso di cambio 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Contrassegnato come RIPRISTINABILE
+<sup>1</sup> contrassegnato come RIPRISTINABILE
 
-<sup>2</sup> Flag Not_Filterable aggiunto
+<sup>2</sup> Flag Not_Filterable Aggiunto
 
  
 
@@ -370,7 +370,7 @@ Tasso di cambio 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Violatori MAX_LENGTH
+<sup>1</sup> violazioni MAX_LENGTH
 
  
 
@@ -384,7 +384,7 @@ Tasso di cambio 
 
 <sup>1</sup> Valori Possibili Modificati
 
-<sup>2</sup> Filtri modificati in `[true]`
+<sup>2</sup> ha i filtri modificati in `[true]`
 
  
 

@@ -28,5 +28,5 @@ In qualità di amministratore di Adobe Workfront, puoi concedere agli utenti l�
 
 ## Vedi anche
 
-* Per informazioni su come creare livelli di accesso, vedi [Configurare l’accesso ad Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).
-* Per informazioni su come gli utenti possono condividere gli oggetti tra loro, concedendo le autorizzazioni di visualizzazione e modifica per tali oggetti, vedere [Concedere e richiedere autorizzazioni per gli oggetti](../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md).
+* Per informazioni sulla creazione dei livelli di accesso, vedere [Configurare l&#39;accesso ad Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).
+* Per informazioni su come gli utenti possono condividere gli oggetti tra loro, concedendo le autorizzazioni di visualizzazione e modifica per tali oggetti, vedere [Concedere e richiedere le autorizzazioni per gli oggetti](../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md).

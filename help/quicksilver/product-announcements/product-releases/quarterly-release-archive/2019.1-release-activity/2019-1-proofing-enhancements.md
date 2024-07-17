@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti relativi alle prove inclusi nella versione 2019.1. Questa funzionalità è ora disponibile nell’ambiente di produzione.
 
-Per un elenco di tutte le modifiche apportate in 2019.1, consulta [Panoramica sull’attività della versione 2019.1](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md).
+Per un elenco di tutte le modifiche apportate in 2019.1, consulta [Panoramica delle attività sulla versione 2019.1](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md).
 
 ## Per gli amministratori
 
@@ -26,11 +26,11 @@ Per un elenco di tutte le modifiche apportate in 2019.1, consulta [Panoramica su
 
 ## Per tutti gli utenti
 
-* [Contenuto interattivo bozza nel visualizzatore bozze web](#proof-interactive-content-in-the-web-proofing-viewer)
+* [Contenuto interattivo bozza nel visualizzatore bozze Web](#proof-interactive-content-in-the-web-proofing-viewer)
 * [L&#39;ordinamento predefinito per i commenti nel visualizzatore bozze è ora dal meno recente al più recente](#default-sorting-order-for-comments-in-the-proofing-viewer-is-now-oldest-to-latest)
-* [Revisione migliorata per i commenti nel visualizzatore bozze associato a una serie di video](#enhanced-reviewing-for-comments-in-the-proofing-viewer-associated-with-a-range-of-video)
-* [Collegamento ai dettagli del documento da una notifica di bozza o dal visualizzatore bozze](#link-to-document-details-from-a-proof-notification-or-the-proofing-viewer)
-* [Modificare le notifiche e-mail nel visualizzatore bozze](#change-your-email-notifications-in-the-proofing-viewer)
+* [Revisione avanzata per commenti nel visualizzatore bozze associato a un intervallo di video](#enhanced-reviewing-for-comments-in-the-proofing-viewer-associated-with-a-range-of-video)
+* [Collegamento a dettagli documento da una notifica bozza o dal visualizzatore bozze](#link-to-document-details-from-a-proof-notification-or-the-proofing-viewer)
+* [Modifica le notifiche e-mail nel visualizzatore bozze](#change-your-email-notifications-in-the-proofing-viewer)
 * [Modificare il colore di sfondo nel Visualizzatore bozze desktop](#change-the-background-color-in-the-desktop-proofing-viewer)
 * [Cancellare i dati del browser memorizzati nella cache da una bozza in Desktop Proofing Viewer](#clear-cached-browser-data-from-a-proof-in-the-desktop-proofing-viewer)
 
@@ -88,7 +88,7 @@ In precedenza, solo il proprietario della bozza o il gestore del traffico poteva
 
 Queste impostazioni sono separate dalle impostazioni degli avvisi e-mail che puoi configurare in Workfront.
 
-Per ulteriori informazioni, consulta [Gestire le notifiche per i commenti e le decisioni relativi alle bozze](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
+Per ulteriori informazioni, consulta [Gestire le notifiche per i commenti e le decisioni relative alle bozze](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
 
 VIDEO
 
@@ -96,7 +96,7 @@ VIDEO
 
 Ora è possibile modificare il colore di sfondo del Visualizzatore bozze desktop dal colore quasi nero predefinito al bianco. In questo modo è più facile visualizzare i contenuti di verifica con uno sfondo trasparente.
 
-Per ulteriori informazioni, consulta [Configurare le impostazioni del visualizzatore di verifica](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
+Per ulteriori informazioni, vedere [Configurare le impostazioni del visualizzatore di verifica](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
 
 VIDEO
 
@@ -106,6 +106,6 @@ Quando il cookie e le impostazioni della cache del browser sono impostati per bl
 
 Ora è possibile cancellare i dati della cache del browser che possono essere salvati con una bozza in modo che tutto il contenuto venga visualizzato nel Visualizzatore bozze desktop e che i revisori possano visualizzarlo e commentare.
 
-Per ulteriori informazioni, consulta [Configurare le impostazioni del visualizzatore di verifica](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
+Per ulteriori informazioni, vedere [Configurare le impostazioni del visualizzatore di verifica](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
 
 VIDEO

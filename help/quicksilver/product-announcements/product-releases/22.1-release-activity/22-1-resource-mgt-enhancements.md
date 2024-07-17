@@ -25,7 +25,7 @@ in January 2022
 
 la settimana del 17 gennaio 2022.
 
-Per un elenco di tutte le modifiche disponibili con la versione 22.1, consulta [Panoramica sulla versione 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 22.1, consulta la [panoramica sulla versione 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Sono stati apportati miglioramenti al pannello Impostazioni e alla possibilità di codificare i colori dei progetti e delle relative attività nel Bilanciatore dei carichi di lavoro
 
@@ -34,7 +34,7 @@ Per migliorare la tua esperienza nell’utilizzo del Bilanciatore dei carichi di
 * Il pannello Impostazioni è stato riprogettato in modo da includere le opzioni che si trovavano in precedenza sulla barra degli strumenti. Questo migliora l’utilizzo dello spazio nella barra degli strumenti.
 * È stata aggiunta la possibilità di personalizzare il tema colore in Project. Quando si seleziona per il codice colore in base a Project, ogni progetto e i relativi elementi di lavoro vengono visualizzati nello stesso colore. I colori sono univoci per ciascun progetto. Prima di questo miglioramento, era possibile usare solo il codice colore in base allo stato del progetto.
 
-Per ulteriori informazioni, consulta [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Per ulteriori informazioni, vedere [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Assegnare il lavoro in blocco utilizzando il Bilanciatore dei carichi di lavoro
 
@@ -44,11 +44,11 @@ Prima di questo miglioramento, era possibile assegnare un solo utente a un eleme
 
 Le nuove assegnazioni in blocco includono anche nuove funzionalità di filtro per progetto e stato attività, oltre a Nome.
 
-Per ulteriori informazioni, consulta [Panoramica sull’assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Per ulteriori informazioni, vedere [Panoramica sull&#39;assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Sostituisci valuta durante la gestione delle mansioni
 
 Per aiutarti a gestire facilmente i costi e le tariffe di fatturazione tra le organizzazioni globali, abbiamo implementato l’override della valuta di un ruolo. Utilizzando questa funzione, è ora possibile impostare i costi e le tariffe di fatturazione per le mansioni nella valuta corrispondente alla posizione della mansione. In questo modo verrà ignorata la valuta di sistema in tutti i calcoli finanziari per il ruolo.
 
-Per informazioni, consulta [Creare e gestire le mansioni](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+Per informazioni, vedere [Creare e gestire ruoli](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 

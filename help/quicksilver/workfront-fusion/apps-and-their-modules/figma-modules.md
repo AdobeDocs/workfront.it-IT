@@ -5,24 +5,24 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Moduli Figma
-description: Con il [!DNL Adobe Workfront Fusion] Nei moduli Figma è possibile recuperare elenchi di commenti, file, versioni di file o progetti. Puoi anche pubblicare un commento o effettuare una chiamata all’API Figma.
+description: Con i  [!DNL Adobe Workfront Fusion] moduli Figma è possibile recuperare elenchi di commenti, file, versioni di file o progetti. Puoi anche pubblicare un commento o effettuare una chiamata all’API Figma.
 author: Becky
 feature: Workfront Fusion
 exl-id: d88db592-32d4-4765-952f-9ffb58cf1720
 source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
-source-wordcount: '2309'
-ht-degree: 1%
+source-wordcount: '2312'
+ht-degree: 0%
 
 ---
 
-# [!DNL Figma] Moduli
+# [!DNL Figma] moduli
 
-Con il [!DNL Adobe Workfront Fusion] [!DNL Figma] moduli, è possibile recuperare elenchi di commenti, file, versioni di file o progetti. Puoi anche pubblicare un commento o effettuare una chiamata al [!DNL Figma] API.
+Con i moduli [!DNL Adobe Workfront Fusion] [!DNL Figma] è possibile recuperare elenchi di commenti, file, versioni di file o progetti. È inoltre possibile pubblicare un commento o effettuare una chiamata all&#39;API [!DNL Figma].
 
-Per istruzioni sulla creazione di uno scenario, consulta [Creare uno scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
+Se hai bisogno di istruzioni per la creazione di uno scenario, consulta [Creare uno scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Per informazioni sui moduli, consulta [Moduli in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Per informazioni sui moduli, vedere [Moduli in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Requisiti di accesso
 
@@ -47,36 +47,36 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] licenza**</td>
       <td>
-   <p>Fabbisogno di licenza corrente: No [!DNL Workfront Fusion] requisito di licenza.</p>
+   <p>Requisiti di licenza correnti: nessun requisito di licenza [!DNL Workfront Fusion].</p>
    <p>Oppure</p>
-   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro] </p>
+   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione del lavoro] </p>
    </td>
     </tr>
     <tr>
       <td role="rowheader">Prodotto</td>
       <td>
-   <p>Fabbisogno prodotto corrente: se si dispone di [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Pianifica, la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo. [!DNL Workfront Fusion] è incluso in [!UICONTROL Ultimate] [!DNL Workfront] piano.</p>
+   <p>Fabbisogno prodotto corrente: se si dispone del piano [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], l'organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo. [!DNL Workfront Fusion] è incluso nel piano [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>Oppure</p>
-   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</p>
+   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</p>
    </td>
     </tr>
   </tbody>
 </table>
 
 
-Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore [!DNL Workfront].
 
-Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Prerequisiti
 
-Da utilizzare [!DNL Figma] moduli, è necessario disporre di un [!DNL Figma] account.
+Per utilizzare i moduli [!DNL Figma], è necessario disporre di un account [!DNL Figma].
 
 ## [!DNL Figma] moduli e relativi campi
 
-Quando si configura [!DNL Figma] moduli, [!DNL Workfront Fusion] visualizza i campi elencati di seguito. Oltre a questi, ulteriori [!DNL Figma] I campi potrebbero essere visualizzati in base a fattori quali il livello di accesso nell’app o nel servizio. Un titolo in grassetto in un modulo indica un campo obbligatorio.
+Quando configuri [!DNL Figma] moduli, [!DNL Workfront Fusion] visualizza i campi elencati di seguito. Insieme a questi, potrebbero essere visualizzati ulteriori campi di [!DNL Figma], a seconda di fattori quali il livello di accesso nell&#39;app o nel servizio. Un titolo in grassetto in un modulo indica un campo obbligatorio.
 
-Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possibile utilizzarlo per impostare variabili e funzioni per tale campo. Per ulteriori informazioni, consulta [Mappare le informazioni da un modulo all’altro in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possibile utilizzarlo per impostare variabili e funzioni per tale campo. Per ulteriori informazioni, vedere [Mappare le informazioni da un modulo all&#39;altro in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -95,10 +95,10 @@ Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possib
 
 * [Elenca commenti](#list-comments)
 
-* [Pubblica un commento](#post-a-comment)
+* [Post: un commento](#post-a-comment)
 
 
-#### [!UICONTROL Eliminare un commento]
+#### [!UICONTROL Elimina commento]
 
 Questo modulo elimina un singolo commento da un file.
 
@@ -108,7 +108,7 @@ Questo modulo elimina un singolo commento da un file.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>Per istruzioni sulla connessione [!DNL Figma] account a [!DNL Workfront Fusion], vedi <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p>
+      <td> <p>Per istruzioni sulla connessione dell'account [!DNL Figma] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base.</a></p>
       </td>
     </tr>
     <tr>
@@ -132,7 +132,7 @@ Questo modulo di ricerca elenca tutti i commenti allegati a un singolo file in [
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>Per istruzioni sulla connessione [!DNL Figma] account a [!DNL Workfront Fusion], vedi <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p>
+      <td> <p>Per istruzioni sulla connessione dell'account [!DNL Figma] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base.</a></p>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL ID file]</td>
@@ -140,10 +140,10 @@ Questo modulo di ricerca elenca tutti i commenti allegati a un singolo file in [
         <p>Immettere o mappare l'ID file per il quale si desidera recuperare i commenti. </p>
         <ul>
           <li>
-            <p>Se non conosci l’ID, fai clic su <b>[!UICONTROL Trova File]</b> e immetti o mappa l’ID del progetto a cui è associato il file, quindi seleziona il file.</p>
+            <p>Se non si conosce l'ID, fare clic su <b>[!UICONTROL Trova file]</b> e immettere o mappare l'ID del progetto a cui è associato il file, quindi selezionare il file.</p>
           </li>
           <li>
-            <p>Se non conosci l’ID del progetto, fai clic su <b>[!UICONTROL Trova progetti]</b> e immetti o mappa l’ID del team a cui appartiene il progetto a cui è associato il file, quindi seleziona il progetto e infine il file.</p>
+            <p>Se non si conosce l'ID del progetto, fare clic su <b>[!UICONTROL Trova progetti]</b> e immettere o mappare l'ID del team a cui appartiene il progetto a cui è associato il file, quindi selezionare il progetto e selezionare il file.</p>
           </li>
         </ul>
       </td>
@@ -156,7 +156,7 @@ Questo modulo di ricerca elenca tutti i commenti allegati a un singolo file in [
 </table>
 
 
-#### [!UICONTROL Pubblica un commento]
+#### [!UICONTROL Post un commento]
 
 Questo modulo di azione pubblica un commento su un file Figma.
 
@@ -166,7 +166,7 @@ Questo modulo di azione pubblica un commento su un file Figma.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>Per istruzioni sulla connessione [!DNL Figma] account a [!DNL Workfront Fusion], vedi <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p>
+      <td> <p>Per istruzioni sulla connessione dell'account [!DNL Figma] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base.</a></p>
     </tr>
     <tr>
       <td  role="rowheader">[!UICONTROL ID file]</td>
@@ -174,10 +174,10 @@ Questo modulo di azione pubblica un commento su un file Figma.
         <p>Immettere o mappare l'ID file del file in cui si desidera inserire un commento. </p>
         <ul>
           <li>
-            <p>Se non conosci l’ID del file, fai clic su <b>[!UICONTROL Trova File]</b> e immetti o mappa l’ID del progetto a cui è associato il file, quindi seleziona il file.</p>
+            <p>Se non si conosce l'ID del file, fare clic su <b>[!UICONTROL Trova file]</b> e immettere o mappare l'ID del progetto a cui è associato il file, quindi selezionare il file.</p>
           </li>
           <li>
-            <p>Se stai cercando l’ID del file e non conosci l’ID del progetto, fai clic su <b>[!UICONTROL Trova progetti]</b> e immetti o mappa l’ID del team a cui appartiene il progetto a cui è associato il file. Seleziona il progetto, quindi il file.</p>
+            <p>Se si sta tentando di trovare l'ID del file e non si conosce l'ID del progetto, fare clic su <b>[!UICONTROL Trova progetti]</b> e immettere o mappare l'ID del team proprietario del progetto a cui è associato il file. Seleziona il progetto, quindi il file.</p>
           </li>
         </ul>
       </td>
@@ -201,7 +201,7 @@ Questo modulo di azione pubblica un commento su un file Figma.
 * [Elencare progetti](#list-projects)
 
 
-#### [!UICONTROL Ottenere un file o un&#39;immagine]
+#### [!UICONTROL Ottieni un file o un&#39;immagine]
 
 Questo modulo di azione recupera un singolo file o immagine da una libreria Figma
 
@@ -211,7 +211,7 @@ Questo modulo di azione recupera un singolo file o immagine da una libreria Figm
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>Per istruzioni sulla connessione [!DNL Figma] account a [!DNL Workfront Fusion], vedi <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p>
+      <td> <p>Per istruzioni sulla connessione dell'account [!DNL Figma] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base.</a></p>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Tipo di oggetto]</td>
@@ -222,25 +222,25 @@ Questo modulo di azione recupera un singolo file o immagine da una libreria Figm
             <p><b>[!UICONTROL File]</b>
             </p>
             <p>Il modulo restituisce il documento a cui fa riferimento [!UICONTROL Key] come oggetto JSON. La chiave del file può essere analizzata da qualsiasi URL di file Figma.</p>
-            <p>Per i campi, consulta <a href="#Get2" class="MCXref xref" >[!UICONTROL Ottiene un file o un'immagine: File]</a>.</p>
+            <p>Per i campi, vedere <a href="#Get2" class="MCXref xref" >[!UICONTROL Ottenere un file o un'immagine: File]</a>.</p>
           </li>
           <li>
             <p><b>[!UICONTROL Nodi file]</b>
             </p>
-            <p>Restituisce i nodi a cui fanno riferimento gli ID come oggetto JSON. I nodi vengono recuperati da [!DNL Figma] file a cui fa riferimento la chiave [!UICONTROL].</p>
-            <p>Per i campi, consulta <a href="#Get3" class="MCXref xref" >[!UICONTROL Ottiene un file o un'immagine: Nodi di file]</a>.</p>
+            <p>Restituisce i nodi a cui fanno riferimento gli ID come oggetto JSON. I nodi vengono recuperati dal file [!DNL Figma] a cui fa riferimento [!UICONTROL Key].</p>
+            <p>Per i campi, vedere <a href="#Get3" class="MCXref xref" >[!UICONTROL Ottenere un file o un'immagine: Nodi di file]</a>.</p>
           </li>
           <li>
             <p><b>[!UICONTROL Image]</b>
             </p>
             <p>Il modulo esegue il rendering delle immagini da un file.</p>
-            <p>Per i campi, consulta <a href="#Get4" class="MCXref xref" >[!UICONTROL Ottiene un file o un'immagine: Image]</a>.</p>
+            <p>Per i campi, vedere <a href="#Get4" class="MCXref xref" >[!UICONTROL Ottenere un file o un'immagine: Image]</a>.</p>
           </li>
           <li>
             <p><b>[!UICONTROL Riempimenti immagine]</b>
             </p>
-            <p>Il modulo restituisce i collegamenti di download per tutte le immagini presenti nei riempimenti immagine di un documento. Riempimenti immagine come [!DNL Figma] rappresenta qualsiasi immagine fornita dall'utente. Quando si trascina un'immagine in [!DNL Figma], [!DNL Figma] crea un rettangolo con un singolo riempimento che rappresenta l’immagine e l’utente è in grado di trasformare il rettangolo (e le proprietà sul riempimento).</p>
-            <p>Per i campi, consulta <a href="#Get5" class="MCXref xref" >[!UICONTROL Ottieni un file o un'immagine: riempimenti immagine]</a>.</p>
+            <p>Il modulo restituisce i collegamenti di download per tutte le immagini presenti nei riempimenti immagine di un documento. I riempimenti di immagini rappresentano il modo in cui [!DNL Figma] rappresenta qualsiasi immagine fornita dall'utente. Quando si trascina un'immagine in [!DNL Figma], [!DNL Figma] crea un rettangolo con un singolo riempimento che rappresenta l'immagine e l'utente è in grado di trasformare il rettangolo (e le proprietà sul riempimento).</p>
+            <p>Per i campi, vedere <a href="#Get5" class="MCXref xref" >[!UICONTROL Ottenere un file o un'immagine: riempimenti immagine]</a>.</p>
           </li>
         </ul>
       </td>
@@ -256,7 +256,7 @@ Questo modulo di azione recupera un singolo file o immagine da una libreria Figm
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL File key]</td>
+      <td role="rowheader">[!UICONTROL File Key]</td>
       <td>Seleziona il file da cui vuoi restituire il JSON.</td>
     </tr>
     <tr>
@@ -267,7 +267,7 @@ Questo modulo di azione recupera un singolo file o immagine da una libreria Figm
       <td role="rowheader">[!UICONTROL ID nodo]</td>
       <td>
         <p>Per restituire solo un sottoinsieme del documento, immettere i nodi che si desidera restituire al modulo. Il modulo restituisce i nodi elencati, i relativi nodi secondari e qualsiasi cosa tra il nodo principale e i nodi elencati.</p>
-        <p>Per ogni nodo che desideri restituire, fai clic su <b>[!UICONTROL Add]</b> e inserisci il testo del nodo.</p>
+        <p>Per ogni nodo da restituire, fare clic su <b>[!UICONTROL Add]</b> e immettere il testo del nodo.</p>
       </td>
     </tr>
     <tr>
@@ -277,10 +277,10 @@ Questo modulo di azione recupera un singolo file o immagine da una libreria Figm
         <div class="example"><span class="autonumber"><span><b>Esempio: </b></span></span>
           <ul>
             <li>
-              <p>Per restituire solo le pagine, immetti <code>1</code>.</p>
+              <p>Per restituire solo le pagine, immettere <code>1</code>.</p>
             </li>
             <li>
-              <p>Per restituire le pagine e gli oggetti di primo livello, immetti <code>2</code>.</p>
+              <p>Per restituire pagine e oggetti di primo livello, immettere <code>2</code>.</p>
             </li>
           </ul>
         </div>
@@ -289,11 +289,11 @@ Questo modulo di azione recupera un singolo file o immagine da una libreria Figm
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Geometry]</td>
-      <td>Per restituire dati vettoriali, immettere: <code>paths</code>.</td>
+      <td>Per restituire dati vettoriali, immettere <code>paths</code>.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Plugin data]</td>
-      <td>Elenco separato da virgole di ID plug-in e/o stringa "[!UICONTROL shared]". Tutti i dati presenti nel documento scritto da tali plug-in saranno inclusi nel risultato in <code>pluginData</code> e <code>sharedPluginData</code> proprietà.</td>
+      <td>Elenco separato da virgole di ID plug-in e/o stringa "[!UICONTROL shared]". Tutti i dati presenti nel documento scritto da tali plug-in verranno inclusi nel risultato nelle proprietà <code>pluginData</code> e <code>sharedPluginData</code>.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Branch data]</td>
@@ -302,21 +302,21 @@ Questo modulo di azione recupera un singolo file o immagine da una libreria Figm
   </tbody>
 </table>
 
-##### [!UICONTROL Ottenere un file o un&#39;immagine: Nodi di file]
+##### [!UICONTROL Ottieni un file o un&#39;immagine: nodi file]
 
 <table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL File key]</td>
+      <td role="rowheader">[!UICONTROL File Key]</td>
       <td>Seleziona il file da cui vuoi restituire il JSON.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL ID nodo]</td>
       <td>
         <p>Immettere i nodi che si desidera vengano restituiti e convertiti dal modulo</p>
-        <p>Per ogni nodo che desideri restituire, fai clic su <b>[!UICONTROL Add]</b> e inserisci il testo del nodo.</p>
+        <p>Per ogni nodo da restituire, fare clic su <b>[!UICONTROL Add]</b> e immettere il testo del nodo.</p>
       </td>
     </tr>
     <tr>
@@ -330,10 +330,10 @@ Questo modulo di azione recupera un singolo file o immagine da una libreria Figm
         <div class="example"><span class="autonumber"><span><b>Esempio: </b></span></span>
           <ul>
             <li>
-              <p>Per restituire solo le pagine, immetti <code>1</code>.</p>
+              <p>Per restituire solo le pagine, immettere <code>1</code>.</p>
             </li>
             <li>
-              <p>Per restituire le pagine e gli oggetti di primo livello, immetti <code>2</code>.</p>
+              <p>Per restituire pagine e oggetti di primo livello, immettere <code>2</code>.</p>
             </li>
           </ul>
         </div>
@@ -342,7 +342,7 @@ Questo modulo di azione recupera un singolo file o immagine da una libreria Figm
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Geometry]</td>
-      <td>Per restituire dati vettoriali, immettere: <code>paths</code>.</td>
+      <td>Per restituire dati vettoriali, immettere <code>paths</code>.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Plugin data]</td>
@@ -359,14 +359,14 @@ Questo modulo di azione recupera un singolo file o immagine da una libreria Figm
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL File key]</td>
+      <td role="rowheader">[!UICONTROL File Key]</td>
       <td>Seleziona il file da cui vuoi restituire il JSON.</td>
     </tr>
     <tr>
       <td role="rowheader" [!UICONTROL>ID nodo]</td>
       <td>
         <p>Immetti i nodi di cui vuoi eseguire il rendering nel modulo.</p>
-        <p>Per ogni nodo di cui vuoi eseguire il rendering, fai clic su <b>[!UICONTROL Add]</b> e inserisci il testo del nodo.</p>
+        <p>Per ogni nodo di cui si desidera eseguire il rendering, fare clic su <b>[!UICONTROL Add]</b> e immettere il testo del nodo.</p>
       </td>
     </tr>
     <tr>
@@ -379,7 +379,7 @@ Questo modulo di azione recupera un singolo file o immagine da una libreria Figm
         <p>Selezionate il formato per l'output dell'immagine.</p>
         <ul>
           <li>
-            <p>JPG</p>
+            <p>JPG-</p>
           </li>
           <li>
             <p>PNG</p>
@@ -399,7 +399,7 @@ Questo modulo di azione recupera un singolo file o immagine da una libreria Figm
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL SVG - Tratto semplificato]</td>
-      <td>Abilita questa opzione per semplificare i tratti interni ed esterni e, se possibile, utilizza l'attributo tratto anziché &lt;mask&gt;. Impostazione predefinita: [!UICONTROL true].</td>
+      <td>Abilita questa opzione per semplificare i tratti interni ed esterni e se possibile utilizza l'attributo tratto anziché &lt;mask&gt;. Impostazione predefinita: [!UICONTROL true].</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Usa limiti assoluti]</td>
@@ -419,13 +419,13 @@ Questo modulo di azione recupera un singolo file o immagine da una libreria Figm
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL File key]</td>
+      <td role="rowheader">[!UICONTROL File Key]</td>
       <td>Seleziona il file da cui vuoi restituire il JSON.</td>
     </tr>
   </tbody>
 </table>
 
-### [!UICONTROL Elencare la cronologia delle versioni dei file]
+### [!UICONTROL Elenca cronologia versioni file]
 
 Questo modulo di ricerca restituisce la cronologia delle versioni di un singolo file in [!UICONTROL Figma].
 <table style="table-layout:auto"> 
@@ -434,17 +434,17 @@ Questo modulo di ricerca restituisce la cronologia delle versioni di un singolo 
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>Per istruzioni sulla connessione [!DNL Figma] account a [!DNL Workfront Fusion], vedi <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p>
+      <td> <p>Per istruzioni sulla connessione dell'account [!DNL Figma] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base.</a></p>
     <tr>
       <td role="rowheader">[!UICONTROL ID file]</td>
       <td>
         <p>Immetti o mappa l’ID file per il quale desideri recuperare la cronologia delle versioni. </p>
         <ul>
           <li>
-            <p>Se non conosci l’ID del file, fai clic su <b>[!UICONTROL Trova File]</b> e immetti o mappa l’ID del progetto a cui è associato il file, quindi seleziona il file.</p>
+            <p>Se non si conosce l'ID del file, fare clic su <b>[!UICONTROL Trova file]</b> e immettere o mappare l'ID del progetto a cui è associato il file, quindi selezionare il file.</p>
           </li>
           <li>
-            <p>Se stai cercando l’ID del file e non conosci l’ID del progetto, fai clic su <b>[!UICONTROL Trova progetti]</b> e immetti o mappa l’ID del team a cui appartiene il progetto a cui è associato il file. Seleziona il progetto, quindi il file.</p>
+            <p>Se si sta tentando di trovare l'ID del file e non si conosce l'ID del progetto, fare clic su <b>[!UICONTROL Trova progetti]</b> e immettere o mappare l'ID del team proprietario del progetto a cui è associato il file. Seleziona il progetto, quindi il file.</p>
           </li>
         </ul>
       </td>
@@ -456,7 +456,7 @@ Questo modulo di ricerca restituisce la cronologia delle versioni di un singolo 
   </tbody>
 </table>
 
-#### [!UICONTROL Elencare file di progetto]
+#### [!UICONTROL Elenca file di progetto]
 
 Questo modulo di ricerca restituisce un elenco di tutti i file nel progetto specificato.
 
@@ -466,7 +466,7 @@ Questo modulo di ricerca restituisce un elenco di tutti i file nel progetto spec
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>Per istruzioni sulla connessione [!DNL Figma] account a [!DNL Workfront Fusion], vedi <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p>
+      <td> <p>Per istruzioni sulla connessione dell'account [!DNL Figma] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base.</a></p>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL ID file]</td>
@@ -474,7 +474,7 @@ Questo modulo di ricerca restituisce un elenco di tutti i file nel progetto spec
         <p>Immetti o mappa l’ID del progetto per il quale desideri recuperare i file. </p>
         <ul>
           <li>
-            <p>Se non conosci l’ID del progetto, fai clic su <b>[!UICONTROL Trova progetti]</b> e inserisci o mappa l’ID del team a cui è associato il progetto, quindi seleziona il progetto.</p>
+            <p>Se non conosci l'ID del progetto, fai clic su <b>[!UICONTROL Trova progetti]</b> e immetti o mappa l'ID del team a cui è associato il progetto, quindi seleziona il progetto.</p>
           </li>
         </ul>
       </td>
@@ -496,7 +496,7 @@ Questo modulo di ricerca restituisce un elenco di tutti i progetti all’interno
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>Per istruzioni sulla connessione [!DNL Figma] account a [!DNL Workfront Fusion], vedi <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p>
+      <td> <p>Per istruzioni sulla connessione dell'account [!DNL Figma] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base.</a></p>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL ID team]</td>
@@ -512,7 +512,7 @@ Questo modulo di ricerca restituisce un elenco di tutti i progetti all’interno
 
 ### Componenti e stili
 
-#### [!UICONTROL Ottenere uno stile o un componente]
+#### [!UICONTROL Ottieni uno stile o un componente]
 
 Questo modulo di azione recupera un singolo stile o componente oppure un set di stili o componenti.
 
@@ -522,7 +522,7 @@ Questo modulo di azione recupera un singolo stile o componente oppure un set di 
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>Per istruzioni sulla connessione [!DNL Figma] account a [!DNL Workfront Fusion], vedi <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p>
+      <td> <p>Per istruzioni sulla connessione dell'account [!DNL Figma] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base.</a></p>
     </tr>
     <tr>
       <td role="rowheader">&lt;[!UICONTROL Object&gt; chiave]</td>
@@ -573,18 +573,18 @@ Questo modulo di azione consente di effettuare una chiamata autenticata personal
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>Per istruzioni sulla connessione [!DNL Figma] account a [!DNL Workfront Fusion], vedi <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p>
+      <td> <p>Per istruzioni sulla connessione dell'account [!DNL Figma] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base.</a></p>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL URL]</td>
       <td>
-        <p>Inserisci un percorso relativo a <code>https://api.figma.com/v1/</code>.</p>
+        <p>Immettere un percorso relativo a <code>https://api.figma.com/v1/</code>.</p>
         <p>Ad esempio: <code>[!DNL files/7179110/comments]</code></p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Method]</td>
-      <td> <p>Seleziona il metodo di richiesta HTTP necessario per configurare la chiamata API. Per ulteriori informazioni, consulta <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Metodi di richiesta HTTP in [!DNL Adobe Workfront Fusion]</a>.</p> </td>
+      <td> <p>Seleziona il metodo di richiesta HTTP necessario per configurare la chiamata API. Per ulteriori informazioni, vedere <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Metodi di richiesta HTTP in [!DNL Adobe Workfront Fusion]</a>.</p> </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Headers]</td>
@@ -603,7 +603,7 @@ Questo modulo di azione consente di effettuare una chiamata autenticata personal
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>Aggiungi il contenuto body per la chiamata API sotto forma di oggetto JSON standard.</p> <p>Nota:  <p>Quando si utilizzano istruzioni condizionali quali <code>if</code> nel JSON, inserisci le virgolette al di fuori dell’istruzione condizionale.</p> 
+   <td> <p>Aggiungi il contenuto body per la chiamata API sotto forma di oggetto JSON standard.</p> <p>Nota:  <p>Quando si utilizzano istruzioni condizionali come <code>if</code> nel JSON, inserire le virgolette al di fuori dell'istruzione condizionale.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
@@ -612,7 +612,7 @@ Questo modulo di azione consente di effettuare una chiamata autenticata personal
 
 #### [!UICONTROL Guarda gli eventi]
 
-Questo modulo trigger avvia uno scenario in cui si verifica uno dei seguenti eventi per un team specifico nel tuo [!DNL Figma] spazio team
+Questo modulo trigger avvia uno scenario quando si verifica uno dei seguenti eventi per un team specifico nello spazio del team [!DNL Figma]
 
 * Aggiornamento file
 
@@ -635,10 +635,10 @@ Questo modulo trigger avvia uno scenario in cui si verifica uno dei seguenti eve
         <p>Per aggiungere un nuovo webhook:</p>
         <ol>
           <li value="1">
-            <p>Clic <b>[!UICONTROL Add]</b> accanto al campo [!UICONTROL Webhook].</p>
+            <p>Fare clic su <b>[!UICONTROL Add]</b> accanto al campo [!UICONTROL Webhook].</p>
           </li>
           <li value="2">
-            <p>Selezionare la connessione da utilizzare per questo webhook. Per istruzioni sulla connessione [!DNL Figma] account di [!UICONTROL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!UICONTROL Adobe Workfront Fusion] - Istruzioni di base.</a></p>
+            <p>Selezionare la connessione da utilizzare per questo webhook. Per istruzioni sulla connessione dell'account [!DNL Figma] a [!UICONTROL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!UICONTROL Adobe Workfront Fusion] - Istruzioni di base.</a></p>
           </li>
           <li value="3">
             <p>Seleziona il tipo di evento che desideri che il modulo controlli.</p>
@@ -650,7 +650,7 @@ Questo modulo trigger avvia uno scenario in cui si verifica uno dei seguenti eve
             <p>Immetti lo [!UICONTROL Status] o [!UICONTROL Description] degli eventi che desideri che il webhook controlli.</p>
           </li>
           <li value="6">
-            <p>Clic <b>[!UICONTROL Salva]</b> per salvare il webhook e tornare al modulo.</p>
+            <p>Fai clic su <b>[!UICONTROL Salva]</b> per salvare il webhook e tornare al modulo.</p>
           </li>
         </ol>
       </td>

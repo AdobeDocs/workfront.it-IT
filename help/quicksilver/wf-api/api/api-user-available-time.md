@@ -10,7 +10,7 @@ exl-id: fa37920a-c08b-4af3-9896-7e4044834860
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 9%
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ L’endpoint &quot;users available time&quot; recupera i dati in base al tempo d
 
 * **userIDs**: matrice di stringhe. Obbligatorio. Esempio: `"61a9cc0500002f9fdaa7a6f824f557e1"`.
 
-* **fromDate**: datetime. stringa. Obbligatorio. Esempio:  `"2022-07-10T00:00:00"`.
+* **fromDate**: datetime. stringa. Obbligatorio. Esempio: `"2022-07-10T00:00:00"`.
 
 * **toDate**: datetime. stringa. Obbligatorio. Esempio `"2022-07-20T23:59:59"`.
 
@@ -75,5 +75,5 @@ L’endpoint &quot;users available time&quot; recupera i dati in base al tempo d
 
 ## Parametri di risposta
 
-* **AVL**: ore effettive disponibili. Matrice di numeri.
-* **PAVL**: ore esclusivamente disponibili per la pianificazione, esclusi i giorni non lavorativi e il tempo libero dell’utente. Stringa.
+* **AVL**: ore disponibili effettive. Matrice di numeri.
+* **PAVL**: ore disponibili per la pianificazione che non includono giorni non lavorativi o indisponibilità dell&#39;utente. Stringa.

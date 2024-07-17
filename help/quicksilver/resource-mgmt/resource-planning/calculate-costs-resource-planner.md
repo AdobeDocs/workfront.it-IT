@@ -8,7 +8,7 @@ feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
 source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1458'
 ht-degree: 0%
 
 ---
@@ -21,16 +21,16 @@ ht-degree: 0%
 
 <!--'(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)'-->
 
-È possibile preventivare le risorse in Adobe Workfront Resource Planner utilizzando i valori Costo anziché i valori Ore o FTE. I valori di costo non sono disponibili per **Visualizza per utente** in Programmazione delle risorse.
+È possibile preventivare le risorse in Adobe Workfront Resource Planner utilizzando i valori Costo anziché i valori Ore o FTE. I valori di costo non sono disponibili per la visualizzazione **Visualizza per utente** nella Programmazione delle risorse.
 
 >[!IMPORTANT]
 >
 >È necessario associare utenti e mansioni alle tariffe Costo orario per visualizzare le informazioni sul costo nella Programmazione delle risorse.\
 >Per ulteriori informazioni sull&#39;associazione delle tariffe orarie con le mansioni, vedere [Creare e gestire le mansioni](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
->Per ulteriori informazioni sull&#39;associazione delle tariffe orarie agli utenti, vedere [Modificare il profilo di un utente](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+>Per ulteriori informazioni sull&#39;associazione delle tariffe orarie con gli utenti, vedere [Modificare il profilo di un utente](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 Prima di definire il budget delle risorse, accertati di avere una buona conoscenza del lavoro da eseguire (ore pianificate, FTE o costo) e degli orari in cui gli utenti sono aperti al lavoro (ore disponibili, FTE o costo).\
-Per ulteriori informazioni sulla comprensione delle informazioni nella Programmazione delle risorse quando si definisce il budget per ore o FTE, vedere [Panoramica di ore, FTE e informazioni sui costi nelle visualizzazioni Progetto e Ruolo della Programmazione delle risorse](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+Per ulteriori informazioni sulla comprensione delle informazioni nella Programmazione delle risorse durante la definizione del budget per ore o FTE, vedere [Panoramica sulle ore, FTE e informazioni sui costi nelle visualizzazioni Progetto e Ruolo della Programmazione delle risorse](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
 ## Requisiti di accesso
 
@@ -52,16 +52,16 @@ Devi avere i seguenti:
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
    <td> <p>Modifica l'accesso a Gestione risorse, incluso l'accesso a Modifica priorità e ore preventivate nella Programmazione risorse</p> <p>Modifica accesso a dati finanziari, progetti e utenti</p> <p><b>NOTA</b>
 
-Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
+Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per i progetti per i quali si desidera preventivare le informazioni con la possibilità di gestire le finanze</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per i progetti per i quali si desidera preventivare le informazioni con la possibilità di gestire le finanze</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Visualizza informazioni nella Programmazione risorse per costo
 
@@ -69,19 +69,19 @@ Per impostazione predefinita, le informazioni sulla disponibilità e sull&#39;al
 
 Per visualizzare le informazioni Disponibili, Pianificate e Preventivate per Costo nella Programmazione risorse:
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront.
 
-1. Clic **Risorse**.
+1. Fare clic su **Risorse**.
 1. Vai alla Programmazione delle risorse.
-1. (Condizionale) Seleziona **Visualizza per Progetto** o **Visualizza per Ruolo**.\
-   Per impostazione predefinita **Visualizza per Progetto** è selezionato.\
+1. (Condizionale) Selezionare **Visualizza per progetto** o **Visualizza per ruolo**.\
+   Per impostazione predefinita è selezionata l&#39;opzione **Visualizza per progetto**.\
    Le informazioni sull&#39;allocazione e sulla disponibilità vengono visualizzate in Ore.
 
-1. Dalla sezione **Ore** menu a discesa, seleziona **Costo**.
+1. Dal menu a discesa **Ore**, selezionare **Costo**.
 
    Se non si dispone dell&#39;accesso ai dati finanziari nel proprio livello di accesso, questa opzione non è disponibile.\
    Se i progetti hanno una valuta diversa rispetto a quella di sistema, il Costo per questi progetti viene visualizzato in Pianificazione risorse convertito nella valuta del sistema. L&#39;amministratore di sistema definisce la valuta di sistema.\
-   Per ulteriori informazioni sull&#39;impostazione della valuta di sistema in Workfront e sui tassi di conversione, vedere [Imposta tassi di cambio](../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).\
+   Per ulteriori informazioni sull&#39;impostazione della valuta di sistema in Workfront e sui tassi di conversione, vedere [Impostare i tassi di cambio](../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).\
    ![cost_in_the_planner_with_no_budgeting.png](assets/costs-in-the-planner-with-no-budgeting-350x240.png)
 
 ## Calcola costo disponibile nella Programmazione delle risorse
@@ -92,7 +92,7 @@ Per visualizzare i valori di Costo disponibile nella Programmazione delle risors
 * Informazioni sulla disponibilità degli utenti.
 
   L&#39;ottenimento di informazioni sulla disponibilità degli utenti dipende dal modo in cui l&#39;amministratore di Workfront configura le preferenze di gestione delle risorse.\
-  Per ulteriori informazioni sul calcolo della disponibilità utente e sull&#39;impostazione delle preferenze di gestione delle risorse, vedere [Configurare le preferenze di Gestione risorse](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+  Per ulteriori informazioni sul calcolo della disponibilità utente e sull&#39;impostazione delle preferenze di Gestione risorse, vedere [Configurare le preferenze di Gestione risorse](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 Nella tabella seguente viene illustrato il calcolo del costo disponibile nella Programmazione delle risorse:
 
@@ -101,7 +101,7 @@ Nella tabella seguente viene illustrato il calcolo del costo disponibile nella P
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Costo disponibile</strong> </th> 
+   <th><strong>Costo Disponibile</strong> </th> 
    <th><strong>Calcolo</strong> </th> 
   </tr> 
  </thead> 
@@ -137,7 +137,7 @@ Sebbene non sia possibile visualizzare le informazioni sulle attività nella Pro
    * Un team\
      Un&#39;attività assegnata a un team viene considerata non assegnata dal punto di vista della programmazione delle risorse.
 
-* Il **Tipo di costo** delle attività del progetto.\
+* Il **Tipo di costo** delle attività nel progetto.\
   Per ulteriori informazioni sul tipo di costo di un&#39;attività, vedere [Tracciare i costi](../../manage-work/projects/project-finances/track-costs.md).
 
 * Le date di validità dei tassi di costo per mansioni e utenti.
@@ -150,7 +150,7 @@ Sebbene non sia possibile visualizzare le informazioni sulle attività nella Pro
 
 Per calcolare il costo pianificato per utenti, ruoli e progetto sono disponibili i seguenti scenari:
 
-* Quando **Tipo di costo** è **User Hourly **ed è presente **nessuna assegnazione** sull&#39;attività:
+* Quando il **Tipo di costo** è **Ore utente **e non è presente **alcuna assegnazione** nell&#39;attività:
 
    * **Costo pianificato per ruolo e utente**:
 
@@ -160,7 +160,7 @@ Per calcolare il costo pianificato per utenti, ruoli e progetto sono disponibili
 
      Il costo pianificato del progetto è di $0,00.
 
-* Quando **Tipo di costo** è **Ore Utente** e c&#39;è un **assegnazione utente** sull&#39;attività:
+* Quando il tipo di costo **Tipo di costo** è **Ore utente** ed è presente un&#39;assegnazione **utente** per l&#39;attività:
 
    * **Costo pianificato per ruolo e utente**:
 
@@ -182,7 +182,7 @@ Per calcolare il costo pianificato per utenti, ruoli e progetto sono disponibili
 
      Il costo pianificato del progetto è di $0,00.
 
-* Quando **Tipo di costo** è **Ore Utente** e c&#39;è un **assegnazione mansione** sull&#39;attività:
+* Quando il tipo di costo **Tipo di costo** è **Ore utente** ed è presente un&#39;assegnazione di ruolo **** per l&#39;attività:
 
    * **Costo pianificato per ruolo e utente**:
 
@@ -198,7 +198,7 @@ Per calcolare il costo pianificato per utenti, ruoli e progetto sono disponibili
 
      Il costo pianificato del progetto è di $0,00.
 
-* Quando **Tipo di costo** è **Ore Ruolo** e c&#39;è **nessuna assegnazione** sull&#39;attività:
+* Quando il **Tipo di costo** è **Ore ruolo** e non è presente **alcuna assegnazione** sull&#39;attività:
 
    * **Costo pianificato per ruolo e utente**:
 
@@ -208,7 +208,7 @@ Per calcolare il costo pianificato per utenti, ruoli e progetto sono disponibili
 
      Il costo pianificato del progetto è di $0,00.
 
-* Quando **Tipo di costo** è **Ore Ruolo** e c&#39;è un **assegnazione utente** sull&#39;attività:
+* Quando il **Tipo di costo** è **Ore ruolo** ed è presente un **assegnazione utente** sull&#39;attività:
 
    * **Costo pianificato per ruolo e utente**:
 
@@ -228,7 +228,7 @@ Per calcolare il costo pianificato per utenti, ruoli e progetto sono disponibili
 
      `Project Planned Cost = SUM(Role Planned Costs)`
 
-* Quando **Tipo di costo** è **Ore Ruolo** e c&#39;è un **assegnazione mansione** sull&#39;attività:
+* Quando il **Tipo di costo** è **Ore ruolo** ed è presente un **assegnazione mansione** sull&#39;attività:
 
    * **Costo pianificato per ruolo e utente**:
 
@@ -319,7 +319,7 @@ Nella tabella seguente viene illustrato come viene calcolato il Costo preventiva
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Bdg prv</strong> </th> 
+   <th><strong>Costo preventivato</strong> </th> 
    <th><strong>Calcolo</strong> </th> 
   </tr> 
  </thead> 

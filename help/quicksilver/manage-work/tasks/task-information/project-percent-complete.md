@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Il valore Percentuale completamento di un progetto viene calcolato in base alla Durata o alle Ore pianificate delle attività del progetto. L’amministratore di Adobe Workfront o un amministratore di gruppo definisce quale valore viene preso in considerazione per calcolare la percentuale di completamento nel sistema quando configura le informazioni nell’area Preferenze progetto.
 
-Per informazioni sulla configurazione delle preferenze del progetto, consulta [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Per informazioni sulla configurazione delle preferenze di progetto, vedere [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 La percentuale di completamento di un&#39;attività padre si basa sulla durata o sulle ore pianificate di ciascuna delle relative sottoattività.
 
@@ -40,7 +40,7 @@ Le attività principali sono le attività padre e le attività autonome che non 
 
 Workfront utilizza la percentuale di completamento di una singola attività per calcolare la percentuale di completamento della relativa attività padre o la percentuale di completamento del progetto.
 
-Per informazioni sull&#39;aggiornamento della percentuale di completamento di un&#39;attività, vedere [Visualizza e aggiorna la percentuale di completamento per le attività](../../../manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
+Per informazioni sull&#39;aggiornamento della percentuale di completamento di un&#39;attività, vedere [Visualizzare e aggiornare la percentuale di completamento delle attività](../../../manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
 
 ### Come Workfront calcola la percentuale di completamento di un&#39;attività padre {#how-workfront-calculates-percent-complete-on-a-parent-task}
 

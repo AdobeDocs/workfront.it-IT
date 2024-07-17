@@ -51,21 +51,21 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
 
 ## Configurare le schede {#configure-cards}
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Schede]**.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Bacheche]**.
 1. Accedi a una bacheca. Per informazioni, consulta [Creare o modificare una bacheca](../../agile/get-started-with-boards/create-edit-board.md).
-1. Clic [!UICONTROL **Configura**] sulla destra della bacheca per aprire il pannello Configura.
+1. Fai clic su [!UICONTROL **Configura**] a destra della bacheca per aprire il pannello Configura.
 1. Espandi [!UICONTROL **Schede**].
 
    La maggior parte dei campi e delle sezioni è attivata per impostazione predefinita.
 
 1. Disattiva un campo o una sezione per disattivarla in entrambe le visualizzazioni a schede.
-1. Fai clic sull’icona Nascondi ![Nascondi icona](assets/eye-hide-icon.png) accanto a un campo o a una sezione per nasconderlo nella visualizzazione ridotta.
-1. Per visualizzare tutti i campi e le sezioni in entrambe le visualizzazioni, fare clic su [!UICONTROL **Ripristina tutti i campi ai valori predefiniti**].
-1. Clic [!UICONTROL **Nascondi configurazione**] per chiudere il pannello Configura.
+1. Fare clic sull&#39;icona Nascondi ![Icona Nascondi](assets/eye-hide-icon.png) accanto a un campo o a una sezione per nasconderlo nella visualizzazione ridotta.
+1. Per visualizzare tutti i campi e le sezioni in entrambe le visualizzazioni, fare clic su [!UICONTROL **Ripristina tutti i campi sul valore predefinito**].
+1. Fai clic su [!UICONTROL **Nascondi configurazione**] per chiudere il pannello Configura.
 
 ## Aggiungere campi personalizzati alle schede
 
@@ -75,7 +75,7 @@ I dati sui campi personalizzati sono modificabili sulla scheda, anche se alcuni 
 
 1. Accedi a una bacheca e fai clic su [!UICONTROL **Configura**] per aprire il pannello Configura.
 1. Espandi [!UICONTROL **Schede**].
-1. Sotto [!UICONTROL Campi scheda], fai clic su [!UICONTROL **Aggiungi campo personalizzato**].
+1. In [!UICONTROL Campi scheda], fai clic su [!UICONTROL **Aggiungi campo personalizzato**].
 1. Seleziona [!UICONTROL **Attività**] o [!UICONTROL **Problema**].
 
    Vengono visualizzate le categorie dei campi disponibili per le attività o i problemi. Espandere una categoria per visualizzare tutti i campi. È inoltre possibile cercare un campo.
@@ -87,13 +87,13 @@ I dati sui campi personalizzati sono modificabili sulla scheda, anche se alcuni 
    >Non sono disponibili i seguenti tipi di campo da aggiungere alle schede: Adobe XD, Immagine, PDF, Video.
 
 1. Selezionare il nome del campo.
-1. (Facoltativo) Fai clic su nella **[!UICONTROL Valore campo]** per cambiare il campo personalizzato.
-1. (Facoltativo) Modifica il **[!UICONTROL Etichetta campo]** al nome del campo che si desidera visualizzare sulle schede.
-1. Una volta apportate le modifiche desiderate, fare clic su [!UICONTROL **Salva campo**].
+1. (Facoltativo) Fai clic nel campo **[!UICONTROL Valore campo]** per modificare il campo personalizzato in un altro.
+1. (Facoltativo) Modifica l&#39;**[!UICONTROL etichetta campo]** con il nome del campo che desideri visualizzare sulle schede.
+1. Dopo aver apportato le modifiche desiderate, fare clic su [!UICONTROL **Salva campo**].
 
-   ![Valore campo personalizzato ed etichetta](assets/save-custom-field-value-label.png)
+   ![Etichetta e valore campo personalizzato](assets/save-custom-field-value-label.png)
 
-   Il campo personalizzato viene aggiunto all’elenco dei campi disponibili ed è abilitato per impostazione predefinita. Puoi disattivare il campo personalizzato seguendo la procedura descritta nella sezione [Configurare le schede](customize-fields-on-card.md#configure-cards) , modificare il campo o eliminarlo da tutte le schede.
+   Il campo personalizzato viene aggiunto all’elenco dei campi disponibili ed è abilitato per impostazione predefinita. Puoi disabilitare il campo personalizzato seguendo i passaggi descritti nella sezione [Configurare le schede](customize-fields-on-card.md#configure-cards) precedente, modificare il campo o eliminarlo da tutte le schede.
 
 >[!NOTE]
 >
@@ -105,12 +105,12 @@ I dati sui campi personalizzati sono modificabili sulla scheda, anche se alcuni 
 
 1. Accedi a una bacheca e fai clic su [!UICONTROL **Configura**] per aprire il pannello Configura.
 1. Espandi [!UICONTROL **Schede**].
-1. Attiva [!UICONTROL **Visualizza le schede archiviate sulla bacheca**].
+1. Attiva [!UICONTROL **Visualizza schede archiviate sulla bacheca**].
 
-   Ora puoi filtrare la bacheca per mostrare tutte le schede che sono state archiviate. Per ulteriori informazioni, consulta [Filtrare ed eseguire ricerche in una bacheca](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+   Ora puoi filtrare la bacheca per mostrare tutte le schede che sono state archiviate. Per ulteriori dettagli, vedere [Filtrare ed eseguire ricerche in una bacheca](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-1. Clic [!UICONTROL **Nascondi configurazione**] per chiudere il pannello Configura.
+1. Fai clic su [!UICONTROL **Nascondi configurazione**] per chiudere il pannello Configura.
 
 ## Configurare la perdita di dati della scheda
 
-Per rimuovere automaticamente le schede dalla bacheca dopo un periodo di tempo, vedi [Configurare la perdita di dati della scheda](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
+Per rimuovere automaticamente le schede dalla bacheca dopo un certo periodo di tempo, vedi [Configurare la perdita di dati delle schede](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).

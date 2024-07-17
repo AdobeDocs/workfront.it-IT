@@ -18,9 +18,9 @@ ht-degree: 0%
 # Gestire le bozze
 
 * [Modifica impostazioni bozza](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md)
-* [Stampare un riepilogo delle bozze in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)
-* [Eliminare una bozza](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md)
+* [Stampa un riepilogo delle bozze in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)
+* [Elimina una bozza](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md)
 * [Ripristinare una bozza archiviata](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/restore-archived-proof.md)
-* [Visualizzare l’attività su una bozza in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-activity-on-proof-in-wf.md)
-* [Utilizzare il rapporto di approvazione della bozza](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
+* [Visualizza attività su una bozza in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-activity-on-proof-in-wf.md)
+* [Utilizzare il report di approvazione della bozza](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
 * [Accedere a Workfront Proof da Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)

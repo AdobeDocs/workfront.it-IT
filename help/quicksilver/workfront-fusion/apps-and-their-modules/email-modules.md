@@ -5,7 +5,7 @@ product-area: workfront-integrations
 keywords: connettore
 navigation-topic: apps-and-their-modules
 title: Moduli e-mail
-description: In un [!DNL Adobe Workfront Fusion] In questo caso, puoi collegare il tuo account e-mail a più applicazioni e servizi di terze parti. Ciò ti consente di scaricare e-mail tramite IMAP, inviare e-mail tramite SMTP, creare nuove bozze, spostare e copiare e-mail da una cartella a un’altra, contrassegnare le e-mail come lette o non lette ed eliminare le e-mail.
+description: In uno scenario  [!DNL Adobe Workfront Fusion] , puoi collegare il tuo account e-mail a più applicazioni e servizi di terze parti. Ciò ti consente di scaricare e-mail tramite IMAP, inviare e-mail tramite SMTP, creare nuove bozze, spostare e copiare e-mail da una cartella a un'altra, contrassegnare le e-mail come lette o non lette ed eliminare le e-mail.
 author: Becky
 feature: Workfront Fusion
 exl-id: 384ba60a-d79e-4126-a247-6d67b5154ede
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Moduli e-mail
 
-In un [!DNL Adobe Workfront Fusion] In questo caso, puoi collegare il tuo account e-mail a più applicazioni e servizi di terze parti. Ciò ti consente di scaricare e-mail tramite IMAP, inviare e-mail tramite SMTP, creare nuove bozze, spostare e copiare e-mail da una cartella a un’altra, contrassegnare le e-mail come lette o non lette ed eliminare le e-mail.
+In uno scenario [!DNL Adobe Workfront Fusion], è possibile collegare l&#39;account di posta elettronica a più applicazioni e servizi di terze parti. Ciò consente di scaricare le e-mail tramite IMAP, inviare e-mail tramite SMTP, creare nuove bozze, spostare e copiare le e-mail da una cartella a un&#39;altra, contrassegnare le e-mail come lette o non lette ed eliminare le e-mail.
 
 ## Requisiti di accesso
 
@@ -39,25 +39,25 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licenza**</td> 
    <td>
-   <p>Fabbisogno di licenza corrente: No [!DNL Workfront Fusion] requisito di licenza.</p>
+   <p>Requisiti di licenza correnti: nessun requisito di licenza [!DNL Workfront Fusion].</p>
    <p>Oppure</p>
-   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro] </p>
+   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione del lavoro] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
    <td>
-   <p>Fabbisogno prodotto corrente: se si dispone di [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Pianifica, la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo. [!DNL Workfront Fusion] è incluso in [!UICONTROL Ultimate] [!DNL Workfront] piano.</p>
+   <p>Fabbisogno prodotto corrente: se si dispone del piano [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], l'organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo. [!DNL Workfront Fusion] è incluso nel piano [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>Oppure</p>
-   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</p>
+   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore [!DNL Workfront].
 
-Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Collegare l&#39;e-mail a Workfront Fusion {#connect-your-email-to-workfront-fusion}
 
@@ -66,41 +66,41 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe
 
 ### Connetti a [!DNL Google]
 
-Utilizza questa opzione per creare scenari con moduli e-mail che richiedono una connessione al [!DNL Google] account. Questo è un account con ambiti limitati.
+Utilizzare questa opzione per creare scenari con moduli e-mail che richiedono una connessione all&#39;account [!DNL Google]. Questo è un account con ambiti limitati.
 
-Puoi creare una connessione al tuo [!DNL Google] account direttamente dall&#39;interno di un modulo e-mail.
+Puoi creare una connessione al tuo account [!DNL Google] direttamente dall&#39;interno di un modulo e-mail.
 
-1. In qualsiasi modulo e-mail, fai clic su **[!UICONTROL Aggiungi]** accanto al [!UICONTROL Connessione] campo.
-1. Seleziona **[!DNL Google]** come tipo di connessione.
+1. In qualsiasi modulo e-mail, fai clic su **[!UICONTROL Aggiungi]** accanto al campo [!UICONTROL Connessione].
+1. Selezionare **[!DNL Google]** come tipo di connessione.
 1. Immettere un nome per la connessione.
-1. (Facoltativo) Immetti il [!UICONTROL [!DNL Google] ID client] e [!UICONTROL Segreto client].
-1. Clic **[!UICONTROL Continua]** per creare la connessione e tornare al modulo.
+1. (Facoltativo) Immetti l&#39;ID client [!UICONTROL [!DNL Google]] e il [!UICONTROL segreto client].
+1. Fai clic su **[!UICONTROL Continua]** per creare la connessione e tornare al modulo.
 
 ### Connetti ad altri servizi e-mail (SMAP)
 
 La connessione SMAP consente di accedere alla cassetta postale in modalità remota e di leggere o manipolare i messaggi nella cassetta postale. La connessione SMAP viene utilizzata dalla maggior parte dei moduli E-mail.
 
-1. In qualsiasi modulo e-mail, fai clic su **[!UICONTROL Aggiungi]** accanto al [!UICONTROL Connessione] campo.
-1. Seleziona **[!UICONTROL Altro (SMTP)]** come tipo di connessione.
+1. In qualsiasi modulo e-mail, fai clic su **[!UICONTROL Aggiungi]** accanto al campo [!UICONTROL Connessione].
+1. Selezionare **[!UICONTROL Altri (SMTP)]** come tipo di connessione.
 1. Immetti un **[!UICONTROL Nome]** per la connessione.
-1. Seleziona il **[!UICONTROL Provider di posta elettronica]** dall&#39;elenco. Se il tuo provider di posta elettronica non è presente nell’elenco, seleziona Altro.
-1. Immetti il **[!UICONTROL Indirizzo e-mail]**, **[!UICONTROL Nome e cognome]**, il tuo **[!UICONTROL Nome utente]**, e **[!UICONTROL Password]**.
-1. (Condizionale) Se il provider non è presente nell’elenco, inserisci il **[!UICONTROL Server SMTP]** e **[!UICONTROL Porta]** e specificare se si desidera **[!UICONTROL Utilizzare una connessione protetta (TLS)]**. Per trovare queste informazioni, selezionare [!UICONTROL Aiuto] sezione per la cassetta postale. Se non disponi di queste informazioni, contatta il provider di servizi e-mail.
-1. Clic **[!UICONTROL Continua]** per creare la connessione e tornare al modulo.
+1. Seleziona il tuo **[!UICONTROL provider di posta elettronica]** dall&#39;elenco. Se il tuo provider di posta elettronica non è presente nell’elenco, seleziona Altro.
+1. Immetti il tuo **[!UICONTROL indirizzo e-mail]**, **[!UICONTROL nome completo]**, il tuo **[!UICONTROL nome utente]** e la tua **[!UICONTROL password]**.
+1. (Condizionale) Se il provider non è incluso nell&#39;elenco, immettere il **[!UICONTROL server SMTP]** e la **[!UICONTROL porta]** e specificare se si desidera **[!UICONTROL utilizzare una connessione sicura (TLS)]**. Per trovare queste informazioni, controllare la sezione [!UICONTROL Guida] della cassetta postale. Se non disponi di queste informazioni, contatta il provider di servizi e-mail.
+1. Fai clic su **[!UICONTROL Continua]** per creare la connessione e tornare al modulo.
 
 ## [!UICONTROL E-mail] moduli e relativi campi
 
-Quando si configura [!UICONTROL E-mail] moduli, [!DNL Workfront Fusion] visualizza i campi elencati di seguito. Insieme a questi, potrebbero essere visualizzati campi aggiuntivi, a seconda di fattori come il livello di accesso nell’app o nel servizio. Un titolo in grassetto in un modulo indica un campo obbligatorio.
+Quando configuri i moduli [!UICONTROL E-mail], [!DNL Workfront Fusion] visualizza i campi elencati di seguito. Insieme a questi, potrebbero essere visualizzati campi aggiuntivi, a seconda di fattori come il livello di accesso nell’app o nel servizio. Un titolo in grassetto in un modulo indica un campo obbligatorio.
 
 Alcuni campi e-mail potrebbero contenere già dati, perché sono stati utilizzati in un altro modulo dello scenario. Se hai bisogno di informazioni su di loro, consulta la documentazione dell’e-mail.
 
-Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possibile utilizzarlo per impostare variabili e funzioni per tale campo. Per ulteriori informazioni, consulta [Mappare le informazioni da un modulo all’altro in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possibile utilizzarlo per impostare variabili e funzioni per tale campo. Per ulteriori informazioni, vedere [Mappare le informazioni da un modulo all&#39;altro in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
 >[!NOTE]
 >
->ID e-mail univoco noto come &quot;[!UICONTROL ID e-mail (UID)]&#39; è l’identificatore dell’e-mail. L’ID e-mail è specifico per ciascuna cartella dell’e-mail.
+>L&#39;ID e-mail univoco noto come &#39;[!UICONTROL ID e-mail (UID)]&#39; è l&#39;identificatore dell&#39;e-mail. L’ID e-mail è specifico per ciascuna cartella dell’e-mail.
 
 * [Triggers](#triggers)
 * [Azioni](#actions)
@@ -108,7 +108,7 @@ Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possib
 
 ### Triggers
 
-#### [!UICONTROL Guarda le e-mail]
+#### [!UICONTROL Controlla le e-mail]
 
 Si attiva quando viene ricevuta una nuova e-mail per l’elaborazione in base a criteri specificati.
 
@@ -118,7 +118,7 @@ Si attiva quando viene ricevuta una nuova e-mail per l’elaborazione in base a 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione dell'account di posta elettronica a [!UICONTROL Workfront Fusion], vedere <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connetti l'e-mail a [!UICONTROL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account di posta elettronica a [!UICONTROL Workfront Fusion], vedere <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connettere l'indirizzo di posta elettronica a [!UICONTROL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Folder] </td> 
@@ -155,23 +155,23 @@ Si attiva quando viene ricevuta una nuova e-mail per l’elaborazione in base a 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Numero massimo di risultati]</td> 
-   <td> <p> Numero massimo di e-mail [!DNL Workfront Fusion] deve essere restituito durante un ciclo di esecuzione dello scenario.</p> </td> 
+   <td> <p> Il numero massimo di e-mail [!DNL Workfront Fusion] deve essere restituito durante un ciclo di esecuzione dello scenario.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Azioni
 
-* [[!UICONTROL Inviare un’e-mail]](#send-an-email)
-* [[!UICONTROL Creare una bozza]](#create-a-draft)
-* [[!UICONTROL Contrassegna un messaggio e-mail come letto]](#mark-an-email-as-read)
-* [[!UICONTROL Contrassegna un messaggio e-mail come non letto]](#mark-an-email-as-unread)
-* [[!UICONTROL Spostare un’e-mail]](#move-an-email)
-* [[!UICONTROL Copiare un messaggio e-mail]](#copy-an-email)
-* [[!UICONTROL Eliminare un’e-mail]](#delete-an-email)
+* [[!UICONTROL Invia un&#39;e-mail]](#send-an-email)
+* [[!UICONTROL Crea bozza]](#create-a-draft)
+* [[!UICONTROL Contrassegna un&#39;e-mail come già letta]](#mark-an-email-as-read)
+* [[!UICONTROL Contrassegna un&#39;e-mail come non letta]](#mark-an-email-as-unread)
+* [[!UICONTROL Sposta un&#39;e-mail]](#move-an-email)
+* [[!UICONTROL Copia un&#39;e-mail]](#copy-an-email)
+* [[!UICONTROL Eliminare un&#39;e-mail]](#delete-an-email)
 * [[!UICONTROL Ricevi e-mail]](#get-emails)
 
-#### [!UICONTROL Inviare un’e-mail]
+#### [!UICONTROL Invia un&#39;e-mail]
 
 Invia una nuova e-mail.
 
@@ -181,11 +181,11 @@ Invia una nuova e-mail.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni su come collegare il tuo account e-mail a [!DNL Workfront Fusion], vedi <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connetti l'e-mail a [!UICONTROL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account di posta elettronica a [!DNL Workfront Fusion], vedere <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connettere l'indirizzo di posta elettronica a [!UICONTROL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Salva messaggio dopo l'invio]</td> 
-   <td>Una volta inviato, il messaggio e-mail verrà salvato nella cassetta postale. Abilita questa opzione se desideri salvare le e-mail inviate tramite [!DNL Workfront Fusion] al <i>[!UICONTROL Sent mail]</i> cartella o un'altra cartella nella cassetta postale. Alcuni servizi e-mail, come [!DNL Gmail], salva automaticamente i messaggi inviati.</td> 
+   <td>Una volta inviato, il messaggio e-mail verrà salvato nella cassetta postale. Abilitare questa opzione se si desidera salvare le e-mail inviate tramite [!DNL Workfront Fusion] nella cartella <i>[!UICONTROL Sent mail]</i> o in un'altra cartella della cassetta postale. Alcuni servizi di posta elettronica, ad esempio [!DNL Gmail], salvano automaticamente i messaggi inviati.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL A] </td> 
@@ -212,8 +212,8 @@ Invia una nuova e-mail.
    <td> <p>Aggiungi un allegato:</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Nome file]</strong> </p> <p>Immettere il nome del file. Ad esempio, sample.doc.</p> </li> 
-     <li> <p><strong>[!UICONTROL Data]</strong> </p> <p>Immettere il percorso della cartella in cui caricare l'allegato.</p> </li> 
-     <li> <p><strong>[!UICONTROL Content-ID]</strong> </p> <p>Immetti l'ID di contenuto [!UICONTROL] per inserire l'allegato (immagine) nel contenuto.</p> </li> 
+     <li> <p><strong>[!UICONTROL Dati]</strong> </p> <p>Immettere il percorso della cartella in cui caricare l'allegato.</p> </li> 
+     <li> <p><strong>[!UICONTROL ID contenuto]</strong> </p> <p>Immetti l'ID di contenuto [!UICONTROL] per inserire l'allegato (immagine) nel contenuto.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -226,11 +226,11 @@ Invia una nuova e-mail.
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Da] </td> 
-   <td> <p>Immetti o mappa l'indirizzo e-mail (e il nome, se necessario) che viene visualizzato nel campo [!UICONTROL Da] dell'e-mail. </p> <p>Importante: utilizza la sintassi corretta: <code>name@email.com</code> o <code>"Name" name@email.com</code>.</p> <p>Nota: Di Norma [!DNL Workfront Fusion] utilizza come indirizzo del mittente l’indirizzo e-mail immesso durante la creazione della connessione. Se inserisci un altro indirizzo e-mail, potrebbe verificarsi un errore durante l’invio di un messaggio, perché il tuo account potrebbe non disporre dell’autorizzazione per inviare e-mail da un indirizzo diverso dal tuo. Ad es. <code>test@mail.com</code> o "<code>John Bush" test@email.com</code>.</p> </td> 
+   <td> <p>Immetti o mappa l'indirizzo e-mail (e il nome, se necessario) che viene visualizzato nel campo [!UICONTROL Da] dell'e-mail. </p> <p>Importante: utilizzare la sintassi corretta: <code>name@email.com</code> o <code>"Name" name@email.com</code>.</p> <p>Nota: in genere, [!DNL Workfront Fusion] utilizza come indirizzo del mittente l'indirizzo e-mail immesso durante la creazione della connessione. Se inserisci un altro indirizzo e-mail, potrebbe verificarsi un errore durante l’invio di un messaggio, perché il tuo account potrebbe non disporre dell’autorizzazione per inviare e-mail da un indirizzo diverso dal tuo. Esempio: <code>test@mail.com</code> o "<code>John Bush" test@email.com</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Sender]</p> </td> 
-   <td> <p>Inserisci o mappa l’indirizzo e-mail visualizzato nel campo [!UICONTROL Sender] dell’e-mail.</p> <p>Suggerimento: se non si è sicuri di utilizzare questo campo o il campo Da, è consigliabile scegliere il campo Da.</p> <p>Importante: utilizza la sintassi corretta: <code>name@email.com</code> o <code>"Name" name@email.com</code></p> </td> 
+   <td> <p>Inserisci o mappa l’indirizzo e-mail visualizzato nel campo [!UICONTROL Sender] dell’e-mail.</p> <p>Suggerimento: se non si è sicuri di utilizzare questo campo o il campo Da, è consigliabile scegliere il campo Da.</p> <p>Importante: utilizzare la sintassi corretta: <code>name@email.com</code> o <code>"Name" name@email.com</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL - Risposta]</td> 
@@ -258,13 +258,13 @@ Invia una nuova e-mail.
    <td> <p>Aggiungi le intestazioni:</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Key]</strong> </p> <p>Aggiungi la chiave. [!UICONTROL Sender], [!UICONTROL Date], [!UICONTROL To] e così via.</p> </li> 
-     <li> <p><strong>Valore [!UICONTROL]</strong> </p> <p>Immetti il valore per la chiave.</p> </li> 
+     <li> <p><strong>[!UICONTROL Valore]</strong> </p> <p>Immetti il valore per la chiave.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Creare una bozza]
+#### [!UICONTROL Crea bozza]
 
 Crea e aggiunge una nuova bozza a una cartella selezionata.
 
@@ -274,7 +274,7 @@ Crea e aggiunge una nuova bozza a una cartella selezionata.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione dell'account di posta elettronica a [!UICONTROL Workfront Fusion], vedere <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connetti l'e-mail a [!UICONTROL Workfront Fusion]</a> in questo articolo.</p> </td>
+   <td> <p>Per istruzioni sulla connessione dell'account di posta elettronica a [!UICONTROL Workfront Fusion], vedere <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connettere l'indirizzo di posta elettronica a [!UICONTROL Workfront Fusion]</a> in questo articolo.</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Folder]</td> 
@@ -305,8 +305,8 @@ Crea e aggiunge una nuova bozza a una cartella selezionata.
    <td> <p>Aggiungi un allegato:</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Nome file]</strong> </p> <p>Immettere il nome del file. Ad esempio, sample.doc.</p> </li> 
-     <li> <p><strong>[!UICONTROL Data]</strong> </p> <p>Immettere il percorso della cartella in cui caricare l'allegato.</p> </li> 
-     <li> <p><strong>[!UICONTROL Content-ID]</strong> </p> <p>Immetti l’ID contenuto per inserire l’allegato (immagine) nel contenuto.</p> </li> 
+     <li> <p><strong>[!UICONTROL Dati]</strong> </p> <p>Immettere il percorso della cartella in cui caricare l'allegato.</p> </li> 
+     <li> <p><strong>[!UICONTROL ID contenuto]</strong> </p> <p>Immetti l’ID contenuto per inserire l’allegato (immagine) nel contenuto.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -319,11 +319,11 @@ Crea e aggiunge una nuova bozza a una cartella selezionata.
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Da] </td> 
-   <td> <p>Immetti o mappa l'indirizzo e-mail (e il nome, se necessario) che viene visualizzato nel campo [!UICONTROL Da] dell'e-mail. </p> <p>Importante: utilizza la sintassi corretta: <code>name@email.com</code> o <code>"Name" name@email.com</code>.</p> <p>Nota: Di Norma [!DNL Workfront Fusion] utilizza come indirizzo del mittente l’indirizzo e-mail immesso durante la creazione della connessione. Se inserisci un altro indirizzo e-mail, potrebbe verificarsi un errore durante l’invio di un messaggio, perché il tuo account potrebbe non disporre dell’autorizzazione per inviare e-mail da un indirizzo diverso dal tuo. Ad es. <code>test@mail.com</code> o "<code>John Bush" test@email.com</code>.</p> </td> 
+   <td> <p>Immetti o mappa l'indirizzo e-mail (e il nome, se necessario) che viene visualizzato nel campo [!UICONTROL Da] dell'e-mail. </p> <p>Importante: utilizzare la sintassi corretta: <code>name@email.com</code> o <code>"Name" name@email.com</code>.</p> <p>Nota: in genere, [!DNL Workfront Fusion] utilizza come indirizzo del mittente l'indirizzo e-mail immesso durante la creazione della connessione. Se inserisci un altro indirizzo e-mail, potrebbe verificarsi un errore durante l’invio di un messaggio, perché il tuo account potrebbe non disporre dell’autorizzazione per inviare e-mail da un indirizzo diverso dal tuo. Esempio: <code>test@mail.com</code> o "<code>John Bush" test@email.com</code>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>[!UICONTROL Sender]</p> </td> 
-   <td> <p>Inserisci o mappa l’indirizzo e-mail visualizzato nel campo [!UICONTROL Sender] dell’e-mail.</p> <p>Suggerimento: se non si è sicuri di utilizzare questo campo o il campo Da, è consigliabile scegliere il campo Da.</p> <p>Importante: utilizza la sintassi corretta: <code>name@email.com</code> o <code>"Name" name@email.com</code></p> </td> 
+   <td> <p>Inserisci o mappa l’indirizzo e-mail visualizzato nel campo [!UICONTROL Sender] dell’e-mail.</p> <p>Suggerimento: se non si è sicuri di utilizzare questo campo o il campo Da, è consigliabile scegliere il campo Da.</p> <p>Importante: utilizzare la sintassi corretta: <code>name@email.com</code> o <code>"Name" name@email.com</code></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL - Risposta]</td> 
@@ -351,15 +351,15 @@ Crea e aggiunge una nuova bozza a una cartella selezionata.
    <td> <p>Aggiungi le intestazioni:</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Key]</strong> </p> <p>Aggiungi la chiave. Ad esempio, Mittente, Data, A e così via.</p> </li> 
-     <li> <p><strong>Valore [!UICONTROL]</strong> </p> <p>Immetti il valore per la chiave.</p> </li> 
+     <li> <p><strong>[!UICONTROL Valore]</strong> </p> <p>Immetti il valore per la chiave.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Contrassegna un messaggio e-mail come letto]
+#### [!UICONTROL Contrassegna un&#39;e-mail come già letta]
 
-Contrassegna un’e-mail o una bozza in una cartella selezionata come letta impostando il [!UICONTROL Letto] flag.
+Contrassegna un&#39;e-mail o una bozza in una cartella selezionata come già letta impostando il flag [!UICONTROL Leggi].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -367,7 +367,7 @@ Contrassegna un’e-mail o una bozza in una cartella selezionata come letta impo
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione dell'account di posta elettronica a [!UICONTROL Workfront Fusion], vedere <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connetti l'e-mail a [!UICONTROL Workfront Fusion]</a> in questo articolo.</p> </td>
+   <td> <p>Per istruzioni sulla connessione dell'account di posta elettronica a [!UICONTROL Workfront Fusion], vedere <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connettere l'indirizzo di posta elettronica a [!UICONTROL Workfront Fusion]</a> in questo articolo.</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Folder]</td> 
@@ -380,7 +380,7 @@ Contrassegna un’e-mail o una bozza in una cartella selezionata come letta impo
  </tbody> 
 </table>
 
-#### [!UICONTROL Contrassegna un messaggio e-mail come non letto]
+#### [!UICONTROL Contrassegna un&#39;e-mail come non letta]
 
 Contrassegna un messaggio e-mail o una bozza in una cartella selezionata come non letti impostando il flag Unread.
 
@@ -390,7 +390,7 @@ Contrassegna un messaggio e-mail o una bozza in una cartella selezionata come no
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione dell'account di posta elettronica a [!UICONTROL Workfront Fusion], vedere <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connetti l'e-mail a [!UICONTROL Workfront Fusion]</a> in questo articolo.</p> </td>
+   <td> <p>Per istruzioni sulla connessione dell'account di posta elettronica a [!UICONTROL Workfront Fusion], vedere <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connettere l'indirizzo di posta elettronica a [!UICONTROL Workfront Fusion]</a> in questo articolo.</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Folder]</td> 
@@ -403,7 +403,7 @@ Contrassegna un messaggio e-mail o una bozza in una cartella selezionata come no
  </tbody> 
 </table>
 
-#### [!UICONTROL Spostare un’e-mail]
+#### [!UICONTROL Sposta un&#39;e-mail]
 
 Sposta un messaggio e-mail o una bozza selezionati in una cartella selezionata.
 
@@ -413,10 +413,10 @@ Sposta un messaggio e-mail o una bozza selezionati in una cartella selezionata.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione dell'account di posta elettronica a [!UICONTROL Workfront Fusion], vedere <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connetti l'e-mail a [!UICONTROL Workfront Fusion]</a> in questo articolo.</p> </td>
+   <td> <p>Per istruzioni sulla connessione dell'account di posta elettronica a [!UICONTROL Workfront Fusion], vedere <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connettere l'indirizzo di posta elettronica a [!UICONTROL Workfront Fusion]</a> in questo articolo.</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL cartella di origine]</td> 
+   <td role="rowheader">[!UICONTROL Source Folder]</td> 
    <td>Seleziona la cartella contenente l’e-mail da cui desideri spostare l’e-mail. Esempio: primario.</td> 
   </tr> 
   <tr> 
@@ -430,7 +430,7 @@ Sposta un messaggio e-mail o una bozza selezionati in una cartella selezionata.
  </tbody> 
 </table>
 
-#### [!UICONTROL Copiare un messaggio e-mail]
+#### [!UICONTROL Copia un&#39;e-mail]
 
 Copia un messaggio e-mail o una bozza in una cartella selezionata.
 
@@ -440,10 +440,10 @@ Copia un messaggio e-mail o una bozza in una cartella selezionata.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione dell'account di posta elettronica a [!UICONTROL Workfront Fusion], vedere <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connetti l'e-mail a [!UICONTROL Workfront Fusion]</a> in questo articolo.</p> </td>
+   <td> <p>Per istruzioni sulla connessione dell'account di posta elettronica a [!UICONTROL Workfront Fusion], vedere <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connettere l'indirizzo di posta elettronica a [!UICONTROL Workfront Fusion]</a> in questo articolo.</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL cartella di origine]</td> 
+   <td role="rowheader">[!UICONTROL Source Folder]</td> 
    <td>Seleziona la cartella da cui desideri copiare l’e-mail. Esempio: primario.</td> 
   </tr> 
   <tr> 
@@ -457,7 +457,7 @@ Copia un messaggio e-mail o una bozza in una cartella selezionata.
  </tbody> 
 </table>
 
-#### [!UICONTROL Eliminare un’e-mail]
+#### [!UICONTROL Eliminare un&#39;e-mail]
 
 Rimuove un messaggio e-mail o una bozza dalla cartella selezionata.
 
@@ -467,7 +467,7 @@ Rimuove un messaggio e-mail o una bozza dalla cartella selezionata.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione dell'account di posta elettronica a [!UICONTROL Workfront Fusion], vedere <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connetti l'e-mail a [!UICONTROL Workfront Fusion]</a> in questo articolo.</p> </td>
+   <td> <p>Per istruzioni sulla connessione dell'account di posta elettronica a [!UICONTROL Workfront Fusion], vedere <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connettere l'indirizzo di posta elettronica a [!UICONTROL Workfront Fusion]</a> in questo articolo.</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Folder]</td> 
@@ -479,7 +479,7 @@ Rimuove un messaggio e-mail o una bozza dalla cartella selezionata.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Expunge]</td> 
-   <td> <p>Abilita questa opzione per consentire al modulo di rimuovere definitivamente tutti i messaggi contrassegnati come [!UICONTROL Deleted] nella cassetta postale attualmente aperta.</p> <p>Nota: in [!DNL Gmail], questo comportamento è determinato dall'impostazione della sezione [!UICONTROL Settings] &gt;[!UICONTROL Forwarding POP/IMAP in IMAP access].</p> </td> 
+   <td> <p>Abilita questa opzione per consentire al modulo di rimuovere definitivamente tutti i messaggi contrassegnati come [!UICONTROL Deleted] nella cassetta postale attualmente aperta.</p> <p>Nota: in [!DNL Gmail], questo comportamento è guidato dall'impostazione nella sezione [!UICONTROL Settings] &gt;[!UICONTROL Forwarding POP/IMAP in IMAP access].</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -494,7 +494,7 @@ Restituisce e-mail che corrispondono ai criteri specificati.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione dell'account di posta elettronica a [!UICONTROL Workfront Fusion], vedere <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connetti l'e-mail a [!UICONTROL Workfront Fusion]</a> in questo articolo.</p> </td>
+   <td> <p>Per istruzioni sulla connessione dell'account di posta elettronica a [!UICONTROL Workfront Fusion], vedere <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connettere l'indirizzo di posta elettronica a [!UICONTROL Workfront Fusion]</a> in questo articolo.</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Folder] </td> 
@@ -539,11 +539,11 @@ Restituisce e-mail che corrispondono ai criteri specificati.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Email ID (UID)]</td> 
-   <td> <p> Immetti l’ID e-mail (UID) dell’e-mail di cui desideri recuperare i dettagli.</p> <p>Puoi ottenere l’UID dell’e-mail utilizzando [!DNL Workfront Fusion]Modulo [!UICONTROL E-mail di controllo] o modulo [!UICONTROL E-mail di ricerca].</p> </td> 
+   <td> <p> Immetti l’ID e-mail (UID) dell’e-mail di cui desideri recuperare i dettagli.</p> <p>È possibile ottenere l'UID dell'e-mail utilizzando il modulo [!UICONTROL Watch Email] di [!DNL Workfront Fusion] o il modulo [!UICONTROL Search Email].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Numero massimo di risultati]</td> 
-   <td> <p> Numero massimo di e-mail [!DNL Workfront Fusion] deve essere restituito durante un ciclo di esecuzione dello scenario.</p> </td> 
+   <td> <p> Il numero massimo di e-mail [!DNL Workfront Fusion] deve essere restituito durante un ciclo di esecuzione dello scenario.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Continua l'esecuzione della route anche se il modulo non restituisce alcun risultato]</td> 
@@ -554,7 +554,7 @@ Restituisce e-mail che corrispondono ai criteri specificati.
 
 ### Iteratori
 
-#### [!UICONTROL Itera allegati]
+#### [!UICONTROL Itera Allegati]
 
 Gli iterati hanno ricevuto gli allegati uno per uno.
 
@@ -565,7 +565,7 @@ Il modulo dell’iteratore e-mail consente di gestire separatamente gli allegati
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Modulo di origine]</td> 
+   <td role="rowheader">[!UICONTROL Modulo Source]</td> 
    <td> <p>Seleziona il modulo che restituisce l’e-mail con gli allegati che desideri iterare.</p> </td> 
   </tr> 
  </tbody> 

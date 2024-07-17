@@ -2,67 +2,67 @@
 content-type: reference
 product-area: resource-management;user-management
 navigation-topic: resource-planning
-title: Visualizza Ore disponibili, pianificate e effettive o FTE nel planner risorse quando si utilizza la visualizzazione Utente
-description: Visualizza le ore disponibili, pianificate e effettive o FTE nel Planner risorse quando si utilizza la pianificazione della visualizzazione utente nel RP" - ad esempio "risorse di budget nel RP" o "Gestione delle risorse nel RP". ecc.. - o potrebbe essere necessario riproporre da un altro POV?!)"
+title: Visualizzare le ore disponibili, pianificate ed effettive o FTE nella Programmazione delle risorse quando si utilizza la vista Utente
+description: Visualizzare le ore disponibili, pianificate ed effettive o FTE nella pianificazione risorse quando si utilizza la vista Utente "Pianificazione" nell’RP", ad esempio "Budget delle risorse nell’RP" o "Gestione delle risorse nell’RP". ecc... - o potrebbe essere necessario riutilizzarlo da un altro POV?!)"
 author: Alina
 feature: Resource Management
 exl-id: 6b532aa2-435f-4fda-b7ce-abe0a785638f
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '1738'
+source-wordcount: '1739'
 ht-degree: 1%
 
 ---
 
-# Visualizza Ore disponibili, pianificate e effettive o FTE nel planner risorse quando si utilizza la visualizzazione Utente
+# Visualizzare le ore disponibili, pianificate ed effettive o FTE nella Programmazione delle risorse quando si utilizza la vista Utente
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Consider renaming this article (probably split already) to something other than "Planning" in the RP" - maybe "budgeting resources in the RP" or "Managing Resources in the RP." etc... - or might need to be repurposed from another POV?!)</p>
 -->
 
-Oltre alle risorse di budget nelle visualizzazioni Progetto e Ruolo, è possibile utilizzare la visualizzazione utente del planner risorse di Adobe Workfront per visualizzare informazioni sui valori Orario pianificato, Disponibile e Effettivo o FTE per progetti e risorse.
+Oltre alle risorse preventivate nelle viste Progetto e Ruolo, è possibile utilizzare la Vista utente di Adobe Workfront Resource Planner per visualizzare informazioni sui valori delle ore o FTE pianificate, disponibili e effettive per i progetti e le risorse.
 
-## Panoramica della visualizzazione utente nel planner risorse
+## Panoramica della visualizzazione utente nella Programmazione delle risorse
 
-Quando si visualizzano le informazioni Ore o FTE nel Planner risorse, tenere presente quanto segue:
+Quando visualizzi le informazioni sulle ore o sull&#39;FTE nella Programmazione risorse, considera quanto segue:
 
-* È possibile visualizzare le informazioni Orari disponibili e pianificate o FTE per gli utenti, i ruoli di lavoro e i progetti in tutte le visualizzazioni del Planner risorse.
-* È possibile visualizzare le seguenti informazioni solo nella visualizzazione utente:
+* È possibile visualizzare le ore disponibili e pianificate o le informazioni FTE per gli utenti, le mansioni e i progetti in tutte le visualizzazioni di Programmazione delle risorse.
+* È possibile visualizzare le seguenti informazioni solo nella Vista utente:
 
-   * La differenza tra la quantità di ore pianificate o FTE e la quantità di ore disponibili o FTE. Puoi quindi eseguire il budget dell’allocazione degli utenti in base a questa differenza nelle visualizzazioni Progetto e Ruolo .
+   * Differenza tra la quantità di ore pianificate o FTE e la quantità di ore disponibili o FTE. Puoi quindi preventivare l’allocazione degli utenti in base a questa differenza nelle viste Progetto e Ruolo.
    * Le ore effettive o FTE.
 
-* È possibile visualizzare la differenza tra l’Utente disponibile e la quantità di Ore pianificate o FTE sotto forma di numero o come valore percentuale nella visualizzazione Utente.
-* Non è possibile visualizzare le informazioni nella visualizzazione Utente in base al costo.
-* Adobe Workfront compila gli orari disponibili o gli orari FTE in base all’orario di lavoro associato agli utenti nelle loro pianificazioni.\
-   Gli utenti non associati a una pianificazione mostrano la disponibilità in base alla pianificazione predefinita.\
-   Per informazioni sulla pianificazione predefinita, consulta [Creare una pianificazione](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+* È possibile visualizzare la differenza tra l&#39;utente disponibile e la quantità di ore pianificate o FTE come numero o come valore percentuale nella vista Utente.
+* Non è possibile visualizzare le informazioni nella vista Utente in base al costo.
+* Adobe Workfront compila le ore disponibili o FTE in base all’orario di lavoro associato agli utenti nelle loro pianificazioni.\
+  Gli utenti non associati a una pianificazione mostrano la disponibilità in base alla pianificazione predefinita.\
+  Per informazioni sulla pianificazione predefinita, vedere [Creare una pianificazione](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-* Workfront compila le ore pianificate o FTE dalle informazioni sulle ore pianificate relative alle attività e ai problemi relativi ai progetti.
-* Workfront compila le ore effettive con il tempo effettivamente registrato per le attività e i problemi degli utenti a cui sono assegnati. Questo include il tempo di accesso a un progetto.
-* Nella visualizzazione Utente è possibile effettuare le seguenti operazioni:
+* Workfront compila le ore pianificate o FTE dalle informazioni sulle ore pianificate relative alle attività e ai problemi dei progetti.
+* Workfront compila le ore effettive con il tempo effettivamente registrato per le attività e i problemi dagli utenti assegnati. Questo include il tempo di connessione a un progetto.
+* Nella vista Utente, è possibile effettuare le seguenti operazioni:
 
    * Espandi ogni utente per visualizzare un elenco di progetti a cui è assegnato l’utente.
 
-      >[!NOTE]
-      >
-      >Puoi espandere solo gli utenti associati ai progetti inclusi nei filtri.
+     >[!NOTE]
+     >
+     >È possibile espandere solo gli utenti associati ai progetti inclusi nei filtri.
 
-   * Espandi ogni progetto per visualizzare un elenco di ruoli di lavoro che l’utente può eseguire su tali progetti.
-   * Espandi ogni ruolo per visualizzare un elenco delle attività a cui è assegnato l’utente in quel ruolo.
+   * Espandi ogni progetto per visualizzare un elenco di mansioni che l’utente può svolgere su tali progetti.
+   * Espandere ogni ruolo per visualizzare un elenco di attività a cui l&#39;utente in tale ruolo è assegnato.
 
-   Se gli utenti non dispongono di ruoli di lavoro associati, le opzioni Disponibili, Pianificate e Ore effettive o FTE sono elencate in **Nessun ruolo** sezione .\
-   Per informazioni sui campi e gli elementi visualizzati quando si applica la visualizzazione Utente al planner risorse, vedere la sezione &quot;Progetto/Ruolo/Selezione visualizzazione utente&quot; in [Panoramica sulla navigazione in planner risorse](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+  Se agli utenti non sono associati ruoli, le ore disponibili, pianificate e effettive o FTE sono elencate nella sezione **Nessun ruolo**.\
+  Per informazioni sui campi e sugli elementi visualizzati quando si applica la visualizzazione Utente alla Programmazione delle risorse, vedere la sezione &quot;Selezione progetto/ruolo/visualizzazione utente&quot; nella [Panoramica sulla navigazione di Programmazione delle risorse](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-## Panoramica dei campi visibili nella Visualizzazione utente del planner risorse
+## Panoramica dei campi visibili nella Visualizzazione utente della Programmazione delle risorse
 
-Fare riferimento alle tabelle seguenti per comprendere le informazioni visualizzate nella visualizzazione Utente del Planner risorse. Le informazioni vengono visualizzate in ore o valori FTE.
+Per informazioni sulle informazioni visualizzate nella visualizzazione Utente della Programmazione delle risorse, fare riferimento alle tabelle seguenti. Le informazioni vengono visualizzate in Ore o valori FTE.
 
 * [Colonna AVL (disponibile)](#the-avl-available-column)
-* [Colonna PLN (pianificata)](#the-pln-planned-column)
-* [Colonna ACT (effettivo)](#The%C2%A0ACT)
+* [Colonna PLN (pianificato)](#the-pln-planned-column)
+* [Colonna ACT (Effettivo)](#The%C2%A0ACT)
 * [Colonna DIF (Differenza)](#the-dif-difference-column)
-* [Colonna % (Percentuale allocazione ore pianificate)](#the-planned-hours-allocation-percentage-column)
+* [Colonna % (percentuale allocazione ore pianificate)](#the-planned-hours-allocation-percentage-column)
 
 ### Colonna AVL (disponibile) {#the-avl-available-column}
 
@@ -76,26 +76,26 @@ Fare riferimento alle tabelle seguenti per comprendere le informazioni visualizz
   </tr> 
   <tr> 
    <td>Utente</td> 
-   <td>Il totale di ore disponibili o FTE per l’utente in base alla loro pianificazione. </td> 
+   <td>Totale delle ore disponibili o FTE per l'utente in base alla pianificazione. </td> 
   </tr> 
   <tr> 
    <td>Progetto</td> 
-   <td>Queste informazioni non sono disponibili per il progetto quando si applica la visualizzazione Utente al Planner risorse. </td> 
+   <td>Queste informazioni non sono disponibili per il progetto quando si applica la vista Utente alla pianificazione risorse. </td> 
   </tr> 
   <tr> 
-   <td>Qual</td> 
-   <td> <p>Totale di ore disponibili o FTE per il ruolo in base alla pianificazione dell’utente e del <strong>Percentuale di disponibilità FTE</strong> del ruolo.</p> </td> 
+   <td>Ruolo</td> 
+   <td> <p>Totale delle ore disponibili o FTE per il ruolo in base alla pianificazione dell'utente e alla <strong>percentuale di disponibilità FTE</strong> del ruolo.</p> </td> 
   </tr> 
   <tr> 
    <td>Attività o problema</td> 
-   <td>Informazioni non disponibili per l'attività o il problema. </td> 
+   <td>Queste informazioni non sono disponibili per l’Attività o il Problema. </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori informazioni sul calcolo della disponibilità di utenti e ruoli in base alla pianificazione dell’utente e alla percentuale di disponibilità FTE del ruolo, consulta [Panoramica del calcolo delle ore e degli FTE per utenti e ruoli nel Planner risorse](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
+Per ulteriori informazioni sul modo in cui la disponibilità di utenti e ruoli viene calcolata in base alla pianificazione dell&#39;utente e alla percentuale di disponibilità FTE del ruolo, vedere [Panoramica sul calcolo delle ore e FTE per utenti e ruoli nella programmazione delle risorse](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
 
-### Colonna PLN (pianificata) {#the-pln-planned-column}
+### Colonna PLN (Pianificato) {#the-pln-planned-column}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -107,55 +107,55 @@ Per ulteriori informazioni sul calcolo della disponibilità di utenti e ruoli in
   </tr> 
   <tr> 
    <td>Utente</td> 
-   <td> Totale ore pianificate o FTE da tutte le attività o problemi assegnati all’utente su tutti i progetti.<br><p>Ciò include le attività e i problemi assegnati all'utente ma non associati ad alcun ruolo di lavoro e attività o problemi che non si verificano nei progetti a cui hai accesso per la gestione.</p><p>Quando l'allocazione utente per ore è stata modificata utilizzando il servizio di bilanciamento del carico di lavoro, i dati nel planner risorse possono essere interessati se le date selezionate contengono solo una parte di un'attività o di un problema. Per informazioni sulla modifica delle allocazioni per gli utenti, consulta <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Gestire le allocazioni di utenti nel load balancer</a> . </p></td> 
+   <td> Il totale delle ore pianificate o FTE da tutte le attività o i problemi assegnati all’utente su tutti i progetti.<br><p>Ciò include le attività e i problemi assegnati all’utente ma non associati ad alcuna mansione e le attività o i problemi che non si trovano nei progetti a cui hai accesso per la gestione.</p><p>Quando l’allocazione utente per le ore è stata modificata utilizzando il Bilanciatore dei carichi di lavoro, i dati nella Programmazione delle risorse possono essere interessati se le date selezionate contengono solo una parte di un’attività o di un problema. Per informazioni sulla modifica delle allocazioni per gli utenti, vedere <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Gestione delle allocazioni utente nel Bilanciatore dei carichi di lavoro</a> . </p></td> 
   </tr> 
   <tr> 
    <td>Progetto</td> 
-   <td> Totale di ore pianificate o FTE da tutte le attività e i problemi assegnati a un utente specifico del progetto.<br><p>Nota: Non sono incluse le ore pianificate o le FTE da attività o problemi non assegnati ad alcun utente. </p></td> 
+   <td> Il totale delle ore pianificate o FTE da tutte le attività e i problemi assegnati a un utente specifico sul progetto.<br><p>Nota: non sono incluse le ore pianificate o l’FTE da attività o problemi non assegnati ad alcun utente. </p></td> 
   </tr> 
   <tr> 
-   <td>Qual</td> 
-   <td> <p>Totale di ore pianificate o FTE da tutte le attività e i problemi assegnati all’utente in questo ruolo sul progetto.</p> <p> <p>Nota: Questo non include le ore pianificate o FTE da attività o problemi assegnati a questo ruolo ma non a questo utente in questo ruolo. </p> </p> </td> 
+   <td>Ruolo</td> 
+   <td> <p>Il totale delle ore pianificate o FTE da tutte le attività e i problemi assegnati all'utente con questo ruolo sul progetto.</p> <p> <p>Nota: non sono incluse le ore pianificate o l’FTE da attività o problemi assegnati a questo ruolo ma non a questo utente in questo ruolo. </p> </p> </td> 
   </tr> 
   <tr> 
    <td>Attività o problema</td> 
-   <td>Orari pianificati o FTE associati all’attività o al problema relativo al progetto.</td> 
+   <td>Le ore pianificate o l'FTE associato all'attività o al problema nel progetto.</td> 
   </tr> 
  </tbody> 
 </table>
 
-Quando si visualizzano le ore pianificate, tenere presente quanto segue:
+Quando visualizzi le ore pianificate, tieni presente quanto segue:
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is a snippet converted to text because there are difference from project/ role views and the user view (users with no pools DO show in user view)</p>
 -->
 
-* Le ore pianificate vengono distribuite in modo uniforme a ogni giorno entro la durata delle attività e dei problemi , per ogni risorsa loro assegnata. La durata dell&#39;attività o del problema si basa sulle rispettive date di inizio e di completamento pianificate e include ogni giorno di calendario entro tale periodo di tempo.\
-   Workfront tiene conto della pianificazione dell’utente o del progetto quando distribuisce gli orari pianificati a utenti o progetti. In questo caso, le ore pianificate vengono distribuite in modo uniforme a ogni giorno entro la Durata delle attività o dei problemi, esclusi i fine settimana, i giorni di timeout e le eccezioni di pianificazione.
+* Le ore pianificate vengono distribuite in modo uniforme a ogni giorno entro la Durata delle attività e dei problemi , per ogni risorsa a loro assegnata. La durata dell’attività o del problema è basata sulle date di inizio e completamento pianificate e include ogni giorno di calendario entro tale periodo di tempo.\
+  Workfront prende in considerazione la pianificazione dell’utente o del progetto al momento della distribuzione delle ore pianificate agli utenti o ai progetti. In questo caso, le ore pianificate vengono distribuite in modo uniforme a ogni giorno entro la Durata delle attività o dei problemi, esclusi i fine settimana, i giorni di ferie e le eccezioni alla pianificazione.
 
-   Se, ad esempio, si visualizza il Planner risorse per settimana e si dispone di attività che si estendono per più settimane sui progetti, il numero di ore pianificate per settimana dipende dal numero di giorni all&#39;interno di tale settimana che fanno parte dell&#39;attività Durata. Questo funziona in modo simile quando si visualizza il Planner risorse per mese o trimestre e quando le attività si estendono su più mesi o trimestri.\
-   I giorni di fine settimana, le eccezioni di pianificazione e i giorni di timeout sono esclusi da questa distribuzione.
+  Se ad esempio si visualizza la Pianificazione risorse per settimana e si dispone di attività che si estendono su più settimane nei progetti, il numero di ore pianificate alla settimana dipende dal numero di giorni della settimana che fanno parte della Durata dell&#39;attività. Questa funzione funziona in modo simile quando si visualizza la Programmazione delle risorse per mese o trimestre e quando le attività si estendono su più mesi o trimestri.\
+  I giorni di fine settimana, le eccezioni alla programmazione e i giorni di ferie sono esclusi da questa distribuzione.
 
-* Le seguenti categorie di attività sono incluse nel calcolo delle ore pianificate per ogni risorsa:
+* Le seguenti categorie di attività sono incluse nel calcolo delle ore pianificate per ciascuna risorsa:
 
-   * attività assegnate agli utenti in pool di risorse, ruoli di lavoro o team del progetto.
+   * le attività assegnate agli utenti nei Pool di Risorse, le mansioni o i team del progetto.
 
-      >[!TIP]
-      >
-      >Se le attività vengono assegnate ai team, la relativa allocazione verrà visualizzata in **Nessun ruolo** e **Nessun utente** sezioni. È possibile visualizzare le ore pianificate associate ai team, ma non è possibile eseguire il budget delle ore, perché non sono associati ruoli e utenti alle attività.
+     >[!TIP]
+     >
+     >Se le attività sono assegnate ai team, la loro allocazione verrà visualizzata nelle sezioni **Nessun ruolo** e **Nessun utente**. Puoi visualizzare le ore pianificate associate ai team, ma non puoi preventivarle, perché alle attività non sono associati ruoli né utenti.
 
-* Le ore pianificate nel planner risorse non includono le ore pianificate associate ai seguenti elementi:
+* Le ore pianificate nella pianificazione risorse non includono le ore pianificate associate ai seguenti elementi:
 
-   * attività principali
+   * attività padre
    * attività non assegnate
-   * quando **Includi ore da problemi** è disabilitata.
+   * problemi, quando l&#39;impostazione **Includi ore da problemi** è disabilitata.
 
-* Le ore pianificate non vengono visualizzate nel planner risorse se la durata dell&#39;attività o del problema è pari a zero.
+* Le ore pianificate non vengono visualizzate nella Programmazione delle risorse se l&#39;attività o la Durata del problema è zero.
 * Le ore pianificate associate agli utenti disattivati non vengono visualizzate.
 
-Per ulteriori informazioni su Orari pianificati e FTE nel Planner risorse, vedi [Panoramica delle informazioni su ore, FTE e costi nelle visualizzazioni Progetto e Ruolo del Planner risorse](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+Per ulteriori informazioni sulle ore pianificate e sull&#39;FTE nella Programmazione delle risorse, vedere [Panoramica sulle ore, sull&#39;FTE e sui costi nelle visualizzazioni Progetto e Ruolo della Programmazione delle risorse](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
-### Colonna ACT (effettivo)
+### Colonna ACT (Effettivo)
 
 <table style="table-layout:auto"> 
  <col> 
@@ -167,40 +167,40 @@ Per ulteriori informazioni su Orari pianificati e FTE nel Planner risorse, vedi 
   </tr> 
   <tr> 
    <td>Utente </td> 
-   <td> <p>Il tempo registrato dall'utente su tutte le attività o i problemi assegnati.</p> <p>Ciò include i seguenti elementi:</p> 
+   <td> <p>L’ora registrata dall’utente su tutte le attività o i problemi ad esso assegnati.</p> <p>Ciò include quanto segue:</p> 
     <ul> 
-     <li>Attività e problemi assegnati all'utente ma non associati ad alcun ruolo di lavoro.</li> 
+     <li>Attività e problemi assegnati all'utente ma non associati ad alcuna mansione.</li> 
      <li>Attività e problemi che non si trovano in progetti per i quali hai accesso a Gestisci. </li> 
-    </ul> <p>Ciò include il tempo di accesso al progetto solo quando l’utente viene assegnato alle attività o ai problemi relativi a quel progetto.  </p> </td> 
+    </ul> <p>Questo include il tempo registrato sul progetto solo quando l'utente è assegnato ad attività o problemi su quel progetto.  </p> </td> 
   </tr> 
   <tr> 
    <td>Progetto </td> 
-   <td> <p>Tempo registrato dall’utente su tutte le attività e i problemi assegnati al progetto.</p> <p>Ciò include ogni volta che hanno effettuato l’accesso direttamente al progetto.</p> <p>Ciò non include quanto segue:</p> 
+   <td> <p>L’ora registrata dall’utente su tutte le attività e i problemi ad esso assegnati sul progetto.</p> <p>Ciò include tutte le volte in cui hanno effettuato l’accesso diretto al progetto.</p> <p>Non sono compresi i seguenti elementi:</p> 
     <ul> 
-     <li> <p>Attività registrate al momento e problemi non assegnati ad alcun utente. </p> </li> 
-     <li> <p>Tempo connesso alle attività principali. </p> </li> 
+     <li> <p>Attività e problemi connessi all'ora non assegnati ad alcun utente. </p> </li> 
+     <li> <p>Tempo di connessione delle attività padre. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Qual</td> 
-   <td> <p>L'ora ha effettuato l'accesso a tutte le attività o i problemi assegnati all'utente in questo ruolo. </p> <p>Ciò non include quanto segue:</p> 
+   <td>Ruolo</td> 
+   <td> <p>L'ora di accesso a tutte le attività o i problemi assegnati all'utente con questo ruolo. </p> <p>Non sono compresi i seguenti elementi:</p> 
     <ul> 
-     <li>Attività e problemi registrati nel tempo assegnati a questo ruolo ma non a questo utente in questo ruolo.</li> 
-     <li>Registrato direttamente sul progetto o sulle attività principali. </li> 
+     <li>Le attività e i problemi connessi all'ora assegnati a questo ruolo ma non a questo utente in questo ruolo.</li> 
+     <li>Tempo registrato direttamente sul progetto o sulle attività padre. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Attività o problema </td> 
-   <td> <p>L'ora di accesso alle attività e ai problemi da parte dell'utente che è anche assegnato a loro. </p> </td> 
+   <td> <p>L'ora di accesso alle attività e ai problemi da parte dell'utente a cui vengono assegnati. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!IMPORTANT]
 >
->L’intervallo di tempo registrato viene visualizzato nell’intervallo temporale corrispondente alla data di ingresso dell’ora, indipendentemente dall’intervallo temporale dell’attività, del problema o del progetto in cui vengono registrate le ore.
+>L’ora registrata viene visualizzata nell’intervallo di tempo corrispondente alla data di immissione dell’ora, indipendentemente dall’intervallo di tempo dell’attività, del problema o del progetto in cui sono registrate le ore.
 
-Per ulteriori informazioni sugli orari effettivi, vedi [Visualizza ore effettive](../../manage-work/tasks/task-information/actual-hours.md).
+Per ulteriori informazioni sulle ore effettive, vedere [Visualizza ore effettive](../../manage-work/tasks/task-information/actual-hours.md).
 
 ### Colonna DIF (Differenza) {#the-dif-difference-column}
 
@@ -214,24 +214,24 @@ Per ulteriori informazioni sugli orari effettivi, vedi [Visualizza ore effettive
   </tr> 
   <tr> 
    <td>Utente</td> 
-   <td> <p>La differenza tra le ore disponibili e pianificate o FTE dell’utente. </p> <p>La differenza Ora o FTE viene calcolata utilizzando la seguente formula:</p> <p><code style="font-style: normal;">User Hour or FTE Difference = User Available Hours or FTE - User Planned Hours or FTE</code> </p> <p> <p>Nota: Se il valore viene visualizzato in numeri rossi negativi, l’utente viene sovrapassegnato. </p> </p> </td> 
+   <td> <p>Differenza tra le ore disponibili e pianificate o FTE dell’utente. </p> <p>La differenza di ore o FTE viene calcolata utilizzando la seguente formula:</p> <p><code style="font-style: normal;">User Hour or FTE Difference = User Available Hours or FTE - User Planned Hours or FTE</code> </p> <p> <p>Nota: se il valore è visualizzato in numeri rossi negativi, l'utente è sovrassegnato. </p> </p> </td> 
   </tr> 
   <tr> 
    <td>Progetto</td> 
    <td>Queste informazioni non sono disponibili per il progetto. </td> 
   </tr> 
   <tr> 
-   <td>Qual</td> 
-   <td> <p>La differenza tra le ore disponibili e pianificate o FTE del ruolo di lavoro. </p> <p>La differenza Ora o FTE viene calcolata utilizzando la seguente formula:</p> <p><code style="font-style: normal;">Role Hour or FTE Difference = Role Available Hours or FTE - Role Planned Hours or FTE</code> </p> <p> <p>Nota: Se il valore viene visualizzato in numeri rossi negativi, il ruolo viene sovrassegnato. </p> </p> </td> 
+   <td>Ruolo</td> 
+   <td> <p>Differenza tra le ore disponibili e pianificate o FTE del ruolo. </p> <p>La differenza di ore o FTE viene calcolata utilizzando la seguente formula:</p> <p><code style="font-style: normal;">Role Hour or FTE Difference = Role Available Hours or FTE - Role Planned Hours or FTE</code> </p> <p> <p>Nota: se il valore viene visualizzato in numeri rossi negativi, il ruolo è sovrassegnato. </p> </p> </td> 
   </tr> 
   <tr> 
    <td>Attività o problema</td> 
-   <td>Queste informazioni non sono disponibili per l'attività, il problema o il progetto. </td> 
+   <td>Queste informazioni non sono disponibili per l'Attività, la Issue o il Progetto. </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Colonna % (Percentuale allocazione ore pianificate) {#the-planned-hours-allocation-percentage-column}
+### Colonna % (percentuale allocazione ore pianificate) {#the-planned-hours-allocation-percentage-column}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -243,26 +243,26 @@ Per ulteriori informazioni sugli orari effettivi, vedi [Visualizza ore effettive
   </tr> 
   <tr> 
    <td>Utente</td> 
-   <td> <p>L’assegnazione delle ore pianificate o degli ETP in percentuale delle ore disponibili. La percentuale dell'allocazione oraria pianificata viene calcolata utilizzando la seguente formula:</p> <p><code style="font-style: normal;">User Planned Hours Allocation Percentage = (User Planned Hours/ User Available Hours) * 100</code> </p> <p>Lo stesso calcolo viene utilizzato per i valori FTE. </p> </td> 
+   <td> <p>L’allocazione delle ore pianificate o FTE come percentuale delle ore disponibili. La percentuale dell'allocazione ore pianificate viene calcolata utilizzando la formula seguente:</p> <p><code style="font-style: normal;">User Planned Hours Allocation Percentage = (User Planned Hours/ User Available Hours) * 100</code> </p> <p>Lo stesso calcolo viene utilizzato per i valori FTE. </p> </td> 
   </tr> 
   <tr> 
    <td>Progetto</td> 
-   <td>Queste informazioni non sono disponibili per il progetto quando si applica il <strong>Visualizza per utente</strong> visualizzare il planner risorse.</td> 
+   <td>Queste informazioni non sono disponibili per il progetto quando si applica la visualizzazione <strong>Visualizza per utente</strong> alla pianificazione risorse.</td> 
   </tr> 
   <tr> 
-   <td>Qual</td> 
-   <td> L’assegnazione delle ore pianificate o degli ETP in percentuale delle ore disponibili. <p>La percentuale dell'allocazione oraria pianificata viene calcolata utilizzando la seguente formula:</p><p><code style="font-style: normal;">Role Planned Hours Allocation Percentage = (Role Planned Hours/ Role Available Hours) * 100</code></p><p>Lo stesso calcolo viene utilizzato per i valori FTE.</p></td> 
+   <td>Ruolo</td> 
+   <td> L’allocazione delle ore pianificate o FTE come percentuale delle ore disponibili. <p>La percentuale dell'allocazione ore pianificate viene calcolata utilizzando la formula seguente:</p><p><code style="font-style: normal;">Role Planned Hours Allocation Percentage = (Role Planned Hours/ Role Available Hours) * 100</code></p><p>Lo stesso calcolo viene utilizzato per i valori FTE.</p></td> 
   </tr> 
   <tr> 
    <td>Attività o problema</td> 
-   <td>Queste informazioni non sono disponibili per l'attività, il problema o il progetto. </td> 
+   <td>Queste informazioni non sono disponibili per l'Attività, la Issue o il Progetto. </td> 
   </tr> 
  </tbody> 
 </table>
 
-Se il valore dell’ora pianificata o dell’FTE è zero, l’allocazione percentuale è pari a 0%. Se il valore di Ore disponibili o FTE è zero, non è possibile calcolare l’Allocazione percentuale.
+Se il valore delle ore pianificate o dell&#39;FTE è zero, la percentuale di allocazione sarà 0%. Se il valore di Ore disponibili o FTE è zero, non è possibile calcolare la percentuale di allocazione.
 
-Per ulteriori informazioni su Orari pianificati e FTE e su come vengono visualizzati nel Planner risorse, vedi [Risorse di budget nel planner risorse utilizzando le visualizzazioni Progetto e Ruolo](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+Per ulteriori informazioni sulle ore pianificate e sull&#39;FTE e su come vengono visualizzate nella Programmazione delle risorse, vedere [Risorse preventivate nella Programmazione delle risorse utilizzando le visualizzazioni Progetto e Ruolo](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;this table is ideal but it does not render in Markdown) </p>

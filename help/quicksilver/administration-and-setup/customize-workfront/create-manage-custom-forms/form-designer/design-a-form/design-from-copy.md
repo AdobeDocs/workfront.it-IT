@@ -51,9 +51,9 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 {{step-1-to-setup}}
 
-1. Clic **Forms personalizzato.**
-1. Seleziona il modulo personalizzato da utilizzare come base per un nuovo modulo personalizzato, quindi fai clic su ![Icona Copia](assets/copy-icon.png).
-1. In **Copia modulo personalizzato** nella casella visualizzata, digitare le informazioni seguenti:
+1. Fai clic su **Forms personalizzato.**
+1. Seleziona il modulo personalizzato da utilizzare come base per un nuovo modulo personalizzato, quindi fai clic sull&#39;![icona Copia](assets/copy-icon.png).
+1. Nella casella **Copia modulo personalizzata** visualizzata digitare le informazioni seguenti:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -65,7 +65,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
      </tr> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">Tipi di moduli </p> </td> 
-      <td> <p>In <b>Tipo di modulo</b> selezionare i tipi di oggetto che si desidera utilizzare nel modulo personalizzato e fare clic sulla X accanto ai tipi che si desidera rimuovere. I tipi già associati al modulo sono disabilitati nell'elenco.</p> 
+      <td> <p>Nella casella <b>Tipo modulo</b> selezionare i tipi di oggetto con cui si desidera utilizzare il modulo personalizzato e fare clic sulla X accanto ai tipi che si desidera rimuovere. I tipi già associati al modulo sono disabilitati nell'elenco.</p> 
       <p><img src="assets/copy-form-obj-types-040524.png"></p> 
       <p>Il modulo deve essere associato ad almeno un tipo di oggetto.</p> 
       </td> 
@@ -73,14 +73,14 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
     </tbody> 
    </table>
 
-1. Clic **Copia**.
+1. Fai clic su **Copia**.
 
    Nel modulo originale, se i campi calcolati fanno riferimento a campi incompatibili con un tipo di oggetto aggiunto al nuovo modulo, verrà visualizzato un messaggio in cui viene richiesto di modificare i calcoli in tali campi.
 
    Analogamente, se un&#39;opzione di accesso per un&#39;interruzione di sezione nel modulo originale non è compatibile con un tipo di oggetto aggiunto al nuovo, verrà visualizzato un messaggio in cui viene richiesto di modificare l&#39;opzione.
 
-1. Seleziona il modulo appena copiato, quindi fai clic su ![Icona Modifica](assets/edit-icon.png).
-1. Apportare le modifiche desiderate al modulo, come descritto nelle sezioni seguenti della [Progettare un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) articolo:
+1. Seleziona il modulo appena copiato, quindi fai clic sull&#39;![icona Modifica](assets/edit-icon.png).
+1. Apportare le modifiche al modulo, come descritto nelle sezioni seguenti dell&#39;articolo [Progettare un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md):
 
    * [Riutilizzare un campo o un widget esistente già utilizzato in un altro modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
       * [Aggiungi campi di testo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-text-fields)

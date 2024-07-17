@@ -62,7 +62,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 Ad esempio, se disponi di una coda di richieste per richieste di marketing, puoi avere un gruppo di argomenti &quot;Campagna per la festa della mamma&quot;, con un gruppo di argomenti di secondo livello &quot;Contenuti multimediali digitali&quot; e un altro gruppo di argomenti di secondo livello &quot;Contenuti multimediali per la stampa&quot;. In seguito, sarà possibile inserire più argomenti della coda in ogni gruppo di argomenti. Ad esempio, &quot;Annuncio banner&quot; e &quot;Blog&quot; possono essere Argomenti coda per il Gruppo di argomenti &quot;Contenuti multimediali digitali&quot;.
 
-Per ulteriori informazioni su come creare code di richieste, consulta [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Per ulteriori informazioni su come creare code di richieste, vedere [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 >[!TIP]
 >
@@ -73,15 +73,15 @@ Per ulteriori informazioni su come creare code di richieste, consulta [Creare un
 
 ## Crea gruppi di argomenti
 
-È consigliabile creare Gruppi di argomenti prima di creare un Argomento coda. Tuttavia, è possibile creare un Topic Group (Gruppo di argomenti) in nel Generatore di argomenti coda. Per ulteriori informazioni sulla creazione degli argomenti della coda, vedere [Crea argomenti coda](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+È consigliabile creare Gruppi di argomenti prima di creare un Argomento coda. Tuttavia, è possibile creare un Topic Group (Gruppo di argomenti) in nel Generatore di argomenti coda. Per ulteriori informazioni sulla creazione degli argomenti della coda, vedere [Creare argomenti della coda](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
 Per creare un Topic Group:
 
 1. Vai al progetto pubblicato come coda di richieste di aiuto.\
-   Per ulteriori informazioni sulla pubblicazione di un progetto come coda di richieste di aiuto, consulta [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   Per ulteriori informazioni sulla pubblicazione di un progetto come coda di richieste di aiuto, vedere [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Clic **Gruppi di argomenti** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro**, quindi **Gruppi di argomenti**.
-1. Clic **Nuovo gruppo di argomenti**.
+1. Fai clic su **Gruppi di argomenti** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro**, quindi su **Gruppi argomenti**.
+1. Fare clic su **Nuovo gruppo di argomenti**.
 
    ![](assets/new-topic-group-box-nwe-350x306.png)
 
@@ -89,8 +89,8 @@ Per creare un Topic Group:
 
    * **Nome**: il nome è visibile agli utenti che inviano richieste a questa coda di richieste.
    * **Descrizione**: la descrizione viene visualizzata quando gli utenti selezionano il gruppo di argomenti durante il processo di invio di una nuova richiesta.
-   * **Aggiungi a gruppo di argomenti**: è possibile aggiungere il nuovo Topic Group a un Topic Group esistente oppure direttamente al progetto pubblicato come Help Request Queue (Coda di richieste di aiuto).
+   * **Aggiungi al gruppo di argomenti**: è possibile aggiungere il nuovo gruppo di argomenti a un gruppo di argomenti esistente oppure direttamente al progetto pubblicato come coda di richieste di aiuto.
 
 1. Fai clic su **Salva**.\
    Verrà creato un nuovo Gruppo di argomenti nella coda richieste. Ora puoi selezionare ulteriori categorie dal primo menu a discesa sotto una Coda di richieste.\
-   Per ulteriori informazioni sull’invio delle richieste, consulta [Creare e inviare richieste Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
+   Per ulteriori informazioni sull&#39;invio di richieste, vedere [Creare e inviare richieste Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).

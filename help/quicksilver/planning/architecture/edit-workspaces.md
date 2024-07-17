@@ -22,7 +22,7 @@ In Adobe Workfront Planning, le aree di lavoro sono posizioni centralizzate in c
 
 Un&#39;area di lavoro è una raccolta di tipi di record utilizzati da un team e rappresenta il ciclo di vita del lavoro del team. È possibile personalizzare completamente le aree di lavoro in Adobe Workfront Planning.
 
-Per informazioni sulla creazione delle aree di lavoro, consulta [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
+Per informazioni sulla creazione di aree di lavoro, vedere [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
 
 Tutte le modifiche apportate a un&#39;area di lavoro sono visibili a tutti coloro che dispongono almeno delle autorizzazioni di visualizzazione per l&#39;area di lavoro.
 
@@ -76,14 +76,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>È necessario aggiungere l'area Planning al modello di layout. Per informazioni, consulta <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica degli accessi</a>. </p>  
+   <td> <p>È necessario aggiungere l'area Planning al modello di layout. Per informazioni, vedere <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica dell'accesso</a>. </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-Per ulteriori informazioni sui requisiti di accesso, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori informazioni sui requisiti di accesso, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Modificare un’area di lavoro
@@ -91,52 +91,52 @@ Per ulteriori informazioni sui requisiti di accesso, consulta [Requisiti di acce
 {{step1-to-planning}}
 
 1. Fai clic su una scheda dell’area di lavoro per aprirla.
-1. Fai clic sul nome dell’area di lavoro nell’intestazione della nuova area di lavoro per rinominarla, quindi premi **Invio**.
-1. Fai clic su **Altro** menu ![](assets/more-menu.png) a destra del nome del workspace nell’intestazione, quindi fai clic su **Modifica**.
+1. Fare clic nel nome dell&#39;area di lavoro nell&#39;intestazione della nuova area di lavoro per rinominarla, quindi premere **Invio**.
+1. Fai clic sul menu **Altro** ![](assets/more-menu.png) a destra del nome dell&#39;area di lavoro nell&#39;intestazione, quindi fai clic su **Modifica**.
 
    ![](assets/edit-workspace-box.png)
 
-   Aggiorna le seguenti informazioni in **Modifica area di lavoro** casella:
+   Aggiorna le seguenti informazioni nella casella **Modifica area di lavoro**:
 
    * Aggiungi un nome per l’area di lavoro. <!--did they add a label for this field?-->
-   * **Descrizione**: aggiungi informazioni sull’area di lavoro.
+   * **Descrizione**: aggiungere informazioni sull&#39;area di lavoro.
    * Selezionate un&#39;icona da associare al workspace.
 
-1. Clic **Salva** per chiudere la casella Modifica area di lavoro e applicare le modifiche.
+1. Fai clic su **Salva** per chiudere la casella Modifica area di lavoro e applicare le modifiche.
 
 1. (Facoltativo) Per aggiungere una nuova sezione dell&#39;area di lavoro, effettuate una delle seguenti operazioni:
 
-   * Clic **Aggiungi sezione** nella parte inferiore dell&#39;area di lavoro.
-   * Passa il puntatore del mouse sul nome di una sezione e fai clic su **Altro** menu ![](assets/more-menu.png), quindi fai clic su **Aggiungi sezione sopra** o **Aggiungi sezione di seguito**.
+   * Fai clic su **Aggiungi sezione** nella parte inferiore dell&#39;area di lavoro.
+   * Passa il puntatore del mouse sul nome di una sezione e fai clic sul menu **Altro** ![](assets/more-menu.png), quindi fai clic su **Aggiungi sezione sopra** o **Aggiungi sezione sotto**.
 
 1. (Facoltativo) Per modificare la posizione di una sezione, effettuate una delle seguenti operazioni:
 
-   * Passa il puntatore del mouse sul nome di una sezione e fai clic su **afferrare** icona ![](assets/grab-icon.png), quindi trascinarlo nel punto giusto.
-   * Passa il puntatore del mouse sul nome di una sezione e fai clic su **Altro** menu ![](assets/more-menu.png), quindi fai clic su **Sposta su** o **Sposta in basso**. La sezione si sposta verso l&#39;alto o verso il basso all&#39;interno dell&#39;area di lavoro.
+   * Passa il puntatore del mouse sul nome di una sezione e fai clic sull&#39;icona ![](assets/grab-icon.png) di **grab**, quindi trascinala nel punto giusto.
+   * Passa il puntatore del mouse sul nome di una sezione e fai clic sul menu **Altro** ![](assets/more-menu.png), quindi fai clic su **Sposta su** o su **Sposta giù**. La sezione si sposta verso l&#39;alto o verso il basso all&#39;interno dell&#39;area di lavoro.
 
 1. (Facoltativo) Per eliminare una sezione dell&#39;area di lavoro, effettuare le seguenti operazioni:
 
-   1. Passa il puntatore del mouse sul nome di una sezione, quindi fai clic sul pulsante **Altro** menu ![](assets/more-menu.png), quindi fai clic su **Elimina**. <!--add screen shot when UI is final?-->
-   1. Selezionare una nuova sezione in cui spostare tutti i tipi di record, quindi fare clic su **Elimina**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
+   1. Passa il puntatore del mouse sul nome di una sezione, quindi fai clic sul menu **Altro** ![](assets/more-menu.png), quindi fai clic su **Elimina**. <!--add screen shot when UI is final?-->
+   1. Selezionare una nuova sezione per spostare tutti i tipi di record, quindi fare clic su **Elimina**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
 
       Tutti i tipi di record vengono spostati nella sezione di selezione e la sezione viene eliminata.
 
-1. (Facoltativo) Fai clic su **Aggiungi tipo di record** per aggiungere tipi di record al workspace.
+1. (Facoltativo) Fare clic su **Aggiungi tipo di record** per aggiungere tipi di record all&#39;area di lavoro.
 
-   Per informazioni, consulta [Crea tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
+   Per informazioni, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
 
-1. (Facoltativo) Passa il puntatore del mouse su una scheda del tipo di record e fai clic sul pulsante **Altro** menu ![](assets/more-menu.png) nell’angolo superiore destro, quindi fai clic su **Modifica** per modificare l&#39;aspetto di un tipo di record
+1. (Facoltativo) Passa il puntatore del mouse su una scheda del tipo di record, fai clic sul menu **Altro** ![](assets/more-menu.png) in alto a destra, quindi fai clic su **Modifica** per modificare l&#39;aspetto di un tipo di record.
 
-   Per informazioni, consulta [Modifica tipi di record](/help/quicksilver/planning/architecture/edit-record-types.md).
+   Per informazioni, vedere [Modifica tipi di record](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-1. (Facoltativo) Passa il puntatore del mouse su una scheda del tipo di record e fai clic sul pulsante **Altro** menu ![](assets/more-menu.png) nell’angolo superiore destro, quindi fai clic su **Elimina** per eliminare un tipo di record.
+1. (Facoltativo) Passa il puntatore del mouse su una scheda del tipo di record, fai clic sul menu **Altro** ![](assets/more-menu.png) in alto a destra, quindi fai clic su **Elimina** per eliminare un tipo di record.
 
-   Per informazioni, consulta [Elimina tipi di record](/help/quicksilver/planning/architecture/delete-record-types.md).
+   Per informazioni, vedere [Eliminare i tipi di record](/help/quicksilver/planning/architecture/delete-record-types.md).
 
 1. (Facoltativo) Fai clic su una scheda del tipo di record per trascinarla e rilasciarla in un nuovo punto. È possibile trascinare tipi di record da una sezione dell&#39;area di lavoro a un&#39;altra.
 
    ![](assets/drag-and-drop-record-types-in-a-workspace.png)
 
-1. (Facoltativo) Fai clic su **Condividi** nell’angolo superiore destro dell’area di lavoro per condividerla con altri utenti.
+1. (Facoltativo) Fai clic su **Condividi** nell&#39;angolo superiore destro dell&#39;area di lavoro per condividerla con altri utenti.
 
-   Per informazioni, consulta [Condividere le aree di lavoro](/help/quicksilver/planning/access/share-workspaces.md).
+   Per informazioni, vedere [Condividi aree di lavoro](/help/quicksilver/planning/access/share-workspaces.md).

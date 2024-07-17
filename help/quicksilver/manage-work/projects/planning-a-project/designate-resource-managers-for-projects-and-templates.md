@@ -9,7 +9,7 @@ exl-id: ae2a89e7-8049-4ee6-9b28-ce247d3f2a6f
 source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
 source-wordcount: '826'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -100,7 +100,7 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 
 <p><b>NOTA</b>
 
-Gli utenti che vengono aggiunti come Responsabili risorse a un progetto o a un modello ottengono immediatamente le autorizzazioni di gestione sul progetto o sul modello</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td>
+Gli utenti che vengono aggiunti come Responsabili risorse a un progetto o a un modello ottengono immediatamente le autorizzazioni di gestione sul progetto o sul modello</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l&#39;accesso agli oggetti </a>.</p> </td>
 </tr> 
  </tbody> 
 </table>
@@ -132,15 +132,15 @@ Gli utenti che vengono aggiunti come Responsabili risorse a un progetto o a un m
 
 * Gli utenti designati come Responsabili risorse in un progetto o modello non entrano automaticamente a far parte del team di progetto.
 
-  Per informazioni sui team di progetto, consulta [Gestione del team di progetto](../../../manage-work/projects/planning-a-project/manage-project-team.md).
+  Per informazioni sui team di progetto, vedere [Gestione del team di progetto](../../../manage-work/projects/planning-a-project/manage-project-team.md).
 
 * Puoi designare i Responsabili risorse per i progetti o per i modelli di progetto. Quando si designano i Responsabili risorse in un modello di progetto, tutti gli utenti designati come Responsabili risorse nel modello diventano automaticamente Responsabili risorse in tutti i progetti creati utilizzando tale modello.
 * È possibile visualizzare il campo Responsabile risorse nelle aree seguenti:
 
    * Durante la modifica di un progetto, come descritto in questo articolo.
    * Durante la modifica di un modello, come descritto in questo articolo.
-   * Durante la creazione di report di progetti o modelli. Per informazioni sulla creazione di rapporti, consulta [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-   * Durante la creazione o la personalizzazione di un progetto o di una vista modello per un elenco. Per ulteriori informazioni, consulta [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   * Durante la creazione di report di progetti o modelli. Per informazioni sulla creazione di report, vedere [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   * Durante la creazione o la personalizzazione di un progetto o di una vista modello per un elenco. Per ulteriori informazioni, vedere [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 * È possibile aggiungere o rimuovere rapidamente Responsabili risorse in più progetti o modelli aggiungendo il campo Responsabile risorse a una visualizzazione di un elenco o di un progetto e modificando il campo tramite la modifica in linea.
 
@@ -148,42 +148,42 @@ Gli utenti che vengono aggiunti come Responsabili risorse a un progetto o a un m
 
 1. Effettua una delle seguenti operazioni:
 
-   * Per aggiungere Responsabili risorse a un singolo progetto, passa al progetto in cui desideri designare uno o più responsabili delle risorse, quindi fai clic su **Menu Altro** accanto al nome del progetto, quindi **Modifica.**
+   * Per aggiungere Responsabili risorse a un singolo progetto, passa al progetto in cui desideri designare uno o più responsabili delle risorse, quindi fai clic sul **Altro menu** accanto al nome del progetto, quindi su **Modifica .**
 
-   * Per aggiungere i responsabili risorse a più progetti contemporaneamente, passa a un elenco di progetti, seleziona i progetti in cui desideri designare uno o più responsabili risorse, quindi fai clic su **Modifica**.
+   * Per aggiungere i responsabili risorse a più progetti contemporaneamente, passare a un elenco di progetti, selezionare i progetti in cui si desidera designare uno o più responsabili risorse, quindi fare clic su **Modifica**.
 
      I Responsabili risorse esistenti non vengono rimossi dai progetti che si stanno modificando; tutti gli utenti aggiunti in questo modo vengono aggiunti come Responsabili risorse nel progetto oltre a eventuali Responsabili risorse esistenti.
 
    * Per aggiungere Responsabili risorse a un nuovo progetto, inizia a crearne uno nuovo.
 
-     Per informazioni sulla creazione di un progetto, consulta [Creare un progetto](../../../manage-work/projects/create-projects/create-project.md).
+     Per informazioni sulla creazione di un progetto, vedere [Creare un progetto](../../../manage-work/projects/create-projects/create-project.md).
 
-1. In **Panoramica** nella finestra di dialogo Modifica progetto, fai clic su nella sezione **Responsabile risorse** campo.
+1. Nella sezione **Panoramica** della finestra di dialogo Modifica progetto, fare clic nel campo **Gestione risorse DITA**.
 1. Inizia a digitare il nome dell’utente che desideri aggiungere come responsabile delle risorse per il progetto, quindi fai clic sul nome quando viene visualizzato nell’elenco.
 
    Ripeti questo passaggio per aggiungere più gestori di risorse per il progetto.
 
-1. Clic **Salva modifiche**.
+1. Fai clic su **Salva modifiche**.
 
 ## Designare Responsabili risorse per un modello
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront.
 
-1. Clic **Modelli**.
+1. Fare clic su **Modelli**.
 
 1. Effettua una delle seguenti operazioni:
 
-   * Per aggiungere Responsabili risorse a un singolo modello, passare al modello in cui si desidera designare uno o più responsabili delle risorse, quindi fare clic su **Menu Altro** accanto al nome del modello, quindi **Modifica.**
+   * Per aggiungere Resource Manager a un singolo modello, passare al modello in cui si desidera designare uno o più Resource Manager, quindi fare clic sul **Altro menu** accanto al nome del modello, quindi **Modifica .**
 
    * Per aggiungere i responsabili risorse a più modelli contemporaneamente, passare a un elenco di modelli e selezionare i modelli in cui si desidera designare uno o più responsabili risorse, quindi fare clic su **Modifica**.
 
      I Responsabili risorse esistenti non vengono rimossi dai modelli che si stanno modificando; tutti gli utenti aggiunti in questo modo vengono aggiunti come Responsabili risorse nel modello, oltre a eventuali Responsabili risorse esistenti.
 
-   * Per aggiungere Gestione risorse DITA a un nuovo modello, fare clic su **Nuovo modello**, quindi fare clic su **Menu Altro** accanto al nome del modello, quindi **Modifica.**
+   * Per aggiungere i Resource Manager a un nuovo modello, fai clic su **Nuovo modello**, quindi fai clic sul **Altro menu** accanto al nome del modello, quindi su **Modifica .**
 
-1. In **Panoramica** , fai clic su nella sezione **Responsabile risorse** campo.
+1. Nella sezione **Panoramica**, fai clic nel campo **Gestione risorse DITA**.
 1. Inizia a digitare il nome dell’utente che desideri aggiungere come responsabile risorse per il modello, quindi fai clic sul nome quando viene visualizzato nell’elenco.
 
    Ripetere questo passaggio per aggiungere più gestori di risorse al modello.
 
-1. Clic **Salva modifiche**.
+1. Fai clic su **Salva modifiche**.

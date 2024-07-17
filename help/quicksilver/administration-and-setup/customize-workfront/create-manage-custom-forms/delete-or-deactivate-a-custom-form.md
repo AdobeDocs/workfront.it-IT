@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->L’eliminazione di un modulo personalizzato comporta anche l’eliminazione di tutti i dati personalizzati sugli oggetti associati al modulo. Non è possibile recuperare i dati eliminati. Valuta invece la possibilità di disattivare un modulo personalizzato: quando disattivi un modulo personalizzato che non utilizzi più, vengono conservati tutti i dati storici associati. Per ulteriori informazioni, consulta [Riattivare o disattivare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)
+>L’eliminazione di un modulo personalizzato comporta anche l’eliminazione di tutti i dati personalizzati sugli oggetti associati al modulo. Non è possibile recuperare i dati eliminati. Valuta invece la possibilità di disattivare un modulo personalizzato: quando disattivi un modulo personalizzato che non utilizzi più, vengono conservati tutti i dati storici associati. Per ulteriori informazioni, vedere [Riattivare o disattivare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)
 
 ## Requisiti di accesso
 
@@ -55,6 +55,6 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 {{step-1-to-setup}}
 
-1. Clic **Forms personalizzato.**
-1. Seleziona il modulo personalizzato, quindi fai clic su ![Icona Elimina](assets/delete-icon.png).
-1. Se si è certi di voler eliminare definitivamente il modulo personalizzato e tutti i dati associati sugli oggetti a cui è stato allegato, fare clic su **Sì, elimina**.
+1. Fai clic su **Forms personalizzato.**
+1. Seleziona il modulo personalizzato, quindi fai clic sull&#39;icona ![Elimina](assets/delete-icon.png).
+1. Se si è certi di voler eliminare definitivamente il modulo personalizzato e tutti i dati associati sugli oggetti a cui è stato allegato, fare clic su **Sì, Elimina**.

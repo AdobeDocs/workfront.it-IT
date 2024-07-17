@@ -46,7 +46,7 @@ Per informazioni sugli argomenti relativi ai livelli di accesso, vedere i seguen
  <tbody> 
   <tr> 
    <td><p><strong>Licenze</strong></p></td> 
-   <td> <p>La licenza collegata a un livello di accesso determina come configurarlo.</p> <p>Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica sulle licenze</a>.</p> <p><strong>Suggerimento</strong>: puoi vedere quale livello di accesso e licenza sono assegnati a ciascun utente visualizzando un elenco di utenti o un rapporto. Per istruzioni, consulta <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">Elencare i livelli di accesso e le licenze degli utenti</a>.</p> </td> 
+   <td> <p>La licenza collegata a un livello di accesso determina come configurarlo.</p> <p>Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica licenze</a>.</p> <p><strong>Suggerimento</strong>: è possibile visualizzare il livello di accesso e la licenza assegnati a ogni utente visualizzando un elenco di utenti o un report. Per istruzioni, consulta <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">Elencare i livelli di accesso e le licenze degli utenti</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Livelli di accesso incorporati</strong></td> 
@@ -54,11 +54,11 @@ Per informazioni sugli argomenti relativi ai livelli di accesso, vedere i seguen
   </tr> 
   <tr> 
    <td><strong>Assegnazione dei livelli di accesso</strong></td> 
-   <td> <p>Per istruzioni su come assegnare un livello di accesso a un utente, consulta <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modificare il profilo di un utente</a>.</p> </td> 
+   <td> <p>Per istruzioni su come assegnare un livello di accesso a un utente, vedere <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modificare il profilo di un utente</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Livelli di accesso Standard, Light, Collaboratore</td> 
-   <td> <p>Se questi livelli di accesso vengono visualizzati nell'ambiente anziché in Pianifica, Lavoro, Esamina o Richiedi, l'organizzazione utilizza il nuovo modello del livello di accesso. Per informazioni sul nuovo modello, consulta <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Panoramica dei nuovi livelli di accesso</a>.</p> </td> 
+   <td> <p>Se questi livelli di accesso vengono visualizzati nell'ambiente anziché in Pianifica, Lavoro, Esamina o Richiedi, l'organizzazione utilizza il nuovo modello del livello di accesso. Per informazioni sul nuovo modello, vedere <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Panoramica sui nuovi livelli di accesso</a>.</p> </td> 
   </tr> 
   <!--
   <tr> 

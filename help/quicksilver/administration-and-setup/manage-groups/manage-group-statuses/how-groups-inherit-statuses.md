@@ -2,33 +2,33 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
-title: Come i gruppi ereditano gli stati
-description: Quando elenchi gli stati disponibili per un gruppo, vengono visualizzati i seguenti
+title: Ereditarietà degli stati da parte dei gruppi
+description: Quando si elencano gli stati disponibili per un gruppo, vengono visualizzati i seguenti elementi
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 3937fd72-fa54-4777-9ec4-1f097df7a2ee
 source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
 
-# Come i gruppi ereditano gli stati
+# Ereditarietà degli stati da parte dei gruppi
 
-Quando elenchi gli stati disponibili per un gruppo, vengono visualizzati i seguenti
+Quando si elencano gli stati disponibili per un gruppo, vengono visualizzati i seguenti elementi
 
-* Stati personalizzati creati per il gruppo, come spiegato in [Creare o modificare uno stato di gruppo](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
-* Gli stati ereditati dal sistema e da superiore nella gerarchia dei gruppi, come spiegato in questo articolo.
+* Stati personalizzati creati per il gruppo, come spiegato in [Creare o modificare lo stato di un gruppo](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+* Gli stati ereditati dal sistema e dall’alto nella gerarchia dei gruppi, come spiegato in questo articolo.
 
-## Eredità degli stati
+## Ereditarietà degli stati
 
-Il gruppo eredita gli stati quando si verifica uno dei seguenti eventi:
+Il gruppo eredita gli stati quando si verifica una delle seguenti situazioni:
 
-* Il gruppo viene creato.
-* Un amministratore blocca lo stato in un gruppo di livello superiore.
-* Un amministratore elimina un altro gruppo e sceglie il gruppo per sostituirlo.
+* Create il gruppo.
+* Un amministratore blocca uno stato in un gruppo di livello superiore.
+* Un amministratore elimina un altro gruppo e sceglie il tuo gruppo per sostituirlo.
 
 La tabella seguente illustra ciascuna di queste circostanze.
 
@@ -37,52 +37,52 @@ La tabella seguente illustra ciascuna di queste circostanze.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Quando crei un gruppo</td> 
-   <td> <p>Quando crei un nuovo gruppo, questo eredita automaticamente:</p> 
+   <td role="rowheader">Quando si crea un gruppo</td> 
+   <td> <p>Quando si crea un nuovo gruppo, questo eredita automaticamente:</p> 
     <ul> 
-     <li>Stato sbloccato nel gruppo un livello verso l’alto, se il nuovo gruppo è un sottogruppo.</li> 
+     <li>Gli stati sbloccati nel gruppo di livello superiore, se il nuovo gruppo è un sottogruppo.</li> 
     </ul> 
     <ul> 
-     <li>Stati bloccati a livello di sistema .</li> 
+     <li>Stati bloccati a livello di sistema.</li> 
     </ul> 
      <b>ESEMPIO:</b></span></span> 
-     <p>Supponiamo che un gruppo chiamato Marketing abbia 2 sottogruppi denominati Marketing Communications e Branding .</p> 
-     <p>Un amministratore di gruppo del gruppo Marketing crea un nuovo stato personalizzato denominato Discovery.</p> 
-     <p>Successivamente, crei un nuovo sottogruppo sotto il gruppo Marketing e lo chiami Advertising.</p> 
-     <p>Il sottogruppo eredita lo stato Discovery perché il gruppo è stato creato dopo che l'altro amministratore ha creato lo stato Discovery sbloccato.</p> 
-     <p>Poiché i sottogruppi Marketing Communications e Branding esistevano già sotto il gruppo Marketing in questo caso, non ereditano lo stato di Discovery sbloccato.</p> 
+     <p>Supponiamo che un gruppo denominato Marketing abbia 2 sottogruppi denominati Marketing Communications and Branding.</p> 
+     <p>Un amministratore di gruppo del gruppo Marketing crea un nuovo stato personalizzato denominato Individuazione.</p> 
+     <p>In seguito, crei un nuovo sottogruppo sotto il gruppo Marketing e lo chiami Advertising.</p> 
+     <p>Il sottogruppo eredita lo stato di individuazione perché il gruppo è stato creato dopo che l'altro amministratore ha creato lo stato di individuazione sbloccato.</p> 
+     <p>Poiché i sottogruppi Marketing Communications and Branding esistevano già al di sotto del gruppo Marketing, non ereditano lo stato Discovery sbloccato.</p> 
     </div> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Quando un amministratore blocca uno stato a un livello superiore</td> 
-   <td> <p>Quando un amministratore di Workfront blocca uno stato a livello di sistema, il gruppo lo eredita insieme a tutti gli altri gruppi del sistema.</p> <p>Allo stesso modo, quando un amministratore blocca lo stato di un gruppo al di sopra del gruppo, il gruppo lo eredita insieme a qualsiasi altro sottogruppo al di sotto del gruppo superiore.</p> <p><b>NOTA</b>: Successivamente, se un amministratore sblocca uno di questi stati a livello di sistema o in un gruppo al di sopra del gruppo, il gruppo mantiene lo stato ereditato in precedenza. Ora si tratta di una versione separata dello stato e puoi personalizzarla solo per il tuo gruppo.</p> 
+   <td> <p>Quando un amministratore di Workfront blocca uno stato a livello di sistema, il gruppo lo eredita insieme a tutti gli altri gruppi del sistema.</p> <p>Analogamente, quando un amministratore blocca uno stato per un gruppo al di sopra del gruppo, il gruppo lo eredita insieme a tutti gli altri sottogruppi al di sotto del gruppo più alto.</p> <p><b>NOTA</b>: in seguito, se un amministratore sblocca uno di questi stati a livello di sistema o in un gruppo al di sopra del gruppo, il gruppo mantiene lo stato ereditato in precedenza. Ora si tratta di una versione separata dello stato e puoi personalizzarlo solo per il tuo gruppo.</p> 
     <p><b>ESEMPIO:</b></p>
-    <p>L’amministratore del gruppo di marketing blocca lo stato Discovery indicato sopra per assicurarti che sia presente in tutti e 3 i sottogruppi.</p> 
-    <p>Insieme al gruppo Advertising, i gruppi Marketing Communications e Branding hanno lo stato Discovery. L'hanno ereditato quando era bloccato nel gruppo Marketing sopra di loro.</p> 
-    <p>L'amministratore del gruppo di marketing sblocca quindi lo stato Discovery in modo che tutti e 3 i sottogruppi abbiano la propria versione dello stato Discovery. Ora tu e gli amministratori degli altri 2 gruppi potete personalizzare lo stato di individuazione in base alle esigenze dei gruppi.</p> 
+    <p>L’amministratore del gruppo di marketing blocca lo stato di individuazione menzionato sopra per accertarsi che sia presente in tutti e 3 i sottogruppi.</p> 
+    <p>Oltre al gruppo Advertising, ora anche i gruppi Marketing Communications e Branding hanno lo stato Discovery. L’hanno ereditata quando era bloccata nel gruppo Marketing al di sopra di loro.</p> 
+    <p>L’amministratore del gruppo di marketing sblocca quindi lo stato di individuazione in modo che tutti e 3 i sottogruppi dispongano di una propria versione dello stato di individuazione. Ora tu e gli amministratori degli altri 2 gruppi potete personalizzare lo stato di individuazione in base alle esigenze dei vostri gruppi.</p> 
   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Quando un amministratore elimina un gruppo</td> 
-   <td> <p>Quando un amministratore elimina un gruppo e sceglie di sostituirlo nel sistema, il gruppo eredita gli stati personalizzati del gruppo eliminato se non esistono già nel gruppo.</p> 
+   <td> <p>Quando un amministratore elimina un gruppo e sceglie il tuo per sostituirlo nel sistema, il tuo gruppo eredita gli stati personalizzati del gruppo eliminato, se non esistono già nel tuo gruppo.</p> 
    <p><b>ESEMPIO: </b></p>
-     <p>Un gruppo denominato Messaging deve unirsi al gruppo Advertising, in modo che un amministratore Workfront elimini il gruppo Messaging e scelga il gruppo per sostituirlo.</p> 
-     <p>Il gruppo di messaggistica aveva uno stato univoco denominato In processo. Questo stato è ora disponibile per l’uso nel gruppo Advertising.</p> 
+     <p>Un gruppo denominato Messaggistica deve essere unito al gruppo Advertising, pertanto un amministratore Workfront elimina il gruppo Messaggistica e sceglie il gruppo in sostituzione.</p> 
+     <p>Il gruppo Messaggistica aveva uno stato univoco denominato In elaborazione. Il tuo gruppo Advertising ora dispone di tale stato per l’utilizzo.</p> 
     </div> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Eredita delle configurazioni di stato
+## Ereditarietà delle configurazioni di stato
 
-Quando crei un gruppo di livello principale, eredita le seguenti configurazioni dal livello di sistema. Quando crei un sottogruppo, eredita le seguenti configurazioni dal gruppo superiore successivo.
+Quando crei un gruppo di primo livello, questo eredita le seguenti configurazioni dal livello di sistema. Quando crei un sottogruppo, questo eredita le seguenti configurazioni dal gruppo immediatamente superiore.
 
 * Configurazioni di stato predefinite
 
-   Per informazioni, consulta [Usa stati personalizzati come stati predefiniti](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md).
+  Per informazioni su questi stati, vedere [Utilizzare stati personalizzati come stati predefiniti](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md).
 
-* Configurazioni dell&#39;ordine di visualizzazione dello stato
+* Stato: configurazioni ordine di visualizzazione
 
-   Per informazioni, consulta [Riordinare gli stati a livello di sistema e di gruppo](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).
+  Per informazioni su queste, vedere [Riordinare gli stati a livello di sistema e di gruppo](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).
 
-Se qualcuno modifica queste configurazioni dopo la creazione del gruppo, i relativi stati non vengono interessati.
+Se qualcuno modifica queste configurazioni dopo la creazione del gruppo, il suo stato non viene modificato.

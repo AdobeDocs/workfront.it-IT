@@ -37,7 +37,7 @@ La tabella seguente contiene informazioni sulla differenza tra le date di confer
   </tr> 
   <tr> 
    <td role="rowheader">Data di completamento Pianificata</td> 
-   <td> <p>La Data di completamento pianificata mostra quando il proprietario del progetto prevede che l’attività o il problema sia completato. Può essere impostata manualmente dal proprietario del progetto o da chiunque abbia le autorizzazioni di Gestione per l’attività o il problema, oppure può essere calcolata automaticamente da Adobe Workfront.</p> <p>Per ulteriori informazioni sulle date di completamento pianificate, consulta <a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Panoramica della data di completamento pianificata dell'attività</a></p> </td> 
+   <td> <p>La Data di completamento pianificata mostra quando il proprietario del progetto prevede che l’attività o il problema sia completato. Può essere impostata manualmente dal proprietario del progetto o da chiunque abbia le autorizzazioni di Gestione per l’attività o il problema, oppure può essere calcolata automaticamente da Adobe Workfront.</p> <p>Per ulteriori informazioni sulle date di completamento pianificate, vedi <a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Panoramica sulla data di completamento pianificata dell'attività</a></p> </td> 
   </tr> 
  </tbody> 
 </table>

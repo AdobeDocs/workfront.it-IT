@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Il grafico a burn-down fornisce una rappresentazione visiva dell&#39;avanzamento delle storie nell&#39;iterazione. Il tasso di burndown effettivo viene misurato rispetto al tasso di burndown ideale per la timeline di iterazione.
 
-Il grafico a burn-down viene regolato in base al giorno selezionato. Il giorno corrente è quello predefinito. Quando viene selezionato un giorno precedente, tutti i dati nel grafico a discesa e tutti i valori nel [!UICONTROL stato di completamento] sopra il grafico a dispersione vengono ricalcolati per rappresentare i dati così come erano alla fine del giorno selezionato. È possibile selezionare i giorni passati o il giorno corrente, ma non i giorni futuri.
+Il grafico a burn-down viene regolato in base al giorno selezionato. Il giorno corrente è quello predefinito. Quando viene selezionato un giorno precedente, tutti i dati nel grafico a dispersione e tutti i valori nella sezione [!UICONTROL stato di completamento] sopra il grafico a dispersione vengono ricalcolati per rappresentare i dati così come erano alla fine del giorno selezionato. È possibile selezionare i giorni passati o il giorno corrente, ma non i giorni futuri.
 
 ![](assets/agile-iteration-burndown-350x88.png)
 
@@ -32,11 +32,11 @@ Il grafico a burn-down contiene i seguenti indicatori visivi:
  <tbody> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-dottedblue.png" alt=""> </td> 
-   <td> <p>Percentuale di burndown ideale in base a quando è iniziata l'iterazione.</p> <p>Questa riga non viene visualizzata se l’ambito dell’iterazione non cambia mai (le ore o i punti non vengono mai aggiunti o rimossi).</p> <p>Questa linea viene visualizzata come piatta quando il lavoro viene eseguito in un giorno libero. Per ulteriori informazioni, consulta <a title="Utilizzo del grafico Burndown Agile" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">Effetti dei giorni liberi sul grafico a dispersione</a>.</p> </td> 
+   <td> <p>Percentuale di burndown ideale in base a quando è iniziata l'iterazione.</p> <p>Questa riga non viene visualizzata se l’ambito dell’iterazione non cambia mai (le ore o i punti non vengono mai aggiunti o rimossi).</p> <p>Questa linea viene visualizzata come piatta quando il lavoro viene eseguito in un giorno libero. Per ulteriori informazioni, vedere <a title="Utilizzo del grafico Burndown Agile" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">Come i giorni liberi influiscono sul grafico di burn-down</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-solidblue.png" alt=""> </td> 
-   <td> <p>Percentuale di burndown ideale in base alle storie o alle attività correnti.</p> <p>La velocità di burn-down ideale corrente (linea blu continua) differisce dalla velocità di burndown ideale originale (linea blu punteggiata) quando le ore o i punti vengono aggiunti o rimossi dall'iterazione dopo l'inizio dell'iterazione.</p> <p>Questa linea viene visualizzata come piatta quando il lavoro viene eseguito in un giorno libero.</p> <p>Per ulteriori informazioni, consulta <a title="Utilizzo del grafico Burndown Agile" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">Effetti dei giorni liberi sul grafico a dispersione</a>.</p> </td> 
+   <td> <p>Percentuale di burndown ideale in base alle storie o alle attività correnti.</p> <p>La velocità di burn-down ideale corrente (linea blu continua) differisce dalla velocità di burndown ideale originale (linea blu punteggiata) quando le ore o i punti vengono aggiunti o rimossi dall'iterazione dopo l'inizio dell'iterazione.</p> <p>Questa linea viene visualizzata come piatta quando il lavoro viene eseguito in un giorno libero.</p> <p>Per ulteriori informazioni, vedere <a title="Utilizzo del grafico Burndown Agile" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">Come i giorni liberi influiscono sul grafico di burn-down</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-red.png" alt=""> </td> 
@@ -71,9 +71,9 @@ Il grafico a burn-down contiene i seguenti indicatori visivi:
 
 ## Effetti dei giorni liberi sul grafico a dispersione {#how-days-off-affect-the-burndown-chart}
 
-La pianificazione predefinita definita in [!DNL Workfront] influisce sul grafico burndown escludendo i giorni liberi (fine settimana e festivi) dal burndown. Il grafico a dispersione utilizza la pianificazione predefinita per definire i giorni lavorativi (come descritto in  [Creare una pianificazione](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)).
+La pianificazione predefinita definita in [!DNL Workfront] influisce sul grafico burndown escludendo i giorni liberi (fine settimana e festivi) dal burndown. Il grafico a dispersione utilizza la pianificazione predefinita per definire i giorni lavorativi (come descritto in  [Crea una pianificazione](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)).
 
-I team agili possono incorporare giorni non lavorativi specifici del team definendo una pianificazione alternativa (come descritto nell’articolo [Utilizzare una pianificazione alternativa per i grafici a dispersione](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)). Questa pianificazione alternativa viene quindi riportata nel grafico a discesa di qualsiasi iterazione assegnata al team. La pianificazione alternativa influisce solo sul grafico a dispersione.
+I team Agile possono incorporare giorni non lavorativi specifici del team definendo una pianificazione alternativa (come descritto nell&#39;articolo [Utilizzare una pianificazione alternativa del team per i grafici a dispersione](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)). Questa pianificazione alternativa viene quindi riportata nel grafico a discesa di qualsiasi iterazione assegnata al team. La pianificazione alternativa influisce solo sul grafico a dispersione.
 
 I giorni liberi vengono riportati nel grafico a dispersione solo se:
 
@@ -88,8 +88,8 @@ I giorni liberi vengono riportati nel grafico a dispersione solo se:
 * Stai visualizzando il grafico a bruciatura in un giorno libero. Il giorno visualizzato viene visualizzato nel grafico a dispersione.
 * Il lavoro rimanente totale per l&#39;iterazione viene completato in un giorno libero.
 
-  Quando un utente completa il lavoro rimanente totale per l’iterazione in un giorno libero, il [!UICONTROL Completamento stimato] visualizza la data in cui è stata completata l’iterazione.
+  Quando un utente completa il lavoro totale rimanente per l&#39;iterazione in un giorno libero, nel campo [!UICONTROL Completamento stimato] viene visualizzata la data in cui l&#39;iterazione è stata completata.
 
-  Quando si pianifica l&#39;iterazione, se si imposta la data di fine dell&#39;iterazione per un giorno non lavorativo e si tiene traccia della fine puntuale dell&#39;iterazione, [!UICONTROL Completamento stimato] la data viene impostata per l&#39;ultimo giorno lavorativo precedente alla data di fine dell&#39;iterazione impostata (poiché il lavoro non è programmato per essere masterizzato in giorni non lavorativi).
+  Quando si pianifica l&#39;iterazione, se si imposta la data di fine dell&#39;iterazione per un giorno non lavorativo e l&#39;iterazione tiene traccia della fine puntuale, la data [!UICONTROL completamento stimato] viene impostata per l&#39;ultimo giorno lavorativo precedente alla data di fine dell&#39;iterazione impostata (poiché il lavoro non è pianificato per essere masterizzato in giorni non lavorativi).
 
-  La data di fine dell&#39;iterazione viene specificata quando l&#39;iterazione viene pianificata, come descritto nell&#39;articolo [Creare un’iterazione](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md).
+  La data di fine dell&#39;iterazione viene specificata quando l&#39;iterazione è pianificata, come descritto nell&#39;articolo [Creare un&#39;iterazione](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md).

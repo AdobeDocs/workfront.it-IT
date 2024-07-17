@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti per gli amministratori apportati con la versione 21.1 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 15 febbraio 2021.
 
-Per un elenco di tutte le modifiche disponibili con la versione 21.1, consulta [Panoramica sulla versione 21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 21.1, consulta la [panoramica sulla versione 21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Introduzione di una nuova impostazione del livello di accesso per la copia dei progetti
 
@@ -27,11 +27,11 @@ Per consentirti di controllare meglio, in qualità di amministratore di sistema,
 
 Se gli utenti disponevano dell’accesso Modifica progetti nel proprio livello di accesso prima di questa modifica, questa impostazione veniva abilitata automaticamente al momento del rilascio di questa funzione.
 
-Per informazioni sul livello di accesso Piano, vedere [Concedere l’accesso ai progetti](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+Per informazioni sul livello di accesso Piano, vedere [Concedere l&#39;accesso ai progetti](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
-Per informazioni sulla copia di un progetto, consulta [Copiare un progetto](../../../manage-work/projects/manage-projects/copy-project.md).
+Per informazioni sulla copia di un progetto, vedere [Copiare un progetto](../../../manage-work/projects/manage-projects/copy-project.md).
 
-Questa funzione è ora inclusa nel [Nozioni di base per gli amministratori nella nuova esperienza Workfront, Parte 1: Organizzazione degli utenti](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) percorso di apprendimento in Workfront One.
+Questa funzionalità è ora inclusa in [Nozioni di base per gli amministratori nella nuova esperienza Workfront, parte 1: percorso di apprendimento Organizzazione utente](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) in Workfront One.
 
 ## In un modulo personalizzato su un oggetto, seleziona tutti gli elementi in un campo a discesa a selezione multipla
 
@@ -41,7 +41,7 @@ Questa funzione è ora inclusa nel [Nozioni di base per gli amministratori nella
 
 Nella pagina Dettagli di un oggetto, quando si compila un campo a discesa a selezione multipla in un modulo personalizzato, è possibile fare clic su Seleziona tutto se è necessario selezionare tutte le opzioni disponibili.
 
-Per informazioni sulla modifica dei dati in un modulo personalizzato, vedi [Modificare le informazioni nei campi modulo personalizzati](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
+Per informazioni sulla modifica dei dati in un modulo personalizzato, vedere [Modificare le informazioni nei campi modulo personalizzato](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
 ## Ricalcolare tutti i campi modulo personalizzato per un oggetto
 
@@ -51,7 +51,7 @@ Questa funzione è particolarmente utile quando qualcuno modifica dati in un alt
 
 In precedenza, gli utenti dovevano utilizzare soluzioni alternative per assicurarsi che tutti i dati nei campi personalizzati calcolati fossero correnti. Ad esempio, hanno modificato l’oggetto insieme ad altri oggetti per utilizzare l’opzione di ricalcolo disponibile per la modifica in serie.
 
-Per ulteriori informazioni, consulta [Modificare le informazioni nei campi modulo personalizzati](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
+Per ulteriori informazioni, vedere [Modificare le informazioni nei campi modulo personalizzato](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
 ## Sblocca le preferenze per attività e problemi per gli amministratori di gruppi
 
@@ -63,7 +63,7 @@ Gli amministratori di Adobe Workfront ora possono dare agli amministratori di gr
 
 Per ulteriori informazioni, consulta [Configurare le preferenze per attività e problemi per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
-Questa funzione è ora inclusa nel [Nozioni di base per gli amministratori nella nuova esperienza Workfront, Parte 2: Configurazione del progetto](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) percorso di apprendimento in Workfront One.
+Questa funzionalità è ora inclusa in [Nozioni di base per gli amministratori nella nuova esperienza Workfront, parte 2: Percorso di apprendimento per la configurazione del progetto](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) in Workfront One.
 
 ## Configurare separatamente le impostazioni del livello di accesso per portfolio e programmi
 
@@ -71,11 +71,11 @@ Ora è più semplice gestire l’accesso degli utenti a portfolio e programmi, i
 
 In precedenza, venivano combinate le impostazioni del livello di accesso per portfolio e programmi. Non era quindi possibile configurare le impostazioni di accesso per i programmi senza configurarle allo stesso modo per i portfolio, e lo stesso si verificava al contrario.
 
-Per informazioni sulla configurazione di un livello di accesso, vedi [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Per informazioni sulla configurazione di un livello di accesso, vedere [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-Per informazioni sulle impostazioni di accesso che è possibile configurare per i programmi e i portfolio, vedere [Accesso configurabile alle funzionalità per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+Per informazioni sulle impostazioni di accesso che è possibile configurare per programmi e portfolio, vedere [Accesso configurabile alle funzionalità per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-Questa funzione è ora inclusa nel [Nozioni di base per gli amministratori nella nuova esperienza Workfront, Parte 1: Organizzazione degli utenti](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) percorso di apprendimento in Workfront One.
+Questa funzionalità è ora inclusa in [Nozioni di base per gli amministratori nella nuova esperienza Workfront, parte 1: percorso di apprendimento Organizzazione utente](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) in Workfront One.
 
 ## Selezionare tutte le caselle di controllo di una serie durante la modifica delle informazioni in un modulo personalizzato
 
@@ -87,18 +87,18 @@ Nella pagina Dettagli di un oggetto, quando si compila un campo Modulo personali
 
 Questa opzione viene visualizzata solo se il campo contiene più di 2 caselle di controllo.
 
-Per ulteriori informazioni, consulta [Modificare le informazioni nei campi modulo personalizzati](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
+Per ulteriori informazioni, vedere [Modificare le informazioni nei campi modulo personalizzato](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
-## Configurare l’Workfront di e-mail di inserire nell&#39;elenco Consentiti
+## Configurare il Workfront di e-mail di inserire nell&#39;elenco Consentiti
 
-Per una migliore protezione dei dati, ora puoi utilizzare un elenco Consentiti di dominio e-mail per eseguire le seguenti operazioni:
+Per una migliore protezione dei dati, ora puoi utilizzare un dominio e-mail in modo che si inserisca nell&#39;elenco Consentiti a:
 
 * Controlla dove possono andare le e-mail di Workfront se contengono rapporti o documenti memorizzati in Workfront
 * I domini e-mail di controllo possono trovarsi nell’indirizzo e-mail che gli utenti possono specificare nel loro profilo utente
 
-Ad esempio, se desideri proteggere i dati sensibili, come un rapporto che elenca i clienti a rischio, puoi includere nel inserisco nell&#39;elenco Consentiti di selezione dell’e-mail solo il dominio o i domini e-mail interni In questo modo, gli utenti non possono inviare tale rapporto (o qualsiasi altro rapporto di Workfront) a un indirizzo e-mail esterno.
+Ad esempio, se desideri proteggere i dati sensibili, ad esempio un rapporto che elenca i clienti a rischio, puoi includere nel inserisco nell&#39;elenco Consentiti di gestione delle e-mail solo il dominio o i domini e-mail interni. In questo modo, gli utenti non possono inviare tale rapporto (o qualsiasi altro rapporto di Workfront) a un indirizzo e-mail esterno.
 
-Per ulteriori informazioni, consulta la sezione [Configurare il inserisco nell&#39;elenco Consentiti di configurazione del firewall per l’accesso a un sistema di protezione da attacchi di tipo](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md#configur) nell’articolo [Configurare il inserisco nell&#39;elenco Consentiti di configurazione del firewall per l’accesso a un sistema di protezione da attacchi di tipo](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Per ulteriori informazioni, vedere la sezione [Configurare il inserisco nell&#39;elenco Consentiti di  del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md#configur) nell&#39;articolo [Configurare il inserisco nell&#39;elenco Consentiti di  del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## Assegnare un amministratore di gruppo a un sottogruppo
 
@@ -106,9 +106,9 @@ Per facilitare il funzionamento indipendente dei livelli dell’organizzazione, 
 
 In precedenza, solo un gruppo di primo livello poteva avere Amministratori di gruppo e questi amministratori gestivano tutti i sottogruppi al di sotto del gruppo di primo livello.
 
-Per ulteriori informazioni, consulta la sezione [Amministratori di gruppi per sottogruppi](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md#for) nell’articolo [Panoramica sui sottogruppi](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
+Per ulteriori informazioni, vedere la sezione [Amministratori di gruppi per i sottogruppi](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md#for) nell&#39;articolo [Panoramica sui sottogruppi](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
 
-Questa funzione è ora inclusa nel [Nozioni di base per gli amministratori nella nuova esperienza Workfront, Parte 1: Organizzazione degli utenti](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) percorso di apprendimento in Workfront One.
+Questa funzionalità è ora inclusa in [Nozioni di base per gli amministratori nella nuova esperienza Workfront, parte 1: percorso di apprendimento Organizzazione utente](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) in Workfront One.
 
 ## Configurare le notifiche degli eventi per i gruppi
 
@@ -125,9 +125,9 @@ Per ulteriori informazioni, consulta i seguenti articoli:
 * [Sblocca o blocca la configurazione delle notifiche degli eventi per tutti i gruppi](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
 * [Visualizzare e configurare le notifiche degli eventi per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
 
-Questa funzione è ora inclusa nel [Nozioni di base per gli amministratori nella nuova esperienza Workfront, Parte 1: Organizzazione degli utenti](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) percorso di apprendimento in Workfront One.
+Questa funzionalità è ora inclusa in [Nozioni di base per gli amministratori nella nuova esperienza Workfront, parte 1: percorso di apprendimento Organizzazione utente](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) in Workfront One.
 
-Questa funzione è ora inclusa nel [Notifiche e-mail e in-app nella nuova esperienza Workfront](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-https://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-MCDSDH3SRJ4ZGTJF5NJI64F4TW2U) percorso di apprendimento in Workfront One.
+Questa funzionalità è ora inclusa nelle [Notifiche e-mail e in-app nel nuovo percorso di apprendimento esperienza Workfront](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-https://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-MCDSDH3SRJ4ZGTJF5NJI64F4TW2U) in Workfront One.
 
 ## Utilizzare progetti di gruppo e processi di approvazione nell&#39;area Gruppi
 
@@ -135,11 +135,11 @@ Gli amministratori di gruppi possono visualizzare e utilizzare facilmente i prog
 
 * Fate clic su Progetti (Projects) nel menu a sinistra per visualizzare i progetti del gruppo e crearne di nuovi. Se un progetto selezionato è stato condiviso con te, puoi utilizzare i pulsanti nella barra degli strumenti per modificarlo, esportarlo, copiarlo o eliminarlo.
 
-  Per ulteriori informazioni, consulta [Creare e modificare i progetti di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+  Per ulteriori informazioni, vedere [Creare e modificare i progetti di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
 * Fai clic su Approvazioni nel menu a sinistra per visualizzare e gestire tutti i processi di approvazione associati al gruppo.
 
-  Per ulteriori informazioni, consulta [Processi di approvazione a livello di gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
+  Per ulteriori informazioni, vedere [Processi di approvazione a livello di gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
 
 Questa funzionalità è disponibile anche per gli amministratori di Workfront.
 

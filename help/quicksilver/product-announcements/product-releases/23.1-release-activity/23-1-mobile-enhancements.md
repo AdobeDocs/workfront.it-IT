@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti apportati a Mobile con la versione 23.1 nell’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 16 gennaio 2023.
 
-Per un elenco di tutte le modifiche disponibili con la versione 23.1, consulta [Panoramica sulla versione 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 23.1, consulta la [Panoramica sulla versione 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
 ## Le bacheche sono ora disponibili nell’app mobile
 

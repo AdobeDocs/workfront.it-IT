@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: Applicare gli stati al lavoro associato a un gruppo
-description: Se un progetto è associato a un gruppo, puoi applicare al progetto, all’attività o ai problemi relativi a tale progetto sia lo stato a livello di sistema che uno stato personalizzato associato a tale gruppo.
+title: Applica stati al lavoro associato a un gruppo
+description: Se un progetto è associato a un gruppo, è possibile applicare sia gli stati a livello di sistema che uno stato personalizzato associato a tale gruppo al progetto, all'attività o ai problemi del progetto.
 author: Alina
 feature: Work Management
 exl-id: 7564ab6a-8ddf-4e76-8e45-d59f9cf8d38b
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 ---
 
-# Applicare gli stati al lavoro associato a un gruppo
+# Applica stati al lavoro associato a un gruppo
 
 <!--
 Alina, I moved this out of an admin article about statuses (Create and customize statuses)
 -->
 
-Se un progetto è associato a un gruppo, puoi applicare al progetto sia lo stato a livello di sistema che uno stato personalizzato associato a tale gruppo, oppure attività e problemi relativi al progetto. Per informazioni sugli stati del gruppo in Adobe Workfront, vedi [Creare o modificare uno stato](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+Se un progetto è associato a un gruppo, puoi applicare al progetto sia gli stati a livello di sistema che uno stato personalizzato associato a tale gruppo, oppure le attività e i problemi relativi a tale progetto. Per informazioni sugli stati dei gruppi in Adobe Workfront, vedere [Creare o modificare uno stato](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 >[!TIP]
 >
@@ -65,7 +65,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
@@ -73,36 +73,37 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>Piano </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Modifica accesso a progetti</p> <p><b>NOTA</b>
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modifica accesso ai progetti</p> <p><b>NOTA</b>
 
-Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
+Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestisci le autorizzazioni per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
-## Aggiorna gruppo e stato del progetto
+## Aggiorna gruppo di progetti e stato
 
-Quando si aggiorna il gruppo per un progetto, le opzioni disponibili per lo stato delle attività, dei problemi o del progetto cambiano in base al gruppo.
+Quando si aggiorna il Gruppo per un progetto, le opzioni disponibili per lo Stato delle attività, dei problemi o del progetto cambiano in modo che corrispondano al gruppo.
 
-1. Vai a un progetto o crea un nuovo progetto, come descritto in [Creare un progetto](../../../manage-work/projects/create-projects/create-project.md).
-1. Fai clic sul pulsante **Altro** icona ![](assets/more-icon.png), quindi fai clic su **Modifica**.
+1. Passare a un progetto o crearne uno nuovo, come descritto in [Creare un progetto](../../../manage-work/projects/create-projects/create-project.md).
+1. Fai clic sull&#39;icona **Altro** ![](assets/more-icon.png), quindi fai clic su **Modifica**.
 
-1. In **Modifica progetto** che viene visualizzato, vicino alla parte inferiore del **Panoramica** , seleziona il gruppo nella sezione **Gruppo** menu a discesa.
+1. Nella casella **Modifica progetto** visualizzata nella parte inferiore della sezione **Panoramica**, selezionare il gruppo nel menu a discesa **Gruppo**.
 
-1. In **Stato** dal menu a discesa, seleziona lo stato personalizzato.
+1. Nel menu a discesa **Stato**, seleziona lo stato personalizzato.
 
    >[!NOTE]
    >
-   >Se selezioni un gruppo diverso nel **Gruppo** nel menu a discesa, gli stati personalizzati **Stato** il menu viene modificato automaticamente in modo da essere correlato al nuovo gruppo.
+   >Se si seleziona un gruppo diverso nel menu a discesa **Gruppo**, gli stati personalizzati nel menu **Stato** cambiano automaticamente in modo da essere correlati al nuovo gruppo.
    >
    >
    >![](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)   >
+   >
 
-1. Seleziona lo stato del progetto. Nell’elenco vengono visualizzati gli stati personalizzati creati e applicati al gruppo.
+1. Seleziona lo stato del progetto. Gli stati personalizzati creati e applicati a tale gruppo vengono visualizzati nell’elenco.

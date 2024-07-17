@@ -17,11 +17,11 @@ ht-degree: 0%
 
 Adobe Workfront DAM è un sistema nativo di gestione delle risorse digitali (DAM) all’interno di Workfront che consente di archiviare, organizzare, trovare, recuperare e condividere file digitali.
 
-Puoi accedere alla documentazione di supporto per Workfront DAM nelle seguenti posizioni:
+È possibile accedere alla documentazione di supporto per Workfront DAM  nelle seguenti posizioni:
 
 * Se utilizzi l’applicazione autonoma Workfront DAM (al di fuori dell’applicazione Workfront principale), consulta  [damsuccess.com](https://www.damsuccess.com).
-* Se utilizzi la funzionalità DAM di Workfront all’interno dell’applicazione Workfront principale, consulta [DAM di Adobe Workfront in Adobe Workfront](../../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)
+* Se utilizzi la funzionalità DAM di Workfront all&#39;interno dell&#39;applicazione principale di Workfront, vedi [Adobe Workfront DAM in Adobe Workfront](../../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)
 
   >[!NOTE]
   >
-  >Se devi inviare una richiesta di funzionalità o segnalare un problema, contatta l’Assistenza clienti Workfront telefonicamente, via e-mail o tramite il sito di assistenza Workfront. Per ulteriori informazioni, consulta [Contatta l’Assistenza clienti](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+  >Se devi inviare una richiesta di funzionalità o segnalare un problema, contatta l’Assistenza clienti Workfront telefonicamente, via e-mail o tramite il sito di assistenza Workfront. Per ulteriori informazioni, vedere [Contattare l&#39;Assistenza clienti](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).

@@ -2,7 +2,7 @@
 product-area: workfront-integrations
 navigation-topic: workfront-for-jira
 title: Aggiorna elementi collegati tra [!DNL Jira] e [!DNL Adobe Workfront]
-description: Quando si collega [!DNL Jira] problemi a [!DNL Adobe Workfront] attività o problemi, gli utenti possono aggiornare gli elementi in un'applicazione e la controparte di quell'elemento viene aggiornata anche per gli utenti che lavorano nella seconda applicazione.
+description: Quando colleghi [!DNL Jira] problemi ad [!DNL Adobe Workfront] attività o problemi, gli utenti possono aggiornare gli elementi in un'applicazione e la controparte di quell'elemento viene aggiornata anche per gli utenti che lavorano nella seconda applicazione.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 79ac6ff1-2f7d-4abc-8735-398f6aac5191
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 # Aggiorna elementi collegati tra [!DNL Jira] e [!DNL Adobe Workfront]
 
-Quando si collega [!DNL Jira] problemi a [!DNL Adobe Workfront] attività o problemi, gli utenti possono aggiornare gli elementi in un&#39;applicazione e la controparte di quell&#39;elemento viene aggiornata anche per gli utenti che lavorano nella seconda applicazione.
+Quando colleghi [!DNL Jira] problemi ad attività o problemi [!DNL Adobe Workfront], gli utenti possono aggiornare gli elementi in un&#39;applicazione e la controparte di quell&#39;elemento viene aggiornata anche per gli utenti che lavorano nella seconda applicazione.
 
-Per ulteriori informazioni sul collegamento di elementi tra [!DNL Workfront] e [!DNL Jira], vedi [Collegare elementi tra Adobe Workfront e Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md).
+Per ulteriori informazioni sul collegamento di elementi tra [!DNL Workfront] e [!DNL Jira], vedere [Collegare elementi tra Adobe Workfront e Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md).
 
-Come si configura [!DNL Workfront] per [!DNL Jira], come [!DNL Jira] amministratore di sistema, è possibile configurare alcuni campi di un&#39;applicazione per eseguire la sincronizzazione con i campi degli elementi collegati dell&#39;altra applicazione.
+Durante la configurazione di [!DNL Workfront] per [!DNL Jira], in qualità di amministratore di sistema di [!DNL Jira], è possibile configurare alcuni campi di un&#39;applicazione per la sincronizzazione con i campi degli elementi collegati dell&#39;altra applicazione.
 
-Per ulteriori informazioni sulla sincronizzazione dei campi tra [!DNL Jira] e [!DNL Workfront] elementi, vedi [Configura [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
+Per ulteriori informazioni sulla sincronizzazione dei campi tra gli elementi collegati [!DNL Jira] e [!DNL Workfront], vedere [Configure [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
 ## Requisiti di accesso
 
@@ -47,11 +47,11 @@ Devi avere i seguenti:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Jira] accesso</td> 
-   <td> <p>Accesso amministratore di sistema</p> <p>Importante: è consigliabile creare account di amministratore di sistema separati in [!DNL Jira] e [!DNL Workfront] per dedicarsi a questa integrazione, anziché utilizzare quelle esistenti che potrebbero essere collegate agli utenti.</p> </td> 
+   <td> <p>Accesso amministratore di sistema</p> <p>Importante: è consigliabile creare account di amministratore di sistema separati in [!DNL Jira] e [!DNL Workfront] per dedicarsi a questa integrazione, anziché utilizzare account esistenti che potrebbero essere collegati agli utenti.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Devi essere un [!DNL Workfront] amministratore.</p> </td> 
+   <td> <p>Devi essere un amministratore [!DNL Workfront].</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,191 +64,191 @@ Prima di collegare gli elementi tra [!DNL Workfront] e [!DNL Jira], è necessari
 
 * Installa [!DNL Workfront for Jira].
 
-  Per istruzioni sull&#39;installazione [!DNL Workfront for Jira], vedi [Installa [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md).
+  Per istruzioni sull&#39;installazione di [!DNL Workfront for Jira], vedere [Installa [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md).
 
 * Configura [!DNL Workfront for Jira].
 
-  Per istruzioni sulla configurazione [!DNL Workfront for Jira], vedi [Configura [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
+  Per istruzioni sulla configurazione di [!DNL Workfront for Jira], vedere [Configura [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
 * Collega elementi tra [!DNL Workfront] e [!DNL Jira].
 
-  Per istruzioni, consulta [Collega elementi tra [!DNL Adobe Workfront] e [!DNL Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md).
+  Per istruzioni, vedi [Collega elementi tra [!DNL Adobe Workfront] e [!DNL Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md).
 
-## Aggiornare gli elementi collegati in [!DNL Workfront]
+## Aggiorna elementi collegati in [!DNL Workfront]
 
-Se lavori principalmente in [!DNL Workfront], è possibile aggiornare gli elementi di lavoro in [!DNL Workfront] e le loro controparti in [!DNL Jira] aggiorna anche. Questo aggiornamento avviene tramite l’integrazione di [!DNL Workfront] per [!DNL Jira] che non richiede una [!DNL Jira] licenza.
+Se si lavora principalmente in [!DNL Workfront], è possibile aggiornare gli elementi di lavoro in [!DNL Workfront] e anche le relative controparti in [!DNL Jira]. Questo aggiornamento avviene tramite l&#39;integrazione di [!DNL Workfront] per [!DNL Jira] che non richiede una licenza di [!DNL Jira].
 
-Fino a quando [!DNL Workfront] l’amministratore ha configurato [!DNL Workfront for Jira] per sincronizzare i campi tra elementi collegati, alcuni campi che vengono aggiornati in [!DNL Workfront] aggiorna anche per il [!DNL Jira] problema. Per ulteriori informazioni sull&#39;aggiornamento degli elementi in [!DNL Workfront], vedi [Modifica problemi](../../manage-work/issues/manage-issues/edit-issues.md) e [Modifica attività](../../manage-work/tasks/manage-tasks/edit-tasks.md).
+Se l&#39;amministratore di [!DNL Workfront] ha configurato [!DNL Workfront for Jira] per sincronizzare i campi tra gli elementi collegati, alcuni campi aggiornati in [!DNL Workfront] vengono aggiornati anche per il problema [!DNL Jira] collegato. Per ulteriori informazioni sull&#39;aggiornamento degli elementi in [!DNL Workfront], vedere [Modifica problemi](../../manage-work/issues/manage-issues/edit-issues.md) e [Modifica attività](../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-L&#39;elenco seguente mostra quali [!DNL Workfront] campi sincronizzati con [!DNL Jira] campi sugli elementi collegati:
+L&#39;elenco seguente mostra quali campi [!DNL Workfront] si sincronizzano con i campi [!DNL Jira] degli elementi collegati:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Aggiornato [!DNL Workfront] campo</strong> </th> 
-   <th><strong>Sincronizzato [!DNL Jira] campo/aggiornamento</strong> </th> 
+   <th><strong>Campo [!DNL Workfront] aggiornato</strong> </th> 
+   <th><strong>Campo/aggiornamento [!DNL Jira] sincronizzato</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td>[!UICONTROL Nome problema o attività]</td> 
-   <td> <p>[!UICONTROL Issue name]</p> <p>Un commento sulla modifica del Nome viene aggiunto al <strong>[!DNL Workfront]</strong> scheda di [!DNL Jira] problema. </p> </td> 
+   <td> <p>[!UICONTROL Issue name]</p> <p>Un commento sulla modifica del Nome è stato aggiunto alla scheda <strong>[!DNL Workfront]</strong> del problema [!DNL Jira]. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Issue or Task Description]</td> 
-   <td> <p> [!UICONTROL Descrizione problema]</p> <p>Un commento sulla Descrizione aggiornata viene aggiunto al <strong>[!DNL Workfront]</strong> scheda di [!DNL Jira] problema.<br></p> </td> 
+   <td> <p> [!UICONTROL Descrizione problema]</p> <p>Un commento sulla Descrizione aggiornata è stato aggiunto alla scheda <strong>[!DNL Workfront]</strong> del problema [!DNL Jira].<br></p> </td> 
   </tr> 
   <tr> 
-   <td> <p> [!UICONTROL Documenti Caricati]</p> <p>Nota: documenti collegati a [!DNL Workfront] gli elementi da un server esterno non vengono trasferiti a [!DNL Jira] problemi. Solo i documenti caricati direttamente in [!DNL Workfront] Gli elementi vengono aggiornati anche nel [!DNL Jira] problemi. </p> </td> 
-   <td> <p>[!UICONTROL Allegati]</p> <p>Un commento sugli allegati caricati viene aggiunto al <strong>[!DNL Workfront]</strong> scheda di [!DNL Jira] problema.<br></p> </td> 
+   <td> <p> [!UICONTROL Documenti Caricati]</p> <p>Nota: i documenti collegati a [!DNL Workfront] elementi da un server esterno non vengono trasferiti a [!DNL Jira] problemi. Solo i documenti caricati direttamente sugli elementi [!DNL Workfront] vengono aggiornati ai [!DNL Jira] problemi collegati. </p> </td> 
+   <td> <p>[!UICONTROL Allegati]</p> <p>Un commento sugli allegati caricati è stato aggiunto alla scheda <strong>[!DNL Workfront]</strong> del problema [!DNL Jira].<br></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Data di completamento Pianificata]</td> 
-   <td> <p>[!UICONTROL Scadenza]</p> <p>È stato aggiunto un commento sulla [!UICONTROL Scadenza] modificata [!DNL Workfront] scheda di [!DNL Jira] problema. </p> <p>Nota: è necessario abilitare <strong>[!UICONTROL Scadenza]</strong> per [!DNL Jira] problemi per visualizzare questo campo aggiornato in [!UICONTROL Jira]. </p> </td> 
+   <td> <p>[!UICONTROL Scadenza]</p> <p>Un commento sulla [!UICONTROL Scadenza] modificata è aggiunto alla scheda [!DNL Workfront] del problema [!DNL Jira]. </p> <p>Nota: è necessario abilitare <strong>[!UICONTROL Scadenza]</strong> per [!DNL Jira] problemi per poter visualizzare questo campo aggiornato in [!UICONTROL Jira]. </p> </td> 
   </tr> 
   <tr> 
    <td>Forms personalizzato e campi personalizzati</td> 
-   <td> <p> Visualizza in [!DNL Workfront] pannello a destra della [!DNL Jira] problema. <br>Nel pannello vengono visualizzati solo i campi personalizzati con un valore effettivo.<br></p> <p>Nota: le sezioni del modulo personalizzato vengono visualizzate con il livello di accesso del [!DNL Workfront] amministratore. </p> </td> 
+   <td> <p> Visualizza nel pannello a destra [!DNL Workfront] del problema [!DNL Jira]. <br>Nel pannello vengono visualizzati solo i campi personalizzati con un valore effettivo.<br></p> <p>Nota: le sezioni dei moduli personalizzati vengono visualizzate con il livello di accesso dell'amministratore [!DNL Workfront]. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Issue or Task Priority]</td> 
-   <td>Visualizzazioni in [!DNL Workfront] pannello a destra della [!DNL Jira] problema. <br>Il problema non viene aggiornato <strong>Priorità [!UICONTROL]</strong> campo in [!DNL Jira]. </td> 
+   <td>Viene visualizzato nel pannello a destra [!DNL Workfront] del problema [!DNL Jira]. <br>Il campo <strong>[!UICONTROL Priority]</strong> non viene aggiornato in [!DNL Jira]. </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tempo di registrazione] </td> 
-   <td> <p>Un commento sull'ora registrata viene aggiunto nel <strong>[!DNL Workfront]</strong> scheda di [!DNL Jira] problema. Questo include il nome dell’utente che registra l’ora e dell’utente per il quale l’ora è registrata, nel caso siano diversi. Non è stato effettuato l’accesso all’ora <strong>[!UICONTROL Registro di lavoro]</strong> scheda in [!DNL Jira].<br></p> </td> 
+   <td> <p>Nella scheda <strong>[!DNL Workfront]</strong> del problema [!DNL Jira] è stato aggiunto un commento sull'ora registrata. Questo include il nome dell’utente che registra l’ora e dell’utente per il quale l’ora è registrata, nel caso siano diversi. Nessun orario registrato nella scheda <strong>[!UICONTROL Work Log]</strong> in [!DNL Jira].<br></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Commenti]</td> 
-   <td> <p>Il commento viene aggiunto al <strong>[!DNL Workfront]</strong> scheda di [!DNL Jira] problema. Non viene aggiunto al <strong>[!UICONTROL Commenti]</strong> scheda di [!DNL Jira] problema</p> <p>Nota: quando colleghi manualmente due elementi esistenti, i commenti aggiunti al [!DNL Workfront] elemento prima del collegamento [!DNL Jira] non sincronizzare con [!DNL Jira] problema. </p> </td> 
+   <td> <p>Il commento viene aggiunto alla scheda <strong>[!DNL Workfront]</strong> del problema [!DNL Jira]. Non è stato aggiunto alla scheda <strong>[!UICONTROL Commenti]</strong> del problema [!DNL Jira]</p> <p>Nota: quando si collegano manualmente due elementi esistenti, i commenti aggiunti all'elemento [!DNL Workfront] prima di collegarlo a [!DNL Jira] non vengono sincronizzati con il problema [!DNL Jira]. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Aggiornare gli elementi collegati in [!DNL Jira]
+## Aggiorna elementi collegati in [!DNL Jira]
 
-Se lavori principalmente in [!DNL Jira], è possibile aggiornare gli elementi di lavoro in [!DNL Jira] e le loro controparti in [!DNL Workfront] aggiorna anche. Non è necessario disporre di [!DNL Workfront] licenza per [!DNL Workfront] elementi collegati al tuo [!DNL Jira] problemi per ricevere gli aggiornamenti che stai effettuando in [!DNL Jira].
+Se si lavora principalmente in [!DNL Jira], è possibile aggiornare gli elementi di lavoro in [!DNL Jira] e anche le relative controparti in [!DNL Workfront]. Non è necessario disporre di una licenza [!DNL Workfront] per [!DNL Workfront] elementi collegati ai problemi [!DNL Jira] per ricevere gli aggiornamenti che si stanno effettuando in [!DNL Jira].
 
-A condizione che [!DNL Workfront] l’amministratore ha configurato [!DNL Workfront] per [!DNL Jira] per sincronizzare i campi tra gli elementi collegati, alcuni campi che vengono aggiornati in [!DNL Jira] aggiorna anche per il [!DNL Workfront] elemento.
+A condizione che l&#39;amministratore di [!DNL Workfront] abbia configurato [!DNL Workfront] per [!DNL Jira] per sincronizzare i campi tra gli elementi collegati, alcuni campi che si aggiornano in [!DNL Jira] vengono aggiornati anche per l&#39;elemento [!DNL Workfront] collegato.
 
-L&#39;elenco seguente mostra quali [!DNL Jira] campi sincronizzati con [!DNL Workfront] campi sugli elementi collegati:
+L&#39;elenco seguente mostra quali campi [!DNL Jira] si sincronizzano con i campi [!DNL Workfront] degli elementi collegati:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Aggiornato [!DNL Jira] Campo</strong> </th> 
-   <th><strong>Sincronizzato [!DNL Workfront] Campo/Aggiornamento</strong> </th> 
+   <th><strong>Campo [!DNL Jira] Aggiornato</strong> </th> 
+   <th><strong>Campo [!DNL Workfront] Sincronizzato/ Aggiornamento</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td>[!UICONTROL Stato problema]</td> 
-   <td> <p> [!UICONTROL Stato problema o attività]</p> <p>Stato del problema in [!DNL Jira] sincronizza con i seguenti stati, o stati che corrispondono ai seguenti stati, in Workfront:</p> 
+   <td> <p> [!UICONTROL Stato problema o attività]</p> <p>Lo stato del problema in [!DNL Jira] viene sincronizzato con i seguenti stati, o stati equivalenti ai seguenti, in Workfront:</p> 
     <ul> 
      <li> <p>[!UICONTROL Nuovo] ([!UICONTROL NUOVO])</p> </li> 
      <li> <p>[!UICONTROL In Corso] ([!UICONTROL INP])</p> </li> 
      <li> <p>[!UICONTROL chiuso]/[!UICONTROL completo] ([!UICONTROL CLS]/[!UICONTROL CPL])</p> </li> 
-    </ul> <p>Nota: il [!DNL Jira] stato sincronizzato con il primo [!DNL Workfront] stato che corrisponde allo stato appropriato.</p> <p>Per ulteriori informazioni sugli stati degli elementi in [!DNL Workfront], vedi <a href="../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Creare o modificare uno stato</a>.</p> </td> 
+    </ul> <p>Nota: lo stato [!DNL Jira] viene sincronizzato con il primo stato [!DNL Workfront] che corrisponde allo stato appropriato.</p> <p>Per ulteriori informazioni sugli stati degli elementi in [!DNL Workfront], vedere <a href="../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Creare o modificare uno stato</a>.</p> </td> 
   </tr>
   <tr> 
    <td>[!UICONTROL Issue Attachments]</td> 
-   <td> [!UICONTROL Documenti problema o attività]<br>Un commento sul caricamento di un nuovo documento in [!DNL Jira] viene aggiunto alla scheda [!UICONTROL Aggiornamenti] del [!DNL Workfront] problema o attività.  </td> 
+   <td> [!UICONTROL Issue or Task Documents]<br>Un commento sul caricamento di un nuovo documento in [!DNL Jira] è stato aggiunto alla scheda [!UICONTROL Updates] del problema o dell'attività [!DNL Workfront].  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scadenza]</td> 
-   <td> <p> Un commento sulla modifica di [!UICONTROL Scadenza] in [!DNL Jira] viene aggiunto alla scheda [!UICONTROL Aggiornamenti] del [!DNL Workfront] problema o attività. </p> <p>Nota: non cambia nessuna data nella [!DNL Workfront] problema o attività. </p> </td> 
+   <td> <p> Un commento sulla modifica di [!UICONTROL Scadenza] in [!DNL Jira] è stato aggiunto alla scheda [!UICONTROL Aggiornamenti] del problema o dell'attività [!DNL Workfront]. </p> <p>Nota: nessuna modifica di date sul problema o sull'attività [!DNL Workfront]. </p> </td> 
   </tr> 
   <tr> 
-   <td> Tempo di connessione in [!DNL Workfront] nel pannello a destra o dal menu Altro di [!DNL Jira] problema<br></td> 
-   <td> <p>Ore<br>Oltre ad aggiungere le ore registrate in Jira al [!DNL Workfront] elemento, un commento sull'ora di registrazione viene aggiunto alla scheda [!UICONTROL Aggiornamenti] del [!DNL Workfront] elemento.</p> <p>Per ulteriori informazioni sull'ora di accesso al collegamento [!DNL Jira] problemi, incluso l'aggiornamento di [!DNL Jira] utente che sta registrando l’ora in [!DNL Workfront], vedi <a href="#log-time-for-linked-jira-and-workfront-items" class="MCXref xref">Tempo di connessione per Collegato [!DNL Jira] e [!DNL Workfront] elementi</a>.</p> </td> 
+   <td> Registra tempo nel pannello a destra di [!DNL Workfront] o dal menu [!UICONTROL Altro] nel problema [!DNL Jira]<br></td> 
+   <td> <p>Ore<br>Oltre ad aggiungere le ore registrate in Jira all'elemento [!DNL Workfront] collegato, nella scheda [!UICONTROL Aggiornamenti] dell'elemento [!DNL Workfront] viene aggiunto un commento sull'ora di registrazione.</p> <p>Per ulteriori informazioni sull'ora di registrazione per [!DNL Jira] problemi collegati, incluso l'aggiornamento dell'utente [!DNL Jira] che registra l'ora in [!DNL Workfront], vedere <a href="#log-time-for-linked-jira-and-workfront-items" class="MCXref xref">Ora di registrazione per [!DNL Jira] e [!DNL Workfront] elementi collegati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Commenti <br><br></td> 
-   <td> <p>I commenti vengono aggiunti alla scheda [!UICONTROL Aggiornamenti] del [!DNL Workfront] problema o attività se <strong>[!UICONTROL Commenti]</strong> impostazione nella sezione [!UICONTROL SYNCHRONIZE FROM JIRA TO WORKFRONT] della scheda [!UICONTROL Setup] su <strong>[!UICONTROL Always]</strong>.</p> <p>Per informazioni sulla configurazione delle impostazioni di Workfront in [!DNL Jira], vedi <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md">Configurazione [!DNL Workfront for Jira]</a>.</p> <p>Per informazioni sui commenti agli elementi da collegati [!DNL Jira] problemi, vedi <a href="#comment-from-a-linked-jira-issue" class="MCXref xref">Commento da un collegato [!DNL Jira] problema</a>.</p> </td> 
+   <td> <p>I commenti vengono aggiunti alla scheda [!UICONTROL Aggiornamenti] del problema o dell'attività [!DNL Workfront] se l'impostazione <strong>[!UICONTROL Commenti]</strong> nella sezione [!UICONTROL SINCRONIZZA DA JIRA A WORKFRONT] della scheda [!UICONTROL Setup] è impostata su <strong>[!UICONTROL Always]</strong>.</p> <p>Per informazioni sulla configurazione delle impostazioni di Workfront in [!DNL Jira], vedere <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md">Configurazione di [!DNL Workfront for Jira]</a>.</p> <p>Per informazioni sul commento di elementi da [!DNL Jira] problemi collegati, vedere <a href="#comment-from-a-linked-jira-issue" class="MCXref xref">Commento da un [!DNL Jira] problema collegato</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Tempo di connessione da collegato [!DNL Jira] problemi
+## Registra tempo da [!DNL Jira] problemi collegati
 
-L’ora di registrazione per un [!DNL Jira] elemento in [!DNL Jira] trasferirà anche al collegato [!DNL Workfront] elemento, indipendentemente dalla posizione in [!DNL Jira] registra l’ora.\
-Quando accedi a Jira in [!DNL Workfront] l&#39;ora viene registrata solo in [!DNL Workfront].\
-Ora di registrazione in [!DNL Workfront] non influisce sul momento del problema collegato in [!DNL Jira].
+L&#39;ora registrata per un elemento [!DNL Jira] in [!DNL Jira] verrà trasferita anche all&#39;elemento [!DNL Workfront] collegato, indipendentemente da dove in [!DNL Jira] si registra l&#39;ora.\
+Quando si effettua l&#39;accesso in Jira nel pannello [!DNL Workfront], l&#39;ora viene registrata solo in [!DNL Workfront].\
+Il tempo di registrazione in [!DNL Workfront] non influisce sul tempo del problema collegato in [!DNL Jira].
 
 >[!NOTE]
 >
->Se l’ora viene aggiunta a un [!DNL Jira] elemento collegato a un [!DNL Workfront] attività, il [!UICONTROL Tipo di Ora] per il tempo in [!DNL Workfront] è [!UICONTROL Ora attività]. Se l’ora viene aggiunta a un [!DNL Jira] elemento collegato a un [!DNL Workfront] problema, il [!UICONTROL Tipo di Ora] per il tempo in [!DNL Workfront] è [!UICONTROL Ora problema].
+>Se l&#39;ora viene aggiunta a un elemento [!DNL Jira] collegato a un&#39;attività [!DNL Workfront], il tipo di [!UICONTROL ora] per l&#39;ora in [!DNL Workfront] è [!UICONTROL ora attività]. Se l&#39;ora viene aggiunta a un elemento [!DNL Jira] collegato a un problema [!DNL Workfront], il tipo [!UICONTROL Hour] per l&#39;ora in [!DNL Workfront] è [!UICONTROL Issue Time].
 
-Un commento viene aggiunto al **[!DNL Workfront]** scheda in [!DNL Jira] e al **[!UICONTROL Aggiornamenti]** scheda dell’elemento in [!DNL Workfront] per registrare l&#39;ora.\
-L&#39;ora viene visualizzata anche nel **[!UICONTROL Ore]** scheda di [!DNL Workfront] elemento.
+È stato aggiunto un commento alla scheda **[!DNL Workfront]** in [!DNL Jira] e alla scheda **[!UICONTROL Aggiornamenti]** dell&#39;elemento in [!DNL Workfront] per registrare l&#39;ora.\
+L&#39;ora viene visualizzata anche nella scheda **[!UICONTROL Ore]** dell&#39;elemento [!DNL Workfront].
 
-* [Tempo di connessione per Collegato [!DNL Jira] e [!DNL Workfront] elementi](#log-time-for-linked-jira-and-workfront-items)
+* [Tempo di connessione per elementi collegati [!DNL Jira] e [!DNL Workfront] elementi](#log-time-for-linked-jira-and-workfront-items)
 * [Tempo di connessione da [!DNL Jira] a un [!DNL Workfront] elemento](#log-time-from-jira-to-a-workfront-item)
 
-### Tempo di connessione per Collegato [!DNL Jira] e [!DNL Workfront] elementi
+### Tempo di connessione per [!DNL Jira] e [!DNL Workfront] elementi collegati
 
-È possibile registrare l’ora da un [!DNL Jira] problema collegato a un [!DNL Workfront] e l&#39;ora viene registrata sia sul [!DNL Jira] problema e il [!DNL Workfront] elemento.
+È possibile registrare l&#39;ora da un problema [!DNL Jira] collegato a un elemento [!DNL Workfront] e l&#39;ora viene registrata sia sul problema [!DNL Jira] che sull&#39;elemento [!DNL Workfront].
 
 >[!IMPORTANT]
 >
->Se l’utente effettua l’accesso [!DNL Jira] non esiste in [!DNL Workfront], l’integrazione crea un nuovo utente attivo in Workfront se **[!UICONTROL Crea automaticamente un utente in [!DNL Workfront]&#x200B;se [!DNL Jira] l’utente non dispone di un *[!DNL Workfront]&#x200B;account]** è impostato su**[!UICONTROL  Sempre ]**. Questo utente non occupa un [!DNL Workfront] licenza. È possibile assegnare utenti attivi agli elementi di lavoro in [!DNL Workfront], ma non è possibile includerli negli aggiornamenti. Per informazioni sulla configurazione della creazione automatica di [!DNL Workfront] utenti da [!DNL Jira], vedi [Configurazione [!DNL Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
+>Se l&#39;utente che registra l&#39;ora in [!DNL Jira] non esiste in [!DNL Workfront], l&#39;integrazione crea un nuovo utente attivo in Workfront se **[!UICONTROL Crea automaticamente un utente in [!DNL Workfront]&#x200B;se l&#39;utente [!DNL Jira] non ha un *[!DNL Workfront]&#x200B;account]** è impostato su**[!UICONTROL  Sempre ]**. Questo utente non occupa una licenza [!DNL Workfront]. È possibile assegnare utenti attivi agli elementi di lavoro in [!DNL Workfront], ma non è possibile includerli negli aggiornamenti. Per informazioni sulla configurazione della creazione automatica di [!DNL Workfront] utenti da [!DNL Jira], vedere [Configurazione [!DNL Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
-Per registrare l&#39;ora di un elemento in [!DNL Jira] e registrarli entrambi [!DNL Jira] e [!DNL Workfront]:
-
-1. Accedi a [!DNL Jira].
-1. Vai a [!DNL Jira] problema collegato al [!DNL Workfront] elemento.
-1. Espandi **[!UICONTROL Altro]** e fai clic su **[!UICONTROL Registra lavoro]**.
-
-1. In **[!UICONTROL Tempo trascorso]** , specificare la quantità di tempo impiegata per questo problema. È necessario specificare l&#39;ora utilizzando i seguenti periodi di tempo:
-
-   * [!UICONTROL Weeks] (l)
-   * [!UICONTROL Giorni] d)
-   * [!UICONTROL Ore] h)
-
-1. Continua ad aggiungere informazioni all’immissione dell’ora, tra cui **[!UICONTROL Descrizione lavoro]**, quindi fai clic su **[!UICONTROL Log]**.\
-   L’ora viene aggiunta al **[!UICONTROL Registro di lavoro]** scheda di [!DNL Jira] e al [!DNL Workfront] elemento ad esso collegato.\
-   La descrizione dell&#39;ora viene registrata come nota nella voce dell&#39;ora in [!DNL Workfront].
-
-### Tempo di connessione da [!DNL Jira] a un [!DNL Workfront] elemento
-
-Puoi registrare l’ora solo sul collegamento [!DNL Workfront] elemento da [!DNL Jira] problema senza registrare questa volta su [!DNL Jira] problema.
+Per registrare l&#39;ora di un elemento in [!DNL Jira] e registrarlo sia in [!DNL Jira] che in [!DNL Workfront]:
 
 1. Accedi a [!DNL Jira].
-1. Passa a [!DNL Jira] problema collegato a un [!DNL Workfront] elemento.
+1. Passare al problema [!DNL Jira] collegato all&#39;elemento [!DNL Workfront].
+1. Espandere il menu **[!UICONTROL Altro]** e fare clic su **[!UICONTROL Registra lavoro]**.
 
-   I dettagli della [!DNL Workfront] l&#39;elemento deve essere visualizzato nel [!DNL Workfront] pannello a destra del problema.
+1. Nel campo **[!UICONTROL Tempo trascorso]**, specifica la quantità di tempo impiegato per risolvere il problema. È necessario specificare l&#39;ora utilizzando i seguenti periodi di tempo:
 
-1. Fai clic su **[!UICONTROL Tempo di connessione]** icona.
+   * [!UICONTROL Settimane] (l)
+   * [!UICONTROL Giorni] (d)
+   * [!UICONTROL Ore] (h)
 
-1. Specifica la quantità di **[!UICONTROL Ore]** e **[!UICONTROL Minutes]** desideri segnalare il problema.
+1. Continua ad aggiungere informazioni alla tua voce orario, inclusa una **[!UICONTROL Descrizione lavoro]**, quindi fai clic su **[!UICONTROL Registro]**.\
+   L&#39;ora viene aggiunta alla scheda **[!UICONTROL Registro di lavoro]** dell&#39;elemento [!DNL Jira] e all&#39;elemento [!DNL Workfront] a esso collegato.\
+   La descrizione di lavoro della voce dell&#39;ora viene registrata come nota nella voce dell&#39;ora in [!DNL Workfront].
 
-1. Clic **[!UICONTROL Tempo di connessione]**.
+### Registra tempo da [!DNL Jira] a un elemento [!DNL Workfront]
 
-   L’ora viene aggiunta al [!DNL Workfront] elemento.
-
-   Questa volta non viene aggiunta al [!UICONTROL Registro di lavoro] scheda di [!DNL Jira] problema.
-
-## Commento da un collegato [!DNL Jira] problema {#comment-from-a-linked-jira-issue}
-
-Quando si commenta un [!DNL Jira] elemento da [!DNL Workfront] pannello destro in [!DNL Jira], il commento viene aggiunto anche al [!UICONTROL Aggiornamenti] dell’elemento collegato in Workfront.
-
-Per commentare da [!DNL Jira] a un [!DNL Workfront] elemento:
+È possibile registrare l&#39;ora solo per l&#39;elemento [!DNL Workfront] collegato dal problema [!DNL Jira] senza registrare l&#39;ora per il problema [!DNL Jira].
 
 1. Accedi a [!DNL Jira].
-1. Passa a [!DNL Jira] problema collegato a un [!DNL Workfront] elemento.
+1. Passare a un problema [!DNL Jira] collegato a un elemento [!DNL Workfront].
 
-   I dettagli della [!DNL Workfront] l&#39;elemento deve essere visualizzato nel [!DNL Workfront] pannello a destra del problema.
+   I dettagli dell&#39;elemento [!DNL Workfront] devono essere visualizzati nel pannello destro [!DNL Workfront] del problema.
 
-1. Fai clic su **[!UICONTROL Commenti]** icona in [!DNL Workfront] o sul pannello **[!UICONTROL Commenti]** scheda.
+1. Fai clic sull&#39;icona **[!UICONTROL Tempo di registrazione]**.
+
+1. Specifica la quantità di **[!UICONTROL ore]** e **[!UICONTROL minuti]** da registrare per il problema.
+
+1. Fare clic su **[!UICONTROL Tempo di registrazione]**.
+
+   Ora aggiunta all&#39;elemento [!DNL Workfront].
+
+   Questa volta non viene aggiunta alla scheda [!UICONTROL Registro di lavoro] del problema [!DNL Jira].
+
+## Commento da un problema [!DNL Jira] collegato {#comment-from-a-linked-jira-issue}
+
+Quando si commenta un elemento [!DNL Jira] dal pannello destro [!DNL Workfront] in [!DNL Jira], il commento viene aggiunto anche alla scheda [!UICONTROL Aggiornamenti] dell&#39;elemento collegato in Workfront.
+
+Per aggiungere un commento da [!DNL Jira] a un elemento [!DNL Workfront]:
+
+1. Accedi a [!DNL Jira].
+1. Passare a un problema [!DNL Jira] collegato a un elemento [!DNL Workfront].
+
+   I dettagli dell&#39;elemento [!DNL Workfront] devono essere visualizzati nel pannello destro [!DNL Workfront] del problema.
+
+1. Fare clic sull&#39;icona **[!UICONTROL Commenti]** nel pannello [!DNL Workfront] o nella scheda **[!UICONTROL Commenti]**.
 
 1. Inizia a digitare un commento, quindi fai clic su **[!UICONTROL Invia]**.
 
    Il commento è aggiunto al seguente:
 
-   * Il **[!DNL Workfront]** scheda di [!DNL Jira] problema.
-   * Il **[!UICONTROL Commenti]** scheda di [!DNL Jira] problema.
-   * Il **[!UICONTROL Aggiornamenti]** dell’elemento collegato in Workfront.
+   * Scheda **[!DNL Workfront]** del problema [!DNL Jira].
+   * Scheda **[!UICONTROL Commenti]** del problema [!DNL Jira].
+   * Scheda **[!UICONTROL Aggiornamenti]** dell&#39;elemento collegato in Workfront.

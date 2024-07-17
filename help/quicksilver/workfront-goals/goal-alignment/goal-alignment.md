@@ -28,7 +28,7 @@ ht-degree: 0%
 >     Oppure
 >        
 >   * Una licenza aggiuntiva per Adobe Workfront Goals per i piani Prime o Select Adobe Workfront.
->       Per ulteriori informazioni, consulta [Prezzo e packaging di Adobe Workfront](https://www.workfront.com/plans).
+>       Per ulteriori informazioni, consulta [Determinazione prezzi e packaging di Adobe Workfront](https://www.workfront.com/plans).
 >      
 >* Per il piano corrente e la struttura delle licenze:
 >    
@@ -37,12 +37,12 @@ ht-degree: 0%
 >    
 >Contatta il tuo account manager Workfront per saperne di più su una licenza Workfront Goals.
 > 
->Per ulteriori informazioni sull’accesso agli obiettivi di Workfront, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Per ulteriori informazioni sull&#39;accesso agli obiettivi di Workfront, vedere [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Consulta i seguenti articoli per capire come allineare gli obiettivi in Obiettivi di Workfront:
 
-* [Panoramica sull’allineamento degli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
-* [Allineare gli obiettivi collegandoli in Obiettivi di Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
-* [Allineare gli obiettivi convertendo risultati e attività in obiettivi](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
-* [Rimuovere l’allineamento dell’obiettivo in Obiettivi di Adobe Workfront](../../workfront-goals/goal-alignment/remove-goal-alignment.md)
+* [Panoramica sull&#39;allineamento degli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
+* [Allinea gli obiettivi collegandoli in Obiettivi Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
+* [Allinea obiettivi convertendo risultati e attività in obiettivi](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
+* [Rimuovi allineamento obiettivo in Obiettivi Adobe Workfront](../../workfront-goals/goal-alignment/remove-goal-alignment.md)
 * [Passare alla sezione Allineamento obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md)

@@ -57,12 +57,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
         Example: View access or higher on Documents 
       </MadCap:conditionalText>
-     --></p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+     --></p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Prerequisiti
 
@@ -72,7 +72,7 @@ Prima di iniziare, è necessario
 <p style="text-align: center;background-color: #c0c0c0;color: #000000;" data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Delete this box before publishing</strong> <br>Use a bullet list to describe the prerequisites needed to complete the task or tasks below. If there are no prerequisites, delete the entire section. </p>
 -->
 
-* [Elencare i prerequisiti]
+* [Elenca prerequisiti]
 
 ## [Titolo attività]
 

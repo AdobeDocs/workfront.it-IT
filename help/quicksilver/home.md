@@ -1,6 +1,6 @@
 ---
-title: '''[!DNL Adobe Workfront] documentazione"'
-description: Documentazione per [!DNL Adobe Workfront].
+title: '[!DNL Adobe Workfront] documentazione'
+description: Documentazione per  [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
 source-git-commit: 31c87d326cb34a153ba17e7b9769d79d0141c113
@@ -18,7 +18,7 @@ Ti diamo il benvenuto nella pagina principale del prodotto Adobe Workfront e del
 
 >[!BEGINTABS]
 
->[!TAB Ultima versione]
+>[!TAB Versione più recente]
 
 * [Panoramica sulla versione del terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
 * [Attività di rilascio di Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
@@ -87,16 +87,16 @@ La ricerca della documentazione può essere più efficiente con alcuni approcci 
 
 ### Utilizzare il sommario e la barra di ricerca
 
-* **Sommario**: inizia con il sommario per ottenere una panoramica degli argomenti disponibili e restringi le sezioni in espansione ad argomenti specifici.
-* **Barra di ricerca**: utilizza la barra di ricerca per trovare la documentazione. Immetti termini specifici relativi al problema o all’argomento. Invece di termini generali come &quot;gestione del progetto&quot;, utilizza &quot;configurazione della timeline del progetto&quot; o &quot;dipendenze delle attività&quot;.
+* **Sommario**: iniziare con il sommario per ottenere una panoramica degli argomenti disponibili e limitare le sezioni espanse ad argomenti specifici.
+* **Barra di ricerca**: utilizzare la barra di ricerca per trovare la documentazione. Immetti termini specifici relativi al problema o all’argomento. Invece di termini generali come &quot;gestione del progetto&quot;, utilizza &quot;configurazione della timeline del progetto&quot; o &quot;dipendenze delle attività&quot;.
 
 ![](assets/exl-site-nav.png)
 
 ### Esplora le sezioni di apprendimento e formazione
 
-* **Materiale per la formazione**: Accedi a [Formazione su Workfront](https://experienceleague.adobe.com/en/browse/workfront) pagina per una libreria di video e articoli di formazione progettati per aiutarti a comprendere meglio le funzioni e le impostazioni di Workfront. Puoi anche accedere ai materiali di formazione a pagamento all’indirizzo [learning.adobe.com](https://learning.adobe.com/).
-* **Corsi**: Trova [corsi di apprendimento strutturati](https://experienceleague.adobe.com/home?Solution=Workfront#courses) che ti guida attraverso l’utilizzo di varie funzioni di Workfront in una sequenza logica.
+* **Materiale per la formazione**: vai alla pagina [Formazione Workfront](https://experienceleague.adobe.com/en/browse/workfront) per una libreria di video e articoli di formazione progettati per aiutarti a comprendere meglio le funzioni e le impostazioni di Workfront. Puoi anche accedere ai materiali a pagamento per la formazione all&#39;indirizzo [learning.adobe.com](https://learning.adobe.com/).
+* **Corsi**: trova [corsi di apprendimento strutturati](https://experienceleague.adobe.com/home?Solution=Workfront#courses) che ti guidano attraverso l&#39;utilizzo di varie funzioni di Workfront in una sequenza logica.
 
 ### Trova risposte nei forum della community
 
-* **Poni domande**: se la documentazione non risponde alla domanda, prova a pubblicare in [Forum della community Workfront](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en) dove altri utenti ed esperti possono offrire assistenza.
+* **Poni domande**: se la documentazione non risponde alla domanda, prova a pubblicare nei [forum della community Workfront](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en) dove altri utenti ed esperti possono offrire assistenza.

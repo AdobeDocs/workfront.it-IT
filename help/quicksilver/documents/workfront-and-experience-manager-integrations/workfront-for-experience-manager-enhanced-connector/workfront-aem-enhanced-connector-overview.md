@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Adobe Workfront è un’applicazione per la gestione dell’intero ciclo di vita del lavoro, tutto in un’unica posizione. L’integrazione tra Workfront e Experience Manager Assets consente alle organizzazioni di velocizzare le attività relative ai contenuti e il time-to-market, grazie a un collegamento intrinseco tra il lavoro e la gestione delle risorse digitali. Nel contesto della gestione del proprio lavoro in Workfront, gli utenti possono accedere ai documenti e alle immagini richiesti.
 
-Il connettore avanzato Workfront ad Experience Manager consente processi aziendali avanzati con flussi di lavoro end-to-end e fornisce esperienze client end-to-end personalizzate e storage centrale. Per ulteriori informazioni sulle funzionalità del connettore avanzato, vedi [Novità del connettore avanzato](#what-s-new-in-the-enhanced-connector) in questo articolo.
+Il connettore avanzato Workfront ad Experience Manager consente processi aziendali avanzati con flussi di lavoro end-to-end e fornisce esperienze client end-to-end personalizzate e storage centrale. Per ulteriori informazioni sulle funzionalità del connettore avanzato, vedere [Novità del connettore avanzato](#what-s-new-in-the-enhanced-connector) in questo articolo.
 
 >[!IMPORTANT]
 >
@@ -36,7 +36,7 @@ Il connettore ottimizzato di Workfront ad Experience Manager ora consente di:
 * Sincronizza i metadati del progetto Workfront con le cartelle di Experienci Manager collegate.
 * Utilizza gli aggiornamenti dei metadati di Experience Manager con le nuove versioni.
 * Imposta gli stati degli oggetti di Workfront in base a condizioni configurabili utilizzando flussi di lavoro di Experience Manager.
-* Pubblicare risorse in un ambiente di pubblicazione Experience Manager o in Brand Portal.
+* Risorse Publish per l’ambiente di pubblicazione Experience Manager o Brand Portal.
 
 ## Prerequisiti e piattaforme supportate
 
@@ -49,8 +49,8 @@ Il connettore ottimizzato di Workfront ad Experience Manager ora consente di:
 
 ## Introduzione
 
-1. **Installare e configurare il connettore**. Utilizzando un partner o un Adobe Professional Services certificato, installa e configura il connettore avanzato Workfront for Experience Manager per organizzare, standardizzare i processi, stabilire la governance e semplificare il ciclo di vita delle risorse, dalla creazione alla distribuzione. [Installare in Adobe Experience Manager 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/assets/integrations/workfront-integrations.html) o [installare in Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/integrations/workfront-connector-install.html).
-1. **Utilizzare il connettore**. Scopri le funzionalità del connettore avanzato in azione con la generazione automatica di cartelle collegate a un progetto in Experience Manager Assets, metadati Workfront mappati su Experience Manager Assets e cartelle, sincronizzazione bidirezionale dei metadati e molto altro. Per ulteriori informazioni, consulta [Connettore avanzato Workfront per Experience Manager](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md).
+1. **Installare e configurare il connettore**. Utilizzando un partner o un Adobe Professional Services certificato, installa e configura il connettore avanzato Workfront for Experience Manager per organizzare, standardizzare i processi, stabilire la governance e semplificare il ciclo di vita delle risorse, dalla creazione alla distribuzione. [Installa in Adobe Experience Manager 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/assets/integrations/workfront-integrations.html) o [installa in Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/integrations/workfront-connector-install.html).
+1. **Utilizzare il connettore**. Scopri le funzionalità del connettore avanzato in azione con la generazione automatica di cartelle collegate a un progetto in Experience Manager Assets, metadati Workfront mappati su Experience Manager Assets e cartelle, sincronizzazione bidirezionale dei metadati e molto altro. Per ulteriori informazioni, vedere [Workfront per Experience Manager connettore avanzato](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md).
 
 ## Altri argomenti correlati
 

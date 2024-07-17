@@ -27,7 +27,7 @@ Anche se gli ambienti di test devono funzionare il più vicino possibile all’a
 
 Puoi pianificare i rapporti negli ambienti di test, ma il modo in cui vengono consegnati è diverso da quello in cui vengono consegnati dall’ambiente di produzione.
 
-Per informazioni sulla pianificazione dei rapporti per la consegna nell’ambiente di produzione, consulta [Panoramica sulla consegna dei rapporti](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+Per informazioni sulla pianificazione dei report per la consegna nell&#39;ambiente di produzione, vedere [Panoramica sulla consegna dei report](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 A seconda della posizione in cui pianifichi i rapporti, la funzionalità di consegna varia tra le sandbox Anteprima e Aggiornamento personalizzato.
 
@@ -53,12 +53,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Pianificare i rapporti nell’ambiente di anteprima
 
@@ -66,28 +66,28 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ### Pianificare i rapporti nell’ambiente di anteprima
 
-La produzione o meno di un rapporto consegnato nell’ambiente di anteprima dipende dal fatto se **Ricevi e-mail da questo ambiente di test** è abilitato o meno.
+Il fatto che un report consegnato venga prodotto o meno nell&#39;ambiente di anteprima dipende dal fatto che **Ricevi e-mail da questo ambiente di test** sia abilitato o meno.
 
-Per informazioni sull’abilitazione delle e-mail dall’ambiente Sandbox, consulta [Abilitare la consegna di e-mail dall’ambiente Sandbox di anteprima](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
+Per informazioni sull&#39;abilitazione delle e-mail dall&#39;ambiente Sandbox, vedere [Abilitare la consegna di e-mail dall&#39;ambiente Sandbox di anteprima](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
 
 ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
-La pianificazione dei rapporti da consegnare nell’ambiente di anteprima è identica alla pianificazione dei rapporti nell’ambiente di produzione. Per informazioni sulla pianificazione di un rapporto per la consegna, consulta [Panoramica sulla consegna dei rapporti](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+La pianificazione dei rapporti da consegnare nell’ambiente di anteprima è identica alla pianificazione dei rapporti nell’ambiente di produzione. Per informazioni sulla pianificazione di un report per la consegna, vedere [Panoramica sulla consegna del report](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 Quando pianifichi un rapporto da consegnare nell’ambiente di anteprima, si verificano i seguenti scenari:
 
-* Quando **Ricevi e-mail da questo ambiente di test** è disabilitato per l’utente che riceve il rapporto, non viene prodotto alcun file durante la pianificazione del rapporto per la consegna.
-* Quando **Ricevi e-mail da questo ambiente di test** è abilitato per l’utente che riceve il rapporto, il file prodotto durante la pianificazione del rapporto per la consegna viene aggiunto nella scheda Documenti dell’utente.
+* Quando **Ricevi e-mail da questo ambiente di test** è disabilitato per l&#39;utente che riceve il report, non viene prodotto alcun file durante la pianificazione del report per la consegna.
+* Quando **Ricevi e-mail da questo ambiente di test** è abilitato per l&#39;utente che riceve il report, il file prodotto durante la pianificazione del report per la consegna viene aggiunto alla scheda Documenti dell&#39;utente.
 
 ## Pianificazione dei rapporti nell’ambiente Sandbox di aggiornamento personalizzato
 
 Il fatto che un rapporto consegnato venga prodotto o meno nella Sandbox di aggiornamento personalizzata dipende dal fatto che l’opzione Ricevi e-mail da questo ambiente di test sia abilitata o meno.
 
-Per informazioni sull’abilitazione delle e-mail dall’ambiente di anteprima, consulta la sezione [Visualizzare e modificare le impostazioni delle notifiche e-mail](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view) nell’articolo [Modifica le tue notifiche e-mail](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Per informazioni sull&#39;attivazione delle e-mail dall&#39;ambiente di anteprima, vedere la sezione [Visualizzare e modificare le impostazioni delle notifiche e-mail](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view) nell&#39;articolo [Modificare le proprie notifiche e-mail](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
-La pianificazione dei rapporti da consegnare nell’ambiente Sandbox di aggiornamento personalizzato è identica alla pianificazione dei rapporti nell’ambiente di produzione. Per informazioni sulla pianificazione di un rapporto per la consegna, consulta [Panoramica sulla consegna dei rapporti](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+La pianificazione dei rapporti da consegnare nell’ambiente Sandbox di aggiornamento personalizzato è identica alla pianificazione dei rapporti nell’ambiente di produzione. Per informazioni sulla pianificazione di un report per la consegna, vedere [Panoramica sulla consegna del report](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 Quando pianifichi un rapporto per la consegna nell’ambiente Sandbox di aggiornamento personalizzato, esistono i seguenti scenari:
 

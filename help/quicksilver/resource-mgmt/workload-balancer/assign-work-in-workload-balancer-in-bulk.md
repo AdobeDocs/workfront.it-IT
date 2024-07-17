@@ -2,26 +2,28 @@
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Assegnare il lavoro in blocco utilizzando il Bilanciatore dei carichi di lavoro
-description: È possibile assegnare manualmente gli elementi di lavoro agli utenti utilizzando il Bilanciatore dei carichi di lavoro di Adobe Workfront.
+description: Puoi assegnare risorse a più attività e problemi in blocco utilizzando il Bilanciatore dei carichi di lavoro di Adobe Workfront.
 author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: f2b6f0fb8a24723fec60c6fc1a99e1b8f9cf39c7
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 1%
+source-wordcount: '1501'
+ht-degree: 2%
 
 ---
 
 # Assegnare il lavoro in blocco utilizzando il Bilanciatore dei carichi di lavoro
 
+<!--Audited: 07/2024-->
+
 <!--drafted
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 -->
 
-È possibile assegnare manualmente gli elementi di lavoro agli utenti utilizzando il Bilanciatore dei carichi di lavoro di Adobe Workfront.
+Puoi assegnare risorse a più attività e problemi in blocco utilizzando il Bilanciatore dei carichi di lavoro di Adobe Workfront.
 
-Per informazioni generali sull’assegnazione di lavoro agli utenti tramite il Bilanciatore dei carichi di lavoro, consulta [Panoramica sull’assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Per informazioni generali sull&#39;assegnazione del lavoro agli utenti che utilizzano il Bilanciatore dei carichi di lavoro, vedere [Panoramica sull&#39;assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Requisiti di accesso
 
@@ -32,36 +34,40 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Pianificare, quando si utilizza il Bilanciatore dei carichi di lavoro nell'area Risorse</p>
-   <p>Utilizzare il Bilanciatore dei carichi di lavoro di un team o di un progetto</p>
+   <td> 
+   <p>Nuovo: Standard</p>
+   <p>Corrente:</p>
+   <ul>
+   <li><p>Pianificare, quando si utilizza il Bilanciatore dei carichi di lavoro nell'area Risorse</p></li>
+   <li><p>Utilizzare il Bilanciatore dei carichi di lavoro di un team o di un progetto</p></li></ul>
 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Livello di accesso*</td> 
+   <td role="rowheader">Livello di accesso</td> 
    <td> <p>Modifica accesso a:</p> 
     <ul> 
      <li> <p>Gestione risorse</p> </li> 
      <li> <p>Progetti</p> </li> 
      <li> <p>Attività</p> </li> 
      <li> <p>Problemi</p> </li> 
-    </ul> <p><b>NOTA</b>
+    </ul>
 
-Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
-</tr> 
+</td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Autorizzazioni di Contribute o superiori per i progetti, le attività e i problemi che includono Assegnazioni</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Autorizzazioni Contribute o superiori per progetti, attività e problemi che includono l'opzione Crea assegnazioni</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Considerazioni per l&#39;esecuzione di assegnazioni in blocco nel Bilanciatore dei carichi di lavoro
 
@@ -83,16 +89,16 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 
 1. Andare al Bilanciatore dei carichi di lavoro nel punto in cui si desidera assegnare il lavoro.
 
-   È possibile assegnare il lavoro agli utenti utilizzando il Bilanciatore dei carichi di lavoro nell&#39;area Risorse, a livello di progetto o di team. Per ulteriori informazioni sulla posizione del Bilanciatore dei carichi di lavoro in Workfront, consulta [Individuare il Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+   È possibile assegnare il lavoro agli utenti utilizzando il Bilanciatore dei carichi di lavoro nell&#39;area Risorse, a livello di progetto o di team. Per ulteriori informazioni sulla posizione del Bilanciatore dei carichi di lavoro in Workfront, vedere [Individuare il Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 
-1. Clic **Assegnazioni in blocco** ![](assets/bulk-assignments-wb.png) nella parte superiore del Bilanciatore dei carichi di lavoro.
+1. Fai clic su **Assegnazioni in blocco** ![](assets/bulk-assignments-wb.png) nella parte superiore del Bilanciatore dei carichi di lavoro.
 
    Il pannello Assegnazioni in blocco si apre a destra del Bilanciatore dei carichi di lavoro.
 
-1. (Condizionale) Se accedi al Bilanciatore dei carichi di lavoro dall’area Risorse o per un team, espandi il **Progetto: Nome** e utilizzare i modificatori di filtro per selezionare il progetto o i progetti per i quali si desidera effettuare le assegnazioni. Puoi selezionare i progetti per Nome (opzione predefinita) o per Stato.
+1. (Condizionale) Se accedi al Bilanciatore dei carichi di lavoro dall&#39;area Risorse o per un team, espandi il menu a discesa **Progetto: Nome** e utilizza i modificatori di filtro per selezionare il progetto o i progetti per i quali desideri effettuare le assegnazioni. Puoi selezionare i progetti per Nome (opzione predefinita) o per Stato.
 
-Per informazioni sui modificatori di filtri di Workfront, consulta [Filtri e modificatori di condizioni](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+Per informazioni sui modificatori di filtri di Workfront, vedere [Filtri e modificatori di condizioni](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
 >[!NOTE]
 >
@@ -100,9 +106,9 @@ Per informazioni sui modificatori di filtri di Workfront, consulta [Filtri e mod
 
 ![](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
 
-1. (Facoltativo) Fai clic su **Seleziona attività progetto** per selezionare l&#39;attività o le attività per cui si desidera effettuare le assegnazioni, nella **Attività: nome** selezionare le attività per Nome (opzione predefinita) o Stato e utilizzare i modificatori di filtro per cercare attività specifiche.
+1. (Facoltativo) Fai clic su **Seleziona attività progetto** per selezionare l&#39;attività o le attività per le quali desideri effettuare le assegnazioni. Quindi, nel menu a discesa **Attività: Nome**, seleziona le attività per Nome (questa è l&#39;opzione predefinita) o Stato e utilizza i modificatori di filtro per cercare attività specifiche.
 
-Per informazioni sui modificatori di filtri di Workfront, consulta [Filtri e modificatori di condizioni](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+Per informazioni sui modificatori di filtri di Workfront, vedere [Filtri e modificatori di condizioni](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
 >[!NOTE]
 >
@@ -114,11 +120,11 @@ Per informazioni sui modificatori di filtri di Workfront, consulta [Filtri e mod
 >
 >Lasciare vuota questa selezione se si desidera effettuare assegnazioni in blocco per problemi e attività.
 
-1. (Facoltativo) Fai clic su **Elimina** icona ![](assets/delete.png) accanto a uno dei criteri selezionati
+1. (Facoltativo) Fai clic sull&#39;icona **Elimina** ![](assets/delete.png) accanto a uno dei criteri selezionati
 
    Oppure
 
-   Clic **Cancella tutto** nell&#39;angolo superiore destro del pannello Assegnazioni in blocco per rimuovere tutte le selezioni.
+   Fai clic su **Cancella tutto** nell&#39;angolo superiore destro del pannello Assegnazioni in blocco per rimuovere tutte le selezioni.
 
 1. Seleziona una delle seguenti opzioni e continua con i passaggi descritti di seguito:
 
@@ -144,18 +150,18 @@ Quando si assegna un utente utilizzando Bulk Assignments (Assegnazioni in blocco
 
 Per assegnare un utente agli elementi di lavoro precedentemente assegnati alle mansioni:
 
-1. Inizia ad assegnare gli elementi di lavoro utilizzando le assegnazioni in blocco nel Bilanciatore dei carichi di lavoro come descritto sopra e seleziona **Assegna**.
+1. Inizia ad assegnare gli elementi di lavoro utilizzando le assegnazioni in blocco nel Bilanciatore dei carichi di lavoro come descritto in precedenza e seleziona **Assegna**.
 
-1. In **Assegnazione ruolo** fare clic sulla freccia a discesa per scegliere da un elenco di ruoli. Vengono visualizzati solo i ruoli attualmente assegnati all’interno dei progetti specificati. Questo è un campo obbligatorio.
+1. Nel campo **Assegnazione ruolo**, fare clic sulla freccia dell&#39;elenco a discesa per scegliere da un elenco di ruoli. Vengono visualizzati solo i ruoli attualmente assegnati all’interno dei progetti specificati. Questo è un campo obbligatorio.
 
    ![](assets/bulk-assignments-workload-balancer-assign-selected.png)
 
-1. In **Utente da assegnare** fare clic sulla freccia a discesa per scegliere da un elenco di utenti suggeriti o per digitare il nome di un altro utente.
+1. Nel campo **Utente da assegnare**, fare clic sulla freccia dell&#39;elenco a discesa per scegliere da un elenco di utenti suggeriti o per digitare il nome di un altro utente.
 
    Seleziona gli utenti dalle seguenti aree:
 
-   * **Assegnazioni suggerite**: utenti che possono svolgere il ruolo selezionato e che soddisfano i criteri per le assegnazioni intelligenti. Per ulteriori informazioni, consulta [Panoramica delle assegnazioni intelligenti](../../manage-work/tasks/assign-tasks/smart-assignments.md).
-   * **Altre assegnazioni**: tutti gli utenti del sistema che possono svolgere il ruolo selezionato.
+   * **Assegnazioni suggerite**: utenti che possono soddisfare il ruolo selezionato e che soddisfano i criteri per le assegnazioni avanzate. Per ulteriori informazioni, vedere [Panoramica assegnazioni avanzate](../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * **Altre assegnazioni**: tutti gli utenti del sistema che possono eseguire il ruolo selezionato.
 
      >[!TIP]
      >
@@ -169,7 +175,7 @@ Per assegnare un utente agli elementi di lavoro precedentemente assegnati alle m
    >Tutti i ruoli dell’utente vengono visualizzati nell’elenco, sotto il nome dell’utente.
 
 
-1. Clic **Assegna**.
+1. Fai clic su **Assegna**.
 
    I ruoli specificati vengono sostituiti con gli utenti selezionati.
 
@@ -190,18 +196,18 @@ Quando sostituisci un utente con un altro utente utilizzando Bulk Assignments (A
 
 Per sostituire un utente con un altro:
 
-1. Inizia ad assegnare gli elementi di lavoro nel Bilanciatore dei carichi di lavoro come descritto sopra e seleziona **Sostituisci**.
-1. In **Utente attualmente assegnato** fare clic sulla freccia a discesa per scegliere da un elenco di utenti. Vengono visualizzati solo gli utenti attualmente assegnati a elementi di lavoro incompleti all’interno dei progetti specificati. Questo è un campo obbligatorio.
+1. Inizia ad assegnare gli elementi di lavoro nel Bilanciatore dei carichi di lavoro come descritto in precedenza e seleziona **Sostituisci**.
+1. Nel campo **Utente attualmente assegnato**, fare clic sulla freccia a discesa per scegliere da un elenco di utenti. Vengono visualizzati solo gli utenti attualmente assegnati a elementi di lavoro incompleti all’interno dei progetti specificati. Questo è un campo obbligatorio.
 
    ![](assets/bulk-assignments-workload-balancer-replace-selected-350x345.png)
 
-1. In **Utente da assegnare** fare clic sulla freccia a discesa per scegliere da un elenco di utenti suggeriti o per digitare un altro nome utente. Per impostazione predefinita, gli utenti elencati corrispondono ai criteri delle assegnazioni avanzate. Per ulteriori informazioni, consulta [Panoramica delle assegnazioni intelligenti](../../manage-work/tasks/assign-tasks/smart-assignments.md).
+1. Nel campo **Utente da assegnare**, fare clic sulla freccia dell&#39;elenco a discesa per scegliere da un elenco di utenti suggeriti o per digitare un altro nome utente. Per impostazione predefinita, gli utenti elencati corrispondono ai criteri delle assegnazioni avanzate. Per ulteriori informazioni, vedere [Panoramica assegnazioni avanzate](../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
    In Workfront viene visualizzata una nota relativa al numero di elementi in cui l&#39;utente attualmente assegnato sostituirà il secondo utente e ai ruoli che sostituirà.
 
    ![](assets/bulk-replace-user-confirmation-before-replacing-nwe-350x49.png)
 
-1. Clic **Sostituisci**.
+1. Fare clic su **Sostituisci**.
 
    Il primo utente selezionato viene sostituito dal secondo utente in tutti gli elementi di lavoro del progetto selezionato.
 
@@ -218,13 +224,13 @@ Quando si annulla l’assegnazione di un utente da tutte le sue assegnazioni uti
 
 * Se l&#39;utente specificato è assegnato agli elementi di lavoro completati, l&#39;utente rimane assegnato a tali elementi di lavoro.
 
-Per ulteriori informazioni sulle assegnazioni di utenti e ruoli, vedi [Panoramica sull’assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Per ulteriori informazioni sulle assegnazioni di utenti e ruoli, vedere [Panoramica sull&#39;assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 Per annullare l’assegnazione di un utente agli elementi di lavoro nei progetti selezionati o per le attività o i problemi selezionati a cui è assegnato:
 
-1. Inizia ad assegnare gli elementi di lavoro nel Bilanciatore dei carichi di lavoro come descritto sopra e seleziona **Annulla assegnazione**.
+1. Inizia ad assegnare gli elementi di lavoro nel Bilanciatore dei carichi di lavoro come descritto in precedenza e seleziona **Annulla assegnazione**.
 
-1. In **Utente per cui annullare l’assegnazione** fare clic sulla freccia a discesa per scegliere da un elenco di utenti. Vengono visualizzati solo gli utenti attualmente assegnati a elementi di lavoro incompleti all’interno dei progetti specificati. Questo è un campo obbligatorio.
+1. Nel campo **Utente per annullare l&#39;assegnazione**, fare clic sulla freccia a discesa per scegliere da un elenco di utenti. Vengono visualizzati solo gli utenti attualmente assegnati a elementi di lavoro incompleti all’interno dei progetti specificati. Questo è un campo obbligatorio.
 
    ![](assets/bulk-assignments-workload-balancer-unassign-selected-350x318.png)
 
@@ -232,7 +238,7 @@ Per annullare l’assegnazione di un utente agli elementi di lavoro nei progetti
 
    ![](assets/bulk-unassign-user-confirmation-before-assigning-nwe-350x45.png)
 
-1. Clic **Annulla assegnazione**.\
+1. Fare clic su **Annulla assegnazione**.\
    Si riceve una conferma del numero di elementi di lavoro in cui è stato rimosso l&#39;utente specificato.
 
- 
+

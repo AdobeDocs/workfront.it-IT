@@ -3,7 +3,7 @@ content-type: faq;reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: basics-workfront-proof
-title: 'Bozza di Workfront: domande frequenti'
+title: Workfront Proof - domande frequenti
 description: Consulta le domande frequenti su Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -16,18 +16,18 @@ ht-degree: 0%
 
 ---
 
-# Bozza di Workfront: domande frequenti
+# Workfront Proof - domande frequenti
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alle funzionalità del prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Bozza](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
 Questa sezione contiene i seguenti articoli:
 
 * [Domande frequenti: creare e condividere bozze e file](../../../workfront-proof/wp-getstarted/faqs/faq-create-share-proofs-files.md)
 * [Domande frequenti - Revisione delle bozze](../../../workfront-proof/wp-getstarted/faqs/faq-review-proofs.md)
-* [Domande frequenti - [!DNL Workfront Proof] account](../../../workfront-proof/wp-getstarted/faqs/faq-wp-account.md)
-* [Accesso e modifica della password e dell’e-mail per [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/faqs/log-in-change-password.md)
+* [Domande frequenti -  [!DNL Workfront Proof]  account](../../../workfront-proof/wp-getstarted/faqs/faq-wp-account.md)
+* [Accesso e modifica della password e dell&#39;e-mail per  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/faqs/log-in-change-password.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../workfront-proof/wp-getstarted/faqs/open-wp-basic-trial.md" class="MCXref xref" xrefformat="{para}">Opening a Workfront Proof basic trial account</a> </li>

@@ -69,7 +69,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 * È possibile unire due colonne adiacenti e visualizzare le informazioni di ciascuna colonna separate da un&#39;interruzione di riga oppure unire le informazioni in due colonne adiacenti senza separatori tra le informazioni di ciascuna colonna.
 * È possibile unire le informazioni di più colonne applicando la stessa sintassi descritta in questo articolo a una colonna già condivisa e a una adiacente.
-* Il `valueformat=HTML` riga obbligatoria in una colonna condivisa. In caso contrario, le colonne non contengono informazioni (saranno vuote) quando il rapporto viene esportato da Adobe Workfront.
+* La riga `valueformat=HTML` è obbligatoria in una colonna condivisa. In caso contrario, le colonne non contengono informazioni (saranno vuote) quando il rapporto viene esportato da Adobe Workfront.
 * La formattazione condizionale potrebbe non essere supportata nelle colonne unite.
 
   Esistono le seguenti eccezioni:
@@ -78,11 +78,11 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    * Quando si esporta la visualizzazione in un file PDF, la formattazione condizionale viene applicata alla prima colonna di una colonna unita.
    * Quando si esporta la visualizzazione in un file Excel, le colonne unite vengono visualizzate come colonne separate. Le singole colonne visualizzano anche le rispettive regole di formattazione condizionale.
 
-* Colonne con **viewalias** L&#39;attributo può limitare la quantità di colonne che è possibile unire. Per evitare questi limiti, evita di utilizzare **viewalias** attributo. Se è necessario includere **viewalias** in una colonna, assicurarsi che sia l&#39;ultimo elemento elencato nella colonna.
+* Le colonne con l&#39;attributo **viewalias** possono limitare la quantità di colonne che è possibile unire. Per evitare questi limiti, evitare di utilizzare l&#39;attributo **viewalias**. Se devi includere l&#39;attributo **viewalias** in una colonna, accertati che sia l&#39;ultimo elemento elencato nella colonna.
 
 * Se si esporta un elenco con colonne condivise in un formato Excel o delimitato da tabulazioni, queste colonne vengono separate nel file esportato.
 
-* Quando una o entrambe le colonne visualizzano `tile` tipo, nella colonna unita viene automaticamente introdotta un’interruzione di riga forzata. Ad esempio, i campi di testo con formattazione sono `tile` digita i campi. In questo caso, è presente un codice di riga `type=tile` quando si visualizzano le colonne in modalità testo.
+* Quando una o entrambe le colonne visualizzano un campo di tipo `tile`, nella colonna unita viene automaticamente introdotta un&#39;interruzione di riga forzata. I campi di testo con formattazione, ad esempio, sono campi di tipo `tile`. In questo caso, il codice di riga `type=tile` è presente quando si visualizzano le colonne in modalità testo.
 
 ## Unisci dati da due colonne senza interruzione di riga
 
@@ -98,9 +98,9 @@ Per unire i dati di due colonne senza interruzioni di riga:
 
    `sharecol=true`
 
-   Quando si uniscono le prime due colonne di un elenco o di un report, Workfront precede ogni riga di testo contenente informazioni sull&#39;oggetto nella prima colonna con `column.0.` e le righe di testo che contengono informazioni sulla seconda colonna con `column.1.` .
+   Quando si uniscono le prime due colonne di un elenco o di un report, Workfront precede ogni riga di testo contenente informazioni sull&#39;oggetto nella prima colonna con `column.0.` e le righe di testo contenenti informazioni sulla seconda colonna con `column.1.`.
 
-   È necessario anteporre al numero di colonna della prima colonna il numero di tale colonna. Il conteggio delle colonne inizia sempre con la colonna più a sinistra dell’elenco o del rapporto etichettata come `column.0.`.
+   È necessario anteporre al numero di colonna della prima colonna il numero di tale colonna. Il conteggio delle colonne inizia sempre con la colonna più a sinistra dell&#39;elenco o del report etichettato come `column.0.`.
 
    Se condividi più colonne, assicurati di aggiungere il numero di colonna nelle righe di codice che contengono le informazioni di condivisione per ciascuna colonna.
 
@@ -124,7 +124,7 @@ Per unire i dati di due colonne senza interruzioni di riga:
 
 ![](assets/shared-column-no-line-breaks-350x142.png)
 
-1. Clic **Salva**, quindi **Salva visualizzazione**.
+1. Fai clic su **Salva**, quindi su **Salva visualizzazione**.
 
 ## Unisci dati da due colonne con un’interruzione di riga
 
@@ -137,7 +137,7 @@ Per unire i dati di più colonne in modo da visualizzarli in una colonna comune 
    >* Le colonne che si desidera unire devono essere adiacenti.
    >* Fare clic sulla prima colonna che si desidera unire.
 
-1. Clic **Passa alla modalità testo** e aggiungi il seguente codice nella colonna centrale aggiunta al passaggio 1:
+1. Fare clic su **Passa alla modalità testo** e aggiungere il codice seguente nella colonna centrale aggiunta al passaggio 1:
 
    `value=<br>`
 
@@ -148,17 +148,17 @@ Per unire i dati di più colonne in modo da visualizzarli in una colonna comune 
    `sharecol=true`
 
 
-1. Fai clic sulla prima colonna e fai clic su **Passa alla modalità testo**, quindi aggiungi il seguente testo alla colonna:
+1. Fare clic sulla prima colonna e fare clic su **Passa alla modalità testo**, quindi aggiungere il testo seguente alla colonna:
 
    `sharecol=true`
 
-   Quando si uniscono le prime due colonne di un elenco o di un report, Workfront precede ogni riga di testo contenente informazioni sull&#39;oggetto nella prima colonna con `column.0.`, la colonna con le informazioni di condivisione `column.1.`e le righe di testo che contengono informazioni sulla seconda colonna con `column.2.`.
+   Quando si uniscono le prime due colonne di un elenco o di un report, Workfront precede ogni riga di testo contenente informazioni sull&#39;oggetto nella prima colonna con `column.0.`, la colonna con le informazioni di condivisione con `column.1.` e le righe di testo contenenti informazioni sulla seconda colonna con `column.2.`.
 
-   Se la colonna combinata si trova al centro della vista, le colonne vengono numerate in base alla loro posizione nella vista. Il conteggio delle colonne inizia sempre con la colonna più a sinistra dell’elenco o del rapporto etichettata come `column.0.`.
+   Se la colonna combinata si trova al centro della vista, le colonne vengono numerate in base alla loro posizione nella vista. Il conteggio delle colonne inizia sempre con la colonna più a sinistra dell&#39;elenco o del report etichettato come `column.0.`.
 
    Se condividi più di una colonna, assicurati di aggiungere il numero della colonna nelle righe di codice che contengono le informazioni di condivisione.
 
-   **Esempio:** Di seguito è riportato il codice in modalità testo per una colonna condivisa che contiene Nome progetto, Data inizio pianificata e Nome del proprietario del progetto con un&#39;interruzione di riga. La colonna condivisa è la seconda colonna di una visualizzazione di progetto.
+   **Esempio:** Di seguito è riportato il codice in modalità testo per una colonna condivisa contenente il nome del progetto, la data di inizio pianificata e il nome del proprietario del progetto con un&#39;interruzione di riga. La colonna condivisa è la seconda colonna di una visualizzazione di progetto.
 
 
    `column.1.displayname=Project_StartDate_Owner`
@@ -203,4 +203,4 @@ Per unire i dati di più colonne in modo da visualizzarli in una colonna comune 
    ![](assets/shared-column-with-line-breaks-350x199.png)
 
 
-1. Clic **Salva**, quindi **Salva visualizzazione**.
+1. Fai clic su **Salva**, quindi su **Salva visualizzazione**.

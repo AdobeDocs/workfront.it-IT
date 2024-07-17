@@ -41,7 +41,7 @@ La tabella e il diagramma seguenti illustrano i principali livelli di accesso a 
 
 >[!NOTE]
 >
->La licenza Esterna non è a pagamento. È progettato principalmente per condividere documenti con collaboratori che non utilizzano Workfront. Per ulteriori informazioni, consulta [Livelli di accesso incorporati](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
+>La licenza Esterna non è a pagamento. È progettato principalmente per condividere documenti con collaboratori che non utilizzano Workfront. Per ulteriori informazioni, vedere [Livelli di accesso incorporati](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
 
 ## Come una licenza definisce un livello di accesso
 
@@ -49,7 +49,7 @@ La licenza associata a un livello di accesso determina l’ambito generale delle
 
 Puoi copiare un livello di accesso predefinito e personalizzarne la copia in base alle esigenze degli utenti. Nell’ambito della funzionalità consentita dalla licenza per il livello di accesso copiato, puoi regolare le impostazioni di accesso in base alle esigenze dell’utente.
 
-Per ulteriori informazioni, consulta [Panoramica dei livelli di accesso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) e [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Per ulteriori informazioni, vedere [Panoramica dei livelli di accesso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) e [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Numero licenze
 
@@ -59,4 +59,4 @@ Ad esempio, se si assegna il livello di accesso Planner a un utente, il numero d
 
 Puoi visualizzare le licenze e i livelli di accesso assegnati ai tuoi utenti. Per ulteriori informazioni, consulta [Elencare i livelli di accesso e le licenze degli utenti](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).
 
-Per informazioni sulla gestione delle licenze, consulta [Gestire le licenze disponibili nel sistema](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+Per informazioni sulla gestione delle licenze, vedere [Gestire le licenze disponibili nel sistema](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).

@@ -36,9 +36,9 @@ hide: yes
 
 La connessione dei record è simile alla connessione dei record agli oggetti di un&#39;altra applicazione.
 
-Per informazioni sulla connessione di tipi di record tra loro o a tipi di oggetto di altre applicazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
+Per informazioni sulla connessione di tipi di record tra loro o a tipi di oggetto da altre applicazioni, vedere [Connettere tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-Per un esempio di connessione dei tipi di record, vedere [Esempio di connessione di tipi di record e record](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md).
+Per un esempio di connessione dei tipi di record, vedere [Esempio di connessione dei tipi di record e dei record](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md).
 
 È possibile connettere i seguenti elementi:
 
@@ -77,7 +77,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 <td>Prodotto</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>Per collegare i record di Adobe Workfront Planning a Experience Manager Assets, è necessario disporre di una licenza Adobe Experience Manager Assets e l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience. Per informazioni, consulta <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe di esperienza unificata per Workfront</a>.</p>
+   <p>Per collegare i record di Adobe Workfront Planning a Experience Manager Assets, è necessario disporre di una licenza Adobe Experience Manager Assets e l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience. Per informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata di Adobe per Workfront</a>.</p>
    </td>
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
@@ -115,14 +115,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>L'amministratore del Workfront o del gruppo deve aggiungere l'area Planning nel modello di layout. Per informazioni, consulta <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica degli accessi</a>. </p>  
+   <td> <p>L'amministratore del Workfront o del gruppo deve aggiungere l'area Planning nel modello di layout. Per informazioni, vedere <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica dell'accesso</a>. </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-*Per ulteriori informazioni, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -167,7 +167,7 @@ Per collegare record ad altri record o oggetti, è necessario disporre dei segue
    * [Crea tipi di record](/help/quicksilver/planning/architecture/create-record-types.md)
    * [Crea record](/help/quicksilver/planning/records/create-records.md)
 
-* Connessioni tra tipi di record o tra tipi di record e oggetti di altre applicazioni. Per informazioni, consulta [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Connessioni tra tipi di record o tra tipi di record e oggetti di altre applicazioni. Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## Connetti record da Workfront Planning
 
@@ -179,8 +179,8 @@ Per collegare record ad altri record o oggetti, è necessario disporre dei segue
 
    Viene aperto il workspace e i tipi di record vengono visualizzati come schede.
 1. Fare clic sulla scheda di un tipo di record per aprire la pagina del tipo di record.
-1. Seleziona un **Tabella** vista da **Visualizza** nell&#39;angolo superiore destro della pagina del tipo di record.
-1. (Facoltativo) Aggiungere record al tipo di record selezionato aggiungendo una nuova riga alla tabella. Per informazioni, consulta [Crea record](/help/quicksilver/planning/records/create-records.md).
+1. Selezionare una visualizzazione **Tabella** dal menu a discesa **Visualizzazione** nell&#39;angolo superiore destro della pagina del tipo di record.
+1. (Facoltativo) Aggiungere record al tipo di record selezionato aggiungendo una nuova riga alla tabella. Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).
 1. (Condizionale) Dopo aver collegato il tipo di record selezionato con un altro tipo di record, passare alla colonna del record collegato e fare doppio clic sulla cella corrispondente al record che si desidera collegare con altri record.
 
    ![](assets/connect-other-records-smaller-box-in-table-view.png)
@@ -189,9 +189,9 @@ Per collegare record ad altri record o oggetti, è necessario disporre dei segue
 
    * Fare clic sul nome di un record connesso nell&#39;elenco per aggiungerlo al record selezionato. Il record viene aggiunto automaticamente.
    * Iniziare a digitare il nome di un record e fare clic su di esso quando viene visualizzato nell&#39;elenco. Il record viene aggiunto automaticamente.
-   * Clic **Vedi tutto** per visualizzare tutti i record.
+   * Fare clic su **Visualizza tutti** per visualizzare tutti i record.
 
-1. (Condizionale) Se hai fatto clic **Seleziona tutto** nel passaggio precedente, il **Connetti oggetti** viene visualizzata la casella.
+1. (Condizionale) Se hai fatto clic su **Seleziona tutti** nel passaggio precedente, viene visualizzata la casella **Connetti oggetti**.
 
    ![](assets/connected-objects-table-for-records.png)
 
@@ -203,7 +203,7 @@ Per collegare record ad altri record o oggetti, è necessario disporre dei segue
 
    >[!TIP]
    >
-   >    È possibile aprire la pagina di un record, trovare il campo record collegato e fare clic sul campo collegato (se sono già presenti record connessi) oppure fare clic su **Collega record** (se il campo è vuoto) per aggiungere record dal record o dal tipo di oggetto connesso.
+   >    È possibile aprire la pagina di un record, trovare il campo record collegato e fare clic sul campo connesso (se sono già presenti record connessi) oppure fare clic su **Connetti record** (se il campo è vuoto) per aggiungere record dal record o dal tipo di oggetto connesso.
    >
    >![](assets/connect-records-from-record-page-field.png)
 
@@ -218,16 +218,16 @@ Per collegare record ad altri record o oggetti, è necessario disporre dei segue
    >
    >* Utilizziamo &quot;campi collegati&quot; e &quot;campi di ricerca&quot; in modo intercambiabile.
    >
-   >* Se hai attivato **Consenti più record** impostazione quando si collegano i tipi di record, i valori dei campi per i più oggetti selezionati vengono visualizzati separati da virgole o aggregati in base all&#39;aggregatore scelto.
+   >* Se è stata abilitata l&#39;impostazione **Consenti più record** quando sono stati connessi i tipi di record, i valori dei campi per i più oggetti selezionati vengono visualizzati separati da virgole o aggregati in base all&#39;aggregatore scelto.
 
 1. (Facoltativo) Chiudere la pagina del tipo di record e passare all&#39;area di lavoro selezionata.
 1. Fare clic sulla scheda del tipo di record a cui si è collegati.
 
-   Ad esempio, se hai connesso **Campagna** con il record Prodotto, fare clic sul pulsante **Prodotto** Card.
+   Ad esempio, se hai connesso il record **Campaign** al record Prodotto, fai clic sulla scheda **Prodotto**.
 
    La scheda del tipo di record deve aprirsi nella vista Tabella. In caso contrario, selezionare una vista tabella.
 
-   Tieni presente che **Campagna** nel campo record collegato vengono visualizzati i nomi delle campagne collegate ai prodotti nella pagina Tipo di record prodotto. L’aggiornamento delle informazioni della campagna aggiorna automaticamente il campo del record collegato della campagna per il tipo di record Prodotto.
+   Il campo record collegato **Campagna** visualizza i nomi delle campagne collegate ai prodotti nella pagina Tipo record prodotto. L’aggiornamento delle informazioni della campagna aggiorna automaticamente il campo del record collegato della campagna per il tipo di record Prodotto.
 
 ### Collegare i record di Adobe Workfront Planning agli oggetti Workfront
 
@@ -246,9 +246,9 @@ Dopo aver creato una connessione tra un tipo di record e un tipo di oggetto Work
 
    Viene aperto il workspace e i tipi di record vengono visualizzati come schede.
 1. Fare clic sulla scheda di un tipo di record per aprire la pagina del tipo di record.
-1. Seleziona un **Tabella** vista da **Visualizza** menu a discesa.
+1. Selezionare una visualizzazione **Tabella** dal menu a discesa **Visualizzazione**.
 
-1. Clic **Nuovo record**  per aggiungere singoli record al tipo di record selezionato. Per informazioni, consulta [Crea record](/help/quicksilver/planning/records/create-records.md).
+1. Fare clic su **Nuovo record** per aggiungere singoli record al tipo di record selezionato. Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).
 1. (Condizionale) Dopo aver collegato il tipo di record selezionato a un tipo di oggetto Workfront, passare alla colonna oggetto collegato e fare doppio clic sulla cella corrispondente al record che si desidera collegare agli oggetti da Workfront.
 
    ![](assets/connect-projects-smaller-box-in-table-view.png)
@@ -257,9 +257,9 @@ Dopo aver creato una connessione tra un tipo di record e un tipo di oggetto Work
 
    * Fare clic su un oggetto dall&#39;elenco per aggiungerlo al record selezionato. Gli oggetti sono elencati in ordine alfabetico. L&#39;oggetto viene aggiunto automaticamente.
    * Iniziare a digitare il nome di un oggetto e fare clic su di esso quando viene visualizzato nell&#39;elenco. L&#39;oggetto viene aggiunto automaticamente.
-   * Clic **Vedi tutto** per visualizzare tutti gli oggetti che si dispone almeno delle autorizzazioni di visualizzazione.
+   * Fai clic su **Visualizza tutti** per visualizzare tutti gli oggetti per i quali disponi almeno delle autorizzazioni di visualizzazione.
 
-1. (Condizionale) Se hai fatto clic **Vedi tutto** nel passaggio precedente, il **Connetti oggetti** viene visualizzata la casella.
+1. (Condizionale) Se hai fatto clic su **Visualizza tutti** nel passaggio precedente, viene visualizzata la casella **Connetti oggetti**.
 
    ![](assets/connect-objects-box-to-select-projects.png)
 
@@ -267,7 +267,7 @@ Dopo aver creato una connessione tra un tipo di record e un tipo di oggetto Work
 
    Oppure
 
-   Seleziona il nome di uno o più oggetti nella casella, quindi fai clic su **Connetti oggetti** nell&#39;angolo superiore destro della casella Connetti oggetti.
+   Selezionare il nome di uno o più oggetti nella casella, quindi fare clic su **Connetti oggetti** nell&#39;angolo superiore destro della casella Connetti oggetti.
 
    >[!IMPORTANT]
    >
@@ -282,9 +282,9 @@ Dopo aver creato una connessione tra un tipo di record e un tipo di oggetto Work
 
    >[!TIP]
    >
-   >È possibile aprire la pagina di un record, trovare il campo record collegato e fare clic sul pulsante **+** nel campo per aggiungere oggetti dal tipo di oggetto connesso.
+   >Puoi aprire la pagina di un record, trovare il campo del record collegato e fare clic sull&#39;icona **+** nel campo per aggiungere oggetti dal tipo di oggetto connesso.
 
-   Per ulteriori informazioni sulla connessione di tipi di record con oggetti di un&#39;altra applicazione, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
+   Per ulteriori informazioni sulla connessione di tipi di record con oggetti di un&#39;altra applicazione, vedere [Connettere tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 1. (Facoltativo) Fare clic sul nome di un oggetto Workfront connesso a un record di Workfront Planning nel campo collegato di una vista tabella o nel campo collegato della pagina del record.
 
@@ -296,13 +296,13 @@ Dopo aver creato una connessione tra un tipo di record e un tipo di oggetto Work
    >
    >* Non viene creato un campo record collegato per gli oggetti Workfront collegati in Workfront.
 
-1. (Facoltativo) Nella vista a tabella del tipo di record, posiziona il puntatore del mouse sull&#39;intestazione di colonna dell&#39;oggetto Workfront collegato e fai clic sul menu a discesa, quindi fai clic su **Modifica campi di ricerca**.
+1. (Facoltativo) Nella vista a tabella del tipo di record, posizionare il puntatore del mouse sull&#39;intestazione di colonna dell&#39;oggetto Workfront collegato e fare clic sul menu a discesa, quindi scegliere **Modifica campi di ricerca**.
 
-1. Aggiungere campi oggetto Workfront dalla **Campi non selezionati** area
+1. Aggiungi campi oggetto Workfront dall&#39;area **Campi non selezionati**
 
    Oppure
 
-   Rimuovi i campi oggetto di Workfront dal **Campi selezionati** area.
+   Rimuovi i campi oggetto Workfront dall&#39;area **Campi selezionati**.
 
    Questa operazione consente di aggiungere o rimuovere campi collegati dai record di Workfront Planning. Le informazioni associate ai campi rimossi rimangono in Workfront.
 
@@ -315,7 +315,7 @@ Dopo aver creato una connessione tra un tipo di record e un tipo di oggetto Work
 >
 >È necessario disporre di una licenza Adobe Experience Manager Assets e l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Business Platform o Adobe Admin Console per poter collegare i record di Workfront Planning ad Adobe Experience Manager Assets.
 >
->In caso di domande sull’onboarding per Adobe Admin Console, consulta [Domande frequenti sull’esperienza unificata di Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+>Se hai domande sull&#39;onboarding in Adobe Admin Console, consulta le [Domande frequenti sull&#39;esperienza unificata di Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 Dopo aver creato una connessione tra un tipo di record e Adobe Experience Manager Assets, puoi collegare singoli record alle risorse di Experience Manager. I campi della risorsa connessi da Experience Manager Assets al momento della creazione della connessione vengono compilati automaticamente sul tipo di record da cui è stato effettuato il collegamento.
 
@@ -330,16 +330,16 @@ Dopo aver creato una connessione tra un tipo di record e Adobe Experience Manage
 
    Viene aperto il workspace e vengono visualizzati i tipi di record.
 1. Fare clic sulla scheda di un tipo di record per aprire la pagina del tipo di record.
-1. Seleziona un **Tabella** vista da **Visualizza** nell&#39;angolo superiore destro della pagina del tipo di record.
+1. Selezionare una visualizzazione **Tabella** dal menu a discesa **Visualizzazione** nell&#39;angolo superiore destro della pagina del tipo di record.
 
-1. (Facoltativo) Fai clic su **Nuovo record** per aggiungere nuovi record al tipo di record selezionato. Per informazioni, consulta [Crea record](/help/quicksilver/planning/records/create-records.md).
-1. (Condizionale) Dopo aver collegato il tipo di record selezionato a Experience Manager Assets, passa alla colonna dell’oggetto collegato e passa il puntatore del mouse sulla cella corrispondente al record da collegare ad altri oggetti da Experience Manager, quindi fai clic sul pulsante **+** icona.
+1. (Facoltativo) Fare clic su **Nuovo record** per aggiungere nuovi record al tipo di record selezionato. Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).
+1. (Condizionale) Dopo aver connesso il tipo di record selezionato con Experience Manager Assets, passa alla colonna dell&#39;oggetto collegato e passa il puntatore del mouse sulla cella corrispondente al record che desideri collegare ad altri oggetti da Experience Manager, quindi fai clic sull&#39;icona **+**.
 
    >[!TIP]
    >
-   >  Puoi aggiungere e fare clic su **+** nel campo oggetto collegato della pagina del record per collegare le risorse al record.
+   >  È possibile aggiungere fare clic sull&#39;icona **+** nel campo oggetto collegato nella pagina del record per connettere le risorse al record.
 
-   Il **Seleziona Assets** viene visualizzata la casella. <!--we might change this to Connect assets-->
+   Viene visualizzata la casella **Seleziona Assets**. <!--we might change this to Connect assets-->
 
    ![](assets/select-assets-box-for-aem-record-connections.png)
 
@@ -354,7 +354,7 @@ Dopo aver creato una connessione tra un tipo di record e Adobe Experience Manage
    >
    > Puoi collegare solo le risorse a cui hai accesso per visualizzare in Experience Manager. Una volta connessi, tutti gli utenti di Workfront Planning possono visualizzare le risorse in Workfront Planning, indipendentemente dal loro accesso in Experience Manager Assets.
 
-1. Clic **Seleziona**. <!-- we might change this to Connect-->
+1. Fai clic su **Seleziona**. <!-- we might change this to Connect-->
 
    Sono aggiunti i seguenti elementi:
 
@@ -385,17 +385,17 @@ Dopo aver creato una connessione tra un tipo di record e Adobe Experience Manage
    * Data di creazione
    * Data modificata
 
-1. (Facoltativo) Per aprire la pagina di record Experience Manager assets in Experience Manager, vai alla pagina del tipo di record da cui stai effettuando il collegamento, fai clic sul nome di una risorsa nel campo del record collegato per aprire la finestra a comparsa, quindi fai clic su **Aperto in AEM** icona ![](assets/open-asset-icon.png) per aprire la risorsa.
+1. (Facoltativo) Per aprire la pagina di record Experience Manager assets in Experience Manager, vai alla pagina del tipo di record del record da cui stai effettuando il collegamento, fai clic sul nome di una risorsa nel campo del record collegato per aprire la finestra a comparsa, quindi fai clic sull&#39;icona **Apri in AEM** ![](assets/open-asset-icon.png) per aprire la risorsa.
 
    Verrà aperta la risorsa Experience Manager in Adobe Experience Manager Assets.
 
-1. (Facoltativo) Nella vista a tabella del tipo di record, passa il cursore del mouse sull’intestazione di colonna della risorsa di Experience Manager collegata e fai clic sul menu a discesa, quindi fai clic su **Modifica campi di ricerca**.
+1. (Facoltativo) Nella vista a tabella del tipo di record, passa il puntatore del mouse sull&#39;intestazione di colonna della risorsa di Experience Manager collegata e fai clic sul menu a discesa, quindi fai clic su **Modifica campi di ricerca**.
 
-1. Aggiungere campi oggetto Experience Manager Assets dalla **Campi non selezionati** area
+1. Aggiungi campi oggetto Experience Manager Assets dall&#39;area **Campi non selezionati**
 
    Oppure
 
-   Rimuovi i campi oggetto di Workfront dal **Campi selezionati** area.
+   Rimuovi i campi oggetto Workfront dall&#39;area **Campi selezionati**.
 
    Questa operazione consente di aggiungere o rimuovere campi collegati dai record. Le informazioni associate ai campi rimossi rimangono in Adobe Experience Assets.
 
@@ -407,4 +407,4 @@ Per connettere i record di Workfront Planning dagli oggetti di Workfront, è nec
 * Almeno una connessione tra un record e un oggetto Workfront.
 * L&#39;amministratore del Workfront o del gruppo deve aggiungere la sezione Planning ai tipi di oggetto di Workfront che possono connettersi ai tipi di record di Planning.
 
-Per ulteriori informazioni, consulta [Gestire i record nella sezione Pianificazione degli oggetti di Adobe Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+Per ulteriori informazioni, vedere [Gestire i record nella sezione Pianificazione degli oggetti Adobe Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).

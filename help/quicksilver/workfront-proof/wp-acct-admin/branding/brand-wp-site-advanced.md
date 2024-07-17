@@ -2,148 +2,148 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: branding-workfront-proof
-title: Marchio [!DNL Workfront] Sito di prova - avanzato
+title: Personalizza il  [!DNL Workfront] sito di bozza - avanzato
 description: Il branding avanzato è disponibile nei piani Select e Premium ed è incluso nel costo del piano.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: fd9e01ae-71c5-45fe-a874-4ee359fbe057
 source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '773'
 ht-degree: 1%
 
 ---
 
-# Marchio [!DNL Workfront Proof] sito - avanzato
+# Personalizza il sito [!DNL Workfront Proof] - avanzato
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alla funzionalità del prodotto standalone [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Copertura](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
 Il branding avanzato è disponibile nei piani Select e Premium ed è incluso nel costo del piano.
 
-Per informazioni sul branding di base, che include la pagina di accesso, le notifiche e-mail e le bozze, consulta [Marchio [!DNL Workfront Proof] sito](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
+Per informazioni sul branding di base, che include la pagina di accesso, le notifiche e-mail e le bozze, consulta [Assegna il marchio al  [!DNL Workfront Proof] sito](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
 
-Le opzioni avanzate di branding includono la personalizzazione delle seguenti aree:
+Le opzioni di branding avanzate includono la personalizzazione delle seguenti aree:
 
 * Colore intestazione e testo
-* Intestazione dell&#39;applicazione Web
-* Barra dei menu e colore del testo
-* Casella di benvenuto e casella di avvio rapido del dashboard
+* Intestazione dell’applicazione web
+* Colore barra dei menu e testo
+* Finestra di benvenuto del dashboard e finestra di avvio rapido
 * Testo piè di pagina
-* Preferito
+* Favicon
 * Titolo pagina
 * Collegamenti della Guida
 
-Le sezioni seguenti descrivono in dettaglio il branding avanzato:
+Le sezioni seguenti descrivono in modo più dettagliato il branding avanzato:
 
 ## Panoramica del branding avanzato
 
-Troverai il [!UICONTROL Configurazione del branding] nella scheda del [Impostazioni account](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) pagina. Per applicare le modifiche all’account, accertati che l’opzione Branding sia impostata su [!UICONTROL Abilitato] (1)
-![Advanced_Branding.png](assets/advanced-branding-350x618.png)
+Troverai la sezione [!UICONTROL Configurazione del marchio] nella scheda della pagina [Impostazioni account](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings). Per applicare le modifiche al tuo account, assicurati che l&#39;opzione di branding sia impostata su [!UICONTROL Abilitato] (1).
+![Branding_avanzato.png](assets/advanced-branding-350x618.png)
 
-Per informazioni più dettagliate su come configurare le opzioni di branding avanzate (2-14), consulta la sezione seguente.
+Consulta la sezione seguente per informazioni più dettagliate su come configurare le opzioni di branding avanzate (2-14).
 
-## Configurazione avanzata del branding
+## Configurazione avanzata del marchio
 
-Puoi assegnare il marchio alle seguenti aree di [!DNL Workfront Proof]:
+È possibile aggiungere le seguenti aree di [!DNL Workfront Proof]:
 
 * [Applicazione web](#web-application)
 * [Intestazione](#header)
-* [Collegamenti alle intestazioni](#header-links)
+* [Collegamenti intestazione](#header-links)
 * [Barra laterale](#sidebar)
 * [Finestra di benvenuto](#welcome-box)
-* [Intestazioni sezione](#section-headers)
+* [Intestazioni di sezione](#section-headers)
 
 ### Applicazione web {#web-application}
 
-![Web_branding_image.png](assets/web-branding-image-350x181.png)
+![Immagine_Web_branding.png](assets/web-branding-image-350x181.png)
 
 Puoi scegliere tra tre opzioni di branding per l’intestazione dell’applicazione web (2):
 
 * Immagine di branding nell’intestazione
-* Nome dell’account nell’intestazione
-* Se disattivi il branding [!DNL Workfront Proof] Il logo rimarrà nell’intestazione dell’app web
+* Nome account nell&#39;intestazione
+* Se disattivi il branding, il logo [!DNL Workfront Proof] rimarrà nell&#39;intestazione dell&#39;app Web
 
-Immagine di branding - ridimensiona a una dimensione massima di 550x90px. È possibile utilizzare JPG, GIF o PNG e sono supportati gli sfondi trasparenti.
+Immagine di branding: ridimensiona fino a una dimensione massima di 550x90px. È possibile utilizzare GIF, PNG o JPG e gli sfondi trasparenti sono supportati.
 
-Nome account: tratto dai dettagli del tuo account e visualizzato utilizzando un carattere bianco. Il nome dell’account può contenere fino a 60 caratteri (spazi e segni di punteggiatura inclusi).
+Nome dell’account: tratto dai dettagli dell’account e visualizzato con un font bianco. Il nome dell&#39;account può contenere un massimo di 60 caratteri (inclusi spazi e segni di punteggiatura).
 
 ### Intestazione {#header}
 
-In questo campo (3) è possibile impostare lo sfondo dell&#39;intestazione e scegliere un colore a tinta unita o un&#39;immagine di sfondo.
+In questo campo (3) è possibile impostare lo sfondo dell’intestazione e scegliere un colore a tinta unita o un’immagine di sfondo.
 
-Colore: qui, come in tutti gli altri campi di branding della configurazione dello schema di colori, puoi immettere un valore di colore esadecimale desiderato o utilizzare un pratico selettore colore (facendo clic sul campo di testo si apre il pop-up). Il colore di sfondo predefinito dell&#39;intestazione è #232d2e.
+Colore: come in tutti gli altri campi di branding della configurazione della combinazione di colori, puoi immettere un valore di colore Esadecimale desiderato o utilizzare un comodo selettore colore (facendo clic sul campo di testo si apre la finestra a comparsa). Il colore di sfondo predefinito dell’intestazione è #232d2e.
 
 ![Branding_-_color_picker.png](assets/branding---color-picker-350x131.png)
 
-Immagine di sfondo - può essere combinata con l’immagine di branding .
+Immagine di sfondo: può essere combinata con l&#39;immagine di branding.
 
-* È possibile utilizzare JPG, GIF o PNG per visualizzare i file con trasparenza con un colore di sfondo bianco.
-* L&#39;altezza dell&#39;intestazione è di 96 px e l&#39;immagine caricata non verrà ridimensionata per il [!UICONTROL Nessuna ripetizione] opzione .
+* È possibile utilizzare GIF, PNG o JPG: per i file con trasparenza viene visualizzato un colore di sfondo bianco.
+* L&#39;altezza dell&#39;intestazione è di 96 px e l&#39;immagine caricata non verrà ridimensionata per l&#39;opzione [!UICONTROL Nessuna ripetizione].
 * L&#39;immagine di sfondo è posizionata in alto a sinistra.
 
-### Collegamenti alle intestazioni {#header-links}
+### Collegamenti intestazione {#header-links}
 
-In questo campo (4) puoi modificare il colore e il colore del nome utente dei collegamenti nel menu Intestazione , visibile nell’angolo in alto a destra del tuo account.
-![Header_links.png](assets/header-links-350x140.png)
+In questo campo (4) puoi modificare il colore e il colore del nome utente dei collegamenti nel menu Intestazione, visibile nell’angolo in alto a destra del tuo account.
+![Collegamenti_intestazione.png](assets/header-links-350x140.png)
 
 ### Barra laterale {#sidebar}
 
-Scegliere i colori per la barra del menu (5) e il carattere del menu (6) per personalizzare la barra laterale
+Scegliere i colori per la barra dei menu (5) e il carattere del menu (6) per personalizzare la barra laterale
 
-![Menu_bar.png](assets/menu-bar-350x490.png)
+![Barra_menu.png](assets/menu-bar-350x490.png)
 
 >[!NOTE]
 >
->Il colore al passaggio del mouse si regola automaticamente aggiungendo un valore esadecimale costante al colore della barra dei menu selezionato.
+>Il colore al passaggio del mouse viene regolato automaticamente aggiungendo un valore esadecimale costante al colore selezionato nella barra dei menu.
 
-Impossibile personalizzare il colore del pulsante Nuovo bozza.
+Impossibile personalizzare il colore del pulsante Nuova bozza.
 
 ### Finestra di benvenuto {#welcome-box}
 
-In questo campo (7) potete impostare il colore della casella di benvenuto visualizzato nella pagina Dashboard.
+In questo campo (7) è possibile impostare il colore della casella di benvenuto visualizzato nella pagina Dashboard.
 ![Welcome_box.png](assets/welcome-box-350x110.png)
 
-### Intestazioni sezione {#section-headers}
+### Intestazioni di sezione {#section-headers}
 
-Questi campi consentono di personalizzare lo sfondo (8) e il colore del font (9) delle intestazioni di sezione sul [[!UICONTROL Impostazioni account]](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) pagine.
-![Section_headers.png](assets/section-headers-350x138.png)
+Questi campi ti consentono di personalizzare lo sfondo (8) e il colore del font (9) delle intestazioni di sezione nelle [[!UICONTROL Impostazioni account]](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) pagine.
+![Intestazioni_sezione.png](assets/section-headers-350x138.png)
 
 **Piè di pagina**
 
-In questo campo (10) della configurazione branding puoi comporre un piè di pagina che verrà visualizzato nella parte inferiore di tutte le pagine dell’account. È possibile utilizzare l&#39;editor WYSIWYG integrato o semplicemente incollare il proprio design.
+In questo campo (10) della configurazione di Branding è possibile comporre un piè di pagina che verrà visualizzato nella parte inferiore di tutte le pagine dell’account. Puoi utilizzare l’editor WYSIWYG integrato oppure incollare semplicemente la progettazione.
 ![Piè di pagina.png](assets/footer-350x157.png)
 
 >[!NOTE]
 >
->Non è possibile modificare HTML nell’editor di testo a piè di pagina, ma è possibile incollare una progettazione copiata (inclusi tutti i collegamenti e le immagini).
+>Non è possibile modificare HTML nell&#39;editor di testo del piè di pagina, ma è possibile incollare una progettazione copiata, inclusi tutti i collegamenti e le immagini.
 
-**Favicon e titolo della pagina**
+**Favicon e titolo pagina**
 
-Puoi personalizzare il tuo [!DNL Workfront Proof] le pagine vengono presentate nei browser impostando la tua immagine preferita (file .ICO) (11) e il titolo della pagina (12) - verranno visualizzati nelle intestazioni tab/windows dei browser per tutte le pagine dell&#39;account.
+È possibile personalizzare la modalità di presentazione delle pagine [!DNL Workfront Proof] nei browser impostando l&#39;immagine preferita (file .ICO) (11) e il titolo della pagina (12), che verranno visualizzati nelle schede o nelle intestazioni delle finestre del browser per tutte le pagine dell&#39;account.
 ![Favico_and_Page_title.png](assets/favico-and-page-title-350x95.png)
 
 >[!NOTE]
 >
->Il tuo favicon verrà visualizzato anche nelle intestazioni del [!DNL Workfront Proof] Finestra del visualizzatore per tutte le bozze create sul tuo account.
+>Il tuo favicon verrà visualizzato anche nelle intestazioni delle finestre del visualizzatore [!DNL Workfront Proof] per tutte le bozze create sul tuo account.
 
 **Collegamenti della Guida**
 
-Puoi personalizzare i tuoi collegamenti dell’Aiuto per indirizzare gli utenti e i revisori ai contenuti personalizzati. Per attivare questa impostazione, [!UICONTROL Collegamenti della Guida] (13) su Abilitato e aggiungi i tuoi collegamenti nei campi successivi (14). Puoi configurare fino a quattro collegamenti disponibili:
+Puoi personalizzare i tuoi collegamenti di aiuto per indirizzare gli utenti e i revisori al tuo contenuto. Per attivare questo, impostare l&#39;opzione [!UICONTROL Collegamenti della Guida] (13) su Abilitato e aggiungere i collegamenti nei campi successivi (14). Puoi configurare fino a quattro collegamenti, che saranno disponibili:
 
-* in [!UICONTROL Intestazione] sotto il menu [!UICONTROL Aiuto] collegamento
-   ![Help_links1.png](assets/help-links1-350x170.png)
+* nel menu [!UICONTROL Intestazione] del collegamento [!UICONTROL Guida]
+  ![Collegamenti_Guida1.png](assets/help-links1-350x170.png)
 
-* in [!UICONTROL Aiuto] pannello [!DNL Workfront Proof] [!UICONTROL Visualizzatore] barra laterale
-   ![Help_links2.png](assets/help-links2-350x532.png)
+* nel pannello [!UICONTROL Guida] della barra laterale [!DNL Workfront Proof] [!UICONTROL Visualizzatore]
+  ![Collegamenti_Guida2.png](assets/help-links2-350x532.png)
 
-Per un costo aggiuntivo, anche i clienti di piani Enterprise possono personalizzare completamente quanto segue:
+Per un costo aggiuntivo, i clienti che utilizzano i piani aziendali hanno anche la possibilità di personalizzare completamente i seguenti elementi:
 
-* Personalizza completamente le pagine di destinazione (ad esempio pagine di accesso e di logout, pagina password dimenticata)
+* Personalizza completamente le pagine di destinazione (ad esempio pagine di accesso e disconnessione, pagina Password dimenticata)
 * Personalizzazione completa del dominio
 
-Per ulteriori informazioni sulle opzioni di branding aggiuntive, contattaci all’indirizzo sales.team@workfront.com .
+Per ulteriori informazioni sulle opzioni di branding aggiuntive, contattaci all’indirizzo sales.team@workfront.com.
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Custom Domains</h2>

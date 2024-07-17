@@ -1,8 +1,8 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: Panoramica dei pool di risorse
-description: In qualità di gestore delle risorse, puoi gestire le risorse aggiungendo utenti ai pool di risorse.
+title: Panoramica sui pool di risorse
+description: In qualità di responsabile delle risorse, puoi gestire le tue risorse aggiungendo utenti ai pool di risorse.
 author: Alina
 feature: Resource Management
 exl-id: f3fc65c8-e436-44a4-9e9d-5b4b138a9f21
@@ -13,23 +13,23 @@ ht-degree: 0%
 
 ---
 
-# Panoramica dei pool di risorse
+# Panoramica sui pool di risorse
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: *** The sections about how to add resource pools to users, templates, projects are duplicated from the articles listed in those sections (Creating Users, Editing Projects, Creating a Template, etc). These sections might be eliminated when the Resource Pools are not something new, and just a routine field to edit on these main objects.) </p>
 -->
 
-In qualità di gestore delle risorse, puoi gestire le risorse aggiungendo utenti ai pool di risorse.
+In qualità di responsabile delle risorse, puoi gestire le tue risorse aggiungendo utenti ai pool di risorse.
 
-La gestione efficiente delle risorse non può avvenire senza la compilazione dei pool di risorse con gli utenti e l’associazione di questi ai progetti. Questo è un prerequisito per l&#39;utilizzo della funzionalità di pianificazione delle risorse.
+Una gestione efficiente delle risorse non può avvenire senza popolare i Pool di Risorse con gli utenti e allegarli ai progetti. Questo è un prerequisito per utilizzare la funzionalità di pianificazione delle risorse.
 
-Per ulteriori informazioni sui prerequisiti necessari per iniziare a utilizzare la pianificazione delle risorse, vedere la sezione &quot;Prerequisiti per lavorare nel Planner risorse&quot; in [Panoramica di Resource Planner](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Per ulteriori informazioni sui prerequisiti necessari prima di iniziare a utilizzare la pianificazione delle risorse, vedere la sezione &quot;Prerequisiti per l&#39;utilizzo della pianificazione delle risorse&quot; in [Panoramica sulla pianificazione delle risorse](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-Per informazioni sulla creazione e la gestione dei pool di risorse, consulta i seguenti articoli:
+Per informazioni sulla creazione e la gestione dei pool di risorse, vedere gli articoli seguenti:
 
-* [Creare pool di risorse](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
-* [Associare pool di risorse a progetti e modelli](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md)
-* [Associare pool di risorse con gli utenti](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
+* [Crea pool di risorse](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
+* [Associa i pool di risorse a progetti e modelli](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md)
+* [Associa i pool di risorse agli utenti](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
 * [Rimuovere utenti dai pool di risorse](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
 
 <!--
@@ -66,30 +66,30 @@ If you still don't have access, ask your Workfront administrator if they set add
 </div>
 -->
 
-## Panoramica dei pool di risorse
+## Panoramica dei gruppi di risorse
 
-* Un pool di risorse è un insieme di utenti necessari allo stesso tempo per il completamento di un progetto.
-* Un pool di risorse può essere condiviso tra più progetti, programmi o portfolio quando è associato a tutti i progetti nei programmi e nei portfolio.
-* È possibile creare un pool di risorse e compilarlo con utenti esistenti al momento della creazione, oppure creare il pool di risorse e associarlo a un utente esistente o a un nuovo utente durante la creazione o la modifica dell&#39;utente.
-* Dopo aver compilato i pool di risorse con gli utenti, è possibile associarli a progetti e modelli e gestire in modo più efficiente l’allocazione degli utenti ai progetti.
-* Puoi associare tutti i pool di risorse necessari a un progetto, a un modello o a un utente.
+* Un Pool di Risorse è una raccolta di utenti necessari contemporaneamente per il completamento di un progetto.
+* Un Pool di Risorse può essere condiviso tra più progetti, programmi o portfolio quando è associato a tutti i progetti inclusi nei programmi e nei portfolio.
+* È possibile creare un Pool di Risorse e popolarlo con utenti esistenti al momento della creazione, oppure creare il Pool di Risorse e associarlo a un utente esistente o a un nuovo utente durante la creazione o la modifica dell&#39;utente.
+* Dopo aver popolato i gruppi di risorse con gli utenti, puoi associarli a progetti e modelli e gestire l’allocazione degli utenti ai progetti in modo più efficiente.
+* È possibile associare tutti i Pool di Risorse necessari a un progetto, modello o utente.
 
-## Criteri per l&#39;associazione degli utenti a un pool di risorse
+## Criteri per l&#39;associazione di utenti a un gruppo di risorse
 
-Esistono diversi modi per strutturare i pool di risorse.
+Esistono diversi modi per strutturare i gruppi di risorse.
 
 Consigliamo i seguenti approcci:
 
-* È possibile che tutti gli utenti dello stesso pool di risorse appartengano allo stesso team.
+* È possibile che tutti gli utenti dello stesso Pool di Risorse appartengano allo stesso team.
 
-   Ad esempio, se desideri che tutti gli utenti di un team di marketing siano disponibili per un progetto, desideri un pool di risorse di marketing in cui aggiungere tutti gli utenti del team. È quindi possibile associare il pool di risorse di marketing ai progetti a cui sono assegnati i membri del team.
+  Ad esempio, se desideri che tutti gli utenti di un team di marketing siano disponibili per un progetto, devi aggiungere un pool di risorse di marketing a tutti gli utenti di quel team. È quindi possibile associare il pool di risorse marketing ai progetti a cui sono assegnati i membri del team.
 
-* È possibile che tutti gli utenti dello stesso pool di risorse adempiano ruoli simili, soprattutto se i ruoli sono ad alta richiesta e devono essere iscritti in budget separatamente.
+* È possibile fare in modo che tutti gli utenti dello stesso Pool di Risorse svolgano ruoli simili, soprattutto se i ruoli sono molto richiesti e devono essere preventivati separatamente.
 
-   Ad esempio, puoi disporre di risorse esterne che funzionano come Consulenti e che desideri avere a disposizione di un progetto di tanto in tanto. È possibile creare un pool di risorse per i consulenti da allegare ai progetti, in cui inserire entrambi gli utenti che sono Consulenti interni o esterni.
+  Ad esempio, è possibile che alcune risorse esterne funzionino come consulenti e che si desideri rendere disponibili per un progetto di tanto in tanto. È possibile creare un Pool di Risorse per i consulenti da allegare ai progetti, dove è possibile inserire utenti che siano consulenti interni o esterni.
 
-* È inoltre possibile creare pool di risorse per reparto o centro di costo.
-* Non è consigliabile aggiungere tutti gli utenti del sistema a un pool di risorse se si dispone di un numero elevato di utenti o se si gestiscono le risorse per un numero elevato di progetti alla volta.
+* È inoltre possibile creare gruppi di risorse per reparto o centro di costo.
+* È consigliabile non aggiungere tutti gli utenti del sistema a un gruppo di risorse se il numero di utenti è elevato o se si gestiscono le risorse per un numero elevato di progetti alla volta.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

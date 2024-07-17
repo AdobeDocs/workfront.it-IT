@@ -38,7 +38,7 @@ Attualmente, gli utenti non possono visualizzare il widget nelle seguenti aree:&
 * La casella Modifica dell’oggetto, se non ha il nuovo aspetto dell’esperienza Adobe Workfront (ad esempio, la casella Modifica spesa)
 * &#x200B;L’app mobile di Workfront
 
-Per ulteriori informazioni sull’aggiunta di widget ai moduli personalizzati, consulta [Aggiungere o modificare un’immagine o un altro widget di risorse in un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Per ulteriori informazioni sull&#39;aggiunta di widget ai moduli personalizzati, vedere [Aggiungere o modificare un widget di immagini o altre risorse in un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Associare un modulo personalizzato a più tipi di oggetto
 
@@ -68,7 +68,7 @@ Questa funzione è particolarmente utile quando si converte un problema o un&#39
 >
 >Quando si verifica la conversione, il modulo personalizzato deve essere già associato al tipo di oggetto in cui si desidera eseguire la conversione.
 
-Per istruzioni sull’aggiunta di un widget di risorse a un modulo personalizzato, consulta [Aggiungere o modificare un’immagine o un altro widget di risorse in un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Per istruzioni sull&#39;aggiunta di un widget di risorse a un modulo personalizzato, vedere [Aggiungere o modificare un widget di immagini o altre risorse in un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 Quando crei o modifichi un modulo personalizzato con più oggetti, considera quanto segue:
 
@@ -90,13 +90,13 @@ In un modulo personalizzato associato a tipi di oggetto di entrambi questi grupp
 
 Quando si associa un tipo di oggetto che utilizza opzioni di autorizzazione diverse rispetto agli altri tipi di oggetto già presenti in un modulo personalizzato, viene visualizzato un messaggio che consente di passare all&#39;insieme comune di opzioni di autorizzazione che verranno utilizzate per il modulo. Questa modifica verrà applicata a tutti i campi, anche se non sono inclusi in un’interruzione di sezione.
 
-Per ulteriori informazioni, consulta [Aggiungere un’interruzione di sezione a un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
+Per ulteriori informazioni, vedere [Aggiungere un&#39;interruzione di sezione a un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
 
 ### Compatibilità del campo personalizzato calcolato
 
-In un modulo personalizzato con più oggetti, se un campo calcolato fa riferimento a campi disponibili per l&#39;utilizzo con tutti i tipi di oggetto associati al modulo, ad esempio {name}, {description}, e {entryDate}, disponibili per più tipi di oggetto), i dati vengono calcolati correttamente, indipendentemente dall&#39;oggetto a cui vengono associati.
+In un modulo personalizzato con più oggetti, se un campo calcolato fa riferimento a campi disponibili per l&#39;utilizzo con tutti i tipi di oggetto associati al modulo (ad esempio {name}, {description} e {entryDate}, disponibili per più tipi di oggetto), i dati vengono calcolati correttamente, indipendentemente dall&#39;oggetto a cui vengono associati.
 
-Ad esempio, se disponi di un modulo con più oggetti per progetti e problemi e aggiungi un campo calcolato contenente {name} espressione, il campo visualizza il nome del progetto quando si aggiunge il modulo a un progetto e il nome dell&#39;attività dell&#39;utente che aggiunge il modulo a un&#39;attività.
+Ad esempio, se si dispone di un modulo con più oggetti per progetti e problemi e si aggiunge un campo calcolato contenente l&#39;espressione {name}, il campo visualizza il nome del progetto quando si aggiunge il modulo a un progetto e il nome dell&#39;attività quando si aggiunge il modulo a un&#39;attività.
 
 Tuttavia, se un campo calcolato nel modulo fa riferimento a un campo non compatibile con tutti i tipi di oggetto del modulo, un messaggio avvisa l&#39;utente di apportare modifiche.
 
@@ -113,9 +113,9 @@ Tuttavia, se un campo calcolato nel modulo fa riferimento a un campo non compati
 In questo caso, puoi effettuare una delle seguenti operazioni:
 
 * Rimuovere uno dei due elementi incompatibili dal modulo personalizzato, ovvero il tipo di oggetto o il campo a cui si fa riferimento.
-* Mantieni entrambi gli elementi e utilizza la variabile di filtro con caratteri jolly `$$OBJCODE` come condizione in un&#39;espressione IF per creare due versioni diverse del campo In carica. Questo consente al campo di funzionare correttamente, indipendentemente dal tipo di oggetto a cui è associato il modulo.
+* Mantenere entrambi gli elementi e utilizzare la variabile filtro con caratteri jolly `$$OBJCODE` come condizione in un&#39;espressione IF per creare due versioni diverse del campo In carica. Questo consente al campo di funzionare correttamente, indipendentemente dal tipo di oggetto a cui è associato il modulo.
 
-  Nell’esempio precedente, anche se per i progetti non è presente il campo Assegnato a: Nome, è disponibile il campo Proprietario predefinito (che viene compilato automaticamente con il nome della persona che ha creato il progetto, a meno che questa impostazione non venga modificata manualmente). Quindi, nel campo personalizzato In carica, puoi utilizzare `$$OBJCODE` come mostrato di seguito per fare riferimento al campo Proprietario quando il modulo personalizzato è allegato a un progetto e al campo Assegnato a: Nome quando il modulo è allegato a un’attività:
+  Nell’esempio precedente, anche se per i progetti non è presente il campo Assegnato a: Nome, è disponibile il campo Proprietario predefinito (che viene compilato automaticamente con il nome della persona che ha creato il progetto, a meno che questa impostazione non venga modificata manualmente). Pertanto, nel campo Personalizzato in carica, è possibile utilizzare `$$OBJCODE` come illustrato di seguito per fare riferimento al campo Proprietario quando il modulo personalizzato viene allegato a un progetto e al campo Assegnato a: Nome quando il modulo viene allegato a un&#39;attività:
 
   ```
   IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})
@@ -123,11 +123,11 @@ In questo caso, puoi effettuare una delle seguenti operazioni:
 
 >[!NOTE]
 >
->  Se si aggiunge un tipo di oggetto davanti al nome di un campo, tale tipo fa riferimento all&#39;oggetto padre dell&#39;oggetto, pertanto non è possibile utilizzare `{project}.{name}` con un progetto, ma puoi utilizzarlo con un’attività.
+>  Se si aggiunge un tipo di oggetto davanti al nome di un campo, questo fa riferimento all&#39;oggetto padre dell&#39;oggetto, pertanto non è possibile utilizzare `{project}.{name}` con un progetto, ma è possibile utilizzarlo con un&#39;attività.
 
-Per istruzioni sull’aggiunta di un campo personalizzato calcolato a un modulo personalizzato, consulta [Aggiungere dati calcolati a un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Per istruzioni sull&#39;aggiunta di un campo personalizzato calcolato a un modulo personalizzato, vedere [Aggiungere dati calcolati a un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-Per ulteriori informazioni su variabili come `$$OBJCODE`, vedi [Panoramica delle variabili filtro con caratteri jolly](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+Per ulteriori informazioni sulle variabili come `$$OBJCODE`, vedere [Panoramica delle variabili filtro con caratteri jolly](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ### Attenzione sull&#39;eliminazione di un tipo di oggetto da un modulo personalizzato
 
@@ -135,4 +135,4 @@ Per ulteriori informazioni su variabili come `$$OBJCODE`, vedi [Panoramica delle
 
 Inoltre, non esiste un sistema di notifica per avvisare gli utenti che utilizzano il modulo personalizzato che il modulo è stato eliminato.
 
-Per ulteriori informazioni, consulta [Eliminare un campo personalizzato o un widget dal sistema](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
+Per ulteriori informazioni, vedere [Eliminare un campo personalizzato o un widget dal sistema](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).

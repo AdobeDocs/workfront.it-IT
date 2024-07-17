@@ -6,10 +6,10 @@ title: Gestisci scenari bloccati in [!DNL Adobe Workfront Fusion]
 description: Gestisci scenari bloccati in [!DNL Adobe Workfront Fusion]
 author: Becky
 feature: Workfront Fusion
-exl-id: 014434dc-7548-42d1-bacd-89ddf627b647
-source-git-commit: 9050684504f2335f5631f63978a9f65c25fd8d5f
+exl-id: 5fccf336-d904-43fe-ad4a-c3ce76dbcad0
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -40,18 +40,18 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   </tr> 
   <tr> 
    <td role="rowheader">Licenza [!UICONTROL Adobe Workfront Fusion]**</td> 
-  <td> <p>[!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro] </p><p>[!UICONTROL [!DNL Workfront Fusion] per automazione lavoro] </p>  </td>    </tr> 
+  <td> <p>[!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione lavoro] </p><p>[!UICONTROL [!DNL Workfront Fusion] per automazione lavoro] </p>  </td>    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
-   <td>La tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</td> 
+   <td>La tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</td> 
   </tr> 
  </tbody> 
 </table>
 
-Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore [!DNL Workfront].
 
-Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Informazioni sugli scenari bloccati
 
@@ -74,6 +74,6 @@ Lo sblocco manuale di uno scenario può causare errori nelle esecuzioni di uno s
 >Lo sblocco manuale di uno scenario può causare errori nelle esecuzioni di uno scenario.
 
 1. Vai alla pagina dei dettagli dello scenario bloccato.
-1. Clic **[!UICONTROL Opzioni]** nell&#39;angolo superiore destro dello schermo.
-1. Seleziona **[!UICONTROL Sblocca esecuzione]**.
-1. Clic **[!UICONTROL Sblocca]**.
+1. Fai clic su **[!UICONTROL Opzioni]** nell&#39;angolo superiore destro dello schermo.
+1. Selezionare **[!UICONTROL Sblocca esecuzione]**.
+1. Fai clic su **[!UICONTROL Sblocca]**.

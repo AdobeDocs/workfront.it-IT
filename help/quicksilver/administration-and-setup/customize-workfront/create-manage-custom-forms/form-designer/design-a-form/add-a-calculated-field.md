@@ -25,7 +25,7 @@ Un campo personalizzato calcolato può contenere:
 
   >[!INFO]
   >
-  > **Esempio:** Per calcolare i ricavi generati dai progetti e dalle attività, è possibile creare un campo personalizzato calcolato contenente il campo predefinito Ricavi effettivi. Quando un utente allega il modulo personalizzato a un progetto o a un’attività, nel campo vengono visualizzate le entrate relative al progetto o all’attività.
+  > **Esempio:** Per calcolare le entrate generate dai progetti e dalle attività, è possibile creare un campo personalizzato calcolato contenente il campo predefinito Entrate effettive. Quando un utente allega il modulo personalizzato a un progetto o a un’attività, nel campo vengono visualizzate le entrate relative al progetto o all’attività.
 
 * Espressione che fa riferimento a uno o più campi. Possono essere campi personalizzati, altri campi personalizzati calcolati e campi incorporati.
 
@@ -56,12 +56,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Accesso amministrativo ai moduli personalizzati</p> <p>Per informazioni sulle modalità di concessione dell'accesso da parte degli amministratori di Workfront, vedere <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Concedere agli utenti l'accesso amministrativo a determinate aree</a>.</p> </td> 
+   <td> <p>Accesso amministrativo ai moduli personalizzati</p> <p>Per informazioni su come gli amministratori di Workfront concedono questo accesso, vedere <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Concedere agli utenti l'accesso amministrativo ad alcune aree</a>.</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;Per informazioni sulle configurazioni di piano, tipo di licenza o livello di accesso disponibili, contattare l&#39;amministratore Workfront.
+&#42;Per informazioni sulle configurazioni del piano, del tipo di licenza o del livello di accesso disponibili, contattare l&#39;amministratore Workfront.
 
 ## Riutilizzare un campo personalizzato calcolato esistente in un modulo personalizzato
 
@@ -75,28 +75,28 @@ Quando si utilizza un campo personalizzato calcolato esistente, il calcolo non v
 >
 >Le modifiche nelle espressioni calcolate possono causare l’obsolescenza del valore del campo sugli oggetti. Per essere certi di visualizzare sempre il calcolo aggiornato in questi campi, effettuare una delle seguenti operazioni:
 >
->* Dopo aver salvato un oggetto in cui sono stati modificati dati in un modulo personalizzato allegato, fare clic sull&#39;icona Altro ![](assets/more-icon.png) nella pagina principale dell&#39;oggetto, quindi Ricalcola espressioni personalizzate.
+>* Dopo aver salvato un oggetto in cui sono stati modificati i dati in un modulo personalizzato allegato, fare clic sull&#39;icona Altro ![](assets/more-icon.png) nella pagina principale dell&#39;oggetto, quindi ricalcolare le espressioni personalizzate.
 >* Selezionare l&#39;opzione Ricalcola espressioni personalizzate quando si modificano oggetti in blocco.
 >* Selezionare l&#39;opzione Aggiorna calcoli precedenti durante la modifica di un campo personalizzato calcolato in un modulo personalizzato.
 
 Per riutilizzare un campo personalizzato calcolato esistente:
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
-1. Clic **Forms personalizzato** nel pannello a sinistra.
+1. Fai clic su **Forms personalizzato** nel pannello a sinistra.
 
    <!-- >[!TIP]
     >
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
-1. Clic **Nuovo modulo personalizzato.**
-1. Seleziona i tipi di oggetto a cui desideri allegare il modulo personalizzato, quindi fai clic su **Continua**.
+1. Fare clic su **Nuovo modulo personalizzato.**
+1. Seleziona i tipi di oggetto a cui vuoi allegare il modulo personalizzato, quindi fai clic su **Continua**.
 
-1. In alto a sinistra nella schermata, fai clic su **Libreria campi**.
+1. Nella parte superiore sinistra dello schermo fare clic su **Libreria campi**.
 
    ![](assets/field-library.png)
 
-1. Utilizza la casella di ricerca o espandi il **Calcolato** per individuare il campo calcolato necessario, quindi trascinare il campo nel punto in cui si desidera visualizzarlo nel modulo personalizzato.
+1. Utilizza la casella di ricerca o espandi la sezione **Calcolato** per individuare il campo calcolato necessario, quindi trascina il campo nel punto in cui desideri che venga visualizzato nel modulo personalizzato.
 
 1. (Facoltativo) Ripeti il passaggio precedente per aggiungere altri campi.
 
@@ -107,11 +107,11 @@ Per riutilizzare un campo personalizzato calcolato esistente:
    >
    >Esempi di moduli complessi includono moduli con parametri a catena, campi di dati personalizzati calcolati e opzioni con più valori in un singolo campo.
 
-1. Per salvare le modifiche, fai clic su **Applica** e passare a un&#39;altra sezione per continuare a creare il modulo.
+1. Per salvare le modifiche, fai clic su **Applica** e passa a un&#39;altra sezione per continuare a creare il modulo.
 
    oppure
 
-   Clic **Salva e chiudi**.
+   Fare clic su **Salva e chiudi**.
 
 ## Aggiungi un nuovo campo calcolato
 
@@ -119,18 +119,18 @@ Per riutilizzare un campo personalizzato calcolato esistente:
 >
 >Prima di creare un nuovo campo personalizzato calcolato, identificare i campi esistenti che si desidera includere in modo da essere certi che i dati necessari per il calcolo siano presenti in Workfront.
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
-1. Clic **Forms personalizzato** nel pannello a sinistra.
+1. Fai clic su **Forms personalizzato** nel pannello a sinistra.
 
    <!-- >[!TIP]
     >
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
-1. Clic **Nuovo modulo personalizzato.**
-1. Seleziona i tipi di oggetto a cui desideri allegare il modulo personalizzato, quindi fai clic su **Continua**.
+1. Fare clic su **Nuovo modulo personalizzato.**
+1. Seleziona i tipi di oggetto a cui vuoi allegare il modulo personalizzato, quindi fai clic su **Continua**.
 
-1. Sul lato sinistro dello schermo, trovare **Calcolato** e trascinarlo in una sezione dell’area di lavoro.
+1. Sul lato sinistro della schermata, trovare **Calcolato** e trascinarlo in una sezione dell&#39;area di lavoro.
 
    ![](assets/drag-field-to-section.png)
 
@@ -144,7 +144,7 @@ Per riutilizzare un campo personalizzato calcolato esistente:
     <tbody> 
      <tr> 
       <td role="rowheader">Etichetta</td> 
-      <td>Digitare un'etichetta per il campo. Questo è ciò che gli utenti vedranno quando utilizzano il modulo personalizzato. Il campo <b>Nome</b>, che viene compilato automaticamente, viene inserito come riferimento da Workfront nei rapporti.</td> 
+      <td>Digitare un'etichetta per il campo. Questo è ciò che gli utenti vedranno quando utilizzano il modulo personalizzato. Nei report, Workfront fa riferimento al campo <b>Name</b>, che viene compilato automaticamente.</td> 
      </tr> 
      <tr> 
       <td role="rowheader" id="instructions">Istruzioni</td> 
@@ -156,15 +156,15 @@ Per riutilizzare un campo personalizzato calcolato esistente:
      </tr> 
      <tr> 
       <td role="rowheader">Formato</td> 
-      <td> <p>Il formato in cui si desidera memorizzare e visualizzare i risultati del campo.</p> <p>Se il campo viene utilizzato nei calcoli matematici, utilizzare sempre un <strong>Numero</strong> o un <strong>Valuta</strong> formato. Quando selezionate Numero (Number) o Valuta (Currency), il sistema tronca automaticamente i numeri che iniziano con 0.</p> 
-      <p><b>IMPORTANTE</b>: prima di scegliere un formato, considera il formato corretto per il nuovo campo. Impossibile modificare il campo di formato dopo il salvataggio del modulo personalizzato. La selezione del formato errato potrebbe inoltre influire sui calcoli futuri e sui valori aggregati nei raggruppamenti di report ed elenchi.</p>
-      <p><strong>NOTA:</strong> I campi calcolati con un formato Valuta non devono includere virgolette. (Ad esempio, utilizzare 800.00 e non "800.00"). L’utilizzo delle virgolette può causare conseguenze impreviste a causa di sfumature con la formattazione della lingua per i tipi di valuta.</p></td>
+      <td> <p>Il formato in cui si desidera memorizzare e visualizzare i risultati del campo.</p> <p>Se il campo verrà utilizzato nei calcoli matematici, utilizzare sempre un formato <strong>Numero</strong> o <strong>Valuta</strong>. Quando selezionate Numero (Number) o Valuta (Currency), il sistema tronca automaticamente i numeri che iniziano con 0.</p> 
+      <p><b>IMPORTANTE</b>: prima di scegliere un formato, considerare il formato corretto per il nuovo campo. Impossibile modificare il campo di formato dopo il salvataggio del modulo personalizzato. La selezione del formato errato potrebbe inoltre influire sui calcoli futuri e sui valori aggregati nei raggruppamenti di report ed elenchi.</p>
+      <p><strong>NOTA:</strong> i campi calcolati con un formato Valuta non devono includere virgolette. (Ad esempio, utilizzare 800.00 e non "800.00"). L’utilizzo delle virgolette può causare conseguenze impreviste a causa di sfumature con la formattazione della lingua per i tipi di valuta.</p></td>
      </tr> 
     </tbody> 
    </table>
 
-1. In **Calcolo** , iniziare a creare il calcolo:
-   1. Clic **Ingrandisci** per aprire l&#39;Editor di calcolo e generare il calcolo.</p>
+1. Nella casella **Calcolo**, inizia a generare il calcolo:
+   1. Fai clic su **Ingrandisci** per aprire l&#39;editor di calcolo e generare il calcolo.</p>
 Un calcolo inizia in genere con un&#39;espressione, seguita da parentesi contenenti i campi a cui si desidera fare riferimento quando il modulo personalizzato viene allegato a un oggetto.
 
       Ogni campo deve essere racchiuso tra parentesi graffe. Quando si inizia a digitare il nome di un campo, il sistema formula dei suggerimenti ed è possibile selezionarne uno per inserirlo nel calcolo.
@@ -177,23 +177,23 @@ Un calcolo inizia in genere con un&#39;espressione, seguita da parentesi contene
       >
       >Attualmente, il sistema formula suggerimenti solo quando si inizia a digitare il nome di un campo a cui si desidera fare riferimento in un oggetto a cui verrà allegato il modulo personalizzato. I campi dell&#39;oggetto padre non sono consigliati.
 
-      **Racchiudi nomi campi con parentesi graffe**
+      **Nomi di campi surround con parentesi graffe**
 
       * Se si desidera che il calcolo faccia riferimento a un campo incorporato, il nome del campo deve essere racchiuso tra parentesi graffe.
 
-        Ad esempio: `{actualRevenue}`
+        Esempio: `{actualRevenue}`
 
         I nomi dei campi fanno distinzione tra maiuscole e minuscole e devono essere visualizzati nel calcolo esattamente come appaiono nel sistema Workfront.
 
-        Accedi a [Esplora API di Workfront](https://developer.adobe.com/workfront/api-explorer/) per identificare i nomi dei campi che possono essere utilizzati nei calcoli.
+        Passa a [Esplora API di Workfront](https://developer.adobe.com/workfront/api-explorer/) per identificare i nomi dei campi che possono essere utilizzati nei calcoli.
 
-      * Se si desidera che il calcolo faccia riferimento a un campo personalizzato, il nome del campo deve essere racchiuso tra parentesi graffe e preceduto da `DE:` tra parentesi.
+      * Se si desidera che il calcolo faccia riferimento a un campo personalizzato, il nome del campo deve essere racchiuso tra parentesi graffe e preceduto da `DE:` all&#39;interno delle parentesi.
 
-        Ad esempio: `{DE:Profit}`
+        Esempio: `{DE:Profit}`
 
         Il sistema elenca tutti i campi personalizzati tra cui è possibile scegliere quando si digita `DE:`.
 
-         * Se vuoi che il calcolo faccia riferimento a un campo che estrae dati da *principale* oggetto quando il modulo personalizzato viene allegato a un oggetto, è necessario anteporre al nome del campo il tipo di oggetto dell&#39;oggetto padre, tra parentesi graffe.
+         * Se si desidera che il calcolo faccia riferimento a un campo che estrae dati dall&#39;oggetto *parent* quando il modulo personalizzato viene allegato a un oggetto, è necessario anteporre al nome del campo il tipo di oggetto dell&#39;oggetto padre, anche tra parentesi graffe.
 
         Ad esempio, se il modulo personalizzato è configurato per l&#39;utilizzo con le attività e si desidera che il campo calcoli le entrate effettive dell&#39;oggetto padre quando il modulo viene allegato a un&#39;attività, è necessario indicare `Project` come tipo di oggetto del campo:
 
@@ -203,7 +203,7 @@ Un calcolo inizia in genere con un&#39;espressione, seguita da parentesi contene
 
         `{project}.{DE:profit}`
 
-        **Separa elementi con periodi**
+        **Separa gli elementi con punti**
 
         Quando si fa riferimento a un oggetto correlato in un campo personalizzato calcolato, è necessario separare i nomi degli oggetti e gli attributi con i punti.
 
@@ -213,7 +213,7 @@ Un calcolo inizia in genere con un&#39;espressione, seguita da parentesi contene
 
         Questo determinerebbe quanto segue: Dall’oggetto del modulo personalizzato (un’attività), è possibile accedere all’oggetto successivo correlato all’attività (un progetto). Da qui, puoi accedere al successivo oggetto correlato al progetto (un portfolio), quindi fare riferimento ai campi definiti per l’oggetto portfolio (il proprietario)
 
-        **Sintassi del nome per il riferimento a un campo personalizzato**
+        **Sintassi del nome per fare riferimento a un campo personalizzato**
 
         Quando si fa riferimento a un altro campo personalizzato in un campo personalizzato calcolato, è necessario immettere il nome del campo visualizzato nell&#39;interfaccia utente di Workfront.
 
@@ -223,7 +223,7 @@ Un calcolo inizia in genere con un&#39;espressione, seguita da parentesi contene
 
         >[!NOTE]
         >
-        >La sintassi di un campo typeahead è leggermente diversa da quella di altri tipi di campi, in quanto è necessario aggiungere `:name` alla fine.
+        >La sintassi di un campo typeahead è leggermente diversa da quella di altri tipi di campi perché è necessario aggiungere `:name` alla fine.
         >
         >Ad esempio, per fare riferimento all’opzione selezionata in un campo typeahead personalizzato denominato &quot;Executive sponsor&quot;, digita:
         >
@@ -234,7 +234,7 @@ Un calcolo inizia in genere con un&#39;espressione, seguita da parentesi contene
 
         In un modulo personalizzato con più oggetti, i tipi di oggetto selezionati devono essere compatibili con almeno un campo a cui si fa riferimento nei campi personalizzati calcolati del modulo. I campi non compatibili con l’oggetto visualizzeranno N/D nel modulo.
 
-        Per garantire che il campo calcolato visualizzi un risultato corretto per tutti i tipi di oggetto, è necessario utilizzare `$$OBJCODE` per definire un calcolo per ciascun tipo di oggetto.
+        Per assicurarsi che il campo calcolato visualizzi un risultato corretto per tutti i tipi di oggetto, è necessario utilizzare `$$OBJCODE` per definire un calcolo per ciascun tipo di oggetto.
 
         >[!INFO]
         >
@@ -249,13 +249,13 @@ Un calcolo inizia in genere con un&#39;espressione, seguita da parentesi contene
 
         >[!INFO]
         >
-        >**Esempio:** Sebbene nei progetti non sia presente il campo Assegnato a: Nome, è disponibile un campo Proprietario predefinito che viene automaticamente compilato con il nome della persona che ha creato il progetto, a meno che questa impostazione non venga modificata manualmente.
+        >**Esempio:** Sebbene nei progetti non sia presente il campo Assegnato a: Nome, è disponibile un campo Proprietario predefinito (che viene compilato automaticamente con il nome della persona che ha creato il progetto, a meno che questo non venga modificato manualmente da qualcuno).
         >
-        >Quindi, nel campo personalizzato In carica, puoi utilizzare `$$OBJCODE` come mostrato di seguito per fare riferimento al campo Proprietario quando il modulo personalizzato è allegato a un progetto e al campo Assegnato a: Nome quando il modulo è allegato a un’attività:
+        >Pertanto, nel campo Personalizzato in carica, è possibile utilizzare `$$OBJCODE` come illustrato di seguito per fare riferimento al campo Proprietario quando il modulo personalizzato viene allegato a un progetto e al campo Assegnato a: Nome quando il modulo viene allegato a un&#39;attività:
         >
         >`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
 
-        Per ulteriori informazioni su variabili come `$$OBJCODE,` vedi [Panoramica delle variabili filtro con caratteri jolly](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+        Per ulteriori informazioni su variabili come `$$OBJCODE,`, vedere [Panoramica delle variabili filtro con caratteri jolly](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
         **Aggiornamenti automatici dei campi personalizzati calcolati**
 
@@ -271,7 +271,7 @@ Un calcolo inizia in genere con un&#39;espressione, seguita da parentesi contene
 
 +++
 
-   1. Fare clic nella casella di testo grande, quindi fare clic su **Espressioni** e **Campi** che sono disponibili per aggiungerli al calcolo.
+   1. Fai clic nella casella di testo grande, quindi fai clic su **Espressioni** e **Campi** disponibili per aggiungerli al calcolo.
 
       È inoltre possibile iniziare a digitare un&#39;espressione o un campo nella casella di testo grande, quindi selezionarlo quando viene visualizzato. Ogni elemento viene visualizzato con una &quot;F&quot; per il campo o una &quot;E&quot; per l’espressione.
 
@@ -283,7 +283,7 @@ Un calcolo inizia in genere con un&#39;espressione, seguita da parentesi contene
       >
       >Per ottenere informazioni sui calcoli, eseguire una delle operazioni seguenti:
       > 
-      >* Passa il puntatore del mouse su un&#39;espressione nel calcolo per visualizzare una descrizione, un esempio che mostra come può essere utilizzata e un collegamento &quot;Ulteriori informazioni&quot; per ulteriori informazioni nell&#39;articolo [Panoramica delle espressioni di dati calcolati](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+      >* Passa il puntatore del mouse su un&#39;espressione nel calcolo per visualizzare una descrizione, un esempio che ne illustra le modalità di utilizzo e un collegamento &quot;Ulteriori informazioni&quot; per ulteriori informazioni nell&#39;articolo [Panoramica delle espressioni di dati calcolati](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
       >  ![](assets/hover-expression-help-text.jpg)
       >* Utilizza la codifica a colori per identificare i componenti aggiunti. Le espressioni vengono visualizzate in blu e i campi in verde.
       >  ![](assets/colors-fields-expressions.jpg)
@@ -295,7 +295,7 @@ Un calcolo inizia in genere con un&#39;espressione, seguita da parentesi contene
       >* Riferimento alle espressioni in un calcolo lungo utilizzando i numeri di riga visualizzati a sinistra.
 
 +++
-   1. Clic **Riduci a icona** al termine della creazione del calcolo per il campo personalizzato calcolato.
+   1. Fare clic su **Riduci a icona** al termine della creazione del calcolo per il campo personalizzato calcolato.
 
    1. (Facoltativo) Utilizza una delle seguenti opzioni per configurare ulteriormente il campo personalizzato calcolato:
 
@@ -313,13 +313,13 @@ Un calcolo inizia in genere con un&#39;espressione, seguita da parentesi contene
      </tr> 
      <tr> 
       <td role="rowheader">Visualizza la formula nelle istruzioni</td> 
-      <td>Lascia attiva questa opzione se desideri che gli utenti che compilano il modulo personalizzato visualizzino la formula del campo al passaggio del mouse sul campo. Per ulteriori informazioni, consulta le informazioni su <a href="#instructions" class="MCXref xref">Istruzioni</a> in questa tabella.</td> 
+      <td>Lascia attiva questa opzione se desideri che gli utenti che compilano il modulo personalizzato visualizzino la formula del campo al passaggio del mouse sul campo. Per ulteriori informazioni, vedere le informazioni sulle <a href="#instructions" class="MCXref xref">istruzioni</a> in precedenza in questa tabella.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Per salvare le modifiche, fai clic su **Applica** e passare a un&#39;altra sezione per continuare a creare il modulo.
+1. Per salvare le modifiche, fai clic su **Applica** e passa a un&#39;altra sezione per continuare a creare il modulo.
 
    oppure
 
-   Clic **Salva e chiudi**.
+   Fare clic su **Salva e chiudi**.

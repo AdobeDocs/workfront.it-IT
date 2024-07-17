@@ -42,32 +42,32 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Per eseguire questi passaggi a livello di sistema, è necessario disporre del livello di accesso Amministratore di sistema.
-Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p> <p><b>NOTA</b>: se ancora non disponi dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p> <p><b>NOTA</b>: se non disponi ancora dell'accesso, chiedi all'amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Copiare un modello di layout
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
 1. Nel pannello a sinistra, fai clic su **Interfaccia** > **Modelli di layout**.
 
 1. Fare clic sul nome del modello di layout che si desidera modificare.
-1. Clic **Copia**.
+1. Fai clic su **Copia**.
 
    Tutte le impostazioni, ad eccezione del nome, della descrizione e delle assegnazioni utente nel modello di layout esistente, vengono copiate nel nuovo modello.
 
-1. Nella schermata visualizzata, digita un nuovo **Nome modello di layout** e (facoltativo) un **Descrizione** per quello.
+1. Nella schermata visualizzata, digitare un nuovo **nome modello di layout** e (facoltativo) una **descrizione**.
 
-1. Assegna il modello agli utenti che ne hanno bisogno, come descritto in [Assegnare utenti a un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+1. Assegnare il modello agli utenti che ne hanno bisogno, come descritto in [Assegnare gli utenti a un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 1. (Facoltativo) Personalizza il modello come descritto nei seguenti articoli:
 
    * [Personalizzare il menu principale utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
    * [Personalizzare il pannello sinistro utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
    * [Personalizzare le pagine bloccate utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
    * [Personalizzare la visualizzazione Dettagli utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
-   * [Personalizzare Home e Riepilogo utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   * [Personalizza la home e il riepilogo utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
    * [Personalizzare la pagina di destinazione utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
    * [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    * [Personalizzare la terminologia dell’interfaccia utente utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)

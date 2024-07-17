@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti gli altri miglioramenti apportati con la versione 20.3 all’ambiente di produzione. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana del 10 agosto 2020.
 
-Per un elenco di tutte le modifiche disponibili con la versione 20.3, consulta [Panoramica sulla versione 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 20.3, consulta la [panoramica sulla versione 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Condividere un calendario con un collegamento privato
 
@@ -26,13 +26,13 @@ Per semplificare la condivisione dei calendari in Workfront, è possibile condiv
 
 In precedenza, era possibile condividere un URL pubblico che non richiedeva l’accesso per la visualizzazione.
 
-Per ulteriori informazioni, consulta [Condivisione di un report calendario](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
+Per ulteriori informazioni, vedere [Condividere un report del calendario](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
 
 ## Nuova area Bozze durante la creazione di richieste
 
 Per offrire maggiore flessibilità nell&#39;utilizzo delle richieste, Workfront salva automaticamente ogni richiesta creata come bozza nella nuova area Bozze. Se non disponi di tutte le informazioni necessarie per completare la nuova richiesta, puoi lasciarla come bozza, tornarci sopra e terminarla in un secondo momento. Workfront salva una richiesta per argomento della coda nella nuova area Bozze. Le bozze di richieste possono essere salvate per il tempo necessario fino a quando non si è pronti a completarle e inviarle. Potete anche rimuovere o riposizionare l&#39;area Bozze nel pannello sinistro utilizzando un modello di layout.
 
-Per ulteriori informazioni sulla creazione delle richieste, consulta [Creare e inviare richieste Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+Per ulteriori informazioni sulla creazione di richieste, vedere [Creare e inviare richieste Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ Per gestire facilmente le schede orario con diversi elementi, ora puoi espandere
 
 In precedenza era necessario fare clic su ogni elemento singolarmente.
 
-Per ulteriori informazioni, consulta [Tempo di connessione](../../../timesheets/create-and-manage-timesheets/log-time.md).
+Per ulteriori informazioni, vedere [Tempo di connessione](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
 ## Ignora date effettive nei calendari Workfront
 
@@ -60,7 +60,7 @@ Per avere un maggiore controllo sulla visualizzazione degli oggetti nei Report c
 
 In precedenza, il calendario utilizzava automaticamente le date effettive una volta disponibili.
 
-Per ulteriori informazioni, consulta [Panoramica dei rapporti sul calendario](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+Per ulteriori informazioni, vedere [Panoramica dei report del calendario](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
 ## Utilizzare campi data personalizzati nei report calendario
 
@@ -72,7 +72,7 @@ Per aiutarti a visualizzare e gestire meglio il tuo lavoro quotidiano con i cale
 
 In precedenza, era possibile gestire il calendario solo con date pianificate e previste quando le date effettive non erano disponibili.
 
-Per ulteriori informazioni, consulta [Utilizzare campi data personalizzati in un report calendario](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (o se utilizzi Workfront Classic, consulta [Utilizzare campi data personalizzati in un report calendario](https://one.workfront.com/s/article/Use-custom-date-fields-in-a-calendar-report-432597950?language=en_US)).
+Per ulteriori informazioni, vedere [Utilizzare campi data personalizzati in un report del calendario](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (o se si utilizza Workfront Classic, vedere [Utilizzare campi data personalizzati in un report del calendario](https://one.workfront.com/s/article/Use-custom-date-fields-in-a-calendar-report-432597950?language=en_US)).
 
 ## Modifiche e-mail
 
@@ -80,7 +80,7 @@ Per ulteriori informazioni, consulta [Utilizzare campi data personalizzati in un
 
 In precedenza, gli amministratori di sistema potevano aggiungere un indirizzo e-mail personalizzato nell’area Email Setup (Configurazione e-mail).
 
-**Modifiche alla risposta POP e-mail in entrata:** Gli amministratori di sistema non potranno più configurare un server e-mail POP personalizzato per le risposte e-mail in arrivo alle notifiche.
+**Modifiche alla risposta POP e-mail in entrata:** gli amministratori di sistema non potranno più configurare un server e-mail POP personalizzato per le risposte e-mail in entrata alle notifiche.
 
 Per ulteriori informazioni, consulta [Modifiche e-mail di spoofing e risposta POP](https://one.workfront.com/s/article/Email-spoofing-and-POP-reply-email-changes?language=en_US).
 
@@ -107,7 +107,7 @@ Per rendere più gestibile l’iscrizione degli utenti alla nuova esperienza Wor
 
 Ora è possibile utilizzare un modello di layout per modificare i loghi nell’area di navigazione superiore e nel menu principale per gruppi, team, mansioni e utenti specifici che dispongono di un proprio marchio.
 
-Per ulteriori informazioni, consulta [Personalizza l’istanza di Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+Per ulteriori informazioni, consulta [Personalizza l&#39;istanza Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
 
 ## Gli amministratori di gruppi possono creare e gestire i processi di approvazione
 
@@ -115,7 +115,7 @@ Per consentire una maggiore autonomia e un maggiore controllo dei flussi di lavo
 
 Per evitare che gli amministratori di gruppi modifichino inavvertitamente i processi di approvazione utilizzati nel sistema o creati da altri gruppi, possono accedere solo ai processi di approvazione associati ai gruppi che gestiscono.
 
-Per ulteriori informazioni, consulta [Creare un processo di approvazione per gli elementi di lavoro](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+Per ulteriori informazioni, vedere [Creare un processo di approvazione per gli elementi di lavoro](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 ## Per gli amministratori: la pagina Nuovi gruppi semplifica la creazione e la gestione dei gruppi
 
@@ -129,13 +129,13 @@ Di seguito sono riportati i punti salienti:
 * Elenco sottogruppi: consente di visualizzare, modificare, copiare, esportare ed eliminare i sottogruppi di un gruppo gestito dall&#39;utente.
 * Elenco stati: consente di visualizzare e gestire gli stati del gruppo.
 
-Per ulteriori informazioni, consulta [Creare un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+Per ulteriori informazioni, vedere [Creare un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 ## Novità per gli amministratori: creare fino a 14 livelli di sottogruppi
 
 Per facilitare l’organizzazione dei gruppi Workfront in base alla gerarchia dell’organizzazione, sono stati aumentati da 3 a 14 i livelli dei sottogruppi che è possibile creare all’interno di un gruppo.
 
-Per ulteriori informazioni, consulta [Panoramica sui gruppi](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
+Per ulteriori informazioni, vedere [Panoramica sui gruppi](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
 ## Novità per gli amministratori: nuova barra laterale Configura
 
@@ -152,7 +152,7 @@ La barra laterale sinistra in Configurazione è ora più veloce e facile da usar
 * Quando la barra laterale è compressa, vengono visualizzate solo le icone per ogni funzione. Per visualizzare le voci secondarie sotto una voce della barra laterale principale, posiziona il cursore del mouse sulla relativa icona per visualizzarle in un menu a comparsa. Ad esempio, passa il cursore del mouse sull’icona Processi per visualizzare un menu contenente Approvazioni e Percorsi milestone.
 * È possibile accedere alle due opzioni Kick-Start (Importa dati ed Esporta dati) un clic più velocemente. Si sono spostati da sotto Sistema per visualizzare sul livello principale della barra laterale.
 
-Per informazioni su come utilizzare l’area Configurazione, consulta [Amministrazione e configurazione](../../../administration-and-setup/administration-and-setup.md).
+Per informazioni su come utilizzare l&#39;area Configurazione, vedere [Amministrazione e configurazione](../../../administration-and-setup/administration-and-setup.md).
 
 ## Includi numero cluster nell&#39;area Informazioni cliente
 
@@ -164,10 +164,10 @@ Per informazioni sull&#39;area Informazioni cliente, vedere [Configurare le info
 
 Il campo base64Encoding è un campo facoltativo utilizzato per abilitare la codifica Base64 dei payload di abbonamento agli eventi. Se viene effettuata una richiesta utilizzando il campo base64Encoding impostato su true, gli oggetti newState e oldState nel payload vengono consegnati come stringhe di codifica Base64. Questa funzione può essere utile se la rete è configurata in modo da non consentire l&#39;utilizzo di caratteri speciali nelle sottoscrizioni di eventi.
 
-Per ulteriori informazioni, consulta [API di abbonamento agli eventi](../../../wf-api/general/event-subs-api.md).
+Per ulteriori informazioni, vedere [API sottoscrizione eventi](../../../wf-api/general/event-subs-api.md).
 
 ## È stata rimossa la possibilità di creare sottoscrizioni di eventi duplicate
 
 Per evitare il recapito di messaggi duplicati, non è più possibile creare sottoscrizioni duplicate. Inoltre, tutte le sottoscrizioni duplicate create in precedenza sono state rimosse.
 
-Per ulteriori informazioni, consulta [Domande frequenti - Abbonamenti agli eventi](../../../wf-api/general/event-subs-faq.md).
+Per ulteriori informazioni, vedere [Domande frequenti - Sottoscrizioni eventi](../../../wf-api/general/event-subs-faq.md).

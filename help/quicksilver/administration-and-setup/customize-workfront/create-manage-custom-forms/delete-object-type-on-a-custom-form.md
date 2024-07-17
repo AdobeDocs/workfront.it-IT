@@ -63,11 +63,11 @@ Un modulo personalizzato deve avere almeno un tipo di oggetto.
 
 {{step-1-to-setup}}
 
-1. Clic **Forms personalizzato** nel pannello a sinistra.
-1. Seleziona il modulo personalizzato da modificare, quindi fai clic su ![Icona Modifica](assets/edit-icon.png).
-1. Fai clic sulla X su uno qualsiasi dei **Tipi di oggetto** da eliminare dal modulo, quindi fare clic su **Elimina** sul messaggio di avviso visualizzato.
+1. Fai clic su **Forms personalizzato** nel pannello a sinistra.
+1. Seleziona il modulo personalizzato da modificare, quindi fai clic sull&#39;![icona Modifica](assets/edit-icon.png).
+1. Fare clic sulla X su uno qualsiasi dei **Tipi di oggetto** che si desidera eliminare dal modulo, quindi fare clic su **Elimina** nel messaggio di avviso visualizzato.
 
    ![](assets/click-x-object-types.jpg)
 
 1. (Facoltativo) Ripetere il passaggio precedente per qualsiasi altro tipo di oggetto che si desidera rimuovere dal modulo.
-1. Clic **Fine**, quindi fai clic su **Salva e chiudi**.
+1. Fai clic su **Fine**, quindi su **Salva e chiudi**.

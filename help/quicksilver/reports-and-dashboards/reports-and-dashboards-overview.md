@@ -26,5 +26,5 @@ Per ulteriori informazioni sui rapporti e sulle dashboard, vedi gli articoli nel
 
 * [Rapporti](../reports-and-dashboards/reports/reports-overview.md)
 * [Dashboard](../reports-and-dashboards/dashboards/dashboards-overview.md)
-* [Funzionalità di analisi avanzate](../enhanced-analytics/enhanced-analytics.md)
+* [Analisi avanzata](../enhanced-analytics/enhanced-analytics.md)
 * [Dashboard dell’area di lavoro](../reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)

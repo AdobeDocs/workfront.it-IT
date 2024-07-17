@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 21.2 Miglioramenti delle bozze
 
-Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione 21.2 di. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 10 maggio 2021. Per un elenco di tutte le modifiche disponibili con la versione 21.2, consulta [Panoramica sulla versione 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione 21.2 di. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 10 maggio 2021. Per un elenco di tutte le modifiche disponibili con la versione 21.2, consulta la [panoramica sulla versione 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Decisione bozza ora visibile nell’elenco Documenti
 
@@ -31,21 +31,21 @@ Con questo miglioramento, puoi visualizzare facilmente tutte le bozze che hanno 
 
 In precedenza, per visualizzare la decisione generale sulla bozza era necessario passare ai dettagli del documento e al flusso di lavoro della bozza, il che richiedeva più clic.
 
-Per ulteriori informazioni sulle decisioni relative alle bozze, consulta [Area Documenti](../../../documents/managing-documents/documents-area.md).
+Per ulteriori informazioni sulle decisioni relative alle bozze, vedere [Area Documenti](../../../documents/managing-documents/documents-area.md).
 
-Questa funzione è ora inclusa nel [Gestire bozze e versioni nella nuova esperienza Workfront](https://one.workfront.com/s/learningpath3/manage-proofs-and-versions-in-the-new-workfront-experience-MCPBYNLTQSS5H4NG7C27IPCVR5YA) percorso di apprendimento in Workfront One.
+Questa funzionalità è ora inclusa nel percorso di apprendimento [Gestione di bozze e versioni nella nuova esperienza Workfront](https://one.workfront.com/s/learningpath3/manage-proofs-and-versions-in-the-new-workfront-experience-MCPBYNLTQSS5H4NG7C27IPCVR5YA) in Workfront One.
 
 ## Nuovi campi nel rapporto Proof Approval (Approvazione bozza)
 
 Per rendere più visibili informazioni utili sulle prove, sono stati aggiunti i campi seguenti al rapporto Proof Approval (Approvazione della bozza):
 
-* **Data della decisione:** Visualizza la data in cui un approvatore prende una decisione su una bozza. Tale data è riportata anche nel Riepilogo stampa della bozza.
-* **Fase approvatore:** Visualizza le informazioni sull&#39;area di visualizzazione corrente.
-* **Modello flusso di lavoro:** Visualizza tutti i modelli di flusso di lavoro allegati alla bozza. Se non è allegato alcun modello, la colonna è vuota.
+* **Data decisione:** visualizza la data in cui un approvatore prende una decisione su una bozza. Tale data è riportata anche nel Riepilogo stampa della bozza.
+* **Fase approvatore:** Visualizza le informazioni sulla fase corrente.
+* **Modello flusso di lavoro:** Visualizza tutti i modelli di flusso di lavoro allegati alla bozza. Se non è allegato alcun modello, la colonna è vuota.
 
 Questi campi non fanno parte del rapporto predefinito. Devi aggiungerli se vuoi vederli.
 
-Questa funzione è ora inclusa nel [Configurazioni del sistema di bozze, parte 2: Gestione dei flussi di lavoro](https://one.workfront.com/s/learningpath3/proof-system-setups-part-2-workflow-management-MCKUF6NTIJ6BGMXHBCXXX6NN53EA) percorso di apprendimento in Workfront One.
+Questa funzionalità è ora inclusa nelle [impostazioni del sistema di bozze, Parte 2: Gestione dei flussi di lavoro](https://one.workfront.com/s/learningpath3/proof-system-setups-part-2-workflow-management-MCKUF6NTIJ6BGMXHBCXXX6NN53EA), percorso di apprendimento in Workfront One.
 
 ## Riporta il flusso di lavoro della bozza esistente durante la generazione di una nuova versione
 
@@ -57,4 +57,4 @@ Ora, il flusso di lavoro della bozza esistente viene trasferito a tutte le nuove
 
 In precedenza, c’era una leggera differenza nel modo in cui il flusso di lavoro della bozza veniva riportato a seconda di dove lo generavi in Workfront.
 
-Per ulteriori informazioni, consulta [Creare una nuova versione di una bozza](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md).
+Per ulteriori informazioni, vedere [Creare una nuova versione di una bozza](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md).

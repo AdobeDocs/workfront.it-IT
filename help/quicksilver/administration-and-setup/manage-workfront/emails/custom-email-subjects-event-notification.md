@@ -51,26 +51,26 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Planner o versione successiva, con accesso amministrativo per notifiche promemoria</p> <p>Per informazioni su come concedere a un utente del piano l'accesso amministrativo, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Concedere agli utenti l'accesso amministrativo a determinate aree</a>.</p> </td> 
+   <td> <p>Planner o versione successiva, con accesso amministrativo per notifiche promemoria</p> <p>Per informazioni su come concedere a un utente del Plan l'accesso amministrativo, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Concedere agli utenti l'accesso amministrativo ad alcune aree</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Personalizzare le righe dell’oggetto dell’e-mail per le notifiche dell’evento {#customize-email-subject-lines-for-event-notifications}
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
 1. Nel pannello a sinistra, fai clic su **E-mail** > **Notifiche**.
 
-1. Fai clic su **Notifiche evento** scheda.
-1. Fare clic sul nome della notifica dell&#39;evento che si desidera personalizzare per aprire **Notifica evento** casella.
-1. In **Riga dell’oggetto dell’e-mail** , modificare il testo e i campi, inclusi i campi personalizzati, nell&#39;oggetto dell&#39;e-mail.
+1. Fai clic sulla scheda **Notifiche evento**.
+1. Fare clic sul nome della notifica evento che si desidera personalizzare per aprire la casella **Notifica evento**.
+1. Nella casella **Riga oggetto e-mail** modificare il testo e i campi, inclusi i campi personalizzati, nell&#39;oggetto e-mail.
 
    I nomi dei campi aggiunti devono corrispondere alla sintassi Camel Case della struttura del nostro database. <!--For more information about how our objects and their fields are named in the Workfront database, see the [Adobe Workfront API](../../../wf-api/workfront-api.md).-->
 
-1. Clic **Aggiorna** per salvare le nuove righe dell’oggetto nelle e-mail.
+1. Fai clic su **Aggiorna** per salvare le nuove righe dell&#39;oggetto per le e-mail.
 
 ## Personalizzare le righe dell’oggetto dell’e-mail per le e-mail con più oggetti
 
@@ -84,7 +84,7 @@ Se un utente viene incluso in una conversazione sull’attività, sul problema, 
 
 Se aggiunta a una conversazione di progetto, verrà generata un’e-mail con il secondo oggetto. Qui l&#39;oggetto contiene &quot;topReferenceObject:name&quot; e di nuovo Workfront identifica l&#39;oggetto a cui si è fatto riferimento e restituirà il nome dell&#39;oggetto invece di &quot;topReferenceObject:name&quot; nell&#39;oggetto. L’oggetto dell’e-mail sarà simile al seguente: &quot;Commento sul progetto ABC&quot;.
 
-Per modificare l’oggetto dell’e-mail e aggiungere campi aggiuntivi a una delle righe dell’oggetto, consulta [Personalizzare le righe dell’oggetto dell’e-mail per le notifiche dell’evento](#customize-email-subject-lines-for-event-notifications) in questo articolo.
+Per modificare le righe dell&#39;oggetto e-mail e aggiungere campi aggiuntivi a entrambe le righe dell&#39;oggetto, vedere [Personalizzare le righe dell&#39;oggetto e-mail per le notifiche dell&#39;evento](#customize-email-subject-lines-for-event-notifications) in questo articolo.
 
 ## Personalizzare le righe dell’oggetto dell’e-mail per le e-mail con più azioni
 
@@ -94,4 +94,4 @@ Ad esempio, la richiesta di aggiungere un documento a un problema è un evento c
 
 ![](assets/ev-not-mult-subj-lines-diff-actions.png)
 
-Per modificare l’oggetto dell’e-mail e aggiungere campi aggiuntivi a una delle righe dell’oggetto, consulta [Personalizzare le righe dell’oggetto dell’e-mail per le notifiche dell’evento](#customize-email-subject-lines-for-event-notifications) in questo articolo.
+Per modificare le righe dell&#39;oggetto e-mail e aggiungere campi aggiuntivi a entrambe le righe dell&#39;oggetto, vedere [Personalizzare le righe dell&#39;oggetto e-mail per le notifiche dell&#39;evento](#customize-email-subject-lines-for-event-notifications) in questo articolo.

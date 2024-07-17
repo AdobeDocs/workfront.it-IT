@@ -2,8 +2,8 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
-title: Gestire il limite Work in Progress (WIP) su una bacheca
-description: È possibile configurare un limite Work In Progress (WIP) per ogni colonna di una bacheca.
+title: Gestire il limite WIP (Work In Progress) su una bacheca
+description: È possibile configurare un limite WIP per ogni colonna di una bacheca.
 author: Lisa
 feature: Agile
 exl-id: 7901c6e7-75a4-41e4-b288-d527c4a6d031
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 ---
 
-# Gestire [!UICONTROL Lavori in corso] Limite (WIP) su una bacheca
+# Gestisci il limite [!UICONTROL Work in Progress] (WIP) su una bacheca
 
-Puoi configurare un [!UICONTROL Lavoro in corso] Limite (WIP) per ogni colonna di una bacheca.
+È possibile configurare un limite di [!UICONTROL Work In Progress] (WIP) per ogni colonna di una bacheca.
 
-Il limite WIP è semplicemente un avviso visivo e non ti limita ad avere più elementi in ogni colonna del limite impostato.
+Il limite WIP è semplicemente un&#39;avvertenza visiva e non impedisce di avere più elementi in ogni colonna rispetto al limite impostato.
 
 ## Requisiti di accesso
 
@@ -36,24 +36,24 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>[!UICONTROL Request] o superiore</p> </td> 
+   <td> <p>[!UICONTROL Request] o versione successiva</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
 
-## Imposta il limite WIP su una colonna
+## Impostare il limite WIP per una colonna
 
-1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Schede]**.
-1. Accedete a una bacheca. Per informazioni, consulta [Creare o modificare una bacheca](../../agile/get-started-with-boards/create-edit-board.md).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Bacheche]**.
+1. Accedi a una bacheca. Per informazioni, consulta [Creare o modificare una bacheca](../../agile/get-started-with-boards/create-edit-board.md).
 1. Individuare la colonna a cui si desidera aggiungere il limite WIP.
 
-   Per aggiungere una nuova colonna, vedi [Gestire le colonne della bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+   Per aggiungere una nuova colonna, vedi [Gestisci colonne bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
-1. Fai clic sul pulsante **[!UICONTROL Altro]** nella colonna e selezionare **[!UICONTROL Modifica]** per aprire l&#39;area Impostazioni.
-1. Sotto [!UICONTROL Criteri colonna], abilita **[!UICONTROL Lavori in corso] limite** criterio per limitare il numero di schede che possono essere aggiunte alla colonna.
-1. Digita il numero limite nella **[!UICONTROL Imposta limite]** campo .
+1. Fai clic sul menu **[!UICONTROL Altro]** nella colonna e seleziona **[!UICONTROL Modifica]** per aprire l&#39;area Impostazioni.
+1. In [!UICONTROL Criteri colonna], abilita il criterio **[!UICONTROL Work in progress] limit** per limitare il numero di schede che possono essere aggiunte alla colonna.
+1. Digitare il numero di limite nel campo **[!UICONTROL Imposta limite]**.
 
    ![Limite WIP per colonna](assets/boards-wip-limit-in-column.png)
 
@@ -61,4 +61,4 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    ![Contatore limite WIP](assets/boards-wip-limit-counter.png)
 
-1. Fai clic su **[!UICONTROL Chiudi]** per uscire dalla [!UICONTROL Impostazioni] e visualizza la colonna e le relative schede.
+1. Fai clic su **[!UICONTROL Chiudi]** per uscire dall&#39;area [!UICONTROL Impostazioni] e visualizzare la colonna e le relative schede.

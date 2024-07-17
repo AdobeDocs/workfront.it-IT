@@ -19,6 +19,6 @@ ht-degree: 0%
 
 Questa sezione contiene i seguenti articoli:
 
-* [Introduzione ai rapporti](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
-* [Salvare i rapporti predefiniti come nuovi rapporti](../../../reports-and-dashboards/reports/reporting/save-default-reports-new-reports.md)
+* [Introduzione ai report](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+* [Salva i report predefiniti come nuovi report](../../../reports-and-dashboards/reports/reporting/save-default-reports-new-reports.md)
   <!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program)-->

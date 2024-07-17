@@ -99,7 +99,7 @@ Workfront ha i seguenti limiti:
 * ITG - Intergrafo
 * JBG - JBIG
 * JB2 - JBIG2
-* JPG - Joint Photographic Experts Group (JPEG)
+* Gruppo misto di esperti fotografici (JPEG) dell’JPG
 * JPEG-XR - Windows Media Photo/HD Photo (HDP)
 * JPEG-LS - JPEG senza perdita di dati
 * J2K - JPEG 2000
@@ -239,7 +239,7 @@ Workfront ha i seguenti limiti:
 
 ## Acquisizioni web
 
-Puoi creare bozze statiche di pagine web. Per ulteriori informazioni, consulta [Creare una bozza statica per un sito web o altro contenuto web](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md) e [Creare una bozza statica di un sito web utilizzando Workfront Proof](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md).
+Puoi creare bozze statiche di pagine web. Per ulteriori informazioni, vedere [Creare una bozza statica per un sito Web o un altro contenuto Web](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md) e [Creare una bozza statica per un sito Web utilizzando Workfront Proof](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md).
 
 ## File ZIP
 
@@ -247,7 +247,7 @@ Per motivi di sicurezza, i file ZIP non sono supportati o estratti. Decomprimi i
 
 Puoi inviare file ZIP solo se contengono un progetto interattivo completo e se il tuo account dispone di funzioni interattive abilitate (piani Premium).
 
-Per ulteriori informazioni, consulta [Panoramica delle bozze dei contenuti interattivi](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
+Per ulteriori informazioni, vedere [Panoramica delle bozze dei contenuti interattivi](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
 ## File InDesign e Quark
 

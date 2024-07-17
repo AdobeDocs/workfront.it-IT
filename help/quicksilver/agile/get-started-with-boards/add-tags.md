@@ -8,8 +8,8 @@ feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
 source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 2%
+source-wordcount: '538'
+ht-degree: 1%
 
 ---
 
@@ -42,21 +42,21 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
 
 ## Creare tag per una bacheca
 
 {{step1-to-boards}}
 
 1. Accedi a una bacheca. Per informazioni, consulta [Creare o modificare una bacheca](../../agile/get-started-with-boards/create-edit-board.md).
-1. Fai clic su **[!UICONTROL Altro]** menu ![Menu Altro](assets/more-icon-spectrum.png) accanto al nome della bacheca, quindi scegli **[!UICONTROL Gestione tag]**.
+1. Fai clic sul menu **[!UICONTROL Altro]** ![Altro menu](assets/more-icon-spectrum.png) accanto al nome della bacheca, quindi scegli **[!UICONTROL Gestione tag]**.
 
-   ![Seleziona Tag Manager](assets/boards-tagmanager-350x189.png)
+   ![Seleziona Gestione Tag](assets/boards-tagmanager-350x189.png)
 
-1. In [!UICONTROL Gestione tag] finestra di dialogo, seleziona [!UICONTROL **Aggiungi tag**] nel [!UICONTROL Tag della bacheca] sezione.
+1. Nella finestra di dialogo [!UICONTROL Gestione tag], seleziona [!UICONTROL **Aggiungi tag**] nella sezione [!UICONTROL Tag bacheca].
 1. Digita il nome del tag nella casella evidenziata, quindi scegli un colore per il tag dal menu a discesa. Il tag viene salvato automaticamente.
 1. (Facoltativo) Ripeti i passaggi 4-5 per creare altri tag.
-1. Clic **[!UICONTROL Fine]** nell’angolo in alto a destra della casella.
+1. Fai clic su **[!UICONTROL Fine]** nell&#39;angolo superiore destro della casella.
 
    ![Gestione tag](assets/tag-manager-2023.png)
 
@@ -70,17 +70,17 @@ I tag del flusso di lavoro sono disponibili per tutte le bacheche di un flusso d
 
 {{step1-to-boards}}
 
-1. Nel dashboard, fai clic su [!UICONTROL **Visualizza flusso di lavoro**] per aprire un workflow.
-1. Apri una bacheca. Fai clic su **[!UICONTROL Altro]** menu ![Menu Altro](assets/more-icon-spectrum.png) accanto al nome della bacheca, quindi scegli **[!UICONTROL Gestione tag]**.
+1. Nel dashboard fare clic su [!UICONTROL **Visualizza flusso di lavoro**] per aprire un flusso di lavoro.
+1. Apri una bacheca. Fai clic sul menu **[!UICONTROL Altro]** ![Altro menu](assets/more-icon-spectrum.png) accanto al nome della bacheca, quindi scegli **[!UICONTROL Gestione tag]**.
 
    Oppure
 
-   Clic [!UICONTROL **Configura**] per aprire [!UICONTROL Configura flusso di lavoro] pannello. Quindi, fai clic su **[!UICONTROL Gestione tag]**.
+   Fare clic su [!UICONTROL **Configura**] per aprire il pannello [!UICONTROL Configura flusso di lavoro]. Quindi fare clic su **[!UICONTROL Gestione tag]**.
 
-1. In [!UICONTROL Gestione tag] finestra di dialogo, seleziona [!UICONTROL **Aggiungi tag**] nella sezione Tag del flusso di lavoro.
+1. Nella finestra di dialogo [!UICONTROL Gestione tag], seleziona [!UICONTROL **Aggiungi tag**] nella sezione Tag del flusso di lavoro.
 1. Digita il nome del tag nella casella evidenziata, quindi scegli un colore per il tag dal menu a discesa. Il tag viene salvato automaticamente.
 1. (Facoltativo) Ripeti i passaggi 4-5 per creare altri tag.
-1. Clic **[!UICONTROL Fine]** nell’angolo in alto a destra della casella.
+1. Fai clic su **[!UICONTROL Fine]** nell&#39;angolo superiore destro della casella.
 
    ![Gestione tag](assets/tag-manager-workstreams.png)
 
@@ -91,23 +91,23 @@ I tag del flusso di lavoro sono disponibili per tutte le bacheche di un flusso d
 
    Oppure
 
-   Fai clic su **[!UICONTROL Altro]** menu ![[!UICONTROL Menu Altro]](assets/more-icon-spectrum.png) sulla scheda e seleziona **[!UICONTROL Modifica]**.
+   Fai clic sul menu **[!UICONTROL Altro]** ![[!UICONTROL Altro menu]](assets/more-icon-spectrum.png) sulla scheda e seleziona **[!UICONTROL Modifica]**.
 
-1. In **[!UICONTROL Tag]** digitare il nome di un tag esistente e selezionarlo dai risultati della ricerca.\
+1. Nella casella **[!UICONTROL Tag]** digitare il nome di un tag esistente e selezionarlo dai risultati della ricerca.\
    Oppure\
-   Fai clic su **[!UICONTROL Modifica]**&#x200B;icona ![Modifica tag](assets/boards-edittag-30x29.png) e creare un nuovo tag in Gestione tag. Clic **Fine** per tornare alla scheda, seleziona il tag sulla scheda.
+   Fai clic sull&#39;icona **[!UICONTROL Modifica]**&#x200B; ![Modifica tag](assets/boards-edittag-30x29.png) e crea un nuovo tag in Gestione tag. Fai clic su **Fine** per tornare alla scheda, quindi seleziona il tag sulla scheda.
 1. Fai clic su **Chiudi**.
 
 ## Modificare un tag
 
 1. Accedi a una bacheca.
-1. Fai clic su **[!UICONTROL Altro]** menu ![Menu Altro](assets/more-icon-spectrum.png) accanto al nome della bacheca, quindi scegli **[!UICONTROL Gestione tag]**.
+1. Fai clic sul menu **[!UICONTROL Altro]** ![Altro menu](assets/more-icon-spectrum.png) accanto al nome della bacheca, quindi scegli **[!UICONTROL Gestione tag]**.
 
-   ![Seleziona Tag Manager.](assets/boards-tagmanager-350x189.png)
+   ![Seleziona Gestione Tag.](assets/boards-tagmanager-350x189.png)
 
 1. (Condizionale) Fai clic sul nome del tag per modificare il testo.
-1. (Condizionale) Fai clic su [!UICONTROL colore] menu a discesa per modificare il colore del tag.
-1. Clic **[!UICONTROL Fine]**.
+1. (Condizionale) Fai clic sul menu a discesa [!UICONTROL color] per modificare il colore del tag.
+1. Fai clic su **[!UICONTROL Fine]**.
 
 ## Rimuovere un tag da una scheda
 
@@ -116,17 +116,17 @@ I tag del flusso di lavoro sono disponibili per tutte le bacheche di un flusso d
 
    Oppure
 
-   Fai clic su **[!UICONTROL Altro]** menu ![[!UICONTROL Menu Altro]](assets/more-icon-spectrum.png) sulla scheda e seleziona **[!UICONTROL Modifica]**.
+   Fai clic sul menu **[!UICONTROL Altro]** ![[!UICONTROL Altro menu]](assets/more-icon-spectrum.png) sulla scheda e seleziona **[!UICONTROL Modifica]**.
 
-1. Trova il tag da rimuovere dalla scheda, quindi fai clic su **[!UICONTROL Rimuovi]** icona ![Rimuovi tag](assets/copy-of-boards-remove-30x23.png).
+1. Trova il tag da rimuovere dalla scheda, quindi fai clic sull&#39;icona **[!UICONTROL Rimuovi]** ![Rimuovi tag](assets/copy-of-boards-remove-30x23.png).
 1. Fai clic su **[!UICONTROL Chiudi]**.
 
 ## Eliminare un tag
 
 1. Accedi a una bacheca.
-1. Fai clic su **[!UICONTROL Altro]** menu ![[!UICONTROL Menu Altro]](assets/more-icon-spectrum.png) accanto al nome della bacheca, quindi scegli **[!UICONTROL Gestione tag]**.
+1. Fai clic sul menu **[!UICONTROL Altro]** ![[!UICONTROL Altro menu]](assets/more-icon-spectrum.png) accanto al nome della bacheca, quindi scegli **[!UICONTROL Gestione tag]**.
 
-   ![Seleziona Tag Manager](assets/boards-tagmanager-350x189.png)
+   ![Seleziona Gestione Tag](assets/boards-tagmanager-350x189.png)
 
-1. Individua il tag da eliminare, quindi fai clic su **[!UICONTROL Elimina]** icona ![Elimina tag](assets/copy-of-boards-delete-30x27.png).
-1. Clic **[!UICONTROL Fine]**.
+1. Trova il tag da eliminare, quindi fai clic sull&#39;icona **[!UICONTROL Elimina]** ![Elimina tag](assets/copy-of-boards-delete-30x27.png).
+1. Fai clic su **[!UICONTROL Fine]**.

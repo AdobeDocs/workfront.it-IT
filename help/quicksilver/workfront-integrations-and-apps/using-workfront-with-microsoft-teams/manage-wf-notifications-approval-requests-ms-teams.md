@@ -2,7 +2,7 @@
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
 title: Gestisci [!DNL Adobe Workfront] notifiche in [!DNL Microsoft] Team
-description: Puoi ricevere notifiche da [!DNL Adobe Workfront] informazioni sugli elementi da approvare, sulle assegnazioni assegnate o sui commenti e le modifiche agli elementi associati.
+description: Puoi ricevere notifiche da [!DNL Adobe Workfront] sugli elementi da approvare, sulle assegnazioni che ti sono state assegnate o sui commenti e le modifiche agli elementi a cui sei associato.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
@@ -13,19 +13,19 @@ ht-degree: 0%
 
 ---
 
-# Gestisci [!DNL Adobe Workfront] notifiche in [!DNL Microsoft Teams]
+# Gestisci notifiche [!DNL Adobe Workfront] in [!DNL Microsoft Teams]
 
 >[!NOTE]
 >
 >L’integrazione di Adobe Workfront for Microsoft Teams è attualmente supportata solo per l’esperienza di Microsoft Teams classica.
 
-Puoi ricevere notifiche da [!DNL Adobe Workfront] informazioni sugli elementi da approvare, sulle assegnazioni assegnate o sui commenti e le modifiche agli elementi associati.
+Puoi ricevere notifiche da [!DNL Adobe Workfront] sugli elementi da approvare, sulle assegnazioni che ti sono state assegnate o sui commenti e le modifiche agli elementi a cui sei associato.
 
-Queste notifiche contengono [!DNL Workfront] azioni che è possibile eseguire in [!DNL Microsoft Teams] senza allontanarsi da [!DNL Microsoft Teams] per raggiungerli.
+Queste notifiche contengono [!DNL Workfront] azioni che è possibile eseguire in [!DNL Microsoft Teams] senza spostarsi da [!DNL Microsoft Teams] per eseguirle.
 
 >[!NOTE]
 >
->[!DNL Microsoft Teams] non supporta più [!DNL Internet Explorer]. Per utilizzare [!DNL Adobe Workfront for Microsoft Teams integration], è necessario utilizzare un browser Web diverso da [!DNL Internet Explorer].
+>[!DNL Microsoft Teams] non supporta più [!DNL Internet Explorer]. Per utilizzare [!DNL Adobe Workfront for Microsoft Teams integration], è necessario utilizzare un browser diverso da [!DNL Internet Explorer].
 
 
 ## Requisiti di accesso
@@ -47,38 +47,38 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
 
-## Prerequisiti per la ricezione [!DNL Workfront] Notifiche in [!DNL Microsoft Teams]
+## Prerequisiti per ricevere [!DNL Workfront] notifiche in [!DNL Microsoft Teams]
 
 Puoi ricevere [!DNL Workfront] notifiche in [!DNL Microsoft Teams] se sono soddisfatte le seguenti condizioni:
 
-* Un proprietario del team ha installato e configurato [!DNL Workfront for Microsoft Teams] per il tuo team.
-* Hai effettuato l’accesso a [!DNL Workfront] da [!DNL Microsoft Teams].
-* Hai abilitato le notifiche istantanee in [!DNL Workfront]. Per informazioni sull’abilitazione delle notifiche istantanee, consulta [Modifica le tue notifiche e-mail](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* Il proprietario del team ha installato e configurato [!DNL Workfront for Microsoft Teams] per il team.
+* Sei connesso a [!DNL Workfront] da [!DNL Microsoft Teams].
+* Hai abilitato le notifiche istantanee in [!DNL Workfront]. Per informazioni sull&#39;attivazione delle notifiche istantanee, vedere [Modificare le proprie notifiche e-mail](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-Per informazioni sull&#39;installazione di [!DNL Workfront for Microsoft Teams] e accesso a [!DNL Workfront from Microsoft Teams], vedi [Installa [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+Per informazioni sull&#39;installazione di [!DNL Workfront for Microsoft Teams] e sull&#39;accesso a [!DNL Workfront from Microsoft Teams], vedere [Installa [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
-## Gestione [!DNL Workfront] Notifiche in [!DNL Microsoft Teams]
+## Gestione di [!DNL Workfront] notifiche in [!DNL Microsoft Teams]
 
-Quando [!DNL Workfront for Microsoft Teams] l&#39;app è installata, un [!DNL Workfront] canale di chat creato in [!DNL Microsoft Teams] per ogni membro di quel team. Quando viene eseguita una determinata azione in [!DNL Workfront], è possibile configurare le impostazioni per [!DNL Workfront for Microsoft Teams] per ricevere notifiche su tale azione nella [!DNL Workfront] canale di chat di [!DNL Microsoft Teams].
+Quando l&#39;app [!DNL Workfront for Microsoft Teams] è installata, viene creato un canale di chat [!DNL Workfront] in [!DNL Microsoft Teams] per ogni membro del team. Quando viene eseguita una determinata azione in [!DNL Workfront], è possibile configurare le impostazioni per [!DNL Workfront for Microsoft Teams] per ricevere notifiche su tale azione nel canale di chat di [!DNL Microsoft Teams] di [!DNL Workfront].
 
-Quando si lavora con, considera quanto segue [!DNL Workfront] notifiche da [!DNL Microsoft Teams]:
+Quando si lavora con [!DNL Workfront] notifiche da [!DNL Microsoft Teams], considera quanto segue:
 
-* Non puoi ricevere tutti, ma solo un numero selezionato di [!DNL Workfront] notifiche in [!DNL Microsoft Teams].
-* Tutte le notifiche ricevute da [!DNL Workfront] vengono visualizzati nel [!DNL Workfront] canale di chat bot.
+* Non è possibile ricevere tutte le notifiche, ma solo un numero selezionato di [!DNL Workfront] notifiche in [!DNL Microsoft Teams].
+* Tutte le notifiche ricevute da [!DNL Workfront] vengono visualizzate nel canale chat di bot [!DNL Workfront].
 
-  Per informazioni sull&#39;installazione di [!DNL Workfront] canale bot, consulta la [Accesso a [!DNL Workfront] da [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md#logging-in-to-workfront) sezione in [Installazione [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) articolo.
+  Per informazioni sull&#39;installazione del canale bot [!DNL Workfront], vedere la sezione [Accesso a [!DNL Workfront] da [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md#logging-in-to-workfront) nell&#39;articolo [Installazione [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
-* Può trascorrere un ritardo fino a 5 minuti tra il momento in cui viene effettuato un aggiornamento in [!DNL Workfront] e quando ricevi la notifica su di esso in [!DNL Microsoft Teams].
-* Per ogni [!DNL Microsoft Teams] notifica, ricevi anche una notifica e-mail.
+* Può trascorrere un ritardo di 5 minuti tra il momento in cui viene effettuato un aggiornamento in [!DNL Workfront] e il momento in cui ricevi la relativa notifica in [!DNL Microsoft Teams].
+* Per ogni notifica di [!DNL Microsoft Teams], si riceve anche una notifica e-mail.
 
-Per gestire [!DNL Workfront] notifiche che puoi ricevere in [!DNL Microsoft Teams]:
+Per gestire le notifiche [!DNL Workfront] che è possibile ricevere in [!DNL Microsoft Teams]:
 
-1. Fai clic su **[!UICONTROL Altro aggiunto]** (tre punti) nella barra di navigazione a sinistra di [!DNL Microsoft Teams].
+1. Fai clic sull&#39;icona **[!UICONTROL Altre app aggiunte]** (tre punti) sulla barra di navigazione a sinistra in [!DNL Microsoft Teams].
 
-1. Clic [!DNL Workfront] nell&#39;elenco visualizzato.
-1. Seleziona la **[!UICONTROL Impostazioni]** scheda.
+1. Fare clic su [!DNL Workfront] nell&#39;elenco visualizzato.
+1. Seleziona la scheda **[!UICONTROL Impostazioni]**.
 
    ![](assets/ms-teams-settings-tab-350x552.png)
 
@@ -86,19 +86,19 @@ Per gestire [!DNL Workfront] notifiche che puoi ricevere in [!DNL Microsoft Team
 
    Tutte le notifiche sono abilitate per impostazione predefinita.
 
-   Impostazioni delle notifiche per [!DNL Workfront for Microsoft] I team vengono salvati automaticamente.
+   Le impostazioni delle notifiche per [!DNL Workfront for Microsoft] team vengono salvate automaticamente.
 
    >[!NOTE]
    >
    >Non è possibile aggiungere altre notifiche a quelle disponibili per impostazione predefinita.
 
-## Risposta a [!DNL Workfront] Notifiche e richieste di approvazione in [!DNL Microsoft Teams]
+## Risposta a [!DNL Workfront] notifiche e richieste di approvazione in [!DNL Microsoft Teams]
 
-1. Accedi a [!DNL Workfront] da [!DNL Microsoft Teams].\
-   Per informazioni sull&#39;accesso a [!DNL Workfront], vedi [Installa [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+1. Accedere a [!DNL Workfront] da [!DNL Microsoft Teams].\
+   Per informazioni sull&#39;accesso a [!DNL Workfront], vedere [Installa [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
-1. Vai a **[!UICONTROL Chat]** e fare clic sul pulsante **[!DNL Workfront]** canale bot.\
-   Questo canale è per la tua chat personale con [!DNL Workfront] bot. Tutti [!DNL Workfront] le notifiche vengono visualizzate qui.
+1. Vai all&#39;area **[!UICONTROL Chat]** e fai clic sul canale bot **[!DNL Workfront]**.\
+   Questo canale è destinato alla tua chat personale con il bot [!DNL Workfront]. Tutte le notifiche [!DNL Workfront] vengono visualizzate qui.
 1. A seconda del tipo di notifica che ricevi, procedi alla sezione pertinente:
 
    * [Notifiche di approvazione](#approval-notifications-approval-notifications)
@@ -111,11 +111,11 @@ Per gestire [!DNL Workfront] notifiche che puoi ricevere in [!DNL Microsoft Team
 
 Si ricevono notifiche di approvazione quando viene richiesto di approvare un oggetto, ad esempio un&#39;attività, una scheda orario o una bozza. È comunque possibile aggiungere un commento alla notifica.Dalla notifica di approvazione, è possibile eseguire le azioni seguenti:
 
-* **[!UICONTROL Approva]**: Fare clic per approvare l&#39;elemento.
-* **[!UICONTROL Cambia]**: fare clic per approvare l&#39;elemento con le modifiche.
-* **[!UICONTROL Rifiuta]**: Fare clic per rifiutare l&#39;elemento.
-* **[!UICONTROL Commento]**: fai clic su per aggiungere un commento. Il commento viene visualizzato anche in [!DNL Workfront] come aggiornamento dell’oggetto che sta alla base della notifica.
-* **[!UICONTROL Vai alla bozza]**: fai clic su per aprire la bozza. Puoi quindi prendere una decisione direttamente nella bozza. Per ulteriori informazioni, consulta [Decidi su una bozza nel visualizzatore di bozze](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
+* **[!UICONTROL Approva]**: fare clic per approvare l&#39;elemento.
+* **[!UICONTROL Modifica]**: fare clic per approvare l&#39;elemento con le modifiche.
+* **[!UICONTROL Rifiuta]**: fare clic per rifiutare l&#39;elemento.
+* **[!UICONTROL Commento]**: fare clic per aggiungere un commento. Il commento viene visualizzato anche in [!DNL Workfront] come aggiornamento dell&#39;oggetto che la notifica riguarda.
+* **[!UICONTROL Vai alla bozza]**: fai clic per aprire la bozza. Puoi quindi prendere una decisione direttamente nella bozza. Per ulteriori informazioni, vedere [Decidere su una bozza nel visualizzatore di bozze](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
 
 >[!NOTE]
 >
@@ -252,11 +252,11 @@ Si ricevono notifiche di approvazione quando viene richiesto di approvare un ogg
 
 Ricevi notifiche di assegnazione quando tu o un team a cui lavori siete assegnati a un&#39;attività o a un problema in Workfront. Dalla notifica di assegnazione è possibile eseguire le azioni seguenti:
 
-* **[!UICONTROL Lavoraci]**: seleziona per confermare il lavoro sull’elemento. Viene visualizzata brevemente una notifica per confermare che un nuovo elemento è stato aggiunto all’elenco di lavoro.
-* **[!UICONTROL Visualizza in[!DNL Workfront]]**: seleziona per visualizzare il problema o l’attività assegnati in Workfront, aprendo una nuova scheda.
-* **[!UICONTROL Inizio]**: consente di iniziare a lavorare sull&#39;elemento. Viene visualizzata brevemente una notifica per confermare che un nuovo elemento è stato aggiunto all’elenco di lavoro.
-* **[!UICONTROL Commento]**: consente di aggiungere un commento all&#39;elemento. Il commento viene visualizzato anche nel flusso di aggiornamento dell&#39;elemento in Workfront.
-* **[!UICONTROL Stato]**: fai clic su, quindi seleziona il nuovo stato dell’elemento di lavoro dal menu a discesa.
+* **[!UICONTROL Lavoraci]**: seleziona per eseguire il commit per lavorare sull&#39;elemento. Viene visualizzata brevemente una notifica per confermare che un nuovo elemento è stato aggiunto all’elenco di lavoro.
+* **[!UICONTROL Visualizza in[!DNL Workfront]]**: selezionare questa opzione per visualizzare il problema o l&#39;attività assegnata in Workfront, che apre una nuova scheda.
+* **[!UICONTROL Inizio]**: fare clic per avviare il lavoro sull&#39;elemento. Viene visualizzata brevemente una notifica per confermare che un nuovo elemento è stato aggiunto all’elenco di lavoro.
+* **[!UICONTROL Commento]**: fare clic per aggiungere un commento all&#39;elemento. Il commento viene visualizzato anche nel flusso di aggiornamento dell&#39;elemento in Workfront.
+* **[!UICONTROL Stato]**: fare clic su, quindi selezionare il nuovo stato per l&#39;elemento di lavoro dal menu a discesa.
 
 #### Azioni disponibili su notifiche di assegnazione specifiche:
 
@@ -305,9 +305,9 @@ Ricevi notifiche di assegnazione quando tu o un team a cui lavori siete assegnat
 
 Ricevi una notifica di comunicazione quando qualcuno commenta un elemento a cui sei associato o ti include in un aggiornamento. Dalla notifica di comunicazione, puoi eseguire le seguenti azioni:
 
-* **Reply**: fai clic per rispondere al commento o [!UICONTROL aggiorna]. La risposta viene visualizzata anche nel flusso di aggiornamento in cui il commento viene visualizzato in Workfront.
-* **[!UICONTROL Visualizza in Workfront]**: seleziona per visualizzare il commento e l’elemento in Workfront, che viene aperto in una nuova scheda.
-* **[!UICONTROL Stato]**: fai clic su, quindi seleziona un nuovo stato per l’elemento di lavoro oggetto del commento o dell’aggiornamento.
+* **Rapprly**: fai clic per rispondere al commento o [!UICONTROL aggiorna]. La risposta viene visualizzata anche nel flusso di aggiornamento in cui il commento viene visualizzato in Workfront.
+* **[!UICONTROL Visualizza in Workfront]**: selezionare questa opzione per visualizzare il commento e l&#39;elemento in Workfront, che viene aperto in una nuova scheda.
+* **[!UICONTROL Stato]**: fare clic su, quindi selezionare un nuovo stato per l&#39;elemento di lavoro su cui verte il commento o l&#39;aggiornamento.
 
 #### Azioni disponibili su notifiche di comunicazione specifiche:
 
@@ -370,9 +370,9 @@ Ricevi una notifica di comunicazione quando qualcuno commenta un elemento a cui 
 
 Ricevi una notifica di informazione quando viene aggiornato un elemento a cui sei associato, ma non è necessario eseguire alcuna azione sull’elemento. Dalla notifica delle informazioni, puoi eseguire le azioni seguenti:
 
-* **[!UICONTROL Rispondi]**: fai clic per rispondere al [!UICONTROL aggiorna]. La risposta viene visualizzata anche nel flusso di aggiornamento dell&#39;elemento in Workfront.
-* **Visualizza in Workfront**: seleziona per visualizzare il commento e l’elemento in Workfront, che viene aperto in una nuova scheda.
-* **[!UICONTROL Stato]**: fai clic su, quindi seleziona il nuovo stato dell’elemento dal menu a discesa.
+* **[!UICONTROL Risposta]**: fare clic per rispondere all&#39;[!UICONTROL aggiornamento]. La risposta viene visualizzata anche nel flusso di aggiornamento dell&#39;elemento in Workfront.
+* **Visualizza in Workfront**: selezionare questa opzione per visualizzare il commento e l&#39;elemento in Workfront, che viene aperto in una nuova scheda.
+* **[!UICONTROL Stato]**: fare clic su, quindi selezionare il nuovo stato per l&#39;elemento dal menu a discesa.
 
 #### Azioni disponibili sulle notifiche di informazioni specifiche:
 
@@ -410,8 +410,8 @@ Ricevi una notifica di informazione quando viene aggiornato un elemento a cui se
 
 Riceverai una notifica di modifica della data quando cambia la data su un elemento di lavoro a cui sei assegnato. Dalla notifica di modifica della data, puoi eseguire le azioni seguenti.
 
-* **[!UICONTROL Commento]**: consente di aggiungere un commento all&#39;elemento. Il commento viene visualizzato anche nel flusso di aggiornamento dell&#39;elemento in Workfront.
-* **[!UICONTROL Stato]**: fai clic su, quindi seleziona il nuovo stato dell’elemento di lavoro dal menu a discesa.
+* **[!UICONTROL Commento]**: fare clic per aggiungere un commento all&#39;elemento. Il commento viene visualizzato anche nel flusso di aggiornamento dell&#39;elemento in Workfront.
+* **[!UICONTROL Stato]**: fare clic su, quindi selezionare il nuovo stato per l&#39;elemento di lavoro dal menu a discesa.
 
 <table style="table-layout:auto"> 
  <col> 

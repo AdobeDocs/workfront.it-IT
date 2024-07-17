@@ -17,7 +17,7 @@ ht-degree: 14%
 
 Questa pagina descrive piccoli aggiornamenti all’aspetto di varie aree dell’applicazione Adobe Workfront che sono stati apportati nell’arco temporale della versione 22.3. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione almeno 2 settimane dopo il rilascio in anteprima.
 
-Per un elenco di tutte le modifiche disponibili con la versione 22.3, consulta [Panoramica sulla versione 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 22.3, vedere [Panoramica sulla versione 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Aggiornamenti globali del look and feel
 
@@ -43,6 +43,6 @@ Le barre degli strumenti degli elenchi e dei rapporti seguenti hanno ora un aspe
 
 >[!NOTE]
 >
->Questa modifica è stata aggiornata in Produzione il 23 maggio 2022. Consulta la [Aggiornamento di manutenzione del giovedì 26 maggio 2022 per ulteriori informazioni](https://one.workfront.com/s/article/Maintenance-Update-on-May-26-2022).
+>Questa modifica è stata aggiornata in Produzione il 23 maggio 2022. Per ulteriori informazioni, vedere l&#39;[aggiornamento di manutenzione del 26 maggio 2022](https://one.workfront.com/s/article/Maintenance-Update-on-May-26-2022).
 
 Sono stati aggiornati i separatori delle breadcrumb in tutte le aree in cui sono disponibili le breadcrumb. Ora, gli oggetti nelle breadcrumb sono separati da barre verticali (|). Prima di questo aggiornamento, erano separati da barre (/).

@@ -55,10 +55,10 @@ Gli oggetti in Workfront (e, pertanto, nel data lake) sono definiti non solo dai
 
 Esistono diversi oggetti data che forniscono informazioni su quando si verificano eventi specifici.
 
-* `DL_LOAD_TIMESTAMP`: questa data viene utilizzata come riferimento interno e viene visualizzata quando i dati sono stati caricati nella tabella Cronologia corrente, evento o giornaliera. Questa data non deve essere utilizzata per l’analisi dei dati e deve essere rimossa durante la fase beta del data lake di Workfront.
-* `CALENDAR_DATE`: data presente solo nella tabella Cronologia giornaliera. Questa tabella fornisce una registrazione dell’aspetto dei dati alle 11:59 UTC per ogni data specificata in `CALENDAR_DATE`.
-* `BEGIN_EFFECTIVE_TIMESTAMP`: questa data è presente nelle tabelle Evento e Cronologia giornaliera e registra esattamente quando un record viene modificato _a_ il valore presente nella riga corrente.
-* `END_EFFECTIVE_TIMESTAMP`: questa data è presente nelle tabelle Evento e Cronologia giornaliera e registra esattamente quando un record viene modificato _da_ il valore nella riga corrente a un valore in una riga diversa. Per consentire l’esecuzione di query tra `BEGIN_EFFECTIVE_TIMESTAMP` e `END_EFFECTIVE_TIMESTAMP` questo è un valore che non è mai nullo, anche se non esiste un nuovo valore. Nel caso in cui un record sia ancora valido (ossia il valore non sia stato modificato), `END_EFFECTIVE_TIMESTAMP` avrà un valore di 2300-01-01.
+* `DL_LOAD_TIMESTAMP`: questa data viene utilizzata come riferimento interno e indica quando i dati sono stati caricati nella tabella Cronologia corrente, evento o giornaliera. Questa data non deve essere utilizzata per l’analisi dei dati e deve essere rimossa durante la fase beta del data lake di Workfront.
+* `CALENDAR_DATE`: data presente solo nella tabella Cronologia giornaliera. Questa tabella fornisce un record dell&#39;aspetto dei dati alle 11:59 UTC per ogni data specificata in `CALENDAR_DATE`.
+* `BEGIN_EFFECTIVE_TIMESTAMP`: questa data è presente nelle tabelle Event e Daily History e registra esattamente quando un record ha cambiato _in_ il valore presente nella riga corrente.
+* `END_EFFECTIVE_TIMESTAMP`: questa data è presente nelle tabelle Event e Daily History e registra esattamente quando un record ha cambiato _da_ il valore nella riga corrente a un valore in un&#39;altra riga. Per consentire l&#39;esecuzione di query tra `BEGIN_EFFECTIVE_TIMESTAMP` e `END_EFFECTIVE_TIMESTAMP`, questo valore non è mai nullo, anche se non è presente un nuovo valore. Se un record è ancora valido (ovvero se il valore non è stato modificato), `END_EFFECTIVE_TIMESTAMP` avrà il valore 2300-01-01.
 
 ## Tabella terminologica
 
@@ -87,7 +87,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (cos
     <td>Condizione, Priorità, Gravità, Stato</td>
     <td>CSTEM | Enum personalizzata</td>
     <td>CUSTOMENUMS_CURRENT<br>CUSTOMENUMS_DAILY_HISTORY<br>CUSTOMENUMS_EVENT</td>
-    <td>Il tipo di record è identificato tramite la proprietà "enumClass". Di seguito sono riportati i tipi previsti:<br>CONDITION_OPTASK<br>CONDITION_PROJ<br>CONDITION_TASK<br>PRIORITY_OPTASK<br>PRIORITY_PROJ<br>TASK_PRIORITARIO<br>GRAVITY_OPTASK<br>STATUS_OPTASK<br>STATUS_PROJ<br>TASK_STATO</td>
+    <td>Il tipo di record è identificato tramite la proprietà "enumClass". I tipi previsti sono:<br>CONDITION_OPTASK<br>CONDITION_PROJ<br>CONDITION_TASK<br>PRIORITY_OPTASK<br>PRIORITY_PROJ<br>PRIORITY_TASK<br>SEVERITY_OPTASK<br>STATUS_OPTASK<br>STATUS_PROJ<br>STATUS_TASK</td>
   </tr>
   <tr>
     <td>Documento</td>
@@ -156,14 +156,14 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (cos
     <td>Portfolio</td>
     <td>Portfolio</td>
     <td>PORTA | Portfolio</td>
-    <td>PORTFOLI_CORRENTE<br>PORTFOLI_CRONOLOGIA_GIORNALIERA<br>PORTFOLI_EVENT<br><br>PORTFOLI_CUSTOM_VALUE_CURRENT<br>PORTFOLI_CUSTOM_VALUE_DAILY_HISTORY<br>PORTFOLI_CUSTOM_VALUE_EVENT</td>
+    <td>PORTFOLI_CORRENTI<br>PORTFOLI_CRONOLOGIA_GIORNALIERA<br>PORTFOLI_EVENTI<br><br>PORTFOLI_VALORE_PERSONALIZZATO_CORRENTE<br>PORTFOLI_VALORE_PERSONALIZZATO_CRONOLOGIA_GIORNALIERA<br>PORTFOLI_VALORE_PERSONALIZZATO_EVENTO</td>
     <td></td>
   </tr>
   <tr>
     <td>Programma</td>
     <td>Programma</td>
     <td>PRGM | Programma</td>
-    <td>PROGRAMMI_CORRENTI<br>PROGRAMS_DAILY_HISTORY<br>PROGRAMS_EVENT<br><br>PROGRAMS_CUSTOM_VALUE_CURRENT<br>PROGRAMS_CUSTOM_VALUE_DAILY_HISTORY<br>PROGRAMS_CUSTOM_VALUE_EVENT</td>
+    <td>PROGRAMS_CURRENT<br>PROGRAMS_DAILY_HISTORY<br>PROGRAMS_EVENT<br><br>PROGRAMS_CUSTOM_VALUE_CURRENT<br>PROGRAMS_CUSTOM_VALUE_DAILY_HISTORY<br>PROGRAMS_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>
@@ -198,7 +198,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (cos
     <td>Team</td>
     <td>Team</td>
     <td>TEAMOB | Team</td>
-    <td>TEAM_CURRENT<br>TEAM_DAILY_HISTORY<br>TEAMS_EVENT</td>
+    <td>TEAM_CURRENT<br>TEAM_DAILY_HISTORY<br>TEAM_EVENT</td>
     <td></td>
   </tr>
   <tr>

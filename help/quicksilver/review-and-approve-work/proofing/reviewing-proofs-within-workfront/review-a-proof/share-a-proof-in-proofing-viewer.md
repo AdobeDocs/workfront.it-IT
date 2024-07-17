@@ -2,24 +2,24 @@
 product-area: documents
 navigation-topic: review-proofs-within-workfront
 title: Condividere una bozza dal visualizzatore di bozze
-description: Puoi condividere una bozza dal visualizzatore di prova se la condivisione è abilitata dal proprietario o dal creatore della bozza.
+description: Puoi condividere una bozza dal visualizzatore di bozze se la condivisione è abilitata dal proprietario o dal creatore della bozza.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 20bd2d94-1401-4a38-9042-335d0cb32a3d
 source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1501'
 ht-degree: 0%
 
 ---
 
 # Condividere una bozza dal visualizzatore di bozze
 
-Puoi condividere una bozza dal visualizzatore di prova se la condivisione è abilitata dal proprietario o dal creatore della bozza.
+Puoi condividere una bozza dal visualizzatore di bozze se la condivisione è abilitata dal proprietario o dal creatore della bozza.
 
 >[!IMPORTANT]
 >
->L’impostazione Consenti prova di condivisione tramite URL pubblico o codice di incorporamento deve essere abilitata.
+>È necessario abilitare l’impostazione Consenti condivisione bozze tramite URL pubblico o codice di incorporamento.
 
 ## Requisiti di accesso
 
@@ -30,55 +30,55 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
-   <td> <p>Piano attuale: Pro o superiore</p> <p>oppure</p> <p>Piano legacy: Seleziona o Premium</p> <p>Per ulteriori informazioni sulla verifica dell’accesso con i diversi piani, consulta <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accesso alle funzionalità di correzione in Workfront</a>.</p> </td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td> <p>Piano corrente: Pro o superiore</p> <p>oppure</p> <p>Piano legacy: Seleziona o Premium</p> <p>Per ulteriori informazioni sulla verifica dell'accesso con i diversi piani, vedere <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accesso alla funzionalità di verifica in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano attuale: Lavoro o piano</p> <p>Piano legacy: Qualsiasi (è necessario che la correzione sia attivata per l’utente)</p> </td> 
+   <td> <p>Piano corrente: Lavoro o Piano</p> <p>Piano legacy: qualsiasi (per l’utente deve essere abilitata la verifica)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Profilo autorizzazione bozza </td> 
    <td>Manager o superiore</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Modifica accesso ai documenti</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modifica accesso ai documenti</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il ruolo o il profilo delle autorizzazioni di prova, contattare l&#39;amministratore Workfront o Workfront Proof.
+&#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
 
 ## Condividere l’URL
 
-Puoi condividere una bozza tramite un URL se il proprietario ha configurato la bozza per la condivisione. I proprietari delle prove possono aggiornare le impostazioni di condivisione in qualsiasi momento. Per ulteriori informazioni, consulta [Modifica impostazioni bozza](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md).
+Puoi condividere una bozza tramite un URL se il proprietario ha configurato la bozza per la condivisione. I proprietari delle bozze possono aggiornare le impostazioni di condivisione in qualsiasi momento. Per ulteriori informazioni, vedere [Modifica impostazioni bozza](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md).
 
-1. Se il menu delle icone a sinistra non è visualizzato, fai clic sul pulsante **Menu** nell’angolo in alto a sinistra del visualizzatore di correzione.
+1. Se il menu dell&#39;icona sinistra non è visualizzato, fare clic sull&#39;icona **Menu** nell&#39;angolo superiore sinistro del visualizzatore di bozze.
 
    ![](assets/menu-icon-in-proofing-viewer-350x188.png)
 
-1. Nel menu delle icone a sinistra del visualizzatore di correzione, fai clic sul pulsante **Condividi** icona.
+1. Nel menu dell&#39;icona a sinistra del visualizzatore di bozze, fare clic sull&#39;icona **Condividi**.
 
-   ![Share_btn_in_viewer.png](assets/share-btn-in-viewer.png)
+   ![Condividi_btn_in_viewer.png](assets/share-btn-in-viewer.png)
 
-1. In **Condividi bozza** opzioni visualizzate, assicurati **Ottieni collegamento condivisibile** è selezionato.
+1. Nelle opzioni **Condividi bozza** visualizzate, assicurati che sia selezionato **Ottieni collegamento condivisibile**.
 
-1.  Effettua una delle seguenti operazioni:
+1.  Effettuare una delle seguenti operazioni:
 
-   * Per copiare il collegamento negli Appunti, fai clic su **Copia collegamento**.
+   * Per copiare il collegamento negli Appunti, fare clic su **Copia collegamento**.
 
-      Ora puoi distribuire il collegamento tramite uno strumento di terze parti, ad esempio una chat o un’applicazione e-mail.
+     Ora puoi distribuire il collegamento tramite uno strumento di terze parti, ad esempio una chat o un’applicazione e-mail.
 
-   * Per inviare il collegamento direttamente da Adobe Workfront, procedi come segue:
+   * Per inviare il collegamento tramite e-mail direttamente da Adobe Workfront, effettua le seguenti operazioni:
 
-      1. In **Oppure invia un collegamento e-mail a** inizia a digitare e seleziona il nome del destinatario. Oppure specifica l’indirizzo e-mail di un utente esterno con cui desideri condividere l’e-mail.
+      1. Nel campo **O collegamento e-mail a**, inizia a digitare e selezionare il nome del destinatario. In alternativa, specifica l’indirizzo e-mail di un utente esterno con cui desideri condividere il messaggio.
 
          >[!NOTE]
          >
-         >Se visualizzi un’e-mail di alias quando condividi una bozza, non creare un nuovo utente guest inserendo l’e-mail originale se esiste un’e-mail di alias corrispondente.
+         >Se durante la condivisione di una bozza viene visualizzato un messaggio e-mail di alias, non creare un nuovo utente ospite immettendo l&#39;e-mail originale se esiste un messaggio e-mail di alias corrispondente.
 
-      1. Seleziona tra le seguenti opzioni:
+      1. Selezionare una delle opzioni seguenti:
 
          <table style="table-layout:auto">
           <col>
@@ -86,11 +86,11 @@ Puoi condividere una bozza tramite un URL se il proprietario ha configurato la b
           <tbody>
            <tr>
             <td role="rowheader">Invia collegamento pubblico</td>
-            <td><p>Include un pulsante nella notifica e-mail che indirizza gli utenti alla bozza all’interno del visualizzatore di correzione che stanno utilizzando e concede l’accesso a Visualizza .</p><p>Se <strong>Iscriviti alla bozza tramite URL pubblico o codice di incorporamento</strong> è disattivato per la bozza, gli utenti possono accedere con le proprie credenziali di accesso Workfront per aggiungere commenti alla bozza. Se è attivato, chiunque fornisca il proprio indirizzo e-mail e nome (senza password richiesta) può firmare e aggiungere commenti alla bozza.</p></td>
+            <td><p>Include un pulsante nella notifica e-mail che indirizza gli utenti alla bozza nel visualizzatore di bozze in uso e concede l’accesso in visualizzazione.</p><p>Se <strong>Abbonati alla bozza tramite URL pubblico o codice di incorporamento</strong> è disattivato per la bozza, gli utenti possono accedere con le credenziali di accesso di Workfront per aggiungere commenti alla bozza. Se è attivata, chiunque fornisca il proprio indirizzo e-mail e nome (non è richiesta alcuna password) può firmare e aggiungere commenti alla bozza.</p></td>
            </tr>
            <tr>
-            <td role="rowheader">Invia collegamento di download</td>
-            <td>Include un pulsante nella notifica e-mail che indirizza gli utenti a una pagina di download, che fornisce i dettagli del file, il nome del file e le dimensioni del file, con il file visualizzato in linea. Gli utenti possono fare clic sul collegamento Scarica dalla pagina di download per scaricare il file.</td>
+            <td role="rowheader">Invia collegamento per il download</td>
+            <td>Include un pulsante nella notifica e-mail che indirizza gli utenti a una pagina di download, in cui sono riportati i dettagli, il nome e la dimensione del file, con il file visualizzato in linea. Per scaricare il file, gli utenti possono fare clic sul collegamento Scarica dalla pagina di download.</td>
            </tr>
            <tr>
             <td role="rowheader">Aggiungi messaggio personalizzato</td>
@@ -107,86 +107,86 @@ Puoi condividere una bozza tramite un URL se il proprietario ha configurato la b
 
 ## Condividere il codice di incorporamento
 
-Puoi condividere una bozza tramite codice di incorporamento se il proprietario della bozza la ha configurata per questo.
+Puoi condividere una bozza tramite il codice di incorporamento se il proprietario della bozza l’ha configurata per questo.
 
 Per condividere una bozza tramite il codice di incorporamento:
 
-1. Nella barra degli strumenti a sinistra del visualizzatore di correzione, fai clic sul pulsante **Condividi** icona.
+1. Nella barra degli strumenti sulla sinistra del visualizzatore di bozze, fai clic sull&#39;icona **Condividi**.
 
-   ![Condividi_btn_in_viewer_1_.png](assets/share-btn-in-viewer--1-.png)
+   ![Condividi_btn_in_viewer__1_.png](assets/share-btn-in-viewer--1-.png)
 
-1. In **Condividi bozza** opzioni visualizzate, fai clic su **Ottieni codice di incorporamento**, quindi fai clic su **Copia**.
+1. Nelle opzioni **Condividi bozza** visualizzate, fai clic su **Ottieni codice di incorporamento**, quindi su **Copia**.
 
-## Condividere una bozza aggiungendo utenti
+## Condividere una bozza aggiungendovi utenti
 
-Puoi aggiungere utenti a una bozza durante la revisione di una bozza se disponi delle seguenti autorizzazioni:
+Puoi aggiungere utenti a una bozza durante la revisione di una bozza se disponi di una delle seguenti autorizzazioni:
 
 * Autorizzazioni di supervisore o amministratore
-* Autorizzazioni di Manager e tu sei il creatore o il proprietario della bozza
-* Autorizzazioni Manager con il ruolo Autore o Moderatore
+* Autorizzazioni di Manager e sei il creatore o il proprietario della bozza
+* Autorizzazioni di Manager con il ruolo Bozza Autore o Moderatore
 
-Se la bozza dispone di un flusso di lavoro automatizzato, puoi aggiungere l’utente a una singola fase. Per ulteriori informazioni, consulta [Panoramica del flusso di lavoro automatizzato](../../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
+Se la bozza dispone di un flusso di lavoro automatizzato, puoi aggiungere l’utente a una singola fase. Per ulteriori informazioni, vedere [Panoramica del flusso di lavoro automatico](../../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 Per impostazione predefinita, gli utenti aggiunti alla bozza:
 
 * Ricevi una notifica e-mail con un collegamento alla bozza.
-* Può prendere decisioni di approvazione sulla bozza dall&#39;area Home o My Work, come descritto in [Approvazione del lavoro](../../../../review-and-approve-work/manage-approvals/approving-work.md).
-* Non è necessario che la correzione sia attivata per poter esaminare la prova.
+* Può prendere decisioni di approvazione sulla bozza dalla Home o dall&#39;area Il mio lavoro, come descritto in [Approvazione del lavoro](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+* Non è necessario che siano abilitate prove per esaminare la bozza.
 
-Quando Flusso di lavoro automatico è abilitato e aggiungi un utente alla bozza per la quale non è abilitata la correzione, viene creata una nuova fase all’interno del flusso di lavoro automatico. L’utente che aggiungi viene aggiunto automaticamente a questa nuova fase quando visualizza la bozza per la prima volta. Per ulteriori informazioni, consulta [Panoramica del flusso di lavoro automatizzato](../../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
+Quando il flusso di lavoro automatizzato è abilitato e si aggiunge un utente alla bozza per il quale non sono abilitati gli strumenti di correzione in Workfront, viene creata una nuova fase all’interno del flusso di lavoro automatico. L’utente che stai aggiungendo viene aggiunto automaticamente a questa nuova fase quando visualizza la bozza per la prima volta. Per ulteriori informazioni, vedere [Panoramica del flusso di lavoro automatico](../../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
-Per condividere una bozza con singoli utenti:
+Per condividere una bozza con i singoli utenti:
 
-1. Nella barra degli strumenti a sinistra del visualizzatore di correzione, fai clic sul pulsante **Condividi** icona.
+1. Nella barra degli strumenti sulla sinistra del visualizzatore di bozze, fai clic sull&#39;icona **Condividi**.
 
-   ![Condividi_btn_in_viewer_2_.png](assets/share-btn-in-viewer--2-.png)
+   ![Condividi_btn_in_viewer__2_.png](assets/share-btn-in-viewer--2-.png)
 
 1. Fai clic su **Aggiungi destinatari** nell&#39;elenco a sinistra.
-1. Sotto **Nuovi destinatari della bozza**, inizia a digitare il nome di un utente con cui desideri condividere la bozza, quindi fai clic sul nome quando viene visualizzato nell’elenco a discesa.
-1. (Facoltativo) Modificare le opzioni del revisore a destra del nome della persona:
+1. In **Destinatari nuova bozza**, inizia a digitare il nome di un utente con cui si desidera condividere la bozza, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
+1. (Facoltativo) Modifica le opzioni revisore a destra del nome della persona:
 
-   * **Ruolo di prova**: Per ulteriori informazioni, consulta [Gestire i ruoli delle prove in Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+   * **Ruolo bozza**: per ulteriori informazioni, vedere [Gestione dei ruoli bozza in Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
-   * **Stage**: Disponibile solo se la bozza dispone di un flusso di lavoro automatizzato. Per ulteriori informazioni, consulta  [Panoramica delle fasi del flusso di lavoro automatizzato](../../../../review-and-approve-work/proofing/proofing-overview/stages.md).
+   * **Fase**: (disponibile solo se la bozza dispone di un flusso di lavoro automatizzato). Per ulteriori informazioni, consulta  [Panoramica delle fasi del flusso di lavoro automatizzato](../../../../review-and-approve-work/proofing/proofing-overview/stages.md).
 
-   * **Avvisi e-mail**: seleziona una delle seguenti opzioni per specificare in che modo la persona verrà informata dell’attività sulla bozza.
+   * **Avvisi e-mail**: seleziona una delle opzioni seguenti per specificare in che modo la persona riceverà le notifiche sull&#39;attività nella bozza.
 
-      <table style="table-layout:auto"> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 
        <tr> 
         <td role="rowheader">Tutte le attività</td> 
-        <td>Workfront invia un’e-mail al revisore ogni volta che vi è un’attività sulla bozza, ad esempio un nuovo commento, una risposta o una decisione. <p>Questa è una grande opzione per la persona che gestisce il processo di correzione perché consente loro di vedere l'attività mentre si verifica. </p><p>Gli utenti non ricevono un avviso e-mail relativo alla propria attività.</p></td> 
+        <td>Workfront invia un’e-mail al revisore ogni volta che si verifica un’attività sulla bozza, ad esempio un nuovo commento, una nuova risposta o una nuova decisione. <p>Si tratta di un'ottima opzione per la persona che gestisce il processo di verifica, in quanto consente di visualizzare l'attività nel momento in cui si verifica. </p><p>Gli utenti non ricevono un avviso e-mail relativo alla propria attività.</p></td> 
        </tr> 
        <tr> 
         <td role="rowheader">Risposte ai miei commenti</td> 
-        <td>Un’e-mail viene inviata al revisore solo se qualcuno risponde esplicitamente al proprio commento (questo esclude le proprie risposte dai propri commenti). Ciò significa che se qualcuno sulla bozza fa un nuovo commento, il revisore non viene informato.<p>Questa impostazione è consigliata per i clienti sulla prova in modo che non siano informati di altri commenti sulla prova e siano informati solo delle risposte alle proprie osservazioni.</p><p>Sebbene i revisori con questa impostazione di avviso e-mail non siano informati di altri nuovi commenti, possono comunque visualizzare tutti i commenti sulla bozza nel visualizzatore di correzione.</p><p>Per informazioni sui commenti, consulta <a href="../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Visualizza e risponde ai commenti di prova</a>.</p></td> 
+        <td>Un'e-mail viene inviata al revisore solo se qualcuno risponde esplicitamente al proprio commento (questo esclude le proprie risposte sui propri commenti). Ciò significa che se qualcuno sulla bozza fa un nuovo commento, il revisore non riceve alcuna notifica.<p>Questa impostazione è consigliata per i clienti della bozza, in modo che non ricevano alcuna notifica di altri commenti sulla bozza e ricevano solo le risposte ai propri commenti.</p><p>Anche se ai revisori con questa impostazione di avviso e-mail non vengono notificati altri nuovi commenti, possono comunque visualizzare tutti i commenti sulla bozza nel visualizzatore di bozze.</p><p>Per informazioni sui commenti, vedere <a href="../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Visualizzare e rispondere ai commenti della bozza</a>.</p></td> 
        </tr> 
        <tr> 
         <td role="rowheader">Decisioni</td> 
-        <td>Workfront invia un’e-mail al revisore solo quando qualcuno prende una decisione.<p>Questo può essere utile per la persona che gestisce il processo di approvazione (ad esempio un project manager) e deve monitorare l’avanzamento della bozza e vedere quali utenti hanno preso la loro decisione.</p><p>Non riceverai una notifica della tua decisione a meno che non selezioni un’opzione di conferma e-mail quando invii la tua decisione.</p></td> 
+        <td>Workfront invia un'e-mail al revisore solo quando qualcuno prende una decisione.<p>Questo può essere utile per la persona che gestisce il processo di approvazione (ad esempio, un project manager) e che deve monitorare i progressi sulla bozza e vedere quali utenti hanno preso la loro decisione.</p><p>Non riceverai una notifica della tua decisione a meno che tu non selezioni un’opzione di conferma e-mail al momento dell’invio della decisione.</p></td> 
        </tr> 
        <tr> 
         <td role="rowheader">Decisione finale</td> 
-        <td>Workfront invia un'e-mail quando l'ultimo approvatore della bozza ha preso la sua decisione.<p>Questo avviso viene spesso utilizzato dal designer, che di solito non deve prendere parte alla discussione di revisione effettiva. Al momento della decisione finale, il progettista viene informato e può quindi intervenire su eventuali modifiche necessarie.</p><p>Questo avviso può essere utile anche per un responsabile di reparto che deve essere informato solo al termine del processo di revisione.</p></td> 
+        <td>Workfront invia un’e-mail quando l’ultimo approvatore della bozza prende la sua decisione.<p>Questo avviso viene spesso utilizzato dal progettista, che di solito non ha bisogno di partecipare alla discussione di revisione effettiva. Al momento della decisione finale, il progettista riceve una notifica e può quindi intervenire su eventuali modifiche necessarie.</p><p>Questo avviso può essere utile anche per un responsabile di reparto che deve ricevere una notifica solo al termine del processo di revisione.</p></td> 
        </tr> 
        <tr> 
         <td role="rowheader">Riepilogo orario</td> 
-        <td>Workfront invia un messaggio e-mail al revisore ogni ora con un riepilogo di tutti i commenti, le risposte e le decisioni che si sono verificate nell’ora.<p>L’e-mail viene inviata solo quando l’attività oltre alla tua si verifica entro l’ora passata. </p><p>Questo avviso è un buon modo per vedere una panoramica del progetto.</p><p>Un esempio di utilizzo per questo riepilogo è un revisore senior che necessita di una panoramica del progetto ma non deve essere informato immediatamente di tutte le attività sulla bozza.</p></td> 
+        <td>Workfront invia ogni ora un messaggio e-mail al revisore con un riepilogo di tutti i commenti, le risposte e le decisioni che si sono verificati nel corso dell’ora.<p>L’e-mail viene inviata solo quando nell’ultima ora si verifica un’attività oltre alla tua. </p><p>Questo avviso è utile per avere una panoramica del progetto.</p><p>Un caso d’uso di esempio per questo riepilogo è un revisore senior che ha bisogno di una panoramica del progetto ma non ha bisogno di essere informato immediatamente di tutte le attività sulla bozza.</p></td> 
        </tr> 
        <tr> 
         <td role="rowheader">Riepilogo giornaliero</td> 
-        <td>Workfront invia un’e-mail con tutti i commenti, le risposte e le decisioni elencati solo nei giorni in cui è presente un’attività oltre alla tua.<p>Questo avviso è un buon modo per visualizzare un riepilogo del progetto senza essere sopraffatto da numerosi aggiornamenti durante tutto il giorno.</p><p>Un esempio di utilizzo per questo riepilogo è un responsabile del reparto che desidera monitorare l'avanzamento complessivo del progetto.</p><p>Per ulteriori informazioni, consulta <a href="../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Gestione delle notifiche per commenti e decisioni di bozza</a>.</p></td> 
+        <td>Workfront invia un’e-mail con tutti i commenti, le risposte e le decisioni elencati solo nei giorni in cui è presente attività oltre alla tua.<p>Questo avviso è un buon modo per visualizzare un riepilogo del progetto senza essere sommersi da più aggiornamenti durante la giornata.</p><p>Un caso d’uso di esempio per questo riepilogo è un responsabile di reparto che desidera monitorare l’avanzamento generale del progetto.</p><p>Per ulteriori informazioni, consulta <a href="../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Gestire le notifiche per i commenti e le decisioni relative alle bozze</a>.</p></td> 
        </tr> 
        <tr data-mc-conditions=""> 
         <td role="rowheader">Nessuna e-mail</td> 
-        <td>Workfront non invia avvisi e-mail.<br>Questo è utile per una persona che viene aggiunta a una prova solo a scopo di riferimento e non deve essere informata di eventuali modifiche.<p>Il valore predefinito del sistema è Riepilogo giornaliero (visualizzato anche come Non impostato). Se tu o i tuoi revisori non apporti altre modifiche, tutte le tue bozze avranno questa impostazione.</p></td> 
+        <td>Workfront non invia avvisi e-mail.<br>Questo è utile per una persona che viene aggiunta a una bozza solo a scopo di riferimento e non deve essere avvisata di eventuali modifiche.<p>L'impostazione predefinita del sistema è Riepilogo giornaliero (visualizzato anche come Non impostato). Se tu o i tuoi revisori non apportate altre modifiche, tutte le bozze dispongono di questa impostazione.</p></td> 
        </tr> 
       </tbody> 
      </table>
 
 1. (Facoltativo) Ripeti i due passaggi precedenti per aggiungere più utenti alla bozza. 
-1. (Facoltativo) Imposta un **Termine** per i revisori (disponibile solo se la bozza non dispone di flusso di lavoro automatizzato).
-1. (Facoltativo) Seleziona **Inviare notifiche e-mail a nuovi destinatari** per far loro sapere che li hai aggiunti alla prova.
-1. Al termine dell’aggiunta degli utenti alla bozza, fai clic su **Fatto.**
+1. (Facoltativo) Imposta una **Scadenza** per i revisori (disponibile solo se la bozza non dispone di un flusso di lavoro automatizzato).
+1. (Facoltativo) Seleziona **Invia una notifica e-mail ai nuovi destinatari** per informarli che li hai aggiunti alla bozza.
+1. Dopo aver aggiunto gli utenti alla bozza, fai clic su **Fine.**

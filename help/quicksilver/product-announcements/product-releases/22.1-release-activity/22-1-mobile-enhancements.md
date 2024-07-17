@@ -25,7 +25,7 @@ in January 2022
 
 la settimana del 17 gennaio 2022.
 
-Per un elenco di tutte le modifiche disponibili con la versione 22.1, consulta [Panoramica sulla versione 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 22.1, consulta la [panoramica sulla versione 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Miglioramenti alla funzionalità bozza nell’app mobile
 

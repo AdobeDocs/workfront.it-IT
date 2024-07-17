@@ -6,7 +6,8 @@ description: Esistono diversi rapporti che è possibile aggiungere a un dashboar
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+exl-id: d593a9d5-6351-48ff-891d-cc1b727188bc
+source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -23,7 +24,7 @@ Esistono diversi rapporti che è possibile aggiungere a un dashboard di Canvas p
 * Rapporti sulle tabelle
 * Rapporti approvazioni in sospeso
 
-Per informazioni generali sull’aggiunta e la disposizione dei rapporti su un dashboard Area di lavoro, consulta [Aggiungere, rimuovere o disporre i rapporti in un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md). Per informazioni più dettagliate sull’aggiunta e la formattazione di tipi di rapporto specifici, consulta l’indice dell’articolo seguente.
+Per informazioni generali sull&#39;aggiunta e la disposizione dei report in un dashboard Canvas, vedere [Aggiungere, rimuovere o disporre report in un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md). Per informazioni più dettagliate sull’aggiunta e la formattazione di tipi di rapporto specifici, consulta l’indice dell’articolo seguente.
 
 ## Tipi di rapporti del dashboard di Canvas: indice degli articoli
 

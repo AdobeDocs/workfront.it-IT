@@ -19,7 +19,7 @@ ht-degree: 0%
 
 {{important-admin-console-onboard}}
 
-Adobe Workfront sta modificando la gestione del sistema di utenti e password. Queste modifiche verranno implementate in una versione graduale denominata **Autenticazione avanzata** esperienza. L’autenticazione avanzata offre agli utenti un’esperienza di accesso più coerente e sicura su tutti i prodotti e i servizi Workfront.
+Adobe Workfront sta modificando la gestione del sistema di utenti e password. Queste modifiche verranno implementate in una versione graduale denominata **Autenticazione avanzata**. L’autenticazione avanzata offre agli utenti un’esperienza di accesso più coerente e sicura su tutti i prodotti e i servizi Workfront.
 
 La tabella seguente fornisce dettagli sulle funzionalità correnti e future:
 
@@ -60,7 +60,7 @@ La tabella seguente fornisce dettagli sulle funzionalità correnti e future:
    <td> <p>✓</p> <p>Più utenti non possono avere lo stesso indirizzo e-mail se l’indirizzo differisce solo per maiuscole e minuscole. </p> <p>Gli amministratori di Workfront riceveranno una notifica verso la fine del 2019 per iniziare a correggere gli indirizzi e-mail duplicati.</p> </td> 
   </tr> 
   <tr> 
-   <td colspan="3"> <p><strong>Opzioni di gestione delle password</strong> </p> </td> 
+   <td colspan="3"> <p><strong>Opzioni di gestione password</strong> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
@@ -76,7 +76,7 @@ La tabella seguente fornisce dettagli sulle funzionalità correnti e future:
    <td> <p>Non pianificato</p> <p>Questa funzionalità non è una best practice per la sicurezza</p> </td> 
   </tr> 
   <tr> 
-   <td colspan="3"> <p><strong>Requisiti dei criteri per le password</strong> </p> </td> 
+   <td colspan="3"> <p><strong>Requisiti dei criteri password</strong> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
@@ -153,7 +153,7 @@ La tabella seguente fornisce dettagli sulle funzionalità correnti e future:
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td colspan="3"> <p><strong>Supporto per l’ambiente</strong> </p> </td> 
+   <td colspan="3"> <p><strong>Supporto ambiente</strong> </p> </td> 
    <td> </td> 
   </tr> 
   <tr> 

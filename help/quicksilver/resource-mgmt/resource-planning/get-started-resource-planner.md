@@ -24,7 +24,7 @@ ht-degree: 0%
 
 È possibile stimare e preventivare l&#39;allocazione delle risorse ai progetti a cui sono assegnate e prevedere la loro disponibilità per il lavoro futuro utilizzando la Programmazione risorse.
 
-Per una panoramica generale della pianificazione delle risorse in Adobe Workfront, vedi l’articolo [Introduzione alla pianificazione delle risorse](../../resource-mgmt/resource-planning/get-started-resource-planning.md).
+Per una panoramica generale della pianificazione delle risorse in Adobe Workfront, vedere l&#39;articolo [Introduzione alla pianificazione delle risorse](../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
 ## Panoramica di Programmazione delle risorse
 
@@ -33,12 +33,12 @@ Per una panoramica generale della pianificazione delle risorse in Adobe Workfron
 >[!IMPORTANT]
 >
 >Non è possibile utilizzare la Programmazione delle risorse per assegnare il lavoro effettivo (attività e problemi) agli utenti. È possibile solo stimare il tempo necessario affinché gli utenti o le mansioni completino un progetto, indipendentemente dalle attività e dai problemi a cui sono assegnati.\
->Per assegnare il lavoro effettivo agli utenti è necessario utilizzare il Bilanciatore dei carichi di lavoro. Per ulteriori informazioni sul Bilanciatore dei carichi di lavoro, consulta [Panoramica del Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Per assegnare il lavoro effettivo agli utenti è necessario utilizzare il Bilanciatore dei carichi di lavoro. Per ulteriori informazioni sul Bilanciatore dei carichi di lavoro, consulta [Panoramica sul Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 È possibile visualizzare le informazioni nella Programmazione delle risorse utilizzando tre visualizzazioni separate. È possibile utilizzare ciascuna visualizzazione per eseguire una delle seguenti operazioni:
 
 * Preventivare il tempo o il costo delle risorse per il lavoro da eseguire utilizzando le visualizzazioni Progetto e Ruolo. Questo è lo scopo principale della Programmazione delle risorse.\
-  Per ulteriori informazioni sulla definizione del budget nella Programmazione delle risorse, vedere l&#39;articolo [Risorse preventivate nella Programmazione delle risorse utilizzando le viste Progetto e Ruolo](../resource-planning/budget-resources-project-role-views-resource-planner.md).
+  Per ulteriori informazioni sulla pianificazione delle risorse, vedere l&#39;articolo [Risorse preventivate nella pianificazione delle risorse utilizzando le visualizzazioni Progetto e Ruolo](../resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 * Per visualizzare le seguenti informazioni utilizzando la vista Utente:
 
@@ -46,13 +46,13 @@ Per una panoramica generale della pianificazione delle risorse in Adobe Workfron
    * Quantità di tempo pianificata necessaria per completare il lavoro in base al piano del progetto
    * Quantità di tempo per cui gli utenti hanno già effettuato l&#39;accesso agli elementi di lavoro effettivi
 
-  Per ulteriori informazioni sulla visualizzazione delle ore disponibili, pianificate ed effettive o FTE per gli utenti nella Programmazione delle risorse, vedere l&#39;articolo [Visualizzare le ore disponibili, pianificate ed effettive o FTE nella Programmazione delle risorse quando si utilizza la vista Utente](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md#using).
+  Per ulteriori informazioni sulla visualizzazione delle ore o dell&#39;FTE disponibili, pianificate ed effettive per gli utenti nella Programmazione delle risorse, vedere l&#39;articolo [Visualizzazione delle ore o dell&#39;FTE disponibili, pianificate ed effettive nella Programmazione delle risorse quando si utilizza la visualizzazione Utente](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md#using).
 
 ## Considerazioni sulla programmazione delle risorse
 
 * È possibile assegnare un ordine di priorità ai progetti su cui si sta lavorando e assegnare un budget all&#39;allocazione delle risorse in base alla relativa priorità, in modo da assicurarsi che le risorse siano allocate prima ai progetti più importanti.
 
-  Per informazioni sull&#39;assegnazione delle priorità ai progetti nella Programmazione delle risorse, vedi [Assegna priorità ai progetti nella Programmazione delle risorse](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
+  Per informazioni sull&#39;assegnazione delle priorità ai progetti nella Programmazione delle risorse, vedere [Assegnare priorità ai progetti nella Programmazione delle risorse](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
 
 * È possibile visualizzare ore, FTE e informazioni sui costi dalle attività e dai problemi dei progetti.
 
@@ -64,7 +64,7 @@ Per una panoramica generale della pianificazione delle risorse in Adobe Workfron
 
   Per informazioni sulle attività padre, vedere gli articoli seguenti:
 
-   * [Panoramica delle attività](../../manage-work/tasks/task-information/tasks-overview.md)
+   * [Panoramica attività](../../manage-work/tasks/task-information/tasks-overview.md)
    * [Crea sottoattività](../../manage-work/tasks/create-tasks/create-subtasks.md)
 
   >[!TIP]
@@ -74,9 +74,9 @@ Per una panoramica generale della pianificazione delle risorse in Adobe Workfron
 * Non è possibile gestire l&#39;allocazione di team nei progetti per i quali sono presenti attività o problemi nella Programmazione delle risorse.
 * È possibile preventivare le risorse per più progetti alla volta utilizzando la Programmazione risorse oppure per un singolo progetto utilizzando l&#39;area Budget risorse del Business Case. Le informazioni preventivate per un progetto vengono visualizzate anche nella Programmazione delle risorse.
 
-  Per informazioni su come preventivare le risorse per un singolo progetto, consulta l’articolo [Risorse di budget nel Business Case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+  Per informazioni su come preventivare le risorse per un singolo progetto, vedere l&#39;articolo [Risorse preventivo nel caso di business](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-  Per informazioni su come preventivare le risorse nella Programmazione delle risorse per più progetti contemporaneamente, vedere la sezione &quot;Risorse preventivate nella Programmazione delle risorse&quot; nell&#39;articolo [Risorse preventivate nella Programmazione delle risorse utilizzando le viste Progetto e Ruolo](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+  Per informazioni su come preventivare le risorse nella Programmazione delle risorse per più progetti contemporaneamente, vedere la sezione &quot;Risorse preventivate nella Programmazione delle risorse&quot; nell&#39;articolo [Risorse preventivate nella Programmazione delle risorse utilizzando le visualizzazioni Progetto e Ruolo](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 ## Prerequisiti per lavorare nella Programmazione delle risorse {#prerequisites-for-working-in-the-resource-planner}
 
@@ -110,11 +110,11 @@ Prima di iniziare a utilizzare la Programmazione risorse, accertati che sia pres
 
 * L&#39;accesso alle risorse del budget è corretto.
 
-  Per informazioni sull&#39;accesso necessario alle risorse del budget, vedere l&#39;articolo [Accesso necessario per preventivare le risorse in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+  Per informazioni sull&#39;accesso necessario alle risorse del budget, vedere l&#39;articolo [Accesso necessario alle risorse del budget in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
 * Gli utenti assegnati alle attività vengono aggiunti ai pool di risorse associati al progetto.
 
-  Per informazioni sull&#39;aggiunta di utenti ai pool di risorse, vedere [Associa i pool di risorse agli utenti](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md).
+  Per informazioni sull&#39;aggiunta di utenti ai pool di risorse, vedere [Associare i pool di risorse agli utenti](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md).
 
   >[!NOTE]
   >
@@ -145,7 +145,7 @@ Prima di iniziare a utilizzare la Programmazione risorse, accertati che sia pres
   Per informazioni sulla creazione di pianificazioni, vedere l&#39;articolo [Creare una pianificazione](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 * Se si desidera preventivare le risorse in base al costo, è necessario associare i ruoli mansione a Costo/Ora. tariffe. Il costo associato alle mansioni assegnate agli utenti nei pool di risorse viene utilizzato per calcolare il costo manodopera preventivato e il costo preventivato del progetto.\
-  Per informazioni sull&#39;associazione di mansioni alle tariffe, vedere l&#39;articolo [Creare e gestire le mansioni](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
+  Per informazioni sull&#39;associazione dei ruoli ai tassi, vedere l&#39;articolo [Creare e gestire ruoli](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
   Per informazioni sul calcolo del costo manodopera preventivato, vedere l&#39;articolo [Comprendere il costo manodopera preventivato e le ore preventivate per i progetti](../../manage-work/projects/project-finances/budgeted-labor-cost.md).\
   Per informazioni sul calcolo del costo preventivato, vedere l&#39;articolo [Calcola costo preventivato](../../manage-work/projects/project-finances/budgeted-cost.md).
 
@@ -154,7 +154,7 @@ Prima di iniziare a utilizzare la Programmazione risorse, accertati che sia pres
 Prima di iniziare a utilizzare la Programmazione risorse, verifica che sia presente la seguente configurazione del progetto:
 
 * I progetti sono associati a pool di risorse.\
-  Per ulteriori informazioni sull’aggiunta di pool di risorse ai progetti, consulta [Associare i pool di risorse a progetti e modelli](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md).
+  Per ulteriori informazioni sull&#39;aggiunta di gruppi di risorse ai progetti, vedere [Associare gruppi di risorse a progetti e modelli](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md).
 
   >[!IMPORTANT]
   >
@@ -191,7 +191,7 @@ Prima di iniziare a definire il budget delle risorse nella Programmazione risors
 
 L&#39;amministratore di Workfront configura le preferenze di gestione delle risorse.
 
-Per ulteriori informazioni, consulta [Configurare le preferenze di Gestione risorse](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+Per ulteriori informazioni, vedere [Configurare le preferenze di Gestione risorse](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 ## Individua la Programmazione delle risorse
 
@@ -201,7 +201,7 @@ Per ulteriori informazioni, consulta [Configurare le preferenze di Gestione riso
 
 È possibile individuare la Programmazione delle risorse in due aree di Workfront, a seconda che si desideri preventivare le risorse per più progetti o per un solo progetto.
 
-Per informazioni sull&#39;individuazione della Programmazione delle risorse, vedere [Individua la Programmazione delle risorse](../../resource-mgmt/resource-planning/locate-resource-planner.md).
+Per informazioni sull&#39;individuazione della Programmazione delle risorse, vedere [Individuazione della Programmazione delle risorse](../../resource-mgmt/resource-planning/locate-resource-planner.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -241,21 +241,21 @@ You can only add a resource pool in the Resource Budgeting area of the Business 
 * Sovrassegnazione o sottoutilizzo delle risorse nella pianificazione risorse.
 * Preventivare le risorse per il lavoro manualmente o automaticamente.
 
-Per ulteriori informazioni sulle aree visualizzate nella Programmazione delle risorse e su come configurare le informazioni visualizzate in tali aree, vedere l&#39;articolo [Panoramica sulla navigazione in Programmazione delle risorse](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Per ulteriori informazioni sulle aree visualizzate nella Programmazione delle risorse e su come configurare le informazioni visualizzate in tali aree, vedere l&#39;articolo [Panoramica sulla navigazione nella Programmazione delle risorse](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Limitazioni nella visualizzazione delle informazioni nella pianificazione risorse
 
 Per migliorare le prestazioni, Workfront limita la quantità di elementi che è possibile visualizzare nella Programmazione delle risorse.
 
-Per ulteriori informazioni su queste limitazioni, consulta l’articolo [Limitazioni della visualizzazione di Programmazione delle risorse](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md) .
+Per ulteriori informazioni su queste limitazioni, consulta l&#39;articolo [Limitazioni di visualizzazione della Programmazione delle risorse](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md) .
 
 ## Calcola FTE nella Programmazione delle risorse
 
 È possibile visualizzare la disponibilità, l&#39;allocazione e i valori pianificati nella Programmazione risorse in Ore, FTE o Costo.
 
-Per ulteriori informazioni sulla modifica delle informazioni visualizzate nella Programmazione delle risorse, vedere la sezione [Visualizza le informazioni per Ora, FTE o Costo](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md#display-by-hour-or-fte-menu) nell’articolo [Verificare la disponibilità e l&#39;allocazione delle risorse mediante Adobe Workfront Resource Planner](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
+Per ulteriori informazioni sulla modifica delle informazioni visualizzate nella Programmazione delle risorse, vedere la sezione [Visualizzare le informazioni in base all&#39;ora, all&#39;FTE o al costo](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md#display-by-hour-or-fte-menu) nell&#39;articolo [Verificare la disponibilità e l&#39;allocazione delle risorse mediante la Programmazione delle risorse di Adobe Workfront](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
 
-Per ulteriori informazioni sul calcolo di Ore ed FTE per utenti e ruoli in Workfront, consulta l’articolo [Panoramica del calcolo delle ore e dell&#39;FTE per utenti e ruoli nella pianificazione risorse](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
+Per ulteriori informazioni su come vengono calcolati le ore e l&#39;FTE per utenti e ruoli in Workfront, vedere l&#39;articolo [Panoramica sul calcolo delle ore e dell&#39;FTE per utenti e ruoli in Pianificazione risorse](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
 
 ## Calcola costi nella programmazione delle risorse
 
@@ -268,7 +268,7 @@ Oltre a visualizzare i valori di disponibilità, allocazione e pianificati nella
 >È necessario associare gli utenti e le mansioni alle tariffe Costo orario per visualizzare le informazioni in base ai costi nella Programmazione delle risorse.
 
 Per ulteriori informazioni sull&#39;associazione delle tariffe orarie con le mansioni, vedere l&#39;articolo [Creare e gestire le mansioni](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
-Per ulteriori informazioni sull&#39;associazione delle tariffe orarie agli utenti, vedere l&#39;articolo [Modificare il profilo di un utente](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Per ulteriori informazioni sull&#39;associazione delle tariffe orarie con gli utenti, vedere l&#39;articolo [Modifica il profilo di un utente](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 Quando si visualizzano le informazioni in base al costo nella Programmazione risorse, tenere presente quanto segue:
 
@@ -276,7 +276,7 @@ Quando si visualizzano le informazioni in base al costo nella Programmazione ris
 * Il Costo Pianificato è influenzato dal Tipo di Costo delle attività sui progetti.
 * Quando si applica la Vista utente alla Programmazione delle risorse, non è possibile visualizzare le informazioni sull&#39;allocazione e sulla disponibilità in base al costo.
 
-Per ulteriori informazioni sul metodo di calcolo dei costi nella pianificazione delle risorse per utenti e ruoli, vedere l&#39;articolo [Calcola i costi nella Programmazione delle risorse](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
+Per ulteriori informazioni sul metodo di calcolo dei costi in Pianificazione risorse per utenti e ruoli, vedere l&#39;articolo [Calcolare i costi in Pianificazione risorse](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -294,4 +294,4 @@ Per ulteriori informazioni sul metodo di calcolo dei costi nella pianificazione 
 ## Filtrare le informazioni nella Programmazione delle risorse
 
 È possibile ridurre il numero di progetti, ruoli o utenti visualizzati in Pianificazione risorse creando un filtro.\
-Per ulteriori informazioni, consulta l’articolo [Filtrare le informazioni nella Programmazione delle risorse](../../resource-mgmt/resource-planning/filter-resource-planner.md).
+Per ulteriori informazioni, vedere l&#39;articolo [Informazioni sul filtro in Pianificazione risorse](../../resource-mgmt/resource-planning/filter-resource-planner.md).

@@ -21,13 +21,13 @@ ht-degree: 0%
 
 È possibile utilizzare lo stesso campo personalizzato calcolato nei moduli personalizzati che appartengono a oggetti diversi. È ad esempio possibile utilizzare il campo calcolato Profitto creato per il modulo personalizzato del progetto in un modulo personalizzato per le attività.
 
-Per informazioni sull’aggiunta di un campo personalizzato calcolato a un modulo personalizzato, consulta [Aggiungere dati calcolati a un modulo personalizzato con il generatore di moduli legacy](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Per informazioni sull&#39;aggiunta di un campo personalizzato calcolato a un modulo personalizzato, vedere [Aggiungere dati calcolati a un modulo personalizzato con il generatore di moduli legacy](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 Quando si utilizza un campo personalizzato calcolato esistente, il calcolo non viene trasferito nel nuovo modulo. È necessario aggiungere nuovamente il calcolo nello stesso campo del nuovo modulo personalizzato.
 
 >[!TIP]
 >
->Ciò si verifica quando si utilizzano i calcoli memorizzati nel **Istruzioni** del modulo personalizzato.
+>Questo si verifica quando è utile utilizzare il calcolo archiviato nel campo **Istruzioni** del modulo personalizzato.
 
 È inoltre possibile avere un calcolo diverso per lo stesso campo nel nuovo modulo. Mantenere lo stesso nome per il campo personalizzato calcolato garantisce coerenza e uniformità nella convenzione di denominazione.
 
@@ -35,7 +35,7 @@ Quando si utilizza un campo personalizzato calcolato esistente, il calcolo non v
 >
 >I campi personalizzati calcolati possono non essere più aggiornati nel tempo. Per essere certi di visualizzare sempre il calcolo aggiornato in questi campi, effettuare una delle seguenti operazioni:
 >
->* Dopo aver salvato un oggetto in cui sono stati modificati dati in un modulo personalizzato allegato, fare clic sull&#39;icona Altro ![](assets/more-icon.png) nella pagina principale dell&#39;oggetto, quindi Ricalcola espressioni personalizzate.
+>* Dopo aver salvato un oggetto in cui sono stati modificati i dati in un modulo personalizzato allegato, fare clic sull&#39;icona Altro ![](assets/more-icon.png) nella pagina principale dell&#39;oggetto, quindi ricalcolare le espressioni personalizzate.
 >* Selezionare l&#39;opzione Ricalcola espressioni personalizzate quando si modificano oggetti in blocco.
 >* Selezionare l&#39;opzione Aggiorna calcoli precedenti durante la modifica di un campo personalizzato calcolato in un modulo personalizzato.
 >

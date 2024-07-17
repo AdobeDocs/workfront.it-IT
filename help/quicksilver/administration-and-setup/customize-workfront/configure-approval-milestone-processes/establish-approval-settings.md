@@ -3,21 +3,21 @@ title: Configurare le impostazioni di approvazione globali
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
-description: In qualità di amministratore di Adobe Workfront, puoi determinare le impostazioni globali per i processi di approvazione in Workfront. Queste impostazioni influiscono su tutti i processi di approvazione degli elementi di lavoro nel sistema.
+description: In qualità di amministratore di Adobe Workfront, puoi determinare le impostazioni globali per i processi di approvazione in Workfront. Queste impostazioni hanno effetto su tutti i processi di approvazione degli elementi di lavoro nel sistema.
 author: Alina, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
 source-git-commit: a3cb3d9d340d377e301c98480324bfe8bf507382
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 3%
+source-wordcount: '909'
+ht-degree: 1%
 
 ---
 
 # Configurare le impostazioni di approvazione globali
 
-In qualità di amministratore di Adobe Workfront, puoi determinare le impostazioni globali per i processi di approvazione in Workfront. Queste impostazioni influiscono su tutti i processi di approvazione degli elementi di lavoro nel sistema.
+In qualità di amministratore di Adobe Workfront, puoi determinare le impostazioni globali per i processi di approvazione in Workfront. Queste impostazioni hanno effetto su tutti i processi di approvazione degli elementi di lavoro nel sistema.
 
 ## Requisiti di accesso
 
@@ -28,7 +28,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
@@ -36,66 +36,66 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td>Piano</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>È necessario essere un amministratore di sistema o disporre di una licenza di piano con accesso amministrativo ai processi di approvazione</p> <p><b>NOTA</b>: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>È necessario essere amministratore di sistema o disporre di una licenza Pianificazione con accesso amministrativo ai processi di approvazione</p> <p><b>NOTA</b>: se non disponi ancora dell'accesso, chiedi all'amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Configurare le impostazioni di approvazione globali
 
-1. Accedi a Workfront come amministratore Workfront .
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Accedi a Workfront come amministratore Workfront.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
-1. Fai clic su **Processi** > **Approvazioni** .
+1. Fare clic su **Processi** > **Approvazioni**.
 
-1. Fai clic sul pulsante **Impostazioni** icona ![](assets/gear-icon-settings.png) accanto al **Approvazioni** nome dell&#39;area.
+1. Fai clic sull&#39;icona **Impostazioni** ![](assets/gear-icon-settings.png) accanto al nome dell&#39;area **Approvazioni**.
 
-1. In **Impostazioni di approvazione** nella casella visualizzata, specificare le seguenti informazioni:
+1. Nella casella **Impostazioni approvazione** visualizzata, specificare le informazioni seguenti:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Aggiungi &lt;number&gt; Giorni alla data di completamento pianificata per accogliere i processi di approvazione</td> 
-      <td> <p>Specificare il numero di minuti, ore, giorni, settimane o mesi da aggiungere alla data di completamento pianificata dell'attività che richiede l'approvazione. Selezionare "Trascorsi" minuti, ore, giorni o settimane per aggiungere un orario che includa i fine settimana, le festività e gli orari non lavorativi indicati nel calendario del programma di lavoro del sistema.</p> 
-      <p>Ad esempio, se un’attività viene assegnata il venerdì e ha una durata di 3 giorni trascorsi, la data di completamento dell’attività viene impostata per il lunedì (partendo dal presupposto che il sabato e la domenica siano weekend). Se l'attività ha una durata di 3 giorni (non trascorsi), la data di completamento dell'attività è impostata per mercoledì.</p>
-      <p><b>NOTA</b>: L’aggiunta di tempo aggiuntivo per l’approvazione delle attività influisce sulla timeline dell’attività e del progetto.</p></td> 
+      <td role="rowheader">Aggiungi &lt;number&gt; giorni alla data di completamento pianificata per i processi di approvazione</td> 
+      <td> <p>Specificare il numero di minuti, ore, giorni, settimane o mesi per aggiungere tempo alla data di completamento pianificata dell'attività che deve essere approvata. Selezionare "Trascorsi" minuti, ore, giorni o settimane per aggiungere l'ora che include tutti i fine settimana, le festività e le ore non lavorative specificate nel calendario della programmazione del lavoro di sistema.</p> 
+      <p>Ad esempio, se un'attività viene assegnata il venerdì e ha una durata di 3 giorni, la data di completamento dell'attività viene impostata per il lunedì (supponendo che sabato e domenica siano un fine settimana). Se l'attività ha una durata di 3 giorni (non trascorsa), la data di completamento dell'attività viene impostata su Mercoledì.</p>
+      <p><b>NOTA</b>: l'abilitazione di un tempo aggiuntivo per l'approvazione delle attività influirà sulla sequenza temporale dell'attività e del progetto.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Non è necessario che l'approvatore sia nel team di progetto (per i processi di approvazione che includono una mansione)</td> 
-      <td> <p>Selezionare questa opzione se non è necessario che un approvatore faccia parte del team del progetto quando un processo di approvazione include un ruolo. Quando si assegna la decisione di approvazione a un ruolo di lavoro, l'approvazione verrà visualizzata solo dagli utenti a cui è associato un ruolo nel progetto. Se abiliti questa impostazione, qualsiasi utente con quel ruolo di lavoro riceve la richiesta di approvazione, che si trovi o meno nel team di progetto. Per informazioni sulla modifica del ruolo di progetto di un utente, consulta <a href="../../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref">Gestione del team del progetto</a>. </p> 
-      <p><b>SUGGERIMENTO</b>: Quando assegni un'approvazione a un ruolo e a un'opzione <b>L’approvatore non deve far parte del team di progetto (per i processi di approvazione che includono un ruolo)</b> è disabilitato, ma non ci sono ruoli nel team di progetto che corrispondono al ruolo nell'approvazione, l'approvazione viene riassegnata al proprietario del progetto. </p> </td> 
+      <td> <p>Selezionare questa opzione se non è necessario che un approvatore appartenga al team di progetto quando un processo di approvazione include un ruolo. Quando si assegna la decisione di approvazione a una mansione, solo gli utenti a cui è associato un ruolo nel progetto visualizzeranno l’approvazione. Se abiliti questa impostazione, qualsiasi utente con quella mansione riceve la richiesta di approvazione indipendentemente dal fatto che appartenga o meno al team di progetto. Per informazioni sulla modifica del ruolo di progetto di un utente, vedere <a href="../../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref">Gestione del team di progetto</a>. </p> 
+      <p><b>SUGGERIMENTO</b>: quando si assegna un'approvazione a un ruolo e l'opzione <b>Approvatore non obbligatorio nel team di progetto (per i processi di approvazione che includono un ruolo)</b> è disabilitata, ma non vi sono ruoli nel team di progetto che corrispondono al ruolo nell'approvazione, l'approvazione viene riassegnata al proprietario del progetto. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Disabilita la delega delle approvazioni</td> 
-      <td> <p>Selezionare questa opzione per disabilitare la funzionalità che consente agli utenti del sistema di delegare le approvazioni a un altro utente. Quando questa opzione è selezionata, l’opzione per delegare le approvazioni viene rimossa da Workfront e tutte le delegazioni di approvazione esistenti vengono arrestate.</p> <p>Per ulteriori informazioni sulla delega delle approvazioni in Workfront, vedi <a href="../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md" class="MCXref xref">Delega richiesta di approvazione</a> .</p> </td> 
+      <td> <p>Seleziona questa opzione per disabilitare la funzionalità di delega delle approvazioni a un altro utente da parte degli utenti del sistema. Quando questa opzione è selezionata, l’opzione di delega delle approvazioni viene rimossa da Workfront e tutte le deleghe di approvazione esistenti vengono interrotte.</p> <p>Per ulteriori informazioni sulla delega delle approvazioni in Workfront, vedere <a href="../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md" class="MCXref xref">Delegare la richiesta di approvazione</a> .</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Consenti modifica del modulo personalizzato quando il progetto, l'attività o il problema è nello stato di approvazione in sospeso</td> 
-      <td> <p>Selezionare questa opzione per consentire agli utenti di modificare la forma personalizzata di progetti, attività e problemi quando si trova nello stato Approvazione in sospeso. Questa è l’impostazione predefinita.</p> 
+      <td role="rowheader">Consenti modifica del modulo personalizzato quando il progetto, l’attività o il problema è in attesa di approvazione</td> 
+      <td> <p>Selezionare questa opzione per consentire agli utenti di modificare il modulo personalizzato di progetti, attività e problemi nello stato In attesa di approvazione. Questa è l'impostazione predefinita.</p> 
       <p>Quando questa opzione è selezionata:</p> 
        <ul> 
-       <li>Tutti gli approvatori (e tutti gli altri utenti che hanno accesso alla modifica del modulo personalizzato) possono apportare modifiche al modulo personalizzato quando l'oggetto è in attesa di approvazione, indipendentemente dal percorso di approvazione o dal passaggio di approvazione corrente.</li> 
-       <li>Le modifiche apportate al modulo personalizzato durante un processo di approvazione non influiscono sulle decisioni di approvazione effettuate prima della modifica.</li> 
-       <li> <p>Le modifiche apportate al progetto, all'attività o al problema vengono tracciate nello stesso modo, indipendentemente da questa impostazione. </p> <p>Ad esempio, se si aggiungono campi modulo personalizzati da tracciare nel flusso di aggiornamento, tutte le modifiche apportate al modulo vengono tracciate nel flusso di aggiornamento dell’oggetto.</p> </li> 
+       <li>Tutti gli approvatori (e tutti gli altri utenti che hanno accesso alla modifica del modulo personalizzato) possono apportare modifiche al modulo personalizzato quando l’oggetto è in attesa di approvazione, indipendentemente dal percorso di approvazione o dal passaggio di approvazione corrente.</li> 
+       <li>Le modifiche apportate al modulo personalizzato durante un processo di approvazione non influiscono sulle decisioni di approvazione eseguite prima della modifica.</li> 
+       <li> <p>Tutte le modifiche apportate al progetto, all’attività o al problema vengono tracciate allo stesso modo, indipendentemente da questa impostazione. </p> <p>Ad esempio, se sono stati aggiunti campi modulo personalizzati da tracciare nel flusso di aggiornamento, tutte le modifiche apportate al modulo verranno tracciate nel flusso di aggiornamento dell'oggetto.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Consenti agli utenti di richiamare le richieste di nuova creazione in attesa di approvazione</td> 
-      <td> <p>Seleziona questa opzione per configurare se gli utenti possono richiamare un problema o una richiesta in attesa di approvazione per il loro primo stato. Puoi associare il primo stato di un problema o di una richiesta a un processo di approvazione configurando le code di richieste. </p> 
-      <p>Per ulteriori informazioni sulle code di richiesta, vedi <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Creare una coda di richiesta</a>.</p> 
+      <td> <p>Seleziona questa opzione per configurare se gli utenti possono richiamare un problema o una richiesta in attesa di approvazione per il loro primo stato. È possibile associare il primo stato di un problema o di una richiesta a un processo di approvazione configurando le code delle richieste. </p> 
+      <p>Per ulteriori informazioni sulle code di richieste, vedere <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Creare una coda di richieste</a>.</p> 
       <p>Esegui una delle operazioni seguenti:</p> 
        <ul> 
-       <li>Seleziona questa opzione per consentire agli utenti di richiamare un’approvazione per il primo stato di un problema o di una richiesta. In questo caso, possono visualizzare un pulsante Richiama&lt; su un nuovo problema o richiesta in attesa di approvazione. Quando scelgono di richiamare il problema, riceveranno un avviso che avvisa che anche il problema verrà eliminato. Il problema viene eliminato dopo che hanno confermato il loro richiamo. </li> 
-       <li> <p>Deseleziona questa opzione per impedire agli utenti di richiamare un problema o una richiesta il cui primo stato è in attesa di approvazione. Non possono visualizzare un pulsante Richiama&lt; sul nuovo problema o richiesta e l'approvazione deve essere rilasciata. Questa è l’opzione predefinita.</p> 
-       <p>Per ulteriori informazioni sulla revisione degli elementi in attesa di approvazione, consulta <a href="../../../review-and-approve-work/manage-approvals/view-approvals.md" class="MCXref xref">Visualizza approvazioni </a>.</p> </li> 
+       <li>Selezionare questa opzione per consentire agli utenti di richiamare un'approvazione per il primo stato di un problema o di una richiesta. In questo caso, può visualizzare il pulsante Recall&lt; (Richiama) su un nuovo problema o richiesta con stato in attesa di approvazione. Quando sceglie di richiamare il problema, riceve un avviso che indica che anche il problema verrà eliminato. Il problema viene cancellato dopo che hanno confermato di averlo richiamato. </li> 
+       <li> <p>Deseleziona questa opzione per impedire agli utenti di richiamare un problema o una richiesta il cui primo stato è In attesa di approvazione. Non visualizzano il pulsante Recall&lt; (Richiama) sul nuovo problema o sulla nuova richiesta ed è necessario concedere l’approvazione. Questa è l'opzione predefinita.</p> 
+       <p>Per ulteriori informazioni sulla revisione degli elementi in attesa di approvazione, vedere <a href="../../../review-and-approve-work/manage-approvals/view-approvals.md" class="MCXref xref">Visualizza approvazioni </a>.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Fai clic su **Salva le modifiche.**
+1. Fai clic su **Salva modifiche.**

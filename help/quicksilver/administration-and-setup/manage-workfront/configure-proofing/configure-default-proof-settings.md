@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
 title: Configurare le impostazioni di bozza predefinite
-description: Queste impostazioni consentono di impostare valori predefiniti da applicare a tutte le nuove bozze create dagli utenti. Tuttavia, gli utenti possono ignorare la maggior parte di queste impostazioni durante la creazione di una bozza.
+description: Queste impostazioni consentono di impostare i valori predefiniti applicabili a tutte le nuove bozze create dagli utenti. Tuttavia, gli utenti possono ignorare la maggior parte di queste impostazioni durante la creazione di una bozza.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
@@ -17,13 +17,13 @@ ht-degree: 7%
 
 # Configurare le impostazioni di bozza predefinite
 
-Queste impostazioni consentono di impostare valori predefiniti da applicare a tutte le nuove bozze create dagli utenti. Tuttavia, gli utenti possono ignorare la maggior parte di queste impostazioni durante la creazione di una bozza.
+Queste impostazioni consentono di impostare i valori predefiniti applicabili a tutte le nuove bozze create dagli utenti. Tuttavia, gli utenti possono ignorare la maggior parte di queste impostazioni durante la creazione di una bozza.
 
 ## Configurare le nuove impostazioni predefinite della bozza
 
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront, quindi fai clic su **Configurazione**.
-1. Nel pannello a sinistra, fai clic su **Bozze** > **Impostazioni di bozza**.
-1. In **Nuovi valori predefiniti di prova** configura le seguenti impostazioni:
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione**.
+1. Nel pannello a sinistra, fai clic su **Bozze** > **Impostazioni bozza**.
+1. Nella sezione **Nuovi valori predefiniti per la bozza** configura le impostazioni seguenti:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -34,7 +34,7 @@ Queste impostazioni consentono di impostare valori predefiniti da applicare a tu
      </tr> 
      <tr> 
       <td role="rowheader">Accesso obbligatorio</td> 
-      <td> <p>I revisori devono effettuare l'accesso utilizzando le proprie e-mail e password prima di poter visualizzare le bozze create nell'account dell'organizzazione. Quando è attivata, gli utenti non possono condividere la bozza con i revisori dei conti degli ospiti.</p> <p><b>IMPORTANTE</b>: Quando questa opzione è attivata, l’accesso è necessario per tutte le bozze appena create.</p> </td> 
+      <td> <p>I revisori devono accedere con la propria e-mail e password prima di poter visualizzare le bozze create nell’account della tua organizzazione. Se questa opzione è abilitata, gli utenti non possono condividere la bozza con i revisori ospiti.</p> <p><b>IMPORTANTE</b>: se abilitata, l'accesso è necessario per tutte le nuove bozze create.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Copia il proprietario dalla bozza originale per le nuove versioni</td> 
@@ -46,18 +46,18 @@ Queste impostazioni consentono di impostare valori predefiniti da applicare a tu
      </tr> 
      <tr> 
       <td role="rowheader">Richiedi la firma elettronica per le decisioni </td> 
-      <td> <p>Ai decisori viene richiesto di immettere le credenziali di accesso di Workfront quando decidono in merito a una bozza.</p> <p><b>IMPORTANTE</b>: Quando è attivata, gli utenti non possono condividere la bozza con i revisori dei conti degli ospiti che non dispongono di credenziali di accesso.</p> </td> 
+      <td> <p>Ai decision maker viene richiesto di inserire le credenziali di accesso a Workfront quando prendono una decisione su una bozza.</p> <p><b>IMPORTANTE</b>: se questa opzione è abilitata, gli utenti non possono condividere la bozza con i revisori guest che non dispongono delle credenziali di accesso.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader" colspan="2"><b>Scadenza</b></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Imposta la scadenza predefinita</td> 
-      <td> <p>Il sistema applica questa scadenza a tutte le nuove bozze del tuo account che non dispongono di un flusso di lavoro automatizzato.</p> </td> 
+      <td role="rowheader">Impostare la scadenza predefinita</td> 
+      <td> <p>Il sistema applica questa scadenza a tutte le nuove bozze nel tuo account che non hanno un flusso di lavoro automatico.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Notifica ai destinatari prima che la prova sia a rischio</td> 
-      <td>I destinatari ricevono una notifica via e-mail prima che la prova sia considerata a rischio a seconda della scadenza specificata sopra.</td> 
+      <td role="rowheader">Notifica i destinatari prima che la bozza sia a rischio</td> 
+      <td>I destinatari ricevono una notifica via e-mail prima che la bozza venga considerata a rischio a seconda della scadenza specificata in precedenza.</td> 
      </tr> 
      <tr> 
       <td role="rowheader" colspan="2"><b>Notifiche e-mail</b></td> 
@@ -71,35 +71,35 @@ Queste impostazioni consentono di impostare valori predefiniti da applicare a tu
 
 1. Fai clic su **Salva**.
 
-## Configurare le decisioni di bozza
+## Configurare le decisioni relative alle bozze
 
-Gli utenti possono utilizzare le decisioni relative alle prove per indicare lo stato della bozza dopo la revisione.
+Gli utenti possono utilizzare le decisioni relative alle bozze per indicare lo stato della bozza dopo la revisione.
 
 >[!NOTE]
 >
->La logica alla base delle decisioni relative alla bozza viene utilizzata per calcolare lo stato complessivo di un flusso di lavoro di bozza in presenza di più decisioni di vari livelli. Le decisioni &quot;Approvato&quot; e &quot;Approvato con le modifiche&quot; attivano la fase successiva in un flusso di lavoro automatico.
+>La logica alla base delle decisioni relative alle bozze viene utilizzata per calcolare lo stato complessivo di un flusso di lavoro di una bozza in presenza di più decisioni di vari livelli. Le decisioni &quot;Approvato&quot; e &quot;Approvato con modifiche&quot; attivano la fase successiva in un flusso di lavoro automatico.
 
-Per configurare le decisioni relative alle prove:
+Per configurare le decisioni relative alle bozze:
 
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront, quindi fai clic su **Configurazione**.
-1. Nel pannello a sinistra, fai clic su **Bozze** > **Impostazioni di bozza**.
-1. In **Decisioni** sezione, puoi
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione**.
+1. Nel pannello a sinistra, fai clic su **Bozze** > **Impostazioni bozza**.
+1. Nella sezione **Decisioni** puoi
 
-   1. **Rinomina la decisione**: Fare clic sul testo all&#39;interno della casella di decisione e iniziare a digitare la nuova etichetta di decisione.
+   1. **Rinomina la decisione**: fare clic sul testo all&#39;interno della casella di decisione e iniziare a digitare la nuova etichetta di decisione.
 
       >[!TIP]
       >
-      >Mantenere la logica di una decisione quando la si rinomina. Ad esempio, è possibile modificare la decisione predefinita Rifiutata in *Nuova versione richiesta*, ma non deve essere modificato in *Invia a stampanti*.
+      >Quando lo rinomini, mantieni la logica per una decisione. Ad esempio, la decisione predefinita Rifiutata potrebbe essere modificata in *Nuova versione richiesta*, ma non dovrebbe essere modificata in *Invia a stampanti*.
 
       ![](assets/rename-decision-350x109.png)
 
-   1. **Ridisporre l&#39;ordine decisionale**: Trascina le caselle di decisione nell’ordine in cui desideri che vengano visualizzate nel visualizzatore di correzione.
+   1. **Ridisponi l&#39;ordine di decisione**: trascina le caselle di decisione nell&#39;ordine in cui desideri che vengano visualizzate nel visualizzatore di bozze.
 
       ![](assets/move-decision-350x110.png)
 
-   1. **Nascondere una decisione**: Passa il puntatore del mouse sulla casella di decisione e fai clic sull&#39;icona Nascondi nell&#39;angolo superiore destro.
+   1. **Nascondi una decisione**: passa il puntatore del mouse sulla casella di decisione e fai clic sull&#39;icona Nascondi nell&#39;angolo superiore destro.
 
       ![](assets/hide-decision-350x109.png)
 
-1. (Facoltativo) Per tornare alle impostazioni predefinite di Workfront, fai clic su **Ripristina valori predefiniti**.
+1. (Facoltativo) Per tornare ai valori predefiniti di Workfront, fare clic su **Ripristina valori predefiniti**.
 1. Fai clic su **Salva**.

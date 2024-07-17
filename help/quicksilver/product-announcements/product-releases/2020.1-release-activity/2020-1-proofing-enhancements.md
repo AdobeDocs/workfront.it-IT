@@ -36,7 +36,7 @@ Ora, quando imposti le impostazioni di scadenza dell’area di visualizzazione e
 
 Inoltre, i nomi delle impostazioni dell’area di visualizzazione ora sono coerenti da un’attività del flusso di lavoro automatico all’altra. In precedenza, alcune impostazioni della fase Flusso di lavoro automatico per la configurazione di una nuova bozza erano diverse dalle impostazioni corrispondenti di una bozza esistente.
 
-Per ulteriori informazioni, consulta e [Creare o modificare un flusso di lavoro automatico per una bozza esistente](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
+Per ulteriori informazioni, consulta e [Creare o modificare un flusso di lavoro automatizzato per una bozza esistente](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
 
 ## Aggiungere un fuso orario a un modello di flusso di lavoro automatico
 

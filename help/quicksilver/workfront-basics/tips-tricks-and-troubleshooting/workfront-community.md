@@ -1,8 +1,8 @@
 ---
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
-title: Il [!DNL Adobe Workfront] Community
-description: Adobe [!DNL Workfront] Community è un gruppo online di oltre 10.000 persone [!DNL Workfront] utenti. Attraverso la community puoi rimanere aggiornato sulle versioni dei prodotti, venire a conoscenza degli eventi dei clienti e parlare con altri utenti di [!DNL Workfront] prodotti e servizi. Troverai le risposte alle domande e stabilirai connessioni con gli altri [!DNL Workfront] clienti.
+title: Community  [!DNL Adobe Workfront]
+description: La community Adobe [!DNL Workfront] è un gruppo online di oltre 10.000 [!DNL Workfront] utenti. Tramite la community potrai rimanere aggiornato sulle versioni dei prodotti, scoprire gli eventi dei clienti e parlare con altri utenti di  [!DNL Workfront]  prodotti e servizi. Troverai le risposte alle domande e stabilirai connessioni con altri [!DNL Workfront]  clienti.
 feature: Get Started with Workfront
 exl-id: 1b581917-2e71-4e8a-b38c-775ade578f09
 source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Il [!DNL Adobe Workfront] Community
+# Community [!DNL Adobe Workfront]
 
-Adobe [!DNL Workfront] Community è un gruppo online di oltre 10.000 persone [!DNL Workfront] utenti. Attraverso la community puoi rimanere aggiornato sulle versioni dei prodotti, venire a conoscenza degli eventi dei clienti e parlare con altri utenti di [!DNL Workfront] prodotti e servizi. Troverai le risposte alle domande e stabilirai connessioni con gli altri [!DNL Workfront] clienti.
+La community Adobe [!DNL Workfront] è un gruppo online di oltre 10.000 utenti [!DNL Workfront]. Tramite la community potrai rimanere aggiornato sulle versioni dei prodotti, conoscere gli eventi dei clienti e parlare con altri utenti di [!DNL Workfront] prodotti e servizi. Troverai le risposte alle domande e stabilirai connessioni con altri clienti [!DNL Workfront].
 
 <!--
 <img src="assets/screen-shot-2018-09-06-at-11.38.27-am-350x112.png" alt="Screen_Shot_2018-09-06_at_11.38.27_AM.png" style="width: 350;height: 112;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -28,13 +28,13 @@ Adobe [!DNL Workfront] Community è un gruppo online di oltre 10.000 persone [!D
 
 ### Contatto supporto autorizzato {#authorized-support-contact}
 
-Se sei un Contatto di supporto autorizzato (ASC), disponi delle credenziali di accesso per [!UICONTROL Help Desk], e [!UICONTROL Laboratorio innovazione]. Puoi utilizzare le stesse credenziali per accedere a [!DNL Workfront] Community. In questo caso, lascerai vuoto il sottodominio.
+Se sei un Contatto di supporto autorizzato (ASC), disponi delle credenziali di accesso per [!UICONTROL Help Desk] e [!UICONTROL Innovation Lab]. È possibile utilizzare le stesse credenziali per accedere alla community [!DNL Workfront]. In questo caso, lascerai vuoto il sottodominio.
 
 ![community_4.png](assets/community-4-350x129.png)
 
 ### Contatto per il supporto non autorizzato senza accesso SSO {#non-authorized-support-contact-without-sso-login}
 
-Se non sei un Contatto di assistenza autorizzato, puoi accedere con il tuo normale [!DNL Workfront] credenziali dell&#39;istanza. Utilizza lo stesso sottodominio del tuo [!DNL Workfront] dell&#39;istanza.
+Se non si è un Contatto di supporto autorizzato, è possibile accedere con le normali credenziali dell&#39;istanza [!DNL Workfront]. Utilizza lo stesso sottodominio dell&#39;istanza [!DNL Workfront].
 
 >[!NOTE]
 >
@@ -42,22 +42,22 @@ Se non sei un Contatto di assistenza autorizzato, puoi accedere con il tuo norma
 
 ### Contatto di supporto non autorizzato con accesso SSO {#non-authorized-support-contact-with-sso-login}
 
-Se l&#39;azienda utilizza l&#39;SSO, è necessario contattare [!DNL Workfront] Per richiedere un account, contatta l’Assistenza clienti telefonicamente. Se non riesci a inviare un ticket o a partecipare a una chat in diretta, contatta il tuo [!DNL Workfront] Contatto dell’Assistenza clienti.
+Se l&#39;azienda utilizza l&#39;SSO, è necessario contattare l&#39;Assistenza clienti [!DNL Workfront] telefonicamente per richiedere un account. Se non riesci a inviare un ticket o a partecipare a una chat in diretta, contatta l&#39;Assistenza clienti [!DNL Workfront] autorizzata.
 
-Se non ricordi la password per il sito community, contatta [!DNL Workfront Customer Support] e possono aiutarti.
+Se non ricordi la password per il sito community, contatta [!DNL Workfront Customer Support] per ricevere assistenza.
 
 ## Domande frequenti
 
 * [Qual è il mio sottodominio?](#what-s-my-subdomain)
 * [Ho dimenticato il mio nome utente o password. Come si reimposta il nome utente o la password?](#i-forgot-my-username-or-password-how-do-i-reset-my-username-or-password)
 
-### Qual è l’URL per il [!DNL Workfront] Community?
+### Qual è l&#39;URL per la community [!DNL Workfront]?
 
-Il [!DNL Workfront] La community è disponibile sul sito [!DNL Adobe Experience League] sito web al seguente URL:  [[!DNL Workfront] Community](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
+La community [!DNL Workfront] è disponibile nel sito Web [!DNL Adobe Experience League] al seguente URL: [[!DNL Workfront] Community](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
 
 ### Qual è il mio sottodominio? {#what-s-my-subdomain}
 
-Se non conosci il sottodominio, puoi trovarlo in modo semplice. Se hai effettuato l’accesso a [!DNL Workfront], il sottodominio è la stringa di testo o la parola precedente a *.workfront.com*  o *my.workfront.com* nell’URL. Ad esempio, se l’URL di Workfront legge *appetite.workfront.com* allora *appetito* è il tuo sottodominio. Vedere il marcatore C nel diagramma seguente.
+Se non conosci il sottodominio, puoi trovarlo in modo semplice. Se hai effettuato l&#39;accesso a [!DNL Workfront], il tuo sottodominio è la stringa di testo o la parola precedente a *.workfront.com* o *my.workfront.com* nell&#39;URL. Ad esempio, se l&#39;URL di Workfront legge *appetite.workfront.com,* allora *appetite* è il tuo sottodominio. Vedere il marcatore C nel diagramma seguente.
 
 ![community_5.png](assets/community-5-350x175.png)
 

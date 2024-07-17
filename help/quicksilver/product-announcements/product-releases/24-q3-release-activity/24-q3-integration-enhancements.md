@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti all’integrazione apportati con la versione del terzo trimestre 2024 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione con la versione del terzo trimestre 2024.
 
-Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rilascio del terzo trimestre 2024, consulta [Panoramica sulla versione del terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del terzo trimestre 2024, consulta [Panoramica sulla versione del terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 ## Miglioramenti di Workfront per Experience Manager Assets e Assets Essentials
 
@@ -25,6 +25,6 @@ Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rila
 
 Sono stati apportati i seguenti miglioramenti alle integrazioni di Workfront for Experience Manager Assets e Assets Essentials:
 
-* L’integrazione ora supporta GCP come provider di servizi cloud. In precedenza, AWS e Azure erano supportati. Per ulteriori informazioni, consulta [Panoramica delle integrazioni Adobe Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
+* L’integrazione ora supporta GCP come provider di servizi cloud. In precedenza, AWS e Azure erano supportati. Per ulteriori informazioni, vedere [Panoramica delle integrazioni Adobe Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
 
-* Il limite di dimensione per i file inviati ad Experience Manager tramite l’integrazione è aumentato a 30 GB. In precedenza, il limite era di 5 GB. Per ulteriori informazioni, consulta [Inviare un documento a Experience Manager Assets o ad Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md).
+* Il limite di dimensione per i file inviati ad Experience Manager tramite l’integrazione è aumentato a 30 GB. In precedenza, il limite era di 5 GB. Per ulteriori informazioni, vedere [Inviare un documento a Experience Manager Assets o Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md).

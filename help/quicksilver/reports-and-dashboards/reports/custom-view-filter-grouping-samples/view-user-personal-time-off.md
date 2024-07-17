@@ -10,7 +10,7 @@ exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
 source-wordcount: '284'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -47,19 +47,19 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 </tr>  
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Visualizza indisponibilità personale utente
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro, quindi fai clic su **Rapporti > Nuovo rapporto**.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro, quindi fai clic su **Rapporti > Nuovo rapporto**.
 
 1. Dal menu a discesa, seleziona **Indisponibilità**.
-1. Clic **Salva e chiudi**.
+1. Fai clic su **Salva e Chiudi**.
 
    Per impostazione predefinita, nel rapporto vengono visualizzati i campi riportati di seguito.
 
@@ -77,7 +77,7 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
    * Filtri
    * Diagramma
 
-   Per informazioni sulla creazione di rapporti, consulta l’articolo [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   Per informazioni sulla creazione di report, vedere l&#39;articolo [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
    >[!TIP]
    >

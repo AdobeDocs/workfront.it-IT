@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Per informazioni sull&#39;allineamento degli obiettivi, vedere i seguenti articoli:
 
-* [Allineare gli obiettivi collegandoli in Obiettivi di Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
+* [Allinea gli obiettivi collegandoli in Obiettivi Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 * [Allineare gli obiettivi convertendo risultati e attività in obiettivi](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
 
 ## Requisiti di accesso
@@ -54,7 +54,7 @@ Devi avere i seguenti:
 <li>Un piano Select o Prime Adobe Workfront e un’ulteriore licenza Adobe Workfront Goals.</li>
 <li>Un piano Workfront Ultimate che include gli obiettivi Workfront per impostazione predefinita. </li></ul>
  <p>Oppure</p>
- <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, consulta <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l’utilizzo degli obiettivi di Workfront</a>. </p> </td>
+ <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Livello di accesso</td>
@@ -65,7 +65,7 @@ Devi avere i seguenti:
  <td>
   <p>Visualizza o autorizzazioni superiori per l’obiettivo per visualizzarlo</p>
   <p>Gestire le autorizzazioni per l’obiettivo per modificarlo</p>
-  <p>Per informazioni sulla condivisione degli obiettivi, consulta <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Condividere un obiettivo in Obiettivi di Workfront</a>. </p>
+  <p>Per informazioni sulla condivisione degli obiettivi, vedere <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Condividere un obiettivo in Obiettivi di Workfront</a>. </p>
   </td>
  </tr>
    <td role="rowheader"><p>Modello di layout</p></td>
@@ -75,7 +75,7 @@ Devi avere i seguenti:
 </tbody>
 </table>
 
-*Per ulteriori informazioni, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Prerequisiti
 
@@ -114,16 +114,16 @@ Removing goal alignment differs depending on which environment you use.
    * [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 -->
 
-1. Accedere a **Obiettivi** in Workfront e fai clic sul nome di un obiettivo per aprirne la pagina.
-1. Dalla pagina dell’obiettivo di un obiettivo principale, fai clic su **Indicatori di avanzamento** nel pannello a sinistra.
+1. Accedi all&#39;area **Obiettivi** in Workfront e fai clic sul nome di un obiettivo per aprirne la pagina.
+1. Dalla pagina dell&#39;obiettivo di un obiettivo principale, fai clic su **Indicatori di avanzamento** nel pannello a sinistra.
 
    ![](assets/remove-goal-alignment-from-list-unshimmed.png)
 
-1. In **Tipo: Obiettivo** raggruppamento, seleziona un obiettivo, quindi fai clic sul pulsante **Disconnetti** icona ![](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) nella parte superiore dell’elenco.
+1. Nel raggruppamento **Tipo: Obiettivo**, seleziona un obiettivo, quindi fai clic sull&#39;icona **Disconnetti** ![](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) nella parte superiore dell&#39;elenco.
 
    Viene visualizzata la casella Disconnetti.
 
-1. Clic **Disconnetti** per disconnettere l&#39;obiettivo selezionato dal relativo elemento padre.
+1. Fare clic su **Disconnetti** per disconnettere l&#39;obiettivo selezionato dal relativo elemento padre.
 
    L’obiettivo diventa autonomo e non viene più elencato come indicatore di avanzamento dell’obiettivo originale. L’avanzamento dell’obiettivo disconnesso non influenza più l’avanzamento dell’obiettivo originale.
 

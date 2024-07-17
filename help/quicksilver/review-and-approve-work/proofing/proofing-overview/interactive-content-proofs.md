@@ -58,22 +58,22 @@ Quando riunisci il contenuto interattivo in un file ZIP per la verifica, assicur
 
   Questo non è un requisito quando si utilizza il Visualizzatore bozze desktop.
 
-  Per ulteriori informazioni, consulta [Informazioni su Visualizzatore bozze desktop](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md).
+  Per ulteriori informazioni, vedere [Informazioni su Visualizzatore bozze desktop](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md).
 
 * Il sito web deve poter essere visualizzato in un iframe.
 
   Questo non è un requisito quando si utilizza il Visualizzatore bozze desktop.
 
-  Per ulteriori informazioni, consulta [Informazioni su Visualizzatore bozze desktop](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md).
+  Per ulteriori informazioni, vedere [Informazioni su Visualizzatore bozze desktop](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md).
 
 ## Informazioni sulla creazione di una bozza interattiva
 
 Dopo aver preparato il file del bundle ZIP, crea una bozza interattiva.
 
-Per ulteriori informazioni, consulta [Creare una bozza per il contenuto interattivo in un file ZIP](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
+Per ulteriori informazioni, vedere [Creare una bozza per il contenuto interattivo in un file ZIP](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
 
-Oppure, se utilizzi Workfront Proof, consulta la sezione [Generare una bozza per il contenuto interattivo](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md#generate-a-proof-for-interactive-content) nell’articolo [Genera bozze in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
+Oppure, se utilizzi Workfront Proof, consulta la sezione [Generare una bozza per il contenuto interattivo](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md#generate-a-proof-for-interactive-content) nell&#39;articolo [Generare bozze in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
 
 ## Informazioni sulla revisione delle bozze interattive
 
-È consigliabile utilizzare il Visualizzatore bozze desktop autonomo come visualizzatore predefinito per le bozze interattive. Tuttavia, se i criteri dell’organizzazione non consentono l’utilizzo dell’app Visualizzatore bozze desktop, l’amministratore di Workfront può configurare il sistema in modo da poter esaminare il contenuto interattivo, incluso in un file di archivio ZIP, nel Visualizzatore bozze web. Per informazioni comparative sul Visualizzatore bozze desktop e sul Visualizzatore bozze web, vedere [Panoramica sulle differenze tra il visualizzatore bozze web e il visualizzatore bozze desktop](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
+È consigliabile utilizzare il Visualizzatore bozze desktop autonomo come visualizzatore predefinito per le bozze interattive. Tuttavia, se i criteri dell’organizzazione non consentono l’utilizzo dell’app Visualizzatore bozze desktop, l’amministratore di Workfront può configurare il sistema in modo da poter esaminare il contenuto interattivo, incluso in un file di archivio ZIP, nel Visualizzatore bozze web. Per informazioni comparative sul Visualizzatore bozze desktop e sul Visualizzatore bozze web, vedere [Differenze tra il Visualizzatore bozze web e la panoramica del Visualizzatore bozze desktop](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).

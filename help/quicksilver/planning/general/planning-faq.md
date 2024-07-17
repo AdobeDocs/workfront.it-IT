@@ -30,15 +30,15 @@ In precedenza denominato Project Maestro, Workfront Planning è una nuova funzio
 
 Il modulo Workfront Planning è una delle tre funzionalità distinte ma collegate di Workfront che insieme creano un sistema di registrazione di marketing. Le tre funzionalità sono:
 
-* **Pianificazione**: nuove funzionalità avanzate incluse in Workfront Planning.
+* **Planning**: le nuove funzionalità avanzate incluse in Workfront Planning.
 
-* **Flusso di lavoro**: le funzionalità di gestione collaborativa del lavoro attualmente utilizzate in Workfront (gestione dei progetti, gestione delle risorse, ecc.)
+* **Flusso di lavoro**: le funzionalità di gestione collaborativa del lavoro attualmente utilizzate in Workfront (gestione progetti, gestione risorse, ecc.)
 
 * **Automazione e integrazione**: funzionalità complete di integrazione e automazione basate su Workfront Fusion.
 
 ## Quando verrà rilasciato Workfront Planning?
 
-L’ultima versione di Workfront Planning a disponibilità generale è prevista per il 28 agosto 2024. Per informazioni aggiornate sulle funzioni attualmente rilasciate, consulta [Attività della versione corrente di Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md).
+L’ultima versione di Workfront Planning a disponibilità generale è prevista per il 28 agosto 2024. Per informazioni aggiornate sulle funzionalità attualmente in fase di rilascio, vedere [Attività sulla versione corrente di Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md).
 
 ## Cosa succede dopo la conclusione della fase iniziale di Workfront Planning?
 
@@ -50,7 +50,7 @@ Questa funzione sarà disponibile a breve.
 
 ## È necessario eseguire la migrazione a IMS?
 
-Sì. I clienti che desiderano acquistare Workfront Planning dovranno effettuare la migrazione alla piattaforma Unified Experience/Adobe Business Adobe. Per ulteriori informazioni, consulta [Adobe di esperienza unificata per Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Sì. I clienti che desiderano acquistare Workfront Planning dovranno effettuare la migrazione alla piattaforma Unified Experience/Adobe Business Adobe. Per ulteriori informazioni, vedere [Esperienza unificata di Adobe per Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 ## È possibile fornire esempi di aree di lavoro diverse?
 
@@ -68,7 +68,7 @@ A partire da giugno 2024, le aree di lavoro non possono connettersi tra loro. Qu
 
 ## Il numero di aree di lavoro consentite in un’organizzazione è soggetto a limiti non rigidi o rigidi?
 
-Puoi avere fino a 1.000 aree di lavoro nell’istanza Workfront della tua organizzazione. Per ulteriori informazioni sui limiti, consulta [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+Puoi avere fino a 1.000 aree di lavoro nell’istanza Workfront della tua organizzazione. Per ulteriori informazioni sui limiti, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 ## Gli oggetti correnti nel sistema Workfront possono essere disponibili in Planning oppure è necessario generarli manualmente?
 
@@ -125,7 +125,7 @@ Non durante la fase di accesso anticipato.
 
 ## Si dispone di un ERD documentato e disponibile per la condivisione per il modello di Planning e i tipi di record?
 
-Al momento non disponiamo di un ERD, ma abbiamo una documentazione approfondita che ti guida attraverso tutti i dettagli relativi alla pianificazione di Workfront. Per informazioni, consulta [Adobe Workfront Planning: indice articolo](/help/quicksilver/planning/planning-information.md).
+Al momento non disponiamo di un ERD, ma abbiamo una documentazione approfondita che ti guida attraverso tutti i dettagli relativi alla pianificazione di Workfront. Per informazioni, vedere [Adobe Workfront Planning: article index](/help/quicksilver/planning/planning-information.md).
 
 ## Come è strutturato il prezzo di Workfront Planning: è una tariffa annuale una tantum? O viene addebitato per utente?
 
@@ -145,7 +145,7 @@ Sì. Presto potremo creare rapporti sulle informazioni di Planning utilizzando i
 
 ## Saremo in grado di estrarre i dati di Planning utilizzando anche l’API?
 
-Sì. Sono già disponibili un’API Planning e un connettore Fusion. Per informazioni, consulta [Moduli di Adobe Workfront Planning](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md). La documentazione relativa all’API di pianificazione di Workfront sarà presto disponibile.
+Sì. Sono già disponibili un’API Planning e un connettore Fusion. Per informazioni, vedere [Moduli di Adobe Workfront Planning](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md). La documentazione relativa all’API di pianificazione di Workfront sarà presto disponibile.
 
 <!--From a Marketing Workspace - is it best to have one master Workspace to use for a Global Marketing team OR is it best to have individual Workspaces for each Business Line, Country, Brand, etc. i saw that we're able to have up to 1000 Workspaces and potentially connect Workspaces. is it possible to link records btwn workspaces? Use case would be - allow each product their own workspace, but with shared record types. And then would want to see a shared view that combines everything. -->
 
@@ -175,7 +175,7 @@ Public views that are shared are visible  -->
 
 ## Come si condivide una visualizzazione internamente?
 
-Per informazioni sulla condivisione delle visualizzazioni, vedi [Condividere le visualizzazioni](/help/quicksilver/planning/access/share-views.md).
+Per informazioni sulla condivisione delle visualizzazioni, vedere [Condividi visualizzazioni](/help/quicksilver/planning/access/share-views.md).
 
 ## Ogni volta che si crea un&#39;area di lavoro, è necessario condividere di nuovo le visualizzazioni?
 
@@ -187,7 +187,7 @@ Le viste sono condivise separatamente dalle aree di lavoro. È necessario condiv
 
 ## È possibile personalizzare le autorizzazioni oltre la base? Attualmente, con altri oggetti Workfront è possibile personalizzare le funzioni delle autorizzazioni Contribute/Manage/View.
 
-Al momento non è possibile. Per informazioni su ciò che ogni autorizzazione consente, consulta [Panoramica delle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Al momento non è possibile. Per informazioni su ciò che ogni autorizzazione consente, vedere [Panoramica sulle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 Attualmente disponiamo solo di autorizzazioni a livello di area di lavoro e di visualizzazione, ma non di autorizzazioni a livello di record o di tipo di record singolo. I tipi di record e i record ereditano le autorizzazioni dall&#39;area di lavoro a cui appartengono.
 
@@ -197,4 +197,4 @@ No.
 
 ## Ci saranno API personalizzabili per utilizzare il nostro DAM invece del DAM di Adobe?
 
-Sono già disponibili un’API Planning e un connettore Fusion. Per informazioni, consulta [Moduli di Adobe Workfront Planning](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md). La documentazione relativa all’API di pianificazione di Workfront sarà presto disponibile. Puoi utilizzare l’API per creare integrazioni personalizzate.
+Sono già disponibili un’API Planning e un connettore Fusion. Per informazioni, vedere [Moduli di Adobe Workfront Planning](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md). La documentazione relativa all’API di pianificazione di Workfront sarà presto disponibile. Puoi utilizzare l’API per creare integrazioni personalizzate.

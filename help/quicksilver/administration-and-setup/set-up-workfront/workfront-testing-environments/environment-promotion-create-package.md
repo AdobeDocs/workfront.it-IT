@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Creare o modificare un pacchetto di promozione dell’ambiente
 
-È necessario creare un pacchetto nell&#39;ambiente in cui copiare gli oggetti **da**. Ad esempio, se configuri un progetto nell’ambiente Sandbox di aggiornamento personalizzato e lo promuovi nell’ambiente di produzione, devi creare il pacchetto nell’ambiente Sandbox di aggiornamento personalizzato.
+È necessario creare un pacchetto nell&#39;ambiente da cui copiare gli oggetti **da**. Ad esempio, se configuri un progetto nell’ambiente Sandbox di aggiornamento personalizzato e lo promuovi nell’ambiente di produzione, devi creare il pacchetto nell’ambiente Sandbox di aggiornamento personalizzato.
 
 >[!IMPORTANT]
 >
@@ -45,7 +45,7 @@ Devi avere i seguenti:
    <tr>
    <td>Configurazioni del livello di accesso
    </td>
-   <td>Devi essere un [!DNL Workfront] amministratore.
+   <td>Devi essere un amministratore [!DNL Workfront].
    </td>
   </tr>
 </table>
@@ -54,24 +54,24 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Creare un pacchetto
 
-1. Passa all’ambiente in cui desideri creare il pacchetto. Ambiente in cui si stanno copiando gli oggetti **da**.
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **[!UICONTROL Configurazione]** ![Icona Configurazione](/help/_includes/assets/gear-icon-setup.png).
-1. Seleziona **Sistema** nel menu di navigazione a sinistra, seleziona quindi **Promozione dell&#39;ambiente**.
-1. Clic **Crea pacchetto**.
+1. Passa all’ambiente in cui desideri creare il pacchetto. Questo è l&#39;ambiente dal quale si stanno copiando gli oggetti **da**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic sull&#39;icona **[!UICONTROL Setup]** ![Setup](/help/_includes/assets/gear-icon-setup.png).
+1. Seleziona **Sistema** nell&#39;area di navigazione a sinistra, quindi seleziona **Promozione ambiente**.
+1. Fare clic su **Crea pacchetto**.
 
    Viene visualizzata la pagina Nuovo pacchetto promozione.
 
-1. In **Nome pacchetto** immettere un nome per il pacchetto.
-1. In **Descrizione** immettere una descrizione per il package.
-1. Per aggiungere un oggetto al pacchetto, fare clic su **Aggiungi oggetti** nel menu di navigazione a sinistra e seleziona il tipo di oggetto da aggiungere.
+1. Nel campo **Nome pacchetto** immettere un nome per il pacchetto.
+1. Nel campo **Descrizione** immettere una descrizione per il pacchetto.
+1. Per aggiungere un oggetto al pacchetto, fare clic su **Aggiungi oggetti** nel menu di navigazione a sinistra e selezionare il tipo di oggetto che si desidera aggiungere.
 1. Selezionare uno o più oggetti dall&#39;elenco oppure digitare il nome nella barra di ricerca e selezionare l&#39;oggetto quando viene visualizzato nell&#39;elenco. È possibile selezionare più oggetti nell&#39;elenco.
-1. Clic **Aggiungi (oggetti X)** per aggiungere gli oggetti selezionati al pacchetto.
+1. Fare clic su **Aggiungi (X oggetti)** per aggiungere gli oggetti selezionati al pacchetto.
 
    >[!INFO]
    >
    >**Esempio**
    >
-   >Se hai selezionato tre progetti da aggiungere al progetto, il pulsante mostra **Aggiungi 3 progetti**.
+   >Se hai selezionato tre progetti da aggiungere al progetto, il pulsante indica **Aggiungi 3 progetti**.
 
    Gli oggetti aggiunti vengono visualizzati nell&#39;area Contenuto package a destra della pagina.
 
@@ -81,7 +81,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    Oppure
 
-   Clic **Salva e assembla** per salvare e assemblare il pacchetto.
+   Fare clic su **Salva e assembla** per salvare e assemblare il pacchetto.
 
    >[!NOTE]
    >
@@ -90,14 +90,14 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Modificare o assemblare un pacchetto esistente
 
-1. Passa all’ambiente in cui desideri creare il pacchetto. Ambiente in cui si stanno copiando gli oggetti **da**.
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **[!UICONTROL Configurazione]** ![Icona Configurazione](/help/_includes/assets/gear-icon-setup.png).
-1. Seleziona **Sistema** nel menu di navigazione a sinistra, seleziona quindi **Promozione dell&#39;ambiente**.
+1. Passa all’ambiente in cui desideri creare il pacchetto. Questo è l&#39;ambiente dal quale si stanno copiando gli oggetti **da**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic sull&#39;icona **[!UICONTROL Setup]** ![Setup](/help/_includes/assets/gear-icon-setup.png).
+1. Seleziona **Sistema** nell&#39;area di navigazione a sinistra, quindi seleziona **Promozione ambiente**.
 1. Seleziona il pacchetto dall’elenco visualizzato.
-1. (Condizionale) Per visualizzare i pacchetti disabilitati, abilita **Mostra pacchetti ritirati** opzione.
-1. (Facoltativo) Per visualizzare il contenuto, inclusi tutti gli oggetti e i relativi oggetti secondari, fare clic sulla freccia dell&#39;elenco a discesa accanto al tipo di oggetto nella **Sommario** sezione.
-1. (Facoltativo) Per visualizzare le installazioni precedenti e i tentativi di installazione del pacchetto, fare clic su **Distribuzioni**.
-1. (Facoltativo) Per modificare il pacchetto, fai clic su **Modifica pacchetto** in alto a destra.
-1. Per installare il pacchetto, fai clic su **Installa** in alto a destra.
+1. (Condizionale) Per visualizzare i pacchetti disabilitati, abilita l&#39;opzione **Mostra pacchetti ritirati**.
+1. (Facoltativo) Per visualizzare il contenuto, inclusi tutti gli oggetti e i relativi oggetti secondari, fare clic sulla freccia a discesa accanto al tipo di oggetto nella sezione **Contents**.
+1. (Facoltativo) Per visualizzare le installazioni precedenti e i tentativi di installazione di questo pacchetto, fare clic su **Distribuzioni**.
+1. (Facoltativo) Per modificare il pacchetto, fare clic su **Modifica pacchetto** in alto a destra nella schermata.
+1. Per installare il pacchetto, fare clic su **Installa** in alto a destra.
 
-   Per istruzioni sull’installazione di un pacchetto, consulta [Installare un pacchetto di promozione dell’ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).
+   Per istruzioni sull&#39;installazione di un pacchetto, vedere [Installare un pacchetto di promozione dell&#39;ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).

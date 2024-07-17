@@ -18,9 +18,9 @@ ht-degree: 0%
 
 <!-- Audited: 01/2024 -->
 
-I flussi di lavoro automatizzati consentono di creare una serie di fasi di revisione sequenziale o parallela, stabilire dipendenze tra queste fasi e limitarne la visibilità a determinati utenti. Se nel processo di revisione sono presenti fasi interdipendenti, i flussi di lavoro automatizzati spostano automaticamente la bozza nelle varie fasi, inviando una notifica ai revisori e agli approvatori interessati. Per informazioni sulla configurazione di un flusso di lavoro automatico, consulta [Creare una bozza avanzata con un flusso di lavoro automatizzato](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
+I flussi di lavoro automatizzati consentono di creare una serie di fasi di revisione sequenziale o parallela, stabilire dipendenze tra queste fasi e limitarne la visibilità a determinati utenti. Se nel processo di revisione sono presenti fasi interdipendenti, i flussi di lavoro automatizzati spostano automaticamente la bozza nelle varie fasi, inviando una notifica ai revisori e agli approvatori interessati. Per informazioni sulla configurazione di un flusso di lavoro automatico, vedere [Creare una bozza avanzata con un flusso di lavoro automatico](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
 
-**Esempi:**  I flussi di lavoro automatizzati consentono di gestire processi di revisione delle bozze complessi, come:
+**Esempi:** i flussi di lavoro automatizzati consentono di gestire processi di revisione delle bozze complessi come:
 
 * Quando diversi gruppi o revisori devono rivedere il contenuto in un determinato ordine
 * In presenza di dipendenze tra l’attività degli utenti durante la revisione del contenuto

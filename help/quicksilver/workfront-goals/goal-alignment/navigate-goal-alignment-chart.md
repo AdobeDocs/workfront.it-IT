@@ -19,7 +19,7 @@ Utilizzare la sezione Allineamento obiettivo per visualizzare una visualizzazion
 
 Per informazioni sull’allineamento degli obiettivi e su come raggiungerlo, consulta anche i seguenti articoli:
 
-* [Panoramica sull’allineamento degli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
+* [Panoramica sull&#39;allineamento degli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
 * [Allineare gli obiettivi collegandoli in Obiettivi di Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 
 ## Requisiti di accesso
@@ -54,7 +54,7 @@ Oppure
 <li>Un piano Select o Prime Adobe Workfront e un’ulteriore licenza Adobe Workfront Goals.</li>
 <li>Un piano Workfront Ultimate che include gli obiettivi Workfront per impostazione predefinita. </li></ul>
 <p>Oppure</p>
-<p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, consulta <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l’utilizzo degli obiettivi di Workfront</a>. </p> </td>
+<p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
 </tr>
 <tr>
 <td role="rowheader">Livello di accesso</td>
@@ -66,7 +66,7 @@ Oppure
 <div>
 <p>Visualizza o autorizzazioni superiori per l’obiettivo per visualizzarlo</p>
 <p>Gestire le autorizzazioni per l’obiettivo per modificarlo</p>
-<p>Per informazioni sulla condivisione degli obiettivi, consulta <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Condividere un obiettivo in Obiettivi di Workfront</a>. </p>
+<p>Per informazioni sulla condivisione degli obiettivi, vedere <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Condividere un obiettivo in Obiettivi di Workfront</a>. </p>
 </div> </td>
 </tr>
 <tr>
@@ -77,15 +77,15 @@ Oppure
 </tbody>
 </table>
 
-*Per ulteriori informazioni, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Passare alla sezione Allineamento obiettivo
 
-1. Fai clic su **Menu principale** icona ![Icona menu principale](../goal-alignment/assets/dots-main-menu-icon.png) nell’angolo superiore destro dello schermo, quindi fai clic su **Obiettivi**.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](../goal-alignment/assets/dots-main-menu-icon.png) nell&#39;angolo superiore destro dello schermo, quindi fai clic su **Goals**.
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-alignment/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
-1. Clic **Allineamento obiettivo** nel pannello a sinistra.
-1. Utilizza i filtri nell’angolo superiore destro del grafico di allineamento per selezionare solo gli obiettivi che ritieni importanti. Per informazioni sull’utilizzo dei filtri negli Obiettivi di Workfront, consulta [Filtrare le informazioni in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+1. Fai clic su **Allineamento obiettivo** nel pannello a sinistra.
+1. Utilizza i filtri nell’angolo superiore destro del grafico di allineamento per selezionare solo gli obiettivi che ritieni importanti. Per informazioni sull&#39;utilizzo dei filtri negli obiettivi di Workfront, vedere [Informazioni sui filtri negli obiettivi di Adobe Workfront](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
    Gli obiettivi che corrispondono ai filtri vengono visualizzati nel grafico di allineamento sulle schede.
 
@@ -112,14 +112,14 @@ Oppure
       <td>Nome dell’obiettivo. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Barra di avanzamento obiettivo <span>e avanzamento</span></td> 
-      <td> <p>Il progresso dell’obiettivo indica quanto dell’obiettivo è stato attualmente raggiunto. Si tratta di un calcolo automatico della media dell’avanzamento di tutti gli obiettivi, i risultati e le attività allineati per l’obiettivo in base al tempo trascorso dall’inizio del periodo di tempo dell’obiettivo. Per informazioni sul calcolo dell’avanzamento negli obiettivi, consulta <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Panoramica dell’avanzamento e della condizione dell’obiettivo in Obiettivi di Adobe Workfront</a>. </p> 
+      <td role="rowheader">Barra di avanzamento obiettivo <span> e avanzamento</span></td> 
+      <td> <p>Il progresso dell’obiettivo indica quanto dell’obiettivo è stato attualmente raggiunto. Si tratta di un calcolo automatico della media dell’avanzamento di tutti gli obiettivi, i risultati e le attività allineati per l’obiettivo in base al tempo trascorso dall’inizio del periodo di tempo dell’obiettivo. Per informazioni sul calcolo dell'avanzamento degli obiettivi, vedere <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Panoramica sull'avanzamento e sulla condizione dell'obiettivo in Obiettivi di Adobe Workfront</a>. </p> 
        <div> 
         <p>L’avanzamento effettivo dell’obiettivo entro la data corrente. I seguenti valori e colori di avanzamento indicano la probabilità che l’obiettivo venga raggiunto in tempo: </p> 
         <ul> 
-         <li><span>On Target</span> (indicatore verde): l’obiettivo è puntuale e verrà raggiunto puntualmente.</li> 
-         <li> <span>A Rischio</span> (indicatore giallo): l’obiettivo è in ritardo e potrebbe non essere raggiunto in tempo.</li> 
-         <li> <span>In difficoltà</span> (indicatore rosso): l’obiettivo rischia di non essere raggiunto in tempo. </li> 
+         <li><span>In Target</span> (indicatore verde): l'obiettivo è puntuale e verrà raggiunto puntualmente.</li> 
+         <li> <span>A rischio</span> (indicatore giallo): l'obiettivo è in ritardo e potrebbe non essere raggiunto in tempo.</li> 
+         <li> <span>In difficoltà</span> (indicatore rosso): l'obiettivo rischia di non essere raggiunto in tempo. </li> 
         </ul> 
        </div> </td> 
      </tr> <!--
@@ -139,7 +139,7 @@ Oppure
 
    ![](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
-1. Fai clic su **freccia rivolta verso il basso** sotto un obiettivo per espandere ulteriormente e visualizzare gli obiettivi secondari.
+1. Fai clic sull&#39;icona **freccia rivolta verso il basso** sotto un obiettivo per espandere ulteriormente e visualizzare gli obiettivi secondari.
 
    ![](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
@@ -151,7 +151,7 @@ Oppure
 
    ![](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
 
-1. Clic **Mostrale** per visualizzare gli obiettivi attualmente eliminati dal filtro.
+1. Fai clic su **Mostra** per visualizzare gli obiettivi attualmente eliminati dal filtro.
 
    Osserva le seguenti modifiche nel grafico di allineamento:
 
@@ -188,12 +188,12 @@ Oppure
     </tbody> 
    </table>
 
-1. Fai clic su una scheda di obiettivo per aprire la pagina dell’obiettivo. Per informazioni sulla modifica degli obiettivi esistenti, consulta [Modificare gli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/edit-goals.md). Per informazioni sull’aggiornamento dell’avanzamento per gli obiettivi, consulta [Aggiornamento dell’avanzamento dell’obiettivo in Obiettivi di Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+1. Fai clic su una scheda di obiettivo per aprire la pagina dell’obiettivo. Per informazioni sulla modifica degli obiettivi esistenti, vedere [Modifica obiettivi in Obiettivi Adobe Workfront](../../workfront-goals/goal-management/edit-goals.md). Per informazioni sull&#39;aggiornamento dell&#39;avanzamento per gli obiettivi, vedere [Aggiornare l&#39;avanzamento dell&#39;obiettivo negli obiettivi di Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 
 1. Fare clic sulla freccia rivolta verso l&#39;alto dell&#39;obiettivo di livello corrente per tornare al livello precedente nella gerarchia del grafico.
 
    Oppure
 
-   (Facoltativo) Fai clic su **Esci da gerarchia obiettivi** per visualizzare le schede di tutti gli obiettivi che corrispondono al filtro corrente, senza visualizzare la loro connessione tra loro.
+   (Facoltativo) Fai clic su **Esci da gerarchia obiettivi** per visualizzare le schede di tutti gli obiettivi che corrispondono al filtro corrente, senza visualizzare la connessione tra di loro.
 
 

@@ -27,9 +27,9 @@ Di seguito sono riportate alcune caratteristiche degli elenchi in [!DNL Workfron
 
   Puoi personalizzare la maggior parte di questi elenchi preconfigurati.
 
-* A [!DNL Workfront] l&#39;amministratore può creare elenchi personalizzati da applicare a varie aree di [!DNL Workfront].
+* Un amministratore [!DNL Workfront] può creare elenchi personalizzati da applicare a varie aree di [!DNL Workfront].
 
-  Per ulteriori informazioni sulla creazione di elenchi a livello di sistema, consulta l’articolo [Creare, modificare e condividere filtri, viste e raggruppamenti predefiniti](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
+  Per ulteriori informazioni sulla creazione di elenchi a livello di sistema, vedere l&#39;articolo [Creare, modificare e condividere filtri, visualizzazioni e raggruppamenti predefiniti](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
 
 ## Requisiti di accesso
 
@@ -49,20 +49,20 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
-   <td> <p>[!UICONTROL View] o versione successiva per l'accesso a filtri, viste, raggruppamenti</p> <P>Per gli elementi nell'area [!UICONTROL Setup] è necessario l'accesso amministrativo per l'elemento o il livello di accesso [!UICONTROL System Administrator].</P> <p>Nota: se non disponi ancora dell’accesso, chiedi al tuo [!DNL Workfront] amministratore se impostano restrizioni aggiuntive nel livello di accesso.<br>Per informazioni su come [!DNL Workfront] l'amministratore può modificare il livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <p>[!UICONTROL View] o versione successiva per l'accesso a filtri, viste, raggruppamenti</p> <P>Per gli elementi nell'area [!UICONTROL Setup] è necessario l'accesso amministrativo per l'elemento o il livello di accesso [!UICONTROL System Administrator].</P> <p>Nota: se non disponi ancora dell'accesso, chiedi all'amministratore [!DNL Workfront] se ha impostato restrizioni aggiuntive nel tuo livello di accesso.<br>Per informazioni su come un amministratore di [!DNL Workfront] può modificare il tuo livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>[!UICONTROL View] o versione successiva con accesso alla condivisione</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td>
+   <td> <p>[!UICONTROL View] o versione successiva con accesso alla condivisione</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td>
   </tr> 
  </tbody> 
 </table>
 
-Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore [!DNL Workfront].
 
 ## Elenchi di oggetti
 
-Di seguito sono riportati alcuni tipi di elenchi di oggetti disponibili in [!DNL Workfront] e alcune delle aree in cui vengono visualizzate per impostazione predefinita quando si dispone dei diritti per visualizzare un oggetto.
+Di seguito sono riportati alcuni tipi di elenchi di oggetti disponibili in [!DNL Workfront] e alcune delle aree in cui vengono visualizzati per impostazione predefinita quando si dispone dei diritti per visualizzare un oggetto.
 
 >[!NOTE]
 >
@@ -213,7 +213,7 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti disponibili in [!DNL
     <ul> 
      <li class="preview"> <p>[!UICONTROL Setup] &gt;[!UICONTROL Custom Forms]</p>
      <!--Remove the following note box when this goes to Production. Or do this when the Preview highlighting becomes available.-->
-     <p><b>NOTA</b>: attualmente disponibile solo nell’ambiente di anteprima</p> </li> 
+     <p><b>NOTA</b>: attualmente disponibile solo nell'ambiente di anteprima</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -255,7 +255,7 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti disponibili in [!DNL
  </tbody> 
 </table>
 
-Non è possibile personalizzare l&#39;elenco nell&#39;area specificata. A [!DNL Workfront] l&#39;amministratore può creare un elenco personalizzato a livello di sistema oppure un report per questo oggetto se il livello di accesso ti consente di accedere alla modifica dei report.
+Non è possibile personalizzare l&#39;elenco nell&#39;area specificata. Un amministratore [!DNL Workfront] può creare un elenco personalizzato a livello di sistema oppure un report per questo oggetto se il livello di accesso ti consente di accedere alla modifica dei report.
 
 ## Elementi elenco
 
@@ -263,7 +263,7 @@ Un elenco contiene alcuni elementi che ne definiscono il formato e le informazio
 
 >[!NOTE]
 >
->Quando selezioni un nuovo filtro, una nuova vista o un nuovo raggruppamento da un elenco, tale selezione viene mantenuta anche se esci da [!DNL Workfront] o chiudi il browser.
+>Quando si seleziona un nuovo filtro, una nuova visualizzazione o un nuovo raggruppamento da un elenco, tale selezione viene mantenuta anche se si esce da [!DNL Workfront] o si chiude il browser.
 
 Di seguito sono riportati gli elementi di un elenco:
 
@@ -279,15 +279,15 @@ Di seguito sono riportati gli elementi di un elenco:
  <tbody> 
   <tr> 
    <td><strong>[!UICONTROL Filtro]</strong></td> 
-   <td> <p>I filtri escludono le informazioni non necessarie da un elenco, in base ai criteri specificati. </p> <p>Per ulteriori informazioni, consulta <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Panoramica sui filtri</a>.</p> </td> 
+   <td> <p>I filtri escludono le informazioni non necessarie da un elenco, in base ai criteri specificati. </p> <p>Per ulteriori informazioni, vedere <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Panoramica filtri</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Visualizzazione [!UICONTROL]</strong></td> 
-   <td> <p>Le visualizzazioni definiscono quali campi (colonne) vengono visualizzati sullo schermo.</p> <p>Per ulteriori informazioni, consulta <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Panoramica delle visualizzazioni in [!DNL Adobe Workfront]</a>.</p> </td> 
+   <td> <p>Le visualizzazioni definiscono quali campi (colonne) vengono visualizzati sullo schermo.</p> <p>Per ulteriori informazioni, vedere <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Panoramica delle visualizzazioni in [!DNL Adobe Workfront]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>[!UICONTROL Raggruppamento]</strong></td> 
-   <td> <p>I raggruppamenti separano gli oggetti dell'elenco in aree in base ai criteri specificati.</p> <p>Ad esempio, i problemi di un elenco possono essere visualizzati in sezioni in base allo stato o alla priorità.</p> <p>È possibile avere fino a tre livelli di raggruppamenti in un raggruppamento standard e aggiungere un quarto livello se si sta configurando un raggruppamento in modalità testo.</p> <p>Per ulteriori informazioni sui raggruppamenti, consulta <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Panoramica sui raggruppamenti in [!DNL Adobe Workfront]</a>.</p> <p>Per ulteriori informazioni sulla modalità testo, consulta <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Panoramica sulla modalità testo</a>.</p> </td> 
+   <td> <p>I raggruppamenti separano gli oggetti dell'elenco in aree in base ai criteri specificati.</p> <p>Ad esempio, i problemi di un elenco possono essere visualizzati in sezioni in base allo stato o alla priorità.</p> <p>È possibile avere fino a tre livelli di raggruppamenti in un raggruppamento standard e aggiungere un quarto livello se si sta configurando un raggruppamento in modalità testo.</p> <p>Per ulteriori informazioni sui raggruppamenti, vedere <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Panoramica sui raggruppamenti in [!DNL Adobe Workfront]</a>.</p> <p>Per ulteriori informazioni sulla modalità testo, vedere <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Cenni preliminari sulla modalità testo</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -298,12 +298,12 @@ Per impostazione predefinita, questi elementi vengono visualizzati nella parte s
 
 È possibile personalizzare gli elementi di un elenco nelle seguenti aree e condividerli con altri utenti:
 
-* Qualsiasi elenco predefinito del sistema trovato nella sezione [Introduzione agli elenchi in [!DNL Adobe Workfront]](#default-workfront-lists) in questo articolo
+* Qualsiasi elenco predefinito di sistema trovato nella sezione [Introduzione agli elenchi in [!DNL Adobe Workfront]](#default-workfront-lists) in questo articolo
 * Qualsiasi rapporto condiviso con te
 
 Gli elementi di costruzione per gli elenchi sono gli stessi elementi di costruzione per i rapporti.
 
-Per ulteriori informazioni sulla creazione e la personalizzazione degli elementi di creazione di elenchi e rapporti, vedere [Elementi di reporting: filtri, viste e raggruppamenti](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+Per ulteriori informazioni sulla creazione e la personalizzazione degli elementi di creazione di elenchi e report, vedere [Elementi di reporting: filtri, visualizzazioni e raggruppamenti](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
 ## Elencare azioni
 
@@ -321,23 +321,23 @@ Per ulteriori informazioni sulla creazione e la personalizzazione degli elementi
  <tbody> 
   <tr> 
    <td><strong>Modifica in linea</strong> </td> 
-   <td> <p>Modificare gli oggetti e le relative informazioni direttamente nell'elenco.</p> <p>Per ulteriori informazioni, consulta <a href="../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md" class="MCXref xref">Modifica in linea di elementi in un elenco in [!DNL Adobe Workfront]</a>.</p> </td> 
+   <td> <p>Modificare gli oggetti e le relative informazioni direttamente nell'elenco.</p> <p>Per ulteriori informazioni, vedere <a href="../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md" class="MCXref xref">Elementi di modifica in linea in un elenco in [!DNL Adobe Workfront]</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td><strong>Aggiorna con il riepilogo [!UICONTROL]</strong> </td> 
-   <td> <p>Aggiorna attività e problemi a livello di progetto utilizzando il pannello [!UICONTROL Summary].</p> <p>Suggerimento: il riepilogo non è disponibile per tutti gli oggetti e non è disponibile nei report Attività o Problemi.</p> <p>Per ulteriori informazioni, consulta <a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Panoramica di riepilogo</a>.</p> </td> 
+   <td> <p>Aggiorna attività e problemi a livello di progetto utilizzando il pannello [!UICONTROL Summary].</p> <p>Suggerimento: il riepilogo non è disponibile per tutti gli oggetti e non è disponibile nei report Attività o Problemi.</p> <p>Per ulteriori informazioni, vedere <a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Panoramica di riepilogo</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Personalizza visualizzazione elenco</strong> </td> 
-   <td> <p>Personalizza l’aspetto di un elenco, la disposizione delle colonne, l’ordinamento degli elementi o il numero di elementi visualizzati.</p> <p>Nota: le modifiche apportate al numero di elementi da visualizzare in una pagina vengono ripristinate quando si esce da [!DNL Workfront] o chiudi il browser. Le modifiche possono anche essere ripristinate dopo un periodo di 8 ore.</p> <p>Per ulteriori informazioni, consulta <a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">Modificare la modalità di visualizzazione di un elenco</a>.</p> </td> 
+   <td> <p>Personalizza l’aspetto di un elenco, la disposizione delle colonne, l’ordinamento degli elementi o il numero di elementi visualizzati.</p> <p>Nota: le modifiche apportate al numero di elementi da visualizzare in una pagina vengono ripristinate quando si esce da [!DNL Workfront] o si chiude il browser. Le modifiche possono anche essere ripristinate dopo un periodo di 8 ore.</p> <p>Per ulteriori informazioni, vedere <a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">Modificare la visualizzazione di un elenco</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Filtro rapido</strong> </td> 
-   <td> <p>Applica un filtro rapido per trovare solo gli elementi che ti interessano in modo da poterli rivedere, aggiornare o condividere rapidamente con altri utenti.</p> <p>Importante: è possibile trovare gli elementi che contengono una parola di ricerca utilizzando il filtro rapido, sia che l'elemento sia visibile sullo schermo o che venga visualizzato dopo lo scorrimento verso il fondo della pagina. Utilizzando le funzionalità di ricerca del browser, è possibile trovare solo gli elementi già visibili sullo schermo. Se l'elenco contiene più pagine, i filtri rapidi individuano solo gli elementi della pagina corrente.</p> <p>Per ulteriori informazioni, consulta <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Applicare il filtro rapido a un elenco</a>.</p> </td> 
+   <td> <p>Applica un filtro rapido per trovare solo gli elementi che ti interessano in modo da poterli rivedere, aggiornare o condividere rapidamente con altri utenti.</p> <p>Importante: è possibile trovare gli elementi che contengono una parola di ricerca utilizzando il filtro rapido, sia che l'elemento sia visibile sullo schermo o che venga visualizzato dopo lo scorrimento verso il fondo della pagina. Utilizzando le funzionalità di ricerca del browser, è possibile trovare solo gli elementi già visibili sullo schermo. Se l'elenco contiene più pagine, i filtri rapidi individuano solo gli elementi della pagina corrente.</p> <p>Per ulteriori informazioni, vedere <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Applicare il filtro rapido a un elenco</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Esporta</strong> </td> 
-   <td> <p>Esporta un elenco di oggetti da [!DNL Workfront]. Se un elenco contiene più di 2.000 elementi, l'esportazione dell'elenco è l'unico modo per esaminare tutti gli elementi di una pagina.</p> <p>Per ulteriori informazioni sull'esportazione di un elenco, vedere <a href="../../../workfront-basics/navigate-workfront/use-lists/export-lists.md" class="MCXref xref">Esportare un elenco</a>. Per ulteriori informazioni sui formati e i limiti di esportazione, consulta <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Esporta dati</a>.</p> </td> 
+   <td> <p>Esporta un elenco di oggetti da [!DNL Workfront]. Se un elenco contiene più di 2.000 elementi, l'esportazione dell'elenco è l'unico modo per esaminare tutti gli elementi di una pagina.</p> <p>Per ulteriori informazioni sull'esportazione di un elenco, vedere <a href="../../../workfront-basics/navigate-workfront/use-lists/export-lists.md" class="MCXref xref">Esportare un elenco</a>. Per ulteriori informazioni sui formati e i limiti di esportazione, vedere <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Esporta dati</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -449,12 +449,12 @@ Nella tabella seguente sono elencate molte delle icone disponibili nella barra d
   <tr> 
    <td> <img src="assets/summary-panel-icon.png"> </td> 
    <td>Riepilogo [!UICONTROL]</td> 
-   <td> <p>Visualizza o nasconde la casella Riepilogo [!UICONTROL] per l'elemento selezionato.</p> <p>Questa opzione è disponibile solo per le attività e i problemi.</p> <p>Per informazioni sul pannello Riepilogo di [!UICONTROL] nel nuovo [!DNL Adobe Workfront] esperienza, vedi <a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Panoramica di riepilogo</a>.</p> </td> 
+   <td> <p>Visualizza o nasconde la casella Riepilogo [!UICONTROL] per l'elemento selezionato.</p> <p>Questa opzione è disponibile solo per le attività e i problemi.</p> <p>Per informazioni sul pannello Riepilogo di [!DNL Adobe Workfront] nella nuova esperienza , consulta <a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Panoramica di riepilogo</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/remove-icon---x-in-circle.png"> </td> 
    <td>[!UICONTROL Rimuovi]</td> 
-   <td>Rimuovi qualcosa dall’elenco. Ad esempio, in qualità di amministratore di un gruppo che gestisce le appartenenze a un gruppo o a un sottogruppo, rimuovere un membro del gruppo come descritto in <a href="/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md" class="MCXref xref">Visualizzare e gestire le appartenenze di un gruppo</a>.</td> 
+   <td>Rimuovi qualcosa dall’elenco. Ad esempio, in qualità di amministratore di un gruppo che gestisce le appartenenze a un gruppo o a un sottogruppo, rimuovere un membro del gruppo come descritto in <a href="/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md" class="MCXref xref">Visualizzare e gestire le appartenenze a un gruppo</a>.</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/comment-icon.png"> </td> 
@@ -478,17 +478,17 @@ La tabella seguente illustra le somiglianze e le differenze tra elenchi e rappor
   <tr> 
    <th><strong>Funzionalità</strong> </th> 
    <th><strong>Elenco</strong> </th> 
-   <th><strong>Report</strong> </th> 
+   <th><strong>Rapporto</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> <p>Chiunque può crearli</p> </td> 
-   <td><span>✓*</span> </td> 
+   <td>✓ <span>*</span> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Solo un [!DNL Workfront] Gli amministratori e gli utenti con una licenza di [!UICONTROL Plan] possono crearli</p> </td> 
+   <td> <p>Solo un amministratore [!DNL Workfront] e gli utenti con una licenza [!UICONTROL Plan] possono crearli</p> </td> 
    <td> </td> 
    <td>✓ **</td> 
   </tr> 
@@ -523,7 +523,7 @@ La tabella seguente illustra le somiglianze e le differenze tra elenchi e rappor
    <td>✓ </td> 
   </tr> 
   <tr> 
-   <td> <p>Puoi esportare in .pdf, [!DNL Excel]Formati delimitati da tabulazioni, e</p> </td> 
+   <td> <p>È possibile esportare nei formati .pdf, [!DNL Excel] e Tab Delimited</p> </td> 
    <td>✓</td> 
    <td> ✓ </td> 
   </tr> 
@@ -565,9 +565,9 @@ La tabella seguente illustra le somiglianze e le differenze tra elenchi e rappor
  </tbody> 
 </table>
 
-Per poterli creare, è necessario avere accesso a filtri, viste e raggruppamenti. Per ulteriori informazioni, consulta [Concedere l’accesso a filtri, viste e raggruppamenti](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+Per poterli creare, è necessario avere accesso a filtri, viste e raggruppamenti. Per ulteriori informazioni, vedere [Concedere l&#39;accesso a filtri, visualizzazioni e raggruppamenti](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
-Per poterli creare, è necessario avere accesso a filtri, viste e raggruppamenti, nonché a rapporti, dashboard e calendari. Per ulteriori informazioni, consulta [Concedere l’accesso a rapporti, dashboard e calendari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+Per poterli creare, è necessario avere accesso a filtri, viste e raggruppamenti, nonché a rapporti, dashboard e calendari. Per ulteriori informazioni, vedere [Concedere l&#39;accesso a report, dashboard e calendari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 Puoi personalizzare gli elenchi per i rapporti inseriti in un dashboard solo se l’autore del rapporto ha configurato gli elementi dell’elenco in modo che siano visibili nel dashboard.
 
@@ -575,7 +575,7 @@ Puoi personalizzare gli elenchi per i rapporti inseriti in un dashboard solo se 
 >
 >Non è possibile aggiungere un elenco a un dashboard senza prima creare un report e aggiungerlo al dashboard.
 
-Per ulteriori informazioni sulla creazione di un rapporto, consulta [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Per informazioni sulla creazione di sezioni personalizzate, consulta [Creare schede o sezioni personalizzate](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
+Per ulteriori informazioni sulla creazione di un report, vedere [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Per informazioni sulla creazione di sezioni personalizzate, vedere [Creare schede o sezioni personalizzate](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
 
 ## Differenza tra gli elenchi aggiornati e quelli legacy
 
@@ -589,14 +589,14 @@ Esistono due tipi di elenchi in [!DNL Workfront]:
 
   ![](assets/updated-list-screen-shot-gray-groupings-350x71.png)
 
-Entrambi i tipi di elenchi vengono visualizzati nel [!DNL Adobe Workfront].
+Entrambi i tipi di elenchi vengono visualizzati in [!DNL Adobe Workfront].
 
 Tutti gli elenchi e i report in [!DNL Adobe Workfront] sono elenchi aggiornati, ad eccezione dei seguenti:
 
-* Elenchi in [!UICONTROL Configurazione] area
-* Elenchi in [!UICONTROL Rapporti] area
+* Elenchi nell&#39;area [!UICONTROL Configurazione]
+* Elenchi nell&#39;area [!UICONTROL Rapporti]
 
-Nella tabella seguente sono illustrate alcune delle differenze tra gli elenchi legacy e aggiornato di [!DNL Workfront]:
+Nella tabella seguente sono illustrate alcune delle differenze tra gli elenchi legacy e aggiornato in [!DNL Workfront]:
 
 <!--
 <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> [Legacy does not equal Classic. Legacy lists appear in NWE and Classic. Updated lists appear in NWE and Classic.]</span>
@@ -619,16 +619,16 @@ Nella tabella seguente sono illustrate alcune delle differenze tra gli elenchi l
    <td> <p>Editing in linea più rapido</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Visualizzazione <strong>100</strong> elementi per impostazione predefinita</p> </td> 
-   <td> <p>Visualizzazione <strong>Tutti</strong> o fino a <strong>2000</strong> elementi per impostazione predefinita</p> </td> 
+   <td> <p>Visualizza <strong>100</strong> elementi per impostazione predefinita</p> </td> 
+   <td> <p>Visualizza <strong>Tutti</strong> o fino a <strong>2000</strong> elementi per impostazione predefinita</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Utilizzare CTRL+F per trovare elementi in un elenco</p> </td> 
-   <td> <p>Utilizzare i filtri rapidi per trovare rapidamente le informazioni in un elenco di grandi dimensioni</p> <p>Per informazioni sull’utilizzo dei filtri rapidi negli elenchi, consulta <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Applicare il filtro rapido a un elenco</a>.</p> </td> 
+   <td> <p>Utilizzare i filtri rapidi per trovare rapidamente le informazioni in un elenco di grandi dimensioni</p> <p>Per informazioni sull'utilizzo dei filtri rapidi negli elenchi, vedere <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Applicare il filtro rapido a un elenco</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Non è possibile modificare i campi personalizzati in linea con la formattazione RTF.</td> 
-   <td> <p>Il testo nei campi personalizzati con formattazione può essere configurato per consentire grassetto, corsivo, sottolineatura, punti elenco, numerazione, collegamenti ipertestuali e virgolette.</p> <p>Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Creare o modificare un modulo personalizzato</a>.</p> </td> 
+   <td> <p>Il testo nei campi personalizzati con formattazione può essere configurato per consentire grassetto, corsivo, sottolineatura, punti elenco, numerazione, collegamenti ipertestuali e virgolette.</p> <p>Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Creare o modificare un modulo personalizzato</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>La formattazione condizionale può modificare il colore del testo dei collegamenti in un elenco</td> 

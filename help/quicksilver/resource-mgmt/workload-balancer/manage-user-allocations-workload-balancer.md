@@ -60,7 +60,7 @@ Devi avere i seguenti:
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Autorizzazioni di Contribute o versioni successive che includono l'opzione Assegna assegnazioni alle attività e ai problemi per i quali si desidera gestire le allocazioni. </p> <p>Oppure </p> <p>Gestisci le autorizzazioni per le attività per le quali desideri aggiornare le ore pianificate, oltre ad aggiornare le allocazioni. Per informazioni sull’aggiornamento delle ore pianificate nel Bilanciatore dei carichi di lavoro, vedi <a href="#update-task-planned-hours-when-managing-user-allocations">Aggiorna le ore pianificate per l'attività durante la gestione delle allocazioni utente</a> in questo articolo.</p> </td> 
+   <td> <p>Autorizzazioni di Contribute o versioni successive che includono Assegnazione alle attività e ai problemi per i quali si desidera gestire le allocazioni. </p> <p>Oppure </p> <p>Gestisci le autorizzazioni per le attività per le quali desideri aggiornare le ore pianificate, oltre ad aggiornare le allocazioni. Per informazioni sull'aggiornamento delle ore pianificate nel Bilanciatore dei carichi di lavoro, consulta la sezione <a href="#update-task-planned-hours-when-managing-user-allocations">Aggiorna le ore pianificate per l'attività durante la gestione delle allocazioni utente</a> in questo articolo.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -73,7 +73,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 Le allocazioni utente sono quantità di ore che indicano il tempo che un utente deve trascorrere in un dato giorno o giorno feriale, settimana o mese per completare l&#39;elemento di lavoro. Sono incluse nelle Ore pianificate dell’elemento di lavoro.
 
-Questo articolo descrive come aggiornare le allocazioni orarie giornaliere, settimanali o mensili per gli utenti assegnati ad attività o problemi. Per informazioni sulla gestione delle allocazioni complessive per gli utenti e i ruoli alle attività, consulta [Gestire le ore di allocazione di utenti e ruoli sulle attività](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md).
+Questo articolo descrive come aggiornare le allocazioni orarie giornaliere, settimanali o mensili per gli utenti assegnati ad attività o problemi. Per informazioni sulla gestione delle allocazioni complessive per gli utenti e i ruoli alle attività, vedere [Gestire le ore di allocazione di utenti e ruoli nelle attività](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md).
 
 ### Panoramica sull’allocazione degli utenti {#user-allocation-overview}
 
@@ -90,7 +90,7 @@ Le ore pianificate dell&#39;attività vengono distribuite equamente tra tutti i 
 Quando si individuano le allocazioni giornaliere, settimanali o mensili per attività o problemi nel Bilanciatore dei carichi di lavoro, tenere presente quanto segue:
 
 * Puoi visualizzare le allocazioni giornaliere, settimanali e mensili degli utenti ai loro elementi di lavoro. Abilita la visualizzazione Settimana o Mese per visualizzare le allocazioni settimanali o mensili.
-* Puoi utilizzare il Bilanciatore dei carichi di lavoro per modificare l’allocazione giornaliera, settimanale o mensile degli utenti alle attività o ai problemi. Per informazioni sulla regolazione della visualizzazione del Bilanciatore dei carichi di lavoro, vedi [Navigare nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+* Puoi utilizzare il Bilanciatore dei carichi di lavoro per modificare l’allocazione giornaliera, settimanale o mensile degli utenti alle attività o ai problemi. Per informazioni sulla regolazione della visualizzazione del Bilanciatore dei carichi di lavoro, vedere [Navigare nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
   >[!NOTE]
   >
@@ -117,11 +117,11 @@ Quando si individuano le allocazioni giornaliere, settimanali o mensili per atti
 
 * Due utenti in fusi orari o pianificazioni diversi in fusi orari diversi rispetto a quelli degli utenti assegnati possono visualizzare le quantità di allocazione in modo diverso per due utenti che visualizzano gli stessi elementi di lavoro.
 
-* Quando un utente ha programmato un’indisponibilità, il giorno o la parte di giorno vengono visualizzati in uno sfondo grigio, <span class="preview">e un’icona del velivolo indica indisponibilità</span>. Se l’amministratore di Workfront ha abilitato l’impostazione User Time Off (Ferie utente) nell’area Setup (Configura) per tenere conto del tempo libero dell’utente, le ore assegnate vengono spostate al giorno successivo disponibile nella timeline. Se l’impostazione è disabilitata, le ore allocate rimangono nel giorno contrassegnato per l’indisponibilità e l’utente visualizza come sovrassegnate. Per ulteriori informazioni, consulta [Configurare le preferenze di progetto a livello di sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Quando un utente ha programmato un&#39;indisponibilità, il giorno o la parte del giorno viene visualizzato in uno sfondo grigio, <span class="preview">e l&#39;icona dell&#39;aereo indica un&#39;indisponibilità</span>. Se l’amministratore di Workfront ha abilitato l’impostazione User Time Off (Ferie utente) nell’area Setup (Configura) per tenere conto del tempo libero dell’utente, le ore assegnate vengono spostate al giorno successivo disponibile nella timeline. Se l’impostazione è disabilitata, le ore allocate rimangono nel giorno contrassegnato per l’indisponibilità e l’utente visualizza come sovrassegnate. Per ulteriori informazioni, vedere [Configurare le preferenze di progetto a livello di sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
   >[!TIP]
   >
-  >Se l&#39;indisponibilità è stata contrassegnata dopo che l&#39;utente è stato assegnato a un elemento di lavoro, è necessario ricalcolare la sequenza temporale del progetto per visualizzare l&#39;allocazione spostata. Per informazioni, consulta [Ricalcolare i timeline dei progetti](../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+  >Se l&#39;indisponibilità è stata contrassegnata dopo che l&#39;utente è stato assegnato a un elemento di lavoro, è necessario ricalcolare la sequenza temporale del progetto per visualizzare l&#39;allocazione spostata. Per informazioni, vedere [Ricalcolare i timeline del progetto](../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
    * <span class="preview">Quando a un&#39;attività sono assegnati più utenti e l&#39;assegnatario principale ha programmato un&#39;indisponibilità, la sequenza temporale viene spostata (se le date non sono fisse) e le ore pianificate di tutti gli assegnatari vengono ridistribuite nella nuova durata dell&#39;attività. Se l&#39;attività ha date fisse, la sequenza temporale non viene modificata a causa del tempo libero e le ore vengono riallocate tra i giorni rimanenti.</span>
    * <span class="preview">Se le allocazioni vengono effettuate manualmente, le ore pianificate non vengono riallocate dopo il tempo libero.</span>
@@ -133,13 +133,13 @@ Quando si individuano le allocazioni giornaliere, settimanali o mensili per atti
    * Per un&#39;attività con una durata di 2 giorni e con 10 ore pianificate assegnate a un utente, l&#39;allocazione giornaliera per l&#39;utente è di 5 ore per ogni giorno per impostazione predefinita.
    * Per un&#39;attività con una durata di 2 giorni e con 10 ore pianificate assegnate a due utenti, l&#39;allocazione giornaliera per ogni utente è di 2,5 ore per ogni giorno per impostazione predefinita.
 
-* Se un&#39;attività o un problema è stato completato prima della Data di completamento pianificata, il numero di ore allocate per i giorni rimanenti viene cancellato e non viene conteggiato per l&#39;allocazione complessiva dell&#39;utente. Questa opzione viene visualizzata solo quando sono abilitate sia l’icona Mostra allocazioni che l’impostazione Mostra date previste. Per ulteriori informazioni sull’abilitazione delle impostazioni nel Bilanciatore dei carichi di lavoro, consulta [Navigare nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+* Se un&#39;attività o un problema è stato completato prima della Data di completamento pianificata, il numero di ore allocate per i giorni rimanenti viene cancellato e non viene conteggiato per l&#39;allocazione complessiva dell&#39;utente. Questa opzione viene visualizzata solo quando sono abilitate sia l’icona Mostra allocazioni che l’impostazione Mostra date previste. Per ulteriori informazioni sull&#39;abilitazione delle impostazioni nel Bilanciatore dei carichi di lavoro, vedere [Navigare nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-  ![Ore allocate completate](assets/allocations-struck-through-highlighted.png)
+  ![Ore allocate annullate](assets/allocations-struck-through-highlighted.png)
 
 * Quando un utente viene sovrassegnato, le ore assegnate vengono visualizzate con uno sfondo rosso nel campo utente.
 * Quando l’utente è sottoassegnato o gli viene assegnato un numero uguale di ore per il tempo disponibile pianificato, le ore vengono visualizzate con uno sfondo blu.
-* È possibile visualizzare l&#39;allocazione degli utenti in una visualizzazione grafico nella linea utente. Per informazioni sull’abilitazione della visualizzazione grafico per le allocazioni utente, consulta la sezione &quot;Navigare nel Bilanciatore dei carichi di lavoro&quot; nell’articolo [Navigare nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+* È possibile visualizzare l&#39;allocazione degli utenti in una visualizzazione grafico nella linea utente. Per informazioni sull&#39;abilitazione della visualizzazione grafico per le allocazioni utente, vedere la sezione &quot;Navigare nel Bilanciatore dei carichi di lavoro&quot; nell&#39;articolo [Navigare nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
   ![Grafico di allocazione utenti](assets/user-allocation-chart.png)
 
@@ -153,7 +153,7 @@ Non tutte le modifiche delle attività attivano le allocazioni modificate per la
 
 #### Azioni che reimpostano le allocazioni corrette {#actions-that-reset-adjusted-allocations}
 
-Le azioni seguenti reimpostano o modificano le allocazioni giornaliere, settimanali o mensili per gli utenti dopo averle regolate manualmente come descritto in [Modificare le allocazioni utente](#modify-user-allocations) sezione in questo articolo:
+Le azioni seguenti reimpostano o modificano le allocazioni giornaliere, settimanali o mensili per gli utenti dopo averle regolate manualmente come descritto nella sezione [Modifica allocazioni utente](#modify-user-allocations) in questo articolo:
 
 * Quando si riduce la lunghezza di un elemento di lavoro che riduce la quantità di giorni nella relativa durata, le ore allocate adeguate dei giorni persi vengono aggiunte alla quantità di allocazione dell&#39;ultimo giorno dell&#39;elemento di lavoro.
 * Quando si modifica la quantità di ore pianificate per un&#39;assegnazione o per l&#39;elemento di lavoro, il nuovo numero di ore pianificate viene ridistribuito in modo uniforme per l&#39;intera durata dell&#39;elemento di lavoro.
@@ -176,19 +176,19 @@ Quando visualizzi le ore pianificate nel Bilanciatore dei carichi di lavoro, tie
 * Le ore pianificate totali per un’attività o un problema vengono visualizzate accanto al Nome attività o problema sulla sinistra del Bilanciatore dei carichi di lavoro.
 
 * Il totale delle ore pianificate per un progetto viene visualizzato accanto al Nome progetto a sinistra del Bilanciatore dei carichi di lavoro. Rappresenta il totale delle ore pianificate per tutte le attività e i problemi elencati nel progetto nel Bilanciatore dei carichi di lavoro e non per tutte le ore pianificate del progetto.
-* La quantità di tempo allocata giornalmente o settimanalmente per tutte le attività e per tutti i progetti viene visualizzata solo se si abilita manualmente l&#39;impostazione Mostra allocazioni. Per informazioni sull’abilitazione delle impostazioni nel Bilanciatore dei carichi di lavoro, consulta [Navigare nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+* La quantità di tempo allocata giornalmente o settimanalmente per tutte le attività e per tutti i progetti viene visualizzata solo se si abilita manualmente l&#39;impostazione Mostra allocazioni. Per informazioni sull&#39;abilitazione delle impostazioni nel Bilanciatore dei carichi di lavoro, vedere [Navigare nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Modificare le allocazioni utente {#modify-user-allocations}
 
-Come parte dell’assegnazione del lavoro agli utenti, puoi modificare le allocazioni degli utenti nel Bilanciatore dei carichi di lavoro per garantire che non vengano mai sovrassegnate o per garantire un preciso equilibrio di ore tra le risorse. Per informazioni su come identificare se un utente è sovrassegnato, consulta la sezione [Panoramica sull’allocazione degli utenti](#user-allocation-overview) in questo articolo.
+Come parte dell’assegnazione del lavoro agli utenti, puoi modificare le allocazioni degli utenti nel Bilanciatore dei carichi di lavoro per garantire che non vengano mai sovrassegnate o per garantire un preciso equilibrio di ore tra le risorse. Per informazioni su come identificare se un utente è sovrassegnato, vedere la sezione [Panoramica sull&#39;allocazione degli utenti](#user-allocation-overview) in questo articolo.
 
-1. Assicurati di avere attività e problemi assegnati agli utenti. Per informazioni sull’assegnazione di lavoro agli utenti nel Bilanciatore dei carichi di lavoro, consulta [Panoramica sull’assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+1. Assicurati di avere attività e problemi assegnati agli utenti. Per informazioni sull&#39;assegnazione del lavoro agli utenti nel Bilanciatore dei carichi di lavoro, vedere [Panoramica sull&#39;assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 1. Passa al Bilanciatore dei carichi di lavoro.
 1. (Facoltativo) Fai clic su **Settimana** o **Mese** per gestire le allocazioni settimanali o mensili per gli utenti.
 
    ![Seleziona settimana o mese](assets/month-icon-on-toolbar-selected-wb-350x226.png)
 
-1. In **Lavoro assegnato** individuare l&#39;utente per il quale si desidera modificare manualmente l&#39;allocazione e fare clic sulla freccia rivolta a destra a sinistra del nome utente per espandere l&#39;utente.
+1. Nell&#39;area **Lavoro assegnato**, individuare l&#39;utente per il quale si desidera modificare manualmente l&#39;allocazione e fare clic sulla freccia rivolta a destra a sinistra del nome utente per espandere l&#39;utente.
 
    ![Espandi utente](assets/wb-highlight-on-name-caret2.png)
 
@@ -198,11 +198,11 @@ Come parte dell’assegnazione del lavoro agli utenti, puoi modificare le alloca
    >
    >Puoi modificare le allocazioni utente solo per attività e problemi. Non è possibile modificare le allocazioni utente per i progetti.
 
-1. (Facoltativo) Fai clic su **Mostra allocazioni** icona ![](assets/show-allocations-icon-small.png) per visualizzare le allocazioni per tutti gli elementi di lavoro.
+1. (Facoltativo) Fare clic sull&#39;icona **Mostra allocazioni** ![](assets/show-allocations-icon-small.png) per visualizzare le allocazioni per tutti gli elementi di lavoro.
 
    Il nome delle attività e dei progetti viene sostituito con l&#39;assegnazione dell&#39;utente per l&#39;attività o il progetto.
 
-1. (Facoltativo) Fai clic su **Impostazioni** icona ![](assets/gear-icon-settings.png) e selezionare una delle seguenti opzioni:
+1. (Facoltativo) Fai clic sull&#39;icona **Impostazioni** ![](assets/gear-icon-settings.png) e seleziona una delle seguenti opzioni:
 
    1. **Includi ore da problemi**. Questo consente di gestire le allocazioni dei problemi oltre alle allocazioni delle attività.
    1. **Mostra lavoro completato**. In questo modo vengono visualizzati gli elementi completati e pianificati durante la sequenza temporale per la quale si gestiscono le allocazioni.
@@ -212,16 +212,16 @@ Come parte dell’assegnazione del lavoro agli utenti, puoi modificare le alloca
       >
       >Se si modificano le allocazioni quando questa impostazione è abilitata, il numero totale nella linea utente diminuisce.
 
-   1. **Progetto** nel **Seleziona tema colore** sezione. In questo modo, ogni progetto e i rispettivi elementi di lavoro vengono visualizzati in colori univoci e risulta più facile capire quali elementi appartengono a ciascun progetto.
-   1. **Percento** nel **Visualizzare l’allocazione utente in** sezione. In questo modo le allocazioni vengono visualizzate come valore percentuale. La capacità dell&#39;utilizzatore secondo il programma è considerata pari al 100%. Ad esempio, se un utente è associato a una pianificazione di 8 ore al giorno, 8 ore equivalgono a una capacità del 100%. Se vuoi assegnare all’utente un lavoro di 4 ore al giorno, devi aggiornare la sua allocazione al 50%.
+   1. **Progetto** nella sezione **Seleziona tema colore**. In questo modo, ogni progetto e i rispettivi elementi di lavoro vengono visualizzati in colori univoci e risulta più facile capire quali elementi appartengono a ciascun progetto.
+   1. **Percentuale** nella sezione **Visualizza allocazione utenti in**. In questo modo le allocazioni vengono visualizzate come valore percentuale. La capacità dell&#39;utilizzatore secondo il programma è considerata pari al 100%. Ad esempio, se un utente è associato a una pianificazione di 8 ore al giorno, 8 ore equivalgono a una capacità del 100%. Se vuoi assegnare all’utente un lavoro di 4 ore al giorno, devi aggiornare la sua allocazione al 50%.
 
       >[!NOTE]
       >
-      >L&#39;amministratore di Workfront decide la pianificazione da utilizzare nel sistema per calcolare la capacità dell&#39;utente nell&#39;area Gestione risorse di Configura. Per ulteriori informazioni, consulta [Configurare le preferenze di Gestione risorse](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+      >L&#39;amministratore di Workfront decide la pianificazione da utilizzare nel sistema per calcolare la capacità dell&#39;utente nell&#39;area Gestione risorse di Configura. Per ulteriori informazioni, vedere [Configurare le preferenze di Gestione risorse](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-1. Fai clic su **Altro** menu ![](assets/qs-more-menu.png) per un elemento di lavoro, quindi fare clic su **Modifica allocazioni**.
+1. Fai clic sul menu **Altro** ![](assets/qs-more-menu.png) per un elemento di lavoro, quindi fai clic su **Modifica allocazioni**.
 
-   ![Menu Altro per elemento di lavoro](assets/more-menu-on-task-wb-nwe.png)
+   ![Altro menu per elemento di lavoro](assets/more-menu-on-task-wb-nwe.png)
 
    Oppure
 
@@ -229,19 +229,19 @@ Come parte dell’assegnazione del lavoro agli utenti, puoi modificare le alloca
 
    Le caselle di allocazione diventano modificabili.
 
-1. Fai clic nella casella di ogni allocazione giornaliera, settimanale o mensile per aggiornare manualmente la quantità di ore o il valore percentuale per cui desideri che l’utente sia allocato ogni giorno, settimana o mese, quindi fai clic su **Salva** icona ![](assets/checkmark-icon.png).
+1. Fai clic nella casella di ogni allocazione giornaliera, settimanale o mensile per aggiornare manualmente la quantità di ore o il valore percentuale per cui desideri allocare l&#39;utente ogni giorno, settimana o mese, quindi fai clic sull&#39;icona **Salva** ![](assets/checkmark-icon.png).
 
    >[!TIP]
    >
-   >Fai clic su **Annulla** icona ![](assets/cancel-allocations-wb.png) per rimuovere le allocazioni adeguate.
+   >Fai clic sull&#39;icona **Annulla** ![](assets/cancel-allocations-wb.png) per rimuovere le allocazioni regolate.
 
-   ![Salva o annulla allocazioni adeguate](assets/wb-contouring-with-check-and-x-boxes-350x63.png)
+   ![Salvare o annullare le allocazioni corrette](assets/wb-contouring-with-check-and-x-boxes-350x63.png)
 
    Le allocazioni per l’aggiornamento utente.
 
    >[!TIP]
    >
-   >Se un&#39;attività o un problema è stato completato prima della Data di completamento pianificata, il numero di ore allocate per i giorni rimanenti viene cancellato e non viene conteggiato per l&#39;allocazione complessiva dell&#39;utente. Questa opzione viene visualizzata solo quando entrambi **Mostra allocazioni** e **Mostra date previste** sono attivate.
+   >Se un&#39;attività o un problema è stato completato prima della Data di completamento pianificata, il numero di ore allocate per i giorni rimanenti viene cancellato e non viene conteggiato per l&#39;allocazione complessiva dell&#39;utente. Questa opzione viene visualizzata solo quando sono abilitate sia l&#39;icona **Mostra allocazioni** che l&#39;impostazione **Mostra date previste**.
 
    Esistono i seguenti scenari:
 
@@ -254,7 +254,7 @@ Come parte dell’assegnazione del lavoro agli utenti, puoi modificare le alloca
 
      ![Icona Blocca](assets/lock-icon-on-simple-task-in-the-balancer.png)
 
-   Per ulteriori informazioni sulle condizioni che devono essere soddisfatte per aggiornare le ore pianificate nel Bilanciatore dei carichi di lavoro, vedi [Aggiorna le ore pianificate per l&#39;attività durante la gestione delle allocazioni utente](#update-task-planned-hours-when-managing-user-allocations) in questo articolo. Per informazioni sui tipi di durata dell&#39;attività, vedere [Panoramica sulla durata e sul tipo di durata dell&#39;attività](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   Per ulteriori informazioni sulle condizioni che devono essere soddisfatte per aggiornare le ore pianificate nel Bilanciatore dei carichi di lavoro, consulta la sezione [Aggiorna ore pianificate per l&#39;attività durante la gestione delle allocazioni utente](#update-task-planned-hours-when-managing-user-allocations) in questo articolo. Per informazioni sui tipi di durata delle attività, vedere [Panoramica sulla durata delle attività e sul tipo di durata](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 1. (Facoltativo) Se l&#39;attività è assegnata a più utenti, ripetere questi passaggi per ogni utente assegnato all&#39;attività per aggiornare le allocazioni per ogni utente.
 
@@ -284,7 +284,7 @@ Ciò è possibile quando esistono le seguenti condizioni:
    * Consente di gestire le autorizzazioni per le attività.
    * Aggiornare le ore pianificate nell&#39;accesso al Bilanciatore dei carichi di lavoro nell&#39;area Gestione risorse del proprio livello di accesso.
 
-  Per ulteriori informazioni sull’accesso necessario per utilizzare il Bilanciatore dei carichi di lavoro, vedi [Requisiti di accesso](#access-requirements) in questo articolo.
+  Per ulteriori informazioni sull&#39;accesso necessario per utilizzare il Bilanciatore dei carichi di lavoro, consulta la sezione [Requisiti di accesso](#access-requirements) in questo articolo.
 
 * L&#39;attività ha un Tipo di durata semplice.
 

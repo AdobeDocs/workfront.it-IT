@@ -5,24 +5,24 @@ product-area: workfront-integrations;documents
 keywords: connettore
 navigation-topic: apps-and-their-modules
 title: Moduli Datadog
-description: In un [!DNL Adobe Workfront Fusion] scenario, puoi automatizzare i flussi di lavoro che utilizzano Datadog, nonché collegarlo a più applicazioni e servizi di terze parti.
+description: In uno scenario  [!DNL Adobe Workfront Fusion] , puoi automatizzare i flussi di lavoro che utilizzano Datadog, nonché collegarlo a più applicazioni e servizi di terze parti.
 author: Becky
 feature: Workfront Fusion
 exl-id: a0b4352d-a1ce-4459-a58e-71de860b8a90
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 1%
+source-wordcount: '851'
+ht-degree: 0%
 
 ---
 
 # [!DNL Datadog] moduli
 
-In un [!DNL Adobe Workfront Fusion] scenario, puoi automatizzare i flussi di lavoro che utilizzano [!DNL Datadog], oltre a collegarlo a più applicazioni e servizi di terze parti.
+In uno scenario [!DNL Adobe Workfront Fusion], è possibile automatizzare i flussi di lavoro che utilizzano [!DNL Datadog] e collegarlo a più applicazioni e servizi di terze parti.
 
-Per istruzioni sulla creazione di uno scenario, consulta [Creare uno scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Se hai bisogno di istruzioni per la creazione di uno scenario, consulta [Creare uno scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Per informazioni sui moduli, consulta [Moduli in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Per informazioni sui moduli, vedere [Moduli in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Requisiti di accesso
 
@@ -43,38 +43,38 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licenza**</td> 
    <td>
-   <p>Fabbisogno di licenza corrente: No [!DNL Workfront Fusion] requisito di licenza.</p>
+   <p>Requisiti di licenza correnti: nessun requisito di licenza [!DNL Workfront Fusion].</p>
    <p>Oppure</p>
-   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro] </p>
+   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione del lavoro] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
    <td>
-   <p>Fabbisogno prodotto corrente: se si dispone di [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Pianifica, la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo. [!DNL Workfront Fusion] è incluso in [!UICONTROL Ultimate] [!DNL Workfront] piano.</p>
+   <p>Fabbisogno prodotto corrente: se si dispone del piano [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], l'organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo. [!DNL Workfront Fusion] è incluso nel piano [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>Oppure</p>
-   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</p>
+   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore [!DNL Workfront].
 
-Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Prerequisiti
 
-Da utilizzare [!DNL Datadog] moduli, è necessario disporre di un [!DNL Datadog] account.
+Per utilizzare i moduli [!DNL Datadog], è necessario disporre di un account [!DNL Datadog].
 
 ## Connetti [!DNL Datadog] a [!DNL Workfront Fusion] {#connect-datadog-to-workfront-fusion}
 
 ### Recuperare la chiave API e la chiave dell’applicazione {#retrieve-your-api-key-and-application-key}
 
-Per collegare [!DNL Datadog] account a [!DNL Workfront Fusion] è necessario recuperare una chiave API e una chiave dell’applicazione dal file [!DNL Datadog] account.
+Per connettere l&#39;account [!DNL Datadog] a [!DNL Workfront Fusion] è necessario recuperare una chiave API e una chiave applicazione dall&#39;account [!DNL Datadog].
 
-1. Accedi al tuo [!DNL Datadog] account.
-1. Nel pannello di navigazione a sinistra, fai clic su **[!UICONTROL Integrazioni]**, quindi fai clic su **[!UICONTROL API]**.
+1. Accedi al tuo account [!DNL Datadog].
+1. Nel pannello di navigazione a sinistra, fai clic su **[!UICONTROL Integrazioni]**, quindi su **[!UICONTROL API]**.
 1. Nella schermata principale, fai clic su **[!UICONTROL Chiavi API]**.
 1. Passa il puntatore del mouse sulla barra viola per visualizzare la chiave API.
 1. Copia la chiave API in un percorso sicuro.
@@ -82,11 +82,11 @@ Per collegare [!DNL Datadog] account a [!DNL Workfront Fusion] è necessario rec
 1. Passa il cursore del mouse sulla barra viola per visualizzare il tasto dell’applicazione.
 1. Copiare la chiave dell&#39;applicazione in un percorso sicuro.
 
-### Creare una connessione a [!DNL Datadog] in [!DNL Workfront Fusion]
+### Crea una connessione a [!DNL Datadog] in [!DNL Workfront Fusion]
 
-Puoi creare una connessione al tuo [!DNL Datadog] account direttamente dall&#39;interno di un [!UICONTROL Datadog] modulo.
+Puoi creare una connessione al tuo account [!DNL Datadog] direttamente da un modulo [!UICONTROL Datadog].
 
-1. In qualsiasi [!UICONTROL Datadog] modulo, fai clic su **[!UICONTROL Aggiungi]** accanto al [!UICONTROL Connessione] campo.
+1. In qualsiasi modulo [!UICONTROL Datadog], fai clic su **[!UICONTROL Aggiungi]** accanto al campo [!UICONTROL Connessione].
 1. Compila i campi del modulo come segue:
 
 <table style="table-layout:auto">
@@ -95,7 +95,7 @@ Puoi creare una connessione al tuo [!DNL Datadog] account direttamente dall&#39;
     <tbody> 
      <tr> 
       <td role="rowheader">Tipo di connessione [!UICONTROL]</td> 
-      <td> <p> Seleziona [!UICONTROL [!DNL Datadog] Applicazione] per ottenere l'accesso completo a [!DNL Datadog] API.</p> </td> 
+      <td> <p> Selezionare l'opzione [!UICONTROL [!DNL Datadog] Application] per accedere completamente all'API [!DNL Datadog].</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Nome connessione]</td> 
@@ -107,33 +107,33 @@ Puoi creare una connessione al tuo [!DNL Datadog] account direttamente dall&#39;
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL API Key]</td> 
-      <td> <p> Immetti il [!DNL Datadog] Chiave API. </p> <p>Per istruzioni sul recupero della chiave API, consulta <a href="#retrieve-your-api-key-and-application-key" class="MCXref xref">Recuperare la chiave API e la chiave dell’applicazione</a> in questo articolo.</p> </td> 
+      <td> <p> Immetti la tua chiave API [!DNL Datadog]. </p> <p>Per istruzioni sul recupero della chiave API, consulta <a href="#retrieve-your-api-key-and-application-key" class="MCXref xref">Recuperare la chiave API e la chiave dell'applicazione</a> in questo articolo.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Chiave Applicazione]</td> 
-      <td> <p> Immetti il [!DNL Datadog] chiave dell'applicazione. </p> <p>Per istruzioni sul recupero della chiave dell'applicazione, vedere <a href="#retrieve-your-api-key-and-application-key" class="MCXref xref">Recuperare la chiave API e la chiave dell’applicazione</a> in questo articolo.</p> </td> 
+      <td> <p> Immetti la chiave dell'applicazione [!DNL Datadog]. </p> <p>Per istruzioni sul recupero della chiave dell'applicazione, vedere <a href="#retrieve-your-api-key-and-application-key" class="MCXref xref">Recuperare la chiave dell'API e la chiave dell'applicazione</a> in questo articolo.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Clic **[!UICONTROL Continua]** per creare la connessione e tornare al modulo.
+1. Fai clic su **[!UICONTROL Continua]** per creare la connessione e tornare al modulo.
 
 ## [!DNL Datadog] moduli e relativi campi
 
-Quando si configura [!DNL Datadog] moduli, [!DNL Workfront Fusion] visualizza i campi elencati di seguito. Oltre a questi, ulteriori [!DNL Datadog] I campi potrebbero essere visualizzati in base a fattori quali il livello di accesso nell’app o nel servizio. Un titolo in grassetto in un modulo indica un campo obbligatorio.
+Quando configuri [!DNL Datadog] moduli, [!DNL Workfront Fusion] visualizza i campi elencati di seguito. Insieme a questi, potrebbero essere visualizzati ulteriori campi di [!DNL Datadog], a seconda di fattori quali il livello di accesso nell&#39;app o nel servizio. Un titolo in grassetto in un modulo indica un campo obbligatorio.
 
-Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possibile utilizzarlo per impostare variabili e funzioni per tale campo. Per ulteriori informazioni, consulta [Mappare le informazioni da un modulo all’altro in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possibile utilizzarlo per impostare variabili e funzioni per tale campo. Per ulteriori informazioni, vedere [Mappare le informazioni da un modulo all&#39;altro in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
 ### Azioni
 
-* [[!UICONTROL Pubblica punti serie temporali]](#post-timeseries-points)
+* [[!UICONTROL Punti serie temporale Post]](#post-timeseries-points)
 * [[!UICONTROL Effettuare una chiamata API]](#make-an-api-call)
 
-#### [!UICONTROL Pubblica punti serie temporali]
+#### [!UICONTROL Punti serie temporale Post]
 
-Il modulo consente di registrare dati di serie temporali che possono essere tracciati su [!DNL Datadog]Dashboard di.
+Il modulo ti consente di pubblicare dati di serie temporali che possono essere tracciati nei dashboard di [!DNL Datadog].
 
 Il limite per i payload compressi è di 3,2 megabyte (3200000) e 62 megabyte (62914560) per i payload decompressi.
 
@@ -143,13 +143,13 @@ Il limite per i payload compressi è di 3,2 megabyte (3200000) e 62 megabyte (62
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Datadog] account a [!DNL Workfront Fusion], vedi <a href="#connect-datadog-to-workfront-fusion" class="MCXref xref">Connetti [!DNL Datadog] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Datadog] a [!DNL Workfront Fusion], vedere <a href="#connect-datadog-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL Datadog] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Series]</td> 
-   <td> <p>Aggiungere serie temporali alle quali si desidera inviare [!DNL Datadog].</p> 
+   <td> <p>Aggiungere serie temporali da inviare a [!DNL Datadog].</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Metric]</strong> </p> <p>Immetti il nome della serie temporale.</p> </li> 
+     <li> <p><strong>[!UICONTROL Metrica]</strong> </p> <p>Immetti il nome della serie temporale.</p> </li> 
      <li> <p><strong>[!UICONTROL Type]</strong> </p> <p>Seleziona il tipo di metrica.</p> </li> 
      <li> <p><strong>[!UICONTROL Interval]</strong> </p> <p> Se il tipo di metrica è tasso o conteggio, definisci l’intervallo corrispondente.</p> </li> 
      <li> <p><strong>[!UICONTROL Punti]</strong> </p> <p>Aggiungere punti relativi a una metrica.</p> <p>Questo è un array JSON di punti. Ogni punto ha il formato: <code>[[POSIX_timestamp, numeric_value], ...] </code></p> <p>Nota:  <p>Il timestamp deve essere in secondi.</p> <p>Il timestamp deve essere corrente. Corrente è definita come non più di 10 minuti nel futuro o più di 1 ora nel passato.</p> <p> Il formato del valore numerico deve essere un valore mobile.</p> </p> <p>Questo campo deve contenere almeno 1 elemento.</p> </li> 
@@ -169,15 +169,15 @@ Questo modulo di azione ti consente di eseguire una chiamata API personalizzata.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Datadog] account a [!DNL Workfront Fusion], vedi <a href="#connect-datadog-to-workfront-fusion" class="MCXref xref">Connetti [!DNL Datadog] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Datadog] a [!DNL Workfront Fusion], vedere <a href="#connect-datadog-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL Datadog] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td>Inserisci un percorso relativo a <code>https://api.datadoghq.com/api/</code>. Esempio:<code> /v1/org</code>.</td> 
+   <td>Immettere un percorso relativo a <code>https://api.datadoghq.com/api/</code>. Esempio:<code> /v1/org</code>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
-   <td> <p>Seleziona il metodo di richiesta HTTP necessario per configurare la chiamata API. Per ulteriori informazioni, consulta <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">Metodi di richiesta HTTP in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Seleziona il metodo di richiesta HTTP necessario per configurare la chiamata API. Per ulteriori informazioni, vedere <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">Metodi di richiesta HTTP in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -189,7 +189,7 @@ Questo modulo di azione ti consente di eseguire una chiamata API personalizzata.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Aggiungi il contenuto body per la chiamata API sotto forma di oggetto JSON standard.</p> <p>Nota:  <p>Quando si utilizzano istruzioni condizionali quali <code>if</code> nel JSON, inserisci le virgolette al di fuori dell’istruzione condizionale.</p> 
+   <td> <p>Aggiungi il contenuto body per la chiamata API sotto forma di oggetto JSON standard.</p> <p>Nota:  <p>Quando si utilizzano istruzioni condizionali come <code>if</code> nel JSON, inserire le virgolette al di fuori dell'istruzione condizionale.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -197,7 +197,7 @@ Questo modulo di azione ti consente di eseguire una chiamata API personalizzata.
  </tbody> 
 </table>
 
-**Esempio:** La seguente chiamata API restituisce tutti i dashboard nel tuo [!DNL Datadog] account:
+**Esempio:** La seguente chiamata API restituisce tutti i dashboard nel tuo account [!DNL Datadog]:
 
 URL: `/v1/dashboard`
 

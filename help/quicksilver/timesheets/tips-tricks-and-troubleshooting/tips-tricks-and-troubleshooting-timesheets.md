@@ -21,5 +21,5 @@ Questa sezione contiene i seguenti articoli:
 
 * [Correggere il giorno di inizio della settimana lavorativa per le schede orario](../../timesheets/tips-tricks-and-troubleshooting/correct-start-day-of-work-week.md)
 * [Impedisci che l&#39;azione Ricalcola dati finanziari influisca sulle ore storiche quando i tassi cambiano](../../timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
-* [Tracciare i record di ore con l’API di Adobe Workfront](../../timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)
+* [Tracciare i record di ore con l&#39;API Adobe Workfront](../../timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)
 * [Impossibile registrare l’ora per le date future](../../timesheets/tips-tricks-and-troubleshooting/unable-to-log-time-future-dates.md)

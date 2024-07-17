@@ -23,7 +23,7 @@ Per impostazione predefinita, nell&#39;area Aggiornamenti di un oggetto viene vi
 
 >[!NOTE]
 >
->È possibile creare un report per visualizzare gli aggiornamenti sugli oggetti in Anteprima con il report Voce diario. Per ulteriori informazioni, consulta [Rapporto sulla sezione Aggiornamenti](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+>È possibile creare un report per visualizzare gli aggiornamenti sugli oggetti in Anteprima con il report Voce diario. Per ulteriori informazioni, vedere [Report sull&#39;area Aggiornamenti](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
 ## Requisiti di accesso
 
@@ -68,26 +68,26 @@ La creazione di un report per Notes per qualsiasi oggetto è identica, indipende
 
 Ad esempio, per creare un rapporto Note per tutte le note di un progetto:
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront.
 
-1. Clic **Rapporti**.
-1. Clic **Nuovo rapporto**, quindi scegli **Nota**.
+1. Fai clic su **Rapporti**.
+1. Fai clic su **Nuovo rapporto**, quindi scegli **Nota**.
 
-1. (Facoltativo) Fai clic su **Visualizzazioni**, quindi **Aggiungi colonna** per aggiungere **Nome** del **Progetto** a parere della relazione. 
+1. (Facoltativo) Fai clic su **Viste**, quindi su **Aggiungi colonna** per aggiungere **Nome** del **Progetto** alla visualizzazione del report. 
 
-1. (Facoltativo) Fai clic su **Raggruppamenti**, quindi **Aggiungi raggruppamento** per eseguire il raggruppamento in base al **Nome progetto**, se esegui rapporti su più progetti contemporaneamente.\
+1. (Facoltativo) Fai clic su **Raggruppamenti**, quindi su **Aggiungi raggruppamento** per raggruppare in base al **Nome progetto**, se esegui report su più progetti contemporaneamente.\
    In questo modo le note vengono raggruppate in base ai rispettivi progetti, facilitando la lettura del rapporto. 
 
-1. (Facoltativo) Fai clic su **Filtri,** allora **Aggiungere una regola di filtro**.
+1. (Facoltativo) Fai clic su **Filtri,** quindi su **Aggiungi regola filtro**.
 1. Aggiungi un filtro per **Nota** > **Testo nota** > **Non è vuoto**.
 
    ![](assets/note-note-text-not-blank-filter.png)
 
    >[!TIP]
    >
-   >   Se un campo del progetto è stato aggiornato ma non è stata aggiunta alcuna nota al momento dell’aggiornamento, il **Testo nota** dell’aggiornamento viene visualizzato come **(Nessun testo aggiunto da aggiornare)**.
+   >   Se un campo di progetto è stato aggiornato ma non è stata aggiunta alcuna nota al momento dell&#39;aggiornamento, il **Testo nota** dell&#39;aggiornamento verrà visualizzato come **(Nessun testo aggiunto da aggiornare)**.
 
 
-1. (Facoltativo) Aggiungi un altro filtro per **Progetto** > **Nome** > **È uguale a** e aggiungere uno o più nomi di progetto per i quali si desidera visualizzare le note.
+1. (Facoltativo) Aggiungi un altro filtro per **Progetto** > **Nome** > **È uguale a** e aggiungi uno o più nomi di progetto per i quali vuoi visualizzare le note.
 1. Fai clic su **Salva e Chiudi**.\
    Nel rapporto vengono visualizzati tutti gli aggiornamenti immessi nel progetto da tutti gli utenti con autorizzazioni almeno per Visualizza il progetto.

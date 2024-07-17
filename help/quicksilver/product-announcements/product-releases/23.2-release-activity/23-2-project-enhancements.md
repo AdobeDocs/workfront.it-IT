@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti apportati con la versione 23.2 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione con la versione 23.2.
 
-Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio 23.2, consulta [Panoramica sulla versione 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio 23.2, vedere [Panoramica sulla versione 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
 ## Nuova esperienza durante la modifica in blocco di progetti
 
@@ -39,19 +39,19 @@ Oltre all’aspetto aggiornato dell’interfaccia, nella casella Modifica proget
 
 * È stata eliminata l’opzione Ricalcola scorecard durante la modifica in blocco di progetti.
 
-Per informazioni, consulta [Modifica progetti](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+Per informazioni, vedere [Modifica progetti](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
-[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3416587/){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3416587/){target=_blank}
 
 ## Esperienza di filtro migliorata generalmente disponibile in Adobe Workfront
 
-Nell’agosto 2022 è stato rilasciato un aggiornamento all’esperienza filtro in versione beta pubblica per gli elenchi di progetti, attività e problemi. La maggior parte degli elenchi ora offre i filtri migliorati. Per esaminare tutti questi elenchi, vedere [Note sulla versione degli aggiornamenti look-and-feel 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).) L’esperienza di filtro migliorata sarà generalmente disponibile e diventerà il generatore di filtri standard in Anteprima il 2 marzo 2023. Anche il rollout graduale in produzione inizierà il 2 marzo, con disponibilità per tutti i clienti nella versione 23.2.
+Nell’agosto 2022 è stato rilasciato un aggiornamento all’esperienza filtro in versione beta pubblica per gli elenchi di progetti, attività e problemi. La maggior parte degli elenchi ora offre i filtri migliorati. Per esaminare tutti questi elenchi, vedere le [note sulla versione degli aggiornamenti look-and-feel](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md). L’esperienza di filtro migliorata sarà generalmente disponibile e diventerà il generatore di filtri standard in Anteprima il 2 marzo 2023. Anche il rollout graduale in produzione inizierà il 2 marzo, con disponibilità per tutti i clienti nella versione 23.2.
 
 Puoi comunque accedere ai filtri legacy negli elenchi attivandoli nel pannello dei filtri. I filtri legacy diventeranno obsoleti in futuro, ma rimarranno disponibili nei rapporti perché il generatore di filtri standard non è disponibile nei rapporti.
 
-Per informazioni dettagliate sui filtri migliorati e una dimostrazione video, consulta la [nota sulla versione beta pubblica dei filtri](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
+Per informazioni dettagliate sui filtri migliorati e una dimostrazione video, consulta la nota sulla versione beta pubblica dei [filtri](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
 
-Per ulteriori informazioni, consulta [Creare o modificare filtri in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+Per ulteriori informazioni, vedere [Creare o modificare filtri in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 ## Copia ore preventivate durante la copia di un progetto
 
@@ -61,6 +61,6 @@ Per ulteriori informazioni, consulta [Creare o modificare filtri in Adobe Workfr
 
 Ora è possibile copiare le ore preventivate nell&#39;area Budget risorse del Business Case o della Programmazione risorse quando si copia un progetto. Prima di questo miglioramento, le ore preventivate per il progetto non venivano trasferite al progetto copiato.
 
-Per informazioni, consulta [Copiare un progetto](/help/quicksilver/manage-work/projects/manage-projects/copy-project.md).
+Per informazioni, vedere [Copiare un progetto](/help/quicksilver/manage-work/projects/manage-projects/copy-project.md).
 
-[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3415713/){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3415713/){target=_blank}

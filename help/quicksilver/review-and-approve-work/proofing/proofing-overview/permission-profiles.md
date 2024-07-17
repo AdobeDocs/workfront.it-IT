@@ -11,7 +11,7 @@ exl-id: fb6faa48-d97b-4b7b-83ae-fe39d40b3963
 source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
 workflow-type: tm+mt
 source-wordcount: '498'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 1%
 
 I profili di autorizzazione delle bozze determinano le autorizzazioni generali di cui dispongono gli utenti su tutte le bozze nel tuo account. I profili di autorizzazione delle bozze vengono assegnati agli utenti nel loro profilo utente.
 
-I profili di autorizzazione delle bozze sono diversi dai ruoli delle bozze. Per ulteriori informazioni sui ruoli delle bozze, consulta [Panoramica sui ruoli bozza](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
+I profili di autorizzazione delle bozze sono diversi dai ruoli delle bozze. Per ulteriori informazioni sui ruoli bozza, vedere [Panoramica sui ruoli bozza](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
 
 >[!NOTE]
 >
->Se sei un amministratore, puoi creare profili personalizzati per gli utenti dell’organizzazione. Per ulteriori informazioni, consulta [Configurare profili personalizzati in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md).
+>Se sei un amministratore, puoi creare profili personalizzati per gli utenti dell’organizzazione. Per ulteriori informazioni, vedere [Configurare profili personalizzati in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Consider the following about roles and permissions:</p>

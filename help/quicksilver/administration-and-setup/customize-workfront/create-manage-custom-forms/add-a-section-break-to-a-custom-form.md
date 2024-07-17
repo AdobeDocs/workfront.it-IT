@@ -25,9 +25,9 @@ Ad esempio, se devi tenere traccia delle informazioni riservate che solo gli amm
 
 Le impostazioni di accesso selezionate per una sezione sono direttamente correlate alle autorizzazioni di cui dispongono gli utenti sull’oggetto Workfront a cui è allegato il modulo personalizzato. È possibile nascondere o visualizzare una sezione a seconda che l&#39;utente disponga dell&#39;accesso per visualizzare, contribuire o gestire l&#39;oggetto. In alternativa, è possibile impostare una sezione su Solo amministratore in modo che solo gli utenti con un livello di accesso amministratore di sistema possano accedervi.
 
-Per informazioni sulle autorizzazioni per gli oggetti, vedi [Panoramica delle autorizzazioni di condivisione sugli oggetti](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Per informazioni sulle autorizzazioni per gli oggetti, vedere [Panoramica sulle autorizzazioni di condivisione per gli oggetti](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, vedi [Aggiungere un campo personalizzato a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) e [Aggiungere o modificare un widget di risorse in un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, consulta [Aggiungere un campo personalizzato a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) e [Aggiungere o modificare un widget di risorse in un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 <!--
 >[!TIP]
@@ -69,13 +69,13 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 ## Creare e configurare l’accesso per una sezione in un modulo personalizzato
 
 1. Iniziare a creare o modificare un modulo personalizzato, come descritto in [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-1. Aggiungere al modulo campi e widget personalizzati, come descritto in [Aggiungere un campo personalizzato a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) e [Aggiungere o modificare un widget di risorse in un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+1. Aggiungere campi e widget personalizzati al modulo, come descritto in [Aggiungere un campo personalizzato a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) e [Aggiungere o modificare un widget di risorse in un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
-1. Durante la creazione o la modifica del modulo personalizzato, sul **Aggiungi un campo** , fare clic su **Interruzione di sezione**.
+1. Durante la creazione o la modifica del modulo personalizzato, nella scheda **Aggiungi campo** fare clic su **Interruzione di sezione**.
 
    ![](assets/click-section-break.jpg)
 
-1. Il giorno **Impostazioni campo** , configura le opzioni desiderate per la sezione:
+1. Nella scheda **Impostazioni campo**, configura le opzioni desiderate per la sezione:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -85,7 +85,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
     <tbody> 
      <tr> 
       <td role="rowheader">Etichetta</td> 
-      <td> <p>(Obbligatorio) Digita un’etichetta descrittiva da visualizzare sopra la sezione. Puoi modificare l’etichetta in qualsiasi momento.</p> <p><b>IMPORTANTE</b>: evita di utilizzare caratteri speciali in questa etichetta. Non vengono visualizzati correttamente nei rapporti.</p> </td> 
+      <td> <p>(Obbligatorio) Digita un’etichetta descrittiva da visualizzare sopra la sezione. Puoi modificare l’etichetta in qualsiasi momento.</p> <p><b>IMPORTANTE</b>: evitare di utilizzare caratteri speciali in questa etichetta. Non vengono visualizzati correttamente nei rapporti.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Descrizione</td> 
@@ -93,35 +93,35 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
      </tr> 
      <tr> 
       <td role="rowheader"><p>Aggiungi logica</p></td> 
-      <td><p>Utilizza la logica di visualizzazione per specificare se la sezione deve essere visualizzata nel modulo, in base alle selezioni effettuate dagli utenti nei campi personalizzati a scelta multipla durante la compilazione del modulo.</p><p><strong>NOTA:</strong> Se a tutti i singoli campi di un’interruzione di sezione è applicata una logica di visualizzazione e questi sono tutti nascosti come risultato della logica, l’intera sezione sarà nascosta nel modulo personalizzato. Ciò si verifica anche se la logica di visualizzazione non viene applicata all’interruzione di sezione.</p><p>Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Aggiungere logica di visualizzazione e logica di salto a un modulo personalizzato</a>.</p></td> 
+      <td><p>Utilizza la logica di visualizzazione per specificare se la sezione deve essere visualizzata nel modulo, in base alle selezioni effettuate dagli utenti nei campi personalizzati a scelta multipla durante la compilazione del modulo.</p><p><strong>NOTA:</strong> se a tutti i singoli campi di un'interruzione di sezione viene applicata la logica di visualizzazione e tutti i campi sono nascosti come risultato della logica, l'intera sezione verrà nascosta nel modulo personalizzato. Ciò si verifica anche se la logica di visualizzazione non viene applicata all’interruzione di sezione.</p><p>Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Aggiungere logica di visualizzazione e logica di salto a un modulo personalizzato</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Concedi l’accesso</p> </td> 
       <td> <p> Per visualizzare questa sezione e modificare i valori dei campi, seleziona le autorizzazioni necessarie per un oggetto a cui è allegato il modulo personalizzato.
-       <p>Le seguenti autorizzazioni sono disponibili in <b>Gli utenti con questo accesso all’oggetto possono visualizzare i valori dei campi</b>:</p> 
+       <p>Le seguenti autorizzazioni sono disponibili in <b>Gli utenti con questo accesso all'oggetto possono visualizzare i valori dei campi</b>:</p> 
          <ul>
-          <li><strong>Visualizza</strong>: visualizzare le autorizzazioni per l’oggetto</li>
-          <li><p><b>Modifica limitata</b>: (disponibile solo se l’oggetto è un progetto, un’attività, un problema o un utente):</p> 
+          <li><strong>Visualizza</strong>: visualizza le autorizzazioni per l'oggetto</li>
+          <li><p><b>Modifica limitata</b>: (disponibile solo se l'oggetto è un progetto, attività, problema o utente):</p> 
           <p>Consente agli utenti di contribuire all'oggetto se si tratta di un progetto, attività o problema.</p>
           <p>Consente agli utenti di modificare il profilo o di disporre dell'autorizzazione di profilo per l'oggetto, se si tratta di un utente.</p></li> 
-          <li><b>Modifica</b>: gestione delle autorizzazioni per l’oggetto </li> 
+          <li><b>Modifica</b>: gestisci le autorizzazioni per l'oggetto </li> 
           <li><b>Solo amministratore</b>: livello di accesso Amministratore di sistema</li> 
          </ul> </li> 
-        <p>Le seguenti autorizzazioni sono disponibili in <b>Gli utenti con questo accesso all’oggetto possono modificare i valori dei campi</b>: </p> 
+        <p>Le seguenti autorizzazioni sono disponibili in <b>Gli utenti con questo accesso all'oggetto possono modificare i valori dei campi</b>: </p> 
          <ul> 
-          <li> <p><b>Modifica limitata</b>: (disponibile solo se l’oggetto è un progetto, un’attività, un problema o un utente):</p> 
+          <li> <p><b>Modifica limitata</b>: (disponibile solo se l'oggetto è un progetto, attività, problema o utente):</p> 
            <p>Se l'oggetto rappresenta un progetto, un'attività o un problema, questa autorizzazione consente agli utenti di contribuire all'oggetto</p>
           <p>Se l’oggetto è un utente, questa autorizzazione consente agli utenti di modificare il profilo o di essere proprietari dell’autorizzazione di profilo per l’oggetto.</p> 
-          <li><b>Modifica</b>: gestione delle autorizzazioni per l’oggetto </li> 
+          <li><b>Modifica</b>: gestisci le autorizzazioni per l'oggetto </li> 
           <li><b>Solo amministratore</b>: livello di accesso Amministratore di sistema</li> 
          </ul> </li> 
        </ul> 
-       <p>Per informazioni sulle autorizzazioni per gli oggetti, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Panoramica delle autorizzazioni di condivisione sugli oggetti</a>.</p> 
+       <p>Per informazioni sulle autorizzazioni per gli oggetti, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Panoramica sulle autorizzazioni di condivisione per gli oggetti</a>.</p> 
        <p><b>NOTA</b>:  
        <ul> 
        <li> <p>Gli utenti senza le autorizzazioni specificate qui non possono visualizzare i campi personalizzati e i widget nella sezione. </p> <p>Questo vale anche se visualizzi i valori dei campi nei rapporti o li utilizzi nei campi calcolati nella generazione rapporti in modalità testo.</p> </li>
        <li><p>Per i moduli personalizzati per richieste/problemi: se è necessario l’accesso di visualizzazione per visualizzare i campi nell’interruzione di sezione, ma è necessario l’accesso di amministratore per modificare i campi, la sezione e tutti i relativi campi non saranno visibili agli utenti non amministratori durante la compilazione del modulo. Una volta creata la richiesta, gli utenti con accesso di visualizzazione possono visualizzare i campi nella sezione.</p></li>
-       <li> <p>L'associazione di più tipi di oggetto al modulo può modificare le autorizzazioni di visualizzazione e modifica disponibili in questi passaggi. Per ulteriori informazioni, consulta <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">Come più tipi di oggetto possono influenzare le autorizzazioni di interruzione di sezione in un modulo personalizzato</a> in questo articolo.</p> </li> 
+       <li> <p>L'associazione di più tipi di oggetto al modulo può modificare le autorizzazioni di visualizzazione e modifica disponibili in questi passaggi. Per ulteriori informazioni, vedere <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">Come più tipi di oggetto possono influire sulle autorizzazioni di interruzione di sezione in un modulo personalizzato</a> in questo articolo.</p> </li> 
         </ul> </p> </td> 
      </tr> 
     </tbody> 
@@ -131,7 +131,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    Questa operazione è necessaria prima di salvare la sezione.
 
-1. Clic **Fine**.
+1. Fai clic su **Fine**.
 
    >[!TIP]
    >
@@ -143,7 +143,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    * [Aggiungere o modificare un widget di risorse in un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
    * [Aggiungere dati calcolati a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
    * [Posizionare campi e widget personalizzati in un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
-   * [Aggiungere logica di visualizzazione e logica di salto a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+   * [Aggiungi logica di visualizzazione e logica di salto a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
    * [Anteprima e completamento di un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
 
 <!--
@@ -224,7 +224,7 @@ In un modulo personalizzato con un&#39;interruzione di sezione configurata con l
 
 >[!INFO]
 >
->**Esempio:** In un modulo personalizzato associato al tipo di oggetto Progetto, viene configurata un’interruzione di sezione con l’autorizzazione Modifica limitata.
+>**Esempio:** In un modulo personalizzato associato al tipo di oggetto Progetto, viene configurata un&#39;interruzione di sezione con l&#39;autorizzazione Modifica limitata.
 >
 >Aggiungendo al modulo il tipo di oggetto Portfolio, l&#39;opzione di autorizzazione Modifica limitata non sarà più disponibile per l&#39;interruzione di sezione nel modulo.
 >

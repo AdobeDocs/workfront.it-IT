@@ -79,15 +79,15 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
 
 <table>
   <tr>
-   <td><strong>Funzionalità </strong>
+   <td><strong>Funzione </strong>
    </td>
    <td><strong>Esiste nella vecchia esperienza di commento </strong>
    </td>
    <td><strong>Esiste nella nuova esperienza di commento </strong>
    </td>
-   <td><strong>Verrà introdotta nella nuova esperienza di commento </strong>
+   <td><strong>Verrà introdotto nella nuova esperienza di commento </strong>
    </td>
-   <td><strong>Quando verrà introdotta nella nuova esperienza di commento </strong>
+   <td><strong>Quando verrà introdotto nella nuova esperienza di commento </strong>
    </td>
    <td><strong>Nella ricerca </strong>
    </td>
@@ -514,7 +514,7 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
 
 >[!IMPORTANT]
 >
->Per informazioni sulle funzioni rilasciate alla nuova esperienza di commento durante l’intervallo di tempo beta, consulta [Nuova attività di commento della versione dell’esperienza beta](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+>Per informazioni sulle funzioni rilasciate alla nuova esperienza di commento durante l&#39;intervallo di tempo della versione beta, consulta [Nuova attività di rilascio esperienza beta di commento](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 >
 >Per ulteriori informazioni sulla gestione degli aggiornamenti per gli oggetti Workfront, vedere [Aggiorna lavoro](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -526,21 +526,21 @@ Per informazioni sulle funzioni rilasciate per la nuova esperienza di commento d
 Di seguito è riportata una timeline pianificata per il rilascio della nuova esperienza di commento:
 
 * Con la versione 23.2 (6 aprile 2023):
-   * Avvia l’esperienza di commento Beta per i problemi
+   * Avvia l&#39;esperienza di commento Beta per i problemi
    * Rilascia la nuova esperienza di commento per gli obiettivi (come unica esperienza)
 * Con la versione 23.3 (20 luglio 2023):
-   * Avvia l&#39;esperienza di commento beta per progetti, attività e documenti.
+   * Avvia l&#39;esperienza di aggiunta di commenti Beta per progetti, attività e documenti.
    * Rilascia la nuova esperienza di commento per le schede nell’area Schede (come unica esperienza)
 * Durante il rilascio del quarto trimestre 2023 (rilascio limitato, disponibile solo per i clienti che scelgono il rilascio rapido):
    * Rilascia la nuova esperienza di commento per modelli, attività modello, programmi, portfolio, team, utenti e schede orario (come unica esperienza)
-   * Aggiorna l’esperienza di aggiunta di commenti Beta per progetti, attività, problemi e documenti, affinché diventi l’opzione predefinita. L’etichetta &quot;Beta&quot; viene rimossa.
+   * Aggiorna l’esperienza di aggiunta di commenti in Beta affinché progetti, attività, problemi e documenti diventi l’opzione predefinita. L’etichetta &quot;Beta&quot; viene rimossa.
 * Con la versione del quarto trimestre 2023 (23.10) (26 ottobre 2023)
    * Rilascia a tutti i clienti la nuova esperienza di aggiunta di commenti per modelli, attività modello, programmi, portfolio, team, utenti e schede orario (come unica esperienza).
    * Imposta come predefinita la nuova esperienza di aggiunta di commenti per progetti, attività, problemi e documenti.
 
   >[!IMPORTANT]
   >
-  >    In questo modo si conclude la fase beta della nuova esperienza di commento.
+  >    In questo modo si conclude la fase Beta della nuova esperienza di commento.
 
    * Rendi tutte le funzioni rilasciate per la nuova esperienza di commento che inizia con questa data parte delle regolari versioni mensili e trimestrali correnti.
 * Fine del 2023:

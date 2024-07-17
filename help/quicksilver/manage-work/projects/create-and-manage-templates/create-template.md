@@ -21,7 +21,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Un modello e le relative attività non dispongono di date effettive, ma di un&#39;indicazione del giorno (a partire dal quale potrebbe iniziare il progetto futuro) in cui un&#39;attività potrebbe iniziare e del giorno in cui l&#39;attività potrebbe dover essere completata. Quando si utilizzano i modelli per creare i progetti futuri, i progetti riceveranno le date effettive. Per informazioni, consulta [Creare un progetto](../create-projects/create-project.md).
+>Un modello e le relative attività non dispongono di date effettive, ma di un&#39;indicazione del giorno (a partire dal quale potrebbe iniziare il progetto futuro) in cui un&#39;attività potrebbe iniziare e del giorno in cui l&#39;attività potrebbe dover essere completata. Quando si utilizzano i modelli per creare i progetti futuri, i progetti riceveranno le date effettive. Per informazioni, vedere [Creare un progetto](../create-projects/create-project.md).
 
 
 È possibile creare un nuovo modello nei modi seguenti:
@@ -29,13 +29,13 @@ ht-degree: 2%
 * Da zero, come descritto in questo articolo.
 * Da progetti esistenti, salvando un progetto come modello.
 
-  Per ulteriori informazioni sulla creazione di modelli da progetti esistenti, consulta [Salvare un progetto come modello](../../../manage-work/projects/manage-projects/save-project-as-template.md).
+  Per ulteriori informazioni sulla creazione di modelli da progetti esistenti, vedere [Salvare un progetto come modello](../../../manage-work/projects/manage-projects/save-project-as-template.md).
 
 * Copiandolo da un altro modello.
 
   Per ulteriori informazioni sulla copia di un modello esistente, vedere [Copiare un modello di progetto](../../../manage-work/projects/create-and-manage-templates/copy-template.md).
 
-* Importando i blueprint. Per importare i blueprint è necessario essere un amministratore Workfront. Per informazioni, consulta [Configurare una blueprint](../../../administration-and-setup/blueprints/configure-template-package.md).
+* Importando i blueprint. Per importare i blueprint è necessario essere un amministratore Workfront. Per informazioni, vedere [Configurare una blueprint](../../../administration-and-setup/blueprints/configure-template-package.md).
 
 ## Requisiti di accesso
 
@@ -72,43 +72,43 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Creare un modello
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **Modelli**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **Templates**.
 
-1. Clic **Nuovo modello**.
+1. Fare clic su **Nuovo modello**.
 
    Il modello è senza titolo.
 
    ![Nuovo modello](assets/create-template-nwe-2022-350x102.png)
 
-1. Specifica un nome per il nuovo modello nell’intestazione del modello, quindi premi **Immettete.**
-1. Fai clic su **Attività modello** nel pannello a sinistra.
-1. Clic **Inizia ad aggiungere le attività modello**.
+1. Specificare un nome per il nuovo modello nell&#39;intestazione del modello, quindi premere **Invio.**
+1. Fai clic sulla sezione **Attività modello** nel pannello a sinistra.
+1. Fai clic su **Inizia ad aggiungere attività modello**.
 
    Oppure
 
-   Clic **Crea Attività Modello** per iniziare ad aggiungere attività al modello.
+   Fai clic su **Nuova attività modello** per iniziare ad aggiungere attività al modello.
 
    L&#39;aggiunta di attività modello a un modello è identica all&#39;aggiunta di attività a un progetto.
 
-   Per ulteriori informazioni sull’aggiunta di attività a un progetto, consulta [Creare attività in un progetto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+   Per ulteriori informazioni sull&#39;aggiunta di attività a un progetto, vedere [Creare attività in un progetto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
    >[!NOTE]
    >
    >Impossibile aggiungere attività ricorrenti a un modello.
 
-1. (Facoltativo) Fai clic su **Diagramma di Gantt** nell&#39;angolo superiore destro dell&#39;Elenco task per visualizzare una rappresentazione visiva dell&#39;elenco dei task del modello.
+1. (Facoltativo) Fai clic sull&#39;icona **Grafico di Gantt** nell&#39;angolo superiore destro dell&#39;Elenco attività per visualizzare una rappresentazione visiva dell&#39;elenco attività del modello.
 
    >[!TIP]
    >
    >Non è possibile modificare le attività direttamente da questo diagramma di Gantt.
 
-1. Per aggiungere informazioni al nuovo modello, fare clic su **Altro** menu ![](assets/more-icon.png), quindi fai clic su **Modifica**.
+1. Per aggiungere informazioni al nuovo modello, fai clic sul menu **Altro** ![](assets/more-icon.png), quindi fai clic su **Modifica**.
 
-   Per informazioni sulla modifica di un modello, consulta [Modificare i modelli di progetto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+   Per informazioni sulla modifica di un modello, vedere [Modifica modelli di progetto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 1. Fai clic su **Salva modifiche**.
-1. (Facoltativo) Se desideri aggiungere altri elementi al modello, consulta la sezione [Aggiungere elementi aggiuntivi a un modello](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#add-additional-items-to-a-template) nell’articolo [Modificare i modelli di progetto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+1. (Facoltativo) Se desideri aggiungere altri elementi al modello, consulta la sezione [Aggiungere ulteriori elementi a un modello](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#add-additional-items-to-a-template) nell&#39;articolo [Modificare i modelli di progetto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 ## Impostazioni modello determinate dall&#39;associazione di gruppi
 
-L&#39;associazione di un modello di progetto a un gruppo (o la mancanza di un gruppo) influisce sul modo in cui le preferenze di progetto, attività e problema determinano determinate impostazioni nel modello. Per ulteriori informazioni, consulta la sezione [Creare e modificare i modelli di progetto di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#create-and-modify-a-groups-project-templates) nell’articolo [Creare e modificare i modelli di progetto di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+L&#39;associazione di un modello di progetto a un gruppo (o la mancanza di un gruppo) influisce sul modo in cui le preferenze di progetto, attività e problema determinano determinate impostazioni nel modello. Per ulteriori informazioni, vedere la sezione [Creare e modificare modelli di progetto di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#create-and-modify-a-groups-project-templates) nell&#39;articolo [Creare e modificare modelli di progetto di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).

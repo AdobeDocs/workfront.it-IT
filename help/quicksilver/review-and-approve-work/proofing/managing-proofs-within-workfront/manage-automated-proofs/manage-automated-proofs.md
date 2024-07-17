@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Gestire le bozze automatizzate
 
-* [Visualizzare le fasi del flusso di lavoro automatizzato su una bozza](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-aw-stages-proof.md)
-* [Visualizzare le fasi attive su una bozza](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md)
-* [Creare o modificare un flusso di lavoro automatico per una bozza esistente](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
-* [Modificare le fasi della bozza e i revisori](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-stages-and-reviewers.md)
+* [Visualizzazione delle fasi del flusso di lavoro automatico in una bozza](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-aw-stages-proof.md)
+* [Visualizza fasi attive in una bozza](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md)
+* [Crea o modifica un flusso di lavoro automatico per una bozza esistente](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
+* [Modifica stadi bozza e revisori](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-stages-and-reviewers.md)
 * [Convertire un flusso di lavoro di base in un flusso di lavoro automatico su una bozza](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/convert-basic-automatic-workflow.md)
 * [Aggiungere stadi e utenti a un flusso di lavoro automatico su una bozza](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/add-stages-users-to-automated-workflow-proof.md)

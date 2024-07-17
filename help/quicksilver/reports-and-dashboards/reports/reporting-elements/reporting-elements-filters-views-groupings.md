@@ -35,11 +35,11 @@ Quando si lavora con filtri, viste e raggruppamenti, considera quanto segue:
 * I report in Workfront sono specifici per un oggetto. È necessario definire l&#39;oggetto principale per un report prima di poterlo creare. Pertanto, tutti gli elementi di reporting sono specifici per oggetto.
 * L’amministratore di Workfront deve concedere l’accesso a filtri, viste e raggruppamenti nel livello di accesso per poterli visualizzare o modificare in elenchi e rapporti.
 
-  Per informazioni su come concedere l’accesso a filtri, viste e raggruppamenti, consulta [Concedere l’accesso a filtri, viste e raggruppamenti](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  Per informazioni su come concedere l&#39;accesso a filtri, viste e raggruppamenti, vedere [Concedere l&#39;accesso a filtri, viste e raggruppamenti](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
 * Per poter visualizzare o modificare i rapporti, l’amministratore di Workfront deve concedere l’accesso a rapporti, dashboard e calendari nel tuo livello di accesso.
 
-  Per informazioni su come concedere l’accesso a rapporti, dashboard e calendari, consulta [Concedere l’accesso a rapporti, dashboard e calendari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+  Per informazioni sulla concessione dell&#39;accesso a report, dashboard e calendari, vedere [Concedere l&#39;accesso a report, dashboard e calendari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 * Se si seleziona un filtro, una visualizzazione o un raggruppamento per un report o un elenco, Workfront mantiene la selezione per gli elenchi dell&#39;oggetto anche dopo la disconnessione o la chiusura del browser. Se ad esempio si seleziona una visualizzazione specifica per un report attività, tale selezione verrà visualizzata per altri elenchi di attività, ad esempio l&#39;elenco delle attività di un progetto.
 
@@ -54,9 +54,9 @@ Alcuni attributi dei filtri sono:
 * Per impostazione predefinita, Workfront fornisce una serie di filtri per vari oggetti.
 * Puoi personalizzare i filtri di tua proprietà o gestirli.
 
-  Per ulteriori informazioni sui filtri, consulta l’articolo [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Per ulteriori informazioni sui filtri, vedere l&#39;articolo [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-![Icona Filtro](assets/projects-list-with-filter-drop-down-highlighted-nwe.png)
+![Icona filtro](assets/projects-list-with-filter-drop-down-highlighted-nwe.png)
 
 ## Viste
 
@@ -69,7 +69,7 @@ Alcuni attributi delle viste sono:
 * Dopo aver eseguito un rapporto, puoi applicare visualizzazioni aggiuntive dal campo a discesa Visualizza.
 * Le viste aggiuntive sostituiscono temporaneamente la vista definita durante la creazione del rapporto; tuttavia, la vista predefinita viene visualizzata al successivo ritorno al rapporto.
 
-  Per ulteriori informazioni sulle visualizzazioni, consulta l’articolo [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+  Per ulteriori informazioni sulle visualizzazioni, vedere l&#39;articolo [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Raggruppamenti
 
@@ -83,20 +83,20 @@ Alcuni attributi dei raggruppamenti sono:
 * I raggruppamenti visualizzano un valore aggregato nei risultati.&#x200B;
 * I raggruppamenti determinano l&#39;asse nei grafici.
 * I raggruppamenti determinano l’identificazione dell’intestazione nei rapporti matrice.\
-  Per ulteriori informazioni sui report matrice, vedere l&#39;articolo [Creare un rapporto matrice](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+  Per ulteriori informazioni sui report matrice, vedere l&#39;articolo [Creare un report matrice](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
 * I raggruppamenti consentono di creare la scheda Riepilogo di un rapporto, fornendo i valori aggregati del rapporto.
 * Per impostazione predefinita, Workfront fornisce una serie di raggruppamenti per oggetti diversi.
 * È possibile personalizzare i raggruppamenti di cui si è proprietari o che si gestiscono.
 
-  Per ulteriori informazioni sui raggruppamenti, consulta [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+  Per ulteriori informazioni sui raggruppamenti, vedere [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 ## Altri elementi di reporting
 
 Oltre a filtri, viste e raggruppamenti, puoi aggiungere a un rapporto i seguenti elementi:
 
-* **Prompt**: filtro aperto che può essere personalizzato e applicato in modo diverso ogni volta che si esegue un rapporto.\
-  Per ulteriori informazioni sui prompt, vedere l&#39;articolo [Aggiungere una richiesta a un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+* **Prompt**: filtro aperto che può essere personalizzato e applicato in modo diverso ogni volta che si esegue un report.\
+  Per ulteriori informazioni sui prompt, vedere l&#39;articolo [Aggiungere un prompt a un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-* **Grafico**: puoi migliorare i rapporti aggiungendo un grafico e visualizzando le informazioni in modo visivo.\
-  Per ulteriori informazioni sui grafici nei rapporti, consulta l’articolo [Aggiungere un grafico a un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+* **Grafico**: è possibile migliorare i report aggiungendo un grafico e visualizzando le informazioni in modo visivo.\
+  Per ulteriori informazioni sui grafici nei report, vedere l&#39;articolo [Aggiungere un grafico a un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).

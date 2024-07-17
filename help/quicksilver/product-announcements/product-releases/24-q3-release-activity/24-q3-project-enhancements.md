@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione del terzo trimestre 2024. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
-Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rilascio del terzo trimestre 2024, consulta [Panoramica sulla versione del terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del terzo trimestre 2024, consulta [Panoramica sulla versione del terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 
 ## Modifica l’attività e il problema Conferma data e condizione dall’intestazione o dalla sezione Dettagli
@@ -30,9 +30,9 @@ Per semplificare l’aggiornamento di attività e problemi, ora sono stati aggiu
 Per informazioni sull&#39;aggiornamento di Commit Date e sCondition, vedere i seguenti articoli:
 
 * [Aggiorna condizione per attività e problemi](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
-* [Aggiorna la data del commit su attività e problemi](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
+* [Aggiorna data conferma per attività e problemi](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
-[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3429471/){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità.](https://video.tv.adobe.com/v/3429471/){target=_blank}
 
 ## Assegnazioni intelligenti più rilevanti
 
@@ -56,4 +56,4 @@ Considera inoltre quanto segue:
 
 * Non vi sono modifiche nel modo in cui vengono calcolate le assegnazioni intelligenti per i problemi. Il nome dell’elenco di assegnazione intelligente in un elenco di problemi è &quot;Ecco alcuni consigli&quot;.
 
-Per ulteriori informazioni, consulta [Panoramica delle assegnazioni intelligenti](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+Per ulteriori informazioni, vedere [Panoramica assegnazioni avanzate](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).

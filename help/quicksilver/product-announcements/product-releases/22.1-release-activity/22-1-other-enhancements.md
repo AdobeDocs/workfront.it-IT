@@ -25,7 +25,7 @@ in January 2022
 
 la settimana del 17 gennaio 2022.
 
-Per un elenco di tutte le modifiche disponibili con la versione 22.1, consulta [Panoramica sulla versione 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 22.1, consulta la [panoramica sulla versione 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Ordine crescente predefinito per Data di completamento pianificata e possibilità di raggruppare per Data di inizio pianificata nella sezione Work List (Elenco di lavoro) dell’area Home
 
@@ -33,7 +33,7 @@ Per semplificare e velocizzare la ricerca degli elementi che richiedono l&#39;at
 
 Prima di questi miglioramenti, era possibile raggruppare gli articoli solo per data di completamento pianificata e per data di impegno.
 
-Per ulteriori informazioni, consulta [Visualizzare gli elementi in Work List (Elenco di lavoro) nell’area Home](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+Per ulteriori informazioni, vedere [Visualizzare gli elementi nell&#39;elenco di lavoro nell&#39;area Home](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 ## Aggiungi l&#39;area I miei aggiornamenti per tutti gli utenti con licenza
 
@@ -48,7 +48,7 @@ Quando apri l’area I miei aggiornamenti, ora puoi trovare rapidamente le segue
 * Le approvazioni in attesa della decisione vengono visualizzate nella prima metà della pagina My Updates (I miei aggiornamenti). Puoi approvare, rifiutare, suggerire modifiche, concedere l’accesso o delegare le tue approvazioni ad altri.
 * I commenti inclusi vengono visualizzati nella metà inferiore della pagina I miei aggiornamenti, nella sezione Riferimenti.
 
-Per ulteriori informazioni, consulta [Utilizzare l&#39;area I miei aggiornamenti](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md).
+Per ulteriori informazioni, vedere [Utilizzare l&#39;area I miei aggiornamenti](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md).
 
 ## Miglioramenti alle schede orario
 
@@ -70,7 +70,7 @@ Per ulteriori informazioni, consulta i seguenti articoli:
 
 Una barra degli strumenti più moderna e intuitiva semplifica la gestione degli utenti in un elenco Utenti. I pulsanti della barra degli strumenti consentono di aggiungere rapidamente persone a Workfront, ricordargli di registrarsi e gestirne i profili. È inoltre possibile esportare un elenco Utenti.
 
-Per ulteriori informazioni su queste azioni, consulta [Creare e gestire gli utenti](../../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md).
+Per ulteriori informazioni su queste azioni, vedere [Creare e gestire gli utenti](../../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md).
 
 ## Menu Aiuto aggiornato
 

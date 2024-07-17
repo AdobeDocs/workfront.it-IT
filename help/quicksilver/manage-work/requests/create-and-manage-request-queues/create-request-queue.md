@@ -26,7 +26,7 @@ ht-degree: 2%
 
 Puoi impostare una coda di richieste in cui gli utenti possono immettere richieste occasionali che non sono pianificate per lavorare su un progetto. Ad esempio, è possibile impostare una coda di richieste dell&#39;helpdesk per acquisire tutte le richieste degli utenti inviate a un reparto IT.
 
-Questo articolo descrive come creare una coda di richieste in cui gli utenti possono inviare richieste. Per informazioni su come inviare una nuova richiesta a una coda di richieste, consulta [Copiare e inviare richieste](../create-requests/copy-and-submit-requests.md).
+Questo articolo descrive come creare una coda di richieste in cui gli utenti possono inviare richieste. Per informazioni su come inviare una nuova richiesta a una coda di richieste, vedere [Copia e invia richieste](../create-requests/copy-and-submit-requests.md).
 
 ## Requisiti di accesso
 
@@ -55,12 +55,12 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p> Gestire le autorizzazioni per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p> Gestire le autorizzazioni per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 +++
 
@@ -108,19 +108,19 @@ Questo articolo descrive come creare una coda di richieste da un progetto esiste
  <tbody> 
   <tr> 
    <td role="rowheader">Dettagli coda</td> 
-   <td> <p>È necessario impostare un progetto come coda di richieste nell'area Dettagli coda. Questo passaggio è obbligatorio. </p> <p>Per ulteriori informazioni, vedere <a href="#create-a-request-queue" class="MCXref xref">Creare una coda di richieste</a> in questo articolo.</p> </td> 
+   <td> <p>È necessario impostare un progetto come coda di richieste nell'area Dettagli coda. Questo passaggio è obbligatorio. </p> <p>Per ulteriori informazioni, vedere la sezione <a href="#create-a-request-queue" class="MCXref xref">Creare una coda di richieste</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Gruppi di argomenti</td> 
-   <td> <p>Si tratta di menu aggiuntivi che classificano le richieste in base alle funzioni comuni. Ad esempio, per una coda di richieste IT, potrebbe essere necessario disporre di gruppi di argomenti "On-Site" e "Remote". </p> <p>Per ulteriori informazioni, consulta <a href="../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md" class="MCXref xref">Crea gruppi di argomenti</a>. </p> <p>Questo è facoltativo.</p> </td> 
+   <td> <p>Si tratta di menu aggiuntivi che classificano le richieste in base alle funzioni comuni. Ad esempio, per una coda di richieste IT, potrebbe essere necessario disporre di gruppi di argomenti "On-Site" e "Remote". </p> <p>Per ulteriori informazioni, vedere <a href="../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md" class="MCXref xref">Creare gruppi di argomenti</a>. </p> <p>Questo è facoltativo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Argomenti Coda</td> 
-   <td> <p>Si tratta di menu aggiuntivi che classificano le richieste che appartengono allo stesso Gruppo di argomenti in base alle funzioni comuni. Un gruppo di argomenti può contenere diversi argomenti della coda. </p> <p>Ad esempio, il gruppo di argomenti "On-site" per la coda di richieste IT può contenere gli argomenti "Hardware", "Software" e "Rete". </p> <p>Per ulteriori informazioni, consulta <a href="../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref">Crea argomenti coda</a>. </p> <p>Questo è facoltativo.</p> </td> 
+   <td> <p>Si tratta di menu aggiuntivi che classificano le richieste che appartengono allo stesso Gruppo di argomenti in base alle funzioni comuni. Un gruppo di argomenti può contenere diversi argomenti della coda. </p> <p>Ad esempio, il gruppo di argomenti "On-site" per la coda di richieste IT può contenere gli argomenti "Hardware", "Software" e "Rete". </p> <p>Per ulteriori informazioni, vedere <a href="../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref">Creare argomenti coda</a>. </p> <p>Questo è facoltativo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Regole di instradamento</td> 
-   <td> <p>Ti consentono di indirizzare ogni richiesta a un utente, una mansione, un team o a un progetto. </p> <p>Per ulteriori informazioni, consulta <a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Creare regole di instradamento</a>. </p> <p>Questo è facoltativo.</p> </td> 
+   <td> <p>Ti consentono di indirizzare ogni richiesta a un utente, una mansione, un team o a un progetto. </p> <p>Per ulteriori informazioni, vedere <a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Creare regole di routing</a>. </p> <p>Questo è facoltativo.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -137,8 +137,8 @@ Quando imposti un progetto come Coda richieste, per poter essere visualizzato ne
 Per creare una coda di richieste:
 
 1. Passare al progetto che si desidera impostare come coda di richieste.
-1. (Facoltativo) Fai clic su **Dettagli progetto** nel pannello a sinistra e aggiungi **Descrizione** al progetto in **Panoramica** area. Queste informazioni vengono visualizzate in tutte le nuove richieste.
-1. Clic **Dettagli coda** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro**, quindi **Dettagli coda**.
+1. (Facoltativo) Fai clic su **Dettagli progetto** nel pannello a sinistra e aggiungi una **Descrizione** al progetto nell&#39;area **Panoramica**. Queste informazioni vengono visualizzate in tutte le nuove richieste.
+1. Fai clic su **Dettagli coda** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro**, quindi su **Dettagli coda**.
 
    Verrà aperta la sezione Dettagli coda.
 
@@ -146,10 +146,10 @@ Per creare una coda di richieste:
 
 1. Specifica le seguenti informazioni:
 
-   * **Pubblica come coda di richieste di aiuto:** Seleziona questa opzione per identificare il progetto come coda di richieste. Tutti i problemi in arrivo vengono considerati richieste.\
+   * **Coda richieste di Publish as Help:** Selezionare questa opzione per identificare il progetto come coda di richieste. Tutti i problemi in arrivo vengono considerati richieste.\
      Se questa opzione non è selezionata, il progetto si comporta come un progetto standard in Workfront e tutti i problemi in arrivo sono problemi.
 
-   * **Chi può aggiungere richieste a questa coda:** Seleziona gli utenti che possono accedere per aggiungere richieste a questa coda. Puoi consentire ai seguenti gruppi di persone di visualizzare la Coda richieste nell’area Richieste della barra di navigazione globale quando aggiungono una nuova richiesta:
+   * **Utenti autorizzati ad aggiungere richieste alla coda:** Selezionare gli utenti autorizzati ad aggiungere richieste alla coda. Puoi consentire ai seguenti gruppi di persone di visualizzare la Coda richieste nell’area Richieste della barra di navigazione globale quando aggiungono una nuova richiesta:
 
      | Chi può inserire le richieste | Descrizione |
      |---|---|
@@ -160,7 +160,7 @@ Per creare una coda di richieste:
 
      {style="table-layout:auto"}
 
-   * **Condividi con questi collegamenti:** Le opzioni seguenti consentono di fornire accesso diretto alla coda richieste e ai moduli ad essa associati a utenti al di fuori di Workfront o a utenti di Workfront che utilizzano una pagina esterna. Per informazioni sull’incorporamento di una coda di richieste in un dashboard come pagina esterna, consulta [Incorporare una coda di richieste in un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md).
+   * **Condividi con questi collegamenti:** Le opzioni seguenti consentono di fornire l&#39;accesso diretto alla coda richieste e ai moduli ad essa associati a utenti esterni a Workfront o a utenti Workfront che utilizzano una pagina esterna. Per informazioni sull&#39;incorporamento di una coda richieste in un dashboard come pagina esterna, vedere [Incorporare una coda richieste in un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md).
 
      Per poter accedere direttamente, gli utenti devono già disporre dei diritti di accesso alla coda richieste. L’utilizzo di una delle opzioni descritte qui non concede automaticamente l’accesso agli utenti.
 
@@ -168,7 +168,7 @@ Per creare una coda di richieste:
      >
      >Gli utenti devono prima accedere a Workfront prima di poter accedere alla coda richieste quando accedono alla pagina Coda richieste da un’altra applicazione.
 
-      * **URL accesso diretto:** Quando un utente accede a questo URL da un browser, viene portato direttamente alla sezione New Request (Nuova richiesta) nell’area Requests (Richieste) e questa richiesta è selezionata per impostazione predefinita.
+      * **URL di accesso diretto:** Quando un utente accede a questo URL da un browser, viene reindirizzato direttamente alla sezione Nuova richiesta nell&#39;area Richieste e questa richiesta viene selezionata per impostazione predefinita.
 
         ![](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
 
@@ -183,7 +183,7 @@ Per creare una coda di richieste:
         >
         >Quando si visualizza una coda di richieste in un iframe, viene visualizzato solo il modulo di richiesta e il nome della richiesta viene preselezionato e oscurato. L’utente non può modificare il tipo di richiesta. I componenti di navigazione dell’area Richieste non vengono visualizzati.
 
-        Per poter visualizzare il modulo della coda di richieste quando si utilizza questo codice di incorporamento, è necessario abilitare l’impostazione &quot;Consenti incorporamento di Workfront in un iframe&quot; nella configurazione del sistema. Per ulteriori informazioni sull’abilitazione dell’incorporamento di Workfront in un iframe, consulta [Configurare le preferenze di sicurezza del sistema](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md). Se questa impostazione non è abilitata, l’iframe viene visualizzato come vuoto.
+        Per poter visualizzare il modulo della coda di richieste quando si utilizza questo codice di incorporamento, è necessario abilitare l’impostazione &quot;Consenti incorporamento di Workfront in un iframe&quot; nella configurazione del sistema. Per ulteriori informazioni sull&#39;abilitazione dell&#39;incorporamento di Workfront in un iframe, vedere [Configurare le preferenze di sicurezza del sistema](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md). Se questa impostazione non è abilitata, l’iframe viene visualizzato come vuoto.
 
         È possibile regolare vari aspetti della visualizzazione del modulo incorporato, come indicato di seguito:
 
@@ -207,18 +207,18 @@ Per creare una coda di richieste:
           </tr> 
           <tr> 
            <td> <p>Mostra e consenti agli utenti di modificare l'elenco a discesa Gruppo di argomenti preconfigurato</p> </td> 
-           <td> <p>Utilizza il parametro "path" aggiungendo il <code>showPreSelectedOptions=true</code> parametro per <code>src URL</code>.</p> </td> 
+           <td> <p>Utilizzare il parametro "path" aggiungendo il parametro <code>showPreSelectedOptions=true</code> a <code>src URL</code>.</p> </td> 
           </tr> 
           <tr> 
            <td> <p>Rileva quando il modulo è stato inviato</p> </td> 
-           <td> <p>Aggiungi un listener di eventi "message" alla finestra della pagina web e verifica se <code>event.data.type</code> è <code>requestSubmitted</code>. <code>event.data.newIssueID</code> sarà impostato sull’ID del problema creato.</p> </td> 
+           <td> <p>Aggiungere un listener di eventi "message" alla finestra della pagina Web e verificare se <code>event.data.type</code> è <code>requestSubmitted</code>. <code>event.data.newIssueID</code> verrà impostato sull'ID del problema creato.</p> </td> 
           </tr> 
          </tbody> 
         </table>
 
-   * **Tipi di richieste:** Seleziona una delle opzioni predefinite qui sotto.
+   * **Tipi di richiesta:** Selezionare una delle opzioni predefinite seguenti.
 
-     L’amministratore di Workfront può rinominare i tipi di richiesta predefiniti. Per ulteriori informazioni sulla ridenominazione dei tipi di richiesta, consulta [Personalizzare i tipi di problemi predefiniti](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).
+     L’amministratore di Workfront può rinominare i tipi di richiesta predefiniti. Per ulteriori informazioni sulla ridenominazione dei tipi di richiesta, vedere [Personalizzare i tipi di problemi predefiniti](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).
 
       * Segnalazione Bug
       * Richiesta di Modifica
@@ -229,41 +229,41 @@ Per creare una coda di richieste:
 
      >[!NOTE]
      >
-     >I Tipi di richiesta vengono visualizzati come selezione nell&#39;area Richieste solo se il Tipo di richiesta è selezionato sia nelle pagine Dettagli coda che Argomento coda. Per informazioni sulla configurazione dell’area Dettagli coda di un progetto, consulta [Crea argomenti coda](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+     >I Tipi di richiesta vengono visualizzati come selezione nell&#39;area Richieste solo se il Tipo di richiesta è selezionato sia nelle pagine Dettagli coda che Argomento coda. Per informazioni sulla configurazione dell&#39;area Dettagli coda di un progetto, vedere [Crea argomenti coda](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
      Ogni tipo selezionato qui sarà disponibile nel modulo (è possibile selezionarne più di uno). Selezionando più di un tipo è possibile organizzare più richieste in arrivo.\
      Ad esempio, se utilizzi il modulo in una coda di richieste per un progetto IT, possono essere messi in coda i seguenti tipi di richieste: hardware, software, correzioni di bug e problemi.
 
-   * **Durata predefinita:** La durata predefinita corrisponde al tempo necessario in genere per completare un problema. Questa impostazione diventa predefinita per tutti i problemi in arrivo e può essere modificata manualmente. La durata è generalmente impostata in ore, giorni o settimane. La durata predefinita di un problema è la stessa delle ore pianificate sul problema. La Data di completamento pianificata del problema viene calcolata in base a questo campo.\
-     Il valore predefinito per la Durata del problema è 1 giorno o 8 ore. Se l’amministratore di Workfront ha impostato le ore tipiche per giornata lavorativa su meno di 8 ore, la durata predefinita dei problemi è ancora di 8 ore. Ad esempio, se l’opzione Ore tipiche per giorno lavorativo è impostata su 7 ore, la durata predefinita per i problemi è 1,14 giorni o 8 ore. Per ulteriori informazioni su come impostare il sistema Ore tipiche per giornata di lavoro, consulta la sezione &quot;Calcoli della sequenza temporale&quot; nell’articolo [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   * **Durata predefinita:** La durata predefinita corrisponde al tempo necessario per completare un problema. Questa impostazione diventa predefinita per tutti i problemi in arrivo e può essere modificata manualmente. La durata è generalmente impostata in ore, giorni o settimane. La durata predefinita di un problema è la stessa delle ore pianificate sul problema. La Data di completamento pianificata del problema viene calcolata in base a questo campo.\
+     Il valore predefinito per la Durata del problema è 1 giorno o 8 ore. Se l’amministratore di Workfront ha impostato le ore tipiche per giornata lavorativa su meno di 8 ore, la durata predefinita dei problemi è ancora di 8 ore. Ad esempio, se l’opzione Ore tipiche per giorno lavorativo è impostata su 7 ore, la durata predefinita per i problemi è 1,14 giorni o 8 ore. Per ulteriori informazioni su come impostare il sistema Ore tipiche per giorno lavorativo, vedere la sezione &quot;Calcoli sequenza temporale&quot; nell&#39;articolo [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-   * **Le persone della stessa società erediteranno le stesse autorizzazioni per tutte le richieste.:** Se questa opzione è selezionata, tutte le richieste inviate alla coda sono visibili per gli utenti della stessa società. Gli utenti possono visualizzare queste richieste nella sezione Tutte le richieste , che si trova nell’area Richieste. Quando questa impostazione viene abilitata o disabilitata, influisce su tutte le richieste future; non influisce retroattivamente sulle informazioni.
-   * **Quando qualcuno effettua una richiesta, concedi automaticamente:** Quando un utente effettua una richiesta alla coda di richieste, all’utente viene concesso automaticamente il livello di autorizzazione scelto per tale richiesta. Seleziona tra i seguenti livelli di autorizzazione:
+   * **Le persone della stessa società erediteranno le stesse autorizzazioni per tutte le richieste.:** Se selezionata, tutte le richieste inviate alla coda sono visibili per gli utenti della stessa società. Gli utenti possono visualizzare queste richieste nella sezione Tutte le richieste , che si trova nell’area Richieste. Quando questa impostazione viene abilitata o disabilitata, influisce su tutte le richieste future; non influisce retroattivamente sulle informazioni.
+   * **Quando un utente effettua una richiesta, concede automaticamente:** Quando un utente effettua una richiesta alla coda richieste, all&#39;utente viene concesso automaticamente il livello di autorizzazione scelto per tale richiesta. Seleziona tra i seguenti livelli di autorizzazione:
 
       * **Accesso visualizzazione**
-      * **Contribuisci accesso**. Questa è la selezione predefinita.
+      * **Accesso a Contribute**. Questa è la selezione predefinita.
       * **Gestisci accesso**
 
-     Per informazioni sul modello di autorizzazioni di Workfront, consulta [Panoramica delle autorizzazioni di condivisione sugli oggetti](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).\
+     Per informazioni sul modello di autorizzazioni di Workfront, vedere [Panoramica sulle autorizzazioni di condivisione per gli oggetti](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).\
      L’impostazione delle autorizzazioni qui consente di risparmiare tempo, anziché dover concedere le autorizzazioni per ogni singola richiesta in ingresso. La scelta di questa opzione influisce su tutte le richieste future, ma non su quelle esistenti in modo retroattivo.
 
    * **Approvazione predefinita**: associa un processo di approvazione a questa coda di richieste. In questo menu a discesa sono visibili solo i processi di approvazione del problema. Tutti i problemi inviati a questa coda saranno associati a questo processo di approvazione. Prima di poter associare i processi di approvazione a livello di sistema alle code di richieste, l&#39;amministratore di Workfront deve definirli. Gli utenti con accesso amministrativo ai processi di approvazione possono inoltre creare processi di approvazione specifici per il gruppo.
 
      >[!IMPORTANT]
      >
-     >Se il gruppo del progetto cambia, il processo di approvazione specifico del gruppo associato ai problemi esistenti diventa un processo di approvazione a utente singolo. Per ulteriori informazioni su come le modifiche al gruppo del progetto o le modifiche nel processo di approvazione influiscono sulle impostazioni di approvazione, vedi [Effetti delle modifiche al gruppo e al processo di approvazione sui processi di approvazione assegnati](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md).
+     >Se il gruppo del progetto cambia, il processo di approvazione specifico del gruppo associato ai problemi esistenti diventa un processo di approvazione a utente singolo. Per ulteriori informazioni su come le modifiche al gruppo del progetto o le modifiche al processo di approvazione influiscono sulle impostazioni di approvazione, vedere [Come le modifiche al gruppo e al processo di approvazione influiscono sui processi di approvazione assegnati](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md).
 
-     Se a una coda di richieste sono associati più argomenti della coda, è consigliabile associare i processi di approvazione agli argomenti della coda. Per ulteriori informazioni sulla creazione degli argomenti della coda, vedere [Crea argomenti coda](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+     Se a una coda di richieste sono associati più argomenti della coda, è consigliabile associare i processi di approvazione agli argomenti della coda. Per ulteriori informazioni sulla creazione degli argomenti della coda, vedere [Creare argomenti della coda](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
      Quando si aggiungono processi di approvazione alle code di richieste, tenere presente quanto segue:
 
       * Nell&#39;elenco vengono visualizzati solo i processi di approvazione attivi.
       * I processi di approvazione a livello di sistema e di gruppo vengono visualizzati nell’elenco. Un processo di approvazione associato a un gruppo diverso da quello del progetto non viene visualizzato nell’elenco.
 
-   * **Percorso predefinito**: associa una regola di routing a questa coda di richieste. Utilizzare le regole di instradamento per assegnare automaticamente i nuovi problemi inviati a una coda richieste alla risorsa corretta (utente, mansione o team) e al progetto corretto. Tutti i problemi inviati a questa coda saranno associati a questa regola di indirizzamento. È necessario configurare le Regole di routing prima che vengano visualizzate nella sezione Dettagli coda e prima di associarle alla coda di richieste.\
-     Se a una coda di richieste sono associati più argomenti della coda, è consigliabile associare le regole di routing agli argomenti della coda. Per ulteriori informazioni sulla creazione di regole di instradamento, vedere [Creare regole di instradamento](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+   * **Route predefinita**: associa una regola di routing a questa coda di richieste. Utilizzare le regole di instradamento per assegnare automaticamente i nuovi problemi inviati a una coda richieste alla risorsa corretta (utente, mansione o team) e al progetto corretto. Tutti i problemi inviati a questa coda saranno associati a questa regola di indirizzamento. È necessario configurare le Regole di routing prima che vengano visualizzate nella sezione Dettagli coda e prima di associarle alla coda di richieste.\
+     Se a una coda di richieste sono associati più argomenti della coda, è consigliabile associare le regole di routing agli argomenti della coda. Per ulteriori informazioni sulla creazione di regole di routing, vedere [Creare regole di routing](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
-   * **Campi delle Nuove Issues:** In **Mostra i seguenti campi selezionati a tutti gli utenti** , selezionare i campi che si desidera rendere visibili a tutti gli utenti che inviano una richiesta al progetto o aggiungono un problema al progetto o alle attività.
+   * **Nuovi campi problema:** Nella sezione **Mostra i campi selezionati seguenti a tutti gli utenti**, seleziona i campi che desideri rendere visibili a tutti gli utenti che inviano una richiesta al progetto o aggiungono un problema al progetto o alle attività.
 
      >[!TIP]
      >
@@ -275,7 +275,7 @@ Per creare una coda di richieste:
      >
      >Se è stata selezionata l&#39;opzione Assegnato a nell&#39;area Dettagli coda, è possibile immettere solo gli utenti nel campo Assegnazioni del modulo di richiesta. In questo caso, non è possibile immettere mansioni o un team.
 
-   * **Documenti**: se scegli di visualizzare la sezione Documenti nel nuovo modulo di richiesta, seleziona il punto in cui posizionare la sezione di caricamento del documento. Selezionare una delle opzioni seguenti:
+   * **Documenti**: se si sceglie di visualizzare la sezione Documenti nel nuovo modulo di richiesta, selezionare la posizione della sezione di caricamento del documento. Selezionare una delle opzioni seguenti:
 
      <table style="table-layout:auto"> 
       <col> 
@@ -294,7 +294,7 @@ Per creare una coda di richieste:
 
      ![](assets/nwe-new-issue-fields-area-with-documents-350x167.png)
 
-   * **Mostra tutti i campi selezionati e non selezionati per:** Seleziona gli utenti che dovranno visualizzare tutti i campi del nuovo modulo di richiesta. Le opzioni seguenti controllano l&#39;accesso ai campi del modulo.
+   * **Mostra tutti i campi selezionati e non selezionati in:** Selezionare gli utenti che si desidera visualizzare tutti i campi nel nuovo modulo di richiesta. Le opzioni seguenti controllano l&#39;accesso ai campi del modulo.
 
      | Quali utenti possono visualizzare tutti i campi nel modulo di richiesta | Descrizione |
      |---|---| 
@@ -302,20 +302,20 @@ Per creare una coda di richieste:
      | Persone con accesso di visualizzazione al progetto (licenza Pianificazione) | Gli utenti con una licenza Pianificazione che dispongono anche dei diritti di visualizzazione per questo progetto possono visualizzare i campi selezionati e non selezionati. Gli altri utenti che possono inviare richieste a questo progetto possono visualizzare solo i campi selezionati. |
      | Nessun utente | Nessun utente può visualizzare i campi non selezionati. Tutti gli utenti che possono inviare richieste a questo progetto possono visualizzare solo i campi selezionati. |
 
-   * **Forms personalizzato**: seleziona un modulo personalizzato da associare alla coda di richieste. Da questo menu a discesa è disponibile solo Issue Custom Forms (Problema personalizzato). A tutti i problemi inviati alla coda richieste verranno associati i moduli selezionati. È necessario creare moduli personalizzati per problemi prima di visualizzarli nella sezione Dettagli coda.
-Se a una coda di richieste sono associati più argomenti coda, è consigliabile associare i moduli personalizzati agli argomenti coda. Per ulteriori informazioni sulla creazione di sottosezioni per la coda richieste, consulta [Crea argomenti coda](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+   * **Forms personalizzato**: selezionare un modulo personalizzato da associare alla coda richieste. Da questo menu a discesa è disponibile solo Issue Custom Forms (Problema personalizzato). A tutti i problemi inviati alla coda richieste verranno associati i moduli selezionati. È necessario creare moduli personalizzati per problemi prima di visualizzarli nella sezione Dettagli coda.
+Se a una coda di richieste sono associati più argomenti coda, è consigliabile associare i moduli personalizzati agli argomenti coda. Per ulteriori informazioni sulla creazione di sottosezioni per la coda richieste, vedere [Creare argomenti coda](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
      ![](assets/custom-forms-on-queue-details.png)
 
-     Se alla coda di richieste sono associati più moduli personalizzati, trascinarli per ordinarli nell’ordine desiderato, nella **Riordina Forms** sezione.
+     Se alla coda richieste sono associati più moduli personalizzati, trascinarli e rilasciarli per ordinarli nell&#39;ordine desiderato nella sezione **Riordina Forms**.
 
      >[!TIP]
      >
      >I moduli personalizzati aggiunti alla sezione Dettagli coda sono associati anche a qualsiasi nuovo problema aggiunto al progetto <!--this is confusiong: or the tasks in the Issues  section-->.
 
-1. Continua a selezionare le informazioni per le impostazioni in **Impostazioni coda e-mail** , per consentire agli utenti di inviare le richieste tramite e-mail al progetto della coda di richieste.
+1. Continua a selezionare le informazioni per le impostazioni nell&#39;area **Impostazioni coda e-mail**, per consentire agli utenti di inviare richieste e-mail al progetto della coda richieste.
 
-   Per ulteriori informazioni, consulta [Consentire agli utenti di inviare un problema tramite e-mail a un progetto della coda richieste](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
+   Per ulteriori informazioni, vedere [Consentire agli utenti di inviare un problema tramite e-mail a un progetto della coda richieste](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 
 1. Fai clic su **Salva**.\
    Il progetto è ora configurato come coda di richieste e gli utenti possono aggiungervi richieste.

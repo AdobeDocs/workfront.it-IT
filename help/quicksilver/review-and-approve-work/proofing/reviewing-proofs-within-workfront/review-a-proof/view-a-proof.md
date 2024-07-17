@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
@@ -37,22 +37,22 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modifica accesso ai documenti</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Modifica accesso ai documenti</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza disponibile, contattare l&#39;amministratore Workfront o Workfront Proof.
+&#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
 
 ## Modificare la visualizzazione della bozza
 
 È possibile visualizzare una bozza statica contenente più pagine in una singola visualizzazione, in una visualizzazione continua o in una visualizzazione rivista.
 
-1. Vai al progetto, all’attività o al problema che contiene il documento, quindi seleziona **Documenti**.
+1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
 1. Trova la bozza necessaria, quindi fai clic su **Apri bozza**.
 
 1. Nell&#39;area in alto a sinistra del visualizzatore di bozze, individuare le opzioni di visualizzazione.\
-   ![changing_the_view.png](assets/changing-the-view-350x213.png)
+   ![modifica_della_vista.png](assets/changing-the-view-350x213.png)
 
 1. Fare clic su una delle opzioni seguenti:
 
@@ -79,18 +79,18 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 Il pannello miniature viene visualizzato sul lato sinistro del visualizzatore di bozze. È possibile utilizzare l’area delle miniature per spostarsi all’interno della bozza. Le miniature sono particolarmente utili quando una bozza contiene più pagine.
 
-* [Nascondere e visualizzare il pannello miniature](#hide-and-display-the-thumbnails-panel)
+* [Nascondi e visualizza il pannello miniature](#hide-and-display-the-thumbnails-panel)
 * [Zoom e scorrimento nella visualizzazione delle miniature](#zoom-and-pan-in-the-thumbnail-view)
 
 ### Nascondere e visualizzare il pannello miniature {#hide-and-display-the-thumbnails-panel}
 
 Per impostazione predefinita, viene visualizzato il pannello miniature. Puoi nascondere o regolare la dimensione del pannello.
 
-1. Vai al progetto, all’attività o al problema che contiene il documento, quindi seleziona **Documenti**.
+1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
 1. Trova la bozza necessaria, quindi fai clic su **Apri bozza**.
 
-1. Fai clic su **Miniatura** nell&#39;angolo superiore sinistro del visualizzatore di bozze.\
-   ![hide_thumbnails_panel.png](assets/hide-thumbnails-panel-350x213.png)
+1. Fai clic sull&#39;icona **Miniatura** nell&#39;angolo superiore sinistro del visualizzatore di bozze.\
+   ![nascondi_miniature_pannello.png](assets/hide-thumbnails-panel-350x213.png)
 
 1. (Facoltativo) Fai di nuovo clic sull&#39;icona delle miniature per visualizzare il pannello delle miniature.
 
@@ -104,13 +104,13 @@ L’area di zoom nel pannello miniature mostra l’area della bozza che stai vis
 
 Per eseguire lo zoom e la panoramica nella visualizzazione delle miniature:
 
-1. Vai al progetto, all’attività o al problema che contiene il documento, quindi seleziona **Documenti**.
+1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
 1. Trova la bozza necessaria, quindi fai clic su **Apri bozza**.
 
 1. Individuate l&#39;area di zoom corrente nel pannello miniature.\
    L&#39;area di zoom viene visualizzata come una cornice blu intorno ai bordi della miniatura.
 
-   ![zoom_thumbnail_frame.png](assets/zoom-thumbnail---frame-350x215.png)
+   ![zoom_thumbnail_-_frame.png](assets/zoom-thumbnail---frame-350x215.png)
 
 1. Per regolare le dimensioni dell&#39;area di zoom, trascinare l&#39;angolo inferiore destro dell&#39;area di zoom fino a ottenere le dimensioni desiderate.
 1. Per spostare l&#39;area di zoom in un&#39;altra parte della bozza, trascinare l&#39;area di zoom fino a coprire la parte della bozza che si desidera visualizzare.
@@ -119,39 +119,39 @@ Per eseguire lo zoom e la panoramica nella visualizzazione delle miniature:
 
 È possibile ruotare la bozza all’interno del visualizzatore di bozze. Quando ruoti una bozza che contiene più pagine, tutte le pagine vengono ruotate contemporaneamente.
 
-1. Vai al progetto, all’attività o al problema che contiene il documento, quindi seleziona **Documenti**.
+1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
 1. Trova la bozza necessaria, quindi fai clic su **Apri bozza**.
 
-1. Fai clic su **Ruota** nella parte inferiore del visualizzatore di bozze.
+1. Fai clic sull&#39;icona **Ruota** nella parte inferiore del visualizzatore di bozze.
 
    ![proof_viewer_static_rotate.png](assets/proof-viewer-static-rotate-350x36.png)
 
-   La bozza viene ruotata di 90 gradi ogni volta che si fa clic sul pulsante **Ruota** icona.
+   La bozza viene ruotata di 90 gradi ogni volta che si fa clic sull&#39;icona **Ruota**.
 
 ## Zoom e scorrimento di una bozza
 
 È possibile regolare la percentuale di zoom quando si visualizza la bozza. Quando si visualizza una bozza con una percentuale di zoom superiore, l’opzione Panning consente di utilizzare il cursore per spostarsi su aree diverse della bozza.
 
-1. Vai al progetto, all’attività o al problema che contiene il documento, quindi seleziona **Documenti**.
+1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
 1. Trova la bozza necessaria, quindi fai clic su **Apri bozza**.
 
 1. Effettua una delle seguenti operazioni per regolare la percentuale di zoom della bozza:
 
-   * Fai clic su **Zoom** , quindi fare clic sulla bozza per visualizzarla con un livello di zoom superiore oppure trascinare un puntatore sull&#39;area della bozza per visualizzarla.
+   * Fai clic sull&#39;icona **Zoom**, quindi fai clic sulla bozza per visualizzarla a un livello di zoom superiore o trascina un puntatore sull&#39;area della bozza per visualizzare solo tale area.
 
-     ![change_zoom_percentage.png](assets/change-zoom-percentage-350x36.png)
+     ![modifica_percentuale_zoom.png](assets/change-zoom-percentage-350x36.png)
 
-   * Fare clic sulla percentuale di zoom corrente, quindi fare clic su una nuova percentuale di zoom o su **Adatta alla larghezza**, **Adatta all&#39;altezza**, o **Adatta alla pagina**.
+   * Fare clic sulla percentuale di zoom corrente, fare clic su una nuova percentuale di zoom oppure fare clic su **Adatta alla larghezza**, **Adatta all&#39;altezza** o **Adatta alla pagina**.
 
      ![zoom_percentage_menu.png](assets/zoom-percentage-menu-350x245.png)
 
-   * Fai clic su **Più** o **Meno** icone per aumentare o diminuire la percentuale di zoom.
+   * Fai clic sulle icone **Più** o **Meno** per aumentare o diminuire la percentuale di zoom.
 
-     ![change_zoom_percentage_plus_minus.png](assets/change-zoom-percentage---plus-minus-350x36.png)
+     ![modifica_percentuale_zoom_-_più_meno.png](assets/change-zoom-percentage---plus-minus-350x36.png)
 
-1. Se è necessario effettuare il panning in una determinata area della bozza video, fare clic sul pulsante **Panoramica** , quindi trascina la bozza in base alle esigenze.
+1. Se hai bisogno di eseguire il panning in una determinata area della bozza video, fai clic sull&#39;icona **Panning**, quindi trascina la bozza come necessario.
 
-   ![change_zoom_pan.png](assets/change-zoom---pan-350x36.png)
+   ![modifica_zoom_-_pan.png](assets/change-zoom---pan-350x36.png)
 
    >[!TIP]
    >

@@ -1,7 +1,7 @@
 ---
 navigation-topic: business-case-and-scorecards
 title: Risorse di budget nel Business Case
-description: Come parte della pianificazione delle risorse, è possibile creare un budget per i ruoli di lavoro necessari per completare il lavoro in un progetto quando si crea il business case. Per ulteriori informazioni sulla creazione di un Business Case, consulta Creare un Business Case per un progetto .
+description: Come parte della pianificazione delle risorse, è possibile preventivare i ruoli necessari per completare il lavoro in un progetto quando si crea il caso di business. Per ulteriori informazioni sulla creazione di un caso di business, vedere Creare un caso di business per un progetto.
 author: Alina
 feature: Work Management
 exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
@@ -14,23 +14,23 @@ ht-degree: 0%
 
 # Risorse di budget nel Business Case
 
-Come parte della pianificazione delle risorse, è possibile creare un budget per i ruoli di lavoro necessari per completare il lavoro in un progetto quando si crea il business case. Per ulteriori informazioni sulla creazione di un Business Case, vedere [Creare un business case per un progetto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Come parte della pianificazione delle risorse, è possibile preventivare i ruoli necessari per completare il lavoro in un progetto quando si crea il caso di business. Per ulteriori informazioni sulla creazione di un caso aziendale, vedere [Creare un caso aziendale per un progetto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 >[!NOTE]
 >
->Le risorse di budget non sono uguali alla pianificazione delle risorse per un progetto. Quando si creano budget per le risorse, si stimano i ruoli che potrebbero essere necessari per completare il lavoro su un progetto. Per pianificare o assegnare effettivamente gli utenti al lavoro su un progetto, vedi [Gestire le allocazioni di utenti nel load balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
+>L&#39;impostazione del budget delle risorse non equivale a quella della programmazione delle risorse per un progetto. Quando si preventivano le risorse, si stimano i ruoli che potrebbero essere necessari per completare il lavoro su un progetto. Per pianificare o assegnare effettivamente gli utenti al lavoro su un progetto, vedi [Gestione delle allocazioni utente nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 
-È necessario associare i ruoli di lavoro al progetto prima di creare un budget per le relative risorse. Di seguito sono riportati i modi per assegnare i ruoli di lavoro a un progetto:
+È necessario associare le mansioni al progetto prima di poter preventivare le relative risorse. Di seguito sono riportati alcuni modi per allocare mansioni a un progetto:
 
-* Utilizzare il Planner risorse per applicare i pool di risorse ai ruoli del progetto e del processo di budget.
+* Utilizzare la Programmazione delle risorse per applicare i gruppi di risorse ai ruoli di progetto e budget.
 
-   Per ulteriori informazioni, consulta [Risorse di budget nel Business Case utilizzando il Resource Planner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
+  Per ulteriori informazioni, vedere [Risorse preventivate nel Business Case utilizzando la pianificazione risorse](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
 
-* Utilizza il Planner scenario per creare iniziative con i ruoli di lavoro richiesti e collegarli al progetto. Per ulteriori informazioni, consulta [Risorse di budget nel caso aziendale utilizzando il Planner scenario](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md) .
+* Utilizza la Pianificazione scenario per creare iniziative con i ruoli richiesti e collegarle al progetto. Per ulteriori informazioni, consulta [Risorse budget nel caso di business utilizzando Scenario Planner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md) .
 
-   >[!NOTE]
-   >
-   >Il planner scenario è disponibile solo nella nuova esperienza Adobe Workfront e richiede una licenza aggiuntiva. Per informazioni su Workfront Scenario Planner, vedi [Panoramica di Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
+  >[!NOTE]
+  >
+  >La Pianificazione scenario è disponibile solo nella nuova esperienza Adobe Workfront e richiede una licenza aggiuntiva. Per informazioni su Workfront Scenario Planner, vedere [Panoramica di Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:ALL content below has been moved to another article - we now have two "how to" budget in the business case: one for the resource planner and one of the scenario planner)</p>

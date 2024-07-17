@@ -21,7 +21,7 @@ Quando condividi i tuoi rapporti con altri utenti in Adobe Workfront, prendi in 
 
 È possibile personalizzare la scheda Dettagli dei rapporti aggiungendo formattazione speciale o condizionale alla visualizzazione dei rapporti.
 
-Per ulteriori informazioni sulla creazione di rapporti, consulta l’articolo [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Per ulteriori informazioni sulla creazione di report, vedere l&#39;articolo [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 Formattando le colonne in modo condizionale nella visualizzazione del rapporto, è possibile impostare regole che influiscono sulla modalità di visualizzazione del rapporto. Quando tali condizioni o regole vengono soddisfatte, viene applicata la formattazione speciale.
 
@@ -66,12 +66,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Gestire le autorizzazioni per un report per creare o modificare una visualizzazione in un report</p> <p>Gestire le autorizzazioni per una visualizzazione</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un report per creare o modificare una visualizzazione in un report</p> <p>Gestire le autorizzazioni per una visualizzazione</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 +++
 
@@ -79,7 +79,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 È necessario creare un report prima di aggiungere la formattazione condizionale alla relativa visualizzazione.
 
-Per informazioni sulla creazione di un rapporto, consulta [Creare un rapporto](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
+Per informazioni sulla creazione di un report, vedere [Creare un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
 ## Creare una vista con formattazione condizionale
 
@@ -89,13 +89,13 @@ Per informazioni sulla creazione di un rapporto, consulta [Creare un rapporto](.
 
    Oppure
 
-   Clic **Nuovo rapporto**, quindi selezionare un tipo di oggetto per creare un nuovo report.
+   Fai clic su **Nuovo report**, quindi seleziona un tipo di oggetto per generare un nuovo report.
 
-1. (Condizionale) Se modifichi un rapporto esistente, fai clic su **Azioni report**, quindi fai clic su **Modifica**.
+1. (Condizionale) Se modifichi un rapporto esistente, fai clic su **Azioni rapporto**, quindi su **Modifica**.
 
-1. In **Colonne (visualizzazione)** , fare clic per selezionare una colonna esistente o fare clic su **Aggiungi colonna** per creare una colonna.
-1. In **Mostra in questa colonna** nell’angolo in alto a sinistra del report builder, seleziona il campo da visualizzare nella nuova colonna.
-1. Clic **Opzioni avanzate**.
+1. Nella scheda **Colonne (Visualizzazione)**, fare clic per selezionare una colonna esistente oppure fare clic su **Aggiungi colonna** per creare una colonna.
+1. Nel campo **Mostra in questa colonna** nell&#39;angolo superiore sinistro del Report Builder, selezionare il campo che si desidera visualizzare nella nuova colonna.
+1. Fare clic su **Opzioni avanzate**.
 
 1. Specifica le seguenti informazioni:
 
@@ -126,10 +126,10 @@ Per informazioni sulla creazione di un rapporto, consulta [Creare un rapporto](.
    </note>
    -->
 
-1. In **Quando:** , impostare un&#39;istruzione di condizione per la colonna.
+1. Nella sezione **When:**, impostare un&#39;istruzione di condizione per la colonna.
 
    Ad esempio: &quot;quando la percentuale di completamento dell&#39;attività è uguale a (distinzione maiuscole/minuscole) 50&quot;.
-1. In **Mostra il campo in questo modo:** specifica l’aspetto di questo campo quando viene soddisfatta la condizione definita sopra.
+1. Nella sezione **Mostra il campo come:** specificare l&#39;aspetto del campo quando viene soddisfatta la condizione definita sopra.
 
    Specifica le seguenti informazioni:
 
@@ -159,7 +159,7 @@ Per informazioni sulla creazione di un rapporto, consulta [Creare un rapporto](.
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Mostra testo</strong></td> 
-      <td> <p>Selezionare questa opzione per visualizzare un'etichetta personalizzata per la colonna anziché il valore effettivo. Specifica il testo da visualizzare al posto del valore nel campo fornito.</p> <p><b>IMPORTANTE</b></p> <p>Selezione <strong>Mostra testo</strong> disabilita la possibilità di modificare in linea il testo in questa colonna.<br>Inoltre, non puoi modificare il valore di una colonna Predecessore perché contiene una logica incorporata.</p> </td> 
+      <td> <p>Selezionare questa opzione per visualizzare un'etichetta personalizzata per la colonna anziché il valore effettivo. Specifica il testo da visualizzare al posto del valore nel campo fornito.</p> <p><b>IMPORTANTE</b></p> <p>Se si seleziona <strong>Mostra testo</strong>, non sarà possibile modificare il testo in linea in questa colonna.<br>Inoltre, non è possibile modificare il valore di una colonna Predecessore perché contiene una logica incorporata.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Applica a tutta la riga</strong></td> 
@@ -168,7 +168,7 @@ Per informazioni sulla creazione di un rapporto, consulta [Creare un rapporto](.
     </tbody> 
    </table>
 
-1. Clic **Aggiungi regola**.\
+1. Fai clic su **Aggiungi regola**.\
    Puoi aggiungere altre regole alla stessa colonna o ad altre colonne.
 
    Le regole vengono applicate nell&#39;ordine in cui sono state create. Sono combinate ma non si sovrascrivono a vicenda, anche se una regola di colonna ha la precedenza su una regola di riga sulla stessa cella.
@@ -189,6 +189,6 @@ Per informazioni sulla creazione di un rapporto, consulta [Creare un rapporto](.
    * Aggiungi nuovamente la regola di colonna per lo sfondo rosso nei progetti in ritardo.
    * Quando salvi le regole e la visualizzazione, lo sfondo rosso non viene applicato a un progetto annullato.
 
-1. Clic **Fine**.
+1. Fai clic su **Fine**.
 1. Fai clic su **Salva e Chiudi**.\
    Nel report, gli utenti visualizzano le modifiche al formato se sono state soddisfatte le condizioni specificate.

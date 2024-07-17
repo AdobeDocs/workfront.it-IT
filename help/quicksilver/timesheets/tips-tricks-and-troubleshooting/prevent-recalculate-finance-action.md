@@ -2,8 +2,8 @@
 content-type: tips-tricks-troubleshooting
 product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
-title: Impedisci che l'azione Ricalcola finanze influisca sugli orari storici in caso di modifica dei tassi
-description: È necessario aggiornare il costo orario per un utente o un ruolo di lavoro (a causa di un aumento o di un'altra circostanza), ma non si desidera che questa modifica influisca sulle ore in cui è stato eseguito l'accesso a progetti in precedenza o si desidera che influisca solo su una parte delle ore storiche.
+title: Impedisci che l'azione Ricalcola dati finanziari influisca sulle ore storiche quando i tassi cambiano
+description: È necessario aggiornare il costo orario per un utente o una mansione (a causa di un aumento o di un’altra circostanza), ma non si desidera che questa modifica influisca sulle ore precedentemente registrate nei progetti o che influisca solo su una parte delle ore storiche.
 author: Alina
 feature: Timesheets
 exl-id: 29d3124b-cf7a-4a47-95c4-cd5379489810
@@ -14,12 +14,12 @@ ht-degree: 0%
 
 ---
 
-# Impedisci che l&#39;azione Ricalcola finanze influisca sugli orari storici in caso di modifica dei tassi
+# Impedisci che l&#39;azione Ricalcola dati finanziari influisca sulle ore storiche quando i tassi cambiano
 
 ## Problema
 
-È necessario aggiornare il costo orario per un utente o un ruolo di lavoro (a causa di un aumento o di un&#39;altra circostanza), ma non si desidera che questa modifica influisca sulle ore in cui è stato eseguito l&#39;accesso a progetti in precedenza o si desidera che influisca solo su una parte delle ore storiche.
+È necessario aggiornare il costo orario per un utente o una mansione (a causa di un aumento o di un’altra circostanza), ma non si desidera che questa modifica influisca sulle ore precedentemente registrate nei progetti o che influisca solo su una parte delle ore storiche.
 
 ## Soluzione
 
-Aggiungere le ore che non si desidera modificare in un record di fatturazione nel progetto e impostare lo stato del record di fatturazione su Fatturato.  Questo blocca il vecchio tasso e verrà ignorato dall&#39;azione Ricalcola finanze.  Tutte le ore che non appartengono a un record di fatturazione fatturata vengono calcolate al nuovo tasso. Per ulteriori informazioni, consulta [Ricalcolare le finanze del progetto](../../manage-work/projects/project-finances/recalculate-project-finances.md).
+Aggiungi le ore che non vuoi cambiare in una Fatturazione sul progetto e imposta lo stato della fatturazione su Fatturato.  Questa operazione blocca il tasso precedente e verrà ignorata dall&#39;azione Ricalcola dati finanziari.  Le ore che non appartengono a un record Fatturazione fatturata vengono calcolate alla nuova tariffa. Per ulteriori informazioni, vedere [Ricalcolare i dati finanziari del progetto](../../manage-work/projects/project-finances/recalculate-project-finances.md).

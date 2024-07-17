@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti per gli amministratori apportati con la versione del terzo trimestre 2024 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
-Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rilascio del terzo trimestre 2024, consulta [Panoramica sulla versione del terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del terzo trimestre 2024, consulta [Panoramica sulla versione del terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 ## Le regole business sono ora disponibili
 
@@ -28,7 +28,7 @@ Gli amministratori possono ora aggiungere regole business nell’area Configuraz
 
 Una regola business consente di applicare la convalida agli oggetti di Workfront e di impedire agli utenti di creare, modificare o eliminare un oggetto quando vengono soddisfatte determinate condizioni. Le regole vengono create utilizzando una formula simile ai campi calcolati nei moduli personalizzati.
 
-Per ulteriori informazioni, consulta [Creare e modificare le regole business](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+Per ulteriori informazioni, vedere [Creare e modificare le regole business](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
 
 >[!IMPORTANT]
 >
@@ -46,7 +46,7 @@ Con la versione 24.7, il progettista di moduli sarà generalmente disponibile e 
 
 Dopo questa versione, non sarà più possibile tornare al generatore di moduli legacy.
 
-Per informazioni dettagliate sul progettista del modulo e una dimostrazione video, vedere [note sulla versione beta di form designer](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md).
+Per informazioni dettagliate sul progettista di moduli e una dimostrazione video, vedere le note sulla versione beta di [designer moduli](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md).
 
 ## Spostare gli oggetti tra ambienti Workfront con la promozione dell’ambiente
 
@@ -58,9 +58,9 @@ La promozione dell’ambiente consente di spostare gli oggetti da un ambiente Wo
 
 In precedenza, gli oggetti dovevano essere configurati negli ambienti di produzione separatamente dagli ambienti sandbox o di anteprima.
 
-Per ulteriori informazioni sulla promozione dell’ambiente, consulta [Panoramica sullo spostamento di oggetti tra ambienti Workfront (promozione dell&#39;ambiente)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
+Per ulteriori informazioni sulla promozione dell&#39;ambiente, vedere [Panoramica sullo spostamento di oggetti tra ambienti Workfront (promozione ambiente)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
 
-[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3429735/){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
 >[!IMPORTANT]
 >
@@ -75,7 +75,7 @@ Per ulteriori informazioni sulla promozione dell’ambiente, consulta [Panoramic
 
 È ora possibile condividere sia i moduli personalizzati che i campi personalizzati all’interno del nuovo progettista di moduli. Ciò consente una maggiore collaborazione tra gli utenti sui moduli personalizzati.
 
-Per ulteriori informazioni, consulta [Condividere un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md) e [Configurare la condivisione di campi personalizzati e widget con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md).
+Per ulteriori informazioni, vedere [Condividere un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md) e [Configurare la condivisione di campi e widget personalizzati con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md).
 
 ## Aggiungere un nuovo campo personalizzato dall&#39;area Campi
 
@@ -87,7 +87,7 @@ Per ulteriori informazioni, consulta [Condividere un modulo personalizzato](/hel
 
 Questa funzione è disponibile sia con il designer di moduli personalizzati che con il generatore di moduli personalizzati legacy.
 
-Per ulteriori informazioni, consulta [Aggiungere o modificare un campo personalizzato, un&#39;interruzione di sezione o un widget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md).
+Per ulteriori informazioni, vedere [Aggiungere o modificare un campo personalizzato, un&#39;interruzione di sezione o un widget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md).
 
 ## Tipo di campo a discesa a selezione multipla disponibile nel progettista del modulo
 
@@ -101,4 +101,4 @@ Puoi comunque creare un campo a discesa a selezione singola e modificare il tipo
 
 Questa opzione non è disponibile nel generatore di moduli legacy.
 
-Per ulteriori informazioni, consulta [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Per ulteriori informazioni, vedere [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

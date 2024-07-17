@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Condividere il Bilanciatore dei carichi di lavoro con un collegamento
 
-È possibile condividere il Bilanciatore dei carichi di lavoro con altri utenti che potrebbero non disporre dell’area Risorse. Per informazioni sull’utilizzo del Bilanciatore dei carichi di lavoro, consulta [Navigare nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+È possibile condividere il Bilanciatore dei carichi di lavoro con altri utenti che potrebbero non disporre dell’area Risorse. Per informazioni sull&#39;utilizzo del Bilanciatore dei carichi di lavoro, vedere [Navigare nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Requisiti di accesso
 
@@ -44,16 +44,16 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      <li> <p>Problemi</p> </li> 
     </ul> <p><b>NOTA</b>
 
-Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
+Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizza o autorizzazioni superiori per i progetti, le attività e i problemi </p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Visualizza o autorizzazioni superiori per i progetti, le attività e i problemi </p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Informazioni incluse nel Bilanciatore dei carichi di lavoro quando viene visualizzato da un collegamento condiviso
 
@@ -98,27 +98,27 @@ L’utente che riceve il collegamento condiviso non può effettuare le seguenti 
 Per visualizzare le informazioni nel Bilanciatore dei carichi di lavoro da un collegamento condiviso, è necessario disporre dei seguenti diritti di accesso:
 
 * Una licenza Adobe Workfront valida e devi aver effettuato l’accesso a Workfront.
-* Almeno visualizzare l&#39;accesso alla gestione delle risorse nel proprio livello di accesso. Per informazioni sulla concessione dell&#39;accesso a Gestione risorse, vedere [Concedere l’accesso alla gestione delle risorse](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+* Almeno visualizzare l&#39;accesso alla gestione delle risorse nel proprio livello di accesso. Per informazioni sulla concessione dell&#39;accesso a Gestione risorse, vedere [Concedere l&#39;accesso a Gestione risorse](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 * Visualizzare le autorizzazioni per i progetti, le attività, i problemi e gli utenti visualizzati nel Bilanciatore dei carichi di lavoro.
 
 ## Condividere il Bilanciatore dei carichi di lavoro con altri utenti da un collegamento
 
 1. Vai al Bilanciatore dei carichi di lavoro
 
-   Per informazioni sull’accesso al Bilanciatore dei carichi di lavoro, consulta [Navigare nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+   Per informazioni sull&#39;accesso al Bilanciatore dei carichi di lavoro, vedere [Navigare nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 1. (Facoltativo) Effettuate una o più delle seguenti operazioni:
 
    * Aggiorna la selezione del periodo di tempo.
-   * Clic **Day, Week**, o **Mese** per visualizzare informazioni giornaliere, settimanali o mensili.
+   * Fai clic su **Giorno, Settimana** o **Mese** per visualizzare informazioni giornaliere, settimanali o mensili.
 
      ![](assets/month-icon-on-toolbar-selected-wb-350x226.png)
 
    * Applicare i filtri alle aree Lavoro non assegnato e Lavoro assegnato.
 
-     Per informazioni sul filtro delle informazioni nel Bilanciatore dei carichi di lavoro, consulta [Filtrare le informazioni nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+     Per informazioni sul filtro delle informazioni nel Bilanciatore dei carichi di lavoro, vedere [Informazioni sul filtro nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
-1. Fai clic su **icona collegamento** ![](assets/wb-shearable-link-icon-small.png).
+1. Fai clic sull&#39;icona **collegamento** ![](assets/wb-shearable-link-icon-small.png).
 
    Questo aggiunge il collegamento agli Appunti.
 
@@ -127,7 +127,7 @@ Per visualizzare le informazioni nel Bilanciatore dei carichi di lavoro da un co
    * Incollalo in un messaggio di posta elettronica, in un messaggio di chat o in qualsiasi altra applicazione e condividilo con altri utenti.
    * Aggiungilo a una sezione personalizzata come pagina esterna, aggiungi la sezione personalizzata al profilo di un utente o a un modello di layout, quindi condividi il modello di layout con utenti, team, mansioni o gruppi.
 
-     Per informazioni sulla creazione di una pagina esterna, consulta [Incorporare una pagina web esterna in una dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Per informazioni sull&#39;aggiunta di sezioni personalizzate a un modello di layout, vedere [Personalizzare il pannello sinistro utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+     Per informazioni sulla creazione di una pagina esterna, vedere [Incorporare una pagina Web esterna in un dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Per informazioni sull&#39;aggiunta di sezioni personalizzate a un modello di layout, vedere [Personalizzare il pannello sinistro utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
      >[!IMPORTANT]
      >

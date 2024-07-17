@@ -9,7 +9,7 @@ role: Developer
 exl-id: afbc986e-8b5c-40bc-9120-e8d34e0f7004
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1072'
 ht-degree: 2%
 
 ---
@@ -37,27 +37,27 @@ Le seguenti risorse sono state modificate per API versione 13.
   <tr> 
    <td> 
     <ul> 
-     <li> <p><a href="#accesslevel" class="MCXref xref">LivelloAccesso</a> </p> </li> 
+     <li> <p><a href="#accesslevel" class="MCXref xref">Livello di accesso</a> </p> </li> 
      <li> <p><a href="#breadcrumb" class="MCXref xref">BreadCrumb</a> </p> </li> 
      <li> <p><a href="#burndownevent" class="MCXref xref">BurndownEvent</a> </p> </li> 
      <li> <p><a href="#customerpreferences" class="MCXref xref">PreferenzeCliente</a> </p> </li> 
-     <li> <p><a href="#documentversion" class="MCXref xref">DocumentVersion</a> </p> </li> 
+     <li> <p><a href="#documentversion" class="MCXref xref">VersioneDocumento</a> </p> </li> 
      <li> <p><a href="#group" class="MCXref xref">Gruppo </a> </p> </li> 
      <li> <p><a href="#journalentry" class="MCXref xref">VoceDiario</a> </p> </li> 
-     <li> <p><a href="#layouttemplate" class="MCXref xref">LayoutTemplate</a> </p> </li> 
-     <li> <p><a href="#linkedfolder" class="MCXref xref">LinkedFolder</a> </p> </li> 
-     <li> <p><a href="#optask" class="MCXref xref">OpTask</a> </p> </li> 
+     <li> <p><a href="#layouttemplate" class="MCXref xref">ModelloLayout</a> </p> </li> 
+     <li> <p><a href="#linkedfolder" class="MCXref xref">CartellaCollegata</a> </p> </li> 
+     <li> <p><a href="#optask" class="MCXref xref">AttivitàOperativa</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
      <li> <p><a href="#project" class="MCXref xref">Progetto</a> </p> </li> 
-     <li> <p><a href="#proofapproval" class="MCXref xref">ProofApproval</a> </p> </li> 
+     <li> <p><a href="#proofapproval" class="MCXref xref">ApprovazioneBozza</a> </p> </li> 
      <li> <p><a href="#queuedef" class="MCXref xref">DefCoda</a> </p> </li> 
      <li> <p><a href="#task" class="MCXref xref">Attività</a> </p> </li> 
      <li> <p><a href="#team" class="MCXref xref">Team</a> </p> </li> 
      <li> <p><a href="#timesheet" class="MCXref xref">Scheda orario</a> </p> </li> 
      <li> <p><a href="#timesheetprofile" class="MCXref xref">TimesheetProfile</a> </p> </li> 
-     <li> <p><a href="#uitemplate" class="MCXref xref">UITemplate</a> </p> </li> 
+     <li> <p><a href="#uitemplate" class="MCXref xref">ModelloUIT</a> </p> </li> 
      <li> <p><a href="#userdelegation" class="MCXref xref">DelegaUtente</a> </p> </li> 
      <li> <p><a href="#work" class="MCXref xref">Lavoro </a> </p> </li> 
     </ul> </td> 
@@ -69,7 +69,7 @@ Le seguenti risorse sono state modificate per API versione 13.
 
 Un oggetto AccessLevel è associato agli utenti e descrive il set di autorizzazioni AccessLevelPermissions che determinano gli elementi a cui l&#39;utente può accedere.
 
-Per ulteriori informazioni sui livelli di accesso, consulta [Funzionamento dei livelli di accesso](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
+Per ulteriori informazioni sui livelli di accesso, vedere [Funzionamento dei livelli di accesso](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -99,7 +99,7 @@ Per ulteriori informazioni sulle breadcrumb, consulta [Panoramica delle breadcru
    <td> <p>Campi diretti</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>objCode</b> </p> <p>I codici oggetto si trovano nel <a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</p> </li> 
+     <li> <p><b>objCode</b> </p> <p>I codici oggetto si trovano in <a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -109,7 +109,7 @@ Per ulteriori informazioni sulle breadcrumb, consulta [Panoramica delle breadcru
 
 Un oggetto BurndownEvent rappresenta un oggetto che modifica il bundown di un&#39;iterazione.
 
-Per ulteriori informazioni sul burndown, consulta [Burndown](../../agile/use-scrum-in-an-agile-team/burndown/burndown.md).
+Per ulteriori informazioni sul burndown, vedi [Burndown](../../agile/use-scrum-in-an-agile-team/burndown/burndown.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -166,7 +166,7 @@ Un oggetto CustomerPreferences rappresenta l&#39;insieme di preferenze impostate
 
 Un oggetto DocumentVersion rappresenta una versione specifica di un file, ad esempio materiale scritto, immagini o altre forme di informazioni.
 
-Per ulteriori informazioni sulle versioni dei documenti, vedere [Carica una nuova versione di un documento](../../documents/managing-documents/upload-new-document-version.md).
+Per ulteriori informazioni sulle versioni dei documenti, vedere [Caricare una nuova versione di un documento](../../documents/managing-documents/upload-new-document-version.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -192,7 +192,7 @@ Per ulteriori informazioni sulle versioni dei documenti, vedere [Carica una nuov
 
 Un oggetto Group rappresenta un insieme di utenti e team. I gruppi spesso rappresentano la struttura di reparto.
 
-Per ulteriori informazioni sui gruppi, consulta [Gruppi e team in Adobe Workfront](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md).
+Per ulteriori informazioni sui gruppi, vedi [Gruppi e team in Adobe Workfront](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -223,8 +223,8 @@ La risorsa JournalEntry ha aggiunto il flag REPORTABLE.
    <td> <p>I campi seguenti hanno rimosso il flag NOT_GROUPABLE:</p> 
     <ul> 
      <li> <p><b>changeType</b> </p> </li> 
-     <li> <p><b>entryDate</b> </p> </li> 
-     <li> <p><b>fieldName</b> </p> </li> 
+     <li> <p><b>dataVoce</b> </p> </li> 
+     <li> <p><b>nomeCampo</b> </p> </li> 
      <li> <p><b>objObjCode</b> </p> </li> 
     </ul> <p>I campi seguenti hanno aggiunto il flag NOT_FILTERABLE:</p> 
     <ul> 
@@ -241,7 +241,7 @@ La risorsa JournalEntry ha aggiunto il flag REPORTABLE.
 
 Gli amministratori di Adobe Workfront o di gruppi possono creare modelli per personalizzare gli elementi di layout in Adobe Workfront. L&#39;oggetto LayoutTemplate è specifico di Adobe Workfront Classic.
 
-Per l’oggetto che rappresenta i modelli di layout nella nuova esperienza Adobe Workfront, consulta [UITemplate](#uitemplate)
+Per l&#39;oggetto che rappresenta i modelli di layout nella nuova esperienza Adobe Workfront, vedi [UITemplate](#uitemplate)
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -292,7 +292,7 @@ Un oggetto OpTask è comunemente noto come Issue. Un problema è un elemento di 
    <td> <p>Campi Ricerca</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>favoritedByUsersMM</b> </p> </li> 
+     <li> <p><b>preferitiDaUtentiMM</b> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -331,7 +331,7 @@ Un oggetto ProofApproval rappresenta un&#39;approvazione direttamente connessa a
    <td> <p>I campi seguenti sono stati aggiunti alla risorsa ProofApproval.</p> 
     <ul> 
      <li> <p><b>approverStage</b> </p> </li> 
-     <li> <p><b>DecisionDate</b> </p> </li> 
+     <li> <p><b>DataDecisione</b> </p> </li> 
      <li> <p><b>workflowTemplate</b> </p> </li> 
     </ul> </td> 
   </tr> 
@@ -342,7 +342,7 @@ Un oggetto ProofApproval rappresenta un&#39;approvazione direttamente connessa a
 
 Un oggetto QueueDef rappresenta una coda, ovvero un progetto che è stato pubblicato nell&#39;area Help Desk per consentire agli utenti di inviare i problemi.
 
-Per ulteriori informazioni sulle code di richieste, consulta [Creare una coda di richieste](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Per ulteriori informazioni sulle code di richieste, vedere [Creare una coda di richieste](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -352,7 +352,7 @@ Per ulteriori informazioni sulle code di richieste, consulta [Creare una coda di
    <td role="rowheader">Campi diretti</td> 
    <td> 
     <ul> 
-     <li> <p><b>documentPosition</b> </p> <p>Aggiunta completata. I valori possibili sono:</p> 
+     <li> <p><b>documentPosition</b> </p> <p>Aggiunto. I valori possibili sono:</p> 
       <ul> 
        <li> <p>0 (dopo i moduli personalizzati)</p> </li> 
        <li> <p>1 (prima dei moduli personalizzati)</p> </li> 
@@ -374,7 +374,7 @@ Un oggetto Task rappresenta un elemento di lavoro che deve essere eseguito come 
    <td> <p>Campi Ricerca</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>favoritedByUsersMM</b> </p> </li> 
+     <li> <p><b>preferitiDaUtentiMM</b> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -459,7 +459,7 @@ Un oggetto Timesheet rappresenta un foglio ore virtuale che consente agli utenti
 
 Gli amministratori di Adobe Workfront o di gruppi possono creare modelli per personalizzare gli elementi di layout in Adobe Workfront. L’oggetto UITemplate è specifico per la nuova esperienza Adobe Workfront.
 
-Per l’oggetto che rappresenta i modelli di layout in Adobe Workfront Classic, consulta [LayoutTemplate](#layouttemplate).
+Per l&#39;oggetto che rappresenta i modelli di layout in Adobe Workfront Classic, vedere [LayoutTemplate](#layouttemplate).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -498,7 +498,7 @@ L&#39;oggetto UserDelegation ha aggiunto il flag REPORTABLE.
    <td> <p>I campi seguenti hanno rimosso il flag NOT_GROUPABLE</p> 
     <ul> 
      <li> <p><b>endDate</b> </p> </li> 
-     <li> <p><b>startDate</b> </p> </li> 
+     <li> <p><b>dataInizio</b> </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -506,7 +506,7 @@ L&#39;oggetto UserDelegation ha aggiunto il flag REPORTABLE.
    <td> <p>Sono stati aggiunti i seguenti campi:</p> 
     <ul> 
      <li> <p><b>endDate</b> </p> </li> 
-     <li> <p><b>startDate</b> </p> </li> 
+     <li> <p><b>dataInizio</b> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -524,7 +524,7 @@ Un oggetto Work è un&#39;interfaccia comune ereditata sia da Task che da OpTask
    <td> <p>Campi Ricerca</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>favoritedByUsersMM</b> </p> </li> 
+     <li> <p><b>preferitiDaUtentiMM</b> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

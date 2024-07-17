@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
-title: La configurazione influisce sulle ore in cui un oggetto viene eliminato e ripristinato
-description: È possibile configurare ciò che accade alle ore in cui un utente elimina un progetto, un'attività o un problema a cui sono collegate le ore. L’opzione selezionata determina inoltre cosa accade alle ore se il progetto, l’attività o il problema vengono ripristinati in un secondo momento. (Per ulteriori informazioni sul ripristino di elementi in Workfront, vedere Ripristinare elementi eliminati.)
+title: La configurazione influisce sulle ore di eliminazione e ripristino di un oggetto
+description: Puoi configurare cosa succede alle ore quando qualcuno elimina un progetto, un’attività o un problema per il quale sono state registrate le ore. L’opzione scelta determina anche cosa accade alle ore se il progetto, l’attività o il problema viene ripristinato in un secondo momento. Per ulteriori informazioni sul ripristino degli elementi in Workfront, vedere Ripristinare gli elementi eliminati.
 feature: System Setup and Administration
 role: Admin
 exl-id: 466c3972-8108-49a6-98f6-f65f5fcc3617
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ---
 
-# La configurazione influisce sulle ore in cui un oggetto viene eliminato e ripristinato
+# La configurazione influisce sulle ore di eliminazione e ripristino di un oggetto
 
-È possibile configurare ciò che accade alle ore in cui un utente elimina un progetto, un&#39;attività o un problema a cui sono collegate le ore. L’opzione selezionata determina inoltre cosa accade alle ore se il progetto, l’attività o il problema vengono ripristinati in un secondo momento. (Per ulteriori informazioni sul ripristino di elementi in Workfront, vedi [Ripristina elementi eliminati](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).)
+Puoi configurare cosa succede alle ore quando qualcuno elimina un progetto, un’attività o un problema per il quale sono state registrate le ore. L’opzione scelta determina anche cosa accade alle ore se il progetto, l’attività o il problema viene ripristinato in un secondo momento. Per ulteriori informazioni sul ripristino di elementi in Workfront, vedere [Ripristinare gli elementi eliminati](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 ## Requisiti di accesso
 
@@ -35,29 +35,29 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td>Piano</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso</td> 
-   <td> <p>Devi essere un amministratore Workfront.</p> <p><b>NOTA</b>: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Devi essere un amministratore di Workfront.</p> <p><b>NOTA</b>: se non disponi ancora dell'accesso, chiedi all'amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Configura le ore di gestione quando un elemento viene eliminato e ripristinato
+## Configurare la modalità di gestione delle ore quando un elemento viene eliminato e ripristinato
 
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
-1. Espandi **Tempi e ore**, quindi fai clic su **Preferenze**.
+1. Espandi **Schede orario e ore**, quindi fai clic su **Preferenze**.
 
-1. Individua il **Preferenze di eliminazione di progetti, attività o problemi** sezione .
-1. (Condizionale) Per configurare la modalità di gestione delle ore quando un progetto viene eliminato, seleziona una delle seguenti opzioni nella sezione **Eliminazione di progetti** sezione:
+1. Individua la sezione **Preferenze eliminazione progetto, attività o problema**.
+1. (Condizionale) Per configurare la gestione delle ore quando un progetto viene eliminato, selezionare una delle opzioni seguenti nella sezione **Durante l&#39;eliminazione dei progetti**:
 
-   * Mantieni le ore registrate già aggiunte ai fogli presenze come ore generali (se il progetto viene ripristinato in un secondo momento, le ore rimangono nella scheda attività)\
-      Questa opzione è selezionata per impostazione predefinita.
+   * Mantieni le ore registrate già aggiunte alle schede orario come ore generali (se il progetto viene ripristinato in un secondo momento, le ore rimangono nella scheda orario)\
+     Questa opzione è selezionata per impostazione predefinita.
    * Elimina le ore registrate (se il progetto viene ripristinato in un secondo momento, le ore registrate vengono ripristinate nel progetto)
 
-1. (Condizionale) Per configurare la modalità di gestione delle ore quando un’attività o un problema viene eliminato, seleziona una delle opzioni seguenti nella **Quando si eliminano attività o problemi** sezione:
+1. (Condizionale) Per configurare la gestione delle ore quando un&#39;attività o un problema viene eliminato, selezionare una delle opzioni seguenti nella sezione **Per l&#39;eliminazione di attività o problemi**:
 
-   * Sposta le ore registrate nel progetto in cui si trova l’attività o il problema (se l’attività o il problema viene ripristinato in un secondo momento, le ore rimangono nel progetto)\
-      Questa opzione è selezionata per impostazione predefinita.
+   * Sposta le ore registrate nel progetto in cui si trova l’attività o il problema (se l’attività o il problema viene ripristinato in un secondo momento, le ore rimangono sul progetto)\
+     Questa opzione è selezionata per impostazione predefinita.
    * Elimina le ore registrate (se l&#39;attività o il problema viene ripristinato in un secondo momento, le ore registrate vengono ripristinate nell&#39;attività o nel problema)
 
 1. Fai clic su **Salva**.

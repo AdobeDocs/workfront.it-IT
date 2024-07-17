@@ -10,7 +10,7 @@ role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
 source-git-commit: a3cb3d9d340d377e301c98480324bfe8bf507382
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '642'
 ht-degree: 2%
 
 ---
@@ -36,25 +36,25 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td>Piano</td> 
   </tr> 
   <tr> 
-   <td>Configurazioni a livello di accesso</td> 
-   <td> <p>Devi essere un amministratore Workfront.</p> <p><b>NOTA</b>: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td>Configurazioni del livello di accesso</td> 
+   <td> <p>Devi essere un amministratore di Workfront.</p> <p><b>NOTA</b>: se non disponi ancora dell'accesso, chiedi all'amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Creare o modificare una condizione personalizzata
 
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
-1. Fai clic su **Preferenze del progetto** > **Condizioni**.
+1. Fai clic su **Preferenze progetto** > **Condizioni**.
 
-1. Fai clic sulla scheda del tipo di oggetto (**Progetto**, **Attività** oppure **Problema**) che si desidera associare alla condizione.
+1. Fare clic sulla scheda del tipo di oggetto (**Progetto**, **Attività** o **Problema**) che si desidera associare alla condizione.
 
-1. Per creare una nuova condizione, fai clic su **Aggiungi una nuova condizione**.
+1. Per creare una nuova condizione, fare clic su **Aggiungi una nuova condizione**.
 
    Oppure
 
-   Per modificare una condizione esistente, passa il puntatore del mouse sulla condizione da modificare, quindi fai clic sul pulsante **Modifica** all’estrema destra.
+   Per modificare una condizione esistente, passa il cursore del mouse sulla condizione da modificare, quindi fai clic sull&#39;icona **Modifica** visualizzata all&#39;estrema destra.
 
    ![](assets/custom-condition-edit-nwe.jpg)
 
@@ -66,58 +66,58 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
     <tbody> 
      <tr> 
       <td>Nome condizione</td> 
-      <td>(Obbligatorio) Immetti un nome descrittivo per la condizione.</td> 
+      <td>(Obbligatorio) Digita un nome descrittivo per la condizione.</td> 
      </tr> 
      <tr> 
       <td>Descrizione</td> 
-      <td>(Facoltativo) Immetti una descrizione dello scopo della condizione per gli utenti che la utilizzeranno.</td> 
+      <td>(Facoltativo) Digitare una descrizione dello scopo della condizione per gli utenti che la utilizzeranno.</td> 
      </tr> 
      <tr> 
-      <td>Clr icn</td> 
+      <td>Colore</td> 
       <td>(Facoltativo) Fai clic sull’icona del colore, quindi scegli il colore desiderato per la condizione quando viene visualizzata in progetti, attività o problemi. È inoltre possibile digitare un numero esadecimale.</td> 
      </tr> 
      <tr> 
       <td>Equivale a </td> 
-      <td><p>(Obbligatorio, solo per i progetti) Fai clic sull’opzione nell’elenco a discesa che descrive meglio la funzione della nuova condizione. Ad esempio, per una condizione denominata Bene di tracciamento , fai clic su Su Target . Questo determina il funzionamento delle condizioni predefinite. Ogni condizione creata deve corrispondere a una delle opzioni del menu a discesa.</p>
-      <p>Per informazioni sulle condizioni predefinite, consulta <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">Impostare una condizione personalizzata come predefinita per i progetti</a> e <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md" class="MCXref xref">Imposta una condizione personalizzata come predefinita per le attività e i problemi</a>.</p>
-      <p>Non è possibile modificare questa opzione dopo aver completato la creazione della condizione.</p></td> 
+      <td><p>(Obbligatorio, solo per i progetti) Fai clic sull’opzione nell’elenco a discesa che descrive meglio la funzione della nuova condizione. Ad esempio, per una condizione denominata Area di tracciamento, fai clic su Destinazione. Questo determina il funzionamento delle condizioni predefinite. Ogni condizione creata deve corrispondere a una delle opzioni del menu a discesa.</p>
+      <p>Per informazioni sulle condizioni predefinite, vedere <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">Impostare una condizione personalizzata come predefinita per i progetti</a> e <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md" class="MCXref xref">Impostare una condizione personalizzata come predefinita per attività e problemi</a>.</p>
+      <p>Questa opzione non può essere modificata dopo aver completato la creazione della condizione.</p></td> 
      </tr> 
      <tr> 
       <td>Chiave</td> 
-      <td><p>(Obbligatorio) Per una condizione di progetto, digita un’abbreviazione alfanumerica che gli utenti saranno in grado di riconoscere. Per un'attività o una condizione di problema, digitare un codice numerico a due cifre da 01 a 99. </p>
-      <p>Questa chiave, utilizzata nell’API e utilizzabile a scopo di reporting, deve essere univoca per ciascun oggetto.</p>
-      <p>Non è possibile modificare la chiave di una condizione dopo aver salvato la condizione. </p></td> 
+      <td><p>(Obbligatorio) Per una condizione di progetto, digita un’abbreviazione alfanumerica che gli utenti saranno in grado di riconoscere. Per un'attività o una condizione di problema, digitare un codice numerico a due cifre compreso tra 01 e 99. </p>
+      <p>Questa chiave, che viene utilizzata nell’API e può essere utilizzata a scopo di reporting, deve essere univoca per ciascun oggetto.</p>
+      <p>Non è possibile modificare la chiave di una condizione dopo averla salvata. </p></td> 
      </tr> 
      <tr> 
       <td>Nascondi condizione</td> 
-      <td><p>(Facoltativo) Questa opzione è disponibile per condizioni personalizzate che non desideri più utilizzare, ma che desideri mantenere per motivi storici. </p>
-      <p>Se si nasconde una condizione personalizzata utilizzata per gli elementi di lavoro, questa continua a essere visualizzata su tali elementi di lavoro dopo averla nascosta. </p></td> 
+      <td><p>(Facoltativo) Questa opzione è disponibile per le condizioni personalizzate che non desideri più utilizzare, ma che desideri mantenere per motivi storici. </p>
+      <p>Se si nasconde una condizione personalizzata utilizzata per gli elementi di lavoro, questa continua a essere visualizzata sugli elementi di lavoro dopo essere stata nascosta. </p></td> 
      </tr> 
     </tbody> 
    </table>
 
    >[!TIP]
    >
-   >È possibile standardizzare la terminologia e i colori delle condizioni per tutti e tre i tipi di oggetti. A questo scopo, copia la condizione Nome e il codice esadecimale di colore da una scheda (Progetto, Attività, Problema) alla condizione corrispondente nelle altre due schede.
+   >Puoi standardizzare la terminologia e i colori delle condizioni tra tutti e tre i tipi di oggetto. A questo scopo, copia il Nome della condizione e il Codice esadecimale Colore da una scheda (Progetto, Attività, Problema) alla condizione corrispondente nelle altre due schede.
 
-1. (Facoltativo) Trascina ![](assets/move-icon---dots.png) qualsiasi condizione a una nuova posizione per riordinare l’elenco.
+1. (Facoltativo) Trascina ![](assets/move-icon---dots.png) qualsiasi condizione in una nuova posizione per riordinare l&#39;elenco.
 
-   Questo modifica l’ordine in cui vengono visualizzate le condizioni nei progetti, nelle attività e nei problemi:
+   Questo cambia l’ordine in cui vengono visualizzate le condizioni nei progetti, nelle attività e nei problemi:
 
    * Quando un utente modifica un progetto
 
-      ![](assets/change-condition-edit-project.png)
+     ![](assets/change-condition-edit-project.png)
 
-   * Quando un utente modifica la condizione di un’attività o un problema nella scheda Aggiornamenti:
+   * Quando un utente modifica la condizione per un’attività o un problema nella scheda Aggiornamenti:
 
-      ![](assets/change-condition-update-comment.png)
+     ![](assets/change-condition-update-comment.png)
 
-   * Quando un utente modifica la condizione di un&#39;attività o di un problema in una visualizzazione a elenco:
+   * Quando un utente modifica la condizione di un’attività o di un problema in una vista a elenco:
 
-      ![](assets/change-conditions-list-dropdown-only.png)
+     ![](assets/change-conditions-list-dropdown-only.png)
 
 1. Fai clic su **Salva**.
 
-È possibile impostare la condizione personalizzata come condizione predefinita per i progetti o per le attività e i problemi. Per ulteriori informazioni, consulta [Impostare una condizione personalizzata come predefinita per i progetti](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md) e [Imposta una condizione personalizzata come predefinita per le attività e i problemi](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md).
+Puoi impostare la condizione personalizzata come condizione predefinita per i progetti o per le attività e i problemi. Per ulteriori informazioni, vedere [Impostare una condizione personalizzata come predefinita per i progetti](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md) e [Impostare una condizione personalizzata come predefinita per attività e problemi](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md).
 
-Per ulteriori informazioni sulle condizioni personalizzate, consulta [Condizioni personalizzate](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+Per ulteriori informazioni sulle condizioni personalizzate, vedere [Condizioni personalizzate](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).

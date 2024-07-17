@@ -73,20 +73,20 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>
 <tr>
    <td role="rowheader"><p>Autorizzazioni</p></td>
-   <td> <p>Contribuire o concedere autorizzazioni superiori a un’area di lavoro</a> </p>  
+   <td> <p>Autorizzazioni Contribute o superiori per un'area di lavoro</a> </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>L'amministratore del Workfront o del gruppo deve aggiungere l'area Planning nel modello di layout. Per informazioni, consulta <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica degli accessi</a>. </p>  
+   <td> <p>L'amministratore del Workfront o del gruppo deve aggiungere l'area Planning nel modello di layout. Per informazioni, vedere <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica dell'accesso</a>. </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-*Per ulteriori informazioni, vedere [Requisiti di accesso alla documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per ulteriori informazioni, vedere [Requisiti di accesso per la documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -105,7 +105,7 @@ Per informazioni sulla modifica delle informazioni sui record, vedere [Modifica 
 
    Viene aperto il workspace e i tipi di record vengono visualizzati come schede.
 
-1. Fare clic su una scheda del tipo di record. Per informazioni sulla creazione di un tipo di record, vedere [Crea tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
+1. Fare clic su una scheda del tipo di record. Per informazioni sulla creazione di un tipo di record, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
 
    La pagina del tipo di record viene visualizzata nella visualizzazione a cui si è effettuato l&#39;ultimo accesso. Per impostazione predefinita, nella vista tabella viene visualizzata una pagina del tipo di record.
 Tutti i record del tipo selezionato vengono visualizzati nella vista.
@@ -114,15 +114,15 @@ Tutti i record del tipo selezionato vengono visualizzati nella vista.
 
    * Dalla vista tabella:
 
-      * Clic **Nuovo record** nell’ultima riga della tabella
+      * Fai clic su **Nuovo record** nell&#39;ultima riga della tabella
 
-      * Clic **Maiusc + Invio** sulla tastiera da qualsiasi colonna o riga della tabella. Viene aggiunta una riga vuota.
+      * Fai clic su **Maiusc + Invio** sulla tastiera da qualsiasi colonna o riga della tabella. Viene aggiunta una riga vuota.
 
      ![](assets/adding-a-new-campaign-in-table-row.png)
 
    * Da qualsiasi vista:
 
-      * Clic **Nuovo record** nell’angolo superiore destro della pagina. Viene visualizzata la casella di anteprima del record.
+      * Fai clic su **Nuovo record** nell&#39;angolo superiore destro della pagina. Viene visualizzata la casella di anteprima del record.
 
      Workfront carica automaticamente una miniatura e un&#39;immagine di copertina in ogni nuovo record. In seguito sarà possibile modificare queste immagini. Per informazioni, vedere i seguenti articoli:
 
@@ -133,7 +133,7 @@ Tutti i record del tipo selezionato vengono visualizzati nella vista.
 
    >[!NOTE]
    >
-   >  * Non esistono campi obbligatori per i record. È tuttavia consigliabile aggiungere informazioni per il campo principale di un record, in quanto è utile identificare i record quando si collegano tra loro record. Per ulteriori informazioni sui campi primari, consulta [Gestire la vista tabella](/help/quicksilver/planning/views/manage-the-table-view.md) e [Panoramica del campo primario](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >  * Non esistono campi obbligatori per i record. È tuttavia consigliabile aggiungere informazioni per il campo principale di un record, in quanto è utile identificare i record quando si collegano tra loro record. Per ulteriori informazioni sui campi primari, vedere [Gestire la visualizzazione tabella](/help/quicksilver/planning/views/manage-the-table-view.md) e [Panoramica campo primario](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
    >  * I campi che fanno riferimento ad altri tipi di record o campi calcolati sono campi di sola lettura.
 
@@ -141,14 +141,14 @@ Tutti i record del tipo selezionato vengono visualizzati nella vista.
 
    Oppure
 
-   Fare clic sul nome del nuovo record o sul pulsante **Apri dettagli** icona ![](assets/open-details-icon-in-table-name-field.png) a sinistra del nome del record. Nella tabella viene visualizzata un&#39;anteprima con le informazioni dettagliate del record.
+   Fare clic sul nome del nuovo record o sull&#39;icona **Apri dettagli** ![](assets/open-details-icon-in-table-name-field.png) a sinistra del nome del record. Nella tabella viene visualizzata un&#39;anteprima con le informazioni dettagliate del record.
 
    >[!TIP]
    >
-   >È possibile accedere a **Apri dettagli** solo dal campo del nome del record quando il campo del nome è un campo primario.
+   >Puoi accedere all&#39;icona **Apri dettagli** solo dal campo del nome del record quando il campo Nome è un campo primario.
 
 1. Iniziare a modificare le informazioni del record nell&#39;anteprima del record. Workfront salva automaticamente le modifiche.
-1. (Facoltativo) Fai clic su **Apri in una nuova scheda** icona ![](assets/open-details-in-a-new-tab-icon.png) nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda. Continuare a modificare il record nella pagina record. Per informazioni, consulta [Modifica record](/help/quicksilver/planning/records/edit-records.md).
+1. (Facoltativo) Fai clic sull&#39;icona **Apri in una nuova scheda** ![](assets/open-details-in-a-new-tab-icon.png) nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda. Continuare a modificare il record nella pagina record. Per informazioni, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).
 
 1. (Facoltativo) Utilizzare le seguenti scelte rapide da tastiera per annullare o ripetere l&#39;aggiunta di nuovi record o delle relative informazioni quando questi vengono aggiunti nella vista tabella:
 
@@ -179,11 +179,11 @@ You can import records from other applications by linking them to existing recor
 
 ## Creare record copiando e incollando informazioni da un elenco esterno
 
-1. Iniziare a creare record nella vista Tabella, come descritto nella sezione [Creare record aggiungendoli manualmente a un tipo di record](#create-records-by-manually-adding-them-to-a-record-type) in questo articolo.
+1. Iniziare a creare record nella visualizzazione Tabella, come descritto nella sezione [Creare record aggiungendoli manualmente a un tipo di record](#create-records-by-manually-adding-them-to-a-record-type) in questo articolo.
 
    Verificare che nella vista tabella siano presenti le colonne o i campi che si desidera compilare con le nuove informazioni del record.
 
-1. Clic **Nuovo &lt; Nome tipo di record >** nell&#39;ultima riga della tabella per aggiungere alla tabella tutte le nuove righe che si desidera aggiungere ai nuovi record.
+1. Fare clic su **Nuovo &lt; Nome tipo di record >** nell&#39;ultima riga della tabella per aggiungere alla tabella tutte le nuove righe desiderate per i nuovi record.
 
    Aggiungere ad esempio 10 righe alla vista tabella se si desidera incollare le informazioni relative a 10 nuovi record da un&#39;altra applicazione.
 

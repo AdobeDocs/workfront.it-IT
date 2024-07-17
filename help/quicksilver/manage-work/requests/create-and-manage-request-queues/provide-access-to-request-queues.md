@@ -1,8 +1,8 @@
 ---
 product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
-title: Fornire l'accesso alle code di richiesta
-description: Quando si fornisce l’accesso a una coda di richiesta, si determina chi nell’organizzazione può visualizzare la coda di richiesta nell’area Richieste di Adobe Workfront.
+title: Fornire l’accesso alle code di richieste
+description: Quando fornisci l’accesso a una coda di richieste, puoi determinare chi, nella tua organizzazione, può visualizzare la coda di richieste nell’area Richieste di Adobe Workfront.
 author: Alina
 feature: Work Management
 exl-id: eb88c32a-f8b8-42d3-9a3a-72c62fd1dc3a
@@ -13,24 +13,24 @@ ht-degree: 0%
 
 ---
 
-# Fornire l&#39;accesso alle code di richiesta
+# Fornire l’accesso alle code di richieste
 
-Quando si fornisce l’accesso a una coda di richiesta, si determina chi nell’organizzazione può visualizzare la coda di richiesta nell’area Richieste di Adobe Workfront.
+Quando fornisci l’accesso a una coda di richieste, puoi determinare chi, nella tua organizzazione, può visualizzare la coda di richieste nell’area Richieste di Adobe Workfront.
 
-È possibile fornire a utenti diversi l&#39;accesso a una coda di richiesta, a seconda che facciano parte del team di progetto, del gruppo di progetto o della società di progetto. Puoi anche fornire l’accesso a tutti gli utenti del sistema a una coda di richiesta. 
+È possibile fornire a utenti diversi l&#39;accesso a una coda di richieste, a seconda che facciano parte del team di progetto, del gruppo di progetto o della società del progetto. Puoi anche fornire a tutti gli utenti del sistema l’accesso a una coda di richieste. 
 
-Questo è utile nelle organizzazioni che invitano soggetti interessati esterni in Workfront e desiderano limitare l’accesso degli utenti a aree specifiche. In questo caso, una coda di richiesta aperta solo agli utenti associati all’azienda o al gruppo del progetto limita la visibilità alle parti interessate esterne. L’accesso a chiunque rende la richiesta visibile sia alle parti interessate interne che a quelle esterne.
+Ciò è utile nelle organizzazioni che invitano parti interessate esterne in Workfront e desiderano limitare l’accesso degli utenti ad aree specifiche; in questo caso, una coda di richieste aperta solo agli utenti associati all’azienda o al gruppo del progetto limita la visibilità alle parti interessate esterne. Dare accesso a chiunque rende la richiesta visibile alle parti interessate interne ed esterne.
 
 ## Requisiti di accesso
 
-Devi disporre dei seguenti elementi:
+Devi avere i seguenti:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
@@ -38,45 +38,45 @@ Devi disporre dei seguenti elementi:
    <td> <p>Piano </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Modifica accesso a progetti</p> <p>Nota: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modifica accesso ai progetti</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p> Gestisci le autorizzazioni per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p> Gestire le autorizzazioni per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per sapere il piano, il tipo di licenza o l&#39;accesso a cui hai accesso, contatta il tuo amministratore Workfront
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront
 
 ## Prerequisiti
 
-Prima che la coda di richiesta sia disponibile per gli utenti nell’area Richieste , devi creare un progetto con le seguenti impostazioni:
+Prima che la coda di richieste sia disponibile per gli utenti nell’area Richieste, è necessario creare un progetto con le seguenti impostazioni:
 
-* Designalo come coda di richiesta. Per ulteriori informazioni sulla creazione di una coda di richiesta, vedi [Creare una coda di richiesta](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
-* Aggiorna lo stato del progetto a Corrente.
+* Designalo come coda di richieste. Per ulteriori informazioni sulla creazione di una coda richieste, vedere [Creare una coda richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* Aggiorna lo stato del progetto su Corrente.
 
-## Fornire l&#39;accesso a una coda di richiesta
+## Fornire accesso a una coda di richieste
 
-1. Vai al progetto in cui desideri fornire l’accesso alle code di richiesta.
+1. Vai al progetto in cui desideri fornire l’accesso alle code di richieste.
 
    >[!NOTE]
    >
-   >Nell’area Richieste sono visibili solo i progetti con stato Corrente.
+   >Nell’area Richieste sono visibili solo i progetti con lo stato Attuale.
 
-1. Fai clic su **Dettagli coda** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro**, quindi **Dettagli coda**.
-1. Seleziona **Pubblica come coda delle richieste di aiuto** per designare il progetto come coda richieste.
-1. Seleziona tra le seguenti opzioni:
+1. Fai clic su **Dettagli coda** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro**, quindi su **Dettagli coda**.
+1. Selezionare **Publish come coda di richieste della Guida** per designare il progetto come coda di richieste.
+1. Selezionare una delle opzioni seguenti:
 
-   * **Chiunque**: Qualsiasi utente può visualizzare e aggiungere richieste alla coda delle richieste.
-   * **Utenti con accesso al progetto**: gli utenti che dispongono delle autorizzazioni di visualizzazione per il progetto possono visualizzare e aggiungere richieste alla coda delle richieste. 
-   * **Persone nell&#39;azienda di questo progetto**: gli utenti associati all’azienda del progetto possono visualizzare e aggiungere richieste. L’azienda associata al progetto è elencata tra parentesi accanto a questa opzione. 
-   * **Persone nel gruppo di questo progetto**: gli utenti associati al gruppo del progetto possono visualizzare e aggiungere richieste. Il gruppo associato al progetto è elencato tra parentesi accanto a questa opzione.
+   * **Chiunque**: qualsiasi utente può visualizzare e aggiungere richieste alla coda richieste.
+   * **Persone con accesso di visualizzazione a questo progetto**: gli utenti con autorizzazioni di visualizzazione al progetto possono visualizzare e aggiungere richieste alla coda richieste. 
+   * **Persone nella società di questo progetto**: gli utenti associati alla società del progetto possono visualizzare e aggiungere richieste. La società associata al progetto è elencata tra parentesi accanto a questa opzione. 
+   * **Le persone nel gruppo di questo progetto**:gli utenti associati al gruppo del progetto possono visualizzare e aggiungere richieste. Il Gruppo associato al progetto è elencato tra parentesi accanto a questa opzione.
 
-      Le code di gruppo sono utili quando diversi dipartimenti condividono un account Workfront per raggiungere obiettivi organizzativi unici. Ogni dipartimento può avere le proprie code che i membri di altri gruppi non dovrebbero essere in grado di vedere.
+     Le code di gruppo sono utili quando diversi reparti condividono un account Workfront per raggiungere obiettivi organizzativi univoci. Ciascun reparto può disporre di code proprie che i membri di altri gruppi non dovrebbero essere in grado di visualizzare.
 
-      Per informazioni su chi dispone delle autorizzazioni per un progetto, consulta [Condivisione di un progetto in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).\
-      È possibile associare gruppi e aziende al progetto durante la modifica del progetto. Per ulteriori informazioni sulla modifica dei progetti, consulta [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
+     Per informazioni su chi dispone delle autorizzazioni per un progetto, vedere [Condividere un progetto in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).\
+     I gruppi e le società possono essere associati al progetto durante la modifica dello stesso. Per ulteriori informazioni sulla modifica dei progetti, vedere [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 1. Fai clic su **Salva**.

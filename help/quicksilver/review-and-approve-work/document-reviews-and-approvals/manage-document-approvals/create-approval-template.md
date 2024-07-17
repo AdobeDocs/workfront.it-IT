@@ -15,13 +15,13 @@ ht-degree: 2%
 
 # Creare un modello di approvazione per risorse e documenti
 
-<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente Sandbox di anteprima.</span>
+<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 Nell’area Configurazione di Workfront, gli utenti con una licenza Standard possono creare modelli di approvazione riutilizzabili. Una volta creati, i modelli di approvazione possono essere applicati alle risorse nell’area Documenti di un progetto, un’attività o un problema.
 
 >[!IMPORTANT]
 >
->Il contenuto di questo articolo fa riferimento alla funzionalità di approvazione dei documenti aggiornata, disponibile solo per account specifici. Per informazioni sui processi di approvazione standard, vedi gli articoli elencati in [Approvazioni lavoro](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>Il contenuto di questo articolo fa riferimento alla funzionalità di approvazione dei documenti aggiornata, disponibile solo per account specifici. Per informazioni sui processi di approvazione standard, vedere gli articoli elencati in [Approvazioni di lavoro](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Requisiti di accesso
 
@@ -52,13 +52,13 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 {{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su **Revisione e approvazione** > **Modelli di approvazione**.
-1. Clic **Nuovo modello** sul lato destro della pagina.
+1. Fai clic su **Nuovo modello** sul lato destro della pagina.
 1. Specifica le seguenti informazioni:
 
    | Nome modello | Inizia a digitare un nome per questo modello. |
    |----------------------------|---|
    | **(Facoltativo) Intervallo temporale** | Immetti l’intervallo di tempo in giorni . La scadenza dell’approvazione viene calcolata da questo campo dopo l’applicazione del modello a una risorsa. |
-   | **Aggiungere approvatori o revisori** | Inizia a digitare il nome di utenti o team, quindi designali come revisori o approvatori. |
+   | **Aggiungi approvatori o revisori** | Inizia a digitare il nome di utenti o team, quindi designali come revisori o approvatori. |
 1. Fai clic su **Salva**.
 
 

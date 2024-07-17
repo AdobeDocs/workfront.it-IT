@@ -10,7 +10,7 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '870'
 ht-degree: 1%
 
 ---
@@ -21,8 +21,8 @@ ht-degree: 1%
 
 Puoi individuare i seguenti tipi di richieste inviate da te o da un altro utente oppure richieste avviate ma non ancora inviate. Puoi individuare queste richieste nelle seguenti aree di Adobe Workfront:
 
-* **Sezione inviata**: tutte le richieste inviate da te o da un altro utente e a cui hai accesso almeno alla visualizzazione.
-* **Sezione bozza** : tutte le richieste avviate ma non completate e mai inviate. Per ulteriori informazioni sulle bozze di richieste, consulta [Creare e inviare richieste Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
+* **Sezione inviata**: tutte le richieste inviate da te o da un altro utente e a cui hai accesso sono almeno View.
+* **Sezione bozza**: tutte le richieste avviate ma non completate e non inviate. Per ulteriori informazioni sulle bozze di richieste, vedere [Creare e inviare richieste Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
   >[!TIP]
   >
@@ -52,7 +52,7 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizzare le autorizzazioni sulle richieste o su versioni successive</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Visualizzare le autorizzazioni sulle richieste o su versioni successive</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,8 +63,8 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 
 Per individuare le richieste inviate da te o da altri utenti:
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront.
-1. Clic **Inviato** nel pannello a sinistra per visualizzare tutte le richieste inviate.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront.
+1. Fai clic su **Inviato** nel pannello a sinistra per visualizzare tutte le richieste inviate.
 
    È possibile visualizzare fino a 2.000 richieste, che possono essere visualizzate su più pagine.
 
@@ -85,7 +85,7 @@ Per individuare le richieste inviate da te o da altri utenti:
          <td role="rowheader">Nome</td> 
          <td> <p>Nome della richiesta.</p> <p>Fai clic sul nome di una richiesta per aprirla. </p> <p><b>SUGGERIMENTO</b>
 
-   Se il problema non è stato mantenuto durante la conversione in un’attività o un progetto, il nome del problema viene visualizzato in grigio e non è più possibile fare clic su di esso. Per informazioni sulla conversione dei problemi, consulta <a href="../../../manage-work/issues/convert-issues/convert-issues.md" class="MCXref xref">Panoramica sulla conversione dei problemi in Adobe Workfront</a>. </p> </td>
+   Se il problema non è stato mantenuto durante la conversione in un’attività o un progetto, il nome del problema viene visualizzato in grigio e non è più possibile fare clic su di esso. Per informazioni sulla conversione dei problemi, vedere <a href="../../../manage-work/issues/convert-issues/convert-issues.md" class="MCXref xref">Panoramica sulla conversione dei problemi in Adobe Workfront</a>. </p> </td>
    </tr> 
       <tr> 
          <td role="rowheader">Convertito in</td> 
@@ -116,17 +116,17 @@ Per individuare le richieste inviate da te o da altri utenti:
    >
    >Quando ci si sposta dall’elenco Richieste inviate, l’opzione di ordinamento selezionata viene mantenuta.
 
-1. (Facoltativo) Seleziona una richiesta nell’elenco, quindi fai clic sul pulsante **Apri riepilogo** icona ![](assets/open-summary-with-text-nwe.png) per aprire il pannello Riepilogo e visualizzare informazioni aggiuntive sulla richiesta, aggiungere commenti, documenti o assegnarlo. Per informazioni sul pannello Riepilogo, consulta [Panoramica di riepilogo](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+1. (Facoltativo) Selezionare una richiesta nell&#39;elenco, quindi fare clic sull&#39;icona **Apri riepilogo** ![](assets/open-summary-with-text-nwe.png) per aprire il pannello Riepilogo e visualizzare ulteriori informazioni sulla richiesta, aggiungere commenti, documenti o assegnarla. Per informazioni sul pannello Riepilogo, vedere [Panoramica di riepilogo](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
    >[!TIP]
    >
    >Se il pannello Riepilogo è già aperto, l&#39;icona Apri riepilogo diventa Chiudi riepilogo.
 
-1. (Facoltativo e condizionale) Fai clic su **X** nell’angolo in alto a destra o **Chiudi riepilogo** icona ![](assets/close-summary-with-text-nwe.png) per chiudere il pannello Riepilogo.
+1. (Facoltativo e condizionale) Fai clic sull&#39;icona **X** in alto a destra o sull&#39;icona **Chiudi riepilogo** ![](assets/close-summary-with-text-nwe.png) per chiudere il pannello Riepilogo.
 
-   Se un problema è stato convertito in un’attività o un progetto e successivamente eliminato nel processo di conversione, il pannello Riepilogo risulta vuoto. Per informazioni sulla conversione dei problemi, consulta [Panoramica sulla conversione dei problemi in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+   Se un problema è stato convertito in un’attività o un progetto e successivamente eliminato nel processo di conversione, il pannello Riepilogo risulta vuoto. Per informazioni sulla conversione dei problemi, vedere [Panoramica sulla conversione dei problemi in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-1. Dalla sezione **Icona Filtro** ![](assets/filter-nwepng.png) nella parte in alto a destra dell’elenco, seleziona uno dei filtri elencati nella tabella seguente.
+1. Dall&#39;icona **Filtro** ![](assets/filter-nwepng.png) in alto a destra dell&#39;elenco, selezionare uno dei filtri elencati nella tabella seguente.
 
    >[!TIP]
    >
@@ -141,7 +141,7 @@ Per individuare le richieste inviate da te o da altri utenti:
       <td>Tutte le richieste inviate, indipendentemente dallo stato o da chi le ha inviate.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Aperto</td> 
+      <td role="rowheader">Aperti</td> 
       <td> <p>Tutte le richieste inviate che sono attualmente aperte, indipendentemente da chi le ha inviate. Solo le richieste per le quali disponi almeno delle autorizzazioni di visualizzazione vengono visualizzate qui se non le hai inviate personalmente. </p> <p>Le richieste senza una data di completamento effettiva o il cui oggetto di risoluzione non dispone di una data di completamento effettiva sono elencate nella scheda secondaria Apri.</p> <p><b>SUGGERIMENTO</b>
 
    Le richieste con uno stato diverso da Chiuso vengono considerate aperte.</p> </td>
@@ -159,7 +159,7 @@ Per individuare le richieste inviate da te o da altri utenti:
     </tbody> 
    </table>
 
-1. (Facoltativo) Fai clic su **Filtra pagina** icona ![](assets/search-icon.png) nella parte superiore dell’elenco per cercare una richiesta per nome. L’elenco viene aggiornato con risultati che corrispondono ai criteri di ricerca.
+1. (Facoltativo) Fai clic sull&#39;icona ![](assets/search-icon.png) del filtro **Pagina** nella parte superiore dell&#39;elenco per cercare una richiesta in base al nome. L’elenco viene aggiornato con risultati che corrispondono ai criteri di ricerca.
 
    <!--
    <li value="9" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the&nbsp;<strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>
@@ -184,7 +184,7 @@ Per individuare le richieste inviate da te o da altri utenti:
    </ul></li>
    -->
 
-1. Clic **Bozze** per visualizzare tutte le bozze di richieste. Workfront salva un numero illimitato di bozze per ogni coda di richieste in questa cartella. Quando si immette una nuova richiesta per un argomento della coda che presenta già una bozza, viene richiesto di utilizzare una bozza esistente. Per ulteriori informazioni, consulta [Creare richieste da bozze](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
+1. Fai clic su **Bozze** per visualizzare tutte le richieste bozze. Workfront salva un numero illimitato di bozze per ogni coda di richieste in questa cartella. Quando si immette una nuova richiesta per un argomento della coda che presenta già una bozza, viene richiesto di utilizzare una bozza esistente. Per ulteriori informazioni, vedere [Creare richieste dalle bozze](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
 
  
 

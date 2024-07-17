@@ -79,7 +79,7 @@ Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione c
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Icona Blueprint nel menu principale ora controllata tramite modelli di layout</a></p>
+                        Icona <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Blueprint nel menu principale ora controllata tramite modelli di layout</a></p>
                         <p>Ora gli amministratori di sistema possono aggiungere o rimuovere l’icona Blueprint nel menu principale tramite la configurazione del modello di layout. Questo offre un maggiore controllo su chi può sfogliare il catalogo Blueprint.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -133,7 +133,7 @@ Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione c
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Consenso anticipato per le funzioni più recenti delle bacheche</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Consenso anticipato per le funzionalità più recenti delle bacheche</a> </p>
                         <p>Siamo entusiasti di aprire nuove funzioni per le schede madri con consenso alle funzioni anticipate. Questo strumento opzionale è disponibile per tutte le organizzazioni.</p>
                         <p>Solo un amministratore di Workfront può dare il consenso alle funzioni preliminari. Quando l’amministratore acconsente alle funzioni iniziali, tutti gli utenti dell’organizzazione hanno acconsentito e le funzioni aggiuntive sono abilitate nell’ambiente Workfront di produzione.</p>
                     </td>
@@ -212,7 +212,7 @@ Nota: questa funzionalità non è attualmente disponibile nel Bilanciatore dei c
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Selezione intelligente degli utenti per i ruoli di progetto nelle aree Modifica e Dettagli</a> </p>
                         <p>È stato migliorato il modo in cui gli utenti vengono visualizzati quando vengono aggiunti ai campi di progetto Proprietario progetto, Sponsor progetto e Responsabile delle risorse dalla casella Modifica e dalla sezione Dettagli del progetto.</p>
                         <p>Ora, quando si aggiunge un utente a uno di questi campi nelle aree Modifica o Dettagli, oltre al nome e all’avatar, vengono visualizzati anche il Ruolo principale e l’e-mail. Questo aiuta a distinguere tra più utenti con nomi simili o identici.</p>
-                        <p><b>NOTA:</b> Campi utente aggiuntivi per progetti, attività e problemi saranno aggiornati con questa funzionalità nelle versioni future.</p>
+                        <p><b>NOTA:</b> ulteriori campi utente per progetti, attività e problemi saranno aggiornati con questa funzionalità nelle versioni future.</p>
                     </td>
                     <td><b>Disponibile in queste date:</b>
                         <ul>
@@ -227,7 +227,7 @@ Nota: questa funzionalità non è attualmente disponibile nel Bilanciatore dei c
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">I campi data calcolati vengono sempre salvati in base al Coordinated Universal Time (UTC)</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">I campi data calcolati vengono sempre salvati in base all'ora UTC (Coordinated Universal Time)</a> </p>
                         <p>Ora puoi essere sicuro che tutte le funzioni data nei campi calcolati funzionino in modo coerente e producano lo stesso risultato per tutti, indipendentemente da come un’espressione di dati personalizzata viene aggiornata o da dove gli utenti collaborano all’oggetto in tutto il mondo. </p>
                         <p>Tutti i calcoli vengono ora calcolati e salvati in base a un unico standard, il Coordinated Universal Time (UTC), e non in base alle configurazioni del fuso orario impostate per l’istanza della tua organizzazione e per il tuo profilo utente individuale. Tuttavia, i calcoli vengono visualizzati in un modulo personalizzato basato sui singoli fusi orari impostati dagli utenti nel browser.</p>
                         <p>In precedenza, le impostazioni di tempo nei calcoli causavano confusione quando variavano in queste situazioni:</p>
@@ -239,7 +239,7 @@ Nota: questa funzionalità non è attualmente disponibile nel Bilanciatore dei c
                                 <p>Se qualcuno ha modificato l’oggetto e questo ha causato il ricalcolo dell’espressione del campo calcolato, i risultati della funzione data sono determinati dal fuso orario locale dell’utente. I risultati del campo data calcolata in questo scenario verranno calcolati anche in base all’UTC.</p>
                             </li>
                         </ul>
-                        <p>Per ulteriori informazioni, consulta <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref" xrefformat="{para}">Utilizzo dei fusi orari</a>.</p>
+                        <p>Per ulteriori informazioni, vedere <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref" xrefformat="{para}">Utilizzo tra fusi orari</a>.</p>
                     </td>
                     <td><b>Disponibile in queste date:</b>
                         <ul>
@@ -254,7 +254,7 @@ Nota: questa funzionalità non è attualmente disponibile nel Bilanciatore dei c
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuova esperienza di filtro per progetti, attività e problemi (Beta)</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuova esperienza filtro per progetti, attività e problemi (Beta)</a> </p>
                         <p>I filtri negli elenchi di progetti, attività e problemi sono stati riprogettati per aiutarti a creare e condividere rapidamente i filtri. Le caratteristiche includono:</p>
                         <ul>
                             <li>
@@ -338,7 +338,7 @@ Nota: questa funzionalità non è attualmente disponibile nel Bilanciatore dei c
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">La colonna Acquisizione è disponibile sulle bacheche</a></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Colonna acquisizione disponibile nelle bacheche</a></p>
                         <p>Ora puoi aggiungere una colonna di acquisizione a una bacheca. Questa colonna richiama automaticamente le attività e i problemi nella bacheca durante l’aggiunta in Workfront, in base ai filtri definiti.</p>
                         <p>La colonna Acquisizione può fungere da colonna di backlog per un team Kanban, da posizione di acquisizione per un team di supporto per visualizzare i problemi man mano che vengono aggiunti a una coda di richieste o per qualsiasi altro scopo.</p>
                         <p>È consentita una sola colonna di aspirazione su una bacheca.</p>
@@ -379,7 +379,7 @@ Nota: questa funzionalità non è attualmente disponibile nel Bilanciatore dei c
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Utilizzare i gruppi su una bacheca per creare corsie</a></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Utilizzare i gruppi su una bacheca per creare corsie da bagno</a></p>
                         <p>È ora possibile raggruppare le schede su una bacheca per assegnatario o per tag. Quando selezionate un'opzione per il raggruppamento, le schede vengono visualizzate in formato corsia. Le schede non assegnate o quelle senza tag vengono visualizzate nella propria corsia.</p>
                         <p>Puoi anche definire cosa accade quando una scheda viene spostata da un gruppo all’altro. L’assegnatario o il tag nel gruppo a cui viene spostata la scheda può essere aggiunto agli assegnatari/tag esistenti o ignorato dagli altri assegnatari/tag nella scheda.</p>
                         <p>Tutte le schede nella colonna Acquisizione non sono incluse in un gruppo.</p>
@@ -397,7 +397,7 @@ Nota: questa funzionalità non è attualmente disponibile nel Bilanciatore dei c
                 </tr>
                  <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Miglioramenti alle voci dell’elenco di controllo nelle bacheche</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Miglioramenti agli elementi dell'elenco di controllo nelle bacheche</a> </p>
                         <p>L’apertura di una voce dell’elenco di controllo su una scheda ora consente di aggiungere informazioni più dettagliate sull’elemento, tra cui una descrizione, la data di scadenza, gli assegnatari e la stima. È inoltre possibile copiare una voce dell'elenco di controllo che non era disponibile in precedenza.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -514,7 +514,7 @@ Nota: questa funzionalità non è attualmente disponibile nel Bilanciatore dei c
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Mostra tutti gli utenti con una mansione selezionata nel Bilanciatore dei carichi di lavoro durante l’assegnazione del lavoro in blocco</a></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Mostra tutti gli utenti con una mansione selezionata nel Bilanciatore dei carichi di lavoro durante l'assegnazione del lavoro in blocco</a></p>
                         <p>Per facilitare la ricerca della persona giusta al momento di sostituire i ruoli con gli utenti nel Bilanciatore dei carichi di lavoro in blocco, è stato migliorato il modo in cui l’elenco degli utenti disponibili si popola. Ora è possibile visualizzare tutti gli utenti del sistema che possono svolgere il ruolo selezionato in due aree separate nello stesso elenco di utenti:</p>
                         <ul>
                             <li>
@@ -587,7 +587,7 @@ Nota: questa funzionalità non è attualmente disponibile nel Bilanciatore dei c
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti look-and-feel durante il periodo di rilascio della versione 22.4</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti look-and-feel durante l'intervallo di tempo della versione 22.4</a> </p>
                         <p>Aggiornamenti minori al look and feel di varie aree dell’applicazione Adobe Workfront vengono effettuati entro l’intervallo di tempo della versione 22.4. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione almeno 2 settimane dopo il rilascio in anteprima. </p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -621,7 +621,7 @@ Nota: questa funzionalità non è attualmente disponibile nel Bilanciatore dei c
                 <tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Sincronizzare i metadati degli oggetti con l’integrazione nativa di Experience Manager Assets</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Sincronizza i metadati dell'oggetto con l'integrazione nativa di Experience Manager Assets</a> </p>
                         <p>Ora i campi portfolio, programma, progetto, attività, problema e documento di Workfront vengono aggiornati automaticamente quando vengono modificati in Workfront.</p>
                         <p>Per consentire la sincronizzazione automatica dei metadati dell'oggetto, è necessario abilitare l'opzione Sincronizza metadati dell'oggetto per le integrazioni in Configurazione &gt; Integrazioni Experience Manager.</p>
                         <p>In precedenza, venivano aggiornati automaticamente solo i campi del progetto.</p>
@@ -656,7 +656,7 @@ Nota: questa funzionalità non è attualmente disponibile nel Bilanciatore dei c
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Campagne Workfront (versione beta)</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Campagne Workfront (Beta)</a> </p>
                         <p>Stiamo introducendo un nuovo oggetto in Adobe Workfront che ha il potenziale per cambiare il modo in cui gestisci il lavoro. </p>
                         <p>Workfront Campaigns consente di organizzare progetti da diversi portfolio e programmi in un nuovo contenitore di lavoro.
 Le campagne sono state rilasciate in anteprima beta con la versione 22.3, a luglio 2022.</p>
@@ -666,19 +666,19 @@ Le campagne sono state rilasciate in anteprima beta con la versione 22.3, a lugl
     &lt;td>&lt;p>&lt;b>Disponibile in queste date:&lt;/b>&lt;/p>
     &lt;ul>
     &lt;li>
-    &lt;p>Versione di anteprima: nell’arco temporale della versione 22.4&lt;br />&lt;/p>
+    &lt;p>Versione di anteprima:&amp;#160;Durante l&#39;intervallo di tempo della versione 22.4&lt;br />&lt;/p>
     &lt;/li>
     &lt;li>
-    &lt;p>Versione di produzione: da definire&lt;/p>
+    &lt;p>Versione di produzione:&amp;#160;TBD&lt;/p>
     &lt;/li>
     &lt;/ul>
     &lt;/td>
     &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;&lt;span id=&quot; translate=&quot;no&quot; />&quot;>Descrizione team espanso&lt;/a>&lt;/p>
-    &lt;p>Nell&#39;area Team è ora possibile visualizzare la descrizione completa del team facendo clic sulla descrizione per visualizzarla in un pop-up. {para} Qualsiasi URL nella descrizione è cliccabile nel pop-up e puoi fare clic nel testo della descrizione per modificarlo (se hai accesso per modificare le impostazioni del team).&lt;/p>
-    &lt;p>In precedenza, scorrere la descrizione in un’area stretta era l’unico modo per visualizzare tutto il contenuto.&lt;/p>
+    &lt;tr> 13}&lt;td>
+    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Descrizione team espansa&lt;/a>&lt;/p>
+    &lt;p>Nell&#39;area Team è ora possibile visualizzare la descrizione completa del team facendo clic sulla descrizione per visualizzarla in una finestra a comparsa. 
+     Qualsiasi URL nella descrizione è cliccabile nel pop-up e puoi fare clic nel testo della descrizione per modificarlo (se hai accesso per modificare le impostazioni del team).&lt;/p>
+    &lt;p>In precedenza, l&#39;unico modo per visualizzare tutto il contenuto era scorrere la descrizione in un&#39;area ristretta.&lt;/p>
 <p>Questo miglioramento alla descrizione si applica sia ai team agili che a quelli non agili.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -710,7 +710,7 @@ Con questo aggiornamento, il Visualizzatore bozze desktop supporterà Chrome ver
 
 ### Miglioramenti apportati a Workfront Fusion
 
-Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione della versione 22.4. Per ulteriori informazioni sulle funzioni più recenti, consulta [Attività di rilascio di Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione della versione 22.4. Per ulteriori informazioni sulle funzionalità più recenti, vedere [Attività di Adobe Workfront Fusion release](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Miglioramenti di Workfront Scenario Planner
 
@@ -718,7 +718,7 @@ A questo punto della versione, non sono presenti aggiornamenti di Scenario Plann
 
 ### Miglioramenti di Workfront Proof
 
-A questo punto della versione, non sono presenti aggiornamenti di bozza per Workfront. Questa area verrà aggiornata quando saranno disponibili aggiornamenti.
+A questo punto della versione, non ci sono aggiornamenti per Workfront Proof. Questa area verrà aggiornata quando saranno disponibili aggiornamenti.
 
 ### Miglioramenti agli obiettivi di Workfront
 
@@ -728,21 +728,21 @@ A questo punto della versione, non ci sono aggiornamenti per gli Obiettivi di Wo
 
 Per API versione 14, abbiamo modificato alcune risorse ed endpoint. Alcune delle modifiche supportano nuove funzionalità, mentre altre semplificano l’utilizzo delle informazioni disponibili tramite l’API.
 
-Per informazioni sulle novità e sugli aggiornamenti, consulta [Novità della versione 14 dell’API](/help/quicksilver/wf-api/api/new-api-version-14.md).
+Per informazioni sulle novità e sugli aggiornamenti, vedere [Novità della versione 14](/help/quicksilver/wf-api/api/new-api-version-14.md) dell&#39;API.
 
-Per informazioni sulle versioni API, consulta [Pianificazione del supporto e del controllo delle versioni API](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Per informazioni sulle versioni API, vedere [Controllo delle versioni e pianificazione del supporto API](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione 22.3, consulta [Aggiornamenti di manutenzione per Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Per informazioni sugli aggiornamenti di manutenzione apportati durante la versione 22.3, vedere [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Webinar sulla versione 22.4
 
-Il webinar sulla versione 22.4 si terrà giovedì 22 settembre 2022 alle 9:00 PDT. È possibile [registrati qui per il webinar](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt).
+Il webinar sulla versione 22.4 si terrà giovedì 22 settembre 2022 alle 9:00 PDT. Puoi [registrarti al webinar qui](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt).
 
 ### Aggiornamenti dei corsi di formazione
 
-Scopri gli ultimi aggiornamenti apportati a programmi di apprendimento, percorsi di apprendimento, video e guide per ogni versione di Adobe Workfront. Per ulteriori informazioni, vedere [Pagina Aggiornamenti delle versioni del corso di formazione](https://one.workfront.com/s/training-release-updates).
+Scopri gli ultimi aggiornamenti apportati a programmi di apprendimento, percorsi di apprendimento, video e guide per ogni versione di Adobe Workfront. Per ulteriori informazioni, vedere la [pagina Aggiornamenti delle versioni di formazione](https://one.workfront.com/s/training-release-updates).
 
 ### Funzionalità rimossa con la versione 22.4
 
@@ -773,4 +773,4 @@ La seguente funzione verrà rimossa a novembre 2022:
 
   Questo tipo di evento consentiva ai clienti di controllare quando le autorizzazioni per gli oggetti venivano aggiornate.
 
-  Per ulteriori informazioni sulle sottoscrizioni di eventi e su altri tipi di eventi che continueranno a essere supportati, consulta [API di abbonamento agli eventi](/help/quicksilver/wf-api/general/event-subs-api.md)
+  Per ulteriori informazioni sulle sottoscrizioni eventi e su altri tipi di eventi che continueranno a essere supportati, vedere [API sottoscrizione eventi](/help/quicksilver/wf-api/general/event-subs-api.md)

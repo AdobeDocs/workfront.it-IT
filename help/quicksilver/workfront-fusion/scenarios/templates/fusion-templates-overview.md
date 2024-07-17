@@ -3,19 +3,20 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Panoramica dei modelli di Adobe Workfront Fusion
-description: La funzione dei modelli di Workfront Fusion consente di creare e utilizzare i modelli esistenti come punto di partenza per [!DNL Workfront Fusion] scenari.
+description: La funzionalità dei modelli di Workfront Fusion consente di creare e utilizzare modelli esistenti come punto di partenza per gli  [!DNL Workfront Fusion]  scenari.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: ebc1853906e56b95601c1fe202ddc19d147fa7c2
+exl-id: 02c10997-28bd-46b4-bbcc-0c907cdaeb7b
+source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 1%
 
 ---
 
-# [!DNL Adobe Workfront Fusion] panoramica dei modelli
+# Panoramica dei modelli [!DNL Adobe Workfront Fusion]
 
-[!DNL Workfront Fusion] la funzione modelli consente di creare e utilizzare modelli esistenti come punto di partenza per [!DNL Workfront Fusion] scenari. I modelli rappresentano casi d’uso comuni che è possibile configurare e modificare per soddisfare le esigenze della tua organizzazione e casi d’uso specifici.
+La funzionalità [!DNL Workfront Fusion] modelli consente di creare e utilizzare modelli esistenti come punto di partenza per gli scenari [!DNL Workfront Fusion]. I modelli rappresentano casi d’uso comuni che è possibile configurare e modificare per soddisfare le esigenze della tua organizzazione e casi d’uso specifici.
 
 Per un elenco dei modelli di Fusion attualmente disponibili, vedere [Modelli di Adobe Workfront Fusion attualmente disponibili](/help/quicksilver/workfront-fusion/scenarios/templates/currently-available-fusion-templates.md).
 
@@ -38,7 +39,7 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licenza**</td>  
    <td> 
-   <p>Corrente: No [!DNL Workfront Fusion] requisito di licenza.</p> 
+   <p>Corrente: nessun requisito di licenza [!DNL Workfront Fusion].</p> 
    <p>Oppure</p> 
    <p>Legacy: qualsiasi </p> 
    </td>  
@@ -46,7 +47,7 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   <tr>  
    <td role="rowheader">Prodotto</td>  
    <td> 
-   <p>Nuovo:</p> <ul><li>[!UICONTROL Select] o [!UICONTROL Prime] [!DNL Workfront] Piano: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Piano: [!DNL Workfront Fusion] è incluso.</li></ul> 
+   <p>Nuovo:</p> <ul><li>Piano [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Workfront]: l'organizzazione deve acquistare [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Il piano [!DNL Workfront Fusion] è incluso.</li></ul> 
    <p>Oppure</p> 
    <p>Corrente: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion].</p> 
    </td>  
@@ -56,13 +57,13 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](/help/quicksilver/workfront-fusion/get-started/license-automation-vs-integration.md).
+Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adobe Workfront Fusion] licenze](/help/quicksilver/workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Visualizza e seleziona modelli di fusione
 
 Nell&#39;area Modelli è possibile visualizzare i modelli disponibili, le applicazioni incluse e la relativa struttura. Puoi anche cercare app o nomi specifici e filtrare i casi d’uso in base a.
 
-1. Clic **Modelli** ![Icona modello](assets/fusion-template-icon.png) nel menu di navigazione a sinistra.
+1. Fai clic su **Modelli** ![Icona modello](assets/fusion-template-icon.png) nell&#39;area di navigazione a sinistra.
 1. Per visualizzare un modello disponibile pubblicamente, fare clic sulla scheda Modelli pubblici.
 
    Oppure
@@ -79,6 +80,6 @@ Nell&#39;area Modelli è possibile visualizzare i modelli disponibili, le applic
 
    Viene visualizzato un diagramma del modello.
 
-1. Per creare uno scenario dal modello, fai clic su **Crea nuovo scenario dal modello** nell’angolo in basso a sinistra.
+1. Per iniziare a creare uno scenario dal modello, fare clic su **Crea nuovo scenario dal modello** nell&#39;angolo inferiore sinistro.
 
-Per istruzioni sulla creazione di uno scenario da un modello, consulta [Creare scenari con [!DNL Adobe Workfront Fusion] modelli](/help/quicksilver/workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md).
+Per istruzioni sulla creazione di uno scenario da un modello, vedi [Creare scenari con [!DNL Adobe Workfront Fusion] modelli](/help/quicksilver/workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md).

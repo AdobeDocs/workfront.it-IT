@@ -20,22 +20,22 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alle funzionalità del prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Bozza](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
 Questa sezione contiene i seguenti articoli:
 
-* [Gestisci [!DNL Workfront Proof] utenti](../../../workfront-proof/wp-acct-admin/account-settings/manage-wp-users.md)
-* [Configurare il profilo di autorizzazione di una bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/config-user-pref-in-wp.md)
-* [Configurare profili personalizzati in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md)
-* [Configurare il Single Sign-On per [!DNL Workfront Proof] utenti](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
-* [Accesso Single Sign-On [!DNL Workfront Proof]: configurazione ADFS](../../../workfront-proof/wp-acct-admin/account-settings/sso-in-wp-adfs-configuration.md)
-* [Profili delle autorizzazioni di bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)
-* [Configurare le opzioni di decisione di approvazione in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md)
-* [Creare e gestire campi personalizzati in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md)
-* [Configurare la zona di rilascio in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)
+* [Gestisci [!DNL Workfront Proof]  utenti](../../../workfront-proof/wp-acct-admin/account-settings/manage-wp-users.md)
+* [Configura il profilo di autorizzazione di una bozza di un utente in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/config-user-pref-in-wp.md)
+* [Configura profili personalizzati in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md)
+* [Configura Single Sign-On per  [!DNL Workfront Proof]  utenti](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+* [Single Sign-On in [!DNL Workfront Proof]: configurazione AD FS](../../../workfront-proof/wp-acct-admin/account-settings/sso-in-wp-adfs-configuration.md)
+* [Profili autorizzazioni bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)
+* [Configura le opzioni di decisione di approvazione in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md)
+* [Crea e gestisci campi personalizzati in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md)
+* [Configura la zona di rilascio in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)
 * [Configurazione account per le integrazioni in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/integrations-account-setup.md)
 * [Visualizza registri di autenticazione in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/view-auth-logs-in-wp.md)
-* [Visualizzare e modificare i [!DNL Workfront Proof] dettagli account](../../../workfront-proof/wp-acct-admin/account-settings/view-edit-org-wp-acct-details.md)
-* [Visualizzare i [!DNL Workfront Proof] cronologia account amministratore](../../../workfront-proof/wp-acct-admin/account-settings/view-org-wp-acct-history.md)
-* [Controlla il tuo [!DNL Workfront Proof] archiviazione](../../../workfront-proof/wp-acct-admin/account-settings/check-workfront-proof-storage.md)
-* [Richiedi nuovo backup dati in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/request-new-data-backup-in-wp.md)
+* [Visualizza e modifica i dettagli dell&#39;account  [!DNL Workfront Proof]  della tua organizzazione](../../../workfront-proof/wp-acct-admin/account-settings/view-edit-org-wp-acct-details.md)
+* [Visualizza la cronologia degli account dell&#39;amministratore  [!DNL Workfront Proof]  della tua organizzazione](../../../workfront-proof/wp-acct-admin/account-settings/view-org-wp-acct-history.md)
+* [Controlla l&#39;archivio  [!DNL Workfront Proof] ](../../../workfront-proof/wp-acct-admin/account-settings/check-workfront-proof-storage.md)
+* [Richiedi un nuovo backup dei dati in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/request-new-data-backup-in-wp.md)

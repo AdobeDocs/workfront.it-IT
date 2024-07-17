@@ -19,7 +19,7 @@ In qualità di revisore, puoi visualizzare un documento che ti è stato inviato 
 
 >[!IMPORTANT]
 >
->Il contenuto di questo articolo fa riferimento alla funzionalità di approvazione dei documenti aggiornata, disponibile solo per account specifici. Per informazioni sui processi di approvazione standard, vedi gli articoli elencati in [Approvazioni lavoro](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>Il contenuto di questo articolo fa riferimento alla funzionalità di approvazione dei documenti aggiornata, disponibile solo per account specifici. Per informazioni sui processi di approvazione standard, vedere gli articoli elencati in [Approvazioni di lavoro](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Requisiti di accesso
 
@@ -43,12 +43,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizza o autorizzazioni superiori per gli oggetti associati alle approvazioni</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Visualizza o autorizzazioni superiori per gli oggetti associati alle approvazioni</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 <!--
 ## Review a document from Home
@@ -63,32 +63,32 @@ Add once functionality is added
 
 1. Posizionare il puntatore del mouse sul documento nella casella Anteprima. Quindi:
 
-   Clic **Anteprima** per aprire una versione di sola lettura del documento in una nuova finestra.
+   Fare clic su **Anteprima** per aprire una versione di sola lettura del documento in una nuova finestra.
 
    OPPURE
 
-   Clic **Scarica** per scaricare una copia locale del documento sul dispositivo.
+   Fai clic su **Scarica** per scaricare una copia locale del documento sul dispositivo.
 
-1. (Facoltativo) Dopo aver rivisto il documento, è possibile lasciare un commento per il richiedente nel **Aggiornamenti** sezione. Per ulteriori informazioni sui commenti, consulta [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. Per registrare che hai completato la revisione, fai clic su **Revisione completa**.
+1. (Facoltativo) Dopo aver rivisto il documento, puoi lasciare un commento per il richiedente nella sezione **Aggiornamenti** del documento. Per ulteriori informazioni sui commenti, vedere [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Per registrare che hai completato la revisione, fai clic su **Completa revisione**.
 
 ## Esaminare un documento dal riquadro Riepilogo documento
 
-1. Vai al progetto, all’attività o al problema che contiene il documento, quindi seleziona **Documenti**.
+1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
 
 1. Fare clic sul documento necessario per aprire il riquadro Riepilogo documento.
 
 1. Seleziona la versione del documento da rivedere nel menu a discesa della versione. Per impostazione predefinita, viene selezionata la versione più recente.
 
-1. Passa il puntatore del mouse sull&#39;anteprima del documento nella **Dettagli** nella parte superiore del riquadro Riepilogo documento. Quindi:
+1. Passa il puntatore del mouse sull&#39;anteprima del documento nella sezione **Dettagli** nella parte superiore del riquadro Riepilogo documento. Quindi:
 
-   Clic **Anteprima** per aprire una versione di sola lettura del documento in una nuova finestra.
+   Fare clic su **Anteprima** per aprire una versione di sola lettura del documento in una nuova finestra.
 
    OPPURE
 
-   Clic **Scarica** per scaricare una copia locale del documento sul dispositivo.
+   Fai clic su **Scarica** per scaricare una copia locale del documento sul dispositivo.
 
-1. (Facoltativo) Dopo aver rivisto il documento, è possibile lasciare un commento per il richiedente nel **Aggiornamenti** sezione. Per ulteriori informazioni sui commenti, consulta [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Facoltativo) Dopo aver rivisto il documento, puoi lasciare un commento per il richiedente nella sezione **Aggiornamenti** del documento. Per ulteriori informazioni sui commenti, vedere [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Facoltativo) Puoi anche visualizzare in anteprima o scaricare una versione specifica del documento scorrendo fino alla sezione **Versioni** del riquadro Riepilogo documento, quindi facendo clic sull&#39;icona Altro ![](../assets/more-icon.png) accanto alla versione che desideri rivedere e selezionare **Scarica** o **Anteprima**.
-1. Per registrare che hai completato la revisione, fai clic su **Revisione completa**.
+1. (Facoltativo) Puoi anche visualizzare in anteprima o scaricare una versione specifica del documento scorrendo verso il basso fino alla sezione **Versioni** del riquadro Riepilogo documento, quindi facendo clic sull&#39;icona Altro ![](../assets/more-icon.png) accanto alla versione da rivedere e selezionando **Scarica** o **Anteprima**.
+1. Per registrare che hai completato la revisione, fai clic su **Completa revisione**.

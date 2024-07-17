@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Nell’area Forms personalizzata è possibile aggiungere una visualizzazione personalizzata che mostra quali rapporti utilizzano un particolare campo personalizzato o widget. Questa funzione è utile quando devi modificare o eliminare il campo o il widget, perché potrebbe già essere implementato in uno o più rapporti. È importante valutare se quei rapporti avranno bisogno di aggiustamenti per continuare a funzionare correttamente.
 
-Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, vedi [Aggiungere un campo personalizzato a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) e [Aggiungere o modificare un widget di risorse in un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, consulta [Aggiungere un campo personalizzato a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) e [Aggiungere o modificare un widget di risorse in un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Requisiti di accesso
 
@@ -51,27 +51,27 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 {{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su **Forms personalizzato**.
-1. Clic **Campi** per visualizzare un rapporto in cui sono elencati tutti i campi personalizzati e i widget nell’istanza di Workfront.
+1. Fai clic su **Campi** per visualizzare un report in cui sono elencati tutti i campi e i widget personalizzati nella tua istanza di Workfront.
 
-1. Fai clic su **Visualizza** , quindi verificare la presenza di eventuali viste personalizzate nell&#39;elenco che includono **Rapporti** (che non è una colonna predefinita in questa scheda).
+1. Fai clic sul menu **Visualizza**, quindi controlla eventuali viste personalizzate nell&#39;elenco che includono la colonna **Rapporti** (che non è una colonna predefinita in questa scheda).
 
-   Nella colonna Rapporti è possibile visualizzare i rapporti che utilizzano ogni campo personalizzato e widget aggiunto a un modulo personalizzato nel sistema. È possibile che un utente abbia già creato una visualizzazione che include **Rapporti** colonna.
+   Nella colonna Rapporti è possibile visualizzare i rapporti che utilizzano ogni campo personalizzato e widget aggiunto a un modulo personalizzato nel sistema. È possibile che un utente abbia già creato una visualizzazione che include la colonna **Report**.
 
-1. Se non viene visualizzata una visualizzazione che include **Rapporti** , crea una nuova visualizzazione che la includa:
+1. Se non vedi una visualizzazione che include la colonna **Report**, crea una nuova visualizzazione che la include:
 
-   1. Fai clic su **Visualizza** , quindi fai clic su **Nuova visualizzazione**.
+   1. Fai clic sul menu **Visualizza**, quindi fai clic su **Nuova visualizzazione**.
 
-   1. Il giorno **Nuova visualizzazione** pagina visualizzata, nella casella accanto all&#39;angolo superiore sinistro sostituire **Nuova vista parametro** con un nome descrittivo per la visualizzazione, ad esempio *Campi e widget*.
+   1. Nella pagina **Nuova visualizzazione** visualizzata, nella casella accanto all&#39;angolo superiore sinistro sostituire **Nuova visualizzazione parametri** con un nome descrittivo per la visualizzazione, ad esempio *Campi e widget*.
 
-   1. Clic **Aggiungi colonna** nell&#39;angolo inferiore destro.
-   1. In **Mostra in questa colonna** che viene visualizzata vicino all&#39;angolo superiore sinistro, inizia a digitare *rapporto*, quindi seleziona **Rapporti** quando viene visualizzato nell’elenco sotto la casella.
+   1. Fai clic su **Aggiungi colonna** nell&#39;angolo inferiore destro.
+   1. Nella casella **Mostra in questa colonna** visualizzata nell&#39;angolo superiore sinistro, inizia a digitare *report*, quindi seleziona **Report** quando viene visualizzato nell&#39;elenco sotto la casella.
 
-   1. (Condizionale) Se desideri spostare il **Rapporti** colonna appena aggiunta a una diversa posizione orizzontale, trascina la relativa intestazione nella **Anteprima colonna** nella parte inferiore della pagina.
+   1. (Condizionale) Se vuoi spostare la colonna **Rapporti** che hai appena aggiunto in una posizione orizzontale diversa, trascina la relativa intestazione nell&#39;area **Anteprima colonna** nella parte inferiore della pagina.
 
-   1. Clic **Fine**, quindi fai clic su **Salva visualizzazione**.
+   1. Fai clic su **Fine**, quindi fai clic su **Salva visualizzazione**.
 
-1. Fai clic su **Visualizza** , quindi selezionare il nome della visualizzazione personalizzata appena creata.
-1. In **Nome** , trovare il campo personalizzato o il widget che si intende modificare o eliminare, quindi esaminare **Rapporti** nella riga per vedere quali rapporti la utilizzano, se presenti.
+1. Fai clic sul menu a discesa **Visualizza**, quindi seleziona il nome della visualizzazione personalizzata appena creata.
+1. Nella colonna **Nome**, individua il campo personalizzato o il widget che intendi modificare o eliminare, quindi controlla la colonna **Rapporti** in quella riga per vedere quali rapporti lo utilizzano, se presenti.
 
    Per trovare le informazioni per questa colonna, Workfront cerca i campi personalizzati e i widget in tutti i filtri, le visualizzazioni e i raggruppamenti dei rapporti.
 
@@ -87,10 +87,10 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    >
    >Questa vista è disponibile anche in un rapporto Parametro:
    >      
-   > 1. Nel menu principale, fare clic su **Rapporti**.
-   > 1. Fai clic su in alto a sinistra **Nuovo rapporto**, quindi fai clic su **Parametro** nell’elenco visualizzato.
-   > 1. Clic **Aggiungi colonna** nell&#39;angolo inferiore destro.
-   > 1. In **Mostra in questa colonna** che viene visualizzata vicino all&#39;angolo superiore sinistro, inizia a digitare *rapporto*, quindi seleziona **Rapporti** quando viene visualizzato nell’elenco sotto la casella.
-   > 1. (Condizionale) Se desideri spostare il **Rapporti** colonna appena aggiunta a una diversa posizione orizzontale, trascina la relativa intestazione nella **Anteprima colonna** nella parte inferiore della pagina.
-   > 1. Clic **Fine**, quindi fai clic su **Salva+Chiudi**.
-   > 1. Digita un nome descrittivo per il rapporto, ad esempio *Campi e widget*.
+   > 1. Nel menu principale, fare clic su **Report**.
+   > 1. Fai clic su **Nuovo report** nell&#39;angolo in alto a sinistra, quindi fai clic su **Parametro** nell&#39;elenco visualizzato.
+   > 1. Fai clic su **Aggiungi colonna** nell&#39;angolo inferiore destro.
+   > 1. Nella casella **Mostra in questa colonna** visualizzata nell&#39;angolo superiore sinistro, inizia a digitare *report*, quindi seleziona **Report** quando viene visualizzato nell&#39;elenco sotto la casella.
+   > 1. (Condizionale) Se vuoi spostare la colonna **Rapporti** che hai appena aggiunto in una posizione orizzontale diversa, trascina la relativa intestazione nell&#39;area **Anteprima colonna** nella parte inferiore della pagina.
+   > 1. Fai clic su **Fine**, quindi su **Salva+Chiudi**.
+   > 1. Digitare un nome descrittivo per il report, ad esempio *Campi e widget*.

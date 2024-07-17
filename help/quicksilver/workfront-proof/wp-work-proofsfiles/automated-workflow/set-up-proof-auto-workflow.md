@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: automated-workflow-workfront-proof
-title: Imposta una bozza con un flusso di lavoro automatizzato in [!DNL Workfront Proof]
-description: Questo ripete le informazioni presenti nella Configurazione delle bozze in Workfront. Consolidate qui o là. Forse meglio qui.
+title: Configura una bozza con un flusso di lavoro automatico in [!DNL Workfront Proof]
+description: Questo ripete le informazioni trovate in Configurazione delle bozze in Workfront. Consolida qui o là. Forse meglio qui.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 605569df-8e63-476d-a0cd-e73802042011
@@ -14,175 +14,174 @@ ht-degree: 0%
 
 ---
 
-# Imposta una bozza con un flusso di lavoro automatizzato in [!DNL Workfront Proof]
+# Configurare una bozza con un flusso di lavoro automatico in [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alla funzionalità del prodotto standalone [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Copertura](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
-Flusso di lavoro automatizzato consente di gestire più facilmente la revisione e l’approvazione dei contenuti in caso di processi di revisione complessi o se si inviano regolarmente contenuti per la revisione agli stessi gruppi di persone.
+Il flusso di lavoro automatizzato semplifica la gestione della revisione e dell&#39;approvazione dei contenuti quando si utilizzano processi di revisione complessi o quando si inviano regolarmente contenuti per la revisione agli stessi gruppi di persone.
 
-Si crea la bozza, quindi si sposta da un passaggio all&#39;altro fino all&#39;approvazione finale. Gli utenti interessati vengono informati ogni volta che sono tenuti a rilasciare un&#39;approvazione.
+La bozza viene creata e quindi spostata da un punto all’altro dell’applicazione fino all’approvazione finale. Gli utenti interessati ricevono una notifica ogni volta che sono tenuti a effettuare un’approvazione.
 
-![stage_diagramma.png](assets/stages-diagram-350x81.png)
+![diagramma_stadi.png](assets/stages-diagram-350x81.png)
 
-Puoi aggiungere un flusso di lavoro automatizzato a una bozza durante il caricamento del documento o dopo il caricamento del documento.
+È possibile aggiungere un flusso di lavoro automatico a una bozza durante il caricamento del documento o dopo il caricamento del documento.
 
-## Creare una bozza con Flusso di lavoro automatizzato
+## Creare una bozza con il flusso di lavoro automatico
 
 1. Inizia a creare la bozza.
-1. In **[!UICONTROL Condividi]** sezione, fai clic su **[!UICONTROL Utilizza flusso di lavoro automatizzato]**.
+1. Nella sezione **[!UICONTROL Condividi]**, fai clic su **[!UICONTROL Usa flusso di lavoro automatico]**.
 
    Puoi deselezionare questa opzione per tornare a un flusso di lavoro standard.
 
-1. (Facoltativo) Se desideri utilizzare un modello di flusso di lavoro automatizzato che [!DNL Workfront] amministratore configurato e condiviso con te, selezionalo nella **[!UICONTROL Selezionare un modello di flusso di lavoro]** menu a discesa.
+1. (Facoltativo) Se desideri utilizzare un modello di flusso di lavoro automatico configurato e condiviso con te dall&#39;amministratore [!DNL Workfront], selezionalo nel menu a discesa **[!UICONTROL Seleziona un modello di flusso di lavoro]**.
 
    >[!NOTE]
    >
-   >La possibilità di modificare il modello dipende dalle impostazioni del modello configurate dal [!DNL Workfront] amministratore. Se la possibilità di modificare il modello è disabilitata, solo il proprietario del modello può modificarlo.
+   >La possibilità di modificare il modello dipende dalle impostazioni configurate dall&#39;amministratore [!DNL Workfront]. Se la possibilità di modificare il modello è disabilitata, solo il proprietario del modello può modificarlo.
 
-1. Specifica le seguenti informazioni per configurare la prima fase del flusso di lavoro automatizzato:
+1. Specifica le seguenti informazioni per configurare la prima fase del flusso di lavoro automatico:
 
-   * **[!UICONTROL Nome]:** Il nome dell’area di visualizzazione viene visualizzato nel diagramma del flusso di lavoro e incluso nelle notifiche e-mail inviate ai revisori.
-   * **[!UICONTROL Termine]:** La funzionalità di questo campo varia a seconda dell’opzione selezionata nel **[!UICONTROL Termine calcolato a partire da]** elenco a discesa.
+   * **[!UICONTROL Nome]:** Il nome della fase viene visualizzato nel diagramma del flusso di lavoro ed è incluso nelle notifiche e-mail inviate ai revisori.
+   * **[!UICONTROL Scadenza]:** Le funzionalità di questo campo variano a seconda dell&#39;opzione selezionata nell&#39;elenco a discesa **[!UICONTROL Scadenza calcolata da]**.
 
-   * **[!UICONTROL Dalla creazione di prove]:** Seleziona la data di scadenza della bozza.
-   * **[!UICONTROL Dall’attivazione dell’area di visualizzazione]:** Seleziona il numero di giorni lavorativi che verranno aggiunti alla data di attivazione dell’area di visualizzazione per impostare automaticamente una scadenza sulla bozza.
-   * **[!UICONTROL Attiva fase]:** Per ogni fase del flusso di lavoro, puoi decidere quando attivarlo. Per il primo passaggio sono disponibili le seguenti opzioni.
+   * **[!UICONTROL Dalla creazione della bozza]:** Seleziona la data di scadenza per la bozza.
+   * **[!UICONTROL Dall&#39;attivazione della fase]:** Seleziona il numero di giorni lavorativi che verranno aggiunti alla data di attivazione della fase per impostare automaticamente una scadenza sulla bozza.
+   * **[!UICONTROL Attiva fase]:** Per ogni fase del flusso di lavoro, puoi decidere quando attivarla. Per la prima fase sono disponibili le seguenti opzioni.
 
-      * Creazione a prova di
-      * In una data e un&#39;ora specifiche
+      * Alla creazione della bozza
+      * A un’ora e una data specifiche
       * Manualmente\
 
-         Sono disponibili opzioni aggiuntive per le fasi successive. Queste opzioni richiedono uno stadio principale. Sono:
+        Sono disponibili opzioni aggiuntive per le fasi successive. Queste opzioni richiedono una fase padre. Sono:
       * Dopo il raggiungimento della scadenza precedente
       * Tutte le decisioni vengono approvate o approvate con modifiche
       * Tutte le decisioni sono approvate
-      * Tutte le decisioni sono prese
-   * **[!UICONTROL Termine calcolato a partire da]:** L’opzione selezionata in questo elenco a discesa influisce sulle opzioni disponibili nel **[!UICONTROL Termine]** campo .
+      * Tutte le decisioni vengono prese
+   * **[!UICONTROL Scadenza calcolata a partire da]:** L&#39;opzione selezionata in questo elenco a discesa influisce sulle opzioni disponibili nel campo **[!UICONTROL Scadenza]**.
 
-   * **[!UICONTROL Creazione di prove]:** In **[!UICONTROL Termine]** seleziona la data di scadenza della bozza.
+   * **[!UICONTROL Creazione bozza]:** Nel campo **[!UICONTROL Scadenza]**, seleziona la data di scadenza per la bozza.
 
-   * **[!UICONTROL Attivazione fase]:** In **[!UICONTROL Termine]** seleziona il numero di giorni lavorativi che verranno aggiunti alla data di attivazione dell’area di visualizzazione per impostare automaticamente una scadenza sulla bozza.
+   * **[!UICONTROL Attivazione fase]:** Nel campo **[!UICONTROL Scadenza]**, selezionare il numero di giorni lavorativi che verranno aggiunti alla data di attivazione della fase per impostare automaticamente una scadenza sulla bozza.
 
-   * **[!UICONTROL Blocca fase]:** Selezionare quando è possibile bloccare l&#39;area di visualizzazione.
-   * **[!UICONTROL Decisore principale]:** Selezionare il processo decisionale principale sul palco. I responsabili decisionali sono disponibili nell’elenco a discesa solo dopo aver aggiunto i revisori all’area di visualizzazione.
-   * **[!UICONTROL È necessaria una sola decisione]:** Selezionare questa opzione per completare la revisione dopo che uno dei responsabili decisionali avrà preso la sua decisione.\
+   * **[!UICONTROL Blocca fase]:** Seleziona quando la fase può essere bloccata.
+   * **[!UICONTROL Decisore primario]:** Selezionare il Decisore primario sullo stage. I responsabili delle decisioni sono disponibili nell’elenco a discesa solo dopo aver aggiunto i revisori alla fase.
+   * **[!UICONTROL È necessaria una sola decisione]:** Seleziona questa opzione per completare la revisione dopo che un responsabile delle decisioni ha preso la sua decisione.\
 
-      Questa opzione non è disponibile se hai designato un utente nel **[!UICONTROL Decisore principale]** menu a discesa.
+     Questa opzione non è disponibile se è stato designato un utente nel menu a discesa **[!UICONTROL Principale responsabile delle decisioni]**.
 
-   * **[!UICONTROL Stage privato]:** Quando questa opzione è selezionata, i commenti e le decisioni non sono visibili alle persone che non vengono aggiunte a questa fase o che non sono autorità di vigilanza, amministratori o amministratori di fatturazione nell’account
+   * **[!UICONTROL Fase privata]:** Quando questa opzione è selezionata, i commenti e le decisioni non sono visibili agli utenti che non sono aggiunti a questa fase o che non sono supervisori, amministratori o amministratori di fatturazione nell&#39;account
 
 
-1. (Facoltativo) Aggiungi i revisori all’area di visualizzazione.
-1. Quando aggiungi revisori, considera quanto segue:
+1. (Facoltativo) Aggiungi i revisori all&#39;area di visualizzazione.
+1. Quando aggiungi i revisori, tieni presente quanto segue:
 
-   * Un revisore può essere aggiunto a una bozza una sola volta. (Non è possibile aggiungere la stessa persona a più di un passaggio della bozza.)
-   * I revisori che vengono aggiunti a uno stadio privato possono vedere solo lo stadio a cui sono aggiunti sulle prove e i commenti fatti in quello stadio.
-   * Per impostazione predefinita, l’aggiunta di un utente a un’area di visualizzazione consente all’utente di accedere alla bozza dal momento in cui viene creata.\
+   * Un revisore può essere aggiunto a una bozza una sola volta. (Non è possibile aggiungere la stessa persona a più di una fase della bozza.)
+   * I revisori che vengono aggiunti a una fase privata possono vedere solo la fase a cui vengono aggiunti sulla bozza e i commenti fatti in quella fase.
+   * Per impostazione predefinita, l’aggiunta di un utente a una fase consente a tale utente di accedere alla visualizzazione della bozza dal momento in cui viene creata.\
 
-      L’amministratore di sistema può configurare il sistema di correzione per impedire agli utenti di accedere alla bozza finché il flusso di lavoro non entra nell’area in cui è stato aggiunto l’utente. Per ulteriori informazioni, consulta
+     L’amministratore di sistema può configurare il sistema di verifica in modo da impedire agli utenti di accedere alla bozza fino a quando il flusso di lavoro non entra nella fase in cui l’utente è stato aggiunto. Per ulteriori informazioni, consulta
 
-1. (Facoltativo) Fai clic su **[!UICONTROL Nuovo stadio]**, quindi ripeti i passaggi 4 e 5 per aggiungere più fasi al flusso di lavoro automatizzato.
-1. Continua a creare la bozza specificando le informazioni necessarie nel [!UICONTROL Organizza] e [!UICONTROL Altre impostazioni] sezioni [!UICONTROL Nuova bozza] come descritto in
+1. (Facoltativo) Fai clic su **[!UICONTROL Nuova fase]**, quindi ripeti i passaggi 4 e 5 per aggiungere più fasi al flusso di lavoro automatico.
+1. Continua a creare la bozza specificando le informazioni necessarie nelle sezioni [!UICONTROL Organizza] e [!UICONTROL Altre impostazioni] nella pagina [!UICONTROL Nuova bozza], come descritto in
 
-## Diagrammi automatizzati dei flussi di lavoro
+## Diagrammi di flusso di lavoro automatizzati
 
-Durante l’impostazione del flusso di lavoro per la bozza, noterai un diagramma in fase di creazione. Ogni fase aggiunta alla bozza viene visualizzata nel diagramma, indicando chiaramente le dipendenze tra le fasi. Gli stadi privati sono contrassegnati da un’icona chiave.
+Durante la configurazione del flusso di lavoro per la bozza, viene creato un diagramma. Ogni fase aggiunta alla bozza verrà visualizzata nel diagramma, indicando chiaramente le dipendenze tra le fasi. Le fasi private sono contrassegnate da un’icona a forma di chiave.
 
-Il diagramma è mobile, il che significa che rimarrà visibile anche se scorri la pagina verso il basso.
+Il diagramma viene spostato e rimarrà visibile anche scorrendo la pagina verso il basso.
 
 Se non è necessario visualizzare il diagramma, è possibile nasconderlo (1).
 
 ![Diagramma.png](assets/diagram-350x93.png)
 
-## Aggiungi un passaggio
+## Aggiungi una fase
 
-Puoi aggiungere un ulteriore passaggio a un flusso di lavoro che stai creando o modificando.
+È possibile aggiungere una fase aggiuntiva a un flusso di lavoro che si sta creando o modificando.
 
-1. Se aggiungi un’area di visualizzazione a una bozza esistente, passa alla pagina dei dettagli Prova , come descritto in [Gestisci dettagli bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
-1. In **[!UICONTROL Flusso di lavoro]** sezione, fai clic su **[!UICONTROL Nuovo stadio]**.
+1. Se stai aggiungendo una fase a una bozza esistente, vai alla pagina Dettagli bozza come descritto in [Gestione dettagli bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+1. Nella sezione **[!UICONTROL Flusso di lavoro]** fare clic su **[!UICONTROL Nuova fase]**.
 
-1. Specificare le informazioni per lo stadio come al punto 4 della sezione [!UICONTROL Creazione di una bozza con un flusso di lavoro automatizzato] in questo articolo.
-1. Fai clic su **[!UICONTROL Aggiungi fase]**, quindi fai clic su **[!UICONTROL Fine]**.
+1. Specifica le informazioni per la fase come nel passaggio 4 nella sezione [!UICONTROL Creazione di una bozza con un flusso di lavoro automatizzato] in questo articolo.
+1. Fai clic su **[!UICONTROL Aggiungi fase]**, quindi su **[!UICONTROL Fine]**.
 
-## Eliminare un’area di visualizzazione
+## Eliminare una fase
 
 1. Fai clic sull’icona del cestino disponibile nell’angolo in alto a destra dell’area di visualizzazione (1).\
    L’icona viene visualizzata quando passi il cursore del mouse sull’area di visualizzazione.\
-   ![delete_a_stage.png](assets/deleting-a-stage-350x250.png)
+   ![eliminazione_a_stage.png](assets/deleting-a-stage-350x250.png)
 
-## Impostazioni dello stage
+## Impostazioni fase
 
-* **[!UICONTROL Nome della fase]**: Appare nel diagramma del flusso di lavoro ed è incluso nelle notifiche e-mail inviate ai revisori.
-* **[!UICONTROL Attiva fase]**: Per ogni fase del flusso di lavoro, puoi decidere quando attivarlo. Per il primo passaggio saranno disponibili le seguenti opzioni:
+* **[!UICONTROL Nome fase]**: viene visualizzato nel diagramma del flusso di lavoro ed è incluso nelle notifiche e-mail inviate ai revisori.
+* **[!UICONTROL Attiva fase]**: per ogni fase del flusso di lavoro, puoi decidere quando attivarla. Per la prima fase, saranno disponibili le seguenti opzioni:
 
-   * Creazione a prova di
-   * In una data e un&#39;ora specifiche
+   * Alla creazione della bozza
+   * A un’ora e una data specifiche
    * Manualmente
-   * Solo queste tre opzioni sono disponibili per il primo passaggio. Le altre opzioni saranno disponibili quando si aggiunge una seconda fase; richiedono la selezione di uno stadio padre.
-   * Al raggiungimento della scadenza precedente (è necessario selezionare uno stadio padre)
-   * Tutte le decisioni sono approvate o [!UICONTROL Approvato con modifiche] (richiede il prelievo di uno stadio padre)
-   * Tutte le decisioni sono approvate (richiede la selezione di uno stadio padre)
-   * Vengono prese tutte le decisioni (richiede la selezione di uno stadio padre)
+   * Per la prima fase sono disponibili solo queste tre opzioni. Le altre opzioni diventano disponibili quando si aggiunge una seconda fase; richiedono la selezione di una fase padre.
+   * Dopo il raggiungimento della scadenza precedente (richiede la scelta di una fase padre)
+   * Tutte le decisioni sono approvate o [!UICONTROL approvate con modifiche] (richiede la selezione di una fase padre)
+   * Tutte le decisioni sono approvate (richiede la selezione di una fase padre)
+   * Tutte le decisioni vengono prese (è necessario scegliere una fase padre)
 
-* **[!UICONTROL Termine]:** Puoi decidere come calcolare la scadenza in ogni fase di un flusso di lavoro. Le opzioni sono:
+* **[!UICONTROL Scadenza]:** Puoi decidere come calcolare la scadenza in ogni fase di un flusso di lavoro. Le opzioni sono:
 
-   * Dalla creazione della bozza: In [!UICONTROL scadenza] (9) puoi selezionare la data di scadenza della bozza.
-   * Dall’attivazione dell’area di visualizzazione: In [!UICONTROL scadenza] a discesa puoi selezionare il numero di giorni lavorativi che verranno aggiunti alla data di attivazione dell’area di visualizzazione per impostare automaticamente una scadenza sulla bozza.
+   * Dalla creazione della bozza: nel campo [!UICONTROL deadline] (9) puoi selezionare la data di scadenza della bozza.
+   * Attivazione dalla fase: nel menu a discesa [!UICONTROL scadenza] seleziona il numero di giorni lavorativi che verranno aggiunti alla data di attivazione della fase per impostare automaticamente una scadenza sulla bozza.
 
-* **[!UICONTROL Blocca]:** Esistono diverse opzioni che determinano quando un’area di visualizzazione può essere bloccata. Le opzioni includono:
+* **[!UICONTROL Blocca]:** Esistono diverse opzioni che determinano quando un&#39;area di visualizzazione può essere bloccata. Le opzioni includono:
 
    * Blocco manuale
    * Mai
    * Quando inizia la fase successiva
    * Quando tutte le decisioni sono prese
 
-**[!UICONTROL Decisore principale]**: Imposta il modulo decisionale principale sul palco. I responsabili decisionali disponibili vengono visualizzati nell’elenco solo dopo aver aggiunto i revisori allo stadio.
+**[!UICONTROL Decisore principale]**: è stato impostato il Decisore principale sullo stage. I responsabili delle decisioni disponibili vengono visualizzati nell’elenco solo dopo aver aggiunto i revisori alla fase.
 
 >[!NOTE]
 >
->Se scegli un decision maker primario, in questa fase non sarà più disponibile una sola opzione richiesta.
+>Se scegli un’entità con potere decisionale principale, in questa fase non sarà più disponibile una sola opzione con potere decisionale richiesto.
 
-* **[!UICONTROL È necessaria una sola decisione]**: È possibile abilitare questa opzione su un&#39;area di visualizzazione. Ciò significa che la revisione sarà completata una volta che uno dei decisori prenderà la decisione.
-* **[!UICONTROL Privacy]:** Ogni tappa può essere resa privata. Se un passaggio è privato, i commenti e le decisioni non saranno visibili alle persone che non vengono aggiunte a questo passaggio o che non sono autorità di vigilanza, amministratori o amministratori di fatturazione nell’account. Per ulteriori informazioni, consulta [Panoramica del flusso di lavoro automatizzato](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md) .
+* **[!UICONTROL È richiesta una sola decisione]**: è possibile abilitare questa opzione in una fase. Ciò significa che la revisione sarà completata una volta che uno dei responsabili decisionali prende la propria decisione.
+* **[!UICONTROL Privacy]:** Ogni fase può essere resa privata. Se una fase è privata, i commenti e le decisioni non saranno visibili agli utenti che non sono aggiunti a questa fase o che non sono supervisori, amministratori o amministratori di fatturazione nell’account. Per ulteriori informazioni, vedere [Panoramica del flusso di lavoro automatico](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md) .
 
-## Aggiungere i revisori a un passaggio
+## Aggiungere revisori a una fase
 
-1. Immetti un nome di contatto o un indirizzo e-mail nel campo in fondo a ogni passaggio.
-1. Fai clic sull’icona verde a forma di più per aggiungerle.
+1. Immetti un nome di contatto o un indirizzo e-mail nel campo nella parte inferiore di ciascuna fase.
+1. Fai clic sull’icona verde più per aggiungerli.
 1. Imposta il ruolo sulla bozza.
 1. Imposta l’avviso e-mail.
-1. Quando si imposta il primo passaggio, è anche possibile modificare il proprietario della bozza.
+1. Durante l’impostazione della prima fase, puoi anche scegliere di cambiare il Proprietario della bozza.
 
    >[!NOTE]
    >
-   >* Un revisore può essere aggiunto a una bozza una sola volta. Non è possibile aggiungere la stessa persona a più di un passaggio della bozza.
-   >* I revisori che non vengono aggiunti a uno stadio privato non possono vedere lo stadio della prova o dei commenti effettuati in tale fase.
+   >* Un revisore può essere aggiunto a una bozza una sola volta. Impossibile aggiungere la stessa persona a più di una fase della bozza.
+   >* I revisori che non vengono aggiunti a una fase privata non possono vedere la fase sulla bozza o sui commenti fatti in quella fase.
 
 
+## Convertire una bozza in un flusso di lavoro automatico
 
-## Convertire una bozza in un flusso di lavoro automatizzato
+Puoi convertire una bozza di base in flusso di lavoro automatico.
 
-Puoi convertire una bozza di base in Flusso di lavoro automatizzato.
+1. Fare clic su **[!UICONTROL Converti in flusso di lavoro automatico]** nella pagina [!UICONTROL Dettagli bozza].
+Dopo la rielaborazione della bozza in Flusso di lavoro automatico, tutte le fasi sono attive, pubbliche e l&#39;opzione [!UICONTROL Blocca fase] è impostata su Manuale per impostazione predefinita. Tutte le fasi rimangono associate agli utenti e alle relative impostazioni.
 
-1. Fai clic su **[!UICONTROL Converti in flusso di lavoro automatizzato]** sulla [!UICONTROL Dettagli della bozza] pagina.
-Dopo aver rielaborato la bozza in Flusso di lavoro automatizzato, tutte le fasi sono attive, pubbliche e [!UICONTROL Blocca fase] per impostazione predefinita, è impostata su Manuale . Tutte le fasi rimangono con gli utenti e le relative impostazioni.
+   * L’opzione Attiva fase è impostata su Al momento della creazione della bozza in ogni fase.
+   * La scadenza calcolata dall’opzione è impostata su Creazione bozza in ogni fase.
+   * Se sulla bozza di base è stata selezionata una sola opzione di decisione, in tutte le fasi viene selezionata tale opzione.
+   * Se sulla bozza di base è stato selezionato [!UICONTROL Principale decisore], gli stadi con quel destinatario vengono impostati su di loro e tutti gli altri su Nessuno.
+   * Il nome della fase rimane invariato.
 
-   * L’area di attivazione è impostata su Attiva creazione di prove in ogni fase.
-   * Il termine calcolato dall&#39;opzione è impostato su Creazione di prova in ogni fase.
-   * Se sulla bozza di base è stata selezionata una sola opzione di decisione, questa è selezionata per tutte le fasi.
-   * Se su prova di base [!UICONTROL Decisore principale] è stato selezionato quindi gli stadi con quel destinatario sono impostati su di loro e tutti gli altri hanno impostato su Nessuno.
-   * Il nome dello stage rimane lo stesso.
+## Aggiungere un modello aggiuntivo a un flusso di lavoro automatico esistente
 
-## Aggiungi un modello aggiuntivo a un flusso di lavoro automatizzato esistente
-
-Una volta convertita una bozza di base in Flusso di lavoro automatizzato, puoi aggiungere un modello aggiuntivo ad essa.
+Dopo aver convertito una bozza di base in un flusso di lavoro automatizzato, puoi aggiungervi un modello aggiuntivo.
 
 1. Nella sezione Flusso di lavoro della pagina Dettagli bozza fare clic su **[!UICONTROL Aggiungi modello].**
 
-   * Le impostazioni del modello determinano cosa è possibile fare con una bozza a cui è stato aggiunto il modello. Ad esempio, se il modello ha la [!UICONTROL Aggiungi un passaggio e aggiungi le persone ai vari stadi] opzioni disattivate, pulsanti su [!UICONTROL aggiungi fase] e [!UICONTROL prova di condivisione] non sarà visibile.
-   * Se [!UICONTROL Aggiungi un’opzione di stage] è disabilitato nel modello specificato, dopo averlo aggiunto il [!UICONTROL Aggiungi modello] non sono visibili.
-   * Quando una persona viene aggiunta a una fase in un modello di flusso di lavoro automatizzato, ma è già presente nella bozza, se questo modello viene applicato, il sistema rimuove automaticamente questa persona dallo stadio. Se non viene aggiunto nessun altro a questa particolare fase, verrà visualizzato il seguente errore, in quanto il sistema non consentirà di aggiungere una fase vuota al flusso di lavoro.
+   * Le impostazioni del modello determinano cosa è possibile fare con una bozza a cui è stato aggiunto il modello. Ad esempio, se nel modello sono disattivate le opzioni [!UICONTROL Aggiungi un&#39;area di visualizzazione e Aggiungi persone alle aree di visualizzazione], i pulsanti [!UICONTROL Aggiungi area di visualizzazione] e [!UICONTROL Condividi bozza] non saranno visibili.
+   * Se [!UICONTROL Aggiungi un&#39;opzione di fase] è disabilitata nel modello specificato, dopo l&#39;aggiunta il pulsante [!UICONTROL Aggiungi modello] non sarà visibile.
+   * Quando una persona viene aggiunta a una fase di un modello di flusso di lavoro automatico, ma è già presente nella bozza, se questo modello viene applicato il sistema la rimuoverà automaticamente dalla fase. Se nessun altro utente è stato aggiunto a questa fase particolare, verrà visualizzato il seguente errore, in quanto il sistema non consente di aggiungere una fase vuota al flusso di lavoro.
 
-      ![error_when_adding_template.png](assets/error-when-adding-template-350x66.png)
+     ![errore quando_aggiungere_modello.png](assets/error-when-adding-template-350x66.png)

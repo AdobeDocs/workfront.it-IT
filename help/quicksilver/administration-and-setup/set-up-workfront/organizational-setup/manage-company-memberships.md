@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: organization-setup
-title: Gestire le iscrizioni aziendali
-description: In [!UICONTROL Aziende] in Configurazione è possibile aggiungere e rimuovere i membri di una società. È inoltre possibile modificare i profili utente, ricordare loro di registrarsi [!DNL Workfront], deactivate them in [!DNL Workfront], and remove them from the [!DNL Workfront] sistema.
+title: Gestire le appartenenze a società
+description: Nell'area [!UICONTROL Aziende] in Configurazione è possibile aggiungere e rimuovere i membri di un'azienda. Puoi anche modificare i profili utente, ricordargli di registrarsi nel sistema  [!DNL Workfront], deactivate them in [!DNL Workfront], and remove them from the [!DNL Workfront] .
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -15,15 +15,15 @@ ht-degree: 1%
 
 ---
 
-# Gestire le iscrizioni aziendali
+# Gestire le appartenenze a società
 
-In [!UICONTROL Aziende] area [!UICONTROL Configurazione], è possibile aggiungere e rimuovere i membri di una società. È inoltre possibile modificare i profili utente, ricordare loro di registrarsi [!DNL Workfront], disattivali in [!DNL Workfront], e rimuoverle dal [!DNL Workfront] sistema.
+Nell&#39;area [!UICONTROL Aziende] in [!UICONTROL Configurazione], puoi aggiungere e rimuovere i membri di un&#39;azienda. È inoltre possibile modificare i profili utente, ricordargli di registrarsi in [!DNL Workfront], disattivarli in [!DNL Workfront] e rimuoverli dal sistema [!DNL Workfront].
 
-Per informazioni sulla creazione di una nuova società, consulta [Creare e modificare aziende](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+Per informazioni sulla creazione di una nuova società, vedere [Creare e modificare società](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
 ## Requisiti di accesso
 
-Per gestire le aziende in è necessario disporre dei seguenti elementi [!DNL Workfront]:
+Per gestire le società in [!DNL Workfront] è necessario disporre dei seguenti elementi:
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -31,40 +31,40 @@ Per gestire le aziende in è necessario disporre dei seguenti elementi [!DNL Wor
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!DNL Workfront] piano*</p> </td> 
-   <td>Team [!UICONTROL] o superiore</td> 
+   <td>[!UICONTROL Team] o versione successiva</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!DNL Adobe Workfront] licenza*</p> </td> 
    <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><strong>Configurazioni a livello di accesso*</strong> </td> 
-   <td> <p>Una delle seguenti opzioni:</p> 
+   <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong> </td> 
+   <td> <p>Uno dei seguenti elementi:</p> 
     <ul> 
-     <li> <p>Livello di accesso [!UICONTROL System Administrator], che consente di modificare qualsiasi azienda nel sistema. Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente pieno accesso amministrativo</a>. </p> </li> 
-     <li> <p>Accesso amministrativo alla gestione delle aziende, che consente di modificare qualsiasi azienda nel sistema. Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Consentire agli utenti l'accesso amministrativo a determinate aree</a>.</p> </li> 
+     <li> <p>Il livello di accesso [!UICONTROL Amministratore di sistema], che consente di modificare qualsiasi società del sistema. Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente l'accesso amministrativo completo</a>. </p> </li> 
+     <li> <p>Accesso amministrativo per gestire le società, che consente di modificare qualsiasi società nel sistema. Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Concedere agli utenti l'accesso amministrativo ad alcune aree</a>.</p> </li> 
     </ul> <p><b>NOTA</b>:  
      <ul> 
-      <li> <p>Puoi anche gestire le società associate a qualsiasi gruppo a cui ti viene assegnato come amministratore di gruppo.</p> </li> 
-      <li> <p>Per aggiungere e rimuovere utenti dalla [!DNL Workfront] è necessario disporre di una delle seguenti caratteristiche:</p> 
+      <li> <p>Puoi anche gestire le aziende associate a qualsiasi gruppo a cui sei assegnato come amministratore di gruppo.</p> </li> 
+      <li> <p>Per aggiungere e rimuovere utenti dal sistema [!DNL Workfront], è necessario disporre di uno dei seguenti elementi:</p> 
        <ul> 
-        <li> <p>Livello di accesso [!UICONTROL System Administrator]. Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente pieno accesso amministrativo</a>. </p> </li> 
-        <li> <p>Nel tuo livello di accesso, [!UICONTROL Edit] deve essere selezionato per l’impostazione [!UICONTROL Users]. Inoltre, per l'impostazione [!UICONTROL Users], in [!UICONTROL Ottimizza le impostazioni] <img src="assets/gear-icon-in-access-levels.png"> , l’opzione [!UICONTROL Crea] e almeno una delle due opzioni [!UICONTROL User Admin] devono essere abilitate. </p> <p> <img src="assets/access-req-users.png"> </p> <p>Se utilizzi l’opzione [!UICONTROL User Admin (Group Users)] , devi essere un amministratore di gruppo di un gruppo in cui l’utente è membro.</p> </li> 
-       </ul> <p>Per informazioni sull'impostazione Utenti in un livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concedere l’accesso agli utenti</a>.</p> </li> 
+        <li> <p>Livello di accesso [!UICONTROL System Administrator]. Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente l'accesso amministrativo completo</a>. </p> </li> 
+        <li> <p>Nel livello di accesso, è necessario selezionare [!UICONTROL Edit] per l'impostazione [!UICONTROL Users]. Inoltre, per l'impostazione [!UICONTROL Users], in [!UICONTROL Ottimizza le impostazioni] <img src="assets/gear-icon-in-access-levels.png"> , è necessario abilitare l'opzione [!UICONTROL Create] e almeno una delle due opzioni [!UICONTROL User Admin]. </p> <p> <img src="assets/access-req-users.png"> </p> <p>Se si utilizza l'opzione [!UICONTROL User Admin (Group Users)], è necessario essere un amministratore di gruppo di un gruppo di cui l'utente è membro.</p> </li> 
+       </ul> <p>Per informazioni sull'impostazione Utenti in un livello di accesso, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concedere l'accesso agli utenti</a>.</p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per sapere quale piano, tipo di licenza o configurazioni del livello di accesso hai, contatta il tuo [!DNL Workfront] amministratore.
+&#42;Per informazioni sulle configurazioni di piano, tipo di licenza o livello di accesso disponibili, contattare l&#39;amministratore [!DNL Workfront].
 
-## Gestire le iscrizioni aziendali
+## Gestire le appartenenze a società
 
-1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Configurazione]** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Configurazione]** ![](assets/gear-icon-settings.png).
 
 1. Fai clic su **[!UICONTROL Aziende]**.
-1. Fai clic sul nome della società.
-1. Con la **[!UICONTROL Membri dell&#39;azienda]** selezionate nel pannello a sinistra, effettuate una delle seguenti operazioni:
+1. Fai clic sul nome dell’azienda.
+1. Con la sezione **[!UICONTROL Membri società]** selezionata nel pannello a sinistra, eseguire una delle operazioni seguenti:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -72,43 +72,43 @@ Per gestire le aziende in è necessario disporre dei seguenti elementi [!DNL Wor
     <tbody> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Aggiungi un membro</td> 
-      <td> <p>Fai clic su <b>[!UICONTROL Aggiungi membro]</b>, quindi seleziona una delle seguenti opzioni nel menu a discesa visualizzato:</p> 
+      <td> <p>Fare clic su <b>[!UICONTROL Aggiungi membro]</b>, quindi selezionare una delle opzioni seguenti nel menu a discesa visualizzato:</p> 
        <ul> 
-        <li> <p><b>[!UICONTROL Nuovo utente]</b>: Aggiungi un utente che non è ancora stato aggiunto a [!DNL Workfront].</p> <p>Per informazioni sull’aggiunta di utenti a [!DNL Workfront], vedi <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Aggiungi utenti</a> e <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modificare il profilo di un utente</a>.</p> </li> 
-        <li> <p><b>[!DNL Existing user]</b>: Aggiungi già un utente esistente nel sistema che hai accesso per la modifica.</p> <p><b>IMPORTANTE</b>: Se l'utente è già membro di un'altra società, la nuova assegnazione sostituisce quella precedente. L'utente perde l'accesso agli articoli condivisi con la società precedente e ottiene l'accesso agli articoli condivisi con questa società.</p> </li> 
-        <li> <p><b>[!UICONTROL Import Users]</b>: Importa un utente caricando un file di importazione del foglio di calcolo. Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/add-users/create-and-manage-users/import-users.md" class="MCXref xref">Importare utenti</a>.</p> </li> 
+        <li> <p><b>[!UICONTROL Nuovo utente]</b>: aggiungere un utente non ancora aggiunto a [!DNL Workfront].</p> <p>Per informazioni sull'aggiunta di utenti a [!DNL Workfront], vedere <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Aggiungere utenti</a> e <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modificare un profilo utente</a>.</p> </li> 
+        <li> <p><b>[!DNL Existing user]</b>: aggiungi un utente già esistente nel sistema e di cui disponi dell’accesso per la modifica.</p> <p><b>IMPORTANTE</b>: se l'utente è già membro di un'altra società, la nuova assegnazione sostituisce quella precedente. L’utente perde l’accesso agli elementi condivisi con la società precedente e ottiene l’accesso agli elementi condivisi con questa società.</p> </li> 
+        <li> <p><b>[!UICONTROL Importa utenti]</b>: importa un utente caricando un file di importazione foglio di calcolo. Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/add-users/create-and-manage-users/import-users.md" class="MCXref xref">Importa utenti</a>.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Modifica membri</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>Seleziona almeno un utente, quindi fai clic sull’icona Modifica <img src="assets/edit-icon.png"> nella barra degli strumenti.</p> </li> 
-        <li value="2"> <p>Configura le opzioni in <b>[!UICONTROL Modifica utente]</b> che viene visualizzata.</p> <p>Per informazioni su queste opzioni, consulta <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modificare il profilo di un utente</a>.</p> </li> 
+        <li value="1"> <p>Seleziona almeno un utente, quindi fai clic sull'icona [!UICONTROL Edit] <img src="assets/edit-icon.png"> nella barra degli strumenti.</p> </li> 
+        <li value="2"> <p>Configura le opzioni visualizzate nella casella <b>[!UICONTROL Modifica utente]</b>.</p> <p>Per informazioni su queste opzioni, vedere <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modificare il profilo di un utente</a>.</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Copia membro</td> 
-      <td> <p>Puoi creare un membro della società copiandone uno esistente. </p> <p><b>NOTA</b>:  <p>Quando crei un utente in questo modo, tutte le informazioni vengono copiate dall'utente originale all'utente appena creato, fatta eccezione per quanto segue:</p> 
+      <td> <p>È possibile creare un membro della società copiandone uno esistente. </p> <p><b>NOTA</b>:  <p>Quando si crea un utente in questo modo, tutte le informazioni vengono copiate dall'utente originale all'utente appena creato, ad eccezione dei seguenti elementi:</p> 
         <ul> 
-         <li>Informazioni nella sezione [!UICONTROL Personal Info].</li> 
-         <li>[!UICONTROL Quando accedo, mostro]: In questa casella viene selezionata la scheda di destinazione predefinita per il livello di accesso.</li> 
-         <li>Rapporti diretti di [!UICONTROL]</li> 
+         <li>Le informazioni nella sezione [!UICONTROL Informazioni personali].</li> 
+         <li>[!UICONTROL Quando accedo, mostra]: in questa casella è selezionata la scheda di destinazione predefinita per il livello di accesso.</li> 
+         <li>[!UICONTROL Direct Reports]</li> 
         </ul> </p> 
        <ol> 
-        <li value="1"> <p>Seleziona l’utente, quindi fai clic sull’icona [!UICONTROL Copy] <img src="assets/copy-icon.png">. </p> </li> 
-        <li value="2"> <p>In <b>[!UICONTROL Nuovo utente]</b> in cui vengono visualizzati, modificare i campi disponibili per il nuovo utente.</p> <p>Per informazioni su tutti i campi associati a un utente, consulta <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modificare il profilo di un utente</a>.</p> </li> 
-        <li value="3"> <p>Fai clic su <strong>[!UICONTROL Aggiungi questo utente]</strong>.</p> <p>Oppure</p> <p>Fai clic su <strong>[!UICONTROL Aggiungi utente e avvia un altro]</strong> per salvare il nuovo utente e aggiungerne un altro.</p> </li> 
-       </ol> <p>In questo modo viene creato un nuovo account in [!DNL Workfront] per l'utente.</p> <p>Se hai selezionato l’opzione per inviare un invito all’utente, questi deve ricevere un’e-mail in cui possono seguire un collegamento per creare il proprio [!DNL Workfront] password.</p> </td> 
+        <li value="1"> <p>Seleziona l'utente, quindi fai clic sull'icona [!UICONTROL Copy] <img src="assets/copy-icon.png">. </p> </li> 
+        <li value="2"> <p>Nella casella <b>[!UICONTROL Nuovo utente]</b> visualizzata, modificare i campi disponibili per il nuovo utente.</p> <p>Per informazioni su tutti i campi associati a un utente, vedere <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modificare il profilo di un utente</a>.</p> </li> 
+        <li value="3"> <p>Fare clic su <strong>[!UICONTROL Add This User]</strong>.</p> <p>Oppure</p> <p>Fai clic su <strong>[!UICONTROL Aggiungi utente persona e avviane un altro]</strong> per salvare il nuovo utente e aggiungerne un altro.</p> </li> 
+       </ol> <p>Verrà creato un nuovo account in [!DNL Workfront] per l'utente.</p> <p>Se hai selezionato l'opzione per inviare un invito all'utente, questi dovrebbe ricevere un'e-mail in cui possono seguire un collegamento per creare la password [!DNL Workfront].</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Rimuovi utenti</td> 
       <td> 
        <div> 
-        <p>Seleziona almeno un utente e fai clic su <b>[!UICONTROL Rimuovere utenti]</b>, quindi seleziona una delle seguenti opzioni nel menu a discesa visualizzato:</p> 
+        <p>Selezionare almeno un utente, fare clic su <b>[!UICONTROL Rimuovi utenti]</b>, quindi selezionare una delle opzioni seguenti nel menu a discesa visualizzato:</p> 
         <ul> 
-         <li> <p><b>[!UICONTROL Rimuovi dalla società]</b>: Rimuove l’utente o gli utenti dalla società.</p> </li> 
-         <li> <p><b>[!UICONTROL Elimina]</b>: Elimina l'utente o gli utenti dal [!DNL Workfront] sistema.</p> <p><b>IMPORTANTE</b>: Se si elimina un utente dal sistema, vengono anche eliminate le informazioni associate all'utente che si desidera mantenere. È consigliabile disattivare gli utenti invece di eliminarli. Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Disattivare o riattivare un utente</a>.</p> </li> 
+         <li> <p><b>[!UICONTROL Rimuovi dalla società]</b>: rimuove l'utente o gli utenti dalla società.</p> </li> 
+         <li> <p><b>[!UICONTROL Delete]</b>: elimina l'utente o gli utenti dal sistema [!DNL Workfront].</p> <p><b>IMPORTANTE</b>: l'eliminazione di un utente dal sistema comporta anche l'eliminazione delle informazioni associate all'utente che si desidera mantenere. È consigliabile disattivare gli utenti invece di eliminarli. Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Disattivare o riattivare un utente</a>.</p> </li> 
         </ul> 
        </div> </td> 
      </tr> 
@@ -116,21 +116,21 @@ Per gestire le aziende in è necessario disporre dei seguenti elementi [!DNL Wor
       <td role="rowheader">Invia un commento agli utenti e alle loro aree [!UICONTROL Updates]</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>Seleziona almeno un utente, quindi fai clic sull’icona [!UICONTROL Commento] <img src="assets/comment-icon.png"> nella barra degli strumenti.</p> </li> 
-        <li value="2"> <p>Digita il commento da inviare agli utenti e all’area [!UICONTROL Updates] dei loro profili utente.</p> </li> 
+        <li value="1"> <p>Seleziona almeno un utente, quindi fai clic sull'icona [!UICONTROL Comment] <img src="assets/comment-icon.png"> nella barra degli strumenti.</p> </li> 
+        <li value="2"> <p>Digitare il commento che si desidera inviare agli utenti e all'area [!UICONTROL Aggiornamenti] dei relativi profili utente.</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Esportare l’elenco dei membri della società</td> 
-      <td> <p>Fai clic sull’icona [!UICONTROL Export] <img src="assets/export.png"> nella barra degli strumenti, selezionare il formato desiderato per il file esportato.</p> </td> 
+      <td role="rowheader">Esporta l'elenco dei membri della società</td> 
+      <td> <p>Fai clic sull'icona [!UICONTROL Export] <img src="assets/export.png"> nella barra degli strumenti, quindi seleziona il formato desiderato per il file esportato.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Disattiva membri nel sistema</td> 
-      <td> <p>Seleziona almeno un utente e fai clic sull’icona Altro <img src="assets/more-icon.png"> nella barra degli strumenti, seleziona <b>[!UICONTROL Disattiva]</b>.</p> <p>Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Disattivare o riattivare un utente</a>.</p> </td> 
+      <td> <p>Seleziona almeno un utente, fai clic sull'icona [!UICONTROL Altro] <img src="assets/more-icon.png"> nella barra degli strumenti, quindi seleziona <b>[!UICONTROL Disattiva]</b>.</p> <p>Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Disattivare o riattivare un utente</a>.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Ricordare a un utente di registrarsi nel sistema</td> 
-      <td> <p> In <b>[!UICONTROL Name]</b> colonna, <b>[!UICONTROL non registrato]</b> viene visualizzato accanto al nome di ogni utente non registrato. Per ricordare a questi utenti di registrarsi nel sistema, seleziona gli utenti e fai clic sull’icona Altro <img src="assets/more-icon.png"> nella barra degli strumenti, seleziona <b>[!UICONTROL Richiedere all’utente di registrarsi]</b>.</p> </td> 
+      <td> <p> Nella colonna <b>[!UICONTROL Name]</b>, <b>[!UICONTROL Unregistered]</b> viene visualizzato accanto al nome di ogni utente non registrato. Per ricordare a questi utenti di registrarsi nel sistema, selezionare gli utenti, fare clic sull'icona [!UICONTROL Altro] <img src="assets/more-icon.png"> nella barra degli strumenti, quindi selezionare <b>[!UICONTROL Ricorda all'utente di registrarsi]</b>.</p> </td> 
      </tr> 
     </tbody> 
    </table>

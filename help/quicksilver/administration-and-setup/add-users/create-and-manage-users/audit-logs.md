@@ -11,7 +11,7 @@ exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
 source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
 source-wordcount: '1464'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 In qualità di amministratore di Adobe Workfront, puoi tenere traccia delle modifiche utente attivate nel sistema negli ultimi 90 giorni utilizzando i registri di audit descritti di seguito.
 
-Per istruzioni su come visualizzare e filtrare ciò che si desidera visualizzare in questi registri di controllo, vedere [Visualizzare ed esportare i registri di audit](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
+Per istruzioni su come visualizzare e filtrare ciò che si desidera visualizzare in questi registri di controllo, vedere [Visualizzare ed esportare i registri di controllo](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
 
 ## Informazioni disponibili in un registro di audit
 
@@ -65,14 +65,14 @@ In ogni voce del registro di controllo vengono registrati i campi riportati di s
 ## Tipi di registro di controllo e azioni che li attivano
 
 * [Livello d&#39;Accesso](#access-level)
-* [Azienda](#company)
+* [Società](#company)
 * [Condizione](#condition)
 * [Campo personalizzato](#custom-field)
 * [Moduli personalizzati](#custom-forms)
 * [Sezione personalizzata](#custom-section)
 * [Tasso di cambio](#exchange-rate)
 * [Gruppo](#group)
-* [Mansioni](#job-roles)
+* [Ruoli](#job-roles)
 * [Tentativo di accesso](#login-attempt)
 * [Priorità](#priority)
 * [Preferenza progetto](#project-preference)
@@ -115,7 +115,7 @@ Il sistema genera una voce del registro di audit aziendale quando un utente effe
 
 * Elimina una società
 
-Per ulteriori informazioni sugli stati, consulta [Panoramica sugli stati](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+Per ulteriori informazioni sugli stati, vedere [Panoramica sugli stati](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 ### Condizione {#condition}
 
@@ -132,7 +132,7 @@ Il sistema genera una voce del registro di controllo Condizione quando un utente
 
 * Elimina una condizione
 
-Per ulteriori informazioni sulla configurazione delle mansioni, consulta [Creare o modificare una condizione personalizzata](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+Per ulteriori informazioni sulla configurazione delle mansioni, vedere [Creare o modificare una condizione personalizzata](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
 ### Campo personalizzato {#custom-field}
 
@@ -192,7 +192,7 @@ Il sistema genera una voce del registro di controllo Sezione personalizzata quan
 * Modifica il nome o la descrizione di una sezione personalizzata
 * Elimina una sezione personalizzata
 
-Per informazioni sulle sezioni personalizzate nei moduli personalizzati, consulta [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Per informazioni sulle sezioni personalizzate nei moduli personalizzati, vedere [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 ### Tasso di cambio {#exchange-rate}
 
@@ -207,7 +207,7 @@ Il sistema genera una voce del registro di controllo Tasso di cambio quando un u
 
 * Elimina un tasso di cambio
 
-Per ulteriori informazioni sulla configurazione dei tassi di cambio, vedere [Imposta tassi di cambio](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+Per ulteriori informazioni sulla configurazione dei tassi di cambio, vedere [Impostare i tassi di cambio](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
 ### Gruppo {#group}
 
@@ -234,7 +234,7 @@ Il sistema genera una voce del registro di controllo Ruoli processo quando un ut
 
 * Elimina una mansione
 
-Per ulteriori informazioni sulla configurazione delle mansioni, consulta [Creare e gestire le mansioni](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+Per ulteriori informazioni sulla configurazione dei ruoli, vedere [Creare e gestire i ruoli](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 ### Tentativo di accesso {#login-attempt}
 
@@ -265,7 +265,7 @@ Il sistema genera una voce del registro di controllo Priority quando un utente e
 
 * Elimina una priorità
 
-Per ulteriori informazioni sulla configurazione delle priorità, consulta [Creare e personalizzare le priorità](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
+Per ulteriori informazioni sulla configurazione delle priorità, vedere [Creare e personalizzare le priorità](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
 
 ### Preferenza di progetto {#project-preference}
 
@@ -281,7 +281,7 @@ Il sistema genera una voce del registro di controllo Preferenze progetto quando 
 
 * Elimina un trimestre personalizzato
 
-Per ulteriori informazioni sulle preferenze del progetto, consulta [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Per ulteriori informazioni sulle preferenze del progetto, vedere [Configurare le preferenze del progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ### Gravità {#severity}
 
@@ -298,7 +298,7 @@ Il sistema genera una voce del registro di controllo Gravità quando un utente e
 
 * Elimina la gravità di un problema
 
-Per ulteriori informazioni sulla configurazione delle mansioni, consulta [Creare o personalizzare le gravità dei problemi](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
+Per ulteriori informazioni sulla configurazione delle mansioni, vedere [Creare o personalizzare le gravità dei problemi](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
 
 ### Stato {#status}
 
@@ -315,7 +315,7 @@ Il sistema genera una voce del registro di controllo dello stato quando un utent
 
 * Elimina uno stato a livello di sistema o di gruppo
 
-Per ulteriori informazioni sugli stati, consulta [Panoramica sugli stati](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+Per ulteriori informazioni sugli stati, vedere [Panoramica sugli stati](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 ### Preferenze attività e problemi {#tasks-issues-preferences}
 
@@ -325,7 +325,7 @@ Il sistema genera una voce del registro di controllo Preferenze attività e prob
 * Modifica l&#39;impostazione di una preferenza
 * Modifica un&#39;impostazione di accesso per attività, problemi o richieste
 
-Per ulteriori informazioni sulle preferenze per attività e problemi, consulta [Configurare le preferenze per attività e problemi a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Per ulteriori informazioni sulle preferenze per attività e problemi, vedere [Configurare le preferenze per attività e problemi a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 ### Utente {#user}
 

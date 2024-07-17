@@ -9,15 +9,15 @@ exl-id: eff5c9e8-1908-4654-9629-e20c0ce2a225
 source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 # Aggiorna la priorità del problema
 
-È possibile definire una priorità per un problema per indicare l&#39;importanza del problema.
+È possibile definire una priorità per un problema  per indicare l&#39;importanza del problema.
 
-Per modificare la priorità del problema, è necessario disporre delle autorizzazioni di gestione.  [Aggiornare la priorità di un problema](#update-the-priority-of-an-issue).
+Per modificare la priorità del problema, è necessario disporre delle autorizzazioni di gestione.  [Aggiorna la priorità di un problema](#update-the-priority-of-an-issue).
 
 ## Requisiti di accesso
 
@@ -41,12 +41,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per il problema</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per il problema</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Panoramica delle priorità dei problemi
 
@@ -57,7 +57,7 @@ Gli amministratori di Adobe Workfront possono modificare le etichette di priorit
 Acquisisci familiarità con la sequenza di numerazione delle priorità utilizzate nell’organizzazione.\
 Ad esempio, la tua organizzazione potrebbe utilizzare il numero 1 per fare riferimento ad attività urgenti, se l’etichetta della priorità è stata modificata.
 
-Per ulteriori informazioni sulla personalizzazione dei nomi delle priorità nell’istanza, consulta [Creare e personalizzare le priorità](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
+Per ulteriori informazioni sulla personalizzazione dei nomi delle priorità nell&#39;istanza, vedere [Creare e personalizzare le priorità](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
 
 Per informazioni su ciascuna etichetta di priorità predefinita e sul relativo numero, consulta la tabella seguente:
 
@@ -66,8 +66,8 @@ Per informazioni su ciascuna etichetta di priorità predefinita e sul relativo n
  <col> 
  <thead> 
   <tr> 
-   <th>Etichetta priorità <br>(Può essere modificato) </th> 
-   <th>Numero di priorità <br>(Non modificabile) </th> 
+   <th>Etichetta di priorità <br>(può essere modificata) </th> 
+   <th>Priorità numero <br> (non modificabile) </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -97,16 +97,16 @@ Per informazioni su ciascuna etichetta di priorità predefinita e sul relativo n
 ## Aggiornare la priorità di un problema {#update-the-priority-of-an-issue}
 
 1. Passa al problema di cui desideri modificare la priorità.
-1. Clic **Dettagli problema** nel pannello a sinistra.
+1. Fai clic su **Dettagli problema** nel pannello a sinistra.
 
-   Il **Panoramica** La sezione deve essere visualizzata per impostazione predefinita.
+   La sezione **Panoramica** deve essere visualizzata per impostazione predefinita.
 
-1. Fai clic su **Priorità** campo in **Informazioni di base** area.
+1. Fare clic sul campo **Priorità** nell&#39;area **Informazioni di base**.
 
    ![](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
 
-1. Seleziona un valore per **Priorità** campo.
+1. Selezionare un valore per il campo **Priorità**.
 
    Le opzioni possono variare a seconda di come l’amministratore di Workfront ha configurato Priorità nel sistema.
 
-1. Clic **Salva modifiche**.
+1. Fai clic su **Salva modifiche**.

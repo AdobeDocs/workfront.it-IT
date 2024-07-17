@@ -16,11 +16,11 @@ ht-degree: 1%
 
 # Panoramica sui ruoli bozza
 
-I ruoli di bozza ti consentono di concedere autorizzazioni per singole bozze. I ruoli bozza sono diversi dai profili di autorizzazione bozza. Per ulteriori informazioni sui profili di autorizzazione delle bozze, consulta [Panoramica del profilo di autorizzazione della bozza](../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md).
+I ruoli di bozza ti consentono di concedere autorizzazioni per singole bozze. I ruoli bozza sono diversi dai profili di autorizzazione bozza. Per ulteriori informazioni sui profili di autorizzazione delle bozze, vedere [Panoramica del profilo di autorizzazione delle bozze](../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md).
 
 ## Ruoli bozza
 
-I ruoli di bozza vengono concessi agli utenti per una singola bozza nel momento in cui l’utente viene invitato a rivederla. Se si dispone di un piano Workfront Pro+, è possibile concedere ruoli di verifica agli utenti con una licenza Lavoro o Piano. Se si dispone di un piano legacy di Workfront Premium, è possibile concedere ruoli di verifica agli utenti con una licenza di verifica specifica. Per ulteriori informazioni, consulta [Accesso alla funzionalità di verifica in Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
+I ruoli di bozza vengono concessi agli utenti per una singola bozza nel momento in cui l’utente viene invitato a rivederla. Se si dispone di un piano Workfront Pro+, è possibile concedere ruoli di verifica agli utenti con una licenza Lavoro o Piano. Se si dispone di un piano legacy di Workfront Premium, è possibile concedere ruoli di verifica agli utenti con una licenza di verifica specifica. Per ulteriori informazioni, vedere [Accesso alla funzionalità di verifica in Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ I ruoli di bozza vengono concessi agli utenti per una singola bozza nel momento 
 
 Il ruolo bozza definisce le azioni che un revisore può intraprendere in relazione a tale bozza specifica.
 
-**Esempio:** Se ti è stato assegnato il ruolo di Revisore, ti viene chiesto di rivedere la bozza aggiungendo markup e commenti, ma non di approvare o rifiutare la bozza.
+**Esempio:** se ti è stato assegnato il ruolo di revisore, ti viene chiesto di rivedere la bozza aggiungendo markup e commenti, ma non hai la possibilità di approvare o rifiutare la bozza.
 
 Alcuni ruoli bozza assegnano ai revisori i diritti di modifica sulla bozza (anche se il loro profilo account non lo prevede) e consentono di utilizzare alcune funzioni aggiuntive, come l’aggiunta di azioni sui commenti, la creazione di nuove versioni e l’aggiunta di più revisori alla bozza.
 
@@ -50,18 +50,18 @@ Alcuni ruoli bozza assegnano ai revisori i diritti di modifica sulla bozza (anch
  <thead> 
   <tr> 
    <th> <p> </p> </th> 
-   <th> <p><strong>Visualizzare una bozza</strong> </p> </th> 
+   <th> <p><strong>Visualizza una bozza</strong> </p> </th> 
    <th> <p><strong>Aggiungi markup</strong> </p> </th> 
    <th> <p><strong>Aggiungi commenti</strong> </p> </th> 
-   <th> <p><strong>Modifica i propri commenti in assenza di risposte</strong> </p> </th> 
-   <th> <p><strong>Prendi una decisione</strong> </p> </th> 
+   <th> <p><strong>Modificare i propri commenti in assenza di risposte</strong> </p> </th> 
+   <th> <p><strong>Decidi</strong> </p> </th> 
    <th> <p><strong>Elimina commenti aggiunti da altri</strong> </p> </th> 
    <th>Risolvi commenti</th> 
    <th>Applica azioni ai commenti</th> 
    <th> <p><strong>Modifica la bozza</strong> </p> </th> 
    <th>Condividi la bozza con altri utenti</th> 
    <th>Crea nuova versione</th> 
-   <th> <p><strong>Visualizzare le richieste di approvazione nell’area Home</strong> </p> </th> 
+   <th> <p><strong>Visualizza richieste di approvazione nell'area Home</strong> </p> </th> 
    <th>Aggiungi nuovi revisori</th> 
   </tr> 
  </thead> 
@@ -150,7 +150,7 @@ Alcuni ruoli bozza assegnano ai revisori i diritti di modifica sulla bozza (anch
    <td> <p><strong>Moderatore</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p><strong>✓</strong> </p> </td> 
+   <td> <p>✓ <strong></strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> <p> </p> </td> 

@@ -23,9 +23,9 @@ ht-degree: 2%
 
 Quando si lavora su un modulo personalizzato, è possibile creare un nuovo campo personalizzato e aggiungerlo a un modulo personalizzato.
 
-È inoltre possibile aggiungere un campo personalizzato già aggiunto a un altro modulo personalizzato. Per istruzioni, consulta [Riutilizzare un campo personalizzato o un widget in un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
+È inoltre possibile aggiungere un campo personalizzato già aggiunto a un altro modulo personalizzato. Per istruzioni, vedere [Riutilizzare un campo personalizzato o un widget in un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
 
-Per informazioni sull’aggiunta di un widget di risorse a un modulo personalizzato, processo simile all’aggiunta di un campo personalizzato, consulta [Aggiungere o modificare un widget di risorse in un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Per informazioni sull&#39;aggiunta di un widget di risorse a un modulo personalizzato, processo simile all&#39;aggiunta di un campo personalizzato, vedere [Aggiungere o modificare un widget di risorse in un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 >[!NOTE]
 >
@@ -66,11 +66,11 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 ## Aggiungere un campo personalizzato a un modulo personalizzato {#add-custom-field-to-custom-form}
 
 1. Iniziare a creare o modificare un modulo personalizzato, come descritto in [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-1. Seleziona la **Aggiungi un campo** scheda.
+1. Selezionare la scheda **Aggiungi campo**.
 
    ![Aggiungi una scheda campo](assets/add-a-field.jpg)
 
-1. Con **Nuovo campo** ![Icona Nuovo campo](assets/new-field.jpg) selezionato, selezionare uno dei seguenti tipi di campo:
+1. Con **Nuovo campo** ![Icona nuovo campo](assets/new-field.jpg) selezionata, selezionare uno dei tipi di campo seguenti:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -88,7 +88,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Campo di testo con formattazione</td> 
-      <td>Consente agli utenti di digitare più righe di testo nel campo e formattare il testo con grassetto, corsivo, sottolineato, punti elenco, numerazione, collegamenti ipertestuali e virgolette. È disponibile in Home, nell’area Aggiornamenti, negli elenchi e nell’area Dettagli per gli oggetti Workfront. Un limite di caratteri di 15.000 consente di inserire testo e formattazione in modo molto ampio.</p> <p>Questo tipo di campo personalizzato non è supportato nei filtri di elenchi e rapporti.</p> <p>Per informazioni sull’accesso a questo campo tramite l’API, consulta <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Archiviazione di campi in formato Rich Text nell’API</a>.</p> <p><b>NOTA</b>: i campi di testo con formattazione non sono disponibili per le app Workfront per dispositivi mobili. </p> </td> 
+      <td>Consente agli utenti di digitare più righe di testo nel campo e formattare il testo con grassetto, corsivo, sottolineato, punti elenco, numerazione, collegamenti ipertestuali e virgolette. È disponibile in Home, nell’area Aggiornamenti, negli elenchi e nell’area Dettagli per gli oggetti Workfront. Un limite di caratteri di 15.000 consente di inserire testo e formattazione in modo molto ampio.</p> <p>Questo tipo di campo personalizzato non è supportato nei filtri di elenchi e rapporti.</p> <p>Per informazioni sull'accesso a questo campo tramite l'API, vedere <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Archiviazione campi in formato Rich Text nell'API</a>.</p> <p><b>NOTA</b>: i campi di testo con formattazione non sono disponibili per le app mobili Workfront. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">A discesa</td> 
@@ -112,7 +112,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
      </tr> 
      <tr> 
       <td role="rowheader">Calcolato</td> 
-      <td>Consente di definire un'espressione e di visualizzare il risultato nel modulo personalizzato. Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md" class="MCXref xref">Aggiungere dati calcolati a un modulo personalizzato</a>.</td> 
+      <td>Consente di definire un'espressione e di visualizzare il risultato nel modulo personalizzato. Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md" class="MCXref xref">Aggiungere dati calcolati a un modulo personalizzato</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Data</td> 
@@ -132,7 +132,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
      </tr> 
      <tr> 
       <td role="rowheader">Interruzione di sezione</td> 
-      <td>Un'interruzione di sezione non è in realtà un campo. È possibile utilizzare un'interruzione di sezione per organizzare i campi personalizzati e i widget in sezioni e, se necessario, configurare diverse autorizzazioni di visualizzazione e modifica per ogni sezione. Per informazioni sull'aggiunta e la configurazione delle interruzioni di sezione, vedere <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md" class="MCXref xref">Aggiungere un’interruzione di sezione a un modulo personalizzato</a>.</td> 
+      <td>Un'interruzione di sezione non è in realtà un campo. È possibile utilizzare un'interruzione di sezione per organizzare i campi personalizzati e i widget in sezioni e, se necessario, configurare diverse autorizzazioni di visualizzazione e modifica per ogni sezione. Per informazioni sull'aggiunta e la configurazione delle interruzioni di sezione, vedere <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md" class="MCXref xref">Aggiungere un'interruzione di sezione a un modulo personalizzato</a>.</td> 
      </tr> 
     </tbody> 
    </table>
@@ -141,7 +141,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    >
    >I campi che consentono selezioni multiple, come la casella di controllo e il menu a discesa, sono difficili da tracciare e raggruppare nei rapporti. Per semplificare la creazione di grafici e il raggruppamento nei report, è possibile creare campi separati per ogni scelta, ad esempio un campo di testo a riga singola.
 
-1. Il giorno **Impostazioni campo** , configura le opzioni disponibili per il tipo di campo personalizzato che stai aggiungendo:
+1. Nella scheda **Impostazioni campo** configurare le opzioni disponibili per il tipo di campo personalizzato che si sta aggiungendo:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -151,7 +151,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
     <tbody> 
      <tr> 
       <td role="rowheader">Etichetta</td> 
-      <td> <p>(Obbligatorio) Digita un’etichetta descrittiva da visualizzare sopra il campo personalizzato. Puoi modificare l’etichetta in qualsiasi momento.</p> <p><b>IMPORTANTE</b>: evita di utilizzare caratteri speciali in questa etichetta. Non vengono visualizzati correttamente nei rapporti.</p> </td> 
+      <td> <p>(Obbligatorio) Digita un’etichetta descrittiva da visualizzare sopra il campo personalizzato. Puoi modificare l’etichetta in qualsiasi momento.</p> <p><b>IMPORTANTE</b>: evitare di utilizzare caratteri speciali in questa etichetta. Non vengono visualizzati correttamente nei rapporti.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nome</td> 
@@ -161,7 +161,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       <li>Sebbene sia possibile farlo, si consiglia di non modificare questo nome dopo che l’utente o altri utenti hanno iniziato a utilizzare il modulo personalizzato in Workfront. In questo caso, il sistema non riconoscerà più il campo personalizzato a cui potrebbe ora fare riferimento in altre aree di Workfront. <p>Ad esempio, se aggiungi il campo personalizzato a un rapporto e successivamente ne modifichi il nome, Workfront non lo riconosce nel rapporto e non funzionerà più correttamente a meno che non lo aggiungi nuovamente al rapporto utilizzando il nuovo nome.</p> </li>
       <li> <p>È consigliabile non digitare un nome già utilizzato per i campi Workfront incorporati.</p> </li>
       <li><p>È consigliabile non utilizzare il carattere punto/punto nel nome del campo personalizzato, per evitare errori quando si utilizza il campo in aree diverse di Workfront.</p></li>
-      </ul> <p>Ogni nome di campo personalizzato deve essere univoco nell’istanza Workfront della tua organizzazione. In questo modo, è possibile riutilizzare un modulo già creato per un altro modulo personalizzato. Per ulteriori informazioni, consulta <a href="#add-a-custom-field-to-a-custom-form">Aggiungere un campo personalizzato a un modulo personalizzato</a> in questo articolo.</p> </td>
+      </ul> <p>Ogni nome di campo personalizzato deve essere univoco nell’istanza Workfront della tua organizzazione. In questo modo, è possibile riutilizzare un modulo già creato per un altro modulo personalizzato. Per ulteriori informazioni, vedere <a href="#add-a-custom-field-to-a-custom-form">Aggiungere un campo personalizzato a un modulo personalizzato</a> in questo articolo.</p> </td>
      </tr> 
      <tr> 
       <td role="rowheader">Istruzioni</td> 
@@ -173,10 +173,10 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       <td role="rowheader">Formato</td> 
       <td> <p>Seleziona il tipo di dati che verranno acquisiti nel campo personalizzato. È possibile modificare la selezione del formato dopo il salvataggio del modulo, ma il nuovo formato deve supportare il valore immesso.</p>
 
-   <p><strong>Esempio:</strong> Se si salva un valore numerico per un campo con formato Testo in almeno un oggetto e successivamente si modifica il formato in Numerico o Valuta, non si verificherà alcun errore. </p>
+   <p><strong>Esempio:</strong> se si salva un valore numerico per un campo con formato Testo in almeno un oggetto e successivamente si modifica il formato in Numerico o Valuta, non si verificherà alcun errore. </p>
       <p>Tuttavia, se si salva un valore alfanumerico in un campo con formato Testo in almeno un oggetto e si tenta di modificare il formato in Numerico o Valuta, si verificherà un errore perché il valore alfanumerico salvato non è compatibile con i formati Numerico o Valuta. </p>
 
-   <p><strong>Nota:</strong> Il limite di caratteri per i campi Numero è 16. È inoltre possibile utilizzare un campo Testo per immettere numeri ed evitare il limite.</p>
+   <p><strong>Nota:</strong> il limite di caratteri per i campi Numero è 16. È inoltre possibile utilizzare un campo Testo per immettere numeri ed evitare il limite.</p>
 
    </td> 
      </tr> 
@@ -207,7 +207,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
         <li>Appartengono a uno o più gruppi specificati</li> 
         <li>Sono associati a un ruolo o a una mansione specificata</li> 
         <li>Appartengono allo stesso gruppo della persona che utilizza il campo</li> 
-       </ul> <p>È necessario definire il filtro per il tipo di oggetto selezionato utilizzando la sintassi della modalità testo. Per informazioni sulla creazione di un filtro in modalità testo, vedere <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modificare un filtro utilizzando la modalità testo</a>.</p>
+       </ul> <p>È necessario definire il filtro per il tipo di oggetto selezionato utilizzando la sintassi della modalità testo. Per informazioni sulla creazione di un filtro in modalità testo, vedere <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modificare un filtro in modalità testo</a>.</p>
        <p><b>NOTA</b>:   
         <ul> 
          <li>Se si sta modificando un modulo personalizzato esistente, l'aggiunta di un filtro a un campo automatico non rimuove gli oggetti già aggiunti dagli utenti utilizzando il campo al di fuori dell'ambito del filtro.</li> 
@@ -234,30 +234,30 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       <li>Moduli personalizzati associati ai seguenti tipi di oggetti: Spesa, Società, Iterazione, Record fatturazione, Documento e Gruppo.</li> 
       <li>I seguenti tipi di campo: Calcolato, Testo descrittivo e Interruzione di sezione</li> 
       </ul>
-      <p><b>IMPORTANTE</b>: la selezione o deselezione di un tipo di oggetto influisce su tutti i moduli personalizzati associati al tipo di oggetto selezionato e che contengono questo campo. Ad esempio, se deselezioni un tipo di oggetto e salvi il modulo personalizzato, le modifiche al valore del campo non vengono più tracciate per quel tipo di oggetto in nessun modulo personalizzato che contiene il campo.</p>
+      <p><b>IMPORTANTE</b>: la selezione o la deselezione di un tipo di oggetto influisce su tutti i moduli personalizzati associati al tipo di oggetto selezionato e che contengono questo campo. Ad esempio, se deselezioni un tipo di oggetto e salvi il modulo personalizzato, le modifiche al valore del campo non vengono più tracciate per quel tipo di oggetto in nessun modulo personalizzato che contiene il campo.</p>
        <p>Dopo aver selezionato qui un tipo di oggetto per un campo e aver salvato il modulo personalizzato, il campo viene visualizzato nella scheda Campi personalizzati dell’area Aggiorna feed di Configurazione.</p> 
        <p>Al contrario, se questo campo viene eliminato nell’area Aggiorna feed di Configurazione, il tipo di oggetto per questa impostazione viene deselezionato in tutti i moduli personalizzati associati al tipo di oggetto e che contengono questo campo.</p> 
-       <p>Per ulteriori informazioni, consulta la sezione <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md#add-fields-you-want-workfront-to-track">Aggiungi i campi di cui vuoi tenere traccia in Workfront</a> nell’articolo <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md">Configurare gli aggiornamenti di sistema</a>.</p> </td> 
+       <p>Per ulteriori informazioni, vedere la sezione <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md#add-fields-you-want-workfront-to-track">Aggiungere i campi di cui si desidera tenere traccia</a> in Workfront nell'articolo <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md">Configurare gli aggiornamenti di sistema</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Aggiungi logica</td>
-      <td>Specificare i campi da visualizzare nel modulo in base alle selezioni effettuate dagli utenti nei campi esistenti. Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Aggiungere logica di visualizzazione e logica di salto a un modulo personalizzato</a>.</td> 
+      <td>Specificare i campi da visualizzare nel modulo in base alle selezioni effettuate dagli utenti nei campi esistenti. Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Aggiungere logica di visualizzazione e logica di salto a un modulo personalizzato</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Scelte </td> 
       <td> <p>(solo pulsanti a discesa, caselle di controllo o pulsanti di scelta; facoltativo)</p> 
        <ol> 
-        <li> <p>Clic <b>Opzioni</b>, quindi attiva uno dei seguenti elementi:</p> 
+        <li> <p>Fai clic su <b>Opzioni</b>, quindi abilita uno dei seguenti elementi:</p> 
            <ul> 
             <li><strong>Mostra valori</strong>: mostra i valori di ciascuna scelta nel campo. L’etichetta di ciascuna scelta viene visualizzata per impostazione predefinita.</li> 
-            <li><strong>Ordina le scelte dalla A alla Z</strong>: Ordina le scelte aggiunte in ordine alfabetico nel campo.</li> 
+            <li><strong>Ordina scelte A-Z</strong>: ordina alfabeticamente le scelte aggiunte nel campo.</li> 
            </ul> 
         </li> 
-        <li> <p>Per ogni scelta aggiunta per l’utente, fai clic sull’icona a forma di ingranaggio <img src="assets/gear-icon-settings.png">, quindi seleziona una delle seguenti opzioni:</p> 
+        <li> <p>Per ogni scelta aggiunta per l'utente, fare clic sull'icona a forma di ingranaggio <img src="assets/gear-icon-settings.png">, quindi selezionare una delle opzioni seguenti:</p> 
            <ul> 
             <li><strong>Seleziona per impostazione predefinita</strong>: seleziona la scelta per impostazione predefinita nel campo.</li> 
             <li> <p><strong>Nascondi scelta</strong>: nasconde la scelta nel campo. Le scelte nascoste rimangono accessibili nei rapporti.</p> </li> 
-            <li> <p><strong>Rimuovi scelta</strong>: rimuovi la scelta dal campo.</p> <p><b>AVVISO</b>: se gli oggetti correnti utilizzano questa scelta, non rimuoverla dal campo. Rimuovendola, i dati storici andranno perduti. Al contrario, seleziona l’opzione per nasconderlo, impedendo agli utenti di selezionarlo in futuro.</p> </li> 
+            <li> <p><strong>Rimuovi scelta</strong>: rimuovere la scelta dal campo.</p> <p><b>AVVISO</b>: se sono presenti oggetti correnti che utilizzano questa scelta, non rimuoverla dal campo. Rimuovendola, i dati storici andranno perduti. Al contrario, seleziona l’opzione per nasconderlo, impedendo agli utenti di selezionarlo in futuro.</p> </li> 
            </ul> 
         </li> 
        </ol> </td> 
@@ -265,12 +265,12 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
     </tbody> 
    </table>
 
-1. (Condizionale) Per modificare il tipo di visualizzazione di un campo nel modulo personalizzato, fai clic sul pulsante **Tipo di visualizzazione** quindi fare clic sul tipo desiderato.
+1. (Condizionale) Per modificare il tipo di visualizzazione di un campo nel modulo personalizzato, fare clic sul menu a discesa **Tipo di visualizzazione**, quindi sul tipo desiderato.
 
    Puoi passare dai seguenti tipi di visualizzazione dei campi:
 
-   * **Campi di tipo selezione**: Caselle Di Controllo, Elenco A Discesa, Pulsanti Di Scelta.
-   * **Campi di testo**: Campo Testo A Riga Singola, Campo Testo Paragrafo. Non è possibile impostare un tipo di visualizzazione diverso per un campo di testo con formattazione. È tuttavia possibile rimuoverlo e aggiungere un altro tipo di campo.)
+   * **Campi di tipo selezione**: caselle di controllo, elenco a discesa, pulsanti di scelta.
+   * **Campi di tipo testo**: campo di testo a riga singola, campo di testo paragrafo. Non è possibile impostare un tipo di visualizzazione diverso per un campo di testo con formattazione. È tuttavia possibile rimuoverlo e aggiungere un altro tipo di campo.)
 
    Se ad esempio è stato creato un campo Caselle di controllo, è possibile modificarlo in un campo a discesa o in un campo Pulsanti di scelta. In alternativa, se è stato creato un campo di testo a riga singola, è possibile modificarlo in un campo di testo paragrafo.
 
@@ -285,19 +285,19 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    Oppure
 
-   Aggiungi campi già creati per la tua organizzazione, come spiegato in [Riutilizzare un campo personalizzato o un widget in un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
+   Aggiungi campi già creati per la tua organizzazione, come descritto in [Riutilizzare un campo personalizzato o un widget in un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
 
    >[!NOTE]
    >
    >È possibile aggiungere fino a 500 campi e widget in un singolo modulo personalizzato. Tuttavia, il calo delle prestazioni può verificarsi quando in un modulo esistono più di 100 moduli, a seconda della complessità. Esempi di moduli complessi includono moduli con parametri a catena, campi di dati personalizzati calcolati e opzioni con più valori in un singolo campo.
 
-1. Clic **Applica**.
+1. Fare clic su **Applica**.
 1. Se si desidera continuare a creare il modulo personalizzato in altri modi, passare a uno dei seguenti articoli:
 
    * [Posizionare campi e widget personalizzati in un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
    * [Aggiungere o modificare un widget di risorse in un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
    * [Aggiungere dati calcolati a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
-   * [Aggiungere un’interruzione di sezione a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
+   * [Aggiungere un&#39;interruzione di sezione a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
    * [Riutilizzare un campo personalizzato calcolato esistente in un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
-   * [Aggiungere logica di visualizzazione e logica di salto a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+   * [Aggiungi logica di visualizzazione e logica di salto a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
    * [Anteprima e completamento di un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)

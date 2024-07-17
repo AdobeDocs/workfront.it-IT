@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: Consentire e-mail dall’applicazione Adobe Workfront
-description: Se hai configurato il firewall o il server di posta elettronica per consentire l’accesso solo a fornitori specifici, devi aggiungere determinati indirizzi IP di Adobe Workfront al tuo inserire nell'elenco Consentiti firewall. Per istruzioni, consulta Configurare l’inserire nell'elenco Consentiti del firewall.
+title: Consentire le e-mail dall’applicazione Adobe Workfront
+description: Se il firewall o il server di posta elettronica è stato configurato in modo da consentire l'accesso solo a fornitori specifici, è necessario aggiungere determinati indirizzi IP di Adobe Workfront al inserisco nell'elenco Consentiti di firewall di. Per istruzioni, vedere Configurare il inserisco nell'elenco Consentiti di del firewall.
 author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
@@ -15,6 +15,6 @@ ht-degree: 0%
 
 ---
 
-# Consentire e-mail dall’applicazione Adobe Workfront
+# Consentire le e-mail dall’applicazione Adobe Workfront
 
-Se hai configurato il firewall o il server di posta elettronica per consentire l’accesso solo a fornitori specifici, devi aggiungere determinati indirizzi IP di Adobe Workfront al tuo inserire nell&#39;elenco Consentiti firewall. Per istruzioni, consulta [Configurare l’inserire nell&#39;elenco Consentiti del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Se il firewall o il server di posta elettronica è stato configurato in modo da consentire l&#39;accesso solo a fornitori specifici, è necessario aggiungere determinati indirizzi IP di Adobe Workfront al inserisco nell&#39;elenco Consentiti di firewall di. Per istruzioni, consulta [Configurare il inserisco nell&#39;elenco Consentiti di protezione del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).

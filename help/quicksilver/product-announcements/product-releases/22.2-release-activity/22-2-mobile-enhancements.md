@@ -25,7 +25,7 @@ in January 2022
 
 la settimana del 4 aprile 2022.
 
-Per un elenco di tutte le modifiche disponibili con la versione 22.2, consulta [Panoramica sulla versione 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 22.2, vedere [Panoramica sulla versione 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Disegni e commenti sui documenti bozza nell’app mobile
 

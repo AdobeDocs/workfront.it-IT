@@ -1,19 +1,19 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: Visualizza problemi
+title: Visualizza i problemi
 description: È possibile visualizzare i problemi associati a un progetto, un'attività o un'iterazione.
 author: Alina
 feature: Work Management
 exl-id: b6791c8f-b356-4235-8b0e-952e29a88952
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
 
-# Visualizza problemi
+# Visualizza i problemi
 
 È possibile visualizzare i problemi associati a un progetto, un&#39;attività o un&#39;iterazione.
 
@@ -26,25 +26,25 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Richiesta o superiore</p> <p>Rivedi o una licenza superiore per visualizzare i problemi nella sezione Problemi di un progetto.</p> </td> 
+   <td> <p>Richiedi o superiore</p> <p>Rivedi o una licenza superiore per visualizzare i problemi nella sezione Problemi di un progetto.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Visualizza l'accesso ai problemi</p> <p>Visualizza o consente un accesso più elevato a progetti e attività</p> <p>Nota: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni sull'accesso ai problemi relativi al livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Concedere l’accesso ai problemi</a>. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>. </p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Visualizza l’accesso alle Issues</p> <p>Accesso di visualizzazione o superiore ai progetti e alle attività</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni sull'accesso ai problemi nel tuo livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Concedere l'accesso ai problemi</a>. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizza le autorizzazioni per il problema</p> <p> Per informazioni sulla concessione delle autorizzazioni per i problemi, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Condividere un problema </a></p> <p>Per informazioni sulla richiesta di autorizzazioni aggiuntive, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Visualizzare le autorizzazioni per il problema</p> <p> Per informazioni sulla concessione delle autorizzazioni per i problemi, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Condividere un problema </a></p> <p>Per informazioni sulla richiesta di autorizzazioni aggiuntive, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Visualizza i problemi in base allo stato
 
@@ -52,102 +52,102 @@ Per visualizzare i problemi relativi a un progetto, un&#39;attività o un&#39;it
 
 1. Apri un progetto, un&#39;attività o un&#39;iterazione che contiene problemi, quindi fai clic su **Problemi** nel pannello a sinistra.
 
-1. Per visualizzare tutti i problemi aperti o chiusi, fai clic su uno dei filtri elencati di seguito nella sezione **Filtro** menu a discesa.
+1. Per visualizzare tutti i problemi, aperti o chiusi, fai clic su uno dei filtri elencati di seguito dal menu a discesa **Filtro**.
 
 >[!TIP]
 >
->L’elenco dei filtri varia a seconda della selezione effettuata dall’amministratore di sistema o di gruppo per visualizzarli.
+>L’elenco dei filtri varia a seconda dell’opzione selezionata dall’amministratore di sistema o di gruppo per visualizzarlo.
 
-* **Apri:** Visualizza i problemi aperti.
+* **Apri:** visualizza i problemi aperti.
 
-   Sono inclusi quelli associati a un oggetto di risoluzione e quelli in uno stato di approvazione chiuso in sospeso.
+  Sono inclusi quelli associati a un oggetto risolutivo e quelli in stato Chiuso - In attesa di approvazione.
 
-   Per informazioni sulla risoluzione degli oggetti, vedere [Panoramica sulla risoluzione e risoluzione di oggetti](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
+  Per informazioni sulla risoluzione di oggetti, vedere [Panoramica sulla risoluzione e la risoluzione di oggetti](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
 
-* **Completato:** Visualizza tutti i problemi che hanno una data di completamento effettiva.
-* **Tutto** Visualizza tutti i problemi.
+* **Completato:** visualizza tutti i problemi con una data di completamento effettiva.
+* **Tutti** visualizza tutti i problemi.
 
 ## Informazioni sui problemi
 
-Puoi visualizzare informazioni su un problema quando accedi a esso.
+Quando si accede a un problema è possibile visualizzare le relative informazioni.
 
-Per accedere a un problema e visualizzare le relative informazioni:
+Per accedere a un problema e visualizzarne le informazioni:
 
 1. Apri un progetto, un&#39;attività o un&#39;iterazione che contiene problemi, quindi fai clic su **Problemi** nel pannello a sinistra.
-1. Da **Filtro** menu a discesa, seleziona il filtro per visualizzare i problemi che stai tentando di visualizzare.
+1. Dal menu a discesa **Filtro**, seleziona il filtro per visualizzare i problemi che stai tentando di visualizzare.
 
-   Seleziona una delle seguenti opzioni:
+   Selezionare una delle opzioni seguenti:
 
-   * Aperto
+   * Aperti
    * Completato
    * Tutti
 
 1. Fai clic sul nome di un problema.
 
-   Quando si dispone delle autorizzazioni di gestione per il problema è possibile modificare qualsiasi campo modificabile del problema e aggiungere approvazioni, ore o documenti al problema.
+   Quando si dispone delle autorizzazioni di gestione per il problema, è possibile modificare qualsiasi campo modificabile del problema e aggiungere approvazioni, ore o documenti al problema.
 
 1. Dal pannello a sinistra, fai clic su una delle seguenti opzioni per visualizzare ulteriori informazioni sul problema:
 
-* **Aggiornamenti**: Puoi eseguire le seguenti azioni:
+* **Aggiornamenti**: è possibile eseguire le azioni seguenti:
 
    * Commenta il problema o rispondi a un commento esistente.
-   * Tempo di log.
+   * Tempo di connessione.
    * Modifica lo stato del problema.
 
-      Per ulteriori informazioni sull&#39;aggiornamento dei lavori in Workfront, vedi [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+     Per ulteriori informazioni sull&#39;aggiornamento del lavoro in Workfront, vedere [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-* **Documenti**: Allega documenti al problema. Per ulteriori informazioni sull’aggiunta di documenti a Workfront, consulta [Aggiungere documenti ad Adobe Workfront dal file system](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+* **Documenti**: allega documenti al problema. Per ulteriori informazioni sull&#39;aggiunta di documenti a Workfront, vedere [Aggiungere documenti ad Adobe Workfront dal file system](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
-* **Dettagli del problema**: Espandi questo collegamento per visualizzare il **Panoramica** e **Forms personalizzato** aree.
+* **Dettagli problema**: espandi questo collegamento per visualizzare le aree **Panoramica** e **Forms** personalizzate.
 
-   Se si dispone delle autorizzazioni di gestione per il problema e dei diritti di modifica nel modulo personalizzato, è possibile modificare alcune informazioni qui.
+  Se disponi di autorizzazioni di gestione per il problema e diritti di modifica sul modulo personalizzato, puoi modificare alcune informazioni qui.
 
-   Visualizza o modifica i campi seguenti nella sezione **Panoramica** area:
+  Visualizza o modifica i campi seguenti nell&#39;area **Panoramica**:
 
    * **Nome**
-   * **Percorso**: il percorso in cui il problema è stato registrato nel progetto.
+   * **Percorso**: il percorso attraverso il quale il problema è stato registrato nel progetto.
 
-      Se un problema è stato inviato come richiesta in una coda di richiesta, i nomi del progetto, del gruppo di argomenti e dell&#39;argomento della coda sono elencati qui. Impossibile modificare il campo.
+     Se un problema è stato inviato come richiesta in una coda di richieste, qui sono elencati i nomi del progetto, il Gruppo di argomenti e l’Argomento coda. Impossibile modificare questo campo.
 
-      Per ulteriori informazioni sull’invio delle richieste, vedi [Creare e inviare richieste Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
+     Per ulteriori informazioni sull&#39;invio di richieste, vedere [Creare e inviare richieste Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
    * **Descrizione**
-   * **URL**: qualsiasi indirizzo web relativo al problema.
-   * **Priorità**: un flag visivo che ti consente di assegnare priorità ai problemi.
+   * **URL**: qualsiasi indirizzo Web relativo al problema.
+   * **Priorità**: un flag visivo che consente di assegnare la priorità ai problemi.
    * **Gravità**: un flag visivo che indica la gravità del problema descritto nel problema.
-   * **Contatto principale**: il contatto primario predefinito è l&#39;utente che ha creato il problema. È possibile modificare questo campo.
-   * **Orari pianificati**: visualizza il tempo necessario a un utente per completare il problema. Il valore predefinito è 8 ore. È possibile modificare questo campo.
-   * **Ore effettive**: visualizza il tempo necessario per completare il problema. Questo è il momento in cui qualcuno effettua il log per il problema.
-   * **Data di inizio prevista**: la data in cui è pianificato l’inizio del problema. L’impostazione predefinita è la data e l’ora in cui è stato creato il problema.
+   * **Contatto principale**: il contatto principale predefinito è l&#39;utente che ha creato il problema. Questo campo può essere modificato.
+   * **Ore pianificate**: visualizza la quantità di tempo che un utente impiegherà per completare il problema. Il valore predefinito è 8 ore. Questo campo può essere modificato.
+   * **Ore effettive**: visualizza il tempo necessario per completare il problema. Questa è l&#39;ora effettiva in cui qualcuno registra il problema.
+   * **Data inizio pianificata**: la data in cui è pianificato l&#39;inizio del problema. L’impostazione predefinita è la data e l’ora di creazione del problema.
    * **Data di inizio effettiva**: la data e l&#39;ora in cui lo stato del problema è stato modificato in In corso.
-   * **Data completamento pianificata**: la data in cui è prevista la conclusione del problema.
-   * **Data completamento effettivo**: la data in cui il problema è effettivamente completato. Questo campo viene compilato automaticamente quando lo stato del problema diventa Chiuso o Risolto oppure può essere modificato manualmente.
-   * **Costo effettivo**: il costo in base alle ore effettive registrate sul problema. Questo campo non è modificabile. Il costo effettivo di un problema viene calcolato in base alla seguente formula, in cui il tasso di costo utente è il tasso di costo associato all&#39;utente che registra il tempo al problema:
+   * **Data di completamento pianificata**: la data in cui è pianificato il completamento del problema.
+   * **Data di completamento effettiva**: la data in cui il problema è stato effettivamente completato. Questo campo viene compilato automaticamente quando lo stato del problema diventa Chiuso o Risolto, oppure può essere modificato manualmente.
+   * **Costo effettivo**: il costo basato sulle ore effettive registrate sul problema. Campo non modificabile. Il costo effettivo di un problema viene calcolato in base alla formula seguente, in cui Tasso costo utente è la tariffa di costo associata all&#39;utente che registra il tempo al problema:
 
-      Costo effettivo problema = ore registrate * Tasso di costo utente
+     Costo effettivo problema = Ore registrate * Tasso costo utente
 
-   * **Inserito da**: questo è l’utente che ha creato il problema. Questo campo non è modificabile.
-   * **Ultimo aggiornamento di**: questo è l’utente che ha aggiornato qualsiasi campo del problema per ultimo. Questo campo non è modificabile.
+   * **Inserito da**: l&#39;utente che ha creato il problema. Campo non modificabile.
+   * **Ultimo aggiornamento eseguito da**: questo è l&#39;utente che ha aggiornato per ultimo qualsiasi campo del problema. Campo non modificabile.
 
-      In **Forms personalizzato** area , visualizzazione della selezione di uno o più moduli personalizzati da associare al problema.
+     Nell&#39;area **Forms** personalizzato, visualizzazione di uno o più moduli personalizzati da associare al problema.
 
-* **Ore**: Mostra un elenco di voci orarie sul problema.
-* **Approvazioni:** Mostra i percorsi di approvazione associati al problema.
+* **Ore**: mostra un elenco delle ore inserite nel problema.
+* **Approvazioni:** mostra i percorsi di approvazione associati al problema.
 
-   Per ulteriori informazioni sull&#39;associazione delle approvazioni a un problema, consulta la [Associazione di un processo di approvazione a un elemento di lavoro](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md#associating-the-approval-process-with-an-object) sezione [Creazione di un processo di approvazione per gli elementi di lavoro](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+  Per ulteriori informazioni sull&#39;associazione delle approvazioni a un problema, vedere la sezione [Associazione di un processo di approvazione a un elemento di lavoro](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md#associating-the-approval-process-with-an-object) in [Creazione di un processo di approvazione per gli elementi di lavoro](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-## Visualizzare quali progetti e attività presentano problemi
+## Visualizza i progetti e le attività con problemi
 
-È possibile aggiungere icone nella visualizzazione di un progetto o di un rapporto di attività o di un elenco per indicare se i problemi sono associati. L’aggiunta di icone alla visualizzazione di un rapporto o di un elenco è simile per i progetti e le attività.
+È possibile aggiungere icone nella visualizzazione di un progetto, di un report attività o di un elenco per indicare se sono presenti problemi allegati. L&#39;aggiunta di icone alla visualizzazione di un report o di un elenco è simile per i progetti e le attività.
 
-Per aggiungere icone che mostrano se un progetto presenta problemi in un rapporto di progetto:
+Per aggiungere icone che mostrano se un progetto presenta problemi in un report di progetto:
 
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront.
-1. Fai clic su **Reporting** > **Nuovo rapporto** > **Rapporto sul progetto**.
-1. In **Mostra in questa colonna** campo, inizia a digitare **Icone di stato**, quindi selezionalo quando viene visualizzato nell’elenco.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront.
+1. Fai clic su **Generazione rapporti** > **Nuovo rapporto** > **Rapporto progetto**.
+1. Nel campo **Mostra in questa colonna**, inizia a digitare **Icone di stato**, quindi selezionala quando viene visualizzata nell&#39;elenco.
 
-1. Fai clic su **Salva e chiudi** .
+1. Fare clic su **Salva + Chiudi**.
 
-   Le icone dei problemi vengono visualizzate nei progetti che presentano problemi nella **Icone di stato** colonna.
+   Le icone dei problemi vengono visualizzate nei progetti che presentano problemi nella colonna **Icone di stato**.
 
-   ![project_list_with_issue_icon.png](assets/project-list-with-issue-icon-350x132.png)
+   ![elenco_progetti_con_icona_problema.png](assets/project-list-with-issue-icon-350x132.png)

@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Questa pagina descrive tutte le bacheche e i miglioramenti agili apportati con la versione 23.3. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione con la versione 23.3 del 20 e 21 luglio 2023.
 
-Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio 23.3, consulta [Panoramica sulla versione 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio 23.3, vedere [Panoramica sulla versione 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
-Per informazioni dettagliate su come acconsentire alle nuove funzioni delle bacheche prima del rilascio trimestrale, consulta [Consenso anticipato alle funzioni per le schede madri Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+Per informazioni dettagliate su come acconsentire alle nuove funzionalità delle bacheche prima del rilascio trimestrale, consulta [Accettazione anticipata delle funzionalità per le bacheche Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## Visualizzazione Agile di un progetto mostra una bacheca kanban
 
@@ -30,9 +30,9 @@ La visualizzazione Agile di un progetto ora include funzionalità aggiuntive per
 
 Mentre ti trovi nella bacheca, puoi scegliere di passare alla precedente vista Agile.
 
-Per ulteriori informazioni, consulta [Gestire un progetto nella visualizzazione Agile](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Per ulteriori informazioni, consulta [Gestire un progetto in Agile View](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
-[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3421283/){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità.](https://video.tv.adobe.com/v/3421283/){target=_blank}
 
 ## Ordina per colonne bacheca
 
@@ -42,9 +42,9 @@ Puoi ordinare in ordine crescente o decrescente per nome della carta, data di sc
 
 L’opzione &quot;user order&quot; (Ordine utente) riporta le schede nell’ordine in cui sono state impostate manualmente, prima che venissero applicate altre opzioni di ordinamento. Questo è l’ordinamento predefinito per le colonne.
 
-Per ulteriori informazioni, consulta [Filtrare ed eseguire ricerche in una bacheca](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+Per ulteriori informazioni, consulta [Filtrare e cercare in una bacheca](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3420932/){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità.](https://video.tv.adobe.com/v/3420932/){target=_blank}
 
 ## La modalità scura è ora disponibile sulle schede madri Adobe Workfront
 
@@ -54,7 +54,7 @@ Ora è possibile visualizzare tutte le schede madri e i flussi di lavoro in moda
 >
 >Se l’istanza di Workfront della tua organizzazione è stata integrata in Adobe Unified Experience, puoi abilitare la formattazione del tema scuro per tutto Adobe Experience Cloud tramite il menu delle preferenze (l’immagine del profilo) e non visualizzerai un’opzione separata della modalità scura per le schede madri di Workfront.
 
-Per ulteriori informazioni, consulta [Bacheche notifiche e preferenze e-mail](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
+Per ulteriori informazioni, consulta [Notifiche e preferenze e-mail per le bacheche](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
 
 ## Obiettivi disponibili nelle iterazioni del flusso di lavoro nelle schede madri Adobe Workfront
 
@@ -62,7 +62,7 @@ Per ulteriori informazioni, consulta [Bacheche notifiche e preferenze e-mail](/h
 
 Inoltre, la colonna Iterazione successiva è ora disponibile nelle bacheche di iterazione. Quando inserisci una scheda in questa colonna, questa viene automaticamente portata all’iterazione successiva e non viene reinserita nel backlog. Nell’iterazione successiva, la scheda viene visualizzata nella colonna che corrisponde al suo stato.
 
-Per ulteriori informazioni, consulta [Creare un’iterazione in un flusso di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+Per ulteriori informazioni, vedere [Creare un&#39;iterazione in un workflow](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 ## Aggiungi commenti alle schede sulle bacheche
 
@@ -72,15 +72,15 @@ Per ulteriori informazioni, consulta [Creare un’iterazione in un flusso di lav
 
 È ora possibile aggiungere commenti alle schede ad hoc e alle schede collegate sulle bacheche e assegnare tag ad altri utenti sui commenti. I commenti sono disponibili nei dettagli della scheda. La funzione di commento per le bacheche utilizza la nuova esperienza di commento di Adobe Workfront.
 
-Per ulteriori informazioni, consulta [Aggiungere una scheda ad hoc a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) e [Utilizzare le schede collegate sulle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Per ulteriori informazioni, consulta [Aggiungere una scheda ad hoc a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) e [Utilizzare schede connesse in bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3420832/){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3420832/){target=_blank}
 
 ## Miglioramenti al gestore di tag delle bacheche
 
 È stata migliorata l’interfaccia di Gestione tag, che consente di creare rapidamente nuovi tag e applicarli alle schede. Puoi anche creare tag per i flussi di lavoro.
 
-Per ulteriori informazioni, consulta [Aggiungi tag](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
+Per ulteriori informazioni, vedere [Aggiungere tag](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
 
 ## Filtri semplici disponibili nelle colonne di acquisizione della scheda
 
@@ -90,9 +90,9 @@ Per ulteriori informazioni, consulta [Aggiungi tag](/help/quicksilver/agile/get-
 
 Sono stati aggiunti filtri semplificati all’impostazione della colonna Acquisizione per consentirti di definire più rapidamente la colonna Acquisizione. I filtri disponibili sono progetti Workfront e assegnazioni per team o utente. Se lo desideri, puoi passare ai filtri avanzati.
 
-Per ulteriori informazioni, consulta [Aggiungere una colonna Acquisizione a una bacheca](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+Per ulteriori informazioni, vedere [Aggiungere una colonna di acquisizione a una bacheca](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
-[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3419420/){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3419420/){target=_blank}
 
 ## Filtri semplici aggiunti al modello di bacheca dinamica
 
@@ -102,7 +102,7 @@ Per ulteriori informazioni, consulta [Aggiungere una colonna Acquisizione a una 
 
 I filtri nel modello della bacheca dinamica sono stati semplificati per consentire di creare una bacheca più rapidamente. I filtri disponibili sono progetti Workfront e assegnazioni per team o utente. Se lo desideri, puoi passare ai filtri avanzati. Queste opzioni di filtro si trovano anche nel pannello Configura per le bacheche dinamiche.
 
-Per ulteriori informazioni, consulta [Creare o modificare una bacheca](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
+Per ulteriori informazioni, vedere [Creare o modificare una bacheca](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
 
 ## Modello per bacheca dinamica
 
@@ -114,13 +114,13 @@ Per le bacheche autonome è ora disponibile un nuovo modello, la bacheca dinamic
 
 La bacheca dinamica consente di popolare automaticamente una bacheca con schede basate su un progetto Workfront. Utilizzando i filtri, le schede vengono aggiunte alle colonne in base al loro stato.
 
-Per ulteriori informazioni, consulta [Creare o modificare una bacheca](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
+Per ulteriori informazioni, vedere [Creare o modificare una bacheca](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
 
-[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3418600/){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3418600/){target=_blank}
 
 ## Migrare le schede Kanban del team agile alle bacheche
 
-Una nuova **Aggiungi a bacheche** su schede Kanban team agile consente di aggiungere tutte le schede dalla scheda Kanban a una scheda Workfront. Puoi scegliere di creare una nuova bacheca Workfront o aggiungere le schede a una bacheca esistente.
+Un nuovo pulsante **Aggiungi alle bacheche** su bacheche Kanban del team agile consente di aggiungere tutte le schede dalla bacheca Kanban a una bacheca Workfront. Puoi scegliere di creare una nuova bacheca Workfront o aggiungere le schede a una bacheca esistente.
 
 Il posizionamento delle schede sulla bacheca Workfront si basa su criteri colonna. Ad esempio, una policy potrebbe spostare tutte le carte con lo stato &quot;In corso&quot; in una colonna specifica. Se non ci sono criteri o le schede non corrispondono ai criteri, le schede vengono posizionate nella colonna più a sinistra. Al momento, le schede nella colonna Backlog nella bacheca legacy non vengono aggiunte alla bacheca Workfront.
 
@@ -128,7 +128,7 @@ Le schede non vengono rimosse dalla bacheca Kanban del team Agile e le modifiche
 
 Per ulteriori informazioni, consulta [Migrare le schede Kanban del team agile alle schede madri Workfront](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
 
-[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3420425/){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3420425/){target=_blank}
 
 ## La navigazione a sinistra è stata aggiunta ai dettagli delle schede nelle Bacheche
 
@@ -140,9 +140,9 @@ Man mano che più opzioni di campo vengono aggiunte alle schede sulle Schede Wor
 
 Inoltre, ora puoi aggiungere URL nel campo Descrizione, che diventeranno collegamenti cliccabili quando i dettagli della scheda verranno salvati. Questi aggiornamenti si applicano sia alle schede ad hoc che a quelle connesse.
 
-Per ulteriori informazioni, consulta [Aggiungere una scheda ad hoc a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) e [Utilizzare le schede collegate sulle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Per ulteriori informazioni, consulta [Aggiungere una scheda ad hoc a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) e [Utilizzare schede connesse in bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3418598/){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità.](https://video.tv.adobe.com/v/3418598/){target=_blank}
 
 ## Bacheche notifiche e preferenze e-mail
 
@@ -152,6 +152,6 @@ Per ulteriori informazioni, consulta [Aggiungere una scheda ad hoc a una bacheca
 
 Le notifiche e-mail sono ora disponibili per le bacheche di Adobe Workfront. Le notifiche sono attivate per impostazione predefinita e puoi selezionare nelle preferenze quali e-mail desideri ricevere. Riceverai un’e-mail quando verrai aggiunto a una bacheca e quando ti verrà assegnata una scheda.
 
-Per ulteriori informazioni, consulta [Bacheche notifiche e preferenze e-mail](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
+Per ulteriori informazioni, consulta [Notifiche e preferenze e-mail per le bacheche](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
 
-[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3418597/){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3418597/){target=_blank}

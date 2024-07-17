@@ -9,7 +9,7 @@ role: Developer
 exl-id: ac394b41-63cb-481a-a858-30d8d7f840bb
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -30,10 +30,10 @@ Per informazioni su come specificare una versione nelle richieste API, consulta 
 
 Quando si lavora con l’API predefinita di Workfront, tieni presente quanto segue:
 
-* La versione predefinita dell’API corrisponde alla versione più recente. Qualsiasi chiamata API senza la versione specificata utilizzerà la versione predefinita. Ogni volta che Workfront rilascia una nuova versione dell’API, la versione predefinita viene aggiornata alla versione più recente. **Pertanto, dopo il rilascio di una nuova versione dell’API Workfront, tutte le chiamate API che utilizzano la versione predefinita devono essere controllate per assicurarsi che la funzionalità sia ancora supportata**.
+* La versione predefinita dell’API corrisponde alla versione più recente. Qualsiasi chiamata API senza la versione specificata utilizzerà la versione predefinita. Ogni volta che Workfront rilascia una nuova versione dell’API, la versione predefinita viene aggiornata alla versione più recente. **Pertanto, dopo il rilascio di una nuova versione dell&#39;API Workfront, tutte le chiamate API che utilizzano la versione predefinita devono essere controllate per verificare che la funzionalità sia ancora supportata**.
 * Se l’organizzazione utilizza attualmente l’API predefinita obsoleta, l’amministratore di Workfront ha ricevuto un messaggio Centro notifiche con ulteriori istruzioni relative all’API predefinita.
 
-Per visualizzare la versione più recente dell’API, consulta [Pianificazione del supporto e del controllo delle versioni API](../../wf-api/api/api-version-support-schedule.md).
+Per visualizzare la versione più recente dell&#39;API, vedere [Controllo delle versioni e pianificazione del supporto API](../../wf-api/api/api-version-support-schedule.md).
 
 ## Aggiornamento delle integrazioni alle versioni API supportate
 
@@ -49,9 +49,9 @@ Per trasformare una richiesta API predefinita in una richiesta API con versione,
 
 `https://davidwhite.my.workfront.com/attask/api/`**v15.0**`/project/metadata`
 
-Quando aggiorni le richieste API di Workfront, puoi specificare qualsiasi versione supportata della nostra API. Per ulteriori informazioni sul riferimento a un’API specifica, consulta [Specificare una versione API nelle integrazioni](../../wf-api/api/specify-api-version-integrations.md).
+Quando aggiorni le richieste API di Workfront, puoi specificare qualsiasi versione supportata della nostra API. Per ulteriori informazioni sul riferimento a un&#39;API specifica, vedere [Specificare una versione API nelle integrazioni](../../wf-api/api/specify-api-version-integrations.md).
 
-Per garantire la finestra di supporto massima, è necessario chiamare la versione più recente. Puoi trovare un elenco delle API supportate in [Pianificazione del supporto e del controllo delle versioni API](../../wf-api/api/api-version-support-schedule.md).
+Per garantire la finestra di supporto massima, è necessario chiamare la versione più recente. L&#39;elenco delle API supportate è disponibile nella [pianificazione supporto e controllo delle versioni delle API](../../wf-api/api/api-version-support-schedule.md).
 
 ## Cronologia della versione predefinita dell’API
 

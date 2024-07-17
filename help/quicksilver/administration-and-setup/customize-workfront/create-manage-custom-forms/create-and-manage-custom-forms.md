@@ -1,5 +1,5 @@
 ---
-title: Moduli personalizzati nel mio gruppo
+title: Moduli personalizzati
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -27,6 +27,6 @@ Non esiste alcun limite al numero di moduli personalizzati che è possibile crea
 
 Questa sezione contiene i seguenti articoli:
 
-* [Panoramica dei moduli personalizzati](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
+* [Panoramica moduli personalizzati](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
 * [Generatore di moduli personalizzati legacy](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
 * [Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)

@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Salvare un file di intestazione e-mail
-description: Occasionalmente, [!DNL Adobe Workfront] Il supporto può richiedere un file di intestazione e-mail. Ogni applicazione e-mail ha il proprio modo di ottenere questo file. Di seguito sono riportate alcune diverse istruzioni dell’applicazione e-mail per individuare e salvare l’intestazione. [!DNL Outlook]
+description: A volte, il supporto  [!DNL Adobe Workfront]  può richiedere un file di intestazione e-mail. Ogni applicazione e-mail ha il proprio modo di ottenere questo file. Di seguito sono riportate alcune istruzioni diverse per l'applicazione di posta elettronica per individuare e salvare l'intestazione. [!DNL Outlook]
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -18,45 +18,45 @@ ht-degree: 0%
 
 # Salvare un file di intestazione e-mail
 
-Occasionalmente, [!DNL Adobe Workfront] Il supporto può richiedere un file di intestazione e-mail. Ogni applicazione e-mail ha il proprio modo di ottenere questo file. Di seguito sono riportate alcune diverse istruzioni dell’applicazione e-mail per individuare e salvare l’intestazione.
+Talvolta, il supporto di [!DNL Adobe Workfront] potrebbe richiedere un file di intestazione e-mail. Ogni applicazione e-mail ha il proprio modo di ottenere questo file. Di seguito sono riportate alcune istruzioni diverse sull’applicazione e-mail per individuare e salvare l’intestazione.
 
 ## Outlook
 
 1. Apri il messaggio e-mail.
-1. Fai clic su **[!UICONTROL Visualizza]**, quindi seleziona **[!UICONTROL Opzioni messaggio]**.
+1. Fai clic su **[!UICONTROL Visualizza]** e seleziona **[!UICONTROL Opzioni messaggio]**.
 
-1. Fai clic su **[!UICONTROL Intestazioni Internet]**.
-1. Salva il file di intestazione completo.
+1. Fare clic su **[!UICONTROL Intestazioni Internet]**.
+1. Salvare il file di intestazione completo.
 
 ## Outlook per Mac
 
 1. Fai clic con il pulsante destro del mouse sul messaggio e-mail.
-1. Seleziona **[!UICONTROL Visualizza origine]**.
-1. Salva il file di intestazione completo.
+1. Selezionare **[!UICONTROL Visualizza Source]**.
+1. Salvare il file di intestazione completo.
 
 ## Gmail
 
 1. Apri il messaggio e-mail.
-1. Fai clic sul pulsante **[!UICONTROL Rispondi]** menu a discesa nell’angolo superiore destro dello schermo.
+1. Fai clic sul menu a discesa **[!UICONTROL Rispondi]** nell&#39;angolo superiore destro dello schermo.
 1. Scorri verso il basso e seleziona **[!UICONTROL Mostra originale]**.
-1. Salva il file di intestazione completo.
+1. Salvare il file di intestazione completo.
 
 ## Thunderbird
 
 1. Apri il messaggio e-mail.
-1. Fai clic su **[!UICONTROL Visualizza]** e seleziona **[!UICONTROL Gestisci origine]**.
+1. Fai clic su **[!UICONTROL Visualizza]** e seleziona **[!UICONTROL Gestisci Source]**.
 
-1. Salva il file di intestazione completo.
+1. Salvare il file di intestazione completo.
 
 ## Yahoo Mail
 
 1. Apri il messaggio.
-1. Fai clic su **[!UICONTROL Azioni]**, quindi seleziona **[!UICONTROL Visualizza intestazione completa]**.
+1. Fai clic su **[!UICONTROL Azioni]** e seleziona **[!UICONTROL Visualizza intestazione completa]**.
 
-1. Salva il file di intestazione completo.
+1. Salvare il file di intestazione completo.
 
 ## Hotmail
 
-1. Vai all&#39;elenco dei messaggi.
-1. Fai clic con il pulsante destro del mouse sul messaggio e seleziona **[!UICONTROL Visualizza origine messaggi]**.
-1. Salva il file di intestazione completo.
+1. Passa all&#39;elenco dei messaggi.
+1. Fare clic con il pulsante destro del mouse sul messaggio e selezionare **[!UICONTROL Visualizza messaggio Source]**.
+1. Salvare il file di intestazione completo.

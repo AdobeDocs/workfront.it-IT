@@ -55,8 +55,8 @@ Devi avere i seguenti:
 
 ## Aprire la visualizzazione Riepilogo
 
-1. Vai a **Documenti** e selezionare un elemento nell&#39;elenco.
-1. Fai clic su **Icona Apri riepilogo** ![](assets/qs-summary-in-new-toolbar-small.png).
+1. Vai all&#39;area **Documenti** e seleziona un elemento nell&#39;elenco.
+1. Fare clic sull&#39;icona **Apri riepilogo** ![](assets/qs-summary-in-new-toolbar-small.png).
 
    Dopo aver aperto il riepilogo, rimane aperto mentre si fa clic su altri documenti e rimane aperto fino a quando non viene chiuso manualmente.
 
@@ -64,7 +64,7 @@ Devi avere i seguenti:
 
 ## Dettagli
 
-Utilizza la sezione Dettagli per visualizzare informazioni generali di alto livello e interagire con i moduli personalizzati. Clic **Dettagli** nella parte superiore della sezione per passare alla pagina Dettagli documento completa.
+Utilizza la sezione Dettagli per visualizzare informazioni generali di alto livello e interagire con i moduli personalizzati. Fai clic su **Dettagli** nella parte superiore della sezione per passare alla pagina Dettagli documento completa.
 
 * [Panoramica](#overview)
 * [Moduli personalizzati](#custom-forms)
@@ -79,13 +79,13 @@ Espandi la sezione Panoramica per visualizzare o scaricare una miniatura di imma
 
 ### Moduli personalizzati {#custom-forms}
 
-Utilizza la sezione Forms personalizzato per aggiungere, modificare o visualizzare i moduli personalizzati associati al documento. Iniziare a digitare il nome del modulo personalizzato per aggiungerlo al documento. Per ulteriori informazioni, consulta [Aggiungere o modificare un modulo personalizzato a un documento](../../documents/managing-documents/add-custom-form-documents.md).
+Utilizza la sezione Forms personalizzato per aggiungere, modificare o visualizzare i moduli personalizzati associati al documento. Iniziare a digitare il nome del modulo personalizzato per aggiungerlo al documento. Per ulteriori informazioni, vedere [Aggiungere o modificare un modulo personalizzato in un documento](../../documents/managing-documents/add-custom-form-documents.md).
 
 ![](assets/add-custom-form-doc-summary-350x265.png)
 
 ## Aggiornamenti
 
-Utilizzare la sezione Aggiornamenti per leggere un aggiornamento eseguito da un utente sul documento o sulla bozza. Il riepilogo mostra i primi 2 commenti. Per ulteriori informazioni sugli aggiornamenti, consulta [Commento su una bozza](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
+Utilizzare la sezione Aggiornamenti per leggere un aggiornamento eseguito da un utente sul documento o sulla bozza. Il riepilogo mostra i primi 2 commenti. Per ulteriori informazioni sugli aggiornamenti, vedi [Commento su una bozza](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
 
 ![Sezione Aggiornamenti nel pannello Riepilogo](assets/summary-updates-section-new-comments.png)
 
@@ -102,7 +102,7 @@ Utilizzare la sezione Approvazioni per richiedere l&#39;approvazione di un docum
 
 ## Versioni
 
-Utilizzare la sezione Versioni per visualizzare il numero di versioni create per un documento specifico. Fai clic su **Menu Altro** a
+Utilizzare la sezione Versioni per visualizzare il numero di versioni create per un documento specifico. Fai clic sul **menu Altro** per
 
 * Apri una bozza
 * Scaricare una bozza o un documento

@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Attività di rilascio 2018.3 Beta 5
-description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.3 Beta 5. La funzionalità sarà disponibile nell’ambiente di anteprima il 21 settembre 2018. Sarà disponibile nell’ambiente di produzione a novembre 2018.
+title: Attività sulla versione 2018.3 di Beta 5
+description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.3 di Beta 5. La funzionalità sarà disponibile nell’ambiente di anteprima il 21 settembre 2018. Sarà disponibile nell’ambiente di produzione a novembre 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,35 +14,35 @@ ht-degree: 0%
 
 ---
 
-# Attività di rilascio 2018.3 Beta 5
+# Attività sulla versione 2018.3 di Beta 5
 
-Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.3 Beta 5. La funzionalità sarà disponibile nell’ambiente di anteprima il 21 settembre 2018. Sarà disponibile nell’ambiente di produzione a novembre 2018.
+Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.3 di Beta 5. La funzionalità sarà disponibile nell’ambiente di anteprima il 21 settembre 2018. Sarà disponibile nell’ambiente di produzione a novembre 2018.
 
-Per un elenco di tutte le modifiche apportate nel 2018.3, consulta  [Panoramica sull’attività della versione 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Per un elenco di tutte le modifiche apportate nel 2018.3, consulta  Panoramica sull&#39;attività della versione di [2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
-La versione 2018.3 Beta 5 contiene miglioramenti per tutti gli utenti:
+La versione 2018.3 di Beta 5 contiene miglioramenti per tutti gli utenti:
 
-* [Tracciare le approvazioni inviate nell’area Home](#track-approvals-you-ve-submitted-in-the-home-area)
-* [Sostituzione degli strumenti basati su Flash in Workfront](#replacement-of-flash-based-tools-in-workfront)
+* [Tracciare le approvazioni inviate nell&#39;area Home](#track-approvals-you-ve-submitted-in-the-home-area)
+* [Sostituzione degli strumenti basati sul Flash in Workfront](#replacement-of-flash-based-tools-in-workfront)
 * [Consentire agli utenti con licenza Lavoro di accedere alla scheda secondaria Pianificazione di un progetto](#allowing-work-license-users-to-access-the-scheduling-subtab-of-a-project)
 * [Filtri migliorati nella pianificazione risorse](#improved-filters-in-the-resource-planner)
-* [Visualizza ore effettive nella programmazione delle risorse](#view-actual-hours-in-the-resource-planner)
-* [Dati di programmazione delle risorse nell&#39;esportazione del Business Case](#resource-planner-data-in-the-business-case-export)
-* [Abilita sostituzione tariffa di fatturazione a livello di società](#enable-company-level-billing-rate-override)
-* [Approvazioni semplificate basate su ruoli](#simplified-role-based-approvals)
-* [Rapporto Utilizzo: popola le ore preventivate dalla nuova area di budget risorse](#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area)
-* [Rapporto Utilizzo: visualizzazione delle ore preventivate per utente in un progetto](#utilization-report-view-budgeted-hours-by-user-on-a-project)
+* [Visualizza le ore effettive nella Programmazione delle risorse](#view-actual-hours-in-the-resource-planner)
+* [Dati di programmazione delle risorse nell&#39;esportazione del caso aziendale](#resource-planner-data-in-the-business-case-export)
+* [Abilita sostituzione tariffa di fatturazione a livello aziendale](#enable-company-level-billing-rate-override)
+* [Approvazioni semplificate basate sul ruolo](#simplified-role-based-approvals)
+* [Rapporto utilizzo: popola le ore preventivate dalla nuova area budget risorse](#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area)
+* [Rapporto utilizzo: visualizzazione ore preventivate per utente in un progetto](#utilization-report-view-budgeted-hours-by-user-on-a-project)
 * [File SWF non più supportati nel visualizzatore di bozze](#swf-files-no-longer-supported-in-the-proofing-viewer)
-* [Azioni più rapidamente accessibili nell’elenco dei commenti nel visualizzatore di bozze](#actions-more-quickly-accessible-in-the-comment-list-in-the-proofing-viewer)
+* [Azioni più rapidamente accessibili nell&#39;elenco dei commenti nel visualizzatore di bozze](#actions-more-quickly-accessible-in-the-comment-list-in-the-proofing-viewer)
 * [Miglioramento della condivisione delle bozze nel visualizzatore di bozze](#proof-sharing-improvement-in-the-proofing-viewer)
-* [Miglioramenti all’elenco dei commenti nel visualizzatore di bozze](#comments-list-enhancements-in-the-proofing-viewer)
+* [Miglioramenti all&#39;elenco dei commenti nel visualizzatore di bozze](#comments-list-enhancements-in-the-proofing-viewer)
 * [Zoom e scorrimento delle bozze video nel visualizzatore di bozze](#zoom-and-pan-video-proofs-in-the-proofing-viewer)
 * [Sfondo più chiaro nel visualizzatore di bozze](#lighter-background-in-the-proofing-viewer)
 * [Maggiore visibilità quando un commento è stato modificato nel visualizzatore di bozze](#better-visibility-when-a-comment-has-been-edited-in-the-proofing-viewer)
-* [Visualizzare il numero di commenti associati a un&#39;azione nell&#39;elenco dei commenti nel visualizzatore di bozze](#view-the-number-of-comments-associated-with-an-action-in-the-comment-list-in-the-proofing-viewer)
-* [Specificare lo staging per l’aggiunta di utenti a una bozza nel visualizzatore di bozze](#specify-the-stage-when-adding-users-to-a-proof-in-the-proofing-viewer)
-* [Apertura del sito web associato da una bozza interattiva o statica del sito web](#opening-the-associated-website-from-an-interactive-or-static-website-proof)
-* [Miglioramenti di Stampa riepilogo](#print-summary-enhancements)
+* [Visualizza il numero di commenti associati a un&#39;azione nell&#39;elenco dei commenti nel visualizzatore di bozze](#view-the-number-of-comments-associated-with-an-action-in-the-comment-list-in-the-proofing-viewer)
+* [Specificare la fase durante l&#39;aggiunta di utenti a una bozza nel visualizzatore di bozze](#specify-the-stage-when-adding-users-to-a-proof-in-the-proofing-viewer)
+* [Apertura del sito Web associato da una bozza del sito Web interattivo o statico](#opening-the-associated-website-from-an-interactive-or-static-website-proof)
+* [Miglioramenti di Riepilogo stampa](#print-summary-enhancements)
 * [Tempo di caricamento bozza migliorato](#improved-proof-loading-time)
 * [Nuovo aspetto della scheda Aggiornamenti nell’app mobile di Workfront](#new-look-and-feel-of-the-updates-tab-in-the-workfront-mobile-app)
 
@@ -59,13 +59,13 @@ Da Home puoi effettuare le seguenti operazioni:
 
   In precedenza, era possibile interagire con le approvazioni inviate solo nell’area Il mio lavoro. 
 
-Per ulteriori informazioni, consulta [Gestire le approvazioni](../../../../review-and-approve-work/manage-approvals/manage-approvals.md). 
+Per ulteriori informazioni, vedere [Gestione approvazioni](../../../../review-and-approve-work/manage-approvals/manage-approvals.md). 
 
 ## Sostituzione degli strumenti basati su Flash in Workfront {#replacement-of-flash-based-tools-in-workfront}
 
 Tutte le funzionalità basate sulla tecnologia di Flash verranno rimosse da Workfront con la versione 2018.3 e sostituite con una nuova soluzione.
 
-Per ulteriori informazioni su tutte le aree interessate dalla rimozione di queste funzioni e per capire quali strumenti le sostituiranno, consulta [Sostituzione degli strumenti basati su Flash in Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Per ulteriori informazioni su tutte le aree interessate dalla rimozione di queste funzionalità e per capire quali strumenti le sostituiranno, vedere [Sostituzione degli strumenti basati sul Flash in Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 
 ## Consentire agli utenti con licenza Lavoro di accedere alla scheda secondaria Pianificazione di un progetto {#allowing-work-license-users-to-access-the-scheduling-subtab-of-a-project}
 
@@ -77,7 +77,7 @@ Per informazioni sull&#39;accesso necessario per accedere alla scheda secondaria
 
 >[!NOTE]
 >
->Gli strumenti di pianificazione delle risorse sono stati dichiarati obsoleti e rimossi da Workfront con la versione 23.1. Per informazioni sulla programmazione delle risorse tramite il Bilanciatore dei carichi di lavoro, consulta [Panoramica del Bilanciatore dei carichi di lavoro](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Gli strumenti di pianificazione delle risorse sono stati dichiarati obsoleti e rimossi da Workfront con la versione 23.1. Per informazioni sulla pianificazione delle risorse tramite il Bilanciatore dei carichi di lavoro, vedere [Panoramica del Bilanciatore dei carichi di lavoro](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 ## Filtri migliorati nella pianificazione risorse {#improved-filters-in-the-resource-planner}
 
@@ -85,7 +85,7 @@ Ora è possibile filtrare le informazioni nella Programmazione delle risorse per
 
 Prima di questo miglioramento, era possibile filtrare solo per un numero limitato di campi e criteri incorporati nella Programmazione delle risorse.
 
-Per informazioni sul filtraggio delle informazioni nella Programmazione delle risorse, consulta [Filtrare le informazioni nella Programmazione delle risorse](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+Per informazioni sul filtro delle informazioni nella Programmazione delle risorse, vedere [Informazioni sul filtro nella Programmazione delle risorse](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 ## Visualizza ore effettive nella programmazione delle risorse {#view-actual-hours-in-the-resource-planner}
 
@@ -93,7 +93,7 @@ Per informazioni sul filtraggio delle informazioni nella Programmazione delle ri
 
 Prima di questo miglioramento, le ore effettive non erano visibili nella Programmazione delle risorse.
 
-Per informazioni sulla visualizzazione delle informazioni sulle ore nella Programmazione delle risorse, vedere [Panoramica di Programmazione delle risorse](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Per informazioni sulla visualizzazione delle informazioni sulle ore nella Programmazione delle risorse, vedere [Panoramica sulla Programmazione delle risorse](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Dati di programmazione delle risorse nell&#39;esportazione del Business Case {#resource-planner-data-in-the-business-case-export}
 
@@ -101,7 +101,7 @@ Quando si esporta il Business Case in un PDF, le informazioni finanziarie nel fi
 
 In precedenza, il file esportato rifletteva le informazioni nell&#39;area Stime risorse legacy e nel Capacity Planner. 
 
-Per informazioni sull&#39;esportazione del Business Case, vedere [Creare un Business Case per un progetto](../../../../manage-work/projects/define-a-business-case/create-business-case.md) sezione in [Creare un Business Case per un progetto](../../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Per informazioni sull&#39;esportazione del Business Case, vedere la sezione [Creare un Business Case per un progetto](../../../../manage-work/projects/define-a-business-case/create-business-case.md) in [Creare un Business Case per un progetto](../../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 ## Abilita sostituzione tariffa di fatturazione a livello di società {#enable-company-level-billing-rate-override}
 
@@ -111,7 +111,7 @@ Se si abilita questa impostazione, le tariffe di fatturazione della società sov
 
 In precedenza, non era possibile applicare a un progetto le modifiche delle tariffe di fatturazione a livello di società, a meno che la società non venisse rimossa dal progetto e poi riallegata.
 
-Per ulteriori informazioni, consulta [Sostituisci tariffe di fatturazione a livello di progetto con tariffe di fatturazione a livello di società](../../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md). 
+Per ulteriori informazioni, vedere [Sostituire le tariffe di fatturazione a livello di progetto con le tariffe di fatturazione a livello di società](../../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md). 
 
 ## Approvazioni semplificate basate su ruoli {#simplified-role-based-approvals}
 
@@ -119,7 +119,7 @@ Le approvazioni basate sul ruolo ora funzionano più semplicemente su un progett
 
 In precedenza, era necessario assegnare gli utenti al team di progetto, assicurarsi che avessero il ruolo corretto nel loro profilo utente e selezionare tale ruolo nel Team Builder legacy.
 
-Per ulteriori informazioni, consulta la sezione [Panoramica del team del progetto](../../../../manage-work/projects/planning-a-project/project-team-overview.md) nell’articolo [Panoramica del team del progetto](../../../../manage-work/projects/planning-a-project/project-team-overview.md).
+Per ulteriori informazioni, vedere la sezione [Panoramica team di progetto](../../../../manage-work/projects/planning-a-project/project-team-overview.md) nell&#39;articolo [Panoramica team di progetto](../../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Rapporto Utilizzo: popola le ore preventivate dalla nuova area di budget risorse {#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area}
 
@@ -131,7 +131,7 @@ Le ore preventivate nel rapporto Utilizzo ora sono compilate dalle informazioni 
 
 Prima di questa modifica, venivano utilizzate le informazioni provenienti dall’area Stime risorse legacy.
 
-Per ulteriori informazioni, consulta  [Panoramica del rapporto Utilizzo risorse](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) nell’articolo  [Panoramica del rapporto Utilizzo risorse](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Per ulteriori informazioni, consulta  [Panoramica del report sull&#39;utilizzo delle risorse](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) nell&#39;articolo  [Panoramica del report Utilizzo risorse](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Rapporto Utilizzo: visualizzazione delle ore preventivate per utente in un progetto {#utilization-report-view-budgeted-hours-by-user-on-a-project}
 
@@ -143,13 +143,13 @@ Il rapporto Utilizzo di un progetto ora visualizza Ore preventivate per utente.
 
 Prima di questa modifica, il rapporto Utilizzo mostrava Ore preventivate solo per mansione. 
 
-Per ulteriori informazioni, consulta  [Panoramica del rapporto Utilizzo risorse](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) nell’articolo  [Panoramica del rapporto Utilizzo risorse](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Per ulteriori informazioni, consulta  [Panoramica del report sull&#39;utilizzo delle risorse](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) nell&#39;articolo  [Panoramica del report Utilizzo risorse](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## File SWF non più supportati nel visualizzatore di bozze {#swf-files-no-longer-supported-in-the-proofing-viewer}
 
 A causa di problemi di sicurezza associati al Flash Adobe, il visualizzatore di bozze non supporta più le bozze create da file SWF. Se apri una bozza creata in precedenza per un file SWF, viene visualizzato un messaggio in cui il contenuto della bozza visualizzato in precedenza era nel visualizzatore di bozze. È possibile visualizzare qualsiasi commento sulla bozza. È inoltre possibile scaricare i commenti e il file SWF originale.
 
-Per ulteriori informazioni, consulta [Panoramica dei tipi di file di verifica supportati e dei limiti di dimensione](../../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md) nell’articolo [Panoramica dei tipi di file di verifica supportati e dei limiti di dimensione](../../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md). 
+Per ulteriori informazioni, vedere [Panoramica sui tipi di file di verifica e sui limiti di dimensione supportati](../../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md) nell&#39;articolo [Panoramica sui tipi di file di verifica e sui limiti di dimensione supportati](../../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md). 
 
 ## Azioni più rapidamente accessibili nell’elenco dei commenti nel visualizzatore di bozze {#actions-more-quickly-accessible-in-the-comment-list-in-the-proofing-viewer}
 
@@ -157,7 +157,7 @@ Ora puoi aggiungere o modificare più rapidamente l’azione di un commento nel 
 
 In precedenza era necessario aprire il commento, aprire un menu a discesa, aprire un sottomenu e quindi fare clic sull&#39;azione desiderata.
 
-Per ulteriori informazioni, consulta [Utilizzare le azioni sui commenti della bozza](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md).
+Per ulteriori informazioni, consulta [Utilizzare azioni sui commenti della bozza](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md).
 
 ## Miglioramento della condivisione delle bozze nel visualizzatore di bozze {#proof-sharing-improvement-in-the-proofing-viewer}
 
@@ -165,7 +165,7 @@ Quando si invia un URL dal visualizzatore di bozze, le opzioni visualizzate veng
 
 In precedenza, queste opzioni fornivano le stesse funzionalità attuali, ma la loro organizzazione non era coerente con le opzioni corrispondenti nell&#39;elenco Documenti.
 
-Per ulteriori informazioni, consulta la sezione  [Condividere l’URL](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-the-url) nell’articolo  [Condividere una bozza dal visualizzatore di bozze](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
+Per ulteriori informazioni, consulta la sezione  [Condividi l&#39;URL](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-the-url) nell&#39;articolo  [Condividi una bozza dal visualizzatore di bozze](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
 
 ## Miglioramenti all’elenco dei commenti nel visualizzatore di bozze {#comments-list-enhancements-in-the-proofing-viewer}
 
@@ -215,7 +215,7 @@ Quando si aggiunge un revisore a una bozza che dispone di un flusso di lavoro au
 
 In precedenza, quando si aggiungevano revisori a una bozza dal visualizzatore di bozze, Workfront li posizionava nella fase attualmente attiva.
 
-Per ulteriori informazioni, consulta [Condividere una bozza aggiungendovi utenti](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users) in [Condividere una bozza dal visualizzatore di bozze](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
+Per ulteriori informazioni, vedere [Condividere una bozza aggiungendo utenti](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users) in [Condividere una bozza dal visualizzatore di bozze](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
 
 ## Apertura del sito web associato da una bozza interattiva o statica del sito web {#opening-the-associated-website-from-an-interactive-or-static-website-proof}
 
@@ -242,7 +242,7 @@ Nella pagina Stampa riepilogo sono ora disponibili i seguenti miglioramenti:
 * Se la bozza è un&#39;acquisizione Web, qualsiasi pagina contenente commenti visualizza la risoluzione con cui la pagina Web è stata acquisita. È utile, ad esempio, se la bozza contiene pagine acquisite per dispositivi mobili e le stesse pagine acquisite per computer laptop e desktop.
 * Adesso, quando si filtrano i commenti nella pagina Stampa riepilogo in base a Azione, Autore o Stato non risolto, il filtro si applica alle bozze esportate come file PDF o Excel, non solo alle bozze stampate.
 
-Per ulteriori informazioni, consulta [Stampare un riepilogo delle bozze in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md).
+Per ulteriori informazioni, vedere [Stampare un riepilogo delle bozze in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md).
 
 ## Tempo di caricamento bozza migliorato {#improved-proof-loading-time}
 
@@ -254,4 +254,4 @@ Per informazioni sull’apertura delle bozze, consulta .
 
 L’aspetto della scheda Aggiornamenti nell’app mobile è stato aggiornato. Questo miglioramento è attualmente disponibile solo nell’app beta di Workfront per Android.
 
-Per informazioni sulla gestione di aggiornamenti e commenti nell’app mobile Workfront, consulta la sezione in .
+Per informazioni sulla gestione di aggiornamenti e commenti nell’app mobile Workfront, consulta la sezione  in .

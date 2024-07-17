@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
-title: Download del [!DNL Workfront Proof] Fattura
-description: Il primo giorno di un nuovo periodo di fatturazione, la fattura di abbonamento viene inviata al contatto di fatturazione principale sul tuo account e all'indirizzo e-mail di Billing CC, se ne hai uno definito.
+title: Download della fattura  [!DNL Workfront Proof]  in corso
+description: Il primo giorno di un nuovo periodo di fatturazione, la fattura di abbonamento viene inviata al contatto principale di fatturazione sul tuo account e all’indirizzo e-mail di Fatturazione CC, se ne hai definito uno.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 6bfb82b8-f127-4dac-a1cf-7c7962a86e48
@@ -14,35 +14,35 @@ ht-degree: 0%
 
 ---
 
-# Download del [!DNL Workfront Proof] Fattura
+# Download della fattura [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alla funzionalità del prodotto standalone [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Copertura](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
-Il primo giorno di un nuovo periodo di fatturazione, la fattura di abbonamento viene inviata al contatto principale di fatturazione sul tuo account e al [!UICONTROL Fatturazione CC] indirizzo e-mail, se definito.
+Il primo giorno di un nuovo periodo di fatturazione, la fattura di abbonamento viene inviata al contatto di fatturazione principale sul tuo account e all&#39;indirizzo e-mail [!UICONTROL Billing CC], se ne hai definito uno.
 
-La fattura appare anche nel [!UICONTROL Fatturazione] sezione [!DNL Workfront Proof] account, disponibile per il download. Vedi [La [!DNL Workfront Proof] Pagina di fatturazione](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) se hai bisogno di ulteriori informazioni.
+La fattura viene visualizzata anche nella sezione [!UICONTROL Fatturazione] del tuo account [!DNL Workfront Proof], disponibile per il download. Se hai bisogno di ulteriori informazioni, consulta [La [!DNL Workfront Proof] pagina di fatturazione](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
-Nella fattura troverai le seguenti informazioni:
+Nella fattura sono disponibili le seguenti informazioni:
 
-* Nome e indirizzo dell&#39;azienda
+* Nome e indirizzo dell’azienda
 * Data della fattura
 * Termini di pagamento e data di scadenza
-* I dettagli della [!DNL Workfront] Piano di prova (limiti di prova, di utilizzo e di archiviazione)
+* Dettagli del piano di verifica [!DNL Workfront] (bozza, limiti utente e archiviazione)
 * Numero OA (se fornito)
-* Indirizzo della nave (se fornito)
+* Indirizzo di spedizione (se specificato)
 * Prezzo del piano
-* Importo IVA (consultare anche FAQ)
+* Importo IVA (consultare anche le domande frequenti)
 * Importo totale dovuto
-* [!DNL Workfront Proof] dati bancari
-* [!DNL Workfront Proof] indirizzo, numero di registrazione della società e ID IVA
+* Dettagli della banca [!DNL Workfront Proof]
+* Indirizzo [!DNL Workfront Proof], numero di registrazione società e ID IVA
 
 >[!NOTE]
 >
-> Se il pagamento per la fattura è già stato ricevuto (ad esempio, per i pagamenti con carta di credito automatizzata), le condizioni di pagamento e la data di scadenza saranno indicate come pagate e nella descrizione verrà visualizzato un numero di riferimento per il pagamento.
+> Se il pagamento per la fattura è già stato ricevuto (ad esempio, per i pagamenti con carta di credito automatizzata), le condizioni di pagamento e la data di scadenza verranno visualizzate come pagate e nella descrizione verrà visualizzato un numero di riferimento per il pagamento.
 
-Per impostazione predefinita emettiamo tutte le fatture automatiche per gli abbonamenti in USD, ma per tutte le organizzazioni britanniche includiamo nei documenti l’importo dell’imposta sul valore aggiunto (IVA) (in USD e in sterline). Se desideri ricevere le tue fatture di abbonamento interamente in GBP, contatta il nostro team finanziario all&#39;indirizzo [finance@proofhq.com](mailto:finance@proofhq.com).
+Per impostazione predefinita, emettiamo tutte le nostre fatture automatiche per gli abbonamenti in USD, ma per tutte le organizzazioni britanniche includiamo nei documenti l&#39;importo IVA (in USD e in sterline). Se desideri ricevere le fatture di abbonamento interamente in GBP, contatta il nostro team finanziario all&#39;indirizzo [finance@proofhq.com](mailto:finance@proofhq.com).
 
 * [Download della fattura](#downloading-your-invoice)
 * [Collegamenti utili](#useful-links)
@@ -51,14 +51,14 @@ Per impostazione predefinita emettiamo tutte le fatture automatiche per gli abbo
 
 1. Fai clic su **[!UICONTROL Impostazioni]** > **[!UICONTROL Fatturazione]**.
 
-1. In **[!UICONTROL Cronologia fatturazione]** della pagina Fatturazione visualizzata, fare clic sul menu a discesa a destra della fattura, quindi selezionare **[!UICONTROL Scarica la fattura PDF]**.
+1. Nella sezione **[!UICONTROL Cronologia fatturazione]** della pagina Fatturazione visualizzata, fare clic sul menu a discesa a destra della fattura, quindi selezionare **[!UICONTROL Scarica fattura PDF]**.
 
-1. Fatture di servizi (ad esempio, per [!UICONTROL Inizio operazione riuscita] al momento non sono disponibili nella pagina Fatturazione. Se hai bisogno di copie di questi documenti, contatta il nostro team finanziario all&#39;indirizzo finance@proofhq.com.
+1. Le fatture dei servizi (ad esempio, per il programma [!UICONTROL Avvio riuscito], Pagine di destinazione personalizzate) non sono attualmente disponibili nella pagina Fatturazione. Se hai bisogno di una copia di questi documenti, contatta il nostro team finanziario all&#39;indirizzo finance@proofhq.com.
 
 ## Collegamenti utili {#useful-links}
 
-Per modificare le informazioni di fatturazione sul tuo account, vai alla sezione Contatto di fatturazione e indirizzo della pagina Fatturazione. Vedi [La [!DNL Workfront] Pagina di fatturazione delle prove](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+Per modificare le informazioni di fatturazione sul tuo account, vai alla sezione Contatto fatturazione e indirizzo della pagina Fatturazione. Vedi [Pagina Fatturazione bozza [!DNL Workfront] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 
-Per informazioni su come modificare i dettagli della carta di credito sul tuo account, vedi [Scelta del metodo di pagamento in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md).
+Per informazioni su come modificare i dettagli della carta di credito sul tuo account, consulta [Scelta del metodo di pagamento in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md).
 
 <!--For the detailed information on payments and invoicing, see [Account Payment in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/acct-payment-in-wp.md). -->

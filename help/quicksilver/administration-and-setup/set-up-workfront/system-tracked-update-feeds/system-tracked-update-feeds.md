@@ -4,7 +4,7 @@ content-type: reference;overview
 product-area: system-administration
 navigation-topic: system-tracked-update-feeds
 title: Aggiornamenti monitorati dal sistema
-description: Adobe Workfront acquisisce l’attività che si svolge su determinati oggetti registrando le informazioni sullo stato nel file [!UICONTROL Aggiornamenti] area.
+description: Adobe Workfront acquisisce l'attività che si svolge su determinati oggetti registrando le informazioni sullo stato nell'area [!UICONTROL Aggiornamenti] dell'oggetto.
 author: Alina
 feature: System Setup and Administration
 role: Admin
@@ -27,21 +27,21 @@ ht-degree: 0%
 
 <span class="preview">For information about the current release, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>-->
 
-[!DNL Adobe Workfront] acquisisce l&#39;attività che si svolge su determinati oggetti registrando le informazioni sullo stato nel [!UICONTROL Aggiornamenti] sezione.
+[!DNL Adobe Workfront] acquisisce l&#39;attività che si svolge su determinati oggetti registrando le informazioni sullo stato nella sezione [!UICONTROL Aggiornamenti] dell&#39;oggetto.
 
-Per informazioni sulla sezione Aggiornamenti, consulta [Panoramica della sezione Aggiornamenti](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Per informazioni sulla sezione Aggiornamenti, vedere [Panoramica della sezione Aggiornamenti](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-Il [!UICONTROL Aggiornamenti] L&#39;area include i seguenti tipi di aggiornamenti:
+L&#39;area [!UICONTROL Aggiornamenti] include i seguenti tipi di aggiornamenti:
 
-* **Aggiornamenti utente:** Inserito manualmente dagli utenti. Denominati anche commenti, risposte e note. Gli aggiornamenti utente vengono visualizzati nelle schede Commenti e Tutti della sezione Aggiornamenti di un oggetto.
+* **Aggiornamenti utente:** immessi manualmente dagli utenti. Denominati anche commenti, risposte e note. Gli aggiornamenti utente vengono visualizzati nelle schede Commenti e Tutti della sezione Aggiornamenti di un oggetto.
 
-  Per ulteriori informazioni sulla configurazione degli aggiornamenti utente, consulta [Configurare le preferenze per gli aggiornamenti utente](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
+  Per ulteriori informazioni sulla configurazione degli aggiornamenti utente, vedere [Configurare le preferenze per gli aggiornamenti utente](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
 
   ![](assets/updates-qs-350x125.png)
 
-* **Aggiornamenti di sistema:** Automaticamente eseguita dal sistema. Un aggiornamento del sistema include una breve nota che descrive il tipo di modifica apportata all&#39;elemento. Gli aggiornamenti di sistema vengono visualizzati nelle schede Attività di sistema e Tutti nella sezione Aggiornamenti di un oggetto.
+* **Aggiornamenti di sistema:** eseguiti automaticamente dal sistema. Un aggiornamento del sistema include una breve nota che descrive il tipo di modifica apportata all&#39;elemento. Gli aggiornamenti di sistema vengono visualizzati nelle schede Attività di sistema e Tutti nella sezione Aggiornamenti di un oggetto.
 
-  Per ulteriori informazioni sui feed di aggiornamento del sistema e su come attivarli, vedere [Configurare gli aggiornamenti di sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+  Per ulteriori informazioni sui feed di aggiornamento del sistema e su come attivarli, vedere [Configurare gli aggiornamenti del sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
   ![](assets/system-updates-example-unified-stream.png)
 
@@ -56,7 +56,7 @@ Il [!UICONTROL Aggiornamenti] L&#39;area include i seguenti tipi di aggiornament
 
 Gli aggiornamenti tracciati dal sistema non sono disponibili per tutti gli oggetti che dispongono dell&#39;area Aggiornamenti.
 
-* Il [!UICONTROL Aggiornamenti] L&#39;area è disponibile per i seguenti oggetti:
+* L&#39;area [!UICONTROL Aggiornamenti] è disponibile per i seguenti oggetti:
 
    * [!UICONTROL Progetto]
    * [!UICONTROL Attività]
@@ -71,21 +71,21 @@ Gli aggiornamenti tracciati dal sistema non sono disponibili per tutti gli ogget
    * [!UICONTROL Scheda orario]
    * [!UICONTROL Storia]
 
-     In entrata [!DNL Workfront], una storia è un&#39;attività.
+     In [!DNL Workfront] una storia è un&#39;attività.
    * [!UICONTROL Iterazione]
    * [!UICONTROL Obiettivo]
 
-     Per accedere alla proprietà è necessaria una licenza aggiuntiva [!UICONTROL Obiettivi] area. Per informazioni, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+     Devi disporre di una licenza aggiuntiva per avere accesso all&#39;area [!UICONTROL Obiettivi]. Per informazioni, vedere [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    * [!UICONTROL Scheda] su una bacheca
 
-     Per ulteriori informazioni sugli aggiornamenti sulle schede, consulta [Utilizzare le schede collegate sulle bacheche](../../../agile/get-started-with-boards/connected-cards.md).
+     Per ulteriori informazioni sugli aggiornamenti sulle schede, vedere [Utilizzare schede collegate sulle schede](../../../agile/get-started-with-boards/connected-cards.md).
 
 * [!DNL Workfront] non tiene traccia degli aggiornamenti di sistema per i seguenti oggetti:
 
    * [!UICONTROL Team]
    * [!UICONTROL Modello]
    * [!UICONTROL Attività modello]
-   * Ad hoc [!UICONTROL Scheda]
+   * [!UICONTROL Scheda] ad hoc
    * [!UICONTROL Iterazioni]
 
 
@@ -96,7 +96,7 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
 * Gli aggiornamenti utente vengono visualizzati nella scheda Commenti e gli aggiornamenti di sistema nelle schede Attività di sistema e Tutti.
 
-  Per un elenco degli oggetti che non hanno le schede Attività di sistema o Tutte, vedere [Panoramica della sezione di aggiornamento](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
+  Per un elenco degli oggetti che non hanno le schede Attività di sistema o Tutte, vedere [Panoramica della sezione Aggiornamento](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
 
 * Impossibile aggiungere una risposta a un aggiornamento del sistema. Tuttavia, tutte le risposte ai record di attività del sistema nell’esperienza di commento legacy precedenti all’11 aprile 2024 sono compilate nella scheda Attività del sistema in sola lettura.
 
@@ -119,7 +119,7 @@ Your [!DNL Workfront] license determines whether system updates display by defau
    * <span class="preview">The legacy commenting experience has been disabled in the Preview environment. For more information, see [Second Quarter 2024 Update stream and notification enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md).</span>
 -->
 
-* [!DNL Workfront] gli amministratori possono definire il tipo di modifiche che il sistema deve tracciare nel [!UICONTROL Aggiornamenti] area. Non tutti gli oggetti con [!UICONTROL Aggiornamenti] area hanno anche configurato [!UICONTROL aggiorna] feed. I seguenti oggetti hanno un [!UICONTROL Aggiornamenti] area in cui vengono acquisiti i feed di aggiornamento tracciati dal sistema, ma per i quali non sono disponibili feed di aggiornamento configurabili:
+* Gli amministratori di [!DNL Workfront] possono definire il tipo di modifiche che il sistema deve monitorare nell&#39;area [!UICONTROL Aggiornamenti]. Non tutti gli oggetti con un&#39;area [!UICONTROL Aggiornamenti] hanno anche feed [!UICONTROL aggiornamento] configurabili. I seguenti oggetti hanno un&#39;area [!UICONTROL Aggiornamenti] che acquisisce i feed di aggiornamento tracciati dal sistema, ma non dispongono di feed di aggiornamento configurabili:
 
    * [!UICONTROL Documento]
    * [!UICONTROL Scheda orario]

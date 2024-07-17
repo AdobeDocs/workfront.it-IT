@@ -5,7 +5,7 @@ draft: Probably
 source-git-commit: aa9ff6c08a1808bb2bb95b868826e26b1d49b49e
 workflow-type: tm+mt
 source-wordcount: 22
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 0%
 
 ## Prerequisiti
 
-Prima di iniziare, devi
+Prima di iniziare, è necessario
 
 <!--
 <p style="text-align: center;background-color: #c0c0c0;color: #000000;" data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Delete this box before publishing</strong><br>Use a bullet list to describe the prerequisites needed to complete the task or tasks below. If there are no prerequisites, delete the entire section. </p>
 -->
 
-* [Elencare prerequisiti]
+* [Elenca prerequisiti]
 
 ## [Titolo attività]
 

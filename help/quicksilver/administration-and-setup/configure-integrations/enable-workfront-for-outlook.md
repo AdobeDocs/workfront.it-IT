@@ -1,9 +1,9 @@
 ---
-title: Abilita [!DNL Adobe Workfront] per Outlook
+title: Abilita  [!DNL Adobe Workfront]  per Outlook
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
-description: Prima che gli utenti possano iniziare a utilizzare [!DNL Adobe Workfront] per Outlook, è innanzitutto necessario abilitarlo per il sistema.
+description: Prima che gli utenti possano iniziare a utilizzare  [!DNL Adobe Workfront]  per Outlook, devi prima attivarlo per il tuo sistema.
 author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 # Abilita [!DNL Adobe Workfront for Outlook]
 
-Prima che gli utenti possano iniziare a utilizzare [!DNL Adobe Workfront for Outlook], devi prima abilitarlo per il sistema.
+Prima che gli utenti possano iniziare a utilizzare [!DNL Adobe Workfront for Outlook], devi attivarlo per il tuo sistema.
 
-Per informazioni su come utilizzare [!DNL Workfront for Outlook] dopo che è stato abilitato, vedi [[!DNL Adobe Workfront for Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md).
+Per informazioni sull&#39;utilizzo di [!DNL Workfront for Outlook] dopo l&#39;attivazione, vedere [[!DNL Adobe Workfront for Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md).
 
 ## Requisiti di accesso
 
@@ -38,30 +38,30 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Devi essere un [!DNL Workfront] amministratore. Per informazioni su [!DNL Workfront] amministratori, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente pieno accesso amministrativo</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Devi essere un amministratore [!DNL Workfront]. Per informazioni sugli amministratori di [!DNL Workfront], vedere <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente l'accesso amministrativo completo</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
 
-## Abilita la [!DNL Workfront] [!DNL Outlook] add-in
+## Abilita il componente aggiuntivo [!DNL Workfront] [!DNL Outlook]
 
-1. Accedi a [!DNL Workfront] come amministratore.
-1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Configurazione]** ![](assets/gear-icon-settings.png).
+1. Accedere a [!DNL Workfront] come amministratore.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Configurazione]** ![](assets/gear-icon-settings.png).
 
 1. Espandi **[!UICONTROL Sistema]**, quindi fai clic su **[!UICONTROL Preferenze]**.
 
-1. Assicurati che **[!UICONTROL Consente alle persone di utilizzare le applicazioni mobili Workfront e [!DNL Workfront] [!DNL Outlook] Componente aggiuntivo]** è selezionato.\
-   Oltre a permettere [!DNL Workfront] applicazioni mobili da utilizzare, questa impostazione consente anche di [!DNL Workfront] [!DNL Outlook] Componente aggiuntivo da utilizzare.
+1. Assicurati che **[!UICONTROL Consenti alle persone di utilizzare le app mobili di Workfront e che sia selezionato il componente aggiuntivo [!DNL Workfront] [!DNL Outlook]]**.\
+   Oltre a consentire l&#39;utilizzo delle applicazioni mobili [!DNL Workfront], questa impostazione consente anche l&#39;utilizzo del componente aggiuntivo [!DNL Workfront] [!DNL Outlook].
 
    Questa opzione è attivata per impostazione predefinita.
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
-## Installazione di [!DNL Workfront] [!DNL Outlook] add-in
+## Installazione del componente aggiuntivo [!DNL Workfront] [!DNL Outlook]
 
-Per informazioni sui requisiti di sistema per l&#39;utilizzo del [!DNL Workfront] add-in per [!DNL Outlook], vedi [Requisiti di sistema](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md#system-requirements-and-prerequisites) in [Configurazione di Adobe Workfront per [!DNL Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md).
+Per informazioni sui requisiti di sistema per l&#39;utilizzo del componente aggiuntivo [!DNL Workfront] per [!DNL Outlook], vedere [Requisiti di sistema](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md#system-requirements-and-prerequisites) in [Configurazione di Adobe Workfront per  [!DNL Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md).
 
-Per informazioni su come installare il [!DNL Workfront] Componente aggiuntivo per [!DNL Outlook], vedi [Installazione del componente aggiuntivo](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md#downloading-and-installing-the-add-in) in  [Configurazione [!DNL Adobe Workfront for Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md).
+Per informazioni sull&#39;installazione del componente aggiuntivo [!DNL Workfront] per [!DNL Outlook], vedere [Installazione del componente aggiuntivo](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md#downloading-and-installing-the-add-in) in [Configurazione [!DNL Adobe Workfront for Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md).

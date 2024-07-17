@@ -19,8 +19,8 @@ ht-degree: 0%
 
 Questa sezione contiene i seguenti articoli:
 
-* [Creare un progetto](../../../manage-work/projects/create-projects/create-project.md)
+* [Crea un progetto](../../../manage-work/projects/create-projects/create-project.md)
 * [Richiedi un progetto](../../../manage-work/projects/create-projects/request-project.md)
-* [Creare un progetto utilizzando un modello](../../../manage-work/projects/create-projects/create-project-from-template.md)
-* [Importare un progetto da Microsoft Project](../../../manage-work/projects/create-projects/import-project-from-ms-project.md)
+* [Crea un progetto utilizzando un modello](../../../manage-work/projects/create-projects/create-project-from-template.md)
+* [Importa un progetto da Microsoft Project](../../../manage-work/projects/create-projects/import-project-from-ms-project.md)
 * [Crea linee di base progetto](../../../manage-work/projects/create-projects/create-baselines.md)

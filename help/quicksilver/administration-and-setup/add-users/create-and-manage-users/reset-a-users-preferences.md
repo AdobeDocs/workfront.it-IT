@@ -90,7 +90,7 @@ Quando si reimpostano le preferenze utente, alcune vengono ripristinate ai valor
   </tr> 
   <tr> 
    <td>Preferenze utente</td> 
-   <td> <p>Ripristino dei valori predefiniti di sistema</p> <p>Le notifiche e-mail vengono ripristinate ai valori predefiniti del sistema. Le notifiche predefinite sono elencate in <a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">Notifiche degli eventi disponibili in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Ripristino dei valori predefiniti di sistema</p> <p>Le notifiche e-mail vengono ripristinate ai valori predefiniti del sistema. Le notifiche predefinite sono elencate in <a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">Notifiche evento disponibili in Adobe Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Linguette Customizzate Definite Dall'Utente</td> 
@@ -107,10 +107,10 @@ Quando si reimpostano le preferenze utente, alcune vengono ripristinate ai valor
 
 {{step-1-to-setup}}
 
-1. Seleziona **Accedi come**.
+1. Selezionare **Accedi Come**.
 1. Inizia a digitare il nome dell’utente di cui desideri reimpostare le preferenze, quindi fai clic sul nome quando viene visualizzato nell’elenco a discesa.
-1. Seleziona  **Accedi**.
-1. Nel campo URL nella parte superiore del browser web, aggiungi `/resetUser` dopo `workfront.com`.
+1. Seleziona **Accedi**.
+1. Nel campo URL nella parte superiore del browser Web, aggiungi `/resetUser` dopo `workfront.com`.
 
    >[!NOTE]
    >
@@ -118,9 +118,9 @@ Quando si reimpostano le preferenze utente, alcune vengono ripristinate ai valor
    >
    >`https://company_domain.my.workfront.com/resetUser`
 
-1. Premi **Invio**.
-1. Per reimpostare tutte le preferenze utente, seleziona **Reimposta**.
+1. Premere **Invio**.
+1. Per reimpostare tutte le preferenze utente, selezionare **Reimposta**.
 
    Oppure
 
-   Per ripristinare solo le schede personalizzate, seleziona **Reimposta schede**.
+   Per reimpostare solo le schede personalizzate, selezionare **Reimposta schede**.

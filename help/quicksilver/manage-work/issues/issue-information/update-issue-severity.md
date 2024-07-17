@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: issue-information
-title: Aggiorna gravità del problema
+title: Aggiorna gravità problema
 description: Puoi associare una gravità ai problemi in Adobe Workfront. Le attività e i progetti non hanno gravità.
 author: Alina
 feature: Work Management
@@ -13,22 +13,22 @@ ht-degree: 0%
 
 ---
 
-# Aggiorna gravità del problema
+# Aggiorna gravità problema
 
 Puoi associare una gravità ai problemi in Adobe Workfront. Le attività e i progetti non hanno gravità.
 
-I problemi sono eventi imprevisti che possono impedire il completamento dei progetti nei tempi o con budget limitati. È possibile utilizzare le gravità per indicare la gravità di un problema. 
+I problemi sono eventi imprevisti che possono impedire il completamento dei progetti in tempo o entro il budget. È possibile utilizzare le gravità per indicare la gravità di un problema. 
 
-L’amministratore di Workfront definisce le gravità disponibili in Workfront. Dopo averli stabiliti, possono essere associati a un problema.\
-Per ulteriori informazioni sulla creazione di gravità in Workfront, vedi [Creare o personalizzare le gravità dei problemi](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
+L’amministratore di Workfront definisce le gravità disponibili in Workfront. Una volta stabiliti, possono essere associati a un problema.\
+Per ulteriori informazioni sulla creazione di gravità in Workfront, vedere [Creare o personalizzare le gravità dei problemi](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
 
-Per poter aggiornare la gravità di un problema è necessario disporre delle autorizzazioni di Contribute. 
+Per aggiornare la gravità di un problema è necessario disporre delle autorizzazioni Contribute. 
 
 Puoi aggiornare la gravità dei problemi nelle seguenti aree di Workfront:
 
-* In **Modifica problema** finestra di dialogo
-* In **Dettagli del problema** area di emissione
-* In un elenco o report dei problemi
+* Nella finestra di dialogo **Modifica problema**
+* Nell&#39;area **Dettagli problema** di un problema
+* In un elenco di problemi o in un report
 
 ## Requisiti di accesso
 
@@ -39,41 +39,41 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Richiesta o superiore</p> </td> 
+   <td> <p>Richiedi o superiore</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Modifica accesso ai problemi</p> <p>Nota: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modifica l'accesso alle Issues</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni al problema</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per il problema</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
-## Aggiorna gravità del problema
+## Aggiorna gravità problema
 
-Per aggiornare la gravità di un problema nell&#39;area Dettagli problema di un problema:
+Per aggiornare la gravità di un problema nell’area Dettagli problema di un problema:
 
-1. Passa al problema di cui desideri aggiornare la gravità.
-1. Fai clic su **Dettagli del problema** nel pannello a sinistra.
+1. Passare al problema di cui si desidera aggiornare la gravità.
+1. Fai clic su **Dettagli problema** nel pannello a sinistra.
 
-   La **Panoramica** La sezione deve essere visualizzata per impostazione predefinita.
+   La sezione **Panoramica** deve essere visualizzata per impostazione predefinita.
 
-1. Fai clic sul pulsante **Gravità** nel campo **Informazioni di base** area.
+1. Fare clic sul campo **Gravità** nell&#39;area **Informazioni di base**.
 
    ![](assets/nwe-issue-severity-field-in-details-highlighted-350x112.png)
 
-1. Selezionare il **Gravità** dal menu a discesa.
+1. Seleziona la **Gravità** appropriata dal menu a discesa.
 
-   Le opzioni variano a seconda della configurazione delle severità da parte dell’amministratore di Workfront nel sistema.
+   Le opzioni possono variare a seconda di come l’amministratore di Workfront ha configurato le gravità nel sistema.
 
 1. Fai clic su **Salva modifiche**.

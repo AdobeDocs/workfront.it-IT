@@ -3,7 +3,7 @@ product-previous: mobile
 product-area: projects
 navigation-topic: use-workfront-view
 title: Aggiungere aggiornamenti nella visualizzazione Adobe Workfront
-description: Puoi rivedere e aggiungere aggiornamenti ai progetti che stai esaminando in [!DNL Adobe Workfront] Visualizza app.
+description: Puoi rivedere e aggiungere aggiornamenti ai progetti che stai esaminando nell'app  [!DNL Adobe Workfront] Visualizza.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 5d0260ad-7049-42c6-a8a0-9b53fb115ec6
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 ---
 
-# Aggiungere aggiornamenti in [!DNL Adobe Workfront View]
+# Aggiungi aggiornamenti in [!DNL Adobe Workfront View]
 
-Puoi rivedere e aggiungere aggiornamenti ai progetti che stai esaminando in [!DNL Adobe Workfront View] app.
+Puoi rivedere e aggiungere aggiornamenti ai progetti che stai esaminando nell&#39;app [!DNL Adobe Workfront View].
 
 Impossibile aggiungere aggiornamenti ad attività o problemi in [!DNL Workfront View].
 
 ## Requisiti di accesso
 
-Devi disporre dei seguenti diritti di accesso in [!DNL Workfront] per eseguire i passaggi descritti in questo articolo:
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre del seguente accesso in [!DNL Workfront]:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,20 +41,20 @@ Devi disporre dei seguenti diritti di accesso in [!DNL Workfront] per eseguire i
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
 
 ## Aggiungere aggiornamenti a un progetto in [!DNL Workfront View]
 
-1. Dalla home page di [!UICONTROL Vista Workfront], tocca un progetto per accedervi.
-1. (Facoltativo) Aggiungi il **[!UICONTROL Aggiornamenti]** widget per la visualizzazione.\
-   Per ulteriori informazioni sull&#39;aggiunta di widget alla vista progetto, vedere [Aggiornare i widget in [!UICONTROL Dettagli progetto] visualizza](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md).
+1. Dalla home page di [!UICONTROL Visualizzazione Workfront], toccare un progetto per accedervi.
+1. (Facoltativo) Aggiungi il widget **[!UICONTROL Aggiornamenti]** alla tua visualizzazione.\
+   Per ulteriori informazioni sull&#39;aggiunta di widget alla visualizzazione del progetto, vedere [Aggiornare widget nella [!UICONTROL visualizzazione Dettagli progetto]](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md).
 
-1. Tocca il **[!UICONTROL Aggiornamenti]** (in basso a destra) o (condizionale) il **[+]** in un aggiornamento in **[!UICONTROL Aggiornamenti]** widget.\
+1. Tocca l&#39;icona **[!UICONTROL Aggiornamenti]** (in basso a destra) o (condizionale) l&#39;icona **[+]** in un aggiornamento nel widget **[!UICONTROL Aggiornamenti]**.\
    ![[!DNL workfront_view_updates_icon].png](assets/workfront-view-updates-icon-315x196.png)
 
 1. Digita un aggiornamento.
-1. (Facoltativo) Includi altri nell&#39;aggiornamento toccando il [!UICONTROL persone] e specificando il nome di un altro utente.\
+1. (Facoltativo) Includi altri nell&#39;aggiornamento toccando l&#39;icona [!UICONTROL persone] e specificando il nome di un altro utente.\
    ![](assets/screen-shot-2014-002-21-at-2.57.44-pm-350x222.png)
 
-1. Tocca **[!UICONTROL Pubblica]**.\
-   L’aggiornamento viene visualizzato sul progetto, nel **[!UICONTROL Aggiornamenti]** widget.
+1. Tocca **[!UICONTROL Post]**.\
+   L&#39;aggiornamento viene visualizzato nel progetto nel widget **[!UICONTROL Aggiornamenti]**.

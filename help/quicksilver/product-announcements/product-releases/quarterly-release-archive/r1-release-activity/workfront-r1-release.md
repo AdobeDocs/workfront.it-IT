@@ -22,8 +22,8 @@ Workfront rilascia tre volte l’anno nuove funzionalità di prodotto per tutte 
 
 ## NOVITÀ DELL’ULTIMA VERSIONE
 
-* [MIGLIORAMENTI DI WORKFRONT](#workfront-enhancements)
-* [MIGLIORAMENTI DI PROOFHQ](#proofhq-enhancements)
+* [MIGLIORAMENTI WORKFRONT](#workfront-enhancements)
+* [MIGLIORAMENTI PROOFHQ](#proofhq-enhancements)
 * [MIGLIORAMENTI DI WORKFRONT DAM](#workfront-dam-enhancements)
 
 ## MIGLIORAMENTI DI WORKFRONT {#workfront-enhancements}
@@ -32,19 +32,19 @@ Workfront rilascia tre volte l’anno nuove funzionalità di prodotto per tutte 
 **Gestisci il lavoro direttamente dall&#39;e-mail**
 L&#39;integrazione diretta in Outlook 365 consente di eliminare il lavoro duplicato durante l&#39;aggiornamento di Workfront direttamente da Outlook 365. Converti le e-mail in attività, invia conversazioni e allegati e-mail come aggiornamenti e rispondi ai commenti, senza mai uscire da Outlook.
 
-Per ulteriori informazioni, consulta:  [Funzionalità rese disponibili in anteprima nel 2016](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md)
+Per ulteriori informazioni, consulta:  [Funzionalità resa disponibile in anteprima nel 2016](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md)
 
 ![](assets/mceclip0-350x218.png)\
-**Mantenere i progetti in linea con il budget**
+**Riprendi i progetti e stabilisci il budget**
 Gestisci le risorse e il loro utilizzo, mantenendo i progetti sulla strada giusta e nel rispetto del budget, utilizzando il nuovo rapporto Utilizzo. Visualizzare le ore pianificate rispetto a quelle effettive per progetto e ruolo e confrontare regolarmente risorse e reparti.
 
-Per ulteriori informazioni, consulta:  [Anteprima R1 3](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md)
+Per ulteriori informazioni, consulta:  [R1 Anteprima 3](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md)
 
 ![](assets/mceclip1-350x169.png)\
 **Personalizzazione della terminologia e delle notifiche**
 Rendi Workfront più rilevante per il tuo team sfruttando la funzione di terminologia personalizzata per modificare termini come &quot;Portfolio&quot; o &quot;Progetto&quot; in base al tuo linguaggio preferito, indipendentemente dal settore. Inoltre, ogni utente può ora personalizzare i tipi di notifiche che riceve regolando la propria frequenza di riepilogo.
 
-Per ulteriori informazioni, consulta:  [Anteprima R1 3](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md)
+Per ulteriori informazioni, consulta:  [R1 Anteprima 3](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md)
 
 **Vista Milestone**
 Le nuove icone di stato dell’avanzamento consentono di ottenere di più dai rapporti milestone. Inoltre, ora è possibile modificare la percentuale di completamento direttamente dalla vista milestone.
@@ -56,21 +56,21 @@ Per ulteriori informazioni, consulta:  [Anteprima R1 5](../../../../product-ann
 **Cestino Workfront**
 Il nuovo Cestino di Workfront consente di ripristinare progetti, attività, problemi e tutti i documenti, i moduli e gli aggiornamenti correlati entro 30 giorni dall’eliminazione.
 
-Per ulteriori informazioni, consulta:  [Anteprima R1 1 e 2](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md)
+Per ulteriori informazioni, consulta:  [R1 Anteprima 1 e 2](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md)
 
 ### MIGLIORAMENTI DI PROOFHQ {#proofhq-enhancements}
 
 ![](assets/mceclip4-350x201.png)\
-**Ricerca e ricerca bozza**
+**Ricerca e ricerca bozze**
 La nuova funzionalità di ricerca di ProofHQ consente di cercare e trovare tutte le istanze di una parola o frase direttamente nelle bozze durante la revisione. Questo vale per tutti i documenti basati su testo, inclusi i PDF e i file di Microsoft Word.
 
-Per ulteriori informazioni, consulta:  [Finale R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md)
+Per ulteriori informazioni, consulta:  [R1 Finale](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md)
 
 ![](assets/mceclip5-350x226.png)\
 **Reporting visivo e visualizzazioni personalizzate avanzate**
 Le nuove metriche di reporting in ProofHQ consentono di monitorare il tempo di risposta, le percentuali di ritardo, il numero di commenti e il tempo alla prima attività. Le nuove viste personalizzate creano una logica di filtro avanzata che ti consente di ottenere i dati esatti nel momento più opportuno.
 
-Per ulteriori informazioni, consulta:  [Finale R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md)
+Per ulteriori informazioni, consulta:  [R1 Finale](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md)
 
 **Anteprima ProofHQ**
 ProofHQ ora consente di testare le nuove funzioni in un ambiente di anteprima prima di rilasciarle a tutti gli utenti.
@@ -84,7 +84,7 @@ Per i team di marketing che necessitano di un modo migliore per gestire, pubblic
 **Campi metadati richiesti DAM**
 Migliora la categorizzazione delle risorse digitali con i campi di metadati obbligatori che consentono un maggiore controllo sulla condivisione delle risorse.
 
-**Coinvolgi tutti ed efficienza con Workfront.**
+**Mantenere tutti coinvolti ed efficienti con Workfront.**
 Workfront è una soluzione di gestione del lavoro aziendale che consente ai knowledge worker e ai dirigenti moderni di:
 
 * Personalizzare il lavoro per adattarlo alle preferenze individuali e organizzative e aumentarne l’adozione
@@ -94,6 +94,6 @@ Workfront è una soluzione di gestione del lavoro aziendale che consente ai know
 
 **ULTERIORI INFORMAZIONI**
 
-* Per un elenco completo dei miglioramenti disponibili in R1: [Panoramica dell’attività sulla versione R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md)
+* Per un elenco completo dei miglioramenti disponibili in R1: [Panoramica attività rilascio R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md)
 
 Workfront. Perché Il Lavoro È Importante.

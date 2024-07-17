@@ -10,7 +10,7 @@ role: Developer
 exl-id: 9a4f8dbe-967f-4a41-a42c-8e3acb604972
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '336'
 ht-degree: 11%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 11%
 
 Gli amministratori di Adobe Workfront possono aggiungere un’integrazione di webhook personalizzata per la propria società da Configurazione > Documenti > Integrazioni personalizzate in Workfront. Dalla pagina Integrazione personalizzata all’interno di Configurazione, gli amministratori possono visualizzare un elenco delle integrazioni dei webhook dei documenti esistenti. Da questa pagina è possibile aggiungere, modificare, abilitare e disabilitare le integrazioni.
 
-Per aggiungere un’integrazione, fai clic su **Aggiungi integrazione personalizzata**.
+Per aggiungere un&#39;integrazione, fare clic su **Aggiungi integrazione personalizzata**.
 
 ![](assets/webhooks-integration-350x230.png)
 

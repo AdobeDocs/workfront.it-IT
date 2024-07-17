@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Bacheche notifiche e preferenze e-mail
 
-[!DNL Adobe Workfront] [!UICONTROL Schede] ti invia un’e-mail quando sei aggiunto a una bacheca e quando ti viene assegnata una scheda. Le notifiche sono attivate per impostazione predefinita e puoi selezionare nelle preferenze delle Bacheche quali e-mail desideri ricevere.
+[!DNL Adobe Workfront] [!UICONTROL Bacheche] ti invia un&#39;e-mail quando sei aggiunto a una bacheca e quando ti viene assegnata una scheda. Le notifiche sono attivate per impostazione predefinita e puoi selezionare nelle preferenze delle Bacheche quali e-mail desideri ricevere.
 
-Riceverai anche un’e-mail quando ti viene taggato all’interno di un commento su una scheda connessa, a seconda delle impostazioni di notifica e-mail. Per ulteriori informazioni, consulta [Modifica le tue notifiche e-mail](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). Al momento, gli utenti taggati nei commenti su schede ad hoc non ricevono una notifica e-mail.
+Riceverai anche un’e-mail quando ti viene taggato all’interno di un commento su una scheda connessa, a seconda delle impostazioni di notifica e-mail. Per ulteriori informazioni, vedere [Modificare le proprie notifiche e-mail](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). Al momento, gli utenti taggati nei commenti su schede ad hoc non ricevono una notifica e-mail.
 
 ## Requisiti di accesso
 
@@ -41,13 +41,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
 
 ## Impostare le preferenze per le e-mail delle bacheche
 
 {{step1-to-boards}}
 
-1. Clic [!UICONTROL **Preferenze**] nel dashboard delle bacheche.
+1. Fai clic su [!UICONTROL **Preferenze**] nel dashboard delle bacheche.
 1. Seleziona se desideri ricevere e-mail per essere aggiunto a una bacheca e assegnato a una scheda.
 
    ![Preferenze e-mail bacheche](assets/boards-email-preferences.png)

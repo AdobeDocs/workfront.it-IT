@@ -20,12 +20,12 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alle funzionalità del prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Bozza](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
 Questa sezione contiene i seguenti articoli:
 
-* [Il [!DNL Workfront Proof] Pagina fatturazione](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+* [Pagina di fatturazione  [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 <!--* [Account Payment in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/acct-payment-in-wp.md) -->
 * [Scelta del metodo di pagamento in [!DNL Workfront Proof]](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)
-* [Download di [!DNL Workfront Proof] Fattura](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
-* [Chiudi [!DNL Workfront Proof] account](../../../workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)
+* [Download della fattura  [!DNL Workfront Proof]  in corso](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
+* [Chiudi il tuo account  [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)

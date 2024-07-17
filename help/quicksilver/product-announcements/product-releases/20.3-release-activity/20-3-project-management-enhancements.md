@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti alla gestione dei progetti apportati con la versione 20.3 all’ambiente di produzione. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana del 10 agosto 2020.
 
-Per un elenco di tutte le modifiche disponibili con la versione 20.3, consulta [Panoramica sulla versione 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 20.3, consulta la [panoramica sulla versione 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Formattazione campi personalizzati negli elenchi
 
@@ -28,9 +28,9 @@ Per un elenco di tutte le modifiche disponibili con la versione 20.3, consulta [
 
 Ora, quando l’amministratore di sistema crea campi per moduli personalizzati configurati per la formattazione, è possibile formattare il testo nei campi in cui si utilizza di più: negli elenchi di Workfront. Invece di passare all&#39;area Dettagli per formattare il testo nel modulo personalizzato, è possibile fare clic su un campo di un elenco e applicare Grassetto, Corsivo e Sottolineato al testo.
 
-Questa funzionalità è disponibile solo negli elenchi aggiornati. Per ulteriori informazioni sugli elenchi aggiornati, consulta [Introduzione agli elenchi in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Questa funzionalità è disponibile solo negli elenchi aggiornati. Per ulteriori informazioni sugli elenchi aggiornati, vedere [Introduzione agli elenchi in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-Per informazioni sulla creazione di campi di testo con formattazione da parte di un amministratore di Workfront, consulta [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Per informazioni sulla creazione di campi di testo con formattazione da parte di un amministratore di Workfront, vedere [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 ## È stato aggiornato l’aspetto di diverse intestazioni globali
 
@@ -72,7 +72,7 @@ Il nuovo pannello Riepilogo a destra dell’elenco dei documenti è ora disponib
 
 Alcune azioni non sono attualmente disponibili, ma saranno aggiunte in una versione futura. Queste azioni includono il flusso di lavoro di verifica.
 
-Per ulteriori informazioni, consulta [Panoramica del riepilogo dei documenti](../../../documents/managing-documents/summary-for-documents.md).
+Per ulteriori informazioni, vedere [Riepilogo per panoramica documenti](../../../documents/managing-documents/summary-for-documents.md).
 
 ## Miglioramenti in Dettagli documento
 
@@ -87,7 +87,7 @@ Nella pagina Dettagli documento, cerca i seguenti miglioramenti:
 * Miniatura di anteprima più grande, che consente di identificare facilmente il documento
 * È stata aggiunta l’icona Modifica globale, che consente di modificare più campi contemporaneamente.
 
-Per ulteriori informazioni, consulta [Panoramica dei dettagli del documento](../../../documents/managing-documents/document-details-overview.md).
+Per ulteriori informazioni, vedere [Panoramica dei dettagli del documento](../../../documents/managing-documents/document-details-overview.md).
 
 ## Per gli amministratori: imposta le preferenze del progetto a livello di gruppo
 
@@ -99,7 +99,7 @@ Per dare maggiore autonomia agli amministratori del gruppo e consentire una magg
 
 Tutte le preferenze di progetto sono personalizzabili a livello di gruppo, ad eccezione di Calcoli sequenza temporale e Trimestri personalizzati.
 
-Per ulteriori informazioni sulle preferenze per i progetti di gruppo, consultate [Configurare le preferenze di progetto per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+Per ulteriori informazioni sulle preferenze di progetto del gruppo, vedere [Configurare le preferenze di progetto per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 
 ## Novità per gli amministratori: creare campi modulo personalizzati in cui gli utenti possono formattare il testo
 
@@ -109,9 +109,9 @@ Per ulteriori informazioni, consulta Creare un modulo personalizzato nella nuova
 
 ## Novità per gli amministratori: creare un nome interno e un’etichetta rivolta all’utente per un campo modulo personalizzato
 
-Per offrire maggiore flessibilità nell’etichettatura e rietichettatura dei campi del modulo personalizzato, ora puoi creare un modulo interno *nome* per un campo in aggiunta a quello rivolto all&#39;utente *etichetta* hai utilizzato. In questo modo è possibile modificare l&#39;etichetta del campo visualizzata dagli utenti senza modificare il nome del campo visualizzato dal sistema.
+Per offrire maggiore flessibilità nell&#39;etichettatura e rietichettatura dei campi del modulo personalizzato, è ora possibile creare un *name* interno per un campo, oltre all&#39;*label* rivolto all&#39;utente che si sta utilizzando. In questo modo è possibile modificare l&#39;etichetta del campo visualizzata dagli utenti senza modificare il nome del campo visualizzato dal sistema.
 
 In passato, l’etichetta veniva visualizzata sopra il campo per gli utenti e utilizzata dal sistema per identificare il campo. Cambiando l&#39;etichetta per gli utenti si causava il malfunzionamento del campo ovunque venisse usato, perché il sistema non poteva più identificarlo.
 
-Per ulteriori informazioni, consulta [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Per ulteriori informazioni, vedere [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 

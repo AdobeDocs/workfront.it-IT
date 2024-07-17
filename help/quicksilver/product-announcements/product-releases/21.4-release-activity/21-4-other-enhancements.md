@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti gli altri miglioramenti apportati con la versione 21.4 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 4 ottobre 2021.
 
-Per un elenco di tutte le modifiche disponibili con la versione 21.4, consulta [Panoramica sulla versione 21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 21.4, consulta la [Panoramica sulla versione 21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Nuove scelte rapide da tastiera per il rientro e l&#39;annullamento del rientro negli elenchi
 
@@ -31,4 +31,4 @@ In precedenza, la scelta rapida da tastiera per il rientro in un elenco era Tab 
 
 Questa modifica si applica solo agli elenchi aggiornati e non a quelli legacy.
 
-Per ulteriori informazioni, consulta [Crea sottoattività](../../../manage-work/tasks/create-tasks/create-subtasks.md).
+Per ulteriori informazioni, vedere [Creare sottoattività](../../../manage-work/tasks/create-tasks/create-subtasks.md).

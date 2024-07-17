@@ -1,8 +1,8 @@
 ---
 content-type: reference
 navigation-topic: announcements
-title: Modifica necessaria per aggiungere bozze all’inserire nell'elenco Consentiti
-description: Il dominio di correzione sta passando da proofhq.com a workfront.com.
+title: Modifica necessaria per aggiungere le bozze al inserisco nell'elenco Consentiti di lavoro di un’organizzazione
+description: Il dominio di verifica sta cambiando da proofhq.com a workfront.com.
 author: Luke
 feature: Product Announcements
 exl-id: 05a1fd37-224b-4a0b-abef-4d9a015de524
@@ -13,18 +13,18 @@ ht-degree: 0%
 
 ---
 
-# Modifica necessaria per aggiungere bozze all’inserire nell&#39;elenco Consentiti
+# Modifica necessaria per aggiungere le bozze al inserisco nell&#39;elenco Consentiti di lavoro di un’organizzazione
 
-Il dominio di correzione sta passando da proofhq.com a workfront.com.
+Il dominio di verifica sta modificando from proofhq.com in workfront.com.
 
-Se il firewall o il server di posta elettronica è configurato per consentire l’accesso solo a fornitori specifici, è necessario aggiungere il seguente URL aggiuntivo all’inserire nell&#39;elenco Consentiti, in modo che gli utenti dell’organizzazione possano visualizzare le bozze all’interno di Adobe Workfront sia nel visualizzatore per la correzione del browser che nel visualizzatore per la correzione del desktop:
+Se il firewall o il server di posta è configurato in modo da consentire l’accesso solo a fornitori specifici, è necessario aggiungere il seguente URL aggiuntivo al inserisco nell&#39;elenco Consentiti per garantire che gli utenti dell’organizzazione possano visualizzare le bozze all’interno di Adobe Workfront sia nel visualizzatore di bozze del browser che nel visualizzatore di bozze del desktop:
 
 &#42;.workfront.com
 
-La &#42;Anche l&#39;URL proofhq.com è ancora richiesto.
+Anche l&#39;URL &#42;proofhq.com è obbligatorio.
 
-Per ulteriori informazioni sull&#39;aggiornamento dell&#39;inserire nell&#39;elenco Consentiti, vedi [Configurare l’inserire nell&#39;elenco Consentiti del firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Per ulteriori informazioni sull&#39;aggiornamento del inserisco nell&#39;elenco Consentiti di installazione del firewall, vedere [Configurare il inserisco nell&#39;elenco Consentiti di installazione del firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 >[!NOTE]
 >
->Questo aggiornamento si applica solo alle prove all&#39;interno di Workfront; non si applica quando si utilizza l’applicazione autonoma di Workfront Proof.
+>Questo aggiornamento si applica solo alla verifica in Workfront; non si applica quando si utilizza l’applicazione autonoma Workfront Proof.

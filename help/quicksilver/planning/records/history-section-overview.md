@@ -28,7 +28,7 @@ ht-degree: 3%
 
 Nel pannello destro di un record vengono visualizzate le sezioni riportate di seguito.
 
-* **Commenti**: visualizza i commenti e le risposte aggiunte dagli utenti ai record. Per ulteriori informazioni sulla gestione dei commenti nei record di Workfront Planning, vedere [Gestisci commenti record](/help/quicksilver/planning/records/manage-record-comments.md).
+* **Commenti**: visualizza i commenti e le risposte aggiunte dagli utenti ai record. Per ulteriori informazioni sulla gestione dei commenti nei record di Workfront Planning, vedere [Gestire i commenti ai record](/help/quicksilver/planning/records/manage-record-comments.md).
 * **Cronologia**: visualizza le modifiche registrate dal sistema apportate dagli utenti ai campi record.
 
 ## Individuare la sezione Cronologia di un record
@@ -42,12 +42,12 @@ Nel pannello destro di un record vengono visualizzate le sezioni riportate di se
 1. Fare clic su una scheda del tipo di record.
 Viene visualizzata la pagina del tipo di record e vengono visualizzati tutti i record di quel tipo.
 
-1. Scegliere una vista tabella dal menu **Visualizza** menu a discesa.
+1. Scegliere una vista tabella dal menu a discesa **Visualizza**.
 1. Fare clic sul nome di un record nella vista tabella.
 
    Viene visualizzata la pagina del record. L’area Commenti (Comments) viene visualizzata per impostazione predefinita nel pannello di destra.
-1. Fai clic su **Mostra cronologia** icona ![](assets/show-history-icon.png). Tutte le modifiche apportate ai campi del record vengono visualizzate nel pannello di destra, a partire da quello più recente.
-1. (Facoltativo) Fai clic su **Nascondi cronologia** icona ![](assets/hide-history-icon.png) per chiudere il pannello destro.
+1. Fai clic sull&#39;icona **Mostra cronologia** ![](assets/show-history-icon.png). Tutte le modifiche apportate ai campi del record vengono visualizzate nel pannello di destra, a partire da quello più recente.
+1. (Facoltativo) Fai clic sull&#39;icona **Nascondi cronologia** ![](assets/hide-history-icon.png) per chiudere il pannello a destra.
 
 ## Considerazioni sulla sezione Cronologia
 
@@ -85,7 +85,7 @@ Viene visualizzata la pagina del tipo di record e vengono visualizzati tutti i r
 
 * Nei campi di tipo casella di controllo non viene mai visualizzato il valore precedente in formato barrato. Se il campo viene modificato, viene visualizzato solo lo stato corrente al momento della modifica.
 
-  Per ulteriori informazioni sui campi di Workfront Planning, vedere [Crea campi](/help/quicksilver/planning/fields/create-fields.md).
+  Per ulteriori informazioni sui campi di Workfront Planning, vedere [Creare i campi](/help/quicksilver/planning/fields/create-fields.md).
 
 * Le modifiche ai campi dei tipi seguenti non vengono visualizzate nella sezione Cronologia:
 

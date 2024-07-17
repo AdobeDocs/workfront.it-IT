@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: avoiding-spam-filters
-title: Configura [!DNL Workfront Proof] e-mail per evitare filtri anti-spam
-description: "Il filtro antispam del tuo client di posta elettronica svolge un ruolo importante: proteggervi dalle e-mail di spam fastidiose e possibilmente dannose. Ma, se non hai le impostazioni corrette nel filtro dello spam, ti può impedire di vedere la seguente importante [!DNL Workfront Proof] e-mail: notifiche e-mail a prova di e-mail, newsletter e comunicazioni speciali."
+title: Configura  [!DNL Workfront Proof]  e-mail per evitare filtri anti-spam
+description: "Il filtro spam del client di posta elettronica ha uno scopo importante: proteggerti da e-mail spam fastidiose e potenzialmente dannose. Tuttavia, se non disponi delle impostazioni corrette nel filtro anti-spam, puoi evitare di visualizzare le seguenti [!DNL Workfront Proof] e-mail importanti: notifiche e-mail relative alla bozza, newsletter e comunicazioni speciali."
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1fce3d83-fdce-4ded-8e78-3468243a59e1
@@ -18,26 +18,26 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alla funzionalità del prodotto standalone [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Copertura](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
-Il filtro posta indesiderata del tuo client e-mail svolge uno scopo importante: proteggervi dalle e-mail di spam fastidiose e possibilmente dannose. Ma, se non hai le impostazioni corrette nel filtro dello spam, ti può impedire di vedere la seguente importante [!DNL Workfront Proof] e-mail: notifiche e-mail, newsletter e comunicazioni speciali a prova.
+Il filtro anti-spam del client di posta elettronica ha uno scopo importante: proteggerti da e-mail spam fastidiose e potenzialmente dannose. Tuttavia, se non disponi delle impostazioni corrette nel filtro anti-spam, puoi evitare di visualizzare le [!DNL Workfront Proof] e-mail importanti seguenti: notifiche e-mail relative alle bozze, newsletter e comunicazioni speciali.
 
-Per assicurarti che il tuo [!DNL Workfront Proof] Le e-mail vengono sempre indirizzate alla tua casella in entrata invece che alla cartella spam. Aggiungi quanto segue all’inserire nell&#39;elenco Consentiti:
+Per assicurarsi che le e-mail di [!DNL Workfront Proof] siano sempre instradate alla cartella Posta in arrivo anziché alla cartella di posta indesiderata, è necessario aggiungere quanto segue al inserisco nell&#39;elenco Consentiti di:
 
-* [!DNL Workfront Proof] server di posta elettronica: **[!DNL mx.proofhq.com]**
+* Server di posta [!DNL Workfront Proof]: **[!DNL mx.proofhq.com]**
 * [!DNL Workfront Proof] &quot;[!UICONTROL da]&quot; indirizzi e-mail (ad esempio, notification@proofhq.com)
 
-Per ulteriori informazioni sugli URL da aggiungere al tuo inserire nell&#39;elenco Consentiti, vedi [Configurare l’inserire nell&#39;elenco Consentiti del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) nell&#39;articolo [Configurare l’inserire nell&#39;elenco Consentiti del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Per ulteriori informazioni sugli URL da aggiungere al inserisco nell&#39;elenco Consentiti di URL, vedere [Configurare il inserisco nell&#39;elenco Consentiti di del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) nell&#39;articolo [Configurare il inserisco nell&#39;elenco Consentiti di del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## [!DNL Workfront Proof] &quot;[!UICONTROL da]&quot; indirizzi e-mail
 
-A seconda del tipo di client e-mail, potrebbe essere necessario aggiungere [!DNL Workfront Proof] &quot;[!UICONTROL da]&quot; indirizzi e-mail a uno dei seguenti per impedire che il filtro posta indesiderata instradi le tue e-mail nella cartella posta indesiderata in futuro:
+A seconda del tipo di client di posta elettronica, potrebbe essere necessario aggiungere gli indirizzi di posta elettronica [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; a uno dei seguenti per evitare che il filtro anti-spam instradi le e-mail nella cartella di posta indesiderata in futuro:
 
 * Elenco contatti
-* Le [!UICONTROL Mittenti sicuri] elenco
-* Un filtro creato per inviare e-mail da tali indirizzi alla casella in entrata
+* Il tuo elenco [!UICONTROL Mittenti attendibili]
+* Un filtro creato per inviare e-mail da tali indirizzi alla tua casella in entrata
 
-Potrebbe inoltre essere necessario rimuovere eventuali [!DNL Workfront Proof] e-mail dalla cartella spam e controlla se uno dei &quot;[!UICONTROL da]&quot; gli indirizzi si trovano nell&#39;elenco degli indirizzi bloccati. Questa pagina della guida elenca i [!DNL Workfront Proof] &quot;[!UICONTROL da]&quot; indirizzi e mostra come aggiungerli al filtro posta indesiderata nei seguenti client e-mail:
+Potrebbe inoltre essere necessario rimuovere [!DNL Workfront Proof] e-mail esistenti dalla cartella di posta indesiderata e verificare se gli indirizzi &quot;[!UICONTROL from]&quot; sono inclusi nell&#39;elenco indirizzi bloccati. In questa pagina della Guida sono elencati gli indirizzi [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; e viene illustrato come aggiungerli al filtro anti-spam nei seguenti client di posta elettronica:
 
 * [!DNL Gmail]
 * [!DNL Microsoft Outlook 2003 - 2007]
@@ -47,25 +47,25 @@ Potrebbe inoltre essere necessario rimuovere eventuali [!DNL Workfront Proof] e-
 
 >[!NOTE]
 >
->Se hai domande su una procedura descritta qui, controlla l&#39;aiuto del tuo client di posta elettronica.
+>In caso di domande su una procedura qui descritta, consulta l’Aiuto del cliente e-mail.
 
-Per ulteriori informazioni, consulta [Configurare le impostazioni di posta indesiderata per i client e-mail comuni](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-spam-settings-clients.md).
+Per ulteriori informazioni, vedere [Configurare le impostazioni di posta indesiderata per i client di posta elettronica comuni](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-spam-settings-clients.md).
 
-## La [!DNL Workfront Proof] &quot;[!UICONTROL da]&quot; indirizzi e-mail da copiare
+## Gli indirizzi e-mail [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; da copiare
 
-Per assicurarti che il tuo [!DNL Workfront Proof] le e-mail raggiungono la tua casella in entrata, dovrai aggiungere due [!DNL Workfront Proof] indirizzi e-mail separatamente dal filtro posta indesiderata del cliente e-mail:
+Per assicurarsi che le e-mail di [!DNL Workfront Proof] raggiungano la tua casella in entrata, dovrai aggiungere separatamente due indirizzi e-mail di [!DNL Workfront Proof] al filtro di posta indesiderata del client di posta elettronica:
 
-* l&#39;indirizzo generale di sostegno, [!DNL support@proofhq.com]da cui [!DNL Workfront Proof] invia molte comunicazioni e-mail
-* Indirizzo di notifica da cui [!DNL Workfront Proof] invia e-mail di notifica della bozza al creatore della bozza e ai revisori con collegamenti alla bozza. Può trattarsi di un indirizzo generale, notification@support.proofhq.com o di un indirizzo specifico se si dispone di un sottodominio personalizzato o di un dominio di etichetta bianca.
+* L&#39;indirizzo del supporto generale, [!DNL support@proofhq.com], da cui [!DNL Workfront Proof] invia molte comunicazioni e-mail
+* Un indirizzo di notifica da cui [!DNL Workfront Proof] invia le e-mail di notifica della bozza al creatore della bozza e ai revisori con i collegamenti alla bozza. Potrebbe trattarsi di un indirizzo generale, notification@support.proofhq.com, o di un indirizzo specifico se disponi di un sottodominio personalizzato o di un dominio con etichetta bianca.
 
-Per aggiungere [!DNL Workfront Proof] &quot;[!UICONTROL da]&quot; indirizzi al filtro del client di posta elettronica:
+Per aggiungere gli indirizzi [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; al filtro del client di posta elettronica:
 
-1. Copia il generale [!DNL Workfront Proof] supporto &quot;[!UICONTROL da]&quot; indirizzo e-mail (support@proofhq.com) e incollalo nel campo indicato per il client e-mail.
-1. Copia il file appropriato tra i seguenti [!DNL Workfront Proof] &quot;[!UICONTROL da]&quot; indirizzi e-mail e incollali SEPARATAMENTE nel campo indicato per il client e-mail:
+1. Copiare l&#39;indirizzo di posta elettronica del supporto [!DNL Workfront Proof] generale &quot;[!UICONTROL from]&quot; (support@proofhq.com) e incollarlo nel campo indicato per il client di posta elettronica.
+1. Copia uno dei seguenti [!DNL Workfront Proof] &quot;[!UICONTROL da]&quot; indirizzi di posta elettronica e incollali SEPARATAMENTE nel campo indicato per il client di posta elettronica:
 
    * notification@support.proofhq.com se NON disponi di un sottodominio personalizzato o di un dominio con etichetta bianca
    * notification@yoursubdomain.proofhq.com se disponi di un sottodominio personalizzato; sostituisci il nome del sottodominio in questo indirizzo
-   * notification@yoursubdomain.yourdomain.com se si dispone di un dominio di etichetta bianca; sostituisci il nome del sottodominio e il nome di dominio in questo indirizzo
+   * notification@yoursubdomain.yourdomain.com se disponi di un dominio con etichetta bianca; sostituisci il nome del sottodominio e del dominio in questo indirizzo
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">See the relevant section below for your email client to find out where to paste in these two Workfront Proof "[!UICONTROL from]" addresses.</p>

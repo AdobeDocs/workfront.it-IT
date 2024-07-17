@@ -3,8 +3,8 @@ filename: manage-fusion-users
 product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
-title: Gestisci [!DNL Adobe Workfront Fusion] utenti della tua organizzazione
-description: Gestisci [!DNL Adobe Workfront Fusion] utenti della tua organizzazione
+title: Gestisci [!DNL Adobe Workfront Fusion]  utenti nella tua organizzazione
+description: Gestisci [!DNL Adobe Workfront Fusion]  utenti nella tua organizzazione
 author: Becky
 feature: Workfront Fusion
 exl-id: fbb858a6-1230-41b4-892a-4ffeb2711922
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 ---
 
-# Gestisci [!DNL Adobe Workfront Fusion] utenti della tua organizzazione
+# Gestisci [!DNL Adobe Workfront Fusion] utenti nella tua organizzazione
 
-[!DNL Adobe Workfront Fusion] gli amministratori possono gestire i ruoli utente all’interno di [!DNL Workfront Fusion].
+Gli amministratori di [!DNL Adobe Workfront Fusion] possono gestire i ruoli utente in [!DNL Workfront Fusion].
 
 <!--
 
@@ -54,56 +54,56 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
    <tr> 
    <td role="rowheader">Licenza [!UICONTROL Adobe Workfront Fusion]**</td> 
    <td>
-   <p>Fabbisogno di licenza corrente: No [!DNL Workfront Fusion] requisito di licenza.</p>
+   <p>Requisiti di licenza correnti: nessun requisito di licenza [!DNL Workfront Fusion].</p>
    <p>Oppure</p>
-   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro], [!UICONTROL [!DNL Workfront Fusion] per automazione lavoro]</p>
+   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione lavoro], [!UICONTROL [!DNL Workfront Fusion] per automazione lavoro]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
    <td>
-   <p>Fabbisogno prodotto corrente: se si dispone di [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Pianifica, la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo. [!DNL Workfront Fusion] è incluso in [!UICONTROL Ultimate] [!DNL Workfront] piano.</p>
+   <p>Fabbisogno prodotto corrente: se si dispone del piano [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], l'organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo. [!DNL Workfront Fusion] è incluso nel piano [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>Oppure</p>
-   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</p>
+   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
    <td> 
-     <p>Devi essere un [!DNL Workfront Fusion] per la tua organizzazione.</p>
-     <p>Devi essere un [!DNL Workfront Fusion] amministratore del team.</p>
+     <p>Devi essere un amministratore [!DNL Workfront Fusion] per la tua organizzazione.</p>
+     <p>Devi essere un amministratore [!DNL Workfront Fusion] per il tuo team.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore [!DNL Workfront].
 
-Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Visualizzare o modificare i ruoli utente {#view}
 
-[!DNL Adobe Workfront Fusion] gli amministratori possono visualizzare e aggiornare i ruoli utente.
+Gli amministratori di [!DNL Adobe Workfront Fusion] possono visualizzare e aggiornare i ruoli utente.
 
-1. Durante l’accesso come [!DNL Workfront Fusion] amministratore, seleziona **[!UICONTROL Utenti]** nel menu di navigazione a sinistra.
-1. Clic **[!UICONTROL Dettagli]** nella riga dell’utente che desideri visualizzare.
-1. (Facoltativo) Per aggiornare il ruolo dell’utente, fai clic sul menu a discesa nella **[!DNL Role]** nella riga dell’organizzazione in cui desideri modificare il ruolo dell’utente, quindi seleziona il nuovo ruolo.
+1. Dopo aver effettuato l&#39;accesso come amministratore [!DNL Workfront Fusion], selezionare **[!UICONTROL Utenti]** nell&#39;area di navigazione a sinistra.
+1. Fare clic su **[!UICONTROL Dettagli]** nella riga dell&#39;utente che si desidera visualizzare.
+1. (Facoltativo) Per aggiornare il ruolo dell&#39;utente, fare clic sul menu a discesa nella colonna **[!DNL Role]** nella riga dell&#39;organizzazione in cui si desidera modificare il ruolo dell&#39;utente, quindi selezionare il nuovo ruolo.
 
 ## Visualizzare o modificare i dettagli utente {#view2}
 
-[!DNL Adobe Workfront Fusion] gli amministratori possono visualizzare e aggiornare i dettagli degli utenti.
+Gli amministratori di [!DNL Adobe Workfront Fusion] possono visualizzare e aggiornare i dettagli utente.
 
-1. Durante l’accesso come [!DNL Workfront Fusion] amministratore, seleziona **[!UICONTROL Utenti]** nel menu di navigazione a sinistra.
-1. Clic **[!UICONTROL Dettagli]** nella riga dell’utente che desideri visualizzare.
-1. (Facoltativo) Per aggiornare i dettagli dell’utente, fai clic su **[!UICONTROL Opzioni]** nell’angolo superiore destro dello schermo, quindi seleziona **[!UICONTROL Modifica dettagli]**.
+1. Dopo aver effettuato l&#39;accesso come amministratore [!DNL Workfront Fusion], selezionare **[!UICONTROL Utenti]** nell&#39;area di navigazione a sinistra.
+1. Fare clic su **[!UICONTROL Dettagli]** nella riga dell&#39;utente che si desidera visualizzare.
+1. (Facoltativo) Per aggiornare i dettagli dell&#39;utente, fai clic su **[!UICONTROL Opzioni]** nell&#39;angolo superiore destro della schermata, quindi seleziona **[!UICONTROL Modifica dettagli]**.
 
 ## Eliminare un utente {#delete}
 
-[!DNL Adobe Workfront Fusion] gli amministratori possono eliminare gli utenti.
+[!DNL Adobe Workfront Fusion] amministratori possono eliminare gli utenti.
 
-1. Durante l’accesso come [!DNL Workfront Fusion] amministratore, seleziona [!UICONTROL Utenti] nel menu di navigazione a sinistra.
-1. Clic **[!UICONTROL Dettagli]** nella riga dell’utente che desideri visualizzare.
-1. (Facoltativo) Per aggiornare i dettagli dell’utente, fai clic su **[!UICONTROL Opzioni]** nell’angolo superiore destro dello schermo, quindi seleziona **[!UICONTROL Elimina]**.
+1. Dopo aver effettuato l&#39;accesso come amministratore [!DNL Workfront Fusion], selezionare [!UICONTROL Utenti] nell&#39;area di navigazione a sinistra.
+1. Fare clic su **[!UICONTROL Dettagli]** nella riga dell&#39;utente che si desidera visualizzare.
+1. (Facoltativo) Per aggiornare i dettagli dell&#39;utente, fai clic su **[!UICONTROL Opzioni]** nell&#39;angolo superiore destro della schermata, quindi seleziona **[!UICONTROL Elimina]**.
 
 ### Considerazioni durante l’eliminazione di un utente in Workfront Fusion
 

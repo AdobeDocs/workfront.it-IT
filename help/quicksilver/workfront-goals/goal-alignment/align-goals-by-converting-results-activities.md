@@ -16,7 +16,7 @@ ht-degree: 16%
 # Allineare gli obiettivi convertendo risultati e attività in obiettivi
 
 Puoi allineare manualmente due obiettivi oppure convertire i risultati e le attività di un obiettivo esistente in un altro obiettivo. Il risultato o l’attività convertiti diventano l’obiettivo secondario dell’obiettivo originale.
-Per informazioni sull’allineamento manuale di due obiettivi, consulta [Allineare gli obiettivi collegandoli in Obiettivi di Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+Per informazioni sull&#39;allineamento manuale di due obiettivi, vedere [Allineare gli obiettivi collegandoli in Obiettivi di Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
 ## Requisiti di accesso
 
@@ -39,7 +39,7 @@ Per informazioni sull’allineamento manuale di due obiettivi, consulta [Allinea
  <td>
  <p>Nuova licenza: Collaboratore o versione successiva</p>
  Oppure
- <p>Licenza corrente: richiesta o successiva</p> <p>Per ulteriori informazioni, consulta <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica sulle licenze di Adobe Workfront</a>.</p> </td>
+ <p>Licenza corrente: richiesta o successiva</p> <p>Per ulteriori informazioni, vedere <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica delle licenze di Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Prodotto*</td>
@@ -49,7 +49,7 @@ Per informazioni sull’allineamento manuale di due obiettivi, consulta [Allinea
 <li>Un piano Select o Prime Adobe Workfront e un’ulteriore licenza Adobe Workfront Goals.</li>
 <li>Un piano Workfront Ultimate che include gli obiettivi Workfront per impostazione predefinita. </li></ul>
  <p>Oppure</p>
- <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, consulta <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l’utilizzo degli obiettivi di Workfront</a>. </p> </td>
+ <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Livello di accesso</td>
@@ -61,7 +61,7 @@ Per informazioni sull’allineamento manuale di due obiettivi, consulta [Allinea
   <div>
   <p>Visualizza o autorizzazioni superiori per l’obiettivo per visualizzarlo</p>
   <p>Gestire le autorizzazioni per l’obiettivo per modificarlo</p>
-  <p>Per informazioni sulla condivisione degli obiettivi, consulta <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Condividere un obiettivo in Obiettivi di Workfront</a>. </p>
+  <p>Per informazioni sulla condivisione degli obiettivi, vedere <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Condividere un obiettivo in Obiettivi di Workfront</a>. </p>
   </div> </td>
  </tr>
 <tr>
@@ -72,7 +72,7 @@ Per informazioni sull’allineamento manuale di due obiettivi, consulta [Allinea
 </tbody>
 </table>
 
-*Per ulteriori informazioni, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Prerequisiti
 
@@ -80,7 +80,7 @@ Prima di iniziare, è necessario disporre dei seguenti elementi:
 
 * Un obiettivo esistente con risultati e attività esistenti.
 
-  Per informazioni sulla creazione degli obiettivi, consulta [Creare gli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
+  Per informazioni sulla creazione degli obiettivi, vedere [Creare gli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
 
 >[!IMPORTANT]
 >
@@ -119,16 +119,16 @@ Quando converti risultati e attività in obiettivi, tieni presente quanto segue:
 -->
 
 1. Vai a un obiettivo che ha un risultato o un&#39;attività che desideri convertire in un obiettivo.
-1. Dalla pagina dell’obiettivo, fai clic su **Indicatori di avanzamento** nel pannello a sinistra.
-1. Seleziona un risultato o un’attività nell’elenco degli indicatori di avanzamento, quindi fai clic su **Converti in obiettivo** icona ![](assets/convert-to-goal-icon-unshimmed.png) nella parte superiore dell&#39;elenco degli indicatori di avanzamento. Viene visualizzata la casella Converti in obiettivo (Convert to goal).
+1. Dalla pagina dell&#39;obiettivo, fai clic su **Indicatori di avanzamento** nel pannello a sinistra.
+1. Seleziona un risultato o un&#39;attività nell&#39;elenco degli indicatori di avanzamento, quindi fai clic sull&#39;icona **Converti in obiettivo** ![](assets/convert-to-goal-icon-unshimmed.png) nella parte superiore dell&#39;elenco degli indicatori di avanzamento. Viene visualizzata la casella Converti in obiettivo (Convert to goal).
 
    ![](assets/convert-to-goal-box-unshimmed.png)
 1. Aggiorna le seguenti informazioni:
-   * **Nome obiettivo**: per impostazione predefinita, il nuovo obiettivo ha lo stesso nome del risultato o dell’attività originale.
-   * **Periodo**: per impostazione predefinita, il periodo del nuovo obiettivo è il trimestre corrente. È possibile selezionare **Abilita date personalizzate** per definire un periodo di tempo personalizzato per il nuovo obiettivo.
-   * **Proprietario obiettivo**: per impostazione predefinita, il nuovo proprietario dell’obiettivo è il proprietario del risultato o dell’attività originale.
+   * **Nome obiettivo**: per impostazione predefinita, il nuovo obiettivo ha lo stesso nome del risultato o dell&#39;attività originale.
+   * **Periodo**: per impostazione predefinita, il periodo del nuovo obiettivo è il trimestre corrente. È possibile selezionare l&#39;impostazione **Abilita date personalizzate** per definire un periodo di tempo personalizzato per il nuovo obiettivo.
+   * **Proprietario obiettivo**: per impostazione predefinita, il nuovo proprietario obiettivo è il proprietario del risultato o dell&#39;attività originale.
    * **Descrizione**: aggiungi ulteriori informazioni sul nuovo obiettivo.
-1. Clic **Salva**
+1. Fai clic su **Salva**
 
    Il risultato o l’attività viene ora convertito in un obiettivo secondario dell’obiettivo originale. È elencato come obiettivo nell&#39;elenco degli indicatori di progresso dell&#39;obiettivo originale.
 

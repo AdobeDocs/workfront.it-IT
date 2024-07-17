@@ -26,7 +26,7 @@ Puoi scegliere di visualizzare una colonna di backlog su una bacheca in un fluss
 >
 >Se aggiungi una nuova scheda nella colonna del backlog che non corrisponde ai criteri di query, la scheda scompare dal backlog quando viene aggiornata e sarà disponibile solo nell’elenco delle schede. È possibile modificare la query in qualsiasi momento per modificare le schede visualizzate nella colonna del backlog.
 
-La colonna backlog e la query non sono disponibili nelle bacheche autonome. Per informazioni sull’aggiunta di una colonna di acquisizione a una bacheca autonoma, consulta [Aggiungere una colonna Acquisizione a una bacheca](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+La colonna backlog e la query non sono disponibili nelle bacheche autonome. Per informazioni sull&#39;aggiunta di una colonna di acquisizione a una bacheca autonoma, vedere [Aggiungere una colonna di acquisizione a una bacheca](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 ## Requisiti di accesso
 
@@ -49,7 +49,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
 
 ## Configurare il backlog in una bacheca del flusso di lavoro
 
@@ -57,18 +57,18 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Aprire il flusso di lavoro in cui si desidera lavorare. Per aprire un flusso di lavoro, fare clic su [!UICONTROL **Visualizza flusso di lavoro**].
 1. Fare clic su una scheda del flusso di lavoro per aprirla.
-1. Clic [!UICONTROL **Configura**] sulla destra della bacheca per aprire il pannello Configura.
-1. Attiva [!UICONTROL **Includi una colonna backlog in questa bacheca**].
+1. Fai clic su [!UICONTROL **Configura**] a destra della bacheca per aprire il pannello Configura.
+1. Attiva [!UICONTROL **Includi colonna backlog in questa bacheca**].
 
    La colonna backlog viene aggiunta a sinistra della bacheca. Rimane vuoto finché non viene applicata una query.
 
-1. Espandi [!UICONTROL **Query backlog**].
+1. Espandere [!UICONTROL **Query backlog**].
 
    >[!NOTE]
    >
    >È possibile che al backlog sia già stata applicata una query predefinita che mostra tutti gli elementi di lavoro dell&#39;elenco delle schede con stato e stato non Completo.
 
-1. Clic [!UICONTROL **Aggiungi condizione**] e fai clic sul campo &quot;vuoto&quot;.
+1. Fai clic su [!UICONTROL **Aggiungi condizione**] e poi sul campo &quot;vuoto&quot;.
 1. Seleziona il campo in base al quale eseguire la query.
 
    I campi tra cui è possibile scegliere sono quelli predefiniti di una scheda.
@@ -85,9 +85,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. (Facoltativo) Fai clic su [!UICONTROL **Aggiungi condizione**] per aggiungere un&#39;altra condizione alla query.
 
-   ![Query arretrati](assets/backlog-query-wrkstrm-board.png)
+   ![Query backlog](assets/backlog-query-wrkstrm-board.png)
 
 1. (Facoltativo) Fai clic su [!UICONTROL **Crea gruppo**] per aggiungere un gruppo di condizioni connesse alla prima condizione con un operatore OR.
-1. Clic [!UICONTROL **Salva query**].
+1. Fai clic su [!UICONTROL **Salva query**].
 
    La query viene applicata e le schede che soddisfano i criteri vengono visualizzate nella colonna backlog.

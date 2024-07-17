@@ -2,8 +2,8 @@
 content-type: reference
 product-area: user-management;agile-and-teams
 navigation-topic: people-teams-and-groups
-title: Panoramica sulle richieste del team
-description: Le richieste del team si trovano nell'area Team nel menu principale.
+title: Panoramica delle richieste dei team
+description: Le richieste dei team si trovano nell’area Team nel menu principale.
 author: Lisa
 feature: People Teams and Groups
 exl-id: c131c021-8bc0-4a48-a873-9ee0e189bcab
@@ -14,40 +14,40 @@ ht-degree: 0%
 
 ---
 
-# Panoramica sulle richieste del team
+# Panoramica delle richieste dei team
 
 ## Comprendere le richieste del team
 
-Le richieste del team si trovano in [!UICONTROL Team] nella zona [!UICONTROL Menu principale]. Fai clic sul pulsante [!UICONTROL Richieste del team] icona ![Icona della richiesta](assets/request-icon.png) nel pannello a sinistra per visualizzare le richieste del team.
+Richieste team trovate nell&#39;area [!UICONTROL Team] nel [!UICONTROL Menu principale]. Fai clic sull&#39;icona [!UICONTROL Richieste team] ![Icona richiesta](assets/request-icon.png) nel pannello a sinistra per visualizzare le richieste team.
 
 >[!NOTE]
 >
 >I team Agile non dispongono di richieste team.
 
-La [!UICONTROL Richieste del team] mostra le richieste in attesa di assegnazione per il team attualmente selezionato nell’elenco a discesa. Il numero tra parentesi indica quanti elementi sono pronti per essere lavorati.
+La scheda [!UICONTROL Richieste team] mostra le richieste in attesa di assegnazione per il team attualmente selezionato nell&#39;elenco a discesa. Il numero tra parentesi indica il numero di elementi pronti per essere lavorati.
 
-Una richiesta del team rappresenta un elemento di lavoro in sospeso non assegnato a un utente specifico. Al contrario, viene assegnato a un team, e qualsiasi membro del team può volontariamente accettare la responsabilità per l&#39;oggetto. Se un utente si offre volontario per lavorare su una richiesta del team, l&#39;utente accetta l&#39;assegnazione del lavoro come proprio. L’attività viene assegnata al singolo utente oltre al team.
-
->[!NOTE]
->
->Non utilizzare una richiesta team per le assegnazioni di attività collaborative. Se è necessario assegnare più utenti per lavorare insieme a un&#39;attività, eseguire questa operazione tramite [!UICONTROL Assegnazioni avanzate] e non tramite richieste Team. Per ulteriori informazioni, consulta [Creazione di assegnazioni avanzate](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
-
-## Comprendere il [!UICONTROL Pronto per l&#39;inizio] e [!UICONTROL Tutto] options
-
-Nella parte superiore della sezione Richieste team sono disponibili due opzioni: [!UICONTROL Pronto per l&#39;inizio] e [!UICONTROL Tutto].
-
-La [!UICONTROL Pronto per l&#39;inizio] mostra solo le attività e i problemi che soddisfano tutti i seguenti criteri:
-
-* Tutti i predecessori hanno soddisfatto le condizioni per i tipi di dipendenza precedenti.\
-   Ad esempio, se il tipo di relazione predecessore è [!UICONTROL Fine-Inizio] (l&#39;attività predecessore deve terminare prima dell&#39;avvio dell&#39;attività dipendente), il predecessore deve essere contrassegnato come [!UICONTROL Completa]. (Per ulteriori informazioni sui tipi di dipendenza predecessore, consulta [Panoramica dei tipi di dipendenza dell&#39;attività](../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).)
-
-* L&#39;utente connesso è la persona assegnata a queste attività e a questi problemi (per le richieste di lavoro), oppure il team selezionato viene assegnato a queste attività e a questi problemi (per le richieste del team).
-* Lo stato del progetto è in uno stato [!UICONTROL Corrente].
-* La [!UICONTROL Data di inizio prevista] o [!UICONTROL Data di inizio prevista] è passato o è previsto che inizi entro due settimane dalla data odierna (o no [!UICONTROL Data di inizio prevista] o [!UICONTROL Data di inizio prevista] è stato definito).
-* La [!UICONTROL Data di consegna] si è già verificato o si verificherà entro due settimane dalla data corrente.
+Una richiesta team rappresenta un elemento di lavoro in sospeso non assegnato a un utente specifico. Viene invece assegnato a un team, e qualsiasi membro di quel team può offrirsi volontario per accettare la responsabilità per l’elemento. Se un utente si offre volontario per lavorare su una richiesta del team, accetta l’assegnazione del lavoro come propria. L’attività viene assegnata al singolo utente oltre che al team.
 
 >[!NOTE]
 >
->Se l’attività soddisfa i primi tre criteri e ha una data di fine entro due settimane dalla data corrente, verrà visualizzata come [!UICONTROL Pronto per l&#39;inizio] anche se le date previste/previste sono oltre le due settimane. Se l&#39;attività non dispone di una data di consegna, le date previste/previste devono essere entro due settimane dalla data corrente.
+>Non utilizzare una richiesta team per assegnazioni di attività collaborative. Se devi assegnare più utenti per lavorare insieme su un&#39;attività, esegui questa operazione tramite [!UICONTROL Assegnazioni avanzate] e non tramite richieste del team. Per ulteriori informazioni, vedere [Creare assegnazioni avanzate](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
-La [!UICONTROL Tutto] mostra tutte le attività e i problemi relativi ai progetti correnti assegnati all&#39;utente connesso o a tutte le attività o problemi assegnati al team.
+## Comprendere le opzioni [!UICONTROL Pronto per iniziare] e [!UICONTROL Tutti]
+
+Nella parte superiore della sezione Richieste team sono disponibili due opzioni: [!UICONTROL Pronto per iniziare] e [!UICONTROL Tutto].
+
+L&#39;opzione [!UICONTROL Pronto per l&#39;avvio] mostra solo le attività e i problemi che soddisfano tutti i criteri seguenti:
+
+* Tutti i predecessori hanno soddisfatto le condizioni per i tipi di dipendenza predecessori.\
+  Ad esempio, se il tipo di relazione predecessore è [!UICONTROL Fine-Inizio] (l&#39;attività predecessore deve terminare prima che l&#39;attività dipendente possa iniziare), il predecessore deve essere contrassegnato come [!UICONTROL Completo]. Per ulteriori informazioni sui tipi di relazione predecessore, vedere [Panoramica sui tipi di relazione attività](../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+
+* L’utente connesso è la persona assegnata a queste attività e problemi (per le richieste di lavoro), oppure il team selezionato è assegnato a queste attività e problemi (per le richieste di team).
+* Lo stato del progetto è [!UICONTROL Corrente].
+* La [!UICONTROL Data inizio prevista] o la [!UICONTROL Data inizio prevista] è passata o è prevista entro due settimane dalla data odierna (oppure non è stata definita alcuna [!UICONTROL Data inizio prevista] o [!UICONTROL Data inizio prevista]).
+* La [!UICONTROL Data handoff] si è già verificata o si verificherà entro due settimane dalla data corrente.
+
+>[!NOTE]
+>
+>Se l&#39;attività soddisfa i primi tre criteri e ha una data di handoff entro due settimane dalla data corrente, verrà visualizzata come [!UICONTROL Pronta per iniziare] anche se le date pianificate/previste sono più di due settimane. Se l&#39;attività non ha una data Handoff, le date Pianificato/Previsto devono essere entro due settimane dalla data corrente.
+
+L&#39;opzione [!UICONTROL Tutte] mostra tutte le attività e i problemi dei progetti correnti assegnati all&#39;utente connesso o tutte le attività o i problemi assegnati al team.

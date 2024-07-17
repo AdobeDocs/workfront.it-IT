@@ -17,10 +17,10 @@ ht-degree: 0%
 
 I seguenti elementi di lavoro possono essere assegnati a un team agile e aggiunti al backlog del team come storie, a seconda della metodologia agile utilizzata dal team:
 
-* **[!UICONTROL Team agili Scrum]:** Le attività e i problemi possono essere assegnati al team agile e aggiunti al backlog.
-* **[!UICONTROL Team Kanban Agile]:** Le attività possono essere assegnate al team agile e aggiunte al backlog. Gli utenti possono visualizzare il backlog direttamente dallo storyboard agile, come descritto in [[!UICONTROL Aggiungi il backlog] alla bacheca Kanban](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md). Il team utilizza questo backlog per assegnare la priorità e gestire la coda di lavoro.
+* **[!UICONTROL Team agili Scrum]:** È possibile assegnare attività e problemi al team agile e aggiungerli al backlog.
+* **[!UICONTROL Team Kanban Agile]:** Le attività possono essere assegnate al team Agile e aggiunte al backlog. Gli utenti possono visualizzare il backlog direttamente dalla bacheca delle storie agile, come descritto in [[!UICONTROL Aggiungere il backlog] alla bacheca Kanban](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md). Il team utilizza questo backlog per assegnare la priorità e gestire la coda di lavoro.
 
-Le attività o i problemi possono essere assegnati al team (e successivamente aggiunti al backlog del team) da qualsiasi punto di [!DNL Adobe Workfront]. Ad esempio, a un singolo team possono essere assegnate assegnazioni di lavoro da più progetti.
+Le attività o i problemi possono essere assegnati al team (e successivamente aggiunti al backlog del team) da qualsiasi posizione in [!DNL Adobe Workfront]. Ad esempio, a un singolo team possono essere assegnate assegnazioni di lavoro da più progetti.
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 ## Creazione e gestione di brani nel backlog
 
 * [Riordinare le storie](#reorder-stories)
-* [[!UICONTROL Suddividere] storie](#break-down-stories)
+* [[!UICONTROL Suddividi] storie](#break-down-stories)
 * [Modifica storie](#edit-stories)
 
 ### Riordinare le storie {#reorder-stories}
@@ -72,7 +72,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 È possibile riordinare i brani nell&#39;elenco dei backlog utilizzando il metodo di trascinamento della selezione.
 
 1. Vai al backlog agile in cui desideri riordinare le storie.
-1. In **[!UICONTROL Visualizza]** menu a discesa, selezionare **[!UICONTROL Backlog]** o una visualizzazione personalizzata contenente **[!UICONTROL Ordine]** colonna.
+1. Nel menu a discesa **[!UICONTROL Visualizza]**, selezionare la visualizzazione **[!UICONTROL Backlog]** o una visualizzazione personalizzata contenente la colonna **[!UICONTROL Ordine]**.
 
    >[!NOTE]
    >
@@ -96,17 +96,17 @@ Poiché le storie in un backlog hanno dimensioni diverse, gli utenti possono sud
 Per suddividere una storia:
 
 1. Vai al backlog contenente la storia che desideri scomporre.
-1. Seleziona la storia da scomporre, quindi fai clic su **[!UICONTROL Dettaglio storia]**.\
-   Il [!UICONTROL Dettaglio storia] viene visualizzata.\
-   ![Finestra di dialogo Dettaglio storia](assets/backlog-breakdown-dialog.png)
+1. Seleziona la storia da scomporre, quindi fai clic su **[!UICONTROL Dettaglio]**.\
+   Viene visualizzata la finestra di dialogo [!UICONTROL Breakdown Story].\
+   ![Finestra di dialogo Breakdown Story](assets/backlog-breakdown-dialog.png)
 
 1. Specificate un nome e una stima per il brano, quindi selezionate se il brano è pronto.
-1. Clic **[!UICONTROL Aggiungi storia]** per creare un&#39;altra storia dalla storia originale.
+1. Fai clic su **[!UICONTROL Aggiungi storia]** per creare un&#39;altra storia dal brano originale.
 1. Fai clic su **[!UICONTROL Salva]**.
 
 ### Modifica storie {#edit-stories}
 
-Puoi modificare i brani direttamente da [!UICONTROL Storie] o [!UICONTROL Problemi] come se si modificasse in blocco qualsiasi attività o problema all’interno di un progetto, come descritto in [Modifica attività in blocco](../../manage-work/tasks/manage-tasks/edit-tasks.md#edit-tasks-in-bulk) in [Modifica attività](../../manage-work/tasks/manage-tasks/edit-tasks.md), e [Modifica problemi](../../manage-work/issues/manage-issues/edit-issues.md).
+Puoi modificare i brani direttamente dalle schede [!UICONTROL Storie] o [!UICONTROL Problemi] nel backlog, così come si modificano attività o problemi all&#39;interno di un progetto in blocco, come descritto in [Modifica attività in blocco](../../manage-work/tasks/manage-tasks/edit-tasks.md#edit-tasks-in-bulk) in [Modifica attività](../../manage-work/tasks/manage-tasks/edit-tasks.md) e [Modifica problemi](../../manage-work/issues/manage-issues/edit-issues.md).
 
 ## Crea nuove storie nel backlog {#create-new-stories-on-the-backlog}
 
@@ -121,18 +121,18 @@ Quando crei una storia dal backlog, questa viene creata come un’attività o un
 
 Per creare una storia dal backlog:
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **[!UICONTROL Team]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **[!UICONTROL Teams]**.
 
-1. (Facoltativo) Fai clic su **[!UICONTROL Cambia team]** icona ![Icona Cambia team](assets/switch-team-icon.png), quindi selezionare un nuovo team Scrum dal menu a discesa oppure cercare un team nella barra di ricerca e selezionarlo quando viene visualizzato.
+1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Cambia team](assets/switch-team-icon.png), quindi seleziona un nuovo team Scrum dal menu a discesa oppure cerca un team nella barra di ricerca e selezionalo quando viene visualizzato.
 
 1. Seleziona **[!UICONTROL Backlog]** dal pannello a sinistra.
 1. Effettua una delle seguenti operazioni, a seconda che desideri creare un’attività o un problema:
 
-   * **Per creare un&#39;attività:** Clic **[!UICONTROL Storie]**.
+   * **Per creare un&#39;attività:** Fai clic su **[!UICONTROL Storie]**.
 
-   * **Per creare un problema:** Clic **[!UICONTROL Problemi]**.
+   * **Per creare un problema:** Fai clic su **[!UICONTROL Problemi]**.
 
-1. Clic **[!UICONTROL Nuova storia]** o **[!UICONTROL Crea una Issue]**.
+1. Fai clic su **[!UICONTROL Nuova storia]** o **[!UICONTROL Nuovo problema]**.
 
 1. Specifica le seguenti informazioni:
 
@@ -171,7 +171,7 @@ Per creare una storia dal backlog:
     </tbody>
    </table>
 
-1. Clic **[!UICONTROL Salva storia]**.
+1. Fai clic su **[!UICONTROL Salva storia]**.
 
 ### Assegnare un’attività o un problema a un team agile {#assign-a-task-or-issue-to-an-agile-team}
 
@@ -181,10 +181,10 @@ Per assegnare un’attività o un problema a un team agile:
 
 1. Passare al progetto contenente l&#39;attività che si desidera assegnare.
 1. Seleziona l’attività o il problema nell’elenco.
-1. Clic **[!UICONTROL Modifica]**.
-1. Clic **[!UICONTROL Assegnazioni]**.
+1. Fai clic su **[!UICONTROL Modifica]**.
+1. Fai clic su **[!UICONTROL Assegnazioni]**.
 1. (Facoltativo) Elimina eventuali assegnatari esistenti.
-1. Clic **[!UICONTROL Aggiungi assegnatario]**.
+1. Fai clic su **[!UICONTROL Aggiungi assegnatario]**.
 1. Inizia a digitare il nome del team Agile che desideri assegnare all’attività o al problema, quindi fai clic sul nome del team quando viene visualizzato nell’elenco a discesa.
 1. Fai clic su **[!UICONTROL Salva modifiche]**.\
    L’attività o il problema è ora disponibile nel backlog del team.
@@ -200,27 +200,27 @@ Per assegnare un’attività o un problema a un team agile:
 ### Sposta le storie dal backlog a un’iterazione o a una bacheca +
 
 1. Vai al backlog del team agile.
-1. Seleziona i brani da spostare in un’iterazione o una bacheca Kanban, quindi fai clic su **[!UICONTROL Altro]** > **[!UICONTROL Sposta in]**.\
-   Se si sposta la storia in una [!UICONTROL Kanban] scheda, il [!UICONTROL Sposta la storia nel Kanban] Viene visualizzata la bacheca.\
-   Se si sposta la storia in un&#39;iterazione, [!UICONTROL Sposta storia in un&#39;iterazione] viene visualizzata.\
+1. Seleziona i brani da spostare in un&#39;iterazione o una bacheca Kanban, quindi fai clic su **[!UICONTROL Altro]** > **[!UICONTROL Sposta in]**.\
+   Se si sposta la storia in una bacheca [!UICONTROL Kanban], viene visualizzata la bacheca [!UICONTROL Move Story to the Kanban].\
+   Se si sposta il brano in un&#39;iterazione, viene visualizzata la finestra di dialogo [!UICONTROL Sposta brano in un&#39;iterazione].\
    ![Finestra di dialogo Sposta storia](assets/agile-backlog-addtoiteration.png)
 
 1. Effettuare una delle seguenti operazioni:
 
-   * **Per i team Scrum:** In **[!UICONTROL Seleziona iterazione]** , selezionare l&#39;iterazione in cui si desidera spostare i brani.
+   * **Per i team Scrum:** Nel campo **[!UICONTROL Seleziona iterazione]**, selezionare l&#39;iterazione in cui si desidera spostare le storie.
 
-   * **Per i team Kanban:** In **[!UICONTROL Seleziona Kanban Board]** , seleziona il team [!UICONTROL Kanban] bacheca (I team Kanban possono averne solo uno [!UICONTROL Kanban] bacheca.)
+   * **Per i team Kanban:** Nel campo **[!UICONTROL Seleziona Kanban Board]**, seleziona il team [!UICONTROL Kanban]. I team Kanban possono avere una sola bacheca [!UICONTROL Kanban].
 
-1. Clic **[!UICONTROL Sposta storia]**.
+1. Fai clic su **[!UICONTROL Sposta storia]**.
 
 ### Sposta i brani esistenti nel backlog {#move-existing-stories-to-the-backlog}
 
 Se si decide che il team non è ancora pronto per lavorare su una storia, è possibile spostare la storia nel backlog.
 
-Per ulteriori informazioni, consulta [Spostare una storia agile](../../agile/work-in-an-agile-environment/move-an-agile-story.md).
+Per ulteriori informazioni, vedere [Spostare una storia Agile](../../agile/work-in-an-agile-environment/move-an-agile-story.md).
 
 ### Esporta storie dal backlog {#export-stories-from-the-backlog}
 
 Puoi esportare uno o più brani (attività e problemi inclusi) direttamente dal backlog.
 
-Esportate i brani dal backlog nello stesso modo in cui esportate altri dati in [!DNL Workfront], come descritto in [Esporta dati](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+Le storie vengono esportate dal backlog nello stesso modo in cui si esportano altri dati in [!DNL Workfront], come descritto in [Esporta dati](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).

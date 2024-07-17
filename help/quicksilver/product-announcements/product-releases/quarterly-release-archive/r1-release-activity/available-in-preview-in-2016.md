@@ -22,7 +22,7 @@ Le seguenti funzioni sono state rese disponibili nell’ambiente di anteprima ne
 
 >[!NOTE]
 >
->Gli strumenti di pianificazione delle risorse sono stati dichiarati obsoleti e rimossi da Workfront con la versione 23.1. Per informazioni sulla programmazione delle risorse tramite il Bilanciatore dei carichi di lavoro, consulta [Panoramica del Bilanciatore dei carichi di lavoro](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Gli strumenti di pianificazione delle risorse sono stati dichiarati obsoleti e rimossi da Workfront con la versione 23.1. Per informazioni sulla pianificazione delle risorse tramite il Bilanciatore dei carichi di lavoro, vedere [Panoramica del Bilanciatore dei carichi di lavoro](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Ora è possibile visualizzare tutte le attività sui progetti di cui si è Responsabile risorse, consentendo di essere più informati quando si prendono decisioni sulla programmazione.
 
@@ -44,11 +44,12 @@ Ora l’ombreggiatura dell’allocazione utente sulla timeline di programmazione
 
 In precedenza, l’ombreggiatura dell’allocazione veniva visualizzata per impostazione predefinita e non poteva essere disabilitata.
 
-Per ulteriori informazioni su come abilitare le opzioni di allocazione utente, vedere &quot;Gestire le allocazioni utente nelle aree Pianificazione&quot;.
+Per ulteriori informazioni su come abilitare le opzioni di allocazione utente, consulta
+&quot;Gestire le allocazioni utente nelle aree Pianificazione&quot;.
 
 ## Modello di layout Determina se il calendario nuovo o legacy viene visualizzato nell&#39;area Il mio lavoro
 
-**Anteprima Sandbox: 7 dicembre 2016; Accesso Anteprima: 14 dicembre 2016** 
+**Anteprima Sandbox: 7 Dicembre 2016; Accesso In Anteprima: 14 Dicembre 2016** 
 
 Il nuovo calendario viene visualizzato nell&#39;area Il mio lavoro per impostazione predefinita quando non viene applicato alcun modello di layout.
 
@@ -60,13 +61,13 @@ Per configurare Workfront in modo da visualizzare il nuovo calendario nell&#39;a
 
 Per ulteriori informazioni sulla configurazione del modello di layout, vedere [Creare e gestire modelli di layout](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md#customizing-my-work) in [Creare e gestire modelli di layout](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-## Versione beta di Outlook 365
+## Beta Outlook 365
 
-**Beta: TBD; disponibilità pubblica: TBD**
+**Beta: da definire; disponibilità pubblica: da definire**
 
 È possibile utilizzare Workfront da Outlook per Office 365, come descritto nelle sezioni seguenti:
 
-* [Configurare Adobe Workfront per Outlook](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
+* [Configura Adobe Workfront per Outlook](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
 * &quot;Aggiornamento di un elemento esistente da un messaggio e-mail con Outlook 365&quot;
 
 ## Riordinare le colonne in qualsiasi elenco mediante trascinamento della selezione
@@ -77,23 +78,23 @@ Per ulteriori informazioni sulla configurazione del modello di layout, vedere [C
 
 Questa funzione è particolarmente utile quando si visualizzano contemporaneamente il diagramma di Gantt e la visualizzazione a elenco e la colonna che si desidera visualizzare non viene visualizzata sul lato sinistro della pagina. 
 
-Per ulteriori informazioni, consulta [Modifica la larghezza e l&#39;ordine delle colonne](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
+Per ulteriori informazioni, vedere [Modificare la larghezza e l&#39;ordine delle colonne](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
 
 ## Aspetto aggiornato nell’elenco delle dashboard
 
 Ora, quando si visualizza un elenco di dashboard, l’aspetto è più moderno e scalabile.
 
-Per ulteriori informazioni sulle dashboard, consulta [Creare un dashboard](../../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)
+Per ulteriori informazioni sui dashboard, vedere [Creare un dashboard](../../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)
 
 ## Controllare l’accesso a Custom Forms
 
-**Sandbox di anteprima: 23 gennaio 2016**
+**Anteprima Sandbox: 23 Gennaio 2016**
 
 È ora possibile controllare gli utenti che hanno accesso a un modulo personalizzato concedendo l’accesso a singoli utenti, team, ruoli, gruppi o aziende. 
 
 Prima di questa modifica, era possibile concedere l’accesso solo ai gruppi.
 
-Per ulteriori informazioni, consulta [Creare o modificare un modulo personalizzato](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+Per ulteriori informazioni, vedere [Creare o modificare un modulo personalizzato](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
 
 ## Integrazione con Adobe Creative Cloud
 

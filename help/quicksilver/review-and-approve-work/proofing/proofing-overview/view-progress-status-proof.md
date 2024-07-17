@@ -2,24 +2,24 @@
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: Panoramica sullo stato e sull’avanzamento della bozza
-description: È possibile visualizzare informazioni sull'avanzamento di una bozza nel processo di revisione e visualizzare un riepilogo generale dello stato di decisione della bozza nell'area Documenti.
+description: È possibile visualizzare informazioni sull'avanzamento di una bozza nel processo di revisione e visualizzare un riepilogo generale dello stato di decisione della bozza dall'area Documenti.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 78e81070-ff82-4d82-90a3-6e0cd176b290
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 2%
+source-wordcount: '368'
+ht-degree: 1%
 
 ---
 
 # Panoramica sullo stato e sull’avanzamento della bozza
 
-È possibile visualizzare informazioni sull&#39;avanzamento di una bozza nel processo di revisione e visualizzare un riepilogo generale dello stato di decisione della bozza nell&#39;area Documenti.
+È possibile visualizzare informazioni sull&#39;avanzamento di una bozza nel processo di revisione e visualizzare un riepilogo generale dello stato di decisione della bozza dall&#39;area Documenti.
 
 ## Panoramica sull’avanzamento della bozza
 
-L’avanzamento della prova indica il lavoro svolto su una bozza dal momento in cui la prova viene inviata ai destinatari al momento in cui decidono in merito alla bozza. Le icone di avanzamento, S, O, C e D, vengono visualizzate accanto al nome della bozza e forniscono informazioni sull’avanzamento della bozza.
+L’avanzamento della bozza indica il lavoro svolto su una bozza dal momento dell’invio della bozza ai destinatari al momento in cui prendono una decisione sulla bozza. Accanto al nome della bozza vengono visualizzate le icone di avanzamento S, O, C e D che forniscono informazioni sull’avanzamento della bozza.
 
 ![](assets/proof-edit-existing-progress-350x62.png)
 
@@ -28,36 +28,36 @@ L’avanzamento della prova indica il lavoro svolto su una bozza dal momento in 
  <col> 
  <thead> 
   <tr> 
-   <td> <p><strong>Icona Avanzamento</strong> </p> </td> 
+   <td> <p><strong>Icona avanzamento</strong> </p> </td> 
    <td> <p><strong>Descrizione</strong> </p> </td> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> <img src="assets/proof-progress-sent-icon.png" alt=""> </p> <p><strong>Invio completato</strong> </p> </td> 
+   <td> <p> <img src="assets/proof-progress-sent-icon.png" alt=""> </p> <p><strong>Inviato</strong> </p> </td> 
    <td> <p>La bozza è stata inviata ai destinatari assegnati.</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong></strong> </p> <p><strong>Aperto</strong> </p> </td> 
-   <td> <p>Tutti i destinatari assegnati aprono la pagina dei dettagli bozza o bozza.</p> </td> 
+   <td> <p>Tutti i destinatari assegnati aprono la pagina Dettagli bozza o Bozza.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong></strong> </p> <p><strong>Commenti</strong> </p> </td> 
-   <td> <p>Tutti i destinatari assegnati fanno almeno un commento sulla bozza.</p> <p>Se non ci sono revisori assegnati alla bozza, il <strong>C</strong> l’icona non viene visualizzata nella barra di avanzamento.</p> </td> 
+   <td> <p><strong></strong> </p> <p><strong>Commenti effettuati</strong> </p> </td> 
+   <td> <p>Tutti i destinatari assegnati aggiungono almeno un commento alla bozza.</p> <p>Se alla bozza non sono assegnati revisori, l'icona <strong>C</strong> non viene visualizzata sulla barra di avanzamento.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <img src="assets/proof-progress-decision-icon.png" alt=""> </p> <p><strong>Decisione</strong> </p> </td> 
-   <td> <p>Tutti gli approvatori assegnati prendono una decisione sulla bozza, Tutti gli approvatori assegnati prendono una decisione sulla bozza, a meno che il creatore della bozza specifichi una sola decisione è necessaria.</p> <p>In assenza di approvatori (responsabili decisionali) designati per la prova, il <strong>D</strong> l’icona non viene visualizzata nella barra di avanzamento. </p> </td> 
+   <td> <p> <img src="assets/proof-progress-decision-icon.png" alt=""> </p> <p><strong>Decisione effettuata</strong> </p> </td> 
+   <td> <p>Tutti gli approvatori assegnati prendono una decisione sulla bozza, Tutti gli approvatori assegnati prendono una decisione sulla bozza, a meno che il creatore della bozza non specifichi che è necessaria una sola decisione.</p> <p>Se non sono presenti approvatori (responsabili delle decisioni) designati per la bozza, l'icona <strong>D</strong> non viene visualizzata nella barra di avanzamento. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Le icone di avanzamento possono essere visualizzate nei seguenti colori per indicare l’avanzamento della bozza:
+Le icone di avanzamento possono essere visualizzate nei seguenti colori per indicare determinate informazioni sull’avanzamento della bozza:
 
-* **Verde**: Completo.
-* **Bianco**: Non completato.
-* **Arancio**: non completato e il termine è inferiore a 24 ore.
-* **Rosso**: Non completato e superato il termine.
+* **Verde**: completato.
+* **Bianco**: non completato.
+* **Arancione**: non completato e scadenza inferiore a 24 ore.
+* **Rosso**: non completato e scaduto il termine.
 
 <!--
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Levels of proof progress</h3>
@@ -93,7 +93,7 @@ Le icone di avanzamento possono essere visualizzate nei seguenti colori per indi
 
 ## Panoramica sullo stato della bozza
 
-Lo stato della bozza visualizza lo stato delle decisioni necessarie per la bozza. Lo stato della prova è determinato dal partecipante al &quot;caso peggiore&quot;. Ad esempio, supponiamo che ci siano tre decisioni sulla bozza: due hanno lo status di **Accettato** e uno ha lo status di **Rifiutato**. La decisione del &quot;caso peggiore&quot; **Rifiutato** le regole eccessive delle altre decisioni e lo stato generale della prova è indicato come **Rifiutato**. 
+Lo stato della bozza visualizza lo stato delle decisioni necessarie per la bozza. Lo stato della bozza è determinato dal partecipante che si trova nel &quot;caso peggiore&quot;. Si supponga, ad esempio, di avere tre decisioni sulla bozza: due hanno lo stato **Accettato** e uno ha lo stato **Rifiutato**. La decisione &quot;caso peggiore&quot; di **Rifiutato** sovrascrive le altre decisioni e lo stato complessivo della bozza viene visualizzato come **Rifiutato**. 
 
 ![](assets/proof-edit-existing-progress-350x62.png)
 
@@ -105,7 +105,7 @@ Le opzioni di stato standard sono le seguenti:
 * Modifiche richieste
 * Non pertinente
 
-Se le decisioni personalizzate sono configurate nel tuo account, le opzioni di stato riflettono le impostazioni di decisione personalizzate.
+Se nel tuo account sono configurate decisioni personalizzate, le opzioni di stato riflettono le impostazioni di decisione personalizzate.
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Viewing proof progress and status</h2>

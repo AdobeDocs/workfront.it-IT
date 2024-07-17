@@ -18,7 +18,7 @@ ht-degree: 1%
 
 È possibile assegnare manualmente gli elementi di lavoro agli utenti utilizzando il Bilanciatore dei carichi di lavoro di Adobe Workfront.
 
-Per informazioni generali sull’assegnazione di lavoro agli utenti tramite il Bilanciatore dei carichi di lavoro, consulta [Panoramica sull’assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Per informazioni generali sull&#39;assegnazione del lavoro agli utenti che utilizzano il Bilanciatore dei carichi di lavoro, vedere [Panoramica sull&#39;assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Requisiti di accesso
 
@@ -48,16 +48,16 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      <li> <p>Problemi</p> </li> 
     </ul> <p><b>NOTA</b>
 
-Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
+Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Autorizzazioni di Contribute o superiori per i progetti, le attività e i problemi che includono Assegnazioni</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Autorizzazioni Contribute o superiori per progetti, attività e problemi che includono l'opzione Crea assegnazioni</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Assegnazione manuale del lavoro nel Bilanciatore dei carichi di lavoro
 
@@ -65,15 +65,15 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 
 1. Andare al Bilanciatore dei carichi di lavoro nel punto in cui si desidera assegnare il lavoro.
 
-   È possibile assegnare il lavoro agli utenti utilizzando il Bilanciatore dei carichi di lavoro nell&#39;area Risorse, a livello di progetto o di team. Per ulteriori informazioni sulla posizione del Bilanciatore dei carichi di lavoro in Workfront, consulta [Individuare il Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+   È possibile assegnare il lavoro agli utenti utilizzando il Bilanciatore dei carichi di lavoro nell&#39;area Risorse, a livello di progetto o di team. Per ulteriori informazioni sulla posizione del Bilanciatore dei carichi di lavoro in Workfront, vedere [Individuare il Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-1. (Facoltativo) Vai al **Lavoro non assegnato** e applica un filtro per visualizzare attività o problemi
+1. (Facoltativo) Vai all&#39;area **Lavoro non assegnato** e applica un filtro per visualizzare attività o problemi
 
    Oppure
 
-   Vai a **Lavoro assegnato** ed espandere il nome di un utente per visualizzare gli elementi di lavoro assegnati, se si desidera riassegnare i relativi elementi.
+   Passare all&#39;area **Lavoro assegnato** ed espandere il nome di un utente per visualizzare gli elementi di lavoro assegnati, se si desidera riassegnare i relativi elementi.
 
-1. Fai clic su **Menu Altro** ![](assets/qs-more-menu.png) a sinistra del nome di un elemento di lavoro, quindi fare clic su **Assegna a**.
+1. Fai clic sul **Altro menu** ![](assets/qs-more-menu.png) a sinistra del nome di un elemento di lavoro, quindi fai clic su **Assegna a**.
 
    ![](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 
@@ -86,7 +86,7 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 
 1. Esegui una delle operazioni seguenti:
 
-   * Inizia a digitare il nome di un utente, una mansione o un team che desideri assegnare all’elemento in **Cerca persone, ruolo o team** , selezionarlo quando viene visualizzato nell&#39;elenco, quindi fare clic su **Salva**.
+   * Inizia a digitare il nome di un utente, una mansione o un team che desideri assegnare all&#39;elemento nel campo **Cerca persone, mansione o team**, selezionalo quando viene visualizzato nell&#39;elenco, quindi fai clic su **Salva**.
 
    >[!TIP]
    >
@@ -94,14 +94,14 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
    >
    >Gli utenti devono essere associati ad almeno una mansione per visualizzarla quando vengono aggiunti.
    >
-   > Per consentire agli utenti di visualizzare le e-mail degli utenti, nel proprio livello di accesso deve essere abilitata l’impostazione Visualizza informazioni di contatto. Per informazioni, consulta [Concedere l’accesso agli utenti](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   > Per consentire agli utenti di visualizzare le e-mail degli utenti, nel proprio livello di accesso deve essere abilitata l’impostazione Visualizza informazioni di contatto. Per informazioni, vedere [Concedere l&#39;accesso agli utenti](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
    ![](assets/assignments-box-with-advanced-assignments-delegations-wb.png)
 
    >[!TIP]
    >
-   > Se l’amministratore di Workfront o di gruppo ha abilitato le deleghe nell’ambiente, utilizza la scheda Assegnazioni per assegnare gli utenti all’attività o al problema. Utilizzare la scheda Deleghe per visualizzare gli utenti delegati all&#39;elemento di lavoro. Per informazioni sulla delega del lavoro, consulta [Gestire la delega di attività e problemi](../../manage-work/delegate-work/how-to-delegate-work.md).
+   > Se l’amministratore di Workfront o di gruppo ha abilitato le deleghe nell’ambiente, utilizza la scheda Assegnazioni per assegnare gli utenti all’attività o al problema. Utilizzare la scheda Deleghe per visualizzare gli utenti delegati all&#39;elemento di lavoro. Per informazioni sulla delega del lavoro, vedere [Gestire la delega di attività e problemi](../../manage-work/delegate-work/how-to-delegate-work.md).
 
 
    In questo modo l&#39;elemento di lavoro viene assegnato o riassegnato agli assegnatari specificati.
@@ -122,18 +122,18 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
    >   
    >
 
-   * Clic **Avanzate** per accedere ad Assegnazioni avanzate.
+   * Fai clic su **Avanzate** per accedere alle assegnazioni avanzate.
 
-     Per ulteriori informazioni sull&#39;esecuzione di assegnazioni avanzate, vedere [Crea assegnazioni avanzate](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+     Per ulteriori informazioni sull&#39;esecuzione di assegnazioni avanzate, vedere [Creare assegnazioni avanzate](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
-1. (Facoltativo) Fai clic su **Mostra icona allocazioni** ![](assets/show-allocations-icon-small.png), quindi fare clic su **Menu Altro** ![](assets/qs-more-menu.png) > **Modifica allocazioni**.
+1. (Facoltativo) Fai clic sull&#39;icona **Mostra allocazioni** ![](assets/show-allocations-icon-small.png), quindi sul menu **Altro** ![](assets/qs-more-menu.png) > **Modifica allocazioni**.
 
    Oppure
 
    Fare doppio clic su un&#39;allocazione giornaliera o settimanale per modificare la quantità di tempo assegnata all&#39;elemento di lavoro.
 
-   Per informazioni sulla modifica delle allocazioni utente nel Bilanciatore dei carichi di lavoro, vedi la sezione &quot;Modifica allocazioni utente&quot; nell’articolo [Gestire le allocazioni utente nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+   Per informazioni sulla modifica delle allocazioni utente nel Bilanciatore dei carichi di lavoro, vedere la sezione &quot;Modifica allocazioni utente&quot; nell&#39;articolo [Gestione delle allocazioni utente nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
-   Per informazioni sulla rimozione delle assegnazioni da un elemento di lavoro tramite il Bilanciatore dei carichi di lavoro, vedere [Revoca assegnazione lavoro nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
+   Per informazioni sulla rimozione delle assegnazioni da un elemento di lavoro tramite il Bilanciatore dei carichi di lavoro, vedere [Annullamento dell&#39;assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
 
     

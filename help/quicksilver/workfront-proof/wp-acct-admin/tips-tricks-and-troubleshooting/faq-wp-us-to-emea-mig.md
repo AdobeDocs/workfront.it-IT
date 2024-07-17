@@ -4,30 +4,30 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: tips-tricks-and-troubleshooting-account-administration-workfront-proof
 title: "FAQ: Workfront Proof - Migrazione da Stati Uniti a area EMEA"
-description: Workfront contatta direttamente tutte le organizzazioni interessate dalla migrazione di Workfront Proof US all’area EMEA.
+description: Workfront contatta direttamente tutte le organizzazioni interessate dalla migrazione di Workfront Proof dagli Stati Uniti all'area EMEA.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d1aa69e5-f7e5-46d5-814e-e11a999e36db
 source-git-commit: 20fcf4dd07c1058559533501f7e297d78c43a70b
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
 
-# Domande frequenti: [!UICONTROL Bozza Workfront] - Migrazione dagli Stati Uniti all&#39;area EMEA
+# Domande frequenti: [!UICONTROL Workfront Proof] - Migrazione da Stati Uniti a area EMEA
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alle funzionalità del prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Bozza](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Come posso sapere se questo cambiamento influisce sulla mia organizzazione?
 
-[!DNL Workfront] contatta direttamente tutte le organizzazioni interessate dal [!DNL Workfront Proof] Migrazione dagli Stati Uniti all&#39;area EMEA.
+[!DNL Workfront] sta contattando direttamente tutte le organizzazioni interessate dalla migrazione da [!DNL Workfront Proof] Stati Uniti all&#39;area EMEA.
 
 ## C&#39;è qualcosa che devo fare per prepararmi alla migrazione?
 
-Sì. Prima della migrazione, accertati di aggiungere quanto segue al inserisco nell&#39;elenco Consentiti di dell’organizzazione:
+Sì. Prima della migrazione, accertati di aggiungere quanto segue al inserisco nell&#39;elenco Consentiti di della tua organizzazione:
 
 **[!DNL webcapture.proofhq.eu]**
 
@@ -39,15 +39,15 @@ Al termine della migrazione dell’account, inizieremo a spostare tutti i file d
 
 Una volta completata la migrazione, gli utenti potranno accedere ai file e alle bozze solo dal data center dell’area EMEA.
 
-## Cosa succederà all’URL a cui accedo [!DNL Workfront Proof]?
+## Cosa succederà all&#39;URL che utilizzo per accedere a [!DNL Workfront Proof]?
 
-Questo URL rimarrà invariato. Potrai accedere al [!DNL Workfront] esattamente come in passato.
+Questo URL rimarrà invariato. Sarà possibile accedere al sistema [!DNL Workfront] esattamente come è stato fatto in passato.
 
 ## Posso ancora usare i miei vecchi link di bozza e segnalibri?
 
-I segnalibri specifici della bozza non funzioneranno più dopo la migrazione. Chiunque ne utilizzi uno riceverà un messaggio che fornisce l’accesso alla bozza tramite un [!UICONTROL Vai alla bozza] pulsante:
+I segnalibri specifici della bozza non funzioneranno più dopo la migrazione. Chiunque ne utilizzi uno riceverà un messaggio che fornisce l&#39;accesso alla bozza tramite il pulsante [!UICONTROL Vai alla bozza]:
 
-![This_proof_has_been_migrated.png](assets/this-proof-has-been-migrated-350x361.png)
+![Questa_bozza_è_stata_migrata.png](assets/this-proof-has-been-migrated-350x361.png)
 
 ## Il mio nome utente e la mia password rimarranno gli stessi di prima?
 
@@ -61,4 +61,4 @@ Se hai un altro account USA con cui hai rapporti e hai l’obbligo di mantenere 
 
 ## Cosa succede se utilizzo SSO sul mio account?
 
-Se utilizzi l’SSO sull’account della bozza, dovrai riconfigurare l’account per utilizzare il nuovo [!DNL proofhq.eu] dominio.
+Se si utilizza SSO sull&#39;account di verifica, sarà necessario riconfigurare l&#39;account per utilizzare il nuovo dominio [!DNL proofhq.eu].

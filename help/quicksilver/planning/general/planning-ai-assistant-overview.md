@@ -28,7 +28,7 @@ ht-degree: 0%
 >
 >Il rappresentante del tuo account ti informerà se partecipi a questa fase.
 >
->Per ulteriori informazioni, consulta [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+>Per ulteriori informazioni, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 È possibile utilizzare l&#39;Assistente AI per generare, aggiornare o rimuovere record in base al contesto della pagina corrente e alla struttura dei record.
 
@@ -38,7 +38,7 @@ I comandi dell’utente e l’esecuzione di tali comandi da parte dell’IA coll
 
 * Per impostazione predefinita, l’Assistente IA è disponibile per gli amministratori di Workfront.
 
-* L’amministratore di Workfront deve abilitare l’Assistente AI per tutti gli altri utenti. Per ulteriori informazioni, consulta [Attivare o disattivare l&#39;Assistente AI](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+* L’amministratore di Workfront deve abilitare l’Assistente AI per tutti gli altri utenti. Per ulteriori informazioni, vedere [Attivare o disattivare l&#39;Assistente AI](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
 * L’Assistente AI funziona nel contesto di ogni pagina. Le richieste inviate per l&#39;Assistente AI devono fare riferimento alla funzionalità disponibile nella pagina aperta.
 
@@ -72,15 +72,15 @@ In questo momento, puoi utilizzare l’Assistente IA per eseguire le seguenti az
 
 ## Accedere all’Assistente AI
 
-1. Accedi a Workfront, quindi vai a **Pianificazione** area.
+1. Accedi a Workfront, quindi vai all&#39;area **Planning**.
 
-1. Fai clic su un **scheda area di lavoro**.
+1. Fai clic su una **scheda dell&#39;area di lavoro**.
 
-1. (Facoltativo) Fai clic su **tipo di record scheda**.
+1. (Facoltativo) Fai clic su una **scheda del tipo di record**.
 
-1. (Facoltativo) Fai clic su **record** per aprire il record **Dettagli** pagina.
+1. (Facoltativo) Fai clic su un **record** per aprire la pagina **Dettagli** del record.
 
-1. Fai clic su **Icona Assistente AI** nell’angolo in alto a destra dello schermo nella barra di navigazione globale.
+1. Fare clic sull&#39;icona **Assistente AI** nell&#39;angolo superiore destro della schermata nella barra di navigazione globale.
 
    ![](assets/ai-assistant-icon-highlighted.png)
 

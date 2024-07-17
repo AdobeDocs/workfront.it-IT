@@ -5,7 +5,8 @@ title: Creare un rapporto KPI in un dashboard Area di lavoro
 description: È possibile aggiungere a un dashboard Canvas un rapporto KPI che visualizzi in modo evidente un singolo indicatore KPI aggregato.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
+source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 È possibile aggiungere a un dashboard Canvas un rapporto KPI che visualizzi in modo evidente un singolo indicatore KPI aggregato.
 
-Per informazioni generali sull’aggiunta e la disposizione dei rapporti su un dashboard Area di lavoro, consulta [Aggiungere, rimuovere o disporre i rapporti in un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
+Per informazioni generali sull&#39;aggiunta e la disposizione dei report in un dashboard Canvas, vedere [Aggiungere, rimuovere o disporre report in un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
 
 ## Requisiti di accesso
 
@@ -49,4 +50,4 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 >[!IMPORTANT]
 >
->Questo articolo non è ancora finito. Consulta le istruzioni generali per aggiungere un rapporto a un dashboard di Canvas nell’articolo [Aggiungere, rimuovere o disporre i rapporti in un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
+>Questo articolo non è ancora finito. Fare riferimento alle istruzioni generali per l&#39;aggiunta di un report a un dashboard Canvas nell&#39;articolo [Aggiungere, rimuovere o disporre report in un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).

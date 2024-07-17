@@ -2,8 +2,8 @@
 content-type: tips-tricks-troubleshooting;reference
 product-previous: mobile
 navigation-topic: mobile-apps
-title: Suggerimenti, trucchi e risoluzione dei problemi per [!DNL Adobe Workfront] App mobili
-description: Suggerimenti, trucchi e risoluzione dei problemi per [!DNL Adobe Workfront] App mobili
+title: Suggerimenti, trucchi e risoluzione dei problemi per [!DNL Adobe Workfront] app mobili
+description: Suggerimenti, trucchi e risoluzione dei problemi per [!DNL Adobe Workfront] app mobili
 author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
@@ -15,8 +15,8 @@ ht-degree: 0%
 
 ---
 
-# Suggerimenti, trucchi e risoluzione dei problemi per [!DNL Adobe Workfront] App mobili
+# Suggerimenti, trucchi e risoluzione dei problemi per le app mobili [!DNL Adobe Workfront]
 
 Questa sezione contiene i seguenti articoli:
 
-* [Messaggio di errore sul [!DNL Adobe Workfront] App mobile: &quot;[!UICONTROL Il tuo account non è abilitato per le API.]&quot;](../../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
+* [Messaggio di errore sull&#39;app mobile  [!DNL Adobe Workfront] : &quot;[!UICONTROL Il tuo account non è abilitato per le API.]&quot;](../../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)

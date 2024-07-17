@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Attività sulla versione 2018.3 Beta 4
-description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.3 Beta 4. La funzionalità sarà disponibile nell’ambiente di anteprima il 30 agosto 2018. Sarà disponibile nell’ambiente di produzione a novembre 2018.
+title: Attività sulla versione 2018.3 di Beta 4
+description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.3 di Beta 4. La funzionalità sarà disponibile nell’ambiente di anteprima il 30 agosto 2018. Sarà disponibile nell’ambiente di produzione a novembre 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,28 +14,28 @@ ht-degree: 0%
 
 ---
 
-# Attività sulla versione 2018.3 Beta 4
+# Attività sulla versione 2018.3 di Beta 4
 
-Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.3 Beta 4. La funzionalità sarà disponibile nell’ambiente di anteprima il 30 agosto 2018. Sarà disponibile nell’ambiente di produzione a novembre 2018.
+Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.3 di Beta 4. La funzionalità sarà disponibile nell’ambiente di anteprima il 30 agosto 2018. Sarà disponibile nell’ambiente di produzione a novembre 2018.
 
-Per un elenco di tutte le modifiche apportate nel 2018.3, consulta  [Panoramica sull’attività della versione 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Per un elenco di tutte le modifiche apportate nel 2018.3, consulta  Panoramica sull&#39;attività della versione di [2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
-La versione 2018.3 Beta 4 contiene miglioramenti sia per gli amministratori di Workfront che per altri utenti:
+La versione 2018.3 di Beta 4 contiene miglioramenti sia per gli amministratori di Workfront che per altri utenti:
 
-**Per gli amministratori**
+**Per Amministratori**
 
-* [Aggiornare la struttura di reporting nel profilo utente come amministratore di gruppo](#update-reporting-structure-in-the-user-profile-as-a-group-administrator) 
+* [Aggiorna la struttura di reporting nel profilo utente come amministratore di gruppo](#update-reporting-structure-in-the-user-profile-as-a-group-administrator) 
 
-**Per tutti gli utenti**
+**Per Tutti Gli Utenti**
 
 * [Esporta ulteriori informazioni dalla programmazione delle risorse](#export-more-information-from-the-resource-planner)
-* [Miglioramenti all’elenco delle attività](#task-list-improvements) Rimosso dalla versione
-* [Miglioramenti all’elenco dei progetti](#project-list-improvements)
-* [Modifica dell&#39;elenco delle attività in modalità di modifica del diagramma di Gantt](#editing-the-task-list-in-gantt-chart-edit-mode) Rimosso dalla versione
+* [Miglioramenti all&#39;elenco attività](#task-list-improvements) rimossi dalla versione
+* [Miglioramenti all&#39;elenco dei progetti](#project-list-improvements)
+* [Modifica dell&#39;elenco attività in modalità di modifica del grafico Gantt](#editing-the-task-list-in-gantt-chart-edit-mode) rimossa dalla versione
 * [Colori strumenti di misurazione](#measurement-tool-colors)
-* [Bozze aperte in una nuova scheda](#proofs-open-in-a-new-tab)  Rimosso dalla versione
+* [Bozze aperte in una nuova scheda](#proofs-open-in-a-new-tab) rimosse dalla versione
 
-* [Miglioramenti di Stampa riepilogo](#print-summary-enhancements)
+* [Miglioramenti di Riepilogo stampa](#print-summary-enhancements)
 * [Tempo di connessione in giorni nell’app mobile di Workfront](#log-time-in-days-in-the-workfront-mobile-app)
 
 ## Aggiornare la struttura di reporting nel profilo utente come amministratore di gruppo {#update-reporting-structure-in-the-user-profile-as-a-group-administrator}
@@ -44,7 +44,7 @@ Gli amministratori dei gruppi ora possono modificare i campi Report diretti e Re
 
 In precedenza, solo gli amministratori di Workfront e gli utenti con accesso amministrativo agli utenti disponevano di tale capacità.
 
-Per informazioni sugli amministratori di gruppi, consulta [Amministratori di gruppi](../../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+Per informazioni sugli amministratori di gruppi, vedere [Amministratori di gruppi](../../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
 
 ## Esporta ulteriori informazioni dalla programmazione delle risorse {#export-more-information-from-the-resource-planner}
 
@@ -52,7 +52,7 @@ Per informazioni sugli amministratori di gruppi, consulta [Amministratori di gru
 
 In precedenza era possibile esportare solo fino a un massimo di 4 settimane, mesi o trimestri alla volta.
 
-Per ulteriori informazioni, vedere [Esporta informazioni dalla Programmazione risorse](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
+Per ulteriori informazioni, vedere [Esportare informazioni dalla Programmazione risorse](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
 
 ## Miglioramenti all’elenco delle attività {#task-list-improvements}
 
@@ -82,7 +82,7 @@ La seguente funzionalità è stata modificata negli elenchi di attività:
 
 Per ulteriori informazioni sull&#39;utilizzo degli elenchi, vedere [Introduzione agli elenchi in Adobe Workfront](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-Per ulteriori informazioni sulle operazioni di concatenamento nel diagramma di Gantt, vedere [Creare relazioni predecessori concatenando attività](../../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md).
+Per ulteriori informazioni sul concatenamento delle attività nel diagramma di Gantt, vedere [Creare relazioni predecessore concatenando attività](../../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md).
 
 ## Miglioramenti all’elenco dei progetti {#project-list-improvements}
 
@@ -112,7 +112,7 @@ Anche se puoi vedere in che modo le modifiche influiscono sulla timeline del pro
 
 In precedenza, non era possibile eseguire queste azioni sulle attività visualizzate nella modalità di modifica del diagramma di Gantt. Potevi apportare queste modifiche in un elenco di attività che non veniva visualizzato nel diagramma di Gantt, ma che era immediato.
 
-Per informazioni sulla modifica delle attività nel Diagramma di Gantt, vedere [Aggiorna informazioni nell&#39;elenco delle attività Diagramma di Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+Per informazioni sulla modifica delle attività nel Diagramma di Gantt, vedere [Aggiornare le informazioni nell&#39;elenco delle attività Diagramma di Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
 
 ## Colori strumenti di misurazione {#measurement-tool-colors}
 
@@ -150,7 +150,7 @@ Nella pagina Riepilogo stampa sono ora disponibili i seguenti miglioramenti quan
 
   In precedenza, le fasi non venivano incluse.
 
-Per ulteriori informazioni, consulta [Stampare un riepilogo delle bozze in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md).
+Per ulteriori informazioni, vedere [Stampare un riepilogo delle bozze in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md).
 
 ## Tempo di connessione in giorni nell’app mobile di Workfront {#log-time-in-days-in-the-workfront-mobile-app}
 
@@ -160,4 +160,4 @@ In precedenza, era possibile registrare il tempo utilizzando solo le ore nell’
 
 Per ulteriori informazioni sul tempo di registrazione nell’app mobile, consulta . 
 
-Questa funzione è immediatamente disponibile per il test con l&#39;app Android Beta. 
+Questa funzione è immediatamente disponibile per il test con l’app Android Beta. 

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutte le integrazioni e i miglioramenti per dispositivi mobili effettuati con la versione 20.3 nell’ambiente di produzione. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana del 10 agosto 2020.
 
-Per un elenco di tutte le modifiche disponibili con la versione 20.3, consulta [Panoramica sulla versione 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 20.3, consulta la [panoramica sulla versione 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Workfront Fusion 2.0 è disponibile.
 
@@ -26,15 +26,15 @@ Workfront ha recentemente acquisito la tecnologia per una nuova generazione di W
 
 I precedenti clienti di Workfront Fusion possono aspettarsi maggiore potenza, velocità, usabilità e prevedibilità in Workfront Fusion 2.0. Stiamo eseguendo la migrazione degli attuali clienti Workfront Fusion a Workfront Fusion 2.0. Per ulteriori informazioni, contatta il responsabile del tuo account.
 
-Per ulteriori informazioni, consulta [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
+Per ulteriori informazioni, vedere [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
 
 ## Workfront per MobileIron
 
 Workfront ha stretto una partnership con MobileIron, una piattaforma di gestione dei dispositivi mobili (MDM), per fornire alle organizzazioni un&#39;esperienza mobile più sicura e controllata.
 
-Con Workfront per MobileIron, gli amministratori possono limitare elementi come la funzionalità di copia/incolla e le acquisizioni dello schermo. Puoi scaricare l’app Workfront for MobileIron all’indirizzo [https://marketplace.mobileiron.com/listing/workfront](https://marketplace.mobileiron.com/listing/workfront).
+Con Workfront per MobileIron, gli amministratori possono limitare elementi come la funzionalità di copia/incolla e le acquisizioni dello schermo. Puoi scaricare l&#39;app Workfront per MobileIron all&#39;indirizzo [https://marketplace.mobileiron.com/listing/workfront](https://marketplace.mobileiron.com/listing/workfront).
 
-Per informazioni sulla configurazione dell&#39;app, vedi [Configurare Adobe Workfront per MobileIron](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
+Per informazioni sulla configurazione dell&#39;app, vedere [Configurare Adobe Workfront per MobileIron](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
 
 ## Nuovo Virtual Assistant per dispositivi mobili
 
@@ -52,5 +52,5 @@ Blocca comandi
 
 È possibile utilizzare la funzione pin per accedere ai comandi dell&#39;assistente virtuale salvati e ai pin dal browser Web.
 
-**Nota: l’Assistente virtuale mobile è diventato obsoleto ad aprile 2024.**
+**Nota: l&#39;Assistente virtuale per dispositivi mobili è stato dichiarato obsoleto ad aprile 2024.**
 

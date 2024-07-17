@@ -20,11 +20,11 @@ ht-degree: 0%
 Questa sezione contiene i seguenti articoli:
 
 * [Panoramica sui team](../../people-teams-and-groups/create-and-manage-teams/teams-overview.md)
-* [Creare un team](../../people-teams-and-groups/create-and-manage-teams/create-a-team.md)
-* [Creare e gestire i team Agile](../../people-teams-and-groups/create-and-manage-teams/create-and-manage-agile-teams.md)
+* [Crea un team](../../people-teams-and-groups/create-and-manage-teams/create-a-team.md)
+* [Crea e gestisci team Agile](../../people-teams-and-groups/create-and-manage-teams/create-and-manage-agile-teams.md)
 * [Modifica impostazioni team](../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md)
-* [Gestire il lavoro del team](../../people-teams-and-groups/create-and-manage-teams/manage-what-your-team-is-working-on.md)
+* [Gestisci il lavoro del tuo team](../../people-teams-and-groups/create-and-manage-teams/manage-what-your-team-is-working-on.md)
 * [Disattivare un team](../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md)
-* [Configurare [!UICONTROL Fine] pulsante per le attività](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
-* [Configurare [!UICONTROL Fine] pulsante per problemi](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
-* [Sostituisci il [!UICONTROL Lavoraci] con un pulsante [!UICONTROL Inizio] pulsante](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)
+* [Configura il pulsante [!UICONTROL Fine] per le attività](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
+* [Configura il pulsante [!UICONTROL Fine] per i problemi](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
+* [Sostituisci il pulsante [!UICONTROL Lavoraci] con un pulsante [!UICONTROL Avvia]](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)

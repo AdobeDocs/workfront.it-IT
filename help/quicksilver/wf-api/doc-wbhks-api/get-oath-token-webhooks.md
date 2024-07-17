@@ -10,8 +10,8 @@ role: Developer
 exl-id: f3a2630d-d34e-4d36-b2bb-707ba0d3258e
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 5%
+source-wordcount: '253'
+ht-degree: 3%
 
 ---
 
@@ -72,7 +72,7 @@ L’URL è configurabile e corrisponde al valore dell’URL dell’endpoint del 
 
  
 
-## risposta
+## Risposta
 
 <table style="table-layout:auto">
  <col>
@@ -114,7 +114,7 @@ client_id=123456
 client_secret=6asdf7a7a9a4af
 ```
 
-## risposta
+## Risposta
 
 ```
 {

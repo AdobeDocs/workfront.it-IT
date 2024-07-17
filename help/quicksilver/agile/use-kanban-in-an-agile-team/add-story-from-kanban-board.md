@@ -1,7 +1,7 @@
 ---
 product-area: agile-and-teams;projects;user-management
 navigation-topic: use-kanban-in-an-agile-team
-title: Aggiungere storie e problemi dalla bacheca Kanban
+title: Aggiungi storie e problemi dal Kanban Board
 description: Puoi creare rapidamente una nuova storia o un nuovo problema direttamente dalla bacheca Kanban.
 author: Lisa
 feature: Agile
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# Aggiungi storie e problemi dal [!UICONTROL Kanban] bacheca
+# Aggiungi storie e problemi dalla bacheca [!UICONTROL Kanban]
 
-Puoi creare rapidamente una nuova storia o un nuovo problema direttamente dal [!UICONTROL Kanban] consiglio di amministrazione.
+Puoi creare rapidamente una nuova storia o un nuovo problema direttamente dalla bacheca [!UICONTROL Kanban].
 
 ## Requisiti di accesso
 
@@ -31,44 +31,44 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>[!UICONTROL Work] o superiore</p> </td> 
+   <td> <p>[!UICONTROL Work] o versione successiva</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurazioni a livello di accesso*</strong></td> 
-   <td> <p>[!UICONTROL Worker] o superiore</p> <p>Nota: Se non hai ancora accesso, chiedi [!DNL Workfront] amministratore se imposta ulteriori restrizioni nel livello di accesso. Per informazioni su come [!DNL Workfront] l'amministratore può modificare il livello di accesso, vedi <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
+   <td> <p>[!UICONTROL Worker] o versione successiva</p> <p>Nota: se non disponi ancora dell'accesso, chiedi all'amministratore [!DNL Workfront] se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di [!DNL Workfront] può modificare il tuo livello di accesso, vedi <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>[!UICONTROL Gestisci] accesso all'attività o al problema</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Accesso [!UICONTROL Gestisci] all'attività o al problema</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
 
-## Crea nuova storia o problema dalla bacheca Kanban
+## Crea nuova storia o problema dal Kanban Board
 
-1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Team]**.
-1. (Facoltativo) Fai clic sul pulsante **[!UICONTROL Cambia team]** icona ![Icona Cambia team](assets/switch-team-icon.png), quindi seleziona un nuovo [!UICONTROL Kanban] dal menu a discesa o cerca un team nella barra di ricerca.
-1. Fai clic su **[!UICONTROL Aggiungi]** sul lato destro della scheda Kanban e selezionare **[!UICONTROL Nuova storia]** o **[!UICONTROL Nuovo problema]**.
-1. In **[!UICONTROL Nuovo]** aggiungere le seguenti informazioni nella finestra di dialogo:
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Team]**.
+1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Cambia team](assets/switch-team-icon.png), quindi seleziona un nuovo team di [!UICONTROL Kanban] dal menu a discesa o cerca un team nella barra di ricerca.
+1. Fai clic su **[!UICONTROL Aggiungi]** sul lato destro della bacheca Kanban e seleziona **[!UICONTROL Nuova storia]** o **[!UICONTROL Nuovo problema]**.
+1. Nella finestra di dialogo **[!UICONTROL Nuovo]**, aggiungi le seguenti informazioni:
 
    <table style="table-layout:auto">
     <tr>
         <td><strong>[!UICONTROL Name]</strong></td>
-        <td>(Obbligatorio) Il nome della storia o del problema.</td>
+        <td>(Obbligatorio) Nome della storia o del problema.</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL Descrizione]</strong></td>
         <td>Descrizione dell'elemento.</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Estimate]</strong></td>
-        <td>Numero stimato di ore o punti per l'elemento.</td>
+        <td><strong>[!UICONTROL Stima]</strong></td>
+        <td>Il numero stimato di ore o punti per l’articolo.</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Progetto padre]</strong></td>
-        <td>(Obbligatorio) Il progetto in cui viene memorizzato il nuovo brano o problema. Inizia a digitare il nome di un progetto, quindi selezionalo quando viene visualizzato nell’elenco.</td>
+        <td><strong>Progetto padre [!UICONTROL]</strong></td>
+        <td>(Obbligatorio) Il progetto in cui è memorizzato il nuovo brano o problema. Inizia a digitare il nome di un progetto, quindi selezionalo quando viene visualizzato nell’elenco.</td>
     </tr>
    </table>
 

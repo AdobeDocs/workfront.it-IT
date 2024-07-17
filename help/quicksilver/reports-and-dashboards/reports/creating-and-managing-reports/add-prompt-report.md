@@ -19,7 +19,7 @@ ht-degree: 0%
 
 I filtri e i prompt sono simili in quanto limitano la quantità di informazioni visualizzate in un report.
 
-Creare un filtro quando si desidera che le informazioni visualizzate nel report vengano filtrate in base agli stessi criteri ogni volta che si esegue il report. I filtri vengono generati una volta e sono inseriti direttamente nel rapporto. Per ulteriori informazioni sulla creazione di filtri, consulta l’articolo [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Creare un filtro quando si desidera che le informazioni visualizzate nel report vengano filtrate in base agli stessi criteri ogni volta che si esegue il report. I filtri vengono generati una volta e sono inseriti direttamente nel rapporto. Per ulteriori informazioni sulla creazione di filtri, vedere l&#39;articolo [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 I prompt sono filtri aperti che possono essere personalizzati e applicati in modo diverso ogni volta che si esegue un report.
 
@@ -57,31 +57,31 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Prerequisiti
 
 È necessario creare un report prima di aggiungervi un prompt.
 
-Per istruzioni sulla creazione di un rapporto, consulta [Creare un rapporto](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)
+Per istruzioni sulla creazione di un report, vedere [Creare un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)
 
 ## Crea un prompt
 
 1. Passare al report in cui si desidera aggiungere un prompt.
-1. Espandi **Azioni report** e quindi fare clic su **Modifica**.
+1. Espandere **Azioni report**, quindi fare clic su **Modifica**.
 
-1. Clic **Impostazioni dei rapporti**.
-1. In **Prompt dei report** , fare clic su **Aggiungi una richiesta**.\
+1. Fare clic su **Impostazioni report**.
+1. Nell&#39;area **Prompt dei report**, fare clic su **Aggiungi un prompt**.\
    ![](assets/qs-add-a-prompt-350x216.png)
 
 1. (Condizionale) Seleziona il campo su cui desideri basare il prompt. Inizia a digitare il nome del campo e fai clic su per selezionarlo quando viene visualizzato nell’elenco.\
    Le opzioni disponibili per gli utenti che eseguono il rapporto variano a seconda del campo selezionato.\
-   Ad esempio, se si seleziona un campo data, ad esempio Data di completamento effettiva in un report attività, &quot;Data di completamento effettiva&quot; è il nome del prompt. Quando modifichi questo prompt durante l’esecuzione del report, puoi scegliere da un set di modificatori per creare l’istruzione di filtro. Questo processo è identico alla creazione di un filtro. Per ulteriori informazioni sui modificatori, consulta [Modificatori di filtri e condizioni](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Ad esempio, se si seleziona un campo data, ad esempio Data di completamento effettiva in un report attività, &quot;Data di completamento effettiva&quot; è il nome del prompt. Quando modifichi questo prompt durante l’esecuzione del report, puoi scegliere da un set di modificatori per creare l’istruzione di filtro. Questo processo è identico alla creazione di un filtro. Per ulteriori informazioni sui modificatori, vedere [Filtri e modificatori di condizioni](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
 1. (Condizionale) Fai clic su **Prompt personalizzato** per creare un prompt personalizzato.
 
@@ -92,12 +92,12 @@ Per istruzioni sulla creazione di un rapporto, consulta [Creare un rapporto](../
    Specificare le seguenti informazioni per il prompt personalizzato: La condizione di un prompt personalizzato può essere modificata solo utilizzando la modalità testo. Questo consente di applicare più condizioni in un singolo campo.
 
    * **Nome campo:** Questo è il nome del prompt visualizzato prima dell&#39;esecuzione del report.
-   * **Etichetta:** Questo è il nome di una delle opzioni all&#39;interno del prompt visualizzato prima di eseguire il report.
-   * **Condizione:** Immetti una condizione che definisca il prompt.
+   * **Etichetta:** Questo è il nome di una delle opzioni all&#39;interno del prompt visualizzato prima dell&#39;esecuzione del report.
+   * **Condizione:** Immettere una condizione che definisce il prompt.
 
-   Utilizza la stessa sintassi che utilizzeresti quando inserisci un filtro in modalità testo e unisci le istruzioni con &quot;&amp;&quot;. Per ulteriori informazioni sulla modifica di un filtro in modalità testo, consulta [Modificare un filtro utilizzando la modalità testo](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
+   Utilizza la stessa sintassi che utilizzeresti quando inserisci un filtro in modalità testo e unisci le istruzioni con &quot;&amp;&quot;. Per ulteriori informazioni sulla modifica di un filtro in modalità testo, vedere [Modificare un filtro in modalità testo](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
-   Ad esempio, il **Condizione** del prompt personalizzato per i seguenti scenari potrebbe essere simile al seguente:
+   Ad esempio, il campo **Condizione** del prompt personalizzato per i seguenti scenari potrebbe essere simile al seguente:
 
    * tutte le attività su progetti futuri in cui lo stato del progetto è Idea, Richiesto, Pianificato e Corrente:
 
@@ -111,14 +111,14 @@ Per istruzioni sulla creazione di un rapporto, consulta [Creare un rapporto](../
      project:actualCompletionDate=$$TODAY&project:actualCompletionDate_Mod=lte&project:status=CPL,DED&project:status_Mod=in
      ```
 
-   Per ulteriori informazioni sui modificatori della modalità testo, vedere [Modificatori di filtri e condizioni](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Per ulteriori informazioni sui modificatori della modalità testo, vedere [Filtri e modificatori di condizione](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
    >[!NOTE]
    >
    >Non è possibile modificare le condizioni di un prompt personalizzato quando si esegue il report, come si farebbe con un prompt standard. Per un prompt personalizzato è possibile impostare tutte le condizioni predefinite necessarie.
 
 1. (Facoltativo) Ripetete il passo 4 o il passo 5 per creare tutte le richieste necessarie.
-1. Clic **Fine**, quindi fai clic su **Salva+Chiudi** per salvare il rapporto.
+1. Fai clic su **Fine**, quindi fai clic su **Salva+Chiudi** per salvare il report.
 
 ## Applicare un prompt a un report
 
@@ -130,7 +130,7 @@ Per eseguire un report con un prompt:
 
    ![](assets/qs-prompt-drop-downs-350x229.png)
 
-1. Scegli una condizione per uno o tutti i prompt visualizzati sul **Prompt** scheda.\
+1. Scegli una condizione per uno o tutti i prompt visualizzati nella scheda **Prompts**.\
    (Facoltativo) Puoi lasciare vuoti i prompt e non filtrare il rapporto in base alle condizioni dei prompt.
 
 1. Fai clic su **Esegui rapporto**.\
@@ -151,7 +151,7 @@ Di seguito sono riportate le limitazioni relative alla condivisione dei rapporti
 
 * Quando si condivide un report pubblicamente, gli utenti non possono eseguirlo applicando il prompt, a meno che non dispongano delle credenziali di Workfront e accedano prima per visualizzare il report in Workfront.
 
-  Per ulteriori informazioni sulla condivisione dei rapporti, consulta l’articolo [Condividere un rapporto in Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
+  Per ulteriori informazioni sulla condivisione di report, vedere l&#39;articolo [Condividere un report in Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
 * Quando pianifichi la consegna di un rapporto richiesto, il rapporto nell’allegato e-mail include i dati del rapporto omesso. Quando l’utente fa clic sul collegamento nell’e-mail per accedere al rapporto, deve prima accedere per visualizzare il rapporto ed eseguire personalmente il prompt.
 
-  Per informazioni sulla programmazione di un rapporto consegnato, vedere [Pianificare la consegna automatica dei rapporti](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+  Per informazioni sulla pianificazione di un report consegnato, vedere [Pianificare la consegna automatica di un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).

@@ -20,11 +20,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alle funzionalità del prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Bozza](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
 Questa sezione contiene i seguenti articoli:
 
-* [Apertura di una verifica in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/open-proof.md)
+* [Apertura di una bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/open-proof.md)
 * [Rivedere un flusso di lavoro nel visualizzatore di bozze](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-workflow.md)
 * [Rivedere una bozza contemporaneamente con più revisori](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proof-with-multiple-reviewers.md)
 * [Visualizzare l’attività su una bozza nel visualizzatore di bozze](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-activity-on-a-proof.md)
@@ -32,5 +32,5 @@ Questa sezione contiene i seguenti articoli:
 * [Confronta bozze nel visualizzatore di bozze](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)
 * [Visualizzare le versioni precedenti della bozza nel visualizzatore bozze web](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md)
 * [Download di una bozza nel visualizzatore di bozze](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/download-proof.md)
-* [Scelte rapide da tastiera [!DNL Workfront Proof] visualizzatore di bozze](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
+* [Scelte rapide da tastiera nel visualizzatore  [!DNL Workfront Proof]  di bozze](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
 * [Visualizzatore di bozze legacy rimosso](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/lpv-removed.md)

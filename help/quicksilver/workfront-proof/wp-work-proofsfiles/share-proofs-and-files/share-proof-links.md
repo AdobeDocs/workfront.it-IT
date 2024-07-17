@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
-title: Condividere collegamenti a prova di prova in Workfront
-description: Puoi inviare a chiunque, indipendentemente dal fatto che abbiano o meno una bozza tramite e-mail l’URL di prova e l’URL di download [!DNL Workfront Proof] conto. Per informazioni sull’URL di prova e sull’URL di download, consulta Condividere l’URL pubblico in Proof Workfront e scaricare i file archiviati in Workfront Proof.
+title: Condividere collegamenti alle bozze in Workfront Proof
+description: Puoi inviare l'URL di bozza e l'URL di download per una bozza a chiunque, che disponga o meno di un account  [!DNL Workfront Proof] . Per informazioni sull’URL di bozza e l’URL di download, consulta Condividere l’URL pubblico in Workfront Proof e scaricare i file memorizzati in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: aa3fd399-6381-4118-a64a-a331784b4854
@@ -14,44 +14,43 @@ ht-degree: 0%
 
 ---
 
-# Condividere collegamenti a bozza in [!DNL Workfront Proof]
+# Condividi collegamenti bozza in [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alla funzionalità del prodotto standalone [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Copertura](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
-Puoi inviare a chiunque, indipendentemente dal fatto che abbiano o meno una bozza tramite e-mail l’URL di prova e l’URL di download [!DNL Workfront Proof] conto. Per informazioni sull’URL di prova e sull’URL di download, consulta [Condividi l’URL pubblico in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md) e [Scarica i file archiviati in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md).
+È possibile inviare tramite e-mail l&#39;URL di bozza e l&#39;URL di download per una bozza a chiunque, indipendentemente dal fatto che disponga di un account [!DNL Workfront Proof]. Per informazioni sull&#39;URL di verifica e l&#39;URL di download, vedere [Condividere l&#39;URL pubblico in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md) e [Scaricare i file archiviati in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md).
 
-Le persone che non sono state aggiunte alla bozza e la visualizzano utilizzando l’URL della bozza non verranno aggiunte al flusso di lavoro sulla bozza e avranno accesso in sola lettura alla bozza. Per informazioni sull&#39;accesso in sola lettura, vedi [Gestisci ruoli di bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+Le persone che non sono state aggiunte alla bozza e che la visualizzano utilizzando l’URL bozza non verranno aggiunte al flusso di lavoro sulla bozza e avranno accesso in sola lettura alla bozza. Per informazioni sull&#39;accesso in sola lettura, vedere [Gestione dei ruoli di bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
-Tuttavia, sarà disponibile l’opzione di accesso. Quindi, se un destinatario è già stato aggiunto alla bozza, può semplicemente inserire i propri dettagli e poi sarà in grado di fare commenti/decisioni (a seconda del ruolo esistente).
+Tuttavia, sarà disponibile l’opzione per effettuare l’accesso. Quindi, se un destinatario è già stato aggiunto alla bozza, può semplicemente inserire i propri dettagli e quindi sarà in grado di fare commenti/decisioni (a seconda del suo ruolo esistente).
 
-Se l’impostazione Iscrizione è abilitata sulla bozza, qualsiasi destinatario che non vi sia stato aggiunto può effettuare l’abbonamento (aggiungere) alla bozza. Vedi [Iscriviti a una bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) per ulteriori informazioni.
+Se l’impostazione Abbonamento è abilitata sulla bozza, tutti i destinatari che non sono stati aggiunti alla bozza possono abbonarsi (aggiungere) alla bozza. Per ulteriori informazioni, consulta [Abbonati a una bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md).
 
 >[!NOTE]
 >
->* Se il download del file originale è disattivato nella bozza, viene condiviso solo l’URL della bozza. Se la condivisione pubblica è disabilitata ma il file originale è abilitato, i revisori riceveranno solo il collegamento di download nell’e-mail. Per ulteriori informazioni, consulta [Scarica i file memorizzati in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md).
->* Le persone con cui condividi il collegamento della bozza non vengono visualizzate nella sezione Flusso di lavoro della pagina dei dettagli della bozza. Per ulteriori informazioni, consulta [Gestisci dettagli bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
->* Se le iscrizioni non sono state abilitate sulla bozza e la persona non è già stata aggiunta alla bozza, potrà solo visualizzare la bozza in modalità di sola lettura.
+>* Se il download del file originale è disabilitato nella bozza, viene condiviso solo l’URL della bozza. Se la condivisione pubblica è disabilitata ma il download del file originale è abilitato, i revisori riceveranno solo il collegamento di download nell’e-mail. Per ulteriori informazioni, vedere [Download dei file archiviati in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md).
+>* Le persone con cui condividi il collegamento bozza non vengono visualizzate nella sezione Flusso di lavoro della pagina Dettagli bozza. Per ulteriori informazioni, consulta [Gestire i dettagli della bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+>* Se gli abbonamenti non sono stati abilitati nella bozza e l’utente non è già stato aggiunto alla bozza, potrà visualizzarla solo in modalità di sola lettura.
 >
 
 
 
+Per condividere i collegamenti delle bozze:
 
-Per condividere collegamenti di prova:
+1. Nell&#39;elenco Dashboard o in qualsiasi visualizzazione, fai clic sul menu **[!UICONTROL Altro]** (tre punti) all&#39;estrema destra della bozza, quindi fai clic su **[!UICONTROL Condividi collegamenti bozza]** nella freccia a discesa.
 
-1. Nell&#39;elenco Dashboard o Visualizzazioni fare clic sul pulsante **[!UICONTROL Altro]** (tre punti) all’estrema destra della bozza, quindi fai clic su **[!UICONTROL Condividere i collegamenti di prova]** sulla freccia a discesa.
+1. Nella casella **[!UICONTROL Condividi collegamenti bozza]** visualizzata eseguire una delle operazioni seguenti:
 
-1. In **[!UICONTROL Condividere i collegamenti di prova]** che viene visualizzato, eseguire una delle operazioni seguenti:
-
-   * Specifica se desideri condividere l’URL di prova o l’URL di download.
-   * Aggiungi le persone con cui desideri condividere i collegamenti digitandone l’indirizzo e-mail.
+   * Specifica se desideri condividere l’URL di bozza o l’URL di download.
+   * Aggiungi le persone con cui vuoi condividere i collegamenti digitando il loro indirizzo e-mail.
    * (Facoltativo) Aggiungi un messaggio personalizzato all’e-mail.
 
 1. Fai clic su **[!UICONTROL Invia]**.
 
-   Workfront Proof invia un’e-mail con i collegamenti di bozza alle persone incluse nell’elenco di condivisione.
+   Workfront Proof invia un’e-mail con i collegamenti della bozza alle persone presenti nell’elenco di condivisione.
 
    >[!NOTE]
    >
-   >Se uno dei collegamenti è disabilitato sulla bozza, non è visibile nell’e-mail.
+   >Se uno dei collegamenti è disattivato sulla bozza, non è visibile nell’e-mail.

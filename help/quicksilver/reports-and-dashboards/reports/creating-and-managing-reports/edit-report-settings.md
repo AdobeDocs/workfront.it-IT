@@ -39,22 +39,22 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Passaggi pratici
 
-1. Per iniziare a creare un rapporto, vai al **Menu principale** > **Rapporti**, quindi seleziona l’oggetto del rapporto.
+1. Inizia a creare un report accedendo al **menu principale** > **Report**, quindi seleziona l&#39;oggetto del report.
 
    Oppure
 
-   Apri un rapporto esistente, quindi fai clic su **Azioni report** > **Modifica**.
+   Apri un report esistente, quindi fai clic su **Azioni report** > **Modifica**.
 
-1. Clic **Impostazioni dei rapporti** nell’angolo superiore destro del report builder.
+1. Fai clic su **Impostazioni report** nell&#39;angolo superiore destro del Report Builder.
 1. Configura le seguenti impostazioni per i rapporti:
 
    <table style="table-layout:auto"> 
@@ -71,7 +71,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      </tr> 
      <tr> 
       <td role="rowheader">Esegui questo report con i diritti di accesso di</td> 
-      <td>Selezionare l'utente di cui si desidera utilizzare i diritti di accesso per la visualizzazione del report per altri utenti. Per ulteriori informazioni sull’esecuzione di un rapporto con i diritti di accesso di un altro utente, consulta l’articolo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Eseguire e consegnare un report con i diritti di accesso di un altro utente</a>.</td> 
+      <td>Selezionare l'utente di cui si desidera utilizzare i diritti di accesso per la visualizzazione del report per altri utenti. Per ulteriori informazioni sull'esecuzione di un report con i diritti di accesso di un altro utente, vedere l'articolo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Eseguire e distribuire un report con i diritti di accesso di un altro utente</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Quando il report viene caricato, mostra</td> 
@@ -95,7 +95,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      </tr> 
      <tr> 
       <td role="rowheader">Mostra il report in un grafico di Gantt per impostazione predefinita</td> 
-      <td>(Solo report di progetto e report di attività) Selezionare questa opzione per attivare automaticamente la visualizzazione Gantt quando gli utenti visualizzano la scheda Dettagli in questo report.<br>Per ulteriori informazioni sulla visualizzazione del diagramma di Gantt nei report del progetto e nei report delle attività, vedere la sezione "Visualizzare le informazioni sulle attività nell'elenco dei progetti Diagramma di Gantt" nell'articolo <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md" class="MCXref xref">Visualizzare le informazioni nel diagramma di Gantt </a>.</td> 
+      <td>(Solo report di progetto e report di attività) Selezionare questa opzione per attivare automaticamente la visualizzazione Gantt quando gli utenti visualizzano la scheda Dettagli in questo report.<br>Per ulteriori informazioni sulla visualizzazione del diagramma di Gantt nei report di progetto e nei report di attività, vedere la sezione "Visualizzare le informazioni sulle attività nell'elenco dei progetti Diagramma di Gantt" nell'articolo <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md" class="MCXref xref">Visualizzare le informazioni nel Diagramma di Gantt </a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Consenti la modifica della visualizzazione nel report</td> 
@@ -112,16 +112,16 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
     </tbody> 
    </table>
 
-1. Clic **Prompt dei report** per impostare eventuali richieste per il report.\
-   Per ulteriori informazioni sull&#39;aggiunta di prompt a un report, vedere l&#39;articolo [Aggiungere una richiesta a un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+1. Fai clic su **Prompt dei rapporti** per impostare eventuali prompt per il rapporto.\
+   Per ulteriori informazioni sull&#39;aggiunta di prompt a un report, vedere l&#39;articolo [Aggiungere un prompt a un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. Clic **Fine,** quindi fai clic su **Salva e chiudi**.
+1. Fai clic su **Fine**, quindi su **Salva + Chiudi**.
 
 ## Informazioni aggiuntive
 
 Vedi anche:
 
 <!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) -->
-* [Introduzione ai rapporti](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
-* [Utilizzare i rapporti incorporati di Adobe Workfront](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
+* [Introduzione ai report](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+* [Utilizzare i report incorporati di Adobe Workfront](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
 * [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)

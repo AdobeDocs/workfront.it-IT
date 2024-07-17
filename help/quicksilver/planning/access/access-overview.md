@@ -81,13 +81,13 @@ Per utilizzare Adobe Workfront Planning, è necessario disporre delle seguenti i
   </tr>
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale. </p> <p>Per informazioni, consulta <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Personalizzare il menu principale utilizzando un modello di layout</a> e <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">Assegnare utenti a un modello di layout</a>. </p>  
+   <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale. </p> <p>Per informazioni, vedere <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Personalizzare il menu principale utilizzando un modello di layout</a> e <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">Assegnare gli utenti a un modello di layout</a>. </p>  
 </td>
   </tr>
  </tbody>
 </table>
 
-*Per ulteriori informazioni sui requisiti di accesso ai Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Condividere l&#39;area Pianificazione nel menu principale con altri utenti
@@ -96,15 +96,15 @@ Per utilizzare Adobe Workfront Planning, è necessario disporre delle seguenti i
 
 Dopo aver iscritto l&#39;organizzazione al programma Workfront Planning, è possibile aggiungere l&#39;area Pianificazione al menu principale di tutti gli utenti utilizzando un modello di layout.
 
-1. Accedi a **Workfront** come amministratore di Workfront.
+1. Accedi a **Workfront** come amministratore Workfront.
 
-1. Aggiungi il **Pianificazione** icona ![](assets/planning-icon.png) al **Menu principale** utilizzando un **Modello di layout**.
+1. Aggiungere l&#39;icona ![](assets/planning-icon.png) di **Planning** al **menu principale** utilizzando un **modello di layout**.
 
-   Per informazioni, consulta [Personalizzare il menu principale utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+   Per informazioni, vedere [Personalizzare il menu principale utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 1. Assegnare il modello di layout agli utenti che si desidera abbiano accesso a Workfront Planning.
 
-   Per informazioni, consulta [Assegnare utenti a un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+   Per informazioni, vedere [Assegnare gli utenti a un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
    Tutti gli utenti assegnati al modello ora possono accedere a Workfront Planning nel loro menu principale.
 
@@ -116,16 +116,16 @@ Nessun controllo di accesso per Workfront Planning.
 
 Gli utenti con qualsiasi tipo di licenza possono accedere a Workfront Planning.
 
-Per informazioni sulla concessione dell’accesso in Workfront, consulta [Creare e modificare livelli di accesso personalizzati](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Per informazioni sulla concessione dell&#39;accesso in Workfront, vedere [Creare e modificare livelli di accesso personalizzati](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Concedere le autorizzazioni
 
 È necessario concedere agli utenti le autorizzazioni per le aree di lavoro e le visualizzazioni create per consentire loro di accedervi.
 
-Per ulteriori informazioni, consulta [Panoramica delle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Per ulteriori informazioni, vedere [Panoramica sulle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 Il tipo di licenza Adobe Workfront funziona insieme alle autorizzazioni di Workfront Planning per consentire l&#39;accesso alla visualizzazione, al contributo o alla gestione degli oggetti di Workfront Planning.
 
-Per informazioni sull&#39;effetto dei tipi di licenza sui livelli di autorizzazione per gli oggetti di Workfront Planning, vedere [Panoramica del tipo di licenza quando si utilizza Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
+Per informazioni su come i tipi di licenza influiscono sui livelli di autorizzazione per gli oggetti di Workfront Planning, vedere [Panoramica sui tipi di licenza quando si utilizza Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
 

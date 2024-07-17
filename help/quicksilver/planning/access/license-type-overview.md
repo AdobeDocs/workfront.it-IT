@@ -24,7 +24,7 @@ Il tipo di licenza di Adobe Workfront funziona in combinazione con le autorizzaz
 * Visualizzare, contribuire o gestire le aree di lavoro
 * Visualizzare o gestire le visualizzazioni.
 
-Per informazioni sulle autorizzazioni per gli oggetti in Workfront Planning, vedere [Panoramica delle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Per informazioni sulle autorizzazioni per gli oggetti in Workfront Planning, vedere [Panoramica sulle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 ## Relazione tra i tipi di licenza di Workfront e le autorizzazioni di Workfront Planning
 
@@ -35,10 +35,10 @@ La concessione di autorizzazioni utente a un&#39;area di lavoro consente inoltre
 
 | Tipo di licenza Adobe Workfront* | Autorizzazioni massime consentite in Adobe Workfront Planning |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Nuovo: Standard <br> o <br>Corrente: Piano | Gli utenti possono gestire le aree di lavoro. Possono creare, modificare o eliminare aree di lavoro, tipi di record, record e campi. <br> Gli amministratori di sistema dispongono delle autorizzazioni di gestione per tutte le aree di lavoro, incluse quelle che non hanno creato. |
+| Nuovo: Standard <br> o <br>Corrente: Piano | Gli utenti possono gestire le aree di lavoro. Possono creare, modificare o eliminare aree di lavoro, tipi di record, record e campi. <br> Gli amministratori di sistema dispongono delle autorizzazioni di gestione per tutte le aree di lavoro, incluse quelle non create. |
 | Nuovo: Light, Collaboratore <br> o <br>Corrente: Lavoro, Richiedente, Revisore | Gli utenti possono visualizzare le aree di lavoro condivise, nonché i tipi di record, i record e i campi di tali aree di lavoro. <br> Gli utenti non possono creare, modificare o eliminare aree di lavoro, tipi di record, record o campi. |
 
-*Per ulteriori informazioni, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ### Tipi di licenze e autorizzazioni dell’area di lavoro
 

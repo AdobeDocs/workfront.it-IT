@@ -23,13 +23,13 @@ Puoi applicare i seguenti tipi di filtri in Adobe Workfront:
 
 * Filtri rapidi in un elenco di oggetti per trovare un elemento utilizzando una parola chiave. Si tratta di filtri temporanei che non è possibile salvare per utilizzi futuri.
 
-  Per informazioni sui filtri rapidi, consulta [Applicare il filtro rapido a un elenco](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
+  Per informazioni sui filtri rapidi, vedere [Applicare il filtro rapido a un elenco](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
 * Filtri permanenti che è possibile salvare e utilizzare più volte su più elenchi e rapporti. In questo articolo viene descritto come creare un filtro permanente o modificarne uno esistente in un elenco o in un report.
 
 * Filtri in altre aree di Workfront, al di fuori di elenchi e rapporti.
 
-  Per un elenco di tutti i filtri in Workfront e delle aree in cui puoi applicarli, consulta [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Per un elenco di tutti i filtri in Workfront e delle aree in cui è possibile applicarli, vedere [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Requisiti di accesso
 
@@ -77,7 +77,7 @@ Oppure
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Gestire le autorizzazioni per un filtro</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un filtro</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -119,7 +119,7 @@ Puoi creare filtri utilizzando i tipi di generatori di filtri descritti nella ta
 <li> <p>Elenchi </p> </li>
 </ul>
 <ul>
-<li> <p>Elenco Progetti nella Pianificazione scenario</p> <p>Scenario Planner richiede una licenza aggiuntiva. Per informazioni su Workfront Scenario Planner, consulta <a href="../../../scenario-planner/scenario-planner-overview.md">Panoramica sulla pianificazione degli scenari</a>. </p> </li>
+<li> <p>Elenco Progetti nella Pianificazione scenario</p> <p>Scenario Planner richiede una licenza aggiuntiva. Per informazioni su Workfront Scenario Planner, vedere <a href="../../../scenario-planner/scenario-planner-overview.md">Panoramica di Scenario Planner</a>. </p> </li>
 </ul>
 <p><b>NOTA:</b></p> <p>I generatori standard di filtri non sono disponibili nei rapporti.
 </td>
@@ -132,20 +132,20 @@ Puoi creare filtri utilizzando i tipi di generatori di filtri descritti nella ta
 </tbody>
 </table>
 
-Per informazioni sugli oggetti di Workfront, vedere [Comprendere gli oggetti in Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Per informazioni sugli oggetti di Workfront, vedere [Informazioni sugli oggetti in Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 Quando crei filtri utilizzando le diverse interfacce, tieni presente quanto segue:
 
 * Puoi trovare il generatore di standard nelle stesse posizioni in cui si trova l’interfaccia filtro legacy per le aree elencate nella tabella precedente.
-* Il generatore di standard è l&#39;esperienza predefinita per tutte le aree in cui è disponibile. Per passare al generatore di filtri legacy, fai clic sul pulsante **Altro** menu accanto a [!UICONTROL **Filtri**] e seleziona [!UICONTROL **Torna a Filtri legacy**].
+* Il generatore di standard è l&#39;esperienza predefinita per tutte le aree in cui è disponibile. Per passare al generatore di filtri legacy, fai clic sul menu **Altro** accanto a [!UICONTROL **Filtri**] e seleziona [!UICONTROL **Torna ai filtri legacy**].
 
-  ![Torna a Filtri legacy](assets/use-legacy-filters.png)
+  ![Torna ai filtri legacy](assets/use-legacy-filters.png)
 
 * I filtri salvati sono disponibili in entrambi i generatori, indipendentemente dall’esperienza utilizzata per generarli originariamente. Ad esempio, se hai creato un filtro utilizzando il generatore legacy, puoi trovarlo e modificarlo anche nell’interfaccia del generatore standard.
 
   >[!TIP]
   >
-  >Il filtro &quot;All&quot; (Tutti) non è incluso nel generatore standard perché quando non si applicano filtri vengono visualizzate tutte le voci di elenco. Clic [!UICONTROL **Cancella tutto**] in alto a destra nel generatore per cancellare tutti i filtri attivi e visualizzare tutti gli elementi. Se [!UICONTROL **Cancella tutto**] è disattivato, quindi non vengono applicati filtri.
+  >Il filtro &quot;All&quot; (Tutti) non è incluso nel generatore standard perché quando non si applicano filtri vengono visualizzate tutte le voci di elenco. Fai clic su [!UICONTROL **Cancella tutto**] in alto a destra del generatore per cancellare tutti i filtri attivi e visualizzare tutti gli elementi. Se [!UICONTROL **Cancella tutto**] è inattivo, non vengono applicati filtri.
 
 * I generatori standard e legacy hanno una sintassi leggermente diversa durante la creazione di filtri con più istruzioni che combinano gli operatori AND e OR. Di conseguenza, questi filtri possono essere visualizzati in modo diverso quando si passa da un generatore all’altro.
 
@@ -186,7 +186,7 @@ Puoi creare filtri utilizzando l’interfaccia standard di generazione nei segue
 Crea un filtro tramite l’interfaccia standard di generazione:
 
 1. Passa a un elenco in cui desideri creare un filtro o che contiene il filtro che desideri personalizzare.
-1. Fai clic su **Filtro** icona ![Icona Filtro](assets/filter-nwepng.png) per aprire l&#39;interfaccia del generatore.
+1. Fai clic sull&#39;icona **Filtro** ![Icona Filtro](assets/filter-nwepng.png) per aprire l&#39;interfaccia del generatore.
 
    ![Generatore di filtri standard](assets/new-filters-all-filter-types.png)
 
@@ -217,12 +217,12 @@ Crea un filtro tramite l’interfaccia standard di generazione:
 
 1. Esegui una delle operazioni seguenti:
 
-   * Clic **Nuovo filtro** per creare un filtro da zero.
-   * Passa il puntatore del mouse su un filtro esistente che disponi delle autorizzazioni per gestire e fai clic su **Modifica** icona ![Icona Modifica](assets/edit-icon.png) per modificarlo.
+   * Fai clic su **Nuovo filtro** per creare un filtro da zero.
+   * Passa il puntatore del mouse su un filtro esistente per il quale disponi delle autorizzazioni di gestione e fai clic sull&#39;icona **Modifica** ![Modifica icona](assets/edit-icon.png) per modificarlo.
 
      Oppure
 
-     Passa il puntatore del mouse su un filtro esistente per il quale disponi delle autorizzazioni di visualizzazione, fai clic sul pulsante **Altro** menu ![Menu Altro](assets/more-icon-spectrum.png)e fai clic su **Duplica** per copiare il filtro esistente e modificare una copia.
+     Passa il puntatore del mouse su un filtro esistente per il quale disponi delle autorizzazioni di visualizzazione, fai clic sul menu **Altro** ![Altro](assets/more-icon-spectrum.png) e fai clic su **Duplica** per copiare il filtro esistente e modificare una copia.
 
    ![Altre opzioni di menu](assets/new-filters-more-menu-options-with-delete.png)
 
@@ -243,19 +243,19 @@ Crea un filtro tramite l’interfaccia standard di generazione:
    </tbody>
    </table>
 
-   ![Menu a discesa Includi se tutti o qualsiasi o true](assets/new-filters-all-or-any-are-true-drop-down-menu-nwe.png)
+   ![Includi se tutti o tutti o un menu a discesa vero](assets/new-filters-all-or-any-are-true-drop-down-menu-nwe.png)
 
-   Per ulteriori informazioni sugli operatori di filtro, consulta [Panoramica sui filtri](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Per ulteriori informazioni sugli operatori di filtro, vedere [Panoramica sui filtri](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Fai clic sul menu a discesa dei campi per visualizzare un elenco degli ultimi campi utilizzati e dei campi consigliati in base ai quali filtrare. I campi suggeriti sono attualmente visualizzati nell’elenco che si sta filtrando.
 
-   Puoi anche selezionare **Sfoglia campi** per visualizzare un elenco di tutti i campi in base ai quali è possibile filtrare. I campi nella ricerca avanzata sono raggruppati per categoria di oggetti.
+   È inoltre possibile selezionare **Sfoglia campi** per visualizzare un elenco di tutti i campi in base ai quali è possibile filtrare. I campi nella ricerca avanzata sono raggruppati per categoria di oggetti.
 
    ![Individua un campo in base al quale filtrare](assets/new-filter-search-for-field.png)
 
 1. Fare clic sul menu a discesa del modificatore per selezionare un modificatore. Il modificatore predefinito è &quot;Uguale a&quot;.
 
-   Per ulteriori informazioni, consulta [Modificatori di filtri e condizioni](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Per ulteriori informazioni, vedere [Filtri e modificatori di condizioni](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
    >[!TIP]
    >
@@ -267,14 +267,14 @@ Crea un filtro tramite l’interfaccia standard di generazione:
    >
    >A seconda del modificatore selezionato, è possibile selezionare più valori.
 
-1. Clic **Aggiungi filtro** per selezionare un altro campo, aggiungi un criterio di filtro all’istruzione di filtro.
-1. (Facoltativo) Fai clic su **Elimina** icona ![Icona Elimina](assets/delete.png) per rimuovere le istruzioni di filtro esistenti.
+1. Fare clic su **Aggiungi filtro** per selezionare un altro campo e aggiungere un criterio di filtro all&#39;istruzione di filtro.
+1. (Facoltativo) Fai clic sull&#39;icona **Elimina** ![Icona Elimina](assets/delete.png) per rimuovere le istruzioni di filtro esistenti.
 
    Oppure
 
-   Clic **Cancella tutto** per cancellare tutti i criteri di filtraggio.
+   Fai clic su **Cancella tutto** per cancellare tutti i criteri di filtro.
 
-1. (Facoltativo) Fai clic su **Aggiungi gruppo di filtri** per aggiungere un altro set di criteri di filtro. L&#39;operatore predefinito tra i set è **E**. Fai clic sull’operatore per modificarlo in **OPPURE**.
+1. (Facoltativo) Fai clic su **Aggiungi gruppo di filtri** per aggiungere un altro set di criteri di filtro. L&#39;operatore predefinito tra i set è **AND**. Fare clic sull&#39;operatore per modificarlo in **OR**.
 
    >[!TIP]
    >
@@ -294,52 +294,52 @@ Crea un filtro tramite l’interfaccia standard di generazione:
 
    Viene visualizzata l&#39;interfaccia della modalità testo.
 
-   ![Interfaccia modalità testo](assets/text-mode-interface-for-beta-filters-nwe.png)
+   ![Interfaccia in modalità testo](assets/text-mode-interface-for-beta-filters-nwe.png)
 
    >[!TIP]
    >
    >È consigliabile creare il maggior numero possibile di filtri utilizzando l’interfaccia standard di generazione e utilizzando la modalità testo solo quando è necessario modificare i filtri supportati solo in modalità testo.
 
-   Per ulteriori informazioni sulla creazione di un filtro tramite l’interfaccia in modalità testo, consulta [Modificare un filtro utilizzando la modalità testo](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
+   Per ulteriori informazioni sulla creazione di un filtro tramite l&#39;interfaccia della modalità testo, vedere [Modificare un filtro tramite la modalità testo](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
-1. Clic **Esci dalla modalità testo** per tornare all&#39;interfaccia standard del generatore.
+1. Fare clic su **Esci da modalità testo** per tornare all&#39;interfaccia standard del generatore.
 
    >[!WARNING]
    >
    >Alcune istruzioni della modalità testo non sono supportate nel generatore standard o nell’interfaccia legacy. L’uscita dalla modalità testo dopo aver creato questi tipi di istruzioni potrebbe generare un messaggio di avviso.
 
-1. (Facoltativo) Fai clic su **Applica** per applicare il filtro all’elenco e visualizzare i risultati.
+1. (Facoltativo) Fai clic su **Applica** per applicare il filtro all&#39;elenco e visualizzare i risultati.
 
    Se il filtro non produce risultati, l’elenco è vuoto.
 
-1. Clic **Salva come nuovo** per salvare il filtro per utilizzi futuri.
+1. Fai clic su **Salva come nuovo** per salvare il filtro per utilizzi futuri.
 
    ![Denomina e salva il filtro](assets/save-as-untitled-filter-ui-nwe.png)
 
-1. Seleziona **Filtro senza titolo** e digita il nome del nuovo filtro.
+1. Selezionare **Filtro senza titolo** e digitare il nome del nuovo filtro.
 
    >[!TIP]
    >
    >Assicurati di denominare il filtro in modo da poterlo trovare in un secondo momento. Se non si assegna un nome al filtro, nel sistema verrà chiamato Filtro senza titolo.
 
-1. Seleziona un’icona per il nuovo filtro dal menu **Icona** menu a discesa.
+1. Selezionare un&#39;icona per il nuovo filtro dal menu a discesa **Icon**.
 
-   ![Seleziona un’icona per il filtro](assets/new-filter-select-icon.png)
+   ![Selezionare un&#39;icona per il filtro](assets/new-filter-select-icon.png)
 
 1. (Facoltativo) Aggiungi una descrizione del filtro per indicare cosa c’è di univoco. La descrizione viene visualizzata sotto il nome del filtro nell’elenco dei filtri.
 
    >[!TIP]
    >
-   >Clic **Annulla** in qualsiasi momento ti riporta all’area di creazione del filtro.
+   >Facendo clic su **Annulla** in qualsiasi momento si ritorna all&#39;area di creazione del filtro.
 
-1. Clic **Salva**. Il filtro viene salvato nell’elenco Salvato e applicato all’elenco di elementi.
-1. (Facoltativo) Per spostare un filtro nell’elenco Preferiti, passa il cursore del mouse su un filtro nel cassetto dei filtri e fai clic su **Preferito** icona ![Icona Preferito](assets/favorites-icon-small.png).
+1. Fai clic su **Salva**. Il filtro viene salvato nell’elenco Salvato e applicato all’elenco di elementi.
+1. (Facoltativo) Per spostare un filtro nell&#39;elenco Preferiti, passa il cursore del mouse su un filtro nel cassetto dei filtri e fai clic sull&#39;icona **Preferiti** ![Icona Preferiti](assets/favorites-icon-small.png).
 
    Oppure
 
-   Passare il puntatore del mouse su un filtro nel cassetto del filtro, quindi scegliere il menu Altro ![Menu Altro](assets/more-icon-spectrum.png)e fai clic su **Preferito**.
+   Passa il puntatore del mouse su un filtro nel cassetto dei filtri, fai clic sul menu Altro ![menu Altro](assets/more-icon-spectrum.png) e fai clic su **Preferiti**.
 
-1. (Facoltativo) Fai clic su **Sovrapponi filtri** per attivare i filtri sovrapposti. Questa opzione consente di applicare più di un filtro salvato. Le regole del filtro vengono applicate nell’ordine in cui le selezioni.
+1. (Facoltativo) Fai clic sul pulsante **Sovrapponi filtri** per attivare i filtri sovrapposti. Questa opzione consente di applicare più di un filtro salvato. Le regole del filtro vengono applicate nell’ordine in cui le selezioni.
 
    >[!TIP]
    >
@@ -355,9 +355,9 @@ Crea un filtro tramite l’interfaccia standard di generazione:
 
 1. (Facoltativo) Effettuate una delle seguenti operazioni:
 
-   * Condividi il filtro con altri utenti o rendilo disponibile a livello di sistema. Per ulteriori informazioni, consulta [Condividere un filtro, una visualizzazione o un raggruppamento](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+   * Condividi il filtro con altri utenti o rendilo disponibile a livello di sistema. Per ulteriori informazioni, vedere [Condividere un filtro, una visualizzazione o un raggruppamento](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
-   * Elimina il filtro se non è più valido o se è un duplicato. Puoi eliminare solo i filtri di tua proprietà. Puoi rimuovere i filtri condivisi con te. Per informazioni, consulta [Rimuovere filtri, visualizzazioni e raggruppamenti](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
+   * Elimina il filtro se non è più valido o se è un duplicato. Puoi eliminare solo i filtri di tua proprietà. Puoi rimuovere i filtri condivisi con te. Per informazioni, vedere [Rimuovere filtri, visualizzazioni e raggruppamenti](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
 
 ## Creare o modificare un filtro nel generatore legacy {#create-filter-in-legacy-builder}
 
@@ -369,37 +369,37 @@ Puoi creare filtri legacy negli elenchi e nei rapporti nei seguenti modi:
 Indipendentemente dal metodo utilizzato per creare i filtri, la creazione di un filtro da zero o da un filtro esistente è simile.
 
 1. Passare a un elenco o a un report contenente il filtro che si desidera personalizzare.
-1. Fai clic su **Filtro** icona ![Icona Filtro](assets/filter-nwepng.png).
+1. Fai clic sull&#39;icona **Filtro** ![Icona Filtro](assets/filter-nwepng.png).
 
    >[!TIP]
    >
    >Il creatore del report deve consentire la modifica dei filtri per visualizzare l’elenco a discesa Filtro in un report. Il filtro Report predefinito viene applicato a un report per impostazione predefinita. Il filtro Report predefinito può essere personalizzato solo quando si modifica il report.
 
-   ![Menu a discesa Filtro](assets/filter-drop-down-expanded-nwe.png)
+   ![Elenco a discesa dei filtri](assets/filter-drop-down-expanded-nwe.png)
 
-1. Clic **Nuovo filtro** nella parte superiore dell’elenco dei filtri.
+1. Fai clic su **Nuovo filtro** nella parte superiore dell&#39;elenco dei filtri.
 
    Oppure
 
-   Passa il puntatore del mouse sul filtro che desideri modificare e fai clic sul pulsante **Modifica** icona ![](assets/edit-icon.png).
+   Passa il puntatore del mouse sul filtro che desideri modificare e fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png).
 
    Il generatore per personalizzare i lanci del filtro.
 
 1. Effettua una delle seguenti operazioni:
 
    * Modifica le regole di filtro esistenti facendo clic sulla regola esistente e selezionando una nuova opzione.
-   * Aggiungere una regola di filtro facendo clic su **Aggiungi un&#39;altra regola filtro**, inizia a digitare il nome dell’opzione per la quale desideri aggiungere una regola nel **Inizia a digitare il nome del campo** , quindi fare clic su di esso quando viene visualizzato nell&#39;elenco a discesa.
+   * Aggiungere una regola di filtro facendo clic su **Aggiungi un&#39;altra regola di filtro**, iniziare a digitare il nome dell&#39;opzione per la quale si desidera aggiungere una regola nella casella **Inizia a digitare il nome del campo**, quindi fare clic su di esso quando viene visualizzato nell&#39;elenco a discesa.
 
-     I campi associati all’oggetto del filtro sono elencati nella sezione **Inizia a digitare il nome del campo** casella.
+     I campi associati all&#39;oggetto del filtro sono elencati nella casella **Inizia a digitare il nome del campo**.
 
-   * Clic **E** o **OPPURE** quando si aggiunge una regola di filtro.\
-     Quando aggiungi le regole del filtro, utilizza i modificatori del filtro per stabilire la condizione del filtro. Per ulteriori informazioni sui modificatori di filtri, consulta [Modificatori di filtri e condizioni](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   * Fare clic su **AND** o **OR** durante l&#39;aggiunta di una regola di filtro.\
+     Quando aggiungi le regole del filtro, utilizza i modificatori del filtro per stabilire la condizione del filtro. Per ulteriori informazioni sui modificatori di filtro, vedere [Modificatori di filtro e condizione](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
      >[!NOTE]
      >
      >Quando si connette un gruppo di istruzioni AND da più istruzioni OR, è necessario ripetere i campi che non cambiano tra le istruzioni OR per ogni gruppo di istruzioni.
      >
-     >![Istruzioni di filtro collegate](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-2022.png)
+     >![Istruzioni filtro collegate](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-2022.png)
      >
      >Quando si crea un filtro per i task che contengono la parola &quot;marketing&quot; e si trovano in progetti con lo stato Attuale o Pianificazione, è necessario disporre delle seguenti regole di filtro:
      >
@@ -415,21 +415,21 @@ Indipendentemente dal metodo utilizzato per creare i filtri, la creazione di un 
 
    * Elimina una regola di filtro esistente facendo clic sull’icona &quot;X&quot;.
 
-1. (Facoltativo) Fai clic su **Passa alla modalità testo** per aggiungere un filtro tramite l&#39;interfaccia Text Mode.
+1. (Facoltativo) Fare clic su **Passa alla modalità testo** per aggiungere un filtro tramite l&#39;interfaccia della modalità testo.
 
-   Per ulteriori informazioni sulla creazione di un filtro tramite l’interfaccia in modalità testo, consulta [Modificare un filtro utilizzando la modalità testo](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
+   Per ulteriori informazioni sulla creazione di un filtro tramite l&#39;interfaccia della modalità testo, vedere [Modificare un filtro tramite la modalità testo](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
-1. Clic **Salva filtro** per creare un filtro o sostituire quello selezionato con le modifiche.
+1. Fai clic su **Salva filtro** per creare un filtro o sostituire quello selezionato con le modifiche.
 
    Oppure
 
-   Clic **Salva come nuovo filtro** per creare un filtro da quello selezionato.
+   Fare clic su **Salva come nuovo filtro** per creare un filtro da quello selezionato.
 
    Il nuovo filtro viene visualizzato nell’elenco dei filtri e viene applicato automaticamente all’elenco o al report selezionato.
 
 1. (Facoltativo) Effettuate una delle seguenti operazioni:
 
-   * Condividi i filtri creati con altri utenti o rendili disponibili a livello di sistema. Per informazioni, consulta [Condividere un filtro, una visualizzazione o un raggruppamento](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
-   * Rimuovere i filtri che non si desidera più visualizzare nell&#39;elenco. Per informazioni, consulta [Rimuovere filtri, visualizzazioni e raggruppamenti](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
+   * Condividi i filtri creati con altri utenti o rendili disponibili a livello di sistema. Per informazioni, vedere [Condividere un filtro, una visualizzazione o un raggruppamento](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+   * Rimuovere i filtri che non si desidera più visualizzare nell&#39;elenco. Per informazioni, vedere [Rimuovere filtri, visualizzazioni e raggruppamenti](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
 
 

@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Attività sulla versione 2017.3
 
-* [Panoramica sull’attività della versione 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)
+* Panoramica sull&#39;attività della versione di [2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)
 * [Webinar sulla versione 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-webinars.md)
-* [Attività sulla versione 2017.3 Beta 4](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md)
-* [Attività sulla versione 2017.3 Beta 3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-3-release-activity.md)
-* [Attività sulla versione 2017.3 Beta 2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md)
-* [Attività sulla versione 2017.3 Beta 1](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md)
+* [Attività sulla versione di Beta 4 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md)
+* [Attività sulla versione di Beta 3 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-3-release-activity.md)
+* [Attività sulla versione di Beta 2 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md)
+* [Attività sulla versione 2017.3 di Beta 1](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md)

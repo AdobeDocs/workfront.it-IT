@@ -1,25 +1,25 @@
 ---
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
-title: Incorporare una coda di richiesta in un dashboard
-description: È possibile incorporare una nuova coda di richiesta in un dashboard per fornire accesso diretto alla coda di richiesta agli utenti, senza dover passare all’area Richieste .
+title: Incorporare una coda di richieste in un dashboard
+description: Puoi incorporare una nuova coda di richieste in un dashboard per fornire accesso diretto alla coda di richieste agli utenti, senza dover passare all’area Richieste.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
 source-git-commit: 2894161b61a00dab04c17ef642ace4a45179eb17
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1180'
 ht-degree: 1%
 
 ---
 
-# Incorporare una coda di richiesta in un dashboard
+# Incorporare una coda di richieste in un dashboard
 
-È possibile incorporare una nuova coda di richiesta in un dashboard per fornire accesso diretto alla coda di richiesta agli utenti, senza dover passare all’area Richieste . 
+Puoi incorporare una nuova coda di richieste in un dashboard per fornire accesso diretto alla coda di richieste agli utenti, senza dover passare all’area Richieste. 
 
-Ad esempio, se disponi di una coda di richiesta aperta a tutta l’organizzazione, come una coda del servizio di assistenza o una coda di richiesta PTO a cui tutti devono accedere regolarmente, potrebbe essere utile inserire la coda di richiesta direttamente in una delle loro dashboard per un accesso rapido e semplice. Il processo di configurazione è simile a quello di creazione di una pagina esterna su un dashboard.
+Ad esempio, se disponi di una coda di richieste aperta all’intera organizzazione, come una coda di helpdesk o una coda di richieste PTO a cui tutti devono accedere regolarmente, potrebbe essere utile inserire la coda di richieste direttamente in una delle loro dashboard per accedervi in modo rapido e semplice. Il processo di configurazione è simile a quello di creazione di una pagina esterna su una dashboard.
 
-Innanzitutto, devi ottenere un URL per la coda delle richieste. In secondo luogo, puoi incorporare l’URL in un dashboard aggiungendo una pagina esterna.
+Innanzitutto, devi ottenere un URL per la coda delle richieste. In secondo luogo, puoi incorporare l’URL in una dashboard aggiungendo una pagina esterna.
 
 ## Requisiti di accesso
 
@@ -30,7 +30,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>piano Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>Piano Adobe Workfront*</strong></td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
@@ -38,121 +38,121 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>Piano </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurazioni a livello di accesso*</strong></td> 
-   <td> <p>Accesso a rapporti, dashboard, calendari</p> <p>Nota: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Gestione delle autorizzazioni al dashboard</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per il dashboard</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Prerequisiti
 
-Per incorporare una coda di richiesta in un dashboard è necessario creare entrambe le operazioni seguenti:
+Prima di poter incorporare una coda di richieste in un dashboard, è necessario creare entrambe le operazioni seguenti:
 
-* **Dashboard**: Per informazioni sulla creazione di dashboard, consulta [Creare un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
-* **Coda richieste**: Per informazioni sulla creazione delle code di richiesta, vedi [Creare una coda di richiesta](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
+* **Dashboard**: per informazioni sulla creazione dei dashboard, vedere [Creare un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+* **Coda richieste**: per informazioni sulla creazione di code richieste, vedere [Creare una coda richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
 
-## Ottieni l’URL della coda di richiesta {#obtain-the-url-of-the-request-queue}
+## Ottenere l’URL della coda di richieste {#obtain-the-url-of-the-request-queue}
 
-Puoi ottenere l’URL di una coda di richiesta in più modi, a seconda della parte della coda di richiesta che desideri esporre agli utenti quando accedono a essa da un dashboard.
+Puoi ottenere l’URL di una coda di richieste in diversi modi, a seconda della parte di coda che desideri esporre agli utenti quando vi accedono da un dashboard.
 
 * [Ottieni un collegamento a un argomento della coda specifico con la possibilità di modificare il tipo di richiesta](#obtain-a-link-to-a-specific-queue-topic-with-ability-to-change-the-request-type)
-* [Ottieni un collegamento a una coda di richiesta e possibilità di modificare il tipo di richiesta](#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type)
-* [Ottenere un collegamento a una coda di richiesta senza la possibilità di modificare il tipo di richiesta](#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type)
+* [Ottieni un collegamento a una coda di richieste e modifica del tipo di richiesta](#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type)
+* [Ottenere un collegamento a una coda di richieste senza la possibilità di modificare il tipo di richiesta](#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type)
 
 ### Ottieni un collegamento a un argomento della coda specifico con la possibilità di modificare il tipo di richiesta {#obtain-a-link-to-a-specific-queue-topic-with-ability-to-change-the-request-type}
 
-Quando condividi un collegamento a un argomento della coda specifico con altri utenti, il modulo di richiesta si apre nell’argomento della coda che devono utilizzare per inviare la richiesta. Questo è utile quando gli utenti potrebbero non essere sicuri dell’argomento della coda da scegliere quando registrare le richieste per una coda di richiesta specifica.
+Quando si condivide un collegamento a un argomento della coda specifico con altri utenti, il modulo di richiesta viene aperto in corrispondenza dell&#39;argomento della coda che devono utilizzare per inviare la richiesta. Questa opzione è utile quando gli utenti non sono sicuri dell’argomento della coda da scegliere quando registrano le richieste per una coda di richieste specifica.
 
-Gli utenti possono modificare il tipo di richiesta o scegliere un altro argomento se necessario. Viene visualizzata anche la navigazione dell’area Richieste.
+Gli utenti possono modificare il tipo di richiesta o scegliere un altro argomento, se necessario. Viene visualizzata anche la navigazione dell’area Richieste.
 
-1. Fai clic sul pulsante **Menu principale** > **Richieste** > **Nuova richiesta**.
-1. Continua a selezionare i gruppi di argomenti e gli argomenti della coda fino a raggiungere la coda che desideri condividere sul dashboard, se desideri condividere una coda specifica. Per informazioni sull&#39;invio delle richieste, vedi [Creare e inviare richieste Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
+1. Fai clic sul **menu principale** > **richieste** > **nuova richiesta**.
+1. Se si desidera condividere una coda specifica, continuare a selezionare i gruppi di argomenti e gli argomenti della coda fino a raggiungere la coda che si desidera condividere nel dashboard. Per informazioni sull&#39;invio di richieste, vedere [Creare e inviare richieste Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
    >[!TIP]
    >
    >La selezione dei gruppi di argomenti e degli argomenti della coda è facoltativa.
 
-1. Fai clic su **Percorso di condivisione** nell’angolo superiore destro dell’area Nuova richiesta.
+1. Fai clic su **Condividi percorso** nell&#39;angolo superiore destro dell&#39;area Nuova richiesta.
 
-   Il collegamento viene copiato nella coda delle richieste o nell’argomento della coda quando viene visualizzato sullo schermo. Gli utenti possono aggiornare il tipo di richiesta o uno qualsiasi dei gruppi di argomenti e degli argomenti della coda disponibili.
+   In questo modo il collegamento viene copiato nella coda richieste o nell&#39;argomento della coda mentre viene visualizzato sullo schermo. Gli utenti possono aggiornare il Tipo di richiesta o uno qualsiasi dei gruppi di argomenti e degli argomenti della coda disponibili.
 
    ![](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png)
 
-### Ottieni un collegamento a una coda di richiesta e possibilità di modificare il tipo di richiesta {#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type}
+### Ottenere un collegamento a una coda di richieste e modificare il tipo di richiesta {#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type}
 
-Quando condividi un collegamento a un tipo di richiesta, l’utente seleziona il tipo di richiesta. Questa funzione è utile quando gli utenti devono scegliere tra più gruppi di argomenti o argomenti della coda per lo stesso tipo di richiesta. Gli utenti possono modificare il tipo di richiesta e sceglierne un altro. Viene visualizzata anche la navigazione dell’area Richieste.
+Quando condividi un collegamento a un tipo di richiesta, questo viene selezionato per l’utente. Questa funzione è utile quando gli utenti devono scegliere tra più gruppi di argomenti o argomenti in coda per lo stesso tipo di richiesta. Gli utenti possono modificare il tipo di richiesta e sceglierne un altro. Viene visualizzata anche la navigazione dell’area Richieste.
 
-1. Passa a un progetto designato come coda di richiesta.
+1. Vai a un progetto designato come coda di richieste.
 
-   Per informazioni sulla creazione di una coda di richiesta da un progetto, vai a [Creare una coda di richiesta](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   Per informazioni sulla creazione di una coda di richieste da un progetto, vai a [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 1. Vai a **Dettagli coda**.
-1. Copia il codice che trovi nella **URL di accesso diretto** campo .
+1. Copiare il codice trovato nel campo **URL di accesso diretto**.
 
    Il codice deve essere simile al seguente:
 
    `https://<yourdomain>.my.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=50062d6f000849c95ab3513c0e84a51e&path=`
 
-   Questo è il collegamento alla coda di richiesta associata al progetto selezionato. Il tipo di richiesta è preselezionato.
+   Questo è il collegamento alla coda di richieste associata al progetto selezionato. Il Tipo di richiesta è preselezionato.
 
-   Gli utenti possono selezionare qualsiasi gruppo di argomenti o argomento della coda di cui hanno bisogno, oppure possono scegliere un altro tipo di richiesta.
+   Gli utenti possono selezionare qualsiasi gruppo di argomenti o argomento di coda di cui hanno bisogno oppure scegliere un altro tipo di richiesta.
 
    ![](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
 
-### Ottenere un collegamento a una coda di richiesta senza la possibilità di modificare il tipo di richiesta {#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type}
+### Ottenere un collegamento a una coda di richieste senza la possibilità di modificare il tipo di richiesta {#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type}
 
-Quando condividi un collegamento a un tipo di richiesta preselezionata, il tipo di richiesta viene selezionato per l’utente e non può essere modificato (è disattivato). Gli utenti possono scegliere i gruppi di argomenti o gli argomenti della coda di cui hanno bisogno. Questa funzione è utile se non desideri che gli utenti visualizzino e selezionino altri tipi di richiesta. La navigazione nell’area Richieste non viene visualizzata.
+Quando condividi un collegamento a un tipo di richiesta preselezionato, il tipo di richiesta viene selezionato per l’utente e non può essere modificato (è disattivato). Gli utenti possono scegliere i gruppi di argomenti o gli argomenti in coda necessari. Questa funzione è utile quando non si desidera che gli utenti visualizzino e selezionino altri tipi di richiesta. La navigazione dell’area Richieste non viene visualizzata.
 
-1. Passa a un progetto designato come coda di richiesta.
+1. Vai a un progetto designato come coda di richieste.
 
-   Per informazioni sulla creazione di una coda di richiesta da un progetto, vai a [Creare una coda di richiesta](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   Per informazioni sulla creazione di una coda di richieste da un progetto, vai a [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 1. Vai a **Dettagli coda**.
-1. Copia il codice che trovi nella **Codice incorporato** campo .
+1. Copia il codice trovato nel campo **Codice incorporato**.
 
    Il codice deve essere simile al seguente:
 
    `<iframe src="https://<yourdomain>my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71" frameborder="0" width="500" height="600"></iframe>`
 
-1. Modifica il codice per conservare solo le informazioni seguenti:
+1. Modifica il codice per mantenere solo le informazioni seguenti:
 
    `https://<yourdomain>.my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71`
 
    >[!TIP]
    >
-   >Puoi aggiungere una `<samp>iframe </samp>` quando si incorpora il codice in un&#39;applicazione diversa da Workfront.
+   >È possibile aggiungere un tag `<samp>iframe </samp>` quando si incorpora il codice in un&#39;applicazione diversa da Workfront.
 
-   Questo è il collegamento alla coda di richiesta associata al progetto selezionato. Il tipo di richiesta è preselezionato e non può essere modificato.
+   Questo è il collegamento alla coda di richieste associata al progetto selezionato. Il tipo di richiesta è preselezionato e non può essere modificato.
 
-   Gli utenti possono selezionare qualsiasi gruppo di argomenti o argomento della coda di cui hanno bisogno per il tipo di richiesta selezionato. Gli utenti non possono selezionare un altro tipo di richiesta.
+   Gli utenti possono selezionare qualsiasi gruppo di argomenti o argomento di coda di cui hanno bisogno per il tipo di richiesta selezionato. Gli utenti non possono selezionare un altro tipo di richiesta.
 
    ![](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
 
-## Incorporare una coda di richiesta in un dashboard
+## Incorporare una coda di richieste in un dashboard
 
-Puoi incorporare un collegamento alla coda delle richieste o a un argomento della coda nidificato sotto una coda di richiesta in un dashboard per consentire agli utenti di accedere direttamente alle richieste di immissione.
+Puoi incorporare in un dashboard un collegamento alla coda delle richieste o a un argomento della coda nidificato sotto una coda di richieste, in modo da consentire agli utenti di accedere direttamente all’immissione delle richieste.
 
-1. Ottieni un URL della coda di richiesta utilizzando uno dei metodi descritti in [Ottieni l’URL della coda di richiesta](#obtain-the-url-of-the-request-queue) sezione di questo articolo.
-1. Fai clic sul pulsante **Menu principale** > **Dashboard** > **Nuovo dashboard**.
-1. Tipo a **Nome** per il dashboard. Questo è un campo obbligatorio.
-1. Fai clic su **Aggiungi pagina esterna**.
+1. Ottenere un URL della coda richieste utilizzando uno dei metodi descritti nella sezione [Ottenere l&#39;URL della coda richieste](#obtain-the-url-of-the-request-queue) di questo articolo.
+1. Fai clic sul **menu principale** > **dashboard** > **nuovo dashboard**.
+1. Digita un **Nome** per il dashboard. Questo è un campo obbligatorio.
+1. Fare clic su **Aggiungi pagina esterna**.
 
    ![](assets/add-external-page-highlighted---nwe-350x214.png)
 
-1. In **Aggiungi pagina esterna** modificare i campi seguenti:
+1. Nella casella **Aggiungi pagina esterna** modificare i campi seguenti:
 
-   * **Nome**: immetti il nome della coda di richiesta come desideri che appaia sul dashboard. Questo è un campo obbligatorio.
+   * **Nome**: immettere il nome della coda di richieste che si desidera visualizzare nel dashboard. Questo è un campo obbligatorio.
 
-   * **Descrizione**: inserisci una descrizione della visualizzazione della pagina esterna. Questo campo non è obbligatorio ed è importante solo a scopo di reporting. Non viene visualizzato nel dashboard.
-   * **URL**: incolla l’URL ottenuto utilizzando uno dei metodi descritti nel passaggio 1.
+   * **Descrizione**: immettere una descrizione per la visualizzazione di questa pagina esterna. Questo campo non è obbligatorio ed è importante solo a scopo di reporting. Non viene visualizzato nel dashboard.
+   * **URL**: incolla l&#39;URL ottenuto utilizzando uno dei metodi descritti nel passaggio 1.
 
-      <!--   
+     <!--   
      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   
      <MadCap:conditionalText data-mc-conditions="">   
      (NOTE: ensure this stays accurate)   
@@ -160,17 +160,17 @@ Puoi incorporare un collegamento alla coda delle richieste o a un argomento dell
      </MadCap:conditionalText>   
      -->
 
-   * **Altezza**: immetti l’altezza della pagina esterna. Questo definisce lo spazio occupato dalla pagina esterna contenente la coda di richiesta sul dashboard. Questo è un campo obbligatorio e il valore predefinito è 500.
+   * **Altezza**: immettere l&#39;altezza della pagina esterna. Questo definisce quanto spazio occupa nel dashboard la pagina esterna contenente la coda di richieste. Questo campo è obbligatorio e il valore predefinito è 500.
 
 1. Fai clic su **Salva**.
-1. Fai clic su **Salva e chiudi**. 
+1. Fai clic su **Salva + Chiudi**. 
 
-   La coda di richiesta viene visualizzata nel dashboard come componente dashboard separato.
+   La coda di richieste viene visualizzata nel dashboard come componente separato del dashboard.
 
    ![](assets/new-dashboard-with-embedded-request-queue-nwe-350x260.png)
 
-1. (Facoltativo) Fai clic su **Azioni dashboard**, quindi **Modifica** per aggiungere rapporti, calendari o pagine esterne aggiuntive allo stesso dashboard.\
-   Per informazioni sull’aggiunta di componenti a un dashboard, consulta [Creare un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+1. (Facoltativo) Fai clic su **Azioni dashboard**, quindi su **Modifica** per aggiungere report, calendari o altre pagine esterne alla stessa dashboard.\
+   Per informazioni sull&#39;aggiunta di componenti a un dashboard, vedere [Creare un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
  
 

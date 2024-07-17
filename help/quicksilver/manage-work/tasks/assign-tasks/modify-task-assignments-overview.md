@@ -30,12 +30,12 @@ ht-degree: 0%
 
 Questo articolo contiene informazioni generali sull&#39;impatto della modifica delle assegnazioni delle attività. Per informazioni su come assegnare le attività, vedere gli articoli seguenti:
 
-* Per informazioni sull&#39;assegnazione delle attività, vedere [Assegna attività](../../../manage-work/tasks/assign-tasks/assign-tasks.md) e [Modificare più assegnazioni utente in un elenco di attività](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
+* Per informazioni sull&#39;assegnazione delle attività, vedere [Assegnare le attività](../../../manage-work/tasks/assign-tasks/assign-tasks.md) e [Modificare più assegnazioni utente in un elenco attività](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
 
 * Per informazioni sulla modifica delle assegnazioni per più attività nell&#39;area Pianificazione, vedere &quot;Modificare le assegnazioni di più utenti alle attività nelle aree Pianificazione&quot;.
-* Per informazioni sull’assegnazione delle attività tramite il Bilanciatore dei carichi di lavoro, consulta [Panoramica sull’assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+* Per informazioni sull&#39;assegnazione di attività tramite il Bilanciatore dei carichi di lavoro, vedere [Panoramica sull&#39;assegnazione di lavoro nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-Alcune informazioni contenute in questo articolo si applicano anche alle assegnazioni ai problemi. Per ulteriori informazioni sull’assegnazione dei problemi e considerazioni aggiuntive, consulta [Panoramica sulla modifica delle assegnazioni dei problemi](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+Alcune informazioni contenute in questo articolo si applicano anche alle assegnazioni ai problemi. Per ulteriori informazioni sull&#39;assegnazione dei problemi e considerazioni aggiuntive, vedere [Panoramica sulla modifica delle assegnazioni dei problemi](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 ## Quando modificare le assegnazioni utente per le attività
 
@@ -46,7 +46,7 @@ Alcune informazioni contenute in questo articolo si applicano anche alle assegna
 
   >[!NOTE]
   >
-  >Quando si assegnano gli utenti al lavoro, la loro disponibilità in base alle loro pianificazioni influisce sulle date pianificate e previste delle attività. Per informazioni sulle pianificazioni, consulta [Creare una pianificazione](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+  >Quando si assegnano gli utenti al lavoro, la loro disponibilità in base alle loro pianificazioni influisce sulle date pianificate e previste delle attività. Per informazioni sulle pianificazioni, vedere [Creare una pianificazione](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 * Un ruolo o un utente specifico viene impostato come assegnatario di più attività e si desidera modificare rapidamente tutti gli elementi da assegnare a un altro utente o ruolo
 
@@ -54,7 +54,7 @@ Alcune informazioni contenute in questo articolo si applicano anche alle assegna
 
 Quando si assegnano più risorse a un elemento di lavoro, tenere presente quanto segue:
 
-* Gli utenti possono avere più di una mansione associata al loro profilo. Per informazioni sull&#39;associazione degli utenti ai ruoli, vedere [Modificare il profilo di un utente](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* Gli utenti possono avere più di una mansione associata al loro profilo. Per informazioni sull&#39;associazione degli utenti alle mansioni, vedere [Modificare il profilo di un utente](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * Le attività o i problemi vengono in genere prima assegnati a una o più mansioni o a un team. Quando i progetti sono pronti per essere avviati, potrebbe essere necessario assegnarli anche agli utenti.\
   Se un’attività o un problema è assegnato a uno o più ruoli e successivamente si assegna anche un utente, Adobe Workfront decide quale ruolo associare all’utente aggiuntivo (se presente) in base alle seguenti regole:
@@ -67,25 +67,25 @@ Quando si assegnano più risorse a un elemento di lavoro, tenere presente quanto
 
 ## Effetti della rimozione degli assegnatari sulle ore delle attività e sulle percentuali di allocazione
 
-La rimozione degli utenti può influire sulle ore delle attività e sulle percentuali di allocazione. L&#39;effetto della rimozione di un utente sull&#39;attività dipende dal Tipo di durata selezionato per l&#39;attività. Per informazioni sul Tipo di Durata, vedi [Panoramica sulla durata e sul tipo di durata dell&#39;attività](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+La rimozione degli utenti può influire sulle ore delle attività e sulle percentuali di allocazione. L&#39;effetto della rimozione di un utente sull&#39;attività dipende dal Tipo di durata selezionato per l&#39;attività. Per informazioni sul tipo di durata, vedere [Panoramica sulla durata dell&#39;attività e sul tipo di durata](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 Quando si elimina un utente da un&#39;attività con i seguenti Tipi di durata:
 
-* **Semplice:** Le ore pianificate assegnate a tale utente vengono sottratte dalle ore pianificate totali dell&#39;attività.
+* **Semplice:** le ore pianificate assegnate a tale utente vengono sottratte dalle ore pianificate totali dell&#39;attività.
 
   >[!IMPORTANT]
   >
   >Questo potrebbe influire negativamente sul piano del progetto, in quanto modifica le ore pianificate totali per l&#39;attività e il progetto.
 
 * **Impegno:** La percentuale di allocazione non cambia per gli altri utenti.
-* **Assegnazione calcolata:** Le percentuali di allocazione di altri utenti vengono adeguate in modo che il totale sia uguale al 100%.
+* **Assegnazione calcolata:** Le percentuali di allocazione degli altri utenti vengono regolate in modo che il totale sia uguale al 100%.
 * **Lavoro calcolato:** La percentuale di allocazione non cambia per gli altri utenti.
 
 ## Considerazioni sull’annullamento dell’assegnazione delle attività
 
 È possibile rimuovere assegnazioni da un&#39;attività alla volta oppure da più attività in blocco.
 
-Per ulteriori informazioni sulla rimozione di assegnazioni da attività in blocco, vedere [Modificare più assegnazioni utente in un elenco di attività](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
+Per ulteriori informazioni sulla rimozione di assegnazioni da attività in blocco, vedere [Modificare più assegnazioni utente in un elenco attività](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
 
 Quando si rimuovono assegnazioni da attività, tenere presente quanto segue:
 

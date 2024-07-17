@@ -15,6 +15,6 @@ ht-degree: 0%
 
 # Approvazioni e prove dei documenti
 
-Puoi chiedere agli utenti di approvare un documento caricato in Workfront. Per informazioni, consulta [Richiedi approvazioni documenti](../../review-and-approve-work/manage-approvals/request-document-approvals.md).
+Puoi chiedere agli utenti di approvare un documento caricato in Workfront. Per informazioni, vedere [Richiedere le approvazioni dei documenti](../../review-and-approve-work/manage-approvals/request-document-approvals.md).
 
-È inoltre possibile richiedere agli utenti di rivedere un documento come bozza in Adobe Workfront utilizzando il visualizzatore di bozze. Il visualizzatore di bozze contiene strumenti per contrassegnare il contenuto e creare commenti. Per informazioni, consulta [Creare le bozze](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md).
+È inoltre possibile richiedere agli utenti di rivedere un documento come bozza in Adobe Workfront utilizzando il visualizzatore di bozze. Il visualizzatore di bozze contiene strumenti per contrassegnare il contenuto e creare commenti. Per informazioni, vedere [Creare bozze](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md).

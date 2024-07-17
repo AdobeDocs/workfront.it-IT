@@ -66,7 +66,7 @@ Un oggetto AccessLevelPermissions rappresenta un&#39;autorizzazione specifica pe
             </ul>
           </li>
           <li>
-            <p><b>forbiddenActions</b>
+            <p><b>azioni proibite</b>
             </p>
             <p>Sono stati aggiunti i seguenti valori possibili:</p>
             <ul>
@@ -91,7 +91,7 @@ Un oggetto AccessLevelPermissions rappresenta un&#39;autorizzazione specifica pe
             </ul>
          </li>
           <li>
-            <p><b>secondaryActions</b>
+            <p><b>azioni secondarie</b>
             </p>
             <p>Sono stati aggiunti i seguenti valori possibili:</p>
             <ul>
@@ -202,7 +202,7 @@ Un oggetto AccessRule rappresenta un set di regole nei livelli di accesso person
             </ul>
           </li>
           <li>
-            <p><b>forbiddenActions</b>
+            <p><b>azioni proibite</b>
             </p>
             <p>Sono stati aggiunti i seguenti valori possibili:</p>
             <ul>
@@ -227,7 +227,7 @@ Un oggetto AccessRule rappresenta un set di regole nei livelli di accesso person
             </ul>
          </li>
           <li>
-            <p><b>secondaryActions</b>
+            <p><b>azioni secondarie</b>
             </p>
             <p>Sono stati aggiunti i seguenti valori possibili:</p>
             <ul>
@@ -488,7 +488,7 @@ Un oggetto Document rappresenta un file, ad esempio materiale scritto, immagini 
              </p>
           </li>
           <li>
-            <p><b>moveToFolder</b>:
+            <p><b>spostaInCartella</b>:
             </p>
             <p>Aggiunto. Questa nuova azione accetta i seguenti parametri:
             <ul>
@@ -856,7 +856,7 @@ Un oggetto Rate rappresenta una tariffa di fatturazione in Workfront.
       <td>
         <ul>
           <li>
-            <p><b>displayName</b>
+            <p><b>nomeVisualizzato</b>
             </p><p>Aggiunto.</p>
           </li>
         </ul>
@@ -1089,7 +1089,7 @@ Un oggetto Timesheet rappresenta un foglio ore virtuale che consente agli utenti
       <td>
         <ul>
           <li>
-            <p><b>RecentUpdatesObjIDs</b>
+            <p><b>aggiornamentiRecentiObjIDs</b>
             </p>
             <p>Aggiunto.</p>
           </li>

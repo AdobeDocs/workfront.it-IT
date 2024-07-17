@@ -2,8 +2,8 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Dettagli dello scenario in [!DNL Adobe Workfront Fusion]
-description: Dettagli dello scenario in [!DNL Adobe Workfront Fusion]
+title: Dettagli scenario in [!DNL Adobe Workfront Fusion]
+description: Dettagli scenario in [!DNL Adobe Workfront Fusion]
 author: Becky
 feature: Workfront Fusion
 exl-id: 1d8a3492-d609-43c8-a486-a401a597f160
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 ---
 
-# Dettagli dello scenario in [!DNL Adobe Workfront Fusion]
+# Dettagli scenario in [!DNL Adobe Workfront Fusion]
 
 La pagina dei dettagli dello scenario è la home page di uno scenario specifico. Consente di accedere a informazioni specifiche per lo scenario rappresentato nella pagina.
 
-Consente inoltre di accedere al [Editor scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md), in cui è possibile modificare lo scenario.
+Consente inoltre di accedere all&#39;editor dello scenario [In [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md), dove è possibile modificare lo scenario.
 
 ## Requisiti di accesso
 
@@ -38,30 +38,30 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   </tr> 
   <tr> 
    <td role="rowheader">Licenza [!UICONTROL Adobe Workfront Fusion]**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro] </p><p>[!UICONTROL [!DNL Workfront Fusion] per automazione lavoro] </p><p>[!UICONTROL [!DNL Workfront Fusion] per automazione lavoro]</p>   </td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione lavoro] </p><p>[!UICONTROL [!DNL Workfront Fusion] per automazione lavoro] </p><p>[!UICONTROL [!DNL Workfront Fusion] per automazione lavoro]</p>   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
    <td>
-   <p>Fabbisogno prodotto corrente: se si dispone di [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Pianifica, la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo. [!DNL Workfront Fusion] è incluso in [!UICONTROL Ultimate] [!DNL Workfront] piano.</p>
+   <p>Fabbisogno prodotto corrente: se si dispone del piano [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], l'organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo. [!DNL Workfront Fusion] è incluso nel piano [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>Oppure</p>
-   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</p>
+   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore [!DNL Workfront].
 
-Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Apri [!UICONTROL Dettagli scenario] pagina:
+## Apri la pagina [!UICONTROL Dettagli scenario]:
 
-1. Fai clic su **[!UICONTROL Scenario]** nel pannello a sinistra, quindi fai clic su uno scenario su cui desideri visualizzare i dettagli.
+1. Fai clic sulla scheda **[!UICONTROL Scenario]** nel pannello a sinistra, quindi fai clic su uno scenario su cui desideri visualizzare i dettagli.
 
    Oppure
 
-   Se stai lavorando sullo scenario in [Editor scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md), fare clic sulla freccia sinistra ![](assets/exit-editing-arrow.png) nell&#39;angolo superiore sinistro della finestra.
+   Se si sta lavorando sullo scenario in [Editor scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md), fare clic sulla freccia sinistra ![](assets/exit-editing-arrow.png) nell&#39;angolo superiore sinistro della finestra.
 
 1. Nella pagina visualizzata, puoi esaminare gli elementi elencati nella tabella seguente.
 

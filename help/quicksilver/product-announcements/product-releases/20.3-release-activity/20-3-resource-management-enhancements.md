@@ -18,19 +18,19 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti alla gestione delle risorse apportati con la versione 20.3 all’ambiente di produzione. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana del 10 agosto 2020.
 
-Per un elenco di tutte le modifiche disponibili con la versione 20.3, consulta [Panoramica sulla versione 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 20.3, consulta la [panoramica sulla versione 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Includi ore da problemi nell’area Lavoro assegnato del Bilanciatore dei carichi di lavoro
 
 Per consentirti di visualizzare un quadro completo di tutti i carichi di lavoro delle persone, abbiamo introdotto un’impostazione che consente di includere le ore dei problemi nell’area Lavoro assegnato del Bilanciatore dei carichi di lavoro.
 
-Per informazioni sull’utilizzo del Bilanciatore dei carichi di lavoro, consulta [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Per informazioni sul funzionamento del Bilanciatore dei carichi di lavoro, vedere [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Regolare le allocazioni per i giorni non lavorativi nel Bilanciatore dei carichi di lavoro
 
 È possibile regolare le allocazioni per le risorse per i giorni non lavorativi utilizzando il Bilanciatore dei carichi di lavoro.
 
-Per informazioni sulla gestione delle allocazioni nel Bilanciatore dei carichi di lavoro, consulta [Gestire le allocazioni utente nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Per informazioni sulla gestione delle allocazioni nel Bilanciatore dei carichi di lavoro, vedere [Gestione delle allocazioni utente nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 ## Filtri per variabili disponibili nel Bilanciatore dei carichi di lavoro
 
@@ -44,13 +44,13 @@ Questi filtri sostituiscono le variabili di filtro con caratteri jolly di $$USER
 
 Quando applichi uno di questi filtri e condividi il Bilanciatore dei carichi di lavoro o lo inserisci in un dashboard, tutti gli altri utenti visualizzeranno le proprie informazioni.
 
-Per informazioni sull’applicazione di filtri al Bilanciatore dei carichi di lavoro, consulta [Filtrare le informazioni nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+Per informazioni sull&#39;applicazione dei filtri al Bilanciatore dei carichi di lavoro, vedere [Informazioni sui filtri nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
 ## Nuovo ordinamento per i progetti nel Bilanciatore dei carichi di lavoro
 
 Il Bilanciatore dei carichi di lavoro ora ordina i progetti in base alla prima Data inizio pianificata e in secondo luogo alla Data completamento pianificata più recente delle attività nel progetto che si verificano durante l’arco temporale visualizzato dall’utente. Questo consente di organizzare il lavoro in una gerarchia ad albero che consente di identificare più facilmente il lavoro per una giornata.
 
-Per informazioni sulla visualizzazione dei progetti e degli elementi di lavoro nel Bilanciatore dei carichi di lavoro, vedi [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Per informazioni sulla visualizzazione dei progetti e degli elementi di lavoro nel Bilanciatore dei carichi di lavoro, vedere [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Visualizzare l’avanzamento del lavoro effettivo nel Bilanciatore dei carichi di lavoro
 
@@ -58,12 +58,12 @@ Per fornire una prospettiva accurata dell’avanzamento del carico di lavoro, ne
 
 Inoltre, con questo miglioramento, se un’attività o un problema viene completato prima della data di completamento pianificata, le ore allocate dai giorni rimanenti vengono completate per indicare che non vengono conteggiate nell’allocazione complessiva dell’utente.
 
-Per informazioni sulla navigazione nel Bilanciatore dei carichi di lavoro e sull’abilitazione delle impostazioni, consulta [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Per informazioni su come navigare nel Bilanciatore dei carichi di lavoro e abilitare le impostazioni, vedere [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Funzioni del Bilanciatore dei carichi di lavoro precedentemente comunicate come rilascio con la versione 20.2
 
-* [Regolare l’allocazione giornaliera e settimanale nel Bilanciatore dei carichi di lavoro](#adjust-daily-and-weekly-allocation-in-the-workload-balancer)
-* [Aggiornare le ore pianificate per l’attività nel Bilanciatore dei carichi di lavoro](#update-task-planned-hours-in-the-workload-balancer)
+* [Regola l&#39;allocazione giornaliera e settimanale nel Bilanciatore dei carichi di lavoro](#adjust-daily-and-weekly-allocation-in-the-workload-balancer)
+* [Aggiorna le ore pianificate per l&#39;attività nel Bilanciatore dei carichi di lavoro](#update-task-planned-hours-in-the-workload-balancer)
 * [Un modo più pratico per aggiornare le allocazioni nel Bilanciatore dei carichi di lavoro](#a-more-convenient-way-to-update-allocations-in-the-workload-balancer)
 
 ### Regolare l’allocazione giornaliera e settimanale nel Bilanciatore dei carichi di lavoro {#adjust-daily-and-weekly-allocation-in-the-workload-balancer}
@@ -72,7 +72,7 @@ Per evitare il burnout delle risorse, ora puoi regolare l’allocazione giornali
 
 Prima di questo miglioramento, questo era possibile solo utilizzando gli strumenti di pianificazione delle risorse.
 
-Per informazioni sulla gestione delle allocazioni nel Bilanciatore dei carichi di lavoro, consulta [Gestire le allocazioni utente nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Per informazioni sulla gestione delle allocazioni nel Bilanciatore dei carichi di lavoro, vedere [Gestione delle allocazioni utente nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 **Disponibile in questi ambienti:**
 
@@ -87,12 +87,12 @@ Per informazioni sulla gestione delle allocazioni nel Bilanciatore dei carichi d
 
 Una nuova opzione nell’area Gestione risorse del livello di accesso ora consente agli utenti con questo livello di accesso di modificare le Ore pianificate dal Bilanciatore dei carichi di lavoro. Quando si modificano le allocazioni nel Bilanciatore dei carichi di lavoro, il totale delle allocazioni giornaliere non deve necessariamente corrispondere al numero di ore pianificate delle attività. Una volta salvate le allocazioni, il totale delle ore di allocazione diventerà le ore pianificate dell&#39;attività. Ciò è possibile solo per le attività con un tipo di durata semplice.
 
-Per informazioni sulla gestione delle allocazioni nel Bilanciatore dei carichi di lavoro, consulta [Gestire le allocazioni utente nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Per informazioni sulla gestione delle allocazioni nel Bilanciatore dei carichi di lavoro, vedere [Gestione delle allocazioni utente nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
-Per informazioni sulla concessione dell&#39;accesso a Gestione risorse, vedere [Concedere l’accesso alla gestione delle risorse](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+Per informazioni sulla concessione dell&#39;accesso a Gestione risorse, vedere [Concedere l&#39;accesso a Gestione risorse](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 
 ### Un modo più pratico per aggiornare le allocazioni nel Bilanciatore dei carichi di lavoro {#a-more-convenient-way-to-update-allocations-in-the-workload-balancer}
 
 Per semplificare la gestione delle allocazioni di un utente a un elemento di lavoro nel Bilanciatore dei carichi di lavoro, è ora possibile fare doppio clic sull’elemento di lavoro. È inoltre possibile utilizzare l&#39;opzione di menu Modifica allocazioni esistente. Inoltre, non è più necessario abilitare la visualizzazione delle allocazioni per poterle aggiornare.
 
-Per informazioni sulla gestione delle allocazioni nel Bilanciatore dei carichi di lavoro, consulta [Gestire le allocazioni utente nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Per informazioni sulla gestione delle allocazioni nel Bilanciatore dei carichi di lavoro, vedere [Gestione delle allocazioni utente nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).

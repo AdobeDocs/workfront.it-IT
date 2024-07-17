@@ -17,8 +17,8 @@ ht-degree: 0%
 
 Le informazioni contenute in questo articolo sono state spostate.
 
-Vedi:
+Consulta:
 
-* [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md): Questo articolo spiega come creare un rapporto da zero.
-* [Creare una copia di un rapporto](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md): Questo articolo spiega come creare una copia di un rapporto.
-* [Panoramica della modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md): Questo articolo contiene informazioni sulla modalità testo, che consente di migliorare le informazioni già aggiunte al rapporto con il generatore di report standard.
+* [Crea un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md): questo articolo spiega come creare un report da zero.
+* [Crea una copia di un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md): questo articolo spiega come creare una copia di un report.
+* [Panoramica sulla modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md): questo articolo contiene informazioni sulla modalità testo, che ti consente di migliorare le informazioni già aggiunte al report con il generatore di report standard.

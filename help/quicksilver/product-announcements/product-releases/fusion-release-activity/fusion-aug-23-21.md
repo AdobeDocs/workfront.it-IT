@@ -1,6 +1,6 @@
 ---
-title: Attività di rilascio di Workfront Fusion:&nbsp;Settimana del 23 agosto 2021
-description: Attività di rilascio di Workfront Fusion:&nbsp;Settimana del 23 agosto 2021
+title: Attività del rilascio di Workfront Fusion:&nbsp;Settimana del 23 agosto 2021
+description: Attività del rilascio di Workfront Fusion:&nbsp;Settimana del 23 agosto 2021
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti apportati ad Adobe Workfront Fusion la settimana del 23 agosto 2021.
 
-Per un elenco di tutte le modifiche recenti, vedi [Attività di rilascio di Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Per un elenco di tutte le modifiche recenti, vedere [Attività di Adobe Workfront Fusion release](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedi [Aggiornamenti di manutenzione per Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
+Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedere la pagina [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
 
 ## I campi typeahead sono ora disponibili nei moduli Workfront
 
@@ -28,7 +28,7 @@ Per semplificare l’utilizzo dei moduli, in alcuni elenchi a discesa sono stati
 
 In precedenza, gli utenti selezionavano gli elementi dagli elenchi a discesa. A seconda dell’oggetto, questi elenchi potrebbero essere lunghi e potrebbe essere scomodo scorrere e individuare gli elementi.
 
-Per ulteriori informazioni sui moduli Workfront, consulta [Moduli Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Per ulteriori informazioni sui moduli Workfront, vedere [Moduli Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 ## Oggetto record fatturazione ora disponibile nei moduli Workfront
 
@@ -43,7 +43,7 @@ L’oggetto record Fatturazione è disponibile negli elenchi a discesa di selezi
 
 In precedenza, l’oggetto record fatturazione era disponibile solo tramite la mappatura.
 
-Per ulteriori informazioni, consulta [Moduli Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Per ulteriori informazioni, vedere [Moduli Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

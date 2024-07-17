@@ -62,7 +62,7 @@ In questo 5° Alpha sono disponibili:
 * Possibilità di aggiungere approvatori esterni
 * È stata migliorata la visualizzazione per gli approvatori esterni di anteprima, download e commenti su un documento.
 
-Osserva [video introduttivo](https://video.tv.adobe.com/v/3424613/){target=_blank}.
+Guarda la [procedura dettagliata](https://video.tv.adobe.com/v/3424613/){target=_blank}.
 
 ### Versione Alpha 4 - Maggio 2023
 
@@ -70,23 +70,23 @@ In questa versione del quarto Alpha, prima del lancio in produzione per un solo 
 
 Siamo entusiasti di questa pietra miliare e non vediamo l&#39;ora di molto altro!
 
-Osserva [video introduttivo](https://video.tv.adobe.com/v/3420094/){target=_blank}.
+Guarda la [procedura dettagliata](https://video.tv.adobe.com/v/3420094/){target=_blank}.
 
 ### Versione Alpha 3 - marzo 2023
 
 In questo terzo Alpha, i tuoi commenti e suggerimenti sono stati integrati con l’introduzione di messaggi di successo che vengono visualizzati al termine di azioni quali l’aggiunta o la rimozione di approvatori e revisori. Inoltre, questa versione offre una visibilità migliorata delle approvazioni in sospeso, che ora possono essere visualizzate nella pagina Home e My Updates (I miei aggiornamenti), consentendo agli utenti di approvare facilmente i documenti direttamente da queste pagine.
 
-Osserva [video introduttivo](https://video.tv.adobe.com/v/3417854/){target=_blank}.
+Guarda la [procedura dettagliata](https://video.tv.adobe.com/v/3417854/){target=_blank}.
 
 ### Alpha versione 2 - gennaio 2023
 
 Con questa versione dell’Alpha 2 puoi aggiungere singoli utenti e team come revisori o approvatori e prendere decisioni di approvazione direttamente dalla pagina dei dettagli del documento.
 
-Osserva [video introduttivo](https://video.tv.adobe.com/v/3413941){target=_blank}.
+Guarda la [procedura dettagliata](https://video.tv.adobe.com/v/3413941){target=_blank}.
 
 ### Alpha versione 1 - novembre 2022
 
-Guarda il [video introduttivo](https://video.tv.adobe.com/v/3412837){target=_blank} e sentiti libero di seguirti, se lo desideri!
+Guarda il [video](https://video.tv.adobe.com/v/3412837){target=_blank} e puoi seguirlo, se lo desideri.
 
 Se desideri seguire il video, imposta nell’ambiente di anteprima quanto segue:
 
@@ -102,4 +102,4 @@ Se desideri seguire il video, imposta nell’ambiente di anteprima quanto segue:
 
 ## Invia feedback
 
-Apprezziamo il tuo contributo e riteniamo che la tua prospettiva sia fondamentale per aiutarci a creare il miglior prodotto possibile. In caso di feedback specifici su cosa sarebbe necessario per consentire alla tua azienda di adottare questa soluzione in produzione, inviala a [jbarron@adobe.com](mailto:jbarron@adobe.com).
+Apprezziamo il tuo contributo e riteniamo che la tua prospettiva sia fondamentale per aiutarci a creare il miglior prodotto possibile. Poiché hai un feedback specifico su ciò che sarebbe necessario affinché la tua azienda adotti questa soluzione in produzione, inviala a [jbarron@adobe.com](mailto:jbarron@adobe.com).

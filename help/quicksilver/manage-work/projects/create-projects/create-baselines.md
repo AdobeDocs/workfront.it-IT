@@ -97,34 +97,34 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 >[!IMPORTANT]
 >
->Una previsione crea un&#39;istantanea del nome, delle date e delle informazioni finanziarie del progetto. La previsione non include i valori dei campi personalizzati nel progetto. Per informazioni sulle informazioni finanziarie incluse nella baseline, vedere [Finanziamenti del progetto inclusi nelle linee di base del progetto](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md).
+>Una previsione crea un&#39;istantanea del nome, delle date e delle informazioni finanziarie del progetto. La previsione non include i valori dei campi personalizzati nel progetto. Per informazioni sulle informazioni finanziarie incluse nella previsione, vedere [Dati finanziari del progetto inclusi nelle previsioni del progetto](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md).
 
 ## Creare una baseline
 
 È possibile creare una baseline nei modi seguenti:
 
-* **Automaticamente**: l&#39;amministratore di Workfront o un amministratore di gruppo imposta la preferenza del progetto affinché Workfront crei automaticamente una previsione quando un progetto diventa Attuale. Quando questa impostazione è attivata, viene creata una baseline quando lo stato del progetto diventa Attuale. Se questa impostazione non è abilitata, è necessario creare manualmente le baseline.
+* **Automaticamente**: l&#39;amministratore di Workfront o di un gruppo imposta la preferenza di Workfront per la creazione automatica di una previsione quando un progetto diventa Attuale. Quando questa impostazione è attivata, viene creata una baseline quando lo stato del progetto diventa Attuale. Se questa impostazione non è abilitata, è necessario creare manualmente le baseline.
 
-  Per ulteriori informazioni sulla configurazione delle preferenze del progetto e sulla creazione automatica della linea di base, consulta [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Per ulteriori informazioni sulla configurazione delle preferenze di progetto e sulla creazione automatica della linea di base, vedere [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
   >[!CAUTION]
   >
   >Se si attiva questa impostazione, viene creata automaticamente una previsione per un progetto ogni volta che lo stato di un progetto cambia in Corrente. La prima baseline creata è quella predefinita. È necessario creare manualmente tutte le altre linee di base durante il ciclo di vita del progetto.
 
-* **Manualmente**: puoi creare nuove linee di base per il progetto, in base alle esigenze, man mano che il progetto procede. Puoi quindi confrontare le linee di base per vedere come il progetto è progredito nel tempo.
+* **Manualmente**: è possibile creare nuove linee di base per il progetto in base alle esigenze man mano che il progetto procede. Puoi quindi confrontare le linee di base per vedere come il progetto è progredito nel tempo.
 
 Per creare una baseline:
 
 1. Passa a un progetto.
-1. Nel pannello a sinistra, fai clic su **Linee di base**.
+1. Nel pannello a sinistra, fai clic su **Baseline**.
 
    Oppure
 
-   Clic **Mostra altro**, quindi fai clic su **Linee di base**.
+   Fai clic su **Mostra altro**, quindi fai clic su **Previsioni**.
 
-   ![Sezione linee di base sul progetto](assets/baselines-section-on-project-with-header.png)
+   ![Sezione previsioni sul progetto](assets/baselines-section-on-project-with-header.png)
 
-1. Clic **Nuova baseline.**
+1. Fare clic su **Nuova previsione.**
 1. Specificare il nome della baseline.
 1. (Facoltativo) Se si tratta della prima previsione, è possibile sceglierla come predefinita.
 1. Fai clic su **Salva**.
@@ -143,7 +143,7 @@ Per creare una baseline:
      >
      >Non è possibile visualizzare contemporaneamente le informazioni di due baseline nella stessa visualizzazione o nello stesso report. Nello stesso rapporto è possibile visualizzare solo le informazioni di una determinata baseline e della baseline predefinita. È possibile modificare la baseline che si considera essere la baseline predefinita in qualsiasi momento durante la durata del progetto.
 
-1. (Facoltativo) Fai clic su **Visualizza** , quindi creare una nuova visualizzazione o modificare la visualizzazione corrente per aggiungere campi alla visualizzazione e confrontare informazioni aggiuntive tra le baseline. Per informazioni, consulta [Creare o modificare viste in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+1. (Facoltativo) Fai clic sul pulsante **Visualizza**, quindi crea una nuova visualizzazione o modifica la visualizzazione corrente per aggiungere campi alla visualizzazione e confrontare informazioni aggiuntive tra le linee di base. Per informazioni, vedere [Creare o modificare le visualizzazioni in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## Creare un report di attività previsto o previsto
 
@@ -153,8 +153,8 @@ Per visualizzare le informazioni sulle previsioni, è inoltre possibile creare u
 >
 >È necessario creare una baseline prima di creare un report di attività baseline o baseline.
 
-Per informazioni sulla creazione di un rapporto, consulta [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Per informazioni sulla creazione di un report, vedere [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 È consigliabile aggiungere un raggruppamento Nome progetto al report Attività linea di base o Previsione per semplificarne la lettura.
 
-Per informazioni sulla creazione di un raggruppamento, consulta [Creare raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).
+Per informazioni sulla creazione di un raggruppamento, vedere [Creare raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).

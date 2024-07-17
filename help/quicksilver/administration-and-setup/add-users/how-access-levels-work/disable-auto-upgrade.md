@@ -21,7 +21,7 @@ ht-degree: 1%
 
 Le decisioni su bozze e documenti sono limitate per tutte le licenze Workfront non pagate sui nuovi piani. Quando gli utenti raggiungono il numero di decisioni che gli sono state assegnate, per impostazione predefinita vengono aggiornati a una licenza Light.
 
-È possibile disattivare l&#39;opzione di aggiornamento automatico dall&#39;area di configurazione. Per ulteriori informazioni sul funzionamento degli aggiornamenti automatici, consulta [Documento limitato e decisione sulla bozza per utenti non pagati - Panoramica](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
+È possibile disattivare l&#39;opzione di aggiornamento automatico dall&#39;area di configurazione. Per ulteriori informazioni sul funzionamento degli aggiornamenti automatici, consulta [Panoramica sul documento limitato e sulla decisione relativa alla bozza per gli utenti non pagati](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
 
 >[!IMPORTANT]
 >
@@ -56,6 +56,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 {{step-1-to-setup}}
 
-1. Espandi [!UICONTROL **Sistema**] nel menu di navigazione a sinistra, fai clic su [!UICONTROL **Preferenze**].
-1. In [!UICONTROL **Preferenze generali**] sezione, controlla la [!UICONTROL **Disattiva l’aggiornamento automatico nei Livelli di accesso**] casella.
+1. Espandi [!UICONTROL **Sistema**] nel menu di navigazione a sinistra, quindi fai clic su [!UICONTROL **Preferenze**].
+1. Nella sezione [!UICONTROL **Preferenze generali**], seleziona la casella [!UICONTROL **Disattiva aggiornamento automatico in Livelli di accesso**].
 1. Fai clic su [!UICONTROL **Salva**].

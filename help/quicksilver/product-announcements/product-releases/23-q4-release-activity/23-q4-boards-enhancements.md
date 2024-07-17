@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione del quarto trimestre 2023. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione con la versione 23.10.
 
-Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rilascio del quarto trimestre del 2023, consulta [Panoramica sulla versione del quarto trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+Per un elenco di tutte le modifiche disponibili in questo momento nel ciclo di rilascio del quarto trimestre 2023, consulta [Panoramica sulla versione del quarto trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
-Per informazioni dettagliate su come acconsentire alle nuove funzioni delle bacheche prima del rilascio trimestrale, consulta [Consenso anticipato alle funzioni per le schede madri Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+Per informazioni dettagliate su come acconsentire alle nuove funzionalità delle bacheche prima del rilascio trimestrale, consulta [Accettazione anticipata delle funzionalità per le bacheche Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## Le sottoattività sono ora disponibili sulle bacheche di Adobe Workfront
 
@@ -28,9 +28,9 @@ L&#39;utilizzo delle sottoattività sulle schede consente di creare una gerarchi
 
 Al momento, le sottoattività non sono visibili sulla bacheca come schede separate e non sono disponibili per i problemi.
 
-Per ulteriori informazioni, consulta [Gestire le sottoattività nelle bacheche](/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md).
+Per ulteriori informazioni, vedere [Gestione delle sottoattività nelle bacheche](/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md).
 
-[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3424860/){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità.](https://video.tv.adobe.com/v/3424860/){target=_blank}
 
 ## Aggiungi documenti su schede collegate
 
@@ -38,9 +38,9 @@ Per ulteriori informazioni, consulta [Gestire le sottoattività nelle bacheche](
 
 Al momento, non è possibile eliminare documenti dalla scheda, ma è possibile eliminare un documento dalla scheda Documenti sull’attività o sul problema.
 
-Per ulteriori informazioni, consulta [Aggiungi documenti su schede](/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md).
+Per ulteriori informazioni, vedere [Aggiungere documenti sulle schede](/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md).
 
-[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3423070/){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità.](https://video.tv.adobe.com/v/3423070/){target=_blank}
 
 ## Miglioramenti alle assegnazioni utente su bacheche e schede
 
@@ -50,9 +50,9 @@ Sono ora disponibili i seguenti miglioramenti per l’aggiunta di utenti a sched
 * L’aggiunta di un utente come assegnatario a una scheda non aggiunge più automaticamente tale utente come membro della bacheca.
 * La rimozione di un utente da una bacheca non rimuove più l’utente da tutte le assegnazioni di schede per la bacheca.
 
-Per ulteriori informazioni, consulta [Aggiungere o rimuovere membri da una bacheca](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
+Per ulteriori informazioni, vedere [Aggiungere o rimuovere membri da una bacheca](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
-[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3423222/){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3423222/){target=_blank}
 
 ## Documenti disponibili sulle schede collegate come sola visualizzazione
 
@@ -60,7 +60,7 @@ Per le schede collegate sulle bacheche Adobe Workfront, ora è possibile visuali
 
 In questo momento, è necessario caricare un documento nell&#39;attività Workfront per renderlo disponibile sulla scheda collegata.
 
-Per ulteriori informazioni, consulta [Utilizzare le schede collegate sulle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Per ulteriori informazioni, vedere [Utilizzare schede collegate nelle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## La vista bacheca di un progetto è ora disponibile per i problemi
 
@@ -70,4 +70,4 @@ Ora puoi accedere alla vista Bacheca di un elenco di problemi di progetto. La ba
 >
 >La visualizzazione Bacheca esiste solo in un singolo progetto, perché è una visualizzazione alternativa del progetto e non è possibile accedervi da altre aree di Workfront, ad esempio il dashboard Bacheche.
 
-Per ulteriori informazioni, consulta [Gestire un progetto nella visualizzazione Agile](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Per ulteriori informazioni, consulta [Gestire un progetto in Agile View](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).

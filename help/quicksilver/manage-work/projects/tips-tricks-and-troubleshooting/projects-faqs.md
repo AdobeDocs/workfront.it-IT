@@ -20,13 +20,13 @@ Di seguito sono riportate le domande frequenti sui progetti.
 
 ### Risposta
 
-Per utilizzare le opzioni di inserimento, l&#39;elenco delle attività deve essere ordinato per numero. Per ordinare la colonna per numero, fare clic su **N.** nell’intestazione della colonna a sinistra di **Nome attività** per riattivare l&#39;attività in base al numero.
+Per utilizzare le opzioni di inserimento, l&#39;elenco delle attività deve essere ordinato per numero. Per ordinare la colonna in base al numero, fare clic su **#** nell&#39;intestazione della colonna a sinistra di **Nome attività** per ripristinare l&#39;attività in base al numero.
 
 ## Qual è la data di completamento effettiva?
 
 ### Risposta
 
-La data di completamento effettiva rappresenta la data e l&#39;ora in cui il lavoro viene completato. Per ulteriori informazioni, consulta [Panoramica della data di completamento effettiva del progetto](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
+La data di completamento effettiva rappresenta la data e l&#39;ora in cui il lavoro viene completato. Per ulteriori informazioni, vedere [Panoramica della data di completamento effettiva del progetto](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
 
 ## Perché manca il pulsante Rientro/Rientro negativo?
 
@@ -51,7 +51,7 @@ Non puoi cambiare lo stato di un progetto da completare se nel progetto è prese
 
 ### Risposta
 
-Se la modalità di completamento del progetto è impostata su Automatico, dopo il completamento di tutte le attività e i problemi, lo stato del progetto diventa automaticamente Completo e non è possibile modificarlo in nessun altro stato. La Modalità di completamento del progetto deve essere impostata su Manuale per poter portare un progetto completo su Corrente. Per informazioni, consulta [Lo stato del progetto non cambierà da Completo a Corrente](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md).
+Se la modalità di completamento del progetto è impostata su Automatico, dopo il completamento di tutte le attività e i problemi, lo stato del progetto diventa automaticamente Completo e non è possibile modificarlo in nessun altro stato. La Modalità di completamento del progetto deve essere impostata su Manuale per poter portare un progetto completo su Corrente. Per informazioni, vedere [Lo stato del progetto non cambierà da Completo a Corrente](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md).
 
 ## Perché non è possibile aggiungere un progetto a un Portfolio, anche se si dispone delle autorizzazioni corrette?
 
@@ -62,10 +62,10 @@ Anche se dispongo delle autorizzazioni corrette, il pulsante Aggiungi progetti n
 Ciò è dovuto al fatto che lo stato del Portfolio è Inattivo. Per modificare lo stato del Portfolio:
 
 1. Fai clic su **Dettagli Portfolio > Panoramica**.
-1. Modificare il **Stato** a **Attivo.**
+1. Cambia **Stato** in **Attivo.**
 
 1. Fai clic su **Salva**.\
-   Il **Aggiungi progetti** dovrebbe ora essere visibile sul **Progetti** scheda.
+   Il pulsante **Aggiungi progetti** deve essere ora visibile nella scheda **Progetti**.
 
 ## Quale accesso riceve un Responsabile risorse quando viene aggiunto a un progetto?
 
@@ -79,7 +79,7 @@ I responsabili delle risorse ricevono automaticamente l&#39;accesso Gestisci ai 
 
 Gli stati del progetto cambiano a causa degli stati predefiniti del gruppo. Quando si aggiunge un gruppo a un progetto, l&#39;elenco degli stati viene modificato in quello predefinito impostato per il gruppo.
 
-Per ulteriori informazioni, consulta l’articolo [Creare o modificare uno stato](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+Per ulteriori informazioni, vedere l&#39;articolo [Creare o modificare uno stato](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 ## Cos&#39;è lo stato del budget?
 
@@ -101,4 +101,4 @@ L’amministratore Adobe Workfront ti ha limitato alla visualizzazione delle sol
 
 ![](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
 
-Per informazioni su come consentire a un utente di visualizzare tutti i team nel sistema, consulta [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Per informazioni su come consentire a un utente di visualizzare tutti i team nel sistema, vedere [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).

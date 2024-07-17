@@ -2,20 +2,20 @@
 product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Utilizzare le date pianificate in un rapporto calendario
-description: Un rapporto calendario è un rapporto dinamico che fornisce una rappresentazione visiva del lavoro. È possibile utilizzare i campi Data pianificata in un rapporto calendario per attività, problemi e progetti.
+description: Un report calendario è un report dinamico che fornisce una rappresentazione visiva del lavoro. È possibile utilizzare i campi Data pianificata in un report calendario per attività, problemi e progetti.
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 27bf6f03-2f6b-4556-a715-75c4a21bfbbb
 source-git-commit: e5a3024b1657942cd7abdfff76a7a6795127a4f5
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '663'
 ht-degree: 1%
 
 ---
 
-# Utilizzo [!UICONTROL Date previste] in un rapporto calendario
+# Usa [!UICONTROL date pianificate] in un report calendario
 
-Un rapporto calendario è un rapporto dinamico che fornisce una rappresentazione visiva del lavoro. È possibile utilizzare [!UICONTROL Data prevista] campi in un report del calendario per i seguenti oggetti:
+Un report calendario è un report dinamico che fornisce una rappresentazione visiva del lavoro. Puoi utilizzare i campi [!UICONTROL Data pianificata] in un report calendario per i seguenti oggetti:
 
 * Attività
 * Problemi
@@ -40,33 +40,33 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurazioni a livello di accesso*</strong></td> 
-   <td> <p>Accesso a [!UICONTROL Edit] e ai [!UICONTROL Reports], [!UICONTROL Dashboards] e [!UICONTROL Calendars]</p> <p>Nota: Se non hai ancora accesso, chiedi [!DNL Workfront] amministratore se imposta ulteriori restrizioni nel livello di accesso. Per informazioni su come [!DNL Workfront] l'amministratore può modificare il livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
+   <td> <p>Accesso di [!UICONTROL Edit] a [!UICONTROL Reports], [!UICONTROL Dashboards] e [!UICONTROL Calendars]</p> <p>Nota: se non disponi ancora dell'accesso, chiedi all'amministratore [!DNL Workfront] se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di [!DNL Workfront] può modificare il tuo livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Accesso a [!UICONTROL Gestisci] al report del calendario</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Accesso [!UICONTROL Gestisci] al report calendario</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
 
 ## Imposta il gruppo di elementi
 
 È possibile scegliere la modalità di visualizzazione del gruppo di elementi nel calendario.
 
-1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Calendari]**.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Calendari]**.
 
 1. Selezionare il calendario a cui si desidera aggiungere un nuovo gruppo di elementi.\
    Oppure\
-   Fai clic su **[!UICONTROL + Nuovo calendario]** e immetti il nome del calendario.
+   Fare clic su **[!UICONTROL + Nuovo calendario]** e immettere il nome del calendario.
 
    >[!NOTE]
    >
-   >Per creare un rapporto sul calendario, è necessario disporre dell&#39;accesso a Modifica a Report, Dashboard e Calendari nel livello di accesso.
+   >Per creare un report calendario, è necessario disporre dell&#39;accesso Modifica a Report, Dashboard e Calendari nel proprio livello di accesso.
 
-1. A sinistra, fai clic su **[!UICONTROL Aggiungi al calendario]**, quindi fai clic su **[!UICONTROL Aggiungi elementi avanzati]**.
+1. A sinistra, fai clic su **[!UICONTROL Aggiungi al calendario]**, quindi su **[!UICONTROL Aggiungi elementi avanzati]**.
 
 1. Specifica quanto segue:
 
@@ -76,69 +76,69 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
     <tbody>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Denomina questo gruppo di elementi]</strong></td>
-      <td>Digita un nome per il gruppo di elementi.</td>
+      <td>Digitare un nome per il gruppo di elementi.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Color]</strong></td>
-      <td>Selezionare un colore per il gruppo di elementi. Tutti gli elementi vengono visualizzati nel colore selezionato nel report del calendario.</td>
+      <td>Selezionare un colore per il gruppo di elementi. Tutti gli elementi vengono visualizzati nel colore selezionato nel report calendario.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Campo data]</strong></td>
-      <td><p>Scegli <strong>[!UICONTROL Date pianificate]</strong>. Per ulteriori informazioni sulle date pianificate, vedi </p>
+      <td role="rowheader"><strong>[!UICONTROL Date Field]</strong></td>
+      <td><p>Scegliere <strong>[!UICONTROL Date pianificate]</strong>. Per ulteriori informazioni sulle date pianificate, consulta </p>
        <ul>
-        <li><a href="../../../manage-work/projects/planning-a-project/project-planned-start-date.md" class="MCXref xref">Panoramica del progetto Data di inizio prevista</a></li>
-        <li><a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Panoramica dell'attività Data inizio prevista</a></li>
-        <li><a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Panoramica dell'attività Data completamento pianificata</a></li>
-        <li><a href="../../../manage-work/projects/planning-a-project/project-planned-completion-date.md" class="MCXref xref">Imposta la data di completamento pianificato del progetto</a><br></li>
+        <li><a href="../../../manage-work/projects/planning-a-project/project-planned-start-date.md" class="MCXref xref">Panoramica della data di inizio pianificata del progetto</a></li>
+        <li><a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Panoramica della data di inizio pianificata dell'attività</a></li>
+        <li><a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Panoramica della data di completamento pianificata dell'attività</a></li>
+        <li><a href="../../../manage-work/projects/planning-a-project/project-planned-completion-date.md" class="MCXref xref">Impostare la data di completamento pianificata del progetto</a><br></li>
        </ul></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>Sul calendario, mostra</strong></td>
-      <td><p>Scegli come visualizzare le date:</p>
+      <td><p>Scegliere la modalità di visualizzazione delle date:</p>
        <ul>
-        <li><strong>[!UICONTROL Solo data di inizio]</strong>: Il calendario visualizza l'oggetto in una sola data.</li>
-        <li><strong>[!UICONTROL Solo data di fine]</strong>: Il calendario visualizza l'oggetto in una sola data.</li>
-        <li><strong>[!UICONTROL Duration] (da inizio a fine)</strong>: Nel calendario l'oggetto viene visualizzato in un intervallo di giorni.</li>
+        <li><strong>[!UICONTROL Solo data di inizio]</strong>: il calendario visualizza l'oggetto in un'unica data.</li>
+        <li><strong>[!UICONTROL Solo data di fine]</strong>: il calendario visualizza l'oggetto in un'unica data.</li>
+        <li><strong>[!UICONTROL Duration] (dall'inizio alla fine)</strong>: il calendario visualizza l'oggetto in un intervallo di giorni.</li>
        </ul></td>
      </tr>
      <tr data-mc-conditions="">
-      <td role="rowheader"><strong>[!UICONTROL Passa alle date effettive quando disponibile]</strong></td>
-      <td><p>Il calendario passa automaticamente alle date effettive quando sono disponibili. <br>Scegli <strong>[!UICONTROL Sì]</strong> o <strong>[!UICONTROL No]</strong> per passare alle date effettive quando disponibili. Per ulteriori informazioni sulle date effettive, vedi</p>
+      <td role="rowheader"><strong>[!UICONTROL Passa alle date effettive quando disponibili]</strong></td>
+      <td><p>Il calendario passa automaticamente alle date effettive quando sono disponibili. <br>Scegliere <strong>[!UICONTROL Sì]</strong> o <strong>[!UICONTROL No]</strong> per passare alle date effettive quando disponibili. Per ulteriori informazioni sulle date effettive, consulta</p>
        <ul>
         <li><a href="../../../manage-work/projects/planning-a-project/project-actual-start-date.md" class="MCXref xref">Panoramica della data di inizio effettiva del progetto </a></li>
-        <li><a href="../../../manage-work/projects/planning-a-project/project-actual-completion-date.md" class="MCXref xref">Panoramica della data di completamento effettivo del progetto </a></li>
+        <li><a href="../../../manage-work/projects/planning-a-project/project-actual-completion-date.md" class="MCXref xref">Panoramica della data di completamento effettiva del progetto </a></li>
        </ul></td>
      </tr>
     </tbody>
    </table>
 
-1. Procedi alla sezione seguente.
+1. Passare alla sezione seguente.
 
 ## Aggiungere oggetti al gruppo di elementi
 
 Dopo aver impostato la modalità di visualizzazione degli elementi, è necessario aggiungere al raggruppamento gli oggetti che si desidera visualizzare nel calendario.
 
-1. In **[!UICONTROL Cosa desideri aggiungere al calendario?]** sezione , seleziona
+1. In **[!UICONTROL Cosa aggiungere al calendario?]** sezione, seleziona
 
    * **[!UICONTROL Attività]**
    * **[!UICONTROL Progetti]**
    * **[!UICONTROL Problemi]**
 
-1. Fai clic su **[!UICONTROL Aggiungi attività]**, **[!UICONTROL Aggiungi progetti]** oppure **[!UICONTROL Aggiungi problemi]**, a seconda del tipo di oggetto che si sta aggiungendo al calendario.\
-   ![Selezionare l&#39;oggetto per il calendario](assets/field-name.png)
+1. Fai clic su **[!UICONTROL Aggiungi attività]**, **[!UICONTROL Aggiungi progetti]** o **[!UICONTROL Aggiungi problemi]**, a seconda del tipo di oggetto che stai aggiungendo al calendario.\
+   ![Seleziona l&#39;oggetto per il calendario](assets/field-name.png)
 
-1. Nel menu a discesa, inizia a digitare il nome del campo, quindi seleziona l’origine del campo dell’oggetto da visualizzare nel calendario (ad esempio, **[!UICONTROL Attività in ritardo]**).
-1. Imposta un&#39;istruzione condizione per il raggruppamento del calendario.
+1. Nel menu a discesa, iniziare a digitare il nome del campo, quindi selezionare l&#39;origine del campo dell&#39;oggetto che si desidera visualizzare nel calendario, ad esempio **[!UICONTROL Attività in ritardo]**.
+1. Imposta un&#39;istruzione di condizione per il raggruppamento del calendario.
 
    ![Istruzione condizione](assets/condition-statement-calendar.png)
 
-   Per informazioni sull’impostazione delle condizioni, consulta [Modificatori di filtri e condizioni](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Per informazioni sull&#39;impostazione delle condizioni, vedere [Filtri e modificatori di condizioni](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
-1. (Facoltativo) Specificare oggetti aggiuntivi per il raggruppamento del calendario ripetendo i passaggi 1-4.
-1. In **[!UICONTROL Imposta le etichette Attività/Progetti/Problemi su...]** selezionare la modalità di etichettatura degli oggetti del raggruppamento di calendario nel calendario.
+1. (Facoltativo) Specificare oggetti aggiuntivi per il raggruppamento del calendario ripetendo i passaggi da 1 a 4.
+1. Nel campo **[!UICONTROL Imposta le etichette Attività/Progetti/Problemi come campo...]**, seleziona l&#39;etichetta degli oggetti in questo raggruppamento di calendari nel calendario.
 
    >[!NOTE]
    >
-   >Se le opzioni di etichetta predefinite non sono disponibili per un determinato oggetto, viene visualizzato il nome dell’oggetto. Ad esempio, quando [!UICONTROL Attività principale] l’etichetta è selezionata e non è presente alcuna attività principale associata all’oggetto, [!DNL Adobe Workfront] visualizza il nome dell&#39;oggetto visualizzato nel calendario.
+   >Se le opzioni predefinite dell&#39;etichetta non sono disponibili per un determinato oggetto, viene visualizzato il nome dell&#39;oggetto. Ad esempio, quando l&#39;etichetta [!UICONTROL Attività padre] è selezionata e non è associata alcuna attività padre all&#39;oggetto, [!DNL Adobe Workfront] visualizza il nome dell&#39;oggetto visualizzato nel calendario.
 
 1. Fai clic su **[!UICONTROL Salva]**.

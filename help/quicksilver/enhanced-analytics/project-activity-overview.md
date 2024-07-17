@@ -10,7 +10,7 @@ exl-id: 9ef52be8-48d0-4f83-a214-dd32e794c73e
 source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
 source-wordcount: '757'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -23,7 +23,7 @@ La visualizzazione delle attività del progetto mostra una visualizzazione aggre
 >[!NOTE]
 >
 >La visualizzazione Attività per team si comporta in modo simile a questa, ma la visualizzazione Attività per team mostra l’attività del team principale per tutti i progetti.\
->Per informazioni sulla visualizzazione Attività per team, consulta [Visualizzare la visualizzazione Attività per team in Analisi avanzate](../enhanced-analytics/activity-by-team-overview.md).
+>Per informazioni sulla visualizzazione Attività per team, consulta [Visualizzazione Attività per team in Analisi avanzate](../enhanced-analytics/activity-by-team-overview.md).
 
 ## Requisiti di accesso
 
@@ -60,21 +60,21 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Prerequisiti
 
-Per i prerequisiti per utilizzare Enhanced Analytics, consulta la sezione &quot;Prerequisiti&quot; in [Panoramica di analisi avanzate](../enhanced-analytics/enhanced-analytics-overview.md).
+Per i prerequisiti per l&#39;utilizzo di Analisi avanzate, vedere la sezione &quot;Prerequisiti&quot; in [Panoramica di Analisi avanzate](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Comprendere la visualizzazione delle attività del progetto
 
 Le attività del progetto vengono visualizzate in colori diversi per riepilogare eventi specifici in un progetto in un determinato periodo di tempo:
 
-* **Utenti connessi**: le caselle viola mostrano che le persone assegnate al progetto hanno effettuato l’accesso in quel giorno. Un&#39;ombreggiatura più scura indica un numero maggiore di utenti che accedono.
+* **Utenti connessi**: le caselle viola mostrano che gli utenti assegnati al progetto hanno effettuato l&#39;accesso in quel giorno. Una tonalità più scura indica un numero maggiore di utenti che effettuano l’accesso.
 
   ![](assets/project-activity-users-logged-in.png)
 
-* **Modifica stato attività**: le caselle rosa mostrano che in quel giorno gli utenti hanno modificato lo stato di un’attività per il progetto. Un&#39;ombreggiatura più scura indica un numero maggiore di stati delle attività che cambiano.
+* **Modifica stato attività**: le caselle di colore rosa indicano che in quel giorno le persone hanno modificato lo stato di un&#39;attività per il progetto. Una tonalità più scura indica un numero maggiore di cambiamenti di stati delle attività.
 
   ![](assets/project-activity-task-status-changes.png)
 
-* **Attività completate**: le caselle blu mostrano che le persone hanno completato un’attività per il progetto. Un&#39;ombreggiatura più scura indica un numero maggiore di attività completate.
+* **Attività completate**: le caselle blu indicano che le persone hanno completato un&#39;attività per il progetto. Una tonalità più scura indica un numero maggiore di attività completate.
 
   ![](assets/project-activity-tasks-completed.png)
 
@@ -86,16 +86,16 @@ La visualizzazione di queste informazioni consente di determinare:
 * L’attività di un progetto rispetto ad altri progetti.
 * Quali utenti stanno lavorando a un progetto e con quale frequenza.
 
-Per scoprire come ottenere i dati migliori per questa visualizzazione, consulta [Panoramica di analisi avanzate](../enhanced-analytics/enhanced-analytics-overview.md).
+Per informazioni su come ottenere i dati migliori per questa visualizzazione, consulta [Panoramica sulle analisi avanzate](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Visualizzare l’attività Progetto
 
-1. Fai clic sull’icona Menu principale ![](assets/main-menu-icon-16x12.png), quindi seleziona **Analytics**.
+1. Fai clic sull&#39;icona del menu principale ![](assets/main-menu-icon-16x12.png), quindi seleziona **Analytics**.
 1. (Facoltativo) Per utilizzare un intervallo di date diverso, seleziona nuove date di inizio e fine dal filtro dell’intervallo di date.
 
    ![](assets/filters-select-date-range-350x344.png)
 
-   Per informazioni sull’utilizzo del filtro per intervalli di date, consulta [Applicare i filtri nelle analisi avanzate](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Per informazioni sull&#39;utilizzo del filtro dell&#39;intervallo di date, vedere [Applicare filtri in Analisi avanzate](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
    >[!NOTE]
    >
@@ -103,7 +103,7 @@ Per scoprire come ottenere i dati migliori per questa visualizzazione, consulta 
 
 1. (Condizionale) Se devi limitare il set di dati del progetto, seleziona e applica i filtri che desideri utilizzare.
 
-   Per ulteriori informazioni sull’aggiunta di filtri in Analisi avanzate, consulta [Applicare i filtri nelle analisi avanzate](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Per ulteriori informazioni sull&#39;aggiunta di filtri in Analisi avanzate, vedere [Applicare filtri in Analisi avanzate](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
    Dopo aver aggiunto i filtri, vengono visualizzati i dati per un massimo di 50 progetti e i filtri rimangono attivi anche dopo che hai lasciato la pagina o disconnesso da Workfront.
 
@@ -113,12 +113,12 @@ Per scoprire come ottenere i dati migliori per questa visualizzazione, consulta 
 
    ![](assets/timeframe-filter-350x220.png)
 
-1. (Facoltativo) Per modificare l’ordinamento dei progetti, fai clic sul pulsante **Ordina per** , quindi selezionare una nuova opzione di ordinamento:
+1. (Facoltativo) Per modificare l&#39;ordinamento dei progetti, fare clic sul menu **Ordina per**, quindi selezionare una nuova opzione di ordinamento:
 
    * **A - Z**
    * **Z - A**
    * **Data di completamento pianificata**
-   * **Data di inizio pianificata**
+   * **Data inizio pianificata**
 
    Tutte le altre visualizzazioni nella pagina vengono aggiornate in base alla selezione dell’ordinamento.
 
@@ -136,7 +136,7 @@ Per scoprire come ottenere i dati migliori per questa visualizzazione, consulta 
 
    ![](assets/project-activity-activity-pop-up-350x137.png)
 
-1. (Facoltativo) Per esportare i dati di visualizzazione, fai clic sul pulsante **Icona Esporta** ![](assets/export.png) nell’angolo in alto a destra della visualizzazione, seleziona il formato di esportazione:
+1. (Facoltativo) Per esportare i dati di visualizzazione, fai clic sull&#39;icona **Esporta** ![](assets/export.png) nell&#39;angolo in alto a destra della visualizzazione, quindi seleziona il formato di esportazione:
 
    * **Grafico (PNG)**
    * **Tabella dati (XSLX)**

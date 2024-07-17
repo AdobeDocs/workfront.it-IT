@@ -2,7 +2,7 @@
 content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Panoramica delle intestazioni degli oggetti
-description: È possibile visualizzare informazioni sugli oggetti in [!DNL Adobe Workfront] quando ne rivedi l’intestazione. Le informazioni in un'intestazione possono includere il proprietario dell'oggetto, lo stato o la percentuale di completamento.
+description: È possibile visualizzare le informazioni sugli oggetti in [!DNL Adobe Workfront] quando si rivede la relativa intestazione. Le informazioni in un'intestazione possono includere il proprietario dell'oggetto, lo stato o la percentuale di completamento.
 feature: Get Started with Workfront
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
 source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # Panoramica delle intestazioni degli oggetti
 
-È possibile visualizzare informazioni sugli oggetti in [!DNL Adobe Workfront] quando ne rivedi l’intestazione.
+È possibile visualizzare immediatamente le informazioni sugli oggetti in [!DNL Adobe Workfront] quando si rivede l&#39;intestazione.
 
 Oltre al nome dell&#39;oggetto, l&#39;intestazione può includere il proprietario dell&#39;oggetto, lo stato o la percentuale di completamento.
 
-[!DNL Workfront] assegna priorità al nome dell&#39;oggetto, allocandovi il maggior spazio possibile nell&#39;intestazione. Quando il nome di un oggetto è troppo lungo, viene troncato. Per visualizzare il nome completo di un oggetto, puoi passare il cursore sopra di esso.
+[!DNL Workfront] dà priorità al nome dell&#39;oggetto, allocando più spazio possibile nell&#39;intestazione. Quando il nome di un oggetto è troppo lungo, viene troncato. Per visualizzare il nome completo di un oggetto, puoi passare il cursore sopra di esso.
 
 ## Accedere all&#39;intestazione di un oggetto
 
-Accesso all’intestazione di un oggetto in [!DNL Workfront] è identico per tutti gli oggetti che lo contengono.
+L&#39;accesso all&#39;intestazione di un oggetto in [!DNL Workfront] è identico per tutti gli oggetti che lo contengono.
 
 Ad esempio, per accedere all’intestazione di un progetto:
 
@@ -31,20 +31,20 @@ Ad esempio, per accedere all’intestazione di un progetto:
 
    ![](assets/project-header-350x18.png)
 
-## [!UICONTROL Home] panoramica intestazione
+## Panoramica dell&#39;intestazione [!UICONTROL Home]
 
 Le seguenti intestazioni sono disponibili in Home:
 
-* Attività: per ulteriori informazioni su come utilizzare questa intestazione, vedi [Panoramica intestazione attività](#task-header-overview) in questo articolo.
+* Attività: per ulteriori informazioni su come utilizzare questa intestazione, consulta la [Panoramica dell&#39;intestazione dell&#39;attività](#task-header-overview) in questo articolo.
 * Problema: per ulteriori informazioni su come utilizzare questa intestazione, consulta [Panoramica intestazione problema](#issue-header-overview) in questo articolo.
 
 ## Intestazioni personalizzabili
 
-Il tuo [!DNL Workfront]  L’amministratore del gruppo o può personalizzare l’intestazione di progetti, attività e problemi utilizzando un modello di layout.
+L&#39;amministratore di [!DNL Workfront] o gruppo può personalizzare l&#39;intestazione di progetti, attività e problemi utilizzando un modello di layout.
 
 Questo articolo descrive le intestazioni predefinite per tutti gli oggetti, inclusi i progetti, le attività e i problemi.
 
-Per informazioni sulla personalizzazione delle informazioni sull&#39;intestazione di un oggetto, vedere [Personalizzare le intestazioni degli oggetti utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+Per informazioni sulla personalizzazione delle informazioni sull&#39;intestazione di un oggetto, vedere [Personalizzare le intestazioni dell&#39;oggetto utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 
 ## Panoramica dell’intestazione del progetto
@@ -69,7 +69,7 @@ Per impostazione predefinita, nell’intestazione del progetto vengono visualizz
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Icona oggetto </td> 
-   <td> <p>L'icona viola [!UICONTROL Project] <img src="assets/nwe-projects-icon.png"> viene visualizzato a sinistra del nome del progetto.</p> </td> 
+   <td> <p>L'icona viola [!UICONTROL Project] <img src="assets/nwe-projects-icon.png"> viene visualizzata a sinistra del nome del progetto.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nome del progetto</td> 
@@ -105,7 +105,7 @@ Per impostazione predefinita, nell’intestazione del progetto vengono visualizz
   </tr> 
   <tr> 
    <td role="rowheader">Area [!UICONTROL Approvals]</td> 
-   <td> <p>Se sei uno degli approvatori, utilizza le icone seguenti per gestire le approvazioni per il progetto:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> [!UICONTROL Approva]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> [!UICONTROL rifiuta]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> [!UICONTROL Recall]</p> <p>Se non si è un approvatore, fare clic sull'icona [!UICONTROL Altro] <img src="assets/more-icon-for-approvals-area.png"> per visualizzare informazioni sul passaggio di approvazione corrente.</p> <p>Per ulteriori informazioni sulle approvazioni, consulta <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Panoramica del processo di approvazione</a>.</p> </td> 
+   <td> <p>Se sei uno degli approvatori, utilizza le icone seguenti per gestire le approvazioni per il progetto:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> [!UICONTROL Approva]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> [!UICONTROL Rifiuta]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> [!UICONTROL Recall]</p> <p>Se non si è un approvatore, fare clic sull'icona [!UICONTROL Altro] <img src="assets/more-icon-for-approvals-area.png"> per visualizzare informazioni sul passaggio di approvazione corrente.</p> <p>Per ulteriori informazioni sulle approvazioni, vedere <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Panoramica del processo di approvazione</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -128,11 +128,11 @@ Per impostazione predefinita, l&#39;intestazione dell&#39;attività include le s
  <tbody> 
   <tr> 
    <td role="rowheader">Breadcrumb con oggetti padre</td> 
-   <td> <p>Gli oggetti padre dell’attività vengono visualizzati nella breadcrumb. Facendo clic sul nome dell'oggetto padre viene aperto l'oggetto padre.</p> <p>Per ulteriori informazioni, consulta <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Panoramica delle breadcrumb</a>.</p> </td> 
+   <td> <p>Gli oggetti padre dell’attività vengono visualizzati nella breadcrumb. Facendo clic sul nome dell'oggetto padre viene aperto l'oggetto padre.</p> <p>Per ulteriori informazioni, vedere <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Panoramica delle breadcrumb</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Icona oggetto </td> 
-   <td> <p>L'icona verde [!UICONTROL Task] <img src="assets/nwe-tasks-icon.png"> viene visualizzato a sinistra del nome dell'attività.</p> </td> 
+   <td> <p>L'icona verde <img src="assets/nwe-tasks-icon.png"> dell'attività [!UICONTROL] viene visualizzata a sinistra del nome dell'attività.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nome dell’attività</td> 
@@ -156,11 +156,11 @@ Per impostazione predefinita, l&#39;intestazione dell&#39;attività include le s
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Lavoraci], [!UICONTROL Fine] o pulsante [!UICONTROL Avvia attività]</p> </td> 
-   <td> <p>Se l'attività è assegnata a te, puoi fare clic sul [!UICONTROL Lavoraci] <span>o [!UICONTROL Avvia attività]</span> per indicare che si sta lavorando sull'attività oppure il pulsante [!UICONTROL Done] per indicare che l'attività è stata completata.</p> <p><span>Per informazioni sulla sostituzione del pulsante [!UICONTROL Lavoraci] con un pulsante [!UICONTROL Avvia attività], vedere <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Sostituisci il pulsante [!UICONTROL Lavoraci] con un pulsante [!UICONTROL Avvia]</a></span>.</p> </td> 
+   <td> <p>Se l'attività è assegnata all'utente, è possibile fare clic sul pulsante [!UICONTROL Lavoraci] <span>o [!UICONTROL Avvia attività]</span> per indicare che si sta lavorando sull'attività oppure sul pulsante [!UICONTROL Fine] per indicare che l'attività è stata completata.</p> <p><span>Per informazioni sulla sostituzione del pulsante [!UICONTROL Work On It] con un pulsante [!UICONTROL Start Task], vedere <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Sostituire il pulsante [!UICONTROL Work On It] con un pulsante [!UICONTROL Start]</a></span>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Data di completamento Pianificata]</td> 
-   <td> <p>È possibile modificare l'attività [!UICONTROL Data di completamento pianificata] <span>e ora</span> nell’intestazione.</p> <p>Suggerimento: si noti che [!UICONTROL Commit Date] non è visibile nell'intestazione. È possibile visualizzarlo nella pagina [!UICONTROL Details].</p> </td> 
+   <td> <p>È possibile modificare l'attività [!UICONTROL Planned Completion Date] <span> e l'ora</span> nell'intestazione.</p> <p>Suggerimento: si noti che [!UICONTROL Commit Date] non è visibile nell'intestazione. È possibile visualizzarlo nella pagina [!UICONTROL Details].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Stato]</td> 
@@ -168,7 +168,7 @@ Per impostazione predefinita, l&#39;intestazione dell&#39;attività include le s
   </tr> 
   <tr> 
    <td role="rowheader">Area [!UICONTROL Approvals]</td> 
-   <td> <p>Quando si è uno degli approvatori, utilizzare le icone seguenti per gestire le approvazioni per l'attività:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> [!UICONTROL Approva]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> [!UICONTROL rifiuta]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> [!UICONTROL Recall]</p> <p>Se non si è un approvatore, fare clic sull'icona [!UICONTROL Altro] <img src="assets/more-icon-for-approvals-area.png"> per visualizzare informazioni sul passaggio di approvazione corrente.</p> <p>Per ulteriori informazioni sulle approvazioni, consulta <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Panoramica del processo di approvazione</a>.</p> </td> 
+   <td> <p>Quando si è uno degli approvatori, utilizzare le icone seguenti per gestire le approvazioni per l'attività:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> [!UICONTROL Approva]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> [!UICONTROL Rifiuta]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> [!UICONTROL Recall]</p> <p>Se non si è un approvatore, fare clic sull'icona [!UICONTROL Altro] <img src="assets/more-icon-for-approvals-area.png"> per visualizzare informazioni sul passaggio di approvazione corrente.</p> <p>Per ulteriori informazioni sulle approvazioni, vedere <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Panoramica del processo di approvazione</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -191,11 +191,11 @@ Per impostazione predefinita, l’intestazione del problema include le seguenti 
  <tbody> 
   <tr> 
    <td role="rowheader">Breadcrumb con oggetti padre</td> 
-   <td> <p>Gli oggetti principali del problema vengono visualizzati nella breadcrumb. Facendo clic sul nome dell'oggetto padre viene aperto l'oggetto padre.</p> <p>Per ulteriori informazioni, consulta <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Panoramica delle breadcrumb</a>.</p> </td> 
+   <td> <p>Gli oggetti principali del problema vengono visualizzati nella breadcrumb. Facendo clic sul nome dell'oggetto padre viene aperto l'oggetto padre.</p> <p>Per ulteriori informazioni, vedere <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Panoramica delle breadcrumb</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Icona oggetto </td> 
-   <td> <p>L'icona rosa [!UICONTROL Issue] <img src="assets/nwe-issues-icon.png"> viene visualizzato a sinistra del nome del problema.</p> </td> 
+   <td> <p>L'icona rosa [!UICONTROL Issue] <img src="assets/nwe-issues-icon.png"> viene visualizzata a sinistra del nome del problema.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nome del problema</td> 
@@ -218,12 +218,12 @@ Per impostazione predefinita, l’intestazione del problema include le seguenti 
    <td>Puoi modificare gli assegnatari di un problema dall’intestazione.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Lavoraci], [!UICONTROL Fatto], <span>o pulsante [!UICONTROL Avvia problema]</span></td> 
-   <td>Se il problema è assegnato a te, puoi fare clic su [!UICONTROL Lavoraci] <span>o [!UICONTROL Start Issue]</span> per indicare che stai lavorando sul problema, oppure il pulsante [!UICONTROL Done] per indicare che il problema è stato completato.<span>Per informazioni sulla sostituzione del pulsante [!UICONTROL Lavoraci] con un pulsante [!UICONTROL Avvia attività], vedere</span> <span href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Sostituisci il pulsante [!UICONTROL Lavoraci] con un pulsante [!UICONTROL Avvia]</a></span><span>.</span></td> 
+   <td role="rowheader">[!UICONTROL Lavoraci], [!UICONTROL Fine], <span>o pulsante [!UICONTROL Avvia problema]</span></td> 
+   <td>Se il problema è stato assegnato, puoi fare clic sul pulsante [!UICONTROL Lavoraci] <span>o [!UICONTROL Avvia problema]</span> per indicare che stai lavorando sul problema, oppure sul pulsante [!UICONTROL Fine] per indicare che il problema è stato completato.<span>Per informazioni sulla sostituzione del pulsante [!UICONTROL Work On It] con un pulsante [!UICONTROL Start Task], vedere</span> <span href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Sostituire il pulsante [!UICONTROL Work On It] con un pulsante [!UICONTROL Start]</a></span><span>.</span></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Data di completamento Pianificata]</td> 
-   <td> <p>È possibile modificare il problema [!UICONTROL Data di completamento pianificata] <span>e ora</span> nell’intestazione.</p> <p>Suggerimento: si noti che [!UICONTROL Commit Date] non è visibile nell'intestazione. È possibile visualizzarlo nella pagina [!UICONTROL Details].</p> </td> 
+   <td> <p>Puoi modificare il problema [!UICONTROL Planned Completion Date] <span> e ora</span> nell'intestazione.</p> <p>Suggerimento: si noti che [!UICONTROL Commit Date] non è visibile nell'intestazione. È possibile visualizzarlo nella pagina [!UICONTROL Details].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Stato]</td> 
@@ -231,7 +231,7 @@ Per impostazione predefinita, l’intestazione del problema include le seguenti 
   </tr> 
   <tr> 
    <td role="rowheader">Area [!UICONTROL Approvals]</td> 
-   <td> <p>Se sei uno degli approvatori, utilizza le icone seguenti per gestire le approvazioni per il problema:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Approva]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL rifiuta]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Recall]</p> <p>Se non si è un approvatore, fare clic sull'icona [!UICONTROL Altro] <img src="assets/more-icon-for-approvals-area.png"> per visualizzare informazioni sul passaggio di approvazione corrente.</p> <p>Per ulteriori informazioni sulle approvazioni, consulta <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Panoramica del processo di approvazione</a>.</p> </td> 
+   <td> <p>Se sei uno degli approvatori, utilizza le icone seguenti per gestire le approvazioni per il problema:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Approva]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Rifiuta]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Recall]</p> <p>Se non si è un approvatore, fare clic sull'icona [!UICONTROL Altro] <img src="assets/more-icon-for-approvals-area.png"> per visualizzare informazioni sul passaggio di approvazione corrente.</p> <p>Per ulteriori informazioni sulle approvazioni, vedere <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Panoramica del processo di approvazione</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -254,11 +254,11 @@ L’intestazione del programma visualizza le seguenti informazioni:
  <tbody> 
   <tr> 
    <td role="rowheader">Breadcrumb con il nome del Portfolio</td> 
-   <td> <p>È possibile accedere al Portfolio [!UICONTROL] dall'intestazione del programma [!UICONTROL]. Facendo clic sul nome dell'oggetto padre viene aperto l'oggetto padre.</p> <p>Per ulteriori informazioni, consulta <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Panoramica delle breadcrumb</a>.</p> </td> 
+   <td> <p>È possibile accedere al Portfolio [!UICONTROL] dall'intestazione del programma [!UICONTROL]. Facendo clic sul nome dell'oggetto padre viene aperto l'oggetto padre.</p> <p>Per ulteriori informazioni, vedere <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Panoramica delle breadcrumb</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Icona oggetto </td> 
-   <td> <p>Icona arancione [!UICONTROL Program] <img src="assets/nwe-programs-icon.png"> viene visualizzato a sinistra del nome del programma.</p> </td> 
+   <td> <p>L'icona arancione del [!UICONTROL Program] <img src="assets/nwe-programs-icon.png"> viene visualizzata a sinistra del nome del programma.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nome del programma</td> 
@@ -313,7 +313,7 @@ L’intestazione del portfolio include le seguenti informazioni:
  <tbody> 
   <tr> 
    <td role="rowheader">Icona oggetto </td> 
-   <td> <p>L'icona blu [!UICONTROL Portfoli] <img src="assets/nwe-portfolios-icon.png">viene visualizzato a sinistra del nome del portfolio.</p> </td> 
+   <td> <p>L'icona blu [!UICONTROL Portfolio] <img src="assets/nwe-portfolios-icon.png"> viene visualizzata a sinistra del nome del portfolio.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nome del portfolio</td> 
@@ -333,7 +333,7 @@ L’intestazione del portfolio include le seguenti informazioni:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Gestione Portfoli]</td> 
-   <td>È possibile modificare [!UICONTROL Portfoli Manager] nell'intestazione. Corrisponde al proprietario del Portfolio [!UICONTROL].</td> 
+   <td>È possibile modificare [!UICONTROL Portfolio Manager] nell'intestazione. Corrisponde al proprietario del Portfolio [!UICONTROL].</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL On Time]</td> 
@@ -376,7 +376,7 @@ L’intestazione del modello visualizza le seguenti informazioni:
  <tbody> 
   <tr> 
    <td role="rowheader">Icona oggetto </td> 
-   <td> <p>L'icona verde [!UICONTROL Template] <img src="assets/nwe-templates-icon.png">viene visualizzato a sinistra del nome del modello.</p> </td> 
+   <td> <p>L'icona verde <img src="assets/nwe-templates-icon.png"> del modello [!UICONTROL Template] viene visualizzata a sinistra del nome del modello.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nome del modello</td> 
@@ -423,11 +423,11 @@ Nell&#39;intestazione dell&#39;attività modello vengono visualizzate le seguent
  <tbody> 
   <tr> 
    <td role="rowheader">Breadcrumb per oggetti padre</td> 
-   <td> <p>Gli oggetti padre dell’attività modello vengono visualizzati nella breadcrumb. Facendo clic sul nome di un oggetto padre, questo viene aperto.</p> <p>Per ulteriori informazioni, consulta <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Panoramica delle breadcrumb</a>.</p> </td> 
+   <td> <p>Gli oggetti padre dell’attività modello vengono visualizzati nella breadcrumb. Facendo clic sul nome di un oggetto padre, questo viene aperto.</p> <p>Per ulteriori informazioni, vedere <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Panoramica delle breadcrumb</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Icona oggetto </td> 
-   <td> <p>L'icona verde [!UICONTROL Task] <img src="assets/nwe-tasks-icon.png">viene visualizzato a sinistra del nome dell'attività modello.</p> </td> 
+   <td> <p>L'icona verde <img src="assets/nwe-tasks-icon.png"> dell'attività [!UICONTROL] viene visualizzata a sinistra del nome dell'attività modello.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nome dell’attività modello</td> 
@@ -470,11 +470,11 @@ Nell&#39;intestazione del record fatturazione vengono visualizzate le seguenti i
  <tbody> 
   <tr> 
    <td role="rowheader">Breadcrumb per oggetti padre</td> 
-   <td> <p>Gli oggetti padre del record fatturazione vengono visualizzati nella breadcrumb. Facendo clic sul nome di un oggetto padre, questo viene aperto.</p> <p>Per ulteriori informazioni, consulta <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Panoramica delle breadcrumb</a>.</p> </td> 
+   <td> <p>Gli oggetti padre del record fatturazione vengono visualizzati nella breadcrumb. Facendo clic sul nome di un oggetto padre, questo viene aperto.</p> <p>Per ulteriori informazioni, vedere <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Panoramica delle breadcrumb</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Icona oggetto </td> 
-   <td> <p>Icona blu [!UICONTROL Billing Record] (Fatturazione) <img src="assets/nwe-billing-record-icon-57x55.png" style="width: 57;height: 55;"> viene visualizzato a sinistra del nome del record fatturazione.</p> </td> 
+   <td> <p>L'icona blu [!UICONTROL Billing Record] <img src="assets/nwe-billing-record-icon-57x55.png" style="width: 57;height: 55;"> viene visualizzata a sinistra del nome del record fatturazione.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nome del record fatturazione</td> 
@@ -486,7 +486,7 @@ Nell&#39;intestazione del record fatturazione vengono visualizzate le seguenti i
   </tr> 
   <tr> 
    <td role="rowheader">Area azioni del record fatturazione</td> 
-   <td> <p>Accanto al nome del record fatturazione, il menu [!UICONTROL Altro] <img src="assets/more-menu.png"> , che consente di selezionare le seguenti opzioni:</p> 
+   <td> <p>Accanto al nome del record fatturazione viene visualizzato il menu [!UICONTROL Altro] <img src="assets/more-menu.png">, che consente di selezionare le opzioni seguenti:</p> 
     <ul> 
      <li> <p>[!UICONTROL Modifica]</p> </li> 
      <li> <p> </p> </li> 
@@ -577,7 +577,7 @@ L’intestazione del team mostra le seguenti informazioni:
  <tbody> 
   <tr> 
    <td role="rowheader">Icona oggetto </td> 
-   <td> <p>Icona viola [!UICONTROL Team] <img src="assets/nwe-teams-icon.png"> viene visualizzato a sinistra del nome del team.</p> </td> 
+   <td> <p>L'icona viola [!UICONTROL Team] <img src="assets/nwe-teams-icon.png"> viene visualizzata a sinistra del nome del team.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nome del team</td> 
@@ -620,7 +620,7 @@ Nell&#39;intestazione dell&#39;iterazione vengono visualizzate le seguenti infor
  <tbody> 
   <tr> 
    <td role="rowheader">Icona oggetto </td> 
-   <td> <p>Icona arancione [!UICONTROL Iteration] <img src="assets/nwe-iteration-icon-58x58.png" style="width: 58;height: 58;"> viene visualizzato a sinistra del nome dell'iterazione.</p> </td> 
+   <td> <p>L'icona arancione <img src="assets/nwe-iteration-icon-58x58.png" style="width: 58;height: 58;"> dell'iterazione [!UICONTROL] viene visualizzata a sinistra del nome dell'iterazione.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nome dell'iterazione</td> 
@@ -667,7 +667,7 @@ Nell&#39;intestazione del gruppo vengono visualizzate le seguenti informazioni:
  <tbody> 
   <tr> 
    <td role="rowheader">Icona oggetto </td> 
-   <td> <p>Icona arancione di [!UICONTROL Group] <img src="assets/nwe-group-icon.png"> viene visualizzato a sinistra del nome del gruppo.</p> </td> 
+   <td> <p>L'icona arancione <img src="assets/nwe-group-icon.png"> del gruppo [!UICONTROL Group] viene visualizzata a sinistra del nome del gruppo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nome del gruppo</td> 
@@ -679,7 +679,7 @@ Nell&#39;intestazione del gruppo vengono visualizzate le seguenti informazioni:
   </tr> 
   <tr> 
    <td role="rowheader">Area [!UICONTROL actions] del gruppo</td> 
-   <td> <p>Accanto al nome del gruppo, viene visualizzato il menu [!UICONTROL Altro] <img src="assets/more-menu.png"> , che consente di selezionare le seguenti opzioni:</p> 
+   <td> <p>Accanto al nome del gruppo viene visualizzato il menu [!UICONTROL Altro] <img src="assets/more-menu.png">, che consente di selezionare le opzioni seguenti:</p> 
     <ul> 
      <li> <p>[!UICONTROL Modifica]</p> </li> 
      <li> <p>[!UICONTROL Copy]</p> </li> 
@@ -692,7 +692,7 @@ Nell&#39;intestazione del gruppo vengono visualizzate le seguenti informazioni:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Licenses in uso] </td> 
-   <td> <p>Nella casella [!UICONTROL Licenses in use] viene visualizzato il numero di utenti di licenze [!UICONTROL Plan] e [!UICONTROL Work] nel gruppo e nei relativi sottogruppi. È possibile fare clic sui numeri per visualizzare queste informazioni per tutti e 5 i tipi di licenza.</p> <p>Per ulteriori informazioni, consulta <a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref">Visualizza il numero di licenze allocate e utilizzate in un gruppo nel nuovo [!DNL Adobe Workfront] esperienza</a>.</p> </td> 
+   <td> <p>Nella casella [!UICONTROL Licenses in use] viene visualizzato il numero di utenti di licenze [!UICONTROL Plan] e [!UICONTROL Work] nel gruppo e nei relativi sottogruppi. È possibile fare clic sui numeri per visualizzare queste informazioni per tutti e 5 i tipi di licenza.</p> <p>Per ulteriori informazioni, vedere <a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref">Visualizzare il numero di licenze allocate e utilizzate in un gruppo nella nuova esperienza [!DNL Adobe Workfront]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Group Administrators]</td> 
@@ -719,11 +719,11 @@ Nell&#39;intestazione del documento vengono visualizzate le seguenti informazion
  <tbody> 
   <tr> 
    <td role="rowheader">Breadcrumb con oggetti padre</td> 
-   <td> <p>Gli oggetti padre del documento vengono visualizzati nel breadcrumb. Facendo clic sul nome di un oggetto padre, questo viene aperto.</p> <p>Per ulteriori informazioni, consulta <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Panoramica delle breadcrumb</a>.</p> </td> 
+   <td> <p>Gli oggetti padre del documento vengono visualizzati nel breadcrumb. Facendo clic sul nome di un oggetto padre, questo viene aperto.</p> <p>Per ulteriori informazioni, vedere <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Panoramica delle breadcrumb</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Icona oggetto </td> 
-   <td> <p>L'icona blu [!UICONTROL Document] <img src="assets/nwe-documents-icon-53x50.png" style="width: 53;height: 50;"> viene visualizzato a sinistra del nome del documento.</p> </td> 
+   <td> <p>A sinistra del nome del documento viene visualizzata l'icona blu <img src="assets/nwe-documents-icon-53x50.png" style="width: 53;height: 50;"> di [!UICONTROL Document].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nome del documento</td> 
@@ -739,7 +739,7 @@ Nell&#39;intestazione del documento vengono visualizzate le seguenti informazion
   </tr> 
   <tr> 
    <td role="rowheader">Area [!UICONTROL Decision] di approvazione</td> 
-   <td> L'area [!UICONTROL Decisions] viene visualizzata nell'angolo superiore destro dell'intestazione del documento. Questa area varia in base alla fase di approvazione e al fatto che si sia un approvatore, un revisore o nessuno dei due. <ul><li> <p>Se si è un approvatore, è possibile utilizzare le icone seguenti per gestire le approvazioni del documento:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Approva]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Recall]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL rifiuta]</p> <p>Per ulteriori informazioni sulle decisioni di approvazione, consulta <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Approvazione del lavoro</a>.</li><li><p>Se si è un revisore, è possibile fare clic sul pulsante Completa revisione personale per indicare che è stato rivisto il documento.</p><p>Per ulteriori informazioni sulla revisione di un documento, vedere <a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">Rivedere un documento</a>.</p></li><li>In caso contrario, quest'area mostra lo stato di revisione e approvazione corrente del documento.</li><ul></p> </td> 
+   <td> L'area [!UICONTROL Decisions] viene visualizzata nell'angolo superiore destro dell'intestazione del documento. Questa area varia in base alla fase di approvazione e al fatto che si sia un approvatore, un revisore o nessuno dei due. <ul><li> <p>Se si è un approvatore, è possibile utilizzare le icone seguenti per gestire le approvazioni del documento:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Approva]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Recall]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Rifiuta]</p> <p>Per ulteriori informazioni sulle decisioni di approvazione, vedere <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Approvazione del lavoro</a>.</li><li><p>Se si è un revisore, è possibile fare clic sul pulsante Completa revisione personale per indicare che è stato rivisto il documento.</p><p>Per ulteriori informazioni sulla revisione di un documento, vedere <a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">Rivedere un documento</a>.</p></li><li>In caso contrario, quest'area mostra lo stato di revisione e approvazione corrente del documento.</li><ul></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -762,7 +762,7 @@ L’intestazione dell’azienda mostra le seguenti informazioni:
  <tbody> 
   <tr> 
    <td role="rowheader">Icona oggetto </td> 
-   <td> <p>L'icona blu [!UICONTROL Company] <img src="assets/nwe-company-icon.png"> viene visualizzato a sinistra del nome della società.</p> </td> 
+   <td> <p>A sinistra del nome della società viene visualizzata l'icona blu <img src="assets/nwe-company-icon.png"> di [!UICONTROL Company].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nome della società</td> 
@@ -774,7 +774,7 @@ L’intestazione dell’azienda mostra le seguenti informazioni:
   </tr> 
   <tr> 
    <td role="rowheader">L’area delle azioni dell’azienda</td> 
-   <td> <p>Accanto al nome della società, viene visualizzato il menu [!UICONTROL Altro] <img src="assets/more-menu.png"> , che consente di selezionare le seguenti opzioni:</p> 
+   <td> <p>Accanto al nome della società viene visualizzato il menu [!UICONTROL Altro] <img src="assets/more-menu.png">, che consente di selezionare le opzioni seguenti:</p> 
     <ul> 
      <li> <p>[!UICONTROL Modifica]</p> </li> 
      <li> <p>[!UICONTROL Elimina società]</p> </li> 
@@ -787,7 +787,7 @@ L’intestazione dell’azienda mostra le seguenti informazioni:
 
 ![](assets/nwe-plan-header-350x34.png)
 
-I piani sono gli oggetti [!DNL Workfront Scenario Planner]. Per informazioni su [!DNL Scenario Planner], vedi [Il [!DNL Scenario Planner] panoramica](../../scenario-planner/scenario-planner-overview.md).
+I piani sono gli oggetti di [!DNL Workfront Scenario Planner]. Per informazioni su [!DNL Scenario Planner], vedere [The [!DNL Scenario Planner] overview](../../scenario-planner/scenario-planner-overview.md).
 
 Nell&#39;intestazione del piano vengono visualizzate le seguenti informazioni:
 
@@ -807,7 +807,7 @@ Nell&#39;intestazione del piano vengono visualizzate le seguenti informazioni:
   </tr> 
   <tr> 
    <td role="rowheader">Icona oggetto </td> 
-   <td> <p>Icona blu [!UICONTROL Plan] <img src="assets/nwe-plan-icon-65x62.png" style="width: 65;height: 62;">viene visualizzato a sinistra del nome del piano.</p> </td> 
+   <td> <p>L'icona blu [!UICONTROL Plan] <img src="assets/nwe-plan-icon-65x62.png" style="width: 65;height: 62;"> viene visualizzata a sinistra del nome del piano.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nome del piano</td> 
@@ -825,9 +825,9 @@ Nell&#39;intestazione del piano vengono visualizzate le seguenti informazioni:
    <td role="rowheader">Azioni del piano aggiuntive</td> 
    <td> <p>Sotto il nome del piano e l'area delle azioni, è possibile completare le azioni riportate di seguito.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Mostra conflitti]</strong>: facendo clic su questa opzione, si mostrano o si nascondono i conflitti nelle iniziative.</p> </li> 
+     <li> <p><strong>[!UICONTROL Mostra conflitti]</strong>: se si fa clic su questa opzione, vengono visualizzati o nascosti i conflitti nelle iniziative.</p> </li> 
      <li> <p><strong>[!UICONTROL Confronta scenari]</strong>: facendo clic su questo collegamento viene visualizzato un confronto affiancato degli scenari creati.</p> </li> 
-     <li> <p><strong>[!UICONTROL Selezione scenario]</strong>: in questo menu a discesa puoi copiare uno scenario o selezionarlo per visualizzarne uno diverso.</p> </li> 
+     <li> <p><strong>[!UICONTROL Selezione scenario]</strong>: in questo menu a discesa è possibile copiare uno scenario o selezionarlo per visualizzarne uno diverso.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -847,8 +847,8 @@ Nell&#39;intestazione del piano vengono visualizzate le seguenti informazioni:
    <td>Gli utenti che possono visualizzare o gestire il piano vengono visualizzati nell’angolo superiore destro dell’intestazione. Passando il puntatore del mouse sulle immagini del profilo vengono visualizzati i relativi nomi.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Vai alla pubblicazione]</td> 
-   <td>Quando fai clic su [!UICONTROL Vai a pubblicazione], puoi creare o aggiornare un progetto collegato a un'iniziativa nello scenario che stai visualizzando.</td> 
+   <td role="rowheader">[!UICONTROL Vai a Publish]</td> 
+   <td>Quando si fa clic su [!UICONTROL Vai a Publish], è possibile creare o aggiornare un progetto collegato a un'iniziativa nello scenario visualizzato.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -858,7 +858,7 @@ Nell&#39;intestazione del piano vengono visualizzate le seguenti informazioni:
 
 ![](assets/goal-header.png)
 
-Puoi creare obiettivi strategici quando la tua azienda ha accesso agli Obiettivi di Workfront. Per ulteriori informazioni su [!DNL Workfront Goals], vedi [Introduzione a [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
+Puoi creare obiettivi strategici quando la tua azienda ha accesso agli Obiettivi di Workfront. Per ulteriori informazioni su [!DNL Workfront Goals], vedere [Introduzione a  [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
 
 L’intestazione dell’obiettivo mostra le seguenti informazioni:
 
@@ -874,7 +874,7 @@ L’intestazione dell’obiettivo mostra le seguenti informazioni:
  <tbody> 
   <tr> 
    <td role="rowheader">Icona oggetto </td> 
-   <td> <p>L'icona viola [!UICONTROL Goal] <img src="assets/goal-icon.png" > viene visualizzato a sinistra del nome dell’obiettivo.</p> </td> 
+   <td> <p>L'icona viola [!UICONTROL Goal] <img src="assets/goal-icon.png" > viene visualizzata a sinistra del nome dell'obiettivo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nome dell’obiettivo</td> 
@@ -914,7 +914,7 @@ L’intestazione dell’obiettivo mostra le seguenti informazioni:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Stato]</td> 
-   <td>Indica se l’obiettivo è attivo, nuovo o chiuso. Non è possibile aggiornare manualmente lo stato dell’obiettivo. Per ulteriori informazioni, consulta <a href="../../workfront-goals/goal-management/goal-status-overview.md" class="MCXref xref">Panoramica sullo stato degli obiettivi in [!DNL Adobe Workfront Goals]</a></td> 
+   <td>Indica se l’obiettivo è attivo, nuovo o chiuso. Non è possibile aggiornare manualmente lo stato dell’obiettivo. Per ulteriori informazioni, vedere <a href="../../workfront-goals/goal-management/goal-status-overview.md" class="MCXref xref">Panoramica sullo stato degli obiettivi in [!DNL Adobe Workfront Goals]</a></td> 
   </tr> 
  </tbody> 
 </table>

@@ -17,4 +17,4 @@ ht-degree: 0%
 
 # Riferimento a moduli personalizzati in un rapporto
 
-Per informazioni sui riferimenti ai moduli personalizzati in un report, vedere [Fare riferimento a un modulo personalizzato in un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/reference-custom-form-report.md).
+Per informazioni sul riferimento ai moduli personalizzati in un report, vedere [Fare riferimento a un modulo personalizzato in un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/reference-custom-form-report.md).

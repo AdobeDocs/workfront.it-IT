@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 21 2 Miglioramenti al reporting
 
-Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione 21.2 di Reporting. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 10 maggio 2021. Per un elenco di tutte le modifiche disponibili con la versione 21.2, consulta [Panoramica sulla versione 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione 21.2 di Reporting. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 10 maggio 2021. Per un elenco di tutte le modifiche disponibili con la versione 21.2, consulta la [panoramica sulla versione 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Limita la modifica delle ore in progetti e report
 
@@ -42,7 +42,7 @@ Per mantenere l’aspetto moderno delle altre aree della nuova esperienza Workfr
 * Icona Un nuovo accesso con restrizioni
 * Altre modifiche di progettazione minori
 
-Per ulteriori informazioni sulle assegnazioni negli elenchi, vedere [Assegna attività](../../../manage-work/tasks/assign-tasks/assign-tasks.md) o [Assegna problemi](../../../manage-work/issues/manage-issues/assign-issues.md).
+Per ulteriori informazioni sulle assegnazioni negli elenchi, consulta [Assegnare attività](../../../manage-work/tasks/assign-tasks/assign-tasks.md) o [Assegnare problemi](../../../manage-work/issues/manage-issues/assign-issues.md).
 
 ![](assets/assignments-updates-350x193.png)
 
@@ -62,7 +62,7 @@ Per conferire un aspetto moderno alle altre aree della nuova esperienza Workfron
 * Quando fai clic su un campo di completamento automatico, ora viene visualizzato il menu dei suggerimenti prima di immettere il testo.
 * Il menu dei suggerimenti è più reattivo alla lunghezza dei valori, che ora vengono troncati alla fine quando viene raggiunto il limite di caratteri anziché al centro del valore.
 
-Per informazioni sugli elenchi aggiornati, vedere [Differenza tra gli elenchi aggiornati e quelli legacy](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) sezione nell’articolo [Introduzione agli elenchi in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Per informazioni sugli elenchi aggiornati, vedere la sezione [Differenza tra gli elenchi aggiornati e quelli legacy](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) nell&#39;articolo [Introduzione agli elenchi in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 ![](assets/typeahead-updates-350x336.png)
 
@@ -80,5 +80,5 @@ Ad esempio, puoi impostare questo rapporto in modo da mostrare l’attività int
 
 In precedenza, era possibile creare rapporti sugli aggiornamenti di sistema solo tramite l’API Workfront.
 
-Per ulteriori informazioni su questo rapporto e sulle funzioni per cui è possibile utilizzarlo, consulta [Rapporto sulla sezione Aggiornamenti](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+Per ulteriori informazioni su questo report e sui motivi per cui è possibile utilizzarlo, vedere [Report sull&#39;area Aggiornamenti](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 

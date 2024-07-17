@@ -3,24 +3,24 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: Impedisci spoofing e aggiunta [!DNL Adobe Workfront] Record SPF
-description: Se gli utenti non ricevono [!DNL Adobe Workfront] notifiche e-mail, devi aggiungere [!DNL Workfront] Record SPF nel firewall. Per aggiungere record SPF è necessario collaborare con il team IT.
+title: Impedisci spoofing e aggiungi [!DNL Adobe Workfront] record SPF
+description: Se gli utenti non ricevono  [!DNL Adobe Workfront] notifiche e-mail, devi aggiungere [!DNL Workfront] record SPF al firewall. Per aggiungere record SPF è necessario collaborare con il team IT.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e93e3334-d72a-4f7b-9379-358f498c873b
 source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
 
-# Impedisci spoofing e aggiunta [!DNL Adobe Workfront] Record SPF
+# Impedisci spoofing e aggiungi [!DNL Adobe Workfront] record SPF
 
 ## Problema
 
-Se gli utenti non ricevono [!DNL Adobe Workfront] notifiche e-mail, devi aggiungere [!DNL Workfront] Record SPF nel firewall. Per aggiungere record SPF è necessario collaborare con il team IT.
+Se gli utenti non ricevono [!DNL Adobe Workfront] notifiche e-mail, devi aggiungere [!DNL Workfront] record SPF al firewall. Per aggiungere record SPF è necessario collaborare con il team IT.
 
 ## Requisiti di accesso
 
@@ -40,20 +40,20 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Devi essere un [!DNL Workfront] amministratore. Per ulteriori informazioni, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente l'accesso amministrativo completo</a>.</p> <p><b>NOTA</b>: se ancora non disponi dell’accesso, chiedi al tuo [!DNL Workfront] amministratore se impostano restrizioni aggiuntive nel livello di accesso. Per informazioni su come [!DNL Workfront] l'amministratore può modificare il tuo livello di accesso, vedi <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <p>Devi essere un amministratore [!DNL Workfront]. Per ulteriori informazioni, vedere <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente l'accesso amministrativo completo</a>.</p> <p><b>NOTA</b>: se non disponi ancora dell'accesso, chiedi all'amministratore di [!DNL Workfront] se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di [!DNL Workfront] può modificare il tuo livello di accesso, vedi <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Soluzione
 
-Se hai già aggiunto gli indirizzi IP al inserisco nell&#39;elenco Consentiti di per l’ambiente di produzione come descritto in [Configurare il inserisco nell&#39;elenco Consentiti di configurazione del firewall per l’accesso a un sistema di protezione da attacchi di tipo](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) e gli utenti non ricevono ancora le e-mail:
+Se gli indirizzi IP sono già stati aggiunti al elenco Consentiti di produzione dell&#39;ambiente di produzione come descritto in [Configurare il inserisco nell&#39;elenco Consentiti di configurazione del firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) e gli utenti non ricevono ancora le e-mail:
 
 1. Aggiungi il seguente record SPF al firewall:
 
    *spf.workfront.com*
 
-   Questo aggiunge automaticamente tutto [!DNL Workfront] Indirizzi IP al tuo di inserire nell&#39;elenco Consentiti sul firewall e consente a tutti i filtri anti-spam (che utilizzano i record SPF) di convalidare [!DNL Workfront] server come mittenti validi per il dominio.
+   Inserire nell&#39;elenco Consentiti In questo modo, tutti gli indirizzi IP [!DNL Workfront] verranno aggiunti automaticamente al tuo sul firewall e tutti i filtri anti-spam (che utilizzano i record SPF) potranno convalidare i server [!DNL Workfront] come mittenti validi per il tuo dominio.
 
    >[!NOTE]
    >
@@ -72,4 +72,4 @@ Se hai già aggiunto gli indirizzi IP al inserisco nell&#39;elenco Consentiti di
 
    Ad esempio, &quot;v=spf1 a mx include: spf.workfront.com -all&quot;
 
-Se non riesci ad aggiungere record SPF al firewall a causa della politica aziendale, rivolgiti al tuo [!DNL Workfront] Rappresentante del supporto.
+Se non riesci ad aggiungere record SPF al firewall a causa della politica aziendale, rivolgiti al tuo rappresentante di supporto [!DNL Workfront].

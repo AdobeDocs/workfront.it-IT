@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione 21.3 di. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana del 21 luglio 2021.
 
-Per un elenco di tutte le modifiche disponibili con la versione 21.3, consulta [Panoramica sulla versione 21.3](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 21.3, vedere [Panoramica sulla versione 21.3](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Associare un modello a un gruppo
 
@@ -27,9 +27,9 @@ Per un elenco di tutte le modifiche disponibili con la versione 21.3, consulta [
 
 Per semplificare il processo di creazione del progetto e per identificare più facilmente i gruppi proprietari dei modelli di progetto e generare rapporti su di essi, è stata aggiunta la possibilità di assegnare un gruppo a un modello di progetto.
 
-Quando si assegna un gruppo a un modello di progetto, tutti i progetti creati dal modello vengono associati automaticamente al gruppo del modello. Per ulteriori informazioni, consulta [Modificare i modelli di progetto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+Quando si assegna un gruppo a un modello di progetto, tutti i progetti creati dal modello vengono associati automaticamente al gruppo del modello. Per ulteriori informazioni, vedere [Modifica modelli di progetto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-È inoltre possibile allegare un processo di approvazione di gruppo a un modello e ai relativi task di modello se il modello è associato al gruppo. Per ulteriori informazioni, consulta [Associa un processo di approvazione nuovo o esistente al lavoro](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+È inoltre possibile allegare un processo di approvazione di gruppo a un modello e ai relativi task di modello se il modello è associato al gruppo. Per ulteriori informazioni, vedere [Associa un processo di approvazione nuovo o esistente a un lavoro](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 ## Modifica più semplice dei campi nella sezione Dettagli
 
@@ -52,7 +52,7 @@ In precedenza, le date di handoff venivano calcolate solo in base ai predecessor
 
 Ora, per essere certi di disporre sempre di una data di trasferimento accurata per un&#39;attività con un predecessore per più progetti, è necessario ricalcolare la sequenza temporale del progetto dell&#39;attività successore. Dopo aver ricalcolato la sequenza temporale, le date di trasferimento dell&#39;attività vengono calcolate tenendo conto delle relazioni tra progetti delle attività.
 
-Per ulteriori informazioni sulle date di handoff, consulta [Panoramica sulla data di handoff dell’attività](../../../manage-work/tasks/task-information/handoff-task-date.md).
+Per ulteriori informazioni sulle date di handoff, vedere [Panoramica sulla data di handoff dell&#39;attività](../../../manage-work/tasks/task-information/handoff-task-date.md).
 
 ## Aggiungi storie e problemi esistenti dalla bacheca Scrum
 
@@ -62,7 +62,7 @@ Per ulteriori informazioni sulle date di handoff, consulta [Panoramica sulla dat
 
 Ora puoi aggiungere una storia o un problema esistente direttamente dalla bacheca Scrum. In questo modo è più facile aggiungere brani esistenti all’iterazione corrente senza dover passare alla pagina del backlog.
 
-Per ulteriori informazioni, consulta [Aggiungi storie e problemi dalla bacheca Scrum](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md).
+Per ulteriori informazioni, consulta [Aggiungere storie e problemi dalla bacheca Scrum](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md).
 
 ## Aggiungi nuove storie e problemi dalla bacheca Scrum
 
@@ -72,7 +72,7 @@ Per ulteriori informazioni, consulta [Aggiungi storie e problemi dalla bacheca S
 
 Ora puoi creare una nuova storia o un nuovo problema direttamente dalla bacheca Scrum. In questo modo è più facile aggiungere rapidamente una nuova storia all&#39;iterazione corrente.
 
-Per ulteriori informazioni, consulta [Aggiungi storie e problemi dalla bacheca Scrum](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md).
+Per ulteriori informazioni, consulta [Aggiungere storie e problemi dalla bacheca Scrum](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md).
 
 ## Elimina storia o problema dal Kanban Board
 
@@ -82,7 +82,7 @@ Per ulteriori informazioni, consulta [Aggiungi storie e problemi dalla bacheca S
 
 Ora puoi eliminare una storia o un problema direttamente dalla bacheca Kanban facendo clic sull’icona Altro su una storia o su una scheda problema e selezionando Elimina. Quando elimini una storia o un problema, questa viene spostata nel Cestino per 30 giorni e può essere ripristinata solo dall&#39;amministratore di sistema.
 
-Per ulteriori informazioni, consulta [Elimina storie o problemi dalla bacheca Kanban](../../../agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md).
+Per ulteriori informazioni, consulta [Eliminare storie o problemi dalla bacheca Kanban](../../../agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md).
 
 ## Aggiornamenti nell’intestazione e nella bacheca delle storie della scheda Agile
 
@@ -97,7 +97,7 @@ Sulle schede Kanban e Scrum sono ora disponibili i seguenti miglioramenti:
 * Ogni scheda ha un&#39;etichetta nella parte superiore per identificarla come storia principale, sottoattività (associata a una storia principale), storia (non associata a una storia principale) o problema.
 * Lo sfondo separa visivamente le colonne.
 
-Per ulteriori informazioni, consulta [Panoramica delle iterazioni](../../../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md).
+Per ulteriori informazioni, vedere [Panoramica iterazioni](../../../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md).
 
 ## Raggruppa le preferenze per progetto, attività e problema
 
@@ -105,7 +105,7 @@ Come abbiamo comunicato in precedenza, abbiamo implementato personalizzazioni a 
 
 Per ulteriori informazioni, consulta i seguenti articoli:
 
-* [Configurare le preferenze di progetto per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
+* [Configurare le preferenze del progetto per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
 * [Configurare le preferenze per attività e problemi per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)
 
 ## Consenti agli utenti esterni di approvare un documento
@@ -118,7 +118,7 @@ Ora puoi utilizzare indirizzi e-mail esterni per assegnare approvatori a un docu
 
 In precedenza, era possibile aggiungere utenti esterni per indirizzo e-mail solo in Workfront Classic.
 
-Per ulteriori informazioni, consulta [Richiedi approvazioni documenti](../../../review-and-approve-work/manage-approvals/request-document-approvals.md).
+Per ulteriori informazioni, vedere [Richiedere le approvazioni dei documenti](../../../review-and-approve-work/manage-approvals/request-document-approvals.md).
 
 ## Esportare informazioni dalla sezione Dettagli di un portfolio o programma
 
@@ -132,7 +132,7 @@ Per ulteriori informazioni, consulta [Richiedi approvazioni documenti](../../../
 
 È ora possibile esportare le informazioni in un file .pdf dalla sezione Dettagli dei portfolio e dei programmi. Prima di questo miglioramento, era possibile esportare le informazioni dalla sezione Dettagli solo da progetti, attività e problemi.
 
-Per informazioni sull’esportazione di moduli personalizzati da un oggetto, consulta [Esportare moduli personalizzati e dettagli oggetto](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+Per informazioni sull&#39;esportazione di moduli personalizzati da un oggetto, vedere [Esportare moduli personalizzati e dettagli oggetto](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
 ## Timestamp Data di completamento pianificata aggiunto nell’intestazione dell’oggetto
 
@@ -144,7 +144,7 @@ Per semplificare l’accesso, la comodità e la precisione, è stata aggiunta l�
 
 Prima di questo miglioramento, quando hai aggiornato la Data di completamento pianificata di un oggetto, Workfront ha selezionato la mezzanotte come ora predefinita. Ora puoi personalizzare l’ora e la data di completamento.
 
-Per informazioni sulle intestazioni degli oggetti nella nuova esperienza Workfront, consulta [Nuove intestazioni oggetto](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
+Per informazioni sulle intestazioni degli oggetti nella nuova esperienza Workfront, vedi [Nuove intestazioni oggetto](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 
 ## Aggiungere un modulo personalizzato a un oggetto senza modificarlo
 

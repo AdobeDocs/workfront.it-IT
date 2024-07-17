@@ -3,75 +3,75 @@ content-type: faq
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: faqs-workfront-proof
-title: Accesso e modifica della password e dell’e-mail per Workfront Proof
-description: L’amministratore di Workfront Proof può impostare un branding personalizzato per la pagina di accesso. Consulta la sezione su come distribuire il marchio sul sito Workfront Proof. Oppure, se utilizzi un piano Enterprise o Unlimited edition, consulta Brand the Workfront Proof site - advanced .
+title: Accesso e modifica della password e dell'e-mail per Workfront Proof
+description: L’amministratore di Workfront Proof può impostare un branding personalizzato per la pagina di accesso. Consulta Marchio del sito Workfront Proof. Oppure, se utilizzi un piano Enterprise o Unlimited edition, consulta Brand the Workfront Proof site - advanced .
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c67d411e-1cea-4a89-94a3-7503c4ce2eb7
 source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '560'
 ht-degree: 0%
 
 ---
 
-# Accesso e modifica della password e dell’e-mail per Workfront Proof
+# Accesso e modifica della password e dell&#39;e-mail per Workfront Proof
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alle funzionalità del prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Bozza](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Accesso
 
-1. Vai a [la pagina di accesso](https://www.proofhq.com/login) (o sul nostro sito web all’indirizzo  [www.proofhq.com](https://www.proofhq.com/)).
+1. Vai alla [pagina di accesso](https://www.proofhq.com/login) (o al nostro sito Web all&#39;indirizzo [www.proofhq.com](https://www.proofhq.com/)).
 
-1. Fai clic su [!UICONTROL accesso] in alto a destra.
+1. Fai clic sul pulsante [!UICONTROL accesso] in alto a destra.
 1. Inserisci il tuo indirizzo e-mail e la tua password.\
-   Se hai dimenticato la password, consulta la sezione  [Quando Dimentichi La Password](#when-you-forget-your-password) in questo articolo.
+   Se hai dimenticato la password, consulta la sezione [Quando hai dimenticato la password](#when-you-forget-your-password) più avanti in questo articolo.
 
 1. Se desideri restare connesso (senza timeout della sessione dopo 30 minuti di inattività), seleziona **[!UICONTROL Mantieni l&#39;accesso]**.
-1. Clic **[!UICONTROL Login]**.
+1. Fai clic su **[!UICONTROL Accesso]**.
 
-Il [!DNL Workfront Proof] l&#39;amministratore può impostare un branding personalizzato per [!UICONTROL Login] pagina. Consulta [Marchio [!DNL Workfront Proof] sito](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md). Oppure, se utilizzi un’ [!UICONTROL Enterprise] o [!UICONTROL Senza limiti] piano di edizione, vedi  [Marchio [!DNL Workfront Proof] site - advanced](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
+L&#39;amministratore [!DNL Workfront Proof] può impostare un branding personalizzato per la pagina [!UICONTROL Accesso]. Consulta [Assegna il marchio al  [!DNL Workfront Proof] sito](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md). Oppure, se utilizzi un piano di edizione [!UICONTROL Enterprise] o [!UICONTROL Unlimited], consulta [Assegna il marchio al sito [!DNL Workfront Proof]  - Advanced](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
 
-Per [!UICONTROL Enterprise] e [!UICONTROL Senza limiti] offre la funzionalità Single Sign-On (SSO), che consente agli utenti di accedere a [!DNL Workfront Proof] usare il nome utente e la password per l&#39;organizzazione. Consulta [Configurare il Single Sign-On per [!DNL Workfront Proof] utenti](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md). per ulteriori informazioni.
+Per i piani [!UICONTROL Enterprise] e [!UICONTROL Unlimited], è disponibile la funzionalità Single Sign-On (SSO), che consente agli utenti di accedere a [!DNL Workfront Proof] utilizzando il nome utente e la password per l&#39;organizzazione. Vedi [Configurare Single Sign-On per [!DNL Workfront Proof] utenti](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md). per ulteriori informazioni.
 
 ## Disconnessione
 
-1. Clic **[!UICONTROL Disconnetti]** nell’angolo superiore destro di Workfront Proof.\
-   Viene visualizzato un messaggio per confermare la disconnessione. Puoi fare clic su **[!UICONTROL Torna alla pagina di accesso]** per effettuare di nuovo l&#39;accesso.\
-   Il [!DNL Workfront Proof] l’amministratore può impostare un branding personalizzato per questo messaggio. Consulta [Marchio [!DNL Workfront Proof] sito](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md). Oppure, se e stai utilizzando un’ [!UICONTROL Enterprise] o [!UICONTROL Senza limiti] piano di edizione, vedi  [Marchio [!DNL Workfront Proof] site - advanced](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
+1. Fai clic su **[!UICONTROL Disconnetti]** nell&#39;angolo superiore destro di Workfront Proof.\
+   Viene visualizzato un messaggio per confermare la disconnessione. Puoi fare clic su **[!UICONTROL Torna alla pagina di accesso]** per accedere di nuovo, se lo desideri.\
+   L&#39;amministratore [!DNL Workfront Proof] può impostare un branding personalizzato per questo messaggio. Consulta [Assegna il marchio al  [!DNL Workfront Proof] sito](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md). Oppure, se utilizzi un piano di edizione [!UICONTROL Enterprise] o [!UICONTROL Unlimited], consulta [Personalizza il  [!DNL Workfront Proof] sito - avanzato](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
 
 ## Quando Dimentichi La Password {#when-you-forget-your-password}
 
-Se si dimentica la password, è possibile [!DNL Workfront Proof] invia un messaggio e-mail di reimpostazione.
+Se dimentichi la password, puoi ricevere un messaggio e-mail di reimpostazione da [!DNL Workfront Proof].
 
-1. Vai a [la pagina di accesso](https://www.proofhq.com/login) (o sul nostro sito web all’indirizzo  [www.proofhq.com](https://www.proofhq.com/)).
+1. Vai alla [pagina di accesso](https://www.proofhq.com/login) (o al nostro sito Web all&#39;indirizzo [www.proofhq.com](https://www.proofhq.com/)).
 
-1. Clic **[!UICONTROL Password dimenticata?]**
-1. Nella casella visualizzata, digita il tuo indirizzo e-mail, quindi fai clic su **[!UICONTROL Ottieni collegamento]**.
+1. Fai clic su **[!UICONTROL Password dimenticata?]**
+1. Nella casella visualizzata digitare l&#39;indirizzo di posta elettronica e quindi fare clic su **[!UICONTROL Ottieni collegamento]**.
 
 ## Modifica della password
 
-1. Il giorno [!UICONTROL Dashboard], fai clic su **[!UICONTROL Cambia password]**.\
-   ![Change_password.png](assets/change-passowrd-350x95.png)\
-   Se il [!DNL Workfront Proof] l&#39;amministratore ha impostato requisiti di password specifici, che sono elencati nella parte superiore [!UICONTROL ripristina] pagina.
+1. Nel [!UICONTROL Dashboard], fai clic su **[!UICONTROL Cambia password]**.\
+   ![Change_passowrd.png](assets/change-passowrd-350x95.png)\
+   Se l&#39;amministratore di [!DNL Workfront Proof] ha impostato requisiti di password specifici, questi sono elencati nella parte superiore della pagina [!UICONTROL reimposta].
 
 ## Informazioni sulle impostazioni avanzate delle password
 
-Se si utilizza un [!UICONTROL Seleziona] o [!UICONTROL Premium] piano, il tuo [!DNL Workfront Proof] l&#39;amministratore può impostare requisiti di password specifici per rispettare i criteri IT e di sicurezza dell&#39;organizzazione e migliorare la sicurezza dei dati. Per ulteriori informazioni, consulta &quot;Impostazioni avanzate password&quot; nell’articolo .
+Se utilizzi un piano [!UICONTROL Select] o [!UICONTROL Premium], l&#39;amministratore di [!DNL Workfront Proof] può impostare requisiti di password specifici per rispettare i criteri IT e di sicurezza dell&#39;organizzazione e migliorare la sicurezza dei dati. Per ulteriori informazioni, consulta &quot;Impostazioni avanzate password&quot; nell’articolo .
 
 ## Aggiunta di un indirizzo e-mail all’account
 
-Puoi aggiungere più indirizzi e-mail al tuo [!DNL Workfront Proof] account. Il tuo indirizzo e-mail principale è l’e-mail a cui [!DNL Workfront Proof] invia notifiche di bozza. Puoi utilizzarlo anche per accedere a [!DNL Workfront Proof]. Puoi modificare il tuo indirizzo e-mail principale.
+Puoi aggiungere più indirizzi e-mail al tuo account [!DNL Workfront Proof]. Il tuo indirizzo e-mail principale è l&#39;e-mail a cui [!DNL Workfront Proof] invia le notifiche delle bozze. Lo si utilizza anche per accedere a [!DNL Workfront Proof]. Puoi modificare il tuo indirizzo e-mail principale.
 
-1. Clic **[!UICONTROL Impostazioni]** > **[!UICONTROL Impostazioni personali]**.
+1. Fare clic su **[!UICONTROL Impostazioni]** > **[!UICONTROL Impostazioni personali]**.
 
-1. Sotto **[!UICONTROL Alias e-mail utente]**, fai clic su **[!UICONTROL Nuovo indirizzo e-mail]**.
+1. In **[!UICONTROL Alias e-mail utente]**, fare clic su **[!UICONTROL Nuovo indirizzo e-mail]**.
 
-1. In **[!UICONTROL Alias e-mail]** che viene visualizzata, digita l’indirizzo e-mail che desideri aggiungere, quindi premi **[!UICONTROL Invio]**.\
-   [!DNL Workfront Proof] invia un messaggio e-mail di convalida al nuovo indirizzo e-mail.
+1. Nella casella **[!UICONTROL Alias e-mail]** visualizzata digitare l&#39;indirizzo e-mail che si desidera aggiungere, quindi premere **[!UICONTROL Invio]**.\
+   [!DNL Workfront Proof] invia un&#39;e-mail di convalida al nuovo indirizzo e-mail.
 
 1. Nell’e-mail di convalida ricevuta, fai clic sul collegamento di conferma.\
-   La modifica e-mail viene salvata nel tuo profilo. Potrebbe essere necessario aggiornare il browser in cui si sta visualizzando [!DNL Workfront Proof] [!UICONTROL Impostazioni personali] per vedere che è stato confermato come alias e-mail.
-1. (Facoltativo) Per rendere il nuovo indirizzo e-mail il tuo indirizzo e-mail principale in [!DNL Workfront Proof], fare clic su [!UICONTROL Altro] (tre punti) a destra dell’indirizzo, quindi fai clic su **[!UICONTROL Crea e-mail principale]** nel menu visualizzato.
+   La modifica e-mail viene salvata nel tuo profilo. Potrebbe essere necessario aggiornare il browser in cui si sta visualizzando la pagina [!DNL Workfront Proof] [!UICONTROL Impostazioni personali] per verificare che sia stata confermata come alias e-mail.
+1. (Facoltativo) Per rendere il nuovo indirizzo di posta elettronica il tuo indirizzo di posta elettronica principale in [!DNL Workfront Proof], fai clic sul pulsante [!UICONTROL Altro] (tre punti) all&#39;estrema destra dell&#39;indirizzo, quindi fai clic su **[!UICONTROL Crea indirizzo di posta elettronica principale]** nel menu visualizzato.

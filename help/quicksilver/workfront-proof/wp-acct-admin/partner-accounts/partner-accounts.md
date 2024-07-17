@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-administration
 title: Account partner in [!DNL Workfront Proof]
-description: Questa sezione contiene i seguenti articoli sugli account Partner in [!DNL Workfront Proof].
+description: Questa sezione contiene i seguenti articoli sugli account partner in [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 ---
 
-# Account partner in [!DNL Workfront] Bozza
+# Account partner in [!DNL Workfront] bozza
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alle funzionalità del prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Bozza](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
 Questa sezione contiene i seguenti articoli:
 
-* [Gestire una relazione partner tra [!DNL Workfront Proof ]account](../../../workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
-* [Condividere elementi con un partner in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md)
+* [Gestisci una relazione partner tra [!DNL Workfront Proof ]account](../../../workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
+* [Condividi elementi con un partner in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md)

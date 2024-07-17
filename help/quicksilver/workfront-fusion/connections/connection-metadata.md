@@ -7,9 +7,10 @@ title: Metadati di connessione in Adobe Workfront Fusion
 description: Adobe Workfront Fusion richiede una licenza Adobe Workfront Fusion oltre a una licenza Adobe Workfront.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 3a7983279a38c30cb58078d129ea22dee137d9a5
+exl-id: af260c63-3385-4d5c-abc2-d5c23175be40
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] richiede un [!DNL Adobe Workfront Fusion] licenza oltre a un [!DNL Adobe Workfront] licenza.
+>[!DNL Adobe Workfront Fusion] richiede una licenza [!DNL Adobe Workfront Fusion] oltre a una licenza [!DNL Adobe Workfront].
 
 Non tutte le connessioni sono uguali. Comprendere le differenze tra le connessioni è molto importante per conoscere il contesto aziendale. Fusion utilizza i metadati per identificare gli attributi importanti di una connessione.
 
@@ -28,7 +29,7 @@ Non tutte le connessioni sono uguali. Comprendere le differenze tra le connessio
 
 Gli utenti di Fusion possono visualizzare e modificare le connessioni dall&#39;area Connessioni.
 
-![Metadati di connessione nell’area Connessioni](assets/connections-area-metadata.png)
+![Metadati di connessione nell&#39;area Connessioni](assets/connections-area-metadata.png)
 
 ## Tipo di ambiente
 
@@ -40,7 +41,4 @@ Le connessioni Fusion possono essere utilizzate sia per gli account di servizio 
 
 Tieni presente che il tipo, come altri metadati di connessione, viene utilizzato solo a scopo informativo. Gli utenti sono ancora responsabili dell’impostazione manuale accurata di questo attributo.
 
-Per ulteriori informazioni sui tipi di autenticazione, consulta [Autenticazione](https://developer.adobe.com/developer-console/docs/guides/authentication/) nella guida all’autenticazione di Adobe.
-
-
-
+Per ulteriori informazioni sui tipi di autenticazione, vedere [Autenticazione](https://developer.adobe.com/developer-console/docs/guides/authentication/) nella Guida all&#39;autenticazione di Adobe.

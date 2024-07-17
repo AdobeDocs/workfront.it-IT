@@ -19,7 +19,7 @@ Per utilizzare le funzionalità descritte in questo articolo, l’organizzazione
 
 * Per il piano corrente e la struttura delle licenze:
 
-   * A Pro o superiore [piano Adobe Workfront](https://www.workfront.com/plans).
+   * Un piano Pro o superiore [Adobe Workfront](https://www.workfront.com/plans).
    * Una licenza Adobe Workfront Goals oltre a una licenza Workfront.
 
 * Per il nuovo piano e la nuova struttura delle licenze:
@@ -32,7 +32,7 @@ Per utilizzare le funzionalità descritte in questo articolo, l’organizzazione
 
 Contatta il tuo account manager Workfront per saperne di più su una licenza Workfront Goals.
 
-Per ulteriori informazioni sull’accesso agli obiettivi di Workfront, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Per ulteriori informazioni sull&#39;accesso agli obiettivi di Workfront, vedere [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
@@ -48,4 +48,4 @@ In qualità di amministratore, puoi personalizzare i seguenti nomi di oggetti Wo
 
 La personalizzazione della terminologia degli obiettivi di Workfront è identica alla personalizzazione della terminologia in Workfront.
 
-Per informazioni sulla personalizzazione della terminologia in Workfront, consulta [Personalizzare la terminologia dell’interfaccia utente utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
+Per informazioni sulla personalizzazione della terminologia in Workfront, vedere [Personalizzare la terminologia dell&#39;interfaccia utente utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).

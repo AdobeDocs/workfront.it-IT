@@ -25,7 +25,7 @@ in January 2022
 
 la settimana del 4 aprile 2022.
 
-Per un elenco di tutte le modifiche disponibili con la versione 22.2, consulta [Panoramica sulla versione 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 22.2, vedere [Panoramica sulla versione 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Miglioramenti alla barra di navigazione superiore
 
@@ -35,7 +35,7 @@ Sono stati apportati diversi miglioramenti alla barra di navigazione superiore d
 * Il look and feel di entrambi i pin e del menu principale è stato aggiornato agli standard di design Adobi, inclusi colori e font. Il modo in cui aggiungi e rimuovi i pin e le aree a cui hai accesso nel menu principale non sono cambiati.
 * Le icone sulla destra della barra di navigazione superiore sono state riordinate per essere più intuitive. L’ordine delle icone è: collegamento della guida, notifiche, preferiti, recenti, ricerca, menu principale.
 
-Per ulteriori informazioni, consulta [Panoramica della barra di navigazione superiore](../../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md).
+Per ulteriori informazioni, vedere [Panoramica superiore della barra di navigazione](../../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md).
 
 ## Elenchi di schede orario riprogettati
 
@@ -46,5 +46,5 @@ Alcuni degli elementi di rilievo di questa riprogettazione sono:
 * L’elenco delle schede orario ora corrisponde all’esperienza in tutti gli altri elenchi in Workfront.
 * L’esperienza di filtro ora corrisponde ai filtri di tutti gli altri elenchi. Potrai creare filtri personalizzati con i campi e gli attributi che hanno più senso per te e condividerli con altri utenti.
 
-Per ulteriori informazioni sulla creazione di schede orario utilizzando i nuovi elenchi, consulta [Creare una scheda orario monouso](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
+Per ulteriori informazioni sulla creazione di schede orario utilizzando i nuovi elenchi, vedere [Creare una scheda orario monouso](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
 

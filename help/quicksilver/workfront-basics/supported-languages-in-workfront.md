@@ -2,20 +2,20 @@
 content-type: reference
 navigation-topic: get-started-with-workfront
 title: Lingue supportate in Adobe Workfront
-description: Puoi modificare la lingua in cui vengono visualizzati Adobe Workfront ed e-mail provenienti da Workfront, modificando le preferenze della lingua nel browser e le impostazioni internazionali e-mail predefinite in Workfront.
+description: Puoi modificare la lingua in cui vengono visualizzati Adobe Workfront e le e-mail provenienti da Workfront, regolando le preferenze di lingua sul browser e le impostazioni internazionali e-mail predefinite in Workfront.
 feature: Get Started with Workfront
 author: Caroline
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
 source-git-commit: 3d2e1dd5121b2495f984bed1ec1b9939de89f175
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 0%
+source-wordcount: '859'
+ht-degree: 1%
 
 ---
 
 # Lingue supportate in Adobe Workfront
 
-Puoi modificare la lingua in cui vengono visualizzati Adobe Workfront ed e-mail provenienti da Workfront, modificando le preferenze della lingua nel browser e le impostazioni internazionali e-mail predefinite in Workfront.
+Puoi modificare la lingua in cui vengono visualizzati Adobe Workfront e le e-mail provenienti da Workfront, regolando le preferenze di lingua sul browser e le impostazioni internazionali e-mail predefinite in Workfront.
 
 La terminologia di Workfront viene aggiornata per le lingue supportate con ogni aggiornamento di Workfront.
 
@@ -30,121 +30,120 @@ Workfront supporta le seguenti lingue:
 * Portoghese (pt-BR)
 * Coreano (ko)
 * Cinese - semplificato (zh-CN)
-* Cinese - tradizionale (zh-TW)
+* Cinese - Tradizionale (zh-TW)
 
-La lingua utilizzata per visualizzare Workfront nel browser è controllata dalle impostazioni della lingua del browser. Accertati di selezionare una lingua per il browser, elencata nell’elenco delle lingue supportate.
+La lingua utilizzata per visualizzare Workfront nel browser è controllata dalle impostazioni della lingua del browser. Accertati di selezionare una lingua per il browser elencata nell’elenco delle lingue supportate.
 
-Per visualizzare le e-mail in uscita in una qualsiasi delle lingue supportate, modifica le impostazioni internazionali e-mail utente o le informazioni sui clienti in Workfront.\
-È necessario essere un amministratore Workfront per modificare le impostazioni Informazioni cliente.\
-Per ulteriori informazioni sulla modifica delle impostazioni internazionali delle informazioni sul cliente e delle e-mail utente, consulta [Modificare le impostazioni internazionali Workfront e e-mail utente](#change-the-workfront-and-user-locales).
+Per visualizzare le e-mail in uscita in una delle lingue supportate, modifica le impostazioni Locale e-mail utente o Informazioni cliente in Workfront.\
+Per modificare le impostazioni di Informazioni cliente è necessario essere un amministratore di Workfront.\
+Per ulteriori informazioni sulla modifica delle impostazioni internazionali per le e-mail utente e le informazioni sul cliente, vedere [Modificare le impostazioni internazionali per le e-mail utente e Workfront](#change-the-workfront-and-user-locales).
 
-Puoi contrarre un contratto con terze parti affinché l’interfaccia Workfront e le e-mail in uscita da Workfront siano tradotte in altre lingue. Queste traduzioni non sono supportate da Workfront e qualsiasi lingua al di fuori di quelle elencate sopra non è supportata.
+Puoi affidare a terzi la traduzione in altre lingue dell’interfaccia Workfront e delle e-mail in uscita da Workfront. Queste traduzioni non sono supportate da Workfront e non sono supportate altre lingue oltre a quelle elencate sopra.
 
 >[!NOTE]
 >
->Alcune parti dell’interfaccia potrebbero ancora non essere tradotte per i seguenti elementi:
+>Alcune parti dell’interfaccia potrebbero non essere ancora tradotte per quanto segue:
 >
 >* Quando si utilizza una lingua non supportata, l’interfaccia viene visualizzata in inglese
->* Il menu Aiuto e il contenuto della guida a cui si accede da tale menu vengono visualizzati in inglese
->* Il testo immesso dall’utente rimane nella lingua originale immessa. Ciò può includere, ma non è limitato a:
-   >
-   >   * Nomi di progetto
-   >   * Nomi attività
-   >   * Nomi dei problemi
-   >   * Nomi di Portfolio
-   >   * Nomi di programma
-   >   * Nomi di omologazione
-   >   * Descrizioni
-   >   * Nomi modulo personalizzati
-   >   * Nomi dei tipi di ora
-   >   * Tipi di spesa
-   >   * Le Milestone
-   >   * Schede personalizzate
-   >   * Stati
-   >   * Nomi dei rapporti
+>* Il menu Aiuto e il contenuto della guida accessibile da tale menu vengono visualizzati in inglese
+>* Il testo immesso dall&#39;utente rimane nella lingua originale. Può includere, tra l’altro:
+>
+>   * Nomi di progetto
+>   * Nomi attività
+>   * Nomi problemi
+>   * Nomi Portfolio
+>   * Nomi di programmi
+>   * Nomi di approvazione
+>   * Descrizione
+>   * Nomi moduli personalizzati
+>   * Nomi Tipi di Ora
+>   * Tipi di spesa
+>   * Le Milestone
+>   * Schede personalizzate
+>   * Stati
+>   * Nomi dei rapporti
 >
 
+## Differenze di lingua supportate quando si utilizzano gli strumenti di correzione
 
-## Differenze di lingua supportate quando si utilizza la correzione
+Il Visualizzatore bozze web di Workfront supporta la maggior parte delle lingue supportate in Workfront.
 
-Il visualizzatore per correzione web in Workfront supporta la maggior parte delle lingue supportate in Workfront.
-
-Le seguenti lingue non sono supportate nello strumento di correzione:
+Le lingue seguenti non sono supportate nello strumento di correzione:
 
 * Cinese - semplificato (zh-CN)
-* Cinese - tradizionale (zh-TW)
+* Cinese - Tradizionale (zh-TW)
 * Portoghese (pt-BR)
 
-La società deve acquistare una licenza di correzione per poter accedere al visualizzatore Web Proofing.
+Per accedere al visualizzatore bozze Web, l&#39;azienda deve acquistare una licenza di bozza.
 
-Per ulteriori informazioni sulla correzione, consulta [Copertura](../review-and-approve-work/proofing/proofing.md).
+Per ulteriori informazioni sulla verifica, vedere [Verifica](../review-and-approve-work/proofing/proofing.md).
 
-Quando si visualizza Workfront in una lingua non supportata dallo strumento di correzione, il visualizzatore per correzione Web viene visualizzato in inglese.
+Quando si visualizza Workfront in una lingua non supportata nello strumento di correzione, il visualizzatore di bozze Web viene visualizzato in inglese.
 
-Se si utilizza Workfront Proof (lo strumento di correzione indipendente) in una lingua non supportata in Workfront, il visualizzatore di correzione Web in Workfront viene visualizzato in inglese.\
-Per ulteriori informazioni sulle lingue supportate in Workfront Proof, vedi [Impostazioni lingua in Workfront Proof](../workfront-proof/wp-getstarted/system-information/language-settings.md).
+Se si utilizza Workfront Proof (strumento di correzione autonomo) in una lingua non supportata in Workfront, il visualizzatore di bozze Web in Workfront viene visualizzato in inglese.\
+Per ulteriori informazioni sulle lingue supportate in Workfront Proof, vedere [Impostazioni lingua in Workfront Proof](../workfront-proof/wp-getstarted/system-information/language-settings.md).
 
-## Linguaggio supportato in Adobe Workfront Fusion
+## Lingua supportata in Adobe Workfront Fusion
 
-Attualmente, Workfront Fusion supporta solo l&#39;inglese.
+Attualmente, Workfront Fusion supporta solo l’inglese.
 
-* Tutti i contenuti di Workfront Fusion, così come tutti i contenuti di aiuto relativi a Workfront Fusion, vengono visualizzati in inglese.
-* Workfront Fusion non supporta l&#39;uso di caratteri di testo non inglesi nei campi immessi dall&#39;utente.
+* Tutti i contenuti di Workfront Fusion e di eventuali guide relative a Workfront Fusion vengono visualizzati in inglese.
+* Workfront Fusion non supporta l&#39;utilizzo di caratteri di testo non inglesi nei campi immessi dall&#39;utente.
 
-Per accedere a Workfront Fusion, la società deve acquistare una licenza Workfront Fusion.\
-Per ulteriori informazioni su Workfront Fusion, consulta [Panoramica di Adobe Workfront Fusion](../workfront-fusion/get-started/workfront-fusion-overview.md).
+Per poter accedere a Workfront Fusion, l’azienda deve acquistare una licenza Workfront Fusion.\
+Per ulteriori informazioni su Workfront Fusion, vedere [Panoramica di Adobe Workfront Fusion](../workfront-fusion/get-started/workfront-fusion-overview.md).
 
 ## Modificare la lingua
 
-È possibile modificare la lingua in cui si visualizza Workfront e la lingua delle e-mail in uscita modificando le seguenti impostazioni:
+Puoi modificare la lingua in cui visualizzi Workfront e la lingua delle e-mail in uscita modificando le seguenti impostazioni:
 
 * La lingua nel browser
-* Le impostazioni internazionali Informazioni cliente e Indirizzo e-mail utente nel tuo account Workfront.
+* Le impostazioni internazionali di Informazioni cliente e E-mail utente nel tuo account Workfront.
 
-Per visualizzare tutte le traduzioni disponibili per la lingua scelta, sia le impostazioni internazionali Workfront che quelle del browser devono essere impostate sulla stessa lingua.
+Per visualizzare tutte le traduzioni disponibili per la lingua scelta, è necessario impostare sia la lingua di Workfront che quella del browser sulla stessa lingua.
 
-* [Modificare la lingua del browser](#change-the-browser-language)
-* [Modificare le impostazioni internazionali Workfront e e-mail utente](#change-the-workfront-and-user-locales)
+* [Cambia la lingua del browser](#change-the-browser-language)
+* [Modificare le impostazioni internazionali di Workfront e delle e-mail degli utenti](#change-the-workfront-and-user-locales)
 
 ### Modificare la lingua del browser {#change-the-browser-language}
 
-Quando modifichi la lingua del browser, l’interfaccia Workfront viene visualizzata in tale lingua.\
-Per ulteriori informazioni sulle lingue supportate da Workfront, consulta [Lingue supportate in Adobe Workfront](#supported-languages).
+Quando modifichi la lingua del browser, l’interfaccia di Workfront viene visualizzata in tale lingua.\
+Per ulteriori informazioni sulle lingue supportate da Workfront, vedere [Lingue supportate in Adobe Workfront](#supported-languages).
 
-La lingua del browser deve essere modificata in base al singolo utente.
+La lingua del browser deve essere modificata su base individuale.
 
-Per informazioni specifiche su come modificare la lingua del browser, vedere il menu &quot;Aiuto&quot; del browser in uso.
+Per informazioni specifiche su come modificare la lingua del browser, consultare il menu &quot;Aiuto&quot; del browser in uso.
 
-### Modificare le impostazioni internazionali Workfront e e-mail utente {#change-the-workfront-and-user-locales}
+### Modificare le impostazioni internazionali di Workfront e delle e-mail degli utenti {#change-the-workfront-and-user-locales}
 
-* [Modificare le impostazioni internazionali e-mail predefinite di Workfront](#change-the-workfront-locale)
-* [Modificare le impostazioni internazionali e-mail dell’utente](#change-the-user-locale)
+* [Modifica impostazioni internazionali e-mail predefinite di Workfront](#change-the-workfront-locale)
+* [Modifica impostazioni internazionali e-mail utente](#change-the-user-locale)
 
-### Modificare le impostazioni internazionali e-mail predefinite di Workfront {#change-the-workfront-locale}
+### Modifica impostazioni internazionali e-mail predefinite di Workfront {#change-the-workfront-locale}
 
-Quando si modificano le impostazioni internazionali e-mail predefinite di Workfront, si modificano la lingua, la data e il formato del numero utilizzati nei messaggi in uscita per tutti gli utenti di Workfront. Queste impostazioni diventano le impostazioni predefinite per ogni nuovo utente creato.
+Quando si modifica la lingua e-mail predefinita di Workfront, si modificano la lingua, la data e il formato numerico utilizzati nei messaggi in uscita per tutti gli utenti di Workfront. Queste impostazioni diventano predefinite per ogni nuovo utente creato.
 
-Per modificare le impostazioni internazionali e-mail predefinite di Workfront:
+Per modificare le impostazioni internazionali predefinite per le e-mail di Workfront:
 
 1. Accedi a Workfront come amministratore Workfront.
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
-1. Fai clic su **Sistema** > **Informazioni sul cliente.**
+1. Fai clic su **Sistema** > **Informazioni cliente**
 
-1. In **Informazioni di base** fai clic sulla sezione **Impostazioni internazionali e-mail predefinite** elenco a discesa per selezionare la lingua in cui si desidera visualizzare le e-mail di Workfront.
+1. Nella sezione **Informazioni di base**, fai clic sull&#39;elenco a discesa **Impostazioni internazionali e-mail predefinite** per selezionare la lingua in cui visualizzare le e-mail di Workfront.
 
 1. Fai clic su **Salva**.
 
-### Modificare le impostazioni internazionali e-mail dell’utente {#change-the-user-locale}
+### Modifica impostazioni internazionali e-mail utente {#change-the-user-locale}
 
-Quando si modificano le impostazioni internazionali e-mail utente, si modificano la lingua, la data e il formato del numero utilizzati nei messaggi in uscita. Queste impostazioni sostituiscono le impostazioni di sistema selezionate nell&#39;area Informazioni cliente di Configurazione.
+Quando modifichi le impostazioni internazionali dell’e-mail utente, puoi modificare la lingua, la data e il formato del numero utilizzati nei messaggi in uscita. Queste impostazioni sostituiscono le impostazioni di sistema selezionate nell&#39;area Informazioni cliente di Configura.
 
-Per modificare le impostazioni internazionali e-mail utente:
+Per modificare le impostazioni internazionali dell&#39;e-mail utente:
 
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront, quindi fai clic sull’immagine del tuo profilo utente.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic sull&#39;immagine del tuo profilo utente.
 
 1. Fai clic sul menu Altro ![](assets/more-icon.png), quindi fai clic su **Modifica**.
 
-1. In **Preferenze** fai clic sulla sezione **Impostazioni internazionali e-mail** elenco a discesa per selezionare la lingua in cui si desidera visualizzare le e-mail di Workfront.
+1. Nella sezione **Preferenze**, fai clic sull&#39;elenco a discesa **Impostazioni internazionali e-mail** per selezionare la lingua in cui visualizzare le e-mail di Workfront.
 
 1. Fai clic su **Salva modifiche**.

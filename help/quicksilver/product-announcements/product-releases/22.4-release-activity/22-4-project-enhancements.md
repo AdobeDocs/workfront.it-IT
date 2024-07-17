@@ -23,7 +23,7 @@ Per un elenco di tutte le modifiche disponibili con la versione 22.4, consulta [
 
 Per visualizzare i dettagli dei predecessori di un&#39;attività, è ora possibile passare il cursore sul numero del predecessore nella colonna Predecessori. Nella casella dei dettagli vengono visualizzati l&#39;attività e il progetto predecessore a cui si fa riferimento, le date di inizio e fine pianificate per l&#39;attività predecessore e il numero di predecessori e successori dell&#39;attività predecessore. Puoi espandere i dettagli del progetto per visualizzare ulteriori informazioni. Sono incluse ulteriori informazioni per i predecessori tra progetti.
 
-Per ulteriori informazioni, consulta [Creare una relazione predecessore nell&#39;elenco delle attività](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
+Per ulteriori informazioni, vedere [Creare una relazione predecessore nell&#39;elenco delle attività](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
 
 ## Assegnare più team a un’attività o a un problema
 
@@ -33,7 +33,7 @@ Per offrire una maggiore flessibilità nella gestione di attività e problemi, �
 >
 >Questa funzionalità non è attualmente disponibile nel Bilanciatore dei carichi di lavoro nell’area Team.
 
-Per ulteriori informazioni, consulta [Assegna attività](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md) e [Assegna problemi](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md).
+Per ulteriori informazioni, vedere [Assegnare attività](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md) e [Assegnare problemi](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md).
 
 ## Selezione intelligente degli utenti per i ruoli di progetto nelle aree Modifica e Dettagli
 
@@ -47,11 +47,11 @@ Per ulteriori informazioni, consulta [Assegna attività](/help/quicksilver/manag
 
 Ora, quando si aggiunge un utente a uno di questi campi nelle aree Modifica o Dettagli, oltre al nome e all’avatar, vengono visualizzati anche il Ruolo principale e l’e-mail. Questo aiuta a distinguere tra più utenti con nomi simili o identici.
 
-Per ulteriori informazioni, consulta [Modifica Progetti](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+Per ulteriori informazioni, vedere [Modifica progetti](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
 NOTA: ulteriori campi utente per progetti, attività e problemi saranno aggiornati con questa funzionalità nelle versioni future.
 
-[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3412390/){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità.](https://video.tv.adobe.com/v/3412390/){target=_blank}
 
 ## I campi data calcolati vengono sempre salvati in base al Coordinated Universal Time (UTC)
 
@@ -65,7 +65,7 @@ In precedenza, le impostazioni di tempo nei calcoli causavano confusione quando 
 
 * Se qualcuno ha modificato l’oggetto e questo ha causato il ricalcolo dell’espressione del campo calcolato, i risultati della funzione data sono determinati dal fuso orario locale dell’utente. I risultati del campo data calcolata in questo scenario verranno calcolati anche in base all’UTC.
 
-Per ulteriori informazioni, consulta [Utilizzo dei fusi orari](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md).
+Per ulteriori informazioni, vedere [Utilizzo dei fusi orari](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md).
 
 ## Miglioramenti al modulo personalizzato: Adobe XD e il filtro rapido
 
@@ -73,15 +73,15 @@ In base al tuo feedback, abbiamo introdotto i seguenti miglioramenti per miglior
 
 * Aggiungi un file Adobe XD per rendere un modulo personalizzato più visivo e informativo. Quando il modulo viene allegato a un oggetto, gli utenti che utilizzano l&#39;oggetto possono visualizzare e interagire con il file XD dall&#39;interno del modulo.
 
-  Per ulteriori informazioni, consulta [Aggiungere o modificare un’immagine o un altro widget di risorse in un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+  Per ulteriori informazioni, consulta [Aggiungere o modificare un&#39;immagine o un altro widget di risorse in un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 * Utilizza il filtro rapido per individuare facilmente gli elementi nell’elenco dei campi e dei moduli personalizzati modernizzati. Inoltre, è possibile ottenere un aspetto migliore durante la gestione di moduli e campi.
 
-  Per ulteriori informazioni sul filtro rapido, consulta [Applicare il filtro rapido a un elenco](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
+  Per ulteriori informazioni sul filtro rapido, vedere [Applicare il filtro rapido a un elenco](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
-[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3412469/){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità.](https://video.tv.adobe.com/v/3412469/){target=_blank}
 
-## Beta pubblica: nuova esperienza di filtro per progetti, attività e problemi
+## Beta pubblico: nuova esperienza di filtro per progetti, attività e problemi
 
 I filtri negli elenchi di progetti, attività e problemi sono stati riprogettati per aiutarti a creare e condividere rapidamente i filtri. Le caratteristiche includono:
 
@@ -113,7 +113,7 @@ La modalità testo rimane disponibile per la modifica avanzata dei filtri e gli 
 
 ### Vogliamo il tuo feedback!
 
-Con questa versione beta pubblica, gli utenti hanno la possibilità di inviare feedback direttamente al team che lavora sull’esperienza dei filtri, facendo clic sul pulsante di feedback. Saremo lieti di ricevere informazioni da te e dai tuoi utenti sulla nuova esperienza di filtro nella versione beta pubblica. Se il tuo team desidera incontrare direttamente il prodotto per fornire un feedback, pianifica un incontro qui: https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&amp;date=2022-08-25
+Con questo Beta pubblico gli utenti possono inviare feedback direttamente al team che lavora sull’esperienza dei filtri, facendo clic sul pulsante Feedback. Saremo lieti di ricevere informazioni da te e dai tuoi utenti sulla nuova esperienza di filtro nella versione beta pubblica. Se il tuo team desidera incontrare direttamente il prodotto per fornire un feedback, pianifica un incontro qui: https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&amp;date=2022-08-25
 
 ### Cosa succede dopo?
 
@@ -128,6 +128,6 @@ Con questa versione beta pubblica, gli utenti hanno la possibilità di inviare f
 
 Desideriamo fornire valore iterativo, in modo da continuare a fornire man mano che le nuove esperienze e altre aree sono pronte. Rimani sintonizzato per aggiornamenti più interessanti.
 
-Per ulteriori informazioni, consulta [Panoramica sui filtri](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md) e [Creare o modificare filtri in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+Per ulteriori informazioni, vedere [Panoramica dei filtri](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md) e [Creare o modificare filtri in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
-[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3412391/)
+[Visualizza una dimostrazione video di questa funzionalità.](https://video.tv.adobe.com/v/3412391/)

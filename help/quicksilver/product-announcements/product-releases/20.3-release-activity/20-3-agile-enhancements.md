@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti Agile apportati con la versione 20.3 all’ambiente di produzione. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana del 10 agosto 2020.
 
-Per un elenco di tutte le modifiche disponibili con la versione 20.3, consulta [Panoramica sulla versione 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 20.3, consulta la [panoramica sulla versione 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Scegli per quanto tempo le carte rimangono sulla bacheca Kanban
 
@@ -26,7 +26,7 @@ Ora puoi scegliere per quanto tempo le schede completate rimangono sul Kanban Bo
 
 In precedenza, le carte lasciavano il Kanban Board dopo 14 giorni.
 
-Per ulteriori informazioni, consulta [Configura Kanban](../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+Per ulteriori informazioni, vedere [Configurare Kanban](../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
 ## Le bacheche Agile caricano 50 elementi di lavoro alla volta
 

@@ -1,46 +1,46 @@
 ---
 content-type: overview
 product-area: templates
-keywords: sovrascrittura, campo, sovrascritto
+keywords: sovrascrivi,campo,sovrascritto
 navigation-topic: templates-navigation-topic
-title: Panoramica sull’associazione di un modello a un progetto
-description: Quando alleghi un modello a un progetto esistente, modifichi alcune delle informazioni sul progetto in base a quelle del modello. Alcune delle informazioni sul progetto rimangono invariate.
+title: Panoramica dell’associazione di un modello a un progetto
+description: Quando si allega un modello a un progetto esistente, si modificano alcune informazioni del progetto in base a quelle del modello. Alcune informazioni sul progetto rimangono invariate.
 author: Alina
 feature: Work Management
 exl-id: 7f0137b6-ce8e-4b66-ad55-e6dc2aae09d9
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1258'
 ht-degree: 5%
 
 ---
 
-# Panoramica sull’associazione di un modello a un progetto
+# Panoramica dell’associazione di un modello a un progetto
 
-Quando alleghi un modello a un progetto esistente, modifichi alcune delle informazioni sul progetto in base a quelle del modello. Alcune delle informazioni sul progetto rimangono invariate.
+Quando si allega un modello a un progetto esistente, si modificano alcune informazioni del progetto in base a quelle del modello. Alcune informazioni sul progetto rimangono invariate.
 
-Per informazioni su come allegare un modello a un progetto, consulta [Allegare un modello a un progetto](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+Per informazioni su come allegare un modello a un progetto, vedere [Allegare un modello a un progetto](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
 
-## Considerazioni sull’aggiunta di modelli ai progetti
+## Considerazioni durante l’aggiunta di modelli ai progetti
 
-Quando aggiungi modelli ai progetti, considera quanto segue:
+Quando aggiungi modelli ai progetti, tieni presente quanto segue:
 
-* È possibile allegare ai progetti solo i modelli attivi.
-* È possibile allegare un modello a un progetto quando lo stato del progetto è Completo, Morto o In attesa di approvazione, solo se l’amministratore di Adobe Workfront o un amministratore di gruppo ha abilitato questa funzionalità nell’area Preferenze progetto. Per informazioni sull&#39;impostazione delle preferenze del progetto, consulta [Configurare le preferenze del progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
-* A meno che non si escluda l&#39;aggiunta di specifiche attività modello nel processo di allegato, tutte le attività modello vengono aggiunte al progetto esistente.
-* La maggior parte delle impostazioni del modello viene aggiunta al progetto. Alcune impostazioni di progetto vengono mantenute. Per informazioni, consulta la sezione . [Comprendere le modifiche apportate ai campi del progetto quando si allega un modello](#understand-changes-to-project-fields-when-attaching-a-template) in questo articolo.
+* Ai progetti è possibile allegare solo modelli attivi.
+* È possibile allegare un modello a un progetto quando il progetto si trova nello stato Completato, Inattivo o In attesa di approvazione solo se l’amministratore di Adobe Workfront o un amministratore di gruppo ha abilitato questa funzionalità nell’area Preferenze progetto. Per informazioni sull&#39;impostazione delle preferenze di progetto, vedere [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* A meno che non si escluda l&#39;aggiunta di specifiche attività modello nel processo di creazione degli allegati, tutte le attività modello vengono aggiunte al progetto esistente.
+* La maggior parte delle impostazioni dei modelli viene aggiunta al progetto. Alcune impostazioni di progetto vengono mantenute. Per informazioni, vedere la sezione [Comprendere le modifiche ai campi del progetto quando si allega un modello](#understand-changes-to-project-fields-when-attaching-a-template) in questo articolo.
 
-## Comprendere le modifiche apportate ai campi del progetto quando si allega un modello {#understand-changes-to-project-fields-when-attaching-a-template}
+## Comprendere le modifiche ai campi del progetto quando si allega un modello {#understand-changes-to-project-fields-when-attaching-a-template}
 
 >[!IMPORTANT]
 >
->L&#39;associazione di un modello a un progetto non equivale alla creazione di un progetto da un modello. Quando crei un progetto da un modello, tutti i campi modello vengono trasferiti al nuovo progetto. L&#39;aggiunta di un modello lascia invariati alcuni campi del progetto esistenti.
+>Associare un modello a un progetto non equivale a creare un progetto da un modello. Quando crei un progetto da un modello, tutti i campi modello vengono trasferiti al nuovo progetto. Quando si allega un modello, alcuni campi del progetto esistenti rimangono invariati.
 
-Alcune impostazioni del modello vengono trasferite automaticamente al progetto, a meno che non vengano contrassegnate in modo specifico per essere escluse durante il processo di allegato del modello. Quando li contrassegni in modo da essere esclusi, i valori dei campi del progetto vengono mantenuti.
+Alcune impostazioni del modello vengono trasferite automaticamente al progetto, a meno che non vengano contrassegnate per essere escluse durante il processo di allegato del modello. Quando li contrassegni per l’esclusione, i valori dei campi del progetto vengono mantenuti.
 
-Tuttavia, non tutti i campi del progetto sono disponibili per la gestione nel processo di associazione di un modello a un progetto. Per informazioni, consulta [Allegare un modello a un progetto](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+Tuttavia, non tutti i campi del progetto sono disponibili per la gestione nel processo di associazione di un modello a un progetto. Per informazioni, vedere [Allegare un modello a un progetto](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
 
-La tabella seguente descrive l&#39;impostazione predefinita relativa ai campi del progetto quando si allega un modello e i campi che è possibile gestire durante il processo di allegato per ignorare il comportamento predefinito:
+Nella tabella seguente viene descritto il comportamento predefinito per i campi del progetto quando si allega un modello e i campi che è possibile gestire durante il processo di associazione per ignorare il comportamento predefinito:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,17 +49,17 @@ La tabella seguente descrive l&#39;impostazione predefinita relativa ai campi de
  <tbody> 
   <tr> 
    <td>Campo</td> 
-   <td>Cosa accade nel processo di associazione di un modello, per impostazione predefinita</td> 
-   <td>Possibilità di gestire gli aggiornamenti dei campi nel processo di allegato </td> 
+   <td>Cosa accade durante il processo di associazione di un modello per impostazione predefinita</td> 
+   <td>Possibilità di gestire gli aggiornamenti dei campi nel processo di creazione degli allegati </td> 
   </tr> 
   <tr> 
    <td>Descrizione</td> 
-   <td>Le informazioni sul progetto vengono mantenute</td> 
+   <td>Le informazioni del progetto vengono conservate</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Stato</p> </td> 
-   <td>Le informazioni sul progetto vengono mantenute</td> 
+   <td>Le informazioni del progetto vengono conservate</td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -69,42 +69,42 @@ La tabella seguente descrive l&#39;impostazione predefinita relativa ai campi de
   </tr> 
   <tr> 
    <td>Priorità</td> 
-   <td>Le informazioni sul progetto vengono mantenute</td> 
+   <td>Le informazioni del progetto vengono conservate</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Tipo di condizione</td> 
-   <td>Le informazioni sul progetto vengono mantenute</td> 
+   <td>Le informazioni del progetto vengono conservate</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Modalità Schedule</td> 
-   <td>Le informazioni sul progetto vengono mantenute</td> 
+   <td>Modalità pianificazione</td> 
+   <td>Le informazioni del progetto vengono conservate</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Le Date Pianificate</td> 
-   <td>Potrebbe cambiare in base alle attività aggiunte</td> 
+   <td>Può cambiare in base alle attività aggiunte</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Date effettive</td> 
-   <td>Potrebbe cambiare in base alle attività aggiunte</td> 
+   <td>Può cambiare in base alle attività aggiunte</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Portfolio</td> 
-   <td>Le informazioni sul progetto vengono mantenute</td> 
+   <td>Le informazioni del progetto vengono conservate</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Programma</td> 
-   <td>Le informazioni sul progetto vengono mantenute</td> 
+   <td>Le informazioni del progetto vengono conservate</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Gruppo</td> 
-   <td>Le informazioni sul progetto vengono mantenute</td> 
+   <td>Le informazioni del progetto vengono conservate</td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -114,7 +114,7 @@ La tabella seguente descrive l&#39;impostazione predefinita relativa ai campi de
   </tr> 
   <tr> 
    <td>Lavoro Necessario</td> 
-   <td>Potrebbe cambiare in base alle attività aggiunte</td> 
+   <td>Può cambiare in base alle attività aggiunte</td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -129,42 +129,42 @@ La tabella seguente descrive l&#39;impostazione predefinita relativa ai campi de
   </tr> 
   <tr> 
    <td>Responsabile risorse</td> 
-   <td>Aggiunto all’elenco dei gestori di risorse esistenti nel progetto</td> 
+   <td>Aggiunto all'elenco dei gestori di risorse esistenti nel progetto</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Forms personalizzato</td> 
-   <td>Aggiunto al progetto, oltre ai moduli già presenti nel progetto</td> 
+   <td>Sono stati aggiunti al progetto, oltre ai moduli già presenti nel progetto</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Bdg</td> 
-   <td>Le informazioni sul progetto vengono mantenute</td> 
+   <td>Le informazioni del progetto vengono conservate</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Valuta</td> 
-   <td>Le informazioni sul progetto vengono mantenute</td> 
+   <td>Le informazioni del progetto vengono conservate</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>MIP</td> 
-   <td>Le informazioni sul progetto vengono mantenute</td> 
+   <td>Le informazioni del progetto vengono conservate</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>CRS</td> 
-   <td>Le informazioni sul progetto vengono mantenute</td> 
+   <td>EAC</td> 
+   <td>Le informazioni del progetto vengono conservate</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Benef Pian</td> 
-   <td>Le informazioni sul progetto vengono mantenute</td> 
+   <td>Le informazioni del progetto vengono conservate</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Benef Real</td> 
-   <td>Le informazioni sul progetto vengono mantenute</td> 
+   <td>Vantaggio corrente</td> 
+   <td>Le informazioni del progetto vengono conservate</td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -174,72 +174,72 @@ La tabella seguente descrive l&#39;impostazione predefinita relativa ai campi de
   </tr> 
   <tr> 
    <td>Modalità di completamento</td> 
-   <td>Le informazioni sul progetto vengono mantenute</td> 
+   <td>Le informazioni del progetto vengono conservate</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Modalità completamento riepilogo</td> 
-   <td>Le informazioni sul progetto vengono mantenute</td> 
+   <td>Modalità di completamento riepilogo</td> 
+   <td>Le informazioni del progetto vengono conservate</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Tipo Aggiornamento</td> 
-   <td>Le informazioni sul progetto vengono mantenute</td> 
+   <td>Tipo di aggiornamento</td> 
+   <td>Le informazioni del progetto vengono conservate</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Pianificazione</td> 
-   <td>Le informazioni sul progetto vengono mantenute</td> 
+   <td>Le informazioni del progetto vengono conservate</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Ora di disattivazione utente</td> 
-   <td>Le informazioni sul progetto vengono mantenute</td> 
+   <td>Indisponibilità utente</td> 
+   <td>Le informazioni del progetto vengono conservate</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Modalità Livellamento Risorse</td> 
-   <td>Le informazioni sul progetto vengono mantenute</td> 
+   <td>Le informazioni del progetto vengono conservate</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Rischio (campo del progetto)</td> 
-   <td>Le informazioni sul progetto vengono mantenute</td> 
+   <td>Le informazioni del progetto vengono conservate</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Gruppi di risorse</td> 
-   <td>Aggiunto all’elenco dei pool di risorse esistenti nel progetto</td> 
+   <td>Aggiunto all'elenco dei pool di risorse esistenti nel progetto</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Tipi di Ora</td> 
-   <td> <p>Se deselezionata durante il processo di allegato, l'impostazione Tipi di ora sul progetto rimane invariata. </p> <p>Se selezionata, l’impostazione del modello viene trasferita al progetto. Se il filtro Tipo ora è impostato su Sì sia sul progetto che sul modello, i tipi di ora dal modello vengono aggiunti a quelli nel progetto.</p> </td> 
+   <td> <p>Se viene deselezionata durante il processo di collegamento, l'impostazione Tipi di ora sul progetto rimane invariata. </p> <p>Se selezionata, l’impostazione del modello viene trasferita al progetto. Se il filtro Tipo di ora è impostato su Sì sia sul progetto che sul modello, i tipi di ora del modello vengono aggiunti a quelli del progetto.</p> </td> 
    <td> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td>Notifiche promemoria</td> 
-   <td> <p>Aggiunto all’elenco dei promemoria esistenti sul progetto. </p> <p>Se deselezionata durante il processo di allegato, le notifiche dei promemoria del progetto rimangono invariate. </p> </td> 
+   <td> <p>È stato aggiunto all’elenco dei promemoria esistenti sul progetto. </p> <p>Se viene deselezionata durante il processo di allegazione, le notifiche di promemoria del progetto rimangono invariate. </p> </td> 
    <td>✓</td> 
   </tr> 
   <tr> 
    <td>Processo di approvazione predefinito attività</td> 
-   <td>Le informazioni sul progetto vengono mantenute</td> 
+   <td>Le informazioni del progetto vengono conservate</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Forms personalizzato predefinito dell'attività</td> 
-   <td>Le informazioni sul progetto vengono mantenute</td> 
+   <td>Forms personalizzato predefinito attività</td> 
+   <td>Le informazioni del progetto vengono conservate</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Sforzo di lavoro</td> 
-   <td>Le informazioni sul progetto vengono mantenute</td> 
+   <td>Impegno di lavoro</td> 
+   <td>Le informazioni del progetto vengono conservate</td> 
    <td> </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td><span>Consenti agli utenti di aggiungere problemi in linea</span> </td> 
-   <td><span>Le informazioni sul progetto vengono mantenute</span> </td> 
+   <td><span>Le informazioni sul progetto sono state conservate</span> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -264,62 +264,62 @@ La tabella seguente descrive l&#39;impostazione predefinita relativa ai campi de
   </tr> 
   <tr> 
    <td>Processo di approvazione</td> 
-   <td>Trasferito dal modello</td> 
+   <td>Trasferito da modello</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
    <td>Tariffe di fatturazione</td> 
-   <td> <p>Trasferito dal modello in aggiunta ai tassi di fatturazione esistenti sul progetto. </p> <p>Se esiste un tasso diverso per lo stesso ruolo di lavoro sia nel progetto che nel modello, il tasso sul progetto rimane invariato. </p> </td> 
+   <td> <p>Trasferito da modello in aggiunta alle tariffe di fatturazione esistenti sul progetto. </p> <p>Se nel progetto e nel modello è presente un tasso diverso per la stessa mansione, il tasso nel progetto rimane invariato. </p> </td> 
    <td> <p> </p> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td>Record fatturazione</td> 
-   <td>Le informazioni sul progetto vengono mantenute</td> 
+   <td>Le informazioni del progetto vengono conservate</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Spese</td> 
-   <td>Trasferito da modello in aggiunta alle spese esistenti per il progetto</td> 
+   <td>Trasferito dal modello in aggiunta alle spese esistenti per il progetto</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Informazione Finanziaria</td> 
-   <td> <p>Quando questa opzione è selezionata nel processo di allegato, i campi seguenti vengono trasferiti o aggiunti al progetto: </p> 
+   <td>Informazioni finanziarie</td> 
+   <td> <p>Quando questa opzione è selezionata nel processo di creazione degli allegati, i campi seguenti vengono trasferiti o aggiunti al progetto: </p> 
     <ul> 
-     <li> <p>Costo Fisso</p> <p>Quando l’opzione è selezionata, il costo fisso aggiornato del progetto viene calcolato con la seguente formula:</p> <p><code>Updated Project Fixed Cost = Original Project Fixed Cost + Template Fixed Cost</code> </p> </li> 
-     <li> <p>Reddito Fisso</p> <p>Quando l’opzione è selezionata, i ricavi fissi aggiornati del progetto vengono calcolati con la seguente formula:</p> <p><code>Updated Project Fixed Revenue = Original Project Fixed Revenue + Template Fixed Revenue </code> </p> </li> 
-     <li> <p>Tipo di costo per le attività</p> <p>Trasferito dal modello</p> </li> 
-     <li> <p>Tipo di ricavi per attività</p> <p>Trasferito dal modello</p> </li> 
-    </ul> <p>Se questo campo è deselezionato durante il processo di allegato, si verifica quanto segue:</p> 
+     <li> <p>Costi fissi</p> <p>Quando l’opzione è selezionata, il Costo fisso aggiornato del progetto viene calcolato con la seguente formula:</p> <p><code>Updated Project Fixed Cost = Original Project Fixed Cost + Template Fixed Cost</code> </p> </li> 
+     <li> <p>Reddito Fisso</p> <p>Quando l’opzione è selezionata, la Retribuzione fissa aggiornata del progetto viene calcolata utilizzando la seguente formula:</p> <p><code>Updated Project Fixed Revenue = Original Project Fixed Revenue + Template Fixed Revenue </code> </p> </li> 
+     <li> <p>Tipo di costo per le attività</p> <p>Trasferito da modello</p> </li> 
+     <li> <p>Tipo di retribuzione per le attività</p> <p>Trasferito da modello</p> </li> 
+    </ul> <p>Se questo campo viene deselezionato durante il processo di collegamento, si verifica quanto segue:</p> 
     <ul> 
      <li> <p>I costi fissi e i ricavi fissi del progetto vengono mantenuti.</p> </li> 
-     <li> <p>I tipi di costo e ricavi per le attività aggiunte dal modello sono impostati su Nessun costo e Non fatturabile</p> </li> 
+     <li> <p>I tipi di costo e di ricavo per le attività aggiunte dal modello sono impostati su Nessun costo e Non fatturabile</p> </li> 
     </ul> </td> 
    <td> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td>Ore</td> 
-   <td>Le informazioni sul progetto vengono mantenute</td> 
+   <td>Le informazioni del progetto vengono conservate</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Dettagli coda, gruppi di argomenti, argomenti della coda, regole di routing</td> 
-   <td> <p>Trasferito dal modello</p> <p>Se selezioni la <strong>Impostazione delle proprietà e dei problemi della coda</strong> durante il processo di allegato, i dettagli coda del modello sovrascrivono quelli del progetto. In questo caso, le regole di instradamento, gli argomenti della coda e i gruppi di argomenti del modello vengono aggiunti a quelli del progetto. <br>Se il progetto è configurato come coda di richiesta e il modello allegato al progetto non è impostato come coda di richiesta, le informazioni sulla coda del progetto vengono rimosse se si lascia il <strong>Impostazione delle proprietà e dei problemi della coda</strong> casella selezionata. <br>Se deselezioni la <strong>Proprietà coda e impostazione dei problemi</strong> vengono mantenute tutte le impostazioni di configurazione della coda del progetto e non sono associate le impostazioni di configurazione della coda del modello.</p> </td> 
+   <td>Dettagli Coda, Gruppi Di Argomenti, Argomenti Coda, Regole Di Instradamento</td> 
+   <td> <p>Trasferito da modello</p> <p>Se si seleziona l'opzione <strong>Impostazione delle proprietà e dei problemi della coda</strong> durante il processo di aggiunta, i dettagli della coda del modello sovrascriveranno quelli del progetto. In questo caso, le Regole di instradamento, gli Argomenti coda e i Gruppi di argomenti del modello vengono aggiunti a quelli del progetto. <br>Se il progetto è configurato come coda di richieste e il modello allegato al progetto non è configurato come coda di richieste, le informazioni sulla coda del progetto vengono rimosse se si lascia selezionata la casella <strong>Proprietà coda e configurazione problemi</strong>. <br>Se si deseleziona la casella <strong>Proprietà coda e configurazione problema</strong>, tutte le impostazioni di configurazione coda del progetto vengono mantenute e nessuna impostazione di configurazione coda del modello viene allegata.</p> </td> 
    <td> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td>Vincoli attività</td> 
-   <td> <p>Trasferito dal modello </p> <p>Se deselezionato durante il processo di allegato, i vincoli dell'attività vengono impostati su Al più presto possibile o il più tardi possibile, a seconda dell'impostazione Pianificazione da del progetto. </p> </td> 
+   <td> <p>Trasferito da modello </p> <p>Se viene deselezionata durante il processo di collegamento, i vincoli delle attività vengono impostati su Il più presto possibile o Il più tardi possibile, a seconda dell'impostazione Pianifica da del progetto. </p> </td> 
    <td> <p> </p> <p> </p> <p style="text-align: center;">✓</p> </td> 
   </tr> 
   <tr> 
-   <td>Predecessori Attività</td> 
-   <td> <p>Trasferito dal modello</p> <p>Se deselezionato durante il processo di allegato, vengono rimosse tutte le connessioni predecessori tra le attività del modello.</p> </td> 
+   <td>Predecessori attività</td> 
+   <td> <p>Trasferito da modello</p> <p>Se viene deselezionata durante il processo di creazione degli allegati, tutte le connessioni dei predecessori tra le attività modello vengono rimosse.</p> </td> 
    <td>✓</td> 
   </tr> 
   <tr> 
    <td>Opzioni di condivisione</td> 
-   <td> <p>Se deselezionata durante il processo di allegato, le autorizzazioni del progetto rimangono invariate.</p> <p>Se selezionate durante il processo di allegato, le autorizzazioni del modello vengono aggiunte o sovrascritte a quelle del progetto. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Esempio: </b></span></span>Se l'utente A dispone dell'autorizzazione Visualizza per il progetto, ma dispone delle autorizzazioni Gestisci sul modello, dopo aver collegato il modello, l'utente A otterrà l'accesso Gestisci al progetto.</p> </td> 
+   <td> <p>Se deselezionata durante il processo di associazione, le autorizzazioni del progetto rimangono invariate.</p> <p>Se viene selezionato durante il processo di creazione degli allegati, le autorizzazioni del modello vengono aggiunte o sovrascritte a quelle del progetto. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Esempio: </b></span></span>Se l'utente A dispone dell'autorizzazione di visualizzazione per il progetto, ma dispone delle autorizzazioni di gestione per il modello, dopo aver allegato il modello l'utente A otterrà l'accesso di gestione al progetto.</p> </td> 
    <td>✓</td> 
   </tr> 
  </tbody> 

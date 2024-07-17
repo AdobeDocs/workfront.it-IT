@@ -26,13 +26,13 @@ In questo articolo vengono illustrate alcune best practice consigliate all&#39;a
 
 Il modulo Workfront Planning è una delle tre funzionalità distinte ma collegate di Workfront che insieme creano un sistema di registrazione di marketing. Le tre funzionalità sono:
 
-* **Pianificazione**: nuove funzionalità avanzate incluse in Workfront Planning.
+* **Planning**: le nuove funzionalità avanzate incluse in Workfront Planning.
 
-* **Flusso di lavoro**: le funzionalità di gestione collaborativa del lavoro attualmente utilizzate in Workfront (gestione dei progetti, gestione delle risorse, ecc.)
+* **Flusso di lavoro**: le funzionalità di gestione collaborativa del lavoro attualmente utilizzate in Workfront (gestione progetti, gestione risorse, ecc.)
 
 * **Automazione e integrazione**: funzionalità complete di integrazione e automazione basate su Workfront Fusion.
 
-Workfront Planning è altamente personalizzabile. Per ulteriori informazioni sulla terminologia e sui concetti chiave di Workfront Planning, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+Workfront Planning è altamente personalizzabile. Per ulteriori informazioni sulla terminologia e sul concetto chiave di Workfront Planning, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 ## Domande da porre prima di configurare Workfront Planning
 
@@ -40,7 +40,7 @@ Dopo aver acquisito familiarità con la terminologia e l&#39;architettura di Wor
 
 Alcune domande che potresti porti durante la configurazione di Planning sono:
 
-* **Utilizzare le aree di lavoro per gruppi organizzativi più grandi? O dovrei incoraggiare le persone a crearne di personali?**
+* **Utilizzare le aree di lavoro per gruppi organizzativi più grandi? Oppure devo incoraggiare le persone a configurarne di personali?**
 
   Potresti scoprire che c&#39;è un buon utilizzo per entrambi. È consigliabile non disporre di troppe aree di lavoro, in quanto potrebbero diventare difficili da gestire e i flussi di lavoro potrebbero essere troppo frammentati.
 
@@ -52,9 +52,9 @@ Alcune domande che potresti porti durante la configurazione di Planning sono:
 
   I tipi di record sono simili ai tipi di oggetto di Workfront. Pensa ai tuoi flussi di lavoro e decidi quali tipi di record (oggetti di lavoro, oggetti persone, tassonomie, ecc.) potrebbe essere necessario per ogni flusso di lavoro.
 
-  Per informazioni, consulta [Crea tipi di record](/help/quicksilver/planning/architecture/create-record-types.md)
+  Per informazioni, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md)
 
-* **Come posso creare i miei documenti? Esiste un elenco o un foglio di calcolo esterno che contiene già i record da aggiungere a Planning che è possibile utilizzare? I record verranno aggiunti gradualmente in base alle esigenze? Oppure verranno importate utilizzando un’integrazione Fusion o API personalizzata?**
+* **Come si creano i record? Esiste un elenco o un foglio di calcolo esterno che contiene già i record da aggiungere a Planning che è possibile utilizzare? I record verranno aggiunti gradualmente in base alle esigenze? Oppure verranno importati utilizzando un&#39;integrazione Fusion o API personalizzata?**
 
   Per informazioni, consulta:
 
@@ -63,15 +63,15 @@ Alcune domande che potresti porti durante la configurazione di Planning sono:
 
 * **Quali campi è necessario creare per i record?**
 
-  Per informazioni, consulta [Crea campi](/help/quicksilver/planning/fields/create-fields.md).
+  Per informazioni, vedere [Creare i campi](/help/quicksilver/planning/fields/create-fields.md).
 
-* **Quali tipi di oggetto di Workfront o AEM Assets sono necessari per connettersi ai tipi di record di Workfront Planning in modo da visualizzare le dipendenze e creare un flusso di lavoro senza soluzione di continuità per l&#39;organizzazione?**
+* **Di quali tipi di oggetti Workfront o AEM Assets ho bisogno per collegarmi ai tipi di record di Workfront Planning per poter mostrare le dipendenze e creare un flusso di lavoro senza soluzione di continuità per la mia organizzazione?**
 
-  Per informazioni, consulta [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md)
+  Per informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md)
 
-* **Quali calendari e visualizzazioni di marketing avrò bisogno per raccontare la storia delle mie campagne? E a quali soggetti interessati potrei rendere disponibili questi punti di vista per una collaborazione fluida?**
+* **Quali calendari e visualizzazioni di marketing avrò bisogno per raccontare la storia delle mie campagne? E a quali soggetti interessati potrei rendere disponibili queste visualizzazioni per una collaborazione senza soluzione di continuità?**
 
-  Per informazioni, consulta [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
+  Per informazioni, vedere [Gestire le visualizzazioni dei record](/help/quicksilver/planning/views/manage-record-views.md).
 
 
 ## Best practice di Workfront Planning
@@ -149,7 +149,7 @@ Le linee guida sono organizzate in base all’oggetto o all’area che stai impo
 
 Creare ed etichettare tipi di record che rappresentano un singolo costrutto o nome, ad esempio &quot;Campagne&quot;
 
-:no_entry_sign: Non creare un tipo di record meglio rappresentato come livello di visualizzazione. Ad esempio, &quot;Calendario&quot; è una scelta sbagliata per un tipo di record, perché non è il tipo di record stesso, ma una visualizzazione dei record.
+:no_entry_sign: Non creare un tipo di record meglio rappresentato come livello di visualizzazione. Ad esempio, &quot;Calendario&quot; è una scelta sbagliata per un tipo di record, perché non è il tipo di record stesso, ma una visualizzazione di record.
 
 ### Quanti livelli di gerarchia devo creare?
 

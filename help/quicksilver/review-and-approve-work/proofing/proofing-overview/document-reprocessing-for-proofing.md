@@ -25,7 +25,7 @@ Tutto il testo del font viene estratto nel relativo livello, a condizione di inc
 
 >[!NOTE]
 >
->Workfront attualmente supporta documenti contenenti fino a 2000 pagine. Sono incluse le bozze combinate. Per ulteriori informazioni, consulta [Creare una bozza con più pagine](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md).
+>Workfront attualmente supporta documenti contenenti fino a 2000 pagine. Sono incluse le bozze combinate. Per ulteriori informazioni, vedere [Creare una bozza multipagina](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md).
 
 ## Suggerimenti generali
 
@@ -54,4 +54,4 @@ I file inviati seguono alcuni o tutti i passaggi seguenti:
 
 1. **Invio**. Quando carichi un documento nel sistema, lo fai utilizzando la pagina New proof (Nuova bozza) o un’interfaccia API (Application Programming Interface). 
 1. **Coda**. Durante i periodi di traffico intenso, Workfront potrebbe dover mettere in coda gli invii per evitare di sovraccaricare il sistema. La maggior parte delle bozze passa solo pochi secondi in coda. 
-1. **Elaborazione.** I file raggiungono le macchine di elaborazione in base al tipo di contenuto. Usiamo diversi strumenti per elaborare bozze video, acquisizioni web, immagini statiche e documenti. I contenitori per contenuti multimediali avanzati (ZIP) e gli invii di acquisizione web interattiva non richiedono l’elaborazione.
+1. **Elaborazione.** I file raggiungono i computer di elaborazione in base al tipo di contenuto. Usiamo diversi strumenti per elaborare bozze video, acquisizioni web, immagini statiche e documenti. I contenitori per contenuti multimediali avanzati (ZIP) e gli invii di acquisizione web interattiva non richiedono l’elaborazione.

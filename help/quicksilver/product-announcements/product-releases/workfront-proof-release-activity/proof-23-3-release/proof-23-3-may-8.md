@@ -23,7 +23,7 @@ Salvo diversa indicazione, questi miglioramenti saranno resi disponibili nell’
 
 ## Aggiornamento visualizzatore bozze desktop
 
-Il Visualizzatore bozze desktop è stato aggiornato alla versione 2.1.24. Questo aggiornamento include il supporto di Chrome v100 per la revisione delle bozze interattive, nonché le seguenti correzioni di problemi:
+Il Visualizzatore bozze desktop è stato aggiornato alla versione 2.1.24. Questo aggiornamento include il supporto di Chrome v100 per la revisione delle bozze interattive e le seguenti correzioni di problemi:
 
 * È ora possibile modificare nuovamente la versione della bozza dopo averla modificata inizialmente.
 * I collegamenti nelle bozze interattive ora funzionano come previsto.
@@ -31,4 +31,4 @@ Il Visualizzatore bozze desktop è stato aggiornato alla versione 2.1.24. Questo
 * I markup collegati ai commenti ora vengono visualizzati correttamente quando vengono selezionati.
 * I menu a discesa per Ruolo bozza e Avviso e-mail ora funzionano come previsto.
 
-Per informazioni sul download dell’aggiornamento, consulta [Aggiornare il Visualizzatore bozze desktop](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
+Per informazioni sul download dell&#39;aggiornamento, vedere [Aggiornare il Visualizzatore bozze desktop](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).

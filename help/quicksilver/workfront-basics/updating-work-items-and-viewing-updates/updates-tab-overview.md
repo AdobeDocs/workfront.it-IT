@@ -58,7 +58,7 @@ Nella sezione Aggiornamenti di un oggetto vengono visualizzati i commenti degli 
 
 La sezione Aggiornamenti di un oggetto mostra gli aggiornamenti di sistema e fino a 200 degli aggiornamenti più recenti effettuati dagli utenti negli ultimi 90 giorni.
 
-![Sezione Aggiornamenti](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
+![Sezione aggiornamenti](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
 
 <!--Info for April 11: Add the following right under the screen shot above:-->
 
@@ -122,13 +122,13 @@ Depending on what objects you access the commenting experience for, you might fi
 
 ### Panoramica della sezione Aggiornamenti
 
-![Sezione Aggiornamenti](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
+![Sezione aggiornamenti](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
 * La sezione Aggiornamenti visualizza le informazioni nelle seguenti schede:
 
-   * **Commenti**: visualizza i commenti degli utenti e le relative risposte. Utilizzare la scheda Commenti per aggiungere nuovi commenti o rispondere a quelli esistenti. Per informazioni sull&#39;aggiornamento degli oggetti, vedere [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
-   * **Attività di sistema**: visualizza gli aggiornamenti del sistema, ovvero messaggi informativi creati da Workfront per registrare determinati eventi su un oggetto. Ad esempio, le modifiche nei campi di stato, nome o personalizzati vengono acquisite con gli aggiornamenti del sistema. L&#39;amministratore del Workfront o del gruppo può abilitare gli aggiornamenti di sistema per gli oggetti. Tutte le risposte ai record di attività del sistema nell’esperienza di commento legacy vengono popolate nella scheda Attività del sistema come di sola lettura. Per ulteriori informazioni, consulta [Configurare gli aggiornamenti di sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-   * **Tutto (sola lettura)**: visualizza in un’unica posizione i commenti degli utenti e quelli relativi all’attività di sistema. Questa è una scheda di sola visualizzazione. Non è possibile rispondere a commenti o assegnare tag ad altri utenti nei commenti esistenti nella scheda Tutti. Per rispondere a un commento specifico, utilizzare il collegamento dalla scheda Tutti alla scheda Commenti. Per informazioni sull&#39;aggiornamento degli oggetti, vedere [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
+   * **Commenti**: visualizza i commenti degli utenti e le risposte a tali commenti. Utilizzare la scheda Commenti per aggiungere nuovi commenti o rispondere a quelli esistenti. Per informazioni sull&#39;aggiornamento degli oggetti, vedere [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
+   * **Attività di sistema**: visualizza gli aggiornamenti di sistema che sono messaggi informativi creati da Workfront per registrare determinati eventi su un oggetto. Ad esempio, le modifiche nei campi di stato, nome o personalizzati vengono acquisite con gli aggiornamenti del sistema. L&#39;amministratore del Workfront o del gruppo può abilitare gli aggiornamenti di sistema per gli oggetti. Tutte le risposte ai record di attività del sistema nell’esperienza di commento legacy vengono popolate nella scheda Attività del sistema come di sola lettura. Per ulteriori informazioni, vedere [Configurare gli aggiornamenti di sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+   * **Tutti (sola lettura)**: visualizza i commenti degli utenti e quelli delle attività di sistema in un&#39;unica posizione. Questa è una scheda di sola visualizzazione. Non è possibile rispondere a commenti o assegnare tag ad altri utenti nei commenti esistenti nella scheda Tutti. Per rispondere a un commento specifico, utilizzare il collegamento dalla scheda Tutti alla scheda Commenti. Per informazioni sull&#39;aggiornamento degli oggetti, vedere [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
 
      >[!NOTE]
      >
@@ -155,13 +155,13 @@ Depending on what objects you access the commenting experience for, you might fi
    * Iterazioni
    * Scheda ad hoc
 
-     Per ulteriori informazioni sugli aggiornamenti sulle schede, consulta [Aggiungere una scheda ad hoc a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+     Per ulteriori informazioni sugli aggiornamenti delle schede, vedere [Aggiungere una scheda ad hoc a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
 
 * I seguenti oggetti non dispongono di una scheda Tutto e l&#39;esperienza nella scheda Commenti corrisponde a quella della maggior parte degli oggetti:
 
    * Obiettivi
 
-     Per ulteriori informazioni sugli aggiornamenti sugli obiettivi, consulta [Gestisci commenti obiettivo](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+     Per ulteriori informazioni sugli aggiornamenti sugli obiettivi, vedere [Gestire i commenti sugli obiettivi](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
 
 <!-- info for April 11: hide the entire section below: -->
 
@@ -196,7 +196,7 @@ Nella tabella seguente vengono illustrati gli oggetti i cui commenti vengono vis
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Oggetto in cui è stato aggiunto l’aggiornamento originale</strong> </th> 
+   <th><strong>Oggetto in cui è stato aggiunto l'aggiornamento originale</strong> </th> 
    <th> <p><strong>Oggetti di livello superiore in cui viene visualizzato anche l'aggiornamento originale</strong> </p> </th> 
   </tr> 
  </thead> 
@@ -290,13 +290,13 @@ Quando visualizzi gli aggiornamenti per utenti e team, considera quanto segue:
 
 * Nella sezione Aggiornamenti per utenti e team, puoi visualizzare gli aggiornamenti immessi negli ultimi 90 giorni.
 
-  Se desideri visualizzare tutti gli aggiornamenti effettuati su un utente o su un team, oltre il limite di 90 giorni, puoi creare un rapporto per le note. Il rapporto non deve avere un filtro temporale che visualizzi tutti gli aggiornamenti apportati per utenti o team. Per ulteriori informazioni, consulta [Creare un rapporto personalizzato](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Se desideri visualizzare tutti gli aggiornamenti effettuati su un utente o su un team, oltre il limite di 90 giorni, puoi creare un rapporto per le note. Il rapporto non deve avere un filtro temporale che visualizzi tutti gli aggiornamenti apportati per utenti o team. Per ulteriori informazioni, vedere [Creare un report personalizzato](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ### Limitazioni nell’inserimento di commenti per conto di un altro utente
 
 Gli amministratori di Adobe Workfront e gli amministratori di gruppi possono accedere come altri utenti ed eseguire azioni in Workfront, ad esempio immettere commenti.
 
-Per informazioni, consulta [Accedi come altro utente](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+Per informazioni, vedere [Accedere come altro utente](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 Quando accedi come altro utente e aggiungi commenti, considera quanto segue:
 
@@ -319,4 +319,4 @@ Il rapporto ti consente di visualizzare:
 * Se la priorità cambia nel corso di un progetto
 * Se il proprietario di un progetto cambia
 
-Per ulteriori informazioni, consulta [Rapporto sulla sezione Aggiornamenti](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+Per ulteriori informazioni, vedere [Report sull&#39;area Aggiornamenti](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).

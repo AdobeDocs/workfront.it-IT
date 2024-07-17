@@ -58,11 +58,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Impostare promemoria automatici
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
-1. Clic **E-mail** >**Promemoria automatici**.
+1. Fai clic su **E-mail** >**Promemoria automatici**.
 
-1. In **Invia una notifica di ritardo a** selezionare una delle opzioni seguenti:
+1. Nell&#39;area **Invia una notifica in ritardo a**, selezionare una delle opzioni seguenti:
 
    <table>
     <tr>
@@ -82,7 +82,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
     </tr>
     <tr>
         <td>L'utente "Assegnato a"</td>
-        <td>(nel <b>Invia promemoria scadenza a</b> ). Selezionare questa opzione se si desidera che l'utente assegnato a un'attività o a un problema riceva una notifica relativa all'elemento di lavoro che si avvicina alla data di scadenza.</td>
+        <td>Nell'area <b>Invia promemoria scadenza a</b>. Selezionare questa opzione se si desidera che l'utente assegnato a un'attività o a un problema riceva una notifica relativa all'elemento di lavoro che si avvicina alla data di scadenza.</td>
         <td></td>
     </tr>
 </table>
@@ -91,7 +91,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    L’ora viene calcolata a partire dalla Data di completamento pianificata dell’attività o del problema.
 
-   Specifica il numero di minuti, ore, giorni, settimane o mesi per aggiungere il tempo alla data di completamento pianificata delle attività o dei problemi. Seleziona **Minuti Trascorsi**, **Ore trascorse**, **Giorni Trascorsi**, o **Settimane Trascorsi** per aggiungere un orario che includa tutti i fine settimana, le festività e le ore non lavorative come indicato nella pianificazione.
+   Specifica il numero di minuti, ore, giorni, settimane o mesi per aggiungere il tempo alla data di completamento pianificata delle attività o dei problemi. Seleziona **Minuti trascorsi**, **Ore trascorse**, **Giorni trascorsi** o **Settimane trascorse** per aggiungere l&#39;ora che include i fine settimana, le festività e le ore non lavorative come indicato nella pianificazione.
 
    Ad esempio, se un&#39;attività viene assegnata il venerdì e ha una durata di 3 giorni, la data di completamento dell&#39;attività viene impostata per il lunedì (supponendo che sabato e domenica siano un fine settimana). Se l&#39;attività ha una durata di 3 giorni (non trascorsa), la data di completamento dell&#39;attività viene impostata su Mercoledì.
 
@@ -105,10 +105,10 @@ Se sei l’entità designata in una notifica di Promemoria automatico, ricevi un
 
 Le attività con determinati tipi di relazione possono essere consegnate dopo la data di inizio specificata, anche se sono scadute. Ad esempio, se un&#39;attività ha un predecessore con una relazione Fine-Inizio (fs), non verrà inclusa nell&#39;e-mail, anche se è stata superata la data di inizio specificata, perché non è possibile avviare l&#39;attività fino al completamento del predecessore.
 
-Per ulteriori informazioni sulla ricezione di e-mail di Promemoria automatici, vedi [Promemoria automatici](../../../workfront-basics/using-notifications/wf-notifications.md#automatic-reminders) sezione in [Notifiche Adobe Workfront](../../../workfront-basics/using-notifications/wf-notifications.md).
+Per ulteriori informazioni sulla ricezione di e-mail di Promemoria automatici, consulta la sezione [Promemoria automatici](../../../workfront-basics/using-notifications/wf-notifications.md#automatic-reminders) nelle [notifiche Adobe Workfront](../../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Invia promemoria automatici
 
 I promemoria automatici vengono inviati non appena viene rispettata l’ora selezionata dall’amministratore di Workfront.
 
-Se desideri attivare manualmente l’invio dei promemoria automatici, utilizza la funzione Diagnostica. Per ulteriori informazioni sull&#39;accesso e l&#39;utilizzo di Diagnostica in Workfront, vedere [Utilizzare la diagnostica per attivare i processi automatizzati](../../../administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md).
+Se desideri attivare manualmente l’invio dei promemoria automatici, utilizza la funzione Diagnostica. Per ulteriori informazioni sull&#39;accesso e l&#39;utilizzo di Diagnostica in Workfront, vedere [Utilizzare Diagnostica per attivare i processi automatizzati](../../../administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md).

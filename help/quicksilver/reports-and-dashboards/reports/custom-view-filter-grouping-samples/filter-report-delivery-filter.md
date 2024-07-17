@@ -10,7 +10,7 @@ exl-id: 7b937384-80c9-4bc7-94be-5573cf86b35b
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -43,25 +43,25 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Filtro di consegna del rapporto
 
 Per applicare questo filtro:
 
 1. Passare a un elenco di report.
-1. Dalla sezione **Filtro** menu a discesa, seleziona **Nuovo filtro**.
+1. Dal menu a discesa **Filtro**, selezionare **Nuovo filtro**.
 
-1. Clic **Passa alla modalità testo**.
-1. In **Impostare le regole di filtro per il report** area, copia e incolla il seguente codice:
+1. Fare clic su **Passa alla modalità testo**.
+1. Nell&#39;area **Imposta regole filtro per il report**, copiare e incollare il codice seguente:
 
    ```
    scheduledReportID=0<br>scheduledReportID_Mod=notnull
    ```
 
-1. Clic **Salva filtro**.
+1. Fai clic su **Salva filtro**.

@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Attività versione finale beta 2018.2
-description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione finale della versione beta 2018.2. La funzionalità è stata resa disponibile nell’ambiente di anteprima il 20 giugno 2018. Sarà disponibile nell’ambiente di produzione a luglio 2018.
+title: Attività sulla versione finale 2018.2 di Beta
+description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione finale di Beta 2018.2. La funzionalità è stata resa disponibile nell’ambiente di anteprima il 20 giugno 2018. Sarà disponibile nell’ambiente di produzione a luglio 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,24 +14,24 @@ ht-degree: 0%
 
 ---
 
-# Attività versione finale beta 2018.2
+# Attività sulla versione finale 2018.2 di Beta
 
-Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione finale della versione beta 2018.2. La funzionalità è stata resa disponibile nell’ambiente di anteprima il 20 giugno 2018. Sarà disponibile nell’ambiente di produzione a luglio 2018.
+Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione finale di Beta 2018.2. La funzionalità è stata resa disponibile nell’ambiente di anteprima il 20 giugno 2018. Sarà disponibile nell’ambiente di produzione a luglio 2018.
 
 >[!IMPORTANT]
 >
 > La funzionalità descritta in questa pagina è soggetta a modifiche prima della disponibilità nell’ambiente di produzione.
 
-Per un elenco di tutte le modifiche apportate in 2018.2, consulta  [Panoramica sull’attività della versione 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+Per un elenco di tutte le modifiche apportate in 2018.2, consulta  Panoramica dell&#39;attività di [versione 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
 Le seguenti nuove funzioni verranno rilasciate al momento della versione di produzione 18.2:
 
-* [Specificare i servizi di recapito della posta per rispondere alle notifiche e-mail di Workfront](#specify-mail-delivery-services-for-replying-to-workfront-email-notifications)
-* [Ricevi notifiche e-mail per commenti su documenti](#receive-email-notifications-for-comments-on-documents)
+* [Specificare i servizi di recapito messaggi per rispondere alle notifiche e-mail di Workfront](#specify-mail-delivery-services-for-replying-to-workfront-email-notifications)
+* [Ricevi notifiche e-mail per commenti sui documenti](#receive-email-notifications-for-comments-on-documents)
 * [Gli aggiornamenti rilevati dal sistema non contengono più un&#39;icona](#system-tracked-updates-no-longer-contain-an-icon)
-* [L&#39;opzione per convertire un commento in un&#39;attività è stata rimossa](#option-to-convert-a-comment-to-a-task-was-removed)
+* [L&#39;opzione per convertire un commento in attività è stata rimossa](#option-to-convert-a-comment-to-a-task-was-removed)
 * [Workfront per Salesforce](#workfront-for-salesforce)
-* [Miglioramenti di Workfront per Slack](#workfront-for-slack-improvements)
+* [Miglioramenti di Workfront for Slack](#workfront-for-slack-improvements)
 * [Miglioramenti per dispositivi mobili](#mobile-improvements)
 
 ## Specificare i servizi di recapito della posta per rispondere alle notifiche e-mail di Workfront {#specify-mail-delivery-services-for-replying-to-workfront-email-notifications}
@@ -50,7 +50,7 @@ Ora ricevi una notifica e-mail quando qualcuno commenta un documento di tua prop
 
 Prima di questa modifica, non hai ricevuto alcuna notifica quando qualcuno ha commentato un documento che possiedi. 
 
-Per ulteriori informazioni, consulta [Modifica le tue notifiche e-mail](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Per ulteriori informazioni, vedere [Modificare le proprie notifiche e-mail](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 >[!NOTE]
 >
@@ -93,7 +93,7 @@ Puoi configurare per ricevere le notifiche di Workfront nel tuo canale Workfront
 
 Prima di questo miglioramento, non era possibile ricevere notifiche Workfront in Slack.
 
-Per ulteriori informazioni sulle notifiche di Workfront in Slack, consulta [Ricevere notifiche Adobe Workfront in Slack](../../../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md).
+Per ulteriori informazioni sulle notifiche di Workfront in Slack, vedi [Ricevere notifiche di Adobe Workfront in Slack](../../../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md).
 
 ## Miglioramenti per dispositivi mobili {#mobile-improvements}
 
@@ -119,4 +119,4 @@ Le seguenti funzioni sono già state rilasciate nella versione Android Beta dell
 
 * Nuova esperienza di esercitazione per iOS 
 
-Per ulteriori informazioni su queste funzioni e per vedere i video che le illustrano, consulta [Attività sulla versione 2018.2 Beta 4](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md) e [Attività di rilascio della versione 2018.2 Beta 5](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md).
+Per ulteriori informazioni su queste funzionalità e per vedere i video che le illustrano, vedere [Attività sulla versione di Beta 4 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md) e [Attività sulla versione di Beta 5 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md).

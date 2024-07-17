@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
-title: Ruoli di organizzazione in [!DNL Adobe Workfront Fusion]
-description: Questo articolo include informazioni sull’accesso e le autorizzazioni dei ruoli in [!DNL Adobe] Workfront Fusion.
+title: Ruoli organizzazione in [!DNL Adobe Workfront Fusion]
+description: Questo articolo include informazioni sull'accesso e le autorizzazioni dei ruoli in  [!DNL Adobe] Workfront Fusion.
 author: Becky
 feature: Workfront Fusion
 exl-id: 0370fa9d-6680-4724-a431-8df884ce4f9a
@@ -15,13 +15,13 @@ ht-degree: 1%
 
 ---
 
-# Ruoli di organizzazione e team in [!DNL Adobe Workfront Fusion]
+# Ruoli organizzazione e team in [!DNL Adobe Workfront Fusion]
 
-Questo articolo descrive l’accesso e le funzionalità disponibili per i diversi ruoli team e organizzazione in [!DNL Workfront Fusion].
+Questo articolo descrive l&#39;accesso e le funzionalità disponibili per i diversi ruoli team e organizzazione in [!DNL Workfront Fusion].
 
 >[!NOTE]
 >
->I ruoli dell’organizzazione sono separati dai ruoli del team in [!DNL Workfront Fusion]. Per ulteriori informazioni sui ruoli dell&#39;organizzazione e del team, consulta [Organizzazioni e team](../organizations/organizations-and-teams.md).
+>I ruoli organizzazione sono distinti dai ruoli team in [!DNL Workfront Fusion]. Per ulteriori informazioni sui ruoli organizzazione e team, vedere [Organizzazioni e team](../organizations/organizations-and-teams.md).
 
 ## Requisiti di accesso
 
@@ -42,32 +42,32 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
    <tr> 
    <td role="rowheader">Licenza [!UICONTROL Adobe Workfront Fusion]**</td> 
    <td>
-   <p>Fabbisogno di licenza corrente: No [!DNL Workfront Fusion] requisito di licenza.</p>
+   <p>Requisiti di licenza correnti: nessun requisito di licenza [!DNL Workfront Fusion].</p>
    <p>Oppure</p>
-   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro], [!UICONTROL [!DNL Workfront Fusion] per automazione lavoro]</p>
+   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione lavoro], [!UICONTROL [!DNL Workfront Fusion] per automazione lavoro]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
    <td>
-   <p>Fabbisogno prodotto corrente: se si dispone di [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Pianifica, la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo. [!DNL Workfront Fusion] è incluso in [!UICONTROL Ultimate] [!DNL Workfront] piano.</p>
+   <p>Fabbisogno prodotto corrente: se si dispone del piano [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], l'organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo. [!DNL Workfront Fusion] è incluso nel piano [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>Oppure</p>
-   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</p>
+   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
    <td> 
-     <p>Devi essere un [!DNL Workfront Fusion] per la tua organizzazione.</p>
-     <p>Devi essere un [!DNL Workfront Fusion] amministratore del team.</p>
+     <p>Devi essere un amministratore [!DNL Workfront Fusion] per la tua organizzazione.</p>
+     <p>Devi essere un amministratore [!DNL Workfront Fusion] per il tuo team.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore [!DNL Workfront].
 
-Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Ruoli organizzazione
 

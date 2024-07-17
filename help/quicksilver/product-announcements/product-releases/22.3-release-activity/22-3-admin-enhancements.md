@@ -15,13 +15,13 @@ ht-degree: 0%
 
 # 22.3 Miglioramenti per gli amministratori
 
-Questa pagina descrive tutti i miglioramenti per gli amministratori apportati con la versione 22.3 all’ambiente di anteprima. Questi miglioramenti sono stati resi disponibili la settimana dell’11 luglio 2022. Per un elenco di tutte le modifiche disponibili con la versione 22.3, consulta [Panoramica sulla versione 22.3](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Questa pagina descrive tutti i miglioramenti per gli amministratori apportati con la versione 22.3 all’ambiente di anteprima. Questi miglioramenti sono stati resi disponibili la settimana dell’11 luglio 2022. Per un elenco di tutte le modifiche disponibili con la versione 22.3, vedere [Panoramica sulla versione 22.3](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Integrare Adobe Workfront con JumpSeat
 
 Ora puoi integrare JumpSeat con Workfront per creare guide personalizzate interne al prodotto per i tuoi utenti. Per abilitare l’integrazione, è necessario disporre di una licenza Enterprise di Adobe Workfront e di un abbonamento JumpSeat attivo.
 
-Per ulteriori informazioni, consulta [Configurare l’integrazione JumpSeat](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md).
+Per ulteriori informazioni, vedere [Configurare l&#39;integrazione JumpSeat](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md).
 
 ## Impostazioni predefinite bozza spostate in Workfront
 
@@ -31,11 +31,11 @@ Ora è possibile modificare le seguenti impostazioni di bozza nell’area di con
 
 * Impostazioni decisione bozza
 
-Per ulteriori informazioni, consulta [Configurare le impostazioni di bozza predefinite](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
+Per ulteriori informazioni, vedere [Configurare le impostazioni di bozza predefinite](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
 
 ## Utilizzare gli stati sbloccati in un processo di approvazione
 
-**Nota:** Rimosso dalla versione di produzione 22.3. Questa funzione verrà rilasciata in produzione il 15 settembre 2022.
+**Nota:** rimosso dalla versione di produzione 22.3. Questa funzione verrà rilasciata in produzione il 15 settembre 2022.
 
 Per avere un maggiore controllo sui processi e sugli stati di approvazione nel sistema, è stato possibile creare un processo di approvazione basato sullo stato sbloccato del sistema. Inoltre, ora puoi sbloccare qualsiasi stato già utilizzato in un processo di approvazione.
 
@@ -54,7 +54,7 @@ Per ulteriori informazioni, consulta i seguenti articoli:
 
 Stiamo continuando a aiutarti a rendere i moduli personalizzati più visivi e informativi con nuovi widget di risorse che puoi aggiungere, come immagini e video. Ora è possibile aggiungere un collegamento a un file PDF a un modulo personalizzato. Quando il modulo viene allegato a un oggetto, gli utenti che lavorano con l’oggetto possono visualizzare e interagire con il PDF dall’interno del modulo.
 
-Per ulteriori informazioni, consulta [Aggiungere o modificare un’immagine o un altro widget di risorse in un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Per ulteriori informazioni, consulta [Aggiungere o modificare un&#39;immagine o un altro widget di risorse in un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## L’editor di calcolo per i campi modulo personalizzati visualizza le informazioni sull’errore
 
@@ -64,7 +64,7 @@ Per ulteriori informazioni, consulta [Aggiungere o modificare un’immagine o un
 
 La modifica dei calcoli per i campi personalizzati è ora più semplice grazie alle utili informazioni sugli errori indicate direttamente nel calcolo. Durante la creazione di un campo calcolato in un modulo personalizzato, gli errori vengono evidenziati in rosa. Quando passi il cursore del mouse sulla parte evidenziata, viene visualizzata una descrizione per descrivere il problema.
 
-Per ulteriori informazioni, consulta [Aggiungere dati calcolati a un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Per ulteriori informazioni, vedere [Aggiungere dati calcolati a un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 ## Personalizzazione dell’intestazione del progetto
 
@@ -81,7 +81,7 @@ Questo aggiornamento include i seguenti miglioramenti:
 
 Prima di questa versione, non era possibile personalizzare i campi nelle intestazioni dell’oggetto.
 
-Per ulteriori informazioni, consulta [Personalizzare le intestazioni degli oggetti utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+Per ulteriori informazioni, vedere [Personalizzare le intestazioni degli oggetti utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 ## Controllo creazione di un progetto vuoto
 
@@ -94,17 +94,17 @@ In qualità di amministratore di sistema o di gruppo, ora puoi controllare se gl
 
 La nuova impostazione è &quot;Consenti agli utenti di creare progetti senza utilizzare un modello&quot; ed è abilitata per impostazione predefinita.
 
-**Nota:** Gli utenti possono comunque convertire un’attività in un progetto vuoto.
+**Nota:** gli utenti possono comunque convertire un&#39;attività in un progetto vuoto.
 
-Per ulteriori informazioni, consulta [Configurare le preferenze di progetto a livello di sistema](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Per ulteriori informazioni, vedere [Configurare le preferenze di progetto a livello di sistema](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ## Disattivare un gruppo dalla pagina Gruppi
 
-Di recente, è stata aggiunta la possibilità di disattivare e riattivare i gruppi. Per rendere l’azione più rapida e semplice, l’abbiamo aggiunta alla pagina di un gruppo. Dopo aver fatto clic sul nome di un gruppo per passare alla relativa pagina, è possibile selezionare il menu Altro ![](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png) accanto al nome del gruppo, quindi selezionare Disattiva o Riattiva.
+Di recente, è stata aggiunta la possibilità di disattivare e riattivare i gruppi. Per rendere l’azione più rapida e semplice, l’abbiamo aggiunta alla pagina di un gruppo. Ora, dopo aver fatto clic sul nome di un gruppo per passare alla relativa pagina, è possibile selezionare il menu Altro ![](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png) accanto al nome del gruppo, quindi selezionare Disattiva o Riattiva.
 
 In precedenza, era possibile disattivare o riattivare un gruppo solo utilizzando la casella di controllo È attivo nella relativa pagina Dettagli.
 
-Per ulteriori informazioni, consulta [Disattivare o riattivare un gruppo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
+Per ulteriori informazioni, vedere [Disattivare o riattivare un gruppo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
 
 ## Aggiungere video ai moduli personalizzati
 

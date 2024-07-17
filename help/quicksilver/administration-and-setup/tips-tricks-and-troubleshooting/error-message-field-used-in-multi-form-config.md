@@ -3,114 +3,114 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Messaggio di errore: C'è un piccolo problema. Tale campo viene utilizzato in una configurazione a più moduli"
-description: Quando si modifica un calcolo in un campo personalizzato calcolato su un modulo personalizzato e viene visualizzato un messaggio di errore che indica che il campo è utilizzato in una configurazione a più moduli, è necessario sostituire il campo con un nuovo campo contenente il calcolo che si desidera utilizzare.
+title: "Messaggio di errore: si è verificato un piccolo problema. Questo campo viene utilizzato in una configurazione multi-modulo"
+description: Quando si modifica un calcolo in un campo personalizzato calcolato in un modulo personalizzato e un messaggio di errore indica che il campo viene utilizzato in una configurazione con più moduli, è necessario sostituire il campo con un nuovo campo contenente il calcolo che si desidera utilizzare.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 43668525-5572-4d82-8eed-0e320249f296
 source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1252'
 ht-degree: 0%
 
 ---
 
-# Messaggio di errore: C&#39;è un piccolo problema. Tale campo viene utilizzato in una configurazione a più moduli
+# Messaggio di errore: si è verificato un piccolo problema. Questo campo viene utilizzato in una configurazione con più moduli
 
 ## Problema
 
-Quando si modifica un calcolo in un campo personalizzato calcolato in un modulo personalizzato, [!DNL Adobe Workfront] potrebbe essere visualizzato il seguente avviso:
+Quando si modifica un calcolo in un campo personalizzato calcolato in un modulo personalizzato, [!DNL Adobe Workfront] potrebbe visualizzare il seguente avviso:
 
 Si è verificato un piccolo problema
 
-[Il campo] viene utilizzato in una configurazione a più moduli; se desideri modificare questa formula, devi rimuovere questo campo e sostituirlo con uno nuovo contenente il calcolo desiderato.
+[Il campo] è utilizzato in una configurazione multi-modulo. Se si desidera modificare questa formula, è necessario rimuovere il campo e sostituirlo con uno nuovo contenente il calcolo desiderato.
 
 ## Causa
 
-Almeno due moduli personalizzati contenenti il campo personalizzato calcolato che si sta tentando di modificare sono collegati a un singolo oggetto nel [!DNL Workfront] istanza.
+Almeno due moduli personalizzati contenenti il campo personalizzato calcolato che si sta tentando di modificare sono allegati a un singolo oggetto nell&#39;istanza [!DNL Workfront].
 
-**Esempio:** I moduli A e B personalizzati sono entrambi associati alla stessa attività. Entrambi i moduli contengono un campo personalizzato calcolato denominato Profitto. L&#39;errore si verifica quando si tenta di modificare il calcolo nel campo Profitto del modulo personalizzato A.
+**Esempio:** i moduli personalizzati A e B sono entrambi allegati alla stessa attività. Entrambi i moduli contengono un campo personalizzato calcolato denominato Profitto. Si verifica l&#39;errore quando si tenta di modificare il calcolo nel campo Profitto del modulo personalizzato A.
 
-Non è possibile modificare il calcolo per il campo personalizzato in uno dei moduli perché ciò sarebbe in conflitto con la formula nello stesso campo nell’altro modulo.
-Per risolvere questo conflitto, è necessario trovare l’oggetto a cui sono collegati i più moduli con lo stesso campo personalizzato calcolato, quindi eseguire una delle operazioni seguenti:
+Non è possibile modificare il calcolo per il campo personalizzato in una delle maschere perché ciò sarebbe in conflitto con la formula nello stesso campo nell&#39;altra maschera.
+Per risolvere il conflitto, è necessario trovare l&#39;oggetto in cui sono allegati più moduli con lo stesso campo personalizzato calcolato, quindi eseguire una delle operazioni seguenti:
 
-* Rimuovere uno dei moduli dall’oggetto.
-* Modificare il calcolo in base alle esigenze, ma farlo in tutti i moduli personalizzati associati all’oggetto.
-* In tutti i moduli personalizzati associati all’oggetto, aggiungere un nuovo campo personalizzato calcolato contenente il calcolo necessario e contrassegnare il vecchio campo personalizzato calcolato come obsoleto.
+* Rimuovere uno dei moduli dall&#39;oggetto.
+* Modificare il calcolo in base alle esigenze, ma in tutti i moduli personalizzati associati all&#39;oggetto.
+* In tutti i moduli personalizzati allegati all’oggetto, aggiungi un nuovo campo personalizzato calcolato contenente il calcolo necessario e contrassegna il vecchio campo personalizzato calcolato come obsoleto.
 
-Questo articolo spiega come trovare l&#39;oggetto e quindi risolvere il problema in uno di questi tre modi.
+Questo articolo spiega come trovare l’oggetto e quindi risolvere il problema in uno di questi tre modi.
 
-## Trova l’oggetto a cui sono allegati i moduli personalizzati {#find-the-object-where-the-custom-forms-are-attached}
+## Trovare l’oggetto a cui sono allegati i moduli personalizzati {#find-the-object-where-the-custom-forms-are-attached}
 
-1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Utenti]** ![](assets/users-icon-in-main-menu.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Utenti]** ![](assets/users-icon-in-main-menu.png).
 
 1. Fai clic su **[!UICONTROL Forms personalizzato]** > **[!UICONTROL Campi]**.
-1. Applica la **[!UICONTROL Elenco campi]** visualizzare per trovare il campo calcolato che si sta tentando di modificare e prendere nota di ogni modulo personalizzato in cui viene utilizzato (ad esempio modulo 1, modulo 2, modulo 3).
-1. Fai clic su **[!UICONTROL Forms]**, quindi applica il **[!UICONTROL Elenco moduli]** visualizza.
-1. Fai clic sul pulsante **[!UICONTROL Filtro]** elenco a discesa, quindi **[!UICONTROL Nuovo filtro]**.
+1. Applica la visualizzazione **[!UICONTROL Elenco campi]** per trovare il campo calcolato che stai tentando di modificare e annota ogni modulo personalizzato in cui viene utilizzato (ad esempio Modulo 1, Modulo 2, Modulo 3).
+1. Fai clic su **[!UICONTROL Forms]**, quindi applica la visualizzazione **[!UICONTROL Elenco moduli]**.
+1. Fai clic sull&#39;elenco a discesa **[!UICONTROL Filtro]**, quindi **[!UICONTROL Nuovo filtro]**.
 
-1. Fai clic su **[!UICONTROL Aggiungere una regola filtro]**, quindi inizia a digitare &quot;nome modulo personalizzato&quot; e seleziona questo valore quando viene visualizzato nell’elenco.
-1. Seleziona **[!UICONTROL Uguale]** per il modificatore di filtro, inizia a digitare il nome di ciascun modulo di cui hai effettuato una nota nel passaggio 1, quindi selezionalo quando viene visualizzato.
+1. Fai clic su **[!UICONTROL Aggiungi regola filtro]**, quindi inizia a digitare &quot;nome modulo personalizzato&quot; e seleziona questo valore quando viene visualizzato nell&#39;elenco.
+1. Selezionare **[!UICONTROL Uguale]** per il modificatore di filtro, iniziare a digitare il nome di ogni modulo di cui si è preso nota al passaggio 1, quindi selezionarlo quando viene visualizzato.
 
-   **Esempio:** Il Nome Del Modulo Personalizzato È Uguale Al Modulo 1, Modulo 2, Modulo 3.
+   **Esempio:** Nome Modulo Personalizzato È Uguale A Modulo 1, Modulo 2, Modulo 3.
 
 1. Fai clic su **[!UICONTROL Salva filtro]**, quindi denomina il nuovo filtro e fai clic su **[!UICONTROL Salva filtro]**.
 
-1. Nell’elenco dei moduli, prendere nota del tipo di oggetto del filtro, ad esempio Attività o Problema, visualizzato nella **[!UICONTROL Tipo]** colonna.
-1. Per ogni modulo personalizzato trovato nel passaggio 1, creare un nuovo campo personalizzato Casella di selezione con un singolo valore predefinito di Sì.
+1. Nell&#39;elenco dei moduli annotare il tipo di oggetto del filtro, ad esempio Attività o Problema, visualizzato nella colonna **[!UICONTROL Tipo]**.
+1. In ogni modulo personalizzato individuato al passaggio 1, crea un nuovo campo personalizzato Casella di controllo con un singolo valore predefinito di Sì.
 
-   **Esempio:** Campo 1 nel modulo 1 = Sì, Campo 2 nel modulo 2 = Sì, Campo 3 nel modulo 3 = Sì. Ciò significa che il campo personalizzato calcolato esiste nel modulo 1 oppure il campo personalizzato calcolato esiste nel modulo 2 e così via.
+   **Esempio:** Campo 1 nel modulo 1 = Sì, Campo 2 nel modulo 2 = Sì, Campo 3 nel modulo 3 = Sì. Ciò significa che &quot;il campo personalizzato calcolato esiste nel modulo 1&quot; o che &quot;il campo personalizzato calcolato esiste nel modulo 2&quot; e così via.
 
-1. In **[!UICONTROL Icona Ricerca]** ![](assets/search-icon.png) nell’angolo superiore destro dello schermo, fai clic su **[!UICONTROL Ricerca avanzata]**.
-1. Fai clic sull’oggetto del modulo personalizzato (ad esempio Problema), quindi fai clic su **[!UICONTROL Filtrare i risultati]**, quindi fai clic su **[!UICONTROL Aggiungere un filtro]**.
-1. Inizia a digitare il nome di un campo Casella di selezione nel **[!UICONTROL Inizia a digitare il nome del campo]** e selezionalo quando viene visualizzato nell’elenco, quindi seleziona **[!UICONTROL Uguale]** e tipo **[!UICONTROL Sì]** (senza virgolette) nella casella seguente.
+1. Nell&#39;icona **[!UICONTROL Ricerca]** ![](assets/search-icon.png) nell&#39;angolo superiore destro dello schermo, fare clic su **[!UICONTROL Ricerca avanzata]**.
+1. Fai clic sull&#39;oggetto del modulo personalizzato (ad esempio Problema), fai clic su **[!UICONTROL Filtra i risultati]**, quindi su **[!UICONTROL Aggiungi un filtro]**.
+1. Inizia a digitare il nome di un campo Casella di controllo nel campo **[!UICONTROL Inizia a digitare il nome del campo]** e selezionalo quando viene visualizzato nell&#39;elenco, quindi seleziona **[!UICONTROL Uguale]** e digita **[!UICONTROL Sì]** (senza virgolette) nella casella seguente.
 
-   **Esempio:** Campo 1 Uguale a (distinzione maiuscole/minuscole) Sì.
+   **Esempio:** Campo 1 Uguale (Distinzione Maiuscole/Minuscole) Sì.
 
-1. Fai clic su **[!UICONTROL Aggiungere un filtro]** e aggiungi tutti i campi casella di controllo alla ricerca avanzata.
+1. Fai clic su **[!UICONTROL Aggiungi un filtro]** e aggiungi tutti i campi Casella di controllo alla ricerca avanzata.
 
    Cerca ogni possibile combinazione.
 
-   **Esempio:** Crea diversi filtri con le combinazioni trovate, come elencato di seguito. È necessario trovare oggetti con più moduli personalizzati allegati che contengono gli stessi campi calcolati. È possibile trovare i seguenti scenari:
+   **Esempio:** Crea diversi filtri con le combinazioni trovate, come elencato di seguito. Dovresti trovare oggetti con più moduli personalizzati allegati che contengono gli stessi campi calcolati. Potresti trovare i seguenti scenari:
 
-   * Campo 1= Sì + Campo 2 = Sì + Campo 3 = Sì (nessun oggetto, ad esempio)
-   * Campo 1= Sì + Campo 2 = Sì (nessun oggetto, ad esempio)
-   * Campo 1= Sì + Campo 3 = Sì (ad esempio, due oggetti)
+   * Campo 1= Sì + Campo 2 = Sì + Campo 3 = Sì (ad esempio, nessun oggetto)
+   * Campo 1= Sì + Campo 2 = Sì (ad esempio, nessun oggetto)
+   * Campo 1= Sì + Campo 3 = Sì (due oggetti, ad esempio)
 
-   Ciò significa che il campo calcolato esiste sia nel modulo 1 che nel modulo 3, in quanto su questi oggetti esistono i campi corrispondenti della casella di controllo (campo 1 e campo 3).
+   Ciò significa che il campo calcolato esiste sia nel modulo 1 che nel modulo 3, poiché i campi Casella di controllo corrispondenti (campo 1 e campo 3) esistono in questi oggetti.
 
-   Campo 2 = Sì + Campo 3 = Sì (nessun oggetto, ad esempio)
+   Campo 2 = Sì + Campo 3 = Sì (ad esempio, nessun oggetto)
 
-1. Procedi a una delle seguenti sezioni del presente articolo:
+1. Passare a una delle sezioni seguenti in questo articolo:
 
-   * [Rimuovi uno dei moduli personalizzati dall’oggetto e modifica il calcolo in tale area](#remove-one-of-the-custom-forms-from-the-object-and-edit-the-calculation-there)
+   * [Rimuovi uno dei moduli personalizzati dall’oggetto e modifica il calcolo](#remove-one-of-the-custom-forms-from-the-object-and-edit-the-calculation-there)
    * [Apportare modifiche identiche nel calcolo in tutti i moduli personalizzati allegati](#make-identical-edits-in-the-calculation-in-all-of-the-attached-custom-forms)
-   * [Aggiungere un nuovo campo calcolato contenente il calcolo modificato a uno o tutti i moduli personalizzati allegati](#add-a-new-calculated-field-containing-the-edited-calculation-to-one-or-all-of-the-attached-custom-forms)
+   * [Aggiungi un nuovo campo calcolato contenente il calcolo modificato a uno o a tutti i moduli personalizzati allegati](#add-a-new-calculated-field-containing-the-edited-calculation-to-one-or-all-of-the-attached-custom-forms)
 
-## Rimuovi uno dei moduli personalizzati dall’oggetto e modifica il calcolo in tale area {#remove-one-of-the-custom-forms-from-the-object-and-edit-the-calculation-there}
+## Rimuovi uno dei moduli personalizzati dall’oggetto e modifica il calcolo {#remove-one-of-the-custom-forms-from-the-object-and-edit-the-calculation-there}
 
-1. Trova l’oggetto a cui sono allegati i moduli personalizzati, come spiegato in [Trova l’oggetto a cui sono allegati i moduli personalizzati](#find-the-object-where-the-custom-forms-are-attached) in questo articolo, quindi apri l’oggetto .
-1. Rimuovere uno dei moduli personalizzati dall’oggetto, quindi salvare l’oggetto.
+1. Trovare l&#39;oggetto a cui sono allegati i moduli personalizzati, come descritto in [Trovare l&#39;oggetto a cui sono allegati i moduli personalizzati](#find-the-object-where-the-custom-forms-are-attached) in questo articolo, quindi aprire l&#39;oggetto.
+1. Rimuovi uno dei moduli personalizzati dall’oggetto, quindi salva l’oggetto.
 
    >[!NOTE]
    >
-   >Per aggiungere i campi dal modulo rimosso dall’oggetto, potrebbe essere necessario modificare il modulo personalizzato che rimane allegato all’oggetto. In questo modo è possibile conservare le informazioni sui dati personalizzati dell’oggetto.
+   >Per aggiungere i campi dal modulo rimosso dall’oggetto, potrebbe essere necessario modificare il modulo personalizzato che rimane allegato all’oggetto. In questo modo è possibile conservare le informazioni sui dati personalizzati dell&#39;oggetto.
 
-1. Nel modulo personalizzato rimosso, modificare il calcolo per il campo personalizzato che si stava tentando di aggiornare originariamente, quindi fare clic su **[!UICONTROL Salva]**.
+1. Nel modulo personalizzato rimosso, modifica il calcolo per il campo personalizzato che stavi tentando di aggiornare originariamente, quindi fai clic su **[!UICONTROL Salva]**.
 
-   Questa volta, [!DNL Workfront] Non deve trovarsi in un conflitto.
+   Questa volta, [!DNL Workfront] non dovrebbe incontrare un conflitto.
 
-1. (Facoltativo) Rimuovere i campi casella di controllo dai moduli personalizzati o eliminarli [!DNL Workfront].
+1. (Facoltativo) Rimuovere i campi Casella di controllo dai moduli personalizzati o eliminarli da [!DNL Workfront].
 
 ## Apportare modifiche identiche nel calcolo in tutti i moduli personalizzati allegati {#make-identical-edits-in-the-calculation-in-all-of-the-attached-custom-forms}
 
 >[!IMPORTANT]
 >
->I dati vengono persi negli oggetti in cui il modulo personalizzato è già allegato quando si seguono questi passaggi. Tuttavia, se il campo calcolato fa riferimento a campi statici e non a campi calcolati, è possibile utilizzare [!UICONTROL Ricalcola espressioni personalizzate] opzione sull&#39;oggetto per ripristinare i dati persi
+>I dati andranno persi negli oggetti a cui è già associato il modulo personalizzato quando si esegue la procedura seguente. Tuttavia, se il campo calcolato fa riferimento a campi statici, non a campi calcolati, è possibile utilizzare l&#39;opzione [!UICONTROL Ricalcola espressioni personalizzate] sull&#39;oggetto per ripristinare i dati persi
 
-1. Trova l’oggetto a cui sono allegati i moduli personalizzati, come spiegato in [Trova l’oggetto a cui sono allegati i moduli personalizzati](#find-the-object-where-the-custom-forms-are-attached) in questo articolo.
-1. Rimuovere il campo da tutti i moduli personalizzati associati all’oggetto, quindi salvare i moduli.
+1. Trovare l&#39;oggetto a cui sono allegati i moduli personalizzati, come spiegato in [Trovare l&#39;oggetto a cui sono allegati i moduli personalizzati](#find-the-object-where-the-custom-forms-are-attached) in questo articolo.
+1. Rimuovi il campo da tutti i moduli personalizzati allegati all’oggetto, quindi salva i moduli.
 
 1. Aggiungi nuovamente ai moduli personalizzati il campo personalizzato contenente il nuovo calcolo.
 
@@ -118,23 +118,23 @@ Questo articolo spiega come trovare l&#39;oggetto e quindi risolvere il problema
    >
    >I calcoli devono essere identici in tutti i moduli personalizzati allegati.
 
-1. (Facoltativo) Rimuovere i campi casella di controllo dai moduli o eliminarli [!DNL Workfront].
+1. (Facoltativo) Rimuovere i campi Casella di controllo dai moduli o eliminarli da [!DNL Workfront].
 
-## Aggiungere un nuovo campo calcolato contenente il calcolo modificato a uno o tutti i moduli personalizzati allegati {#add-a-new-calculated-field-containing-the-edited-calculation-to-one-or-all-of-the-attached-custom-forms}
+## Aggiungi un nuovo campo calcolato contenente il calcolo modificato a uno o a tutti i moduli personalizzati allegati {#add-a-new-calculated-field-containing-the-edited-calculation-to-one-or-all-of-the-attached-custom-forms}
 
-Per evitare di perdere dati nel campo personalizzato calcolato esistente o se è necessario eseguire il calcolo modificato solo in uno dei moduli personalizzati associati all’oggetto trovato:
+Per evitare la perdita di dati nel campo personalizzato calcolato esistente o se è necessario modificare il calcolo in uno solo dei moduli personalizzati allegati all&#39;oggetto trovato:
 
-1. Trova l’oggetto a cui sono allegati i moduli personalizzati, come spiegato in [Trova l’oggetto a cui sono allegati i moduli personalizzati](#find-the-object-where-the-custom-forms-are-attached) in questo articolo.
-1. Aggiungere un nuovo campo personalizzato calcolato contenente il calcolo necessario a uno o tutti i moduli.
-1. Rinomina il vecchio campo personalizzato calcolato **Obsoleto**.
+1. Trovare l&#39;oggetto a cui sono allegati i moduli personalizzati, come spiegato in [Trovare l&#39;oggetto a cui sono allegati i moduli personalizzati](#find-the-object-where-the-custom-forms-are-attached) in questo articolo.
+1. Aggiungere un nuovo campo personalizzato calcolato contenente il calcolo necessario per uno o tutti i moduli.
+1. Rinomina il campo personalizzato calcolato precedente **Obsoleto**.
 
-   In tutti i moduli associati all’oggetto, questo modulo personalizzato calcolato in precedenza conserva i dati storici associati, ma l’utente smette di utilizzarlo.
+   In tutti i moduli allegati all’oggetto, questo modulo personalizzato calcolato meno recente conserva i dati storici, ma gli utenti non lo utilizzano più.
 
    >[!IMPORTANT]
    >
-   >È possibile fare riferimento al campo precedente in altri campi personalizzati calcolati, pertanto è necessario aggiornare i calcoli dopo aver modificato il nome.
+   >È possibile che in altri campi personalizzati calcolati venga fatto riferimento al campo meno recente, pertanto è necessario aggiornare tali calcoli dopo averne modificato il nome.
 
-1. (Facoltativo) Rimuovere i campi Casella di controllo dai moduli o eliminarli da Workfront.
+1. (Facoltativo) Rimuovi i campi Casella di controllo dai moduli o eliminali da Workfront.
 
 <!--
 <blockquote data-mc-conditions="QuicksilverOrClassic.Draft mode">

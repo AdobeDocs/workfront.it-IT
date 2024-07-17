@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti apportati ad Adobe Workfront Fusion la settimana del 27 giugno 2022.
 
-Per un elenco di tutte le modifiche recenti, vedi [Attività di rilascio di Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Per un elenco di tutte le modifiche recenti, vedere [Attività di Adobe Workfront Fusion release](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedi [Aggiornamenti di manutenzione per Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
+Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedere la pagina [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
 
 ## Sono ora disponibili la connessione e i moduli FTP
 
@@ -42,4 +42,4 @@ Ora è possibile utilizzare Adobe Workfront Fusion per trasferire i file tramite
 * Modificare le autorizzazioni per una cartella
 
 
-Per ulteriori informazioni, consulta [Moduli FTP](../../../workfront-fusion/apps-and-their-modules/ftp-modules.md).
+Per ulteriori informazioni, vedere [Moduli FTP](../../../workfront-fusion/apps-and-their-modules/ftp-modules.md).

@@ -9,8 +9,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
 source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 1%
+source-wordcount: '469'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alle funzionalità del prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Bozza](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Stampa dei commenti
 
@@ -26,45 +26,45 @@ Il riepilogo Commenti è accessibile direttamente dalle seguenti aree:
 
 * [Visualizzatore bozze](#the-proof-viewer)
 * [Pagina Dettagli bozza](#the-proof-details-page)
-* [Il [!DNL Proof] Menu Azioni](#the-proof-actions-menu)
+* [Menu  [!DNL Proof] Azioni](#the-proof-actions-menu)
 
 ### Visualizzatore bozze {#the-proof-viewer}
 
-È possibile stampare il riepilogo dei commenti della bozza, incluse le miniature o l&#39;immagine a schermo intero della bozza, facendo clic sul pulsante **[!UICONTROL Stampa]** nel Visualizzatore bozze. (1)
+È possibile stampare il riepilogo dei commenti della bozza, incluse le miniature o l&#39;immagine completa della bozza, facendo clic sull&#39;icona **[!UICONTROL Stampa]** nel Visualizzatore bozze. 1)
 
 ![PV_print_all_comm.png](assets/pv-print-all-comm-350x158.png)
 
 ### Pagina Dettagli bozza {#the-proof-details-page}
 
-È possibile stampare il riepilogo dei commenti della bozza facendo clic sul pulsante **[!UICONTROL Stampa]** nella pagina Dettagli bozza. (2)
+Puoi stampare il riepilogo dei commenti della bozza facendo clic sull&#39;icona **[!UICONTROL Stampa]** nella pagina Dettagli bozza. 2)
 
-![proof_details_page.png](assets/proof-details-page-350x231.png)
+![dettagli_bozza_pagina.png](assets/proof-details-page-350x231.png)
 
-### Il [!DNL Proof] Menu Azioni {#the-proof-actions-menu}
+### Menu Azioni [!DNL Proof] {#the-proof-actions-menu}
 
-È possibile stampare il riepilogo dei commenti della bozza facendo clic sul pulsante **[!UICONTROL Stampa]** icona in [!UICONTROL Azioni bozza] menu.
+Puoi stampare il riepilogo dei commenti della bozza facendo clic sull&#39;icona **[!UICONTROL Stampa]** nel menu [!UICONTROL Azioni bozza].
 
-Per accedere al [!UICONTROL Riepilogo commenti] da una vista a elenco:
+Per accedere alla pagina [!UICONTROL Riepilogo commenti] da una visualizzazione elenco:
 
-1. Fai clic sul pulsante **[!UICONTROL Azioni]** menu. (3)
-1. Seleziona **[!UICONTROL Stampa commenti]**. (4)
+1. Fai clic sul menu **[!UICONTROL Azioni]**. 3)
+1. Seleziona **[!UICONTROL Stampa commenti]**. 4)
 
-![List_view.png](assets/list-view-350x155.png)\
+![Vista_elenco.png](assets/list-view-350x155.png)\
 Nella pagina di riepilogo Commenti è possibile scegliere tra le seguenti opzioni di stampa:
 
 * Visualizzazione miniature (1)
 * Visualizzazione a pagina intera (2)
 * Stampa la pagina (3)
 * Esporta la bozza con commenti in un file PDF (4)
-* Esporta i commenti della bozza in un [!DNL Excel] file (5)
+* Esporta i commenti della bozza in un file [!DNL Excel] (5)
 
-![PV_thumb_full_option_callout.png](assets/pv-thumb-full-option-callouts-350x154.png)
+![PV_thumb_full_option_callouts.png](assets/pv-thumb-full-option-callouts-350x154.png)
 
 ### Visualizzazione miniature
 
 La visualizzazione Anteprima mostra tutti i commenti in ordine, insieme al thread completo per ogni commento. È inoltre possibile ordinare i commenti e visualizzare la miniatura di ogni commento con le marcature aggiunte.
 
-Per stampare la visualizzazione delle miniature, fare clic su **[!UICONTROL Stampante]** nell&#39;angolo in alto a destra della pagina e selezionare una delle opzioni seguenti:
+Per stampare la visualizzazione delle miniature, fare clic sull&#39;icona **[!UICONTROL Stampante]** nell&#39;angolo superiore destro della pagina e selezionare una delle opzioni seguenti:
 
 * Ordina per ID commento o pagina (1)
 * Miniatura per ogni commento con marcature aggiunte (2)
@@ -75,28 +75,28 @@ Per stampare la visualizzazione delle miniature, fare clic su **[!UICONTROL Stam
 
 La visualizzazione a pagina intera mostra ogni pagina in ordine, con i commenti sulla pagina e un pin che indica dove si trova il markup del commento sulla pagina.
 
-Per stampare la visualizzazione a pagina intera, fare clic sul pulsante **[!UICONTROL Stampante]** in alto a destra nella pagina.
+Per stampare la visualizzazione a pagina intera, fare clic sull&#39;icona **[!UICONTROL Stampante]** nell&#39;angolo superiore destro della pagina.
 
 ![PV_full.png](assets/pv-full-350x347.png)
 
-## Esportazione di un [!DNL Excel] Riepilogo
+## Esportazione di un riepilogo [!DNL Excel]
 
-Per scaricare [!DNL Excel] riepilogo:
+Per scaricare il riepilogo [!DNL Excel]:
 
-1. Apri il menu Azioni della bozza a destra della bozza, quindi fai clic su **[!UICONTROL [!DNL Excel]riepilogo]**. (1)\
-   ![Excel_summary.png](assets/excel-summary-350x450.png)
+1. Apri il menu delle azioni della bozza a destra della bozza, quindi fai clic su **[!UICONTROL [!DNL Excel]riepilogo]**. 1)\
+   ![Riepilogo_Excel.png](assets/excel-summary-350x450.png)
 
-Per scaricare [!DNL Excel] Riepilogo dalla pagina Dettagli bozza:
+Per scaricare il riepilogo [!DNL Excel] dalla pagina Dettagli bozza:
 
-1. Fai clic sul pulsante Esporta in **[!DNL Excel]** icona. (2)
-1. ![Export_to_excel.png](assets/export-to-excel-350x185.png)
+1. Fare clic sull&#39;icona Esporta in **[!DNL Excel]**. 2)
+1. ![Esporta_in_excel.png](assets/export-to-excel-350x185.png)
 
 ## Esportazione in PDF
 
 Per esportare una bozza in PDF, insieme a tutti i markup e i commenti, effettua le seguenti operazioni:
 
-1. Vai a **[!UICONTROL Visualizzazioni]** sul lato sinistro dello schermo.
-1. Fai clic su **[!UICONTROL Altro]** in linea con una bozza, quindi fai clic su **[!UICONTROL Stampa commenti]**.
+1. Vai a **[!UICONTROL Visualizzazioni]** sul lato sinistro della schermata.
+1. Fai clic sull&#39;icona **[!UICONTROL Altro]** in linea con una bozza, quindi fai clic su **[!UICONTROL Stampa commenti]**.
 
 1. Fai clic sull’icona Esporta in PDF nell’angolo in alto a destra della pagina.
 

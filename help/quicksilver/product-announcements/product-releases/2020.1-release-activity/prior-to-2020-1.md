@@ -18,7 +18,7 @@ ht-degree: 6%
 
 Le seguenti funzioni sono state rese disponibili per l’ambiente di produzione Workfront Classic prima della versione 2020.1 di Produzione.
 
-Per informazioni sull’intervallo di tempo di rilascio e tutte le funzionalità disponibili con la versione 2020.1, consulta [Panoramica sulla versione 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+Per informazioni sull&#39;intervallo di tempo della versione e su tutte le funzionalità disponibili con la versione 2020.1, consulta [Panoramica sulla versione 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +51,7 @@ Per informazioni sull’intervallo di tempo di rilascio e tutte le funzionalità
      <li>Copiare il corpo del testo di un aggiornamento</li> 
      <li>Copiare il collegamento diretto a un thread di aggiornamento o a un singolo aggiornamento</li> 
      <li>Eliminare un aggiornamento</li> 
-    </ul> <p>Per ulteriori informazioni, consulta <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref" xrefformat="{para}">Aggiorna lavoro</a>.</p> 
+    </ul> <p>Per ulteriori informazioni, vedere <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref" xrefformat="{para}">Aggiorna lavoro</a>.</p> 
     <div class="workfront_plans"> 
      <p><strong>Disponibile in questi ambienti:</strong> </p> 
      <ul> 
@@ -65,7 +65,7 @@ Per informazioni sull’intervallo di tempo di rilascio e tutte le funzionalità
     </div> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Nuova barra di avanzamento nell’area Aggiornamenti <p>La barra di avanzamento della percentuale di completamento nell'area aggiornamenti ha un nuovo aspetto. Fai clic e trascina per aggiornare la percentuale o fai doppio clic per immettere manualmente il numero.</p> <p>Per ulteriori informazioni, consulta <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref" xrefformat="{para}">Aggiorna lavoro</a>.</p> 
+   <td>Nuova barra di avanzamento nell’area Aggiornamenti <p>La barra di avanzamento della percentuale di completamento nell'area aggiornamenti ha un nuovo aspetto. Fai clic e trascina per aggiornare la percentuale o fai doppio clic per immettere manualmente il numero.</p> <p>Per ulteriori informazioni, vedere <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref" xrefformat="{para}">Aggiorna lavoro</a>.</p> 
     <div class="workfront_plans"> 
      <p><strong>Disponibile in questi ambienti:</strong> </p> 
      <ul> 
@@ -79,7 +79,7 @@ Per informazioni sull’intervallo di tempo di rilascio e tutte le funzionalità
     </div> </td> 
   </tr> 
   <tr> 
-   <td> Sincronizzazione commenti Workfront con Jira <p>L’integrazione Workfront for Jira ora sincronizza i commenti Workfront con il flusso di commenti nativo di Jira.</p> <p>In precedenza era possibile sincronizzare i commenti da Jira a Workfront, ma non da Workfront a Jira. </p> <p>Per ulteriori informazioni, consulta <a href="../../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md" class="MCXref xref" xrefformat="{para}">Configurare Adobe Workfront per Jira</a>.</p> 
+   <td> Sincronizzazione commenti Workfront con Jira <p>L’integrazione Workfront for Jira ora sincronizza i commenti Workfront con il flusso di commenti nativo di Jira.</p> <p>In precedenza era possibile sincronizzare i commenti da Jira a Workfront, ma non da Workfront a Jira. </p> <p>Per ulteriori informazioni, vedere <a href="../../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md" class="MCXref xref" xrefformat="{para}">Configurare Adobe Workfront per Jira</a>.</p> 
     <div class="workfront_plans"> 
      <p><strong>Disponibile in questi ambienti:</strong> </p> 
      <ul> 

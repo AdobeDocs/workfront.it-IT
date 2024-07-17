@@ -5,7 +5,8 @@ title: Condividere un dashboard Canvas
 description: Puoi condividere un dashboard di Canvas con altri utenti di Adobe Workfront in modo che possano visualizzarlo o modificarlo.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
+source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -45,14 +46,14 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Condividere un dashboard Canvas
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **Dashboard**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **Dashboards**.
 
-1. Nel pannello a sinistra, fai clic su **Dashboard Canvas**, quindi fare clic sul nome del dashboard Area di lavoro che si desidera condividere.
+1. Nel pannello a sinistra, fai clic su **Dashboard canvas**, quindi fai clic sul nome del dashboard canvas che desideri condividere.
 
-1. Fai clic su **Condividi** nell’angolo in alto a destra della pagina.
+1. Fai clic sul pulsante **Condividi** nell&#39;angolo superiore destro della pagina.
 
-1. In **Concedi accesso a:** campo del **Condivisione dashboard** che viene visualizzata, inizia a digitare i nomi di utenti, team, ruoli, gruppi o società specifici nell’istanza Workfront con cui desideri condividere Canvas Dashboard. Quando il nome che stai cercando viene visualizzato nell’elenco di completamento automatico sotto il campo, fai clic su di esso per aggiungerlo all’elenco dei destinatari desiderati.
+1. Nel campo **Concedi l&#39;accesso a:** della finestra **Condivisione dashboard** visualizzata, inizia a digitare i nomi di utenti, team, ruoli, gruppi o società specifici nell&#39;istanza di Workfront con cui desideri condividere il dashboard di Canvas. Quando il nome che stai cercando viene visualizzato nell’elenco di completamento automatico sotto il campo, fai clic su di esso per aggiungerlo all’elenco dei destinatari desiderati.
 
-1. (Facoltativo) Dopo aver aggiunto un’entità all’elenco dei destinatari desiderati, puoi modificare il tipo di accesso che riceveranno da questo dashboard dell’area di lavoro. Per impostazione predefinita, riceveranno solo **Visualizza** , ma puoi concedergli l’accesso Gestisci facendo clic su **Visualizza >** accanto all’entità, quindi seleziona **Gestisci** nell’elenco a discesa. Tieni presente che il livello di accesso di alcune entità non può essere modificato, ad esempio gli amministratori.
+1. (Facoltativo) Dopo aver aggiunto un’entità all’elenco dei destinatari desiderati, puoi modificare il tipo di accesso che riceveranno da questo dashboard dell’area di lavoro. Per impostazione predefinita, ricevono solo l&#39;accesso **Visualizza**, ma puoi concedere l&#39;accesso Gestisci facendo clic su **Visualizza >** accanto all&#39;entità, quindi selezionando **Gestisci** nell&#39;elenco a discesa. Tieni presente che il livello di accesso di alcune entità non può essere modificato, ad esempio gli amministratori.
 
-1. Dopo aver aggiunto tutti coloro con cui desideri condividere il dashboard dell’area di lavoro, fai clic sul pulsante **Condividi** pulsante.
+1. Dopo aver aggiunto tutti coloro con cui si desidera condividere il dashboard di Canvas, fare clic sul pulsante **Condividi**.

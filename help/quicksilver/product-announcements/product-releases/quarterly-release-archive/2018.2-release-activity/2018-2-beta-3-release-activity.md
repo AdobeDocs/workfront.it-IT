@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Attività sulla versione 2018.2 Beta 3
-description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.2 Beta 3. La funzionalità è stata resa disponibile nell’ambiente di anteprima il 19 aprile 2018. Sarà disponibile nell’ambiente di produzione a giugno 2018.
+title: Attività sulla versione 2018.2 di Beta 3
+description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.2 di Beta 3. La funzionalità è stata resa disponibile nell’ambiente di anteprima il 19 aprile 2018. Sarà disponibile nell’ambiente di produzione a giugno 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,21 +14,21 @@ ht-degree: 0%
 
 ---
 
-# Attività sulla versione 2018.2 Beta 3
+# Attività sulla versione 2018.2 di Beta 3
 
-Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.2 Beta 3. La funzionalità è stata resa disponibile nell’ambiente di anteprima il 19 aprile 2018. Sarà disponibile nell’ambiente di produzione a giugno 2018.
+Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.2 di Beta 3. La funzionalità è stata resa disponibile nell’ambiente di anteprima il 19 aprile 2018. Sarà disponibile nell’ambiente di produzione a giugno 2018.
 
 >[!IMPORTANT]
 >
 > La funzionalità descritta in questa pagina è soggetta a modifiche prima della disponibilità nell’ambiente di produzione.
 
-Per un elenco di tutte le modifiche apportate in 2018.2, consulta  [Panoramica sull’attività della versione 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+Per un elenco di tutte le modifiche apportate in 2018.2, consulta  Panoramica dell&#39;attività di [versione 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
-La versione 2018.2 Beta 3 contiene i seguenti miglioramenti:
+La versione 2018.2 di Beta 3 contiene i seguenti miglioramenti:
 
 * [Gestione delle licenze nel sistema](#manage-licenses-in-your-system)
-* [Imposta contrassegni per le storie su Kanban Board](#set-flags-for-stories-on-the-kanban-board)
-* [Modifica campi direttamente su una scheda storia Agile](#edit-fields-directly-on-an-agile-story-card)
+* [Imposta flag per le storie sul Kanban Board](#set-flags-for-stories-on-the-kanban-board)
+* [Modifica campi direttamente in una scheda storia Agile](#edit-fields-directly-on-an-agile-story-card)
 * [Miglioramento della rilevanza della ricerca per più parole](#improved-search-relevancy-for-multiple-words)
 
 ## Gestione delle licenze nel sistema {#manage-licenses-in-your-system}
@@ -47,7 +47,7 @@ I flag forniscono un’indicazione visiva di quando una storia è pronta per pas
 
 Per informazioni sull&#39;utilizzo dei flag sulla bacheca Kanban, vedere &quot;Utilizzo dei flag nelle storie&quot; nell&#39;articolo.
 
-Per informazioni sull&#39;inclusione dei flag nei report delle attività, vedere [Glossario della terminologia di Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).  
+Per informazioni sull&#39;inclusione dei flag nei report attività, vedere [Glossario della terminologia di Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).  
 
 ## Modifica campi direttamente su una scheda storia Agile {#edit-fields-directly-on-an-agile-story-card}
 

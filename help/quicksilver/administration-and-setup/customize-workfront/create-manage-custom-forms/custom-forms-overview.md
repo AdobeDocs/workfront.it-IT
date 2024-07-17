@@ -80,6 +80,6 @@ Gli utenti possono allegare moduli personalizzati ai seguenti tipi di oggetti:
 
 Per ulteriori informazioni sull&#39;associazione di moduli personalizzati agli oggetti, vedere [Aggiungere un modulo personalizzato a un oggetto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
-Per informazioni su ciò che accade ai moduli personalizzati durante la conversione di un oggetto, vedi [Trasferimento dei dati del modulo personalizzato durante la conversione di un oggetto](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
+Per informazioni su ciò che accade ai moduli personalizzati durante la conversione di un oggetto, vedere [Trasferire i dati del modulo personalizzato durante la conversione di un oggetto](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
 
 

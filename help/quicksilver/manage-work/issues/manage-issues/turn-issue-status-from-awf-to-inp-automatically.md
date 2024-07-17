@@ -21,13 +21,13 @@ Affinché la modifica automatica dello stato avvenga, è necessario quanto segue
 
 * Il problema deve essere immesso tramite una coda di richieste.
 
-  Per informazioni sulla creazione di code di richieste, vedere [Creare e gestire le code di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md) sezione. Per informazioni sulla creazione delle richieste, consulta [Creare e inviare richieste Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
+  Per informazioni sulla creazione di code di richieste, vedere la sezione [Creare e gestire code di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md). Per informazioni sulla creazione di richieste, vedere [Creare e inviare richieste Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
 * I Dettagli coda nella coda richieste devono avere le seguenti impostazioni:
-   * **Quando qualcuno effettua una richiesta, concedi automaticamente** è impostato su **Contribuisci accesso**
+   * **Quando qualcuno effettua una richiesta, concedi automaticamente** è impostato su **Contribute Access**
    * **Modifica stato** è selezionato in Impostazioni avanzate
 
-  ![I dettagli coda consentono l&#39;accesso a Contribute e l&#39;opzione Modifica stato è selezionata.](assets/queuedetails-contributeaccess-changestatus.png)
+  ![I dettagli coda consentono l&#39;accesso a Contribute e lo stato di modifica è selezionato.](assets/queuedetails-contributeaccess-changestatus.png)
 
   >[!IMPORTANT]
   >
@@ -40,4 +40,4 @@ Affinché la modifica automatica dello stato avvenga, è necessario quanto segue
 * Il problema deve essere nello stato In attesa di feedback.
 * È necessario uno stato AWF (Await Feedback) disponibile per i problemi a livello di sistema.
 
-  Per ulteriori informazioni sugli stati a livello di sistema, consulta [Creare o modificare uno stato](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+  Per ulteriori informazioni sugli stati a livello di sistema, vedere [Creare o modificare uno stato](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).

@@ -19,31 +19,31 @@ ht-degree: 1%
 
 Questa pagina descrive tutti i miglioramenti di Project Management apportati con la versione 21.1 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 15 febbraio 2021.
 
-Per un elenco di tutte le modifiche disponibili con la versione 21.1, consulta [Panoramica sulla versione 21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 21.1, consulta la [panoramica sulla versione 21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Esportazione ora disponibile nella sezione Metriche di un progetto
 
 Per condividere più facilmente lo stato e l’avanzamento di un progetto, ora puoi esportare l’intero dashboard nella sezione Metriche di un progetto in un file .png.
 
-Per ulteriori informazioni, consulta [Panoramica delle metriche del progetto](../../../manage-work/projects/manage-projects/project-metrics.md).
+Per ulteriori informazioni, vedere [Panoramica delle metriche del progetto](../../../manage-work/projects/manage-projects/project-metrics.md).
 
-Questa funzione è ora inclusa nel [Planner - Nozioni di base per la nuova esperienza Workfront, Parte 3: Gestire un progetto](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-MCG6OJL724XRBLHBXEAKGAUZOJ6U) percorso di apprendimento in Workfront One.
+Questa funzionalità è ora inclusa in [Planner - Nozioni di base per la nuova esperienza Workfront, Parte 3: Gestire un percorso di apprendimento Project](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-MCG6OJL724XRBLHBXEAKGAUZOJ6U) in Workfront One.
 
 ## Aggiorna la percentuale di completamento del problema quando il progetto o l’attività viene convertito dall’aggiornamento del problema
 
 È stato aggiornato il funzionamento della percentuale di completamento dei problemi per i problemi convertiti in progetti o attività. Con la nuova funzionalità, quando un problema viene convertito in un’attività o in un progetto, la percentuale di completamento del problema viene aggiornata in sincronia con la percentuale di completamento dell’attività o del progetto di risoluzione quando l’impostazione &quot;Aggiorna automaticamente lo stato del problema risolvibile quando lo stato dell’oggetto risolutivo cambia&quot; è abilitata dalla configurazione.
 
-Per informazioni sulla conversione dei problemi, consulta [Panoramica sugli oggetti risolvibili e risolvibili](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
+Per informazioni sulla conversione dei problemi, vedere [Panoramica sugli oggetti risolvibili e risolvibili](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
 
 ## Elenco Nuove richieste inviate
 
 Per consentirti di gestire le richieste inviate in modo più semplice e coerente, sono state rimosse le sezioni Richieste inviate e Tutte le richieste nell’area Richieste e sostituite con un nuovo elenco Inviato. L’elenco ha un aspetto familiare che corrisponde a tutti gli altri elenchi nel sistema, consentendoti di filtrare per diverse categorie di richieste inviate e di cercare rapidamente una richiesta che potrebbe essere difficile da trovare.
 
-Per informazioni su come individuare le richieste inviate, vedi [Individuare le richieste inviate](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+Per informazioni su come individuare le richieste inviate, vedere [Individuare le richieste inviate](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-Questa funzione è ora inclusa nel [Nozioni di base sui collaboratori per la nuova esperienza Workfront](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) percorso di apprendimento in Workfront One.
+Questa funzionalità è ora inclusa in [Nozioni di base di Collaborator per il nuovo percorso di apprendimento di Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) in Workfront One.
 
-Questa funzione è ora inclusa nel [Richieste nella nuova esperienza Workfront](https://one.workfront.com/s/learningpath3/core-team-requests-in-the-new-workfront-experience-MCHWSSDWRFC5EKXFBXTQ6MJNKE7E) percorso di apprendimento in Workfront One.
+Questa funzionalità è ora inclusa nelle [richieste nel nuovo percorso di apprendimento di Workfront](https://one.workfront.com/s/learningpath3/core-team-requests-in-the-new-workfront-experience-MCHWSSDWRFC5EKXFBXTQ6MJNKE7E) in Workfront One.
 
 ## Campi rimossi dalla pagina Nuova richiesta
 
@@ -65,7 +65,7 @@ I campi Nuovi problemi seguenti vengono visualizzati solo quando si crea un prob
 
 I campi Assegnato a, Mansione e Team sono stati sostituiti con il nuovo campo Assegnazioni nella pagina Nuova richiesta, per designare in modo efficiente un utente, una mansione o un team in un campo comune durante l’invio di una nuova richiesta.
 
-Per informazioni sulla definizione dei nuovi campi dei problemi per un progetto, consulta [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Per informazioni sulla definizione dei nuovi campi dei problemi per un progetto, vedere [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 ## Nuova esperienza nell’invio di richieste nell’area Richieste
 
@@ -81,7 +81,7 @@ Per garantire la coerenza con la nuova esperienza Workfront e aumentare l’effi
 
 Possibilità di condividere un collegamento alla coda di richieste, al gruppo di argomenti o all&#39;argomento della coda quando si immette la richiesta.
 
-Per informazioni sull’invio delle richieste, consulta [Creare e inviare richieste Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+Per informazioni sull&#39;invio di richieste, vedere [Creare e inviare richieste Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
 ## Condividere un collegamento a una coda di richieste durante l’invio di una richiesta
 
@@ -93,7 +93,7 @@ Per informazioni sull’invio delle richieste, consulta [Creare e inviare richie
 
 Prima di inviare una nuova richiesta, è possibile copiare un collegamento alla coda delle richieste, al gruppo di argomenti o all&#39;argomento della coda della richiesta e condividerlo con altri utenti o incorporarlo in un dashboard.
 
-Per informazioni sulla condivisione di un collegamento a una coda di richieste durante l’invio di una richiesta, consulta [Condividere un collegamento a una coda di richieste](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
+Per informazioni sulla condivisione di un collegamento a una coda richieste durante l&#39;invio di una richiesta, vedere [Condividere un collegamento a una coda richieste](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
 
 ## Cercare un gruppo da assegnare a un progetto e visualizzarne i dettagli
 
@@ -105,7 +105,7 @@ A seconda dei dettagli configurati per il gruppo, è possibile che vengano visua
 
 Con queste informazioni, puoi essere certo di selezionare il gruppo giusto da assegnare al progetto.
 
-Per ulteriori informazioni, consulta [Gestire le informazioni nell’area Panoramica progetto](../../../manage-work/projects/manage-projects/understand-project-overview-area.md).
+Per ulteriori informazioni, vedere [Gestire le informazioni nell&#39;area Panoramica del progetto](../../../manage-work/projects/manage-projects/understand-project-overview-area.md).
 
 ## Nuovo rapporto Delega utenti
 
@@ -115,4 +115,4 @@ In precedenza, le informazioni per le deleghe di approvazione di attività, prob
 * Quale utente ha delegato queste approvazioni
 * La data di inizio e di fine di tali deleghe
 
-Per ulteriori informazioni, consulta [Creare un rapporto di delega utente](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md).
+Per ulteriori informazioni, vedere [Creare un report di delega utenti](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md).

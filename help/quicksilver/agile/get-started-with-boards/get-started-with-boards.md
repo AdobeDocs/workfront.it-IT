@@ -10,7 +10,7 @@ exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
 source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,7 @@ Questa sezione contiene i seguenti articoli:
 * [Creare o modificare una bacheca](../../agile/get-started-with-boards/create-edit-board.md)
 * [Eliminare o archiviare una bacheca](/help/quicksilver/agile/get-started-with-boards/delete-archive-board.md)
 * [Aggiungere o rimuovere membri da una bacheca](../../agile/get-started-with-boards/add-members-to-board.md)
-* [Gestisci colonne bacheca](../../agile/get-started-with-boards/manage-board-columns.md)
+* [Gestire le colonne di una bacheca](../../agile/get-started-with-boards/manage-board-columns.md)
 * [Aggiungere una scheda ad hoc a una bacheca](../../agile/get-started-with-boards/add-card-to-board.md)
 * [Utilizzare le schede collegate sulle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)
 * [Aggiungere attività o problemi esistenti a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)

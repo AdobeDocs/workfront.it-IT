@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Creazione di un account di lettura (servizio) per il Snowflake
 
-Per accedere ai dati del data lake di Workfront, devi prima creare un account di lettura del Snowflake (o servizio) per ogni nuova connessione. Dopo aver creato una connessione, puoi trovarne l’URL e il nome utente associati facendo clic su di esso nella **Accesso ai dati** page (**Menu principale** > **Configurazione** > **Sistema** > **Accesso ai dati**) sotto **Connessioni esistenti** scheda.
+Per accedere ai dati del data lake di Workfront, devi prima creare un account di lettura del Snowflake (o servizio) per ogni nuova connessione. Dopo aver creato una connessione, puoi trovare l&#39;URL e il nome utente associati facendo clic su di esso nella pagina **Accesso ai dati** (**Menu principale** > **Configurazione** > **Sistema** > **Accesso ai dati**) nella scheda **Connessioni esistenti**.
 
-Per informazioni sull’utilizzo di una connessione appena creata con un prodotto esterno, consulta [Stabilire una connessione al data lake di Workfront](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md).
+Per informazioni sull&#39;utilizzo di una connessione appena creata con un prodotto esterno, vedere [Stabilire una connessione al data lake di Workfront](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md).
 
 ## Requisiti di accesso
 
@@ -48,23 +48,23 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Creare un account di lettura
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **Configurazione**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **Setup**.
 
 1. Nel pannello a sinistra, fai clic su **Sistema** > **Accesso ai dati**.
 
-1. Clic **Crea nuova connessione**
+1. Fai clic su **Crea nuova connessione**
 
-1. Nella finestra visualizzata, inserisci un nome per la connessione in **Descrizione del riferimento di connessione** e un nome utente in **Utente di connessione**, quindi fai clic su **Genera connessione**.
+1. Nella finestra visualizzata, immetti un nome per la connessione in **Descrizione riferimento connessione** e un nome utente in **Utente connessione**, quindi fai clic su **Genera connessione**.
 
    ![Crea account lettore](/help/quicksilver/reports-and-dashboards/data-lake/assets/new-reader-connection.png) {width="500"}
 
-1. A **Password predefinita** e un URL in cui i dati possono essere visualizzati tramite il Snowflake. Dovrai utilizzare la password insieme al nome utente scelto per accedere al Snowflake per la prima volta, quindi assicurati di tenerne traccia insieme all’URL. Seleziona la casella in cui dichiara di aver effettuato questa operazione, quindi fai clic su **Chiudi**.
+1. Verrà generata una **password predefinita** e un URL per la visualizzazione dei dati tramite il Snowflake. Dovrai utilizzare la password insieme al nome utente scelto per accedere al Snowflake per la prima volta, quindi assicurati di tenerne traccia insieme all’URL. Selezionare la casella in cui si dichiara di averlo fatto, quindi fare clic su **Chiudi**.
 
    ![Password account predefinita](/help/quicksilver/reports-and-dashboards/data-lake/assets/default-password-reader-account.png) {width="500"}
 
-1. Apri il Snowflake utilizzando un browser per passare all’URL dal passaggio precedente, immetti il nome utente selezionato e la password predefinita del passaggio precedente, quindi fai clic su **Accedi**.
+1. Apri il Snowflake utilizzando un browser per passare all&#39;URL del passaggio precedente, immetti il nome utente selezionato e la password predefinita del passaggio precedente, quindi fai clic su **Accedi**.
 
-1. Dopo aver effettuato l&#39;accesso per la prima volta, verrà richiesto di scegliere una nuova password. Immettere una password di propria scelta in entrambi i **Nuova password** e **Conferma password** , quindi fai clic su **Invia**.
+1. Dopo aver effettuato l&#39;accesso per la prima volta, verrà richiesto di scegliere una nuova password. Immetti una password a tua scelta nei campi **Nuova password** e **Conferma password**, quindi fai clic su **Invia**.
 
    ![Reimposta password Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
 
@@ -72,10 +72,10 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Revoca di un account lettore
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **Configurazione**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **Setup**.
 
 1. Nel pannello a sinistra, fai clic su **Sistema** > **Accesso ai dati**.
 
-1. Fai clic sull’icona del cestino ![Icona Elimina](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) a destra dell’account che desideri revocare.
+1. Fai clic sull&#39;icona del cestino ![icona Elimina](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) a destra dell&#39;account che desideri revocare.
 
-1. Nella finestra visualizzata, seleziona la casella per confermare e quindi fai clic su **Elimina**.
+1. Nella finestra visualizzata, selezionare la casella per confermare e quindi fare clic su **Elimina**.

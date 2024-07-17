@@ -42,7 +42,7 @@ Devi avere i seguenti:
   <tr>
    <td><strong>Prodotto</strong>
    </td>
-   <td><p>È necessario disporre di Experience Manager Assets as a Cloud Service o Assets Essentials e aggiungerli al prodotto come utente nell’Admin Console.</p><p>Devi disporre dell’accesso in scrittura all’archivio in Adobe Experience Manager.</p>
+   <td><p>È necessario disporre di Assets Essentials di Experience Manager Assets as a Cloud Service e aggiungerli al prodotto come utente nell’Admin Console.</p><p>Devi disporre dell’accesso in scrittura all’archivio in Adobe Experience Manager.</p>
    </td>
   </tr>
   <tr>
@@ -50,7 +50,7 @@ Devi avere i seguenti:
    </td>
    <td>Modifica accesso ai documenti
 <p>
-<strong>Nota: </strong>Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <strong>Creare o modificare livelli di accesso personalizzati</strong>.
+<strong>Nota: </strong>Se non disponi ancora dell'accesso, chiedi all'amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <strong>Creare o modificare livelli di accesso personalizzati</strong>.
    </td>
   </tr>
   <tr>
@@ -58,7 +58,7 @@ Devi avere i seguenti:
    </td>
    <td>Gestire l’accesso o versione successiva al progetto 
 <p>
-Per informazioni sulla richiesta di accesso aggiuntivo, consulta <strong>Richiedi accesso agli oggetti </strong>.
+Per informazioni sulla richiesta di accesso aggiuntivo, vedere <strong>Richiedere l'accesso agli oggetti </strong>.
    </td>
   </tr>
 </table>
@@ -67,23 +67,23 @@ Per informazioni sulla richiesta di accesso aggiuntivo, consulta <strong>Richied
 
 Prima di iniziare,
 
-* L’amministratore di Workfront deve configurare i flussi di lavoro in un’integrazione Adobe Experience Manager. Per ulteriori informazioni, consulta [Configurare l’integrazione di Experience Manager Assets as a Cloud Service](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional).
+* L’amministratore di Workfront deve configurare i flussi di lavoro in un’integrazione Adobe Experience Manager. Per ulteriori informazioni, vedere [Configurare l&#39;integrazione as a Cloud Service di Experience Manager Assets](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional).
 
 ## Aggiungere un flusso di lavoro a un modello
 
 È possibile aggiungere un flusso di lavoro a un modello di progetto. Il flusso di lavoro verrà applicato a tutti i progetti creati dal modello.
 
 1. Aprire un modello facendo clic su **Modelli** nel menu principale, quindi selezionare il modello dall&#39;elenco.
-1. Clic **Experience Manager Assets** nel pannello di navigazione a sinistra.
+1. Fai clic su **Experience Manager Assets** nel pannello di navigazione a sinistra.
 
    >[!NOTE]
    >
    >Se la sezione Experience Manager Assets non è visibile nel menu di navigazione a sinistra, l’amministratore di Workfront non ha abilitato i flussi di lavoro per la tua organizzazione. <!--Is this right?-->
 
-1. In **Seleziona un campo di integrazione per flussi di lavoro automatizzati**, seleziona l’integrazione con i flussi di lavoro che desideri utilizzare per i progetti creati da questo modello.
+1. Nel campo **Selezionare un&#39;integrazione per flussi di lavoro automatizzati**, selezionare l&#39;integrazione con i flussi di lavoro che si desidera utilizzare per i progetti creati da questo modello.
 1. (Facoltativo) Modifica i valori del flusso di lavoro che desideri applicare ai progetti creati da questo modello.
 
-   Per istruzioni su flussi di lavoro specifici, consulta [Modificare i valori del flusso di lavoro in un progetto](#edit-workflow-values-in-a-project) in questo articolo.
+   Per istruzioni su flussi di lavoro specifici, vedere [Modificare i valori del flusso di lavoro in un progetto](#edit-workflow-values-in-a-project) in questo articolo.
 
    Solo i flussi di lavoro attivati nell’area Experience Manager di Configurazione sono disponibili nei modelli o nei progetti.
 
@@ -97,10 +97,10 @@ Puoi aggiungere un flusso di lavoro durante la creazione di un progetto o un flu
 
 1. Inizia a creare un progetto.
 
-   Per istruzioni, consulta [Creare un progetto utilizzando un modello](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
+   Per istruzioni, vedere [Creare un progetto utilizzando un modello](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
 
 1. Quando selezioni un modello per il progetto, seleziona il modello contenente i flussi di lavoro che desideri utilizzare per questo progetto.
-1. (Facoltativo) Modifica i valori del flusso di lavoro per il progetto, come descritto in [Modificare i valori del flusso di lavoro in un progetto](#edit-workflow-values-in-a-project).
+1. (Facoltativo) Modificare i valori del flusso di lavoro per il progetto, come descritto in [Modificare i valori del flusso di lavoro in un progetto](#edit-workflow-values-in-a-project).
 
    Solo i flussi di lavoro attivati nell’area Experience Manager di Configurazione sono disponibili nei modelli o nei progetti.
 
@@ -113,10 +113,10 @@ Puoi aggiungere un flusso di lavoro durante la creazione di un progetto o un flu
 
 1. Inizia ad aggiungere un modello al progetto.
 
-   Per istruzioni, consulta [Allegare un modello a un progetto](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+   Per istruzioni, vedere [Allegare un modello a un progetto](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
 
 1. Quando selezioni un modello per il progetto, seleziona il modello contenente i flussi di lavoro che desideri utilizzare per questo progetto.
-1. (Facoltativo) Modifica i valori del flusso di lavoro per il progetto, come descritto in [Modificare i valori del flusso di lavoro in un progetto](#edit-workflow-values-in-a-project).
+1. (Facoltativo) Modificare i valori del flusso di lavoro per il progetto, come descritto in [Modificare i valori del flusso di lavoro in un progetto](#edit-workflow-values-in-a-project).
 
    Solo i flussi di lavoro attivati nell’area Experience Manager di Configurazione sono disponibili nei modelli o nei progetti.
 
@@ -147,30 +147,30 @@ Tutti i valori del flusso di lavoro sono disponibili in:
 Per modificare il flusso di lavoro per le cartelle collegate:
 
 
-1. Attiva/disattiva **[!UICONTROL Crea cartella collegata]** acceso o spento come desiderato. Se si attiva questa funzione, è possibile modificare la configurazione della cartella collegata.
+1. Attiva o disattiva **[!UICONTROL Crea cartella collegata]** come desiderato. Se si attiva questa funzione, è possibile modificare la configurazione della cartella collegata.
 
-   Per informazioni dettagliate sulla configurazione della cartella collegata, vedi [Creare cartelle collegate a Adobe Experience Manager](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders) nell’articolo [Configurare [!UICONTROL Experience Manager Assets as a Cloud Service] integrazione](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+   Per informazioni dettagliate sulla configurazione della cartella collegata, vedere [Creare cartelle collegate a Adobe Experience Manager](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders) nell&#39;articolo [Configurare l&#39;integrazione di [!UICONTROL Experience Manager Assets as a Cloud Service]](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
 
-1. (Facoltativo) Se desideri che la struttura ad albero delle cartelle venga creata solo se determinati valori sono presenti in un modulo personalizzato allegato al progetto, fai clic sul pulsante **Applica filtro** per tale struttura di cartelle, selezionare il modulo personalizzato contenente il campo, il campo e il valore del campo. Se il campo del modulo personalizzato allegato al nuovo progetto contiene il valore scelto, verrà creata la struttura ad albero delle cartelle.
+1. (Facoltativo) Se si desidera che la struttura di cartelle venga creata solo se determinati valori sono presenti in un modulo personalizzato allegato al progetto, fare clic sul **Applica filtro** per la struttura di cartelle, quindi selezionare il modulo personalizzato contenente il campo, il campo e il valore del campo. Se il campo del modulo personalizzato allegato al nuovo progetto contiene il valore scelto, verrà creata la struttura ad albero delle cartelle.
 1. (Facoltativo) Quando configuri i nomi delle cartelle, puoi scegliere tra le seguenti opzioni:
 
-   * **Nome**: digita un nome per la cartella.
+   * **Nome**: immettere un nome per la cartella.
 
-   * **Dati oggetto**: seleziona l’origine per il nome della cartella, ad esempio Nome progetto.
+   * **Dati oggetto**: selezionare l&#39;origine per il nome della cartella, ad esempio Nome progetto.
 
-   * **Dati modulo personalizzato**: seleziona i dati del modulo personalizzato da utilizzare come nome della cartella.
+   * **Dati modulo personalizzato**: selezionare i dati del modulo personalizzato da utilizzare come nome della cartella.
 
      L’utilizzo dei dati del modulo personalizzato per i nomi delle cartelle è disponibile solo a livello di modello e non può essere configurato a livello di integrazione.
 
      Se il nome di una cartella è impostato su dati personalizzati che non esistono nella cartella personalizzata associata al progetto, come nome della cartella verrà assegnato un ID casuale.
 
-1. Per visualizzare la struttura di cartelle, fare clic su **Anteprima** ![Icona Anteprima](assets/preview-icon.png) icona
+1. Per visualizzare la struttura delle cartelle, fare clic sull&#39;icona **Anteprima** ![Anteprima](assets/preview-icon.png)
 1. Fai clic su **[!UICONTROL Salva]**.
 
 #### Pubblicazione delle risorse
 
 Per modificare il flusso di lavoro per la pubblicazione delle risorse:
 
-1. Attiva/Disattiva **Pubblicare automaticamente le risorse** acceso o spento come desiderato.
+1. Attiva o disattiva automaticamente **le risorse Publish**, a seconda delle esigenze.
 1. (Condizionale) Se abiliti la pubblicazione, seleziona se desideri pubblicarla nel servizio di pubblicazione, nel portale del brand o in entrambi.
 1. Fai clic su **[!UICONTROL Salva]**.

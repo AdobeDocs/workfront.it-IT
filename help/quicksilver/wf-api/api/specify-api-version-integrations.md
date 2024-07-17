@@ -9,7 +9,7 @@ role: Developer
 exl-id: 2971749d-1d34-42a4-9eda-411aa8c3a2ab
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,15 @@ Assicurati che tutte le integrazioni chiamino le API Workfront attualmente suppo
 
 Vengono rilasciate regolarmente nuove versioni dell’API, in genere due volte all’anno. Ogni versione è supportata per tre anni dopo la data di rilascio, con un ulteriore anno in uno stato obsoleto in cui la versione è disponibile ma non supportata.
 
-Per ulteriori informazioni sulla cadenza della versione e sulla pianificazione delle versioni obsolete delle API di Workfront, consulta [Pianificazione del supporto e del controllo delle versioni API](../../wf-api/api/api-version-support-schedule.md).
+Per ulteriori informazioni sulla cadenza della versione e sulla pianificazione di deprecazione delle API di Workfront, vedere [Gestione delle versioni e pianificazione del supporto API](../../wf-api/api/api-version-support-schedule.md).
 
 >[!IMPORTANT]
 >
->* La versione predefinita dell’API è impostata sulla versione più recente. Qualsiasi chiamata API senza la versione specificata utilizzerà la versione predefinita. Ogni volta che Workfront rilascia una nuova versione dell’API, la versione predefinita viene aggiornata alla versione più recente. **Pertanto, dopo il rilascio di una nuova versione dell’API Workfront, tutte le chiamate API che utilizzano la versione predefinita devono essere controllate per assicurarsi che la funzionalità sia ancora supportata.**
+>* La versione predefinita dell’API è impostata sulla versione più recente. Qualsiasi chiamata API senza la versione specificata utilizzerà la versione predefinita. Ogni volta che Workfront rilascia una nuova versione dell’API, la versione predefinita viene aggiornata alla versione più recente. **Pertanto, dopo il rilascio di una nuova versione dell&#39;API Workfront, tutte le chiamate API che utilizzano la versione predefinita devono essere verificate per verificare che la funzionalità sia ancora supportata.**
 >
 >* Se l’organizzazione utilizza attualmente l’API predefinita, l’amministratore di Workfront ha ricevuto un messaggio Centro notifiche con ulteriori istruzioni relative all’API predefinita.
 >
->Per visualizzare la versione più recente dell’API, consulta [Pianificazione del supporto e del controllo delle versioni API](../../wf-api/api/api-version-support-schedule.md).
+>Per visualizzare la versione più recente dell&#39;API, vedere [Controllo delle versioni e pianificazione del supporto API](../../wf-api/api/api-version-support-schedule.md).
 
 
 ## Determinazione della versione API in uso

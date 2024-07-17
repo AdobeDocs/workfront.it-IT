@@ -2,8 +2,8 @@
 content-type: faq
 product-area: reporting
 navigation-topic: tips-tricks-and-troubleshooting-reports
-title: I dati provenienti da colonne condivise non vengono visualizzati nei rapporti del dashboard
-description: I dati provenienti da colonne condivise non vengono visualizzati quando il rapporto viene posizionato in un layout di dashboard a più colonne, ma in un layout a una singola colonna. Vengono ignorate anche le interruzioni di riga.
+title: I dati delle colonne condivise non vengono visualizzati nei rapporti del dashboard
+description: I dati delle colonne condivise non vengono visualizzati quando il rapporto viene inserito in un layout con dashboard a più colonne, ma in un layout a colonna singola. Vengono inoltre sostituite le interruzioni di riga.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b8307182-3ec1-4f16-8427-48ef7a65f969
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 ---
 
-# I dati provenienti da colonne condivise non vengono visualizzati nei rapporti del dashboard
+# I dati delle colonne condivise non vengono visualizzati nei rapporti del dashboard
 
 ## Problema
 
-I dati provenienti da colonne condivise non vengono visualizzati quando il rapporto viene posizionato in un layout di dashboard a più colonne, ma in un layout a una singola colonna. Vengono ignorate anche le interruzioni di riga.
+I dati delle colonne condivise non vengono visualizzati quando il rapporto viene inserito in un layout con dashboard a più colonne, ma in un layout a colonna singola. Vengono inoltre sostituite le interruzioni di riga.
 
 ## Causa
 
@@ -28,11 +28,11 @@ Solo le colonne contrassegnate come
 shortview=true
 ```
 
-sono inclusi nella vista dashboard del rapporto quando il layout del dashboard presenta la suddivisione sinistra/destra o la suddivisione sinistra/centrale/destra.
+sono incluse nella vista del dashboard del report quando il layout del dashboard ha la suddivisione sinistra/destra o la suddivisione sinistra/centro/destra impostata.
 
 ## Soluzione
 
-Accedi alla visualizzazione utilizzata nel rapporto e alla modalità di testo aperto. (Per ulteriori informazioni, consulta [Modificare una visualizzazione utilizzando la modalità testo](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md).) Etichettare tutte le colonne del rapporto, comprese quelle utilizzate in una colonna condivisa/unita, con
+Accedi alla visualizzazione utilizzata nel report e apri la modalità testo. Per ulteriori informazioni, vedere [Modificare una visualizzazione utilizzando la modalità testo](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md). Etichettare tutte le colonne del report, incluse quelle utilizzate in una colonna condivisa/unita, con
 
 ```
 shortview=true

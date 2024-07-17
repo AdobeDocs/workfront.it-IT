@@ -1,8 +1,8 @@
 ---
 product-area: resource-management;reporting
 navigation-topic: resource-planning
-title: Rapporto su ore con budget planner risorse
-description: È possibile assegnare un budget alle risorse dei progetti utilizzando il Planner risorse. Per informazioni sul budget delle risorse utilizzando Adobe Workfront Resource Planner, vedere l'articolo Risorse di budget nel Resource Planner utilizzando le visualizzazioni Progetto e Ruolo .
+title: Rapporto sulle ore preventivate di programmazione risorse
+description: È possibile preventivare le risorse sui progetti utilizzando la Programmazione delle risorse. Per informazioni sull'impostazione del budget delle risorse tramite Adobe Workfront Resource Planner, vedere l'articolo Risorse preventivate in Pianificazione risorse mediante le visualizzazioni Progetto e Ruolo.
 author: Alina
 feature: Resource Management
 exl-id: 6adf11a4-3c33-484f-80cc-c5d96a7c7112
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 ---
 
-# Rapporto su ore con budget planner risorse
+# Rapporto sulle ore preventivate di programmazione risorse
 
-È possibile assegnare un budget alle risorse dei progetti utilizzando il Planner risorse. Per informazioni sul budget delle risorse utilizzando Adobe Workfront Resource Planner, consulta l’articolo [Risorse di budget nel planner risorse utilizzando le visualizzazioni Progetto e Ruolo](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+È possibile preventivare le risorse sui progetti utilizzando la Programmazione delle risorse. Per informazioni sull&#39;impostazione del budget delle risorse tramite Adobe Workfront Resource Planner, vedere l&#39;articolo [Risorse budget nella programmazione delle risorse utilizzando le visualizzazioni Progetto e Ruolo](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
-Risorse di budget significa definire (o budget) un certo numero di ore necessarie affinché le risorse di un progetto completino il loro lavoro sul progetto. Per condividere le informazioni relative all&#39;ora budget inserite nel Planner risorse con altri utenti che potrebbero non avere accesso al Planner risorse, è possibile creare un rapporto relativo all&#39;ora a budget. Per informazioni, consulta [Rapporto: Ora budget](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
+La definizione del budget delle risorse implica la definizione (o il preventivo) di un determinato numero di ore necessarie alle risorse di un progetto per completare il lavoro sul progetto. Per condividere le informazioni sulle ore preventivate immesse nella Programmazione delle risorse con altri utenti che potrebbero non avere accesso alla Programmazione delle risorse, è possibile creare un rapporto Ore preventivate. Per informazioni, consulta [Report: Ore preventivate](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is all drafted - below - same content as the one in the standalone Report: Budgeted Hour article - consider deleting that and just keeping the infomation here?!)</p>

@@ -17,35 +17,35 @@ I blocchi di contenuto web consentono di visualizzare informazioni provenienti d
 
 ## Prerequisiti
 
-Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per ulteriori informazioni, consulta [Reporting Canvas beta: panoramica](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per ulteriori informazioni, vedere [Reporting Canvas beta: overview](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Aggiungere o modificare un blocco di contenuto web
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Generazione rapporti**.
-1. Clic **Nuovo rapporto**.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **Main Menu** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Reporting**.
+1. Fare clic su **Nuovo report**.
 
    Oppure
 
-   Vai a un rapporto esistente, fai clic su **Altro** icona ![](assets/more-icon-27x15.png) nell’intestazione del rapporto, fai clic su **Modifica**.
+   Vai a un report esistente, fai clic sull&#39;icona **Altro** ![](assets/more-icon-27x15.png) nell&#39;intestazione del report, quindi fai clic su **Modifica**.
 
-1. Sul lato destro dello schermo, sotto **Aggiungi un blocco**, oppure:
+1. Nella parte destra della schermata, in **Aggiungi un blocco**:
 
-   Trascina **Contenuto web** nell’area di lavoro direttamente nella posizione desiderata.
+   Trascina l&#39;icona **Contenuto Web** nell&#39;area di lavoro direttamente nella posizione desiderata.
 
    Oppure
 
-   Fai doppio clic su **Contenuto web** per aggiungere un blocco nella parte superiore dell’area di lavoro.
+   Fare doppio clic sull&#39;icona **Contenuto Web** per aggiungere un blocco nella parte superiore dell&#39;area di lavoro.
 
    >[!TIP]
    >
    >Puoi modificare le dimensioni del blocco dopo averlo posizionato trascinandone le maniglie d’angolo.
 
-1. Clic **Contenuto web senza titolo** nell’intestazione del blocco, digita un titolo per il blocco.
-1. Fai clic su **Modifica** icona ![](assets/edit-icon.png) nell’intestazione del blocco.
+1. Fai clic su **Contenuto Web senza titolo** nell&#39;intestazione del blocco, quindi digita un titolo per il blocco.
+1. Fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png) nell&#39;intestazione del blocco.
 
    ![](assets/web-content-block-header-350x76.png)
 
-1. In **Impostazioni** che si apre, inserisci l’URL completo della pagina che desideri visualizzare (incluso &quot;https://&quot;) nel **URL** campo.
+1. Nel pannello **Impostazioni** visualizzato, immetti l&#39;URL completo per la pagina che desideri visualizzare (incluso &quot;https://&quot;) nel campo **URL**.
 
    >[!NOTE]
    >
@@ -68,10 +68,10 @@ Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per u
 
    {style="table-layout:auto"}
 
-1. (Facoltativo) Fai clic su **Parametri di passaggio** attiva per aprire un elenco dei parametri di passaggio disponibili.
+1. (Facoltativo) Fai clic sull&#39;interruttore **Parametri passaggio** per aprire un elenco dei parametri passaggio disponibili.
 
    >[!WARNING]
    >
    >I parametri di passaggio sono attualmente disabilitati.
 
-1. Clic **URL di incorporamento** per salvare le selezioni e tornare al report.
+1. Fai clic su **URL di incorporamento** per salvare le selezioni e tornare al report.

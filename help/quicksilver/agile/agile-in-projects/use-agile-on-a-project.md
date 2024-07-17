@@ -3,7 +3,7 @@ title: Progetto Agile
 content-type: overview
 product-area: agile-and-teams;projects
 navigation-topic: agile-in-projects
-description: Puoi sfruttare la funzionalità agile per il progetto senza dover affrontare problemi amministrativi che solitamente accompagnano pratiche agili (come la gestione di un backlog del team, la creazione di iterazioni e così via).
+description: Puoi sfruttare le funzionalità agili per il tuo progetto senza le problematiche amministrative che in genere accompagnano le procedure agili (come la gestione del backlog di un team, la creazione di iterazioni e così via).
 author: Lisa
 feature: Agile
 exl-id: 5961a2d8-87c9-48f0-9075-828d19cbd5ad
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 ---
 
-# Utilizzare l’agile in un progetto
+# Utilizzare Agile in un progetto
 
-Puoi sfruttare la funzionalità agile per il progetto senza dover affrontare problemi amministrativi che solitamente accompagnano pratiche agili (come la gestione di un backlog del team, la creazione di iterazioni e così via). Per ulteriori informazioni, consulta [Gestire un progetto in [!UICONTROL Agile] Visualizza](../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Puoi sfruttare le funzionalità agili per il tuo progetto senza le problematiche amministrative che in genere accompagnano le procedure agili (come la gestione del backlog di un team, la creazione di iterazioni e così via). Per ulteriori informazioni, consulta [Gestire un progetto nella [!UICONTROL Visualizzazione Agile]](../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).

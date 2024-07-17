@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Pianificare uno scenario in [!DNL Adobe Workfront Fusion]
+# Pianifica uno scenario in [!DNL Adobe Workfront Fusion]
 
 Per impostazione predefinita, uno scenario viene eseguito ogni 15 minuti. Puoi modificare questa impostazione definendo quando e con quale frequenza viene eseguito uno scenario attivato. È possibile pianificare l&#39;esecuzione di scenari di fusione ogni 5 minuti.
 
@@ -37,32 +37,32 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   <tr> 
    <td role="rowheader">Licenza [!UICONTROL Adobe Workfront Fusion]**</td> 
   <td>
-   <p>Fabbisogno di licenza corrente: No [!DNL Workfront Fusion] requisito di licenza.</p>
+   <p>Requisiti di licenza correnti: nessun requisito di licenza [!DNL Workfront Fusion].</p>
    <p>Oppure</p>
-   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro], [!UICONTROL [!DNL Workfront Fusion] per automazione lavoro]</p>
+   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione lavoro], [!UICONTROL [!DNL Workfront Fusion] per automazione lavoro]</p>
    </td>    </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
    <td>
-   <p>Fabbisogno prodotto corrente: se si dispone di [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Pianifica, la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo. [!DNL Workfront Fusion] è incluso in [!UICONTROL Ultimate] [!DNL Workfront] piano.</p>
+   <p>Fabbisogno prodotto corrente: se si dispone del piano [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], l'organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo. [!DNL Workfront Fusion] è incluso nel piano [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>Oppure</p>
-   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</p>
+   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore [!DNL Workfront].
 
-Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Pianificare uno scenario
 
-1. Nell’angolo superiore destro della pagina dei dettagli Scenario, fai clic su **[!UICONTROL Opzioni]** > **[!UICONTROL Pianificazione]**
+1. Nell&#39;angolo superiore destro della pagina dei dettagli Scenario, fare clic su **[!UICONTROL Opzioni]** > **[!UICONTROL Pianificazione]**
 
    Oppure
 
-   Fai clic su **[!UICONTROL Pianificazione]** (orologio) sul modulo trigger dello scenario.
+   Fai clic sull&#39;icona **[!UICONTROL Pianificazione]** (orologio) nel modulo di attivazione dello scenario.
 
 1. Immettere le informazioni nei campi seguenti:
 
@@ -84,7 +84,7 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Advanced scheduling]</td> 
-      <td>Puoi definire intervalli di tempo specifici durante i quali deve essere eseguito lo scenario. È possibile specificare intervalli di tempo, giorni feriali o mesi. Per ogni intervallo, fai clic su <strong>[!UICONTROL Add]</strong> e compilare i campi come descritto nel campo [!UICONTROL Run scenario].</td> 
+      <td>Puoi definire intervalli di tempo specifici durante i quali deve essere eseguito lo scenario. È possibile specificare intervalli di tempo, giorni feriali o mesi. Per ogni intervallo, fare clic su <strong>[!UICONTROL Add]</strong> e compilare i campi come descritto nel campo [!UICONTROL Run scenario].</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Start]</td> 
@@ -97,4 +97,4 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe
     </tbody> 
    </table>
 
-1. Clic **[!UICONTROL OK]** per salvare le impostazioni di pianificazione e tornare allo scenario.
+1. Fare clic su **[!UICONTROL OK]** per salvare le impostazioni della pianificazione e tornare allo scenario.

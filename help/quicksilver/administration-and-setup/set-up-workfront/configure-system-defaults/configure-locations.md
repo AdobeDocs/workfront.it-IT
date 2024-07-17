@@ -7,7 +7,8 @@ description: In qualità di amministratore di Adobe Workfront, puoi configurare 
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 1517e3e28fe536a8a72d2802919c8b8819e9ea1a
+exl-id: 69233499-fbcb-44a4-a247-d5051f9bc8b9
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 0%
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 {{highlighted-preview-article-level}}
 
-Le schede delle tariffe consentono all’organizzazione di gestire facilmente le tariffe di fatturazione per i progetti. Per ulteriori informazioni, consulta [Gestire le schede delle tariffe](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). Come un [!DNL Adobe] [!DNL Workfront] amministratore, puoi configurare le posizioni predefinite disponibili per l’assegnazione a ruoli nelle schede tariffa. In questo modo le schede dei tassi riflettono accuratamente i tassi di mercato in ogni località.
+Le schede delle tariffe consentono all’organizzazione di gestire facilmente le tariffe di fatturazione per i progetti. Per ulteriori informazioni, consulta [Gestione schede tariffarie](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). In qualità di amministratore [!DNL Adobe] [!DNL Workfront], puoi configurare le posizioni predefinite disponibili per l&#39;assegnazione alle mansioni nelle schede delle tariffe. In questo modo le schede dei tassi riflettono accuratamente i tassi di mercato in ogni località.
 
 ## Requisiti di accesso
 
@@ -39,7 +40,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica accesso a [!UICONTROL Financial Data]</p> <p><b>NOTA</b>: se ancora non disponi dell’accesso, chiedi al tuo [!DNL Workfront] amministratore se impostano restrizioni aggiuntive nel livello di accesso. Per informazioni su come [!DNL Workfront] l'amministratore può modificare il tuo livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <p>Modifica accesso a [!UICONTROL Financial Data]</p> <p><b>NOTA</b>: se non disponi ancora dell'accesso, chiedi all'amministratore di [!DNL Workfront] se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di [!DNL Workfront] può modificare il tuo livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,16 +49,15 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 {{step-1-to-setup}}
 
-1. Nel pannello a sinistra, fai clic su [!UICONTROL **Posizioni**].
-1. Clic [!UICONTROL **Aggiungi altre posizioni**].
+1. Nel pannello a sinistra, fai clic su [!UICONTROL **Percorsi**].
+1. Fai clic su [!UICONTROL **Aggiungi altre posizioni**].
 1. Immettere il nome e la descrizione della posizione.
 
    Il nome della posizione deve iniziare con una lettera maiuscola e le posizioni non possono essere duplicate.
 
 1. Fare clic all&#39;esterno dell&#39;area di immissione per salvare la posizione.
-1. Per eliminare una posizione, selezionala nell’elenco e fai clic su **Elimina** icona ![Icona Elimina](assets/delete.png).
+1. Per eliminare un percorso, selezionarlo nell&#39;elenco e fare clic sull&#39;icona **Elimina** ![Elimina](assets/delete.png).
 
 >[!NOTE]
 >
 >Le posizioni associate alle mansioni su una scheda tariffe non possono essere eliminate.
-

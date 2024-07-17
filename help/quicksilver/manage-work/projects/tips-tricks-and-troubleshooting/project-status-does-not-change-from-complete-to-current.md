@@ -2,19 +2,19 @@
 content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
-title: Lo stato del progetto non cambia da Completa a Corrente
-description: (Anche se questo può essere aggiunto come domanda frequente, ho lasciato questo come proprio articolo per motivi di ricerca-abilità)
+title: Lo stato del progetto non cambierà da Completo a Corrente
+description: (Anche se questo può essere aggiunto come domanda frequente, ho lasciato questo come suo articolo per motivi di ricerca)
 author: Alina
 feature: Work Management
 exl-id: 774c103f-8785-4d8b-83e9-a074e6518293
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 1%
+source-wordcount: '183'
+ht-degree: 0%
 
 ---
 
-# Lo stato del progetto non cambia da Completa a Corrente
+# Lo stato del progetto non cambierà da Completo a Corrente
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Although this can be added as an FAQ, I have left this as its own article for search-ability reasons)</p>
@@ -22,20 +22,20 @@ ht-degree: 1%
 
 ## Problema
 
-Lo stato del progetto non cambia da Completa a Corrente.
+Lo stato del progetto non cambia da Completo a Corrente.
 
-La causa di questo problema è l’impostazione Modalità completamento sul progetto. Se la modalità di completamento di un progetto è impostata su Automatico, lo stato verrà modificato automaticamente da Corrente a Completa al termine di tutte le attività e i problemi e la barra di completamento del progetto sarà del 100%. In questo caso, non è possibile modificare manualmente lo stato del progetto da Completa a Corrente.
+La causa di questo problema è l’impostazione della modalità di completamento sul progetto. Se la Modalità di completamento di un progetto è impostata su Automatico, lo stato del progetto cambia automaticamente da Corrente a Completo dopo il completamento di tutte le attività e le Issues e la barra della percentuale di completamento del progetto è 100%. In questo caso, non è possibile cambiare manualmente lo stato del progetto da Completo a Corrente.
 
 ## Soluzione
 
-Se la modalità di completamento di un progetto è impostata su Manuale, lo stato del progetto può essere modificato da Completa a Corrente in qualsiasi momento.
+Se la Modalità di completamento di un progetto è impostata su Manuale, lo stato del progetto può essere modificato in qualsiasi momento da Completo a Corrente.
 
 Per aggiornare la modalità di completamento di un progetto a Manuale:
 
-1. Passa al progetto da aggiornare.
-1. Fai clic sul pulsante **Altro** icona ![](assets/more-icon.png) a destra del nome del progetto, quindi fai clic su **Modifica**.
-1. Fai clic su **Progetto** **Impostazioni**.
+1. Vai al progetto che desideri aggiornare.
+1. Fai clic sull&#39;icona **Altro** ![](assets/more-icon.png) a destra del nome del progetto, quindi fai clic su **Modifica**.
+1. Fare clic su **Progetto** **Impostazioni**.
 
-1. Individua il **Modalità completamento** menu a discesa e seleziona **Manuale**.
+1. Individuare il menu a discesa **Modalità di completamento** e selezionare **Manuale**.
 
-1. Fai clic su **Salva** .
+1. Fai clic su **Salva**.

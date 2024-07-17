@@ -20,11 +20,11 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alle funzionalità del prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Bozza](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
 Questa sezione contiene i seguenti articoli:
 
-* [Introduzione alla [!DNL Workfront Proof] e [!DNL Box] integrazione](../../../workfront-proof/wp-integrations/box/introduction-to-box.md)
-* [Creare una bozza tramite il [!DNL Box] Account](../../../workfront-proof/wp-integrations/box/create-proof-box-account.md)
-* [Sincronizza [!DNL Box] Cartelle con [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md)
-* [Visualizzare il file originale di una bozza in [!DNL Box]](../../../workfront-proof/wp-integrations/box/view-proof-original-file-box.md)
+* [Introduzione all&#39;integrazione  [!DNL Workfront Proof] e [!DNL Box] ](../../../workfront-proof/wp-integrations/box/introduction-to-box.md)
+* [Crea una bozza tramite l&#39;account  [!DNL Box] ](../../../workfront-proof/wp-integrations/box/create-proof-box-account.md)
+* [Sincronizza [!DNL Box] Cartelle Con [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md)
+* [Visualizza il file originale di una bozza in [!DNL Box]](../../../workfront-proof/wp-integrations/box/view-proof-original-file-box.md)

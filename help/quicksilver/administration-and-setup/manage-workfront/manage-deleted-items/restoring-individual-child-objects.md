@@ -9,7 +9,7 @@ role: Admin
 exl-id: e2e4fbb7-5433-4d88-8e36-d82f4cc8a194
 source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -25,18 +25,18 @@ I dati dell’ambiente live sono disponibili nella Sandbox di anteprima per un m
 * Kick-Start
 * Creazione di un rapporto ed esportazione dei risultati
 
-Per ulteriori informazioni sull’esportazione di dati da Workfront, consulta [Esporta dati](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+Per ulteriori informazioni sull&#39;esportazione di dati da Workfront, vedere [Esporta dati](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 È possibile importare i dati esportati nei modi seguenti:
 
 * Manualmente, se si utilizzano i report esportati
 * In blocco, se utilizzi Kick-Start
 
-   Per ulteriori informazioni sull&#39;importazione di dati in Workfront tramite Kick-Start, vedere [Importare dati in Adobe Workfront utilizzando un modello di avvio](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Per ulteriori informazioni sull&#39;importazione di dati in Workfront tramite Kick-Start, vedere [Importare dati in Adobe Workfront utilizzando un modello Kick-Start](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 L’ambiente Sandbox di anteprima viene aggiornato durante le finestre di manutenzione nel fine settimana.
 
-Per ulteriori informazioni sulle finestre di manutenzione per l’ambiente Sandbox di anteprima, consulta [il sito dello stato dell’Adobe](https://status.adobe.com/it).
+Per ulteriori informazioni sulle finestre di manutenzione per l&#39;ambiente Sandbox di anteprima, vedi [il sito Adobe sullo stato](https://status.adobe.com/it).
 
 >[!IMPORTANT]
 >
@@ -51,7 +51,7 @@ Una volta stabilito che un oggetto eliminato deve essere ripristinato dal nostro
 * Data e ora stimate per l’eliminazione
 * GUID oggetto (se possibile)
 
-   Quando si individua il GUID di un oggetto, fare riferimento alle informazioni seguenti:
+  Quando si individua il GUID di un oggetto, fare riferimento alle informazioni seguenti:
 
    * Il GUID può essere trovato facendo riferimento a notifiche e-mail attivate interagendo con l’oggetto (assegnazioni a, commenti su, ecc.)
    * Esempio di GUID trovato alla fine di un URL: `yourdomain.my.workfront.com/issue/view?ID=568bfa96011220154c8ca4c4e691556b`

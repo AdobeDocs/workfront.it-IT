@@ -30,7 +30,7 @@ Per visualizzare gli eventi del webhook attualmente in coda, passa a Webhook nel
 ![](assets/fusion-webhook-queue-1866x567.png)
 
 
-**I webhook non utilizzati verranno disattivati o eliminati**
+**I webhook inutilizzati verranno disattivati o eliminati**
 
 Sono state apportate alcune modifiche al modo in cui Workfront Fusion gestisce i webhook inutilizzati. Ora, i webhook vengono disattivati automaticamente se si applica una delle seguenti condizioni:
 

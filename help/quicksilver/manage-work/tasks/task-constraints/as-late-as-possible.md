@@ -2,8 +2,8 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: '''Panoramica sul vincolo di attività: Il più tardi possibile"'
-description: Il più tardi possibile (ALAP) è un vincolo di attività di Adobe Workfront che posiziona l’orario di completamento dell’attività il più vicino possibile alla fine del progetto.
+title: "Panoramica sui vincoli delle attività: il più tardi possibile"
+description: Il più tardi possibile (ALAP) è un vincolo attività di Adobe Workfront che colloca il tempo di completamento dell’attività il più vicino possibile alla fine del progetto.
 author: Alina
 feature: Work Management
 exl-id: 475427d0-020b-4851-a614-c9931659e07d
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 ---
 
-# Panoramica sul vincolo di attività: Il più tardi possibile
+# Panoramica sui vincoli delle attività: Il più tardi possibile
 
-Il più tardi possibile (ALAP) è un vincolo di attività di Adobe Workfront che posiziona l’orario di completamento dell’attività il più vicino possibile alla fine del progetto.
+Il più tardi possibile (ALAP) è un vincolo attività di Adobe Workfront che colloca il tempo di completamento dell’attività il più vicino possibile alla fine del progetto.
 
-L&#39;utilizzo di questo vincolo potrebbe causare la riprogrammazione di attività precedenti o dipendenti.
+L&#39;utilizzo di questo vincolo può causare la riprogrammazione delle attività precedenti o dipendenti.
 
-Per ulteriori informazioni sulle relazioni predecessori, vedi [Utilizzare i predecessori attività](../../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md).
+Per ulteriori informazioni sulle relazioni con i predecessori, vedere [Utilizzare i predecessori delle attività](../../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md).
 
-Il vincolo predefinito è il più tardi possibile se un progetto utilizza una modalità di pianificazione di Pianificazione da Data completamento e il valore predefinito del sistema o del gruppo per la data di inizio di un&#39;attività si basa sulla data pianificata del progetto.
+Ritardo il più possibile è il vincolo predefinito se un progetto utilizza la modalità di programmazione Pianificazione dalla data di completamento e se la data di inizio di un&#39;attività è Basata sulla data pianificata del progetto.
 
-Per informazioni su dove impostare il Vincolo predefinito per una nuova attività, fare riferimento a [Configurare le preferenze relative alle attività e ai problemi a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Per informazioni su dove impostare il vincolo predefinito per una nuova attività, fare riferimento a [Configurare le preferenze relative alle attività e ai problemi a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-Per informazioni su come aggiornare il vincolo di attività su un&#39;attività, vedere [Aggiornare il vincolo di attività di un&#39;attività](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Per informazioni su come aggiornare il vincolo attività in un&#39;attività, vedere [Aggiornare il vincolo attività di un&#39;attività](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -43,13 +43,13 @@ Per informazioni su come aggiornare il vincolo di attività su un&#39;attività,
 </div>
 -->
 
-## Differenza tra l&#39;ultima ora disponibile e il più tardi possibile
+## Differenza tra l&#39;ultimo orario disponibile e il più tardi possibile
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;[! This section is duplicated in "Latest Available Time"] - inserted a snippet for both articles (Alina)) </p>
 -->
 
-L&#39;ultimo vincolo Tempo disponibile differisce dal vincolo Più tardi possibile quando esistono i seguenti criteri:
+Il vincolo Ultimo tempo disponibile è diverso dal vincolo Il più tardi possibile quando sono presenti i seguenti criteri:
 
 * Il progetto è programmato dalla data di inizio
 * Le attività del progetto hanno una relazione predecessore
@@ -57,17 +57,17 @@ L&#39;ultimo vincolo Tempo disponibile differisce dal vincolo Più tardi possibi
 
 In questa situazione:
 
-* **Ora disponibile più recente:** L&#39;utilizzo del vincolo Tempo disponibile più recente sull&#39;attività predecessore dà priorità al vincolo flessibile del successore.
+* **Ultimo tempo disponibile:** L&#39;utilizzo del vincolo Ultimo tempo disponibile nell&#39;attività predecessore dà priorità al vincolo flessibile del successore.
 
-   **Esempio:** Ad esempio, l&#39;attività A è un predecessore dell&#39;attività B. L&#39;attività A ha il vincolo Tempo disponibile più recente e l&#39;attività B ha il vincolo Il più presto possibile. In questa situazione, l’attività A è pianificata il più vicino possibile all’inizio del progetto.
+  **Esempio:** Ad esempio, l&#39;attività A è un predecessore dell&#39;attività B. L&#39;attività A ha l&#39;ultimo vincolo di tempo disponibile e l&#39;attività B ha il vincolo Il più presto possibile. In questa situazione, l&#39;Attività A è programmata il più vicino possibile all&#39;inizio del progetto.
 
-   ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
+  ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
 
-* **Il Più Tardi Possibile:** In questo scenario, l&#39;utilizzo del vincolo Più tardi possibile sull&#39;attività predecessore dà la priorità all&#39;attività predecessore.
+* **Il più tardi possibile:** In questo scenario, l&#39;utilizzo del vincolo Il più tardi possibile sull&#39;attività predecessore dà la priorità all&#39;attività predecessore.
 
-   **Esempio:** Ad esempio, l&#39;attività A è un predecessore dell&#39;attività B. L&#39;attività A ha il vincolo Più tardi possibile e l&#39;attività B ha il vincolo Il più presto possibile. In questa situazione, l’attività A è pianificata il più vicino possibile alla fine del progetto.
+  **Esempio:** Ad esempio, l&#39;attività A è un predecessore dell&#39;attività B. L&#39;attività A ha il vincolo Il più tardi possibile e l&#39;attività B ha il vincolo Il più presto possibile. In questa situazione, l&#39;Attività A è programmata il più vicino possibile alla fine del progetto.
 
-   ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
+  ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
 
  
 

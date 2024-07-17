@@ -25,7 +25,7 @@ in January 2022
 
 la settimana del 17 gennaio 2022.
 
-Per un elenco di tutte le modifiche disponibili con la versione 22.1, consulta [Panoramica sulla versione 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 22.1, consulta la [panoramica sulla versione 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Miglioramento dell’interfaccia per gli utenti che non hanno accesso per creare richieste
 
@@ -33,7 +33,7 @@ Per migliorare l’esperienza degli utenti che lavorano con le richieste, è sta
 
 Prima di questo miglioramento, il pulsante Nuova richiesta non veniva visualizzato nell’area Richieste per questi utenti. È inoltre limitato copiare e inviare una richiesta come nuova.
 
-Per ulteriori informazioni sulla creazione delle richieste, consulta [Creare e inviare richieste Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
+Per ulteriori informazioni sulla creazione di richieste, vedere [Creare e inviare richieste Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
 ## Copiare e inviare richieste
 
@@ -45,7 +45,7 @@ Con questa modifica, anche gli utenti che possono visualizzare le richieste invi
 >
 >Non è possibile copiare e inviare nuovamente i problemi inviati a una coda di richieste senza un argomento della coda prima del rilascio di questa funzionalità.
 
-Per ulteriori informazioni, consulta [Copiare e inviare richieste](../../../manage-work/requests/create-requests/copy-and-submit-requests.md).
+Per ulteriori informazioni, vedere [Copiare e inviare richieste](../../../manage-work/requests/create-requests/copy-and-submit-requests.md).
 
 ## Esperienza aggiornata del pannello Riepilogo nella sezione Inviata dell’area Richieste
 
@@ -55,6 +55,6 @@ Per ulteriori informazioni, consulta [Copiare e inviare richieste](../../../mana
 
 Per migliorare la visibilità e l’interazione con il pannello Riepilogo, è stata aggiunta un’etichetta all’icona Apri riepilogo nella sezione Inviata dell’area Richieste. L’etichetta ora è dinamica e si aggiorna a seconda che il pannello sia aperto o chiuso.
 
-Quando si apre il pannello Riepilogo senza prima selezionare una richiesta, ora viene visualizzata un’immagine più semplice che indica chiaramente all’utente di selezionare un elemento prima di aprire il pannello. Per ulteriori informazioni, consulta [Individuare le richieste inviate](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+Quando si apre il pannello Riepilogo senza prima selezionare una richiesta, ora viene visualizzata un’immagine più semplice che indica chiaramente all’utente di selezionare un elemento prima di aprire il pannello. Per ulteriori informazioni, vedere [Individuare le richieste inviate](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-Con questa modifica, è stato aggiornato anche il pannello Riepilogo per attività, problemi e documenti. Per informazioni sul pannello Riepilogo, consulta [Panoramica di riepilogo](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+Con questa modifica, è stato aggiornato anche il pannello Riepilogo per attività, problemi e documenti. Per informazioni sul pannello Riepilogo, vedere [Panoramica di riepilogo](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).

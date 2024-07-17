@@ -7,7 +7,7 @@ feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
 source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '731'
 ht-degree: 0%
 
 ---
@@ -40,12 +40,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Panoramica sull&#39;approvazione del Business Case
 
@@ -56,7 +56,7 @@ Quando si approva un caso di business di un progetto, considera quanto segue:
 * Per verificare che i progetti siano in attesa di approvazione, è necessario passare manualmente ai singoli progetti che richiedono l&#39;approvazione del Business Case. Non esiste un meccanismo di notifica Workfront che avvisa gli utenti che devono approvare il Business Case di un progetto.
 * È possibile trovare i progetti in attesa dell&#39;approvazione del Business Case creando un report di progetto o accedendo al portfolio a cui sono associati. 
 
-  Per ulteriori informazioni sui Portfoli, consulta l’articolo [Panoramica del Portfolio in Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+  Per ulteriori informazioni sui Portfoli, vedere l&#39;articolo [Panoramica sui Portfoli in Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 ## Approvare il Business Case creando un report di progetto
 
@@ -66,17 +66,17 @@ Per creare un report per i progetti in attesa di approvazione dei relativi casi 
 
 1. Crea un rapporto per i progetti.
 
-   Per ulteriori informazioni sulla creazione di rapporti, consulta l’articolo [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   Per ulteriori informazioni sulla creazione di report, vedere l&#39;articolo [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. Seleziona la **Visualizza** del rapporto, quindi fai clic su **Aggiungi colonna**.
+1. Seleziona la scheda **Visualizza** del report, quindi fai clic su **Aggiungi colonna**.
 
-1. Inizia a digitare &quot;Status&quot; nel **Mostra in questa colonna** e selezionare questo campo quando viene visualizzato nell&#39;elenco.
+1. Inizia a digitare &quot;Status&quot; nel campo **Mostra in questa colonna** e seleziona questo campo quando viene visualizzato nell&#39;elenco.
 
     In questa colonna verrà visualizzato lo stato dei progetti.
 
-1. Seleziona la **Filtri** del rapporto, quindi fai clic su **Aggiungere una regola di filtro**.
+1. Seleziona la scheda **Filtri** del rapporto, quindi fai clic su **Aggiungi una regola filtro**.
 
-1. Inizia a digitare &quot;Status&quot; nel **Mostra solo progetti in cui...** e selezionarlo quando viene visualizzato nell&#39;elenco.
+1. Inizia a digitare &quot;Status&quot; in **Mostra solo i progetti in cui il campo ...** e selezionalo quando viene visualizzato nell&#39;elenco.
 1. Seleziona **Uguale** per il modificatore di filtro.
 1. Inizia a digitare &quot;Richiesto&quot; nel campo disponibile. 
 
@@ -108,19 +108,19 @@ Per creare un report per i progetti in attesa di approvazione dei relativi casi 
 
    per visualizzare il punto in cui si è designati come manager del Portfolio. 
 
-1. Clic **Salva+Chiudi**.
+1. Fai clic su **Salva+Chiudi**.
 
-   Tutti i progetti nel report sono nello stato **Richiesto**.
+   Tutti i progetti nel report sono in stato **Richiesto**.
 
 1. Fare clic sul nome di un progetto nel report per aprirlo.
-1. Clic **Business Case** nel pannello a sinistra.
-1. Clic **Approva** o **Rifiuta** nell&#39;area Riepilogo caso di business per approvare o rifiutare il caso di business.
+1. Fai clic su **Business Case** nel pannello a sinistra.
+1. Fare clic su **Approva** o **Rifiuta** nell&#39;area Riepilogo caso di business per approvare o rifiutare il caso di business.
 
    ![](assets/business-case-summary-with-rp-information--1-.png)
 
    Lo stato del progetto viene modificato in **Approvato** se il Business Case viene approvato.
 
-   Lo stato del progetto viene modificato in **Rifiutato** se il Business Case viene rifiutato.
+   Lo stato del progetto viene modificato in **Rifiutato** se il caso aziendale viene rifiutato.
 
    >[!NOTE]
    >
@@ -128,4 +128,4 @@ Per creare un report per i progetti in attesa di approvazione dei relativi casi 
 
 ## Approvare il Business Case accedendo ai progetti richiesti in un portfolio
 
-Per ulteriori informazioni sulla revisione dei progetti richiesti, consulta l’articolo [Esamina progetti richiesti](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md).
+Per ulteriori informazioni sulla revisione dei progetti richiesti, vedere l&#39;articolo [Revisione dei progetti richiesti](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md).

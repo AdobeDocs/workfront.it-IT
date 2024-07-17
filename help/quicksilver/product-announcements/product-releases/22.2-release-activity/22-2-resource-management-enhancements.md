@@ -25,7 +25,7 @@ in January 2022
 
 la settimana del 4 aprile 2022.
 
-Per un elenco di tutte le modifiche disponibili con la versione 22.2, consulta [Panoramica sulla versione 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 22.2, vedere [Panoramica sulla versione 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Miglioramenti alla navigazione del Bilanciatore dei carichi di lavoro
 
@@ -37,7 +37,7 @@ Per migliorare la tua esperienza nell’utilizzo del Bilanciatore dei carichi di
 * Il pannello sinistro è ora ridimensionabile.
 * È ora disponibile una modalità a schermo intero per il Bilanciatore dei carichi di lavoro.
 
-Per ulteriori informazioni sulla navigazione nel Bilanciatore dei carichi di lavoro, consulta [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Per ulteriori informazioni sulla navigazione nel Bilanciatore dei carichi di lavoro, vedere [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Accedere alle assegnazioni avanzate nel Bilanciatore dei carichi di lavoro
 
@@ -49,11 +49,11 @@ Per ulteriori informazioni, consulta [Assegnare il lavoro manualmente utilizzand
 
 Per fornire informazioni più precise negli strumenti di gestione delle risorse, è stata modificata la formula utilizzata da Workfront per calcolare la disponibilità dell&#39;utente quando l&#39;amministratore di Workfront seleziona La pianificazione predefinita nelle preferenze di gestione delle risorse. Con il nuovo aggiornamento, Workfront utilizza la seguente formula per calcolare la disponibilità dell’utente:
 
-Ore disponibili utente = (Ore predefinite - Eccezioni) &#42; FTE - Ore di inattività
+Ore disponibili utente = (Ore programmate predefinite - Eccezioni) &#42; FTE - Ore di inattività
 
 Prima di questo aggiornamento, Workfront utilizzava la formula seguente per calcolare la disponibilità dell&#39;utente quando veniva selezionata la pianificazione predefinita:
 
 Ore disponibili utente = (Ore programmate predefinite - (Eccezioni programmate + Ore di inattività)) &#42; Valore FTE utente
 
-Per ulteriori informazioni, consulta [Configurare le preferenze di Gestione risorse](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+Per ulteriori informazioni, vedere [Configurare le preferenze di Gestione risorse](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 

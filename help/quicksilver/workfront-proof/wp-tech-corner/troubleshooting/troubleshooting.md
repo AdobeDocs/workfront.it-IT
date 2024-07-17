@@ -20,11 +20,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alle funzionalità del prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Bozza](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
 Questa sezione contiene i seguenti articoli:
 
 * [Risoluzione dei problemi - font di interfaccia danneggiato nel visualizzatore di bozze su Mac](../../../workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
-* [Effetti della cache e dei cookie [!DNL Workfront Proof]](../../../workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
-* [Problemi di velocità in [!DNL Workfront Proof]](../../../workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
-* [Risoluzione dei problemi - [!DNL Workfront Proof] visualizzatore di bozze](../../../workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
+* [Comprendere l&#39;effetto della cache e dei cookie [!DNL Workfront Proof]](../../../workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
+* [Problemi di velocità in  [!DNL Workfront Proof]](../../../workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
+* [Risoluzione dei problemi -  [!DNL Workfront Proof] visualizzatore di verifica](../../../workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)

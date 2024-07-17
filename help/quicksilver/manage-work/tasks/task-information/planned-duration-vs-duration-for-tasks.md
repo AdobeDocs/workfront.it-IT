@@ -2,37 +2,37 @@
 content-type: reference
 product-area: projects
 navigation-topic: task-information
-title: Differenza tra la durata prevista e la durata delle attività
-description: La durata è la quantità di tempo tra la data di inizio pianificata e la data di completamento pianificata di un elemento di lavoro. Le attività hanno una Durata e una Durata pianificata in Adobe Workfront, a seconda del Tipo di durata dell’attività.
+title: Differenza tra durata pianificata e durata per le attività
+description: Durata è il tempo che intercorre tra l'inizio pianificato e la data di completamento pianificata di un elemento di lavoro. Le attività hanno una Durata e una Durata Pianificata in Adobe Workfront, a seconda del Tipo di Durata dell’attività.
 author: Alina
 feature: Work Management
 exl-id: 183a3334-b4af-4f45-8e72-9e82ff3862a0
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
 
-# Differenza tra la durata prevista e la durata delle attività
+# Differenza tra durata pianificata e durata per le attività
 
-La durata è la quantità di tempo tra la data di inizio pianificata e la data di completamento pianificata di un elemento di lavoro. Le attività hanno una Durata e una Durata pianificata in Adobe Workfront, a seconda del Tipo di durata dell’attività.
+Durata è il tempo che intercorre tra l&#39;inizio pianificato e la data di completamento pianificata di un elemento di lavoro. Le attività hanno una Durata e una Durata Pianificata in Adobe Workfront, a seconda del Tipo di Durata dell’attività.
 
-I problemi e i progetti non possono essere associati a un tipo di durata e hanno solo una durata.
+I problemi e i progetti non possono essere associati a un Tipo di durata e hanno solo una Durata.
 
 ## Durata attività
 
-Per le attività, in genere vengono visualizzati lo stesso valore in Durata e Durata pianificata: il periodo di tempo tra la data di inizio pianificata e la data di completamento pianificata di un&#39;attività.
+Per le attività, la Durata e la Durata pianificata in genere mostrano lo stesso valore: l&#39;intervallo di tempo tra la Data inizio pianificata e la Data completamento pianificata di un&#39;attività.
 
-Quando il tipo di durata dell&#39;attività è Basato su sforzo, la durata pianificata diminuisce man mano che si aggiungono risorse all&#39;attività.
+Quando il tipo di durata dell&#39;attività è Basato sull&#39;impegno, la durata pianificata diminuisce man mano che si aggiungono risorse all&#39;attività.
 
-**Esempio:** Se un&#39;attività con un tipo di sforzo di durata ha una durata di 3 giorni e si assegna all&#39;attività una risorsa con una pianificazione a tempo pieno, anche la durata prevista è di 3 giorni.
+**Esempio:** se un&#39;attività con un tipo di durata impostato su Impegno ha una durata di 3 giorni e si assegna all&#39;attività una risorsa con una pianificazione a tempo pieno, anche la durata pianificata è di 3 giorni.
 
-Se si assegnano tre risorse con una pianificazione a tempo pieno alla stessa attività, la Durata rimane di 3 giorni, ma la Durata pianificata diventa di 1 giorno. La durata pianificata cambia anche le date di inizio e completamento pianificato dell&#39;attività, in modo da riflettere la nuova durata pianificata. Di conseguenza, viene interessata anche la timeline del progetto.
-È possibile utilizzare il tipo di durata guidata sforzo quando si assegna un&#39;attività a più risorse. Questo riduce il tempo necessario per completare il lavoro sull’attività.
+Se si assegnano tre risorse con una programmazione a tempo pieno alla stessa attività, la Durata rimane 3 giorni, ma la Durata pianificata diventa 1 giorno. Con Durata pianificata vengono modificate anche le date di Inizio pianificato e Completamento pianificato dell&#39;attività, in modo da riflettere la nuova Durata pianificata. Di conseguenza, anche la timeline del progetto ne risente.
+È possibile utilizzare il Tipo di durata basata sulle risorse quando si assegna un&#39;attività a più risorse. In questo modo si riduce il tempo necessario per il completamento del lavoro sull&#39;attività.
 
-Per ulteriori informazioni sul tipo di durata guidata sforzo, consulta [Panoramica sul tipo di durata: Guida allo sforzo](../../../manage-work/tasks/taskdurtn/effort-driven.md).
+Per ulteriori informazioni sul tipo di durata basata sulle risorse, vedere [Panoramica sul tipo di durata: basata sulle risorse](../../../manage-work/tasks/taskdurtn/effort-driven.md).
 
 ## Problema e durata del progetto
 
-I problemi e i progetti hanno un solo valore di Durata, corrispondente alla differenza tra la Data inizio prevista e la Data completamento pianificato rispettivamente del problema e del progetto.
+I problemi e i progetti hanno un solo valore Durata, che è la differenza tra la Data inizio pianificata e la Data completamento pianificata del problema e del progetto, rispettivamente.

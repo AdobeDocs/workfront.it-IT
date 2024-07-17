@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
 title: Feed aggiornamenti tracciati dal sistema
-description: Adobe Workfront registra l’attività che avviene su determinati oggetti nelle [!UICONTROL Aggiornamenti] area. Un aggiornamento del sistema include una breve nota che descrive il tipo di modifica apportata all'oggetto. [!DNL Workfront] gli amministratori possono definire il tipo di modifiche che il sistema deve tracciare nel [!UICONTROL Aggiornamenti] sezione.
+description: Adobe Workfront registra l'attività in corso su alcuni oggetti nella relativa area [!UICONTROL Aggiornamenti]. Un aggiornamento del sistema include una breve nota che descrive il tipo di modifica apportata all'oggetto. [!DNL Workfront] gli amministratori possono definire il tipo di modifiche di cui deve tenere traccia il sistema nella sezione [!UICONTROL Aggiornamenti].
 author: Alina
 feature: System Setup and Administration
 role: Admin
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <!--Audited: April, 2024-->
 
-Adobe Workfront registra automaticamente l’attività che ha luogo su determinati oggetti nelle [!UICONTROL Aggiornamenti] come aggiornamento del sistema. Un aggiornamento del sistema include una breve nota che descrive il tipo di modifica apportata all&#39;oggetto. [!DNL Workfront] gli amministratori possono definire il tipo di modifiche che il sistema deve tracciare nel [!UICONTROL Aggiornamenti] sezione.
+Adobe Workfront registra automaticamente come aggiornamento di sistema l&#39;attività che si verifica su determinati oggetti nella sezione [!UICONTROL Aggiornamenti]. Un aggiornamento del sistema include una breve nota che descrive il tipo di modifica apportata all&#39;oggetto. Gli amministratori di [!DNL Workfront] possono definire il tipo di modifiche che il sistema deve monitorare nella sezione [!UICONTROL Aggiornamenti].
 
 Questa sezione contiene i seguenti articoli:
 

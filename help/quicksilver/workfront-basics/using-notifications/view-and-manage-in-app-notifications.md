@@ -1,29 +1,28 @@
 ---
 navigation-topic: notifications
 title: Visualizzare e gestire le notifiche in-app
-description: "Le notifiche in-app ti tengono informato su due tipi di informazioni: notifiche di annuncio e notifiche degli elementi di lavoro. Sono disponibili sia dall’applicazione web che dall’app mobile."
+description: "Le notifiche in-app ti mantengono informato su due tipi di informazioni: notifiche di annuncio e notifiche di elementi di lavoro. Sono disponibili sia dall’app web che dall’app mobile."
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c5da114-33cc-422b-84f4-67bc7fcd67c6
 source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '944'
 ht-degree: 0%
 
 ---
 
 # Visualizzare e gestire le notifiche in-app
 
-Le notifiche in-app ti tengono informato su due tipi di informazioni: notifiche di annuncio e notifiche degli elementi di lavoro. Sono disponibili sia dall’applicazione web che dall’app mobile.
+Le notifiche in-app ti mantengono informato su due tipi di informazioni: notifiche di annuncio e notifiche di elementi di lavoro. Sono disponibili sia dall’applicazione web che dall’app mobile.
 
-Per un elenco dell&#39;elemento di lavoro e delle notifiche di annuncio che puoi ricevere, vedi [Panoramica delle notifiche in-app](../../workfront-basics/using-notifications/in-app-notifications-overview.md).
+Per un elenco dell&#39;elemento di lavoro e delle notifiche di annuncio che puoi ricevere, consulta [Panoramica delle notifiche in-app](../../workfront-basics/using-notifications/in-app-notifications-overview.md).
 
 >[!NOTE]
 >
->* Le notifiche in-app per le attività di lavoro non sono collegate alle notifiche e-mail in [!DNL Workfront]. Per ulteriori informazioni, consulta [[!DNL Adobe Workfront] Notifiche](../../workfront-basics/using-notifications/wf-notifications.md)
+>* Le notifiche in-app per le attività di lavoro non sono collegate alle notifiche e-mail in [!DNL Workfront]. Per ulteriori informazioni, vedere [[!DNL Adobe Workfront] notifiche](../../workfront-basics/using-notifications/wf-notifications.md)
 >* Le notifiche in-app non possono essere personalizzate.
 >
-
 
 
 
@@ -43,116 +42,116 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>[!UICONTROL Request] o superiore</p> </td> 
+   <td> <p>[!UICONTROL Request] o versione successiva</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per sapere quale piano o tipo di licenza hai, contatta il tuo [!DNL Workfront] amministratore.
+Per conoscere il piano o il tipo di licenza disponibile, contattare l&#39;amministratore [!DNL Workfront].
 
-## Visualizza notifiche
+## Visualizzare le notifiche
 
-Icona numerata nell’angolo superiore destro di [!DNL Workfront] visualizza il numero di notifiche non ancora riconosciute.
+L&#39;icona numerata nell&#39;angolo superiore destro di [!DNL Workfront] mostra il numero di notifiche non ancora confermate.
 
 >[!NOTE]
 >
->Puoi visualizzare tutte le notifiche in-app sia dall’applicazione web che dall’app mobile. Solo alcune di queste notifiche vengono inviate come notifiche push nell’app mobile. Per ulteriori informazioni sulle notifiche nell’app mobile, vedi [[!DNL Adobe Workfront] per iOS](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) o [[!DNL Adobe Workfront] per Android](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).
+>Puoi visualizzare tutte le notifiche in-app sia dall’applicazione web che dall’app mobile. Solo alcune di queste notifiche vengono inviate come notifiche push nell’app mobile. Per ulteriori informazioni sulle notifiche nell&#39;app mobile, vedere [[!DNL Adobe Workfront] per iOS](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) o [[!DNL Adobe Workfront] per Android](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).
 
-1. Fai clic sull’icona numerata ![](assets/notifications-icon-jewel.jpg) nell&#39;angolo superiore destro di [!DNL Workfront] per aprire l’elenco delle notifiche.
+1. Fai clic sull&#39;icona numerata ![](assets/notifications-icon-jewel.jpg) nell&#39;angolo superiore destro di [!DNL Workfront] per aprire l&#39;elenco delle notifiche.
 
-   Le notifiche non lette più recenti vengono visualizzate sotto l’icona numerata, mentre quelle più recenti sono nella parte superiore.
+   Le notifiche non lette più di recente vengono visualizzate sotto l’icona numerata, con la più recente in alto.
 
    ![Notifiche recenti non lette](assets/qs-notifications-350x330.png)
 
-   In un elenco scorrevole vengono visualizzate fino a 80 notifiche. Per ulteriori informazioni, fai clic su **[!UICONTROL Tutte le notifiche]** in fondo all’elenco per visualizzare fino a 100 notifiche. Le notifiche vengono eliminate automaticamente dopo 30 giorni.
+   In un elenco scorrevole vengono visualizzate fino a 80 notifiche. Per ulteriori informazioni, puoi fare clic su **[!UICONTROL Tutte le notifiche]** nella parte inferiore dell&#39;elenco per visualizzare fino a 100 notifiche. Le notifiche vengono eliminate automaticamente dopo 30 giorni.
 
-   Nella parte inferiore di ogni notifica, il [!UICONTROL tipo di notifica] e una corrispondente icona di identificazione. Questi consentono di identificare cosa è successo al [!DNL Workfront] elemento menzionato e avvisa se si dispone di un elemento azione:
+   Nella parte inferiore di ogni notifica vengono visualizzati il tipo di notifica  e un&#39;icona di identificazione corrispondente. Queste informazioni consentono di identificare l&#39;evento dell&#39;elemento [!DNL Workfront] menzionato e di avvisarti se disponi di un elemento azione:
 
-   * Le notifiche di annuncio sono indicate dal [!UICONTROL annunci] icona. ![](assets/announcement.png)
+   * Le notifiche di notifica sono indicate dall&#39;icona [!UICONTROL annunci]. ![](assets/announcement.png)
 
-   * Tutte le altre notifiche sono indicate da icone che suggeriscono il tipo di elemento di lavoro a cui sono associati.
+   * Tutte le altre notifiche sono indicate da icone che suggeriscono il tipo di elemento di lavoro a cui sono associate.
 
-      ![Icone di notifica](assets/ntfcntype&icon-350x330.png)
+     ![Icone di notifica](assets/ntfcntype&icon-350x330.png)
 L’icona a destra del punto blu mostra uno dei seguenti elementi:
 
-   * La foto del profilo della persona che ha digitato le informazioni, in genere un aggiornamento su [!DNL Workfront] oggetto su cui si sta lavorando.
-   * La [!DNL Workfront] , se la notifica è un annuncio di sistema.
+   * La foto del profilo della persona che ha digitato le informazioni, in genere un aggiornamento su un oggetto [!DNL Workfront] su cui stai lavorando.
+   * Il logo [!DNL Workfront], se la notifica è un annuncio di sistema.
 
 
-1. (Facoltativo) Per visualizzare la data in cui hai ricevuto una notifica, passa il mouse sull’indicatore del giorno o dell’ora nell’angolo in alto a destra della notifica.
+1. (Facoltativo) Se desideri visualizzare la data in cui hai ricevuto una notifica, passa il puntatore del mouse sull&#39;indicatore del giorno o dell&#39;ora nell&#39;angolo superiore destro della notifica.
 
    ![](assets/hoveroverdate-350x437.png)
 
-1. Fai clic sulla notifica da visualizzare:
+1. Fare clic sulla notifica che si desidera visualizzare:
 
-   * Se la notifica su cui fai clic riguarda un elemento di lavoro, la [!DNL Workfront] viene aperto l’oggetto , con il messaggio completo **[!UICONTROL Aggiornamenti]** scheda . È possibile **[!UICONTROL Avvia una nuova area di aggiornamento]** o **[!UICONTROL Digita una risposta]**.
+   * Se la notifica su cui fai clic riguarda un elemento di lavoro, viene aperto l&#39;oggetto [!DNL Workfront] associato, con il messaggio completo nella scheda **[!UICONTROL Aggiornamenti]**. È possibile **[!UICONTROL Avviare una nuova area di aggiornamento]** o **[!UICONTROL Digitare una risposta]**.
 
-      ![](assets/object-opens-click-work-ntfctn-qs-350x183.png)
+     ![](assets/object-opens-click-work-ntfctn-qs-350x183.png)
 
-   * Se la notifica su cui fai clic è per un annuncio ![](assets/announcement.png), **[!UICONTROL Annunci]** viene visualizzata una pagina in cui sono elencati tutti gli annunci. L’annuncio che hai fatto clic viene selezionato a sinistra e il messaggio viene visualizzato a destra.
+   * Se la notifica su cui fai clic è relativa a un annuncio ![](assets/announcement.png), verrà visualizzata la pagina **[!UICONTROL Annunci]**, in cui sono elencati tutti gli annunci. L’annuncio su cui hai fatto clic viene selezionato a sinistra e il messaggio viene visualizzato a destra.
 
-      ![](assets/announcements-page-qs-350x210.png)
+     ![](assets/announcements-page-qs-350x210.png)
 
-1. (Facoltativo) Scarica gli allegati inclusi nel messaggio di notifica o scarica tutti gli allegati come file ZIP.
+1. (Facoltativo) Scarica tutti gli allegati inclusi nel messaggio di notifica o scarica tutti gli allegati come file ZIP.
 
    ![](assets/download-attachments-350x106.png)
 
-## Conferma notifiche
+## Conferma le notifiche
 
-Dopo aver visualizzato le notifiche, puoi riconoscerle per cancellarle dal [!UICONTROL Notifiche] elencare o lasciare che rispondano in un secondo momento.
+Dopo aver visualizzato le notifiche, puoi confermarne la cancellazione dall&#39;elenco [!UICONTROL Notifiche] o lasciare che rispondano in un secondo momento.
 
-Sulla [!UICONTROL Notifiche] Puoi visualizzare le notifiche correnti e cancellate. Puoi anche riportare le notifiche eliminate al [!UICONTROL Notifiche] elenco.
+Nella pagina [!UICONTROL Notifiche] è possibile visualizzare le notifiche correnti e cancellate. Puoi anche riportare le notifiche cancellate nell&#39;elenco [!UICONTROL Notifiche].
 
-* [Conferma notifiche](#acknowledge-notifications)
-* [Visualizza notifiche riconosciute](#view-acknowledged-notifications)
+* [Conferma le notifiche](#acknowledge-notifications)
+* [Visualizza notifiche confermate](#view-acknowledged-notifications)
 
-### Conferma notifiche
+### Conferma le notifiche
 
-Se fai clic sull’icona numerata per aprire l’elenco Notifiche, non viene automaticamente riconosciuto che hai letto tutte le notifiche.
+Facendo clic sull’icona numerata per aprire l’elenco Notifiche non si riconosce automaticamente di aver letto tutte le notifiche.
 
-Per confermare una notifica e cancellarla dall’elenco Notifiche:
+Per confermare una notifica e cancellarla dall&#39;elenco Notifiche:
 
-1. Fai clic sull’icona numerata ![](assets/notifications-icon-jewel.jpg) nell&#39;angolo superiore destro di [!DNL Workfront] per aprire l’elenco delle notifiche.
+1. Fai clic sull&#39;icona numerata ![](assets/notifications-icon-jewel.jpg) nell&#39;angolo superiore destro di [!DNL Workfront] per aprire l&#39;elenco delle notifiche.
 1. Esegui una delle operazioni seguenti:
 
-   * Fai clic sul punto blu nell’angolo in alto a sinistra della notifica.
-   * Se la notifica riguarda un elemento di lavoro (anziché un annuncio), fare clic sulla notifica per passare all&#39;elemento.
-   * Se la notifica è per un annuncio, fai clic sulla notifica per aprire la **[!UICONTROL Annunci]** pagina.
-   * Fai clic su **[!UICONTROL Tutte le notifiche]** nell’angolo in basso a destra dell’elenco di notifiche per visualizzare il **[!UICONTROL Notifiche]** , quindi fai clic su **[!UICONTROL Contrassegna tutto come visto]** nell&#39;angolo in alto a destra di Workfront.
+   * Fai clic sul punto blu nell’angolo superiore sinistro della notifica.
+   * Se la notifica si riferisce a un elemento di lavoro (anziché a un annuncio), fare clic sulla notifica per passare all&#39;elemento.
+   * Se la notifica è per un annuncio, fare clic sulla notifica per aprire la pagina **[!UICONTROL Annunci]**.
+   * Fai clic su **[!UICONTROL Tutte le notifiche]** nell&#39;angolo inferiore destro dell&#39;elenco delle notifiche per visualizzare la pagina **[!UICONTROL Notifiche]**, quindi fai clic su **[!UICONTROL Contrassegna tutto come visto]** nell&#39;angolo superiore destro di Workfront.
 
-### Visualizza notifiche riconosciute
+### Visualizza notifiche confermate
 
-Per visualizzare le notifiche già riconosciute:
+Per visualizzare le notifiche già confermate:
 
-1. Fai clic sull’icona numerata ![](assets/notifications-icon-jewel.jpg) nell&#39;angolo superiore destro di [!DNL Workfront] per aprire l’elenco delle notifiche.
-1. Fai clic su **[!UICONTROL Tutte le notifiche]** nell’angolo in basso a destra dell’elenco delle notifiche.
-1. Sulla **[!UICONTROL Notifiche]** pagina visualizzata, scorri verso il basso per visualizzare le notifiche passate.
-1. (Facoltativo) Per riportare una notifica riconosciuta nell’elenco delle notifiche, fai clic sul cerchio blu accanto alla notifica.
+1. Fai clic sull&#39;icona numerata ![](assets/notifications-icon-jewel.jpg) nell&#39;angolo superiore destro di [!DNL Workfront] per aprire l&#39;elenco delle notifiche.
+1. Fai clic su **[!UICONTROL Tutte le notifiche]** nell&#39;angolo inferiore destro dell&#39;elenco delle notifiche.
+1. Nella pagina **[!UICONTROL Notifiche]** visualizzata, scorri verso il basso per visualizzare le notifiche precedenti.
+1. (Facoltativo) Per riportare una notifica confermata nell’elenco delle notifiche, fai clic sul cerchio blu accanto alla notifica.
 
 ## Eliminare una notifica di annuncio
 
-Non è possibile eliminare le notifiche relative agli elementi di lavoro. [!DNL Workfront] elimina tutte le notifiche (lette o non lette) dopo 30 giorni.
+Impossibile eliminare le notifiche degli elementi di lavoro. [!DNL Workfront] elimina tutte le notifiche (lette o non lette) dopo 30 giorni.
 
-Tuttavia, puoi eliminare le notifiche di un annuncio. È inoltre possibile accedere a un annuncio eliminato entro 30 giorni dall’eliminazione. [!DNL Workfront] non elimina automaticamente gli annunci.
+Tuttavia, puoi eliminare le notifiche di un annuncio. Puoi anche accedere a un annuncio che hai eliminato entro 30 giorni dalla sua eliminazione. [!DNL Workfront] non elimina automaticamente gli annunci.
 
 * [Eliminare un annuncio](#delete-an-announcement)
 * [Accedere e ripristinare un annuncio eliminato di recente](#access-and-restore-an-announcement-you-deleted-recently)
 
 ### Eliminare un annuncio
 
-1. Fai clic sull’icona numerata ![](assets/notifications-icon-jewel.jpg) nell&#39;angolo superiore destro di [!DNL Workfront] per aprire l’elenco delle notifiche.
+1. Fai clic sull&#39;icona numerata ![](assets/notifications-icon-jewel.jpg) nell&#39;angolo superiore destro di [!DNL Workfront] per aprire l&#39;elenco delle notifiche.
 1. Fai clic su **[!UICONTROL Annunci]** o **[!UICONTROL Visualizza tutti gli annunci]**.
 
-1. Sulla **[!DNL Announcements]** Fare clic sull&#39;annuncio da eliminare nell&#39;elenco a sinistra, quindi fare clic su **[!UICONTROL Elimina]** nell’angolo superiore destro della pagina.
+1. Nella pagina **[!DNL Announcements]** visualizzata, fai clic sull&#39;annuncio da eliminare nell&#39;elenco a sinistra, quindi fai clic su **[!UICONTROL Elimina]** nell&#39;angolo superiore destro della pagina.
 
 ### Accedere e ripristinare un annuncio eliminato di recente
 
 Puoi accedere a una notifica eliminata negli ultimi 30 giorni.
 
-1. Fai clic sull’icona numerata ![](assets/notifications-icon-jewel.jpg) nell&#39;angolo superiore destro di [!DNL Workfront] per aprire l’elenco delle notifiche.
+1. Fai clic sull&#39;icona numerata ![](assets/notifications-icon-jewel.jpg) nell&#39;angolo superiore destro di [!DNL Workfront] per aprire l&#39;elenco delle notifiche.
 1. Fai clic su **[!UICONTROL Annunci]** o **[!UICONTROL Visualizza tutti gli annunci]**.
 
-1. In **[!UICONTROL Annunci]** pagina visualizzata, fai clic su **[!UICONTROL Eliminato]**.
+1. Nella pagina **[!UICONTROL Annunci]** visualizzata, fai clic su **[!UICONTROL Eliminati]**.
 
 1. Fare clic sul messaggio che si desidera visualizzare.
-1. (Facoltativo) Per ripristinare l&#39;annuncio, fai clic su **[!UICONTROL Sposta alla casella in entrata]** sopra e a destra del corpo dell&#39;annuncio.
+1. (Facoltativo) Se desideri ripristinare l&#39;annuncio, fai clic su **[!UICONTROL Sposta nella casella in entrata]** sopra e a destra del corpo dell&#39;annuncio.

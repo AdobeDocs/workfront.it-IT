@@ -44,7 +44,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza disponibile, contattare l&#39;amministratore Workfront o Workfront Proof.
+&#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
 
 ## Creare una bozza per il contenuto interattivo in un file ZIP
 
@@ -63,10 +63,10 @@ Dopo aver aggiunto il contenuto interattivo in un file ZIP a una bozza, Adobe Wo
    * Nel caso di file ZIP creati in iOS, lo strumento identifica automaticamente la cartella corretta in cui viene inserito il contenuto.
 
 1. Vai al progetto, all’attività o al problema in cui desideri caricare il file ZIP.
-1. Clic **Documenti** nel pannello a sinistra .
-1. Clic **Aggiungi nuovo**, quindi fai clic su **Bozza** nel menu visualizzato.
-1. In **Aggiungi file** , trascinare o sfogliare il file ZIP necessario.
-1. Clic **Crea bozza** per creare una bozza semplice senza alcun processo di revisione.\
+1. Fai clic su **Documenti** nel pannello a sinistra.
+1. Fai clic su **Aggiungi nuovo**, quindi fai clic su **Bozza** nel menu visualizzato.
+1. Nella sezione **Aggiungi file**, trascina o sfoglia il file ZIP necessario.
+1. Fai clic su **Crea bozza** per creare una bozza semplice senza processo di revisione.\
    oppure\
    Continua con la configurazione di una bozza avanzata:
 

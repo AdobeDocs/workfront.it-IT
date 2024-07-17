@@ -9,8 +9,8 @@ feature: Reports and Dashboards
 exl-id: aea955b1-581a-4ce0-8634-863ba1083c05
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 0%
+source-wordcount: '204'
+ht-degree: 1%
 
 ---
 
@@ -43,22 +43,22 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Filtrare i successori tra progetti
 
 Per applicare questo filtro:
 
 1. Consente di passare a un elenco di attività.
-1. Dalla sezione **Filtro** menu a discesa, seleziona **Nuovo filtro**.
+1. Dal menu a discesa **Filtro**, selezionare **Nuovo filtro**.
 
-1. Clic **Passa alla modalità testo**.
-1. In **Impostare le regole di filtro per il report** area, incolla il seguente codice:
+1. Fare clic su **Passa alla modalità testo**.
+1. Nell&#39;area **Imposta regole filtro per il report**, incolla il seguente codice:
    <pre>percentComplete=100<br>percentComplete_Mod=ne<br>successorsMM:projectID=FIELD:projectID<br>successorsMM:projectID_Mod=ne</pre>
 
-1. Clic **Salva filtro**.
+1. Fai clic su **Salva filtro**.

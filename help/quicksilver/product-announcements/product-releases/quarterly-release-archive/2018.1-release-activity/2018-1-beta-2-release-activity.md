@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Attività sulla versione 2018.1 Beta 2
-description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.1 Beta 2. La funzionalità in questa pagina è stata resa disponibile nell’ambiente di anteprima il 14 dicembre 2017. Sarà disponibile nell’ambiente di produzione a marzo 2018.
+title: Attività sulla versione 2018.1 di Beta 2
+description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.1 di Beta 2. La funzionalità in questa pagina è stata resa disponibile nell’ambiente di anteprima il 14 dicembre 2017. Sarà disponibile nell’ambiente di produzione a marzo 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,30 +14,30 @@ ht-degree: 2%
 
 ---
 
-# Attività sulla versione 2018.1 Beta 2
+# Attività sulla versione 2018.1 di Beta 2
 
-Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.1 Beta 2. La funzionalità in questa pagina è stata resa disponibile nell’ambiente di anteprima il 14 dicembre 2017. Sarà disponibile nell’ambiente di produzione a marzo 2018.
+Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.1 di Beta 2. La funzionalità in questa pagina è stata resa disponibile nell’ambiente di anteprima il 14 dicembre 2017. Sarà disponibile nell’ambiente di produzione a marzo 2018.
 
 >[!IMPORTANT]
 >
 > La funzionalità descritta in questa pagina è soggetta a modifiche prima della disponibilità nell’ambiente di produzione.
 
-Per un elenco di tutte le modifiche apportate in 2018.1, consulta  [Panoramica sull’attività della versione 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+Per un elenco di tutte le modifiche apportate in 2018.1, consulta  Panoramica dell&#39;attività della versione di [2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
-La versione 2018.1 Beta 2 contiene miglioramenti sia per gli amministratori di Workfront che per altri utenti:
+La versione 2018.1 di Beta 2 contiene miglioramenti sia per gli amministratori di Workfront che per altri utenti:
 
-**Per gli amministratori**
+**Per Amministratori**
 
 * [Amministrazione di gruppi per utenti e modelli di layout](#group-administration-for-users-and-layout-templates)
 
-**Per tutti gli utenti**
+**Per Tutti Gli Utenti**
 
 * [Schermo widescreen a livello di sistema](#system-wide-widescreen-display)
-* [Ridimensionamento dello snapshot della sequenza temporale nel diagramma di Gantt](#resize-timeline-snapshot-on-the-gantt-chart)
-* [Pianificazione interattiva delle risorse nel Business Case](#interactive-resource-planner-in-the-business-case)
+* [Ridimensiona snapshot della sequenza temporale nel diagramma di Gantt](#resize-timeline-snapshot-on-the-gantt-chart)
+* [Programmazione interattiva delle risorse nel caso di business](#interactive-resource-planner-in-the-business-case)
 * [Visualizzazione in Pianificazione risorse - Grafico di allocazione utenti](#visualization-in-the-resource-planner-user-allocation-chart)
-* [Miglioramenti nell’area Home](#improvements-in-the-home-area)
-* [Nuovi miglioramenti del visualizzatore di bozze](#new-proofing-viewer-improvements) 
+* [Miglioramenti nell&#39;area Home](#improvements-in-the-home-area)
+* [Nuovi miglioramenti al visualizzatore di bozze](#new-proofing-viewer-improvements) 
 
 ## Amministrazione di gruppi per utenti e modelli di layout {#group-administration-for-users-and-layout-templates}
 
@@ -48,7 +48,7 @@ Ora puoi designare gli amministratori dei gruppi in Workfront. Il campo Proprie
 
 ### Gestione utente per amministratore gruppo {#user-management-by-group-administrator}
 
-Stiamo introducendo il nuovo concetto di **amministratore gruppo**. Per supportare questa funzione, il **Proprietario gruppo** il campo è stato rinominato in **amministratore gruppo** e gli utenti designati come amministratori di gruppi dispongono di autorizzazioni aggiuntive per gestire gli utenti e i gruppi.
+Stiamo introducendo il nuovo concetto di **amministratore gruppo**. Per supportare questa funzione, il campo **Proprietario gruppo** è stato rinominato **Amministratore gruppo** e gli utenti designati come amministratori di gruppi dispongono di autorizzazioni aggiuntive per gestire gli utenti e i gruppi.
 
 Oltre alle autorizzazioni che il proprietario del gruppo aveva in precedenza per gestire gli utenti, l’amministratore del gruppo ora dispone del seguente accesso aggiuntivo per la gestione degli utenti all’interno dei gruppi in cui sono impostati come amministratore del gruppo:
 
@@ -62,7 +62,7 @@ Per ulteriori informazioni sugli amministratori di gruppi, vedere la sezione &qu
 
 ### Gestione dei modelli di layout per amministratori di gruppi {#layout-template-management-by-group-administrators}
 
-Stiamo introducendo il nuovo concetto di **Gruppo con accesso amministratore** che è possibile associare a un modello di layout.
+Stiamo introducendo il nuovo concetto di **gruppo con accesso amministratore** che puoi associare a un modello di layout.
 
 L’utente designato come amministratore di gruppo in questo gruppo ha accesso alla gestione del modello di layout e alla creazione di nuovi modelli di layout, in cui i gruppi da lui gestiti sono i gruppi amministrativi dei modelli. 
 
@@ -89,7 +89,7 @@ Ora puoi espandere lo snapshot della timeline per visualizzare l’intero proget
 
 Prima di questo miglioramento, era possibile selezionare un punto specifico nell’istantanea della timeline per spostarsi su di esso nel diagramma di Gantt.
 
-Per ulteriori informazioni sulla configurazione della visualizzazione delle informazioni nel diagramma di Gantt, vedere [Configurare la modalità di visualizzazione delle informazioni nel Diagramma di Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
+Per ulteriori informazioni sulla configurazione della visualizzazione delle informazioni nel diagramma di Gantt, vedere [Configurare la visualizzazione delle informazioni nel diagramma di Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
 
 ## Pianificazione interattiva delle risorse nel Business Case {#interactive-resource-planner-in-the-business-case}
 
@@ -97,11 +97,11 @@ In qualità di Responsabile risorse, è ora possibile aggiungere gruppi di risor
 
 Prima di questa modifica, è possibile visualizzare le informazioni sul budget risorse nel caso aziendale se il progetto è stato preventivato per le risorse nella Programmazione risorse globale.
 
-Per ulteriori informazioni sul completamento del budget delle risorse di progetto nel Business Case, vedere [Risorse di budget nel Business Case](../../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+Per ulteriori informazioni sul completamento del budget delle risorse di progetto nel Business Case, vedere [Risorse budget nel Business Case](../../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
 ## Visualizzazione in Pianificazione risorse - Grafico di allocazione utenti {#visualization-in-the-resource-planner-user-allocation-chart}
 
-Ora puoi visualizzare l’allocazione pianificata complessiva di tutti gli utenti in base alla loro disponibilità in un grafico nella Programmazione delle risorse. Il grafico è disponibile quando selezioni **Visualizza per utente** nella Programmazione delle risorse.
+Ora puoi visualizzare l’allocazione pianificata complessiva di tutti gli utenti in base alla loro disponibilità in un grafico nella Programmazione delle risorse. Il grafico è disponibile quando si seleziona **Visualizza per utente** nella Programmazione delle risorse.
 
 Il grafico visualizza le seguenti informazioni:
 
@@ -112,7 +112,7 @@ Il grafico visualizza le seguenti informazioni:
 
 Prima di questa modifica, era possibile visualizzare l’allocazione e la disponibilità di singoli utenti solo in formato tabella.
 
-Per ulteriori informazioni sul grafico di allocazione utente nella Programmazione delle risorse, vedi [Panoramica di Programmazione delle risorse](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Per ulteriori informazioni sul grafico di allocazione utente nella Programmazione delle risorse, vedere [Panoramica sulla Programmazione delle risorse](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Miglioramenti nell’area Home {#improvements-in-the-home-area}
 
@@ -130,26 +130,26 @@ Nell’area Home sono ora disponibili diversi miglioramenti, tra cui:
 
 * Dopo aver fatto clic su &quot;Lavoraci&quot; su una richiesta, i campi associati al problema vengono visualizzati nel pannello di destra.
 
-  Per ulteriori informazioni sulle richieste provenienti dall’area Home, consulta [Gestire le richieste di lavoro e team nell’area Home](../../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md) in [Gestire le richieste di lavoro e team nell’area Home](../../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md).
+  Per ulteriori informazioni sull&#39;utilizzo delle richieste provenienti dall&#39;area Home, vedere [Gestire le richieste di lavoro e team nell&#39;area Home](../../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md) in [Gestire le richieste di lavoro e team nell&#39;area Home](../../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md).
 
 * Per visualizzare il nome di un utente, posiziona il puntatore del mouse su un avatar utente in un elemento di lavoro nel pannello a sinistra.
 * Espandere l&#39;area &quot;In ritardo&quot; nel pannello sinistro per visualizzare tutti gli elementi in ritardo (quando quest&#39;area è compressa, vengono visualizzati solo i primi 5 elementi).
 * Dopo aver contrassegnato un elemento come Completo, l’elemento rimane nel pannello a sinistra fino a quando non ne selezioni un altro.\
-  Per informazioni sulla visualizzazione degli elementi completati, vedere [Visualizzare gli elementi in Work List (Elenco di lavoro) nell’area Home](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md) in [Visualizzare gli elementi in Work List (Elenco di lavoro) nell’area Home](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  Per informazioni sulla visualizzazione degli elementi completati, vedere [Visualizzare gli elementi nell&#39;area Work List nell&#39;area Home](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md) in [Visualizzare gli elementi nell&#39;area Work List nell&#39;area Home](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
-Per ulteriori informazioni sull&#39;utilizzo della nuova area Home e per informazioni che descrivono le differenze di funzionalità tra Il mio lavoro e Home, vedere [Utilizzare l’area Home](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+Per ulteriori informazioni sull&#39;utilizzo della nuova area Home e per informazioni sulle differenze di funzionalità tra Il mio lavoro e Home, vedere [Utilizzare l&#39;area Home](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
 ## Nuovi miglioramenti del visualizzatore di bozze  {#new-proofing-viewer-improvements}
 
-* [Layout e design migliorati](#improved-layout-and-design)
-* [Cerca commenti per numero commento](#search-comments-by-comment-number)
+* [Layout e progettazione migliorati](#improved-layout-and-design)
+* [Cerca commenti per numero di commento](#search-comments-by-comment-number)
 * [Opzione per modificare il commento accanto all&#39;indicatore di markup](#option-to-edit-comment-next-to-the-markup-indicator)
 * [Contrassegna tutti i commenti come letti](#mark-all-comments-as-read)
 * [Miglioramenti al menu a sinistra](#left-menu-improvements)
 
 ### Layout e design migliorati {#improved-layout-and-design}
 
-Il visualizzatore di bozze ha un aspetto aggiornato. Sono state aggiornate le seguenti aree del visualizzatore di bozze:
+Il visualizzatore di bozze ha un aspetto aggiornato. Il  sono state aggiornate le seguenti aree del visualizzatore di bozze:
 
 * Area miniature
 

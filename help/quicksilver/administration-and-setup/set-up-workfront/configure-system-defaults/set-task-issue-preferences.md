@@ -22,9 +22,9 @@ ht-degree: 0%
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 Linked to Converting Issues.-->
 
-Come un [!DNL Adobe Workfront] amministratore, puoi configurare le preferenze a livello di sistema per le attività e i problemi. Queste preferenze influiscono sul modo in cui gli utenti creano attività e problemi in [!DNL Workfront].
+In qualità di amministratore [!DNL Adobe Workfront], puoi configurare le preferenze a livello di sistema per le attività e i problemi. Queste preferenze influiscono sul modo in cui gli utenti creano attività e problemi in [!DNL Workfront].
 
-Per impostazione predefinita, le preferenze relative a attività e problemi sono bloccate e gli amministratori dei gruppi non possono modificarle a livello di gruppo a meno che non vengano sbloccate per tutti i gruppi del sistema. Per ulteriori informazioni, consulta la sezione [Blocca le preferenze di attività e problemi per i gruppi](#lock-task-and-issue-preferences-for-groups) in questo articolo.
+Per impostazione predefinita, le preferenze relative a attività e problemi sono bloccate e gli amministratori dei gruppi non possono modificarle a livello di gruppo a meno che non vengano sbloccate per tutti i gruppi del sistema. Per ulteriori informazioni, vedere la sezione [Bloccare le attività e le preferenze relative ai problemi per i gruppi](#lock-task-and-issue-preferences-for-groups) in questo articolo.
 
 
 ## Requisiti di accesso
@@ -49,7 +49,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Devi essere un [!DNL Workfront] amministratore.</p> </td> 
+   <td> <p>Devi essere un amministratore [!DNL Workfront].</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,13 +58,13 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 +++
 
-## Configurare le preferenze per attività e problemi per tutti gli utenti in [!DNL Workfront]
+## Configura le preferenze per attività e problemi per tutti in [!DNL Workfront]
 
 {{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su **[!UICONTROL Preferenze progetto]** >**[!UICONTROL Attività e problemi].**
 
-1. Nella pagina visualizzata, continua con una delle 5 sezioni elencate di seguito per configurare le impostazioni per [!UICONTROL Nuovi valori predefiniti attività], [!UICONTROL Problemi], [!UICONTROL Eliminazione], [!UICONTROL Date effettive], e [!UICONTROL Accesso]:
+1. Nella pagina visualizzata, continuare con una delle 5 sezioni elencate di seguito per configurare le impostazioni per [!UICONTROL Nuovi valori predefiniti attività], [!UICONTROL Problemi], [!UICONTROL Eliminazione], [!UICONTROL Date effettive] e [!UICONTROL Accesso]:
 
    * [[!UICONTROL Nuovi valori predefiniti attività]](#new-task-defaults)
    * [[!UICONTROL Problemi]](#issues)
@@ -74,7 +74,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    <!--
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Lavoraci</a> </li>
-  -->
+  --&gt;
 
 * [[!UICONTROL Accesso]](#access)
 
@@ -90,15 +90,15 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
     </tr> 
     <tr> 
     <td role="rowheader"> <p>Tipo di durata [!UICONTROL] </p> </td> 
-    <td> <p>Determina la relazione tra il numero di risorse (e la relativa percentuale di allocazione) e la durata o l'impegno totale per l'attività. Per ulteriori informazioni, consulta <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">Tipi di durata e durata attività</a></p> </td> 
+    <td> <p>Determina la relazione tra il numero di risorse (e la relativa percentuale di allocazione) e la durata o l'impegno totale per l'attività. Per ulteriori informazioni, vedere <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">Tipi di durata e durata attività</a></p> </td> 
     </tr> 
     <tr> 
     <td role="rowheader">[!UICONTROL Tipo di retribuzione]</td> 
-    <td> <p>Calcola le stime dei ricavi pianificati ed effettivi per un'attività. Quando <strong>[!UICONTROL Tipo di retribuzione]</strong> è impostato su <strong>[!UICONTROL Non Fatturabile]</strong>, le ore pianificate e quelle effettive registrate non generano una stima dei ricavi per l'attività e il lavoro sull'attività non contribuisce ai ricavi a livello di progetto.</p> </td> 
+    <td> <p>Calcola le stime dei ricavi pianificati ed effettivi per un'attività. Quando il tipo di retribuzione <strong>[!UICONTROL]</strong> è impostato su <strong>[!UICONTROL Non fatturabile]</strong>, le ore pianificate e le ore effettive registrate non generano una stima dei ricavi per l'attività e il lavoro sull'attività non contribuisce ai ricavi a livello di progetto.</p> </td> 
     </tr> 
     <tr> 
     <td role="rowheader">[!UICONTROL Tipo di costo]</td> 
-    <td> <p>Calcola le stime dei costi pianificati ed effettivi per un'attività. Se impostato su <strong>[!UICONTROL Nessun costo]</strong>, le ore pianificate e le ore effettive registrate non generano una stima dei costi pianificati o effettivi per l'attività e il lavoro relativo all'attività non contribuisce ai costi a livello di progetto.</p> </td> 
+    <td> <p>Calcola le stime dei costi pianificati ed effettivi per un'attività. Se impostata su <strong>[!UICONTROL Nessun costo]</strong>, le ore pianificate e le ore effettive registrate non generano una stima dei costi pianificati o effettivi per l'attività e il lavoro svolto non contribuisce ai costi a livello di progetto.</p> </td> 
     </tr> 
   </tbody> 
 </table>
@@ -111,23 +111,23 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
   <tbody> 
     <tr> 
     <td role="rowheader">[!UICONTROL Aggiorna automaticamente lo stato del problema risolvibile quando lo stato dell'oggetto risolutivo cambia]</td> 
-    <td> <p>Quando un utente converte un problema in un progetto o in un’attività, sia il problema originale che il progetto o l’attività convertiti diventano oggetti di risoluzione. Questa impostazione consente di correlare la risoluzione del problema originale alla risoluzione del relativo oggetto risolvibile. Per ulteriori informazioni sulla risoluzione degli oggetti, vedere <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Panoramica sugli oggetti risolvibili e risolvibili </a>.</p> <p>Affinché questa impostazione abbia effetto, l'opzione <strong>[!UICONTROL Mantieni il problema originale e collegane la risoluzione all'attività]</strong> deve essere selezionato.</p> 
+    <td> <p>Quando un utente converte un problema in un progetto o in un’attività, sia il problema originale che il progetto o l’attività convertiti diventano oggetti di risoluzione. Questa impostazione consente di correlare la risoluzione del problema originale alla risoluzione del relativo oggetto risolvibile. Per ulteriori informazioni sulla risoluzione degli oggetti, vedere <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Panoramica sugli oggetti risolvibili e risolvibili </a>.</p> <p>Affinché questa impostazione abbia effetto, è necessario selezionare l'opzione <strong>[!UICONTROL Mantieni il problema originale e collegarne la risoluzione all'attività]</strong>.</p> 
       <ul> 
       <li>Quando questa impostazione è abilitata, puoi creare stati personalizzati con la stessa chiave sia per i problemi che per i progetti o le attività. Quando il progetto o l’attività (come oggetto risolvibile) diventa lo stato personalizzato, la modifica si riflette anche sullo stato del problema. La chiave dello stato deve essere la stessa per lo stato del problema e per quello del progetto o dell’attività.</li> 
-      <li>Quando questa impostazione è disattivata, gli stati degli oggetti di risoluzione vengono impostati automaticamente sullo stato predefinito, anziché su quelli personalizzati. Per ulteriori informazioni sugli stati predefiniti, consulta <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Accedere all’elenco degli stati dei problemi di sistema</a>.</li> 
+      <li>Quando questa impostazione è disattivata, gli stati degli oggetti di risoluzione vengono impostati automaticamente sullo stato predefinito, anziché su quelli personalizzati. Per ulteriori informazioni sugli stati predefiniti, vedere <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Accedere all'elenco degli stati dei problemi di sistema</a>.</li> 
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[!UICONTROL Quando si converte un problema in un'attività]</td> 
+    <td role="rowheader" [!UICONTROL>Quando si converte un problema in un'attività]</td> 
     <td> <p>Le impostazioni in questa sezione determinano cosa accade durante il processo di conversione da un problema all’altro:</p> 
       <ul> 
-      <li> <p><strong>[!UICONTROL Mantieni il problema originale e collegane la risoluzione all'attività]</strong>: durante la conversione del problema, questo rimane visibile come problema fino al completamento dell’attività. Lo stato del problema cambia automaticamente in [!UICONTROL Closed] al completamento dell'attività. Se questa opzione è deselezionata, il problema viene eliminato.</p> <p><b>NOTA</b>:  <p>Gli utenti che non dispongono dell’accesso o delle autorizzazioni necessarie per eliminare un problema non potranno eliminarlo mentre lo stanno convertendo, indipendentemente dallo stato di questa impostazione. Per informazioni sull’accesso e le autorizzazioni per i problemi, consulta:</p> 
+      <li> <p><strong>[!UICONTROL Mantieni il problema originale e collegane la risoluzione all'attività]</strong>: durante la conversione del problema, questo rimane visibile come problema fino al completamento dell'attività. Lo stato del problema cambia automaticamente in [!UICONTROL Closed] al completamento dell'attività. Se questa opzione è deselezionata, il problema viene eliminato.</p> <p><b>NOTA</b>:  <p>Gli utenti che non dispongono dell’accesso o delle autorizzazioni necessarie per eliminare un problema non potranno eliminarlo mentre lo stanno convertendo, indipendentemente dallo stato di questa impostazione. Per informazioni sull’accesso e le autorizzazioni per i problemi, consulta:</p> 
         <ul> 
-          <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Concedere l’accesso ai problemi</a> </p> </li> 
-          <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Condividere un problema </a> </p> </li> 
+          <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Concedi l'accesso ai problemi</a> </p> </li> 
+          <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Condividi un problema </a> </p> </li> 
         </ul> </p> </li> 
-      <li><strong>[!UICONTROL Consenti al contatto principale di accedere all'attività]</strong>: fornisce al contatto principale (autore del problema) l’accesso in visualizzazione all’attività per esaminarla, tenerne informato l’avanzamento e aggiungere commenti alla sezione Aggiornamenti dell’attività.</li> 
-      <li> <p><strong>[!UICONTROL Consenti la modifica di queste impostazioni durante la conversione]</strong>: consente all’utente che converte il problema di modificare queste opzioni durante la conversione di un problema in un’attività.</p></li> 
+      <li><strong>[!UICONTROL Consenti al contatto principale di accedere all'attività]</strong>: concede al contatto principale (autore del problema) l'accesso in visualizzazione all'attività per esaminarla, tenerne informato l'avanzamento e aggiungere commenti nella sezione Aggiornamenti dell'attività.</li> 
+      <li> <p><strong>[!UICONTROL Consenti la modifica di queste impostazioni durante la conversione]</strong>: consente all'utente che converte il problema di modificare queste opzioni durante la conversione di un problema in un'attività.</p></li> 
       </ul> </td> 
     </tr> 
     <tr> 
@@ -136,11 +136,11 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       <ul> 
       <li> <p><strong>[!UICONTROL Mantieni il problema originale e collegane la risoluzione al progetto]</strong>: durante la conversione del problema, questo rimane visibile come problema fino al completamento del progetto. Lo stato del problema cambia automaticamente in [!UICONTROL Closed] al completamento del progetto. Se questa opzione è deselezionata, il problema viene eliminato. </p> <p><b>NOTA</b>:  <p>Gli utenti che non dispongono dell’accesso o delle autorizzazioni necessarie per eliminare un problema non potranno eliminarlo mentre lo stanno convertendo, indipendentemente dallo stato di questa impostazione. Per informazioni sull’accesso e le autorizzazioni per i problemi, consulta:</p> 
         <ul> 
-          <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Concedere l’accesso ai problemi</a> </p> </li> 
-          <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Condividere un problema </a> </p> </li> 
+          <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Concedi l'accesso ai problemi</a> </p> </li> 
+          <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Condividi un problema </a> </p> </li> 
         </ul> </p> </li> 
-      <li><strong>[!UICONTROL Consenti al contatto principale di accedere al progetto]</strong>: fornisce al contatto principale (autore del problema) l’accesso in visualizzazione al progetto per esaminarlo, tenerlo informato sui progressi e formulare commenti sulla sezione Aggiornamenti del progetto.</li> 
-      <li><strong>[!UICONTROL Consenti la modifica di queste impostazioni durante la conversione]</strong>: consente all’utente che converte il problema di modificare le opzioni elencate durante la conversione di un problema in un progetto.</li> 
+      <li><strong>[!UICONTROL Consenti al contatto principale di accedere al progetto]</strong>: concede al contatto principale (autore del problema) l'accesso in visualizzazione al progetto per esaminarlo, tenerlo informato sullo stato di avanzamento e aggiungere commenti alla sezione Aggiornamenti del progetto.</li> 
+      <li><strong>[!UICONTROL Consenti la modifica di queste impostazioni durante la conversione]</strong>: consente all'utente che converte il problema di modificare le opzioni elencate durante la conversione di un problema in un progetto.</li> 
       </ul> </td>
     </tr> 
   </tbody> 
@@ -148,17 +148,17 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ### [!UICONTROL Eliminazione] {#deletion}
 
-**[!UICONTROL Consenti agli utenti di eliminare attività e problemi con ore registrate]**: consente di determinare se consentire l’eliminazione di attività o problemi in cui sono registrate le ore. Questa opzione è selezionata per impostazione predefinita.
+**[!UICONTROL Consenti agli utenti di eliminare attività e problemi con ore registrate]**: consente di determinare se consentire l&#39;eliminazione di attività o problemi in cui sono registrate ore. Questa opzione è selezionata per impostazione predefinita.
 
 >[!TIP]
 >
 >Questa impostazione si applica anche all’eliminazione di progetti con attività o problemi con ore collegate. Questa impostazione non si applica all’eliminazione di progetti in cui il tempo viene registrato direttamente per il progetto.
 
-* Quando viene selezionato, quando si elimina un&#39;attività o un problema si riceve un avviso informativo. L’avviso ricorda che se l’attività o il problema ha registrato ore, queste verranno spostate nel progetto o eliminate. Puoi configurare se le ore vengono eliminate o spostate nel progetto in [!UICONTROL Preferenze Ore e Timesheet] area del [!UICONTROL Configurazione]. Dopo aver confermato di aver visualizzato l’avviso, l’attività o il problema viene eliminato. Per ulteriori informazioni sulla configurazione delle preferenze per i Timesheet e le ore, consulta [Configurare le preferenze di orario e scheda orario](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+* Quando viene selezionato, quando si elimina un&#39;attività o un problema si riceve un avviso informativo. L’avviso ricorda che se l’attività o il problema ha registrato ore, queste verranno spostate nel progetto o eliminate. Puoi configurare se le ore vengono eliminate o spostate nel progetto nell&#39;area [!UICONTROL Timesheet &amp; Hours Preferences] della [!UICONTROL Configurazione]. Dopo aver confermato di aver visualizzato l’avviso, l’attività o il problema viene eliminato. Per ulteriori informazioni sulla configurazione delle preferenze per le ore e la scheda orario, vedere [Configurare le preferenze per le ore e la scheda orario](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
   >[!TIP]
   >
-  >Quando elimini un progetto con attività e problemi che hanno registrato ore, le ore registrate vengono eliminate o vengono mantenute in base alle impostazioni in [!UICONTROL Preferenze Ore e Timesheet] area di [!UICONTROL Configurazione]. Il messaggio di avviso non viene visualizzato quando si elimina un progetto.
+  >Quando elimini un progetto con attività e problemi che hanno registrato ore, le ore registrate vengono eliminate o vengono mantenute in base alle impostazioni nell&#39;area [!UICONTROL Preferenze schede orario e ore] di [!UICONTROL Configurazione]. Il messaggio di avviso non viene visualizzato quando si elimina un progetto.
 
 * Quando deselezioni questa opzione, viene visualizzato un avviso proibitivo quando elimini un’attività o un problema con ore registrate o quando elimini un progetto con ore registrate per le relative attività o problemi. L&#39;avviso specifica che l&#39;amministratore non consente l&#39;eliminazione di attività o problemi con ore registrate. Impossibile eliminare le attività, i problemi o i progetti per i quali sono state registrate ore per attività e problemi.
 
@@ -170,18 +170,18 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
   <tbody> 
     <tr> 
     <td role="rowheader">[!UICONTROL Quando un'attività o un problema passa da "Nuovo" a "In corso", imposta la data di inizio effettiva su]</td> 
-    <td> <p>Selezionare una delle seguenti opzioni per la registrazione della data di inizio effettiva in [!DNL Workfront] quando un’attività o un problema proviene da <strong>[!UICONTROL Nuovo]</strong> a <strong>[!UICONTROL In Corso]</strong>:</p> 
+    <td> <p>Selezionare una delle opzioni seguenti per la registrazione della data di inizio effettiva in [!DNL Workfront] quando un'attività o un problema passa da <strong>[!UICONTROL Nuovo]</strong> a <strong>[!UICONTROL In corso]</strong>:</p> 
       <ul> 
-      <li><strong>[!UICONTROL Now]:</strong> La data di inizio effettiva viene impostata sulla data corrente.</li> 
-      <li><strong>[!UICONTROL La Data Di Inizio Pianificata]:</strong> La Data di inizio effettiva è impostata sulla Data di inizio pianificata dell’attività o del problema.</li> 
+      <li><strong>[!UICONTROL Now]:</strong> La data di inizio effettiva è impostata sulla data corrente.</li> 
+      <li><strong>[!UICONTROL Data inizio pianificata]:</strong> La data inizio effettiva è impostata sulla data inizio pianificata dell'attività o del problema.</li> 
       </ul> </td> 
     </tr> 
     <tr> 
     <td role="rowheader">[!UICONTROL Quando un'attività o un problema è completato, impostare la data di completamento effettiva su]</td> 
-    <td> <p>Selezionare una delle seguenti opzioni per la registrazione della data di completamento effettiva in [!DNL Workfront] quando un'attività o un problema è completato:</p> 
+    <td> <p>Selezionare una delle opzioni seguenti per la registrazione della data di completamento effettiva in [!DNL Workfront] quando un'attività o un problema è completato:</p> 
       <ul> 
       <li><strong>[!UICONTROL Now]:</strong> La data di completamento effettiva è impostata sulla data corrente.</li> 
-      <li> <p><strong>[!UICONTROL La Data Di Completamento Pianificata]:</strong> La Data di completamento effettiva è impostata sulla Data di completamento pianificata dell’attività o del problema.</p> </li> 
+      <li> <p><strong>[!UICONTROL La data di completamento pianificata]:</strong> La data di completamento effettiva è impostata sulla data di completamento pianificata dell'attività o del problema.</p> </li> 
       </ul> </td> 
     </tr> 
   </tbody> 
@@ -189,14 +189,14 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ### Delega
 
-Abilitazione di **[!UICONTROL Consenti agli utenti di delegare le loro attività e i loro problemi]** consente a tutti gli utenti in di delegare temporaneamente il proprio lavoro ad altri.
+L&#39;abilitazione dell&#39;impostazione **[!UICONTROL Consenti agli utenti di delegare le loro attività e i loro problemi]** consente a tutti gli utenti in di delegare temporaneamente il loro lavoro ad altri.
 
 Quando questa impostazione è abilitata, gli utenti possono visualizzare quanto segue:
 
-* Il [!UICONTROL Delega] link nel loro [!UICONTROL Home] area. Da qui possono delegare le approvazioni, o le assegnazioni di attività e problemi.
-* Un’indicazione che un’attività o un problema è delegato a un altro utente in [!UICONTROL Assegnazioni e deleghe] nell’intestazione dell’attività o del problema.
+* Il collegamento [!UICONTROL Delega] nell&#39;area [!UICONTROL Home]. Da qui possono delegare le approvazioni, o le assegnazioni di attività e problemi.
+* Indica che un&#39;attività o un problema è delegato a un altro utente nell&#39;area [!UICONTROL Assegnazioni e deleghe] nell&#39;intestazione dell&#39;attività o del problema.
 
-  Se disattivi il [!UICONTROL Consenti agli utenti di delegare le loro attività e i loro problemi] , le deleghe attualmente pianificate verranno interrotte e gli utenti delegati riceveranno una notifica e-mail di interruzione della delega.
+  Se disattivi l&#39;impostazione [!UICONTROL Consenti agli utenti di delegare le loro attività e i loro problemi], le deleghe attualmente pianificate verranno interrotte e gli utenti delegati riceveranno una notifica e-mail di interruzione della delega.
 
 Per informazioni sulla delega del lavoro ad altri, vedere gli articoli seguenti:
 
@@ -240,24 +240,24 @@ I have not had a chance to follow up with customers to verify if this is still a
     <td role="rowheader">[!UICONTROL Quando un utente viene assegnato a un'attività]</td> 
     <td> 
       <ul> 
-      <li><strong>[!UICONTROL Concedi loro ... l'accesso a un'attività]</strong>: definisce l’autorizzazione predefinita di un utente per l’attività a cui è assegnato. Per ulteriori informazioni sulle autorizzazioni per le attività, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concedere l’accesso agli utenti</a>.</li> 
-      <li> <p><strong>[!UICONTROL Concede anche loro ... l'accesso al progetto]</strong>: definisce l’autorizzazione predefinita di un utente per il progetto al quale è stata assegnata un’attività. Per ulteriori informazioni sulle autorizzazioni per i progetti, consulta <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurare le preferenze di progetto a livello di sistema</a>.</p> </li> 
+      <li><strong>[!UICONTROL Concedi loro ... l'accesso a un'attività]</strong>: definisce l'autorizzazione predefinita di un utente per l'attività a cui è assegnato. Per ulteriori informazioni sulle autorizzazioni per l'attività, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concedere l'accesso agli utenti</a>.</li> 
+      <li> <p><strong>[!UICONTROL Concedi anche loro ... l'accesso al progetto]</strong>: definisce l'autorizzazione predefinita di un utente al progetto al quale è stata assegnata un'attività. Per ulteriori informazioni sulle autorizzazioni del progetto, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurare le preferenze di progetto a livello di sistema</a>.</p> </li> 
       </ul> </td> 
     </tr> 
     <tr> 
     <td role="rowheader">[!UICONTROL Quando a un utente viene assegnato un problema]</td> 
     <td> 
       <ul> 
-      <li><strong>[!UICONTROL Concedi loro ... l'accesso a un'attività]</strong>: definisce l’autorizzazione predefinita di un utente per l’attività a cui è assegnato. Per ulteriori informazioni sulle autorizzazioni per le attività, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concedere l’accesso agli utenti</a>.</li> 
-      <li> <p><strong>[!UICONTROL Concede anche loro ... l'accesso al progetto]</strong>: definisce l’autorizzazione predefinita di un utente per il progetto al quale è stata assegnata un’attività. Per ulteriori informazioni sulle autorizzazioni per i progetti, consulta <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurare le preferenze di progetto a livello di sistema</a>.</p> </li> 
+      <li><strong>[!UICONTROL Concedi loro ... l'accesso a un'attività]</strong>: definisce l'autorizzazione predefinita di un utente per l'attività a cui è assegnato. Per ulteriori informazioni sulle autorizzazioni per l'attività, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concedere l'accesso agli utenti</a>.</li> 
+      <li> <p><strong>[!UICONTROL Concedi anche loro ... l'accesso al progetto]</strong>: definisce l'autorizzazione predefinita di un utente al progetto al quale è stata assegnata un'attività. Per ulteriori informazioni sulle autorizzazioni del progetto, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurare le preferenze di progetto a livello di sistema</a>.</p> </li> 
       </ul> </td> 
     </tr> 
     <tr> 
     <td role="rowheader">[!UICONTROL Quando qualcuno invia una richiesta]</td> 
     <td> 
       <ul> 
-      <li><strong>[!UICONTROL Concedi loro ... accesso al problema]</strong>: definisce l’autorizzazione predefinita di un utente per una richiesta inviata. Per ulteriori informazioni, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Condividere un problema </a>.</li> 
-      <li> <p><strong>[!UICONTROL Persone della stessa società erediteranno le stesse autorizzazioni per tutte le richieste]</strong>: consente agli utenti di visualizzare le richieste inviate da altri utenti della stessa società. Su tali richieste dispongono delle stesse autorizzazioni delle proprie richieste inviate.</p> </li> 
+      <li><strong>[!UICONTROL Concedi loro ... l'accesso al problema]</strong>: definisce l'autorizzazione predefinita di un utente per una richiesta inviata. Per ulteriori informazioni, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Condividere un problema </a>.</li> 
+      <li> <p><strong>[!UICONTROL Le persone della stessa società erediteranno le stesse autorizzazioni per tutte le richieste]</strong>: consente agli utenti di visualizzare le richieste inviate da altri utenti della stessa società. Su tali richieste dispongono delle stesse autorizzazioni delle proprie richieste inviate.</p> </li> 
       </ul> </td> 
     </tr> 
   </tbody> 
@@ -269,21 +269,21 @@ I have not had a chance to follow up with customers to verify if this is still a
 
 Se i gruppi dell’organizzazione necessitano di una preferenza per attività o problemi configurata in modo diverso per i propri flussi di lavoro univoci, puoi sbloccare la preferenza per tutti i gruppi dell’organizzazione in modo che possano configurarla autonomamente. Quando una preferenza viene sbloccata e l&#39;amministratore del gruppo la modifica, le attività o i problemi associati al gruppo vengono influenzati dall&#39;impostazione a livello di gruppo della preferenza anziché dall&#39;impostazione a livello di sistema.
 
-Per informazioni su come un amministratore di gruppo configura le preferenze per attività e problemi di un gruppo, consulta [Configurare le preferenze per attività e problemi per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+Per informazioni su come un amministratore di gruppo configura le preferenze per attività e problemi di un gruppo, vedi [Configurare le preferenze per attività e problemi di un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
 >[!NOTE]
 >
->Dopo un [!DNL Workfront] l’amministratore sblocca una preferenza a livello di sistema, qualsiasi amministratore di gruppo può configurarla e quindi bloccarla per garantire che tutti gli utenti del gruppo e i sottogruppi sottostanti utilizzino la stessa configurazione. Questo è parallelo alla capacità che un [!DNL Workfront] l’amministratore deve configurare e bloccare una preferenza per tutti gli utenti del sistema. Per ulteriori informazioni, consulta [Configurare le preferenze di progetto per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) e [Bloccare o sbloccare una preferenza di progetto, attività o problema per i sottogruppi](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
+>Dopo che un amministratore [!DNL Workfront] ha sbloccato una preferenza a livello di sistema, qualsiasi amministratore di gruppo può configurarla e quindi bloccarla per assicurarsi che tutti gli utenti del gruppo e i sottogruppi di seguito utilizzino la stessa configurazione. Ciò è parallelo alla possibilità che un amministratore [!DNL Workfront] deve configurare e bloccare una preferenza per tutti gli utenti del sistema. Per ulteriori informazioni, vedere [Configurare le preferenze di progetto per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) e [Bloccare o sbloccare un progetto, un&#39;attività o una preferenza di problema per i sottogruppi](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
 
 Per bloccare o sbloccare un&#39;attività o una preferenza di problema in modo che i gruppi possano configurarla:
 
 {{step-1-to-setup}}
 
-1. Clic **[!UICONTROL Preferenze progetto]** > **[!UICONTROL Attività e problemi]**.
+1. Fai clic su **[!UICONTROL Preferenze progetto]** > **[!UICONTROL Attività e problemi]**.
 
 1. Effettua una delle seguenti operazioni:
 
-   * Se desideri che gli amministratori dei gruppi al di sotto del gruppo possano configurare una preferenza per i loro gruppi, sbloccalo ![](assets/unlock-toggle-button.png).
+   * Se desideri che gli amministratori dei gruppi al di sotto del gruppo possano configurare una preferenza per i loro gruppi, sbloccarla ![](assets/unlock-toggle-button.png).
    * Se si desidera che il gruppo e tutti i gruppi sottostanti utilizzino la configurazione per una preferenza, assicurarsi che sia bloccata (impostazione predefinita).
 
      >[!IMPORTANT]

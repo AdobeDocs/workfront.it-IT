@@ -1,6 +1,6 @@
 ---
-title: Attività del rilascio di Workfront Proof:&nbsp;Settimana del 29 novembre 2021
-description: Attività del rilascio di Workfront Proof:&nbsp;Settimana del 29 novembre 2021
+title: Attività di rilascio di Workfront Proof:&nbsp;Settimana del 29 novembre 2021
+description: Attività di rilascio di Workfront Proof:&nbsp;Settimana del 29 novembre 2021
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Proof
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# Attività rilascio bozza Workfront: settimana del 29 novembre 2021
+# Attività di rilascio di Workfront Proof: settimana del 29 novembre 2021
 
-In questa pagina sono descritte le modifiche apportate all&#39;applicazione di verifica autonoma Workfront Proof. Le modifiche qui descritte non sono applicabili alla funzionalità di verifica all’interno dell’applicazione Adobe Workfront.
+Questa pagina descrive le modifiche apportate a Workfront Proof (applicazione di verifica autonoma). Le modifiche qui descritte non sono applicabili alla funzionalità di verifica all’interno dell’applicazione Adobe Workfront.
 
 ## Nuovo profilo di autorizzazione bozza in Workfront Proof
 
@@ -23,4 +23,4 @@ Abbiamo aggiunto un nuovo profilo di autorizzazione per la bozza dei visitatori 
 
 Gli utenti con un profilo Visitatore possono rivedere e approvare le bozze condivise con loro. Tuttavia, non può visualizzare i contatti o i gruppi come può fare un osservatore.
 
-Per ulteriori informazioni, consulta [Profili delle autorizzazioni della bozza in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+Per ulteriori informazioni, vedere [Profili autorizzazioni bozza in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).

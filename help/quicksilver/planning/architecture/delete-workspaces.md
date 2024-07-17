@@ -18,7 +18,7 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-In Adobe Workfront Planning, le aree di lavoro sono posizioni centralizzate in cui i team possono pianificare il lavoro. Per ulteriori informazioni, consulta [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
+In Adobe Workfront Planning, le aree di lavoro sono posizioni centralizzate in cui i team possono pianificare il lavoro. Per ulteriori informazioni, vedere [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
 
 È possibile eliminare le aree di lavoro non più rilevanti.
 
@@ -68,14 +68,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Autorizzazioni</p></td>
-   <td> <p>Gestire le autorizzazioni per un’area di lavoro</a> </p>  
+   <td> <p>Gestione delle autorizzazioni per un'area di lavoro</a> </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>
 
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>L'amministratore del Workfront o del gruppo deve aggiungere l'area Planning nel modello di layout. Per informazioni, consulta <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica degli accessi</a>. </p>  
+   <td> <p>L'amministratore del Workfront o del gruppo deve aggiungere l'area Planning nel modello di layout. Per informazioni, vedere <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica dell'accesso</a>. </p>  
 </td>
   </tr>
 
@@ -102,10 +102,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Viene visualizzata la pagina dell’area di lavoro.
 
-1. Fai clic su **Altro** menu ![](assets/more-menu.png) accanto al nome dell’area di lavoro, quindi fai clic su **Elimina**.
+1. Fai clic sul menu **Altro** ![](assets/more-menu.png) accanto al nome dell&#39;area di lavoro, quindi fai clic su **Elimina**.
 
    ![](assets/permanently-delete-workspace-confirmation.png)
 
-1. Digita &quot;**eliminare**&quot; nello spazio disponibile, quindi fai clic su **Elimina definitivamente**. Non fa distinzione tra maiuscole e minuscole.
+1. Digita &quot;**delete**&quot; nello spazio fornito, quindi fai clic su **Delete** definitivamente. Non fa distinzione tra maiuscole e minuscole.
 
    L’area di lavoro viene eliminata e non può essere recuperata. Verranno eliminati anche tutti i tipi di record, i record, i campi e le visualizzazioni ad essi associati. <!--ensure this is right at or before GA-->

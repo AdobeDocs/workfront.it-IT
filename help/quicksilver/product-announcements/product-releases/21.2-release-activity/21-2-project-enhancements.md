@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # 21.2 Miglioramenti al progetto
 
-Questa pagina descrive tutti i miglioramenti apportati con la versione 21.2 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 10 maggio 2021. Per un elenco di tutte le modifiche disponibili con la versione 21.2, consulta [Panoramica sulla versione 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Questa pagina descrive tutti i miglioramenti apportati con la versione 21.2 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 10 maggio 2021. Per un elenco di tutte le modifiche disponibili con la versione 21.2, consulta la [panoramica sulla versione 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Nuova interfaccia per la creazione e la modifica di attività ricorrenti
 
@@ -27,9 +27,9 @@ Questa pagina descrive tutti i miglioramenti apportati con la versione 21.2 all�
 
 Nell’ambito della riprogettazione delle caselle Nuova attività e Modifica attività, è stata aggiunta la possibilità di rendere ricorrente una nuova attività e di modificare l’elemento padre di un’attività ricorrente. Questa funzionalità non era inclusa nella riprogettazione delle caselle Nuova e Modifica attività rilasciata in precedenza.
 
-Per ulteriori informazioni, consulta [Creare attività ricorrenti](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
+Per ulteriori informazioni, vedere [Creare attività ricorrenti](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
 
-Questa funzione è ora inclusa nel [Planner - Nozioni di base per la nuova esperienza Workfront - Parte 2: Pianificare un progetto](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-MCDUWIMXC3JRAAFGHX7QYIN2BVDI) percorso di apprendimento in Workfront One.
+Questa funzionalità è ora inclusa in [Planner - Nozioni di base per la nuova esperienza Workfront, parte 2: Pianificare un percorso di apprendimento per il progetto](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-MCDUWIMXC3JRAAFGHX7QYIN2BVDI) in Workfront One.
 
 ## Nuovi pulsanti disponibili nell’intestazione Progetti
 
@@ -39,7 +39,7 @@ Questa funzione è ora inclusa nel [Planner - Nozioni di base per la nuova esper
 
 Per filtrare rapidamente l’elenco dei progetti nella pagina Progetti, nell’intestazione sono presenti due nuovi pulsanti che consentono di applicare rapidamente il filtro Progetti in corso o Progetti di cui sono proprietario.
 
-Questa funzione è ora inclusa nel [Planner - Nozioni di base per la nuova esperienza Workfront, Parte 1: Creazione di un progetto](https://one.workfront.com/s/learningpath5/planner-fundamentals-for-the-new-workfront-experience-MCTOONVRZDLRD3FAIX6SQYSUAHDE) percorso di apprendimento in Workfront One.
+Questa funzionalità è ora inclusa in [Planner - Nozioni di base per la nuova esperienza Workfront, Parte 1: Creazione di un percorso di apprendimento Project](https://one.workfront.com/s/learningpath5/planner-fundamentals-for-the-new-workfront-experience-MCTOONVRZDLRD3FAIX6SQYSUAHDE) in Workfront One.
 
 ## Spostare o eliminare una storia o un problema dalla bacheca Scrum
 
@@ -51,7 +51,7 @@ Ora puoi spostare una storia o un problema al di fuori della bacheca Scrum facen
 
 Puoi anche eliminare una storia o un problema direttamente dalla bacheca Scrum facendo clic sull’icona Altro su una scheda e selezionando Elimina. Quando elimini una storia o un problema, questa viene spostata nel Cestino per 30 giorni e può essere ripristinata solo dall&#39;amministratore di sistema.
 
-Per ulteriori informazioni, consulta [Gestione di storie e problemi sulla bacheca Scrum](../../../agile/use-scrum-in-an-agile-team/scrum-board/manage-scrum-board.md).
+Per ulteriori informazioni, consulta [Gestire storie e problemi sulla bacheca Scrum](../../../agile/use-scrum-in-an-agile-team/scrum-board/manage-scrum-board.md).
 
 ## Nuova casella Modifica problema
 
@@ -80,7 +80,7 @@ Prima di questo miglioramento, questi pulsanti si trovavano nell&#39;angolo supe
 
 Per informazioni sulla modifica di progetti o attività, vedere i seguenti articoli:
 
-* [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md)
+* [Modificare progetti](../../../manage-work/projects/manage-projects/edit-projects.md)
 * [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 
 ![](assets/pasted-image-4-5-2021-0-350x278.png)
@@ -93,7 +93,7 @@ Per informazioni sulla modifica di progetti o attività, vedere i seguenti artic
 
 Per una migliore esperienza durante la compilazione di un modulo personalizzato, è stato migliorato il modo in cui vengono visualizzate le etichette dei campi personalizzati lunghi. Quando lo spazio orizzontale è sufficiente per visualizzarle interamente, queste etichette non vengono più troncate.
 
-Per informazioni sulla compilazione dei moduli personalizzati, consulta [Modificare le informazioni nei campi modulo personalizzati](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
+Per informazioni sulla compilazione dei moduli personalizzati, vedere [Modifica delle informazioni nei campi dei moduli personalizzati](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
 ## Il contatto principale di un problema è ora visibile dall’area Dettagli progetto
 
@@ -105,7 +105,7 @@ Quando si converte un problema in un progetto, il richiedente del problema viene
 
 Abilita questo campo nel modello di layout per poterlo visualizzare nella nuova esperienza Adobe Workfront per i progetti.
 
-Per informazioni sulla conversione dei problemi, consulta [Panoramica sulla conversione dei problemi in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+Per informazioni sulla conversione dei problemi, vedere [Panoramica sulla conversione dei problemi in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 ## Visualizzare informazioni su un gruppo che si desidera assegnare a un portfolio, programma o team
 
@@ -119,8 +119,8 @@ Questa è la stessa funzionalità rilasciata di recente per identificare un grup
 
 Per ulteriori informazioni, consulta i seguenti articoli:
 
-* [Creare un portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
-* [Creare un programma](../../../manage-work/portfolios/create-and-manage-programs/create-program.md)
+* [Crea un portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
+* [Crea un programma](../../../manage-work/portfolios/create-and-manage-programs/create-program.md)
 * [Creare un team](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md)
 
 ## La formattazione del testo nei campi personalizzati viene ora visualizzata in tutti gli elenchi e i rapporti di Workfront Classic
@@ -186,7 +186,7 @@ Per informazioni sulla nuova casella Nuova attività, vedere [Creare attività i
 
 Ora puoi disattivare i team che non utilizzi più. Quando disattivi un team, non viene più visualizzato nella maggior parte dei campi di digitazione e ricerca o nei menu comuni di Workfront. Tuttavia, i dati storici associati al team vengono conservati.
 
-Per ulteriori informazioni, consulta [Disattivare un team](../../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md).
+Per ulteriori informazioni, vedere [Disattivare un team](../../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md).
 
 ## Aggiornamento dell’impostazione che consente agli utenti di eliminare attività e problemi con ore registrate
 

@@ -2,65 +2,65 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: create-proofs-and-files
-title: Caricare file e contenuti web in [!DNL Workfront Proof]
-description: Puoi caricare i file in [!DNL Workfront Proof] senza creare una bozza. Puoi anche aggiungere URL per siti web e altri contenuti web a [!DNL Workfront Proof].
+title: Carica file e contenuto Web in [!DNL Workfront Proof]
+description: Puoi caricare i file in  [!DNL Workfront Proof]  senza creare una bozza. È inoltre possibile aggiungere URL per siti Web e altri contenuti Web a  [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 88693211-b5f5-4f99-97a9-5c29039f4f01
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
 
-# Caricare file e contenuti web in [!DNL Workfront Proof]
+# Carica file e contenuto Web in [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alla funzionalità del prodotto standalone [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Copertura](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
-Puoi caricare i file in [!DNL Workfront Proof] senza creare una bozza. Puoi anche aggiungere URL per siti web e altri contenuti web a [!DNL Workfront Proof].
+È possibile caricare i file in [!DNL Workfront Proof] senza creare una bozza. È inoltre possibile aggiungere URL per siti Web e altri contenuti Web a [!DNL Workfront Proof].
 
 ## Informazioni sul caricamento di un file senza creare una bozza
 
-In alcuni casi, è possibile aggiungere un file a [!DNL Workfront Proof] e crea una bozza per esso simultaneamente (vedi [Genera bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)).
+In alcuni casi, è possibile aggiungere un file a [!DNL Workfront Proof] e crearne una bozza contemporaneamente (vedere [Generare bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)).
 
-In altri casi, puoi aggiungere un file a [!DNL Workfront Proof] senza creare una bozza.
+In altri casi, è possibile aggiungere un file a [!DNL Workfront Proof] senza creare una bozza.
 
-Questo è utile, ad esempio, se non disponi di diritti di correzione ma devi fornire un file da rivedere agli utenti che dispongono di diritti di correzione; uno di questi utenti può creare la bozza dopo averlo caricato.
+Ciò è utile, ad esempio, se non si dispone dei diritti di verifica ma è necessario fornire un file per la revisione agli utenti che dispongono dei diritti di verifica; uno di questi utenti può creare la bozza dopo averla caricata.
 
-Inoltre, puoi utilizzare [!DNL Workfront Proof] come archiviazione cloud per i file senza creare bozze per essi. Alcune organizzazioni utilizzano [!DNL Workfront Proof] per tenere insieme tutti i materiali digitali di un progetto, anche quando alcuni di essi, come i documenti interni relativi al progetto, non devono essere sottoposti a prove.
+È inoltre possibile utilizzare [!DNL Workfront Proof] come archiviazione cloud per i file senza creare le relative bozze. Alcune organizzazioni utilizzano [!DNL Workfront Proof] per conservare tutti i materiali digitali per un progetto, anche quando alcuni di essi, come i documenti interni sul progetto, non devono essere sottoposti a verifica.
 
 ## Caricamento di file e aggiunta di URL
 
 Per caricare un file in [!DNL Workfront Proof]:
 
-1. Nell&#39;angolo superiore sinistro di [!DNL Workfront Proof], fai clic sulla freccia rivolta verso il basso **[!UICONTROL Nuova prova]** quindi fai clic su **[!UICONTROL Carica file]** nel menu visualizzato.\
+1. Nell&#39;angolo superiore sinistro di [!DNL Workfront Proof] fare clic sulla freccia giù del pulsante **[!UICONTROL Nuova bozza]**, quindi scegliere **[!UICONTROL Carica file]** dal menu visualizzato.\
    ![](assets/new-proof-button-menu.png)
 
-1. La **[!DNL New File]** viene visualizzata la pagina .
-1. Effettua una delle seguenti operazioni per caricare o aggiungere il contenuto necessario per la verifica:
+1. Viene visualizzata la pagina **[!DNL New File]**.
+1. Effettua una delle seguenti operazioni per caricare o aggiungere il contenuto da verificare:
 
-   * Trascina e rilascia il file o i file nel **[!UICONTROL Rilascia file qui]** scatola. Oppure fai clic su **[!UICONTROL Seleziona file]**, quindi trovali e selezionali.
+   * Trascinare e rilasciare il file o i file nella casella **[!UICONTROL Rilascia qui i file]**. In alternativa, fare clic su **[!UICONTROL Seleziona file]**, quindi individuarli e selezionarli.
 
-   * È possibile ripetere questo passaggio per aggiungere tutti i file desiderati. I file caricati verranno visualizzati come file singoli nell&#39;account, anziché come file unito.
+   * È possibile ripetere questo passaggio per aggiungere tutti i file desiderati. I file caricati verranno visualizzati come singoli file nel tuo account, anziché come un file unito.
 
-   * Se stai creando un file da un URL, digita l’URL nella casella contenente **www.yoursite.com**. Al termine, premere **[!UICONTROL Invio]** oppure fare clic sul pulsante freccia verde alla fine della casella.\
+   * Se stai creando un file da un URL, digita l&#39;URL nella casella contenente **www.yoursite.com**. Al termine, premere **[!UICONTROL Invio]** o fare clic sul pulsante freccia verde alla fine della casella.\
 
-      Puoi creare più file contemporaneamente digitando più URL separati da spazi.
+     Per creare più file contemporaneamente, digita più URL separati da spazi.
 
-1. Digita l&#39;indirizzo e-mail dei revisori che devono provare i file nella casella sottostante **[!UICONTROL Condividi]**.\
-   Una volta completati questi passaggi, questi destinatari riceveranno un’e-mail contenente i collegamenti per il download dei file.\
-   Puoi condividere i file con contatti, gruppi e partner (vedi [Contatti](https://support.workfront.com/hc/en-us/sections/115000920808-Contacts),  [Gruppi](https://support.workfront.com/hc/en-us/sections/115000920828-Groups)e [Account partner](https://support.workfront.com/hc/en-us/sections/115000912107-Partner-accounts)).
+1. Digita l&#39;indirizzo e-mail dei revisori che devono verificare i file nella casella qui sotto **[!UICONTROL Condividi]**.\
+   Una volta completati questi passaggi, i destinatari riceveranno un messaggio e-mail contenente i collegamenti per il download dei file.\
+   Puoi condividere i file con contatti, gruppi e partner (consulta [Contatti](https://support.workfront.com/hc/en-us/sections/115000920808-Contacts), [Gruppi](https://support.workfront.com/hc/en-us/sections/115000920828-Groups) e [Account partner](https://support.workfront.com/hc/en-us/sections/115000912107-Partner-accounts)).
 
-1. (Facoltativo) Puoi selezionare **[!UICONTROL Informa le persone tramite e-mail]** se desideri aggiungere un oggetto personalizzato e un messaggio all’e-mail ricevuta dai destinatari dei file. Vedi [Condividi file in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md) per ulteriori informazioni.
+1. (Facoltativo) Se desideri aggiungere un oggetto e un messaggio personalizzato all&#39;e-mail ricevuta dai destinatari dei file, puoi selezionare **[!UICONTROL Notify people by email]** (Notifica agli utenti tramite e-mail). Per ulteriori informazioni, vedere [Condividi file in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md).
 
-1. (Facoltativo) In **[!UICONTROL Organizza]**, puoi selezionare o creare una cartella per organizzare i file che stai caricando. È inoltre possibile aggiungere tag per identificare e trovare facilmente i file.
-1. I tag sono semplicemente parole o combinazioni di parole che è possibile utilizzare per descrivere il contenuto di un file. Semplificano la ricerca di ciò di cui hai bisogno.
+1. (Facoltativo) In **[!UICONTROL Organizza]** puoi selezionare o creare una cartella per organizzare i file che stai caricando. Puoi anche aggiungere tag per identificare e trovare facilmente i file.
+1. I tag sono semplicemente parole o combinazioni di parole che è possibile utilizzare per descrivere il contenuto di un file. Semplificano la ricerca dei dati necessari.
 
    >[!NOTE]
    >
-   > Cartelle aggiunte [!DNL Workfront Proof] fanno parte soltanto del sistema di correzione; non fanno parte del file folder system a cui si accede sul computer o sui server aziendali.
+   > Le cartelle aggiunte in [!DNL Workfront Proof] fanno parte solo del sistema di verifica e non fanno parte del sistema di cartelle di file a cui si accede nel computer o nei server della società.
 
 1. Fai clic su **[!UICONTROL Salva]**.

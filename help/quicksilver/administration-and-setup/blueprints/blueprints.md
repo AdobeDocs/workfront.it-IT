@@ -18,9 +18,9 @@ ht-degree: 5%
 
 # Blueprint
 
-* [Panoramica dei blueprint](../../administration-and-setup/blueprints/blueprints-overview.md)
-* [Configurare l’accesso ai blueprint](../../administration-and-setup/blueprints/configure-access-to-blueprints.md)
-* [Installare una blueprint](../../administration-and-setup/blueprints/blueprints-install.md)
+* [Panoramica blueprint](../../administration-and-setup/blueprints/blueprints-overview.md)
+* [Configura l&#39;accesso ai blueprint](../../administration-and-setup/blueprints/configure-access-to-blueprints.md)
+* [Installa blueprint](../../administration-and-setup/blueprints/blueprints-install.md)
 * [Configurare una blueprint](../../administration-and-setup/blueprints/configure-template-package.md)
 * [Azioni da intraprendere dopo l’installazione di una blueprint](../../administration-and-setup/blueprints/best-next-actions-after-install.md)
 * [Elenco dei blueprint disponibili](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md)

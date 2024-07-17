@@ -7,14 +7,14 @@ feature: Workfront Fusion
 exl-id: e21ef8a0-bec0-43fc-a495-c00b4023a273
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '3041'
+source-wordcount: '3008'
 ht-degree: 0%
 
 ---
 
 # [!DNL CloudConvert] moduli
 
-In uno scenario Adobe Workfront Fusion, puoi automatizzare i flussi di lavoro che utilizzano CloudConvert e collegarlo a più applicazioni e servizi di terze parti. Il [!DNL CloudConvert] consente di monitorare e gestire processi, attività e importare ed esportare file nel [!DNL CloudConvert] account.
+In uno scenario Adobe Workfront Fusion, puoi automatizzare i flussi di lavoro che utilizzano CloudConvert e collegarlo a più applicazioni e servizi di terze parti. I moduli [!DNL CloudConvert] ti consentono di monitorare e gestire processi, attività e importare ed esportare file nel tuo account [!DNL CloudConvert].
 
 <table style="table-layout:auto">
  <col> 
@@ -31,17 +31,17 @@ In uno scenario Adobe Workfront Fusion, puoi automatizzare i flussi di lavoro ch
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licenza**</td> 
    <td>
-   <p>Fabbisogno di licenza corrente: No [!DNL Workfront Fusion] requisito di licenza.</p>
+   <p>Requisiti di licenza correnti: nessun requisito di licenza [!DNL Workfront Fusion].</p>
    <p>Oppure</p>
-   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro] </p>
+   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione del lavoro] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
    <td>
-   <p>Fabbisogno prodotto corrente: se si dispone di [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Pianifica, la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo. [!DNL Workfront Fusion] è incluso in [!UICONTROL Ultimate] [!DNL Workfront] piano.</p>
+   <p>Fabbisogno prodotto corrente: se si dispone del piano [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], l'organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo. [!DNL Workfront Fusion] è incluso nel piano [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>Oppure</p>
-   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</p>
+   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -49,43 +49,43 @@ In uno scenario Adobe Workfront Fusion, puoi automatizzare i flussi di lavoro ch
 
 ## Connetti [!DNL CloudConvert] a [!DNL Workfront Fusion] {#connect-cloudconvert-to-workfront-fusion}
 
-Per collegare [!DNL CloudConvert] account a [!DNL Workfront Fusion], è necessario ottenere la chiave API dal [!DNL CloudConvert] account.
+Per connettere l&#39;account [!DNL CloudConvert] a [!DNL Workfront Fusion], è necessario ottenere la chiave API dall&#39;account [!DNL CloudConvert].
 
-1. Accedi al tuo [!DNL CloudConvert] e apri il tuo account [!UICONTROL Dashboard].
-1. Apri **[!UICONTROL Autorizzazione] > [!UICONTROL Chiavi API]** sezione.
-1. Clic **[!UICONTROL Crea nuova chiave API]**.
-1. Immetti il nome per la chiave API, abilita gli ambiti che desideri utilizzare, quindi fai clic su **[!UICONTROL Crea]**.
+1. Accedi al tuo account [!DNL CloudConvert] e apri il [!UICONTROL Dashboard].
+1. Apri la sezione **[!UICONTROL Autorizzazione] > [!UICONTROL Chiavi API]**.
+1. Fai clic su **[!UICONTROL Crea nuova chiave API]**.
+1. Immettere il nome della chiave API, abilitare gli ambiti da utilizzare, quindi fare clic su **[!UICONTROL Crea]**.
 1. Copia il token fornito e archivialo in un luogo sicuro.
-1. In entrata [!DNL Workfront Fusion], inizia a creare uno scenario e apri la [!DNL CloudConvert] del modulo **[!UICONTROL Creare una connessione]** .
+1. In [!DNL Workfront Fusion], inizia a creare uno scenario e apri la finestra di dialogo **[!UICONTROL Crea una connessione]** del modulo [!DNL CloudConvert].
 
-   Per istruzioni, consulta [Creare uno scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+   Per istruzioni, vedere [Creare uno scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-1. Immetti il token salvato al punto 5, quindi fai clic su **[!UICONTROL Continua]** per stabilire la connessione.
+1. Immetti il token salvato al passaggio 5, quindi fai clic su **[!UICONTROL Continua]** per stabilire la connessione.
 
 ## [!DNL CloudConvert] moduli e relativi campi {#cloudconvert-modules-and-their-fields}
 
-Quando si configura [!DNL CloudConvert] moduli, [!DNL Workfront Fusion] visualizza i campi elencati di seguito. Oltre a questi, ulteriori [!DNL CloudConvert] I campi potrebbero essere visualizzati in base a fattori quali il livello di accesso nell’app o nel servizio. Un titolo in grassetto in un modulo indica un campo obbligatorio.
+Quando configuri [!DNL CloudConvert] moduli, [!DNL Workfront Fusion] visualizza i campi elencati di seguito. Insieme a questi, potrebbero essere visualizzati ulteriori campi di [!DNL CloudConvert], a seconda di fattori quali il livello di accesso nell&#39;app o nel servizio. Un titolo in grassetto in un modulo indica un campo obbligatorio.
 
-Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possibile utilizzarlo per impostare variabili e funzioni per tale campo. Per ulteriori informazioni, consulta [Mappare le informazioni da un modulo all’altro in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possibile utilizzarlo per impostare variabili e funzioni per tale campo. Per ulteriori informazioni, vedere [Mappare le informazioni da un modulo all&#39;altro in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
 * [Attività comuni](#common-tasks)
-* [Lavori](#jobs)
+* [Processi](#jobs)
 * [Attività](#tasks)
 * [Altro](#other)
 
 ### Attività comuni
 
-* [Acquisire un sito web](#capture-a-website)
+* [Acquisire un sito Web](#capture-a-website)
 * [[!UICONTROL Convertire un file]](#convert-a-file)
-* [Creare un archivio](#create-an-archive)
+* [Crea un archivio](#create-an-archive)
 * [Unisci file](#merge-files)
 * [Ottimizzare un file](#optimize-a-file)
 
-#### [!UICONTROL Acquisire un sito web]
+#### [!UICONTROL Acquisire un sito Web]
 
-Questo modulo di azione acquisisce un sito Web specifico e lo salva in formato PDF, JPG o PNG.
+Questo modulo di azione acquisisce un sito web specifico e lo salva in formato PDF, JPG o PNG.
 
 Puoi specificare l’URL del sito web e altre informazioni, ad esempio dove desideri che vengano memorizzate.
 
@@ -97,7 +97,7 @@ Il modulo restituisce l’ID del file e dei campi associati, insieme a eventuali
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL CloudConvert] account a [!DNL Workfront Fusion], vedi <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connetti [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL CloudConvert] a [!DNL Workfront Fusion], vedere <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
@@ -105,7 +105,7 @@ Il modulo restituisce l’ID del file e dei campi associati, insieme a eventuali
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Formato Di Output] </td> 
-   <td>Seleziona se desideri salvare il sito web acquisito in formato PNG, JPG o PDF. </td> 
+   <td>Seleziona se desideri salvare il sito web acquisito in formato PNG, JPG-PDF o. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Nome File] </td> 
@@ -117,7 +117,7 @@ Il modulo restituisce l’ID del file e dei campi associati, insieme a eventuali
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Conversione e opzioni specifiche del motore] </p> </td> 
-   <td>Specifica le opzioni di conversione e specifiche per il motore. Per visualizzare le opzioni disponibili, vedere <a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert] API</a> documentazione per <code>input_format</code> e <code>output_format</code>.</td> 
+   <td>Specifica le opzioni di conversione e specifiche per il motore. Per visualizzare le opzioni disponibili, vedere la documentazione dell'API <a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert]</a> per <code>input_format</code> e <code>output_format</code>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Scarica un file] </td> 
@@ -136,11 +136,11 @@ Converte un file nel formato di output selezionato.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL CloudConvert] account a [!DNL Workfront Fusion], vedi <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connetti [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL CloudConvert] a [!DNL Workfront Fusion], vedere <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL File di input]</td> 
-   <td>Seleziona se desideri caricare un file utilizzando [!DNL Workfront Fusion] o fornisci l’URL da cui verrà caricato il file.</td> 
+   <td>Selezionare se si desidera caricare un file utilizzando [!DNL Workfront Fusion] o specificare l'URL da cui verrà caricato il file.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Carica un file]</td> 
@@ -172,7 +172,7 @@ Converte un file nel formato di output selezionato.
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>[!UICONTROL Conversione e opzioni specifiche del motore] </p> </td> 
-   <td>Specifica le opzioni di conversione e specifiche per il motore. Per visualizzare le opzioni disponibili, vedere <a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert] API</a> documentazione per <code>input_format</code> e <code>output_format</code>.</td> 
+   <td>Specifica le opzioni di conversione e specifiche per il motore. Per visualizzare le opzioni disponibili, vedere la documentazione dell'API <a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert]</a> per <code>input_format</code> e <code>output_format</code>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Scarica un file] </td> 
@@ -181,7 +181,7 @@ Converte un file nel formato di output selezionato.
  </tbody> 
 </table>
 
-#### [!UICONTROL Creare un archivio]
+#### [!UICONTROL Crea un archivio]
 
 Consente di aggiungere uno o più file all&#39;archivio ZIP, RAR, 7Z, TAR, TAR.GZ o TAR.BZ2.
 
@@ -191,7 +191,7 @@ Consente di aggiungere uno o più file all&#39;archivio ZIP, RAR, 7Z, TAR, TAR.G
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL CloudConvert] account a [!DNL Workfront Fusion], vedi <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connetti [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL CloudConvert] a [!DNL Workfront Fusion], vedere <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL File Di Input]</p> </td> 
@@ -203,7 +203,7 @@ Consente di aggiungere uno o più file all&#39;archivio ZIP, RAR, 7Z, TAR, TAR.G
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Importa un file dall'URL]</p> </td> 
-   <td> <p><strong>[!UICONTROL URL]</strong> </p> <p>Immettere l'URL del file che si desidera archiviare.</p> <p><strong>[!UICONTROL Headers]</strong> </p> <p>Definire le intestazioni di richiesta (facoltativo). Ciò è utile, ad esempio, quando l’URL specificato richiede l’autorizzazione.</p> </td> 
+   <td> <p><strong>[!UICONTROL URL]</strong> </p> <p>Immettere l'URL del file che si desidera archiviare.</p> <p><strong>[!UICONTROL Intestazioni]</strong> </p> <p>Definire le intestazioni di richiesta (facoltativo). Ciò è utile, ad esempio, quando l’URL specificato richiede l’autorizzazione.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Formato Di Output]</td> 
@@ -215,7 +215,7 @@ Consente di aggiungere uno o più file all&#39;archivio ZIP, RAR, 7Z, TAR, TAR.G
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conversione e opzioni specifiche del motore] </td> 
-   <td> <p>Specifica le opzioni di conversione e specifiche per il motore. Per visualizzare le opzioni disponibili, vedere <a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert] API</a> documentazione per <code>input_format</code> e <code>output_format</code>.</p> </td> 
+   <td> <p>Specifica le opzioni di conversione e specifiche per il motore. Per visualizzare le opzioni disponibili, vedere la documentazione dell'API <a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert]</a> per <code>input_format</code> e <code>output_format</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Scarica un file]</td> 
@@ -234,7 +234,7 @@ Unisce almeno due file in un unico PDF. Se i file di input non sono PDF, vengono
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL CloudConvert] account a [!DNL Workfront Fusion], vedi <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connetti [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL CloudConvert] a [!DNL Workfront Fusion], vedere <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL File Di Input]</p> </td> 
@@ -246,7 +246,7 @@ Unisce almeno due file in un unico PDF. Se i file di input non sono PDF, vengono
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Importa un file dall'URL]</p> </td> 
-   <td> <p><strong>[!UICONTROL URL]</strong> </p> <p>Immettere l'URL del file che si desidera archiviare.</p> <p><strong>[!UICONTROL Headers]</strong> </p> <p>Definire le intestazioni di richiesta (facoltativo). Ciò è utile, ad esempio, quando l’URL specificato richiede l’autorizzazione.</p> </td> 
+   <td> <p><strong>[!UICONTROL URL]</strong> </p> <p>Immettere l'URL del file che si desidera archiviare.</p> <p><strong>[!UICONTROL Intestazioni]</strong> </p> <p>Definire le intestazioni di richiesta (facoltativo). Ciò è utile, ad esempio, quando l’URL specificato richiede l’autorizzazione.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Formato Di Output]</td> 
@@ -258,7 +258,7 @@ Unisce almeno due file in un unico PDF. Se i file di input non sono PDF, vengono
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conversione e opzioni specifiche del motore] </td> 
-   <td> <p>Specifica le opzioni di conversione e specifiche per il motore. Per visualizzare le opzioni disponibili, vedere <a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert] API</a> documentazione per <code>input_format</code> e <code>output_format</code>.</p> </td> 
+   <td> <p>Specifica le opzioni di conversione e specifiche per il motore. Per visualizzare le opzioni disponibili, vedere la documentazione dell'API <a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert]</a> per <code>input_format</code> e <code>output_format</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Scarica un file]</td> 
@@ -283,7 +283,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL CloudConvert] account a [!DNL Workfront Fusion], vedi <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connetti [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL CloudConvert] a [!DNL Workfront Fusion], vedere <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL File Di Input]</td> 
@@ -297,15 +297,15 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
    <td role="rowheader">[!UICONTROL Importa un file dall'URL] </td> 
    <td> 
     <ul> 
-     <li><strong>[!UICONTROL URL]</strong>: immetti l’URL del file da convertire.</li> 
-     <li><strong>[!UICONTROL Headers]</strong>: (facoltativo) definisci le intestazioni della richiesta. Ciò è utile, ad esempio, quando l’URL specificato richiede l’autorizzazione.</li> 
+     <li><strong>[!UICONTROL URL]</strong>: immettere l'URL del file da convertire.</li> 
+     <li><strong>[!UICONTROL Headers]</strong>: (Facoltativo) Definisci le intestazioni di richiesta. Ciò è utile, ad esempio, quando l’URL specificato richiede l’autorizzazione.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Ottimizzazione di [!UICONTROL per] </td> 
    <td> <p>Seleziona il profilo di ottimizzazione per esigenze di destinazione specifiche.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Web]</strong>: ottimizzazione per il web (impostazione predefinita)</p> 
+     <li> <p><strong>[!UICONTROL Web]</strong>: ottimizzazione per il Web (impostazione predefinita)</p> 
       <ul> 
        <li>Rimuovere i dati ridondanti e non necessari per il Web</li> 
        <li>Downsampling, clip e compressione intelligente delle immagini</li> 
@@ -327,12 +327,12 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
        <li> <p>Compressione intelligente delle immagini</p> </li> 
        <li> <p>Unisci e crea sottoinsiemi di font</p> </li> 
       </ul> </li> 
-     <li> <p><strong>[!UICONTROL Immagini digitalizzate]</strong>: ottimizzazione per le immagini digitalizzate</p> 
+     <li> <p><strong>[!UICONTROL Immagini digitalizzate]</strong>: ottimizzazione delle immagini digitalizzate</p> 
       <ul> 
        <li> <p>Profilo ottimizzato per PDF costituiti principalmente da immagini raster</p> </li> 
        <li> <p>Comprimi le immagini senza ridurre significativamente la qualità visiva</p> </li> 
       </ul> </li> 
-     <li> <p><strong>[!UICONTROL riduzione dimensione massima]</strong>: ottimizzazione per la massima riduzione delle dimensioni</p> 
+     <li> <p><strong>[!UICONTROL riduzione dimensione massima]</strong>: ottimizzazione per riduzione dimensione massima</p> 
       <ul> 
        <li> <p>Utilizzare la compressione massima possibile</p> </li> 
        <li> <p>Potrebbe ridurre la qualità visiva</p> </li> 
@@ -349,7 +349,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conversione e opzioni specifiche del motore]</td> 
-   <td> <p>Specifica le opzioni di conversione e specifiche per il motore. Per visualizzare le opzioni disponibili, vedere <a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert] API</a> documentazione per <code>input_format</code> e <code>output_format</code>.</p> </td> 
+   <td> <p>Specifica le opzioni di conversione e specifiche per il motore. Per visualizzare le opzioni disponibili, vedere la documentazione dell'API <a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert]</a> per <code>input_format</code> e <code>output_format</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Scarica un file]</td> 
@@ -360,15 +360,15 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
 
 ### Lavori
 
-* [[!UICONTROL Creare un processo (avanzato)]](#create-a-job-advanced)
+* [[!UICONTROL Crea un processo (avanzato)]](#create-a-job-advanced)
 * [[!UICONTROL Nuovo evento processo]](#new-job-event)
 * [[!UICONTROL Elencare processi]](#list-jobs)
-* [[!UICONTROL Ottieni un lavoro]](#get-a-job)
-* [[!UICONTROL Eliminare un processo]](#delete-a-job)
+* [[!UICONTROL Ottieni un processo]](#get-a-job)
+* [[!UICONTROL Elimina processo]](#delete-a-job)
 
-#### [!UICONTROL Creare un processo (avanzato)]
+#### [!UICONTROL Crea un processo (avanzato)]
 
-Questo modulo crea un processo. Un processo può essere costituito da una o più attività identificate in [!UICONTROL Nome] e tra loro mediante il comando [!UICONTROL Input] campo.
+Questo modulo crea un processo. Un processo può essere costituito da una o più attività identificate nel campo [!UICONTROL Name] e collegate tra loro mediante il campo [!UICONTROL Input].
 
 <table style="table-layout:auto">
  <col> 
@@ -376,11 +376,11 @@ Questo modulo crea un processo. Un processo può essere costituito da una o più
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL CloudConvert] account a [!DNL Workfront Fusion], vedi <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connetti [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL CloudConvert] a [!DNL Workfront Fusion], vedere <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL File Di Input]</td> 
-   <td> <p>Seleziona se desideri caricare un file utilizzando [!DNL Workfront Fusion], o fornisci l’URL da cui verrà caricato il file.</p> </td> 
+   <td> <p>Selezionare se si desidera caricare un file utilizzando [!DNL Workfront Fusion] o fornire l'URL da cui verrà caricato il file.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Carica un file]</td> 
@@ -390,8 +390,8 @@ Questo modulo crea un processo. Un processo può essere costituito da una o più
    <td role="rowheader"> <p>[!UICONTROL Importa un file dall'URL]</p> </td> 
    <td> 
     <ul> 
-     <li><strong>[!UICONTROL URL]</strong>: immetti l’URL del file da elaborare.</li> 
-     <li><strong>[!UICONTROL Headers]</strong>: (facoltativo) definisci le intestazioni della richiesta. Ciò è utile, ad esempio, quando l’URL specificato richiede l’autorizzazione.</li> 
+     <li><strong>[!UICONTROL URL]</strong>: immettere l'URL del file da elaborare.</li> 
+     <li><strong>[!UICONTROL Headers]</strong>: (Facoltativo) Definisci le intestazioni di richiesta. Ciò è utile, ad esempio, quando l’URL specificato richiede l’autorizzazione.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -399,13 +399,13 @@ Questo modulo crea un processo. Un processo può essere costituito da una o più
    <td> <p>Aggiungi le attività che verranno eseguite all’interno del processo.</p> <p>Le descrizioni dei campi relativi alle operazioni sono disponibili nella sezione corrispondente.</p> 
     <ul> 
      <li><a href="#convert-a-file" class="MCXref xref">[!UICONTROL Converti un file]</a> </li> 
-     <li><a href="#capture-a-website" class="MCXref xref">[!UICONTROL Acquisire un sito Web]e</a> </li> 
+     <li><a href="#capture-a-website" class="MCXref xref">[!UICONTROL Acquisisci un sito Web]e</a> </li> 
      <li><a href="#optimize-a-file" class="MCXref xref">[!UICONTROL Ottimizza file]</a> </li> 
-     <li><a href="#create-an-archive" class="MCXref xref">[!UICONTROL Crea un archivio]</a> </li> 
-     <li><a href="#merge-files" class="MCXref xref">[!UICONTROL Unisci file]</a> </li> 
+     <li><a href="#create-an-archive" class="MCXref xref">[!UICONTROL Crea archivio]</a> </li> 
+     <li><a href="#merge-files" class="MCXref xref">[!UICONTROL Merge Files]</a> </li> 
     </ul> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Esegui un comando]</strong> </p> <p>Per ulteriori informazioni sull'esecuzione di un comando, vedere <a href="https://cloudconvert.com/api/v2/command#command-tasks">[!DNL CloudConvert] Documentazione API</a>.</p> </li> 
+     <li> <p><strong>[!UICONTROL Esegui un comando]</strong> </p> <p>Per ulteriori informazioni sull'esecuzione di un comando, vedere la documentazione API <a href="https://cloudconvert.com/api/v2/command#command-tasks">[!DNL CloudConvert]</a>.</p> </li> 
      <li> <p><strong>[!UICONTROL Esporta un file nell'URL temporaneo]</strong> </p> <p> Specifica il nome dell’attività e il nome dell’attività di input (ad esempio, Conversione).</p> </li> 
     </ul> </td> 
   </tr> 
@@ -416,7 +416,7 @@ Questo modulo crea un processo. Un processo può essere costituito da una o più
  </tbody> 
 </table>
 
-#### [!UICONTROL Eliminare un processo]
+#### [!UICONTROL Elimina processo]
 
 Questo modulo elimina un processo, inclusi tutti i task e i dati.
 
@@ -430,7 +430,7 @@ Questo modulo elimina un processo, inclusi tutti i task e i dati.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL CloudConvert] account a [!DNL Workfront Fusion], vedi <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connetti [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL CloudConvert] a [!DNL Workfront Fusion], vedere <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID processo]</td> 
@@ -439,7 +439,7 @@ Questo modulo elimina un processo, inclusi tutti i task e i dati.
  </tbody> 
 </table>
 
-#### [!UICONTROL Ottieni un lavoro]
+#### [!UICONTROL Ottieni un processo]
 
 Questo modulo recupera i dettagli del processo.
 
@@ -449,7 +449,7 @@ Questo modulo recupera i dettagli del processo.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL CloudConvert] account a [!DNL Workfront Fusion], vedi <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connetti [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL CloudConvert] a [!DNL Workfront Fusion], vedere <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID processo]</td> 
@@ -468,7 +468,7 @@ Questo modulo recupera tutti i processi eseguiti nel tuo account.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL CloudConvert] account a [!DNL Workfront Fusion], vedi <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connetti [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL CloudConvert] a [!DNL Workfront Fusion], vedere <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Stato] </td> 
@@ -487,8 +487,8 @@ Si attiva quando un processo nell’account o nell’attività viene creato, ter
 
 >[!NOTE]
 >
->* Il processo creato da [!UICONTROL Creare un processo (avanzato)] il modulo è costituito da *diversi* attività.
->* Il [!UICONTROL Nuovo evento processo] trigger viene attivato anche quando un *singolo* l’attività è stata creata, è stata completata o non è riuscita.
+>* Il processo creato dal modulo [!UICONTROL Crea processo (avanzato)] è costituito da *diverse* attività.
+>* Il trigger [!UICONTROL New Job Event] viene attivato anche quando viene creata, terminata o non riuscita un&#39;attività *individuale*.
 >
 
 <table style="table-layout:auto">
@@ -501,11 +501,11 @@ Si attiva quando un processo nell’account o nell’attività viene creato, ter
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL CloudConvert] account a [!DNL Workfront Fusion], vedi <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connetti [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL CloudConvert] a [!DNL Workfront Fusion], vedere <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Formato Di Output] </td> 
-   <td>Seleziona se desideri salvare il sito web acquisito in formato PNG, JPG o PDF. </td> 
+   <td>Seleziona se desideri salvare il sito web acquisito in formato PNG, JPG-PDF o. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Event]</td> 
@@ -516,7 +516,7 @@ Si attiva quando un processo nell’account o nell’attività viene creato, ter
 
 >[!NOTE]
 >
->* Se si utilizza l&#39;Aggregatore di matrici (ad esempio, sono presenti molti file in formati diversi da convertire), utilizzare **[!UICONTROL Non conosco il formato di input]** opzione in [!UICONTROL Aggiungi un&#39;attività] . In caso contrario, viene restituito l’errore.
+>* Se si utilizza l&#39;aggregatore di matrici (ad esempio se sono presenti molti file in formati diversi da convertire), utilizzare l&#39;opzione **[!UICONTROL Non conosco il formato di input]** nella finestra di dialogo [!UICONTROL Aggiungi attività]. In caso contrario, viene restituito l’errore.
 >* Collegamento di task all&#39;interno del job (nome > input, nome > input,...):
 >
 >  ![](assets/linking-name-across-jobs-350x808.png)>
@@ -524,13 +524,13 @@ Si attiva quando un processo nell’account o nell’attività viene creato, ter
 ### Attività
 
 * [[!UICONTROL Ottieni un&#39;attività]](#get-a-task)
-* [[!UICONTROL Scaricare un file]](#download-a-file)
-* [[!UICONTROL Elencare le attività]](#list-tasks)
-* [[!UICONTROL Riprovare un&#39;attività]](#retry-a-task)
-* [[!UICONTROL Annullare un’attività]](#cancel-a-task)
-* [[!UICONTROL Eliminare un’attività]](#delete-a-task)
+* [[!UICONTROL Scarica un file]](#download-a-file)
+* [[!UICONTROL Elenca attività]](#list-tasks)
+* [[!UICONTROL Riprova un&#39;attività]](#retry-a-task)
+* [[!UICONTROL Annulla un&#39;attività]](#cancel-a-task)
+* [[!UICONTROL Eliminare un&#39;attività]](#delete-a-task)
 
-#### [!UICONTROL Annullare un’attività]
+#### [!UICONTROL Annulla un&#39;attività]
 
 Questo modulo annulla un&#39;operazione con stato In attesa o in elaborazione.
 
@@ -540,7 +540,7 @@ Questo modulo annulla un&#39;operazione con stato In attesa o in elaborazione.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL CloudConvert] account a [!DNL Workfront Fusion], vedi <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connetti [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL CloudConvert] a [!DNL Workfront Fusion], vedere <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID attività]</td> 
@@ -549,7 +549,7 @@ Questo modulo annulla un&#39;operazione con stato In attesa o in elaborazione.
  </tbody> 
 </table>
 
-#### [!UICONTROL Eliminare un’attività]
+#### [!UICONTROL Eliminare un&#39;attività]
 
 Elimina un&#39;attività, inclusi tutti i dati.
 
@@ -563,7 +563,7 @@ Elimina un&#39;attività, inclusi tutti i dati.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL CloudConvert] account a [!DNL Workfront Fusion], vedi <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connetti [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL CloudConvert] a [!DNL Workfront Fusion], vedere <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID attività]</td> 
@@ -572,7 +572,7 @@ Elimina un&#39;attività, inclusi tutti i dati.
  </tbody> 
 </table>
 
-#### [!UICONTROL Scaricare un file]
+#### [!UICONTROL Scarica un file]
 
 Questo modulo recupera il nome e i dati del file dall&#39;operazione specificata.
 
@@ -582,7 +582,7 @@ Questo modulo recupera il nome e i dati del file dall&#39;operazione specificata
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL CloudConvert] account a [!DNL Workfront Fusion], vedi <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connetti [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL CloudConvert] a [!DNL Workfront Fusion], vedere <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID attività]</td> 
@@ -601,7 +601,7 @@ Questo modulo recupera i dettagli dell’attività.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL CloudConvert] account a [!DNL Workfront Fusion], vedi <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connetti [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL CloudConvert] a [!DNL Workfront Fusion], vedere <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID attività]</td> 
@@ -610,7 +610,7 @@ Questo modulo recupera i dettagli dell’attività.
  </tbody> 
 </table>
 
-#### [!UICONTROL Elencare le attività]
+#### [!UICONTROL Elenca attività]
 
 Questo modulo recupera tutte le attività nell’account in base alle impostazioni del filtro.
 
@@ -620,7 +620,7 @@ Questo modulo recupera tutte le attività nell’account in base alle impostazio
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL CloudConvert] account a [!DNL Workfront Fusion], vedi <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connetti [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL CloudConvert] a [!DNL Workfront Fusion], vedere <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Stato] </td> 
@@ -641,7 +641,7 @@ Questo modulo recupera tutte le attività nell’account in base alle impostazio
  </tbody> 
 </table>
 
-#### [!UICONTROL Riprovare un&#39;attività]
+#### [!UICONTROL Riprova un&#39;attività]
 
 Questo modulo crea una nuova attività, basata sulle impostazioni (payload) di un’altra attività.
 
@@ -651,7 +651,7 @@ Questo modulo crea una nuova attività, basata sulle impostazioni (payload) di u
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL CloudConvert] account a [!DNL Workfront Fusion], vedi <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connetti [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL CloudConvert] a [!DNL Workfront Fusion], vedere <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID attività]</td> 
@@ -662,10 +662,10 @@ Questo modulo crea una nuova attività, basata sulle impostazioni (payload) di u
 
 ### Altro
 
-* [[!UICONTROL Ottieni le mie informazioni]](#get-my-info)
+* [[!UICONTROL Ottieni informazioni]](#get-my-info)
 * [[!UICONTROL Effettuare una chiamata API]](#make-an-api-call)
 
-#### [!UICONTROL Ottieni le mie informazioni]
+#### [!UICONTROL Ottieni informazioni]
 
 Recupera i dettagli dell&#39;account autenticato dell&#39;utente corrente.
 
@@ -675,7 +675,7 @@ Recupera i dettagli dell&#39;account autenticato dell&#39;utente corrente.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL CloudConvert] account a [!DNL Workfront Fusion], vedi <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connetti [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL CloudConvert] a [!DNL Workfront Fusion], vedere <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -694,11 +694,11 @@ Consente di eseguire una chiamata API personalizzata.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td> <p>Inserisci un percorso relativo a <code>https://api.cloudconvert.com/</code>. Ad esempio: <code>/v2/tasks</code></p> <p>Per un elenco degli endpoint disponibili, vedere <a href="https://cloudconvert.com/api/v2">[!DNL CloudConvert] Documentazione API v2</a>.</p> </td> 
+   <td> <p>Immettere un percorso relativo a <code>https://api.cloudconvert.com/</code>. Ad esempio: <code>/v2/tasks</code></p> <p>Per un elenco degli endpoint disponibili, vedere la documentazione dell'API v2 <a href="https://cloudconvert.com/api/v2">[!DNL CloudConvert]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
-   td&gt; <p>Seleziona il metodo di richiesta HTTP necessario per configurare la chiamata API. Per ulteriori informazioni, consulta <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Metodi di richiesta HTTP in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   td&gt; <p>Seleziona il metodo di richiesta HTTP necessario per configurare la chiamata API. Per ulteriori informazioni, vedere <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Metodi di richiesta HTTP in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -710,12 +710,12 @@ Consente di eseguire una chiamata API personalizzata.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Aggiungi il contenuto body per la chiamata API sotto forma di oggetto JSON standard.Quando utilizzi istruzioni condizionali come <code>if</code> nel JSON, inserisci le virgolette al di fuori dell’istruzione condizionale.<img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"></p> </td> 
+   <td> <p>Aggiungi il contenuto body per la chiamata API sotto forma di oggetto JSON standard. Quando utilizzi istruzioni condizionali come <code>if</code> nel JSON, inserisci le virgolette al di fuori dell'istruzione condizionale.<img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Esempio:** Elencare le attività
+**Esempio:** attività elenco
 
 La seguente chiamata API restituisce tutte le attività dal tuo account CloudFront:
 
@@ -725,7 +725,7 @@ Metodo: `GET`
 
 ![](assets/cloudconvert-api-example-input.png)
 
-Le corrispondenze della ricerca si trovano nell’Output del modulo in [!UICONTROL Bundle] > [!UICONTROL Corpo] > [!UICONTROL dati].
+Le corrispondenze della ricerca si trovano nell&#39;output del modulo in [!UICONTROL Bundle] > [!UICONTROL Corpo] > [!UICONTROL dati].
 
 Nel nostro esempio, sono state restituite 6 attività:
 
@@ -751,7 +751,7 @@ Per informazioni sui possibili errori e sulle relative soluzioni, vedere la tabe
   </tr> 
   <tr> 
    <td role="rowheader"> <p><span style="font-weight: normal;">[!UICONTROL Hai superato il tempo massimo di conversione.]</span> </p> </td> 
-   <td> <p>Il libero [!DNL CloudConvert] il piano offre 25 minuti di conversione al giorno. Se l’utilizzo supera il limite del piano gratuito, puoi passare a un pacchetto (prepagato) o a un abbonamento.</p> </td> 
+   <td> <p>Il piano gratuito [!DNL CloudConvert] offre 25 minuti di conversione al giorno. Se l’utilizzo supera il limite del piano gratuito, puoi passare a un pacchetto (prepagato) o a un abbonamento.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p><span style="font-weight: normal;">[!UICONTROL Non è riuscito a leggere le dimensioni del frame: impossibile cercare fino a 1508. �/output/JLIADSA00137P0.mp3: argomento non valido.]</span> </p> </td> 
@@ -759,38 +759,38 @@ Per informazioni sui possibili errori e sulle relative soluzioni, vedere la tabe
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL RuntimeError:] </p> <p><span style="font-weight: normal;">[!UICONTROL Numero massimo di ripetizioni superato.]</span> </p> </td> 
-   <td> <p>Individua il corrispondente [!DNL CloudConvert] lavoro nel tuo [!DNL CloudConvert] elenco di processi del dashboard e verifica la durata del processo:</p> <p> <img src="assets/cloudconvert-duration-350x177.png" style="width: 350;height: 177;"> </p> <p>Il [!DNL CloudConvert] &gt; Il timeout del modulo [!UICONTROL Convert a File] è impostato su 3 minuti. Se la durata del processo supera i 3 minuti (probabilmente a causa di un sovraccarico temporaneo del [!DNL CloudConvert] ), il modulo genera l’errore sopra indicato.</p> <p>In questo caso, considera una delle seguenti opzioni:</p> 
+   <td> <p>Individua il processo [!DNL CloudConvert] corrispondente nell'elenco dei processi del dashboard [!DNL CloudConvert] e controlla la durata del processo:</p> <p> <img src="assets/cloudconvert-duration-350x177.png" style="width: 350;height: 177;"> </p> <p>Il timeout del modulo [!DNL CloudConvert] &gt; [!UICONTROL Convert a File] è impostato su 3 minuti. Se la durata del processo supera i 3 minuti (probabilmente a causa di un sovraccarico temporaneo del servizio [!DNL CloudConvert]), il modulo restituisce l'errore sopra indicato.</p> <p>In questo caso, considera una delle seguenti opzioni:</p> 
     <ul> 
-     <li>Abilita <strong>[!UICONTROL Consenti l'archiviazione di esecuzioni incomplete]</strong> nelle impostazioni dello scenario per memorizzare le esecuzioni incomplete per una successiva risoluzione manuale. Facoltativamente, è possibile allegare un percorso di gestione degli errori al [!DNL CloudConvert] con la direttiva [!UICONTROL Break] per risolvere automaticamente le esecuzioni incomplete.</li> 
-     <li>Disattiva il <strong>Opzione [!UICONTROL Download a file]</strong> nel [!DNL CloudConvert] &gt; Modulo [!UICONTROL Convert a file] (Converti file). In questo caso, il modulo non attende il risultato della conversione. Per ottenere il risultato della conversione, crea un nuovo scenario e utilizza [!DNL CloudConvert] &gt; Attivatore [!UICONTROL New Job Event].</li> 
+     <li>Abilitare l'opzione <strong>[!UICONTROL Consenti l'archiviazione delle esecuzioni incomplete]</strong> nelle impostazioni dello scenario per archiviare le esecuzioni incomplete per una successiva risoluzione manuale. Facoltativamente, è possibile allegare una route di gestione degli errori al modulo [!DNL CloudConvert] con la direttiva [!UICONTROL Break] per risolvere automaticamente le esecuzioni incomplete.</li> 
+     <li>Disattivare l'opzione <strong>[!UICONTROL Scarica un file]</strong> nel modulo [!DNL CloudConvert] &gt; [!UICONTROL Converti un file]. In questo caso, il modulo non attende il risultato della conversione. Per ottenere il risultato della conversione, crea un nuovo scenario e utilizza il trigger [!DNL CloudConvert] &gt; [!UICONTROL New Job Event].</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Esempio di flusso di lavoro per [!DNL CloudConvert] connettore
+## Esempio di flusso di lavoro per il connettore [!DNL CloudConvert]
 
 >[!INFO]
 >
->**Esempio:** Conversione di un video dal formato MOV al formato MP4
+>**Esempio:** conversione di un video dal formato MOV al formato MP4
 >
 >1. Visita [https://cloudconvert.com/video-converter](https://>cloudconvert.com/video-converter)
->1. Clic **[!UICONTROL Seleziona file]** e scegliere il file MOV di esempio.
->1. Fai clic sul menu a discesa accanto a **[!UICONTROL Converti in]** e scegli **[!UICONTROL MP4]**.
+>1. Fare clic su **[!UICONTROL Seleziona file]** e scegliere il file MOV di esempio.
+>1. Fare clic sul menu a discesa accanto a **[!UICONTROL Converti in]** e scegliere **[!UICONTROL MP4]**.
 >
->1. Fai clic su **[!UICONTROL chiave inglese]** icona.
+>1. Fai clic sull&#39;icona **[!UICONTROL chiave inglese]**.
 >1. Configura le impostazioni di compressione MP4 come lo ritieni opportuno.
->1. Clic **[!UICONTROL Converti]**.
+>1. Fare clic su **[!UICONTROL Converti]**.
 >1. Una volta completata la conversione, fai clic su **[!UICONTROL Scarica]**.
 >1. Rivedi il video convertito.
 >1. Ripetere i passaggi da 1 a 8 fino a trovare le impostazioni di conversione ottimali per il passaggio 5.
 >1. Visita [https://cloudconvert.com/api/v2/convert#convert-tasks](https://cloudconvert.com/api/v2/convert#convert-tasks)
->1. Scegli **[!UICONTROL mov]** per **[!UICONTROL input_format]** campo.
+>1. Scegli **[!UICONTROL mov]** per il campo **[!UICONTROL input_format]**.
 >
->1. Scegli **[!UICONTROL mp4]** per **[!UICONTROL output_format]** campo.
+>1. Scegliere **[!UICONTROL mp4]** per il campo **[!UICONTROL output_format]**.
 >
 >1. Un elenco di tutti i parametri possibili come video_codec, crf, ecc. verrà visualizzato.
->1. In Workfront Fusion 2.0, inserire **[!UICONTROL CloudConvert]** > **[!UICONTROL Conversione di un file]** nel tuo scenario.
+>1. In Workfront Fusion 2.0, inserisci il modulo **[!UICONTROL CloudConvert]** > **[!UICONTROL Convert a File]** nello scenario.
 >
 >1. Apri le impostazioni del modulo.
 >1. Configura il modulo come mostrato di seguito:

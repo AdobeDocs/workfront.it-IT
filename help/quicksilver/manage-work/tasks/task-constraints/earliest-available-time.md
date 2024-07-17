@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Primo orario disponibile è un vincolo dell&#39;attività che pianifica l&#39;inizio di un&#39;attività il più presto possibile dopo aver preso in considerazione le relazioni precedenti.
 
-Per informazioni sull&#39;aggiornamento del vincolo attività per un&#39;attività, vedere [Aggiornare il vincolo attività di un&#39;attività](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Per informazioni su come aggiornare il vincolo attività in un&#39;attività, vedere [Aggiornare il vincolo attività di un&#39;attività](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replaced with new article linked above) </p>
@@ -66,18 +66,18 @@ Il vincolo Primo tempo disponibile è diverso dal vincolo Il più presto possibi
 
 In questa situazione:
 
-* **Primo orario disponibile:** L&#39;utilizzo del vincolo Primo tempo disponibile sull&#39;attività successore dà priorità al vincolo flessibile del predecessore.
+* **Primo orario disponibile:** L&#39;utilizzo del vincolo Primo orario disponibile sull&#39;attività successore dà priorità al vincolo flessibile del predecessore.
 
-   **ESEMPIO**
+  **ESEMPIO**
 
-   L&#39;attività A è un predecessore dell&#39;attività B. L&#39;attività B ha il vincolo Primo tempo disponibile e l&#39;attività A ha il vincolo Il più tardi possibile. In questa situazione, l&#39;Attività B è programmata il più vicino possibile al completamento del progetto.
+  L&#39;attività A è un predecessore dell&#39;attività B. L&#39;attività B ha il vincolo Primo tempo disponibile e l&#39;attività A ha il vincolo Il più tardi possibile. In questa situazione, l&#39;Attività B è programmata il più vicino possibile al completamento del progetto.
 
-   ![Primo vincolo di tempo disponibile quando le date dell&#39;attività sono vicine alla data di completamento del progetto](assets/earliest-available-constraint-dates-closer-to-project-completion-350x137.png)
+  ![Primo vincolo di tempo disponibile quando le date dell&#39;attività sono vicine alla data di completamento del progetto](assets/earliest-available-constraint-dates-closer-to-project-completion-350x137.png)
 
-* **Non Appena Possibile:** In questo scenario, l&#39;utilizzo del vincolo Il più presto possibile sull&#39;attività successore conferisce la priorità all&#39;attività successore.
+* **Il più presto possibile:** In questo scenario, l&#39;utilizzo del vincolo Il più presto possibile sull&#39;attività successore conferisce la priorità all&#39;attività successore.
 
-   **ESEMPIO**
+  **ESEMPIO**
 
-   L&#39;attività A è un predecessore dell&#39;attività B. L&#39;attività B ha il vincolo Il più presto possibile e l&#39;attività A ha il vincolo Il più tardi possibile. In questa situazione, l&#39;Attività B è programmata il più vicino possibile all&#39;inizio del progetto.
+  L&#39;attività A è un predecessore dell&#39;attività B. L&#39;attività B ha il vincolo Il più presto possibile e l&#39;attività A ha il vincolo Il più tardi possibile. In questa situazione, l&#39;Attività B è programmata il più vicino possibile all&#39;inizio del progetto.
 
-   ![Vincolo Il più presto possibile quando le date dell&#39;attività sono vicine alla data di inizio del progetto](assets/as-soon-as-possible-dates-closer-to-project-start-350x126.png)
+  ![Vincolo Il più presto possibile quando le date dell&#39;attività sono vicine alla data di inizio del progetto](assets/as-soon-as-possible-dates-closer-to-project-start-350x126.png)

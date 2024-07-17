@@ -1,11 +1,12 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Visualizza e gestisci [!DNL Adobe Workfront] notifiche in Adobe Creative Cloud
-description: Puoi ricevere notifiche in Adobe Creative Cloud da [!DNL Adobe Workfront] informazioni sugli elementi da approvare, sulle assegnazioni assegnate o sui commenti e le modifiche agli elementi associati.
+title: Visualizza e gestisci  [!DNL Adobe Workfront]  notifiche in Adobe Creative Cloud
+description: In Adobe Creative Cloud puoi ricevere da [!DNL Adobe Workfront] notifiche sugli elementi da approvare, sulle assegnazioni che ti sono state assegnate o commenti e modifiche agli elementi a cui sei associato.
 author: Courtney,Becky
 feature: Workfront Integrations and Apps, Digital Content and Documents
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+exl-id: b07474c0-ba41-4382-8374-040f633a47ed
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 0%
@@ -14,9 +15,9 @@ ht-degree: 0%
 
 # Visualizza e gestisci [!DNL Adobe Workfront] notifiche da [!DNL Adobe Creative Cloud]
 
-Puoi ricevere notifiche in Adobe Creative Cloud da [!DNL Adobe Workfront] informazioni sugli elementi da approvare, sulle assegnazioni assegnate o sui commenti e le modifiche agli elementi associati.
+Puoi ricevere notifiche in Adobe Creative Cloud da [!DNL Adobe Workfront] sugli elementi da approvare, sulle assegnazioni che ti sono state assegnate o sui commenti e le modifiche agli elementi a cui sei associato.
 
-Queste notifiche contengono [!DNL Workfront] azioni che puoi eseguire senza allontanarti dal Adobe Creative Cloud per eseguirle.
+Queste notifiche contengono [!DNL Workfront] azioni che è possibile eseguire senza uscire da Adobe Creative Cloud per eseguirle.
 
 Le notifiche sono disponibili nelle seguenti app Adobe Creative Cloud:
 
@@ -24,7 +25,7 @@ Le notifiche sono disponibili nelle seguenti app Adobe Creative Cloud:
 
 ## Requisiti di accesso
 
-&lt;You must have the following access to perform the steps in this article:
+&lt;Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,23 +43,23 @@ Le notifiche sono disponibili nelle seguenti app Adobe Creative Cloud:
   </tr> -->
   <tr> 
    <td role="rowheader">Prodotto</td> 
-   <td>Devi avere un [!DNL Adobe Creative Cloud] licenza in aggiunta a una [!DNL Workfront] licenza.</td> 
+   <td>È necessario disporre di una licenza [!DNL Adobe Creative Cloud] oltre a una licenza [!DNL Workfront].</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
 
 ## Prerequisiti
 
 {{cc-install-prereq}}
 
-* Hai abilitato le notifiche istantanee in [!DNL Workfront]. Per informazioni sull’abilitazione delle notifiche istantanee, consulta [Modifica le tue notifiche e-mail](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* Hai abilitato le notifiche istantanee in [!DNL Workfront]. Per informazioni sull&#39;attivazione delle notifiche istantanee, vedere [Modificare le proprie notifiche e-mail](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Visualizza e gestisci [!DNL Workfront] notifiche in Adobe Creative Cloud
 
-1. Fai clic sul pulsante **[!UICONTROL Notifiche]** icona ![Icona Notifiche](assets/cc-plugin-notifications-icon.png) nella parte superiore del pannello del plug-in. Un punto blu sull’icona indica che sono presenti notifiche non lette.
-1. (Facoltativo) Per contrassegnare tutte le notifiche come visualizzate, fai clic su **[!UICONTROL Contrassegna tutto come visto]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Notifiche]** ![Icona Notifiche](assets/cc-plugin-notifications-icon.png) nella parte superiore del pannello del plug-in. Un punto blu sull’icona indica che sono presenti notifiche non lette.
+1. (Facoltativo) Per contrassegnare tutte le notifiche come visualizzate, fai clic su **[!UICONTROL Contrassegna tutte come viste]**.
 
    In questo modo le notifiche vengono contrassegnate come visualizzate sia nel plug-in che in Workfront. Le notifiche visualizzate non sono più visibili nell’elenco delle notifiche nel plug-in.
 
@@ -75,5 +76,3 @@ Nel plug-in sono disponibili le seguenti notifiche:
 * Qualcuno ha commentato un aggiornamento in cui sei incluso
 * Qualcuno ha commentato il tuo elemento di lavoro o qualcosa che hai fatto
 * Il documento è approvato/approvato con modifiche/rifiutato
-
-

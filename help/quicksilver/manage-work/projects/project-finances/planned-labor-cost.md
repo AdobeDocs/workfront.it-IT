@@ -2,8 +2,8 @@
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
-title: Calcola costo lavoro pianificato
-description: Quando si pianifica il lavoro sui progetti, Adobe Workfront calcola il costo del lavoro pianificato per i ruoli e gli utenti assegnati a questo lavoro in base ai valori di Costo per ora.
+title: Calcola costo manodopera pianificata
+description: Quando si pianifica il lavoro sui progetti, Adobe Workfront calcola il costo manodopera pianificata per i ruoli e gli utenti assegnati a questo lavoro in base ai valori del costo orario.
 author: Alina
 feature: Work Management
 exl-id: af053e9a-09dc-4b4d-8ed4-f681ed611a59
@@ -14,49 +14,49 @@ ht-degree: 0%
 
 ---
 
-# Calcola costo lavoro pianificato
+# Calcola costo manodopera pianificata
 
-Quando si pianifica il lavoro sui progetti, Adobe Workfront calcola il costo del lavoro pianificato per i ruoli e gli utenti assegnati a questo lavoro in base ai valori di Costo per ora.
+Quando si pianifica il lavoro sui progetti, Adobe Workfront calcola il costo manodopera pianificata per i ruoli e gli utenti assegnati a questo lavoro in base ai valori del costo orario.
 
-Il costo del lavoro pianificato di un progetto è un calcolo tra il costo associato ai ruoli del lavoro o agli utenti assegnati per completare il lavoro sul progetto e la quantità di ore pianificate (ore pianificate) che potrebbero richiedere a ciascun ruolo o utente di completare il lavoro.
+Il Costo manodopera pianificata di un progetto è un calcolo tra il costo associato alle mansioni o agli utenti assegnati per completare il lavoro sul progetto e la quantità di ore pianificate (Ore pianificate) che potrebbero richiedere a ciascun ruolo o utente di completare tale lavoro.
 
-## Panoramica del costo del lavoro pianificato
+## Panoramica del costo della manodopera pianificata
 
-La **Costo del lavoro pianificato** di un progetto viene calcolato aggiungendo tutti i costi di manodopera pianificati di tutte le attività del progetto.
+Il **costo manodopera pianificata** di un progetto viene calcolato aggiungendo tutti i costi manodopera pianificata di tutte le attività del progetto.
 
 >[!TIP]
 >
->Non esiste un costo del lavoro pianificato associato a problemi o al progetto stesso.
+>Non esiste alcun Costo di Lavoro Pianificato associato ai problemi o al progetto stesso.
 
-Workfront calcola il costo del lavoro pianificato di un progetto utilizzando la formula seguente:
+Workfront calcola il costo manodopera pianificata di un progetto utilizzando la formula seguente:
 
 ```
 Project Planned Labor Cost= SUM(Tasks Planned Labor Cost)
 ```
 
-Il costo del lavoro pianificato dell&#39;attività viene calcolato in base ai seguenti criteri:
+Il costo manodopera pianificata per l&#39;attività viene calcolato in base ai seguenti elementi:
 
 * Numero di risorse sull&#39;attività e relativa allocazione individuale all&#39;attività
 * Tipo di costo dell&#39;attività.
 
-Il costo del lavoro pianificato task viene calcolato utilizzando la formula seguente:
+Il costo manodopera pianificata per l&#39;attività viene calcolato utilizzando la formula seguente:
 
 ```
 Task Planned Cost = Planned Hours x User or Job Role Cost Per Hour
 ```
 
-Per ulteriori informazioni sul modo in cui Workfront calcola il costo del lavoro pianificato per le attività, a seconda delle assegnazioni delle attività e del tipo di costo, vedere la sezione &quot;Modifica tipi di costo per le singole attività&quot; nell&#39;articolo [Costi di tracciamento](../../../manage-work/projects/project-finances/track-costs.md).
+Per ulteriori informazioni sul modo in cui Workfront calcola il costo della manodopera pianificata per le attività, in base alle assegnazioni delle attività e al tipo di costo, vedere la sezione &quot;Modifica tipi di costo per singole attività&quot; nell&#39;articolo [Tracciare i costi](../../../manage-work/projects/project-finances/track-costs.md).
 
-## Individuare il costo del lavoro pianificato
+## Individuazione del costo manodopera pianificata
 
-È possibile individuare il costo del lavoro pianificato per un progetto nelle seguenti aree di Workfront:
+È possibile individuare il costo manodopera pianificata di un progetto nelle seguenti aree di Workfront:
 
-* Rapporto Progetto
-* Elenco dei progetti
-* Un rapporto della linea di base in cui è possibile tenerlo traccia nel tempo
+* Un report di progetti
+* Un elenco di progetti
+* Un report di baseline in cui è possibile tracciarlo nel tempo
 * Tramite l’API
 
 Per informazioni sulla creazione di rapporti e sull’utilizzo dell’API Workfront, consulta i seguenti articoli:
 
-* [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)
+* [Crea un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)
 * [Nozioni di base sulle API](../../../wf-api/general/api-basics.md)

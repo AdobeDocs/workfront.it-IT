@@ -39,7 +39,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizza o autorizzazioni superiori per attività e problemi</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Visualizza o autorizzazioni superiori per attività e problemi</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,53 +53,53 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ### Invia una scheda orario per l&#39;approvazione
 
-Dopo aver impostato un approvatore della scheda orario (come descritto nella sezione [Designa approvatori scheda orario](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) nell’articolo [Approvare una scheda orario](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)), il **Chiudi** nella parte inferiore della scheda orario diventa un **Invia per approvazione** pulsante.
+Dopo aver impostato un approvatore della scheda orario (come descritto nella sezione [Designare gli approvatori della scheda orario](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) nell&#39;articolo [Approvare una scheda orario](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)), il pulsante **Chiudi** nella parte inferiore della scheda orario diventa un pulsante **Invia per approvazione**.
 
 Per inviare una scheda orario per l&#39;approvazione:
 
 1. Vai a una scheda orario configurata per avere un approvatore.
 1. Tempo di connessione, come descritto in [Tempo di connessione](../../timesheets/create-and-manage-timesheets/log-time.md).
-1. Clic **Invia per approvazione** per avviare il processo di approvazione della scheda orario.
+1. Fai clic su **Invia per approvazione** per avviare il processo di approvazione della scheda orario.
 
    ![](assets/submit-for-approval-button-on-timesheet-nwe.png)
 
-   Il **Invia per approvazione** è sostituito da **Approva**, **Rifiuta**, e **Richiama** pulsanti. Lo stato della scheda orario diventa **Inviato**.
+   Il pulsante **Invia per approvazione** è sostituito dai pulsanti **Approva**, **Rifiuta** e **Richiama**. Lo stato della scheda orario diventa **Inviato**.
 
-   Quando la scheda orario viene inviata per l&#39;approvazione, l&#39;approvatore visualizza la scheda orario elencata in **Approvazioni** area sul **Home** pagina. Potrebbero verificarsi gli eventi seguenti:
+   Quando la scheda orario viene inviata per l&#39;approvazione, l&#39;approvatore visualizza la scheda orario elencata nell&#39;area **Approvazioni** della **Home** pagina. Potrebbero verificarsi gli eventi seguenti:
 
-   * Se la approvano, il **Richiama** il pulsante diventa **Riapri** e lo stato della scheda orario viene aggiornato in **Apri**.
-   * Se la rifiutano, il **Invia per approvazione** sostituisce il pulsante **Richiama** e lo stato della scheda orario viene aggiornato in **Rifiutato**.
+   * Se l&#39;approvano, il pulsante **Richiama** diventa **Riapri** e lo stato della scheda orario diventa **Apri**.
+   * Se rifiuta, il pulsante **Invia per approvazione** sostituisce il pulsante **Richiama** e lo stato della scheda orario viene aggiornato a **Rifiutato**.
 
-1. (Facoltativo) Fai clic su **Richiama** se devi riaprire la scheda orario e aggiornare l’orario. Per informazioni, vedere [Richiama una scheda orario](#recall-a-timesheet) in questo articolo.
+1. (Facoltativo) Fai clic su **Richiama** per riaprire la scheda orario e aggiornare l&#39;orario. Per informazioni, vedere la sezione [Richiama una scheda orario](#recall-a-timesheet) in questo articolo.
 
 ### Visualizzare lo stato di una scheda orario inviata {#view-the-status-of-a-submitted-timesheet}
 
 È possibile visualizzare lo stato di una scheda orario dopo averla inviata.
 
-Se l&#39;amministratore di Workfront ha attivato i gestori eventi Approvazione scheda orario e Rifiuto scheda orario per utente, l&#39;utente riceverà una notifica dopo l&#39;approvazione o il rifiuto della scheda orario. Per informazioni sull’abilitazione delle notifiche degli eventi, consulta [Tipi di notifica degli eventi](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Se l&#39;amministratore di Workfront ha attivato i gestori eventi Approvazione scheda orario e Rifiuto scheda orario per utente, l&#39;utente riceverà una notifica dopo l&#39;approvazione o il rifiuto della scheda orario. Per informazioni sull&#39;attivazione delle notifiche degli eventi, vedere [Tipi di notifica degli eventi](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 Senza queste notifiche, puoi scoprire lo stato delle schede orario inviate nell’area Scheda orario di Workfront.
 
 Per visualizzare lo stato di una scheda orario:
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront.
-1. Clic **Schede orario**. Il **Tutti** è selezionato per impostazione predefinita.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront.
+1. Fai clic su **Schede orario**. Il filtro **All** è selezionato per impostazione predefinita.
 
    ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. (Facoltativo) Per aggiornare il filtro nell’elenco delle schede orario, effettua una delle seguenti operazioni:
 
-   * Seleziona **Le mie approvazioni schede orario** nell’angolo superiore destro della pagina per visualizzare solo le schede orario che hai approvato
+   * Seleziona **Le mie approvazioni schede orario** nell&#39;angolo superiore destro della pagina per visualizzare solo le schede orario che hai approvato
 
      Oppure
 
-     Seleziona **Le mie schede orario** per visualizzare solo le schede orario.
+     Seleziona **Le mie schede orario** per visualizzare solo le tue schede orario.
 
      In questo modo all’elenco delle schede orario vengono applicate le approvazioni delle mie schede orario o i filtri delle mie schede orario.
 
      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Fai clic sull’icona Filtro. ![](assets/filter-nwepng.png) per applicare un filtro diverso o crearne uno nuovo. Per informazioni sulla creazione o l’aggiornamento dei filtri, consulta [Creare o modificare filtri in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Fare clic sull&#39;icona Filtro ![](assets/filter-nwepng.png) per applicare un filtro diverso o crearne uno nuovo. Per informazioni sulla creazione o l&#39;aggiornamento dei filtri, vedere [Creare o modificare filtri in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
@@ -111,7 +111,7 @@ Per visualizzare lo stato di una scheda orario:
    >   
    >
 
-1. (Condizionale) Se hai selezionato **Le mie schede orario**, assicurano che **Standard** viene applicata la visualizzazione e si osserva **Stato** colonna.
+1. (Condizionale) Se hai selezionato **Le mie schede orario**, accertati che sia applicata la visualizzazione **Standard** e osserva la colonna **Stato**.
 
    Le schede orario possono avere i seguenti stati:
 
@@ -121,11 +121,11 @@ Per visualizzare lo stato di una scheda orario:
     <tbody> 
      <tr> 
       <td role="rowheader">Aperti</td> 
-      <td> <p>La scheda orario è attualmente aperta e si potrebbe registrare l'ora. </p> <p>Viene visualizzata una scheda orario richiamata con lo stato Aperto. Per informazioni, vedere <a href="#recall-a-timesheet" class="MCXref xref">Richiama una scheda orario</a> in questo articolo. </p> </td> 
+      <td> <p>La scheda orario è attualmente aperta e si potrebbe registrare l'ora. </p> <p>Viene visualizzata una scheda orario richiamata con lo stato Aperto. Per informazioni, vedere la sezione <a href="#recall-a-timesheet" class="MCXref xref">Richiama una scheda orario</a> in questo articolo. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Inviate</td> 
-      <td>La scheda orario è stata inviata per l'approvazione ma non è ancora stata approvata. È possibile richiamare una scheda orario inviata per continuare a modificarla. Per informazioni, vedere <a href="#recall-a-timesheet" class="MCXref xref">Richiama una scheda orario</a> in questo articolo. </td> 
+      <td>La scheda orario è stata inviata per l'approvazione ma non è ancora stata approvata. È possibile richiamare una scheda orario inviata per continuare a modificarla. Per informazioni, vedere la sezione <a href="#recall-a-timesheet" class="MCXref xref">Richiama una scheda orario</a> in questo articolo. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Chiuso</td> 
@@ -148,11 +148,11 @@ Per visualizzare lo stato di una scheda orario:
 
 Per richiamare una scheda orario:
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront.
 
-1. Clic **Schede orario**.
-1. Clic **Le mie schede orario** nell’angolo superiore destro dello schermo o seleziona **Le mie schede orario** dal **Filtro** ![](assets/filter-nwepng.png) menu a discesa.
-1. Fai clic sull’intervallo di tempo per una scheda orario con stato **Inviato**.
-1. Clic **Richiama**.
+1. Fai clic su **Schede orario**.
+1. Fai clic su **Le mie schede orario** nell&#39;angolo superiore destro dello schermo o seleziona **Le mie schede orario** dal menu a discesa **Filtra** ![](assets/filter-nwepng.png).
+1. Fare clic sull&#39;intervallo di tempo per una scheda orario con stato **Inviato**.
+1. Fare clic su **Richiama**.
 
-   La scheda orario diventa nuovamente modificabile e il suo stato cambia in **Apri**.
+   La scheda orario diventa nuovamente modificabile e il suo stato cambia in **Open**.

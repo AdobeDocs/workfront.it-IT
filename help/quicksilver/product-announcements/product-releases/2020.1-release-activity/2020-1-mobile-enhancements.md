@@ -25,10 +25,10 @@ Per un elenco di tutte le modifiche disponibili con la versione 2020.1, consulta
 
 Per rendere la tua esperienza più coerente quando utilizzi Workfront sia sull’app mobile che sul web, qualsiasi personalizzazione della navigazione secondaria del pannello sinistro nei modelli di layout nuovi o esistenti viene automaticamente riflessa nell’app mobile.
 
-Per ulteriori informazioni sulla personalizzazione del pannello sinistro, consulta [Personalizzare il pannello sinistro utilizzando un modello di layout nella nuova esperienza Workfront](https://one.workfront.com/s/article/Customize-the-left-panel-using-a-Layout-Template-in-the-new-Workfront-experience-354734188).
+Per ulteriori informazioni sulla personalizzazione del pannello sinistro, vedere [Personalizzare il pannello sinistro utilizzando un modello di layout nella nuova esperienza Workfront](https://one.workfront.com/s/article/Customize-the-left-panel-using-a-Layout-Template-in-the-new-Workfront-experience-354734188).
 
 ## Aggiornamenti Mi piace sull’app mobile
 
 Utilizza il nuovo pulsante Mi piace nella scheda Aggiornamenti per aggiungere Mi piace a un aggiornamento.
 
-Per ulteriori informazioni, consulta [Adobe Workfront per iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) e [Adobe Workfront per Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).
+Per ulteriori informazioni, vedere [Adobe Workfront per iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) e [Adobe Workfront per Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).

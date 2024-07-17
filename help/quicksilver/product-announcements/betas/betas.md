@@ -1,6 +1,6 @@
 ---
 navigation-topic: betas
-title: Programmi beta
+title: Programmi Beta
 description: Scopri le versioni beta correnti in Adobe Workfront.
 author: Alina
 feature: Product Announcements
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# Programmi beta
+# Programmi Beta
 
 Gli articoli collegati da questa pagina descrivono i programmi beta correnti disponibili in Adobe Workfront. Le funzioni disponibili in versione beta potrebbero non essere disponibili per tutti i clienti.
 

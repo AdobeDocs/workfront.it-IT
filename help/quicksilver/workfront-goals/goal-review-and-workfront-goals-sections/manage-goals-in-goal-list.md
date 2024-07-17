@@ -17,7 +17,7 @@ ht-degree: 2%
 
 <!-- printing or exporting goals is no longer possible, but see if they add it later-->
 
-Dopo che tu o altri utenti avete creato gli obiettivi, puoi esaminarne l’avanzamento e le informazioni nell’Elenco obiettivi. Per informazioni sulla creazione degli obiettivi, consulta [Creare gli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
+Dopo che tu o altri utenti avete creato gli obiettivi, puoi esaminarne l’avanzamento e le informazioni nell’Elenco obiettivi. Per informazioni sulla creazione degli obiettivi, vedere [Creare gli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
 
 ## Requisiti di accesso
 
@@ -46,7 +46,7 @@ Per eseguire le azioni descritte in questo articolo, è necessario disporre dei 
  <td>
  <p>Nuova licenza: Collaboratore o versione successiva</p>
  Oppure
- <p>Licenza corrente: richiesta o successiva</p> <p>Per ulteriori informazioni, consulta <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica sulle licenze di Adobe Workfront</a>.</p> </td>
+ <p>Licenza corrente: richiesta o successiva</p> <p>Per ulteriori informazioni, vedere <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica delle licenze di Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Prodotto*</td>
@@ -56,7 +56,7 @@ Per eseguire le azioni descritte in questo articolo, è necessario disporre dei 
 <li>Un piano Select o Prime Adobe Workfront e un’ulteriore licenza Adobe Workfront Goals.</li>
 <li>Un piano Workfront Ultimate che include gli obiettivi Workfront per impostazione predefinita. </li></ul>
  <p>Oppure</p>
- <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, consulta <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l’utilizzo degli obiettivi di Workfront</a>. </p> </td>
+ <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Livello di accesso</td>
@@ -68,7 +68,7 @@ Per eseguire le azioni descritte in questo articolo, è necessario disporre dei 
   <div>
   <p>Visualizza o autorizzazioni superiori per l’obiettivo per visualizzarlo</p>
   <p>Gestire le autorizzazioni per l’obiettivo per modificarlo</p>
-  <p>Per informazioni sulla condivisione degli obiettivi, consulta <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Condividere un obiettivo in Obiettivi di Workfront</a>. </p>
+  <p>Per informazioni sulla condivisione degli obiettivi, vedere <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Condividere un obiettivo in Obiettivi di Workfront</a>. </p>
   </div> </td>
  </tr>
  <tr>
@@ -79,7 +79,7 @@ Per eseguire le azioni descritte in questo articolo, è necessario disporre dei 
 </tbody>
 </table>
 
-*Per ulteriori informazioni, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Gestione degli obiettivi nell’elenco Obiettivi
 
@@ -90,7 +90,7 @@ Puoi visualizzare e gestire gli obiettivi nelle seguenti sezioni di Obiettivi di
 
 Ogni sezione mostra gli obiettivi in formati leggermente diversi. La sezione utilizzata dipende dallo scopo che si desidera raggiungere mentre si lavora con gli obiettivi.
 
-Per ulteriori informazioni, consulta [Panoramica delle sezioni Obiettivi di Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
+Per ulteriori informazioni, consulta [Panoramica delle sezioni sugli obiettivi di Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
 
 Questo articolo descrive come rivedere gli obiettivi nell’elenco Obiettivo.
 
@@ -196,7 +196,7 @@ Quando rivedi l’elenco degli obiettivi, considera quanto segue:
 
 Per gestire gli obiettivi nell&#39;elenco Obiettivi:
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png)  nell’angolo superiore destro, quindi fai clic su **Obiettivi**.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** in alto a destra, quindi fai clic su **Obiettivi**.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -205,20 +205,20 @@ Per gestire gli obiettivi nell&#39;elenco Obiettivi:
 
    L’elenco degli obiettivi contiene i seguenti campi con informazioni su ciascun obiettivo:
 
-   * **Nome**: nome dell’obiettivo.
-   * **Proprietario**: nome del proprietario dell’obiettivo.
-   * **Periodo**: periodo di tempo per il quale è pianificato l’obiettivo.
-   * **Stato**: lo stato dell’obiettivo può essere uno dei seguenti:
+   * **Nome**: nome dell&#39;obiettivo.
+   * **Proprietario**: nome del proprietario dell&#39;obiettivo.
+   * **Periodo**: il periodo di tempo per il quale è pianificato l&#39;obiettivo.
+   * **Stato**: lo stato dell&#39;obiettivo può essere uno dei seguenti:
       * Attiva
       * Bozza
       * Inattiva
       * Chiuso
 
-     Per informazioni sullo stato dell’obiettivo, consulta [Panoramica sullo stato degli obiettivi in Obiettivi di Adobe Workfront](../goal-management/goal-status-overview.md).
+     Per informazioni sullo stato dell&#39;obiettivo, vedere [Panoramica sullo stato dell&#39;obiettivo in Obiettivi di Adobe Workfront](../goal-management/goal-status-overview.md).
 
      L&#39;icona di allineamento viene visualizzata sugli obiettivi allineati ad altri obiettivi. Per informazioni sull&#39;allineamento degli obiettivi, vedere [Allineare gli obiettivi collegandoli in Obiettivi di Adobe Workfront](../goal-alignment/align-goals-by-connecting-them.md).
 
-   * **Condizione**: rappresentazione visiva dell’avanzamento dell’obiettivo nel periodo di tempo assegnato al suo completamento.
+   * **Condizione**: rappresentazione visiva dell&#39;avanzamento dell&#39;obiettivo nel periodo di tempo assegnato per il completamento.
 
      La condizione di un obiettivo può essere una delle seguenti:
 
@@ -227,15 +227,15 @@ Per gestire gli obiettivi nell&#39;elenco Obiettivi:
       * A Rischio
       * In difficoltà
 
-     Per informazioni sulle condizioni dell’obiettivo, consulta [Panoramica dell’avanzamento e della condizione dell’obiettivo in Obiettivi di Adobe Workfront](../goal-management/calculate-goal-progress.md).
+     Per informazioni sulle condizioni dell&#39;obiettivo, vedere [Panoramica sull&#39;avanzamento e sulla condizione dell&#39;obiettivo in Obiettivi di Adobe Workfront](../goal-management/calculate-goal-progress.md).
 
-   * **Avanzamento**: indicatore di avanzamento per l’obiettivo come valore percentuale. Il colore dell’indicatore di avanzamento corrisponde al colore della condizione dell’obiettivo.
+   * **Avanzamento**: indicatore di avanzamento per l&#39;obiettivo espresso come valore percentuale. Il colore dell’indicatore di avanzamento corrisponde al colore della condizione dell’obiettivo.
 
-     Per informazioni, consulta [Calcolare l’avanzamento dell’obiettivo in Obiettivi di Adobe Workfront](../goal-management/calculate-goal-progress.md).
+     Per informazioni, consulta [Calcolare l&#39;avanzamento dell&#39;obiettivo in Obiettivi di Adobe Workfront](../goal-management/calculate-goal-progress.md).
 
-1. Fai clic sull’icona del filtro ![](assets/filter-icon.png) nell’angolo in alto a destra dell’elenco degli obiettivi e applica i filtri per visualizzare solo gli obiettivi che ritieni importanti.
+1. Fare clic sull&#39;icona filtro ![](assets/filter-icon.png) nell&#39;angolo superiore destro dell&#39;elenco degli obiettivi e applicare i filtri per visualizzare solo gli obiettivi importanti.
 
-   Per informazioni sull’utilizzo dei filtri negli Obiettivi di Workfront, consulta [Filtrare le informazioni in Obiettivi di Adobe Workfront](../goal-management/filter-information-wf-goals.md).
+   Per informazioni sull&#39;utilizzo dei filtri negli obiettivi di Workfront, vedere [Informazioni sui filtri negli obiettivi di Adobe Workfront](../goal-management/filter-information-wf-goals.md).
 
 1. Fare clic su uno dei campi nelle intestazioni di colonna per ordinare l&#39;elenco in base a tale campo.
 A destra del campo in base al quale viene ordinato l&#39;elenco viene visualizzata una freccia.
@@ -244,9 +244,9 @@ A destra del campo in base al quale viene ordinato l&#39;elenco viene visualizza
 1. Fai clic sul nome di un obiettivo per aprirne la pagina.
 1. Seleziona un obiettivo nell’elenco, quindi fai clic su una delle seguenti opzioni nella parte superiore dell’elenco:
    * **Modifica** icona ![](assets/edit-icon.png) per modificare le informazioni sull&#39;obiettivo. Per informazioni, consulta [Modificare gli obiettivi in Obiettivi di Adobe Workfront](../goal-management/edit-goals.md).
-   * **Condividi** icona ![](assets/share-icon.png) per condividere l’obiettivo con altre persone. Per informazioni, consulta [Condividere un obiettivo in Obiettivi di Adobe Workfront](../workfront-goals-settings/share-a-goal.md).
+   * **Condividi** icona ![](assets/share-icon.png) per condividere l&#39;obiettivo con altre persone. Per informazioni, consulta [Condividere un obiettivo negli Obiettivi di Adobe Workfront](../workfront-goals-settings/share-a-goal.md).
    * **Apri allineamento** icona ![](assets/align-icon-unshimmed.png) per aprire l&#39;area Allineamento obiettivo. Questa opzione viene visualizzata solo quando l&#39;obiettivo selezionato è allineato a un altro obiettivo.
-   * **Elimina** icona ![](assets/delete-icon.png) per eliminare l’obiettivo, fai clic su **Elimina** per confermare.  Per informazioni, consulta [Eliminare e disattivare gli obiettivi in Obiettivi di Adobe Workfront](../goal-management/delete-and-deactivate-goals.md).
+   * **Elimina** icona ![](assets/delete-icon.png) per eliminare l&#39;obiettivo, quindi fai clic su **Elimina** per confermare.  Per informazioni, consulta [Eliminare e disattivare gli obiettivi in Obiettivi di Adobe Workfront](../goal-management/delete-and-deactivate-goals.md).
 
 
 

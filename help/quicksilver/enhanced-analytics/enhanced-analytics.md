@@ -19,15 +19,15 @@ ht-degree: 4%
 
 Questa sezione contiene i seguenti articoli:
 
-* [Panoramica di analisi avanzate](../enhanced-analytics/enhanced-analytics-overview.md)
-* [Applicare i filtri nelle analisi avanzate](../enhanced-analytics/use-enhanced-analytics-filters.md)
-* [Comprendere i KPI per analisi avanzate](../enhanced-analytics/understand-enhanced-analytics-kpis.md)
-* [Visualizzare la visualizzazione del piano di volo in Analisi avanzate](../enhanced-analytics/flight-plan-overview.md)
-* [Visualizzare la visualizzazione Burndown in Analisi avanzate](../enhanced-analytics/burndown-overview.md)
-* [Visualizzare la visualizzazione Attività in volo in Analisi avanzate](../enhanced-analytics/tasks-in-flight-overview.md)
-* [Visualizzare l’attività del progetto in Analisi avanzate](../enhanced-analytics/project-activity-overview.md)
-* [Visualizzare la mappa ad albero del progetto in Analisi avanzate](../enhanced-analytics/project-treemap-overview.md)
-* [Visualizzare la visualizzazione Attività per team in Analisi avanzate](../enhanced-analytics/activity-by-team-overview.md)
+* [Panoramica analisi avanzate](../enhanced-analytics/enhanced-analytics-overview.md)
+* [Applicare filtri in analisi avanzate](../enhanced-analytics/use-enhanced-analytics-filters.md)
+* [Comprendere i KPI di analisi avanzata](../enhanced-analytics/understand-enhanced-analytics-kpis.md)
+* [Visualizzazione del piano di volo in Analisi avanzate](../enhanced-analytics/flight-plan-overview.md)
+* [Visualizzazione Burndown in Analisi avanzate](../enhanced-analytics/burndown-overview.md)
+* [Visualizza le Attività nella visualizzazione di volo in Analisi avanzate](../enhanced-analytics/tasks-in-flight-overview.md)
+* [Visualizza la visualizzazione dell&#39;attività del progetto in Analisi avanzate](../enhanced-analytics/project-activity-overview.md)
+* [Visualizzazione Mappa ad albero progetto in Analisi avanzate](../enhanced-analytics/project-treemap-overview.md)
+* [Visualizzazione dell&#39;attività per team in Analisi avanzate](../enhanced-analytics/activity-by-team-overview.md)
 <!--
 * [View the Resource capacity visualization in Enhanced analytics](../enhanced-analytics/resource-capacity-overview.md) 
 * [View the Team capacity visualization in Enhanced analytics](../enhanced-analytics/team-capacity-overview.md) 
@@ -37,4 +37,4 @@ Questa sezione contiene i seguenti articoli:
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../enhanced-analytics/trend-views-overview.md" class="MCXref xref" xrefformat="{para}">Trend views overview</a> </li>
   -->
 
-Per una formazione approfondita su Analisi avanzate, consulta [Percorsi di apprendimento migliorati per le analisi](https://one.workfront.com/s/enhanced-analytics-program).
+Per informazioni approfondite su Analisi avanzate, consulta [Percorsi di apprendimento per Analisi avanzate](https://one.workfront.com/s/enhanced-analytics-program).

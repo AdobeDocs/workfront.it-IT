@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
 source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '855'
 ht-degree: 1%
 
 ---
@@ -37,25 +37,25 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modifica l'accesso ad Attività e Progetti con l'accesso a Elimina</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni sull'accesso alle attività, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Concedere l’accesso alle attività</a>. Per informazioni su come un amministratore di Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>. </p> </td> 
+   <td> <p>Modifica l'accesso ad Attività e Progetti con l'accesso a Elimina</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni sull'accesso alle attività, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Concedere l'accesso alle attività</a>. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Autorizzazioni di Contribute per il progetto con la possibilità di aggiungere attività o versione successiva</p> <p>Quando crei un’attività, ricevi automaticamente le autorizzazioni di gestione per l’attività</p> <p> Per informazioni sulle autorizzazioni per le attività, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Condividere un’attività </a>. </p> <p>Per informazioni sulla richiesta di autorizzazioni aggiuntive, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Autorizzazioni di Contribute per il progetto con la possibilità di aggiungere attività o versione successiva</p> <p>Quando crei un’attività, ricevi automaticamente le autorizzazioni di gestione per l’attività</p> <p> Per informazioni sulle autorizzazioni per l'attività, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Condividere un'attività </a>. </p> <p>Per informazioni sulla richiesta di autorizzazioni aggiuntive, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Comprendere il processo di eliminazione delle attività
 
-* [Limitazioni per l’eliminazione di attività](#limitations-for-deleting-tasks)
+* [Limitazioni per l&#39;eliminazione di attività](#limitations-for-deleting-tasks)
 * [Impatto dell’eliminazione di attività](#the-impact-of-deleting-tasks)
 
 ### Limitazioni per l’eliminazione di attività  {#limitations-for-deleting-tasks}
 
-* Quando un progetto ha lo stato Completato, è possibile eliminare le attività solo se l&#39;amministratore di Workfront o un amministratore di gruppo lo ha consentito nell&#39;area Preferenze progetto. Per informazioni sulla configurazione delle preferenze di progetto, consulta [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Quando un progetto ha lo stato Completato, è possibile eliminare le attività solo se l&#39;amministratore di Workfront o un amministratore di gruppo lo ha consentito nell&#39;area Preferenze progetto. Per informazioni sulla configurazione delle preferenze di progetto, vedere [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * Se l’attività ha registrato ore, l’amministratore di Workfront o di gruppo deve consentire l’eliminazione di tali attività configurando le Preferenze attività e problemi nell’istanza Workfront. Ciò si applica anche quando si tenta di eliminare progetti che dispongono di attività con ore collegate.
 
@@ -63,7 +63,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   (NOTE: the last statement is NWE&nbsp;only; not possible in classic)
   -->
 
-  Per ulteriori informazioni sull&#39;eliminazione delle attività in cui sono registrate ore, vedere la sezione &quot;Eliminazione&quot; in [Configurare le preferenze per attività e problemi a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Per ulteriori informazioni sull&#39;abilitazione dell&#39;eliminazione delle attività in cui sono registrate le ore, vedere la sezione &quot;Eliminazione&quot; in [Configurare le preferenze relative alle attività e ai problemi a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 ### Impatto dell’eliminazione di attività {#the-impact-of-deleting-tasks}
 
@@ -73,7 +73,7 @@ Quando si elimina un&#39;attività, vengono eliminati anche i seguenti oggetti a
 
 * Documenti
 
-  Non è possibile eliminare un&#39;attività a cui è associato un documento estratto. Per ulteriori informazioni sull&#39;estrazione di documenti, vedere [Estrai documenti](../../../documents/managing-documents/check-out-documents.md).
+  Non è possibile eliminare un&#39;attività a cui è associato un documento estratto. Per ulteriori informazioni sull&#39;estrazione di documenti, vedere [Estrarre documenti](../../../documents/managing-documents/check-out-documents.md).
 
 * Problemi
 * Sottoattività
@@ -93,68 +93,68 @@ A seconda del modo in cui l’amministratore di Workfront configura le preferenz
   </MadCap:conditionalText>
   -->
 
-  Per ulteriori informazioni sulla configurazione delle preferenze di eliminazione per le ore collegate a problemi, consulta [Configurare le preferenze di orario e scheda orario](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+  Per ulteriori informazioni sulla configurazione delle preferenze di eliminazione per le ore collegate a problemi, vedere [Configurare le preferenze relative alle ore e alla scheda orario](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 * Le spese per l&#39;attività verranno spostate nel progetto.
 
 * Gli utenti assegnati all&#39;attività o all&#39;approvazione dell&#39;attività rimangono nel team di progetto.
 
-  Per ulteriori informazioni sui team di progetto, vedi [Panoramica del team del progetto](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+  Per ulteriori informazioni sui team di progetto, vedere [Panoramica team di progetto](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Elimina attività
 
-* [Eliminare più attività contemporaneamente in un progetto](#delete-multiple-tasks-in-a-project-simultaneously)
+* [Eliminare più attività in un progetto contemporaneamente](#delete-multiple-tasks-in-a-project-simultaneously)
 * [Eliminare una singola attività](#delete-a-single-task)
 
 ### Eliminare più attività contemporaneamente in un progetto  {#delete-multiple-tasks-in-a-project-simultaneously}
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront.
 
-1. Clic **Progetti**.
+1. Fai clic su **Progetti**.
 1. Fare clic sul nome del progetto contenente le attività che si desidera eliminare.
-1. Clic **Attività** nel pannello a sinistra.
+1. Fai clic su **Attività** nel pannello a sinistra.
 1. Esegui una delle operazioni seguenti:
 
-   1. (Condizionale) Quando **Salvataggio automatico** attivazione/disattivazione:
+   1. (Condizionale) Quando l&#39;interruttore **Salvataggio automatico** è abilitato:
 
       1. Seleziona le attività da eliminare, quindi fai clic su **Altro**
-      1. Clic **Elimina**, quindi **Sì, elimina** per confermare l’eliminazione.
+      1. Fai clic su **Elimina**, quindi su **Sì, Elimina** per confermare l&#39;eliminazione.
 
          Le attività vengono eliminate.
 
-   1. (Condizionale) Fai clic su **Modalità pianificazione** e seleziona **Salvataggio manuale** se si desidera annullare le modifiche apportate all&#39;elenco delle attività.
+   1. (Facoltativo) Fai clic sull&#39;icona **Modalità pianificazione** e seleziona **Salvataggio manuale** per annullare le modifiche apportate all&#39;elenco delle attività.
 
       ![Seleziona salvataggio manuale](assets/manual-save-option.png)
 
       Effettua le seguenti operazioni:
 
       1. Selezionare le attività da eliminare.
-      1. Clic **Elimina**.
+      1. Fare clic su **Elimina**.
       1. (Facoltativo) Fai clic su **Annulla** per annullare la modifica e non eliminare le attività.
-      1. Clic **Ripeti** se si desidera mantenere la modifica ed eliminare l&#39;attività.
-      1. Clic **Salva** per eliminare le attività.
+      1. Fare clic su **Ripeti** per mantenere la modifica ed eliminare l&#39;attività.
+      1. Fai clic su **Salva** per eliminare le attività.
 
          Le attività vengono eliminate solo dopo il salvataggio delle modifiche.
 
 ### Eliminare una singola attività {#delete-a-single-task}
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront.
 
-1. Clic **Progetti**.
+1. Fai clic su **Progetti**.
 1. Fare clic sul nome del progetto che contiene l&#39;attività che si desidera eliminare.
-1. Clic **Attività** nel pannello sinistro.
+1. Fai clic su **Attività** nel pannello a sinistra.
 1. Fare clic sul nome dell&#39;attività che si desidera eliminare.
-1. Fai clic su **Altro** icona ![](assets/qs-more-menu.png)nell’angolo superiore destro.
+1. Fai clic sull&#39;icona **Altro** ![](assets/qs-more-menu.png)nell&#39;angolo superiore destro.
 
    ![](assets/delete-tasks-task-level-nwe-350x225.png)
 
-1. Clic **Elimina attività**.
-1. Se l’eliminazione è consentita, fai clic su **Sì, elimina**.
+1. Fai clic su **Elimina attività**.
+1. Se l&#39;eliminazione è consentita, fare clic su **Sì, eliminarla**.
 
    L&#39;amministratore di Workfront o l&#39;amministratore di gruppo potrebbe non consentire l&#39;eliminazione delle attività in cui sono registrate le ore.
 
-   Per ulteriori informazioni sull’accesso e le autorizzazioni necessari per eliminare un’attività, consulta la sezione [Limitazioni per l’eliminazione di attività](#limitations-for-deleting-tasks) in questo articolo.
+   Per ulteriori informazioni sull&#39;accesso e sulle autorizzazioni necessarie per eliminare un&#39;attività, vedere la sezione [Limitazioni per l&#39;eliminazione delle attività](#limitations-for-deleting-tasks) in questo articolo.
 
 ## Ripristina le attività eliminate
 
-Un amministratore di Workfront o di gruppo può ripristinare le attività entro 30 giorni dalla loro eliminazione, come descritto in [Ripristina elementi eliminati](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+Un amministratore di Workfront o di gruppo può ripristinare le attività entro 30 giorni dall&#39;eliminazione, come descritto in [Ripristina elementi eliminati](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).

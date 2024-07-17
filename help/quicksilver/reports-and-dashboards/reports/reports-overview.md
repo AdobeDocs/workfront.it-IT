@@ -22,12 +22,12 @@ ht-degree: 1%
 Questa sezione contiene le seguenti sottosezioni:
 
 * [Nozioni di base sul reporting](../../reports-and-dashboards/reports/reporting/reporting-basics.md)
-* [Panoramica degli elementi di reporting](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
-* [Utilizzare rapporti incorporati](../../reports-and-dashboards/reports/using-built-in-reports/use-built-in-reports.md)
-* [Creare e gestire i rapporti](../../reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md)
-* [Dati personalizzati calcolati nei rapporti](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
+* [Panoramica sugli elementi di reporting](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
+* [Utilizzare i report incorporati](../../reports-and-dashboards/reports/using-built-in-reports/use-built-in-reports.md)
+* [Creare e gestire i report](../../reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md)
+* [Dati personalizzati calcolati nei report](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
 * [Esempi di visualizzazione, filtro e raggruppamento personalizzati: indice articolo](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 * [Risorse in modalità testo: indice articolo](../../reports-and-dashboards/reports/text-mode/text-mode-resources.md)
-* [Panoramica sull’utilizzo dei rapporti](../../reports-and-dashboards/reports/report-usage/report-usage-overview.md)
-* [Calendari: indice articoli](../../reports-and-dashboards/reports/calendars/calendars.md)
+* [Panoramica sull&#39;utilizzo del report](../../reports-and-dashboards/reports/report-usage/report-usage-overview.md)
+* [Calendari: indice articolo](../../reports-and-dashboards/reports/calendars/calendars.md)
 * [Suggerimenti, trucchi e risoluzione dei problemi per i rapporti](../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)

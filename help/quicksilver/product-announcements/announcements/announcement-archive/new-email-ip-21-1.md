@@ -19,7 +19,7 @@ Per aumentare il successo della consegna delle e-mail, stiamo aggiungendo nuovi 
 
 **Cluster 1, 2, 3 e 5**
 
-Aggiungi i seguenti indirizzi IP al tuo elenco Consentiti di per garantire che gli utenti continuino a ricevere la loro e-mail:
+Aggiungi i seguenti indirizzi IP al tuo inserisco nell&#39;elenco Consentiti di per garantire che gli utenti continuino a ricevere la loro e-mail:
 
 * 23 251 237 107
 * 23 251 237 108
@@ -28,12 +28,12 @@ Aggiungi i seguenti indirizzi IP al tuo elenco Consentiti di per garantire che g
 
 **Cluster 4**
 
-Aggiungi i seguenti indirizzi IP al tuo elenco Consentiti di per garantire che gli utenti continuino a ricevere la loro e-mail:
+Aggiungi i seguenti indirizzi IP al tuo inserisco nell&#39;elenco Consentiti di per garantire che gli utenti continuino a ricevere la loro e-mail:
 
 * 23 251 239 98
 * 23 251 239 99
 
-(Per ulteriori informazioni sul inserire nell&#39;elenco Consentiti inserisco nell&#39;elenco Consentiti di e su altri indirizzi IP che potrebbero essere già stati aggiunti al tuo, consulta [Configurare il inserisco nell&#39;elenco Consentiti di configurazione del firewall per l’accesso a un sistema di protezione da attacchi di tipo](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).)
+(Per ulteriori informazioni sul inserisco nell&#39;elenco Consentiti di e su altri indirizzi IP che potrebbero essere già stati aggiunti al elenco Consentiti di gestione del sistema, vedere [Configurare il inserisco nell&#39;elenco Consentiti di gestione del sistema di gestione del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).)
 
 Quando è necessario?
 

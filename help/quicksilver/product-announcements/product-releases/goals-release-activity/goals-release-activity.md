@@ -24,5 +24,5 @@ Le seguenti versioni sono state rese disponibili per Workfront Goals:
 
 * [Obiettivi di Adobe Workfront con la versione 21.2](../../../product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md)
 * [Obiettivi di Adobe Workfront con la versione 21.1](../../../product-announcements/product-releases/goals-release-activity/goals-release-21-1.md)
-* [Obiettivi di Workfront con la versione 20.4](../../../product-announcements/product-releases/goals-release-activity/goals-release-20-4.md)
+* [Obiettivi Workfront con versione 20.4](../../../product-announcements/product-releases/goals-release-activity/goals-release-20-4.md)
 * [Obiettivi di Workfront con la versione 20.3 - 14 agosto 2020](../../../product-announcements/product-releases/goals-release-activity/goals-release-20-3.md)

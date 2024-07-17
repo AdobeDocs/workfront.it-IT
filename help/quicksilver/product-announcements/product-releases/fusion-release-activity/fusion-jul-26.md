@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti apportati ad Adobe Workfront Fusion la settimana del 26 luglio 2021.
 
-Per un elenco di tutte le modifiche recenti, vedi [Attività di rilascio di Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Per un elenco di tutte le modifiche recenti, vedere [Attività di Adobe Workfront Fusion release](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedi [Aggiornamenti di manutenzione per Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
+Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedere la pagina [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
 
 ## Moduli semplificati nel connettore Salesforce
 
@@ -30,11 +30,11 @@ In precedenza, tutti i campi disponibili di un record apparivano nel modulo, il 
 
 La funzionalità degli scenari esistenti che utilizzano i moduli precedentemente disponibili non subirà modifiche, anche se tali moduli non saranno disponibili per l’utilizzo in nuovi scenari.
 
-Per ulteriori informazioni, consulta [Moduli Salesforce](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md).
+Per ulteriori informazioni, vedere [Moduli Salesforce](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md).
 
 ## Vedi più chiaramente i dettagli di accesso all’account quando fornisci il consenso ai connettori Adobe Workfront Fusion
 
 Le schermate di consenso per le connessioni ad Adobe Workfront Fusion ora sono aggiornate. Ora puoi vedere le azioni e le aree specifiche a cui le connessioni hanno accesso, in modo da comprendere meglio a cosa stai consentendo l’accesso all’applicazione.
 
-Per ulteriori informazioni, vedere [Collegare l&#39;app o il servizio Web del modulo a Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md#connect) sezione in [Creare uno scenario in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md).
+Per ulteriori informazioni, vedere la sezione [Connettere l&#39;app o il servizio Web del modulo a Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md#connect) in [Creare uno scenario in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md).
 

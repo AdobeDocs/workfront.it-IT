@@ -2,7 +2,7 @@
 product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Reimposta la password
-description: È possibile reimpostare [!DNL Adobe Workfront] password. Come misura di sicurezza importante, ti consigliamo di farlo regolarmente.
+description: Puoi reimpostare la tua  [!DNL Adobe Workfront]  password. Come misura di sicurezza importante, ti consigliamo di farlo regolarmente.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
@@ -17,11 +17,11 @@ ht-degree: 1%
 
 {{important-not-on-aec}}
 
-È possibile reimpostare [!DNL Adobe Workfront] password. Come misura di sicurezza importante, ti consigliamo di farlo regolarmente.
+È possibile reimpostare la password di [!DNL Adobe Workfront]. Come misura di sicurezza importante, ti consigliamo di farlo regolarmente.
 
 >[!NOTE]
 >
->A [!DNL Workfront] l&#39;amministratore può configurare le restrizioni per le password personalizzate, come descritto in [Configurare le preferenze di sicurezza del sistema](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) e [Configura criteri password per l&#39;autenticazione](../../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md).
+>Un amministratore di [!DNL Workfront] può configurare le restrizioni delle password personalizzate, come spiegato in [Configurare le preferenze di sicurezza del sistema](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) e [Configurare i criteri delle password per l&#39;autenticazione](../../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md).
 >
 ><!-- [!DNL Workfront] administrator can also reset your password in an Enhanced Authentication enabled environment. For more information, see [Reset a user's password with Enhanced Authentication](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md).-->
 
@@ -46,21 +46,21 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-Per conoscere il piano o il tipo di licenza di cui si dispone, contattare [!DNL Workfront] amministratore.
+Per conoscere il piano o il tipo di licenza disponibile, contattare l&#39;amministratore [!DNL Workfront].
 
-## Reimpostare la password in [!DNL Adobe Workfront]
+## Reimposta la password in [!DNL Adobe Workfront]
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic sul nome utente accanto all’immagine del profilo.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic sul nome utente accanto all&#39;immagine del tuo profilo.
 
-   ![Apri il menu principale e seleziona il nome utente.](assets/main-menu-options-350x481.png)
+   ![Apri il menu principale e seleziona il tuo nome utente.](assets/main-menu-options-350x481.png)
 
-1. Fai clic su **[!UICONTROL Menu Altro]** ![](assets/more-icon.png), quindi fai clic su **[!UICONTROL Modifica]**.
+1. Fai clic sul menu **[!UICONTROL Altro]** ![](assets/more-icon.png), quindi fai clic su **[!UICONTROL Modifica]**.
 
-1. In **[!UICONTROL Modifica persona]** casella visualizzata, sotto **[!UICONTROL Informazioni personali]**, fai clic su **[!UICONTROL Reimposta password]**.
+1. Nella casella **[!UICONTROL Modifica persona]** che visualizza, in **[!UICONTROL Informazioni personali]**, fare clic su **[!UICONTROL Reimposta password]**.
 
    ![](assets/edit-person-box-350x196.jpg)
 
-   Se la tua organizzazione ha integrato [!DNL Workfront] con una soluzione SSO, è possibile che venga indirizzato per reimpostare le password tramite il sistema SSO quando si fa clic su **[!UICONTROL Reimposta password]**. In questo modo viene ripristinata la password SSO che influisce sull&#39;accesso a tutte le altre applicazioni all&#39;interno dell&#39;organizzazione.
+   Se l&#39;organizzazione ha integrato [!DNL Workfront] con una soluzione SSO, quando si fa clic su **[!UICONTROL Reimposta password]** è possibile che le password vengano reimpostate tramite il sistema SSO. In questo modo viene ripristinata la password SSO che influisce sull&#39;accesso a tutte le altre applicazioni all&#39;interno dell&#39;organizzazione.
 
 1. Digitare la vecchia password, quindi digitare la nuova password due volte.
 
@@ -70,6 +70,6 @@ Per conoscere il piano o il tipo di licenza di cui si dispone, contattare [!DNL 
    * Numeri
    * Caratteri speciali (ad esempio ! @ # $ % ecc.)
 
-   Le regole della password potrebbero essere più rigide di questa, a seconda delle impostazioni di configurazione impostate dal [!DNL Workfront] amministratore.
+   Le regole delle password potrebbero essere più severe di questa, a seconda delle impostazioni di configurazione impostate dall&#39;amministratore [!DNL Workfront].
 
 1. Fai clic su **[!UICONTROL Salva modifiche]**.

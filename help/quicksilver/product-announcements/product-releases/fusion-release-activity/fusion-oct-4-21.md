@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti apportati ad Adobe Workfront Fusion la settimana del 4 ottobre 2021.
 
-Per un elenco di tutte le modifiche recenti, vedi [Attività di rilascio di Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Per un elenco di tutte le modifiche recenti, vedere [Attività di Adobe Workfront Fusion release](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedi [Aggiornamenti di manutenzione per Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
+Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedere la pagina [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
 
 ## Visualizza i filtri eventi esistenti nei moduli Workfront > Osserva eventi
 
@@ -28,7 +28,7 @@ Per una maggiore chiarezza, abbiamo reso possibile vedere i filtri evento utiliz
 
 In precedenza, gli utenti potevano visualizzare solo i filtri evento durante la configurazione del webhook e non era possibile visualizzare i filtri in un modulo Workfront > Osserva eventi esistente.
 
-Per ulteriori informazioni, consulta [Filtri di abbonamento agli eventi nei moduli Workfront > Osserva eventi](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md#event) in [Moduli Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Per ulteriori informazioni, vedere [Filtri sottoscrizioni eventi nei moduli Workfront > Osserva eventi](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md#event) nei [moduli Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 ## Allega i moduli personalizzati agli oggetti di Workfront utilizzando i moduli Workfront > Crea record e Aggiorna record
 
@@ -36,7 +36,7 @@ Per rendere l’utilizzo dei moduli personalizzati più simile a quello di Workf
 
 In precedenza era possibile immettere valori nei campi dei moduli personalizzati, ma non erano organizzati per modulo e potevano essere difficili da trovare.
 
-Per ulteriori informazioni, consulta [Moduli Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Per ulteriori informazioni, vedere [Moduli Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 ## Utilizzare il testo RTF nei commenti e nei campi personalizzati creati con Workfront Fusion
 
@@ -57,4 +57,4 @@ In precedenza, il testo RTF poteva essere aggiunto solo a commenti o campi perso
 
 Per ulteriori informazioni sui moduli Crea record e Aggiorna record, vedere [Moduli Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
-Per ulteriori informazioni sul testo RTF disponibile nei commenti o nei campi personalizzati, consulta [Aggiorna lavoro](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Per ulteriori informazioni sul testo RTF disponibile nei commenti o nei campi personalizzati, vedere [Aggiorna lavoro](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

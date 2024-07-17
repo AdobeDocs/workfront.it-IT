@@ -7,7 +7,7 @@ role: Admin
 exl-id: 8d1870ea-3f9e-4358-8e14-3dcfc3805637
 source-git-commit: 0e8f8973ad4c1310b973bae4e6fe3578c05db204
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -36,35 +36,36 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano </p> <p>Devi essere un amministratore di gruppo del gruppo o un amministratore di Workfront. Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Amministratori di gruppi</a> e <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente l'accesso amministrativo completo</a>.</p> </td> 
+   <td> <p>Piano </p> <p>Devi essere un amministratore di gruppo del gruppo o un amministratore di Workfront. Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Amministratori di gruppi</a> e <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente l'accesso amministrativo completo</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano o il tipo di licenza disponibile, contattare l&#39;amministratore di Workfront.
+&#42;Per conoscere il piano o il tipo di licenza di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Visualizza il numero di licenze utilizzate in un gruppo
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
 1. Nel pannello a sinistra, fai clic su **Gruppi** ![](assets/groups-icon.png).
 
 1. Fare clic sul nome del gruppo.
-1. Nella pagina visualizzata, nell&#39;area dell&#39;intestazione nell&#39;angolo superiore destro, visualizzare **Licenze in uso** per visualizzare il numero di **Piano** e **Lavoro** licenze attualmente in uso.
+1. Nella pagina visualizzata, nell&#39;area dell&#39;intestazione nell&#39;angolo superiore destro, visualizzare l&#39;area **Licenze in uso** per visualizzare il numero di **Licenze Pianificazione** e **Lavoro** attualmente in uso.
 
    Se si visualizza un gruppo di primo livello e l&#39;amministratore di Workfront ha definito un numero massimo di ogni tipo di licenza per il gruppo, vengono visualizzati anche questi numeri. Ad esempio, nel gruppo seguente, un massimo di 10 utenti può disporre di una licenza Pianificazione e un massimo di 15 può disporre di una licenza Lavoro:
 
    ![](assets/licenses-used-allocated.png)
 
-   Per informazioni su come un amministratore di Workfront definisce un numero massimo di licenze allocate per un gruppo, vedere la sezione [Impostare il numero massimo di licenze per un gruppo predefinito](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md#set) nell’articolo [Gestire le licenze disponibili nel sistema](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+   Per informazioni su come un amministratore di Workfront definisce un numero massimo di licenze allocate per un gruppo, vedere la sezione [Impostare il numero massimo di licenze per un gruppo predefinito](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md#set) nell&#39;articolo [Gestire le licenze disponibili nel sistema](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
    >[!NOTE]
    >
    >Se il gruppo che si sta esaminando è un sottogruppo, è possibile visualizzare solo il numero di licenze utilizzate e non il numero massimo di licenze allocate per il gruppo. Questo perché gli amministratori di Workfront non definiscono un numero massimo di licenze per un sottogruppo.
    >
    >![](assets/subgroup-used-licenses-only.png)
+   >
 
-1. Per conteggi separati di ciascun tipo di licenza attualmente utilizzato nel gruppo (inclusi Revisione e Richiesta), fare clic sull&#39;area di testo direttamente sottostante **Licenze in uso:**
+1. Per conteggi separati di ciascun tipo di licenza attualmente utilizzato nel gruppo (inclusi Revisione e Richiesta), fare clic sull&#39;area di testo direttamente sotto **Licenze in uso:**
 
    ![](assets/click-text-to-see-more.png)
 

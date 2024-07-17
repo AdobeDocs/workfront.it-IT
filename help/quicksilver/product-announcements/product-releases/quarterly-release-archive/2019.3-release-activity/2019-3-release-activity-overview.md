@@ -22,7 +22,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione 2
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.OnlineOnly">  To download this page in PDF&nbsp;format, go  <a href="https://documentation.my.workfront.com/library/a/1c7547fc-9d72-400e-84ed-3382bca498f4" target="_blank">here</a>. </MadCap:conditionalText>
 -->
 
-Per visualizzare un elenco dei miglioramenti rilasciati dopo la versione 2019.3, consulta [Rilasci di prodotti](../../../../product-announcements/product-releases/product-releases.md).
+Per visualizzare un elenco dei miglioramenti rilasciati dopo la versione 2019.3, consulta [Versioni del prodotto](../../../../product-announcements/product-releases/product-releases.md).
 
 ## Miglioramenti per tutti gli utenti
 
@@ -152,11 +152,11 @@ La versione 2019.3 contiene i seguenti miglioramenti:
 
   Per rendere l’app mobile di Workfront più sicura per te e per la tua azienda, gli utenti verranno disconnessi automaticamente dopo 8 minuti di inattività.
 
-* [Filtrare per progetti inattivi nell’app mobile](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#filter) [Filtrare per progetti inattivi nell’app mobile](https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880)
+* [Filtra per progetti inattivi nell&#39;app mobile](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#filter) [Filtra per progetti inattivi nell&#39;app mobile](https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880)
 
   Abbiamo aggiunto l’opzione Dead Projects (Progetti inattivi) come filtro nella scheda Projects (Progetti) dell’app Mobile.
 
-* [Eliminare oggetti utilizzando l’app Mobile su iOS](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#delete)
+* [Elimina oggetti tramite l&#39;app Mobile in iOS](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#delete)
 
   <!-- <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete objects using the Mobile app on iOS</a> </MadCap:conditionalText>
    -->
@@ -198,7 +198,7 @@ Abbiamo aggiunto diversi miglioramenti a livello di aspetto per migliorare la tu
 
 Questa sezione descrive le modifiche apportate durante l’intervallo di tempo della versione 2019.3 che verranno rilasciate nell’ambiente di produzione prima della versione 2019.3.
 
-* [Modificare il tipo di visualizzazione di un campo in un modulo personalizzato](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md#change)
+* [Modifica il tipo di visualizzazione di un campo in un modulo personalizzato](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md#change)
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -357,7 +357,7 @@ Per informazioni sugli aggiornamenti di manutenzione effettuati durante il rilas
 
 ## Notifiche
 
-* [La nuova versione beta dell’esperienza Workfront è ora disponibile in Anteprima](#the-new-workfront-experience-beta-now-available-in-preview)
+* [La nuova esperienza Workfront beta è ora disponibile in Anteprima](#the-new-workfront-experience-beta-now-available-in-preview)
 * [Libreria Workfront ora disponibile](#workfront-library-now-available)
 * [API versione 3 non più supportata](#api-version-3-no-longer-supported)
 * [Termina il supporto di TLS 1.0 e 1.1](#tls-1-0-and-1-1-support-is-ending)
@@ -375,7 +375,7 @@ Workfront Library è un hub di contenuti digitali aziendali che consente di gest
 
 ### API versione 3 non più supportata {#api-version-3-no-longer-supported}
 
-Il supporto per API versione 3 è terminato a novembre 2018. Per ulteriori informazioni sulla pianificazione del supporto delle versioni dell’API di Workfront, consulta [Pianificazione del supporto e del controllo delle versioni API](../../../../wf-api/api/api-version-support-schedule.md)
+Il supporto per API versione 3 è terminato a novembre 2018. Per ulteriori informazioni sulla pianificazione del supporto per le versioni dell&#39;API di Workfront, vedere [Gestione delle versioni e pianificazione del supporto API](../../../../wf-api/api/api-version-support-schedule.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -403,7 +403,7 @@ TLS 1.2 to be required in Workfront
 
 Tutte le funzionalità basate sulla tecnologia di Flash sono state rimosse da Workfront a partire dalla versione 2018.3 e sostituite con una nuova soluzione.
 
-Per informazioni dettagliate sugli strumenti di Flash legacy e sulle loro sostituzioni, consulta [Sostituzione degli strumenti basati su Flash in Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)
+Per informazioni dettagliate sugli strumenti di Flash legacy e sulle relative sostituzioni, vedere [Sostituzione degli strumenti basati sul Flash in Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -443,7 +443,7 @@ Le seguenti opzioni Single Sign-On (SSO) sono ora supportate solo in capacità l
 
 * SAML 1.1
 
-  Per ulteriori informazioni sull’utilizzo di SAML 1.1 con Workfront, consulta [Configurare Adobe Workfront con SAML 1.1](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
+  Per ulteriori informazioni sull&#39;utilizzo di SAML 1.1 con Workfront, vedere [Configurare Adobe Workfront con SAML 1.1](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -467,4 +467,4 @@ Di seguito è riportata la timeline di rimozione per queste opzioni SSO:
 
 ### Webinar Q3 sulla roadmap dei prodotti {#q3-product-roadmap-webinar}
 
-Ulteriori informazioni su ciò che accadrà durante il [Webinar Q3 Roadmap](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=Product&amp;eventid=2040896&amp;sessionid=1&amp;key=EFBB434E2FDF446E010DA62D1C27E9E5&amp;regTag=&amp;sourcepage=register) il 1 agosto alle 9. MST
+Ulteriori informazioni su cosa verrà presentato durante il webinar [Q3 Roadmap](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=Product&amp;eventid=2040896&amp;sessionid=1&amp;key=EFBB434E2FDF446E010DA62D1C27E9E5&amp;regTag=&amp;sourcepage=register) il 1° agosto alle 9:00. MST

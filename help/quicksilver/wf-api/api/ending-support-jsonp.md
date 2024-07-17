@@ -9,7 +9,7 @@ role: Developer
 exl-id: 681336c2-2f41-4746-8cba-be077f556742
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ JSONP è uno standard tramite il quale è possibile eseguire richieste cross-ori
 
 Se utilizzi JSONP come parte di una qualsiasi delle integrazioni Workfront, devi aggiornare l’integrazione per utilizzare lo standard CORS (Cross-Origin Resource Sharing). Questo aggiornamento richiede le seguenti operazioni:
 
-1. Invia una richiesta al team di supporto Workfront affinché disponga dei domini utilizzati per effettuare richieste cross-origin al nostro inserisco nell&#39;elenco Consentiti di.
+1. Invia una richiesta al team di supporto Workfront affinché disponga dei domini utilizzati per effettuare richieste cross-origin al nostro elenco Consentiti.
 
-   Per aggiungere i domini al inserisco nell&#39;elenco Consentiti di CORS, contatta l’Assistenza clienti Workfront al numero 844-306-HELP(4357) o inviando un ticket di supporto online.
+   Per aggiungere i domini al inserisco nell&#39;elenco Consentiti di per CORS, contatta l’Assistenza clienti Workfront al numero 844-306-HELP(4357) o inviando un ticket di supporto online.
 
    >[!NOTE]
    >

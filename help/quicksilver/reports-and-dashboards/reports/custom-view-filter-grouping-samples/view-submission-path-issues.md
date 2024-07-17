@@ -9,8 +9,8 @@ feature: Reports and Dashboards
 exl-id: bee1e066-c3f4-4d74-92b0-ab7f43d52a50
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 0%
+source-wordcount: '292'
+ht-degree: 1%
 
 ---
 
@@ -45,24 +45,23 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 </tr>   
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Visualizza il percorso di invio per i problemi
 
 1. Vai a un elenco di problemi.
-1. Dalla sezione **Visualizza** menu a discesa, seleziona **Nuova visualizzazione**.
+1. Dal menu a discesa **Visualizza**, selezionare **Nuova visualizzazione**.
 
-1. In **Anteprima colonna** , fare clic su **Aggiungi colonna**.
+1. Nell&#39;area **Anteprima colonna** fare clic su **Aggiungi colonna**.
 
-1. Fai clic sull’intestazione della nuova colonna, quindi fai clic su **Passa alla modalità testo**.
-1. Passa il puntatore del mouse sull&#39;area della modalità testo e fai clic su **Fare clic per modificare il testo**.
-1. Rimuove il testo trovato in **Modalità testo** e sostituirlo con il seguente codice:
-
+1. Fare clic sull&#39;intestazione della nuova colonna, quindi fare clic su **Passa alla modalità testo**.
+1. Passa il puntatore del mouse sull&#39;area della modalità testo e fai clic su **Fai clic per modificare il testo**.
+1. Rimuovi il testo trovato nella casella **Modalità testo** e sostituiscilo con il seguente codice:
    <pre>displayname= Percorso problema<br>linkedname=direct <br>namekey=displayQueueBreadcrumb <br>valuefield=displayQueueBreadcrumb <br>valueformat=HTML<br></pre>
 
-1. Clic **Salva visualizzazione**.
+1. Fai clic su **Salva vista**.

@@ -20,12 +20,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] richiede un [!DNL Adobe Workfront Fusion] licenza oltre a un [!DNL Adobe Workfront license].
+>[!DNL Adobe Workfront Fusion] richiede una licenza [!DNL Adobe Workfront Fusion] oltre a [!DNL Adobe Workfront license].
 
 Questa sezione contiene i seguenti articoli:
 
-* [Mappare le informazioni da un modulo all’altro in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)
+* [Mappare le informazioni da un modulo a un altro in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)
 * [Informazioni sulla mappatura dei file in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/about-mapping-files.md)
-* [Tipi di dati degli elementi in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md)
-* [Mappare un array in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-an-array.md)
-* [Tipo di coercizione in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md)
+* [Tipi di dati elemento in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md)
+* [Mappa un array in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-an-array.md)
+* [Tipo coercizione in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md)

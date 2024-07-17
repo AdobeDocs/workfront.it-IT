@@ -3,7 +3,7 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-administration
-title: Account satellitari in [!DNL Workfront] Panoramica bozza
+title: Account satellite in [!DNL Workfront] Panoramica bozza
 description: Ulteriori informazioni sugli account satellite in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -16,14 +16,14 @@ ht-degree: 0%
 
 ---
 
-# Account satellitari in [!DNL Workfront Proof]
+# Account satellite in [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alle funzionalità del prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Bozza](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
 Questa sezione contiene i seguenti articoli:
 
-* [Account satellitari in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)
+* [Account satellite in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)
 * [Configurare un account satellite in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/satellite-accounts/configure-sat-acct-in-wp.md)
 * [Gestire un account satellite in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/satellite-accounts/manage-sat-acct-in-wp.md)

@@ -9,8 +9,8 @@ feature: Reports and Dashboards
 exl-id: 84a1e065-992e-4aa5-81ba-e699ac704837
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 0%
+source-wordcount: '385'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +22,7 @@ Questa vista di progetto mostra un elenco di utenti e ruoli assegnati al team di
 >
 >Se il ruolo è elencato nella stessa riga di un utente, ciò non implica che l’utente stia ricoprendo tale ruolo sul progetto, né che all’utente sia assegnato tale ruolo nel suo profilo.
 
-![project_custom_view_with_all_users_and_roles_on_the_project_.png](assets/project-custom-view-350x52.png)
+![visualizzazione_personalizzata_del_progetto_con_tutti_gli_utenti_e_ruoli_sul_progetto_.png](assets/project-custom-view-350x52.png)
 
 ## Requisiti di accesso
 
@@ -49,22 +49,22 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 </tr>  
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Visualizzare un progetto con tutti gli utenti e i ruoli del team di progetto
 
 1. Consente di passare a un elenco di progetti.
-1. Dalla sezione **Visualizza** menu a discesa, seleziona **Nuova visualizzazione**.
+1. Dal menu a discesa **Visualizza**, selezionare **Nuova visualizzazione**.
 
-1. In **Anteprima colonna** eliminare tutte le colonne tranne una.
-1. Fai clic sull’intestazione della colonna rimanente, quindi fai clic su **Passa alla modalità testo**.
-1. Passa il puntatore del mouse sull&#39;area della modalità testo e fai clic su **Fare clic per modificare il testo**.
-1. Rimuove il testo trovato in **Modalità testo** e sostituirlo con il seguente codice:
-   <pre>column.0.link.linkproperty.0.name=ID<br>column.0.link.linkproperty.0.valuefield=ID<br>column.0.link.linkproperty.0.valueformat=int<br>column.0.link.lookup=link.view<br>column.0.link.valuefield=objCode<br>column.0.link.valueformat=val<br>column.0.linkedname=direct<br>column.0.listsort=string(name)<br>column.0.namekey=name.abbr<br>column.0.querysort=name<br>column.0.shortview=false<br>column.0.stretch=60<br>column.0.valuefield=name<br>column.0.valueformat=HTML<br>column.0.width=150<br>column.1.description=Utenti del team<br>column.1.link.linkproperty.0.name=ID<br>column.1.link.linkproperty.0.valuefield=userID<br>column.1.link.linkproperty.0.valueformat=int<br>column.1.link.page=/userView.cmd<br>column.1.listdelimiter= colonna.1<br>column.1.listmethod=nested(projectUsers).LISTS<br>column.1.namekey=user.plural<br>column.1.stretch=30<br>column.1.type=iterate<br>column.1.valuefield=user:name<br>column.1.valueformat=HTML<br>column.1.width=150<br>column.2.description=Ruoli di team<br>column.2.link.linkproperty.0.name=ID<br>column.2.link.linkproperty.0.valuefield=ID<br>column.2.link.linkproperty.0.valueformat=int<br>column.2.link.page=/roleView.cmd<br>column.2.listdelimiter= colonna.2.listdelimiter<br>column.2.listmethod=nested(roles).LISTS<br>column.2.namekey=jobrole.plural<br>column.2.stretch=10<br>column.2.type=iterate<br>column.2.valuefield=name<br>column.2.valueformat=HTML<br>column.2.width=150.stretch=0</pre>
+1. Nell&#39;area **Anteprima colonna** eliminare tutte le colonne tranne una.
+1. Fare clic sull&#39;intestazione della colonna rimanente, quindi fare clic su **Passa alla modalità testo**.
+1. Passa il puntatore del mouse sull&#39;area della modalità testo e fai clic su **Fai clic per modificare il testo**.
+1. Rimuovere il testo trovato nella casella **Modalità testo** e sostituirlo con il seguente codice:
+   <pre>column.0.link.linkproperty.0.name=ID<br>column.0.link.linkproperty.0.valuefield=ID<br>column.0.link.linkproperty.0.valueformat=int<br>column.0.link.lookup=link.view<br>column.0.link.valuefield=objCode<br>column.0.link.valueformat=val<br>column.0.linkedname=direct<br>column.0.listsort=string(name)<br>column.0.namekey=name.abbr<br>column.0 querysort=name<br>column.0.shortview=false<br>column.0.stretch=60<br>column.0.valuefield=name<br>column.0.valueformat=HTML<br>column.0.width=150<br>column.1.description=Team Users<br>column.1.link.linkproperty.0.name=ID<br>column.1.link.linkproperty.0.valuefield=userID<br>column.1.link.linkproperty.0 valueformat=int<br>column.1.link.page=/userView.cmd<br>column.1.listdelimiter=<br>column.1.listmethod=nested(projectUsers).LISTS<br>column.1.namekey=user.plural<br>column.1.stretch=30<br>column.1.type=iterate<br>column.1.valuefield=user:name<br>column.1.valueformat=HTML<br>column.1.width=150{27 column.2.description=Ruoli di team<br>column.2.link.linkproperty.0.name=ID<br>column.2.link.linkproperty.0.valuefield=ID<br>column.2.link.linkproperty.0.valueformat=int<br>column.2.link.page=/roleView.cmd<br>column.2.listiter=<br>column.2.listmethod=nested(roles).LISTS<br>column.2.namekey=jobrole.plural<br>column.2.stretch 10<br>column.2.type=iterate<br>column.2.valuefield=name<br>column.2.valueformat=HTML<br>column.2.width=150.stretch=0<br></pre>
 
-1. Clic **Salva visualizzazione**.
+1. Fai clic su **Salva vista**.

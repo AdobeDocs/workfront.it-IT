@@ -43,7 +43,7 @@ Puoi riattivare un utente in qualsiasi momento.
 >
 >La disattivazione di un utente in Workfront rimuove le licenze dell’utente sia per Workfront che per la verifica digitale. Inoltre, all’utente non può più essere assegnato un lavoro. Quando un utente viene disattivato, la licenza Workfront e la licenza di verifica dell’utente diventano disponibili per essere utilizzate da un altro utente. Tutte le altre informazioni nel profilo dell’utente disattivato rimangono invariate.
 >
->Per ulteriori informazioni sull’impatto dell’eliminazione e della disattivazione degli utenti, consulta [Elimina utenti](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+>Per ulteriori informazioni sull&#39;impatto dell&#39;eliminazione e della disattivazione degli utenti, vedere [Elimina utenti](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
 ## Requisiti di accesso
 
@@ -65,8 +65,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>È necessario disporre di uno dei seguenti elementi:</p> 
     <ul> 
-     <li> <p>Livello di accesso Amministratore di sistema. Per informazioni, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente l'accesso amministrativo completo</a>. </p> </li> 
-     <li> <p><b>Utenti</b> impostazione nel livello di accesso configurato su <b>Modifica</b> accesso, con <b>Crea</b> e almeno uno dei due <b>Amministratore utenti</b> opzioni abilitate in <b>Metti a punto le impostazioni</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Di queste due opzioni, se Utente <b>Amministratore (utenti gruppo)</b> è abilitato, è necessario essere un amministratore di gruppo di un gruppo di cui l'utente è membro.</p> <p>Per ulteriori informazioni su <b>Utenti</b> impostazione in un livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concedere l’accesso agli utenti</a>.</p> </li> 
+     <li> <p>Livello di accesso Amministratore di sistema. Per informazioni, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente l'accesso amministrativo completo</a>. </p> </li> 
+     <li> <p>Impostazione di <b>Utenti</b> nel livello di accesso configurato per l'accesso di <b>Modifica</b>, con <b>Crea</b> e almeno una delle due opzioni di <b>Amministratore utenti</b> abilitate in <b>Ottimizza le impostazioni</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Di queste due opzioni, se l'utente <b>Amministratore (utenti gruppo)</b> è abilitato, è necessario essere un amministratore di gruppo di un gruppo di cui l'utente è membro.</p> <p>Per ulteriori informazioni sull'impostazione <b>Utenti</b> in un livello di accesso, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concedere l'accesso agli utenti</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -76,7 +76,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 Prima di disattivare un utente con licenza Amministratore Workfront o Standard o Piano, è necessario associare i relativi oggetti e attività a un altro utente.
 
-Per ulteriori informazioni, consulta [Informazioni sulla disattivazione degli amministratori di Workfront e degli utenti con licenza Pianificazione](#about-deactivating-workfront-administrators-and-plan-license-users) in questo articolo.
+Per ulteriori informazioni, vedere [Informazioni sulla disattivazione degli amministratori di Workfront e sugli utenti con licenza Pianificazione](#about-deactivating-workfront-administrators-and-plan-license-users) in questo articolo.
 
 ## Disattivare un utente
 
@@ -90,11 +90,11 @@ Quando disattivi un utente tieni presente quanto segue:
 
 Per disattivare un utente:
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **Utenti** ![](assets/users-icon-in-main-menu.png).
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **Users** ![](assets/users-icon-in-main-menu.png).
 
-1. Seleziona un utente, fai clic su **Altro** icona ![](assets/more-icon.png), quindi fai clic su **Disattiva**.
+1. Seleziona un utente, fai clic sull&#39;icona **Altro** ![](assets/more-icon.png), quindi su **Disattiva**.
 
-1. Clic **Disattiva** nella casella visualizzata.
+1. Fare clic su **Disattiva** nella casella visualizzata.
 
 ## Pianifica la disattivazione degli utenti
 
@@ -104,7 +104,7 @@ Gli amministratori di Workfront e gli utenti con licenza Pianificazione possono 
 
 Per pianificare la disattivazione di un utente:
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **Utenti** ![](assets/users-icon-in-main-menu.png).
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **Users** ![](assets/users-icon-in-main-menu.png).
 
 1. Selezionare il nome dell&#39;utente.
 
@@ -112,11 +112,11 @@ Per pianificare la disattivazione di un utente:
 
    (Facoltativo) Seleziona più utenti per pianificarne la disattivazione in blocco.
 
-1. Fai clic sull’icona Modifica ![](assets/edit-icon.png).
-1. Nella casella Modifica utente visualizzata fare clic su **Pianificazione delle risorse** per andare in quella zona.
-1. Abilita **Pianifica disattivazione** opzione.
+1. Fare clic sull&#39;icona Modifica ![](assets/edit-icon.png).
+1. Nella casella Modifica utente visualizzata, fare clic su **Pianificazione risorse** per passare a tale area.
+1. Abilita l&#39;opzione **Pianifica disattivazione**.
 
-1. Nel calendario visualizzato, specifica la data e l’ora per il **Data disattivazione pianificata**.
+1. Nel calendario visualizzato specificare la data e l&#39;ora per la **Data disattivazione pianificata**.
 
    >[!NOTE]
    >
@@ -131,9 +131,9 @@ Per pianificare la disattivazione di un utente:
 
 ## Riattivare un utente
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **Utenti** ![](assets/users-icon-in-main-menu.png).
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **Users** ![](assets/users-icon-in-main-menu.png).
 
-1. Seleziona un utente e fai clic sull’icona Altro ![](assets/more-icon.png), quindi fai clic su **Attiva**.
+1. Selezionare un utente, fare clic sull&#39;icona Altro ![](assets/more-icon.png) e quindi su **Attiva**.
 
 1. Assegna un nuovo **Livello di accesso** nel menu a discesa, quindi fai clic su **Riattiva**.
 <!--
@@ -146,7 +146,7 @@ Deactivated users lose access to their assigned Frame.io accounts as well as ass
 Gli utenti disattivati perdono il ruolo di bozza predefinito loro assegnato e la loro licenza di bozza (se sei in un piano legacy di Workfront Premium). Se scegli di riattivare l’utente, devi:
 
 * Riassegnare la licenza (se si utilizza un piano legacy Workfront Premium). Per ulteriori informazioni sui piani di verifica di Workfront, vedere [Accesso alla funzionalità di verifica in Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
-* Verifica che abbiano il ruolo di bozza corretto. Agli utenti delle bozze riattivate viene assegnato qualsiasi ruolo di bozza specificato come predefinito per i nuovi utenti. Consulta [Configurare i ruoli di verifica predefiniti](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) per ulteriori informazioni.
+* Verifica che abbiano il ruolo di bozza corretto. Agli utenti delle bozze riattivate viene assegnato qualsiasi ruolo di bozza specificato come predefinito per i nuovi utenti. Per ulteriori informazioni, vedere [Configurare i ruoli di verifica predefiniti](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md).
 
 ## Informazioni sulla disattivazione degli amministratori di Workfront e degli utenti con licenze Standard o Plan
 
@@ -171,4 +171,4 @@ Quando si pianifica la disattivazione di un utente, questi non vengono più visu
 
 La Programmazione delle risorse tiene conto di tutte le mansioni degli utenti e delle Date di completamento pianificate delle attività e calcola le risorse di conseguenza.
 
-Per ulteriori informazioni sulla Programmazione delle risorse, consulta [Panoramica di Programmazione delle risorse](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Per ulteriori informazioni sulla Programmazione delle risorse, vedere [Panoramica sulla programmazione delle risorse](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).

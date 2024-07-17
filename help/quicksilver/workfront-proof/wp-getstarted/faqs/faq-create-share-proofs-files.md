@@ -19,7 +19,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alle funzionalità del prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Bozza](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Che cos&#39;è una prova?
 
@@ -31,17 +31,17 @@ Una bozza è un file statico, audio o video disponibile per la revisione nel vis
 
 ### Risposta
 
-È possibile creare bozze da file statici, audio e video. Impossibile caricare file di dimensioni superiori a 4 GB. [!DNL Workfront] supporta oltre 150 tipi di file (vedere [Panoramica dei tipi di file di verifica supportati e dei limiti di dimensione](../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md) per un elenco completo).
+È possibile creare bozze da file statici, audio e video. Impossibile caricare file di dimensioni superiori a 4 GB. [!DNL Workfront] supporta oltre 150 tipi di file (per un elenco completo, vedere [Panoramica sui tipi di file di verifica supportati e sui limiti di dimensione](../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)).
 
 ## Qual è la differenza tra una bozza e un file?
 
 ### Risposta
 
-Quando carichi un file in [!DNL Workfront Proof], il sistema memorizza il file nel [!DNL Workfront Proof] account. Quando lo condividi, [!DNL Workfront Proof] invia ai destinatari un collegamento su cui possono fare clic per scaricare il file. Puoi condividere qualsiasi tipo di file.
+Quando carichi un file in [!DNL Workfront Proof], il sistema lo memorizza nel tuo account [!DNL Workfront Proof]. Quando lo condividi, [!DNL Workfront Proof] invia ai destinatari tramite e-mail un collegamento su cui possono fare clic per scaricare il file. Puoi condividere qualsiasi tipo di file.
 
-Quando crei una bozza da un file caricato in [!DNL Workfront Proof], è possibile rendere il file disponibile per la revisione nel visualizzatore di bozze. I revisori ricevono un’e-mail con un collegamento alla bozza. Quando aprono la bozza, visualizzano l’immagine della bozza, possono aggiungere commenti e prendere decisioni al riguardo. Puoi creare le bozze utilizzando i file dall’elenco dei tipi di file supportati. Puoi anche creare bozze utilizzando gli URL per i siti web e altri contenuti web.
+Quando crei una bozza da un file caricato in [!DNL Workfront Proof], puoi renderla disponibile per la revisione nel visualizzatore di bozze. I revisori ricevono un’e-mail con un collegamento alla bozza. Quando aprono la bozza, visualizzano l’immagine della bozza, possono aggiungere commenti e prendere decisioni al riguardo. Puoi creare le bozze utilizzando i file dall’elenco dei tipi di file supportati. Puoi anche creare bozze utilizzando gli URL per i siti web e altri contenuti web.
 
-Per un elenco completo dei tipi di file supportati consulta [Panoramica dei tipi di file di verifica supportati e dei limiti di dimensione](../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md).
+Per un elenco completo dei tipi di file supportati, vedere [Panoramica sui tipi di file di verifica supportati e sui limiti di dimensione](../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md).
 
 ## Come si crea una bozza?
 
@@ -49,23 +49,23 @@ Per un elenco completo dei tipi di file supportati consulta [Panoramica dei tipi
 
 Puoi creare bozze da file statici, file audio, file video e URL (consulta la sezione ).
 
-Per creare una bozza nell’account, devi essere un utente con il profilo di autorizzazione corretto (consulta [[!UICONTROL Profili autorizzazioni bozza] in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)).
+Per creare una bozza nell&#39;account, devi essere un utente con il profilo di autorizzazione corretto (vedi [[!UICONTROL Profili di autorizzazione di bozza] in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)).
 
-Se carichi più file contemporaneamente, puoi creare più bozze da inviare allo stesso gruppo di revisori utilizzando un’unica e-mail. Se la tua organizzazione dispone di [!UICONTROL Enterprise] o [!UICONTROL Senza limiti] account, puoi combinare i file in un’unica bozza (consulta [Creare una bozza con più pagine](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)).
+Se carichi più file contemporaneamente, puoi creare più bozze da inviare allo stesso gruppo di revisori utilizzando un’unica e-mail. Se la tua organizzazione dispone di un account [!UICONTROL Enterprise] o [!UICONTROL Unlimited], puoi combinare i file in un&#39;unica bozza (consulta [Creare una bozza con più pagine](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)).
 
 ## Cosa sono i ruoli delle bozze e gli avvisi e-mail?
 
 ### Risposta
 
-I ruoli bozza definiscono le azioni che un revisore deve intraprendere su una bozza. Quando crei una bozza, puoi utilizzare per i revisori diverse opzioni di ruolo, a seconda che tu voglia consentire loro di aggiungere commenti, prendere decisioni e così via. Per ulteriori informazioni, consulta [Gestire i ruoli bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+I ruoli bozza definiscono le azioni che un revisore deve intraprendere su una bozza. Quando crei una bozza, puoi utilizzare per i revisori diverse opzioni di ruolo, a seconda che tu voglia consentire loro di aggiungere commenti, prendere decisioni e così via. Per ulteriori informazioni, vedere [Gestione dei ruoli bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
-Gli avvisi e-mail aggiornano i revisori in base all’avanzamento di una bozza (sono diversi dalle notifiche per nuove bozze e per bozze in ritardo). Puoi selezionare opzioni diverse per revisori diversi, a seconda del ruolo di ciascun revisore nella bozza. Per ulteriori informazioni, consulta [Creare una bozza avanzata con un [!UICONTROL Flusso di lavoro automatico]](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
+Gli avvisi e-mail aggiornano i revisori in base all’avanzamento di una bozza (sono diversi dalle notifiche per nuove bozze e per bozze in ritardo). Puoi selezionare opzioni diverse per revisori diversi, a seconda del ruolo di ciascun revisore nella bozza. Per ulteriori informazioni, consulta [Creare una bozza avanzata con un [!UICONTROL flusso di lavoro automatizzato]](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
 
 ## È possibile creare una bozza da più file?
 
 ### Risposta
 
-La combinazione di più file in una singola bozza è una funzione disponibile su [!UICONTROL Enterprise] e [!UICONTROL Senza limiti] piani di edizione. Questa opzione è possibile solo per i file statici, non per i file video. Per ulteriori informazioni, consulta  [Creare una bozza con più pagine](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md).
+La combinazione di più file in un&#39;unica bozza è una funzionalità disponibile nei piani dell&#39;edizione [!UICONTROL Enterprise] e [!UICONTROL Unlimited]. Questa opzione è possibile solo per i file statici, non per i file video. Per ulteriori informazioni, vedere [Creare una bozza multipagina](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md).
 
 ## Posso creare bozze dagli URL?
 
@@ -73,57 +73,57 @@ La combinazione di più file in una singola bozza è una funzione disponibile su
 
 Sì, puoi creare bozze da siti web e altri contenuti web. Quando aggiungi un URL per creare una bozza, puoi specificare se desideri una bozza statica o interattiva:
 
-* In una bozza interattiva, i revisori possono navigare e interagire come farebbero normalmente con il sito web o altri contenuti web come annunci con streaming video o audio, [!DNL Flash] elementi di un annuncio, animazioni HTML e banner interattivi. Per ulteriori informazioni, consulta [Creare una bozza per il contenuto interattivo in un file ZIP](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
-* Per una bozza statica: [!DNL Workfront] acquisisce una serie di schermate delle pagine e delle sottopagine specificate. I collegamenti ipertestuali sono attivi nella bozza, per consentirti di verificare se conducono o meno alla destinazione corretta. Per ulteriori informazioni, consulta [Creare una bozza statica per un sito web o altro contenuto web](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md).
+* In una bozza interattiva, i revisori possono navigare e interagire come di consueto con il sito Web o altri contenuti web, ad esempio annunci con video in streaming o audio, elementi [!DNL Flash] in un annuncio, animazioni HTML e banner interattivi. Per ulteriori informazioni, vedere [Creare una bozza per il contenuto interattivo in un file ZIP](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
+* Per una bozza statica, [!DNL Workfront] prende una schermata delle pagine e delle sottopagine specificate. I collegamenti ipertestuali sono attivi nella bozza, per consentirti di verificare se conducono o meno alla destinazione corretta. Per ulteriori informazioni, vedere [Creare una bozza statica per un sito Web o un altro contenuto Web](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md).
 
-Puoi aggiungere più URL contemporaneamente se li separi con uno spazio. La combinazione è disponibile solo in [!UICONTROL Enterprise] e [!UICONTROL Senza limiti] piani di edizione.
+Puoi aggiungere più URL contemporaneamente se li separi con uno spazio. La combinazione è disponibile solo nei piani dell&#39;edizione [!UICONTROL Enterprise] e [!UICONTROL Unlimited].
 
 ## Gli utenti che non dispongono di un account di accesso possono creare delle bozze nel mio account?
 
 ### Risposta
 
-Sono necessarie le credenziali di accesso per creare le bozze direttamente in un [!DNL Workfront Proof] account.
+Sono necessarie le credenziali di accesso per creare le bozze direttamente in un account [!DNL Workfront Proof].
 
 ## Cosa significa condividere una bozza?
 
 ### Risposta
 
-La condivisione di una bozza consente ai revisori di accedervi in modo che possano aggiungere commenti e markup e prendere decisioni al riguardo. I revisori ospiti accedono alle bozze dalla notifica e-mail che ricevono. Revisori con il proprio [!DNL Workfront Proof] l’account può accedere alle bozze in [!UICONTROL Dashboard].
+La condivisione di una bozza consente ai revisori di accedervi in modo che possano aggiungere commenti e markup e prendere decisioni al riguardo. I revisori ospiti accedono alle bozze dalla notifica e-mail che ricevono. I revisori con il proprio account [!DNL Workfront Proof] possono accedere alle bozze nel [!UICONTROL Dashboard].
 
 ## Come si condivide una bozza?
 
 ### Risposta
 
-Quando crei una bozza, puoi aggiungere i revisori nel [!UICONTROL Flusso di lavoro] sezione del [!UICONTROL Nuova bozza] pagina. Quando la bozza è pronta, [!DNL Workfront Proof] invia ai revisori un’e-mail contenente un collegamento alla bozza.
+Quando crei una bozza, puoi aggiungere i revisori nella sezione [!UICONTROL Flusso di lavoro] della pagina [!UICONTROL Nuova bozza]. Quando la bozza è pronta, [!DNL Workfront Proof] invia ai revisori un&#39;e-mail contenente un collegamento alla bozza.
 
-Se disponi di diritti sufficienti su una bozza, puoi utilizzare il visualizzatore di bozze, il tuo [!UICONTROL Dashboard]o una delle viste a elenco per aggiungere revisori a una bozza esistente (vedi [Condividere una bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) and [Manage Items on the [!UICONTROL Views] Pagina in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md).
+Se disponi di diritti sufficienti per una bozza, puoi utilizzare il visualizzatore di bozze, il [!UICONTROL Dashboard] o una qualsiasi delle visualizzazioni elenco per aggiungere revisori a una bozza esistente (vedi [Condividere una bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) and [Manage Items on the [!UICONTROL Views] Pagina in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md).
 
 L’aggiunta di revisori è il modo più comune per condividere le bozze. Se desideri esplorare altre opzioni disponibili, consulta:
 
-* [Condividere collegamenti alle bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof-links.md)
-* [Condividere l’URL pubblico in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md)
-* [Iscriviti a una bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md)
-* [Creare una mini bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/create-mini-proof.md)
+* [Condividi collegamenti bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof-links.md)
+* [Condividi URL pubblico in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md)
+* [Abbonati a una bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md)
+* [Crea una mini bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/create-mini-proof.md)
 
 ## Devi essere un utente per rivedere una bozza?
 
 ### Risposta
 
-No. Revisori ospiti (persone senza [!DNL Workfront Proof] credenziali di accesso) possono accedere a una bozza dalla notifica e-mail della bozza che ricevono. Puoi condividere una bozza con tutti gli ospiti che desideri.
+No. I revisori ospiti (persone senza credenziali di accesso [!DNL Workfront Proof]) possono accedere a una bozza dalla notifica e-mail della bozza che ricevono. Puoi condividere una bozza con tutti gli ospiti che desideri.
 
-È possibile limitare la condivisione delle bozze a persone con [!DNL Workfront Proof] credenziali di accesso. Questo aggiunge un altro livello di sicurezza alle bozze. Per una maggiore sicurezza, gli amministratori di sistema delle organizzazioni con [!UICONTROL Enterprise] e [!UICONTROL Senza limiti] i piani possono configurare questo requisito per tutte le bozze create nell’organizzazione.
+È possibile limitare la condivisione delle bozze alle persone con credenziali di accesso [!DNL Workfront Proof]. Questo aggiunge un altro livello di sicurezza alle bozze. Per una maggiore sicurezza, gli amministratori di sistema delle organizzazioni con [!UICONTROL Enterprise] e [!UICONTROL Unlimited] piani possono configurare questo requisito per tutte le bozze create nell&#39;organizzazione.
 
-Per ulteriori informazioni sulla richiesta di accesso, consulta [Sicurezza bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md).
+Per ulteriori informazioni sulla richiesta dell&#39;accesso, vedere [Protezione della bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md).
 
-Se la tua organizzazione richiede ai revisori di firmare le bozze elettronicamente, è necessario effettuare l’accesso a [!DNL Workfront Proof], gli utenti possono condividere le bozze solo con utenti registrati. Questo è disponibile su [!UICONTROL Enterprise] e [!UICONTROL Senza limiti] piani di edizione. Per ulteriori informazioni, consulta [Informazioni sulle firme elettroniche in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md).
+Se la tua organizzazione richiede ai revisori di firmare le bozze elettronicamente, il che richiede l&#39;accesso a [!DNL Workfront Proof], gli utenti possono condividere le bozze solo con utenti registrati. È disponibile nei piani dell&#39;edizione [!UICONTROL Enterprise] e [!UICONTROL Unlimited]. Per ulteriori informazioni, vedere [Informazioni sulle firme elettroniche in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md).
 
 ## Posso impostare una scadenza per i miei revisori?
 
 ### Risposta
 
-È possibile impostare una scadenza per una nuova bozza o una nuova versione della bozza durante la creazione. È possibile eseguire questa operazione in [!UICONTROL Flusso di lavoro] sezione del [!UICONTROL Nuova bozza] pagina. Se usa [!UICONTROL Flusso di lavoro automatizzato], è possibile impostare una scadenza diversa per ogni fase della revisione.
+È possibile impostare una scadenza per una nuova bozza o una nuova versione della bozza durante la creazione. Puoi eseguire questa operazione nella sezione [!UICONTROL Flusso di lavoro] della pagina [!UICONTROL Nuova bozza]. Se utilizzi [!UICONTROL Flusso di lavoro automatico], puoi impostare una scadenza diversa per ogni fase della revisione.
 
-Puoi anche impostare o aggiornare una scadenza per una bozza esistente utilizzando [!UICONTROL Dettagli bozza] pagina. Per ulteriori informazioni, consulta [Gestire i dettagli della bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+È inoltre possibile impostare o aggiornare una scadenza per una bozza esistente utilizzando la pagina [!UICONTROL Dettagli bozza]. Per ulteriori informazioni, consulta [Gestire i dettagli della bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
 ## Come si crea una nuova versione della bozza?
 
@@ -139,10 +139,10 @@ Per ulteriori informazioni, consulta .
 
 ### Risposta
 
-Sì. Se desideri condividere qualcosa con altre persone, ma non hai bisogno che le visualizzino come bozza (o se si tratta di un tipo di file non supportato da [!DNL Workfront Proof]), puoi caricarlo come file nel tuo [!DNL Workfront Proof] account. Come per le bozze, puoi organizzare i file in cartelle, assegnare tag ai file e aggiungere un messaggio personalizzato all’e-mail di notifica quando condividi il file. Per ulteriori informazioni, consulta [Carica file e contenuti web in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
+Sì. Se si desidera condividere un elemento con altri utenti, ma non è necessario che questi ultimi lo visualizzino come bozza o se si tratta di un tipo di file non supportato da [!DNL Workfront Proof], è possibile caricarlo come file nel proprio account [!DNL Workfront Proof]. Come per le bozze, puoi organizzare i file in cartelle, assegnare tag ai file e aggiungere un messaggio personalizzato all’e-mail di notifica quando condividi il file. Per ulteriori informazioni, vedere [Caricare file e contenuto Web in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
 
 Quando i destinatari ricevono la notifica e-mail relativa a un file che stai condividendo, possono scaricare il file facendo clic sul collegamento nella notifica.
 
-[!DNL Workfront Proof] gli utenti possono convertire i file in bozze dopo averli salvati nel loro account.
+[!DNL Workfront Proof] utenti possono convertire i file in bozze dopo averli salvati nel loro account.
 
 <!--Is there a limit-->

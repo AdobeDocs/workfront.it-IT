@@ -9,7 +9,7 @@ exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
 source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
 workflow-type: tm+mt
 source-wordcount: '2089'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 5%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, do it in both articles)</p>
 -->
 
-È possibile visualizzare o modificare le informazioni di un&#39;attività accedendo all&#39;area Panoramica della sezione Dettagli attività . In quest’area è disponibile un numero limitato di campi che è possibile visualizzare o modificare. Per informazioni sulla modifica di tutte le informazioni relative a un&#39;attività, vedere [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+È possibile visualizzare o modificare le informazioni di un&#39;attività accedendo all&#39;area Panoramica della sezione Dettagli attività . In quest’area è disponibile un numero limitato di campi che è possibile visualizzare o modificare. Per informazioni sulla modifica di tutte le informazioni per un&#39;attività, vedere [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 In questo articolo viene descritto come visualizzare o modificare le informazioni nell&#39;area Panoramica di Dettagli task. Per informazioni sull&#39;aggiornamento di altre aree di Dettagli attività, vedere i seguenti articoli:
 
-* [Gestire i dati finanziari delle attività nella sezione Dettagli attività](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
+* [Gestisci dati finanziari attività nella sezione Dettagli attività](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 * [Aggiungere un modulo personalizzato a un oggetto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
 * [Gestire i moduli personalizzati allegati agli oggetti](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
 
@@ -39,21 +39,21 @@ Devi avere i seguenti:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront<b> piano*</b> </p> </td> 
+   <td> <p>Piano Adobe Workfront<b>*</b> </p> </td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront<b> licenza*</b> </p> </td> 
+   <td> <p>Licenza Adobe Workfront<b>*</b> </p> </td> 
    <td> <p>Lavoro o superiore</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>Configurazioni del livello di accesso*</strong> </td> 
-   <td> <p>Accesso di visualizzazione o superiore ai progetti e alle attività</p> <p>Se disponi del livello di accesso corretto ma non riesci ancora a modificare la sezione Dettagli dell’attività, chiedi all’Adobe Workfront se ha impostato restrizioni aggiuntive nel livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <p>Accesso di visualizzazione o superiore ai progetti e alle attività</p> <p>Se disponi del livello di accesso corretto ma non riesci ancora a modificare la sezione Dettagli dell’attività, chiedi all’Adobe Workfront se ha impostato restrizioni aggiuntive nel livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Autorizzazioni oggetto</strong> </p> </td> 
-   <td> <p>Autorizzazioni Contribute o superiori per il progetto</p> <p>Visualizzare le autorizzazioni per l'attività per visualizzare le informazioni nella sezione Dettagli. </p> 
-   <p>Autorizzazioni di Contribute per l'attività per aggiornare le seguenti informazioni nella sezione Dettagli:</p>
+   <td> <p>Contribute o autorizzazioni superiori per il progetto</p> <p>Visualizzare le autorizzazioni per l'attività per visualizzare le informazioni nella sezione Dettagli. </p> 
+   <p>Autorizzazioni di Contribute per l’attività per aggiornare le seguenti informazioni nella sezione Dettagli:</p>
 
 <ul>
    <li>Descrizione</li>
@@ -68,16 +68,16 @@ Devi avere i seguenti:
 ## Modificare le informazioni sull&#39;attività nella sezione Panoramica dei dettagli attività
 
 1. Passare a un&#39;attività che si desidera visualizzare o modificare.
-1. Clic **Dettagli Attività** nel pannello a sinistra .
-1. Vai a **Panoramica** per visualizzare ulteriori informazioni sull&#39;attività.
+1. Fai clic su **Dettagli attività** nel pannello a sinistra.
+1. Vai all&#39;area **Panoramica** per visualizzare ulteriori informazioni sull&#39;attività.
 
    Per impostazione predefinita, Panoramica è la prima area della sezione Dettagli attività ed è espansa.
 
    >[!NOTE]
    >
-   >A seconda del modo in cui l’amministratore di Workfront o il gruppo imposta il modello di layout, i campi nella sezione Dettagli attività potrebbero essere ridisposti o non visualizzati. Per informazioni, consulta [Personalizzare la visualizzazione Dettagli utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >A seconda del modo in cui l’amministratore di Workfront o il gruppo imposta il modello di layout, i campi nella sezione Dettagli attività potrebbero essere ridisposti o non visualizzati. Per informazioni, vedere [Personalizzare la visualizzazione Dettagli utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. Fai clic su **Modifica** icona ![](assets/edit-icon.png) nell’angolo superiore destro della sezione Dettagli, quindi fai clic su **Panoramica**.
+1. Fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png) nell&#39;angolo superiore destro della sezione Dettagli, quindi fai clic su **Panoramica**.
 
    >[!TIP]
    >
@@ -117,7 +117,7 @@ Devi avere i seguenti:
         <li> <p>Normal </p> </li> 
         <li> <p>Alta </p> </li> 
         <li> <p> Urgente </p> </li> 
-       </ul> <p>A seconda delle Preferenze di progetto selezionate dall'amministratore di Workfront, i nomi delle priorità potrebbero essere diversi. Per informazioni sulle priorità delle attività, vedere <a href="../../../manage-work/tasks/task-information/task-priority.md" class="MCXref xref">Aggiorna Priorità Attività</a>. </p> </td> 
+       </ul> <p>A seconda delle Preferenze di progetto selezionate dall'amministratore di Workfront, i nomi delle priorità potrebbero essere diversi. Per informazioni sulle priorità delle attività, vedere <a href="../../../manage-work/tasks/task-information/task-priority.md" class="MCXref xref">Aggiorna priorità attività</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tipo di Durata</td> 
@@ -126,7 +126,7 @@ Devi avere i seguenti:
         <li> <p>Numero di risorse assegnate a un'attività </p> </li> 
         <li> <p>Lo sforzo totale richiesto per completare l'attività </p> </li> 
         <li> <p> Durata totale dell'attività. </p> </li> 
-       </ul> <p>Il tuo amministratore Workfront <span> o un amministratore di gruppo</span> seleziona l’impostazione predefinita Tipo di durata per le attività nel sistema o nel gruppo. Per informazioni sull'impostazione delle impostazioni predefinite del progetto, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurare le preferenze di progetto a livello di sistema</a>. </p> <p>I tipi di durata consentono di impostare assegnazioni di risorse coerenti in base alle esigenze dell'attività. Per ulteriori informazioni sul Tipo di durata di un'attività, vedere <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Panoramica sulla durata e sul tipo di durata dell'attività</a>. </p> <p>Selezionare una delle opzioni seguenti: </p> 
+       </ul> <p>L'amministratore di Workfront <span> o un amministratore di gruppo</span> seleziona l'impostazione predefinita Tipo di durata per le attività del sistema o del gruppo. Per informazioni sull'impostazione delle impostazioni predefinite del progetto, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurare le preferenze del progetto a livello di sistema</a>. </p> <p>I tipi di durata consentono di impostare assegnazioni di risorse coerenti in base alle esigenze dell'attività. Per ulteriori informazioni sul tipo di durata di un'attività, vedere <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Panoramica sulla durata e sul tipo di durata dell'attività</a>. </p> <p>Selezionare una delle opzioni seguenti: </p> 
        <ul> 
         <li> <p>Incarico Calcolato </p> </li> 
         <li> <p> Lavoro Calcolato </p> </li> 
@@ -213,7 +213,7 @@ Devi avere i seguenti:
      </tr> 
      <tr> 
       <td role="rowheader">Ore pianificate</td> 
-      <td> <p>Specifica la quantità di ore pianificate per l'attività, in ore. Quantità di tempo effettivo necessario agli assegnatari per completare l'attività. È possibile specificare la quantità di ore pianificate per un'attività solo quando il tipo di durata è impostato su Assegnazione calcolata. Per ulteriori informazioni sui tipi di durata, consulta <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Panoramica sulla durata e sul tipo di durata dell'attività</a>.</p> </td> 
+      <td> <p>Specifica la quantità di ore pianificate per l'attività, in ore. Quantità di tempo effettivo necessario agli assegnatari per completare l'attività. È possibile specificare la quantità di ore pianificate per un'attività solo quando il tipo di durata è impostato su Assegnazione calcolata. Per ulteriori informazioni sui tipi di durata, vedere <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Panoramica sulla durata dell'attività e sul tipo di durata</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ore effettive</td> 
@@ -230,47 +230,47 @@ Devi avere i seguenti:
         </ul> 
         <p>Selezionare una delle opzioni seguenti:</p> 
         <ul> 
-         <li>Piccolo</li> 
-         <li>Medio <span style="font-weight: normal;">(valore predefinito per una nuova attività)</span></li> 
+         <li>Piccola</li> 
+         <li>Medium <span style="font-weight: normal;">(valore predefinito per una nuova attività)</span></li> 
          <li>Grande</li> 
         </ul> 
         <p><strong>NOTA</strong></p> 
         <p> L'aggiornamento della quantità di lavoro potrebbe aggiornare le ore pianificate dell'attività. L'aggiornamento è immediato se il tipo di aggiornamento del progetto è Automatico. Quando il tipo di aggiornamento del progetto è Manuale, è necessario ricalcolare la sequenza temporale per visualizzare le ore pianificate aggiornate. </p> 
-        <p>Per informazioni sull'utilizzo dell'Impegno di lavoro invece delle Ore pianificate per stimare l'impegno dell'attività, vedere <a href="../../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Panoramica sull’impegno di lavoro</a>. </p> 
+        <p>Per informazioni sull'utilizzo dell'Impegno di lavoro invece delle Ore pianificate per stimare l'impegno di attività, vedere <a href="../../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Panoramica sull'impegno di lavoro</a>. </p> 
        </div> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Vincolo attività</td> 
       <td> <p>Decidere quando l'attività deve essere completata specificando un vincolo attività. </p> <p>Selezionare una delle opzioni seguenti: </p> 
        <ul> 
-        <li> <p><span>Dati Fissi</span> </p> <p>Specifica un <strong>Inizio pianificato</strong> e un <strong>Data di completamento Pianificata</strong>. </p> </li> 
-        <li> <p><span>Deve ininziare al</span> </p> <p>Specifica un <strong>Data Inizio Pianificata</strong>. </p> </li> 
-        <li> <p><span>Deve Finire al</span> </p> <p>Specifica un <strong>Data di completamento Pianificata</strong>. </p> </li> 
+        <li> <p><span>Date fisse</span> </p> <p>Specifica un <strong>Inizio pianificato</strong> e una <strong>Data di completamento pianificata</strong>. </p> </li> 
+        <li> <p><span>Deve Iniziare Il</span> </p> <p>Specifica una <strong>data inizio pianificata</strong>. </p> </li> 
+        <li> <p><span>Deve Terminare Il</span> </p> <p>Specifica una <strong>data di completamento pianificata</strong>. </p> </li> 
        </ul> 
        <ul> 
-        <li> <p><span>Il prima possibile</span></p> </li> 
+        <li> <p><span>Il Prima Possibile</span></p> </li> 
         <li> <p><span>Più tardi possibile</span></p> </li> 
         <li> <p><span>Primo Orario Disponibile</span></p> </li> 
         <li> <p> <span>Ultimo Orario Disponibile</span></p> </li> 
-        <li> <p><span>Iniziare non Dopo di</span> </p> </li> 
+        <li> <p><span>Inizia Non Dopo Di</span> </p> </li> 
         <li> <p>Specifica una data di inizio pianificata</p> </li> 
-        <li> <p><span>Iniziare non Prima di</span> </p> <p>Specifica un <strong>Data Inizio Pianificata</strong>. </p> </li> 
-        <li> <p> Fine <span>Non oltre il</span></p> <p>Specifica un <strong>Data di completamento Pianificata</strong>. </p> </li> 
-        <li> <p> Fine <span>Non Prima Di</span></p> <p>Specifica un <strong>Data di completamento Pianificata</strong></p> </li> 
-       </ul> <p>Per ulteriori informazioni su Vincolo attività, vedere <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Panoramica sui vincoli delle attività</a>.</p> </td> 
+        <li> <p><span>Iniziare Non Prima Di</span> </p> <p>Specifica una <strong>data inizio pianificata</strong>. </p> </li> 
+        <li> <p> Termina <span>Non Dopo Di</span></p> <p>Specifica una <strong>data di completamento pianificata</strong>. </p> </li> 
+        <li> <p> Termina <span>Non Prima Di</span></p> <p>Specifica una <strong>data di completamento pianificata</strong></p> </li> 
+       </ul> <p>Per ulteriori informazioni sul vincolo attività, vedere <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Panoramica sul vincolo attività</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Data di inizio pianificata</td> 
       <td> <p>Quando è pianificato l’inizio dell’attività. La data di inizio pianificata di un'attività viene impostata e influenzata da diversi fattori:</p> 
        <ul> 
-        <li>A seconda della preferenza a livello di sistema per la data di inizio pianificata dell'attività, la data di inizio di una nuova attività in un progetto può essere la data odierna o la data di inizio del progetto, per impostazione predefinita. <span>Anche l’amministratore del gruppo associato al progetto può impostare questa preferenza per il gruppo.</span> Per ulteriori informazioni sulle preferenze per le attività a livello di sistema o di gruppo, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configurare le preferenze per attività e problemi a livello di sistema</a>.</li> 
-        <li>A seconda dei predecessori dell'attività, la data di inizio pianificata viene scelta da Workfront come data disponibile successiva alla fine o all'inizio del predecessore, a seconda della relazione del predecessore. Per ulteriori informazioni sulle relazioni predecessori, vedere <a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">Panoramica dei predecessori delle attività</a>.</li> 
+        <li>A seconda della preferenza a livello di sistema per la data di inizio pianificata dell'attività, la data di inizio di una nuova attività in un progetto può essere la data odierna o la data di inizio del progetto, per impostazione predefinita. <span>Anche l'amministratore del gruppo associato al progetto può impostare questa preferenza per il gruppo.</span> Per ulteriori informazioni sulle preferenze per le attività a livello di sistema o di gruppo, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configurare le preferenze per attività e problemi a livello di sistema</a>.</li> 
+        <li>A seconda dei predecessori dell'attività, la data di inizio pianificata viene scelta da Workfront come data disponibile successiva alla fine o all'inizio del predecessore, a seconda della relazione del predecessore. Per ulteriori informazioni sulle relazioni con i predecessori, vedere <a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">Panoramica sui predecessori delle attività</a>.</li> 
         <li>Il project manager o il proprietario dell'attività possono impostare manualmente la data di inizio pianificata quando il vincolo dell'attività è Date fisse o Deve iniziare il. Per ulteriori informazioni sui vincoli delle attività, vedere <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Panoramica sui vincoli delle attività</a>.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Data di inizio prevista</td> 
-      <td> <p>La data di inizio effettiva dell'attività in base all'avanzamento e al completamento delle attività precedenti. Questo è un campo calcolato e non puoi modificarlo manualmente.</p> <p> La data di inizio prevista e la data di inizio pianificata iniziano con la stessa, quando un progetto è pianificato per la prima volta. La data di inizio prevista può essere spostata dall'inizio pianificato se il progetto si evolve e l'attività non è ancora stata avviata. Per ulteriori informazioni sulle date di inizio previste, consulta <a href="../../../manage-work/projects/planning-a-project/project-projected-start-date.md" class="MCXref xref">Panoramica della data di inizio prevista del progetto</a>. </p> </td> 
+      <td> <p>La data di inizio effettiva dell'attività in base all'avanzamento e al completamento delle attività precedenti. Questo è un campo calcolato e non puoi modificarlo manualmente.</p> <p> La data di inizio prevista e la data di inizio pianificata iniziano con la stessa, quando un progetto è pianificato per la prima volta. La data di inizio prevista può essere spostata dall'inizio pianificato se il progetto si evolve e l'attività non è ancora stata avviata. Per ulteriori informazioni sulle date di inizio previste, vedere <a href="../../../manage-work/projects/planning-a-project/project-projected-start-date.md" class="MCXref xref">Panoramica sulla data di inizio prevista del progetto</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Data d'Inizio Reale</td> 
@@ -282,12 +282,12 @@ Devi avere i seguenti:
        <ul> 
         <li>La data di completamento pianificata viene calcolata a partire dalla data di inizio pianificata aggiungendo la Durata dell'attività alla data di inizio pianificata. Quando il project manager o Workfront specifica la durata dell'attività, viene attivato un aggiornamento della data di completamento pianificata. Se la data pianificata cambia, spesso sarà perché la Durata del è stata aggiornata.</li> 
         <li>Il project manager o il proprietario dell'attività possono impostare manualmente la data di completamento pianificata quando il vincolo dell'attività è Date fisse o Deve finire il. Per ulteriori informazioni sui vincoli delle attività, vedere <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Panoramica sui vincoli delle attività</a>.</li> 
-        <li>Se il Tipo di Durata dell'attività cambia e il numero di risorse sulle attività cambia contemporaneamente, cambierà anche la data di completamento pianificata. Per ulteriori informazioni sui tipi di durata, consulta <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Panoramica sulla durata e sul tipo di durata dell'attività</a>.</li> 
+        <li>Se il Tipo di Durata dell'attività cambia e il numero di risorse sulle attività cambia contemporaneamente, cambierà anche la data di completamento pianificata. Per ulteriori informazioni sui tipi di durata, vedere <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Panoramica sulla durata dell'attività e sul tipo di durata</a>.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Data di completamento Previsto</td> 
-      <td> <p>La data "reale" di completamento dell'attività in base all'avanzamento delle attività precedenti e agli aggiornamenti di avanzamento dell'attività da parte dell'assegnatario. Questo è un campo calcolato e non puoi modificarlo manualmente.</p> <p> La data di completamento prevista e la data di completamento pianificata iniziano con lo stesso valore, quando un progetto viene pianificato per la prima volta. Se il progetto si evolve e l'attività non è ancora stata avviata, la data di completamento prevista può essere spostata dal completamento pianificato. Per ulteriori informazioni sulle date di completamento previste, consulta <a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">Panoramica della data di completamento prevista per progetti, attività e problemi</a>.</p> </td> 
+      <td> <p>La data "reale" di completamento dell'attività in base all'avanzamento delle attività precedenti e agli aggiornamenti di avanzamento dell'attività da parte dell'assegnatario. Questo è un campo calcolato e non puoi modificarlo manualmente.</p> <p> La data di completamento prevista e la data di completamento pianificata iniziano con lo stesso valore, quando un progetto viene pianificato per la prima volta. Se il progetto si evolve e l'attività non è ancora stata avviata, la data di completamento prevista può essere spostata dal completamento pianificato. Per ulteriori informazioni sulle date di completamento previste, vedere <a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">Panoramica sulla data di completamento prevista per progetti, attività e problemi</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Data di completamento effettiva</td> 
@@ -295,7 +295,7 @@ Devi avere i seguenti:
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Conferma data</td> 
-      <td> <p>Si tratta della data entro la quale l’utente assegnato all’attività si impegna a completarla. Può essere diverso dalla Data di completamento pianificata. Solo gli assegnatari possono modificare questo campo. Per informazioni sulle date di conferma in Workfront, consulta <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Panoramica sulla data di conferma</a>.</p> </td> 
+      <td> <p>Si tratta della data entro la quale l’utente assegnato all’attività si impegna a completarla. Può essere diverso dalla Data di completamento pianificata. Solo gli assegnatari possono modificare questo campo. Per informazioni sulle date di conferma in Workfront, vedere <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Panoramica sulla data di conferma</a>.</p> </td> 
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Data inserimento</td> 
@@ -360,4 +360,4 @@ Devi avere i seguenti:
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about editing financial information for a task, see <a href="../../../manage-work/tasks/manage-tasks/task-finances-in-details.md" class="MCXref xref">Manage task finances in the Task Details section</a>. </p>
    -->
 
-1. Clic **Salva modifiche**.
+1. Fai clic su **Salva modifiche**.

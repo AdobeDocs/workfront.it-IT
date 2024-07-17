@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Puoi applicare la vista Milestone (Attività cardine) a un elenco o a un rapporto di progetto.
 
-Prima di poter utilizzare la vista milestone, è necessario configurare i milestone, aggiungere i percorsi ai progetti e associare i milestone alle attività, come descritto negli articoli [Creare un percorso milestone](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) e [Associa attività cardine ad attività](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+Prima di poter utilizzare la vista milestone, è necessario configurare le milestone, aggiungere percorsi milestone ai progetti e associare le milestone alle attività, come descritto negli articoli [Creare un percorso milestone](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) e [Associare le milestone alle attività](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
 La vista Milestone (Attività cardine) è disponibile quando si visualizza un elenco di progetti o un rapporto di progetto. Nelle sezioni seguenti viene descritto come visualizzare e utilizzare la vista milestone.
 
@@ -64,11 +64,11 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 {{step1-to-projects}}
 
-1. Fai clic su **Visualizza** menu a discesa, quindi fai clic su **Milestone**.
+1. Fai clic sul menu a discesa **Visualizza**, quindi fai clic su **Milestone**.
 
    L’elenco o il rapporto viene visualizzato in una vista Milestone.
 
-   Per informazioni sulla vista milestone, consulta la sezione [Panoramica della vista Milestone](#milestone-view-overview) in questo articolo.
+   Per informazioni sulla visualizzazione milestone, vedere la sezione [Panoramica della visualizzazione milestone](#milestone-view-overview) in questo articolo.
 
 ## Panoramica della vista Milestone {#milestone-view-overview}
 
@@ -82,7 +82,7 @@ La vista Milestone (Attività cardine) è disponibile negli elenchi dei progetti
 >* Schede orario, nell’elenco dei progetti quando si aggiunge un progetto.
 
 
-Per informazioni su come passare alla vista Milestone, consulta la sezione [Passa alla vista Milestone](#switch-to-the-milestone-view) in questo articolo.
+Per informazioni su come passare alla vista Milestone, vedere la sezione [Passare alla vista Milestone](#switch-to-the-milestone-view) in questo articolo.
 
 ![Progetto con vista milestone](assets/project-with-milestone-view-with-complete.png)
 
@@ -104,19 +104,19 @@ Quando si applica la vista Milestone (Attività cardine) a un elenco di progetti
 
 Quando si visualizza l’elenco o il rapporto di un progetto nella vista Milestone (Attività cardine), sono disponibili le seguenti informazioni:
 
-* **Date pianificate o date previste:** Specifica se visualizzare le date pianificate o previste nella vista Milestone.\
+* **Date pianificate o date previste:** Specificare se si desidera visualizzare le date pianificate o le date previste nella vista Milestone.\
   Vengono visualizzate le date di inizio e completamento, nonché di ogni attività cardine all’interno del Percorso attività cardine.\
   Se si visualizzano le Date pianificate e si dispone anche dell&#39;accesso Gestisci al progetto, è possibile modificare le date seguenti direttamente dalla vista Milestone (se si visualizzano le Date previste, le date non possono essere modificate perché le Date previste sono calcolate e non possono essere modificate manualmente).
 
-   * **Date di inizio progetto:** Se un progetto è programmato a partire dalla data di inizio, è possibile modificare manualmente la data di inizio del progetto e quindi calcolare la data di completamento.
-   * **Date di completamento progetto:** Se un progetto è programmato a partire dalla data di completamento, è possibile modificare manualmente la data di completamento del progetto e quindi calcolare la data di inizio.
-   * **Date di completamento attività:** È possibile aggiornare manualmente il completamento delle attività direttamente dalla vista Milestone.
+   * **Date inizio progetto:** Se un progetto è pianificato a partire dalla data di inizio, è possibile modificare manualmente la data di inizio del progetto, quindi calcolare la data di completamento.
+   * **Date di completamento progetto:** Se un progetto è programmato dalla data di completamento, è possibile modificare manualmente la data di completamento del progetto e la data di inizio viene quindi calcolata.
+   * **Date di completamento attività:** Puoi aggiornare manualmente il completamento delle attività direttamente dalla vista Milestone.
 
 * **Percentuale completamento:** Visualizza la percentuale di completamento di ogni attività e progetto.\
-  Puoi disattivare la visualizzazione della percentuale di completamento, come descritto nella sezione [Configurare le informazioni da visualizzare nella vista Milestone](#configure-what-information-displays-in-the-milestone-view) in questo articolo.\
+  È possibile disattivare la visualizzazione della percentuale di completamento, come descritto nella sezione [Configurare le informazioni visualizzate nella vista Milestone](#configure-what-information-displays-in-the-milestone-view) in questo articolo.\
   Puoi regolare la percentuale di completamento direttamente dalla vista Milestone, come descritto nella sezione [Regola percentuale di completamento per le attività nella vista Milestone](#adjust-percent-complete-for-tasks-in-the-milestone-view) in questo articolo.
 
-* **Icone di stato attività:** Accanto a ogni progetto e attività nella vista Milestone viene visualizzata un&#39;icona di stato.
+* **Icone di stato attività:** Accanto a ogni progetto e attività nella visualizzazione Milestone viene visualizzata un&#39;icona di stato.
 
    * Nei Tempi\
      ![](assets/gantt-ontime.png)
@@ -130,35 +130,35 @@ Quando si visualizza l’elenco o il rapporto di un progetto nella vista Milesto
    * In Ritardo\
      ![](assets/gantt-late.png)
 
-  È possibile disattivare la visualizzazione di queste icone di stato, come descritto nella sezione [Configurare le informazioni da visualizzare nella vista Milestone](#configure-what-information-displays-in-the-milestone-view) in questo articolo.\
-  Per informazioni più dettagliate su ciascun tipo di stato, consulta l’articolo [Panoramica sullo stato di avanzamento dell’attività](../../../manage-work/tasks/task-information/task-progress-status.md).
+  È possibile disattivare la visualizzazione di queste icone di stato, come descritto nella sezione [Configurare le informazioni visualizzate nella vista Milestone](#configure-what-information-displays-in-the-milestone-view) in questo articolo.\
+  Per informazioni più dettagliate su ciascun tipo di stato, vedere l&#39;articolo [Panoramica sullo stato di avanzamento dell&#39;attività](../../../manage-work/tasks/task-information/task-progress-status.md).
 
-* **Ombreggiatura stato attività per attività completate**: dopo aver contrassegnato un’attività come Completa, nella vista Milestone viene ombreggiato lo sfondo dell’attività per indicare se è stata completata in tempo o in ritardo:
+* **Ombreggiatura stato attività per attività completate**: dopo aver contrassegnato un&#39;attività come Completa, lo sfondo dell&#39;attività viene ombreggiato nella vista Milestone per indicare se l&#39;attività è stata completata in tempo o in ritardo:
 
-   * **Ombreggiatura rossa per colonna attività**: lo sfondo di un’attività è rosso quando lo Stato di avanzamento è **In Ritardo**.
+   * **Sfondo rosso per la colonna attività**: lo sfondo di un&#39;attività è rosso quando lo stato di avanzamento è **In ritardo**.
 
-   * **Ombreggiatura verde per colonna attività**: lo sfondo di un’attività è verde quando lo Stato di avanzamento è **Ora di attivazione**.
+   * **Ombreggiatura verde per la colonna attività**: lo sfondo di un&#39;attività è verde quando lo stato di avanzamento è **Ora di attivazione**.
 
-* **Ombreggiatura stato progetto per le colonne Inizio progetto e Completamento progetto**:
+* **Ombreggiatura stato progetto per le colonne Inizio progetto e Completamento del progetto**:
 
-   * **Colonna di inizio progetto**: lo sfondo della colonna Inizio progetto è rosso o verde solo quando viene popolata la data di inizio effettiva:
+   * **Colonna inizio progetto**: lo sfondo della colonna Inizio progetto è rosso o verde solo quando la data di inizio effettivo è popolata:
 
-      * **Ombreggiatura rossa per colonna Inizio progetto**: lo sfondo della colonna Inizio progetto è rosso quando lo stato di avanzamento del progetto è **In Ritardo**.
+      * **Ombreggiatura rossa per colonna inizio progetto**: lo sfondo della colonna inizio progetto è rosso quando lo stato di avanzamento del progetto è **In ritardo**.
 
-      * **Ombreggiatura verde per la colonna Inizio progetto**: lo sfondo della colonna Inizio progetto è verde quando lo stato di avanzamento del progetto è **Ora di attivazione**.
+      * **Ombreggiatura verde per la colonna Inizio progetto**: lo sfondo della colonna Inizio progetto è verde quando lo stato di avanzamento del progetto è **Ora di inizio**.
 
-   * **Colonna Completamento progetto**: lo sfondo della colonna Completamento progetto è rosso o verde solo quando viene popolata la data di completamento effettiva:
+   * **Colonna completamento progetto**: lo sfondo della colonna Completamento progetto è rosso o verde solo quando viene popolata la data di completamento effettiva:
 
-      * **Ombreggiatura rossa per colonna Completamento progetto**: lo sfondo della colonna di completamento del progetto è rosso quando lo stato di avanzamento del progetto è **In Ritardo**.
+      * **Sfondo rosso per la colonna di completamento del progetto**: lo sfondo della colonna di completamento del progetto è rosso quando lo stato di avanzamento del progetto è **In ritardo**.
 
-      * **Ombreggiatura verde per la colonna Completamento progetto**: lo sfondo della colonna Completamento progetto è verde quando lo stato di avanzamento del progetto è **Ora di attivazione**.
+      * **Ombreggiatura verde per la colonna di completamento del progetto**: lo sfondo della colonna di completamento del progetto è verde quando lo stato di avanzamento del progetto è **Nei tempi**.
 
    * Alle colonne Inizio e Completamento non viene assegnata alcuna ombreggiatura colore quando le attività hanno lo stato Avanzamento A rischio o Indietro.
 
-  ![Vista Milestone con sfondo](assets/milestone-view-with-shading.png)
+  ![Vista milestone con sfondo](assets/milestone-view-with-shading.png)
 
 * **Nome progetto**: il nome del progetto viene visualizzato con un collegamento al progetto.
-* **Icona Condizione progetto**: accanto al nome del progetto viene visualizzata un’icona che indica la condizione del progetto.
+* **Icona condizione progetto**: accanto al nome del progetto viene visualizzata un&#39;icona che indica la condizione del progetto.
 
 ## Configurare le informazioni da visualizzare nella vista Milestone {#configure-what-information-displays-in-the-milestone-view}
 
@@ -175,11 +175,11 @@ Per configurare la visualizzazione delle icone di stato del progetto e della per
 
 {{step1-to-projects}}
 
-1. Fai clic su **Visualizza** menu a discesa, quindi fai clic su **Milestone**.\
-   Se visualizzi un elenco di progetti all’interno di un Portfolio o di un programma, seleziona la **Milestone** scheda secondaria.
+1. Fai clic sul menu a discesa **Visualizza**, quindi fai clic su **Milestone**.\
+   Se visualizzi un elenco di progetti all&#39;interno di un Portfolio o di un programma, seleziona la scheda secondaria **Milestone**.
 
-1. Clic **Opzioni** nell&#39;angolo superiore destro della vista Milestone.\
-   ![milestone_view_options.png](assets/milestone-view-options-350x141.png)
+1. Fai clic su **Opzioni** nell&#39;angolo superiore destro della visualizzazione Milestone.\
+   ![opzioni_vista_milestone.png](assets/milestone-view-options-350x141.png)
 
 1. Selezionare una delle opzioni seguenti:
 
@@ -206,8 +206,8 @@ Per regolare la percentuale di completamento di un&#39;attività nella vista Mil
 
 {{step1-to-projects}}
 
-1. Fai clic su **Visualizza** menu a discesa, quindi fai clic su **Milestone**.
+1. Fai clic sul menu a discesa **Visualizza**, quindi fai clic su **Milestone**.
 
-1. (Condizionale) Se le percentuali di completamento non vengono visualizzate nella visualizzazione Milestone, fai clic su **Opzioni** nell’angolo superiore destro della vista Milestone, assicurati che **Percentuale completamento** è abilitato.
+1. (Condizionale) Se le percentuali di completamento non vengono visualizzate nella visualizzazione Milestone, fai clic su **Opzioni** nell&#39;angolo superiore destro della visualizzazione Milestone, quindi assicurati che **Percentuale di completamento** sia abilitato.
 
 1. Fare clic sulla percentuale di completamento al di sotto di un&#39;attività, specificare una nuova percentuale, quindi premere Invio.

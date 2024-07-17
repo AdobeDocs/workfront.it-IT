@@ -9,7 +9,7 @@ exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
 source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
 source-wordcount: '680'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -49,52 +49,52 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Gestire le autorizzazioni per un report per modificare gli elementi di reporting in un report</p> <p>Gestire le autorizzazioni per una visualizzazione o un filtro per modificarle</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un report per modificare gli elementi di reporting in un report</p> <p>Gestire le autorizzazioni per una visualizzazione o un filtro per modificarle</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Prerequisiti
 
 È necessario creare un report prima di poter aggiungere variabili con caratteri jolly.
 
-Per informazioni sulla creazione di un rapporto, consulta [Creare un rapporto](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
+Per informazioni sulla creazione di un report, vedere [Creare un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
 ## Passaggi pratici
 
 Per inserire un carattere jolly basato sulla data in un report:
 
 1. Passare a un report per il quale si desidera inserire un carattere jolly basato sulla data.
-1. Clic **Azioni report**, quindi **Modifica**.
+1. Fai clic su **Azioni report**, quindi su **Modifica**.
 
-1. Fai clic su **Filtri** scheda.
-1. Clic **Aggiungere una regola di filtro**.
+1. Fare clic sulla scheda **Filtri**.
+1. Fai clic su **Aggiungi una regola filtro**.
 1. Inizia a digitare il nome del campo in base al quale desideri filtrare.\
    È necessario digitare i campi che fanno riferimento a una data.
-1. Seleziona **Uguale** nel menu a discesa della variabile filtro.
+1. Seleziona **Uguale** nel menu a discesa per la variabile filtro.
 
    >[!TIP]
    >
-   >È sempre necessario selezionare **Uguale** variabile di filtro quando si utilizzano caratteri jolly in Adobe Workfront.
+   >È sempre necessario selezionare la variabile di filtro **Equal** quando si utilizzano i caratteri jolly in Adobe Workfront.
 
-1. In **Inizia a digitare il nome ...** casella, digitare: `$$TODAY` se si desidera visualizzare informazioni su un evento che si verifica nello stesso giorno in cui viene eseguito il report.
+1. Nella casella **Inizia a digitare il nome ...** digitare: `$$TODAY` se si desidera visualizzare informazioni su un evento che si verifica nello stesso giorno in cui viene eseguito il report.
 
    Oppure
 
-   Tipo `$$NOW` se si desidera visualizzare informazioni su un evento che si verifica nella stessa data e ora di esecuzione del report.
+   Digitare `$$NOW` se si desidera visualizzare informazioni su un evento che si verifica alla stessa data e ora di esecuzione del report.
 
    Questa data è sempre diversa, in quanto cambia con la data in cui il rapporto viene effettivamente visualizzato da un utente. le informazioni contenute nel rapporto sono quindi diverse da un giorno all’altro.
 
-1. (Facoltativo) Se desideri visualizzare le informazioni che si verificano in un arco temporale successivo alla data di esecuzione del rapporto, digita `$$TODAY+1w` per visualizzare le informazioni nella settimana successiva, oppure `$$TODAY+2m` per visualizzare le informazioni nei due mesi successivi. È inoltre possibile indicare gli intervalli di tempo per trimestri, ore, giorni o anni.
-1. (Facoltativo) Se desideri visualizzare informazioni su qualcosa che si è verificato in un intervallo di tempo prima della data di esecuzione del rapporto, digita `$$TODAY-1w` per visualizzare le informazioni della settimana precedente, oppure `$$TODAY-2m` per visualizzare le informazioni relative ai due mesi precedenti. È inoltre possibile indicare gli intervalli di tempo per trimestri, ore, giorni o anni.
+1. (Facoltativo) Se si desidera visualizzare le informazioni che si verificano in un intervallo di tempo successivo alla data di esecuzione del report, digitare `$$TODAY+1w` per visualizzare le informazioni nella settimana successiva oppure `$$TODAY+2m` per visualizzare le informazioni nei due mesi successivi. È inoltre possibile indicare gli intervalli di tempo per trimestri, ore, giorni o anni.
+1. (Facoltativo) Se si desidera visualizzare informazioni su un evento che si è verificato in un intervallo di tempo precedente alla data di esecuzione del report, digitare `$$TODAY-1w` per visualizzare le informazioni della settimana precedente oppure `$$TODAY-2m` per visualizzare le informazioni dei due mesi precedenti. È inoltre possibile indicare gli intervalli di tempo per trimestri, ore, giorni o anni.
 
-   Per un elenco completo degli attributi, dei qualificatori e degli operatori che è possibile utilizzare nei caratteri jolly basati sulla data, vedere l&#39;articolo [Panoramica delle variabili filtro con caratteri jolly](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+   Per un elenco completo degli attributi, dei qualificatori e degli operatori che è possibile utilizzare nei caratteri jolly basati sulla data, vedere l&#39;articolo [Panoramica delle variabili di filtro con caratteri jolly](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
    ![](assets/video-date-based-wildcard-in-task-filter-350x81.png)
 
-1. Clic **Salva e chiudi**.
+1. Fai clic su **Salva e Chiudi**.
 
 ## Informazioni aggiuntive
 

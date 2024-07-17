@@ -25,9 +25,9 @@ ht-degree: 0%
 
 Questa sezione contiene i seguenti articoli:
 
-* [Panoramica del single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
-* [Aggiornare gli utenti per il Single Sign-On](../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)
-* [Configurare Adobe Workfront con SAML 2.0](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
-* [Aggiornamento dei metadati SAML 2.0 nel provider di identità](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
-* [Configurare Adobe Workfront con SAML 2.0 utilizzando ADFS](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
+* [Panoramica del Single Sign-On in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
+* [Aggiorna utenti per Single Sign-On](../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)
+* [Configura Adobe Workfront con SAML 2.0](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
+* [Aggiorna metadati SAML 2.0 nel provider di identità](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
+* [Configurazione di Adobe Workfront con SAML 2.0 tramite ADFS](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
 * [Disattivare il single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/deactivate-sso.md)

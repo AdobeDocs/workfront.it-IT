@@ -2,41 +2,41 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
-title: Configurare l’inserire nell'elenco Consentiti e-mail
-description: Se la tua organizzazione utilizza il piano WorkfrontEnterprise, puoi creare un inserire nell'elenco Consentiti e-mail Workfront per controllare quali domini e-mail possono accettare e-mail da Workfront e quali domini e-mail possono trovarsi nell’indirizzo e-mail specificato dagli utenti nel loro profilo utente. Questo è utile se la politica di sicurezza della tua organizzazione limita l’invio da parte degli utenti di dati archiviati in Workfront ad indirizzi e-mail esterni. Puoi includere solo i domini aziendali interni nell’inserire nell'elenco Consentiti per garantire che questa policy sia rispettata.
+title: Configurare la inserisce nell'elenco Consentiti di e-mail per l’e-mail
+description: Se l'organizzazione utilizza il piano WorkfrontEnterprise, è possibile creare un Workfront di gestione delle e-mail di inserire nell'elenco Consentiti per controllare quali domini e-mail sono autorizzati ad accettare e-mail da Workfront e quali domini e-mail possono trovarsi nell'indirizzo e-mail specificato dagli utenti nel loro profilo utente. Questa opzione è utile se i criteri di sicurezza dell'organizzazione impediscono agli utenti di inviare i dati memorizzati in Workfront a indirizzi e-mail esterni. Per assicurarsi che tali criteri vengano rispettati, è possibile includere nel elenco Consentiti di gestione della sicurezza solo i domini aziendali interni.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 76b6acc4-c432-47b4-90bf-6e37e970625f
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
 
-# Configurare l’inserire nell&#39;elenco Consentiti e-mail
+# Configurare la inserisce nell&#39;elenco Consentiti di e-mail per l’e-mail
 
-Se la tua organizzazione utilizza il piano WorkfrontEnterprise, puoi creare un inserire nell&#39;elenco Consentiti e-mail Workfront per controllare:
+Se la tua organizzazione utilizza il piano Workfront Enterprise, puoi creare un Workfront di e-mail di inserire nell&#39;elenco Consentiti per controllare:
 
-* Quali domini e-mail possono accettare e-mail da Workfront.
-* Quali domini e-mail possono essere inclusi nell’indirizzo e-mail specificato dagli utenti nel loro profilo utente.
+* Quali domini e-mail possono accettare e-mail da Workfront?
+* Quali domini e-mail possono trovarsi nell’indirizzo e-mail specificato dagli utenti nel loro profilo utente.
 
-Questo è utile se la politica di sicurezza della tua organizzazione limita l’invio da parte degli utenti di dati archiviati in Workfront ad indirizzi e-mail esterni. Puoi includere solo i domini aziendali interni nell’inserire nell&#39;elenco Consentiti per garantire che questa policy sia rispettata.
+Questa opzione è utile se i criteri di sicurezza dell&#39;organizzazione impediscono agli utenti di inviare i dati memorizzati in Workfront a indirizzi e-mail esterni. Per assicurarsi che tali criteri vengano rispettati, è possibile includere nel elenco Consentiti di gestione della sicurezza solo i domini aziendali interni.
 
 >[!IMPORTANT]
 >
->Il team IT deve assicurarsi che le e-mail in arrivo da `notifications@my.workfront.com` non è bloccato nel sistema della tua organizzazione.
+>Il tuo team IT deve assicurarsi che le e-mail in arrivo da `notifications@my.workfront.com` non siano bloccate nel sistema della tua organizzazione.
 >
->Tutte le e-mail da Workfront vengono inviate da tale indirizzo per aumentare la consegna e-mail di successo ed eliminare lo spoofing delle e-mail. Ciò include sia gli avvisi automatizzati che la comunicazione utente-utente.
+>Tutte le e-mail provenienti da Workfront vengono inviate da tale indirizzo per aumentare la consegna delle e-mail e per eliminare lo spoofing delle e-mail. Ciò include sia gli avvisi automatici che la comunicazione utente-utente.
 >
->Ad esempio, la riga Da in un&#39;e-mail Workfront che ricevi da un utente chiamato Joan Harris apparirebbe così:
+>Ad esempio, la riga Da di un&#39;e-mail Workfront ricevuta da un utente di nome Joan Harris sarà simile alla seguente:
 >
 ```
 >Joan Harris <notifications@my.workfront.com>
 >```
 
-Per informazioni sulla configurazione del firewall dell’organizzazione per aprire la comunicazione tra l’ambiente e i server Adobe Workfront, consulta [Configurare l’inserire nell&#39;elenco Consentiti del firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Per informazioni sulla configurazione del firewall dell&#39;organizzazione per aprire la comunicazione tra l&#39;ambiente e i server Adobe Workfront, vedere [Configurare il inserisco nell&#39;elenco Consentiti di del firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## Requisiti di accesso
 
@@ -55,26 +55,26 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td>Piano</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso</td> 
-   <td> <p>Devi essere un amministratore Workfront. Per ulteriori informazioni, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente pieno accesso amministrativo</a>.</p> <p><b>NOTA</b>: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Devi essere un amministratore di Workfront. Per ulteriori informazioni, vedere <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente l'accesso amministrativo completo</a>.</p> <p><b>NOTA</b>: se non disponi ancora dell'accesso, chiedi all'amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Altri inserire nell&#39;elenco Consentiti
+## Inserire nell&#39;elenco Consentiti Altri
 
-Se la tua organizzazione dispone del piano Enterprise, puoi configurare un inserire nell&#39;elenco Consentiti IP Adobe Workfront che limiti l’accesso a Workfront a 45 indirizzi IP o intervalli di indirizzi IP specificati. Questo fornisce un ulteriore livello di sicurezza per l&#39;applicazione Workfront. Per ulteriori informazioni, consulta [Limitare l’accesso ad Adobe Workfront per indirizzo IP](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
+Se la tua organizzazione dispone del piano Enterprise, puoi configurare un Adobe Workfront di inserire nell&#39;elenco Consentiti IP che limita l’accesso a Workfront a 45 indirizzi IP o intervalli di indirizzi IP specificati. Questo fornisce un ulteriore livello di sicurezza per l’applicazione Workfront. Per ulteriori informazioni, vedere [Limitare l&#39;accesso ad Adobe Workfront per indirizzo IP](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
 
-Inoltre, se il firewall o il server di posta elettronica sono configurati per consentire l’accesso solo a determinati fornitori, è necessario aggiungere alcuni indirizzi IP al relativo inserire nell&#39;elenco Consentiti. Questo apre la comunicazione tra l’ambiente e i server Adobe Workfront. Per informazioni, consulta [Configurare l’inserire nell&#39;elenco Consentiti del firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Inoltre, se il firewall o il server di posta è configurato in modo da consentire l&#39;accesso solo a determinati fornitori, è necessario aggiungere determinati indirizzi IP al relativo inserisco nell&#39;elenco Consentiti di. Questo apre la comunicazione tra l’ambiente e i server Adobe Workfront. Per ulteriori informazioni, vedere [Configurare il inserisco nell&#39;elenco Consentiti di configurazione del firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
-## Configurare l’inserire nell&#39;elenco Consentiti e-mail
+## Configurare la inserisce nell&#39;elenco Consentiti di e-mail per l’e-mail
 
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
 1. Fai clic su **Sistema** > **Informazioni cliente**.
 
-1. In **Inserire nell&#39;elenco Consentiti e-mail** sezione , seleziona **Abilita Inserire nell&#39;elenco Consentiti dominio**, quindi fai clic su **Aggiungi dominio**.
-1. Nella casella visualizzata, digita un dominio che desideri consentire, ad esempio `ourcompany.com`, quindi fai clic su **Aggiungi dominio**.
+1. Nella sezione **Inserisce nell&#39;elenco Consentiti messaggio di posta elettronica**, seleziona **Abilita il dominio di cui è stato eseguito il Inserisco nell&#39;elenco Consentiti di**, quindi fai clic su **Aggiungi dominio**.
+1. Nella casella visualizzata digitare un dominio che si desidera consentire, ad esempio `ourcompany.com`, quindi fare clic su **Aggiungi dominio**.
 
 1. Ripeti il passaggio precedente per aggiungere altri domini che desideri consentire.
-1. Al termine, fai clic su **Salva**.
+1. Al termine, fare clic su **Salva**.

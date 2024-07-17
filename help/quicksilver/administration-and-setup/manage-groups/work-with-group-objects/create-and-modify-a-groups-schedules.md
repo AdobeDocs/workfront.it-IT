@@ -21,13 +21,13 @@ Quando si visualizza un gruppo gestito nell&#39;area Gruppi, è possibile visual
 
 Se al di sopra del gruppo gestito sono presenti gruppi, anche gli amministratori possono eseguire questa operazione per il gruppo. Lo stesso vale per gli amministratori di Workfront (per qualsiasi gruppo).
 
-Per informazioni generali sulla creazione e la modifica di una pianificazione, consulta [Creare una pianificazione](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+Per informazioni generali sulla creazione e la modifica di una pianificazione, vedere [Creare una pianificazione](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 >[!NOTE]
 >
 >Gli amministratori di gruppi e gli utenti con una licenza Pianificazione che possono modificare altri utenti possono aggiungere una pianificazione a livello di sistema o di gruppo a un altro utente quando modificano il suo profilo.
 
-Per informazioni sull&#39;utilizzo delle pianificazioni nella pianificazione delle risorse, vedere [Panoramica sugli Schedules](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md) e [Panoramica di Programmazione delle risorse](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md).
+Per informazioni sull&#39;utilizzo delle pianificazioni nella pianificazione delle risorse, vedere [Panoramica pianificazioni](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md) e [Panoramica pianificazione risorse](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Requisiti di accesso
 
@@ -43,18 +43,18 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano </p> <p>Devi essere un amministratore di gruppo del gruppo o un amministratore di Workfront. Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Amministratori di gruppi</a> e <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente l'accesso amministrativo completo</a>.</p> </td> 
+   <td> <p>Piano </p> <p>Devi essere un amministratore di gruppo del gruppo o un amministratore di Workfront. Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Amministratori di gruppi</a> e <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente l'accesso amministrativo completo</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano o il tipo di licenza disponibile, contattare l&#39;amministratore di Workfront.
+&#42;Per conoscere il piano o il tipo di licenza di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Creare o modificare le pianificazioni per un gruppo
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
-1. Clic **Gruppi**.
+1. Fai clic su **Gruppi**.
 
    Nell’elenco visualizzato puoi visualizzare i gruppi che gestisci, insieme a tutti i relativi sottogruppi. Gli amministratori di Adobe Workfront possono visualizzare tutti i gruppi.
 
@@ -62,6 +62,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Nel pannello a sinistra, fai clic su **Schedules**.
 1. Effettua una delle seguenti operazioni:
 
-   * Clic **Crea Schedule** per creare una nuova pianificazione
-   * Seleziona una pianificazione, quindi utilizza i controlli sulla barra degli strumenti per **Modifica**, **Copia**, o **Elimina** ...
-   * **Esporta** elenco delle pianificazioni per il gruppo.
+   * Fai clic su **Nuova pianificazione** per creare una nuova pianificazione
+   * Seleziona una pianificazione, quindi utilizza i controlli sulla barra degli strumenti per **modificarla**, **copiarla** o **eliminarla**.
+   * **Esporta** l&#39;elenco delle pianificazioni per il gruppo.

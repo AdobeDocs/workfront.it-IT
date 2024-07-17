@@ -2,19 +2,19 @@
 content-type: overview
 product-area: resource-management
 navigation-topic: resource-planning
-title: Panoramica delle informazioni su ore, FTE e costi nelle visualizzazioni Progetto e Ruolo del Planner risorse
-description: Panoramica delle informazioni su ore, FTE e costi nelle visualizzazioni Progetto e Ruolo del Planner risorse
+title: Panoramica di ore, FTE e informazioni sui costi nelle visualizzazioni Progetto e Ruolo della Programmazione delle risorse
+description: Panoramica di ore, FTE e informazioni sui costi nelle visualizzazioni Progetto e Ruolo della Programmazione delle risorse
 author: Alina
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
 source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '2973'
+source-wordcount: '2977'
 ht-degree: 0%
 
 ---
 
-# Panoramica delle informazioni su ore, FTE e costi nelle visualizzazioni Progetto e Ruolo del Planner risorse
+# Panoramica di ore, FTE e informazioni sui costi nelle visualizzazioni Progetto e Ruolo della Programmazione delle risorse
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this came from the budget-resources-project-role-views-resource-planner article)</p>
@@ -24,74 +24,75 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: relink all articles pointing to this section to the new article)</p>
 -->
 
-La funzione principale di Resource Planner consiste nell’assegnare un budget alle risorse per il lavoro che devono eseguire su un progetto. È possibile visualizzare il tempo disponibile delle risorse e assegnare il relativo tempo ai progetti in cui sono assegnate.
+La pianificazione delle risorse è la funzione principale delle risorse per il lavoro da eseguire in un progetto. Puoi visualizzare il tempo disponibile delle risorse e assegnarlo ai progetti a cui sono assegnate.
 
-Per informazioni sulle risorse di budget nel Planner risorse, vedere [Risorse di budget nel planner risorse utilizzando le visualizzazioni Progetto e Ruolo](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)
+Per informazioni sull&#39;impostazione del budget delle risorse nella Programmazione delle risorse, vedere [Risorse preventivate nella Programmazione delle risorse utilizzando le visualizzazioni Progetto e Ruolo](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)
 
-Questo articolo descrive alcuni dei concetti chiave che è necessario conoscere prima di iniziare a eseguire il budget delle risorse nel Planner risorse.
+In questo articolo vengono descritti alcuni concetti chiave che è necessario conoscere prima di iniziare a pianificare le risorse in Pianificazione risorse.
 
-## Panoramica sulle risorse di budget
+## Panoramica risorse budget
 
-Quando si inseriscono risorse in budget utilizzando il planner risorse, tenere presente quanto segue:
+Quando si definiscono i budget per le risorse utilizzando la Programmazione risorse, tenere presente quanto segue:
 
-* È possibile allocare le risorse in budget specificando un importo di ore, FTE o Costo che le risorse possono utilizzare per completare il lavoro sui progetti. Quando si esegue il budget di tempo o costo per una risorsa, le ore disponibili, le FTE o il costo per la risorsa diminuiscono dell&#39;importo preventivato. Di conseguenza, gli importi Ore disponibili, FTE o Costo per i progetti che seguono il progetto per il quale si sta preventivando il budget diminuiscono per gli utenti e i ruoli per tali progetti.
+* È possibile preventivare l&#39;allocazione delle risorse specificando una quantità di ore, FTE o Costo che le risorse possono utilizzare per completare il lavoro sui progetti. Quando si calcola il tempo o il costo per una risorsa, le ore disponibili, l&#39;FTE o il costo per la risorsa diminuiscono in base all&#39;importo preventivato. Di conseguenza, gli importi di Ore, FTE o Costo disponibili per i progetti che seguono il progetto per il quale si sta definendo il budget diminuiscono per gli utenti e i ruoli di tali progetti.
 
-   >[!IMPORTANT]
-   >
-   >È possibile eseguire il budget delle risorse per un periodo di 15 anni. Se si finanziano risorse per un progetto con una durata superiore a 15 anni, le informazioni di budget potrebbero non essere precise.
+  >[!IMPORTANT]
+  >
+  >È possibile preventivare le risorse per un periodo di 15 anni. Se si preventivano le risorse per un progetto con una durata superiore a 15 anni, le informazioni di definizione del budget potrebbero non essere accurate.
 
-* È possibile assegnare un budget a Ore, FTE o Costo per le risorse per qualsiasi intervallo di tempo visualizzato nel Planner risorse, indipendentemente dalla timeline del progetto. Ad esempio, se desideri indicare che le risorse potrebbero non essere disponibili durante la cronologia del progetto (dove sono associate all’orario pianificato), ma potrebbero essere disponibili in un altro momento, puoi farlo inserendole nel budget per i frame di tempo in cui l’ora pianificata è zero, se questo è il momento in cui diventano disponibili per il lavoro. Puoi modificare manualmente la timeline del progetto in modo che corrisponda alla disponibilità della risorsa in seguito a questa operazione.
+* È possibile preventivare ore, FTE o Costo per le risorse per qualsiasi intervallo di tempo visualizzato nella Programmazione delle risorse, indipendentemente dalla sequenza temporale del progetto. Ad esempio, se vuoi indicare che le risorse potrebbero non essere disponibili durante la timeline del progetto (dove sono associate alle ore pianificate), ma potrebbero essere disponibili in un altro momento, puoi preventivarle per intervalli di tempo in cui le ore pianificate sono zero, se questo è il momento in cui diventano disponibili per lavorare. Dopo aver eseguito questa operazione, puoi modificare manualmente la timeline del progetto in modo che corrisponda alla disponibilità della risorsa.
 
-   >[!NOTE]
-   >
-   >È consigliabile eseguire manualmente il budget di ore, FTE o Costo per i ruoli di lavoro o per gli utenti. È possibile utilizzare le opzioni automatiche per calcolare il tempo di budget per i progetti e le risorse solo se si è certi che la quantità di ore pianificate, FTE o Costo deve sempre corrispondere alle ore previste, FTE o Costo.\
-   >Per informazioni sull&#39;utilizzo delle opzioni automatiche per l&#39;impostazione del budget nel Planner risorse, vedere la sezione &quot;Progetto di budget e ruoli automaticamente&quot; nell&#39;articolo [Verifica la disponibilità e l’allocazione delle risorse utilizzando Adobe Workfront Resource Planner](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
+  >[!NOTE]
+  >
+  >È consigliabile preventivare manualmente ore, FTE o Costo per le mansioni o per gli utenti. È possibile utilizzare le opzioni automatiche per preventivare il tempo per i progetti e le risorse solo quando si è certi che la quantità di ore pianificate, FTE o Costo debba sempre corrispondere alle ore preventivate, FTE o Costo.\
+  >Per informazioni sull&#39;utilizzo delle opzioni automatiche per l&#39;impostazione del budget nella Programmazione risorse, vedere la sezione &quot;Progetti e ruoli di budget automaticamente&quot; nell&#39;articolo [Verificare la disponibilità e l&#39;allocazione delle risorse mediante la Programmazione risorse di Adobe Workfront](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
 
-* FTE o costi di budget è identico alle ore di budget, dove Adobe Workfront utilizza i valori FTE e di costo invece delle ore per le risorse budget.
+* La definizione del budget per FTE o costi è identica alla definizione del budget per le ore, in cui Adobe Workfront utilizza i valori FTE e costo invece delle ore per le risorse preventivate.
 
-   Per ulteriori informazioni su come vengono calcolati i costi nel Planner risorse, vedere [Calcolare i costi nel planner risorse](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
+  Per ulteriori informazioni sul calcolo dei costi nella Programmazione delle risorse, vedere [Calcolare i costi nella Programmazione delle risorse](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
 
-* Le allocazioni a budget per le risorse nel Planner risorse vengono eseguite nei seguenti modi:
+* Le allocazioni di budget per le risorse nella Programmazione risorse vengono eseguite nei modi seguenti:
 
    * Manualmente
 
-      Oppure
+     Oppure
 
-   * Automaticamente, utilizzando le opzioni del progetto e del ruolo nel **Visualizza per progetto** e **Visualizza per ruolo** visualizzazioni.
-   Per ulteriori informazioni, consulta [Risorse di budget nel planner risorse utilizzando le visualizzazioni Progetto e Ruolo](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+   * Automaticamente, utilizzando le opzioni di progetto e ruolo nelle visualizzazioni **Visualizza per progetto** e **Visualizza per ruolo**.
 
-* Quando un utente modifica i ruoli di lavoro, viene eliminato, disattivato o rimosso da un pool di risorse, le ore previste nel budget per il ruolo non cambiano e vengono ridistribuite agli utenti rimanenti nel ruolo. Se nessun utente è più associato al ruolo del lavoro, le ore previste per il ruolo diventano zero.
+  Per ulteriori informazioni, vedere [Risorse preventivate nella Programmazione delle risorse utilizzando le visualizzazioni Progetto e Ruolo](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
-Per ulteriori informazioni sulle opzioni di progetto e ruolo, consulta la sezione . [Comprendere i valori di Ore, FTE e Costo nel Planner risorse](#understand-the-values-of-hours-fte-and-cost-in-the-resource-planner) in questo articolo.
+* Quando un utente cambia i ruoli, viene eliminato, disattivato o rimosso da un Pool di Risorse, le ore preventivate per il ruolo non cambiano e vengono ridistribuite agli altri utenti del ruolo. Se nessun utente è più associato alla mansione, le ore preventivate per la mansione diventano pari a zero.
 
-## Comprendere i valori di Ore, FTE e Costo nel Planner risorse {#understand-the-values-of-hours-fte-and-cost-in-the-resource-planner}
+Per ulteriori informazioni sulle opzioni di progetto e ruolo, vedere la sezione [Comprendere i valori di Ore, FTE e Costo nella Programmazione delle risorse](#understand-the-values-of-hours-fte-and-cost-in-the-resource-planner) in questo articolo.
+
+## Comprendere i valori di Ore, FTE e Costo nella Programmazione delle risorse {#understand-the-values-of-hours-fte-and-cost-in-the-resource-planner}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(this needs to be broken into its own article and leave here just the how-to: see this article: overview-of-planner-hour-fte-cost-information-in-role-project-views)</p>
 -->
 
-Prima di includere nel budget le risorse e aggiornare le informazioni sulle ore previste nel Planner risorse, è necessario avere familiarità con i seguenti concetti
+Prima di definire il budget delle risorse e aggiornare le informazioni sulle ore preventivate nella Programmazione delle risorse, è necessario conoscere i concetti seguenti
 
-* **Ore, FTE o Costo pianificati**: Il lavoro che deve essere svolto come definito su attività e problemi.
-* **Ore disponibili, FTE o Costo**: Il tempo a disposizione degli utenti o dei ruoli di lavoro, in base alle pianificazioni associate agli utenti.
+* **Ore pianificate, FTE o Costo**: il lavoro da eseguire come definito per attività e problemi.
+* **Ore disponibili, FTE o Costo**: la quantità di tempo in cui gli utenti o le mansioni sono disponibili a lavorare, in base alle pianificazioni associate agli utenti.
 
-Queste informazioni vengono visualizzate nel Planner risorse per ogni risorsa (utente o ruolo) e per ogni progetto.
+Queste informazioni vengono visualizzate nella Programmazione delle risorse per ogni risorsa (utente o ruolo) e per ogni progetto.
 
-Per informazioni su ciò che viene visualizzato nelle visualizzazioni Progetto e Ruolo del progetto, consulta l’articolo [Panoramica sulla navigazione in planner risorse](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Per informazioni sulle visualizzazioni del progetto e dei ruoli, vedere l&#39;articolo [Panoramica sulla navigazione di Programmazione delle risorse](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-Per informazioni su come vengono calcolati i costi nel Planner risorse, vedere l&#39;articolo [Calcolare i costi nel planner risorse](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
+Per informazioni sul calcolo dei costi nella Programmazione delle risorse, vedere l&#39;articolo [Calcolare i costi nella Programmazione delle risorse](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
 
 >[!NOTE]
 >
->L&#39;impostazione del budget per costo è identica all&#39;impostazione del budget per ore o FTE, ma è necessario comprendere in che modo Workfront calcola il costo per il planner risorse.
+>La definizione del budget per costo è identica alla definizione del budget per ore o FTE, ma è necessario comprendere in che modo Workfront calcola il costo per la programmazione delle risorse.
 >
->Per informazioni sul calcolo dei costi nel Planner risorse, vedere l&#39;articolo [Calcolare i costi nel planner risorse](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
+>Per informazioni sul metodo di calcolo dei costi in Pianificazione risorse, vedere l&#39;articolo [Calcolare i costi in Pianificazione risorse](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
 
-Le tabelle seguenti mostrano le informazioni di allocazione e disponibilità visualizzate nel Planner risorse quando si applica la visualizzazione Progetto o Ruolo. Puoi visualizzare queste informazioni per ore, FTE o Costo:
+Le tabelle seguenti mostrano le informazioni relative all&#39;allocazione e alla disponibilità visualizzate nella Programmazione delle risorse quando si applica la vista Progetto o Ruolo. È possibile visualizzare queste informazioni per ore, FTE o Costo:
 
 * [Colonna AVL (disponibile)](#the-avl-available-column)
-* [Colonna PLN (pianificata)](#the-pln-planned-column)
-* [Colonna BDG (a budget)](#the-bdg-budgeted-column)
+* [Colonna PLN (pianificato)](#the-pln-planned-column)
+* [Colonna BDG (preventivato)](#the-bdg-budgeted-column)
 * [Colonna VAR (Varianza)](#the-var-variance-column)
 * [Colonna NET](#the-net-column)
 
@@ -107,39 +108,39 @@ Le tabelle seguenti mostrano le informazioni di allocazione e disponibilità vis
   </tr> 
   <tr> 
    <td>Progetto </td> 
-   <td> <p>Totale di ore, FTE o Costo per i quali tutti gli utenti del progetto possono lavorare in base alla propria pianificazione, per l’intervallo di tempo selezionato. </p> </td> 
+   <td> <p>Totale di ore, FTE o Costo per cui tutti gli utenti del progetto sono disponibili a lavorare in base alla programmazione, per l'intervallo di tempo selezionato. </p> </td> 
   </tr> 
   <tr> 
-   <td>Qual</td> 
-   <td> <p>Totale di ore, FTE o Costo per i quali tutti gli utenti associati a questo ruolo sono disponibili per lavorare in base alla loro pianificazione e al loro costo <strong>Percentuale di disponibilità FTE</strong> per quel ruolo specifico, per l'intervallo di tempo selezionato. </p> <p>Considera quanto segue: </p> 
+   <td>Ruolo</td> 
+   <td> <p>Il totale di ore, FTE o Costo per cui tutti gli utenti associati a questo ruolo sono disponibili a lavorare in base alla loro pianificazione e alla loro <strong>Percentuale di disponibilità FTE</strong> per quel ruolo specifico, per l'intervallo di tempo selezionato. </p> <p>Considera quanto segue: </p> 
     <ul> 
-     <li>Se nessun utente è associato a un ruolo di lavoro, il valore per le ore disponibili per il ruolo di lavoro è zero. </li> 
-     <li>Se un utente è associato a un ruolo di lavoro principale, ma la <strong>Percentuale di disponibilità FTE</strong> per il ruolo è 0%, il valore del ruolo Ore disponibili è zero.</li> 
-     <li>Se l’utente è associato ad Altri ruoli e al <strong>Percentuale di disponibilità FTE</strong> per i ruoli è pari a 0%, gli altri ruoli non sono elencati nel Planner risorse e l'utente viene visualizzato solo sotto il relativo Ruolo principale.</li> 
-    </ul> <p>Per ulteriori informazioni sulla <strong>Percentuale di disponibilità FTE</strong> per un ruolo di lavoro, consulta l’articolo <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modificare il profilo di un utente</a>.</p> <p>Per ulteriori informazioni su come viene calcolata la disponibilità del ruolo di lavoro nel Planner risorse, vedere la sezione "Calcolare le ore disponibili e l’ETP per un ruolo di lavoro nel Planner risorse" nell’articolo <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Panoramica del calcolo delle ore e degli FTE per utenti e ruoli nel Planner risorse</a>.</p> </td> 
+     <li>Se nessun utente è associato a una mansione, il valore di Ore disponibili per la mansione è zero. </li> 
+     <li>Se un utente è associato a un Ruolo principale, ma la <strong>Percentuale di disponibilità FTE</strong> per il ruolo è 0%, il valore Ore disponibili per il ruolo è zero.</li> 
+     <li>Se l'utente è associato ad Altri ruoli e la <strong>Percentuale di disponibilità FTE</strong> per i ruoli è 0%, gli altri ruoli non sono elencati nella Programmazione delle risorse e l'utente viene visualizzato solo sotto il proprio Ruolo principale.</li> 
+    </ul> <p>Per ulteriori informazioni sulla <strong>Percentuale di disponibilità FTE</strong> per una mansione, vedere l'articolo <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modificare il profilo di un utente</a>.</p> <p>Per ulteriori informazioni sul calcolo della disponibilità dei ruoli nella Programmazione delle risorse, vedere la sezione "Calcolare le ore e l'FTE disponibili per un ruolo nella Programmazione delle risorse" nell'articolo <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Panoramica sul calcolo delle ore e dell'FTE per utenti e ruoli nella Programmazione delle risorse</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Utente</td> 
-   <td> <p>Ore, FTE o Costo che l’utente è disponibile per lavorare, in base alla propria pianificazione, per l’intervallo di tempo selezionato. Questo numero sottrae le ore associate ai seguenti elementi:</p> 
+   <td> <p>Ore, FTE o Costo che l’utente è disponibile a lavorare, in base alla propria pianificazione, per l’intervallo di tempo selezionato. Questo numero sottrae le ore associate ai seguenti elementi:</p> 
     <ul> 
-     <li>eccezioni di programmazione</li> 
-     <li>tempo di inattività dell'utente</li> 
-     <li>ore previste per altri progetti. </li> 
-    </ul> <p>Le ore disponibili, le FTE o il costo di un cambiamento utente in base alle seguenti modalità: </p> 
+     <li>eccezioni di pianificazione</li> 
+     <li>indisponibilità dell'utente</li> 
+     <li>ore preventivate per altri progetti. </li> 
+    </ul> <p>Le ore, FTE o Costo disponibili per un utente cambiano in base a quanto segue: </p> 
     <ul> 
-     <li>come vengono calcolati la pianificazione e l’ETP in base alle preferenze di gestione delle risorse a livello di sistema.<br><p>Per ulteriori informazioni sul calcolo della disponibilità dei ruoli di lavoro e utente, consulta l’articolo <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Panoramica del calcolo delle ore e degli FTE per utenti e ruoli nel Planner risorse</a>.</p>
-     Per ulteriori informazioni sulla configurazione delle preferenze di gestione delle risorse in Workfront, consulta <a href="../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configurare le preferenze di Gestione risorse</a></li> 
+     <li>modalità di calcolo della programmazione e dell'FTE in base alle preferenze di gestione delle risorse a livello di sistema.<br><p>Per ulteriori informazioni sul calcolo della disponibilità di utenti e ruoli, vedere l'articolo <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Panoramica sul calcolo delle ore e dell'FTE per utenti e ruoli nella pianificazione delle risorse</a>.</p>
+     Per ulteriori informazioni sulla configurazione delle preferenze di Gestione risorse in Workfront, vedere <a href="../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configurare le preferenze di Gestione risorse</a></li> 
     </ul> 
     <ul> 
-     <li>la <strong>Priorità di pianificazione del progetto</strong>, se l’utente è iscritto in budget per il lavoro.<br>Per ulteriori informazioni sull'effetto della priorità di pianificazione del progetto sulle ore disponibili di un utente, vedere <a href="../../resource-mgmt/resource-planning/resource-planner-navigation.md" class="MCXref xref">Panoramica sulla navigazione in planner risorse </a>. </li> 
-    </ul> <p>Se l’utente è pianificato per la disattivazione, le ore disponibili, le FTE o il costo per i giorni successivi alla data di disattivazione sono pari a zero. <br>Per ulteriori informazioni sulla disattivazione degli utenti, consulta l’articolo <a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Disattivare o riattivare un utente</a>.</p> </td> 
+     <li>la <strong>Priorità pianificazione progetto</strong>, se l'utente è preventivato per il lavoro.<br>Per ulteriori informazioni su come la priorità di pianificazione del progetto influisce sulle ore disponibili di un utente, vedere <a href="../../resource-mgmt/resource-planning/resource-planner-navigation.md" class="MCXref xref">Panoramica sulla navigazione di Programmazione delle risorse </a>. </li> 
+    </ul> <p>Se l'utente è programmato per la disattivazione, le ore disponibili, FTE o Costo per i giorni successivi alla data di disattivazione sono pari a zero. <br>Per ulteriori informazioni sulla disattivazione degli utenti, vedere l'articolo <a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Disattivare o riattivare un utente</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 
 
-### Colonna PLN (pianificata) {#the-pln-planned-column}
+### Colonna PLN (Pianificato) {#the-pln-planned-column}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -151,45 +152,45 @@ Le tabelle seguenti mostrano le informazioni di allocazione e disponibilità vis
   </tr> 
   <tr> 
    <td>Progetto</td> 
-   <td> <p>Totale delle ore pianificate, delle FTE o del costo per tutti i ruoli di lavoro o gli utenti elencati nel progetto, incluso nel <strong>Nessun ruolo</strong> o <strong>Nessun utente</strong> sezioni, per l’intervallo di tempo selezionato e come visualizzato nella scheda Dettagli progetto del progetto. </p> <p><b>NOTA</b>
+   <td> <p>Totale delle ore pianificate, FTE o Costo di tutti i ruoli o utenti elencati nel progetto, incluso nelle sezioni <strong>Nessun ruolo</strong> o <strong>Nessun utente</strong>, per l'intervallo di tempo selezionato e come visualizzato nella scheda Dettagli progetto del progetto. </p> <p><b>NOTA</b>
 
-Gli aggiustamenti manuali delle allocazioni giornaliere degli utenti possono modificare il valore settimanale, mensile o trimestrale dell&#39;orario pianificato nel Planner risorse. È possibile regolare manualmente le allocazioni giornaliere degli utenti per le attività e i problemi utilizzando il servizio di bilanciamento del carico di lavoro. Per ulteriori informazioni, consulta <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Gestire le allocazioni di utenti nel load balancer</a>.</p> </td>
+Gli adeguamenti manuali delle allocazioni utente giornaliere potrebbero modificare il valore delle ore pianificate settimanali, mensili o trimestrali nella pianificazione risorse. Puoi regolare manualmente le allocazioni giornaliere degli utenti per attività e problemi utilizzando il Bilanciatore dei carichi di lavoro. Per ulteriori informazioni, consulta <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Gestire le allocazioni utente nel Bilanciatore dei carichi di lavoro</a>.</p> </td>
 </tr> 
   <tr> 
-   <td>Qual</td> 
-   <td> <p>Totale delle ore pianificate di tutte le attività assegnate al ruolo, durante l'intervallo di tempo selezionato. </p> <p>La <strong>Nessun ruolo</strong> La sezione mostra le ore pianificate associate alle attività non assegnate, assegnate ai team (le cui ore sono elencate nella <strong>Nessun utente</strong> (sezione) o assegnato a utenti che non sono associati a un ruolo di lavoro. </p> </td> 
+   <td>Ruolo</td> 
+   <td> <p>Totale delle ore pianificate da tutte le attività assegnate al ruolo durante l'intervallo di tempo selezionato. </p> <p>Nella sezione <strong>Nessun ruolo</strong> verranno visualizzate le ore pianificate associate alle attività non assegnate, assegnate ai team (le cui ore sono elencate nella sezione <strong>Nessun utente</strong>) o assegnate a utenti non associati a una mansione. </p> </td> 
   </tr> 
   <tr> 
    <td>Utente</td> 
-   <td> <p>Orario pianificato per tutte le attività assegnate all’utente in un ruolo specifico, durante l’intervallo di tempo selezionato. </p> <p>La <strong>Nessun utente</strong> Viene visualizzata la sezione Orari pianificati associata alle attività non assegnate o assegnate ai team. </p> </td> 
+   <td> <p>Le ore pianificate da tutte le attività assegnate all'utente in un ruolo specifico, durante l'intervallo di tempo selezionato. </p> <p>Nella sezione <strong>Nessun utente</strong> verranno visualizzate le ore pianificate associate alle attività non assegnate o assegnate ai team. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Quando si visualizzano le ore pianificate, tenere presente quanto segue:
+Quando visualizzi le ore pianificate, tieni presente quanto segue:
 
-* Sebbene non sia possibile visualizzare informazioni sulle allocazioni di attività nel Planner risorse nelle visualizzazioni Progetto e Ruolo, la quantità di ore pianificate proviene dalle ore pianificate sulle attività nei progetti.
-* Le ore pianificate vengono distribuite in modo uniforme a ogni giorno entro la durata delle attività, per ogni risorsa assegnata loro. La durata dell&#39;attività si basa sulle date di inizio e di completamento pianificate e include ogni giorno di calendario entro tale periodo di tempo.\
-   Workfront tiene conto della pianificazione dell’utente o del progetto quando distribuisce gli orari pianificati a utenti o progetti. In questo caso, le ore pianificate vengono distribuite in modo uniforme a ogni giorno entro la durata delle attività, esclusi i fine settimana, i giorni di timeout e le eccezioni di pianificazione.\
-   Se, ad esempio, si visualizza il Planner risorse per settimana e si dispone di attività che si estendono per più settimane sui progetti, il numero di ore pianificate per settimana dipende dal numero di giorni all&#39;interno di tale settimana che fanno parte dell&#39;attività Durata. Questo funziona in modo simile quando si visualizza il Planner risorse per mese o trimestre e quando le attività si estendono su più mesi o trimestri.\
-   I giorni di fine settimana, le eccezioni di pianificazione e i giorni di timeout sono esclusi da questa distribuzione.
-* Le seguenti categorie di attività sono incluse nel calcolo delle ore pianificate per ogni risorsa:
+* Sebbene non sia possibile visualizzare informazioni sulle allocazioni delle attività nella Programmazione delle risorse nelle visualizzazioni Progetto e Ruolo, la quantità di ore pianificate deriva dalle ore pianificate per le attività nei progetti.
+* Le ore pianificate vengono distribuite in modo uniforme a ogni giorno entro la Durata delle attività, per ogni risorsa ad esse assegnata. La durata dell&#39;attività è basata sulle date pianificate di inizio e completamento dell&#39;attività e include ogni giorno di calendario compreso in tale periodo di tempo.\
+  Workfront prende in considerazione la pianificazione dell’utente o del progetto al momento della distribuzione delle ore pianificate agli utenti o ai progetti. In questo caso, le ore pianificate vengono distribuite in modo uniforme a ogni giorno entro la durata delle attività, esclusi i fine settimana, i giorni di ferie e le eccezioni alla pianificazione.\
+  Se ad esempio si visualizza la Pianificazione risorse per settimana e si dispone di attività che si estendono su più settimane nei progetti, il numero di ore pianificate alla settimana dipende dal numero di giorni della settimana che fanno parte della Durata dell&#39;attività. Questa funzione funziona in modo simile quando si visualizza la Programmazione delle risorse per mese o trimestre e quando le attività si estendono su più mesi o trimestri.\
+  I giorni di fine settimana, le eccezioni alla programmazione e i giorni di ferie sono esclusi da questa distribuzione.
+* Le seguenti categorie di attività sono incluse nel calcolo delle ore pianificate per ciascuna risorsa:
 
-   * attività assegnate agli utenti in pool di risorse, ruoli o team del progetto\
-      Se le attività vengono assegnate ai team, la relativa allocazione verrà visualizzata in **Nessun ruolo** e **Nessun utente** sezioni. È possibile visualizzare le ore pianificate associate ai team, ma non è possibile eseguire il budget delle ore, perché non sono associati ruoli e utenti alle attività.
+   * le attività assegnate agli utenti nei Pool di Risorse, le mansioni o i team nel progetto\
+     Se le attività sono assegnate ai team, la loro allocazione verrà visualizzata nelle sezioni **Nessun ruolo** e **Nessun utente**. Puoi visualizzare le ore pianificate associate ai team, ma non puoi preventivarle, perché alle attività non sono associati ruoli né utenti.
 
    * attività non assegnate
 
-* Le ore pianificate nel planner risorse non includono le ore pianificate associate ai seguenti elementi:
+* Le ore pianificate nella pianificazione risorse non includono le ore pianificate associate ai seguenti elementi:
 
-   * attività principali
-   * attività assegnate a utenti senza pool di risorse
-   * quando **Includi ore da problemi** è disabilitata.
+   * attività padre
+   * attività assegnate a utenti senza gruppi di risorse
+   * problemi, quando l&#39;impostazione **Includi ore da problemi** è disabilitata.
 
-* Le ore pianificate non vengono visualizzate nel planner risorse se la durata dell&#39;attività è pari a zero.
+* Le ore pianificate non vengono visualizzate nella Programmazione delle risorse se la Durata dell&#39;attività è zero.
 * Le ore pianificate associate agli utenti disattivati non vengono visualizzate.
 
-### Colonna BDG (a budget) {#the-bdg-budgeted-column}
+### Colonna BDG (Preventivato) {#the-bdg-budgeted-column}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -201,20 +202,20 @@ Quando si visualizzano le ore pianificate, tenere presente quanto segue:
   </tr> 
   <tr> 
    <td>Progetto</td> 
-   <td> <p>Inserimento manuale per stimare il numero di ore, FTE o Costo preventivati per un progetto per un intervallo di tempo selezionato. </p> <p>Nella vista Progetto, le ore di budget del progetto vengono distribuite ai ruoli di lavoro elencati nel progetto. La quantità di ore pianificate per ogni ruolo determina la distribuzione delle ore previste nei ruoli. Le ore previste vengono distribuite ai ruoli con valori orari pianificati più elevati. </p> <p>Nella vista Ruolo , le ore di budget per il progetto non vengono distribuite ai ruoli o agli utenti del progetto. </p> </td> 
+   <td> <p>Inserimento manuale per stimare il numero di ore, FTE o Costo preventivato per un progetto per un intervallo di tempo selezionato. </p> <p>Nella vista Progetto, le ore preventivate per il progetto vengono distribuite alle mansioni elencate nel progetto. La quantità di ore pianificate per ciascun ruolo determina il modo in cui le ore pianificate vengono distribuite ai ruoli. Le ore preventivate vengono distribuite ai ruoli con valori Ore pianificate più elevati. </p> <p>Nella vista Ruolo, le ore preventivate per il progetto non vengono distribuite ai ruoli o agli utenti del progetto. </p> </td> 
   </tr> 
   <tr> 
-   <td>Qual</td> 
-   <td> <p>Una voce manuale per stimare quante ore budget si prevede per un ruolo, per un intervallo di tempo selezionato. </p> <p>Se nessun utente è associato al ruolo del lavoro, non è possibile stimare gli orari previsti per il ruolo del lavoro. </p> <p>Nella vista Ruolo , le ore di budget per il ruolo vengono distribuite ai progetti elencati sotto il ruolo . La quantità di ore pianificate per ogni progetto determina la distribuzione delle ore previste nei progetti. Le ore previste vengono distribuite ai progetti con valori orari pianificati più elevati.</p> <p>Nella vista Progetto, le ore di budget per il ruolo non vengono distribuite ai progetti o agli utenti associati al ruolo. </p> </td> 
+   <td>Ruolo</td> 
+   <td> <p>Inserimento manuale per stimare il numero di ore preventivate per un ruolo per un intervallo di tempo selezionato. </p> <p>Se nessun utente è associato alla mansione, non è possibile stimare le ore preventivate per la mansione. </p> <p>Nella vista Ruolo, le ore preventivate per il ruolo vengono distribuite ai progetti elencati sotto il ruolo. La quantità di ore pianificate per ciascun progetto determina il modo in cui le ore pianificate vengono distribuite ai progetti. Le ore preventivate vengono distribuite ai progetti con valori Ore pianificate più elevati.</p> <p>Nella vista Progetto, le ore preventivate per il ruolo non vengono distribuite ai progetti o agli utenti associati al ruolo. </p> </td> 
   </tr> 
   <tr> 
    <td>Utente</td> 
-   <td> <p>Una voce manuale per stimare quante ore budget si prevede per un utente per un intervallo di tempo selezionato. </p> <p> <p><b>NOTA</b>   È possibile stimare gli orari previsti per gli utenti che non sono assegnati alle attività, ma sono associati a un pool di risorse in un progetto, perché questi utenti vengono visualizzati anche nel Planner risorse. Tuttavia, se non sono assegnati a attività, l’orario pianificato deve essere zero. </p> </p> </td> 
+   <td> <p>Inserimento manuale per stimare il numero di ore preventivate per un utente per un intervallo di tempo selezionato. </p> <p> <p><b>NOTA</b>   È possibile stimare le ore preventivate per gli utenti che non sono assegnati ad attività, ma sono associati a un Pool di Risorse in un progetto perché questi utenti vengono visualizzati anche nella Programmazione risorse. Le ore pianificate devono essere zero, tuttavia, se non sono assegnate ad attività. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Quando si lavora con le ore a budget, tenere presente quanto segue:
+Quando si lavora con le ore preventivate, considera quanto segue:
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -222,24 +223,24 @@ Quando si lavora con le ore a budget, tenere presente quanto segue:
 </MadCap:conditionalText>
 -->
 
-* È possibile assegnare il budget alle risorse solo quando si dispone dell&#39;accesso Modifica alle autorizzazioni Gestione risorse e Dati finanziari e Gestione finanziaria per i progetti.
+* È possibile preventivare le risorse solo se si dispone dell&#39;accesso Modifica a Gestione risorse e dati finanziari e delle autorizzazioni Gestisci dati finanziari per i progetti.
 
-   Per informazioni sull&#39;accesso necessario per le risorse di budget, consulta l&#39;articolo [Accesso necessario alle risorse di budget in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+  Per informazioni sull&#39;accesso necessario per l&#39;impostazione del budget delle risorse, vedere l&#39;articolo [Accesso necessario per il preventivo delle risorse in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
-* Per impostazione predefinita, le ore previste nel Planner risorse sono pari a zero per tutte le risorse e per tutti i progetti.
-* È possibile stimare manualmente le ore previste per utenti e ruoli oppure utilizzare uno dei collegamenti nel ruolo Progetto o Processo **Altro** menu per aggiornarli in base al numero di ore pianificate.\
-   Per ulteriori informazioni sulle opzioni di progetto e ruolo, consulta la sezione . [Panoramica delle informazioni su ore, FTE e costi nelle visualizzazioni Progetto e Ruolo del Planner risorse](#Budget) in questo articolo.
+* Per impostazione predefinita, le ore preventivate nella pianificazione risorse sono pari a zero per tutte le risorse e per tutti i progetti.
+* Puoi stimare manualmente le ore preventivate per utenti e ruoli, oppure puoi utilizzare uno dei collegamenti nei menu Progetto o Ruolo **Altro** per aggiornarli in base al numero di ore pianificate.\
+  Per ulteriori informazioni sulle opzioni di progetto e ruolo, vedere la sezione [Panoramica su ore, FTE e informazioni sui costi nelle visualizzazioni Progetto e Ruolo della Programmazione delle risorse](#Budget) in questo articolo.
 
-* Il periodo di tempo più piccolo per il quale è possibile eseguire il budget di ore, FTE o Costo è una settimana. Non è possibile impostare il budget per ore, FTE o Costo per un giorno.
-* Le ore previste vengono distribuite in modo uniforme a ogni giorno entro la durata delle attività, per ogni risorsa assegnata. La durata dell&#39;attività si basa sulle date di inizio e di completamento pianificate e include ogni giorno di calendario entro tale periodo di tempo.\
-   Workfront prende in considerazione la pianificazione dell’utente o del progetto quando distribuisce gli orari a budget a utenti o progetti. In questo caso, le ore previste in budget vengono distribuite in modo uniforme a ogni giorno entro la durata delle attività, esclusi i fine settimana, ma includendo le eccezioni di orario e di programmazione.\
-   Se, ad esempio, si visualizza il Planner risorse per settimana e si dispone di attività che si estendono su più settimane, il numero di ore previste per settimana dipende dal numero di giorni all&#39;interno di tale settimana che fanno parte dell&#39;attività Durata. I giorni di fine settimana sono esclusi da questa distribuzione. Questo funziona in modo simile quando si visualizza il Planner risorse per mese o trimestre e quando le attività si estendono su più mesi o trimestri.
+* Il periodo di tempo più piccolo per il quale è possibile preventivare ore, FTE o Costo è una settimana. Impossibile preventivare ore, FTE o Costo per un giorno.
+* Le ore preventivate vengono equamente distribuite a ogni giorno entro la Durata delle attività, per ogni risorsa ad esse assegnata. La durata dell&#39;attività è basata sulle date pianificate di inizio e completamento dell&#39;attività e include ogni giorno di calendario compreso in tale periodo di tempo.\
+  Workfront tiene conto della pianificazione dell’utente o del progetto al momento della distribuzione delle ore preventivate agli utenti o ai progetti. In questo caso, le ore preventivate vengono distribuite in modo uniforme a ogni giorno entro la durata delle attività, esclusi i fine settimana, ma incluse le eccezioni di indisponibilità e di programmazione.\
+  Se ad esempio si visualizza la Programmazione delle risorse per settimana e si dispone di attività che si estendono su più settimane, il numero di ore preventivate per settimana dipende dal numero di giorni della settimana che fanno parte della Durata dell&#39;attività. I giorni di fine settimana sono esclusi da questa distribuzione. Questa funzione funziona in modo simile quando si visualizza la Programmazione delle risorse per mese o trimestre e quando le attività si estendono su più mesi o trimestri.
 
-* È possibile creare rapporti sulle ore previste, selezionando Ora a budget come oggetto di rapporto per un nuovo rapporto.\
-   Per informazioni sugli oggetti su cui è possibile creare rapporti in Workfront, consulta la sezione &quot;Rapporto sugli oggetti&quot; nell’articolo [Comprendere gli oggetti in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
-   Per informazioni sulla creazione di un rapporto sull&#39;ora a budget, consulta l&#39;articolo [Rapporto: Ora budget](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
+* Puoi generare rapporti sulle ore preventivate selezionando Ore preventivate come oggetto del rapporto per un nuovo rapporto.\
+  Per informazioni sugli oggetti su cui è possibile creare rapporti in Workfront, vedere la sezione &quot;Report sugli oggetti&quot; nell&#39;articolo [Comprendere gli oggetti in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
+  Per informazioni sulla creazione di un report Ore preventivate, vedere l&#39;articolo [Report: Ore preventivate](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
 
-* Le ore in precedenza preventivate per gli utenti successivamente disattivati non vengono visualizzate.
+* Le ore preventivate in precedenza per gli utenti che sono stati successivamente disattivati non vengono visualizzate.
 
 ### Colonna VAR (Varianza) {#the-var-variance-column}
 
@@ -253,22 +254,22 @@ Quando si lavora con le ore a budget, tenere presente quanto segue:
   </tr> 
   <tr> 
    <td>Progetto</td> 
-   <td> <p>L’ora, l’FTE o la varianza dei costi indica se il progetto dispone di ore a budget sufficienti per completare tutte le ore pianificate per il progetto. </p> <p>L'ora, l'FTE o lo scostamento del costo del progetto viene calcolato con la seguente formula:</p> <p><code>Project Hour, FTE, or Cost Variance = Project Budgeted Hours, FTE, or Cost - Project Planned Hours, FTE, or Cost</code> </p> </td> 
+   <td> <p>Il valore Ora, FTE o Variazione costo indica se il numero di ore preventivate è sufficiente per il progetto per completare tutte le ore pianificate per il progetto. </p> <p>L'Ora progetto, FTE o Variazione costo viene calcolata utilizzando la formula seguente:</p> <p><code>Project Hour, FTE, or Cost Variance = Project Budgeted Hours, FTE, or Cost - Project Planned Hours, FTE, or Cost</code> </p> </td> 
   </tr> 
   <tr> 
-   <td>Qual</td> 
-   <td> <p>L'ora, l'FTE o lo scostamento dei costi mostra se il ruolo ha un numero sufficiente di ore a budget, FTE o Costo per completare le ore pianificate assegnate. </p> <p>L’ora del ruolo, l’FTE o l’varianza dei costi viene calcolata utilizzando la seguente formula:</p> <p><code>Role Hour, FTE, or Cost Variance = Role Budgeted Hours, FTE, or Cost - Role Planned Hours, FTE, or Cost</code> </p> </td> 
+   <td>Ruolo</td> 
+   <td> <p>Nel campo Ore, FTE o Variazione costo viene indicato se il numero di ore preventivate, FTE o Costo del ruolo è sufficiente per completare le ore pianificate assegnate al ruolo. </p> <p>L'Ora del ruolo, l'FTE o lo Scostamento costo viene calcolato utilizzando la formula seguente:</p> <p><code>Role Hour, FTE, or Cost Variance = Role Budgeted Hours, FTE, or Cost - Role Planned Hours, FTE, or Cost</code> </p> </td> 
   </tr> 
   <tr> 
    <td>Utente</td> 
-   <td> <p>L'ora, l'FTE o la varianza dei costi mostra se l'utente dispone di un numero sufficiente di ore a budget per completare le ore pianificate assegnate. </p> <p>La formula Ore utente, FTE o Varianza costo viene calcolata utilizzando la seguente formula:</p> <p><code>User Hours, FTE, or Cost Variance = User Budgeted Hours, FTE, or Cost - User Planned Hours, FTE, or Cost</code> </p> </td> 
+   <td> <p>Le ore, il valore FTE o lo scostamento costo indicano se le ore preventivate sono sufficienti per consentire all'utente di eseguire le ore pianificate assegnate. </p> <p>Le ore utente, il valore FTE o lo scostamento costo vengono calcolati utilizzando la formula seguente:</p> <p><code>User Hours, FTE, or Cost Variance = User Budgeted Hours, FTE, or Cost - User Planned Hours, FTE, or Cost</code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Quando le ore, le FTE o le Varianze di costo vengono visualizzate in rosso, è stato stimato un numero inferiore di ore previste rispetto alle ore previste del lavoro effettivo che deve essere completato. In questo caso, le ore previste potrebbero non essere sufficienti per completare il lavoro.
+>Quando le ore, il valore FTE o lo scostamento costi sono visualizzati in rosso, è stato stimato un numero di ore preventivate inferiore alle ore pianificate del lavoro effettivo da completare. In questo caso, le ore preventivate potrebbero non essere sufficienti per completare il lavoro.
 
 ### Colonna NET  {#the-net-column}
 
@@ -284,29 +285,29 @@ Quando si lavora con le ore a budget, tenere presente quanto segue:
    <td>Progetto</td> 
    <td> 
     <div> 
-     <p>Il progetto Orari netti, FTE o Costo può mostrare uno dei seguenti elementi: </p> 
+     <p>Nel progetto Ore nette, FTE o Costo può essere visualizzato uno dei seguenti elementi: </p> 
      <ul> 
-      <li> <p>Differenza tra il tempo o il costo disponibili e il tempo o il costo preventivati per il progetto:</p> <p><code>Project Net Hours, FTE, or Cost = Project Available Hours, FTE, or Cost - Project Budgeted Hours, FTE, or Cost</code> </p> </li> 
-      <li> <p>La differenza tra l'ora o il costo disponibili e l'ora o il costo pianificati per il progetto, quando i valori Use Planned (PLN) nell'impostazione di calcolo NET sono abilitati: </p> <p><code>Project Net Hours, FTE, or Cost = Project Available Hours, FTE, or Cost - Project Planned Hours, FTE, or Cost</code>
+      <li> <p>Differenza tra il tempo o costo disponibile e il tempo o costo preventivato per il progetto:</p> <p><code>Project Net Hours, FTE, or Cost = Project Available Hours, FTE, or Cost - Project Budgeted Hours, FTE, or Cost</code> </p> </li> 
+      <li> <p>Differenza tra il tempo o costo disponibile e il tempo o costo pianificato per il progetto, quando l'impostazione Usa valori pianificati (PLN) nei calcoli NETTI è abilitata: </p> <p><code>Project Net Hours, FTE, or Cost = Project Available Hours, FTE, or Cost - Project Planned Hours, FTE, or Cost</code>
       </p>
 
 <p><b>SUGGERIMENTO</b></p>        
-  <p>Questa opzione viene applicata solo quando si personalizza la visualizzazione nella sezione Visualizza elementi selezionati .</p>
-  <p>Per ulteriori informazioni, consulta <a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" >Verifica la disponibilità e l’allocazione delle risorse utilizzando Adobe Workfront Resource Planner</a> </p> 
+  <p>Questa opzione viene applicata solo quando si personalizza la vista nella sezione Visualizza elementi selezionati.</p>
+  <p>Per ulteriori informazioni, vedere <a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" >Verificare la disponibilità e l'allocazione delle risorse tramite Adobe Workfront Resource Planner</a> </p> 
       </li> 
      </ul> 
     </div> </td> 
   </tr> 
   <tr> 
-   <td>Qual</td> 
+   <td>Ruolo</td> 
    <td> 
     <div> 
-     <p>Il ruolo Orari netti, FTE o Costo può mostrare uno dei seguenti elementi: </p> 
+     <p>Il ruolo Ore nette, FTE o Costo può mostrare uno dei seguenti elementi: </p> 
      <ul> 
-      <li> <p>La differenza tra il tempo o il costo disponibili e il tempo o il costo preventivati per il ruolo:</p> <p><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Budgeted Hours, FTE, or Cost</code> </p> </li> 
-      <li> <p><span>La differenza tra l'ora o il costo disponibili e l'ora o il costo pianificati per il ruolo, quando i valori Use Planned (PLN) nell'impostazione di calcolo NET sono abilitati:</span> </p> <p><span><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Planned Hours, FTE, or Cost</code></span> </p> <p><b>SUGGERIMENTO</b> <span>
+      <li> <p>Differenza tra il tempo o costo disponibile e il tempo o costo preventivato per il ruolo:</p> <p><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Budgeted Hours, FTE, or Cost</code> </p> </li> 
+      <li> <p><span>Differenza tra il tempo o costo disponibile e il tempo o costo pianificato per il ruolo quando l'impostazione Usa valori pianificati (PLN) nei calcoli NET è abilitata:</span> </p> <p><span><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Planned Hours, FTE, or Cost</code></span> </p> <p><b>SUGGERIMENTO</b> <span>
 
-Questa opzione viene applicata solo quando si personalizza la visualizzazione nella sezione Visualizza elementi selezionati .</span> </p> <p><span>Per ulteriori informazioni, consulta </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Verifica la disponibilità e l’allocazione delle risorse utilizzando Adobe Workfront Resource Planner</a> </p> </li>
+Questa opzione viene applicata solo quando si personalizza la visualizzazione nella sezione Visualizza elementi selezionati.</span> </p> <p><span>Per ulteriori informazioni, vedere </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Verificare la disponibilità e l&#39;allocazione delle risorse tramite Adobe Workfront Resource Planner</a> </p> </li>
 </ul>
 </div> </td>
 </tr> 
@@ -314,12 +315,12 @@ Questa opzione viene applicata solo quando si personalizza la visualizzazione ne
    <td>Utente</td> 
    <td> 
     <div> 
-     <p>L'utente Orari netti, FTE o Costo può mostrare una delle seguenti opzioni: </p> 
+     <p>L'utente Net Hours, FTE o Cost può visualizzare uno dei seguenti elementi: </p> 
      <ul> 
-      <li> <p>La differenza tra il tempo o il costo disponibili e il tempo o il costo preventivati per l'utente:</p> <p><code>User Net Hours, FTE, or Cost = USer Available Hours, FTE, or Cost - User Budgeted Hours, FTE, or Cost</code> </p> </li> 
-      <li> <p><span>La differenza tra l'ora o il costo disponibili e l'ora o il costo pianificati per l'utente quando i valori Use Planned (PLN) nell'impostazione di calcolo NET sono abilitati:</span> </p> <p><span><code>User Net Hours, FTE, or Cost = User Available Hours, FTE, or Cost - User Planned Hours, FTE, or Cost</code></span> </p> <p><b>SUGGERIMENTO</b> <span>
+      <li> <p>Differenza tra il tempo o costo disponibile e il tempo o costo preventivato per l'utente:</p> <p><code>User Net Hours, FTE, or Cost = USer Available Hours, FTE, or Cost - User Budgeted Hours, FTE, or Cost</code> </p> </li> 
+      <li> <p><span>Differenza tra il tempo o costo disponibile e il tempo o costo pianificato per l'utente quando l'impostazione Usa valori pianificati (PLN) nei calcoli NET è abilitata:</span> </p> <p><span><code>User Net Hours, FTE, or Cost = User Available Hours, FTE, or Cost - User Planned Hours, FTE, or Cost</code></span> </p> <p><b>SUGGERIMENTO</b> <span>
 
-Questa opzione viene applicata solo quando si personalizza la visualizzazione nella sezione Visualizza elementi selezionati .</span> </p> <p><span>Per ulteriori informazioni, consulta </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Verifica la disponibilità e l’allocazione delle risorse utilizzando Adobe Workfront Resource Planner</a> </p> </li>
+Questa opzione viene applicata solo quando si personalizza la visualizzazione nella sezione Visualizza elementi selezionati.</span> </p> <p><span>Per ulteriori informazioni, vedere </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Verificare la disponibilità e l&#39;allocazione delle risorse tramite Adobe Workfront Resource Planner</a> </p> </li>
 </ul>
 </div> </td>
 </tr> 
@@ -328,7 +329,7 @@ Questa opzione viene applicata solo quando si personalizza la visualizzazione ne
 
 >[!NOTE]
 >
->**Quando le ore, gli FTE o i costi NETTI vengono visualizzati in rosso, il tempo o il budget disponibili non sono sufficienti per coprire il budget** o l&#39;orario o il costo pianificati associati all&#39;opera. In questo caso, le risorse sono sovrassegnate.
+>**Quando le ore NETTE, FTE o Costo sono visualizzati in rosso, il tempo disponibile o il budget non sono sufficienti per coprire il Budget** o il Tempo pianificato o il costo associato al lavoro. In questo caso, le risorse sono sovrassegnate.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the table below is ideal but it does not transfer to Markdown)</p>

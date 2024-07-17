@@ -24,6 +24,6 @@ Il tipo di notifiche che ricevi dipende dal fatto che la tua azienda sia o meno 
 
 Nei seguenti articoli viene descritto il tipo di notifiche di Workfront Planning che è possibile ricevere e come gestire le preferenze:
 
-* [Gestire le preferenze di notifica di Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
+* [Gestisci le preferenze per le notifiche di Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
 * [Gestire le notifiche e-mail di Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md)
 * [Gestione delle notifiche in-app di Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md)

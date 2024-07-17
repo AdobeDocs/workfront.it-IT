@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti per gli amministratori apportati con la versione del secondo trimestre 2024 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
-Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rilascio del secondo trimestre 2024, consulta [Panoramica sulla versione del secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del secondo trimestre 2024, consulta [Panoramica sulla versione del secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
 ## La logica di visualizzazione e la logica di salto sono ora disponibili nella modalità di anteprima di progettazione moduli
 
@@ -26,7 +26,7 @@ Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rila
 
 Il designer di moduli personalizzati beta ora consente di testare la logica di visualizzazione e saltare la logica in modalità anteprima. In precedenza, tutti i campi venivano visualizzati nell’anteprima anche quando veniva applicata la logica.
 
-Per ulteriori informazioni sull&#39;anteprima di un modulo personalizzato nel progettista di moduli, vedere [Organizzare e visualizzare in anteprima un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
+Per ulteriori informazioni sull&#39;anteprima di un modulo personalizzato nel progettista del modulo, vedere [Organizzare e visualizzare in anteprima un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 
 ## Aziende e utenti ora supportano i campi modulo personalizzati avanzati
 
@@ -36,7 +36,7 @@ Per ulteriori informazioni sull&#39;anteprima di un modulo personalizzato nel pr
 
 Le funzioni avanzate dei moduli personalizzati, ad esempio i campi di ricerca esterna e i campi nativi di Workfront, sono ora disponibili quando si allega un modulo personalizzato a un’azienda o a un utente. Le funzioni avanzate sono disponibili nelle pagine Dettagli società e Dettagli utente e non nelle finestre di dialogo Modifica società e Modifica utente. Per utilizzare questi tipi di campi, è necessario creare il modulo personalizzato nel nuovo progettista di moduli.
 
-Per ulteriori informazioni sui campi modulo personalizzati, consulta [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Per ulteriori informazioni sui campi modulo personalizzati, vedere [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## L’integrazione JumpSeat è ora disponibile per i nuovi tipi di pacchetto
 
@@ -46,7 +46,7 @@ Per ulteriori informazioni sui campi modulo personalizzati, consulta [Progettare
 
 L’integrazione JumpSeat esistente è ora disponibile per gli account che utilizzano uno dei nuovi tipi di pacchetto (ad esempio, Select, Prime o Ultimate). Per abilitare l’integrazione, è ancora necessario disporre di un abbonamento JumpSeat attivo.
 
-Per ulteriori informazioni sull’integrazione JumpSeat, consulta [Configurare l’integrazione JumpSeat](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md).
+Per ulteriori informazioni sull&#39;integrazione JumpSeat, vedere [Configurare l&#39;integrazione JumpSeat](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md).
 
 ## I campi nativi di Workfront sono disponibili nella versione beta di progettazione moduli
 
@@ -64,9 +64,9 @@ I campi nativi utilizzati nei moduli personalizzati diventano disponibili nella 
 
 Questa funzione è disponibile solo nella versione beta di Progettazione moduli e non nel generatore di moduli legacy.
 
-Per ulteriori informazioni, consulta [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Per ulteriori informazioni, vedere [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3427702/){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità.](https://video.tv.adobe.com/v/3427702/){target=_blank}
 
 ## La mappatura degli attributi è ora disponibile per le organizzazioni che sono migrate ad Adobe IMS
 
@@ -78,7 +78,7 @@ Gli amministratori di sistema di Workfront ora possono impostare la mappatura de
 
 In precedenza, questa funzionalità era disponibile solo per le organizzazioni che non avevano ancora effettuato l’onboarding in Adobe IMS.
 
-Per istruzioni sulla configurazione della mappatura degli attributi, consulta [Mappare gli attributi utente nell’esperienza unificata di Adobe](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) nell’articolo **Mappare gli attributi utente ed eseguire il provisioning automatico dei nuovi utenti**.
+Per istruzioni sulla configurazione della mappatura degli attributi, consulta [Mappare gli attributi utente nell&#39;Adobe esperienza unificata](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) nell&#39;articolo **Mappare gli attributi utente ed eseguire il provisioning automatico dei nuovi utenti**.
 
 ## La logica di salto e la logica di visualizzazione sono ora disponibili nella versione beta di Progettazione moduli
 
@@ -90,4 +90,4 @@ Per istruzioni sulla configurazione della mappatura degli attributi, consulta [M
 
 Le icone in un campo nell&#39;area di lavoro di progettazione del modulo indicano che la logica è configurata in tale campo o che il campo viene utilizzato nelle regole di logica configurate in altri campi.
 
-Per ulteriori informazioni, consulta [Aggiungere logica di visualizzazione e logica di salto con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
+Per ulteriori informazioni, vedere [Aggiungere logica di visualizzazione e logica di salto con la finestra di progettazione del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).

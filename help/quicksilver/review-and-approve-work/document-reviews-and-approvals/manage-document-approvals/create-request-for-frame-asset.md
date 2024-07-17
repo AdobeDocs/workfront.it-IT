@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Il contenuto di questo articolo si riferisce alla funzionalità di approvazione aggiornata, disponibile solo per account specifici. Per informazioni sui processi di approvazione standard, vedi gli articoli elencati in [Approvazioni lavoro](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>Il contenuto di questo articolo si riferisce alla funzionalità di approvazione aggiornata, disponibile solo per account specifici. Per informazioni sui processi di approvazione standard, vedere gli articoli elencati in [Approvazioni di lavoro](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 <!--
 ## Access requirements
@@ -53,7 +53,7 @@ You must have the following access to perform the steps in this article:
 
 ## Creare una richiesta di revisione o approvazione dal riepilogo del documento
 
-1. Vai al progetto, all&#39;attività o al problema contenente Frame.io connesso, quindi seleziona **Documenti**.
+1. Vai al progetto, all&#39;attività o al problema che contiene Frame.io connesso, quindi seleziona **Documenti**.
 
    >[!TIP]
    >
@@ -61,17 +61,17 @@ You must have the following access to perform the steps in this article:
 
 1. Fai clic sulla risorsa connessa Frame.io necessaria per aprire il pannello Riepilogo documento.
 
-1. (Facoltativo) In **Versione** dal menu a discesa, seleziona la versione della risorsa per la quale desideri creare un’approvazione. La versione più recente è selezionata per impostazione predefinita.
+1. (Facoltativo) Nel menu a discesa **Versione**, seleziona la versione della risorsa per la quale vuoi creare un&#39;approvazione. La versione più recente è selezionata per impostazione predefinita.
 
-1. Scorri verso il basso fino a **Approvazioni** , quindi fai clic su **Aggiungi**.
+1. Scorri verso il basso fino alla sezione **Approvazioni**, quindi fai clic su **Aggiungi**.
 
 ![](assets/doc-summary-add-approvers.png)
 
 1. (Facoltativo) Imposta una scadenza per l’approvazione. Gli utenti e i team ricevono una notifica via e-mail 72 ore e in seguito 24 ore prima della scadenza specificata.
 
-1. Per aggiungere un approvatore, fare clic su **Approvatore** e iniziare a digitare il nome di un utente o di un team.
+1. Per aggiungere un responsabile approvazione, fare clic su **Responsabile approvazione** e iniziare a digitare il nome di un utente o di un team.
 
-1. Per aggiungere un revisore, fare clic su **Revisore** e iniziare a digitare il nome di un utente o di un team.
+1. Per aggiungere un revisore, selezionare la casella di controllo **Revisore** e iniziare a digitare il nome di un utente o di un team.
 
    ![](assets/add-approver-and-deadline.png)
 
@@ -88,9 +88,9 @@ You must have the following access to perform the steps in this article:
 
 1. (Facoltativo) Imposta una scadenza per l’approvazione. Gli utenti e i team ricevono una notifica via e-mail 72 ore e in seguito 24 ore prima della scadenza specificata.
 
-1. Per aggiungere un approvatore, fare clic su **Approvatore** e iniziare a digitare il nome di un utente o di un team.
+1. Per aggiungere un responsabile approvazione, fare clic su **Responsabile approvazione** e iniziare a digitare il nome di un utente o di un team.
 
-1. Per aggiungere un revisore, fare clic su **Revisore** e iniziare a digitare il nome di un utente o di un team.
+1. Per aggiungere un revisore, selezionare la casella di controllo **Revisore** e iniziare a digitare il nome di un utente o di un team.
 
    ![](assets/add-approver-and-deadline.png)
 

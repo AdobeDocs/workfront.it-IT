@@ -20,11 +20,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alle funzionalità del prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Bozza](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
 Questa sezione contiene i seguenti articoli:
 
-* [Aggiungere una bozza a una [!DNL Basecamp] Progetto](../../../workfront-proof/wp-integrations/basecamp/add-proof-to-basecamp-project.md)
-* [Integrare [!DNL Workfront Proof] con [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md)
-* [Revisione di una bozza in [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/review-proof-basecamp.md)
-* [Comprendere la [!DNL Basecamp] Integrazione con [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/basecamp/basecamp-integration-overview.md)
+* [Aggiungi una bozza a un  [!DNL Basecamp]  progetto](../../../workfront-proof/wp-integrations/basecamp/add-proof-to-basecamp-project.md)
+* [Integra [!DNL Workfront Proof] con [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md)
+* [Rivedi una bozza in [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/review-proof-basecamp.md)
+* [Comprendere l&#39;integrazione  [!DNL Basecamp] con [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/basecamp/basecamp-integration-overview.md)

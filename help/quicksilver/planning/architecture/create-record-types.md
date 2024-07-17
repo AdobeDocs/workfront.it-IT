@@ -67,12 +67,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>L'amministratore del Workfront o del gruppo deve aggiungere l'area Planning nel modello di layout. Per informazioni, consulta <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica degli accessi</a>. </p>  
+   <td> <p>L'amministratore del Workfront o del gruppo deve aggiungere l'area Planning nel modello di layout. Per informazioni, vedere <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica dell'accesso</a>. </p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Autorizzazioni</p></td>
-   <td> <p>Gestire le autorizzazioni per un’area di lavoro</a> </p>  
+   <td> <p>Gestione delle autorizzazioni per un'area di lavoro</a> </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create
 </td>
   </tr>
@@ -97,7 +97,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    * Automaticamente:
       * Quando crei un’area di lavoro utilizzando un modello.
 
-        Per informazioni, consulta [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
+        Per informazioni, vedere [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
 
       * Quando vengono importati utilizzando un file Excel o CSV.
 
@@ -127,9 +127,9 @@ Quando si crea un&#39;area di lavoro da un modello, i tipi di record vengono rag
 
 È possibile aggiungere manualmente tipi di record nelle sezioni Tipi di record operativi e Tassonomie.
 
-Per informazioni sulla creazione delle aree di lavoro, consulta [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
+Per informazioni sulla creazione di aree di lavoro, vedere [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-Per informazioni sui tipi di record inclusi in ogni modello, vedere [Elenco dei modelli di Workspace](/help/quicksilver/planning/architecture/workspace-templates.md).
+Per informazioni sui tipi di record inclusi in ogni modello, vedere [Elenco dei modelli di area di lavoro](/help/quicksilver/planning/architecture/workspace-templates.md).
 
 ## Creare un tipo di record da zero
 
@@ -140,16 +140,16 @@ Per informazioni sui tipi di record inclusi in ogni modello, vedere [Elenco dei 
    Oppure
 
    Da un workspace, espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente, cercare un workspace e selezionarlo quando viene visualizzato nell&#39;elenco.
-1. (Facoltativo) Fai clic su **Aggiungi sezione** per aggiungere una nuova sezione al workspace.
-1. Clic **Aggiungi tipo di record**.
-1. (Condizionale) Quando si creano tipi di record importando un file Excel o CSV è abilitato, fare clic su **Da zero**. In caso contrario, **Aggiungi tipo di record** viene visualizzata la casella.
+1. (Facoltativo) Fai clic su **Aggiungi sezione** per aggiungere una nuova sezione all&#39;area di lavoro.
+1. Fare clic su **Aggiungi tipo di record**.
+1. (Condizionale) Quando si creano tipi di record importando un file Excel o CSV è abilitato, fare clic su **Da zero**. In caso contrario, verrà visualizzata la casella **Aggiungi tipo di record**.
 
    ![](assets/add-record-type-box-with-appearance-options.png)
 
 1. Aggiorna le seguenti informazioni:
 
    * Sostituire &quot;Tipo di record senza titolo&quot; con il nome del tipo di record futuro. <!--did they bring back the field label here and did they rename it to "Name"-->
-   * **Descrizione**: aggiungi ulteriori informazioni sul tipo di record.
+   * **Descrizione**: aggiungere ulteriori informazioni sul tipo di record.
    * Selezionare un colore e una forma per l&#39;icona associata al tipo di record. Effettua le seguenti operazioni:
       * Selezionare un colore per identificare il nuovo tipo di record. Colore dell&#39;icona del tipo di record. Il grigio è selezionato per impostazione predefinita.
       * Seleziona un’icona dall’elenco, oppure inizia a digitare il nome di un’icona per descrivere ciò che rappresenta, quindi selezionala quando viene visualizzata. Icona del tipo di record. Per impostazione predefinita, viene selezionata un&#39;icona di file.
@@ -161,7 +161,7 @@ Sulla scheda viene visualizzata la descrizione del tipo di record.
 
    ![](assets/record-type-card-with-description.png)
 
-1. (Facoltativo) Passa il puntatore del mouse sulla scheda del tipo di record e fai clic sul pulsante **Altro** icona ![](assets/more-menu.png) nell’angolo superiore destro, quindi fai clic su **Modifica** per modificare le informazioni sul tipo di record.
+1. (Facoltativo) Passa il puntatore del mouse sulla scheda del tipo di record, fai clic sull&#39;icona **Altro** ![](assets/more-menu.png) nell&#39;angolo superiore destro, quindi fai clic su **Modifica** per modificare le informazioni sul tipo di record.
 1. (Facoltativo) Fare clic sulla scheda tipo di record per aprire la pagina tipo di record.
 
    ![](assets/operational-record-type-blank.png)
@@ -184,12 +184,12 @@ Sulla scheda viene visualizzata la descrizione del tipo di record.
 
    Oppure
 
-   Fai clic su **Altro** icona ![](assets/more-menu.png) a destra del nome del tipo di record e fare clic su **Modifica** per rinominarlo o modificarne le informazioni. Per ulteriori informazioni, consulta [Modifica tipi di record](/help/quicksilver/planning/architecture/edit-record-types.md).
+   Fai clic sull&#39;icona **Altro** ![](assets/more-menu.png) a destra del nome del tipo di record e fai clic su **Modifica** per rinominarlo o modificare le informazioni su di esso. Per ulteriori informazioni, vedere [Modifica tipi di record](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-1. (Facoltativo) Fai clic su **+ Nuovo record** per aggiungere record del tipo di record selezionato. Per ulteriori informazioni, consulta [Crea record](/help/quicksilver/planning/records/create-records.md).
-1. (Facoltativo) Fai clic su **+** nell&#39;angolo superiore destro della tabella per aggiungere altri campi al tipo di record.
+1. (Facoltativo) Fare clic su **+ Nuovo record** per aggiungere record del tipo di record selezionato. Per ulteriori informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).
+1. (Facoltativo) Fai clic sull&#39;icona **+** nell&#39;angolo superiore destro della tabella per aggiungere altri campi al tipo di record.
 
-   Per ulteriori informazioni sulla creazione dei campi, consulta [Crea campi](/help/quicksilver/planning/fields/create-fields.md).
+   Per ulteriori informazioni sulla creazione dei campi, vedere [Creare i campi](/help/quicksilver/planning/fields/create-fields.md).
 
 1. (Facoltativo) Fare clic sulla freccia rivolta a sinistra a sinistra del nome del tipo di record nell&#39;intestazione per tornare all&#39;area di lavoro selezionata.
 
@@ -202,7 +202,7 @@ Sulla scheda viene visualizzata la descrizione del tipo di record.
    * [Crea record](/help/quicksilver/planning/records/create-records.md)
    * [Elimina tipi di record](/help/quicksilver/planning/architecture/delete-record-types.md)
    * [Modifica tipi di record](/help/quicksilver/planning/architecture/edit-record-types.md)
-   * [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md)
+   * [Gestisci visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md)
 
 ## Creare tipi di record importando un file Excel o CSV
 
@@ -231,10 +231,10 @@ Per importare i tipi di record utilizzando un file di Excel:
    Oppure
 
    Da un workspace, espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente, cercare un workspace e selezionarlo quando viene visualizzato nell&#39;elenco.
-1. Clic **Aggiungi tipo di record**.
-1. Clic **Excel/CSV**.
-1. Trascina e rilascia un file Excel o CSV salvato in precedenza sul computer, oppure fai clic su **Seleziona un file CSV o Excel** per sfogliarne uno.
-1. Clic **Verifica i dati**.
+1. Fare clic su **Aggiungi tipo di record**.
+1. Fai clic su **Excel/CSV**.
+1. Trascina e rilascia un file Excel o CSV salvato in precedenza sul computer, oppure fai clic su **Seleziona un file CSV o Excel** per cercarne uno.
+1. Fai clic su **Rivedi i dati**.
 
    Viene visualizzata la casella Anteprima e modifica con le seguenti informazioni:
 
@@ -251,13 +251,13 @@ Per importare i tipi di record utilizzando un file di Excel:
    >    I fogli vuoti non sono supportati e sono oscurati.
 
 
-1. (Facoltativo) Fai clic su **Seleziona i fogli da importare** e deselezionare i fogli da non importare.
+1. (Facoltativo) Fare clic sul menu a discesa **Seleziona fogli da importare** e deselezionare i fogli che non si desidera importare.
 
    ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
 
    I fogli deselezionati vengono visualizzati con uno sfondo grigio.
 
-1. Clic **Importa** quando sei pronto per importare il file.
+1. Fare clic su **Importa** quando si è pronti per importare il file.
 
    Le informazioni seguenti vengono importate in Workfront Planning:
 

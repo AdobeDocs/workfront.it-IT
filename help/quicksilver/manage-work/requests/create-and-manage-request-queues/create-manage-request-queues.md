@@ -23,7 +23,7 @@ Questa sezione contiene i seguenti articoli:
 
 * [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
 * [Definire i tipi di richiesta per un progetto](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)
-* [Fornire l’accesso alle code di richieste](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)
+* [Fornire l&#39;accesso alle code di richieste](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)
 * [Crea gruppi di argomenti](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
 * [Crea argomenti coda](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
 * [Creare regole di instradamento](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)

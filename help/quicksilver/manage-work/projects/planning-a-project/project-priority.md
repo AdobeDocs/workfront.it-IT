@@ -71,28 +71,28 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Tipi di priorità del progetto in Adobe Workfront
 
 Di seguito sono riportati i tipi di priorità che è possibile utilizzare per classificare i progetti in Adobe Workfront:
 
-* **Campo Priorità progetto**: puoi assegnare manualmente una Priorità a un progetto. Questo articolo descrive come assegnare manualmente una priorità a un progetto.
+* **Campo Priorità progetto**: è possibile assegnare manualmente una priorità a un progetto. Questo articolo descrive come assegnare manualmente una priorità a un progetto.
 
-  Per ulteriori informazioni, consulta la sezione [Considerazioni sulla priorità del progetto](#considerations-about-project-priority) in questo articolo.
+  Per ulteriori informazioni, vedere la sezione [Considerazioni sulla priorità del progetto](#considerations-about-project-priority) in questo articolo.
 
 * **Priorità di un progetto in Ottimizzatore Portfolio**, se il progetto è associato a un portfolio:
 
-  Per ulteriori informazioni sulla priorità di un progetto in Ottimizzatore Portfolio, vedi nell’articolo [Assegna priorità ai progetti in Portfoli Optimizer](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
+  Per ulteriori informazioni sulla priorità di un progetto in Ottimizzatore Portfolio, vedere nell&#39;articolo [Assegnare priorità ai progetti in Ottimizzatore Portfolio](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
-* **Priorità di un progetto nella Programmazione delle risorse**: puoi assegnare manualmente la priorità ai progetti nella Programmazione delle risorse, per indicare quali progetti devono ricevere prima le risorse.
+* **Priorità di un progetto nella Programmazione delle risorse**: è possibile assegnare manualmente la priorità ai progetti nella Programmazione delle risorse, per indicare quali progetti devono ricevere le risorse per primi.
 
-  Per ulteriori informazioni sull&#39;assegnazione delle priorità ai progetti nella Programmazione delle risorse, vedere la sezione &quot;Priorità di pianificazione dei progetti&quot; nell&#39;articolo [Panoramica sulla navigazione in Programmazione delle risorse](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+  Per ulteriori informazioni sull&#39;assegnazione delle priorità ai progetti nella Programmazione delle risorse, vedere la sezione &quot;Project Planning Priority&quot; nell&#39;articolo [Panoramica sulla navigazione nella Programmazione delle risorse](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Considerazioni sulla priorità del progetto {#considerations-about-project-priority}
 
@@ -102,7 +102,7 @@ Quando selezioni una priorità per i progetti, tieni presente quanto segue:
 
 * L’amministratore di Workfront definisce le Priorità disponibili in Workfront. Una volta stabiliti, possono essere associati ai progetti nel campo Priorità.
 
-  Per ulteriori informazioni sulla creazione di Priorità in Workfront, consulta l’articolo [Creare e personalizzare le priorità](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
+  Per ulteriori informazioni sulla creazione di priorità in Workfront, vedere l&#39;articolo [Creare e personalizzare le priorità](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
 
 * Quando si aggiorna il campo Priorità di un progetto, questa Priorità non viene trasferita nell&#39;Ottimizzatore Portfolio o nella Programmazione risorse. Il campo Priorità del progetto è semplicemente un flag manuale inserito sul progetto per indicarne l’importanza agli altri utenti.
 * Il valore Priorità di un progetto viene utilizzato principalmente a scopo di reporting.
@@ -111,17 +111,17 @@ Quando selezioni una priorità per i progetti, tieni presente quanto segue:
 * Le attività e i problemi hanno anche Priorità, ma le Priorità di attività, problema e progetto funzionano in modo indipendente l’una dall’altra e non si influenzano automaticamente l’una con l’altra. È possibile avere un problema di priorità alta o un&#39;attività di priorità media in un progetto di priorità bassa.
 * Puoi aggiornare la Priorità dei progetti nelle seguenti aree di Workfront:
 
-   * In **Modifica Progetto** .
-   * In **Dettagli progetto** di un progetto
+   * Nella finestra di dialogo **Modifica progetto**.
+   * Nella scheda **Dettagli progetto** di un progetto.
    * In un elenco o report di progetti.
 
 ## Aggiornare il campo Priorità progetto
 
 1. Vai al progetto di cui desideri aggiornare la Priorità.
-1. Clic **Dettagli progetto** nel pannello a sinistra.
-1. Fai clic su **Modifica** icona ![](assets/qs-edit-icon.png) nell’angolo superiore destro dell’area Project Details (Dettagli progetto), fai clic su **Panoramica**.
+1. Fai clic su **Dettagli progetto** nel pannello a sinistra.
+1. Fai clic sull&#39;icona **Modifica** ![](assets/qs-edit-icon.png) nell&#39;angolo superiore destro dell&#39;area Dettagli progetto, quindi fai clic su **Panoramica**.
 
-1. In **Priorità** , seleziona una delle seguenti opzioni:
+1. Nel campo **Priorità**, selezionare una delle opzioni seguenti:
 
    * Nessuno
    * Basso

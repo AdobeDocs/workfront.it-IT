@@ -45,26 +45,26 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Visualizzare i rientri delle attività in una colonna di un elenco di attività
 
 1. Consente di passare a un elenco di attività.
-1. Dalla sezione **Visualizza** menu a discesa, fai clic su **Nuova visualizzazione**.
+1. Dal menu a discesa **Visualizza**, fare clic su **Nuova visualizzazione**.
 
-1. Clic **Aggiungi colonna** e inizia a digitare &quot;Task Name&quot; (Nome attività) nel **Mostra in questa colonna** quindi selezionarlo quando viene visualizzato nell&#39;elenco.
+1. Fai clic su **Aggiungi colonna** e inizia a digitare &quot;Nome attività&quot; nel campo **Mostra in questa colonna**, quindi selezionalo quando viene visualizzato nell&#39;elenco.
 
-1. Dalla nuova colonna, fai clic su **Passa alla modalità testo**.
-1. Passa il puntatore del mouse sull’area della modalità testo e fai clic su **Fare clic per modificare il testo**.
-1. Rimuove il testo trovato in `valuefield=` e sostituirla con il seguente codice:
+1. Nella nuova colonna fare clic su **Passa alla modalità testo**.
+1. Passa il puntatore del mouse sull&#39;area della modalità testo e fai clic su **Fai clic per modificare il testo**.
+1. Rimuovere il testo trovato nella riga `valuefield=` e sostituirlo con il seguente codice:
 
    ```
    valueexpression=IF({indent}<1,{name},IF({indent}<2,CONCAT(' - ',{name}),IF({indent}<3,CONCAT(' - - ',{name}),IF({indent}<4,CONCAT(' - - - ',{name}),CONCAT(' - - - - ',{name})))))
    ```
 
-1. Clic **Salva**, quindi **Salva visualizzazione**.
+1. Fai clic su **Salva**, quindi su **Salva visualizzazione**.

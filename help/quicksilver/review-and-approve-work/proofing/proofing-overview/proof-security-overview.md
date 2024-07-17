@@ -33,13 +33,13 @@ Quando l’opzione di accesso richiesto è abilitata, ai revisori viene richiest
 >[!TIP]
 >
 >Per semplificare la procedura di accesso, si consiglia di impostare l&#39;SSO in Workfront e Workfront proof. Per ulteriori informazioni sull&#39;abilitazione dell&#39;SSO, vedere >
->* [Single sign-on in Workfront: indice articolo](../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
->* [Configurare il Single Sign-On per gli utenti di Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+>* [Single Sign-On in Workfront: indice articolo](../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
+>* [Configurazione del Single Sign-On per gli utenti di Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
 >
 
 ## Firma elettronica
 
-Le firme elettroniche consentono di migliorare la sicurezza delle bozze e di rispettare gli standard di sicurezza del settore, come ISO. È possibile abilitare le firme elettroniche per tutte le bozze a livello di account oppure per singole bozze, in base alle esigenze. Per ulteriori informazioni, consulta [Configurare le impostazioni di bozza predefinite](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
+Le firme elettroniche consentono di migliorare la sicurezza delle bozze e di rispettare gli standard di sicurezza del settore, come ISO. È possibile abilitare le firme elettroniche per tutte le bozze a livello di account oppure per singole bozze, in base alle esigenze. Per ulteriori informazioni, vedere [Configurare le impostazioni di bozza predefinite](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
 
 ## Firmare una bozza elettronicamente
 
@@ -48,5 +48,5 @@ Quando l&#39;impostazione della firma elettronica è attivata su una bozza, un r
 >[!IMPORTANT]
 >
 >Per firmare elettronicamente una bozza con le credenziali SSO, è necessario configurare SSO in Workfront Proof. Per ulteriori informazioni sull&#39;abilitazione dell&#39;SSO, vedere >
->* [Configurare il Single Sign-On per gli utenti di Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+>* [Configurazione del Single Sign-On per gli utenti di Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
 >

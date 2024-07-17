@@ -23,7 +23,7 @@ ht-degree: 0%
 
 È possibile modificare un filtro in un elenco o in un report utilizzando la modalità testo per accedere a campi non disponibili nell’interfaccia standard e creare filtri più complessi.
 
-Per ulteriori esempi in modalità testo durante la creazione di un filtro, consulta anche la sezione [Esempi di filtri personalizzati](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md#samples-of-custom-filters) nell’articolo [Esempi di visualizzazione, filtro e raggruppamento personalizzati: indice articolo](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md).
+Per ulteriori esempi in modalità testo durante la creazione di un filtro, vedere anche la sezione [Esempi di filtri personalizzati](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md#samples-of-custom-filters) nell&#39;articolo [Visualizzazione personalizzata, filtro e raggruppamento di esempi: indice articolo](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md).
 
 ## Requisiti di accesso
 
@@ -78,18 +78,18 @@ La modifica di un filtro tramite la modalità testo è identica per i report e g
 >
 >È consigliabile creare il maggior numero possibile di filtri in modalità standard, quindi convertire il filtro in modalità testo per modificarlo.
 
-Per ulteriori informazioni sulla creazione di filtri, consulta [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Per ulteriori informazioni sulla creazione di filtri, vedere [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-Per informazioni sulla creazione di un rapporto, consulta [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Per informazioni sulla creazione di un report, vedere [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 1. Esegui una delle operazioni seguenti:
 
-   1. Per accedere al filtro da un rapporto, passa al rapporto, quindi fai clic su **Azioni report** > **Modifica** > **Filtri** scheda.
-   1. Per accedere al filtro da un elenco, vai all’elenco e da **Filtro** , passa il puntatore del mouse sul filtro che desideri modificare e fai clic sul pulsante **Modifica** icona ![](assets/edit-icon.png).
+   1. Per accedere al filtro da un report, passa al report, quindi fai clic sulla scheda **Azioni report** > **Modifica** > **Filtri**.
+   1. Per accedere al filtro da un elenco, passa all&#39;elenco e dal menu **Filtro**, passa il puntatore del mouse sul filtro che desideri modificare e fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png).
 
       Viene aperto il generatore di filtri.
 
-1. Clic **Aggiungere una regola di filtro** per aggiungere le condizioni del filtro, fai clic su **Modalità testo** o **Passa alla modalità testo** sul lato destro del generatore.
+1. Fai clic su **Aggiungi regola filtro** per iniziare ad aggiungere le condizioni del filtro, quindi fai clic su **Modalità testo** o **Passa alla modalità testo** sul lato destro del generatore.
 1. Aggiungere istruzioni di filtro utilizzando la modalità testo. Ogni istruzione di filtro può contenere le seguenti righe e informazioni aggiuntive:
 
    <table style="table-layout:auto"> 
@@ -118,7 +118,7 @@ Per informazioni sulla creazione di un rapporto, consulta [Creare un rapporto pe
         <p><code>plannedCompletionDate=$$TODAYbm</code> </p> 
         <p><code>plannedCompletionDate_Mod=between</code> </p> 
         <p><code>plannedCompletionDate_Range=$$TODAYem</code> </p> 
-        <p>Per un elenco completo dei modificatori di filtro in modalità testo, consulta l’articolo <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Modificatori di filtri e condizioni</a>.</p> 
+        <p>Per un elenco completo dei modificatori di filtro in modalità testo, vedere l'articolo <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Modificatori di filtro e condizione</a>.</p> 
        </div> </td> 
      </tr> 
      <tr> 
@@ -137,7 +137,7 @@ Per informazioni sulla creazione di un rapporto, consulta [Creare un rapporto pe
        </div> </td> 
      </tr> 
      <tr> 
-      <td> <p>Un carattere jolly, che consente di generalizzare le informazioni in un filtro e fare riferimento all’ora corrente per l’utente che ha effettuato l’accesso.</p> <p>I caratteri jolly sono facoltativi.</p> <p>Suggerimento   <p>È consigliabile utilizzare i caratteri jolly quando possibile per rendere i filtri più dinamici e non duplicare gli stessi filtri per ogni utente o intervalli di tempo simili.</p> <p>Per informazioni sui caratteri jolly dei filtri, vedere <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Panoramica delle variabili filtro con caratteri jolly</a>.</p> </p> </td> 
+      <td> <p>Un carattere jolly, che consente di generalizzare le informazioni in un filtro e fare riferimento all’ora corrente per l’utente che ha effettuato l’accesso.</p> <p>I caratteri jolly sono facoltativi.</p> <p>Suggerimento   <p>È consigliabile utilizzare i caratteri jolly quando possibile per rendere i filtri più dinamici e non duplicare gli stessi filtri per ogni utente o intervalli di tempo simili.</p> <p>Per informazioni sui caratteri jolly dei filtri, vedere <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Panoramica delle variabili dei filtri con caratteri jolly</a>.</p> </p> </td> 
       <td> <p><code>&lt;first field name in camel case&gt;=&lt;wildcard&gt;</code> </p> <p><code>&lt;first field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> 
        <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>ESEMPIO</b></span></span> 
         <p>Per filtrare le attività assegnate all'utente attualmente connesso, utilizzare quanto segue:</p> 
@@ -150,17 +150,17 @@ Per informazioni sulla creazione di un rapporto, consulta [Creare un rapporto pe
 
 1. Per aggiungere un’istruzione di filtro connessa dall’operatore &quot;OR&quot;, effettua le seguenti operazioni:
 
-   1. Aggiungi una nuova riga di codice e digita OR:1: seguito dall&#39;oggetto o dall&#39;attributo in base al quale si desidera filtrare e dal valore con cui si desidera confrontarlo. Per fare riferimento alle attività in qualsiasi stato tranne Nuovo, utilizzare la riga seguente:
+   1. Aggiungere una nuova riga di codice e digitare OR:1: seguito dall&#39;oggetto o dall&#39;attributo in base al quale si desidera filtrare e dal valore con cui si desidera confrontarlo. Per fare riferimento alle attività in qualsiasi stato tranne Nuovo, utilizzare la riga seguente:
 
       `OR:1:status=NEW`
 
-   1. Aggiungi una seconda riga e digita OR:1: seguito dall&#39;oggetto, dal modificatore e dal codice del modificatore. Per definire il modificatore per la riga di codice che fa riferimento a tutti gli stati dei task ad eccezione di Nuovo, utilizzare la linea di modificatore seguente:
+   1. Aggiungere una seconda riga e digitare OR:1: seguito dall&#39;oggetto, dal modificatore e dal codice del modificatore. Per definire il modificatore per la riga di codice che fa riferimento a tutti gli stati dei task ad eccezione di Nuovo, utilizzare la linea di modificatore seguente:
 
       `OR:1:status_Mod=notin`
 
       Ogni riga della nuova istruzione deve essere preceduta da &quot;OR:`<number>`:&quot;.
 
-      Per informazioni sulla creazione di istruzioni &quot;OR&quot; in un filtro, consulta [Creare istruzioni &quot;OR&quot; nei filtri in modalità testo](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md).
+      Per informazioni sulla creazione di istruzioni &quot;OR&quot; in un filtro, vedere [Creare istruzioni &quot;OR&quot; nei filtri in modalità testo](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md).
 
       >[!NOTE]
       >
@@ -175,7 +175,7 @@ Per informazioni sulla creazione di un rapporto, consulta [Creare un rapporto pe
       >`OR:2:plannedCompletionDate=$$TODAY`
       >`OR:2:plannedCompletionDate_Mod=eq`
 
-1. Clic **Esci dalla modalità testo** o **Fine** per salvare le modifiche apportate alla modalità testo e continuare a modificare il rapporto o il filtro.
-1. Clic **Salva e chiudi** per salvare il report oppure **Salva filtro** per salvare il filtro nell&#39;elenco.
+1. Fai clic su **Esci da modalità testo** o **Fine** per salvare le modifiche apportate alla modalità testo e continuare a modificare il report o il filtro.
+1. Fai clic su **Salva + Chiudi** per salvare il rapporto oppure su **Salva filtro** per salvare il filtro nell&#39;elenco.
 
 

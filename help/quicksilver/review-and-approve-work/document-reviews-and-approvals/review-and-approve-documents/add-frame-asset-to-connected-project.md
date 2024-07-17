@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Il contenuto di questo articolo fa riferimento alla funzionalità di approvazione dei documenti aggiornata, disponibile solo per account specifici. Per informazioni sui processi di approvazione standard, vedi gli articoli elencati in [Approvazioni lavoro](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>Il contenuto di questo articolo fa riferimento alla funzionalità di approvazione dei documenti aggiornata, disponibile solo per account specifici. Per informazioni sui processi di approvazione standard, vedere gli articoli elencati in [Approvazioni di lavoro](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 I creativi possono aggiungere risorse che devono essere riviste in Frame.io e inviarle a Workfront per la revisione e l&#39;approvazione formali.
 
@@ -39,7 +39,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> -->
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Devi essere un collaboratore di progetto in Frame.io. Per ulteriori informazioni, consulta <a href="https://support.frame.io/en/articles/11125-i-ve-been-invited-to-collaborate-on-a-project">Sono stato invitato a collaborare a un progetto</a>
+   <td> <p>Devi essere un collaboratore di progetto in Frame.io. Per ulteriori informazioni, vedere <a href="https://support.frame.io/en/articles/11125-i-ve-been-invited-to-collaborate-on-a-project">Sono stato invitato a collaborare a un progetto</a>
  sul sito della guida Frame.io.</p> </td> 
   </tr> 
    <tr>
@@ -51,11 +51,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedi [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Prerequisiti
 
-* È necessario configurare l&#39;integrazione di Workfront e Frame.io. Per ulteriori informazioni, consulta [Configurare l’integrazione di Workfront e Frame.io](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
+* È necessario configurare l&#39;integrazione di Workfront e Frame.io. Per ulteriori informazioni, vedere [Configurare l&#39;integrazione di Workfront e Frame.io](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
 ## Aggiungere una risorsa Frame.io a un progetto Workfront connesso
 
@@ -75,8 +75,8 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedi [Req
 
 1. (Facoltativo) Impostare lo stato dell&#39;attività.
 
-1. Clic **Invia**.
+1. Fai clic su **Invia**.
 
 La risorsa viene visualizzata nella posizione scelta e lo stato dell’attività viene aggiornato di conseguenza.
 
-Puoi avviare il processo di revisione e approvazione seguendo i passaggi descritti nell’articolo [Creare una richiesta di revisione o approvazione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+È possibile avviare il processo di revisione e approvazione seguendo i passaggi descritti nell&#39;articolo [Creare una richiesta di revisione o approvazione del documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).

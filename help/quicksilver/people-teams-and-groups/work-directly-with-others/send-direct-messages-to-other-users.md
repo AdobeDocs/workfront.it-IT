@@ -16,14 +16,14 @@ ht-degree: 0%
 
 # Inviare messaggi diretti ad altri utenti
 
-[!DNL Adobe Workfront] consente di inviare in modo rapido e semplice messaggi non correlati ad alcun elemento di lavoro direttamente ad altri [!DNL Workfront] utenti. I messaggi inviati come descritto in questa sezione vengono visualizzati nel [!UICONTROL Aggiornamenti] nella home page dell&#39;utente e sono visibili a tutti gli utenti. Per ulteriori informazioni sugli aggiornamenti, consulta [Aggiorna elementi di lavoro e visualizza aggiornamenti: indice articolo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
+[!DNL Adobe Workfront] consente di inviare in modo rapido e semplice messaggi non correlati ad alcun elemento di lavoro direttamente ad altri utenti di [!DNL Workfront]. I messaggi inviati come descritto in questa sezione vengono visualizzati nella scheda [!UICONTROL Aggiornamenti] della home page dell&#39;utente e sono visibili a tutti gli utenti. Per ulteriori informazioni sugli aggiornamenti, vedere [Aggiorna elementi di lavoro e visualizza aggiornamenti: indice articolo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
 
 Quando si invia un messaggio come descritto in questa sezione, l&#39;utente a cui viene inviato il messaggio riceve i seguenti tipi di notifiche:
 
 * Una notifica in-app, come descritto in [Visualizzare e gestire le notifiche in-app](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)
 * Una notifica e-mail
 
-  Questo dipende dai tipi di notifiche e-mail che l’utente è configurato per ricevere. Per ulteriori informazioni, consulta [Configurare le notifiche degli eventi per tutti gli utenti del sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md), [Visualizzare e configurare le notifiche degli eventi per un gruppo](../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md), e [Modifica le tue notifiche e-mail](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+  Questo dipende dai tipi di notifiche e-mail che l’utente è configurato per ricevere. Per ulteriori informazioni, vedere [Configurare le notifiche degli eventi per tutti gli utenti del sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md), [Visualizzare e configurare le notifiche degli eventi per un gruppo](../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md) e [Modificare le notifiche e-mail personali](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Requisiti di accesso
 
@@ -46,23 +46,23 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano o il tipo di licenza di cui si dispone, contattare [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano o il tipo di licenza disponibile, contattare l&#39;amministratore [!DNL Workfront].
 
 ## Inviare un messaggio non correlato a un elemento di lavoro a un altro utente
 
 1. Vai alla home page dell’utente a cui desideri inviare un messaggio.\
    Per passare alla home page di un utente, effettuare le seguenti operazioni:
 
-   * Fare clic sul nome collegato dell&#39;utente così come viene visualizzato in qualsiasi punto del [!DNL Workfront] di rete. I nomi utente vengono visualizzati in molte aree del [!DNL Workfront] come in un commento fatto dall’utente.
+   * Fare clic sul nome collegato dell&#39;utente così come viene visualizzato nell&#39;interfaccia [!DNL Workfront]. I nomi utente vengono visualizzati in molte aree dell&#39;interfaccia [!DNL Workfront], ad esempio in un commento dell&#39;utente.
 
-1. Il giorno **[!UICONTROL Aggiornamenti]** , fare clic nel campo della casella di testo.
+1. Nella scheda **[!UICONTROL Aggiornamenti]**, fare clic nel campo della casella di testo.
 
-   ![Invia messaggio all&#39;utente [!UICONTROL Aggiornamenti] scheda](assets/message-user-NWE.png)
+   ![Invia un messaggio all&#39;utente nella scheda [!UICONTROL Aggiornamenti]](assets/message-user-NWE.png)
 
 1. Digita il messaggio.
-1. (Facoltativo) Fai clic su nella **[!UICONTROL Notifica]** , quindi digitare il nome di un altro utente che si desidera includere nel messaggio.
+1. (Facoltativo) Fai clic sul campo **[!UICONTROL Notify]**, quindi inizia a digitare il nome di un altro utente che desideri includere nel messaggio.
 
-1. (Facoltativo) Seleziona **[!UICONTROL Privato per la mia azienda]** per rendere questo messaggio visibile solo ad altri utenti della tua azienda.
+1. (Facoltativo) Seleziona **[!UICONTROL Privato per la mia azienda]** per rendere questo messaggio visibile solo agli altri utenti della tua azienda.
 
-1. Clic **[!UICONTROL Aggiorna].**
-Il messaggio viene pubblicato in cima all’elenco dei messaggi sul **[!UICONTROL Aggiornamenti]** nella home page dell&#39;utente.
+1. Fai clic su **[!UICONTROL Aggiorna].**
+Il messaggio viene pubblicato nella parte superiore dell&#39;elenco dei messaggi nella scheda **[!UICONTROL Aggiornamenti]** della home page dell&#39;utente.

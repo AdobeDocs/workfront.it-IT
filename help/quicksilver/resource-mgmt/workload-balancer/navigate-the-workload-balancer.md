@@ -19,7 +19,7 @@ Utilizza il Bilanciatore dei carichi di lavoro in Adobe Workfront per assegnare 
 
 Il Bilanciatore dei carichi di lavoro è disponibile in più aree di Adobe Workfront. La navigazione è simile in tutte le aree.
 
-Per ulteriori informazioni sulla posizione del Bilanciatore dei carichi di lavoro, vedi [Individuare il Bilanciatore dei carichi di lavoro](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer.html?lang=en).
+Per ulteriori informazioni sulla posizione del Bilanciatore dei carichi di lavoro, vedere [Individuare il Bilanciatore dei carichi di lavoro](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer.html?lang=en).
 
 
 ## Requisiti di accesso
@@ -87,11 +87,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      <li> <p>Progetti</p> </li> 
      <li> <p>Attività</p> </li> 
      <li> <p>Problemi</p> </li> 
-    </ul> <p>Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+    </ul> <p>Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizza o autorizzazioni superiori per i progetti, le attività e i problemi </p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Visualizza o autorizzazioni superiori per i progetti, le attività e i problemi </p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -104,7 +104,7 @@ Quando visualizzi il Bilanciatore dei carichi di lavoro, considera quanto segue:
 
 * Il Bilanciatore dei carichi di lavoro visualizza gli elementi di lavoro in due aree separate, a seconda delle assegnazioni. Gli elementi di lavoro e gli utenti vengono visualizzati nelle seguenti aree:
 
-   * **Lavoro non assegnato**: elementi che non hanno alcuna assegnazione o che sono assegnati solo a mansioni o team.
+   * **Lavoro non assegnato**: elementi che non hanno assegnazioni o che sono assegnati solo a mansioni o team.
    * **Lavoro assegnato**: elementi assegnati ad almeno un utente. Gli elementi assegnati vengono visualizzati sotto il nome dell&#39;utente assegnato.
 
   >[!NOTE]
@@ -113,13 +113,13 @@ Quando visualizzi il Bilanciatore dei carichi di lavoro, considera quanto segue:
   >* Gli elementi di lavoro assegnati a un utente e una mansione, in cui la mansione è selezionata come assegnataria principale dell’elemento, vengono visualizzati nell’area Lavoro non assegnato.
   >* Gli elementi di lavoro assegnati a più utenti vengono visualizzati sotto tutti i nomi degli utenti assegnati nell’area Lavoro assegnato.
 
-  Per ulteriori informazioni, consulta &quot;Aree di assegnazione nel Bilanciatore dei carichi di lavoro&quot; in [Panoramica sull’assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+  Per ulteriori informazioni, vedere &quot;Aree di assegnazione nel Bilanciatore dei carichi di lavoro&quot; in [Panoramica sull&#39;assegnazione di lavoro nel Bilanciatore dei carichi di lavoro](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 * Quando un progetto non ha attività in un determinato periodo di tempo, la barra a livello di progetto è vuota per quel periodo di tempo.
 
   ![Progetto senza attività durante un periodo di tempo](assets/wb-no-tasks-in-time-period.png)
 
-* Se non disponi delle autorizzazioni necessarie per visualizzare alcuni elementi, questi vengono visualizzati come **Elementi di lavoro non accessibili** o **Progetti non accessibili**.
+* Se non disponi delle autorizzazioni necessarie per visualizzare alcuni elementi, questi verranno visualizzati come **elementi di lavoro non accessibili** o **progetti non accessibili**.
 
   ![Elementi di lavoro non accessibili](assets/wb-inaccessible-work-items.png)
 
@@ -134,12 +134,12 @@ Per ulteriori informazioni sulla visualizzazione delle informazioni nel Bilancia
 * [Individuare il Bilanciatore dei carichi di lavoro](../workload-balancer/locate-workload-balancer.md)
 * [Filtrare le informazioni nel Bilanciatore dei carichi di lavoro](../workload-balancer/filter-information-workload-balancer.md)
 * [Condividere il Bilanciatore dei carichi di lavoro con un collegamento](../workload-balancer/share-link-for-workload-balancer.md)
-* [Aggiornare gli elementi di lavoro nel Bilanciatore dei carichi di lavoro utilizzando il Riepilogo](../workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
+* [Aggiorna elementi di lavoro nel Bilanciatore dei carichi di lavoro utilizzando il Riepilogo](../workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 
 Per informazioni sulla gestione delle risorse tramite il Bilanciatore dei carichi di lavoro, vedi anche i seguenti articoli:
 
-* [Panoramica sull’assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer.html?lang=en)
-* [Gestire le allocazioni utente nel Bilanciatore dei carichi di lavoro](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer.html?lang=en)
+* [Panoramica sull&#39;assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer.html?lang=en)
+* [Gestione delle allocazioni utente nel Bilanciatore dei carichi di lavoro](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer.html?lang=en)
 
 
 ## Navigare nel Bilanciatore dei carichi di lavoro per più progetti nell&#39;area Risorse
@@ -156,23 +156,23 @@ Dopo aver selezionato le impostazioni da applicare alla vista, il Bilanciatore d
 
 Per navigare nel Bilanciatore dei carichi di lavoro per più progetti:
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Workfront, quindi fai clic su **Risorse**.
-1. Clic **Bilanciatore dei carichi di lavoro** nel pannello a sinistra.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Workfront, quindi fai clic su **Risorse**.
+1. Fai clic su **Bilanciatore dei carichi di lavoro** nel pannello a sinistra.
 
    ![Bilanciamento del carico di lavoro](assets/nwe-balancer-global.png)
 
    Il Bilanciatore dei carichi di lavoro visualizza le informazioni sull’assegnazione del lavoro a partire dalla settimana corrente nelle due aree seguenti:
 
-   * Il **Lavoro non assegnato** L&#39;area visualizza i seguenti elementi di lavoro:
+   * Nell&#39;area **Lavoro non assegnato** sono visualizzati i seguenti elementi di lavoro:
 
       * Gli elementi di lavoro (attività e problemi) assegnati a ruoli, team o a cui non è stato assegnato vengono visualizzati dopo l’applicazione dei filtri.
 Nell&#39;area Lavoro non assegnato non viene visualizzato alcun elemento di lavoro per impostazione predefinita. È consigliabile utilizzare i filtri per visualizzare informazioni rilevanti per l&#39;utente in quest&#39;area.
 
-        Per informazioni sull’utilizzo dei filtri, consulta [Filtrare le informazioni nel Bilanciatore dei carichi di lavoro](../workload-balancer/filter-information-workload-balancer.md).
+        Per informazioni sull&#39;utilizzo dei filtri, vedere [Informazioni sui filtri nel Bilanciatore dei carichi di lavoro](../workload-balancer/filter-information-workload-balancer.md).
 
-      * I progetti vengono visualizzati solo se si abilita l&#39;impostazione Raggruppa per progetto. Per informazioni, consulta la sezione [Personalizzare la visualizzazione](#customize-the-view) in questo articolo.
+      * I progetti vengono visualizzati solo se si abilita l&#39;impostazione Raggruppa per progetto. Per informazioni, vedere la sezione [Personalizzare la visualizzazione](#customize-the-view) in questo articolo.
 
-   * Il **Lavoro assegnato** L&#39;area visualizza i seguenti elementi di lavoro:
+   * Nell&#39;area **Lavoro assegnato** sono visualizzati i seguenti elementi di lavoro:
 
       * Per impostazione predefinita, tutti gli utenti attivi nel sistema vengono visualizzati in quest&#39;area. È consigliabile utilizzare i filtri per limitare la quantità di informazioni in quest’area. Se gli utenti sono assegnati agli elementi, anche gli elementi di lavoro vengono visualizzati sotto il loro nome.
 
@@ -192,7 +192,7 @@ Nell&#39;area Lavoro non assegnato non viene visualizzato alcun elemento di lavo
             > 
             >Per informazioni sulla personalizzazione delle impostazioni, vedere la sezione [Personalizzare la visualizzazione](#customize-the-view) in questo articolo.
 
-1. (Facoltativo) Fai clic su **Filtro** icona ![Icona Filtro](assets/filter-icon.png) nel **Lavoro assegnato** , quindi selezionare la **Filtro predefinito** nel **Consigliato** nella casella del filtro.
+1. (Facoltativo) Fai clic sull&#39;icona **Filtro** ![Icona Filtro](assets/filter-icon.png) nell&#39;area **Lavoro assegnato**, quindi seleziona il **Filtro predefinito** nell&#39;area **Suggested** della casella del filtro.
 
    Quando si applica il filtro Predefinito, vengono visualizzati gli utenti che appartengono a uno dei team e i relativi elementi di lavoro. Puoi modificare una copia di questo filtro.
 
@@ -209,13 +209,13 @@ Nell&#39;area Lavoro non assegnato non viene visualizzato alcun elemento di lavo
 
 ### Selezionare un intervallo di tempo nel Bilanciatore dei carichi di lavoro
 
-1. Accedere al Bilanciatore dei carichi di lavoro in **Risorse** come descritto nella sezione [Accesso al Bilanciatore dei carichi di lavoro per più progetti nell’area Risorse](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in questo articolo.
+1. Accedere al Bilanciatore dei carichi di lavoro nell&#39;area **Risorse**, come descritto nella sezione [Accedere al Bilanciatore dei carichi di lavoro per più progetti nell&#39;area Risorse](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in questo articolo.
 
    Il Bilanciatore dei carichi di lavoro visualizza le informazioni sull’assegnazione del lavoro a partire dalla settimana corrente.
 
 1. Utilizzare lo scorrimento orizzontale per visualizzare la sequenza temporale degli elementi di lavoro che si estendono oltre i limiti dello schermo.
-1. Fai clic su **avanti o indietro** icone ![Icone avanti e indietro](assets/back-and-forward-icons.png) nell’angolo in alto a sinistra per navigare nella timeline, quindi fai clic su **Oggi** per tornare alla settimana corrente.
-1. Fai clic su **menu a discesa intervallo di tempo** sulla barra degli strumenti fare clic sulla data di inizio del periodo che si desidera visualizzare. Per impostazione predefinita, la prima settimana selezionata nel calendario è quella a cui si è passati.
+1. Fai clic sulle icone **avanti o indietro** ![Indietro e avanti](assets/back-and-forward-icons.png) nell&#39;angolo superiore sinistro per spostarti nella timeline, quindi fai clic su **Oggi** per tornare alla settimana corrente.
+1. Fare clic sul menu a discesa dell&#39;intervallo di tempo **** sulla barra degli strumenti, quindi fare clic sulla data di inizio del periodo che si desidera visualizzare. Per impostazione predefinita, la prima settimana selezionata nel calendario è quella a cui si è passati.
 
    ![Selezione calendario](assets/calendar-date-picker-wb.png)
 
@@ -229,7 +229,7 @@ Nell&#39;area Lavoro non assegnato non viene visualizzato alcun elemento di lavo
    ![Seleziona settimane](assets/3-months-12-weeks-drop-down-wb.png)
 
 1. Fai clic su una delle seguenti opzioni nella barra degli strumenti per visualizzare le informazioni in base a diversi intervalli di tempo:
-   * **Giorno**: per impostazione predefinita, visualizza le informazioni per giorno per quattro settimane a partire dalla data odierna.
+   * **Giorno**: visualizza le informazioni per giorno per quattro settimane a partire dalla data odierna, per impostazione predefinita.
    * **Settimana**: visualizza le informazioni per settimana per quattro settimane.
    * **Mese**: visualizza le informazioni per mese per tre mesi.
 
@@ -237,13 +237,13 @@ Nell&#39;area Lavoro non assegnato non viene visualizzato alcun elemento di lavo
 
 ### Personalizzare la visualizzazione
 
-1. Accedere al Bilanciatore dei carichi di lavoro in **Risorse** come descritto nella sezione [Accesso al Bilanciatore dei carichi di lavoro per più progetti nell’area Risorse](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in questo articolo.
+1. Accedere al Bilanciatore dei carichi di lavoro nell&#39;area **Risorse**, come descritto nella sezione [Accedere al Bilanciatore dei carichi di lavoro per più progetti nell&#39;area Risorse](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in questo articolo.
 
    I nomi degli elementi di lavoro sono elencati a sinistra e sono rappresentati da barre sul lato destro del Bilanciatore dei carichi di lavoro. La lunghezza della barra rappresenta la timeline di un elemento di lavoro.
 
 1. (Facoltativo e consigliato) Utilizzare i filtri nelle aree Lavoro non assegnato e Lavoro assegnato per visualizzare solo gli elementi di lavoro o gli utenti rilevanti.
 
-   Per ulteriori informazioni, consulta [Filtrare le informazioni nel Bilanciatore dei carichi di lavoro](../workload-balancer/filter-information-workload-balancer.md).
+   Per ulteriori informazioni, vedere [Informazioni sul filtro nel Bilanciatore dei carichi di lavoro](../workload-balancer/filter-information-workload-balancer.md).
 
    Per impostazione predefinita, le barre blu rappresentano le timeline dei progetti e delle attività, mentre le barre laterali rappresentano i problemi.
 
@@ -254,30 +254,30 @@ Nell&#39;area Lavoro non assegnato non viene visualizzato alcun elemento di lavo
    1. Data di completamento pianificata (prima la meno recente)
    1. Alfabetico per progetto (solo quando i primi due criteri sono identici per più elementi di lavoro)
 
-1. Fai clic su **freccia rivolta verso destra** a sinistra delle aree Non assegnato o Assegnato per espandere tutti gli elementi sotto i nomi del progetto (nell&#39;area Non assegnato) e sotto i nomi utente (nell&#39;area Assegnato).
+1. Fare clic sulla **freccia rivolta verso destra** a sinistra delle aree Non assegnato o Assegnato per espandere tutti gli elementi sotto i nomi di progetto (nell&#39;area Non assegnato) e sotto i nomi utente (nell&#39;area Assegnato).
 
    >[!TIP]
    >
    >Gli elementi di lavoro vengono elencati sotto i nomi dei progetti nell&#39;area Non assegnato solo quando si abilita l&#39;impostazione &quot;Raggruppa per progetto&quot;.
 
-1. Fai clic su **freccia rivolta verso il basso** a sinistra delle aree Non assegnato o Assegnato per comprimere tutti gli elementi sotto i nomi di progetto (nell&#39;area Non assegnato) e sotto i nomi utente (nell&#39;area Assegnato).
+1. Fare clic sulla **freccia rivolta verso il basso** a sinistra delle aree Non assegnato o Assegnato per comprimere tutti gli elementi sotto i nomi di progetto (nell&#39;area Non assegnato) e sotto i nomi utente (nell&#39;area Assegnato).
 
-1. Trascina la **linea di separazione** tra il pannello sinistro e l’area della timeline per regolare le dimensioni del pannello sinistro.
+1. Trascina e rilascia la **linea di separazione** tra il pannello sinistro e l&#39;area della timeline per modificare le dimensioni del pannello sinistro.
 
    ![Riga di separazione](assets/wb-adjust-panel-size.png)
 
-1. Fai clic su **Impostazioni** icona ![Icona Impostazioni](assets/settings-gear-icon.png).
+1. Fare clic sull&#39;icona **Impostazioni** ![Impostazioni](assets/settings-gear-icon.png).
 
    Il pannello Impostazioni viene visualizzato a destra.
 
-   ![Pannello Impostazioni](assets/settings-box-options-global-with-color-theme-and-percentage-wb-nwe.png)
+   ![Pannello impostazioni](assets/settings-box-options-global-with-color-theme-and-percentage-wb-nwe.png)
 
-   Seleziona tra le opzioni elencate di seguito per aggiornare le informazioni visualizzate nel Bilanciatore dei carichi di lavoro, quindi fai clic su **Icona X** in alto a destra nella casella Settings (Impostazioni) per chiuderla.
+   Seleziona tra le opzioni elencate di seguito per aggiornare le informazioni visualizzate nel Bilanciatore dei carichi di lavoro, quindi fai clic sull&#39;icona **X** in alto a destra nella casella Impostazioni per chiuderla.
 
    * **Raggruppa per progetto**: quando questa opzione è selezionata, gli elementi nelle aree Lavoro non assegnato e Lavoro assegnato sono raggruppati per progetto. Questa opzione è selezionata per impostazione predefinita.
 
-   * **Includi ore da problemi**: quando questa opzione è selezionata, i problemi assegnati agli utenti vengono visualizzati sotto il nome dell’utente nell’area Lavoro assegnato e i problemi non assegnati agli utenti vengono visualizzati nell’area Lavoro non assegnato. Le ore pianificate conteggiate dai problemi vengono conteggiate in base alle ore pianificate per il progetto e per l’utente nell’area Lavoro assegnato.
-   * **Mostra date previste**: quando questa opzione è selezionata, oltre alla sequenza temporale pianificata viene visualizzata la sequenza temporale prevista degli elementi di lavoro. Osserva quanto segue:
+   * **Includi ore da problemi**: quando questa opzione è selezionata, i problemi assegnati agli utenti vengono visualizzati con il nome dell&#39;utente nell&#39;area Lavoro assegnato e i problemi non assegnati agli utenti vengono visualizzati nell&#39;area Lavoro non assegnato. Le ore pianificate conteggiate dai problemi vengono conteggiate in base alle ore pianificate per il progetto e per l’utente nell’area Lavoro assegnato.
+   * **Mostra date previste**: se selezionata, oltre alla sequenza temporale pianificata viene visualizzata la sequenza temporale prevista degli elementi di lavoro. Osserva quanto segue:
       * La timeline prevista di progetto, attività e problemi viene visualizzata come una linea blu scuro sopra le barre delle attività, dei problemi e dei progetti.
       * La timeline proiettata che si trova al di fuori della timeline pianificata viene visualizzata in blu chiaro, anche quando si aggiorna il tema colore, come descritto di seguito.
       * La timeline proiettata per gli elementi ai quali non hai accesso alla visualizzazione viene visualizzata in grigio chiaro con una linea al di sotto.
@@ -287,11 +287,11 @@ Nell&#39;area Lavoro non assegnato non viene visualizzato alcun elemento di lavo
      >
      >Si noti che gli elementi di lavoro vengono visualizzati nel Bilanciatore dei carichi di lavoro quando le timeline pianificate o previste (non necessariamente entrambe nello stesso momento) si verificano durante l’intervallo di tempo selezionato.
 
-   * **Mostra lavoro completato**: quando questa opzione è abilitata, le attività e i problemi completati vengono visualizzati nell’area Lavoro assegnato. Questa opzione è attivata per impostazione predefinita.
+   * **Mostra lavoro completato**: quando questa opzione è attivata, le attività e i problemi completati vengono visualizzati nell&#39;area Lavoro assegnato. Questa opzione è attivata per impostazione predefinita.
 
      Al termine dell’operazione, nell’angolo superiore destro della barra delle attività o dei problemi viene visualizzata un’icona di spunta verde. La stessa icona viene visualizzata per un progetto quando vengono completate le attività o i problemi per l’intervallo di tempo selezionato.
-   * **Mostra tempo rimanente**: quando questa opzione è abilitata, Workfront mostra la differenza tra il tempo giornaliero per il quale l’utente è disponibile a lavorare in base alle sue pianificazioni e le ore per le quali è allocato nell’area Lavoro assegnato per gli utenti. Questa funzione è disabilitata per impostazione predefinita e il tempo allocato viene visualizzato per impostazione predefinita.
-   * In **Seleziona tema colore** , selezionare il colore desiderato per le barre del progetto e dell&#39;attività.
+   * **Mostra tempo rimanente**: quando questa opzione è attivata, in Workfront viene visualizzata la differenza tra il tempo giornaliero per il quale l&#39;utente è disponibile a lavorare in base alle proprie pianificazioni e le ore per le quali è allocato nell&#39;area Lavoro assegnato per gli utenti. Questa funzione è disabilitata per impostazione predefinita e il tempo allocato viene visualizzato per impostazione predefinita.
+   * Nella sezione **Seleziona tema colore** selezionare il colore desiderato per le barre del progetto e dell&#39;attività.
 
      >[!TIP]
      >
@@ -302,15 +302,15 @@ Nell&#39;area Lavoro non assegnato non viene visualizzato alcun elemento di lavo
       * **Progetto**: le barre associate a ciascun progetto e alle relative attività cambiano in base al nome del progetto. Tutte le attività appartenenti al progetto vengono visualizzate in barre di colore corrispondente al progetto. Le barre del progetto vengono visualizzate in una tonalità più chiara per distinguerle dalle attività. Le barre del progetto includono anche l’icona di un progetto quando si sceglie di non visualizzare le allocazioni.
       * **Stato progetto**: le barre associate a ciascun progetto e ai relativi elementi di lavoro cambiano in base al colore dello stato del progetto.
 
-        Lo stato del progetto è quello associato al gruppo del progetto. Se il gruppo non dispone di stati specifici, il colore delle barre degli elementi di lavoro è quello dello stato del progetto a livello di sistema. Vengono visualizzati sia gli stati di sistema che quelli personalizzati. Per informazioni sugli stati dei gruppi, consulta [Creare o modificare lo stato di un gruppo](../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+        Lo stato del progetto è quello associato al gruppo del progetto. Se il gruppo non dispone di stati specifici, il colore delle barre degli elementi di lavoro è quello dello stato del progetto a livello di sistema. Vengono visualizzati sia gli stati di sistema che quelli personalizzati. Per informazioni sugli stati dei gruppi, vedere [Creare o modificare lo stato di un gruppo](../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
-   * In **Visualizzare l’allocazione utente in** , seleziona una delle seguenti opzioni:
+   * Nella sezione **Visualizzazione dell&#39;allocazione utente in** selezionare una delle opzioni seguenti:
       * **Ore**: visualizza il tempo allocato come ore. Questa è l&#39;impostazione predefinita.
-      * **Percento**: visualizza il tempo allocato come percentuale del tempo totale disponibile
-   * In **Preferenze di ordinamento** , selezionare la modalità di ordinamento degli elementi nel Bilanciatore dei carichi di lavoro. Selezionare una delle opzioni seguenti:
-      * **Ordina utenti per ruolo principale**: gli utenti vengono visualizzati in ordine alfabetico dei ruoli principali nell’area Lavoro assegnato.
-      * **Ordina alfabeticamente gli utenti**: gli utenti vengono visualizzati in ordine alfabetico in base al nome nell’area Lavoro assegnato.
-      * **Ordina progetti per**: seleziona un campo del progetto dal menu a discesa per ordinare alfabeticamente i progetti in base a tale campo nelle aree Lavoro non assegnato o Lavoro assegnato.
+      * **Percentuale**: visualizza il tempo allocato come percentuale del tempo totale disponibile
+   * Nella sezione **Preferenze di ordinamento**, seleziona la modalità di ordinamento degli elementi nel Bilanciatore dei carichi di lavoro. Selezionare una delle opzioni seguenti:
+      * **Ordina utenti per ruolo principale**: gli utenti vengono visualizzati in ordine alfabetico dei ruoli principali nell&#39;area Lavoro assegnato.
+      * **Ordinare gli utenti in ordine alfabetico**: gli utenti vengono visualizzati in ordine alfabetico in base al nome nell&#39;area Lavoro assegnato.
+      * **Ordina progetti per**: selezionare un campo del progetto dal menu a discesa per ordinare alfabeticamente i progetti in base a tale campo nelle aree Lavoro non assegnato o Assegnato.
 
    >[!TIP]
    >
@@ -322,8 +322,8 @@ Nell&#39;area Lavoro non assegnato non viene visualizzato alcun elemento di lavo
 
 ### Assegnazione di elementi di lavoro e adeguamento delle allocazioni utente
 
-1. Accedere al Bilanciatore dei carichi di lavoro nell’area Risorse, come descritto nella sezione [Accesso al Bilanciatore dei carichi di lavoro per più progetti nell’area Risorse](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in questo articolo.
-1. Fai clic su **Mostra icona allocazioni** ![Mostra icona allocazioni](assets/show-allocations-icon-small.png) per visualizzare le ore pianificate giornaliere o settimanali per gli elementi di lavoro.
+1. Accedere al Bilanciatore dei carichi di lavoro nell&#39;area Risorse, come descritto nella sezione [Accedere al Bilanciatore dei carichi di lavoro per più progetti nell&#39;area Risorse](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in questo articolo.
+1. Fai clic sull&#39;icona **Mostra allocazioni** ![Mostra icona allocazioni](assets/show-allocations-icon-small.png) per visualizzare le ore pianificate giornaliere o settimanali per gli elementi di lavoro.
 
    Questo sostituisce il nome nelle barre degli elementi di lavoro con la quantità di ore pianificate giornaliere o settimanali nelle aree Lavoro non assegnato e Lavoro assegnato. Questa impostazione è disabilitata per impostazione predefinita.
 
@@ -338,44 +338,44 @@ Nell&#39;area Lavoro non assegnato non viene visualizzato alcun elemento di lavo
 
 1. (Facoltativo) Passa il cursore del mouse sul tempo allocato nella linea utente per comprendere la capacità e l’allocazione dell’utente. La capacità è la disponibilità dell&#39;utente in base alla sua pianificazione.
 
-   ![Dettagli orario allocato](assets/overallocation-vs-capacity-tooltip-wb-nwe.png)
+   ![Dettagli tempo assegnato](assets/overallocation-vs-capacity-tooltip-wb-nwe.png)
 
-1. (Facoltativo) Fai clic su **Nascondi icona allocazioni** ![](assets/show-allocations-icon-small.png) per visualizzare il nome delle attività e dei problemi nelle barre degli elementi di lavoro.
-1. Fai clic su **Menu Altro** icona ![](assets/more-icon.png) a destra del nome di un’attività o di un problema, quindi fai clic su una delle opzioni di seguito.
+1. (Facoltativo) Fai clic sull&#39;icona **Nascondi allocazioni** ![](assets/show-allocations-icon-small.png) per visualizzare il nome delle attività e dei problemi nelle barre degli elementi di lavoro.
+1. Fai clic sull&#39;icona ![](assets/more-icon.png) di **Altro menu** a destra del nome di un&#39;attività o di un problema, quindi fai clic su una delle opzioni di seguito.
 
-   ![Menu Altro](assets/more-menu-right-of-task-350x104.png)
+   ![Altro menu](assets/more-menu-right-of-task-350x104.png)
 
-   * **Assegna a**, quindi iniziare a digitare il nome di un utente, una mansione o un team a cui si desidera assegnare l&#39;elemento di lavoro nel **Cerca persone, ruolo o team** campo.
+   * **Assegna a**, quindi inizia a digitare il nome di un utente, una mansione o un team a cui assegnare l&#39;elemento di lavoro nel campo **Cerca persone, mansione o team**.
 
      Per assegnare attività o problemi, è inoltre possibile utilizzare le seguenti scelte rapide:
 
       * In Windows: CTRL+clic sulla barra delle attività o dei problemi.
       * In Mac: CMD+fai clic sulla barra delle attività o dei problemi.
 
-     Per ulteriori informazioni sull’assegnazione di elementi di lavoro agli utenti nel Bilanciatore dei carichi di lavoro, consulta [Panoramica sull’assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](../workload-balancer/assign-work-in-workload-balancer.md).
+     Per ulteriori informazioni sull&#39;assegnazione di elementi di lavoro agli utenti nel Bilanciatore dei carichi di lavoro, vedere [Panoramica sull&#39;assegnazione di lavoro nel Bilanciatore dei carichi di lavoro](../workload-balancer/assign-work-in-workload-balancer.md).
 
      >[!TIP]
      >
-     >Se l’amministratore di Workfront o di gruppo ha abilitato le deleghe nell’ambiente, utilizza la scheda Assegnazioni per assegnare gli utenti all’attività o al problema. Per informazioni sulla delega del lavoro, consulta [Gestire la delega di attività e problemi](../../manage-work/delegate-work/how-to-delegate-work.md).
+     >Se l’amministratore di Workfront o di gruppo ha abilitato le deleghe nell’ambiente, utilizza la scheda Assegnazioni per assegnare gli utenti all’attività o al problema. Per informazioni sulla delega del lavoro, vedere [Gestire la delega di attività e problemi](../../manage-work/delegate-work/how-to-delegate-work.md).
 
-   * **Modifica allocazioni**, quindi modifica le allocazioni giornaliere o settimanali per l’utente. Per informazioni sulla gestione delle allocazioni utente, consulta [Gestire le allocazioni utente nel Bilanciatore dei carichi di lavoro](../workload-balancer/manage-user-allocations-workload-balancer.md).
+   * **Modifica allocazioni**, quindi modifica le allocazioni giornaliere o settimanali per l&#39;utente. Per informazioni sulla gestione delle allocazioni utente, vedere [Gestione delle allocazioni utente nel Bilanciatore dei carichi di lavoro](../workload-balancer/manage-user-allocations-workload-balancer.md).
 
-   * **Apri riepilogo**. Il pannello Riepilogo si apre a destra, quindi fai clic sul campo Assegnazioni e inizia a digitare il nome di un utente, ruolo o team nel **Cerca persone, ruolo o team** per assegnare l&#39;elemento. Per ulteriori informazioni, consulta la sezione [Visualizza ulteriori informazioni su attività e problemi](#display-more-information-about-tasks-and-issues) in questo articolo.
+   * **Apri riepilogo**. Il pannello Riepilogo si apre a destra, quindi fai clic sul campo Assegnazioni e inizia a digitare il nome di un utente, ruolo o team nel campo **Cerca persone, ruolo o team** per assegnare l&#39;elemento. Per ulteriori informazioni, vedere la sezione [Visualizzare ulteriori informazioni sulle attività e sui problemi](#display-more-information-about-tasks-and-issues) in questo articolo.
 
-1. (Facoltativo) Fai doppio clic su un’allocazione giornaliera o settimanale per un utente all’interno della barra di un elemento di lavoro per modificare il numero di ore assegnate, quindi fai clic su **Salva** icona ![Icona Salva](assets/save-allocations-wb.png) per salvare le allocazioni o **Annulla** icona ![Icona Annulla](assets/cancel-allocations-wb.png) per rimuovere le allocazioni adeguate.
+1. (Facoltativo) Fai doppio clic su un&#39;allocazione giornaliera o settimanale per un utente nella barra di un elemento di lavoro per modificare il numero di ore allocate, quindi fai clic sull&#39;icona **Salva** ![Icona Salva](assets/save-allocations-wb.png) per salvare le allocazioni oppure sull&#39;icona **Annulla** ![Icona Annulla](assets/cancel-allocations-wb.png) per rimuovere le allocazioni corrette.
 
    >[!TIP]
    >
    >Le icone Salva e Annulla vengono visualizzate verso la fine di un’attività o della barra della timeline di un problema.
    >
-   >![Salva o annulla allocazioni manuali](assets/cancel-and-save-icon-on-adjust-allocation-bar-wb-highlighted.png)
+   >![Salvare o annullare le allocazioni manuali](assets/cancel-and-save-icon-on-adjust-allocation-bar-wb-highlighted.png)
 
-   Per informazioni sulla gestione delle allocazioni utente, consulta [Gestire le allocazioni utente nel Bilanciatore dei carichi di lavoro](../workload-balancer/manage-user-allocations-workload-balancer.md).
+   Per informazioni sulla gestione delle allocazioni utente, vedere [Gestione delle allocazioni utente nel Bilanciatore dei carichi di lavoro](../workload-balancer/manage-user-allocations-workload-balancer.md).
 
-1. Clic **Assegnazioni in blocco** per assegnare elementi di lavoro in blocco.
+1. Fai clic su **Assegnazioni in blocco** per assegnare elementi di lavoro in blocco.
 
    Per ulteriori informazioni, consulta [Assegnare il lavoro in blocco utilizzando il Bilanciatore dei carichi di lavoro](../workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
-1. Trascina gli elementi dal **Lavoro non assegnato** o da un utente e rilasciarli su un altro utente per assegnarli.
+1. Trascina gli elementi dall&#39;area **Lavoro non assegnato** o da un utente e rilasciali su un altro utente per assegnarli.
 
    Per ulteriori informazioni, consulta [Assegnare il lavoro nel Bilanciatore dei carichi di lavoro trascinandolo](../workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
 
@@ -383,25 +383,25 @@ Nell&#39;area Lavoro non assegnato non viene visualizzato alcun elemento di lavo
 
 Anziché visualizzare le allocazioni in numeri giornalieri o settimanali, è possibile visualizzarle in un grafico.
 
-1. Accedere al Bilanciatore dei carichi di lavoro nell’area Risorse, come descritto nella sezione [Accesso al Bilanciatore dei carichi di lavoro per più progetti nell’area Risorse](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in questo articolo.
-1. Fai clic su **Icona grafico** ![Icona grafico](assets/user-allocation-chart-icon.png) per visualizzare l&#39;allocazione utente in un formato grafico.
+1. Accedere al Bilanciatore dei carichi di lavoro nell&#39;area Risorse, come descritto nella sezione [Accedere al Bilanciatore dei carichi di lavoro per più progetti nell&#39;area Risorse](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in questo articolo.
+1. Fai clic sull&#39;icona **Grafico** ![Grafico](assets/user-allocation-chart-icon.png) per visualizzare l&#39;allocazione utente in un formato grafico.
 
    I giorni in cui l’utente è sovrassegnato vengono visualizzati come blocchi rossi e i giorni in cui l’utente è sottoassegnato o alla capacità come blocchi blu.
 
    Le dimensioni dei blocchi indicano la quantità di allocazione: più grande è la casella, maggiore è il tempo che l’utente viene assegnato agli elementi di lavoro per quel giorno o quella settimana.
 
-   ![Allocazione degli utenti come grafico](assets/wb-allocation-as-chart.png)
+   ![Allocazione utente come grafico](assets/wb-allocation-as-chart.png)
 
 ### Visualizza ulteriori informazioni su attività e problemi
 
 Puoi visualizzare ulteriori informazioni sulle attività e sui problemi nel Bilanciatore dei carichi di lavoro.
 
-1. Accedere al Bilanciatore dei carichi di lavoro nell’area Risorse, come descritto nella sezione [Accesso al Bilanciatore dei carichi di lavoro per più progetti nell’area Risorse](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in questo articolo.
+1. Accedere al Bilanciatore dei carichi di lavoro nell&#39;area Risorse, come descritto nella sezione [Accedere al Bilanciatore dei carichi di lavoro per più progetti nell&#39;area Risorse](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in questo articolo.
 1. Per visualizzare ulteriori informazioni nel pannello Riepilogo, effettuate una delle seguenti operazioni:
 
    * Fai clic sulla barra di un’attività o di un problema per aprire il pannello Riepilogo a destra.
-   * Fai clic su **Apri riepilogo** icona ![](assets/summary-panel-icon.png), quindi fai clic sulla barra di un’attività o di un problema per aprire il pannello Riepilogo.
-   * Fai clic su **Altro** a destra di un’attività o di un problema, quindi fai clic su **Apri riepilogo**.
+   * Fai clic sull&#39;icona **Apri riepilogo** ![](assets/summary-panel-icon.png), quindi fai clic sulla barra di un&#39;attività o di un problema per aprire il pannello Riepilogo.
+   * Fai clic sul menu **Altro** a destra di un&#39;attività o di un problema, quindi fai clic su **Apri riepilogo**.
 
    Per informazioni sull&#39;aggiornamento delle informazioni sulle attività nel Riepilogo nel Bilanciatore dei carichi di lavoro, vedere [Aggiornare gli elementi di lavoro nel Bilanciatore dei carichi di lavoro utilizzando il Riepilogo](../workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
 
@@ -420,56 +420,56 @@ Puoi visualizzare ulteriori informazioni sulle attività e sui problemi nel Bila
 
 ### Visualizzare il Bilanciatore dei carichi di lavoro a schermo intero
 
-1. Accedere al Bilanciatore dei carichi di lavoro nell’area Risorse, come descritto nella sezione [Accesso al Bilanciatore dei carichi di lavoro per più progetti nell’area Risorse](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in questo articolo.
+1. Accedere al Bilanciatore dei carichi di lavoro nell&#39;area Risorse, come descritto nella sezione [Accedere al Bilanciatore dei carichi di lavoro per più progetti nell&#39;area Risorse](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in questo articolo.
 
-1. Fai clic su **Schermo intero** icona ![Icona Schermo intero](assets/full-screen.png) per visualizzare il Bilanciatore dei carichi di lavoro a schermo intero.
+1. Fai clic sull&#39;icona **Schermo intero** ![Icona Schermo intero](assets/full-screen.png) per visualizzare il Bilanciatore dei carichi di lavoro a schermo intero.
 
    Il Bilanciatore dei carichi di lavoro occupa l’intera schermata. Le finestre e le schede del browser sono escluse dalla visualizzazione.
 
-1. Fai clic su **Esci da schermo intero** icona ![Icona Esci da schermo intero](assets/exit-full-screen.png) per tornare alla schermata predefinita e visualizzare il Bilanciatore dei carichi di lavoro nella scheda del browser.
+1. Fai clic sull&#39;icona **Esci da schermo intero** ![Esci da icona a schermo intero](assets/exit-full-screen.png) per tornare alla schermata predefinita e visualizzare il Bilanciatore dei carichi di lavoro nella scheda del browser.
 
 
 ## Navigare nel Bilanciatore dei carichi di lavoro di un team
 
-La navigazione nel Bilanciatore dei carichi di lavoro di un team è simile alla navigazione nel Bilanciatore dei carichi di lavoro per più progetti. Per informazioni, consulta la sezione [Navigare nel Bilanciatore dei carichi di lavoro per più progetti](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in questo articolo.
+La navigazione nel Bilanciatore dei carichi di lavoro di un team è simile alla navigazione nel Bilanciatore dei carichi di lavoro per più progetti. Per informazioni, vedere la sezione [Navigare nel Bilanciatore dei carichi di lavoro per più progetti](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in questo articolo.
 
-1. Fai clic su **Menu principale** icona ![Menu principale](assets/main-menu-icon.png), quindi fai clic su **Team**.
+1. Fai clic sull&#39;icona **Menu principale** ![Menu principale](assets/main-menu-icon.png), quindi fai clic su **Team**.
 Per impostazione predefinita, viene visualizzata la pagina del team predefinito.
-1. Clic **Bilanciatore dei carichi di lavoro** nel pannello a sinistra. Per impostazione predefinita, viene visualizzato il Bilanciatore dei carichi di lavoro di un team.
+1. Fai clic su **Bilanciatore dei carichi di lavoro** nel pannello a sinistra. Per impostazione predefinita, viene visualizzato il Bilanciatore dei carichi di lavoro di un team.
 
    ![Bilanciatore dei carichi di lavoro di un team](assets/nwe-balancer-team-350x172.png)
 
    Il Bilanciatore dei carichi di lavoro di un team visualizza le seguenti informazioni, per impostazione predefinita:
 
-   * In **Lavoro non assegnato** Area: elementi di lavoro assegnati al team o al team e ruoli e che non sono assegnati agli utenti.
-   * In **Lavoro assegnato** Area: gli elementi di lavoro assegnati agli utenti vengono visualizzati sotto i nomi degli utenti.
+   * Nell&#39;area **Lavoro non assegnato**: elementi di lavoro assegnati al team o al team e ai ruoli e che non sono assegnati agli utenti.
+   * Nell&#39;area **Lavoro assegnato**: gli elementi di lavoro assegnati agli utenti vengono visualizzati sotto i nomi degli utenti.
 
-1. Continuare a navigare nel Bilanciatore dei carichi di lavoro di un team come descritto in [Navigare nel Bilanciatore dei carichi di lavoro per più progetti nell&#39;area Risorse](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) sezione di questo articolo.
+1. Continuare a navigare nel Bilanciatore dei carichi di lavoro di un team come descritto in [Passare al Bilanciatore dei carichi di lavoro per più progetti nell&#39;area Risorse](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) di questo articolo.
 
 ## Navigare nel Bilanciatore dei carichi di lavoro di un singolo progetto
 
-1. Fai clic su **Menu principale** icona ![Menu principale](assets/main-menu-icon.png), quindi fai clic su **Progetti**.
+1. Fai clic sull&#39;icona **Menu principale** ![Menu principale](assets/main-menu-icon.png), quindi fai clic su **Progetti**.
 1. Fai clic sul nome di un progetto per aprire la pagina del progetto.
-1. Clic **Bilanciatore dei carichi di lavoro** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro**, quindi **Bilanciatore dei carichi di lavoro**.
+1. Fai clic su **Bilanciatore dei carichi di lavoro** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro**, quindi su **Bilanciatore dei carichi di lavoro**.
 
    ![Bilanciatore dei carichi di lavoro di un progetto](assets/nwe-balancer-project-350x152.png)
 
    Il Bilanciatore dei carichi di lavoro per il progetto visualizza le seguenti informazioni, per impostazione predefinita:
 
-   * In **Lavoro non assegnato** Area: elementi di lavoro del progetto assegnati a ruoli o team e non assegnati a utenti.
-   * In **Lavoro assegnato** Area: elementi di lavoro del progetto assegnati ad almeno un utente.
+   * Nell&#39;area **Lavoro non assegnato**: elementi di lavoro del progetto assegnati a ruoli o team e non assegnati a utenti.
+   * Nell&#39;area **Lavoro assegnato**: elementi di lavoro del progetto assegnati ad almeno un utente.
 
    È consigliabile utilizzare i filtri per mostrare solo gli utenti che sono importanti per te.
 
-   Ad esempio, puoi considerare la possibilità di visualizzare solo gli utenti che appartengono ai tuoi team o gruppi. Per ulteriori informazioni, consulta [Filtrare le informazioni nel Bilanciatore dei carichi di lavoro](../workload-balancer/filter-information-workload-balancer.md).
+   Ad esempio, puoi considerare la possibilità di visualizzare solo gli utenti che appartengono ai tuoi team o gruppi. Per ulteriori informazioni, vedere [Informazioni sul filtro nel Bilanciatore dei carichi di lavoro](../workload-balancer/filter-information-workload-balancer.md).
 
-1. (Facoltativo) Fai clic su **Filtro** icona ![Icona Filtro](assets/filter-icon.png) nell’area Lavoro assegnato e seleziona il **Elementi di lavoro di questo progetto** opzione dalla **Consigliato** del pannello dei filtri. Questo filtro è deselezionato per impostazione predefinita.
+1. (Facoltativo) Fai clic sull&#39;icona **Filtro** ![Icona Filtro](assets/filter-icon.png) nell&#39;area Lavoro assegnato e seleziona l&#39;opzione **Elementi di lavoro del progetto** nell&#39;area **Suggested** del pannello dei filtri. Questo filtro è deselezionato per impostazione predefinita.
 
    Quando questa opzione è selezionata, vengono visualizzati solo gli elementi assegnati agli utenti del progetto selezionato.
 
    Quando l’opzione non è selezionata, vengono visualizzati tutti gli elementi assegnati agli utenti del progetto, indipendentemente dai progetti a cui appartengono gli elementi.
 
-1. (Facoltativo e consigliato) Applica un filtro nell’area Lavoro assegnato per visualizzare gli utenti importanti ma che potrebbero non essere assegnati agli elementi del progetto, quindi fai clic su **Mostra tutti gli utenti** icona ![Icona Mostra tutti gli utenti](assets/show-all-users-icon-project-workload-balancer.png).
+1. (Facoltativo e consigliato) Applica un filtro nell&#39;area Lavoro assegnato per visualizzare gli utenti importanti ma che potrebbero non essere assegnati agli elementi del progetto, quindi fai clic sull&#39;icona **Mostra tutti gli utenti** ![Mostra tutti gli utenti icona](assets/show-all-users-icon-project-workload-balancer.png).
 
    Visualizzando tutti gli utenti, è possibile visualizzare tutti gli utenti di Workfront non ancora assegnati al lavoro o ad altri ruoli nel progetto.
 
@@ -477,26 +477,26 @@ Per impostazione predefinita, viene visualizzata la pagina del team predefinito.
 
    Ad esempio, potrebbe essere utile filtrare prima per gli utenti che appartengono ai team o ai gruppi, quindi visualizzare tutti gli utenti.
 
-   Per informazioni su come creare un filtro, consulta [Filtrare le informazioni nel Bilanciatore dei carichi di lavoro](../workload-balancer/filter-information-workload-balancer.md).
+   Per informazioni su come creare un filtro, vedere [Informazioni sul filtro nel Bilanciatore dei carichi di lavoro](../workload-balancer/filter-information-workload-balancer.md).
 
    >[!NOTE]
    >
    > L’opzione Mostra tutti gli utenti è disponibile solo per il Bilanciatore dei carichi di lavoro di un progetto.
 
-1. (Facoltativo) Fai clic su **Mostra allocazioni di ruoli** icona ![Mostra icona di allocazione ruoli](assets/show-role-allocation-icon.png).
+1. (Facoltativo) Fai clic sull&#39;icona **Mostra allocazioni ruolo** ![Mostra icona allocazioni ruolo](assets/show-role-allocation-icon.png).
 
    Viene visualizzato il pannello Allocazione ruoli.
 
    Dalla Pianificazione scenario è possibile visualizzare informazioni sulle ore pianificate associate alle mansioni sul progetto e alle mansioni associate alle iniziative collegate ai progetti.
 
-   Per ulteriori informazioni, consulta [Panoramica sulla riconciliazione delle allocazioni di risorse tra progetti e iniziative](../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
+   Per ulteriori informazioni, vedere [Panoramica sulla riconciliazione delle allocazioni di risorse tra progetti e iniziative](../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 
 
    >[!NOTE]
    >
-   >Non è possibile visualizzare le informazioni sulle mansioni dell&#39;iniziativa se l&#39;organizzazione non ha acquistato una licenza per Workfront Scenario Planner. In questo caso, puoi visualizzare solo le ore pianificate associate alle mansioni sul progetto. Per ulteriori informazioni, consulta [Accesso necessario per utilizzare la Pianificazione scenario](../../scenario-planner/access-needed-to-use-sp.md).
+   >Non è possibile visualizzare le informazioni sulle mansioni dell&#39;iniziativa se l&#39;organizzazione non ha acquistato una licenza per Workfront Scenario Planner. In questo caso, puoi visualizzare solo le ore pianificate associate alle mansioni sul progetto. Per ulteriori informazioni, vedere [Accesso necessario per utilizzare la Pianificazione scenario](../../scenario-planner/access-needed-to-use-sp.md).
 
-1. Continuare a navigare nel Bilanciatore dei carichi di lavoro di un progetto come descritto in [Navigare nel Bilanciatore dei carichi di lavoro per più progetti](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) sezione di questo articolo.
+1. Continuare a navigare nel Bilanciatore dei carichi di lavoro di un progetto come descritto nella sezione [Passare al Bilanciatore dei carichi di lavoro per più progetti](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) di questo articolo.
 
 <!--old content below - this used to be a one-large-procedure article - outdated, and rewrote it above with several smaller procedures: 
 

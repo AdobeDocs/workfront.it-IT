@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: Creare o modificare un flusso di lavoro automatizzato per una bozza esistente
-description: I flussi di lavoro automatizzati semplificano la gestione del processo di revisione se il processo è complesso o se invii regolarmente contenuti da rivedere agli stessi gruppi di persone. Quando crei una bozza con un flusso di lavoro automatizzato, la bozza viene spostata da un passaggio all’altro fino all’approvazione finale. I partecipanti ricevono una notifica quando è il loro turno di rivedere il documento.
+title: Creare o modificare un flusso di lavoro automatico per una bozza esistente
+description: I flussi di lavoro automatizzati semplificano la gestione del processo di revisione se il processo è complesso o se invii regolarmente contenuti per la revisione agli stessi gruppi di persone. Quando crei una bozza con un flusso di lavoro automatizzato, questa si sposta da una fase all’altra fino all’approvazione finale. I partecipanti vengono informati quando è il loro turno di rivedere il documento.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 852f960f-1b57-4a8a-a928-407ad52418e6
@@ -13,11 +13,11 @@ ht-degree: 1%
 
 ---
 
-# Creare o modificare un flusso di lavoro automatizzato per una bozza esistente
+# Creare o modificare un flusso di lavoro automatico per una bozza esistente
 
-I flussi di lavoro automatizzati semplificano la gestione del processo di revisione se il processo è complesso o se invii regolarmente contenuti da rivedere agli stessi gruppi di persone. Quando crei una bozza con un flusso di lavoro automatizzato, la bozza viene spostata da un passaggio all’altro fino all’approvazione finale. I partecipanti ricevono una notifica quando è il loro turno di rivedere il documento.
+I flussi di lavoro automatizzati semplificano la gestione del processo di revisione se il processo è complesso o se invii regolarmente contenuti per la revisione agli stessi gruppi di persone. Quando crei una bozza con un flusso di lavoro automatizzato, questa si sposta da una fase all’altra fino all’approvazione finale. I partecipanti vengono informati quando è il loro turno di rivedere il documento.
 
-Per informazioni sulla creazione di un flusso di lavoro automatizzato per una nuova bozza, consulta [Creare una bozza avanzata con un flusso di lavoro automatizzato](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
+Per informazioni sulla creazione di un flusso di lavoro automatico per una nuova bozza, vedere [Creare una bozza avanzata con un flusso di lavoro automatico](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
 
 ## Requisiti di accesso
 
@@ -28,149 +28,149 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
-   <td> <p>Piano attuale: Pro o superiore</p> <p>oppure</p> <p>Piano legacy: Premium</p> <p>Per ulteriori informazioni sulla verifica dell’accesso con i diversi piani, consulta <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accesso alle funzionalità di correzione in Workfront</a>.</p> </td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td> <p>Piano corrente: Pro o superiore</p> <p>oppure</p> <p>Piano legacy: Premium</p> <p>Per ulteriori informazioni sulla verifica dell'accesso con i diversi piani, vedere <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accesso alla funzionalità di verifica in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano attuale: Lavoro o piano</p> <p>Piano legacy: Qualsiasi (è necessario che la correzione sia attivata per l’utente)</p> </td> 
+   <td> <p>Piano corrente: Lavoro o Piano</p> <p>Piano legacy: qualsiasi (per l’utente deve essere abilitata la verifica)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Profilo autorizzazione bozza </td> 
    <td>Manager o superiore</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Modifica accesso ai documenti</p> <p>Nota: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modifica accesso ai documenti</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il ruolo o il profilo delle autorizzazioni di prova, contattare l&#39;amministratore Workfront o Workfront Proof.
+&#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
 
-## Crea o modifica un flusso di lavoro automatizzato per una bozza esistente:
+## Crea o modifica un flusso di lavoro automatico per una bozza esistente:
 
-1. Passa il puntatore del mouse sul documento nell&#39;area Documenti, quindi fai clic su Flusso di lavoro di correzione.
+1. Passa il puntatore del mouse sul documento nell’area Documenti, quindi fai clic su Flusso di lavoro bozza.
 
    Oppure
 
-   Se rivedi la bozza nel visualizzatore di correzione, fai clic su **Flusso di lavoro** ![](assets/workflow-icon-proofing-viewer.png) nel pannello a sinistra, fai clic sull’icona Modifica ![](assets/edit-icon-proofing-viewer.png) per aprire le impostazioni del flusso di lavoro automatizzato per la bozza.
+   Se stai esaminando la bozza nel visualizzatore di bozze, fai clic su **Flusso di lavoro** ![](assets/workflow-icon-proofing-viewer.png) nel pannello a sinistra, quindi fai clic sull&#39;icona Modifica ![](assets/edit-icon-proofing-viewer.png) per aprire le impostazioni del flusso di lavoro automatico per la bozza.
 
-1. (Condizionale) Se la bozza al momento utilizza un flusso di lavoro di base (senza aree di visualizzazione), fai clic su **Converti in flusso di lavoro automatizzato** nella schermata visualizzata.
+1. (Condizionale) Se la bozza utilizza attualmente un flusso di lavoro di base (senza fasi), fare clic su **Converti in flusso di lavoro automatico** nella schermata visualizzata.
 
    >[!NOTE]
    >
-   >Non puoi modificare il primo passaggio quando effettui la conversione da un flusso di lavoro di base a un flusso di lavoro automatizzato, ma puoi aggiungere e configurare nuovi passaggi.
+   >Non è possibile modificare la prima fase quando si passa da un flusso di lavoro di base a un flusso di lavoro automatico, ma è possibile aggiungere e configurare nuove fasi.
 
-1. Condizionale) Per utilizzare un modello di flusso di lavoro automatizzato creato e condiviso dall’amministratore Adobe Workfront, fai clic su **Aggiungi modello**, seleziona il modello nella casella visualizzata, quindi fai clic su **Aggiungi modello**.
+1. Condizionale) Per utilizzare un modello di flusso di lavoro automatico creato e condiviso con te dall&#39;amministratore di Adobe Workfront, fai clic su **Aggiungi modello**, seleziona il modello nella casella visualizzata, quindi fai clic su **Aggiungi modello**.
 
-   Per ulteriori informazioni, consulta [Utilizzo dei modelli di flusso di lavoro automatizzati](#about-using-automated-workflow-templates) in questo articolo.
+   Per ulteriori informazioni, vedere [Informazioni sull&#39;utilizzo dei modelli di flussi di lavoro automatizzati](#about-using-automated-workflow-templates) in questo articolo.
 
-1. Aggiungi uno stadio al flusso di lavoro automatizzato:
+1. Aggiungi una fase al flusso di lavoro automatizzato:
 
-   1. Fai clic su **Nuovo stadio** nell&#39;angolo in alto a destra.
-   1. Nella casella visualizzata, digita un **Nome** per il palco.
-   1. (Facoltativo) Imposta una scadenza per l’area di visualizzazione.
-   1. In **Attiva fase** scegliete come attivare l’area di visualizzazione:
+   1. Fai clic su **Nuova fase** nell&#39;angolo superiore destro.
+   1. Nella casella visualizzata digitare un **Nome** per l&#39;area di visualizzazione.
+   1. (Facoltativo) Imposta una scadenza per la fase.
+   1. Nella sezione **Attiva fase**, scegliere la modalità di attivazione della fase:
 
 
       <table>
       <tbody>
       <tr>
-      <td><strong>Creazione a prova di</strong></td>
-      <td>L’area di visualizzazione diventa attiva automaticamente perché la bozza è già stata creata.</td>
+      <td><strong>Alla creazione della bozza</strong></td>
+      <td>La fase diventa attiva automaticamente perché la bozza è già stata creata.</td>
       </tr>
       <tr>
       <td><strong>Quando la scadenza della fase precedente viene superata</strong></td>
-      <td>Fai clic sull’area di visualizzazione precedente nel <strong>Stadio principale</strong> elenco a discesa .</td>
+      <td>Fare clic sulla fase precedente nell'elenco a discesa <strong>Fase padre</strong>.</td>
       </tr>
       <tr>
       <td><strong>In una data e un’ora specifiche</strong></td>
-      <td>Fai clic sul pulsante <strong>On</strong> per selezionare la data, quindi fare clic sulla casella a destra per selezionare l'ora.</td>
+      <td>Fai clic sulla casella <strong>Il</strong> per selezionare la data, quindi fai clic sulla casella a destra per selezionare l'ora.</td>
       </tr>
       <tr>
-      <td><strong>Tutte le decisioni vengono approvate o approvate con modifiche sullo stadio padre</strong></td>
-      <td>Fai clic sull’area di visualizzazione principale <strong>Stadio principale</strong> elenco a discesa.</td>
+      <td><strong>Tutte le decisioni vengono approvate o approvate con modifiche nella fase padre</strong></td>
+      <td>Fare clic sulla fase padre nell'elenco a discesa <strong>Fase padre</strong>.</td>
       </tr>
       <tr>
-      <td><strong>Tutte le decisioni sono approvate sullo stadio padre</strong></td>
-      <td>Fai clic sull’area di visualizzazione principale <strong>Stadio principale</strong> elenco a discesa.</td>
+      <td><strong>Tutte le decisioni vengono approvate nella fase padre</strong></td>
+      <td>Fare clic sulla fase padre nell'elenco a discesa <strong>Fase padre</strong>.</td>
       </tr>
       <tr>
-      <td><strong>Tutte le decisioni sono prese</strong></td>
-      <td>Fai clic sull’area di visualizzazione principale <strong>Stadio principale</strong> elenco a discesa.</td>
+      <td><strong>Tutte le decisioni vengono prese</strong></td>
+      <td>Fare clic sulla fase padre nell'elenco a discesa <strong>Fase padre</strong>.</td>
       </tr>
       </tbody>
       </table>
 
 
-   1. Immetti un nome di contatto o un indirizzo e-mail e configura le impostazioni per i revisori per l’area di visualizzazione.
+   1. Immettere un nome di contatto o un indirizzo e-mail e configurare le impostazioni per i revisori per la fase.
 
-      Per informazioni sull&#39;aggiunta dei revisori, consulta [Informazioni sull’aggiunta di revisori a un passaggio](#about-adding-reviewers-to-a-stage) in questo articolo.
+      Per informazioni sull&#39;aggiunta di revisori, vedere [Informazioni sull&#39;aggiunta di revisori a una fase](#about-adding-reviewers-to-a-stage) in questo articolo.
 
-   1. Utilizza una delle opzioni seguenti per configurare ulteriormente l’area di visualizzazione:
+   1. Per configurare ulteriormente la fase, utilizzate una delle seguenti opzioni:
 
       <table style="table-layout:auto">
        <col>
        <col>
        <tbody>
         <tr>
-         <td role="rowheader"><strong>Opzioni scadenza</strong> </td>
-         <td><p>Per impostare una scadenza per l’area di visualizzazione, fai clic su un’opzione nel <strong>Opzioni della scadenza</strong> elenco a discesa. Quindi, sotto <strong>Termine</strong>, effettua una delle seguenti operazioni:</p>
+         <td role="rowheader"><strong>Opzioni di scadenza</strong> </td>
+         <td><p>Per impostare una scadenza per la fase, fare clic su un'opzione nell'elenco a discesa <strong>Opzioni scadenza</strong>. Quindi, in <strong>Scadenza</strong>, eseguire una delle operazioni seguenti:</p>
           <ul>
-           <li>Se hai scelto <strong>Imposta data specifica</strong>: Seleziona la data e l’ora di scadenza desiderate.</li>
-           <li>Se hai scelto <strong>Calcola dalla data di attivazione dell’area di visualizzazione</strong>: Selezionare il numero di giorni lavorativi che si desidera aggiungere alla data di attivazione dell’area di visualizzazione per determinare la scadenza.</li>
+           <li>Se si sceglie <strong>Imposta data specifica</strong>: selezionare la data e l'ora di scadenza desiderate.</li>
+           <li>Se si sceglie <strong>Calcola dalla data di attivazione della fase</strong>: selezionare il numero di giorni lavorativi che si desidera aggiungere alla data di attivazione della fase per determinare la scadenza.</li>
           </ul></td>
         </tr>
         <tr>
-         <td role="rowheader">Blocca fase</td>
-         <td>Specificare quando è possibile bloccare l'area di visualizzazione. </td>
+         <td role="rowheader">Fase di blocco</td>
+         <td>Specificare quando è possibile bloccare lo stage. </td>
         </tr>
         <tr>
          <td role="rowheader">Principale responsabile delle decisioni</td>
-         <td><p>Seleziona il decision maker principale nell’area di visualizzazione (disponibile solo dopo l’aggiunta di almeno una persona allo stadio con un ruolo di approvatore o superiore). Se selezioni un modulo decisionale principale, la <strong>È necessaria una sola decisione</strong> in questo passaggio l’opzione è disabilitata.</p></td>
+         <td><p>Selezionare il decisore principale sullo stadio (disponibile solo dopo aver aggiunto almeno una persona allo stadio con il ruolo di Approvatore di bozza o superiore). Se si seleziona un decisore principale, l'opzione <strong>È richiesta una sola decisione</strong> è disabilitata in questa fase.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Occorre solo una decisione</td>
-         <td>Termina l'intero processo di revisione quando uno dei decisori prende una decisione.<p>Questa opzione non è disponibile se hai designato un utente nel <strong>Decisore principale</strong> menu a discesa.</p></td>
+         <td>Termina l’intero processo di revisione quando uno dei responsabili decisionali prende una decisione.<p>Questa opzione non è disponibile se è stato designato un utente nel menu a discesa <strong>Principale responsabile delle decisioni</strong>.</p></td>
         </tr>
         <tr>
-         <td role="rowheader">Stage privato</td>
+         <td role="rowheader">Fase privata</td>
          <td>Consente solo alle persone seguenti di visualizzare i commenti e le decisioni prese durante questa fase: Supervisori, amministratori di Adobe Workfront e amministratori di Workfront Proof</td>
         </tr>
         <tr>
-         <td role="rowheader">Informa le persone tramite e-mail</td>
-         <td>Avvisi ai revisori con una notifica e-mail quando tocca loro lavorare sulla bozza.</td>
+         <td role="rowheader">Notifica agli utenti via e-mail</td>
+         <td>Avvisa i revisori con una notifica e-mail quando è il momento di lavorare sulla bozza.</td>
         </tr>
        </tbody>
       </table>
 
-   1. Fai clic su **Aggiungi fase**.
+   1. Fare clic su **Aggiungi fase**.
 
-1. Ripeti il passaggio precedente in base alle esigenze per aggiungere altri stadi.
+1. Ripetere il passaggio precedente in base alle esigenze per aggiungere altre fasi.
 
-   Quando si aggiungono aree di visualizzazione al flusso di lavoro automatizzato, sullo schermo viene visualizzato un diagramma che le rappresenta:
+   Quando aggiungi fasi al flusso di lavoro automatico, sullo schermo viene visualizzato un diagramma che le rappresenta:
 
    ![](assets/workflow-diagram-existing-proof-qs-350x215.png)
 
-1. Al termine dell’aggiunta delle aree di visualizzazione, fai clic su **Fine**.
+1. Dopo aver aggiunto le fasi, fare clic su **Fine**.
 
-## Utilizzo dei modelli di flusso di lavoro automatizzati {#about-using-automated-workflow-templates}
+## Informazioni sull’utilizzo dei modelli di flussi di lavoro automatizzati {#about-using-automated-workflow-templates}
 
-Quando utilizzi un modello di flusso di lavoro automatizzato, considera quanto segue:
+Quando si utilizza un modello di flusso di lavoro automatizzato, tenere presente quanto segue:
 
-1. Le impostazioni di un modello di flusso di lavoro automatizzato determinano le operazioni che è possibile eseguire con il flusso di lavoro automatico per una bozza. Ad esempio, se il pulsante Aggiungi un passaggio è disabilitato nel modello, questo non è visibile perché lavori con le impostazioni del flusso di lavoro automatizzato per la bozza.
-1. Quando una persona viene aggiunta a una pagina in un modello di flusso di lavoro automatizzato, ma è già presente come revisore sulla bozza, l’applicazione del modello rimuove il revisore dal passaggio. Se non aggiungi un altro revisore all’area di visualizzazione, viene visualizzato un messaggio per richiedere di aggiungerne uno.
-1. La possibilità di modificare un modello di flusso di lavoro automatizzato dipende dalle impostazioni del modello configurate dall’amministratore di Workfront, come descritto in . Se la possibilità di modificare il modello è disabilitata, solo il proprietario del modello può modificarlo.
+1. Le impostazioni di un modello di flusso di lavoro automatico determinano le operazioni che è possibile eseguire con il flusso di lavoro automatico per una bozza. Ad esempio, se il pulsante Aggiungi un’area di visualizzazione è disabilitato nel modello, non sarà visibile durante l’utilizzo delle impostazioni del flusso di lavoro automatico per la bozza.
+1. Quando una persona viene aggiunta a un’area di un modello di flusso di lavoro automatico, ma è anche già presente come revisore sulla bozza, l’applicazione del modello rimuove il revisore dall’area di visualizzazione. Se non si aggiunge un altro revisore all&#39;area di visualizzazione, verrà visualizzato un messaggio che richiede di aggiungerne uno.
+1. La possibilità di modificare un modello di flusso di lavoro automatico dipende dalle impostazioni del modello configurate dall&#39;amministratore di Workfront, come descritto in . Se la possibilità di modificare il modello è disabilitata, solo il proprietario del modello può modificarlo.
 
-## Informazioni sull’aggiunta di revisori a un passaggio {#about-adding-reviewers-to-a-stage}
+## Informazioni sull’aggiunta di revisori a una fase {#about-adding-reviewers-to-a-stage}
 
-Quando aggiungi revisori a un&#39;area di visualizzazione, considera quanto segue:
+Quando si aggiungono revisori a una fase, tenere presente quanto segue:
 
-* Dopo aver aggiunto un utente a un passaggio, puoi configurare le impostazioni per tale utente sulla bozza, ad esempio il ruolo di bozza e le autorizzazioni aggiuntive che dovrebbe disporre e il tipo di avvisi e-mail che riceverà quando gli utenti formulano commenti e decisioni sulla bozza.
-* Puoi trascinare uno o più utenti da un passaggio all’altro. Puoi trascinare gli utenti direttamente su un altro passaggio, oppure puoi trascinare gli utenti su un altro passaggio **Fasi** diagramma. Per selezionare più utenti, premere Maiusc+Ctrl (su Windows) o Maiusc+Comando (su Mac).
-* È possibile aggiungere un revisore a una bozza una sola volta, il che significa che non è possibile aggiungere la stessa persona a più di una fase della bozza.
-* I revisori che non vengono aggiunti a uno stadio privato non possono vedere tale stadio sulla prova o sui commenti fatti in tale fase.
-* Per impostazione predefinita, l’aggiunta di un utente a un’area di visualizzazione consente all’utente di accedere alla bozza dal momento in cui viene creata.
+* Dopo aver aggiunto un utente a una fase, puoi configurare le impostazioni per tale utente nella bozza, ad esempio il ruolo della bozza ed eventuali autorizzazioni aggiuntive da assegnare e il tipo di avvisi e-mail che riceverà quando gli utenti adottano commenti e decisioni sulla bozza.
+* Puoi trascinare uno o più utenti da una fase all’altra. Puoi trascinare gli utenti direttamente in un&#39;altra fase, oppure puoi trascinare gli utenti in una fase del diagramma **Fasi**. Per selezionare più utenti, premere MAIUSC+Ctrl (su Windows) o MAIUSC+Comando (su Mac).
+* È possibile aggiungere un revisore a una bozza una sola volta, il che significa che non è possibile aggiungere la stessa persona a più fasi della bozza.
+* I revisori che non vengono aggiunti a una fase privata non possono vedere tale fase sulla bozza o sui commenti fatti in quella fase.
+* Per impostazione predefinita, l’aggiunta di un utente a una fase consente a tale utente di accedere alla visualizzazione della bozza dal momento in cui viene creata.
 
-   L’amministratore di Workfront può impedire agli utenti di accedere alla bozza finché il flusso di lavoro non entra nell’area in cui è stato aggiunto l’utente. Per ulteriori informazioni, consulta in .
+  L’amministratore di Workfront può impedire agli utenti di accedere alla bozza fino a quando il flusso di lavoro non entra nella fase in cui l’utente è stato aggiunto. Per ulteriori informazioni, consulta  in .

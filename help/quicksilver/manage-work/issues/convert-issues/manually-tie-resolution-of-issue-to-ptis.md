@@ -45,12 +45,12 @@ Devi avere i seguenti:
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per il problema collegato a un altro problema, attività o progetto</p> <p>Visualizza o consente di accedere ad altre autorizzazioni per il problema, l'attività o il progetto aggiunto al problema esistente</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per il problema collegato a un altro problema, attività o progetto</p> <p>Visualizza o consente di accedere ad altre autorizzazioni per il problema, l'attività o il progetto aggiunto al problema esistente</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Prerequisiti
 
@@ -63,11 +63,11 @@ Prima di iniziare, è necessario:
 ## Associare la risoluzione di un problema alla risoluzione di un altro problema, attività o progetto
 
 1. Passare a un problema la cui risoluzione si desidera associare alla risoluzione di un altro problema o alla risoluzione di un&#39;attività o di un progetto.
-1. Fai clic su **Dettagli problema** nel pannello a sinistra, quindi espandi **Panoramica** area.
+1. Fai clic su **Dettagli problema** nel pannello a sinistra, quindi espandi l&#39;area **Panoramica**.
 
    ![](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 
-1. Fai clic su **Risolto da** e selezionare uno dei seguenti tipi di oggetti di risoluzione:
+1. Fai clic sul campo **Risolto da** e seleziona uno dei seguenti tipi di oggetti di risoluzione:
 
    * **Progetto**
    * **Attività**
@@ -79,14 +79,14 @@ Prima di iniziare, è necessario:
    * **Attività risolutiva**
    * **Problema risolutivo**
 
-1. Inizia a digitare il nome di un progetto, attività o problema specifico nel **Progetto risolutivo**, **Attività**, o **Problema** , quindi fare clic su di esso quando viene visualizzato nell&#39;elenco.
+1. Inizia a digitare il nome di un progetto, attività o problema specifico nel campo **Progetto risolutivo**, **Attività** o **Problema**, quindi fai clic su di esso quando viene visualizzato nell&#39;elenco.
 
    >[!NOTE]
    >
    >Non è possibile collegare la risoluzione di un problema all&#39;attività o al progetto in cui si trova il problema. L&#39;attività o il progetto del problema non viene visualizzato nei campi Attività risolutiva o Attività risolutiva.
 
 
-1. Clic **Salva modifiche**.
+1. Fai clic su **Salva modifiche**.
 
    Il problema originale diventa l&#39;oggetto risolvibile per il progetto, l&#39;attività o il problema selezionato nei passaggi 4 e 5. Ciò significa che il problema originale viene completato quando viene completato l’oggetto di risoluzione (il progetto, l’attività o il problema a cui l’hai collegato).
 

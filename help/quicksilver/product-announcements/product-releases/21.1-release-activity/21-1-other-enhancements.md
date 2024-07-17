@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti gli altri miglioramenti apportati con la versione 21.1 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 15 febbraio 2021.
 
-Per un elenco di tutte le modifiche disponibili con la versione 21.1, consulta [Panoramica sulla versione 21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 21.1, consulta la [panoramica sulla versione 21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Aggiornamenti ai requisiti di errore della sottoscrizione eventi
 
@@ -27,13 +27,13 @@ Stiamo aggiornando i requisiti di soft-disable per gli errori di abbonamento agl
 
 Inoltre, a partire da febbraio 2021 verranno aggiunti requisiti di hard-disable.
 
-Per ulteriori informazioni sui nuovi requisiti di soft-disable e hard-disable, consulta [Domande frequenti - Abbonamenti agli eventi](../../../wf-api/general/event-subs-faq.md).
+Per ulteriori informazioni sui nuovi requisiti di disabilitazione e disabilitazione temporanea, vedere [Domande frequenti - Sottoscrizioni eventi](../../../wf-api/general/event-subs-faq.md).
 
 ## Nuovi campi del team disponibili per il riepilogo giornaliero
 
 Abbiamo aggiunto i campi Approvazione team e Assegnazioni all’e-mail Riepilogo giornaliero azioni necessarie.
 
-Per ulteriori informazioni, consulta [Notifiche: azione necessaria](../../../workfront-basics/using-notifications/notifications-action-needed.md).
+Per ulteriori informazioni, vedere [Notifiche: azione richiesta](../../../workfront-basics/using-notifications/notifications-action-needed.md).
 
 ## Sostituzione dell’opzione POP email nelle code di richiesta
 
@@ -41,13 +41,13 @@ Stiamo sostituendo l’opzione e-mail POP per le code di richieste con un nuovo 
 
 Queste modifiche sono disponibili per il test in Anteprima.
 
-L’e-mail viene disattivata automaticamente in tutti gli ambienti di anteprima. Per abilitare l’e-mail a scopo di test, consulta [Abilitare la consegna di e-mail dall’ambiente Sandbox di anteprima](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
+L’e-mail viene disattivata automaticamente in tutti gli ambienti di anteprima. Per abilitare le e-mail a scopo di test, consulta [Abilitare la consegna di e-mail dall&#39;ambiente Sandbox di anteprima](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
 
-Per ulteriori informazioni, consulta [Consentire agli utenti di inviare un problema tramite e-mail a un progetto della coda richieste](/help/quicksilver/manage-work/requests/create-requests/enable-email-issues-into-projects.md).
+Per ulteriori informazioni, vedere [Consentire agli utenti di inviare un problema tramite e-mail a un progetto della coda richieste](/help/quicksilver/manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 
-Per ulteriori informazioni sulle ragioni di questo cambiamento, consulta [Nuovo sistema gestito da Adobe Workfront per sostituire POP email for Request Queues con 21.1](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md).
+Per ulteriori informazioni sul motivo di questa modifica, vedere [Nuovo sistema gestito da Adobe Workfront per sostituire POP email for Request Queues con 21.1](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md).
 
-Questa funzione è ora inclusa nel [Gestione delle code nella nuova esperienza Workfront](https://one.workfront.com/s/learningpath4/queue-management-MCYCJRWK36QZBP7PGMNDMSPRN3LE) percorso di apprendimento in Workfront One.
+Questa funzionalità è ora inclusa in [Gestione code nel nuovo percorso di apprendimento di Workfront](https://one.workfront.com/s/learningpath4/queue-management-MCYCJRWK36QZBP7PGMNDMSPRN3LE) in Workfront One.
 
 ## Limita la modifica delle ore nelle schede orario
 
@@ -64,14 +64,14 @@ Sono stati aggiunti i seguenti miglioramenti quando si aggiunge un progetto, un&
 * Filtri: sono stati aggiunti i filtri per Progetti e Problemi. Fai clic su Altre opzioni per visualizzare questi filtri. In precedenza, erano disponibili solo i filtri per le attività.
 * Visualizzazioni: sono state aggiunte le opzioni Visualizza e Raggruppamento alla pagina Ricerca.
 
-Per ulteriori informazioni, consulta [Tempo di connessione](../../../timesheets/create-and-manage-timesheets/log-time.md).
+Per ulteriori informazioni, vedere [Tempo di connessione](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
 ## Nascondi la casella del lavoro straordinario nelle schede orario
 
 Ora puoi nascondere la casella del lavoro straordinario per semplificare la confusione degli utenti se non tieni traccia del lavoro straordinario in Workfront. Puoi nascondere la casella del lavoro straordinario per una scheda orario monouso o nel Timesheet Ricorrente:
 
-* Scheda orario monouso: quando si sceglie di nascondere la casella del lavoro straordinario in una singola scheda orario, questa viene nascosta solo per tale scheda. Per ulteriori informazioni, consulta [Creare una scheda orario monouso](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
-* Profilo scheda orario: quando si sceglie di nascondere la casella Lavoro straordinario nel Profilo scheda orario, tutte le schede orario future create per gli utenti assegnati a quel profilo non visualizzeranno la casella Lavoro straordinario. Per ulteriori informazioni, consulta [Creare, modificare e assegnare profili di schede orario](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+* Scheda orario monouso: quando si sceglie di nascondere la casella del lavoro straordinario in una singola scheda orario, questa viene nascosta solo per tale scheda. Per ulteriori informazioni, vedere [Creare una scheda orario monouso](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
+* Profilo scheda orario: quando si sceglie di nascondere la casella Lavoro straordinario nel Profilo scheda orario, tutte le schede orario future create per gli utenti assegnati a quel profilo non visualizzeranno la casella Lavoro straordinario. Per ulteriori informazioni, vedere [Creare, modificare e assegnare profili scheda orario](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 In precedenza, non era possibile nascondere la casella del lavoro straordinario nelle schede orario.
 

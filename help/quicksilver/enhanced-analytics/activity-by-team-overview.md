@@ -10,7 +10,7 @@ exl-id: c4f9886c-ce76-43a8-bd43-cb64fff27e79
 source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
 source-wordcount: '688'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -23,7 +23,7 @@ La visualizzazione Attività per team mostra le attività che avvengono durante 
 >[!NOTE]
 >
 >La visualizzazione delle attività del progetto è simile a questa, ma mostra le attività in base alle persone assegnate ai progetti anziché alle persone assegnate a un team principale.\
->Per informazioni sulla visualizzazione dell’attività del progetto, consulta [Visualizzare l’attività del progetto in Analisi avanzate](../enhanced-analytics/project-activity-overview.md).
+>Per informazioni sulla visualizzazione delle attività del progetto, vedi [Visualizzare la visualizzazione delle attività del progetto in Analisi avanzate](../enhanced-analytics/project-activity-overview.md).
 
 ![](assets/activity-by-team-350x113.png){width="700"}
 
@@ -63,21 +63,21 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Prerequisiti
 
-Per i prerequisiti per utilizzare Enhanced Analytics, consulta la sezione &quot;Prerequisiti&quot; in [Panoramica di analisi avanzate](../enhanced-analytics/enhanced-analytics-overview.md).
+Per i prerequisiti per l&#39;utilizzo di Analisi avanzate, vedere la sezione &quot;Prerequisiti&quot; in [Panoramica di Analisi avanzate](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Visualizzazione Attività per team
 
 Le diverse attività vengono visualizzate in colori diversi per riepilogare eventi specifici nel periodo di tempo filtrato:
 
-* **Utenti connessi**: le caselle viola mostrano che gli utenti del team principale hanno effettuato l’accesso in quel giorno. Un&#39;ombreggiatura più scura indica un numero maggiore di utenti che accedono.
+* **Utenti connessi**: le caselle viola mostrano che gli utenti del team principale hanno effettuato l&#39;accesso in quel giorno. Una tonalità più scura indica un numero maggiore di utenti che effettuano l’accesso.
 
   ![](assets/project-activity-users-logged-in.png)
 
-* **Modifica stato attività**: le caselle rosa mostrano che gli utenti del team principale hanno modificato lo stato di un’attività in quel giorno. Un&#39;ombreggiatura più scura indica un numero maggiore di stati delle attività che cambiano.
+* **Modifica stato attività**: le caselle di colore rosa indicano che gli utenti del team principale hanno modificato lo stato di un&#39;attività in quel giorno. Una tonalità più scura indica un numero maggiore di cambiamenti di stati delle attività.
 
   ![](assets/project-activity-task-status-changes.png)
 
-* **Attività completate**: le caselle blu mostrano che le persone nel team principale hanno completato un’attività in quel giorno. Un&#39;ombreggiatura più scura indica un numero maggiore di attività completate.
+* **Attività completate**: le caselle blu indicano che le persone nel team principale hanno completato un&#39;attività in quel giorno. Una tonalità più scura indica un numero maggiore di attività completate.
 
   ![](assets/project-activity-tasks-completed.png)
 
@@ -87,13 +87,13 @@ La visualizzazione di queste informazioni consente di determinare:
 
 * Quali attività si verificano all’interno di un team interno e a quale ritmo.
 * Quali sono i team principali che sono sovraccarichi di lavoro o utilizzano di più il sistema.
-* Se la distribuzione del lavoro è appropriata per il team di appartenenza.
+* Se la distribuzione del lavoro è appropriata per il team predefinito.
 
-Per scoprire come ottenere i dati migliori per questa visualizzazione, consulta [Panoramica di analisi avanzate](../enhanced-analytics/enhanced-analytics-overview.md).
+Per informazioni su come ottenere i dati migliori per questa visualizzazione, consulta [Panoramica sulle analisi avanzate](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Visualizzazione Attività per team
 
-1. Fai clic sull’icona Menu principale ![](assets/main-menu-icon-16x12.png), quindi seleziona **Analytics**.
+1. Fai clic sull&#39;icona del menu principale ![](assets/main-menu-icon-16x12.png), quindi seleziona **Analytics**.
 1. Nel pannello a sinistra, seleziona **Persone**.
 
    ![](assets/people-area-cropped-qs-350x276.png)
@@ -102,11 +102,11 @@ Per scoprire come ottenere i dati migliori per questa visualizzazione, consulta 
 
    ![](assets/filters-select-date-range-350x344.png)
 
-   Per informazioni sull’utilizzo del filtro per intervalli di date, consulta [Applicare i filtri nelle analisi avanzate](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Per informazioni sull&#39;utilizzo del filtro dell&#39;intervallo di date, vedere [Applicare filtri in Analisi avanzate](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 1. (Condizionale) Se non hai impostato il filtro Team, aggiungi il filtro Team e seleziona ogni team per il quale desideri visualizzare i dati.
 
-   Per ulteriori informazioni sull’aggiunta di filtri in Analisi avanzate, consulta [Applicare i filtri nelle analisi avanzate](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Per ulteriori informazioni sull&#39;aggiunta di filtri in Analisi avanzate, vedere [Applicare filtri in Analisi avanzate](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
    Dopo aver aggiunto i filtri, vengono visualizzati i dati per un massimo di 50 progetti e i filtri rimangono attivi anche dopo che hai lasciato la pagina o disconnesso da Workfront.
 
@@ -138,7 +138,7 @@ Per scoprire come ottenere i dati migliori per questa visualizzazione, consulta 
 
    ![](assets/activity-by-team-activity-pop-up-350x155.png)
 
-1. (Facoltativo) Per esportare i dati della visualizzazione, fai clic sull’icona Esporta ![](assets/export.png) nell’angolo in alto a destra della visualizzazione, seleziona il formato di esportazione:
+1. (Facoltativo) Per esportare i dati di visualizzazione, fai clic sull&#39;icona Esporta ![](assets/export.png) nell&#39;angolo in alto a destra della visualizzazione, quindi seleziona il formato di esportazione:
 
    * **Grafico (PNG)**
    * **Tabella dati (XSLX)**

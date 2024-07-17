@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: manage-projects
 title: Esportare un progetto in un progetto Microsoft
-description: Puoi esportare i progetti Adobe Workfront in un progetto Microsoft.
+description: Puoi esportare i progetti Adobe Workfront in Microsoft Project.
 author: Alina
 feature: Work Management
 exl-id: 3f0f3644-a763-4b72-a93a-85af8626b5b3
@@ -15,15 +15,14 @@ ht-degree: 0%
 
 # Esportare un progetto in un progetto Microsoft
 
-Puoi esportare i progetti Adobe Workfront in un progetto Microsoft. 
+Puoi esportare i progetti Adobe Workfront in Microsoft Project. 
 
 >[!IMPORTANT]
 >
->* Non tutti i campi Workfront vengono trasferiti nel file di progetto Microsoft.\
-   >  Per ulteriori informazioni sulla compatibilità dei campi tra Workfront e Microsoft Project, consulta l’articolo [Mappatura dei campi del progetto Microsoft su progetti Adobe Workfront](../../../manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md).
->* È consigliabile limitare il numero di volte in cui si trasferiscono i progetti da un’applicazione all’altra. 
+>* Non tutti i campi di Workfront vengono trasferiti nel file di progetto di Microsoft.\
+>  Per ulteriori informazioni sulla compatibilità dei campi tra Workfront e Microsoft Project, vedere l&#39;articolo [Mappatura dei campi di Microsoft Project ai progetti Adobe Workfront](../../../manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md).
+>* È consigliabile limitare il numero di trasferimenti di progetti da un&#39;applicazione all&#39;altra. 
 >
-
 
 ## Requisiti di accesso
 
@@ -63,42 +62,42 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Revisione o superiore</p> </td> 
+   <td> <p>Revisione o successiva</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Visualizzare o accedere in modo più rapido ai progetti</p> <p><b>NOTA</b>
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Accesso ai progetti di visualizzazione o superiore</p> <p><b>NOTA</b>
 
-Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni sull&#39;accesso ai progetti, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Concedere l’accesso ai progetti</a>. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>. </p> </td>
+Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni sull&#39;accesso ai progetti, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Concedere l&#39;accesso ai progetti</a>. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>. </p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p> Visualizza o autorizzazioni superiori per il progetto</p> <p>Per informazioni sulle autorizzazioni del progetto, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Condivisione di un progetto in Adobe Workfront</a>.</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p> Visualizza o autorizzazioni superiori per il progetto</p> <p>Per informazioni sulle autorizzazioni del progetto, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Condividere un progetto in Adobe Workfront</a>.</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
-## Esportare un progetto da Workfront a un progetto Microsoft
+## Esportare un progetto da Workfront a Microsoft Project
 
-Puoi esportare un progetto da Workfront dalla pagina del progetto oppure da un elenco o da un rapporto di progetto.
+Puoi esportare un progetto da Workfront dalla pagina del progetto o da un elenco o rapporto di progetto.
 
-1. Vai al progetto da esportare e fai clic sul pulsante **Altro** icona ![](assets/qs-more-menu.png) a destra del nome del progetto
+1. Vai al progetto da esportare e fai clic sull&#39;icona **Altro** ![](assets/qs-more-menu.png) a destra del nome del progetto
 
    ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    Oppure
 
-   Vai a un elenco o a un rapporto di progetto e seleziona un progetto, quindi fai clic sull’icona Altro ![](assets/qs-more-menu.png) in cima all&#39;elenco.
+   Passare a un elenco o report di progetti e selezionare un progetto, quindi fare clic sull&#39;icona Altro ![](assets/qs-more-menu.png) nella parte superiore dell&#39;elenco.
 
    ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
-1. Fai clic su **Esporta progetto MS**.
+1. Fare clic su **Esporta MS Project**.
 
    Il progetto viene scaricato come file XML nel computer ed è pronto per essere importato in Microsoft Project. 

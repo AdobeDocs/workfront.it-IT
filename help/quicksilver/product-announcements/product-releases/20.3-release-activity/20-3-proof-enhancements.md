@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti apportati all’ambiente di produzione con la versione 20.3. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana del 10 agosto 2020.
 
-Per un elenco di tutte le modifiche disponibili con la versione 20.3, consulta [Panoramica sulla versione 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 20.3, consulta la [panoramica sulla versione 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Maggiore visibilità tra la scheda Aggiornamenti e i commenti della bozza
 
@@ -31,7 +31,7 @@ Nell’area documenti sono disponibili i seguenti miglioramenti:
 * Quando nella scheda Aggiorna viene visualizzato un commento della bozza, viene visualizzato un nuovo pulsante Reply in Proof (Rispondi in bozza) che consente di accedere al visualizzatore di bozze per rispondere.
 * Quando un commento della bozza viene contrassegnato con un’azione all’interno del visualizzatore di bozze, l’azione viene visualizzata nella scheda Aggiorna.
 
-Per ulteriori informazioni, consulta [Aggiungere un aggiornamento a un documento](../../../documents/managing-documents/add-update-documents.md).
+Per ulteriori informazioni, vedere [Aggiungere un aggiornamento a un documento](../../../documents/managing-documents/add-update-documents.md).
 
 ## Aggiornare i campi personalizzati di verifica in Dettagli documento
 
@@ -39,11 +39,11 @@ Per ulteriori informazioni, consulta [Aggiungere un aggiornamento a un documento
 >
 >Questa funzione è disponibile solo nella nuova esperienza Adobe Workfront
 
-Per semplificare il processo di verifica, è ora possibile visualizzare e modificare i campi personalizzati impostati in Workfront Proof nella pagina Dettagli documento di Workfront, se incluso nel flusso di lavoro della bozza.
+Per semplificare il processo di verifica, è ora possibile visualizzare e modificare i campi personalizzati impostati in Workfront Proof nella pagina Dettagli documento in Workfront, se si è inclusi nel flusso di lavoro della bozza.
 
 In precedenza era possibile visualizzare solo i campi personalizzati nel visualizzatore di bozze.
 
-Per ulteriori informazioni, consulta [Panoramica dei dettagli del documento](../../../documents/managing-documents/document-details-overview.md).
+Per ulteriori informazioni, vedere [Panoramica dei dettagli del documento](../../../documents/managing-documents/document-details-overview.md).
 
 ## Nuovo aspetto per la barra degli strumenti Documento
 
@@ -61,5 +61,5 @@ Per semplificare l’impostazione di un flusso di lavoro quando si trasforma un 
 
 In precedenza, era necessario generare la bozza, quindi passare all’area Flusso di lavoro bozza per impostare il flusso di lavoro.
 
-Per ulteriori informazioni, consulta [Creare una bozza per un documento](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md).
+Per ulteriori informazioni, vedere [Creare una bozza per un documento](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md).
 

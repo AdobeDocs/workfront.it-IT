@@ -9,7 +9,7 @@ exl-id: 98779b67-b975-4501-8426-63e255b1d7df
 source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
 source-wordcount: '1033'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 In qualità di responsabile delle risorse, puoi utilizzare il Bilanciatore dei carichi di lavoro di Adobe Workfront per visualizzare gli elementi di lavoro non ancora assegnati agli utenti e assegnare loro tali elementi.
 
-Per informazioni generali sul Bilanciatore dei carichi di lavoro, vedi [Panoramica del Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+Per informazioni generali sul Bilanciatore dei carichi di lavoro, consulta [Panoramica sul Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 È possibile assegnare elementi di lavoro (attività e problemi) a utenti in altre aree di Workfront. Tuttavia, utilizzando il Bilanciatore dei carichi di lavoro è possibile comprendere facilmente la disponibilità degli utenti e vedere chiaramente tutti gli altri elementi a cui sono assegnati prima di assegnare loro più lavoro.
 
@@ -41,18 +41,18 @@ Workfront utilizza le seguenti informazioni per calcolare la capacità dell’ut
 
      In questo modo viene calcolata la disponibilità giornaliera e settimanale dell’utente. Eventuali eccezioni alla pianificazione selezionate si riflettono nella capacità dell’utente nel Bilanciatore dei carichi di lavoro.
 
-  Per ulteriori informazioni, consulta [Configurare le preferenze di Gestione risorse](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+  Per ulteriori informazioni, vedere [Configurare le preferenze di Gestione risorse](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-  Per informazioni sulle pianificazioni, consulta [Creare una pianificazione](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+  Per informazioni sulle pianificazioni, vedere [Creare una pianificazione](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
 * Indisponibilità dell&#39;utente. Indica i giorni previsti per il decollo dell&#39;utente.
 
-  Per ulteriori informazioni, consulta [Configurare l’indisponibilità personale](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+  Per ulteriori informazioni, vedere [Configurare l&#39;indisponibilità personale](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
 * Il tempo di lavoro dell’utente. Indica la percentuale di tempo FTE che l&#39;utente è disponibile per eseguire il lavoro effettivo relativo al progetto, esclusi i costi comuni. Impostare il valore Tempo di lavoro su 1 per indicare che l&#39;utente è disponibile per il lavoro correlato al progetto per l&#39;intero equivalente a tempo pieno.
 
 
-## Assegna lavoro nel Bilanciatore dei carichi di lavoro
+## Assegnare il lavoro nel Bilanciatore del carico di lavoro
 
 È possibile assegnare elementi di lavoro non ancora assegnati a un utente o riassegnare elementi assegnati a utenti nel Bilanciatore dei carichi di lavoro.
 
@@ -72,11 +72,11 @@ Workfront utilizza le seguenti informazioni per calcolare la capacità dell’ut
 
   Per ulteriori informazioni, consulta [Assegnare il lavoro in blocco utilizzando il Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
-Per informazioni sulla revoca dell’assegnazione del lavoro, consulta [Revoca assegnazione lavoro nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
+Per informazioni sulla rimozione dell&#39;assegnazione del lavoro, vedere [Annullamento dell&#39;assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
 
 ## Aree di assegnazione nel Bilanciatore dei carichi di lavoro
 
-È possibile assegnare il lavoro agli utenti utilizzando il Bilanciatore dei carichi di lavoro nell&#39;area Risorse, a livello di progetto o di team. Per ulteriori informazioni sulla posizione del Bilanciatore dei carichi di lavoro in Workfront, consulta [Individuare il Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+È possibile assegnare il lavoro agli utenti utilizzando il Bilanciatore dei carichi di lavoro nell&#39;area Risorse, a livello di progetto o di team. Per ulteriori informazioni sulla posizione del Bilanciatore dei carichi di lavoro in Workfront, vedere [Individuare il Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 Nel Bilanciatore dei carichi di lavoro sono disponibili due aree in cui è possibile visualizzare gli elementi di lavoro:
 
@@ -142,9 +142,9 @@ Nella tabella seguente vengono descritti gli elementi da visualizzare in ogni ar
  </tbody> 
 </table>
 
-&#42;Quando un elemento di lavoro viene assegnato a un utente e a un ruolo, viene visualizzato nell’area Lavoro non assegnato solo quando il ruolo è l’assegnatario principale.
+&#42;Quando un elemento di lavoro viene assegnato a un utente e a un ruolo, viene visualizzato nell&#39;area Lavoro non assegnato solo quando il ruolo è l&#39;assegnatario principale.
 
-&#42;&#42;Quando un elemento di lavoro viene assegnato a un utente e a un’altra entità, viene visualizzato nell’area Lavoro assegnato solo quando l’utente è l’assegnatario principale.
+&#42;&#42;Quando un elemento di lavoro viene assegnato a un utente e a un&#39;altra entità, viene visualizzato nell&#39;area Lavoro assegnato solo quando l&#39;utente è l&#39;assegnatario principale.
 
 Per ulteriori informazioni sulle aree Non assegnato e Assegnato del Bilanciatore dei carichi di lavoro, vedi [Navigare nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
@@ -152,7 +152,7 @@ Per ulteriori informazioni sulle aree Non assegnato e Assegnato del Bilanciatore
 
 Quando si assegnano più risorse a un elemento di lavoro, tenere presente quanto segue:
 
-* Gli utenti possono avere più di una mansione associata al loro profilo. Per informazioni sull&#39;associazione degli utenti ai ruoli, vedere [Modificare il profilo di un utente](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* Gli utenti possono avere più di una mansione associata al loro profilo. Per informazioni sull&#39;associazione degli utenti alle mansioni, vedere [Modificare il profilo di un utente](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * Le attività o i problemi vengono in genere prima assegnati a una o più mansioni o a un team. Quando i progetti sono pronti per essere avviati, potrebbe essere necessario assegnarli anche agli utenti.\
   Se un’attività o un problema è assegnato a uno o più ruoli e successivamente si assegna anche un utente, Adobe Workfront decide quale ruolo associare all’utente aggiuntivo (se presente) in base alle seguenti regole:

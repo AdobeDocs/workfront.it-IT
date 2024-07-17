@@ -1,9 +1,10 @@
 ---
 title: App mobili Workfront Proof
-description: Scopri come utilizzare l’app mobile Workfront Proof.
+description: Scopri come utilizzare l’app mobile di Workfront Proof.
 hide: true
 hidefromtoc: true
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+exl-id: 8a868212-cf8e-4752-8aa6-ed74f10f5cea
+source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alle funzionalità del prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Bozza](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
 Questa sezione contiene i seguenti articoli:
 

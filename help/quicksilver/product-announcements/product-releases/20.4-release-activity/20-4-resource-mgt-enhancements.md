@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti alla gestione delle risorse apportati con la versione 20.4 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione nella settimana del 9 novembre 2020.
 
-Per un elenco di tutte le modifiche disponibili con la versione 20.4, consulta [Panoramica sulla versione 20.4](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 20.4, consulta la [panoramica sulla versione 20.4](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
 
 ## Pianificare il lavoro utilizzando l&#39;Impegno di lavoro invece delle Ore pianificate
 
@@ -30,21 +30,21 @@ Con questa nuova funzione sono ora disponibili i seguenti miglioramenti:
 * Disattiva questa impostazione utilizzando un modello di layout per gli utenti che preferiscono continuare a utilizzare le ore pianificate.
 * Visualizza il valore di questo nuovo campo in un elenco di attività o in un report.
 
-Per informazioni sull&#39;impegno di lavoro, vedere [Panoramica sull’impegno di lavoro](../../../manage-work/tasks/task-information/work-effort.md).
+Per informazioni sull&#39;impegno di lavoro, vedere [Panoramica sull&#39;impegno di lavoro](../../../manage-work/tasks/task-information/work-effort.md).
 
-Questa funzione è ora inclusa nel [Planner - Nozioni di base, Parte 2 percorso di apprendimento](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-20Y0z000000bm79EAA) su Workfront One.
+Questa funzionalità è ora inclusa in [Planner Fundamentals, Part 2 learning path](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-20Y0z000000bm79EAA) su Workfront One.
 
 ## Colori basati sullo stato del progetto per gli elementi di lavoro nel Bilanciatore dei carichi di lavoro
 
 Per una migliore visibilità e una maggiore personalizzazione dell’esperienza nel Bilanciatore dei carichi di lavoro, ora puoi modificare i colori dei progetti e dei relativi elementi di lavoro in modo che corrispondano allo stato dei progetti. I colori corrispondono agli stati del progetto a livello di gruppo o di sistema. I colori visualizzati possono corrispondere sia allo stato del progetto di sistema che a quello personalizzato.
 
-Per informazioni sulla personalizzazione della visualizzazione nel Bilanciatore dei carichi di lavoro, vedi [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Per informazioni sulla personalizzazione della visualizzazione nel Bilanciatore dei carichi di lavoro, vedere [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Regolare l’allocazione degli utenti utilizzando i valori percentuali nel Bilanciatore dei carichi di lavoro
 
 Ora puoi gestire le allocazioni degli utenti nel Bilanciatore dei carichi di lavoro utilizzando le percentuali anziché le ore.
 
-Per informazioni sulla gestione delle allocazioni nel Bilanciatore dei carichi di lavoro, consulta [Gestire le allocazioni utente nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Per informazioni sulla gestione delle allocazioni nel Bilanciatore dei carichi di lavoro, vedere [Gestione delle allocazioni utente nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 ## Mostrare o nascondere il lavoro completato nel Bilanciatore dei carichi di lavoro
 
@@ -52,7 +52,7 @@ Una nuova impostazione ora consente di mostrare o nascondere gli elementi di lav
 
 Prima di questo miglioramento, gli elementi di lavoro completati venivano sempre visualizzati nel Bilanciatore dei carichi di lavoro.
 
-Per ulteriori informazioni sulla regolazione delle impostazioni nel Bilanciatore dei carichi di lavoro, consulta [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Per ulteriori informazioni sulla regolazione delle impostazioni nel Bilanciatore dei carichi di lavoro, vedi [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Miglioramenti a livello di usabilità nel Bilanciatore dei carichi di lavoro
 
@@ -68,19 +68,19 @@ Per garantire un’esperienza semplificata e di facile utilizzo quando gestisci 
 * È possibile accedere alle funzioni di assegnazione con una scelta rapida da tastiera. In precedenza, era disponibile solo dal menu Altro.
 * È possibile caricare tutti gli elementi rimanenti con il nome di un utente invece dei 20 elementi seguenti facendo clic su Carica altro.
 
-Per ulteriori informazioni sulla navigazione nel Bilanciatore dei carichi di lavoro, consulta [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Per ulteriori informazioni sulla navigazione nel Bilanciatore dei carichi di lavoro, vedere [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Grafico di allocazione utente nel Bilanciatore dei carichi di lavoro
 
 Per consentire una rappresentazione visiva di alto livello dell’allocazione degli utenti in un determinato intervallo di tempo, una nuova impostazione ora abilita una visualizzazione grafico per la modalità di visualizzazione delle allocazioni nel Bilanciatore dei carichi di lavoro. Abilitando questa impostazione, l&#39;allocazione degli utenti viene visualizzata in un grafico a linee che indica le sovrassegnazioni in blocchi di colore rosso e le sottoallocazioni in blu.
 
-Per ulteriori informazioni sulla configurazione delle impostazioni nel Bilanciatore dei carichi di lavoro, consulta [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Per ulteriori informazioni sulla configurazione delle impostazioni nel Bilanciatore dei carichi di lavoro, vedere [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Visualizzare il lavoro completato nel Bilanciatore dei carichi di lavoro
 
 Per consentire di identificare facilmente il lavoro già completato e gestire correttamente le assegnazioni degli utenti, è stato attivato un indicatore visivo nel Bilanciatore dei carichi di lavoro che mostra quando gli elementi di un intervallo di tempo selezionato sono stati completati. È ora possibile visualizzare un segno di spunta verde per le attività, i problemi quando vengono completati. Il progetto visualizza inoltre il segno di spunta verde quando sullo schermo sono visualizzati elementi di lavoro completati durante l&#39;intervallo di tempo.
 
-Per informazioni sulla visualizzazione delle informazioni nel Bilanciatore dei carichi di lavoro, consulta [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Per informazioni sulla visualizzazione delle informazioni nel Bilanciatore dei carichi di lavoro, vedere [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Nuovo filtro predefinito per l’area Lavoro assegnato nel Bilanciatore dei carichi di lavoro
 
@@ -88,7 +88,7 @@ Il filtro Predefinito per l’area Lavoro assegnato nel Bilanciatore dei carichi
 
 Prima di questo miglioramento, in quest’area venivano visualizzati tutti gli utenti a cui avevi accesso.
 
-Per informazioni sull’utilizzo dei filtri nel Bilanciatore dei carichi di lavoro, consulta [Gestire i filtri nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+Per informazioni sull&#39;utilizzo dei filtri nel Bilanciatore dei carichi di lavoro, vedere [Gestione dei filtri nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
 ## Nuova icona per passare da valori di ore a valori di percentuale o tempo allocato e rimanente nel Bilanciatore dei carichi di lavoro
 
@@ -96,11 +96,11 @@ Per informazioni sull’utilizzo dei filtri nel Bilanciatore dei carichi di lavo
 
 Questo miglioramento elimina i clic e rende più semplice ed efficiente la navigazione nel Bilanciatore dei carichi di lavoro.
 
-Per informazioni sulla gestione delle impostazioni per il Bilanciatore dei carichi di lavoro, consulta [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Per informazioni sulla gestione delle impostazioni per il Bilanciatore dei carichi di lavoro, vedere [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Un nuovo filtro integrato per il Bilanciatore dei carichi di lavoro: Utenti sui progetti
 
 Per rendere più efficiente l’esperienza di filtro nel Bilanciatore dei carichi di lavoro, è stato aggiunto un nuovo filtro integrato nell’area Lavoro assegnato. Ora puoi applicare il filtro Utenti su progetti, che mostra gli utenti assegnati alle attività e ai problemi nei progetti specificati.
 
-Per informazioni sull’utilizzo dei filtri nel Bilanciatore dei carichi di lavoro, consulta [Filtrare le informazioni nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+Per informazioni sull&#39;utilizzo dei filtri nel Bilanciatore dei carichi di lavoro, vedere [Informazioni sui filtri nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 

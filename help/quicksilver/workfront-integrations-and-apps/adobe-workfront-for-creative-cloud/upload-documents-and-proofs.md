@@ -2,21 +2,21 @@
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
-title: Carica documenti e bozze dal [!DNL Adobe Workfront plugin] al [!DNL Creative Cloud]
-description: Carica documenti e bozze dal [!DNL Adobe Workfront plugin] al [!DNL Creative Cloud]
+title: Carica documenti e bozze da  [!DNL Adobe Workfront plugin]  a  [!DNL Creative Cloud]
+description: Carica documenti e bozze da  [!DNL Adobe Workfront plugin]  a  [!DNL Creative Cloud]
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 hide: true
 hidefromtoc: true
-source-git-commit: 67952bf88a782595e13e559bfbc14ce1c622d432
+exl-id: 88870441-8895-477c-9409-f2c33654545a
+source-git-commit: 0ca335bf0db934d23f607d3f8ce7cfb67e629053
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
 
 ---
 
-
-# Carica documenti e bozze dal [!DNL Adobe Workfront plugin] al [!DNL Creative Cloud]
+# Carica documenti e bozze da [!DNL Adobe Workfront plugin] a [!DNL Creative Cloud]
 
 Puoi caricare i tuoi progetti come documenti per una rapida revisione e approvazione o semplicemente per archiviarli in [!DNL Adobe Workfront].
 
@@ -25,45 +25,45 @@ Puoi caricare i tuoi progetti come documenti per una rapida revisione e approvaz
 >Il caricamento di documenti e bozze non è attualmente supportato in Premiere Pro e After Effects.
 
 
-## Limiti dei documenti
+## Limitazioni del documento
 
-In questa sezione sono illustrate le limitazioni note per i documenti [!DNL Workfront for Adobe Creative Cloud plugins].
+Questa sezione descrive le limitazioni note del documento in [!DNL Workfront for Adobe Creative Cloud plugins].
 
-### Le nuove versioni del documento accettano un solo file per il caricamento
+### Le nuove versioni dei documenti accettano un solo file per il caricamento
 
-Perché [!DNL Workfront] i documenti non possono contenere più file. Per caricare nuove versioni dei documenti in Workfront è necessario disattivare alcune impostazioni.
+Poiché i documenti [!DNL Workfront] non possono contenere più file, è necessario disabilitare alcune impostazioni per caricare nuove versioni dei documenti in Workfront.
 
 >[!NOTE]
 >
->Se è necessario generare più file, è invece possibile creare una bozza. La nuova bozza non verrà associata al documento originale.
+>Se devi generare più file, puoi invece creare una bozza. La nuova bozza non verrà associata al documento originale.
 
 
 
-Per ripristinare il passaggio a un singolo file in [!DNL InDesign]:
+Per tornare a un singolo file in [!DNL InDesign]:
 
-1. Apri **Imposta le impostazioni del file di esportazione** finestra di dialogo.
+1. Aprire la finestra di dialogo **Imposta impostazioni file di esportazione**.
 
    ![](assets/file-export-settings.png)
 
-1. Trova il tipo di risorsa da esportare e regola le impostazioni come descritto di seguito:
+1. Trova il Tipo di risorsa da esportare e regola le impostazioni come descritto di seguito:
 
    <table>
     <tr>
     <td><strong>PDF e PDF-PRINT</strong>
     </td>
-    <td>Deseleziona <strong>Creare file PDF separati</strong>.
+    <td>Deselezionare <strong>Crea File PDF Separati</strong>.
     </td>
     </tr>
     <tr>
     <td><strong>EPS</strong>
     </td>
-    <td>Seleziona <strong>Intervalli</strong> e digitare un numero di pagina singolo. 
+    <td>Seleziona <strong>Intervalli</strong> e digita un numero di pagina. 
     <p>
-    <strong>Nota</strong>: Se desideri caricare il documento completo, devi creare una bozza. 
+    <strong>Nota</strong>: se desideri caricare il documento completo, devi creare una bozza. 
     </td>
     </tr>
     <tr>
-    <td><strong>EPUB e EPUB-FIXED</strong>
+    <td><strong>EPUB e EPUB fisso</strong>
     </td>
     <td>Non sono necessari adeguamenti.
     </td>
@@ -75,19 +75,19 @@ Per ripristinare il passaggio a un singolo file in [!DNL InDesign]:
     </td>
     </tr>
     <tr>
-    <td><strong>JPG</strong>
+    <td><strong>JPG-</strong>
     </td>
-    <td>Seleziona <strong>Intervalli</strong> e digitare un numero di pagina singolo. 
+    <td>Seleziona <strong>Intervalli</strong> e digita un numero di pagina. 
     <p>
-    <strong>Nota</strong>: Se desideri caricare il documento completo, devi creare una bozza. 
+    <strong>Nota</strong>: se desideri caricare il documento completo, devi creare una bozza. 
     </td>
     </tr>
     <tr>
     <td><strong>PNG</strong>
     </td>
-    <td>Seleziona <strong>Intervalli</strong> e digitare un numero di pagina singolo. 
+    <td>Seleziona <strong>Intervalli</strong> e digita un numero di pagina. 
     <p>
-    <strong>Nota</strong>: Se desideri caricare il documento completo, devi creare una bozza. 
+    <strong>Nota</strong>: se desideri caricare il documento completo, devi creare una bozza. 
     </td>
     </tr>
     <tr>

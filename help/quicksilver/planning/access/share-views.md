@@ -85,19 +85,19 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale. </p> <p>Per informazioni, consulta <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica degli accessi</a>. </p> 
+   <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale. </p> <p>Per informazioni, vedere <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica dell'accesso</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
-*Per informazioni, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 
 ## Condivisione delle autorizzazioni per una visualizzazione <!--internally-->
 
-Puoi condividere le viste create o le viste per le quali disponi delle autorizzazioni di gestione <!--with users or groups in Workfront-->.
+È possibile condividere le visualizzazioni create o le visualizzazioni per le quali si dispone delle autorizzazioni di gestione per <!--with users or groups in Workfront-->.
 
 >[!NOTE]
 >
@@ -111,7 +111,7 @@ Puoi condividere le viste create o le viste per le quali disponi delle autorizza
 
    Verrà aperta la pagina del tipo di record.
 
-1. Dalla scheda Visualizza, passa il puntatore del mouse sulla visualizzazione da condividere e fai clic sul pulsante **Altro** menu ![](assets/more-menu.png) a destra del nome della visualizzazione, quindi fai clic su **Condividi**.
+1. Dalla scheda Visualizza, passa il puntatore del mouse sulla visualizzazione da condividere e fai clic sul menu **Altro** ![](assets/more-menu.png) a destra del nome della visualizzazione, quindi fai clic su **Condividi**.
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
@@ -119,10 +119,10 @@ Puoi condividere le viste create o le viste per le quali disponi delle autorizza
 
 1. (Facoltativo) Per condividere la vista, selezionate una delle seguenti opzioni:
 
-   * **Solo gli invitati possono accedere**: è necessario specificare gli utenti o i gruppi con cui si desidera condividere la visualizzazione. Questa è l&#39;opzione predefinita.
-   * **Tutti nell&#39;area di lavoro possono visualizzare**: tutti gli utenti che dispongono di autorizzazioni View (Visualizzazione) o di livello superiore per le aree di lavoro possono accedere alla visualizzazione.
+   * **L&#39;accesso è consentito solo alle persone invitate**: è necessario specificare gli utenti o i gruppi con cui si desidera condividere la visualizzazione. Questa è l&#39;opzione predefinita.
+   * **Tutti gli utenti nell&#39;area di lavoro possono visualizzare**: tutti gli utenti che dispongono di autorizzazioni di visualizzazione o di livello superiore per le aree di lavoro possono accedere alla visualizzazione.
 
-1. In **Concedi l’accesso in visualizzazione a** , inizia a digitare il nome di un utente o di un gruppo, quindi fai clic su di esso quando viene visualizzato nell’elenco.  <!--***********replace screen shot below when public sharing is released***********-->
+1. Nel campo **Concedi l&#39;accesso in visualizzazione a**, inizia a digitare il nome di un utente o di un gruppo, quindi fai clic su di esso quando viene visualizzato nell&#39;elenco.  <!--***********replace screen shot below when public sharing is released***********-->
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 
@@ -130,17 +130,17 @@ Puoi condividere le viste create o le viste per le quali disponi delle autorizza
    * Visualizza
    * Gestire
 
-     Per informazioni sui livelli di autorizzazione e sulle azioni che gli utenti possono eseguire per ciascun livello, consulta [Panoramica delle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+     Per informazioni sui livelli di autorizzazione e sulle azioni che gli utenti possono eseguire per ogni livello, vedere [Panoramica sulle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
      Gli amministratori di sistema ricevono sempre le autorizzazioni di gestione per le visualizzazioni condivise con loro.
 
-1. Clic **Copia collegamento** per copiare negli Appunti un collegamento alla visualizzazione.
+1. Fai clic su **Copia collegamento** per copiare un collegamento negli Appunti.
 1. Condividi il collegamento copiato con altri utenti. Gli utenti che ricevono il collegamento devono essere utenti attivi e accedere a Workfront per poter accedere alla pagina del tipo di record e visualizzarla nella visualizzazione selezionata.
 1. Fai clic su **Salva**.
 
    >[!TIP]
    >
-   >   Le visualizzazioni condivise con te hanno un indicatore di persone ![](assets/view-shared-with-others-people-icon.png) accanto all’icona visualizza. Le visualizzazioni senza l&#39;indicatore persone sono visualizzazioni create dall&#39;utente.
+   >   Le visualizzazioni condivise con te presentano un indicatore di persone ![](assets/view-shared-with-others-people-icon.png) accanto all&#39;icona della visualizzazione. Le visualizzazioni senza l&#39;indicatore persone sono visualizzazioni create dall&#39;utente.
 
 
 
@@ -189,9 +189,9 @@ To share a view publicly in Workfront Planning:
 {{step1-to-planning}}
 
 1. Aprire l&#39;area di lavoro di cui si desidera interrompere la condivisione della visualizzazione, quindi fare clic su una scheda del tipo di record. Verrà aperta la pagina del tipo di record.
-1. Passa il puntatore del mouse sul nome della scheda della visualizzazione da cui vuoi rimuovere la condivisione e fai clic sul pulsante **Altro** menu ![](assets/more-menu.png), quindi fai clic su **Condividi**.
-1. Trova l’utente o il gruppo da rimuovere, quindi fai clic su **Rimuovi** nel menu a discesa autorizzazioni a destra del nome dell’utente o del gruppo.
-1. Clic **Salva**.
+1. Passa il puntatore del mouse sul nome della scheda della visualizzazione da cui vuoi rimuovere la condivisione e fai clic sul menu **Altro** ![](assets/more-menu.png), quindi fai clic su **Condividi**.
+1. Individuare l&#39;utente o il gruppo da rimuovere, quindi fare clic su **Rimuovi** nel menu a discesa delle autorizzazioni a destra del nome dell&#39;utente o del gruppo.
+1. Fai clic su **Salva**.
 L&#39;utente o gli utenti che appartengono al gruppo rimosso non hanno più accesso alla visualizzazione. Non viene inviata alcuna notifica agli utenti rimossi dall’accesso alla vista per segnalare che hanno perso l’accesso.
 
 <!--Replace the above instructions with the following when public sharing is released: 

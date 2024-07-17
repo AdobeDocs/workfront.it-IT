@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: proofing-overview
-title: Revisione dei contenuti non interattivi nel visualizzatore di correzione desktop
-description: Sebbene il visualizzatore per correzione desktop sia progettato per la revisione dei contenuti interattivi, è anche possibile utilizzarlo per la revisione dei contenuti statici e video. L’amministratore di Adobe Workfront può configurare il visualizzatore per correzione desktop in modo che si apra ogni volta che si avvia una bozza statica o video.
+title: Esaminare i contenuti non interattivi nel Visualizzatore bozze desktop
+description: Sebbene il Visualizzatore bozze desktop sia progettato per la revisione dei contenuti interattivi, è possibile utilizzarlo anche per rivedere i contenuti statici e video. L’amministratore di Adobe Workfront può configurare il Visualizzatore bozze desktop in modo che venga aperto ogni volta che si avvia una bozza statica o video.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c1ee9c6e-0805-432a-8846-92ae17ec5371
@@ -13,8 +13,8 @@ ht-degree: 0%
 
 ---
 
-# Revisione dei contenuti non interattivi nel visualizzatore di correzione desktop
+# Esaminare i contenuti non interattivi nel Visualizzatore bozze desktop
 
-Sebbene il visualizzatore per correzione desktop sia progettato per la revisione dei contenuti interattivi, è anche possibile utilizzarlo per la revisione dei contenuti statici e video. L’amministratore di Adobe Workfront può configurare il visualizzatore per correzione desktop in modo che si apra ogni volta che si avvia una bozza statica o video.
+Sebbene il Visualizzatore bozze desktop sia progettato per la revisione dei contenuti interattivi, è possibile utilizzarlo anche per rivedere i contenuti statici e video. L’amministratore di Adobe Workfront può configurare il Visualizzatore bozze desktop in modo che venga aperto ogni volta che si avvia una bozza statica o video.
 
-Una volta aperta una bozza non interattiva nel visualizzatore per correzione desktop, funziona allo stesso modo del visualizzatore per correzione web. Per informazioni su questa funzionalità, consulta [Rivedi una bozza](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md).
+Una volta aperta una bozza non interattiva nel Visualizzatore bozze desktop, funziona come il Visualizzatore bozze web. Se hai bisogno di informazioni su questa funzionalità, consulta [Rivedere una bozza](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md).

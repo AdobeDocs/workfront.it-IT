@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Versione definitiva Beta 2018.3
-description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione finale della versione beta 2018.3. La funzionalità sarà disponibile nell’ambiente di anteprima il 10 ottobre 2018. Sarà disponibile nell’ambiente di produzione a novembre 2018.
+title: Beta Final 2018.3
+description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione finale di Beta 2018.3. La funzionalità sarà disponibile nell’ambiente di anteprima il 10 ottobre 2018. Sarà disponibile nell’ambiente di produzione a novembre 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,24 +14,24 @@ ht-degree: 0%
 
 ---
 
-# Versione definitiva Beta 2018.3
+# Beta Final 2018.3
 
-Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione finale della versione beta 2018.3. La funzionalità sarà disponibile nell’ambiente di anteprima il 10 ottobre 2018. Sarà disponibile nell’ambiente di produzione a novembre 2018.
+Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione finale di Beta 2018.3. La funzionalità sarà disponibile nell’ambiente di anteprima il 10 ottobre 2018. Sarà disponibile nell’ambiente di produzione a novembre 2018.
 
 >[!NOTE]
 >
 > La funzionalità descritta in questa pagina è soggetta a modifiche prima della disponibilità nell’ambiente di produzione.
 
-Per un elenco di tutte le modifiche apportate nel 2018.3, consulta  [Panoramica sull’attività della versione 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Per un elenco di tutte le modifiche apportate nel 2018.3, consulta  Panoramica sull&#39;attività della versione di [2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
-La versione finale Beta 2018.3 contiene i seguenti miglioramenti:
+La versione finale 2018.3 di Beta contiene i seguenti miglioramenti:
 
 * [Sincronizzazione bidirezionale tra Calendario predefinito e Calendario di Outlook](#two-way-sync-between-home-calendar-and-outlook-calendar)
-* [Aggiornamenti per l’aggiunta di nuove attività nella Home](#updates-for-adding-new-tasks-in-home)
-* [Strumenti di markup bozza ora espansi per impostazione predefinita](#proofing-markup-tools-now-expanded-by-default)
-* [Integrazione dei documenti di Microsoft OneDrive](#microsoft-onedrive-document-integration)
-* [Integrazione di Workfront per Microsoft Teams](#workfront-for-microsoft-teams-integration)
-* [Aggiornamento dell&#39;integrazione di Workfront per Adobe Creative Cloud](#updated-workfront-for-adobe-creative-cloud-integration)
+* [Aggiornamenti per l&#39;aggiunta di nuove attività nella Home](#updates-for-adding-new-tasks-in-home)
+* [Strumenti di correzione per markup espansi per impostazione predefinita](#proofing-markup-tools-now-expanded-by-default)
+* [Integrazione documento Microsoft OneDrive](#microsoft-onedrive-document-integration)
+* Integrazione di [Workfront for Microsoft Teams](#workfront-for-microsoft-teams-integration)
+* [Aggiornamento di Workfront per l&#39;integrazione con Adobe Creative Cloud](#updated-workfront-for-adobe-creative-cloud-integration)
 * [Miglioramenti dell’app mobile di Workfront](#workfront-mobile-app-improvements)
 
 ## Sincronizzazione bidirezionale tra Calendario predefinito e Calendario di Outlook {#two-way-sync-between-home-calendar-and-outlook-calendar}
@@ -40,14 +40,14 @@ Quando si configura il Calendario predefinito per la sincronizzazione con il Cal
 
 In precedenza era possibile sincronizzare gli elementi solo dal Calendario di Outlook al Calendario predefinito.
 
-Per informazioni sulla configurazione del Calendario predefinito per la sincronizzazione con Outlook, vedere [Configurare le impostazioni di visualizzazione Calendario predefinito](../../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
+Per informazioni sulla configurazione del Calendario predefinito per la sincronizzazione con Outlook, vedere [Configurare le impostazioni di visualizzazione del Calendario predefinito](../../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
 
 ## Aggiornamenti per l’aggiunta di nuove attività nella Home {#updates-for-adding-new-tasks-in-home}
 
 * Ora puoi aggiornare la data di completamento pianificata su un’attività personale.
 * Ora puoi assegnare team e ruoli alle richieste e alle attività di progetto create nella Home.
 
-Per ulteriori informazioni sugli aggiornamenti di cui sopra, vedi  [Creare elementi di lavoro dall&#39;area Home](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+Per ulteriori informazioni sugli aggiornamenti di cui sopra, vedi  [Crea elementi di lavoro dall&#39;area Home](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 ## Strumenti di markup bozza ora espansi per impostazione predefinita {#proofing-markup-tools-now-expanded-by-default}
 
@@ -68,7 +68,7 @@ Prima di questo miglioramento, era possibile collegare a Workfront i seguenti pr
 * Dropbox
 * WebDAM
 
-Per informazioni sulle integrazioni dei documenti, consulta [Configurare le integrazioni dei documenti](../../../../administration-and-setup/configure-integrations/configure-document-integrations.md).
+Per informazioni sulle integrazioni dei documenti, vedere [Configurare le integrazioni dei documenti](../../../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 
 ## Integrazione di Workfront per Microsoft Teams {#workfront-for-microsoft-teams-integration}
 
@@ -86,7 +86,7 @@ L&#39;integrazione è disponibile senza alcun costo aggiuntivo per tutti i clien
 
 >[!NOTE]
 >
-> Alcune aree dell’integrazione descritte nel video seguente sono state modificate. Per informazioni più recenti su Workfront per i Microsoft Teams, vedi [[!DNL Adobe Workfront for Microsoft Teams]: indice dell’articolo](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md) sezione.
+> Alcune aree dell’integrazione descritte nel video seguente sono state modificate. Per informazioni aggiornate su Workfront per i Microsoft Teams, vedere la sezione [[!DNL Adobe Workfront for Microsoft Teams]: article index](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md).
 
 ## Aggiornamento dell&#39;integrazione di Workfront per Adobe Creative Cloud {#updated-workfront-for-adobe-creative-cloud-integration}
 
@@ -104,7 +104,7 @@ L&#39;integrazione è disponibile senza alcun costo aggiuntivo per tutti i clien
 
 ## Miglioramenti dell’app mobile di Workfront {#workfront-mobile-app-improvements}
 
-Le seguenti nuove funzioni verranno rilasciate negli app store iOS e Android al momento della versione di produzione 2018.3:
+Le seguenti nuove funzioni verranno rilasciate negli app store di iOS e Android al momento della versione di produzione 2018.3:
 
 * Esperienza del primo utente
 
@@ -137,7 +137,7 @@ Le seguenti nuove funzioni verranno rilasciate negli app store iOS e Android al 
 
 * Supporto per l’orientamento orizzontale per i dispositivi iOS
 
-  Ora supportiamo completamente sia gli orientamenti orizzontali che quelli verticali per le app mobili iOS e Android, ad eccezione delle seguenti dimensioni di iPhone:
+  Sono ora supportati sia gli orientamenti in orizzontale che in verticale per le app mobili iOS e Android, ad eccezione delle seguenti dimensioni di iPhone:
 
    * IPHONE 5
    * iPhone 5S

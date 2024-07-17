@@ -15,15 +15,15 @@ ht-degree: 0%
 
 ---
 
-# Indirizzi IP per l&#39;accesso [!DNL Adobe Workfront Fusion]
+# Indirizzi IP per accedere a [!DNL Adobe Workfront Fusion]
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] richiede un [!DNL Adobe Workfront Fusion] licenza oltre a un [!DNL Adobe Workfront license].
+>[!DNL Adobe Workfront Fusion] richiede una licenza [!DNL Adobe Workfront Fusion] oltre a [!DNL Adobe Workfront license].
 
-Se il firewall o il server di posta è configurato in modo da consentire l&#39;accesso solo a determinati fornitori, è necessario aggiungere determinati indirizzi IP al relativo inserisco nell&#39;elenco Consentiti di per consentire la comunicazione aperta tra l&#39;ambiente e [!DNL Adobe Workfront Fusion].
+Se il firewall o il server di posta è configurato per consentire l&#39;accesso solo a determinati fornitori, è necessario aggiungere determinati indirizzi IP al relativo inserisco nell&#39;elenco Consentiti per consentire la comunicazione aperta tra l&#39;ambiente e [!DNL Adobe Workfront Fusion].
 
-Aggiungi i seguenti indirizzi IP al tuo inserisco nell&#39;elenco Consentiti di abilitazione per l’accesso a tutti i servizi di gestione dell’accesso ai dati () [!DNL Workfront Fusion] per accedere al sistema.
+Aggiungere i seguenti indirizzi IP al inserisco nell&#39;elenco Consentiti di accesso al sistema per consentire a [!DNL Workfront Fusion] di accedere al sistema.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -62,7 +62,7 @@ Aggiungi i seguenti indirizzi IP al tuo inserisco nell&#39;elenco Consentiti di 
  </tbody> 
 </table>
 
-Inoltre, se l’organizzazione utilizza il filtro di rete in uscita, aggiungi il seguente dominio al tuo elenco Consentiti di accesso a Workfront Fusion per consentire l’accesso al sistema.
+Inoltre, se l’organizzazione utilizza il filtro di rete in uscita, aggiungi il seguente dominio al inserisco nell&#39;elenco Consentiti per consentire al sistema di accedere a Workfront Fusion.
 
 <table style="table-layout:auto">
  <col> 
@@ -85,6 +85,6 @@ Inoltre, se l’organizzazione utilizza il filtro di rete in uscita, aggiungi il
 
 >[!NOTE]
 >
->Il filtro di rete in uscita non è comune. Rivolgersi all&#39;amministratore di rete per verificare se è necessario aggiornare il inserisco nell&#39;elenco Consentiti di accesso a un&#39;istanza di accesso a un&#39;istanza di rete.
+>Il filtro di rete in uscita non è comune. Rivolgersi all&#39;amministratore di rete per verificare se è necessario aggiornare il inserisco nell&#39;elenco Consentiti di gestione della rete per adattarlo a tale scopo.
 
-Per ulteriori informazioni sulla configurazione del inserisco nell&#39;elenco Consentiti di dell’organizzazione, consulta [Configurare il inserisco nell&#39;elenco Consentiti di configurazione del firewall per l’accesso a un sistema di protezione da attacchi di tipo](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Per ulteriori informazioni sull&#39;impostazione del inserisco nell&#39;elenco Consentiti di configurazione del dell&#39;organizzazione, vedere [Configurare il inserisco nell&#39;elenco Consentiti di configurazione del firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).

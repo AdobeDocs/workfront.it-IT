@@ -31,19 +31,19 @@ Le impostazioni che determinano la modalità di ricezione degli avvisi e-mail re
  <tbody> 
   <tr> 
    <td role="rowheader"> <p><span class="wysiwyg-font-size-medium"><strong>Impostazioni di sistema</strong></span> </p> </td> 
-   <td> <p><span class="wysiwyg-font-size-medium">Il tuo amministratore di Adobe Workfront può determinare come ricevere avvisi e-mail sui commenti e sulle decisioni sulle bozze su cui lavori, come spiegato in <a href="../../../workfront-proof/wp-mnguserscontacts/users/configure-user-info.md" class="MCXref xref">Configurare le informazioni utente utilizzando Workfront Proof</a></span> </p> </td> 
+   <td> <p><span class="wysiwyg-font-size-medium">L'amministratore di Adobe Workfront può determinare come ricevere gli avvisi e-mail sui commenti e sulle decisioni sulle bozze su cui lavori, come spiegato in <a href="../../../workfront-proof/wp-mnguserscontacts/users/configure-user-info.md" class="MCXref xref">Configurare le informazioni utente utilizzando Workfront Proof</a></span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p><span class="wysiwyg-font-size-medium"><strong>Finestra Nuova bozza, finestra Dettagli bozza</strong></span> </p> </td> 
-   <td> <p><span class="wysiwyg-font-size-medium">Quando qualcuno ti aggiunge a una bozza nella finestra Nuova bozza o nella finestra Dettagli bozza, può determinare in che modo ricevi gli avvisi e-mail relativi ai commenti e alle decisioni sulla bozza. In questo modo viene ignorata l’opzione selezionata dall’amministratore di Workfront, ma solo per quella particolare bozza. Per ulteriori informazioni, consulta</span> </p> 
+   <td> <p><span class="wysiwyg-font-size-medium">Quando qualcuno ti aggiunge a una bozza nella finestra Nuova bozza o nella finestra Dettagli bozza, può determinare in che modo ricevi gli avvisi e-mail relativi ai commenti e alle decisioni sulla bozza. In questo modo viene ignorata l’opzione selezionata dall’amministratore di Workfront, ma solo per quella particolare bozza. Per ulteriori informazioni, vedere</span> </p> 
     <ul> 
-     <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">Creare una bozza avanzata con un flusso di lavoro di base</a> </p> </li> 
-     <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md" class="MCXref xref">Creare una bozza avanzata con un flusso di lavoro automatizzato</a> </p> </li> 
+     <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">Crea una bozza avanzata con un flusso di lavoro di base</a> </p> </li> 
+     <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md" class="MCXref xref">Crea una bozza avanzata con un flusso di lavoro automatizzato</a> </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p><span class="wysiwyg-font-size-medium"><strong>Visualizzatore bozze</strong></span> </p> </td> 
-   <td> <p><span class="wysiwyg-font-size-medium">Quando apri una bozza a cui sei stato aggiunto, puoi determinare in che modo ricevi gli avvisi e-mail relativi ai commenti sulla bozza. In questo modo si sostituisce l’opzione selezionata dall’amministratore di Workfront e l’opzione selezionata dalla persona che ti ha aggiunto alla bozza. Per ulteriori informazioni, consulta <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Gestire le notifiche per i commenti e le decisioni relativi alle bozze</a></span> </p> <p><span class="wysiwyg-font-size-medium"><em><strong>NOTA</strong> In Proofing Viewer (Visualizzatore di bozze), l’ultima opzione è etichettata in modo diverso ("No e-mail" invece di "Disabilitato"), ma funziona allo stesso modo.</em></span> </p> </td> 
+   <td> <p><span class="wysiwyg-font-size-medium">Quando si apre una bozza alla quale si è stati aggiunti, è possibile determinare la modalità di ricezione degli avvisi e-mail relativi ai commenti sulla bozza. In questo modo si sostituisce l’opzione selezionata dall’amministratore di Workfront e l’opzione selezionata dalla persona che ti ha aggiunto alla bozza. Per ulteriori informazioni, consulta <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Gestire le notifiche per i commenti e le decisioni relative alle bozze</a></span> </p> <p><span class="wysiwyg-font-size-medium"><em><strong>NOTA</strong> In Proofing Viewer (Visualizzatore di bozze) l'ultima opzione è etichettata in modo diverso ("No e-mail" invece di "Disabled"), ma funziona allo stesso modo.</em></span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,5 +54,5 @@ Le impostazioni che determinano la modalità di ricezione degli avvisi e-mail re
 >
 >* [E-mail nuova bozza](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md)
 >* [E-mail nuova versione](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-version-email.md)
->* [E-mail per bozza tardiva](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/late-proof-email.md)
->* [E-mail Proof Made](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)
+>* [E-mail bozza in ritardo](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/late-proof-email.md)
+>* [E-mail bozza creata](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)

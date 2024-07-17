@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
-title: Riordinare gli stati del gruppo
-description: In qualità di amministratore del gruppo, è possibile modificare l’ordine di progetto, attività ed emettere stati per un gruppo gestito.
+title: Riordina stati gruppo
+description: In qualità di amministratore di gruppo, puoi modificare l’ordine degli stati di progetto, attività e problema per un gruppo che gestisci.
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
@@ -15,9 +15,9 @@ ht-degree: 6%
 
 ---
 
-# Riordinare gli stati del gruppo
+# Riordina stati gruppo
 
-In qualità di amministratore del gruppo, è possibile modificare l’ordine di progetto, attività ed emettere stati per un gruppo gestito.
+In qualità di amministratore di gruppo, puoi modificare l’ordine degli stati di progetto, attività e problema per un gruppo che gestisci.
 
 <!--
 The system version of this snippet mentions a single group because a sysadmin call also reorder statuses there. Group admin version of this article is still needed.
@@ -25,17 +25,16 @@ The system version of this snippet mentions a single group because a sysadmin ca
 
 ![](assets/statuses.png)
 
-Se ci sono gruppi al di sopra del gruppo che gestisci, i loro amministratori possono farlo anche per il tuo gruppo. Lo stesso vale per gli amministratori di Workfront (per qualsiasi gruppo).
+Se al di sopra del gruppo gestito sono presenti gruppi, anche gli amministratori possono eseguire questa operazione per il gruppo. Lo stesso vale per gli amministratori di Workfront (per qualsiasi gruppo).
 
 >[!NOTE]
 >
->* Un amministratore Workfront può riordinare gli stati a livello di sistema. Questo non influisce sull’ordine degli stati all’interno dei gruppi.
+>* Un amministratore Workfront può riordinare gli stati a livello di sistema. Ciò non influisce sull’ordine degli stati all’interno dei gruppi.
 >
->  Tuttavia, gli stati all’interno di un gruppo di livello superiore appena creato ereditano l’ordine degli stati a livello di sistema. Un nuovo sottogruppo eredita l’ordine degli stati del gruppo di un livello superiore.
+>  Tuttavia, gli stati all’interno di un gruppo di primo livello appena creato ereditano l’ordine degli stati a livello di sistema. (Un nuovo sottogruppo eredita l’ordine degli stati nel gruppo di un livello superiore).
 >
->* È possibile riordinare gli stati bloccati. Per informazioni sugli stati bloccati, vedere [Creare o modificare uno stato di gruppo](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+>* È possibile riordinare gli stati bloccati. Per informazioni sugli stati bloccati, vedere [Creare o modificare lo stato di un gruppo](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 >
-
 
 ## Requisiti di accesso
 
@@ -46,21 +45,21 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront* </td> 
+   <td role="rowheader">Piano Adobe Workfront* </td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConditions-wf-groups.groups"> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano </p> <p>È necessario essere un amministratore del gruppo o un amministratore di Workfront. Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Amministratori di gruppo</a> e <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente pieno accesso amministrativo</a>.</p> </td> 
+   <td> <p>Piano </p> <p>Devi essere un amministratore di gruppo del gruppo o un amministratore di Workfront. Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Amministratori di gruppi</a> e <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente l'accesso amministrativo completo</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per sapere quale piano o tipo di licenza hai, contatta il tuo amministratore Workfront.
+&#42;Per conoscere il piano o il tipo di licenza di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Ordine predefinito degli stati
 
-Per impostazione predefinita, gli stati vengono visualizzati nell’ordine seguente:
+Per impostazione predefinita, gli stati vengono visualizzati nell&#39;ordine seguente:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -81,7 +80,7 @@ Per impostazione predefinita, gli stati vengono visualizzati nell’ordine segue
      <p> In sospeso </p> 
      <p> In Pianificazione </p> 
      <p> Completato </p> 
-     <p> Richiesto </p> 
+     <p> Richiesto il </p> 
      <p> Approvato </p> 
      <p> Rifiutato </p> 
      <p> Idea </p> 
@@ -107,37 +106,36 @@ Per impostazione predefinita, gli stati vengono visualizzati nell’ordine segue
  </tbody> 
 </table>
 
-## Riordinare gli stati per le attività e i progetti di un gruppo gestito
+## Riordina gli stati per le attività e i progetti in un gruppo che gestisci
 
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
-1. Nel pannello a sinistra, fai clic su **Gruppi**, quindi fai clic sul nome del gruppo.
+1. Nel pannello a sinistra, fai clic su **Gruppi**, quindi sul nome del gruppo.
 1. Nel pannello a sinistra, fai clic su **Stati**.
-1. Sopra l’elenco Stati visualizzato, fai clic sul pulsante **Progetti** o **Attività** scheda .
+1. Sopra l&#39;elenco Stati visualizzato, fare clic sulla scheda **Progetti** o **Attività**.
 
 1. Trascina e rilascia gli stati nell’ordine desiderato.
 
    Il nuovo ordine di stato viene salvato automaticamente.
 
-1. Per verificare il nuovo ordine di stato, passare a un&#39;attività o a un progetto associato al gruppo, fare clic sullo stato nell&#39;angolo in alto a destra e assicurarsi che gli stati visualizzati siano nell&#39;ordine configurato.
+1. Per verificare il nuovo ordine di stato, accedi a un&#39;attività o a un progetto associato al gruppo, fai clic sullo stato nell&#39;angolo in alto a destra e accertati che gli stati visualizzati siano nell&#39;ordine configurato.
 
-## Riordinare gli stati per i problemi
+## Riordina gli stati per i problemi
 
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
-1. Nel pannello a sinistra, fai clic su **Gruppi**, quindi fai clic sul nome del gruppo.
+1. Nel pannello a sinistra, fai clic su **Gruppi**, quindi sul nome del gruppo.
 1. Nel pannello a sinistra, fai clic su **Stati**.
-1. Fai clic sul pulsante **Problemi** scheda .
-1. (Facoltativo) Seleziona un tipo di problema (**Report bug**, **Cambia ordine**, **Problema** oppure **Richiesta**).
+1. Fai clic sulla scheda **Issues**.
+1. (Facoltativo) Seleziona un tipo di problema (**Segnalazione bug**, **Ordine di modifica**, **Problema** o **Richiesta**).
 
    >[!NOTE]
    >
-   >* Non è possibile personalizzare l’ordine degli stati per l’elenco principale.
-   >* È consigliabile ordinare gli stati per ogni tipo di problema allo stesso modo. Per ulteriori informazioni sui tipi di problemi, vedi [Configurare i tipi di richiesta](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md).
-
+   >* Non è possibile personalizzare l&#39;ordine degli stati per l&#39;elenco principale.
+   >* È consigliabile ordinare allo stesso modo gli stati per ogni tipo di problema. Per ulteriori informazioni sui tipi di problema, vedere [Configurare i tipi di richiesta](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md).
 
 1. Trascina e rilascia gli stati nell’ordine desiderato.
 
    Il nuovo ordine di stato viene salvato automaticamente.
 
-1. Per verificare il nuovo ordine di stato, passa a un problema associato al gruppo, fai clic sullo stato nell’angolo in alto a destra e assicurati che gli stati visualizzati siano nell’ordine configurato.
+1. Per verificare il nuovo ordine di stato, accedi a un problema associato al gruppo, fai clic sullo stato nell’angolo in alto a destra e assicurati che gli stati visualizzati siano nell’ordine configurato.

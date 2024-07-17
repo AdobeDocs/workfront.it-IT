@@ -1,48 +1,48 @@
 ---
 content-type: overview
 title: Panoramica delle breadcrumb
-description: Le breadcrumb mostrano la gerarchia di navigazione completa per tutti i tipi di oggetto.
+description: Le breadcrumb visualizzano la gerarchia di navigazione completa per tutti i tipi di oggetto.
 feature: Get Started with Workfront
 exl-id: c4103f8e-4c3f-4d4d-a0eb-628c60735ab7
 source-git-commit: 0fea13b0a1d8f14c2d601e0ed0a8d15684a3c4d7
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
 
 # Panoramica delle breadcrumb
 
-Le breadcrumb mostrano la gerarchia di navigazione completa per tutti i tipi di oggetto. Ogni oggetto nel percorso della breadcrumb ha un&#39;etichetta che visualizza il tipo di oggetto. La pagina attualmente in uso viene visualizzata sia nell’intestazione della pagina che alla fine del percorso di navigazione in corsivo. Nell’esempio seguente, questo è il &quot;[!UICONTROL Condividi con Brand Team]&quot;.
+Le breadcrumb visualizzano la gerarchia di navigazione completa per tutti i tipi di oggetto. Ogni oggetto nel percorso della breadcrumb ha un’etichetta che visualizza il tipo di oggetto. La pagina su cui ti trovi attualmente viene visualizzata sia nell’intestazione della pagina che alla fine del percorso della breadcrumb in corsivo. Nell&#39;esempio seguente, questa è l&#39;attività &quot;[!UICONTROL Condividi con Brand Team]&quot;.
 
 ![Breadcrumb compresso](assets/NWE-collapsed-breadcrumb.png)
 
-Se il percorso di navigazione contiene troppi oggetti o la larghezza dello schermo non consente la visualizzazione della gerarchia di navigazione completa, il percorso comprime parte delle breadcrumb e raggruppa tali oggetti all’inizio del percorso di breadcrumb. Sia il progetto che la pagina dell’oggetto corrente sono sempre visibili nel percorso di navigazione.
+Se nel percorso delle breadcrumb sono presenti troppi oggetti o la larghezza dello schermo non consente la visualizzazione dell&#39;intera gerarchia di navigazione, il percorso comprime alcuni dei breadcrumb e raggruppa tali oggetti all&#39;inizio del percorso delle breadcrumb. Sia il progetto che la pagina oggetto corrente sono sempre visibili nel percorso della breadcrumb.
 
-Ad esempio, &quot;altri 3&quot; nell’immagine sopra indica che 3 oggetti non sono visualizzati. Questi elementi possono essere posizionati al di sopra del livello di progetto o tra il progetto e la pagina corrente.
+Ad esempio, &quot;3 more&quot; nell’immagine precedente indica che 3 oggetti non vengono visualizzati. Questi elementi possono trovarsi al di sopra del livello del progetto o tra il progetto e la pagina corrente.
 
-Fai clic su &quot;[!UICONTROL more]&quot; consente di espandere la gerarchia completa. Puoi fare clic su &quot;[!UICONTROL Meno]&quot; per comprimere nuovamente il percorso di breadcrumb.
+Facendo clic su &quot;[!UICONTROL altro]&quot; è possibile espandere la gerarchia completa. Puoi fare clic su &quot;[!UICONTROL Meno]&quot; per comprimere nuovamente il percorso delle breadcrumb.
 
 ![Breadcrumb espanso](assets/NWE-expanded-breadcrumb.png)
 
-Per navigare tra le breadcrumb è inoltre possibile utilizzare le seguenti chiavi:
+Per spostarsi tra le breadcrumb, è inoltre possibile utilizzare i tasti seguenti:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Linguetta</strong> </td> 
+   <td role="rowheader"><strong>Scheda</strong> </td> 
    <td> <p>Passa a ogni elemento nelle breadcrumb</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Invio</strong> </td> 
-   <td> <p>Espandi un percorso di breadcrumb compresso, comprimi un percorso di breadcrumb espanso e apri una nuova pagina quando si utilizza un collegamento a un oggetto</p> </td> 
+   <td> <p>Espandere un percorso di breadcrumb compresso, comprimere un percorso di breadcrumb espanso e aprire una nuova pagina in un collegamento a un oggetto</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-+++requisiti di accesso
++++Requisiti di accesso
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -58,12 +58,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>[!UICONTROL Request] o superiore</p> </td> 
+   <td> <p>[!UICONTROL Request] o versione successiva</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Per sapere quale piano o tipo di licenza hai, contatta il tuo [!DNL Workfront] amministratore.
+*Per sapere quale piano o tipo di licenza si dispone, contattare l&#39;amministratore [!DNL Workfront].
 
 +++
 
@@ -84,16 +84,16 @@ The multi-object listing in the breadcrumb (for example, the campaigns) displays
 
 -->
 
-## Accedere a un oggetto principale dalle breadcrumb
+## Accedere a un oggetto padre dalle breadcrumb
 
-Per informazioni sugli oggetti principali in [!DNL Workfront], vedi [Comprendere gli oggetti in [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Per informazioni sugli oggetti padre in [!DNL Workfront], vedere [Informazioni sugli oggetti in [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-1. (Condizionale) Se l’oggetto a cui desideri indirizzare non è visibile in un percorso di breadcrumb compresso, fai clic su **[!UICONTROL more]**, quindi individuare l’oggetto.
+1. (Condizionale) Se l&#39;oggetto a cui si desidera passare non viene visualizzato in un percorso di breadcrumb compresso, fare clic su **[!UICONTROL altro]**, quindi individuare l&#39;oggetto.
 
    >[!NOTE]
    >
-   >Se non disponi dell’autorizzazione per un oggetto, questo non è visibile nelle breadcrumb.
+   >Se non disponi dell’autorizzazione per un oggetto, questo non sarà visibile nelle breadcrumb.
 
-1. Fai clic su un oggetto nel percorso di breadcrumb per accedere a tale oggetto.
+1. Fai clic su un oggetto nel percorso della breadcrumb per accedervi.
 
-   Viene visualizzata la pagina dell’oggetto.
+   Viene visualizzata la pagina oggetto.

@@ -27,8 +27,8 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Questo articolo richiede una conoscenza approfondita dell’API di Adobe Workfront e dell’interfaccia di reporting in modalità testo. Per informazioni sull’API di Workfront, consulta [Nozioni di base sulle API](../../../wf-api/general/api-basics.md).\
->Per informazioni sull&#39;utilizzo della modalità testo, vedere [Panoramica sulla modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+>Questo articolo richiede una conoscenza approfondita dell’API di Adobe Workfront e dell’interfaccia di reporting in modalità testo. Per informazioni sull&#39;API Workfront, vedere [Nozioni di base sull&#39;API](../../../wf-api/general/api-basics.md).\
+>Per informazioni sull&#39;utilizzo della modalità testo, vedere [Cenni preliminari sulla modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 ## Panoramica delle relazioni tra oggetti in Workfront
 
@@ -44,15 +44,15 @@ Ad esempio, puoi fare riferimento all’ID Portfolio in un filtro di problemi pe
 
 Tuttavia, non è possibile fare riferimento al proprietario del Portfolio in un filtro di problemi utilizzando l’interfaccia standard per visualizzare solo i problemi dei progetti associati a portfolio in cui il proprietario è un utente specifico. È necessario utilizzare la modalità testo per accedere al campo Nome proprietario Portfolio, che si trova a tre livelli di distanza dai problemi.
 
-![Icone Invia a proprietario portfolio](assets/issue-to-portfolio-owner-sraight-line-icons-350x83.png)
+![Problema con le icone del proprietario del portfolio](assets/issue-to-portfolio-owner-sraight-line-icons-350x83.png)
 
-Per un elenco completo degli oggetti in Workfront, vedi [API Explorer](../../../wf-api/general/api-explorer.md).
+Per un elenco completo degli oggetti in Workfront, vedere [API Explorer](../../../wf-api/general/api-explorer.md).
 
-Per informazioni su come navigare in API Explorer e trovare oggetti, vedi [Utilizzo di API Explorer](../../../wf-api/general/using-api-explorer.md).
+Per informazioni su come esplorare API Explorer e trovare oggetti, vedere [Utilizzo di API Explorer](../../../wf-api/general/using-api-explorer.md).
 
 Quando si creano i filtri, è necessario creare istruzioni complesse nell&#39;interfaccia in modalità testo per fare riferimento a questi tipi di oggetti.
 
-Per informazioni sulla creazione di filtri complessi, vedi [Panoramica dei filtri in modalità testo complessa che utilizzano istruzioni EXISTS](#overview-of-complex-text-mode-filters-that-use-exists-statements) sezione di questo articolo.
+Per informazioni sulla creazione di filtri complessi, vedere la sezione [Panoramica sui filtri in modalità testo complessi che utilizzano istruzioni EXISTS](#overview-of-complex-text-mode-filters-that-use-exists-statements) di questo articolo.
 
 ## Panoramica dei filtri in modalità testo complessa che utilizzano istruzioni EXISTS {#overview-of-complex-text-mode-filters-that-use-exists-statements}
 
@@ -80,11 +80,11 @@ Quando si utilizzano istruzioni EXISTS in un filtro, considera le seguenti regol
 
 * Per connettere le istruzioni, è necessario utilizzare il codice oggetto dell&#39;oggetto di collegamento.\
   Puoi trovare il codice oggetto di tutti gli oggetti in API Explorer.\
-  Per informazioni su API Explorer, vedi [API Explorer](../../../wf-api/general/api-explorer.md).
+  Per informazioni su API Explorer, vedere [API Explorer](../../../wf-api/general/api-explorer.md).
 
 * Quando manca un oggetto di collegamento perché gli oggetti originale e di destinazione sono collegati direttamente tra loro, è possibile utilizzare il codice oggetto dell&#39;oggetto di destinazione anziché l&#39;oggetto di collegamento.
 * È possibile fare riferimento a più campi (campi di destinazione) sullo stesso oggetto (oggetto di destinazione), nel qual caso è necessario connettere le righe che fanno riferimento ai campi mediante AND.\
-  Per un esempio di filtro per più campi appartenenti all&#39;oggetto Target, vedere [Esempio 4: filtrare per più campi: attività per nome proprietario Portfolio e ID scorecard allineamento Portfolio](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id) in questo articolo.
+  Per un esempio di filtro per più campi che appartengono all&#39;oggetto di destinazione, vedere la sezione [Esempio 4: Filtrare per più campi: attività per nome proprietario Portfolio e ID scorecard allineamento Portfolio](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id) in questo articolo.
 
 * L&#39;unico modificatore supportato per un&#39;istruzione EXISTS è NOTEXISTS.
 
@@ -133,7 +133,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 Per creare questo filtro è sempre necessario utilizzare un&#39;istruzione EXISTS e l&#39;interfaccia della modalità testo.
 
-Per esempi di filtri, vedi [Esempio 1: filtrare i problemi per nome del proprietario del Portfolio](#example-1-filter-for-issues-by-portfolio-owner-name) in questo articolo.
+Per esempi di filtri, vedere la sezione [Esempio 1: Filtrare i problemi in base al nome del proprietario del Portfolio](#example-1-filter-for-issues-by-portfolio-owner-name) in questo articolo.
 
 Per creare un filtro che si estenda su più livelli nella gerarchia degli oggetti:
 
@@ -145,18 +145,18 @@ Per creare un filtro che si estenda su più livelli nella gerarchia degli oggett
 
 1. (Condizionale) Se l’oggetto originale (problema) e il campo di destinazione (ownerID) non sono collegati direttamente tra loro, è necessario trovare un terzo oggetto, un oggetto di collegamento (progetto), che li colleghi. L&#39;oggetto di collegamento deve disporre di almeno un campo a cui si fa riferimento dalle schede Campi o Riferimenti dell&#39;oggetto originale (Campo di collegamento visualizzato nell&#39;oggetto originale) e di un campo di collegamento all&#39;oggetto di destinazione visualizzato nelle schede Campi o Riferimenti dell&#39;oggetto di collegamento. Il campo di collegamento all&#39;oggetto di destinazione visualizzato nell&#39;oggetto di collegamento (o il campo di collegamento visualizzato nell&#39;oggetto di collegamento) deve corrispondere al campo di destinazione.
 
-   Ad esempio, l’ID (Progetto) (Campo di collegamento visualizzato nell’oggetto originale) è referenziato da Problemi (oggetto originale). (Portfoli) ownerID (Collegamento del campo all&#39;oggetto di destinazione) viene visualizzato nella scheda Fields del progetto (oggetto di collegamento). OwnerID Portfolio è anche un campo sull&#39;oggetto di destinazione (Portfolio). Il campo di collegamento nell&#39;oggetto di collegamento corrisponde al campo di destinazione.\
+   Ad esempio, l’ID (Progetto) (Campo di collegamento visualizzato nell’oggetto originale) è referenziato da Problemi (oggetto originale). (Portfolio) ownerID (Collegamento del campo all&#39;oggetto di destinazione) viene visualizzato nella scheda Fields del progetto (oggetto di collegamento). OwnerID Portfolio è anche un campo sull&#39;oggetto di destinazione (Portfolio). Il campo di collegamento nell&#39;oggetto di collegamento corrisponde al campo di destinazione.\
    ![portfolio_id_in_the_project_api_object.PNG](assets/portfolio-id-in-the-project-api-object-350x88.png)
 
-1. Utilizzando API Explorer, identifica **Codice oggetto** dell&#39;oggetto di collegamento (Project).\
+1. Utilizzando API Explorer, identificare il **codice oggetto** dell&#39;oggetto di collegamento (progetto).\
    Ad esempio, il codice oggetto per Project è PROJ.\
    ![project_objCode_in_the_API.PNG](assets/project-objcode-in-the-api-350x84.png)
 
 1. Creare un filtro per l&#39;oggetto originale.\
    Ad esempio, crea un filtro Problema.\
-   Per informazioni sulla creazione di filtri, consulta [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Per informazioni sulla creazione di filtri, vedere [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Clic **Passa alla modalità testo**.
+1. Fare clic su **Passa alla modalità testo**.
 1. Incolla il seguente esempio di formula nell’interfaccia della modalità testo del nuovo filtro e sostituisci il testo di esempio con gli oggetti e i campi corretti:
 
    `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
@@ -165,7 +165,7 @@ Per creare un filtro che si estenda su più livelli nella gerarchia degli oggett
 
    `EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
 
-   Per un esempio che utilizza i campi identificati in precedenza, vedi [Esempio 1: filtrare i problemi per nome del proprietario del Portfolio](#example-1-filter-for-issues-by-portfolio-owner-name) in questo articolo.
+   Ad esempio, utilizzando i campi identificati in precedenza, consulta la sezione [Esempio 1: filtrare i problemi in base al nome del proprietario del Portfolio](#example-1-filter-for-issues-by-portfolio-owner-name) in questo articolo.
 
 1. Fai clic su **Salva filtro**.
 
@@ -177,7 +177,7 @@ Per creare un filtro che si estenda su più livelli nella gerarchia degli oggett
 
 Puoi creare un filtro che faccia riferimento a oggetti mancanti. Ad esempio, puoi creare un filtro utenti che mostra quali utenti non hanno effettuato l’accesso a Workfront.
 
-È sempre necessario utilizzare un’ *ESISTE* e l’interfaccia della modalità testo per generare questo filtro.
+Per creare questo filtro è sempre necessario utilizzare un&#39;istruzione *EXISTS* e l&#39;interfaccia della modalità testo.
 
 Per esempi di filtri per gli oggetti mancanti, vedi le sezioni seguenti in questo articolo:
 
@@ -196,22 +196,22 @@ Per creare un filtro che faccia riferimento a oggetti mancanti:
 
    Ad esempio, l&#39;ID del parametro Categoria (campo di collegamento visualizzato nell&#39;oggetto originale) è referenziato da Parametro (oggetto originale). parameterID (Collegamento di un campo all’oggetto Target) viene visualizzato nella scheda Fields del parametro Category (Collegamento di un oggetto). Il campo di collegamento all&#39;oggetto di destinazione visualizzato nell&#39;oggetto di collegamento corrisponde al campo di destinazione.
 
-1. Utilizzando API Explorer, identifica **Codice oggetto** dell&#39;oggetto di collegamento (parametro di categoria).\
+1. Utilizzando l&#39;API Explorer, identificare il **codice oggetto** dell&#39;oggetto di collegamento (parametro categoria).\
    Ad esempio, il codice oggetto per il parametro di categoria è CTGYPA.\
    ![category_parameter_objcode_in_api.PNG](assets/category-parameter-objcode-in-api-350x79.png)
 
 1. Creare un filtro per l&#39;oggetto originale.\
    Ad esempio, crea un filtro Parametro.\
-   Per informazioni sulla creazione di filtri, consulta [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Per informazioni sulla creazione di filtri, vedere [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Clic **Passa alla modalità testo**.
+1. Fare clic su **Passa alla modalità testo**.
 1. (Facoltativo) Se si applica un filtro per gli oggetti mancanti, incollare il seguente esempio di formula nell&#39;interfaccia della modalità testo del nuovo filtro e sostituire il testo di esempio con gli oggetti e i campi corretti:
 
    `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
    `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
-   Per un esempio di reporting sui campi personalizzati non associati a Custom Forms, vedi [Esempio 2: filtro per gli oggetti mancanti: campi personalizzati che non vengono visualizzati in alcun modulo personalizzato](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) in questo articolo.
+   Per un esempio di creazione di rapporti sui campi personalizzati non associati a Custom Forms, vedere la sezione [Esempio 2: Filtro per gli oggetti mancanti: campi personalizzati non visualizzati in alcun modulo personalizzato](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) in questo articolo.
 
 1. Fai clic su **Salva filtro**.
 
@@ -226,9 +226,9 @@ Utilizzando l’interfaccia in modalità testo, puoi creare un filtro per un ele
 Per filtrare i problemi in base al nome del proprietario del Portfolio:
 
 1. Creare un filtro Problema.\
-   Per informazioni sulla creazione di filtri, consulta [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Per informazioni sulla creazione di filtri, vedere [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Clic **Passa alla modalità testo**.
+1. Fare clic su **Passa alla modalità testo**.
 1. Fai riferimento al seguente codice generico:
 
    `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
@@ -237,7 +237,7 @@ Per filtrare i problemi in base al nome del proprietario del Portfolio:
 
    `EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
 
-1. Incolla il seguente codice in **Impostare le regole di filtro per il report** area in cui sostituire il codice generico precedente:
+1. Incolla il seguente codice nell&#39;area **Imposta regole filtro per il report** per sostituire il codice generico precedente:
 
    `EXISTS:A:$$OBJCODE=PROJ`
 
@@ -268,16 +268,16 @@ Tramite l’interfaccia in modalità testo, puoi creare un filtro per visualizza
 Per filtrare i campi personalizzati non associati a un modulo personalizzato:
 
 1. Crea un filtro Parametro o Campo personalizzato.\
-   Per informazioni sulla creazione di filtri, consulta [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Per informazioni sulla creazione di filtri, vedere [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Clic **Passa alla modalità testo**.
+1. Fare clic su **Passa alla modalità testo**.
 1. Fai riferimento al seguente codice generico:
 
    `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
    `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
-1. Incolla il seguente codice in **Impostare le regole di filtro per il report** area in cui sostituire il codice generico precedente:
+1. Incolla il seguente codice nell&#39;area **Imposta regole filtro per il report** per sostituire il codice generico precedente:
 
    `EXISTS:A:$$OBJCODE=CTGYPA`
 
@@ -303,16 +303,16 @@ Utilizzando l’interfaccia in modalità testo, puoi creare un filtro per visual
 Per filtrare gli utenti che non hanno registrato l&#39;ora durante la settimana scorsa:
 
 1. Creare un filtro Utente.\
-   Per informazioni sulla creazione di filtri, consulta [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Per informazioni sulla creazione di filtri, vedere [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Clic **Passa alla modalità testo**.
+1. Fare clic su **Passa alla modalità testo**.
 1. Fai riferimento al seguente codice generico:
 
    `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
    `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
-1. Incolla il seguente codice in **Impostare le regole di filtro per il report** area in cui sostituire il codice generico precedente:
+1. Incolla il seguente codice nell&#39;area **Imposta regole filtro per il report** per sostituire il codice generico precedente:
 
    `EXISTS:A:$$OBJCODE=HOUR<br>EXISTS:A:ownerID=FIELD:ID<br>EXISTS:A:entryDate=$$TODAYb-1w<br>EXISTS:A:entryDate_Range=$$TODAYe-1w<br>EXISTS:A:entryDate_Mod=between<br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
@@ -324,7 +324,7 @@ Per filtrare gli utenti che non hanno registrato l&#39;ora durante la settimana 
    >* Poiché non è presente alcun oggetto di collegamento, è necessario utilizzare il codice oggetto dell&#39;oggetto di destinazione: HOUR.
    >* Il campo di collegamento all&#39;oggetto di destinazione è ownerID (visualizzato sull&#39;oggetto originale, mentre l&#39;oggetto di collegamento risulta mancante).
    >* Il campo di collegamento visualizzato sull&#39;oggetto originale è ID (dell&#39;ora), ovvero viene visualizzato sull&#39;oggetto di destinazione, mentre l&#39;oggetto di collegamento risulta mancante.
-   >* ESISTE:A:L&#39;istruzione entryDate fa riferimento ai campi che definiscono l&#39;oggetto di destinazione (Hour) e utilizza la stessa sintassi utilizzata in un&#39;istruzione di filtro regolare. In questo modo, verranno visualizzati solo gli utenti che non hanno registrato il tempo per un periodo di tempo specifico, in questo caso la settimana precedente.
+   >* L&#39;istruzione EXISTS:A:entryDate fa riferimento ai campi che definiscono l&#39;oggetto di destinazione (Hour) e utilizza la stessa sintassi utilizzata in un&#39;istruzione di filtro regolare. In questo modo, verranno visualizzati solo gli utenti che non hanno registrato il tempo per un periodo di tempo specifico, in questo caso la settimana precedente.
    >* Il modificatore NOTEXISTS indica che si stanno cercando elementi (ore) che non esistono per l’oggetto del rapporto (Utenti).
 
 1. Fai clic su **Salva filtro**.
@@ -341,10 +341,10 @@ Utilizzando l’interfaccia in modalità testo, puoi creare un filtro che fa rif
 Per filtrare le attività in base al nome del proprietario del Portfolio e all’ID della scorecard di allineamento del Portfolio:
 
 1. Crea un filtro Attività.\
-   Per informazioni sulla creazione di filtri, consulta [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Per informazioni sulla creazione di filtri, vedere [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Clic **Passa alla modalità testo**.
-1. Incolla il seguente codice in **Impostare le regole di filtro per il report** area:
+1. Fare clic su **Passa alla modalità testo**.
+1. Incolla il seguente codice nell&#39;area **Imposta regole filtro per il report**:
 
    `EXISTS:A:$$OBJCODE=PROJ`
    `EXISTS:A:ID=FIELD:projectID`

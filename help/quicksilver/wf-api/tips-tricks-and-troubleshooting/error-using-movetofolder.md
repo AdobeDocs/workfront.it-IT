@@ -6,19 +6,19 @@ description: Quando si utilizza l'azione MoveToFolder del documento, viene resti
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 86c0517443537ec5af640036c290b3a495825fdc
+exl-id: 811efabc-e101-4de5-a800-a1447654dc3e
+source-git-commit: 53edc378e000e5b36fe0ce5750b8917fb13cfde1
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
 
 ---
 
-
 # L&#39;azione MoveToFolder del documento non funziona
 
 ## Problema
 
-Quando si utilizza la proprietà `moveToFolder` viene restituito un errore 422.
+Quando si utilizza l&#39;azione `moveToFolder` dell&#39;oggetto Document, viene restituito un errore 422.
 
 Oppure
 

@@ -20,7 +20,7 @@ Un oggetto risolvibile è un problema la cui risoluzione è associata a un ogget
 
 Quando si converte un problema in un&#39;attività o in un progetto, il problema diventa l&#39;oggetto risolvibile dell&#39;attività o del progetto.
 
-È inoltre possibile collegare manualmente un problema a un oggetto risolutivo, che può essere un&#39;attività, un progetto o un problema. Per informazioni, consulta [Collegare manualmente la risoluzione di un problema ad altri problemi, attività o progetti](../../../manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md).
+È inoltre possibile collegare manualmente un problema a un oggetto risolutivo, che può essere un&#39;attività, un progetto o un problema. Per informazioni, vedere [Collegare manualmente la risoluzione di un problema ad altri problemi, attività o progetti](../../../manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md).
 
 In questo scenario, il problema originale diventa l’oggetto risolvibile dell’attività, del progetto o del problema.
 
@@ -34,7 +34,7 @@ In qualità di amministratore di Workfront o di amministratore di gruppo, puoi d
 >
 >Gli oggetti risolvibili sono sempre problemi la cui risoluzione e il cui stato possono dipendere dalla risoluzione e dallo stato dell&#39;oggetto risolutivo a cui sono associati. Gli oggetti risolti possono essere problemi, attività o progetti.
 
-Per informazioni sull&#39;impostazione delle preferenze per la gestione degli oggetti risolvibili, vedere [Configurare le preferenze per attività e problemi a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Per informazioni sull&#39;impostazione delle preferenze per la gestione degli oggetti risolvibili, vedere [Configurare le preferenze relative alle attività e ai problemi a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -78,13 +78,13 @@ A seconda del modo in cui l’amministratore di Workfront o di gruppo ha configu
 
 Esistono i seguenti scenari:
 
-* Se l’amministratore di Workfront o di gruppo dispone di **Mantieni il problema originale e collegane la risoluzione all&#39;attività** e **Mantieni il problema originale e collegane la risoluzione al progetto** selezionato e il **Consenti la modifica di queste impostazioni durante la conversione** se non è selezionata, non potrai modificare queste impostazioni durante la conversione dei problemi in attività o progetti.\
+* Se l&#39;amministratore di Workfront o del gruppo ha **Mantieni il problema originale e collegane la risoluzione all&#39;attività** e **Mantieni il problema originale e collegane la risoluzione al progetto** selezionato e **Consenti la modifica di queste impostazioni durante la conversione** deselezionato, non sarà possibile modificare queste impostazioni durante la conversione dei problemi in attività o progetti.\
   ![](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
 
-* Se l’amministratore di Workfront o di gruppo dispone di **Mantieni il problema originale e collegane la risoluzione all&#39;attività** e **Mantieni il problema originale e collegane la risoluzione al progetto** selezionato o non selezionato e il **Consenti la modifica di queste impostazioni durante la conversione** Selezionata, potrai modificare queste impostazioni durante la conversione dei problemi in attività o progetti.\
+* Se l&#39;amministratore di Workfront o del gruppo ha **Mantieni il problema originale e collegane la risoluzione all&#39;attività** e **Mantieni il problema originale e collegane la risoluzione al progetto** selezionato o non selezionato e **Consenti la modifica di queste impostazioni durante la conversione** selezionato, potrai modificare queste impostazioni durante la conversione dei problemi in attività o progetti.\
   ![](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
 
-Per ulteriori informazioni sulla conversione dei problemi in attività e progetti, consulta [Panoramica sulla conversione dei problemi in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+Per ulteriori informazioni sulla conversione dei problemi in attività e progetti, vedere [Panoramica sulla conversione dei problemi in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -126,7 +126,7 @@ Se un problema è legato manualmente a un altro problema, lo stato del secondo p
 
 Quando un problema è l’oggetto risolvibile di un’attività o di un progetto, le modifiche allo stato delle attività e dei progetti attivano le modifiche allo stato del problema. In questo caso, gli stati predefiniti vengono attivati in modo diverso dagli stati personalizzati.
 
-* [Sincronizza lo stato predefinito dell&#39;oggetto risolutivo con lo stato predefinito dell&#39;oggetto risolvibile](#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object)
+* [Sincronizzare lo stato predefinito dell&#39;oggetto risolutivo con lo stato predefinito dell&#39;oggetto risolvibile](#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object)
 * [Sincronizza lo stato personalizzato dell&#39;oggetto risolutivo con lo stato personalizzato dell&#39;oggetto risolvibile](#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object)
 
 #### Sincronizza lo stato predefinito dell&#39;oggetto risolutivo con lo stato predefinito dell&#39;oggetto risolvibile {#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object}
@@ -148,7 +148,7 @@ I seguenti stati predefiniti per i progetti attivano le seguenti modifiche negli
 | In Pianificazione | Nuovo |
 | Attuali | In corso |
 | In sospeso | In sospeso |
-| Richiesto | Non attiva una modifica allo stato del problema |
+| Richiesto il | Non attiva una modifica allo stato del problema |
 | Approvato | Non attiva una modifica allo stato del problema |
 | Rifiutato | Non attiva una modifica allo stato del problema |
 | Idea | Non attiva una modifica allo stato del problema |
@@ -163,15 +163,16 @@ I seguenti stati predefiniti per i progetti attivano le seguenti modifiche negli
 
 Quando si modifica lo stato dell&#39;attività o del progetto impostandolo su uno stato personalizzato, lo stato del problema cambia in uno stato personalizzato solo se vengono soddisfatte le due condizioni seguenti:
 
-* L&#39;opzione &quot;Aggiorna automaticamente lo stato del problema risolvibile quando lo stato dell&#39;oggetto risolutivo cambia&quot; è selezionata. Per ulteriori informazioni su come abilitare questa impostazione, consulta [Imposta Adobe Workfront per gestire gli oggetti risolvibili](#set-up-adobe-workfront-to-handle-resolvable-objects).
+* L&#39;opzione &quot;Aggiorna automaticamente lo stato del problema risolvibile quando lo stato dell&#39;oggetto risolutivo cambia&quot; è selezionata. Per ulteriori informazioni su come abilitare questa impostazione, vedere [Configurare Adobe Workfront per la gestione di oggetti risolvibili](#set-up-adobe-workfront-to-handle-resolvable-objects).
 
 * Lo stato personalizzato del progetto o dell’attività ha lo stesso codice di tre lettere dello stato personalizzato del problema.
 
 Puoi creare stati personalizzati con la stessa chiave per problemi e progetti o attività. Quando il progetto o l’attività (come oggetto risolutivo) viene riportato allo stato personalizzato, la modifica si riflette anche sullo stato del problema. La chiave dello stato deve essere la stessa per lo stato del problema e per quello del progetto o dell’attività.
 
-Ad esempio, crea uno stato personalizzato del progetto denominato &quot;Avviato&quot; con il codice a tre lettere &quot;LCD&quot; che equivale a &quot;Corrente&quot;. Inoltre, crea uno stato personalizzato del problema denominato &quot;Progetto avviato&quot;, anche con il codice di lettera &quot;LCD&quot; che equivale a &quot;In corso&quot;. Quando contrassegni il progetto come &quot;Avviato&quot;, il problema cambia automaticamente lo stato in &quot;Progetto avviato&quot;. Se l&#39;impostazione &quot;Aggiorna automaticamente lo stato del problema risolvibile quando lo stato dell&#39;oggetto risolutivo cambia&quot; non è abilitata, lo stato del problema passa a &quot;In corso&quot; (lo stato predefinito).
+Ad esempio, crea uno stato personalizzato del progetto denominato &quot;Avviato&quot; con il codice a tre lettere &quot;LCD&quot; che equivale a &quot;Corrente&quot;. Inoltre, crea uno stato personalizzato del problema denominato &quot;Progetto avviato&quot;, anche con il codice di lettera &quot;LCD&quot; che equivale a &quot;In corso&quot;. Quando contrassegni il progetto come &quot;Avviato&quot;, il problema cambia automaticamente lo stato in &quot;Progetto avviato&quot;. Se &quot;
+Aggiorna automaticamente lo stato del problema risolvibile quando lo stato dell’impostazione &quot;Resolving Object changes&quot; (Modifiche all’oggetto risolutivo) non è abilitato, lo stato del problema passa a &quot;In corso&quot; (stato predefinito).
 
-Per ulteriori informazioni sulla creazione di uno stato personalizzato, consulta [Creare o modificare uno stato](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+Per ulteriori informazioni sulla creazione di uno stato personalizzato, vedere [Creare o modificare uno stato](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 ## Sincronizzare la percentuale di completamento di un oggetto risolutivo con quella dell&#39;oggetto risolvibile
 
@@ -187,9 +188,9 @@ Se e il problema è risolto da un altro problema, la percentuale di completament
 L&#39;individuazione dell&#39;oggetto di risoluzione è identica per attività e progetti.
 
 1. Passa a un progetto o a un’attività creata convertendo un problema in progetto o attività.
-1. Fai clic su **Dettagli progetto** o **Dettagli Attività** e fai clic su per espanderla.
-1. Clic **Panoramica**.
-1. Nella parte inferiore della scheda, individua **Questo risolve** campo: il problema che rappresenta l’oggetto risolvibile del progetto o dell’attività è elencato in questo campo.
+1. Fai clic sull&#39;icona **Dettagli progetto** o **Dettagli attività** e fai clic per espanderla.
+1. Fare clic su **Panoramica**.
+1. Nella parte inferiore della scheda, individua il campo **Questa risoluzione**: il problema che rappresenta l&#39;oggetto risolvibile del progetto o l&#39;attività è elencato in questo campo.
 
    >[!NOTE]
    >
@@ -197,7 +198,7 @@ L&#39;individuazione dell&#39;oggetto di risoluzione è identica per attività e
 
 ## Identificare un problema relativo a un oggetto risolutivo in un elenco
 
-In un elenco di problemi, è possibile identificare i problemi etichettati come oggetti di risoluzione tramite le icone di stato individuando questa icona nella **Icone di stato** o **Flag** colonne:
+In un elenco di problemi è possibile identificare i problemi etichettati come oggetti di risoluzione tramite icone di stato individuando questa icona nelle colonne **Icone di stato** o **Flag**:
 
 ![](assets/ro1.png)
 
@@ -214,20 +215,20 @@ Nella tabella seguente vengono illustrati i campi che è possibile visualizzare 
  <thead> 
   <tr> 
    <th><strong>Campo nella visualizzazione</strong> </th> 
-   <th><strong>Vista Issue</strong> </th> 
+   <th><strong>Visualizzazione problemi</strong> </th> 
    <th><strong>Visualizzazione attività</strong> </th> 
-   <th><strong>Vista Progetto</strong> </th> 
+   <th><strong>Visualizzazione progetto</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>Ha Risolvibili</strong>: visualizza un <strong>Vero</strong> valore se al progetto o all'attività sono associati problemi risolvibili e un <strong>Falso</strong> se non lo fanno.</td> 
+   <td><strong>Ha elementi risolvibili</strong>: visualizza un valore <strong>True</strong> se al progetto o all'attività sono associati problemi risolvibili e un valore <strong>False</strong> in caso contrario.</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td><strong>Nome Issue Originale, Data Inserimento Issue Originale, Nome Originatore</strong>: visualizza il nome e la data di ingresso del problema originale, nonché il nome dell’utente che ha creato il problema in una visualizzazione personalizzata in modalità testo.<br>Per ulteriori informazioni sulla creazione di una visualizzazione personalizzata in modalità testo per un progetto, un report attività o un elenco per visualizzare informazioni sul problema originale, vedere <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">Visualizza: visualizza le informazioni originali sui problemi negli elenchi di attività e progetti</a>.<br></td> 
+   <td><strong>Nome problema originale, Data voce problema originale, Nome creatore</strong>: visualizza il nome e la data di voce del problema originale, nonché il nome dell'utente che ha creato il problema in una visualizzazione personalizzata in modalità testo.<br>Per ulteriori informazioni sulla creazione di una visualizzazione personalizzata in modalità testo per un progetto, un report attività o un elenco per visualizzare informazioni sul problema originale, vedere <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">Visualizzazione: visualizzazione delle informazioni sul problema originale negli elenchi attività e progetti</a>.<br></td> 
    <td> </td> 
    <td> ✓</td> 
    <td> ✓</td> 
@@ -239,7 +240,7 @@ Nella tabella seguente vengono illustrati i campi che è possibile visualizzare 
    <td> ✓</td> 
   </tr> 
   <tr> 
-   <td><strong>Iniziatore problema convertito</strong>: visualizza informazioni sull’utente che ha registrato originariamente il problema, che è stato successivamente convertito nell’attività. </td> 
+   <td><strong>Iniziatore problema convertito</strong>: visualizza informazioni sull'utente che ha registrato originariamente il problema, che è stato successivamente convertito nell'attività. </td> 
    <td> </td> 
    <td>✓</td> 
    <td> </td> 
@@ -251,7 +252,7 @@ Nella tabella seguente vengono illustrati i campi che è possibile visualizzare 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Risolvi attività</strong>: visualizza informazioni sull’attività di risoluzione convertita dal problema originale o designata manualmente come oggetto di risoluzione di un problema.</td> 
+   <td><strong>Risolvi attività</strong>: visualizza informazioni sull'attività di risoluzione convertita dal problema originale o designata manualmente come oggetto di risoluzione di un problema.</td> 
    <td>✓ </td> 
    <td> </td> 
    <td> </td> 

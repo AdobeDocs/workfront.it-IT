@@ -22,6 +22,6 @@ Questa sezione contiene le seguenti sottosezioni:
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alle funzionalità del prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Bozza](../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../review-and-approve-work/proofing/proofing.md).
 
 * [Tipi di bozza](../../workfront-proof/wp-tech-corner/proof-types/proof-types.md)

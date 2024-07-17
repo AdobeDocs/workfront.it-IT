@@ -39,12 +39,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un’attività</p> <p>Visualizzare le autorizzazioni su un modello, se si converte in un progetto utilizzando un modello</p> <p>Dopo aver creato il progetto, disporrai delle autorizzazioni di gestione per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un’attività</p> <p>Visualizzare le autorizzazioni su un modello, se si converte in un progetto utilizzando un modello</p> <p>Dopo aver creato il progetto, disporrai delle autorizzazioni di gestione per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Considerazioni sulla conversione di attività in progetti
 
@@ -91,7 +91,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
     </tr> 
     <tr> 
     <td>Condizione progetto</td> 
-    <td>Corrisponde alla preferenza predefinita a livello di sistema determinata dall'amministratore di Workfront nell'area Configura. Per informazioni, consulta <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md">Impostare una condizione personalizzata come predefinita per i progetti</a>
+    <td>Corrisponde alla preferenza predefinita a livello di sistema determinata dall'amministratore di Workfront nell'area Configura. Per informazioni, vedere <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md">Impostare una condizione personalizzata come predefinita per i progetti</a>
     </td> 
     </tr> 
     <tr> 
@@ -102,8 +102,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
     <td>Date progetto</td> 
     <td> 
       <ul> 
-      <li> <p><b>Data Inizio Pianificata</b>: l’orario di lavoro più vicino basato sull’orario di lavoro della pianificazione del modello deve essere preselezionato, in base al fuso orario della pianificazione del modello. Questo campo è disattivato se il campo Pianifica da è impostato su Da completamento. </p> </li> 
-      <li> <p><b>Data di completamento Pianificata</b>: l’orario di lavoro più vicino basato sull’orario di lavoro della pianificazione del modello deve essere preselezionato, in base al fuso orario della pianificazione del modello. Questo campo è disattivato se il campo Pianifica da è impostato su Da inizio. </p> </li> 
+      <li> <p><b>Data inizio pianificata</b>: l'orario di lavoro più vicino basato sull'orario di lavoro della pianificazione del modello deve essere preselezionato, in base al fuso orario della pianificazione del modello. Questo campo è disattivato se il campo Pianifica da è impostato su Da completamento. </p> </li> 
+      <li> <p><b>Data di completamento pianificata</b>: l'orario di lavoro più vicino basato sull'orario di lavoro della pianificazione del modello deve essere preselezionato, in base al fuso orario della pianificazione del modello. Questo campo è disattivato se il campo Pianifica da è impostato su Da inizio. </p> </li> 
       </ul> </td> 
     </tr> 
     <tr> 
@@ -162,34 +162,34 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 ## Convertire un’attività in un progetto
 
 1. Passare all&#39;attività che si desidera convertire in un progetto.
-1. Fai clic su **Altro** icona ![](assets/more-icon.png), quindi **Converti in progetto**.
+1. Fai clic sull&#39;icona **Altro** ![](assets/more-icon.png), quindi **Converti in progetto**.
 1. Scegliere una delle seguenti opzioni:
 
    * **Nuovo progetto**
-   * Un modello in **Seleziona da modelli** sezione
+   * Un modello nella sezione **Seleziona da modelli**
 
      ![](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
 
-1. Clic **Continua** nella notifica visualizzata.
-1. In **Converti in progetto** specificare quanto segue:
+1. Fai clic su **Continua** nella notifica visualizzata.
+1. Nella casella **Converti in progetto** specificare quanto segue:
 
    * **Nome**: assegna un nome al progetto. Il nome predefinito è il nome dell&#39;attività.
-   * (Facoltativo) **Descrizione**: descrive lo scopo del progetto.
-   * (Facoltativo e condizionale) Se hai selezionato di creare un progetto da un modello, aggiorna i campi disponibili in **Converti in progetto** .
+   * (Facoltativo) **Descrizione**: descrivi lo scopo del progetto.
+   * (Facoltativo e condizionale) Se hai selezionato di creare un progetto da un modello, aggiorna i campi disponibili nella finestra di dialogo **Converti in progetto**.
 
-     Per ulteriori informazioni sulla modifica dei campi nei progetti, consulta [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
+     Per ulteriori informazioni sulla modifica dei campi nei progetti, vedere [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
 
      >[!TIP]
      >
-     >Per aggiornare i campi nella sezione Dati finanziari della casella Converti in progetto, è necessario disporre dell&#39;accesso di modifica ai dati finanziari nel proprio livello di accesso. Se si dispone dell&#39;accesso di visualizzazione ai dati finanziari nel proprio livello di accesso, tutte le informazioni finanziarie del modello vengono trasferite al nuovo progetto e non è possibile modificarle durante la conversione del problema. Per informazioni, consulta [Concedere l’accesso ai dati finanziari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) e [Condividere un modello](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+     >Per aggiornare i campi nella sezione Dati finanziari della casella Converti in progetto, è necessario disporre dell&#39;accesso di modifica ai dati finanziari nel proprio livello di accesso. Se si dispone dell&#39;accesso di visualizzazione ai dati finanziari nel proprio livello di accesso, tutte le informazioni finanziarie del modello vengono trasferite al nuovo progetto e non è possibile modificarle durante la conversione del problema. Per informazioni, vedere [Concedere l&#39;accesso ai dati finanziari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) e [Condividere un modello](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
    * (Facoltativo) Aggiungi **Forms personalizzato** al nuovo progetto.
 
      >[!TIP]
      >
-     Se un modulo personalizzato con più oggetti allegato all&#39;attività è configurato per l&#39;utilizzo sia con le attività che con i progetti, tutte le informazioni salvate nel modulo vengono conservate al momento della conversione.
+     >Se un modulo personalizzato con più oggetti allegato all&#39;attività è configurato per l&#39;utilizzo sia con le attività che con i progetti, tutte le informazioni salvate nel modulo vengono conservate al momento della conversione.
      >
      >
-     Se utilizzi un modello per la conversione e un modulo personalizzato allegato al modello contiene un campo personalizzato che si trova anche in un modulo personalizzato allegato all’attività, per il nuovo progetto viene utilizzato il valore del campo dell’attività. Tuttavia, se il campo personalizzato è vuoto nell’attività, viene utilizzato il valore del modello.
+     >Se utilizzi un modello per la conversione e un modulo personalizzato allegato al modello contiene un campo personalizzato che si trova anche in un modulo personalizzato allegato all’attività, per il nuovo progetto viene utilizzato il valore del campo dell’attività. Tuttavia, se il campo personalizzato è vuoto nell’attività, viene utilizzato il valore del modello.
 
-1. Clic **Salva modifiche**.
+1. Fai clic su **Salva modifiche**.

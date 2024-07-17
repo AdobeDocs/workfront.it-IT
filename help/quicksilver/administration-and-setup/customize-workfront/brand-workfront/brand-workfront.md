@@ -13,7 +13,7 @@ exl-id: 8a733194-f99b-4066-949f-755046b8d515
 source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
 workflow-type: tm+mt
 source-wordcount: '45'
-ht-degree: 11%
+ht-degree: 0%
 
 ---
 
@@ -21,5 +21,5 @@ ht-degree: 11%
 
 Questa sezione contiene i seguenti articoli:
 
-* [Personalizza l’istanza di Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
+* [Personalizza la tua istanza di Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
 * [Configurare un URL guida personalizzato](../../../administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)

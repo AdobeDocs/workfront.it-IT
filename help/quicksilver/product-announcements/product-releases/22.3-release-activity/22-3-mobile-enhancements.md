@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.3 Miglioramenti per dispositivi mobili
 
-Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima da Mobile con la versione 22.3. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana dell’11 luglio 2022. Per un elenco di tutte le modifiche disponibili con la versione 22.3, consulta [Panoramica sulla versione 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima da Mobile con la versione 22.3. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana dell’11 luglio 2022. Per un elenco di tutte le modifiche disponibili con la versione 22.3, vedere [Panoramica sulla versione 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Miglioramenti della bozza nell’app mobile
 

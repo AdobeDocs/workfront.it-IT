@@ -3,7 +3,7 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: workfront-proof-navigation-topic
-title: "Guida introduttiva a [!DNL Workfront Proof]: indice articolo"
+title: "Guida introduttiva a  [!DNL Workfront Proof]: indice articolo"
 description: Scopri come iniziare a utilizzare Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 ---
 
-# Guida introduttiva a [!DNL Workfront Proof]: indice dell’articolo
+# Guida introduttiva a [!DNL Workfront Proof]: indice articolo
 
 <!-- Audited: 1/2024 -->
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alle funzionalità del prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Bozza](../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../review-and-approve-work/proofing/proofing.md).
 
 Questa sezione contiene le seguenti sottosezioni:
 

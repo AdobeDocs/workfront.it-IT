@@ -41,7 +41,7 @@ Per ulteriori informazioni sulla creazione di rapporti utilizzando la modalità 
 
 >[!TIP]
 >
->È inoltre possibile espandere le funzionalità dei campi personalizzati calcolati utilizzando una versione della modalità testo per i campi personalizzati. La sintassi e le regole per la creazione di un campo personalizzato calcolato sono diverse da quelle utilizzate nei report e negli elenchi. Per informazioni sull’aggiunta di un campo personalizzato calcolato, consulta [Aggiungere dati calcolati a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+>È inoltre possibile espandere le funzionalità dei campi personalizzati calcolati utilizzando una versione della modalità testo per i campi personalizzati. La sintassi e le regole per la creazione di un campo personalizzato calcolato sono diverse da quelle utilizzate nei report e negli elenchi. Per informazioni sull&#39;aggiunta di un campo personalizzato calcolato, vedere [Aggiungere dati calcolati a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 * Prima di iniziare a utilizzare la modalità testo nei rapporti, consigliamo vivamente di seguire le nostre lezioni sui rapporti avanzati per comprendere meglio il linguaggio della modalità testo. <!--outdated: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
 * È consigliabile utilizzare la modalità standard per garantire che i rapporti creati rimangano intatti quando il software Workfront viene aggiornato. Anche se la modalità testo consente di creare visualizzazioni, filtri e raggruppamenti più complessi, è più complessa da mantenere e non è garantita quando il software Workfront viene aggiornato.
@@ -53,7 +53,7 @@ Per ulteriori informazioni sulla creazione di rapporti utilizzando la modalità 
 
 * Per creare correttamente report ed elenchi in modalità testo, è necessario utilizzare un set di regole e una sintassi univoca. Prima di iniziare, assicurati di avere familiarità con la sintassi Workfront per la modalità testo.
 
-  Per informazioni sulla sintassi e sulle regole per l’utilizzo della modalità testo, consulta [Panoramica sulla sintassi della modalità testo](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+  Per informazioni sulla sintassi e sulle regole per l&#39;utilizzo della modalità testo, vedere [Panoramica sulla sintassi della modalità testo](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
 * Dopo aver personalizzato un elemento di reporting in modalità testo, potrebbe non essere possibile tornare alla modalità standard (in una visualizzazione) oppure il codice dell’elemento creato potrebbe essere eliminato (in filtri e raggruppamenti). Questo perché non tutti i campi supportati in modalità testo sono supportati in modalità standard.
 
@@ -63,7 +63,7 @@ Nell&#39;interfaccia della modalità Standard vengono visualizzati i campi per l
 
 Per ulteriori informazioni sull’interfaccia in modalità standard e su come creare un rapporto o un elenco, consulta:
 
-* [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+* [Crea un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 * [Elementi di reporting: filtri, viste e raggruppamenti](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
 
 ## Interfaccia modalità testo
@@ -74,7 +74,7 @@ Per ulteriori informazioni sull’interfaccia in modalità standard e su come cr
 
 La modalità testo consente di creare visualizzazioni, filtri, raggruppamenti e prompt più complessi, consentendo di utilizzare campi non disponibili nell&#39;interfaccia della modalità standard. In modalità testo di Workfront è un insieme di istruzioni codificate che indicano gli oggetti che si desidera visualizzare in un report o in un elenco.
 
-Per un elenco completo di tutti i campi da segnalare, vedi [API Explorer](../../../wf-api/general/api-explorer.md).
+Per un elenco completo di tutti i campi da segnalare, consulta [API Explorer](../../../wf-api/general/api-explorer.md).
 
 >[!NOTE]
 >
@@ -90,19 +90,19 @@ Per informazioni sull’utilizzo della modalità testo in viste, filtri e raggru
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: see what articles these sections are linked to and edit those articles to link to the individual ones)</p>
 -->
 
-* [Modificare una vista utilizzando la modalità testo](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
-* [Modificare un filtro utilizzando la modalità testo](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
+* [Modificare una visualizzazione utilizzando la modalità testo](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+* [Modifica un filtro in modalità testo](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
 * [Modifica modalità testo in un raggruppamento](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
 I prompt personalizzati possono essere modificati solo in modalità testo. È possibile accedere alle richieste solo da un report.
 
-Per informazioni sull&#39;accesso all&#39;interfaccia della modalità testo per i prompt personalizzati, vedere [Aggiungere una richiesta a un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+Per informazioni sull&#39;accesso all&#39;interfaccia in modalità testo per i prompt personalizzati, vedere [Aggiungere un prompt a un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 ## Motivi comuni per l’utilizzo della modalità testo {#common-reasons-to-use-text-mode}
 
 Al di fuori della creazione di prompt personalizzati che possono essere configurati solo utilizzando la modalità testo, è consigliabile utilizzare il generatore di rapporti per creare visualizzazioni, filtri e raggruppamenti. Tuttavia, in alcuni casi è possibile utilizzare la modalità testo per migliorare i rapporti e gli elenchi.
 
-Per ulteriori informazioni sugli usi comuni della modalità testo, consulta [Panoramica sugli usi comuni della modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+Per ulteriori informazioni sugli usi comuni per la modalità testo, vedere [Panoramica sugli usi comuni per la modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
 
 <!--

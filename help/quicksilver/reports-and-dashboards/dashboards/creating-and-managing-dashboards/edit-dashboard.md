@@ -9,7 +9,7 @@ exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
 source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
 source-wordcount: '552'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -19,15 +19,15 @@ Lo scopo del dashboard è quello di fornire un accesso rapido alle informazioni.
 
 * Report
 
-  Per ulteriori informazioni sulla creazione di rapporti, consulta [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Per ulteriori informazioni sulla creazione di report, vedere [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 * Calendari
 
-  Per ulteriori informazioni sulla creazione di calendari, vedere [Calendari: indice articoli](../../../reports-and-dashboards/reports/calendars/calendars.md).
+  Per ulteriori informazioni sulla creazione di calendari, vedere [Calendari: indice articolo](../../../reports-and-dashboards/reports/calendars/calendars.md).
 
 * Pagine esterne
 
-  Per ulteriori informazioni sulla creazione di pagine esterne, consulta [Incorporare una pagina web esterna in una dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+  Per ulteriori informazioni sulla creazione di pagine esterne, vedere [Incorporare una pagina Web esterna in un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 Dopo aver creato questi elementi e averli aggiunti a un dashboard, è possibile modificarlo per aggiungervi altri elementi, rimuoverne elementi esistenti o modificare le informazioni del dashboard.
 
@@ -53,40 +53,40 @@ Devi avere i seguenti:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
-   <td> <p>Modificare l’accesso a rapporti, dashboard e calendari</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <p>Modificare l’accesso a rapporti, dashboard e calendari</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Gestire le autorizzazioni per il dashboard</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per il dashboard</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Prerequisiti
 
 È necessario creare una dashboard prima di poterla modificare.
 
-Per informazioni sulla creazione di dashboard, consulta [Creare un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+Per informazioni sulla creazione di dashboard, vedere [Creare un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
 ## Modificare una dashboard
 
 1. Passa alla dashboard da modificare.
-1. Clic **Azioni dashboard**, quindi fai clic su **Modifica**.
+1. Fai clic su **Azioni dashboard**, quindi su **Modifica**.
 
    ![](assets/qs-dashboard-actions-menu-350x318.png)
 
    >[!TIP]
    >
-   >Per informazioni su come eliminare un dashboard, consulta [Eliminare una dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/delete-dashboard.md).
+   >Per informazioni su come eliminare un dashboard, vedere [Eliminare un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/delete-dashboard.md).
 
 1. Prendi in considerazione la modifica dei seguenti campi:
 
-   * **Nome**: modifica il nome del dashboard.
-   * **Descrizione**: specifica una descrizione per il dashboard.
+   * **Nome**: modificare il nome del dashboard.
+   * **Descrizione**: specificare una descrizione per il dashboard.
 
-1. In **Report e calendari disponibili** , inizia a digitare il nome di un report, di un calendario o di una pagina esterna nella sezione **Cerca per nome o tipo ...** quindi trascinare il report o il calendario nel riquadro di layout a destra.
+1. Nella sezione **Report e calendari disponibili**, inizia a digitare il nome di un report, di un calendario o di una pagina esterna nel campo **Cerca per nome o tipo ...**, quindi trascina il report o il calendario nel riquadro di layout a destra.
 
    >[!NOTE]
    >
@@ -95,9 +95,9 @@ Per informazioni sulla creazione di dashboard, consulta [Creare un dashboard](..
 1. (Facoltativo) Selezionare un nuovo layout per il dashboard facendo clic su un pulsante di opzione corrispondente al layout desiderato.
 1. (Facoltativo) Passa il puntatore del mouse sul nome di un rapporto esistente e fai clic sull&#39;icona del cestino per rimuoverlo dal dashboard.
 1. (Facoltativo) Per modificare l&#39;ordine dei report nel dashboard, fare clic sul nome di un report, trascinarlo e rilasciarlo nel punto desiderato nel riquadro di layout.
-1. (Facoltativo) Fai clic su **Aggiungi pagina esterna** per aggiungere una pagina esterna alla dashboard.\
+1. (Facoltativo) Fai clic su **Aggiungi pagina esterna** per aggiungere una pagina esterna al dashboard.\
    Oppure\
-   Individua una pagina esterna esistente nel dashboard, quindi passa il mouse su di essa e fai clic sul pulsante **Modifica** per modificare la pagina esterna.\
-   Per ulteriori informazioni sull&#39;aggiunta o la modifica di pagine esterne in un dashboard, vedere [Incorporare una pagina web esterna in una dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+   Individua una pagina esterna esistente nel dashboard, quindi passa il mouse su di essa e fai clic sull&#39;icona **Modifica** per modificare la pagina esterna.\
+   Per ulteriori informazioni sull&#39;aggiunta o la modifica di pagine esterne in un dashboard, vedere [Incorporare una pagina Web esterna in un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
-1. Clic **Salva e chiudi**.
+1. Fai clic su **Salva e Chiudi**.

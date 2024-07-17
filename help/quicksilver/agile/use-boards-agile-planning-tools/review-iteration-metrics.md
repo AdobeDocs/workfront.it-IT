@@ -48,12 +48,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 {{step1-to-boards}}
 
 1. Per aprire un flusso di lavoro, fare clic su [!UICONTROL **Visualizza flusso di lavoro**].
-1. Seleziona la [!UICONTROL Processo iterazione] bacheca
+1. Selezionare la bacheca [!UICONTROL Processo iterazione].
 1. Controlla l’area delle metriche sopra la bacheca, in alto a destra. Fare clic sulle frecce su e giù per spostarsi tra le iterazioni.
 
    Vengono visualizzate le metriche seguenti: il numero totale di punti assegnati all&#39;iterazione, i punti rimanenti non ancora completati nell&#39;iterazione e il numero di punti completati nell&#39;iterazione.
 
-1. (Facoltativo) Fai clic su [!UICONTROL **Dettagli iterazione**] icona ![Dettagli iterazione](assets/iteration-details-button.png) per aprire la finestra di dialogo dei dettagli per l&#39;iterazione selezionata.
+1. (Facoltativo) Fai clic sull&#39;icona [!UICONTROL **Dettagli iterazione**] ![Dettagli iterazione](assets/iteration-details-button.png) per aprire la finestra di dialogo dei dettagli per l&#39;iterazione selezionata.
 
 ## Rivedere le metriche di iterazione nel dashboard
 

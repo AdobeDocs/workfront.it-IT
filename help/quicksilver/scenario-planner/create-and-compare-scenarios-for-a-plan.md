@@ -14,7 +14,7 @@ ht-degree: 1%
 
 ---
 
-# Creare e confrontare scenari di piano in [!DNL Scenario Planner]
+# Crea e confronta scenari di piano in [!DNL Scenario Planner]
 
 Quando si pianifica la strategia a lungo termine dell&#39;azienda, è possibile che all&#39;inizio vi siano molte informazioni che non si hanno o non si pensano. Ci vuole tempo e sperimentazione per arrivare a una strategia finale che le parti interessate possano accettare. L&#39;esecuzione di un&#39;analisi &quot;what if&quot; per creare più scenari per il piano può aiutare a prevedere e valutare con precisione le circostanze potenziali e, in ultima analisi, a sviluppare il miglior piano possibile.
 
@@ -31,43 +31,43 @@ Devi avere i seguenti:
    <td>[!UICONTROL Business] o versione successiva</td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> licenza*</b> </p> </td> 
+   <td> <p>Licenza [!DNL Adobe Workfront]<b>*</b> </p> </td> 
    <td> <p>[!UICONTROL Review] o versione successiva</p> </td> 
   </tr> 
   <tr> 
    <td><b>Prodotto</b> </td> 
-   <td> <p>È necessario acquistare una licenza aggiuntiva per [!DNL Adobe Workfront Scenario Planner] per accedere alle funzionalità descritte in questo articolo.</p> <p>Per informazioni su come ottenere [!DNL Workfront Scenario Planner], vedi <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accesso necessario per utilizzare [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <p>È necessario acquistare una licenza aggiuntiva per [!DNL Adobe Workfront Scenario Planner] per accedere alla funzionalità descritta in questo articolo.</p> <p>Per informazioni su come ottenere [!DNL Workfront Scenario Planner], vedere <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accesso necessario per utilizzare [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>Configurazioni del livello di accesso*</strong> </td> 
-   <td> <p>Modifica l'accesso o versione successiva al [!DNL Scenario Planner]</p> <p>Nota: se non disponi ancora dell’accesso, chiedi al tuo [!DNL Workfront] amministratore se impostano restrizioni aggiuntive nel livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il livello di accesso, consulta <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <p>Modifica l'accesso o versione successiva al [!DNL Scenario Planner]</p> <p>Nota: se non disponi ancora dell'accesso, chiedi all'amministratore [!DNL Workfront] se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Autorizzazioni oggetto</strong> </p> </td> 
-   <td> <p>Autorizzazioni [!UICONTROL Manage] per un piano</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo a un piano, vedere <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Richiedere l’accesso a un piano in [!DNL Scenario Planner]</a>.</p> </td> 
+   <td> <p>Autorizzazioni [!UICONTROL Manage] per un piano</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo a un piano, vedere <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Richiedere accesso a un piano in [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
 
 ## Creare scenari
 
 Uno scenario è una copia di un piano. Puoi creare tutti gli scenari necessari. Tuttavia, consigliamo di ridurre al minimo il numero di scenari in modo da poterli confrontare facilmente.
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png), quindi fai clic su [!UICONTROL Scenari].
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]**, quindi fai clic su [!UICONTROL Scenari].
 
 1. Creare un piano.
 
-   Per informazioni sulla creazione di piani, vedere [Creare e modificare i piani in [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
+   Per informazioni sulla creazione dei piani, vedere [Creare e modificare i piani in [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
 
-   Il primo piano creato viene salvato automaticamente come &quot;[!UICONTROL Scenario iniziale].&quot;
+   Il primo piano creato viene salvato automaticamente come &quot;[!UICONTROL scenario iniziale]&quot;.
 
-1. Fai clic sulla freccia rivolta verso il basso accanto a uno scenario esistente, quindi fai clic sul pulsante **[!UICONTROL Copia]** icona.
+1. Fai clic sulla freccia rivolta verso il basso accanto a uno scenario esistente, quindi fai clic sull&#39;icona **[!UICONTROL Copia]**.
 
    ![](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
 
-   Viene creato un nuovo scenario con le stesse informazioni dello scenario copiato. Viene automaticamente denominato &quot;[!UICONTROL Scenario 2]&quot; se si tratta del secondo scenario del piano, &quot;[!UICONTROL Scenario 3]&quot; se è il terzo, e così via. Non è possibile rinominare gli scenari. Non esiste un limite al numero di copie che è possibile effettuare.
+   Viene creato un nuovo scenario con le stesse informazioni dello scenario copiato. Viene automaticamente denominato &quot;[!UICONTROL Scenario 2]&quot; se si tratta del secondo scenario del piano, &quot;[!UICONTROL Scenario 3]&quot; se si tratta del terzo e così via. Non è possibile rinominare gli scenari. Non esiste un limite al numero di copie che è possibile effettuare.
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -83,22 +83,22 @@ Uno scenario è una copia di un piano. Puoi creare tutti gli scenari necessari. 
      >
      >Quando elimini un’iniziativa in uno scenario, questa viene rimossa solo dallo scenario selezionato e non da tutti gli scenari.
 
-     Per informazioni sulla creazione di iniziative, consulta [Creare e modificare le iniziative in [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
+     Per informazioni sulla creazione delle iniziative, vedere [Creare e modificare le iniziative in [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
 
    * Aggiornare le priorità delle iniziative
    * Regolare le informazioni sulle persone o sul budget
    * Rivedi e regola i conflitti di iniziativa nel tuo scenario
 
-     Per informazioni sulla risoluzione dei conflitti, consulta [Risolvere i conflitti di iniziativa in [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md).
+     Per informazioni sulla risoluzione dei conflitti, vedere [Risolvere i conflitti di iniziativa in [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md).
 
-1. Clic **[!UICONTROL Salva piano]** per salvare le modifiche.
+1. Fai clic su **[!UICONTROL Salva piano]** per salvare le modifiche.
 
 ## Confronta scenari
 
 Dopo aver creato gli scenari, puoi confrontarli per trovare quello migliore per la tua organizzazione.
 
 1. Passare al piano per il quale si desidera confrontare gli scenari.
-1. Clic **[!UICONTROL Confronta scenari]**. Viene visualizzata la pagina di confronto dello scenario.
+1. Fai clic su **[!UICONTROL Confronta scenari]**. Viene visualizzata la pagina di confronto dello scenario.
 
    Tutti gli scenari esistenti per il piano vengono visualizzati in un formato di scheda affiancato. Lo scenario Iniziale viene sempre elencato per primo ed è statico.
 
@@ -130,19 +130,19 @@ Dopo aver creato gli scenari, puoi confrontarli per trovare quello migliore per 
      </tr> 
      <tr> 
       <td>Bdg</td> 
-      <td>Budget totale definito per il piano in questo scenario. Per informazioni sui piani di budget, vedere <a href="../scenario-planner/plans-overview.md" class="MCXref xref">Panoramica dei piani in [!DNL Scenario Planner]</a>. </td> 
+      <td>Budget totale definito per il piano in questo scenario. Per informazioni di budget sui piani, vedere <a href="../scenario-planner/plans-overview.md" class="MCXref xref">Panoramica dei piani in [!DNL Scenario Planner]</a>. </td> 
      </tr> 
      <tr> 
       <td>Costi</td> 
-      <td>I costi associati alle iniziative sullo scenario. Per informazioni sui costi, consulta <a href="../scenario-planner/initiatives-overview.md" class="MCXref xref">Panoramica delle iniziative in [!DNL Scenario Planner]</a>. </td> 
+      <td>I costi associati alle iniziative sullo scenario. Per informazioni sui costi, vedere <a href="../scenario-planner/initiatives-overview.md" class="MCXref xref">Panoramica delle iniziative in [!DNL Scenario Planner]</a>. </td> 
      </tr> 
      <tr> 
       <td>Utilizzo</td> 
-      <td>La percentuale di utilizzo del budget [!UICONTROL] per il piano in questo scenario. Per informazioni sulla percentuale di utilizzo del budget di [!UICONTROL], vedere <a href="../scenario-planner/plans-overview.md" class="MCXref xref">Panoramica dei piani in [!DNL Scenario Planner]</a>. </td> 
+      <td>La percentuale di utilizzo del budget [!UICONTROL] per il piano in questo scenario. Per informazioni sulla percentuale di utilizzo del budget di [!UICONTROL], vedere <a href="../scenario-planner/plans-overview.md" class="MCXref xref">Panoramica sui piani in [!DNL Scenario Planner]</a>. </td> 
      </tr> 
      <tr> 
       <td>Valore Netto</td> 
-      <td>Il [!UICONTROL Net Value] del piano in questo scenario. Per informazioni sul [!UICONTROL Valore netto] di un piano, vedere <a href="../scenario-planner/plans-overview.md" class="MCXref xref">Panoramica dei piani in [!DNL Scenario Planner]</a>. </td> 
+      <td>Il [!UICONTROL Net Value] del piano in questo scenario. Per informazioni sul [!UICONTROL Valore Netto] di un piano, vedere <a href="../scenario-planner/plans-overview.md" class="MCXref xref">Panoramica sui piani in [!DNL Scenario Planner]</a>. </td> 
      </tr> 
      <tr> 
       <td>Iniziative</td> 
@@ -150,7 +150,7 @@ Dopo aver creato gli scenari, puoi confrontarli per trovare quello migliore per 
      </tr> 
      <tr> 
       <td>In conflitto</td> 
-      <td>Il numero di iniziative che mostrano qualsiasi tipo di conflitto nel piano per questo scenario. Per informazioni sui conflitti di iniziative, vedi <a href="../scenario-planner/resolve-conflicts-in-sp.md" class="MCXref xref">Risolvere i conflitti di iniziativa in [!DNL Scenario Planner]</a>. </td> 
+      <td>Il numero di iniziative che mostrano qualsiasi tipo di conflitto nel piano per questo scenario. Per informazioni sui conflitti di iniziative, vedere <a href="../scenario-planner/resolve-conflicts-in-sp.md" class="MCXref xref">Risolvere i conflitti di iniziativa in [!DNL Scenario Planner]</a>. </td> 
      </tr> 
     </tbody> 
    </table>
@@ -166,24 +166,24 @@ Dopo aver creato gli scenari, puoi confrontarli per trovare quello migliore per 
 
 1. Fai clic sul nome di uno scenario per accedervi e apportarvi modifiche.
 
-   Per ulteriori informazioni, vedere [Creare scenari](#create-scenarios) in questo articolo.
+   Per ulteriori informazioni, consulta la sezione [Creare scenari](#create-scenarios) in questo articolo.
 
-1. Clic **[!UICONTROL Aggiungi descrizione]** per aggiungere una descrizione dello scenario
+1. Fai clic su **[!UICONTROL Aggiungi descrizione]** per aggiungere una descrizione dello scenario
 
    Oppure
 
    Fai clic sul campo descrizione per aggiornarlo, quindi fai clic in un punto qualsiasi dello schermo per salvare le modifiche.
 
-1. (Facoltativo) Fai clic su **[!UICONTROL Altro]** menu ![](assets/more-icon.png) a **[!UICONTROL Copia]** o **[!UICONTROL Elimina]** lo scenario.
+1. (Facoltativo) Fai clic sul menu **[!UICONTROL Altro]** ![](assets/more-icon.png) per **[!UICONTROL Copiare]** o **[!UICONTROL Eliminare]** lo scenario.
 
    ![](assets/copy-or-delete-scenario-links-from-card-350x109.png)
 
-   Quando copi uno scenario, questo viene visualizzato automaticamente nella pagina della scheda e viene rinominato in base al seguente pattern: &quot;[!UICONTROL Scenario] `<next number in order>`.&quot;
+   Quando copi uno scenario, questo viene automaticamente visualizzato nella pagina della scheda e viene rinominato in base al seguente pattern: &quot;[!UICONTROL Scenario] `<next number in order>`.&quot;
 
-1. (Condizionale) Se hai fatto clic **[!UICONTROL Elimina]**, fai clic su **[!UICONTROL Sì, elimina]** per confermare.
+1. (Condizionale) Se hai fatto clic su **[!UICONTROL Elimina]**, fai clic su **[!UICONTROL Sì, elimina]** per confermare.
 
    Non è possibile recuperare gli scenari eliminati.
 
-   Per informazioni sull’eliminazione degli scenari, consulta [Eliminare i piani in [!DNL Scenario Planner]](../scenario-planner/delete-plans.md).
+   Per informazioni sull&#39;eliminazione degli scenari, vedere [Eliminare i piani in [!DNL Scenario Planner]](../scenario-planner/delete-plans.md).
 
-1. Clic **[!UICONTROL Salva piano]** per salvare scenari e piani.
+1. Fai clic su **[!UICONTROL Salva piano]** per salvare gli scenari e il piano.

@@ -2,66 +2,66 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
-title: Utilizzare più bozze nel visualizzatore di correzione
-description: In [!DNL Workfront] Prova, è possibile utilizzare le cartelle per raggruppare le bozze su cui si desidera lavorare insieme o su cui si desidera che i revisori lavorino insieme. Quando uno o più revisori apre una delle bozze, avviando il visualizzatore di correzione, sono disponibili anche tutte le bozze nella cartella. Senza uscire dal visualizzatore di correzione, puoi visualizzare le altre bozze, ordinarle e cercarle e confrontarle tra loro.
+title: Utilizzare più bozze nel visualizzatore di bozze
+description: In [!DNL Workfront] Bozza è possibile utilizzare le cartelle per raggruppare le bozze per le quali si desidera collaborare o per le quali si desidera che i revisori collaborino. Quando uno dei revisori apre una delle bozze avviando il visualizzatore di bozze, sono disponibili anche tutte le bozze presenti nella cartella. Senza uscire dal visualizzatore di bozze, puoi visualizzare le altre bozze, ordinarle, cercarle e confrontarle tra loro.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1a3dbf0e-ec5b-4bd0-9eee-c1d613a67f53
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
 
-# Utilizzare più bozze nel visualizzatore di correzione
+# Utilizzare più bozze nel visualizzatore di bozze
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alla funzionalità del prodotto standalone [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Copertura](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
-In [!DNL Workfront Proof], è possibile utilizzare le cartelle per raggruppare le bozze su cui si desidera lavorare insieme o su cui si desidera che i revisori lavorino insieme. Quando uno o più revisori apre una delle bozze, avviando il visualizzatore di correzione, sono disponibili anche tutte le bozze nella cartella. Senza uscire dal visualizzatore di correzione, puoi visualizzare le altre bozze, ordinarle e cercarle e confrontarle tra loro.
+In [!DNL Workfront Proof] è possibile utilizzare le cartelle per raggruppare le bozze su cui si desidera lavorare insieme o su cui si desidera che i revisori lavorino insieme. Quando uno dei revisori apre una delle bozze avviando il visualizzatore di bozze, sono disponibili anche tutte le bozze presenti nella cartella. Senza uscire dal visualizzatore di bozze, puoi visualizzare le altre bozze, ordinarle, cercarle e confrontarle tra loro.
 
-Per informazioni generali sulle cartelle, consulta [Cartelle in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md).
+Per informazioni generali sulle cartelle, vedere [Cartelle in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md).
 
 >[!NOTE]
 >
->La capacità di un revisore di aprire qualsiasi bozza in una cartella dipende dal suo accesso alla bozza. Per informazioni sull’accesso alle bozze, consulta [Genera bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
+>La capacità di un revisore di aprire una bozza in una cartella dipende dal suo accesso alla bozza. Per informazioni sull&#39;accesso alle bozze, vedere [Generare bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
 
 ## Raggruppare le bozze in una cartella
 
-1. In Workfront Proof (all’esterno del visualizzatore di correzione), crea una cartella come descritto in [Crea cartelle in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
-1. Nella dashboard o in una vista a elenco, raggruppare le bozze sulle quali si desidera lavorare trascinandole nella cartella creata.
+1. In Workfront Proof (all&#39;esterno del visualizzatore di bozze), creare una cartella come descritto in [Crea cartelle in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
+1. Nel dashboard o in una vista a elenco, raggruppa le bozze su cui desideri lavorare insieme trascinandole nella cartella creata.
 
-   ![Drag_proof_to_folder.png](assets/drag-proof-to-folder-350x162.png)
+   ![Trascina_bozza_in_cartella.png](assets/drag-proof-to-folder-350x162.png)
 
-## Esamina più bozze raggruppate in una cartella
+## Rivedere più bozze raggruppate in una cartella
 
-In qualità di revisore, è possibile lavorare con più bozze in una cartella senza uscire dal visualizzatore di correzione.
+In qualità di revisore, puoi lavorare con più bozze in una cartella senza uscire dal visualizzatore di bozze.
 
-1. In [!DNL Workfront Proof], fai clic sul nome della cartella per aprirla, quindi apri una bozza nella cartella per avviare il visualizzatore di correzione.
+1. In [!DNL Workfront Proof] fare clic sul nome della cartella per aprirla, quindi aprire una bozza nella cartella per avviare il visualizzatore di bozze.
 
    Oppure
 
-   Apri una bozza da un URL pubblico o da una notifica e-mail e accedi al sistema come richiesto.
+   Apri una bozza da un URL pubblico o da una notifica e-mail, accedendo al sistema come richiesto.
 
-1. Fai clic sull’icona della cartella nell’angolo in alto a sinistra del visualizzatore di correzione.
+1. Fare clic sull&#39;icona della cartella nell&#39;angolo superiore sinistro del visualizzatore di bozze.
 
-   ![Cartella_icon_in_proofing_viewer.png](assets/folder-icon-in-proofing-viewer.png)
+   ![Icona_cartella_in_proofing_viewer.png](assets/folder-icon-in-proofing-viewer.png)
 
-   Viene aperta la cartella contenente la bozza corrente e le altre bozze aggiunte.
+   Verrà aperta la cartella contenente la bozza corrente e le altre bozze aggiunte.
 
-   ![Cartella_contenente_proofs_in_proofing_viewer.png](assets/folder-containing-proofs-in-proofing-viewer-350x164.png)
+   ![Cartella_contenente_bozze_in_proofing_viewer.png](assets/folder-containing-proofs-in-proofing-viewer-350x164.png)
 
-1. (Facoltativo) Effettua una delle seguenti operazioni con le bozze nella cartella mentre utilizzi il visualizzatore di correzione:
+1. (Facoltativo) Effettua una delle seguenti operazioni con le bozze nella cartella mentre utilizzi il visualizzatore di bozze:
 
-   * Per cercare la bozza desiderata nella cartella, fai clic sul pulsante **[!UICONTROL Ricerca]** nell’angolo in alto a destra sopra l’elenco e inizia a digitare parte del nome della bozza, quindi fai clic sulla bozza quando viene visualizzata.
-   * Per ordinare le bozze in base al contenuto di una colonna, fai clic su **[!UICONTROL Nome]**, **[!UICONTROL Creato]**, **[!UICONTROL Stato]** oppure **[!UICONTROL Proprietario]** sopra l&#39;elenco.
+   * Per cercare la bozza desiderata nella cartella, fai clic sulla casella **[!UICONTROL Cerca]** nell&#39;angolo superiore destro sopra l&#39;elenco e inizia a digitare parte del nome della bozza, quindi fai clic sulla bozza quando viene visualizzata.
+   * Per ordinare le bozze in base al contenuto di una colonna, fai clic su **[!UICONTROL Nome]**, **[!UICONTROL Creato]**, **[!UICONTROL Stato]** o **[!UICONTROL Proprietario]** sopra l&#39;elenco.
 
-   * Per confrontare due bozze nella cartella, apri una bozza, quindi seleziona l’altra nell’elenco delle cartelle e fai clic sul pulsante [!UICONTROL Confronto] all&#39;estrema destra della prova (vedi [Confrontare le bozze nel visualizzatore di bozze](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md) se hai bisogno di ulteriori informazioni sul confronto di due bozze).
+   * Per confrontare due bozze nella cartella, apri una bozza, quindi seleziona l&#39;altra nell&#39;elenco delle cartelle e fai clic sul pulsante [!UICONTROL Confronta] all&#39;estrema destra della bozza (consulta [Confronta bozze nel visualizzatore di bozze](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md) per ulteriori informazioni sul confronto di due bozze).
 
-      ![Compare_button_in_folder_list_in_proofing_viewer.png](assets/compare-button-350x67.png)
+     ![Compare_button_in_folder_list_in_proofing_viewer.png](assets/compare-button-350x67.png)
 
-      Durante il confronto delle bozze, se desideri passare a una nuova bozza, a sinistra o a destra del visualizzatore di correzione, fai clic sul pulsante [!UICONTROL Confronto] sopra la bozza.
+     Durante il confronto delle bozze, se si desidera passare a una nuova bozza sul lato sinistro o destro del visualizzatore di bozze, fare clic sul pulsante [!UICONTROL Confronta] sopra la bozza.
 
-      ![](assets/mceclip0-350x126.png)
+     ![](assets/mceclip0-350x126.png)

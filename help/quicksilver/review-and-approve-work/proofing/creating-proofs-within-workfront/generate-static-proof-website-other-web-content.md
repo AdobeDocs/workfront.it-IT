@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 1c0511f6-c60b-4a81-bfff-55b6f866add6
 source-git-commit: 35d76d3cb06c9e9b449844f304f1443e24a221d4
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -46,28 +46,28 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza disponibile, contattare l&#39;amministratore Workfront o Workfront Proof.
+&#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
 
 ## Creare una bozza statica per un sito web o altro contenuto web
 
-Per creare una bozza statica, il sito web deve essere accessibile al pubblico (non dietro un firewall), oppure il dominio Workfront deve essere incluso nel inserisco nell&#39;elenco Consentiti di dell’organizzazione. Workfront non può acquisire un sito web protetto da password come bozza statica.
+Per creare una bozza statica, il sito web deve essere accessibile al pubblico (non dietro un firewall), oppure il inserisco nell&#39;elenco Consentiti di gestione dell’organizzazione deve includere il dominio Workfront. Workfront non può acquisire un sito web protetto da password come bozza statica.
 
 >[!TIP]
 >
->È consigliabile utilizzare la verifica interattiva anziché la verifica statica per le pagine interne che richiedono autorizzazioni e le pagine protette da password. Per ulteriori informazioni, consulta [Panoramica delle bozze dei contenuti interattivi](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
+>È consigliabile utilizzare la verifica interattiva anziché la verifica statica per le pagine interne che richiedono autorizzazioni e le pagine protette da password. Per ulteriori informazioni, vedere [Panoramica delle bozze dei contenuti interattivi](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
 1. Vai al progetto, all’attività o al problema in cui desideri creare una nuova bozza del sito web o una nuova versione di una bozza esistente.
-1. Clic **Documenti** nel pannello a sinistra .
-1. (Condizionale) Se stai creando una nuova bozza, fai clic su **Aggiungi nuovo**, quindi fai clic su **Bozza** nel menu visualizzato.
+1. Fai clic su **Documenti** nel pannello a sinistra.
+1. (Condizionale) Se stai creando una nuova bozza, fai clic su **Aggiungi nuova**, quindi fai clic su **Bozza** nel menu visualizzato.
 1. (Condizionale) Se stai creando una nuova versione di una bozza esistente:
 
    1. Passa il puntatore del mouse sulla bozza URL per la quale desideri creare una nuova versione, quindi selezionala facendo clic sullo sfondo blu chiaro che la circonda.
 
-      ![Select_proof_by_selection_light_blue_background.png](assets/select-proof-by-selecting-light-blue-background-350x52.png)
+      ![Seleziona_bozza_selezionando_sfondo_azzurro_chiaro.png](assets/select-proof-by-selecting-light-blue-background-350x52.png)
 
-   1. Clic **Aggiungi nuovo** > **Versione** > **Bozza**.
+   1. Fai clic su **Aggiungi nuovo** > **Versione** > **Bozza**.
 
-1. Digita l’URL del sito web che desideri verificare in **Aggiungi file** area, quindi premere **Invio**.
+1. Digitare l&#39;URL del sito Web da verificare nell&#39;area **Aggiungi file**, quindi premere **Invio**.
 
    >[!NOTE]
    >
@@ -79,8 +79,8 @@ Per creare una bozza statica, il sito web deve essere accessibile al pubblico (n
 
    ![](assets/interactive-proof-radio-btn-area-350x199.png)
 
-1. (Facoltativo) Se desideri modificare il nome della bozza dall’URL del sito web, digita un **Nome bozza.**
-1. Assicurati che **Acquisisci schermata** è selezionato e utilizza una delle opzioni seguenti:
+1. (Facoltativo) Se desideri modificare il nome della bozza dall&#39;URL del sito Web in un altro nome, digita **Nome bozza.**
+1. Assicurati che **Acquisisci schermata** sia selezionato e utilizza una delle seguenti opzioni:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -101,15 +101,15 @@ Per creare una bozza statica, il sito web deve essere accessibile al pubblico (n
    >
    >Non è possibile modificare l’impostazione Acquisisci schermata per nessuna versione successiva della bozza creata.
 
-1. Clic **Fine**.
+1. Fai clic su **Fine**.
 
-   Se hai selezionato più risoluzioni di screenshot al passaggio 8, l’elenco include una serie di screenshot per ogni risoluzione. Puoi generare queste schermate come bozze separate o combinarle in un’unica bozza (vedi in .). È consigliabile combinarle, soprattutto se si sta creando una bozza statica del sito Web.
+   Se hai selezionato più risoluzioni di screenshot al passaggio 8, l’elenco include una serie di screenshot per ogni risoluzione. Puoi generare queste schermate come bozze separate o combinarle in un’unica bozza (vedi  in .). È consigliabile combinarle, soprattutto se si sta creando una bozza statica del sito Web.
 
    >[!NOTE]
    >
    >Se stai aggiungendo una nuova versione a una bozza URL esistente, tutte le opzioni configurate sulla bozza originale o sulla versione precedente vengono mantenute in questa versione.
 
-1. Clic **Crea bozza** per creare una bozza semplice senza alcun processo di revisione.\
+1. Fai clic su **Crea bozza** per creare una bozza semplice senza processo di revisione.\
    oppure\
    Continua con la configurazione di una bozza avanzata:
 

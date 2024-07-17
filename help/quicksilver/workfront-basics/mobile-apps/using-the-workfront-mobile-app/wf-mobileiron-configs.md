@@ -15,24 +15,24 @@ ht-degree: 0%
 
 # Configura [!DNL Adobe Workfront] per [!DNL MobileIron]
 
-In Adobe Workfront per [!DNL MobileIron] , supportiamo le configurazioni predefinite fornite da [!DNL MobileIron] per entrambi [!DNL Android] e [!DNL iOS].
+Nell&#39;app Adobe Workfront per [!DNL MobileIron] sono supportate le configurazioni predefinite fornite da [!DNL MobileIron] per [!DNL Android] e [!DNL iOS].
 
 ## Android
 
 Per configurare [!DNL Workfront] per [!DNL MobileIron] per [!DNL Android]:
 
-1. Nel tuo [!DNL MobileIron Cloud] istanza, vai a **[!UICONTROL Configurazioni]**, quindi fai clic su **[!UICONTROL Predefinito [!DNL Android] Configurazione AppConnect]**.
+1. Nell&#39;istanza [!DNL MobileIron Cloud], vai a **[!UICONTROL Configurazioni]**, quindi fai clic su **[!UICONTROL Configurazione predefinita di [!DNL Android] AppConnect]**.
 
-1. Clic **[!UICONTROL Modifica]**, quindi scegli le opzioni che desideri utilizzare:
+1. Fai clic su **[!UICONTROL Modifica]**, quindi scegli le opzioni che desideri utilizzare:
 
    <table style="table-layout:auto">
     <tr>
         <td><strong>[!UICONTROL Copia/Incolla]</strong></td>
-        <td>Quando questa opzione è abilitata, puoi scegliere se consentire agli utenti di incollare in altre app sicure o solo all’interno di [!DNL Workfront] per [!DNL MobileIron] app.</td>
+        <td>Se questa opzione è abilitata, puoi scegliere se consentire agli utenti di incollare in altre app sicure o solo all'interno dell'app [!DNL Workfront] per [!DNL MobileIron].</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL Consenti Fotocamera]</strong></td>
-        <td>Se selezionata, questa opzione consente agli utenti di scattare foto dall'interno di [!DNL Workfront] per [!DNL MobileIron] app.</td>
+        <td>Se abilitata, questa opzione consente agli utenti di scattare foto dall'app [!DNL Workfront] per [!DNL MobileIron].</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL - Consenti raccolta]</strong></td>
@@ -40,15 +40,15 @@ Per configurare [!DNL Workfront] per [!DNL MobileIron] per [!DNL Android]:
     </tr>
     <tr>
         <td><strong>[!UICONTROL - Consenti lettore multimediale]</strong></td>
-        <td>Quando è attivata, questa opzione consente agli utenti di riprodurre contenuti multimediali dall’interno di [!DNL Workfront] per [!DNL MobileIron] app.</td>
+        <td>Se abilitata, questa opzione consente agli utenti di riprodurre contenuti multimediali dall'app [!DNL Workfront] per [!DNL MobileIron].</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL - Consenti acquisizione Schermo]</strong></td>
-        <td>Quando è abilitata, questa opzione consente agli utenti di acquisire le schermate all’interno di [!DNL Workfront] per [!DNL MobileIron] app.</td>
+        <td>Se abilitata, questa opzione consente agli utenti di acquisire le immagini dello schermo nell'app [!DNL Workfront] per [!DNL MobileIron].</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL Consenti Web]</strong></td>
-        <td>Quando è abilitata, questa opzione consente agli utenti di passare a un browser web dall’interno di [!DNL Workfront] per [!DNL MobileIron] app.</td>
+        <td>Se abilitata, questa opzione consente agli utenti di passare a un browser Web dall'app [!DNL Workfront] per [!DNL MobileIron].</td>
     </tr>
    </table>
 
@@ -56,9 +56,9 @@ Per configurare [!DNL Workfront] per [!DNL MobileIron] per [!DNL Android]:
 
 Per configurare [!DNL Workfront] per [!DNL MobileIron] per [!DNL iOS]:
 
-1. Nel tuo [!DNL MobileIron Cloud] istanza, vai a **[!UICONTROL Configurazioni]**, quindi fai clic su **[!UICONTROL Predefinito [!DNL iOS] Configurazione AppConnect]**.
+1. Nell&#39;istanza [!DNL MobileIron Cloud], vai a **[!UICONTROL Configurazioni]**, quindi fai clic su **[!UICONTROL Configurazione predefinita di [!DNL iOS] AppConnect]**.
 
-1. Clic **[!UICONTROL Modifica]**, quindi scegli le opzioni che desideri utilizzare:
+1. Fai clic su **[!UICONTROL Modifica]**, quindi scegli le opzioni che desideri utilizzare:
 
    <table style="table-layout:auto">
     <tr>
@@ -67,7 +67,7 @@ Per configurare [!DNL Workfront] per [!DNL MobileIron] per [!DNL iOS]:
     </tr>
     <tr>
         <td><strong>[!UICONTROL - Consenti stampa]</strong></td>
-        <td>Se selezionata, questa opzione consente agli utenti di connettersi ad AirPrint da [!DNL Workfront for MobileIron] app.</td>
+        <td>Se abilitata, questa opzione consente agli utenti di connettersi ad AirPrint dall'app [!DNL Workfront for MobileIron].</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL Consenti apertura]</strong></td>

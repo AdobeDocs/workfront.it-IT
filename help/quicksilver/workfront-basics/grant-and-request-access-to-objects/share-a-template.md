@@ -2,64 +2,64 @@
 title: Condivisione di un modello
 product-area: templates
 navigation-topic: grant-and-request-access-to-objects
-description: In qualità di amministratore di Adobe Workfront, puoi concedere agli utenti l’accesso per visualizzare o modificare i modelli quando assegni il loro livello di accesso. Per poter accedere ai modelli di modifica, un utente deve disporre di una licenza Plan.
+description: In qualità di amministratore di Adobe Workfront, puoi concedere agli utenti l’accesso per visualizzare o modificare i modelli quando assegni il loro livello di accesso. Per poter accedere a Modifica modelli, l'utente deve disporre di una licenza Pianificazione.
 author: Alina
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
 source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '557'
 ht-degree: 2%
 
 ---
 
 # Condividere un modello
 
-In qualità di amministratore di Adobe Workfront, puoi concedere agli utenti l’accesso per visualizzare o modificare i modelli quando assegni il loro livello di accesso. Per poter accedere ai modelli di modifica, un utente deve disporre di una licenza Plan.
+In qualità di amministratore di Adobe Workfront, puoi concedere agli utenti l’accesso per visualizzare o modificare i modelli quando assegni il loro livello di accesso. Per poter accedere a Modifica modelli, l&#39;utente deve disporre di una licenza Pianificazione.
 
-Per ulteriori informazioni sulla concessione dell&#39;accesso ai modelli, consulta [Concedere l’accesso ai modelli](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md).
+Per ulteriori informazioni sulla concessione dell&#39;accesso ai modelli, vedere [Concedere l&#39;accesso ai modelli](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md).
 
-Oltre al livello di accesso concesso, un utente può anche ricevere le autorizzazioni per visualizzare o gestire modelli specifici da altri utenti che li condividono .
+Oltre al livello di accesso concesso, un utente può anche ricevere le autorizzazioni per visualizzare o gestire modelli specifici da altri utenti che li condividono.
 
 >[!NOTE]
 >
->I livelli di autorizzazione funzionano all&#39;interno dei livelli di Access. Ad esempio, un utente non può ricevere le autorizzazioni per gestire un modello, se il suo livello di accesso consente solo di visualizzare i modelli.
+>I livelli di autorizzazione funzionano all’interno dei livelli di accesso. Ad esempio, un utente non può ricevere le autorizzazioni per gestire un modello, se il suo livello di accesso consente solo di visualizzare i modelli.
 
 Le autorizzazioni sono specifiche per un elemento in Workfront e definiscono quali azioni è possibile eseguire su tale elemento.
 
 ## Considerazioni durante la condivisione di un modello
 
-* Oltre alle considerazioni seguenti, vedi [Panoramica della condivisione delle autorizzazioni sugli oggetti](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
-* Per impostazione predefinita, sia l’autore di un modello, sia il proprietario del modello dispongono delle autorizzazioni di gestione per il modello. Per informazioni sulla designazione di un utente come proprietario del modello, consulta [Modificare i modelli di progetto](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+* Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle autorizzazioni di condivisione per gli oggetti](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+* Per impostazione predefinita, il creatore di un modello e il proprietario del modello dispongono delle autorizzazioni di gestione per il modello. Per informazioni sulla designazione di un utente come proprietario del modello, vedere [Modifica modelli di progetto](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 * Quando condividi un modello, puoi condividere quanto segue:
 
    * Il modello
 
-      Per ulteriori informazioni su come condividere un modello, vedi [Condividere i modelli di progetto](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+     Per ulteriori informazioni su come condividere un modello, vedere [Condividere modelli di progetto](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-      Puoi concedere le seguenti autorizzazioni a un modello:
+     Puoi concedere le seguenti autorizzazioni a un modello:
 
       * Visualizza
 
-         ![](assets/view-on-template-262x221.png)
+        ![](assets/view-on-template-262x221.png)
 
-      * Gestisci
+      * Gestire
 
-         ![](assets/manage-on-template-225x280.png)
-   * I progetti futuri creati utilizzando il modello. Puoi assegnare agli stessi livelli di autorizzazioni per i progetti creati da un modello come faresti con un singolo progetto. 
+        ![](assets/manage-on-template-225x280.png)
 
-      Per informazioni su come condividere un progetto da un modello a livello di modello, consulta [Condividere i modelli di progetto](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+   * I progetti futuri creati utilizzando il modello. Puoi assegnare ai progetti creati da un modello gli stessi livelli di autorizzazione di un singolo progetto. 
 
+     Per informazioni su come condividere un progetto da un modello a livello di modello, vedere [Condividere modelli di progetto](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-* Quando condividi un modello o un progetto creato dal modello, per impostazione predefinita gli utenti ereditano le stesse autorizzazioni a tutti gli oggetti secondari associati al modello o al progetto.
+* Quando si condivide un modello o un progetto creato dal modello, per impostazione predefinita gli utenti ereditano le stesse autorizzazioni per tutti gli oggetti figlio associati al modello o al progetto.
 
-   Per ulteriori informazioni sulla gerarchia degli oggetti in Workfront, consulta  [Comprendere gli oggetti in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+  Per ulteriori informazioni sulla gerarchia degli oggetti in Workfront, consulta  [Informazioni sugli oggetti in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-* Quando condividi un modello, tutte le attività e i documenti del modello, così come i problemi relativi al progetto futuro creato dal modello, ereditano le stesse autorizzazioni, se non diversamente specificato.
+* Quando si condivide un modello, tutte le attività e i documenti modello, nonché i problemi relativi al progetto futuro creato dal modello, ereditano le stesse autorizzazioni, se non diversamente specificato.
 
-   Per informazioni sulla gestione dell’accesso alle attività e ai problemi relativi ai modelli in base alle autorizzazioni di un utente per il progetto, consulta la sezione [Accesso](../../manage-work/projects/create-and-manage-templates/edit-templates.md#access) sezione dell&#39;articolo [Modificare i modelli di progetto](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+  Per informazioni sulla gestione dell&#39;accesso alle attività modello e sui problemi relativi al progetto in base alle autorizzazioni di un utente per il progetto, vedere la sezione [Accesso](../../manage-work/projects/create-and-manage-templates/edit-templates.md#access) nell&#39;articolo [Modifica modelli di progetto](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-* L’amministratore di Workfront può specificare se i documenti devono ereditare le autorizzazioni da oggetti superiori nel livello di accesso dell’utente. Per ulteriori informazioni sulla limitazione delle autorizzazioni ereditate ai documenti, vedere [Creare o modificare livelli di accesso personalizzati](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+* L&#39;amministratore di Workfront può specificare se i documenti devono ereditare le autorizzazioni da oggetti di livello superiore nel livello di accesso dell&#39;utente. Per ulteriori informazioni sulla limitazione delle autorizzazioni ereditate sui documenti, vedere [Creare o modificare livelli di accesso personalizzati](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -106,7 +106,7 @@ You can share an object only with active users, teams,
 
 ## Impostazioni avanzate per la condivisione dei modelli
 
-Nella tabella seguente vengono visualizzate le autorizzazioni che è possibile concedere agli utenti quando questi consentono loro di visualizzare o gestire un modello. Per istruzioni su come condividere un modello, consulta la sezione . [Condividere un modello](../../manage-work/projects/create-and-manage-templates/share-project-template.md#share) nell&#39;articolo [Condividere i modelli di progetto](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+Nella tabella seguente vengono visualizzate le autorizzazioni che è possibile concedere agli utenti quando si consente loro di visualizzare o gestire un modello. Per le istruzioni sulla condivisione di un modello, vedere la sezione [Condividere un modello](../../manage-work/projects/create-and-manage-templates/share-project-template.md#share) nell&#39;articolo [Condividere modelli di progetto](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -115,7 +115,7 @@ Nella tabella seguente vengono visualizzate le autorizzazioni che è possibile c
  <thead> 
   <tr> 
    <th>Azioni</th> 
-   <th>Gestisci</th> 
+   <th>Gestire</th> 
    <th>Visualizza</th> 
   </tr> 
  </thead> 
@@ -151,11 +151,11 @@ Nella tabella seguente vengono visualizzate le autorizzazioni che è possibile c
    <td>✓</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>Aggiungi documenti</p> <p>Suggerimento: A volte le persone aggiungono documenti a un modello di progetto pensando di aggiungerli a un progetto. Per evitare questo problema, disattiva questa impostazione per i destinatari.</p> </td> 
+   <td> <p>Aggiungi documenti</p> <p>Suggerimento: a volte gli utenti aggiungono documenti a un modello di progetto pensando di aggiungerli a un progetto. Disabilitando questa impostazione è possibile evitare che ciò si verifichi per i destinatari.</p> </td> 
    <td> </td> 
    <td>✓</td> 
   </tr> 
  </tbody> 
 </table>
 
-Per comprendere le autorizzazioni concesse agli utenti per i progetti creati da un modello, vedi [Condivisione di un progetto in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+Per informazioni sulle autorizzazioni concesse agli utenti per i progetti creati da un modello, vedere [Condividere un progetto in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).

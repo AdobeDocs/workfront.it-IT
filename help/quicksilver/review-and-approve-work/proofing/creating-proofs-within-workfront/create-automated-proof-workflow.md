@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!-- Audited: 2/2024 -->
 
-Un flusso di lavoro automatizzato semplifica la gestione del processo di revisione se il processo è complesso o se invii regolarmente contenuti per la revisione agli stessi utenti. La bozza si sposta da un ambiente di staging all’altro e Adobe Workfront notifica a ogni utente quando è il momento di rivederla. Per ulteriori informazioni sui flussi di lavoro automatizzati, consulta [Panoramica del flusso di lavoro automatizzato](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
+Un flusso di lavoro automatizzato semplifica la gestione del processo di revisione se il processo è complesso o se invii regolarmente contenuti per la revisione agli stessi utenti. La bozza si sposta da un ambiente di staging all’altro e Adobe Workfront notifica a ogni utente quando è il momento di rivederla. Per ulteriori informazioni sui flussi di lavoro automatizzati, vedere [Panoramica sui flussi di lavoro automatizzati](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 ## Requisiti di accesso
 
@@ -54,17 +54,17 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Creare una bozza avanzata con un flusso di lavoro automatizzato
 
-1. Vai al progetto, all’attività o al problema nel punto in cui desideri inserire la bozza, quindi fai clic sul pulsante **Documenti** scheda.
-1. Clic **Aggiungi nuovo** > Bozza, carica il contenuto, quindi utilizza le sezioni elencate di seguito.
+1. Vai al progetto, all&#39;attività o al problema in cui desideri la bozza, quindi fai clic sulla scheda **Documenti**.
+1. Fai clic su **Aggiungi nuovo** > Bozza, carica il contenuto, quindi individua le sezioni elencate di seguito.
 
    oppure
 
-   Passa il puntatore del mouse su un documento esistente, quindi fai clic su **Crea bozza** > **Bozza avanzata** e utilizzare le sezioni elencate di seguito.
+   Passa il puntatore del mouse su un documento esistente, quindi fai clic su **Crea bozza** > **Bozza avanzata** e utilizza le sezioni elencate di seguito.
 
 ## Configurare le fasi della bozza
 
 1. Nella sezione Tipo di flusso di lavoro scegliere **Automatizzato**.
-1. (Facoltativo) Se desideri utilizzare un modello di flusso di lavoro automatizzato creato e condiviso con te dall’amministratore di Workfront, fai clic su **Aggiungi modello**, seleziona il modello nella casella visualizzata, quindi fai clic su **Aggiungi modello**.
+1. (Facoltativo) Se desideri utilizzare un modello di flusso di lavoro automatico creato e condiviso con te dall&#39;amministratore di Workfront, fai clic su **Aggiungi modello**, seleziona il modello nella casella visualizzata, quindi fai clic su **Aggiungi modello**.
 
    >[!NOTE]
    >
@@ -76,8 +76,8 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Configura la prima fase del flusso di lavoro automatizzato:
 
-   1. (Facoltativo) Per creare un nome per la prima fase, fare clic su **Fase 1**, quindi digita il nome.
-   1. In **Destinatari** per l&#39;area di visualizzazione, aggiungere i revisori all&#39;area di visualizzazione.
+   1. (Facoltativo) Se si desidera creare un nome per la prima fase, fare clic su **Fase 1**, quindi digitare il nome.
+   1. Nella sezione **Destinatari** per l&#39;area di visualizzazione aggiungere i revisori all&#39;area di visualizzazione.
 
       >[!NOTE]
       >
@@ -85,17 +85,17 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       >   
       >* Puoi aggiungere utenti esterni a una fase con un indirizzo e-mail.
       >* Dopo aver aggiunto un utente a un’area di visualizzazione, puoi configurare le impostazioni per tale utente nella bozza.
-      >* È possibile trascinare gli utenti direttamente in un&#39;altra fase oppure trascinare gli utenti in una fase della **Fasi** diagramma. Per selezionare più utenti, premere MAIUSC+Ctrl (su Windows) o MAIUSC+Comando (su Mac).
+      >* Puoi trascinare gli utenti direttamente in un&#39;altra fase, oppure puoi trascinare gli utenti in una fase del diagramma **Fasi**. Per selezionare più utenti, premere MAIUSC+Ctrl (su Windows) o MAIUSC+Comando (su Mac).
       >* È possibile aggiungere un revisore a una bozza una sola volta, il che significa che non è possibile aggiungere la stessa persona a più fasi della bozza.
       >* I revisori che non vengono aggiunti a una fase privata non possono vedere tale fase sulla bozza o sui commenti fatti in quella fase.
       >* Per impostazione predefinita, l’aggiunta di un utente a una fase consente a tale utente di accedere alla visualizzazione della bozza dal momento in cui viene creata. L’amministratore di Workfront può impedire agli utenti di accedere alla bozza fino a quando il flusso di lavoro non entra nella fase in cui l’utente è stato aggiunto.
 
-   1. Clic **Impostazioni fase**.
-   1. Fai clic su un **Attiva fase** per indicare la modalità di attivazione della fase.
+   1. Fare clic su **Impostazioni fase**.
+   1. Fare clic su un&#39;opzione **Attiva fase** per indicare come si desidera attivare la fase.
 
-      Per la prima fase, è possibile selezionare solo **Alla creazione della bozza**, **In una data e un’ora specifiche**, o **Manualmente**.
+      Per la prima fase è possibile selezionare solo **Alla creazione della bozza**, **A una data e un&#39;ora specifiche** o **Manualmente**.
 
-   1. (Condizionale) Se hai selezionato **In una data e un’ora specifiche** nel passaggio precedente, seleziona la data e l’ora in cui desideri attivare la fase nel **Attiva il** che viene visualizzata.
+   1. (Condizionale) Se hai selezionato **In una data e un&#39;ora specifiche** nel passaggio precedente, seleziona la data e l&#39;ora in cui desideri attivare la fase nella casella **Attiva il** visualizzata.
 
    1. Utilizza una delle opzioni seguenti per configurare ulteriormente la fase.
 
@@ -105,10 +105,10 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
        <tbody>
         <tr>
          <td role="rowheader">Imposta scadenza fase</td>
-         <td><p>Per impostare una scadenza per la fase, fare clic su un'opzione nella <strong>Opzioni scadenza</strong> elenco a discesa. Quindi, sotto <strong>Scadenza</strong>, eseguire una delle operazioni seguenti:</p>
+         <td><p>Per impostare una scadenza per la fase, fare clic su un'opzione nell'elenco a discesa <strong>Opzioni scadenza</strong>. Quindi, in <strong>Scadenza</strong>, eseguire una delle operazioni seguenti:</p>
           <ul>
-           <li>Se si sceglie <strong>Imposta data specifica</strong>: seleziona la data e l’ora di scadenza desiderate.</li>
-           <li>Se si sceglie <strong>Calcola dalla data di attivazione della fase</strong>: seleziona il numero di giorni lavorativi da aggiungere alla data di attivazione della fase per determinare la scadenza.</li>
+           <li>Se si sceglie <strong>Imposta data specifica</strong>: selezionare la data e l'ora di scadenza desiderate.</li>
+           <li>Se si sceglie <strong>Calcola dalla data di attivazione della fase</strong>: selezionare il numero di giorni lavorativi che si desidera aggiungere alla data di attivazione della fase per determinare la scadenza.</li>
           </ul></td>
         </tr>
         <tr>
@@ -117,11 +117,11 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
         </tr>
         <tr>
          <td role="rowheader">Trasferisci i diritti di decisione primari a</td>
-         <td><p>Selezionare il decisore principale sullo stadio (disponibile solo dopo aver aggiunto almeno una persona allo stadio con il ruolo di Approvatore di bozza o superiore). Se si seleziona un responsabile delle decisioni principale, <strong>È necessaria una sola decisione</strong> in questa fase l'opzione è disattivata.</p></td>
+         <td><p>Selezionare il decisore principale sullo stadio (disponibile solo dopo aver aggiunto almeno una persona allo stadio con il ruolo di Approvatore di bozza o superiore). Se si seleziona un decisore principale, l'opzione <strong>È richiesta una sola decisione</strong> è disabilitata in questa fase.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Richiedi una sola decisione per questa fase</td>
-         <td>Termina l’intero processo di revisione quando uno dei responsabili decisionali prende una decisione.<p>Questa opzione non è disponibile se hai designato un utente nel <strong>Principale responsabile delle decisioni</strong>menu a discesa.</p></td>
+         <td>Termina l’intero processo di revisione quando uno dei responsabili decisionali prende una decisione.<p>Questa opzione non è disponibile se hai designato un utente nel menu a discesa <strong>Principale responsabile delle decisioni</strong>.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Rendi privata questa fase</td>
@@ -132,18 +132,18 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Per aggiungere e configurare un&#39;altra fase:
 
-   1. Clic **Nuova fase**.
-   1. (Facoltativo) Per creare un nome per la prima fase, fare clic su **Fase 2** (o **Fase 3**, **Fase 4** e così via), quindi digita il nome.
+   1. Fare clic su **Nuova fase**.
+   1. (Facoltativo) Se si desidera creare un nome per la prima fase, fare clic su **Fase 2** (o **Fase 3**, **Fase 4** e così via), quindi digitare il nome.
 
-   1. Fai clic su **Attiva fase**, quindi selezionare un&#39;opzione per specificare se la fase viene attivata automaticamente o manualmente.
+   1. Fare clic su **Attiva fase**, quindi selezionare un&#39;opzione per specificare se la fase viene attivata automaticamente o manualmente.
 
-      Oltre alle opzioni **Alla creazione della bozza**, **In una data e un’ora specifiche**, o **Manualmente**, puoi selezionare un’opzione che dipende da ciò che si è verificato nel passaggio precedente:
+      Oltre alle opzioni **Durante la creazione della bozza**, **In una data e un&#39;ora specifiche** o **Manualmente**, puoi selezionare un&#39;opzione che dipende da ciò che si è verificato nel passaggio precedente:
 
       ![](assets/activate-stage-options-for-stage-2-plus-350x177.png)
 
    1. Se è stata selezionata un&#39;opzione Attiva fase che dipende da quanto si è verificato nel passaggio precedente, utilizzare le opzioni visualizzate per configurare l&#39;impostazione di attivazione.
 
-      Ad esempio, se hai selezionato **Quando lo stato della fase precedente cambia**, seleziona la **Fase precedente**, quindi seleziona lo stato in **Stato modificato in** casella.
+      Ad esempio, se hai selezionato **Quando lo stato della fase precedente cambia**, seleziona **Fase precedente**, quindi seleziona lo stato nella casella **Stato modificato in**.
 
 1. Ripetere il passaggio precedente in base alle esigenze per aggiungere altre fasi.
 
@@ -155,13 +155,13 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Configurare le impostazioni e-mail per la bozza {#configure-email-settings-for-the-proof}
 
-1. In **Notifica e-mail** , seleziona se inviare notifiche e-mail e un messaggio personalizzato agli utenti selezionati in [Creare una bozza avanzata con un flusso di lavoro automatizzato](#workflow) più avanti in questo articolo:
+1. Nella sezione **Notifica e-mail**, seleziona se inviare notifiche e-mail e un messaggio personalizzato agli utenti selezionati in [Crea una bozza avanzata con un flusso di lavoro automatizzato](#workflow) in precedenza in questo articolo:
 
    <table>
       <tbody>
       <tr>
       <td>Notifica i destinatari relativamente a questa bozza</td>
-      <td>Seleziona questa opzione per inviare una notifica e-mail agli utenti. Quando <strong>Condivisione di base</strong> è selezionato in <strong>Flusso di lavoro</strong> , al momento della creazione della bozza viene inviata una notifica e-mail. Quando <strong>Flusso di lavoro automatico</strong> è selezionato in <strong>Flusso di lavoro</strong> , viene inviata una notifica e-mail quando la bozza entra nella fase del flusso di lavoro automatizzato a cui è associato l’utente.</td>
+      <td>Seleziona questa opzione per inviare una notifica e-mail agli utenti. Quando nella sezione <strong>Flusso di lavoro</strong> è selezionata la condivisione di base</strong>, al momento della creazione della bozza viene inviata una notifica e-mail. <strong> Quando <strong>Flusso di lavoro automatico</strong> è selezionato nella sezione <strong>Flusso di lavoro</strong>, viene inviata una notifica e-mail quando la bozza entra nella fase del Flusso di lavoro automatico a cui è associato l'utente.</td>
       </tr>
       <tr>
       <td>Aggiungi messaggio personalizzato</td>
@@ -175,7 +175,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Configura impostazioni bozza {#configure-proof-settings}
 
-1. In **Impostazioni bozza** , selezionare una delle opzioni seguenti:
+1. Nella sezione **Impostazioni bozza**, selezionare una delle opzioni seguenti:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -204,7 +204,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
      </tr> 
      <tr> 
       <td role="rowheader">Scarica il file originale</td> 
-      <td>Quando questa opzione è selezionata, i revisori possono scaricare il file originale da cui è stata creata la bozza.<br>Quando questa opzione è deselezionata, l’icona Scarica non è più visibile.<br>Questa opzione è attivata per impostazione predefinita.</td> 
+      <td>Quando questa opzione è selezionata, i revisori possono scaricare il file originale da cui è stata creata la bozza.<br>Quando questa opzione è deselezionata, l'icona Scarica non è più visibile.<br>Questa opzione è attivata per impostazione predefinita.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Condividi bozza tramite URL pubblico o codice incorporato</td> 
@@ -214,22 +214,22 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       <td role="rowheader">Iscriviti alla bozza tramite URL pubblico o codice di incorporamento</td> 
       <td>Quando questa opzione è selezionata, le persone che non sono state aggiunte esplicitamente alla bozza possono abbonarsi alla bozza. Alla persona che si abbona alla bozza vengono assegnati il ruolo e l’e-mail definiti nelle seguenti impostazioni:
        <ul>
-        <li><strong>Ruolo del sottoscrittore:</strong> Ruolo di bozza predefinito assegnato a tutti i revisori che si abbonano alla bozza.</li>
-        <li><strong>Impostazioni degli avvisi e-mail per gli abbonati:</strong> L’avviso e-mail predefinito assegnato a tutti i revisori che si abbonano alla bozza.</li>
+        <li><strong>Ruolo del sottoscrittore:</strong> Ruolo di bozza predefinito assegnato a tutti i revisori che sottoscrivono la bozza.</li>
+        <li><strong>Impostazioni degli avvisi e-mail per i sottoscrittori:</strong> L'avviso e-mail predefinito assegnato a tutti i revisori che si abbonano alla bozza.</li>
        </ul><p>
         <ul>
-         <li><strong>L’accesso alla bozza tramite il collegamento e-mail è necessario per:</strong> Specifica se il sottoscrittore riceve un’e-mail con un collegamento alla bozza. Puoi selezionare <strong>Nessuna e-mail</strong> (non è necessario un collegamento e-mail per accedere alla bozza), <strong>Solo e-mail di notifica bozza</strong> (l’abbonato riceve un collegamento alla bozza via e-mail senza alcuna verifica), oppure <strong>E-mail di notifica per convalida e bozza</strong> (l’abbonato riceve un collegamento alla bozza tramite e-mail e deve fare clic sul collegamento per accedere a una bozza; lo scopo di questa opzione è garantire che l’utente abbia inserito un indirizzo e-mail corretto al quale ha accesso).</li>
-        </ul><p><strong>Nota:</strong> Se alle bozze è allegato un flusso di lavoro automatico, tutti gli abbonamenti genereranno e-mail di conferma ai proprietari delle bozze, in modo che possano decidere a quale fase aggiungere la persona.<br></p></p></td> 
+         <li><strong>Accesso alla bozza tramite collegamento e-mail richiesto per:</strong> Configurare se il sottoscrittore riceve un'e-mail con un collegamento alla bozza. È possibile selezionare <strong>Nessuna e-mail</strong> (il collegamento e-mail non è necessario per accedere alla bozza), <strong>Solo e-mail di notifica bozza</strong> (l'abbonato riceve un collegamento alla bozza tramite e-mail senza alcuna verifica) o <strong>E-mail di notifica di convalida e bozza</strong> (l'abbonato riceve un collegamento alla bozza tramite e-mail e deve fare clic sul collegamento per accedere a una bozza; lo scopo di questa opzione è verificare che l'utente abbia immesso un indirizzo e-mail corretto al quale ha accesso).</li>
+        </ul><p><strong>Nota:</strong> se alle bozze è allegato un flusso di lavoro automatizzato, tutte le sottoscrizioni genereranno e-mail di conferma ai proprietari delle bozze, in modo che possano decidere a quale fase aggiungere la persona.<br></p></p></td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Clic **Crea bozza**.
+1. Fare clic su **Crea bozza**.
 
    Workfront inizia a generare una bozza dei documenti o dei siti web selezionati. A seconda delle dimensioni e del tipo di file, il tempo di ritardo per il caricamento di un documento può variare. Attendi, poiché la generazione di file più grandi richiede più tempo. Puoi spostarti dalla pagina e Workfront continua a generare il file. La dimensione massima per il caricamento dei file è di 4 GB.
 
-1. Una volta generata la bozza, fai clic su **Apri bozza** per avviare il visualizzatore di bozze.
+1. Dopo aver generato la bozza, fare clic su **Apri bozza** per avviare il visualizzatore di bozze.
 
    ![](assets/open-proof-350x132.png)
 
-   Gli utenti che non hanno la funzione di verifica attivata sul proprio account possono comunque visualizzare il documento e aggiungere commenti alla bozza [.](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)
+   Gli utenti che non hanno abilitato la verifica sul proprio account possono comunque visualizzare il documento e aggiungere commenti alla bozza [.](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)

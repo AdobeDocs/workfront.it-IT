@@ -28,7 +28,7 @@ Con i moduli Adobe Journey Optimizer, puoi:
 * Cerca i record Adobe Journey Optimizer utilizzando i criteri specificati
 * Effettuare una chiamata API personalizzata all’API Adobe Journey Optimizer
 
-Per ulteriori informazioni, consulta [Moduli Adobe Journey Optimizer](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md).
+Per ulteriori informazioni, vedere [Moduli Adobe Journey Optimizer](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md).
 
 ## Connettore e moduli Adobe Campaign Classic ora disponibili
 
@@ -40,4 +40,4 @@ Con i moduli Adobe Campaign Classic, puoi:
 * Eseguire un’azione dall’API di Adobe Campaign
 * Effettuare una chiamata API personalizzata all’API Adobe Campaign Classic
 
-Per ulteriori informazioni, consulta [Moduli Adobe Campaign Classic](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md).
+Per ulteriori informazioni, vedere [Moduli Adobe Campaign Classic](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md).

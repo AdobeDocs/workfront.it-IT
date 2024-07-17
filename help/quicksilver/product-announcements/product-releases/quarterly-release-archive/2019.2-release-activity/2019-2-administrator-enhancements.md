@@ -22,10 +22,10 @@ Questa pagina descrive tutti i miglioramenti per gli amministratori inclusi nell
 >
 >La funzionalità descritta in questa pagina è soggetta a modifiche prima della disponibilità nell’ambiente di produzione.
 
-Per un elenco di tutte le modifiche apportate in 2019.2, consulta [Panoramica dell’attività sulla versione 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+Per un elenco di tutte le modifiche apportate in 2019.2, consulta [Panoramica delle attività sulla versione 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
 
 ## Specificare i Ruoli nelle Voci Orarie
 
 È ora possibile specificare una mansione durante la registrazione dell’ora in Workfront. Per utilizzare questa funzione, l’amministratore di Workfront deve abilitare un’impostazione in Scheda orario e ore > Preferenze.
 
-Per ulteriori informazioni su come specificare una mansione durante la registrazione dell’ora, consulta l’articolo [Tempo di connessione](../../../../timesheets/create-and-manage-timesheets/log-time.md).
+Per ulteriori informazioni su come specificare una mansione durante la registrazione dell&#39;ora, vedere l&#39;articolo [Registra ora](../../../../timesheets/create-and-manage-timesheets/log-time.md).

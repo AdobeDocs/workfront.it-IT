@@ -9,8 +9,8 @@ feature: Reports and Dashboards
 exl-id: 31794fe9-a04a-437d-8d2e-40e0cb6e6104
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 0%
+source-wordcount: '350'
+ht-degree: 1%
 
 ---
 
@@ -45,28 +45,27 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Visualizza la durata effettiva del progetto aggregata in base alla media in un raggruppamento
 
 Per aggiungere questa colonna a una visualizzazione di progetto:
 
 1. (Consigliato) Per ottenere risultati migliori e vedere il valore medio aggregato della Durata effettiva, devi avere un Raggruppamento aggiunto all’elenco o al rapporto del progetto.\
-   Per ulteriori informazioni sulla creazione di raggruppamenti, consulta l’articolo [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Per ulteriori informazioni sulla creazione di raggruppamenti, vedere l&#39;articolo [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 1. Passa a una visualizzazione di progetto esistente.
-1. Espandi il menu a discesa Visualizza e seleziona **Personalizza visualizzazione**.
-1. Clic **Aggiungi colonna**.
-1. Clic **Passa alla modalità testo**.
-1. Passa il puntatore del mouse sopra **Mostra in questa colonna** e fai clic su **Fare clic per modificare il testo**.
+1. Espandere il menu a discesa Visualizza e selezionare **Personalizza visualizzazione**.
+1. Fare clic su **Aggiungi colonna**.
+1. Fare clic su **Passa alla modalità testo**.
+1. Passa il puntatore del mouse sull&#39;area **Mostra in questa colonna** e fai clic su **Fai clic per modificare il testo**.
 
 1. Rimuovere tutto il testo nella casella Modalità testo e sostituirlo con il seguente codice:
+   <pre>aggregator.displayformat=composto <br>aggregator.function=AVG <br>aggregator.namekey=view.relatedcolumn <br>aggregator.namekeyargkey=actualduration <br>aggregator.valuefield=actualDurationMinutes <br>aggregator.valueformat=val <br>displayname=Project Actual Duration <br>durationunitfield=durationUnit.value <br>linkedname=project <br>namekey=actualduration <br>namekeyargkey=actualduration <br>querysort=actualDuration Min<br>textmode=true <br>valuefield=actualDurationMinutes <br>valueformat=composto#M:D <br>viewalias=actualduration</pre>
 
-   <pre>aggregator.displayformat=composto <br>aggregator.function=AVG <br>aggregator.namekey=view.relatedcolumn <br>aggregator.namekeyargkey=durata effettiva <br>aggregator.valuefield=actualDurationMinutes <br>aggregator.valueformat=val <br>displayname=Durata effettiva progetto <br>durationunitfield=durationUnit.value <br>linkedname=progetto <br>namekey=actualduration <br>namekeyargkey=durata effettiva <br>querysort=actualDurationMinutes <br>textmode=true <br>valuefield=actualDurationMinutes <br>valueformat=composto#M:D <br>viewalias=actualduration</pre>
-
-1. Clic **Salva visualizzazione**.
+1. Fai clic su **Salva vista**.

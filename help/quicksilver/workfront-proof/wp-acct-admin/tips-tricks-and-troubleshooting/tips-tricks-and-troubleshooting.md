@@ -3,7 +3,7 @@ content-type: tips-tricks-troubleshooting;reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-administration
-title: Suggerimenti, trucchi e risoluzione dei problemi per [!DNL Workfront] Amministrazione account bozza
+title: Suggerimenti, trucchi e risoluzione dei problemi per l'amministrazione dell'account di verifica  [!DNL Workfront]
 description: Scopri come risolvere i problemi relativi agli account Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -16,12 +16,12 @@ ht-degree: 0%
 
 ---
 
-# Suggerimenti, trucchi e risoluzione dei problemi per [!DNL Workfront Proof] amministrazione account
+# Suggerimenti, trucchi e risoluzione dei problemi per l&#39;amministrazione dell&#39;account [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alle funzionalità del prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Bozza](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
 Questa sezione contiene i seguenti articoli:
 
-* [Domande frequenti: [!DNL Workfront Proof] - Migrazione dagli Stati Uniti all&#39;area EMEA](../../../workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/faq-wp-us-to-emea-mig.md)
+* [Domande frequenti: [!DNL Workfront Proof] - Migrazione da Stati Uniti a EMEA](../../../workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/faq-wp-us-to-emea-mig.md)

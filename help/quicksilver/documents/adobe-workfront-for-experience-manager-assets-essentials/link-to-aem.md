@@ -2,7 +2,7 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Collegare risorse e cartelle da Experience Manager Assets o Assets Essentials
-description: Puoi collegare una risorsa o una cartella da Experience Manager Assets o Assets Essentials a qualsiasi oggetto Adobe Workfront che supporta i documenti. Le risorse inviate da Assets Essentials non vengono conteggiate per l’archiviazione completa dei documenti in Workfront. I documenti caricati e inviati da Workfront ad Assets Essentials sono considerati come documenti di archiviazione generale.
+description: Puoi collegare una risorsa o una cartella da Experience Manager Assets o da Assets Essentials a qualsiasi oggetto Adobe Workfront che supporta i documenti. Assets inviato dagli Assets Essentials non viene conteggiato per l’archiviazione complessiva dei documenti in Workfront. I documenti caricati e inviati da Workfront agli Assets Essentials vengono conteggiati ai fini dell’archiviazione complessiva.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: dbd19985-88b1-48ca-9cba-b7933ff2c191
@@ -15,62 +15,62 @@ ht-degree: 0%
 
 # Collegare risorse e cartelle da Experience Manager Assets o Assets Essentials
 
-Puoi collegare una risorsa o una cartella da Experience Manager Assets o Assets Essentials a qualsiasi oggetto Adobe Workfront che supporta i documenti. Le risorse inviate da Assets Essentials non vengono conteggiate per l’archiviazione completa dei documenti in Workfront. I documenti caricati e inviati da Workfront ad Assets Essentials sono considerati come documenti di archiviazione generale.
+Puoi collegare una risorsa o una cartella da Experience Manager Assets o da Assets Essentials a qualsiasi oggetto Adobe Workfront che supporta i documenti. Assets inviato dagli Assets Essentials non viene conteggiato per l’archiviazione complessiva dei documenti in Workfront. I documenti caricati e inviati da Workfront agli Assets Essentials vengono conteggiati ai fini dell’archiviazione complessiva.
 
-I campi metadati vengono mappati per la prima volta quando invii una risorsa da Workfront a Experience Manager Assets o Assets Essentials. Se l’amministratore di Workfront ha abilitato la sincronizzazione dei metadati degli oggetti, i campi rimangono aggiornati se vengono modificati in entrambe le applicazioni.
+I campi metadati vengono mappati per la prima volta quando invii una risorsa da Workfront a Experience Manager Assets o ad Assets Essentials. Se l&#39;amministratore di Workfront ha attivato la sincronizzazione dei metadati dell&#39;oggetto, i campi rimangono aggiornati se vengono modificati in una delle applicazioni.
 
 ## Requisiti di accesso
 
-Devi disporre dei seguenti elementi:
+Devi avere i seguenti:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p> Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenze Adobe Workfront*</td> 
-   <td> <p>Richiesta o superiore</p> </td> 
+   <td> <p>Richiedi o superiore</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
-   <td>Devi disporre di un Experience Manager as a Cloud Service o Assets Essentials e devi essere aggiunto al prodotto come utente nell’Admin Console.</td> 
+   <td>Devi disporre di Assets Essentials di Experience Manager as a Cloud Service e devi essere aggiunto al prodotto come utente nell’Admin Console.</td> 
   </tr> 
    <tr> 
-    <td role="rowheader">Autorizzazioni di Experienci Manager</td> 
+    <td role="rowheader">Autorizzazioni Experience Manager</td> 
     <td>È necessario disporre dell'accesso in scrittura alla cartella.</td> 
    </tr>
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Modifica accesso ai documenti</p> <p>Nota: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modifica accesso ai documenti</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizza accesso o superiore</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Accesso di visualizzazione o versione successiva</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Prerequisiti
 
 Prima di iniziare,
 
-* L’amministratore di Workfront deve configurare un’integrazione Experience Manager. Per ulteriori informazioni, consulta [Configurare l’integrazione as a Cloud Service di Experience Manager Assets](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) o [Configurare l’integrazione Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* L’amministratore di Workfront deve configurare un’integrazione Experience Manager. Per ulteriori informazioni, consulta [Configurare Experience Manager Assets as a Cloud Service Integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) o [Configurare l&#39;integrazione Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
-## Collegamento di una risorsa da Experience Manager Assets o Assets Essentials
+## Collegare una risorsa da Experience Manager Assets o Assets Essentials
 
-Puoi collegare una risorsa da Experience Manager Assets o Assets Essentials a Workfront. Una volta collegata la risorsa, puoi
+Puoi collegare una risorsa da Experience Manager Assets o da Assets Essentials a Workfront. Una volta collegata la risorsa, puoi
 
-* [Prova di una risorsa collegata per Experience Manager Assets o Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
-* [Caricare una nuova versione di un documento](../../documents/managing-documents/upload-new-document-version.md)
+* [Verifica di una risorsa collegata per Experience Manager Assets o Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
+* [Carica una nuova versione di un documento](../../documents/managing-documents/upload-new-document-version.md)
 
-1. Vai a **Documenti** in Workfront in cui si desidera aggiungere il documento.
-1. Seleziona **Aggiungi nuovo**, quindi seleziona l’integrazione di Experience Manager configurata dall’amministratore.
+1. Vai all&#39;area **Documenti** in Workfront in cui desideri aggiungere il documento.
+1. Seleziona **Aggiungi nuovo**, quindi seleziona l&#39;integrazione di Experience Manager configurata dall&#39;amministratore.
 
    >[!NOTE]
    >
@@ -82,12 +82,12 @@ Puoi collegare una risorsa da Experience Manager Assets o Assets Essentials a Wo
 
 1. Fai clic su **Seleziona**.
 
-## Collegamento di una cartella da Experience Manager Assets o Assets Essentials
+## Collegare una cartella da Experience Manager Assets o Assets Essentials
 
-Le autorizzazioni per visualizzare le singole risorse all’interno di una cartella si basano sulle autorizzazioni di Experience Manager Assets o Assets Essentials.
+Le autorizzazioni per visualizzare singole risorse all’interno di una cartella si basano su autorizzazioni Experience Manager Assets o Assets Essentials.
 
-1. Vai a **Documenti** in Workfront in cui si desidera inserire la cartella.
-1. Seleziona **Aggiungi nuovo**, quindi seleziona l’integrazione di Experience Manager configurata dall’amministratore.
+1. Vai all&#39;area **Documenti** in Workfront in cui desideri inserire la cartella.
+1. Seleziona **Aggiungi nuovo**, quindi seleziona l&#39;integrazione di Experience Manager configurata dall&#39;amministratore.
 
    >[!NOTE]
    >
@@ -99,15 +99,15 @@ Le autorizzazioni per visualizzare le singole risorse all’interno di una carte
 
 1. Fai clic su **Seleziona**.
 
-## Collegamento di una nuova versione da Experience Manager Assets o Assets Essentials
+## Collega una nuova versione da Experience Manager Assets o Assets Essentials
 
-Puoi estrarre una nuova risorsa da Assets Essentials e aggiungerla a una risorsa esistente come nuova versione. Se il documento è già collegato e viene aggiunta una nuova versione in Assets Essentials, la nuova versione viene visualizzata automaticamente in Workfront.
+Puoi estrarre una nuova risorsa dagli Assets Essentials e aggiungerla a una risorsa esistente come nuova versione. Se il documento è già collegato e viene aggiunta una nuova versione negli Assets Essentials, la nuova versione viene visualizzata automaticamente in Workfront.
 
-Per collegare una nuova versione da Assets Essentials:
+Per collegare una nuova versione dagli Assets Essentials:
 
-1. Vai a **Documenti** in Workfront in cui si desidera aggiungere il documento.
-1. Seleziona la risorsa da sostituire con una nuova versione. Non è possibile creare una nuova versione di una risorsa in una cartella collegata.
-1. Seleziona **Aggiungi nuovo** > **Versione**, quindi seleziona l’integrazione di Experience Manager configurata dall’amministratore.
+1. Vai all&#39;area **Documenti** in Workfront in cui desideri aggiungere il documento.
+1. Seleziona la risorsa da sostituire con una nuova versione. Non puoi creare una nuova versione di una risorsa in una cartella collegata.
+1. Seleziona **Aggiungi nuovo** > **Versione**, quindi seleziona l&#39;integrazione di Experience Manager configurata dall&#39;amministratore.
 
    >[!NOTE]
    >
@@ -121,4 +121,4 @@ Per collegare una nuova versione da Assets Essentials:
 
 >[!TIP]
 >
->Se passi a **Dettagli documento** > **Versioni**.
+>Puoi visualizzare tutte le versioni di una risorsa se vai a **Dettagli documento** > **Versioni**.

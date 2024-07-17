@@ -5,26 +5,26 @@ product-area: workfront-integrations;documents
 keywords: connettore
 navigation-topic: apps-and-their-modules
 title: Moduli unità Google
-description: Il [!DNL Adobe Workfront Fusion Google Drive] I moduli consentono di monitorare, cercare, creare, aggiornare, eliminare e gestire file, cartelle o unità condivise nei [!DNL Google Drive].
+description: I  [!DNL Adobe Workfront Fusion Google Drive] moduli ti consentono di monitorare, cercare, creare, aggiornare, eliminare e gestire i tuoi file, cartelle o unità condivise nel tuo [!DNL Google Drive].
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d620c93-d1bf-4451-9f76-1d6fd850cec9
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '2956'
+source-wordcount: '2941'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Drive] moduli
 
-Il [!DNL Adobe Workfront Fusion] [!DNL Google Drive] I moduli consentono di monitorare, cercare, creare, aggiornare, eliminare e gestire file, cartelle o unità condivise nei [!DNL Google Drive].
+I moduli [!DNL Adobe Workfront Fusion] [!DNL Google Drive] consentono di monitorare, cercare, creare, aggiornare, eliminare e gestire i file, la cartella o le unità condivise in [!DNL Google Drive].
 
-In un [!DNL Adobe Workfront Fusion] scenario, puoi collegare il tuo [!DNL Google Drive] account per più applicazioni e servizi di terze parti.
+In uno scenario [!DNL Adobe Workfront Fusion], è possibile collegare l&#39;account [!DNL Google Drive] a più applicazioni e servizi di terze parti.
 
-Per istruzioni sulla creazione di uno scenario, consulta [Creare uno scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Se hai bisogno di istruzioni per la creazione di uno scenario, consulta [Creare uno scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Per informazioni sui moduli, consulta [Moduli in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Per informazioni sui moduli, vedere [Moduli in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Requisiti di accesso
 
@@ -45,41 +45,41 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licenza**</td> 
    <td>
-   <p>Fabbisogno di licenza corrente: No [!DNL Workfront Fusion] requisito di licenza.</p>
+   <p>Requisiti di licenza correnti: nessun requisito di licenza [!DNL Workfront Fusion].</p>
    <p>Oppure</p>
-   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro] </p>
+   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione del lavoro] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
    <td>
-   <p>Fabbisogno prodotto corrente: se si dispone di [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Pianifica, la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo. [!DNL Workfront Fusion] è incluso in [!UICONTROL Ultimate] [!DNL Workfront] piano.</p>
+   <p>Fabbisogno prodotto corrente: se si dispone del piano [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], l'organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo. [!DNL Workfront Fusion] è incluso nel piano [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>Oppure</p>
-   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</p>
+   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore [!DNL Workfront].
 
-Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 
 
-## Connessione [!DNL Google Drive] a [!DNL Workfront Fusion]
+## Connessione di [!DNL Google Drive] a [!DNL Workfront Fusion]
 
-Se sei [!DNL @gmail.com] o [!DNL @googlemail.com] utente necessario per creare un client OAuth su [il [!DNL Google Cloud Platform]](https://console.developers.google.com/projectselector2/apis/dashboard?supportedpurview=project) per ottenere [!UICONTROL ID client] e [!UICONTROL Segreto client].
+Se sei [!DNL @gmail.com] o [!DNL @googlemail.com] utente devi creare un client OAuth su [the [!DNL Google Cloud Platform]](https://console.developers.google.com/projectselector2/apis/dashboard?supportedpurview=project) per ottenere [!UICONTROL ID client] e [!UICONTROL Segreto client].
 
-Per istruzioni dettagliate su come creare il client OAuth (e ottenere [!UICONTROL ID client] e [!UICONTROL Segreto client]), vedi [Connetti [!DNL Adobe Workfront Fusion] a [!DNL Google Services] utilizzo di un client OAuth personalizzato](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md).
+Per istruzioni dettagliate su come creare il client OAuth (e ottenere [!UICONTROL ID client] e [!UICONTROL Segreto client]), vedi [Connetti [!DNL Adobe Workfront Fusion] a [!DNL Google Services] utilizzando un client OAuth personalizzato](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md).
 
-Per istruzioni sulla connessione [!DNL Google Drive] account a [!UICONTROL Workfront Fusion], vedi [Creare una connessione a [!UICONTROL Adobe Workfront Fusion] - Istruzioni di base](../../workfront-fusion/connections/connect-to-fusion-general.md)
+Per istruzioni sulla connessione dell&#39;account [!DNL Google Drive] a [!UICONTROL Workfront Fusion], vedere [Creare una connessione a [!UICONTROL Adobe Workfront Fusion] - Istruzioni di base](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
 ## [!DNL Google Drive] moduli e relativi campi
 
-Quando si configura [!DNL Google Drive] moduli, [!DNL Workfront Fusion] visualizza i campi elencati di seguito. Oltre a questi, ulteriori [!DNL Google Drive] I campi potrebbero essere visualizzati in base a fattori quali il livello di accesso nell’app o nel servizio. Un titolo in grassetto in un modulo indica un campo obbligatorio.
+Quando configuri [!DNL Google Drive] moduli, [!DNL Workfront Fusion] visualizza i campi elencati di seguito. Insieme a questi, potrebbero essere visualizzati ulteriori campi di [!DNL Google Drive], a seconda di fattori quali il livello di accesso nell&#39;app o nel servizio. Un titolo in grassetto in un modulo indica un campo obbligatorio.
 
-Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possibile utilizzarlo per impostare variabili e funzioni per tale campo. Per ulteriori informazioni, consulta [Mappare le informazioni da un modulo all’altro in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possibile utilizzarlo per impostare variabili e funzioni per tale campo. Per ulteriori informazioni, vedere [Mappare le informazioni da un modulo all&#39;altro in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -105,7 +105,7 @@ Recupera i dettagli del file quando un file viene aggiunto o modificato nella ca
  <tbody> 
   <tr> 
     <td>[!UICONTROL Connection] </td>
-   <td> <p>Per istruzioni sulla connessione [!DNL Google Drive] account a [!DNL Workfront Fusion], vedi <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connessione [!DNL Google Drive] a [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Google Drive] a [!DNL Workfront Fusion], vedere <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL Google Drive] a [!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr>
     <td>[!UICONTROL Seleziona la cartella da controllare]</td>
@@ -123,20 +123,20 @@ Recupera i dettagli del file quando un file viene aggiunto o modificato nella ca
     </ul> </td> 
   </tr> 
   <tr> 
-    <td >Converti [!UICONTROL [!DNL Google Documents] file da formattare]</td>
-    <td>Selezionare il formato di file da convertire [!DNL Google Documents] a.</td>
+    <td >[!UICONTROL Converti [!DNL Google Documents] file in formato]</td>
+    <td>Selezionare il formato di file in cui convertire [!DNL Google Documents].</td>
   </tr> 
   <tr>
-    <td>Converti [!UICONTROL [!DNL Google Spreadsheets] file da formattare]</td>
-    <td>Selezionare il formato di file da convertire [!DNL Google Spreadsheets] a.</td>
+    <td>[!UICONTROL Converti [!DNL Google Spreadsheets] file in formato]</td>
+    <td>Selezionare il formato di file in cui convertire [!DNL Google Spreadsheets].</td>
   </tr> 
   <tr>
-    <td>Converti [!UICONTROL [!DNL Google Slides] file da formattare]</td>
-    <td>Selezionare il formato di file da convertire [!DNL Google Slides] a.</td>
+    <td>[!UICONTROL Converti [!DNL Google Slides] file in formato]</td>
+    <td>Selezionare il formato di file in cui convertire [!DNL Google Slides].</td>
   </tr> 
   <tr>
-    <td>Converti [!UICONTROL [!DNL Google Drawings] file da formattare]</td>
-    <td>Selezionare il formato di file da convertire [!DNL Google Drawings] a.</td>
+    <td>[!UICONTROL Converti [!DNL Google Drawings] file in formato]</td>
+    <td>Selezionare il formato di file in cui convertire [!DNL Google Drawings].</td>
   </tr> 
   <tr>
     <td>[!UICONTROL Watch]</td>
@@ -144,14 +144,14 @@ Recupera i dettagli del file quando un file viene aggiunto o modificato nella ca
   </tr> 
   <tr> 
     <td>[!UICONTROL Numero massimo di file scaricati]</td>
-    <td>Imposta il numero massimo di risultati che [!DNL Workfront Fusion] verrà scaricato durante un ciclo (il numero di ripetizioni per esecuzione dello scenario).</td>
+    <td>Impostare il numero massimo di risultati che [!DNL Workfront Fusion] scaricherà durante un ciclo (il numero di ripetizioni per esecuzione dello scenario).</td>
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL Guarda tutti i file]
 
-Recupera i dettagli del file quando un file nel [!DNL Google Drive] viene aggiunta o modificata.
+Recupera i dettagli del file quando un file in [!DNL Google Drive] viene aggiunto o modificato.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -159,7 +159,7 @@ Recupera i dettagli del file quando un file nel [!DNL Google Drive] viene aggiun
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Google Drive] account a [!DNL Workfront Fusion], vedi <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connessione [!DNL Google Drive] a [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Google Drive] a [!DNL Workfront Fusion], vedere <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL Google Drive] a [!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Quali file guardare]</td> 
@@ -173,20 +173,20 @@ Recupera i dettagli del file quando un file nel [!DNL Google Drive] viene aggiun
     </ul> </td> 
   </tr> 
   <tr> 
-    <td >Converti [!UICONTROL [!DNL Google Documents] file da formattare]</td>
-    <td>Selezionare il formato di file da convertire [!DNL Google Documents] a.</td>
+    <td >[!UICONTROL Converti [!DNL Google Documents] file in formato]</td>
+    <td>Selezionare il formato di file in cui convertire [!DNL Google Documents].</td>
   </tr> 
   <tr>
-    <td>Converti [!UICONTROL [!DNL Google Spreadsheets] file da formattare]</td>
-    <td>Selezionare il formato di file da convertire [!DNL Google Spreadsheets] a.</td>
+    <td>[!UICONTROL Converti [!DNL Google Spreadsheets] file in formato]</td>
+    <td>Selezionare il formato di file in cui convertire [!DNL Google Spreadsheets].</td>
   </tr> 
   <tr>
-    <td>Converti [!UICONTROL [!DNL Google Slides] file da formattare]</td>
-    <td>Selezionare il formato di file da convertire [!DNL Google Slides] a.</td>
+    <td>[!UICONTROL Converti [!DNL Google Slides] file in formato]</td>
+    <td>Selezionare il formato di file in cui convertire [!DNL Google Slides].</td>
   </tr> 
   <tr>
-    <td>Converti [!UICONTROL [!DNL Google Drawings] file da formattare]</td>
-    <td>Selezionare il formato di file da convertire [!DNL Google Drawings] a.</td>
+    <td>[!UICONTROL Converti [!DNL Google Drawings] file in formato]</td>
+    <td>Selezionare il formato di file in cui convertire [!DNL Google Drawings].</td>
   </tr>  
   <tr> 
    <td>[!UICONTROL Watch]</td> 
@@ -194,7 +194,7 @@ Recupera i dettagli del file quando un file nel [!DNL Google Drive] viene aggiun
   </tr> 
   <tr> 
    <td>[!UICONTROL Numero massimo di file scaricati]</td> 
-   <td>Imposta il numero massimo di risultati che [!DNL Workfront Fusion] verrà scaricato durante un ciclo (il numero di ripetizioni per esecuzione dello scenario).</td> 
+   <td>Impostare il numero massimo di risultati che [!DNL Workfront Fusion] scaricherà durante un ciclo (il numero di ripetizioni per esecuzione dello scenario).</td> 
   </tr> 
  </tbody> 
 </table>
@@ -209,7 +209,7 @@ Si attiva quando viene condiviso un nuovo file o viene aggiornato un file condiv
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Google Drive] account a [!DNL Workfront Fusion], vedi <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connessione [!DNL Google Drive] a [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Google Drive] a [!DNL Workfront Fusion], vedere <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL Google Drive] a [!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Seleziona la cartella da controllare]</td> 
@@ -227,20 +227,20 @@ Si attiva quando viene condiviso un nuovo file o viene aggiornato un file condiv
     </ul> </td> 
   </tr> 
   <tr> 
-    <td >Converti [!UICONTROL [!DNL Google Documents] file da formattare]</td>
-    <td>Selezionare il formato di file da convertire [!DNL Google Documents] a.</td>
+    <td >[!UICONTROL Converti [!DNL Google Documents] file in formato]</td>
+    <td>Selezionare il formato di file in cui convertire [!DNL Google Documents].</td>
   </tr> 
   <tr>
-    <td>Converti [!UICONTROL [!DNL Google Spreadsheets] file da formattare]</td>
-    <td>Selezionare il formato di file da convertire [!DNL Google Spreadsheets] a.</td>
+    <td>[!UICONTROL Converti [!DNL Google Spreadsheets] file in formato]</td>
+    <td>Selezionare il formato di file in cui convertire [!DNL Google Spreadsheets].</td>
   </tr> 
   <tr>
-    <td>Converti [!UICONTROL [!DNL Google Slides] file da formattare]</td>
-    <td>Selezionare il formato di file da convertire [!DNL Google Slides] a.</td>
+    <td>[!UICONTROL Converti [!DNL Google Slides] file in formato]</td>
+    <td>Selezionare il formato di file in cui convertire [!DNL Google Slides].</td>
   </tr> 
   <tr>
-    <td>Converti [!UICONTROL [!DNL Google Drawings] file da formattare]</td>
-    <td>Selezionare il formato di file da convertire [!DNL Google Drawings] a.</td>
+    <td>[!UICONTROL Converti [!DNL Google Drawings] file in formato]</td>
+    <td>Selezionare il formato di file in cui convertire [!DNL Google Drawings].</td>
   </tr> 
   <tr> 
    <td>[!UICONTROL Watch]</td> 
@@ -248,7 +248,7 @@ Si attiva quando viene condiviso un nuovo file o viene aggiornato un file condiv
   </tr> 
   <tr> 
    <td>[!UICONTROL Numero massimo di file scaricati]</td> 
-   <td>Imposta il numero massimo di risultati che [!DNL Workfront Fusion] verrà scaricato durante un ciclo (il numero di ripetizioni per esecuzione dello scenario).</td> 
+   <td>Impostare il numero massimo di risultati che [!DNL Workfront Fusion] scaricherà durante un ciclo (il numero di ripetizioni per esecuzione dello scenario).</td> 
   </tr> 
  </tbody> 
 </table>
@@ -263,7 +263,7 @@ Si attiva quando un commento viene aggiunto o modificato nel file selezionato.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Google Drive] account a [!DNL Workfront Fusion], vedi <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connessione [!DNL Google Drive] a [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Google Drive] a [!DNL Workfront Fusion], vedere <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL Google Drive] a [!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL File]</td> 
@@ -275,7 +275,7 @@ Si attiva quando un commento viene aggiunto o modificato nel file selezionato.
   </tr> 
   <tr> 
    <td>[!UICONTROL Numero massimo di commenti restituiti]</td> 
-   <td>Imposta il numero massimo di commenti [!DNL Workfront Fusion] restituirà durante un ciclo (il numero di ripetizioni per esecuzione dello scenario).</td> 
+   <td>Impostare il numero massimo di commenti che [!DNL Workfront Fusion] restituirà durante un ciclo (il numero di ripetizioni per esecuzione dello scenario).</td> 
   </tr> 
  </tbody> 
 </table>
@@ -283,18 +283,18 @@ Si attiva quando un commento viene aggiunto o modificato nel file selezionato.
 ### Azioni
 
 * [[!UICONTROL Carica un file]](#upload-a-file)
-* [[!UICONTROL Aggiornare un file]](#update-a-file)
-* [[!UICONTROL Copiare un file]](#copy-a-file)
-* [[!UICONTROL Eliminare un file]](#delete-a-file)
-* [[!UICONTROL Spostare un file o una cartella nel cestino]](#move-a-filefolder-to-trash)
+* [[!UICONTROL Aggiorna un file]](#update-a-file)
+* [[!UICONTROL Copia un file]](#copy-a-file)
+* [[!UICONTROL Elimina un file]](#delete-a-file)
+* [[!UICONTROL Sposta un file o una cartella nel cestino]](#move-a-filefolder-to-trash)
 * [[!UICONTROL Ottieni un file]](#get-a-file)
 * [[!UICONTROL Cerca file/cartelle]](#search-for-filesfolders)
-* [[!UICONTROL Creare una cartella]](#create-a-folder)
+* [[!UICONTROL Crea una cartella]](#create-a-folder)
 * [[!UICONTROL Ottieni un collegamento di condivisione]](#get-a-share-link)
 
 #### [!UICONTROL Carica un file]
 
-Carica un file nel tuo [!DNL Google Drive].
+Carica un file in [!DNL Google Drive].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -302,7 +302,7 @@ Carica un file nel tuo [!DNL Google Drive].
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Google Drive] account a [!DNL Workfront Fusion], vedi <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connessione [!DNL Google Drive] a [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Google Drive] a [!DNL Workfront Fusion], vedere <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL Google Drive] a [!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!DNL Destination]</td> 
@@ -317,7 +317,7 @@ Carica un file nel tuo [!DNL Google Drive].
    <td>Selezionare la cartella in cui si desidera caricare un file. </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL File di origine]</td> 
+   <td>[!UICONTROL Source file]</td> 
    <td>Seleziona se desideri utilizzare un file trasmesso da un modulo precedente o se desideri mappare il file manualmente.</td> 
   </tr> 
   <tr> 
@@ -334,12 +334,12 @@ Carica un file nel tuo [!DNL Google Drive].
   </tr> 
   <tr> 
    <td>[!UICONTROL Converti un file]</td> 
-   <td>L’attivazione di questa opzione consente al modulo di convertire i file nel corrispondente [!DNL Google] formato.</td> 
+   <td>L'attivazione di questa opzione consente al modulo di convertire i file nel formato [!DNL Google] corrispondente.</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Aggiornare un file]
+#### [!UICONTROL Aggiorna un file]
 
 Aggiorna i metadati o il contenuto di un file.
 
@@ -349,7 +349,7 @@ Aggiorna i metadati o il contenuto di un file.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Google Drive] account a [!DNL Workfront Fusion], vedi <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connessione [!DNL Google Drive] a [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Google Drive] a [!DNL Workfront Fusion], vedere <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL Google Drive] a [!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Destination]</td> 
@@ -376,7 +376,7 @@ Aggiorna i metadati o il contenuto di un file.
    <td>Seleziona se desideri sostituire il contenuto del file.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL File di origine]</td> 
+   <td>[!UICONTROL Source file]</td> 
    <td>Seleziona se desideri utilizzare un file trasmesso da un modulo precedente o se desideri mappare il file manualmente. Questo campo è disponibile se si è scelto di modificare il contenuto del file nel campo precedente.</td> 
   </tr> 
   <tr> 
@@ -390,7 +390,7 @@ Aggiorna i metadati o il contenuto di un file.
  </tbody> 
 </table>
 
-#### [!UICONTROL Copiare un file]
+#### [!UICONTROL Copia un file]
 
 Copia un file nella nuova posizione.
 
@@ -400,7 +400,7 @@ Copia un file nella nuova posizione.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Google Drive] account a [!DNL Workfront Fusion], vedi <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connessione [!DNL Google Drive] a [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Google Drive] a [!DNL Workfront Fusion], vedere <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL Google Drive] a [!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Destination]</td> 
@@ -425,7 +425,7 @@ Copia un file nella nuova posizione.
  </tbody> 
 </table>
 
-#### [!UICONTROL Eliminare un file]
+#### [!UICONTROL Elimina un file]
 
 Elimina definitivamente un file o una cartella.
 
@@ -435,7 +435,7 @@ Elimina definitivamente un file o una cartella.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Google Drive] account a [!DNL Workfront Fusion], vedi <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connessione [!DNL Google Drive] a [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Google Drive] a [!DNL Workfront Fusion], vedere <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL Google Drive] a [!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID file]</td> 
@@ -444,7 +444,7 @@ Elimina definitivamente un file o una cartella.
  </tbody> 
 </table>
 
-#### [!UICONTROL Spostare un file o una cartella nel cestino]
+#### [!UICONTROL Sposta un file o una cartella nel cestino]
 
 Sposta un file o una cartella nel cestino.
 
@@ -454,7 +454,7 @@ Sposta un file o una cartella nel cestino.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Google Drive] account a [!DNL Workfront Fusion], vedi <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connessione [!DNL Google Drive] a [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Google Drive] a [!DNL Workfront Fusion], vedere <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL Google Drive] a [!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID file]</td> 
@@ -473,23 +473,23 @@ Recupera il file con l’ID specificato.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Google Drive] account a [!DNL Workfront Fusion], vedi <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connessione [!DNL Google Drive] a [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Google Drive] a [!DNL Workfront Fusion], vedere <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL Google Drive] a [!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr> 
-   <td>Converti [!UICONTROL [!DNL Google Documents] file da formattare]</td> 
-   <td>Selezionare il formato di file da convertire [!DNL Google Documents] a.</td> 
+   <td>[!UICONTROL Converti [!DNL Google Documents] file in formato]</td> 
+   <td>Selezionare il formato di file in cui convertire [!DNL Google Documents].</td> 
   </tr> 
   <tr> 
-   <td>Converti [!UICONTROL [!DNL Google Spreadsheets] file da formattare]</td> 
-   <td>Selezionare il formato di file da convertire [!DNL Google Spreadsheets] a.</td> 
+   <td>[!UICONTROL Converti [!DNL Google Spreadsheets] file in formato]</td> 
+   <td>Selezionare il formato di file in cui convertire [!DNL Google Spreadsheets].</td> 
   </tr> 
   <tr> 
-   <td>Converti [!UICONTROL [!DNL Google Slides] file da formattare]</td> 
-   <td>Selezionare il formato di file da convertire [!DNL Google Slides] a.</td> 
+   <td>[!UICONTROL Converti [!DNL Google Slides] file in formato]</td> 
+   <td>Selezionare il formato di file in cui convertire [!DNL Google Slides].</td> 
   </tr> 
   <tr> 
-   <td>Converti [!UICONTROL [!DNL Google Drawings] file da formattare]</td> 
-   <td>Selezionare il formato di file da convertire [!DNL Google Drawings] a.</td> 
+   <td>[!UICONTROL Converti [!DNL Google Drawings] file in formato]</td> 
+   <td>Selezionare il formato di file in cui convertire [!DNL Google Drawings].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID file]</td> 
@@ -508,7 +508,7 @@ Cerca file o cartelle in base ai criteri di ricerca.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Google Drive] account a [!DNL Workfront Fusion], vedi <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connessione [!DNL Google Drive] a [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Google Drive] a [!DNL Workfront Fusion], vedere <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL Google Drive] a [!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Destination]</td> 
@@ -533,13 +533,13 @@ Cerca file o cartelle in base ai criteri di ricerca.
      <li> <p><strong>[!UICONTROL Cerca nei nomi di file/cartelle]</strong> </p> 
       <ul> 
        <li> <p><strong>[!UICONTROL Query]</strong> </p> <p>Immettere una parte del nome o del nome completo del file (compreso il suffisso) che si desidera cercare.</p> </li> 
-       <li> <p><strong>Opzioni di ricerca di [!UICONTROL]</strong> </p> <p>Selezionare se si desidera cercare il termine esatto o se si desidera cercare nomi contenenti il termine di ricerca.</p> </li> 
+       <li> <p><strong>[!UICONTROL Opzioni di ricerca]</strong> </p> <p>Selezionare se si desidera cercare il termine esatto o se si desidera cercare nomi contenenti il termine di ricerca.</p> </li> 
       </ul> </li> 
-     <li> <p><strong>Ricerca in [!UICONTROL Fulltext]</strong> </p> 
+     <li> <p><strong>[!UICONTROL Fulltext] ricerca</strong> </p> 
       <ul> 
-       <li> <p><strong>[!UICONTROL Query]</strong> </p> <p>Inserisci il termine da cercare nel tuo [!DNL Google Drive].</p> </li> 
+       <li> <p><strong>[!UICONTROL Query]</strong> </p> <p>Immettere un termine di ricerca da cercare in [!DNL Google Drive].</p> </li> 
       </ul> </li> 
-     <li> <p><strong>Immetti query di ricerca personalizzata</strong> </p> 
+     <li> <p><strong>Immettere una query di ricerca personalizzata</strong> </p> 
       <ul> 
        <li> <p><strong>[!UICONTROL Query]</strong> </p> <p>Immettere la query di ricerca personalizzata. Per ulteriori informazioni, consulta la sezione [!UICONTROL Search for Files] di questo articolo.</p> </li> 
        <li> <p><strong>Aggiungi la cartella selezionata in precedenza alla query</strong> </p> <p>Cerca la cartella nell'insieme parent. In questo modo vengono trovati tutti i file e le cartelle che si trovano direttamente nella cartella selezionata in precedenza.</p> </li> 
@@ -548,7 +548,7 @@ Cerca file o cartelle in base ai criteri di ricerca.
   </tr> 
   <tr> 
    <td>[!UICONTROL Numero massimo di risultati restituiti]</td> 
-   <td>Impostare il numero massimo di file o cartelle [!DNL Workfront Fusion] restituirà durante un ciclo di esecuzione.</td> 
+   <td>Impostare il numero massimo di file o cartelle [!DNL Workfront Fusion] restituiti durante un ciclo di esecuzione.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Continua l'esecuzione della route anche se il modulo non restituisce alcun risultato]</td> 
@@ -557,7 +557,7 @@ Cerca file o cartelle in base ai criteri di ricerca.
  </tbody> 
 </table>
 
-#### [!UICONTROL Creare una cartella]
+#### [!UICONTROL Crea una cartella]
 
 Crea una cartella nel percorso specificato.
 
@@ -567,7 +567,7 @@ Crea una cartella nel percorso specificato.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Google Drive] account a [!DNL Workfront Fusion], vedi <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connessione [!DNL Google Drive] a [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Google Drive] a [!DNL Workfront Fusion], vedere <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL Google Drive] a [!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Destination]</td> 
@@ -602,11 +602,11 @@ Recupera il collegamento di condivisione per un file in Google Drive.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Google Drive] account a [!DNL Workfront Fusion], vedi <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connessione [!DNL Google Drive] a [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Google Drive] a [!DNL Workfront Fusion], vedere <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL Google Drive] a [!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID file]</td> 
-   <td>Mappa l’ID del file per il quale vuoi ottenere il collegamento di condivisione.</td> 
+   <td>Mappa l’ID del file per il quale desideri ottenere il collegamento di condivisione.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -617,20 +617,20 @@ Recupera il collegamento di condivisione per un file in Google Drive.
 
 Esistono diverse situazioni in cui il caricamento o l’aggiornamento di un file non riesce:
 
-* Il file caricato è troppo grande e supera la dimensione massima consentita per il file [!DNL Google Drive] piano o hai superato il tuo [!DNL Google Drive] limite di archiviazione. È possibile aggiornare il piano di archiviazione o eliminare i file esistenti dal [!DNL Google Drive] servizio.
+* Il file caricato è troppo grande e supera la dimensione massima consentita per il piano [!DNL Google Drive] oppure hai superato il limite di archiviazione di [!DNL Google Drive]. È possibile aggiornare il piano di archiviazione o eliminare i file esistenti dal servizio [!DNL Google Drive].
 * La cartella selezionata in cui doveva essere caricato il file non esiste più. Lo scenario si interrompe ed è quindi necessario selezionare nuovamente una cartella di destinazione.
 
 ## Cerca file
 
 Nel modulo Elenca i file in una cartella è possibile utilizzare una query personalizzata costituita dalle seguenti parti:
 
-* **[!UICONTROL Campo]** : attributo del file in cui viene eseguita la ricerca, ad esempio l’attributo `name` del file.
+* **[!UICONTROL Campo]** - Attributo del file in cui viene eseguita la ricerca, ad esempio l&#39;attributo `name` del file.
 
-* **[!UICONTROL Operatore]** - Test eseguito sui dati per fornire una corrispondenza, ad esempio, `contains`.
+* **[!UICONTROL Operatore]** - Test eseguito sui dati per fornire una corrispondenza, ad esempio `contains`.
 
-* **[!UICONTROL Valore]** : contenuto dell’attributo sottoposto a test, ad esempio il nome del file `My cool document`.
+* **[!UICONTROL Valore]** - Contenuto dell&#39;attributo testato, ad esempio il nome del file `My cool document`.
 
-Combinare le clausole con le congiunzioni `and` o `or`, e nega la query con `not`.
+Combinare le clausole con le congiunzioni `and` o `or` e negare la query con `not`.
 
 * [Campi](#fields)
 * [Tipi di valore](#value-types)
@@ -736,21 +736,21 @@ Combinare le clausole con le congiunzioni `and` o `or`, e nega la query con `not
 
 Considera quanto segue sugli operatori in questi campi:
 
-* Il `contains` l&#39;operatore esegue solo la corrispondenza del prefisso per un `title`.
+* L&#39;operatore `contains` esegue solo la corrispondenza del prefisso per un `title`.
 
-  Ad esempio, il titolo &quot;HelloWorld&quot; corrisponde a `title contains 'Hello'` ma non per `title contains 'World'`.
+  Ad esempio, il titolo &quot;HelloWorld&quot; corrisponde a `title contains 'Hello'` ma non a `title contains 'World'`.
 
-* Il `contains` l&#39;operatore esegue la corrispondenza solo su token di stringa interi per `fullText`.
+* L&#39;operatore `contains` esegue la corrispondenza solo su token di stringa interi per `fullText`.
 
-  Ad esempio, se il testo completo di un documento contiene la stringa &quot;HelloWorld&quot;, solo la query `fullText contains 'HelloWorld'` restituisce un risultato. Query come `fullText contains 'Hello'` non restituirebbe risultati in questo scenario.
+  Ad esempio, se il testo completo di un documento contiene la stringa &quot;HelloWorld&quot;, solo la query `fullText contains 'HelloWorld'` restituisce un risultato. Query come `fullText contains 'Hello'` non restituirebbero risultati in questo scenario.
 
-* Il `contains` operatore corrisponde a una frase alfanumerica esatta se è racchiusa tra virgolette doppie.
+* L&#39;operatore `contains` corrisponde a una frase alfanumerica esatta se è racchiuso tra virgolette doppie.
 
-  Ad esempio, se `fullText` di un documento contiene la stringa &quot;Hello there world&quot;, quindi la query `fullText contains '"Hello there"'` restituisce un risultato, ma la query `fullText contains '"Hello world"'` non lo fa.
+  Ad esempio, se il `fullText` di un documento contiene la stringa &quot;Hello there world&quot;, la query `fullText contains '"Hello there"'` restituisce un risultato, ma la query `fullText contains '"Hello world"'` no.
 
-  Inoltre, poiché la ricerca è alfanumerica, se `fullText` di un documento contiene la stringa &quot;Hello_world&quot;, quindi la query `fullText contains '"Hello world"'` restituisce un risultato.
+  Inoltre, poiché la ricerca è alfanumerica, se il `fullText` di un documento contiene la stringa &quot;Hello_world&quot;, la query `fullText contains '"Hello world"'` restituisce un risultato.
 
-* Campi di `type` Le date non sono attualmente confrontabili tra loro, ma solo a date costanti.
+* I campi con data `type` non sono attualmente confrontabili tra loro, ma solo con date costanti.
 
 ### Tipi di valore
 
@@ -766,15 +766,15 @@ Considera quanto segue sugli operatori in questi campi:
  <tbody> 
   <tr> 
    <td>Stringa </td> 
-   <td> <p>Racchiudi tra virgolette singole '. Eliminare le virgolette singole nelle query con <code>\'</code>, ad esempio,<code> 'Valentine\'s Day'</code>.</p> </td> 
+   <td> <p>Racchiudi tra virgolette singole '. Eliminare le virgolette singole nelle query con <code>\'</code>, ad esempio <code> 'Valentine\'s Day'</code>.</p> </td> 
   </tr> 
   <tr> 
    <td>Booleano </td> 
-   <td> <p><code>true </code>oppure <code>false</code>.</p> </td> 
+   <td> <p><code>true </code>o <code>false</code>.</p> </td> 
   </tr> 
   <tr> 
    <td>Data </td> 
-   <td> <p>Formato RFC 3339, il fuso orario predefinito è UTC, ad esempio, <code>2012-06-04T12:00:00-08:00</code>.</p> </td> 
+   <td> <p>Formato RFC 3339, il fuso orario predefinito è UTC, ad esempio <code>2012-06-04T12:00:00-08:00</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -843,11 +843,11 @@ Considera quanto segue sugli operatori in questi campi:
 </table>
 
 Per le clausole composte è possibile utilizzare le parentesi per raggruppare le clausole. Ad esempio:
-`modifiedDate > '2012-06-04T12:00:00' and (mimeType contains 'image/' or mimeType contains 'video/')` Questa ricerca restituisce tutti i file con un tipo MIME immagine o video la cui ultima modifica è stata successiva al 4 giugno 2012. Perché `and` e `or` gli operatori vengono valutati da sinistra a destra, senza parentesi, l’esempio precedente restituirebbe solo le immagini modificate dopo il 4 giugno 2012, ma tutti i video, anche quelli precedenti al 4 giugno 2012.
+`modifiedDate > '2012-06-04T12:00:00' and (mimeType contains 'image/' or mimeType contains 'video/')` Questa ricerca restituisce tutti i file con un tipo MIME immagine o video la cui ultima modifica è successiva al 4 giugno 2012. Poiché gli operatori `and` e `or` vengono valutati da sinistra a destra, senza parentesi, nell&#39;esempio precedente verranno restituite solo le immagini modificate dopo il 4 giugno 2012, ma tutti i video verranno restituiti anche prima del 4 giugno 2012.
 
 ### Esempi
 
-Tutti gli esempi in questa pagina mostrano il `<q>q</q>` parametro, dove `title = 'hello'` è codificato come `title+%3d+%27hello%27`. Le librerie client gestiscono automaticamente questa codifica.
+Tutti gli esempi in questa pagina mostrano il parametro `<q>q</q>` non codificato, dove `title = 'hello'` è codificato come `title+%3d+%27hello%27`. Le librerie client gestiscono automaticamente questa codifica.
 
 * Cerca file con nome &quot;hello&quot;
   <pre>title = 'ciao'</pre>
@@ -869,19 +869,19 @@ Tutti gli esempi in questa pagina mostrano il `<q>q</q>` parametro, dove `title 
   <pre>fullText contiene "\\authors"</pre>
 * Cerca file scrivibili dall&#39;utente &quot;test@example.org&quot;
   <pre>'test@example.org' in [!DNL writers]</pre>
-* Cerca l&#39;ID `1234567` nel `parents` raccolta. Questo consente di trovare tutti i file e le cartelle che si trovano direttamente nella cartella il cui ID è `1234567`.
+* Cercare l&#39;ID `1234567` nella raccolta `parents`. Verranno trovati tutti i file e le cartelle che si trovano direttamente nella cartella con ID `1234567`.
   <pre>'1234567' in [!UICONTROL parent]</pre>
-* Cerca l&#39;ID alias `appDataFolder` nel `parents` raccolta. Questo trova tutti i file e le cartelle che si trovano direttamente sotto il [Cartella Dati applicazione](https://developers.google.com/drive/api/v2/appdata).
+* Cercare l&#39;ID alias `appDataFolder` nella raccolta `parents`. Questo consente di trovare tutti i file e le cartelle che si trovano direttamente nella [cartella Dati applicazioni](https://developers.google.com/drive/api/v2/appdata).
   <pre>'appDataFolder' negli elementi padre</pre>
 * Cerca file scrivibili dagli utenti &quot;test@example.org&quot; e &quot;test2@example.org&quot;
   <pre>'test@example.org' negli autori e 'test2@example.org' negli autori</pre>
 * Cerca i file che contengono il testo &quot;importante&quot; nel cestino
   <pre>fullText contiene 'important' e cestino = true</pre>
 * Cerca i file modificati dopo il 4 giugno 2012
-  <pre>modifiedDate &gt; '2012-06-04T12:00:00' // il fuso orario predefinito è UTC</pre><pre>modifiedDate &gt; '2012-06-04T12:00:00-08:00'</pre>
+  <pre>modifiedDate &gt; '2012-06-04T12:00:00' // fuso orario predefinito: UTC</pre><pre>modifiedDate &gt; '2012-06-04T12:00:00-08:00'</pre>
 * Cerca i file condivisi con l’utente autorizzato con &quot;hello&quot; nel nome
   <pre>sharedWithMe e il titolo contiene 'hello'</pre>
-* Cerca file con [proprietà file personalizzata](https://developers.google.com/drive/api/v2/properties) denominato `additionalID` con il valore `8e8aceg2af2ge72e78`.
+* Cercare i file con una [proprietà di file personalizzata](https://developers.google.com/drive/api/v2/properties) denominata `additionalID` con il valore `8e8aceg2af2ge72e78`.
   <pre>proprietà con { key='additionalID' e value='8e8aceg2af2ge72e78' e visibility='PRIVATE' }</pre>
 
-L’origine di questa guida è [[!DNL Google Drive] documentazione](https://developers.google.com/drive/api/v2/search-shareddrives).
+Il Source di questa guida è [[!DNL Google Drive] documentazione](https://developers.google.com/drive/api/v2/search-shareddrives).

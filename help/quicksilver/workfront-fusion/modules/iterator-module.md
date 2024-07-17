@@ -10,16 +10,16 @@ feature: Workfront Fusion
 exl-id: d356276d-e5d9-496f-85cd-cb60a8f8f377
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Iteratore] modulo in [!DNL Adobe Workfront Fusion]
+# Modulo [!UICONTROL Iterator] in [!DNL Adobe Workfront Fusion]
 
-Un [!UICONTROL Iteratore] Il modulo è un tipo speciale di modulo che converte un array in una serie di bundle. Ogni elemento array viene prodotto come bundle separato.
+Un modulo [!UICONTROL Iterator] è un tipo speciale di modulo che converte un array in una serie di bundle. Ogni elemento array viene prodotto come bundle separato.
 
-Per ulteriori informazioni, consulta [Tipi di moduli](../../workfront-fusion/modules/module-types.md) e [Mappare un array in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-an-array.md).
+Per ulteriori informazioni, vedere [Tipi di moduli](../../workfront-fusion/modules/module-types.md) e [Mappare un array in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-an-array.md).
 
 ## Requisiti di accesso
 
@@ -40,9 +40,9 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   <tr> 
    <td role="rowheader">Licenza [!UICONTROL Adobe Workfront Fusion]**</td> 
    <td>
-   <p>Fabbisogno di licenza corrente: No [!DNL Workfront Fusion] requisito di licenza.</p>
+   <p>Requisiti di licenza correnti: nessun requisito di licenza [!DNL Workfront Fusion].</p>
    <p>Oppure</p>
-   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro] </p>
+   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione del lavoro] </p>
    </td> 
   </tr> 
   <tr> 
@@ -54,56 +54,56 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
 
 Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
 
-Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL Iteratore] configurazione del modulo
+## Configurazione del modulo [!UICONTROL Iterator]
 
-Hai impostato un [!UICONTROL Iteratore] lo stesso che hai impostato per qualsiasi altro modulo. Il [!UICONTROL Array] contiene l’array da convertire o dividere in bundle separati.
+Il modulo [!UICONTROL Iterator] viene configurato allo stesso modo di qualsiasi altro modulo. Il campo [!UICONTROL Array] contiene l&#39;array da convertire o dividere in bundle separati.
 
 ![](assets/set-up-iterator-350x190.jpg)
 
-Per ulteriori informazioni, consulta [Configurare le impostazioni di un modulo in Adobe Workfront Fusion](../../workfront-fusion/modules/configure-a-modules-settings.md).
+Per ulteriori informazioni, vedere [Configurare le impostazioni di un modulo in Adobe Workfront Fusion](../../workfront-fusion/modules/configure-a-modules-settings.md).
 
 >[!INFO]
 >
 >**Esempi:**
 >
->* Lo scenario seguente mostra come recuperare le e-mail con allegati e salvarli come file singoli in una [!DNL Dropbox] cartella.
+>* Lo scenario seguente mostra come recuperare le e-mail con allegati e salvare gli allegati come file singoli in una cartella [!DNL Dropbox] selezionata.
 >
->   Le e-mail possono contenere una matrice di allegati. Il [!UICONTROL Iteratore] inserito dopo il primo modulo consente di gestire separatamente ogni allegato. Il [!UICONTROL Iteratore] Il modulo divide l’array di allegati in singoli bundle. Ogni bundle, con un allegato, viene quindi salvato uno alla volta in un [!DNL Dropbox] cartella. Il [!UICONTROL Iteratore] la configurazione del modulo è mostrata sopra: [!UICONTROL Array] deve contenere `Attachments` array.
+>   Le e-mail possono contenere una matrice di allegati. Il modulo [!UICONTROL Iterator] inserito dopo il primo modulo consentirà di gestire separatamente ogni allegato. Il modulo [!UICONTROL Iterator] divide l&#39;array di allegati in singoli bundle. Ogni bundle, con un allegato, viene quindi salvato uno alla volta in una cartella [!DNL Dropbox] selezionata. La configurazione del modulo [!UICONTROL Iterator] è mostrata sopra: il campo [!UICONTROL Array] deve contenere l&#39;array `Attachments`.
 >
 >   ![](assets/attachments-array-350x154.jpg)
 >
->* Per la tua comodità, molti [!DNL Workfront Fusion] le app offrono specializzato [!UICONTROL Iteratore] moduli con una configurazione semplificata. Ad esempio, il [!UICONTROL E-mail] l&#39;app contiene lo speciale [!UICONTROL Iteratore] modulo [!UICONTROL E-mail] > [!UICONTROL Itera allegati] che produrrà gli stessi risultati del generale [!UICONTROL Iteratore] modulo.
+>* Per comodità, molte app [!DNL Workfront Fusion] offrono moduli [!UICONTROL Iterator] specializzati con una configurazione semplificata. Ad esempio, l&#39;app [!UICONTROL E-mail] contiene il modulo speciale [!UICONTROL Iterator] [!UICONTROL E-mail] > [!UICONTROL Itera allegati] che produrrà gli stessi risultati del modulo generale [!UICONTROL Iterator].
 >
 >   ![](assets/specialized-iterators-350x135.jpg)
 
 
-## Risoluzione dei problemi: il pannello Mappatura non visualizza gli elementi mappabili in [!UICONTROL Iteratore] modulo
+## Risoluzione dei problemi: il pannello di mappatura non visualizza gli elementi mappabili nel modulo [!UICONTROL Iterator]
 
-Quando un [!UICONTROL Iteratore] Il modulo non contiene informazioni sulla struttura degli elementi dell’array, il pannello di mappatura nei moduli che seguono [!UICONTROL Iteratore] Il modulo visualizza solo 2 elementi sotto [!UICONTROL Iteratore] modulo :`Total number of bundles` e `Bundle order position`:
+Quando un modulo [!UICONTROL Iterator] non dispone di informazioni sulla struttura degli elementi dell&#39;array, il pannello di mappatura nei moduli successivi al modulo [!UICONTROL Iterator] visualizza solo 2 elementi nel modulo [!UICONTROL Iterator]:`Total number of bundles` e `Bundle order position`:
 
 ![](assets/mapping-panel-doesnt-display-350x147.png)
 
-Questo perché ogni modulo è responsabile della fornitura di informazioni sugli elementi prodotti, in modo che possano essere visualizzati correttamente nel pannello di mappatura nei moduli successivi. Tuttavia, in alcuni casi diversi moduli potrebbero non essere in grado di fornire queste informazioni; ad esempio, [!UICONTROL JSON] > [!UICONTROL Analizza JSON] o [!UICONTROL Webhook] > [!UICONTROL Webhook personalizzato] moduli con struttura dati mancante.
+Questo perché ogni modulo è responsabile della fornitura di informazioni sugli elementi prodotti, in modo che possano essere visualizzati correttamente nel pannello di mappatura nei moduli successivi. In alcuni casi, tuttavia, diversi moduli potrebbero non essere in grado di fornire queste informazioni. Ad esempio, [!UICONTROL JSON] > [!UICONTROL Analizza JSON] o [!UICONTROL Webhook] > [!UICONTROL Webhook personalizzato] moduli con struttura dati mancante.
 
 La soluzione consiste nell’eseguire manualmente lo scenario per consentire al modulo di acquisire informazioni sugli elementi generati, in modo da poter fornire le informazioni ai moduli seguenti.
 
-Ad esempio, se hai un [!UICONTROL JSON] > [!UICONTROL Analizza JSON] modulo senza una struttura di dati come segue:
+Ad esempio, se disponi di un modulo [!UICONTROL JSON] > [!UICONTROL Analizza JSON] senza una struttura dati come indicato di seguito:
 
 ![](assets/json-parse-json-350x285.png)
 
-E poi se connetti un [!UICONTROL Iteratore] non sarà possibile mappare l&#39;output del modulo al campo Array nel pannello di configurazione del [!UICONTROL Iteratore] modulo :
+Quindi, se si collega un modulo [!UICONTROL Iterator] ad esso, non sarà possibile mappare l&#39;output del modulo al campo Array nel pannello di configurazione del modulo [!UICONTROL Iterator]:
 
 ![](assets/connect-iterator-module-350x146.png)
 
-Per risolvere questo problema, avvia manualmente lo scenario nell’editor dello scenario. Puoi scollegare i moduli dopo [!UICONTROL JSON] > [!UICONTROL Analizza JSON] per evitare che il flusso proceda ulteriormente. Oppure puoi fare clic con il pulsante destro del mouse sulla [!UICONTROL JSON] > [!UICONTROL Analizza JSON] e scegliere **[!UICONTROL Esegui solo questo modulo]** dal menu di scelta rapida per eseguire solo [!UICONTROL JSON] > [!UICONTROL Analizza JSON] modulo.
+Per risolvere questo problema, avvia manualmente lo scenario nell’editor dello scenario. Puoi scollegare i moduli dopo il modulo [!UICONTROL JSON] > [!UICONTROL Analizza JSON] per impedire che il flusso proceda ulteriormente. Oppure puoi fare clic con il pulsante destro del mouse sul modulo [!UICONTROL JSON] > [!UICONTROL Analizza JSON] e scegliere **[!UICONTROL Esegui questo modulo solo]** dal menu di scelta rapida per eseguire solo il modulo [!UICONTROL JSON] > [!UICONTROL Analizza JSON].
 
-Quando [!UICONTROL JSON] > [!UICONTROL Analizza JSON] viene eseguito, viene informato sugli elementi generati e fornisce tali informazioni a tutti i moduli successivi, incluso il modulo Iterator. Il pannello di mappatura nella configurazione dell’iteratore visualizza quindi gli elementi:
+Durante l&#39;esecuzione di [!UICONTROL JSON] > [!UICONTROL Analizza JSON], viene a conoscenza degli elementi generati e fornisce queste informazioni a tutti i moduli successivi, incluso il modulo Iterator. Il pannello di mappatura nella configurazione dell’iteratore visualizza quindi gli elementi:
 
 ![](assets/mapping-panel-displays-items-350x131.png)
 
-Inoltre, il pannello di mappatura nei moduli che sono connessi dopo il [!UICONTROL Iteratore] Il modulo visualizza gli elementi contenuti negli elementi dell’array:
+Inoltre, il pannello di mappatura nei moduli connessi dopo il modulo [!UICONTROL Iterator] visualizza gli elementi contenuti negli elementi dell&#39;array:
 
 ![](assets/items-contained-in-array-350x156.png)
 

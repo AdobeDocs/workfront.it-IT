@@ -19,17 +19,17 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti alla gestione delle risorse apportati con la versione 21.1 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 15 febbraio 2021.
 
-Per un elenco di tutte le modifiche disponibili con la versione 21.1, consulta [Panoramica sulla versione 21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 21.1, consulta la [panoramica sulla versione 21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Bilanciatore dei carichi di lavoro per i progetti
 
 Il Bilanciatore dei carichi di lavoro è ora disponibile all’interno di un progetto. Ora puoi scegliere se utilizzare il Bilanciatore dei carichi di lavoro o lo strumento Pianificazione per gestire le risorse del progetto.
 
-Per informazioni sulla posizione del Bilanciatore dei carichi di lavoro in Adobe Workfront, consulta [Individuare il Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+Per informazioni sulla posizione del Bilanciatore dei carichi di lavoro in Adobe Workfront, vedi [Individuare il Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 ## Workfront Balancer disponibile per un team
 
 Il Bilanciatore dei carichi di lavoro è ora disponibile all’interno di un team. Ora puoi scegliere se utilizzare il Bilanciatore dei carichi di lavoro o lo strumento Pianificazione per gestire le risorse del team.
 
-Per informazioni sulla posizione del Bilanciatore dei carichi di lavoro in Workfront, consulta [Individuare il Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+Per informazioni sulla posizione del Bilanciatore dei carichi di lavoro in Workfront, vedere [Individuare il Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 

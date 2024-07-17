@@ -19,7 +19,7 @@ ht-degree: 0%
 
 È possibile rimuovere le autorizzazioni di altri utenti per gli oggetti a cui si ha accesso Condividi. La rimozione delle autorizzazioni dagli oggetti è identica per tutti gli oggetti condivisibili.
 
-Considerazioni simili a quelle relative alla condivisione degli oggetti vengono applicate per la rimozione delle autorizzazioni dagli oggetti. Per ulteriori informazioni, consulta la sezione [Considerazioni sulla condivisione degli oggetti](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#consider) nell’articolo [Panoramica delle autorizzazioni di condivisione sugli oggetti](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
+Considerazioni simili a quelle relative alla condivisione degli oggetti vengono applicate per la rimozione delle autorizzazioni dagli oggetti. Per ulteriori informazioni, vedere la sezione [Considerazioni sulla condivisione di oggetti](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#consider) nell&#39;articolo [Panoramica sulle autorizzazioni di condivisione per gli oggetti](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
 
 ## Requisiti di accesso
 
@@ -58,7 +58,7 @@ Per condividere gli oggetti, è necessario disporre dei seguenti elementi:
  </tbody> 
 </table>
 
-*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront. Per ulteriori informazioni, consulta [Requisiti di accesso alla documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront. Per ulteriori informazioni, consulta [Requisiti di accesso per la documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Rimuovere le entità dall&#39;elenco di condivisione di un oggetto {#remove-entities-from-the-sharing-list-of-an-object}
 
@@ -66,28 +66,28 @@ Per condividere gli oggetti, è necessario disporre dei seguenti elementi:
 
 1. Passare all&#39;oggetto da cui si desidera rimuovere le autorizzazioni.
 
-   Per informazioni sugli oggetti che possono essere condivisi, vedi [Panoramica delle autorizzazioni di condivisione sugli oggetti](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+   Per informazioni sugli oggetti che possono essere condivisi, vedere [Panoramica sulle autorizzazioni di condivisione per gli oggetti](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 1. (Condizionale) Per programmi, portfolio e documenti, effettua le seguenti operazioni:
 
-   1. Fai clic su **Altro** icona ![](assets/more-icon.png)accanto al nome dell&#39;oggetto, quindi fare clic su **Condivisione** o **Condividi.**
+   1. Fai clic sull&#39;icona **Altro** ![](assets/more-icon.png)accanto al nome dell&#39;oggetto, quindi fai clic su **Condivisione** o **Condivisione.**
 
       ![](assets/share-a-document-350x160.png)
 
-   1. Fai clic su **x** accanto al nome di un utente, team, gruppo, società, ruolo per rimuoverli nella casella accesso agli oggetti.
+   1. Fai clic su **x** accanto al nome di un utente, team, gruppo, società e mansione per rimuoverli nella casella di accesso agli oggetti.
 
       ![](assets/remove-permissions-on-portfolio.png)
 
-   1. In **L&#39;accesso Workfront di &lt; Nome utente > verrà rimosso da questo** selezionare se si desidera che il relativo accesso venga rimosso solo dall&#39;oggetto selezionato o da tutti gli oggetti figlio associati.
+   1. Nel menu a discesa **&lt; Nome utente > l&#39;accesso a Workfront di verrà rimosso da questo**, selezionare se si desidera che l&#39;accesso venga rimosso solo dall&#39;oggetto selezionato o da tutti gli oggetti secondari ad esso associati.
 
 1. (Condizionale) Per progetti, attività e problemi, effettua le seguenti operazioni:
 
-   1. Clic **Condividi** a destra del nome dell&#39;oggetto.
+   1. Fai clic su **Condividi** a destra del nome dell&#39;oggetto.
 
       ![](assets/new-share-button.png)
    1. Individuare l&#39;utente, la mansione, il team, il gruppo o l&#39;azienda che si desidera rimuovere dall&#39;oggetto.
-   1. Clic **Rimuovi**.
-In **Rimuovi &lt; Nome utente > da** selezionare se si desidera che il relativo accesso venga rimosso solo dall&#39;oggetto selezionato o da tutti gli oggetti figlio associati.
+   1. Fare clic su **Rimuovi**.
+Nel menu a discesa **Rimuovi &lt; Nome utente > da**, selezionare se si desidera che il relativo accesso venga rimosso solo dall&#39;oggetto selezionato o da tutti gli oggetti secondari ad esso associati.
 
       ![](assets/remove-permissions-on-project-nwe-350x479.png)
 
@@ -108,27 +108,27 @@ In **Rimuovi &lt; Nome utente > da** selezionare se si desidera che il relativo 
 
 1. Passare all&#39;elenco di oggetti che si desidera condividere.
 
-   Per informazioni sugli oggetti che possono essere condivisi, vedi [Panoramica delle autorizzazioni di condivisione sugli oggetti](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+   Per informazioni sugli oggetti che possono essere condivisi, vedere [Panoramica sulle autorizzazioni di condivisione per gli oggetti](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-1. Seleziona diversi oggetti nell’elenco, quindi fai clic su **Condividi** icona ![](assets/share-icon.png)nella parte superiore dell’elenco.
-1. Digitare il nome dell&#39;utente, del ruolo, del team, del gruppo o della società per cui si desidera rimuovere l&#39;accesso in **Modifica `<Object Name>` accesso a** campo.
-1. Dal menu a discesa Accesso, seleziona **Nessun accesso**.
+1. Seleziona diversi oggetti nell&#39;elenco, quindi fai clic sull&#39;icona **Condividi** ![](assets/share-icon.png)nella parte superiore dell&#39;elenco.
+1. Digitare il nome dell&#39;utente, della mansione, del team, del gruppo o della società per cui si desidera rimuovere l&#39;accesso nel campo **Modifica accesso `<Object Name>` a**.
+1. Dal menu a discesa Accesso, selezionare **Nessun accesso**.
 
    ![](assets/no-access-option-removing-permissions-bulk-tasks-nwe-350x166.png)
 
-1. In `<User Name>`L&#39;accesso a Workfront verrà rimosso da questo menu a discesa, selezionare se si desidera che l&#39;accesso venga rimosso solo dagli oggetti selezionati o da tutti gli altri oggetti secondari associati.\
+1. In Workfront Access di `<User Name>` verrà rimosso da questo menu a discesa, selezionare se si desidera che il relativo accesso venga rimosso solo dagli oggetti selezionati o da tutti gli altri oggetti secondari ad esso associati.\
    Esistono i seguenti scenari:
 
    * Se rimuovi l’entità solo dall’oggetto, tale entità perde le relative autorizzazioni sull’oggetto e le autorizzazioni ereditate sugli oggetti secondari. Se in precedenza erano state concesse autorizzazioni per gli elementi figlio singolarmente, quando si seleziona questa opzione manterranno le stesse autorizzazioni per tutti gli oggetti figlio associati. 
    * Se si rimuove l&#39;entità dall&#39;oggetto e da tutti gli oggetti figlio, tale entità perde le relative autorizzazioni per l&#39;oggetto e per tutti gli oggetti figlio, anche quando in precedenza era stata concessa loro un&#39;autorizzazione individuale per ciascun oggetto figlio.
 
-   **Esempio:** Seleziona se rimuovere le autorizzazioni solo per le attività selezionate in un elenco o per i problemi e i documenti allegati alle attività.
+   **Esempio:** Seleziona se rimuovere le autorizzazioni solo per le attività selezionate in un elenco o anche per i problemi e i documenti allegati alle attività.
 
    ![](assets/remove-permissions-bulk-drop-down-for-attached-objects-nwe-350x96.png)
 
 1. (Facoltativo) Per modificare le autorizzazioni in blocco per più oggetti, selezionare un altro livello di condivisione per l&#39;entità selezionata.
 
-   Se ad esempio dispongono delle autorizzazioni Gestione, selezionate Contribute o Visualizza.
+   Ad esempio, se dispongono delle autorizzazioni di gestione, seleziona Contribute o Visualizza.
 
 1. Fai clic su **Salva**.
 
@@ -143,18 +143,18 @@ Le autorizzazioni ereditate possono essere rimosse dagli oggetti consentendo ai 
 Per rimuovere le autorizzazioni ereditate:
 
 1. Passare a un oggetto per il quale si dispone delle autorizzazioni di gestione. Ad esempio, passare a un&#39;attività.
-1. Passare alla casella di accesso agli oggetti come descritto nella [Rimuovere le entità dall&#39;elenco di condivisione di un oggetto](#remove-entities-from-the-sharing-list-of-an-object) in questo articolo.
-1. Seleziona la **x** accanto a **Autorizzazione ereditata** nella casella di condivisione per rimuovere tutti gli utenti elencati.
+1. Passare alla casella di accesso agli oggetti come descritto nella sezione [Rimuovere le entità dall&#39;elenco di condivisione di un oggetto](#remove-entities-from-the-sharing-list-of-an-object) in questo articolo.
+1. Seleziona **x** accanto a **Autorizzazione ereditata** nella casella di condivisione per rimuovere tutti gli utenti elencati.
 
    ![](assets/remove-inherited-permissions-on-project-nwe-350x475.png)
 
-   In questo modo, per impostazione predefinita, nessuno a cui sono state concesse le autorizzazioni per l&#39;oggetto padre, ad esempio il progetto, dispone delle autorizzazioni per questa attività. Per concedere le autorizzazioni per l&#39;attività, è necessario elencare singole entità nell&#39;elenco di condivisione dell&#39;attività.
+   In questo modo, per impostazione predefinita, nessuno a cui sono state concesse le autorizzazioni per l&#39;oggetto padre, ad esempio il progetto, dispone delle autorizzazioni per questa attività. Devi elencare  singole entità nell&#39;elenco di condivisione dell&#39;attività per concedere le autorizzazioni per l&#39;attività.
 
    >[!TIP]
    >
    >Non è possibile rimuovere singole entità dall&#39;elenco Autorizzazioni ereditate. È possibile disabilitare le autorizzazioni ereditate solo per tutte le entità elencate.
 
-1. Clic **Salva**. 
+1. Fai clic su **Salva**. 
 
 ## Rendere privato un oggetto
 
@@ -166,10 +166,10 @@ Per rendere privato un oggetto:
 
 1. Passare all&#39;oggetto che si desidera rendere privato.\
    Ad esempio, passa a un rapporto.
-1. Clic **Azioni report**, quindi **Condivisione**.
+1. Fai clic su **Azioni report**, quindi su **Condivisione**.
 
    ![](assets/report-permissions-make-private-nwe-350x477.png)
 
-1. Clic **Rimuovi accesso pubblico** per rimuovere l’accesso degli utenti esterni alla visualizzazione del rapporto.
-1. Clic **Rimuovi l&#39;accesso a livello di sistema** per interrompere la condivisione con tutti gli utenti di Workfront. 
+1. Fare clic su **Rimuovi accesso pubblico** per rimuovere l&#39;accesso degli utenti esterni alla visualizzazione del report.
+1. Fai clic su **Rimuovi accesso a livello di sistema** per interrompere la condivisione con tutti gli utenti di Workfront. 
 1. Fai clic su **Salva**.

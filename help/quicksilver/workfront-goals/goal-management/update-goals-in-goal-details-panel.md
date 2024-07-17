@@ -54,7 +54,7 @@ Devi avere i seguenti:
  <td>
  <p>Nuova licenza: Collaboratore o versione successiva</p>
  Oppure
- <p>Licenza corrente: richiesta o successiva</p> <p>Per ulteriori informazioni, consulta <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica sulle licenze di Adobe Workfront</a>.</p> </td>
+ <p>Licenza corrente: richiesta o successiva</p> <p>Per ulteriori informazioni, vedere <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica delle licenze di Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Prodotto*</td>
@@ -64,7 +64,7 @@ Devi avere i seguenti:
 <li>Un piano Select o Prime Adobe Workfront e un’ulteriore licenza Adobe Workfront Goals.</li>
 <li>Un piano Workfront Ultimate che include gli obiettivi Workfront per impostazione predefinita. </li></ul>
  <p>Oppure</p>
- <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, consulta <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l’utilizzo degli obiettivi di Workfront</a>. </p> </td>
+ <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Livello di accesso*</td>
@@ -76,7 +76,7 @@ Devi avere i seguenti:
   <div>
   <p>Visualizza o autorizzazioni superiori per l’obiettivo per visualizzarlo</p>
   <p>Gestire le autorizzazioni per l’obiettivo per modificarlo</p>
-  <p>Per informazioni sulla condivisione degli obiettivi, consulta <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Condividere un obiettivo in Obiettivi di Workfront</a>. </p>
+  <p>Per informazioni sulla condivisione degli obiettivi, vedere <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Condividere un obiettivo in Obiettivi di Workfront</a>. </p>
   </div> </td>
  </tr>
  <tr>
@@ -87,7 +87,7 @@ Devi avere i seguenti:
 </tbody>
 </table>
 
-*Per ulteriori informazioni, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Aggiornare gli obiettivi nella sezione Dettagli obiettivo
 
@@ -180,11 +180,11 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
 1. Fai clic sul nome di un obiettivo nell’Elenco obiettivi, quindi fai clic sul nome di un obiettivo.
 
-   Verrà aperto il **Dettagli obiettivo** sezione a sinistra.
+   Verrà aperta la sezione **Dettagli obiettivo** a sinistra.
 
    ![](assets/goal-page-unshimmed.png)
 
-1. Fai clic su **Icona Modifica** ![](assets/edit-icon.png) nell’angolo superiore destro, quindi fai clic su **Modifica tutto** o **Panoramica**
+1. Fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **Modifica tutto** o **Panoramica**
 
    Oppure
 
@@ -196,14 +196,14 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
 1. Aggiorna o controlla i campi seguenti:
 
-   * **Descrizione**: aggiungi o aggiorna le informazioni sull’obiettivo.
-   * **Avanzamento**: indica la percentuale di completamento dell’obiettivo fino a questo momento. Non è possibile aggiornare manualmente l’avanzamento di un obiettivo. L&#39;obiettivo &quot;progresso&quot; è il calcolo di tutti gli indicatori di progresso.
-   * **Condizione**: indica se l’obiettivo è nuovo e non è ancora stato aggiornato, se è in target da completare in tempo o in ritardo. Non è possibile aggiornare la condizione di un obiettivo. La condizione dell&#39;obiettivo viene calcolata automaticamente da Workfront.\
+   * **Descrizione**: aggiungi o aggiorna le informazioni sull&#39;obiettivo.
+   * **Avanzamento**: indica la percentuale di completamento dell&#39;obiettivo. Non è possibile aggiornare manualmente l’avanzamento di un obiettivo. L&#39;obiettivo &quot;progresso&quot; è il calcolo di tutti gli indicatori di progresso.
+   * **Condizione**: indica se l&#39;obiettivo è nuovo e non è stato ancora aggiornato, se è in arrivo per essere completato in tempo o in ritardo. Non è possibile aggiornare la condizione di un obiettivo. La condizione dell&#39;obiettivo viene calcolata automaticamente da Workfront.\
      Per ulteriori informazioni sulla condizione e sull’avanzamento dell’obiettivo, consulta
-     [Panoramica dell’avanzamento e della condizione dell’obiettivo in Obiettivi di Adobe Workfront](../goal-management/calculate-goal-progress.md).
-   * **Stato**: non è possibile aggiornare manualmente lo stato di un obiettivo. Per ulteriori informazioni, consulta [Panoramica sullo stato degli obiettivi in Obiettivi di Adobe Workfront](../goal-management/goal-status-overview.md).
-   * **Proprietario obiettivo**: fai clic su per aggiornare il nome del proprietario dell’obiettivo. Inizia a digitare il nome di un utente, team, gruppo o il nome dell’organizzazione, quindi selezionalo quando viene visualizzato nell’elenco. Puoi avere un solo proprietario per un obiettivo.
-   * **Obiettivo principale**: inizia a digitare il nome di un obiettivo da impostare come principale dell’obiettivo selezionato. L’avanzamento dell’obiettivo selezionato aggiornerà automaticamente l’avanzamento dell’obiettivo principale.
+     [Panoramica dell&#39;avanzamento e della condizione dell&#39;obiettivo negli obiettivi di Adobe Workfront](../goal-management/calculate-goal-progress.md).
+   * **Stato**: impossibile aggiornare manualmente lo stato di un obiettivo. Per ulteriori informazioni, consulta [Panoramica sullo stato degli obiettivi in Obiettivi di Adobe Workfront](../goal-management/goal-status-overview.md).
+   * **Proprietario obiettivo**: fare clic per aggiornare il nome del proprietario dell&#39;obiettivo. Inizia a digitare il nome di un utente, team, gruppo o il nome dell’organizzazione, quindi selezionalo quando viene visualizzato nell’elenco. Puoi avere un solo proprietario per un obiettivo.
+   * **Obiettivo principale**: inizia a digitare il nome di un obiettivo da impostare come principale dell&#39;obiettivo selezionato. L’avanzamento dell’obiettivo selezionato aggiornerà automaticamente l’avanzamento dell’obiettivo principale.
 
      >[!TIP]
      >
@@ -214,9 +214,9 @@ Updating goals in the Goal Details panel differs depending on where you access t
      >      
      >È necessario aggiornare queste informazioni sull&#39;obiettivo principale stesso.
 
-   * **Periodo**: fai clic per aggiornare il periodo di tempo per l’obiettivo\
+   * **Periodo**: fare clic per aggiornare il periodo di tempo per l&#39;obiettivo\
      Oppure\
-     Seleziona **Abilita date personalizzate** per specificare le date per l&#39;obiettivo **Inizio** e **Date di fine**.
+     Seleziona **Abilita date personalizzate** per specificare le date di **Inizio** e **Fine** dell&#39;obiettivo.
    * **Note di chiusura**: questo campo è visibile solo per gli obiettivi con stato Chiuso. Non è possibile modificare gli obiettivi chiusi. La riapertura di un obiettivo chiuso elimina definitivamente le note di chiusura.
 
 

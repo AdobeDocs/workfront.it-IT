@@ -23,11 +23,11 @@ Per un elenco di tutte le modifiche disponibili con la versione 22.4, consulta [
 
 Questo plug-in è ora disponibile per l’installazione in InDesign. Consente di accedere ai dettagli degli elementi di lavoro, collaborare con i colleghi nell’area Aggiornamenti e inviare bozze per la revisione completa senza uscire dall’XD. Visita il marketplace Adobe Creative Cloud per scaricare il plug-in.
 
-Per ulteriori informazioni sul plug-in, consulta [[!DNL Adobe Workfront] plugin per [!DNL Creative Cloud] Applicazioni](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
+Per ulteriori informazioni sul plug-in, vedere [[!DNL Adobe Workfront] plug-in per [!DNL Creative Cloud] applicazioni](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
 
-[Scarica Adobe Workfront per InDesign sul marketplace oggi stesso](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign).
+[Scarica Adobe Workfront per InDesign sul marketplace oggi](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign).
 
-Gli amministratori possono inoltre [creare un pacchetto con i plug-in](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) dall’Admin Console e distribuisci agli utenti in modo gestito o autogestito.
+Gli amministratori possono anche [creare un pacchetto con i plug-in](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) dell&#39;Admin Console e distribuirlo agli utenti in modo gestito o autonomo.
 
 ## Sincronizzare i metadati degli oggetti con l’integrazione nativa di Experience Manager Assets
 
@@ -37,7 +37,7 @@ Per consentire la sincronizzazione automatica dei metadati dell&#39;oggetto, è 
 
 In precedenza, venivano aggiornati automaticamente solo i campi del progetto.
 
-Per ulteriori informazioni, consulta [Configurare l’integrazione di Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+Per ulteriori informazioni, vedere [Configurare l&#39;integrazione as a Cloud Service di Experience Manager Assets](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
 
 ## Push di metadati per oggetti padre di programmi e portfolio
 
@@ -45,7 +45,7 @@ Ora, quando una risorsa viene inviata per la prima volta a Experience Manager As
 
 In precedenza venivano inviati solo i dati del progetto principale.
 
-Per ulteriori informazioni, consulta [Inviare un documento a Experience Manager Assets o ad Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md).
+Per ulteriori informazioni, vedere [Inviare un documento a Experience Manager Assets o Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md).
 
 ## Descrizione team espanso
 
@@ -55,7 +55,7 @@ In precedenza, scorrere la descrizione in un’area stretta era l’unico modo p
 
 Questo miglioramento alla descrizione si applica sia ai team agili che a quelli non agili.
 
-Per ulteriori informazioni, consulta [Creare un team](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/create-a-team.md).
+Per ulteriori informazioni, vedere [Creare un team](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 
 ## Campagne Workfront (Beta): un nuovo modo di gestire il tuo lavoro
 

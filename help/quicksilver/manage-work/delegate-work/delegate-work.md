@@ -19,5 +19,5 @@ ht-degree: 0%
 
 Gli articoli in questa sezione contengono informazioni su come delegare il lavoro mentre si è temporaneamente fuori sede.
 
-* [Panoramica su delega attività e problemi](../../manage-work/delegate-work/delegate-work-overview.md)
+* [Panoramica sui problemi e sulle attività delegate](../../manage-work/delegate-work/delegate-work-overview.md)
 * [Gestire la delega di attività e problemi](../../manage-work/delegate-work/how-to-delegate-work.md)

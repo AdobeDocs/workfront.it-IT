@@ -21,12 +21,12 @@ ht-degree: 0%
 
 Questa sezione contiene i seguenti articoli:
 
-* [Configurare le impostazioni della bozza per l’organizzazione](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)
-* [Sincronizzazione degli utenti tra Adobe Workfront e Workfront Proof](../../../administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md)
+* [Configura le impostazioni della bozza per la tua organizzazione](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)
+* [Sincronizzazione utente tra Adobe Workfront e Workfront Proof](../../../administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md)
 * [Accesso alla funzionalità di verifica in Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md)
-* [Installare il Visualizzatore bozze desktop per l&#39;organizzazione](../../../administration-and-setup/manage-workfront/configure-proofing/install-desktop-proofing-viewer-org.md)
+* [Installa il Visualizzatore bozze desktop per la tua organizzazione](../../../administration-and-setup/manage-workfront/configure-proofing/install-desktop-proofing-viewer-org.md)
 * [Configurare i ruoli di verifica predefiniti](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md)
 * [Configurare le impostazioni predefinite per le notifiche e-mail delle bozze](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-email-notification-settings.md)
-* [Configurare l’accesso alle verifiche di un utente](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md)
-* [Configurare le impostazioni di condivisione per gli utenti](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md)
+* [Configurare l&#39;accesso di verifica di un utente](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md)
+* [Configura le impostazioni di condivisione per gli utenti](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md)
 * [Creare e gestire modelli di flussi di lavoro automatizzati](../../../administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md)

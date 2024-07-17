@@ -4,7 +4,8 @@ description: Quando alleghi una scheda tariffaria a un progetto, tutti i ruoli p
 author: Lisa
 feature: Work Management
 role: User
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+exl-id: 97c33c5a-e42d-4015-841f-69dc44a0599d
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 {{highlighted-preview-article-level}}
 
-Le schede tariffa memorizzano più tariffe di fatturazione per mansione, in base alla posizione. Potresti avere un lavoro di Designer con sede a Parigi e un secondo Designer con sede a New York, ciascuno con tariffe di fatturazione diverse. Tuttavia, non è necessario specificare una posizione per le mansioni su una scheda tariffaria. Una tariffa di fatturazione per una mansione (e possibilmente l&#39;ubicazione) su una scheda della tariffa può includere anche date di validità.
+Le schede tariffa memorizzano più tariffe di fatturazione per mansione, in base alla posizione. Potresti avere un ruolo di Designer con sede a Parigi e un secondo Designer con sede a New York, ciascuno con tariffe di fatturazione diverse. Tuttavia, non è necessario specificare una posizione per le mansioni su una scheda tariffaria. Una tariffa di fatturazione per una mansione (e possibilmente l&#39;ubicazione) su una scheda della tariffa può includere anche date di validità.
 
 Quando alleghi una scheda tariffaria a un progetto, tutti i ruoli per ubicazione e le relative tariffe di fatturazione vengono aggiunti al progetto.
 
@@ -25,9 +26,9 @@ Quando alleghi una scheda tariffaria a un progetto, tutti i ruoli per ubicazione
 
 Puoi modificare le tariffe di fatturazione direttamente dalla scheda delle tariffe nel progetto. Questo non influisce sulle tariffe memorizzate sulla scheda delle tariffe predefinita.
 
-Per informazioni sulla creazione di schede di frequenza, consulta [Gestire le schede delle tariffe](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).
+Per informazioni sulla creazione di schede di frequenza, vedere [Gestione delle schede di frequenza](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).
 
-Per informazioni generali sulla sostituzione delle tariffe di fatturazione dei ruoli per i progetti e sul calcolo dei ricavi del progetto, consulta [Panoramica sulla sostituzione delle tariffe di fatturazione dei ruoli e sul calcolo dei ricavi per un progetto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Per informazioni generali sulla sostituzione delle tariffe di fatturazione dei ruoli per i progetti e sul calcolo dei ricavi del progetto, vedere [Panoramica sulla sostituzione delle tariffe di fatturazione dei ruoli e sul calcolo dei ricavi per un progetto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 ## Requisiti di accesso
 
@@ -51,22 +52,22 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per il progetto con le autorizzazioni per Gestire le finanze</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per il progetto con le autorizzazioni per Gestire le finanze</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Allegare una scheda tariffe a un progetto
 
 1. Vai al progetto.
-1. Clic **Tariffe di fatturazione** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro**.
-1. Clic **Aggiungi tariffa di fatturazione > Allega una scheda tariffa**.
+1. Fai clic su **Tariffe di fatturazione** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro**.
+1. Fai clic su **Aggiungi tariffa di fatturazione > Allega una tariffa**.
 
-   Viene visualizzata la pagina Allega scheda tariffa. Per ulteriori informazioni, consulta [Gestire le schede delle tariffe](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).
+   Viene visualizzata la pagina Allega scheda tariffa. Per ulteriori informazioni, consulta [Gestione schede tariffarie](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).
 
-1. Seleziona la scheda tariffa da aggiungere al progetto e fai clic su **Allega**.
+1. Seleziona la scheda tariffe da aggiungere al progetto e fai clic su **Allega**.
 
    La scheda tariffa e tutte le relative tariffe per le mansioni vengono aggiunte all’elenco delle tariffe di fatturazione.
 
@@ -75,4 +76,3 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >[!NOTE]
    >
    >Nell&#39;elenco tariffe di fatturazione è possibile rimuovere una o più mansioni provenienti da una scheda tariffe. La rimozione di una tariffa di fatturazione della mansione dal progetto non la rimuove dalla scheda della tariffa predefinita.
-

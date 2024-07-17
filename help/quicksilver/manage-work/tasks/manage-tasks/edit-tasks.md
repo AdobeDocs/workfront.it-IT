@@ -2,30 +2,32 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: Modifica attività
-description: Potete modificare le informazioni sulle attività create o sulle quali disponete delle autorizzazioni Contribute o Manage.
+description: Puoi modificare le informazioni sulle attività create, sulle attività per le quali disponi delle autorizzazioni Contribute o Manage.
 author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
+source-git-commit: f2b6f0fb8a24723fec60c6fc1a99e1b8f9cf39c7
 workflow-type: tm+mt
-source-wordcount: '3727'
+source-wordcount: '3664'
 ht-degree: 3%
 
 ---
 
 # Modifica attività
 
+<!--Audited: 07/2024-->
+
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE: some information in this area is repeated in the following articles. If you need to update a fied, update it in both:</p>
+<p>(NOTE: some information in this area is repeated in the following articles. If you need to update a field, update it in both:</p>
 <p>** Task finances in details</p>
 <p>** Task information in overview)</p>
 </div>
 -->
 
 
-Potete modificare le informazioni sulle attività create o sulle quali disponete delle autorizzazioni Contribute o Manage.
+Puoi modificare le informazioni sulle attività create, sulle attività per le quali disponi delle autorizzazioni Contribute o Manage.
 
 ## Requisiti di accesso
 
@@ -36,24 +38,23 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Lavoro o superiore</p> </td> 
+   <td> <p>Nuovo: Standard</p>
+   <p>Corrente: Lavoro o versione successiva</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Livello di accesso*</td> 
-   <td> <p>Modifica accesso ad attività e progetti</p> <p><b>NOTA</b>
-
-Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Livello di accesso</td> 
+   <td> <p>Modifica accesso ad attività e progetti</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
    <td> 
     <ul> 
-     <li> <p>Concedere le autorizzazioni per un'attività per modificare le informazioni seguenti nell'area Dettagli attività: </p>
+     <li> <p>Le autorizzazioni di Contribute per un'attività consentono di modificare le informazioni seguenti nell'area Dettagli attività: </p>
      <ul>
      <li>Descrizione</li>
      <li>Stato</li>
@@ -62,13 +63,13 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
      <li> <p>Gestire le autorizzazioni per un'attività per modificare tutte le informazioni nell'area Dettagli e nella casella Modifica attività</p> </li> 
     </ul> 
     <ul> 
-     <li> <p>Autorizzazioni Contribute (Contribute) o superiori per il progetto</p> </li> 
-    </ul> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+     <li> <p>Autorizzazioni Contribute o superiori per il progetto</p> </li> 
+    </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Limitazioni per la modifica delle attività
 
@@ -99,18 +100,18 @@ Per informazioni sulla modifica delle attività negli elenchi, vedere [Modificar
 
 ## Modificare un&#39;attività in un elenco utilizzando il Riepilogo
 
-Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilogo. Per informazioni sulla modifica di un&#39;attività nel pannello Riepilogo, consultate la sezione &quot;Modifica un&#39;attività nel Riepilogo&quot; nel [Modificare le attività in un elenco](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) articolo.
+Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilogo. Per informazioni sulla modifica di un&#39;attività nel pannello Riepilogo, vedere la sezione &quot;Modifica un&#39;attività nel Riepilogo&quot; nell&#39;articolo [Modifica attività in un elenco](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
 ## Modificare un&#39;attività nella casella Modifica attività
 
 È possibile modificare un&#39;attività utilizzando le aree Modifica attività o Dettagli attività. Nei passaggi seguenti viene descritta la modifica di un&#39;attività nella casella Modifica attività.
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront.
+{{step1-click-main-menu}}
 
-1. Clic **Progetti**, quindi fai clic sul nome di un progetto per aprirlo.
-1. Clic **Attività** nel pannello a sinistra.
+1. Fai clic su **Progetti**, quindi fai clic sul nome di un progetto per aprirlo.
+1. Fai clic su **Attività** nel pannello a sinistra.
 1. Fare clic sull&#39;attività da modificare.
-1. (Condizionale) Per modificare informazioni limitate su un’attività, fai clic su **Dettagli Attività** nel pannello a sinistra.
+1. (Condizionale) Per modificare informazioni limitate su un&#39;attività, fai clic su **Dettagli attività** nel pannello a sinistra.
 
    ![](assets/nwe-task-details-expanded-350x273.png)
 
@@ -128,21 +129,21 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
 
    >[!NOTE]
    >
-   >A seconda della modalità di modifica del modello di layout da parte dell&#39;amministratore di Workfront o del gruppo, i campi nell&#39;area Dettagli attività potrebbero essere ridisposti o non visualizzati. Per informazioni, consulta [Personalizzare la visualizzazione Dettagli utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >A seconda della modalità di modifica del modello di layout da parte dell&#39;amministratore di Workfront o del gruppo, i campi nell&#39;area Dettagli attività potrebbero essere ridisposti o non visualizzati. Per informazioni, vedere [Personalizzare la visualizzazione Dettagli utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
    Per informazioni sui campi visibili nella sezione Dettagli attività, continuare a modificare l&#39;attività nella casella Modifica attività come descritto di seguito.
 
    Per modificare le informazioni nella sezione Dettagli, effettuare le seguenti operazioni:
 
-   1. (Facoltativo) Fai clic su **Comprimi tutto** icona ![](assets/collapse-all-icon.png) nell&#39;angolo superiore destro per comprimere tutte le aree.
-   1. (Facoltativo e condizionale) Quando un&#39;area è compressa, fare clic sul pulsante **freccia rivolta verso destra** ![](assets/right-pointing-arrow.png) accanto a ogni area per espandere l&#39;area da modificare.
+   1. (Facoltativo) Fai clic sull&#39;icona **Comprimi tutto** ![](assets/collapse-all-icon.png) nell&#39;angolo superiore destro per comprimere tutte le aree.
+   1. (Facoltativo e condizionale) Quando un&#39;area è compressa, fare clic sulla **freccia rivolta a destra** ![](assets/right-pointing-arrow.png) accanto a ogni area per espandere l&#39;area che si desidera modificare.
    1. Per ulteriori informazioni sulla modifica delle informazioni nella scheda Dettagli attività, vedere gli articoli seguenti:
 
       * [Gestire le informazioni sull&#39;attività nell&#39;area Panoramica dettagli attività](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
       * [Gestire i dati finanziari delle attività nella sezione Dettagli attività](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 
-   1. (Facoltativo) Se non sono presenti moduli personalizzati allegati all’attività, inizia a digitare il nome di un modulo nel campo **Aggiungi modulo personalizzato** , quindi selezionarlo quando viene visualizzato nell&#39;elenco, quindi fare clic su **Salva modifiche**.
-   1. (Facoltativo) Fai clic su **Esporta** icona ![](assets/export.png) per esportare le informazioni sulla panoramica e sui moduli personalizzati in un file PDF, fai clic su **Esporta**. Selezionare una delle opzioni seguenti:
+   1. (Facoltativo) Se non sono presenti moduli personalizzati allegati all&#39;attività, inizia a digitare il nome di un modulo nel campo **Aggiungi modulo personalizzato**, quindi selezionalo quando viene visualizzato nell&#39;elenco, quindi fai clic su **Salva modifiche**.
+   1. (Facoltativo) Fai clic sull&#39;icona **Esporta** ![](assets/export.png) per esportare le informazioni sulla panoramica e sui moduli personalizzati in un file PDF, quindi fai clic su **Esporta**. Selezionare una delle opzioni seguenti:
 
       * Seleziona tutto (viene visualizzato solo se è allegato almeno un modulo personalizzato)
       * Panoramica
@@ -152,25 +153,25 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
 
       ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
-      Per ulteriori informazioni, consulta [Esportare moduli personalizzati e dettagli oggetto](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+      Per ulteriori informazioni, vedere [Esportare moduli personalizzati e dettagli oggetto](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
-1. (Condizionale) Per modificare tutte le informazioni sull’attività, in qualità di utente con autorizzazioni di gestione per l’attività, fai clic su **Altro** menu ![](assets/more-icon.png) accanto al nome dell&#39;attività, quindi fare clic su **Modifica**.
+1. (Condizionale) Per modificare tutte le informazioni sull&#39;attività, in qualità di utente con autorizzazioni di gestione per l&#39;attività, fai clic sul menu **Altro** ![](assets/more-icon.png) accanto al nome dell&#39;attività, quindi fai clic su **Modifica**.
 
    Oppure
 
-   In un elenco di attività, selezionare un&#39;attività, quindi fare clic sul pulsante **Modifica** icona ![](assets/edit-icon.png) nella parte superiore dell’elenco.
+   Da un elenco di attività, seleziona un&#39;attività, quindi fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png) nella parte superiore dell&#39;elenco.
 
    Viene visualizzata la casella Modifica task (Edit Task).
 
    >[!IMPORTANT]
    >
-   >Per visualizzare l&#39;opzione Modifica, è necessario disporre delle autorizzazioni di gestione per l&#39;attività.
+   >Per visualizzare l’opzione Modifica, è necessario disporre delle autorizzazioni di gestione per l’attività.
 
    Tutti i campi delle attività sono disponibili nella casella Modifica attività e sono raggruppati per le aree elencate nel pannello a sinistra.
 
    >[!NOTE]
    >
-   >A seconda della modalità di modifica del modello di layout da parte dell&#39;amministratore di Workfront o del gruppo, i campi nell&#39;area Dettagli attività potrebbero essere ridisposti o non visualizzati. Per informazioni, consulta [Personalizzare la visualizzazione Dettagli utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >A seconda della modalità di modifica del modello di layout da parte dell&#39;amministratore di Workfront o del gruppo, i campi nell&#39;area Dettagli attività potrebbero essere ridisposti o non visualizzati. Per informazioni, vedere [Personalizzare la visualizzazione Dettagli utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
    Prendere in considerazione la possibilità di specificare informazioni in una delle sezioni seguenti:
 
@@ -183,23 +184,23 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
 
    >[!NOTE]
    >
-   >A seconda del modo in cui l&#39;amministratore di Workfront o il gruppo imposta il modello di layout, i campi nella casella Modifica attività potrebbero essere ridisposti o non visualizzati. Per informazioni, consulta [Personalizzare la visualizzazione Dettagli utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >A seconda del modo in cui l&#39;amministratore di Workfront o il gruppo imposta il modello di layout, i campi nella casella Modifica attività potrebbero essere ridisposti o non visualizzati. Per informazioni, vedere [Personalizzare la visualizzazione Dettagli utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
 ### Nome attività {#task-name}
 
 1. Inizia a modificare l’attività come descritto in precedenza.
-1. Clic **Nome attività** nel pannello a sinistra.
+1. Fai clic su **Nome attività** nel pannello a sinistra.
 
    ![](assets/nwe-task-name-section-edit-task-box-350x122.png)
 
 1. Aggiorna il nome dell&#39;attività.
 
-1. Clic **Salva** oppure continuare con le sezioni seguenti.
+1. Fai clic su **Salva** o continua con le sezioni seguenti.
 
 ### Panoramica {#overview}
 
 1. Inizia a modificare l’attività come descritto in precedenza.
-1. Clic **Panoramica** nel pannello a sinistra.
+1. Fai clic su **Panoramica** nel pannello a sinistra.
 
    ![](assets/nwe-overview-section-edit-task-box-350x257.png)
 
@@ -214,7 +215,7 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
       <td>Aggiungere ulteriori informazioni sull'attività. </td> 
      </tr> 
      <tr> 
-      <td colspan="2" role="rowheader"><span style="font-weight: bold;">Sezione Informazioni di base</span> </td> 
+      <td colspan="2" role="rowheader"><span style="font-weight: bold;">Sezione informazioni di base</span> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Stato</td> 
@@ -231,51 +232,51 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
       <li> <p>Normal </p> </li> 
       <li> <p>Alta </p> </li> 
       <li> <p> Urgente </p> </li> 
-       </ul> <p>A seconda delle Preferenze di progetto selezionate dall'amministratore di Workfront, i nomi delle priorità potrebbero essere diversi. Per informazioni sulle priorità delle attività, vedere <a href="../../../manage-work/tasks/task-information/task-priority.md" class="MCXref xref">Aggiorna Priorità Attività</a>. </p> </td> 
+       </ul> <p>A seconda delle Preferenze di progetto selezionate dall'amministratore di Workfront, i nomi delle priorità potrebbero essere diversi. Per informazioni sulle priorità delle attività, vedere <a href="../../../manage-work/tasks/task-information/task-priority.md" class="MCXref xref">Aggiorna priorità attività</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td colspan="2" role="rowheader"><span style="font-weight: bold;">Sezione Date attività e vincoli</span> </td> 
+      <td colspan="2" role="rowheader"><span style="font-weight: bold;">Sezione vincoli e date attività</span> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Vincolo attività</td> 
       <td> <p>Decidere quando l'attività deve essere completata specificando un vincolo attività. </p> <p>Selezionare una delle opzioni seguenti: </p> 
        <ul> 
-      <li> <p><span>Date Fisse</span> </p> <p>Specifica un <strong>Inizio pianificato</strong> e un <strong>Data di completamento Pianificata</strong>. </p> </li> 
-      <li> <p><span>Deve iniziare il</span> </p> <p>Specifica un <strong>Data Inizio Pianificata</strong>. </p> </li> 
-      <li> <p><span>Deve Finire il</span> </p> <p>Specifica un <strong>Data di completamento Pianificata</strong>. </p> </li> 
+      <li> <p><span>Date fisse</span> </p> <p>Specifica un <strong>Inizio pianificato</strong> e una <strong>Data di completamento pianificata</strong>. </p> </li> 
+      <li> <p><span>Deve Iniziare Il</span> </p> <p>Specifica una <strong>data inizio pianificata</strong>. </p> </li> 
+      <li> <p><span>Deve Terminare Il</span> </p> <p>Specifica una <strong>data di completamento pianificata</strong>. </p> </li> 
        </ul> 
        <ul> 
       <li> <p><span>Il Prima Possibile</span></p> </li> 
       <li> <p><span>Più tardi possibile</span></p> </li> 
       <li> <p><span>Primo Orario Disponibile</span></p> </li> 
       <li> <p> <span>Ultimo Orario Disponibile</span></p> </li> 
-      <li> <p><span>Iniziare Non Dopo Di</span> </p> </li> 
+      <li> <p><span>Inizia Non Dopo Di</span> </p> </li> 
       <li> <p>Specifica una data di inizio pianificata</p> </li> 
-      <li> <p><span>Iniziare non Prima di</span> </p> <p>Specifica un <strong>Data Inizio Pianificata</strong>. </p> </li> 
-      <li> <p> Fine <span>Non oltre il</span></p> <p>Specifica un <strong>Data di completamento Pianificata</strong>. </p> </li> 
-      <li> <p> Fine <span>Non Prima Di</span></p> <p>Specifica un <strong>Data di completamento Pianificata</strong></p> </li> 
-       </ul> <p>Per ulteriori informazioni su Vincolo attività, vedere <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Panoramica sui vincoli delle attività</a>.</p> </td> 
+      <li> <p><span>Iniziare Non Prima Di</span> </p> <p>Specifica una <strong>data inizio pianificata</strong>. </p> </li> 
+      <li> <p> Termina <span>Non Dopo Di</span></p> <p>Specifica una <strong>data di completamento pianificata</strong>. </p> </li> 
+      <li> <p> Termina <span>Non Prima Di</span></p> <p>Specifica una <strong>data di completamento pianificata</strong></p> </li> 
+       </ul> <p>Per ulteriori informazioni sul vincolo attività, vedere <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Panoramica sul vincolo attività</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Conferma data e ora</td> 
-      <td> <p>Si tratta della data entro la quale l’utente assegnato all’attività si impegna a completarla. Può essere diverso dalla Data di completamento pianificata. Solo gli assegnatari possono modificare questo campo. Per informazioni sulle date di conferma in Workfront, consulta <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Panoramica sulla data di conferma</a>. </p> </td> 
+      <td> <p>Si tratta della data entro la quale l’utente assegnato all’attività si impegna a completarla. Questo può essere diverso dalla Data di completamento pianificata. Solo gli assegnatari possono modificare questo campo. Per informazioni sulle date di conferma in Workfront, vedere <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Panoramica sulla data di conferma</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Data e ora di inizio pianificate</td> 
       <td> <p>Quando è pianificato l’inizio dell’attività. La data di inizio pianificata di un'attività viene impostata e influenzata da diversi fattori:</p> 
        <ul> 
-      <li>A seconda della preferenza a livello di sistema per la data di inizio pianificata dell'attività, la data di inizio di una nuova attività in un progetto può essere la data odierna o la data di inizio del progetto, per impostazione predefinita. <span>Anche l’amministratore del gruppo associato al progetto può impostare questa preferenza per il gruppo.</span> Per ulteriori informazioni sulle preferenze per le attività a livello di sistema o di gruppo, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configurare le preferenze per attività e problemi a livello di sistema</a>.</li> 
-      <li>A seconda dei predecessori dell'attività, la data di inizio pianificata viene scelta da Workfront come data disponibile successiva alla fine o all'inizio del predecessore, a seconda della relazione del predecessore. Per ulteriori informazioni sulle relazioni predecessori, vedere <a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">Panoramica dei predecessori delle attività</a>.</li> 
+      <li>A seconda della preferenza a livello di sistema per la data di inizio pianificata dell'attività, la data di inizio di una nuova attività in un progetto può essere la data odierna o la data di inizio del progetto, per impostazione predefinita. <span>Anche l'amministratore del gruppo associato al progetto può impostare questa preferenza per il gruppo.</span> Per ulteriori informazioni sulle preferenze per le attività a livello di sistema o di gruppo, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configurare le preferenze per attività e problemi a livello di sistema</a>.</li> 
+      <li>A seconda dei predecessori dell'attività, la data di inizio pianificata viene scelta da Workfront come data disponibile successiva alla fine o all'inizio del predecessore, a seconda della relazione del predecessore. Per ulteriori informazioni sulle relazioni con i predecessori, vedere <a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">Panoramica sui predecessori delle attività</a>.</li> 
       <li>Il project manager o il proprietario dell'attività possono impostare manualmente la data di inizio pianificata quando il vincolo dell'attività è Date fisse o Deve iniziare il. Per ulteriori informazioni sui vincoli delle attività, vedere <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Panoramica sui vincoli delle attività</a>.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Data e ora di completamento pianificate</td> 
-      <td> <p>Data di completamento prevista, come visualizzata quando l'attività è pianificata. La data di completamento pianificata può essere impostata da diversi fattori:</p> 
+      <td> <p>Data di completamento prevista, come visualizzata quando l'attività è pianificata. Workfront imposta la data di completamento pianificata utilizzando alcuni dei fattori seguenti:</p> 
        <ul> 
-      <li>La data di completamento pianificata viene calcolata a partire dalla data di inizio pianificata aggiungendo la Durata dell'attività alla data di inizio pianificata. Quando il project manager o Workfront specifica la durata dell'attività, viene attivato un aggiornamento della data di completamento pianificata. Se la data pianificata cambia, spesso sarà perché la Durata del è stata aggiornata.</li> 
+      <li>La data di completamento pianificata viene calcolata a partire dalla data di inizio pianificata aggiungendo la Durata dell'attività alla data di inizio pianificata. Quando il project manager o Workfront specifica la durata dell'attività, viene attivato un aggiornamento della data di completamento pianificata. Se la data pianificata cambia, ciò accade spesso perché la Durata dell'attività è stata aggiornata.</li> 
       <li>Il project manager o il proprietario dell'attività possono impostare manualmente la data di completamento pianificata quando il vincolo dell'attività è Date fisse o Deve finire il. Per ulteriori informazioni sui vincoli delle attività, vedere <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Panoramica sui vincoli delle attività</a>.</li> 
-      <li>Se il Tipo di Durata dell'attività cambia e il numero di risorse sulle attività cambia contemporaneamente, cambierà anche la data di completamento pianificata. Per ulteriori informazioni sui tipi di durata, consulta <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Panoramica sulla durata e sul tipo di durata dell'attività</a>.</li> 
+      <li>Se il Tipo di Durata dell'attività cambia e il numero di risorse sulle attività cambia contemporaneamente, cambierà anche la data di completamento pianificata. Per ulteriori informazioni sui tipi di durata, vedere <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Panoramica sulla durata dell'attività e sul tipo di durata</a>.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -303,29 +304,29 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
       <p>Selezionare una delle opzioni seguenti:</p> 
       <ul> 
       <li>Piccola</li> 
-      <li>Medio <span style="font-weight: normal;">(valore predefinito per una nuova attività)</span></li> 
+      <li>Medium <span style="font-weight: normal;">(valore predefinito per una nuova attività)</span></li> 
       <li>Grande</li> 
       </ul> 
       <p><b>NOTA</b>
 
    L&#39;aggiornamento della quantità di lavoro potrebbe aggiornare le ore pianificate dell&#39;attività. L&#39;aggiornamento è immediato se il tipo di aggiornamento del progetto è Automatico. Quando il tipo di aggiornamento del progetto è Manuale, è necessario ricalcolare la sequenza temporale per visualizzare le ore pianificate aggiornate. </p>
 
-   <p>Per informazioni sull'utilizzo dell'Impegno di lavoro invece delle Ore pianificate per stimare l'impegno dell'attività, vedere <a href="../../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Panoramica sull’impegno di lavoro</a>. </p> 
+   <p>Per informazioni sull'utilizzo dell'Impegno di lavoro invece delle Ore pianificate per stimare l'impegno di attività, vedere <a href="../../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Panoramica sull'impegno di lavoro</a>. </p> 
     </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Clic **Salva** oppure continuare con le sezioni seguenti.
+1. Fai clic su **Salva** o continua con le sezioni seguenti.
 
 ### Assegnazioni {#assignments}
 
 1. Inizia a modificare l’attività come descritto in precedenza.
-1. Clic **Assegnazioni** nel pannello a sinistra.
+1. Fai clic su **Assegnazioni** nel pannello a sinistra.
 
    ![](assets/nwe-assignments-section-edit-task-box-350x217.png)
 
-1. Clic **Cerca persone, ruolo e team** e iniziare a digitare il nome di un utente, ruolo o team che si desidera assegnare all&#39;attività, quindi fare clic su di esso o premere Invio quando viene visualizzato nell&#39;elenco.
+1. Fai clic su **Cerca persone, mansione e team** e inizia a digitare il nome di un utente, una mansione o un team che desideri assegnare all&#39;attività, quindi fai clic su di esso o premi Invio quando viene visualizzato nell&#39;elenco.
 
    >[!NOTE]
    >
@@ -340,7 +341,7 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
    >* Riassegnare l&#39;elemento di lavoro alle risorse attive.
    >* Associare gli utenti di un team disattivato a un team attivo e riassegnare l&#39;elemento di lavoro al team attivo.
 
-1. (Facoltativo) Indicare se l&#39;assegnatario è l&#39;assegnatario principale dell&#39;attività selezionando la **Proprietario** accanto al nome. Un team non può essere l&#39;assegnatario principale di un&#39;attività.
+1. (Facoltativo) Indica se un assegnatario è l&#39;assegnatario principale dell&#39;attività, selezionando il pulsante di opzione **Proprietario** accanto al nome. Un team non può essere l&#39;assegnatario principale di un&#39;attività.
 1. (Condizionale e facoltativo) Aggiorna i campi seguenti:
 
    <table style="table-layout:auto"> 
@@ -354,7 +355,7 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
       <li> <p>Numero di risorse assegnate a un'attività </p> </li> 
       <li> <p>Lo sforzo totale richiesto per completare l'attività </p> </li> 
       <li> <p> Durata totale dell'attività. </p> </li> 
-       </ul> <p>Il tuo amministratore Workfront <span> o un amministratore di gruppo</span> seleziona l’impostazione predefinita Tipo di durata per le attività nel sistema o nel gruppo. Per informazioni sull'impostazione delle impostazioni predefinite del progetto, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurare le preferenze di progetto a livello di sistema</a>. </p> <p>I tipi di durata consentono di impostare assegnazioni di risorse coerenti in base alle esigenze dell'attività. Per ulteriori informazioni sul Tipo di durata di un'attività, vedere <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Panoramica sulla durata e sul tipo di durata dell'attività</a>. </p> <p>Selezionare una delle opzioni seguenti: </p> 
+       </ul> <p>L'amministratore di Workfront o un amministratore gruppo seleziona l'impostazione predefinita Tipo di durata per le attività del sistema o del gruppo. Per informazioni sull'impostazione delle impostazioni predefinite del progetto, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurare le preferenze del progetto a livello di sistema</a>. </p> <p>I tipi di durata consentono di impostare assegnazioni di risorse coerenti in base alle esigenze dell'attività. Per ulteriori informazioni sul tipo di durata di un'attività, vedere <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Panoramica sulla durata e sul tipo di durata dell'attività</a>. </p> <p>Selezionare una delle opzioni seguenti: </p> 
        <ul> 
       <li> <p>Incarico Calcolato </p> </li> 
       <li> <p> Lavoro Calcolato </p> </li> 
@@ -401,7 +402,7 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
       <td>H</td> 
       </tr> 
       <tr> 
-      <td>Giorni. Questa è l'impostazione predefinita. </td> 
+      <td>Giorni. Questa è l'impostazione predefinita. </td> 
       <td>Dsbld</td> 
       </tr> 
       <tr> 
@@ -445,7 +446,7 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
    </tr> 
    <tr> 
    <td role="rowheader">Lavoro Necessario</td> 
-   <td> <p>Specifica la quantità di ore pianificate per l'attività, in ore. Quantità di tempo effettivo necessario agli assegnatari per completare l'attività. È possibile specificare la quantità di ore pianificate per un'attività solo quando il tipo di durata è impostato su Assegnazione calcolata. Per ulteriori informazioni sui tipi di durata, consulta <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Panoramica sulla durata e sul tipo di durata dell'attività</a>.</p> 
+   <td> <p>Specifica il numero di ore pianificate per l'attività, in ore. Quantità di tempo effettivo necessario agli assegnatari dell'attività per completare l'attività. È possibile specificare solo il numero di ore pianificate per un'attività quando il tipo di durata è impostato su Assegnazione calcolata. Per ulteriori informazioni sui tipi di durata, vedere <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Panoramica sulla durata dell'attività e sul tipo di durata</a>.</p> 
    <b>NOTA</b>
    <p>
    Quando si creano attività ricorrenti, le ore pianificate sono quelle di ogni occorrenza. Le ore pianificate delle attività padre sono il totale di tutte le ore pianificate di tutte le occorrenze. Per informazioni sulla creazione di attività ricorrenti, vedere <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Creare attività ricorrenti</a>.
@@ -455,7 +456,7 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
    </tr> 
    <tr> 
    <td role="rowheader">Allocazione</td> 
-   <td> <p>Se il vincolo attività è Lavoro calcolato o Basato sulle risorse, specificare <strong>% allocazione</strong> (percentuale di allocazione) per ogni assegnatario. Quantità di tempo della pianificazione dell'assegnatario che può trascorrere per l'attività. Se si modifica la percentuale di allocazione per un assegnatario, verranno modificate le ore pianificate di un'attività. </p> <p>Quando Vincolo attività è Semplice, è possibile specificare quanto segue:</p> 
+   <td> <p>Se il vincolo dell'attività è Lavoro calcolato o Impegno, specificare <strong>Allocazione %</strong> (percentuale di allocazione) per ogni assegnatario. Quantità di tempo della pianificazione dell'assegnatario che può trascorrere per l'attività. Se si modifica la percentuale di allocazione per un assegnatario, verranno modificate le ore pianificate di un'attività. </p> <p>Quando Vincolo attività è Semplice, è possibile specificare quanto segue:</p> 
       <ul> 
       <li> <p>Ore di allocazione di ciascun assegnatario.</p> </li> 
       <li> <p>Ore pianificate dell'attività</p> </li> 
@@ -464,40 +465,40 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
    </tr> 
    <tr> 
    <td role="rowheader">Mansione dell'assegnatario</td> 
-   <td> <p>Seleziona un ruolo dal <strong>Ruolo dell'assegnatario</strong> menu a discesa quando hai selezionato una persona come assegnatario. Questo è il ruolo che l’assegnatario può svolgere per questa attività. </p> <p><b>SUGGERIMENTO</b>
+   <td> <p>Selezionare una mansione dal menu a discesa <strong>Ruolo dell'assegnatario</strong> quando si seleziona una persona come assegnatario. Questo è il ruolo che l’assegnatario può svolgere per questa attività. </p> <p><b>SUGGERIMENTO</b>
 
    Nel menu a discesa vengono visualizzati solo i ruoli associati a ciascun assegnatario nel relativo profilo.</p> </td>
    </tr> 
       </tbody> 
       </table>
 
-1. Clic **Salva** oppure continuare con le sezioni seguenti.
+1. Fai clic su **Salva** o continua con le sezioni seguenti.
 
 ### Moduli personalizzati
 
 È possibile definire moduli personalizzati predefiniti da allegare automaticamente alle attività quando queste vengono aggiunte a un progetto. Per informazioni sulla configurazione del progetto per includere moduli personalizzati predefiniti per tutte le nuove attività, vedere la sezione &quot;Attività&quot; nell&#39;articolo [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 1. Inizia a modificare l’attività come descritto in precedenza.
-1. Clic **Forms personalizzato** nel pannello a sinistra, oppure fai clic sul nome di un modulo personalizzato, se è già allegato.
+1. Fai clic su **Forms personalizzato** nel pannello a sinistra oppure sul nome di un modulo personalizzato, se è già allegato.
 
    ![](assets/nwe-custom-forms-section-edit-task-box-350x127.png)
 
-1. Clic **Aggiungi modulo personalizzato** e selezionare il modulo o i moduli personalizzati che si desidera associare all&#39;attività. Devi creare i moduli personalizzati prima che siano disponibili per la selezione in questo campo. Nell’elenco vengono visualizzati solo i moduli personalizzati attivi.
+1. Fare clic su **Aggiungi modulo personalizzato** e selezionare il modulo o i moduli personalizzati che si desidera associare all&#39;attività. Devi creare i moduli personalizzati prima che siano disponibili per la selezione in questo campo. Nell’elenco vengono visualizzati solo i moduli personalizzati attivi.
 
-   Per ulteriori informazioni sulla creazione di moduli personalizzati, consulta [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).È possibile aggiungere fino a dieci moduli personalizzati a un&#39;attività.
+   Per ulteriori informazioni sulla creazione di moduli personalizzati, vedere [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Puoi aggiungere fino a dieci moduli personalizzati a un’attività.
 
 1. (Condizionale) Se hai allegato un modulo personalizzato all’attività, modifica eventuali campi del modulo. È necessario specificare tutti i campi obbligatori prima di salvare l&#39;attività.
 
    >[!NOTE]
    >
-   >A seconda di come l’amministratore di Workfront imposta le autorizzazioni per le sezioni nel modulo personalizzato, non tutti possono visualizzare o modificare gli stessi campi in un determinato modulo personalizzato. Le autorizzazioni per modificare i campi all’interno di una sezione di un modulo personalizzato dipendono dalle autorizzazioni di cui disponi per l’attività stessa. Per informazioni sull&#39;impostazione delle autorizzazioni per le attività, vedere [Condividere un’attività](../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md).
+   >A seconda di come l’amministratore di Workfront imposta le autorizzazioni per le sezioni nel modulo personalizzato, non tutti possono visualizzare o modificare gli stessi campi in un determinato modulo personalizzato. Le autorizzazioni per modificare i campi all’interno di una sezione di un modulo personalizzato dipendono dalle autorizzazioni di cui disponi per l’attività stessa. Per informazioni sull&#39;impostazione delle autorizzazioni per l&#39;attività, vedere [Condividere un&#39;attività](../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md).
 
-1. Clic **Salva** oppure continuare con le sezioni seguenti.
+1. Fai clic su **Salva** o continua con le sezioni seguenti.
 
 ### Finanz {#finance}
 
-1. Inizia a modificare l&#39;attività come descritto in [Modifica attività](#Edit2) in questo articolo.
-1. Clic **Finanza** nel pannello a sinistra.
+1. Inizia a modificare l&#39;attività come descritto nella sezione [Modifica attività](#Edit2) in questo articolo.
+1. Fai clic su **Finanza** nel pannello a sinistra.
 
    ![](assets/nwe-finance-section-edit-task-box-350x298.png)
 
@@ -515,7 +516,7 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
         <li> <p>Ore Fisse </p> </li> 
         <li> <p> Ore Utente </p> </li> 
         <li> <p> Ore Ruolo</p> </li> 
-       </ul> <p>Per ulteriori informazioni sul tracciamento dei costi, consulta <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Tracciare i costi</a> . L'amministratore di Workfront o un amministratore di gruppo seleziona l'impostazione Tipo di costo predefinita per le attività del sistema o del gruppo. Per informazioni sull'impostazione delle impostazioni predefinite del progetto, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurare le preferenze di progetto a livello di sistema</a> .</p> </td> 
+       </ul> <p>Per ulteriori informazioni sul tracciamento dei costi, vedere <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Tracciare i costi</a> . L'amministratore di Workfront o un amministratore di gruppo seleziona l'impostazione Tipo di costo predefinita per le attività del sistema o del gruppo. Per informazioni sull'impostazione delle impostazioni predefinite del progetto, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurare le preferenze del progetto a livello di sistema</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tipo di Reddito</td> 
@@ -530,17 +531,17 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
       <li> <p>Ore Utente più Fisso </p> </li> 
       <li> <p>Ore Ruolo più Fisso </p> </li> 
       <li> <p>Reddito Fisso </p> </li> 
-       </ul> <p>Per ulteriori informazioni sul tracciamento dei ricavi, consulta<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Panoramica su fatturazione e ricavi</a> . </p> <p>L'amministratore di Workfront o l'amministratore di gruppo seleziona l'impostazione Tipo di retribuzione predefinita per le attività del sistema o del gruppo. Per informazioni sull'impostazione delle impostazioni predefinite del progetto, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurare le preferenze di progetto a livello di sistema</a>.</p> </td> 
+       </ul> <p>Per ulteriori informazioni sul tracciamento dei ricavi, vedi<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Panoramica su fatturazione e ricavi</a> . </p> <p>L'amministratore di Workfront o l'amministratore di gruppo seleziona l'impostazione Tipo di retribuzione predefinita per le attività del sistema o del gruppo. Per informazioni sull'impostazione delle impostazioni predefinite del progetto, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurare le preferenze del progetto a livello di sistema</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Clic **Salva** oppure continuare con la sezione seguente.
+1. Fai clic su **Salva** o continua con la sezione seguente.
 
 ### Impostazioni {#settings}
 
-1. Inizia a modificare l&#39;attività come descritto in [Modifica attività](#Edit2) in questo articolo.
-1. Clic **Impostazioni** nel pannello a sinistra.
+1. Inizia a modificare l&#39;attività come descritto nella sezione [Modifica attività](#Edit2) in questo articolo.
+1. Fai clic su **Impostazioni** nel pannello a sinistra.
 
    ![](assets/nwe-settings-section-edit-task-box-350x304.png)
 
@@ -559,15 +560,15 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
       <li> <p>Ignora Avvertimenti di Ritardo</p> </li> 
       <li> <p> Completamento automatico </p> </li> 
       <li> <p>Predecessore </p> </li> 
-       </ul> <p>Per ulteriori informazioni sulla modalità di tracciamento delle attività, consulta <a href="../../../manage-work/tasks/task-information/task-tracking-mode.md" class="MCXref xref">Panoramica sulla modalità di monitoraggio attività</a>.</p> </td> 
+       </ul> <p>Per ulteriori informazioni sulla modalità di verifica delle attività, vedere <a href="../../../manage-work/tasks/task-information/task-tracking-mode.md" class="MCXref xref">Panoramica sulla modalità di verifica delle attività</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Livellamento Risorse</td> 
-      <td> <p>Seleziona la <strong>Escludi dal livellamento risorse</strong> se si desidera escludere dal livellamento le risorse assegnate all'attività.</p> </td> 
+      <td> <p>Selezionare il campo <strong>Escludi dal livellamento risorse</strong> se si desidera escludere dal livellamento le risorse assegnate all'attività.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ritardo di Livellamento</td> 
-      <td> <p>Specifica il ritardo di livellamento, in ore. </p> <p> Per ulteriori informazioni sul livellamento dei ritardi, consulta <a href="../../../manage-work/tasks/task-information/task-leveling-delay.md" class="MCXref xref">Ritardo livellamento attività di aggiornamento</a>. </p> </td> 
+      <td> <p>Specifica il ritardo di livellamento in ore. </p> <p> Per ulteriori informazioni sui ritardi di livellamento, vedere <a href="../../../manage-work/tasks/task-information/task-leveling-delay.md" class="MCXref xref">Aggiorna ritardo di livellamento attività</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Processo di approvazione</td> 
@@ -580,11 +581,11 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
 
    <p><b>IMPORTANTE</b>
 
-   Se il gruppo del progetto cambia, il processo di approvazione specifico del gruppo precedentemente allegato diventa un processo di approvazione a utente singolo. Per ulteriori informazioni su come le modifiche al gruppo del progetto o le modifiche nel processo di approvazione influiscono sulle impostazioni di approvazione, vedi <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">Effetti delle modifiche al gruppo e al processo di approvazione sui processi di approvazione assegnati</a>. </p>
+   Se il gruppo del progetto cambia, il processo di approvazione specifico del gruppo precedentemente allegato diventa un processo di approvazione a utente singolo. Per ulteriori informazioni su come le modifiche al gruppo del progetto o le modifiche al processo di approvazione influiscono sulle impostazioni di approvazione, vedere <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">Come le modifiche al gruppo e al processo di approvazione influiscono sui processi di approvazione assegnati</a>. </p>
 
    </li>
 
-   <li> <p>È possibile definire processi di approvazione predefiniti da allegare automaticamente alle attività quando queste vengono aggiunte a un progetto. Per informazioni sulla configurazione del progetto per includere i processi di approvazione delle attività predefiniti, vedere la sezione "Attività" nell'articolo <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Modifica progetti</a>. </p> </li>
+   <li> <p>È possibile definire processi di approvazione predefiniti da allegare automaticamente alle attività quando queste vengono aggiunte a un progetto. Per informazioni sulla configurazione del progetto per includere i processi di approvazione attività predefiniti, vedere la sezione "Attività" nell'articolo <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Modifica progetti</a>. </p> </li>
 
    <li> <p>Quando si modificano attività in blocco, si verificano i seguenti scenari: </p> 
       <ul> 
@@ -607,7 +608,7 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
 
 È possibile modificare una quantità limitata di informazioni nell&#39;intestazione dell&#39;attività.
 
-L&#39;amministratore del sistema o del gruppo può personalizzare i campi visualizzati nell&#39;intestazione dell&#39;attività. Per ulteriori informazioni, consulta [Personalizzare le intestazioni degli oggetti utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+L&#39;amministratore del sistema o del gruppo può personalizzare i campi visualizzati nell&#39;intestazione dell&#39;attività. Per ulteriori informazioni, vedere [Personalizzare le intestazioni degli oggetti utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 
 ![](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
@@ -621,7 +622,7 @@ Per impostazione predefinita, nell&#39;intestazione dell&#39;attività sono incl
 
   >[!CAUTION]
   >
-  >Alcuni vincoli di attività e altre dipendenze potrebbero impedire la modifica di questo campo. Per informazioni sui vincoli delle attività, vedere [Panoramica sui vincoli delle attività](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
+  >Alcuni vincoli di attività e altre dipendenze potrebbero impedire la modifica di questo campo. Per informazioni sui vincoli attività, vedere [Panoramica sui vincoli attività](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
 * Stato
 * Prendere decisioni di approvazione se si è impostati come approvatore in un processo di approvazione corrente
@@ -630,4 +631,4 @@ Per impostazione predefinita, nell&#39;intestazione dell&#39;attività sono incl
 
 È possibile modificare le attività in blocco in un elenco e aggiornarne tutte le informazioni contemporaneamente quando si seleziona di salvare automaticamente le modifiche apportate alle attività nell&#39;elenco.
 
-Per informazioni sul salvataggio di attività in blocco, vedere la sezione &quot;Modifica attività in blocco&quot; nell&#39;articolo [Modificare le attività in un elenco](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+Per informazioni sul salvataggio di attività in blocco, vedere la sezione &quot;Modifica attività in blocco&quot; nell&#39;articolo [Modifica attività in un elenco](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).

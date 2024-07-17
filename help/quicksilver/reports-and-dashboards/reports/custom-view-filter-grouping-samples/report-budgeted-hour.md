@@ -52,22 +52,22 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Creare un rapporto sulle ore preventivate
 
-1. Fai clic su **Menu principale** ![](assets/main-menu-icon.png) nell’angolo superiore destro, quindi fai clic su **Rapporti**.
+1. Fai clic sul **menu principale** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **Rapporti**.
 
-1. Clic **Nuovo report > Ore preventivate**.
+1. Fai clic su **Nuovo rapporto > Ora preventivata**.
 
    Al report viene applicata la visualizzazione predefinita.
 
-1. (Facoltativo) Per semplificare la lettura del rapporto, fai clic sul pulsante **Ore preventivate** colonna, quindi **Passa alla modalità testo**, quindi modifica il
+1. (Facoltativo) Per semplificare la lettura del report, fai clic sulla colonna **Ore preventivate**, quindi **Passa alla modalità testo**, quindi modifica il
 
    ```
    valuefield
@@ -88,15 +88,15 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 1. (Facoltativo) Fai clic su **Aggiungi colonna** per aggiungere altre colonne.
 1. (Facoltativo) Per semplificare la lettura del rapporto, si consiglia di aggiungervi un raggruppamento. Consigliamo il seguente raggruppamento:
 
-   Fai clic su **Raggruppamenti** , quindi eseguire una o più delle operazioni seguenti:
+   Fai clic sulla scheda **Raggruppamenti**, quindi effettua una o più delle seguenti operazioni:
 
-   1. Clic **Aggiungi raggruppamento** e inizia a digitare &quot;Nome progetto&quot;, quindi selezionalo quando viene visualizzato nell’elenco.
-   1. Clic **Aggiungi raggruppamento** e inizia a digitare &quot;Nome ruolo&quot;, quindi selezionalo quando viene visualizzato nell’elenco.
-   1. Clic **Aggiungi raggruppamento** e inizia a digitare **Data di allocazione**, selezionarlo quando viene visualizzato nell&#39;elenco, quindi selezionare l&#39;intervallo di tempo in base al quale si desidera eseguire il raggruppamento dal **Raggruppa date per** campo.
+   1. Fai clic su **Aggiungi raggruppamento** e inizia a digitare &quot;Nome progetto&quot;, quindi selezionalo quando viene visualizzato nell&#39;elenco.
+   1. Fare clic su **Aggiungi raggruppamento** e iniziare a digitare &quot;Nome mansione&quot;, quindi selezionarlo quando viene visualizzato nell&#39;elenco.
+   1. Fai clic su **Aggiungi raggruppamento** e inizia a digitare **Data di allocazione**, selezionala quando viene visualizzata nell&#39;elenco, quindi seleziona l&#39;intervallo di tempo in base al quale desideri eseguire il raggruppamento dal campo **Raggruppa date per**.
 
-1. (Facoltativo) Fai clic su **Filtri** per aggiungere filtri al rapporto.
-1. (Facoltativo) Fai clic su **Grafico** per aggiungere un grafico al report.
-1. Clic **Salva e chiudi**.
+1. (Facoltativo) Fai clic su **Filtri** per aggiungere filtri al report.
+1. (Facoltativo) Fare clic su **Grafico** per aggiungere un grafico al report.
+1. Fai clic su **Salva + Chiudi**.
 
 ## Esamina il rapporto Ore preventivate
 

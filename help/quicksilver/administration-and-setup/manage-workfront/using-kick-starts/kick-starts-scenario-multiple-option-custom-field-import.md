@@ -51,16 +51,16 @@ Se si conoscono bene gli oggetti e la struttura del database di Workfront, è po
 
 Per esportare dati esistenti da Workfront:
 
-1. Clic **Menu principale > Configurazione** nell’angolo superiore destro dell’interfaccia Workfront.
-1. Espandi **Sistema** a sinistra, quindi fai clic su **Esporta dati (Kick-Start)**.
+1. Fare clic su **Main Menu > Setup** nell&#39;angolo superiore destro dell&#39;interfaccia di Workfront.
+1. Espandere il menu **Sistema** a sinistra, quindi fare clic su **Esporta dati (Kick-Start)**.
 
    ![](assets/export-data-kick-starts-link-in-setup.png)
 
-1. Seleziona **Dati personalizzati** nel **Cosa includere** sezione.
+1. Seleziona **Dati personalizzati** nella sezione **Cosa includere**.
 
    ![](assets/existing-custom-data-box-checked-kick-starts.png)
 
-1. Scegli **file .xlsx** nel **Formato di download** sezione.
+1. Scegliere il file **.xlsx** nella sezione **Formato di download**.
 
    >[!TIP]
    >
@@ -68,7 +68,7 @@ Per esportare dati esistenti da Workfront:
 
    ![](assets/download-button-for-kick-starts.png)
 
-1. Clic **Scarica**. Un file .xlsx viene scaricato nel computer. Individualo e aprilo.
+1. Fai clic su **Scarica**. Un file .xlsx viene scaricato nel computer. Individualo e aprilo.
 
    ![](assets/existing-data-excel-parameter-sheet.png)
 
@@ -88,15 +88,15 @@ Per esportare dati esistenti da Workfront:
 
 Dopo aver analizzato le informazioni sui campi personalizzati esistenti nel sistema, puoi scaricare un nuovo modello di avvio per l’importazione.
 
-1. Clic **Menu principale > Configurazione** nell’angolo superiore destro dell’interfaccia Workfront.
+1. Fare clic su **Main Menu > Setup** nell&#39;angolo superiore destro dell&#39;interfaccia di Workfront.
 
-1. Espandi **Sistema** a sinistra.
+1. Espandere il menu **Sistema** a sinistra.
 
-1. Clic **Importa dati (Kick-Start)**.
+1. Fare clic su **Importa dati (Kick-Start)**.
 
    ![](assets/import-data-kick-starts-link-in-setup.png)
 
-1. In **Scarica un foglio di calcolo Kick-Start vuoto** , scegli il **Dati personalizzati** e fai clic su **Scarica**.
+1. Nell&#39;area **Scarica un foglio di calcolo Kick-Start vuoto**, scegli la casella di controllo **Dati personalizzati** e fai clic su **Scarica**.
 
    ![](assets/blank-custom-data-option-checked-kick-starts.png)
 
@@ -120,11 +120,11 @@ Per popolare il foglio di calcolo Excel con le informazioni per i nuovi campi pe
 
    >[!INFO]
    >
-   >Ad esempio: **Parametro** (che si riferisce al campo personalizzato), **Opzione Parametro**(che fa riferimento all’opzione Campo personalizzato), **Categoria** (che fa riferimento al modulo personalizzato).
+   >Ad esempio, **Parametro** (che fa riferimento al campo personalizzato), **Opzione parametro** (che fa riferimento all&#39;opzione Campo personalizzato), **Categoria** (che fa riferimento al modulo personalizzato).
    >
    >È necessario scrivere i nomi degli oggetti e dei relativi attributi nel formato supportato dal database di Workfront.
    >
-   >Per informazioni sul significato di questi oggetti, vedere [Glossario di [!DNL Adobe Workfront] terminologia](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   >Per informazioni sul significato di questi oggetti, vedi il [Glossario della [!DNL Adobe Workfront] terminologia](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
    >
    >Per informazioni sui nomi degli oggetti nel database di Workfront, vedere [API Explorer](../../../wf-api/general/api-explorer.md).
    >
@@ -142,97 +142,97 @@ Per popolare il foglio di calcolo Excel con le informazioni per i nuovi campi pe
 
      >[!TIP]
      >
-     >Alcune colonne sono obbligatorie anche se non sono in grassetto. Ad esempio, il `isNew` e `ID` le colonne non sono in grassetto, ma sono campi obbligatori.
+     >Alcune colonne sono obbligatorie anche se non sono in grassetto. Ad esempio, le colonne `isNew` e `ID` non sono in grassetto, ma sono campi obbligatori.
 
-1. Seleziona la `**PARAM Parameter`** il foglio e aggiungi informazioni sui nuovi campi personalizzati nelle seguenti colonne obbligatorie:
+1. Selezionare il foglio `**PARAM Parameter`** e aggiungere informazioni sui nuovi campi personalizzati nelle seguenti colonne obbligatorie:
 
-   * **`isNew`** = Invio **`TRUE`** in questa colonna per ogni riga che rappresenta un nuovo campo personalizzato. Indica che il campo è nuovo e non esiste in Workfront.
+   * **`isNew`** = immetti **`TRUE`** in questa colonna per ogni riga che rappresenta un nuovo campo personalizzato. Indica che il campo è nuovo e non esiste in Workfront.
 
      >[!TIP]
      >
-     >    Se una riga rappresenta un campo esistente già presente in Workfront, è necessario immettere **`isNew`** = **`FALSE`**.
+     >    Se una riga rappresenta un campo esistente già in Workfront, immettere **`isNew`** = **`FALSE`**.
 
    * **`ID`** = deve essere un numero univoco per ogni riga che rappresenta un nuovo campo. È possibile utilizzare qualsiasi numero che inizia con 1, a condizione che ogni nuovo campo abbia un numero univoco.
    * **`setDataType`** = per ogni riga che rappresenta un nuovo campo, immettere il tipo di dati supportato dal campo. Il Tipo di dati deve essere immesso così come apparirebbe nel database. Selezionare uno dei tipi di dati seguenti:
       * **`NMBR`** per numero
-      * **`CURC`** per Valuta
+      * **`CURC`** per la valuta
       * **`TEXT`** per testo
-   * `**setDisplaySize**`= dimensione di visualizzazione (&#39;**setDisplaySize**&#39;) per qualsiasi opzione multipla i campi personalizzati sono sempre 0.
+   * `**setDisplaySize**`= la dimensione di visualizzazione (&#39;**setDisplaySize**&#39;) per i campi personalizzati con più opzioni è sempre 0.
    * **`setDisplayType`** = per ogni riga che rappresenta un nuovo campo, immettere il tipo di visualizzazione del campo. Il Tipo di visualizzazione deve essere immesso come apparirebbe nel database.
 
      Per i campi personalizzati con più opzioni, seleziona una delle seguenti opzioni:
 
       * **`MULT`** per elenco a discesa a selezione multipla
-      * **`SLCT`** a discesa
+      * **`SLCT`** per elenco a discesa
       * **`RDIO`** per pulsanti di scelta
-      * **`CHCK`** Caselle di controllo
+      * **`CHCK`** per le caselle di controllo
 
      >[!TIP]
      >
-     >Per informazioni sul tipo di dati e sul tipo di visualizzazione, consultare [API Explorer](../../../wf-api/general/api-explorer.md), espandi **Parametro** e cercare questi attributi nella sezione **campi** scheda.
+     >Per trovare le informazioni relative al tipo di dati e al tipo di visualizzazione, fare riferimento a [API Explorer](../../../wf-api/general/api-explorer.md), espandere l&#39;oggetto **Parameter** e cercare questi attributi nella scheda **fields**.
 
    * **`setName`** = immetti il nome dei campi personalizzati da visualizzare in Workfront.
 
      >[!INFO]
      >
-     >Ad esempio, potremmo importare due campi personalizzati, denominati _Marchio_, un campo casella di controllo e _Contenuti multimediali_, un campo pulsante di opzione.
+     >Ad esempio, è possibile importare due campi personalizzati, denominati _Brand_, un campo casella di controllo e _Media_, un campo pulsante di scelta.
 
-   * Il **`setName`** e **`setValue`** Le colonne in genere contengono le stesse informazioni e devono riflettere i nomi desiderati nell’interfaccia di Workfront per il nuovo campo.
+   * Le colonne **`setName`** e **`setValue`** in genere contengono le stesse informazioni e devono riflettere i nomi desiderati nell&#39;interfaccia Workfront per il nuovo campo.
 
    Il valore di un campo è il nome visualizzato nei rapporti, ad esempio, mentre il nome viene visualizzato nei moduli personalizzati allegati agli oggetti.
 
-   Per ulteriori informazioni, consulta [Aggiungere un campo personalizzato a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
+   Per ulteriori informazioni, vedere [Aggiungere un campo personalizzato a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
 
    ![](assets/parameter-sheet-filled-out-kick-starts.png)
 
-1. Seleziona la **`POPT Parameter Options`** e aggiungi informazioni sulle opzioni di ciascun campo personalizzato nelle seguenti colonne obbligatorie:
+1. Selezionare il foglio **`POPT Parameter Options`** e aggiungere informazioni sulle opzioni di ciascun campo personalizzato nelle colonne obbligatorie seguenti:
 
-   * **`isNew`** = Invio **`TRUE`** in questa colonna per ogni riga che rappresenta una nuova opzione di campo.
+   * **`isNew`** = immetti **`TRUE`** in questa colonna per ogni riga che rappresenta una nuova opzione di campo.
 
      >[!TIP]
      >
-     >    Se una linea rappresenta un&#39;opzione esistente, è necessario immettere **`isNew`** = **`FALSE`**.
+     >    Se una riga rappresenta un&#39;opzione esistente, immettere **`isNew`** = **`FALSE`**.
 
    * **`ID`** = deve essere un numero univoco per ogni riga che rappresenta una nuova opzione. È possibile utilizzare qualsiasi numero che inizia con 1, purché ogni nuova opzione abbia un numero univoco.
-   * **`setIsDefault`** = Invio `TRUE` per le opzioni che si desidera visualizzare per impostazione predefinita, e `FALSE` per tutte le altre opzioni, per ogni campo.  Ad esempio, vogliamo _Nike_ come opzione predefinita per _Marchio_ e _Stampa_ come opzione predefinita per _Contenuti multimediali_.
+   * **`setIsDefault`** = immetti `TRUE` per le opzioni che desideri visualizzare per impostazione predefinita e `FALSE` per tutte le altre opzioni, per ogni campo.  Ad esempio, vogliamo che _Nike_ sia l&#39;opzione predefinita per _Brand_ e _Print_ sia l&#39;opzione predefinita per _Media_.
 
      >[!TIP]
      >
      >Per ogni campo è disponibile una sola opzione predefinita.
 
-   * **`setParameterID`** = le opzioni corrispondenti al _Marchio_ campo personalizzato con **`setParameterID`** di 1 e le opzioni corrispondenti al _Contenuti multimediali_ avere un **`setParameterID`**di 2. Il `PARAM` e `POPT` i fogli si rimandano l&#39;un l&#39;altro per indicare le opzioni che appartengono a ciascun campo personalizzato.
-   * **`setDisplayOrder`**= la colonna ordine di visualizzazione indica l’ordine in cui le opzioni verranno visualizzate nel campo personalizzato. Puoi iniziare con 1 e continuare in ordine crescente per tutte le opzioni, indipendentemente dai campi a cui apparterranno. La cosa importante qui è avere numeri univoci per ogni opzione.
-   * Il **`setLabel`** e `**setValue`** colonne in genere contengono le stesse informazioni e devono riflettere i nomi desiderati nell’interfaccia utente di Workfront. Il valore di un’opzione è il nome visualizzato nei rapporti, ad esempio, mentre l’etichetta viene visualizzata nei moduli personalizzati quando è associata a un oggetto. Per ulteriori informazioni, consulta [Aggiungere un campo personalizzato a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
-   * **`setIsHidden`** = Invio `TRUE` se desideri che una qualsiasi delle opzioni sia nascosta.
+   * **`setParameterID`** = le opzioni corrispondenti al campo personalizzato _Brand_ hanno **`setParameterID`** di 1 e le opzioni corrispondenti al _Media_ hanno **`setParameterID`**di 2. I fogli `PARAM` e `POPT` si incrociano per indicare le opzioni appartenenti a ciascun campo personalizzato.
+   * **`setDisplayOrder`**= la colonna dell&#39;ordine di visualizzazione indica l&#39;ordine di visualizzazione delle opzioni nel campo personalizzato. Puoi iniziare con 1 e continuare in ordine crescente per tutte le opzioni, indipendentemente dai campi a cui apparterranno. La cosa importante qui è avere numeri univoci per ogni opzione.
+   * Le colonne **`setLabel`** e `**setValue`** in genere contengono le stesse informazioni e devono riflettere i nomi desiderati nell&#39;interfaccia utente di Workfront. Il valore di un’opzione è il nome visualizzato nei rapporti, ad esempio, mentre l’etichetta viene visualizzata nei moduli personalizzati quando è associata a un oggetto. Per ulteriori informazioni, vedere [Aggiungere un campo personalizzato a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
+   * **`setIsHidden`** = immetti `TRUE` se vuoi che una delle opzioni sia nascosta.
 
    ![](assets/parameter-option-sheet-filled-out-kick-starts.png)
 
 
-1. (Facoltativo) Se desideri anche creare un modulo personalizzato in cui aggiungere in seguito i nuovi campi, seleziona la  **`CTGY Category`** e aggiorna le seguenti colonne obbligatorie per le informazioni del modulo personalizzato:
+1. (Facoltativo) Se si desidera anche creare un modulo personalizzato in cui aggiungere i nuovi campi in un secondo momento, selezionare il foglio **`CTGY Category`** e aggiornare le seguenti colonne obbligatorie per le informazioni del modulo personalizzato:
 
-   * **`isNew`** = Invio **`TRUE`** in questa colonna per ogni riga che rappresenta un nuovo modulo personalizzato.
+   * **`isNew`** = immetti **`TRUE`** in questa colonna per ogni riga che rappresenta un nuovo modulo personalizzato.
    * **`ID`** = immettere un numero univoco per ogni riga che rappresenta un nuovo modulo. È possibile utilizzare qualsiasi numero che inizia con 1, purché ogni nuova opzione o linea abbia un numero univoco.
-   * **`setGroupID`** = aggiungere l&#39;ID gruppo per il proprio Gruppo predefinito o qualsiasi altro gruppo del sistema di cui si desidera avere accesso al modulo. Questo è un campo obbligatorio.
+   * **`setGroupID`** = aggiungere l&#39;ID gruppo per il proprio gruppo predefinito o qualsiasi altro gruppo del sistema di cui si desidera avere accesso al modulo. Questo è un campo obbligatorio.
 
-   Per scoprire `ID` di un gruppo, puoi creare un rapporto di gruppo e aggiungere il `ID` nella visualizzazione oppure individuare l&#39;URL del gruppo. L’ID gruppo si trova nell’URL della pagina del gruppo. Ad esempio, se l’URL del gruppo è `https://companyName.my.workfront.com/group/575b000800467a6f66e747932c807464/members`, l’ID gruppo è `575b000800467a6f66e747932c807464`.
+   Per individuare il `ID` di un gruppo, è possibile creare un report del gruppo e aggiungere il campo `ID` nella visualizzazione oppure passare a un gruppo e trovare l&#39;URL del gruppo. L’ID gruppo si trova nell’URL della pagina del gruppo. Ad esempio, se l&#39;URL del gruppo è `https://companyName.my.workfront.com/group/575b000800467a6f66e747932c807464/members`, l&#39;ID gruppo è `575b000800467a6f66e747932c807464`.
 
    * **`setCatObjCode` **= codice oggetto per il tipo di oggetto per cui si desidera creare il modulo. Immettere un codice dalle seguenti opzioni:
-      * **`CMPY`** per Azienda
+      * **`CMPY`** per la società
       * **`TASK`** per l&#39;attività
-      * **`PROJ`** per Progetto
+      * **`PROJ`** per il progetto
       * **`PORT`** per Portfolio
       * **`PRGM`** per il programma
-      * **`USER`** per utente
-      * **`DOCU`** per documento
-      * **`OPTASK`** per problema
+      * **`USER`** per l&#39;utente
+      * **`DOCU`** per il documento
+      * **`OPTASK`** per il problema
       * **`EXPNS`** per Spesa
       * **`ITRN`** per iterazione
-      * **`BILL`** per le Fatturazioni
-      * **`GROUP`** per gruppo
+      * **`BILL`** per i record fatturazione
+      * **`GROUP`** per il gruppo
 
      >[!NOTE]
      >
-     >Per i moduli con più oggetti, immetti il primo oggetto da selezionare durante la creazione di un modulo nell’interfaccia utente. Ad esempio, imposta `setCatObjCode` a `TASK`, se si seleziona Attività nell’interfaccia di Workfront e quindi Problema, Portfolio, ecc., ma non si desidera che il modulo sia disponibile per Progetti.
+     >Per i moduli con più oggetti, immetti il primo oggetto da selezionare durante la creazione di un modulo nell’interfaccia utente. Impostare ad esempio `setCatObjCode` su `TASK` se si seleziona Attività nell&#39;interfaccia di Workfront e quindi Problema, Portfolio e così via, ma non si desidera che il modulo sia disponibile per i progetti.
 
    * **`setName`** = nome del modulo personalizzato che si desidera venga visualizzato nell&#39;interfaccia di Workfront.
 
@@ -245,12 +245,12 @@ Per popolare il foglio di calcolo Excel con le informazioni per i nuovi campi pe
 
 Dopo aver eseguito i passaggi descritti nelle sezioni precedenti, continuare con quanto segue per caricare i nuovi campi e moduli in Workfront:
 
-1. Clic **Importa dati** **(Kick-Start) **sotto il **Menu principale > Configurazione > Sistema** menu.
+1. Fare clic su **Importa dati** **(Kick-Start) **nel menu **Menu principale > Configurazione > Sistema**.
 
-1. Clic **Scegli file** sotto la sezione **Caricare dati con il foglio di calcolo Kick-Start**.
+1. Fare clic su **Scegli file** nella sezione **Carica dati con foglio di calcolo di avvio**.
 
 1. Cercare il foglio di calcolo Excel preparato, nel computer e selezionarlo quando lo si trova.  Quando il file viene riconosciuto da Workfront, il pulsante Carica diventa blu.
-1. Clic **Carica.**
+1. Fai clic su **Carica.**
 
    ![](assets/kick-start-file-selected-and-upload-blue-button.png)
 
@@ -265,7 +265,7 @@ Dopo aver eseguito i passaggi descritti nelle sezioni precedenti, continuare con
    >I nuovi moduli e i campi importati non sono ancora connessi. Il modulo viene importato senza campi personalizzati. È necessario aggiungere manualmente i campi al nuovo modulo personalizzato o a un altro modulo personalizzato esistente.
 
 
-   Per informazioni sull’aggiunta di campi ai moduli personalizzati, consulta [Aggiungere un campo personalizzato a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
+   Per informazioni sull&#39;aggiunta di campi ai moduli personalizzati, vedere [Aggiungere un campo personalizzato a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
 
 1. (Condizionale) Se l’importazione non è andata a buon fine, viene visualizzato un messaggio di errore in cui viene indicato il problema. Provare a identificare il campo, il foglio e il numero di riga in cui è stato riscontrato il problema e correggere le informazioni nel file di Excel, quindi provare a importare il file un&#39;altra volta.
 
@@ -275,4 +275,4 @@ Dopo aver eseguito i passaggi descritti nelle sezioni precedenti, continuare con
 
    * Elimina le informazioni importate correttamente da Workfront dall’area Forms personalizzato, quindi apporta la correzione indicata dal messaggio di errore.
    * Indica che un campo o un modulo è già presente nel sistema per i campi o i moduli già importati, quindi apporta la correzione.
-Per indicare che un campo o un modulo personalizzato è già presente in Workfront, è necessario assicurarsi che il `inNew` il campo è contrassegnato come `FALSE` in fogli che contengono informazioni sul modulo (`CTGY`) o il campo (`PARAM`) sul foglio di importazione kick-start.
+Per indicare che un campo o un modulo personalizzato è già in Workfront, è necessario assicurarsi che il campo `inNew` sia contrassegnato come `FALSE` nei fogli che contengono informazioni sul modulo (`CTGY`) o sul campo (`PARAM`) nel foglio di importazione di avvio.

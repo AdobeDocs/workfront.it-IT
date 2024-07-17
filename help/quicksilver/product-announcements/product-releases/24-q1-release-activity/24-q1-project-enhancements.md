@@ -4,7 +4,8 @@ description: Miglioramenti al progetto nel primo trimestre 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+exl-id: 260e629d-361b-4022-8be0-7d2e7d66770f
+source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione del primo trimestre 2024. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione con la versione del primo trimestre 2024.
 
-Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rilascio del primo trimestre 2024, consulta [Panoramica sulla versione del primo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del primo trimestre 2024, consulta [Panoramica sulla versione del primo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 ## Assegnazioni intelligenti più rilevanti
 
@@ -39,4 +40,4 @@ Considera inoltre quanto segue:
 
 * Non vi sono modifiche nel modo in cui vengono calcolate le assegnazioni intelligenti per i problemi. Il nome dell’elenco di assegnazione intelligente in un elenco di problemi è &quot;Ecco alcuni consigli&quot;.
 
-Per ulteriori informazioni, consulta [Panoramica delle assegnazioni intelligenti](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+Per ulteriori informazioni, vedere [Panoramica assegnazioni avanzate](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).

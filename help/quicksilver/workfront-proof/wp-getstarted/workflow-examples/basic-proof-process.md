@@ -19,20 +19,20 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alle funzionalità del prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Bozza](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
 In questo esempio viene illustrato il flusso di lavoro di base tra un designer o un project manager e uno o più revisori, ad esempio un client.
 
-![basic_workflow.png](assets/basic_workflow.png)
+![flusso di lavoro di base.png](assets/basic_workflow.png)
 
-* **Crea nuova bozza** : il designer o il project manager crea una nuova bozza in [!DNL Workfront Proof] e condivide la bozza con il cliente. (vedere [Generare bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).)
+* **Crea nuova bozza** - La finestra di progettazione o il project manager crea una nuova bozza in [!DNL Workfront Proof] e la condivide con il client. (Vedi [Generare bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).)
 
-* **E-mail nuova bozza** - Il client riceve un&#39;e-mail contenente un collegamento alla bozza.
+* **Nuova e-mail bozza** - Il client riceve un&#39;e-mail contenente un collegamento alla bozza.
 
-* **Rivedere una bozza** : il cliente esamina la bozza, aggiunge commenti e prende una decisione. (vedere [Rivedi bozze in [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md) e [Decidi su una bozza nel visualizzatore di bozze](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).)
+* **Rivedi una bozza** - Il client rivede la bozza, aggiunge commenti e prende una decisione. (Vedi [Verifica delle bozze entro [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md) e [Decidi su una bozza nel visualizzatore di bozze](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).)
 
-* **Avviso e-mail** : il designer o il project manager riceve un’e-mail con un riepilogo della recensione del cliente, a seconda degli avvisi e-mail impostati. (vedere [Configurare le impostazioni delle notifiche e-mail in [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).)
+* **Avviso e-mail** - il progettista o il project manager riceve un messaggio e-mail con un riepilogo della revisione del client, a seconda degli avvisi e-mail impostati. (Vedi [Configurare le impostazioni delle notifiche e-mail in [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).)
 
-* **Nuova versione** (se necessario): il designer o il project manager modifica il file e lo carica in [!DNL Workfront Proof] come nuova versione. (Vedere ).
+* **Nuova versione** (se necessario) - Il designer o il project manager modifica il file e lo carica in [!DNL Workfront Proof] come nuova versione. (Vedere ).
 
 Puoi ripetere questa procedura finché la bozza non viene approvata.

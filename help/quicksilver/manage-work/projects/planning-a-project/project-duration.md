@@ -3,20 +3,20 @@ content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
 title: Panoramica della durata del progetto
-description: Adobe Workfront calcola la durata di un progetto tenendo conto della data di inizio del primo task e della data di completamento dell'ultimo task e del numero di giorni tra le due date.
+description: Adobe Workfront calcola la durata di un progetto tenendo conto della data di inizio della prima attività e della data di completamento dell'attività più recente e conta il numero di giorni tra le due date.
 author: Alina
 feature: Work Management
 exl-id: b558eaad-669b-4079-b61a-07df227edfa2
 source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
 workflow-type: tm+mt
 source-wordcount: '253'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
 # Panoramica della durata del progetto
 
-Adobe Workfront calcola la durata di un progetto tenendo conto della data di inizio del primo task e della data di completamento dell&#39;ultimo task e del numero di giorni tra le due date.
+Adobe Workfront calcola la durata di un progetto tenendo conto della data di inizio della prima attività e della data di completamento dell&#39;attività più recente e conta il numero di giorni tra le due date.
 
 ## Durata progetto
 
@@ -28,13 +28,13 @@ Project Duration = Completion Date of the latest task - Start Date of the earlie
 
 >[!NOTE]
 >
->La durata dei problemi relativi al progetto non influisce sulla durata del progetto.
+>La durata dei problemi sul progetto non influisce sulla durata del progetto.
 
-La durata del progetto conta il numero di giorni tra le due date delle attività in base alla pianificazione associata al progetto o agli utenti assegnati alle attività. Per informazioni sulla pianificazione utilizzata da Workfront per calcolare la durata, consulta [Panoramica sulle pianificazioni](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md).
+La durata del progetto conta il numero di giorni tra le due date dell&#39;attività in base alla pianificazione associata al progetto o agli utenti assegnati alle attività. Per informazioni sulla pianificazione utilizzata da Workfront per calcolare la durata, vedere [Panoramica pianificazioni](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md).
 
 ## Tipi di durata del progetto
 
-Esistono due tipi di Durata del progetto e le formule in base alle quali Workfront le calcola:
+Esistono due tipi di Durata del progetto e le formule in base alle quali Workfront li calcola:
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Check these formulas? Should they be divided by the hours per day?!) </p>
@@ -42,24 +42,24 @@ Esistono due tipi di Durata del progetto e le formule in base alle quali Workfro
 
 * **Durata Pianificata**: 
 
-   ```
-   Project Planned Duration = Planned Completion Date of the latest task - Planned Start Date of the earliest task / Typical hour per day
-   ```
+  ```
+  Project Planned Duration = Planned Completion Date of the latest task - Planned Start Date of the earliest task / Typical hour per day
+  ```
 
-* **Durata Reale**: 
+* **Durata effettiva**: 
 
-   ```
-   Project Actual Duration = Actual Completion Date of the latest task - Actual Start Date of the earliest task / Typical hour per day
-   ```
+  ```
+  Project Actual Duration = Actual Completion Date of the latest task - Actual Start Date of the earliest task / Typical hour per day
+  ```
 
 ## Individua la durata del progetto
 
-È possibile individuare le durate pianificate e effettive del progetto nelle seguenti aree di Workfront:
+Puoi individuare le durate pianificate e effettive del progetto nelle seguenti aree di Workfront:
 
-* . Nell’area Dettagli progetto, nella sezione Panoramica .
+* . Nell’area Dettagli progetto, nella sezione Panoramica.
 
-   Per ulteriori informazioni sulla sottoscheda Panoramica di un progetto, consulta l’articolo [Gestire le informazioni nell’area Panoramica del progetto](../../../manage-work/projects/manage-projects/understand-project-overview-area.md).
+  Per ulteriori informazioni sulla scheda secondaria Panoramica di un progetto, vedere l&#39;articolo [Gestire le informazioni nell&#39;area Panoramica del progetto](../../../manage-work/projects/manage-projects/understand-project-overview-area.md).
 
-* In un rapporto Progetto, includendo i campi Durata o Durata effettiva nel rapporto.
+* In un report di progetto, includendo i campi Durata o Durata effettiva nel report.
 
-   Per ulteriori informazioni sulla creazione di rapporti, consulta l’articolo [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Per ulteriori informazioni sulla creazione di report, vedere l&#39;articolo [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).

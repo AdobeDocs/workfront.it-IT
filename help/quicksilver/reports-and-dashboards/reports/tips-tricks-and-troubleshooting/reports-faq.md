@@ -46,12 +46,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Perché il calcolo personalizzato per la differenza di un’ora non mostra il risultato corretto in una colonna?
 
@@ -83,7 +83,7 @@ Quando eseguo un report con un grafico, viene visualizzato il messaggio di error
 
 Questo errore indica che il grafico contiene fino a 618 risultati distinti, ad esempio più di 618 barre in un grafico a barre. Per risolvere il problema di visualizzazione, è necessario perfezionare i risultati modificando il filtro e raggruppando le selezioni correnti.
 
-Per informazioni sulla modifica di filtri e raggruppamenti, consulta gli articoli [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) e [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+Per informazioni sulla modifica di filtri e raggruppamenti, vedere gli articoli [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) e [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 ## Perché trovo le mie attività (o problemi) quando accedo allo stesso rapporto (o calendario) del mio collega, il quale visualizza le sue attività?
 
@@ -102,7 +102,7 @@ Questo può accadere nella maggior parte dei casi se disponi di un accesso limit
 
 Il creatore del report può modificarlo per eseguirlo con i diritti di accesso di un amministratore di sistema o di qualsiasi utente del piano che abbia accesso alla visualizzazione dei dati.
 
-Per ulteriori informazioni, consulta [Eseguire e consegnare un report con i diritti di accesso di un altro utente](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md).
+Per ulteriori informazioni, vedere [Eseguire e recapitare un report con i diritti di accesso di un altro utente](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md).
 
 ## Come posso creare rapporti sulle attività (o problemi) a cui sono assegnato, che io sia il Proprietario o meno?
 
@@ -111,37 +111,37 @@ Per ulteriori informazioni, consulta [Eseguire e consegnare un report con i diri
 Per visualizzare tutte le attività o i problemi assegnati, sia che tu sia il Proprietario (o l’Assegnatario principale) o meno, utilizza il seguente filtro in un rapporto di attività o problemi:
 
 1. Accedere a un report di attività o problemi.
-1. Il giorno **Filtri** , fare clic su **Aggiungere una regola di filtro**.
+1. Nella scheda **Filtri**, fai clic su **Aggiungi regola filtro**.
 
-1. In **Inizia a digitare il nome del campo ...** campo, inizia a digitare **Nome utenti assegnazione**, quindi selezionarla quando viene visualizzata nell&#39;elenco.
+1. Nel campo **Inizia a digitare il nome del campo ...**, inizia a digitare **Nome utenti assegnazione**, quindi selezionalo quando viene visualizzato nell&#39;elenco.
 
    >[!NOTE]
    >
-   >Non utilizzare il **Assegnato a Nome** come questo filtra solo per le attività e i problemi per i quali sei l’assegnatario principale o il proprietario.
+   >Non utilizzare il campo **Assegnato a nome**, poiché questo filtro viene applicato solo alle attività e ai problemi per i quali l&#39;utente è l&#39;assegnatario principale o il proprietario.
 
-1. Seleziona la **Uguale** modificatore.
-1. Inizia a digitare *$$USER.ID* nella casella di testo e selezionarla dall&#39;elenco a discesa visualizzato.\
+1. Seleziona il modificatore **Equal**.
+1. Inizia a digitare *$$USER.ID* nella casella di testo e selezionalo dall&#39;elenco a discesa visualizzato.\
    In questo modo potrai visualizzare tutte le attività e i problemi assegnati all’utente connesso. È possibile sostituire il carattere jolly con un nome utente specifico.\
    ![](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png)
 
-1. Clic **Salva e chiudi**.
+1. Fai clic su **Salva e Chiudi**.
 
 ## Perché i collegamenti Aggiungi problemi/Aggiungi attività non vengono visualizzati in fondo agli elenchi Problemi e attività di un progetto?
 
 ### Risposta
 
-Innanzitutto, assicurati di disporre dell’accesso e delle autorizzazioni corretti per aggiungere problemi e attività a un progetto. In questo caso, dovresti visualizzare **Aggiungi problemi** e **Aggiungi attività** collegamenti nella parte inferiore della sezione **Problemi** e **Attività** elenchi.
+Innanzitutto, assicurati di disporre dell’accesso e delle autorizzazioni corretti per aggiungere problemi e attività a un progetto. In questo caso, dovresti visualizzare i collegamenti **Aggiungi problemi** e **Aggiungi attività** nella parte inferiore degli elenchi **Problemi** e **Attività**.
 
 Tuttavia, ci sono alcuni elementi che potrebbero impedire la visualizzazione di questi collegamenti:
 
 * Se a questi elenchi è applicato il filtro rapido, i collegamenti non vengono visualizzati. Rimuovi il filtro rapido per visualizzare i collegamenti che ti consentiranno di aggiungere problemi e attività ai progetti.\
-  Per informazioni sul filtro rapido, consulta [Introduzione agli elenchi in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+  Per informazioni sul filtro rapido, vedere [Introduzione agli elenchi in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-* Se si dispone di **Raggruppamento** applicati a questi elenchi, i collegamenti non vengono visualizzati. Rimuovi il **Raggruppamento** e i collegamenti dovrebbero essere visualizzati per consentire di aggiungere problemi e attività ai progetti.\
-  Per informazioni sulla creazione di raggruppamenti, consulta [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+* Se a questi elenchi è applicato un **Raggruppamento**, i collegamenti non vengono visualizzati. Rimuovi il **Raggruppamento** e i collegamenti da visualizzare per aggiungere problemi e attività ai progetti.\
+  Per informazioni sulla creazione di raggruppamenti, vedere [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-* Se si dispone di **Visualizza** applicati a questi elenchi la cui valuta è diversa da quella predefinita per il progetto, i collegamenti non vengono visualizzati. Modificare il **Visualizza** a **Valuta originale del progetto** e i collegamenti dovrebbero essere visualizzati per consentire di aggiungere problemi e attività ai progetti.\
-  Per ulteriori informazioni sulla modifica della valuta nella visualizzazione, vedere [Creazione di report di dati finanziari con tassi di cambio univoci](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
+* Se a questi elenchi è applicata una **Visualizzazione** con una valuta selezionata diversa da quella predefinita per il progetto, i collegamenti non vengono visualizzati. Modifica la **visualizzazione** in **valuta originale del progetto** e i collegamenti dovrebbero essere visualizzati in modo da poter aggiungere problemi e attività ai progetti.\
+  Per ulteriori informazioni sulla modifica della valuta nella visualizzazione, vedere [Creare report di dati finanziari con tassi di cambio univoci](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 
 ![](assets/nwe-project-original-currency-350x229.png)
 
@@ -152,10 +152,10 @@ Tuttavia, ci sono alcuni elementi che potrebbero impedire la visualizzazione di 
 Le informazioni nei rapporti o nelle dashboard non vengono aggiornate automaticamente.
 
 Le informazioni possono essere aggiornate manualmente in un rapporto memorizzato nella cache.\
-Per ulteriori informazioni sull’aggiornamento di un rapporto memorizzato nella cache, consulta [Eseguire un rapporto](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-report.md).
+Per ulteriori informazioni sull&#39;aggiornamento di un report nella cache, vedere [Eseguire un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-report.md).
 
 Le informazioni possono essere aggiornate manualmente in un dashboard memorizzato nella cache.\
-Per ulteriori informazioni sull’aggiornamento di un dashboard memorizzato in cache, consulta la sezione [Visualizza dashboard](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md#running-dashboards) nell’articolo [Introduzione alle dashboard](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
+Per ulteriori informazioni sull&#39;aggiornamento di un dashboard memorizzato nella cache, vedere la sezione [Dashboard di visualizzazione](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md#running-dashboards) nell&#39;articolo [Introduzione ai dashboard](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
 
 ## Posso cambiare il proprietario di un report?
 
@@ -164,20 +164,20 @@ Per ulteriori informazioni sull’aggiornamento di un dashboard memorizzato in c
 Non è possibile cambiare il proprietario di un report. Tuttavia, l’utente che ha creato il rapporto può consentire ad altri utenti di modificarlo. Il modo in cui puoi consentire agli utenti di modificare un rapporto dipende dal tipo di utente che sei.
 
 * Gli amministratori di sistema possono consentire agli utenti con una licenza Pianificazione di modificare i rapporti configurando l’opzione Modifica nella riga Rapporti per includere l’accesso a Crea un rapporto.\
-  Per ulteriori informazioni, consulta [Concedere l’accesso a rapporti, dashboard e calendari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+  Per ulteriori informazioni, vedere [Concedere l&#39;accesso a report, dashboard e calendari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 * Tutti gli utenti finali con accesso per creare e condividere report possono consentire ad altri di modificare singoli report condividendoli e assegnando ad altri utenti le autorizzazioni di gestione per tali report.\
-  Per ulteriori informazioni, consulta [Condividere un rapporto in Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
+  Per ulteriori informazioni, vedere [Condividere un report in Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
 
-Se disponi delle autorizzazioni necessarie per visualizzare o gestire un rapporto, puoi anche creare una copia del rapporto, di cui sarai il proprietario per impostazione predefinita. Per ulteriori informazioni sulla copia di un report, consulta [Creare una copia di un rapporto](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+Se disponi delle autorizzazioni necessarie per visualizzare o gestire un rapporto, puoi anche creare una copia del rapporto, di cui sarai il proprietario per impostazione predefinita. Per ulteriori informazioni sulla copia di un report, vedere [Creare una copia di un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
 ## Perché non posso accedere a un report di proprietà di un utente disattivato?
 
 ### Risposta
 
-A volte, il proprietario del rapporto è anche l’utente specificato nel **Esegui questo report con i diritti di accesso di:** sul report. Se il **Esegui questo report con i diritti di accesso di:** se l’utente è disattivato, il rapporto non viene più visualizzato per gli utenti che hanno il rapporto condiviso con loro. In questo caso, puoi rendere nuovamente accessibile il rapporto lasciando **Esegui questo report con i diritti di accesso di:** vuoto o inserendo un utente attivo nel campo.
+A volte, il proprietario del report è anche l&#39;utente specificato nel campo **Esegui report con i diritti di accesso di:** nel report. Se **Esegui il report con i diritti di accesso di:** utente è disattivato, il report non verrà più visualizzato per gli utenti che hanno condiviso il report con loro. In questo caso, è possibile rendere nuovamente accessibile il report lasciando vuoto **Esegui il report con i diritti di accesso di:** o immettendo un utente attivo nel campo.
 
-Per ulteriori informazioni su **Esegui questo report con i diritti di accesso di:** campo, vedi [Eseguire e consegnare un report con i diritti di accesso di un altro utente](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md). Per informazioni sull’identificazione di tutti i rapporti di proprietà di utenti disattivati, consulta [Creare un rapporto sulle attività di reporting](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
+Per ulteriori informazioni sul campo **Esegui il report con i diritti di accesso di:**, vedere [Esegui e recapita un report con i diritti di accesso di un altro utente](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md). Per informazioni sull&#39;identificazione di tutti i report di proprietà di utenti disattivati, vedere [Creare un report sulle attività di reporting](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 
 ## Come posso accedere a una dashboard contenente un report di proprietà di un utente eliminato?
 
@@ -188,12 +188,12 @@ Quando elimini un utente, puoi comunque accedere a tutti i rapporti creati, ma v
 * Dashboard contenente il report
 * Una sezione personalizzata che contiene una dashboard del report
 
-Per ulteriori informazioni sulle implicazioni dell’eliminazione di un utente, consulta [Elimina utenti](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+Per ulteriori informazioni sulle implicazioni dell&#39;eliminazione di un utente, vedere [Elimina utenti](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
 Se disponi dell’accesso di visualizzazione al rapporto, puoi effettuare le seguenti operazioni:
 
 1. Crea una copia del rapporto.\
-   Per informazioni su come creare una copia di un report, consulta [Creare una copia di un rapporto](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+   Per informazioni su come creare una copia di un report, vedere [Creare una copia di un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
 1. Aggiorna il dashboard in modo da includere il report copiato.\
-   Per informazioni su come modificare un dashboard, consulta [Modificare una dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md).
+   Per informazioni su come modificare un dashboard, vedere [Modificare un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md).

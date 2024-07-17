@@ -22,21 +22,21 @@ I tipi di dipendenza si riferiscono alle relazioni precedenti tra le attività. 
 
 >[!IMPORTANT]
 >
->Adobe Workfront non limita l&#39;avvio o la conclusione delle attività dipendenti in base ai tipi di relazione, a meno che non vengano applicate le relazioni predecessori. Per informazioni sull&#39;applicazione dei predecessori, vedere [Imponi predecessori](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
+>Adobe Workfront non limita l&#39;avvio o la conclusione delle attività dipendenti in base ai tipi di relazione, a meno che non vengano applicate le relazioni predecessori. Per informazioni sull&#39;applicazione dei predecessori, vedere [Applicazione dei predecessori](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
 Quando si stabilisce questa relazione tra le attività, è necessario specificare il tipo di dipendenza di una relazione predecessore.
 
-Per ulteriori informazioni sui predecessori, vedere [Panoramica dei predecessori delle attività](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Per ulteriori informazioni sui predecessori, vedere [Panoramica sui predecessori delle attività](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 Di seguito sono riportati i tipi di dipendenza di Workfront:
 
-* **Fine-Inizio (fs)**: l&#39;attività predecessore deve terminare prima che l&#39;attività dipendente possa iniziare. Si tratta del tipo di dipendenza predefinito, utilizzato quando non è specificato alcun altro tipo di dipendenza.
+* **Fine-Inizio (fs)**: l&#39;attività predecessore deve essere completata prima dell&#39;inizio dell&#39;attività dipendente. Si tratta del tipo di dipendenza predefinito, utilizzato quando non è specificato alcun altro tipo di dipendenza.
 * **Fine-Fine (ff)**: l&#39;attività predecessore deve terminare prima che l&#39;attività dipendente possa terminare.
 * **Inizio-Inizio (ss)**: l&#39;attività predecessore deve iniziare prima che l&#39;attività dipendente possa iniziare. Non è possibile avviare l&#39;attività dipendente a meno che il predecessore non abbia almeno iniziato.
 * **Inizio-Fine (sf)**: l&#39;attività predecessore deve iniziare prima che l&#39;attività dipendente possa terminare. È possibile avviare l&#39;attività dipendente prima dell&#39;inizio del predecessore, ma non è possibile terminarla se il predecessore non è stato avviato.
-* **Avvio programmato (sd)**: in questo modo un&#39;attività viene pianificata come Fine-Inizio, ma il tipo di applicazione effettivo è Fine-Fine. In questo caso, l&#39;attività dipendente viene programmata per iniziare dopo il completamento dell&#39;attività predecessore. Tuttavia, l&#39;imposizione consente di avviare l&#39;attività dipendente in qualsiasi momento, ma non può terminare fino al completamento dell&#39;attività predecessore.
+* **Inizio pianificato (sd)**: pianifica un&#39;attività come Fine-Inizio, ma il tipo di imposizione effettivo è Fine-Fine. In questo caso, l&#39;attività dipendente viene programmata per iniziare dopo il completamento dell&#39;attività predecessore. Tuttavia, l&#39;imposizione consente di avviare l&#39;attività dipendente in qualsiasi momento, ma non può terminare fino al completamento dell&#39;attività predecessore.
 
 >[!NOTE]
 >
->Le abbreviazioni per i tipi di dipendenza vengono utilizzate negli elenchi di task per definire le relazioni dei predecessori. Per ulteriori informazioni, consulta [Esempi di valori predecessori in un elenco attività](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md#examples-of-predecessor-values-in-a-task-list) in [Panoramica dei predecessori delle attività](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+>Le abbreviazioni per i tipi di dipendenza vengono utilizzate negli elenchi di task per definire le relazioni dei predecessori. Per ulteriori informazioni, vedere [Esempi di valori dei predecessori in un elenco attività](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md#examples-of-predecessor-values-in-a-task-list) in [Panoramica sui predecessori attività](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 

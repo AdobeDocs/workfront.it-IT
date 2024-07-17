@@ -37,7 +37,7 @@ Devi avere i seguenti:
 1. Passare a una delle seguenti opzioni:
 
 * Fase: [https://stage.adminconsole.adobe.com/](https://stage.adminconsole.adobe.com/)
-* Prod.: [https://adminconsole.adobe.com/](https://adminconsole.adobe.com/)
+* Prod: [https://adminconsole.adobe.com/](https://adminconsole.adobe.com/)
 
 1. Nella sezione Utenti, fai clic su **Sviluppatori** > **Aggiungi sviluppatori**.
 
@@ -49,7 +49,7 @@ Devi avere i seguenti:
 
 1. Aggiungi l’e-mail dell’utente. Deve cercare gli utenti esistenti che sono già stati aggiunti dall’Admin Console.
 
-1. Aggiungi i prodotti necessari al profilo sviluppatore, quindi fai clic su **Salva**.
+1. Aggiungi i prodotti necessari al profilo sviluppatore e fai clic su **Salva**.
 
 ![](assets/add-developer.png)
 
@@ -66,7 +66,7 @@ Se AppBuilder è configurato correttamente, dovresti vedere &quot;Crea progetto 
 
 ## Creare un nuovo progetto nella Console per sviluppatori
 
-1. Clic **Crea progetto da modello**.
+1. Fai clic su **Crea progetto da modello**.
 
    >[!IMPORTANT]
    >
@@ -76,29 +76,29 @@ Se AppBuilder è configurato correttamente, dovresti vedere &quot;Crea progetto 
 
 1. Seleziona **App Builder**.
 
-1. Immetti un **Titolo progetto** e **Nome app**. Entrambi dispongono di valori predefiniti, ma se personalizzi il valore in un secondo momento sarà più semplice identificare il progetto desiderato.
+1. Immetti un **Titolo progetto** e un **Nome app**. Entrambi dispongono di valori predefiniti, ma se personalizzi il valore in un secondo momento sarà più semplice identificare il progetto desiderato.
 
    >[!NOTE]
    >
    >È disponibile un’opzione per aggiungere altre aree di lavoro in questo passaggio. Ci è stato suggerito di creare un&#39;area di lavoro per ogni sviluppatore. In questo modo i segreti e le distribuzioni sono separati l’uno dall’altro mentre i dispositivi funzionano. È necessario denominare l’area di lavoro con il nome dello sviluppatore che la utilizza. Il file CLI AIO dispone di opzioni per il passaggio all&#39;area di lavoro, che verranno illustrate in seguito.
 
 
-1. Esci **Includi runtime** selezionato.
+1. Lascia selezionata **Includi runtime**.
 
 1. Fai clic su **Salva**.
 
 ## CLI Adobe IO (aio)
 
-L&#39;Adobe fornisce una CLI open source che può essere utilizzata per facilitare la creazione di applicazioni App Builder. La documentazione è disponibile qui: [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli) nonché le istruzioni Adobe App Builder [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/getting_started/first_app/).
+L’Adobe fornisce una CLI open source che può essere utilizzata per facilitare la creazione delle applicazioni App Builder. La documentazione è disponibile qui: [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli) e le istruzioni App Builder di Adobe [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/getting_started/first_app/).
 
 1. Installazione
-   1. Per installare lo strumento, (accertati di trovarti prima sul nodo v18) esegui: `npm install -g @adobe/aio-cli `.
+   1. Per installare lo strumento (verificare di essere al primo posto sul nodo v18) eseguire: `npm install -g @adobe/aio-cli `.
 
 1. Autentica nel terminale
-   1. Avvia il terminale e accedi ad AIO con il comando: `aio login`.
+   1. Avviare il terminale e accedere all&#39;AIO con il comando: `aio login`.
 
 1. Inizializzare l’applicazione
-   1. Inizia a configurare l’app eseguendo: `aio app init example-app`.
+   1. Iniziare la configurazione dell&#39;app eseguendo: `aio app init example-app`.
 
 1. Selezione configurazione
    1. Procedi selezionando l’organizzazione e il progetto tra le opzioni fornite.\
@@ -106,7 +106,7 @@ L&#39;Adobe fornisce una CLI open source che può essere utilizzata per facilita
       ![](assets/select-project.png)
 
 1. Selezione e configurazione dei modelli
-   1. Sfoglia tutti i modelli disponibili e scegli **@adobe/aem-cf-editor-ui-ext-tpl** modello per il progetto.
+   1. Sfoglia tutti i modelli disponibili e scegli il modello **@adobe/aem-cf-editor-ui-ext-tpl** per il tuo progetto.
       ![](assets/search-template.png)
       ![](assets/select-template.png)
 
@@ -114,12 +114,12 @@ L&#39;Adobe fornisce una CLI open source che può essere utilizzata per facilita
    1. Denomina l’estensione.
    1. Fornisci un riepilogo descrittivo delle funzionalità dell&#39;estensione.
    1. Seleziona un numero di versione iniziale con cui iniziare.
-   1. Conferma il completamento selezionando **Ho finito**.
+   1. Conferma il completamento selezionando **Fine**.
       ![](assets/define-extension.png)
 
 1. Passa alla cartella del progetto
    1. Accedere alla cartella src
-   1. Rinomina la cartella `aem-cf-editor-1` a `workfront-doc-details-1`.
+   1. Rinominare la cartella `aem-cf-editor-1` in `workfront-doc-details-1`.
 
 1. Modifica file di configurazione
    1. Apri app.config.yaml
@@ -128,7 +128,7 @@ L&#39;Adobe fornisce una CLI open source che può essere utilizzata per facilita
 
 1. Modificare il componente Registrazione estensione
    1. Apri `src/workfront-doc-details-1/web-src/src/components/ExtensionRegistration.js`.
-   1. Nella sezione metodi, aggiungi una funzione `secondaryNav` che contiene una funzione asincrona `getButtons`.
+   1. Nella sezione metodi aggiungere una funzione `secondaryNav` contenente una funzione asincrona `getButtons`.
    1. `getButtons` deve ricevere un oggetto con la seguente struttura:
 
       ```
@@ -172,7 +172,7 @@ L&#39;Adobe fornisce una CLI open source che può essere utilizzata per facilita
       ```
 
 1. Accedi a dettagli documento
-   1. Implementare la funzione fornita `document.getDocumentDetails` all’interno dell’applicazione per recuperare le specifiche essenziali dei documenti. Questa funzione recupera un oggetto contenente `docId` e `docvId`, insieme a un `sharedContext` oggetto con `hostname`, `protocol`, e i dettagli di autenticazione. Assicurati che l’applicazione gestisca correttamente questi dati.
+   1. Implementare la funzione `document.getDocumentDetails` specificata nell&#39;applicazione per recuperare le specifiche essenziali dei documenti. Questa funzione recupera un oggetto contenente `docId` e `docvId`, insieme a un oggetto `sharedContext` con `hostname`, `protocol` e dettagli di autenticazione. Assicurati che l’applicazione gestisca correttamente questi dati.
 
 1. Integrare il recupero dati nei componenti
    1. Aggiungi un nuovo componente alla cartella dei componenti dell’applicazione. All&#39;interno di questo componente, stabilire una connessione a Workfront per recuperare le informazioni del documento e i dati di autenticazione utilizzando la connessione stabilita con l&#39;applicazione host. Di seguito è riportato un esempio di come strutturare il componente in modo da gestirlo:
@@ -221,8 +221,8 @@ L&#39;Adobe fornisce una CLI open source che può essere utilizzata per facilita
    1. Modificare la configurazione aggiornando il riferimento da `aem/cf-editor/1` a `workfront/doc-details/1`. Questa regolazione allinea i percorsi dei file alla struttura del progetto corrente.
 
 1. Rivedere il componente Registrazione estensione
-   1. Individua e apri il file denominato `ExtensionRegistration.js`.
-   1. Nella sezione metodi, aggiungi una funzione `secondaryNav` che contiene una funzione asincrona `getButtons`.
+   1. Individuare e aprire il file denominato `ExtensionRegistration.js`.
+   1. Nella sezione metodi aggiungere una funzione `secondaryNav` contenente una funzione asincrona `getButtons`.
    1. `getButtons` deve ricevere un oggetto con la seguente struttura:
 
       ```
@@ -257,7 +257,7 @@ L&#39;Adobe fornisce una CLI open source che può essere utilizzata per facilita
    ```
 
 1. Configurare il routing dell&#39;applicazione
-   1. Apri il `App.js`e configurare le route per includere le funzionalità appena sviluppate. Sarà necessario impostare i percorsi per la visualizzazione predefinita ed eventuali visualizzazioni aggiuntive, ad esempio la pagina di revisione. Di seguito viene illustrato come definire questi percorsi:
+   1. Apri il file `App.js` e configura le route per includere le funzionalità appena sviluppate. Sarà necessario impostare i percorsi per la visualizzazione predefinita ed eventuali visualizzazioni aggiuntive, ad esempio la pagina di revisione. Di seguito viene illustrato come definire questi percorsi:
 
       ```
           <Route index element={<ExtensionRegistration />} />
@@ -266,7 +266,7 @@ L&#39;Adobe fornisce una CLI open source che può essere utilizzata per facilita
       ```
 
 1. Accedi a dettagli documento
-   1. Implementare la funzione fornita `document.getDocumentDetails` all’interno dell’applicazione per recuperare le specifiche essenziali dei documenti. Questa funzione recupera un oggetto contenente `docId` e `docvId`, insieme a un `sharedContext` oggetto con `hostname`, `protocol`, e i dettagli di autenticazione. Assicurati che l’applicazione gestisca correttamente questi dati.
+   1. Implementare la funzione `document.getDocumentDetails` specificata nell&#39;applicazione per recuperare le specifiche essenziali dei documenti. Questa funzione recupera un oggetto contenente `docId` e `docvId`, insieme a un oggetto `sharedContext` con `hostname`, `protocol` e dettagli di autenticazione. Assicurati che l’applicazione gestisca correttamente questi dati.
 
 1. Integrare il recupero dati nei componenti
    1. Aggiungi un nuovo componente alla cartella dei componenti dell’applicazione. All&#39;interno di questo componente, stabilire una connessione a Workfront per recuperare le informazioni del documento e i dati di autenticazione utilizzando la connessione stabilita con l&#39;applicazione host. Di seguito è riportato un esempio di come strutturare il componente in modo da gestirlo:
@@ -308,7 +308,7 @@ L&#39;Adobe fornisce una CLI open source che può essere utilizzata per facilita
           export default Review;
       ```
 
-## Pubblicare le applicazioni
+## Applicazioni Publish
 
 >[!IMPORTANT]
 >
@@ -320,12 +320,12 @@ Per caricare un’applicazione guest in Workfront, è necessario inviarla all’
    1. `aio app use -w Production `
    1. `aio app deploy `
 
-1. Accedi a [https://developer-stage.adobe.com/](https://developer-stage.adobe.com/) o [https://developer.adobe.com/](https://developer.adobe.com/).
-   1. Clic **Console** in alto a destra.
+1. Passa a [https://developer-stage.adobe.com/](https://developer-stage.adobe.com/) o [https://developer.adobe.com/](https://developer.adobe.com/).
+   1. Fai clic su **Console** nell&#39;angolo superiore destro.
 
 1. Trova il progetto utilizzato per creare l’applicazione AppBuilder.
 
-1. Seleziona l’area di lavoro di produzione.
+1. Seleziona il Workspace di produzione.
    ![](assets/find-application.png)
 
 1. Invia l’applicazione per una revisione privata (riceverai avvisi che non stiamo pubblicando nell’app exchange marketplace, il che va bene).
@@ -339,9 +339,9 @@ Per caricare un’applicazione guest in Workfront, è necessario inviarla all’
 
 ## Approva l’invio
 
-1. In qualità di amministratore di sistema, accedi a [https://stage.exchange.adobe.com/](https://stage.exchange.adobe.com/) o [https://exchange.adobe.com/](https://exchange.adobe.com/).
+1. Come amministratore di sistema, passa a [https://stage.exchange.adobe.com/](https://stage.exchange.adobe.com/) o [https://exchange.adobe.com/](https://exchange.adobe.com/).
 
-1. Clic **Gestisci** > **Applicazioni Experience Cloud**. Dovresti vedere le app inviate con opzioni di approvazione/rifiuto.
+1. Fai clic su **Gestisci** > **Experience Cloud applicazioni**. Dovresti vedere le app inviate con opzioni di approvazione/rifiuto.
 Una volta approvate, le estensioni dell’applicazione pubblicate devono essere caricate automaticamente nell’ambiente Workfront.
 
    ![](assets/approve-submission.png)
@@ -360,10 +360,10 @@ Di seguito sono riportati alcuni collegamenti utili:
 
 ## Sviluppo locale
 
-Durante lo sviluppo dell’applicazione App Builder per Workfront, potrebbe essere necessario testare l’app in Workfront senza pubblicarla. Fortunatamente, abbiamo una soluzione per questo.
+Durante lo sviluppo dell’applicazione App Builder per Workfront, potrebbe essere necessario testare l’app all’interno di Workfront senza pubblicarla. Fortunatamente, abbiamo una soluzione per questo.
 
-Nell’app di App Builder puoi avviare `aio app run` sviluppo locale. Questo ti fornirà un URL, in genere qualcosa di simile `https://localhost:9080`. In alternativa, è possibile eseguire `aio app deploy` per ottenere un dominio Adobe statico. Assicurati di prendere nota di questi URL per utilizzi futuri.
+Nell&#39;app App Builder puoi avviare `aio app run` per lo sviluppo locale. Questo ti fornirà un URL, in genere qualcosa come `https://localhost:9080`. In alternativa, è possibile eseguire `aio app deploy` per ottenere un dominio di Adobe statico. Assicurati di prendere nota di questi URL per utilizzi futuri.
 
-Quindi, passa alla pagina dei dettagli del documento che desideri sviluppare nel browser. Apri gli strumenti per sviluppatori e accedi all’archiviazione locale per workfront.com o workfront.adobe.com. In questo caso, è necessario aggiungere una voce. Utilizzare `appBuilderDocDetailsOverride` come chiave e l’URL dell’app builder precedentemente indicato come valore.
+Quindi, passa alla pagina dei dettagli del documento che desideri sviluppare nel browser. Apri gli strumenti per sviluppatori e accedi all’archiviazione locale per workfront.com o workfront.adobe.com. In questo caso, è necessario aggiungere una voce. Utilizza `appBuilderDocDetailsOverride` come chiave e l&#39;URL del generatore di app indicato in precedenza come valore.
 
 Una volta ricaricata la pagina, vengono visualizzati i pulsanti dell’applicazione App Builder. Facendo clic su questi pulsanti potrai visualizzare l’app in azione.

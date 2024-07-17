@@ -55,17 +55,17 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Visualizzare i commenti delle ore su una scheda orario {#view-hour-entry-comments-on-a-timesheet}
 
-È possibile configurare i commenti inseriti in singole ore da visualizzare nella scheda orario. L&#39;opzione per mostrare e nascondere i commenti non influisce sui commenti inseriti nella scheda attività generale o sui commenti inseriti nei singoli elementi. Per ulteriori informazioni, consulta  [Commenti su una scheda orario](#make-comments-on-a-timesheet).
+È possibile configurare i commenti inseriti in singole ore da visualizzare nella scheda orario. L&#39;opzione per mostrare e nascondere i commenti non influisce sui commenti inseriti nella scheda attività generale o sui commenti inseriti nei singoli elementi. Per ulteriori informazioni, consulta  [Aggiungere commenti a una scheda orario](#make-comments-on-a-timesheet).
 
 Per impostazione predefinita, i commenti vengono nascosti la prima volta che si accede a una scheda orario.
 
 Per visualizzare commenti su una scheda orario:
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront.
 
-1. Clic **Schede orario**.
+1. Fai clic su **Schede orario**.
 1. Aprire la scheda orario in cui si desidera visualizzare i commenti.
-1. Clic **Mostra commenti** nell’angolo in alto a destra della scheda orario.
+1. Fai clic su **Mostra commenti** nell&#39;angolo superiore destro della scheda orario.
 I commenti vengono visualizzati sotto l’elemento in cui sono stati registrati l’immissione delle ore e il commento.
 
    ![](assets/comments-expanded-under-tasks-redesigned-timesheet.png)
@@ -73,46 +73,46 @@ I commenti vengono visualizzati sotto l’elemento in cui sono stati registrati 
 
 ## Commenti su una scheda orario {#make-comments-on-a-timesheet}
 
-* [Commento sulla scheda orario generale](#comment-on-the-overall-timesheet)
-* [Commento su una singola immissione di ore in una scheda orario](#comment-on-an-individual-hour-entry-in-a-timesheet)
+* [Commento alla scheda orario generale](#comment-on-the-overall-timesheet)
+* [Commento su una singola ora in una scheda orario](#comment-on-an-individual-hour-entry-in-a-timesheet)
 * [Commento su un elemento di lavoro in una scheda orario](#comment-on-a-work-item-in-a-timesheet)
 
 ### Commento sulla scheda orario generale {#comment-on-the-overall-timesheet}
 
 Puoi fare commenti generali sulla scheda orario. Commentare la scheda attività complessiva è simile a commentare altri oggetti.
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro o **Menu principale** icona ![](assets/lines-main-menu.png) nell’angolo in alto a sinistra o in Workfront, se disponibile.
+1. Fare clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro o sull&#39;icona **menu principale** ![](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro o su Workfront, se disponibile.
 
-1. Clic **Schede orario**.
+1. Fai clic su **Schede orario**.
 1. Vai alla scheda orario in cui desideri inserire un commento.
-1. Clic **Aggiornamenti** nel pannello a sinistra, fai clic su **Commenti** scheda.
+1. Fai clic su **Aggiornamenti** nel pannello a sinistra, quindi fai clic sulla scheda **Commenti**.
 1. Inizia ad aggiungere nuovi commenti o rispondi a quelli esistenti, come descritto in [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Facoltativo) Aggiungi persone o team nel **Assegna tag a persone o team** per includerne altri nell’aggiornamento. Per ulteriori informazioni, consulta [Assegna tag ad altri utenti in caso di aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-1. (Facoltativo) Seleziona la **Privato per la mia azienda** opzione se desideri che solo le persone della tua azienda visualizzino l’aggiornamento.
+1. (Facoltativo) Aggiungi persone o team nel campo **Assegna tag a persone o team** per includerne altri nell&#39;aggiornamento. Per ulteriori informazioni, consulta [Assegnare tag ad altri in occasione di aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+1. (Facoltativo) Seleziona l&#39;opzione **Privato per la mia azienda** se desideri che solo le persone della tua azienda visualizzino l&#39;aggiornamento.
 1. Digita il commento, quindi fai clic su **Invia**.
 
-   Il commento viene visualizzato in [!UICONTROL Aggiornamenti] nella scheda Commenti.
+   Il commento viene visualizzato nella sezione [!UICONTROL Aggiornamenti] della scheda orario, nella scheda Commenti.
 
-1. (Facoltativo) Fai clic su **Attività di sistema** per rivedere gli aggiornamenti generati dal sistema
+1. (Facoltativo) Fai clic sulla scheda **Attività di sistema** per rivedere gli aggiornamenti generati dal sistema
 
    Oppure
 
-   Fai clic su **Tutti** per visualizzare le attività di sistema e i commenti degli utenti in ordine cronologico.
+   Fare clic sulla scheda **Tutti** per visualizzare le attività di sistema e i commenti degli utenti in ordine cronologico.
 
    >[!TIP]
    >
    >   La scheda Tutto è di sola lettura e non è possibile rispondere ai commenti da tale scheda.
 
 
-   Per ulteriori informazioni, consulta [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   Per ulteriori informazioni, vedere [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ### Commento su una singola immissione di ore in una scheda orario {#comment-on-an-individual-hour-entry-in-a-timesheet}
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront.
 
-1. Clic **Schede orario**.
+1. Fai clic su **Schede orario**.
 1. Vai alla scheda orario in cui desideri inserire un commento e fai clic su **Scheda orario** nel pannello a sinistra.
-1. Fare clic nel campo di immissione ore in cui si desidera inserire un commento e fare clic su **Commento** per aggiungere un commento per la voce oraria.
+1. Fai clic nel campo di immissione ore in cui desideri inserire un commento e fai clic su **Commento** per aggiungere un commento per la voce ore.
 
    >[!TIP]
    >
@@ -121,9 +121,9 @@ Puoi fare commenti generali sulla scheda orario. Commentare la scheda attività 
 
    Esegui una delle operazioni seguenti:
 
-   * Digita un nuovo commento e fai clic su **Fine**.
-   * Modifica un commento esistente e fai clic su **Fine**, o fai clic su **Annulla** per ignorare le modifiche.
-   * Fai clic su **Elimina** icona ![](assets/delete.png) per eliminare un commento salvato.
+   * Digitare un nuovo commento e fare clic su **Fine**.
+   * Modifica un commento esistente e fai clic su **Fine** oppure fai clic su **Annulla** per annullare le modifiche.
+   * Fai clic sull&#39;icona **Elimina** ![](assets/delete.png) per eliminare un commento salvato.
 
      Nell&#39;angolo superiore destro della casella di immissione ore viene visualizzato un indicatore blu per indicare la presenza di commenti registrati con l&#39;immissione dell&#39;ora.
 
@@ -136,7 +136,7 @@ Puoi fare commenti generali sulla scheda orario. Commentare la scheda attività 
    >   * Cmd + Invio per computer Mac.
 
 
-1. (Facoltativo) Per configurare i commenti di immissione ore da visualizzare nella scheda orario, vedi la sezione [Visualizzare i commenti delle ore su una scheda orario](#view-hour-entry-comments-on-a-timesheet) in questo articolo.
+1. (Facoltativo) Per configurare i commenti di immissione ore da visualizzare nella scheda orario, vedere la sezione [Visualizzare i commenti di immissione ore in una scheda orario](#view-hour-entry-comments-on-a-timesheet) in questo articolo.
 
 ### Commento su un elemento di lavoro in una scheda orario {#comment-on-a-work-item-in-a-timesheet}
 
@@ -147,12 +147,12 @@ Puoi fare commenti generali sulla scheda orario. Commentare la scheda attività 
 
 È possibile aggiungere commenti solo alle attività e ai problemi di una scheda orario. Non è possibile aggiungere commenti ai progetti o all&#39;ora generale.
 
-1. Fai clic su [!UICONTROL **Menu principale**] icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront.
-1. Clic [!UICONTROL **Schede orario**].
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del [!UICONTROL **menu principale**] nell&#39;angolo superiore destro di Adobe Workfront.
+1. Fai clic su [!UICONTROL **Schede orario**].
 1. Vai alla scheda orario in cui desideri inserire un commento e fai clic su [!UICONTROL **Scheda orario**] nel pannello a sinistra.
-1. Fai clic sulla riga di un’attività o di un problema, quindi fai clic su [!UICONTROL **Apri riepilogo**].
-1. Inizia a digitare un aggiornamento in [!UICONTROL **Aggiornamenti**] del pannello Riepilogo, quindi fai clic su [!UICONTROL **Invia**].
+1. Fai clic sulla riga di un&#39;attività o di un problema, quindi fai clic su [!UICONTROL **Apri riepilogo**].
+1. Inizia a digitare un aggiornamento nell&#39;area [!UICONTROL **Aggiornamenti**] del pannello Riepilogo, quindi fai clic su [!UICONTROL **Invia**].
 L’aggiornamento viene visualizzato nella sezione Aggiornamenti dell’attività e del problema.
 1. (Facoltativo) Fai clic su [!UICONTROL **Chiudi riepilogo**] per chiudere il pannello Riepilogo.
 
-   Per ulteriori informazioni sull&#39;aggiornamento di attività e problemi nel pannello Riepilogo, vedi [Panoramica di riepilogo](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+   Per ulteriori informazioni sull&#39;aggiornamento di attività e problemi nel pannello Riepilogo, vedere [Panoramica di riepilogo](../../workfront-basics/the-new-workfront-experience/summary-overview.md).

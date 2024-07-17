@@ -1,9 +1,9 @@
 ---
-title: Organizzare e visualizzare in anteprima un modulo con Progettazione moduli
+title: Organizzare e visualizzare in anteprima un modulo con il Designer modulo
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: È possibile organizzare un modulo personalizzato con Progettazione moduli.
+description: È possibile organizzare un modulo personalizzato con il Designer modulo.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
@@ -40,7 +40,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Accesso amministrativo ai moduli personalizzati</p> <p>Per informazioni sulle modalità di concessione dell'accesso da parte degli amministratori di Workfront, vedere <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Concedere agli utenti l'accesso amministrativo a determinate aree</a>.</p> </td> 
+   <td> <p>Accesso amministrativo ai moduli personalizzati</p> <p>Per informazioni su come gli amministratori di Workfront concedono questo accesso, vedere <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Concedere agli utenti l'accesso amministrativo ad alcune aree</a>.</p> </td> 
   </tr>  
  </tbody> 
 </table>
@@ -53,15 +53,15 @@ Ad esempio, se devi tenere traccia delle informazioni riservate che solo gli amm
 
 Le impostazioni di accesso selezionate per una sezione sono direttamente correlate alle autorizzazioni di cui dispongono gli utenti sull’oggetto Workfront a cui è allegato il modulo personalizzato. È possibile nascondere o visualizzare una sezione a seconda che l&#39;utente disponga dell&#39;accesso per visualizzare, contribuire o gestire l&#39;oggetto. In alternativa, è possibile impostare una sezione su Solo amministratore in modo che solo gli utenti con un livello di accesso amministratore di sistema possano accedervi.
 
-Per informazioni sulle autorizzazioni per gli oggetti, vedi [Panoramica delle autorizzazioni di condivisione sugli oggetti](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Per informazioni sulle autorizzazioni per gli oggetti, vedere [Panoramica sulle autorizzazioni di condivisione per gli oggetti](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, vedi [Progettare un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, vedere [Progettare un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ### Creare e configurare l’accesso per una sezione in un modulo personalizzato
 
 1. Inizia a creare o modificare un modulo personalizzato e ad aggiungere campi, come descritto in [Progettare un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Clic **Interruzione di sezione** e trascinarlo nella posizione desiderata sull’area di lavoro.
+1. Fare clic su **Interruzione di sezione** e trascinarlo nella posizione desiderata nell&#39;area di lavoro.
 
 1. Nel pannello a destra, configura le opzioni desiderate per la sezione:
 
@@ -73,7 +73,7 @@ Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, 
     <tbody> 
      <tr> 
       <td role="rowheader">Etichetta</td> 
-      <td> <p>(Obbligatorio) Digita un’etichetta descrittiva da visualizzare sopra la sezione. Puoi modificare l’etichetta in qualsiasi momento.</p> <p><b>IMPORTANTE</b>: evita di utilizzare caratteri speciali in questa etichetta. Non vengono visualizzati correttamente nei rapporti.</p> </td> 
+      <td> <p>(Obbligatorio) Digita un’etichetta descrittiva da visualizzare sopra la sezione. Puoi modificare l’etichetta in qualsiasi momento.</p> <p><b>IMPORTANTE</b>: evitare di utilizzare caratteri speciali in questa etichetta. Non vengono visualizzati correttamente nei rapporti.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Descrizione</td> 
@@ -86,42 +86,42 @@ Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, 
      <tr> 
       <td role="rowheader"> <p>Concedi l’accesso</p> </td> 
       <td> <p> Per visualizzare questa sezione e modificare i valori dei campi, seleziona le autorizzazioni necessarie per un oggetto a cui è allegato il modulo personalizzato. 
-       <p>Le seguenti autorizzazioni sono disponibili in <b>Gli utenti con questo accesso all’oggetto possono visualizzare i valori dei campi</b>:</p> 
+       <p>Le seguenti autorizzazioni sono disponibili in <b>Gli utenti con questo accesso all'oggetto possono visualizzare i valori dei campi</b>:</p> 
          <ul>
-          <li><strong>Visualizza</strong>: visualizzare le autorizzazioni per l’oggetto</li>
-          <li><p><b>Modifica limitata</b>: (disponibile solo se l’oggetto è un progetto, un’attività, un problema o un utente):</p> 
+          <li><strong>Visualizza</strong>: visualizza le autorizzazioni per l'oggetto</li>
+          <li><p><b>Modifica limitata</b>: (disponibile solo se l'oggetto è un progetto, attività, problema o utente):</p> 
           <p>Consente agli utenti di contribuire all'oggetto se si tratta di un progetto, attività o problema.</p>
           <p>Consente agli utenti di modificare il profilo o di disporre dell'autorizzazione di profilo per l'oggetto, se si tratta di un utente.</p></li> 
-          <li><b>Modifica</b>: gestione delle autorizzazioni per l’oggetto </li> 
+          <li><b>Modifica</b>: gestisci le autorizzazioni per l'oggetto </li> 
           <li><b>Solo amministratore</b>: livello di accesso Amministratore di sistema</li> 
          </ul> </li> 
-        <p>Le seguenti autorizzazioni sono disponibili in <b>Gli utenti con questo accesso all’oggetto possono modificare i valori dei campi</b>: </p> 
+        <p>Le seguenti autorizzazioni sono disponibili in <b>Gli utenti con questo accesso all'oggetto possono modificare i valori dei campi</b>: </p> 
          <ul> 
-          <li> <p><b>Modifica limitata</b>: (disponibile solo se l’oggetto è un progetto, un’attività, un problema o un utente):</p> 
+          <li> <p><b>Modifica limitata</b>: (disponibile solo se l'oggetto è un progetto, attività, problema o utente):</p> 
            <p>Se l'oggetto rappresenta un progetto, un'attività o un problema, questa autorizzazione consente agli utenti di contribuire all'oggetto</p>
           <p>Se l’oggetto è un utente, questa autorizzazione consente agli utenti di modificare il profilo o di essere proprietari dell’autorizzazione di profilo per l’oggetto.</p> 
-          <li><b>Modifica</b>: gestione delle autorizzazioni per l’oggetto </li> 
+          <li><b>Modifica</b>: gestisci le autorizzazioni per l'oggetto </li> 
           <li><b>Solo amministratore</b>: livello di accesso Amministratore di sistema</li> 
          </ul> </li> 
        </ul> 
-       <p>Per informazioni sulle autorizzazioni per gli oggetti, vedi <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Panoramica delle autorizzazioni di condivisione sugli oggetti</a>.</p> 
+       <p>Per informazioni sulle autorizzazioni per gli oggetti, vedere <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Panoramica sulle autorizzazioni di condivisione per gli oggetti</a>.</p> 
        <p><b>NOTA</b>:  
        <ul> 
        <li> <p>Gli utenti senza le autorizzazioni specificate qui non possono visualizzare i campi personalizzati e i widget nella sezione. </p> <p>Questo vale anche se visualizzi i valori dei campi nei rapporti o li utilizzi nei campi calcolati nella generazione rapporti in modalità testo.</p> </li> 
        <li><p>Per i moduli personalizzati per richieste/problemi: se è necessario l’accesso di visualizzazione per visualizzare i campi nell’interruzione di sezione, ma è necessario l’accesso di amministratore per modificare i campi, la sezione e tutti i relativi campi non saranno visibili agli utenti non amministratori durante la compilazione del modulo. Una volta creata la richiesta, gli utenti con accesso di visualizzazione possono visualizzare i campi nella sezione.</p></li>
-       <li> <p>L'associazione di più tipi di oggetto al modulo può modificare le autorizzazioni di visualizzazione e modifica disponibili in questi passaggi. Per ulteriori informazioni, consulta <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">Come più tipi di oggetto possono influenzare le autorizzazioni di interruzione di sezione in un modulo personalizzato</a> in questo articolo.</p> </li> 
+       <li> <p>L'associazione di più tipi di oggetto al modulo può modificare le autorizzazioni di visualizzazione e modifica disponibili in questi passaggi. Per ulteriori informazioni, vedere <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">Come più tipi di oggetto possono influire sulle autorizzazioni di interruzione di sezione in un modulo personalizzato</a> in questo articolo.</p> </li> 
         </ul> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><p>Aggiungi logica</p></td> 
-      <td><p>Utilizza la logica di visualizzazione per specificare se la sezione deve essere visualizzata nel modulo, in base alle selezioni effettuate dagli utenti nei campi personalizzati a scelta multipla durante la compilazione del modulo.</p><p><strong>NOTA:</strong> Se a tutti i singoli campi di un’interruzione di sezione è applicata una logica di visualizzazione e questi sono tutti nascosti come risultato della logica, l’intera sezione sarà nascosta nel modulo personalizzato. Ciò si verifica anche se la logica di visualizzazione non viene applicata all’interruzione di sezione.</p><p>Per ulteriori informazioni, consulta <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">Aggiungere logica di visualizzazione e logica di salto con il progettista del modulo</a>.</p></td> 
+      <td><p>Utilizza la logica di visualizzazione per specificare se la sezione deve essere visualizzata nel modulo, in base alle selezioni effettuate dagli utenti nei campi personalizzati a scelta multipla durante la compilazione del modulo.</p><p><strong>NOTA:</strong> se a tutti i singoli campi di un'interruzione di sezione viene applicata la logica di visualizzazione e tutti i campi sono nascosti come risultato della logica, l'intera sezione verrà nascosta nel modulo personalizzato. Ciò si verifica anche se la logica di visualizzazione non viene applicata all’interruzione di sezione.</p><p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">Aggiungere logica di visualizzazione e logica di salto con la finestra di progettazione del modulo</a>.</p></td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Trascina o aggiungi almeno un campo personalizzato o un widget nella nuova sezione. Questa operazione è necessaria prima di salvare la sezione.
 
-1. Clic **Fine**.
+1. Fai clic su **Fine**.
 
    >[!TIP]
    >
@@ -135,7 +135,7 @@ In un modulo personalizzato con un&#39;interruzione di sezione configurata con l
 
 >[!INFO]
 >
->**Esempio:** In un modulo personalizzato associato al tipo di oggetto Progetto, viene configurata un’interruzione di sezione con l’autorizzazione Modifica limitata.
+>**Esempio:** In un modulo personalizzato associato al tipo di oggetto Progetto, viene configurata un&#39;interruzione di sezione con l&#39;autorizzazione Modifica limitata.
 >
 >Aggiungendo al modulo il tipo di oggetto Portfolio, l&#39;opzione di autorizzazione Modifica limitata non sarà più disponibile per l&#39;interruzione di sezione nel modulo.
 >
@@ -160,7 +160,7 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 
 >[!NOTE]
 >
->* È possibile utilizzare **Anteprima** nell’angolo in alto a destra per avere un’idea di come verranno visualizzati nel modulo i campi personalizzati e i widget.
+>* Puoi usare il pulsante **Anteprima** nell&#39;angolo superiore destro per avere un&#39;idea di come verranno visualizzati i campi personalizzati e i widget nel modulo.
 >* I campi personalizzati e i widget potrebbero non essere sempre visualizzati allo stesso modo nel modulo, a seconda dello spazio disponibile sullo schermo quando viene visualizzato da un utente. Ad esempio, il terzo campo di una riga di campi può essere disposto alla riga successiva di campi se lo spazio orizzontale è limitato.
 
 1. (Facoltativo)Per posizionare un campo personalizzato o un widget sopra o sotto un altro campo, trascinarlo sopra o sotto fino a visualizzare una linea blu orizzontale tra gli elementi.
@@ -169,11 +169,11 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 
    oppure
 
-   Clic **Salva e chiudi**.
+   Fare clic su **Salva e chiudi**.
 
 ## Visualizzare in anteprima un modulo personalizzato
 
 1. Inizia a creare o modificare un modulo personalizzato e ad aggiungere campi, come descritto in [Progettare un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Clic **Anteprima** nell’angolo in alto a destra per vedere come si presenterà il modulo quando verrà utilizzato, quindi fai clic su **Fine anteprima** per tornare alla modifica del modulo.
+1. Fai clic su **Anteprima** nell&#39;angolo in alto a destra per vedere come si presenterà il modulo durante l&#39;utilizzo, quindi fai clic su **Fine anteprima** per tornare alla modifica del modulo.
 

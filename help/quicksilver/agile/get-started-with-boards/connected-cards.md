@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!-- Audited: 2/2024 -->
 
-È possibile aggiungere alla bacheca una scheda connessa alle attività e ai problemi esistenti in [!DNL Workfront].
+È possibile aggiungere alla bacheca una scheda connessa ad attività e problemi esistenti in [!DNL Workfront].
 
 Quando uno qualsiasi dei seguenti dettagli viene aggiornato per la scheda in una posizione, viene automaticamente aggiornato nell’altra posizione:
 
@@ -26,8 +26,8 @@ Quando uno qualsiasi dei seguenti dettagli viene aggiornato per la scheda in una
 * [!UICONTROL Assegnatari]
 * [!UICONTROL Stato]
 * [!UICONTROL Data di completamento pianificata]
-* [!UICONTROL Stima] / [!UICONTROL Punti storia]
-* [!UICONTROL Sottoattività]
+* [!UICONTROL Stima] / [!UICONTROL Punti Storia]
+* [!UICONTROL Attività secondarie]
 * [!UICONTROL Documenti]
 
 >[!NOTE]
@@ -61,7 +61,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   <tr>
    <td role="rowheader">Autorizzazioni oggetto</td>
    <td><p>Visualizza o autorizzazioni superiori per l’attività o il problema di Workfront</p>
-   <p><strong>Nota:</strong> Gli utenti con autorizzazioni di visualizzazione per un’attività o un problema non possono eseguire alcuna azione sulle schede ad essa collegate, incluso lo spostamento della scheda in un’altra colonna della bacheca. Visualizza gli utenti possono aprire la scheda solo per visualizzarne le proprietà e aprire l’attività o il problema connesso. Per richiedere un accesso aggiuntivo, apri l’attività o il problema e richiedi l’accesso.</td>
+   <p><strong>Nota:</strong> gli utenti con autorizzazioni di visualizzazione per un'attività o un problema non possono eseguire alcuna azione sulle schede ad essa collegate, incluso lo spostamento della scheda in un'altra colonna della bacheca. Visualizza gli utenti possono aprire la scheda solo per visualizzarne le proprietà e aprire l’attività o il problema connesso. Per richiedere un accesso aggiuntivo, apri l’attività o il problema e richiedi l’accesso.</td>
   </tr>
  </tbody> 
 </table>
@@ -72,9 +72,9 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Aggiungere una scheda collegata
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **[!UICONTROL Schede]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **[!UICONTROL Bozze]**.
 1. Accedi a una bacheca. Per informazioni, consulta [Creare o modificare una bacheca](../../agile/get-started-with-boards/create-edit-board.md).
-1. Clic **[!UICONTROL Aggiungi scheda] > [!UICONTROL Scheda connessa]**.
+1. Fai clic su **[!UICONTROL Aggiungi scheda] > [!UICONTROL Scheda connessa]**.
 1. Scegli un progetto, quindi scegli un’attività o un problema da aggiungere come scheda sulla bacheca.
 
    È possibile selezionare più oggetti che verranno aggiunti come schede separate.
@@ -82,34 +82,34 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    >[!NOTE]
    >
    >* Nei risultati della ricerca sono disponibili solo gli oggetti per i quali si dispone di autorizzazioni. Se un elemento viene oscurato, è già stato aggiunto alla bacheca.
-   >* Quando si filtra per **[!UICONTROL Progetti di mia proprietà]** o **[!UICONTROL Progetti a cui collaboro]**, i progetti che corrispondono a uno stato Complete (Completato), Dead (Inattivo) o Rejected (Rifiutato) non sono inclusi. Puoi comunque cercare tali progetti con **[!UICONTROL Tutti]** filtro.
+   >* Quando si filtra in base a **[!UICONTROL Progetti di mia proprietà]** o **[!UICONTROL Progetti in corso]**, i progetti con stato Completato, Inattivo o Rifiutato non vengono inclusi. Puoi comunque cercare questi progetti con il filtro **[!UICONTROL All]**.
 
-1. Clic **[!UICONTROL Aggiungi]**.
+1. Fare clic su **[!UICONTROL Aggiungi]**.
 
-   ![Cerca attività o problema da connettere](assets/boards-tasksissues-350x94.png)
+   ![Cerca l&#39;attività o il problema da connettere](assets/boards-tasksissues-350x94.png)
 
-   La scheda viene aggiunta nella parte inferiore della colonna più a sinistra. La connessione [!DNL Workfront] L&#39;oggetto e i relativi assegnatari vengono visualizzati sulla scheda.
+   La scheda viene aggiunta nella parte inferiore della colonna più a sinistra. L&#39;oggetto [!DNL Workfront] connesso e i relativi assegnatari vengono visualizzati sulla scheda.
 
    ![Scheda connessa](assets/boards-connected-card-first-added.png)
 
-1. Clic ![Apri attività o problema](assets/boards-launch-icon.png) per aprire [!DNL Workfront] attività o problema in una nuova scheda del browser.
+1. Fai clic su ![Apri attività o problema](assets/boards-launch-icon.png) per aprire l&#39;attività o il problema [!DNL Workfront] in una nuova scheda del browser.
 1. Per modificare i dettagli della scheda, fai clic sulla scheda (non nel nome della scheda).
 
    Oppure
 
-   Fai clic su **[!UICONTROL Altro]** menu ![Menu Altro](assets/more-icon-spectrum.png) sulla scheda e seleziona **[!UICONTROL Modifica]**.
+   Fai clic sul menu **[!UICONTROL Altro]** ![Altro menu](assets/more-icon-spectrum.png) sulla scheda e seleziona **[!UICONTROL Modifica]**.
 
-1. In **[!UICONTROL Dettagli scheda]** , aggiungere o aggiornare le seguenti informazioni:
+1. Nella casella **[!UICONTROL Dettagli scheda]**, aggiungi o aggiorna le seguenti informazioni:
 
    <table style="table-layout:auto"> 
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Name]</strong></td> 
-      <td>La modifica del nome comporta anche la modifica del nome della connessione [!DNL Workfront] oggetto.</td> 
+      <td>La modifica del nome comporta anche la modifica del nome nell'oggetto [!DNL Workfront] connesso.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Descrizione]</strong></td> 
-      <td>La modifica della descrizione comporta anche la modifica della descrizione nella connessione [!DNL Workfront] oggetto. Puoi aggiungere gli URL nella descrizione, che diventeranno collegamenti cliccabili al salvataggio della scheda.</td> 
+      <td>La modifica della descrizione comporta anche la modifica della descrizione dell'oggetto [!DNL Workfront] connesso. Puoi aggiungere gli URL nella descrizione, che diventeranno collegamenti cliccabili al salvataggio della scheda.</td> 
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Colonna]</strong></td>
@@ -117,48 +117,48 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Stato]</strong></td>
-      <td><p>Selezionare uno stato per la scheda. Le impostazioni predefinite sono [!UICONTROL Nuovo], [!UICONTROL In corso] e [!UICONTROL Completo], ma sono definiti eventuali stati personalizzati per l'elemento in [!DNL Workfront] sono inoltre disponibili.</p>
-      <p>Se sono stati abilitati i criteri di colonna per l’aggiornamento dei valori dei campi, la modifica dello stato sulla scheda sposta automaticamente la scheda nella colonna corrispondente. Per ulteriori informazioni, consulta "Definire le impostazioni e i criteri delle colonne" nell’articolo <a href="/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md" class="MCXref xref">Gestisci colonne bacheca</a>.</p>
-      <p>Se si fa clic su <strong>[!UICONTROL Segna come completato]</strong> nella parte superiore della scheda, lo stato cambia automaticamente in Completato.</p></td>
+      <td><p>Selezionare uno stato per la scheda. Le impostazioni predefinite sono [!UICONTROL New], [!UICONTROL In corso] e [!UICONTROL Complete], ma sono disponibili anche eventuali stati personalizzati definiti per l'elemento in [!DNL Workfront].</p>
+      <p>Se sono stati abilitati i criteri di colonna per l’aggiornamento dei valori dei campi, la modifica dello stato sulla scheda sposta automaticamente la scheda nella colonna corrispondente. Per ulteriori informazioni, vedere "Definire le impostazioni e i criteri delle colonne" nell'articolo <a href="/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md" class="MCXref xref">Gestione colonne bacheca</a>.</p>
+      <p>Se fai clic su <strong>[!UICONTROL Mark Complete]</strong> nella parte superiore della scheda, lo stato cambia automaticamente in Complete.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL completamento pianificato]</strong></td>
-      <td>La modifica di questa data comporta anche la modifica della data di completamento pianificata nella connessione [!DNL Workfront] oggetto.</td>
+      <td>La modifica di questa data determina anche la modifica della data di completamento pianificata per l'oggetto [!DNL Workfront] connesso.</td>
      </tr>
       <tr>
       <td role="rowheader"><strong>Stima [!UICONTROL]</strong></td>
-      <td><p>Il numero di ore per il completamento della scheda.</p><p>La modifica della stima cambia anche il valore dei punti della storia sulla connessione [!DNL Workfront] oggetto.</p></td>
+      <td><p>Il numero di ore per il completamento della scheda.</p><p>La modifica della stima cambia anche il valore dei punti della storia sull'oggetto [!DNL Workfront] connesso.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Assegnazioni]</strong></td>
-      <td><p>Per assegnare più persone o un team alla scheda, fai clic su <strong>[!UICONTROL Aggiungi assegnazione]</strong> e inizia a digitare un nome nel campo di ricerca. Quindi, selezionalo quando viene visualizzato nell’elenco dei risultati. Puoi aggiungere sia singoli utenti che team. Su una scheda connessa è consentita una sola assegnazione team.</p>
+      <td><p>Per assegnare più persone o un team alla scheda, fare clic su <strong>[!UICONTROL Aggiungi assegnazione]</strong> e iniziare a digitare un nome nel campo di ricerca. Quindi, selezionalo quando viene visualizzato nell’elenco dei risultati. Puoi aggiungere sia singoli utenti che team. Su una scheda connessa è consentita una sola assegnazione team.</p>
       <p>Tutti gli assegnatari selezionati vengono assegnati anche all'attività o al problema in [!DNL Workfront].</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Tags]</strong></td>
       <td><p>Cerca e seleziona i tag per la scheda.</p>
-      <p>Per informazioni sulla creazione di nuovi tag, consulta <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Aggiungi tag</a>.</p></td>
+      <p>Per informazioni sulla creazione di nuovi tag, vedere <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Aggiungi tag</a>.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Campi personalizzati]</strong></td>
       <td><p>Tutti i campi personalizzati aggiunti verranno visualizzati in quest'area.</p>
-      <p>Per ulteriori informazioni, consulta <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">Personalizzare i campi visualizzati su una scheda</a>.</p></td>
+      <p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">Personalizzare i campi visualizzati in una scheda</a>.</p></td>
      </tr>
      <tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Sottoattività]</strong></td>
-      <td><p>Tutte le sottoattività esistenti per l'attività vengono visualizzate in questa sezione. Clic <strong>[!UICONTROL Aggiungi sottoattività]</strong> per aggiungere una nuova sottoattività.</p>
+      <td><p>Tutte le sottoattività esistenti per l'attività vengono visualizzate in questa sezione. Fare clic su <strong>[!UICONTROL Aggiungi sottoattività]</strong> per aggiungere una nuova sottoattività.</p>
       <p>Il contatore nella parte superiore della sezione mostra il numero di sottoattività completate e il numero totale di sottoattività.</p>
-      <p>Per ulteriori informazioni sulle sottoattività, vedere <a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">Gestire le sottoattività nelle bacheche</a>.</p></td>
+      <p>Per ulteriori informazioni sulle sottoattività, vedere <a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">Gestione delle sottoattività nelle bacheche</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>Elenco di controllo di [!UICONTROL]</strong></td>
-      <td><p>Clic <strong>[!UICONTROL Aggiungi voce elenco di controllo]</strong>. Digitare quindi il titolo dell'elemento e premere Invio. Un altro elemento viene aggiunto automaticamente. Continua a inserire i titoli per aggiungere altri elementi.</p>
-      <p>Il contatore nella parte superiore dell’elenco di controllo mostra il numero di elementi completati e il numero totale di elementi.</p> <p>Per ulteriori informazioni sugli elementi dell’elenco di controllo, consulta <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Gestire le voci dell’elenco di controllo sulle schede</a>.</p></td>
+      <td><p>Fare clic su <strong>[!UICONTROL Add checklist item]</strong>. Digitare quindi il titolo dell'elemento e premere Invio. Un altro elemento viene aggiunto automaticamente. Continua a inserire i titoli per aggiungere altri elementi.</p>
+      <p>Il contatore nella parte superiore dell’elenco di controllo mostra il numero di elementi completati e il numero totale di elementi.</p> <p>Per ulteriori informazioni sugli elementi dell'elenco di controllo, vedere <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Gestire gli elementi dell'elenco di controllo sulle schede</a>.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Documenti]</strong></td>
-      <td>Per un documento esistente, passa il cursore sulla miniatura del documento e fai clic su <strong>Anteprima</strong> per visualizzare il file nel browser o <strong>Scarica</strong> per scaricare il file sul computer. Per un nuovo documento, vedere <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">Aggiungi documenti su schede</a>.</td>
+      <td>Per un documento esistente, passa il cursore sulla miniatura del documento e fai clic su <strong>Anteprima</strong> per visualizzare il file nel browser o su <strong>Scarica</strong> per scaricarlo nel computer. Per un nuovo documento, vedi <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">Aggiungi documenti su schede</a>.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Hours]</strong></td>
@@ -166,19 +166,19 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Commenti]</strong></td>
-      <td><p>Fai clic su nella <strong>[!UICONTROL Nuovo commento]</strong> e digita il commento. Utilizza gli strumenti di formattazione per formattare il testo. Per assegnare un tag a una persona o a un team, utilizza la casella di ricerca nella parte inferiore dell’area dei commenti. L’utente non deve essere un membro della bacheca. Gli utenti taggati sulle schede collegate riceveranno notifiche e-mail.</p><p>Clic <strong>[!UICONTROL Submit]</strong> per aggiungere il commento alla scheda.</p>
-      <p>Per ulteriori informazioni sui commenti, consulta <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Aggiorna lavoro</a>.</p></td>
+      <td><p>Fare clic nel campo <strong>[!UICONTROL Nuovo commento]</strong> e digitare il commento. Utilizza gli strumenti di formattazione per formattare il testo. Per assegnare un tag a una persona o a un team, utilizza la casella di ricerca nella parte inferiore dell’area dei commenti. L’utente non deve essere un membro della bacheca. Gli utenti taggati sulle schede collegate riceveranno notifiche e-mail.</p><p>Fare clic su <strong>[!UICONTROL Submit]</strong> per aggiungere il commento alla scheda.</p>
+      <p>Per ulteriori informazioni sui commenti, vedere <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Aggiorna lavoro</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Attività di sistema]</strong></td> 
-      <td><p>Se è stato <strong>Attività di sistema</strong> abilitata come sezione scheda, l’attività viene visualizzata in quest’area.</p> <p>Per ulteriori informazioni, consulta <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">Personalizzare i campi visualizzati su una scheda</a> e <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md">Aggiornamenti monitorati dal sistema</a>.</p></td>
+      <td><p>Se <strong>Attività di sistema</strong> è abilitata come sezione scheda, l'attività viene visualizzata in quest'area.</p> <p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">Personalizzare i campi visualizzati in una scheda</a> e <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md">Aggiornamenti rilevati dal sistema</a>.</p></td>
      </tr>     
     </tbody> 
    </table>
 
    Utilizza il pannello di navigazione a sinistra per spostarti tra le sezioni dei campi nei dettagli della scheda.
 
-1. Clic **[!UICONTROL Chiudi]** per tornare alla bacheca.
+1. Fai clic su **[!UICONTROL Chiudi]** per tornare alla bacheca.
 L’oggetto connesso, gli assegnatari, i tag, la data di scadenza, il contatore della lista di controllo, le ore stimate e lo stato vengono visualizzati sulla scheda.
 
    ![Scheda aggiunta alla bacheca](assets/boards-connected-card-details-110922.png)
@@ -190,51 +190,51 @@ L’oggetto connesso, gli assegnatari, i tag, la data di scadenza, il contatore 
 Per disconnettersi a livello di scheda:
 
 1. Accedi alla bacheca.
-1. Fai clic su **[!UICONTROL Altro]** menu ![Menu Altro](assets/more-icon-spectrum.png) sulla scheda collegata e selezionare **[!UICONTROL Disconnetti]**.
-1. Clic **[!UICONTROL Disconnetti]** sul messaggio di conferma.
+1. Fai clic sul menu **[!UICONTROL Altro]** ![Altro menu](assets/more-icon-spectrum.png) sulla scheda connessa e seleziona **[!UICONTROL Disconnetti]**.
+1. Fai clic su **[!UICONTROL Disconnetti]** nel messaggio di conferma.
 
 Per disconnettersi a livello di scheda:
 
 1. Accedere alla scheda e aprire la scheda collegata.
-1. Fai clic su **[!UICONTROL Altro]** menu ![Menu Altro](assets/more-icon-spectrum.png) nell’area Connection (Connessione) dei dettagli della scheda, quindi seleziona **[!UICONTROL Disconnetti]**.
-1. Clic **[!UICONTROL Disconnetti]** sul messaggio di conferma.
+1. Fare clic sul menu **[!UICONTROL Altro]** ![Altro menu](assets/more-icon-spectrum.png) nell&#39;area Connessione dei dettagli della scheda e selezionare **[!UICONTROL Disconnetti]**.
+1. Fai clic su **[!UICONTROL Disconnetti]** nel messaggio di conferma.
 
 ## Convertire una scheda ad hoc in una scheda collegata
 
-Dopo aver creato una scheda ad hoc, è possibile convertirla in una scheda collegata. Per informazioni dettagliate sulle schede ad hoc, consulta [Aggiungere una scheda ad hoc a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+Dopo aver creato una scheda ad hoc, è possibile convertirla in una scheda collegata. Per informazioni dettagliate sulle schede ad hoc, vedere [Aggiungere una scheda ad hoc a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
 
 1. Accedi alla bacheca e apri la scheda ad hoc.
-1. Verifica il nome e la descrizione sulla scheda. Verranno aggiunte all’attività o al problema creato in [!DNL Workfront].
-1. In [!UICONTROL Connessione] nell’area dei dettagli della scheda, fai clic su **[!UICONTROL Connettersi con Workfront]**.
-1. Il giorno [!UICONTROL Collega scheda] , selezionare se si sta creando un&#39;attività o un problema.
+1. Verifica il nome e la descrizione sulla scheda. Verranno aggiunti all&#39;attività o al problema creato in [!DNL Workfront].
+1. Nell&#39;area [!UICONTROL Connessione] dei dettagli della scheda, fare clic su **[!UICONTROL Connetti a Workfront]**.
+1. Nella finestra [!UICONTROL Scheda di connessione], seleziona se stai creando un&#39;attività o un problema.
 1. Cerca e seleziona un progetto a cui aggiungere l’attività o il problema.
 
    >[!NOTE]
    >
    >* Nei risultati della ricerca sono disponibili solo gli oggetti per i quali si dispone di autorizzazioni.
-   >* Quando si filtra per **[!UICONTROL Progetti di mia proprietà]** o **[!UICONTROL Progetti a cui collaboro]**, progetti che equivalgono a un [!UICONTROL Completa], [!UICONTROL Morto], o [!UICONTROL Rifiutato] non sono inclusi. Puoi comunque cercare tali progetti con **[!UICONTROL Tutti]** filtro.
+   >* Quando si filtra in base a **[!UICONTROL Progetti di mia proprietà]** o **[!UICONTROL Progetti che mi interessano]**, i progetti con stato [!UICONTROL Completo], [!UICONTROL Inattivo] o [!UICONTROL Rifiutato] non sono inclusi. Puoi comunque cercare questi progetti con il filtro **[!UICONTROL All]**.
 
-1. Clic **[!UICONTROL Connetti]**.
+1. Fai clic su **[!UICONTROL Connetti]**.
 
    ![Connetti scheda ad hoc a Workfront](assets/boards-connect-ad-hoc-card.png)
 
    Il nome del progetto viene visualizzato nell’area Connessione sui dettagli della scheda.
 
-1. Clic **[!UICONTROL Chiudi]** per tornare alla bacheca.
+1. Fai clic su **[!UICONTROL Chiudi]** per tornare alla bacheca.
 
 ## Registra ore su una scheda collegata
 
 È necessario disporre delle autorizzazioni corrette per registrare le ore per l’attività o il problema connesso.
 
-Per impostazione predefinita, i campi di registrazione ora non vengono visualizzati sulle schede collegate. Devi abilitare [!UICONTROL **Ore**] nel [!UICONTROL Configura] area sotto [!UICONTROL Schede]. Per ulteriori informazioni, consulta [Personalizzare i campi visualizzati su una scheda](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+Per impostazione predefinita, i campi di registrazione ora non vengono visualizzati sulle schede collegate. Devi abilitare [!UICONTROL **Ore**] nell&#39;area [!UICONTROL Configura] in [!UICONTROL Schede]. Per ulteriori informazioni, vedere [Personalizzare i campi visualizzati in una scheda](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
 1. Immetti il numero di ore per l’attività o il problema.
-1. Seleziona un [!UICONTROL Tipo di Ora] dal menu a discesa, se è diverso dal valore predefinito.
-1. Clic [!UICONTROL **Tempo di connessione**].
+1. Selezionare un Tipo di [!UICONTROL Ora] dal menu a discesa, se diverso dal valore predefinito.
+1. Fare clic su [!UICONTROL **Tempo di registrazione**].
 
    ![Registra ore sulla scheda](assets/log-hours-on-card.png)
 
    L’ora registrata sulla scheda viene salvata anche sull’attività o sul problema connesso.
 
-Il tempo di registrazione sulla scheda è lo stesso di quello su un’attività o un problema. Per ulteriori informazioni, consulta &quot;Registrare il tempo su un progetto, un’attività o un problema&quot; nell’articolo [Tempo di connessione](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+Il tempo di registrazione sulla scheda è lo stesso di quello su un’attività o un problema. Per ulteriori informazioni, vedere &quot;Log time on a project, task, or issue&quot; nell&#39;articolo [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 

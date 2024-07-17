@@ -26,7 +26,7 @@ Per utilizzare le funzionalità descritte in questo articolo, l’organizzazione
 
      Oppure
 
-     Una licenza aggiuntiva per Adobe Workfront Goals per i piani Prime o Select Adobe Workfront. Per informazioni, consulta [piano Adobe Workfront](https://www.workfront.com/plans).
+     Una licenza aggiuntiva per Adobe Workfront Goals per i piani Prime o Select Adobe Workfront. Per informazioni, vedere [Piano Adobe Workfront](https://www.workfront.com/plans).
 
 * Per il piano corrente e la struttura delle licenze:
 
@@ -39,9 +39,9 @@ Per registrare i progressi relativi agli obiettivi di Workfront, è necessario a
 
 Questa sezione contiene i seguenti articoli:
 
-* [Introduzione ai risultati e alle attività in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
-* [Aggiungere attività agli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
-* [Aggiungere risultati agli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md)
-* [Aggiungere progetti agli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)
-* [Modificare risultati e attività in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/edit-results-and-activities.md)
+* [Guida introduttiva ai risultati e alle attività negli Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
+* [Aggiungi attività agli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
+* [Aggiungi risultati agli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md)
+* [Aggiungi progetti agli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)
+* [Modifica risultati e attività in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/edit-results-and-activities.md)
 * [Rimuovere risultati, attività e progetti dagli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md)

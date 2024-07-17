@@ -10,7 +10,7 @@ role: Developer
 exl-id: 8364c4b9-5604-47ab-8b4b-db6836dcd8ca
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1767'
 ht-degree: 0%
 
 ---
@@ -19,19 +19,19 @@ ht-degree: 0%
 
 Puoi creare componenti di elaborazione intermediari che ti aiutino a filtrare ed elaborare solo i messaggi di abbonamento agli eventi di cui la tua azienda ha bisogno.
 
-Per informazioni sugli abbonamenti agli eventi, consulta [API di abbonamento agli eventi](../../wf-api/general/event-subs-api.md).
+Per informazioni sulle sottoscrizioni di eventi, vedere [API sottoscrizione eventi](../../wf-api/general/event-subs-api.md).
 
 ## Filtraggio dei messaggi di evento
 
 Questa sezione contiene snippet di codice di filtro che puoi implementare per ridurre il caricamento dei messaggi di abbonamento agli eventi.  Per illustrare le differenze nella sintassi delle varie lingue, questi snippet illustrano lo stesso set di filtri scritti nelle seguenti lingue:
 
-Puoi visualizzare esempi di filtro in [https://github.com/workfront/workfront-event-subscription-filter-examples](https://github.com/workfront/workfront-event-subscription-filter-examples), in cui è possibile vedere le differenze di sintassi per ciascun linguaggio e i mezzi di interazione con l’SDK di AWS.Questi esempi sono scritti come AWS Lambdas, un metodo comune per l’utilizzo di componenti di filtro ed elaborazione intermediari.
+Puoi visualizzare esempi di filtro in [https://github.com/workfront/workfront-event-subscription-filter-examples](https://github.com/workfront/workfront-event-subscription-filter-examples), dove puoi vedere le differenze di sintassi per ogni linguaggio e i mezzi di interazione con l&#39;SDK di AWS.Questi esempi sono scritti come AWS Lambdas, un metodo comune per l&#39;utilizzo di componenti di filtro ed elaborazione intermediari.
 
 I seguenti snippet di codice sono pronti per la distribuzione e possono essere utilizzati come punto di partenza per aiutarti a scrivere filtri e componenti di elaborazione personalizzati e più complessi.
 
 ### Java
 
-L’esempio seguente in Java mostra come filtrare i payload del progetto in base all’ID gruppo del progetto, come eseguito in [FiltroGruppoProgetti.java:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/java/src/main/java/com/workfront/lambda/ProjectGroupFiltering.java)
+L&#39;esempio seguente in Java mostra come filtrare i payload del progetto in base all&#39;ID gruppo del progetto, come fatto in [ProjectGroupFiltering.java:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/java/src/main/java/com/workfront/lambda/ProjectGroupFiltering.java)
 
 1. Stabilisci l’ID gruppo che stai cercando e crealo come costante statica.
 
@@ -61,11 +61,11 @@ L’esempio seguente in Java mostra come filtrare i payload del progetto in base
    }
    ```
 
-   Per informazioni sul formato newState, consulta [Formato dei messaggi in uscita per le sottoscrizioni di eventi](../../wf-api/api/message-format-event-subs.md).
+   Per informazioni sul formato newState, vedere [Formato dei messaggi in uscita per le sottoscrizioni di eventi](../../wf-api/api/message-format-event-subs.md).
 
 3. Dopo aver analizzato la mappa &quot;newState&quot; dal messaggio, assicurati che l’ID gruppo dell’oggetto corrisponda all’ID gruppo identificato nel passaggio 1.
 
-4. (Condizionale) Se gli ID **non** , rilascia il messaggio in modo che venga restituita una risposta vuota.
+4. (Condizionale) Se gli ID **non corrispondono**, elimina il messaggio in modo che venga restituita una risposta vuota.
 
    ```
    public String handleRequest(Map<String, Object> webHookPayload, Context context) 
@@ -111,13 +111,13 @@ L’esempio seguente in Java mostra come filtrare i payload del progetto in base
 
    Lo scopo di trasferire la responsabilità della consegna del messaggio a un altro Lambda è quello di evitare un timeout della richiesta di consegna proveniente dal servizio di abbonamento agli eventi. Attualmente, il timeout consentito per la consegna è impostato su cinque secondi. Se il filtro richiede più tempo di quanto consentito dall’impostazione, puoi elaborare la richiesta, ma il servizio Sottoscrizione eventi si interrompe e rientra in un ciclo di nuovi tentativi fino a quando non riceve una risposta di 200 livelli entro il periodo di timeout.
 
-   Per ulteriori informazioni sulla gestione della consegna dei messaggi, consulta [Miglioramento Della Consegna Dei Messaggi Durante La Gestione Dei Timeout](#improving-message-delivery-while-accommodating-timeouts).
+   Per ulteriori informazioni sulla gestione della consegna dei messaggi, vedere [Miglioramento della consegna dei messaggi durante la gestione dei timeout](#improving-message-delivery-while-accommodating-timeouts).
 
 ### Python
 
 La differenza principale tra gli esempi Java e Python è che nell&#39;esempio Java il messaggio di abbonamento all&#39;evento viene ricevuto come primo parametro, e nell&#39;esempio Python il primo parametro è un &quot;evento&quot; proxy Lambda, che contiene il messaggio di abbonamento all&#39;evento insieme alle informazioni sulla richiesta proxy AWS Lambda.
 
-L’esempio seguente in Python mostra come filtrare i payload del progetto in base all’ID gruppo del progetto, come fatto in  [projectGroupFiltering.py:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/py/projectGroupFiltering.py)
+L&#39;esempio seguente in Python mostra come filtrare i payload del progetto in base all&#39;ID gruppo del progetto, come fatto in [projectGroupFiltering.py:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/py/projectGroupFiltering.py)
 
 1. Stabilisci l’ID gruppo che stai cercando e crealo come costante statica.
 
@@ -147,7 +147,7 @@ L’esempio seguente in Python mostra come filtrare i payload del progetto in ba
    new_state = json.loads(event_subscription_message['newState'])
    ```
 
-   Per informazioni sul formato newState, consulta [Formato dei messaggi in uscita per le sottoscrizioni di eventi](../../wf-api/api/message-format-event-subs.md).
+   Per informazioni sul formato newState, vedere [Formato dei messaggi in uscita per le sottoscrizioni di eventi](../../wf-api/api/message-format-event-subs.md).
 
 1. Dopo aver analizzato la mappa &quot;newState&quot; dal messaggio, assicurati che l’ID gruppo dell’oggetto corrisponda all’ID gruppo identificato nel passaggio 1.
 
@@ -188,7 +188,7 @@ L’esempio seguente in Python mostra come filtrare i payload del progetto in ba
 
 L’esempio di Node.js del filtro degli ID del gruppo di progetti è simile agli esempi Java e Python. Come nell&#39;esempio di Python, il primo parametro è un evento proxy Lambda e il secondo parametro è il contesto Lambda.
 
-L’esempio seguente in Node.js mostra come filtrare i payload del progetto in base all’ID gruppo del progetto, come eseguito in  [projectGroupFiltering.js:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/js/projectGroupFiltering.js)
+L&#39;esempio seguente in Node.js mostra come filtrare i payload del progetto in base all&#39;ID gruppo del progetto, come fatto in [projectGroupFiltering.js:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/js/projectGroupFiltering.js)
 
 1. Stabilisci l’ID gruppo che stai cercando e crealo come costante statica.
 
@@ -218,7 +218,7 @@ L’esempio seguente in Node.js mostra come filtrare i payload del progetto in b
    let projectGroupId = eventSubscriptionMessage.newState.groupID; 
    ```
 
-   Per informazioni sul formato newState, consulta [Formato dei messaggi in uscita per le sottoscrizioni di eventi](../../wf-api/api/message-format-event-subs.md).
+   Per informazioni sul formato newState, vedere [Formato dei messaggi in uscita per le sottoscrizioni di eventi](../../wf-api/api/message-format-event-subs.md).
 
 4. (Condizionale) Se gli ID non corrispondono, rilascia il messaggio in modo che venga restituita una risposta vuota.\
    L’esempio seguente mostra gli ID gruppo corrispondenti:
@@ -261,24 +261,24 @@ L’esempio seguente in Node.js mostra come filtrare i payload del progetto in b
 
    L’SDK di AWS viene utilizzato per richiamare un altro Lambda, responsabile della distribuzione del messaggio filtrato all’endpoint desiderato.\
    Lo scopo di trasferire la responsabilità della consegna del messaggio a un altro Lambda è quello di evitare un timeout della richiesta di consegna proveniente dal servizio di abbonamento agli eventi. Attualmente, il timeout per la consegna è impostato su cinque secondi. Se il filtro richiede più tempo di quanto consentito dall’impostazione, puoi elaborare la richiesta, ma il servizio Sottoscrizione eventi si interrompe e rientra in un ciclo di nuovi tentativi fino a quando non riceve una risposta di 200 livelli entro il periodo di timeout.\
-   Per informazioni sulla gestione della consegna dei messaggi, consulta [Miglioramento Della Consegna Dei Messaggi Durante La Gestione Dei Timeout](#improving-message-delivery-while-accommodating-timeouts).
+   Per informazioni sulla gestione della consegna dei messaggi, vedere [Miglioramento della consegna dei messaggi durante la gestione dei timeout](#improving-message-delivery-while-accommodating-timeouts).
 
 ## Miglioramento Della Consegna Dei Messaggi Durante La Gestione Dei Timeout
 
-Il servizio di abbonamento agli eventi ha un timeout rigoroso di **cinque secondi** per tutte le richieste di consegna. Nel caso in cui la consegna di un messaggio superi il tempo consentito, il servizio Sottoscrizione eventi avvia un ciclo di nuovi tentativi per tale messaggio.
+Il servizio Sottoscrizione eventi ha un timeout rigoroso di **cinque secondi** per tutte le richieste di consegna. Nel caso in cui la consegna di un messaggio superi il tempo consentito, il servizio Sottoscrizione eventi avvia un ciclo di nuovi tentativi per tale messaggio.
 
-Ad esempio, puoi creare un filtro ID gruppo di progetti simile a uno degli esempi presenti in [Filtraggio dei messaggi di evento](#filtering-event-messages) e includi una ricerca nel database per determinare se il messaggio è necessario. È possibile che la ricerca nel database e il tempo necessario per l’elaborazione richiesta e per l’avvio a freddo di Lambda possano richiedere più di cinque secondi, causando un nuovo tentativo di consegna del messaggio da parte del servizio Sottoscrizione eventi.
+Ad esempio, si crea un filtro ID gruppo di progetti simile a uno degli esempi trovati in [Filtraggio dei messaggi evento](#filtering-event-messages) e si include una ricerca nel database per determinare se il messaggio è necessario. È possibile che la ricerca nel database e il tempo necessario per l’elaborazione richiesta e per l’avvio a freddo di Lambda possano richiedere più di cinque secondi, causando un nuovo tentativo di consegna del messaggio da parte del servizio Sottoscrizione eventi.
 
-È possibile evitare un nuovo tentativo separando le parti del processo che richiedono tempo dalla logica responsabile di determinare se il messaggio deve essere elaborato e consegnato. In questo modo, puoi accettare il messaggio e inviare una risposta di 200 livelli al servizio Sottoscrizione eventi, continuando in modo asincrono a elaborare o filtrare il messaggio in background (vedi il passaggio 5 in [Java](#java) ad esempio).
+È possibile evitare un nuovo tentativo separando le parti del processo che richiedono tempo dalla logica responsabile di determinare se il messaggio deve essere elaborato e consegnato. In questo modo, è possibile accettare il messaggio e inviare una risposta di 200 livelli al servizio Sottoscrizione eventi, continuando in modo asincrono a elaborare o filtrare il messaggio in background (vedi il passaggio 5 in [Java](#java) per un esempio).
 
 
 Anche se l’elaborazione o il filtro non supera il timeout di cinque secondi, è comunque vantaggioso separare il primo punto di contatto del filtro o dell’elaborazione dei messaggi dagli altri passaggi di elaborazione o consegna sul lato client. In questo modo il passaggio del messaggio alla destinazione dal servizio di abbonamento agli eventi ha un impatto minimo su entrambe le parti in termini di tempo e prestazioni.
 
-Per ulteriori informazioni sul meccanismo di esecuzione di un nuovo tentativo, consulta [Nuovi tentativi di abbonamento agli eventi](../../wf-api/api/event-sub-retries.md).
+Per ulteriori informazioni sul meccanismo di esecuzione dei nuovi tentativi, vedere [Nuovi tentativi di sottoscrizione evento](../../wf-api/api/event-sub-retries.md).
 
 ## Implementazione dei filtri in hosting nell’architettura cloudless
 
-Se non riesci a sfruttare un’architettura cloud per filtrare gli abbonamenti agli eventi, puoi comunque utilizzare gli esempi in [Filtraggio dei messaggi di evento](#filtering-event-messages) come roadmap per implementare filtri in hosting o componenti di elaborazione.
+Se non riesci a sfruttare un&#39;architettura cloud per filtrare gli abbonamenti agli eventi, puoi comunque utilizzare gli esempi in [Filtro dei messaggi agli eventi](#filtering-event-messages) come roadmap per implementare i filtri ospitati o i componenti di elaborazione.
 
 ### Regolazione degli esempi di filtro per i servizi autonomi
 
@@ -288,7 +288,7 @@ Prima di utilizzare gli esempi di filtro in un ambiente senza cloud, effettua le
 
 * Modifica le chiamate di altri Lambda negli esempi per effettuare richieste HTTP asincrone aggiuntive ad altri filtri o componenti di elaborazione che ospiti.
 
-* Se fai riferimento agli esempi Python e Node.js, sostituisci il primo parametro evento con il primo parametro payload mostrato nell’esempio Java. Vedere Passaggio 1 in [Java](#java).
+* Se fai riferimento agli esempi Python e Node.js, sostituisci il primo parametro evento con il primo parametro payload mostrato nell’esempio Java. Vedi il passaggio 1 in [Java](#java).
 
 * Distribuisci filtri o processori con un’API basata su web.
 
@@ -330,6 +330,6 @@ Ricercando le risorse, assicurati che i sistemi di integrazione dispongano della
 
 ### Implementazione dell’elaborazione asincrona nella consegna dei messaggi
 
-Tutti gli esempi in [Filtraggio dei messaggi di evento](#filtering-event-messages) sezione passa la responsabilità di consegnare messaggi filtrati a un altro AWS Lambda. Questa operazione viene eseguita per evitare di superare il timeout di cinque secondi nella richiesta di consegna, applicato dal servizio Sottoscrizione eventi che emette la richiesta.
+Tutti gli esempi nella sezione [Filtro dei messaggi evento](#filtering-event-messages) passano la responsabilità di consegnare i messaggi filtrati a un altro AWS Lambda. Questa operazione viene eseguita per evitare di superare il timeout di cinque secondi nella richiesta di consegna, applicato dal servizio Sottoscrizione eventi che emette la richiesta.
 
 In un’architettura senza cloud, potrebbe essere necessario implementare un meccanismo di elaborazione asincrona simile a quello dell’SDK di AWS per le chiamate asincrone ad altri AWS Lambda. La maggior parte dei linguaggi di programmazione moderni dispone di librerie di terze parti o core che gestiscono l’elaborazione asincrona, consentendo di sfruttare lo stile di elaborazione asincrona implementato nei nostri esempi.

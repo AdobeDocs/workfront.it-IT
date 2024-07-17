@@ -27,7 +27,7 @@ Questo articolo descrive le differenze tra le date stimate e quelle previste per
 
 Quando l&#39;attività viene creata per la prima volta, le date pianificate, previste e stimate devono in genere corrispondere. Esistono alcune eccezioni. 
 
-Per ulteriori informazioni sul progetto, l&#39;attività e le date del problema in Adobe Workfront, consulta [Panoramica delle date di Progetto, Attività e Problema in Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
+Per ulteriori informazioni sulle date del progetto, dell&#39;attività e del problema in Adobe Workfront, vedere [Panoramica sulle date del progetto, dell&#39;attività e del problema in Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
 
 ## Panoramica delle date pianificate
 
@@ -60,7 +60,7 @@ La differenza tra le date previste e quelle stimate è:
 
 * Le Date Stimate tengono conto solo dei progressi reali di un&#39;attività in un determinato momento.
 
-**Esempio:** Se un&#39;attività ha una data di inizio pianificata del 20 settembre e una data di completamento pianificata del 24 settembre e deve finire su vincolo, la data di completamento prevista del 24 settembre. Questa attività ha una durata di 4 giorni.
+**Esempio:** se un&#39;attività ha una data di inizio pianificata del 20 settembre e una data di completamento pianificata del 24 settembre e deve finire entro il vincolo, la data di completamento prevista del 24 settembre. Questa attività ha una durata di 4 giorni.
 
 La data di completamento stimata viene calcolata in base all&#39;avanzamento corrente del lavoro dell&#39;attività. Quindi, se oggi è il 23 settembre e l’attività non è ancora iniziata, la data di completamento stimata è il 27 settembre (dovrebbe essere completata dopo 4 giorni, supponendo che il lavoro sia iniziato oggi).
 
@@ -83,27 +83,27 @@ Nell&#39;elenco seguente vengono visualizzati diversi scenari in cui le date pre
 
 * Quando un&#39;attività non ha una data di inizio effettiva, ma esiste un vincolo forzato sulla data di inizio pianificata (deve iniziare il) che è nel futuro:
 
-  *Data inizio prevista = Data vincolo*
+  *Data Inizio Prevista = Data Vincolata*
 
-  Per informazioni sulla data vincolo, vedere [Glossario della terminologia di Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+  Per informazioni sulla Data Vincolata, consulta [Glossario della terminologia di Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 * Quando un&#39;attività non ha una data di inizio effettiva e non ha una data vincolo forzata:
 
-  *Data inizio prevista = la data disponibile successiva nel futuro che rientra nel programma di lavoro*
+  *Data di inizio prevista = la prossima data disponibile nel futuro che rientra nella programmazione lavorativa*
 
 * Quando l’assegnatario aggiorna la Data impegno:
 
-  *Data completamento Previsto = Data Conferma*
+  *Data completamento Prevista = Data Conferma*
 
   Per informazioni sulla data di conferma, vedere [Panoramica sulla data di conferma](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 * Se all&#39;attività non è associata una data di completamento aggiornata e all&#39;attività è associato un vincolo forzato (Deve finire al) per la data di completamento pianificata nel futuro:
 
-  *Data completamento Previsto = Data Vincolata*
+  *Data di completamento Prevista = Data Vincolata*
 
 * Se un&#39;attività non dispone di una Data impegno aggiornata, di una Data vincolo forzata nel futuro o di una Data vincolo nel passato:
 
-  *Data completamento prevista = calcolo di sistema per la Data completamento in base all&#39;avanzamento corrente e al lavoro rimanente da eseguire*
+  *Data completamento prevista = calcolo di sistema per la Data completamento in base all&#39;avanzamento corrente e al lavoro rimanente*
 
 ### Comprendere quando l&#39;aggiornamento delle Date Stimate viene eseguito sulle attività {#understand-when-the-estimated-dates-update-on-tasks}
 

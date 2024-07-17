@@ -2,20 +2,20 @@
 product-area: projects
 navigation-topic: recent-and-favorites
 title: Visualizzare e gestire i preferiti
-description: Il menu Preferiti consente di accedere rapidamente agli elementi. Gli elementi rimangono nel menu Preferiti fino a quando non vengono rimossi. È possibile visualizzare fino a 40 elementi nel menu Preferiti.
+description: Il menu Preferiti consente di accedere rapidamente agli elementi. Gli elementi rimangono nel menu Preferiti fino a quando non vengono rimossi. È possibile avere fino a 40 voci nel menu Preferiti.
 feature: Get Started with Workfront
 author: Lisa
 exl-id: bf9dc447-751c-4802-9e6a-ecd31538dba4
 source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
 
 # Visualizzare e gestire i preferiti
 
-La [!UICONTROL Preferiti] consente di accedere rapidamente agli elementi. Gli elementi rimangono sul [!UICONTROL Preferiti] finché non vengono rimosse. È possibile visualizzare fino a 40 elementi nel menu Preferiti.
+Il menu [!UICONTROL Preferiti] consente di accedere rapidamente agli elementi. Gli elementi rimangono nel menu [!UICONTROL Preferiti] fino a quando non vengono rimossi. È possibile avere fino a 40 voci nel menu Preferiti.
 
 ## Requisiti di accesso
 
@@ -33,43 +33,43 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>[!UICONTROL Request] o superiore</p> </td> 
+   <td> <p>[!UICONTROL Request] o versione successiva</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per sapere quale piano o tipo di licenza hai, contatta il tuo [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano o il tipo di licenza disponibile, contattare l&#39;amministratore [!DNL Workfront].
 
 ## Visualizza un preferito
 
-Per visualizzare un elemento precedentemente aggiunto come preferito:
+Per visualizzare un elemento aggiunto in precedenza come preferito:
 
-1. Fai clic sul pulsante **[!UICONTROL Preferiti]** icona ![](assets/favorites-icon.png) nell&#39;angolo superiore destro di qualsiasi [!DNL Adobe Workfront] pagina.
+1. Fare clic sull&#39;icona ![](assets/favorites-icon.png) **[!UICONTROL Preferiti]** nell&#39;angolo superiore destro di qualsiasi pagina [!DNL Adobe Workfront].
 
-1. In [!UICONTROL Preferiti] fare clic sull&#39;elemento che si desidera visualizzare.
+1. Nell&#39;elenco [!UICONTROL Preferiti] fare clic sull&#39;elemento che si desidera visualizzare.
 
-## Aggiungi un elemento come preferito
+## Aggiungere un elemento come preferito
 
-Puoi aggiungere elementi recenti o la pagina corrente al [!UICONTROL Preferiti] menu.
+Puoi aggiungere elementi recenti o la pagina corrente al menu [!UICONTROL Preferiti].
 
-* [Aggiungi articoli recenti come preferiti](#add-recent-items-as-a-favorite)
+* [Aggiungi elementi recenti come preferiti](#add-recent-items-as-a-favorite)
 * [Aggiungi l&#39;elemento corrente come preferito](#add-the-current-item-as-a-favorite)
 
-### Aggiungi articoli recenti come preferiti
+### Aggiungi elementi recenti come preferiti
 
-1. Fai clic sul pulsante **[!UICONTROL Recenti]** icona ![[!UICONTROL Recenti]](assets/recents-icon-40x43.png) nell’angolo in alto a destra di qualsiasi pagina nel nuovo [!DNL Adobe Workfront] esperienza.
-1. Passa il puntatore del mouse sull&#39;elemento recente da salvare come preferito, quindi fai clic sulla stella.
+1. Fai clic sull&#39;icona **[!UICONTROL Recenti]** ![[!UICONTROL Recenti]](assets/recents-icon-40x43.png) nell&#39;angolo superiore destro di qualsiasi pagina nella nuova esperienza [!DNL Adobe Workfront].
+1. Passa il cursore del mouse sull’elemento recente che desideri salvare come preferito, quindi fai clic sulla stella.
 
-   L’elemento recente viene visualizzato nel [!UICONTROL Preferiti] menu.
+   L&#39;elemento recente viene visualizzato nel menu [!UICONTROL Preferiti].
 
    Fai clic sulla X in alto a destra per chiudere l’elenco.
 
-   ![Elemento preferito di recente](assets/favorite-recent-item-2022-350x375.png)
+   ![Preferito un elemento recente](assets/favorite-recent-item-2022-350x375.png)
 
 ### Aggiungi l&#39;elemento corrente come preferito
 
-1. Passa alla pagina che desideri aggiungere come preferito.
-1. Fai clic sul pulsante **[!DNL Favorites]** icona ![](assets/favorites-icon.png) nell&#39;angolo superiore destro di qualsiasi [!DNL Workfront] , quindi fai clic su **[!UICONTROL Aggiungi pagina corrente]**.
+1. Passare alla pagina che si desidera aggiungere come preferita.
+1. Fai clic sull&#39;icona **[!DNL Favorites]** ![](assets/favorites-icon.png) nell&#39;angolo superiore destro di qualsiasi pagina [!DNL Workfront], quindi fai clic su **[!UICONTROL Aggiungi pagina corrente]**.
 
    ![Aggiungi la pagina corrente ai preferiti](assets/add-current-page-favorite-2022-350x147.png)
 
@@ -77,19 +77,19 @@ Puoi aggiungere elementi recenti o la pagina corrente al [!UICONTROL Preferiti] 
 
    Oppure
 
-   Fai clic sul pulsante **[!UICONTROL Preferiti]** icona ![](assets/favorites-icon.png) a destra del nome dell&#39;oggetto.
+   Fare clic sull&#39;icona **[!UICONTROL Preferiti]** ![](assets/favorites-icon.png) a destra del nome oggetto.
 
    >[!NOTE]
    >
-   >Se fai clic sul pulsante **[!UICONTROL Preferiti]** su un oggetto già aggiunto come preferito, l’oggetto verrà rimosso dalla [!UICONTROL Preferiti] menu.\
+   >Se si fa clic sull&#39;icona **[!UICONTROL Preferiti]** su un oggetto già aggiunto come preferito, l&#39;oggetto verrà rimosso dal menu [!UICONTROL Preferiti].\
    >![](assets/nwe-remove-from-favorites-350x52.png)
 
-## Rimuovi un elemento dal [!UICONTROL Preferiti] menu
+## Rimuovi un elemento dal menu [!UICONTROL Preferiti]
 
-1. Fai clic sul pulsante **[!UICONTROL Preferiti]** icona ![](assets/favorites-icon.png) nell&#39;angolo superiore destro di qualsiasi [!DNL Workfront] pagina.
+1. Fare clic sull&#39;icona ![](assets/favorites-icon.png) **[!UICONTROL Preferiti]** nell&#39;angolo superiore destro di qualsiasi pagina [!DNL Workfront].
 
-1. Passa il puntatore del mouse sull&#39;elemento da rimuovere come preferito, quindi fai clic sul pulsante **X** accanto.
+1. Passa il puntatore del mouse sull&#39;elemento da rimuovere come preferito, quindi fai clic su **X** accanto a esso.
 
    Oppure
 
-   Se ti trovi nella pagina da rimuovere come preferito, fai clic sul pulsante **[!UICONTROL Preferiti]** icona ![](assets/favorites-icon.png) accanto al nome dell&#39;oggetto per rimuoverlo dal menu Preferiti.
+   Se ti trovi nella pagina che desideri rimuovere come preferito, fai clic sull&#39;icona **[!UICONTROL Preferiti]** ![](assets/favorites-icon.png) accanto al nome dell&#39;oggetto per rimuoverlo dal menu Preferiti.

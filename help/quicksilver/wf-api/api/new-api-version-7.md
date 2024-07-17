@@ -9,8 +9,8 @@ role: Developer
 exl-id: 8c575251-677b-474d-84aa-02b637ef7760
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 47%
+source-wordcount: '498'
+ht-degree: 43%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 47%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>Count </td> 
+   <td>Conteggio </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -93,7 +93,7 @@ ht-degree: 47%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>Rapporto </td> 
+   <td>Report </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -112,7 +112,7 @@ ht-degree: 47%
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | Aggiungi |
-|   |   |   |   |   |   | Count |
+|   |   |   |   |   |   | Conta |
 |   |   |   |   |   |   | Elimina |
 |   |   |   |   |   |   | Ottenere |
 |   |   |   |   |   |   | Rapporto |
@@ -124,7 +124,7 @@ ht-degree: 47%
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| ID |   |   |   |   |   | Count |
+| ID |   |   |   |   |   | Conta |
 |   |   |   |   |   |   | Ottenere |
 |   |   |   |   |   |   | Rapporto |
 |   |   |   |   |   |   | Ricerca |
@@ -138,7 +138,7 @@ ht-degree: 47%
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | Aggiungi |
-|   |   |   |   |   |   | Count |
+|   |   |   |   |   |   | Conta |
 |   |   |   |   |   |   | Elimina |
 |   |   |   |   |   |   | Modifica |
 |   |   |   |   |   |   | Ottenere |
@@ -167,7 +167,7 @@ ht-degree: 47%
 |---|---|---|---|---|---|---|
 | ID |   |  hourTypes |   |   |   | Aggiungi |
 | name |   |   |   |   |   | Copia |
-|   |   |   |   |   |   | Count |
+|   |   |   |   |   |   | Conta |
 |   |   |   |   |   |   | Elimina |
 |   |   |   |   |   |   | Modifica |
 |   |   |   |   |   |   | Ottenere |
@@ -184,7 +184,7 @@ ht-degree: 47%
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 | ID | cliente | utenti |   |   |   | Aggiungi |
-| customerID  | enteredBy  |   |   |   |   | Count |
+| customerID  | enteredBy  |   |   |   |   | Conta |
 | descrizione  | lastUpdatedBy  |   |   |   |   | Elimina |
 | enteredByID  |   |   |   |   |   | Modifica |
 | entryDate  |   |   |   |   |   | Ottenere |
@@ -201,7 +201,7 @@ ht-degree: 47%
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| ID |   |   |   |   |   | Count |
+| ID |   |   |   |   |   | Conta |
 | articleName  |   |   |   |   |   | Ottenere |
 | pageID  |   |   |   |   |   | Rapporto |
 | url  |   |   |   |   |   | Ricerca |
@@ -226,7 +226,7 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Modifiche ai valori possibili 
+<sup>1</sup> modifiche ai valori possibili 
 
  
 
@@ -242,9 +242,9 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 
  
 
-### AccessRule<sup>1</sup>
+### Regola di accesso<sup>1</sup>
 
-<sup>1</sup> Contrassegnato come segnalabile
+<sup>1</sup> contrassegnato come segnalabile
 
  
 
@@ -268,7 +268,7 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Flag segnalabile rimosso
+<sup>1</sup> Flag Segnalabile Rimosso
 
  
 
@@ -282,9 +282,9 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Convalida data aggiunta
+Aggiunta Convalida Data <sup>1</sup>
 
-<sup>2</sup> Flag Not_Filterable aggiunto
+<sup>2</sup> Flag Not_Filterable Aggiunto
 
  
 
@@ -298,7 +298,7 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Il campo aggiunto includeIssues
+<sup>1</sup> Campo includeIssues aggiunto
 
  
 
@@ -310,7 +310,7 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Modifiche ai valori possibili 
+<sup>1</sup> modifiche ai valori possibili 
 
  
 
@@ -353,7 +353,7 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Convalida PRECISION modificata da 8 a 9
+<sup>1</sup> ha cambiato la convalida PRECISION per 8 a 9
 
  
 
@@ -379,7 +379,7 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Modifiche ai valori possibili
+<sup>1</sup> modifiche ai valori possibili
 
  
 
@@ -459,7 +459,7 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Tipo cambiato da Int a Double 
+Tipo <sup>1</sup> cambiato da Int a Double 
 
  
 
@@ -499,7 +499,7 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
   <tr> 
    <td> <span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;scheduleDeactivationDate&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">scheduleDeactivationDate</span></td> 
    <td> </td> 
-   <td><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;timesheetProfileHourTypes&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">timesheetProfileHourTypes</span> </td> 
+   <td><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;timesheetProfileHourTypes&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">TimesheetProfileHourTypes</span> </td> 
    <td> </td> 
    <td>getAvailableActions</td> 
    <td> </td> 
@@ -562,8 +562,8 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-|  name |   |   |   |   |   |   |
+|  nome |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Modifiche ai valori possibili
+<sup>1</sup> modifiche ai valori possibili

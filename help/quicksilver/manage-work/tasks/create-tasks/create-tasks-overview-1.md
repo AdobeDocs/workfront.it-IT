@@ -11,7 +11,7 @@ exl-id: 5776570c-f303-4e62-bc80-5038191a83fd
 source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Questa sezione contiene i seguenti articoli:
 
-* [Panoramica sulla creazione di attività](../../../manage-work/tasks/create-tasks/create-tasks-overview.md)
-* [Creare attività in un progetto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)
+* [Panoramica attività create](../../../manage-work/tasks/create-tasks/create-tasks-overview.md)
+* [Crea attività in un progetto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)
 * [Crea sottoattività](../../../manage-work/tasks/create-tasks/create-subtasks.md)
 * [Creare attività ricorrenti](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md)

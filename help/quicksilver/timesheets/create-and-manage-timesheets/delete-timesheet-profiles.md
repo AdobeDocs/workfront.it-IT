@@ -1,8 +1,8 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: Elimina profili foglio presenze
-description: È possibile eliminare un profilo della scheda attività.
+title: Elimina profili scheda orario
+description: Puoi eliminare un profilo di scheda orario.
 author: Alina
 feature: Timesheets
 exl-id: 1fb39f74-205b-485e-9e8b-a2ab3f9f1ac4
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 ---
 
-# Elimina profili foglio presenze
+# Elimina profili scheda orario
 
-È possibile eliminare un profilo della scheda attività.
+Puoi eliminare un profilo di scheda orario.
 
-Per informazioni sui profili della scheda attività, vedere [Creare, modificare e assegnare profili della scheda attività](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+Per informazioni sui profili delle schede orario, vedere [Creare, modificare e assegnare profili delle schede orario](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 ## Requisiti di accesso
 
@@ -36,24 +36,24 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>Piano </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>È necessario disporre dell’accesso amministrativo ai fogli presenze. </p> <p>Per ulteriori informazioni, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Consentire agli utenti l'accesso amministrativo a determinate aree</a>.</p>  <p>Nota: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>È necessario disporre dell'accesso amministrativo alle schede orario. </p> <p>Per ulteriori informazioni, vedere <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Concedere agli utenti l'accesso amministrativo ad alcune aree</a>.</p>  <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
-## Elimina profili foglio presenze
+## Elimina profili scheda orario
 
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
-1. Se si sta eliminando un profilo della scheda attività in uso in tutto il sistema, fare clic su **Scheda attività e ore**.
+1. Se si elimina un profilo di scheda orario in uso nel sistema, fare clic su **Scheda orario e ore**.
 
    Oppure
 
-   Se si elimina un profilo foglio presenze per un gruppo, fare clic su **Gruppi**, quindi fai clic sul nome del gruppo.
+   Se elimini un profilo di scheda orario per un gruppo, fai clic su **Gruppi**, quindi fai clic sul nome del gruppo.
 
-1. Fai clic su **Profili scheda attività**.
-1. Selezionare almeno un profilo della scheda attività da eliminare, quindi fare clic su **Altro > Elimina**.
-1. Nella finestra del messaggio visualizzata, fai clic su **Sì, Elimina I** t.
+1. Fare clic su **Profili scheda orario**.
+1. Seleziona almeno un profilo di scheda orario da eliminare, quindi fai clic su **Altro > Elimina**.
+1. Nella finestra di messaggio visualizzata, fare clic su **Sì, Elimina I** T.

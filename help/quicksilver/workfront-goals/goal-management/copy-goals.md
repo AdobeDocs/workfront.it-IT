@@ -45,7 +45,7 @@ Devi avere i seguenti:
  <td>
  <p>Nuova licenza: Collaboratore o versione successiva</p>
  Oppure
- <p>Licenza corrente: richiesta o successiva</p> <p>Per ulteriori informazioni, consulta <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica sulle licenze di Adobe Workfront</a>.</p> </td>
+ <p>Licenza corrente: richiesta o successiva</p> <p>Per ulteriori informazioni, vedere <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica delle licenze di Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Prodotto*</td>
@@ -55,7 +55,7 @@ Devi avere i seguenti:
 <li>Un piano Select o Prime Adobe Workfront e un’ulteriore licenza Adobe Workfront Goals.</li>
 <li>Un piano Workfront Ultimate che include gli obiettivi Workfront per impostazione predefinita. </li></ul>
  <p>Oppure</p>
- <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, consulta <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l’utilizzo degli obiettivi di Workfront</a>. </p> </td>
+ <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Livello di accesso</td>
@@ -67,7 +67,7 @@ Devi avere i seguenti:
   <div>
   <p>Visualizza o autorizzazioni superiori per l’obiettivo per visualizzarlo</p>
   <p>Gestire le autorizzazioni per l’obiettivo per modificarlo</p>
-  <p>Per informazioni sulla condivisione degli obiettivi, consulta <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Condividere un obiettivo in Obiettivi di Workfront</a>. </p>
+  <p>Per informazioni sulla condivisione degli obiettivi, vedere <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Condividere un obiettivo in Obiettivi di Workfront</a>. </p>
   </div> </td>
  </tr>
 <tr>
@@ -78,11 +78,11 @@ Devi avere i seguenti:
 </tbody>
 </table>
 
-*Per ulteriori informazioni, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Considerazioni per la copia degli obiettivi
 
-Prima di poter copiare gli obiettivi, devi avere accesso a Modifica obiettivi nel tuo livello di accesso. Per informazioni su come concedere l’accesso agli obiettivi, consulta [Concedere l’accesso agli obiettivi di Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+Prima di poter copiare gli obiettivi, devi avere accesso a Modifica obiettivi nel tuo livello di accesso. Per informazioni sulla concessione dell&#39;accesso agli obiettivi, vedere [Concedere l&#39;accesso agli obiettivi di Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 Alcuni dei motivi per cui potresti voler copiare un obiettivo esistente sono:
 
@@ -92,7 +92,7 @@ Alcuni dei motivi per cui potresti voler copiare un obiettivo esistente sono:
 
 >[!TIP]
 >
->Puoi copiare un obiettivo in qualsiasi stato. Per informazioni sugli stati degli obiettivi, vedi [Panoramica sullo stato degli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/goal-status-overview.md).
+>Puoi copiare un obiettivo in qualsiasi stato. Per informazioni sugli stati degli obiettivi, vedere [Panoramica sullo stato degli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/goal-status-overview.md).
 
 Quando copi gli obiettivi, tieni presente quanto segue:
 
@@ -178,32 +178,32 @@ To copy goals in the Production environment:
 -->
 
 
-1. Vai a un obiettivo e fai clic su **Altro** menu ![](assets/more-icon.png), quindi fai clic su **Copia obiettivo**.
+1. Vai a un obiettivo e fai clic sul menu **Altro** ![](assets/more-icon.png), quindi fai clic su **Copia obiettivo**.
 
    ![](assets/copy-goal-box-unshimmed.png)
 
 1. Aggiorna le seguenti informazioni per l&#39;obiettivo copiato:
-   * **Nome obiettivo**: nome del nuovo obiettivo. Il nome predefinito per l’obiettivo copiato è &quot;Copia di&quot; &lt;original goal=&quot;&quot;>&quot;.
-   * **Periodo**: il periodo di tempo durante il quale desideri raggiungere l’obiettivo. Seleziona un periodo di tempo dal menu a discesa
+   * **Nome obiettivo**: nome del nuovo obiettivo. Il nome predefinito per l&#39;obiettivo copiato è &quot;Copia di &lt;obiettivo originale>&quot;.
+   * **Periodo**: il periodo di tempo durante il quale desideri raggiungere l&#39;obiettivo. Seleziona un periodo di tempo dal menu a discesa
 
      Oppure
 
-     Seleziona **Abilita date personalizzate** per specificare date personalizzate per l’obiettivo **Inizio** e **Date di fine**. L’impostazione Abilita date personalizzate è disabilitata per impostazione predefinita.
+     Seleziona **Abilita date personalizzate** per specificare date personalizzate per le date di **Inizio** e **Fine** dell&#39;obiettivo. L’impostazione Abilita date personalizzate è disabilitata per impostazione predefinita.
 
      >[!TIP]
      >
      >   Deselezionando l’opzione Abilita date personalizzate si ritorna al periodo di tempo dell’obiettivo originale.
 
-      * **Proprietario obiettivo**: proprietario dell’obiettivo. Può essere un utente, un team, un gruppo o un’azienda. L’impostazione predefinita è il proprietario dell’obiettivo originale.
-      * **Descrizione**: informazioni aggiuntive sull’obiettivo.
-      * **Copia risultati**: seleziona questa opzione se desideri trasferire i risultati dall’obiettivo corrente all’obiettivo copiato. In questo modo i risultati originali vengono duplicati e associati all&#39;obiettivo copiato. I risultati dell&#39;obiettivo copiato hanno lo stesso proprietario, nomi e valori misurati dei risultati dell’obiettivo originale.
+      * **Proprietario obiettivo**: proprietario dell&#39;obiettivo. Può essere un utente, un team, un gruppo o un’azienda. L’impostazione predefinita è il proprietario dell’obiettivo originale.
+      * **Descrizione**: informazioni aggiuntive sull&#39;obiettivo.
+      * **Copia risultati**: selezionare questa opzione per trasferire i risultati dall&#39;obiettivo corrente all&#39;obiettivo copiato. In questo modo i risultati originali vengono duplicati e associati all&#39;obiettivo copiato. I risultati dell&#39;obiettivo copiato hanno lo stesso proprietario, nomi e valori misurati dei risultati dell’obiettivo originale.
 
         >[!NOTE]
         >
         >* L&#39;avanzamento del risultato originale non viene trasferito all&#39;obiettivo copiato.
         >* Se il proprietario originale è stato eliminato o disattivato da Workfront, il nuovo risultato viene assegnato all&#39;utente connesso.
 
-1. Clic **Copia obiettivo**.
+1. Fai clic su **Copia obiettivo**.
 
    Viene creato un obiettivo simile a quello originale, che si trova nello stato Bozza.
 
@@ -211,9 +211,9 @@ To copy goals in the Production environment:
    >
    >Se non hai copiato i risultati dall’obiettivo originale, devi innanzitutto associare il nuovo obiettivo a un indicatore di avanzamento prima di poterlo attivare e iniziare a lavorare per raggiungerlo.
    >Per informazioni sull&#39;associazione degli obiettivi agli indicatori di avanzamento, vedere gli articoli seguenti:
-   >* [Aggiungere risultati agli obiettivi in Obiettivi di Adobe Workfront](../results-and-activities/add-results-to-goals.md)
-   >* [Aggiungere attività agli obiettivi in Obiettivi di Adobe Workfront](../results-and-activities/add-activities-to-goals.md)
-   >* [Allineare gli obiettivi collegandoli in Obiettivi di Adobe Workfront](../goal-alignment/align-goals-by-connecting-them.md)
+   >* [Aggiungi risultati agli obiettivi in Obiettivi di Adobe Workfront](../results-and-activities/add-results-to-goals.md)
+   >* [Aggiungi attività agli obiettivi in Obiettivi di Adobe Workfront](../results-and-activities/add-activities-to-goals.md)
+   >* [Allinea gli obiettivi collegandoli in Obiettivi Adobe Workfront](../goal-alignment/align-goals-by-connecting-them.md)
    >
-   >Per informazioni sull’attivazione degli obiettivi, consulta [Attiva obiettivi](../goal-management/activate-goals.md).
+   >Per informazioni sull&#39;attivazione degli obiettivi, vedere [Attiva obiettivi](../goal-management/activate-goals.md).
 

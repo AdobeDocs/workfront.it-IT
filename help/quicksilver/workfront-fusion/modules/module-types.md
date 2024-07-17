@@ -38,9 +38,9 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   <tr> 
    <td role="rowheader">Licenza [!UICONTROL Adobe Workfront Fusion]**</td> 
    <td>
-   <p>Fabbisogno di licenza corrente: No [!DNL Workfront Fusion] requisito di licenza.</p>
+   <p>Requisiti di licenza correnti: nessun requisito di licenza [!DNL Workfront Fusion].</p>
    <p>Oppure</p>
-   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro] </p>
+   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione del lavoro] </p>
    </td> 
   </tr> 
   <tr> 
@@ -52,7 +52,7 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
 
 Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
 
-Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Moduli di azione
 
@@ -65,23 +65,23 @@ A differenza dei moduli di attivazione, i moduli di azione possono essere posizi
 >**Esempi:**
 >
 >* **[!DNL Workfront]> [!UICONTROL Carica un file]** invia un file a [!DNL Workfront] e restituisce il relativo identificatore.
->* **[!UICONTROL Immagine] > [!UICONTROL Ridimensiona]** riceve un&#39;immagine, la ridimensiona alle dimensioni specificate e la passa all&#39;azione successiva.
+>* **[!UICONTROL Immagine] > [!UICONTROL Ridimensiona]** riceve un&#39;immagine, la ridimensiona in base alle dimensioni specificate e la trasmette all&#39;azione successiva.
 
 Il tipo di azione dispone di quattro sottotipi: Crea, Leggi, Aggiorna ed Elimina. Il sottotipo Update consente le tre operazioni seguenti:
 
-* **Cancellare il contenuto di un campo**. Questa operazione ha luogo quando il contenuto del campo viene valutato per cancellare la parola chiave (da non confondere con *vuoto*).
+* **Cancellare il contenuto di un campo**. Questa operazione viene eseguita quando il contenuto del campo viene valutato per cancellare la parola chiave (da non confondere con *empty*).
 
   ![](assets/erase-content-of-field.png)
 
-* **Lascia invariato il contenuto di un campo**. Questa operazione viene eseguita quando il campo viene lasciato vuoto o il contenuto del campo viene valutato come vuoto (rappresentato da null in JSON).
+* **Lasciare invariato il contenuto di un campo**. Questa operazione viene eseguita quando il campo viene lasciato vuoto o il contenuto del campo viene valutato come vuoto (rappresentato da null in JSON).
 
   ![](assets/leave-content-field-unchanged-350x231.png)
 
-* **Sostituire il contenuto di un campo**. Questa operazione viene eseguita in tutti gli altri casi diversi da quelli sopra descritti.
+* **Sostituisci il contenuto di un campo**. Questa operazione viene eseguita in tutti gli altri casi diversi da quelli sopra descritti.
 
 >[!NOTE]
 >
->* Se non vede il `erase` parola chiave nel pannello di mappatura, il modulo non è un modulo di aggiornamento o non è stato aggiornato alle specifiche più recenti per l’app.
+>* Se non vedi la parola chiave `erase` nel pannello di mappatura, il modulo non è un modulo di aggiornamento o non è stato aggiornato alle specifiche più recenti per l&#39;app.
 >* &quot;[!UICONTROL Vuoto]&quot; non modifica il contenuto del campo. Se è necessario cancellare il campo, puoi utilizzare la seguente formula:
 >
 >![](assets/formula-ifempty-name-erase.png)
@@ -100,9 +100,9 @@ Gli scenari possono contenere un numero illimitato di Ricerche.
 >
 >**Esempio:**
 >
->**[!DNL Workfront]> [!UICONTROL Leggi record correlati]**  legge i record corrispondenti alla query di ricerca specificata, in un particolare oggetto padre
+>**[!DNL Workfront]> [!UICONTROL Leggi record correlati]** legge i record che corrispondono alla query di ricerca specificata, in un particolare oggetto padre
 
-## Moduli di attivazione
+## Moduli trigger
 
 Gli attivatori generano bundle quando si è verificata una modifica in un determinato servizio. La modifica può consistere nella creazione di nuovi record, nell&#39;eliminazione di record, nell&#39;aggiornamento di record e così via.
 
@@ -116,9 +116,9 @@ Ogni scenario può contenere un solo trigger.
 
 ### Trigger di polling
 
-I trigger di polling eseguono regolarmente il polling di un determinato servizio anche se non sono state apportate modifiche rispetto all’esecuzione precedente. È consigliabile pianificare uno scenario contenente un trigger di polling da eseguire a intervalli regolari. Se è presente un *modifica*, il trigger restituisce bundle contenenti informazioni sulla modifica. In caso contrario *modifica*, il trigger non restituisce alcun bundle. Per istruzioni sulla pianificazione di uno scenario, consulta [Pianificare uno scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md).
+I trigger di polling eseguono regolarmente il polling di un determinato servizio anche se non sono state apportate modifiche rispetto all’esecuzione precedente. È consigliabile pianificare uno scenario contenente un trigger di polling da eseguire a intervalli regolari. Se è presente una *modifica*, il trigger restituisce bundle contenenti informazioni sulla modifica. Se non è presente *change*, il trigger non restituisce alcun bundle. Per istruzioni sulla pianificazione di uno scenario, vedere [Pianificare uno scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md).
 
-I trigger di polling consentono di selezionare il primo bundle che devono generare tramite il pannello epoca. Il pannello viene visualizzato automaticamente dopo aver salvato un trigger o averne modificato le impostazioni. Per ulteriori informazioni, consulta [Scegli da dove inizia un modulo trigger [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/choose-where-trigger-module-starts.md).
+I trigger di polling consentono di selezionare il primo bundle che devono generare tramite il pannello epoca. Il pannello viene visualizzato automaticamente dopo aver salvato un trigger o averne modificato le impostazioni. Per ulteriori informazioni, vedere [Scegliere la posizione di inizio di un modulo trigger in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/choose-where-trigger-module-starts.md).
 
 >[!NOTE]
 >
@@ -128,19 +128,19 @@ I trigger di polling consentono di selezionare il primo bundle che devono genera
 >
 >**Esempi:**
 >
->* **[!DNL Workfront]> [!UICONTROL Osserva i record]** restituisce i file appena aggiunti dall&#39;ultima esecuzione dello scenario
+>* **[!DNL Workfront]> [!UICONTROL Osserva record]** restituisce file appena aggiunti dall&#39;ultima esecuzione dello scenario
 >
->* **[!DNL Google Sheets]> [!UICONTROL Righe di controllo]** restituisce nuove righe aggiunte dall’utente dall’ultima esecuzione dello scenario
+>* **[!DNL Google Sheets]> [!UICONTROL Osserva righe]** restituisce nuove righe aggiunte dall&#39;utente dall&#39;ultima esecuzione dello scenario
 
 ### Trigger istantanei
 
-I trigger istantanei consentono al servizio di notificare [!DNL Workfront Fusion] circa un *modifica* immediatamente. È consigliabile pianificare uno scenario contenente un trigger istantaneo da eseguire immediatamente. Per istruzioni, consulta [Pianificazione di uno scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/schedule-a-scenario.md). Vedi anche [Trigger istantanei (webhook) in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md) per informazioni dettagliate sulla gestione dei dati in arrivo.
+I trigger istantanei consentono al servizio di notificare immediatamente a [!DNL Workfront Fusion] una *modifica*. È consigliabile pianificare uno scenario contenente un trigger istantaneo da eseguire immediatamente. Per istruzioni, consulta [Pianificare uno scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/schedule-a-scenario.md). Vedi anche [Trigger istantanei (webhook) in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md) per informazioni dettagliate sulla gestione dei dati in arrivo.
 
 >[!INFO]
 >
 >**Esempi:**
 >
->* **[!DNL Workfront]> [!UICONTROL Guarda gli eventi]** restituisce informazioni quando si verifica un determinato tipo di evento in Workfront, ad esempio la creazione di un&#39;attività.
+>* **[!DNL Workfront]> [!UICONTROL Osserva eventi]** restituisce informazioni quando si verifica un determinato tipo di evento in Workfront, ad esempio la creazione di un&#39;attività.
 >* **[!DNL Google Sheets]> [!UICONTROL Osserva modifiche]** restituisce informazioni ogni volta che una cella viene aggiornata.
 
 ## Aggregatori
@@ -157,11 +157,11 @@ Gli scenari possono contenere un numero illimitato di aggregatori.
 >
 >**Esempi:**
 >
->* **[!UICONTROL Archivia] > [!UICONTROL Creare un archivio]** comprime i file ricevuti in un archivio zip
->* **[!UICONTROL CSV] > [!UICONTROL Aggrega in CSV]** unisce più stringhe da un file CSV in un’unica riga
+>* **[!UICONTROL Archivia] > [!UICONTROL Crea un archivio]** comprime i file ricevuti in un archivio zip
+>* **[!UICONTROL CSV] > [!UICONTROL Aggrega in CSV]** unisce più stringhe da un file CSV in un&#39;unica riga
 >* **[!UICONTROL Strumenti] > [!UICONTROL Aggregatore di testo]** combina più stringhe in un&#39;unica stringa
 
-Per ulteriori informazioni, consulta [Modulo aggregatore in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/aggregator-module.md).
+Per ulteriori informazioni, vedere [Modulo Aggregator in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/aggregator-module.md).
 
 ## Iteratori
 
@@ -179,4 +179,4 @@ Gli scenari possono contenere un numero illimitato di iteratori.
 >
 >**[!UICONTROL E-mail] > [!UICONTROL Recupera allegati]** suddivide un array di allegati in bundle separati
 
-Per ulteriori informazioni, consulta [Modulo iteratore in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md) e [Mappare un array in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-an-array.md).
+Per ulteriori informazioni, vedere [Modulo Iterator in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md) e [Mappare un array in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-an-array.md).

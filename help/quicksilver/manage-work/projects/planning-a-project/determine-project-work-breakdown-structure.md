@@ -48,23 +48,23 @@ Quando si definiscono le attività, assicurarsi di non pianificare troppo lavoro
 Per definire i risultati e i risultati finali WBS in Workfront, è consigliabile eseguire le attività seguenti per creare una visualizzazione gerarchica delle attività di progetto:
 
 * Se non lo hai già fatto, crea un nuovo progetto.\
-  Per informazioni sulla creazione di un progetto, consulta l’articolo [Creare un progetto](../../../manage-work/projects/create-projects/create-project.md).
+  Per informazioni sulla creazione di un progetto, vedere l&#39;articolo [Creare un progetto](../../../manage-work/projects/create-projects/create-project.md).
 
 * Crea attività per tutte le azioni necessarie per completare ogni risultato finale e risultato finale.\
   Per informazioni sulla creazione di attività, vedere l&#39;articolo [Creare attività in un progetto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) .
 
 * Dalle attività appena create, identificare i risultati principali e associarli alle attività cardine.\
-  Per informazioni sulla creazione di attività cardine, vedere gli articoli [Creare un percorso milestone](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) e [Associa attività cardine ad attività](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+  Per informazioni sulla creazione di attività milestone, vedere gli articoli [Creare un percorso milestone](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) e [Associare le attività milestone alle attività](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
 * Suddividere le attività con un ambito troppo grande in sottoattività. Associale all&#39;elemento padre che definisce il risultato finale.\
-  Per informazioni sulla creazione di sottoattività, vedere l&#39;articolo [Crea sottoattività](../../../manage-work/tasks/create-tasks/create-subtasks.md).
+  Per informazioni sulla creazione di sottoattività, vedere l&#39;articolo [Creare sottoattività](../../../manage-work/tasks/create-tasks/create-subtasks.md).
 
 * Identificare le relazioni di dipendenza tra le sottoattività e tra le attività cardine.\
   In una relazione di dipendenza, l&#39;inizio di un&#39;attività dipende dal completamento di un&#39;altra attività o gruppo di attività.\
-  Per informazioni sulle relazioni tra attività, vedere gli articoli [Panoramica dei predecessori delle attività](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) e [Creare una relazione predecessore nell&#39;elenco delle attività](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
+  Per informazioni sulle relazioni tra attività, vedere gli articoli [Panoramica sui predecessori delle attività](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) e [Creare una relazione predecessore nell&#39;elenco delle attività](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
 
 * Determina se, in qualsiasi momento della durata del progetto, sono necessarie approvazioni e revisioni. Crea processi di approvazione per soddisfare questa esigenza.\
-  Per informazioni sulle approvazioni, consulta l’articolo [Creare un processo di approvazione per gli elementi di lavoro](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+  Per informazioni sulle approvazioni, vedere l&#39;articolo [Creare un processo di approvazione per gli elementi di lavoro](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 ## Stima vincoli programmazione lavoro e programmazione
 
@@ -89,12 +89,12 @@ Dopo aver definito la durata e i vincoli di ogni attività, è possibile determi
 * Utenti\
   Solo gli utenti con un livello di accesso Planner o Worker possono essere assegnati alle attività. Sebbene sia possibile assegnare le attività a richiedenti e revisori, questi non possono completarle. Per questo motivo, si sconsiglia di assegnare loro le attività.
 
-  Per informazioni sui livelli di accesso e sulla definizione delle operazioni che gli utenti possono eseguire con gli oggetti di Workfront, vedere [Panoramica dei livelli di accesso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+  Per informazioni sui livelli di accesso e sulla definizione delle operazioni che gli utenti possono eseguire con gli oggetti di Workfront, vedere [Panoramica sui livelli di accesso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 * Ruoli
 * Team
 
-Per informazioni sull&#39;assegnazione delle attività, vedere gli articoli della [Assegna attività](../../../manage-work/tasks/assign-tasks/assign-tasks-1.md) sezione.
+Per informazioni sull&#39;assegnazione delle attività, vedere gli articoli della sezione [Assegnare attività](../../../manage-work/tasks/assign-tasks/assign-tasks-1.md).
 
 ## Gestire le risorse
 
@@ -105,22 +105,22 @@ La gestione delle risorse in Workfront consente di determinare se è disponibile
 >Se lo stato del progetto è Pianificazione, i task assegnati agli utenti non vengono visualizzati nei relativi elenchi di task.
 
 All’inizio di un anno fiscale o di un trimestre, potrebbe essere utile gestire le risorse a un livello più alto, su più progetti, senza conoscere una specifica struttura funzionale.\
-Per informazioni sulla pianificazione dell’utilizzo delle risorse a un livello più alto, consulta l’articolo [Introduzione alla pianificazione delle risorse](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
+Per informazioni sulla pianificazione dell&#39;utilizzo delle risorse a un livello superiore, vedere l&#39;articolo [Introduzione alla pianificazione delle risorse](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
 Quando si gestiscono le risorse nel contesto della creazione della struttura funzionale di un progetto e si assicura che ogni attività sia assegnata alla risorsa corretta, è possibile programmare le risorse per il lavoro da eseguire.\
-Per informazioni sulla pianificazione delle risorse, consulta gli articoli nella sezione [L’indice del Bilanciatore dei carichi di lavoro: articolo](../../../resource-mgmt/workload-balancer/workload-balancer.md) sezione.
+Per informazioni sulla pianificazione delle risorse, vedere gli articoli della sezione [Bilanciatore dei carichi di lavoro: indice articolo](../../../resource-mgmt/workload-balancer/workload-balancer.md).
 
 ## Stima i dati finanziari del progetto
 
 Workfront calcolerà i costi pianificati per ogni attività e i costi complessivi per un progetto. I costi pianificati per un task includono tutte le spese del task più il costo del dipendente o del ruolo assegnato al task. Le tariffe orarie per il task, il ruolo e il dipendente vengono assegnate durante la creazione del task, del ruolo e dell&#39;utente.
 
-Per informazioni sui dati finanziari del progetto, vedere la sezione [Finanze del progetto: indice articolo](../../../manage-work/projects/project-finances/project-finances-overview.md).
+Per informazioni sui dati finanziari del progetto, vedere la sezione [Dati finanziari del progetto: articolo indice](../../../manage-work/projects/project-finances/project-finances-overview.md).
 
 ## Determinare i punti di approvazione per il progetto
 
 Creando i processi di approvazione in Workfront, è possibile stabilire punti di revisione per il progetto al fine di monitorare lo stato di avanzamento e le potenziali aree problematiche. Attraverso il processo di approvazione, i proprietari del progetto possono individuare le attività in ritardo e in anticipo, visualizzare audit trail in cui sono elencati gli utenti che hanno modificato lo stato di un’attività e visualizzare la cronologia dei problemi, tra cui il modo in cui sono stati risolti e quando sono stati chiusi. Dopo aver esaminato un progetto, i proprietari del progetto possono determinare quali passi intraprendere e aggiornare il piano del progetto, se necessario.
 
-Per informazioni sulle approvazioni, consulta l’articolo [Creare un processo di approvazione per gli elementi di lavoro](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
+Per informazioni sulle approvazioni, vedere l&#39;articolo [Creare un processo di approvazione per gli elementi di lavoro](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
 
 ## Visualizza WBS
 
@@ -133,7 +133,7 @@ Per comprendere la struttura WBS di un progetto, è necessario visualizzare i se
 
 Una volta completato il WBS, è possibile visualizzarlo in un elenco di attività a livello di progetto o in un report.
 
-* [Visualizzare il file WBS in un elenco di attività](#view-the-wbs-in-a-task-list)
+* [Visualizza il WBS in un elenco attività](#view-the-wbs-in-a-task-list)
 * [Visualizzare WBS in un report attività](#view-the-wbs-in-a-task-report)
 
 ### Visualizzare il file WBS in un elenco di attività {#view-the-wbs-in-a-task-list}
@@ -141,16 +141,16 @@ Una volta completato il WBS, è possibile visualizzarlo in un elenco di attivit�
 È possibile visualizzare l&#39;elenco delle attività a livello di progetto.
 
 1. Passare al progetto per il quale si desidera visualizzare la struttura funzionale.
-1. Seleziona la **Attività** scheda.
-1. (Facoltativo) Seleziona **Niente** nel **Raggruppamento** menu a discesa.
+1. Selezionare la scheda **Attività**.
+1. (Facoltativo) Seleziona **Niente** nel menu a discesa **Raggruppamento**.
 
    Nella struttura Work Breakdown Structure (Suddivisione lavoro) non viene visualizzato il rientro delle attività nel WBS.
 
-1. Dalla sezione **Visualizza** e selezionare il menu a discesa **Work Breakdown** visualizzazione.
+1. Dal menu a discesa **Visualizza**, selezionare la visualizzazione **Work Breakdown**.
 
    La struttura Work Breakdown (Suddivisione lavoro) viene visualizzata nella seconda colonna della vista selezionata.
 
-   ![Work Breakdown Structure (Struttura di suddivisione del lavoro) in un elenco di attività](assets/work-breakdown-structure.png)
+   ![Struttura di suddivisione del lavoro in un elenco attività](assets/work-breakdown-structure.png)
 
 ### Visualizzare WBS in un report attività {#view-the-wbs-in-a-task-report}
 
@@ -163,7 +163,7 @@ Una volta completato il WBS, è possibile visualizzarlo in un elenco di attivit�
 >
 >È consigliabile aggiungere un raggruppamento di progetti per chiarire a quali progetti appartengono le attività. Il rientro delle attività non viene visualizzato in un report attività.
 
-Per informazioni sulla creazione di rapporti, consulta l’articolo [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Per informazioni sulla creazione di report, vedere l&#39;articolo [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Salvare il file WBS di un progetto come modello
 
@@ -188,4 +188,4 @@ I seguenti elementi di una struttura funzionale di un progetto possono essere sa
 * Condivisione delle informazioni
 * Moduli personalizzati
 
-Per informazioni sul salvataggio dei progetti come modelli, consulta l’articolo [Crea modello da progetto](../../../manage-work/projects/create-and-manage-templates/create-template-from-project.md) .
+Per informazioni sul salvataggio dei progetti come modelli, vedere l&#39;articolo [Creare un modello dal progetto](../../../manage-work/projects/create-and-manage-templates/create-template-from-project.md).

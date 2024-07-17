@@ -8,8 +8,8 @@ feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
 source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 2%
+source-wordcount: '566'
+ht-degree: 1%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 2%
 
 {{highlighted-preview}}
 
-Il tuo amministratore Adobe Workfront può concederti l’accesso per visualizzare o modificare dati finanziari durante l’assegnazione del livello di accesso. Per ulteriori informazioni, consulta [Concedere l’accesso ai dati finanziari](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+Il tuo amministratore Adobe Workfront può concederti l’accesso per visualizzare o modificare dati finanziari durante l’assegnazione del livello di accesso. Per ulteriori informazioni, vedere [Concedere l&#39;accesso ai dati finanziari](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 Oltre al livello di accesso concesso agli utenti, è possibile concedere loro le autorizzazioni per visualizzare o gestire dati finanziari per progetti, attività o problemi specifici per i quali si dispone dell&#39;accesso alla condivisione.
 
-Per informazioni sulle operazioni che gli utenti di ogni livello di accesso possono eseguire con i dati finanziari, consulta la sezione [Dati finanziari](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#financia) nell’articolo [Funzionalità disponibile per ogni tipo di oggetto](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+Per informazioni sulle operazioni che gli utenti di ogni livello di accesso possono eseguire con i dati finanziari, vedere la sezione [Dati finanziari](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#financia) nell&#39;articolo [Funzionalità disponibile per ogni tipo di oggetto](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
 ## Requisiti di accesso
 
@@ -74,26 +74,26 @@ Per condividere informazioni finanziarie sugli oggetti, è necessario disporre d
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizza autorizzazioni o versioni successive per progetti, attività e problemi che includono almeno le autorizzazioni Visualizza informazioni finanziarie</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Visualizza autorizzazioni o versioni successive per progetti, attività e problemi che includono almeno le autorizzazioni Visualizza informazioni finanziarie</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Condividere un oggetto e concedere autorizzazioni finanziarie
 
 Quando si concedono autorizzazioni finanziarie agli oggetti, tenere presente quanto segue:
 
-* Puoi concedere autorizzazioni finanziarie a progetti, attività, problemi, <span class="preview">e tariffe</span>.
+* Puoi concedere autorizzazioni finanziarie a progetti, attività, problemi, <span class="preview">e schede di tariffa</span>.
 * Le autorizzazioni possono essere ereditate: se si dispone delle autorizzazioni Visualizza contabilità per un progetto, si ereditano automaticamente le autorizzazioni Visualizza contabilità per le attività e i problemi del progetto.
 
 Per concedere autorizzazioni finanziarie a un oggetto:
 
 1. Passare a un&#39;attività, un progetto o un problema che si desidera condividere con altri utenti.
-1. Fare clic sul menu Altro accanto al nome dell&#39;oggetto ![](assets/more-icon.png), quindi fai clic su **Condivisione**.
+1. Accanto al nome dell&#39;oggetto fare clic sul menu Altro ![](assets/more-icon.png), quindi su **Condivisione**.
 
-1. In **Assegna `<Object name>` accesso a** campo start digitare il nome di un utente, team, mansione, gruppo o società con cui si desidera condividere l&#39;oggetto.
+1. Nel campo **Concedi a `<Object name>` l&#39;accesso a** inizia a digitare il nome di un utente, un team, una mansione, un gruppo o un&#39;azienda con cui desideri condividere l&#39;oggetto.
 
    >[!TIP]
    >
@@ -101,22 +101,22 @@ Per concedere autorizzazioni finanziarie a un oggetto:
 
 1. Se viene visualizzato un menu a discesa a destra del nome selezionato, fare clic su una delle opzioni disponibili:
 
-   * **Visualizzare**
-   * **Contribuire**
-   * **Gestire**
+   * **Visualizza**
+   * **Contribute**
+   * **Gestisci**
 
      ![](assets/12.png)      ![](assets/13.png) ![](assets/14.png)
 
-1. Nello stesso menu a discesa, fai clic su **Impostazioni avanzate**, quindi eseguire una delle operazioni seguenti:
+1. Nello stesso menu a discesa, fare clic su **Impostazioni avanzate**, quindi eseguire una delle operazioni seguenti:
 
-   * Se hai selezionato una delle tre opzioni del passaggio precedente, assicurati che **Visualizza dati finanziari** è selezionato.
-   * Se hai selezionato **Gestisci dati finanziari** nel passaggio precedente, assicurati che **Gestisci dati finanziari** è selezionato.
+   * Se hai selezionato una delle tre opzioni del passaggio precedente, assicurati che sia selezionato **Visualizza contabilità**.
+   * Se hai selezionato **Gestisci contabilità** nel passaggio precedente, assicurati che sia selezionato **Gestisci contabilità**.
 
 1. Fai clic su **Salva**.
 
 ## Autorizzazioni finanziarie per tutti i livelli di condivisione
 
-Nella tabella seguente vengono visualizzate le autorizzazioni finanziarie ottenute dagli utenti quando si concedono loro le autorizzazioni Visualizza, Contribuisci o Gestisci per gli oggetti: 
+Nella tabella seguente vengono visualizzate le autorizzazioni finanziarie ottenute dagli utenti quando si concedono loro le autorizzazioni Visualizza, Contribute o Gestisci sugli oggetti: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -127,7 +127,7 @@ Nella tabella seguente vengono visualizzate le autorizzazioni finanziarie ottenu
   <tr> 
    <th><strong>Azioni</strong> </th> 
    <th><strong>Gestisci</strong> </th> 
-   <th><strong>contribuire</strong> </th> 
+   <th><strong>Contribute</strong> </th> 
    <th><strong>Visualizza</strong> </th> 
   </tr> 
  </thead> 
@@ -189,6 +189,6 @@ Nella tabella seguente vengono visualizzate le autorizzazioni finanziarie ottenu
  </tbody> 
 </table>
 
-&#42;Richiede un accesso aggiuntivo per Gestione risorse.
+&#42;Richiede l&#39;accesso aggiuntivo a Gestione risorse.
 
-Per informazioni sull&#39;accesso a Gestione risorse, vedere [Concedere l’accesso alla gestione delle risorse](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+Per informazioni sull&#39;accesso a Gestione risorse, vedere [Concedere l&#39;accesso a Gestione risorse](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).

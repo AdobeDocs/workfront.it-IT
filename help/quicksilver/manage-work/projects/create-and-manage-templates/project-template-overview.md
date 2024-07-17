@@ -55,34 +55,34 @@ Durante la creazione dei modelli, considera quanto segue:
 
   Per informazioni sulla durata, vedere i seguenti articoli:
 
-   * [Panoramica sulla durata e sul tipo di durata dell&#39;attività](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
+   * [Panoramica della durata e del tipo di durata dell&#39;attività](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
    * [Panoramica della durata del progetto](../../../manage-work/projects/planning-a-project/project-duration.md)
 
   Per informazioni sulle ore pianificate, vedi [Panoramica sulle ore pianificate](../../../manage-work/tasks/task-information/planned-hours.md).
 
 * Aggiungere le relazioni precedenti tra le attività alla fine, quando si ha una chiara comprensione dell&#39;intero piano di progetto futuro. L’aggiunta di predecessori alle attività modello è simile all’aggiunta di predecessori alle attività di un progetto.
 
-  Per informazioni sull&#39;aggiunta di predecessori alle attività, vedere [Panoramica dei predecessori delle attività](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+  Per informazioni sull&#39;aggiunta di predecessori alle attività, vedere [Panoramica sui predecessori delle attività](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
-* Indica con chi deve essere condiviso il modello per utilizzi futuri e con chi devono essere condivisi i progetti che verranno creati dal modello. Per informazioni sulla condivisione dei modelli, consulta [Condividere modelli di progetto](../../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+* Indica con chi deve essere condiviso il modello per utilizzi futuri e con chi devono essere condivisi i progetti che verranno creati dal modello. Per informazioni sulla condivisione dei modelli, vedere [Condividere modelli di progetto](../../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 * Se possibile, utilizza i processi di approvazione globali e aggiungili ai modelli e alle attività modello. Questo consente di risparmiare tempo quando le attività o il progetto futuro dovranno passare attraverso le stesse approvazioni.
 
-  Per informazioni sulla creazione di approvazioni, consulta [Creare un processo di approvazione per gli elementi di lavoro](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+  Per informazioni sulla creazione di approvazioni, vedere [Creare un processo di approvazione per gli elementi di lavoro](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-  Per informazioni sull&#39;associazione di un processo di approvazione a un elemento di lavoro, vedere [Associa un processo di approvazione nuovo o esistente al lavoro](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+  Per informazioni sull&#39;associazione di un processo di approvazione a un elemento di lavoro, vedere [Associare un processo di approvazione nuovo o esistente a un lavoro](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 ## Modi per creare i modelli
 
 È possibile creare un nuovo modello nei modi seguenti:
 
 * Da zero.\
-  Per ulteriori informazioni sulla creazione di un nuovo modello da zero, consulta [Creare un modello di progetto](../../../manage-work/projects/create-and-manage-templates/create-template.md).
+  Per ulteriori informazioni sulla creazione di un nuovo modello, vedere [Creare un modello di progetto](../../../manage-work/projects/create-and-manage-templates/create-template.md).
 
 * Da progetti esistenti, salvando un progetto come modello.\
-  Per ulteriori informazioni sulla creazione di modelli da progetti esistenti, consulta [Crea modello da progetto](../../../manage-work/projects/create-and-manage-templates/create-template-from-project.md).
+  Per ulteriori informazioni sulla creazione di modelli da progetti esistenti, vedere [Creare un modello dal progetto](../../../manage-work/projects/create-and-manage-templates/create-template-from-project.md).
 
 * Copiandolo da un altro modello.\
   Per ulteriori informazioni sulla copia di un modello esistente, vedere [Copiare un modello di progetto](../../../manage-work/projects/create-and-manage-templates/copy-template.md).
 
 * Utilizzando i nostri modelli di esempio.\
-  Per ulteriori informazioni sulla creazione dei modelli utilizzando i modelli di esempio, consulta [Creare modelli di progetto da esempi](../../../manage-work/projects/create-and-manage-templates/create-templates-from-examples.md).
+  Per ulteriori informazioni sulla creazione dei modelli utilizzando i modelli di esempio, vedere [Creare modelli di progetto da esempi](../../../manage-work/projects/create-and-manage-templates/create-templates-from-examples.md).

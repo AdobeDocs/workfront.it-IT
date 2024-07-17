@@ -44,7 +44,7 @@ La tabella seguente illustra la connessione tra il piano Workfront di cui dispon
 
 Per informazioni sui piani di Workfront, vedere [I nostri piani](https://www.workfront.com/plans).
 
-Per informazioni su dove è possibile individuare il Bilanciatore dei carichi di lavoro in Workfront, consulta [Individuare il Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+Per informazioni su dove è possibile individuare il Bilanciatore dei carichi di lavoro in Workfront, vedere [Individuare il Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 ## Accesso necessario per visualizzare il Bilanciatore dei carichi di lavoro
 
@@ -61,18 +61,18 @@ Per visualizzare il Bilanciatore dei carichi di lavoro è necessario disporre de
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Accesso di visualizzazione o superiore a Gestione risorse</p> <p>Per informazioni sul livello di accesso Gestione risorse, vedere l'articolo <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Concedere l’accesso alla gestione delle risorse</a>.</p> <p><b>NOTA</b>
+   <td> <p>Accesso di visualizzazione o superiore a Gestione risorse</p> <p>Per informazioni sul livello di accesso Gestione risorse, vedere l'articolo <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Concedere l'accesso a Gestione risorse</a>.</p> <p><b>NOTA</b>
 
 Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Si dispone delle autorizzazioni di visualizzazione per il progetto di cui si desidera visualizzare le assegnazioni. </p> <p>Per informazioni sulle autorizzazioni per i progetti, consulta l’articolo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Condividere un progetto in Adobe Workfront</a>.</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Si dispone delle autorizzazioni di visualizzazione per il progetto di cui si desidera visualizzare le assegnazioni. </p> <p>Per informazioni sulle autorizzazioni del progetto, vedere l'articolo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Condividere un progetto in Adobe Workfront</a>.</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Accesso necessario per gestire le assegnazioni nel Bilanciatore dei carichi di lavoro
 
@@ -91,19 +91,19 @@ Per gestire il Bilanciatore dei carichi di lavoro è necessario disporre dei seg
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
    <td> <p>Modifica accesso a Gestione risorse</p> 
-     <p>Per informazioni sul livello di accesso Gestione risorse, vedere l'articolo <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Concedere l’accesso alla gestione delle risorse</a>.</p>
+     <p>Per informazioni sul livello di accesso Gestione risorse, vedere l'articolo <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Concedere l'accesso a Gestione risorse</a>.</p>
      <p><b>NOTA</b>
 
 Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p> Autorizzazioni di Contribute o di livello superiore per il progetto di cui si desidera gestire le assegnazioni, che includono le autorizzazioni per effettuare assegnazioni. </p> <p>Per informazioni sulle autorizzazioni per i progetti, consulta l’articolo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Condividere un progetto in Adobe Workfront</a>.</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p> Autorizzazioni Contribute o di livello superiore per il progetto di cui si desidera gestire le assegnazioni, che includono le autorizzazioni per effettuare assegnazioni. </p> <p>Per informazioni sulle autorizzazioni del progetto, vedere l'articolo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Condividere un progetto in Adobe Workfront</a>.</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 <!--these notes were inside the table: for the Edit access to Res Management
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">View or higher access to Financial Data, if you want to view information by cost (NOTE: this is not possible yet!)</p>    

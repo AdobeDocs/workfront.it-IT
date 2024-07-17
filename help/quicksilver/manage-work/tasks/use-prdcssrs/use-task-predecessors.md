@@ -20,11 +20,11 @@ ht-degree: 0%
 Questa sezione contiene i seguenti articoli:
 
 * [Panoramica dei predecessori delle attività](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md)
-* [Creare una relazione predecessore nell&#39;elenco delle attività](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md)
+* [Crea una relazione predecessore nell&#39;elenco attività](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md)
 * [Creare una relazione predecessore utilizzando l&#39;area Predecessori](../../../manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md)
-* [Creare relazioni predecessori concatenando attività](../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md)
-* [Creare predecessori per più progetti](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md)
+* [Creare relazioni predecessore concatenando attività](../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md)
+* [Crea predecessori tra progetti](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md)
 * [Panoramica dei tipi di relazione tra attività](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)
-* [Imponi predecessori](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md)
-* [Panoramica sui tipi di ritardo](../../../manage-work/tasks/use-prdcssrs/lag-types.md)
+* [Applica predecessori](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md)
+* [Panoramica sui tipi di Lag](../../../manage-work/tasks/use-prdcssrs/lag-types.md)
 * [Panoramica del ciclo di dipendenza delle attività](../../../manage-work/tasks/use-prdcssrs/dependency-loop-overview.md)

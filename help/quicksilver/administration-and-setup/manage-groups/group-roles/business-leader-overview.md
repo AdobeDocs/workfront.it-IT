@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: group-roles
 title: Panoramica di Business Leader
-description: In un gruppo, il Business Leader è la persona che prende decisioni per il gruppo in merito a obiettivi, strategie, budget, assunzioni e così via. Ad esempio, in un'organizzazione con un responsabile marketing principale, tale persona sarà probabilmente il leader commerciale per il marketing.
+description: In un gruppo, il Business Leader è la persona che prende decisioni per il gruppo in merito a obiettivi, strategie, budget, assunzioni e così via. Ad esempio, in un’organizzazione con un Responsabile marketing, quella persona probabilmente sarà il Business Leader per il Marketing.
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
@@ -17,15 +17,15 @@ ht-degree: 0%
 
 # Panoramica di Business Leader
 
-In un gruppo, il Business Leader è la persona che prende decisioni per il gruppo in merito a obiettivi, strategie, budget, assunzioni e così via. Ad esempio, in un&#39;organizzazione con un responsabile marketing principale, tale persona sarà probabilmente il leader commerciale per il marketing.
+In un gruppo, il Business Leader è la persona che prende decisioni per il gruppo in merito a obiettivi, strategie, budget, assunzioni e così via. Ad esempio, in un’organizzazione con un Responsabile marketing, quella persona probabilmente sarà il Business Leader per il Marketing.
 
-In qualità di amministratore del gruppo, puoi assegnare un utente come Business Leader per un gruppo o un sottogruppo amministrato. Se ci sono gruppi al di sopra del gruppo che gestisci, i loro amministratori possono farlo anche per il tuo gruppo. Lo stesso vale per gli amministratori di Workfront (per qualsiasi gruppo). Per istruzioni, consulta [Creare un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+In qualità di amministratore di gruppo, puoi assegnare un utente come Business Leader per un gruppo o un sottogruppo che amministri. Se al di sopra del gruppo gestito sono presenti gruppi, anche gli amministratori possono eseguire questa operazione per il gruppo. Lo stesso vale per gli amministratori di Workfront (per qualsiasi gruppo). Per istruzioni, vedere [Creare un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
-Per informazioni generali sui gruppi, consulta [Panoramica sui gruppi](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
+Se hai bisogno di informazioni generali sui gruppi, consulta [Panoramica sui gruppi](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
 >[!NOTE]
 >
->A differenza dell&#39;amministratore di gruppo di un gruppo, il Business Leader non ha la possibilità di visualizzare o modificare configurazioni o appartenenze per il gruppo.
+>A differenza dell&#39;amministratore di un gruppo, il Business Leader non può visualizzare o modificare le configurazioni o le appartenenze del gruppo.
 
 <!--
 >DRAFTED IN FLARE:
@@ -33,16 +33,16 @@ Per informazioni generali sui gruppi, consulta [Panoramica sui gruppi](../../../
 >
 -->
 
-## Uso del campo Business Leader nel reporting
+## Utilizzo del campo Business Leader nel reporting
 
-Un utente che crea un rapporto per un gruppo può includere il campo Business Leader in un filtro, una visualizzazione o un raggruppamento.
+L’utente che crea un rapporto per un gruppo può includere il campo Business Leader in un filtro, in una vista o in un raggruppamento.
 
 Ad esempio:
 
-* Filtrare per un Business Leader per elencare i gruppi a cui è stata assegnata la persona come Business Leader.
-* Aggiungere un campo Business Leader a una visualizzazione per elencare i nomi di tutti i Business Leaders assegnati ai gruppi in un elenco. Puoi fare clic su un nome per passare al profilo utente di Business Leader o per modificare il nome.
-* Raggruppare per un campo Business Leader per elencare i gruppi in base ai responsabili aziendali.
+* Filtra in base a un Business Leader per elencare i gruppi a cui tale persona è assegnata come Business Leader.
+* Aggiungere un campo Business Leader a una visualizzazione per elencare i nomi di tutti i Business Leader assegnati ai gruppi in un elenco. È possibile fare clic su un nome per passare al profilo utente del Business Leader o per modificarlo.
+* Raggruppa in base a un campo Business Leader per elencare i gruppi in base ai relativi Business Leader.
 
-Inoltre, il campo Business Leader è incluso nella visualizzazione predefinita nei rapporti come colonna di elenco.
+Inoltre, il campo Business Leader viene incluso nella vista predefinita nei rapporti come colonna elenco.
 
-Per ulteriori informazioni, consulta [Elementi di reporting: filtri, visualizzazioni e raggruppamenti](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+Per ulteriori informazioni, vedere [Elementi di reporting: filtri, visualizzazioni e raggruppamenti](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).

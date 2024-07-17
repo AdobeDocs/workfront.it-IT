@@ -1,7 +1,7 @@
 ---
 product-area: resource-management
 navigation-topic: use-the-gantt-chart
-title: Livellare le risorse in  [!UICONTROL Diagramma di Gantt]
+title: Livella risorse nel [!UICONTROL Diagramma di Gantt]
 description: Informazioni su come livellare le risorse nel Diagramma di Gantt.
 author: Alina
 feature: Work Management
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# Livellare le risorse in [!UICONTROL Diagramma di Gantt]
+# Livella risorse nel [!UICONTROL Diagramma di Gantt]
 
 Il livellamento delle risorse su un progetto ha due scopi:
 
@@ -40,16 +40,16 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
    <td> <p>Accesso [!UICONTROL Edit] ai progetti</p> <p><b>NOTA</b>
 
-Se ancora non disponi dell’accesso, chiedi al tuo [!DNL Workfront] amministratore se impostano restrizioni aggiuntive nel livello di accesso. Per informazioni su come [!DNL Workfront] l&#39;amministratore può modificare il tuo livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
+Se non disponi ancora dell&#39;accesso, chiedi all&#39;amministratore [!DNL Workfront] se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di [!DNL Workfront] può modificare il tuo livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Accesso [!UICONTROL Gestisci] al progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Accesso [!UICONTROL Gestisci] al progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
 
 ## Panoramica sul livellamento delle risorse
 
@@ -57,58 +57,58 @@ Se la stessa risorsa viene assegnata a due attività diverse, è possibile utili
 
 Quando si livellano le risorse in un progetto, considera quanto segue:
 
-* Il livellamento delle risorse si applica solo a un progetto, quindi [!DNL Adobe Workfront] non livella le risorse in più progetti alla volta.
-* Se **[!UICONTROL Impegno]** è selezionato come **[!UICONTROL Tipo di durata]**, [!DNL Workfront] non livella le risorse.
+* Il livellamento delle risorse si applica solo a un progetto, pertanto [!DNL Adobe Workfront] non livella le risorse in più di un progetto alla volta.
+* Se **[!UICONTROL Effort Driven]** è selezionato come **[!UICONTROL Duration Type]**, [!DNL Workfront] non livellerà le risorse.
 * Quando più utenti vengono assegnati alla stessa attività, il livellamento verrà annullato.
-* Condizioni per il tipo di **[!UICONTROL Vincolo attività]** avrà la precedenza sul livellamento delle risorse. Ad esempio, se **[!UICONTROL Date Fisse]** è selezionato come [!UICONTROL Vincolo attività], il livellamento delle risorse non modificherà le date delle attività.
+* Le condizioni per il tipo di **[!UICONTROL Vincolo attività]** avranno la precedenza sul livellamento delle risorse. Ad esempio, se **[!UICONTROL Date fisse]** è selezionato come [!UICONTROL Vincolo attività], il livellamento delle risorse non modificherà le date dell&#39;attività.
 * Le relazioni con i predecessori avranno la precedenza sul livellamento delle risorse.
-* **[!UICONTROL Livellamento risorse]** deve essere impostato su **[!UICONTROL Manuale]** per il progetto al fine di regolare il livellamento nel [!UICONTROL Diagramma di Gantt]. Se disponi delle autorizzazioni di gestione per il progetto, puoi far sì che il sistema livelli automaticamente le risorse regolando questa impostazione sul progetto e selezionando **[!UICONTROL Automatico]** invece di **[!UICONTROL Manuale]** nel **[!UICONTROL Modifica Progetto]** casella.
+* **[!UICONTROL Il livellamento delle risorse]** deve essere impostato su **[!UICONTROL Manuale]** per il progetto al fine di regolare il livellamento nel [!UICONTROL Diagramma di Gantt]. Se disponi delle autorizzazioni di gestione per il progetto, puoi far sì che il sistema livelli automaticamente le risorse regolando questa impostazione sul progetto e selezionando **[!UICONTROL Automatico]** invece di **[!UICONTROL Manuale]** nella casella **[!UICONTROL Modifica progetto]**.
 
   ![](assets/resource-leveling-mode-350x177.png)
 
-* In qualità di proprietario del progetto o di assegnatario dell&#39;attività, è possibile introdurre un ritardo di livellamento per un&#39;attività per indicare che è molto probabile che l&#39;attività richieda più tempo. Per informazioni sull&#39;aggiunta di un ritardo di livellamento a un&#39;attività, vedere [Ritardo livellamento attività di aggiornamento](../../../manage-work/tasks/task-information/task-leveling-delay.md).
+* In qualità di proprietario del progetto o di assegnatario dell&#39;attività, è possibile introdurre un ritardo di livellamento per un&#39;attività per indicare che è molto probabile che l&#39;attività richieda più tempo. Per informazioni sull&#39;aggiunta di un ritardo di livellamento a un&#39;attività, vedere [Aggiorna ritardo di livellamento attività](../../../manage-work/tasks/task-information/task-leveling-delay.md).
 
-## Applicare il livellamento delle risorse in [!UICONTROL Diagramma di Gantt]
+## Applica livellamento risorse nel [!UICONTROL Diagramma di Gantt]
 
-È possibile utilizzare l&#39;Elenco attività [!UICONTROL Diagramma di Gantt] per livellare le risorse.
+È possibile utilizzare l&#39;Elenco attività [!UICONTROL Grafico di Gantt] per livellare le risorse.
 
 1. Vai al progetto che desideri livellare.
-1. In **[!UICONTROL Attività]** , fare clic sul pulsante **[!UICONTROL Diagramma di Gantt]** icona.
+1. Nell&#39;area **[!UICONTROL Attività]** fare clic sull&#39;icona **[!UICONTROL Grafico di Gantt]**.
 
-   Tutte le modifiche vengono salvate automaticamente quando **[!UICONTROL Salvataggio automatico]** l&#39;opzione è abilitata. È attivata per impostazione predefinita.
+   Tutte le modifiche vengono salvate automaticamente quando l&#39;opzione **[!UICONTROL Salvataggio automatico]** è abilitata. È attivata per impostazione predefinita.
 
-1. (Facoltativo) Fai clic su **[!UICONTROL Piano] modalità** e seleziona **[!UICONTROL Salvataggio manuale standard]** o **[!UICONTROL Pianificazione sequenza temporale]** per salvare le modifiche manualmente.
+1. (Facoltativo) Fai clic sull&#39;icona della modalità **[!UICONTROL Piano]** e seleziona **[!UICONTROL Salvataggio manuale standard]** o **[!UICONTROL Pianificazione sequenza temporale]** per salvare le modifiche manualmente.
 
    >[!TIP]
    >
-   >Non è possibile livellare le risorse in  [!UICONTROL Diagramma di Gantt] quando [!UICONTROL Salvataggio automatico] l&#39;opzione è abilitata.
+   >Impossibile livellare le risorse nel [!UICONTROL Diagramma di Gantt] quando è abilitata l&#39;opzione [!UICONTROL Salvataggio automatico].
 
    ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
-1. Fai clic su **[!UICONTROL Livella Risorse]** menu a discesa.
+1. Fai clic sul menu a discesa **[!UICONTROL Risorse di livello]**.
 
-   ![Level_resources.png](assets/level-resouces.png)
+   ![Risorse_Livello.png](assets/level-resouces.png)
 
 1. Selezionare una delle opzioni seguenti:
 
-   * **[!UICONTROL Livella ora]**: applica il livellamento delle risorse all&#39;attività selezionata.
-   * **[!UICONTROL Cancella livellamento]**: rimuove tutti i livelli di risorse dall’attività selezionata.
+   * **[!UICONTROL Livello attuale]**: applica il livellamento delle risorse all&#39;attività selezionata.
+   * **[!UICONTROL Cancella livellamento]**: rimuove tutto il livellamento delle risorse dall&#39;attività selezionata.
 
    >[!NOTE]
    >
    >Le risorse potrebbero essere sovrassegnate se assegnate a più attività che si verificano nello stesso intervallo di tempo.
 
-1. (Facoltativo e condizionale) Se hai disabilitato l’opzione Salvataggio automatico, fai clic sul pulsante **[!UICONTROL Annulla]** o&#x200B;**[!UICONTROL Ripeti]** se si desidera annullare o duplicare una delle modifiche.
+1. (Facoltativo e condizionale) Se hai disabilitato l&#39;opzione Salvataggio automatico, fai clic sulle icone **[!UICONTROL Annulla]** o&#x200B;**[!UICONTROL Ripristina]** se desideri annullare o duplicare le modifiche.
 
    >[!TIP]
    >
-   >Per annullare o ripristinare le modifiche apportate al [!UICONTROL Diagramma di Gantt]:
+   >È possibile utilizzare le seguenti scelte rapide da tastiera per annullare o ripristinare le modifiche nel [!UICONTROL Diagramma di Gantt]:
    >
-   >* [!DNL Mac]: Utilizzare [!UICONTROL Comando+Z] per annullare e [!UICONTROL Comando + Maiusc + Z] da ripristinare.
-   >* Windows: utilizzare [!UICONTROL Ctrl + Z] per annullare e [!UICONTROL Ctrl + Y] da ripristinare.
+   >* [!DNL Mac]: utilizzare [!UICONTROL Comando + Z] per annullare e [!UICONTROL Comando + Maiusc + Z] per ripetere.
+   >* Windows: utilizzare [!UICONTROL Ctrl + Z] per annullare e [!UICONTROL Ctrl + Y] per ripetere.
 
 
-1. Clic **[!UICONTROL Salva]** nell&#39;angolo superiore destro del [!UICONTROL Diagramma di Gantt].
+1. Fai clic su **[!UICONTROL Salva]** nell&#39;angolo superiore destro del [!UICONTROL Diagramma di Gantt].
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -16,8 +16,8 @@ ht-degree: 0%
 
 # Attività sulla versione 2019.1
 
-* [Panoramica sull’attività della versione 2019.1](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md)
+* Panoramica sull&#39;attività della versione di [2019.1](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md)
 * [Miglioramenti al progetto 2019.1](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-project-enhancements.md)
 * [Miglioramenti alla gestione delle risorse 2019.1](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-rsrc-mngmnt-enhncmnts.md)
-* [Miglioramenti alla bozza 2019.1](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-proofing-enhancements.md)
+* [Miglioramenti alla bozza di 2019.1](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-proofing-enhancements.md)
 * [Miglioramenti per dispositivi mobili e integrazione 2019.1](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-mbl-intgrtn-enhncmnts.md)

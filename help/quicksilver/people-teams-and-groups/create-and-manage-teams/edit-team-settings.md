@@ -1,8 +1,8 @@
 ---
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
-title: Modificare le impostazioni del team
-description: Gli amministratori di Workfront e gli utenti con una licenza Pianifica o Lavoro possono modificare le impostazioni del team.
+title: Modifica impostazioni team
+description: Gli amministratori di Workfront e gli utenti con una licenza Pianificazione o Lavoro possono modificare le Impostazioni team.
 author: Lisa
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 ---
 
-# Modificare le impostazioni del team
+# Modifica impostazioni team
 
-Come [!DNL Adobe Workfront] un amministratore o un utente con un [!UICONTROL Pianificare] o [!UICONTROL Lavoro] licenza, è possibile modificare [!UICONTROL Impostazioni team].
+In qualità di amministratore [!DNL Adobe Workfront] o di utente con una licenza [!UICONTROL Plan] o [!UICONTROL Work], puoi modificare [!UICONTROL Impostazioni team].
 
-È possibile aggiungere utenti a un team, impostare il modello di layout del team e impostare il modo in cui viene registrato lo stato quando gli elementi di lavoro vengono completati da un team.
+È possibile aggiungere utenti a un team, impostare il modello di layout del team e impostare la modalità di registrazione dello stato al completamento degli elementi di lavoro da parte di un team.
 
 ## Requisiti di accesso
 
@@ -40,49 +40,49 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-&#42;Per sapere quale piano o tipo di licenza hai, contatta il tuo [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano o il tipo di licenza disponibile, contattare l&#39;amministratore [!DNL Workfront].
 
-## Modificare le impostazioni del team
+## Modifica impostazioni team
 
-1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront, quindi fai clic su **[!UICONTROL Team]**.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **[!UICONTROL Team]**.
 
-1. Fai clic sul pulsante **[!UICONTROL Cambia team]** icona ![Icona Cambia team](assets/switch-team-icon.png), quindi seleziona un nuovo team dal menu a discesa o cerca un team nella barra di ricerca.
+1. Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Cambia team icona](assets/switch-team-icon.png), quindi seleziona un nuovo team dal menu a discesa o cerca un team nella barra di ricerca.
 
-1. Fai clic sul pulsante **[!UICONTROL Altro]** menu ![](assets/more-icon.png), quindi seleziona **[!UICONTROL Modifica]**.
+1. Fai clic sul menu **[!UICONTROL Altro]** ![](assets/more-icon.png), quindi seleziona **[!UICONTROL Modifica]**.
 
-   Solo i membri del team con una [!UICONTROL Pianificare] o [!UICONTROL Lavoro] licenza vedere questa opzione.
+   Solo i membri del team con una licenza di [!UICONTROL Piano] o [!UICONTROL Lavoro] possono visualizzare questa opzione.
 
-   Se hai bisogno di [!UICONTROL Modifica] ma non visualizzarlo, chiedi all&#39;amministratore Workfront di verificare che [!UICONTROL Impostazioni team] è visibile nel modello di layout per [!UICONTROL Squadra Scrum], [!UICONTROL Squadra Kanban]oppure [!UICONTROL Squadra Cascata].
+   Se l&#39;opzione [!UICONTROL Modifica] è necessaria ma non è visualizzata, chiedere all&#39;amministratore di Workfront di verificare che [!UICONTROL Impostazioni team] sia visibile nel modello di layout per [!UICONTROL Team Scrum], [!UICONTROL Team Kanban] o [!UICONTROL Team Waterfall].
 
    ![](assets/edit-team-settings-1.png)
 
-1. Nelle impostazioni del team, puoi effettuare i seguenti tipi di modifiche:
+1. Nelle impostazioni del team è possibile apportare i seguenti tipi di modifiche:
 
-   * Modificare il nome del team
+   * Modifica il nome del team
    * Disattiva il team
-   * Associare il team a un gruppo
+   * Associa il team a un gruppo
 
-      >[!NOTE]
-      >
-      >Quando un team viene assegnato a un gruppo o a un sottogruppo, gli amministratori del gruppo o sottogruppo possono gestire il team senza esserne membri. Gli amministratori del gruppo possono accedere all&#39;area Team dal menu principale e fare clic sul [!UICONTROL Cambia team] freccia ![Icona Cambia team](assets/switch-team-icon.png) per elencare tutti i team assegnati ai gruppi gestiti.
+     >[!NOTE]
+     >
+     >Quando un team viene assegnato a un gruppo o a un sottogruppo, qualsiasi amministratore di gruppo di tale gruppo o sottogruppo può gestire il team senza esserne membro. Gli amministratori del gruppo possono passare all&#39;area Team dal menu principale e fare clic sulla freccia [!UICONTROL Cambia team] ![Cambia team icona](assets/switch-team-icon.png) per elencare tutti i team assegnati ai gruppi che gestiscono.
 
-      Per associare il gruppo destro al team, posiziona il puntatore del mouse su di esso e fai clic sull’icona delle informazioni ![](assets/info-icon.png) viene visualizzato accanto a esso. Viene visualizzata una descrizione comandi che elenca le informazioni sul gruppo, ad esempio la gerarchia dei gruppi al di sopra di esso e i relativi amministratori.
+     Per assicurarsi di associare il gruppo corretto al team, passare il puntatore del mouse su di esso e fare clic sull&#39;icona delle informazioni ![](assets/info-icon.png) visualizzata accanto al gruppo. In questo modo viene visualizzata una descrizione del gruppo contenente informazioni sul gruppo stesso, ad esempio la gerarchia dei gruppi al di sopra del gruppo e i relativi amministratori.
 
    * Designare il proprietario del team
-   * Aggiungi e rimuovi membri del team
+   * Aggiunta e rimozione di membri del team
    * Aggiungi una descrizione del team
    * Applicare un modello di layout al team
 
-      Per ulteriori informazioni sull&#39;applicazione di un modello di layout personalizzato a un team, vedere la sezione &quot;Applicazione di un modello personalizzato a un team&quot; in Modifica della [!UICONTROL Il mio lavoro] e [!UICONTROL Richieste di lavoro] aree con modelli di layout.
+     Per ulteriori informazioni sull&#39;applicazione di un modello di layout personalizzato a un team, vedere la sezione &quot;Applicazione di un modello personalizzato a un team&quot; in Modificare le aree [!UICONTROL Il mio lavoro] e [!UICONTROL Richieste di lavoro] con modelli di layout.
 
-   * Decidi se questo team è un team agile, selezionando **[!UICONTROL Questo è un team Agile]** opzione .
+   * Decidi se questo team è un team agile, selezionando l&#39;opzione **[!UICONTROL Questo è un team agile]**.
 
-      Per ulteriori informazioni sui team agili e su come gestire il lavoro all’interno di un team agile, consulta [Creare un team agile](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+     Per ulteriori informazioni sui team Agile e su come gestire il lavoro all&#39;interno di un team Agile, vedi [Creare un team Agile](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
-   * Modificare la [!UICONTROL Lavorare] a un pulsante [!UICONTROL Inizio] pulsante . Per ulteriori informazioni su come configurare il [!UICONTROL Inizio] pulsante vedi [Sostituisci il pulsante Lavora su di esso con un [!UICONTROL Inizio] pulsante](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
-   * Personalizzare **[!UICONTROL Fine]** pulsante . Per ulteriori informazioni su come personalizzare il [!UICONTROL Fine] pulsante vedi:
+   * Cambia il pulsante [!UICONTROL Lavoraci] in un pulsante [!UICONTROL Avvia]. Per ulteriori informazioni su come configurare il pulsante [!UICONTROL Avvia], vedere [Sostituire il pulsante Lavoraci con un pulsante [!UICONTROL Avvia]](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
+   * Personalizza il pulsante **[!UICONTROL Fine]**. Per ulteriori informazioni su come personalizzare il pulsante [!UICONTROL Fine], vedere:
 
-      * [Configura le [!UICONTROL Fine] pulsante per le attività](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
-      * [Configura le [!UICONTROL Fine] pulsante per problemi](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
+      * [Configura il pulsante [!UICONTROL Fine] per le attività](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
+      * [Configura il pulsante [!UICONTROL Fine] per i problemi](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
 
 1. Fai clic su **[!UICONTROL Salva modifiche]**.

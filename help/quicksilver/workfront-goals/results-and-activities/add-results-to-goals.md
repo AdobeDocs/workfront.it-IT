@@ -45,7 +45,7 @@ Devi avere i seguenti:
  <td>
  <p>Nuova licenza: Collaboratore o versione successiva</p>
  Oppure
- <p>Licenza corrente: richiesta o successiva</p> <p>Per ulteriori informazioni, consulta <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica sulle licenze di Adobe Workfront</a>.</p> </td>
+ <p>Licenza corrente: richiesta o successiva</p> <p>Per ulteriori informazioni, vedere <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica delle licenze di Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Prodotto*</td>
@@ -55,7 +55,7 @@ Devi avere i seguenti:
 <li>Un piano Select o Prime Adobe Workfront e un’ulteriore licenza Adobe Workfront Goals.</li>
 <li>Un piano Workfront Ultimate che include gli obiettivi Workfront per impostazione predefinita. </li></ul>
  <p>Oppure</p>
- <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, consulta <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l’utilizzo degli obiettivi di Workfront</a>. </p> </td>
+ <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader"><p>Livello di accesso</p></td>
@@ -67,7 +67,7 @@ Devi avere i seguenti:
   <div>
   <p>Visualizza o autorizzazioni superiori per l’obiettivo per visualizzarlo</p>
   <p>Gestire le autorizzazioni per l’obiettivo per modificarlo</p>
-  <p>Per informazioni sulla condivisione degli obiettivi, consulta <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Condividere un obiettivo in Obiettivi di Workfront</a>. </p>
+  <p>Per informazioni sulla condivisione degli obiettivi, vedere <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Condividere un obiettivo in Obiettivi di Workfront</a>. </p>
   </div> </td>
  </tr>
  <tr>
@@ -78,7 +78,7 @@ Devi avere i seguenti:
 </tbody>
 </table>
 
-*Per ulteriori informazioni, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Prerequisiti
 
@@ -87,7 +87,7 @@ Prima di iniziare, è necessario disporre dei seguenti elementi:
 * Modello di layout che include l&#39;area Obiettivi nel menu principale.
 * Un obiettivo esistente.
 
-  Per informazioni sulla creazione degli obiettivi, consulta [Creare gli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
+  Per informazioni sulla creazione degli obiettivi, vedere [Creare gli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
 
 >[!IMPORTANT]
 >Un obiettivo può avere un totale di 1000 attività, risultati, progetti o obiettivi allineati.
@@ -138,25 +138,25 @@ Adding results to goals differs depending on which environment you use.
 
 -->
 
-1. Fai clic sul menu principale ![](assets/main-menu-icon.png), quindi **Obiettivi**.
+1. Fai clic sul menu principale ![](assets/main-menu-icon.png), quindi su **Obiettivi**.
 
-1. Dalla sezione **Elenco obiettivi**, fai clic sul nome di un obiettivo per aprire la pagina dell’obiettivo.
-1. Clic **Indicatori di avanzamento** nel pannello a sinistra.
-1. Espandi **Nuovo indicatore di avanzamento** menu a discesa, quindi fai clic su **Crea risultato**.
+1. Dalla **lista obiettivi**, fare clic sul nome di un obiettivo per aprire la pagina obiettivo.
+1. Fai clic su **Indicatori di avanzamento** nel pannello a sinistra.
+1. Espandi il menu a discesa **Nuovo indicatore di avanzamento**, quindi fai clic su **Crea risultato**.
 
    Viene visualizzata la casella Nuovo risultato (New result).
 
    ![](assets/new-result-box-unshimmed.png)
 
-1. Immettere un nome per il risultato nel campo **Nome risultato** campo. Questo è un campo obbligatorio.
-1. (Facoltativo) Rimuovi il tuo nome dal file **Proprietario del risultato** se si desidera assegnare il risultato a un altro utente. Per impostazione predefinita, sei il proprietario di un’attività creata.
+1. Immettere un nome per il risultato nel campo **Nome risultato**. Questo è un campo obbligatorio.
+1. (Facoltativo) Rimuovi il tuo nome dal campo **Proprietario risultato** se desideri assegnare il risultato a un altro utente. Per impostazione predefinita, sei il proprietario di un’attività creata.
 
    >[!NOTE]
    >
    >Non è possibile assegnare un team, un gruppo o l&#39;azienda come proprietario dei risultati.
 
-1. In **Come desideri misurare il risultato?** , specificare le informazioni seguenti:
-   * **Tipo di valore**: indica come misurare l’avanzamento sul risultato. Puoi misurare l’avanzamento numericamente, con un valore percentuale o utilizzando un importo in valuta.
+1. In **Come si desidera misurare il risultato?** area, specificare le informazioni seguenti:
+   * **Tipo di valore**: indica come misurare l&#39;avanzamento del risultato. Puoi misurare l’avanzamento numericamente, con un valore percentuale o utilizzando un importo in valuta.
 
      Selezionare un tipo di valore tra le opzioni elencate nella tabella seguente:
 
@@ -166,10 +166,10 @@ Adding results to goals differs depending on which environment you use.
      | % | Valore percentuale |
      | CN¥,DKK,KR,Mex$, R, R$, zł, £ , ¥ , € , ₹, ฿, MYR, ₪, $ | Valori valuta |
 
-   * **Valore iniziale**: valore iniziale del risultato, prima che sia stato registrato qualsiasi avanzamento su di esso.
-   * **Valore di destinazione**: valore che il risultato si prefigge di ottenere quando è considerato completato.
-1. Clic **Crea risultato**.
+   * **Valore iniziale**: il valore iniziale del risultato prima che sia stato registrato qualsiasi avanzamento.
+   * **Valore di destinazione**: il valore che il risultato intende ottenere quando viene considerato completato.
+1. Fai clic su **Crea risultato**.
 
    Il risultato viene visualizzato nella sezione Indicatori di avanzamento della pagina dell’obiettivo, sotto il raggruppamento Risultato.
 
-   Dopo aver attivato l’obiettivo, l’avanzamento dell’obiettivo viene aggiornato automaticamente quando si aggiorna l’avanzamento di un risultato. Per informazioni sull’attivazione di un obiettivo, consulta [Attivare gli obiettivi in Obiettivi di Adobe Workfront](../goal-management/activate-goals.md).
+   Dopo aver attivato l’obiettivo, l’avanzamento dell’obiettivo viene aggiornato automaticamente quando si aggiorna l’avanzamento di un risultato. Per informazioni sull&#39;attivazione di un obiettivo, vedere [Attivare gli obiettivi negli Obiettivi di Adobe Workfront](../goal-management/activate-goals.md).

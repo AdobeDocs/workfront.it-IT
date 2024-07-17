@@ -21,7 +21,7 @@ Puoi creare, modificare e assegnare profili di schede orario che generino schede
 * Approvatori
 * Tipi di ore generali
 
-Per ulteriori informazioni sulla creazione manuale di una scheda orario, consulta [Creare una scheda orario monouso](../../timesheets/create-and-manage-timesheets/create-tmshts.md).
+Per ulteriori informazioni sulla creazione manuale di una scheda orario, vedere [Creare una scheda orario monouso](../../timesheets/create-and-manage-timesheets/create-tmshts.md).
 
 ## Requisiti di accesso
 
@@ -66,27 +66,27 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 >[!IMPORTANT]
 >
->Per abilitare le modifiche al profilo della scheda orario nelle schede orario correnti, devi eliminare le schede orario esistenti e quindi generarne di nuove. Per istruzioni, consulta [Eliminare i timesheet in Adobe Workfront](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) e [Genera manualmente i timesheet](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
+>Per abilitare le modifiche al profilo della scheda orario nelle schede orario correnti, devi eliminare le schede orario esistenti e quindi generarne di nuove. Per istruzioni, vedere [Eliminare i Timesheets in Adobe Workfront](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) e [Generare manualmente i Timesheets](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
 
 {{step-1-to-setup}}
 
-1. Se stai creando o modificando un profilo di scheda orario da utilizzare in tutto il sistema, fai clic su **Timesheet e ore**.
+1. Se stai creando o modificando un profilo di scheda orario da utilizzare in tutto il sistema, fai clic su **Scheda orario e ore**.
 
    Oppure
 
-   Se crei o modifichi un profilo di scheda orario per un gruppo, fai clic su **Gruppi**, quindi fare clic sul nome del gruppo.
+   Se crei o modifichi un profilo di scheda orario per un gruppo, fai clic su **Gruppi**, quindi fai clic sul nome del gruppo.
 
-1. Clic **Profili Timesheet**.
-1. Per creare un nuovo profilo di scheda orario, fai clic su **Nuovo profilo**.
+1. Fare clic su **Profili scheda orario**.
+1. Per creare un nuovo profilo scheda orario, fare clic su **Nuovo profilo**.
 
    Oppure
 
-   Per modificare un profilo di scheda orario esistente, seleziona il profilo che desideri modificare, quindi fai clic su **Modifica**.
+   Per modificare un profilo di scheda orario esistente, selezionare il profilo di scheda orario che si desidera modificare, quindi fare clic su **Modifica**.
 
    Viene visualizzato il profilo della scheda orario nuovo o esistente.
 
 
-1. Il giorno **Imposta dettagli** , digitare un **Nome** e **Descrizione** per il profilo della scheda orario e fornire le seguenti informazioni:
+1. Nella scheda **Imposta dettagli**, digita un **Nome** e una **Descrizione** per il profilo della scheda orario e fornisci le seguenti informazioni:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -101,7 +101,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
      <ul> 
       <li> <p>Se stai creando un profilo di scheda orario per un gruppo che amministri, identifica il gruppo qui.</p> <p>Questo non assegna il profilo della scheda orario agli utenti del gruppo, ma consente solo agli amministratori del gruppo di modificare il profilo della scheda orario. Assegnerai il profilo agli utenti nel passaggio 6.</p>
 
-   <p><b>NOTA</b>: quando utenti esterni al gruppo allegano profili della scheda orario a un altro utente, non potranno vedere o allegare questo profilo della scheda orario.</p> </li> 
+   <p><b>NOTA</b>: quando utenti esterni al gruppo allegano profili di schede orario a un altro utente, non potranno vedere o allegare questo profilo di schede orario.</p> </li> 
       </ul> </p> </td> 
      </tr> 
      <tr> 
@@ -110,38 +110,38 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       <p>Una scheda orario settimanale inizia nella data in cui viene generata. Ad esempio, se crei schede orario settimanali ogni giovedì, il primo giorno della settimana nella scheda orario è giovedì.</p>
 
 
-   <p><b>NOTA</b>: Workfront crea sempre due schede orario alla volta: la prima scheda orario include sempre la data corrente e la seconda scheda orario inizia quando termina l’intervallo di tempo della prima scheda orario.</p> </p> </td> 
+   <p><b>NOTA</b>: Workfront crea sempre due schede orario alla volta: la prima scheda orario include sempre la data corrente e la seconda scheda orario inizia quando termina l'intervallo di tempo della prima.</p> </p> </td> 
     </tr> 
      <tr> 
       <td role="rowheader"><p><strong>Approvatori</strong></p> </td> 
-      <td> <p> <p>Gli approvatori sono utenti che approvano la scheda orario per gli utenti associati alla scheda orario. È possibile identificare fino a 7 utenti come approvatori in una scheda orario. L'identificazione di più utenti è utile per garantire la disponibilità di un approvatore quando un utente si trova fuori sede. Tutti gli approvatori ricevono una notifica quando un utente invia la scheda orario per l’approvazione. È sufficiente un solo utente per approvare la scheda orario.</p> <p>Solo gli utenti con diritti di amministrazione della scheda orario possono essere impostati come approvatori. Per ulteriori informazioni sui diritti amministrativi delle schede orario, vedere <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Concedere agli utenti l'accesso amministrativo a determinate aree</a>.</p> <p>Utilizzare il menu a discesa per selezionare l'approvatore per la scheda orario (se è necessario un approvatore). Puoi scegliere tra le seguenti opzioni:</p> 
+      <td> <p> <p>Gli approvatori sono utenti che approvano la scheda orario per gli utenti associati alla scheda orario. È possibile identificare fino a 7 utenti come approvatori in una scheda orario. L'identificazione di più utenti è utile per garantire la disponibilità di un approvatore quando un utente si trova fuori sede. Tutti gli approvatori ricevono una notifica quando un utente invia la scheda orario per l’approvazione. È sufficiente un solo utente per approvare la scheda orario.</p> <p>Solo gli utenti con diritti di amministrazione della scheda orario possono essere impostati come approvatori. Per ulteriori informazioni sui diritti amministrativi delle schede orario, vedere <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Concedere agli utenti l'accesso amministrativo ad alcune aree</a>.</p> <p>Utilizzare il menu a discesa per selezionare l'approvatore per la scheda orario (se è necessario un approvatore). Puoi scegliere tra le seguenti opzioni:</p> 
       <ul> 
       <li><strong>Nessuno</strong>: la scheda orario non deve essere approvata.</li> 
-      <li><strong>Il loro manager</strong>: questo è l’approvatore predefinito, impostato dal sistema. In questo caso, l’utente designato come proprio manager approva la scheda orario quando questa viene inviata per l’approvazione.</li> 
-      <li><strong>Persone specifiche:</strong> È possibile designare utenti specifici, per nome, come approvatori della scheda orario. In una scheda orario possono essere presenti più approvatori. In questo caso, dopo che uno degli approvatori ha approvato la scheda orario, questa viene contrassegnata come <strong>Chiuso</strong> e scompare dall’elenco approvazioni scheda orario di tutti gli approvatori rimanenti.</li> 
+      <li><strong>Responsabile</strong>: è l'approvatore predefinito, impostato dal sistema. In questo caso, l’utente designato come proprio manager approva la scheda orario quando questa viene inviata per l’approvazione.</li> 
+      <li><strong>Persone specifiche:</strong> È possibile designare utenti specifici, per nome, come approvatori della scheda orario. In una scheda orario possono essere presenti più approvatori. In questo caso, dopo che uno degli approvatori ha approvato la scheda orario, la scheda viene contrassegnata come <strong>Chiusa</strong> e scompare dall'elenco delle approvazioni della scheda orario di tutti gli approvatori rimanenti.</li> 
        </ul> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Può modificare l’ora </strong> </td> 
+      <td role="rowheader"><strong>È possibile modificare l'ora </strong> </td> 
       <td> <p> <p>Selezionare questa opzione per consentire agli approvatori di modificare le ore nella scheda orario.
 
-   Questa opzione funziona con **Limita la modifica della scheda orario a proprietari e amministratori** nell&#39;area Setup (Configurazione) > Timesheet &amp; Hours (Schede orario e ore) > Preferences (Preferenze). Per ulteriori informazioni, consulta <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Configurare le preferenze di orario e scheda orario</a>.
+   Questa opzione funziona con l&#39;impostazione **Limita la modifica della scheda orario a proprietari e amministratori** nell&#39;area Configurazione > Scheda orario e ore > Preferenze. Per ulteriori informazioni, consulta <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Configurare le preferenze di orario e scheda orario</a>.
 
    Esistono i seguenti scenari:
 
    <ul>
-      <li>Quando <b>Limita la modifica della scheda orario a proprietari e amministratori</b> l'opzione è abilitata:</li>
-      <ul><li>Gli approvatori possono approvare e rifiutare solo la scheda orario, indipendentemente dal fatto che <b>Può modificare l’ora</b> è abilitato o meno. </li>
+      <li>Quando l'opzione <b>Limita la modifica della scheda orario a proprietari e amministratori</b> è abilitata:</li>
+      <ul><li>Gli approvatori possono solo approvare e rifiutare la scheda orario, indipendentemente dal fatto che l'<b>orario di modifica</b> sia abilitato o meno. </li>
       <li>I responsabili dei proprietari delle schede orario possono visualizzare solo le schede orario dei loro referenti diretti.</li></ul>
-      <li>Quando <b>Limita la modifica della scheda orario a proprietari e amministratori</b> l'opzione è disabilitata:</li>
-    <ul><li>Quando <b>Può modificare l’ora</b> è attivato, gli approvatori possono inviare, riaprire o chiudere la scheda orario e possono modificare l’ora.</li>
-      <li>Quando <b>Può modificare l’ora</b> è disattivato, gli approvatori non possono inviare, riaprire o chiudere la scheda orario e non possono modificare l’ora. Gli approvatori possono approvare o rifiutare solo la scheda orario. </li>
+      <li>Quando l'opzione <b>Limita la modifica della scheda orario a proprietari e amministratori</b> è disabilitata:</li>
+    <ul><li>Quando l'ora <b>Può modificare</b> è abilitata, gli approvatori possono inviare, riaprire o chiudere la scheda orario e modificare l'ora.</li>
+      <li>Se l'ora <b>Può modificare</b> è disabilitata, gli approvatori non possono inviare, riaprire o chiudere la scheda orario e non possono modificare l'ora. Gli approvatori possono approvare o rifiutare solo la scheda orario. </li>
       <li>I responsabili dei proprietari delle schede orario possono inviare, richiamare, riaprire e modificare le schede orario dei loro referenti diretti.</li></ul>
       </ul>
 
    <p>
 
-   <b>NOTA</b>: dopo aver inviato una scheda orario per l’approvazione, non è più possibile modificare le ore. Per ripristinare lo stato modificabile di una scheda orario inviata, richiamarla o richiedere all&#39;approvatore di rifiutarla. Per ulteriori informazioni, consulta <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Invia una scheda orario per l&#39;approvazione</a> e<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Approvare una scheda orario</a>.</p> </p> </td>
+   <b>NOTA</b>: dopo aver inviato una scheda orario per l&#39;approvazione, non è più possibile modificare le ore. Per ripristinare lo stato modificabile di una scheda orario inviata, richiamarla o richiedere all&#39;approvatore di rifiutarla. Per ulteriori informazioni, vedere <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Inviare una scheda orario per l&#39;approvazione</a> e<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Approvare una scheda orario</a>.</p> </p> </td>
    </tr> 
      <tr> 
       <td role="rowheader"><strong>Tipi di lavoro disponibili</strong> </td> 
@@ -155,13 +155,13 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
     </tbody> 
     </table>
 
-1. Fai clic su **Assegna persone** scheda per associare il profilo scheda orario a utenti, gruppi o team specifici (se sei un amministratore Workfront). Iniziare a digitare il nome dell&#39;utente, del gruppo o del team, quindi fare clic su di esso quando viene visualizzato nell&#39;elenco a discesa.
+1. Fare clic sulla scheda **Assegna persone** per associare il profilo scheda orario a utenti, gruppi o team specifici (se si è un amministratore Workfront). Iniziare a digitare il nome dell&#39;utente, del gruppo o del team, quindi fare clic su di esso quando viene visualizzato nell&#39;elenco a discesa.
 
-   Se sei un amministratore gruppo, puoi assegnare il profilo scheda orario ai gruppi che amministri, ma non ai team. Per ulteriori informazioni, consulta [Limitazioni per un amministratore gruppo che assegna un profilo scheda orario](#limitations-for-a-group-administrator-assigning-a-timesheet-profile) in questo articolo.
+   Se sei un amministratore gruppo, puoi assegnare il profilo scheda orario ai gruppi che amministri, ma non ai team. Per ulteriori informazioni, vedere [Limitazioni per un amministratore di gruppo che assegna un profilo di scheda orario](#limitations-for-a-group-administrator-assigning-a-timesheet-profile) in questo articolo.
 
    >[!NOTE]
    >
-   >* È inoltre possibile associare un utente a un profilo scheda orario modificando il profilo utente. Per ulteriori informazioni, consulta [Modificare il profilo di un utente](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   >* È inoltre possibile associare un utente a un profilo scheda orario modificando il profilo utente. Per ulteriori informazioni, vedere [Modificare il profilo di un utente](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
    >* Quando si aggiunge un gruppo, nella scheda Assegna persone viene visualizzato solo il nome del gruppo e non l&#39;elenco dei membri del gruppo. Se si desidera visualizzare i membri del gruppo elencati, fare clic su Salva modifiche, quindi sul nome del profilo della scheda attività appena creato.
    >* Al termine di questi passaggi, il profilo scheda orario genera le schede orario solo per gli utenti o i membri del gruppo assegnati che non dispongono di schede orario esistenti per il periodo corrente.
 
@@ -182,9 +182,9 @@ Per questi gruppi e utenti, non potrai accedere alle schede orario generate dal 
 
 Inoltre, se l’opzione Amministratore utenti (Utenti gruppi) è disabilitata anche nel livello di accesso, puoi assegnare il profilo della scheda orario a un gruppo che amministri, ma influisce solo sugli utenti del gruppo che puoi modificare. Se il gruppo contiene utenti ai quali non hai accesso per la modifica, non viene loro assegnato il profilo della scheda orario insieme al resto del gruppo.
 
-Per informazioni sulle opzioni Schede orario e ore nel livello di accesso, consulta [Concedere agli utenti l&#39;accesso amministrativo a determinate aree](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+Per informazioni sull&#39;opzione Timesheets &amp; hours nel tuo livello di accesso, vedi [Concedere agli utenti l&#39;accesso amministrativo ad alcune aree](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-Per informazioni sull&#39;opzione Amministratore utenti (Utenti gruppi) nel livello di accesso, vedi [Concedere l’accesso agli utenti](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+Per informazioni sull&#39;opzione Amministratore utenti (Utenti gruppi) nel proprio livello di accesso, vedere [Concedere l&#39;accesso agli utenti](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 ## Più profili di schede orario ricorrenti
 

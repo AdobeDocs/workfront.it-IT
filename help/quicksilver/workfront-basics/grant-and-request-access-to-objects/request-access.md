@@ -19,15 +19,15 @@ La visibilità degli oggetti in Adobe Workfront dipende dall’accesso a quel ti
 
 >[!NOTE]
 >
->Questo articolo descrive come richiedere le autorizzazioni per tutti gli oggetti ad eccezione dei piani in Adobe Workfront Scenario Planner. Per informazioni sulla richiesta di accesso ai piani, vedere [Richiedere l&#39;accesso a un piano nella Pianificazione scenario](../../scenario-planner/request-access-to-plan.md). È necessaria una licenza aggiuntiva.
+>Questo articolo descrive come richiedere le autorizzazioni per tutti gli oggetti ad eccezione dei piani in Adobe Workfront Scenario Planner. Per informazioni sulla richiesta di accesso ai piani, vedere [Richiedere l&#39;accesso a un piano in Pianificazione scenario](../../scenario-planner/request-access-to-plan.md). È necessaria una licenza aggiuntiva.
 
-L&#39;amministratore di Workfront configura l&#39;accesso a un tipo di oggetto nel proprio livello di accesso. Per ulteriori informazioni, consulta [Funzionamento congiunto dei livelli di accesso e delle autorizzazioni](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+L&#39;amministratore di Workfront configura l&#39;accesso a un tipo di oggetto nel proprio livello di accesso. Per ulteriori informazioni, vedere [Funzionamento dei livelli di accesso e delle autorizzazioni](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 Se hai bisogno di autorizzazioni per oggetti specifici in Workfront, puoi richiedere l’accesso a tali oggetti. Invece di inviare un messaggio e-mail all’amministratore di Workfront o al proprietario dell’oggetto per illustrare le tue esigenze, puoi richiedere un accesso aggiuntivo (o autorizzazioni) in Workfront.
 
 È possibile richiedere l&#39;accesso iniziale agli oggetti se qualcuno condivide con te un collegamento all&#39;oggetto oppure richiedere l&#39;accesso aggiuntivo agli oggetti che visualizzi.
 
-Ad esempio, potresti disporre delle autorizzazioni di visualizzazione per un progetto, ma è necessario aggiungere attività a tale progetto. In questo caso, potete richiedere le autorizzazioni Contribute per il progetto.
+Ad esempio, potresti disporre delle autorizzazioni di visualizzazione per un progetto, ma è necessario aggiungere attività a tale progetto. In questo caso, puoi richiedere le autorizzazioni di Contribute per il progetto.
 
 ## Requisiti di accesso
 
@@ -82,13 +82,13 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Comprendere le regole di condivisione standard
 
 Le seguenti regole di condivisione standard hanno effetto automatico, in quanto sono impostate come opzioni predefinite nel sistema Workfront.
 
-* Gli utenti assegnati a un’attività o a un problema dispongono dell’accesso Contribute.
+* Gli utenti assegnati a un’attività o a un problema dispongono dell’accesso a Contribute.
 * I project manager, i responsabili di Portfolio e i responsabili di programma dispongono dell&#39;accesso Gestione per gli oggetti di loro proprietà.
 * Gli utenti inclusi in una conversazione dispongono dell&#39;accesso di visualizzazione sull&#39;oggetto in cui si verifica la conversazione.
 * Gli utenti assegnati come approvatori dispongono dell&#39;accesso di visualizzazione sull&#39;oggetto in attesa di approvazione.
@@ -108,16 +108,16 @@ Se non disponi ancora dell’accesso a un oggetto e accedi a tale oggetto da un 
 
 Per richiedere l&#39;accesso iniziale a un oggetto:
 
-1. Clic **Richiedi accesso**.\
-   Il **Richiedi accesso** viene visualizzata.
+1. Fai clic su **Richiedi accesso**.\
+   Viene visualizzata la finestra di dialogo **Richiedi accesso**.
 
 1. (Condizionale) Se più utenti dispongono dell’accesso appropriato per concederti l’accesso aggiuntivo, viene visualizzata una freccia a discesa accanto al nome dell’utente.
 1. Seleziona dall’elenco a discesa l’utente che desideri ricevere la richiesta di accesso.\
    Nell’elenco a discesa vengono visualizzati solo 10 utenti. L’elenco è ordinato alfabeticamente.\
-   Per ulteriori informazioni sull’ordine degli utenti elencati in questo menu a discesa, consulta  [Gerarchia dei menu a discesa &quot;Richiedi accesso&quot; e &quot;Richiedi accesso aggiuntivo&quot;](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
+   Per ulteriori informazioni sull&#39;ordine degli utenti elencati in questo menu a discesa, vedere [Gerarchia dei menu a discesa &quot;Richiedi accesso&quot; e &quot;Richiedi accesso aggiuntivo&quot;](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
 
 1. Dall’elenco a discesa, seleziona il tipo di accesso richiesto.
-1. (Facoltativo) In **P.S.** , specifica una nota all’utente sul motivo per cui hai bisogno di accesso aggiuntivo.
+1. (Facoltativo) Nel campo **P.S.**, specifica una nota all&#39;utente sul motivo per cui hai bisogno di accesso aggiuntivo.
 
    ![](assets/request-access-dialog-350x314.png)
 
@@ -132,23 +132,23 @@ Per richiedere accesso aggiuntivo a un oggetto per il quale si dispone già di a
 
 1. Passare all&#39;oggetto per il quale si desidera richiedere l&#39;accesso aggiuntivo.
 
-1. Fai clic su **Altro** a destra del nome del progetto, quindi fai clic su **Richiedi altro accesso**.
+1. Fai clic sul menu **Altro** a destra del nome del progetto, quindi fai clic su **Richiedi accesso aggiuntivo**.
 
    ![](assets/request-access-in-project-350x201.png)
 
 1. (Condizionale) Se più utenti dispongono dell’accesso appropriato per concederti l’accesso aggiuntivo, viene visualizzata una freccia a discesa accanto al nome dell’utente.
 1. Seleziona dall’elenco a discesa l’utente che desideri ricevere la richiesta di accesso.\
    Nell’elenco a discesa vengono visualizzati solo 10 utenti. L’elenco è ordinato alfabeticamente.\
-   Per ulteriori informazioni sull’ordine degli utenti elencati in questo menu a discesa, consulta  [Gerarchia dei menu a discesa &quot;Richiedi accesso&quot; e &quot;Richiedi accesso aggiuntivo&quot;](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
+   Per ulteriori informazioni sull&#39;ordine degli utenti elencati in questo menu a discesa, vedere [Gerarchia dei menu a discesa &quot;Richiedi accesso&quot; e &quot;Richiedi accesso aggiuntivo&quot;](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
 
 1. Dall’elenco a discesa, seleziona il livello di accesso richiesto.
-1. (Facoltativo) In **P.S.** specificare una nota relativa al motivo per cui è necessario un accesso aggiuntivo.
-1. Clic **Richiedi accesso**.\
+1. (Facoltativo) Nel campo **P.S.**, specifica una nota relativa al motivo per cui hai bisogno di accesso aggiuntivo.
+1. Fai clic su **Richiedi accesso**.\
    ![](assets/request-access-dialog-350x314.png)
 
 ## Gerarchia dei menu a discesa &quot;Richiedi accesso&quot; e &quot;Richiedi accesso aggiuntivo&quot; {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
 
-* [Comprendere la gerarchia di utenti elencati nei menu a discesa Richiedi accesso e Richiedi altro accesso](#understand-the-hierarchy-of-users-listed-in-the-request-access-and-request-more-access-drop-down-menus)
+* [Comprendere la gerarchia degli utenti elencati nei menu a discesa Richiedi accesso e Richiedi accesso aggiuntivo](#understand-the-hierarchy-of-users-listed-in-the-request-access-and-request-more-access-drop-down-menus)
 * [Informazioni sul proprietario di un oggetto](#understand-the-owner-of-an-object)
 
 ### Comprendere la gerarchia di utenti elencati nei menu a discesa Richiedi accesso e Richiedi altro accesso {#understand-the-hierarchy-of-users-listed-in-the-request-access-and-request-more-access-drop-down-menus}
@@ -213,7 +213,7 @@ Il proprietario di un oggetto è definito come segue:
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td><span>Piani</span> </td> 
-   <td> <p><span>Il proprietario è il creatore del piano.</span> </p> <p>È necessaria una licenza aggiuntiva. </p> <p><span>Per informazioni su Workfront Scenario Planner, consulta</span> <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Panoramica sulla pianificazione degli scenari</a>.</p> </td> 
+   <td> <p><span>Il proprietario è il creatore del piano.</span> </p> <p>È necessaria una licenza aggiuntiva. </p> <p><span>Per informazioni su Workfront Scenario Planner, vedere</span> <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Panoramica di Scenario Planner</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td>Obiettivi</td> 

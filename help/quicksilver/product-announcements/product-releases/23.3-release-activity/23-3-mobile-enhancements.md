@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti apportati alla versione 23.3 per dispositivi mobili. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione con la versione 23.3 del 20 e 21 luglio 2023.
 
-Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio 23.3, consulta [Panoramica sulla versione 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio 23.3, vedere [Panoramica sulla versione 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Nuova funzionalità di bozza nell’app mobile Workfront
 
@@ -24,10 +24,10 @@ Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rila
 >
 >Queste funzioni saranno generalmente disponibili in Apple App Store e Google Play Store il 21 giugno 2023.
 
-Con la rimozione dell’app Workfront Proof autonoma nella versione 23.4, l’app mobile principale Workfront ha aggiunto delle funzioni di verifica per consentire il proseguimento della verifica su dispositivi mobili. Le nuove funzionalità includono:
+Con l&#39;eliminazione dell&#39;app Workfront Proof autonoma nella versione 23.4, l&#39;app mobile principale Workfront ha aggiunto delle funzioni di verifica per consentire il proseguimento delle verifiche su dispositivi mobili. Le nuove funzionalità includono:
 
 * L’app mobile di Workfront ora supporta tutti i tipi di file statici per le bozze
 * Lo stato della bozza può essere visualizzato dalle pagine Dettagli documento e Dettagli bozza nell’app mobile.
 * I pulsanti per passare all’app Workfront Proof sono stati rimossi
 
-Per ulteriori informazioni sulla verifica nell’app mobile Workfront, consulta [Rivedi e prendi decisioni sulle bozze nell’app mobile di Adobe Workfront](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+Per ulteriori informazioni sulla verifica nell&#39;app Workfront per dispositivi mobili, consulta [Rivedi e prendi decisioni sulle bozze nell&#39;app Adobe Workfront per dispositivi mobili](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).

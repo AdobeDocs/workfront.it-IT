@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: review-a-proof
-title: Abilita loop in una bozza video
-description: È possibile configurare il video in loop continuo (la riproduzione del video riparte al termine).
+title: Abilitare il loop in una bozza video
+description: È possibile configurare il video in modo che venga ripetuto in loop in modo continuo (la riproduzione del video riparte al termine).
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 944c4d15-e868-4481-9d35-318a319dc375
 source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 1%
+source-wordcount: '198'
+ht-degree: 2%
 
 ---
 
-# Abilita loop in una bozza video
+# Abilitare il loop in una bozza video
 
-È possibile configurare il video in loop continuo (la riproduzione del video riparte al termine). 
+È possibile configurare il video in modo che venga ripetuto in loop in modo continuo (la riproduzione del video riparte al termine). 
 
 ## Requisiti di accesso
 
@@ -26,33 +26,33 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
-   <td> <p>Piano attuale: Pro o superiore</p> <p>oppure</p> <p>Piano legacy: Seleziona o Premium</p> <p>Per ulteriori informazioni sulla verifica dell’accesso con i diversi piani, consulta <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accesso alle funzionalità di correzione in Workfront</a>.</p> </td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td> <p>Piano corrente: Pro o superiore</p> <p>oppure</p> <p>Piano legacy: Seleziona o Premium</p> <p>Per ulteriori informazioni sulla verifica dell'accesso con i diversi piani, vedere <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accesso alla funzionalità di verifica in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano attuale: Lavoro o piano</p> <p>Piano legacy: Qualsiasi (è necessario che la correzione sia attivata per l’utente)</p> </td> 
+   <td> <p>Piano corrente: Lavoro o Piano</p> <p>Piano legacy: qualsiasi (per l’utente deve essere abilitata la verifica)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Profilo autorizzazione bozza </td> 
    <td>Manager o superiore</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Modifica accesso ai documenti</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modifica accesso ai documenti</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il ruolo o il profilo delle autorizzazioni di prova, contattare l&#39;amministratore Workfront o Workfront Proof.
+&#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
 
-## Abilita loop in una bozza video
+## Abilitare il loop in una bozza video
 
-1. Passa al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
-1. Trova la bozza di cui hai bisogno, quindi fai clic su **Prova aperta**.
+1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
+1. Trova la bozza necessaria, quindi fai clic su **Apri bozza**.
 
-1. Nell’angolo in basso a destra del visualizzatore di correzione, fai clic sul pulsante **Impostazioni** icona.
+1. Nell&#39;angolo inferiore destro del visualizzatore di bozze fare clic sull&#39;icona **Impostazioni**.
 
-   ![phq_viewer_video_playbackspeed_3_.png](assets/phq-viewer-video-playbackspeed--3-.png)
+   ![phq_viewer_video_playbackspeed__3_.png](assets/phq-viewer-video-playbackspeed--3-.png)
 
-1. Abilita la **Ciclo** opzione .
+1. Abilita l&#39;opzione **Loop**.

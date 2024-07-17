@@ -20,7 +20,7 @@ ht-degree: 7%
 Questa sezione contiene i seguenti articoli:
 
 * [Panoramica sulla gestione dei Portfoli](../../../manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
-* [Panoramica del Portfolio in [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)
+* [Panoramica Portfolio in [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)
 * [Spostarsi all’interno di un portfolio](../../../manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
 
 

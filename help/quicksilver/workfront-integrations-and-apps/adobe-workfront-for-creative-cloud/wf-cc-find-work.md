@@ -1,21 +1,21 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Trova il tuo lavoro utilizzando il plugin Adobe Workfront
-description: Trova il lavoro assegnato in Adobe Workfront senza uscire dalle applicazioni Adobe Creative Cloud.
+title: Trovare il lavoro utilizzando il plug-in Adobe Workfront
+description: Trova il lavoro che ti è stato assegnato in Adobe Workfront senza uscire dalle applicazioni Adobe Creative Cloud.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4abb3257-5f6a-45f6-933b-f3bfb3728f1c
 source-git-commit: fc3eb30cef2e17524b5cbd50219861f293a2ea9d
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
 
-# Trova il tuo lavoro utilizzando [!DNL Adobe Workfront] plugin
+# Trovare il lavoro utilizzando il plug-in [!DNL Adobe Workfront]
 
-Trova il lavoro assegnato in [!DNL Adobe Workfront] senza lasciare quanto segue [!DNL Adobe Creative Cloud] applicazioni:
+Trovare il lavoro assegnato all&#39;utente in [!DNL Adobe Workfront] senza uscire dalle [!DNL Adobe Creative Cloud] applicazioni seguenti:
 
 {{cc-app-list}}
 
@@ -37,24 +37,24 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> -->
   <tr> 
    <td role="rowheader">Prodotto</td> 
-   <td>Devi avere un [!DNL Adobe Creative Cloud] oltre a una licenza [!DNL Workfront] licenza.</td> 
+   <td>È necessario disporre di una licenza [!DNL Adobe Creative Cloud] oltre a una licenza [!DNL Workfront].</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
 
 ## Prerequisiti
 
 {{cc-install-prereq}}
 
-## Utilizza la [!UICONTROL Elenco lavori] accedere a informazioni importanti
+## Utilizza [!UICONTROL Elenco lavori] per accedere a informazioni importanti
 
-La [!UICONTROL Elenco lavori] consente di visualizzare tutte le attività e i problemi assegnati in un’unica posizione. È possibile utilizzare [!UICONTROL Ordina per] per raggruppare gli elementi e quindi utilizzare l&#39;opzione [!UICONTROL Filtro] concentrarsi sul lavoro che deve essere completato.
+Il [!UICONTROL Elenco lavori] ti consente di visualizzare tutte le attività e i problemi assegnati in un&#39;unica posizione. È possibile utilizzare l&#39;opzione [!UICONTROL Ordina per] per raggruppare gli elementi e quindi utilizzare il [!UICONTROL filtro] per concentrare l&#39;attenzione sul lavoro da completare.
 
-### Raggruppa oggetti di lavoro simili insieme al [!DNL Sort By] opzione
+### Raggruppa elementi di lavoro simili con l&#39;opzione [!DNL Sort By]
 
-Utilizza la [!UICONTROL Ordina per] opzione per raggruppare elementi simili in [!UICONTROL Elenco lavori]. Puoi ordinare per:
+Utilizza l&#39;opzione [!UICONTROL Ordina per] per raggruppare elementi simili in [!UICONTROL Elenco lavori]. Puoi ordinare per:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -63,19 +63,19 @@ Utilizza la [!UICONTROL Ordina per] opzione per raggruppare elementi simili in [
   <tr> 
    <td> 
     <ul> 
-     <li>[!UICONTROL Data di scadenza]</li> 
+     <li>[!UICONTROL Scadenza]</li> 
      <li>[!UICONTROL Name]</li> 
-     <li>[!UICONTROL Project Name]</li> 
-     <li>[!UICONTROL La mia priorità]</li> 
+     <li>[!UICONTROL Nome progetto]</li> 
+     <li>[!UICONTROL Mia Priorità]</li> 
     </ul> </td> 
    <td> <img src="assets/copy-of-sort-by-350x606.png" style="width: 350;height: 606;"> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Limitare la messa a fuoco con i filtri
+### Restringi l’attenzione con i filtri
 
-Utilizza la [!UICONTROL Filtro] per limitare l&#39;attenzione a specifici elementi di lavoro. Il filtro può essere utilizzato in un paio di modi:
+Utilizza il [!UICONTROL filtro] per limitare lo stato attivo a specifici elementi di lavoro. Esistono due modi per utilizzare il filtro:
 
  
 
@@ -86,9 +86,9 @@ Utilizza la [!UICONTROL Filtro] per limitare l&#39;attenzione a specifici elemen
   <tr> 
    <td> <p>Il primo è il filtraggio basato esclusivamente sul tipo o sugli attributi dell'elemento di lavoro:</p> 
     <ul> 
-     <li><strong>Elemento di lavoro</strong>: Attività, sottoattività, problemi o attività personali</li> 
-     <li><strong>Stato elemento di lavoro</strong>: [!UICONTROL Working On], [!UICONTROL Ready to Start] o [!UICONTROL Not Ready]</li> 
-    </ul> <p>Il secondo è filtrare utilizzando insieme lo stato dell'elemento di lavoro e dell'elemento di lavoro. Ad esempio, è possibile selezionare Attività e [!UICONTROL Ready to Start] per trovare tutte le attività nell’elenco di lavoro pronte per il lavoro.</p> <p>Puoi anche utilizzare [!UICONTROL Field Match] per cercare un elemento specifico all’interno del set di filtri. </p> </td> 
+     <li><strong>Elemento di lavoro</strong>: attività, sottoattività, problemi o attività personali</li> 
+     <li><strong>Stato elemento di lavoro</strong>: [!UICONTROL Lavorativo], [!UICONTROL Pronto per l'avvio] o [!UICONTROL Non pronto]</li> 
+    </ul> <p>Il secondo consiste nel filtrare insieme lo stato dell'elemento di lavoro e quello dell'elemento di lavoro. Ad esempio, è possibile selezionare Attività e [!UICONTROL Pronto per iniziare] per trovare tutte le attività nell'elenco di lavoro pronte per il lavoro.</p> <p>È inoltre possibile utilizzare [!UICONTROL Field Match] per cercare un elemento specifico all'interno del set di filtri. </p> </td> 
    <td> <img src="assets/copy-of-filter-p-350x603.png" style="width: 350;height: 603;"> </td> 
   </tr> 
  </tbody> 
@@ -96,7 +96,7 @@ Utilizza la [!UICONTROL Filtro] per limitare l&#39;attenzione a specifici elemen
 
 ## Cerca il tuo lavoro
 
-Utilizza la [!UICONTROL Ricerca] per individuare progetti, attività, problemi e documenti necessari.
+Utilizza la barra di [!UICONTROL Ricerca] per individuare i progetti, le attività, i problemi e i documenti necessari.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -105,17 +105,17 @@ Utilizza la [!UICONTROL Ricerca] per individuare progetti, attività, problemi e
   <tr> 
    <td> 
     <ul> 
-     <li>Vedi gli articoli recenti: È possibile visualizzare fino a 5 degli elementi di lavoro più recenti a cui si accede tramite le versioni desktop o plug-in di Workfront.</li> 
-     <li>Individua elementi fissi: Puoi accedere a progetti, attività, problemi e documenti inseriti nella nuova esperienza Adobe Workfront.</li> 
-     <li>Trova i tuoi preferiti: È possibile visualizzare qualsiasi progetto, attività, problema o documento salvato come preferito.</li> 
+     <li>Vedi elementi recenti: puoi visualizzare fino a 5 degli elementi di lavoro più recenti a cui hai effettuato l’accesso tramite le versioni desktop o plug-in di Workfront.</li> 
+     <li>Individuare gli elementi bloccati: puoi accedere ai progetti, alle attività, ai problemi e ai documenti bloccati nella nuova esperienza Adobe Workfront.</li> 
+     <li>Trova i tuoi preferiti: puoi visualizzare qualsiasi progetto, attività, problema o documento salvato come preferito.</li> 
     </ul> </td> 
    <td> <img src="assets/copy-of-search-p.png"> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Utilizza la [!UICONTROL Menu] per navigare nei progetti
+## Utilizza il [!UICONTROL menu] per esplorare i progetti
 
-È possibile utilizzare [!UICONTROL Menu] per passare agli elementi principali di un progetto.
+È possibile utilizzare l&#39;icona [!UICONTROL Menu] per passare agli elementi padre in un progetto.
 
 ![](assets/go-back-to-work-list-350x314.png)

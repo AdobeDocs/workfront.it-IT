@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti apportati all’analisi con la versione 20.3 all’ambiente di produzione. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana del 10 agosto 2020.
 
-Per un elenco di tutte le modifiche disponibili con la versione 20.3, consulta [Panoramica sulla versione 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 20.3, consulta la [panoramica sulla versione 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Le funzioni di analisi avanzate sono disponibili qui.
 
@@ -34,5 +34,5 @@ Puoi concentrarti su progetti diversi o limitare la quantità di progetti che st
 
 Oltre alle informazioni che puoi ottenere, puoi anche completare azioni sulle attività, come aggiornare lo stato, richiedere un aggiornamento, assegnare l’attività a qualcuno, ecc.- direttamente dall&#39;area Analisi avanzata (Enhanced Analytics).
 
-Per ulteriori informazioni, consulta [Panoramica di analisi avanzate](../../../enhanced-analytics/enhanced-analytics-overview.md).
+Per ulteriori informazioni, consulta [Panoramica analisi avanzata](../../../enhanced-analytics/enhanced-analytics-overview.md).
 

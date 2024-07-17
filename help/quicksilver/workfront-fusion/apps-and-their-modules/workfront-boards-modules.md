@@ -16,17 +16,17 @@ ht-degree: 1%
 
 ---
 
-# [!DNL Adobe Workfront] Moduli per schede madri
+# [!DNL Adobe Workfront] moduli Schede
 
 >[!NOTE]
 >
->Questo connettore è attualmente in versione beta.
+>Questo connettore è attualmente in Beta.
 
 Le bacheche Adobe Workfront sono strumenti flessibili che consentono la collaborazione in team fornendo l’accesso a una bacheca condivisa contenente colonne e schede.
 
 Puoi utilizzare i moduli Schede Adobe Workfront per leggere o aggiornare i record, effettuare una chiamata API all’API delle schede Workfront o attivare uno scenario quando si verifica un’azione su una scheda.
 
-Per informazioni generali sulle schede madri Workfront, consulta [Panoramica delle schede](/help/quicksilver/agile/boards-overview.md).
+Per informazioni generali sulle bacheche Workfront, consulta [Panoramica delle bacheche](/help/quicksilver/agile/boards-overview.md).
 
 ## Requisiti di accesso
 
@@ -47,17 +47,17 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licenza</td> 
    <td>
-   <p>Fabbisogno di licenza corrente: No [!DNL Workfront Fusion] requisito di licenza.</p>
+   <p>Requisiti di licenza correnti: nessun requisito di licenza [!DNL Workfront Fusion].</p>
    <p>Oppure</p>
-   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro], [!UICONTROL [!DNL Workfront Fusion] per automazione lavoro]</p>
+   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione lavoro], [!UICONTROL [!DNL Workfront Fusion] per automazione lavoro]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
    <td>
-   <p>Fabbisogno prodotto corrente: se si dispone di [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Pianifica, la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo. [!DNL Workfront Fusion] è incluso in [!UICONTROL Ultimate] [!DNL Workfront] piano.</p>
+   <p>Fabbisogno prodotto corrente: se si dispone del piano [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], l'organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo. [!DNL Workfront Fusion] è incluso nel piano [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>Oppure</p>
-   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</p>
+   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -65,7 +65,7 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 
 ## Prerequisiti
@@ -80,7 +80,7 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe
 
 Per creare una connessione alle schede madri Workfront:
 
-1. In qualsiasi [!DNL Adobe Workfront Boards] modulo, fai clic su **[!UICONTROL Aggiungi]** accanto alla casella Connessione.
+1. In qualsiasi modulo di [!DNL Adobe Workfront Boards], fare clic su **[!UICONTROL Aggiungi]** accanto alla casella Connessione.
 
 1. Compila i campi seguenti:
 
@@ -106,11 +106,11 @@ Per creare una connessione alle schede madri Workfront:
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL ID client]<p>(Facoltativo)</p></td>
-          <td>Immetti il [!DNL Adobe] [!UICONTROL ID client]. È disponibile nella sezione [!UICONTROL Credentials details] del file [!DNL Adobe Developer Console].</td>
+          <td>Immetti l'ID client [!DNL Adobe] [!UICONTROL]. È disponibile nella sezione [!UICONTROL Credentials details] di [!DNL Adobe Developer Console].</td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Segreto client]<p>(Facoltativo)</p></td>
-          <td>Immetti il [!DNL Adobe] [!UICONTROL Segreto Client]. È disponibile nella sezione [!UICONTROL Credentials details] del file [!DNL Adobe Developer Console].
+          <td>Immetti [!DNL Adobe] [!UICONTROL Client Secret]. È disponibile nella sezione [!UICONTROL Credentials details] di [!DNL Adobe Developer Console].
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL URL autenticazione]<p>(Facoltativo)</p></td>
@@ -122,13 +122,13 @@ Per creare una connessione alle schede madri Workfront:
         </tr>
       </tbody>
     </table>
-1. Clic **[!UICONTROL Continua]** per salvare la connessione e tornare al modulo.
+1. Fai clic su **[!UICONTROL Continua]** per salvare la connessione e tornare al modulo.
 
 ## Moduli delle schede madri Adobe Workfront e relativi campi
 
 Quando si configurano i moduli delle schede madri Workfront, [!DNL Workfront Fusion] visualizza i campi elencati di seguito. Insieme a questi, possono essere visualizzati campi aggiuntivi per le Schede Workfront, a seconda di fattori quali il livello di accesso nell’app o nel servizio. Un titolo in grassetto in un modulo indica un campo obbligatorio.
 
-Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possibile utilizzarlo per impostare variabili e funzioni per tale campo. Per ulteriori informazioni, consulta [Mappare le informazioni da un modulo all’altro in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possibile utilizzarlo per impostare variabili e funzioni per tale campo. Per ulteriori informazioni, vedere [Mappare le informazioni da un modulo all&#39;altro in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -203,7 +203,7 @@ Questo modulo di azione aggiunge una voce dell’elenco di controllo alla scheda
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>È possibile utilizzare una connessione Workfront esistente per connettersi alle schede madri Workfront oppure una connessione specifica alle schede madri Workfront. </p><p>Per istruzioni sulla connessione [!DNL Workfront] app a [!DNL Workfront Fusion], vedi <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creare una connessione alle schede madri Workfront</a> in questo articolo.</p> </td> 
+      <td> <p>È possibile utilizzare una connessione Workfront esistente per connettersi alle schede madri Workfront oppure una connessione specifica alle schede madri Workfront. </p><p>Per istruzioni sulla connessione dell'app [!DNL Workfront] a [!DNL Workfront Fusion], vedere <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creare una connessione alle schede madri Workfront</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID scheda]</td> 
@@ -226,7 +226,7 @@ Questo modulo di azione aggiunge una sottoattività a una scheda in Bacheche. La
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>È possibile utilizzare una connessione Workfront esistente per connettersi alle schede madri Workfront oppure una connessione specifica alle schede madri Workfront. </p><p>Per istruzioni sulla connessione [!DNL Workfront] app a [!DNL Workfront Fusion], vedi <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creare una connessione alle schede madri Workfront</a> in questo articolo.</p> </td> 
+      <td> <p>È possibile utilizzare una connessione Workfront esistente per connettersi alle schede madri Workfront oppure una connessione specifica alle schede madri Workfront. </p><p>Per istruzioni sulla connessione dell'app [!DNL Workfront] a [!DNL Workfront Fusion], vedere <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creare una connessione alle schede madri Workfront</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID scheda padre]</td> 
@@ -253,7 +253,7 @@ Questo modulo di azione crea una nuova scheda su una scheda Workfront.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>È possibile utilizzare una connessione Workfront esistente per connettersi alle schede madri Workfront oppure una connessione specifica alle schede madri Workfront. </p><p>Per istruzioni sulla connessione [!DNL Workfront] app a [!DNL Workfront Fusion], vedi <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creare una connessione alle schede madri Workfront</a> in questo articolo.</p> </td> 
+      <td> <p>È possibile utilizzare una connessione Workfront esistente per connettersi alle schede madri Workfront oppure una connessione specifica alle schede madri Workfront. </p><p>Per istruzioni sulla connessione dell'app [!DNL Workfront] a [!DNL Workfront Fusion], vedere <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creare una connessione alle schede madri Workfront</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID bacheca]</td> 
@@ -280,7 +280,7 @@ Questo modulo di azione sposta una scheda in una colonna diversa sulla stessa ba
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>È possibile utilizzare una connessione Workfront esistente per connettersi alle schede madri Workfront oppure una connessione specifica alle schede madri Workfront. </p><p>Per istruzioni sulla connessione [!DNL Workfront] app a [!DNL Workfront Fusion], vedi <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creare una connessione alle schede madri Workfront</a> in questo articolo.</p> </td> 
+      <td> <p>È possibile utilizzare una connessione Workfront esistente per connettersi alle schede madri Workfront oppure una connessione specifica alle schede madri Workfront. </p><p>Per istruzioni sulla connessione dell'app [!DNL Workfront] a [!DNL Workfront Fusion], vedere <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creare una connessione alle schede madri Workfront</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID scheda]</td> 
@@ -311,7 +311,7 @@ Questo modulo di azione recupera informazioni su una scheda specifica.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>È possibile utilizzare una connessione Workfront esistente per connettersi alle schede madri Workfront oppure una connessione specifica alle schede madri Workfront. </p><p>Per istruzioni sulla connessione [!DNL Workfront] app a [!DNL Workfront Fusion], vedi <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creare una connessione alle schede madri Workfront</a> in questo articolo.</p> </td> 
+      <td> <p>È possibile utilizzare una connessione Workfront esistente per connettersi alle schede madri Workfront oppure una connessione specifica alle schede madri Workfront. </p><p>Per istruzioni sulla connessione dell'app [!DNL Workfront] a [!DNL Workfront Fusion], vedere <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creare una connessione alle schede madri Workfront</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID scheda]</td> 
@@ -330,7 +330,7 @@ Questo modulo di azione aggiorna le informazioni relative a una scheda specifica
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>È possibile utilizzare una connessione Workfront esistente per connettersi alle schede madri Workfront oppure una connessione specifica alle schede madri Workfront. </p><p>Per istruzioni sulla connessione [!DNL Workfront] app a [!DNL Workfront Fusion], vedi <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creare una connessione alle schede madri Workfront</a> in questo articolo.</p> </td> 
+      <td> <p>È possibile utilizzare una connessione Workfront esistente per connettersi alle schede madri Workfront oppure una connessione specifica alle schede madri Workfront. </p><p>Per istruzioni sulla connessione dell'app [!DNL Workfront] a [!DNL Workfront Fusion], vedere <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creare una connessione alle schede madri Workfront</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID scheda]</td> 
@@ -366,7 +366,7 @@ Questo modulo di azione crea una scheda in Workfront. Puoi specificare il tipo d
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>È possibile utilizzare una connessione Workfront esistente per connettersi alle schede madri Workfront oppure una connessione specifica alle schede madri Workfront. </p><p>Per istruzioni sulla connessione [!DNL Workfront] app a [!DNL Workfront Fusion], vedi <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creare una connessione alle schede madri Workfront</a> in questo articolo.</p> </td> 
+      <td> <p>È possibile utilizzare una connessione Workfront esistente per connettersi alle schede madri Workfront oppure una connessione specifica alle schede madri Workfront. </p><p>Per istruzioni sulla connessione dell'app [!DNL Workfront] a [!DNL Workfront Fusion], vedere <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creare una connessione alle schede madri Workfront</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Nome bacheca]</td> 
@@ -389,7 +389,7 @@ Questo modulo di azione restituisce informazioni su una singola bacheca, ad esem
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>È possibile utilizzare una connessione Workfront esistente per connettersi alle schede madri Workfront oppure una connessione specifica alle schede madri Workfront. </p><p>Per istruzioni sulla connessione [!DNL Workfront] app a [!DNL Workfront Fusion], vedi <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creare una connessione alle schede madri Workfront</a> in questo articolo.</p> </td> 
+      <td> <p>È possibile utilizzare una connessione Workfront esistente per connettersi alle schede madri Workfront oppure una connessione specifica alle schede madri Workfront. </p><p>Per istruzioni sulla connessione dell'app [!DNL Workfront] a [!DNL Workfront Fusion], vedere <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creare una connessione alle schede madri Workfront</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID bacheca]</td> 
@@ -414,7 +414,7 @@ Questo modulo di azione crea una nuova colonna sulla bacheca specificata.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>È possibile utilizzare una connessione Workfront esistente per connettersi alle schede madri Workfront oppure una connessione specifica alle schede madri Workfront. </p><p>Per istruzioni sulla connessione [!DNL Workfront] app a [!DNL Workfront Fusion], vedi <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creare una connessione alle schede madri Workfront</a> in questo articolo.</p> </td> 
+      <td> <p>È possibile utilizzare una connessione Workfront esistente per connettersi alle schede madri Workfront oppure una connessione specifica alle schede madri Workfront. </p><p>Per istruzioni sulla connessione dell'app [!DNL Workfront] a [!DNL Workfront Fusion], vedere <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creare una connessione alle schede madri Workfront</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID bacheca]</td> 
@@ -445,7 +445,7 @@ Questo modulo di ricerca restituisce informazioni sulla colonna con il nome spec
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>È possibile utilizzare una connessione Workfront esistente per connettersi alle schede madri Workfront oppure una connessione specifica alle schede madri Workfront. </p><p>Per istruzioni sulla connessione [!DNL Workfront] app a [!DNL Workfront Fusion], vedi <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creare una connessione alle schede madri Workfront</a> in questo articolo.</p> </td> 
+      <td> <p>È possibile utilizzare una connessione Workfront esistente per connettersi alle schede madri Workfront oppure una connessione specifica alle schede madri Workfront. </p><p>Per istruzioni sulla connessione dell'app [!DNL Workfront] a [!DNL Workfront Fusion], vedere <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creare una connessione alle schede madri Workfront</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID bacheca]</td> 
@@ -468,7 +468,7 @@ Questo modulo di azione aggiorna il nome o il limite WIP della colonna specifica
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>È possibile utilizzare una connessione Workfront esistente per connettersi alle schede madri Workfront oppure una connessione specifica alle schede madri Workfront. </p><p>Per istruzioni sulla connessione [!DNL Workfront] app a [!DNL Workfront Fusion], vedi <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creare una connessione alle schede madri Workfront</a> in questo articolo.</p> </td> 
+      <td> <p>È possibile utilizzare una connessione Workfront esistente per connettersi alle schede madri Workfront oppure una connessione specifica alle schede madri Workfront. </p><p>Per istruzioni sulla connessione dell'app [!DNL Workfront] a [!DNL Workfront Fusion], vedere <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creare una connessione alle schede madri Workfront</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID bacheca]</td> 
@@ -496,7 +496,7 @@ Questo modulo di azione aggiunge un tag a una scheda.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>È possibile utilizzare una connessione Workfront esistente per connettersi alle schede madri Workfront oppure una connessione specifica alle schede madri Workfront. </p><p>Per istruzioni sulla connessione [!DNL Workfront] app a [!DNL Workfront Fusion], vedi <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creare una connessione alle schede madri Workfront</a> in questo articolo.</p> </td> 
+      <td> <p>È possibile utilizzare una connessione Workfront esistente per connettersi alle schede madri Workfront oppure una connessione specifica alle schede madri Workfront. </p><p>Per istruzioni sulla connessione dell'app [!DNL Workfront] a [!DNL Workfront Fusion], vedere <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creare una connessione alle schede madri Workfront</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID scheda]</td> 
@@ -523,7 +523,7 @@ Questo modulo di azione crea un nuovo tag e gli assegna un colore.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>È possibile utilizzare una connessione Workfront esistente per connettersi alle schede madri Workfront oppure una connessione specifica alle schede madri Workfront. </p><p>Per istruzioni sulla connessione [!DNL Workfront] app a [!DNL Workfront Fusion], vedi <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creare una connessione alle schede madri Workfront</a> in questo articolo.</p> </td> 
+      <td> <p>È possibile utilizzare una connessione Workfront esistente per connettersi alle schede madri Workfront oppure una connessione specifica alle schede madri Workfront. </p><p>Per istruzioni sulla connessione dell'app [!DNL Workfront] a [!DNL Workfront Fusion], vedere <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creare una connessione alle schede madri Workfront</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID bacheca]</td> 
@@ -555,7 +555,7 @@ Questo modulo di azione ha creato un commento sulla scheda specificata.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>È possibile utilizzare una connessione Workfront esistente per connettersi alle schede madri Workfront oppure una connessione specifica alle schede madri Workfront. </p><p>Per istruzioni sulla connessione [!DNL Workfront] app a [!DNL Workfront Fusion], vedi <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creare una connessione alle schede madri Workfront</a> in questo articolo.</p> </td> 
+      <td> <p>È possibile utilizzare una connessione Workfront esistente per connettersi alle schede madri Workfront oppure una connessione specifica alle schede madri Workfront. </p><p>Per istruzioni sulla connessione dell'app [!DNL Workfront] a [!DNL Workfront Fusion], vedere <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creare una connessione alle schede madri Workfront</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID scheda]</td> 
@@ -578,7 +578,7 @@ Questo modulo di azione recupera i commenti dalla scheda specificata.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>È possibile utilizzare una connessione Workfront esistente per connettersi alle schede madri Workfront oppure una connessione specifica alle schede madri Workfront. </p><p>Per istruzioni sulla connessione [!DNL Workfront] app a [!DNL Workfront Fusion], vedi <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creare una connessione alle schede madri Workfront</a> in questo articolo.</p> </td> 
+      <td> <p>È possibile utilizzare una connessione Workfront esistente per connettersi alle schede madri Workfront oppure una connessione specifica alle schede madri Workfront. </p><p>Per istruzioni sulla connessione dell'app [!DNL Workfront] a [!DNL Workfront Fusion], vedere <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creare una connessione alle schede madri Workfront</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID scheda]</td> 
@@ -603,15 +603,15 @@ Questo modulo di azione effettua una chiamata personalizzata all’API delle sch
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-      <td> <p>È possibile utilizzare una connessione Workfront esistente per connettersi alle schede madri Workfront oppure una connessione specifica alle schede madri Workfront. </p><p>Per istruzioni sulla connessione [!DNL Workfront] app a [!DNL Workfront Fusion], vedi <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creare una connessione alle schede madri Workfront</a> in questo articolo.</p> </td> 
+      <td> <p>È possibile utilizzare una connessione Workfront esistente per connettersi alle schede madri Workfront oppure una connessione specifica alle schede madri Workfront. </p><p>Per istruzioni sulla connessione dell'app [!DNL Workfront] a [!DNL Workfront Fusion], vedere <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creare una connessione alle schede madri Workfront</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
-   <td> <p>Inserisci un percorso relativo a<code> https://&lt;WORKFRONT_DOMAIN&gt;/boards-service/graphql?</code>.</p> </td> 
+   <td> <p>Immettere un percorso relativo a <code> https://&lt;WORKFRONT_DOMAIN&gt;/boards-service/graphql?</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
-   <td> <p>Seleziona il metodo di richiesta HTTP necessario per configurare la chiamata API. Per ulteriori informazioni, consulta <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Metodi di richiesta HTTP in [!DNL Adobe Workfront Fusion]</a>.</p><p>Per la maggior parte delle chiamate alle bacheche il metodo è POST. </td> 
+   <td> <p>Seleziona il metodo di richiesta HTTP necessario per configurare la chiamata API. Per ulteriori informazioni, vedere <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Metodi di richiesta HTTP in [!DNL Adobe Workfront Fusion]</a>.</p><p>Per la maggior parte delle chiamate alle bacheche il metodo è POST. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -623,11 +623,11 @@ Questo modulo di azione effettua una chiamata personalizzata all’API delle sch
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Aggiungi il contenuto del corpo per la chiamata API sotto forma di Graphql incorporato JSON </p> <p>Esempio:</p><p>In questo esempio viene aggiornato il nome di una colonna. È possibile includere <code>boardId</code> e <code>columnId</code> come GUID hardcoded o mappati da un modulo precedente.<p><pre>{
+   <td> <p>Aggiungi il contenuto del corpo per la chiamata API sotto forma di Graphql incorporato JSON </p> <p>Esempio:</p><p>In questo esempio viene aggiornato il nome di una colonna. È possibile includere <code>boardId</code> e <code>columnId</code> come GUID codificati o mappati da un modulo precedente.<p><pre>{
 
   &quot;query&quot;: &quot;mutazione { updateColumn(boardId: \&quot;\&quot;, columnId: \&quot;\&quot;, updateColumnInput: { name: \&quot;\&quot; }) { id name }}&quot;
 
-}</pre><p>Nota:  <p>Quando si utilizzano istruzioni condizionali quali <code>se</code> nel JSON, inserisci le virgolette al di fuori dell’istruzione condizionale.</p>
+}</pre><p>Nota:  <p>Quando si utilizzano istruzioni condizionali come <code>if</code> nel JSON, inserisci le virgolette al di fuori dell’istruzione condizionale.</p>
 <div class="example" data-mc-autonum="<b>Example: </b>">
 <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p>
 </div> </p> </td>

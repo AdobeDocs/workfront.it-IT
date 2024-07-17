@@ -23,13 +23,13 @@ ht-degree: 0%
 </div>
 -->
 
-È possibile utilizzare gli strumenti di gestione delle risorse di Adobe Workfront per prevedere l&#39;allocazione delle risorse in modo da sapere con precisione se i progetti vengono consegnati nei tempi e nel budget previsti. Per una panoramica sulla gestione delle risorse in Workfront, vedi [Introduzione alla gestione delle risorse](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
+È possibile utilizzare gli strumenti di gestione delle risorse di Adobe Workfront per prevedere l&#39;allocazione delle risorse in modo da sapere con precisione se i progetti vengono consegnati nei tempi e nel budget previsti. Per una panoramica sulla gestione delle risorse in Workfront, vedere [Introduzione alla gestione delle risorse](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
 È possibile utilizzare gli strumenti di pianificazione delle risorse per gestire le mansioni, la loro disponibilità e l&#39;allocazione generale ai progetti in base a tale disponibilità.
 
 L&#39;allocazione generale degli utenti budget ai progetti non li assegna al lavoro effettivo (attività e problemi). È necessario assegnare le risorse al lavoro utilizzando il Bilanciatore dei carichi di lavoro.
 
-Per ulteriori informazioni sulla pianificazione delle risorse in Workfront tramite il Bilanciatore dei carichi di lavoro, consulta [Panoramica del Bilanciatore dei carichi di lavoro](../workload-balancer/overview-workload-balancer.md).
+Per ulteriori informazioni sulla pianificazione delle risorse in Workfront tramite il Bilanciatore dei carichi di lavoro, consulta [Panoramica sul Bilanciatore dei carichi di lavoro](../workload-balancer/overview-workload-balancer.md).
 
 ## Strumenti di pianificazione delle risorse in Workfront
 
@@ -39,19 +39,19 @@ Per preventivare il tempo dedicato alle risorse per i progetti a cui si intende 
 
   È possibile accedere alla Pianificazione risorse dalla sezione Pianificazione nell&#39;area Risorse.
 
-  Per informazioni sulla Programmazione delle risorse, consulta [Panoramica di Programmazione delle risorse](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+  Per informazioni sulla Programmazione delle risorse, vedere [Panoramica sulla programmazione delle risorse](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-* Per allocazioni budget per un singolo progetto: utilizzare la pianificazione risorse a livello di progetto nell&#39;area Budget risorse del caso aziendale di un progetto. Per informazioni sulla definizione del budget delle risorse per un progetto, vedere l&#39;articolo [Risorse di budget nel Business Case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+* Per allocazioni budget per un singolo progetto: utilizzare la pianificazione risorse a livello di progetto nell&#39;area Budget risorse del caso aziendale di un progetto. Per informazioni sulla definizione del budget delle risorse per un progetto, vedere l&#39;articolo [Risorse budget nel caso aziendale](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-  Per gestire gli utenti e organizzarli in pool in base alle competenze comuni o alla struttura di reparto e quindi gestire le allocazioni per i progetti a cui sono assegnati, è necessario creare pool di risorse. Per ulteriori informazioni sulla creazione di pool di risorse, consulta [Creare i pool di risorse](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+  Per gestire gli utenti e organizzarli in pool in base alle competenze comuni o alla struttura di reparto e quindi gestire le allocazioni per i progetti a cui sono assegnati, è necessario creare pool di risorse. Per ulteriori informazioni sulla creazione di pool di risorse, vedere [Creare pool di risorse](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
   >[!TIP]
   >
   >L&#39;area Budget risorse di un progetto è la Pianificazione risorse a livello di progetto. Quando si preventivano le risorse nel Business Case di un progetto, le informazioni vengono riportate anche nella Programmazione delle risorse a livello di sistema.
 
-* Per gestire le risorse ad alto livello, su più iniziative e allineare il lavoro con la strategia della tua organizzazione, utilizza Adobe Workfront Scenario Planner. Scenario Planner richiede una licenza aggiuntiva. Per informazioni su Workfront Scenario Planner, consulta [Panoramica sulla pianificazione degli scenari](../../scenario-planner/scenario-planner-overview.md).
+* Per gestire le risorse ad alto livello, su più iniziative e allineare il lavoro con la strategia della tua organizzazione, utilizza Adobe Workfront Scenario Planner. Scenario Planner richiede una licenza aggiuntiva. Per informazioni su Workfront Scenario Planner, vedere [Panoramica di Scenario Planner](../../scenario-planner/scenario-planner-overview.md).
 
-  È possibile utilizzare la pianificazione delle risorse sia a livello di sistema, in più progetti, sia per preventivare le risorse per un singolo progetto nell&#39;area Budget risorse del caso aziendale. Per ulteriori informazioni sulle risorse di budget per un progetto nel business case, vedi [Risorse di budget nel Business Case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+  È possibile utilizzare la pianificazione delle risorse sia a livello di sistema, in più progetti, sia per preventivare le risorse per un singolo progetto nell&#39;area Budget risorse del caso aziendale. Per ulteriori informazioni sulla definizione del budget delle risorse per un progetto nel business case, vedere [Risorse budget nel business case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
 ## Scopo degli strumenti di pianificazione delle risorse
 
@@ -61,11 +61,11 @@ Per preventivare il tempo dedicato alle risorse per i progetti a cui si intende 
    * Comprendi la disponibilità delle risorse in base alla pianificazione degli utenti.
    * Preventivare le allocazioni di ore, FTE o costi per le risorse (utenti e mansioni) per i progetti a cui sono assegnate.
 
-  Per informazioni su come lavorare nella Programmazione delle risorse, consulta l’articolo [Panoramica di Programmazione delle risorse](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+  Per informazioni sull&#39;utilizzo di Pianificazione risorse, vedere l&#39;articolo [Panoramica di Pianificazione risorse](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-* Utilizzando Scenario Planner, puoi creare piani a livello aziendale su più iniziative che delineano i risultati strategici generali della tua azienda. Per ulteriori informazioni, consulta [Introduzione alla Pianificazione scenario](../../scenario-planner/get-started-with-scenario-planning.md).
+* Utilizzando Scenario Planner, puoi creare piani a livello aziendale su più iniziative che delineano i risultati strategici generali della tua azienda. Per ulteriori informazioni, vedere [Introduzione a Scenario Planner](../../scenario-planner/get-started-with-scenario-planning.md).
 
-  Scenario Planner richiede una licenza aggiuntiva. Per informazioni su Workfront Scenario Planner, consulta [Panoramica sulla pianificazione degli scenari](../../scenario-planner/scenario-planner-overview.md).
+  Scenario Planner richiede una licenza aggiuntiva. Per informazioni su Workfront Scenario Planner, vedere [Panoramica di Scenario Planner](../../scenario-planner/scenario-planner-overview.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Prerequisites for resource planning</h2>

@@ -2,7 +2,7 @@
 product-area: agile-and-teams
 navigation-topic: iterations
 title: Creare un’iterazione
-description: Le iterazioni sono un componente chiave per i team agili Scrum nella pianificazione della capacità di lavoro. [!DNL Adobe Workfront] consente ai team agili Scrum di gestire il proprio lavoro creando più iterazioni in base alle esigenze del team.
+description: Le iterazioni sono un componente chiave per i team agili Scrum nella pianificazione della capacità di lavoro. [!DNL Adobe Workfront] consente ai team agili Scrum di gestire il proprio lavoro creando più iterazioni per soddisfare le esigenze del team.
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Creare un’iterazione
 
-Le iterazioni sono un componente chiave per i team agili Scrum nella pianificazione della capacità di lavoro. [!DNL Adobe Workfront] consente ai team agili Scrum di gestire il proprio lavoro creando più iterazioni in base alle esigenze del team.
+Le iterazioni sono un componente chiave per i team agili Scrum nella pianificazione della capacità di lavoro. [!DNL Adobe Workfront] consente ai team agili Scrum di gestire il proprio lavoro creando più iterazioni per soddisfare le esigenze del team.
 
 ## Requisiti di accesso
 
@@ -38,17 +38,17 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano o il tipo di licenza di cui si dispone, contattare [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano o il tipo di licenza disponibile, contattare l&#39;amministratore [!DNL Workfront].
 
 ## Aggiungi un’iterazione
 
-Utilizza il [!UICONTROL Aggiungi iterazione] per creare rapidamente un’iterazione e aggiungere attività e problemi in un secondo momento.
+Utilizza la funzione [!UICONTROL Aggiungi iterazione] per creare rapidamente un&#39;iterazione e aggiungere attività e problemi in un secondo momento.
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Team]**.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Team]**.
 
-1. (Facoltativo) Fai clic su **[!UICONTROL Cambia team]** icona ![Icona Cambia team](assets/switch-team-icon.png), quindi selezionare un nuovo team Scrum dal menu a discesa o cercare un team nella barra di ricerca.
+1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Cambia team](assets/switch-team-icon.png), quindi seleziona un nuovo team Scrum dal menu a discesa o cerca un team nella barra di ricerca.
 
-1. Il giorno **[!UICONTROL Iterazioni]** , fare clic su **[!UICONTROL Aggiungi iterazione]**.\
+1. Nella scheda **[!UICONTROL Iterazioni]**, fare clic su **[!UICONTROL Aggiungi iterazione]**.\
    ![](assets/add-iteration-adobe-350x275.png)
 
 1. Specifica quanto segue:
@@ -71,11 +71,11 @@ Utilizza il [!UICONTROL Aggiungi iterazione] per creare rapidamente un’iterazi
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Data di fine]</strong></td> 
-      <td><p>Immettere la data di fine dell'iterazione. [!DNL Workfront] consiglia di impostare una data di fine non superiore a 4 settimane dalla data di inizio.</p><p>Suggerimento: scegli un giorno lavorativo come data di fine. Il grafico a dispersione usa solo giorni lavorativi nei suoi calcoli.<br>Per impostazione predefinita, il grafico a dispersione utilizza la pianificazione predefinita per definire i giorni lavorativi (come descritto in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Creare una pianificazione</a>). In alternativa, per incorporare i giorni non lavorativi specifici del team, i team agili possono scegliere di utilizzare una pianificazione alternativa (come descritto in "Definizione di una pianificazione alternativa del team per i grafici a dispersione" in <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Creare un team agile</a>).</p></td> 
+      <td><p>Immettere la data di fine dell'iterazione. [!DNL Workfront] consiglia di impostare una data di fine non superiore a 4 settimane dalla data di inizio.</p><p>Suggerimento: scegli un giorno lavorativo come data di fine. Il grafico a dispersione usa solo giorni lavorativi nei suoi calcoli.<br>Per impostazione predefinita, il grafico a dispersione utilizza la pianificazione predefinita per definire i giorni lavorativi (come descritto in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Creare una pianificazione</a>). In alternativa, per incorporare i giorni non lavorativi specifici del team, i team Agile possono scegliere di utilizzare una pianificazione alternativa (come descritto in "Definizione di una pianificazione alternativa del team per i grafici Burndown" in <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Creare un team Agile</a>).</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Capacity]</strong></td> 
-      <td> Specificare la capacità per l'iterazione. Questo è il numero di punti o ore che il team è in grado di raggiungere nell’iterazione. Il numero immesso deve essere uguale o maggiore del numero di punti o ore dalla somma di tutti i brani nell'iterazione.<br>[!DNL Workfront] precompila questo campo con 50 capacità per impostazione predefinita. </td> 
+      <td> Specificare la capacità per l'iterazione. Questo è il numero di punti o ore che il team è in grado di raggiungere nell’iterazione. Il numero immesso deve essere uguale o maggiore del numero di punti o ore dalla somma di tutti i brani nell'iterazione.<br>[!DNL Workfront] precompila questo campo con una capacità di 50 per impostazione predefinita. </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Focus]</strong></td> 
@@ -84,17 +84,17 @@ Utilizza il [!UICONTROL Aggiungi iterazione] per creare rapidamente un’iterazi
     </tbody> 
    </table>
 
-1. Clic **[!UICONTROL Invia]**. Ora che hai creato un’iterazione, devi aggiungere delle storie. Per ulteriori informazioni, consulta [Aggiungere brani a un&#39;iterazione esistente](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+1. Fai clic su **[!UICONTROL Invia]**. Ora che hai creato un’iterazione, devi aggiungere delle storie. Per ulteriori informazioni, vedere [Aggiungere brani a un&#39;iterazione esistente](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
 
-## Pianificare un&#39;iterazione su [!UICONTROL Backlog] scheda
+## Pianifica un&#39;iterazione nella scheda [!UICONTROL Backlog]
 
-Utilizza il [!UICONTROL Iterazione piano] per creare un’iterazione utilizzando le attività nel backlog.
+Utilizza la funzione [!UICONTROL Iterazione piano] per creare un&#39;iterazione utilizzando le attività nel backlog.
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Team]**.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Team]**.
 
-1. (Facoltativo) Fai clic su **[!UICONTROL Cambia team]** icona ![Icona Cambia team](assets/switch-team-icon.png), quindi selezionare un nuovo team Scrum dal menu a discesa o cercare un team nella barra di ricerca.
+1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Cambia team](assets/switch-team-icon.png), quindi seleziona un nuovo team Scrum dal menu a discesa o cerca un team nella barra di ricerca.
 
-1. Seleziona **[!UICONTROL Backlog]** nel pannello sinistro. Quindi, fai clic su **[!UICONTROL Iterazione piano]**.
+1. Seleziona **[!UICONTROL Backlog]** nel pannello a sinistra. Quindi fare clic su **[!UICONTROL Iterazione piano]**.
 
 1. Specifica le seguenti informazioni:
 
@@ -112,7 +112,7 @@ Utilizza il [!UICONTROL Iterazione piano] per creare un’iterazione utilizzando
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Data di fine]</strong> </td> 
-      <td><p>Specificare la data di fine dell'iterazione. [!DNL Workfront] consiglia di impostare una data di fine non superiore a 4 settimane dalla data di inizio.</p><p>Suggerimento: scegli un giorno lavorativo come data di fine. Il grafico a dispersione usa solo giorni lavorativi nei suoi calcoli.<br>Per impostazione predefinita, il grafico a dispersione utilizza la pianificazione predefinita per definire i giorni lavorativi (come descritto in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Creare una pianificazione</a>). In alternativa, per incorporare i giorni non lavorativi specifici del team, i team agili possono scegliere di utilizzare una pianificazione alternativa (come descritto in <a href="../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md" class="MCXref xref">Utilizzare una pianificazione alternativa per i grafici a dispersione</a>).</p></td> 
+      <td><p>Specificare la data di fine dell'iterazione. [!DNL Workfront] consiglia di impostare una data di fine non superiore a 4 settimane dalla data di inizio.</p><p>Suggerimento: scegli un giorno lavorativo come data di fine. Il grafico a dispersione usa solo giorni lavorativi nei suoi calcoli.<br>Per impostazione predefinita, il grafico a dispersione utilizza la pianificazione predefinita per definire i giorni lavorativi (come descritto in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Creare una pianificazione</a>). In alternativa, per incorporare i giorni non lavorativi specifici del team, i team Agile possono scegliere di utilizzare una pianificazione alternativa (come descritto in <a href="../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md" class="MCXref xref">Utilizzare una pianificazione alternativa del team per i grafici a dispersione</a>).</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Focus]</strong></td> 
@@ -132,23 +132,23 @@ Utilizza il [!UICONTROL Iterazione piano] per creare un’iterazione utilizzando
 1. (Facoltativo) Seleziona i brani per aggiungerli ora all&#39;iterazione oppure puoi saltare questo passaggio e aggiungerli a un&#39;iterazione in un secondo momento. Le storie nella parte superiore del backlog hanno priorità più alta. Le storie vengono evidenziate in verde quando rientrano nella loro capacità; in caso contrario vengono evidenziate in rosso.\
    È possibile aggiungere sia attività che problemi a una singola iterazione:
 
-   * **Per aggiungere attività all&#39;iterazione:** Il giorno **[!UICONTROL Backlog]** , assicurati che il **[!UICONTROL Storie]** è selezionata (questa scheda è selezionata per impostazione predefinita quando si visualizza il backlog). Selezionare i brani da aggiungere all&#39;iterazione.\
+   * **Per aggiungere attività all&#39;iterazione:** Nella scheda **[!UICONTROL Backlog]**, verificare che sia selezionata la scheda **[!UICONTROL Storie]** (questa scheda è selezionata per impostazione predefinita durante la visualizzazione del backlog). Selezionare i brani da aggiungere all&#39;iterazione.\
 
-     Quando si aggiungono attività a un&#39;iterazione, la data di inizio dell&#39;attività viene calcolata come descritto in [[!UICONTROL Comprendere] modalità di calcolo delle date di inizio attività aggiunte a un&#39;iterazione](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
+     Quando si aggiungono attività a un&#39;iterazione, la data di inizio dell&#39;attività viene calcolata come descritto in [[!UICONTROL Comprendere] come vengono calcolate le date di inizio dell&#39;attività quando questa viene aggiunta a un&#39;iterazione](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
 
-   * **Per aggiungere problemi all&#39;iterazione:** Il giorno **[!UICONTROL Backlog]** , fare clic sulla scheda **[!UICONTROL Problemi]** scheda. Seleziona i problemi da aggiungere all’iterazione.
+   * **Per aggiungere problemi all&#39;iterazione:** Nella scheda **[!UICONTROL Backlog]**, fare clic sulla scheda **[!UICONTROL Problemi]**. Seleziona i problemi da aggiungere all’iterazione.
 
 1. Fai clic su **[!UICONTROL Salva].**
 Viene creata l&#39;iterazione.
 
-1. (Facoltativo) Per aggiungere brani a un’iterazione esistente, consulta [Aggiungere brani a un&#39;iterazione esistente](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+1. (Facoltativo) Per aggiungere brani a un&#39;iterazione esistente, vedere [Aggiungere brani a un&#39;iterazione esistente](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
 
 ## Informazioni sul calcolo delle date di inizio attività quando vengono aggiunte a un&#39;iterazione {#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration}
 
-Quando si aggiunge un&#39;attività come brano a un&#39;iterazione, [!UICONTROL Deve finire all&#39;attività] viene utilizzato un vincolo per ogni brano. Nella maggior parte dei casi, la data di inizio pianificata dell&#39;attività viene calcolata in base alla formula seguente:
+Quando si aggiunge un&#39;attività come brano a un&#39;iterazione, per ogni brano viene utilizzato il vincolo [!UICONTROL Deve finire all&#39;attività]. Nella maggior parte dei casi, la data di inizio pianificata dell&#39;attività viene calcolata in base alla formula seguente:
 
-[!UICONTROL Data di fine iterazione] meno (-) [!UICONTROL Durata attività] è uguale a (=) [!UICONTROL Data inizio pianificata attività]
+[!UICONTROL Data fine iterazione] meno (-) [!UICONTROL Durata attività] è uguale (=) [!UICONTROL Data inizio attività pianificata]
 
-Il [!UICONTROL Data di fine progetto] viene utilizzato al posto di se la data di inizio del progetto è successiva alla data di inizio dell&#39;iterazione e la data di fine del progetto è successiva alla data di fine dell&#39;iterazione.
+Viene utilizzata la [!UICONTROL Data di fine progetto] al posto della   se la data di inizio del progetto è successiva alla data di inizio dell&#39;iterazione e la data di fine del progetto è successiva a tale data.
 
-È possibile configurare singoli team Scrum in modo che utilizzino le date del progetto per impostazione predefinita, anziché le date di iterazione. Per informazioni, consulta la sezione [Configurare la modalità di applicazione delle date quando si aggiungono elementi di lavoro a un’iterazione](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) nell’articolo [Configura Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+È possibile configurare singoli team Scrum in modo che utilizzino le date del progetto per impostazione predefinita, anziché le date di iterazione. Per informazioni, vedere la sezione [Configurare le modalità di applicazione delle date durante l&#39;aggiunta di elementi di lavoro a un&#39;iterazione](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) nell&#39;articolo [Configurare Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).

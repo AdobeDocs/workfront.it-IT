@@ -18,7 +18,7 @@ ht-degree: 1%
 
 Questa pagina descrive tutti i miglioramenti al progetto inclusi nella versione 2019.2. La funzionalità sarà disponibile nell’ambiente di produzione la settimana del 20 maggio 2019.
 
-Per un elenco di tutte le modifiche apportate in 2019.2, consulta [Panoramica dell’attività sulla versione 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+Per un elenco di tutte le modifiche apportate in 2019.2, consulta [Panoramica delle attività sulla versione 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
 
 ## Ricerca Più Rapida Dei Gruppi Durante La Personalizzazione Degli Stati
 
@@ -26,13 +26,13 @@ Il menu a discesa nella scheda Stati nell’area Configurazione è ora un menu t
 
 In precedenza, il menu a discesa mostrava un numero limitato di gruppi. Se il gruppo desiderato non è visualizzato, è necessario passare a Configurazione > Gruppi e trovare il gruppo specifico per personalizzare gli stati del gruppo.
 
-Per ulteriori informazioni, consulta [Creare o modificare uno stato](../../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+Per ulteriori informazioni, vedere [Creare o modificare uno stato](../../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 ## Allega alle attività i processi di approvazione e Forms personalizzati predefiniti
 
 È ora possibile configurare moduli personalizzati predefiniti e processi di approvazione da allegare alle attività quando si aggiungono attività a un progetto. Puoi configurare le impostazioni predefinite a livello di progetto.
 
-Per informazioni sulla configurazione di moduli personalizzati predefiniti e sui processi di approvazione per le attività a livello di progetto, vedi la sezione &quot;Attività&quot; nella sezione [Modifica progetti](../../../../manage-work/projects/manage-projects/edit-projects.md) articolo.
+Per informazioni sulla configurazione di moduli personalizzati predefiniti e sui processi di approvazione per le attività a livello di progetto, vedi la sezione &quot;Attività&quot; nell&#39;articolo [Modifica progetti](../../../../manage-work/projects/manage-projects/edit-projects.md).
 
 ## Visualizzare l&#39;intera riga di un task padre in grassetto in un elenco di task
 
@@ -44,9 +44,9 @@ Un nuovo pulsante di salvataggio automatico nell&#39;elenco dei task consente di
 
 Prima di questo miglioramento, tutte le modifiche venivano sempre salvate automaticamente.
 
-Per informazioni sulla modifica delle attività in un elenco di attività, vedere [Modifica attività](../../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+Per informazioni sulla modifica delle attività in un elenco attività, vedere [Modifica attività](../../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-Per informazioni sulla modifica delle attività nel diagramma di Gantt, vedere [Aggiorna informazioni nell&#39;elenco delle attività Diagramma di Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+Per informazioni sulla modifica delle attività nel diagramma di Gantt, vedere [Aggiornare le informazioni nell&#39;elenco delle attività Diagramma di Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
 
 ## Nuovi valori predefiniti per la larghezza di colonna nei nuovi elenchi
 
@@ -54,7 +54,7 @@ Ora Workfront regola automaticamente la larghezza delle colonne in base alle inf
 
 Prima di questo miglioramento, la larghezza delle colonne nelle nuove viste progetto e attività era impostata su 100 pixel, salvo diversa indicazione.
 
-Per informazioni sulle larghezze delle colonne, vedi [Modifica la larghezza e l&#39;ordine delle colonne](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
+Per informazioni sulla larghezza delle colonne, vedere [Modificare la larghezza e l&#39;ordine delle colonne](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
 ## Disattiva oggetti inutilizzati
 
@@ -78,7 +78,7 @@ Tutto ciò che disattivi e attualmente in uso continua a funzionare come sempre,
 
 >[!IMPORTANT]
 >
->Quando si creano questi oggetti tramite l’API di Workfront, il valore predefinito per il parametro &quot;isActive&quot; è true. Questo è un nuovo campo per tutti gli oggetti e non è disponibile per la modifica prima della versione 11 dell’API. Questo campo esisteva già per Portfoli, tranne per il fatto che il valore predefinito era falso; passerà al valore predefinito true a partire dalla versione 11 dell’API.
+>Quando si creano questi oggetti tramite l’API di Workfront, il valore predefinito per il parametro &quot;isActive&quot; è true. Questo è un nuovo campo per tutti gli oggetti e non è disponibile per la modifica prima della versione 11 dell’API. Questo campo esisteva già per Portfolio, tranne per il fatto che il valore predefinito era falso; passerà al valore predefinito true a partire dalla versione 11 dell’API.
 
 ## Visualizza il costo preventivato del lavoro programmato (BCWS) e eseguito (BCWP) nelle visualizzazioni
 
@@ -86,7 +86,7 @@ Tutto ciò che disattivi e attualmente in uso continua a funzionare come sempre,
 
 Anche se queste metriche delle prestazioni del progetto sono state utilizzate in precedenza nei calcoli finanziari in Workfront, non erano visibili nel sistema prima di questo miglioramento.
 
-Per informazioni sul calcolo del valore BCWS, vedere [Calcola costo preventivato del lavoro programmato (BCWS)](../../../../manage-work/projects/project-finances/calculate-bcws.md).
+Per informazioni sul calcolo di BCWS, vedere [Calcolare il costo preventivato del lavoro programmato (BCWS)](../../../../manage-work/projects/project-finances/calculate-bcws.md).
 
-Per informazioni sul calcolo del valore BCWP, vedere [Calcola costo preventivato del lavoro eseguito (BCWP)](../../../../manage-work/projects/project-finances/calculate-bcwp.md).
+Per informazioni sul calcolo del valore BCWP, vedere [Calcolare il costo preventivato del lavoro eseguito (BCWP)](../../../../manage-work/projects/project-finances/calculate-bcwp.md).
 

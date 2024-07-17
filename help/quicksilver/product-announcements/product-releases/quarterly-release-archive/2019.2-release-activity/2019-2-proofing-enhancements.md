@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti relativi alla bozza inclusi nella versione 2019.2. La funzionalità sarà disponibile nell’ambiente di produzione la settimana del 20 maggio 2019.
 
-Per un elenco di tutte le modifiche apportate in 2019.2, consulta [Panoramica dell’attività sulla versione 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+Per un elenco di tutte le modifiche apportate in 2019.2, consulta [Panoramica delle attività sulla versione 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
 
 ## Consenti agli utenti senza una licenza di verifica di applicare azioni e risolvere commenti
 
@@ -45,5 +45,5 @@ In qualsiasi rapporto Proof Approval (Approvazione della bozza), è ora possibil
 
 Ciò è utile, ad esempio, se ti è stato chiesto di approvare bozze che hanno più versioni. Quando si esegue il rapporto Proof Approval (Approvazione della bozza) con il filtro Is Current Document Version (È versione corrente del documento), nel rapporto viene elencata solo la versione corrente di ogni bozza in attesa di approvazione, omettendo le versioni precedenti su cui non è più necessario lavorare.
 
-Per ulteriori informazioni, consulta [Filtro: rapporto Proof Approval (Approvazione della bozza) per omettere le versioni precedenti della bozza](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-proof-approval-report.md).
+Per ulteriori informazioni, vedere [Filtro: report Approvazione bozza per omettere le versioni precedenti della bozza](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-proof-approval-report.md).
 

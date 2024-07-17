@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
-In qualità di amministratore di Adobe Workfront, puoi utilizzare un modello di layout per determinare quali informazioni vengono visualizzate quando un utente fa clic sull’icona Dettagli ![](assets/project-details-icon.png) nel pannello a sinistra quando visualizzi un’attività, un problema, un documento, un programma o un portfolio.
+In qualità di amministratore di Adobe Workfront, puoi utilizzare un modello di layout per determinare quali informazioni vengono visualizzate quando un utente fa clic sull&#39;icona Dettagli ![](assets/project-details-icon.png) nel pannello a sinistra durante la visualizzazione di un&#39;attività, un problema, un documento, un programma o un portfolio.
 
 <!--
 or billing record
@@ -31,7 +31,7 @@ Per informazioni sulla creazione di modelli di layout, vedere [Creare e gestire 
 
 Per informazioni sui modelli di layout per i gruppi, vedere [Creare e modificare i modelli di layout di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Dopo aver configurato un modello di layout, è necessario assegnarlo agli utenti affinché le modifiche apportate siano visibili agli altri utenti. Per informazioni sull&#39;assegnazione di un modello di layout agli utenti, vedere [Assegnare utenti a un modello di layout](../use-layout-templates/assign-users-to-layout-template.md).
+Dopo aver configurato un modello di layout, è necessario assegnarlo agli utenti affinché le modifiche apportate siano visibili agli altri utenti. Per informazioni sull&#39;assegnazione di un modello di layout agli utenti, vedere [Assegnare gli utenti a un modello di layout](../use-layout-templates/assign-users-to-layout-template.md).
 
 Le modifiche apportate alla visualizzazione Dettagli per un oggetto determinano inoltre la disponibilità e l&#39;ordine dei campi visualizzati dagli utenti nelle aree seguenti:
 
@@ -51,7 +51,7 @@ Le modifiche apportate alla visualizzazione Dettagli per un oggetto determinano 
   ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
 
 
-* Riepilogo ![](assets/summary-panel-icon.png) pannello per elenchi di attività e problemi
+* Riepilogo del pannello ![](assets/summary-panel-icon.png) per elenchi di attività e problemi
 
   ![](assets/summary-area.png)
 
@@ -61,7 +61,7 @@ Le modifiche apportate alla visualizzazione Dettagli per un oggetto determinano 
 
 * Caselle di conversione, ad esempio le caselle Converti problema in attività o Converti problema in progetto.
 
-  ![Casella Converti problema in attività](assets/convert-issue-to-task-box.png)
+  ![Converti problema in casella attività](assets/convert-issue-to-task-box.png)
 
 Per informazioni sui modelli di layout per i gruppi, vedere [Creare e modificare i modelli di layout di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
@@ -84,7 +84,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Per eseguire questi passaggi a livello di sistema, è necessario disporre del livello di accesso Amministratore di sistema.
-Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo</p> <p><b>NOTA</b>: se ancora non disponi dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo</p> <p><b>NOTA</b>: se non disponi ancora dell'accesso, chiedi all'amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -92,15 +92,15 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo</p> 
 ## Personalizzare gli elementi visualizzati dagli utenti nella visualizzazione Dettagli
 
 1. Iniziare a lavorare su un modello di layout, come descritto in [Creare e gestire modelli di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Fare clic sulla freccia giù ![](assets/dropdown-arrow-12x12.png) in **Personalizzare gli elementi visualizzati dagli utenti**, quindi fai clic su **Progetto**, **Attività**, **Problema**, **Programma**, o **Portfolio.**
+1. Fai clic sulla freccia rivolta verso il basso ![](assets/dropdown-arrow-12x12.png) in **Personalizza gli utenti visualizzati**, quindi fai clic su **Progetto**, **Attività**, **Problema**, **Programma** o **Portfolio.**
 <!--
 , or billing record
 -->
 
-1. In **Dettagli** eseguire una delle operazioni seguenti per personalizzare ciò che gli utenti visualizzano nella visualizzazione Dettagli:
+1. Nella sezione **Dettagli** eseguire una delle operazioni seguenti per personalizzare la visualizzazione della visualizzazione Dettagli:
 
-   * Trascinare le intestazioni di sezione ![](assets/move-icon---dots.png) per modificare l&#39;ordine.
-   * Abilita o disabilita le opzioni in **Panoramica** e **Forms personalizzato** per mostrarli o nasconderli.
+   * Trascinare le intestazioni di sezione ![](assets/move-icon---dots.png) per modificarne l&#39;ordine.
+   * Abilita o disabilita le opzioni in **Panoramica** e **Forms personalizzato** per mostrarle o nasconderle.
 
      Se si nascondono tutti i campi in una di queste sezioni, l&#39;intera sezione viene nascosta.
 
@@ -110,7 +110,7 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo</p> 
 
    Oppure
 
-   Se hai finito di personalizzare, fai clic su **Salva**.
+   Se hai completato la personalizzazione, fai clic su **Salva**.
 
    >[!TIP]
    >

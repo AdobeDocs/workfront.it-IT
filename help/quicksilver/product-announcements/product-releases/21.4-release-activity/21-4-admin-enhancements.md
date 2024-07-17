@@ -17,15 +17,15 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti per gli amministratori apportati con la versione 21.4 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 4 ottobre 2021.
 
-Per un elenco di tutte le modifiche disponibili con la versione 21.4, consulta [Panoramica sulla versione 21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 21.4, consulta la [Panoramica sulla versione 21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Per gli amministratori: scopri i gruppi associati a un processo di approvazione
 
 Per aiutarti a individuare i gruppi associati ai processi di approvazione nel tuo sistema, abbiamo aggiunto una colonna Nome gruppo alla vista Standard nella pagina Approvazioni in Configurazione. Ora è possibile visualizzare queste informazioni senza dover creare una visualizzazione personalizzata.
 
-Per informazioni sui processi di approvazione, consulta [Panoramica del processo di approvazione](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
+Per informazioni sui processi di approvazione, vedere [Panoramica sui processi di approvazione](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
 
-Per informazioni sulla gestione dei processi di approvazione dei gruppi, vedere [Processi di approvazione a livello di gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
+Per informazioni sulla gestione dei processi di approvazione del gruppo, vedere [Processi di approvazione a livello di gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
 
 ## Novità per gli amministratori: i gruppi possono configurare le proprie preferenze per le ore e le schede orario
 
@@ -37,9 +37,9 @@ In un’organizzazione di grandi dimensioni, alcuni gruppi potrebbero dover conf
 
 Questa funzionalità è stata aggiunta di recente anche per le preferenze del progetto e per le preferenze di attività e problemi.
 
-Per informazioni su come un amministratore di Workfront sblocca una preferenza per schede orario e ore, consulta la sezione [Sblocca le preferenze orario e scheda orario per i gruppi](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) nell’articolo [Configurare le preferenze di orario e scheda orario](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Per informazioni su come un amministratore di Workfront sblocca una preferenza di tipo scheda orario e ora, vedere la sezione [Sbloccare le preferenze di tipo scheda orario e ora per i gruppi](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) nell&#39;articolo [Configurare le preferenze di tipo scheda orario e ora](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-Per informazioni su come un amministratore di gruppo configura le attività sbloccate e le preferenze relative ai problemi per un gruppo, consulta [Configurare le preferenze di orario e scheda orario per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+Per informazioni su come un amministratore di gruppo configura le attività sbloccate e le preferenze relative ai problemi per un gruppo, vedere [Configurare le preferenze relative alle ore e alle schede orario per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
 ## Novità per gli amministratori di Workfront: configura modelli di layout per gli utenti con provisioning automatico nella nuova esperienza Workfront
 
@@ -51,13 +51,13 @@ Per istruzioni sulla mappatura degli attributi utente, consulta [Mappare gli att
 
 Ora è facile scoprire a quali gruppi appartengono i tuoi utenti. In un report o in una visualizzazione in cui sono elencati gli utenti, è possibile creare una colonna utilizzando il nuovo campo Altri gruppi. Questo campo elenca i gruppi di cui è membro ogni utente.
 
-Per informazioni sull’utilizzo di report e viste, consulta [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) e [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Per informazioni sull&#39;utilizzo di report e visualizzazioni, vedere [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) e [Visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Nella pagina dei dettagli Blueprint viene ora visualizzata un’immagine
 
 Nella pagina dei dettagli di ogni blueprint ora viene visualizzata un’immagine del modello di progetto installato con la blueprint. L’immagine fornisce un’anteprima del contenuto della blueprint in modo da sapere cosa stai per installare. Facoltativamente, puoi visualizzare l’anteprima dell’immagine completa nel browser o scaricarla.
 
-Per ulteriori informazioni, consulta [Panoramica dei blueprint](../../../administration-and-setup/blueprints/blueprints-overview.md).
+Per ulteriori informazioni, consulta [Panoramica blueprint](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
 ![](assets/blueprint-detailspage.png)
 
@@ -69,7 +69,7 @@ Le preferenze includono gruppi di argomenti della coda, argomenti della coda e r
 
 L’utilizzo di queste preferenze non fa sì che i progetti creati dal modello vengano inseriti nelle code di richiesta.
 
-Per ulteriori informazioni, consulta [Configurare una blueprint](../../../administration-and-setup/blueprints/configure-template-package.md).
+Per ulteriori informazioni, vedere [Configurare una blueprint](../../../administration-and-setup/blueprints/configure-template-package.md).
 
 ## Novità per gli amministratori di gruppi: visualizzazione e gestione degli elementi eliminati e ripristinati di recente in un gruppo
 
@@ -79,7 +79,7 @@ Per ulteriori informazioni, consulta [Configurare una blueprint](../../../admini
 
 Stiamo continuando a semplificare la gestione dei gruppi e degli oggetti associati in un’unica posizione. Ora puoi visualizzare e lavorare con gli elementi eliminati e ripristinati di recente da un gruppo dall’area Gruppi. In questo modo è possibile evitare di dover passare all&#39;area Recently Deleted o Recently Restored in Configurazione per gestire tali elementi. Inoltre, l&#39;elenco degli elementi del gruppo con cui si sta lavorando è separato dagli altri elementi eliminati e ripristinati nel sistema.
 
-Per ulteriori informazioni, consulta [Visualizzare e gestire gli elementi eliminati di recente da un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md) e [Visualizzare e gestire gli elementi ripristinati di recente di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md).
+Per ulteriori informazioni, vedere [Visualizzare e gestire gli elementi eliminati di recente da un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md) e [Visualizzare e gestire gli elementi ripristinati di recente da un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md).
 
 ## Novità per gli amministratori di gruppi: le preferenze di gruppo ora influiscono sui modelli di gruppo
 
@@ -102,13 +102,13 @@ In precedenza, i modelli di progetto e le attività dei modelli di progetto ered
 
 Se si crea un modello o un&#39;attività modello senza un gruppo, ad esempio dalla pagina principale Modelli, le impostazioni di cui sopra vengono ereditate dalle preferenze di progetto e attività a livello di sistema. Tuttavia, se in seguito si assegna un gruppo all&#39;attività modello o modello, le preferenze del gruppo non hanno effetto su di esso.
 
-Per ulteriori informazioni, consulta la sezione Come le preferenze si applicano ai modelli e alle attività dei modelli nell’articolo [Creare e modificare i modelli di progetto di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+Per ulteriori informazioni, vedere la sezione Applicazione delle preferenze ai modelli e alle attività modello nell&#39;articolo [Creare e modificare i modelli di progetto di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 
 ## Novità per gli amministratori: scopri i moduli personalizzati che utilizzano un campo personalizzato
 
 Ora è più semplice modificare un campo personalizzato in un modulo personalizzato. Con un solo clic nel modulo personalizzato, puoi scoprire tutti gli altri moduli personalizzati che utilizzano il campo. È importante valutare se tali moduli avranno bisogno di modifiche per continuare a funzionare correttamente dopo la modifica.
 
-Per ulteriori informazioni, consulta [Visualizzare tutti i moduli personalizzati che utilizzano un campo personalizzato o un widget particolare](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md).
+Per ulteriori informazioni, vedere [Visualizzare tutti i moduli personalizzati che utilizzano un determinato campo personalizzato o widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md).
 
 ## Novità per gli amministratori di gruppi: blocco e sblocco delle preferenze di progetto, attività e problema per un gruppo
 
@@ -118,11 +118,11 @@ Ora puoi fare in modo che tutti gli utenti dei sottogruppi sotto il gruppo utili
 
   Al contrario, è possibile sbloccare una preferenza per il gruppo. Questo consente agli amministratori di sottogruppi di configurarlo in base alle esigenze specifiche di progetto, attività o flusso di lavoro dei problemi dei propri utenti.
 
-  Per ulteriori informazioni, consulta [Bloccare o sbloccare una preferenza di progetto, attività o problema per i sottogruppi](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
+  Per ulteriori informazioni, vedere [Bloccare o sbloccare un progetto, un&#39;attività o una preferenza di problema per i sottogruppi](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
 
 * Se sei un amministratore di Workfront, non è necessario passare all’area Gruppi per configurare le preferenze di un sottogruppo. Nell’area principale Preferenze progetto, Preferenze attività e problemi o Preferenze schede orario e ore puoi utilizzare la casella di ricerca nella parte superiore della pagina per trovare il sottogruppo e configurarne le preferenze.
 
-  Per ulteriori informazioni, consulta [Configurare le preferenze di progetto per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) e [Configurare le preferenze per attività e problemi per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+  Per ulteriori informazioni, consulta [Configurare le preferenze del progetto per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) e [Configurare le preferenze per attività e problemi per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
 ## Novità per gli amministratori di gruppi: creare e modificare modelli dall’area Gruppi
 
@@ -132,7 +132,7 @@ Ora puoi fare in modo che tutti gli utenti dei sottogruppi sotto il gruppo utili
 
 Stiamo continuando a semplificare la gestione dei gruppi e degli oggetti associati in un&#39;unica posizione. Ora è possibile visualizzare e lavorare con i modelli di un gruppo dall’area Gruppi in Configurazione. In questo modo non è più necessario passare all&#39;area Modelli per gestire i modelli di un gruppo. Inoltre, l&#39;elenco dei modelli di gruppo su cui si sta lavorando è separato dagli altri in tutto il sistema.
 
-Per ulteriori informazioni, consulta [Creare e modificare i modelli di progetto di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+Per ulteriori informazioni, vedere [Creare e modificare i modelli di progetto di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 
 ## Immetti e salva le informazioni in un modulo personalizzato allegato alla volta
 
@@ -162,7 +162,7 @@ Anche gli amministratori di Workfront possono eseguire queste operazioni (per tu
 
 In precedenza, questa funzionalità era disponibile solo per i gruppi di primo livello.
 
-Per ulteriori informazioni, consulta [Gestire gli stati dei gruppi](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).
+Per ulteriori informazioni, vedere [Gestire gli stati dei gruppi](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).
 
 ## Novità per gli amministratori di Workfront: migrazione autonoma dei modelli di layout da Workfront Classic alla nuova esperienza Workfront
 
@@ -180,4 +180,4 @@ In precedenza, solo l’Assistenza clienti Workfront poteva migrare i modelli di
 
 Nella versione 21.3, quando è stata aggiunta la possibilità di associare un modello di gruppo a un gruppo, è possibile selezionare un processo di approvazione specifico per il gruppo nel modello, ma non è possibile farlo nei Dettagli coda o Argomenti coda del modello.
 
-Per ulteriori informazioni, consulta [Associa un processo di approvazione nuovo o esistente al lavoro](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+Per ulteriori informazioni, vedere [Associa un processo di approvazione nuovo o esistente a un lavoro](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).

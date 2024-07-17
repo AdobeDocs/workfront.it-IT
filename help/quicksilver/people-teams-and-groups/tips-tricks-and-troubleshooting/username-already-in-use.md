@@ -3,14 +3,14 @@ content-type: tips-tricks-troubleshooting
 product-area: user-management
 navigation-topic: tips-tricks-and-troubleshooting-groups
 title: Nome utente già in uso
-description: Leggi questi suggerimenti quando ottieni un errore che il nome utente è già preso.
+description: Leggi questi suggerimenti quando ricevi un errore che indica che il nome utente è già utilizzato.
 author: Lisa
 feature: People Teams and Groups
 exl-id: dc9accf0-7ef4-4555-9b1c-d69b2110f3da
 source-git-commit: 24bb9b5c0836196a1c6e15f828eb47bbd489ef25
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 0%
+source-wordcount: '302'
+ht-degree: 1%
 
 ---
 
@@ -33,39 +33,39 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurazioni a livello di accesso</strong></td> 
-   <td> <p>[!UICONTROL System Administrator]</p> </td> 
+   <td role="rowheader"><strong>Configurazioni del livello di accesso</strong></td> 
+   <td> <p>[!UICONTROL Amministratore di sistema]</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Domanda
 
-Quando crei un nuovo utente, un [!UICONTROL Whops] viene visualizzato un errore che indica che il nome utente è già stato preso. Non ci sono altre occorrenze di questo messaggio e-mail nel sistema. Perché viene visualizzato?
+Durante la creazione di un nuovo utente, viene visualizzato un errore [!UICONTROL Ops] che indica che il nome utente è già utilizzato. Non ci sono altre occorrenze di questa e-mail nel sistema. Perché viene visualizzato?
 
 ## Soluzione
 
-Questo può verificarsi perché il nome utente o l’indirizzo e-mail non è univoco nel [!DNL Adobe Workfront] istanza. Gli utenti possono avere lo stesso nome utente o indirizzo e-mail in istanze separate. Ad esempio, l’utente A potrebbe avere i seguenti indirizzi e-mail associati a un [!DNL Workfront] account: usera@company1.com e usera@company2.com.
+Ciò può verificarsi perché il nome utente o l&#39;indirizzo e-mail non è univoco nell&#39;istanza [!DNL Adobe Workfront] corrente. Gli utenti possono avere lo stesso nome utente o indirizzo e-mail in istanze separate. Ad esempio, l&#39;utente A potrebbe avere i seguenti indirizzi e-mail associati a un account [!DNL Workfront]: usera@company1.com e usera@company2.com.
 
 >[!NOTE]
 >
->Il principale [!DNL Workfront] l&#39;amministratore non può avere lo stesso nome utente o indirizzo e-mail se si trovano in istanze Workfront separate sullo stesso cluster.
+>L&#39;amministratore [!DNL Workfront] primario non può avere lo stesso nome utente o indirizzo di posta elettronica se si trova in istanze Workfront separate nello stesso cluster.
 >
->Se le istanze si trovano in cluster diversi, l&#39;amministratore principale può avere lo stesso nome utente o indirizzo e-mail. Puoi visualizzare il cluster su cui si trova l&#39;istanza in [!UICONTROL Configurazione] > [!UICONTROL Sistema] > [!UICONTROL Informazioni cliente].
+>Se le istanze si trovano in cluster diversi, l’amministratore principale può avere lo stesso nome utente o indirizzo e-mail. Puoi visualizzare il cluster in cui si trova l&#39;istanza in [!UICONTROL Configurazione] > [!UICONTROL Sistema] > [!UICONTROL Informazioni cliente].
 
-### Controlla se il tuo nome utente è univoco nella tua istanza
+### Verifica se il nome utente è univoco nella tua istanza
 
-Assicurati che il nome utente e l’indirizzo e-mail siano univoci nell’attuale [!DNL Workfront] istanza:
+Verificare che il nome utente e l&#39;indirizzo di posta elettronica siano univoci nell&#39;istanza [!DNL Workfront] corrente:
 
-1. Come [!DNL Workfront] amministratore, fai clic su **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Utenti]**.
-1. Nell’elenco delle persone, consulta **[!UICONTROL E-mail]** per garantire che non vi siano e-mail duplicate.
-1. Aggiungi una colonna per il nome utente alla visualizzazione.
+1. In qualità di amministratore [!DNL Workfront], fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Utenti]**.
+1. Nell&#39;elenco delle persone, cerca nella colonna **[!UICONTROL E-mail]** per verificare che non siano presenti e-mail duplicate.
+1. Aggiungi alla vista una colonna per il nome utente.
 
-   1. In **[!UICONTROL Visualizza]** menu a discesa, fai clic su **[!UICONTROL Personalizza visualizzazione]**.
+   1. Nel menu a discesa **[!UICONTROL Visualizza]**, fare clic su **[!UICONTROL Personalizza visualizzazione]**.
    1. Fai clic su **[!UICONTROL Aggiungi colonna]**.
-   1. Nel campo di ricerca, digita *[!UICONTROL username]*.
-   1. Seleziona **[!UICONTROL Utente]** > **[!UICONTROL Nome utente]**.
-   1. Salva la visualizzazione.\
-      In questo modo si visualizzano i nomi utente in cui è possibile cercare il duplicato.
+   1. Nel campo di ricerca digitare *[!UICONTROL nomeutente]*.
+   1. Selezionare **[!UICONTROL Utente]** > **[!UICONTROL Nome utente]**.
+   1. Salvate la vista.\
+      In questo modo viene visualizzata una vista in cui vengono visualizzati i nomi utente da cui cercare il duplicato.
 
-1. Nell’elenco delle persone, consulta **[!UICONTROL Nome utente]** per evitare la presenza di nomi utente duplicati.
+1. Nell&#39;elenco delle persone, controllare nella colonna **[!UICONTROL Nome utente]** per verificare che non siano presenti nomi utente duplicati.

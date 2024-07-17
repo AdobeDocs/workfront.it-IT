@@ -11,7 +11,7 @@ exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
 source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
 source-wordcount: '558'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 La Data di completamento pianificata di un progetto è la data entro la quale il progetto è impostato per essere completato.
 
-L&#39;Inizio pianificato e le Date di completamento pianificate di un progetto si basano sulle date delle attività del progetto. Questo articolo descrive come impostare manualmente o automaticamente la Data di completamento pianificata di un progetto. Per ulteriori informazioni sulla data di completamento pianificata di un&#39;attività, vedere [Panoramica della data di completamento pianificata dell&#39;attività](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+L&#39;Inizio pianificato e le Date di completamento pianificate di un progetto si basano sulle date delle attività del progetto. Questo articolo descrive come impostare manualmente o automaticamente la Data di completamento pianificata di un progetto. Per ulteriori informazioni sulla data di completamento pianificata di un&#39;attività, vedere [Panoramica sulla data di completamento pianificata dell&#39;attività](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
 La data di completamento pianificata di un progetto può essere impostata manualmente o automaticamente, a seconda che il progetto sia pianificato dall’inizio o dalla data di completamento.
 
@@ -78,12 +78,12 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Impostare manualmente la data di completamento pianificata di un progetto
 
@@ -96,20 +96,20 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 
 Per programmare un progetto dalla data di completamento:
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro, quindi fai clic su **Progetti**.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** in alto a destra, quindi fai clic su **Progetti**.
 
-1. Clic **Nuovo progetto** allora **Nuovo progetto**.
+1. Fai clic su **Nuovo progetto** e quindi su **Nuovo progetto**.
 
-   Per ulteriori informazioni sulla creazione di progetti, consulta l’articolo [Creare un progetto](../../../manage-work/projects/create-projects/create-project.md).
+   Per ulteriori informazioni sulla creazione di progetti, vedere l&#39;articolo [Creare un progetto](../../../manage-work/projects/create-projects/create-project.md).
 
-1. Seleziona **Dettagli progetto** nel pannello a sinistra, fai clic su **Modifica Progetto** nell’angolo in alto a destra.
+1. Seleziona **Dettagli progetto** nel pannello a sinistra, quindi fai clic sull&#39;icona **Modifica progetto** nell&#39;angolo superiore destro.
 
-1. In **Modalità Schedule** campo, seleziona **Data di completamento**.
+1. Nel campo **Modalità pianificazione**, seleziona **Data completamento**.
 
-1. Specifica la **Data di completamento Pianificata** del progetto.
-1. Clic **Salva modifiche**.
+1. Specifica la **data di completamento pianificata** del progetto.
+1. Fai clic su **Salva modifiche**.
 
-   Quando inizi ad aggiungere attività al progetto, il **Data Inizio Pianificata** del progetto in base alla durata totale di tutte le attività. 
+   Quando si iniziano ad aggiungere attività al progetto, la **Data inizio pianificata** del progetto viene calcolata in base alla durata totale di tutte le attività. 
 
 ## Impostare automaticamente la data di completamento pianificata di un progetto
 
@@ -117,22 +117,22 @@ La data di completamento pianificata di un progetto viene calcolata automaticame
 
 Per programmare un progetto dalla data di inizio:
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro, quindi fai clic su **Progetti**.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** in alto a destra, quindi fai clic su **Progetti**.
 
-1. Clic **Nuovo progetto** allora **Nuovo progetto**.
+1. Fai clic su **Nuovo progetto** e quindi su **Nuovo progetto**.
 
-   Per ulteriori informazioni sulla creazione di progetti, consulta l’articolo [Creare un progetto](../../../manage-work/projects/create-projects/create-project.md).
+   Per ulteriori informazioni sulla creazione di progetti, vedere l&#39;articolo [Creare un progetto](../../../manage-work/projects/create-projects/create-project.md).
 
-1. Seleziona **Dettagli progetto** nel pannello a sinistra, fai clic su **Modifica Progetto** nell’angolo in alto a destra.
+1. Seleziona **Dettagli progetto** nel pannello a sinistra, quindi fai clic sull&#39;icona **Modifica progetto** nell&#39;angolo superiore destro.
 
-1. In **Modalità Schedule** campo, seleziona **Data di inizio**.
+1. Nel campo **Modalità pianificazione**, selezionare **Data inizio**.
 
-1. Specifica la **Data Inizio Pianificata** del progetto.
-1. Clic **Salva modifiche**.
+1. Specifica la **Data inizio pianificata** del progetto.
+1. Fai clic su **Salva modifiche**.
 
-   Quando inizi ad aggiungere attività al progetto, il **Data di completamento Pianificata** del progetto in base alla durata totale di tutte le attività. 
+   Quando inizi ad aggiungere attività al progetto, la **Data di completamento pianificata** del progetto viene calcolata in base alla durata totale di tutte le attività. 
 
-   Per ulteriori informazioni sulla durata dell&#39;attività, vedere l&#39;articolo [Panoramica sulla durata e sul tipo di durata dell&#39;attività](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   Per ulteriori informazioni sulla durata dell&#39;attività, vedere l&#39;articolo [Panoramica sulla durata dell&#39;attività e sul tipo di durata](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
    La data di completamento pianificata del progetto coincide, in questo caso, con la data di completamento pianificata dell&#39;ultima attività del progetto.
 

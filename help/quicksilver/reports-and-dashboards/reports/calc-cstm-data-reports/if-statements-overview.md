@@ -27,9 +27,9 @@ Prima di creare un&#39;istruzione &quot;IF&quot;, considera quanto segue:
 * Per questa guida si consiglia di conoscere tutti i linguaggi di programmazione generali, ma non è necessario conoscerli.
 * È necessaria una comprensione avanzata della sintassi della modalità testo di Workfront. Questo aiuta a comprendere la terminologia dell’API di Workfront e la sintassi dei dati personalizzati in questi formati specifici.
 
-  Per informazioni sull’API di Workfront, consulta [Nozioni di base sulle API](../../../wf-api/general/api-basics.md).
+  Per informazioni sull&#39;API Workfront, vedere [Nozioni di base sull&#39;API](../../../wf-api/general/api-basics.md).
 
-  Per informazioni sull&#39;utilizzo della modalità testo, vedere [Panoramica sulla modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+  Per informazioni sull&#39;utilizzo della modalità testo, vedere [Cenni preliminari sulla modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 * Puoi creare istruzioni &quot;IF&quot; per i seguenti elementi di Workfront:
 
@@ -46,8 +46,8 @@ Prima di creare un&#39;istruzione &quot;IF&quot;, considera quanto segue:
 Puoi creare istruzioni &quot;IF&quot; in Workfront utilizzando il seguente formato:
 <pre>IF(Condizione,Espressione reale,Espressione falsa)</pre>I componenti di un'istruzione "IF" sono:
 
-* **IF** = Espressione dei dati calcolati di Workfront per &quot;function&quot;. Simile alle espressioni SUM e PROD, questa prima istruzione indica al sistema di comprendere la funzione come un&#39;istruzione &quot;IF&quot;. Utilizzare sempre lettere maiuscole per &quot;IF&quot; in questa istruzione.\
-  Per un elenco di tutte le espressioni di dati calcolati, vedi [Panoramica delle espressioni di dati calcolati](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+* **IF** = Espressione dati calcolata di Workfront per &quot;function&quot;. Simile alle espressioni SUM e PROD, questa prima istruzione indica al sistema di comprendere la funzione come un&#39;istruzione &quot;IF&quot;. Utilizzare sempre lettere maiuscole per &quot;IF&quot; in questa istruzione.\
+  Per un elenco di tutte le espressioni di dati calcolati, vedere [Panoramica delle espressioni di dati calcolati](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 * **Condizione** = Questa è la condizione che la variabile Workfront deve soddisfare ed è la base per questa equazione. Tutto ciò che può essere successivamente specificato nell&#39;equazione dipende dalla condizione. È possibile utilizzare una serie di riferimenti, confronti o espressioni matematiche per avviare un&#39;equazione. Alcuni esempi di condizioni sono:
 
@@ -55,11 +55,11 @@ Puoi creare istruzioni &quot;IF&quot; in Workfront utilizzando il seguente forma
    * Uno stato è uguale a uno degli stati disponibili su un oggetto specificato.
    * La percentuale di completamento di un&#39;attività è minore o maggiore di una determinata percentuale.
 
-* **Operatore condizione** = questo è l’operatore che ti aiuta a creare la condizione dell’istruzione &quot;IF&quot;. Ad esempio, &quot;è uguale a&quot; o &quot;è maggiore di&quot; sono operatori di condizione. Per un elenco degli operatori di condizione che è possibile utilizzare nelle istruzioni, vedere [Operatori condizione nelle espressioni personalizzate calcolate](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
+* **Operatore condizione** = operatore che consente di creare la condizione dell&#39;istruzione &quot;IF&quot;. Ad esempio, &quot;è uguale a&quot; o &quot;è maggiore di&quot; sono operatori di condizione. Per un elenco degli operatori di condizione utilizzabili nelle istruzioni, vedere [Operatori di condizione nelle espressioni personalizzate calcolate](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
-* **Espressione ****** = Questa è la variabile &quot;True&quot;, che indica all&#39;equazione quale indicatore visualizzare una volta soddisfatti i criteri della condizione (indicatori true).
+* **True****Expression** = Questa è la variabile &quot;True&quot;, che indica all&#39;equazione quale indicatore visualizzare una volta soddisfatti i criteri della condizione (indicatori true).
 
-* **Espressione False** = Variabile &quot;False&quot; che indica all&#39;equazione quale indicatore visualizzare quando i criteri della condizione non sono soddisfatti (indicatori falsi).
+* **Espressione falsa** = Variabile &quot;False&quot; che indica all&#39;equazione quale indicatore visualizzare quando i criteri della condizione non sono soddisfatti (indicatori falsi).
 
 Nell&#39;esempio seguente viene utilizzato il formato di istruzione originale per scrivere un&#39;espressione dati semplice per un&#39;istruzione &quot;IF&quot;. L’espressione confronta due diversi campi data in Workfront seguiti da un risultato Vero/Falso come stringa di dati:
 
@@ -75,7 +75,7 @@ Nel discorso di tutti i giorni, questa affermazione significherebbe: se la data 
 
 La sintassi utilizzata in un modulo personalizzato calcolato è diversa da quella di una colonna personalizzata calcolata. Consulta i seguenti esempi:
 
-* [Istruzioni singole &quot;IF&quot;](#single-if-statements)
+* [Istruzioni &quot;IF&quot; singole](#single-if-statements)
 * [Più istruzioni &quot;IF&quot;](#multiple-if-statements)
 
 ### Istruzioni singole &quot;IF&quot; {#single-if-statements}
@@ -121,6 +121,6 @@ valueexpression=IF({"projectedCompletionDate"}>{"plannedCompletionDate"},"Off Tr
 In questo esempio, lo stesso risultato è stato ottenuto mettendo insieme due variabili di criteri diverse.\
 Puoi esplorare ulteriormente queste opzioni ricostruendo questi esempi nel tuo ambiente.
 
-Il modo migliore per imparare questo è sperimentare con vari campi e scenari. Acquisisci inoltre familiarità con API Explorer, che rivela i nomi dei campi che possono essere utilizzati. Per informazioni su API Explorer, consulta [API Explorer](../../../wf-api/general/api-explorer.md).
+Il modo migliore per imparare questo è sperimentare con vari campi e scenari. Acquisisci inoltre familiarità con API Explorer, che rivela i nomi dei campi che possono essere utilizzati. Per informazioni su API Explorer, vedere [API Explorer](../../../wf-api/general/api-explorer.md).
 
-Per ulteriori informazioni sulla sintassi Workfront delle espressioni di dati calcolati, vedi [Panoramica delle espressioni di dati calcolati](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Per ulteriori informazioni sulla sintassi Workfront delle espressioni di dati calcolati, vedere [Panoramica delle espressioni di dati calcolati](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).

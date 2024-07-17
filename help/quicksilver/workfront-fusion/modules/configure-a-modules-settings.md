@@ -2,7 +2,7 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
-title: Configurare le impostazioni di un modulo in [!DNL Adobe Workfront Fusion]
+title: Configura le impostazioni di un modulo in [!DNL Adobe Workfront Fusion]
 description: È necessario configurare le impostazioni per ogni modulo creato.
 author: Becky
 feature: Workfront Fusion
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 È necessario configurare le impostazioni per ogni modulo creato.
 
-Ad esempio, il [[!DNL Dropbox] moduli](../../workfront-fusion/apps-and-their-modules/dropbox-modules.md) per i moduli è necessario specificare la cartella di destinazione in cui si desidera caricare i file. Per [[!UICONTROL E-mail] moduli](../../workfront-fusion/apps-and-their-modules/email-modules.md) moduli, devi immettere l’indirizzo e-mail a cui inviare le e-mail.
+Ad esempio, per i moduli [[!DNL Dropbox] module](../../workfront-fusion/apps-and-their-modules/dropbox-modules.md) è necessario specificare la cartella di destinazione in cui si desidera caricare i file. Per i moduli [[!UICONTROL E-mail]](../../workfront-fusion/apps-and-their-modules/email-modules.md), devi immettere l&#39;indirizzo e-mail a cui inviare le e-mail.
 
 >[!NOTE]
 >
@@ -43,25 +43,25 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   <tr> 
    <td role="rowheader">Licenza [!UICONTROL Adobe Workfront Fusion]**</td> 
    <td>
-   <p>Fabbisogno di licenza corrente: No [!DNL Workfront Fusion] requisito di licenza.</p>
+   <p>Requisiti di licenza correnti: nessun requisito di licenza [!DNL Workfront Fusion].</p>
    <p>Oppure</p>
-   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro] </p>
+   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione del lavoro] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
    <td>
-   <p>Fabbisogno prodotto corrente: se si dispone di [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Pianifica, la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo. [!DNL Workfront Fusion] è incluso in [!UICONTROL Ultimate] [!DNL Workfront] piano.</p>
+   <p>Fabbisogno prodotto corrente: se si dispone del piano [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], l'organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo. [!DNL Workfront Fusion] è incluso nel piano [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>Oppure</p>
-   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</p>
+   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</p>
    </td> 
   </tr>  
  </tbody> 
 </table>
 
-Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore [!DNL Workfront].
 
-Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Configurare le impostazioni di un modulo
 
@@ -69,17 +69,17 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe
 
    Oppure
 
-   Fai clic sull’icona del modulo nell’editor scenario, come descritto in [Creare uno scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+   Fare clic sull&#39;icona del modulo nell&#39;editor di scenari, come descritto in [Creare uno scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-1. Se necessario per il modulo, crea un’ **[!UICONTROL Connessione]** all&#39;account utente registrato per quel determinato servizio, come descritto in [Panoramica delle connessioni](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+1. Se necessario per il modulo, crea una **[!UICONTROL Connessione]** all&#39;account utente registrato per il servizio specificato, come descritto in [Panoramica connessioni](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 1. Digitare il testo appropriato in ogni campo.
 
    Oppure
 
-   Clic **[!UICONTROL Mappa]** se viene visualizzato a destra del campo, mappa un elemento da un altro modulo nello scenario.
+   Fai clic su **[!UICONTROL Mappa]** se appare a destra del campo, quindi mappa un elemento da un altro modulo nello scenario.
 
    Sono necessari parametri in grassetto.
 
-   Per informazioni sui diversi tipi di dati degli elementi [!DNL Workfront Fusion] può riconoscere (ad esempio data, numero e testo), vedi [Tipi di dati degli elementi in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md).
+   Per informazioni sui diversi tipi di dati degli elementi che [!DNL Workfront Fusion] può riconoscere (ad esempio data, numero e testo), vedere [Tipi di dati degli elementi in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md).
 
-1. (Condizionale) Se il modulo include opzioni avanzate da visualizzare e utilizzare, seleziona **[!UICONTROL Mostra impostazioni avanzate]**.
+1. (Condizionale) Se il modulo include opzioni avanzate che si desidera visualizzare e utilizzare, selezionare **[!UICONTROL Mostra impostazioni avanzate]**.

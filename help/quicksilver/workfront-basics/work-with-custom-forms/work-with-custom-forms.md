@@ -19,6 +19,6 @@ ht-degree: 0%
 Questa sezione contiene i seguenti articoli:
 
 * [Aggiungere un modulo personalizzato a un oggetto](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
-* [Modificare le informazioni nei campi modulo personalizzati](../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)
-* [Esportare moduli personalizzati e dettagli oggetto](../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)
+* [Modifica informazioni nei campi modulo personalizzati](../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)
+* [Esporta moduli personalizzati e dettagli oggetto](../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)
 * [Gestire i moduli personalizzati allegati agli oggetti](../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)

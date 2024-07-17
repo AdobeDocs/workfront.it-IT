@@ -1,8 +1,8 @@
 ---
 product-area: agile-and-teams
 navigation-topic: burndown
-title: Sincronizzazione dei dati nel grafico a discesa
-description: Il grafico a discesa viene sincronizzato automaticamente con i dati presenti nel progetto o nell’iterazione. Se il grafico a discesa non è mai sincronizzato con i dati del progetto o dell’iterazione, puoi sincronizzarlo manualmente.
+title: Sincronizzare i dati nel grafico a dispersione
+description: Il grafico a dispersione viene sincronizzato automaticamente con i dati del progetto o dell'iterazione. Se il grafico di masterizzazione non è sincronizzato con i dati del progetto o dell'iterazione, è possibile sincronizzarlo manualmente.
 author: Lisa
 feature: Agile
 exl-id: 39086d73-4835-4e15-8fa6-7a7efc48a38b
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# Sincronizzazione dei dati nel grafico a discesa
+# Sincronizzare i dati nel grafico a dispersione
 
-Il grafico a discesa viene sincronizzato automaticamente con i dati presenti nel progetto o nell’iterazione. Se il grafico a discesa non è mai sincronizzato con i dati del progetto o dell’iterazione, puoi sincronizzarlo manualmente.
+Il grafico a dispersione viene sincronizzato automaticamente con i dati del progetto o dell&#39;iterazione. Se il grafico di masterizzazione non è sincronizzato con i dati del progetto o dell&#39;iterazione, è possibile sincronizzarlo manualmente.
 
 ## Requisiti di accesso
 
@@ -38,13 +38,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-&#42;Per sapere quale piano o tipo di licenza hai, contatta il tuo [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano o il tipo di licenza disponibile, contattare l&#39;amministratore [!DNL Workfront].
 
-## Sincronizza manualmente il grafico a discesa con i dati nell’iterazione
+## Sincronizzare manualmente il grafico a burn-down con i dati nell’iterazione
 
-1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Team]**.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Team]**.
 
-1. (Facoltativo) Fai clic sul pulsante **[!UICONTROL Cambia team]** icona ![Icona Cambia team](assets/switch-team-icon.png), quindi seleziona un nuovo team Scrum dal menu a discesa o cerca un team nella barra di ricerca.
+1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Cambia team](assets/switch-team-icon.png), quindi seleziona un nuovo team Scrum dal menu a discesa o cerca un team nella barra di ricerca.
 
-1. Passa all’iterazione in cui desideri sincronizzare manualmente il grafico a discesa.
-1. Fai clic sull’icona di sincronizzazione ![Icona di sincronizzazione](assets/agile-syncicon.png) accanto al nome dell’iterazione.
+1. Passare all&#39;iterazione in cui si desidera sincronizzare manualmente il grafico a burn-down.
+1. Fare clic sull&#39;icona di sincronizzazione ![Icona di sincronizzazione](assets/agile-syncicon.png) accanto al nome dell&#39;iterazione.

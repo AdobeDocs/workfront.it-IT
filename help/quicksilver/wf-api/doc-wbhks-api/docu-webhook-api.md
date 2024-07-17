@@ -10,8 +10,8 @@ role: Developer
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '3646'
-ht-degree: 3%
+source-wordcount: '3620'
+ht-degree: 2%
 
 ---
 
@@ -30,7 +30,7 @@ L’esperienza utente per le integrazioni basate su webhook sarà simile a quell
 
 ## Implementazione di riferimento
 
-Per aiutarti a iniziare lo sviluppo di una nuova implementazione di webhook, Workfront fornisce un’implementazione di riferimento. Il codice per questo è disponibile all&#39;indirizzo [https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app). Questa implementazione è basata su Java e consente a Workfront di collegare documenti su un file system di rete.
+Per aiutarti a iniziare lo sviluppo di una nuova implementazione di webhook, Workfront fornisce un’implementazione di riferimento. Il codice relativo a questo elemento è disponibile all&#39;indirizzo [https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app). Questa implementazione è basata su Java e consente a Workfront di collegare documenti su un file system di rete.
 
 ## Registrazione di un&#39;integrazione webhook
 
@@ -108,7 +108,7 @@ poter agire per loro conto. Questo processo di handshake viene eseguito una sola
 1. L’utente inizia a collegare l’integrazione del webhook al proprio account. Attualmente, questo viene fatto facendo clic sul menu a discesa &quot;Aggiungi documento&quot; > &quot;Aggiungi servizio&quot; > Nome dell’integrazione personalizzata.
 1. Workfront passa all’utente tramite l’URL di autenticazione, che può richiedere all’utente di accedere al provider di documenti esterno. Questa pagina è ospitata dal provider del webhook o dal sistema esterno di gestione dei documenti. Workfront aggiunge un parametro &quot;state&quot; all’URL di autenticazione. Questo valore deve essere restituito a Workfront aggiungendo lo stesso valore all’URI di ritorno Workfront nel passaggio seguente.
 1. Dopo aver effettuato l’accesso al sistema esterno (o se l’utente ha già effettuato l’accesso), viene visualizzata una pagina di &quot;Autenticazione&quot; in cui viene spiegato che Workfront richiede l’accesso per eseguire una serie di azioni per conto dell’utente.
-1. Se l’utente fa clic sul pulsante &quot;Consenti&quot;, il browser reindirizzerà all’URI di reindirizzamento di Workfront , aggiungendo &quot;code=`<code>`&quot; alla querystring. In base alla specifica OAuth2, questo token ha una durata breve. La stringa di query deve inoltre avere il seguente stato: &quot;state=`<sent_by_workfront>`&quot;.
+1. Se l&#39;utente fa clic sul pulsante &quot;Consenti&quot;, il browser reindirizzerà all&#39;URI di reindirizzamento di Workfront , aggiungendo &quot;code=`<code>`&quot; alla stringa di query. In base alla specifica OAuth2, questo token ha una durata breve. La stringa di query deve inoltre avere il seguente &quot;state=`<sent_by_workfront>`&quot;.
 1. Workfront elabora questa richiesta e effettua una chiamata API all’URL dell’endpoint del token con il codice di autorizzazione.
 1. L’URL dell’endpoint token restituisce un token di aggiornamento e un token di accesso.
 1. Workfront memorizza questi token ed esegue il provisioning completo dell’integrazione del webhook per questo utente.
@@ -172,7 +172,7 @@ HTTP Request POST /any/url
 
 L’URL è configurabile e corrisponde al valore dell’URL dell’endpoint del token nella pagina di configurazione dell’integrazione personalizzata.
 
-**Parametri di query**
+**Parametri query**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -279,7 +279,7 @@ Restituisce i metadati per il file o la cartella specificata.
 
 GET /metadata?id=[ID documento o cartella]
 
-**Parametri di query**
+**Parametri query**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -315,7 +315,7 @@ GET /metadata?id=[ID documento o cartella]
  </thead> 
  <tbody> 
   <tr> 
-   <td>title </td> 
+   <td>titolo </td> 
    <td>Stringa </td> 
    <td>Nome del documento o della cartella</td> 
   </tr> 
@@ -391,7 +391,7 @@ Restituisce i metadati per i file e le cartelle di una determinata cartella.
 
 GET/file
 
-**Parametri di query**
+**Parametri query**
 
 | Nome  | Descrizione |
 |---|---|
@@ -442,7 +442,7 @@ Restituisce i metadati per i file e le cartelle restituiti da una ricerca. Quest
 
 GET/ricerca
 
-**Parametri di query**
+**Parametri query**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -492,7 +492,7 @@ Restituisce i byte non elaborati di un documento
 
 GET/download
 
-**Parametri di query**
+**Parametri query**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -527,7 +527,7 @@ Restituisce i byte delle miniature non elaborati per un documento.
 
 GET/miniatura
 
-**Parametri di query**
+**Parametri query**
 
 | Nome  | Descrizione |
 |---|---|
@@ -554,7 +554,7 @@ Aggiunto alla versione 1.1 di questa specifica, l&#39;ID documento e l&#39;ID ve
 
 POST /uploadInit
 
-**Parametri di query**
+**Parametri query**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -605,7 +605,7 @@ Carica i byte di un documento nel provider del webhook.
 
 PUT /upload
 
-**Parametri di query**
+**Parametri query**
 
 | Nome  | Descrizione |
 |---|---|
@@ -614,7 +614,7 @@ PUT /upload
 
  
 
-**Corpo della richiesta**
+**Corpo richiesta**
 
 Byte di contenuto non elaborato per il documento.
 
@@ -634,7 +634,7 @@ oppure
 }
 ```
 
-**Esempio:** `https://www.acme.com/api/upload?id=1234` *[byte dei documenti inclusi nel flusso di aggiornamento]*
+**Esempio:** `https://www.acme.com/api/upload?id=1234` *[byte del documento inclusi nel flusso di aggiornamento]*
 
 **Risposta**
 
@@ -722,12 +722,12 @@ URL
 
 POST /createFolder
 
-**Parametri di query**
+**Parametri query**
 
 | Nome  | Descrizione |
 |---|---|
 | parentId  | ID cartella in cui creare la cartella |
-| name  | Nome della nuova cartella |
+| nome  | Nome della nuova cartella |
 
 {style="table-layout:auto"}
 
@@ -770,7 +770,7 @@ URL
 
 PUT /delete
 
-**Parametri di query**
+**Parametri query**
 
 | Nome  | Descrizione |
 |---|---|
@@ -808,18 +808,18 @@ URL
 
 PUT /rename
 
-**Parametri di query**
+**Parametri query**
 
 | Nome  | Descrizione |
 |---|---|
 | id | ID documento o cartella da rinominare |
-| name  | Nuovo nome del documento o della cartella |
+| nome  | Nuovo nome del documento o della cartella |
 
 {style="table-layout:auto"}
 
  
 
-risposta
+Risposta
 
 Stringa JSON che indica l’esito positivo o negativo, come specificato nella sezione Gestione degli errori di seguito.
 
@@ -860,7 +860,7 @@ Gli utenti possono attivare l’azione personalizzata selezionando la sezione in
 
 GET /customAction
 
-**Parametri di query**
+**Parametri query**
 
 <table style="table-layout:auto">
  <col>
@@ -1007,7 +1007,7 @@ Verifica i seguenti endpoint: /files, /uploadInit, /upload
 Verifica i seguenti endpoint: /thumbnail
 
 1. Collegare un documento a Workfront.
-1. Selezionare il documento nell&#39;elenco.
+1. Seleziona il documento nell’elenco.
 1. Verifica che la miniatura venga visualizzata nel pannello di destra.
 
 ### Prova 9: recupero dei byte di contenuto

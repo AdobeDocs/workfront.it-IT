@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Crittografia
 
-[!DNL Adobe Workfront Fusion] [!UICONTROL Crittografia] I moduli consentono di crittografare qualsiasi dato di testo. Attualmente supportano la crittografia dei messaggi tramite AES256 e PGP ([!UICONTROL OpenPGP]).
+I moduli [!DNL Adobe Workfront Fusion] [!UICONTROL Encryptor] ti consentono di crittografare i dati di testo. Attualmente supportano la crittografia dei messaggi tramite AES256 e PGP ([!UICONTROL OpenPGP]).
 
 ## Requisiti di accesso
 
@@ -35,35 +35,35 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licenza**</td> 
    <td>
-   <p>Fabbisogno di licenza corrente: No [!DNL Workfront Fusion] requisito di licenza.</p>
+   <p>Requisiti di licenza correnti: nessun requisito di licenza [!DNL Workfront Fusion].</p>
    <p>Oppure</p>
-   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro], [!UICONTROL [!DNL Workfront Fusion] per automazione lavoro]</p>
+   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione lavoro], [!UICONTROL [!DNL Workfront Fusion] per automazione lavoro]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
    <td>
-   <p>Fabbisogno prodotto corrente: se si dispone di [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Pianifica, la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo. [!DNL Workfront Fusion] è incluso in [!UICONTROL Ultimate] [!DNL Workfront] piano.</p>
+   <p>Fabbisogno prodotto corrente: se si dispone del piano [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], l'organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo. [!DNL Workfront Fusion] è incluso nel piano [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>Oppure</p>
-   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</p>
+   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore [!DNL Workfront].
 
-Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Crittografia e decrittografia dei messaggi tramite PGP
 
 Durante la crittografia e la decrittografia tramite PGP, è necessario utilizzare un portachiavi e creare una chiave privata o pubblica (o entrambe).
 
-Per ulteriori informazioni sulle chiavi pubbliche e private, consulta [Termini di base in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/basic-terms.md). Per ulteriori informazioni sulle portachiavi, consulta [Chiavi in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/connections/keys.md).
+Per ulteriori informazioni sulle chiavi pubbliche e private, vedere [Termini di base in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/basic-terms.md). Per ulteriori informazioni sulle portachiavi, vedere [Tasti in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/connections/keys.md).
 
-## [!UICONTROL Crittografia] moduli e relativi campi
+## [!UICONTROL Moduli Encryptor] e relativi campi
 
-Durante la configurazione [!UICONTROL Crittografia] moduli, vengono visualizzati i seguenti campi. Un titolo in grassetto in un modulo indica un campo obbligatorio.
+Durante la configurazione di [!UICONTROL moduli Encryptor] vengono visualizzati i campi seguenti. Un titolo in grassetto in un modulo indica un campo obbligatorio.
 
 ### Crittografare un messaggio PGP
 

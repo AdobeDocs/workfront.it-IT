@@ -39,27 +39,27 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Accesso di visualizzazione o accesso successivo all’oggetto associato alla richiesta di accesso o approvazione </p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Accesso di visualizzazione o accesso successivo all’oggetto associato alla richiesta di accesso o approvazione </p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Visualizza approvazioni bozze inviate
 
-1. Fai clic su **Home** icona ![](assets/home-icon-30x29.png) nell’angolo in alto a sinistra di Adobe Workfront.
+1. Fai clic sull&#39;icona **Home** ![](assets/home-icon-30x29.png) nell&#39;angolo superiore sinistro di Adobe Workfront.
 
    >[!NOTE]
    >
    >L’amministratore di Workfront potrebbe apportare le seguenti modifiche all’icona Home nel tuo ambiente:
    >
    >* Sostituiscilo con un’immagine personalizzata per illustrare la tua organizzazione. In questo caso, l’icona avrà un aspetto diverso da quello mostrato in questo articolo.
-   >* Sostituisci la pagina collegata con un’altra pagina. In questo caso, fai clic su **Menu principale** ![](assets/main-menu-icon.png) nell’angolo superiore destro della pagina, quindi fai clic su **Home**.
+   >* Sostituisci la pagina collegata con un’altra pagina. In questo caso, fai clic sul **menu principale** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro della pagina, quindi fai clic su **Home**.
 
-1. In **Elenco lavori** Area, vai a **Approvazioni che ho inviato** raggruppamento.
+1. Nell&#39;area **Elenco lavori**, vai al raggruppamento **Approvazioni inviate**.
 
-1. Fai clic su un **Bozza** approvazione nella sezione Work List (Elenco di lavoro).
+1. Fare clic su un&#39;approvazione **Proof** nell&#39;elenco di lavoro.
 
    L’approvazione della bozza viene visualizzata a destra dell’elenco Lavoro.
 
@@ -69,7 +69,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    ![](assets/proof-approval-pending-home-nwe-350x230.png)
 
-1. (Facoltativo) Fai clic su **Vai alla bozza** nell’angolo superiore destro del pannello a destra per avviare il visualizzatore di bozze.
+1. (Facoltativo) Fai clic su **Vai a bozza** nell&#39;angolo superiore destro del pannello di destra per avviare il visualizzatore di bozze.
 
    <!--
    <note type="note">

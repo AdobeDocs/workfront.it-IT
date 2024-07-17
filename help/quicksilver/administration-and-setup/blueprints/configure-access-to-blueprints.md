@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
-title: Configurare l’accesso alle blueprint
-description: In qualità di amministratore di sistema, puoi consentire agli utenti di accedere per richiedere l’installazione dei progetti impostando una coda di richiesta per archiviare le richieste. Qui, disponi di una singola posizione per monitorare e aggiornare le richieste.
+title: Configurare l’accesso ai blueprint
+description: In qualità di amministratore di sistema, puoi consentire agli utenti di richiedere l’installazione di blueprint impostando una coda di richieste per archiviare le richieste. In questa posizione, puoi tenere traccia e aggiornare le richieste da un’unica posizione.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -15,23 +15,22 @@ ht-degree: 0%
 
 ---
 
-# Configurare l’accesso alle blueprint
+# Configurare l’accesso ai blueprint
 
-Tutto [!DNL Adobe Workfront] gli utenti possono consultare il catalogo dei progetti.
+Tutti gli utenti di [!DNL Adobe Workfront] possono sfogliare il catalogo di blueprint.
 
-In qualità di amministratore di sistema, puoi effettuare le seguenti operazioni:
+In qualità di amministratore di sistema, puoi:
 
-* Aggiungi [!UICONTROL Blueprint] al menu principale nei modelli di layout e assegna il modello di layout a utenti o gruppi. Per ulteriori informazioni, consulta [Personalizzare [!UICONTROL Menu principale] utilizzo di un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) e [Assegnare gli utenti a un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+* Aggiungi [!UICONTROL Blueprint] al menu principale nei modelli di layout e assegna il modello di layout a utenti o gruppi. Per ulteriori informazioni, vedere [Personalizzare il [!UICONTROL menu principale] utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) e [Assegnare gli utenti a un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
-   >[!NOTE]
-   >
-   >* Gli utenti a cui non è stato assegnato un modello di layout visualizzeranno il [!UICONTROL Blueprint] nella [!UICONTROL Menu principale].
-   >* Quando si crea un nuovo modello di layout, la [!UICONTROL Blueprint] è inclusa nella [!UICONTROL Elementi attivi] elenco per [!UICONTROL Menu principale] per impostazione predefinita.
+  >[!NOTE]
+  >
+  >* Agli utenti ai quali non è stato assegnato un modello di layout verrà visualizzata l&#39;icona [!UICONTROL Blueprint] nel [!UICONTROL menu principale].
+  >* Quando si crea un nuovo modello di layout, per impostazione predefinita l&#39;icona [!UICONTROL Blueprints] è inclusa nell&#39;elenco [!UICONTROL Elementi attivi] per il [!UICONTROL menu principale].
 
 
-
-* Abilita l’accesso per gli utenti per richiedere l’installazione dei progetti impostando una coda di richieste per archiviare le richieste. Qui, disponi di una singola posizione per monitorare e aggiornare le richieste. Per ulteriori informazioni, segui la procedura seguente.
-* Installa i progetti. Per informazioni, consulta [Installare una blueprint](../../administration-and-setup/blueprints/blueprints-install.md).
+* Consenti agli utenti di richiedere l’installazione dei blueprint impostando una coda di richieste per archiviare le richieste. In questa posizione, puoi tenere traccia e aggiornare le richieste da un’unica posizione. Per ulteriori informazioni, attenersi alla procedura descritta di seguito.
+* Installa i blueprint. Per informazioni, vedere [Installare una blueprint](../../administration-and-setup/blueprints/blueprints-install.md).
 
 ## Requisiti di accesso
 
@@ -46,53 +45,53 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p> Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe [!DNL Workfront] licenza</strong></td> 
+   <td role="rowheader"><strong>Licenza Adobe [!DNL Workfront]</strong></td> 
    <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurazioni a livello di accesso</strong></td> 
-   <td> <p>[!UICONTROL System Administrator]</p> </td> 
+   <td role="rowheader"><strong>Configurazioni del livello di accesso</strong></td> 
+   <td> <p>[!UICONTROL Amministratore di sistema]</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Prerequisiti {#prerequisites}
 
-* Devi utilizzare una coda di richiesta esistente per memorizzare le richieste di blueprint. Il progetto deve essere salvato come coda di richiesta e deve essere in [!UICONTROL Corrente] stato.
-* La coda delle richieste deve essere pubblica. Nei dettagli della coda di richiesta, &quot;[!UICONTROL Chi può aggiungere richieste a questa coda?]&quot; deve essere impostato su **[!UICONTROL Chiunque]**.
+* Per archiviare le richieste blueprint è necessario utilizzare una coda di richieste esistente. Il progetto deve essere salvato come coda di richieste e deve essere nello stato [!UICONTROL Corrente].
+* La coda di richieste deve essere pubblica. Nei dettagli della coda richieste, &quot;[!UICONTROL Chi può aggiungere richieste a questa coda?]&quot; deve essere impostato su **[!UICONTROL Chiunque]**.
 
 >[!TIP]
 >
->Per creare una nuova coda di richiesta per le richieste blueprint, è necessario generarla prima di configurare l’accesso alle blueprint. Per informazioni sulla creazione di una coda di richiesta, consulta [Creare una coda di richiesta](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+>Se desideri creare una nuova coda di richieste per le richieste blueprint, devi generarla prima di configurare l’accesso ai blueprint. Per informazioni sulla creazione di una coda richieste, vedere [Creare una coda richieste](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-## Seleziona la coda di richiesta per memorizzare le richieste di blueprint
+## Seleziona la coda di richieste per archiviare le richieste blueprint
 
-Prima che gli utenti possano richiedere l’installazione dei progetti, devi selezionare una coda di richiesta per tali richieste. Fino a quando la coda di richiesta non è definita, gli utenti possono solo sfogliare il catalogo delle blueprint.
+Prima che gli utenti possano richiedere l’installazione dei blueprint, è necessario selezionare una coda di richieste per tali richieste. Fino a quando la coda di richieste non è definita, gli utenti possono solo sfogliare il catalogo blueprint.
 
-1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Blueprint]**.
-1. Fai clic su **[!UICONTROL Configurare le richieste blueprint]** in alto a destra nella schermata del catalogo.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Blueprint]**.
+1. Fai clic su **[!UICONTROL Configura richieste blueprint]** in alto a destra nella schermata del catalogo.
 
    <!--
    <li value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>In the <strong>Configure blueprints</strong> dialog, ensure that the <strong>Configure request queues</strong> tab is selected.</p> </li>
    -->
 
-1. Sulla **[!UICONTROL Configurare le blueprint]** inizia a digitare il nome di una coda di richiesta attiva e selezionala quando viene visualizzata nei risultati della ricerca.
+1. Nella finestra di dialogo **[!UICONTROL Configura blueprint]**, inizia a digitare il nome di una coda di richieste attiva e selezionala quando viene visualizzata nei risultati della ricerca.
 
    >[!IMPORTANT]
    >
-   >In questo elenco vengono visualizzate solo le code di richiesta pubblica. Per rendere pubblica la coda di richiesta, vedi [Prerequisiti](#prerequisites) sezione precedente.
+   >In questo elenco vengono visualizzate solo le code di richieste pubbliche. Per rendere pubblica la coda di richieste, vedi la sezione [Prerequisiti](#prerequisites) precedente.
 
-   La preferenza della coda di richiesta è impostata e gli utenti possono ora richiedere l’installazione blueprint.
+   È stata impostata la preferenza per la coda di richieste ed è ora possibile richiedere l’installazione di blueprint.
 
-   ![Configurare la coda di richiesta](assets/Blueprints_access_setup_request_queue.png)
+   ![Configura coda richieste](assets/Blueprints_access_setup_request_queue.png)
 
-1. (Facoltativo) Per apportare modifiche alla coda di richiesta effettiva, fai clic su **[!UICONTROL Modifica questa coda di richiesta]**.
+1. (Facoltativo) Per apportare modifiche alla coda richieste effettiva, fare clic su **[!UICONTROL Modifica coda richieste]**.
 
-   Il progetto della coda di richiesta si apre in una nuova scheda del browser ed è possibile aggiornarlo in base alle esigenze.
+   Il progetto della coda richieste viene aperto in una nuova scheda del browser e puoi aggiornarlo in base alle esigenze.
 
-1. (Facoltativo) Se la coda di richiesta contiene gruppi di argomenti o argomenti della coda, puoi selezionarli dall’elenco.
+1. (Facoltativo) Se la coda di richieste contiene gruppi di argomenti o argomenti della coda, è possibile selezionarli dall&#39;elenco.
 1. Per tornare al catalogo blueprint, fai clic su **[!UICONTROL Chiudi]**.
 
 >[!NOTE]
 >
->Quando installi una blueprint richiesta, devi modificare lo stato del problema in **[!UICONTROL Chiuso]** o **[!UICONTROL Risolto]** nella coda delle richieste in modo che il richiedente venga informato. Per informazioni sull&#39;installazione di una blueprint, vedi [Installare una blueprint](../../administration-and-setup/blueprints/blueprints-install.md).
+>Quando installi una blueprint richiesta, devi modificare lo stato del problema in **[!UICONTROL Chiuso]** o **[!UICONTROL Risolto]** nella coda richieste in modo che il richiedente riceva una notifica. Per informazioni sull&#39;installazione di una blueprint, vedere [Installare una blueprint](../../administration-and-setup/blueprints/blueprints-install.md).

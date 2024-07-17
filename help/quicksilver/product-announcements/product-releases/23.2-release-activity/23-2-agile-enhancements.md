@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti agili apportati con la versione 23.2 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione con la versione 23.2.
 
-Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio 23.2, consulta [Panoramica sulla versione 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio 23.2, vedere [Panoramica sulla versione 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
 ## Aggiungere attività e problemi dai dettagli oggetto a una bacheca Workfront o a un flusso di lavoro
 
@@ -35,9 +35,9 @@ Diverse nuove funzioni disponibili nelle schede madri Workfront consentono di ut
 
 Le raccolte sono state rinominate in flussi di lavoro. I flussi di lavoro consentono di visualizzare i dati in modi diversi. È possibile visualizzare gli elementi sulle schede in un elenco, su una bacheca o su un’iterazione. Le schede in un flusso di lavoro possono anche essere condivise tra più bacheche. Puoi semplificare facilmente i flussi di lavoro utilizzando schede e bacheche in un flusso di lavoro.
 
-Per ulteriori informazioni, consulta [Gestire i flussi di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Creare un’iterazione in un flusso di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md), e [Utilizza l’elenco delle schede](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
+Per ulteriori informazioni, vedere [Gestire i flussi di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Creare un&#39;iterazione in un flusso di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md) e [Utilizzare l&#39;elenco delle schede](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
-[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3417059/){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3417059/){target=_blank}
 
 ## Aggiungere attività e problemi da elenchi e report a un elenco di schede del flusso di lavoro
 
@@ -53,7 +53,7 @@ Analogamente ai campi predefiniti, è possibile scegliere di visualizzare il cam
 
 Tutti i dati del campo personalizzato sulla scheda sono di sola lettura.
 
-Per ulteriori informazioni, consulta [Personalizzare i campi visualizzati su una scheda](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+Per ulteriori informazioni, vedere [Personalizzare i campi visualizzati in una scheda](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
 ## Aggiungere attività e problemi da elenchi e rapporti a una bacheca Workfront
 
@@ -72,9 +72,9 @@ Per ulteriori informazioni, consulta [Aggiungere attività o problemi esistenti 
 
 Ora è possibile registrare le ore sulle schede collegate, come si farebbe su un&#39;attività o un problema. Per registrare l’ora, è necessario disporre delle autorizzazioni corrette per l’attività o il problema.
 
-Per impostazione predefinita, i campi di registrazione ora non vengono visualizzati sulle schede collegate. Devi abilitare **Ore** nell’area Configura in Schede.
+Per impostazione predefinita, i campi di registrazione ora non vengono visualizzati sulle schede collegate. Abilitare **Ore** nell&#39;area Configura in Schede.
 
-Per ulteriori informazioni, consulta [Utilizzare le schede collegate sulle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Per ulteriori informazioni, vedere [Utilizzare schede collegate nelle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 
 ## Personalizzare la visualizzazione dei campi su una scheda
@@ -86,9 +86,9 @@ Per ulteriori informazioni, consulta [Utilizzare le schede collegate sulle bache
 
 È ora disponibile la personalizzazione per configurare quali campi visualizzare su una scheda, sia nella visualizzazione completa quando la scheda è aperta che nella visualizzazione ridotta sulla scheda. Quando si disattiva, un campo non viene visualizzato in nessuna delle due visualizzazioni. È inoltre possibile attivare un campo nella visualizzazione completa e nasconderlo dalla visualizzazione ridotta.
 
-Per ulteriori informazioni, consulta [Personalizzare i campi visualizzati su una scheda](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+Per ulteriori informazioni, vedere [Personalizzare i campi visualizzati in una scheda](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
-[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3415710/){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3415710/){target=_blank}
 
 ## Definisci uno stato predefinito per le schede spostate in una colonna della bacheca
 
@@ -100,9 +100,9 @@ Ora puoi impostare uno stato predefinito da applicare alle schede spostate in un
 
 In precedenza, veniva richiesto di selezionare uno stato per ogni scheda spostata nella colonna, se erano disponibili più stati.
 
-Per ulteriori informazioni, consulta [Gestisci colonne](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+Per ulteriori informazioni, vedere [Gestione colonne](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
-[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3415711/){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3415711/){target=_blank}
 
 ## Le raccolte sono ora disponibili nelle bacheche di Adobe Workfront
 
@@ -114,9 +114,9 @@ Ora puoi creare raccolte nel dashboard delle bacheche. Una raccolta è un gruppo
 
 L&#39;aggiunta di membri a una raccolta funziona come l&#39;aggiunta di membri a una bacheca. Una persona o un team deve essere un membro della raccolta prima di poter essere aggiunto come membri a una bacheca della raccolta.
 
-Per ulteriori informazioni, consulta [Gestione raccolte](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+Per ulteriori informazioni, vedere [Gestione raccolte](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
-[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3415609/){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3415609/){target=_blank}
 
 ## Il campo Stima sulle schede collegate viene mappato sul campo Punti storia sugli oggetti Workfront
 
@@ -132,7 +132,7 @@ In precedenza, la stima della scheda era una voce manuale e non veniva mappata s
 
 Inoltre, il campo Stima sia sulle schede ad hoc che su quelle connesse non ha più un limite di caratteri. In precedenza, il numero massimo di caratteri era 99.
 
-Per ulteriori informazioni, consulta [Utilizzare le schede collegate sulle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Per ulteriori informazioni, vedere [Utilizzare schede collegate nelle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Scheda di anteprima nella colonna Acquisizione
 

@@ -45,21 +45,21 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 </tr>  
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Raggruppa per sponsor progetto per un elenco di attività
 
 Per applicare questo raggruppamento:
 
 1. Consente di passare all&#39;elenco delle attività.
-1. In **Raggruppamento** menu a discesa, seleziona **Nuovo raggruppamento**.
+1. Nel menu a discesa **Raggruppamento**, seleziona **Nuovo raggruppamento**.
 
-1. Clic **Passa alla modalità testo**.
+1. Fare clic su **Passa alla modalità testo**.
 1. Rimuovere il testo visualizzato nella finestra di modifica del testo.
 1. Copiare e incollare il codice seguente nella finestra di modifica del testo:
 
@@ -67,4 +67,4 @@ Per applicare questo raggruppamento:
    group.0.name=Project Sponsor<br>group.0.valuefield=project:sponsor:name<br>group.0.valueformat=string
    ```
 
-1. Clic **Salva raggruppamento**.
+1. Fare clic su **Salva raggruppamento**.

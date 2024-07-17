@@ -23,7 +23,7 @@ Per utilizzare le funzionalità descritte in questo articolo, l’organizzazione
 
      Oppure
 
-     Una licenza aggiuntiva per Adobe Workfront Goals per i piani Prime o Select Adobe Workfront. Per informazioni, consulta [piano Adobe Workfront](https://www.workfront.com/plans).
+     Una licenza aggiuntiva per Adobe Workfront Goals per i piani Prime o Select Adobe Workfront. Per informazioni, vedere [Piano Adobe Workfront](https://www.workfront.com/plans).
 
 * Per il piano corrente e la struttura delle licenze:
 
@@ -32,14 +32,14 @@ Per utilizzare le funzionalità descritte in questo articolo, l’organizzazione
 
 Contatta il tuo account manager Workfront per saperne di più su una licenza Workfront Goals.
 
-Per ulteriori informazioni sull’accesso agli obiettivi di Workfront, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Per ulteriori informazioni sull&#39;accesso agli obiettivi di Workfront, vedere [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Questa sezione contiene le seguenti sottosezioni:
 
 * [Panoramica sugli obiettivi di Adobe Workfront](../workfront-goals/goal-management/wf-goals-overview.md)
-* [Gestione degli obiettivi in Obiettivi di Adobe Workfront](../workfront-goals/goal-management/goal-management.md)
-* [Allineamento degli obiettivi in Obiettivi di Adobe Workfront](../workfront-goals/goal-alignment/goal-alignment.md)
-* [Revisione degli obiettivi e sezioni Obiettivi di Adobe Workfront](../workfront-goals/goal-review-and-workfront-goals-sections/goal-review-wf-goals-sections.md)
+* [Gestione degli obiettivi negli obiettivi di Adobe Workfront](../workfront-goals/goal-management/goal-management.md)
+* [Allineamento degli obiettivi negli obiettivi di Adobe Workfront](../workfront-goals/goal-alignment/goal-alignment.md)
+* [Sezione Revisione obiettivo e Obiettivi di Adobe Workfront](../workfront-goals/goal-review-and-workfront-goals-sections/goal-review-wf-goals-sections.md)
 * [Risultati e attività in Obiettivi di Adobe Workfront](../workfront-goals/results-and-activities/results-and-activities.md)
 
   <!--

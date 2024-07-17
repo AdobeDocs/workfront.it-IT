@@ -65,20 +65,20 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 Il formato di una regola business è &quot;Se la condizione definita viene soddisfatta, l&#39;utente non è in grado di eseguire l&#39;azione sull&#39;oggetto e viene visualizzato il messaggio&quot;.
 
-La sintassi per le proprietà e le altre funzioni di una regola business è identica a quella di un campo calcolato di un modulo personalizzato. Per ulteriori informazioni sulla sintassi, consulta [Aggiungere campi calcolati con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+La sintassi per le proprietà e le altre funzioni di una regola business è identica a quella di un campo calcolato di un modulo personalizzato. Per ulteriori informazioni sulla sintassi, vedere [Aggiungere campi calcolati con la finestra di progettazione del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-Per informazioni sulle istruzioni IF, vedere [Panoramica delle istruzioni &quot;IF&quot;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) e [Operatori condizione nei campi personalizzati calcolati](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
+Per informazioni sulle istruzioni IF, vedere [ Panoramica delle istruzioni &quot;IF&quot;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) e [Operatori condizione nei campi personalizzati calcolati](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
-Per informazioni sui caratteri jolly basati sull&#39;utente, vedere [Utilizzare caratteri jolly basati sull&#39;utente per generalizzare i rapporti](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
+Per informazioni sui caratteri jolly basati sugli utenti, vedere [Utilizzare caratteri jolly basati sugli utenti per generalizzare i report](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
-Per informazioni sui caratteri jolly basati sulla data, vedere [Utilizzare caratteri jolly basati sulla data per generalizzare i rapporti](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
+Per informazioni sui caratteri jolly basati sulla data, vedere [Utilizzare caratteri jolly basati sulla data per generalizzare i report](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
 
-Un carattere jolly API è disponibile anche nelle regole business. È possibile utilizzare `$$ISAPI` per attivare la regola solo nell’interfaccia utente o solo nell’API.
+Un carattere jolly API è disponibile anche nelle regole business. È possibile utilizzare `$$ISAPI` per attivare la regola solo nell&#39;interfaccia utente o solo nell&#39;API.
 
 Alcuni semplici scenari di regole di business sono:
 
-* Gli utenti non possono aggiungere nuove spese durante l&#39;ultima settimana di febbraio. Questa formula potrebbe essere così formulata: `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
-* Gli utenti non possono modificare un progetto che si trova nello stato Completato. Questa formula potrebbe essere così formulata: `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
+* Gli utenti non possono aggiungere nuove spese durante l&#39;ultima settimana di febbraio. Questa formula potrebbe essere dichiarata come: `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
+* Gli utenti non possono modificare un progetto che si trova nello stato Completato. Questa formula potrebbe essere dichiarata come: `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
 
 Uno scenario con istruzioni IF nidificate è:
 
@@ -98,24 +98,24 @@ IF(
 
 {{step-1-to-setup}}
 
-1. Clic **Regole aziendali** nel pannello a sinistra.
-1. Clic **Nuova regola business**.
+1. Fai clic su **Regole aziendali** nel pannello a sinistra.
+1. Fare clic su **Nuova regola business**.
 1. Selezionare il tipo di oggetto a cui assegnare la regola business, quindi fare clic su **Continua**.
 
    ![Seleziona un oggetto](assets/object-for-business-rule2.png)
 
-1. Digita il **Nome** per la regola business.
-1. In **È attivo** , selezionare se la regola deve essere attiva al momento del salvataggio.
+1. Digitare **Nome** per la regola business.
+1. Nel campo **È attivo**, selezionare se la regola deve essere attiva al momento del salvataggio.
 
-   Se si seleziona **No**, la regola viene salvata come inattiva e puoi attivarla in un secondo momento.
+   Se si seleziona **No**, la regola verrà salvata come inattiva e sarà possibile attivarla in un secondo momento.
 
-1. Seleziona un **Trigger** per la regola business. Le opzioni sono:
+1. Selezionare un **Trigger** per la regola business. Le opzioni sono:
 
    * **Durante la creazione dell&#39;oggetto:** La regola viene applicata quando un utente tenta di creare un oggetto.
-   * **Alla modifica dell&#39;oggetto:** La regola viene applicata quando un utente tenta di modificare un oggetto.
+   * **Durante la modifica dell&#39;oggetto:** La regola viene applicata quando un utente tenta di modificare un oggetto.
    * **All&#39;eliminazione dell&#39;oggetto:** La regola viene applicata quando un utente tenta di eliminare un oggetto.
 
-1. (Facoltativo) Inserisci un **Descrizione** della regola business e ciò che accade quando viene applicata.
+1. (Facoltativo) Immetti una **Descrizione** della regola business e cosa accade quando viene applicata.
 1. Crea la formula nell’editor di formule, al centro della finestra di dialogo della regola business.
 
    Il formato di una regola business è &quot;Se la condizione definita viene soddisfatta, l&#39;utente non è in grado di eseguire l&#39;azione sull&#39;oggetto e viene visualizzato il messaggio&quot;.
@@ -131,15 +131,15 @@ IF(
 
    Questo esempio è una regola business per le spese. Se il mese corrente è giugno, agli utenti non è consentito creare nuove spese, e questo viene spiegato nel messaggio.
 
-   Per ulteriori esempi di regole business, consulta [Scenari per le regole business](#scenarios-for-business-rules) in questo articolo.
+   Per ulteriori esempi di regole business, vedere [Scenari per regole business](#scenarios-for-business-rules) in questo articolo.
 
-1. (Facoltativo) Usa la formula **Espressioni** e **Campi** nel pannello a destra per assistenza nella creazione della regola.
+1. (Facoltativo) Utilizza la formula **Espressioni** e **Campi** nel pannello a destra per facilitare la creazione della regola.
 
    Cerca un&#39;espressione o un campo per restringere l&#39;elenco degli elementi disponibili.
 
    L&#39;elenco dei campi disponibili è limitato ai campi correlati al tipo di oggetto per la regola business.
 
-1. Clic **Salva** al termine della creazione della regola business.
+1. Fai clic su **Salva** al termine della creazione della regola business.
 
 >[!NOTE]
 >
@@ -152,5 +152,5 @@ Quando una regola business è inattiva, il campo È attivo nell&#39;elenco delle
 Per attivare una regola business:
 
 1. Selezionare la regola business nell&#39;elenco di regole e fare clic sull&#39;icona Modifica.
-1. Seleziona **Sì** per **È attivo** nella finestra di dialogo regola business.
+1. Selezionare **Sì** per **È attivo** nella finestra di dialogo della regola business.
 1. Fai clic su **Salva**.

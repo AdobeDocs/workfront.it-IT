@@ -17,10 +17,10 @@ ht-degree: 1%
 
 Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione 23.2 a Reports and Dashboards. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione con la versione 23.2.
 
-Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio 23.2, consulta [Panoramica sulla versione 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio 23.2, vedere [Panoramica sulla versione 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
 ## Dashboard dell’area di lavoro
 
 I dashboard di Canvas sono stati aggiunti come funzionalità in corso di lavorazione per i dashboard che possono essere abilitati nei modelli di layout. I dashboard di Canvas consentono di combinare le visualizzazioni di Reporting Canvas con i rapporti esistenti, oltre a utilizzare nuove opzioni di layout. Attualmente sono supportati solo i rapporti elenco, ma verranno aggiunte più opzioni man mano che lo sviluppo continua.
 
-Per ulteriori informazioni sull’attivazione e l’utilizzo delle dashboard di Canvas, consulta [Panoramica delle dashboard di Canvas](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
+Per ulteriori informazioni sull&#39;attivazione e l&#39;utilizzo dei dashboard di Canvas, vedere [Panoramica dei dashboard di Canvas](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)

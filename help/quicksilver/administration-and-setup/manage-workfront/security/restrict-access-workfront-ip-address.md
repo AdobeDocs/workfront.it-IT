@@ -2,24 +2,24 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: security
-title: Limitare l’accesso ad Adobe Workfront per indirizzo IP
-description: Puoi configurare un inserire nell'elenco Consentiti IP Adobe Workfront che limiti l’accesso a Workfront a 45 indirizzi IP o intervalli di indirizzi IP specificati. Questo fornisce un ulteriore livello di sicurezza per l'applicazione Workfront.
+title: Limita l’accesso ad Adobe Workfront per indirizzo IP
+description: È possibile configurare un Adobe Workfront di di inserire nell'elenco Consentiti che limiti l’accesso a Workfront a 45 indirizzi IP o intervalli di indirizzi IP specificati. Questo fornisce un ulteriore livello di sicurezza per l’applicazione Workfront.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: aed65b42-d534-453a-885d-f922114987bc
 source-git-commit: 7bd3d2252b124a07a112aaa2b7798063087e7cab
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '451'
 ht-degree: 1%
 
 ---
 
-# Limitare l’accesso ad Adobe Workfront per indirizzo IP
+# Limita l’accesso ad Adobe Workfront per indirizzo IP
 
-Puoi configurare un inserire nell&#39;elenco Consentiti IP Adobe Workfront che limiti l’accesso a Workfront a 45 indirizzi IP o intervalli di indirizzi IP specificati. Questo fornisce un ulteriore livello di sicurezza per l&#39;applicazione Workfront.
+È possibile configurare un Adobe Workfront di di inserire nell&#39;elenco Consentiti che limiti l’accesso a Workfront a 45 indirizzi IP o intervalli di indirizzi IP specificati. Questo fornisce un ulteriore livello di sicurezza per l’applicazione Workfront.
 
-Gli indirizzi IP o gli intervalli di indirizzi IP devono essere forniti dall’amministratore di rete.
+Questi indirizzi IP o intervalli di indirizzi IP devono essere forniti dall&#39;amministratore di rete.
 
 ## Requisiti di accesso
 
@@ -38,39 +38,39 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td>Piano</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso</td> 
-   <td> <p>Devi essere un amministratore Workfront.</p> <p><b>NOTA</b>: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Devi essere un amministratore di Workfront.</p> <p><b>NOTA</b>: se non disponi ancora dell'accesso, chiedi all'amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Altri inserire nell&#39;elenco Consentiti
+## Inserire nell&#39;elenco Consentiti Altri
 
-Se il firewall o il server di posta elettronica è configurato per consentire l’accesso solo a determinati fornitori, è necessario aggiungere alcuni indirizzi IP al relativo inserire nell&#39;elenco Consentiti. Questo apre la comunicazione tra l’ambiente e i server Adobe Workfront. Per informazioni, consulta [Configurare l’inserire nell&#39;elenco Consentiti del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Se il firewall o il server di posta è configurato in modo da consentire l&#39;accesso solo a determinati fornitori, è necessario aggiungere determinati indirizzi IP al relativo inserisco nell&#39;elenco Consentiti di posta elettronica. Questo apre la comunicazione tra l’ambiente e i server Adobe Workfront. Per ulteriori informazioni, vedere [Configurare il inserisco nell&#39;elenco Consentiti di configurazione del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
-Inoltre, se la tua organizzazione utilizza il piano Enterprise, puoi configurare l’inserire nell&#39;elenco Consentiti e-mail di Workfront per controllare quali domini e-mail possono accettare e-mail da Workfront e quali domini e-mail possono essere inclusi nell’indirizzo e-mail specificato dagli utenti nel loro profilo utente Workfront. Per ulteriori informazioni, consulta [Configurare l’inserire nell&#39;elenco Consentiti e-mail](../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
+Inoltre, se la tua organizzazione utilizza il piano Enterprise, puoi configurare il Workfront di gestione delle e-mail di inserire nell&#39;elenco Consentiti per controllare quali domini e-mail sono autorizzati ad accettare e-mail da Workfront e quali domini e-mail possono trovarsi nell’indirizzo e-mail specificato dagli utenti nel profilo utente di Workfront. Per ulteriori informazioni, consulta [Configurare il tuo inserisco nell&#39;elenco Consentiti di e-mail di accesso ai messaggi di posta elettronica](../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
 
-## Aggiunta di indirizzi IP all’inserire nell&#39;elenco Consentiti
+## Aggiunta di indirizzi IP al inserisco nell&#39;elenco Consentiti di
 
-Dopo aver aggiunto gli indirizzi IP all’inserire nell&#39;elenco Consentiti Workfront, solo questi possono essere utilizzati per accedere ad Workfront. Gli utenti che tentano di accedere a Workfront da un altro indirizzo IP ricevono un messaggio di errore che indica che l’indirizzo IP è bloccato.
+Dopo l&#39;aggiunta degli indirizzi IP al Workfront di di inserire nell&#39;elenco Consentiti, è possibile utilizzare solo tali indirizzi IP per accedere a Workfront. Gli utenti che tentano di accedere a Workfront da un altro indirizzo IP ricevono un messaggio di errore che indica che il loro indirizzo IP è bloccato.
 
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
-1. Fai clic su **Sistema** > **Informazioni sul cliente.**
+1. Fai clic su **Sistema** > **Informazioni cliente**
 
-1. In **inserire nell&#39;elenco Consentiti IP** sezione , seleziona **Abilita l&#39;inserire nell&#39;elenco Consentiti IP.**
+1. Nella sezione **inserisco nell&#39;elenco Consentiti IP** selezionare **Abilita inserisco nell&#39;elenco Consentiti IP.**
 
    Questa opzione è disabilitata per impostazione predefinita.
 
-1. Specifica l&#39;indirizzo IP che stai utilizzando per accedere al sistema Workfront.
+1. Specificare l&#39;indirizzo IP attualmente utilizzato per accedere al sistema Workfront.
 
    Oppure
 
-   Specifica un intervallo di indirizzi IP che include quello attualmente utilizzato per accedere al sistema Workfront.
+   Specifica un intervallo di indirizzi IP che includa quello attualmente in uso per accedere al sistema Workfront.
 
-   L’indirizzo IP utilizzato per accedere a Workfront deve essere aggiunto all’inserire nell&#39;elenco Consentiti prima che l’inserire nell&#39;elenco Consentiti sia abilitato.
+   L&#39;indirizzo IP che si sta utilizzando per accedere a Workfront deve essere aggiunto al inserisco nell&#39;elenco Consentiti di prima di abilitare il inserisco nell&#39;elenco Consentiti.
 
-1. Fai clic su **Aggiungi intervallo IP,** quindi specifica l’indirizzo IP o l’intervallo di indirizzi IP a cui desideri poter accedere in Workfront.
+1. Fare clic su **Aggiungi intervallo IP,** quindi specificare l&#39;indirizzo IP o l&#39;intervallo di indirizzi IP a cui si desidera accedere in Workfront.
 1. (Facoltativo) Ripeti il passaggio precedente per aggiungere altri indirizzi IP o intervalli di indirizzi IP.
 
    Puoi aggiungere fino a 45 indirizzi o intervalli.

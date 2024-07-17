@@ -25,7 +25,7 @@ in January 2022
 
 la settimana del 4 aprile 2022.
 
-Per un elenco di tutte le modifiche disponibili con la versione 22.2, consulta [Panoramica sulla versione 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 22.2, vedere [Panoramica sulla versione 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Miglioramenti ai filtri nella sezione Elenco lavori dell’area Home
 
@@ -33,5 +33,5 @@ Per dare più controllo e attenzione al tuo elenco di lavoro, abbiamo implementa
 
 Prima di questa esperienza, i filtri nell’area Home non fornivano un conteggio accurato del numero di elementi di lavoro nell’elenco quando hai selezionato uno o più filtri, creando confusione sullo stato degli elementi di lavoro.
 
-Per ulteriori informazioni, consulta [Visualizzare gli elementi in Work List (Elenco di lavoro) nell’area Home](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+Per ulteriori informazioni, vedere [Visualizzare gli elementi nell&#39;elenco di lavoro nell&#39;area Home](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 

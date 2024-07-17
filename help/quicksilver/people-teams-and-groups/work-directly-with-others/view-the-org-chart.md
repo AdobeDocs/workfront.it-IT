@@ -1,8 +1,8 @@
 ---
 product-area: user-management
 navigation-topic: collaboration
-title: Visualizza il grafico organizzativo
-description: La funzione organigramma consente di visualizzare il grafico organizzativo associato a un particolare utente di Adobe Workfront. I grafici organizzativi sono un ottimo modo per visualizzare la struttura di un reparto specifico.
+title: Visualizzare l’organigramma
+description: La funzione organigramma consente di visualizzare l’organigramma associato a un particolare utente di Adobe Workfront. I grafici organizzativi sono un ottimo modo per visualizzare la struttura di un reparto specifico.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 10c1fc55-8df4-4c2a-9251-ee6db9ee6c0d
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# Visualizza il grafico organizzativo
+# Visualizzare l’organigramma
 
-La funzione organigramma consente di visualizzare il grafico organizzativo associato a una particolare [!DNL Adobe Workfront] utente. I grafici organizzativi sono un ottimo modo per visualizzare la struttura di un reparto specifico.
+La funzionalità organigramma consente di visualizzare l&#39;organigramma associato a un utente [!DNL Adobe Workfront] specifico. I grafici organizzativi sono un ottimo modo per visualizzare la struttura di un reparto specifico.
 
 ## Requisiti di accesso
 
@@ -33,16 +33,16 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>Revisione o superiore</p> </td> 
+   <td> <p>Revisione o successiva</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per sapere quale piano o tipo di licenza hai, contatta il tuo [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano o il tipo di licenza disponibile, contattare l&#39;amministratore [!DNL Workfront].
 
-## Individuare il grafico organizzativo di un utente
+## Individuazione dell&#39;organigramma di un utente
 
-1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic sul nome utente accanto all’immagine del profilo.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic sul nome utente accanto all&#39;immagine del tuo profilo.
 
-1. Nel pannello a sinistra, fai clic su **[!UICONTROL Grafico a barre]**.\
-   ![Grafico a livello di organizzazione](assets/org-chart.png)
+1. Nel pannello a sinistra, fai clic su **[!UICONTROL Organigramma]**.\
+   ![Organigramma](assets/org-chart.png)

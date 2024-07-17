@@ -22,7 +22,7 @@ Un&#39;attività è un elemento di lavoro all&#39;interno di un progetto. Rappre
 
 Le attività possono essere assegnate agli utenti da completare. Quando tutte le attività di un progetto sono completate, lo Stato del progetto può essere contrassegnato come Completato.
 
-Per ulteriori informazioni sui progetti in Adobe Workfront, consulta [Creare un progetto](../../../manage-work/projects/create-projects/create-project.md).
+Per ulteriori informazioni sui progetti in Adobe Workfront, vedere [Creazione di un progetto](../../../manage-work/projects/create-projects/create-project.md).
 
 Di seguito sono riportati i tipi di attività di un progetto:
 
@@ -38,7 +38,7 @@ Di seguito sono riportati i tipi di attività di un progetto:
 
 A seconda della modalità di completamento del riepilogo disponibile nel progetto, è possibile completare un&#39;attività padre indipendentemente dalle relative attività figlio. Per impostazione predefinita, non è possibile completare o aggiornare un&#39;attività padre indipendentemente dai relativi figli.
 
-Per ulteriori informazioni sulla modalità di completamento riepilogo dei progetti, vedi [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
+Per ulteriori informazioni sulla modalità di completamento riepilogo dei progetti, vedere [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 ## Panoramica delle sottoattività o delle attività figlio
 
@@ -62,4 +62,4 @@ Si tratta di una distinzione importante perché è possibile che le attività fi
 
 ## Attività ricorrenti
 
-Se un&#39;attività viene ripetuta più volte, è possibile crearla come attività ricorrente con più ricorrenze. Per informazioni sulle attività ricorrenti, vedere [Panoramica delle attività ricorrenti](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
+Se un&#39;attività viene ripetuta più volte, è possibile crearla come attività ricorrente con più ricorrenze. Per informazioni sulle attività ricorrenti, vedere [Panoramica sulle attività ricorrenti](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).

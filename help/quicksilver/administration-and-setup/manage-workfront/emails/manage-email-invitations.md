@@ -25,13 +25,13 @@ ht-degree: 0%
 >
 >La procedura descritta in questa pagina si applica solo alle organizzazioni che non hanno ancora effettuato l’onboarding nell’Admin Console. Se la tua organizzazione è stata integrata in Adobe Admin Console, devi eseguire questa azione tramite Adobe Admin Console.
 >
->Per un elenco delle procedure che differiscono in base al fatto che la tua organizzazione sia stata onboarding in Adobe Admin Console, consulta [Differenze di amministrazione basate su piattaforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Per un elenco delle procedure che differiscono a seconda che l&#39;organizzazione sia stata integrata in Adobe Admin Console, consulta [Differenze di amministrazione basate su Platform (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 In qualità di amministratore di Adobe Workfront, puoi aggiungere utenti a Workfront e avvisarli che sono stati aggiunti, utilizzando inviti e-mail.
 
 L’invito e-mail consente ai nuovi utenti di seguire un collegamento tramite il quale è possibile scegliere una password per il proprio account Workfront. Potranno quindi completare l’impostazione dell’account.
 
-Per garantire la sicurezza dei nuovi account, si consiglia di utilizzare gli inviti e-mail per i nuovi utenti, in modo che possano scegliere la propria password. In alternativa, è possibile selezionare una password per un nuovo utente al momento della creazione dell&#39;account. Per ulteriori informazioni sull’aggiunta di nuovi utenti a Workfront, consulta [Aggiungi utenti](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+Per garantire la sicurezza dei nuovi account, si consiglia di utilizzare gli inviti e-mail per i nuovi utenti, in modo che possano scegliere la propria password. In alternativa, è possibile selezionare una password per un nuovo utente al momento della creazione dell&#39;account. Per ulteriori informazioni sull&#39;aggiunta di nuovi utenti a Workfront, vedere [Aggiungere utenti](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 Puoi configurare le e-mail del nuovo utente per:
 
@@ -40,7 +40,7 @@ Puoi configurare le e-mail del nuovo utente per:
 
 Tutti i nuovi utenti visualizzano la stessa e-mail quando viene inviato un invito e-mail.
 
-Per informazioni sulla ricezione di inviti e-mail, vedere [Ricevi inviti e-mail e crea una password per Adobe Workfront](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md).
+Per informazioni sulla ricezione di inviti e-mail, vedere [Ricevere inviti e-mail e creare una password per Adobe Workfront](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md).
 
 ## Requisiti di accesso
 
@@ -69,23 +69,23 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 Gli inviti e-mail vengono generati nei seguenti scenari:
 
-* Quando crei un nuovo utente e selezioni la **Invia un&#39;e-mail di invito a questa persona** il **Nuovo utente** modulo. Per ulteriori informazioni sulla creazione di nuovi utenti, consulta [Aggiungi utenti](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
-* Quando si importano più nuovi utenti e si seleziona il **Invia e-mail di invito a queste persone** opzione. Per ulteriori informazioni sull&#39;importazione di diversi nuovi utenti, vedere [Importa utenti](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
+* Quando crei un nuovo utente e selezioni **Invia un&#39;e-mail di invito a questa persona** nel modulo **Nuovo utente**. Per ulteriori informazioni sulla creazione di nuovi utenti, vedere [Aggiungi utenti](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+* Quando importi più nuovi utenti e selezioni l&#39;opzione **Invia e-mail di invito a queste persone**. Per ulteriori informazioni sull&#39;importazione di diversi nuovi utenti, vedere [Importa utenti](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
 * Dopo la creazione degli utenti, è possibile generare manualmente gli inviti agli utenti che non hanno ancora registrato il proprio account con Workfront e che non hanno stabilito una password Workfront.\
-  Gli utenti che hanno creato un account ma non hanno ancora registrato il loro account sono contrassegnati come **Non registrato** in Workfront.
+  Gli utenti che hanno creato un account ma non lo hanno ancora registrato sono contrassegnati come **Non registrati** in Workfront.
 
   >[!NOTE]
   >
-  >Se deselezioni il **Invia un invito e-mail a questa persona** quando crei l’utente, l’invito e-mail non può essere generato manualmente. È possibile inviare manualmente gli inviti e-mail solo agli utenti a cui è stato inviato l’invito e-mail originale al momento della creazione del loro account. Per ulteriori informazioni sulla creazione di nuovi utenti, consulta [Aggiungi utenti](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+  >Se deselezioni la casella **Invia un invito e-mail a questa persona** al momento della creazione dell&#39;utente, l&#39;invito e-mail non può essere generato manualmente. È possibile inviare manualmente gli inviti e-mail solo agli utenti a cui è stato inviato l’invito e-mail originale al momento della creazione del loro account. Per ulteriori informazioni sulla creazione di nuovi utenti, vedere [Aggiungi utenti](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 Per generare manualmente inviti e-mail per utenti esistenti non registrati:
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Utenti** ![](assets/users-icon-in-main-menu.png).
-1. Seleziona l’utente che visualizza **Non registrato** dopo il nome.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Utenti** ![](assets/users-icon-in-main-menu.png).
+1. Seleziona l&#39;utente che mostra l&#39;etichetta **Non registrato** dopo il nome.
 
    ![](assets/unreg-user-qs-350x221.png)
 
-1. Fai clic sull’icona Altro ![](assets/more-icon.png), quindi fai clic su **Ricorda all&#39;utente di registrarsi**.
+1. Fai clic sull&#39;icona Altro ![](assets/more-icon.png), quindi fai clic su **Ricorda all&#39;utente di registrarsi**.
 
    Al nuovo utente viene inviato un invito e-mail con un nuovo collegamento da utilizzare per creare la password Workfront.
 
@@ -101,11 +101,11 @@ Per generare manualmente inviti e-mail per utenti esistenti non registrati:
 
 In qualità di amministratore di Workfront, puoi configurare il messaggio da includere con gli inviti e-mail per i nuovi utenti.
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
-1. Nell’elenco a sinistra, fai clic su **E-mail** > **Inviti**.
+1. Nell&#39;elenco a sinistra, fare clic su **E-mail** > **Inviti**.
 
-1. In **Opzioni generali** , effettuare una delle seguenti modifiche:
+1. Nella sezione **Opzioni generali**, apporta una delle seguenti modifiche:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -121,10 +121,10 @@ In qualità di amministratore di Workfront, puoi configurare il messaggio da inc
        <ul> 
         <li><strong>Messaggio</strong>: se si sceglie di modificare l'invito e-mail per tutti i nuovi utenti, specificare il testo da includere negli inviti e-mail come corpo dell'e-mail.</li> 
         <li><strong>Termini e condizioni</strong>: se si sceglie di modificare l'invito e-mail per tutti i nuovi utenti, specificare il testo da includere negli inviti e-mail come termini e condizioni.<br></li> 
-        <li><strong>Includere un messaggio e/o un termine di servizio per gli utenti dell'helpdesk</strong>: seleziona questa opzione se desideri modificare l’invito e-mail per tutti i nuovi utenti aggiunti a Workfront che dispongono di una licenza Requestor.</li> 
-        <li><strong>Messaggio</strong>: se selezioni di modificare l’invito e-mail per tutti i nuovi utenti con una licenza Richiedente, specifica il testo da includere negli inviti e-mail come corpo dell’e-mail.</li> 
-        <li><strong>Termini e condizioni</strong>: se selezioni di modificare l’invito e-mail per tutti i nuovi utenti con una licenza Richiedente, specifica il testo da includere negli inviti e-mail come termini e condizioni.<br></li> 
-        <li> <p>In <strong>Anteprima invito</strong> , è disponibile un'anteprima dell'invito e-mail. Se hai selezionato di includere un messaggio personalizzato nell’invito e-mail, il messaggio personalizzato viene visualizzato in quest’area.</p> <p> <img src="assets/email-invitation-for-all-users-preview-qs-350x190.png" style="width: 350;height: 190;"> </p> </li> 
+        <li><strong>Includi un messaggio e/o un termine di servizio per gli utenti dell'helpdesk</strong>: selezionare questa opzione se si desidera modificare l'invito tramite posta elettronica per tutti i nuovi utenti aggiunti a Workfront che dispongono di una licenza Requestor.</li> 
+        <li><strong>Messaggio</strong>: se si seleziona di modificare l'invito e-mail per tutti i nuovi utenti con una licenza Requestor, specificare il testo da includere negli inviti e-mail come corpo dell'e-mail.</li> 
+        <li><strong>Termini e condizioni</strong>: se si sceglie di modificare l'invito e-mail per tutti i nuovi utenti con una licenza Richiedente, specificare il testo da includere negli inviti e-mail come termini e condizioni.<br></li> 
+        <li> <p>Nella sezione <strong>Anteprima invito</strong> è disponibile un'anteprima dell'invito e-mail. Se hai selezionato di includere un messaggio personalizzato nell’invito e-mail, il messaggio personalizzato viene visualizzato in quest’area.</p> <p> <img src="assets/email-invitation-for-all-users-preview-qs-350x190.png" style="width: 350;height: 190;"> </p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 

@@ -24,7 +24,7 @@ Per un elenco di tutte le modifiche disponibili con la versione 2020.2, consulta
 
 I modelli di layout creati in Workfront Classic dopo l’autunno 2019 sono ora disponibili nella nuova esperienza Workfront. È consigliabile aggiornare questi modelli di layout nella nuova esperienza Workfront per sfruttare le nuove funzionalità e renderli il più utili possibile per gli utenti in tale ambiente.
 
-Per ulteriori informazioni, consulta [Modelli di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
+Per ulteriori informazioni, vedere [Modelli di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
 
 **Disponibile in questi ambienti:**
 
@@ -38,7 +38,7 @@ Quando si configurano code di richieste o Argomenti coda in un progetto, è inol
 
 Per informazioni sull’aggiunta di processi di approvazione a progetti, attività e problemi, consulta i seguenti articoli:
 
-* [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md)
+* [Modificare progetti](../../../manage-work/projects/manage-projects/edit-projects.md)
 * [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 * [Modifica problemi](../../../manage-work/issues/manage-issues/edit-issues.md)
 * [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
@@ -55,9 +55,9 @@ Gli stati personalizzati possono essere utilizzati ora nei processi di approvazi
 * Crea un processo di approvazione a utente singolo per un oggetto (progetto, attività o problema) e basalo sugli stati associati al gruppo che lavora su tale oggetto. Questo include eventuali stati personalizzati associati al gruppo.
 * Crea un processo di approvazione globale e rendilo disponibile solo per il gruppo o per tutti gli utenti del sistema.
 
-Per gli utenti con accesso amministrativo ai processi di approvazione, le informazioni sulla configurazione dei processi di approvazione sono disponibili in [Creare un processo di approvazione per gli elementi di lavoro](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (o se utilizzi Adobe Workfront Classic, consulta [Creazione di processi di approvazione](https://one.workfront.com/s/article/Creating-Approval-Processes-1001577410)).
+Per gli utenti con accesso amministrativo ai processi di approvazione, le informazioni sulla configurazione dei processi di approvazione sono disponibili in [Creare un processo di approvazione per gli elementi di lavoro](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (o se si utilizza Adobe Workfront Classic, vedere [Creazione di processi di approvazione](https://one.workfront.com/s/article/Creating-Approval-Processes-1001577410)).
 
-Per gli utenti, le informazioni sull&#39;associazione dei processi di approvazione agli elementi di lavoro sono disponibili in [Associa un processo di approvazione nuovo o esistente al lavoro](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (o se utilizzi Adobe Workfront Classic, consulta [Associazione di un processo di approvazione nuovo o esistente al lavoro](https://one.workfront.com/s/article/Associating-a-New-or-Existing-Approval-Process-with-Work-708455630)).
+Per gli utenti, le informazioni sull&#39;associazione dei processi di approvazione agli elementi di lavoro sono disponibili in [Associa un processo di approvazione nuovo o esistente al lavoro](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (oppure se si utilizza Adobe Workfront Classic, vedere [Associazione di un processo di approvazione nuovo o esistente al lavoro](https://one.workfront.com/s/article/Associating-a-New-or-Existing-Approval-Process-with-Work-708455630)).
 
 **Disponibile in questi ambienti:**
 
@@ -70,7 +70,7 @@ Per consentire agli utenti di spostarsi più facilmente avanti e indietro tra le
 
 Ora, quando si fa clic su Ricerca avanzata nel menu Ricerca o si esegue una ricerca di base, una pagina si apre dal lato destro dello schermo.
 
-Per ulteriori informazioni, consulta [Cerca in Adobe Workfront](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
+Per ulteriori informazioni, vedere [Cerca in Adobe Workfront](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
 
 **Disponibile in questi ambienti:**
 
@@ -84,4 +84,4 @@ Per consentire agli utenti di valutare, risolvere e risolvere meglio i problemi,
 * Il servizio è stato ricostruito per avere dipendenze meno complesse e quindi scalare in modo più efficiente
 * Miglioramenti apportati al monitoraggio e all&#39;avviso
 
-Per ulteriori informazioni, consulta [Domande frequenti - Abbonamenti agli eventi](../../../wf-api/general/event-subs-faq.md) e [Best practice per l’abbonamento agli eventi](../../../wf-api/general/event-sub-best-practice.md).
+Per ulteriori informazioni, consulta [Domande frequenti - Sottoscrizioni eventi](../../../wf-api/general/event-subs-faq.md) e [Best practice sottoscrizioni eventi](../../../wf-api/general/event-sub-best-practice.md).

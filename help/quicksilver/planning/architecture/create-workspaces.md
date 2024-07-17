@@ -73,14 +73,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>È necessario aggiungere l'area Planning al modello di layout. Per informazioni, consulta <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica degli accessi</a>. </p>  
+   <td> <p>È necessario aggiungere l'area Planning al modello di layout. Per informazioni, vedere <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica dell'accesso</a>. </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-Per ulteriori informazioni sui requisiti di accesso, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori informazioni sui requisiti di accesso, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -97,7 +97,7 @@ Per ulteriori informazioni sui requisiti di accesso, consulta [Requisiti di acce
 
 * Puoi creare aree di lavoro per specifiche unità organizzative all’interno dell’organizzazione, in base al funzionamento univoco di ciascuna unità.
 * I tipi di record contenuti in un&#39;area di lavoro devono riflettere il ciclo di vita lavorativo di un&#39;unità organizzativa.
-* Quando crei un’area di lavoro, solo tu disponi dell’autorizzazione per accedere a essa e gestirla. È necessario condividerlo con altri utenti affinché possano collaborare con te nello stesso spazio. Per informazioni, consulta [Condividere un’area di lavoro](/help/quicksilver/planning/access/share-workspaces.md). Gli amministratori di sistema possono gestire tutte le aree di lavoro, anche quelle che non hanno creato.
+* Quando crei un’area di lavoro, solo tu disponi dell’autorizzazione per accedere a essa e gestirla. È necessario condividerlo con altri utenti affinché possano collaborare con te nello stesso spazio. Per informazioni, vedere [Condividere un&#39;area di lavoro](/help/quicksilver/planning/access/share-workspaces.md). Gli amministratori di sistema possono gestire tutte le aree di lavoro, anche quelle che non hanno creato.
 * È possibile:
 
    * Fino a 50 sezioni in un’area di lavoro.
@@ -107,15 +107,15 @@ Per ulteriori informazioni sui requisiti di accesso, consulta [Requisiti di acce
 
 ## Crea un’area di lavoro
 
-È possibile creare un workspace e aggiungervi tipi di record per organizzare gli oggetti in Workfront Planning. Per ulteriori informazioni sulla modifica di un’area di lavoro, consulta [Modificare le aree di lavoro](/help/quicksilver/planning/architecture/edit-workspaces.md).
+È possibile creare un workspace e aggiungervi tipi di record per organizzare gli oggetti in Workfront Planning. Per ulteriori informazioni sulla modifica di un&#39;area di lavoro, vedere [Modifica aree di lavoro](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
 {{step1-to-planning}}
 
-1. Clic **Crea area di lavoro**
+1. Fai clic su **Crea area di lavoro**
 
    Viene visualizzata la casella Crea area di lavoro. È possibile creare un&#39;area di lavoro da zero utilizzando uno dei modelli disponibili.
 
-1. (Facoltativo e condizionale) Fai clic su **Anteprima** in uno dei seguenti modelli predefiniti di workspace:
+1. (Facoltativo e condizionale) Fare clic su **Anteprima** in uno dei seguenti modelli di area di lavoro predefiniti:
 
    * Base: Marketing Management
    * Avanzato: Marketing Management
@@ -129,37 +129,37 @@ Per ulteriori informazioni sui requisiti di accesso, consulta [Requisiti di acce
 
    ![](assets/previewing-a-workspace-template.png)
 
-   Per informazioni sui modelli dell&#39;area di lavoro di Workfront Planning, vedere [Elenco dei modelli di Workspace](/help/quicksilver/planning/architecture/workspace-templates.md).
+   Per informazioni sui modelli di area di lavoro di Workfront Planning, vedere [Elenco dei modelli di area di lavoro](/help/quicksilver/planning/architecture/workspace-templates.md).
 
-1. Nella casella di anteprima modello fare clic su **Usa modello** per iniziare a creare l&#39;area di lavoro dal modello selezionato
+1. Dalla casella di anteprima del modello, fai clic su **Usa modello** per iniziare a creare l&#39;area di lavoro dal modello selezionato
 
    Oppure
 
-   Clic **Indietro**, quindi fai clic su **Nuova area di lavoro** per creare un&#39;area di lavoro da zero.
+   Fai clic su **Indietro**, quindi su **Nuova area di lavoro** per creare un&#39;area di lavoro da zero.
 
    Viene creato uno dei seguenti tipi di aree di lavoro:
 
-   * Un’area di lavoro vuota denominata **Area di lavoro senza titolo** quando si crea un&#39;area di lavoro da zero, è possibile iniziare ad aggiungere tipi di record manualmente.
+   * Area di lavoro vuota denominata **Workspace senza titolo** in cui è possibile iniziare ad aggiungere tipi di record manualmente quando si crea un&#39;area di lavoro da zero.
    * Area di lavoro denominata in base al modello selezionato, popolata con tipi di record di esempio. È possibile personalizzare ulteriormente i tipi di record e il workspace.
 
 1. Fai clic sul nome del workspace nell’intestazione del nuovo workspace per rinominarlo, quindi premi Invio.
 
-1. (Facoltativo e condizionale) Se avete creato l&#39;area di lavoro da un modello, fate clic all&#39;interno del nome del **Tipi di record operativi** o **Tassonomie** sezioni
+1. (Facoltativo e condizionale) Se l&#39;area di lavoro è stata creata da un modello, fare clic all&#39;interno del nome delle sezioni **Tipi di record operativi** o **Tassonomie**
 
    Oppure
 
-   Passa il puntatore del mouse sul nome di una sezione, quindi fai clic su **Altro** menu ![](assets/more-menu.png), quindi fai clic su **Rinomina** per rinominare la sezione.
+   Passa il mouse sul nome di una sezione, quindi fai clic sul menu **Altro** ![](assets/more-menu.png), quindi fai clic su **Rinomina** per rinominare la sezione.
 
    >[!TIP]
    >
    >È possibile rinominare qualsiasi sezione da qualsiasi area di lavoro, anche se non è stata creata.
 
-   Per ulteriori informazioni sulla modifica delle aree di lavoro, inclusa la modifica delle sezioni dell&#39;area di lavoro, vedere [Modificare le aree di lavoro](/help/quicksilver/planning/architecture/edit-workspaces.md).
+   Per ulteriori informazioni sulla modifica delle aree di lavoro, inclusa la modifica delle sezioni dell&#39;area di lavoro, vedere [Modifica aree di lavoro](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
 1. (Facoltativo) Fai clic su **Aggiungi tipo di record** per aggiungere tipi di record all&#39;area di lavoro in qualsiasi sezione.
 
-   Per informazioni, consulta [Crea tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
+   Per informazioni, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
 
-   Per ulteriori informazioni sulla modifica e l&#39;eliminazione di tipi di record in un&#39;area di lavoro, vedere [Modificare le aree di lavoro](/help/quicksilver/planning/architecture/edit-workspaces.md).
+   Per ulteriori informazioni sulla modifica e l&#39;eliminazione di tipi di record in un&#39;area di lavoro, vedere [Modifica aree di lavoro](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
 

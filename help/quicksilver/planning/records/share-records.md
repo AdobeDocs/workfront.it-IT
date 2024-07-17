@@ -27,7 +27,7 @@ Per collaborare con altri utenti, è possibile condividere i record con altri ut
 
 * Copiare un collegamento alla pagina del record quando si visualizzano i record nella vista tabella del tipo di record.
 
-* È possibile condividere tutti i record di un&#39;area di lavoro con altri utenti condividendo l&#39;area di lavoro. Per ulteriori informazioni, consulta [Condividere un’area di lavoro](/help/quicksilver/planning/access/share-workspaces.md).
+* È possibile condividere tutti i record di un&#39;area di lavoro con altri utenti condividendo l&#39;area di lavoro. Per ulteriori informazioni, vedere [Condividere un&#39;area di lavoro](/help/quicksilver/planning/access/share-workspaces.md).
 
 In questo articolo viene descritto come copiare un collegamento alla pagina di un record dalla vista tabella di un tipo di record.
 
@@ -80,7 +80,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>L'amministratore del Workfront o del gruppo deve aggiungere l'area Planning nel modello di layout. Per informazioni, consulta <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica degli accessi</a>. </p>  
+   <td> <p>L'amministratore del Workfront o del gruppo deve aggiungere l'area Planning nel modello di layout. Per informazioni, vedere <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica dell'accesso</a>. </p>  
 </td>
   </tr>
 
@@ -111,14 +111,14 @@ Viene aperto l&#39;ultimo workspace a cui si è effettuato l&#39;accesso.
 1. Fare clic su una scheda del tipo di record.
 
    Viene visualizzata la pagina del tipo di record.
-1. (Condizionale) Da **Visualizza** nell&#39;angolo superiore destro della tabella, selezionare una vista tabella. Questa dovrebbe essere la vista predefinita, a meno che il tipo di record non sia stato visualizzato nella vista timeline al momento dell&#39;ultimo accesso.
+1. (Condizionale) Dal menu a discesa **Visualizza** nell&#39;angolo superiore destro della tabella, selezionare una vista tabella. Questa dovrebbe essere la vista predefinita, a meno che il tipo di record non sia stato visualizzato nella vista timeline al momento dell&#39;ultimo accesso.
 
    I record associati al tipo di record selezionato vengono visualizzati nella vista tabella.
 1. Fare clic con il pulsante destro del mouse su una riga di record
 
    Oppure
 
-   Passa il puntatore del mouse sul nome di un record e fai clic sul pulsante **Altro** menu ![](assets/more-menu.png), quindi fai clic su **Copia collegamento**.
+   Passa il puntatore del mouse sul nome di un record, fai clic sul menu **Altro** ![](assets/more-menu.png), quindi fai clic su **Copia collegamento**.
 
    ![](assets/contextual-menu-for-record-row.png)
 
@@ -139,4 +139,4 @@ Viene aperto l&#39;ultimo workspace a cui si è effettuato l&#39;accesso.
 
 Solo gli utenti con le autorizzazioni di gestione di un’area di lavoro possono condividerla con altri utenti.
 
-Per ulteriori informazioni, consulta [Condividere un’area di lavoro](/help/quicksilver/planning/access/share-workspaces.md).
+Per ulteriori informazioni, vedere [Condividere un&#39;area di lavoro](/help/quicksilver/planning/access/share-workspaces.md).

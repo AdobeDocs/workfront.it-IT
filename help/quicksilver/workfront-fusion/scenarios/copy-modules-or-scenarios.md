@@ -2,8 +2,8 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Copiare moduli o scenari in [!DNL Adobe Workfront Fusion]
-description: Copiare moduli o scenari in [!DNL Adobe Workfront Fusion]
+title: Copia moduli o scenari in [!DNL Adobe Workfront Fusion]
+description: Copia moduli o scenari in [!DNL Adobe Workfront Fusion]
 author: Becky
 feature: Workfront Fusion
 exl-id: 24e77a56-d676-4cf1-a801-1c328ffd0c4e
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Copiare moduli o scenari in [!DNL Adobe Workfront Fusion]
+# Copia moduli o scenari in [!DNL Adobe Workfront Fusion]
 
 È possibile copiare moduli, gruppi di moduli o interi scenari in [!DNL Adobe Workfront Fusion]. Questa funzionalità consente di riutilizzare scenari o parti di scenari senza doverli ricreare
 
@@ -37,25 +37,25 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   <tr> 
    <td role="rowheader">Licenza [!UICONTROL Adobe Workfront Fusion]**</td> 
   <td>
-   <p>Fabbisogno di licenza corrente: No [!DNL Workfront Fusion] requisito di licenza.</p>
+   <p>Requisiti di licenza correnti: nessun requisito di licenza [!DNL Workfront Fusion].</p>
    <p>Oppure</p>
-   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro], [!UICONTROL [!DNL Workfront Fusion] per automazione lavoro]</p>
+   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione lavoro], [!UICONTROL [!DNL Workfront Fusion] per automazione lavoro]</p>
    </td>    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
    <td>
-   <p>Fabbisogno prodotto corrente: se si dispone di [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Pianifica, la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo. [!DNL Workfront Fusion] è incluso in [!UICONTROL Ultimate] [!DNL Workfront] piano.</p>
+   <p>Fabbisogno prodotto corrente: se si dispone del piano [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], l'organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo. [!DNL Workfront Fusion] è incluso nel piano [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>Oppure</p>
-   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</p>
+   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</p>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore [!DNL Workfront].
 
-Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Prerequisiti
 
@@ -84,11 +84,11 @@ La copia di un gruppo di moduli è simile alla copia di un singolo modulo.
 
    >[!NOTE]
    >
-   >Per selezionare più moduli, tieni premuto [!UICONTROL turno] e facendo clic sui moduli da copiare. Copiando un gruppo di moduli vengono copiate anche le linee di connessione, i filtri o la logica di routing tra di essi.
+   >Per selezionare più moduli, tieni premuto [!UICONTROL shift] e fai clic sui moduli da copiare. Copiando un gruppo di moduli vengono copiate anche le linee di connessione, i filtri o la logica di routing tra di essi.
 
 1. Seleziona **[!UICONTROL Copia modulo]**.
 1. Spostare il cursore nell&#39;area dello scenario in cui si desidera copiare lo scenario.
-1. Fai clic con il pulsante destro del mouse e seleziona (Confronta periodi di tempo) **[!UICONTROL Incolla]**.
+1. Fare clic con il pulsante destro del mouse e selezionare **[!UICONTROL Incolla]**.
 1. Connetti i moduli incollati allo scenario trascinandoli nella posizione appropriata nello scenario.
 
    È inoltre possibile utilizzare i tasti di scelta rapida per copiare e incollare.
@@ -99,17 +99,17 @@ La clonazione di uno scenario ne crea una copia, che potrai quindi modificare.
 
 1. Apri la pagina dei dettagli dello scenario:
 
-   1. Fai clic su **[!UICONTROL Scenario]** nel pannello a sinistra, quindi fai clic su uno scenario su cui desideri visualizzare i dettagli.
+   1. Fai clic sulla scheda **[!UICONTROL Scenario]** nel pannello a sinistra, quindi fai clic su uno scenario su cui desideri visualizzare i dettagli.
 
       Oppure
 
-      Se stai lavorando sullo scenario in [Editor scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md), fare clic sulla freccia sinistra ![](assets/exit-editing-arrow.png) nell&#39;angolo superiore sinistro della finestra.
+      Se si sta lavorando sullo scenario in [Editor scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md), fare clic sulla freccia sinistra ![](assets/exit-editing-arrow.png) nell&#39;angolo superiore sinistro della finestra.
 
-1. Clic destro **[!UICONTROL Opzioni]** in alto a destra.
-1. Seleziona **[!UICONTROL Clona]**.
+1. Fai clic con il pulsante destro del mouse su **[!UICONTROL Opzioni]** in alto a destra della pagina.
+1. Selezionare **[!UICONTROL Clone]**.
 1. (Facoltativo) Immetti un nome per il nuovo scenario.
-1. (Facoltativo) Abilita **[!UICONTROL Mantenere gli stati dei nuovi moduli uguali a quelli dei moduli duplicati]** affinché lo scenario copiato includa anche informazioni sui record più recenti elaborati dallo scenario originale.
-1. Clic **[!UICONTROL Salva]** per creare lo scenario.
+1. (Facoltativo) Abilita **[!UICONTROL Mantenere gli stati dei nuovi moduli uguali a quelli dei moduli duplicati]** per garantire che lo scenario copiato includa anche informazioni sui record più recenti elaborati dallo scenario originale.
+1. Fai clic su **[!UICONTROL Salva]** per creare lo scenario.
 
 ## Copiare uno scenario utilizzando blueprint
 
@@ -119,14 +119,14 @@ Una blueprint di scenario rappresenta l’intero scenario. Se desideri copiare s
 
 >[!NOTE]
 >
->Per informazioni sui progetti nel contesto di [!DNL Adobe Workfront], vedi [Panoramica dei blueprint](../../administration-and-setup/blueprints/blueprints-overview.md).
+>Per informazioni sui blueprint nel contesto di [!DNL Adobe Workfront], consulta [Panoramica sui blueprint](../../administration-and-setup/blueprints/blueprints-overview.md).
 
 ### Esportare una blueprint di scenario
 
-1. Nello scenario, fai clic su **[!UICONTROL Altro]** nell’area delle impostazioni dello scenario.
-1. Clic **[!UICONTROL Esporta blueprint]**.
+1. Nello scenario, fai clic sul menu **[!UICONTROL Altro]** nell&#39;area delle impostazioni dello scenario.
+1. Fai clic su **[!UICONTROL Esporta blueprint]**.
 
-   Viene creato un file JSON che viene scaricato sul computer. Puoi individuare questo file nel tuo [!DNL Downloads] cartella.
+   Viene creato un file JSON che viene scaricato sul computer. È possibile individuare questo file nella cartella [!DNL Downloads].
 
 ### Importare una blueprint
 
@@ -135,16 +135,16 @@ Una blueprint di scenario rappresenta l’intero scenario. Se desideri copiare s
 >Se importi una blueprint in uno scenario esistente, la blueprint dello scenario sostituisce quello esistente. Non puoi aggiungere una blueprint a uno scenario esistente.
 
 1. Inizia a creare un nuovo scenario.
-1. Nello scenario, fai clic su **[!UICONTROL Altro]** nell’area delle impostazioni dello scenario.
-1. Clic **[!UICONTROL Importa blueprint]**.
+1. Nello scenario, fai clic sul menu **[!UICONTROL Altro]** nell&#39;area delle impostazioni dello scenario.
+1. Fai clic su **[!UICONTROL Importa blueprint]**.
 1. Nella finestra di dialogo visualizzata, fai clic su **[!UICONTROL Sfoglia]**
-1. Passa alla blueprint da importare e fai clic su **[!UICONTROL Apri]**.
+1. Passare alla blueprint da importare e fare clic su **[!UICONTROL Apri]**.
 1. Fai clic su **[!UICONTROL Salva]**.
 
-   Viene creato un file JSON che viene scaricato sul computer. Puoi individuare questo file nel tuo [!UICONTROL Download] cartella.
+   Viene creato un file JSON che viene scaricato sul computer. Puoi individuare questo file nella cartella [!UICONTROL Download].
 
 ## Copiare e riutilizzare gli scenari utilizzando i modelli
 
-È possibile creare modelli come punto di partenza per [!DNL Workfront Fusion] scenari. Quando crei uno scenario da un modello, puoi modificarlo senza modificarlo. I valori dei campi non vengono salvati nei modelli.
+È possibile creare modelli come punto di partenza per gli scenari [!DNL Workfront Fusion]. Quando crei uno scenario da un modello, puoi modificarlo senza modificarlo. I valori dei campi non vengono salvati nei modelli.
 
-Per ulteriori informazioni sulla creazione e l’utilizzo dei modelli, consulta [Modelli di scenario](../../workfront-fusion/scenarios/templates/fusion-templates.md).
+Per ulteriori informazioni sulla creazione e l&#39;utilizzo dei modelli, vedere [Modelli di scenario](../../workfront-fusion/scenarios/templates/fusion-templates.md).

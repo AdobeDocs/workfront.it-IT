@@ -10,7 +10,7 @@ role: Admin
 exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
 source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 {{highlighted-preview}}
 
-In qualità di amministratore di Adobe Workfront, puoi definire l’accesso di un utente a quanto segue attraverso il suo livello di accesso, come spiegato in [Panoramica dei livelli di accesso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md):
+In qualità di amministratore di Adobe Workfront, puoi definire l&#39;accesso di un utente ai seguenti elementi tramite il suo livello di accesso, come spiegato in [Panoramica sui livelli di accesso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md):
 
 * Informazioni finanziarie sui progetti in Workfront
 * Informazioni sul budget delle risorse negli strumenti di pianificazione delle risorse
@@ -42,7 +42,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Devi essere un amministratore di Workfront.</p> <p><b>NOTA</b>: se ancora non disponi dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <p>Devi essere un amministratore di Workfront.</p> <p><b>NOTA</b>: se non disponi ancora dell'accesso, chiedi all'amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,17 +51,17 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 Quando consenti agli utenti di accedere ai dati finanziari in Workfront, considera quanto segue:
 
-* Un utente il cui livello di accesso non consente l’accesso ai dati finanziari non può creare un rischio per un progetto. Per ulteriori informazioni, consulta [Creare e modificare i rischi nei progetti](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
-* È inoltre possibile utilizzare un livello di accesso per determinare quali attività di gestione delle risorse un utente può utilizzare per preventivare o visualizzare l&#39;allocazione delle risorse. Per informazioni, consulta [Concedere l’accesso alla gestione delle risorse](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+* Un utente il cui livello di accesso non consente l’accesso ai dati finanziari non può creare un rischio per un progetto. Per ulteriori informazioni, vedere [Creare e modificare i rischi nei progetti](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
+* È inoltre possibile utilizzare un livello di accesso per determinare quali attività di gestione delle risorse un utente può utilizzare per preventivare o visualizzare l&#39;allocazione delle risorse. Per informazioni, vedere [Concedere l&#39;accesso a Gestione risorse](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 
 ## Configurare l’accesso degli utenti ai dati finanziari utilizzando un livello di accesso personalizzato
 
-1. Inizia a creare o modificare il livello di accesso, come spiegato in [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. Fai clic sull’icona a forma di ingranaggio ![](assets/gear-icon-settings.png) il **Visualizza** o **Modifica** a destra di Dati finanziari, quindi selezionare le funzionalità che si desidera concedere **Metti a punto le impostazioni**.
+1. Iniziare a creare o modificare il livello di accesso, come descritto in [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+1. Fai clic sull&#39;icona ingranaggio ![](assets/gear-icon-settings.png) sul pulsante **Visualizza** o **Modifica** a destra di Dati finanziari, quindi seleziona le abilità che desideri concedere in **Ottimizza le impostazioni**.
 
    ![](assets/financial-data-fine-tune-nwe.png)
 
-1. (Facoltativo) In **Consenti accesso amministrativo per** , selezionare le opzioni seguenti:
+1. (Facoltativo) Nell&#39;area **Consenti accesso amministrativo per**, selezionare le opzioni seguenti:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -83,10 +83,10 @@ Quando consenti agli utenti di accedere ai dati finanziari in Workfront, conside
     </tbody> 
    </table>
 
-1. (Facoltativo) Per configurare le impostazioni di accesso per altri oggetti e aree nel livello di accesso su cui si sta lavorando, continuare con uno degli articoli elencati in [Configurare l’accesso ad Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md) come [Concedere l’accesso alle attività](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
-1. Al termine, fai clic su **Salva**.
+1. (Facoltativo) Per configurare le impostazioni di accesso per altri oggetti e aree nel livello di accesso su cui stai lavorando, continua con uno degli articoli elencati in [Configurare l&#39;accesso ad Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), ad esempio [Concedere l&#39;accesso alle attività](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
+1. Al termine, fare clic su **Salva**.
 
-   Dopo aver creato il livello di accesso, puoi assegnarlo a un utente. Per ulteriori informazioni, consulta [Modificare il profilo di un utente](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   Dopo aver creato il livello di accesso, puoi assegnarlo a un utente. Per ulteriori informazioni, vedere [Modificare il profilo di un utente](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ## Accesso alle informazioni finanziarie condivise
 
@@ -106,7 +106,7 @@ Quando si condivide un oggetto con un altro utente, i diritti del destinatario s
 
 ## Accesso alle informazioni finanziarie per tipo di licenza
 
-Per informazioni sulle operazioni che gli utenti di ogni livello di accesso possono eseguire con le informazioni finanziarie, vedere la sezione [Dati finanziari](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#financia) nell’articolo [Funzionalità disponibile per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+Per informazioni sulle operazioni che gli utenti di ogni livello di accesso possono eseguire con le informazioni finanziarie, vedere la sezione [Dati finanziari](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#financia) nell&#39;articolo [Funzionalità disponibile per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
 ## Accesso alle informazioni finanziarie mediante impostazione
 
@@ -122,11 +122,11 @@ Un utente che non ha accesso ai dati finanziari non ha accesso ai seguenti eleme
 * <span class="preview">Classifica schede</span>
 * Costo orario e fatturazione all&#39;ora in base alle preferenze utente
 
-  Puoi configurarlo utilizzando l’icona a forma di ingranaggio ![](assets/gear-icon-settings.png) sul pulsante Visualizza al punto 4 precedente.
+  È possibile configurarlo utilizzando l&#39;icona a forma di ingranaggio ![](assets/gear-icon-settings.png) sul pulsante Visualizza nel passaggio 4 precedente.
 
 * Costo orario e fatturazione all&#39;ora per le mansioni
 
-  Puoi configurarlo utilizzando l’icona a forma di ingranaggio ![](assets/gear-icon-settings.png) sul pulsante Visualizza al punto 4 precedente.
+  È possibile configurarlo utilizzando l&#39;icona a forma di ingranaggio ![](assets/gear-icon-settings.png) sul pulsante Visualizza nel passaggio 4 precedente.
 
 ### Visualizza accesso
 
@@ -137,11 +137,11 @@ Un utente con accesso di visualizzazione ai dati finanziari può visualizzare (n
 * Tariffe di fatturazione e record di fatturazione
 * Costo orario e fatturazione all&#39;ora in base alle preferenze utente
 
-  Puoi configurarlo utilizzando l’icona a forma di ingranaggio ![](assets/gear-icon-settings.png) sul pulsante Visualizza al punto 4 precedente.
+  È possibile configurarlo utilizzando l&#39;icona a forma di ingranaggio ![](assets/gear-icon-settings.png) sul pulsante Visualizza nel passaggio 4 precedente.
 
 * Costo orario e fatturazione all&#39;ora per le mansioni
 
-  Puoi configurarlo utilizzando l’icona a forma di ingranaggio ![](assets/gear-icon-settings.png) sul pulsante Visualizza al punto 4 precedente.
+  È possibile configurarlo utilizzando l&#39;icona a forma di ingranaggio ![](assets/gear-icon-settings.png) sul pulsante Visualizza nel passaggio 4 precedente.
 
 ### Modifica accesso
 
@@ -153,8 +153,8 @@ L’utente con accesso in modifica ai dati finanziari può visualizzare e modifi
 * <span class="preview">Classifica schede</span>
 * Costo orario e fatturazione all&#39;ora in base alle preferenze utente
 
-  Puoi configurarlo utilizzando l’icona a forma di ingranaggio ![](assets/gear-icon-settings.png) sul pulsante Modifica al punto 4 precedente.
+  È possibile configurarlo utilizzando l&#39;icona a forma di ingranaggio ![](assets/gear-icon-settings.png) sul pulsante Modifica nel passaggio 4 precedente.
 
 * Costo orario e fatturazione all&#39;ora per le mansioni
 
-  Puoi configurarlo utilizzando l’icona a forma di ingranaggio ![](assets/gear-icon-settings.png) sul pulsante Modifica al punto 4 precedente.
+  È possibile configurarlo utilizzando l&#39;icona a forma di ingranaggio ![](assets/gear-icon-settings.png) sul pulsante Modifica nel passaggio 4 precedente.

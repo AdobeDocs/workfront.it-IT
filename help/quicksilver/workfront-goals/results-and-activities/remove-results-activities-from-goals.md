@@ -23,14 +23,14 @@ Puoi rimuovere risultati, attività e progetti dagli obiettivi se non sono più 
 
 Per informazioni sulla creazione di obiettivi e sull’aggiunta di risultati e attività, consulta i seguenti articoli:
 
-* [Creare gli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
-* [Aggiungere attività agli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
-* [Aggiungere risultati agli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md)
+* [Crea obiettivi in Obiettivi Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
+* [Aggiungi attività agli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
+* [Aggiungi risultati agli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 * [Modificare risultati e attività in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/edit-results-and-activities.md)
 
 Gli obiettivi possono anche essere allineati agli obiettivi principali, diventando obiettivi secondari. Gli obiettivi figlio sono anche indicatori di progresso degli obiettivi padre.
 
-È possibile rimuovere l’allineamento tra gli obiettivi rimuovendo la connessione tra di essi. Per informazioni, consulta [Rimuovere l’allineamento dell’obiettivo in Obiettivi di Adobe Workfront](../goal-alignment/remove-goal-alignment.md).
+È possibile rimuovere l’allineamento tra gli obiettivi rimuovendo la connessione tra di essi. Per informazioni, consulta [Rimuovere l&#39;allineamento dell&#39;obiettivo negli Obiettivi di Adobe Workfront](../goal-alignment/remove-goal-alignment.md).
 
 ## Requisiti di accesso
 
@@ -59,7 +59,7 @@ Devi avere i seguenti:
  <td>
  <p>Nuova licenza: Collaboratore o versione successiva</p>
  Oppure
- <p>Licenza corrente: richiesta o successiva</p> <p>Per ulteriori informazioni, consulta <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica sulle licenze di Adobe Workfront</a>.</p> </td>
+ <p>Licenza corrente: richiesta o successiva</p> <p>Per ulteriori informazioni, vedere <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica delle licenze di Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Prodotto*</td>
@@ -69,7 +69,7 @@ Devi avere i seguenti:
 <li>Un piano Select o Prime Adobe Workfront e un’ulteriore licenza Adobe Workfront Goals.</li>
 <li>Un piano Workfront Ultimate che include gli obiettivi Workfront per impostazione predefinita. </li></ul>
  <p>Oppure</p>
- <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, consulta <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l’utilizzo degli obiettivi di Workfront</a>. </p> </td>
+ <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Livello di accesso</td>
@@ -81,7 +81,7 @@ Devi avere i seguenti:
   <div>
   <p>Visualizza o autorizzazioni superiori per l’obiettivo per visualizzarlo</p>
   <p>Gestire le autorizzazioni per l’obiettivo per modificarlo</p>
-  <p>Per informazioni sulla condivisione degli obiettivi, consulta <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Condividere un obiettivo in Obiettivi di Workfront</a>. </p>
+  <p>Per informazioni sulla condivisione degli obiettivi, vedere <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Condividere un obiettivo in Obiettivi di Workfront</a>. </p>
   </div> </td>
  </tr>
  <tr>
@@ -92,7 +92,7 @@ Devi avere i seguenti:
 </tbody>
 </table>
 
-*Per ulteriori informazioni, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Prerequisiti
 
@@ -105,7 +105,7 @@ Devi avere un obiettivo associato a risultati, attività o progetti.
 * Quando rimuovi il risultato o l’attività da un obiettivo, l’avanzamento del risultato o dell’attività rimosso influisce sull’avanzamento complessivo dell’obiettivo.
 * Non è possibile eliminare un progetto da un obiettivo, ma è possibile disconnetterlo dall’obiettivo. Disconnettendo il progetto dall’obiettivo, la percentuale di completamento del progetto non influisce più sull’avanzamento dell’obiettivo.
 
-  Per informazioni su come i progetti influiscono sull’avanzamento dell’obiettivo, consulta [Aggiungere progetti agli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+  Per informazioni su come i progetti influenzano l&#39;avanzamento dell&#39;obiettivo, vedi [Aggiungere progetti agli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
 * Non è possibile rimuovere un risultato o un’attività da un obiettivo e non è possibile disconnettere un obiettivo figlio o un progetto, se sono l’ultimo indicatore di avanzamento dell’obiettivo.
 * Se un progetto viene eliminato dall’area Progetti e rappresenta l’ultimo indicatore di avanzamento di un obiettivo, l’obiettivo diventa Inattivo.
@@ -141,7 +141,7 @@ How you delete results and activities differs depending on the environment you u
 
 -->
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro, quindi fai clic su **Obiettivi**.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** in alto a destra, quindi fai clic su **Obiettivi**.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -151,11 +151,11 @@ How you delete results and activities differs depending on the environment you u
 
    Viene visualizzata la pagina dell’obiettivo.
 
-1. Clic **Indicatori di avanzamento** nel pannello a sinistra.
+1. Fai clic su **Indicatori di avanzamento** nel pannello a sinistra.
 
-1. Seleziona un risultato o un’attività, quindi fai clic sul pulsante **Elimina** icona ![](assets/delete-icon.png) nella parte superiore dell’elenco.
+1. Seleziona un risultato o un&#39;attività, quindi fai clic sull&#39;icona **Elimina** ![](assets/delete-icon.png) nella parte superiore dell&#39;elenco.
 
-1. Clic **Elimina** per confermare l’eliminazione. Il risultato o l’attività viene eliminato e non può essere recuperato. La percentuale di completamento degli aggiornamenti dell’obiettivo per escludere l’attività o il risultato eliminato.
+1. Fai clic su **Elimina** per confermare l&#39;eliminazione. Il risultato o l’attività viene eliminato e non può essere recuperato. La percentuale di completamento degli aggiornamenti dell’obiettivo per escludere l’attività o il risultato eliminato.
 
 
 ## Rimuovi progetti dagli obiettivi
@@ -186,7 +186,7 @@ Dsconnecting projects from goals differs depending on the environment you use.
 -->
 
 
-1. Fai clic su **Menu principale** in alto a destra, quindi fai clic su **Obiettivi**.
+1. Fai clic sull&#39;icona **Main Menu** nell&#39;angolo superiore destro, quindi fai clic su **Goals**.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -196,9 +196,9 @@ Dsconnecting projects from goals differs depending on the environment you use.
 1. Fai clic sul nome di un obiettivo da cui desideri rimuovere risultati e attività.
 
    Viene visualizzata la pagina dell’obiettivo.
-1. Clic **Indicatori di avanzamento** nel pannello a sinistra.
-1. Seleziona un progetto, quindi fai clic su **Disconnetti** icona ![](assets/disconnect-icon.png) nella parte superiore dell’elenco.
-1. Clic **Disconnetti** per confermare.
+1. Fai clic su **Indicatori di avanzamento** nel pannello a sinistra.
+1. Seleziona un progetto, quindi fai clic sull&#39;icona ![](assets/disconnect-icon.png) di **Disconnetti** nella parte superiore dell&#39;elenco.
+1. Fai clic su **Disconnetti** per confermare.
 
    Il progetto non è più connesso all’obiettivo. La percentuale di completamento degli aggiornamenti dell’obiettivo per escludere il progetto disconnesso.
 

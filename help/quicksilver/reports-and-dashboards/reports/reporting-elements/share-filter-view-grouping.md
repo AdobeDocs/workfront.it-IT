@@ -24,7 +24,7 @@ ht-degree: 1%
 
 L’amministratore di Adobe Workfront consente agli utenti di visualizzare o modificare gli oggetti quando assegnano i livelli di accesso. Per ulteriori informazioni sulla concessione dell&#39;accesso agli oggetti, vedere [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-Oltre al livello di accesso concesso agli utenti, è possibile concedere loro anche le autorizzazioni per visualizzare o modificare oggetti specifici creati o di cui si dispone dell&#39;accesso alla condivisione. Per ulteriori informazioni sui livelli di accesso e sulle autorizzazioni, consulta [Funzionamento congiunto dei livelli di accesso e delle autorizzazioni](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+Oltre al livello di accesso concesso agli utenti, è possibile concedere loro anche le autorizzazioni per visualizzare o modificare oggetti specifici creati o di cui si dispone dell&#39;accesso alla condivisione. Per ulteriori informazioni sui livelli di accesso e sulle autorizzazioni, vedere [Funzionamento dei livelli di accesso e delle autorizzazioni](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 Puoi condividere filtri, viste e raggruppamenti a cui hai accesso per visualizzarli con altri utenti.
 
@@ -32,7 +32,7 @@ Quando un filtro, una visualizzazione o un raggruppamento è condiviso con l&#39
 
 Per informazioni su come creare un filtro, una visualizzazione o un raggruppamento, vedere gli articoli seguenti:
 
-* [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [Panoramica filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
@@ -58,12 +58,12 @@ Devi avere i seguenti:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Autorizzazioni di visualizzazione o di livello superiore con accesso alla condivisione di una visualizzazione, un filtro o un raggruppamento</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Autorizzazioni di visualizzazione o di livello superiore con accesso alla condivisione di una visualizzazione, un filtro o un raggruppamento</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Condividere un filtro, una visualizzazione o un raggruppamento
 
@@ -82,7 +82,7 @@ Nell’interfaccia standard puoi condividere un filtro da elenchi di progetti, a
 Condividi un filtro tramite l’interfaccia standard di generazione:
 
 1. Consente di passare a un elenco di progetti, attività o problemi.
-1. Fai clic su **Filtro** icona ![Icona Filtro](assets/filter-nwepng.png).
+1. Fai clic sull&#39;icona **Filtro** ![Icona Filtro](assets/filter-nwepng.png).
 
    ![Generatore di filtri standard](assets/new-filters-all-filter-types.png)
 
@@ -111,24 +111,24 @@ Condividi un filtro tramite l’interfaccia standard di generazione:
    </tbody>
    </table>
 
-1. Passa il puntatore del mouse su un filtro a cui hai accesso per visualizzare e condividere almeno, quindi fai clic sul pulsante **Altro** menu ![Menu Altro](assets/more-icon-spectrum.png), quindi fai clic su **Condividi**.
+1. Passa il puntatore del mouse su un filtro a cui hai accesso per visualizzare e condividere almeno, quindi fai clic sul menu **Altro** ![Altro](assets/more-icon-spectrum.png), quindi fai clic su **Condividi**.
 
    ![Altre opzioni di menu](assets/new-filters-more-menu-options-with-delete.png)
 
    Viene visualizzata la casella Condivisione filtro.
 
-1. Inizia a digitare i nomi di utenti, team, ruoli, gruppi o aziende con cui desideri condividere in **Concedi accesso a** campo.
+1. Inizia a digitare i nomi di utenti, team, ruoli, gruppi o aziende con cui vuoi condividere nel campo **Concedi l&#39;accesso a**.
 
-   ![Casella Condivisione filtro](assets/new-filters-share-filter.png)
+   ![Casella di condivisione filtro](assets/new-filters-share-filter.png)
 
-1. (Facoltativo) Fai clic sulla freccia rivolta a destra accanto al nome di un’entità per modificare le relative autorizzazioni per il filtro, quindi abilita **Visualizza** o **Gestisci** opzione. **Visualizza** è il valore predefinito.
+1. (Facoltativo) Fai clic sulla freccia rivolta a destra accanto al nome di un&#39;entità per modificarne le autorizzazioni per il filtro, quindi abilita l&#39;opzione **Visualizza** o **Gestisci**. **Visualizza** è l&#39;impostazione predefinita.
 
    ![Autorizzazioni di condivisione](assets/new-filters-sharing-permissions.png)
 
 1. (Facoltativo) Abilita o disabilita le autorizzazioni aggiuntive per un’entità effettuando una delle seguenti operazioni:
 
-   1. Clic **Visualizza** e disattiva **Condividi** opzione. È attivata per impostazione predefinita.
-   1. Clic **Gestisci** e disabilitare **Condividi** o **Elimina** opzione. Sono attivati per impostazione predefinita.
+   1. Fai clic su **Visualizza** e disabilita l&#39;opzione **Condividi**. È attivata per impostazione predefinita.
+   1. Fai clic su **Gestisci** e disabilita l&#39;opzione **Condividi** o **Elimina**. Sono attivati per impostazione predefinita.
 
       >[!NOTE]
       >
@@ -144,7 +144,7 @@ Condividi un filtro tramite l’interfaccia standard di generazione:
    >
    >La condivisione con i gruppi consente di assegnare le autorizzazioni per il filtro ai membri del gruppo e di tutti i sottogruppi.
 
-   I filtri condivisi vengono visualizzati in **Condiviso con me** sezione del pannello dei filtri per tali entità.
+   I filtri condivisi vengono visualizzati nella sezione **Condivisi con me** del pannello dei filtri per tali entità.
 
    ![Filtri condivisi con me](assets/new-filters-shared-with-me.png)
 
@@ -153,26 +153,26 @@ Condividi un filtro tramite l’interfaccia standard di generazione:
 La condivisione di filtri, viste e raggruppamenti nell’interfaccia legacy è identica.
 
 1. Consente di passare a un elenco di oggetti o a un report.
-1. (Condizionale) Da un elenco, fai clic su **Filtro**, **Visualizza**, o **Raggruppamento** , quindi passare il puntatore del mouse sul filtro, la visualizzazione o il raggruppamento che si desidera condividere, fare clic sul pulsante **Altro** icona ![Icona Altro](assets/more-icon.png), quindi **Condividi**.
+1. (Condizionale) Da un elenco, fai clic sull&#39;icona **Filtro**, **Visualizzazione** o **Raggruppamento**, quindi passa il puntatore del mouse sul filtro, sulla visualizzazione o sul raggruppamento che desideri condividere e fai clic sull&#39;icona **Altro** ![Icona Altro](assets/more-icon.png), quindi **Condividi**.
 
-   Da un rapporto, fai clic su **Filtro**, **Visualizza**, o **Raggruppamento** , quindi selezionare il filtro, la visualizzazione o il raggruppamento da condividere.
+   Da un report, fare clic sul menu a discesa **Filtro**, **Visualizza** o **Raggruppamento**, quindi selezionare il filtro, la visualizzazione o il raggruppamento che si desidera condividere.
 
-1. (Condizionale) Se condividi da un rapporto, fai clic sul pulsante **Filtro**, **Visualizza**, o **Raggruppamento** nuovamente, quindi fai clic su **Condividi filtro**, **Condividi visualizzazione**, o **Condividi raggruppamento**.\
-   Il **Filtra accesso**, **Accesso visualizzazione**, o **Accesso al raggruppamento** viene visualizzata.
+1. (Condizionale) Se condividi da un report, fai clic nuovamente sul menu a discesa **Filtro**, **Visualizza** o **Raggruppamento**, quindi fai clic su **Condividi filtro**, **Condividi visualizzazione** o **Condividi raggruppamento**.\
+   Viene visualizzata la finestra di dialogo **Accesso filtro**, **Accesso visualizzazione** o **Accesso raggruppamento**.
 
    ![Condividi filtro](assets/share-filter-people-box-nwe-350x458.png)
 
 1. Completa una delle seguenti operazioni, a seconda di chi desideri condividere con:
 
-   **Per condividere con singoli utenti, team, ruoli, gruppi o aziende:** Nel campo fornito, inizia a digitare il nome dell’utente, del team, della mansione, del gruppo o dell’azienda con cui desideri condividere il nome, quindi fai clic sul nome quando viene visualizzato nell’elenco a discesa.\
+   **Per condividere con singoli utenti, team, ruoli, gruppi o società:** Nel campo specificato iniziare a digitare il nome dell&#39;utente, del team, della mansione, del gruppo o della società con cui si desidera condividere il nome, quindi fare clic sul nome quando viene visualizzato nell&#39;elenco a discesa.\
    Ripeti questa procedura per condividere l’accesso con più utenti, team, ruoli, gruppi o aziende.
 
    >[!TIP]
    >
    >La condivisione con i gruppi consente di assegnare le autorizzazioni per il filtro, la visualizzazione o il raggruppamento ai membri del gruppo e di tutti i sottogruppi.
 
-   **Per condividere con tutti gli utenti del sistema:** Fai clic su **Impostazioni** , quindi fai clic su **Rendi visibile a livello di sistema**.\
-   Per rendere disponibile questa opzione, l&#39;amministratore deve selezionare l&#39;opzione Condividi a livello di sistema. Per ulteriori informazioni, consulta gli articoli [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) e [Condividere report, dashboard e calendari](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
+   **Per condividere con tutti gli utenti del sistema:** Fai clic sull&#39;icona **Impostazioni**, quindi fai clic su **Rendi visibile a livello di sistema**.\
+   Per rendere disponibile questa opzione, l&#39;amministratore deve selezionare l&#39;opzione Condividi a livello di sistema. Per ulteriori informazioni, vedere gli articoli [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) e [Condividere report, dashboard e calendari](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
 1. (Condizionale) Se condividi con singoli utenti, team, ruoli, gruppi o società, fai clic sul menu a discesa per definire il livello di accesso che desideri concedere.
 
@@ -192,13 +192,13 @@ La condivisione di filtri, viste e raggruppamenti nell’interfaccia legacy è i
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Condividi</strong></td> 
-      <td> <p>Clic <strong>Impostazioni avanzate</strong>, quindi selezionare o deselezionare <strong>Condividi</strong> a seconda che si desideri che i destinatari possano condividere con altri.</p> </td> 
+      <td> <p>Fai clic su <strong>Impostazioni avanzate</strong>, quindi seleziona o cancella l'opzione <strong>Condividi</strong>, a seconda che si desideri che i destinatari possano condividere con altri.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Fai clic su **Salva**.
 
-   Gli utenti con cui hai condiviso il filtro, la visualizzazione o il raggruppamento possono accedervi facendo clic sul pulsante **Filtro**, **Visualizza**, o **Raggruppamento** menu a discesa o icona e scorrere verso il basso fino al **Condiviso con me** sezione.
+   Gli utenti con cui hai condiviso il filtro, la visualizzazione o il raggruppamento possono accedervi facendo clic sull&#39;icona o sul menu a discesa **Filtro**, **Visualizzazione** o **Raggruppamento** e scorrendo verso il basso fino alla sezione **Condiviso con me**.
 
 

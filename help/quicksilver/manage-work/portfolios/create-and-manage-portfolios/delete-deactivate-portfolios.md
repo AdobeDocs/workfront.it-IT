@@ -71,20 +71,20 @@ Quando decidi se eliminare o disattivare i portfolio, considera quanto segue:
 
 ## Disattivare un portfolio
 
-Quando disattivi un portfolio, puoi comunque accedervi dal [!UICONTROL Portfoli] ma non viene più visualizzata nell’elenco dei portfolio quando gli utenti tentano di aggiungerla a un progetto.
+Quando disattivi un portfolio, puoi comunque accedervi dall&#39;area [!UICONTROL Portfoli], ma non viene più visualizzato nell&#39;elenco dei portfolio quando gli utenti tentano di aggiungerlo a un progetto.
 
 >[!NOTE]
 >
->A seconda di come [!DNL Workfront] o l&#39;amministratore di gruppo configura il modello di layout, [!UICONTROL Portfoli] L&#39;area potrebbe non essere visualizzata in [!UICONTROL Menu principale]. Per ulteriori informazioni, consulta [Personalizzare il menu principale utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+>A seconda della configurazione del modello di layout da parte dell&#39;amministratore di [!DNL Workfront] o del gruppo, l&#39;area [!UICONTROL Portfoli] potrebbe non essere visualizzata nel [!UICONTROL menu principale]. Per ulteriori informazioni, vedere [Personalizzare il menu principale utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro.
-1. Clic **[!UICONTROL Portfoli]** .
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro.
+1. Fai clic su **[!UICONTROL Portfoli]**.
 1. Fai clic sul nome del portfolio.
-1. Fai clic su **Altro** menu ![](assets/more-icon.png) a destra del nome del portfolio, quindi fai clic su **[!UICONTROL Disattiva Portfolio]**.
+1. Fai clic sul menu **Altro** ![](assets/more-icon.png) a destra del nome del portfolio, quindi fai clic su **[!UICONTROL Disattiva Portfolio]**.
 
 ## Eliminare un portfolio
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro.
-1. Clic **[!UICONTROL Portfoli]** .
-1. Seleziona il portfolio, quindi fai clic su **[!UICONTROL Elimina]**&#x200B;il [!UICONTROL Elimina] icona ![](assets/delete.png).
-1. Nella casella visualizzata fare clic su **[!UICONTROL Sì, elimina]** per confermare.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro.
+1. Fai clic su **[!UICONTROL Portfoli]**.
+1. Seleziona il portfolio, quindi fai clic su **[!UICONTROL Elimina]**&#x200B;icona [!UICONTROL Elimina] ![](assets/delete.png).
+1. Nella casella visualizzata, fare clic su **[!UICONTROL Sì, Elimina]** per confermare.

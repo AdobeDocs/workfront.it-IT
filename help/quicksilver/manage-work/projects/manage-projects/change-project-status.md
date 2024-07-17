@@ -23,7 +23,7 @@ Se necessario, puoi aggiornare manualmente lo stato di un progetto a qualsiasi a
 
 In caso contrario, Adobe Workfront contrassegna automaticamente il progetto come Completato quando tutte le attività e i problemi del progetto sono completati e approvati.
 
-Per ulteriori informazioni sulla modalità di completamento del progetto, vedi [Modifica progetti](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+Per ulteriori informazioni sulla modalità di completamento del progetto, vedere [Modifica progetti](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
 ## Requisiti di accesso
 
@@ -55,22 +55,22 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront. Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront. Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Considerazioni sull’aggiornamento a stati specifici
 
-* **Quando si aggiorna un progetto in Completato:** Verifica che tutte le attività e i problemi siano stati completati nel progetto. Non è possibile selezionare lo stato Completato per un progetto o qualsiasi altro stato che equivale a Completato quando sono presenti attività o problemi non completati nel progetto. Ciò include l&#39;approvazione di qualsiasi attività o problema con stato Completato-In attesa di approvazione.
-* **Quando si aggiorna un progetto da Completo a Corrente:** Se tutte le attività e i problemi del progetto sono stati completati, accertati che la Modalità di completamento del progetto sia impostata su Manuale. Se la Modalità di completamento del progetto è Automatica, lo stato del progetto rimane Completato.
+* **Quando si aggiorna un progetto a Completo:** Assicurarsi che tutte le attività e i problemi siano stati completati nel progetto. Non è possibile selezionare lo stato Completato per un progetto o qualsiasi altro stato che equivale a Completato quando sono presenti attività o problemi non completati nel progetto. Ciò include l&#39;approvazione di qualsiasi attività o problema con stato Completato-In attesa di approvazione.
+* **Quando si aggiorna un progetto da Completo a Corrente:** Se tutte le attività e i problemi del progetto sono stati completati, assicurarsi che la Modalità di completamento del progetto sia impostata su Manuale. Se la Modalità di completamento del progetto è Automatica, lo stato del progetto rimane Completato.
 
 ## Modifica stato progetto
 
 1. Vai al progetto di cui desideri aggiornare lo stato.
-1. Nell’intestazione del progetto, fai clic sul nome dello stato nel **Stato** , quindi selezionare un nuovo stato.
+1. Nell&#39;intestazione del progetto, fai clic sul nome dello stato nel campo **Stato**, quindi seleziona un nuovo stato.
 
    ![](assets/change-project-status-in-header-drop-down-nwe-350x371.png)
 
    Oppure
 
-   Fai clic su **Altro** menu ![](assets/qs-more-menu.png) accanto al nome del progetto e fai clic su **Modifica** e selezionare un nuovo stato nel **Stato** , quindi fai clic su **Salva**.
+   Fai clic sul menu **Altro** ![](assets/qs-more-menu.png) accanto al nome del progetto, quindi fai clic su **Modifica** e seleziona un nuovo stato nel campo **Stato**, quindi fai clic su **Salva**.
 
    Lo stato del progetto viene aggiornato in base allo stato selezionato.

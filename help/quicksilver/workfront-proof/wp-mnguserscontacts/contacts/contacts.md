@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: manage-your-users-and-contacts
 title: Conttati
-description: Scopri di più sui contatti in Workfront Proof.
+description: Informazioni sui contatti in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -20,10 +20,10 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alle funzionalità del prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Bozza](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
 Questa sezione contiene i seguenti articoli:
 
-* [Aggiungi un ospite a [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/add-guest.md)
-* [Gestire i contatti in [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md)
+* [Aggiungi un ospite a  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/add-guest.md)
+* [Gestisci contatti in [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md)
 * [Comprendere utenti, membri e ospiti in [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md)

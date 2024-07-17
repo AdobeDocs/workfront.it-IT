@@ -30,7 +30,7 @@ hide: yes
 
 È possibile visualizzare i record e i relativi campi in una visualizzazione calendario dalla pagina del tipo di record.
 
-Per informazioni sulle viste di Adobe Workfront Planning e su come gestirle, vedere [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
+Per informazioni sulle visualizzazioni di Adobe Workfront Planning e su come gestirle, vedere [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
 
 <!--at GA the plan below will change to Prime, Select and Ultimate only-->
 
@@ -82,13 +82,13 @@ Per informazioni sulle viste di Adobe Workfront Planning e su come gestirle, ved
 
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale. </p> <p>Per informazioni, consulta <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica degli accessi</a>. </p> 
+   <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale. </p> <p>Per informazioni, vedere <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica dell'accesso</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
-*Per informazioni, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Gestire una visualizzazione calendario {#manage-a-calendar-view}
 
@@ -117,7 +117,7 @@ Per gestire una vista calendario:
 1. Per spostarsi nel calendario, effettuare una delle seguenti operazioni:
 
    * Fare clic sulle icone sinistra e destra oppure utilizzare lo scorrimento orizzontale per spostarsi all&#39;indietro e in avanti nel calendario.
-   * Clic **Oggi** per centrare il calendario alla data odierna.
+   * Fai clic su **Oggi** per centrare il calendario alla data odierna.
    * Per aggiornare gli incrementi di tempo, seleziona una delle seguenti opzioni dal menu a discesa dell’intervallo di tempo:
 
       * Mese
@@ -147,7 +147,7 @@ Quando si lavora con i filtri nella vista calendario, considera quanto segue:
 
 * L&#39;aggiunta di filtri nella vista calendario è identica all&#39;aggiunta di filtri nella vista tabella.
 
-  Per ulteriori informazioni, consulta la sezione &quot;Aggiungere filtri&quot; nell’articolo [Gestire la vista tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
+  Per ulteriori informazioni, vedere la sezione &quot;Aggiungere filtri&quot; nell&#39;articolo [Gestire la visualizzazione della tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 * È possibile filtrare in base ai campi record o ai campi di ricerca connessi.
 

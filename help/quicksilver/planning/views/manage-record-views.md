@@ -22,21 +22,21 @@ Dopo aver selezionato un tipo di record nell&#39;area di Adobe Workfront Plannin
 
 * Tabella
 
-  Per ulteriori informazioni, consulta [Gestire la vista tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
+  Per ulteriori informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 * Timeline
 
-  Per ulteriori informazioni, consulta [Gestire la visualizzazione della timeline](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+  Per ulteriori informazioni, vedere [Gestire la visualizzazione della sequenza temporale](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 * Calendario
 
-  Per ulteriori informazioni, consulta [Gestire la visualizzazione calendario](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+  Per ulteriori informazioni, vedere [Gestire la visualizzazione del calendario](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
 Questo articolo descrive le seguenti informazioni sulle visualizzazioni record:
 
-* [Creare e modificare una vista](#create-or-edit-record-views)
+* [Creare e modificare una visualizzazione](#create-or-edit-record-views)
 * [Eliminare una visualizzazione](#delete-views)
-* [Duplicare una vista](#duplicate-views)
+* [Duplicare una visualizzazione](#duplicate-views)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 
@@ -94,13 +94,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale. </p> <p>Per informazioni, consulta <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica degli accessi</a>. </p> 
+   <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale. </p> <p>Per informazioni, vedere <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica dell'accesso</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
-*Per informazioni, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Considerazioni durante l&#39;utilizzo delle visualizzazioni record
@@ -109,7 +109,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 * Le visualizzazioni create sono visibili solo a te e agli utenti con cui condividi le visualizzazioni.
 * Quando si modifica o si elimina una visualizzazione, questa viene modificata ed eliminata per tutti gli utenti che dispongono di autorizzazioni per la visualizzazione.
 * Ogni utente può creare un massimo di 100 visualizzazioni. È possibile visualizzare più di 100 visualizzazioni per un tipo di record, ma un utente può creare solo 100 visualizzazioni.
-* È possibile condividere con altri le viste create. Per informazioni, consulta [Condividere le visualizzazioni](/help/quicksilver/planning/access/share-views.md).
+* È possibile condividere con altri le viste create. Per informazioni, vedere [Condividi visualizzazioni](/help/quicksilver/planning/access/share-views.md).
 * I seguenti elementi sono univoci per ogni visualizzazione record:
 
    * Filtro
@@ -168,7 +168,7 @@ La tabella seguente mostra le somiglianze e le differenze tra le viste tabella, 
 
    Per impostazione predefinita, tutti i record del tipo selezionato vengono visualizzati nella vista tabella.
 
-1. Clic **+ Visualizza** per aggiungere una nuova visualizzazione.
+1. Fare clic su **+ Visualizzazione** per aggiungere una nuova visualizzazione.
 1. Selezionate uno dei seguenti tipi di vista:
 
    * Tabella
@@ -177,7 +177,7 @@ La tabella seguente mostra le somiglianze e le differenze tra le viste tabella, 
 
    Viene creata una nuova scheda con la vista selezionata.
 
-   A seconda della larghezza dello schermo, è possibile che nella **Altro** menu ![](assets/more-menu.png).
+   A seconda della larghezza dello schermo, potrebbero essere visualizzate altre visualizzazioni nel menu **Altro** ![](assets/more-menu.png).
 
 
 >[!TIP]
@@ -191,7 +191,7 @@ La tabella seguente mostra le somiglianze e le differenze tra le viste tabella, 
 
 ![](assets/view-types-drop-down-from-record-type-list.png)
 
-1. (Condizionale) Fai clic su **Successivo**, durante la creazione di una visualizzazione timeline o calendario.
+1. (Condizionale) Fai clic su **Avanti** durante la creazione di una visualizzazione calendario o sequenza temporale.
 
    Per impostazione predefinita, Workfront assegna alla visualizzazione uno dei seguenti nomi:
 
@@ -201,19 +201,19 @@ La tabella seguente mostra le somiglianze e le differenze tra le viste tabella, 
 
    Il numero è un incremento generato automaticamente.
 
-1. (Condizionale) Seleziona il **Inizio** e **Date di fine** per i record che verranno visualizzati nella visualizzazione timeline o calendario.
+1. (Condizionale) Seleziona **Inizio** e **Fine** per i record che verranno visualizzati nella visualizzazione Timeline o Calendario.
 
    >[!TIP]
    >
-   >    È possibile selezionare i campi della data di record o i campi della data di ricerca dai tipi di oggetto o record collegati. È necessario utilizzare gli aggregatori per i campi data (MAX o MIN) quando si selezionano i campi di ricerca come date di inizio e di fine per le visualizzazioni Timeline e Calendario. Per informazioni, consulta [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >    È possibile selezionare i campi della data di record o i campi della data di ricerca dai tipi di oggetto o record collegati. È necessario utilizzare gli aggregatori per i campi data (MAX o MIN) quando si selezionano i campi di ricerca come date di inizio e di fine per le visualizzazioni Timeline e Calendario. Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 1. Fai clic su **Crea**.
 
    La vista viene visualizzata come una nuova scheda. Le visualizzazioni vengono visualizzate in ordine cronologico a partire dal momento in cui sono state create o condivise con te.
-1. (Facoltativo) Fai clic su **Altro** menu ![](assets/more-caret-down-icon-views.png) accanto all&#39;ultima visualizzazione per visualizzare tutte le visualizzazioni per il tipo di record selezionato.
+1. (Facoltativo) Fai clic sul menu **Altro** ![](assets/more-caret-down-icon-views.png) accanto all&#39;ultima visualizzazione per visualizzare tutte le visualizzazioni per il tipo di record selezionato.
 
-   Visualizzazioni aggiuntive sotto **Altro** dopo l&#39;ultima scheda di visualizzazione. Il numero accanto al **Altro** mostra il numero di visualizzazioni aggiuntive.
-1. (Facoltativo) Per rinominare una vista dopo la sua creazione, fai clic sul menu a discesa Vista, quindi fai clic su **Altro** menu ![](assets/more-menu.png) > **Rinomina** per aggiornare il nome della vista
+   Visualizzazioni aggiuntive nel menu **Altro** dopo l&#39;ultima scheda della visualizzazione. Il numero accanto al menu **Altro** mostra il numero di visualizzazioni aggiuntive.
+1. (Facoltativo) Per rinominare una visualizzazione dopo averla creata, fai clic sul menu a discesa della visualizzazione, quindi sul menu **Altro** ![](assets/more-menu.png) > **Rinomina** per aggiornare il nome della visualizzazione
 
    Oppure
 
@@ -240,10 +240,10 @@ La tabella seguente mostra le somiglianze e le differenze tra le viste tabella, 
 
    Per impostazione predefinita, tutti i record del tipo selezionato vengono visualizzati nella vista tabella.
 
-1. Passa il puntatore del mouse su uno dei nomi della vista nella scheda vista, quindi fai clic su **Altro** ![](assets/more-menu.png) a sinistra del nome della visualizzazione, quindi fai clic su **Elimina**.
-Innanzitutto, potrebbe essere necessario fare clic su **Altro** a sinistra dell&#39;ultima scheda per trovare la vista da eliminare.
+1. Passa il puntatore del mouse su uno dei nomi della visualizzazione nella scheda della visualizzazione, quindi fai clic su **Altro** ![](assets/more-menu.png) a sinistra del nome della visualizzazione, quindi fai clic su **Elimina**.
+Per trovare la visualizzazione da eliminare, potrebbe essere necessario fare clic su **Altro** a sinistra dell&#39;ultima scheda.
 
-1. Clic **Elimina** per confermare. <!--ensure there is not another saving step here?!-->
+1. Fai clic su **Elimina** per confermare. <!--ensure there is not another saving step here?!-->
 
    La vista viene eliminata per tutti gli utenti che possono accedere all’area dei record e non può essere recuperata.
 
@@ -270,10 +270,10 @@ Le autorizzazioni di condivisione della vista originale non vengono trasferite a
    Viene visualizzata la pagina del tipo di record.
 Per impostazione predefinita, tutti i record del tipo selezionato vengono visualizzati nella vista tabella.
 
-1. Posizionare il puntatore del mouse sulla scheda della visualizzazione da duplicare e fare clic sul pulsante **Altro** menu ![](assets/more-menu.png) a destra del nome della visualizzazione, quindi fai clic su **Duplica**.
+1. Passa il puntatore del mouse sulla scheda della visualizzazione da duplicare e fai clic sul menu **Altro** ![](assets/more-menu.png) a destra del nome della visualizzazione, quindi fai clic su **Duplica**.
 
    ![](assets/view-more-menu-with-duplicate-option.png)
 
 
-   La vista viene duplicata e il nome della nuova vista segue il seguente pattern: `Original view's name (Copy)`. La nuova scheda vista viene visualizzata alla fine di tutte le schede vista.
+   La visualizzazione è duplicata e il nome della nuova visualizzazione segue il seguente schema: `Original view's name (Copy)`. La nuova scheda vista viene visualizzata alla fine di tutte le schede vista.
 

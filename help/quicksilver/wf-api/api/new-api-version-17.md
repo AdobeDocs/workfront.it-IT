@@ -9,8 +9,8 @@ role: Developer
 exl-id: 08e90754-5505-424c-ae67-015cc987b5df
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '1351'
-ht-degree: 4%
+source-wordcount: '1353'
+ht-degree: 1%
 
 ---
 
@@ -257,7 +257,7 @@ Un oggetto CustomerPreferences rappresenta l&#39;insieme di preferenze impostate
       <td>
         <ul>
           <li>
-            <p><b>name</b>
+            <p><b>nome</b>
             </p>
             <p>È stato aggiunto il possibile valore "config.defaultToNewHomeDescription" (customer:config.defaultToNewHome)&gt;/p?<p>Questo consente a un’organizzazione di impostare la nuova esperienza Home come predefinita per i propri utenti.</p>
           </li>
@@ -285,7 +285,7 @@ Un oggetto DocumentVersion rappresenta una versione specifica di un file, ad ese
             <p>È stato aggiunto il possibile valore "Frame.io" (FRAMEIO)</p>
           </li>
           <li>
-            <p><b>fileType</b>
+            <p><b>tipoFile</b>
             </p>
             <p>È stato aggiunto il possibile valore "enum.filetype.site" (sito)</p>
           </li>
@@ -317,7 +317,7 @@ Un oggetto ExchangeRate rappresenta un tasso di cambio impostato in Workfront. G
       <td>
         <ul>
           <li><p><b>getCustomerCurrencies</b></p></li>
-          <p>Aggiunta completata.</p>
+          <p>Aggiunto.</p>
        </ul>
       </td>
     </tr>
@@ -395,7 +395,7 @@ L&#39;oggetto JournalEntry può essere impostato per registrare informazioni su 
               <li>Revisore modificato (ARC)</li>
               <li>Revisione completata (RDC)</li>
               <li>Revisione revocata (RDR)</li>
-              <li>Pubblicazione (PUB)</li>
+              <li>Publish (PUB)</li>
             </ul>
           </li>
         </ul>
@@ -408,7 +408,7 @@ L&#39;oggetto JournalEntry può essere impostato per registrare informazioni su 
 
 Una bacheca Kanban viene utilizzata per monitorare le attività in un ambiente Agile.
 
-L’oggetto Kanban Board ha rimosso il flag **INLINE_EDITABLE**.
+L&#39;oggetto Kanban Board ha rimosso il flag **INLINE_EDITABLE**.
 
 
 ### LinkedFolder (LNKFDR)
@@ -438,7 +438,7 @@ Un oggetto LinkedFolder rappresenta una cartella collegata da un provider di doc
 
 Un oggetto OpTask è comunemente noto come Issue. Un problema è un elemento di lavoro che in genere indica la presenza di un problema che impedisce il completamento di un&#39;attività o di un progetto. Un problema può anche essere una richiesta dell’helpdesk. Anche gli ordini di modifica, le richieste e i bug sono problemi.
 
-L’oggetto Issue ha rimosso il flag **INLINE_EDITABLE**.
+L&#39;oggetto Issue ha rimosso il flag **INLINE_EDITABLE**.
 
 ### Progetto (PROJ)
 
@@ -461,7 +461,7 @@ Un oggetto ProjectUser rappresenta un utente associato a un progetto specifico.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Aggiunta completata.</p>
+            <p>Aggiunto.</p>
           </li>
         </ul>
       </td>
@@ -473,7 +473,7 @@ Un oggetto ProjectUser rappresenta un utente associato a un progetto specifico.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Aggiunta completata.</p>
+            <p>Aggiunto.</p>
           </li>
         </ul>
       </td>
@@ -508,7 +508,7 @@ L&#39;oggetto Rate ha rimosso il flag **INLINE_EDITABLE**.
           <li><p><b>getUsedClassifierIds</b></p></li>
           <li><p><b>setRatesFromRateCard</b></p></li>
         </ul>
-        <p>Il <b>setRatesForRole</b> L'azione è stata modificata per aggiungere i campi seguenti:
+        <p>L'azione <b>setRatesForRole</b> è stata modificata per aggiungere i campi seguenti:
         <ul>
         <li>classifierID</li>
         <li>currencyCode</li>
@@ -527,7 +527,7 @@ L&#39;oggetto Risk ha rimosso il flag **INLINE_EDITABLE**.
 
 ### Ruolo/Ruolo (ROLE)
 
-Un oggetto Role (ruolo) rappresenta una capacità funzionale o un insieme di competenze che un utente potrebbe acquisire, ad esempio Designer o Product Manager.
+Un oggetto Ruolo (ruolo) rappresenta una capacità funzionale o un insieme di competenze che un utente potrebbe acquisire, ad esempio Designer o Product Manager.
 
 <table>
   <col/>
@@ -592,7 +592,7 @@ Un oggetto TeamMember è un utente associato a un team specifico.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Aggiunta completata.</p>
+            <p>Aggiunto.</p>
           </li>
         </ul>
       </td>
@@ -604,7 +604,7 @@ Un oggetto TeamMember è un utente associato a un team specifico.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Aggiunta completata.</p>
+            <p>Aggiunto.</p>
           </li>
         </ul>
       </td>
@@ -625,7 +625,7 @@ Un oggetto TeamMember è un utente associato a un team specifico.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Aggiunta completata.</p>
+            <p>Aggiunto.</p>
           </li>
         </ul>
       </td>
@@ -637,7 +637,7 @@ Un oggetto TeamMember è un utente associato a un team specifico.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Aggiunta completata.</p>
+            <p>Aggiunto.</p>
           </li>
         </ul>
       </td>
@@ -735,7 +735,7 @@ L&#39;oggetto User ha rimosso il flag **INLINE_EDITABLE**.
       <td>
         <ul>
           <li>
-            <p><b>userLocations</b>
+            <p><b>posizioniUtente</b>
             </p>
           </li>
         </ul>
@@ -757,7 +757,7 @@ L&#39;oggetto User ha rimosso il flag **INLINE_EDITABLE**.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Aggiunta completata.</p>
+            <p>Aggiunto.</p>
           </li>
         </ul>
       </td>
@@ -769,7 +769,7 @@ L&#39;oggetto User ha rimosso il flag **INLINE_EDITABLE**.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Aggiunta completata.</p>
+            <p>Aggiunto.</p>
           </li>
         </ul>
       </td>
@@ -812,7 +812,7 @@ Un oggetto UserNote è una notifica.
               <li>Il documento richiede la tua approvazione ora anziché una revisione (ADN)</li>
               <li>Documento revisionato (RDC)</li>
               <li>Documento revisionato (TRC)</li>
-              <li>(Utente) ha rivisto (documento) come completato. La tua revisione non è più necessaria. (TRN)</li>
+              <li>(Utente) ha rivisto (documento) come completato. La tua recensione non è più necessaria. (TRN)</li>
             </ul>
           </li>
         </ul>
@@ -834,7 +834,7 @@ Un oggetto UserNote è una notifica.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Aggiunta completata.</p>
+            <p>Aggiunto.</p>
           </li>
         </ul>
       </td>
@@ -846,7 +846,7 @@ Un oggetto UserNote è una notifica.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Aggiunta completata.</p>
+            <p>Aggiunto.</p>
           </li>
         </ul>
       </td>

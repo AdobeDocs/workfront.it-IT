@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti apportati ad Adobe Workfront Fusion la settimana dell’11 gennaio 2021.
 
-Per un elenco di tutte le modifiche recenti, vedi [Attività di rilascio di Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Per un elenco di tutte le modifiche recenti, vedere [Attività di Adobe Workfront Fusion release](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedi [Aggiornamenti di manutenzione per Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
+Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedere la pagina [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
 
 ## Connettore e moduli Widen ora disponibili
 
@@ -36,7 +36,7 @@ Ora puoi utilizzare Workfront Fusion per connettersi al tuo account Widen. I mod
 * Recuperare un elenco di risorse in una raccolta
 * Esegui una chiamata API personalizzata.
 
-Per ulteriori informazioni, consulta [Amplia moduli](../../../workfront-fusion/apps-and-their-modules/widen-modules.md).
+Per ulteriori informazioni, vedere [Moduli Windows](../../../workfront-fusion/apps-and-their-modules/widen-modules.md).
 
 ## Connettore e moduli Datadog ora disponibili
 
@@ -44,10 +44,10 @@ Per ulteriori informazioni, consulta [Amplia moduli](../../../workfront-fusion/a
 
 Con i moduli Datadog è possibile:
 
-* Pubblica punti serie temporali
+* Punti serie temporali Post
 * Eseguire una chiamata API personalizzata
 
-Per informazioni sui moduli Datadog, vedi [Moduli Datadog](../../../workfront-fusion/apps-and-their-modules/datadog-modules.md).
+Per informazioni sui moduli Datadog, vedere [Moduli Datadog](../../../workfront-fusion/apps-and-their-modules/datadog-modules.md).
 
 ## Sono ora disponibili il connettore e i moduli Cvent
 
@@ -62,7 +62,7 @@ Con i moduli Cvent è possibile:
 * Aggiornare o eliminare contatti
 * Effettuare una chiamata API personalizzata
 
-Per informazioni sui moduli evento disponibili, vedere [Moduli evento](../../../workfront-fusion/apps-and-their-modules/cvent-modules.md).
+Per informazioni sui moduli Cvent disponibili, vedere [Moduli Cvent](../../../workfront-fusion/apps-and-their-modules/cvent-modules.md).
 
 ## Connettore e moduli Microsoft Dynamics 365 ora disponibili
 
@@ -72,7 +72,7 @@ Per informazioni sui moduli evento disponibili, vedere [Moduli evento](../../../
 * Creare, leggere, aggiornare o eliminare un record di Microsoft Dynamics 365
 * Eseguire una chiamata API personalizzata
 
-Per informazioni sui moduli di Microsoft Dynamics 365 disponibili, vedere [Moduli Microsoft Dynamics 365](../../../workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md).
+Per informazioni sui moduli Microsoft Dynamics 365 disponibili, vedere [Moduli Microsoft Dynamics 365](../../../workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md).
 
 ## Il connettore e i moduli DocuSign sono ora disponibili
 
@@ -86,7 +86,7 @@ Per informazioni sui moduli di Microsoft Dynamics 365 disponibili, vedere [Modul
 * Caricare un file in una busta
 * Eseguire una chiamata API personalizzata
 
-Per ulteriori informazioni, consulta [Moduli DocuSign](../../../workfront-fusion/apps-and-their-modules/docusign-modules.md).
+Per ulteriori informazioni, vedere [Moduli DocuSign](../../../workfront-fusion/apps-and-their-modules/docusign-modules.md).
 
 ## Cerca nella cronologia di esecuzione dello scenario
 
@@ -94,7 +94,7 @@ Per ulteriori informazioni, consulta [Moduli DocuSign](../../../workfront-fusion
 
 In precedenza, per trovare informazioni specifiche sull’esecuzione era necessario visualizzare ogni singola esecuzione.
 
-Per ulteriori informazioni, consulta [Visualizzare la cronologia di esecuzione di uno scenario in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
+Per ulteriori informazioni, vedere [Visualizzare la cronologia di esecuzione di uno scenario in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
 
 ## Aggiornamenti a Fusion 2.0 Data Store
 
@@ -104,13 +104,13 @@ Per semplificare la personalizzazione degli archivi dati, sono state aggiunte al
 * Modificare una singola cella
 * Aggiungere più righe
 
-Per ulteriori informazioni sugli archivi dati, consulta [Moduli archivio dati](../../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
+Per ulteriori informazioni sugli archivi dati, vedere [Moduli archivio dati](../../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
 
 ## Effettuare una richiesta di autorizzazione della chiave API tramite il connettore HTTP
 
 Per aumentare la flessibilità nelle modalità di accesso alle API, è stato aggiunto un nuovo modulo al connettore HTTP. Ora puoi utilizzare il connettore HTTP per effettuare una richiesta quando il servizio web a cui accedi richiede l’utilizzo di una chiave API.
 
-Per ulteriori informazioni, consulta [Moduli HTTP](../../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md).
+Per ulteriori informazioni, vedere [Moduli HTTP](../../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md).
 
 ## Nuove funzioni disponibili nel pannello di mappatura
 
@@ -138,6 +138,6 @@ Sono state aggiunte alcune nuove funzioni che consentono di personalizzare e sem
 
   La funzione è una funzione stringa che esce da tutti i tag Markdown in un testo.
 
-Per ulteriori informazioni sulle funzioni Ometti e Scegli, consulta [Funzioni generali di Adobe Workfront Fusion](../../../workfront-fusion/functions/general-functions.md).
+Per ulteriori informazioni sulle funzioni Ometti e Scegli, vedere [Funzioni generali in Adobe Workfront Fusion](../../../workfront-fusion/functions/general-functions.md).
 
-Per ulteriori informazioni sulla funzione escapeMarkdown, consulta [Funzioni stringa in Adobe Workfront Fusion](../../../workfront-fusion/functions/string-functions.md).
+Per ulteriori informazioni sulla funzione escapeMarkdown, vedere [Funzioni stringa in Adobe Workfront Fusion](../../../workfront-fusion/functions/string-functions.md).

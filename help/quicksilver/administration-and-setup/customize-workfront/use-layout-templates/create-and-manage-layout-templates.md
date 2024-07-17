@@ -35,7 +35,7 @@ In qualità di amministratore di Adobe Workfront o di un gruppo, puoi creare e m
 
 Dopo aver creato o modificato un modello di layout, è possibile assegnarlo a singoli utenti, team, gruppi o mansioni.
 
-Il layout Workfront predefinito di ogni utente dipende dal livello di accesso e dal tipo di licenza. Ad esempio, alcuni utenti potrebbero non visualizzare alcune aree nel menu principale. Per ulteriori informazioni, consulta [Informazioni sul layout predefinito di Adobe Workfront](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
+Il layout Workfront predefinito di ogni utente dipende dal livello di accesso e dal tipo di licenza. Ad esempio, alcuni utenti potrebbero non visualizzare alcune aree nel menu principale. Per ulteriori informazioni, vedere [Informazioni sul layout predefinito di Adobe Workfront](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
 ## Requisiti di accesso
 
@@ -75,7 +75,7 @@ Per informazioni su come un amministratore di Workfront può modificare il tuo l
 * Gli amministratori di gruppi e gli utenti con una licenza Pianificazione che possono modificare altri utenti possono aggiungere modelli di layout a livello di sistema e di gruppo agli utenti che possono gestire durante la modifica del profilo.
 * Gli amministratori di gruppi non possono assegnare modelli di layout a mansioni o team.
 
-Per ulteriori informazioni sui modelli di layout, vedere [Modelli di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
+Per ulteriori informazioni sui modelli layout, vedere [Modelli layout](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
 
 <!--removed this from above, but keeping it for a bit, in case it will be needed - known issue around old templates still visible at time:
 * Your older layout templates created in Adobe Workfront Classic have been automatically available in your instance of the new Adobe Workfront experience since they were migrated in early Fall 2019. Layout templates created in Adobe Workfront Classic after that time were migrated in April 2020. We recommend that you update these layout templates in the new Adobe Workfront experience to take advantage of new functionality and to make them even more useful in that environment.
@@ -87,13 +87,13 @@ Per ulteriori informazioni sui modelli di layout, vedere [Modelli di layout](../
 
 1. Nel pannello a sinistra, fai clic su **Interfaccia** > **Modelli di layout**.
 
-1. Clic **Nuovo modello di layout**.
+1. Fare clic su **Nuovo modello di layout**.
 
    Oppure
 
    Fare clic sul nome del modello di layout che si desidera modificare.
 
-1. Se si sta creando un nuovo modello di layout, digitare un **Nome modello di layout** e (facoltativo) un **Descrizione** per quello.
+1. Se si sta creando un nuovo modello di layout, digitare un **Nome modello di layout** e (facoltativo) una **Descrizione**.
 
 1. Personalizza le aree dell’interfaccia utente, come descritto nei seguenti articoli:
 
@@ -101,7 +101,7 @@ Per ulteriori informazioni sui modelli di layout, vedere [Modelli di layout](../
    * [Personalizzare il pannello sinistro utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
    * [Personalizzare le pagine bloccate utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
    * [Personalizzare la visualizzazione Dettagli utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
-   * [Personalizzare Home e Riepilogo utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   * [Personalizza la home e il riepilogo utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
    * [Personalizzare la pagina di destinazione utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
    * [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    * [Personalizzare la terminologia dell’interfaccia utente utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
@@ -109,10 +109,10 @@ Per ulteriori informazioni sui modelli di layout, vedere [Modelli di layout](../
 1. Continua a testare il modello di layout e a renderlo disponibile agli utenti, come descritto negli articoli seguenti:
 
    * [Verifica di un nuovo modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
-   * [Concedere l’accesso amministrativo per un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
+   * [Concedere l&#39;accesso amministrativo per un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
    * [Assegnare utenti a un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
 
 >[!TIP]
 >
->È inoltre possibile creare un modello di layout copiandolo e modificandone la copia. Per ulteriori informazioni, consulta [Copiare un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
+>È inoltre possibile creare un modello di layout copiandolo e modificandone la copia. Per ulteriori informazioni, vedere [Copiare un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
 

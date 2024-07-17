@@ -9,7 +9,7 @@ role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
 source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '711'
 ht-degree: 10%
 
 ---
@@ -445,9 +445,9 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td>userID</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span>DocumentVersion</span> </td> 
+   <td><span>VersioneDocumento</span> </td> 
    <td><span>DOCV</span> </td> 
-   <td><span>accessoriIDs</span> </td> 
+   <td><span>accessorIDs</span> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -477,7 +477,7 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>entryDate</span> </td> 
+   <td><span>dataVoce</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -502,12 +502,12 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>fileName</span> </td> 
+   <td><span>nomeFile</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>fileType</span> </td> 
+   <td><span>tipoFile</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -517,7 +517,7 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>posizione</span> </td> 
+   <td><span>percorso</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -577,7 +577,7 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>version</span> </td> 
+   <td><span>versione</span> </td> 
   </tr> 
   <tr> 
    <td>Spesa</td> 
@@ -1780,9 +1780,9 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td>workflowAutomationID</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span>ProofApproval</span> </td> 
+   <td><span>ApprovazioneBozza</span> </td> 
    <td><span>PRFAPL</span> </td> 
-   <td><span>accessoriIDs</span> </td> 
+   <td><span>accessorIDs</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -2717,7 +2717,7 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>title</td> 
+   <td>titolo</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2797,4 +2797,4 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
  </tbody> 
 </table>
 
-&#42;Un valore parameterValue è un valore di campo personalizzato associato a varie risorse (o oggetti) di Workfront. Un messaggio in uscita di abbonamento a un evento include un elenco completo di valori di parametro popolati (campi personalizzati).
+&#42;ParameterValue è un valore di campo personalizzato associato a varie risorse (o oggetti) di Workfront. Un messaggio in uscita di abbonamento a un evento include un elenco completo di valori di parametro popolati (campi personalizzati).

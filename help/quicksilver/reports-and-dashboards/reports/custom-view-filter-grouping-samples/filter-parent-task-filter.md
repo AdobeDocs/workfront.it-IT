@@ -9,8 +9,8 @@ feature: Reports and Dashboards
 exl-id: 4c3956e1-59e0-4bf2-8739-8064271d6281
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 0%
+source-wordcount: '760'
+ht-degree: 1%
 
 ---
 
@@ -21,9 +21,8 @@ ht-degree: 0%
 >[!TIP]
 >
 >* Se consideri di aggiungere più filtri a un rapporto, ti consigliamo di aggiungere tutti i filtri utilizzando l’interfaccia di Report Builder e di fare clic su Passa a modalità testo dopo aver aggiunto tutte le altre regole di filtro. Quindi, puoi aggiungere il codice per il filtro dell’attività principale come indicato sopra. 
-* È inoltre consigliabile aggiungere un raggruppamento per Nome progetto per facilitare la lettura del rapporto. Per ulteriori informazioni sull’aggiunta di raggruppamenti ai rapporti, consulta l’articolo [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+>* È inoltre consigliabile aggiungere un raggruppamento per Nome progetto per facilitare la lettura del rapporto. Per ulteriori informazioni sull&#39;aggiunta di raggruppamenti ai report, vedere l&#39;articolo [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 >
-
 
 ## Requisiti di accesso
 
@@ -50,31 +49,31 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 </tr>
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Visualizza le attività senza elementi figlio (potrebbero avere un elemento padre)
 
 Per visualizzare le attività senza elementi secondari, è possibile applicare il seguente filtro a un report di attività. Potrebbero avere genitori propri ed essere figli di altre mansioni.
 
-1. Dalla sezione **Menu principale** ![](assets/main-menu-icon.png), fai clic su **Rapporti.**
+1. Dal **menu principale** ![](assets/main-menu-icon.png), fare clic su **Report.**
 
-1. Clic **Nuovo rapporto**.
-1. Seleziona un **Report attività**.
-1. Clic **Filtri**.
-1. Clic **Aggiungere una regola di filtro**.
-1. In **Inizia a digitare il nome del campo ...** riga, inizia a digitare **Numero di elementi figlio**.
+1. Fare clic su **Nuovo report**.
+1. Seleziona un **report attività**.
+1. Fare clic su **Filtri**.
+1. Fai clic su **Aggiungi una regola filtro**.
+1. Nella riga **Inizia a digitare il nome del campo ...**, inizia a digitare **Numero di elementi figlio**.
 
-1. Seleziona **Uguale (distinzione maiuscole/minuscole)** per il modificatore, quindi immetti **0** per il numero di figli.\
+1. Seleziona **Uguale (distinzione maiuscole/minuscole)** per il modificatore, quindi immetti **0** per il numero di elementi figlio.\
    ![](assets/parent-task-filter-from-the-ui-350x76.png)
 
    Oppure
 
-   Clic **Passa alla modalità testo** e nella finestra di modifica del testo, copia e incolla il testo seguente: 
+   Fare clic su **Passa alla modalità testo** e nella finestra di modifica del testo copiare e incollare il testo seguente: 
 
    ```
    numberOfChildren=0
@@ -82,7 +81,7 @@ Per visualizzare le attività senza elementi secondari, è possibile applicare i
    ```
 
 
-1. Clic **Salva e chiudi**.
+1. Fai clic su **Salva e Chiudi**.
 
    In questo modo viene estratto un report per tutte le attività in esecuzione nel sistema. Alcune di queste attività possono avere un elemento padre, ma non sono attività padre.
 
@@ -90,23 +89,23 @@ Per visualizzare le attività senza elementi secondari, è possibile applicare i
 
 È possibile applicare il filtro seguente a un report di attività per visualizzare le attività con padre, ovvero le attività figlio. Tuttavia, queste attività possono anche avere figli propri, perché il filtro non esclude i loro figli. Le attività figlio che sono anche padri per altre attività non sono considerate attività di lavoro.
 
-1. Dalla sezione **Menu principale** ![](assets/main-menu-icon.png), fare clic su **Rapporti.
-1. Clic **Nuovo rapporto**.
-1. Seleziona un **Report attività**.
-1. Clic **Filtri**.
-1. Clic **Aggiungere una regola di filtro**.
-1. In **Inizia a digitare il nome del campo ...** riga, inizia a digitare **ID principale**.
+1. Dal **menu principale** ![](assets/main-menu-icon.png), fare clic su **Report.
+1. Fare clic su **Nuovo report**.
+1. Seleziona un **report attività**.
+1. Fare clic su **Filtri**.
+1. Fai clic su **Aggiungi una regola filtro**.
+1. Nella riga **Inizia a digitare il nome del campo ...**, inizia a digitare **ID padre**.
 1. Seleziona **Non è vuoto** per il modificatore.
 
    ![](assets/filter-parent-id-not-blank-350x100.png)
 
    Oppure
 
-   Clic **Passa alla modalità testo** e nella finestra di modifica del testo, copia e incolla il testo seguente: 
+   Fare clic su **Passa alla modalità testo** e nella finestra di modifica del testo copiare e incollare il testo seguente: 
 
    `parentID_Mod=notblank`
 
-1. Clic **Salva e chiudi**.
+1. Fai clic su **Salva e Chiudi**.
 
    In questo modo viene generato un report per tutte le attività del sistema che hanno i genitori e sono attività figlio di tali genitori. Alcune di queste attività potrebbero essere un genitore.
 
@@ -114,18 +113,18 @@ Per visualizzare le attività senza elementi secondari, è possibile applicare i
 
 È possibile applicare il filtro seguente a un report di attività per visualizzare le attività di lavoro autonome. Queste attività non hanno un genitore e non hanno figli propri.
 
-1. Dalla sezione **Menu principale** ![](assets/main-menu-icon.png), fai clic su **Rapporti.**
-1. Clic **Nuovo rapporto**.
-1. Seleziona un **Report attività**.
-1. Clic **Filtri**.
-1. Clic **Aggiungere una regola di filtro** e nella **Inizia a digitare il nome del campo ...** inizio digitazione riga **Numero di elementi figlio** seleziona **Uguale (distinzione maiuscole/minuscole)** per il modificatore, quindi immetti **0** per il numero di figli.
-1. Clic **Aggiungi un&#39;altra regola filtro** e nella **Inizia a digitare il nome del campo ...** inizio digitazione riga **ID principale**, quindi seleziona **È vuoto**.
+1. Dal **menu principale** ![](assets/main-menu-icon.png), fare clic su **Report.**
+1. Fare clic su **Nuovo report**.
+1. Seleziona un **report attività**.
+1. Fare clic su **Filtri**.
+1. Fai clic su **Aggiungi regola filtro** e, nella **Inizia a digitare il nome del campo ...**, inizia a digitare **Numero di elementi figlio**. Seleziona **Uguale (distinzione maiuscole/minuscole)** per il modificatore, quindi immetti **0** per il numero di elementi figlio.
+1. Fai clic su **Aggiungi un&#39;altra regola filtro** e, nella **Inizia a digitare il nome del campo ...**, inizia a digitare **ID padre**, quindi seleziona **È vuoto**.
 
    ![](assets/filter-parent-id-blank-and-zero-children-350x121.png)
 
    Oppure
 
-   Anziché i passaggi 6-7, fai clic su **Passa alla modalità testo** e nella finestra di modifica del testo, copia e incolla il seguente testo: 
+   Anziché i passaggi 6-7, fare clic su **Passa alla modalità testo** e nella finestra di modifica del testo copiare e incollare il testo seguente: 
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure steps above stay accurate)</p>
@@ -137,6 +136,6 @@ Per visualizzare le attività senza elementi secondari, è possibile applicare i
    parentID_Mod=isblank
    ```
 
-1. Clic **Salva e chiudi**.
+1. Fai clic su **Salva e Chiudi**.
 
    Questo consente di recuperare un report per tutte le attività del sistema che non hanno genitori né figli. Si tratta di attività di lavoro autonome.

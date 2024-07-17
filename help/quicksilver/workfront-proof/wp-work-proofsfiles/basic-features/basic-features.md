@@ -11,7 +11,7 @@ recommendations: noDisplay, noCatalog
 source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
 source-wordcount: '51'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alle funzionalità del prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Bozza](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
 Questa sezione contiene i seguenti articoli:
 
 * [Dashboard in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/basic-features/dashboard.md)
 * [Layout di pagina nella scheda Viste in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md)
-* [Ricerca [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/basic-features/search.md)
-* [Comprensione di [!DNL Workfront Proof] Activity Audit Trail](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)
+* [Ricerca in corso  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/basic-features/search.md)
+* [Informazioni su  [!DNL Workfront Proof] Activity Audit Trail](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)

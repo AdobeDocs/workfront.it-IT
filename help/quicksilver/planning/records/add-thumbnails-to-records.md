@@ -21,7 +21,7 @@ ht-degree: 0%
 È possibile associare record a miniature univoche in Adobe Workfront Planning per renderle facilmente riconoscibili.
 
 È necessario creare i tipi di record prima di iniziare a creare e modificare i record.
-Per informazioni, consulta [Crea tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
+Per informazioni, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ## Requisiti di accesso
 
@@ -75,14 +75,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td>  <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale. </p> <p>Per informazioni, consulta <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica degli accessi</a>. </p>  
+   <td>  <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale. </p> <p>Per informazioni, vedere <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica dell'accesso</a>. </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-*Per ulteriori informazioni, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per ulteriori informazioni, vedere [Requisiti di accesso in Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Considerazioni sulle miniature dei record
 
@@ -115,8 +115,8 @@ Considera quanto segue:
 1. Fare clic sull&#39;area di lavoro per i record ai quali si desidera aggiungere le miniature, quindi fare clic sulla scheda del tipo di record.
 
    Verrà aperta la pagina del tipo di record.
-1. Selezionare una vista tabella dal menu **Visualizza** menu a discesa. Tutti i record del tipo selezionato vengono visualizzati in una tabella.
-1. Passa il puntatore del mouse sulle informazioni del campo principale, fai clic sul pulsante **Altro** menu ![](assets/more-menu.png), quindi fai clic su **Miniatura**.
+1. Selezionare una visualizzazione tabella dal menu a discesa **Visualizza**. Tutti i record del tipo selezionato vengono visualizzati in una tabella.
+1. Passa il puntatore del mouse sulle informazioni del campo primario, fai clic sul menu **Altro** ![](assets/more-menu.png), quindi fai clic su **Miniatura**.
 
    ![](assets/record-more-menu-expanded.png)
 
@@ -124,9 +124,9 @@ Considera quanto segue:
    >
    >   Il campo principale è il campo che viene visualizzato nella prima colonna di una visualizzazione tabella. Il campo principale è sempre bloccato e non può essere nascosto o spostato. L&#39;opzione Miniatura non è disponibile nel menu Altro quando il campo principale è un campo formula.
 
-   Il **Carica** La scheda si apre per impostazione predefinita in **Miniatura record** casella.
+   Per impostazione predefinita, nella casella **Miniatura record** viene aperta la scheda **Carica**.
 
-   Per ulteriori informazioni sul caricamento della miniatura, consulta la sezione [Aggiungere una miniatura a un record dalla pagina dei dettagli](#add-a-thumbnail-to-a-record-from-the-details-page) in questo articolo, a partire dal passaggio 6. <!--see if this is accurate-->
+   Per ulteriori informazioni sul caricamento della miniatura, vedere la sezione [Aggiungere una miniatura a un record dalla pagina dei dettagli](#add-a-thumbnail-to-a-record-from-the-details-page) in questo articolo, a partire dal passaggio 6. <!--see if this is accurate-->
 
 <!--
    ![](assets/record-thumbnail-box-for-upload.png) 
@@ -164,12 +164,12 @@ Considera quanto segue:
 1. In qualsiasi visualizzazione, fare clic su un record per aprirlo.
 
    Viene visualizzata la casella di anteprima dei dettagli.
-1. (Facoltativo) Fai clic su **Apri in una nuova scheda** icona ![](assets/open-details-in-a-new-tab-icon.png) nell’angolo superiore destro.
+1. (Facoltativo) Fai clic sull&#39;icona ![](assets/open-details-in-a-new-tab-icon.png) in alto a destra **Apri in una nuova scheda**.
 
    Viene visualizzata la pagina dei dettagli del record.
-1. Passa il puntatore sull&#39;immagine o sull&#39;icona della miniatura ![](assets/record-thumbnail-icon-on-details-page.png), quindi fare clic su **Altro** menu ![](assets/more-menu.png) > **Modifica miniatura**.
+1. Passa il puntatore sull&#39;immagine di anteprima o sull&#39;icona ![](assets/record-thumbnail-icon-on-details-page.png), quindi fai clic sul menu **Altro** ![](assets/more-menu.png) > **Modifica miniatura**.
 
-   Il **Carica** La scheda si apre per impostazione predefinita in **Miniatura record** casella.
+   Per impostazione predefinita, nella casella **Miniatura record** viene aperta la scheda **Carica**.
 
    ![](assets/record-thumbnail-box-for-upload.png)
 
@@ -177,25 +177,25 @@ Considera quanto segue:
 
    Oppure
 
-   Clic **Sfoglia immagini**, quindi cerca un file di immagine da aggiungere. Il file deve essere salvato nel computer.
+   Fai clic su **Sfoglia immagini**, quindi cerca un file di immagine da aggiungere. Il file deve essere salvato nel computer.
 
-1. (Facoltativo) Dopo che l’immagine viene caricata in **Miniatura record** utilizzare lo strumento di ridimensionamento per ritagliare e ridimensionare l&#39;immagine.
-1. (Facoltativo) Fai clic su **Carica nuova immagine** icona ![](assets/upload-new-image-icon.png) per caricare un&#39;altra immagine.
-1. (Facoltativo) Fai clic su **Galleria** , quindi fare clic su un&#39;immagine. Impossibile modificare la raccolta di immagini.
+1. (Facoltativo) Dopo il caricamento dell&#39;immagine nella casella **Miniatura record**, utilizzare lo strumento di ridimensionamento per ritagliare e ridimensionare l&#39;immagine.
+1. (Facoltativo) Fai clic sull&#39;icona ![](assets/upload-new-image-icon.png) di **Carica nuova immagine** per caricare un&#39;altra immagine.
+1. (Facoltativo) Fai clic sulla scheda **Galleria**, quindi su un&#39;immagine. Impossibile modificare la raccolta di immagini.
 
    ![](assets/record-thumbnail-box-for-gallery.png)
 
-1. (Facoltativo) Per rimuovere la miniatura prima del salvataggio, fare clic sul pulsante **Rimuovi** icona ![](assets/remove-image-icon.png) a destra dell&#39;immagine.
+1. (Facoltativo) Per rimuovere la miniatura prima del salvataggio, fare clic sull&#39;icona **Rimuovi** ![](assets/remove-image-icon.png) a destra dell&#39;immagine.
 
-1. Clic **Usa immagine** per aggiungere l&#39;immagine come miniatura.
-Questo chiude il **Miniatura record** casella.
+1. Fare clic su **Utilizza immagine** per aggiungere l&#39;immagine come miniatura.
+Chiude la casella **Miniatura record**.
 La miniatura viene visualizzata nelle aree di Workfront Planning in cui viene visualizzato il record.
 
    >[!TIP]
    >
    >   Per visualizzare le miniature in questa visualizzazione, è necessario attivare il campo Miniatura nella visualizzazione Tabella. Per impostazione predefinita, è disabilitata.
 
-1. (Facoltativo) Per rimuovere la miniatura dopo averla salvata, fai clic su un record in una visualizzazione qualsiasi per aprire la pagina dei dettagli, quindi passa il puntatore sull&#39;immagine miniatura e fai clic sul pulsante **Altro** menu ![](assets/more-menu.png)> **Rimuovi** icona ![](assets/remove-image-icon.png). L&#39;immagine di anteprima viene rimossa.
+1. (Facoltativo) Per rimuovere la miniatura dopo averla salvata, fai clic su un record in una visualizzazione qualsiasi per aprire la pagina dei dettagli, quindi passa il puntatore sull&#39;immagine miniatura e fai clic sul menu **Altro** ![](assets/more-menu.png)> icona **Rimuovi** ![](assets/remove-image-icon.png). L&#39;immagine di anteprima viene rimossa.
 
 
 

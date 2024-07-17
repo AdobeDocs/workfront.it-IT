@@ -1,6 +1,6 @@
 ---
-title: Attività di rilascio di Workfront Fusion:&nbsp;Settimana del 2 agosto 2021
-description: Attività di rilascio di Workfront Fusion:&nbsp;Settimana del 2 agosto 2021
+title: Attività del rilascio di Workfront Fusion:&nbsp;Settimana del 2 agosto 2021
+description: Attività del rilascio di Workfront Fusion:&nbsp;Settimana del 2 agosto 2021
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti apportati ad Adobe Workfront Fusion la settimana del 2 agosto 2021.
 
-Per un elenco di tutte le modifiche recenti, vedi [Attività di rilascio di Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Per un elenco di tutte le modifiche recenti, vedere [Attività di Adobe Workfront Fusion release](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedi [Aggiornamenti di manutenzione per Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
+Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedere la pagina [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -55,7 +55,7 @@ Nel pannello di mappatura sono ora disponibili due nuove funzioni.
 
   In precedenza, la differenza di data e ora poteva essere calcolata solo tramite una formula immessa dall’utente.
 
-  Per ulteriori informazioni, consulta [Funzioni data e ora in Adobe Workfront Fusion](../../../workfront-fusion/functions/date-and-time-functions.md).
+  Per ulteriori informazioni, vedere [Funzioni data e ora in Adobe Workfront Fusion](../../../workfront-fusion/functions/date-and-time-functions.md).
 
 * Nuova funzione array: arrayDifference
 
@@ -64,4 +64,4 @@ Nel pannello di mappatura sono ora disponibili due nuove funzioni.
    * Matrice di elementi di un array che non sono contenuti nell&#39;altro
    * Matrice di elementi contenuti in un array o nell&#39;altro, ma non in entrambi.
 
-  Per ulteriori informazioni, consulta [Funzioni array in Adobe Workfront Fusion](../../../workfront-fusion/functions/array-functions.md).
+  Per ulteriori informazioni, vedere [Funzioni array in Adobe Workfront Fusion](../../../workfront-fusion/functions/array-functions.md).

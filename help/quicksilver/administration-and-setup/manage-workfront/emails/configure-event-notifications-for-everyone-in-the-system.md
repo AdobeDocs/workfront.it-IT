@@ -26,11 +26,11 @@ A seconda dell’evento che abiliti e che l’utente mantenga abilitato sul prop
 
 Devi innanzitutto specificare quali notifiche desideri che tutti gli utenti ricevano nell’area Configurazione dell’istanza di Workfront. Dopo aver attivato una notifica nell’area Configura, questa viene visualizzata come attivata per ogni utente nella pagina del profilo.
 
-Una volta attivate le notifiche nell’area Configura e visualizzate nelle pagine del profilo dell’utente, anche i singoli utenti o un altro utente con una licenza Pianificazione possono configurare le notifiche attivate in un profilo utente per controllare quali notifiche riceve un utente specifico e con quale frequenza. Per ulteriori informazioni, consulta [Modifica le tue notifiche e-mail](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Una volta attivate le notifiche nell’area Configura e visualizzate nelle pagine del profilo dell’utente, anche i singoli utenti o un altro utente con una licenza Pianificazione possono configurare le notifiche attivate in un profilo utente per controllare quali notifiche riceve un utente specifico e con quale frequenza. Per ulteriori informazioni, vedere [Modificare le proprie notifiche e-mail](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-Per un elenco di tutte le notifiche degli eventi che puoi attivare e disattivare, consulta [Tipi di notifica degli eventi](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Per un elenco di tutte le notifiche di eventi attivabili e disattivabili, vedere [Tipi di notifica eventi](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
-Per informazioni sullo sblocco di una notifica di evento in modo che gli amministratori dei gruppi possano configurarla per i loro gruppi, vedi [Sblocca o blocca la configurazione delle notifiche degli eventi per tutti i gruppi](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md) e [Visualizzare e configurare le notifiche degli eventi per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+Per informazioni sullo sblocco di una notifica evento in modo che gli amministratori dei gruppi possano configurarla per i loro gruppi, vedere [Sbloccare o bloccare la configurazione delle notifiche evento per tutti i gruppi](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md) e [Visualizzare e configurare le notifiche evento per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
 
 ## Requisiti di accesso
 
@@ -70,28 +70,28 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 >[!TIP]
 >
->Non è possibile attivare le notifiche per gli obiettivi di Workfront dall’area Configurazione. Gli utenti possono attivare queste notifiche solo nei loro profili. Gli utenti con licenze Plan possono attivarle per altri utenti. Per informazioni sull’abilitazione delle notifiche Workfront Goals per gli utenti, consulta [Notifiche: Obiettivi](../../../workfront-basics/using-notifications/notifications-goals.md).
+>Non è possibile attivare le notifiche per gli obiettivi di Workfront dall’area Configurazione. Gli utenti possono attivare queste notifiche solo nei loro profili. Gli utenti con licenze Plan possono attivarle per altri utenti. Per informazioni sull&#39;attivazione delle notifiche degli obiettivi di Workfront per gli utenti, vedere [Notifiche: Obiettivi](../../../workfront-basics/using-notifications/notifications-goals.md).
 
 {{step-1-to-setup}}
 
-1. Clic **E-mail** > **Notifiche**.
+1. Fai clic su **E-mail** > **Notifiche**.
 
    ![](assets/notifications-area-under-setup-emails.png)
 
 
-1. Assicurati che le **Notifiche evento** è aperta.
+1. Assicurati che la scheda **Notifiche evento** sia aperta.
 1. Attiva o disattiva il pulsante a sinistra del nome dell&#39;evento.
 
-   Per visualizzare lo stato di notifica predefinito di un evento, vedi [Notifiche degli eventi](../../../workfront-basics/using-notifications/event-notifications.md).
+   Per visualizzare lo stato di notifica predefinito per un evento, vedi [Notifiche evento](../../../workfront-basics/using-notifications/event-notifications.md).
 
 1. (Facoltativo) Fai clic sul nome di una notifica di evento per personalizzare la riga dell’oggetto della notifica e-mail.
 
-   Per ulteriori informazioni sulla personalizzazione dell’oggetto delle notifiche e-mail, consulta [Personalizzare gli oggetti e-mail per le notifiche degli eventi](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md).
+   Per ulteriori informazioni sulla personalizzazione dell&#39;oggetto delle notifiche e-mail, vedere [Personalizzare gli oggetti e-mail per le notifiche degli eventi](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md).
 
-1. (Facoltativo) Se desideri sbloccare la configurazione per una notifica e-mail in modo che gli amministratori dei gruppi possano configurarla separatamente per i loro gruppi, fai clic sul pulsante ![](assets/lock-toggle-button.png) a destra della notifica per passare alla posizione sbloccata ![](assets/unlock-toggle-button.png).
+1. (Facoltativo) Se si desidera sbloccare la configurazione di una notifica e-mail in modo che gli amministratori dei gruppi possano configurarla separatamente per i loro gruppi, fare clic sul pulsante ![](assets/lock-toggle-button.png) a destra della notifica per passare alla posizione sbloccata ![](assets/unlock-toggle-button.png).
 
    >[!NOTE]
    >
    >Questa funzionalità è disponibile inizialmente solo per i clienti del cluster 4 come parte di un rollout graduale. Subito dopo sarà disponibile per altri cluster. Questo articolo verrà aggiornato in questo modo.
 
-   Per ulteriori informazioni, consulta [Sblocca o blocca la configurazione delle notifiche degli eventi per tutti i gruppi](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
+   Per ulteriori informazioni, vedere [Sbloccare o bloccare la configurazione delle notifiche degli eventi per tutti i gruppi](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).

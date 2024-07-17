@@ -15,4 +15,4 @@ ht-degree: 0%
 
 # Eliminare una bozza
 
-Per eliminare una bozza da un documento, è necessario eliminare l&#39;intero documento. Per ulteriori informazioni, consulta [Elimina documenti](../../../documents/managing-documents/delete-documents.md).
+Per eliminare una bozza da un documento, è necessario eliminare l&#39;intero documento. Per ulteriori informazioni, vedere [Elimina documenti](../../../documents/managing-documents/delete-documents.md).

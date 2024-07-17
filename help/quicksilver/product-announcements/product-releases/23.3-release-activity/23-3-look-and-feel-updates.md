@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Questa pagina descrive piccoli aggiornamenti all’aspetto di varie aree dell’applicazione Adobe Workfront che sono stati apportati nell’arco temporale della versione 23.3. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione almeno 2 settimane dopo il rilascio in anteprima.
 
-Per un elenco di tutte le modifiche disponibili con la versione 23.3, consulta [Panoramica sulla versione 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 23.3, vedere [Panoramica sulla versione 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Miglioramenti dell’interfaccia per gli elenchi di richieste
 
@@ -31,7 +31,7 @@ I miglioramenti sono i seguenti:
 * ora è presente un indicatore di caricamento quando la pagina viene caricata;
 * l’icona Copia è persistente e accompagnata da testo e diventa disabilitata quando non viene selezionata alcuna richiesta.
 
-Per ulteriori informazioni, consulta [Copiare e inviare richieste](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md). La documentazione verrà aggiornata dopo il rilascio delle funzioni.
+Per ulteriori informazioni, vedere [Copiare e inviare richieste](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md). La documentazione verrà aggiornata dopo il rilascio delle funzioni.
 
 ## Progettazione aggiornata quando si aggiunge un nuovo problema a un progetto
 
@@ -43,7 +43,7 @@ Per ulteriori informazioni, consulta [Copiare e inviare richieste](/help/quicksi
 
 È stata aggiornata la casella Nuovo problema che viene visualizzata quando si invia un nuovo problema a un progetto. Ora, l’interfaccia corrisponde alla casella Nuova richiesta che viene visualizzata quando si invia una nuova richiesta a una coda di richieste.
 
-Per ulteriori informazioni, consulta [Crea problemi](../../../manage-work/issues/manage-issues/create-issues.md). La documentazione verrà aggiornata dopo il rilascio delle funzioni.
+Per ulteriori informazioni, consulta [Creare problemi](../../../manage-work/issues/manage-issues/create-issues.md). La documentazione verrà aggiornata dopo il rilascio delle funzioni.
 
 ## Elenco tariffe di fatturazione aggiornato
 

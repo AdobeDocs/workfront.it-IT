@@ -43,29 +43,29 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 </tr>
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Filtrare gli elementi confrontando due campi
 
 1. Consente di passare a un elenco di attività.
-1. Dalla sezione **Filtro** menu a discesa, seleziona **Nuovo filtro**.
+1. Dal menu a discesa **Filtro**, selezionare **Nuovo filtro**.
 
-1. Clic **Aggiungi regola filtro** e aggiungi **Data di completamento effettiva** >**Maggiore di** > **Seleziona una data**.
+1. Fai clic su **Aggiungi regola filtro** e aggiungi **Data di completamento effettiva** >**Maggiore di** > **Seleziona una data**.
 
    >[!TIP]
    >
    >Scegliere il modificatore di filtro da utilizzare per il campo selezionato, se disponibile.
 
-1. Clic **Passa alla modalità testo**.
-1. In **Impostare le regole di filtro per il report** , aggiungere il codice seguente:
+1. Fare clic su **Passa alla modalità testo**.
+1. Nell&#39;area **Imposta regole filtro per Report**, aggiungi il seguente codice:
 
    ```
    actualCompletionDate=FIELD:plannedCompletionDate<br>actualCompletionDate_Mod=gt
    ```
 
-1. Clic **Fine**, quindi **Salva filtro**.
+1. Fai clic su **Fine**, quindi su **Salva filtro**.

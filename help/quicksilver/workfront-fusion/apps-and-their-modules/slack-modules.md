@@ -5,24 +5,24 @@ product-area: workfront-integrations
 keywords: connettore
 navigation-topic: apps-and-their-modules
 title: moduli di Slack
-description: In un [!DNL Adobe Workfront Fusion] scenario, puoi automatizzare i flussi di lavoro che utilizzano Slack e collegarlo a più applicazioni e servizi di terze parti.
+description: In uno scenario  [!DNL Adobe Workfront Fusion] , puoi automatizzare i flussi di lavoro che utilizzano lo Slack e collegarlo a più applicazioni e servizi di terze parti.
 author: Becky
 feature: Workfront Fusion
 exl-id: ba5bad6a-3cb3-4024-82f7-d38ee9a8e0b5
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1775'
-ht-degree: 1%
+source-wordcount: '1744'
+ht-degree: 0%
 
 ---
 
 # [!DNL Slack] moduli
 
-In un [!DNL Adobe Workfront Fusion] scenario, puoi automatizzare i flussi di lavoro che utilizzano [!DNL Slack], oltre a collegarlo a più applicazioni e servizi di terze parti.
+In uno scenario [!DNL Adobe Workfront Fusion], è possibile automatizzare i flussi di lavoro che utilizzano [!DNL Slack] e collegarlo a più applicazioni e servizi di terze parti.
 
-Per istruzioni sulla creazione di uno scenario, consulta [Creare uno scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Se hai bisogno di istruzioni per la creazione di uno scenario, consulta [Creare uno scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Per informazioni sui moduli, consulta [Moduli in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Per informazioni sui moduli, vedere [Moduli in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Requisiti di accesso
 
@@ -43,35 +43,35 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licenza**</td> 
    <td>
-   <p>Fabbisogno di licenza corrente: No [!DNL Workfront Fusion] requisito di licenza.</p>
+   <p>Requisiti di licenza correnti: nessun requisito di licenza [!DNL Workfront Fusion].</p>
    <p>Oppure</p>
-   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro] </p>
+   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione del lavoro] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
    <td>
-   <p>Fabbisogno prodotto corrente: se si dispone di [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Pianifica, la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo. [!DNL Workfront Fusion] è incluso in [!UICONTROL Ultimate] [!DNL Workfront] piano.</p>
+   <p>Fabbisogno prodotto corrente: se si dispone del piano [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], l'organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo. [!DNL Workfront Fusion] è incluso nel piano [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>Oppure</p>
-   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</p>
+   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore [!DNL Workfront].
 
-Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisiti
 
-Da utilizzare [!DNL Slack] moduli, è necessario disporre di un [!DNL Slack] account.
+Per utilizzare i moduli [!DNL Slack], è necessario disporre di un account [!DNL Slack].
 
 ## [!DNL Slack] moduli e relativi campi
 
-Quando si configura [!DNL Slack] moduli, [!DNL Workfront Fusion] visualizza i campi elencati di seguito. Oltre a questi, ulteriori [!DNL Slack] I campi potrebbero essere visualizzati in base a fattori quali il livello di accesso nell’app o nel servizio. Un titolo in grassetto in un modulo indica un campo obbligatorio.
+Quando configuri [!DNL Slack] moduli, [!DNL Workfront Fusion] visualizza i campi elencati di seguito. Insieme a questi, potrebbero essere visualizzati ulteriori campi di [!DNL Slack], a seconda di fattori quali il livello di accesso nell&#39;app o nel servizio. Un titolo in grassetto in un modulo indica un campo obbligatorio.
 
-Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possibile utilizzarlo per impostare variabili e funzioni per tale campo. Per ulteriori informazioni, consulta [Mappare le informazioni da un modulo all’altro in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possibile utilizzarlo per impostare variabili e funzioni per tale campo. Per ulteriori informazioni, vedere [Mappare le informazioni da un modulo all&#39;altro in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -90,7 +90,7 @@ Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possib
 
 ### Messaggi
 
-+++**[!UICONTROL Guarda i messaggi del canale pubblico]**
++++**[!UICONTROL Guardare I Messaggi Del Canale Pubblico]**
 
 Questo modulo di attivazione avvia lo scenario quando viene aggiunto un nuovo messaggio a un canale pubblico.
 
@@ -100,7 +100,7 @@ Questo modulo di attivazione avvia lo scenario quando viene aggiunto un nuovo me
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Slack] account a [!DNL Workfront Fusion], vedi <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Slack] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Channel] </td> 
@@ -108,7 +108,7 @@ Questo modulo di attivazione avvia lo scenario quando viene aggiunto un nuovo me
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit] </td> 
-   <td> <p>Imposta il numero massimo di messaggi [!DNL Workfront Fusion] restituirà durante un ciclo di esecuzione.</p> </td> 
+   <td> <p>Impostare il numero massimo di messaggi restituiti da [!DNL Workfront Fusion] durante un ciclo di esecuzione.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -125,7 +125,7 @@ Questo modulo di attivazione avvia lo scenario quando un nuovo messaggio viene a
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Slack] account a [!DNL Workfront Fusion], vedi <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Slack] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Channel] </td> 
@@ -133,7 +133,7 @@ Questo modulo di attivazione avvia lo scenario quando un nuovo messaggio viene a
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit] </td> 
-   <td> <p>Imposta il numero massimo di messaggi [!DNL Workfront Fusion] restituirà durante un ciclo di esecuzione.</p> </td> 
+   <td> <p>Impostare il numero massimo di messaggi restituiti da [!DNL Workfront Fusion] durante un ciclo di esecuzione.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -229,7 +229,7 @@ Questo modulo di azione recupera i dettagli di un messaggio da un canale selezio
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Slack] account a [!DNL Workfront Fusion], vedi <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Slack] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL ID canale]</p> </td> 
@@ -244,7 +244,7 @@ Questo modulo di azione recupera i dettagli di un messaggio da un canale selezio
 
 +++
 
-+++ **[!UICONTROL Ottieni un messaggio di canale pubblico]**
++++ **[!UICONTROL Ottieni un messaggio del canale pubblico]**
 
 Questo modulo di azione restituisce un messaggio con un determinato ID da un canale pubblico specificato.
 
@@ -254,7 +254,7 @@ Questo modulo di azione restituisce un messaggio con un determinato ID da un can
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Slack] account a [!DNL Workfront Fusion], vedi <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Slack] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL ID canale]</p> </td> 
@@ -302,7 +302,7 @@ This action module retrieves a thread of messages posted to a conversation.
 
 -->
 
-+++ **[!UICONTROL Creare un messaggio]**
++++ **[!UICONTROL Crea un messaggio]**
 
 Questo modulo di azione crea un nuovo messaggio.
 
@@ -312,23 +312,23 @@ Questo modulo di azione crea un nuovo messaggio.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Slack] account a [!DNL Workfront Fusion], vedi <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Slack] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Inserisci un nome o un ID canale]</p> </td> 
    <td> <p>Scegli come selezionare il canale in cui desideri creare un messaggio.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Invio manuale]</strong> </p> <p>In <strong>[!UICONTROL ID o nome canale]</strong> , immetti o mappa l’ID canale o il nome del canale in cui desideri inserire il messaggio.</p> <p>Nota: è possibile recuperare l'ID canale utilizzando il modulo [!UICONTROL List Channels].</p> </li> 
+     <li> <p><strong>[!UICONTROL Immetti manualmente]</strong> </p> <p>Nel campo <strong>[!UICONTROL ID o nome canale]</strong>, immetti o mappa l'ID o il nome del canale in cui desideri inserire il messaggio.</p> <p>Nota: è possibile recuperare l'ID canale utilizzando il modulo [!UICONTROL List Channels].</p> </li> 
      <li> <p><strong>[!UICONTROL Seleziona dall'elenco]</strong> </p> <p>Seleziona il tipo di canale, quindi seleziona il canale.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Text]</p> </td> 
-   <td> <p>Inserisci il contenuto del testo del messaggio che desideri creare.</p> <p>Nota: per informazioni dettagliate sulla formattazione del testo, vedere <a href="https://api.slack.com/reference/surfaces/formatting">Formattazione del testo per le superfici dell'app</a> nel [!DNL Slack] documentazione.</p> </td> 
+   <td> <p>Inserisci il contenuto del testo del messaggio che desideri creare.</p> <p>Nota: per informazioni dettagliate sulla formattazione del testo, vedere <a href="https://api.slack.com/reference/surfaces/formatting">Formattazione del testo per le superfici dell'app</a> nella documentazione di [!DNL Slack].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Blocks]</td> 
-   <td>I blocchi sono componenti riutilizzabili che puoi utilizzare per personalizzare e organizzare i messaggi. Per ulteriori informazioni sui blocchi, consulta <a href="https://api.slack.com/block-kit">Kit blocco</a> nel [!DNL Slack] documentazione.</td> 
+   <td>I blocchi sono componenti riutilizzabili che puoi utilizzare per personalizzare e organizzare i messaggi. Per ulteriori informazioni sui blocchi, vedere <a href="https://api.slack.com/block-kit">Block Kit</a> nella documentazione di [!DNL Slack].</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Thread message ID (timestamp)]</td> 
@@ -336,7 +336,7 @@ Questo modulo di azione crea un nuovo messaggio.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Risposta trasmessa]</td> 
-   <td> <p>Seleziona <strong>[!UICONTROL Sì]</strong> se si applicano entrambe le condizioni seguenti:</p> 
+   <td> <p>Selezionare <strong>[!UICONTROL Sì]</strong> se si applicano entrambe le condizioni seguenti:</p> 
     <ul> 
      <li> <p>Il nuovo messaggio è una risposta a un altro messaggio</p> </li> 
      <li> <p>Desideri che il nuovo messaggio sia visibile a tutti gli utenti del canale</p> </li> 
@@ -344,30 +344,30 @@ Questo modulo di azione crea un nuovo messaggio.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Nomi collegamenti]</p> </td> 
-   <td> <p>Abilita questa opzione per consentire l’utilizzo di nomi e canali <code>@username</code> o <code>#channel</code> formato. </p> <p>Per ulteriori informazioni, consulta <a href="https://api.slack.com/docs/formatting">Formattazione del testo per le superfici dell'app</a> nel [!DNL Slack] documentazione.</p> </td> 
+   <td> <p>Abilitare questa opzione per consentire ai nomi e ai canali di utilizzare il formato <code>@username</code> o <code>#channel</code>. </p> <p>Per ulteriori informazioni, vedere <a href="https://api.slack.com/docs/formatting">Formattazione del testo per le superfici dell'app</a> nella documentazione di [!DNL Slack].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Analizza testo messaggio]</p> </td> 
-   <td> <p>Abilita questa opzione per consentire l’analisi automatica. </p> <p>Per ulteriori informazioni, consulta <a href="https://api.slack.com/docs/formatting">Formattazione del testo per le superfici dell'app</a> nel [!DNL Slack] documentazione.</p> <p>Nota: se nel messaggio originale sono state utilizzate opzioni [!UICONTROL Link names] o [!UICONTROL Parse message text], è necessario specificarle durante l'esecuzione del modulo [!UICONTROL Update a Message].</p> </td> 
+   <td> <p>Abilita questa opzione per consentire l’analisi automatica. </p> <p>Per ulteriori informazioni, vedere <a href="https://api.slack.com/docs/formatting">Formattazione del testo per le superfici dell'app</a> nella documentazione di [!DNL Slack].</p> <p>Nota: se nel messaggio originale sono state utilizzate opzioni [!UICONTROL Link names] o [!UICONTROL Parse message text], è necessario specificarle durante l'esecuzione del modulo [!UICONTROL Update a Message].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Usa markdown]</p> </td> 
-   <td> <p>Abilita questa opzione per consentire [!DNL Slack] per utilizzare markdown nel testo.</p> </td> 
+   <td> <p>Abilita questa opzione per consentire a [!DNL Slack] di utilizzare markdown nel testo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Sblocca principalmente il contenuto basato su testo]</p> </td> 
-   <td> <p>Abilita questa opzione per consentire la disattivazione di contenuti principalmente basati su testo. </p> <p>Per ulteriori informazioni sull’apertura di in [!DNL Slack], vedi <a href="https://api.slack.com/reference/messaging/link-unfurling">Sviluppo di collegamenti nei messaggi</a> nel [!DNL Slack] documentazione.</p> </td> 
+   <td> <p>Abilita questa opzione per consentire la disattivazione di contenuti principalmente basati su testo. </p> <p>Per ulteriori informazioni sull'esecuzione dell'aggiornamento in [!DNL Slack], vedere <a href="https://api.slack.com/reference/messaging/link-unfurling">Scaricamento dei collegamenti nei messaggi</a> nella documentazione di [!DNL Slack].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Svuota contenuto multimediale]</p> </td> 
-   <td> <p>Abilita questa opzione per consentire l’espansione del contenuto multimediale. </p> <p>Per ulteriori informazioni sull’apertura di in [!DNL Slack], vedi <a href="https://api.slack.com/reference/messaging/link-unfurling">Sviluppo di collegamenti nei messaggi</a> nel [!DNL Slack] documentazione.</p> </td> 
+   <td> <p>Abilita questa opzione per consentire l’espansione del contenuto multimediale. </p> <p>Per ulteriori informazioni sull'esecuzione dell'aggiornamento in [!DNL Slack], vedere <a href="https://api.slack.com/reference/messaging/link-unfurling">Scaricamento dei collegamenti nei messaggi</a> nella documentazione di [!DNL Slack].</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-+++ **[!UICONTROL Aggiornare un messaggio]**
++++ **[!UICONTROL Aggiorna un messaggio]**
 
 Questo modulo di azione ti consente di modificare un messaggio esistente.
 
@@ -377,38 +377,38 @@ Questo modulo di azione ti consente di modificare un messaggio esistente.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Slack] account a [!DNL Workfront Fusion], vedi <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Slack] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Inserisci un nome o un ID canale]</p> </td> 
    <td> <p>Scegli come desideri selezionare il messaggio che desideri.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Invio manuale]</strong> </p> <p>In <strong>[!UICONTROL ID o nome canale]</strong> , immetti o mappa l’ID canale o del canale che contiene il messaggio, quindi immetti <strong>[!UICONTROL Timestamp (ID messaggio)]</strong> del messaggio. .</p> <p>Nota: è possibile recuperare l'ID canale utilizzando il modulo [!UICONTROL List Channels].</p> </li> 
+     <li> <p><strong>[!UICONTROL Immetti manualmente]</strong> </p> <p>Nel campo <strong>[!UICONTROL ID o nome canale]</strong>, immetti o mappa l'ID canale o del canale che contiene il messaggio, quindi immetti il timestamp <strong>[!UICONTROL (ID messaggio)]</strong> del messaggio. .</p> <p>Nota: è possibile recuperare l'ID canale utilizzando il modulo [!UICONTROL List Channels].</p> </li> 
      <li> <p><strong>[!UICONTROL Seleziona dall'elenco]</strong> </p> <p>Seleziona il tipo di canale, quindi il canale, infine il messaggio.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Text]</p> </td> 
-   <td> <p>Inserisci il nuovo contenuto testuale del messaggio da aggiornare.</p> <p>Per ulteriori informazioni, consulta <a href="https://api.slack.com/docs/formatting">Formattazione del testo per le superfici dell'app</a> nel [!DNL Slack] documentazione.</p> </td> 
+   <td> <p>Inserisci il nuovo contenuto testuale del messaggio da aggiornare.</p> <p>Per ulteriori informazioni, vedere <a href="https://api.slack.com/docs/formatting">Formattazione del testo per le superfici dell'app</a> nella documentazione di [!DNL Slack].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Blocks]</td> 
-   <td>I blocchi sono componenti riutilizzabili che puoi utilizzare per personalizzare e organizzare i messaggi. Per ulteriori informazioni sui blocchi, consulta <a href="https://api.slack.com/block-kit">Kit blocco</a> nel [!DNL Slack] documentazione.</td> 
+   <td>I blocchi sono componenti riutilizzabili che puoi utilizzare per personalizzare e organizzare i messaggi. Per ulteriori informazioni sui blocchi, vedere <a href="https://api.slack.com/block-kit">Block Kit</a> nella documentazione di [!DNL Slack].</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Nomi collegamenti]</p> </td> 
-   <td> <p>Abilita questa opzione per consentire l’utilizzo di nomi e canali <code>@username</code> o <code>#channel</code> formato. </p> <p>Per ulteriori informazioni, consulta <a href="https://api.slack.com/docs/formatting">Formattazione del testo per le superfici dell'app</a> nel [!DNL Slack] documentazione.</p> </td> 
+   <td> <p>Abilitare questa opzione per consentire ai nomi e ai canali di utilizzare il formato <code>@username</code> o <code>#channel</code>. </p> <p>Per ulteriori informazioni, vedere <a href="https://api.slack.com/docs/formatting">Formattazione del testo per le superfici dell'app</a> nella documentazione di [!DNL Slack].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Analizza testo messaggio]</p> </td> 
-   <td> <p>Abilita questa opzione per consentire l’analisi automatica. </p> <p> Per ulteriori informazioni, consulta <a href="https://api.slack.com/docs/formatting">Formattazione del testo per le superfici dell'app</a> nel [!DNL Slack] documentazione.</p> <p>Nota: se nel messaggio originale sono state utilizzate opzioni [!UICONTROL Link names] o [!UICONTROL Parse message text], è necessario specificarle anche durante l'esecuzione del modulo Aggiorna messaggio.</p> </td> 
+   <td> <p>Abilita questa opzione per consentire l’analisi automatica. </p> <p> Per ulteriori informazioni, vedere <a href="https://api.slack.com/docs/formatting">Formattazione del testo per le superfici dell'app</a> nella documentazione di [!DNL Slack].</p> <p>Nota: se nel messaggio originale sono state utilizzate opzioni [!UICONTROL Link names] o [!UICONTROL Parse message text], è necessario specificarle anche durante l'esecuzione del modulo Aggiorna messaggio.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-+++ **[!UICONTROL Eliminare un messaggio]**
++++ **[!UICONTROL Elimina messaggio]**
 
 Questo modulo di azione elimina un messaggio specificato.
 
@@ -418,7 +418,7 @@ Questo modulo di azione elimina un messaggio specificato.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Slack] account a [!DNL Workfront Fusion], vedi <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Slack] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL ID canale]</p> </td> 
@@ -658,7 +658,7 @@ Questo modulo di ricerca restituisce un elenco di tutti i canali di un’area di
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Slack] account a [!DNL Workfront Fusion], vedi <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Slack] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Exclude archiviato]</p> </td> 
@@ -670,7 +670,7 @@ Questo modulo di ricerca restituisce un elenco di tutti i canali di un’area di
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit] </td> 
-   <td> <p>Imposta il numero massimo di canali [!DNL Workfront Fusion] restituirà durante un ciclo di esecuzione.</p> </td> 
+   <td> <p>Impostare il numero massimo di canali restituiti da [!DNL Workfront Fusion] durante un ciclo di esecuzione.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -687,7 +687,7 @@ Questo modulo di azione restituisce informazioni su un canale dell’area di lav
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Slack] account a [!DNL Workfront Fusion], vedi <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Slack] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL ID canale]</p> </td> 
@@ -698,7 +698,7 @@ Questo modulo di azione restituisce informazioni su un canale dell’area di lav
 
 +++
 
-+++ **[!UICONTROL Elencare i membri nel canale]**
++++ **[!UICONTROL Elenca membri nel canale]**
 
 Questo modulo di ricerca restituisce un elenco di utenti nel canale selezionato.
 
@@ -708,7 +708,7 @@ Questo modulo di ricerca restituisce un elenco di utenti nel canale selezionato.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Slack] account a [!DNL Workfront Fusion], vedi <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Slack] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Tipo di canale]</td> 
@@ -720,7 +720,7 @@ Questo modulo di ricerca restituisce un elenco di utenti nel canale selezionato.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit] </td> 
-   <td> <p>Imposta il numero massimo di membri [!DNL Workfront Fusion] restituirà durante un ciclo di esecuzione.</p> </td> 
+   <td> <p>Impostare il numero massimo di membri restituiti [!DNL Workfront Fusion] durante un ciclo di esecuzione.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1488,7 +1488,7 @@ This action module updates a user's current status.
 
 +++ **[!UICONTROL Effettuare una chiamata API]**
 
-Questo modulo di azione consente di effettuare una chiamata autenticata personalizzata al [!DNL Slack] API. In questo modo, puoi creare un’automazione del flusso di dati che non può essere eseguita dall’altro [!DNL Slack] moduli.
+Questo modulo di azione consente di effettuare una chiamata autenticata personalizzata all&#39;API [!DNL Slack]. In questo modo è possibile creare un&#39;automazione del flusso di dati che non può essere eseguita dagli altri moduli [!DNL Slack].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -1496,15 +1496,15 @@ Questo modulo di azione consente di effettuare una chiamata autenticata personal
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Slack] account a [!DNL Workfront Fusion], vedi <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Slack] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td>Inserisci un percorso relativo a <code>https://slack.com/api/</code>. Esempio: <code>/users/identity</code>.</td> 
+   <td>Immettere un percorso relativo a <code>https://slack.com/api/</code>. Esempio: <code>/users/identity</code>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
-   td&gt; <p>Seleziona il metodo di richiesta HTTP necessario per configurare la chiamata API. Per ulteriori informazioni, consulta <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Metodi di richiesta HTTP in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   td&gt; <p>Seleziona il metodo di richiesta HTTP necessario per configurare la chiamata API. Per ulteriori informazioni, vedere <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Metodi di richiesta HTTP in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -1516,7 +1516,7 @@ Questo modulo di azione consente di effettuare una chiamata autenticata personal
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Aggiungi il contenuto body per la chiamata API sotto forma di oggetto JSON standard.</p> <p>Nota:  <p>Quando si utilizzano istruzioni condizionali quali <code>if</code> nel JSON, inserisci le virgolette al di fuori dell’istruzione condizionale.</p> 
+   <td> <p>Aggiungi il contenuto body per la chiamata API sotto forma di oggetto JSON standard.</p> <p>Nota:  <p>Quando si utilizzano istruzioni condizionali come <code>if</code> nel JSON, inserire le virgolette al di fuori dell'istruzione condizionale.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -1532,10 +1532,10 @@ Questo modulo di azione consente di effettuare una chiamata autenticata personal
 
 ## Terminologia
 
-La seguente terminologia può essere utile durante la configurazione [!DNL Slack] moduli:
+La seguente terminologia può essere utile durante la configurazione di [!DNL Slack] moduli:
 
 * **DM**: [!UICONTROL Messaggio diretto]
-* **IM**: [!UICONTROL Messaggio istantaneo]
-* **Canale privato**: precedentemente [!UICONTROL Gruppo]
-* **Messaggio diretto**: precedentemente [!UICONTROL IM]
-* **Canale**: [!UICONTROL Conversazione] nella documentazione API di, [!UICONTROL channel] nel [!DNL Slack] app.
+* **IM**: [!UICONTROL Messaggio immediato]
+* **Canale privato**: in precedenza [!UICONTROL Gruppo]
+* **Messaggio diretto**: in precedenza [!UICONTROL IM]
+* **Canale**: [!UICONTROL Conversazione] nella documentazione API, [!UICONTROL canale] nell&#39;app [!DNL Slack].

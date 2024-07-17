@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione 21.4 di Project. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 4 ottobre 2021.
 
-Per un elenco di tutte le modifiche disponibili con la versione 21.4, consulta [Panoramica sulla versione 21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 21.4, consulta la [Panoramica sulla versione 21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Includi immagini negli aggiornamenti
 
@@ -27,9 +27,9 @@ Nella scheda Aggiornamenti di un oggetto è ora possibile aggiungere immagini fa
 
 In precedenza, l’unico modo per condividere un’immagine in Workfront era allegarla a un oggetto come documento. Le immagini aggiunte nella scheda Aggiornamenti sono disponibili solo in tale scheda e non nella scheda Documenti.
 
-Per ulteriori informazioni, consulta [Aggiorna lavoro](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Per ulteriori informazioni, vedere [Aggiorna lavoro](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-Prima che gli utenti di Workfront possano includere immagini negli aggiornamenti, questa funzione deve essere abilitata dall’amministratore Adobe Workfront, come descritto in [Configurare le preferenze per gli aggiornamenti utente](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
+Prima che gli utenti di Workfront possano includere immagini negli aggiornamenti, questa funzione deve essere attivata dall&#39;amministratore di Adobe Workfront, come descritto in [Configurare le preferenze per gli aggiornamenti utente](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
 
 ## Algoritmo aggiornato per le assegnazioni intelligenti
 
@@ -37,7 +37,7 @@ Prima che gli utenti di Workfront possano includere immagini negli aggiornamenti
 
 Prima di questo miglioramento, Workfront stava considerando le assegnazioni sulle attività padre e altri attributi utente correlati a tali assegnazioni quando suggeriva gli utenti.
 
-Per informazioni sulle assegnazioni avanzate, consulta [Panoramica delle assegnazioni intelligenti](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+Per informazioni sulle assegnazioni Smart, vedere [Panoramica assegnazioni Smart](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## Nuova esperienza durante la creazione di un progetto da un modello
 
@@ -48,7 +48,7 @@ Per rendere il tuo utilizzo di Workfront coerente con la nuova esperienza Workfr
 
 È stata aggiornata l’interfaccia per la creazione del progetto sia quando lo si crea dall’area Progetti che dall’area Modelli.
 
-Per informazioni, [Creare un progetto utilizzando un modello](../../../manage-work/projects/create-projects/create-project-from-template.md).
+Per informazioni, [Crea un progetto utilizzando un modello](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
 ## Nuova esperienza durante l’associazione di modelli ai progetti
 
@@ -62,7 +62,7 @@ Per rendere il tuo utilizzo di Workfront coerente con la nuova esperienza Workfr
 * Aggiungere modelli a un elenco di preferiti durante il processo di creazione degli allegati
 * Visualizza tutte le opzioni per la gestione delle impostazioni di modello e progetto in un&#39;unica pagina continua
 
-Per informazioni, consulta [Allegare un modello a un progetto](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+Per informazioni, vedere [Allegare un modello a un progetto](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
 
 ## Valori unitari di durata e durata per le attività
 
@@ -75,7 +75,7 @@ Oltre ai campi Durata nelle caselle Dettagli attività, Modifica attività e Nuo
 * Campo di frequenza durante la creazione di un&#39;attività ricorrente (disponibile a breve)
 * Campo Lag durante l’aggiunta di un predecessore (disponibile a breve)
 
-Per informazioni, consulta [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+Per informazioni, vedere [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 ![](assets/duration-combined-field-350x139.png)
 
@@ -87,7 +87,7 @@ Per garantire che gli utenti forniscano informazioni accurate quando aggiungono 
 >
 >Questa impostazione è disponibile solo nella nuova esperienza Workfront. Gli utenti che lavorano in Workfront Classic possono comunque aggiungere problemi in linea a un progetto o alle sue attività anche se questa impostazione è stata disabilitata per il progetto da un utente che lavora nella nuova esperienza Workfront.
 
-Per ulteriori informazioni, consulta [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
+Per ulteriori informazioni, vedere [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 ## Miglioramento della visualizzazione dei campi personalizzati per caselle di controllo e pulsanti di scelta
 
@@ -95,7 +95,7 @@ La visualizzazione e la selezione delle opzioni relative alle caselle di control
 
 Ciò dipende dal modo in cui vengono posizionati i campi nel modulo personalizzato. Se si inserisce un altro campo nella stessa riga con il campo casella di controllo o pulsante di opzione, le opzioni potrebbero disporre di spazio orizzontale sufficiente per la visualizzazione in una singola colonna.
 
-Per informazioni sulla compilazione di un modulo personalizzato, consulta [Modificare le informazioni nei campi modulo personalizzati](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
+Per informazioni sulla compilazione di un modulo personalizzato, vedere [Modifica informazioni nei campi modulo personalizzato](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
-Per informazioni sulla creazione di un campo casella di controllo o pulsante di scelta in un modulo personalizzato, vedere le sezioni [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) e [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#configur) nell’articolo [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Per informazioni sulla creazione di un campo casella di controllo o pulsante di scelta in un modulo personalizzato, vedere le sezioni [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) e [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#configur) nell&#39;articolo [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 

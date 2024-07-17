@@ -31,7 +31,7 @@ hide: yes
 
 È possibile eliminare i tipi di record quando non sono più rilevanti.
 
-Tuttavia, l&#39;eliminazione dei tipi di record comporta anche l&#39;eliminazione di tutte le informazioni associate ai tipi di record. Per ulteriori informazioni, vedere [Considerazioni durante l’eliminazione dei tipi di record](#considerations-when-deleting-record-types) in questo articolo.
+Tuttavia, l&#39;eliminazione dei tipi di record comporta anche l&#39;eliminazione di tutte le informazioni associate ai tipi di record. Per ulteriori informazioni, vedere la sezione [Considerazioni durante l&#39;eliminazione dei tipi di record](#considerations-when-deleting-record-types) in questo articolo.
 
 Per informazioni sui tipi di record, vedere [Panoramica sui tipi di record](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 
@@ -80,13 +80,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Autorizzazioni</p></td>
-   <td> <p>Gestire le autorizzazioni per un’area di lavoro</a> </p>  
+   <td> <p>Gestione delle autorizzazioni per un'area di lavoro</a> </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>L'amministratore del Workfront o del gruppo deve aggiungere l'area Planning nel modello di layout. Per informazioni, consulta <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica degli accessi</a>. </p>  
+   <td> <p>L'amministratore del Workfront o del gruppo deve aggiungere l'area Planning nel modello di layout. Per informazioni, vedere <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica dell'accesso</a>. </p>  
 </td>
   </tr>
 
@@ -131,11 +131,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    Viene aperto il workspace e vengono visualizzati i tipi di record.
 1. Esegui una delle operazioni seguenti:
 
-   * Passa il puntatore del mouse sulla scheda del tipo di record, fai clic sul menu Altro, quindi **Elimina**.
-   * Fare clic sulla scheda del tipo di record che si desidera eliminare e nella pagina del tipo di record fare clic su **Altro** menu ![](assets/more-menu.png) a destra del nome del tipo di record, quindi fare clic su **Elimina**.
+   * Passa il puntatore del mouse sulla scheda del tipo di record, fai clic sul menu Altro, quindi su **Elimina**.
+   * Fare clic sulla scheda del tipo di record che si desidera eliminare e nella pagina del tipo di record fare clic sul menu **Altro** ![](assets/more-menu.png) a destra del nome del tipo di record, quindi fare clic su **Elimina**.
 
    ![](assets/permanently-delete-record-type-confirmation.png)
 
-1. Tipo **eliminare** nella casella di conferma, fai clic su **Elimina definitivamente**. Non fa distinzione tra maiuscole e minuscole.
+1. Digita **delete** nella casella di conferma, quindi fai clic su **Delete** definitivamente. Non fa distinzione tra maiuscole e minuscole.
 
    Il tipo di record selezionato e i relativi campi, record associati e viste vengono eliminati.

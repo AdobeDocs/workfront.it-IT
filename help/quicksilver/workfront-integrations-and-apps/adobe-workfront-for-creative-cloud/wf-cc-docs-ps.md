@@ -1,8 +1,8 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Caricare documenti da Adobe Photoshop
-description: Puoi caricare i tuoi progetti come documenti per una revisione e approvazione rapide o semplicemente per archiviarli in Adobe Workfront.
+title: Carica documenti da Adobe Photoshop
+description: Puoi caricare i tuoi progetti come documenti per una revisione e approvazione rapida o semplicemente per archiviarli in Adobe Workfront.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d26850d8-9594-4848-b263-6f71e6c52e9b
@@ -35,43 +35,43 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> -->
   <tr> 
    <td role="rowheader">Prodotto</td> 
-   <td>Devi avere un [!DNL Adobe Creative Cloud] oltre a una licenza [!DNL Workfront] licenza.</td> 
+   <td>È necessario disporre di una licenza [!DNL Adobe Creative Cloud] oltre a una licenza [!DNL Workfront].</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Accesso a documenti [!UICONTROL Edit]</p> <p>Nota: Se non hai ancora accesso, chiedi [!DNL Workfront] amministratore se imposta ulteriori restrizioni nel livello di accesso. Per informazioni su come [!DNL Workfront] l'amministratore può modificare il livello di accesso, vedi <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Accesso di [!UICONTROL Edit] a [!UICONTROL Documents]</p> <p>Nota: se non disponi ancora dell'accesso, chiedi all'amministratore [!DNL Workfront] se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di [!DNL Workfront] può modificare il tuo livello di accesso, vedi <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Accesso o superiore all'oggetto in cui si desidera caricare un documento.</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Accesso di [!UICONTROL View] o versione successiva all'oggetto in cui si desidera caricare un documento.</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
 
 ## Prerequisiti
 
-* È necessario installare [!DNL Adobe Workfront for Photoshop] plugin prima di poter caricare [!DNL Adobe Photoshop] progetti [!DNL Workfront].
+* È necessario installare il plug-in [!DNL Adobe Workfront for Photoshop] prima di caricare [!DNL Adobe Photoshop] progetti in [!DNL Workfront].
 
-   Per istruzioni, consulta [Installare Adobe Workfront per Photoshop](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md).
+  Per istruzioni, vedere [Installare Adobe Workfront per Photoshop](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md).
 
-## Caricare documenti in [!DNL Adobe Photoshop]
+## Carica documenti in [!DNL Adobe Photoshop]
 
-1. Fai clic sul pulsante **[!UICONTROL Menu]** nell&#39;angolo in alto a destra, quindi seleziona **[!UICONTROL Elenco lavori]**. È inoltre possibile utilizzare il menu per passare agli oggetti principali.
+1. Fai clic sull&#39;icona **[!UICONTROL Menu]** in alto a destra, quindi seleziona **[!UICONTROL Elenco lavori]**. È inoltre possibile utilizzare il menu per passare agli oggetti padre.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. Passa all&#39;elemento di lavoro in cui desideri caricare un documento.
-1. Fai clic sul pulsante **[!UICONTROL Documento]** icona ![](assets/documents.png) nella barra di navigazione.
+1. Passare all&#39;elemento di lavoro in cui si desidera caricare un documento.
+1. Fai clic sull&#39;icona ![](assets/documents.png) del **[!UICONTROL Documento]** nella barra di navigazione.
 
-1. Fai clic su **[!UICONTROL Nuovo file]** vicino al fondo del plugin.
-1. Scegli la **[!UICONTROL Tipo di risorsa]** dal menu a discesa.
+1. Fai clic su **[!UICONTROL Nuovo file]** nella parte inferiore del plug-in.
+1. Scegli il **[!UICONTROL Tipo risorsa]** dal menu a discesa.
 
    >[!NOTE]
    >
-   >Se aggiungi un approvatore, l&#39;immagine viene caricata in [!DNL Workfront] come semplice prova.
+   >Se aggiungi un approvatore, l&#39;immagine viene caricata in [!DNL Workfront] come semplice bozza.
 
-1. (Facoltativo) Digita un commento nella sezione **[!UICONTROL Aggiornamenti]** area.
+1. (Facoltativo) Digita un commento nell&#39;area **[!UICONTROL Aggiornamenti]**.
 1. Fai clic su **[!UICONTROL Carica]**.\
-   Il documento viene visualizzato nel [!UICONTROL Documenti] nell’area del plug-in e nell’app desktop.
+   Il documento verrà visualizzato nell&#39;area [!UICONTROL Documenti] del plug-in e dell&#39;app desktop.

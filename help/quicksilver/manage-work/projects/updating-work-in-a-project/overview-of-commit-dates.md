@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Panoramica sulla data di conferma
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti oppure nell’ambiente di produzione per i clienti che hanno abilitato le versioni rapide.</span>
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente di anteprima per tutti i clienti oppure nell&#39;ambiente di produzione per i clienti che hanno abilitato le versioni rapide.</span>
 
-<span class="preview">Per informazioni sulle versioni rapide, consulta [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">Per informazioni sulle versioni rapide, vedi [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 <span class="preview">Per informazioni sulla versione corrente, consulta [Panoramica sulla versione del terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
@@ -26,7 +26,7 @@ La data di conferma è la data entro la quale un utente assegnato a un’attivit
 
 Questa è diversa dalla Data di completamento pianificata di un&#39;attività o di un problema, in quanto è una stima più realistica della data di completamento fornita solo dall&#39;utente responsabile del lavoro.
 
-Per informazioni sulla data di completamento pianificata, vedi [Panoramica della data di completamento pianificata dell&#39;attività](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+Per informazioni sulla data di completamento pianificata, vedere [Panoramica sulla data di completamento pianificata dell&#39;attività](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
 ## Panoramica sulla data di conferma
 
@@ -37,9 +37,9 @@ Quando si lavora con le date di commit, considera quanto segue:
   Quando crei un’attività o un problema, non viene assegnata una data di conferma all’attività o al problema.
 * Se si è assegnati a un&#39;attività o a un problema, è possibile impostare la data di conferma eseguendo una delle operazioni seguenti:
 
-   * Consenti a Workfront di impostare la Data di conferma in modo che corrisponda alla Data di completamento pianificata esistente dell’attività o del problema facendo clic su Lavoraci, Avvia problema o Avvia attività sull’attività o sul problema. Per informazioni sulla sostituzione del pulsante Lavoraci con un pulsante Start, vedere  [Sostituire il pulsante Lavoraci con un pulsante Start](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
+   * Consenti a Workfront di impostare la Data di conferma in modo che corrisponda alla Data di completamento pianificata esistente dell’attività o del problema facendo clic su Lavoraci, Avvia problema o Avvia attività sull’attività o sul problema. Per informazioni sulla sostituzione del pulsante Lavoraci con un pulsante Start, vedere [Sostituire il pulsante Lavoraci con un pulsante Start](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
    * Imposta manualmente la Data impegno in base a quando ritieni che l’attività o il problema possa essere completato. In questo modo, l&#39;assegnatario si impegna nei confronti del project manager a fare in modo che l&#39;attività o il problema venga completato entro una data specifica.
-Per informazioni, consulta [Aggiorna le date di conferma per attività e problemi](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
+Per informazioni, vedere [Aggiornare le date di conferma per attività e problemi](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
 >[!NOTE]
 >
@@ -52,15 +52,15 @@ Per informazioni, consulta [Aggiorna le date di conferma per attività e problem
 >* Qualsiasi altro assegnatario dell&#39;attività
 >* Qualsiasi altro utente con autorizzazioni per l’attività.
 >
->Per ulteriori informazioni sul Proprietario dell&#39;attività, vedi [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+>Per ulteriori informazioni sul proprietario dell&#39;attività, vedere [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 ## Individuare la data di conferma delle attività e dei problemi
 
 La data di conferma per le attività e i problemi è disponibile nelle seguenti aree di Workfront:
 
 * Pagina Dettagli
-* Il pannello Riepilogo, dopo che un amministratore di Workfront o di gruppo lo ha aggiunto al modello di layout. Per informazioni, consulta [Personalizzare Home e Riepilogo utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
-* <span class="preview">L’intestazione di un’attività o di un problema, dopo che un amministratore di Workfront o di un gruppo l’ha aggiunta al modello di layout. Per informazioni, consulta [Personalizzare le intestazioni degli oggetti utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
+* Il pannello Riepilogo, dopo che un amministratore di Workfront o di gruppo lo ha aggiunto al modello di layout. Per informazioni, vedere [Personalizzare la home e il riepilogo utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+* <span class="preview">Intestazione di un&#39;attività o di un problema, dopo che è stata aggiunta da un amministratore di Workfront o di un gruppo al modello di layout. Per informazioni, vedere [Personalizzare le intestazioni degli oggetti utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
 
 ## Notifiche e aggiornamenti attivati dalla modifica della data di conferma {#notifications-and-updates-triggered-by-changing-the-commit-date}
 
@@ -76,7 +76,7 @@ L’impostazione manuale della data di conferma per un’attività o un problema
 
   ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
 
-  La modifica della data di conferma viene visualizzata nell’area Aggiornamenti dell’attività o del problema quando l’amministratore di Workfront abilita questo aggiornamento nell’area Feed aggiornamenti in Configurazione. Per informazioni, consulta [Aggiornamenti monitorati dal sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+  La modifica della data di conferma viene visualizzata nell’area Aggiornamenti dell’attività o del problema quando l’amministratore di Workfront abilita questo aggiornamento nell’area Feed aggiornamenti in Configurazione. Per informazioni, vedere [Aggiornamenti monitorati dal sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
   Se un proprietario del progetto non desidera accettare la modifica, è consigliabile che ritorni all&#39;utente che propone una nuova data utilizzando la scheda Commenti nella sezione Aggiornamenti, per chiedere di ripristinare la Data pianificata originale oppure di selezionare una nuova data.
 
@@ -91,7 +91,7 @@ L’impostazione manuale della data di conferma per un’attività o un problema
   >Per ulteriori informazioni, consulta i seguenti articoli:
   >
   >* [Panoramica di riepilogo](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
-  >* [Personalizzare Home e Riepilogo utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+  >* [Personalizza la home e il riepilogo utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
   >* [Personalizzare le intestazioni degli oggetti utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 <!--this is no longer possible: 
@@ -107,7 +107,7 @@ L’impostazione manuale della data di conferma per un’attività o un problema
 
 * La Data di completamento prevista dell’attività o del problema è impostata sulla stessa data perché l’attività ora dispone di un’indicazione più precisa di quando è probabile che venga completata.
 
-  Per ulteriori informazioni sulla data di completamento prevista, consulta [Panoramica della data di completamento prevista per progetti, attività e problemi](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
+  Per ulteriori informazioni sulla data di completamento prevista, vedere [Panoramica della data di completamento prevista per progetti, attività e problemi](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
   ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
@@ -121,11 +121,11 @@ L’impostazione manuale della data di conferma per un’attività o un problema
 
   >[!TIP]
   >
-  >La notifica relativa alla modifica della data di conferma viene inviata al proprietario del progetto solo quando l’amministratore di Workfront abilita la visualizzazione della data di conferma nell’area Feed aggiornamenti di Configurazione. Per informazioni, consulta [Aggiornamenti monitorati dal sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+  >La notifica relativa alla modifica della data di conferma viene inviata al proprietario del progetto solo quando l’amministratore di Workfront abilita la visualizzazione della data di conferma nell’area Feed aggiornamenti di Configurazione. Per informazioni, vedere [Aggiornamenti monitorati dal sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
-Per informazioni sulle funzionalità aggiuntive disponibili durante l&#39;aggiornamento di un elemento di lavoro, vedere  [Aggiorna lavoro](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Per informazioni sulle funzionalità aggiuntive disponibili durante l&#39;aggiornamento di un elemento di lavoro, vedere [Aggiorna lavoro](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-Per informazioni sull&#39;aggiornamento delle date di conferma per attività e problemi, vedere [Aggiorna le date di conferma per attività e problemi](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
+Per informazioni sull&#39;aggiornamento delle date di conferma per attività e problemi, vedere [Aggiornare le date di conferma per attività e problemi](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

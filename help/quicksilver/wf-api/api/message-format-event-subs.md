@@ -9,7 +9,7 @@ role: Developer
 exl-id: addcf5bc-a101-4bb0-93a6-46b4af67c848
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Le seguenti modifiche verranno apportate al formato dei messaggi in uscita:
 
 Se al momento utilizzi gli abbonamenti agli eventi di Workfront, dovrai aggiornare le integrazioni Workfront prima della versione 2017.3 per tenere conto di queste modifiche.
 
-Per ulteriori informazioni sugli abbonamenti agli eventi, consulta [API di abbonamento agli eventi](../../wf-api/general/event-subs-api.md).
+Per ulteriori informazioni sulle sottoscrizioni di eventi, vedere [API sottoscrizione eventi](../../wf-api/general/event-subs-api.md).
 
 ## Esempi di formati vecchi e nuovi
 

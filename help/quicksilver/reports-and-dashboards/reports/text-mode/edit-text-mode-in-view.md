@@ -53,8 +53,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
-Per ulteriori informazioni sui requisiti di accesso, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+Per ulteriori informazioni sui requisiti di accesso, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -76,14 +76,14 @@ La modifica di una visualizzazione utilizzando la modalità testo è identica pe
 >
 >È consigliabile creare la maggior quantità possibile di visualizzazione in modalità standard, quindi convertirla in modalità testo per modificarla.
 
-Per informazioni sulla creazione di viste, vedere [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Per informazioni sulla creazione delle visualizzazioni, vedere [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-Per informazioni sulla creazione di un rapporto, consulta [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Per informazioni sulla creazione di un report, vedere [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 1. Esegui una delle operazioni seguenti:
 
-   1. Per accedere alla visualizzazione da un report, passa al report, quindi fai clic su **Azioni report** > **Modifica** > **Colonne (visualizzazione)** scheda.
-   1. Per accedere alla vista da un elenco, vai all’elenco e dalla **Visualizza** menu a discesa, posizionare il puntatore del mouse sulla vista da modificare e fare clic sulla **Modifica** icona ![](assets/edit-icon.png).
+   1. Per accedere alla visualizzazione da un report, passa al report, quindi fai clic sulla scheda **Azioni report** > **Modifica** > **Colonne (visualizzazione)**.
+   1. Per accedere alla visualizzazione da un elenco, passa all&#39;elenco e dal menu a discesa **Visualizza**, passa il puntatore del mouse sulla visualizzazione da modificare e fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png).
 
       Viene aperto il generatore di viste (View Builder).
 
@@ -91,17 +91,17 @@ Per informazioni sulla creazione di un rapporto, consulta [Creare un rapporto pe
 
    Oppure
 
-   Seleziona la **Colonne (visualizzazione)** del generatore di report, quindi seleziona una colonna.
+   Selezionare la scheda **Colonne (visualizzazione)** del Report Builder, quindi selezionare una colonna.
 
    >[!TIP]
    >
    >Per modificare una vista utilizzando la modalità testo, è necessario modificare una colonna alla volta.
 
-1. Clic **Passa alla modalità testo** nell’angolo superiore destro del generatore.
+1. Fare clic su **Passa alla modalità testo** nell&#39;angolo superiore destro del generatore.
 
    >[!NOTE]
    >
-   >Quando si modifica una colonna in modalità testo, Workfront aggiunge `textmode=true` riga di codice della colonna. Indica che la colonna è stata modificata in modalità testo.
+   >Quando si modifica una colonna in modalità testo, Workfront aggiunge la riga di codice `textmode=true` alla colonna. Indica che la colonna è stata modificata in modalità testo.
 
    ![](assets/switch-to-text-mode-in-view-nwe-highlighted-350x447.png)
 
@@ -201,15 +201,15 @@ Per informazioni sulla creazione di un rapporto, consulta [Creare un rapporto pe
        </div>
 
    <div>
-      Il <code>aggregator. </code>le righe possono contenere <code>valuefield </code>o un <code>valueexpression</code>.
+      Le <code>aggregator. </code> righe possono contenere <code>valuefield </code> o <code>valueexpression</code>.
        </div> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Clic **Applica** se si desidera salvare le modifiche e continuare a modificare la visualizzazione.
-1. Clic **Salva e chiudi** per salvare il report.
+1. Fai clic su **Applica** per salvare le modifiche e continuare a modificare la visualizzazione.
+1. Fai clic su **Salva + Chiudi** per salvare il report.
 
    Oppure
 
-   Clic **Salva visualizzazione** per salvare la visualizzazione in un elenco.
+   Fare clic su **Salva visualizzazione** per salvare la visualizzazione in un elenco.

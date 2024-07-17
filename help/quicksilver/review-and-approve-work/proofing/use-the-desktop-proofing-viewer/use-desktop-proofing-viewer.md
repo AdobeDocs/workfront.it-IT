@@ -18,7 +18,7 @@ ht-degree: 0%
 # Utilizzare il Visualizzatore bozze desktop
 
 * [Installare il Visualizzatore bozze desktop](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)
-* [Aggiornare il Visualizzatore bozze desktop](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)
-* [Aprire le bozze nel Visualizzatore bozze desktop](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md)
-* [Esaminare i contenuti non interattivi nel Visualizzatore bozze desktop](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/review-non-interactive-content-in-desktop-proofing-viewer.md)
+* [Aggiorna il visualizzatore di bozze del desktop](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)
+* [Apri bozze nel Visualizzatore bozze desktop](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md)
+* [Esaminare il contenuto non interattivo nel Visualizzatore bozze desktop](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/review-non-interactive-content-in-desktop-proofing-viewer.md)
 * [Domande frequenti - Visualizzatore bozze desktop](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/faq-desktop-proofing-viewer.md)

@@ -51,7 +51,7 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per le attività</p> <p>Autorizzazioni Contribute (Contribute) o superiori per il progetto con la possibilità di aggiungere attività</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per le attività</p> <p>Autorizzazioni Contribute o superiori per il progetto con la possibilità di aggiungere attività</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -79,14 +79,14 @@ Per impostazione predefinita, i seguenti elementi non si spostano con l’attivi
 ## Spostare le attività in un elenco
 
 1. Passare al progetto contenente l&#39;attività o le attività che si desidera spostare.
-1. Clic **Attività** nel pannello a sinistra per visualizzare l’elenco delle attività.
-1. Fai clic su **Modalità pianificazione** icona ![](assets/plan-mode-icon.png) e garantire che **Salvataggio automatico** l&#39;opzione è attivata, quindi selezionare le attività che si desidera spostare.
+1. Fai clic su **Attività** nel pannello a sinistra per visualizzare l&#39;elenco delle attività.
+1. Fare clic sull&#39;icona ![](assets/plan-mode-icon.png) della **Modalità pianificazione** e verificare che l&#39;interruttore **Salvataggio automatico** sia abilitato, quindi selezionare l&#39;attività o le attività che si desidera spostare.
 
    ![](assets/autosave-icon-on-highlighted-350x202.png)
 
    >[!IMPORTANT]
    >
-   >Impossibile spostare le attività quando **Salvataggio automatico** l&#39;interruttore è disattivato.
+   >Impossibile spostare le attività quando l&#39;opzione **Salvataggio automatico** è disabilitata.
 
 1. (Facoltativo e condizionale) Se si desidera spostare le attività selezionate all&#39;interno dello stesso progetto, fare clic sulle attività selezionate, trascinarle e rilasciarle nella posizione in cui si desidera spostarle nel progetto.
 
@@ -94,15 +94,15 @@ Per impostazione predefinita, i seguenti elementi non si spostano con l’attivi
 
 1. (Condizionale) Seleziona l’attività o le attività da spostare ed effettua una delle seguenti operazioni:
 
-   * Fai clic su **Altro** menu ![](assets/qs-more-menu.png) nella parte superiore dell&#39;elenco delle attività, quindi fare clic su **Sposta in**.
+   * Fai clic sul menu **Altro** ![](assets/qs-more-menu.png) nella parte superiore dell&#39;elenco delle attività, quindi fai clic su **Sposta in**.
    * Fare clic con il pulsante destro del mouse sulle attività selezionate, quindi scegliere **Sposta in**.
-   * Quando si seleziona un&#39;attività, fare clic su **Altro** menu ![](assets/more-icon-task-list.png) accanto al nome dell&#39;attività nell&#39;elenco, quindi fare clic su **Sposta in**.
+   * Quando selezioni un&#39;attività, fai clic sul menu **Altro** ![](assets/more-icon-task-list.png) accanto al nome dell&#39;attività nell&#39;elenco, quindi fai clic su **Sposta in**.
 
    ![](assets/move-task-in-list-nwe-350x119.png)
 
    Viene visualizzata la casella Sposta attività
 
-1. Continua a spostare l’attività come descritto nella sezione [Spostare un&#39;attività a livello di attività](#move-a-task-at-the-task-level) in questo articolo, a partire dal passaggio 4.
+1. Continuare a spostare l&#39;attività, come descritto nella sezione [Spostare un&#39;attività a livello di attività](#move-a-task-at-the-task-level) in questo articolo, a partire dal passaggio 4.
 
    <!--
    is this still accurate?!
@@ -114,11 +114,11 @@ Oltre a spostare le attività da un elenco di attività, è possibile spostare u
 
 1. Cercare un&#39;attività nel sistema Workfront.
 1. Fare clic sul nome dell&#39;attività per aprirla.
-1. Fai clic su **Altro** menu a discesa ![](assets/qs-more-menu.png) accanto al nome dell&#39;attività, quindi fare clic su **Sposta in**. Viene visualizzata la casella Sposta attività.
+1. Fai clic sul menu a discesa **Altro** ![](assets/qs-more-menu.png) accanto al nome dell&#39;attività, quindi fai clic su **Sposta in**. Viene visualizzata la casella Sposta attività.
 
    ![](assets/move-task-at-task-level-nwe-350x222.png)
 
-1. (Facoltativo) Aggiorna il **Nome attività**. L&#39;attività si sposta con il nuovo nome nella nuova posizione. Workfront non registra il nome originale dell’attività.
+1. (Facoltativo) Aggiorna **Nome attività**. L&#39;attività si sposta con il nuovo nome nella nuova posizione. Workfront non registra il nome originale dell’attività.
 
    >[!TIP]
    >
@@ -127,7 +127,7 @@ Oltre a spostare le attività da un elenco di attività, è possibile spostare u
    >
    >![](assets/move-task-multiple-tasks-box-with-list-of-task-names-nwe-350x142.png)
 
-1. Digita il nome del **Progetto di destinazione** nel punto in cui si desidera spostare l&#39;attività **Seleziona progetto di destinazione** campo.
+1. Digitare il nome del **progetto di destinazione** in cui si desidera spostare l&#39;attività nel campo **Seleziona progetto di destinazione**.
 
    Se si desidera spostare l&#39;attività nello stesso progetto, digitare il nome del progetto corrente.
 
@@ -137,20 +137,20 @@ Oltre a spostare le attività da un elenco di attività, è possibile spostare u
    >* Puoi anche iniziare a digitare il Numero di riferimento o immettere l’ID del progetto. Questo potrebbe aiutarti a distinguere i progetti con nomi identici.
    >* Nell’elenco vengono visualizzati solo 100 progetti.
 
-1. (Condizionale) Fai clic su **Richiedi accesso** per richiedere l’accesso al progetto, se non hai accesso al progetto selezionato.
+1. (Condizionale) Fai clic su **Richiedi l&#39;accesso** per richiedere l&#39;accesso al progetto, se non hai accesso al progetto selezionato.
 1. (Facoltativo) Se disponi dell’accesso per aggiungere attività a una delle attività del progetto di destinazione, continua a spostare l’attività al progetto di destinazione selezionato senza richiedere l’accesso.
 
    ![](assets/move-task-request-access-from-project-nwe-350x120.png)
 
    >[!TIP]
    >
-   >Messaggi simili vengono visualizzati se il progetto selezionato è in attesa di approvazione, completato o inattivo, quando l’amministratore di Workfront impedisce l’aggiunta di attività a questi progetti. Per ulteriori informazioni, consulta [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   >Messaggi simili vengono visualizzati se il progetto selezionato è in attesa di approvazione, completato o inattivo, quando l’amministratore di Workfront impedisce l’aggiunta di attività a questi progetti. Per ulteriori informazioni, vedere [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 1. (Facoltativo) Fai clic su **Opzioni** nel pannello a sinistra
 
    Oppure
 
-   Scorri verso il basso fino a **Opzioni** nella casella Sposta attività, quindi deselezionare gli elementi elencati nella tabella seguente per rimuoverli dalle attività spostate. Tutte le opzioni sono selezionate per impostazione predefinita.
+   Scorri verso il basso fino alla sezione **Opzioni** nella casella Sposta attività, quindi deseleziona uno degli elementi elencati nella tabella seguente per rimuoverli dalle attività spostate. Tutte le opzioni sono selezionate per impostazione predefinita.
 
    >[!IMPORTANT]
    >
@@ -229,11 +229,11 @@ Oltre a spostare le attività da un elenco di attività, è possibile spostare u
 
 
 
-1. (Facoltativo) Fai clic su **Seleziona elemento padre** nel pannello a sinistra
+1. (Facoltativo) Fai clic su **Seleziona elemento principale** nel pannello a sinistra
 
    Oppure
 
-   Scorri fino a **Seleziona elemento padre** , quindi selezionare nel progetto di destinazione l&#39;attività che si desidera diventare padre dell&#39;attività spostata.
+   Scorri fino alla sezione **Seleziona elemento padre**, quindi seleziona l&#39;attività nel progetto di destinazione che desideri diventi l&#39;elemento padre dell&#39;attività spostata.
 
    >[!TIP]
    >
@@ -242,20 +242,20 @@ Oltre a spostare le attività da un elenco di attività, è possibile spostare u
    Selezionare un elemento padre eseguendo una delle operazioni seguenti:
 
    * Nell&#39;elenco delle attività selezionare uno dei padri nel piano di progetto.
-   * Fai clic sull’icona di ricerca ![Icona Ricerca](assets/search-icon.png) e cercare un&#39;attività padre per nome.
+   * Fare clic sull&#39;icona di ricerca ![Icona di ricerca](assets/search-icon.png) e cercare un&#39;attività padre per nome.
 
    L’attività viene visualizzata nell’elenco.
 
-   ![Selezionare l&#39;attività padre quando si sposta un&#39;attività con funzionalità di ricerca ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![Selezionare l&#39;attività padre durante lo spostamento di un&#39;attività con funzionalità di ricerca ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. Dopo averlo trovato, seleziona il pulsante di opzione relativo al genitore.
 
    Se non si seleziona un&#39;attività padre, le attività vengono spostate come attività principali anziché come attività secondarie e si trovano alla fine dell&#39;elenco delle attività nel progetto di destinazione.
 
-1. Clic **Sposta attività**
+1. Fai clic su **Sposta attività**
 
    Oppure
 
-   Clic **Sposta le attività** quando si selezionano più attività in un elenco.
+   Fare clic su **Sposta attività** quando si selezionano più attività in un elenco.
 
    Le attività spostate si trovano ora nel progetto specificato e sono sottoattività di un&#39;attività padre o ultime attività del progetto.

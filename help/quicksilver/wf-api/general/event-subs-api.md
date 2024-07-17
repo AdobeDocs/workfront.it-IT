@@ -9,8 +9,8 @@ role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
 source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
 workflow-type: tm+mt
-source-wordcount: '2126'
-ht-degree: 4%
+source-wordcount: '2147'
+ht-degree: 3%
 
 ---
 
@@ -30,19 +30,19 @@ Per ricevere i payload degli abbonamenti agli eventi tramite il firewall, è nec
 **Per i clienti in Europa:**
 
 * 52.30.133.50
-* 52.208.159.124
-* 54.220.93.204
+* 52 208 159 124
+* 54 220 93 204
 * 52.17.130.201
-* 34.254.76.122
-* 34.252.250.191
+* 34 254 76 122
+* 34 252 250 191
 
-**Per i clienti in località diverse dall’Europa:**
+**Per clienti in località diverse dall&#39;Europa:**
 
-* 54.244.142.219
-* 44.241.82.96
+* 54 244 142 219
+* 44 241 82 96
 * 52.36.154.34
-* 34.211.224.9
-* 54.218.48.56
+* 34 211 224,9
+* 54 218 48 56
 * 52.39.217.230
 
 I seguenti argomenti supportano l’API di abbonamento agli eventi:
@@ -72,16 +72,16 @@ I seguenti oggetti Workfront sono supportati dalle sottoscrizioni di eventi.
 * Utente
 * Area di lavoro
 
-Per un elenco dei campi supportati dagli oggetti di sottoscrizione degli eventi, vedi [Campi delle risorse di abbonamento agli eventi](../../wf-api/api/event-sub-resource-fields.md).
+Per un elenco dei campi supportati dagli oggetti di sottoscrizione degli eventi, vedere [Campi delle risorse di sottoscrizione degli eventi](../../wf-api/api/event-sub-resource-fields.md).
 
 ## Autenticazione sottoscrizione eventi
 
 Per creare, eseguire query o eliminare un abbonamento a un evento, l’utente di Workfront ha bisogno dei seguenti elementi:
 
 * Per utilizzare le sottoscrizioni di eventi è necessario un livello di accesso &quot;Amministratore di sistema&quot;.
-* A `sessionID`  L’intestazione è necessaria per utilizzare l’API Sottoscrizioni eventi
+* È necessaria un&#39;intestazione `sessionID` per utilizzare l&#39;API sottoscrizioni eventi
 
-  Per ulteriori informazioni, consulta [Autenticazione](api-basics.md#authentication) in [Nozioni di base sulle API](api-basics.md).
+  Per ulteriori informazioni, vedere [Autenticazione](api-basics.md#authentication) in [Nozioni di base sulle API](api-basics.md).
 
 ## Formazione della risorsa abbonamento
 
@@ -89,11 +89,11 @@ La risorsa abbonamento contiene i campi seguenti.
 
 * objId (facoltativo)
 
-   * **Stringa** : ID dell’oggetto dell’objCode specificato per il quale vengono attivati gli eventi. Se questo campo non è specificato, l&#39;utente riceve eventi per tutti gli oggetti del tipo specificato.
+   * **Stringa** - ID dell&#39;oggetto objCode specificato per il quale vengono attivati gli eventi. Se questo campo non è specificato, l&#39;utente riceve eventi per tutti gli oggetti del tipo specificato.
 
 * objCode (obbligatorio)
 
-   * **Stringa** : objCode dell’oggetto abbonato alle modifiche. I valori possibili per objCode sono elencati nella tabella seguente.
+   * **Stringa** - L&#39;objCode dell&#39;oggetto a cui si desidera sottoscrivere le modifiche. I valori possibili per objCode sono elencati nella tabella seguente.
 
      <table style="table-layout:auto"> 
       <col> 
@@ -193,16 +193,16 @@ La risorsa abbonamento contiene i campi seguenti.
    * **Stringa** - Valore che rappresenta il tipo di evento a cui l&#39;oggetto è abbonato. I tipi di evento disponibili includono:
 
       * CREA
-      * ELIMINA 
+      * DELETE 
       * AGGIORNA
 
 * url (obbligatorio)
 
-   * **Stringa** : URL dell’endpoint al quale vengono inviati i payload dell’evento di abbonamento tramite HTTP.
+   * **Stringa** - URL dell&#39;endpoint a cui vengono inviati i payload degli eventi di sottoscrizione tramite HTTP.
 
 * authToken (obbligatorio)
 
-   * **Stringa** : token Bearer OAuth2 utilizzato per l’autenticazione con l’URL specificato nel campo &quot;URL&quot;. 
+   * **Stringa** - Il token Bearer OAuth2 utilizzato per l&#39;autenticazione con l&#39;URL specificato nel campo &quot;URL&quot;. 
 
 ## Creazione di richieste API di abbonamento a eventi
 
@@ -260,7 +260,7 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | 401 (non autorizzato) | Il valore sessionID fornito è vuoto o ritenuto non valido. |
 | 403 (non consentito) | L’utente che corrisponde al valore sessionID fornito non dispone dell’accesso di amministratore. |
 
-Il passaggio di una risorsa di abbonamento come corpo di una richiesta (con il tipo di contenuto &quot;application/json&quot;) determina la creazione di una sottoscrizione di evento per l’oggetto specificato. Il codice di risposta 201 (Creato) indica che l’abbonamento è stato creato. Un codice di risposta diverso da 201 indica che l’abbonamento è stato **NOT** creato.
+Il passaggio di una risorsa di abbonamento come corpo di una richiesta (con il tipo di contenuto &quot;application/json&quot;) determina la creazione di una sottoscrizione di evento per l’oggetto specificato. Il codice di risposta 201 (Creato) indica che l’abbonamento è stato creato. Un codice di risposta diverso da 201 indica che la sottoscrizione è stata **NOT** creata.
 
 >[!NOTE]
 >
@@ -283,8 +283,8 @@ Quando esegui una query su HTTP di Workfront, utilizza il metodo GET. Esistono d
 
 Puoi eseguire una query su tutte le sottoscrizioni di eventi per un cliente oppure utilizzare quanto segue per gestire la risposta. Per gestire la risposta, puoi inoltre utilizzare le seguenti opzioni:
 
-* **pagina**: opzione del parametro query per specificare il numero di pagine da restituire. Il valore predefinito è 1.
-* **limit**: opzione del parametro query per specificare il numero di risultati da restituire per pagina. Il valore predefinito è 100 con un massimo di 1000.
+* **pagina**: opzione parametro query per specificare il numero di pagine da restituire. Il valore predefinito è 1.
+* **limit**: opzione parametro query per specificare il numero di risultati da restituire per pagina. Il valore predefinito è 100 con un massimo di 1000.
 
 La sintassi della richiesta per elencare tutte le sottoscrizioni di eventi per un cliente specifico è la seguente:
 
@@ -373,9 +373,9 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 
 Dove
 
-* **pagina** e **limit** sono i valori forniti nella richiesta o il valore predefinito, se non vengono forniti valori
-* **page_count** è il numero totale di pagine su cui è possibile eseguire una query.
-* **total_count** è il numero totale di sottoscrizioni che corrispondono alla query.
+* **page** e **limit** sono i valori forniti nella richiesta o il valore predefinito se non vengono forniti valori
+* **conteggio_pagine** è il numero totale di pagine che è possibile interrogare.
+* **total_count** è il numero totale di sottoscrizioni corrispondenti alla query.
 
 ### Eseguire una query in base all’ID sottoscrizione evento
 
@@ -437,21 +437,21 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 Puoi utilizzare il filtro dell’abbonamento agli eventi per assicurarti di ricevere solo messaggi pertinenti. La creazione di filtri per gli abbonamenti può ridurre in modo significativo il numero di messaggi che l’endpoint deve utilizzare.
 
-Ad esempio, un’ **AGGIORNA - ATTIVITÀ** è possibile impostare la sottoscrizione dell&#39;evento per l&#39;attivazione solo quando **newState** di un payload dell’evento definisce **taskStatus** as **corrente**.
+Ad esempio, è possibile impostare una sottoscrizione dell&#39;evento **UPDATE - TASK** per l&#39;attivazione solo quando **newState** di un payload dell&#39;evento definisce **taskStatus** come **current**.
 
 >[!IMPORTANT]
 >
-I seguenti attributi si applicano al filtro di abbonamento agli eventi
+>I seguenti attributi si applicano al filtro di abbonamento agli eventi
 
-* Quando un campo filtro ha un valore non vuoto, vengono inviati solo messaggi con un valore **newState** contenente le chiavi e i valori del filtro vengono inviati all’URL sottoscritto
-* Puoi filtrare in base ai dati personalizzati inclusi nella **newState** E/O **oldState** dell’oggetto
+* Quando un campo filtro contiene un valore non vuoto, solo i messaggi con un **newState** contenente le chiavi e i valori del filtro vengono inviati all&#39;URL sottoscritto
+* Puoi filtrare in base ai dati personalizzati inclusi in **newState** AND/OR **oldState** dell&#39;oggetto
 * I filtri vengono valutati solo a seconda che siano uguali o meno a un valore specifico
-* Se la sintassi del filtro non è corretta o non corrisponde ad alcun dato contenuto nel **newState** del payload, non verrà restituito un messaggio di convalida per indicare un errore
+* Se la sintassi del filtro non è corretta o non corrisponde ad alcun dato contenuto nel **newState** del payload, non verrà restituito un messaggio di convalida per indicare che si è verificato un errore
 * Non è possibile aggiornare i filtri di una sottoscrizione esistente; è necessario creare una nuova sottoscrizione con nuovi parametri di filtro.
 * È possibile applicare più filtri a un singolo abbonamento e l’abbonamento verrà consegnato solo quando sono state soddisfatte tutte le condizioni del filtro.
-* L’applicazione di più filtri a un singolo abbonamento equivale a utilizzare un’ **E** operatore logico.
+* L&#39;applicazione di più filtri a una singola sottoscrizione equivale a utilizzare un operatore logico **AND**.
 * È possibile applicare più sottoscrizioni di eventi a un singolo oggetto, a condizione che uno o più parametri del campo di sottoscrizione dell’evento siano diversi tra ciascuna sottoscrizione di eventi.
-* Quando a un singolo oggetto vengono assegnate più sottoscrizioni di eventi, tutte le sottoscrizioni di eventi associate a tale oggetto possono essere restituite a un singolo endpoint. Questa procedura può essere utilizzata come sostituto equivalente dell’operatore logico **OPPURE** che non può essere impostata utilizzando i parametri del filtro.
+* Quando a un singolo oggetto vengono assegnate più sottoscrizioni di eventi, tutte le sottoscrizioni di eventi associate a tale oggetto possono essere restituite a un singolo endpoint. Questa esercitazione può essere utilizzata come sostituto equivalente dell&#39;operatore logico **OR** che non può essere impostato utilizzando i parametri di filtro.
 
 ### Utilizzo degli operatori di confronto
 
@@ -459,7 +459,7 @@ I seguenti attributi si applicano al filtro di abbonamento agli eventi
 
 #### eq: equal
 
-Questo filtro consente la trasmissione dei messaggi se la modifica apportata corrisponde a `fieldValue` nel filtro. Il `fieldValue` il valore distingue tra maiuscole e minuscole.
+Questo filtro consente la trasmissione dei messaggi se la modifica che si è verificata corrisponde esattamente a `fieldValue` nel filtro. Il valore `fieldValue` distingue tra maiuscole e minuscole.
 
 ```
 {
@@ -479,7 +479,7 @@ Questo filtro consente la trasmissione dei messaggi se la modifica apportata cor
 
 #### ne: diverso da
 
-Questo filtro consente la trasmissione dei messaggi se la modifica apportata non corrisponde `fieldValue` nel filtro. Il `fieldValue` il valore distingue tra maiuscole e minuscole.
+Questo filtro consente la trasmissione dei messaggi se la modifica non corrisponde esattamente a `fieldValue` nel filtro. Il valore `fieldValue` distingue tra maiuscole e minuscole.
 
 ```
 {
@@ -499,7 +499,7 @@ Questo filtro consente la trasmissione dei messaggi se la modifica apportata non
 
 #### gt: maggiore di
 
-Questo filtro consente la trasmissione dei messaggi se l’aggiornamento sulla `fieldName` è maggiore del valore per `fieldValue`.
+Questo filtro consente la trasmissione dei messaggi se l&#39;aggiornamento per `fieldName` specificato è maggiore del valore per `fieldValue`.
 
 ```
 {
@@ -519,7 +519,7 @@ Questo filtro consente la trasmissione dei messaggi se l’aggiornamento sulla `
 
 #### gte: maggiore o uguale a
 
-Questo filtro consente la trasmissione dei messaggi se l’aggiornamento sulla `fieldName` è maggiore o uguale al valore per `fieldValue`.
+Questo filtro consente la trasmissione dei messaggi se l&#39;aggiornamento per `fieldName` specificato è maggiore o uguale al valore per `fieldValue`.
 
 ```
 {
@@ -539,7 +539,7 @@ Questo filtro consente la trasmissione dei messaggi se l’aggiornamento sulla `
 
 #### lt: less than (minore di)
 
-Questo filtro consente la trasmissione dei messaggi se l’aggiornamento sulla `fieldName` è minore del valore per `fieldValue`.
+Questo filtro consente la trasmissione dei messaggi se l&#39;aggiornamento per `fieldName` specificato è minore del valore per `fieldValue`.
 
 ```
 {
@@ -559,7 +559,7 @@ Questo filtro consente la trasmissione dei messaggi se l’aggiornamento sulla `
 
 #### lte: less than or equal to
 
-Questo filtro consente la trasmissione dei messaggi se l’aggiornamento sulla `fieldName` è minore o uguale al valore per `fieldValue`.
+Questo filtro consente la trasmissione dei messaggi se l&#39;aggiornamento per `fieldName` specificato è minore o uguale al valore per `fieldValue`.
 
 ```
 {
@@ -579,7 +579,7 @@ Questo filtro consente la trasmissione dei messaggi se l’aggiornamento sulla `
 
 #### contiene
 
-Questo filtro consente la trasmissione dei messaggi se la modifica apportata contiene `fieldValue` nel filtro. Il `fieldValue` il valore distingue tra maiuscole e minuscole
+Questo filtro consente la trasmissione dei messaggi se la modifica apportata contiene `fieldValue` nel filtro. Il valore `fieldValue` distingue tra maiuscole e minuscole
 
 ```
 {
@@ -599,11 +599,11 @@ Questo filtro consente la trasmissione dei messaggi se la modifica apportata con
 
 #### cambia
 
-Questo filtro consente la trasmissione dei messaggi solo se il campo specificato (`fieldName`) ha un valore diverso in oldstate e newstate. Aggiornamento di altri campi oltre a quello specificato (`fieldName`) non restituirà la modifica.
+Questo filtro consente la trasmissione dei messaggi solo se nel campo specificato (`fieldName`) è presente un valore diverso in oldstate e newstate. L&#39;aggiornamento di altri campi oltre a quello specificato (`fieldName`) non restituirà la modifica.
 
 >[!NOTE]
 >
-`fieldValue` nell’array filters qui sotto non ha alcun effetto.
+>`fieldValue` nell&#39;array di filtri seguente non ha alcun effetto.
 
 ```
 {
@@ -624,12 +624,12 @@ Questo filtro consente la trasmissione dei messaggi solo se il campo specificato
 #### stato
 
 Questo connettore applica il filtro al nuovo stato o al vecchio stato dell’oggetto creato o aggiornato. Questa funzione è utile quando si desidera sapere dove è stata apportata una modifica da un elemento all’altro.
-`oldState` non è possibile su CREATE `eventTypes`.
+`oldState` non è possibile in CREATE `eventTypes`.
 
 >[!NOTE]
 >
-La sottoscrizione seguente con il filtro specificato restituirà solo messaggi in cui il nome dell’attività contiene `again` il `oldState`, precedente a un aggiornamento dell&#39;attività.
-Un caso d’uso per questo potrebbe essere quello di trovare i messaggi objCode che sono cambiati da una cosa all’altra. Ad esempio, per individuare tutte le attività che sono cambiate da &quot;Cerca nome&quot; a &quot;Cerca nome team&quot;
+>La sottoscrizione seguente con il filtro specificato restituirà solo i messaggi in cui il nome dell&#39;attività contiene `again` per `oldState`, ovvero ciò che si trovava prima di un aggiornamento dell&#39;attività.
+>Un caso d’uso per questo potrebbe essere quello di trovare i messaggi objCode che sono cambiati da una cosa all’altra. Ad esempio, per individuare tutte le attività che sono cambiate da &quot;Cerca nome&quot; a &quot;Cerca nome team&quot;
 
 ```
 {
@@ -650,7 +650,7 @@ Un caso d’uso per questo potrebbe essere quello di trovare i messaggi objCode 
 
 ### Utilizzo dei campi del connettore
 
-Il `filterConnector` sul payload dell’abbonamento consente di scegliere come applicare i filtri. Il valore predefinito è &quot;AND&quot;, dove tutti i filtri devono essere `true` affinché venga trasmesso il messaggio di abbonamento. Se si specifica &quot;OR&quot;, solo un filtro deve corrispondere per consentire il completamento del messaggio di abbonamento.
+Il campo `filterConnector` nel payload della sottoscrizione consente di scegliere come applicare i filtri. Il valore predefinito è &quot;AND&quot;, dove i filtri devono essere tutti `true` affinché il messaggio di abbonamento venga inviato. Se si specifica &quot;OR&quot;, solo un filtro deve corrispondere per consentire il completamento del messaggio di abbonamento.
 
 ```
 {
@@ -881,7 +881,7 @@ Il campo base64Encoding è un campo facoltativo utilizzato per abilitare la codi
 
 ### Esempio di richiesta tramite il campo base64Encoding
 
-Se viene effettuata una richiesta utilizzando il campo base64Encoding impostato su true, il **newState** e **oldState** gli oggetti nel payload vengono consegnati come stringhe di codifica in base 64. Se il campo base64Encoding è impostato su false, lasciato vuoto o non incluso nella richiesta, il payload restituito non verrà codificato in base 64.
+Se viene effettuata una richiesta utilizzando il campo base64Encoding impostato su true, gli oggetti **newState** e **oldState** nel payload vengono consegnati come stringhe di codifica base 64. Se il campo base64Encoding è impostato su false, lasciato vuoto o non incluso nella richiesta, il payload restituito non verrà codificato in base 64.
 
 Di seguito è riportato un esempio di richiesta che utilizza il campo base64Encoding:
 
@@ -917,7 +917,7 @@ Di seguito è riportato un esempio di richiesta che utilizza il campo base64Enco
 
 ## Metodo obsoleto per la query di tutte le sottoscrizioni di eventi
 
-Il seguente endpoint API è obsoleto e non deve essere utilizzato per le nuove implementazioni. Consigliamo inoltre di passare dalle vecchie implementazioni al metodo in **Query delle sottoscrizioni eventi** sezione sopra descritta.
+Il seguente endpoint API è obsoleto e non deve essere utilizzato per le nuove implementazioni. È inoltre consigliabile eseguire la transizione delle implementazioni precedenti al metodo nella sezione **Query delle sottoscrizioni di eventi** descritta in precedenza.
 
 Puoi eseguire una query su tutte le sottoscrizioni di eventi per un cliente come specificato dal valore sessionID. La sintassi della richiesta per elencare tutte le sottoscrizioni di eventi per un cliente specifico è il seguente URL:
 

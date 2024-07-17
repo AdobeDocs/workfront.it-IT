@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti all’integrazione apportati con la versione 21.4 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 4 ottobre 2021.
 
-Per un elenco di tutte le modifiche disponibili con la versione 21.4, consulta [Panoramica sulla versione 21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 21.4, consulta la [Panoramica sulla versione 21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Collega documenti da Dropbox Business
 
@@ -29,7 +29,7 @@ L’amministratore di Workfront può abilitare questa integrazione per la tua or
 
 Per ulteriori informazioni, consulta [Collegare documenti da applicazioni esterne](../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
-Per informazioni su come un amministratore di Workfront può abilitare questa opzione, consulta [Configurare le integrazioni dei documenti](../../../administration-and-setup/configure-integrations/configure-document-integrations.md).
+Per informazioni su come un amministratore di Workfront può abilitare questa opzione, vedi [Configurare le integrazioni dei documenti](../../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 
 ## Aggiornamenti a Workfront per Slack
 
@@ -40,9 +40,9 @@ I seguenti aggiornamenti sono ora visibili in Workfront per l’integrazione con
 
   Ad esempio, se si è assegnati a un&#39;attività, la notifica viene ricevuta non appena si è assegnati. In precedenza, poteva verificarsi un ritardo prima che la notifica apparisse in Slack.
 
-Questo aggiornamento richiede la nuova autorizzazione del Workfront per l’integrazione con Slack. Per informazioni sull’autorizzazione dell’integrazione, consulta [Configurare Adobe Workfront per Slack](../../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+Questo aggiornamento richiede la nuova autorizzazione del Workfront per l’integrazione con Slack. Per informazioni sull&#39;autorizzazione dell&#39;integrazione, vedere [Configurare Adobe Workfront per Slack](../../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
-Per ulteriori informazioni su Workfront per le notifiche di Slack, consulta [Ricevere notifiche Adobe Workfront in Slack](../../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md).
+Per ulteriori informazioni su Workfront per le notifiche di Slack, vedere [Ricevere notifiche Adobe Workfront in Slack](../../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md).
 
 ## Vedi più chiaramente i dettagli di accesso all’account quando fornisci il consenso alle integrazioni Adobe Workfront
 

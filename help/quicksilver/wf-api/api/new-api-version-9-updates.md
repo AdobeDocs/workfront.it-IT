@@ -9,8 +9,8 @@ role: Developer
 exl-id: 51892846-d93f-4363-8416-4118fb2ef84d
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 43%
+source-wordcount: '257'
+ht-degree: 39%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 43%
 
 ## Risorse aggiornate
 
-Le seguenti risorse esistenti sono state aggiornate con questa versione dell’API di Adobe Workfront. Per visualizzare le risorse nuove della versione 9, visita [Novità dell’API versione 9](../../wf-api/api/new-api-version-9.md) e [Novità dell&#39;API versione 9 (continua)](../../wf-api/api/new-api-version-9-continue.md). Le modifiche apportate a una risorsa sono indicate nel modo seguente:
+Le seguenti risorse esistenti sono state aggiornate con questa versione dell’API di Adobe Workfront. Per visualizzare le risorse nuove della versione 9, visitare [Novità delle API versione 9](../../wf-api/api/new-api-version-9.md) e [Novità delle API versione 9 (continua)](../../wf-api/api/new-api-version-9-continue.md). Le modifiche apportate a una risorsa sono indicate nel modo seguente:
 
 * Le aggiunte vengono semplicemente elencate
 * Le rimozioni sono indicate con testo barrato
@@ -33,10 +33,10 @@ Le seguenti risorse esistenti sono state aggiornate con questa versione dell’A
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Flag rimosso: SEGNALABILE\
-<sup>2</sup> Flag rimosso: NOT_GROUPABLE
+Flag <sup>1</sup> rimosso: REPORTABLE\
+Flag <sup>2</sup> rimosso: NOT_GROUPABLE
 
-### Approval
+### Approvazione
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
@@ -65,7 +65,7 @@ Assegnazione
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Modifiche a possibleValues
+<sup>1</sup> modifiche a possibleValues
 
 ### Ora
 
@@ -121,7 +121,7 @@ Assegnazione
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Flag rimosso: SEGNALABILE
+Flag <sup>1</sup> rimosso: REPORTABLE
 
 ### Pianificazione
 

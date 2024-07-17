@@ -10,8 +10,8 @@ role: Developer
 exl-id: 322f1525-d1d5-4845-a590-e34eb94ccdc2
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 1%
+source-wordcount: '441'
+ht-degree: 0%
 
 ---
 
@@ -51,7 +51,7 @@ Per lo stato del gruppo di problemi:
 /attask/api/<VERSION>/CSTEM/opTaskGroupStatuses?groupID=602d27640000bb3b779f770d5fb95d6d
 ```
 
-Questi tre endpoint accettano **includeHidden=true** per recuperare gli stati nascosti di progetto/attività/problema di un determinato gruppo. La modellazione delle query di ricerca dello stato dopo questi esempi di best practice garantirà che tutte le informazioni sullo stato del gruppo siano incluse in ogni risposta.
+Questi tre endpoint accettano il parametro **includeHidden=true** per recuperare gli stati nascosti di progetto/attività/problema di un determinato gruppo. La modellazione delle query di ricerca dello stato dopo questi esempi di best practice garantirà che tutte le informazioni sullo stato del gruppo siano incluse in ogni risposta.
 
 Di seguito è riportato un esempio di query di ricerca stato eseguita su un gruppo di attività che include uno stato bloccato a livello di sistema **Personalizzato_1** e uno stato sbloccato **Personalizzato_2**:
 

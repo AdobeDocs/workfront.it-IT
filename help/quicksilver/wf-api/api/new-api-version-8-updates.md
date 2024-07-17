@@ -9,8 +9,8 @@ role: Developer
 exl-id: c6d7d2d2-cd21-4ca8-a5a0-afe3669dc959
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 34%
+source-wordcount: '537'
+ht-degree: 31%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 34%
 
 ## Risorse aggiornate
 
-Le seguenti risorse esistenti sono state aggiornate con questa versione dell’API di Adobe Workfront. Per visualizzare le risorse nuove rispetto alla versione 8, consulta [Novità della versione 8 dell’API](../../wf-api/api/new-api-version-8.md). Le modifiche apportate a una risorsa sono indicate nel modo seguente:
+Le seguenti risorse esistenti sono state aggiornate con questa versione dell’API di Adobe Workfront. Per visualizzare le nuove risorse della versione 8, vedere [Novità della versione 8](../../wf-api/api/new-api-version-8.md) dell&#39;API. Le modifiche apportate a una risorsa sono indicate nel modo seguente:
 
 * Le aggiunte vengono semplicemente elencate
 * Le rimozioni sono indicate con testo barrato
@@ -32,26 +32,26 @@ Le seguenti risorse esistenti sono state aggiornate con questa versione dell’A
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Modifiche ai valori possibili
+<sup>1</sup> modifiche ai valori possibili
 
-### AccessRule<sup>1</sup> 
+### Regola di accesso<sup>1</sup> 
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 | coreAction<sup>2</sup>  |   |   |   |   |   |   |
 | forbiddenActions<sup>2</sup> |   |   |   |   |   |   |
-| secondaryActions<sup>2</sup> |   |   |   |   |   |   |
+| secondarie<sup>2</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Flag rimosso: SEGNALABILE\
-<sup>2</sup> Modifiche ai valori possibili
+Flag <sup>1</sup> rimosso: REPORTABLE\
+<sup>2</sup> modifiche ai valori possibili
 
-### Approval
+### Approvazione
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| auditTypes<sup>1</sup> | agileWork  | resourcePools |   |   |   |   |
+| tipi di controllo<sup>1</sup> | agileWork  | resourcePools |   |   |   |   |
 | backlogOrder<sup>2</sup> | kanbanBoard  |   |   |   |   |   |
 | backlogParent |   |   |   |   |   |   |
 | kanbanBoardID |   |   |   |   |   |   |
@@ -158,7 +158,7 @@ Le seguenti risorse esistenti sono state aggiornate con questa versione dell’A
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| auditTypes<sup>1</sup> | agileWork  |   |   |   | defaultShownTimesheetIssues  |   |
+| tipi di controllo<sup>1</sup> | agileWork  |   |   |   | defaultShownTimesheetIssues  |   |
 | backlogOrder | iterazione |   |   |   |   |   |
 | backlogParent |   |   |   |   |   |   |
 | stima |   |   |   |   |   |   |
@@ -172,7 +172,7 @@ Le seguenti risorse esistenti sono state aggiornate con questa versione dell’A
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| auditTypes<sup>1</sup> |   |   |   |   |   |   |
+| tipi di controllo<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -182,7 +182,7 @@ Le seguenti risorse esistenti sono state aggiornate con questa versione dell’A
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| auditTypes<sup>1</sup> |   |   |   |   |   |   |
+| tipi di controllo<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -192,7 +192,7 @@ Le seguenti risorse esistenti sono state aggiornate con questa versione dell’A
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| auditTypes<sup>1</sup> |   | resourcePools |   |   | defaultShownTimesheetProjects |   |
+| tipi di controllo<sup>1</sup> |   | resourcePools |   |   | defaultShownTimesheetProjects |   |
 
 {style="table-layout:auto"}
 
@@ -252,7 +252,7 @@ Le seguenti risorse esistenti sono state aggiornate con questa versione dell’A
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| auditTypes<sup>1</sup> | agileWork  |   |   |   | allTasksOnIterations  |   |
+| tipi di controllo<sup>1</sup> | agileWork  |   |   |   | allTasksOnIterations  |   |
 | backlogParent | kanbanBoard |   |   |   | defaultShownTimesheetTasks |   |
 | kanbanBoardID |   |   |   |   |   |   |
 
@@ -284,7 +284,7 @@ Le seguenti risorse esistenti sono state aggiornate con questa versione dell’A
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| auditTypes<sup>1</sup> |   |   |   |   |   |   |
+| tipi di controllo<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -326,7 +326,7 @@ Aggiorna
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| auditTypes<sup>1</sup> | agileWork  |   |   |   |   |   |
+| tipi di controllo<sup>1</sup> | agileWork  |   |   |   |   |   |
 | backlogOrder<sup>2</sup> | kanbanBoard  |   |   |   |   |   |
 | backlogParent  |   |   |   |   |   |   |
 | kanbanBoardID |   |   |   |   |   |   |

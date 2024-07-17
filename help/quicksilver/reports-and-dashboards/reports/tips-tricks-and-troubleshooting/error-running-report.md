@@ -10,7 +10,7 @@ exl-id: fda4630a-2590-46f4-94ff-499a485367ee
 source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -40,12 +40,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Problema
 
@@ -64,12 +64,12 @@ Per modificare le impostazioni del report è necessario disporre delle autorizza
 Per adeguare il rapporto e visualizzare i risultati:
 
 1. Passa al report.
-1. Clic **Azioni report** > **Modifica** > **Impostazioni dei rapporti**.
+1. Fai clic su **Azioni report** > **Modifica** > **Impostazioni report**.
 
-1. Specifica il nome di un utente attivo in **Esegui questo report con i diritti di accesso di:** campo.\
+1. Specificare il nome di un utente attivo nel campo **Esegui report con diritti di accesso di:**.\
    Oppure\
-   Lascia **Esegui questo report con i diritti di accesso di:** campo vuoto.
+   Lasciare vuoto il campo **Esegui report con diritti di accesso di:**.
 
-1. Clic **Fine**.
-1. Clic **Salva e chiudi**.\
+1. Fai clic su **Fine**.
+1. Fai clic su **Salva e Chiudi**.\
    L’errore non dovrebbe più essere visualizzato durante l’esecuzione del rapporto.

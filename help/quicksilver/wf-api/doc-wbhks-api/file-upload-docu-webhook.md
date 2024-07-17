@@ -10,8 +10,8 @@ role: Developer
 exl-id: 2c5727ee-bf8f-4664-a9b1-c5da356d94f5
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 5%
+source-wordcount: '264'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ Il caricamento di un file in un provider di archiviazione documenti è un proces
 
 Aggiunto alla versione 1.1 di questa specifica, l&#39;ID documento e l&#39;ID versione documento possono essere utilizzati per recuperare informazioni aggiuntive da Workfront.
 
-**Esempio:** Se il sistema di gestione dei documenti richiede informazioni aggiuntive sul documento, il codice di implementazione del webhook potrebbe utilizzare l’ID del documento per recuperare tali informazioni utilizzando l’API RESTful di Workfront. È buona norma che queste informazioni provengano dai campi dati personalizzati del documento che contengono l&#39;attività, il problema o il progetto.
+**Esempio:** se il sistema di gestione dei documenti desidera ulteriori informazioni sul documento, il codice di implementazione del webhook potrebbe utilizzare l&#39;ID del documento per recuperare tali informazioni utilizzando l&#39;API RESTful di Workfront. È buona norma che queste informazioni provengano dai campi dati personalizzati del documento che contengono l&#39;attività, il problema o il progetto.
 
 ## POST, metodo
 
@@ -61,7 +61,7 @@ POST /uploadInit
  </tbody> 
 </table>
 
-## risposta
+## Risposta
 
 I metadati del file, come definito dall’endpoint /metadata. Questo include l’ID documento utilizzato dal provider.
 
@@ -86,7 +86,7 @@ PUT /upload
 | id  |  ID del documento appena creato. |
 
 
-**Corpo della richiesta**
+**Corpo richiesta**
 
 Byte di contenuto non elaborato per il documento.
 

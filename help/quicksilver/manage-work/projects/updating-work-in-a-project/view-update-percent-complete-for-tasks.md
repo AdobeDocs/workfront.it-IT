@@ -56,10 +56,10 @@ Per aggiornare manualmente le attività, è necessario disporre dei seguenti dir
 
 È possibile aggiornare la percentuale di completamento di un&#39;attività in una delle seguenti aree:
 
-* **In un elenco di attività**: è possibile aggiornare la percentuale di completamento di un’attività quando viene visualizzata la colonna Percentuale di completamento.\
-  Per ulteriori informazioni sulla modifica in linea, consulta [Modifica in linea di elementi in un elenco in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
+* **In un elenco di attività**: è possibile aggiornare la percentuale di completamento di un&#39;attività quando viene visualizzata la colonna Percentuale di completamento.\
+  Per ulteriori informazioni sulla modifica in linea, vedere [Elementi di modifica in linea in un elenco in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
-* **Nella vista Milestone (Attività cardine)**: è possibile aggiornare la percentuale di completamento di un’attività utilizzando la vista Milestone (Attività cardine) in un elenco di progetti o in un rapporto di progetto. Per ulteriori informazioni, consulta [Utilizzare la vista Milestone](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+* **Nella vista Milestone**: è possibile aggiornare la percentuale di completamento di un&#39;attività quando si utilizza la vista Milestone in un elenco di progetti o in un report di progetti. Per ulteriori informazioni, vedere [Utilizzare la vista Milestone](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
 <!--only in legacy commenting: 
 * **As you update the task**:  You can update the percent complete option of a task when adding an update to the task.
@@ -72,11 +72,11 @@ Per aggiornare manualmente le attività, è necessario disporre dei seguenti dir
   >1. Go to the **Main** menu>your name>**More** icon next to your name >**Edit** > select **Show percent complete on update status**.   
   >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >-->
 
-* **Nell’intestazione dell’attività**: è possibile aggiornare la percentuale di completamento di un’attività nell’intestazione dell’attività. Per informazioni, consulta [Modifica attività](../../tasks/manage-tasks/edit-tasks.md).
+* **Nell&#39;intestazione attività**: è possibile aggiornare la percentuale di completamento di un&#39;attività nell&#39;intestazione attività. Per informazioni, vedere [Modifica attività](../../tasks/manage-tasks/edit-tasks.md).
 
   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
 
-* **Nel pannello Riepilogo di un’attività**: quando visualizzi l’attività nelle seguenti aree, puoi aggiornare la percentuale di completamento di un’attività nella parte superiore del pannello Riepilogo:
+* **Nel pannello Riepilogo di un&#39;attività**: puoi aggiornare la percentuale di completamento di un&#39;attività nella parte superiore del pannello Riepilogo quando visualizzi l&#39;attività nelle seguenti aree:
 
    * Elenco o rapporto attività
    * Scheda orario
@@ -84,11 +84,11 @@ Per aggiornare manualmente le attività, è necessario disporre dei seguenti dir
 
   ![](assets/update-percent-complete-in-task-summary-highlighted.png)
 
-  Per ulteriori informazioni, consulta [Panoramica di riepilogo](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+  Per ulteriori informazioni, vedere [Panoramica di riepilogo](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
 
-* **Home**: puoi aggiornare la percentuale di completamento di un’attività o di un problema dal pannello Riepilogo nella sezione Home o dal widget Il mio lavoro.
+* **Home**: è possibile aggiornare la percentuale di completamento di un&#39;attività o di un problema dal pannello Riepilogo nell&#39;area Home o dal widget Il mio lavoro.
 
-Per informazioni, consulta  [Guida introduttiva alla nuova Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Per informazioni, vedere [Guida introduttiva alla nuova Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Considerazioni sull&#39;aggiornamento della percentuale di completamento di un&#39;attività
 
@@ -97,7 +97,7 @@ Per informazioni, consulta  [Guida introduttiva alla nuova Home](/help/quicksilv
    * Non è possibile aggiornare al 100% la percentuale di completamento di un&#39;attività padre quando la modalità di completamento riepilogo del progetto è impostata su Automatico e le sottoattività non sono completate.
    * È possibile aggiornare al 100% la percentuale di completamento di un&#39;attività padre quando la modalità di completamento riepilogo del progetto è impostata su Manuale e le sottoattività sono completate o incomplete.
 
-  Per ulteriori informazioni, consulta [Modifica progetti](../manage-projects/edit-projects.md).
+  Per ulteriori informazioni, vedere [Modifica progetti](../manage-projects/edit-projects.md).
 
 ## Aggiornare la percentuale di completamento di un&#39;attività
 
@@ -106,18 +106,18 @@ Per informazioni, consulta  [Guida introduttiva alla nuova Home](/help/quicksilv
    * Un elenco di attività
    * Un elenco di progetti e applica la vista Milestone
    * Un’attività, accedendo alla pagina dell’attività
-1. Individua il **Percentuale completamento** campo per l&#39;attività di cui si desidera aggiornare la percentuale di completamento.
+1. Individua il campo **Percentuale completata** per l&#39;attività di cui desideri aggiornare la percentuale di completamento.
 
    >[!TIP]
    >
    >  Il campo Percentuale di completamento viene sempre visualizzato nella parte superiore del pannello Riepilogo.
 
 
-1. Fai clic all’interno del **Percentuale completamento** e digitare un numero compreso tra 0 e 100
+1. Fai clic nel campo **Percentuale completata** e digita un numero compreso tra 0 e 100
 
    Oppure
 
-   Fai clic e trascina il file **Percentuale completamento** al numero necessario per indicare la quantità di attività completata, se disponibile.
+   Fai clic e trascina la barra **Percent Complete** (Percentuale di completamento) sul numero necessario per indicare la quantità di attività completata, se disponibile.
 
    >[!NOTE]
    >

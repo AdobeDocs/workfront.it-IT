@@ -20,11 +20,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] richiede un [!DNL Adobe Workfront Fusion] licenza oltre a un [!DNL Adobe Workfront license].
+>[!DNL Adobe Workfront Fusion] richiede una licenza [!DNL Adobe Workfront Fusion] oltre a [!DNL Adobe Workfront license].
 
 Questa sezione contiene i seguenti articoli:
 
 * [[!DNL Adobe Workfront Fusion] organizzazioni e team](../../workfront-fusion/organizations/organizations-and-teams.md)
-* [Aggiungere un utente a un’organizzazione in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/add-user-to-an-organization.md)
-* [Gestire gli utenti in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/manage-fusion-users.md)
-* [Ruoli di organizzazione in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/organization-roles.md)
+* [Aggiungi un utente a un&#39;organizzazione in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/add-user-to-an-organization.md)
+* [Gestisci utenti in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/manage-fusion-users.md)
+* [Ruoli organizzazione in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/organization-roles.md)

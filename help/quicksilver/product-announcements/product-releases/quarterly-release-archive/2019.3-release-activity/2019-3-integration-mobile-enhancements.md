@@ -19,15 +19,15 @@ ht-degree: 0%
 
 Questa pagina descrive tutte le modifiche e i miglioramenti apportati all’integrazione per dispositivi mobili con la versione 2019.3. È stato reso disponibile nell’ambiente di produzione la settimana del 19 agosto 2019.
 
-Per un elenco di tutte le modifiche apportate in 2019.3, consulta [Panoramica sull’attività della versione 2019.3](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
+Per un elenco di tutte le modifiche apportate in 2019.3, consulta [Panoramica sull&#39;attività di rilascio di 2019.3](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
 
 ## Supporto degli elementi condivisi nell&#39;integrazione con MS OneDrive
 
 Ora puoi collegare i file e le cartelle di OneDrive condivisi agli oggetti di Workfront. Al contrario, è possibile caricare file in Workfront in cartelle condivise in OneDrive.
 
-Per ulteriori informazioni, consulta le sezioni [Collegare un documento esterno a Workfront](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents), [Collega una o più cartelle esterne](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-a-folder), e [Aggiornare e collegare un documento da Workfront a un provider cloud esterno](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#sending-documents) nell’articolo [Collegare documenti da applicazioni esterne](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Per ulteriori informazioni, vedere le sezioni [Collegare un documento esterno a Workfront](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents), [Collegare una o più cartelle esterne](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-a-folder) e [Aggiornare e collegare un documento da Workfront a un provider di cloud esterno](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#sending-documents) nell&#39;articolo [Collegare documenti da applicazioni esterne](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
-Per informazioni, consulta la sezione [Collegare un documento esterno a Workfront](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents) nell’articolo [Collegare documenti da applicazioni esterne](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Per informazioni, vedere la sezione [Collegare un documento esterno a Workfront](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents) nell&#39;articolo [Collegare documenti da applicazioni esterne](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 ## Specifica del dominio richiesta per tutti gli accessi a Workfront
 
@@ -45,7 +45,7 @@ Questa modifica può influire sia sugli accessi utente che sulle integrazioni AP
 
   Se un codice API viene reindirizzato a un indirizzo che non include il nome di dominio, tale codice non funzionerà più.
 
-Per ulteriori informazioni, consulta [Accedere ad Adobe Workfront](../../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
+Per ulteriori informazioni, vedere [Accesso ad Adobe Workfront](../../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
 
 ## Convertire attività e problemi in progetti tramite l’app mobile su iOS
 
@@ -55,13 +55,13 @@ Ora è possibile convertire singole attività e problemi in progetti nell’app 
 
 A seconda del dispositivo, puoi scegliere di accedere all’app mobile di Workfront utilizzando la tecnologia impronta digitale o face ID. Quando accedi all’app mobile, ti chiederà se desideri effettuare l’accesso con qualsiasi metodo di autenticazione supportato dal telefono.
 
-Per ulteriori informazioni su come gestire questa funzione, consulta [Adobe Workfront per iOS](../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) o [Adobe Workfront per Android](../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).
+Per ulteriori informazioni su come gestire questa funzionalità, vedere [Adobe Workfront per iOS](../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) o [Adobe Workfront per Android](../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).
 
 ## Nuova impostazione per la disconnessione automatica degli utenti da dispositivi mobili
 
 Per rendere l’app mobile di Workfront più sicura per te e per la tua azienda, gli utenti verranno disconnessi automaticamente dopo 15 giorni di inattività. Gli amministratori di Workfront possono personalizzare questo limite di tempo nell’applicazione Web in Configurazione > Sistema > Preferenze.
 
-Per ulteriori informazioni, consulta [Configurare le preferenze di sicurezza del sistema](../../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+Per ulteriori informazioni, vedere [Configurare le preferenze di sicurezza del sistema](../../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 ## L&#39;App Mobile Richiede Il Dominio Durante L&#39;Accesso
 

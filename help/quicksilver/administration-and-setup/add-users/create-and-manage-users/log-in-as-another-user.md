@@ -29,7 +29,7 @@ ht-degree: 1%
 >
 >La procedura descritta in questa pagina si applica solo alle organizzazioni che non hanno ancora effettuato l’onboarding in Adobe Admin Console. Se per la tua organizzazione è stato eseguito l’onboarding in Adobe Admin Console, questa azione non è disponibile.
 >
->Per un elenco delle procedure che differiscono in base al fatto che la tua organizzazione sia stata onboarding in Adobe Admin Console, consulta [Differenze di amministrazione basate su piattaforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Per un elenco delle procedure che differiscono a seconda che l&#39;organizzazione sia stata integrata in Adobe Admin Console, consulta [Differenze di amministrazione basate su Platform (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 In qualità di amministratore di Adobe Workfront, a volte potresti dover accedere a Workfront per conto di un altro utente.
 
@@ -50,7 +50,7 @@ Some users, such as executives, need to be able to control which administrators 
 >
 >Poiché un’integrazione di documenti può connettersi a file personali privati, gli amministratori non possono accedere alle integrazioni di documenti quando hanno effettuato l’accesso come altro utente.
 >
->Per ulteriori informazioni sulle integrazioni di documenti, consulta [Configurare le integrazioni dei documenti](../../../administration-and-setup/configure-integrations/configure-document-integrations.md)
+>Per ulteriori informazioni sulle integrazioni dei documenti, vedere [Configurare le integrazioni dei documenti](../../../administration-and-setup/configure-integrations/configure-document-integrations.md)
 
 ## Requisiti di accesso
 
@@ -71,14 +71,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Con il livello di accesso Amministratore di sistema, puoi accedere come chiunque. Per informazioni su questo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente l'accesso amministrativo completo</a>. </p> <p>Con un livello di accesso Planner, puoi accedere come utente con un livello di licenza inferiore se <b>Utenti</b> l'impostazione nel livello di accesso è configurata su <b>Modifica</b> accesso, con <b>Crea</b> e almeno uno dei due <b>Amministratore utenti</b> opzioni abilitate in <b>Metti a punto le impostazioni</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
-   <p><b>NOTA</b>: di queste due opzioni, se Utente <b>Amministratore (utenti gruppo)</b> è abilitato, è necessario essere un amministratore di gruppo di un gruppo di cui l'utente è membro.</p> 
-   <p>Per ulteriori informazioni su <b>Utenti</b> impostazione in un livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concedere l’accesso agli utenti</a>.</p> </td> 
+   <td> <p>Con il livello di accesso Amministratore di sistema, puoi accedere come chiunque. Per informazioni su questo livello di accesso, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente l'accesso amministrativo completo</a>. </p> <p>Con un livello di accesso Planner, puoi accedere come utente con un livello di licenza inferiore se l'impostazione <b>Utenti</b> nel livello di accesso è configurata per l'accesso <b>Modifica</b>, con <b>Crea</b> e almeno una delle due opzioni <b>Amministratore utenti</b> abilitate in <b>Ottimizza le impostazioni</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
+   <p><b>NOTA</b>: di queste due opzioni, se l'utente <b>Amministratore (utenti gruppo)</b> è abilitato, è necessario essere un amministratore di gruppo di un gruppo di cui l'utente è membro.</p> 
+   <p>Per ulteriori informazioni sull'impostazione <b>Utenti</b> in un livello di accesso, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concedere l'accesso agli utenti</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Per ulteriori informazioni, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Accedi ed esegui azioni come altro utente
 
@@ -90,7 +90,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >   
    >  ![](assets/group-admin-user.png)
    >   
-   >  Questa impostazione è disabilitata per impostazione predefinita. Per ulteriori informazioni, consulta [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+   >  Questa impostazione è disabilitata per impostazione predefinita. Per ulteriori informazioni, vedere [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
    >   
    >* Non è possibile reimpostare la password di un amministratore Workfront.
 
@@ -98,7 +98,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Nel pannello a sinistra, fai clic su **Accedi come**.
 
-1. In **Utenti** casella sul **Accedi come** , inizia a digitare il nome dell’utente, quindi fai clic sul nome quando viene visualizzato nell’elenco a discesa.
+1. Nella casella **Utenti** della scheda **Accedi come**, inizia a digitare il nome dell&#39;utente, quindi fai clic su di esso quando viene visualizzato nell&#39;elenco a discesa.
 
    L’utente deve disporre di un livello di accesso definito in Workfront. Non è possibile accedere al sistema Workfront come utente che non dispone dei diritti di accesso.
 
@@ -106,7 +106,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >
    >Gli amministratori dei gruppi possono accedere solo come utenti membri dei gruppi che gestiscono. Non possono accedere come amministratori di Workfront.
 
-1. Clic **Accedi.**
+1. Fai clic su **Accedi.**
 
    <!--
    <p> Might come in a future story:</p>
@@ -135,7 +135,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Quando hai effettuato l’accesso come altro utente, nella parte superiore dello schermo viene visualizzata una notifica per indicare che si tratta di un’operazione.
 
-1. Dopo aver eseguito le azioni necessarie come utente, fai clic su **Disconnetti.**
+1. Dopo aver eseguito le azioni necessarie come utente, fare clic su **Disconnetti.**
 
 ## Attività di tracciamento e controllo durante l’accesso di un amministratore come altro utente
 
@@ -143,7 +143,7 @@ Workfront fornisce meccanismi per il tracciamento e il controllo dell’attivit�
 
 Quando si effettua l&#39;accesso come altro utente, la data dell&#39;ultimo accesso per l&#39;utente viene modificata alla data in cui l&#39;amministratore di sistema o di gruppo effettua l&#39;accesso come tale utente.
 
-* [Visualizza indicatori su articoli](#view-indicators-on-items)
+* [Visualizza indicatori sugli elementi](#view-indicators-on-items)
 * [Visualizzare le informazioni di audit](#view-audit-information)
 
 ### Visualizza indicatori su articoli {#view-indicators-on-items}
@@ -155,9 +155,9 @@ Ad esempio, se si commenta un elemento durante l&#39;accesso come altro utente, 
 ### Visualizzare le informazioni di audit {#view-audit-information}
 
 1. Accedere a Workfront come amministratore di Workfront o amministratore di gruppo.
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
-1. Clic **Accedi come,** quindi fai clic su **Registro degli accessi** scheda.
+1. Fare clic su **Accedi come,**, quindi fare clic sulla scheda **Registro di accesso**.
 
    Ogni volta che un amministratore di sistema o di gruppo accede a Workfront come altro utente, l’evento viene registrato nell’audit trail. Inoltre, tutte le azioni controllabili che si verificano durante l’accesso dell’amministratore come altro utente vengono registrate nell’audit trail.
 

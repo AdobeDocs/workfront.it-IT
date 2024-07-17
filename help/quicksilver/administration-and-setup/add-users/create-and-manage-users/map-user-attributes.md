@@ -77,13 +77,13 @@ Per determinare se l’organizzazione si trova nell’esperienza unificata di Ad
 
 ### Mappatura degli attributi utente nell’esperienza classica
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
-1. Clic **Sistema** > **Single Sign-On (SSO)**.
+1. Fare clic su **Sistema** > **Single Sign-On (SSO)**.
 
-1. In **Tipo** a discesa, fai clic su **SAML 2.0**.
+1. Nel menu a discesa **Tipo**, fare clic su **SAML 2.0**.
 
-1. Clic **Mappa attributi utente**.
+1. Fare clic su **Mappa attributi utente**.
 
    ![](assets/map-user-attributes.png)
 
@@ -127,28 +127,28 @@ Per determinare se l’organizzazione si trova nell’esperienza unificata di Ad
 
    Puoi fare clic su **Aggiungi regola** per aggiungere altre regole all&#39;attributo.
 
-1. (Facoltativo) Per mappare altri attributi utente, fai clic su **Aggiungi mappatura** e ripetere i passaggi 6-7.
+1. (Facoltativo) Per mappare altri attributi utente, fare clic su **Aggiungi mappatura** e ripetere i passaggi 6-7.
 1. Fai clic su **Salva**.
 
 ### Mappare gli attributi utente nell’esperienza unificata di Adobe
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-left.png) nell’angolo in alto a sinistra di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-left.png) del **menu principale** nell&#39;angolo superiore sinistro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
-1. Clic **Sistema** > **Single Sign-On (SSO)**.
+1. Fare clic su **Sistema** > **Single Sign-On (SSO)**.
 
-1. Seleziona la **Adobe** scheda.
+1. Selezionare la scheda **Adobe**.
 
-1. (Facoltativo e condizionale) Se nell’organizzazione era configurata la mappatura degli attributi nell’esperienza classica e desideri copiarla nell’esperienza unificata di Adobe, fai clic su **Migra mappature**. Puoi quindi eliminare, eliminare o modificare queste mappature.
+1. (Facoltativo e condizionale) Se nell&#39;esperienza classica è stata configurata la mappatura degli attributi per la tua organizzazione e desideri copiarla nell&#39;esperienza unificata di Adobe, fai clic su **Migra mappature**. Puoi quindi eliminare, eliminare o modificare queste mappature.
 
    >[!NOTE]
    >
    >È consigliabile eseguire la migrazione delle mappature la prima volta che le si configura nell’esperienza unificata di Adobe. Non c&#39;è alcun danno nel migrarli di nuovo in un secondo momento, ma migrarli più di una volta non è necessario.
 
-1. Per creare un nuovo mapping di attributi, fare clic su **Aggiungi mappatura**.
+1. Per creare un nuovo mapping di attributi, fare clic su **Aggiungi mapping**.
 
-1. Fai clic sulla freccia accanto al nome del campo Workfront e seleziona la [!DNL Workfront] che si desidera mappare.
+1. Fare clic sulla freccia accanto al nome del campo Workfront e selezionare il campo [!DNL Workfront] che si desidera mappare.
 
-1. (Facoltativo) Se desideri creare più regole per un determinato campo, fai clic sulla freccia accanto a **Sempre** e seleziona l’operatore che desideri utilizzare per la regola.
+1. (Facoltativo) Se si desidera creare più regole per un determinato campo, fare clic sulla freccia accanto a **Sempre** e selezionare l&#39;operatore che si desidera utilizzare per la regola.
 
 1. (Condizionale) Se hai selezionato un operatore oltre a Sempre, seleziona il campo Workfront e il valore a cui si applica l’operatore.
 
@@ -160,15 +160,15 @@ Per determinare se l’organizzazione si trova nell’esperienza unificata di Ad
 
 1. Immettere il nome del campo Identity Manager che si desidera applicare oppure immettere il testo del valore costante che si desidera applicare.
 
-1. (Facoltativo) Per aggiungere altre regole per lo stesso campo Workfront, fai clic su **Aggiungi nuova regola**, e seguire i passaggi 4-9.
+1. (Facoltativo) Per aggiungere altre regole per lo stesso campo Workfront, fai clic su **Aggiungi nuova regola** e segui i passaggi 4-9.
 
    >[!IMPORTANT]
    >
    > * Qualsiasi regola al di sotto di una regola Always verrà ignorata. Se si dispone di una regola Always, è necessario spostarla in fondo all&#39;elenco delle regole. Per spostare le regole nell’elenco, fai clic sul menu a tre punti a destra della regola e spostale verso l’alto o verso il basso.
-   > * Per creare una regola al centro dell&#39;elenco, fai clic sul menu a tre punti accanto alla regola che desideri posizionare sopra o sotto la nuova regola e seleziona **Aggiungi regola sopra** o **Aggiungi regola sotto**.
+   > * Per creare una regola al centro dell&#39;elenco, fai clic sul menu a tre punti accanto alla regola che desideri posizionare al di sopra o al di sotto della nuova regola e seleziona **Aggiungi regola al di sopra di** o **Aggiungi regola al di sotto di**.
 
-1. Per eliminare una regola, fai clic sul menu a tre punti accanto alla regola da eliminare e seleziona **Elimina**.
-1. Per eliminare una mappatura, fai clic su **Elimina** sulla scheda della mappatura.
+1. Per eliminare una regola, fare clic sul menu a tre punti accanto alla regola che si desidera eliminare e selezionare **Elimina**.
+1. Per eliminare una mappatura, fai clic sull&#39;icona **Elimina** presente nella scheda della mappatura.
 
 1. Per salvare, scorri fino alla parte superiore della pagina e fai clic su **Salva**.
 

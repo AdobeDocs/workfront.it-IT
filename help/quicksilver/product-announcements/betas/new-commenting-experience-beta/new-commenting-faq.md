@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Questo articolo contiene un elenco delle domande più frequenti sulla nuova esperienza di commento.
 
-Per ulteriori informazioni sulla nuova esperienza di aggiunta di commenti, vedi [Nuova esperienza di commento](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
+Per ulteriori informazioni sulla nuova esperienza di commento, vedi [Nuova esperienza di commento](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 ## È possibile allegare ai commenti diversi tipi di file oltre alle immagini?
 

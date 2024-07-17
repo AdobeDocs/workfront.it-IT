@@ -2,7 +2,7 @@
 product-area: resource-management
 navigation-topic: resource-planning
 title: Filtrare le informazioni nella Programmazione delle risorse
-description: '"(AL:*Iterare in questo articolo: filtraggio in base a dati personalizzati. Altri miglioramenti? I personaggi speciali avvertono che potrebbero cambiare: segui la storia per sapere quando. Originariamente era in versione Beta 3 17.3.)'''
+description: '"(AL:*Iterare in questo articolo: filtraggio in base a dati personalizzati. Altri miglioramenti? I personaggi speciali avvertono che potrebbero cambiare: segui la storia per sapere quando. Originariamente era disponibile in Beta 3 17.3.)'''
 author: Alina
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
@@ -45,11 +45,11 @@ Devi avere i seguenti:
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
    <td> <p>Accesso di visualizzazione o superiore a progetti, utenti e gestione delle risorse </p> <p><b>NOTA</b>
 
-Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
+Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizza autorizzazioni o versioni successive per i progetti</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Visualizza autorizzazioni o versioni successive per i progetti</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,16 +58,16 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 
 ## Panoramica dei filtri di programmazione delle risorse
 
-Per ridurre al minimo la quantità di informazioni visualizzate nella pianificazione risorse, Adobe Workfront fornisce un filtro predefinito con criteri preconfigurati. Per informazioni sul filtro predefinito, consulta la sezione [Panoramica del filtro predefinito nella pianificazione risorse](#overview-of-the-default-filter-in-the-resource-planner) in questo articolo.
+Per ridurre al minimo la quantità di informazioni visualizzate nella pianificazione risorse, Adobe Workfront fornisce un filtro predefinito con criteri preconfigurati. Per informazioni sul filtro predefinito, vedere la sezione [Panoramica del filtro predefinito nella Programmazione delle risorse](#overview-of-the-default-filter-in-the-resource-planner) in questo articolo.
 
-Puoi anche creare filtri personalizzati. Per informazioni sulla personalizzazione dei filtri nella Programmazione delle risorse, consulta la sezione [Creare filtri di programmazione delle risorse](#create-resource-planner-filters) in questo articolo.
+Puoi anche creare filtri personalizzati. Per informazioni sulla personalizzazione dei filtri nella Programmazione delle risorse, vedere la sezione [Creare filtri per la programmazione delle risorse](#create-resource-planner-filters) in questo articolo.
 
 Quando si utilizzano i filtri nella Programmazione delle risorse, considera quanto segue:
 
 * I filtri creati sono visibili solo a te. Puoi condividere i filtri per renderli disponibili ad altri utenti.
 * In qualità di amministratore di Workfront, puoi visualizzare solo i filtri creati o condivisi con te.
 * I risultati filtrati non cambiano quando si seleziona una visualizzazione diversa per la Programmazione delle risorse.\
-  Per ulteriori informazioni sulla modifica della visualizzazione nella Programmazione delle risorse, vedere la sezione di selezione &quot;Project/ Role/ User view&quot; (Progetto/Ruolo/Visualizzazione utente) in [Panoramica sulla navigazione in Programmazione delle risorse](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+  Per ulteriori informazioni sulla modifica della visualizzazione nella Programmazione delle risorse, vedere la sezione di selezione &quot;Project/ Role/ User view&quot; in [Panoramica sulla navigazione nella Programmazione delle risorse](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 * L’applicazione di un filtro non modifica l’allocazione e la disponibilità dei dati nella Programmazione delle risorse per progetti, ruoli o utenti. Un filtro modifica solo il numero di oggetti visualizzati nella Programmazione delle risorse.
 * Il filtro si applica a tutti gli oggetti visualizzati contemporaneamente nella Programmazione delle risorse. Ad esempio, se si applica un filtro per un utente specifico, la Programmazione delle risorse visualizza solo i seguenti risultati:
@@ -78,7 +78,7 @@ Quando si utilizzano i filtri nella Programmazione delle risorse, considera quan
 
 ## Panoramica del filtro predefinito nella pianificazione risorse {#overview-of-the-default-filter-in-the-resource-planner}
 
-Quando apri la Programmazione delle risorse per la prima volta, Workfront applica il filtro Predefinito. Puoi modificare il filtro Predefinito per filtrare solo gli elementi che desideri visualizzare. Per informazioni sulla modifica di un filtro, consulta la sezione [Modificare un filtro nella Programmazione delle risorse](#edit-a-filter-in-the-resource-planner) in questo articolo.
+Quando apri la Programmazione delle risorse per la prima volta, Workfront applica il filtro Predefinito. Puoi modificare il filtro Predefinito per filtrare solo gli elementi che desideri visualizzare. Per informazioni sulla modifica di un filtro, vedere la sezione [Modificare un filtro nella Programmazione delle risorse](#edit-a-filter-in-the-resource-planner) in questo articolo.
 
 Quando utilizzi il filtro Predefinito, tieni presente quanto segue:
 
@@ -108,7 +108,7 @@ Quando utilizzi il filtro Predefinito, tieni presente quanto segue:
 La creazione di un filtro nella Programmazione delle risorse è identica per tutte le visualizzazioni.
 
 Prima di creare un filtro, assicurati che siano presenti i prerequisiti per la visualizzazione delle informazioni corrette nella Programmazione delle risorse.\
-Per informazioni sul rispetto dei prerequisiti necessari per l&#39;utilizzo di Pianificazione risorse, vedere la sezione &quot;Prerequisiti per l&#39;utilizzo di Pianificazione risorse&quot; nella [Panoramica di Programmazione delle risorse](../../resource-mgmt/resource-planning/get-started-resource-planner.md) articolo.
+Per informazioni sul rispetto dei prerequisiti necessari per l&#39;utilizzo di Pianificazione risorse, vedere la sezione &quot;Prerequisiti per l&#39;utilizzo di Pianificazione risorse&quot; nell&#39;articolo [Panoramica di Pianificazione risorse](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 Quando crei un filtro, considera quanto segue:
 
@@ -117,55 +117,55 @@ Quando crei un filtro, considera quanto segue:
 
 Per creare un filtro in Pianificazione risorse:
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront.
 
-1. Clic **Risorse**.
+1. Fare clic su **Risorse**.
 
    Il **Planner** viene visualizzato per impostazione predefinita.
 
-   Per impostazione predefinita, la prima volta che accedi alla Programmazione delle risorse, il <strong>Filtro predefinito</strong> viene applicata.<br>Per ulteriori informazioni sul filtro Predefinito, vedere <a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">Panoramica del filtro predefinito nella pianificazione risorse</a> in questo articolo.
+   Per impostazione predefinita, al primo accesso alla pianificazione risorse viene applicato il <strong>filtro predefinito</strong>.<br>Per ulteriori informazioni sul filtro predefinito, vedere la <a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">Panoramica del filtro predefinito nella sezione Pianificazione risorse</a> in questo articolo.
 
-1. Nell’angolo in alto a sinistra di , fai clic su **Filtro** icona.\
-   ![filter_icon.png](assets/filter-icon.png)\
+1. Nell&#39;angolo superiore sinistro del , fare clic sull&#39;icona **Filtro**.\
+   ![icona_filtro.png](assets/filter-icon.png)\
    Oppure\
-   Espandi **Filtro** menu a discesa e fai clic su **Aggiungi nuovo filtro**.\
+   Espandi il menu a discesa **Filtro** e fai clic su **Aggiungi nuovo filtro**.\
    ![](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
 
 1. Per creare un filtro utilizzando i criteri incorporati, specifica uno dei campi seguenti:
 
-   * **Portfolio**: inizia a digitare il nome del portfolio che contiene le informazioni da includere nella Programmazione delle risorse, quindi fai clic sul nome quando viene visualizzato nell’elenco.\
+   * **Portfolio**: inizia a digitare il nome del portfolio che contiene le informazioni da includere nella Programmazione delle risorse, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco.\
      Ripeti questo processo per includere informazioni da più portfolio.
 
-   * **Stato progetto**: espandi il menu a discesa Stato progetto e seleziona uno o più stati di progetto disponibili nell’elenco.
+   * **Stato progetto**: espandere il menu a discesa Stato progetto e selezionare uno o più stati di progetto disponibili nell&#39;elenco.
    * **Team**: inizia a digitare il nome di uno o più team associati agli utenti assegnati alle attività nei progetti che desideri visualizzare.
-   * **Ruolo**: inizia a digitare il nome di uno o più ruoli associati agli utenti assegnati alle attività nei progetti che desideri visualizzare.
-   * **Pool**: inizia a digitare il nome di uno o più gruppi di risorse associati ai progetti (per la visualizzazione Progetto), agli utenti (per la visualizzazione Utente) o associati sia ai progetti che agli utenti (per la visualizzazione Ruolo) che desideri visualizzare.
-   * **Gruppo**: inizia a digitare il nome di uno o più gruppi associati agli utenti (nella vista Utente) o ai progetti (nelle viste Progetto e Ruolo) che desideri visualizzare.
+   * **Ruolo**: iniziare a digitare il nome di uno o più ruoli associati agli utenti assegnati alle attività nei progetti che si desidera visualizzare.
+   * **Pool**: inizia a digitare il nome di uno o più Pool di Risorse associati ai progetti (per la Vista Progetto), agli utenti (per la Vista Utente) o associati sia ai progetti che agli utenti (per la Vista Ruolo) che desideri visualizzare.
+   * **Gruppo**: inizia a digitare il nome di uno o più gruppi associati agli utenti (nella visualizzazione Utente) o ai progetti (nelle visualizzazioni Progetto e Ruolo) che desideri visualizzare.
 
-1. Clic **Aggiungi regola filtro**, quindi iniziare a digitare il nome del campo in base al quale si desidera filtrare nel **Digita per filtrare gli elementi** casella. Se il campo è disponibile, viene compilato per ogni oggetto a cui può essere associato.
+1. Fare clic su **Aggiungi regola filtro**, quindi iniziare a digitare il nome del campo in base al quale si desidera filtrare nella casella **Digitare per filtrare gli elementi**. Se il campo è disponibile, viene compilato per ogni oggetto a cui può essere associato.
 
    >[!IMPORTANT]
    >
-   >Quando si fa riferimento a campi personalizzati, è necessario digitare il nome del campo e non l’etichetta del campo. L’etichetta del campo viene visualizzata in un modulo personalizzato associato a un oggetto. Per informazioni sulla differenza tra l’etichetta e il nome di un campo personalizzato, consulta  [Creare o modificare un modulo personalizzato](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) .
+   >Quando si fa riferimento a campi personalizzati, è necessario digitare il nome del campo e non l’etichetta del campo. L’etichetta del campo viene visualizzata in un modulo personalizzato associato a un oggetto. Per informazioni sulla differenza tra l&#39;etichetta e il nome di un campo personalizzato, vedere [Creare o modificare un modulo personalizzato](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 1. Fare clic sul nome del campo per aggiungerlo al filtro quando viene visualizzato nell&#39;elenco.\
    Per ulteriori informazioni sui campi visualizzati nell&#39;elenco, vedere [Glossario della terminologia di Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-1. (Facoltativo) Seleziona i modificatori di filtro e condizione per il filtro. I modificatori disponibili sono descritti in [Modificatori di filtri e condizioni](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+1. (Facoltativo) Seleziona i modificatori di filtro e condizione per il filtro. I modificatori disponibili sono descritti in [Filtri e modificatori di condizioni](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
    È possibile utilizzare caratteri jolly basati su utente o su data per filtrare le informazioni associate all&#39;utente connesso.\
-   Per informazioni sui caratteri jolly supportati nei filtri, vedi [Panoramica delle variabili filtro con caratteri jolly](../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+   Per informazioni sui caratteri jolly supportati nei filtri, vedi [Panoramica sulle variabili dei filtri con caratteri jolly](../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
-1. Clic **Salva** per salvare la regola del filtro.
+1. Fai clic su **Salva** per salvare la regola del filtro.
 1. (Facoltativo) Fai clic su **Aggiungi regola filtro** per aggiungere una nuova regola per un altro oggetto o campo.
-1. Clic **Applica** per applicare il filtro senza salvarlo.
+1. Fai clic su **Applica** per applicare il filtro senza salvarlo.
 
    Oppure
 
-   Clic **Salva filtro** per salvare il filtro.\
+   Fai clic su **Salva filtro** per salvare il filtro.\
    ![RP_Apply_or_Save_buttons_on_filters.png](assets/rp-apply-or-save-buttons-on-filters-320x79.png)
 
-1. (Condizionale) Dopo aver fatto clic su **Salva**, specifica un nome per il filtro in **Nome filtro** all&#39;interno della **Salva filtro** . Questo è un campo obbligatorio.\
+1. (Condizionale) Dopo aver fatto clic su **Salva**, specificare un nome per il filtro nella casella **Nome filtro** della finestra di dialogo **Salva filtro**. Questo è un campo obbligatorio.\
    ![RP_new_save_filter_box__with_Save_button__without_apply.png](assets/rp-new-save-filter-box--with-save-button--without-apply-350x175.png)
 
    >[!NOTE]
@@ -188,10 +188,10 @@ Quando un utente con accesso alla Pianificazione risorse salva un filtro, questo
 Per applicare un filtro esistente:
 
 1. Vai alla Programmazione delle risorse.
-1. Nell&#39;angolo superiore sinistro espandere **Filtro** menu a discesa.
+1. Nell&#39;angolo superiore sinistro espandere il menu a discesa **Filtro**.
 
    Puoi visualizzare i filtri creati o altri creati e condivisi con te in questo menu.\
-   ![RP_filter_drop.png](assets/rp-filter-drop-down-350x152.png)
+   ![RP_filter_drop_down.png](assets/rp-filter-drop-down-350x152.png)
 
 1. Seleziona un filtro nel menu a discesa. Puoi visualizzare i filtri creati da te o da altri utenti in questo menu.\
    Quando selezioni un filtro, questo riduce automaticamente la quantità di informazioni visualizzate nella Programmazione delle risorse.
@@ -201,7 +201,7 @@ Per applicare un filtro esistente:
 È possibile modificare un filtro nella Programmazione delle risorse eseguendo una delle operazioni seguenti:
 
 * [Rinominare un filtro](#rename-a-filter)
-* [Modificare le informazioni in un filtro](#edit-the-information-in-a-filter)
+* [Modifica le informazioni in un filtro](#edit-the-information-in-a-filter)
 * [Duplicare un filtro](#duplicate-a-filter)
 
 Quando modifichi un filtro, questo viene aggiornato per tutti gli utenti del sistema che hanno accesso alla Programmazione delle risorse.
@@ -210,13 +210,13 @@ Quando modifichi un filtro, questo viene aggiornato per tutti gli utenti del sis
 
 È possibile modificare il nome di un filtro senza modificarne i criteri. È consigliabile informare altri utenti del sistema di questa modifica, in quanto i filtri sono visibili agli altri utenti. Questa modifica influisce sugli elenchi di filtri per tutti coloro che possono visualizzare la Programmazione delle risorse.
 
-1. Vai alla Programmazione delle risorse ed espandi la **Filtro** per selezionare un filtro salvato.
-1. Espandi **Filtro** menu a discesa. Individua il filtro che desideri rinominare e passa il cursore sul nome.
-1. Seleziona la **Rinomina filtro** accanto al nome del filtro.
+1. Vai alla Programmazione delle risorse ed espandi il menu a discesa **Filtro** per selezionare un filtro salvato.
+1. Espandere il menu a discesa **Filtro**. Individua il filtro che desideri rinominare e passa il cursore sul nome.
+1. Selezionare l&#39;icona **Rinomina filtro** accanto al nome del filtro.
 
    ![](assets/rp-filter-options-edit-350x154.png)
 
-1. Specifica un nuovo nome per il filtro in **Nome filtro** casella.
+1. Specificare un nuovo nome per il filtro nella casella **Nome filtro**.
 1. Fai clic su **Salva**.\
    Le informazioni incluse nel filtro sono le stesse e il nome viene aggiornato.
 
@@ -224,42 +224,42 @@ Quando modifichi un filtro, questo viene aggiornato per tutti gli utenti del sis
 
 È possibile modificare le informazioni incluse in un filtro senza modificarne il nome. È consigliabile informare altri utenti del sistema di questa modifica, in quanto i filtri sono visibili. Questa modifica influisce sugli elenchi di filtri per tutti coloro che possono visualizzare la Programmazione delle risorse.
 
-1. Vai alla Programmazione delle risorse ed espandi la **Filtro** menu a discesa nell’angolo superiore sinistro.
+1. Vai alla Programmazione delle risorse ed espandi il menu a discesa **Filtro** nell&#39;angolo in alto a sinistra.
 1. Seleziona un filtro esistente da modificare.
-1. Fai clic su **Filtro** icona.\
-   ![filter_icon.png](assets/filter-icon.png)
+1. Fai clic sull&#39;icona **Filtro**.\
+   ![icona_filtro.png](assets/filter-icon.png)
 
 1. Aggiungi nuovi campi al filtro.\
-   Per informazioni sulla creazione di filtri, consulta [Creare filtri di programmazione delle risorse](#create-resource-planner-filters).
+   Per informazioni sulla creazione di filtri, vedere [Creare filtri di programmazione delle risorse](#create-resource-planner-filters).
 
-1. Passa il puntatore del mouse sui campi esistenti selezionati per il filtro, quindi fai clic sul pulsante **Modifica** per selezionare un altro campo, oppure **Elimina** per eliminare il campo.\
+1. Passa il puntatore del mouse sui campi esistenti selezionati per il filtro e fai clic sull&#39;icona **Modifica** per selezionare un altro campo oppure sull&#39;icona **Elimina** per eliminare il campo.\
    ![RP_custom_filter_delete_and_edit_icons.png](assets/rp-custom-filter-delete-and-edit-icons-350x169.png)
 
 1. (Facoltativo) Fai clic su **Aggiungi regola filtro** per aggiungere nuovi campi al filtro.\
-   Per ulteriori informazioni sulla definizione dei criteri di filtro, consulta [Creare filtri di programmazione delle risorse](#create-resource-planner-filters).
+   Per ulteriori informazioni sulla definizione dei criteri di filtro, vedere [Creare filtri di programmazione delle risorse](#create-resource-planner-filters).
 
-1. Clic **Applica** per applicare il filtro senza salvarlo.
+1. Fai clic su **Applica** per applicare il filtro senza salvarlo.
 
    Oppure
 
-   Clic **Salva** per salvare il filtro.\
+   Fai clic su **Salva** per salvare il filtro.\
    Il filtro viene salvato con lo stesso nome ma con i nuovi criteri di filtro.
 
 ### Duplicare un filtro {#duplicate-a-filter}
 
 Puoi duplicare un filtro esistente. I criteri di filtro originali rimangono gli stessi nel filtro duplicato ed è possibile salvare il nuovo filtro con un nuovo nome.
 
-1. Vai alla Programmazione delle risorse ed espandi la **Filtro** menu a discesa nell’angolo superiore sinistro.
+1. Vai alla Programmazione delle risorse ed espandi il menu a discesa **Filtro** nell&#39;angolo in alto a sinistra.
 1. Passa il puntatore del mouse sul nome di un filtro salvato che desideri duplicare.
-1. Fai clic su **Duplica** icona.
+1. Fai clic sull&#39;icona **Duplica**.
 
    ![](assets/rp-filter-options---duplicate-350x154.png)\
    Viene visualizzata la casella Duplica filtro.
 
-1. In **Nome filtro** , specificare un nuovo nome per il filtro duplicato.\
+1. Nel campo **Nome filtro**, specificare un nuovo nome per il filtro duplicato.\
    Il nome predefinito per il nuovo filtro è *`<Original Filter Name>`(copia)*.
 
-1. Clic **Salva**. Viene creato un nuovo filtro con gli stessi criteri del filtro originale e con un nuovo nome.
+1. Fai clic su **Salva**. Viene creato un nuovo filtro con gli stessi criteri del filtro originale e con un nuovo nome.
 
    >[!NOTE]
    >
@@ -269,20 +269,20 @@ Puoi duplicare un filtro esistente. I criteri di filtro originali rimangono gli 
 
 Puoi eliminare un filtro quando non è più necessario. Non è possibile eliminare il filtro predefinito.
 
-Per informazioni sul filtro predefinito, vedere [Panoramica del filtro predefinito nella pianificazione risorse](#overview-of-the-default-filter-in-the-resource-planner) in questo articolo.
+Per informazioni sul filtro predefinito, vedere la sezione [Panoramica del filtro predefinito nella Programmazione delle risorse](#overview-of-the-default-filter-in-the-resource-planner) in questo articolo.
 
 Quando elimini un filtro, questo viene eliminato per tutti gli utenti di Workfront che hanno accesso alla Programmazione delle risorse. Prima di rimuoverlo, assicurati che il filtro che desideri rimuovere non sia più utilizzato da altri utenti che lavorano nella Programmazione delle risorse. Non è possibile recuperare un filtro eliminato.
 
 Per rimuovere un filtro:
 
 1. Vai alla Programmazione delle risorse.
-1. Espandi **Filtro** menu a discesa.
+1. Espandere il menu a discesa **Filtro**.
 1. Individua il filtro da rimuovere e passa il cursore sul nome.
-1. Seleziona la **Elimina filtro** accanto al nome del filtro.
+1. Selezionare l&#39;icona **Elimina filtro** accanto al nome del filtro.
 
    ![](assets/rp-filter-options---delete-350x154.png)
 
-1. Clic **Elimina** nel **Elimina filtro** .
+1. Fare clic su **Elimina** nella finestra di dialogo **Elimina filtro**.
 
 1. Il filtro viene eliminato e rimosso dalla pianificazione risorse.
 
@@ -294,37 +294,37 @@ Puoi condividere un filtro che hai creato o che puoi condividere con altri utent
 >
 >Tutti gli utenti, inclusi gli amministratori di Workfront, possono accedere solo ai filtri che hanno creato o che sono stati condivisi con loro. Puoi condividere un filtro con utenti specifici per renderlo disponibile a tutti gli utenti di Programmazione delle risorse.
 
-Per informazioni sul filtro predefinito, vedere [Panoramica del filtro predefinito nella pianificazione risorse](#overview-of-the-default-filter-in-the-resource-planner) in questo articolo.
+Per informazioni sul filtro predefinito, vedere la sezione [Panoramica del filtro predefinito nella Programmazione delle risorse](#overview-of-the-default-filter-in-the-resource-planner) in questo articolo.
 
-Per informazioni sulla duplicazione dei filtri, vedi [Duplicare un filtro](#duplicate-a-filter) in questo articolo.
+Per informazioni sulla duplicazione dei filtri, vedere la sezione [Duplicare un filtro](#duplicate-a-filter) in questo articolo.
 
 1. Vai alla Programmazione delle risorse.
-1. Espandi **Filtro** menu a discesa.
+1. Espandere il menu a discesa **Filtro**.
 1. Individua il filtro da condividere e passa il cursore sul nome.
-1. Seleziona la **Condividi filtro** accanto al nome del filtro.
+1. Selezionare l&#39;icona **Condividi filtro** accanto al nome del filtro.
 
    ![](assets/rp-filter-options---share-350x154.png)
 
    Viene visualizzata la finestra di dialogo Accesso al filtro.
 
-1. (Facoltativo) Per rendere il filtro disponibile a tutti gli utenti di Programmazione delle risorse, fai clic sul pulsante **Impostazioni** , quindi seleziona **Rendi visibile a livello di sistema**.
+1. (Facoltativo) Per rendere il filtro disponibile a tutti gli utenti di Resource Planner, fai clic sull&#39;icona **Impostazioni**, quindi seleziona **Rendi visibile a livello di sistema**.
 
    ![](assets/make-this-visible-system-wide-350x119.png)
 
-1. In **Assegna al filtro di programmazione delle risorse l&#39;accesso a:** , inizia a digitare i nomi di utenti, team, ruoli, gruppi o aziende con cui desideri condividere il filtro.
+1. Nella casella **Assegna accesso al filtro di programmazione delle risorse a:**, inizia a digitare i nomi di utenti, team, ruoli, gruppi o società con cui desideri condividere il filtro.
 1. Seleziona tra i seguenti livelli di autorizzazione:
 
    * Visualizza
    * Gestire
 
-     Per informazioni sulle autorizzazioni in Workfront, consulta [Panoramica delle autorizzazioni di condivisione sugli oggetti](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
+     Per informazioni sulle autorizzazioni in Workfront, vedere [Panoramica sulla condivisione delle autorizzazioni sugli oggetti](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
 
-1. (Facoltativo) Fai clic su **Impostazione avanzata** s per aggiungere le autorizzazioni per ogni livello selezionandole o per rimuovere le autorizzazioni per ogni livello deselezionandole.
+1. (Facoltativo) Fai clic su **Impostazioni avanzate** per aggiungere le autorizzazioni per ogni livello selezionandole o rimuoverle per ogni livello deselezionandole.
 
    ![](assets/rp-share-filter-manage-advanced-settings-350x271.png)
 
 1. Fai clic su **Salva**.
 
-   Il filtro viene condiviso con le entità selezionate e viene visualizzato nella sezione **Condiviso con me** area.
+   Il filtro è condiviso con le entità selezionate e viene visualizzato nell&#39;area **Condiviso con me**.
 
    ![](assets/rp-shared-with-me-area.png)

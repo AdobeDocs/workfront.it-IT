@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
-title: Eliminare i ruoli di lavoro
-description: È possibile eliminare i ruoli di lavoro non più utilizzati dalla propria organizzazione. Si consiglia di non eliminare i ruoli di lavoro se in passato sono stati associati a elementi di lavoro. Per conservare tutte le informazioni storiche sulle assegnazioni di lavoro, si consiglia di disattivare i ruoli, anziché eliminarli quando diventano obsoleti. Per informazioni sulla disattivazione dei ruoli, vedere Disattivazione dei ruoli di lavoro.
+title: Elimina mansioni
+description: Puoi eliminare le mansioni che la tua organizzazione non utilizza più. È consigliabile non eliminare le mansioni associate a elementi di lavoro in passato. Per conservare tutte le informazioni cronologiche sulle assegnazioni di lavoro, è consigliabile disattivare i ruoli anziché eliminarli quando diventano obsoleti. Per informazioni sulla disattivazione dei ruoli, vedere Disattivare i ruoli.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -15,15 +15,15 @@ ht-degree: 0%
 
 ---
 
-# Eliminare i ruoli di lavoro
+# Elimina mansioni
 
-È possibile eliminare i ruoli di lavoro non più utilizzati dalla propria organizzazione. Si consiglia di non eliminare i ruoli di lavoro se in passato sono stati associati a elementi di lavoro.
+Puoi eliminare le mansioni che la tua organizzazione non utilizza più. È consigliabile non eliminare le mansioni associate a elementi di lavoro in passato.
 
-Per conservare tutte le informazioni storiche sulle assegnazioni di lavoro, si consiglia di disattivare i ruoli, anziché eliminarli quando diventano obsoleti. Per informazioni sulla disattivazione dei ruoli, consulta [Disattivazione dei ruoli di lavoro](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
+Per conservare tutte le informazioni cronologiche sulle assegnazioni di lavoro, è consigliabile disattivare i ruoli anziché eliminarli quando diventano obsoleti. Per informazioni sulla disattivazione dei ruoli, vedere [Disattivare i ruoli](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
 
 ## Requisiti di accesso
 
-Devi disporre dei seguenti elementi:
+Devi avere i seguenti:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,38 +38,38 @@ Devi disporre dei seguenti elementi:
    <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Accesso amministrativo ai ruoli di lavoro</p> <p><b>NOTA</b>: Se non hai ancora accesso, chiedi [!DNL Workfront] amministratore se imposta ulteriori restrizioni nel livello di accesso. Per informazioni su come [!DNL Workfront] l'amministratore può modificare il livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Accesso amministrativo alle mansioni</p> <p><b>NOTA</b>: se non disponi ancora dell'accesso, chiedi all'amministratore di [!DNL Workfront] se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di [!DNL Workfront] può modificare il tuo livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
 
-## Eliminare un ruolo di lavoro
+## Eliminare una mansione
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this moved from create and manage job roles)</p>
 -->
 
-1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Configurazione]** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Configurazione]** ![](assets/gear-icon-settings.png).
 
-1. Fai clic su **[!UICONTROL Ruoli processo].**
-1. Selezionare il ruolo di processo da eliminare, quindi fare clic su **[!UICONTROL Elimina].**
-1. Se sono presenti oggetti (utenti, attività, problemi) assegnati al ruolo di lavoro, eseguire una delle operazioni seguenti:
+1. Fai clic su **[!UICONTROL Ruoli].**
+1. Seleziona la mansione da eliminare, quindi fai clic su **[!UICONTROL Elimina].**
+1. Se esistono oggetti (utenti, attività, problemi) assegnati al ruolo, effettuare una delle seguenti operazioni:
 
-   * **Sostituisci il ruolo del processo con un altro ruolo:** Selezionare il nuovo ruolo del processo dall&#39;elenco a discesa.
+   * **Sostituisci la mansione con una mansione diversa:** Seleziona la nuova mansione dall&#39;elenco a discesa.
 
-      Tutte le allocazioni di risorse correnti e passate associate al ruolo di lavoro eliminato vengono trasferite al ruolo di processo selezionato.
+     Tutte le allocazioni di risorse correnti e passate associate alla mansione eliminata vengono trasferite alla mansione selezionata.
 
-      Gli utenti a cui è stato assegnato un solo ruolo di lavoro vengono riassegnati al ruolo selezionato; gli utenti a cui è stato assegnato un ruolo di lavoro secondario non vengono riassegnati al ruolo di lavoro selezionato.
+     Gli utenti a cui è stata assegnata una sola mansione vengono riassegnati alla mansione selezionata; gli utenti a cui è stata assegnata una mansione secondaria non vengono riassegnati alla mansione selezionata.
 
-   * **Elimina il ruolo del processo e la relativa allocazione delle risorse:** Seleziona **[!UICONTROL Nessuno]** dall’elenco a discesa.
+   * **Eliminare la mansione e la relativa allocazione di risorse:** Selezionare **[!UICONTROL Nessuno]** dall&#39;elenco a discesa.
 
-      >[!IMPORTANT]
-      >
-      >L&#39;eliminazione di un ruolo di lavoro elimina tutte le assegnazioni di risorse correnti e passate relative a tale ruolo di lavoro per tutti i progetti.
+     >[!IMPORTANT]
+     >
+     >L&#39;eliminazione di un ruolo comporta l&#39;eliminazione di tutte le allocazioni di risorse correnti e passate correlate a tale ruolo per tutti i progetti.
 
-      &#x200B; Ad esempio, se un&#39;attività o un problema viene assegnato solo a quel ruolo di lavoro, l&#39;attività o il problema viene rimosso dopo l&#39;eliminazione del ruolo di lavoro.
+     &#x200B;Ad esempio, se un’attività o un problema è assegnato solo a tale mansione, l’attività o il problema non viene assegnato dopo l’eliminazione della mansione.
 
-1. Fai clic su  **[!UICONTROL Sì, Elimina]**.
+1. Fare clic su **[!UICONTROL Sì, Elimina]**.

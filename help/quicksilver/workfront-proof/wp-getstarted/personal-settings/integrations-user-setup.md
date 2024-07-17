@@ -10,8 +10,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 43ecf257-44ea-4d2c-ac55-21192e7c2a45
 source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 1%
+source-wordcount: '109'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alle funzionalità del prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Bozza](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
 Questa sezione mostra le opzioni disponibili per la configurazione di collegamenti di integrazione predefiniti con applicazioni di terze parti.
 
@@ -27,8 +27,8 @@ Qui puoi anche trovare il token di autenticazione che consente a software di ter
 
 I punti di integrazione correnti sono disponibili per:
 
-* API pubblica (1) - Consulta la sezione dedicata [Pagina guida API](https://api.proofhq.com/)
-* [!DNL Basecamp] (2) - Consulta la sezione dedicata [[!DNL Basecamp]](https://support.workfront.com/hc/en-us/sections/115000911927-Basecamp) e [[!DNL Basecamp Classic]](https://support.workfront.com/hc/en-us/categories/115000588707-Basecamp-Classic) pagine della guida
+* API pubblica (1) - Consulta la nostra [pagina di aiuto API](https://api.proofhq.com/) dedicata
+* [!DNL Basecamp] (2) - Consulta le nostre pagine di aiuto dedicate [[!DNL Basecamp]](https://support.workfront.com/hc/en-us/sections/115000911927-Basecamp) e [[!DNL Basecamp Classic]](https://support.workfront.com/hc/en-us/categories/115000588707-Basecamp-Classic)
 
 * [!DNL NetSuite] (3)
 * [!DNL WorkFront] (4)

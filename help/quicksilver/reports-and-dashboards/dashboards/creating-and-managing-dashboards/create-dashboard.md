@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Puoi creare dashboard per accedere rapidamente alle informazioni in Adobe Workfront. Rapporti, calendari e pagine esterne possono essere aggiunti alle dashboard che puoi condividere con altri per una collaborazione ottimale.
 
-Per ulteriori informazioni sulle dashboard, consulta [Introduzione alle dashboard](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
+Per ulteriori informazioni sulle dashboard, vedere [Introduzione alle dashboard](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
 
 ## Requisiti di accesso
 
@@ -62,17 +62,17 @@ Devi avere i seguenti:
 
 Prima di poter aggiungere gli oggetti seguenti a un dashboard, è necessario crearli:
 
-* **Rapporti**: per informazioni sulla creazione di rapporti, consulta [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+* **Report**: per informazioni sulla creazione di report, vedere [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-* **Calendari**: per informazioni sulla creazione di calendari, vedere [Panoramica dei rapporti sul calendario](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+* **Calendari**: per informazioni sulla creazione di calendari, vedere [Panoramica sui report calendario](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
-È possibile aggiungere pagine esterne esistenti a un dashboard oppure crearne una dal nuovo dashboard. Per informazioni sulla creazione di pagine esterne, consulta [Incorporare una pagina web esterna in una dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+È possibile aggiungere pagine esterne esistenti a un dashboard oppure crearne una dal nuovo dashboard. Per informazioni sulla creazione di pagine esterne, vedere [Incorporare una pagina Web esterna in un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 ## Creare un dashboard
 
 {{step1-to-dashboards}}
 
-1. Clic **Nuovo dashboard**.\
+1. Fai clic su **Nuovo dashboard**.\
    Viene visualizzata la finestra di dialogo Nuovo dashboard.
 
 1. Specifica quanto segue:
@@ -92,27 +92,27 @@ Prima di poter aggiungere gli oggetti seguenti a un dashboard, è necessario cre
     </tbody>
    </table>
 
-1. Selezionare un layout facendo clic sul pulsante di opzione corrispondente nella parte superiore della **Seleziona layout/ Aggiungi report/ Aggiungi calendari** sezione. Layout in cui verranno visualizzati i report, i calendari o le pagine esterne nel dashboard.
+1. Selezionare un layout facendo clic sul pulsante di opzione corrispondente nella parte superiore della sezione **Seleziona layout/ Aggiungi report/ Aggiungi calendari**. Layout in cui verranno visualizzati i report, i calendari o le pagine esterne nel dashboard.
 
    Il layout a colonna singola è quello predefinito.
 
-   Per informazioni sul layout dei rapporti nei dashboard, consulta [Comprendere come vengono visualizzati i rapporti in un dashboard](../../../reports-and-dashboards/dashboards/understanding-dashboards/understand-how-reports-display-dashboard.md).
+   Per informazioni sul layout dei report nei dashboard, vedere [Informazioni sulla visualizzazione dei report in un dashboard](../../../reports-and-dashboards/dashboards/understanding-dashboards/understand-how-reports-display-dashboard.md).
 
    <!--
    Consider adding the information from this article above here, at some point, instead of linking to it.)
    -->
 
-1. Cercare rapporti, calendari o pagine esterne in **Cerca per nome o tipo ...** e trascinarli nel riquadro di layout, quando vengono visualizzati nell&#39;elenco.
+1. Cercare i report, i calendari o le pagine esterne nel campo **Cerca per nome o tipo ...**, quindi trascinarli nel riquadro di layout quando vengono visualizzati nell&#39;elenco.
 
    >[!NOTE]
    >
    >Durante la ricerca di un elemento, la ricerca restituisce uno dei 2.000 rapporti creati più di recente. I nomi dei rapporti che includono caratteri Unicode non vengono restituiti nei risultati della ricerca. Come best practice, evita di includere caratteri unicode durante la denominazione di oggetti in Workfront digitando i nomi anziché copiarli e incollarli da un’altra origine.
 
-   ![Cercare i rapporti](assets/qs-new-dashboard-ui-0722.png)
+   ![Cerca i report](assets/qs-new-dashboard-ui-0722.png)
 
 1. (Facoltativo) Fai clic su **Aggiungi pagina esterna** per aggiungere una nuova pagina esterna al dashboard.
 
-   Per ulteriori informazioni sulla creazione di pagine esterne e sulla loro incorporazione nelle dashboard, consulta [Incorporare una pagina web esterna in una dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+   Per ulteriori informazioni sulla creazione di pagine esterne e sull&#39;incorporamento delle stesse nei dashboard, vedere [Incorporare una pagina Web esterna in un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 1. Fai clic su **Salva e Chiudi**.
 

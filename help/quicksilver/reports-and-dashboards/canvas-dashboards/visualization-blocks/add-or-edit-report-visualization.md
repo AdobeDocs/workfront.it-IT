@@ -24,7 +24,7 @@ Puoi aggiungere i seguenti tipi di visualizzazioni a un rapporto:
 
 ## Prerequisiti
 
-Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per ulteriori informazioni, consulta [Reporting Canvas beta: panoramica](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per ulteriori informazioni, vedere [Reporting Canvas beta: overview](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Aggiungere o modificare un blocco di visualizzazione
 
@@ -32,36 +32,36 @@ Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per u
 >
 >Tutte le modifiche vengono salvate automaticamente durante la generazione e la modifica dei blocchi nel report.
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Generazione rapporti**.
-1. Clic **Nuovo rapporto**, quindi crea un rapporto con tabelle che contengono dati, come descritto in [Creare un rapporto nell’area di lavoro rapporti](../../../reports-and-dashboards/reporting-canvas/manage-reports/build-report.md) e [Aggiungere o modificare un blocco di tabella nell’area di lavoro rapporti](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **Main Menu** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Reporting**.
+1. Fare clic su **Nuovo report**, quindi creare un report con tabelle contenenti dati, come descritto in [Creare un report nell&#39;area di lavoro Reporting](../../../reports-and-dashboards/reporting-canvas/manage-reports/build-report.md) e [Aggiungere o modificare un blocco di tabella nell&#39;area di lavoro Reporting](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
 
    Oppure
 
-   In un rapporto esistente con tabelle contenenti dati, fai clic sul pulsante **Menu Altro** icona ![](assets/more-icon.png) nell’intestazione del rapporto, seleziona quindi **Modifica**.
+   In un report esistente con tabelle contenenti dati, fare clic sull&#39;icona ![](assets/more-icon.png) di **Altro menu** nell&#39;intestazione del report, quindi selezionare **Modifica**.
 
-1. Sul lato destro dello schermo, sotto **Aggiungi un blocco**, oppure:
+1. Nella parte destra della schermata, in **Aggiungi un blocco**:
 
-   Trascina **Visualizzazione** **** nell’area di lavoro direttamente nella posizione desiderata.
-
-   Oppure
-
-   Fai doppio clic su **Visualizzazione** icona **** per aggiungere una visualizzazione nella parte superiore dell’area di lavoro.
+   Trascina l&#39;icona **Visualizzazione** **** nell&#39;area di lavoro direttamente nella posizione desiderata.
 
    Oppure
 
-   Seleziona la **Visualizza** **** nella parte superiore di una tabella esistente nell’area di lavoro.
+   Fai doppio clic sull&#39;icona **Visualizzazione** **** per aggiungere una visualizzazione all&#39;inizio dell&#39;area di lavoro.
+
+   Oppure
+
+   Seleziona l&#39;icona **Visualizza** **** nella parte superiore di una tabella esistente nell&#39;area di lavoro.
 
    >[!TIP]
    >
    >È possibile modificare le dimensioni del blocco dopo averlo posizionato trascinandone le maniglie d&#39;angolo.
 
-1. (Condizionale) Se il rapporto contiene più di una tabella, nel campo **Creare la visualizzazione** , seleziona la tabella sorgente per la visualizzazione.
+1. (Condizionale) Se il report contiene più di una tabella, nella casella **Genera la visualizzazione** visualizzata, seleziona la tabella di origine per la visualizzazione.
 
    ![](assets/select-table-on-vis-350x155.png)
 
    >[!NOTE]
    >
-   >Se si seleziona **+ Aggiungi nuova tabella**, sotto il blocco di visualizzazione viene creato un nuovo blocco di tabella. Devi compilare la tabella con i dati prima di poter aggiungere una visualizzazione per essa. Per ulteriori informazioni sulla creazione e la modifica di tabelle, vedere [ [Aggiungere o modificare un blocco di tabella nell’area di lavoro rapporti](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
+   >Se si seleziona **+ Aggiungi nuova tabella**, viene creato un nuovo blocco di tabella sotto il blocco di visualizzazione. Devi compilare la tabella con i dati prima di poter aggiungere una visualizzazione per essa. Per ulteriori informazioni sulla creazione e la modifica di tabelle, vedere [ [Aggiungere o modificare un blocco di tabella in Reporting Canvas](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
 
 1. Seleziona il tipo di visualizzazione da aggiungere.
 
@@ -75,7 +75,7 @@ Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per u
 
 1. Continua e configura la visualizzazione:
 
-   * **Barre** Visualizzazione: per istruzioni consulta [Configurare una visualizzazione a barre nell’area di lavoro Reporting](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md#bar).
-   * **Colonna** Visualizzazione: per istruzioni consulta [Configurare una visualizzazione di colonne nell’area di lavoro Reporting](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md).
-   * **Torta** Visualizzazione: per istruzioni consulta [Configurare la visualizzazione a torta nell’area di lavoro Reporting](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md).
-   * **KPI** Visualizzazione: per istruzioni consulta [Configurare una visualizzazione KPI nell’area di lavoro del reporting](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md).
+   * Visualizzazione **Barre**: per istruzioni, vedere [Configurare una visualizzazione a barre nell&#39;area di lavoro Reporting](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md#bar).
+   * Visualizzazione **Colonna**: per istruzioni, vedere [Configurare una visualizzazione di colonna nell&#39;area di lavoro Reporting](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md).
+   * Visualizzazione **Torta**: per istruzioni, consulta [Configurare la visualizzazione della torta nell&#39;area di lavoro Reporting](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md).
+   * Visualizzazione **KPI**: per istruzioni, vedere [Configurare una visualizzazione KPI nell&#39;area di lavoro Reporting](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md).

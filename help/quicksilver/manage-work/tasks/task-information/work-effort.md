@@ -89,43 +89,43 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront. Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront. Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Considerazioni per l’utilizzo dell’impegno di lavoro
 
-* Se le attività del progetto hanno 0 Ore pianificate e si abilita l&#39;impostazione Usa impegno di lavoro per calcolare automaticamente le ore pianificate per l&#39;attività nel progetto, il livello predefinito di impegno di lavoro associato sarà Medio. Le ore pianificate vengono aggiornate automaticamente per le attività con tipo di durata semplice. Per ulteriori informazioni, consulta la sezione  [Livelli di impegno di lavoro](#levels-of-work-effort) in questo articolo.
-* Quando le attività del progetto hanno Ore pianificate superiori a 0 e si abilita l&#39;opzione Usa impegno di lavoro per calcolare automaticamente le ore pianificate per l&#39;attività nel progetto, il livello di impegno di lavoro viene aggiornato in base alla quantità di ore pianificate senza modificare la quantità di ore pianificate per le attività di tipo Durata semplice. Per ulteriori informazioni, consulta la sezione [Come Workfront calcola l’impegno di lavoro in base alle ore pianificate](#how-workfront-calculates-work-effort-based-on-planned-hours) in questo articolo.
-* Se le attività del progetto hanno 0 Ore pianificate e si abilita l&#39;opzione Usa impegno di lavoro per calcolare automaticamente le ore pianificate per l&#39;attività nel progetto, quindi si aggiorna il livello di impegno di lavoro da Medio a Piccolo o Grande, viene aggiornato anche il valore Ore pianificate. Per ulteriori informazioni, consulta la sezione [Come Workfront calcola le ore pianificate in base all’impegno di lavoro](#how-workfront-calculates-planned-hours-based-on-work-effort) in questo articolo.
+* Se le attività del progetto hanno 0 ore pianificate e si abilita l&#39;impostazione Usa impegno di lavoro per calcolare automaticamente le ore pianificate per l&#39;attività nel progetto, il livello predefinito di impegno di lavoro associato sarà Medium. Le ore pianificate vengono aggiornate automaticamente per le attività con tipo di durata semplice. Per ulteriori informazioni, vedere la sezione [Livelli di impegno di lavoro](#levels-of-work-effort) in questo articolo.
+* Quando le attività del progetto hanno Ore pianificate superiori a 0 e si abilita l&#39;opzione Usa impegno di lavoro per calcolare automaticamente le ore pianificate per l&#39;attività nel progetto, il livello di impegno di lavoro viene aggiornato in base alla quantità di ore pianificate senza modificare la quantità di ore pianificate per le attività di tipo Durata semplice. Per ulteriori informazioni, vedere la sezione [Come Workfront calcola l&#39;impegno di lavoro in base alle ore pianificate](#how-workfront-calculates-work-effort-based-on-planned-hours) in questo articolo.
+* Se le attività del progetto hanno 0 Ore pianificate e si abilita l&#39;opzione Usa impegno di lavoro per calcolare automaticamente le ore pianificate per l&#39;attività nel progetto, quindi si aggiorna il livello di impegno di lavoro da Medium a Piccolo o Grande, anche le ore pianificate vengono aggiornate. Per ulteriori informazioni, vedere la sezione [Come Workfront calcola le ore pianificate in base all&#39;impegno di lavoro](#how-workfront-calculates-planned-hours-based-on-work-effort) in questo articolo.
 * Quando si modificano contemporaneamente le attività in linea e i campi Lavoro pianificato e Impegno di lavoro per l&#39;attività, le ore pianificate vengono aggiornate con il valore specificato, mentre il valore Impegno di lavoro viene calcolato in base alle ore pianificate aggiornate.
 * Quando si aggiorna il valore Impegno di lavoro di un&#39;attività, la Durata non viene più calcolata automaticamente in base alle Ore pianificate. Per ulteriori informazioni sul calcolo della durata per le attività con durata semplice, vedere [Panoramica sul tipo di durata: semplice](../../../manage-work/tasks/taskdurtn/simple-duration-type.md).
 * Quando si modifica il Tipo di durata di un&#39;attività da Semplice a qualsiasi altro tipo, il campo Impegno di lavoro è nascosto nell&#39;attività. Le ore pianificate rimangono invariate.
-* Non è possibile aggiornare il livello Impegno di lavoro su un&#39;attività padre. Il livello Impegno di lavoro per un&#39;attività padre viene calcolato automaticamente in base al numero di ore pianificate per le attività, che è un rollup di tutte le attività figlio. Per informazioni sulle attività padre, vedere [Crea sottoattività](../../../manage-work/tasks/create-tasks/create-subtasks.md).
+* Non è possibile aggiornare il livello Impegno di lavoro su un&#39;attività padre. Il livello Impegno di lavoro per un&#39;attività padre viene calcolato automaticamente in base al numero di ore pianificate per le attività, che è un rollup di tutte le attività figlio. Per informazioni sulle attività padre, vedere [Creare sottoattività](../../../manage-work/tasks/create-tasks/create-subtasks.md).
 
 ## Abilita l’utilizzo dell’Impegno di lavoro invece delle Ore pianificate
 
-1. Vai a un progetto e fai clic su **Altro** menu ![](assets/more-icon.png), quindi fai clic su **Modifica**.
-1. Clic **Impostazioni attività**, quindi seleziona l’opzione **Utilizza Impegno di lavoro per calcolare automaticamente le ore pianificate per l&#39;attività**. Questa opzione è deselezionata per impostazione predefinita.
+1. Vai a un progetto e fai clic sul menu **Altro** ![](assets/more-icon.png), quindi fai clic su **Modifica**.
+1. Fai clic su **Impostazioni attività**, quindi seleziona l&#39;opzione **Utilizza Impegno di lavoro per calcolare automaticamente le ore pianificate per l&#39;attività**. Questa opzione è deselezionata per impostazione predefinita.
 
    ![](assets/nwe-work-effort-on-projects-350x182.png)
 
-   Per ulteriori informazioni sull’abilitazione dell’utilizzo dell’Impegno di lavoro su un progetto, consulta la sezione &quot;Impostazioni delle attività&quot; nella sezione [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md) articolo.
+   Per ulteriori informazioni sull&#39;abilitazione dell&#39;utilizzo dell&#39;impegno di lavoro in un progetto, vedere la sezione &quot;Impostazioni attività&quot; nell&#39;articolo [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. Clic **Attività** nel pannello a sinistra , fai clic sul nome di un’attività per accedervi.
-1. Fai clic su **Altro** menu ![](assets/more-icon.png), quindi fai clic su **Modifica**. Assicurati che l’attività abbia un tipo di durata semplice.
+1. Fai clic su **Attività** nel pannello a sinistra, quindi fai clic sul nome di un&#39;attività per accedervi.
+1. Fai clic sul menu **Altro** ![](assets/more-icon.png), quindi fai clic su **Modifica**. Assicurati che l’attività abbia un tipo di durata semplice.
 
    >[!TIP]
    >
    >È possibile aggiornare l&#39;Impegno di lavoro per un&#39;attività anche nella sezione Dettagli attività.
 
-1. In **Panoramica** , fare clic sul menu a discesa Impegno di lavoro per correggere la quantità di lavoro necessaria per completare l&#39;attività.
+1. Nell&#39;area **Panoramica**, fare clic sul menu a discesa Impegno di lavoro per correggere l&#39;impegno necessario per completare l&#39;attività.
 
    ![](assets/work-effort-on-edit-task-page-350x239.png)
 
    Per ulteriori informazioni sull&#39;aggiornamento del campo Impegno di lavoro per un&#39;attività, vedere gli articoli seguenti:
 
-   * La sezione &quot;Panoramica&quot; nella sezione [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md) articolo
+   * La sezione &quot;Panoramica&quot; nell&#39;articolo [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
    * [Gestire le informazioni sull&#39;attività nell&#39;area Panoramica dettagli attività](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
 
 ## Livelli di impegno di lavoro {#levels-of-work-effort}
@@ -134,9 +134,9 @@ In qualità di project manager, puoi identificare tre livelli di impegno di lavo
 
 Quando si imposta il livello di Impegno di lavoro, è necessario porsi la domanda: &quot;Quanto tempo deve trascorrere quotidianamente un utente assegnato a questa attività per completarla in tempo?&quot;
 
-La tabella seguente illustra i possibili livelli di Impegno di lavoro e le relative percentuali corrispondenti predefinite. In qualità di project manager, puoi aggiornare le percentuali in base alle esigenze della tua organizzazione. Puoi eseguire questa operazione mentre modifichi un progetto. Per informazioni sulla modifica dei progetti, consulta [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
+La tabella seguente illustra i possibili livelli di Impegno di lavoro e le relative percentuali corrispondenti predefinite. In qualità di project manager, puoi aggiornare le percentuali in base alle esigenze della tua organizzazione. Puoi eseguire questa operazione mentre modifichi un progetto. Per informazioni sulla modifica dei progetti, vedere [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-In qualità di amministratore di Workfront, definisci le ore tipiche per giornata lavorativa nell’area Preferenze progetto di Configura. Si tratta della quantità giornaliera di tempo considerata come orario di lavoro. Per informazioni sulla configurazione delle preferenze di progetto per l’istanza di Workfront, consulta [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+In qualità di amministratore di Workfront, definisci le ore tipiche per giornata lavorativa nell’area Preferenze progetto di Configura. Si tratta della quantità giornaliera di tempo considerata come orario di lavoro. Per informazioni sulla configurazione delle preferenze di progetto per l&#39;istanza di Workfront, vedere [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 >[!NOTE]
 >
@@ -156,7 +156,7 @@ In qualità di amministratore di Workfront, definisci le ore tipiche per giornat
   </tr> 
   <tr> 
    <td>Medio</td> 
-   <td> <p>Un livello di impegno medio per il completamento di un'attività è impostato sul 50% delle ore tipiche per giorno lavorativo. Ciò significa che il completamento di un'attività assegnata a questo livello di Impegno di lavoro dovrebbe richiedere più di 2 e meno di 6 ore in un giorno. <code>(0.50*80=4)</code> </p> <p>Nota: quando l'impostazione Usa impegno di lavoro per calcolare automaticamente le ore pianificate per l'attività è abilitata nel progetto, questa è l'impostazione predefinita per un'attività, se l'attività aveva 0 ore pianificate prima che questa impostazione fosse abilitata. In questo modo l'attività Lavoro Necessario viene aggiornata a 4 ore. </p> </td> 
+   <td> <p>Un livello di impegno Medium per il completamento di un'attività è impostato sul 50% delle ore tipiche per giornata lavorativa. Ciò significa che il completamento di un'attività assegnata a questo livello di Impegno di lavoro dovrebbe richiedere più di 2 e meno di 6 ore in un giorno. <code>(0.50*80=4)</code> </p> <p>Nota: quando l'impostazione Usa impegno di lavoro per calcolare automaticamente le ore pianificate per l'attività è abilitata nel progetto, questa è l'impostazione predefinita per un'attività, se l'attività aveva 0 ore pianificate prima che questa impostazione fosse abilitata. In questo modo l'attività Lavoro Necessario viene aggiornata a 4 ore. </p> </td> 
   </tr> 
   <tr> 
    <td>Grande</td> 
@@ -173,7 +173,7 @@ Quando si abilita l&#39;impostazione Usa impegno di lavoro per calcolare automat
 Task Planned Hours = Number of days in task Duration * Work Effort percentage * Typical hours per work day
 ```
 
-Ad esempio, un&#39;attività con una durata di 3 giorni e un impegno di lavoro medio ha 12 ore pianificate:
+Ad esempio, un&#39;attività con una durata di 3 giorni e un impegno di lavoro di Medium ha 12 ore pianificate:
 
 ```
 Planned Hours = 3*4=12
@@ -195,7 +195,7 @@ Workfront utilizza la formula seguente per aggiornare il livello di Impegno di l
 Work Effort level = Task Planned Hours / Duration / Typical hours per work day
 ```
 
-Ad esempio, se un&#39;attività ha una Durata di 2 giorni e si aggiornano le Ore pianificate da 8 a 20 ore, l&#39;Impegno di lavoro per l&#39;attività viene aggiornato da Medio a Grande:
+Ad esempio, se un&#39;attività ha una Durata di 2 giorni e si aggiornano le Ore pianificate da 8 a 20 ore, l&#39;Impegno di lavoro per l&#39;attività viene aggiornato da Medium a Grande:
 
 ```
 Work Effort level = 20 / 2 / 8 = 125 % = Large

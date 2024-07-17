@@ -28,7 +28,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe [!DNL Workfront] licenza</strong></td> 
+   <td role="rowheader"><strong>Licenza Adobe [!DNL Workfront]</strong></td> 
    <td> <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
@@ -71,25 +71,25 @@ I seguenti pulsanti filtro non vengono visualizzati nelle rispettive aree:
 
 ## Soluzione
 
-I pulsanti di filtro in [!UICONTROL Progetti e schede orario] L’area non viene visualizzata perché i filtri corrispondenti non sono inclusi nel modello di layout applicato all’utente. Il [!DNL Workfront] l’amministratore deve assegnare un modello di layout che includa i filtri.
+I pulsanti filtro nell&#39;area [!UICONTROL Progetti e schede orario] non vengono visualizzati perché i filtri corrispondenti non sono inclusi nel modello di layout applicato all&#39;utente. L&#39;amministratore [!DNL Workfront] deve assegnare un modello di layout che includa i filtri.
 
 >[!NOTE]
 >
->A volte i filtri vengono rimossi dal [!UICONTROL Controlli elenco] area in [!UICONTROL Configurazione]. Il [!DNL Workfront] affinché siano disponibili nei modelli di layout, l&#39;amministratore deve includerli negli elenchi di quest&#39;area.
+>A volte i filtri vengono rimossi dall&#39;area [!UICONTROL Controlli elenco] in [!UICONTROL Configurazione]. L&#39;amministratore [!DNL Workfront] deve includerli negli elenchi in quest&#39;area affinché siano disponibili nei modelli di layout.
 
 1. Verifica che nel modello di layout siano visualizzati i seguenti filtri:
 
-   * [!UICONTROL Progetti a cui collaboro] e [!UICONTROL Progetti di mia proprietà] nel [!UICONTROL Progetti] area
-   * [!UICONTROL Le mie approvazioni schede orario] e [!UICONTROL Le mie schede orario] nel [!UICONTROL Scheda orario] area
+   * [!UICONTROL Progetti di cui sono Responsabile] e [!UICONTROL Progetti di cui sono Proprietario] nell&#39;area [!UICONTROL Progetti]
+   * [!UICONTROL Le mie approvazioni schede orario] e [!UICONTROL Le mie schede orario] nell&#39;area [!UICONTROL Scheda orario]
 
    Per eseguire questa operazione:
 
    1. Accedere al modello di layout.
-   1. Seleziona **[!UICONTROL Elenchi]** in **[!UICONTROL Personalizzare gli elementi visualizzati dagli utenti]**.
+   1. Seleziona **[!UICONTROL Elenchi]** in **[!UICONTROL Personalizza gli elementi visualizzati dagli utenti]**.
    1. Seleziona **[!UICONTROL Progetti]** o **[!UICONTROL Schede orario]** in **[!UICONTROL Seleziona un elenco da personalizzare]**.
-   1. In **[!UICONTROL Filtro]** , verifica che **[!UICONTROL Progetti a cui collaboro]**, **[!UICONTROL Progetti di mia proprietà]** (per i progetti) e **[!UICONTROL Le mie approvazioni schede orario]** e **[!UICONTROL Le mie schede orario]** (per le schede orario).
+   1. Nella sezione **[!UICONTROL Filtro]**, verifica che siano selezionati **[!UICONTROL Progetti di cui sono proprietario]**, **[!UICONTROL Progetti di cui sono proprietario]** (per i progetti) e **[!UICONTROL Le mie approvazioni schede orario]** e **[!UICONTROL Le mie schede orario]** (per le schede orario).
    1. Fai clic su **[!UICONTROL Salva]**.
 
-   Per ulteriori informazioni, consulta [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+   Per ulteriori informazioni, vedere [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. Assegna il modello layout agli utenti, ai ruoli, ai team o ai gruppi appropriati. Per informazioni, consulta [Assegnare utenti a un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+1. Assegna il modello layout agli utenti, ai ruoli, ai team o ai gruppi appropriati. Per informazioni, vedere [Assegnare gli utenti a un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).

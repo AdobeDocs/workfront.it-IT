@@ -43,18 +43,18 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Accesso amministrativo ai moduli personalizzati</p> <p>Per informazioni sulle modalità di concessione dell'accesso da parte degli amministratori di Workfront, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Concedere agli utenti l'accesso amministrativo a determinate aree</a>.</p> </td> 
+   <td> <p>Accesso amministrativo ai moduli personalizzati</p> <p>Per informazioni su come gli amministratori di Workfront concedono questo accesso, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Concedere agli utenti l'accesso amministrativo ad alcune aree</a>.</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;Per informazioni sulle configurazioni di piano, tipo di licenza o livello di accesso disponibili, contattare l&#39;amministratore Workfront.
+&#42;Per informazioni sulle configurazioni del piano, del tipo di licenza o del livello di accesso disponibili, contattare l&#39;amministratore Workfront.
 
 ## Considerazioni per l’utilizzo della logica di visualizzazione e della logica di salto
 
 * Per aggiungere la logica di visualizzazione a un campo personalizzato, a un widget o a un&#39;interruzione di sezione, è necessario posizionare almeno un campo a scelta multipla (pulsanti di scelta, elenco a discesa o caselle di controllo) prima di inserirlo nel modulo.
 
-  Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, vedi [Aggiungere un campo personalizzato a un modulo personalizzato con il generatore di moduli legacy](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) e [Aggiungere o modificare un widget di risorse in un modulo personalizzato con il generatore di moduli legacy](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+  Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, consulta [Aggiungere un campo personalizzato a un modulo personalizzato con il generatore di moduli legacy](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) e [Aggiungere o modificare un widget di risorse in un modulo personalizzato con il generatore di moduli legacy](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 * Non è possibile aggiungere logica di salto a un widget o a un’interruzione di sezione. È possibile aggiungerlo solo a un campo a scelta multipla (pulsanti di scelta, menu a discesa o caselle di controllo).
 
@@ -78,64 +78,64 @@ Il modo migliore per imparare ad aggiungere logica di visualizzazione e salto a 
 
 ### Logica di visualizzazione {#display-logic}
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
 1. Nel pannello a sinistra, fai clic su **Forms personalizzato**.
 
 1. Crea il modulo personalizzato di esempio:
 
-   1. Clic **Nuovo modulo personalizzato**, quindi fai clic su **Progetto** nell’elenco a discesa.
+   1. Fai clic su **Nuovo modulo personalizzato**, quindi su **Progetto** nell&#39;elenco a discesa.
 
-   1. In **Titolo modulo** casella, digitare **Modulo personalizzato di esempio: logica di visualizzazione e logica di salto dell’apprendimento**.
+   1. Nella casella **Titolo modulo**, digita **Modulo personalizzato di esempio - Logica di visualizzazione apprendimento e logica di salto**.
 
-   1. Clic **Aggiungi un campo** nell’angolo superiore sinistro.
-   1. Aggiungi un campo a discesa denominato *Campo Issue* facendo clic su **A discesa**, quindi digita **Campo Issue** nel **Etichetta** casella.
+   1. Fai clic su **Aggiungi un campo** nell&#39;angolo superiore sinistro.
+   1. Aggiungi un campo a discesa denominato *Campo problema* facendo clic su **Elenco**, quindi digitando **Campo problema** nella casella **Etichetta**.
 
-   1. Sotto **Scelte**, aggiungi le seguenti scelte nelle caselle di testo:
+   1. In **Scelte**, aggiungi le seguenti scelte nelle caselle di testo:
 
       Ricerca necessaria
 
       Niente più ricerche
 
-   1. Clic **Salva e chiudi** nell’angolo in basso a sinistra.
+   1. Fai clic su **Salva + Chiudi** nell&#39;angolo in basso a sinistra.
 
-1. Seleziona il nuovo **Modulo personalizzato di esempio: logica di visualizzazione e logica di salto dell’apprendimento** modulo personalizzato, quindi fai clic su **Modifica**.
+1. Seleziona il nuovo modulo personalizzato **Esempio - Logica di visualizzazione apprendimento e logica di salto**, quindi fai clic su **Modifica**.
 
-1. Aggiungi un nuovo campo di testo a riga singola denominato *Altre ricerche* facendo clic su **Campo di testo a riga singola**, quindi digita **Altre ricerche** nel **Etichetta** casella.
+1. Aggiungi un nuovo campo di testo a riga singola denominato *Altre ricerche* facendo clic su **Campo di testo a riga singola**, quindi digitando **Altre ricerche** nella casella **Etichetta**.
 
-1. Clic **Aggiungi logica** nella parte inferiore sinistra della **Modifica modulo personalizzato** schermo.
+1. Fare clic su **Aggiungi logica** nella parte inferiore sinistra della schermata **Modifica modulo personalizzato**.
 
-1. Nella casella visualizzata, con **Logica di visualizzazione** , impostare la logica per quando si apre **Altre ricerche** verrà visualizzato nel modulo facendo clic su **Campo Issue** nel primo elenco a discesa, **Ricerca necessaria** nel secondo elenco a discesa, e **Selezionato** nel terzo elenco a discesa.
-1. Clic **Salva** per chiudere **Logica campo** , quindi fai clic su **Fine** nel **Impostazioni campo** area.
+1. Nella casella visualizzata, con la scheda **Logica di visualizzazione** aperta, impostare la logica per la visualizzazione del campo **Altre ricerche** nel modulo facendo clic sul campo **Problema** nel primo elenco a discesa, sul campo **Ricerche necessarie** nel secondo elenco a discesa e sul campo **Selezionato** nel terzo.
+1. Fai clic su **Salva** per chiudere la finestra **Logica campo**, quindi fai clic su **Fine** nell&#39;area **Impostazioni campo**.
 
-   Ora, quando qualcuno seleziona **Ricerca necessaria** nel **Campo Issue** a discesa, il **Altre ricerche** verrà visualizzato.
+   Ora, quando qualcuno seleziona **Ricerche necessarie** nel menu a discesa **Campo problema**, verrà visualizzato il campo **Altre ricerche**.
 
-1. Clic **Anteprima** per assicurarsi che la logica venga visualizzata nel modo desiderato nel modulo.
-1. Clic **Fine anteprima** quando scopri che la logica funziona come previsto.
-1. Clic **Salva e chiudi** il **Modifica modulo personalizzato** per salvare il modulo, quindi continuare con [Logica di salto](#skip-logic) di seguito.
+1. Fare clic su **Anteprima** per verificare che la logica sia visualizzata nel modo desiderato nel modulo.
+1. Fare clic su **Fine anteprima** quando si rileva che la logica funziona come previsto.
+1. Fai clic su **Salva + Chiudi** nella finestra **Modifica modulo personalizzato** per salvare il modulo, quindi continua con [Ignora logica](#skip-logic) di seguito.
 
 ### Logica di salto {#skip-logic}
 
 Ignora funzioni logiche simili alla logica di visualizzazione, ma agiscono come l’inverso: invece di fare apparire campi personalizzati a scelta multipla specifici in base a selezioni specifiche, puoi determinare quali devono essere ignorate, in base alle selezioni degli utenti.
 
-Per saperne di più, continua a lavorare al modulo personalizzato di esempio creato nella sezione [Logica di visualizzazione](#display-logic) in questo articolo:
+Per saperne di più, continua a lavorare sul modulo personalizzato di esempio creato nella sezione [Logica di visualizzazione](#display-logic) in questo articolo:
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
-1. Clic **Forms personalizzato**.
-1. Seleziona il modulo **Modulo personalizzato di esempio: logica di visualizzazione e logica di salto dell’apprendimento** creato nei passaggi precedenti, quindi fai clic su **Modifica**.
+1. Fare clic su **Forms personalizzato**.
+1. Seleziona il modulo **Modulo personalizzato di esempio - Logica di visualizzazione di apprendimento e logica di salto** creato nei passaggi precedenti, quindi fai clic su **Modifica**.
 
-1. Seleziona il campo a discesa creato denominato *Campo Issue*.
-1. Fai clic su **Aggiungi logica** pulsante in **Impostazioni campo** barra laterale.
+1. Selezionare il campo a discesa creato denominato *Campo problema*.
+1. Fai clic sul pulsante **Aggiungi logica** nella barra laterale **Impostazioni campo**.
 
-1. In **Logica campo** , assicurarsi che il **Salta logica** è selezionata.
+1. Nella casella **Logica campo**, accertati che sia selezionata la scheda **Salta logica**.
 
-1. Impostare il primo elenco a discesa su **Niente più ricerche** e il secondo elenco a discesa per **Selezionato**.
+1. Imposta il primo elenco a discesa su **Non effettuare altre ricerche** e il secondo su **Selezionati**.
 
-1. In **Quindi Passa A** a discesa, seleziona **Fine del modulo.**
+1. Nel menu a discesa **Quindi vai a**, seleziona **Fine modulo.**
 
-   Ora, quando qualcuno seleziona **Niente più ricerche** nel **Campo Issue** , il modulo salterà direttamente alla fine del modulo senza visualizzare il **Altre ricerche** campo.
+   Ora, quando qualcuno seleziona **Non effettuare altre ricerche** nel campo a discesa **Campo problema**, il modulo salterà direttamente alla fine del modulo senza visualizzare il campo **Altre ricerche**.
 
 1. Fai clic su **Salva**.
-1. Clic **Anteprima**  per assicurarti che la logica venga applicata nel modo desiderato.
-1. Clic **Fine** in basso a sinistra nel modulo.
+1. Fai clic su **Anteprima** per assicurarti che la logica venga applicata nel modo desiderato.
+1. Fai clic su **Fine** in basso a sinistra nel modulo.

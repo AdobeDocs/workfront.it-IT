@@ -24,7 +24,7 @@ A seconda delle esigenze aziendali dell’organizzazione, il lavoro definito in 
 
 Per trasferire i dati del modulo personalizzato da un problema a un’attività o a un progetto, è necessario completare le due attività di questo articolo, nell’ordine seguente.
 
-Per ulteriori informazioni, consulta [Panoramica sulla conversione dei problemi in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md) o [Panoramica sulla conversione dei problemi in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+Per ulteriori informazioni, vedere [Panoramica sulla conversione dei problemi in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md) o [Panoramica sulla conversione dei problemi in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 ## Requisiti di accesso
 
@@ -58,28 +58,28 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 {{step-1-to-setup}}
 
-1. Clic **Forms personalizzato**.
-1. Trova il modulo desiderato, quindi fai clic su ![Icona Modifica](assets/edit-icon.png).
+1. Fare clic su **Forms personalizzato**.
+1. Trova il modulo necessario, quindi fai clic sull&#39;icona ![Modifica](assets/edit-icon.png).
 1. Nella parte superiore del modulo, aggiungi l’oggetto in cui intendi convertire l’attività o il problema.
 
    >[!INFO]
    >
-   >**Esempio**: per trasferire i dati del modulo personalizzato a un progetto, seleziona Progetto.
+   >**Esempio**: se si desidera trasferire i dati del modulo personalizzato in un progetto, selezionare Progetto.
 
-1. Clic **Applica** nella parte inferiore del modulo.
+1. Fai clic su **Applica** nella parte inferiore del modulo.
 
-1. Continua su [Secondo: convertire il problema o l’attività e trasferire i dati del modulo personalizzato](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data).
+1. Continua su [Secondo: converti il problema o l&#39;attività e trasferisci i dati del modulo personalizzato](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data).
 
 ## Secondo: convertire il problema o l’attività e trasferire i dati del modulo personalizzato {#second-convert-the-issue-or-task-and-transfer-the-custom-form-data}
 
-1. Aggiungere altri oggetti al modulo personalizzato sul problema o sull’attività che si sta convertendo, come spiegato nella sezione [Primo: aggiungere altri oggetti al modulo personalizzato](#first-add-additonal-objects-to-the-custom-form) in questo articolo.
-1. Convertire il problema o l’attività utilizzando **Forms personalizzato** nella casella visualizzata per selezionare il modulo personalizzato necessario. Per istruzioni, vedere i seguenti articoli:
+1. Aggiungere altri oggetti al modulo personalizzato per il problema o l&#39;attività da convertire, come illustrato nella sezione [Primo: aggiungere altri oggetti al modulo personalizzato](#first-add-additonal-objects-to-the-custom-form) in questo articolo.
+1. Convertire il problema o l&#39;attività utilizzando l&#39;opzione **Forms** personalizzato nella casella visualizzata per selezionare il modulo personalizzato necessario. Per istruzioni, vedere i seguenti articoli:
 
    * [Convertire un problema in un progetto in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
    * [Convertire un problema in un’attività in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
    * [Convertire un’attività in un progetto](../../../manage-work/tasks/manage-tasks/convert-task-to-project.md)
 
-1. In **Converti in (tipo oggetto)** visualizzata, fare clic sul pulsante **Aggiungi Forms** e selezionare il modulo copiato nella sezione precedente.
+1. Nella finestra di dialogo **Converti in (tipo di oggetto)** visualizzata, fare clic sul menu a discesa **Aggiungi Forms** e selezionare il modulo copiato nella sezione precedente.
 
    Le informazioni acquisite nei campi personalizzati del problema ora vengono trasferite al modulo personalizzato per l’attività.
 

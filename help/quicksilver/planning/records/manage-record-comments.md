@@ -29,7 +29,7 @@ ht-degree: 0%
 Nel pannello destro di un record vengono visualizzate le sezioni riportate di seguito.
 
 * **Commenti**: visualizza i commenti e le risposte aggiunte dagli utenti ai record.
-* **Cronologia**: visualizza le modifiche registrate dal sistema apportate dagli utenti ai campi record. Per ulteriori informazioni, consulta [Panoramica della sezione Cronologia](/help/quicksilver/planning/records/history-section-overview.md).
+* **Cronologia**: visualizza le modifiche registrate dal sistema apportate dagli utenti ai campi record. Per ulteriori informazioni, vedere [Panoramica della sezione Cronologia](/help/quicksilver/planning/records/history-section-overview.md).
 
 ## Requisiti di accesso
 
@@ -73,14 +73,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>
 <tr>
    <td role="rowheader"><p>Autorizzazioni</p></td>
-   <td> <p>Visualizzare o modificare le autorizzazioni per un'area di lavoro</a> </p>  
+   <td> <p>Visualizza o autorizzazioni superiori per un'area di lavoro</a> </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>L'amministratore del Workfront o del gruppo deve aggiungere l'area Planning nel modello di layout. Per informazioni, consulta <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica degli accessi</a>. </p>  
+   <td> <p>L'amministratore del Workfront o del gruppo deve aggiungere l'area Planning nel modello di layout. Per informazioni, vedere <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica dell'accesso</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -95,7 +95,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 * È possibile aggiungere commenti ai record di Workfront Planning creati come risultato di una connessione tra un record e un oggetto di un&#39;altra applicazione.
 
-  È ad esempio possibile aggiungere un commento al record Pianificazione di Workfront Project dopo aver collegato i progetti Workfront ai record Pianificazione di Workfront. Per ulteriori informazioni, consulta [Collega record](/help/quicksilver/planning/records/connect-records.md).
+  È ad esempio possibile aggiungere un commento al record Pianificazione di Workfront Project dopo aver collegato i progetti Workfront ai record Pianificazione di Workfront. Per ulteriori informazioni, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md).
 
 * I commenti aggiunti agli oggetti collegati in altre applicazioni non vengono visualizzati in Workfront Planning, mentre i commenti aggiunti agli oggetti collegati in Workfront Planning non vengono visualizzati in altre applicazioni.
 
@@ -130,14 +130,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Fare clic su una scheda del tipo di record.
 Viene visualizzata la pagina del tipo di record e vengono visualizzati tutti i record di quel tipo.
 
-1. Scegliere una vista tabella dal menu **Visualizza** menu a discesa.
+1. Scegliere una vista tabella dal menu a discesa **Visualizza**.
 1. Fare clic sul nome di un record nella vista tabella.
 
-   Il record **Dettagli** viene visualizzata la pagina. L’area Commenti (Comments) viene visualizzata per impostazione predefinita nel pannello di destra.
+   Viene aperta la pagina **Dettagli** del record. L’area Commenti (Comments) viene visualizzata per impostazione predefinita nel pannello di destra.
 
-1. (Condizionale) Se il pannello a destra non si apre per impostazione predefinita, fai clic sul pulsante **Mostra commenti** ![](assets/show-comments-icon.png) nell’angolo in alto a destra per aprire la sezione Commenti.
+1. (Condizionale) Se il pannello destro non si apre per impostazione predefinita, fai clic sull&#39;icona **Mostra commenti** ![](assets/show-comments-icon.png) nell&#39;angolo superiore destro per aprire la sezione Commenti.
 
-1. Inizia a immettere un commento in **Nuovo commento** casella.
+1. Inizia a immettere un commento nella casella **Nuovo commento**.
 
    ![](assets/empty-comment-box-on-record.png)
 
@@ -148,11 +148,11 @@ Viene visualizzata la pagina del tipo di record e vengono visualizzati tutti i r
 1. (Facoltativo) Per annullare o ripristinare una modifica, utilizzare i seguenti tasti di scelta rapida:
    * CTRL + Z (⌘+z per Mac) per annullare una modifica
    * CTRL+Y (⌘+y per Mac) per ripetere una modifica
-1. (Facoltativo) Aggiungi **@** seguito dal nome di un utente per assegnare un tag a qualcuno nell’aggiornamento.
+1. (Facoltativo) Aggiungi **@** seguito dal nome di un utente per assegnare un tag a qualcuno nell&#39;aggiornamento.
 
    <!--Adobe Unified Experience users can receive an in-app and an email notification when they are tagged. All other users receive an email when they are tagged. For more information, see the section [Considerations about commenting on a record](#considerations-about-commenting-on-a-record) in this article. -->
 
-1. (Facoltativo) Utilizza le opzioni nella barra degli strumenti Testo formattato per formattare il testo, aggiungere emoticon, collegamenti o immagini all’aggiornamento, per migliorare i contenuti. Per ulteriori informazioni, consulta la sezione &quot;Utilizzare Rich Text in un aggiornamento di Workfront&quot; nell’articolo [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Facoltativo) Utilizza le opzioni nella barra degli strumenti Testo formattato per formattare il testo, aggiungere emoticon, collegamenti o immagini all’aggiornamento, per migliorare i contenuti. Per ulteriori informazioni, vedere la sezione &quot;Use Rich Text in a Workfront update&quot; nell&#39;articolo [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
    >[!TIP]
    >
@@ -162,8 +162,8 @@ Viene visualizzata la pagina del tipo di record e vengono visualizzati tutti i r
    >
    >![](assets/new-line-indicator-comments.png)
 
-1. Clic **Invia** per aggiungere l&#39;aggiornamento al record.
-1. (Facoltativo) Per modificare un commento, fai clic su **Altro** menu ![](assets/more-menu.png) nell’angolo superiore destro del commento, quindi fai clic su **Modifica**.
+1. Fai clic su **Invia** per aggiungere l&#39;aggiornamento al record.
+1. (Facoltativo) Per modificare un commento, fai clic sul menu **Altro** ![](assets/more-menu.png) nell&#39;angolo superiore destro del commento, quindi fai clic su **Modifica**.
 
    >[!IMPORTANT]
    >
@@ -175,32 +175,32 @@ Viene visualizzata la pagina del tipo di record e vengono visualizzati tutti i r
    >
    >Nei commenti relativi all&#39;anno corrente non viene visualizzato l&#39;anno nel timbro data. Passando il puntatore del mouse su una marca temporale viene visualizzata la data completa, incluso l’anno.
 
-1. (Facoltativo e condizionale) Per cercare un commento esistente, inizia a digitare una parola chiave nella casella di ricerca nell&#39;angolo superiore destro del **Commenti** area.
+1. (Facoltativo e condizionale) Per cercare un commento esistente, inizia a digitare una parola chiave nella casella di ricerca nell&#39;angolo superiore destro dell&#39;area **Commenti**.
 
    ![](assets/search-box-for-comments-area.png)
 
-1. (Facoltativo) Fai clic su **Rispondi** o inizia a digitare un commento nel **Aggiungi risposta...** per rispondere a un commento esistente, quindi seguire i passaggi 4-8 sopra. <!--(**************accurate??***********)-->
+1. (Facoltativo) Fai clic su **Rispondi** o inizia a digitare un commento nell&#39;area **Aggiungi risposta ...**, per rispondere a un commento esistente, quindi segui i passaggi 4-8 di cui sopra. <!--(**************accurate??***********)-->
 
-1. (Condizionale e facoltativo) Se altri utenti hanno aggiunto commenti visualizzati al di fuori dell’area visibile nella sezione Commenti durante l’aggiunta dei commenti, fai clic su **Visualizza** all&#39;interno del **banner nuovi commenti** nella parte inferiore dello schermo per visualizzare questi commenti.
+1. (Condizionale e facoltativo) Se altri utenti hanno aggiunto commenti visualizzati al di fuori dell&#39;area visibile nella sezione Commenti durante l&#39;aggiunta dei commenti, fare clic su **Visualizza** all&#39;interno del banner **nuovi commenti** nella parte inferiore della schermata per visualizzare i commenti.
 
    ![](assets/new-comments-banner-on-record.png)
 
    Ulteriori commenti vengono visualizzati nella parte inferiore dello schermo.
 
-1. (Facoltativo) Fai clic su **Mi piace** o confermare di averlo letto. L’icona si aggiorna con il numero di Mi piace.
+1. (Facoltativo) Fai clic sull&#39;icona **Mi piace** per visualizzare un aggiornamento o confermare di averlo letto. L’icona si aggiorna con il numero di Mi piace.
 1. (Condizionale e facoltativo) Se hai incluso altre persone nel commento, fai clic sugli avatar degli utenti inclusi nell’aggiornamento per visualizzare un elenco di utenti con cui il commento è condiviso.
-1. (Facoltativo) Fai clic su **Altro** icona ![](assets/more-menu.png) nell&#39;angolo superiore destro del commento e fare clic su una delle opzioni seguenti per copiare un&#39;informazione da un commento:
+1. (Facoltativo) Fai clic sull&#39;icona **Altro** ![](assets/more-menu.png) nell&#39;angolo superiore destro del commento e fai clic su una delle seguenti opzioni per copiare un&#39;informazione da un commento:
 
-   * **Copia collegamento**: copia negli Appunti un collegamento al commento.
+   * **Copia collegamento**: copia un collegamento al commento negli Appunti.
    * **Copia corpo del testo**: copia il testo del commento negli Appunti.
-   * **Risposta preventivo**: copia il contenuto del commento in una nuova risposta. Le immagini non sono incluse nella risposta copiata.
+   * **Risposta al preventivo**: copia il contenuto del commento in una nuova risposta. Le immagini non sono incluse nella risposta copiata.
 
-   Per ulteriori informazioni, consulta [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Facoltativo) Fai clic su **Altro** icona ![](assets/more-menu.png) nell’angolo superiore destro del commento, quindi fai clic su **Elimina** per eliminare il commento.
-1. (Facoltativo) Fai clic su **Nascondi commenti** icona ![](assets/hide-comments-icon.png) per chiudere il pannello destro.
+   Per ulteriori informazioni, vedere [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Facoltativo) Fai clic sull&#39;icona **Altro** ![](assets/more-menu.png) nell&#39;angolo superiore destro del commento, quindi fai clic su **Elimina** per eliminare il commento.
+1. (Facoltativo) Fai clic sull&#39;icona ![](assets/hide-comments-icon.png) di **Nascondi commenti** per chiudere il pannello a destra.
 
 ## Panoramica della sezione Cronologia
 
 È possibile esaminare le modifiche apportate al record nella sezione Cronologia del pannello di destra di un record.
 
-Per ulteriori informazioni, consulta [Panoramica della sezione Cronologia](/help/quicksilver/planning/records/history-section-overview.md).
+Per ulteriori informazioni, vedere [Panoramica della sezione Cronologia](/help/quicksilver/planning/records/history-section-overview.md).

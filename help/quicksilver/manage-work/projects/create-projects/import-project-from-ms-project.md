@@ -21,7 +21,7 @@ Puoi importare progetti da Microsoft Project ad Adobe Workfront e gestire tutti 
 >
 >Non tutti i campi del progetto Microsoft vengono trasferiti a Workfront.
 >
->Per ulteriori informazioni sulla compatibilità dei campi tra Workfront e Microsoft Project, consulta [Mappare i campi del progetto Microsoft ai progetti Adobe Workfront](../../../manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md).
+>Per ulteriori informazioni sulla compatibilità dei campi tra Workfront e Microsoft Project, vedere [Mappatura dei campi di Microsoft Project ai progetti Adobe Workfront](../../../manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md).
 
 ## Requisiti di accesso
 
@@ -44,11 +44,11 @@ Puoi importare progetti da Microsoft Project ad Adobe Workfront e gestire tutti 
    <td role="rowheader">Livello di accesso*</td> 
    <td> <p>Modifica accesso ai progetti</p> <p><b>NOTA</b>
 
-Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni sull’accesso ai progetti, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Concedere l’accesso ai progetti</a>. Per informazioni su come un amministratore di Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>. </p> </td>
+Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni sull&#39;accesso ai progetti, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Concedere l&#39;accesso ai progetti</a>. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>. </p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Quando crei un progetto, ricevi automaticamente le autorizzazioni di gestione per il progetto </p> <p> Per informazioni sulle autorizzazioni per i progetti, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Condividere un progetto in Adobe Workfront</a>.</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Quando crei un progetto, ricevi automaticamente le autorizzazioni di gestione per il progetto </p> <p> Per informazioni sulle autorizzazioni del progetto, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Condividere un progetto in Adobe Workfront</a>.</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -91,21 +91,21 @@ You must have the following access to perform the steps in this article:
 Puoi creare un progetto dall’area Progetti nel Menu principale oppure dall’area Progetti di un portfolio o di un programma.
 
 1. Vai a Progetto Microsoft e apri un progetto da cui desideri importare in Workfront.
-1. Clic **File**, quindi **Salva con nome** per salvare il progetto come file xml.
+1. Fare clic su **File**, quindi su **Salva con nome** per salvare il progetto come file XML.
 
 1. Accedi a Workfront.
 1. Esegui una delle operazioni seguenti:
 
-   * Fai clic su **Menu principale** ![](assets/main-menu-icon.png), fai clic su **Progetti**, quindi espandi **Nuovo progetto**.
+   * Fai clic sul **menu principale** ![](assets/main-menu-icon.png), fai clic su **Progetti**, quindi espandi **Nuovo progetto**.
    * Vai a un portfolio, quindi espandi **Nuovo progetto**.
    * Vai a un programma, quindi espandi **Nuovo progetto**.
-   * Se sei un amministratore gruppo, puoi anche creare un progetto nella sezione Progetti di un gruppo che gestisci. Per ulteriori informazioni, consulta [Creare e modificare i progetti di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+   * Se sei un amministratore gruppo, puoi anche creare un progetto nella sezione Progetti di un gruppo che gestisci. Per ulteriori informazioni, vedere [Creare e modificare i progetti di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
-1. Scegli la **Importa MS Project** opzione.
+1. Scegliere l&#39;opzione **Importa MS Project**.
 
    ![](assets/new-project-dropdown-nwe-350x358.png)
 
-1. Clic **Seleziona file**, quindi cercare il file xml nel computer esportato da Microsoft Project.
+1. Fai clic su **Seleziona file**, quindi cerca il file .xml sul computer che hai esportato da Microsoft Project.
 1. Importa il file selezionato.
 
    Workfront avvia il processo di importazione e crea un nuovo progetto basato sul file esportato da Microsoft Project.
@@ -114,8 +114,8 @@ Puoi creare un progetto dall’area Progetti nel Menu principale oppure dall’a
 
    >[!NOTE]
    >
-   >Workfront ha un limite di tempo di 15 minuti per il caricamento dei file. Se il caricamento del file richiede più tempo, ti consigliamo di suddividere il progetto in progetti più piccoli e importarli separatamente. Dopo l&#39;importazione in Workfront, spostare le attività da un progetto all&#39;altro per combinarle in un progetto. Per informazioni sullo spostamento delle attività, vedere [Sposta le attività](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+   >Workfront ha un limite di tempo di 15 minuti per il caricamento dei file. Se il caricamento del file richiede più tempo, ti consigliamo di suddividere il progetto in progetti più piccoli e importarli separatamente. Dopo l&#39;importazione in Workfront, spostare le attività da un progetto all&#39;altro per combinarle in un progetto. Per informazioni sullo spostamento delle attività, vedere [Sposta attività](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
-1. (Facoltativo) Continua a modificare il progetto in Workfront. Per informazioni sulla modifica dei progetti, consulta [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
+1. (Facoltativo) Continua a modificare il progetto in Workfront. Per informazioni sulla modifica dei progetti, vedere [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-   Lo stato di un nuovo progetto creato da un modello corrisponde a quello definito dall&#39;amministratore di Workfront nell&#39;area Preferenze progetto o da un amministratore di gruppo nell&#39;area Preferenze progetto di gruppo. Per informazioni sulla configurazione delle preferenze del progetto, consulta [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   Lo stato di un nuovo progetto creato da un modello corrisponde a quello definito dall&#39;amministratore di Workfront nell&#39;area Preferenze progetto o da un amministratore di gruppo nell&#39;area Preferenze progetto di gruppo. Per informazioni sulla configurazione delle preferenze di progetto, vedere [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).

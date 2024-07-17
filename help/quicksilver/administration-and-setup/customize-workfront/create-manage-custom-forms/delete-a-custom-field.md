@@ -23,9 +23,9 @@ Per migliorare le prestazioni del sistema e semplificare l&#39;utilizzo dei modu
 >
 >L’eliminazione di un campo personalizzato comporta anche l’eliminazione di tutti i dati personalizzati immessi dagli utenti nel campo durante la compilazione dei moduli personalizzati allegati agli oggetti. I dati eliminati non possono essere recuperati.
 >
->È possibile visualizzare tutte le maschere e i report personalizzati che utilizzano un campo personalizzato che si desidera eliminare per valutare le possibili ripercussioni. Per ulteriori informazioni, consulta [Visualizzare tutti i moduli personalizzati che utilizzano un campo personalizzato o un widget particolare](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md) e [Visualizzare tutti i rapporti che utilizzano un particolare campo personalizzato o widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md).
+>È possibile visualizzare tutte le maschere e i report personalizzati che utilizzano un campo personalizzato che si desidera eliminare per valutare le possibili ripercussioni. Per ulteriori informazioni, vedere [Visualizzare tutti i moduli personalizzati che utilizzano un determinato campo personalizzato o widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md) e [Visualizzare tutti i report che utilizzano un determinato campo personalizzato o widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md).
 >
->In alternativa, per una soluzione alternativa che puoi utilizzare per evitare la perdita di dati in campi non più utilizzati, consulta [Rimuovere un campo personalizzato senza perdere i dati immessi dagli utenti](#remove-a-custom-field-without-losing-data-that-users-have-entered) in questo articolo.
+>In alternativa, per una soluzione alternativa che è possibile utilizzare per evitare la perdita di dati in campi non più utilizzati, vedere [Rimuovere un campo personalizzato senza perdere i dati immessi dagli utenti](#remove-a-custom-field-without-losing-data-that-users-have-entered) in questo articolo.
 
 ## Requisiti di accesso
 
@@ -59,10 +59,10 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 {{step-1-to-setup}}
 
-1. Clic **Forms personalizzato.**
-1. Clic **Campi** per aprire l&#39;area Campi.
+1. Fai clic su **Forms personalizzato.**
+1. Fare clic su **Campi** per aprire l&#39;area Campi.
 1. Seleziona il campo o il widget personalizzato, quindi fai clic su **Elimina**.
-1. Se si è certi di voler eliminare definitivamente l&#39;elemento e (nel caso di un campo personalizzato) tutti i dati associati sugli oggetti a cui è stato associato, fare clic su **Sì, elimina**.
+1. Se si è certi di voler eliminare definitivamente l&#39;elemento e (nel caso di un campo personalizzato) tutti i dati associati sugli oggetti a cui è associato, fare clic su **Sì, Elimina**.
 
 ## Rimuovere un campo personalizzato senza perdere i dati immessi dagli utenti {#remove-a-custom-field-without-losing-data-that-users-have-entered}
 
@@ -75,13 +75,13 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    1. Aggiungere i campi personalizzati al nuovo modulo che si desidera rimuovere dal modulo personalizzato originale.
 
-      * Se utilizzi il generatore di moduli personalizzati, consulta [Riutilizzare un campo personalizzato o un widget in un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
+      * Se utilizzi il generatore di moduli personalizzati, vedi [Riutilizzare un campo personalizzato o un widget in un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
       * Se si utilizza il progettista del modulo, vedere [Aggiungere campi nuovi o esistenti al modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form).
 
    1. Salva il nuovo modulo personalizzato.
 
 1. Limitare l&#39;accesso al modulo personalizzato solo agli utenti con accesso amministrativo, come descritto in [Condividere un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).
-1. Applicare il nuovo modulo personalizzato agli oggetti in cui è già applicato il modulo personalizzato originale, come descritto in [Aggiungere un modulo personalizzato a un oggetto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+1. Applicare il nuovo modulo personalizzato agli oggetti a cui è già applicato il modulo personalizzato originale, come descritto in [Aggiungere un modulo personalizzato a un oggetto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
    L’applicazione del nuovo modulo personalizzato a questi oggetti garantisce che i dati storici di reporting non siano interessati.
 

@@ -21,15 +21,15 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti apportati ad Adobe Workfront Fusion la settimana del 3 maggio 2021.
 
-Per un elenco di tutte le modifiche recenti, vedi [Attività di rilascio di Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Per un elenco di tutte le modifiche recenti, vedere [Attività di Adobe Workfront Fusion release](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedi [Aggiornamenti di manutenzione per Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
+Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedere la pagina [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
 
 ## Il connettore Salesforce può ora effettuare ricerche utilizzando SOQL
 
 Il modulo Salesforce > Cerca record dispone ora dell’opzione per eseguire ricerche utilizzando SOQL (Salesforce Object Query Language). È inoltre possibile eseguire ricerche utilizzando le opzioni disponibili in precedenza (SOSL e ricerche semplici).
 
-Per ulteriori informazioni, consulta [Moduli Salesforce](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md).
+Per ulteriori informazioni, vedere [Moduli Salesforce](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md).
 
 ## Il nuovo tipo di connessione nel connettore DevOps di Azure richiede un numero inferiore di ambiti
 
@@ -45,4 +45,4 @@ Per migliorare la sicurezza, è stato aggiunto un nuovo tipo di connettore al co
 
 È consigliabile utilizzare il tipo di connessione DevOps di Azure in tutti i nuovi scenari che utilizzano DevOps di Azure. È inoltre consigliabile modificare i moduli DevOps di Azure negli scenari esistenti per utilizzare il nuovo tipo di connessione. Il tipo di connessione legacy Azure DevOps (Richiedi tutti gli ambiti) diventerà obsoleto nel prossimo futuro.
 
-Per ulteriori informazioni, consulta [Moduli DevOps di Azure](../../../workfront-fusion/apps-and-their-modules/azure-dev-ops.md).
+Per ulteriori informazioni, vedere [Moduli DevOps di Azure](../../../workfront-fusion/apps-and-their-modules/azure-dev-ops.md).

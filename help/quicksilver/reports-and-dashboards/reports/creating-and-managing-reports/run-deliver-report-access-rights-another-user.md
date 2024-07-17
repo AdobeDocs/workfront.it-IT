@@ -23,8 +23,8 @@ Se esegui un rapporto con i diritti di accesso di un altro utente con un livello
 
 >[!TIP]
 >
->Sostituire il **Esegui questo report con i diritti di accesso di:** con un utente attivo solo quando si desidera che il report venga visualizzato con i diritti di accesso di tale utente. Ad esempio, un utente con licenza Lavoro potrebbe non disporre delle autorizzazioni necessarie per visualizzare tutti gli elementi di un report creato da un utente con licenza Pianificazione o da un amministratore di sistema, a meno che il report non venga visualizzato con i diritti di accesso di un planner o di un amministratore di sistema.\
-Se il report viene condiviso con utenti con un accesso simile a quello specificato nell&#39; **Esegui questo report con i diritti di accesso di:** , è possibile lasciare vuoto questo campo.
+>Sostituire **Esegui report con il campo Diritti di accesso di:** con un utente attivo solo quando si desidera visualizzare il report con i diritti di accesso di tale utente. Ad esempio, un utente con licenza Lavoro potrebbe non disporre delle autorizzazioni necessarie per visualizzare tutti gli elementi di un report creato da un utente con licenza Pianificazione o da un amministratore di sistema, a meno che il report non venga visualizzato con i diritti di accesso di un planner o di un amministratore di sistema.\
+>Se il report è condiviso con utenti con accesso simile a quello specificato dall&#39;utente nel campo **Esegui report con diritti di accesso di:**, è possibile lasciare vuoto il campo.
 
 ## Requisiti di accesso
 
@@ -48,66 +48,66 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizzare le autorizzazioni per un rapporto (per visualizzare il rapporto consegnato)</p> <p>Gestire le autorizzazioni per un report (per eseguire il report)</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Visualizzare le autorizzazioni per un rapporto (per visualizzare il rapporto consegnato)</p> <p>Gestire le autorizzazioni per un report (per eseguire il report)</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Visualizzare un report con i diritti di accesso di un altro utente
 
-Compilazione di **Esegui questo report con i diritti di accesso di:** fa sì che un rapporto contenga gli stessi dati, indipendentemente dall’utente che accede al rapporto. Il report viene visualizzato come per l&#39;utente specificato.
+Compilando il campo **Esegui report con i diritti di accesso di:** si garantisce che un report contenga gli stessi dati, indipendentemente dall&#39;utente che accede al report. Il report viene visualizzato come per l&#39;utente specificato.
 
-Per essere in grado di visualizzare il report, gli utenti che vi accedono devono disporre almeno delle autorizzazioni di visualizzazione. Se l’utente elencato in **Esegui questo report con i diritti di accesso di:** disattivato, il rapporto non viene più visualizzato per altri utenti con cui è condiviso.
+Per essere in grado di visualizzare il report, gli utenti che vi accedono devono disporre almeno delle autorizzazioni di visualizzazione. Se l&#39;utente elencato nel campo **Esegui il report con i diritti di accesso di:** è disattivato, il report non verrà più visualizzato per gli altri utenti con cui è condiviso.
 
 Per eseguire un report con i diritti di accesso di un altro utente:
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Workfront, quindi fai clic su **Rapporti**.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Workfront, quindi fai clic su **Rapporti**.
 
 1. Seleziona il report da visualizzare con i diritti di accesso di un altro utente.
-1. Clic **Azioni report**, quindi fai clic su **Modifica**.
+1. Fai clic su **Azioni report**, quindi su **Modifica**.
 
-1. Clic **Impostazioni dei rapporti**.
+1. Fare clic su **Impostazioni report**.
 
-1. In **Esegui questo report con i diritti di accesso di:** , inizia a digitare il nome dell&#39;utente che si desidera venga visualizzato nel report, quindi selezionalo quando lo visualizzi nell&#39;elenco.\
+1. Nel campo **Esegui il report con i diritti di accesso di:**, iniziare a digitare il nome dell&#39;utente con cui si desidera visualizzare il report, quindi selezionarlo quando viene visualizzato nell&#39;elenco.\
    ![](assets/qs-access-rights-of-350x251.png)
 
    >[!NOTE]
    >
-   Gli utenti con un livello di accesso inferiore che sono autorizzati a generare rapporti non possono selezionare un utente diverso da se stessi per **Esegui questo report con i diritti di accesso di:** campo.
+   >Gli utenti con un livello di accesso inferiore che sono autorizzati a generare report non possono selezionare un utente diverso da se stessi per il campo **Esegui report con diritti di accesso di:**.
 
-1. Clic **Fine**.
-1. Clic **Salva e chiudi**.\
-   Il rapporto ora viene visualizzato per tutti gli utenti con cui è condiviso, come se fosse visualizzato dall’utente specificato in **Esegui questo report con i diritti di accesso di:** campo.
+1. Fai clic su **Fine**.
+1. Fai clic su **Salva e Chiudi**.\
+   Il report viene ora visualizzato per tutti gli utenti con cui è condiviso come se fosse visualizzato dall&#39;utente specificato nel campo **Esegui il report con i diritti di accesso di:**.
 
 >[!IMPORTANT]
 >
-Inserimento di un utente diverso da quello connesso per **Esegui questo report con i diritti di accesso di:** influisce sulle informazioni visualizzate nel rapporto se questo contiene un filtro che utilizza un carattere jolly che fa riferimento all’utente connesso. Il rapporto viene visualizzato in base al valore specificato nella **Esegui questo report con i diritti di accesso di:** anziché quello definito nel filtro con caratteri jolly.
+>L&#39;immissione di un utente diverso dall&#39;utente connesso per il campo **Esegui il report con i diritti di accesso di:** ha effetto sulle informazioni visualizzate nel report se il report contiene un filtro che utilizza un carattere jolly che fa riferimento all&#39;utente connesso. Il report viene visualizzato in base al valore specificato in **Esegui il report con i diritti di accesso di:** anziché in base a quanto definito nel filtro con caratteri jolly.
 >
-Per ulteriori informazioni sui caratteri jolly per i campi utente, consulta la sezione &quot;Variabili basate sugli utenti&quot; in [Panoramica delle variabili filtro con caratteri jolly](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+>Per ulteriori informazioni sui caratteri jolly per i campi utente, vedere la sezione &quot;Variabili basate sull&#39;utente&quot; in [Panoramica sulle variabili filtro con caratteri jolly](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## Consegna di un report con i diritti di accesso di un altro utente
 
-Puoi impostare i rapporti da consegnare come allegati a un messaggio e-mail. Puoi impostare questi rapporti consegnati in modo che vengano visualizzati così come sono per gli utenti di un livello di accesso più alto, in modo che tutti gli utenti possano visualizzare le stesse informazioni nei rapporti consegnati. Gli utenti che vedranno il rapporto consegnato nell’e-mail devono essere aggiunti all’elenco Invia a dei destinatari all’interno della consegna del rapporto. Per ulteriori informazioni sulla configurazione di un rapporto per la consegna, consulta l’articolo [Panoramica sulla consegna dei rapporti](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+Puoi impostare i rapporti da consegnare come allegati a un messaggio e-mail. Puoi impostare questi rapporti consegnati in modo che vengano visualizzati così come sono per gli utenti di un livello di accesso più alto, in modo che tutti gli utenti possano visualizzare le stesse informazioni nei rapporti consegnati. Gli utenti che vedranno il rapporto consegnato nell’e-mail devono essere aggiunti all’elenco Invia a dei destinatari all’interno della consegna del rapporto. Per ulteriori informazioni sulla configurazione di un report per la consegna, consulta l&#39;articolo [Panoramica sulla consegna del report](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 Per consegnare un report con i diritti di accesso di un altro utente:
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Workfront, quindi fai clic su **Rapporti**.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Workfront, quindi fai clic su **Rapporti**.
 
 1. Seleziona il rapporto che desideri consegnare con i diritti di accesso di un altro utente.
 1. Fai clic sul nome del rapporto per selezionarlo.
-1. Clic **Azioni report**.
-1. Clic **Invia rapporto**.
+1. Fai clic su **Azioni report**.
+1. Fare clic su **Invia report**.
 
-1. In **Consegna questo report con i diritti di accesso di:** , inizia a digitare il nome dell’utente che desideri venga visualizzato nel rapporto come quando viene consegnato in un messaggio e-mail, quindi selezionalo quando lo visualizzi nell’elenco. L’impostazione predefinita è il nome dell’utente che genera il rapporto.\
+1. Nel campo **Consegna il report con i diritti di accesso di:**, iniziare a digitare il nome dell&#39;utente che si desidera visualizzare nel report come quando viene consegnato in un&#39;e-mail, quindi selezionarlo quando viene visualizzato nell&#39;elenco. L’impostazione predefinita è il nome dell’utente che genera il rapporto.\
    ![](assets/qs-send-report-access-rights-of-350x446.png)
 
    >[!NOTE]
    >
-   Gli utenti con un livello di accesso inferiore che sono autorizzati a generare rapporti non possono selezionare un utente diverso da se stessi per **Consegna il report con i diritti di accesso di:** campo.
+   >Gli utenti con un livello di accesso inferiore che sono autorizzati a generare report non possono selezionare un utente diverso da loro per il campo **Consegna il report con i diritti di accesso di:**.
 
-1. Seleziona la **Formato** desideri che il rapporto venga visualizzato nell’e-mail:
+1. Selezionare il **Formato** che si desidera venga visualizzato nel messaggio di posta elettronica:
 
    * HTML
    * PDF
@@ -115,24 +115,24 @@ Per consegnare un report con i diritti di accesso di un altro utente:
    * MS Excel (.xlsx)
    * TSV
 
-1. Clic **Invia ora** per inviarlo immediatamente.\
+1. Fai clic su **Invia ora** per inviarlo immediatamente.\
    Oppure\
-   Clic **Crea consegna ripetuta** per pianificare una consegna ricorrente per il rapporto.\
-   Per ulteriori informazioni sulle consegne dei rapporti, consulta l’articolo [Panoramica sulla consegna dei rapporti](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+   Fare clic su **Crea consegna ripetuta** per pianificare una consegna ricorrente per il report.\
+   Per ulteriori informazioni sulle consegne dei report, consulta l&#39;articolo [Panoramica sulla consegna dei report](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
-## Limitazioni per i rapporti con una colonna Origine
+## Limitazioni per i rapporti con una colonna Source
 
-Nei seguenti rapporti viene visualizzata una colonna Origine in cui è possibile visualizzare informazioni sull&#39;oggetto padre:
+Nei seguenti rapporti viene visualizzata una colonna Source in cui è possibile visualizzare informazioni sull&#39;oggetto padre:
 
 * Rapporti sui problemi
 * Rapporti orari
 * Report documenti
 
-Se gli utenti non dispongono delle autorizzazioni per l’oggetto principale di un problema, un’ora o un documento, la colonna Origine del rapporto risulta vuota, anche se il rapporto è configurato per la visualizzazione, o per essere consegnato con i diritti di accesso di un altro utente.
+Se gli utenti non dispongono delle autorizzazioni per l’oggetto principale di un problema, un’ora o un documento, la colonna Source del rapporto risulta vuota, anche se il rapporto è configurato per la visualizzazione, o per essere consegnato con i diritti di accesso di un altro utente.
 
 Per visualizzare informazioni sull&#39;oggetto padre nel report, è consigliabile aggiungere una colonna per l&#39;oggetto padre in cui è possibile visualizzare il nome dell&#39;oggetto padre.
 
-Ad esempio, è possibile aggiungere uno degli elementi seguenti a un report con una colonna Origine:
+Ad esempio, puoi aggiungere uno dei seguenti elementi a un rapporto con una colonna Source:
 
 * Le colonne Nome progetto, Nome attività o Nome problema in un documento o in una relazione sulle ore.
 * Le colonne Nome progetto o Nome attività di un report sui problemi.
@@ -154,4 +154,4 @@ Ad esempio, è possibile aggiungere uno degli elementi seguenti a un report con 
 
   `valueformat=HTML`
 
-  Per informazioni sulle visualizzazioni in modalità testo, vedere [Modificare una vista utilizzando la modalità testo](../text-mode/edit-text-mode-in-view.md).
+  Per informazioni sulle visualizzazioni in modalità testo, vedere [Modificare una visualizzazione utilizzando la modalità testo](../text-mode/edit-text-mode-in-view.md).

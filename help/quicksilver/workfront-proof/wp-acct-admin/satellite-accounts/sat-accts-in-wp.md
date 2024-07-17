@@ -3,8 +3,8 @@ content-type: overview;reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: satellite-accounts
-title: Account via satellite in [!DNL Workfront Proof]
-description: Gli account satellitari sono conti a pagamento che si impostano e gestiscono all'interno del proprio [!DNL Workfront Proof] conto.
+title: Account satellite in [!DNL Workfront Proof]
+description: Gli account satellitari sono account a pagamento configurati e gestiti dall'interno del tuo account  [!DNL Workfront Proof] .
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 139e9a6c-b9ed-4819-970b-d62f47ccd71b
@@ -15,47 +15,47 @@ ht-degree: 0%
 
 ---
 
-# Account via satellite in [!DNL Workfront Proof]
+# Account satellite in [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alla funzionalità del prodotto standalone [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Copertura](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
-Gli account satellitari sono conti a pagamento che si impostano e gestiscono all&#39;interno del proprio [!DNL Workfront Proof] conto.
+Gli account satellitari sono account a pagamento configurati e gestiti dall&#39;interno del proprio account [!DNL Workfront Proof].
 
-Il tuo account diventa un &quot;[!UICONTROL Hub],&quot; che viene utilizzato per gestire gli account Satellite ad esso collegati.
+Il tuo account diventa un &quot;[!UICONTROL Hub]&quot;, utilizzato per gestire gli account Satellite ad esso collegati.
 
-Non esiste alcun limite al numero di account Satellite che puoi impostare, in modo da poter creare un account separato per ciascuno dei tuoi clienti, se lo desideri.
+Non vi è alcun limite al numero di account Satellite che è possibile impostare, in modo da poter creare un account separato per ciascuno dei vostri clienti, se si desidera.
 
-Puoi aggiungere più utenti di un&#39;organizzazione all&#39;account Satellite e creare un account personalizzato e personalizzato in cui lavorare.
+Puoi aggiungere più utenti da un&#39;organizzazione all&#39;account Satellite e creare un account personalizzato e personalizzato in cui lavorare.
 
 ## Perché dovrei impostare un account Satellite?
 
-A [!DNL Workfront]spesso ci fanno queste domande:
+Alle [!DNL Workfront] vengono spesso poste le seguenti domande:
 
 * Posso creare un login per ciascuno dei miei clienti?
-* Come possono i clienti accedere senza visualizzare dati privati?
-* Devo aggiungere un freelancer al mio [!DNL Workfront Proof] account?
+* In che modo i clienti possono effettuare l’accesso senza visualizzare dati privati?
+* Devo aggiungere un freelance al mio account [!DNL Workfront Proof]?
 
-[!UICONTROL Prova Workfront] consente di condividere facilmente le bozze con chiunque abbia un indirizzo e-mail valido - non hanno nemmeno bisogno del proprio login a [!UICONTROL Prova Workfront].
+[!UICONTROL Workfront Proof] ti consente di condividere facilmente le bozze con chiunque abbia un indirizzo e-mail valido - non ha nemmeno bisogno del proprio accesso a [!UICONTROL Workfront Proof].
 
-Tuttavia, in alcuni casi potrebbe essere utile che i partecipanti al flusso di lavoro dispongano di un proprio accesso in modo che dispongano di un proprio dashboard e possano visualizzare tutte le bozze condivise con loro all’interno di un’unica posizione.
+Tuttavia, in alcuni casi potrebbe essere necessario che i partecipanti al flusso di lavoro dispongano di un accesso personalizzato, in modo che possano visualizzare tutte le bozze condivise con loro in un’unica posizione.
 
-Puoi anche aumentare la sicurezza delle bozze utilizzando il [!UICONTROL Accesso richiesto] , nel qual caso i revisori dovranno disporre del proprio accesso. Per ulteriori informazioni, consulta [Prova di sicurezza in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md).
+Puoi anche aumentare la sicurezza delle bozze utilizzando l&#39;impostazione [!UICONTROL Accesso richiesto], nel qual caso i revisori dovranno avere il proprio accesso. Per ulteriori informazioni, vedere [Protezione delle bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md).
 
-Ti consigliamo vivamente di non aggiungere persone esterne come utenti nel tuo [!DNL Workfront Proof] account, in quanto ciò potrebbe consentire loro l’accesso a informazioni che non desideri che visualizzino.
+Si consiglia vivamente di non aggiungere utenti esterni come utenti nel proprio account [!DNL Workfront Proof], in quanto ciò potrebbe consentire loro di accedere a informazioni che non si desidera che vedano.
 
-Quindi, come si impostano gli accessi per le persone in altre organizzazioni?
+Quindi, come si impostano gli accessi per gli utenti di altre organizzazioni?
 
-Creando account Satellite per i clienti.
+Creando account satellite per i clienti.
 
-## Caratteristiche principali e vantaggi dei conti via satellite
+## Principali caratteristiche e vantaggi dei conti satellite
 
-| **Funzione** | **Beneficio** |
+| **Funzionalità** | **Beneficio** |
 |---|---|
-| Gestito da te dall&#39;interno del tuo &quot;[!UICONTROL Hub]&quot; account | Gestire comodamente più account Satellite da un unico luogo |
-| Accesso personale per ogni utente nell&#39;account Satellite | Fornisce protezione aggiuntiva sulle bozze (le bozze possono essere protette da password). Per ulteriori informazioni, consulta  [Prova di sicurezza in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md)). |
-| Branding personalizzato per il cliente | Puoi controllare l’esperienza di branding del client in [!DNL Workfront Proof] |
-| Flusso di lavoro migliorato per il client | Puoi personalizzare il processo di correzione in base alle esigenze del cliente specifico |
-| Il tuo cliente può caricare le bozze dall&#39;account Satellite e condividerle con te | Il cliente può avviare le proprie prove |
-| Eventuali bozze precedentemente condivise con il tuo cliente verranno automaticamente visualizzate nel loro account | Non è necessario ricondividere le prove precedenti |
+| Gestito da te dal tuo account &quot;[!UICONTROL Hub]&quot; | Gestire in modo semplice più account Satellite da un&#39;unica posizione |
+| Accesso personale per ogni utente nell&#39;account Satellite | Offre una protezione aggiuntiva sulle bozze (le bozze possono essere protette da password). Per ulteriori informazioni, vedere [Protezione delle bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md)). |
+| Branding personalizzato per il cliente | È possibile controllare l&#39;esperienza di branding del client in [!DNL Workfront Proof] |
+| Flusso di lavoro migliorato per il cliente | È possibile personalizzare il processo di verifica per soddisfare le esigenze del client specifico |
+| Il cliente può caricare le bozze dall’account Satellite e condividerle con te | Il cliente può avviare le proprie bozze |
+| Tutte le bozze che sono state precedentemente condivise con il cliente verranno visualizzate automaticamente nel suo account | Non è necessario condividere nuovamente le bozze precedenti |

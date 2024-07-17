@@ -4,7 +4,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Moduli archivio dati
-description: Un [!DNL Adobe Workfront Fusion] l’archivio dati, simile a un database o a una semplice tabella, può memorizzare dati provenienti da scenari, consentendo di trasferire dati tra scenari singoli o tra esecuzioni di scenari singoli. È possibile utilizzare un archivio dati per memorizzare nuovi dati provenienti da vari sistemi durante la sincronizzazione.
+description: Un archivio dati  [!DNL Adobe Workfront Fusion] , simile a un database o a una semplice tabella, può memorizzare i dati di scenari, consentendo il trasferimento di dati tra scenari singoli o l'esecuzione di scenari singoli. È possibile utilizzare un archivio dati per memorizzare nuovi dati provenienti da vari sistemi durante la sincronizzazione.
 author: Becky
 feature: Workfront Fusion
 exl-id: 1dc9cb88-d1b9-4a67-91fb-be980cc1ccd1
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 ---
 
-# [!UICONTROL Archivio dati] moduli
+# [!UICONTROL Moduli archivio dati]
 
-Un [!DNL Adobe Workfront Fusion] l’archivio dati, simile a un database o a una semplice tabella, può memorizzare dati provenienti da scenari, consentendo di trasferire dati tra scenari singoli o tra esecuzioni di scenari singoli. È possibile utilizzare un archivio dati per memorizzare nuovi dati provenienti da vari sistemi durante la sincronizzazione.
+Un archivio dati [!DNL Adobe Workfront Fusion], simile a un database o a una semplice tabella, può memorizzare i dati di scenari, consentendo il trasferimento dei dati tra scenari singoli o l&#39;esecuzione di scenari singoli. È possibile utilizzare un archivio dati per memorizzare nuovi dati provenienti da vari sistemi durante la sincronizzazione.
 
-I moduli dell’archivio dati ti consentono di aggiungere, sostituire, aggiornare, recuperare, eliminare, cercare o contare i record nel tuo [!DNL Adobe Workfront Fusion] archivio dati.
+I moduli dell&#39;archivio dati consentono di aggiungere, sostituire, aggiornare, recuperare, eliminare, cercare o contare i record nell&#39;archivio dati [!DNL Adobe Workfront Fusion].
 
-Per informazioni sulla creazione, la modifica e la risoluzione dei problemi relativi agli archivi dati, consulta [Archivi dati in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
+Per informazioni sulla creazione, la modifica e la risoluzione dei problemi relativi agli archivi dati, vedere [Archivi dati in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
 
 Per un video introduttivo sugli archivi dati in Workfront Fusion, vedi:
 
@@ -46,41 +46,41 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licenza**</td> 
    <td>
-   <p>Fabbisogno di licenza corrente: No [!DNL Workfront Fusion] requisito di licenza.</p>
+   <p>Requisiti di licenza correnti: nessun requisito di licenza [!DNL Workfront Fusion].</p>
    <p>Oppure</p>
-   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro], [!UICONTROL [!DNL Workfront Fusion] per automazione lavoro]</p>
+   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione lavoro], [!UICONTROL [!DNL Workfront Fusion] per automazione lavoro]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
    <td>
-   <p>Fabbisogno prodotto corrente: se si dispone di [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Pianifica, la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo. [!DNL Workfront Fusion] è incluso in [!UICONTROL Ultimate] [!DNL Workfront] piano.</p>
+   <p>Fabbisogno prodotto corrente: se si dispone del piano [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], l'organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo. [!DNL Workfront Fusion] è incluso nel piano [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>Oppure</p>
-   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</p>
+   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore [!DNL Workfront].
 
-Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Prerequisiti
 
-Da utilizzare [!UICONTROL Archivio dati] moduli, devi innanzitutto creare un archivio dati.
+Per utilizzare i moduli [!UICONTROL Archivio dati], è necessario innanzitutto creare un archivio dati.
 
-Per informazioni sulla creazione di archivi dati, consulta [Archivi dati in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
+Per informazioni sulla creazione di archivi dati, vedere [Archivi dati in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
 
-## [!UICONTROL Archivio dati] moduli e relativi campi
+## Moduli [!UICONTROL Archivio dati] e relativi campi
 
-Quando configuri i moduli Archivio dati, [!DNL Workfront Fusion] visualizza i campi elencati di seguito. Insieme a questi, potrebbero essere visualizzati campi aggiuntivi del Data Store, a seconda di fattori quali il livello di accesso nell’app o nel servizio. Un titolo in grassetto in un modulo indica un campo obbligatorio.
+Quando si configurano i moduli Archivio dati, [!DNL Workfront Fusion] visualizza i campi elencati di seguito. Insieme a questi, potrebbero essere visualizzati campi aggiuntivi del Data Store, a seconda di fattori quali il livello di accesso nell’app o nel servizio. Un titolo in grassetto in un modulo indica un campo obbligatorio.
 
-Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possibile utilizzarlo per impostare variabili e funzioni per tale campo. Per ulteriori informazioni, consulta [Mappare le informazioni da un modulo all’altro in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possibile utilizzarlo per impostare variabili e funzioni per tale campo. Per ulteriori informazioni, vedere [Mappare le informazioni da un modulo all&#39;altro in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-Tutti [!UICONTROL Archivio dati] I moduli sono moduli di tipo Azione.
+Tutti i moduli [!UICONTROL Archivio dati] sono moduli di tipo Azione.
 
 * [Aggiungere/sostituire un record](#addreplace-a-record)
 * [Aggiornare un record](#update-a-record)
@@ -91,7 +91,7 @@ Tutti [!UICONTROL Archivio dati] I moduli sono moduli di tipo Azione.
 * [Cerca record](#search-records)
 * [Conteggio record](#count-records)
 
-### [!UICONTROL Aggiungere/sostituire un record]
+### [!UICONTROL Aggiungi/Sostituisci un record]
 
 Questo modulo di azione aggiunge o sostituisce un record.
 
@@ -101,7 +101,7 @@ Il modulo restituisce l’ID del record ed eventuali campi associati, insieme a 
 
 >[!NOTE]
 >
->Il modulo genera un errore quando si tenta di aggiungere il record già presente nell’archivio dati con lo stesso nome e il [!UICONTROL Sovrascrivi un record esistente] è disabilitata.
+>Il modulo genera un errore quando si tenta di aggiungere il record già presente nell&#39;archivio dati con lo stesso nome e l&#39;opzione [!UICONTROL Sovrascrivi un record esistente] è disabilitata.
 
 Durante la configurazione di questo modulo, vengono visualizzati i campi seguenti.
 
@@ -128,7 +128,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  </tbody> 
 </table>
 
-### [!UICONTROL Aggiornare un record]
+### [!UICONTROL Aggiorna un record]
 
 Questo modulo di azione aggiorna un record.
 
@@ -184,7 +184,7 @@ Il modulo restituisce l’ID del record ed eventuali campi associati, insieme a 
  </tbody> 
 </table>
 
-### [!UICONTROL Verificare l&#39;esistenza di un record]
+### [!UICONTROL Verifica l&#39;esistenza di un record]
 
 Questo modulo di azione specifica se esiste un record specifico.
 
@@ -271,7 +271,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
   </tr> 
   <tr> 
    <td>[!UICONTROL Limit]</td> 
-   <td> <p> Imposta il numero massimo di risultati di ricerca [!DNL Workfront Fusion] restituisce durante un ciclo di esecuzione.</p> </td> 
+   <td> <p> Impostare il numero massimo di risultati di ricerca [!DNL Workfront Fusion] restituiti durante un ciclo di esecuzione.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Continua l'esecuzione della route anche se il modulo non restituisce alcun risultato]</td> 

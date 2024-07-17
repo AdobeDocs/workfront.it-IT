@@ -16,11 +16,11 @@ ht-degree: 0%
 
 # [!DNL Adobe Unified Experience] per [!DNL Workfront Fusion]
 
-Accesso [!DNL Workfront Fusion] da a [!DNL Adobe Experience Cloud] offre un&#39;esperienza unificata e senza soluzione di continuità per la gestione di tutti i [!DNL Adobe] applicazioni. La gestione delle singole identità consente di accedere da un’unica posizione, senza più URL o ID di accesso.
+L&#39;accesso a [!DNL Workfront Fusion] tramite [!DNL Adobe Experience Cloud] offre un&#39;esperienza unificata per la gestione di tutte le applicazioni di [!DNL Adobe]. La gestione delle singole identità consente di accedere da un’unica posizione, senza più URL o ID di accesso.
 
-Per un video che descrive la navigazione in [!DNL Fusion] nel [!DNL Adobe Experience Cloud], vedi:
+Per un video che descrive la navigazione in [!DNL Fusion] in [!DNL Adobe Experience Cloud], vedi:
 
-[[!DNL Fusion] il [!DNL Unified Shell]](https://video.tv.adobe.com/v/3412392/){target=_blank}
+[[!DNL Fusion] su [!DNL Unified Shell]](https://video.tv.adobe.com/v/3412392/){target=_blank}
 
 ## Requisiti di accesso
 
@@ -46,45 +46,45 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   <tr> 
    <td role="rowheader">Prodotto</td> 
    <td>
-   <p>Fabbisogno prodotto corrente: se si dispone di [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Pianifica, la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo. [!DNL Workfront Fusion] è incluso in [!UICONTROL Ultimate] [!DNL Workfront] piano.</p>
+   <p>Fabbisogno prodotto corrente: se si dispone del piano [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], l'organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo. [!DNL Workfront Fusion] è incluso nel piano [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>Oppure</p>
-   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</p>
+   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
-*Per conoscere il piano, il tipo di licenza o l'accesso di cui si dispone, contattare [!DNL Workfront Fusion] amministratore.
+*Per conoscere il piano, il tipo di licenza o l'accesso disponibili, contattare l'amministratore [!DNL Workfront Fusion].
 
 ## Prerequisiti
 
-L’istanza di Workfront Fusion della tua organizzazione deve essere integrata in [!DNL Adobe Business Platform] / [!DNL Adobe Admin Console].
+L&#39;istanza di Workfront Fusion della tua organizzazione deve essere integrata in [!DNL Adobe Business Platform] / [!DNL Adobe Admin Console].
 
 ## Accedi a [!DNL Adobe Experience Cloud]
 
-1. Apri una finestra del browser e vai a <https://experience.adobe.com>.
-1. Nella schermata di accesso, digita il tuo indirizzo e-mail e fai clic su **[!UICONTROL Continua]**.
+1. Aprire una finestra del browser e passare a <https://experience.adobe.com>.
+1. Nella schermata Accedi, digita il tuo indirizzo e-mail e fai clic su **[!UICONTROL Continua]**.
 
    ![Accedi a [!DNL Adobe Experience Cloud]](assets/aec-login-page.png)
 
-## Accesso [!DNL Workfront Fusion]
+## Accedi a [!DNL Workfront Fusion]
 
-Dopo aver effettuato l’accesso a [!DNL Adobe Experience Cloud], è possibile visualizzare tutte le [!DNL Workfront Fusion] organizzazioni e ambienti a cui hai accesso facendo clic sul selettore organizzazione nell’area di navigazione superiore. Seleziona la [!DNL Workfront Fusion] dell&#39;organizzazione o dell&#39;ambiente in cui si desidera lavorare.
+Dopo aver effettuato l&#39;accesso a [!DNL Adobe Experience Cloud], è possibile visualizzare tutte le organizzazioni e gli ambienti [!DNL Workfront Fusion] a cui si ha accesso facendo clic sul selettore organizzazione nell&#39;area di navigazione superiore. Selezionare l&#39;organizzazione o l&#39;ambiente [!DNL Workfront Fusion] in cui si desidera lavorare.
 
 ![Visualizza [!DNL Workfront Fusion] organizzazioni e ambienti](assets/aec-view-all-orgs.png)
 
 >[!NOTE]
 >
->La prima volta che accedi a [!DNL Adobe Experience Cloud], l’organizzazione utilizza per impostazione predefinita il primo nell’elenco alfabetico. Al successivo accesso, l’organizzazione utilizza per impostazione predefinita l’ultima visitata.
+>Al primo accesso a [!DNL Adobe Experience Cloud], l&#39;organizzazione utilizza per impostazione predefinita il primo elenco alfabetico. Al successivo accesso, l’organizzazione utilizza per impostazione predefinita l’ultima visitata.
 
-[!DNL Workfront Fusion] viene visualizzato nell&#39;elenco di [!DNL Adobe Experience Cloud] ai prodotti a cui hai accesso. Puoi scegliere [!DNL Workfront Fusion] nel menu di accesso rapido della scheda [!DNL Experience Cloud] home page o utilizzare il commutatore del prodotto ![Commutatore prodotto](assets/main-menu-icon.png) per cambiare le applicazioni in qualsiasi momento.
+[!DNL Workfront Fusion] viene visualizzato nell&#39;elenco di [!DNL Adobe Experience Cloud] prodotti a cui hai accesso. È possibile scegliere [!DNL Workfront Fusion] nel menu di accesso rapido nella home page di [!DNL Experience Cloud] oppure utilizzare il commutatore di prodotto ![Commutatore di prodotto](assets/main-menu-icon.png) per modificare le applicazioni in qualsiasi momento.
 
-![Seleziona [!DNL Workfront Fusion] per accedere all’applicazione](assets/aec-product-switcher.png)
+![Selezionare [!DNL Workfront Fusion] per accedere all&#39;applicazione](assets/aec-product-switcher.png)
 
-## Naviga [!DNL Workfront Fusion]
+## Passa a [!DNL Workfront Fusion]
 
-Utilizza il [!UICONTROL Menu principale] icona ![](assets/main-menu-icon-left-nav.png) a sinistra della [!DNL Adobe] barra di navigazione per aprire [!UICONTROL Organizzazione] e [!UICONTROL Team] menu. Se sei un [!DNL Workfront Fusion] amministratore, il tuo [!UICONTROL Amministrazione] viene visualizzato anche qui.
+Utilizza l&#39;icona ![](assets/main-menu-icon-left-nav.png) del [!UICONTROL menu principale] a sinistra della barra di navigazione [!DNL Adobe] per aprire i menu [!UICONTROL Organizzazione] e [!UICONTROL Team]. Se sei un amministratore di [!DNL Workfront Fusion], qui viene visualizzato anche il menu [!UICONTROL Amministrazione].
 
-Per cambiare team, fai clic sul nome del team nella parte superiore della pagina, quindi seleziona il team. Il selettore team viene visualizzato solo nelle pagine specifiche di un team, ad esempio nel caso di un generatore di scenari o [!UICONTROL Connessioni] pagina.
+Per cambiare team, fai clic sul nome del team nella parte superiore della pagina, quindi seleziona il team. Il selettore team viene visualizzato solo nelle pagine specifiche di un team, ad esempio un generatore di scenari o la pagina [!UICONTROL Connessioni].
 
 Per cambiare organizzazione, fai clic sul nome dell’organizzazione in alto a destra dello schermo, quindi seleziona l’organizzazione.
 
@@ -96,22 +96,22 @@ Per accedere alle opzioni del profilo e delle preferenze, fai clic sull’immagi
 
 Questo menu consente di:
 
-* Scegli **[!UICONTROL Tema scuro]** formattazione per [!DNL Adobe Experience Cloud].
+* Scegli la formattazione del **[!UICONTROL tema scuro]** per [!DNL Adobe Experience Cloud].
 * Imposta **[!UICONTROL Preferenze]** per [!DNL Adobe Experience Cloud], incluse le preferenze per la lingua primaria e secondaria.
-* Accedi al tuo **[!UICONTROL [!DNL Workfront Fusion]Profilo]**. Una volta inserito nel profilo, fai clic su **[!UICONTROL Altro]** menu ![](assets/more-icon.png) e seleziona **[!UICONTROL Modifica]**. Per ulteriori informazioni sul profilo, consulta [Configura le mie impostazioni](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
-* **[!UICONTROL Esci]** di Adobe Experience Cloud.
+* Accedi al tuo profilo **[!UICONTROL [!DNL Workfront Fusion]]**. Una volta inserito nel profilo, fare clic sul menu **[!UICONTROL Altro]** ![](assets/more-icon.png) e selezionare **[!UICONTROL Modifica]**. Per ulteriori informazioni sul profilo, vedere [Configurare le impostazioni personali](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+* **[!UICONTROL Esci]** da Adobe Experience Cloud.
 
 
 ## Accedere alle notifiche
 
 Puoi trovare le notifiche e gli annunci nell’area Notifiche di Unified Shell.
 
-Per visualizzare le notifiche, fai clic sull’icona Notifiche ![Icona Notifiche](assets/notifications-icon.png) nell&#39;angolo superiore destro dello schermo. Un punto rosso sull’icona Notifiche indica che sono presenti notifiche o annunci non letti.
+Per visualizzare le notifiche, fai clic sull&#39;icona Notifiche ![Icona Notifiche](assets/notifications-icon.png) nell&#39;angolo superiore destro dello schermo. Un punto rosso sull’icona Notifiche indica che sono presenti notifiche o annunci non letti.
 
-Per istruzioni sulla configurazione delle notifiche in Adobe Experience Cloud, consulta [Configurazione notifica](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/notifications.html?lang=en#:~:text=You%20can%20customize%20how%20you,how%20you%20receive%20your%20notifications.) nella documentazione di Adobe.
+Per istruzioni sulla configurazione delle notifiche in Adobe Experience Cloud, consulta [Configurazione delle notifiche](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/notifications.html?lang=en#:~:text=You%20can%20customize%20how%20you,how%20you%20receive%20your%20notifications.) nella documentazione di Adobe.
 
 Durante la configurazione, tieni presente quanto segue:
 
-* **Avvisi** consulta scenari bloccati.
-* **Aggiornamenti sul contenuto** fai riferimento a errori e avvisi nelle esecuzioni dello scenario.
+* **Avvisi** fanno riferimento a scenari bloccati.
+* **Gli aggiornamenti sul contenuto** fanno riferimento a errori e avvisi nelle esecuzioni dello scenario.
 

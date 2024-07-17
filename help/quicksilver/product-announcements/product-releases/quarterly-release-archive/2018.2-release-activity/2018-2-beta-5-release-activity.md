@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Attività di rilascio della versione 2018.2 Beta 5
-description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.2 Beta 5. La funzionalità sarà disponibile nell’ambiente di anteprima il 1° giugno 2018. I miglioramenti della bozza rilasciati con la versione beta 5 saranno disponibili nell’ambiente di anteprima lunedì 4 giugno. Sarà disponibile nell’ambiente di produzione a luglio 2018.
+title: Attività sulla versione 2018.2 di Beta 5
+description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.2 di Beta 5. La funzionalità sarà disponibile nell’ambiente di anteprima il 1° giugno 2018. I miglioramenti della bozza rilasciati con Beta 5 saranno disponibili nell’ambiente di anteprima lunedì 4 giugno. Sarà disponibile nell’ambiente di produzione a luglio 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,38 +14,38 @@ ht-degree: 1%
 
 ---
 
-# Attività di rilascio della versione 2018.2 Beta 5
+# Attività sulla versione 2018.2 di Beta 5
 
-Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.2 Beta 5. La funzionalità sarà disponibile nell’ambiente di anteprima il 1° giugno 2018. I miglioramenti della bozza rilasciati con la versione beta 5 saranno disponibili nell’ambiente di anteprima lunedì 4 giugno. Sarà disponibile nell’ambiente di produzione a luglio 2018.
+Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.2 di Beta 5. La funzionalità sarà disponibile nell’ambiente di anteprima il 1° giugno 2018. I miglioramenti della bozza rilasciati con Beta 5 saranno disponibili nell’ambiente di anteprima lunedì 4 giugno. Sarà disponibile nell’ambiente di produzione a luglio 2018.
 
 >[!IMPORTANT]
 >
 > La funzionalità descritta in questa pagina è soggetta a modifiche prima della disponibilità nell’ambiente di produzione.
 
-Per un elenco di tutte le modifiche apportate in 2018.2, consulta  [Panoramica sull’attività della versione 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+Per un elenco di tutte le modifiche apportate in 2018.2, consulta  Panoramica dell&#39;attività di [versione 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
-La versione 2018.2 Beta 5 contiene i miglioramenti per gli amministratori di Workfront e altri utenti:
+La versione 2018.2 di Beta 5 contiene i miglioramenti per gli amministratori di Workfront e altri utenti:
 
-**Per gli amministratori**
+**Per Amministratori**
 
-* [Visualizzare le modifiche attivate dall&#39;utente con i registri di controllo](#view-user-triggered-changes-with-audit-logs)
+* [Visualizza modifiche attivate dall&#39;utente con registri di controllo](#view-user-triggered-changes-with-audit-logs)
 * [Visualizzare le informazioni sulla licenza come amministratore di gruppo](#view-license-information-as-a-group-administrator)
 
-**Per tutti gli utenti**
+**Per Tutti Gli Utenti**
 
-* [Vista calendario nell’area Home](#calendar-view-in-the-home-area)
-* [Ulteriori aggiornamenti a Work List (Pannello a sinistra) nella Home](#additional-updates-to-the-work-list-left-panel-in-home)
+* [Visualizzazione calendario nell&#39;area Home](#calendar-view-in-the-home-area)
+* [Ulteriori aggiornamenti all&#39;elenco di lavoro (pannello sinistro) nella Home](#additional-updates-to-the-work-list-left-panel-in-home)
 * [Configurare i limiti dei ruoli per la pianificazione automatica delle risorse](#configure-job-role-limits-for-automated-resource-scheduling)
-* [Miglioramenti alla vista Progetto e Ruolo nella Programmazione delle risorse](#project-and-role-view-improvements-in-the-resource-planner)
-* [Ridimensionare le larghezze delle colonne per gli elenchi di progetti](#resize-column-widths-for-project-lists)
-* [Icona Supporto per i nuovi elenchi di progetti](#icon-support-for-the-new-project-lists)
-* [Aggiungere il campo &quot;Anteprima grande&quot; nelle visualizzazioni documento](#add-large-thumbnail-field-in-document-views)
-* [Aumenta limite di esportazione Excel](#increase-excel-export-limit)
-* [Filtri rapidi per gli elenchi di progetti](#quick-filters-for-project-lists)
-* [Fare riferimento alle raccolte di problemi nei report di progetti e attività](#reference-issue-collections-in-project-and-task-reports)
-* [Nuovo menu con versione più affidabile per l&#39;aggiunta di nuove versioni di documenti in Workfront](#new-more-robust-version-menu-when-adding-new-document-versions-in-workfront)
-* [Miglioramenti per dispositivi mobili nell’app mobile Android Beta](#mobile-improvements-in-the-android-beta-mobile-app)
-* [miglioramenti del visualizzatore di verifica (Workfront e Workfront Proof)](#proofing-viewer-enhancements-workfront-and-workfront-proof)
+* [Miglioramenti alla visualizzazione dei progetti e dei ruoli nella programmazione delle risorse](#project-and-role-view-improvements-in-the-resource-planner)
+* [Ridimensiona larghezza colonne per elenchi di progetti](#resize-column-widths-for-project-lists)
+* [Supporto icone per nuovi elenchi di progetti](#icon-support-for-the-new-project-lists)
+* [Aggiungi il campo &quot;Anteprima grande&quot; nelle visualizzazioni documento](#add-large-thumbnail-field-in-document-views)
+* [Aumenta limite esportazione Excel](#increase-excel-export-limit)
+* [Filtri rapidi per elenchi di progetti](#quick-filters-for-project-lists)
+* [Informazioni di riferimento sulle raccolte di problemi nelle relazioni su progetti e attività](#reference-issue-collections-in-project-and-task-reports)
+* [Nuovo Menu Versione più affidabile per l&#39;aggiunta di nuove versioni di documenti in Workfront](#new-more-robust-version-menu-when-adding-new-document-versions-in-workfront)
+* [Miglioramenti per dispositivi mobili nell&#39;app mobile Android Beta](#mobile-improvements-in-the-android-beta-mobile-app)
+* [miglioramenti al visualizzatore di bozze (Workfront e Workfront Proof)](#proofing-viewer-enhancements-workfront-and-workfront-proof)
 * [Miglioramenti delle bozze in Workfront](#proofing-enhancements-in-workfront)
 * [Miglioramenti delle bozze in Workfront Proof](#proofing-enhancements-in-workfront-proof)
 
@@ -60,7 +60,7 @@ Ora è possibile gestire le attività e le pianificazioni di lavoro personali ut
 
 Se si utilizza un calendario in Outlook, è possibile integrare il calendario per visualizzare gli eventi di Outlook nella visualizzazione Calendario predefinito.
 
-Per ulteriori informazioni, consulta [Vista Calendario predefinito](../../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
+Per ulteriori informazioni, vedere [Visualizzazione Calendario predefinito](../../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
 
 ## Ulteriori aggiornamenti a Work List (Pannello a sinistra) nella Home {#additional-updates-to-the-work-list-left-panel-in-home}
 
@@ -74,7 +74,7 @@ Nell’area Home sono ora disponibili i seguenti miglioramenti per Work List (El
 
   In precedenza, gli elementi completati venivano visualizzati per i 3 mesi precedenti.
 
-  Per informazioni sulla visualizzazione del lavoro completato nell&#39;area Home, vedere [Visualizzare gli elementi in Work List (Elenco di lavoro) nell’area Home](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md) nell’articolo [Visualizzare gli elementi in Work List (Elenco di lavoro) nell’area Home](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  Per informazioni sulla visualizzazione del lavoro completato nell&#39;area Home, vedere [Visualizzare gli elementi nell&#39;area Work List nell&#39;area Home](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md) nell&#39;articolo [Visualizzare gli elementi nell&#39;area Work List nell&#39;area Home](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 * Aggiungere i campi Durata e Assegnazioni per visualizzare quando gli elementi vengono selezionati nell&#39;area Home.
 
@@ -82,7 +82,7 @@ Nell’area Home sono ora disponibili i seguenti miglioramenti per Work List (El
 
   Per informazioni sull&#39;aggiunta di campi all&#39;area Home, vedere &quot;Creazione e gestione di modelli di layout&quot;.
 
-Per ulteriori informazioni sull&#39;utilizzo dell&#39;area Home, vedere [Utilizzare l’area Home](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+Per ulteriori informazioni sull&#39;utilizzo dell&#39;area Home, vedere [Utilizzare l&#39;area Home](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
 ## Visualizzare le modifiche attivate dall&#39;utente con i registri di controllo {#view-user-triggered-changes-with-audit-logs}
 
@@ -95,7 +95,7 @@ Abbiamo creato i seguenti registri di audit per gli amministratori di Workfront 
 
 In precedenza, non era possibile tenere traccia delle modifiche all’interno del sistema.
 
-Per ulteriori informazioni, consulta [Visualizzare ed esportare i registri di audit](../../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
+Per ulteriori informazioni, vedere [Visualizzare ed esportare i registri di controllo](../../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
 
 ## Visualizzare le informazioni sulla licenza come amministratore di gruppo {#view-license-information-as-a-group-administrator}
 
@@ -103,13 +103,13 @@ Per ulteriori informazioni, consulta [Visualizzare ed esportare i registri di au
 
 Prima di questa modifica, gli amministratori di gruppi non potevano visualizzare le informazioni sulla licenza.
 
-Per ulteriori informazioni, consulta [Amministratori di gruppi](../../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+Per ulteriori informazioni, vedere [Amministratori di gruppi](../../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
 
 ## Configurare i limiti dei ruoli per la pianificazione automatica delle risorse {#configure-job-role-limits-for-automated-resource-scheduling}
 
 >[!NOTE]
 >
->Gli strumenti di pianificazione delle risorse sono stati dichiarati obsoleti e rimossi da Workfront con la versione 23.1. Per informazioni sulla programmazione delle risorse tramite il Bilanciatore dei carichi di lavoro, consulta [Panoramica del Bilanciatore dei carichi di lavoro](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Gli strumenti di pianificazione delle risorse sono stati dichiarati obsoleti e rimossi da Workfront con la versione 23.1. Per informazioni sulla pianificazione delle risorse tramite il Bilanciatore dei carichi di lavoro, vedere [Panoramica del Bilanciatore dei carichi di lavoro](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Nelle impostazioni di Automated Resource Scheduling è ora possibile assegnare un limite a una mansione. Ciò ti consente di controllare il numero di risorse a cui viene assegnato il lavoro, con lo stesso ruolo.
 
@@ -133,7 +133,7 @@ Le visualizzazioni Progetto e Ruolo della Programmazione delle risorse contengon
 
 Prima di questi miglioramenti, è stato segnalato che la pianificazione delle risorse era lenta da caricare e che erano state notate incongruenze nei dati visualizzati. Grazie a questi miglioramenti, ora dovrebbero essere eliminati.
 
-Per informazioni e per comprendere i nuovi limiti per la pianificazione delle risorse, consulta [Limitazioni della visualizzazione di Programmazione delle risorse](../../../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)
+Per informazioni e per comprendere i nuovi limiti per la pianificazione delle risorse, vedere [Limitazioni di visualizzazione della pianificazione delle risorse](../../../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)
 
 <!--
 <p dir="ltr" data-mc-conditions="QuicksilverOrClassic.Draft mode">To participate in our current beta program and give us feedback on the functionality of the Resource Planner, see <a href="../../../../product-announcements/betas/resource-planner-performance-beta.md" class="MCXref xref" xrefformat="{para}">Resource Planner performance beta </a></p>
@@ -155,9 +155,9 @@ Ora, quando si trascina il bordo destro di una colonna per ridimensionarla, la c
 
 Prima di questo miglioramento, la colonna adiacente a destra della colonna ridimensionata veniva ridimensionata in modo proporzionale e adattata allo schermo. Non era possibile trascinare il bordo di una colonna oltre il bordo destro della colonna adiacente.  
 
-Per informazioni sul ridimensionamento delle colonne negli elenchi, vedere [Modifica la larghezza e l&#39;ordine delle colonne](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
+Per informazioni sul ridimensionamento delle colonne negli elenchi, vedere [Modificare la larghezza e l&#39;ordine delle colonne](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
-Per partecipare al nostro programma di beta testing per i miglioramenti dell’elenco corrente, consulta [Nuovo studio elenchi.](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&amp;MessageKey=6b135c15-33dd-4fa2-8bc3-7cd7f7740c57&amp;CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&amp;tab=digestviewer&amp;ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520) (Accesso richiesto)
+Per partecipare al nostro programma di beta testing per i miglioramenti dell&#39;elenco corrente, consulta [New Lists Study.](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&amp;MessageKey=6b135c15-33dd-4fa2-8bc3-7cd7f7740c57&amp;CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&amp;tab=digestviewer&amp;ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520) (accesso richiesto)
 
 ## Icona Supporto per i nuovi elenchi di progetti {#icon-support-for-the-new-project-lists}
 
@@ -177,7 +177,7 @@ Per informazioni sull&#39;utilizzo degli elenchi, vedere [Introduzione agli elen
 
 Prima di questa modifica, era possibile aggiungere solo il campo Miniatura a una visualizzazione del documento, in cui viene visualizzata una miniatura del documento larga 33-66 pixel.
 
-Per informazioni sui campi negli elenchi e nei report, vedere [Glossario della terminologia di Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+Per informazioni sui campi negli elenchi e nei report, consulta [Glossario della terminologia di Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 ## Aumenta limite di esportazione Excel {#increase-excel-export-limit}
 
@@ -194,7 +194,7 @@ I nuovi limiti si applicano quando si esportano i seguenti elementi da Workfront
 
 Prima di questo miglioramento, era possibile esportare solo 50.000 righe in qualsiasi file Excel.
 
-Per informazioni sull’esportazione di dati da Workfront, consulta [Esporta dati](../../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+Per informazioni sull&#39;esportazione di dati da Workfront, vedere [Esporta dati](../../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 ## Filtri rapidi per gli elenchi di progetti {#quick-filters-for-project-lists}
 
@@ -208,7 +208,7 @@ Attualmente, i filtri rapidi sono disponibili solo per gli elenchi dei progetti 
 * Progetti di mia proprietà
 * Tutti i progetti
 
-Per informazioni sui filtri rapidi, consulta la sezione &quot;Applicazione di filtri rapidi agli elenchi&quot; in [Introduzione agli elenchi in Adobe Workfront](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Per informazioni sui filtri rapidi, vedere la sezione &quot;Applicazione di filtri rapidi agli elenchi&quot; in [Introduzione agli elenchi in Adobe Workfront](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 ## Fare riferimento alle raccolte di problemi nei report di progetti e attività {#reference-issue-collections-in-project-and-task-reports}
 
@@ -216,13 +216,13 @@ Per informazioni sui filtri rapidi, consulta la sezione &quot;Applicazione di fi
 
 Prima di questo miglioramento, era possibile fare riferimento solo a una raccolta di attività in una visualizzazione o un filtro di progetto.
 
-Per informazioni su come fare riferimento a una raccolta in un report, vedi [Fare riferimento alle raccolte in un rapporto](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
+Per informazioni su come fare riferimento a una raccolta in un report, vedere [Fare riferimento alle raccolte in un report](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
 
-Per informazioni sull&#39;utilizzo della modalità testo, vedere  [Panoramica sugli usi comuni della modalità testo](../../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+Per informazioni sull&#39;utilizzo della modalità testo, vedere  [Panoramica sugli usi comuni per la modalità testo](../../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
 >[!NOTE]
 >
->Nel video seguente, la modalità di testo di esempio per le raccolte di problemi non era corretta. La modalità testo di esempio corretta è disponibile in [Fare riferimento alle raccolte in un rapporto](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
+>Nel video seguente, la modalità di testo di esempio per le raccolte di problemi non era corretta. La modalità di testo di esempio corretta è disponibile in [Raccolte di riferimento in un report](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
 
 ## Nuovo menu con versione più affidabile per l&#39;aggiunta di nuove versioni di documenti in Workfront {#new-more-robust-version-menu-when-adding-new-document-versions-in-workfront}
 
@@ -243,11 +243,11 @@ Nel menu Nuova versione sono ora disponibili le seguenti opzioni per tutte le ar
 * Opzioni collegate (dal Dropbox, dall&#39;unità Google e così via)
 * Incolla dagli Appunti (questa è una nuova opzione per l’aggiunta di versioni)
 
-Per ulteriori informazioni, consulta [Aggiungere documenti ad Adobe Workfront dal file system](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md) nell’articolo [Aggiungere documenti ad Adobe Workfront dal file system](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+Per ulteriori informazioni, vedere [Aggiungere documenti ad Adobe Workfront dal file system](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md) nell&#39;articolo [Aggiungere documenti ad Adobe Workfront dal file system](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
 ## Miglioramenti per dispositivi mobili nell’app mobile Android Beta {#mobile-improvements-in-the-android-beta-mobile-app}
 
-I seguenti miglioramenti saranno disponibili sulla versione Android Beta dell’app mobile poco dopo il giorno di questa versione:
+I seguenti miglioramenti saranno disponibili nella versione Beta di Android dell’app mobile poco dopo il giorno di questa versione:
 
 * Azioni Scorrimento rapido
 
@@ -270,18 +270,18 @@ I seguenti miglioramenti saranno disponibili sulla versione Android Beta dell’
 
 Con questa versione, questi miglioramenti sono disponibili solo per la versione Android Beta dell’app mobile Workfront. Al momento non sono disponibili per iOS.
 
-Per ulteriori informazioni su come iscriversi a un beta tester e scaricare la versione Android Beta dell&#39;app mobile Workfront, consulta .
+Per ulteriori informazioni su come iscriversi a un beta tester e scaricare la versione Android Beta dell’app mobile Workfront, consulta .
 
 ## miglioramenti del visualizzatore di verifica (Workfront e Workfront Proof) {#proofing-viewer-enhancements-workfront-and-workfront-proof}
 
-* [Pagina Stampa riepilogo aggiornata](#updated-print-summary-page)
-* [Aggiungere utenti a una bozza direttamente dal visualizzatore di bozze](#add-users-to-a-proof-directly-from-the-proofing-viewer)
+* [Pagina riepilogo stampa aggiornata](#updated-print-summary-page)
+* [Aggiungi utenti a una bozza direttamente dal visualizzatore di bozze](#add-users-to-a-proof-directly-from-the-proofing-viewer)
 * [Visualizza tutti gli strumenti di markup nel visualizzatore di bozze](#display-all-markup-tools-in-the-proofing-viewer)
 * [Configurare le opzioni di ordinamento predefinite nel visualizzatore di bozze](#configure-default-sorting-options-in-the-proofing-viewer)
-* [Visualizzare le approvazioni dei documenti di Workfront nel Visualizzatore bozze desktop](#view-workfront-document-approvals-in-the-desktop-proofing-viewer)
-* [Configurare i collegamenti che aprono nuove schede e finestre per l&#39;apertura nel Visualizzatore bozze del desktop](#configure-links-that-open-new-tabs-and-windows-to-open-within-the-desktop-proofing-viewer)
+* [Visualizza approvazioni documenti Workfront nel Visualizzatore bozze desktop](#view-workfront-document-approvals-in-the-desktop-proofing-viewer)
+* [Configura i collegamenti che aprono nuove schede e Windows per l&#39;apertura nel Visualizzatore bozze desktop](#configure-links-that-open-new-tabs-and-windows-to-open-within-the-desktop-proofing-viewer)
 * [Indicatore di presenza nel visualizzatore di bozze](#presence-indicator-in-the-proofing-viewer)
-* [Filtrare i commenti per visualizzare una singola pagina per le bozze degli URL interattivi nel visualizzatore bozze desktop](#filter-comments-to-display-a-single-page-for-interactive-url-proofs-in-the-desktop-proofing-viewer)
+* [Filtra commenti per visualizzare una singola pagina per le bozze degli URL interattivi nel visualizzatore bozze desktop](#filter-comments-to-display-a-single-page-for-interactive-url-proofs-in-the-desktop-proofing-viewer)
 * [Visualizzatore bozze desktop per contenuti statici e video](#desktop-proofing-viewer-for-static-and-video-content)
 * [Aggiungere dispositivi personalizzati al sistema](#add-custom-devices-to-your-system)
 
@@ -289,7 +289,7 @@ Per ulteriori informazioni su come iscriversi a un beta tester e scaricare la ve
 
 La pagina Stampa riepilogo è stata aggiornata con un nuovo aspetto e funzionalità migliorate.
 
-Per informazioni, consulta [Stampare un riepilogo delle bozze in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md).
+Per informazioni, vedere [Stampare un riepilogo delle bozze in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md).
 
 ### Aggiungere utenti a una bozza direttamente dal visualizzatore di bozze {#add-users-to-a-proof-directly-from-the-proofing-viewer}
 
@@ -297,7 +297,7 @@ Ora è possibile aggiungere utenti a una bozza direttamente dal visualizzatore b
 
 In precedenza, non era possibile aggiungere singoli utenti a una bozza. È invece possibile copiare solo l’URL pubblico o il codice di incorporamento.
 
-Per ulteriori informazioni, consulta [Condividere una bozza aggiungendovi utenti](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users) nell’articolo  [Condividere una bozza dal visualizzatore di bozze](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
+Per ulteriori informazioni, vedere [Condividere una bozza aggiungendo utenti](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users) nell&#39;articolo  [Condividi una bozza dal visualizzatore di bozze](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
 
 ### Visualizza tutti gli strumenti di markup nel visualizzatore di bozze {#display-all-markup-tools-in-the-proofing-viewer}
 
@@ -321,7 +321,7 @@ Ora è possibile prendere una decisione di approvazione del documento di Workfro
 
 In precedenza, solo Web Proofing Viewer (Visualizzatore di bozze web) consentiva di prendere una decisione di approvazione di un documento Workfront. 
 
-Per ulteriori informazioni, consulta  [Decidi su una bozza nel visualizzatore di bozze](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) nell’articolo  [Decidi su una bozza nel visualizzatore di bozze](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
+Per ulteriori informazioni, consulta  [Decidi su una bozza nel visualizzatore di bozze](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) nell&#39;articolo  [Decidi su una bozza nel visualizzatore di bozze](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
 
 ### Configurare i collegamenti che aprono nuove schede e finestre per l&#39;apertura nel Visualizzatore bozze del desktop {#configure-links-that-open-new-tabs-and-windows-to-open-within-the-desktop-proofing-viewer}
 
@@ -329,13 +329,13 @@ Quando si esegue la verifica del contenuto interattivo nel Visualizzatore bozze 
 
 Nel visualizzatore di bozze Legacy, i collegamenti aperti in una nuova scheda o in una nuova finestra non potevano essere esaminati nel visualizzatore di bozze.
 
-Per ulteriori informazioni, consulta [Configurare le impostazioni del visualizzatore di verifica](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
+Per ulteriori informazioni, vedere [Configurare le impostazioni del visualizzatore di verifica](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
 
 ### Indicatore di presenza nel visualizzatore di bozze {#presence-indicator-in-the-proofing-viewer}
 
 Ora, quando esamini una bozza in Web Proofing Viewer (Visualizzatore di bozze web) o in Desktop Proofing Viewer (Visualizzatore di bozze desktop), nell’angolo superiore destro del visualizzatore di bozze viene visualizzato l’avatar di ogni utente che sta visualizzando la bozza.
 
-Per ulteriori informazioni, consulta [Rivedere una bozza contemporaneamente con più revisori](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proof-with-multiple-reviewers.md).
+Per ulteriori informazioni, vedere [Rivedere una bozza contemporaneamente con più revisori](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proof-with-multiple-reviewers.md).
 
 ### Filtrare i commenti per visualizzare una singola pagina per le bozze degli URL interattivi nel visualizzatore bozze desktop {#filter-comments-to-display-a-single-page-for-interactive-url-proofs-in-the-desktop-proofing-viewer}
 
@@ -351,9 +351,9 @@ Il Visualizzatore bozze desktop ora supporta contenuti statici e video.
 
 In precedenza, supportava solo contenuti interattivi.
 
-Per informazioni sulla configurazione delle bozze statiche e video da aprire in Desktop Proofing Viewer, consulta [Configurare le impostazioni del visualizzatore di verifica](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
+Per informazioni sulla configurazione delle bozze statiche e video da aprire nel Visualizzatore bozze desktop, vedere [Configurare le impostazioni del visualizzatore di bozze](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
 
-Per ulteriori informazioni su Visualizzatore bozze desktop, vedere [Analisi delle bozze nel Visualizzatore bozze desktop.](https://support.workfront.com/hc/en-us/sections/360000686434)
+Per ulteriori informazioni su Visualizzatore bozze desktop, vedere [Verifica delle bozze nel Visualizzatore bozze desktop.](https://support.workfront.com/hc/en-us/sections/360000686434)
 
 ### Aggiungere dispositivi personalizzati al sistema {#add-custom-devices-to-your-system}
 
@@ -363,7 +363,7 @@ Prima di questa modifica, gli utenti potevano scegliere solo da un elenco di dis
 
 Per informazioni sull&#39;aggiunta di dispositivi personalizzati, vedere in
 
-Per informazioni su come gli utenti possono selezionare i dispositivi durante la revisione dei contenuti interattivi, consulta [Modificare la risoluzione della bozza interattiva nel visualizzatore di bozze](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md).
+Per informazioni su come gli utenti possono selezionare i dispositivi durante la revisione del contenuto interattivo, vedi [Modificare la risoluzione della bozza interattiva nel visualizzatore di bozze](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md).
 
 ## Miglioramenti delle bozze in Workfront {#proofing-enhancements-in-workfront}
 
@@ -377,7 +377,7 @@ Ora è possibile generare un collegamento per una bozza in Workfront e condivide
 
 Prima di questa modifica, era possibile copiare il collegamento della bozza solo in Workfront e distribuirlo con un metodo alternativo.
 
-Per ulteriori informazioni, consulta [Condividere una bozza in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) nell’articolo [Condividere una bozza in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+Per ulteriori informazioni, vedere [Condividi una bozza in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) nell&#39;articolo [Condividi una bozza in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
 >[!NOTE]
 >
@@ -419,16 +419,16 @@ Per ulteriori informazioni, consulta  [Glossario della terminologia di Adobe Wo
 
 ## Miglioramenti delle bozze in Workfront Proof {#proofing-enhancements-in-workfront-proof}
 
-* [Creare una nuova versione di una bozza direttamente dal visualizzatore di bozze (Workfront Proof)](#create-a-new-version-of-a-proof-directly-from-the-proofing-viewer-workfront-proof)
+* [Crea una nuova versione di una bozza direttamente dal visualizzatore di bozze (Workfront Proof)](#create-a-new-version-of-a-proof-directly-from-the-proofing-viewer-workfront-proof)
 * [Nuovo collegamento Dettagli bozza nel visualizzatore di bozze e nel visualizzatore di bozze del desktop (Workfront Proof)](#new-proof-details-link-in-the-proofing-viewer-and-desktop-proofing-viewer-workfront-proof)
 
 ### Creare una nuova versione di una bozza direttamente dal visualizzatore di bozze (Workfront Proof) {#create-a-new-version-of-a-proof-directly-from-the-proofing-viewer-workfront-proof}
 
-È ora possibile creare una nuova versione di una bozza direttamente dal nuovo visualizzatore di bozze e dal Visualizzatore bozze desktop quando si esegue la bozza in Workfront Proof.
+È ora possibile creare una nuova versione di una bozza direttamente dal nuovo visualizzatore di bozze e dal Visualizzatore bozze desktop quando si esegue la verifica in Workfront Proof.
 
 In precedenza, questa opzione era disponibile solo nel Visualizzatore di Flash legacy.
 
-Per ulteriori informazioni, consulta [Copia delle bozze in Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md) nell’articolo  [Copia delle bozze in Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md).
+Per ulteriori informazioni, vedere [Copia delle bozze in Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md) nell&#39;articolo  [Copia delle bozze in Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md).
 
 ### Nuovo collegamento Dettagli bozza nel visualizzatore di bozze e nel visualizzatore di bozze del desktop (Workfront Proof) {#new-proof-details-link-in-the-proofing-viewer-and-desktop-proofing-viewer-workfront-proof}
 

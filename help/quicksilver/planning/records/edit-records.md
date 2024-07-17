@@ -22,7 +22,7 @@ ht-degree: 0%
 
 È necessario creare i tipi di record prima di iniziare a creare e modificare i record.
 
-Per informazioni, consulta [Crea tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
+Per informazioni, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
 
 Per informazioni sulla creazione di record, vedere [Crea record](/help/quicksilver/planning/records/create-records.md).
 
@@ -72,20 +72,20 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>
 <tr>
    <td role="rowheader"><p>Autorizzazioni</p></td>
-   <td> <p>Contribuire o concedere autorizzazioni superiori a un’area di lavoro</a> </p>  
+   <td> <p>Autorizzazioni Contribute o superiori per un'area di lavoro</a> </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>L'amministratore del Workfront o del gruppo deve aggiungere l'area Planning nel modello di layout. Per informazioni, consulta <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica degli accessi</a>. </p>  
+   <td> <p>L'amministratore del Workfront o del gruppo deve aggiungere l'area Planning nel modello di layout. Per informazioni, vedere <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica dell'accesso</a>. </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-*Per ulteriori informazioni, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Considerazioni sulla modifica dei record
 
@@ -106,7 +106,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 * Non è possibile modificare i record in blocco. <!--this will probably change-->
 * Gli URL vengono riconosciuti come collegamenti nei tipi di campi di testo a riga singola solo quando iniziano con: http://, https://, ftp:// o www. .
 * È possibile aggiungere un&#39;immagine di copertina a ogni record. L&#39;immagine è univoca per ogni record e non si applica a tutti i record contemporaneamente.
-* È possibile modificare l&#39;ordine dei campi in una pagina record e aggiungere un&#39;immagine di copertina per un record. Per ulteriori informazioni, consulta [Gestire il layout della pagina record](/help/quicksilver/planning/records/manage-the-record-page.md).
+* È possibile modificare l&#39;ordine dei campi in una pagina record e aggiungere un&#39;immagine di copertina per un record. Per ulteriori informazioni, vedere [Gestire il layout della pagina record](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## Modifica record
 
@@ -127,7 +127,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Fare clic su una scheda del tipo di record.
 
    Viene visualizzata la pagina del tipo di record.
-1. (Condizionale) Fai clic sulla scheda di una vista a tabella o fai clic su **+ Visualizza** per creare una vista tabella. La vista tabella deve essere quella predefinita, a meno che il tipo di record non sia stato visualizzato in un altro tipo di vista all&#39;ultimo accesso.
+1. (Condizionale) Fare clic sulla scheda di una visualizzazione tabella oppure fare clic su **+ Visualizzazione** per creare una visualizzazione tabella. La vista tabella deve essere quella predefinita, a meno che il tipo di record non sia stato visualizzato in un altro tipo di vista all&#39;ultimo accesso.
 
    I record associati al tipo di record selezionato vengono visualizzati nella vista tabella.
 1. Fare clic all&#39;interno della riga di un record per iniziare a modificare le informazioni sul record in linea.
@@ -138,10 +138,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >
    >  Non è possibile modificare le informazioni per i campi seguenti, in quanto sono di sola lettura e Workfront li aggiorna automaticamente:
    >  
-   >  * Campi collegati creati mediante la connessione di tipi di record. Per ulteriori informazioni, consulta [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >  * Campi collegati creati mediante la connessione di tipi di record. Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Campi dei tipi seguenti: Creato da, Data di creazione, Ultima modifica da, Data ultima modifica, Campi formula.
 
-1. (Facoltativo e condizionale) Quando si modifica un campo di tipo Paragrafo, utilizzare quanto segue **Rich Text** opzioni di formattazione:
+1. (Facoltativo e condizionale) Quando modifichi un campo di tipo Paragrafo, utilizza le seguenti **opzioni di formattazione Rich Text**:
 
    * Bold
    * Italic
@@ -152,8 +152,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    ![](assets/rich-text-toolbar-on-paragraph-field.png)
 
-1. (Facoltativo) Fare doppio clic su un campo record connesso per aggiungere record o oggetti connessi a un altro record. Per ulteriori informazioni, consulta [Collega record](/help/quicksilver/planning/records/connect-records.md).
-1. Premi **Invio** sulla tastiera o fare clic all&#39;esterno di una riga per salvare le modifiche. Le modifiche vengono salvate automaticamente. A **Salvato** viene visualizzato brevemente nell&#39;angolo superiore destro della vista tabella per indicare che le modifiche sono state salvate.
+1. (Facoltativo) Fare doppio clic su un campo record connesso per aggiungere record o oggetti connessi a un altro record. Per ulteriori informazioni, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md).
+1. Premi **Invio** sulla tastiera o fai clic all&#39;esterno di una riga per salvare le modifiche. Le modifiche vengono salvate automaticamente. Un indicatore **Salvato** viene visualizzato brevemente nell&#39;angolo superiore destro della visualizzazione tabella per indicare che le modifiche sono state salvate.
 
 
 1. (Facoltativo) Per copiare e incollare informazioni da un campo all&#39;altro, effettuare una delle seguenti operazioni:
@@ -175,7 +175,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >* Non è possibile copiare e incollare valori di campo per i tipi di campo seguenti:
    >
    >
-   >    * Campi collegati (o campi di ricerca) creati mediante la connessione di tipi di record. È possibile copiare e incollare campi record collegati. Per ulteriori informazioni, consulta [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >    * Campi collegati (o campi di ricerca) creati mediante la connessione di tipi di record. È possibile copiare e incollare campi record collegati. Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
    >    * Campi dei seguenti tipi: Creato da, Data di creazione, Ultima modifica da, Data ultima modifica
 
 1. (Facoltativo) Utilizzare le seguenti scelte rapide da tastiera per annullare o ripetere la modifica o la copia e l&#39;incollamento delle informazioni del record:
@@ -187,7 +187,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >
    >    È possibile utilizzare più volte le scelte rapide da tastiera in una riga per annullare più modifiche.
 
-1. (Facoltativo) Aggiungi una miniatura a un record. Per informazioni, consulta [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+1. (Facoltativo) Aggiungi una miniatura a un record. Per informazioni, vedere [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
 ### Modificare un record dall&#39;anteprima del record in una visualizzazione
 
@@ -205,13 +205,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Oppure
 
-   Nella vista tabella, fare clic su **Apri dettagli** icona ![](assets/open-details-icon-in-table-name-field.png) nella prima colonna. L&#39;anteprima del record viene visualizzata nella vista.
+   Nella vista tabella fare clic sull&#39;icona ![](assets/open-details-icon-in-table-name-field.png) **Apri dettagli** nella prima colonna. L&#39;anteprima del record viene visualizzata nella vista.
 
    ![](assets/details-box.png)
 
-1. (Facoltativo) Fai clic su **Altro** a destra del titolo del record, quindi fare clic su **Rinomina**. Il campo visualizzato come titolo del record verrà aggiornato.
+1. (Facoltativo) Fai clic sul menu **Altro** a destra del titolo del record, quindi fai clic su **Rinomina**. Il campo visualizzato come titolo del record verrà aggiornato.
 
-   Il titolo del record è il campo principale del record visualizzato in una vista a tabella. Per informazioni, consulta [Panoramica del campo primario](/help/quicksilver/planning/fields/primary-field-overview.md).
+   Il titolo del record è il campo principale del record visualizzato in una vista a tabella. Per informazioni, vedere [Panoramica del campo primario](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Inizia a modificare le informazioni del campo nell’anteprima del record.
 
@@ -219,16 +219,16 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >
    >  Non è possibile modificare le informazioni per i campi seguenti, in quanto sono di sola lettura e Workfront li aggiorna automaticamente:
    >  
-   >  * Ricercare campi da altri record creati tramite la connessione di tipi di record. Per ulteriori informazioni, consulta [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >  * Ricercare campi da altri record creati tramite la connessione di tipi di record. Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Campi dei tipi seguenti: Creato da, Data di creazione, Ultima modifica da, Data ultima modifica, Campi formula.
 
-1. (Facoltativo) Fai clic su **Aggiungi copertina** per aggiungere una copertina al record. Per ulteriori informazioni, consulta [Aggiungere una copertina a un record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+1. (Facoltativo) Fare clic su **Aggiungi copertina** per aggiungere una copertina al record. Per ulteriori informazioni, vedere [Aggiungere una copertina a un record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
-1. (Facoltativo) Passa il puntatore sull&#39;icona della miniatura, quindi fai clic su **Altro** ![](assets/more-menu.png) > **Modifica miniatura** per aggiungere un&#39;immagine di anteprima. Per informazioni, consulta [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+1. (Facoltativo) Passa il puntatore sull&#39;icona della miniatura, quindi fai clic su **Altro** ![](assets/more-menu.png) > **Modifica miniatura** per aggiungere un&#39;immagine di miniatura. Per informazioni, vedere [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    Workfront salva automaticamente le modifiche.
 
-1. (Facoltativo) Fai clic su **Apri in una nuova scheda** icona ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda. Continua a modificare il record come descritto in [Modificare un record dalla pagina del record](#edit-a-record-from-the-records-page) in questo articolo.
+1. (Facoltativo) Fai clic sull&#39;icona **Apri in una nuova scheda** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda. Continua a modificare il record come descritto in [Modifica un record dalla sezione della pagina del record](#edit-a-record-from-the-records-page) in questo articolo.
 
 ### Modificare un record dalla pagina del record
 
@@ -244,9 +244,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Esegui una delle operazioni seguenti:
 
-   * Da qualsiasi visualizzazione, accedere all&#39;anteprima del record, come descritto nella [Modificare un record dall&#39;anteprima del record in una visualizzazione](#edit-a-record-from-the-records-preview-in-a-view) in questo articolo, quindi fai clic su **Apri in una nuova scheda** icona ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda.
+   * Da qualsiasi visualizzazione, accedere all&#39;anteprima del record come descritto nella sezione [Modificare un record dall&#39;anteprima del record in una visualizzazione](#edit-a-record-from-the-records-preview-in-a-view) in questo articolo, quindi fare clic sull&#39;icona **Apri in una nuova scheda** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda.
 
-   * Dalla sezione **Tabella** , passa il puntatore sul nome di un record, quindi fai clic sul pulsante **Altro** menu ![](assets/more-menu.png), quindi fai clic su **Visualizza**
+   * Dalla visualizzazione **Tabella**, passa il puntatore del mouse sul nome di un record, quindi fai clic sul menu **Altro** ![](assets/more-menu.png), quindi fai clic su **Visualizza**
 
      ![](assets/contextual-menu-for-record-row.png)
 
@@ -254,9 +254,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
      ![](assets/details-page.png)
 
-1. (Facoltativo) Fai clic su **Altro** a destra del titolo del record, quindi fare clic su **Rinomina**. Il campo visualizzato come titolo del record verrà aggiornato.
+1. (Facoltativo) Fai clic sul menu **Altro** a destra del titolo del record, quindi fai clic su **Rinomina**. Il campo visualizzato come titolo del record verrà aggiornato.
 
-   Il titolo del record è il campo principale del record visualizzato in una vista a tabella. Per informazioni, consulta [Gestire la vista tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
+   Il titolo del record è il campo principale del record visualizzato in una vista a tabella. Per informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 1. Fare clic su un campo modificabile nella pagina record per modificarlo.
 
@@ -264,20 +264,20 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >
    >  Non è possibile modificare le informazioni per i campi seguenti, in quanto sono di sola lettura e Workfront li aggiorna automaticamente:
    >  
-   >  * Campi collegati creati mediante la connessione di tipi di record. Per ulteriori informazioni, consulta [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >  * Campi collegati creati mediante la connessione di tipi di record. Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Campi dei tipi seguenti: Creato da, Data di creazione, Ultima modifica da, Data ultima modifica, Campi formula.
 
-1. (Facoltativo) Fai clic su **Aggiungi copertina** per aggiungere un&#39;immagine di copertina al record
+1. (Facoltativo) Fai clic su **Aggiungi copertina** per aggiungere una copertina al record
 
    Oppure
 
-   Passa il puntatore sull&#39;immagine di copertina esistente, quindi fai clic su **Altro** menu ![](assets/more-menu.png) > **Carica** per aggiungere una nuova immagine di copertina per il record.
+   Passa il puntatore del mouse sull&#39;immagine di copertina esistente, quindi fai clic sul menu **Altro** ![](assets/more-menu.png) > **Carica** per aggiungere una nuova immagine di copertina per il record.
 
-   Per ulteriori informazioni, consulta [Aggiungere una copertina a un record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+   Per ulteriori informazioni, vedere [Aggiungere una copertina a un record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
-1. (Facoltativo) Passa il puntatore del mouse su una miniatura esistente oppure **icona miniatura** ![](assets/record-thumbnail-icon-on-details-page.png), quindi fare clic su **Altro** menu ![](assets/more-menu.png) > **Modifica miniatura** per aggiungere una miniatura per il record.
+1. (Facoltativo) Passa il puntatore del mouse su una miniatura esistente o sull&#39;**icona miniatura** ![](assets/record-thumbnail-icon-on-details-page.png), quindi fai clic sul menu **Altro** ![](assets/more-menu.png) > **Modifica miniatura** per aggiungere una miniatura per il record.
 
-   Per ulteriori informazioni, consulta [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+   Per ulteriori informazioni, vedere [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    Workfront salva automaticamente le modifiche.
 
@@ -285,4 +285,4 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 Dopo aver collegato i record agli oggetti di Workfront, è possibile modificare i record di Workfront Planning in Workfront dalla sezione Planning dell&#39;oggetto.
 
-Per ulteriori informazioni, consulta [Gestire i record nella sezione Pianificazione degli oggetti di Adobe Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+Per ulteriori informazioni, vedere [Gestire i record nella sezione Pianificazione degli oggetti Adobe Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).

@@ -2,28 +2,28 @@
 product-area: projects
 navigation-topic: manage-projects
 title: Seleziona il tipo di aggiornamento del progetto
-description: Selezionando un tipo di aggiornamento per un progetto, puoi controllare la frequenza con cui vengono salvate le modifiche apportate alla timeline del progetto sulle attività principali o sul progetto.
+description: Selezionando un Tipo di aggiornamento per un progetto, è possibile controllare la frequenza con cui le modifiche apportate alla sequenza temporale del progetto vengono salvate nelle attività padre o nel progetto.
 author: Alina
 feature: Work Management
 exl-id: ffdfffec-d217-4daa-9849-cb0c794992c0
 source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
 
 # Seleziona il tipo di aggiornamento del progetto
 
-Selezionando un tipo di aggiornamento per un progetto, puoi controllare la frequenza con cui vengono salvate le modifiche apportate alla timeline del progetto sulle attività principali o sul progetto.
+Selezionando un Tipo di aggiornamento per un progetto, è possibile controllare la frequenza con cui le modifiche apportate alla sequenza temporale del progetto vengono salvate nelle attività padre o nel progetto.
 
-Quando la timeline del progetto viene aggiornata, viene ricalcolata in base alle modifiche apportate al progetto, alle sue attività o alle modifiche apportate a un altro progetto da cui dipende la timeline.
+Quando la sequenza temporale del progetto viene aggiornata, viene ricalcolata in base alle modifiche apportate al progetto, alle relative attività o alle modifiche apportate a un altro progetto da cui dipende la sequenza temporale.
 
-Ad esempio, le seguenti modifiche alle attività del progetto attivano un aggiornamento della timeline del progetto:
+Ad esempio, le seguenti modifiche alle attività del progetto attivano un aggiornamento della timeline  del progetto:
 
 * Aggiornare le date delle attività
-* Modificare le relazioni predecessori delle attività
-* Modificare le relazioni padre-figlio, aggiungere o rimuovere assegnazioni oltre a modificare il vincolo di attività o il tipo di durata.
+* Modificare le relazioni dei predecessori delle attività
+* Consente di modificare le relazioni padre-figlio, aggiungendo o rimuovendo assegnazioni e modificando il vincolo attività o il tipo di durata.
 
 ## Requisiti di accesso
 
@@ -64,7 +64,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
@@ -72,59 +72,59 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>Piano </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Modifica accesso a progetti</p> <p><b>NOTA</b>
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modifica accesso ai progetti</p> <p><b>NOTA</b>
 
-Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
+Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Aggiornare il tipo di aggiornamento di un progetto
 
-Quando le attività vengono aggiornate, i relativi oggetti principali (attività principali o progetto) vengono aggiornati al momento indicato dal tipo di aggiornamento.  Per specificare un tipo di aggiornamento per il progetto:
+Quando le attività vengono aggiornate, gli oggetti padre (attività padre o progetto) vengono aggiornati all&#39;ora indicata dal Tipo di aggiornamento.  Per specificare un tipo di aggiornamento per il progetto:
 
-1. Passa al progetto di cui desideri specificare il tipo di aggiornamento.
-1. Fai clic sul menu Altro ![](assets/more-icon.png) accanto al nome del progetto, fai clic su **Modifica** .
+1. Vai al progetto di cui desideri specificare il Tipo di aggiornamento.
+1. Fai clic sul menu Altro ![](assets/more-icon.png) accanto al nome del progetto, quindi fai clic su **Modifica** .
 
-1. Fai clic su  **Progetto** **Impostazioni**.
+1. Fare clic su **Progetto** **Impostazioni**.
 
    ![](assets/update-type-field-on-project-edit-box-nwe-350x378.png)
 
-1. In **Tipo di aggiornamento** selezionare se si desidera che Workfront calcoli automaticamente la timeline del progetto ogni giorno, in caso di modifica o se si desidera che il project manager la calcoli manualmente.
+1. Nel campo **Tipo di aggiornamento**, selezionare se si desidera che Workfront calcoli automaticamente la sequenza temporale del progetto ogni giorno, quando viene apportata una modifica oppure se si desidera che il project manager la calcoli manualmente.
 
-   Seleziona dalle opzioni nell’elenco seguente. 
+   Seleziona tra le opzioni nell’elenco seguente. 
 
    >[!IMPORTANT]
    >
-   >Se la timeline di un progetto ha una durata superiore a 15 anni, Workfront non calcola la timeline in modo automatico o quando cambia. Il tipo di aggiornamento di un progetto per un periodo superiore a 15 anni è sempre Manuale.
+   >Se la timeline di un progetto è più lunga di 15 anni, Workfront non la calcola automaticamente o in caso di modifica. Il tipo di aggiornamento di un progetto di durata superiore a 15 anni è sempre Manuale.
 
-   * **Automatico e On Change:** Questa è l’impostazione predefinita. La timeline del progetto viene aggiornata ogni volta che si verifica una modifica nel progetto o in un altro progetto da cui dipende la timeline. La timeline del progetto viene aggiornata ogni notte. \
-      Questa è l’impostazione consigliata in quanto assicura che la timeline del progetto sia sempre aggiornata.
+   * **Automatico e alla modifica:** Questa è l&#39;impostazione predefinita. La timeline del progetto viene aggiornata ogni volta che si verifica una modifica nel progetto o in un altro progetto da cui dipende. Anche la timeline del progetto viene aggiornata ogni notte. \
+     Si tratta dell’impostazione consigliata in quanto garantisce che la timeline del progetto sia sempre aggiornata.
 
-      Quando si aggiorna un&#39;attività o un progetto e si attiva il ricalcolo della timeline, vengono visualizzate immediatamente tutte le date disponibili, consentendo di continuare a lavorare. Nei progetti con più di 100 attività, le date che richiedono calcoli più lunghi vengono disattivate.
+     Quando si aggiorna un&#39;attività o un progetto e si attiva un ricalcolo della sequenza temporale, tutte le date disponibili vengono visualizzate immediatamente, consentendo di continuare a lavorare. Nei progetti con più di 100 attività, le date che richiedono calcoli più lunghi vengono disattivate.
 
-      ![](assets/dates-dimmed-when-insline-editing-350x146.png)
+     ![](assets/dates-dimmed-when-insline-editing-350x146.png)
 
-      Questo indica che il ricalcolo non è ancora completato e che le date sono soggette a modifiche.
+     Questo indica che il ricalcolo non è ancora terminato e che le date sono soggette a modifiche.
 
-   * **Solo modifica:** La timeline del progetto viene aggiornata ogni volta che si verifica una modifica nel progetto o in un altro progetto da cui dipende la timeline; gli aggiornamenti pianificati non si verificano.\
-      È possibile selezionare questa opzione se si è preoccupati delle prestazioni del sistema e se si verificano raramente modifiche nel progetto o in altri progetti da cui dipende la timeline.
+   * **Solo modifica:** la sequenza temporale del progetto viene aggiornata ogni volta che si verifica una modifica nel progetto o in un altro progetto da cui dipende la sequenza temporale. Gli aggiornamenti pianificati non vengono eseguiti.\
+     È possibile selezionare questa opzione se si è preoccupati delle prestazioni del sistema e se raramente si verificano modifiche nel progetto o in altri progetti da cui dipende la sequenza temporale.
 
-   * **Solo automatico:** La tempistica del progetto viene aggiornata ogni notte; non viene aggiornato immediatamente dopo le modifiche.\
-      È possibile selezionare questa opzione se si è preoccupati delle prestazioni del sistema e se si verificano molte modifiche quotidiane nel progetto o in altri progetti da cui dipende la timeline.
+   * **Solo automatico:** La sequenza temporale del progetto viene aggiornata ogni notte e non viene aggiornata immediatamente dopo le modifiche apportate.\
+     È possibile selezionare questa opzione se si è preoccupati delle prestazioni del sistema e se si verificano molte modifiche ogni giorno nel progetto o in altri progetti da cui dipende la sequenza temporale.
 
-      >[!NOTE]
-      >
-      >Un progetto non viene ricalcolato automaticamente ogni notte se è in stato di pianificazione. Ricalcola solo al cambiamento.
+     >[!NOTE]
+     >
+     >Un progetto non viene ricalcolato automaticamente ogni notte se si trova nello stato Pianificazione. Viene ricalcolato solo in seguito a modifica.
 
-   * **Solo manuale:** La timeline del progetto viene aggiornata solo quando selezioni l’opzione per **Ricalcola timeline**, come descritto nella sezione &quot;Ricalcolo manuale&quot; dell&#39;articolo [Ricalcolare le timeline dei progetti](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).\
-      È possibile selezionare questa opzione se si apportano più modifiche al progetto contemporaneamente e si desidera che il ricalcolo della timeline si verifichi dopo che sono state apportate tutte le modifiche (anziché dopo ogni singola modifica).
+   * **Solo manuale:** la sequenza temporale del progetto viene aggiornata solo quando si seleziona l&#39;opzione **Ricalcola sequenze temporali**, come descritto nella sezione &quot;Ricalcolo manuale&quot; nell&#39;articolo [Ricalcola sequenze temporali del progetto](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).\
+     È possibile selezionare questa opzione se si apportano contemporaneamente molte modifiche al progetto e si desidera che il ricalcolo della sequenza temporale venga eseguito dopo che tutte le modifiche sono state apportate (anziché dopo ogni singola modifica).
 
 1. Fai clic su **Salva**.

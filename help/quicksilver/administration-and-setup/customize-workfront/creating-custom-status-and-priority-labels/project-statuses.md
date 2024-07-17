@@ -44,7 +44,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Devi essere un amministratore di Workfront.</p> <p><b>NOTA</b>: se ancora non disponi dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <p>Devi essere un amministratore di Workfront.</p> <p><b>NOTA</b>: se non disponi ancora dell'accesso, chiedi all'amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,20 +55,20 @@ In qualità di amministratore di Workfront, puoi accedere all’elenco degli sta
 
 Per informazioni sulla modifica dello stato di un sistema e sulla creazione di stati personalizzati, vedere [Creare o modificare uno stato](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
-1. Clic **Preferenze progetto** > **Stati**.
+1. Fai clic su **Preferenze progetto** > **Stati**.
 
-1. Fai clic su **Progetto** scheda.
+1. Fare clic sulla scheda **Progetto**.
 
    Gli stati del progetto disponibili in Workfront sono elencati in questa scheda.
 
    ![](assets/project-status.png)
 
-   Per informazioni dettagliate su ciascuno degli stati dei progetti di sistema incorporati, vedi [Panoramica degli stati dei progetti di sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md).
+   Per informazioni dettagliate su ciascuno degli stati predefiniti del progetto di sistema, vedere [Panoramica degli stati del progetto di sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md).
 
 ## Creazione di stati di progetto personalizzati e personalizzazione degli stati di sistema
 
-In qualità di amministratore di Workfront, puoi aggiungere gli stati del progetto di sistema a Workfront. In qualità di proprietario del gruppo, puoi aggiungere uno stato personalizzato specifico per un gruppo. Per ulteriori informazioni sulla creazione di stati personalizzati o sulla modifica di quelli di sistema, consulta [Creare o modificare uno stato](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+In qualità di amministratore di Workfront, puoi aggiungere gli stati del progetto di sistema a Workfront. In qualità di proprietario del gruppo, puoi aggiungere uno stato personalizzato specifico per un gruppo. Per ulteriori informazioni sulla creazione di stati personalizzati o sulla modifica di quelli di sistema, vedere [Creare o modificare uno stato](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-Quando crei uno stato di progetto personalizzato, devi sempre equiparare il nuovo stato a uno stato di sistema esistente. È necessario comprendere il comportamento degli stati del sistema per sapere con quale stato è appropriato equiparare lo stato personalizzato. Dopo aver selezionato lo stato uguale, questa selezione non può essere modificata. Per ulteriori informazioni sugli stati del progetto di sistema, vedere [Panoramica degli stati dei progetti di sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md).
+Quando crei uno stato di progetto personalizzato, devi sempre equiparare il nuovo stato a uno stato di sistema esistente. È necessario comprendere il comportamento degli stati del sistema per sapere con quale stato è appropriato equiparare lo stato personalizzato. Dopo aver selezionato lo stato uguale, questa selezione non può essere modificata. Per ulteriori informazioni sugli stati del progetto di sistema, vedere [Panoramica degli stati del progetto di sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md).

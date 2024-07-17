@@ -11,7 +11,7 @@ exl-id: 924f3c9b-394d-4637-b981-9062c1fdd5aa
 source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '60'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
@@ -23,4 +23,4 @@ Questa sezione contiene i seguenti articoli:
 * [Configura [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)
 * [Collega elementi tra [!DNL Adobe Workfront] e [!DNL Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md)
 * [Aggiorna elementi collegati tra [!DNL Jira] e [!DNL Adobe Workfront]](../../workfront-integrations-and-apps/use-workfront-with-jira/update-linked-items-between-jira-wf.md)
-* [Visualizza [!UICONTROL [!DNL Jira] Registro attività]](../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md)
+* [Visualizza il [!UICONTROL [!DNL Jira] registro attività]](../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md)

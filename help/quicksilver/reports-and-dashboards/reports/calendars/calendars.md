@@ -23,13 +23,13 @@ Un report calendario è un report dinamico che fornisce una rappresentazione vis
 
 Consulta i seguenti articoli per comprendere i rapporti sul calendario in Adobe Workfront:
 
-* [Panoramica dei rapporti sul calendario](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)
+* [Panoramica sui report del calendario](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)
 * [Utilizzare campi data personalizzati in un report calendario](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
-* [Utilizzare [!UICONTROL Date Pianificate] in un report calendario](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
-* [Utilizzare [!UICONTROL Date Previste] in un report calendario](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
-* [Visualizzare i report del calendario e i dettagli dell’evento](../../../reports-and-dashboards/reports/calendars/view-calendar-reports-and-event-details.md)
-* [Condivisione di un report calendario](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
-* [Modificare un report calendario esistente](../../../reports-and-dashboards/reports/calendars/edit-an-existing-calendar-report.md)
+* [Utilizzare [!UICONTROL Date pianificate] in un report calendario](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
+* [Utilizzare [!UICONTROL Date previste] in un report calendario](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
+* [Visualizza i report del calendario e i dettagli dell&#39;evento](../../../reports-and-dashboards/reports/calendars/view-calendar-reports-and-event-details.md)
+* [Condividi un report calendario](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
+* [Modifica un report calendario esistente](../../../reports-and-dashboards/reports/calendars/edit-an-existing-calendar-report.md)
 * [Eliminare un report calendario](../../../reports-and-dashboards/reports/calendars/delete-a-calendar-report.md)
-* [Copiare un report calendario](../../../reports-and-dashboards/reports/calendars/copy-a-calendar-report.md)
+* [Copia un report calendario](../../../reports-and-dashboards/reports/calendars/copy-a-calendar-report.md)
 * [Aggiungere eventi ad hoc a un report calendario](../../../reports-and-dashboards/reports/calendars/add-ad-hoc-events.md)

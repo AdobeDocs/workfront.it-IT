@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 21.2 Miglioramenti per gli amministratori
 
-Questa pagina descrive tutti i miglioramenti per gli amministratori apportati con la versione 21.2 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 10 maggio 2021. Per un elenco di tutte le modifiche disponibili con la versione 21.2, consulta [Panoramica sulla versione 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Questa pagina descrive tutti i miglioramenti per gli amministratori apportati con la versione 21.2 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 10 maggio 2021. Per un elenco di tutte le modifiche disponibili con la versione 21.2, consulta la [panoramica sulla versione 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Per gli amministratori: visualizza le informazioni del registro di controllo su molte altre aree in Workfront
 
@@ -34,9 +34,9 @@ Nell’area Registri di controllo, ora puoi tenere traccia e risolvere i problem
 * Modifica le preferenze di un progetto o crea o elimina un trimestre personalizzato
 * Modifica un&#39;attività e una preferenza per il problema
 
-Per ulteriori informazioni, consulta [Registri di audit](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
+Per ulteriori informazioni, vedere [Registri di controllo](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
-Questa funzione è ora inclusa nel [Nozioni di base sull’amministratore per la nuova esperienza Workfront, parte 2: Configurazione del progetto](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) percorso di apprendimento in Workfront One.
+Questa funzionalità è ora inclusa in [Nozioni di base dell&#39;amministratore per la nuova esperienza Workfront, Parte 2: Percorso di apprendimento della configurazione del progetto](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) in Workfront One.
 
 ## Per gli amministratori di gruppi: controlli migliorati per lo spostamento dei sottogruppi e barra degli strumenti aggiornata
 
@@ -48,7 +48,7 @@ Sono stati apportati i seguenti miglioramenti all’area Sottogruppi in Configur
 
 * Per riorganizzare rapidamente i gruppi gestiti, è stato aggiunto il pulsante della barra degli strumenti &quot;Aggiungi sottogruppi&quot;, che consente di creare nuovi sottogruppi e di spostare quelli esistenti.
 
-  Per ulteriori informazioni, consulta [Gestire un sottogruppo](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
+  Per ulteriori informazioni, vedere [Gestire un sottogruppo](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
 
 * La barra degli strumenti nell’area Sottogruppi ora rende gli elenchi coerenti con gli altri elenchi modernizzati nella nuova esperienza Workfront. Quando si selezionano i gruppi, le icone rappresentano le funzioni disponibili nella barra degli strumenti.
 
@@ -60,7 +60,7 @@ Le sezioni e le singole opzioni sono più facili da leggere perché sono separat
 
 Le etichette delle due opzioni del pulsante di opzione sono suddivise in modo da non essere troppo lunghe: la seconda parte di ogni etichetta è ora un messaggio informativo su una riga separata.
 
-Per informazioni sulle schede orario e sulle preferenze orario, consulta [Configurare le preferenze di orario e scheda orario](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Per informazioni sulle preferenze per le schede orario e le ore, vedere [Configurare le preferenze per le ore e le schede orario](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 ## Per gli amministratori di gruppi: miglioramenti agli elenchi nell’area Gruppi
 
@@ -73,9 +73,9 @@ Due miglioramenti nell’area Gruppi in Configurazione rendono gli elenchi coere
 * Quando si selezionano i gruppi, le icone rappresentano le funzioni disponibili nella barra degli strumenti.
 * Nell’elenco dei gruppi, le colonne, l’ordinamento e la gerarchia hanno l’aspetto più recente e si sentono abituati ad altri elenchi. Inoltre, per impostazione predefinita, gli elenchi visualizzano fino a 2.000 elementi in una singola pagina anziché 100.
 
-Per informazioni sugli elenchi modernizzati in Workfront, consulta [Modificare la modalità di visualizzazione di un elenco](../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md).
+Per informazioni sugli elenchi modernizzati in Workfront, vedere [Modificare la visualizzazione di un elenco](../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md).
 
-Per informazioni sull&#39;area Gruppi, vedere [Gestisci gruppi](../../../administration-and-setup/manage-groups/manage-groups.md).
+Per informazioni sull&#39;area Gruppi, vedere [Gestione gruppi](../../../administration-and-setup/manage-groups/manage-groups.md).
 
 ## Per gli amministratori di gruppi: creare e modificare i programmi dall’area Gruppi in Configurazione
 
@@ -85,7 +85,7 @@ Per informazioni sull&#39;area Gruppi, vedere [Gestisci gruppi](../../../adminis
 
 Stiamo continuando a semplificare la gestione dei gruppi e degli oggetti associati in un’unica posizione. Ora è possibile visualizzare e lavorare con i programmi di un gruppo dall’area Gruppi in Configurazione. In questo modo è possibile evitare di dover passare all&#39;area Programmi per gestire i programmi del gruppo. Inoltre, l&#39;elenco dei programmi di gruppo con cui si lavora è separato da quello degli altri programmi del sistema.
 
-Per ulteriori informazioni, consulta [Creare, modificare e visualizzare i programmi di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md).
+Per ulteriori informazioni, vedere [Creare, modificare e visualizzare i programmi di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md).
 
 ## Per gli amministratori: intestazioni aggiornate nell’area Configura
 
@@ -101,7 +101,7 @@ Per orientare meglio gli amministratori nell’area Configura e mantenere la coe
 
   ![](assets/updated-headers-in-setup-02-29-21-350x214.png)
 
-Per ulteriori informazioni sull&#39;area Setup, vedere [Amministrazione e configurazione](../../../administration-and-setup/administration-and-setup.md).
+Per ulteriori informazioni sull&#39;area Configura, vedere [Amministrazione e configurazione](../../../administration-and-setup/administration-and-setup.md).
 
 ## Per gli amministratori di gruppi: visualizzare e gestire altri oggetti di gruppo dalla pagina Gruppi
 
@@ -113,8 +113,8 @@ Stiamo continuando a semplificare la gestione dei gruppi e degli oggetti associa
 
 Per ulteriori informazioni, consulta i seguenti articoli:
 
-* [Creare e modificare le società di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-companies.md)
-* [Creare e modificare i progetti di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md)
+* [Crea e modifica le società di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-companies.md)
+* [Crea e modifica i progetti di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md)
 * [Creare e modificare i team di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md)
 
 ## Novità per gli amministratori di gruppi: Assegna profili scheda orario gruppo
@@ -123,9 +123,9 @@ Ora è più semplice gestire i profili delle schede orario per un gruppo amminis
 
 Fino ad ora, per assegnare i profili delle schede orario era necessario abilitare l’opzione Schede orario e ore. Tuttavia, questo potrebbe non essere ideale per tutti gli amministratori di gruppi, in quanto consente l’accesso in visualizzazione e modifica a tutte le informazioni sulle ore e sulle schede orario nel sistema. Se non hai bisogno di questo livello di accesso, ora puoi gestire i profili delle schede orario per i tuoi gruppi.
 
-Per ulteriori informazioni, consulta [Creare, modificare e assegnare profili di schede orario](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+Per ulteriori informazioni, vedere [Creare, modificare e assegnare profili scheda orario](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
-Per informazioni sull&#39;opzione Timesheets &amp; hours (Schede orario e ore) in un livello di accesso, vedere [Concedere agli utenti l&#39;accesso amministrativo a determinate aree](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+Per informazioni sull&#39;opzione Timesheets &amp; hours in un livello di accesso, vedere [Concedere agli utenti l&#39;accesso amministrativo ad alcune aree](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 ## Per gli amministratori: impostare il filtro, la visualizzazione e il raggruppamento visualizzati dagli utenti negli elenchi di oggetti
 
@@ -135,9 +135,9 @@ Ad esempio, invece di lasciare il controllo Elenco filtri impostato su Tutti, è
 
 In precedenza, queste impostazioni predefinite non potevano essere personalizzate, quindi venivano sempre impostate come Tutte per Filtri, Standard per Viste e Niente per Raggruppamenti. Una delle caratteristiche aggiuntive della nuova funzionalità è la possibilità di nascondere queste tre impostazioni agli utenti che non ne hanno bisogno.
 
-Per ulteriori informazioni, consulta [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+Per ulteriori informazioni, vedere [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-Questa funzione è ora inclusa nel [Nozioni di base per gli amministratori nella nuova esperienza Workfront, parte 3: esperienza di controllo e interfaccia](https://one.workfront.com/s/learningpath3/administrator-fundamentals-control-and-interface-experience-MCNCSSMXLPDFEERGVEM4EWL2I4LI) percorso di apprendimento in Workfront One.
+Questa funzionalità è ora inclusa in [Nozioni di base per gli amministratori nella nuova esperienza Workfront, parte 3: esperienza di controllo e interfaccia](https://one.workfront.com/s/learningpath3/administrator-fundamentals-control-and-interface-experience-MCNCSSMXLPDFEERGVEM4EWL2I4LI) nel percorso di apprendimento di Workfront One.
 
 ## Novità per gli amministratori: elenco semplice dei rapporti che attualmente utilizzano un campo personalizzato
 
@@ -151,7 +151,7 @@ Quando devi modificare o eliminare un campo personalizzato che potrebbe già ess
 
 In precedenza, senza questa colonna, era necessario creare manualmente un rapporto utilizzando la modalità testo o utilizzare un’altra soluzione alternativa per individuare i campi personalizzati utilizzati nei rapporti. Questo è stato difficile e noioso se la tua organizzazione utilizza molti campi personalizzati.
 
-Per ulteriori informazioni, [Visualizzare tutti i rapporti che utilizzano un particolare campo personalizzato o widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md).
+Per ulteriori informazioni, [Visualizza tutti i report che utilizzano un campo personalizzato o un widget particolare](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md).
 
 ## Per gli amministratori di gruppi: visualizzare e gestire un gruppo e i relativi oggetti in un’unica posizione
 
@@ -159,20 +159,20 @@ Per ulteriori informazioni, [Visualizzare tutti i rapporti che utilizzano un par
 >
 >Questa funzione è disponibile solo nella nuova esperienza Adobe Workfront
 
-Ora è più semplice gestire un gruppo quando lo si visualizza nell’area Gruppi in Configurazione. Il nuovo menu Altro consente di modificare, copiare o eliminare rapidamente il gruppo senza tornare alla pagina Gruppi. Per ulteriori informazioni, consulta [Gestire un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md).
+Ora è più semplice gestire un gruppo quando lo si visualizza nell’area Gruppi in Configurazione. Il nuovo menu Altro consente di modificare, copiare o eliminare rapidamente il gruppo senza tornare alla pagina Gruppi. Per ulteriori informazioni, vedere [Gestire un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md).
 
 È inoltre possibile visualizzare e utilizzare i modelli di layout, le pianificazioni, i profili delle schede orario e i membri del sottogruppo del gruppo dalla pagina del gruppo. In questo modo è possibile evitare di dover passare alle varie pagine di configurazione di questi oggetti per gestirli per il proprio gruppo. Inoltre, mantiene l&#39;elenco degli oggetti del gruppo distinto da quelli degli altri gruppi del sistema.
 
 Per ulteriori informazioni, consulta i seguenti articoli:
 
 * [Creare e modificare i modelli di layout di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)
-* [Creare e modificare le pianificazioni di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md)
-* [Creare e gestire i profili delle schede orario di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md)
+* [Crea e modifica le pianificazioni di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md)
+* [Crea e gestisci i profili delle schede orario di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md)
 * [Visualizzare e gestire i membri del sottogruppo](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md)
 
 ## Novità per gli amministratori: sono disponibili più opzioni di formattazione del testo nei campi del modulo personalizzato
 
 Quando gli utenti digitano nei campi Modulo personalizzato che consentono la formattazione, ora possono organizzare il testo utilizzando punti elenco, numeri, collegamenti ipertestuali e virgolette, oltre a grassetto, corsivo e sottolineato.
 
-Per ulteriori informazioni, consulta [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Per ulteriori informazioni, vedere [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 

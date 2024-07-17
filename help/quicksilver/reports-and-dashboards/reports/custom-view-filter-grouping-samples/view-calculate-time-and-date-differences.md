@@ -73,16 +73,16 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 ![](assets/view-planned-actual-completion-dates-datediff-column-new.png)
 
 1. Consente di passare a un elenco di attività.
-1. Dalla sezione **Visualizza** menu a discesa, fai clic su **Nuova visualizzazione**.
+1. Dal menu a discesa **Visualizza**, fare clic su **Nuova visualizzazione**.
 
-1. Clic **Aggiungi colonna** e inizia a digitare &quot;Data di completamento pianificata&quot; nel **Mostra in questa colonna** quindi selezionarlo quando viene visualizzato nell&#39;elenco.
+1. Fai clic su **Aggiungi colonna** e inizia a digitare &quot;Data di completamento pianificata&quot; nel campo **Mostra in questa colonna**, quindi selezionala quando viene visualizzata nell&#39;elenco.
 
-1. Clic **Aggiungi colonna** e inizia a digitare &quot;Data di completamento effettiva&quot; nel **Mostra in questa colonna** quindi selezionarlo quando viene visualizzato nell&#39;elenco.
+1. Fai clic su **Aggiungi colonna** e inizia a digitare &quot;Data di completamento effettiva&quot; nel campo **Mostra in questa colonna**, quindi selezionalo quando viene visualizzato nell&#39;elenco.
 
-1. Clic **Aggiungi colonna**, quindi fai clic su **Passa alla modalità testo**.
+1. Fai clic su **Aggiungi colonna**, quindi fai clic su **Passa alla modalità testo**.
 
-1. Passa il puntatore del mouse sull’area della modalità testo e fai clic su **Fare clic per modificare il testo**.
-1. Rimuove il testo trovato in **Modalità testo** e sostituirlo con il seguente codice:
+1. Passa il puntatore del mouse sull&#39;area della modalità testo e fai clic su **Fai clic per modificare il testo**.
+1. Rimuovere il testo trovato nella casella **Modalità testo** e sostituirlo con il seguente codice:
 
    ```
     displayname=Planned-Actual Completion Date
@@ -93,26 +93,26 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
     valueformat=HTML
    ```
 
-1. Clic **Salva**, quindi **Salva visualizzazione**.
+1. Fai clic su **Salva**, quindi su **Salva visualizzazione**.
 
 ## Calcola la differenza di data e ora tra il campo di un oggetto e un altro campo di un oggetto padre
 
-Per un elenco degli oggetti e dei relativi elementi padre, vedere la sezione &quot;Informazioni sull&#39;interdipendenza e sulla gerarchia degli oggetti&quot; in [Comprendere gli oggetti in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
+Per un elenco degli oggetti e dei relativi oggetti padre, vedere la sezione &quot;Informazioni sull&#39;interdipendenza e sulla gerarchia degli oggetti&quot; in [Informazioni sugli oggetti in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
 È ad esempio possibile calcolare la differenza tra la data di completamento pianificata di un&#39;attività e la data di completamento pianificata dell&#39;attività padre o del progetto a cui appartiene l&#39;attività.
 
 ![](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
 
 1. Consente di passare a un elenco di attività.
-1. Dalla sezione **Visualizza** menu a discesa, fai clic su **Nuova visualizzazione**.
+1. Dal menu a discesa **Visualizza**, fare clic su **Nuova visualizzazione**.
 
-1. Clic **Aggiungi colonna** e inizia a digitare &quot;Data di completamento pianificata del progetto&quot; o &quot;Data di completamento principale&quot; nel **Mostra in questa colonna** quindi selezionarlo quando viene visualizzato nell&#39;elenco.
+1. Fai clic su **Aggiungi colonna** e inizia a digitare &quot;Data di completamento pianificata del progetto&quot; o &quot;Data di completamento principale&quot; nel campo **Mostra in questa colonna**, quindi selezionala quando viene visualizzata nell&#39;elenco.
 
-1. Clic **Aggiungi colonna** e inizia a digitare &quot;Data di completamento pianificata&quot; nel **Mostra in questa colonna** quindi selezionarlo quando viene visualizzato nell&#39;elenco.
+1. Fai clic su **Aggiungi colonna** e inizia a digitare &quot;Data di completamento pianificata&quot; nel campo **Mostra in questa colonna**, quindi selezionala quando viene visualizzata nell&#39;elenco.
 
-1. Clic **Aggiungi colonna**, quindi fai clic su **Passa alla modalità testo**.
+1. Fai clic su **Aggiungi colonna**, quindi fai clic su **Passa alla modalità testo**.
 
-1. Passa il puntatore del mouse sull’area della modalità testo e fai clic su **Fare clic per modificare il testo**.
-1. Rimuove il testo trovato in **Modalità testo** e sostituirlo con uno dei seguenti codici:
+1. Passa il puntatore del mouse sull&#39;area della modalità testo e fai clic su **Fai clic per modificare il testo**.
+1. Rimuovere il testo trovato nella casella **Modalità testo** e sostituirlo con uno dei seguenti codici:
 
    * Per visualizzare la differenza tra la data di completamento pianificata del progetto e quella dell&#39;attività:
 
@@ -131,4 +131,4 @@ Per un elenco degli oggetti e dei relativi elementi padre, vedere la sezione &qu
       displayname=Parent Planned Completion - Planned Completion (Days)
      ```
 
-1. Clic **Salva**, quindi **Salva visualizzazione**.
+1. Fai clic su **Salva**, quindi su **Salva visualizzazione**.

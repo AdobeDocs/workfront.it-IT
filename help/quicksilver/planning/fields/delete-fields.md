@@ -31,7 +31,7 @@ recommendations: noDisplay, noCatalog
 
 In Adobe Workfront Planning è possibile creare campi personalizzati per memorizzare informazioni sui record.
 
-Per informazioni sulla creazione di campi personalizzati in Workfront Planning, vedere [Crea campi](/help/quicksilver/planning/fields/create-fields.md).
+Per informazioni sulla creazione di campi personalizzati in Workfront Planning, vedere [Creare campi](/help/quicksilver/planning/fields/create-fields.md).
 
 È possibile eliminare i campi di Workfront Planning che non sono più rilevanti.
 
@@ -42,7 +42,7 @@ Per informazioni sulla creazione di campi personalizzati in Workfront Planning, 
 * Tutte le informazioni memorizzate nel campo vengono eliminate e non possono essere recuperate.
 * Quando si elimina un campo record collegato, vengono eliminati anche tutti i campi di ricerca collegati dal tipo di record da cui si esegue il collegamento. I campi record collegati dei tipi di record a cui si effettua il collegamento non vengono eliminati.
 
-  Per ulteriori informazioni, consulta [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
+  Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
@@ -88,12 +88,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>L'amministratore del Workfront o del gruppo deve aggiungere l'area Planning nel modello di layout. Per informazioni, consulta <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica degli accessi</a>. </p>  
+   <td> <p>L'amministratore del Workfront o del gruppo deve aggiungere l'area Planning nel modello di layout. Per informazioni, vedere <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica dell'accesso</a>. </p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Autorizzazioni</p></td>
-   <td> <p>Gestire le autorizzazioni per un’area di lavoro</a> </p>  
+   <td> <p>Gestione delle autorizzazioni per un'area di lavoro</a> </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>
 </td>
   </tr>
@@ -119,7 +119,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Fare clic sulla scheda di un tipo di record.
 
-1. (Condizionale) Se non è già selezionato, fai clic sulla scheda di un’ **Vista tabella** nella pagina tipo di record.
+1. (Condizionale) Se non è già selezionata, fare clic sulla scheda di una **visualizzazione tabella** nella pagina del tipo di record.
 
    Tutti i record esistenti associati al tipo di record vengono visualizzati nelle righe della vista tabella.
 
@@ -127,10 +127,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-1. Clic **Elimina**. <!-- check this: they might replace it with **Delete field**-->
+1. Fai clic su **Elimina**. <!-- check this: they might replace it with **Delete field**-->
 
    <!--insert screen shot when finalized-->
 
-1. Clic **Elimina** per confermare.
+1. Fai clic su **Elimina** per confermare.
 
    Il campo viene eliminato, non può essere recuperato e non può più essere associato ad alcun record.

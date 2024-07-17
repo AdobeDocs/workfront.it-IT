@@ -55,36 +55,36 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Creare un programma
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro.
 
 1. Effettuare una delle seguenti operazioni.
 
-   * Creare un programma da [!UICONTROL Programmi] area:
+   * Crea un programma dall&#39;area [!UICONTROL Programmi]:
 
-      1. Clic **[!UICONTROL Programmi]** nel menu principale.
-      1. Clic **[!UICONTROL Nuovo programma]**.
-      1. Nella casella visualizzata digitare il nome di un Portfolio esistente nella casella **[!UICONTROL Seleziona Portfolio]** campo.
-      1. Digitare il nome del nuovo programma in **[!UICONTROL Nome]** campo.
+      1. Fare clic su **[!UICONTROL Programmi]** nel menu principale.
+      1. Fai clic su **[!UICONTROL Nuovo programma]**.
+      1. Nella casella visualizzata digitare il nome di un Portfolio esistente nel campo **[!UICONTROL Seleziona Portfolio]**.
+      1. Digitare il nome del nuovo programma nel campo **[!UICONTROL Nome]**.
       1. Fai clic su **[!UICONTROL Salva]**.
-   * Creare un programma da [!UICONTROL Portfoli] area:
+   * Crea un programma dall&#39;area [!UICONTROL Portfoli]:
 
-      1. Clic **[!UICONTROL Portfoli]** nel [!UICONTROL Menu principale], quindi apri un portfolio.
+      1. Fai clic su **[!UICONTROL Portfoli]** nel [!UICONTROL menu principale], quindi apri un portfolio.
       1. Nel pannello a sinistra, fai clic su **[!UICONTROL Programmi]**.
-      1. Fai clic su **[!UICONTROL Nuovo programma]** menu a discesa, quindi **[!UICONTROL Nuovo programma]**.
+      1. Fai clic sul menu a discesa **[!UICONTROL Nuovo programma]**, quindi su **[!UICONTROL Nuovo programma]**.
 
 
-1. (Condizionale) Se hai creato il programma da un portfolio, specifica il nome del programma in **[!UICONTROL Programma senza titolo]** campo.
+1. (Condizionale) Se il programma è stato creato da un portfolio, specificare il nome del programma nel campo **[!UICONTROL Programma senza titolo]**.
 
    Il nome può contenere fino a 255 caratteri.
 
-1. (Facoltativo) Fai clic su **[!UICONTROL Responsabile programma]** nell’intestazione del programma per aggiornarlo.
+1. (Facoltativo) Fai clic su **[!UICONTROL Responsabile del programma]** nell&#39;intestazione del programma per aggiornarla.
 
    >[!TIP]
    >
    >In qualità di creatore del programma, per impostazione predefinita viene impostato come responsabile del programma.
 
-1. Clic **[!UICONTROL Dettagli programma]** nel pannello a sinistra.
-1. Fare doppio clic su un campo per aggiornare le informazioni in **[!UICONTROL Panoramica]** area.
+1. Fai clic su **[!UICONTROL Dettagli programma]** nel pannello a sinistra.
+1. Fare doppio clic su un campo per aggiornare le informazioni nell&#39;area **[!UICONTROL Panoramica]**.
 
 È possibile specificare le seguenti informazioni:
 
@@ -108,7 +108,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Group] </td> 
-      <td> <p>Aggiungere il nome di un singolo gruppo se il gruppo è proprietario del programma o se ne è responsabile. </p> <p>Per assicurarsi di selezionare il gruppo corretto, posizionare il puntatore del mouse su di esso e fare clic sull'icona [!UICONTROL information] <img src="assets/info-icon.png"> che viene visualizzato accanto ad esso. In questo modo viene visualizzata una descrizione del gruppo contenente informazioni sul gruppo stesso, ad esempio la gerarchia dei gruppi al di sopra del gruppo e i relativi amministratori.</p> 
+      <td> <p>Aggiungere il nome di un singolo gruppo se il gruppo è proprietario del programma o se ne è responsabile. </p> <p>Per assicurarsi di selezionare il gruppo corretto, posizionare il puntatore del mouse su di esso e fare clic sull'icona [!UICONTROL information] <img src="assets/info-icon.png"> visualizzata accanto ad esso. In questo modo viene visualizzata una descrizione del gruppo contenente informazioni sul gruppo stesso, ad esempio la gerarchia dei gruppi al di sopra del gruppo e i relativi amministratori.</p> 
        <div data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
         <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> 
        </div> </td> 
@@ -116,7 +116,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
     </tbody> 
    </table>
 
-1. (Facoltativo e condizionale) Fai clic su all’interno del **[!UICONTROL Aggiungi modulo personalizzato]** per selezionare un modulo personalizzato per il portfolio e aggiornare i campi personalizzati.
+1. (Facoltativo e condizionale) Fai clic nella casella **[!UICONTROL Aggiungi modulo personalizzato]** per selezionare un modulo personalizzato per il portfolio e aggiornare i campi personalizzati.
 
    >[!TIP]
    >
@@ -124,14 +124,14 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. (Facoltativo e condizionale) Se si aggiunge un modulo personalizzato, fare clic su un campo del modulo personalizzato per aggiornare le informazioni contenute in tale campo.
 1. Fai clic su **[!UICONTROL Salva modifiche]**.
-1. Clic **[!UICONTROL Progetti]** nel pannello a sinistra, quindi **[!UICONTROL Aggiungi progetti]** per aggiungere progetti al programma.
+1. Fai clic su **[!UICONTROL Progetti]** nel pannello a sinistra, quindi su **[!UICONTROL Aggiungi progetti]** per aggiungere progetti al programma.
 
-   Per informazioni sull’aggiunta di progetti ai programmi, consulta [Aggiungere un progetto a un programma](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
+   Per informazioni sull&#39;aggiunta di progetti ai programmi, vedere [Aggiungere un progetto a un programma](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
 
 1. Fai clic su **[!UICONTROL Salva modifiche]**.
-1. (Facoltativo) Fai clic su **[!UICONTROL Menu Altro]** ![](assets/more-icon.png) accanto al nome del programma e fai clic su **[!UICONTROL Disattiva programma]**.
+1. (Facoltativo) Fai clic sul **[!UICONTROL menu Altro]** ![](assets/more-icon.png) accanto al nome del programma e fai clic su **[!UICONTROL Disattiva programma]**.
 
-   Quando si disattiva un programma, il programma non viene più visualizzato in un elenco di programmi quando gli utenti tentano di aggiungerlo a un progetto. Puoi comunque accedere al programma da [!UICONTROL Programmi] area.
+   Quando si disattiva un programma, il programma non viene più visualizzato in un elenco di programmi quando gli utenti tentano di aggiungerlo a un progetto. Puoi comunque accedere al programma dall&#39;area [!UICONTROL Programmi].
 
 ## Panoramica dell’intestazione del programma
 
@@ -164,7 +164,7 @@ Le seguenti informazioni vengono visualizzate nell’intestazione di un programm
    <td> <p>Fare clic su una delle opzioni seguenti per accedere a ulteriori informazioni o opzioni di modifica per il programma:</p> 
     <ul> 
      <li>Icona a forma di stella per aggiungere il programma all'elenco dei preferiti</li> 
-     <li> <p>Menu [!UICONTROL Altro] <img src="assets/qs-more-menu.png"> per eseguire una delle operazioni seguenti: </p> 
+     <li> <p>Il menu [!UICONTROL Altro] <img src="assets/qs-more-menu.png"> consente di eseguire una delle operazioni seguenti: </p> 
       <ul> 
        <li>Modifica il programma</li> 
        <li>Disattivala. Quando un programma viene disattivato, non è più possibile associarlo ai progetti a livello di progetto. </li> 
@@ -196,4 +196,4 @@ Le seguenti informazioni vengono visualizzate nell’intestazione di un programm
 
 È possibile aggiungere programmi esistenti a un portfolio. Poiché i programmi non possono esistere in due portafogli diversi, l&#39;aggiunta di un programma esistente comporta lo spostamento permanente da un portfolio all&#39;altro.
 
-Per ulteriori informazioni, consulta [Aggiungere un programma esistente a un portfolio](../../../manage-work/portfolios/create-and-manage-programs/move-program.md).
+Per ulteriori informazioni, vedere [Aggiungere un programma esistente a un portfolio](../../../manage-work/portfolios/create-and-manage-programs/move-program.md).

@@ -65,13 +65,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Autorizzazioni</p></td>
-   <td> <p>Contribuire o concedere autorizzazioni superiori a un’area di lavoro</a> </p>  
+   <td> <p>Autorizzazioni Contribute o superiori per un'area di lavoro</a> </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>L'amministratore del Workfront o del gruppo deve aggiungere l'area Planning nel modello di layout. Per informazioni, consulta <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica degli accessi</a>. </p>  
+   <td> <p>L'amministratore del Workfront o del gruppo deve aggiungere l'area Planning nel modello di layout. Per informazioni, vedere <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica dell'accesso</a>. </p>  
 </td>
   </tr>
 
@@ -113,14 +113,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Esegui una delle operazioni seguenti:
 
    * In una visualizzazione Tabella fare clic sul nome di un record.
-   * Nella visualizzazione Tabella, posizionare il puntatore del mouse sul nome di un record, quindi fare clic su **Altro** menu ![](assets/more-menu.png), quindi fai clic su **Visualizza**
+   * Dalla vista Tabella, passa il puntatore del mouse sul nome di un record, quindi fai clic sul menu **Altro** ![](assets/more-menu.png), quindi fai clic su **Visualizza**
 
      ![](assets/contextual-menu-for-record-row.png)
    * In una visualizzazione Sequenza temporale, fare clic su una barra dei record.
 
    Viene visualizzata la pagina del record.
 
-1. Fai clic su **Altro** menu ![](assets/more-menu.png) a destra del nome del record, quindi fare clic su **Elimina**, quindi **Elimina** di nuovo per confermare.
+1. Fai clic sul menu **Altro** ![](assets/more-menu.png) a destra del nome del record, quindi fai clic di nuovo su **Elimina**, quindi su **Elimina** per confermare.
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 Il record viene eliminato e non può essere recuperato.
@@ -136,17 +136,17 @@ Il record viene eliminato e non può essere recuperato.
 1. Fare clic su una scheda del tipo di record.
 
    Viene visualizzata la pagina del tipo di record.
-1. (Condizionale) Da **Visualizza** selezionare una vista Tabella dall&#39;angolo superiore sinistro della tabella. Questa dovrebbe essere la vista predefinita, a meno che il tipo di record non sia stato visualizzato nella vista timeline al momento dell&#39;ultimo accesso.
+1. (Condizionale) Dal menu a discesa **Visualizza** nell&#39;angolo superiore sinistro della tabella, selezionare una visualizzazione Tabella. Questa dovrebbe essere la vista predefinita, a meno che il tipo di record non sia stato visualizzato nella vista timeline al momento dell&#39;ultimo accesso.
 
    I record associati al tipo di record selezionato vengono visualizzati nella vista tabella.
 1. Esegui una delle operazioni seguenti:
 
    * Fare clic con il pulsante destro del mouse su una riga di record, quindi scegliere **Elimina**.
-   * Fai clic su **Altro** menu ![](assets/more-menu.png) a destra del nome del record, quindi fare clic su **Elimina**
+   * Fai clic sul menu **Altro** ![](assets/more-menu.png) a destra del nome del record, quindi fai clic su **Elimina**
 
      ![](assets/contextual-menu-for-record-row.png)
 
-   * Fai clic su **Apri dettagli** icona ![](assets/open-details-icon-in-table-name-field.png) per aprire la casella con le informazioni dettagliate del record e fare clic su **Altro** ![](assets/more-menu.png) a destra del nome del record, quindi **Elimina**.
+   * Fai clic sull&#39;icona ![](assets/open-details-icon-in-table-name-field.png) **Apri dettagli** per aprire la casella con le informazioni dettagliate del record, quindi fai clic su **Altro** ![](assets/more-menu.png) a destra del nome del record, quindi su **Elimina**.
 
    Il record viene eliminato e non può essere recuperato.
 

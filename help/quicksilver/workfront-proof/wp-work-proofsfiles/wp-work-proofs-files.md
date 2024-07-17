@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alle funzionalità del prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Bozza](../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../review-and-approve-work/proofing/proofing.md).
 
 Questa sezione contiene le seguenti sottosezioni:
 
@@ -36,4 +36,4 @@ Questa sezione contiene le seguenti sottosezioni:
   -->
 
 * [Esaminare le bozze nel visualizzatore bozze web](../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proofs-in-wpv.md)
-* [[!UICONTROL Condividere bozze e file]](../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proofs-and-files.md)
+* [[!UICONTROL Condividi bozze e file]](../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proofs-and-files.md)

@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;timesheets
 navigation-topic: set-up-workfront
 title: Configurare le pianificazioni e le preferenze della scheda orario
-description: As a [!DNL Workfront] amministratore, è possibile definire la settimana lavorativa utilizzando le programmazioni e associare una programmazione a un utente o a un progetto. Ciò consente [!DNL Adobe Workfront] per calcolare le timeline e la disponibilità dell’utente. Puoi anche configurare le preferenze per le ore e la scheda orario.
+description: In qualità di amministratore di  [!DNL Workfront] , puoi definire la tua settimana lavorativa utilizzando le pianificazioni e associare una pianificazione a un utente o a un progetto. Questo consente a  [!DNL Adobe Workfront]  di calcolare le tempistiche e la disponibilità dell'utente. Puoi anche configurare le preferenze per le ore e la scheda orario.
 author: Caroline
 feature: System Setup and Administration
 role: Admin

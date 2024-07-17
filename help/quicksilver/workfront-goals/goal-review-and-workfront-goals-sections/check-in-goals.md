@@ -46,7 +46,7 @@ Devi avere i seguenti:
  <td>
  <p>Nuova licenza: Collaboratore o versione successiva</p>
  Oppure
- <p>Licenza corrente: richiesta o successiva</p> <p>Per ulteriori informazioni, consulta <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica sulle licenze di Adobe Workfront</a>.</p> </td>
+ <p>Licenza corrente: richiesta o successiva</p> <p>Per ulteriori informazioni, vedere <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica delle licenze di Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Prodotto*</td>
@@ -56,7 +56,7 @@ Devi avere i seguenti:
 <li>Un piano Select o Prime Adobe Workfront e un’ulteriore licenza Adobe Workfront Goals.</li>
 <li>Un piano Workfront Ultimate che include gli obiettivi Workfront per impostazione predefinita. </li></ul>
  <p>Oppure</p>
- <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, consulta <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l’utilizzo degli obiettivi di Workfront</a>. </p> </td>
+ <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Livello di accesso</td>
@@ -68,7 +68,7 @@ Devi avere i seguenti:
   <div>
   <p>Visualizza o autorizzazioni superiori per l’obiettivo per visualizzarlo</p>
   <p>Gestire le autorizzazioni per l’obiettivo per modificarlo</p>
-  <p>Per informazioni sulla condivisione degli obiettivi, consulta <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Condividere un obiettivo in Obiettivi di Workfront</a>. </p>
+  <p>Per informazioni sulla condivisione degli obiettivi, vedere <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Condividere un obiettivo in Obiettivi di Workfront</a>. </p>
   </div> </td>
  </tr>
 <tr>
@@ -79,7 +79,7 @@ Devi avere i seguenti:
 </tbody>
 </table>
 
-*Per ulteriori informazioni, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Prerequisiti
 
@@ -99,15 +99,15 @@ Quando aggiorni l’avanzamento degli obiettivi, tieni presente quanto segue:
 
   Vedi anche i seguenti articoli:
 
-   * Per informazioni sull’aggiunta di attività agli obiettivi, consulta [Aggiungere attività agli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
-   * Per informazioni sull’aggiunta di risultati agli obiettivi, consulta [Aggiungere risultati agli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md).
-   * Per informazioni su come Workfront Goals calcola l’avanzamento di un obiettivo, vedi [Panoramica dell’avanzamento e della condizione dell’obiettivo in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/calculate-goal-progress.md).
+   * Per informazioni sull&#39;aggiunta di attività agli obiettivi, vedere [Aggiungere attività agli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+   * Per informazioni sull&#39;aggiunta di risultati agli obiettivi, vedere [Aggiungere risultati agli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+   * Per informazioni sul modo in cui Workfront Goals calcola l&#39;avanzamento di un obiettivo, vedere [Panoramica sull&#39;avanzamento e sulla condizione dell&#39;obiettivo in Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md).
 
 * Devi creare gli obiettivi e attivarli prima di poter aggiornare il loro avanzamento.
 
   Vedi anche i seguenti articoli:
 
-   * Per informazioni sulla creazione degli obiettivi, consulta [Creare gli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
+   * Per informazioni sulla creazione degli obiettivi, vedere [Creare gli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
    * Per informazioni sull&#39;attivazione degli obiettivi, vedere [Attivare gli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/activate-goals.md).
 
   >[!IMPORTANT]
@@ -245,7 +245,7 @@ When you check in on a goal in the Check-in section, you can update the progress
 
 Per aggiornare lo stato di avanzamento degli obiettivi:
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) > **Obiettivi** nell’angolo superiore destro.
+1. Fai clic sull&#39;icona **Main Menu** ![](assets/main-menu-icon.png) > **Goals** nell&#39;angolo superiore destro.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -255,7 +255,7 @@ Per aggiornare lo stato di avanzamento degli obiettivi:
    In alternativa, potete fare clic su Allineamento obiettivo (Goal Alignment) nel pannello sinistro.
 
 1. Nell&#39;elenco Obiettivo fare clic sul nome di un obiettivo per aprire la pagina obiettivo.
-1. Clic **Indicatori di avanzamento** nel pannello a sinistra.
+1. Fai clic su **Indicatori di avanzamento** nel pannello a sinistra.
 
    Nell&#39;elenco Indicatori di avanzamento vengono visualizzati tutti gli indicatori di avanzamento per l&#39;obiettivo selezionato.
 
@@ -268,7 +268,7 @@ Per aggiornare lo stato di avanzamento degli obiettivi:
    >    A sua volta, i progressi degli obiettivi secondari e dei progetti guidano l&#39;avanzamento dell&#39;obiettivo selezionato.
 
 
-1. Per aggiornare l’avanzamento di un risultato o di un’attività, fai clic sul valore all’interno del **Avanzamento effettivo** del risultato o dell&#39;attività e digitare un numero per aggiornarne il valore, quindi premere Invio.
+1. Per aggiornare l&#39;avanzamento di un risultato o di un&#39;attività, fare clic sul valore nella colonna **Avanzamento effettivo** del risultato o dell&#39;attività e digitare un numero per aggiornarne il valore, quindi premere Invio.
 
    ![](assets/actual-progress-result-updating-highlighted-unshimmed.png)
 

@@ -112,7 +112,7 @@ Il rapporto Utilizzo consente di visualizzare l&#39;avanzamento, il costo o i ri
 
 È possibile visualizzare il rapporto Utilizzo nell&#39;area Risorse per visualizzare l&#39;utilizzo in più progetti oppure a livello di progetto per visualizzare l&#39;utilizzo per le singole risorse (mansioni e utenti) associate al progetto.
 
-Per informazioni sull&#39;accesso e l&#39;utilizzo del rapporto Utilizzo, vedere [Con il rapporto Utilizzo puoi tenere traccia di avanzamento, costi e ricavi](#track-progress-cost-and-revenue-with-the-utilization-report) in questo articolo.
+Per informazioni sull&#39;accesso e l&#39;utilizzo del report Utilizzo, vedere la sezione [Tracciare l&#39;avanzamento, i costi e i ricavi con il report Utilizzo](#track-progress-cost-and-revenue-with-the-utilization-report) in questo articolo.
 
 ### Tracciare le ore (avanzamento) {#track-hours-progress}
 
@@ -127,16 +127,16 @@ Quando si tiene traccia delle ore, nel rapporto Utilizzo sono disponibili le seg
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Titolo colonna durante la visualizzazione delle ore</strong> </th> 
+   <th><strong>Titolo colonna durante visualizzazione ore</strong> </th> 
    <th><strong>Funzione</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td scope="col"><strong>Ore preventivate</strong> </td> 
-   <td scope="col"> <p>Il totale delle ore preventivate per i progetti inclusi. È possibile visualizzare le ore preventivate totali per l'intera durata dei progetti inclusi oppure le ore preventivate totali solo per l'intervallo di date specificato (è possibile specificare una singola settimana o mese). </p> <p>Le ore preventivate vengono compilate in base alle informazioni disponibili nell'area Budget risorse del Business Case o della Programmazione risorse<em>.</em></p> <p>Le ore preventivate vengono visualizzate nel rapporto Utilizzo in una delle seguenti righe:</p> 
+   <td scope="col"> <p>Il totale delle ore preventivate per i progetti inclusi. È possibile visualizzare le ore preventivate totali per l'intera durata dei progetti inclusi oppure le ore preventivate totali solo per l'intervallo di date specificato (è possibile specificare una singola settimana o mese). </p> <p>Le ore preventivate sono compilate dalle informazioni disponibili nell'area Budget risorse del Business Case o della Programmazione risorse<em>.</em></p> <p>Le ore preventivate vengono visualizzate nel rapporto Utilizzo in una delle seguenti righe:</p> 
     <ul> 
-     <li> Le ore preventivate vengono riepilogate per mansione e per singolo utente nel rapporto Utilizzo, come segue:<br><strong>Utente singolo:</strong> Le ore preventivate vengono riepilogate per ciascun utente nel rapporto utilizzo. Queste ore preventivate sono associate alle attività e ai problemi che l’utente è assegnato ai progetti inclusi. È possibile espandere la riga del ruolo corrispondente per visualizzare un elenco di utenti con tale ruolo.<br><strong>Ruolo:</strong> Le ore preventivate vengono riepilogate in base alla mansione nel rapporto sull'utilizzo.<br>Le ore preventivate vengono visualizzate in una particolare mansione come risultato di uno dei seguenti scenari:
+     <li> Le ore preventivate vengono riepilogate in base alla mansione e al singolo utente nel report Utilizzo, come segue:<br><strong>Utente singolo:</strong> Le ore preventivate vengono riepilogate per ogni utente nel report Utilizzo. Queste ore preventivate sono associate alle attività e ai problemi che l’utente è assegnato ai progetti inclusi. È possibile espandere la riga del ruolo corrispondente per visualizzare un elenco di utenti con tale ruolo.<br><strong>Mansione:</strong> le ore preventivate sono riepilogate per mansione nel report sull'utilizzo.<br>Le ore preventivate vengono visualizzate in una particolare mansione come risultato di uno dei seguenti scenari:
      <ul>
      <li>Il ruolo è definito come il ruolo principale dell'utente assegnato all'attività o al problema a cui sono associate le ore preventivate. </li> 
        <li>Quando si visualizzano le informazioni sull'utilizzo per un singolo progetto, viene utilizzata la mansione dell'utente a cui sono state assegnate le ore, indipendentemente dal fatto che l'attività o il problema non sia stato assegnato, che a un altro utente non sia stata assegnata alcuna mansione, che a un altro utente sia stata assegnata una mansione diversa o che sia stato assegnato un altro team.</li> 
@@ -145,8 +145,8 @@ Quando si tiene traccia delle ore, nel rapporto Utilizzo sono disponibili le seg
       </ul></li> 
     </ul> 
     <ul> 
-     <li> <p><strong>Ore non assegnate</strong>: le ore preventivate vengono visualizzate nel rapporto sull’utilizzo nella sezione Ore non assegnate quando le ore preventivate sono associate a un’attività o a un problema e non è stato assegnato alcun utente o ruolo all’attività o al problema.<br>Questa sezione viene visualizzata solo quando il progetto contiene ore corrispondenti a questa descrizione e quando si visualizza il rapporto Utilizzo per o da un progetto. </p> <p>Questa sezione viene visualizzata solo quando il progetto contiene ore corrispondenti a questa descrizione e quando si visualizza il rapporto Utilizzo per o da un progetto. </p> </li> 
-    </ul> <p>Per ulteriori informazioni sulle ore preventivate, consulta <a href="/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md#locate-the-budgeted-hours-of-a-project">Individuare le ore preventivate di un progetto</a> in <a href="/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md">Comprendere il costo manodopera preventivato e le ore preventivate per i progetti</a>.</p> </td> 
+     <li> <p><strong>Ore non assegnate</strong>: le ore preventivate vengono visualizzate nel report sull'utilizzo nella sezione Ore non assegnate quando le ore preventivate sono associate a un'attività o a un problema e non è stato assegnato alcun utente o ruolo all'attività o al problema.<br>Questa sezione viene visualizzata solo quando nel progetto sono presenti ore corrispondenti a questa descrizione e quando si visualizza il report Utilizzo per o da un progetto. </p> <p>Questa sezione viene visualizzata solo quando il progetto contiene ore corrispondenti a questa descrizione e quando si visualizza il rapporto Utilizzo per o da un progetto. </p> </li> 
+    </ul> <p>Per ulteriori informazioni sulle ore preventivate, vedere <a href="/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md#locate-the-budgeted-hours-of-a-project">Individuare le ore preventivate di un progetto</a> in <a href="/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md">Comprendere il costo della manodopera preventivato e le ore preventivate per i progetti</a>.</p> </td> 
   </tr> 
   <tr> 
    <td scope="col"><strong>Ore pianificate</strong> </td> 
@@ -167,7 +167,7 @@ Le ore pianificate nel rapporto Utilizzo considerano se le ore pianificate sono 
 Quando l'allocazione giornaliera degli utenti per le ore è stata modificata utilizzando il Bilanciatore dei carichi di lavoro, i dati nel rapporto Utilizzo possono essere interessati se le date selezionate nel rapporto Utilizzo contengono solo una parte della Durata di un'attività o di un problema. 
 </p>
 <p>
-Per informazioni sulla modifica delle allocazioni per gli utenti, consulta <a href="../workload-balancer/manage-user-allocations-workload-balancer.md">Gestire le allocazioni utente nel Bilanciatore dei carichi di lavoro</a>.
+Per informazioni sulla modifica delle allocazioni per gli utenti, vedere <a href="../workload-balancer/manage-user-allocations-workload-balancer.md">Gestione delle allocazioni utente nel Bilanciatore dei carichi di lavoro</a>.
 
 
 </p>
@@ -179,9 +179,9 @@ Le ore pianificate vengono visualizzate nel rapporto Utilizzo in una delle segue
 <li>Le ore pianificate vengono riepilogate in base alla mansione e al singolo utente nel rapporto utilizzo, come segue: 
 <ul>
 
-<li><strong>Utente singolo</strong>: le ore pianificate vengono riepilogate per ogni utente nel rapporto sull’utilizzo. Queste ore pianificate sono associate alle attività e ai problemi che l’utente è assegnato ai progetti inclusi. È possibile espandere la riga del ruolo corrispondente per visualizzare un elenco di utenti con tale ruolo.
+<li><strong>Utente singolo</strong>: le ore pianificate vengono riepilogate per ogni utente nel report sull'utilizzo. Queste ore pianificate sono associate alle attività e ai problemi che l’utente è assegnato ai progetti inclusi. È possibile espandere la riga del ruolo corrispondente per visualizzare un elenco di utenti con tale ruolo.
 
-<li><strong>Ruolo</strong>: le ore pianificate vengono riepilogate per ruolo nel rapporto utilizzo di un singolo progetto.<br>Le ore pianificate vengono visualizzate in una particolare mansione come risultato di uno dei seguenti scenari:  
+<li><strong>Mansione</strong>: le ore pianificate sono riepilogate per mansione nel report sull'utilizzo di un singolo progetto.<br>Le ore pianificate vengono visualizzate in una particolare mansione come risultato di uno dei seguenti scenari:  
 <ul>
 
 <li>Il ruolo è definito come il ruolo principale dell'utente assegnato all'attività o al problema a cui sono associate le ore pianificate.
@@ -205,7 +205,7 @@ Le ore pianificate vengono visualizzate nel rapporto Utilizzo in una delle segue
 </li>  
 </ul>
 
-<li><strong>Ore non assegnate</strong>: le ore pianificate vengono visualizzate nel rapporto sull’utilizzo nella sezione Ore non assegnate quando le ore pianificate sono associate a un’attività o a un problema e non vi sono utenti o ruoli assegnati all’attività o al problema. Questa sezione viene visualizzata solo quando il progetto contiene ore corrispondenti a questa descrizione e quando si visualizza il rapporto Utilizzo per un singolo progetto. <br>Per ulteriori informazioni sulle ore pianificate, consulta <a href="../../manage-work/tasks/task-information/planned-hours.md">Panoramica sulle ore pianificate</a>.
+<li><strong>Ore non assegnate</strong>: le ore pianificate vengono visualizzate nel report sull'utilizzo nella sezione Ore non assegnate quando le ore pianificate sono associate a un'attività o a un problema e non vi sono utenti o ruoli assegnati all'attività o al problema. Questa sezione viene visualizzata solo quando il progetto contiene ore corrispondenti a questa descrizione e quando si visualizza il rapporto Utilizzo per un singolo progetto. <br>Per ulteriori informazioni sulle ore pianificate, vedere <a href="../../manage-work/tasks/task-information/planned-hours.md">Panoramica sulle ore pianificate</a>.
 </li> 
 </ul>
 </li> 
@@ -213,9 +213,9 @@ Le ore pianificate vengono visualizzate nel rapporto Utilizzo in una delle segue
   </tr> 
   <tr> 
    <td><strong>Ore effettive</strong> </td> 
-   <td> <p> Il totale delle ore registrate per attività, problemi, <span>e sul progetto</span> per i progetti inclusi. È possibile visualizzare le ore effettive totali per la durata complessiva dei progetti inclusi oppure le ore effettive totali solo per l'intervallo di date specificato (è possibile specificare una singola settimana o mese). </p> <p><strong>Avvertenza:</strong> Il rapporto sull’utilizzo include le ore registrate nel progetto, le attività figlio, i problemi e le attività padre con almeno un’assegnazione. Non include le ore registrate per le attività padre senza assegnazioni. È consigliabile non utilizzare le attività padre come attività di lavoro e assegnare solo le attività figlio alle risorse. </p> <p>Le ore effettive vengono visualizzate nel rapporto sull'utilizzo in una delle seguenti righe:</p> 
+   <td> <p> Le ore totali registrate per le attività, i problemi, <span>e sul progetto</span> per i progetti inclusi. È possibile visualizzare le ore effettive totali per la durata complessiva dei progetti inclusi oppure le ore effettive totali solo per l'intervallo di date specificato (è possibile specificare una singola settimana o mese). </p> <p><strong>Avviso:</strong> il report sull'utilizzo include le ore registrate nel progetto, le attività figlio, i problemi e le attività padre con almeno un'assegnazione. Non include le ore registrate per le attività padre senza assegnazioni. È consigliabile non utilizzare le attività padre come attività di lavoro e assegnare solo le attività figlio alle risorse. </p> <p>Le ore effettive vengono visualizzate nel rapporto sull'utilizzo in una delle seguenti righe:</p> 
     <ul> 
-     <li> Le ore effettive vengono riepilogate per mansione e per singolo utente nel rapporto utilizzo di un progetto, come segue:<br><strong>Utente singolo:</strong> Le ore effettive vengono visualizzate nel rapporto utilizzo nella riga dell’utente che ha registrato le ore. È possibile espandere la riga del ruolo corrispondente per visualizzare un elenco di utenti con tale ruolo che hanno registrato ore.<br><strong>Ruolo:</strong> Le ore effettive registrate dagli utenti associati a tali ruoli vengono riepilogate nel rapporto utilizzo nella riga del ruolo corrispondente.<br>Le ore effettive vengono visualizzate in una particolare mansione come risultato di uno dei seguenti scenari: 
+     <li> Le ore effettive vengono riepilogate in base alla mansione e al singolo utente nel report sull'utilizzo di un progetto, come segue:<br><strong>Utente singolo:</strong> Le ore effettive vengono visualizzate nel report sull'utilizzo nella riga dell'utente che ha registrato le ore. È possibile espandere la riga del ruolo corrispondente per visualizzare un elenco di utenti con tale ruolo che hanno registrato ore.<br><strong>Ruolo:</strong> Le ore effettive registrate dagli utenti associati a tali ruoli vengono riepilogate nel report sull'utilizzo nella riga della mansione corrispondente.<br>Le ore effettive vengono visualizzate in una particolare mansione come risultato di uno dei seguenti scenari: 
       <ul> 
        <li>Il ruolo è definito come il ruolo principale dell’utente che ha registrato le ore</li> 
        <li>Nessuna assegnazione per l’attività o il problema</li> 
@@ -224,11 +224,11 @@ Le ore pianificate vengono visualizzate nel rapporto Utilizzo in una delle segue
        <li> <p>Un team è assegnato</p> </li> 
       </ul></li>  
      <p>Se l’utente che registra le ore non ha una mansione associata al suo profilo, la mansione utilizzata per il rapporto Utilizzo è la mansione assegnata all’attività o al problema in cui vengono registrate le ore o la mansione associata al proprietario principale dell’attività o del problema. </p> 
-     <li><strong>Altre ore:</strong> Le ore effettive vengono visualizzate nel rapporto utilizzo nella sezione Altre ore, nella riga dell’utente che ha effettuato l’accesso.<br>Le ore vengono visualizzate in questa sezione quando l’utente che ha effettuato l’accesso non ha una mansione definita nel sistema.<br>Questa sezione viene visualizzata solo se il progetto contiene ore corrispondenti a questa descrizione. </li> 
+     <li><strong>Altre ore:</strong> le ore effettive vengono visualizzate nel report sull'utilizzo nella sezione Altre ore, nella riga dell'utente che ha effettuato l'accesso.<br>Le ore vengono visualizzate in questa sezione quando l'utente che ha registrato le ore non ha una mansione definita nel sistema.<br>Questa sezione viene visualizzata solo quando nel progetto sono presenti ore corrispondenti a questa descrizione. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><strong>Variazione preventivata (per ore)</strong> </td> 
+   <td><strong>Varianza preventivata (per ore)</strong> </td> 
    <td> <p>Il totale delle ore preventivate meno il totale delle ore effettive sui progetti inclusi. È possibile visualizzare lo scostamento totale preventivato per la durata complessiva dei progetti inclusi oppure lo scostamento totale preventivato solo per l'intervallo di date specificato (è possibile specificare una singola settimana o mese). </p> <p>Se il valore è positivo, viene visualizzato in verde. Questo indica che il totale delle ore preventivate è maggiore delle ore effettive.</p> <p>Se il valore è negativo, viene visualizzato in rosso. Ciò indica che il totale delle ore preventivate è inferiore alle ore effettive.</p> <p> <img src="assets/utilization-variance-budgeted-350x96.png" style="width: 350;height: 96;"> </p> </td> 
   </tr> 
   <tr> 
@@ -242,14 +242,14 @@ Le ore pianificate vengono visualizzate nel rapporto Utilizzo in una delle segue
 
 È possibile tenere traccia dei costi visualizzando il confronto tra il Costo preventivato e il Costo pianificato e i Costi effettivi.
 
-Quando si tiene traccia del costo di un progetto, programma o portfolio, le informazioni contenute nel rapporto Utilizzo provengono dalle attività. Le informazioni sui costi delle attività sono sempre disponibili nel rapporto Utilizzo. Il costo delle attività viene calcolato in base al tipo di costo dell&#39;attività. Per informazioni sul tipo di costo delle attività, vedere [Modalità di calcolo dei tipi di costo per le attività in Workfront](/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-cost-types-for-tasks) in [Tracciare i costi](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
+Quando si tiene traccia del costo di un progetto, programma o portfolio, le informazioni contenute nel rapporto Utilizzo provengono dalle attività. Le informazioni sui costi delle attività sono sempre disponibili nel rapporto Utilizzo. Il costo delle attività viene calcolato in base al tipo di costo dell&#39;attività. Per informazioni sul tipo di costo delle attività, vedere [Come Workfront calcola i tipi di costo per le attività](/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-cost-types-for-tasks) in [Tracciare i costi](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
 
 È possibile visualizzare le informazioni sui costi nel rapporto Utilizzo nei modi seguenti:
 
 * Per una data settimana o mese oppure per il progetto, il programma o il portfolio complessivo
 * Per ruolo o singolo, per i progetti
 
-La valuta nel rapporto Utilizzo è determinata dalla valuta impostata nel progetto. Per informazioni sulla modifica della valuta per un progetto, consulta [Modificare la valuta del progetto](../../manage-work/projects/project-finances/change-project-currency.md).
+La valuta nel rapporto Utilizzo è determinata dalla valuta impostata nel progetto. Per informazioni su come modificare la valuta per un progetto, vedere [Modificare la valuta del progetto](../../manage-work/projects/project-finances/change-project-currency.md).
 
 Quando si tiene traccia dei costi, nel rapporto Utilizzo sono disponibili le seguenti informazioni:
 
@@ -258,25 +258,25 @@ Quando si tiene traccia dei costi, nel rapporto Utilizzo sono disponibili le seg
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Titolo colonna durante la visualizzazione del costo</strong> </th> 
+   <th><strong>Titolo colonna durante visualizzazione costo</strong> </th> 
    <th> <p><strong>Funzione</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td scope="col"><strong>Costo preventivato</strong> </td> 
-   <td scope="col"> <p>Costo preventivato dei progetti inclusi. È possibile visualizzare il costo preventivato totale per l'intera durata dei progetti inclusi oppure il costo preventivato totale solo per l'intervallo di date specificato (è possibile specificare una singola settimana o mese).</p> <p>Poiché il costo preventivato nel rapporto Utilizzo è incentrato sul costo per ruolo, il calcolo è identico al costo manodopera preventivato in altre aree di Workfront. Per informazioni sulle modalità di calcolo del costo manodopera preventivato, vedere <a href="../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Comprendere il costo manodopera preventivato e le ore preventivate per i progetti</a>.</p> </td> 
+   <td scope="col"> <p>Costo preventivato dei progetti inclusi. È possibile visualizzare il costo preventivato totale per l'intera durata dei progetti inclusi oppure il costo preventivato totale solo per l'intervallo di date specificato (è possibile specificare una singola settimana o mese).</p> <p>Poiché il costo preventivato nel rapporto Utilizzo è incentrato sul costo per ruolo, il calcolo è identico al costo manodopera preventivato in altre aree di Workfront. Per informazioni sul calcolo del costo manodopera preventivato, vedere <a href="../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Comprendere il costo manodopera preventivato e le ore preventivate per i progetti</a>.</p> </td> 
   </tr> 
   <tr> 
    <td scope="col"><strong>Costo Pianificato</strong> </td> 
-   <td scope="col"> <p>Costo pianificato totale dei progetti inclusi. È possibile visualizzare il Costo pianificato totale per l'intera durata dei progetti inclusi oppure il Costo pianificato totale solo per l'intervallo di date specificato (è possibile specificare una singola settimana o mese).</p> <p>Si noti che per le visualizzazioni settimana, mese e trimestre, i costi pianificati vengono calcolati come media del periodo scelto quando i tassi di costo per mansioni o utenti sono validi per la data.</p><p>Per informazioni su come viene calcolato il costo pianificato per il progetto, vedi <a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-planned-budgeted-and-actual-costs">Calcolo dei costi pianificati, preventivati ed effettivi in Workfront</a> in <a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md">Tracciare i costi</a>.</p> </td>
+   <td scope="col"> <p>Costo pianificato totale dei progetti inclusi. È possibile visualizzare il Costo pianificato totale per l'intera durata dei progetti inclusi oppure il Costo pianificato totale solo per l'intervallo di date specificato (è possibile specificare una singola settimana o mese).</p> <p>Si noti che per le visualizzazioni settimana, mese e trimestre, i costi pianificati vengono calcolati come media del periodo scelto quando i tassi di costo per mansioni o utenti sono validi per la data.</p><p>Per informazioni su come viene calcolato il costo pianificato per il progetto, vedere <a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-planned-budgeted-and-actual-costs">Come Workfront calcola i costi pianificati, preventivati ed effettivi</a> in <a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md">Tracciare i costi</a>.</p> </td>
   </tr> 
   <tr> 
-   <td scope="col"><strong>Costo Reale</strong> </td> 
-   <td scope="col"> <p>Costo effettivo totale dei progetti inclusi. È possibile visualizzare il Costo effettivo totale per l'intera durata dei progetti inclusi oppure il Costo effettivo totale solo per l'intervallo di date specificato (è possibile specificare una singola settimana o mese).</p> <p>Per informazioni sul calcolo del costo effettivo del progetto, vedere <a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-planned-budgeted-and-actual-costs">Calcolo dei costi pianificati, preventivati ed effettivi in Workfront</a> in <a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md">Tracciare i costi</a>.</p> </td>
+   <td scope="col"><strong>Costo effettivo</strong> </td> 
+   <td scope="col"> <p>Costo effettivo totale dei progetti inclusi. È possibile visualizzare il Costo effettivo totale per l'intera durata dei progetti inclusi oppure il Costo effettivo totale solo per l'intervallo di date specificato (è possibile specificare una singola settimana o mese).</p> <p>Per informazioni su come viene calcolato il costo effettivo del progetto, vedere <a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-planned-budgeted-and-actual-costs">Come Workfront calcola i costi pianificati, preventivati ed effettivi</a> in <a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md">Tracciare i costi</a>.</p> </td>
   </tr> 
   <tr> 
-   <td><strong>Scostamento preventivato (per costo)</strong> </td> 
+   <td><strong>Variazione preventivata (per costo)</strong> </td> 
    <td scope="col"> <p>Costo preventivato totale meno il Costo effettivo totale dei progetti inclusi. È possibile visualizzare lo scostamento totale preventivato per la durata complessiva dei progetti inclusi oppure lo scostamento totale preventivato solo per l'intervallo di date specificato (è possibile specificare una singola settimana o mese).</p> <p>Se il valore è positivo, viene visualizzato in verde. Indica che il costo preventivato totale è maggiore del costo effettivo.</p> <p>Se il valore è negativo, viene visualizzato in rosso. Ciò indica che il costo preventivato totale è inferiore al costo effettivo.</p> </td>
   </tr> 
   <tr> 
@@ -294,20 +294,20 @@ Quando si tiene traccia dei ricavi di un progetto, programma o portfolio, nel ra
 
 Le informazioni riportate nella tabella seguente sono disponibili nel rapporto Utilizzo quando si tiene traccia dei ricavi.
 
-Per informazioni sui campi specifici e sul modo in cui Workfront li calcola, consulta anche [Tracciare i costi](../../manage-work/projects/project-finances/track-costs.md) e [Panoramica su fatturazione e ricavi](../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Per informazioni sui campi specifici e su come Workfront li calcola, vedere anche [Tracciare i costi](../../manage-work/projects/project-finances/track-costs.md) e [Panoramica su fatturazione e ricavi](../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Titolo colonna durante la visualizzazione dei ricavi</strong> </th> 
+   <th><strong>Titolo colonna durante visualizzazione ricavi</strong> </th> 
    <th> <strong>Funzione</strong></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td scope="col"><strong>Reddito Preventivato</strong> </td> 
+   <td scope="col"><strong>Entrate Preventivate</strong> </td> 
    <td scope="col"> <p>Le ore preventivate totali moltiplicate per la tariffa di fatturazione del ruolo sui progetti inclusi. È possibile visualizzare i ricavi preventivati totali per l'intera durata dei progetti inclusi oppure i ricavi preventivati totali solo per l'intervallo di date specificato (è possibile specificare una singola settimana o mese).</p> </td> 
   </tr> 
   <tr> 
@@ -317,57 +317,57 @@ Per informazioni sui campi specifici e sul modo in cui Workfront li calcola, con
    <p>Il campo Retribuzione pianificata del progetto visualizzato nel rapporto Utilizzo è diverso dal campo Retribuzione pianificata visualizzato nell'area Dettagli progetto e nei rapporti del progetto. </p> <p>La Retribuzione pianificata nell'area Dettagli progetto riflette le entrate dell'attività e le Retribuzioni fisse del progetto. Nel rapporto Utilizzo della voce Retribuzione pianificata viene visualizzata la Retribuzione pianificata associata solo alle attività del progetto. </p> 
      <div class="example" data-mc-autonum="<b>Example: </b>">  
       <p>Se il progetto ha 1 attività con 10 ore, assegnata a un consulente con una tariffa oraria di 20 $ e il progetto ha un reddito fisso di 100 $, il rapporto Utilizzo visualizza 200 $ per il reddito pianificato (il reddito pianificato associato alle ore dell'attività). La sezione Dettagli progetto visualizza $ 300 (la Retribuzione pianificata dall'attività e la Retribuzione fissa per il progetto). </p> 
-     </div> <p>Per ulteriori informazioni sull'attività e sul ricavo pianificato del progetto al di fuori del rapporto Utilizzo, vedere <a href="../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Panoramica su fatturazione e ricavi</a>.</p> </p> <p>Il modo in cui il rapporto Utilizzo calcola e visualizza la Retribuzione pianificata per i progetti inclusi tiene conto del Tipo di retribuzione impostato sull'attività. </p> <p>A seconda del tipo di retribuzione di ogni attività del progetto, esistono i seguenti scenari: </p> <p><strong>Reddito Fisso:</strong> Indipendentemente dalle assegnazioni dell'attività, i ricavi relativi all'attività vengono sempre calcolati utilizzando l'importo fisso specificato per l'attività.</p> <p><b>IMPORTANTE</b>
+     </div> <p>Per ulteriori informazioni sull'attività e sul progetto Retribuzione pianificata al di fuori del report Utilizzo, vedere <a href="../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Panoramica su fatturazione e retribuzione</a>.</p> </p> <p>Il modo in cui il rapporto Utilizzo calcola e visualizza la Retribuzione pianificata per i progetti inclusi tiene conto del Tipo di retribuzione impostato sull'attività. </p> <p>A seconda del tipo di retribuzione di ogni attività del progetto, esistono i seguenti scenari: </p> <p><strong>Reddito Fisso:</strong> Indipendentemente dalle assegnazioni dell'attività, i ricavi sull'attività vengono sempre calcolati utilizzando l'Importo Fisso specificato sull'attività.</p> <p><b>IMPORTANTE</b>
 
 A differenza di altre aree di Workfront, il rapporto Utilizzo calcola la Retribuzione pianificata per le attività Retribuzione fissa dividendo in modo uniforme la Retribuzione fissa per il numero di Ore pianificate per l&#39;attività. </p> <p>Ad esempio, un&#39;attività ha un ricavo di 200 $. Se l&#39;attività prevede 4 ore pianificate, ogni ora corrisponderebbe a 50 $. Viene distribuito a livello di utente e ruolo. Questa distribuzione è univoca per il rapporto Utilizzo.</p> <p><b>NOTA</b>
 
-Se si dispone di un&#39;attività Retribuzioni fisse e non sono presenti ore pianificate per l&#39;attività, la Retribuzione non viene visualizzata nel rapporto Utilizzo perché non è possibile distribuirla alle ore. Se sono presenti ore pianificate per attività con retribuzione fissa e nessuna assegnazione, la retribuzione viene visualizzata come retribuzione non allocata. </p> <p><strong>Ore Ruolo:</strong> I ricavi per l&#39;attività vengono calcolati utilizzando la tariffa di fatturazione impostata per un ruolo specifico, moltiplicata per il numero di ore pianificate associate a tale ruolo. Workfront utilizza la seguente formula:</p> <p><code>Retribuzione oraria pianificata per il ruolo = SUM(Planned Hours from role on all tasks) * Tariffa fatturazione per il ruolo</code></p><p><b>NOTA:</b> La tariffa oraria di fatturazione nella formula considera eventuali modifiche effettive alla data della tariffa.</p>   <p><strong>Ore utente:</strong> I ricavi sull&#39;attività vengono calcolati utilizzando la tariffa di fatturazione impostata per un utente specifico, moltiplicata per il numero di ore pianificate associate a tale utente. Workfront utilizza la seguente formula:</p> <p><code>Retribuzione oraria pianificata utente = SOMMA (le ore pianificate dagli utenti su tutte le attività) * Tariffa di fatturazione utente</code> </p> <p><b>NOTA:</b> La tariffa oraria di fatturazione nella formula considera eventuali modifiche effettive alla data della tariffa.</p> <p><b>Ore Ruolo o Ore Utente più Fisso</b> </p> <p><b>IMPORTANTE</b>
+Se si dispone di un&#39;attività Retribuzioni fisse e non sono presenti ore pianificate per l&#39;attività, la Retribuzione non viene visualizzata nel rapporto Utilizzo perché non è possibile distribuirla alle ore. Se sono presenti ore pianificate per attività con retribuzione fissa e nessuna assegnazione, la retribuzione viene visualizzata come retribuzione non allocata. </p> <p><strong>Ore ruolo:</strong> I ricavi sull&#39;attività vengono calcolati utilizzando la tariffa di fatturazione impostata per un ruolo specifico, moltiplicata per il numero di ore pianificate associate a tale ruolo. Workfront utilizza la seguente formula:</p> <p><code>Retribuzione oraria pianificata ruolo = SUM(Planned Hours from role on all tasks) * Tariffa fatturazione ruolo</code></p><p><b>NOTA:</b> la tariffa oraria di fatturazione nella formula considera qualsiasi modifica effettiva della tariffa.</p>   <p><strong>Ore utente:</strong> I ricavi sull&#39;attività vengono calcolati utilizzando la tariffa di fatturazione impostata per un utente specifico, moltiplicata per il numero di ore pianificate associate a tale utente. Workfront utilizza la seguente formula:</p> <p><code>Retribuzione oraria pianificata utente = SOMMA(Ore pianificate dagli utenti su tutte le attività) * Tariffa di fatturazione utente</code> </p> <p><b>NOTA:</b> la tariffa oraria di fatturazione nella formula considera qualsiasi modifica effettiva della tariffa.</p> <p><b>Ore Ruolo o Ore Utente più Fisso</b> </p> <p><b>IMPORTANTE</b>
 
 A differenza di altre aree di Workfront, il rapporto Utilizzo calcola la Retribuzione pianificata dividendo uniformemente la Retribuzione fissa per il numero di Ore pianificate per l&#39;attività. </p> <p>Esistono i seguenti casi: </p>
 <ul>
-<li> <p><strong>Ore Ruolo più Fisso:</strong> I ricavi per l&#39;attività vengono calcolati utilizzando la tariffa di fatturazione impostata per un ruolo specifico, moltiplicata per il numero di ore pianificate associate al ruolo. Al tasso di ruolo viene inoltre aggiunto un importo fisso specificato per l&#39;attività. Workfront utilizza la seguente formula:</p> <p><code>Ore Ruolo più Reddito Pianificato Fisso = [SUM(Lavoro Necessario dal Ruolo su tutte le Attività) * Tariffa di Fatturazione Ruolo] + SOMMA(Limite o importo fisso dell&#39;attività / Ore pianificate dell&#39;attività)</code> </p> </li>
-<li> <p><strong>Ore Utente Più Fisso:</strong> Tariffa di fatturazione impostata per un utente specifico, moltiplicata per il numero di ore pianificate per l&#39;attività da parte di tale utente. Alla tariffa utente viene inoltre aggiunto un importo fisso specificato per l&#39;attività. Workfront utilizza la seguente formula:</p> <p><code>Ore Utente Più Reddito Pianificato Fisso = [SUM(Ore pianificate dall&#39;utente su tutte le attività) * Tariffa di fatturazione utente] + SOMMA(Limite o importo fisso dell&#39;attività / Ore pianificate dell&#39;attività)</code> </p> </li>
-</ul> <p><b>Ore Ruolo o Utente con Limite</b> </p> <p><b>IMPORTANTE</b>
+<li> <p><strong>Ore Ruolo più Fisso:</strong> I ricavi sull&#39;attività vengono calcolati utilizzando la tariffa di fatturazione impostata per un ruolo specifico, moltiplicata per il numero di Ore Pianificate associate al ruolo. Al tasso di ruolo viene inoltre aggiunto un importo fisso specificato per l&#39;attività. Workfront utilizza la seguente formula:</p> <p><code>Ore Ruolo più Reddito Pianificato Fisso = [SOMMA(Ore Pianificate dal Ruolo su tutte le Attività) * Tariffa Fatturazione Ruolo] + SOMMA(Limite o Importo Fisso dell&#39;Attività / Ore Pianificate dell&#39;Attività)</code> </p> </li>
+<li> <p><strong>Ore utente più Fisso:</strong> La tariffa di fatturazione impostata per un utente specifico, moltiplicata per il numero di ore pianificate per l&#39;attività da parte di tale utente. Alla tariffa utente viene inoltre aggiunto un importo fisso specificato per l&#39;attività. Workfront utilizza la seguente formula:</p> <p><code>Ore utente più Reddito Fisso Pianificato = [SOMMA(Ore Pianificate dall&#39;utente su tutte le attività) * Tariffa Fatturazione Utente] + SOMMA(Limite o Importo Fisso dell&#39;attività / Ore Pianificate dell&#39;attività)</code> </p> </li>
+</ul> <p><b>Ore Ruolo o Utente w/ Cap</b> </p> <p><b>IMPORTANTE</b>
 
 A differenza di altre aree di Workfront, se la Retribuzione pianificata supera il limite, l&#39;importo oltre l&#39;Importo limite è considerato Reddito fisso. La Retribuzione pianificata viene calcolata dividendo equamente la Retribuzione fissa per il numero di Ore pianificate per l&#39;attività, quindi aggiungendo l&#39;Importo limite e la Retribuzione oraria per ruolo o utente. <br></p> <p>Esistono i seguenti casi: </p>
 <ul>
-<li> <p><strong>Ore Ruolo w/Cap:</strong> Le attività vengono fatturate su base oraria come in Ore ruolo, ma hanno un importo massimo che puoi specificare. Workfront utilizza la seguente formula:</p> <p><code>Ore Ruolo con Ricavo Pianificato Limite = [SUM(Lavoro Necessario dal Ruolo su tutte le Attività e Issues) * Tasso di Fatturazione Ruolo] + Importo limite dell&#39;attività + SOMMA (Importo oltre l&#39;Importo limite / Ore pianificate dell&#39;attività)</code> </p> </li>
-<li> <p><strong>Ore Utente w/Cap:</strong> Le attività vengono fatturate su base oraria come in Ore utente, ma hanno un massimale che puoi specificare. Workfront utilizza la seguente formula: </p> <p><code>Ore Utente w/ Cap Reddito Pianificato = [SUM(Ore pianificate dall&#39;utente su tutte le attività) * Tariffa di fatturazione utente] + Importo limite dell&#39;attività + SOMMA (Importo oltre l&#39;Importo limite / Ore pianificate dell&#39;attività)</code> </p> </li>
-</ul> <p>Per ulteriori informazioni su quale ruolo o utente viene preso in considerazione durante il calcolo della Retribuzione Pianificata, vedi <a href="../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Panoramica su fatturazione e ricavi</a>.</p> </td>
+<li> <p><strong>Ore Ruolo w/Cap:</strong> Le attività vengono fatturate su base oraria come in Ore Ruolo, ma hanno un importo massimo di Cap che puoi specificare. Workfront utilizza la seguente formula:</p> <p><code>Ore Ruolo con Ricavo Pianificato Limite = [SOMMA(Ore Pianificate da Ruolo su tutte le attività e Issues) * Tariffa Fatturazione Ruolo] + Importo Limite dell&#39;Attività + SOMMA(Importo oltre l&#39;Importo Limite / Ore Pianificate dell&#39;Attività)</code> </p> </li>
+<li> <p><strong>Ore utente con limite:</strong> Le attività vengono fatturate su base oraria come in Ore utente, ma hanno un limite massimo che è possibile specificare. Workfront utilizza la seguente formula: </p> <p><code>Ore utente con retribuzione massima pianificata = [SOMMA(Ore pianificate dall&#39;utente su tutte le attività) * Tariffa fatturazione utente] + Importo limite dell&#39;attività + SOMMA(Importo oltre l&#39;importo limite / Ore pianificate dell&#39;attività)</code> </p> </li>
+</ul> <p>Per ulteriori informazioni su quale ruolo o utente viene preso in considerazione durante il calcolo del Reddito Pianificato, vedere <a href="../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Panoramica su fatturazione e ricavi</a>.</p> </td>
 </tr> 
   <tr> 
    <td><strong>Reddito Reale</strong> </td>
-   <td> <p>Ricavi effettivi sono i ricavi associati alle ore effettive delle attività e del progetto. Per ulteriori informazioni sui ricavi effettivi, consulta <a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#track-revenue-amounts">Tracciare gli importi dei ricavi</a> in <a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md">Panoramica su fatturazione e ricavi</a>.</p>
+   <td> <p>Ricavi effettivi sono i ricavi associati alle ore effettive delle attività e del progetto. Per ulteriori informazioni sui ricavi effettivi, vedere <a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#track-revenue-amounts">Tracciare gli importi dei ricavi</a> in <a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md">Panoramica su fatturazione e ricavi</a>.</p>
 
-<p>Il modo in cui il rapporto Utilizzo calcola la Retribuzione effettiva per i progetti inclusi varia a seconda del tipo di retribuzione impostato per l'attività, come illustrato di seguito.</p> <p><strong>Reddito Fisso:</strong> Indipendentemente dalle assegnazioni dell'attività, i ricavi relativi all'attività vengono sempre calcolati utilizzando l'importo fisso specificato per l'attività.</p> <p><b>IMPORTANTE</b>
+<p>Il modo in cui il rapporto Utilizzo calcola la Retribuzione effettiva per i progetti inclusi varia a seconda del tipo di retribuzione impostato per l'attività, come illustrato di seguito.</p> <p><strong>Reddito Fisso:</strong> Indipendentemente dalle assegnazioni dell'attività, i ricavi sull'attività vengono sempre calcolati utilizzando l'Importo Fisso specificato sull'attività.</p> <p><b>IMPORTANTE</b>
 
 A differenza di altre aree di Workfront, il rapporto Utilizzo calcola i Ricavi effettivi dividendo uniformemente i Ricavi fissi per il numero di ore registrate sull&#39;attività. </p> <p> </p> <p>Ad esempio, un&#39;attività ha un reddito effettivo di 200 dollari. Se l&#39;attività contiene 4 ore effettive, ogni ora corrisponderebbe a 50 $. Viene distribuito a livello di utente e ruolo. Questa distribuzione è univoca per il rapporto Utilizzo.</p> <p><b>NOTA</b>
 
-Se si dispone di un&#39;attività Reddito fisso e non sono presenti ore effettive sull&#39;attività, la retribuzione effettiva non viene visualizzata nel rapporto Utilizzo perché non è possibile distribuire le ore. </p> <p><strong>Ore Ruolo:</strong> I ricavi dell&#39;attività vengono calcolati utilizzando la tariffa di fatturazione impostata per un ruolo specifico, moltiplicata per il numero di ore effettive.</p> <p>Workfront utilizza la seguente formula:</p> <p><code>Ore Ruolo Reddito Reale = SOMMA (Ore Reali dal Ruolo su tutte le Attività) * Tariffa di Fatturazione Ruolo</code> </p> <p><b>NOTA:</b> La tariffa oraria di fatturazione nella formula considera eventuali modifiche effettive alla data della tariffa.</p> <p><strong>Ore utente:</strong> I ricavi sull&#39;attività vengono calcolati utilizzando la tariffa di fatturazione impostata per un utente specifico, moltiplicata per il numero di ore registrate per l&#39;attività da tale utente. Workfront utilizza la seguente formula:</p> <p><code>Retribuzione effettiva oraria utente = SUM(Ore effettive dall&#39;utente su tutte le attività) * Tariffa di fatturazione utente</code></p> <p><b>NOTA:</b> La tariffa oraria di fatturazione nella formula considera eventuali modifiche effettive alla data della tariffa.</p> <p><b>Ore Ruolo o Utente più Fisso</b> </p> <p><b>IMPORTANTE</b>
+Se si dispone di un&#39;attività Reddito fisso e non sono presenti ore effettive sull&#39;attività, la retribuzione effettiva non viene visualizzata nel rapporto Utilizzo perché non è possibile distribuire le ore. </p> <p><strong>Ore ruolo:</strong> I ricavi sull&#39;attività vengono calcolati utilizzando la tariffa di fatturazione impostata per un ruolo specifico, moltiplicata per il numero di ore effettive.</p> <p>Workfront utilizza la seguente formula:</p> <p><code>Retribuzione oraria effettiva ruolo = SUM(Actual Hours from role on all tasks) * Tariffa fatturazione ruolo</code> </p> <p><b>NOTA:</b> la tariffa oraria di fatturazione nella formula considera qualsiasi modifica effettiva della tariffa.</p> <p><strong>Ore utente:</strong> I ricavi sull&#39;attività vengono calcolati utilizzando la tariffa di fatturazione impostata per un utente specifico, moltiplicata per il numero di ore registrate per l&#39;attività da tale utente. Workfront utilizza la seguente formula:</p> <p><code>Retribuzione effettiva oraria utente = SUM(Ore effettive dall&#39;utente su tutte le attività) * Tariffa di fatturazione utente</code></p> <p><b>NOTA:</b> la tariffa oraria di fatturazione nella formula considera qualsiasi modifica effettiva della tariffa.</p> <p><b>Ore Ruolo o Utente più Fisso</b> </p> <p><b>IMPORTANTE</b>
 
 A differenza di altre aree di Workfront, il rapporto Utilizzo calcola i Ricavi effettivi dividendo uniformemente i Ricavi fissi per il numero di ore registrate sull&#39;attività. </p> <p>Esistono i seguenti casi: </p>
 <ul>
-<li> <p><strong>Ore Ruolo più Fisso:</strong> Tariffa di fatturazione impostata per un ruolo specifico, moltiplicata per il numero di ore registrate per l’attività da un utente con quel ruolo. Al tasso di ruolo viene inoltre aggiunto un importo fisso specificato per l&#39;attività. </p> <p>Workfront utilizza la seguente formula:</p> <p><code>Ore Ruolo più Reddito Reale Fisso = [SUM(Ore effettive dalla mansione per tutte le attività) * Tariffa di fatturazione mansione] + SOMMA(Limite o importo fisso dell&#39;attività / Ore effettive dell&#39;attività)</code> </p> </li>
-<li> <p><strong>Ore Utente Più Fisso:</strong> Tariffa di fatturazione impostata per un utente specifico, moltiplicata per il numero di ore registrate per l’attività da tale utente. Alla tariffa utente viene inoltre aggiunto un importo fisso specificato per l&#39;attività. </p> <p>Workfront utilizza la seguente formula:</p> <p><code>Ore Utente Più Reddito Fisso Reale = [SUM(Ore effettive dal ruolo per tutte le attività) * Tariffa di fatturazione utente] + SUM(Limite o importo fisso dell&#39;attività / Ore utente dell&#39;attività)</code> </p> </li>
-</ul> <p><b>Ore Ruolo o Utente con Limite</b> </p> <p><b>IMPORTANTE</b>
+<li> <p><strong>Ore Ruolo più Fisso:</strong> La tariffa di fatturazione impostata per un ruolo specifico, moltiplicata per il numero di ore registrate per l&#39;attività da un utente con tale ruolo. Al tasso di ruolo viene inoltre aggiunto un importo fisso specificato per l&#39;attività. </p> <p>Workfront utilizza la seguente formula:</p> <p><code>Ore Ruolo più Reddito Fisso Reale = [SOMMA(Ore Effettive da Ruolo su tutte le Attività) * Tariffa Fatturazione Ruolo] + SOMMA(Limite o Importo Fisso dell&#39;Attività / Ore Effettive dell&#39;Attività)</code> </p> </li>
+<li> <p><strong>Ore utente più Fisso:</strong> La tariffa di fatturazione impostata per un utente specifico, moltiplicata per il numero di ore registrate per l&#39;attività da tale utente. Alla tariffa utente viene inoltre aggiunto un importo fisso specificato per l&#39;attività. </p> <p>Workfront utilizza la seguente formula:</p> <p><code>Ore utente più Reddito Fisso Reale = [SOMMA(Ore Effettive dalla mansione su tutte le attività) * Tariffa Fatturazione Utente] + SOMMA(Limite o Importo Fisso dell&#39;attività / Ore Utente dell&#39;attività)</code> </p> </li>
+</ul> <p><b>Ore Ruolo o Utente w/ Cap</b> </p> <p><b>IMPORTANTE</b>
 
 A differenza di altre aree di Workfront, se la Retribuzione pianificata supera il limite, l&#39;importo oltre l&#39;Importo limite è considerato Reddito fisso. La Retribuzione pianificata viene calcolata dividendo equamente la Retribuzione fissa per il numero di Ore pianificate per l&#39;attività, quindi aggiungendo l&#39;Importo limite e la Retribuzione oraria per ruolo o utente. <br></p> <p>Esistono i seguenti casi:</p>
 <ul>
-<li> <p><strong>Ore Ruolo w/Cap:</strong> Le attività vengono fatturate su base oraria come in Ore ruolo, ma hanno un importo massimo che puoi specificare. Workfront utilizza la seguente formula:</p> <p><code>Ore Ruolo con Cap Reddito Reale = [SUM(Ore effettive dalla mansione per tutte le attività e le Issues) * Tariffa di fatturazione mansione] + Importo limite del task + SOMMA (importo oltre l&#39;importo limite / ore effettive del task)</code></p> </li>
-<li> <p><strong>Ore Utente w/Cap:</strong> Le attività vengono fatturate su base oraria come in Ore utente, ma hanno un massimale che puoi specificare.</p> <p> Workfront utilizza la seguente formula:</p> <p><code>Ore Utente w/ Cap Reddito Reale = [SUM(Ore effettive dal ruolo per tutte le attività e le Issues) * Tariffa di fatturazione utente] + Importo limite del task + SOMMA (importo oltre l&#39;importo limite / ore effettive del task)</code> </p> </li>
+<li> <p><strong>Ore Ruolo w/Cap:</strong> Le attività vengono fatturate su base oraria come in Ore Ruolo, ma hanno un importo massimo di Cap che puoi specificare. Workfront utilizza la seguente formula:</p> <p><code>Ore Ruolo con Cap Ricavo effettivo = [SOMMA(Ore effettive da ruolo su tutte le attività e problemi) * Tariffa fatturazione ruolo] + Importo limite dell&#39;attività + SOMMA(Importo oltre l&#39;importo limite / Ore effettive dell&#39;attività)</code></p> </li>
+<li> <p><strong>Ore utente con limite:</strong> Le attività vengono fatturate su base oraria come in Ore utente, ma hanno un limite massimo che è possibile specificare.</p> <p> Workfront utilizza la seguente formula:</p> <p><code>Ore utente con tetto retributivo effettivo = [SOMMA(Ore effettive dalla mansione su tutte le attività e problemi) * Tariffa fatturazione utente] + Importo tetto retributivo dell&#39;attività + SOMMA(Importo oltre l&#39;importo tetto retributivo / Ore effettive dell&#39;attività)</code> </p> </li>
 </ul>
-<p><strong>Reddito Progetto</strong>: i ricavi associati alle ore registrate nel progetto vengono calcolati tenendo conto della quantità di Fatturazione ad Ore della mansione principale dell’utente che registra l’ora. Si sconsiglia di registrare il tempo sul progetto. </p>
+<p><strong>Ricavi progetto</strong>: i ricavi associati alle ore registrate nel progetto vengono calcolati tenendo conto della quantità di fatturazione per ora della mansione principale dell&#39;utente che registra l&#39;ora. Si sconsiglia di registrare il tempo sul progetto. </p>
 <p><b>NOTA</b>
 
 Se l&#39;utente non è associato a una mansione o se la Fatturazione ad Ore del Ruolo Principale è zero, Workfront calcola la Retribuzione Effettiva utilizzando l&#39;importo della Fatturazione ad Ore per l&#39;utente. Se l&#39;utente non ha un importo di Fatturazione ad Ore nel suo profilo, il Reddito Reale è zero. </p>
 </td> 
   </tr> 
   <tr> 
-   <td><strong>Variazione preventivata (per ricavi)</strong> </td> 
+   <td><strong>Varianza preventivata (per ricavi)</strong> </td> 
    <td> <p>Ricavo effettivo totale meno Ricavo preventivato sui progetti inclusi.<br>È possibile visualizzare lo scostamento totale preventivato per la durata complessiva dei progetti inclusi oppure lo scostamento totale preventivato solo per l'intervallo di date specificato (è possibile specificare una singola settimana o mese).</p> <p>Se il valore è positivo, viene visualizzato in verde. Ciò indica che il totale delle entrate preventivate è maggiore del reddito effettivo.</p> <p>Se il valore è negativo, viene visualizzato in rosso. Ciò indica che il totale dei ricavi preventivati è inferiore al reddito effettivo.</p> </td>
   </tr> 
   <tr> 
-   <td><strong>Varianza pianificata (per ricavo)</strong> </td> 
+   <td><strong>Varianza pianificata (per ricavi)</strong> </td> 
    <td> <p>Ricavo effettivo totale meno Ricavo pianificato totale sui progetti inclusi.<br>È possibile visualizzare lo scostamento pianificato totale per la durata complessiva dei progetti inclusi oppure lo scostamento pianificato totale solo per l'intervallo di date specificato (è possibile specificare una singola settimana o mese). </p> <p>Se il valore è positivo, viene visualizzato in verde. Questo indica che la Retribuzione pianificata totale è maggiore della Retribuzione effettiva.</p> <p>Se il valore è negativo, viene visualizzato in rosso. Ciò indica che la Retribuzione pianificata totale è inferiore alla Retribuzione effettiva.</p> </td>
   </tr> 
  </tbody> 
@@ -392,7 +392,7 @@ Nel rapporto Utilizzo sono disponibili le seguenti informazioni quando si confro
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Titolo colonna durante la visualizzazione di ricavi e costi (pianificato)</strong> </th> 
+   <th><strong>Titolo colonna durante la visualizzazione dei ricavi rispetto ai costi (pianificato)</strong> </th> 
    <th> <strong>Funzione</strong></th> 
   </tr> 
  </thead> 
@@ -403,7 +403,7 @@ Nel rapporto Utilizzo sono disponibili le seguenti informazioni quando si confro
   </tr> 
   <tr> 
    <td scope="col"><strong>Reddito Pianificato</strong> </td> 
-   <td scope="col"> <p>Retribuzione pianificata indica le entrate associate alle ore pianificate delle attività. </p> <p>Il modo in cui il rapporto Utilizzo calcola e visualizza la Retribuzione pianificata per i progetti inclusi varia a seconda del Tipo di retribuzione impostato per l'attività, come descritto nella <a href="#track-revenue" class="MCXref xref">Tracciare i ricavi</a> in questo articolo.</p> </td> 
+   <td scope="col"> <p>Retribuzione pianificata indica le entrate associate alle ore pianificate delle attività. </p> <p>Il modo in cui il report Utilizzo calcola e visualizza la Retribuzione pianificata per i progetti inclusi varia a seconda del Tipo di Reddito impostato sull'attività, come descritto nella sezione <a href="#track-revenue" class="MCXref xref">Tracciare le entrate</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td scope="col"><strong>Margine</strong> </td> 
@@ -412,16 +412,16 @@ Nel rapporto Utilizzo sono disponibili le seguenti informazioni quando si confro
 Se Reddito pianificato è uguale a 0, il margine viene visualizzato come 0. </p> </td>
 </tr> 
   <tr> 
-   <td scope="col"> <p scope="col"><strong>Titolo colonna durante la visualizzazione di ricavi e costi (effettivo)</strong> </p>  </td> 
+   <td scope="col"> <p scope="col"><strong>Titolo colonna quando si visualizzano i ricavi e i costi (effettivi)</strong> </p>  </td> 
    <td scope="col"><p><strong>Funzione</strong></p></td> 
   </tr> 
   <tr> 
-   <td scope="col"><strong>Costo Reale</strong> </td> 
+   <td scope="col"><strong>Costo effettivo</strong> </td> 
    <td scope="col"> <p>Costo effettivo totale dei progetti inclusi. È possibile visualizzare il Costo effettivo totale per l'intera durata dei progetti inclusi oppure il Costo effettivo totale solo per l'intervallo di date specificato (è possibile specificare una singola settimana o mese).</p> </td> 
   </tr> 
   <tr> 
    <td scope="col"><strong>Reddito Reale</strong> </td> 
-   <td> <p>Ricavi effettivi sono i ricavi associati alle ore effettive delle attività.</p> <p>Nel rapporto Uso i ricavi effettivi vengono visualizzati solo dopo che l'attività è stata contrassegnata come Completata o Completata (oppure dopo uno stato che equivale a Completata).</p> <p>Il modo in cui il rapporto Utilizzo calcola la retribuzione effettiva per i progetti inclusi varia a seconda del tipo di retribuzione impostato per l'attività, come descritto nella <a href="#track-revenue" class="MCXref xref">Tracciare i ricavi</a> in questo articolo. </p> </td> 
+   <td> <p>Ricavi effettivi sono i ricavi associati alle ore effettive delle attività.</p> <p>Nel rapporto Uso i ricavi effettivi vengono visualizzati solo dopo che l'attività è stata contrassegnata come Completata o Completata (oppure dopo uno stato che equivale a Completata).</p> <p>Il modo in cui il report Utilizzo calcola la Retribuzione effettiva per i progetti inclusi varia a seconda del Tipo di Reddito impostato sull'attività, come descritto nella sezione <a href="#track-revenue" class="MCXref xref">Tracciare le entrate</a> in questo articolo. </p> </td> 
   </tr> 
   <tr> 
    <td scope="col"><strong>Margine</strong> </td> 
@@ -448,54 +448,54 @@ Per tenere traccia dell&#39;avanzamento o del costo di uno o più progetti con u
 
    * Per visualizzare le informazioni sull&#39;utilizzo per un singolo progetto:
 
-      1. Vai a un progetto per il quale vuoi visualizzare le informazioni sull’utilizzo, quindi fai clic su **Mostra altro> Utilizzo**.
+      1. Vai a un progetto per il quale vuoi visualizzare le informazioni sull&#39;utilizzo, quindi fai clic su **Mostra altro> Utilizzo**.
       1. Le informazioni sull’utilizzo vengono visualizzate automaticamente quando si visualizza un singolo progetto e non è necessario applicare un filtro.\
-         Per filtrare il rapporto Utilizzo, puoi applicare un filtro e fare clic su **Esegui**.\
-         Per informazioni su come filtrare il rapporto Utilizzo, vedere [Filtra informazioni sull’utilizzo](#filter-utilization-information) in questo articolo.\
+         Se desideri filtrare il report Utilizzo, puoi applicare un filtro e fare clic su **Esegui**.\
+         Per informazioni su come filtrare il report Utilizzo, vedere [Informazioni sull&#39;utilizzo del filtro](#filter-utilization-information) in questo articolo.\
          Le informazioni sull&#39;utilizzo vengono visualizzate per singoli utenti e ruoli (gli utenti sono raggruppati all&#39;interno del ruolo associato).
 
    * Per visualizzare le informazioni sull&#39;utilizzo per più progetti:
 
      {{step1-to-utilization-report}}
 
-      1. Applicare un filtro al rapporto Utilizzo, quindi fare clic su **Esegui**.
-È necessario specificare uno o più progetti nel filtro prima di eseguire il rapporto Utilizzo. Per informazioni su come filtrare il rapporto Utilizzo, vedere [Filtra informazioni sull’utilizzo](#filter-utilization-information) in questo articolo.\
+      1. Applica un filtro al report Utilizzo, quindi fai clic su **Esegui**.
+È necessario specificare uno o più progetti nel filtro prima di eseguire il rapporto Utilizzo. Per informazioni su come filtrare il report Utilizzo, vedere [Informazioni sull&#39;utilizzo del filtro](#filter-utilization-information) in questo articolo.\
          Le informazioni sull’utilizzo vengono visualizzate per singoli ruoli e progetti (i ruoli sono raggruppati all’interno del progetto associato).
 
    * Per visualizzare le informazioni sull&#39;utilizzo di un programma:
 
      {{step1-to-utilization-report}}
 
-      1. Clic **Spettacolo**>**Programmi**.
-      1. Applicare un filtro al rapporto Utilizzo, quindi fare clic su **Esegui**.\
-         Prima di eseguire il rapporto Utilizzo, è necessario specificare uno o più programmi nel filtro. Per informazioni su come filtrare il rapporto Utilizzo, vedere [Filtra informazioni sull’utilizzo](#filter-utilization-information) in questo articolo.\
+      1. Fare clic su **Mostra**>**Programmi**.
+      1. Applica un filtro al report Utilizzo, quindi fai clic su **Esegui**.\
+         Prima di eseguire il rapporto Utilizzo, è necessario specificare uno o più programmi nel filtro. Per informazioni su come filtrare il report Utilizzo, vedere [Informazioni sull&#39;utilizzo del filtro](#filter-utilization-information) in questo articolo.\
          Le informazioni sull&#39;utilizzo vengono visualizzate per i singoli progetti e programmi (i progetti sono raggruppati nel relativo programma associato).
 
    * Per visualizzare le informazioni sull&#39;utilizzo per un portfolio:
 
      {{step1-to-utilization-report}}
 
-      1. Clic **Spettacolo**>**Portfoli**.
-      1. Applicare un filtro al rapporto Utilizzo, quindi fare clic su **Esegui**.\
-         È necessario specificare uno o più portfolio nel filtro prima di eseguire il rapporto Utilizzo. Per informazioni su come filtrare il rapporto Utilizzo, vedere [Filtra informazioni sull’utilizzo](#filter-utilization-information) in questo articolo.\
+      1. Fai clic su **Mostra**>**Portfoli**.
+      1. Applica un filtro al report Utilizzo, quindi fai clic su **Esegui**.\
+         È necessario specificare uno o più portfolio nel filtro prima di eseguire il rapporto Utilizzo. Per informazioni su come filtrare il report Utilizzo, vedere [Informazioni sull&#39;utilizzo del filtro](#filter-utilization-information) in questo articolo.\
          Le informazioni sull&#39;utilizzo vengono visualizzate per singoli progetti, programmi e portafogli (i progetti sono raggruppati all&#39;interno del programma associato e i programmi sono raggruppati all&#39;interno del portfolio associato).
 
-1. Nell’angolo superiore destro del rapporto Utilizzo, fai clic su **Visualizza**, quindi seleziona una delle opzioni seguenti nel menu:
+1. Nell&#39;angolo superiore destro del report Utilizzo, fare clic su **Visualizza**, quindi selezionare una delle opzioni seguenti nel menu:
 
    * **Costo**
    * **Ore**
    * **Ricavi**
    * **Ricavi - Costi (Pianificato)**
-   * **Ricavi - Costi (effettivo)**
+   * **Ricavi - Costi (effettivi)**
 
    L&#39;opzione selezionata determina le colonne e le informazioni disponibili nel rapporto.
    ![Opzioni di visualizzazione](assets/utilization-view-dropdown.png)
 
-1. (Facoltativo) Selezionare l&#39;intervallo di date per il quale vengono visualizzate le informazioni sull&#39;utilizzo. È possibile visualizzare le informazioni per una data settimana o mese a sinistra del **Complessivo** colonna. Le informazioni relative al progetto, al programma o al portfolio generale vengono sempre visualizzate nel **Complessivo** colonna.\
-   Per ulteriori informazioni, consulta [Regola l’intervallo di date per il quale vengono visualizzate le informazioni](#adjust-the-date-range-for-which-information-is-displayed) in questo articolo.
+1. (Facoltativo) Selezionare l&#39;intervallo di date per il quale vengono visualizzate le informazioni sull&#39;utilizzo. È possibile visualizzare le informazioni per una determinata settimana o mese a sinistra della colonna **Complessivo**. Le informazioni relative al progetto, al programma o al portfolio complessivo vengono sempre visualizzate nella colonna **Complessivo**.\
+   Per ulteriori informazioni, vedere [Modificare l&#39;intervallo di date per il quale vengono visualizzate le informazioni](#adjust-the-date-range-for-which-information-is-displayed) in questo articolo.
 
 1. (Facoltativo) Fai clic sul titolo di una colonna per ordinare il rapporto sull’utilizzo in base alle informazioni contenute in tale colonna. L&#39;ordinamento funziona solo quando si includono più elementi nel report. Ad esempio, puoi ordinare i risultati del rapporto quando stai esaminando più di un progetto (o portfolio o programma). Non è possibile ordinare i risultati quando si esamina un solo progetto (o un portfolio o un programma) alla volta.
-1. Utilizza le informazioni nella sezione [Panoramica del rapporto Utilizzo](#overview-of-the-utilization-report) in questo articolo per informazioni su ogni colonna nel rapporto Utilizzo.
+1. Utilizzare le informazioni contenute nella sezione [Panoramica del report Utilizzo](#overview-of-the-utilization-report) di questo articolo per informazioni su ogni colonna del report Utilizzo.
 
 ## Filtra informazioni sull’utilizzo {#filter-utilization-information}
 
@@ -510,72 +510,72 @@ Quando crei un filtro, anche tutti gli utenti di Workfront che hanno accesso al 
 Per creare o modificare un filtro:
 
 1. Aprire il rapporto Utilizzo.
-Consulta [Con il rapporto Utilizzo puoi tenere traccia di avanzamento, costi e ricavi](#track-progress-cost-and-revenue-with-the-utilization-report) per eseguire questa operazione.
+Consulta [Tieni traccia di avanzamento, costi e ricavi con il report Utilizzo](#track-progress-cost-and-revenue-with-the-utilization-report) per farlo.
 
-1. Fai clic su **Filtro** per visualizzare le opzioni del filtro.
-1. (Condizionale) Per modificare un filtro esistente, fai clic sul pulsante **Filtro** , quindi selezionare il filtro che si desidera modificare.
+1. Fai clic sull&#39;icona **Filtro** per visualizzare le opzioni del filtro.
+1. (Condizionale) Per modificare un filtro esistente, fai clic sul menu a discesa **Filtro**, quindi seleziona il filtro da modificare.
 1. Specifica le seguenti informazioni per creare o modificare il filtro:
 
-   * **Portfoli:** Iniziare a digitare il nome del portfolio che contiene le informazioni da includere nel report Utilizzo, quindi fare clic sul nome quando viene visualizzato nell&#39;elenco a discesa\
+   * **Portfoli:** Inizia a digitare il nome del portfolio che contiene le informazioni da includere nel report Utilizzo, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa\
      Ripetere questo processo per includere le informazioni di più portfolio nel rapporto Utilizzo.\
-     Per includere nel filtro tutti i portfolio del sistema, fai clic su **Aggiungi tutto**. Questa opzione è disponibile solo se nel sistema sono presenti meno di 10 portfolio.
+     Per includere nel filtro tutti i portfolio del sistema, fai clic su **Aggiungi tutti**. Questa opzione è disponibile solo se nel sistema sono presenti meno di 10 portfolio.
 
    * **Programmi:** Iniziare a digitare il nome del programma contenente le informazioni che si desidera includere nel report Utilizzo, quindi fare clic sul nome quando viene visualizzato nell&#39;elenco a discesa.\
      Ripetere questo processo per includere informazioni relative a più attività nel report Utilizzo.\
      Se hai già designato un portfolio nel filtro, il programma specificato deve provenire dai portfolio già inclusi nel filtro. In caso contrario, i dati del programma non vengono inclusi nel rapporto Utilizzo.\
-     Per includere nel filtro tutti i programmi del sistema, fare clic su **Aggiungi tutto**. Questa opzione è disponibile solo se nel sistema sono presenti meno di 20 programmi.
+     Per includere nel filtro tutti i programmi del sistema, fare clic su **Aggiungi tutti**. Questa opzione è disponibile solo se nel sistema sono presenti meno di 20 programmi.
 
-   * **Progetti:** Iniziare a digitare il nome del progetto che contiene le informazioni da includere nel report Utilizzo, quindi fare clic sul nome quando viene visualizzato nell&#39;elenco a discesa.\
+   * **Progetti:** Inizia a digitare il nome del progetto che contiene le informazioni da includere nel report Utilizzo, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.\
      Ripetere questo processo per includere le informazioni di più progetti nel rapporto Utilizzo.\
      Se hai già specificato un portfolio o un programma nel filtro, il progetto specificato deve appartenere a uno dei portfolio o dei programmi già inclusi nel filtro. In caso contrario, i dati del progetto non verranno inclusi nel rapporto Utilizzo.\
-     Per includere nel filtro tutti i progetti del sistema, fai clic su **Aggiungi tutto**. Questa opzione è disponibile solo se nel sistema sono presenti meno di 250 progetti.
+     Per includere nel filtro tutti i progetti del sistema, fai clic su **Aggiungi tutti**. Questa opzione è disponibile solo se nel sistema sono presenti meno di 250 progetti.
 
-   * **Attività:** Iniziare a digitare il nome dell&#39;attività che contiene le informazioni da includere nel report Utilizzo, quindi fare clic sul nome quando viene visualizzato nell&#39;elenco a discesa.\
+   * **Attività:** Inizia a digitare il nome dell&#39;attività che contiene le informazioni da includere nel report Utilizzo, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.\
      Ripetere questo processo per includere informazioni relative a più attività nel report Utilizzo.\
      Se nel filtro sono già stati specificati portafogli, programmi o progetti, l&#39;attività specificata deve appartenere a uno dei portafogli, programmi o progetti già inclusi nel filtro. In caso contrario, i dati dell&#39;attività non verranno inclusi nel rapporto Utilizzo.
 
-   * **Problemi:** Inizia a digitare il nome del problema che contiene le informazioni da includere nel rapporto Utilizzo, quindi fai clic sul nome quando viene visualizzato nell’elenco a discesa.\
+   * **Problemi:** inizia a digitare il nome del problema che contiene le informazioni da includere nel report Utilizzo, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.\
      Ripetere questo processo per includere informazioni relative a più problemi nel rapporto Utilizzo.\
      Se hai già specificato portfolio, programmi o progetti nel filtro, il problema specificato deve appartenere a uno dei portfolio, programmi o progetti già inclusi nel filtro. In caso contrario, i dati del problema non vengono inclusi nel rapporto Utilizzo.\
-     Le informazioni sui costi per i problemi non vengono sempre incluse nel rapporto Utilizzo. Per ulteriori informazioni su quando le informazioni sui costi per i problemi vengono incluse nel rapporto Utilizzo, vedere [Con il rapporto Utilizzo puoi tenere traccia di avanzamento, costi e ricavi](#track-progress-cost-and-revenue-with-the-utilization-report) in questo articolo.
+     Le informazioni sui costi per i problemi non vengono sempre incluse nel rapporto Utilizzo. Per ulteriori informazioni su quando le informazioni sui costi per i problemi vengono incluse nel report Utilizzo, vedere [Tracciare l&#39;avanzamento, i costi e i ricavi con il report Utilizzo](#track-progress-cost-and-revenue-with-the-utilization-report) in questo articolo.
 
-   * **Ruoli:** Iniziare a digitare il nome del ruolo che si desidera venga rappresentato nel Report utilizzo, quindi fare clic sul nome quando viene visualizzato nell&#39;elenco a discesa. Ripeti questo processo per includere ruoli aggiuntivi.
-Il rapporto Utilizzo contiene informazioni solo per i ruoli specificati. Ad esempio, un&#39;attività contiene 10 ore effettive. Sei di queste ore sono da un ruolo Designer e quattro da un ruolo Sviluppatore. Se si filtra il report Utilizzo in base al ruolo per Designer, le quattro ore provenienti dal ruolo Sviluppatore vengono escluse dal report.
+   * **Ruoli:** Iniziare a digitare il nome del ruolo che si desidera rappresentare nel report sull&#39;utilizzo, quindi fare clic sul nome quando viene visualizzato nell&#39;elenco a discesa. Ripeti questo processo per includere ruoli aggiuntivi.
+Il rapporto Utilizzo contiene informazioni solo per i ruoli specificati. Ad esempio, un&#39;attività contiene 10 ore effettive. Sei di queste ore appartengono a un ruolo Designer e quattro a un ruolo Sviluppatore. Se filtri il rapporto Utilizzo per ruolo per Designer, le quattro ore provenienti dal ruolo Sviluppatore vengono escluse dal rapporto.
 
-   * **Aggiungi regola filtro:** Clic **Aggiungi regola filtro**, fare clic nel campo di testo e iniziare a digitare il nome del campo in base al quale si desidera filtrare. Se il campo è disponibile, viene compilato per ogni oggetto a cui può essere associato. Fai clic sul nome del campo per aggiungerlo al filtro.
+   * **Aggiungi regola filtro:** Fai clic su **Aggiungi regola filtro**, fai clic nel campo di testo e inizia a digitare il nome del campo in base al quale desideri filtrare. Se il campo è disponibile, viene compilato per ogni oggetto a cui può essere associato. Fai clic sul nome del campo per aggiungerlo al filtro.
 
      >[!IMPORTANT]
      >
-     >Digitare il nome del campo e non l&#39;etichetta del campo. L’etichetta del campo viene visualizzata in un modulo personalizzato associato a un oggetto. Per informazioni sulla differenza tra l’etichetta e il nome di un campo personalizzato, consulta  [Creare o modificare un modulo personalizzato](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+     >Digitare il nome del campo e non l&#39;etichetta del campo. L’etichetta del campo viene visualizzata in un modulo personalizzato associato a un oggetto. Per informazioni sulla differenza tra l&#39;etichetta e il nome di un campo personalizzato, vedere [Creare o modificare un modulo personalizzato](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
      Per ulteriori informazioni sui campi visualizzati nelle colonne, consulta [Glossario della terminologia di Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).\
-     Scegli il filtro e i modificatori di condizione per il filtro. I modificatori disponibili sono descritti in [Modificatori di filtri e condizioni](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+     Scegli il filtro e i modificatori di condizione per il filtro. I modificatori disponibili sono descritti in [Filtri e modificatori di condizioni](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
-1. Per creare un nuovo filtro, fai clic su **Salva filtro**.\
+1. Per creare un nuovo filtro, fare clic su **Salva filtro**.\
    Oppure\
-   Per modificare un filtro esistente, fare clic sulla freccia accanto al **Salva filtro** , quindi fare clic su **Salva nuovo filtro**.
-In **Nome filtro** , digitare un nome per il filtro e fare clic su **Salva**.
+   Per modificare un filtro esistente, fare clic sulla freccia accanto al pulsante **Salva filtro**, quindi scegliere **Salva nuovo filtro**.
+Nel campo **Nome filtro** digitare un nome per il filtro e fare clic su **Salva**.
 L&#39;area Utilizzazione viene filtrata in base alle informazioni incluse nel filtro.
 
 ### Applicare un filtro salvato {#apply-a-saved-filter}
 
 1. Aprire il rapporto Utilizzo.
-Consulta [Con il rapporto Utilizzo puoi tenere traccia di avanzamento, costi e ricavi](#track-progress-cost-and-revenue-with-the-utilization-report) per eseguire questa operazione.
+Consulta [Tieni traccia di avanzamento, costi e ricavi con il report Utilizzo](#track-progress-cost-and-revenue-with-the-utilization-report) per farlo.
 
-1. Clic **Filtri salvati**, quindi seleziona il filtro che desideri applicare dall’elenco a discesa.
+1. Fai clic su **Filtri salvati**, quindi seleziona il filtro da applicare dall&#39;elenco a discesa.
 
 ### Duplicare un filtro {#duplicate-a-filter}
 
 1. Aprire il rapporto Utilizzo.
-Consulta [Con il rapporto Utilizzo puoi tenere traccia di avanzamento, costi e ricavi](#track-progress-cost-and-revenue-with-the-utilization-report) per eseguire questa operazione.
+Consulta [Tieni traccia di avanzamento, costi e ricavi con il report Utilizzo](#track-progress-cost-and-revenue-with-the-utilization-report) per farlo.
 
-1. Clic **Filtri salvati**, passa il puntatore sul filtro da duplicare e fai clic sul pulsante **Duplica** icona.
+1. Fai clic su **Filtri salvati**, passa il puntatore sul filtro da duplicare e fai clic sull&#39;icona **Duplica**.
 
-   ![Icona Duplica](assets/utilization-filter-duplicate.png)
+   ![Icona duplicata](assets/utilization-filter-duplicate.png)
 
    Viene visualizzata la finestra di dialogo Duplica filtro.
 
-1. In **Nome filtro** , digitare un nome per il nuovo filtro e fare clic su **Salva**.
+1. Nel campo **Nome filtro** digitare un nome per il nuovo filtro e fare clic su **Salva**.
 
 ### Rinominare un filtro {#rename-a-filter}
 
@@ -584,15 +584,15 @@ Quando rinomini un filtro, tutti gli utenti di Workfront che hanno accesso al ra
 Per rinominare un filtro:
 
 1. Aprire il rapporto Utilizzo.
-Consulta [Con il rapporto Utilizzo puoi tenere traccia di avanzamento, costi e ricavi](#track-progress-cost-and-revenue-with-the-utilization-report) per eseguire questa operazione.
+Consulta [Tieni traccia di avanzamento, costi e ricavi con il report Utilizzo](#track-progress-cost-and-revenue-with-the-utilization-report) per farlo.
 
-1. Clic **Filtri salvati**, passa il puntatore del mouse sul filtro che desideri rinominare e fai clic su **Rinomina** icona.
+1. Fai clic su **Filtri salvati**, passa il puntatore sul filtro che desideri rinominare e fai clic sull&#39;icona **Rinomina**.
 
    ![Icona Rinomina filtro](assets/utilization-filter-rename.png)
 
    Viene visualizzata la finestra di dialogo Rinomina filtro.
 
-1. In **Nome filtro** , digitare un nome per il nuovo filtro e fare clic su **Salva**.
+1. Nel campo **Nome filtro** digitare un nome per il nuovo filtro e fare clic su **Salva**.
 
 ### Eliminare un filtro {#delete-a-filter}
 
@@ -601,31 +601,31 @@ Quando elimini un filtro, questo viene eliminato per tutti gli utenti di Workfro
 Per eliminare un filtro:
 
 1. Aprire il rapporto Utilizzo.
-Consulta [Con il rapporto Utilizzo puoi tenere traccia di avanzamento, costi e ricavi](#track-progress-cost-and-revenue-with-the-utilization-report) per eseguire questa operazione.
+Consulta [Tieni traccia di avanzamento, costi e ricavi con il report Utilizzo](#track-progress-cost-and-revenue-with-the-utilization-report) per farlo.
 
-1. Clic **Filtri salvati**, passa il puntatore sul filtro da eliminare e fai clic sul pulsante **Elimina** icona.
+1. Fai clic su **Filtri salvati**, passa il puntatore del mouse sul filtro da eliminare e fai clic sull&#39;icona **Elimina**.
 
    ![Icona Elimina](assets/utilization-filter-delete.png)
 
-1. Clic **Elimina** quando viene richiesto se si desidera eliminare il filtro.
+1. Fare clic su **Elimina** quando viene richiesto se si desidera eliminare il filtro.
 
 ## Regola l’intervallo di date per il quale vengono visualizzate le informazioni {#adjust-the-date-range-for-which-information-is-displayed}
 
 È possibile modificare l&#39;intervallo di date per il quale vengono visualizzate le informazioni sull&#39;utilizzo. Puoi selezionare una data passata o futura. Le modifiche apportate sono visibili solo a te.
 
 1. Aprire il rapporto Utilizzo.
-Consulta [Con il rapporto Utilizzo puoi tenere traccia di avanzamento, costi e ricavi](#track-progress-cost-and-revenue-with-the-utilization-report) per eseguire questa operazione.
+Consulta [Tieni traccia di avanzamento, costi e ricavi con il report Utilizzo](#track-progress-cost-and-revenue-with-the-utilization-report) per farlo.
 
-1. Fai clic sull’intervallo di date accanto al **Esporta** pulsante.
+1. Fare clic sull&#39;intervallo di date accanto al pulsante **Esporta**.
 
    La settimana corrente è selezionata per impostazione predefinita.
 
 1. Scegli una delle seguenti opzioni:
 
-   * **Settimana:** Seleziona questa opzione per selezionare una data settimana (da domenica a sabato).
-   * **Mese:** Seleziona questa opzione per selezionare un dato mese.
+   * **Settimana:** Selezionare questa opzione per selezionare una determinata settimana (da domenica a sabato).
+   * **Mese:** Selezionare questa opzione per selezionare un mese specifico.
 
-   L&#39;intervallo di date selezionato viene visualizzato nel rapporto Utilizzo, a sinistra del **Complessivo** colonna.\
+   L&#39;intervallo di date selezionato viene visualizzato nel report Utilizzo, a sinistra della colonna **Generale**.\
    Workfront ricorda se si desidera visualizzare la visualizzazione per settimana o per mese. Al successivo accesso al rapporto Utilizzo, viene visualizzata la settimana o il mese corrente, a seconda dell&#39;opzione selezionata.
 
 ## Esporta informazioni sull&#39;utilizzo
@@ -637,41 +637,41 @@ In Microsoft Excel, i numeri negativi vengono visualizzati tra parentesi.
 Per esportare le informazioni sull&#39;utilizzo:
 
 1. Aprire il rapporto Utilizzo.
-Consulta [Con il rapporto Utilizzo puoi tenere traccia di avanzamento, costi e ricavi](#track-progress-cost-and-revenue-with-the-utilization-report) per eseguire questa operazione.
+Consulta [Tieni traccia di avanzamento, costi e ricavi con il report Utilizzo](#track-progress-cost-and-revenue-with-the-utilization-report) per farlo.
 
-1. Clic **Esporta** in alto a sinistra nel report.
+1. Fai clic su **Esporta** in alto a sinistra nel report.
 
 1. Selezionare una delle opzioni seguenti:
 
-   * **PDF:** Esporta il rapporto in formato PDF. Questo è il formato consigliato se intendi stampare il rapporto.\
-     Seleziona una **Lettera - Verticale**, **Lettera - Orizzontale**, o **Altre dimensioni** (fornisce opzioni per l&#39;esportazione in Legal (8,5&quot; x 14&quot;), Ledger (11&quot; x 17&quot;) e A4).
+   * **PDF:** esporta il report in formato PDF. Questo è il formato consigliato se intendi stampare il rapporto.\
+     Selezionare **Lettera - Verticale**, **Lettera - Orizzontale** o **Altre dimensioni** (fornisce le opzioni per l&#39;esportazione in Legal (8,5&quot; x 14&quot;), Ledger (11&quot; x 17&quot;) e A4).
 A seconda del sistema operativo utilizzato, è possibile che sia possibile aprire o salvare il file. Aprire il file con l&#39;applicazione associata o salvarlo nel computer.
 
-   * **Excel:** Esporta il report in formato XLSX. Questo è il formato consigliato se intendi analizzare ulteriormente i dati in Excel.
+   * **Excel:** esporta il report in formato XLSX. Questo è il formato consigliato se intendi analizzare ulteriormente i dati in Excel.
 A seconda del sistema operativo utilizzato, è possibile che sia possibile aprire o salvare il file. Aprire il file con l&#39;applicazione associata o salvarlo nel computer.
 
-   * **Linguetta delimitata:** Esporta il rapporto in formato TSV. Questo è il formato consigliato se intendi importare i dati in un software di terze parti per ulteriori analisi.
+   * **Delimitato da tabulazioni:** esporta il report in formato TSV. Questo è il formato consigliato se intendi importare i dati in un software di terze parti per ulteriori analisi.
 A seconda del sistema operativo utilizzato, è possibile che sia possibile aprire o salvare il file. Aprire il file con l&#39;applicazione associata o salvarlo nel computer.
 
-1. Leggi le informazioni nell’articolo [Esporta dati](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md) per capire come utilizzare il file esportato.
+1. Leggi le informazioni nell&#39;articolo [Esporta dati](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md) per capire come utilizzare il file esportato.
 
 ## Visualizzare le informazioni sull&#39;utilizzo in un grafico
 
 Puoi visualizzare i dati del rapporto Utilizzo in una vista grafico.
 
 1. Aprire il rapporto Utilizzo.
-Consulta [Con il rapporto Utilizzo puoi tenere traccia di avanzamento, costi e ricavi](#track-progress-cost-and-revenue-with-the-utilization-report) per eseguire questa operazione.
+Consulta [Tieni traccia di avanzamento, costi e ricavi con il report Utilizzo](#track-progress-cost-and-revenue-with-the-utilization-report) per farlo.
 
-1. Nell&#39;angolo superiore destro del rapporto Utilizzo fare clic sul pulsante **Grafico** icona.
+1. Nell&#39;angolo superiore destro del report Utilizzo fare clic sull&#39;icona **Grafico**.
 
    ![Icona grafico](assets/utilization-chart.png)
 
    Il report Utilizzo viene visualizzato in una visualizzazione grafico.
 
-1. (Facoltativo) Configurare il grafico in modo da visualizzare Progetti, Programmi o Portfoli selezionando l&#39;opzione appropriata dalla casella **Spettacolo** menu a discesa.
+1. (Facoltativo) Configurare il grafico per visualizzare progetti, programmi o Portfoli selezionando l&#39;opzione appropriata dal menu a discesa **Mostra**.
 1. (Facoltativo) Passa il cursore del mouse su un momento specifico del rapporto per visualizzare i dati di quel momento.
 
    ![Passa il cursore sopra un punto dati](assets/utilization-chart-hover.png)
 
-1. (Facoltativo) Regola i filtri per modificare le informazioni visualizzate nel grafico. Per informazioni sulla regolazione dei filtri, consulta [Filtra informazioni sull’utilizzo](#filter-utilization-information) in questo articolo.
-1. (Facoltativo) Configura l’intervallo di tempo del rapporto grafico, come descritto in [Regola l’intervallo di date per il quale vengono visualizzate le informazioni](#adjust-the-date-range-for-which-information-is-displayed) in questo articolo.
+1. (Facoltativo) Regola i filtri per modificare le informazioni visualizzate nel grafico. Per informazioni sulla regolazione dei filtri, vedere [Informazioni sull&#39;utilizzo dei filtri](#filter-utilization-information) in questo articolo.
+1. (Facoltativo) Configurare l&#39;intervallo di tempo del report grafico, come descritto in [Regolare l&#39;intervallo di date per il quale vengono visualizzate le informazioni](#adjust-the-date-range-for-which-information-is-displayed) in questo articolo.

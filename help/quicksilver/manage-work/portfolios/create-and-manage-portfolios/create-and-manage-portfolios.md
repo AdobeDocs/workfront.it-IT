@@ -21,9 +21,9 @@ Un Portfolio è una raccolta di progetti in concorrenza per le stesse risorse, b
 
 Questa sezione contiene i seguenti articoli:
 
-* [Creare un portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
-* [Eliminare e disattivare i portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/delete-deactivate-portfolios.md)
-* [Modificare i portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md)
-* [Aggiungere progetti a un portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
-* [Rimuovere un progetto da un portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/remove-project-from-portfolio.md)
+* [Crea un portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
+* [Elimina e disattiva portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/delete-deactivate-portfolios.md)
+* [Modifica portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md)
+* [Aggiungi progetti a un portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
+* [Rimuovi un progetto da un portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/remove-project-from-portfolio.md)
 * [Esamina progetti richiesti](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md)

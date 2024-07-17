@@ -9,7 +9,7 @@ feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
 source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,13 @@ Di seguito sono riportati alcuni esempi di campi personalizzati a selezione mult
 * Checkboxe
 * Menu a discesa a selezione multipla
 
-Per informazioni sull’utilizzo della modalità testo, consulta l’articolo [Panoramica sulla modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Per informazioni sull&#39;utilizzo della modalità testo, vedere l&#39;articolo [Panoramica della modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 ## Considerazioni durante il raggruppamento per un campo personalizzato a selezione multipla
 
 * Non è possibile tracciare un report che utilizza un raggruppamento in modalità testo. È necessario creare un campo calcolato aggiuntivo che faccia riferimento al campo personalizzato a selezione multipla per tracciare il rapporto anche in base al valore del campo personalizzato a selezione multipla.
 
-  Per ulteriori informazioni, consulta [Creare un grafico per un rapporto in base a un campo personalizzato a selezione multipla](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md).
+  Per ulteriori informazioni, vedere [Tracciare un report in base a un campo personalizzato a selezione multipla](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md).
 * Gli elementi con una delle scelte selezionate vengono conteggiati una sola volta.
 
   Ad esempio, se si dispone di un campo personalizzato Casella di controllo con le opzioni Scelta 1 e Scelta 2 e si allega il modulo alle attività, le attività con le opzioni Scelta 1 e Scelta 2 selezionate vengono raggruppate separatamente dalle attività con la sola scelta 1 o Scelta 2 selezionate.
@@ -60,7 +60,7 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 </tr>  
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,7 +72,7 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 Per poter raggruppare in base a un campo personalizzato a selezione multipla, è necessario disporre dei seguenti prerequisiti:
 
 * Crea il campo personalizzato a selezione multipla in un modulo personalizzato.\
-  Per informazioni sulla creazione di moduli personalizzati e sull’aggiunta di campi personalizzati, consulta l’articolo [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  Per informazioni sulla creazione di moduli personalizzati e sull&#39;aggiunta di campi personalizzati, vedere l&#39;articolo [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 * Allegare il modulo personalizzato agli oggetti.
 * Compila il campo personalizzato a selezione multipla con un valore su ciascun oggetto. 
@@ -80,19 +80,22 @@ Per poter raggruppare in base a un campo personalizzato a selezione multipla, è
 Per raggruppare in base a un campo personalizzato a selezione multipla in un rapporto:
 
 1. Crea un rapporto o modificane uno esistente in cui desideri aggiungere un raggruppamento per un campo personalizzato a selezione multipla.\
-   Per informazioni sulla creazione di rapporti, consulta l’articolo [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   Per informazioni sulla creazione di report, vedere l&#39;articolo [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. Seleziona la **Raggruppamenti** scheda.
-1. Clic **Passa alla modalità testo**.
+1. Selezionare la scheda **Raggruppamenti**.
+1. Fare clic su **Passa alla modalità testo**.
 
-1. Seleziona il testo nella **Raggruppa il report** e sostituirlo con il seguente codice:
+1. Selezionare il testo nella casella **Raggruppa il report** e sostituirlo con il seguente codice:
 
    <pre>
-   group.0.displayname=Multi-select Custom Field Name group.0.valueexpression={DE:Multi-select Custom Field Name} group.0.valueformat=HTML group.0.textmode=true
+   group.0.displayname=Nome campo personalizzato a selezione multipla
+   group.0.valueexpression={DE:Nome campo personalizzato a selezione multipla}
+   group.0.valueformat=HTML
+   group.0.textmode=true
    </pre>
 
 1. Sostituisci &quot;Nome campo personalizzato a selezione multipla&quot; con il nome effettivo del campo personalizzato a selezione multipla, come visualizzato in Workfront.
-1. Clic **Salva e chiudi**.
+1. Fare clic su **Salva e chiudi**.
 
    Gli oggetti nel report sono raggruppati in base ai valori del campo personalizzato a selezione multipla.
 

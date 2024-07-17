@@ -23,6 +23,6 @@ Puoi ordinare i risultati in base a qualsiasi campo se aggiungi quanto segue all
 &entryDate_Sort=asc
 ```
 
-Ad esempio, se si desidera ordinare per attività Data inizio pianificata, rimuovere `entryDate` e sostituirlo con `plannedCompletionDate`.
+Se ad esempio si desidera ordinare in base alla Data inizio pianificata attività, rimuovere `entryDate` e sostituirlo con `plannedCompletionDate`.
 
 Questo funziona per la maggior parte dei campi in Adobe Workfront.

@@ -57,7 +57,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Quando crei una richiesta di progetto, ricevi automaticamente le autorizzazioni di gestione per il progetto </p> <p> Per informazioni sulle autorizzazioni per i progetti, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Condividere un progetto in Adobe Workfront</a>.</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Quando crei una richiesta di progetto, ricevi automaticamente le autorizzazioni di gestione per il progetto </p> <p> Per informazioni sulle autorizzazioni del progetto, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Condividere un progetto in Adobe Workfront</a>.</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,12 +68,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Esegui una delle operazioni seguenti:
 
-   * Fai clic su **Menu principale** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro o **Menu principale** ![](assets/lines-main-menu.png) nell’angolo superiore sinistro, se disponibile, fai clic su **Progetti**, quindi espandi **Nuovo progetto**.
+   * Fai clic sul **menu principale** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro o sul **menu principale** ![](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro. Se disponibile, fai clic su **Progetti**, quindi espandi **Nuovo progetto**.
    * Vai a un portfolio, quindi espandi **Nuovo progetto**.
    * Vai a un programma, quindi espandi **Nuovo progetto**.
-   * Se sei un amministratore gruppo, puoi anche creare un progetto nella sezione Progetti di un gruppo che gestisci. Per ulteriori informazioni, consulta [Creare e modificare i progetti di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+   * Se sei un amministratore gruppo, puoi anche creare un progetto nella sezione Progetti di un gruppo che gestisci. Per ulteriori informazioni, vedere [Creare e modificare i progetti di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
-1. Clic **Richiedi progetto**.
+1. Fai clic su **Richiedi progetto**.
 
    ![](assets/new-project-dropdown-nwe-350x358.png)
 
@@ -81,10 +81,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    * Durante la definizione di un caso di business, segui gli stessi passaggi della creazione di un progetto. (consigliato)
 
-     Per informazioni sulla definizione di un caso di business e sulla richiesta di un progetto, vedere [Creare un Business Case per un progetto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+     Per informazioni sulla definizione di un caso di business e sulla richiesta di un progetto, vedere [Creare un caso di business per un progetto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-   * Crea un progetto da zero o utilizzando un modello e modifica lo stato in **Richiesto**.
+   * Crea un progetto da zero o utilizzando un modello e cambia lo stato in **Richiesto**.
 
-     Per informazioni sulla creazione di un progetto, consulta [Creare un progetto](../../../manage-work/projects/create-projects/create-project.md) o [Creare un progetto utilizzando un modello](../../../manage-work/projects/create-projects/create-project-from-template.md).
+     Per informazioni sulla creazione di un progetto, vedere [Creare un progetto](../../../manage-work/projects/create-projects/create-project.md) o [Creare un progetto utilizzando un modello](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
-   Lo stato del progetto richiesto è **Richiesto** e viene visualizzato sul **Progetti Richiesti** di un Portfolio, se associato a un Portfolio. Ora un gestore di portfolio può esaminarlo e approvarlo o rifiutarlo, nel qual caso lo stato del progetto cambia in **Approvato** o **Rifiutato**.
+   Il progetto richiesto ha lo stato **Richiesto** e viene visualizzato nella scheda **Progetti richiesti** di un Portfolio, se associato a un Portfolio. Ora un gestore di portfolio può esaminarlo e approvarlo o rifiutarlo, nel qual caso lo stato del progetto cambia in **Approvato** o **Rifiutato**.

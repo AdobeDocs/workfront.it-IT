@@ -25,21 +25,21 @@ Per consentirti di avere visibilità su tutti gli utenti nel sistema e sulla lor
 
 Per ulteriori informazioni, consulta [Assegnare il lavoro nel Bilanciatore dei carichi di lavoro trascinandolo](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
 
-[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3412873/){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3412873/){target=_blank}
 
 ## Mostra tutti gli utenti con una mansione selezionata nel Bilanciatore dei carichi di lavoro durante l’assegnazione del lavoro in blocco
 
 Per facilitare la ricerca della persona giusta al momento di sostituire i ruoli con gli utenti nel Bilanciatore dei carichi di lavoro in blocco, è stato migliorato il modo in cui l’elenco degli utenti disponibili si popola. Ora è possibile visualizzare tutti gli utenti del sistema che possono svolgere il ruolo selezionato in due aree separate nello stesso elenco di utenti:
 
-* Nella prima area (Assegnazioni suggerite) vengono visualizzati gli utenti identificati dalla logica Assegnazioni avanzate. Per ulteriori informazioni, consulta [Panoramica delle assegnazioni intelligenti](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+* Nella prima area (Assegnazioni suggerite) vengono visualizzati gli utenti identificati dalla logica Assegnazioni avanzate. Per ulteriori informazioni, vedere [Panoramica assegnazioni avanzate](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
 
 * Nella seconda area (Altre assegnazioni) vengono visualizzati tutti gli utenti che possono eseguire il ruolo selezionato.
 
 Prima di questo miglioramento, era possibile visualizzare solo l’elenco degli utenti disponibili per l’assegnazione secondo la logica delle assegnazioni intelligenti.
 
-Per informazioni sull’assegnazione di lavoro in blocco utilizzando il Bilanciatore dei carichi di lavoro, consulta [Assegnare il lavoro in blocco utilizzando il Bilanciatore dei carichi di lavoro](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+Per informazioni sull&#39;assegnazione del lavoro in blocco tramite il Bilanciatore dei carichi di lavoro, vedere [Assegnare il lavoro in blocco tramite il Bilanciatore dei carichi di lavoro](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
-[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3412874/){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3412874/){target=_blank}
 
 ## Miglioramenti al Bilanciatore dei carichi di lavoro per gli utenti con licenza Lavoro e impostazioni dei problemi
 
@@ -55,5 +55,5 @@ Per ulteriori informazioni, consulta i seguenti articoli:
 
 * [Navigare nel Bilanciatore dei carichi di lavoro](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-* [Gestire le allocazioni utente nel Bilanciatore dei carichi di lavoro](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+* [Gestione delle allocazioni utente nel Bilanciatore dei carichi di lavoro](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 

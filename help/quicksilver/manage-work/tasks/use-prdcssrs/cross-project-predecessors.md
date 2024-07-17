@@ -29,9 +29,9 @@ Quando si collegano progetti tramite predecessori di progetti incrociati, le dat
 
 >[!TIP]
 >
->Per visualizzare le date aggiornate per il progetto secondario, è necessario ricalcolare le tempistiche dei progetti. Per ulteriori informazioni sul ricalcolo delle timeline, consulta [Configurare i ricalcoli della sequenza temporale per i progetti](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+>Per visualizzare le date aggiornate per il progetto secondario, è necessario ricalcolare le tempistiche dei progetti. Per ulteriori informazioni sul ricalcolo delle sequenze temporali, vedere [Configurare i ricalcoli delle sequenze temporali per i progetti](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
-Per ulteriori informazioni sulle relazioni predecessori, vedere [Panoramica dei predecessori delle attività](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Per ulteriori informazioni sulle relazioni con i predecessori, vedere [Panoramica sui predecessori delle attività](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 ## Requisiti di accesso
 
@@ -73,18 +73,18 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 ## Creare un predecessore per più progetti
 
 1. Vai all’attività che sarà il tuo successore (attività dipendente).
-1. Clic **Predecessori** nel pannello a sinistra.
-1. Clic **Aggiungi Predecessore.**
-1. In **Progetto principale** , inizia a digitare il nome del progetto che contiene l&#39;attività che si desidera sia il predecessore dell&#39;attività corrente.
+1. Fai clic su **Predecessori** nel pannello a sinistra.
+1. Fai clic su **Aggiungi predecessore.**
+1. Nel campo **Progetto padre**, iniziare a digitare il nome del progetto che contiene l&#39;attività che si desidera sia il predecessore dell&#39;attività corrente.
 1. Fare clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
-1. In **Attività** , inizia a digitare il nome dell&#39;attività che dovrà essere il predecessore dell&#39;attività corrente.
+1. Nel campo **Attività**, inizia a digitare il nome dell&#39;attività che desideri predecessore dell&#39;attività corrente.
 1. Specificare le informazioni seguenti per definire la relazione tra il predecessore e l&#39;attività dipendente:
 
-   * **Tipo di dipendenza:** Selezionare la relazione che l&#39;attività predecessore deve avere con l&#39;attività dipendente. La relazione predefinita è &quot;Finish-Start&quot;, ovvero l&#39;attività predecessore deve terminare prima che l&#39;attività dipendente possa iniziare. Per ulteriori informazioni sui vari tipi di dipendenza, vedere [Panoramica dei tipi di relazione tra attività](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+   * **Tipo di dipendenza:** Selezionare la relazione che si desidera che l&#39;attività predecessore abbia con l&#39;attività dipendente. La relazione predefinita è &quot;Finish-Start&quot;, ovvero l&#39;attività predecessore deve terminare prima che l&#39;attività dipendente possa iniziare. Per ulteriori informazioni sui vari tipi di relazione, vedere [Panoramica sui tipi di relazione tra attività](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-   * **Lag:** Specificare il tempo che deve trascorrere dopo il completamento di un predecessore imposto fino a quando l&#39;attività dipendente può iniziare. Per ulteriori informazioni sui vari tipi di ritardo, consulta [Panoramica sui tipi di ritardo](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+   * **Lag:** Specificare la quantità di tempo che deve trascorrere dopo il completamento di un predecessore imposto fino a quando l&#39;attività dipendente può iniziare. Per ulteriori informazioni sui vari tipi di ritardo, vedere [Panoramica sui tipi di ritardo](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
-   * **Imposto:** Quando questa opzione è selezionata, la relazione di dipendenza tra le due attività non può essere aggirata dagli utenti che iniziano le attività in anticipo. Se, ad esempio, si applica una relazione tra l&#39;Attività A e l&#39;Attività B, l&#39;Attività B non può essere avviata fino al completamento dell&#39;Attività A. Per ulteriori informazioni sull&#39;applicazione dei predecessori, vedere [Imponi predecessori](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
+   * **Imposto:** Quando questa opzione è selezionata, la relazione di dipendenza tra le due attività non può essere aggirata dagli utenti che iniziano le attività in anticipo. Se, ad esempio, si applica una relazione tra l&#39;Attività A e l&#39;Attività B, l&#39;Attività B non può essere avviata fino al completamento dell&#39;Attività A. Per ulteriori informazioni sull&#39;applicazione dei predecessori, vedere [Applicazione dei predecessori](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
      Quando questa opzione non è selezionata, la dipendenza viene trattata come un suggerimento agli utenti. Ad esempio, gli utenti possono avviare l&#39;Attività B prima del completamento dell&#39;Attività A.
 
@@ -92,7 +92,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    Le attività con un predecessore per più progetti visualizzano il numero di riferimento del progetto a cui appartiene il predecessore e il numero dell&#39;attività, separati da due punti, nella colonna Predecessori di un elenco di attività.
 
-   ![Predecessore tra progetti](assets/cross-project-predecessor-in-list-view.png)
+   ![predecessore tra progetti](assets/cross-project-predecessor-in-list-view.png)
 
    L&#39;icona del predecessore diventa verde quando l&#39;attività predecessore è contrassegnata come completata. Questo indica che l&#39;attività dipendente è pronta per il lavoro.
 
@@ -100,11 +100,11 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    Fai clic su accanto alla parte superiore della finestra che compare al passaggio del mouse per visualizzare ulteriori informazioni sul progetto del predecessore.
 
-   Clic **Vedi Progetto** per aprire il progetto del predecessore.
+   Fare clic su **Visualizza progetto** per aprire il progetto del predecessore.
 
-   ![Dettagli predecessore di più progetti](assets/cross-project-predecessor-details.png)
+   ![Dettagli predecessore tra progetti](assets/cross-project-predecessor-details.png)
 
    >[!TIP]
    >
-   >   Il **Vedi Progetto** Questa opzione è visibile solo quando si visualizza un predecessore per più progetti.
+   >   L&#39;opzione **Visualizza progetto** viene visualizzata solo quando si visualizza un predecessore per più progetti.
 

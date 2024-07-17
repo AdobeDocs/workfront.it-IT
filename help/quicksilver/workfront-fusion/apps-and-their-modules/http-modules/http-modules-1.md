@@ -21,7 +21,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] richiede un [!DNL Adobe Workfront Fusion] licenza oltre a un [!DNL Adobe Workfront license].
+>[!DNL Adobe Workfront Fusion] richiede una licenza [!DNL Adobe Workfront Fusion] oltre a [!DNL Adobe Workfront license].
 
 L&#39;app HTTP fornisce vari moduli per la comunicazione basata sul protocollo HTTP (Hypertext Transfer Protocol). HTTP è la base della comunicazione dei dati per il World Wide Web. Puoi utilizzare i moduli per scaricare pagine web e file, chiamare webhook, endpoint API e così via.
 
@@ -31,14 +31,14 @@ La scelta giusta del modulo dipende dal meccanismo di autenticazione/autorizzazi
 >
 >Se ti stai connettendo a un prodotto di Adobe che al momento non dispone di un connettore dedicato, ti consigliamo di utilizzare il modulo Adobe Authenticator.
 >
->Per ulteriori informazioni, consulta [Modulo Adobe Authenticator](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
+>Per ulteriori informazioni, vedere [Modulo Adobe Authenticator](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
 
 Consulta i seguenti articoli per istruzioni specifiche sui moduli:
 
-* [HTTP >[!UICONTROL Fai una richiesta] modulo](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-request.md)
-* [[!UICONTROL HTTP] >[!UICONTROL Effettuare una richiesta di autorizzazione di base] modulo](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-basic-auth-request.md)
-* [[!UICONTROL HTTP] > [!UICONTROL Effettuare una richiesta OAuth 2.0] modulo](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md)
-* [[!UICONTROL HTTP] >[!UICONTROL Effettuare una richiesta di autorizzazione del certificato client] modulo](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-client-cert-auth-request.md)
-* [[!UICONTROL HTTP] >[!UICONTROL Effettuare una richiesta di autorizzazione della chiave API]](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-api-key-auth-request.md)
+* [HTTP >[!UICONTROL Crea una richiesta] modulo](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-request.md)
+* [[!UICONTROL HTTP] >[!UICONTROL Crea una richiesta di autorizzazione di base] modulo](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-basic-auth-request.md)
+* [[!UICONTROL HTTP] > [!UICONTROL Crea una richiesta OAuth 2.0]](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md)
+* [[!UICONTROL HTTP] >[!UICONTROL Crea una richiesta di autorizzazione del certificato client] modulo](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-client-cert-auth-request.md)
+* [[!UICONTROL HTTP] >[!UICONTROL Crea una richiesta di autorizzazione della chiave API]](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-api-key-auth-request.md)
 * [[!UICONTROL HTTP] > Altri moduli](../../../workfront-fusion/apps-and-their-modules/http-modules/http-modules.md)
-* [Utilizzare Mutual TLS nei moduli HTTP in [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/apps-and-their-modules/http-modules/use-mtls-in-http-modules.md)
+* [Usa TLS reciproco nei moduli HTTP in [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/apps-and-their-modules/http-modules/use-mtls-in-http-modules.md)

@@ -51,15 +51,15 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 {{step-1-to-setup}}
 
-1. Clic **Forms personalizzato** nel pannello a sinistra.
+1. Fai clic su **Forms personalizzato** nel pannello a sinistra.
 
    Nella visualizzazione visualizzata è possibile esaminare tutti i moduli personalizzati creati per l&#39;organizzazione. È inoltre possibile vedere chi ha creato ogni modulo, con quale tipo di oggetto funziona e se è attivo.
 
-1. Seleziona il modulo personalizzato da rinominare, quindi fai clic su ![Icona Modifica](assets/edit-icon2.png).
+1. Seleziona il modulo personalizzato da rinominare, quindi fai clic sull&#39;![icona Modifica](assets/edit-icon2.png).
 1. Per modificare il titolo, fare clic sul nome del modulo.
 1. Per modificare la descrizione, fare clic nella casella di testo Descrizione.
 
-1. Clic **Salva e chiudi**.
+1. Fare clic su **Salva e chiudi**.
 
    >[!TIP]
    >

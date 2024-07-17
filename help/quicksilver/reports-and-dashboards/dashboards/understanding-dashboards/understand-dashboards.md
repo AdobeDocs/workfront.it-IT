@@ -19,5 +19,5 @@ ht-degree: 0%
 
 Questa sezione contiene i seguenti articoli:
 
-* [Introduzione alle dashboard](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)
+* [Introduzione ai dashboard](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)
 * [Comprendere come vengono visualizzati i rapporti in un dashboard](../../../reports-and-dashboards/dashboards/understanding-dashboards/understand-how-reports-display-dashboard.md)

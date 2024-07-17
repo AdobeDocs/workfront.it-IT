@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti Agile apportati con la versione 23.1 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 16 gennaio 2023.
 
-Per un elenco di tutte le modifiche disponibili con la versione 23.1, consulta [Panoramica sulla versione 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 23.1, consulta la [Panoramica sulla versione 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
 ## Pianificazione Scrum per le schede madri Workfront
 
@@ -41,9 +41,9 @@ La mappatura della data si applica anche agli elementi dell’elenco di controll
 
 La data di scadenza sia sulle schede collegate che su quelle ad hoc ora include anche un campo ora.
 
-Per ulteriori informazioni, consulta [Utilizzare le schede collegate sulle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Per ulteriori informazioni, vedere [Utilizzare schede collegate nelle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3411952/){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3411952/){target=_blank}
 
 ## Le voci dell’elenco di controllo della bacheca e le sottoattività di Workfront sono ora collegate
 
@@ -55,9 +55,9 @@ Quando aggiungi una scheda collegata a una bacheca per un’attività di Workfro
 
 In precedenza, le voci degli elenchi di controllo e le sottoattività non erano collegate. Se desideri includere una sottoattività nella bacheca, puoi importarla come una scheda collegata separata o aggiungere manualmente una voce dell’elenco di controllo a una scheda.
 
-Per ulteriori informazioni, consulta [Utilizzare le schede collegate sulle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) e [Gestire le voci dell’elenco di controllo sulle schede](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md).
+Per ulteriori informazioni, vedere [Utilizzare schede collegate nelle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) e [Gestire gli elementi dell&#39;elenco di controllo nelle schede](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md).
 
-[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3411951/){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3411951/){target=_blank}
 
 ## Colonne del contatore della carta sulla bacheca
 
@@ -67,7 +67,7 @@ Per ulteriori informazioni, consulta [Utilizzare le schede collegate sulle bache
 
 È disponibile una nuova impostazione di configurazione per attivare un contatore di schede per tutte le colonne di una scheda. Se si utilizza il limite WIP in una colonna, non viene aggiunto un contatore di schede separato.
 
-Per ulteriori informazioni, consulta [Gestisci colonne bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+Per ulteriori informazioni, consulta [Gestire le colonne della bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
 ## Cerca e ordina nel dashboard delle bacheche
 
@@ -77,7 +77,7 @@ Per ulteriori informazioni, consulta [Gestisci colonne bacheca](/help/quicksilve
 
 Ora puoi ordinare la dashboard delle bacheche per nome o data e cercare una bacheca specifica nell’elenco.
 
-Per ulteriori informazioni, consulta [Utilizzare il dashboard delle bacheche](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md).
+Per ulteriori informazioni, vedere [Utilizzare il dashboard delle bacheche](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md).
 
 ## Lo stato viene visualizzato sulla scheda
 
@@ -87,7 +87,7 @@ Per ulteriori informazioni, consulta [Utilizzare il dashboard delle bacheche](/h
 
 Se a una scheda di una bacheca è assegnato uno stato, questo viene ora visualizzato sulla scheda in modo da non dover aprire la scheda per visualizzarne lo stato. Questo miglioramento si applica sia alle schede ad hoc che a quelle connesse.
 
-Per ulteriori informazioni, consulta [Utilizzare le schede collegate sulle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) e [Aggiungere una scheda ad hoc a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+Per ulteriori informazioni, vedere [Utilizzare schede collegate nelle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) e [Aggiungere una scheda ad hoc a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
 
 ![stato sulla scheda](/help/quicksilver/product-announcements/product-releases/assets/boards-connected-card-details-110922.png)
 
@@ -109,7 +109,7 @@ Puoi copiare l’URL completo e inviarlo a un altro utente. Passeranno direttame
 
 In precedenza, i collegamenti erano disponibili per le bacheche, ma non per schede specifiche.
 
-Per informazioni sulle schede, consulta [Aggiungere una scheda ad hoc a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) e [Utilizzare le schede collegate sulle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Per informazioni sulle schede, consulta [Aggiungere una scheda ad hoc a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) e [Utilizzare le schede collegate nelle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Filtra per connessione su bacheche
 
@@ -119,9 +119,9 @@ Per informazioni sulle schede, consulta [Aggiungere una scheda ad hoc a una bach
 
 L’elenco dei filtri su una bacheca ora include l’opzione per filtrare in base alla connessione, che mostra tutte le schede collegate per un progetto specifico. È inoltre possibile filtrare in base a schede non connesse.
 
-Per ulteriori informazioni, consulta [Filtrare ed eseguire ricerche in una bacheca](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+Per ulteriori informazioni, consulta [Filtrare e cercare in una bacheca](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3412381/){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3412381/){target=_blank}
 
 ## Archiviare le schede da una bacheca in base a una pianificazione
 
@@ -133,6 +133,6 @@ Per ulteriori informazioni, consulta [Filtrare ed eseguire ricerche in una bache
 
 Se si desidera visualizzare di nuovo le schede dopo che cadono dalla bacheca, è possibile impostare il filtro della bacheca per visualizzare le schede archiviate.
 
-Per ulteriori informazioni, consulta [Configurare la perdita di dati della scheda](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
+Per ulteriori informazioni, vedere [Configurare la perdita di dati della scheda](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
 
-[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3412323/){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3412323/){target=_blank}

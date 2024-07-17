@@ -65,7 +65,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 {{step-1-to-setup}}
 
-1. Clic **Livelli di accesso** nel pannello a sinistra.
+1. Fai clic su **Livelli di accesso** nel pannello a sinistra.
 1. Seleziona il livello di accesso da copiare e personalizzare, quindi fai clic su **Copia**.
 
    Oppure
@@ -88,12 +88,12 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
      </tr> 
      <tr> 
       <td role="rowheader">Tipo di licenza</td> 
-      <td>Assicurarsi che la licenza selezionata sia quella più strettamente associata al tipo di livello di accesso che si sta creando o modificando. La licenza selezionata determina le impostazioni disponibili per il livello di accesso. Per ulteriori informazioni, consulta <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">Panoramica sulle nuove licenze</a> o <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Panoramica sulle licenze</a>.</td> 
+      <td>Assicurarsi che la licenza selezionata sia quella più strettamente associata al tipo di livello di accesso che si sta creando o modificando. La licenza selezionata determina le impostazioni disponibili per il livello di accesso. Per ulteriori informazioni, vedere <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">Panoramica nuove licenze</a> o <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Panoramica licenze</a>.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Condizionale) Se **Standard** o **Piano** è selezionato in **Tipo di licenza** , scorri fino alla sezione **Consenti accesso amministrativo per** e selezionare le autorizzazioni di accesso amministrativo per coloro che disporranno di questo livello di accesso.
+1. (Condizionale) Se nella casella **Tipo di licenza** è selezionato **Standard** o **Piano**, scorrere fino alla sezione **Consenti accesso amministrativo per** e selezionare le autorizzazioni di accesso amministrativo per coloro che avranno questo livello di accesso.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -122,7 +122,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
         <li>Spese per progetti, attività o problemi da loro gestiti</li>
         <li>Le proprie spese</li>
         <li>Le spese dei loro subordinati</li>
-       </ul><p><b>NOTA</b>: questo non consente all’utente di creare nuovi Tipi di Spesa.</p></td> 
+       </ul><p><b>NOTA</b>: questo non consente all'utente di creare nuovi tipi di spesa.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Mansioni</td> 
@@ -132,7 +132,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
         <li>Aggiungi nuove mansioni</li> 
         <li>Modifica fatturazione mansioni e tassi di costo</li> 
        </ul> 
-       <p>Per informazioni importanti sull'accesso ai dati finanziari disponibili per un utente Standard o Planner con accesso amministrativo alle mansioni, vedere <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">Utenti Standard o Planner con accesso amministrativo alle mansioni</a>.</p>
+       <p>Per informazioni importanti sull'accesso ai dati finanziari disponibili per un utente Standard o Planner con accesso amministrativo a ruoli, vedere <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">Utenti Standard o Planner con accesso amministrativo a ruoli</a>.</p>
       </td> 
      </tr> 
      <tr> 
@@ -156,7 +156,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
     </tbody> 
    </table>
 
-1. Clic **Imposta restrizioni aggiuntive**, quindi imposta una delle seguenti restrizioni per il livello di accesso.
+1. Fai clic su **Imposta restrizioni aggiuntive**, quindi imposta una delle seguenti restrizioni per il livello di accesso.
 
    >[!IMPORTANT]
    >
@@ -168,7 +168,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
     <tbody> 
      <tr> 
       <td role="rowheader">Non riconoscere mai l'accesso all'intero progetto quando assegnato a un'attività o a un problema</td> 
-      <td> Impedisce agli utenti assegnati ad attività o problemi di ottenere autorizzazioni anche per il progetto principale, anche se le autorizzazioni del progetto lo consentono.<p>Per ulteriori informazioni sulla configurazione delle autorizzazioni per un progetto, consulta la sezione <a href="../../../manage-work/projects/manage-projects/edit-projects.md#access" class="MCXref xref"></a> nell’articolo <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Modifica progetti</a>.</p></td> 
+      <td> Impedisce agli utenti assegnati ad attività o problemi di ottenere autorizzazioni anche per il progetto principale, anche se le autorizzazioni del progetto lo consentono.<p>Per ulteriori informazioni sulla configurazione delle autorizzazioni per un progetto, vedere la sezione <a href="../../../manage-work/projects/manage-projects/edit-projects.md#access" class="MCXref xref"></a> nell'articolo <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Modifica progetti</a>.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Non ereditare l'accesso ai documenti da progetti. attività, problemi, ecc...</td> 
@@ -176,7 +176,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
      </tr> 
      <tr> 
       <td role="rowheader">Visualizza solo gli aggiornamenti in cui sono stati inclusi nella conversazione</td> 
-      <td> Consente agli utenti di visualizzare solo i commenti in cui è stato incluso il loro nome o il nome del team. <p> <p><b>NOTA</b>: questo impedisce agli utenti di abbonarsi agli elementi in Workfront. Per ulteriori informazioni sull'abbonamento agli elementi, vedi <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">Iscriviti agli elementi in Adobe Workfront</a>.</p> </p> </td> 
+      <td> Consente agli utenti di visualizzare solo i commenti in cui è stato incluso il loro nome o il nome del team. <p> <p><b>NOTA</b>: questo impedisce agli utenti di sottoscrivere elementi in Workfront. Per ulteriori informazioni sulla sottoscrizione agli elementi, vedere <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">Sottoscrizione agli elementi in Adobe Workfront</a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Non consentire mai agli utenti di eliminare i commenti </td> 
@@ -192,27 +192,27 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
      </tr> 
      <tr> 
       <td role="rowheader">Non consentire mai agli utenti di eliminare le notifiche</td> 
-      <td>Impedisce agli utenti di eliminare gli annunci nel Centro notifiche. Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref">Inviare annunci</a>.</td> 
+      <td>Impedisce agli utenti di eliminare gli annunci nel Centro notifiche. Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref">Inviare annunci</a>.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Condizionale e facoltativo) Se il sistema Workfront è configurato per utenti che appartengono a più aziende, limita la visibilità agli altri utenti in base all’azienda di appartenenza nella sezione **Le persone in altre aziende possono visualizzare solo gli utenti di**.
+1. (Condizionale e facoltativo) Se il sistema Workfront è configurato per utenti che appartengono a più società, limita la visibilità ad altri utenti in base alla società a cui appartengono nella sezione **Le persone in altre società devono visualizzare solo gli utenti di**.
 
-   Puoi limitare la visualizzazione degli utenti alla sola società di appartenenza o a quella indicata come società principale. L’azienda principale in genere rappresenta l’account Workfront dove lavora la maggior parte degli utenti. Per ulteriori informazioni sulla società principale, consulta [Creare e modificare le società](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+   Puoi limitare la visualizzazione degli utenti alla sola società di appartenenza o a quella indicata come società principale. L’azienda principale in genere rappresenta l’account Workfront dove lavora la maggior parte degli utenti. Per ulteriori informazioni sulla società principale, vedere [Creare e modificare società](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
    >[!NOTE]
    >
    >Se due utenti appartengono a due società diverse, ma possono entrambi vedere gli utenti della società principale, possono visualizzare l’area Aggiornamenti associata alla società principale.
 
-1. (Facoltativo) Per configurare le impostazioni di accesso per altri oggetti e aree nel livello di accesso su cui si sta lavorando, continuare con uno degli articoli elencati in [Configurare l’accesso ad Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), ad esempio [Concedere l’accesso alle attività](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) e [Concedere l’accesso ai dati finanziari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. (Facoltativo) Per configurare le impostazioni di accesso per altri oggetti e aree nel livello di accesso su cui stai lavorando, continua con uno degli articoli elencati in [Configura l&#39;accesso ad Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), ad esempio [Concedi l&#39;accesso alle attività](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) e [Concedi l&#39;accesso ai dati finanziari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. Fai clic su **Salva**.
 
    Dopo aver creato il livello di accesso, è possibile assegnarlo a un utente (a meno che non si tratti di un livello di accesso Amministratore di sistema).
 
-   Per ulteriori informazioni, consulta [Modificare il profilo di un utente](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   Per ulteriori informazioni, vedere [Modificare il profilo di un utente](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-   Per informazioni sul modo in cui un amministratore di Adobe assegna un livello di accesso Amministratore di sistema a un utente, vedere [Concedere a un utente l&#39;accesso amministrativo completo](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+   Per informazioni su come un amministratore di Adobe assegna un livello di accesso Amministratore di sistema a un utente, vedere [Concedere a un utente l&#39;accesso amministrativo completo](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
 ## Utenti Standard o Planner con accesso amministrativo alle mansioni {#planner-users}
 
@@ -220,4 +220,4 @@ Se si concede a un utente Standard o Planner l&#39;accesso amministrativo alle m
 
 Successivamente, se si disabilita l&#39;accesso amministrativo alle mansioni per l&#39;utente, le mansioni saranno ancora visibili perché l&#39;impostazione Modifica fatturazione mansione e tassi di costo è ancora abilitata.
 
-Se ciò accade e devi rimuovere l’accesso dell’utente per visualizzare le mansioni, devi disabilitare l’impostazione di autorizzazione Modifica fatturazione mansione e tassi di costo dell’utente. Per istruzioni, consulta [Concedere l’accesso ai dati finanziari](grant-access-financial.md).
+Se ciò accade e devi rimuovere l’accesso dell’utente per visualizzare le mansioni, devi disabilitare l’impostazione di autorizzazione Modifica fatturazione mansione e tassi di costo dell’utente. Per istruzioni, vedere [Concedere l&#39;accesso ai dati finanziari](grant-access-financial.md).

@@ -12,8 +12,8 @@ role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
 source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '1447'
-ht-degree: 11%
+source-wordcount: '1883'
+ht-degree: 10%
 
 ---
 
@@ -43,14 +43,14 @@ Solo gli utenti con una licenza Pianificazione possono avere accesso completo ai
 | Approvare un progetto | ✓ | ✓ | ✓ |   |   |
 | Aggiungi documento | ✓ | ✓ | ✓ |   |   |
 | Aggiungi problema | ✓ | ✓ |   |   |   |
-| Aggiungi  attività | ✓ | ✓ |   |   |   |
+| Aggiungi attività | ✓ | ✓ |   |   |   |
 | Assegna aggiornamenti/commenti | ✓ | ✓ | ✓ |   |   |
 | Modifica stato | ✓ |   |   |   |   |
 | Registra ore | ✓ | ✓ |   |   |   |
 | Modifica assegnazioni | ✓ | ✓ |   |   |   |
 | Gestire una baseline | ✓ |   |   |   |   |
 | Gestire i rischi | ✓ |   |   |   |   |
-| Gestire le finanze | ✓ |   |   |   |   |
+| Gestisci dati finanziari | ✓ |   |   |   |   |
 | Aggiungi/modifica spese | ✓ | ✓ |   |   |   |
 | Allega modelli | ✓ |   |   |   |   |
 | Salva come modello | ✓ |   |   |   |   |
@@ -63,7 +63,7 @@ Solo gli utenti con una licenza Pianificazione possono avere accesso completo ai
 
 
 
-&#42; Utilizzando un livello di accesso, gli amministratori di Workfront possono disabilitare o abilitare questa funzionalità. Per ulteriori informazioni, consulta [Accesso configurabile alle funzionalità per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Utilizzando un livello di accesso, gli amministratori di Workfront possono disabilitare o abilitare questa funzionalità. Per ulteriori informazioni, vedere [Accesso configurabile alle funzionalità per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Attività
 
@@ -75,10 +75,10 @@ Solo gli utenti con una licenza Pianificazione possono avere accesso completo ai
 | Condividi a livello di sistema | ✓&#42; |   |   |   |   |
 | Visualizza | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Aggiungi predecessori | ✓ | ✓ |   |   |   |
-| Aggiungi  problemi | ✓ | ✓ |   |   |   |
+| Aggiungi problemi | ✓ | ✓ |   |   |   |
 | Modificare un’attività (escluso lo stato) | ✓ | ✓ |   |   |   |
 | Cambia stato attività | ✓ | ✓ |   |   |   |
-| Aggiungi documenti | ✓ | ✓ | ✓ |   |   |
+| Agguingere documenti | ✓ | ✓ | ✓ |   |   |
 | Copiare un&#39;attività | ✓ | ✓ |   |   |   |
 | Spostare un’attività | ✓ | ✓ |   |   |   |
 | Registra ore | ✓ | ✓ |   |   |   |
@@ -90,12 +90,12 @@ Solo gli utenti con una licenza Pianificazione possono avere accesso completo ai
 | Approvare un’attività | ✓ | ✓ | ✓ |   |   |
 | Modifica dati finanziari | ✓ |   |   |   |   |
 | Aggiungi/modifica spese | ✓ | ✓ |   |   |   |
-| Visualizza informazioni finanziarie | ✓ | ✓ | ✓ |   |   |
+| Visualizzare dati finanziari | ✓ | ✓ | ✓ |   |   |
 | Aggiornamenti/commenti | ✓ | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}
 
-&#42; Utilizzando un livello di accesso, gli amministratori di Workfront possono disabilitare o abilitare questa funzionalità. Per ulteriori informazioni, consulta [Accesso configurabile alle funzionalità per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Utilizzando un livello di accesso, gli amministratori di Workfront possono disabilitare o abilitare questa funzionalità. Per ulteriori informazioni, vedere [Accesso configurabile alle funzionalità per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Problemi
 
@@ -111,19 +111,19 @@ Solo gli utenti con una licenza Pianificazione possono avere accesso completo ai
 | Modifica campi personalizzati | ✓ | ✓ | ✓ | ✓ |   |
 | Approva problemi | ✓ | ✓ | ✓ | ✓ |   |
 | Aggiungere un processo di approvazione | ✓ | ✓ | ✓ | ✓ |   |
-| Aggiungi documenti | ✓ | ✓ | ✓ | ✓ |   |
+| Agguingere documenti | ✓ | ✓ | ✓ | ✓ |   |
 | Copia i problemi | ✓ | ✓ | ✓ | ✓ |   |
 | Sposta i problemi | ✓ | ✓ | ✓ | ✓ |   |
 | Registra ore | ✓ | ✓ |   |   |   |
 | Convertire un problema in un progetto | ✓ | ✓ |   |   |   |
 | Convertire un problema in un&#39;attività | ✓ |   |   |   |   |
 | Accetta assegnazioni | ✓ | ✓ |   |   |   |
-| Assegnazioni | ✓ | ✓ |   |   |   |
+| Fai le assegnazioni | ✓ | ✓ |   |   |   |
 | Aggiungere aggiornamenti e commenti | ✓ | ✓ | ✓ | ✓ |   |
 
 
 
-&#42; Utilizzando un livello di accesso, gli amministratori di Workfront possono disabilitare o abilitare questa funzionalità. Per ulteriori informazioni, consulta [Accesso configurabile alle funzionalità per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Utilizzando un livello di accesso, gli amministratori di Workfront possono disabilitare o abilitare questa funzionalità. Per ulteriori informazioni, vedere [Accesso configurabile alle funzionalità per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Portfolio
 
@@ -142,12 +142,12 @@ Solo gli utenti con una licenza Plan possono avere accesso completo ai portfolio
 | Aggiungere e rimuovere progetti | ✓ |   |   |   |   |
 | Approva progetti | ✓ |   |   |   |   |
 | Ottimizzazione del Portfolio | ✓ |   |   |   |   |
-| Aggiungi documenti | ✓ | ✓ | ✓ |   |   |
+| Agguingere documenti | ✓ | ✓ | ✓ |   |   |
 | Aggiungere aggiornamenti e commenti | ✓ | ✓ | ✓ |   |   |
 
 
 
-&#42; Utilizzando un livello di accesso, gli amministratori di Workfront possono disabilitare o abilitare questa funzionalità. Per ulteriori informazioni, consulta [Accesso configurabile alle funzionalità per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Utilizzando un livello di accesso, gli amministratori di Workfront possono disabilitare o abilitare questa funzionalità. Per ulteriori informazioni, vedere [Accesso configurabile alle funzionalità per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Programmi
 
@@ -166,12 +166,12 @@ Solo gli utenti con una licenza Pianificazione possono avere accesso completo ai
 | Aggiungere e rimuovere progetti | ✓ |   |   |   |   |
 | Approva progetti | ✓ |   |   |   |   |
 | Ottimizzazione Portfolio | ✓ |   |   |   |   |
-| Aggiungi documenti | ✓ | ✓ | ✓ |   |   |
+| Agguingere documenti | ✓ | ✓ | ✓ |   |   |
 | Aggiungi aggiornamenti e commenti | ✓ | ✓ | ✓ |   |   |
 
 
 
-&#42; Utilizzando un livello di accesso, gli amministratori di Workfront possono disabilitare o abilitare questa funzionalità. Per ulteriori informazioni, consulta [Accesso configurabile alle funzionalità per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Utilizzando un livello di accesso, gli amministratori di Workfront possono disabilitare o abilitare questa funzionalità. Per ulteriori informazioni, vedere [Accesso configurabile alle funzionalità per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Report, dashboard e calendari
 
@@ -191,7 +191,7 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
 
 {style="table-layout:auto"}
 
-&#42; Utilizzando un livello di accesso, gli amministratori di Workfront possono disabilitare o abilitare questa funzionalità. Per ulteriori informazioni, consulta [Accesso configurabile alle funzionalità per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Utilizzando un livello di accesso, gli amministratori di Workfront possono disabilitare o abilitare questa funzionalità. Per ulteriori informazioni, vedere [Accesso configurabile alle funzionalità per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 >[!NOTE]
 >
@@ -274,7 +274,7 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
  </tbody> 
 </table>
 
-&#42; Utilizzando un livello di accesso, gli amministratori di Workfront possono disabilitare o abilitare questa funzionalità. Per ulteriori informazioni, consulta [Accesso configurabile alle funzionalità per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Utilizzando un livello di accesso, gli amministratori di Workfront possono disabilitare o abilitare questa funzionalità. Per ulteriori informazioni, vedere [Accesso configurabile alle funzionalità per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Documenti
 
@@ -299,7 +299,7 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
 | Carica nuova versione | ✓ | ✓ | ✓ | ✓ |   |
 | Eliminare una versione | ✓ | ✓ | ✓ | ✓ |   |
 | Anteprima | ✓ | ✓ | ✓ | ✓ | ✓ |
-|  Bozza | ✓ | ✓ | ✓ | ✓ |   |
+| Bozza | ✓ | ✓ | ✓ | ✓ |   |
 | Genera bozza | ✓ | ✓ |   |   |   |
 | Rimuovi bozza | ✓ | ✓ | ✓ | ✓ |   |
 | Aggiungi/Rimuovi&#42;&#42; | ✓ | ✓ | ✓ | ✓ |   |
@@ -309,9 +309,9 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
 
 {style="table-layout:auto"}
 
-&#42; Utilizzando un livello di accesso, gli amministratori di Workfront possono disabilitare o abilitare questa funzionalità. Per ulteriori informazioni, consulta [Accesso configurabile alle funzionalità per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Utilizzando un livello di accesso, gli amministratori di Workfront possono disabilitare o abilitare questa funzionalità. Per ulteriori informazioni, vedere [Accesso configurabile alle funzionalità per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-&#42;&#42;Disponibile solo per cartelle di documenti, non per documenti
+&#42;&#42;Disponibile solo per le cartelle di documenti, non per i documenti
 
 ## Utenti
 
@@ -390,7 +390,7 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
  </tbody> 
 </table>
 
-&#42; Utilizzando un livello di accesso, gli amministratori di Workfront possono disabilitare o abilitare questa funzionalità. Per ulteriori informazioni, consulta [Accesso configurabile alle funzionalità per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Utilizzando un livello di accesso, gli amministratori di Workfront possono disabilitare o abilitare questa funzionalità. Per ulteriori informazioni, vedere [Accesso configurabile alle funzionalità per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 &#42;&#42;Gli utenti esterni possono cercare solo altri utenti
 
@@ -465,7 +465,7 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
  </tbody> 
 </table>
 
-&#42; Utilizzando un livello di accesso, gli amministratori di Workfront possono disabilitare o abilitare questa funzionalità. Per ulteriori informazioni, consulta [Accesso configurabile alle funzionalità per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Utilizzando un livello di accesso, gli amministratori di Workfront possono disabilitare o abilitare questa funzionalità. Per ulteriori informazioni, vedere [Accesso configurabile alle funzionalità per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Modelli
 
@@ -481,7 +481,7 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
 
 {style="table-layout:auto"}
 
-&#42; Utilizzando un livello di accesso, gli amministratori di Workfront possono disabilitare o abilitare questa funzionalità. Per ulteriori informazioni, consulta [Accesso configurabile alle funzionalità per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Utilizzando un livello di accesso, gli amministratori di Workfront possono disabilitare o abilitare questa funzionalità. Per ulteriori informazioni, vedere [Accesso configurabile alle funzionalità per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Dati finanziari
 
@@ -495,30 +495,30 @@ I tipi di licenza Request (Richiesta) e External User (Utente esterno) non sono 
 | Modifica fatturazione utente e tariffe | ✓&#42; |   |   |
 | Visualizza fatturazione mansioni e tassi di costo | ✓&#42; |   |   |
 | Visualizza fatturazione utente e tariffe di costo | ✓&#42; |   |   |
-| Gestisci record fatturazione | ✓ |   |   |
-| Gestione spese | ✓ | ✓ |   |
+| Gestire record fatturazione | ✓ |   |   |
+| Gestire le spese | ✓ | ✓ |   |
 | Visualizza dati finanziari | ✓&#42; | ✓&#42; | ✓&#42; |
-| <span class="preview">Gestire le schede delle tariffe</span> | ✓ |   |   |
+| <span class="preview">Gestione schede tariffarie</span> | ✓ |   |   |
 | Visualizzare le informazioni per costo negli strumenti di pianificazione delle risorse | ✓ |   |   |
-| Risorse budget negli strumenti di pianificazione delle risorse&#42;&#42; | ✓ |   |   |
-| Visualizzare l&#39;allocazione delle risorse negli strumenti di pianificazione risorse&#42; | ✓ | ✓ | ✓ |
+| Risorse budget negli strumenti di pianificazione risorse&#42;&#42; | ✓ |   |   |
+| Visualizza allocazione risorse negli strumenti di pianificazione risorse&#42; | ✓ | ✓ | ✓ |
 | Creare rischi nei progetti | ✓ |   |   |
 | Visualizzare i rischi sui progetti | ✓ | ✓ | ✓ |
 
 {style="table-layout:auto"}
 
-&#42; Utilizzando un livello di accesso, gli amministratori di Workfront possono disabilitare o abilitare questa funzionalità. Per ulteriori informazioni, consulta [Accesso configurabile alle funzionalità per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Utilizzando un livello di accesso, gli amministratori di Workfront possono disabilitare o abilitare questa funzionalità. Per ulteriori informazioni, vedere [Accesso configurabile alle funzionalità per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 &#42;&#42;Richiede accesso aggiuntivo a Gestione risorse.
 
 ## Gestione risorse
 
-Solo gli utenti con una licenza Pianificazione possono avere accesso completo a [seleziona oggetto o area]. Altri tipi di licenza possono avere accesso limitato o nullo alla gestione delle risorse in Workfront.
+Solo gli utenti con una licenza Pianificazione possono avere accesso completo all&#39;[oggetto o area selezionata]. Altri tipi di licenza possono avere accesso limitato o nullo alla gestione delle risorse in Workfront.
 
 | Azione | Pianificatore | Collaboratore | Revisore | Richiedente | Utente esterno |
 |---|---|---|---|---|---|
 | Modifica priorità e ore preventivate nella Programmazione | ✓&#42; |   |   |   |   |
-| Creare, modificare ed eliminare i gruppi di risorse&#42;&#42; | ✓&#42; |   |   |   |   |
+| Crea, modifica, elimina i gruppi di risorse&#42;&#42; | ✓&#42; |   |   |   |   |
 | `Update Planned Hours in the Workload Balancer`&#42;&#42;&#42; | `✓*` |   |   |   |   |
 | Visualizzare le priorità del progetto nella Programmazione delle risorse | ✓&#42; |   |   |   |   |
 | Visualizzare l&#39;allocazione delle risorse negli strumenti di pianificazione risorse | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
@@ -528,22 +528,22 @@ Solo gli utenti con una licenza Pianificazione possono avere accesso completo a 
 
 {style="table-layout:auto"}
 
-&#42; Utilizzando un livello di accesso, gli amministratori di Workfront possono disabilitare o abilitare questa funzionalità. Per ulteriori informazioni, consulta [Accesso configurabile alle funzionalità per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Utilizzando un livello di accesso, gli amministratori di Workfront possono disabilitare o abilitare questa funzionalità. Per ulteriori informazioni, vedere [Accesso configurabile alle funzionalità per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-&#42;&#42;Richiede l&#39;accesso aggiuntivo ai dati finanziari e le autorizzazioni per i dati finanziari del progetto. Se si concede l&#39;accesso Gestione risorse a un utente di Planner che non ha accesso ai dati finanziari, l&#39;utente potrà comunque visualizzare le allocazioni orarie nella Programmazione risorse, ma non potrà passare alla visualizzazione Costo o al Business Case. Per ulteriori informazioni, consulta [Concedere l’accesso ai dati finanziari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) e [Condividere le autorizzazioni finanziarie su un oggetto](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
+&#42;&#42;Richiede l&#39;accesso aggiuntivo ai dati finanziari e le autorizzazioni per i dati finanziari del progetto. Se si concede l&#39;accesso Gestione risorse a un utente di Planner che non ha accesso ai dati finanziari, l&#39;utente potrà comunque visualizzare le allocazioni orarie nella Programmazione risorse, ma non potrà passare alla visualizzazione Costo o al Business Case. Per ulteriori informazioni, vedere [Concedere l&#39;accesso ai dati finanziari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) e [Condividere le autorizzazioni finanziarie su un oggetto](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
-&#42;&#42;&#42;Richiede l&#39;autorizzazione per contribuire all&#39;oggetto con l&#39;opzione Crea assegnazioni abilitata in Impostazioni avanzate. Per informazioni, consulta la sezione [Comprendere le autorizzazioni ereditate e la gerarchia di oggetti](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) nell’articolo [Panoramica delle autorizzazioni di condivisione sugli oggetti](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+&#42;&#42;&#42;Richiede l&#39;autorizzazione di Contribute per l&#39;oggetto, con l&#39;opzione Rendi assegnazioni abilitata in Impostazioni avanzate. Per informazioni, vedere la sezione [Comprendere le autorizzazioni ereditate e la gerarchia degli oggetti](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) nell&#39;articolo [Panoramica delle autorizzazioni di condivisione sugli oggetti](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 ## Area Pianificazione scenario
 
 | Azione | Pianificatore | Collaboratore | Revisore | Richiedente | Utente esterno |
 |---|---|---|---|---|---|
 | Crea/modifica piani e iniziative esistenti | ✓ | ✓ | ✓ |   |   |
-| Aggiungere o modificare le informazioni sui ruoli in piani e iniziative&#42; | ✓ | ✓ | ✓ |   |   |
-| Aggiungere o modificare le informazioni sui costi per piani e iniziative&#42; | ✓ | ✓ | ✓ |   |   |
+| Aggiungi o modifica informazioni mansione su piani e iniziative&#42; | ✓ | ✓ | ✓ |   |   |
+| Aggiungi o modifica informazioni sui costi in piani e iniziative&#42; | ✓ | ✓ | ✓ |   |   |
 | Elimina piani e iniziative | ✓ | ✓ | ✓ |   |   |
 | Visualizza scenari nel menu principale ![](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ | |   |
-| Visualizza i piani e le iniziative creati dall&#39;utente&#42; | ✓ | ✓ | ✓ |   |   |
+| Visualizza piani e iniziative creati dall&#39;utente&#42; | ✓ | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}
 
@@ -551,7 +551,7 @@ Solo gli utenti con una licenza Pianificazione possono avere accesso completo a 
 >
 >Gli utenti possono visualizzare un piano creato da un altro utente solo se con essi è condiviso un collegamento al piano.
 
-&#42; Affinché gli utenti possano visualizzare i dati finanziari in un piano o in un’iniziativa, devono avere accesso ai dati finanziari. Per ulteriori informazioni, consulta [Concedere l’accesso ai dati finanziari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+&#42; Affinché gli utenti possano visualizzare i dati finanziari in un piano o in un&#39;iniziativa, è necessario che abbiano accesso ai dati finanziari. Per ulteriori informazioni, vedere [Concedere l&#39;accesso ai dati finanziari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 ## Area Obiettivi Workfront
 

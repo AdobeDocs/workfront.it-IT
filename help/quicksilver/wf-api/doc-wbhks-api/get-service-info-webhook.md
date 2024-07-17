@@ -11,7 +11,7 @@ exl-id: a3a423ff-29a6-466e-a568-f64e02dcb484
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 4%
+ht-degree: 1%
 
 ---
 
@@ -32,7 +32,7 @@ GET /serviceInfo
 
 Nessuno. Inoltre, le chiamate a questo endpoint non devono richiedere l’autenticazione.
 
-## risposta
+## Risposta
 
 JSON contenente informazioni su questo servizio
 

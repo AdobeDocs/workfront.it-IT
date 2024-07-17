@@ -1,8 +1,8 @@
 ---
 product-area: portfolios
 navigation-topic: portfolio-optimizer
-title: Calcolare il rischio del valore netto in un portafoglio
-description: In Portfoli Optimizer, la variabile [!UICONTROL Rischio di valore netto] L'indicatore misura il rischio potenziale tenendo conto del valore netto fornito da tutti i progetti visualizzati in Portfoli Optimizer.
+title: Calcolare il rischio per il valore netto in un portfolio
+description: In Ottimizzatore Portfolio, l'indicatore [!UICONTROL Rischio sul valore netto] misura il rischio potenziale tenendo conto del valore netto fornito da tutti i progetti visualizzati in Ottimizzatore Portfolio.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 9e86f6eb-dd82-4731-aebb-ce8da1df5614
@@ -13,34 +13,34 @@ ht-degree: 0%
 
 ---
 
-# Calcola il [!UICONTROL Rischio di valore netto] in un portafoglio
+# Calcola il [!UICONTROL Rischio per valore netto] in un portfolio
 
-In [!UICONTROL Ottimizzatore Portfolio], [!UICONTROL Rischio di valore netto] L&#39;indicatore misura il rischio potenziale tenendo conto [!UICONTROL Valore netto] forniti da tutti i progetti visualizzati nel [!UICONTROL Ottimizzatore Portfolio]. 
+In [!UICONTROL Portfolio Optimizer], l&#39;indicatore [!UICONTROL Risk to Net Value] misura il rischio potenziale tenendo conto del [!UICONTROL Net Value] fornito da tutti i progetti visualizzati in [!UICONTROL Portfolio Optimizer]. 
 
-Per ottenere la massima efficienza all’interno del portfolio, desideri che la [!UICONTROL Rischio] l&#39;indicatore è basso e [!UICONTROL Valore netto] l&#39;indicatore è alto. 
+Per ottenere la massima efficienza all&#39;interno del portfolio, è necessario che l&#39;indicatore [!UICONTROL Rischio] sia basso e che l&#39;indicatore [!UICONTROL Valore netto] sia alto. 
 
-La [!UICONTROL Rischio] e [!UICONTROL Valore netto] Gli indicatori sono rappresentati dal punto di vista del loro rapporto reciproco.
+Gli indicatori [!UICONTROL Rischio] e [!UICONTROL Valore Netto] sono rappresentati dal punto di vista della loro relazione reciproca.
 
-[!DNL Adobe Workfront] calcola il [!UICONTROL Rischio] e [!UICONTROL Valore netto] utilizzando le seguenti formule:
+[!DNL Adobe Workfront] calcola gli indicatori [!UICONTROL Rischio] e [!UICONTROL Valore Netto] utilizzando le formule seguenti:
 
-* La [!UICONTROL Rischio] l&#39;indicatore è calcolato con la seguente formula:
+* L&#39;indicatore [!UICONTROL Rischio] è calcolato dalla formula seguente:
 
-   ```
-   Risk indicator = Risk / (Risk + Net Value)
-   ```
+  ```
+  Risk indicator = Risk / (Risk + Net Value)
+  ```
 
-* La [!DNL Net Value] Questo indicatore è calcolato dalle seguenti formule:
+* L&#39;indicatore [!DNL Net Value] viene calcolato con le seguenti formule:
 
-   ```
-   Net Value indicator = 1 - Risk / (Risk + Net Value)
-   ```
+  ```
+  Net Value indicator = 1 - Risk / (Risk + Net Value)
+  ```
 
-   Oppure
+  Oppure
 
-   ```
-   Net Value indicator = Net Value / (Risk + Net Value)
-   ```
+  ```
+  Net Value indicator = Net Value / (Risk + Net Value)
+  ```
 
 >[!NOTE]
 >
->La [!UICONTROL Rischio di valore netto] in base ai progetti visualizzati nella [!UICONTROL Ottimizzatore Portfolio]e non su tutti i progetti associati al portafoglio. 
+>L&#39;indicatore [!UICONTROL Rischio per valore netto] viene calcolato in base ai progetti visualizzati in [!UICONTROL Ottimizzatore Portfolio] e non a tutti i progetti associati al portfolio. 

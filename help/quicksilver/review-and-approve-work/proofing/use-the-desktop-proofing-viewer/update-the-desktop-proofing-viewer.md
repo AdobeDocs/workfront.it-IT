@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: use-the-desktop-proofing-viewer
-title: Aggiornare il visualizzatore di correzione del desktop
-description: A volte, nuovi aggiornamenti software contenenti miglioramenti e correzioni di bug diventano disponibili per il visualizzatore di correzione desktop. Gli utenti possono eseguire questi aggiornamenti senza l’aiuto di un amministratore Adobe Workfront.
+title: Aggiornare il Visualizzatore bozze desktop
+description: Occasionalmente, per il Visualizzatore bozze desktop diventano disponibili nuovi aggiornamenti software contenenti miglioramenti e correzioni di bug. Gli utenti possono eseguire questi aggiornamenti senza l’aiuto di un amministratore Adobe Workfront.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b29ce9d0-9203-49aa-aa4c-70dee121cd17
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# Aggiornare il visualizzatore di correzione del desktop
+# Aggiornare il Visualizzatore bozze desktop
 
-A volte, nuovi aggiornamenti software contenenti miglioramenti e correzioni di bug diventano disponibili per il visualizzatore di correzione desktop. Gli utenti possono eseguire questi aggiornamenti senza l’aiuto di un amministratore Adobe Workfront.
+Occasionalmente, per il Visualizzatore bozze desktop diventano disponibili nuovi aggiornamenti software contenenti miglioramenti e correzioni di bug. Gli utenti possono eseguire questi aggiornamenti senza l’aiuto di un amministratore Adobe Workfront.
 
 <!--
 >[!IMPORTANT]
@@ -32,50 +32,50 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <tbody> 
   <tr> 
    <td role="rowheader">piano Adobe Workfront</td> 
-   <td> <p>Piano attuale: Pro o superiore</p> <p>oppure</p> <p>Piano legacy: Seleziona o Premium</p> <p>Per ulteriori informazioni sulla verifica dell’accesso con i diversi piani, consulta <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accesso alle funzionalità di correzione in Workfront</a>.</p> </td> 
+   <td> <p>Piano corrente: Pro o superiore</p> <p>oppure</p> <p>Piano legacy: Seleziona o Premium</p> <p>Per ulteriori informazioni sulla verifica dell'accesso con i diversi piani, vedere <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accesso alla funzionalità di verifica in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Qualsiasi</p> <p>Piano legacy: Qualsiasi (è necessario che la correzione sia attivata per l’utente)</p> </td> 
+   <td> <p>Qualsiasi</p> <p>Piano legacy: qualsiasi (per l’utente deve essere abilitata la verifica)</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 {{latest-version}}
 
-## Verifica manualmente gli aggiornamenti
+## Verifica manualmente la disponibilità di aggiornamenti
 
-Il visualizzatore per correzione desktop controlla automaticamente la presenza di aggiornamenti all’avvio. 
+Il Visualizzatore bozze desktop verifica automaticamente la disponibilità di aggiornamenti all&#39;avvio. 
 
 Per verificare manualmente la disponibilità di aggiornamenti:
 
-1. Su un Mac, fai clic su **Prova Workfront** > **Informazioni su Workfront Proof** nella barra di navigazione di Apple sopra il visualizzatore di correzione desktop. 
+1. In un Mac, fai clic su **Workfront Proof** > **Informazioni su Workfront Proof** nella barra di navigazione di Apple sopra il Visualizzatore bozze desktop. 
 
    Oppure
 
-   In Windows, fai clic su **Finestra** > **Informazioni su Workfront Proof** nella barra dei menu sopra il visualizzatore di correzione desktop.
+   In Windows, fare clic su **Finestra** > **Informazioni su Workfront Proof** nella barra dei menu sopra il Visualizzatore bozze desktop.
 
-   Il visualizzatore di correzione desktop controlla la disponibilità di aggiornamenti.
+   Il Visualizzatore bozze desktop verifica la disponibilità di aggiornamenti.
 
-1. Se sono disponibili aggiornamenti, seguire le istruzioni sullo schermo per aggiornare il visualizzatore di correzione desktop.
+1. Se sono disponibili aggiornamenti, seguire le istruzioni visualizzate per aggiornare il Visualizzatore bozze desktop.
 
 ## Aggiornamenti standard
 
-Il visualizzatore di correzione desktop può funzionare senza gli aggiornamenti non critici. Tuttavia, per una funzionalità ottimale, è consigliabile applicarla quando disponibile. Riceverai una notifica quando saranno disponibili da un **Aggiornamento app** nella barra laterale sinistra del Visualizzatore correzione desktop.
+Il Visualizzatore bozze desktop può funzionare senza gli aggiornamenti non critici. Tuttavia, per una funzionalità ottimale, si consiglia di applicarli quando disponibili. Riceverai una notifica quando saranno disponibili da un pulsante **Aggiornamento app** nella barra laterale a sinistra del Visualizzatore bozze desktop.
 
-1. Fai clic su **Aggiornamento app.**
+1. Fai clic su **Aggiornamento app.**
 
-   Gli aggiornamenti vengono scaricati.
+   Download degli aggiornamenti.
 
-1. Fai clic su **Riavvia.**
+1. Fare clic su **Riavvia.**
 
-   La **Visualizzatore di correzione del desktop** si riavvia e puoi riprendere a lavorare sulla bozza.
+   Il **Visualizzatore bozze desktop** viene riavviato ed è possibile riprendere il lavoro sulla bozza.
 
 ## Aggiornamenti richiesti
 
-È importante eseguire gli aggiornamenti richiesti per il visualizzatore di correzione desktop. In seguito, è necessario riavviare per continuare a utilizzare il visualizzatore.
+È importante eseguire gli aggiornamenti richiesti per il Visualizzatore bozze desktop. In seguito, è necessario riavviare per continuare a utilizzare il visualizzatore.
 
-1. Apri il visualizzatore di correzione desktop.
-1. Nella casella visualizzata, fai clic su **Riavvia.**
+1. Aprire il Visualizzatore bozze desktop.
+1. Nella casella visualizzata fare clic su **Riavvia.**
 
-   Il visualizzatore di correzione desktop viene riavviato e puoi riprendere a lavorare sulla bozza. 
+   Il Visualizzatore bozze desktop viene riavviato e puoi riprendere a lavorare sulla bozza. 

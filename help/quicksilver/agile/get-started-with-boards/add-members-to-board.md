@@ -38,34 +38,34 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
 
 ## Aggiungere membri a una bacheca
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe] Workfront, quindi fai clic su **[!UICONTROL Schede]**.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe] Workfront, quindi fai clic su **[!UICONTROL Bacheche]**.
 1. Crea una nuova bacheca o modificane una esistente. Per informazioni, consulta [Creare o modificare una bacheca](../../agile/get-started-with-boards/create-edit-board.md).
-1. Fai clic su **[!UICONTROL Aggiungi membro]** icona ![Aggiungi membri](assets/boards-addmember-spectrum-25x25.png).
-1. In **[!UICONTROL Aggiungi membri]** inizia a digitare un nome, quindi selezionalo quando viene visualizzato nell’elenco.
+1. Fare clic sull&#39;icona **[!UICONTROL Aggiungi membro]** ![Aggiungi membri](assets/boards-addmember-spectrum-25x25.png).
+1. Nella casella **[!UICONTROL Aggiungi membri]**, inizia a digitare un nome, quindi selezionalo quando viene visualizzato nell&#39;elenco.
 
    È possibile selezionare un singolo membro o un team. Se scegli un team, il team stesso viene aggiunto alla bacheca.
 
    >[!NOTE]
    >
-   >Un singolo utente deve disporre di **[!UICONTROL Visualizza]** o **[!UICONTROL Modifica]** nel loro livello di accesso per i team, altrimenti non potranno visualizzare la bacheca.
+   >Un singolo utente deve avere l&#39;opzione **[!UICONTROL Visualizza]** o **[!UICONTROL Modifica]** impostata nel proprio livello di accesso per i team, altrimenti non potrà visualizzare la bacheca.
 
 
    ![Aggiungi membri alla bacheca](assets/boards-add-members.png)
 
 ## Rimuovere membri da una bacheca
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe] Workfront, quindi fai clic su **[!UICONTROL Schede]**.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe] Workfront, quindi fai clic su **[!UICONTROL Bacheche]**.
 1. Crea una nuova bacheca o modificane una esistente. Per informazioni, consulta [Creare o modificare una bacheca](../../agile/get-started-with-boards/create-edit-board.md).
-1. Fai clic su **[!UICONTROL Aggiungi membro]** icona ![Aggiungi membri](assets/boards-addmember-spectrum-25x25.png).
-1. In **[!UICONTROL Aggiungi membri]** fare clic sulla X accanto al nome di una persona o di un team per rimuoverli dalla bacheca.
+1. Fare clic sull&#39;icona **[!UICONTROL Aggiungi membro]** ![Aggiungi membri](assets/boards-addmember-spectrum-25x25.png).
+1. Nella casella **[!UICONTROL Aggiungi membri]** fare clic sulla X accanto al nome di una persona o di un team per rimuoverli dalla bacheca.
 
    ![Rimuovi membro dalla bacheca](assets/boards-remove-member-from-board-350x367.png)
 
-   Quando rimuovi un membro da una bacheca, non viene rimosso dalle schede a cui è assegnato. Per le schede collegate, le assegnazioni vengono aggiornate anche nel [!DNL Workfront] attività o problema.
+   Quando rimuovi un membro da una bacheca, non viene rimosso dalle schede a cui è assegnato. Per le schede connesse, le assegnazioni vengono aggiornate anche sull&#39;attività o sul problema [!DNL Workfront].
 
    I membri vengono rimossi solo da questa bacheca. Non vengono rimosse dalle altre bacheche a cui appartengono.
 

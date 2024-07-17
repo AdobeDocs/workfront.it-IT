@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
-title: Configurare gli utenti per l’accesso in ore o giorni
-description: Gli utenti con una licenza Planner possono configurare l'accesso al momento [!DNL Adobe Workfront] in ore o giorni. In qualità di amministratore di Workfront, puoi configurare questa impostazione per singoli utenti o per più utenti completi della tua organizzazione. Per impostazione predefinita, gli utenti registrano il tempo in ore.
+title: Configurare gli utenti per registrare il tempo in ore o giorni
+description: Gli utenti con una licenza Planner possono configurare se registrano il tempo in [!DNL Adobe Workfront] ore o giorni. In qualità di amministratore di Workfront, puoi configurare questa impostazione per singoli utenti o per più utenti completi dell’organizzazione. Per impostazione predefinita, gli utenti accedono in ore.
 author: Alina
 feature: System Setup and Administration
 role: Admin
@@ -15,10 +15,10 @@ ht-degree: 0%
 
 ---
 
-# Configurare gli utenti per l’accesso in ore o giorni
+# Configurare gli utenti per registrare il tempo in ore o giorni
 
 <!--this article should be removed from the admin area because this is not an admin function; we have another article linked below in the user area for timesheets -->
 
-Utenti con un [!UICONTROL Planner] la licenza può configurare se effettua l&#39;accesso [!DNL Adobe Workfront] in ore o giorni. Come [!DNL Workfront] amministratore, puoi configurare questa impostazione per singoli utenti o per più utenti completi della tua organizzazione. Per impostazione predefinita, gli utenti registrano il tempo in ore.
+Gli utenti con una licenza [!UICONTROL Planner] possono configurare se registrano il tempo in [!DNL Adobe Workfront] in ore o giorni. In qualità di amministratore [!DNL Workfront], puoi configurare questa impostazione per singoli utenti o per più utenti completi dell&#39;organizzazione. Per impostazione predefinita, gli utenti accedono in ore.
 
-Per informazioni sulla configurazione degli utenti per l’accesso in ore o giorni, consulta [Configura se l&#39;ora è registrata in ore o giorni](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md).
+Per informazioni sulla configurazione degli utenti per registrare il tempo in ore o giorni, vedere [Configurare se il tempo è registrato in ore o giorni](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md).

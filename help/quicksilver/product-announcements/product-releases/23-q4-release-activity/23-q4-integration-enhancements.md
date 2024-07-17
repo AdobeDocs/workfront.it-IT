@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti all’integrazione apportati con la versione del quarto trimestre 2023 all’ambiente di anteprima. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione con la versione 23.10.
 
-Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rilascio del quarto trimestre del 2023, consulta [Panoramica sulla versione del quarto trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+Per un elenco di tutte le modifiche disponibili in questo momento nel ciclo di rilascio del quarto trimestre 2023, consulta [Panoramica sulla versione del quarto trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
 ## Miglioramenti all’esperienza di invio di documenti a SharePoint (GraphAPI)
 
@@ -26,7 +26,7 @@ Sono state apportate alcune modifiche alle modalità di invio dei documenti alle
 * Nella finestra Invia a vengono ora visualizzati fino a 500 siti, cartelle e documenti.
 * Nei risultati della ricerca vengono ora visualizzate icone diverse per i siti e le cartelle di SharePoint, per indicare chiaramente quali risultati sono siti e quali cartelle. Nei file non viene visualizzata alcuna icona.
 
-Per ulteriori informazioni, consulta [Collegare i documenti tramite la nuova integrazione SharePoint](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md#link-documents-through-the-new-sharepoint-integration).
+Per ulteriori informazioni, vedere [Collegare documenti tramite la nuova integrazione SharePoint](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md#link-documents-through-the-new-sharepoint-integration).
 
 ## Aggiornamenti al trascinamento della selezione per le integrazioni di documenti
 
@@ -37,4 +37,4 @@ Sono stati apportati alcuni miglioramenti all’esperienza utente durante il tra
 
 Queste modifiche interessano tutte le integrazioni di documenti, inclusi Adobe Experience Manager e SharePoint.
 
-Per ulteriori informazioni, consulta [Spostare un documento in una cartella collegata in Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md#move-a-document-to-a-linked-folder-in-experience-manager-assets).
+Per ulteriori informazioni, vedere [Spostare un documento in una cartella collegata in Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md#move-a-document-to-a-linked-folder-in-experience-manager-assets).

@@ -19,7 +19,7 @@ ht-degree: 0%
 
 * [Panoramica del profilo di autorizzazione della bozza](../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md)
 * [Panoramica sui ruoli bozza](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)
-* [Panoramica del flusso di lavoro automatizzato](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
+* [Panoramica sul flusso di lavoro automatico](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
 * [Panoramica delle fasi del flusso di lavoro automatizzato](../../../review-and-approve-work/proofing/proofing-overview/stages.md)
 * [Panoramica delle notifiche per commenti e decisioni relativi alla bozza](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md)
 * [Panoramica delle bozze dei contenuti interattivi](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md)

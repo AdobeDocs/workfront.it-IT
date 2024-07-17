@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Gestire le scadenze delle bozze
 
-* [Imposta una scadenza per una bozza di base esistente](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-deadline-basic-proof.md)
+* [Impostare una scadenza per una bozza di base esistente](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-deadline-basic-proof.md)
 * [Aggiungere, modificare o eliminare una scadenza per una fase](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/add-edit-delete-deadline.md)
-* [Impostare le scadenze dei singoli revisori](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-individual-deadlines.md)
+* [Impostare le scadenze per i singoli revisori](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-individual-deadlines.md)
 * [Rimuovere le scadenze dei singoli revisori](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/remove-individual-deadlines.md)

@@ -1,21 +1,21 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Visualizzare le informazioni sugli elementi di lavoro utilizzando il plug-in Adobe Workfront
-description: Puoi visualizzare informazioni su progetti, attività, problemi e documenti provenienti dalle applicazioni Adobe Creative Cloud.
+title: Visualizzare le informazioni sull’elemento di lavoro utilizzando il plug-in Adobe Workfront
+description: È possibile visualizzare informazioni su progetti, attività, problemi e documenti dalle applicazioni di Adobe Creative Cloud.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: a53a716f-4faf-4ea7-a4fc-ad8d87634267
 source-git-commit: fc3eb30cef2e17524b5cbd50219861f293a2ea9d
 workflow-type: tm+mt
 source-wordcount: '560'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
-# Visualizza le informazioni sull&#39;elemento di lavoro utilizzando [!DNL Adobe Workfront] plugin
+# Visualizza le informazioni sull&#39;elemento di lavoro tramite il plug-in [!DNL Adobe Workfront]
 
-Per informazioni su progetti, attività, problemi e documenti, consulta: [!DNL Adobe Creative Cloud] applicazioni:
+È possibile visualizzare informazioni su progetti, attività, problemi e documenti dalle seguenti [!DNL Adobe Creative Cloud] applicazioni:
 
 {{cc-app-list}}
 
@@ -39,20 +39,20 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> -->
   <tr> 
    <td role="rowheader">Prodotto</td> 
-   <td>Devi avere un [!DNL Adobe Creative Cloud] oltre a una licenza [!DNL Workfront] licenza.</td> 
+   <td>È necessario disporre di una licenza [!DNL Adobe Creative Cloud] oltre a una licenza [!DNL Workfront].</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Accesso a progetti, attività o problemi con la visualizzazione</p> <p>Nota: Se non hai ancora accesso, chiedi [!DNL Workfront] amministratore se imposta ulteriori restrizioni nel livello di accesso. Per informazioni su come [!DNL Workfront] l'amministratore può modificare il livello di accesso, vedi <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Accesso a progetti, attività o problemi tramite [!UICONTROL View]</p> <p>Nota: se non disponi ancora dell'accesso, chiedi all'amministratore [!DNL Workfront] se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di [!DNL Workfront] può modificare il tuo livello di accesso, vedi <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizzare l'accesso all'oggetto che si desidera visualizzare. </p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Accesso di visualizzazione all'oggetto che si desidera visualizzare. </p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
 
 ## Prerequisiti
 
@@ -60,99 +60,99 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Visualizzare i dettagli e i dati del modulo personalizzato
 
-1. Fai clic sul pulsante **[!UICONTROL Menu]** nell&#39;angolo in alto a destra, quindi seleziona **[!UICONTROL Elenco lavori]**. È inoltre possibile utilizzare il menu per passare agli oggetti principali.
+1. Fai clic sull&#39;icona **[!UICONTROL Menu]** in alto a destra, quindi seleziona **[!UICONTROL Elenco lavori]**. È inoltre possibile utilizzare il menu per passare agli oggetti padre.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. Selezionare l&#39;elemento di lavoro che si desidera visualizzare.
+1. Selezionare l&#39;elemento di lavoro da visualizzare.
 
    >[!TIP]
    >
-   >Utilizza la **[!UICONTROL Menu]** per passare agli oggetti principali dell&#39;elemento di lavoro.
+   >Utilizza l&#39;icona **[!UICONTROL Menu]** per passare agli oggetti principali dell&#39;elemento di lavoro.
 
-1. Fai clic sul pulsante **[!UICONTROL Dettagli]** icona ![](assets/details.png) nella barra di navigazione per visualizzare:
+1. Fai clic sull&#39;icona **[!UICONTROL Dettagli]** ![](assets/details.png) nella barra di navigazione per visualizzare:
 
    * [!UICONTROL Descrizione]
    * [!UICONTROL Data di completamento Pianificata]
    * [!UICONTROL Stato]
-   * [!UICONTROL Assegnazione a]
-   * [!UICONTROL Proprietario progetto] (Solo progetti)
-   * Dati modulo personalizzati
+   * [!UICONTROL Assegnato a]
+   * [!UICONTROL Proprietario progetto] (solo progetti)
+   * Dati modulo personalizzato
 
 ## Visualizza dettagli documento
 
-1. Fai clic sul pulsante **[!UICONTROL Menu]** nell&#39;angolo in alto a destra, quindi seleziona **[!UICONTROL Elenco lavori]**. È inoltre possibile utilizzare il menu per passare agli oggetti principali.
+1. Fai clic sull&#39;icona **[!UICONTROL Menu]** in alto a destra, quindi seleziona **[!UICONTROL Elenco lavori]**. È inoltre possibile utilizzare il menu per passare agli oggetti padre.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. Selezionare l&#39;elemento di lavoro che si desidera visualizzare.
+1. Selezionare l&#39;elemento di lavoro da visualizzare.
 
    >[!TIP]
    >
-   >Utilizza la **[!UICONTROL Menu]** per passare agli oggetti principali dell&#39;elemento di lavoro.
+   >Utilizza l&#39;icona **[!UICONTROL Menu]** per passare agli oggetti principali dell&#39;elemento di lavoro.
 
-1. Fai clic sul pulsante **[!UICONTROL Documento]** icona ![](assets/documents.png) nella barra di navigazione, quindi fare doppio clic su un documento per visualizzare:
+1. Fai clic sull&#39;icona **[!UICONTROL Documento]** ![](assets/documents.png) nella barra di navigazione, quindi fai doppio clic su un documento per visualizzare:
 
    * [!UICONTROL Descrizione]
-   * [!UICONTROL Tipo File]
-   * [!UICONTROL Stato della bozza] (disponibile solo per le bozze)
+   * [!UICONTROL Tipo file]
+   * [!UICONTROL Stato bozza] (disponibile solo per le bozze)
    * [!UICONTROL Versione]
    * [!UICONTROL Dimensione]
-   * Dati modulo personalizzati
+   * Dati modulo personalizzato
 
 ## Visualizza dettagli bozza
 
-1. Fai clic sul pulsante **[!UICONTROL Menu]** nell&#39;angolo in alto a destra, quindi seleziona **[!UICONTROL Elenco lavori]**. È inoltre possibile utilizzare il menu per passare agli oggetti principali.
+1. Fai clic sull&#39;icona **[!UICONTROL Menu]** in alto a destra, quindi seleziona **[!UICONTROL Elenco lavori]**. È inoltre possibile utilizzare il menu per passare agli oggetti padre.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. Selezionare l&#39;elemento di lavoro che si desidera visualizzare.
+1. Selezionare l&#39;elemento di lavoro da visualizzare.
 
    >[!TIP]
    >
-   >Utilizza la **[!UICONTROL Menu]** per passare agli oggetti principali dell&#39;elemento di lavoro.
+   >Utilizza l&#39;icona **[!UICONTROL Menu]** per passare agli oggetti principali dell&#39;elemento di lavoro.
 
-1. Fai clic sul pulsante **[!UICONTROL Documento]** icona ![](assets/documents.png) nella barra di navigazione, fai doppio clic su una bozza.
+1. Fai clic sull&#39;icona **[!UICONTROL Documento]** ![](assets/documents.png) nella barra di navigazione, quindi fai doppio clic su una bozza.
 
-1. Fai clic sull’icona della freccia nell’angolo in alto a destra della miniatura per aprire i dettagli della bozza in [!DNL Workfront].
+1. Fare clic sull&#39;icona freccia nell&#39;angolo superiore destro della miniatura per aprire i dettagli della bozza in [!DNL Workfront].
 
 ![apri la pagina dei dettagli della bozza in Workfront.](assets/go-to-proof-details.png)
 
-## Visualizzazione dello stato di una bozza
+## Visualizzare lo stato di una bozza
 
-1. Fai clic sul pulsante **[!UICONTROL Menu]** nell&#39;angolo in alto a destra, quindi seleziona **[!UICONTROL Elenco lavori]**. È inoltre possibile utilizzare il menu per passare agli oggetti principali.
+1. Fai clic sull&#39;icona **[!UICONTROL Menu]** in alto a destra, quindi seleziona **[!UICONTROL Elenco lavori]**. È inoltre possibile utilizzare il menu per passare agli oggetti padre.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. Selezionare l&#39;elemento di lavoro che si desidera visualizzare.
+1. Selezionare l&#39;elemento di lavoro da visualizzare.
 
    >[!TIP]
    >
-   >Utilizza la **[!UICONTROL Menu]** per passare agli oggetti principali dell&#39;elemento di lavoro.
+   >Utilizza l&#39;icona **[!UICONTROL Menu]** per passare agli oggetti principali dell&#39;elemento di lavoro.
 
-1. Fai clic sul pulsante **[!UICONTROL Documento]** icona ![](assets/documents.png) nella barra di navigazione, fai doppio clic su una bozza.
+1. Fai clic sull&#39;icona **[!UICONTROL Documento]** ![](assets/documents.png) nella barra di navigazione, quindi fai doppio clic su una bozza.
 
-1. Scorri verso il basso per visualizzare lo stato corrente della bozza. Per ulteriori informazioni sui dettagli Inviato, Aperto, Commento, Decisione (SOCD), vedi [Panoramica dei dettagli del documento](/help/quicksilver/documents/managing-documents/document-details-overview.md).
+1. Scorri verso il basso per visualizzare lo stato corrente della bozza. Per ulteriori informazioni sui dettagli Inviato, Aperto, Commento, Decisione (SOCD), vedere [Panoramica dei dettagli del documento](/help/quicksilver/documents/managing-documents/document-details-overview.md).
 
 ![](assets/proof-status.png)
 
-## Visualizza sottoattività e problemi
+## Visualizza le sottoattività e i problemi
 
-1. Fai clic sul pulsante **[!UICONTROL Menu]** nell&#39;angolo in alto a destra, quindi seleziona **[!UICONTROL Elenco lavori]**. È inoltre possibile utilizzare il menu per passare agli oggetti principali.
+1. Fai clic sull&#39;icona **[!UICONTROL Menu]** in alto a destra, quindi seleziona **[!UICONTROL Elenco lavori]**. È inoltre possibile utilizzare il menu per passare agli oggetti padre.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. Selezionare l&#39;elemento di lavoro che si desidera visualizzare.
+1. Selezionare l&#39;elemento di lavoro da visualizzare.
 
    >[!TIP]
    >
-   >Utilizza la **[!UICONTROL Menu]** per passare agli oggetti principali dell&#39;elemento di lavoro.
+   >Utilizza l&#39;icona **[!UICONTROL Menu]** per passare agli oggetti principali dell&#39;elemento di lavoro.
 
-1. Fai clic sul pulsante **[!UICONTROL Problema]** icona ![](assets/issues.png) o **Sottoattività** icona ![](assets/subtasks.png).
+1. Fai clic sull&#39;icona **[!UICONTROL Problema]** ![](assets/issues.png) o **Sottoattività** ![](assets/subtasks.png).
 
-1. Seleziona l’attività o il problema, quindi fai clic sul pulsante **[!UICONTROL Dettagli]** icona ![](assets/details.png) nella barra di navigazione per visualizzare:
+1. Seleziona l&#39;attività o il problema, quindi fai clic sull&#39;icona **[!UICONTROL Dettagli]** ![](assets/details.png) nella barra di navigazione per visualizzare:
 
    * [!UICONTROL Data di completamento Pianificata]
    * [!UICONTROL Stato]
-   * [!UICONTROL Assegnazione a]
-   * Dati modulo personalizzati
+   * [!UICONTROL Assegnato a]
+   * Dati modulo personalizzato

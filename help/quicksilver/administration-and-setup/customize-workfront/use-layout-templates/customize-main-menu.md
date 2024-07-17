@@ -21,17 +21,17 @@ ht-degree: 4%
 
 In qualità di amministratore di Adobe Workfront o di un gruppo, puoi utilizzare un modello di layout per configurare le opzioni che gli utenti visualizzano all’apertura del menu principale in Workfront.
 
-![Opzioni del menu principale](assets/main-menu-with-blueprints-no-branding.png)
+![Opzioni menu principale](assets/main-menu-with-blueprints-no-branding.png)
 
 >[!NOTE]
 >
->Le opzioni del menu principale visualizzate dagli utenti dipendono dal tipo di licenza e dalle impostazioni configurate nel livello di accesso. Alcuni utenti che utilizzeranno questo modello di layout potrebbero non visualizzare tutte le opzioni selezionate. Per ulteriori informazioni, consulta [Funzionamento congiunto dei livelli di accesso e delle autorizzazioni](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) e [Accesso configurabile alle funzionalità per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+>Le opzioni del menu principale visualizzate dagli utenti dipendono dal tipo di licenza e dalle impostazioni configurate nel livello di accesso. Alcuni utenti che utilizzeranno questo modello di layout potrebbero non visualizzare tutte le opzioni selezionate. Per ulteriori informazioni, vedere [Funzionamento dei livelli di accesso e delle autorizzazioni](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) e [Accesso configurabile alle funzionalità per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 Per informazioni sulla creazione di modelli di layout, vedere [Creare e gestire modelli di layout](../use-layout-templates/create-and-manage-layout-templates.md).
 
 Per informazioni sui modelli di layout per i gruppi, vedere [Creare e modificare i modelli di layout di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Dopo aver configurato un modello di layout, è necessario assegnarlo agli utenti affinché le modifiche apportate siano visibili agli altri utenti. Per informazioni sull&#39;assegnazione di un modello di layout agli utenti, vedere [Assegnare utenti a un modello di layout](../use-layout-templates/assign-users-to-layout-template.md).
+Dopo aver configurato un modello di layout, è necessario assegnarlo agli utenti affinché le modifiche apportate siano visibili agli altri utenti. Per informazioni sull&#39;assegnazione di un modello di layout agli utenti, vedere [Assegnare gli utenti a un modello di layout](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Requisiti di accesso
 
@@ -69,7 +69,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 ## Personalizzare il menu principale
 
 1. Iniziare a lavorare su un modello di layout, come descritto in [Creare e gestire modelli di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Clic **Imposta menu principale** nell&#39;angolo superiore destro del modello.
+1. Fare clic su **Imposta menu principale** nell&#39;angolo superiore destro del modello.
 
    Viene visualizzata la casella Main Menu (Menu principale) che consente di visualizzare le aree attualmente visualizzate nel Main Menu (Menu principale) del modello, nonché gli elementi disponibili per l&#39;aggiunta. Di seguito sono riportati tutti gli elementi che è possibile aggiungere:
    * Home
@@ -89,14 +89,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
      >[!NOTE]
      >
-     >Scenario Planner richiede una licenza aggiuntiva. Per informazioni su Workfront Scenario Planner, consulta [Panoramica sulla pianificazione degli scenari](../../../scenario-planner/scenario-planner-overview.md).
+     >Scenario Planner richiede una licenza aggiuntiva. Per informazioni su Workfront Scenario Planner, vedere [Panoramica di Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
 
    * Team
    * Utenti
 
      >[!NOTE]
      >
-     >Solo gli utenti con una licenza Pianificazione (nel modello di licenza corrente) o gli utenti con una licenza Standard (nel nuovo modello di licenza) possono visualizzare l’area Utenti. ![](assets/users-icon-in-main-menu.png) nel menu principale.
+     >Solo gli utenti con una licenza Pianificazione (nel modello di licenza corrente) o gli utenti con una licenza Standard (nel nuovo modello di licenza) possono visualizzare l&#39;area Utenti ![](assets/users-icon-in-main-menu.png) nel menu principale.
 
    * Richieste
    * Schede orario
@@ -116,19 +116,19 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Effettua una delle seguenti operazioni:
 
-   * Nascondi ![](assets/remove-icon---x-in-circle.png) **Elementi attivi** che non si desidera visualizzare
-   * Spettacolo ![](assets/add-icon-plus-in-circle.png) **Elementi disponibili** che si desidera visualizzare nel menu principale.
-   * Trascina ![](assets/move-icon---dots.png) **Elementi attivi** per modificare l&#39;ordine di visualizzazione nel menu principale.
+   * Nascondi ![](assets/remove-icon---x-in-circle.png) **elementi attivi** che non desideri visualizzare
+   * Mostra ![](assets/add-icon-plus-in-circle.png) **Elementi disponibili** che si desidera visualizzare nel menu principale.
+   * Trascina ![](assets/move-icon---dots.png) **elementi attivi** per modificarne l&#39;ordine di visualizzazione nel menu principale.
 
-1. Clic **Fine**.
+1. Fai clic su **Fine**.
 
-   Puoi anche fare clic su **Annulla** in qualsiasi momento se si desidera ignorare le modifiche.
+   Puoi anche fare clic su **Annulla** in qualsiasi momento se desideri annullare le modifiche.
 
 1. Continuate a personalizzare il modello di layout.
 
    Oppure
 
-   Se hai finito di personalizzare, fai clic su **Salva**.
+   Se hai completato la personalizzazione, fai clic su **Salva**.
 
    >[!TIP]
    >

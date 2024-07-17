@@ -9,13 +9,13 @@ exl-id: 2f01566c-c3e0-4f59-bf53-2a67806a205c
 source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 # Aggiornare il tipo di durata di un&#39;attività
 
-Il tipo di durata di un&#39;attività identifica la relazione tra il numero di risorse assegnate a un&#39;attività, l&#39;impegno totale e la durata totale dell&#39;attività. Per ulteriori informazioni, consulta [Panoramica sulla durata e sul tipo di durata dell&#39;attività](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+Il tipo di durata di un&#39;attività identifica la relazione tra il numero di risorse assegnate a un&#39;attività, l&#39;impegno totale e la durata totale dell&#39;attività. Per ulteriori informazioni, vedere [Panoramica sulla durata e sul tipo di durata dell&#39;attività](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 ## Requisiti di accesso
 
@@ -39,12 +39,12 @@ Per modificare il tipo di durata di un&#39;attività, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire l’accesso all’attività </p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire l’accesso all’attività </p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Aggiornare il tipo di durata di un&#39;attività
 
@@ -55,9 +55,9 @@ Oltre ad aggiornare il Tipo di durata di un&#39;attività come descritto in ques
 
 Per aggiornare il Tipo di durata di un&#39;attività:
 
-1. Clic **Menu principale** > **Progetti**, quindi fai clic su un progetto per accedervi.
-1. Fai clic su **Attività** nel pannello a sinistra .
-1. Clic **Dettagli Attività** nel pannello a sinistra, quindi nell’area Panoramica fai clic su **Tipo di durata**.
+1. Fai clic su **Menu principale** > **Progetti**, quindi fai clic su un progetto per accedervi.
+1. Fai clic sulla sezione **Attività** nel pannello a sinistra.
+1. Fai clic su **Dettagli attività** nel pannello a sinistra, quindi nell&#39;area Panoramica fai clic su **Tipo di durata**.
 
    ![](assets/duration-type-all-options-on-overview-350x155.png)
 
@@ -65,9 +65,9 @@ Per aggiornare il Tipo di durata di un&#39;attività:
 
    | Tipo di Durata | Ulteriori informazioni |
    |---|---|
-   | Lavoro Calcolato | Per informazioni, consulta [Panoramica sul tipo di durata: lavoro calcolato](../../../manage-work/tasks/taskdurtn/calculated-work.md). |
-   | Impegno Aggiuntivo | Per informazioni, consulta [Panoramica sul tipo di durata: basata sulle risorse](../../../manage-work/tasks/taskdurtn/effort-driven.md). |
-   | Incarico Calcolato | Per informazioni, consulta [Panoramica sul tipo di durata: assegnazione calcolata](../../../manage-work/tasks/taskdurtn/calculated-assignment.md). |
-   | Semplice | Per informazioni, consulta [Panoramica sul tipo di durata: semplice](../../../manage-work/tasks/taskdurtn/simple-duration-type.md). |
+   | Lavoro Calcolato | Per informazioni, vedere [Panoramica del tipo di durata: Lavoro calcolato](../../../manage-work/tasks/taskdurtn/calculated-work.md). |
+   | Impegno Aggiuntivo | Per informazioni, vedere [Panoramica del tipo di durata: Basato sulle risorse](../../../manage-work/tasks/taskdurtn/effort-driven.md). |
+   | Incarico Calcolato | Per informazioni, vedere [Panoramica del tipo di durata: assegnazione calcolata](../../../manage-work/tasks/taskdurtn/calculated-assignment.md). |
+   | Semplice | Per informazioni, vedere [Panoramica del tipo di durata: semplice](../../../manage-work/tasks/taskdurtn/simple-duration-type.md). |
 
-1. Clic **Salva modifiche**.
+1. Fai clic su **Salva modifiche**.

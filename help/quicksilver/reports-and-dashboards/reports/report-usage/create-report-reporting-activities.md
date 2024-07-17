@@ -1,22 +1,22 @@
 ---
 product-area: reporting
-keywords: cambia, proprietario, condiviso, rapporto, condivisione, esecuzione, utente, accesso, diritti, inserito, ultimo, visualizzato, data, reporting, attività
+keywords: modifica,proprietario,condiviso,report,condivisione,esecuzione,utente,accesso,diritti,inserito,ultimo,visualizzato,data,report,attività
 navigation-topic: report-usage
 title: Creare un rapporto sulle attività di reporting
-description: Quando crei un rapporto sui rapporti, puoi identificare informazioni specifiche sui rapporti, che possono includere se i rapporti sono assegnati a utenti disattivati, se i rapporti sono impostati per essere eseguiti con i diritti di accesso di un utente disattivato, se gli utenti accedono a un rapporto che intendi eliminare e così via.
+description: Quando si crea un report sui report, è possibile identificare informazioni specifiche, che possono includere se i report sono assegnati a utenti disattivati, se i report sono impostati per l'esecuzione con i diritti di accesso di un utente disattivato, se gli utenti accedono a un report che si intende eliminare e così via.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3861ac81-d2e4-4dec-b9cd-96eee0b66a38
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 1%
+source-wordcount: '656'
+ht-degree: 0%
 
 ---
 
 # Creare un rapporto sulle attività di reporting
 
-Quando crei un rapporto sui rapporti, puoi identificare informazioni specifiche sui rapporti, che possono includere se i rapporti sono assegnati a utenti disattivati, se i rapporti sono impostati per essere eseguiti con i diritti di accesso di un utente disattivato, se gli utenti accedono a un rapporto che intendi eliminare e così via.
+Quando si crea un report sui report, è possibile identificare informazioni specifiche, che possono includere se i report sono assegnati a utenti disattivati, se i report sono impostati per l&#39;esecuzione con i diritti di accesso di un utente disattivato, se gli utenti accedono a un report che si intende eliminare e così via.
 
 ## Requisiti di accesso
 
@@ -27,7 +27,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
@@ -35,70 +35,70 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>Piano </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Accesso a rapporti, dashboard, calendari</p> <p>Modificare l’accesso a Filtri, Visualizzazioni, Gruppi</p> <p>Nota: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari</p> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
-## Creare un rapporto sui rapporti esistenti {#create-the-report-about-existing-reports}
+## Creare il rapporto sui rapporti esistenti {#create-the-report-about-existing-reports}
 
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront.
-1. Fai clic su **Rapporti**, quindi **Nuovo rapporto**.
-1. In **Nuovo rapporto** menu a discesa, seleziona **Rapporto** per creare un report sui report esistenti.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront.
+1. Fai clic su **Rapporti**, quindi su **Nuovo rapporto**.
+1. Nel menu a discesa **Nuovo report**, seleziona **Report** per creare un report sui report esistenti.
 
-1. In **Colonne (visualizzazione)** aggiungi le colonne desiderate nel rapporto.\
-   Alcuni dei campi seguenti possono essere utili:
+1. Nella scheda **Colonne (visualizzazione)**, aggiungi le colonne desiderate nel report.\
+   Alcuni dei seguenti campi possono essere utili:
 
    | Campo | Descrizione |
    |---|---|
-   | **Esegui come utente: Nome** | Questo è l&#39;utente specificato nel **Esegui questo rapporto con i diritti di accesso di:** sul report. Se l’utente è disattivato, il rapporto non viene visualizzato per gli utenti con cui è condiviso il rapporto. |
-   | **Condivisione con** | Sono tutte le entità con cui il rapporto è condiviso. |
-   | **Immesso da** | Questo è il proprietario del report. |
-   | **Data ultima visualizzazione** | Data e ora dell’ultima visualizzazione del rapporto da parte di un utente. |
+   | **Esegui come utente: Nome** | Questo è l&#39;utente specificato in **Esegui il report con i diritti di accesso di:** nel report. Se l&#39;utente è disattivato, il report non viene visualizzato per nessuno con cui è condiviso. |
+   | **Condiviso con** | Queste sono tutte le entità con cui è condiviso il report. |
+   | **Inserito da** | Questo è il proprietario del rapporto. |
+   | **Data ultima visualizzazione** | Data e ora dell&#39;ultima visualizzazione del report da parte di un utente. |
 
    {style="table-layout:auto"}
 
-1. (Facoltativo) Per limitare l&#39;elenco dei rapporti a specifici utenti disattivati:
+1. (Facoltativo) Per limitare l’elenco dei rapporti a specifici utenti disattivati:
 
-   1. Seleziona la **Filtri** scheda , quindi fai clic su **Aggiungere una regola filtro**.
+   1. Seleziona la scheda **Filtri**, quindi fai clic su **Aggiungi regola filtro**.
 
    1. Aggiungi il filtro **Esegui come ID utente** > **Uguale**.
 
-   1. Digitare il nome dell&#39;utente disattivato che si desidera aggiungere al filtro, quindi fare clic sul nome quando viene visualizzato nell&#39;elenco.
-   1. Ripetere il passaggio C finché non sono stati selezionati tutti gli utenti disattivati che si desidera includere nel rapporto.
+   1. Digita il nome dell’utente disattivato che desideri aggiungere al filtro, quindi fai clic sul nome quando viene visualizzato nell’elenco.
+   1. Ripetere il passaggio C fino a selezionare tutti gli utenti disattivati che si desidera includere nel rapporto.
 
-1. (Facoltativo) Per limitare l&#39;elenco dei report ai report pianificati:
+1. (Facoltativo) Per limitare l’elenco dei rapporti ai rapporti pianificati:
 
-   1. Seleziona la **Filtri** scheda , quindi fai clic su **Aggiungere una regola filtro**.
+   1. Seleziona la scheda **Filtri**, quindi fai clic su **Aggiungi regola filtro**.
 
-   1. Aggiungi il filtro **ID rapporto pianificato** > **Non vuoto**.
+   1. Aggiungi il filtro **ID report pianificato** > **Non è vuoto**.
 
-1. Fai clic su **Salva e chiudi**, quindi digita un nome per il rapporto e fai clic su **Salva rapporto**.
+1. Fai clic su **Salva + Chiudi**, quindi digita un nome per il report e fai clic su **Salva report**.
 
-   Vengono visualizzate le informazioni sul rapporto.
+   Vengono visualizzate le informazioni del rapporto.
 
-1. (Facoltativo) Esporta questo rapporto in Excel e salvalo sul computer.\
-   Per informazioni sull&#39;esportazione di un rapporto, vedi [Esportare i dati](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+1. (Facoltativo) Esporta il report in Excel e salvalo nel computer.\
+   Per informazioni sull&#39;esportazione di un report, vedere [Esporta dati](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
-## Aggiornare informazioni su un rapporto
+## Aggiornare le informazioni su un report
 
 Dopo aver creato il rapporto, puoi aggiornarlo in base alle esigenze.
 
-1. Passa al rapporto da aggiornare.
-1. A seconda dell’azione che desideri eseguire, effettua una delle seguenti operazioni:
+1. Vai al rapporto che desideri aggiornare.
+1. A seconda dell&#39;azione che si desidera eseguire, eseguire una delle operazioni seguenti:
 
-   * Aggiorna **Esegui questo rapporto con i diritti di accesso di:** a un utente attivo: Per ulteriori informazioni, consulta [Eseguire e distribuire un rapporto con i diritti di accesso di un altro utente](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md).
+   * Aggiornare **Esegui il report con i diritti di accesso di:** a un utente attivo: per ulteriori informazioni, vedere [Esegui e recapita un report con i diritti di accesso di un altro utente](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md).
 
-   * Crea una copia del rapporto: Per ulteriori informazioni, consulta [Creare una copia di un rapporto](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
-   * Eliminare un rapporto: per ulteriori informazioni, consulta [Creare una copia esatta di un rapporto](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#update2) sezione dell&#39;articolo [Creare una copia di un rapporto](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+   * Creare una copia del report: per ulteriori informazioni, vedere [Creare una copia di un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+   * Eliminare un report: per ulteriori informazioni, vedere la sezione [Creare una copia esatta di un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#update2) dell&#39;articolo [Creare una copia di un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
-   * Condivisione di un rapporto: per ulteriori informazioni, consulta [Condivisione di un rapporto in Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
+   * Condividi un report: per ulteriori informazioni, consulta [Condividi un report in Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
 
-1. (Condizionale) Se copi i rapporti originali, utilizza le informazioni del rapporto creato in [Creare un rapporto sui rapporti esistenti](#create-the-report-about-existing-reports) condividere le nuove copie con le stesse entità dei rapporti originali.
+1. (Condizionale) Se si copiano i report originali, utilizzare le informazioni del report creato in [Creare il report sui report esistenti](#create-the-report-about-existing-reports) per condividere le nuove copie con le stesse entità dei report originali.

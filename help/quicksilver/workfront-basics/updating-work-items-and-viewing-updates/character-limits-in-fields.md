@@ -30,7 +30,7 @@ Gli amministratori di Workfront o gruppi non possono modificare i limiti dei car
  <thead> 
   <tr> 
    <th> <p><strong>Tipo di campo</strong> </p> </th> 
-   <th> <p><strong>Limite carattere (</strong><strong>spazi inclusi)</strong> </p> </th> 
+   <th> <p><strong>Limite di caratteri (</strong><strong>spazi inclusi)</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 

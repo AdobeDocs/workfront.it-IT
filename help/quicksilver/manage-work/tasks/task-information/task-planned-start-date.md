@@ -2,36 +2,36 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Panoramica dell'attività Data inizio prevista
-description: La data di inizio pianificata di un'attività è la data in cui, in qualità di creatore dell'attività, si decide che il lavoro sull'attività deve iniziare. Le date delle attività pianificate influenzano le date e la cronologia del progetto. Per informazioni sul progetto Data inizio pianificata, vedere Panoramica della data di inizio prevista del progetto.
+title: Panoramica della data di inizio pianificata dell'attività
+description: La data di inizio pianificata di un'attività è la data in cui l'autore dell'attività decide che il lavoro sull'attività deve iniziare. Le date delle attività pianificate influiscono sulle date e sulla sequenza temporale del progetto. Per informazioni sulla data di inizio pianificata del progetto, vedere Panoramica della data di inizio pianificata del progetto.
 author: Alina
 feature: Work Management
 exl-id: 2ac6327f-4a13-4fb8-ad8e-03d032221483
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '633'
 ht-degree: 2%
 
 ---
 
-# Panoramica dell&#39;attività Data inizio prevista
+# Panoramica della data di inizio pianificata dell&#39;attività
 
-La data di inizio pianificata di un&#39;attività è la data in cui, in qualità di creatore dell&#39;attività, si decide che il lavoro sull&#39;attività deve iniziare. Le date delle attività pianificate influenzano le date e la cronologia del progetto. Per informazioni sulla data di inizio prevista del progetto, consulta [Panoramica del progetto Data di inizio prevista](../../../manage-work/projects/planning-a-project/project-planned-start-date.md).
+La data di inizio pianificata di un&#39;attività è la data in cui l&#39;autore dell&#39;attività decide che il lavoro sull&#39;attività deve iniziare. Le date delle attività pianificate influiscono sulle date e sulla sequenza temporale del progetto. Per informazioni sulla Data inizio pianificata del progetto, vedere [Panoramica della Data inizio pianificata del progetto](../../../manage-work/projects/planning-a-project/project-planned-start-date.md).
 
 ## Data di inizio pianificata di un&#39;attività
 
-È possibile specificare la data di inizio pianificata di un&#39;attività oppure lasciare ad Adobe Workfront il compito di calcolarla in base a determinati criteri. 
+È possibile specificare la data di inizio pianificata di un&#39;attività oppure lasciare che sia Adobe Workfront a calcolarla in base a determinati criteri. 
 
 * [Impostare manualmente la data di inizio pianificata di un&#39;attività](#manually-set-the-planned-start-date-of-a-task)
-* [Calcolo della data di inizio prevista per un&#39;attività](#how-the-planned-start-date-is-calculated-for-a-task)
+* [Calcolo della data di inizio pianificata per un&#39;attività](#how-the-planned-start-date-is-calculated-for-a-task)
 
 ### Impostare manualmente la data di inizio pianificata di un&#39;attività {#manually-set-the-planned-start-date-of-a-task}
 
-L&#39;impostazione della data di inizio pianificata di un&#39;attività dipende dal tipo di Vincolo attività assegnato all&#39;attività. 
+L&#39;impostazione della data di inizio pianificata di un&#39;attività dipende dal tipo di vincolo attività assegnato all&#39;attività. 
 
-È possibile impostare manualmente la data di inizio pianificata durante la creazione di un&#39;attività, come descritto nell&#39;articolo [Creazione di attività in un progetto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+È possibile impostare manualmente la Data inizio pianificata durante la creazione di un&#39;attività, come descritto nell&#39;articolo [Creare attività in un progetto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-È possibile specificare manualmente la data di inizio pianificata quando si seleziona uno dei seguenti vincoli di attività: 
+È possibile specificare manualmente la Data inizio pianificata quando si seleziona uno dei seguenti vincoli di task: 
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -45,51 +45,51 @@ L&#39;impostazione della data di inizio pianificata di un&#39;attività dipende 
  <tbody> 
   <tr> 
    <td> <p>Deve ininziare al</p> <p>Iniziare non Prima di</p> <p>Iniziare non Dopo di</p> </td> 
-   <td> <p><span class="s1">La data di completamento pianificata viene modificata in modo da mantenere uguale la durata.</span> </p> </td> 
+   <td> <p><span class="s1">La data di completamento pianificata viene modificata per mantenere la durata invariata.</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Dati Fissi</p> </td> 
-   <td> <p>La durata viene modificata in modo da mantenere uguale la data di completamento pianificata.</p> </td> 
+   <td> <p>La Durata viene adeguata in modo da mantenere la stessa Data di completamento pianificata.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Calcolo della data di inizio prevista per un&#39;attività {#how-the-planned-start-date-is-calculated-for-a-task}
+### Calcolo della data di inizio pianificata per un&#39;attività {#how-the-planned-start-date-is-calculated-for-a-task}
 
-Quando viene calcolato automaticamente dal sistema, quanto segue può influenzare la Data di inizio pianificata di un&#39;attività:
+Quando viene calcolato automaticamente dal sistema, le seguenti operazioni possono influenzare la Data inizio pianificata di un&#39;attività:
 
-* Impostazione della preferenza Data inizio nell&#39;area Attività e problemi in Configurazione
+* Impostazione della preferenza Data di inizio nell&#39;area Attività e problemi in Configurazione
 
-   L’amministratore di Workfront o di gruppo può determinare se una nuova attività viene avviata nella stessa data della data di inizio pianificata del progetto o nel giorno in cui viene creata l’attività.
+  L&#39;amministratore del Workfront o del gruppo può determinare se una nuova attività inizia nella stessa data della data di inizio pianificata del progetto o nel giorno in cui viene creata.
 
-   Per informazioni sulle preferenze Attività e problemi, consulta [Configurare le preferenze relative alle attività e ai problemi a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Per informazioni sulle preferenze per attività e problemi, vedere [Configurare le preferenze per attività e problemi a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 * Vincolo attività
 
-   Per ulteriori informazioni sui vincoli di attività, consulta l’articolo [Panoramica sul vincolo di attività](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)
+  Per ulteriori informazioni sui vincoli attività, vedere l&#39;articolo [Panoramica sui vincoli attività](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)
 
 * Relazione predecessore attività
 
-   Per ulteriori informazioni sui predecessori delle attività, consulta l’articolo [Panoramica dei predecessori delle attività](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+  Per ulteriori informazioni sui predecessori delle attività, vedere l&#39;articolo [Panoramica sui predecessori delle attività](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
-* Data inizio progetto, quando il progetto è programmato dalla data di inizio.
-* Tempo di programmazione dell&#39;assegnatario principale dell&#39;attività.
+* Data di inizio progetto, quando il progetto è programmato dalla Data di inizio.
+* L&#39;indisponibilità della programmazione dell&#39;assegnatario principale dell&#39;attività.
 
-   Quando l&#39;Assegnatario principale ha un tempo di inattività programmato durante la durata dell&#39;attività, le date pianificate dell&#39;attività si adeguano di conseguenza quando il **Considerare il tempo di inattività dell&#39;utente nelle durate delle attività** è selezionata per **Ora di disattivazione utente** campo . I nuovi progetti ereditano questa impostazione dall’area Preferenze progetto , ma è possibile modificarla a livello di progetto.
+  Quando l&#39;assegnatario principale ha un&#39;indisponibilità programmata durante la durata dell&#39;attività, le date pianificate dell&#39;attività vengono modificate di conseguenza quando per il campo **Indisponibilità utente** è selezionata l&#39;impostazione **Considera indisponibilità utente nelle durate dell&#39;attività**. I nuovi progetti ereditano questa impostazione dall’area Preferenze progetto, ma è possibile modificarla a livello di progetto.
 
-   Ad esempio, se è previsto che un&#39;attività con un vincolo il più presto possibile inizi il 1° giugno e venga completata il 3 giugno, e il primo assegnatario principale contrassegni il 1° giugno per il timeout, l&#39;attività Data inizio pianificata diventerà il 2 giugno.
+  Ad esempio, se un&#39;attività con un vincolo Il più presto possibile è programmata per iniziare il 1° giugno e completare il 3 giugno e l&#39;assegnatario principale ha il 1° giugno contrassegnato per l&#39;indisponibilità, la data di inizio pianificata dell&#39;attività diventa il 2 giugno.
 
-   Per informazioni sulla **Ora di disattivazione utente** preferenza, vedere gli articoli  [Configurare le preferenze del progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) o [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
+  Per informazioni sulla preferenza **Indisponibilità utente**, consulta gli articoli [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) o [Modificare i progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-Quando viene impostata automaticamente, la data di inizio pianificata viene determinata in base al seguente calcolo: 
+Quando viene impostata automaticamente, la Data inizio pianificata viene determinata in base al seguente calcolo: 
 
 ```
 Planned Start Date = Planned Completion Date - Task Duration
 ```
 
-Ad esempio, se l’attività ha una data di completamento del 16 settembre e una durata di 10 giorni, la data di inizio prevista è il 6 settembre.
+Ad esempio, se l&#39;attività ha una data di completamento del 16 settembre e una durata di 10 giorni, la data di inizio pianificata è il 6 settembre.
 
 >[!NOTE]
 >
-> Il tipo di aggiornamento del progetto deve essere impostato anche su &quot;Automatico e al momento della modifica&quot; o su &quot;Automatico&quot; affinché le ore e la durata previste vengano regolate automaticamente.\
-Per ulteriori informazioni sul tipo di aggiornamento, consulta l’articolo [Seleziona il tipo di aggiornamento del progetto](../../../manage-work/projects/manage-projects/select-project-update-type.md).
+> Per poter regolare automaticamente le ore e la durata pianificate, il tipo di aggiornamento per il progetto deve essere impostato anche su Automatico e su In modifica o Automaticamente.\
+>Per ulteriori informazioni sul tipo di aggiornamento, vedere l&#39;articolo [Selezionare il tipo di aggiornamento del progetto](../../../manage-work/projects/manage-projects/select-project-update-type.md).

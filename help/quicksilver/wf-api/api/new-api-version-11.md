@@ -9,7 +9,7 @@ role: Developer
 exl-id: b8826dc6-9791-49f6-923d-5a0c5392a8b0
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '3600'
+source-wordcount: '3573'
 ht-degree: 2%
 
 ---
@@ -234,48 +234,48 @@ Nessuna risorsa rimossa per API v11.
   <tr> 
    <td> 
     <ul> 
-     <li><a href="#accesslevelpermissions" class="MCXref xref">AccessLevelPermissions</a> </li> 
-     <li><a href="#accessrequest" class="MCXref xref">AccessRequest</a> </li> 
-     <li><a href="#accessrule" class="MCXref xref">AccessRule</a> </li> 
-     <li><a href="#approval" class="MCXref xref">Approval</a> </li> 
-     <li><a href="#approvalpath" class="MCXref xref">ApprovalPath</a> </li> 
-     <li><a href="#approvalprocess" class="MCXref xref">ApprovalProcess</a> </li> 
+     <li><a href="#accesslevelpermissions" class="MCXref xref">AutorizzazioniLivelloAccesso</a> </li> 
+     <li><a href="#accessrequest" class="MCXref xref">Richiesta di accesso</a> </li> 
+     <li><a href="#accessrule" class="MCXref xref">RegolaAccesso</a> </li> 
+     <li><a href="#approval" class="MCXref xref">Approvazione</a> </li> 
+     <li><a href="#approvalpath" class="MCXref xref">PercorsoApprovazione</a> </li> 
+     <li><a href="#approvalprocess" class="MCXref xref">ProcessoApprovazione</a> </li> 
      <li><a href="#assignment" class="MCXref xref">Assegnazione</a> </li> 
      <li><a href="#baselinetask" class="MCXref xref">AttivitàPrevista</a> </li> 
      <li><a href="#category" class="MCXref xref">Categoria</a> </li> 
-     <li><a href="#company" class="MCXref xref">Azienda</a> </li> 
+     <li><a href="#company" class="MCXref xref">Società</a> </li> 
      <li><a href="#customenum" class="MCXref xref">EnumPersonalizzata</a> </li> 
      <li><a href="#customer" class="MCXref xref">Cliente</a> </li> 
      <li><a href="#customerpreferences" class="MCXref xref">PreferenzeCliente</a> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li><a href="#docmetadatalinkgroup" class="MCXref xref">DocMetadataLinkGroup</a> </li> 
+     <li><a href="#docmetadatalinkgroup" class="MCXref xref">GruppoCollegamentoMetadatiDoc</a> </li> 
      <li><a href="#document" class="MCXref xref">Documento</a> </li> 
      <li><a href="#iteration" class="MCXref xref">Iterazione</a> </li> 
      <li><a href="#layout-template" class="MCXref xref">Modello di layout</a> </li> 
      <li><a href="#milestonepath" class="MCXref xref">PercorsoMilestone</a> </li> 
      <li><a href="#note" class="MCXref xref">Nota</a> </li> 
-     <li><a href="#optask" class="MCXref xref">OpTask</a> </li> 
+     <li><a href="#optask" class="MCXref xref">AttivitàOperativa</a> </li> 
      <li><a href="#parameter" class="MCXref xref">Parametro</a> </li> 
      <li><a href="#portfolio" class="MCXref xref">Portfolio</a> </li> 
      <li><a href="#program" class="MCXref xref">Programma</a> </li> 
      <li><a href="#project" class="MCXref xref">Progetto</a> </li> 
-     <li><a href="#proofapproval" class="MCXref xref">ProofApproval</a> </li> 
+     <li><a href="#proofapproval" class="MCXref xref">ApprovazioneBozza</a> </li> 
      <li><a href="#queuedef" class="MCXref xref">DefCoda</a> </li> 
-     <li><a href="#reservedtime" class="MCXref xref">ReservedTime</a> </li> 
+     <li><a href="#reservedtime" class="MCXref xref">OraRiservata</a> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li><a href="#resourceplannerfilter" class="MCXref xref">ResourcePlannerFilter</a> </li> 
+     <li><a href="#resourceplannerfilter" class="MCXref xref">FiltroPianificazioneRisorse</a> </li> 
      <li><a href="#risk" class="MCXref xref">Rischio</a> </li> 
      <li><a href="#scheduledreport" class="MCXref xref">ScheduledReport</a> </li> 
-     <li><a href="#scorecardquestion" class="MCXref xref">ScoreCardQuestion</a> </li> 
+     <li><a href="#scorecardquestion" class="MCXref xref">DomandaScorecard</a> </li> 
      <li><a href="#task" class="MCXref xref">Attività</a> </li> 
      <li><a href="#team" class="MCXref xref">Team</a> </li> 
      <li><a href="#template" class="MCXref xref">Modello</a> </li> 
      <li><a href="#templateassignment" class="MCXref xref">AssegnazioneModello</a> </li> 
-     <li><a href="#templatetask" class="MCXref xref">TemplateTask</a> </li> 
+     <li><a href="#templatetask" class="MCXref xref">AttivitàModello</a> </li> 
      <li><a href="#timesheet" class="MCXref xref">Scheda orario</a> </li> 
      <li><a href="#update" class="MCXref xref">Aggiorna</a> </li> <!--
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#user" class="MCXref xref">User</a> </li>
@@ -347,7 +347,7 @@ Un oggetto AccessRule rappresenta un set di regole nei livelli di accesso person
  </tbody> 
 </table>
 
-### Approval {#approval}
+### Approvazione {#approval}
 
 Per un determinato elemento di lavoro, ad esempio un&#39;attività, un documento o una scheda orario, può essere necessario che un supervisore o un altro utente approvi l&#39;elemento di lavoro. Un oggetto Approval rappresenta l&#39;azione di approvazione di un elemento di lavoro.
 
@@ -832,7 +832,7 @@ Un oggetto Parameter è un campo personalizzato.
    <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>displayType</p> <p style="font-weight: normal;">È stato aggiunto il possibile valore TYAH (automatico).</p> </li> 
-     <li style="font-weight: bold;"> <p>refObjCode </p> <p style="font-weight: normal;">Questo campo è stato aggiunto e fa riferimento al codice oggetto di un oggetto di riferimento. I codici oggetto per tutti gli oggetti si trovano nel <a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.  </p> </li> 
+     <li style="font-weight: bold;"> <p>refObjCode </p> <p style="font-weight: normal;">Questo campo è stato aggiunto e fa riferimento al codice oggetto di un oggetto di riferimento. I codici oggetto per tutti gli oggetti sono disponibili in <a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

@@ -9,7 +9,7 @@ role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Un abbonamento può avere anche altri attributi, come il proprio ID univoco e la
 
 ## È possibile selezionare gli eventi da inviare a un endpoint in base a determinati criteri all’interno di un payload di eventi?
 
-I filtri di abbonamento agli eventi consentono di ordinare i sottoeventi in base a criteri specifici. È consigliabile applicare filtri alle sottoscrizioni di eventi, in quanto ciò potrebbe ridurre in modo significativo il numero di messaggi che un endpoint deve utilizzare. Per ulteriori informazioni, consulta [Filtro abbonamento eventi](../../wf-api/general/event-subs-api.md#event).
+I filtri di abbonamento agli eventi consentono di ordinare i sottoeventi in base a criteri specifici. È consigliabile applicare filtri alle sottoscrizioni di eventi, in quanto ciò potrebbe ridurre in modo significativo il numero di messaggi che un endpoint deve utilizzare. Per ulteriori informazioni, vedere [Filtro sottoscrizioni eventi](../../wf-api/general/event-subs-api.md#event).
 
 ## Perché l’API restituisce un codice di risposta ai conflitti 409?
 
@@ -45,12 +45,12 @@ Se tenti di creare una sottoscrizione evento e ricevi un codice di risposta: con
 
 Cerca i seguenti scenari e utilizza la soluzione consigliata:
 
-* Assicurati che l’endpoint della sottoscrizione, definito da **url** campo—restituisce un codice di risposta HTTP 2XX. In caso contrario, contattare il supporto Workfront o visitare il sito Web all&#39;indirizzo [Requisiti di consegna dell’abbonamento agli eventi](../../wf-api/general/setup-event-sub-endpoint.md).
+* Verifica che l&#39;endpoint della sottoscrizione, definito dal campo **url**, restituisca un codice di risposta HTTP 2XX. In caso contrario, contattare il supporto tecnico Workfront o vedere [Requisiti di consegna dell&#39;abbonamento agli eventi](../../wf-api/general/setup-event-sub-endpoint.md).
 
-* Timeout della richiesta di consegna dell’evento prima del completamento. Assicurati che l’endpoint risponda in modo coerente entro 5 secondi. Timeout predefinito impostato per la richiesta HTTP per la consegna di un messaggio di abbonamento agli eventi. Se l’endpoint non risponde entro 5 secondi, contatta il supporto Workfront o consulta [Requisiti di consegna dell’abbonamento agli eventi](../../wf-api/general/setup-event-sub-endpoint.md).
+* Timeout della richiesta di consegna dell’evento prima del completamento. Assicurati che l’endpoint risponda in modo coerente entro 5 secondi. Timeout predefinito impostato per la richiesta HTTP per la consegna di un messaggio di abbonamento agli eventi. Se l&#39;endpoint non risponde entro 5 secondi, contatta il supporto Workfront o vedi [Requisiti di consegna dell&#39;abbonamento agli eventi](../../wf-api/general/setup-event-sub-endpoint.md).
 * Gli eventi potrebbero non generare il modo in cui pensi. Assicurati di non fare supposizioni su come e quando attivare gli eventi. Ad esempio, si potrebbe pensare che l&#39;aggiornamento di un documento su un&#39;attività generi un evento di aggiornamento dell&#39;attività, ma genera invece un evento di creazione o aggiornamento del documento.
 * L’abbonamento potrebbe non essere configurato come previsto. Puoi creare sottoscrizioni di eventi in ambienti diversi e aspettarti che vengano trasferite come fanno gli altri dati di Workfront. Tuttavia, i dati di abbonamento agli eventi non sono configurati per essere copiati o promossi in altri ambienti. Assicurati di inviare richieste API all’ambiente corretto e che gli abbonamenti in tale ambiente siano configurati come previsto.
-* Il payload non è stato ricevuto perché l&#39;indirizzo IP Workfront necessario non è stato aggiunto al inserisco nell&#39;elenco Consentiti di sul firewall. Gli eventi di abbonamento agli eventi vengono inviati solo da alcuni indirizzi IP. Assicurati che la rete di destinazione disponga di tutte le eccezioni IP necessarie per ricevere payload da Workfront Event Subscriptions.
+* Il payload non è stato ricevuto perché l&#39;indirizzo IP di Workfront necessario non è stato aggiunto al inserisco nell&#39;elenco Consentiti di sul firewall. Gli eventi di abbonamento agli eventi vengono inviati solo da alcuni indirizzi IP. Assicurati che la rete di destinazione disponga di tutte le eccezioni IP necessarie per ricevere payload da Workfront Event Subscriptions.
 
 ## Perché i miei messaggi richiedono un tempo eccessivo per raggiungere il mio endpoint?
 
@@ -73,11 +73,11 @@ Alcuni dei seguenti scenari potrebbero essere responsabili:
 
 ## Cosa devo fare se ricevo uno stato di risposta 500 quando tento di chiamare l’API di abbonamento agli eventi?
 
-Contatta il supporto Workfront. Per informazioni su come contattare il supporto, consulta [Contatta l’Assistenza clienti](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+Contatta il supporto Workfront. Per informazioni su come contattare il supporto, vedere [Contattare l&#39;Assistenza clienti](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 ## Quali diversi tipi di autenticazione è possibile utilizzare con gli abbonamenti agli eventi di Workfront?
 
-Puoi utilizzare qualsiasi autenticazione che utilizza un token Bearer. Il **authToken** di un abbonamento è una stringa che rappresenta un token Bearer OAuth2 utilizzato per l’autenticazione con l’URL specificato in **url** campo. In teoria, questo valore di token potrebbe essere qualsiasi cosa, purché l’endpoint di destinazione sia consapevole di come gestire la sua codifica, che è **utf-8**.
+Puoi utilizzare qualsiasi autenticazione che utilizza un token Bearer. Il campo **authToken** di una sottoscrizione è una stringa che rappresenta un token Bearer OAuth2 utilizzato per l&#39;autenticazione con l&#39;URL specificato nel campo **url**. In teoria, questo valore di token potrebbe essere qualsiasi cosa, purché l&#39;endpoint di destinazione sia consapevole di come gestire la propria codifica, che è **utf-8**.
 
 ## Quanto tempo deve trascorrere prima che io riceva il payload dell’evento da Workfront Event Subscriptions?
 
@@ -85,12 +85,12 @@ In generale, puoi aspettarti di ricevere le richieste di consegna degli eventi d
 
 ## Risorse aggiuntive
 
-* **Documentazione API**: [API di abbonamento agli eventi](../../wf-api/general/event-subs-api.md)
+* **Documentazione API**: [API sottoscrizione evento](../../wf-api/general/event-subs-api.md)
 
-* **Best practice**: [Best practice per l’abbonamento agli eventi](../../wf-api/general/event-sub-best-practice.md)
+* **Best practice**: [Best practice per l&#39;abbonamento agli eventi](../../wf-api/general/event-sub-best-practice.md)
 
-* **Campi che attivano i payload di sottoscrizioni di eventi**: [Campi delle risorse di abbonamento agli eventi](../../wf-api/api/event-sub-resource-fields.md)
+* **Campi che attivano i payload della sottoscrizione eventi**: [Campi delle risorse della sottoscrizione eventi](../../wf-api/api/event-sub-resource-fields.md)
 
-* **Informazioni sui nuovi tentativi di abbonamento agli eventi**: [Nuovi tentativi di abbonamento agli eventi](../../wf-api/api/event-sub-retries.md)
+* **Informazioni sui nuovi tentativi di sottoscrizione eventi**: [Nuovi tentativi di sottoscrizione eventi](../../wf-api/api/event-sub-retries.md)
 
-* **Configurazione del firewall per Workfront**: [Configurare il inserisco nell&#39;elenco Consentiti di configurazione del firewall per l’accesso a un sistema di protezione da attacchi di tipo](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
+* **Configurazione del firewall per Workfront**: [Configurazione del inserisco nell&#39;elenco Consentiti di configurazione del firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)

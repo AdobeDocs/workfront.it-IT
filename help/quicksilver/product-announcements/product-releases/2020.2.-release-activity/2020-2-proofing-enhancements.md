@@ -26,13 +26,13 @@ Per un elenco di tutte le modifiche disponibili con la versione 2020.2, consulta
 >
 >Questa funzione è stata originariamente comunicata come parte della versione 2020.1 di, ma è stata rimossa dalla versione prima del rilascio in produzione.
 
-Se il firewall o il server di posta è configurato in modo da consentire l&#39;accesso solo a fornitori specifici, è necessario aggiungere il seguente URL aggiuntivo al inserisco nell&#39;elenco Consentiti di verifica per assicurarsi che gli utenti dell&#39;organizzazione possano visualizzare le bozze all&#39;interno di Workfront sia nel visualizzatore di bozze del browser che nel visualizzatore di bozze del desktop:
+Se il firewall o il server di posta è configurato in modo da consentire l&#39;accesso solo a fornitori specifici, è necessario aggiungere il seguente URL aggiuntivo al inserisco nell&#39;elenco Consentiti per garantire che gli utenti dell&#39;organizzazione possano visualizzare le bozze in Workfront sia nel visualizzatore di bozze del browser che nel visualizzatore di bozze del desktop:
 
 &#42;.workfront.com
 
-Il &#42;Anche l’URL proofhq.com è obbligatorio.
+Anche l&#39;URL &#42;proofhq.com è obbligatorio.
 
-Per ulteriori informazioni sull’aggiornamento del inserisco nell&#39;elenco Consentiti di, consulta [Configurare il inserisco nell&#39;elenco Consentiti di configurazione del firewall per l’accesso a un sistema di protezione da attacchi di tipo](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Per ulteriori informazioni sull&#39;aggiornamento del inserisco nell&#39;elenco Consentiti di installazione del firewall, vedere [Configurare il inserisco nell&#39;elenco Consentiti di installazione del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 Questo aggiornamento si applica solo alla verifica in Workfront; non si applica quando si utilizza l’applicazione autonoma Workfront Proof.
 

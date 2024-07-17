@@ -25,10 +25,12 @@ Salvo diversa indicazione, questi miglioramenti saranno resi disponibili nell’
 
 Per mantenere una soluzione di elaborazione delle bozze solida e scalabile, stiamo modificando i tipi di file di Microsoft Office supportati e i limiti di dimensione dei file.
 
-I seguenti tipi di file di Office non sono più supportati come bozze: XLT, XLTX, DOT, DOTX, POT, POTX, PPS, PPSX
+I seguenti tipi di file di Office non sono più supportati come bozze:
+XLT, XLTX, DOT, DOTX, POT, POTX, PPS, PPSX
 
-Gli utenti possono continuare a creare bozze per i seguenti tipi di file di Office: DOC, DOCX, PPT, PPTX, XLS, XLSX
+Gli utenti possono continuare a creare bozze per i seguenti tipi di file di Office:
+DOC, DOCX, PPT, PPTX, XLS, XLSX
 
 Il limite di dimensione per i file di PowerPoint e Word è ora di 512 MB.
 
-Per ulteriori informazioni, consulta [Panoramica dei tipi di file di verifica supportati e dei limiti di dimensione](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md).
+Per ulteriori informazioni, vedere [Panoramica sui tipi di file di verifica supportati e sui limiti di dimensione](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md).

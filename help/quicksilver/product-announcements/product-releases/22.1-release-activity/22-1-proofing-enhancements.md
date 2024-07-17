@@ -25,7 +25,7 @@ in January 2022
 
 la settimana del 17 gennaio 2022.
 
-Per un elenco di tutte le modifiche disponibili con la versione 22.1, consulta [Panoramica sulla versione 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 22.1, consulta la [panoramica sulla versione 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Funzionalità di verifica migliorate per revisori e richiedenti
 
@@ -56,11 +56,11 @@ Abbiamo semplificato la firma elettronica delle bozze da parte degli utenti. Ora
 
 >[!IMPORTANT]
 >
->Per firmare elettronicamente una bozza con le credenziali SSO, è necessario impostare SSO in Workfront Proof. Per ulteriori informazioni sull&#39;abilitazione dell&#39;SSO, vedere [Configurare il Single Sign-On per gli utenti di Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md).
+>Per firmare elettronicamente una bozza con le credenziali SSO, è necessario configurare SSO in Workfront Proof. Per ulteriori informazioni sull&#39;abilitazione dell&#39;SSO, vedere [Configurare Single Sign-On per gli utenti di Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md).
 
-In precedenza, gli utenti dovevano utilizzare le credenziali Workfront Proof, che sono diverse dalle credenziali Workfront.
+In precedenza, gli utenti dovevano utilizzare credenziali Workfront Proof diverse dalle credenziali Workfront.
 
-Per ulteriori informazioni, consulta [Panoramica sulla sicurezza delle bozze](../../../review-and-approve-work/proofing/proofing-overview/proof-security-overview.md).
+Per ulteriori informazioni, consulta [Panoramica sulla sicurezza della bozza](../../../review-and-approve-work/proofing/proofing-overview/proof-security-overview.md).
 
 ## Aggiornamento visualizzatore desktop
 
@@ -68,6 +68,6 @@ Abbiamo aggiornato il Visualizzatore bozze desktop per supportare fino alla vers
 
 >[!IMPORTANT]
 >
->Gli utenti di Windows devono reinstallare manualmente il visualizzatore desktop per eseguire l&#39;aggiornamento alla versione più recente. In seguito, gli aggiornamenti futuri al Visualizzatore bozze desktop saranno automatici. Per informazioni sulla reinstallazione, vedere [Installare il Visualizzatore bozze desktop](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+>Gli utenti di Windows devono reinstallare manualmente il visualizzatore desktop per eseguire l&#39;aggiornamento alla versione più recente. In seguito, gli aggiornamenti futuri al Visualizzatore bozze desktop saranno automatici. Per informazioni sulla reinstallazione, vedere [Installare Desktop Proofing Viewer](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
 
 Gli utenti di Mac verranno aggiornati automaticamente alla versione più recente.

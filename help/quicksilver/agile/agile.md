@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # Agile
 
-[!DNL Adobe Workfront] offre diversi strumenti per definire flussi di lavoro agili. Le bacheche sono strumenti semplici ma flessibili per la collaborazione in team. Gli strumenti di pianificazione agile legacy includono un backlog e uno storyboard per i team Kanban o Scrum.
+[!DNL Adobe Workfront] offre diversi strumenti per aiutarti a definire flussi di lavoro agili. Le bacheche sono strumenti semplici ma flessibili per la collaborazione in team. Gli strumenti di pianificazione agile legacy includono un backlog e uno storyboard per i team Kanban o Scrum.
 
 Questa sezione contiene le seguenti sottosezioni:
 

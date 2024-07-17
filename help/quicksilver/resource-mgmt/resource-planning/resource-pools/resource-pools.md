@@ -21,8 +21,8 @@ I pool di risorse sono insiemi di utenti che consentono di gestire le risorse in
 Gli articoli seguenti descrivono la funzionalità di utilizzo dei pool di risorse per gestire i progetti in Adobe Workfront.
 
 * [Panoramica sui pool di risorse](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
-* [Creare i pool di risorse](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
-* [Associare i pool di risorse a progetti e modelli](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md)
+* [Crea pool di risorse](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
+* [Associa i pool di risorse a progetti e modelli](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md)
 * [Associa i pool di risorse agli utenti](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
 * [Rimuovere utenti dai pool di risorse](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
 

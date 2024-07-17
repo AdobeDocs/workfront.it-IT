@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione del quarto trimestre 2023 di Financial Management. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione con la versione 23.10.
 
-Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rilascio del quarto trimestre del 2023, consulta [Panoramica sulla versione del quarto trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+Per un elenco di tutte le modifiche disponibili in questo momento nel ciclo di rilascio del quarto trimestre 2023, consulta [Panoramica sulla versione del quarto trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
 ## Data costo effettivo e tariffe di fatturazione
 
@@ -26,6 +26,6 @@ Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rila
 
 Le tariffe di costo e fatturazione effettive per data sono ora disponibili per gli oggetti società, utente e mansione in Workfront. Quando a un progetto vengono applicati i tassi di validità della data e le ore vengono registrate nelle attività del progetto, i costi e i ricavi vengono calcolati utilizzando i tassi specificati per ogni periodo di tempo.
 
-Per ulteriori informazioni, consulta [Modificare il profilo di un utente](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md), [Creare e gestire le mansioni](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md), e [Panoramica su fatturazione e ricavi](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Per ulteriori informazioni, vedere [Modificare il profilo di un utente](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md), [Creare e gestire ruoli](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) e [Panoramica su fatturazione e ricavi](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
-[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3424915/){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità.](https://video.tv.adobe.com/v/3424915/){target=_blank}

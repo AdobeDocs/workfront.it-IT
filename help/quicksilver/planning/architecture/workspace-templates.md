@@ -31,13 +31,13 @@ role: User
 
 In Adobe Workfront Planning, un&#39;area di lavoro è una raccolta di tipi di record utilizzati da un team e rappresenta il ciclo di vita del lavoro del team.
 
-Workfront Planning include un set di modelli per iniziare a utilizzare i tipi di record e i campi di base durante la creazione dell&#39;area di lavoro. Per informazioni sulla creazione delle aree di lavoro, consulta [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
+Workfront Planning include un set di modelli per iniziare a utilizzare i tipi di record e i campi di base durante la creazione dell&#39;area di lavoro. Per informazioni sulla creazione di aree di lavoro, vedere [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
 
 Questo articolo descrive i modelli di area di lavoro disponibili in Adobe Workfront Planning.
 
 ## Considerazioni sui modelli di Adobe Workfront Planning
 
-* Ogni modello include un set di tipi di record. Per informazioni, consulta [Panoramica sui tipi di record](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+* Ogni modello include un set di tipi di record. Per informazioni, vedere [Panoramica sui tipi di record](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 * I tipi di record di ogni modello sono organizzati nelle sezioni seguenti:
 
    * Tipi di record operativi
@@ -111,7 +111,7 @@ Di seguito sono riportati i modelli di area di lavoro in Workfront Planning e il
       * **Marchi**: 6 campi
       * **Prodotti**: 5 campi
 
-* **Avanzato: Marketing Management**: adatto ai team pronti ad esplorare strategie di marketing più sfaccettate. Il modello include i tipi di record e il numero di campi seguenti, inclusi i campi collegati ad altri tipi di record:
+* **Avanzate: Gestione marketing**: adatte ai team pronti per esplorare strategie di marketing con più sfumature. Il modello include i tipi di record e il numero di campi seguenti, inclusi i campi collegati ad altri tipi di record:
 
    * Tipi di record operativi:
 
@@ -120,9 +120,9 @@ Di seguito sono riportati i modelli di area di lavoro in Workfront Planning e il
 
    * Tassonomie:
       * **Aree geografiche**: 1 campo
-      * **Fasi Percorso cliente**: 4 campi
+      * **Fasi Percorso clienti**: 4 campi
       * **Tipi di pubblico**: 8 campi
-      * **Deliverables**: 12 campi
+      * **Risultati finali**: 12 campi
       * **Marchi**: 6 campi
 
 * **Enterprise: Marketing Management**: progettato per organizzazioni grandi o mature con sistemi di marketing complessi. Il modello include i tipi di record e il numero di campi seguenti, inclusi i campi collegati ad altri tipi di record:
@@ -137,38 +137,38 @@ Di seguito sono riportati i modelli di area di lavoro in Workfront Planning e il
    * Tassonomie:
 
       * **Prodotti**: 10 campi
-      * **Deliverables**: 18 campi
-      * **Destinatari**: 8 campi
+      * **Risultati finali**: 18 campi
+      * **Tipi di pubblico di destinazione**: 8 campi
       * **Aree geografiche**: 8 campi
       * **Sottoregioni**: 7 campi
       * **Partner**: 7 campi
-      * **Casi d’uso**: 7 campi
-      * **Fasi Percorso cliente**: 3 campi
+      * **Casi d&#39;uso**: 7 campi
+      * **Fasi Percorso clienti**: 3 campi
 
-* **Gestione vendite**: puoi creare un sistema di vendita completo che semplifica il processo di vendita e migliora l’efficienza. Il modello include i tipi di record e il numero di campi seguenti, inclusi i campi collegati ad altri tipi di record:
+* **Gestione vendite**: è possibile creare un sistema di vendita completo che semplifichi il processo di vendita e aumenti l&#39;efficienza. Il modello include i tipi di record e il numero di campi seguenti, inclusi i campi collegati ad altri tipi di record:
 
    * Tipi di record operativi:
 
-      * **opportunità**: 11 campi
+      * **Opportunità**: 11 campi
       * **Attività**: 9 campi
       * **Campagna**: 8 campi
    * Tassonomie:
       * **Account**: 7 campi
       * **Lead**: 14 campi
       * **Contatto**: 12 campi
-      * **Regione**: 3 campi
+      * **Area**: 3 campi
       * **Settore**: campo 2
       * **Centro acquisti**: 1 campo
-      * **Prodotto/Servizio**: 1 campo
+      * **Prodotto/ Servizio**: 1 campo
       * **Concorrenza**: 1 campo
 
-* **Gestione dei prodotti**: puoi creare un processo di gestione dei prodotti efficiente e strutturato utilizzando questo modello. Il modello include i tipi di record e il numero di campi seguenti, inclusi i campi collegati ad altri tipi di record:
+* **Gestione prodotti**: è possibile creare un processo di gestione prodotti efficiente e strutturato utilizzando questo modello. Il modello include i tipi di record e il numero di campi seguenti, inclusi i campi collegati ad altri tipi di record:
 
    * Tipi di record operativi:
 
       * **Tema**: 10 campi
       * **Iniziativa**: 10 campi
-      * **Epica**: 12 campi
+      * **Epico**: 12 campi
       * **Storia utente**: 11 campi
 
    * Tassonomie:

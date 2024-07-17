@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutte le modifiche Miglioramenti della Home apportate con la versione 2019.3. È stato reso disponibile nell’ambiente di produzione la settimana del 19 agosto 2019.
 
-Per un elenco di tutte le modifiche apportate in 2019.3, consulta [Panoramica sull’attività della versione 2019.3](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
+Per un elenco di tutte le modifiche apportate in 2019.3, consulta [Panoramica sull&#39;attività di rilascio di 2019.3](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
 
 ## Aggiornamenti al look and feel in Home
 

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti alla gestione delle risorse inclusi nella versione 2019.1. Questa funzionalità è ora disponibile nell’ambiente di produzione.
 
-Per un elenco di tutte le modifiche apportate in 2019.1, consulta [Panoramica sull’attività della versione 2019.1](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md).
+Per un elenco di tutte le modifiche apportate in 2019.1, consulta [Panoramica delle attività sulla versione 2019.1](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md).
 
 ## Filtro predefinito aggiornato nella pianificazione risorse
 
@@ -37,15 +37,15 @@ In precedenza, il filtro predefinito recuperava le informazioni dai seguenti pro
 * Con lo stato Attuale o Pianificazione.
 * Con un gruppo che corrisponde al Gruppo Predefinito dell’utente connesso.
 
-Per informazioni sull&#39;applicazione di filtri alla Programmazione delle risorse, vedi [Filtrare le informazioni nella Programmazione delle risorse](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+Per informazioni sull&#39;applicazione di filtri alla Programmazione delle risorse, vedere [Informazioni sui filtri nella Programmazione delle risorse](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 ## Utilizzo dei caratteri jolly per i filtri di programmazione delle risorse
 
-È ora possibile utilizzare i caratteri jolly per creare filtri nella Programmazione delle risorse. È ad esempio possibile utilizzare $$USER.ID per filtrare le informazioni sull&#39;utente connesso oppure $$USER.companyID per filtrare le informazioni su tutti gli utenti appartenenti alla stessa società dell&#39;utente connesso. Per un elenco completo delle variabili basate sugli utenti, vedi [Variabili filtro con caratteri jolly basate sull’utente](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md#user-based-variables) sezione in [Variabili filtro con caratteri jolly](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+È ora possibile utilizzare i caratteri jolly per creare filtri nella Programmazione delle risorse. È ad esempio possibile utilizzare $$USER.ID per filtrare le informazioni sull&#39;utente connesso oppure $$USER.companyID per filtrare le informazioni su tutti gli utenti appartenenti alla stessa società dell&#39;utente connesso. Per un elenco completo delle variabili basate sugli utenti, vedere la sezione [Variabili filtro con caratteri jolly basate sugli utenti](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md#user-based-variables) in [Variabili filtro con caratteri jolly](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 In precedenza, i caratteri jolly non erano disponibili per i filtri di programmazione delle risorse.
 
-Per informazioni sui filtri nella Programmazione delle risorse, consulta [Filtrare le informazioni nella Programmazione delle risorse](../../../../resource-mgmt/resource-planning/filter-resource-planner.md)
+Per informazioni sul filtro in Pianificazione risorse, vedere [Informazioni sul filtro in Pianificazione risorse](../../../../resource-mgmt/resource-planning/filter-resource-planner.md)
 
 VIDEO
 
@@ -55,9 +55,9 @@ VIDEO
 
 Prima di questo miglioramento, era possibile utilizzare solo variabili filtro con caratteri jolly basate sull’utente.
 
-Per informazioni sui filtri nella Programmazione delle risorse, consulta [Filtrare le informazioni nella Programmazione delle risorse](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+Per informazioni sul filtro in Pianificazione risorse, vedere [Informazioni sul filtro in Pianificazione risorse](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
-Per informazioni sulle variabili dei filtri con caratteri jolly, consulta [Variabili filtro con caratteri jolly](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+Per informazioni sulle variabili filtro con caratteri jolly, vedere [Variabili filtro con caratteri jolly](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 VIDEO
 
@@ -73,7 +73,7 @@ Nella visualizzazione Ruolo è ora possibile selezionare i livelli di informazio
 
 Prima di questo miglioramento, tutti i livelli di informazioni venivano esportati nella vista Ruolo. Queste opzioni sono state introdotte nelle viste Progetto e Utente in una versione precedente.
 
-Per informazioni sull&#39;esportazione di informazioni dalla Programmazione delle risorse, vedere [Esporta informazioni dalla Programmazione risorse](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
+Per informazioni sull&#39;esportazione di informazioni dalla Programmazione delle risorse, vedere [Esportare informazioni dalla Programmazione delle risorse](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
 
 VIDEO
 
@@ -88,7 +88,7 @@ VIDEO
 
 Prima di questo miglioramento, le informazioni nel file esportato venivano visualizzate come in Workfront.
 
-Per informazioni sull&#39;esportazione di informazioni dalla Programmazione delle risorse, vedere [Esporta informazioni dalla Programmazione risorse](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
+Per informazioni sull&#39;esportazione di informazioni dalla Programmazione delle risorse, vedere [Esportare informazioni dalla Programmazione delle risorse](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
 
 VIDEO
 
@@ -96,7 +96,7 @@ VIDEO
 
 >[!NOTE]
 >
->Gli strumenti di pianificazione delle risorse sono stati dichiarati obsoleti e rimossi da Workfront con la versione 23.1. Per informazioni sulla programmazione delle risorse tramite il Bilanciatore dei carichi di lavoro, consulta [Panoramica del Bilanciatore dei carichi di lavoro](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Gli strumenti di pianificazione delle risorse sono stati dichiarati obsoleti e rimossi da Workfront con la versione 23.1. Per informazioni sulla pianificazione delle risorse tramite il Bilanciatore dei carichi di lavoro, vedere [Panoramica del Bilanciatore dei carichi di lavoro](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Le timeline di pianificazione ora mantengono l’intervallo temporale selezionato quando aggiorni la timeline o esci dalla pagina.
 
@@ -130,7 +130,7 @@ Nella Vista utente, potete esportare uno dei seguenti elementi:
 
 Prima di questo miglioramento, per impostazione predefinita, tutti i livelli di informazioni venivano esportati in tutte le visualizzazioni del Programmatore risorse.
 
-Per informazioni sull&#39;esportazione di informazioni dalla Programmazione delle risorse, vedere [Esporta informazioni dalla Programmazione risorse](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
+Per informazioni sull&#39;esportazione di informazioni dalla Programmazione delle risorse, vedere [Esportare informazioni dalla Programmazione delle risorse](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
 
 VIDEO
 
@@ -142,4 +142,4 @@ Prima di questo aggiornamento, solo gli utenti assegnati agli elementi di lavoro
 
 È possibile utilizzare i filtri basati sugli utenti per ridurre il numero di utenti visualizzati nella Visualizzazione utente solo a quelli assegnati ai progetti che si desidera visualizzare.
 
-Per informazioni sui filtri nella Programmazione delle risorse, consulta [Filtrare le informazioni nella Programmazione delle risorse](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+Per informazioni sui filtri nella programmazione delle risorse, vedere [Informazioni sui filtri nella programmazione delle risorse](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).

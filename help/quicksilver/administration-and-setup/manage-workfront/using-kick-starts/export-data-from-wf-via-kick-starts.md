@@ -86,7 +86,7 @@ La tabella seguente mostra i vantaggi e gli svantaggi di ciascun metodo:
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Esportazione di dati da una vista a elenco</strong> </p> <p>Per ulteriori informazioni sull'esportazione di dati da un elenco, vedere <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Esporta dati</a></p> </td> 
+   <td> <p><strong>Esportazione di dati da una visualizzazione elenco</strong> </p> <p>Per ulteriori informazioni sull'esportazione di dati da un elenco, vedere <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Esporta dati</a></p> </td> 
    <td> <p>Sì</p> <p>Vengono esportati sia i campi nativi di Workfront che i campi personalizzati associati agli oggetti.</p> </td> 
    <td> <p>No</p> </td> 
   </tr> 
@@ -102,16 +102,16 @@ La tabella seguente mostra i vantaggi e gli svantaggi di ciascun metodo:
 
 Esistono le seguenti limitazioni quando si esportano dati tramite avvii (i dati vengono esportati in un formato di file Excel):
 
-* **50.000 righe:** Numero di righe consentito nel file.
+* **50.000 righe:** il numero di righe consentito nel file.
 * **65.530 collegamenti ipertestuali:** Si tratta di un limite imposto da Excel ai documenti che contengono più di 65.530 collegamenti ipertestuali. Non è possibile aprire questi documenti dopo averli esportati. Si noti che un documento di Excel può contenere solo 200 righe di dati, ma se il documento contiene più di 65.530 collegamenti, il documento non si apre.
 
 ## Esportare i dati tramite kick-start
 
 {{step-1-to-setup}}
 
-1. Clic **Sistema** > **Kick-Start** quindi fai clic su **Esporta dati.**
+1. Fai clic su **Sistema** > **Avvii,** quindi fai clic su **Esporta dati.**
 
-1. Selezionare l&#39;oggetto da esportare. Per impostazione predefinita, i seguenti oggetti vengono visualizzati in **Cosa includere**:
+1. Selezionare l&#39;oggetto da esportare. Per impostazione predefinita, i seguenti oggetti sono visualizzati in **Cosa includere**:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -120,34 +120,34 @@ Esistono le seguenti limitazioni quando si esportano dati tramite avvii (i dati 
     <thead> 
      <tr> 
       <th> <p><strong>Oggetto</strong> </p> </th> 
-      <th> <p><strong>Fogli esportati del file Excel</strong> </p> </th> 
-      <th> <p> <strong>Formato di esportazione</strong></p> </th> 
+      <th> <p><strong>Fogli esportati del file di Excel</strong> </p> </th> 
+      <th> <p> <strong>Formato esportazione</strong></p> </th> 
      </tr> 
     </thead> 
     <tbody> 
      <tr> 
       <td scope="col" valign="top"> <p>Dashboard</p> <p> </p> <p> </p> </td> 
-      <td scope="col" valign="top"> <p>Parametro<br>Opzione Parametro<br>Raggruppa parametri<br>Parametro di Categoria<br>Categoria<br>Report<br>Sezione scheda portale<br>Dashboard<br>Preferenze</p> </td> 
+      <td scope="col" valign="top"> <p>Parametro<br>Opzione Parametro<br>Gruppo Parametri<br>Parametro Categoria<br>Categoria<br>Report<br>Sezione Scheda Portale<br>Dashboard<br>Preferenze</p> </td> 
       <td scope="col" valign="top"> ZIP</td> 
      </tr> 
      <tr> 
       <td scope="col" valign="top"> <p>Rapporto</p> <p> </p> <p> </p> </td> 
-      <td scope="col" valign="top">Parametro<br>Opzione Parametro<br>Raggruppa parametri<br>Parametro di Categoria<br>Categoria<br>Report<br>Preferenze</td> 
+      <td scope="col" valign="top">Parametro<br>Opzione Parametro<br>Gruppo Parametri<br>Parametro Categoria<br>Categoria<br>Rapporto<br>Preferenze</td> 
       <td scope="col" valign="top"> ZIP </td> 
      </tr> 
      <tr> 
       <td scope="col" valign="top"> <p>Approvazione</p> </td> 
-      <td scope="col" valign="top"> <p>Approvatore passaggio<br>Passaggio di approvazione<br>Approvazione<br>Processo di approvazione<br>Preferenze</p> </td> 
+      <td scope="col" valign="top"> <p>Approvatore passaggio<br>Passaggio approvazione<br>Approvazione<br>Processo approvazione<br>Preferenze</p> </td> 
       <td scope="col" valign="top"> <p> Excel</p> </td> 
      </tr> 
      <tr> 
       <td scope="col" valign="top"> <p>Dati personalizzati</p> </td> 
-      <td scope="col" valign="top"> <p>Parametro<br>Opzione Parametro<br>Raggruppa parametri<br>Parametro di Categoria<br>Categoria<br>Preferenze</p> </td> 
+      <td scope="col" valign="top"> <p>Parametro<br>Opzione Parametro<br>Gruppo Parametri<br>Parametro Categoria<br>Categoria<br>Preferenze</p> </td> 
       <td scope="col" valign="top"> <p> Excel</p> </td> 
      </tr> 
      <tr> 
       <td scope="col" valign="top"> <p>Tipo di Spesa</p> </td> 
-      <td valign="top"> <p>Tipo di Spesa<br>Preferenze</p> </td> 
+      <td valign="top"> <p>Tipo di spesa<br>Preferenze</p> </td> 
       <td scope="col" valign="top"> <p>Excel</p> </td> 
      </tr> 
      <tr> 
@@ -168,13 +168,13 @@ Esistono le seguenti limitazioni quando si esportano dati tramite avvii (i dati 
     </tbody> 
    </table>
 
-1. Clic **Altre opzioni** per visualizzare l&#39;elenco completo degli oggetti.
+1. Fai clic su **Altre opzioni** per visualizzare l&#39;elenco completo degli oggetti.
 
    Tutti gli oggetti elencati possono essere utilizzati anche per importare dati in Workfront.
 
-   L&#39;unica eccezione è **Livelli di accesso** oggetto. La scheda dati Livelli di accesso inclusa in un&#39;esportazione viene fornita solo a scopo di riferimento. Consente di assegnare un livello di accesso a un nuovo account utente in base all’ID.
+   L&#39;unica eccezione è l&#39;oggetto **Access Levels**. La scheda dati Livelli di accesso inclusa in un&#39;esportazione viene fornita solo a scopo di riferimento. Consente di assegnare un livello di accesso a un nuovo account utente in base all’ID.
 
-   Per ulteriori informazioni sull’importazione di dati in Workfront tramite kick-start, consulta [Importare dati in Adobe Workfront utilizzando un modello di avvio](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md). Di seguito è riportato un elenco di tutti gli oggetti che possono essere esportati tramite kick-start:
+   Per ulteriori informazioni sull&#39;importazione di dati in Workfront tramite l&#39;avvio automatico, vedere [Importare dati in Adobe Workfront utilizzando un modello di avvio](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md). Di seguito è riportato un elenco di tutti gli oggetti che possono essere esportati tramite kick-start:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -200,17 +200,17 @@ Esistono le seguenti limitazioni quando si esportano dati tramite avvii (i dati 
      </tr> 
      <tr> 
       <td scope="col" valign="top">Azienda</td> 
-      <td scope="col" valign="top"> Azienda<br>Preferenze </td> 
+      <td scope="col" valign="top"> Società<br>Preferenze </td> 
       <td scope="col" valign="top">Excel</td> 
      </tr> 
      <tr> 
       <td scope="col" valign="top">Modello e-mail</td> 
-      <td scope="col" valign="top"> Modello e-mail<br>Preferenze </td> 
+      <td scope="col" valign="top"> Preferenze modello e-mail<br> </td> 
       <td scope="col" valign="top">Excel</td> 
      </tr> 
      <tr> 
       <td scope="col" valign="top">Spesa</td> 
-      <td valign="top"> Spesa<br>Preferenze </td> 
+      <td valign="top"> Preferenze <br> spese </td> 
       <td scope="col" valign="top"> Excel</td> 
      </tr> 
      <tr> 
@@ -220,7 +220,7 @@ Esistono le seguenti limitazioni quando si esportano dati tramite avvii (i dati 
      </tr> 
      <tr> 
       <td valign="top">Filtro</td> 
-      <td valign="top"> Filtro<br>Preferenze </td> 
+      <td valign="top"> Filtra<br>Preferenze </td> 
       <td valign="top">ZIP </td> 
      </tr> 
      <tr> 
@@ -250,12 +250,12 @@ Esistono le seguenti limitazioni quando si esportano dati tramite avvii (i dati 
      </tr> 
      <tr> 
       <td valign="top">Percorso milestone</td> 
-      <td valign="top"> Milestone<br>Percorso milestone<br>Preferenze </td> 
+      <td valign="top"> Percorso Milestone<br>Milestone<br>Preferenze </td> 
       <td valign="top">Excel </td> 
      </tr> 
      <tr> 
       <td valign="top">Nota</td> 
-      <td valign="top"> Nota<br>Preferenze </td> 
+      <td valign="top"> Note<br>Preferenze </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
@@ -265,7 +265,7 @@ Esistono le seguenti limitazioni quando si esportano dati tramite avvii (i dati 
      </tr> 
      <tr> 
       <td valign="top">Progetto</td> 
-      <td valign="top"> Coda<br>Progetto<br>Regola di Instradamento<br>Argomento Coda<br>Preferenze </td> 
+      <td valign="top"> Coda<br>Progetto<br>Regola di routing<br>Argomento coda<br>Preferenze </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
@@ -275,7 +275,7 @@ Esistono le seguenti limitazioni quando si esportano dati tramite avvii (i dati 
      </tr> 
      <tr> 
       <td valign="top">Gruppo di risorse</td> 
-      <td valign="top"> Pool di Risorse<br>Preferenze </td> 
+      <td valign="top"> Preferenze del Pool di Risorse<br> </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
@@ -290,7 +290,7 @@ Esistono le seguenti limitazioni quando si esportano dati tramite avvii (i dati 
      </tr> 
      <tr> 
       <td valign="top">Scorecard</td> 
-      <td valign="top">Domande Scorecard<br>Opzione scorecard<br>Scorecard<br>Preferenze </td> 
+      <td valign="top">Domande Scorecard<br>Opzione Scorecard<br>Scorecard<br>Preferenze </td> 
       <td valign="top">Excel </td> 
      </tr> 
      <tr> 
@@ -300,7 +300,7 @@ Esistono le seguenti limitazioni quando si esportano dati tramite avvii (i dati 
      </tr> 
      <tr> 
       <td valign="top">Modello</td> 
-      <td valign="top"> Coda<br>Modello<br>Regola di Instradamento<br>Argomento Coda<br>Preferenze </td> 
+      <td valign="top"> Coda<br>Modello<br>Regola di routing<br>Argomento coda<br>Preferenze </td> 
       <td valign="top">Excel  </td> 
      </tr> 
      <tr> 
@@ -315,7 +315,7 @@ Esistono le seguenti limitazioni quando si esportano dati tramite avvii (i dati 
      </tr> 
      <tr> 
       <td valign="top">Scheda orario</td> 
-      <td valign="top"> Timesheet Ricorrente<br>Scheda orario<br>Preferenze </td> 
+      <td valign="top"> Profilo scheda orario<br>Scheda orario<br>Preferenze </td> 
       <td valign="top">Excel  </td> 
      </tr> 
      <tr> 
@@ -326,13 +326,13 @@ Esistono le seguenti limitazioni quando si esportano dati tramite avvii (i dati 
     </tbody> 
    </table>
 
-1. Clic **Scarica.**
+1. Fai clic su **Scarica.**
 
-   Il file di avvio esportato viene scaricato nel computer come file Excel o come file . file zip contenente più file Excel e proprietà. Ogni file di Excel è un insieme di fogli, in cui ogni foglio rappresenta un campo associato all&#39;oggetto selezionato. È presente un **Proprietà** ad ogni esportazione.
+   Il file di avvio esportato viene scaricato nel computer come file Excel o come file . file zip contenente più file Excel e proprietà. Ogni file di Excel è un insieme di fogli, in cui ogni foglio rappresenta un campo associato all&#39;oggetto selezionato. A ogni esportazione è associato un foglio **Proprietà**.
 
-   Il **Dashboard** e **Report** Le opzioni consentono di selezionare dashboard e rapporti specifici da includere nel download. Puoi esportare solo dashboard condivisi a livello di sistema.
+   Le opzioni **Dashboard** e **Report** consentono di selezionare dashboard e report specifici da includere nel download. Puoi esportare solo dashboard condivisi a livello di sistema.
 
-   Non è possibile esportare report matrice. Per ulteriori informazioni sui report matrice, vedere [Creare un rapporto matrice](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+   Non è possibile esportare report matrice. Per ulteriori informazioni sui report matrice, vedere [Creare un report matrice](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
    Kick-Start non supporta i filtri in modalità testo. Per una corretta esportazione, i filtri di reporting devono essere commutati in modalità Standard.
 

@@ -22,12 +22,12 @@ ht-degree: 2%
 
 ## Prerequisiti
 
-Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per ulteriori informazioni, consulta [Reporting Canvas beta: panoramica](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per ulteriori informazioni, vedere [Reporting Canvas beta: overview](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Esportare un rapporto
 
 1. Passare al report da esportare.
-1. Nell’intestazione del rapporto, fai clic su **Altro** icona ![](assets/more-icon-27x15.png), fai clic su **Esporta**, quindi selezionare il formato di file da creare.
+1. Nell&#39;intestazione del report fare clic sull&#39;icona ![](assets/more-icon-27x15.png) **Altro**, fare clic su **Esporta**, quindi selezionare il formato di file da creare.
 
    >[!NOTE]
    >

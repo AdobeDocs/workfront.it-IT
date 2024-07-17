@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti apportati ad Adobe Workfront Fusion la settimana del 1° febbraio 2021.
 
-Per un elenco di tutte le modifiche recenti, vedi [Attività di rilascio di Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Per un elenco di tutte le modifiche recenti, vedere [Attività di Adobe Workfront Fusion release](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedi [Aggiornamenti di manutenzione per Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
+Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedere la pagina [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -42,7 +42,7 @@ Con i moduli MariaDB è possibile:
 * Eseguire una query
 * Selezionare righe da una tabella
 
-Per ulteriori informazioni, consulta [Moduli MariaDB](../../../workfront-fusion/apps-and-their-modules/mariadb-modules.md).
+Per ulteriori informazioni, vedere [Moduli MariaDB](../../../workfront-fusion/apps-and-their-modules/mariadb-modules.md).
 
 ## Connettore e moduli Marketo ora disponibili
 
@@ -56,7 +56,7 @@ Per ulteriori informazioni, consulta [Moduli MariaDB](../../../workfront-fusion/
 * Copiare un programma
 * Effettuare una chiamata API personalizzata
 
-Per ulteriori informazioni, consulta [Moduli Marketo](../../../workfront-fusion/apps-and-their-modules/marketo-modules.md).
+Per ulteriori informazioni, vedere [Moduli Marketo](../../../workfront-fusion/apps-and-their-modules/marketo-modules.md).
 
 <!--
 

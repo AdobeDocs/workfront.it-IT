@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Per impostazione predefinita, quando si aggiunge un nuovo campo personalizzato o widget a un modulo personalizzato, chiunque nel sistema con accesso ai moduli personalizzati può modificare le proprietà di tale elemento, ad esempio l’etichetta e il nome. Puoi cambiare questa impostazione controllando con chi può essere condiviso.
 
-Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, vedi [Aggiungere un campo personalizzato a un modulo personalizzato con il generatore di moduli legacy](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) e [Aggiungere o modificare un widget di risorse in un modulo personalizzato con il generatore di moduli legacy](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, consulta [Aggiungere un campo personalizzato a un modulo personalizzato con il generatore di moduli legacy](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) e [Aggiungere o modificare un widget di risorse in un modulo personalizzato con il generatore di moduli legacy](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Requisiti di accesso
 
@@ -58,18 +58,18 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 1. Nel pannello a sinistra, fai clic su **Forms personalizzato**.
 1. Se stai configurando la condivisione per un campo personalizzato o un widget nell’istanza Workfront della tua organizzazione, effettua le seguenti operazioni:
 
-   1. Clic **Campi** per aprire l&#39;area Campi.
-   1. Selezionare l&#39;elemento per il quale si desidera configurare la condivisione, quindi fare clic su ![Icona Condividi](assets/share-icon.png).
+   1. Fare clic su **Campi** per aprire l&#39;area Campi.
+   1. Selezionare l&#39;elemento per il quale si desidera configurare la condivisione, quindi fare clic sull&#39;icona ![Condividi](assets/share-icon.png).
 
    Oppure, se stai configurando la condivisione per un campo personalizzato o un widget in un modulo personalizzato esistente, effettua le seguenti operazioni:
 
-   1. Seleziona il modulo personalizzato, quindi fai clic su ![Icona Modifica](assets/edit-icon.png).
+   1. Seleziona il modulo personalizzato, quindi fai clic sull&#39;![icona Modifica](assets/edit-icon.png).
    1. Nell&#39;area di modifica dei moduli a destra, selezionare l&#39;elemento per il quale si desidera configurare la condivisione.
    1. Nel pannello a sinistra, fai clic su **Condividi campo**.
 
-1. In **Accesso al campo personalizzato** nella casella visualizzata, specificare l&#39;utente con cui si desidera condividere l&#39;elemento e la modalità di condivisione:
+1. Nella casella **Accesso al campo personalizzato** visualizzata, specifica con chi desideri condividere l&#39;elemento e come desideri condividerlo:
 
-   1. Vicino all&#39;angolo inferiore sinistro del **Accesso al campo personalizzato** casella, sotto **Assegna accesso al campo personalizzato a**, iniziare a digitare il nome di un utente, team, mansione, gruppo o società con cui si desidera condividere l&#39;elemento, quindi fare clic sul nome quando viene visualizzato.
+   1. Nell&#39;angolo inferiore sinistro della casella **Accesso ai campi personalizzati**, in **Concedi l&#39;accesso ai campi personalizzati a**, inizia a digitare il nome di un utente, un team, una mansione, un gruppo o un&#39;azienda con cui si desidera condividere l&#39;elemento, quindi fai clic sul nome quando viene visualizzato.
 
       ![](assets/share-field-give-access-to.jpg)
 
@@ -83,17 +83,17 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
        <tbody> 
         <tr> 
          <td role="rowheader">Visualizzare</td> 
-         <td> <p>Puoi fare clic su <strong>Impostazioni avanzate</strong> specificare se si desidera che l'utente o gli utenti possano utilizzare il proprio accesso per aggiungere l'elemento a un modulo personalizzato o condividerlo con altri utenti.</p> </td> 
+         <td> <p>È possibile fare clic su <strong>Impostazioni avanzate</strong> per specificare se si desidera che l'utente o gli utenti possano utilizzare il proprio accesso per aggiungere l'elemento a un modulo personalizzato o condividerlo con altri utenti.</p> </td> 
         </tr> 
         <tr> 
          <td role="rowheader">Gestire</td> 
-         <td> <p>Consente di modificare il campo personalizzato e di visualizzarlo nella Libreria campi e nella pagina in cui si creano i moduli personalizzati.</p> <p>Puoi fare clic su <strong>Impostazioni avanzate</strong> specificare se si desidera che l'utente o gli utenti possano utilizzare il proprio accesso per eliminare l'elemento dal sistema o condividerlo con altri utenti.</p> </td> 
+         <td> <p>Consente di modificare il campo personalizzato e di visualizzarlo nella Libreria campi e nella pagina in cui si creano i moduli personalizzati.</p> <p>È possibile fare clic su <strong>Impostazioni avanzate</strong> per specificare se si desidera che l'utente o gli utenti possano utilizzare il proprio accesso per eliminare l'elemento dal sistema o condividerlo con altri utenti.</p> </td> 
         </tr> 
        </tbody> 
       </table>
 
 1. (Facoltativo) Ripeti il passaggio precedente per aggiungere altri nomi all’elenco e configurarne le opzioni.
-1. (Facoltativo) Fai clic sull’icona a forma di ingranaggio ![](assets/gear-icon-settings.png) nell’angolo in alto a destra per scegliere un’opzione di condivisione a livello di sistema per il campo.
+1. (Facoltativo) Fare clic sull&#39;icona a forma di ingranaggio ![](assets/gear-icon-settings.png) nell&#39;angolo superiore destro per scegliere un&#39;opzione di condivisione a livello di sistema per il campo.
 
    Non tutte le seguenti opzioni vengono visualizzate contemporaneamente in questo menu a discesa. Ad esempio, il secondo viene visualizzato solo quando si seleziona uno degli altri due.
 
@@ -101,13 +101,13 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
      Quando si aggiunge un campo personalizzato o un widget e non si limita la condivisione, tutti gli utenti del sistema che hanno accesso ai moduli personalizzati possono visualizzarlo e modificarne le proprietà.
 
-   * **Rimuovi l&#39;accesso alle modifiche a livello di sistema**
+   * **Rimuovi accesso alle modifiche a livello di sistema**
 
      Limita l’accesso solo a coloro che hai aggiunto all’elenco.
 
-   * **Rendi visibile a livello di sistema in modo che tutti in Workfront possano visualizzarlo**
+   * **Rendi visibile a livello di sistema in modo che tutti gli utenti di Workfront possano visualizzarlo**
 
-1. Clic **Salva** o **Salva e chiudi**.
+1. Fai clic su **Salva** o **Salva + Chiudi**.
 
 ## Accesso ereditato a campi e widget personalizzati quando viene condiviso un modulo personalizzato
 
@@ -119,18 +119,18 @@ Puoi scoprire chi ha ereditato l’accesso a un campo personalizzato o a un widg
 >
 >Se un destinatario dispone dell’accesso in gestione a un campo personalizzato o a un widget nel modulo personalizzato condiviso, tale accesso viene mantenuto per il destinatario.
 
-* [Scopri chi ha ereditato l’accesso a un campo o a un widget personalizzato](#find-out-who-has-inherited-access-to-a-custom-field-or-widget)
+* [Scopri chi ha ereditato l&#39;accesso a un campo personalizzato o a un widget](#find-out-who-has-inherited-access-to-a-custom-field-or-widget)
 * [Rimuovere l&#39;accesso a un campo personalizzato o a un widget in un modulo personalizzato condiviso](#remove-access-to-a-custom-field-or-widget-in-a-custom-form-that-was-shared)
 
 ### Scopri chi ha ereditato l’accesso a un campo o a un widget personalizzato {#find-out-who-has-inherited-access-to-a-custom-field-or-widget}
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
 1. Nel pannello a sinistra, fai clic su **Forms personalizzato**.
-1. Clic **Campi**, quindi seleziona il campo, l’immagine o il widget di accesso.
-1. Nella casella visualizzata, fai clic su **Autorizzazioni ereditate** e visualizzare i nomi visualizzati.
-1. Clic **Annulla**.
+1. Fai clic su **Campi**, quindi seleziona il campo, l&#39;immagine o il widget di accesso.
+1. Nella casella visualizzata fare clic su **Autorizzazioni ereditate** e visualizzare i nomi visualizzati.
+1. Fare clic su **Annulla**.
 
 ### Rimuovere l&#39;accesso a un campo personalizzato o a un widget in un modulo personalizzato condiviso {#remove-access-to-a-custom-field-or-widget-in-a-custom-form-that-was-shared}
 
-Se devi rimuovere l’accesso a un campo personalizzato o a un widget in un modulo personalizzato condiviso, devi annullare la condivisione del modulo. Per le istruzioni del caso, vedere nella sezione [Rimuovere l’accesso a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md#unshare) nell’articolo [Condividere un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).
+Se devi rimuovere l’accesso a un campo personalizzato o a un widget in un modulo personalizzato condiviso, devi annullare la condivisione del modulo. Per istruzioni, vedere nella sezione [Rimuovere l&#39;accesso a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md#unshare) nell&#39;articolo [Condividere un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).

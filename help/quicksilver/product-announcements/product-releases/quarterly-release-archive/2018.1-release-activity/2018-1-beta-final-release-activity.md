@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Attività versione finale beta 2018.1
-description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione finale Beta 2018.1. La funzionalità è stata resa disponibile nell’ambiente di anteprima il 31 gennaio 2018. Sarà disponibile nell’ambiente di produzione a marzo 2018.
+title: Attività sulla versione finale 2018.1 di Beta
+description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione finale di Beta 2018.1. La funzionalità è stata resa disponibile nell’ambiente di anteprima il 31 gennaio 2018. Sarà disponibile nell’ambiente di produzione a marzo 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,28 +14,28 @@ ht-degree: 0%
 
 ---
 
-# Attività versione finale beta 2018.1
+# Attività sulla versione finale 2018.1 di Beta
 
-Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione finale Beta 2018.1. La funzionalità è stata resa disponibile nell’ambiente di anteprima il 31 gennaio 2018. Sarà disponibile nell’ambiente di produzione a marzo 2018.
+Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione finale di Beta 2018.1. La funzionalità è stata resa disponibile nell’ambiente di anteprima il 31 gennaio 2018. Sarà disponibile nell’ambiente di produzione a marzo 2018.
 
 >[!IMPORTANT]
 >
 > La funzionalità descritta in questa pagina è soggetta a modifiche prima della disponibilità nell’ambiente di produzione.
 
-Per un elenco di tutte le modifiche apportate in 2018.1, consulta  [Panoramica sull’attività della versione 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+Per un elenco di tutte le modifiche apportate in 2018.1, consulta  Panoramica dell&#39;attività della versione di [2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
-La versione finale Beta 2018.1 contiene miglioramenti sia per gli amministratori di Workfront che per altri utenti:
+La versione finale 2018.1 di Beta contiene miglioramenti sia per gli amministratori di Workfront che per altri utenti:
 
-**Per gli amministratori**
+**Per Amministratori**
 
 * [Configura la disponibilità delle risorse e le allocazioni utente da calcolare in base alla pianificazione utente](#configure-resource-availability-and-user-allocations-to-calculate-based-on-the-user-schedule)
 
-**Per tutti gli utenti**
+**Per Tutti Gli Utenti**
 
 * [Miglioramenti per dispositivi mobili](#mobile-enhancements)
 * [Integrazione Jira](#jira-integration)
 * [Aggiornamento dei nomi dei visualizzatori di verifica](#update-to-proofing-viewer-names)
-* [Modifica della cadenza di sincronizzazione durante la sincronizzazione dall’ambiente di produzione della bozza all’ambiente di anteprima](#change-to-synchronization-cadence-when-synchronizing-from-the-proofing-production-environment-to-preview)
+* [Modifica della cadenza di sincronizzazione durante la sincronizzazione dall&#39;ambiente di produzione della bozza all&#39;anteprima](#change-to-synchronization-cadence-when-synchronizing-from-the-proofing-production-environment-to-preview)
 * [Messaggio di avvertenza visualizzato quando viene raggiunto il limite di 2.000 elementi nella programmazione delle risorse](#warning-message-displays-when-the-2-000-item-limit-is-reached-in-the-resource-planner)
 
 ## Miglioramenti per dispositivi mobili {#mobile-enhancements}
@@ -45,7 +45,7 @@ Le seguenti funzionalità saranno disponibili negli app store per dispositivi mo
 * Nuova navigazione: la home page delle nostre app mobili è stata riprogettata.
 * Home on Mobile: la nuova funzionalità Home è stata aggiornata anche sulle app mobili.
 
-La nuova funzionalità è supportata sia per la piattaforma iOS che per quella Android.
+La nuova funzionalità è supportata sia per le piattaforme iOS che per Android.
 
 ## Integrazione Jira {#jira-integration}
 
@@ -59,7 +59,7 @@ Puoi configurare quanto segue tramite questa integrazione:
 
 Il componente aggiuntivo Workfront sarà disponibile per le versioni On-Premise e On-Demand di Jira. Il componente aggiuntivo è gratuito e sarà disponibile per il download nel Marketplace Atlassian all’inizio di marzo 2018.
 
-Per ulteriori informazioni sul componente aggiuntivo Workfront per Jira, incluso un collegamento per scaricarlo, vedi [Utilizzo di Workfront con Jira.](https://support.workfront.com/hc/en-us/sections/115001130053)
+Per ulteriori informazioni sul componente aggiuntivo Workfront per Jira, incluso un collegamento per scaricarlo, vedere [Utilizzo di Workfront con Jira.](https://support.workfront.com/hc/en-us/sections/115001130053)
 
 ## Aggiornamento dei nomi dei visualizzatori di verifica {#update-to-proofing-viewer-names}
 
@@ -72,13 +72,13 @@ I nomi del visualizzatore di bozze basato su HTML5 e dei visualizzatori di bozze
 
 {style="table-layout:auto"}
 
- Per ulteriori informazioni sull&#39;utilizzo del nuovo visualizzatore di bozze, vedere [Revisione delle bozze nel visualizzatore di bozze.](https://support.workfront.com/hc/en-us/sections/115000275214)
+ Per ulteriori informazioni sull&#39;utilizzo del nuovo visualizzatore di bozze, vedere [Esame delle bozze nel visualizzatore di bozze.](https://support.workfront.com/hc/en-us/sections/115000275214)
 
 ## Configura la disponibilità delle risorse e le allocazioni utente da calcolare in base alla pianificazione utente {#configure-resource-availability-and-user-allocations-to-calculate-based-on-the-user-schedule}
 
 >[!NOTE]
 >
->Gli strumenti di pianificazione delle risorse sono stati dichiarati obsoleti e rimossi da Workfront con la versione 23.1. Per informazioni sulla programmazione delle risorse tramite il Bilanciatore dei carichi di lavoro, consulta [Panoramica del Bilanciatore dei carichi di lavoro](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Gli strumenti di pianificazione delle risorse sono stati dichiarati obsoleti e rimossi da Workfront con la versione 23.1. Per informazioni sulla pianificazione delle risorse tramite il Bilanciatore dei carichi di lavoro, vedere [Panoramica del Bilanciatore dei carichi di lavoro](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 L’amministratore di Workfront può ora determinare il modo in cui Workfront calcola la disponibilità delle risorse e l’allocazione degli utenti a livello di sistema (considerando le ore e la disponibilità FTE). L&#39;amministratore di Workfront può configurare la disponibilità delle risorse e l&#39;allocazione degli utenti da calcolare utilizzando la pianificazione predefinita o quella dell&#39;utente.
 
@@ -92,7 +92,7 @@ Per ulteriori informazioni, vedere &quot;Configurare il modo in cui Workfront ca
 
 >[!NOTE]
 >
->Gli strumenti di pianificazione delle risorse sono stati dichiarati obsoleti e rimossi da Workfront con la versione 23.1. Per informazioni sulla programmazione delle risorse tramite il Bilanciatore dei carichi di lavoro, consulta [Panoramica del Bilanciatore dei carichi di lavoro](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Gli strumenti di pianificazione delle risorse sono stati dichiarati obsoleti e rimossi da Workfront con la versione 23.1. Per informazioni sulla pianificazione delle risorse tramite il Bilanciatore dei carichi di lavoro, vedere [Panoramica del Bilanciatore dei carichi di lavoro](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 
 ## Modifica della cadenza di sincronizzazione durante la sincronizzazione dall’ambiente di produzione della bozza all’ambiente di anteprima {#change-to-synchronization-cadence-when-synchronizing-from-the-proofing-production-environment-to-preview}
@@ -101,11 +101,11 @@ Per ulteriori informazioni, vedere &quot;Configurare il modo in cui Workfront ca
 >
 >Questa modifica entrerà in vigore l’11 febbraio 2018.
 
-I dati dell’ambiente di produzione di Workfront Proof ora vengono sincronizzati con l’ambiente di anteprima delle bozze di Workfront ogni settimana.
+I dati dell’ambiente di produzione di Workfront Proof vengono ora sincronizzati con l’ambiente di anteprima di Workfront Proof ogni settimana.
 
-Prima di questa modifica, i dati venivano sincronizzati dall’ambiente di produzione di bozze di Workfront all’ambiente di anteprima su base mensile, mentre i dati dall’ambiente di produzione di Workfront venivano sincronizzati all’ambiente di anteprima di Workfront su base settimanale. Questa discrepanza ha causato alcuni errori di sincronizzazione durante l’utilizzo della funzionalità Bozza nell’ambiente di anteprima di Workfront. 
+Prima di questa modifica, i dati venivano sincronizzati dall’ambiente di produzione Workfront Proof all’ambiente di anteprima su base mensile, mentre i dati dall’ambiente di produzione Workfront venivano sincronizzati all’ambiente di anteprima Workfront su base settimanale. Questa discrepanza ha causato alcuni errori di sincronizzazione durante l’utilizzo della funzionalità Bozza nell’ambiente di anteprima di Workfront. 
 
-Per ulteriori informazioni, consulta [Anteprima ambiente di test sandbox: bozza Workfront](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md). 
+Per ulteriori informazioni, vedere [Anteprima ambiente di test sandbox: Workfront Proof](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md). 
 
 ## Messaggio di avvertenza visualizzato quando viene raggiunto il limite di 2.000 elementi nella programmazione delle risorse {#warning-message-displays-when-the-2-000-item-limit-is-reached-in-the-resource-planner}
 
@@ -117,7 +117,7 @@ Poiché stiamo attualmente lavorando a una soluzione più permanente per miglior
 
 Quando la Programmazione delle risorse tenta di caricare più di 2.000 elementi, viene visualizzata una notifica che avvisa che è possibile visualizzare solo 2.000 elementi.
 
-Per ulteriori informazioni su questi limiti e su come influiscono sulla programmazione delle risorse, consulta [Limitazioni della visualizzazione di Programmazione delle risorse](../../../../resource-mgmt/resource-planning/resource-planner-display-limitations.md).
+Per ulteriori informazioni su questi limiti e su come influiscono sulla pianificazione delle risorse, vedere [Limitazioni di visualizzazione della pianificazione delle risorse](../../../../resource-mgmt/resource-planning/resource-planner-display-limitations.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To participate in our beta program for the Resource Planner performance, see <a href="../../../../product-announcements/betas/resource-planner-performance-beta.md" class="MCXref xref">Resource Planner performance beta </a>.</p>

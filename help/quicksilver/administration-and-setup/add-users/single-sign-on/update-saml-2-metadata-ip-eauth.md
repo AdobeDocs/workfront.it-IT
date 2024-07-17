@@ -20,9 +20,9 @@ ht-degree: 0%
 
 In qualità di amministratore di Adobe Workfront, puoi integrare Workfront Single Sign-On (SSO) con qualsiasi provider di identità che supporti il protocollo SAML (Security Assertion Markup Language) 2.0.
 
-Le sezioni seguenti descrivono il processo di integrazione quando l’account Workfront è stato aggiornato all’esperienza di autenticazione avanzata (non ancora disponibile per tutte le organizzazioni). Per ulteriori informazioni sull’esperienza di autenticazione avanzata, consulta [Panoramica dell’autenticazione avanzata](../../../administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md).
+Le sezioni seguenti descrivono il processo di integrazione quando l’account Workfront è stato aggiornato all’esperienza di autenticazione avanzata (non ancora disponibile per tutte le organizzazioni). Per ulteriori informazioni sull&#39;autenticazione avanzata, vedere [Panoramica sull&#39;autenticazione avanzata](../../../administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md).
 
-Per informazioni sulla configurazione di SAML prima della migrazione all’esperienza di autenticazione avanzata, consulta [Aggiornamento dei metadati SAML 2.0 nel provider di identità](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md).
+Per informazioni sulla configurazione di SAML prima della migrazione all&#39;esperienza di autenticazione avanzata, vedere [Aggiornare i metadati SAML 2.0 nel provider di identità](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md).
 
 
 ## Requisiti di accesso
@@ -43,7 +43,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Devi essere un amministratore di Workfront.</p> <p><b>NOTA</b>: se ancora non disponi dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <p>Devi essere un amministratore di Workfront.</p> <p><b>NOTA</b>: se non disponi ancora dell'accesso, chiedi all'amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,20 +58,20 @@ Okta è un esempio di provider di identità che supporta SAML 2.0. Questa sezion
 
 Completa le sezioni seguenti per configurare Okta come provider di identità in Workfront.
 
-* [Creare un’app Workfront in Okta](#create-a-workfront-app-in-okta)
+* [Crea un&#39;app Workfront in Okta](#create-a-workfront-app-in-okta)
 * [Aggiungere l’istanza Okta come provider di identità in Workfront](#add-your-okta-instance-as-an-identity-provider-in-workfront)
 
 ### Creare un’app Workfront in Okta {#create-a-workfront-app-in-okta}
 
 1. Accedi all’ambiente Okta.
-1. Assicurati che **Interfaccia classica** è selezionato nell’angolo superiore sinistro dell’interfaccia Okta.
+1. Verificare che **Interfaccia classica** sia selezionata nell&#39;angolo superiore sinistro dell&#39;interfaccia Okta.
 1. Nel menu, fai clic su **Applicazioni** > **Applicazioni**.
 
-1. Clic **Aggiungi applicazione**, quindi fai clic su **Crea nuova app**.
+1. Fai clic su **Aggiungi applicazione**, quindi su **Crea nuova app**.
 
-1. In **Finestra di dialogo Crea nuova integrazione dell’applicazione** , seleziona **SAML 2.0**, quindi fai clic su **Crea**.
+1. Nella casella **Crea nuova integrazione applicazione**, selezionare **SAML 2.0**, quindi fare clic su **Crea**.
 
-1. Specifica un nome per l&#39;app Workfront, quindi fai clic su **Successivo**.
+1. Specifica un nome per l&#39;app Workfront, quindi fai clic su **Avanti**.
 1. Nella pagina Impostazioni SAML visualizzata, individuare le informazioni necessarie per la pagina Impostazioni SAML:
 
    1. Senza uscire dalla scheda del browser in cui è visualizzata l’interfaccia Okta, apri una scheda o una finestra del browser separata.
@@ -79,39 +79,39 @@ Completa le sezioni seguenti per configurare Okta come provider di identità in 
 
       `https://[your_customer_subdomain].my.workfront.com/auth/saml2/metadata`
 
-   1. Nel file XML risultante, identificare i valori per **entityID** e **Posizione**.
+   1. Nel file XML risultante, identificare i valori per **entityID** e **Location**.
 
       ![sso-okta.png](assets/sso-okta.png)
 
-   1. Copia il valore da **entityID** negli Appunti di sistema. Non chiudere questa scheda del browser.
+   1. Copia il valore dal campo **entityID** negli Appunti di sistema. Non chiudere questa scheda del browser.
 
 1. Torna alla pagina Impostazioni SAML aperta al passaggio 6.
-1. Incolla il valore da **entityID** campo in **URI pubblico (ID entità SP)** campo.
+1. Incolla il valore dal campo **entityID** nel campo **Audience URI (ID entità SP)**.
 
-1. Nel file XML nell’altra scheda del browser, copia il valore da **Posizione** campo.
-1. Incolla il valore da **Posizione** campo in **Single Sign-On** **URL** campo.
+1. Nel file XML nell&#39;altra scheda del browser, copia il valore dal campo **Posizione**.
+1. Incolla il valore dal campo **Posizione** nel campo **Single Sign-on** **URL**.
 
-1. Scorri fino a **Istruzioni attributo (facoltativo)** sezione.
-1. In **Nome** campo, specifica **email**.
+1. Scorri fino alla sezione **Istruzioni attributo (facoltativo)**.
+1. Nel campo **Name**, specifica **email**.
 
-1. In **Valore** campo, specifica **user.email**.
+1. Nel campo **Valore**, specifica **user.email**.
 
 1. (Facoltativo) Aggiungi eventuali valori avanzati.
-1. Clic **Successivo**.
-1. Seleziona, **Sono un cliente Okta che aggiunge un’app interna**, quindi fai clic su **Fine**.
+1. Fai clic su **Avanti**.
+1. Seleziona, **Sono un cliente Okta che aggiunge un&#39;app interna**, quindi fai clic su **Fine**.
 
 ### Aggiungere l’istanza Okta come provider di identità in Workfront {#add-your-okta-instance-as-an-identity-provider-in-workfront}
 
-Questa procedura fornisce informazioni essenziali per configurare Okta come provider di identità in Workfront. Per ulteriori informazioni su altre mappature o opzioni di configurazione, vedi [Configurare Adobe Workfront con SAML 2.0](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).
+Questa procedura fornisce informazioni essenziali per configurare Okta come provider di identità in Workfront. Per ulteriori informazioni su altre mappature o opzioni di configurazione, vedere [Configurare Adobe Workfront con SAML 2.0](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).
 
 1. Scarica i metadati del provider di identità per l’istanza Okta:
 
    1. Accedi all’ambiente Okta.
-   1. Assicurati che **Interfaccia classica** è selezionato nell’angolo superiore sinistro dell’interfaccia Okta.
+   1. Verificare che **Interfaccia classica** sia selezionata nell&#39;angolo superiore sinistro dell&#39;interfaccia Okta.
    1. Nel menu, fai clic su **Applicazioni** > **Applicazioni**.
 
-   1. Fai clic sull’app Workfront che hai creato, come descritto nella sezione, [Creare un’app Workfront in Okta](#create-a-workfront-app-in-okta)
-   1. Il giorno **Accedi** , fare clic su **Metadati provider identità**.
+   1. Fai clic sull&#39;app Workfront creata, come descritto nella sezione [Creare un&#39;app Workfront in Okta](#create-a-workfront-app-in-okta)
+   1. Nella scheda **Accedi**, fai clic su **Metadati provider di identità**.
 
       ![idp_okta_metadata.png](assets/idp-okta-metadata.png)
 
@@ -120,28 +120,28 @@ Questa procedura fornisce informazioni essenziali per configurare Okta come prov
    1. Copia l’URL visualizzato nel campo URL del browser.
 
 1. Accedi a Workfront come amministratore Workfront.
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
-1. Nel pannello a sinistra, fai clic su **Sistema** > **Single Sign-On (SSO)**.
+1. Nel pannello a sinistra, fare clic su **Sistema** > **Single Sign-On (SSO)**.
 
-1. (Condizionale) Se sono presenti due schede, fai clic su **Nuovi provider SSO** scheda.
+1. (Condizionale) Se sono presenti due schede, fare clic sulla scheda **Nuovi provider SSO**.
 
    ![sso_idp_halflife.png](assets/sso-idp-halflife-350x234.png)
 
    >[!IMPORTANT]
    >
-   >Non eliminare le impostazioni di configurazione SSO esistenti nella **Provider SSO corrente** finché l’account non viene aggiornato all’esperienza di autenticazione avanzata e la nuova configurazione SSO non è completamente funzionante.
+   >Non eliminare le impostazioni di configurazione SSO esistenti nella scheda **Provider SSO corrente** finché l&#39;account non viene aggiornato all&#39;esperienza di autenticazione avanzata e la nuova configurazione SSO non è completamente funzionante.
 
-1. Clic **Nuovo provider SSO**.
+1. Fare clic su **Nuovo provider SSO**.
 1. Specifica un nome, ad esempio Okta IDP, quindi specifica una descrizione.
-1. In **Compilare campi dai metadati del provider di identità** , incolla l&#39;URL copiato nel passaggio 1 nella sezione **URL metadati** campo.\
-   In alternativa, è possibile fare clic su **Scegli file** per caricare un file xml, ma si consiglia di incollare l’URL.
+1. Nella sezione **Popolare i campi dai metadati del provider di identità**, incolla l&#39;URL copiato nel passaggio 1 nel campo **URL metadati**.\
+   In alternativa, è possibile fare clic su **Scegli file** per caricare un file con estensione xml, ma si consiglia di incollare l&#39;URL.
 
-1. In **Mappa attributi utente** , nella sezione **Attributo directory** campo, tipo **email**. (**Indirizzo e-mail** è già popolato in **Attributo utente Workfront** ).
+1. Nella sezione **Mappa attributi utente**, nel campo **Attributo directory**, digitare **e-mail**. (**Indirizzo e-mail** è già popolato nel campo **Attributo utente Workfront**.)
 
-1. (Facoltativo) Abilita **Rendi provider SSO predefinito** per inviare utenti non autenticati alla schermata di accesso del provider di identità anziché alla schermata di accesso di Workfront per l’autenticazione. È consigliabile abilitare questa opzione solo se tutti gli utenti del sistema accedono a Workfront tramite il provider di identità.
-1. Seleziona la **Abilita** casella di controllo. Prima di procedere, accertati che gli utenti del tuo sistema siano a conoscenza della nuova esperienza di accesso per evitare di perdere l’accesso al sistema Workfront.
-1. Clic **Verifica connessione**.\
+1. (Facoltativo) Abilitare **Rendi provider SSO predefinito** per inviare utenti non autenticati alla schermata di accesso del provider di identità anziché alla schermata di accesso di Workfront per l&#39;autenticazione. È consigliabile abilitare questa opzione solo se tutti gli utenti del sistema accedono a Workfront tramite il provider di identità.
+1. Selezionare la casella di controllo **Abilita**. Prima di procedere, accertati che gli utenti del tuo sistema siano a conoscenza della nuova esperienza di accesso per evitare di perdere l’accesso al sistema Workfront.
+1. Fare clic su **Verifica connessione**.\
    Dovresti visualizzare un messaggio che ti informa che la connessione è riuscita.
 
 1. Fai clic su **Salva**.

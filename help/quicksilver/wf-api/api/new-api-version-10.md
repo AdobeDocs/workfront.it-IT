@@ -9,8 +9,8 @@ role: Developer
 exl-id: 8ac384ae-5d65-4c0e-98c1-cf38cfbff460
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 42%
+source-wordcount: '487'
+ht-degree: 39%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 42%
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | AGGIUNGI |
 |   |   |   |   |   |   | COUNT  |
-|   |   |   |   |   |   | ELIMINA  |
+|   |   |   |   |   |   | DELETE  |
 |   |   |   |   |   |   | MODIFICA  |
 |   |   |   |   |   |   | GET  |
 |   |   |   |   |   |   | RAPPORTO  |
@@ -54,7 +54,7 @@ ht-degree: 42%
 | ID |   |   |   |   |   | COUNT |
 |   |   |   |   |   |   | GET  |
 |   |   |   |   |   |   | RAPPORTO  |
-|   |   |   |   |   |   | SEARCH  |
+|   |   |   |   |   |   | RICERCA  |
 
 {style="table-layout:auto"}
 
@@ -64,11 +64,11 @@ ht-degree: 42%
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | AGGIUNGI |
 |   |   |   |   |   |   | COUNT |
-|   |   |   |   |   |   | ELIMINA  |
+|   |   |   |   |   |   | DELETE  |
 |   |   |   |   |   |   | MODIFICA  |
 |   |   |   |   |   |   | GET  |
 |   |   |   |   |   |   | RAPPORTO  |
-|   |   |   |   |   |   | SEARCH  |
+|   |   |   |   |   |   | RICERCA  |
 
 {style="table-layout:auto"}
 
@@ -109,7 +109,7 @@ Le seguenti risorse esistenti sono state aggiornate con questa versione dell’A
 * Le rimozioni sono indicate con testo barrato
 * Le modifiche sono elencate nella nota dopo la tabella
 
-### Approval
+### Approvazione
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
@@ -150,11 +150,11 @@ Le seguenti risorse esistenti sono state aggiornate con questa versione dell’A
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| name `<sup>1</sup>` |   |   |   |   |   |   |
+| nome `<sup>1</sup>` |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Modifiche a possibleValues
+<sup>1</sup> modifiche a possibleValues
 
 ### DocMetadataLinkGroup
 
@@ -191,7 +191,7 @@ DocumentVersion
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Modifiche a possibleValues
+<sup>1</sup> modifiche a possibleValues
 
 Spesa
 
@@ -218,7 +218,7 @@ Spesa
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Modifiche a possibleValues
+<sup>1</sup> modifiche a possibleValues
 
 ### OpTask
 
@@ -228,7 +228,7 @@ Spesa
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Tipo cambiato da null a booleano
+Tipo <sup>1</sup> cambiato da null a booleano
 
 ### PortalSection
 
@@ -360,7 +360,7 @@ Spesa
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Tipo cambiato da null a booleano
+Tipo <sup>1</sup> cambiato da null a booleano
 
 ## Risorse rimosse {#removed-resources}
 
@@ -370,7 +370,7 @@ Spesa
 |---|---|---|---|---|---|---|
 | allocationDate |   |   |   |   |   | AGGIUNGI  |
 | BudgetedHours |   |   |   |   |   | COUNT  |
-| ID |   |   |   |   |   | ELIMINA  |
+| ID |   |   |   |   |   | DELETE  |
 | plannedBudgetedHours |   |   |   |   |   | MODIFICA  |
 | projectID |   |   |   |   |   | GET  |
 | roleID |   |   |   |   |   | RAPPORTO  |

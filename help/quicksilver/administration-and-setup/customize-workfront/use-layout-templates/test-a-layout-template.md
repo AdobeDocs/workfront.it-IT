@@ -27,9 +27,9 @@ Per informazioni sui modelli di layout per i gruppi, vedere [Creare e modificare
 
 È possibile verificare il modello di layout in uno dei modi seguenti:
 
-* Assegna il modello al tuo account utente e verifica che soddisfi tutti i requisiti. Per istruzioni, consulta [Assegnare un modello di layout agli utenti](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md#assign).
-* Accedi come utente assegnato al modello di layout. Per istruzioni, consulta [Accedi come altro utente](../../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+* Assegna il modello al tuo account utente e verifica che soddisfi tutti i requisiti. Per istruzioni, vedere [Assegnare un modello di layout agli utenti](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md#assign).
+* Accedi come utente assegnato al modello di layout. Per istruzioni, vedere [Accedere come altro utente](../../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
-Dopo aver testato il modello di layout e aver verificato che funziona correttamente per gli utenti, continua con [Concedere l’accesso amministrativo per un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md).
+Dopo aver testato il modello di layout e aver verificato che funzionerà correttamente per gli utenti, continuare con [Concedere l&#39;accesso amministrativo per un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md).
 
 Per ulteriori informazioni sui modelli di layout, vedere [Creare e gestire modelli di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).

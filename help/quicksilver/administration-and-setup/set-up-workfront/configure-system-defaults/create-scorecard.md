@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Creare una scorecard
-description: Una scorecard misura il grado di allineamento di un progetto ai criteri precedentemente stabiliti per un portfolio. Una scorecard spesso riflette la missione, i valori e gli obiettivi strategici di un’organizzazione.I responsabili di Portfolio solitamente definiscono le domande e le risposte della scorecard per garantire che siano significative e utili durante la definizione delle priorità e la selezione del progetto. Un [!DNL Adobe Workfront] L’amministratore crea le scorecard in base ai consigli dei gestori di portfolio.
+description: Una scorecard misura il grado di allineamento di un progetto ai criteri precedentemente stabiliti per un portfolio. Una scorecard spesso riflette la missione, i valori e gli obiettivi strategici di un’organizzazione.I responsabili di Portfolio solitamente definiscono le domande e le risposte della scorecard per garantire che siano significative e utili durante la definizione delle priorità e la selezione del progetto. Un amministratore  [!DNL Adobe Workfront]  crea le scorecard in base ai consigli dei gestori di portfolio.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Una scorecard misura il grado di allineamento di un progetto ai criteri precedentemente stabiliti per un portfolio. Una scorecard spesso riflette la missione, i valori e gli obiettivi strategici di un’organizzazione.
 
-I responsabili di Portfolio solitamente definiscono le domande e le risposte delle scorecard per garantire che siano significative e utili durante la definizione delle priorità e la selezione dei progetti. Un [!DNL Adobe Workfront] L’amministratore crea le scorecard in base ai consigli dei gestori di portfolio.
+I responsabili di Portfolio solitamente definiscono le domande e le risposte delle scorecard per garantire che siano significative e utili durante la definizione delle priorità e la selezione dei progetti. Un amministratore [!DNL Adobe Workfront] crea le scorecard in base ai consigli dei gestori di portfolio.
 
 Le domande e le risposte scelte per una scorecard devono essere quantificabili in modo da fornire un valore di allineamento per confrontare progetti diversi.
 
@@ -60,13 +60,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 {{step-1-to-setup}}
 
-1. Clic **[!UICONTROL Scorecard]**, quindi fai clic su **[!UICONTROL Nuova scorecard]** per avviare il generatore di scorecard e crearne una.
+1. Fai clic su **[!UICONTROL Scorecard]**, quindi su **[!UICONTROL Nuova scorecard]** per avviare il generatore di scorecard e creare una scorecard.
 
-1. Specifica un **[!UICONTROL Nome Scorecard]** e un **[!UICONTROL Descrizione]**.
+1. Specifica un nome **[!UICONTROL scorecard]** e una **[!UICONTROL descrizione]**.
 
    Il nome viene visualizzato quando si associa la scorecard al progetto. La descrizione viene visualizzata accanto al nome della scorecard nell’elenco delle scorecard.
 
-1. Fai clic su **[!UICONTROL Aggiungi domanda]** menu a discesa per aprire [!UICONTROL domanda scorecard] , quindi specificare le seguenti informazioni per la domanda:
+1. Fai clic sul menu a discesa **[!UICONTROL Aggiungi domanda]** per aprire la sezione [!UICONTROL domanda scorecard], quindi specifica le seguenti informazioni per la domanda:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -82,30 +82,30 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL punti negativi]</td> 
-      <td>Selezionare questa opzione per indicare che [!DNL Workfront] devono sottrarre dal totale i punti possibili. Non è possibile aggiungere punteggi negativi al numero massimo di punti possibile di una scorecard.</td> 
+      <td>Selezionare questa opzione per indicare che [!DNL Workfront] deve sottrarre dal totale dei punti possibili. Non è possibile aggiungere punteggi negativi al numero massimo di punti possibile di una scorecard.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tipo di visualizzazione [!UICONTROL]</td> 
-      <td>Seleziona <strong>[!UICONTROL Valore(0-100)]</strong> se desideri visualizzare un campo numerico nella scorecard in cui gli utenti possono specificare un valore compreso tra 0 e 100.<p>Oppure, seleziona <strong>[!UICONTROL A Discesa]</strong> o <strong>[!UICONTROL Pulsanti Di Scelta]</strong> per creare una risposta, gli utenti possono specificare utilizzando tale controllo. Clic <strong>[!UICONTROL Aggiungi risposta]</strong>, quindi digita il <strong>Valore [!UICONTROL]</strong> in punti percentuali per la risposta, nel caso in cui sia soddisfatta. Se si sceglie 100%, il numero di punti assegnati per questa domanda viene raggiunto completamente. Se si desidera indicare che la risposta contiene solo una parte del totale di punti assegnati a questa domanda, selezionare un valore percentuale inferiore. Ad esempio, se la domanda è valutata a 10 punti e si desidera che la risposta contenga 5 di tali punti, scegliere 50% per il valore.</p>
-      <p>Seleziona <strong>[!UICONTROL predefinito]</strong> se si desidera indicare che questa risposta è quella predefinita.</strong></p>
+      <td>Selezionare <strong>[!UICONTROL Value(0-100)]</strong> per visualizzare un campo numerico nella scorecard in cui gli utenti possono specificare un valore compreso tra 0 e 100.<p>In alternativa, selezionare <strong>[!UICONTROL elenco a discesa]</strong> o <strong>[!UICONTROL pulsanti di scelta]</strong> per creare una risposta che gli utenti possono specificare utilizzando tale controllo. Fare clic su <strong>[!UICONTROL Add Answer]</strong>, quindi digitare il <strong>[!UICONTROL Value]</strong> in punti percentuali per questa risposta, nel caso che sia soddisfatta. Se si sceglie 100%, il numero di punti assegnati per questa domanda viene raggiunto completamente. Se si desidera indicare che la risposta contiene solo una parte del totale di punti assegnati a questa domanda, selezionare un valore percentuale inferiore. Ad esempio, se la domanda è valutata a 10 punti e si desidera che la risposta contenga 5 di tali punti, scegliere 50% per il valore.</p>
+      <p>Selezionare <strong>[!UICONTROL Predefinito]</strong> se si desidera indicare che questa risposta è quella predefinita.</strong></p>
      </tr> 
     </tbody> 
    </table>
 
-1. Clic **[!UICONTROL Aggiungi domanda]** per aggiungere ulteriori domande e risposte alla scorecard, seguendo gli stessi passaggi.
+1. Fai clic su **[!UICONTROL Aggiungi domanda]** per aggiungere altre domande e risposte alla scorecard, seguendo gli stessi passaggi.
 
    >[!NOTE]
    >
    >Puoi riordinare le domande nella scorecard trascinandole nell’ordine corretto.
 
-1. Clic **[!UICONTROL Salva]** dopo aver immesso tutte le informazioni.
+1. Fai clic su **[!UICONTROL Salva]** dopo aver immesso tutte le informazioni.
 
    In questo modo, la scorecard viene creata e i project manager possono collegarla al proprio caso aziendale di progetto.
 
 ## Applicare una scorecard a un progetto
 
-Un utente con [!UICONTROL gestire] le autorizzazioni di un progetto possono applicare una scorecard a un progetto, dopo che questa è stata creata da [!DNL Workfront] amministratore.
+Un utente con autorizzazioni [!UICONTROL manage] per un progetto può applicare una scorecard a un progetto dopo che l&#39;amministratore [!DNL Workfront] ha creato la scorecard.
 
-Una scorecard viene aggiunta a un progetto nell’ambito della creazione di un business case per il progetto. Per ulteriori informazioni sull’aggiunta di una scorecard a un progetto, consulta [Applicare una scorecard a un progetto e generare un punteggio di allineamento](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
+Una scorecard viene aggiunta a un progetto nell’ambito della creazione di un business case per il progetto. Per ulteriori informazioni sull&#39;aggiunta di una scorecard a un progetto, vedere [Applicare una scorecard a un progetto e generare un punteggio di allineamento](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
-Per ulteriori informazioni sulle autorizzazioni per i progetti, consulta [Condividere un progetto in [!DNL Adobe Workfront]](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+Per ulteriori informazioni sulle autorizzazioni del progetto, vedere [Condividere un progetto in [!DNL Adobe Workfront]](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).

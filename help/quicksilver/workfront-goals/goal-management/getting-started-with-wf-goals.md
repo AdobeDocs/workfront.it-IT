@@ -22,7 +22,7 @@ Per utilizzare le funzionalità descritte in questo articolo, l’organizzazione
 
      Oppure
 
-     Una licenza aggiuntiva per Adobe Workfront Goals per i piani Prime o Select Adobe Workfront. Per ulteriori informazioni, consulta [piano Adobe Workfront](https://www.workfront.com/plans).
+     Una licenza aggiuntiva per Adobe Workfront Goals per i piani Prime o Select Adobe Workfront. Per ulteriori informazioni, vedere [Piano Adobe Workfront](https://www.workfront.com/plans).
 
 * Per il piano corrente e la struttura delle licenze:
 
@@ -32,7 +32,7 @@ Per utilizzare le funzionalità descritte in questo articolo, l’organizzazione
 
 Contatta il tuo account manager Workfront per saperne di più su una licenza Workfront Goals.
 
-Per ulteriori informazioni sull’accesso agli obiettivi di Workfront, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Per ulteriori informazioni sull&#39;accesso agli obiettivi di Workfront, vedere [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Ogni organizzazione deve stabilire e comunicare obiettivi chiari per mantenere produttivi, focalizzati e coinvolti i propri team. Sapere veramente come il lavoro è allineato alla strategia è fondamentale per il successo. Tuttavia, senza un sistema di registrazione che colleghi la tua strategia e i tuoi obiettivi con il lavoro dell’organizzazione, raggiungere l’allineamento può essere davvero difficile.
 
@@ -48,8 +48,8 @@ In genere, la missione e la visione di un’organizzazione non cambiano regolarm
 
 Abbiamo identificato i seguenti passaggi per definire la tua visione e la tua strategia per la tua organizzazione:
 
-* [Definire ed esprimere l’obiettivo finale](#define-and-express-the-end-goal)
-* [Collaborare per raggiungere gli obiettivi aziendali e organizzativi](#collaborate-around-enterprise-and-organizational-goals)
+* [Definisci ed esprime l&#39;obiettivo finale](#define-and-express-the-end-goal)
+* [Collaborazione per raggiungere gli obiettivi aziendali e organizzativi](#collaborate-around-enterprise-and-organizational-goals)
 * [Allineare gruppi e team alla strategia](#align-groups-and-teams-to-strategy)
 
 ### Definire ed esprimere l’obiettivo finale {#define-and-express-the-end-goal}
@@ -72,7 +72,7 @@ Consigliamo quanto segue:
 
 Per informazioni sulla creazione di obiettivi e sull’aggiunta di risultati, consulta i seguenti articoli:
 
-* [Creare gli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
+* [Crea obiettivi in Obiettivi Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
 * [Aggiungere risultati agli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 
 ### Collaborare per raggiungere gli obiettivi aziendali e organizzativi {#collaborate-around-enterprise-and-organizational-goals}
@@ -90,7 +90,7 @@ Durante la creazione e l’allineamento degli obiettivi, considera le seguenti l
 
 Per informazioni sulla creazione e l’allineamento degli obiettivi, vedi i seguenti articoli:
 
-* [Creare gli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
+* [Crea obiettivi in Obiettivi Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
 * [Panoramica sull’allineamento degli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
 
 ### Allineare gruppi e team alla strategia {#align-groups-and-teams-to-strategy}
@@ -117,8 +117,8 @@ Effettua le seguenti operazioni:
 
   Per informazioni sull’attivazione, l’aggiunta di attività e l’aggiornamento degli obiettivi, consulta i seguenti articoli:
 
-   * [Attivare gli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/activate-goals.md)
-   * [Aggiungere attività agli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
+   * [Attiva obiettivi in Obiettivi Adobe Workfront](../../workfront-goals/goal-management/activate-goals.md)
+   * [Aggiungi attività agli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
    * [Aggiornamento dell’avanzamento dell’obiettivo in Obiettivi di Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
 
 ## Linee guida per la configurazione degli obiettivi di Workfront
@@ -134,11 +134,11 @@ Segui queste linee guida per assicurarti di essere configurato correttamente per
 >
 >Quando identifichi i proprietari principali, tieni presente che stai impostando obiettivi strategici per i risultati aziendali e non per gli obiettivi di sviluppo personali.
 
-Per informazioni sulla configurazione dell’accesso agli obiettivi di Workfront, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Per informazioni sulla configurazione dell&#39;accesso agli obiettivi di Workfront, vedere [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 ## Oggetti Obiettivi Workfront
 
-La tabella seguente descrive gli oggetti Obiettivi di Workfront. Puoi personalizzarne il nome modificando un modello di layout e assegnandolo a utenti, team o gruppi. Per informazioni sulla personalizzazione dei nomi degli oggetti tramite un modello di layout, vedere [Personalizzare la terminologia dell’interfaccia utente utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
+La tabella seguente descrive gli oggetti Obiettivi di Workfront. Puoi personalizzarne il nome modificando un modello di layout e assegnandolo a utenti, team o gruppi. Per informazioni sulla personalizzazione dei nomi degli oggetti tramite un modello di layout, vedere [Personalizzare la terminologia dell&#39;interfaccia utente tramite un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
 
 Workfront Goals utilizza i seguenti oggetti principali:
 

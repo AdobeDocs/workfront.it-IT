@@ -17,13 +17,13 @@ ht-degree: 0%
 
 # 21.2 Miglioramenti all’integrazione
 
-Questa pagina descrive tutti i miglioramenti all’integrazione apportati con la versione 21.2 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 10 maggio 2021. Per un elenco di tutte le modifiche disponibili con la versione 21.2, consulta [Panoramica sulla versione 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Questa pagina descrive tutti i miglioramenti all’integrazione apportati con la versione 21.2 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 10 maggio 2021. Per un elenco di tutte le modifiche disponibili con la versione 21.2, consulta la [panoramica sulla versione 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Adobe Workfront per l’XD
 
 Siamo entusiasti di annunciare il lancio del nostro nuovo plug-in: Adobe Workfront for XD. Questo plug-in consente di accedere ai dettagli degli elementi di lavoro, collaborare con i colleghi nell’area Aggiornamenti e inviare le bozze per la revisione, il tutto senza uscire dall’XD. Visita il marketplace Adobe XD per scaricare il plug-in.
 
-Per ulteriori informazioni su cosa è possibile fare con Adobe Workfront per l’XD, consulta [Gestire il lavoro con il plug-in Adobe Workfront per applicazioni Creative Cloud](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md).
+Per ulteriori informazioni sulle operazioni che è possibile eseguire con Adobe Workfront per XD, vedere [Gestire l&#39;utilizzo del plug-in Adobe Workfront per applicazioni Creative Cloud](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md).
 
 
 ## Cercare cartelle nelle integrazioni di documenti
@@ -32,7 +32,7 @@ Per facilitare la navigazione nelle integrazioni dei documenti, è stata resa po
 
 In precedenza, era possibile individuare le sottocartelle solo aprendo le cartelle principali.
 
-Per ulteriori informazioni, consulta [Collegare documenti da applicazioni esterne](../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Per ulteriori informazioni, vedere [Collegare documenti da applicazioni esterne](../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 ## Protezione avanzata durante il caricamento di file in Google Drive
 

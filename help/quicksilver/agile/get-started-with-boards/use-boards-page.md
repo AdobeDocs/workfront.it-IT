@@ -2,7 +2,7 @@
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Utilizzare il dashboard delle bacheche
-description: Il [!UICONTROL schede madri] nel dashboard viene visualizzato l’elenco delle bacheche a cui hai accesso, incluse quelle create e a cui sei stato aggiunto.
+description: Il dashboard [!UICONTROL bacheche] mostra l'elenco delle bacheche a cui hai accesso, incluse le bacheche create e a cui sei stato aggiunto.
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
@@ -31,7 +31,7 @@ Nel dashboard è possibile effettuare le seguenti operazioni per le bacheche e i
 * Cercare una bacheca o un flusso di lavoro
 * Eliminare una bacheca o un flusso di lavoro
 
-Per informazioni sulla creazione di una nuova bacheca o sulla modifica di una bacheca esistente, consulta [Creare o modificare una bacheca](../../agile/get-started-with-boards/create-edit-board.md). Per informazioni sulla creazione di un nuovo flusso di lavoro, vedere [Gestire i flussi di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+Per informazioni sulla creazione di una nuova bacheca o sulla modifica di una bacheca esistente, vedere [Creare o modificare una bacheca](../../agile/get-started-with-boards/create-edit-board.md). Per informazioni sulla creazione di un nuovo flusso di lavoro, vedere [Gestire i flussi di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## Requisiti di accesso
 
@@ -67,26 +67,26 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 Puoi filtrare il dashboard delle bacheche in modo da visualizzare le bacheche attive, archiviate o tutte le bacheche o i flussi di lavoro.
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **[!UICONTROL Schede]**.
-1. Clic [!UICONTROL **Filtro**] nell’area Bacheche o nell’area Flussi di lavoro e seleziona **[!UICONTROL Tutti]**, **[!UICONTROL Attivo]**, o **[!UICONTROL Archiviato]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **[!UICONTROL Bozze]**.
+1. Fare clic su [!UICONTROL **Filtro**] nell&#39;area Bacheche o nell&#39;area Flussi di lavoro e selezionare **[!UICONTROL Tutti]**, **[!UICONTROL Attivi]** o **[!UICONTROL Archiviati]**.
 
-   Quando nel dashboard viene applicato un filtro diverso da quello predefinito, sull’icona del filtro viene visualizzato un indicatore ![Filtro applicato al dashboard](assets/boards-filterapplied-30x30.png).
+   Quando nel dashboard viene applicato un filtro diverso da quello predefinito, viene visualizzato un indicatore sull&#39;icona del filtro ![Filtro applicato al dashboard](assets/boards-filterapplied-30x30.png).
 
 ## Ordinare i pannelli
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **[!UICONTROL Schede]**.
-1. Per ordinare l’elenco delle bacheche, fai clic su [!UICONTROL **Ordina**]. L’opzione di ordinamento predefinita per la pagina è **[!UICONTROL Data di modifica]**. Puoi anche ordinare la pagina per bacheca **[!UICONTROL Nome]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **[!UICONTROL Bozze]**.
+1. Per ordinare l&#39;elenco delle bacheche, fare clic su [!UICONTROL **Ordina**]. L&#39;opzione di ordinamento predefinita per la pagina è **[!UICONTROL Data modifica]**. Puoi anche ordinare la pagina per bacheca **[!UICONTROL Name]**.
 
    Seleziona **[!UICONTROL Ordine inverso]** per ordinare le bacheche in ordine inverso rispetto alla data di modifica o al nome. Quando la freccia sull&#39;icona di ordinamento punta verso l&#39;alto, viene applicato l&#39;ordine inverso. Quando la freccia punta verso il basso, viene applicato l&#39;ordine standard.
 
-   Quando nel quadro comandi viene applicato un ordinamento diverso da quello predefinito, sull&#39;icona di ordinamento viene visualizzato un indicatore ![Ordinamento applicato](assets/sort-applied-boards.png).
+   Quando nel dashboard viene applicato un ordinamento diverso da quello predefinito, viene visualizzato un indicatore sull&#39;icona di ordinamento ![Ordinamento applicato](assets/sort-applied-boards.png).
 
 ## Cercare una bacheca o un flusso di lavoro
 
 È possibile cercare una scheda specifica nell&#39;area Bacheche oppure cercare un flusso di lavoro specifico nell&#39;area Flussi di lavoro.
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **[!UICONTROL Schede]**.
-1. Clic [!UICONTROL **Ricerca**] e digita un termine di ricerca. Quindi premere Invio.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **[!UICONTROL Bozze]**.
+1. Fai clic su [!UICONTROL **Cerca**] e digita un termine di ricerca. Quindi premere Invio.
 
    Vengono visualizzate tutte le bacheche o i flussi di lavoro che contengono il termine di ricerca nel titolo.
 
@@ -104,20 +104,20 @@ Quando si archivia una bacheca o un flusso di lavoro, questa viene inviata all&#
 >
 >Quando si archivia un flusso di lavoro, tutte le relative schede vengono archiviate.
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **[!UICONTROL Schede]**.
-1. Fai clic su **[!UICONTROL Altro]** menu ![Menu Altro](assets/more-icon-spectrum.png) sulla scheda o sul flusso di lavoro e selezionare **[!UICONTROL Archivia]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **[!UICONTROL Bozze]**.
+1. Fai clic sul menu **[!UICONTROL Altro]** ![Altro menu](assets/more-icon-spectrum.png) sulla bacheca o sul flusso di lavoro e seleziona **[!UICONTROL Archivia]**.
 
-   In un flusso di lavoro, il menu è a destra, accanto al [!UICONTROL **Visualizza flusso di lavoro**] pulsante.
+   In un flusso di lavoro, il menu è a destra, accanto al pulsante [!UICONTROL **Visualizza flusso di lavoro**].
 
-   Un [!UICONTROL Archivia] icona ![Archivia](assets/archive-icon-spectrum-25x20.png) viene visualizzato sulla scheda o nel flusso di lavoro. Non è possibile modificare una bacheca o un flusso di lavoro archiviato.
+   Nella bacheca o nel flusso di lavoro viene visualizzata l&#39;icona [!UICONTROL Archivia] ![Archivia](assets/archive-icon-spectrum-25x20.png). Non è possibile modificare una bacheca o un flusso di lavoro archiviato.
 
-   Gli elementi archiviati vengono nascosti nel dashboard delle bacheche a meno che non si applichi un filtro per visualizzarli. Per ulteriori informazioni, vedere [[!UICONTROL Schede filtro]](#filter-boards) in questo articolo.
+   Gli elementi archiviati vengono nascosti nel dashboard delle bacheche a meno che non si applichi un filtro per visualizzarli. Per ulteriori informazioni, consulta la sezione [[!UICONTROL Filtrare le bacheche]](#filter-boards) in questo articolo.
 
-1. Per ripristinare una bacheca o un flusso di lavoro archiviato, fare clic su **[!UICONTROL Altro]** menu ![Icona Altro menu](assets/more-icon-spectrum.png) sulla scheda o sul flusso di lavoro e selezionare **[!UICONTROL Ripristina]**.
+1. Per ripristinare una bacheca o un flusso di lavoro archiviati, fare clic sul menu **[!UICONTROL Altro]** ![Icona altro menu](assets/more-icon-spectrum.png) sulla bacheca o sul flusso di lavoro e selezionare **[!UICONTROL Ripristina]**.
 
 ## Eliminare una bacheca o un flusso di lavoro
 
-Quando elimini una bacheca, questa viene rimossa definitivamente da [!DNL Workfront] e non possono essere ripristinati. Tutte le schede sulla bacheca vengono eliminate insieme alla bacheca.
+Quando si elimina una bacheca, questa viene rimossa definitivamente da [!DNL Workfront] e non può essere ripristinata. Tutte le schede sulla bacheca vengono eliminate insieme alla bacheca.
 
 L’eliminazione di un flusso di lavoro comporta anche l’eliminazione di tutte le schede del flusso di lavoro.
 
@@ -125,12 +125,12 @@ L’eliminazione di un flusso di lavoro comporta anche l’eliminazione di tutte
 >
 >È possibile eliminare solo le bacheche e i flussi di lavoro creati dall&#39;utente, non le bacheche e i flussi di lavoro aggiunti dall&#39;utente.
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **[!UICONTROL Schede]**.
-1. Fai clic su **[!UICONTROL Altro]** menu ![[!UICONTROL Menu Altro]](assets/more-icon-spectrum.png) sulla scheda o sul flusso di lavoro e selezionare **[!UICONTROL Elimina]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **[!UICONTROL Bozze]**.
+1. Fai clic sul menu **[!UICONTROL Altro]** ![[!UICONTROL Altro menu]](assets/more-icon-spectrum.png) sulla bacheca o sul flusso di lavoro e seleziona **[!UICONTROL Elimina]**.
 
-   In un flusso di lavoro, il menu è a destra, accanto al [!UICONTROL **Visualizza flusso di lavoro**] pulsante.
+   In un flusso di lavoro, il menu è a destra, accanto al pulsante [!UICONTROL **Visualizza flusso di lavoro**].
 
-1. Clic **[!UICONTROL Elimina bacheca]** o [!UICONTROL **Elimina flusso di lavoro**] sul messaggio di conferma.
+1. Fai clic su **[!UICONTROL Elimina bacheca]** o [!UICONTROL **Elimina flusso di lavoro**] nel messaggio di conferma.
 
 <!-- ## Move a board to a workstream
 

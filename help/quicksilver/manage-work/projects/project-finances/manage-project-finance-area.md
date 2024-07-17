@@ -8,8 +8,8 @@ feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
 source-git-commit: 647788221b4acff1cfd5e0ce14d5b99cf90ceee0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1304'
+ht-degree: 2%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)</p>
 -->
 
-È possibile visualizzare o modificare le informazioni finanziarie di un progetto accedendo all&#39;area Finanza della sezione Dettagli progetto. In quest’area è disponibile un numero limitato di campi che è possibile visualizzare o modificare. Per informazioni sulla modifica di tutte le informazioni di un progetto, consulta [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
+È possibile visualizzare o modificare le informazioni finanziarie di un progetto accedendo all&#39;area Finanza della sezione Dettagli progetto. In quest’area è disponibile un numero limitato di campi che è possibile visualizzare o modificare. Per informazioni sulla modifica di tutte le informazioni per un progetto, vedere [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 ## Requisiti di accesso
 
@@ -40,16 +40,16 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
    <td> <p>Visualizzare o accedere ai progetti e ai dati finanziari</p> <p>Modifica l'accesso a Progetti e Dati finanziari per modificare le informazioni finanziarie sul progetto</p> <p><b>NOTA</b></p>
-   <p> Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <p> Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizzare le autorizzazioni per un progetto o versione successiva che includono le autorizzazioni View Finance</p> <p>Consente di gestire le autorizzazioni per il progetto, tra cui Gestisci dati finanziari, per modificare le informazioni finanziarie per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Visualizzare le autorizzazioni per un progetto o versione successiva che includono le autorizzazioni View Finance</p> <p>Consente di gestire le autorizzazioni per il progetto, tra cui Gestisci dati finanziari, per modificare le informazioni finanziarie per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Panoramica dell&#39;area Finanza
 
@@ -62,14 +62,14 @@ Quando si visualizzano o si modificano informazioni nell&#39;area Finanza, tener
 ## Visualizzare informazioni finanziarie su un progetto
 
 1. Vai a un progetto.
-1. Clic **Dettagli progetto** nel pannello a sinistra.
-1. Fai clic su **Modifica** icona ![](assets/edit-icon.png) nell’angolo superiore destro della sezione Dettagli, quindi fai clic su **Finanza**.
+1. Fai clic su **Dettagli progetto** nel pannello a sinistra.
+1. Fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png) nell&#39;angolo superiore destro della sezione Dettagli, quindi fai clic su **Finanza**.
 
    ![](assets/finance-area-in-details-view-only-nwe-350x188.png)
 
    >[!NOTE]
    >
-   >A seconda del modo in cui l’amministratore di Workfront ha configurato il modello di layout, la sezione Panoramica potrebbe non essere elencata per prima, nel qual caso è compressa. Per informazioni, consulta [Personalizzare la visualizzazione Dettagli utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >A seconda del modo in cui l’amministratore di Workfront ha configurato il modello di layout, la sezione Panoramica potrebbe non essere elencata per prima, nel qual caso è compressa. Per informazioni, vedere [Personalizzare la visualizzazione Dettagli utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
 1. Visualizzare i campi seguenti nell&#39;area Finanza del progetto:
 
@@ -78,16 +78,16 @@ Quando si visualizzano o si modificano informazioni nell&#39;area Finanza, tener
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Metodo di indice performance</td> 
-      <td> Controlla il metodo utilizzato da Workfront per calcolare le metriche di Valore guadagnato. Può essere basato sulle ore o sui costi. <br>Per ulteriori informazioni sulla protezione PIM, vedere l'articolo <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Impostare il metodo PIM (Performance Index Method)</a></td> 
+      <td role="rowheader">Metodo indice prestazioni</td> 
+      <td> Controlla il metodo utilizzato da Workfront per calcolare le metriche di Valore guadagnato. Può essere basato sulle ore o sui costi. <br>Per ulteriori informazioni su PIM, vedere l'articolo <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Impostare il metodo di indicizzazione delle prestazioni (PIM)</a></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">CPI / SPI / CSI</td> 
-      <td> <p>Si tratta di metriche delle prestazioni del progetto che mostrano le prestazioni del progetto in un determinato momento. I valori vengono calcolati in base al metodo dell'indice delle prestazioni.<br>Per ulteriori informazioni, consulta i seguenti articoli: </p> 
+      <td role="rowheader">CPI/SPI/CSI</td> 
+      <td> <p>Si tratta di metriche delle prestazioni del progetto che mostrano le prestazioni del progetto in un determinato momento. I valori vengono calcolati in base al metodo dell'indice delle prestazioni.<br>Per ulteriori informazioni, vedere i seguenti articoli: </p> 
        <ul> 
         <li> <p><a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref">Calcola indice prestazioni costi (IPC)</a> </p> </li> 
-        <li> <p><a href="../../../manage-work/projects/project-finances/calculate-spi.md" class="MCXref xref">Calcola indice prestazioni Schedule (SPI) </a> </p> </li> 
-        <li> <p><a href="../../../manage-work/projects/project-finances/calculate-csi.md" class="MCXref xref">Calcola indice prestazioni programma costi (CSI)</a> </p> </li> 
+        <li> <p><a href="../../../manage-work/projects/project-finances/calculate-spi.md" class="MCXref xref">Calcola indice prestazioni pianificazione (SPI) </a> </p> </li> 
+        <li> <p><a href="../../../manage-work/projects/project-finances/calculate-csi.md" class="MCXref xref">Calcola indice prestazioni programma costi</a> </p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -124,7 +124,7 @@ Quando si visualizzano o si modificano informazioni nell&#39;area Finanza, tener
      </tr> 
      <tr> 
       <td role="rowheader">Reddito Fatturato</td> 
-      <td> <p>Ricavi fatturati ai clienti o ad altre parti e registrati nelle Fatturazioni. Per ulteriori informazioni sui record di fatturazione, consulta l’articolo <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">Crea record fatturazione</a>. </p> </td> 
+      <td> <p>Ricavi fatturati ai clienti o ad altre parti e registrati nelle Fatturazioni. Per ulteriori informazioni sui record di fatturazione, vedere l'articolo <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">Creare record di fatturazione</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> </td> 
@@ -149,8 +149,8 @@ Per modificare le informazioni nella scheda secondaria Dati finanziari progetto:
    >
    >Per eseguire i passaggi seguenti, è necessario disporre delle autorizzazioni di gestione per il progetto. È inoltre consigliabile che solo il proprietario del progetto apporti modifiche alla scheda secondaria Finanza del progetto.
 
-1. Clic **Dettagli progetto** nel pannello a sinistra.
-1. Fai clic su **Modifica** icona ![](assets/edit-icon.png) nell’angolo superiore destro della sezione Dettagli, quindi fai clic su **Finanza** . Verrà aperta l&#39;area Finanza per la modifica.
+1. Fai clic su **Dettagli progetto** nel pannello a sinistra.
+1. Fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png) nell&#39;angolo superiore destro della sezione Dettagli, quindi fai clic su **Finanza**. Verrà aperta l&#39;area Finanza per la modifica.
 1. Modificare qualsiasi campo disponibile per la modifica facendo clic sul campo o facendo clic su **+Aggiungi** per aggiungere informazioni a un campo vuoto.
 
    >[!TIP]
@@ -163,26 +163,26 @@ Per modificare le informazioni nella scheda secondaria Dati finanziari progetto:
 
    >[!NOTE]
    >
-   >A seconda di come l’amministratore di Workfront configura il modello di layout, i campi nella sezione Dettagli progetto potrebbero essere diversi nel tuo ambiente. Per informazioni, consulta [Personalizzare la visualizzazione Dettagli utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >A seconda di come l’amministratore di Workfront configura il modello di layout, i campi nella sezione Dettagli progetto potrebbero essere diversi nel tuo ambiente. Per informazioni, vedere [Personalizzare la visualizzazione Dettagli utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Metodo di indice performance</td> 
+      <td role="rowheader">Metodo indice prestazioni</td> 
       <td> <p>Controlla il metodo utilizzato da Workfront per calcolare le metriche delle prestazioni del progetto. Questa impostazione viene configurata a livello di sistema dall’amministratore, ma puoi anche modificarla a livello di progetto. Prendi in considerazione di selezionare una delle seguenti opzioni:</p> 
        <ul> 
-        <li><strong>Basato su Ore:</strong>Workfront utilizza le ore pianificate per calcolare l’IPC e l’CES del progetto, e l’CES del progetto viene visualizzato come un numero, in ore. </li> 
-        <li><strong>Basato su Costo:</strong>Workfront utilizza il Costo manodopera pianificata per calcolare l'IPC e l'CES del progetto e l'CES viene visualizzato come valore di valuta. Quando si seleziona questa opzione, verificare che gli assegnatari delle attività (mansioni o utenti) siano associati a tassi di costo.</li> 
+        <li><strong>Basato su Ore:</strong>Workfront utilizza le Ore pianificate nel calcolo di CPI ed EAC del progetto e l'EAC del progetto viene visualizzato come numero, in ore. </li> 
+        <li><strong>Basato su costo:</strong>Workfront utilizza il Costo manodopera pianificata per calcolare l'IPC e l'CES del progetto e l'EAC viene visualizzato come valore di valuta. Quando si seleziona questa opzione, verificare che gli assegnatari delle attività (mansioni o utenti) siano associati a tassi di costo.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Stima al completamento</td> 
       <td> <p>Rappresenta il costo totale previsto del progetto o dell'attività al completamento. Questa impostazione viene configurata a livello di sistema dall’amministratore, ma puoi anche modificarla a livello di progetto. Prendi in considerazione di selezionare una delle seguenti opzioni:</p> 
        <ul> 
-        <li><strong>Calcola a livello di progetto</strong>: il costo effettivo della manodopera per l'attività e il progetto padre viene determinato inserendo il costo effettivo ore/manodopera nelle formule EAC. Questo calcolo include le ore effettive, i costi e le spese aggiunti direttamente all'attività o al progetto padre.</li> 
-        <li><strong>Esegui il rollup da attività/sottoattività</strong>: l’EAC per l’attività e il progetto principali viene determinato sommando l’EAC per ogni attività secondaria. Questo calcolo esclude le ore effettive, i costi e le spese aggiunti direttamente all'attività o al progetto padre.</li> 
+        <li><strong>Calcola a livello di progetto</strong>: l'EAC per l'attività padre e il progetto vengono determinati inserendo nelle formule EAC le ore effettive/il costo effettivo della manodopera. Questo calcolo include le ore effettive, i costi e le spese aggiunti direttamente all'attività o al progetto padre.</li> 
+        <li><strong>Rollup da attività/ sottoattività</strong>: l'EAC per l'attività e il progetto padre viene determinato sommando l'EAC per ogni attività figlio. Questo calcolo esclude le ore effettive, i costi e le spese aggiunti direttamente all'attività o al progetto padre.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -199,9 +199,9 @@ Per modificare le informazioni nella scheda secondaria Dati finanziari progetto:
      </tr> 
      <tr> 
       <td role="rowheader">Valuta progetto</td> 
-      <td> <p>Specificare una valuta per il progetto, se diversa da quella predefinita nel sistema. La valuta predefinita nel sistema è definita dall'amministratore di Workfront. Per ulteriori informazioni sull'impostazione dei tassi di cambio in Workfront, vedere l'articolo <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Imposta tassi di cambio</a>.</p> </td> 
+      <td> <p>Specificare una valuta per il progetto, se diversa da quella predefinita nel sistema. La valuta predefinita nel sistema è definita dall'amministratore di Workfront. Per ulteriori informazioni sull'impostazione dei tassi di cambio in Workfront, vedere l'articolo <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Impostazione dei tassi di cambio</a>.</p> </td> 
      </tr>
     </tbody> 
    </table>
 
-1. Clic **Salva modifiche**.
+1. Fai clic su **Salva modifiche**.

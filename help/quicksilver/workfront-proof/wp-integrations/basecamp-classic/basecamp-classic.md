@@ -20,10 +20,10 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alle funzionalità del prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Bozza](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
 Questa sezione contiene i seguenti articoli:
 
-* [Aggiungere una bozza a una [!DNL Basecamp Classic] Progetto](../../../workfront-proof/wp-integrations/basecamp-classic/add-proof-basecamp-classic.md)
-* [Integrare [!DNL Workfront Proof] con [!DNL Basecamp Classic]](../../../workfront-proof/wp-integrations/basecamp-classic/integrate-workfront-proof-basecamp-classic.md)
-* [Revisione di una bozza in [!DNL Basecamp Classic]](../../../workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md)
+* [Aggiungi una bozza a un  [!DNL Basecamp Classic]  progetto](../../../workfront-proof/wp-integrations/basecamp-classic/add-proof-basecamp-classic.md)
+* [Integra [!DNL Workfront Proof] con [!DNL Basecamp Classic]](../../../workfront-proof/wp-integrations/basecamp-classic/integrate-workfront-proof-basecamp-classic.md)
+* [Rivedi una bozza in [!DNL Basecamp Classic]](../../../workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md)

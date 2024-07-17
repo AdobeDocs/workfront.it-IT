@@ -9,7 +9,7 @@ role: Developer
 exl-id: 45b42fe8-7ce3-441d-8fbc-b8db7f9b254e
 source-git-commit: acc7414a9c6eef838147aee675603b6cc2566fb9
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 API-Internal è una versione dell’API Adobe Workfront non supportata a causa della sua progettazione e del suo scopo. Sebbene contenga gli aggiornamenti più recenti dell’API Workfront, è soggetta a modifiche senza preavviso e pertanto deve essere utilizzata con cautela nelle integrazioni di produzione. Workfront consiglia vivamente di aggiornare tutte le integrazioni API interne in un’API con versione.
 
-Per ulteriori informazioni sulle versioni supportate dell’API di Workfront, consulta [Pianificazione del supporto e del controllo delle versioni API](../../wf-api/api/api-version-support-schedule.md).
+Per ulteriori informazioni sulle versioni supportate dell&#39;API Workfront, vedere [Controllo delle versioni e pianificazione del supporto API](../../wf-api/api/api-version-support-schedule.md).
 
 **Utilizzo di API non supportata**
 
@@ -42,7 +42,7 @@ https://<domainname>.my.workfront.com/attask/api-unsupported/proj/4c70...
 
 >[!NOTE]
 >
->Le chiamate non supportate dall’API omettono il `/api` sezione dell’URL.
+>Le chiamate non supportate dall&#39;API omettono la sezione `/api` dell&#39;URL.
 
 L’esempio seguente mostra un URI che chiama la versione 15.0 dell’API:
 

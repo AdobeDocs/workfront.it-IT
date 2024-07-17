@@ -20,7 +20,7 @@ ht-degree: 8%
 
 Adobe Workfront rilascia regolarmente nuove versioni API, in genere due volte all’anno. Le versioni API sono supportate per 3 anni dopo il rilascio. Le versioni API precedenti a 3 anni non sono più supportate.
 
-Per ulteriori informazioni su come identificare e utilizzare le versioni API, consulta [Specificare una versione API nelle integrazioni](/help/quicksilver/wf-api/api/specify-api-version-integrations.md).
+Per ulteriori informazioni sull&#39;identificazione e l&#39;utilizzo delle versioni API, vedere [Specificare una versione API nelle integrazioni](/help/quicksilver/wf-api/api/specify-api-version-integrations.md).
 
 La tabella seguente mostra la versione e la pianificazione del supporto per l’API Workfront.
 
@@ -138,8 +138,8 @@ La tabella seguente mostra la versione e la pianificazione del supporto per l’
  </tbody> 
 </table>
 
-&#42;I problemi relativi alle versioni non supportate dell’API non verranno risolti da Workfront.
+&#42;I problemi relativi a versioni non supportate dell&#39;API non verranno risolti da Workfront.
 
 &#42;&#42;Date soggette a modifica.
 
-Per informazioni sull’utilizzo di versioni specifiche dell’API, consulta [Specificare una versione API nelle integrazioni](../../wf-api/api/specify-api-version-integrations.md)
+Per informazioni sull&#39;utilizzo di versioni specifiche dell&#39;API, vedere [Specificare una versione API nelle integrazioni](../../wf-api/api/specify-api-version-integrations.md)

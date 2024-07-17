@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: Visualizzare le autorizzazioni ereditate sugli oggetti
-description: L’amministratore Adobe Workfront può concedere l’accesso alla visualizzazione o alla modifica degli oggetti quando si assegna il livello di accesso. Per ulteriori informazioni, consulta Concedere l’accesso ai progetti.
+description: L’amministratore di Adobe Workfront può concederti l’accesso per visualizzare o modificare gli oggetti durante l’assegnazione del livello di accesso. Per ulteriori informazioni, consulta Concedere l’accesso ai progetti.
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7025f097-ea99-41bf-965e-617b0f532ff7
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 # Visualizzare le autorizzazioni ereditate sugli oggetti
 
-L’amministratore Adobe Workfront può concedere l’accesso alla visualizzazione o alla modifica degli oggetti quando si assegna il livello di accesso. Per ulteriori informazioni, consulta [Concedere l’accesso ai progetti](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+L’amministratore di Adobe Workfront può concederti l’accesso per visualizzare o modificare gli oggetti durante l’assegnazione del livello di accesso. Per ulteriori informazioni, vedere [Concedere l&#39;accesso ai progetti](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
-Oltre al livello di accesso concesso agli utenti, puoi anche concedere loro le autorizzazioni per oggetti specifici a cui hai accesso per condividere. Per ulteriori informazioni sui livelli di accesso e le autorizzazioni, consulta [Funzionamento congiunto dei livelli di accesso e delle autorizzazioni](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+Oltre al livello di accesso concesso agli utenti, è possibile concedere loro le autorizzazioni per oggetti specifici a cui si ha accesso per la condivisione. Per ulteriori informazioni sui livelli di accesso e sulle autorizzazioni, vedere [Funzionamento dei livelli di accesso e delle autorizzazioni](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
-Gli oggetti ereditano le autorizzazioni dagli oggetti principali in Adobe Workfront.
+Gli oggetti ereditano le autorizzazioni dagli oggetti padre in Adobe Workfront.
 
-Per informazioni sulla gerarchia degli oggetti in Workfront, consulta [Comprendere gli oggetti in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Per informazioni sulla gerarchia di oggetti in Workfront, vedere [Informazioni sugli oggetti in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 ## Requisiti di accesso
 
@@ -55,14 +55,14 @@ Per informazioni sulla gerarchia degli oggetti in Workfront, consulta [Comprende
 </table>
 -->
 
-Devi disporre dei seguenti elementi:
+Devi avere i seguenti:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
@@ -70,17 +70,17 @@ Devi disporre dei seguenti elementi:
    <td> <p>Lavoro o superiore</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Visualizza o consente un accesso superiore agli oggetti per i quali si desidera visualizzare le autorizzazioni</p> <p>Nota: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Accesso di visualizzazione o superiore sugli oggetti per i quali si desidera visualizzare le autorizzazioni</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizza o autorizzazioni superiori per gli oggetti per i quali si desidera visualizzare le autorizzazioni</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Visualizza o autorizzazioni superiori per gli oggetti per i quali si desidera visualizzare le autorizzazioni</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Visualizzare le autorizzazioni ereditate per un oggetto
 
@@ -88,16 +88,16 @@ La visualizzazione delle autorizzazioni ereditate è identica per tutti gli ogge
 
 Per visualizzare le autorizzazioni ereditate per un progetto:
 
-1. Passa a un progetto di cui desideri visualizzare le autorizzazioni di condivisione.
-1. Fai clic sul pulsante **Altro** menu ![](assets/more-icon.png), quindi fai clic su **Condivisione**.
+1. Vai a un progetto di cui desideri visualizzare le autorizzazioni di condivisione.
+1. Fai clic sul menu **Altro** ![](assets/more-icon.png), quindi fai clic su **Condivisione**.
 
-1. Espandi la **Autorizzazioni ereditate** elenco.
+1. Espandere l&#39;elenco **Autorizzazioni ereditate**.
 
-   Questo elenco visualizza i nomi degli utenti che hanno accesso al portfolio o al programma a cui appartiene il progetto e dispongono anche delle autorizzazioni per il progetto.
+   In questo elenco vengono visualizzati i nomi degli utenti che hanno accesso al portfolio o al programma a cui appartiene il progetto e che dispongono anche delle autorizzazioni per il progetto.
 
    ![](assets/remove-inherited-permissions-on-project-nwe-350x475.png)
 
-1. (Facoltativo) Per rimuovere le autorizzazioni ereditate da un oggetto, consultare [Rimuovere le autorizzazioni dagli oggetti](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+1. (Facoltativo) Per rimuovere le autorizzazioni ereditate da un oggetto, vedere [Rimuovere le autorizzazioni dagli oggetti](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
    >[!NOTE]
    >

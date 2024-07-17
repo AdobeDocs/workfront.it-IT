@@ -65,29 +65,29 @@ La Data di completamento prevista è un campo calcolato e non può essere modifi
 
 I criteri utilizzati per determinare la data di completamento prevista variano a seconda dell&#39;oggetto visualizzato:
 
-* **Progetti:** La data di completamento prevista per i progetti è uguale alla data di completamento prevista dell&#39;ultima attività del progetto.
+* **Progetti:** la data di completamento prevista per i progetti è uguale alla data di completamento prevista dell&#39;ultima attività del progetto.
 
   Ad esempio, una percentuale di completamento più elevata sposta la data di completamento prevista dell&#39;attività più vicina al giorno corrente. Se lo stato dell&#39;attività è Nuovo e la data di completamento pianificata dell&#39;attività è vicina o è stata superata, la data di completamento prevista si sposta ulteriormente nel futuro.
 
-* **Attività:** La data di completamento prevista per le attività viene determinata in base ai seguenti criteri:
+* **Attività:** La data di completamento prevista per le attività è determinata in base ai seguenti criteri:
 
-   * **Aggiornamenti sullo stato di avanzamento dell&#39;attività da parte dell&#39;assegnatario dell&#39;attività:** Gli aggiornamenti dello stato includono le modifiche alla percentuale di completamento e le modifiche allo stato dell&#39;attività.
-   * **Data commit:** Se l&#39;assegnatario dell&#39;attività specifica una Data impegno, la Data completamento prevista viene modificata in modo da corrispondere alla Data impegno.
+   * **Aggiornamenti dell&#39;avanzamento effettuati sull&#39;attività dall&#39;assegnatario dell&#39;attività:** Gli aggiornamenti dell&#39;avanzamento includono modifiche alla percentuale di completamento e modifiche allo stato dell&#39;attività.
+   * **Data commit:** Se l&#39;assegnatario dell&#39;attività specifica una data di commit, la data di completamento prevista viene modificata in modo da corrispondere alla data di commit.
 
      Per ulteriori informazioni sulle date di conferma, vedere l&#39;articolo [Panoramica sulla data di conferma](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
-   * **Predecessori:** Se non si verificano ritardi nelle attività predecessore, la Data di completamento prevista deve corrispondere alla Data di completamento pianificata. Quando si verificano ritardi, le attività dipendenti visualizzano una Data di completamento prevista successiva alla Data di completamento pianificata.
+   * **Predecessori:** Se non si verificano ritardi nelle attività predecessori, la Data di completamento prevista deve corrispondere alla Data di completamento pianificata. Quando si verificano ritardi, le attività dipendenti visualizzano una Data di completamento prevista successiva alla Data di completamento pianificata.
 
-     Per ulteriori informazioni sulla data di completamento pianificata delle attività, vedi [Panoramica della data di completamento pianificata dell&#39;attività](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+     Per ulteriori informazioni sulla data di completamento pianificata delle attività, vedere [Panoramica sulla data di completamento pianificata dell&#39;attività](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
   >[!IMPORTANT]
   >
   >Quando il predecessore di un&#39;attività ha una data di completamento effettiva, le attività dipendenti ricevono una data di completamento prevista come descritto nel seguente scenario:
   >
   >
-  >Se il progetto ha l&#39;Attività A, l&#39;Attività B e l&#39;Attività C e l&#39;Attività B è il successore dell&#39;Attività A, l&#39;Attività C è il successore dell&#39;Attività B e viene aggiunta una Data di completamento effettiva all&#39;Attività A, la Data di completamento prevista viene ricalcolata automaticamente per l&#39;Attività B (purché **Tipo di aggiornamento** del progetto è impostato su Automatico e Su modifica), ma non verrà ricalcolato per il task C. Attualmente, Workfront calcola la data di completamento prevista per i task di un livello superiore o inferiore rispetto al task aggiornato, per motivi di prestazioni. 
+  >Se il progetto ha l&#39;Attività A, l&#39;Attività B e l&#39;Attività C e l&#39;Attività B è il successore dell&#39;Attività A, l&#39;Attività C è il successore dell&#39;Attività B e viene aggiunta una Data di completamento effettiva all&#39;Attività A, la Data di completamento prevista viene ricalcolata automaticamente per l&#39;Attività B (a condizione che il **Tipo di aggiornamento** del progetto sia impostato su Automatico e Su modifica), ma non verrà ricalcolata per l&#39;Attività C. Attualmente, Workfront calcola la Data di completamento prevista per le attività di un livello superiore o inferiore rispetto all&#39;Attività aggiornata, per motivi di prestazioni. 
 
-* **Problemi:** La data di completamento prevista del problema è inizialmente impostata per corrispondere alla data di completamento pianificata del problema.
+* **Problemi:** la data di completamento prevista del problema è inizialmente impostata per corrispondere alla data di completamento pianificata del problema.
 
   Se l’assegnatario del problema specifica una data di commit, sia la Data di completamento prevista che la Data di completamento pianificata vengono modificate in modo da corrispondere alla Data di commit.
 
@@ -100,14 +100,14 @@ Puoi visualizzare la Data di completamento prevista dei progetti, delle attivit�
 ### Visualizzare la data di completamento prevista di un progetto {#view-the-projected-completion-date-of-a-project}
 
 1. Vai al progetto in cui desideri visualizzare la Data di completamento prevista.
-1. Clic **Dettagli progetto** nel pannello a sinistra.
-1. Individua il **Data di completamento Prevista** campo in **Panoramica** > **Date progetto** sezione.
+1. Fai clic su **Dettagli progetto** nel pannello a sinistra.
+1. Individua il campo **Data di completamento prevista** nella sezione **Panoramica** > **Date progetto**.
 
 ### Visualizzare la data di completamento prevista di un&#39;attività {#view-the-projected-completion-date-of-a-task}
 
 1. Passare all&#39;attività in cui si desidera visualizzare la data di completamento prevista.
-1. Clic **Dettagli Attività** nel pannello a sinistra.
-1. Individua il **Data di completamento Prevista** campo in **Panoramica** > **Vincolo e date attività** sezione.
+1. Fai clic su **Dettagli attività** nel pannello a sinistra.
+1. Individua il campo **Data di completamento prevista** nella sezione **Panoramica** > **Date attività e vincolo**.
 
 ### Visualizzare la data di completamento prevista di un problema {#view-the-projected-completion-date-of-an-issue}
 
@@ -115,13 +115,13 @@ Puoi visualizzare la Data di completamento prevista dei progetti, delle attivit�
 
 Per creare un report di problemi che includa la Data di completamento prevista:
 
-1. Creare un rapporto sui problemi, come descritto nell’articolo [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-1. Seleziona la **Colonne (visualizzazione)** scheda.
-1. Clic **Aggiungi colonna**, e inizia a digitare **Data di completamento Prevista** nel **Mostra in questa colonna:** campo.
+1. Creare un rapporto sui problemi, come descritto nell&#39;articolo [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+1. Selezionare la scheda **Colonne (visualizzazione)**.
+1. Fai clic su **Aggiungi colonna** e inizia a digitare **Data di completamento prevista** nel campo **Mostra in questa colonna:**.
 
-1. Selezionala quando viene visualizzata nell’elenco, sotto **Problema** oggetto. 
-1. Clic **Salva e chiudi**.
+1. Selezionala quando viene visualizzata nell&#39;elenco, nell&#39;oggetto **Issue**. 
+1. Fai clic su **Salva e Chiudi**.
 
-   Il **Data di completamento Prevista** nel report è compilata. 
+   La colonna **Data di completamento prevista** nel report è compilata. 
 
    ![](assets/issue-projected-completion-date-in-view-nwe-350x148.png)

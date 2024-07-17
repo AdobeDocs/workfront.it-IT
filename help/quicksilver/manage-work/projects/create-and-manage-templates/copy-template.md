@@ -39,12 +39,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizza o autorizzazioni superiori per un modello</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Visualizza o autorizzazioni superiori per un modello</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 
 ## Considerazioni sulla copia dei modelli
@@ -69,10 +69,10 @@ I seguenti elementi non vengono mai copiati da un progetto esistente a uno nuovo
 ## Copiare un modello
 
 1. Vai al modello da copiare.
-1. Fai clic su **Altro** menu ![](assets/qs-more-icon-on-an-object.png), quindi fai clic su **Copia**.
-1. Specifica un nome per il modello nel **Nome nuovo modello** campo.
+1. Fai clic sul menu **Altro** ![](assets/qs-more-icon-on-an-object.png), quindi fai clic su **Copia**.
+1. Specificare un nome per il modello nel campo **Nuovo nome modello**.
 
    Per impostazione predefinita, il nuovo nome è **Copia di `<original template name>`.**
 
-1. Seleziona se desideri **Mantieni assegnazioni utente su attività e modello**: seleziona questa opzione per trasferire tutte le assegnazioni di attività e modelli dal modello originale al nuovo modello.
-1. Clic **Salva** per creare una copia del modello.
+1. Seleziona se desideri **Mantenere le assegnazioni utente per attività e modello**: seleziona questa opzione per trasferire tutte le assegnazioni di attività e modello dal modello originale al nuovo modello.
+1. Fai clic su **Salva** per creare una copia del modello.

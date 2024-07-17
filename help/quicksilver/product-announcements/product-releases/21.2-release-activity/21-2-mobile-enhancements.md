@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # 21.2 Miglioramenti per dispositivi mobili
 
-Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima da Mobile con la versione 21.2. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 10 maggio 2021. Per un elenco di tutte le modifiche disponibili con la versione 21.2, consulta [Panoramica sulla versione 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima da Mobile con la versione 21.2. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 10 maggio 2021. Per un elenco di tutte le modifiche disponibili con la versione 21.2, consulta la [panoramica sulla versione 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Commenti scheda orario
 
@@ -27,7 +27,7 @@ Questa pagina descrive tutti i miglioramenti apportati all’ambiente di antepri
 
 L’app mobile ora ti consente di inserire commenti nelle schede orario.
 
-Per ulteriori informazioni, consulta [Adobe Workfront per iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) e [Adobe Workfront per Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).
+Per ulteriori informazioni, vedere [Adobe Workfront per iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) e [Adobe Workfront per Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).
 
 ## Oggetti aggiuntivi supportati con typeahead, solo per gli utenti di iOS
 
@@ -46,7 +46,7 @@ L’app mobile ora supporta i seguenti oggetti nei campi di completamento automa
 * Team
 * Modello
 
-Per ulteriori informazioni, consulta [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Per ulteriori informazioni, vedere [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 ## Salvare le richieste come bozze nell’app mobile Workfront
 
@@ -56,4 +56,4 @@ Per ulteriori informazioni, consulta [Creare o modificare un modulo personalizza
 
 Ora nell’app mobile puoi salvare le richieste parzialmente compilate come bozze. È stata aggiunta una nuova sezione Bozze nell&#39;area Richiesta per consentire di trovare facilmente le bozze.
 
-Per ulteriori informazioni, consulta [Adobe Workfront per Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) o [Adobe Workfront per iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md).
+Per ulteriori informazioni, vedere [Adobe Workfront per Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) o [Adobe Workfront per iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md).

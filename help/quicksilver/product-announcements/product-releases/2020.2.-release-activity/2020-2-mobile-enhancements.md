@@ -23,7 +23,7 @@ Per un elenco di tutte le modifiche disponibili con la versione 2020.2, consulta
 
 ## Aiutaci a testare il nuovo Virtual Assistant mobile in versione beta
 
-Stiamo rilasciando un nuovo assistente virtuale all’app mobile Workfront per tester beta sia Android che iOS.
+Stiamo rilasciando un nuovo assistente virtuale per l’app mobile Workfront per i beta tester di Android e iOS.
 
 Di seguito sono riportati alcuni esempi di comandi vocali che puoi utilizzare per interagire con l’app mobile:
 
@@ -34,4 +34,4 @@ Di seguito sono riportati alcuni esempi di comandi vocali che puoi utilizzare pe
 Per partecipare alla versione beta, consulta
 
 * [Essere un beta tester di iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/ios-beta-tester.md)
-* [Essere un beta tester Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
+* [Essere un beta tester di Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)

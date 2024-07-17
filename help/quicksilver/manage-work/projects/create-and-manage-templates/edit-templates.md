@@ -51,7 +51,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td role="rowheader">Autorizzazioni oggetto</td> 
    <td> 
     <ul> 
-     <li> <p>Concedere le autorizzazioni per un modello per modificarlo nella scheda Dettagli modello</p> </li> 
+     <li> <p>Autorizzazioni di Contribute per un modello per modificarlo nella scheda Dettagli modello</p> </li> 
      <li> <p>Gestire le autorizzazioni per un modello per modificarlo nella casella Modifica modello</p> </li> 
    </td> 
   </tr> 
@@ -564,8 +564,8 @@ By editing issue settings, you can prevent users from adding issues inline in th
 -->
 
 1. Passa al modello da modificare.
-1. (Condizionale) Per modificare informazioni limitate sul modello, fai clic su **Dettagli Modello** nel pannello a sinistra, passa alle aree elencate nel pannello a sinistra per modificare le informazioni per ogni area.
-1. Per modificare le informazioni nella sezione Dettagli, fare clic sul pulsante **Modifica** icona ![](assets/edit-icon.png), quindi seleziona una delle aree di seguito oppure fai clic su **Modifica tutto** per modificare le informazioni in tutte le aree:
+1. (Condizionale) Per modificare informazioni limitate sul modello, fai clic su **Dettagli modello** nel pannello a sinistra, quindi vai alle aree elencate nel pannello a sinistra per modificare le informazioni per ogni area.
+1. Per modificare le informazioni nella sezione Dettagli, fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png), quindi seleziona una delle aree seguenti oppure fai clic su **Modifica tutto** per modificare le informazioni in tutte le aree:
 
    * Panoramica
    * Moduli personalizzati
@@ -578,9 +578,9 @@ By editing issue settings, you can prevent users from adding issues inline in th
    >
    >Per informazioni su tutti i campi visualizzati nell&#39;area Dettagli, continuare a modificare tutti i campi utilizzando la casella Modifica modello di seguito.
 
-1. (Condizionale) Per modificare tutte le informazioni sul modello, fai clic sul pulsante **Altro** menu ![](assets/qs-more-icon-on-an-object.png) accanto al nome del modello, quindi fai clic su **Modifica**.
+1. (Condizionale) Per modificare tutte le informazioni sul modello, fai clic sul menu **Altro** ![](assets/qs-more-icon-on-an-object.png) accanto al nome del modello, quindi fai clic su **Modifica**.
 
-   Il **Modifica modello** viene visualizzata la casella. Le sezioni di questa casella contengono gli stessi campi disponibili nella sezione Dettagli modello .
+   Viene visualizzata la casella **Modifica modello**. Le sezioni di questa casella contengono gli stessi campi disponibili nella sezione Dettagli modello .
 
 1. Valuta la possibilità di modificare le informazioni in una delle sezioni seguenti:
 
@@ -597,7 +597,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 ### Nome Modello{#template-name}
 
 1. Inizia a modificare il modello come descritto in precedenza.
-1. In **Modifica modello** , fare clic su **Nome modello**.
+1. Nella casella **Modifica modello** fare clic su **Nome modello**.
 1. (Facoltativo) Continua a modificare le sezioni seguenti, a seconda delle informazioni che desideri modificare
 
    Oppure
@@ -609,7 +609,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 ### Panoramica {#overview-preview}
 
 1. Inizia a modificare il modello come descritto in precedenza.
-1. In **Modifica modello** , fare clic su **Panoramica**.
+1. Nella casella **Modifica modello** fare clic su **Panoramica**.
 
    ![](assets/edit-template-box-overview-section.png)
 
@@ -632,7 +632,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
          <li><p><strong>Normal</strong></p></li> 
          <li><p><strong>Alta</strong></p></li> 
          <li><p><strong>Urgente</strong></p></li> 
-         </ul><p><p>A seconda delle Preferenze di progetto selezionate dall'amministratore di Workfront, i nomi delle priorità potrebbero essere diversi. Per ulteriori informazioni sulla modifica delle priorità, consulta <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Creare e personalizzare le priorità</a>.</p></p></td> 
+         </ul><p><p>A seconda delle Preferenze di progetto selezionate dall'amministratore di Workfront, i nomi delle priorità potrebbero essere diversi. Per ulteriori informazioni sulla modifica delle priorità, vedere <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Creare e personalizzare le priorità</a>.</p></p></td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>URL</strong></td> 
@@ -642,31 +642,31 @@ By editing issue settings, you can prevent users from adding issues inline in th
        <td role="rowheader"><strong>Tipo di condizione</strong></td> 
        <td><p>Seleziona uno dei seguenti tipi di condizioni:</p> 
          <ul> 
-         <li><strong>Manuale:</strong> Il proprietario del progetto imposta manualmente la condizione del progetto. <strong></strong></li> 
-         <li><strong>Stato avanzamento:</strong> Workfront imposta automaticamente la condizione del progetto futuro in base allo stato di avanzamento delle attività nel percorso critico. Per ulteriori informazioni sullo stato di avanzamento, consulta <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Panoramica sullo stato di avanzamento dell’attività</a>.</li> 
+         <li><strong>Manuale:</strong> il proprietario del progetto imposta manualmente la condizione del progetto. <strong></strong></li> 
+         <li><strong>Stato avanzamento:</strong> Workfront imposta automaticamente la condizione del progetto futuro in base allo stato di avanzamento delle attività nel percorso critico. Per ulteriori informazioni sullo stato di avanzamento, vedere <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Panoramica sullo stato di avanzamento dell'attività</a>.</li> 
        </ul>
          </td> 
          </tr> 
        <tr> 
          <td role="rowheader"><strong>Modalità pianificazione</strong></td> 
-         <td><p>Specifica se il progetto che utilizza questo modello è pianificato dal <strong>Data di inizio</strong>, o dall' <strong>Data di completamento</strong>. Questa selezione determina le date pianificate delle attività future del progetto che utilizzano questo modello. </p><p>Selezionare una delle opzioni seguenti: </p> 
+         <td><p>Specifica se il progetto che utilizza questo modello è pianificato dalla <strong>Data inizio</strong> o dalla <strong>Data completamento</strong>. Questa selezione determina le date pianificate delle attività future del progetto che utilizzano questo modello. </p><p>Selezionare una delle opzioni seguenti: </p> 
        <ul> 
-       <li><p><strong>Pianifica dalla data di inizio</strong>: la data di inizio del modello è in realtà il giorno di inizio. Quando si pianifica un modello a partire dalla data di inizio, Adobe Workfront calcola il giorno di completamento del modello in base alla durata di tutte le attività del modello. Il giorno di inizio del modello diventa la data di inizio pianificata del progetto futuro.</p></li> 
-       <li><p><strong>Pianifica dalla data di completamento</strong>: la data di completamento del modello è in realtà il giorno di completamento. Quando si pianifica un modello a partire dalla data di completamento, Workfront calcola il giorno di inizio del modello in base alla durata di tutte le attività del modello. Il giorno di completamento del modello diventa la data di completamento pianificata del progetto futuro. </p></li> 
-       </ul><p>Per ulteriori informazioni sui giorni di inizio e completamento delle attività modello, vedere <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">Panoramica dei giorni di inizio e completamento in un modello</a>. </p><p>L’impostazione Pianifica da per i modelli è simile a quella dei progetti. L’amministratore di Workfront seleziona l’impostazione predefinita Pianifica da per i progetti nel sistema. Per informazioni sull'impostazione delle impostazioni predefinite del progetto, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurare le preferenze di progetto a livello di sistema</a>.</p></td> 
+       <li><p><strong>Pianifica da data di inizio</strong>: la data di inizio del modello corrisponde effettivamente al giorno di inizio. Quando si pianifica un modello a partire dalla data di inizio, Adobe Workfront calcola il giorno di completamento del modello in base alla durata di tutte le attività del modello. Il giorno di inizio del modello diventa la data di inizio pianificata del progetto futuro.</p></li> 
+       <li><p><strong>Pianifica da data di completamento</strong>: la data di completamento del modello corrisponde effettivamente al giorno di completamento. Quando si pianifica un modello a partire dalla data di completamento, Workfront calcola il giorno di inizio del modello in base alla durata di tutte le attività del modello. Il giorno di completamento del modello diventa la data di completamento pianificata del progetto futuro. </p></li> 
+       </ul><p>Per ulteriori informazioni sui giorni di inizio e completamento delle attività modello, vedere <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">Panoramica sui giorni di inizio e completamento in un modello</a>. </p><p>L’impostazione Pianifica da per i modelli è simile a quella dei progetti. L’amministratore di Workfront seleziona l’impostazione predefinita Pianifica da per i progetti nel sistema. Per informazioni sull'impostazione delle impostazioni predefinite del progetto, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurare le preferenze del progetto a livello di sistema</a>.</p></td> 
        </tr>
 
    <tr> 
          <td role="rowheader"><strong>Portfolio</strong></td> 
-         <td><p>Specifica un Portfolio per i progetti creati da questo modello. È necessario creare un Portfolio prima che venga visualizzato nell'elenco a discesa. </p><p>Nell’elenco vengono visualizzati solo i portfolio attivi. Per ulteriori informazioni sulla creazione dei portfolio, consulta <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Creare un portfolio </a>.</p></td> 
+         <td><p>Specifica un Portfolio per i progetti creati da questo modello. È necessario creare un Portfolio prima che venga visualizzato nell'elenco a discesa. </p><p>Nell’elenco vengono visualizzati solo i portfolio attivi. Per ulteriori informazioni sulla creazione di portfolio, vedere <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Creare un portfolio </a>.</p></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Programma</strong></td> 
-         <td><p>Se è stato selezionato un Portfolio per il modello, specificare un <strong>Programma</strong> per il progetto futuro. Alcuni Portfoli potrebbero non disporre di programmi. È innanzitutto necessario creare un programma prima che venga visualizzato in questo elenco a discesa. Nell'elenco vengono visualizzati solo i programmi attivi.</p><p>Per ulteriori informazioni sulla creazione di programmi, vedere <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Creare un programma</a>.</p></td> 
+         <td><p>Se hai selezionato un Portfolio per il modello, specifica un <strong>Programma</strong> per il progetto futuro. Alcuni Portfoli potrebbero non disporre di programmi. È innanzitutto necessario creare un programma prima che venga visualizzato in questo elenco a discesa. Nell'elenco vengono visualizzati solo i programmi attivi.</p><p>Per ulteriori informazioni sulla creazione di programmi, vedere <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Creare un programma</a>.</p></td> 
        </tr>  
        <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
          <td role="rowheader"><strong>Gruppo</strong></td> 
-         <td><p>Nell’elenco a discesa, seleziona il gruppo che desideri associare ai progetti creati dal modello. Può essere un gruppo di qualsiasi livello. </p><p>Per assicurarsi di selezionare il gruppo corretto, posizionare il puntatore del mouse su di esso e fare clic sull'icona delle informazioni <img src="assets/info-icon.png"> che viene visualizzato accanto ad esso. In questo modo viene visualizzata una descrizione del gruppo contenente informazioni sul gruppo stesso, ad esempio la gerarchia dei gruppi al di sopra del gruppo e i relativi amministratori.</p> <p><b>NOTE</b>
+         <td><p>Nell’elenco a discesa, seleziona il gruppo che desideri associare ai progetti creati dal modello. Può essere un gruppo di qualsiasi livello. </p><p>Per assicurarsi di selezionare il gruppo corretto, passare il puntatore del mouse su di esso e fare clic sull'icona delle informazioni <img src="assets/info-icon.png"> visualizzata accanto ad esso. In questo modo viene visualizzata una descrizione del gruppo contenente informazioni sul gruppo stesso, ad esempio la gerarchia dei gruppi al di sopra del gruppo e i relativi amministratori.</p> <p><b>NOTE</b>
 
    <ul> 
        <li><p>Nell'area Progetti (Projects) della pagina di un gruppo, quando un utente crea un progetto utilizzando un modello per il quale non è stato selezionato un gruppo, il sistema associa il gruppo aperto al progetto.</p><p>Si tratta di una procedura diversa dalle altre aree in cui il sistema associa il Gruppo Predefinito di un utente al progetto quando l'utente crea il progetto utilizzando un modello in cui non è selezionato alcun gruppo.</p></li> 
@@ -707,7 +707,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 ### Finanz {#finance-preview}
 
 1. Inizia a modificare il modello come descritto in precedenza.
-1. In **Modifica modello** , fare clic su **Finanza**.
+1. Nella casella **Modifica modello** fare clic su **Finanza**.
 
    ![](assets/edit-template-box-finance-section.png)
 
@@ -719,7 +719,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
        <tbody>
        <tr> 
          <td role="rowheader"><strong> Valuta</strong></td> 
-         <td><p>Specifica la valuta per il progetto futuro, se è diversa da quella predefinita del sistema. Questo campo non è visibile se nel sistema è presente solo la valuta predefinita.<br>Per ulteriori informazioni sulla valuta, consulta <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Imposta tassi di cambio</a>.</p></td> 
+         <td><p>Specifica la valuta per il progetto futuro, se è diversa da quella predefinita del sistema. Questo campo non è visibile se nel sistema è presente solo la valuta predefinita.<br>Per ulteriori informazioni sulla valuta, vedere <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Impostare i tassi di cambio</a>.</p></td> 
        </tr>
        <tr> 
        <td role="rowheader"><strong>Bdg</strong></td> 
@@ -733,11 +733,11 @@ By editing issue settings, you can prevent users from adding issues inline in th
          <li>Basato su Costo</li>
          </ul>
 
-   Per ulteriori informazioni sul metodo dell&#39;indice delle prestazioni, vedere <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Impostare il metodo PIM (Performance Index Method)</a>. </p></td>
+   Per ulteriori informazioni sul metodo dell&#39;indice delle prestazioni, vedere <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Impostare il metodo dell&#39;indice delle prestazioni (PIM)</a>. </p></td>
    </tr> 
          <tr> 
          <td role="rowheader"><strong>Benef Pian</strong></td> 
-         <td><p>Specifica il beneficio pianificato dei progetti creati da questo modello. Il beneficio pianificato viene utilizzato nel caso aziendale del progetto e nell'Ottimizzatore Portfolio. </p><p>Per ulteriori informazioni sui benefici pianificati di un progetto, consulta <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Panoramica del beneficio pianificato del progetto</a>. Il beneficio pianificato di un progetto viene preso in considerazione quando viene calcolato il valore netto di un progetto. </p><p>Per ulteriori informazioni sull'utilizzo di Ottimizzatore Portfolio, vedere <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Gestire i progetti in Portfoli Optimizer</a> </p></td> 
+         <td><p>Specifica il beneficio pianificato dei progetti creati da questo modello. Il beneficio pianificato viene utilizzato nel caso aziendale del progetto e nell'Ottimizzatore Portfolio. </p><p>Per ulteriori informazioni sul beneficio pianificato di un progetto, vedere <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Panoramica del beneficio pianificato del progetto</a>. Il beneficio pianificato di un progetto viene preso in considerazione quando viene calcolato il valore netto di un progetto. </p><p>Per ulteriori informazioni sull'utilizzo di Ottimizzatore Portfolio, vedere <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Gestire progetti in Ottimizzatore Portfolio</a> </p></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Costi fissi</strong></td> 
@@ -749,7 +749,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
        </tr> 
        <tr> 
        <td role="rowheader"><strong>Richiede l'approvazione del tempo per questo progetto</strong></td> 
-       <td><p>Selezionare questa opzione per richiedere al proprietario del progetto futuro creato da questo modello di approvare l'ora registrata sul progetto. Se si utilizzano le Fatturazioni e si seleziona questa opzione, solo le ore approvate nel progetto vengono visualizzate come ore fatturabili disponibili per le Fatturazioni. L'approvazione del tempo sul progetto è indipendente dall'approvazione delle schede orario. Per ulteriori informazioni sulla richiesta di approvazione del tempo per un progetto, consulta <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">Richiede l'approvazione del tempo per un progetto</a>.</p></td> 
+       <td><p>Selezionare questa opzione per richiedere al proprietario del progetto futuro creato da questo modello di approvare l'ora registrata sul progetto. Se si utilizzano le Fatturazioni e si seleziona questa opzione, solo le ore approvate nel progetto vengono visualizzate come ore fatturabili disponibili per le Fatturazioni. L'approvazione del tempo sul progetto è indipendente dall'approvazione delle schede orario. Per ulteriori informazioni sulla richiesta di approvazione del tempo per un progetto, vedere <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">Richiedere l'approvazione del tempo per un progetto</a>.</p></td> 
        </tr> 
        </tbody> 
       </table>
@@ -763,15 +763,15 @@ By editing issue settings, you can prevent users from adding issues inline in th
 ### Moduli personalizzati {#custom-forms-preview}
 
 1. Inizia a modificare il modello come descritto in precedenza.
-1. In **Modifica modello** , fare clic su **Forms personalizzato**.
+1. Nella casella **Modifica modello** fare clic su **Forms personalizzato**.
 
    ![](assets/edit-template-box-custom-forms-section.png)
 
    I nomi dei moduli personalizzati già allegati al modello vengono visualizzati nel pannello a sinistra.
 
-1. Fai clic all’interno del **Aggiungi modulo personalizzato** e selezionare il modulo o i moduli personalizzati da associare al modello. Devi creare i moduli personalizzati prima che siano disponibili per la selezione in questo campo.
+1. Fare clic all&#39;interno del campo **Aggiungi modulo personalizzato** e selezionare il modulo o i moduli personalizzati che si desidera associare al modello. Devi creare i moduli personalizzati prima che siano disponibili per la selezione in questo campo.
 
-   Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. Per ulteriori informazioni sulla creazione di moduli personalizzati, consulta [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+   Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. Per ulteriori informazioni sulla creazione di moduli personalizzati, vedere [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
    È possibile aggiungere fino a dieci moduli personalizzati a un modello.
 
@@ -779,7 +779,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 1. (Facoltativo) Aggiorna le informazioni in uno qualsiasi dei campi dei moduli personalizzati. Le informazioni verranno trasferite ai progetti che verranno creati dal modello.
 
-1. (Facoltativo) Fai clic su **x** a destra del nome di un modulo personalizzato, quindi fai clic su **Rimuovi** per rimuoverlo dal modello.
+1. (Facoltativo) Fai clic sull&#39;icona **x** a destra del nome di un modulo personalizzato, quindi fai clic su **Rimuovi** per rimuoverlo dal modello.
 
 1. (Facoltativo) Continua a modificare la sezione seguente, a seconda delle informazioni che desideri modificare.
 
@@ -790,7 +790,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 ### Impostazione progetto {#project-settings}
 
 1. Inizia a modificare il modello come descritto in precedenza.
-1. In **Modifica modello** , fare clic su **Impostazioni progetto**.
+1. Nella casella **Modifica modello** fare clic su **Impostazioni progetto**.
 
    ![](assets/edit-template-box-project-settings-section.png)
 
@@ -802,26 +802,26 @@ By editing issue settings, you can prevent users from adding issues inline in th
        <tbody> 
        <tr> 
        <td role="rowheader"><strong>Percorso milestone</strong> </td> 
-       <td> <p>Seleziona un Percorso milestone per il modello. Nell'elenco vengono visualizzati solo i percorsi milestone attivi.<br>Per ulteriori informazioni sui percorsi delle milestone, vedi <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Creare un percorso milestone</a>.</p> </td> 
+       <td> <p>Seleziona un Percorso milestone per il modello. Nell'elenco vengono visualizzati solo i percorsi milestone attivi.<br>Per ulteriori informazioni sui percorsi delle milestone, vedere <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Creare un percorso delle milestone</a>.</p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Modalità di completamento</strong> </td> 
          <td> <p>Controlla come il progetto futuro verrà contrassegnato come Completato. <br>Selezionare una delle opzioni seguenti:</p> 
          <ul> 
-         <li> <p><strong>Automatico</strong>: il progetto è contrassegnato come Completo quando tutte le attività e i problemi sono completati.</p> </li> 
-         <li> <p><strong>Manuale</strong>: quando tutte le attività e i problemi sono stati completati, devi selezionare manualmente lo stato Completo per il progetto. </p> </li> 
+         <li> <p><strong>Automatico</strong>: il progetto viene contrassegnato come Completato al completamento di tutte le attività e i problemi.</p> </li> 
+         <li> <p><strong>Manuale</strong>: è necessario selezionare manualmente lo stato Completato per il progetto, quando tutte le attività e i problemi sono stati completati. </p> </li> 
          </ul> </td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>Modalità di completamento riepilogo</strong> </td> 
        <td> <p>Controlla il modo in cui le attività padre nel progetto futuro vengono contrassegnate come completate. <br>Selezionare una delle opzioni seguenti:</p> 
        <ul> 
-       <li> <p><strong>Automatico</strong>: le attività padre sono contrassegnate come completate e aggiornano automaticamente la loro percentuale di completamento, man mano che le attività figlio vengono completate e la percentuale di completamento degli elementi figlio viene aggiornata. </p> </li> 
-       <li> <p><strong>Manuale</strong>: devi aggiornare manualmente la percentuale di completamento e lo stato delle attività principali, indipendentemente dalle modifiche apportate alle attività secondarie. </p> </li> 
+       <li> <p><strong>Automatico</strong>: le attività padre sono contrassegnate come completate e aggiornano automaticamente la percentuale di completamento, mentre le attività figlio vengono completate e la percentuale di completamento degli elementi figlio viene aggiornata. </p> </li> 
+       <li> <p><strong>Manuale</strong>: è necessario aggiornare manualmente la percentuale di completamento e lo stato delle attività padre, indipendentemente dalle modifiche apportate alle attività figlio. </p> </li> 
        </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Tipo di aggiornamento</strong> </td> 
+         <td role="rowheader"><strong>Tipo aggiornamento</strong> </td> 
          <td> <p>Controlla quando le modifiche apportate alla sequenza temporale del progetto futuro vengono salvate nel progetto. </p> 
          <b>ESEMPIO </b> 
          <p>Le seguenti modifiche al progetto attivano un aggiornamento della timeline del progetto:</p> 
@@ -833,68 +833,68 @@ By editing issue settings, you can prevent users from adding issues inline in th
          </ul> 
          </div> <p>Selezionare una delle opzioni seguenti:<br></p> 
          <ul> 
-         <li> <p><strong>Automatico e in caso di modifica</strong> (impostazione predefinita): la sequenza temporale del progetto futuro viene aggiornata ogni volta che si verifica una modifica nel progetto o in un altro progetto da cui dipende la sequenza temporale (Alla modifica). Anche la timeline del progetto viene aggiornata ogni notte (Automatico).<br>Si tratta dell’impostazione consigliata per questo campo, in quanto garantisce che la timeline del progetto sia sempre aggiornata.<br>Quando si esegue un'azione su un'attività o un progetto che attiva un ricalcolo della sequenza temporale, tutte le date disponibili vengono visualizzate immediatamente, consentendo di continuare a lavorare. Nei progetti con più di 100 attività, le date che richiedono calcoli più lunghi vengono visualizzate brevemente come punto interrogativo (tra 1 e 5 secondi o fino a un minuto per i progetti di grandi dimensioni). Questo indica che il ricalcolo non è ancora terminato e che le date sono soggette a modifiche.<br></p> </li> 
+         <li> <p><strong>Automatico e al momento della modifica</strong> (impostazione predefinita): la sequenza temporale del progetto futuro viene aggiornata ogni volta che si verifica una modifica nel progetto o in un altro progetto da cui dipende la sequenza temporale (al momento della modifica). Anche la timeline del progetto viene aggiornata ogni notte (Automatico).<br>Questa è l'impostazione consigliata per questo campo in quanto garantisce che la sequenza temporale del progetto sia sempre aggiornata.<br>Quando si esegue un'azione su un'attività o un progetto che attiva un ricalcolo della sequenza temporale, tutte le date disponibili vengono visualizzate immediatamente, consentendo di continuare a lavorare. Nei progetti con più di 100 attività, le date che richiedono calcoli più lunghi vengono visualizzate brevemente come punto interrogativo (tra 1 e 5 secondi o fino a un minuto per i progetti di grandi dimensioni). Questo indica che il ricalcolo non è ancora terminato e che le date sono soggette a modifiche.<br></p> </li> 
          </ul> 
          <ul> 
-         <li> <p><strong>Solo modifica</strong>: la timeline del progetto viene aggiornata ogni volta che si verifica una modifica nel progetto o in un altro progetto da cui dipende. È possibile selezionare questa opzione se le modifiche si verificano raramente nel progetto o in altri progetti da cui dipende la sequenza temporale.<br></p> </li> 
+         <li> <p><strong>Solo modifica</strong>: la sequenza temporale del progetto viene aggiornata ogni volta che si verifica una modifica nel progetto o in un altro progetto da cui dipende la sequenza temporale. È possibile selezionare questa opzione se le modifiche si verificano raramente nel progetto o in altri progetti da cui dipende la sequenza temporale.<br></p> </li> 
          </ul> 
          <ul> 
-         <li> <p><strong>Solo Automatico</strong>: la timeline del progetto viene aggiornata ogni notte; non viene aggiornata immediatamente dopo le modifiche.<br>È possibile selezionare questa opzione se si verificano molte modifiche ogni giorno nel progetto o in altri progetti da cui dipende la sequenza temporale. Tuttavia, tieni presente che hai scelto questa impostazione, in quanto il progetto non verrà aggiornato contemporaneamente alle modifiche apportate.<br></p> </li> 
+         <li> <p><strong>Solo automatico</strong>: la sequenza temporale del progetto viene aggiornata ogni notte e non viene aggiornata immediatamente dopo le modifiche apportate.<br>Selezionare questa opzione se ogni giorno nel progetto o in altri progetti da cui dipende la sequenza temporale si verificano molte modifiche. Tuttavia, tieni presente che hai scelto questa impostazione, in quanto il progetto non verrà aggiornato contemporaneamente alle modifiche apportate.<br></p> </li> 
          </ul> 
          <ul> 
-         <li> <p><strong>Solo manuale</strong>: la timeline del progetto viene aggiornata solo quando si seleziona l’opzione Ricalcola timeline, come descritto in <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Ricalcolare i timeline dei progetti</a>.<br></p> </li> 
+         <li> <p><strong>Solo manuale</strong>: la sequenza temporale del progetto viene aggiornata solo quando si seleziona l'opzione Ricalcola sequenze temporali, come descritto in <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Ricalcola sequenze temporali del progetto</a>.<br></p> </li> 
          </ul> <p>È possibile selezionare questa opzione se si apportano contemporaneamente molte modifiche al progetto e si desidera che il ricalcolo della sequenza temporale venga eseguito dopo che tutte le modifiche sono state apportate (anziché dopo ogni singola modifica).</p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Pianificazione</strong> </td> 
-         <td> <p>Seleziona una pianificazione per il modello. Questa diventerà la pianificazione del progetto creato da questo modello. Questa deve essere la stessa pianificazione assegnata alla maggior parte delle persone che lavorano sul progetto. È necessario creare una pianificazione prima di assegnarla a un modello.<br>Per ulteriori informazioni sulla creazione di pianificazioni, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Creare una pianificazione</a>. <br>Se nel sistema non sono state create programmazioni personalizzate, viene selezionata la Programmazione predefinita. </p> </td> 
+         <td> <p>Seleziona una pianificazione per il modello. Questa diventerà la pianificazione del progetto creato da questo modello. Questa deve essere la stessa pianificazione assegnata alla maggior parte delle persone che lavorano sul progetto. È necessario creare una pianificazione prima di assegnarla a un modello.<br>Per ulteriori informazioni sulla creazione di pianificazioni, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Creare una pianificazione</a>. <br>Se non sono state create pianificazioni personalizzate nel sistema, viene selezionata la pianificazione predefinita. </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Indisponibilità utente</strong> </td> 
-         <td> <p>Determina se l'indisponibilità dell'assegnatario principale di un'attività determina l'adeguamento delle date pianificate dell'attività. Quando alleghi il modello a un progetto esistente e il modello ha un’impostazione diversa per questo campo rispetto al progetto, l’impostazione sul progetto rimane invariata. L'opzione predefinita per questa impostazione per un nuovo modello è la stessa della preferenza di progetto a livello di sistema. </p> <p>Per informazioni sulle preferenze del progetto a livello di sistema, consulta <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurare le preferenze di progetto a livello di sistema</a>. </p> <p>Per informazioni sull'effetto di questa impostazione sulle date delle attività di un progetto, vedere <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Modifica progetti</a>.<br>Selezionare una delle opzioni seguenti:<br></p> 
+         <td> <p>Determina se l'indisponibilità dell'assegnatario principale di un'attività determina l'adeguamento delle date pianificate dell'attività. Quando alleghi il modello a un progetto esistente e il modello ha un’impostazione diversa per questo campo rispetto al progetto, l’impostazione sul progetto rimane invariata. L'opzione predefinita per questa impostazione per un nuovo modello è la stessa della preferenza di progetto a livello di sistema. </p> <p>Per informazioni sulle preferenze del progetto a livello di sistema, consulta <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurare le preferenze del progetto a livello di sistema</a>. </p> <p>Per informazioni sull'effetto di questa impostazione sulle date delle attività in un progetto, vedere <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Modifica progetti</a>.<br>Selezionare una delle opzioni seguenti:<br></p> 
          <ul> 
-         <li> <p><strong>Considerare l'indisponibilità dell'utente durante l'attività</strong>: quando si seleziona questa opzione, le date pianificate delle attività nel progetto creato da questo modello vengono modificate in base al tempo libero dell’assegnatario principale dell’attività, se tale tempo libero si verifica durante la durata dell’attività. </p> </li> 
-         <li> <p><strong>Ignora indisponibilità utente durante l'attività</strong>: quando si seleziona questa opzione, le date pianificate delle attività nel progetto creato da questo modello rimangono invariate rispetto a quelle pianificate in origine, anche se l’assegnatario principale dell’attività presenta un’indisponibilità per tutta la durata dell’attività. </p> </li> 
+         <li> <p><strong>Considerare l'indisponibilità dell'utente durante l'attività</strong>: quando si seleziona questa opzione, le date pianificate delle attività nel progetto creato da questo modello vengono modificate in base all'indisponibilità dell'assegnatario principale dell'attività, se questa si verifica durante la durata dell'attività. </p> </li> 
+         <li> <p><strong>Ignora indisponibilità utente nelle durate dell'attività</strong>: quando si seleziona questa opzione, le date pianificate delle attività nel progetto create da questo modello rimangono invariate rispetto a quelle pianificate in origine, anche se l'assegnatario principale dell'attività presenta un'indisponibilità durante la durata dell'attività. </p> </li> 
          </ul> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Modalità livellamento risorse</strong> </td> 
          <td> <p>Selezionare una delle opzioni seguenti:<br></p> 
          <ul> 
-         <li> <p><strong>Manuale</strong>: devi livellare manualmente le risorse sul progetto creato da questo modello (questa è l’impostazione predefinita)</p> </li> 
-         <li> <p><strong>Automatico:</strong> Workfront livella le risorse sul progetto futuro. <br>Per ulteriori informazioni sul livellamento delle risorse, vedi <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">Livellare le risorse nel diagramma di Gantt </a>. </p> </li> 
+         <li> <p><strong>Manuale</strong>: è necessario livellare manualmente le risorse nel progetto creato da questo modello (impostazione predefinita)</p> </li> 
+         <li> <p><strong>Automatico:</strong> Workfront livella le risorse sul progetto futuro. <br>Per ulteriori informazioni sul livellamento delle risorse, vedere <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">Livellare le risorse nel Diagramma di Gantt </a>. </p> </li> 
          </ul> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Rischio</strong> </td> 
-         <td> <p>Definisci il livello di rischio dei progetti creati da questo modello. Il rischio è solo un indicatore di quanto un progetto possa essere rischioso. Puoi assegnare la priorità all’esecuzione dei progetti in base al livello di rischio.<br>Valuta di scegliere tra i seguenti livelli di rischio:<br></p> 
+         <td> <p>Definisci il livello di rischio dei progetti creati da questo modello. Il rischio è solo un indicatore di quanto un progetto possa essere rischioso. Puoi assegnare la priorità all’esecuzione dei progetti in base al livello di rischio.<br>Scegliere tra i seguenti livelli di rischio:<br></p> 
          <ul> 
          <li> <p><strong>Molto bassa</strong> </p> </li> 
          <li> <p><strong>Basso</strong> </p> </li> 
-         <li> <p><strong>Medio</strong> </p> </li> 
+         <li> <p><strong>Medium</strong> </p> </li> 
          <li> <p><strong>Alta</strong> </p> </li> 
-         <li> <p><strong>Molto alta</strong> </p> </li> 
+         <li> <p><strong>Altissimo</strong> </p> </li> 
          </ul> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Gruppi di risorse</strong> </td> 
-         <td> <p>Specifica i pool di risorse associati al modello. I pool di risorse sono insiemi di utenti necessari contemporaneamente per il completamento di un progetto. Per ulteriori informazioni sui pool di risorse, consulta <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Panoramica sui pool di risorse </a>.</p> <p> <p><b>NOTA</b>
+         <td> <p>Specifica i pool di risorse associati al modello. I pool di risorse sono insiemi di utenti necessari contemporaneamente per il completamento di un progetto. Per ulteriori informazioni sui pool di risorse, vedere <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Panoramica sui pool di risorse </a>.</p> <p> <p><b>NOTA</b>
 
    Quando si modificano i modelli in blocco, in questo campo vengono visualizzati solo i pool di risorse comuni a tutti i modelli selezionati. Se i modelli selezionati non hanno pool di risorse condivisi, questo campo sarà vuoto. I pool di risorse specificati in questo campo sovrascriveranno i singoli pool di risorse dei modelli.</p> </p> </td>
    </tr>
        <tr> 
          <td role="rowheader"><strong>Filtra tipo di ore</strong> </td> 
-         <td> <p>Considera quanto segue:</p> <p>Seleziona <strong>No</strong> per rendere disponibili sul progetto futuro tutti i tipi di lavoro specifici del progetto. Questa è la selezione predefinita.</p> <p>Oppure</p> <p>Seleziona <strong>Sì</strong> per rendere disponibile nel progetto futuro solo un sottoinsieme dei tipi di ore specifici del progetto, selezionare i tipi di ore che si desidera rendere disponibili. (Tenere premuto il tasto Maiusc per selezionare più tipi di ore).</p> <p>Se selezioni questa opzione, solo i tipi di ore selezionati saranno disponibili per la selezione durante la registrazione delle ore sul progetto (o sulle attività e sui problemi all’interno del progetto). È necessario selezionare almeno un tipo di ora; se si seleziona questa opzione e non si seleziona alcun tipo di ora, tutti i tipi di ora verranno resi disponibili sul progetto.</p> <p>Per consentire all'utente di visualizzare le opzioni relative al tipo di ora nel progetto, è necessario selezionare lo stesso tipo di ora a livello di singolo utente. </p> <p>Per ulteriori informazioni sulla definizione dei tipi di ora a livello di utente, consulta la sezione <a href="../../../timesheets/create-and-manage-timesheets/log-time.md#understa" class="MCXref xref">Tempo di connessione</a> in <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Tempo di connessione</a>.</p> </td> 
+         <td> <p>Considera quanto segue:</p> <p>Selezionare <strong>No</strong> per rendere disponibili tutti i tipi di lavoro specifici del progetto nel progetto futuro. Questa è la selezione predefinita.</p> <p>Oppure</p> <p>Selezionare <strong>Sì</strong> per rendere disponibile solo un sottoinsieme dei tipi di ore specifici del progetto nel progetto futuro, quindi selezionare i tipi di ore che si desidera rendere disponibili. (Tenere premuto il tasto Maiusc per selezionare più tipi di ore).</p> <p>Se selezioni questa opzione, solo i tipi di ore selezionati saranno disponibili per la selezione durante la registrazione delle ore sul progetto (o sulle attività e sui problemi all’interno del progetto). È necessario selezionare almeno un tipo di ora; se si seleziona questa opzione e non si seleziona alcun tipo di ora, tutti i tipi di ora verranno resi disponibili sul progetto.</p> <p>Per consentire all'utente di visualizzare le opzioni relative al tipo di ora nel progetto, è necessario selezionare lo stesso tipo di ora a livello di singolo utente. </p> <p>Per ulteriori informazioni sulla definizione dei tipi di ore a livello utente, vedere la sezione <a href="../../../timesheets/create-and-manage-timesheets/log-time.md#understa" class="MCXref xref">Ora di registrazione</a> in <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Ora di registrazione</a>.</p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Processo di approvazione</strong> </td> 
-         <td> <p>Selezionare il processo di approvazione da associare al modello. Prima di poter essere associati a un modello, l'amministratore di Workfront o un utente con accesso amministrativo ai processi di approvazione deve definire i processi di approvazione dei progetti a livello di sistema o di gruppo. Per ulteriori informazioni sulla creazione di processi di approvazione, consulta <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Creare un processo di approvazione per gli elementi di lavoro</a>.</p> <p>Quando aggiungi processi di approvazione, tieni presente quanto segue: </p> 
+         <td> <p>Selezionare il processo di approvazione da associare al modello. Prima di poter essere associati a un modello, l'amministratore di Workfront o un utente con accesso amministrativo ai processi di approvazione deve definire i processi di approvazione dei progetti a livello di sistema o di gruppo. Per ulteriori informazioni sulla creazione dei processi di approvazione, vedere <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Creare un processo di approvazione per gli elementi di lavoro</a>.</p> <p>Quando aggiungi processi di approvazione, tieni presente quanto segue: </p> 
          <ul> 
          <li>Nell'elenco vengono visualizzati solo i processi di approvazione attivi. </li> 
          <li> <p>I processi di approvazione a livello di sistema e di gruppo vengono visualizzati nell’elenco. Un processo di approvazione associato a un gruppo diverso da quello del modello non viene visualizzato nell’elenco.</p> <p><b>IMPORTANTE</b>
 
-   Se il gruppo associato al modello cambia, il processo di approvazione specifico del gruppo diventa un processo di approvazione a utente singolo. Per ulteriori informazioni su come le modifiche al gruppo del progetto o le modifiche nel processo di approvazione influiscono sulle impostazioni di approvazione, vedi <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">Effetti delle modifiche al gruppo e al processo di approvazione sui processi di approvazione assegnati</a>. </p> </li>
-   <li> <p>Se hai aggiunto un processo di approvazione a utente singolo, in questo campo viene visualizzato come "Personalizzato". Per informazioni, consulta <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associa un processo di approvazione nuovo o esistente al lavoro</a>. </p> 
+   Se il gruppo associato al modello cambia, il processo di approvazione specifico del gruppo diventa un processo di approvazione a utente singolo. Per ulteriori informazioni su come le modifiche al gruppo del progetto o le modifiche al processo di approvazione influiscono sulle impostazioni di approvazione, vedere <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">Come le modifiche al gruppo e al processo di approvazione influiscono sui processi di approvazione assegnati</a>. </p> </li>
+   <li> <p>Se hai aggiunto un processo di approvazione a utente singolo, in questo campo viene visualizzato come "Personalizzato". Per informazioni, vedere <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associa un processo di approvazione nuovo o esistente a un lavoro</a>. </p> 
          </li> 
          <li> <p>Quando si modificano i modelli in blocco, si verificano i seguenti scenari:</p> 
          <ul> 
@@ -922,13 +922,13 @@ By editing issue settings, you can prevent users from adding issues inline in th
 Per informazioni sull&#39;effetto di queste impostazioni sulla creazione di nuove attività, vedere [Panoramica sulla creazione di attività](../../../manage-work/tasks/create-tasks/create-tasks-overview.md).
 
 1. Inizia a modificare il modello come descritto in precedenza.
-1. In **Modifica modello** , fare clic su **Impostazioni attività**.
+1. Nella casella **Modifica modello** fare clic su **Impostazioni attività**.
 
    ![](assets/edit-template-box-tax-settings-section.png)
 
-1. In **Processo di approvazione predefinito attività** selezionare il processo di approvazione che si desidera associare a tutte le nuove attività quando si aggiungono a un progetto creato da questo modello. È necessario creare un processo di approvazione per le attività prima di associarlo alle attività. Nell&#39;elenco vengono visualizzati solo i processi di approvazione attivi. Per ulteriori informazioni sulla creazione di processi di approvazione, vedere [Creazione di processi di approvazione](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
-1. In **Forms personalizzato predefinito attività** selezionare il modulo o i moduli personalizzati che si desidera associare a tutte le nuove attività quando si aggiungono questi moduli a un progetto creato da questo modello. Devi creare i moduli personalizzati prima che siano disponibili per la selezione in questo campo. Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. Per ulteriori informazioni sulla creazione di moduli personalizzati, consulta [Creazione di un Forms personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). È possibile associare fino a dieci moduli personalizzati a un&#39;attività.
-1. (Facoltativo) Seleziona **Usa Impegno di lavoro per calcolare automaticamente le ore pianificate per l&#39;attività** se si desidera abilitare la gestione dell&#39;impegno attività utilizzando Impegno di lavoro invece delle Ore pianificate nel progetto creato dal modello.
+1. Nella casella **Processo di approvazione predefinito attività** selezionare il processo di approvazione che si desidera associare a tutte le nuove attività quando si aggiungono a un progetto creato da questo modello. È necessario creare un processo di approvazione per le attività prima di associarlo alle attività. Nell&#39;elenco vengono visualizzati solo i processi di approvazione attivi. Per ulteriori informazioni sulla creazione di processi di approvazione, vedere [Creazione di processi di approvazione](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+1. Nella casella **Forms personalizzato predefinito attività** selezionare il modulo o i moduli personalizzati che si desidera associare a tutte le nuove attività quando vengono aggiunti a un progetto creato da questo modello. Devi creare i moduli personalizzati prima che siano disponibili per la selezione in questo campo. Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. Per ulteriori informazioni sulla creazione di moduli personalizzati, vedere [Creazione di Forms personalizzati](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). È possibile associare fino a dieci moduli personalizzati a un&#39;attività.
+1. (Facoltativo) Seleziona **Usa Impegno di lavoro per calcolare automaticamente le ore pianificate per l&#39;attività** se desideri abilitare la gestione dell&#39;impegno di attività utilizzando Impegno di lavoro invece delle Ore pianificate nel progetto creato dal modello.
 1. (Condizionale e facoltativo) Se è stata selezionata l&#39;opzione Usa impegno di lavoro per calcolare automaticamente le ore pianificate per l&#39;attività, fare clic sul menu a discesa per aggiornare la percentuale per ogni livello di impegno di lavoro. I valori percentuali predefiniti sono i seguenti:
 
    | Livello di impegno di lavoro | Valore percentuale |
@@ -937,7 +937,7 @@ Per informazioni sull&#39;effetto di queste impostazioni sulla creazione di nuov
    | Medio | 50% |
    | Grande | 75% |
 
-   Per informazioni sull’utilizzo di Impegno di lavoro per gestire le attività sui progetti, consulta [Panoramica sull’impegno di lavoro](../../../manage-work/tasks/task-information/work-effort.md).
+   Per informazioni sull&#39;utilizzo di Impegno di lavoro per gestire le attività sui progetti, vedere [Panoramica impegno di lavoro](../../../manage-work/tasks/task-information/work-effort.md).
 
 1. (Facoltativo) Continua a modificare la sezione seguente, a seconda delle informazioni che desideri modificare.
 
@@ -950,11 +950,11 @@ Per informazioni sull&#39;effetto di queste impostazioni sulla creazione di nuov
 Modificando le impostazioni dei problemi, puoi impedire agli utenti di aggiungere problemi in linea nel progetto futuro creato dal modello.
 
 1. Inizia a modificare il modello come descritto in precedenza.
-1. In **Modifica modello** , fare clic su **Impostazioni problema**.
+1. Nella casella **Modifica modello** fare clic su **Impostazioni problema**.
 
    ![](assets/edit-template-box-issue-settings-section.png)
 
-1. (Facoltativo) Deseleziona il **Consenti agli utenti di aggiungere problemi in linea** opzione. È attivata per impostazione predefinita.
+1. (Facoltativo) Deseleziona l&#39;opzione **Consenti agli utenti di aggiungere problemi in linea**. È attivata per impostazione predefinita.
 
    Quando si disabilita questa opzione, gli utenti non possono aggiungere problemi in linea al progetto o alle attività nella sezione Problemi quando il progetto viene creato dal modello.
 
@@ -964,9 +964,9 @@ Modificando le impostazioni dei problemi, puoi impedire agli utenti di aggiunger
 
    Quando si disattiva questa opzione, gli utenti con le autorizzazioni per aggiungere problemi al progetto creato dal modello possono farlo utilizzando il pulsante Nuovo problema o una coda di richieste associata al progetto.
 
-   Per ulteriori informazioni sulla configurazione delle impostazioni dei problemi nei progetti, vedere [Impostazioni problema](../../../manage-work/projects/manage-projects/edit-projects.md#issue) sezione nell’articolo [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
+   Per ulteriori informazioni sulla configurazione delle impostazioni dei problemi nei progetti, vedere la sezione [Impostazioni dei problemi](../../../manage-work/projects/manage-projects/edit-projects.md#issue) nell&#39;articolo [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-   Per informazioni sulla creazione di problemi sui progetti, consulta [Crea problemi](../../../manage-work/issues/manage-issues/create-issues.md).
+   Per informazioni sulla creazione di problemi nei progetti, vedi [Crea problemi](../../../manage-work/issues/manage-issues/create-issues.md).
 
 1. (Facoltativo) Continua a modificare la sezione seguente, a seconda delle informazioni che desideri modificare.
 
@@ -977,13 +977,13 @@ Modificando le impostazioni dei problemi, puoi impedire agli utenti di aggiunger
 ### Accesso {#access-preview}
 
 1. Inizia a modificare il modello come descritto in precedenza.
-1. In **Modifica modello** , fare clic su **Accesso**.
+1. Nella casella **Modifica modello** fare clic su **Accesso**.
 
    ![](assets/edit-template-box-access-section.png)
 
    L’accesso specificato per il modello diventerà l’accesso degli utenti associati al progetto quando il modello viene utilizzato per creare un progetto.
 
-   Specifica quanto segue **Accesso** informazioni per il modello:
+   Specifica le seguenti informazioni di **Access** per il modello:
 
    <table style="table-layout:auto"> 
        <col> 
@@ -991,31 +991,31 @@ Modificando le impostazioni dei problemi, puoi impedire agli utenti di aggiunger
        <tbody> 
        <tr> 
          <td role="rowheader"><strong>Quando a un utente viene assegnata un'attività</strong> </td> 
-         <td> <p>Seleziona da <strong>Visualizza</strong>, <strong>Contribuisci,</strong> o <strong>Gestisci</strong> accedere a un’attività. L’utente assegnato a un’attività ottiene automaticamente questo accesso all’attività. </p> </td> 
+         <td> <p>Seleziona da <strong>Visualizza</strong>, <strong>Contribute,</strong> o <strong>Gestisci</strong> l'accesso a un'attività. L’utente assegnato a un’attività ottiene automaticamente questo accesso all’attività. </p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Concedi anche l’accesso al progetto</strong> </td> 
-         <td> <p> Seleziona da <strong>Visualizza</strong>, <strong>Contribuisci</strong>, o <strong>Gestisci</strong> accesso al progetto. Anche all’utente assegnato a un’attività viene automaticamente concesso questo accesso al progetto. </p> </td> 
+         <td role="rowheader"><strong>Concedi anche l'accesso al progetto</strong> </td> 
+         <td> <p> Seleziona da <strong>Visualizza</strong>, <strong>Contribute</strong> o <strong>Gestisci</strong> l'accesso al progetto. Anche all’utente assegnato a un’attività viene automaticamente concesso questo accesso al progetto. </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Quando a un utente viene assegnato un problema</strong> </td> 
-         <td> <p>Seleziona da <strong>Visualizza</strong>, <strong>Contribuisci,</strong> o <strong>Gestisci</strong> accesso a un problema. L’utente assegnato a un problema ottiene automaticamente questo accesso al problema. </p> </td> 
+         <td> <p>Seleziona da <strong>Visualizza</strong>, <strong>Contribute,</strong> o <strong>Gestisci</strong> l'accesso a un problema. L’utente assegnato a un problema ottiene automaticamente questo accesso al problema. </p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Concedi anche l’accesso al progetto</strong> </td> 
-         <td> <p> Seleziona da <strong>Visualizza</strong>, <strong>Contribuisci</strong>, o <strong>Gestisci</strong> accesso al progetto. Anche l’utente assegnato a un problema dispone automaticamente di questo accesso al progetto. </p> </td> 
+         <td role="rowheader"><strong>Concedi anche l'accesso al progetto</strong> </td> 
+         <td> <p> Seleziona da <strong>Visualizza</strong>, <strong>Contribute</strong> o <strong>Gestisci</strong> l'accesso al progetto. Anche l’utente assegnato a un problema dispone automaticamente di questo accesso al progetto. </p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Quando un utente invia una richiesta: concedi l’accesso</strong> </td> 
-         <td> <p> Seleziona da <strong>Visualizza</strong>, <strong>Contribuisci</strong>, o <strong>Gestisci</strong> accesso alla richiesta. Quando presentano una richiesta al progetto, viene loro concesso l’accesso alla richiesta che hanno presentato. Per ulteriori informazioni, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Condividere un problema </a>.</p> </td> 
+         <td role="rowheader"><strong>Quando un utente invia una richiesta: concedi l'accesso</strong> </td> 
+         <td> <p> Seleziona da <strong>Visualizza</strong>, <strong>Contribute</strong> o <strong>Gestisci</strong> l'accesso alla richiesta. Quando presentano una richiesta al progetto, viene loro concesso l’accesso alla richiesta che hanno presentato. Per ulteriori informazioni, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Condividere un problema </a>.</p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Le persone della stessa società erediteranno le stesse autorizzazioni per tutte le richieste</strong> </td> 
          <td> <p>Seleziona questo campo se desideri che le persone della stessa società abbiano lo stesso accesso a tutte le richieste sul progetto, che le abbiano inviate o meno.</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Quando a un utente viene dato l’accesso a questo progetto: concedi l’accesso a ...</strong> </td> 
-         <td> <p>Seleziona le opzioni di accesso che desideri che gli utenti abbiano sul progetto, se il progetto è condiviso con loro. Seleziona le opzioni specifiche per il loro accesso, se sono designate come <strong>Visualizzatori</strong>, <strong>Collaboratori</strong>, o <strong>Manager</strong> quando condividi il progetto con loro. </p> </td> 
+         <td role="rowheader"><strong>Quando a un utente viene concesso l'accesso a questo progetto: concedi l'accesso a ...</strong> </td> 
+         <td> <p>Seleziona le opzioni di accesso che desideri che gli utenti abbiano sul progetto, se il progetto è condiviso con loro. Se sono designati come <strong>Visualizzatori</strong>, <strong>Collaboratori</strong> o <strong>Manager</strong> durante la condivisione del progetto, seleziona le opzioni specifiche per il loro accesso. </p> </td> 
        </tr> 
        </tbody> 
       </table>
@@ -1037,19 +1037,19 @@ Modificando le impostazioni dei problemi, puoi impedire agli utenti di aggiunger
 
 Per modificare i modelli in blocco:
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront.
 
-1. Clic **Modelli**.
+1. Fare clic su **Modelli**.
 1. Seleziona diversi modelli nell’elenco.
-1. Clic **Modifica**.
+1. Fai clic su **Modifica**.
 
-   Il **Modifica Modelli** viene visualizzata.
+   Viene visualizzata la finestra di dialogo **Modifica modelli**.
 
    ![](assets/edit-templates-in-bulk-box-nwe-350x327.png)
 
 1. Fai clic sulle sezioni a sinistra per modificare tutti i modelli selezionati.
 
-   Per ulteriori informazioni sulla modifica delle informazioni sui modelli, vedere [Modificare un modello](#edit-a-template) in questo articolo.
+   Per ulteriori informazioni sulla modifica delle informazioni sui modelli, vedere la sezione [Modificare un modello](#edit-a-template) in questo articolo.
 
 1. Fai clic su **Salva modifiche**.
 
@@ -1061,9 +1061,9 @@ Dopo aver creato il modello e aver modificato le informazioni sul modello, è po
 
 L’aggiunta di attività a un modello è simile all’aggiunta di attività a un progetto.
 
-Per ulteriori informazioni sull’aggiunta di attività a un progetto, consulta [Creare attività in un progetto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+Per ulteriori informazioni sull&#39;aggiunta di attività a un progetto, vedere [Creare attività in un progetto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-Quando si aggiungono attività a un modello, la Durata del modello e i Giorni di inizio e completamento del modello cambiano di conseguenza. Per informazioni sui giorni di inizio e completamento del modello e delle attività del modello, vedere [Panoramica dei giorni di inizio e completamento in un modello](../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md).
+Quando si aggiungono attività a un modello, la Durata del modello e i Giorni di inizio e completamento del modello cambiano di conseguenza. Per informazioni sui giorni di inizio e completamento del modello e delle attività del modello, vedere [Panoramica sui giorni di inizio e completamento in un modello](../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md).
 
 ## Aggiungere elementi aggiuntivi a un modello
 
@@ -1074,34 +1074,34 @@ L’aggiunta dei seguenti elementi a un modello è identica all’aggiunta a un 
 * Documenti
 * Rischi
 
-  Per ulteriori informazioni sulla creazione di rischi, vedere [Creare e modificare i rischi nei progetti](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create)  sezione nell’articolo [Creare e modificare i rischi nei progetti](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
+  Per ulteriori informazioni sulla creazione di rischi, vedere la sezione [Creare e modificare rischi nei progetti](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create) nell&#39;articolo [Creare e modificare rischi nei progetti](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
 
 * Processi di approvazione
 
-  Per informazioni sull&#39;associazione dei processi di approvazione al lavoro, vedere [Associa un processo di approvazione nuovo o esistente al lavoro](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+  Per informazioni sull&#39;associazione dei processi di approvazione al lavoro, vedere [Associare un processo di approvazione nuovo o esistente al lavoro](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 * Tariffe di fatturazione
 
-  Per ulteriori informazioni sulla sostituzione delle tariffe di fatturazione per un progetto, consulta [Panoramica sulla sostituzione delle tariffe di fatturazione dei ruoli e sul calcolo dei ricavi per un progetto](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+  Per ulteriori informazioni sull&#39;override delle tariffe di fatturazione per un progetto, vedere [Panoramica sull&#39;override delle tariffe di fatturazione dei ruoli e sul calcolo dei ricavi per un progetto](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 * Spese
 
-  Per ulteriori informazioni sull&#39;aggiunta delle spese, vedere [Gestisci spese progetto](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+  Per ulteriori informazioni sull&#39;aggiunta delle spese, vedere [Gestione delle spese del progetto](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
 * Gruppi di argomenti e argomenti coda
 
-  Per ulteriori informazioni sull&#39;aggiunta di Gruppi di argomenti e Argomenti coda a un progetto o a un modello, vedere [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+  Per ulteriori informazioni sull&#39;aggiunta di Gruppi di argomenti e Argomenti coda a un progetto o modello, vedere [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 Puoi aggiungere i seguenti elementi alle attività nel modello:
 
 * Documenti
 * Spese
 
-  Per ulteriori informazioni sull&#39;aggiunta delle spese, vedere [Gestisci spese progetto](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+  Per ulteriori informazioni sull&#39;aggiunta delle spese, vedere [Gestione delle spese del progetto](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
 * Approvazioni
 
-  Per ulteriori informazioni sull&#39;associazione delle approvazioni al lavoro, vedere [Associa un processo di approvazione nuovo o esistente al lavoro](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+  Per ulteriori informazioni sull&#39;associazione delle approvazioni al lavoro, vedere [Associare un processo di approvazione nuovo o esistente al lavoro](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 
 ## Attivare o disattivare un modello
@@ -1112,12 +1112,12 @@ I modelli disattivati non influiscono sui progetti esistenti creati utilizzando 
 
 Per disattivare un modello:
 
-1. Passa a un modello attivo, quindi fai clic su **Altro** ![](assets/qs-more-icon-on-an-object.png) accanto al nome del modello, quindi fai clic su **Disattiva**.
+1. Vai a un modello attivo, quindi fai clic sul menu **Altro** ![](assets/qs-more-icon-on-an-object.png) accanto al nome del modello, quindi fai clic su **Disattiva**.
 
    ![](assets/deactivate-template-link-in-more-menu.png)
 
    Il modello non è più attivo e gli utenti non possono più trovarlo per creare progetti da esso.
-1. (Facoltativo) Per attivare il modello, fai clic su **Altro** ![](assets/qs-more-icon-on-an-object.png) accanto al nome del modello, quindi fai clic su **Attiva**.
+1. (Facoltativo) Per attivare il modello, fai clic sul menu **Altro** ![](assets/qs-more-icon-on-an-object.png) accanto al nome del modello, quindi fai clic su **Attiva**.
 
    Il modello è ora attivo e può essere allegato ai progetti o utilizzato per crearli.
 

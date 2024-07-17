@@ -50,7 +50,7 @@ Per eseguire le azioni descritte in questo articolo, è necessario disporre dei 
  <td>
  <p>Nuova licenza: Collaboratore o versione successiva</p>
  Oppure
- <p>Licenza corrente: richiesta o successiva</p> <p>Per ulteriori informazioni, consulta <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica sulle licenze di Adobe Workfront</a>.</p> </td>
+ <p>Licenza corrente: richiesta o successiva</p> <p>Per ulteriori informazioni, vedere <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica delle licenze di Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Prodotto*</td>
@@ -60,7 +60,7 @@ Per eseguire le azioni descritte in questo articolo, è necessario disporre dei 
 <li>Un piano Select o Prime Adobe Workfront e un’ulteriore licenza Adobe Workfront Goals.</li>
 <li>Un piano Workfront Ultimate che include gli obiettivi Workfront per impostazione predefinita. </li></ul>
  <p>Oppure</p>
- <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, consulta <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l’utilizzo degli obiettivi di Workfront</a>. </p> </td>
+ <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader"><p>Livello di accesso</p></td>
@@ -72,7 +72,7 @@ Per eseguire le azioni descritte in questo articolo, è necessario disporre dei 
   <div>
   <p>Visualizza o autorizzazioni superiori per l’obiettivo per visualizzarlo</p>
   <p>Gestire le autorizzazioni per l’obiettivo per modificarlo</p>
-  <p>Per informazioni sulla condivisione degli obiettivi, consulta <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Condividere un obiettivo in Obiettivi di Workfront</a>. </p>
+  <p>Per informazioni sulla condivisione degli obiettivi, vedere <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Condividere un obiettivo in Obiettivi di Workfront</a>. </p>
   </div> </td>
  </tr>
  <tr>
@@ -83,7 +83,7 @@ Per eseguire le azioni descritte in questo articolo, è necessario disporre dei 
 </tbody>
 </table>
 
-*Per ulteriori informazioni, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Tipi di grafici in Obiettivi Workfront
 
@@ -99,7 +99,7 @@ Nella sezione Grafici o Obiettivi Workfront sono disponibili i seguenti grafici:
     <ul> 
      <li>Numero totale di obiettivi per il periodo di tempo selezionato. Gli obiettivi con qualsiasi stato vengono presi in considerazione. </li> 
      <li>Stato di avanzamento degli obiettivi con stato Attivo e Chiuso.</li> 
-    </ul> <p>Per informazioni su come Workfront Goals calcola lo stato di avanzamento, vedi <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Panoramica dell’avanzamento e della condizione dell’obiettivo in Obiettivi di Adobe Workfront</a>.</p> </td> 
+    </ul> <p>Per informazioni sul modo in cui Workfront Goals calcola lo stato di avanzamento, vedere <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Panoramica sull'avanzamento e sulla condizione dell'obiettivo in Adobe Workfront Goals</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Grafico Stato Obiettivo</td> 
@@ -114,14 +114,14 @@ Nella sezione Grafici o Obiettivi Workfront sono disponibili i seguenti grafici:
 
 ## Esaminare l’avanzamento dell’obiettivo nei grafici
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) > **Obiettivi** nell’angolo superiore destro.
+1. Fai clic sull&#39;icona **Main Menu** ![](assets/main-menu-icon.png) > **Goals** nell&#39;angolo superiore destro.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
    Verrà aperta l&#39;area Obiettivi Workfront.
 
-1. Clic **Grafici** nel pannello a sinistra.
+1. Fai clic su **Grafici** nel pannello a sinistra.
 
    ![](assets/graphs-in-left-panel.png)
 
@@ -134,7 +134,7 @@ Nella sezione Grafici o Obiettivi Workfront sono disponibili i seguenti grafici:
 
 1. (Facoltativo) Seleziona il tipo di informazioni da visualizzare aggiornando i filtri nell’angolo superiore destro della sezione Grafici.
 
-   Per ulteriori informazioni sul filtraggio degli obiettivi, consulta [Filtrare le informazioni in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+   Per ulteriori informazioni sul filtro degli obiettivi, vedere [Filtrare le informazioni negli Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
    >[!TIP]
    >
@@ -171,14 +171,14 @@ Nella sezione Grafici o Obiettivi Workfront sono disponibili i seguenti grafici:
 
 1. Passa il cursore del mouse su un nodo della settimana nel grafico di avanzamento dell’obiettivo ed esamina quanto segue:
 
-   * **Data settimana**: il mese, il giorno e l’anno della settimana selezionata.
+   * **Data settimana**: il mese, il giorno e l&#39;anno della settimana selezionata.
    * **Avanzamento**: media della percentuale effettiva di completamento di tutti gli obiettivi per la settimana selezionata.
-   * **Linea di base**: media della percentuale di completamento prevista di tutti gli obiettivi per la settimana selezionata.
+   * **Previsione**: media della percentuale di completamento prevista di tutti gli obiettivi per la settimana selezionata.
 
 1. (Facoltativo) Fai clic su **Avanzamento** nella parte inferiore del grafico di avanzamento per rimuovere la linea di avanzamento complessiva effettiva
 
    Oppure
 
-   Clic **Linea di base** nella parte inferiore del grafico dell’avanzamento per rimuovere l’avanzamento previsto dal grafico.
+   Fai clic su **Previsione** nella parte inferiore del grafico dell&#39;avanzamento per rimuovere l&#39;avanzamento previsto dal grafico.
 
  

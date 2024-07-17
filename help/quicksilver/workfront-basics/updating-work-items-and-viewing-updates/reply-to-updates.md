@@ -49,7 +49,7 @@ Quando un utente risponde a un commento o a un aggiornamento di sistema su un og
 >
 >Non è possibile rispondere agli aggiornamenti di sistema nella scheda Attività di sistema. Eventuali risposte agli aggiornamenti di sistema apportate nell’esperienza di commento legacy prima dell’11 aprile 2024 vengono visualizzate in sola lettura.
 
-Questo articolo descrive come rispondere ai commenti della maggior parte degli oggetti in Workfront. Per informazioni sulle differenze tra le sezioni Aggiornamenti dei vari oggetti, vedere [Panoramica della sezione Aggiornamenti](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Questo articolo descrive come rispondere ai commenti della maggior parte degli oggetti in Workfront. Per le differenze tra le sezioni Aggiornamenti di vari oggetti, vedere [Panoramica della sezione Aggiornamenti](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 ## Requisiti di accesso
 
@@ -79,39 +79,39 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront. Per ulteriori informazioni, consulta [Requisiti di accesso alla documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront. Per ulteriori informazioni, consulta [Requisiti di accesso per la documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Rispondere a un aggiornamento o a una risposta in Workfront
 
-È possibile rispondere a un commento nel thread di un oggetto che è possibile visualizzare oppure accedere come amministratore di Workfront o di gruppo e rispondere a un commento per conto di un altro utente. Per ulteriori informazioni, consulta [Accedi come altro utente](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+È possibile rispondere a un commento nel thread di un oggetto che è possibile visualizzare oppure accedere come amministratore di Workfront o di gruppo e rispondere a un commento per conto di un altro utente. Per ulteriori informazioni, vedere [Accedere come altro utente](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 ### Rispondi a un commento
 
 La risposta a un commento nella sezione Aggiornamenti di un oggetto è simile per la maggior parte degli oggetti in Workfront.
 
 1. Passare all&#39;oggetto a cui si desidera aggiungere una risposta.
-1. Clic **Aggiornamenti**, quindi fare clic su **Commenti** scheda per l&#39;oggetto e trovare il commento o la risposta a cui si desidera rispondere
+1. Fai clic su **Aggiornamenti**, quindi fai clic sulla scheda **Commenti** per l&#39;oggetto e trova il commento o la risposta a cui desideri rispondere
 
    Oppure
 
-   Fai clic su **Tutti** , quindi fai clic su **Rispondi nei commenti** per aprire il commento nella scheda Commenti e rispondere. Non è possibile rispondere nella scheda Tutto.
+   Fare clic sulla scheda **Tutti**, quindi fare clic su **Rispondi in commenti** per aprire il commento nella scheda Commenti e rispondere. Non è possibile rispondere nella scheda Tutto.
 
-1. (Facoltativo) Per includere nella risposta il testo di un aggiornamento precedente, fare clic sul pulsante **Altro** nell’angolo superiore destro del commento a cui desideri rispondere, quindi fai clic su **Risposta preventivo**. Il testo dell&#39;aggiornamento precedente viene visualizzato nell&#39;area di input, contrassegnato da una linea grigia verticale.
-1. Clic **Rispondi**.
+1. (Facoltativo) Per includere nella risposta il testo di un aggiornamento precedente, fai clic sul menu **Altro** nell&#39;angolo superiore destro del commento a cui desideri rispondere, quindi fai clic su **Risposta preventivo**. Il testo dell&#39;aggiornamento precedente viene visualizzato nell&#39;area di input, contrassegnato da una linea grigia verticale.
+1. Fai clic su **Risposta**.
 
    ![](assets/reply-to-update-empty-box.png)
 
-   Puoi vedere gli utenti attivamente coinvolti nella conversazione nella parte inferiore della sezione **Aggiungi risposta...** e puoi aggiungerne altre o rimuovere quelle che non sono più pertinenti. Questi utenti, insieme a tutti gli utenti abbonati all’oggetto, ricevono una notifica ogni volta che viene effettuato un aggiornamento o una risposta sull’oggetto. Puoi anche assegnare tag a più utenti per includerli nella risposta.  Per assegnare tag a più utenti, consulta [Assegna tag ad altri utenti in caso di aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   Nella parte inferiore della casella **Aggiungi risposta...** è possibile visualizzare gli utenti coinvolti attivamente nella conversazione e aggiungerne altri o rimuovere quelli non più rilevanti. Questi utenti, insieme a tutti gli utenti abbonati all’oggetto, ricevono una notifica ogni volta che viene effettuato un aggiornamento o una risposta sull’oggetto. Puoi anche assegnare tag a più utenti per includerli nella risposta.  Per assegnare tag ad altri utenti, vedere [Assegnare tag ad altri utenti negli aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
    >[!TIP]
    >
-   >   Per aggiungere ulteriori risposte a una risposta esistente, puoi iniziare a digitare nella **Aggiungi risposta...** o fai clic su **Rispondi** sul commento originale. La risposta viene aggiunta alla fine del thread.
+   >   Per aggiungere altre risposte a una risposta esistente, puoi iniziare a digitare nella casella **Aggiungi risposta ...** oppure fare clic su **Rispondi** nel commento originale. La risposta viene aggiunta alla fine del thread.
 
-1. Inizia a digitare la risposta e utilizza eventuali opzioni aggiuntive dalla barra degli strumenti Testo formattato. Per informazioni sull’utilizzo di Rich Text o di altre funzionalità di aggiornamento, consulta [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
+1. Inizia a digitare la risposta e utilizza eventuali opzioni aggiuntive dalla barra degli strumenti Testo formattato. Per informazioni sull&#39;utilizzo di Rich Text o di altre funzionalità di aggiornamento, vedere [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
 
-1. Clic **Invia** per salvare la risposta.
+1. Fai clic su **Invia** per salvare la risposta.
 
-1. (Facoltativo) Fai clic su **Altro** menu ![](assets/more-menu.png) nell’angolo superiore destro del commento a cui desideri rispondere per ulteriori opzioni di gestione della risposta. Per ulteriori informazioni, consulta [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
+1. (Facoltativo) Fai clic sul menu **Altro** ![](assets/more-menu.png) nell&#39;angolo superiore destro del commento a cui desideri rispondere per altre opzioni di gestione della risposta. Per ulteriori informazioni, vedere [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
 
 <!--
 ### Reply to an update or reply in the legacy Updates section
@@ -149,7 +149,7 @@ Di seguito è riportato un esempio di notifica e-mail attivata in seguito a un a
 
 ![email.png](assets/email-350x202.png)
 
-Per informazioni, consulta [Rispondi alle notifiche e-mail](../updating-work-items-and-viewing-updates/reply-to-email-notifications.md).
+Per informazioni, vedere [Risposta alle notifiche e-mail](../updating-work-items-and-viewing-updates/reply-to-email-notifications.md).
 
 
 

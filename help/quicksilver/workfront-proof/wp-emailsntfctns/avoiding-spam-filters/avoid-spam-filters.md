@@ -20,10 +20,10 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alle funzionalità del prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Bozza](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
 Questa sezione contiene i seguenti articoli:
 
-* [Configura [!DNL Workfront Proof] e-mail per evitare filtri anti-spam](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md)
+* [Configura  [!DNL Workfront Proof]  e-mail per evitare filtri anti-spam](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md)
 * [Configurare le impostazioni di posta indesiderata per i client e-mail più comuni](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-spam-settings-clients.md)
-* [[!DNL Workfront Proof] Record SPF](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/wp-spf-records.md)
+* [[!DNL Workfront Proof] record SPF](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/wp-spf-records.md)

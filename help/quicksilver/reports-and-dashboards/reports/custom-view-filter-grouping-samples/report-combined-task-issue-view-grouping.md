@@ -3,28 +3,28 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "Rapporto: visualizzazione e raggruppamento combinati di attività e problemi"
-description: Questo rapporto Elemento di lavoro mostra le attività e i problemi che gli utenti hanno accettato di risolvere in un unico rapporto. È consigliabile se combinato con un raggruppamento personalizzato.
+description: Questo rapporto Elemento di lavoro mostra le attività e i problemi che gli utenti hanno accettato di affrontare in un unico rapporto. È consigliabile se combinato con un raggruppamento personalizzato.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 6eaae772-229d-44ea-b285-cbaf9e46eade
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 0%
+source-wordcount: '395'
+ht-degree: 1%
 
 ---
 
 # Rapporto: attività e problema combinati Visualizzazione e raggruppamento
 
-Questo rapporto Elemento di lavoro mostra le attività e i problemi che gli utenti hanno accettato di risolvere in un unico rapporto. È consigliabile se combinato con un raggruppamento personalizzato.
+Questo rapporto Elemento di lavoro mostra le attività e i problemi che gli utenti hanno accettato di affrontare in un unico rapporto. È consigliabile se combinato con un raggruppamento personalizzato.
 
-Questo rapporto utilizza `sharecol=true` nella visualizzazione per combinare più campi sotto la stessa intestazione di colonna. Per ulteriori informazioni su `sharecol` tag, vedi [Vista: unire le informazioni provenienti da più colonne in una colonna condivisa](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+Questo report utilizza `sharecol=true` nella visualizzazione per combinare più campi sotto la stessa intestazione di colonna. Per ulteriori informazioni sul tag `sharecol`, vedere [Visualizzazione: unire le informazioni di più colonne in una colonna condivisa](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 
 >[!TIP]
 >
 > Nella visualizzazione Elemento di lavoro vengono visualizzate solo le attività e i problemi accettati dagli utenti a esse assegnati. In questo report non vengono visualizzati gli elementi di lavoro che non sono stati spostati dagli elenchi Richieste di lavoro o Richieste team all&#39;elenco Lavori in corso dell&#39;utente.
 
-![work_item_report.png](assets/work-item-report-350x46.png)
+![report_elemento_lavoro](assets/work-item-report-350x46.png)
 
 ## Requisiti di accesso
 
@@ -50,25 +50,25 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Creare un rapporto con attività e problemi combinati Visualizzazione e raggruppamento
 
 Per creare un rapporto con questa visualizzazione:
 
-1. Dalla sezione **Menu principale** ![](assets/main-menu-icon.png), fai clic su **Rapporti**.
+1. Dal **menu principale** ![](assets/main-menu-icon.png), fare clic su **Report**.
 
-1. Clic **Nuovo rapporto** e selezionare l&#39;oggetto **Elemento di lavoro** dal menu a discesa.
+1. Fai clic su **Nuovo rapporto** e seleziona l&#39;oggetto **Elemento di lavoro** dal menu a discesa.
 
-1. In **Anteprima colonna** fare clic sull&#39;intestazione dell&#39;unica colonna visualizzata.
-1. Clic **Passa alla modalità testo**.
-1. Passa il puntatore del mouse sull&#39;area della modalità testo e fai clic su **Fare clic per modificare il testo**.
-1. Rimuove il testo trovato in **Modalità testo** e sostituirlo con il seguente codice:
+1. Nell&#39;area **Anteprima colonna** fare clic sull&#39;intestazione dell&#39;unica colonna visualizzata.
+1. Fare clic su **Passa alla modalità testo**.
+1. Passa il puntatore del mouse sull&#39;area della modalità testo e fai clic su **Fai clic per modificare il testo**.
+1. Rimuovere il testo trovato nella casella **Modalità testo** e sostituirlo con il seguente codice:
 
    ```
    column.0.description=Task or Issue 
@@ -272,4 +272,4 @@ Per creare un rapporto con questa visualizzazione:
 
    Questo raggruppamento raggruppa tutte le Attività e tutte le Issues.
 
-1. Clic **Salva e chiudi**.
+1. Fai clic su **Salva e Chiudi**.

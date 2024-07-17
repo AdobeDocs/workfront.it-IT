@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
 source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '2127'
+source-wordcount: '2128'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,7 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un modello e per l’attività modello </p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un modello e per l’attività modello </p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -76,27 +76,27 @@ Quando si spostano le attività modello, considera quanto segue:
 
 * Le seguenti informazioni non vengono trasferite all&#39;attività spostata:
 
-   * Le Milestone.
+   * Milestone.
 
 ## Copia attività modello
 
 È possibile copiare una singola attività modello oppure più attività modello in blocco.
 
 1. Passare al modello contenente l&#39;attività modello o le attività modello che si desidera copiare.
-1. Clic **Attività modello** nel pannello a sinistra.
+1. Fai clic su **Attività modello** nel pannello a sinistra.
 1. Esegui una delle operazioni seguenti:
    * Fare clic sul nome di un&#39;attività modello per aprirla.
    * Selezionare una o più attività modello nell&#39;elenco.
-1. (Condizionale) Fai clic su **Altro** menu ![](assets/more-icon.png) nella parte superiore dell&#39;elenco delle attività modello o a destra del nome dell&#39;attività modello, se l&#39;attività è stata aperta, fare clic su **Copia in** o **Copia**, a seconda di dove si accede all’opzione Copia da.
+1. (Condizionale) Fai clic sul menu **Altro** ![](assets/more-icon.png) nella parte superiore dell&#39;elenco delle attività modello o a destra del nome dell&#39;attività modello se hai aperto l&#39;attività, quindi fai clic su **Copia in** o **Copia**, a seconda di dove accedi all&#39;opzione Copia da.
 Viene visualizzata la casella Copia attività modello (Copy Template Task).
    ![](assets/copy-template-task-box-unshimmed.png)
-1. (Facoltativo) Rinomina l’attività modello in **Nome Attività Modello** campo.
+1. (Facoltativo) Rinomina l&#39;attività modello nel campo **Nome attività modello**.
 
    >[!TIP]
    >
    >Questo campo è inattivo e non è modificabile quando si seleziona per copiare più attività modello in un elenco. Puoi passare il cursore del mouse sul campo Nome attività modello per visualizzare un elenco di tutte le attività modello selezionate.
 
-1. Inizia a digitare il nome del **Modello di destinazione** dove si desidera copiare l&#39;attività modello in **Seleziona modello di destinazione** , quindi selezionarlo quando viene visualizzato nell&#39;elenco.
+1. Inizia a digitare il nome del **modello di destinazione** in cui desideri copiare l&#39;attività modello nel campo **Seleziona modello di destinazione**, quindi selezionalo quando viene visualizzato nell&#39;elenco.
 
    Il nome del modello corrente viene visualizzato per impostazione predefinita. Se si desidera copiare l&#39;attività modello all&#39;interno dello stesso modello, lasciare questo campo invariato.
 
@@ -104,14 +104,14 @@ Viene visualizzata la casella Copia attività modello (Copy Template Task).
    >
    >Puoi anche iniziare a digitare il Numero di riferimento o immettere l’ID del modello. Questo potrebbe aiutarti a distinguere tra modelli con nomi identici.
 
-1. (Condizionale) Fai clic su **richiedi accesso** per richiedere l’accesso al modello di destinazione, se non hai accesso al modello selezionato.
+1. (Condizionale) Fai clic su **richiedi l&#39;accesso** per richiedere l&#39;accesso al modello di destinazione, se non hai accesso al modello selezionato.
 1. (Facoltativo) Continua a copiare l’attività modello nel modello di destinazione selezionato senza richiedere l’accesso se disponi dell’accesso per aggiungere attività modello a una delle attività modello nel modello di destinazione.
 
-1. Clic **Opzioni** nel pannello a sinistra, deseleziona gli attributi dell’attività modello che non desideri copiare con l’attività modello. Tutte le opzioni sono selezionate per impostazione predefinita.
+1. Fai clic su **Opzioni** nel pannello a sinistra, quindi deseleziona gli attributi dell&#39;attività modello che non desideri copiare con l&#39;attività modello. Tutte le opzioni sono selezionate per impostazione predefinita.
 
    >[!TIP]
    >
-   >Deselezionare **Seleziona tutto** deseleziona tutte le opzioni.
+   >Deselezionando **Seleziona tutto** tutte le opzioni vengono deselezionate.
 
    Deseleziona tra le seguenti opzioni per non trasferirle all’attività modello copiata. La tabella seguente descrive cosa accade quando le opzioni vengono deselezionate:
 
@@ -179,7 +179,7 @@ Viene visualizzata la casella Copia attività modello (Copy Template Task).
    </table>
 
 
-1. (Facoltativo) Fai clic su **Seleziona elemento padre** nel pannello a sinistra, seleziona l’attività modello nel modello di destinazione che desideri diventi l’attività padre dell’attività modello copiata.
+1. (Facoltativo) Fai clic su **Seleziona elemento principale** nel pannello a sinistra, quindi seleziona l&#39;attività modello nel modello di destinazione che desideri diventi l&#39;elemento principale dell&#39;attività modello copiata.
 
    >[!TIP]
    >
@@ -188,7 +188,7 @@ Viene visualizzata la casella Copia attività modello (Copy Template Task).
    Selezionare un elemento padre eseguendo una delle operazioni seguenti:
 
    * Nell&#39;elenco delle attività modello selezionare uno dei padri nel piano modello.
-   * Fai clic sull’icona di ricerca ![Icona Ricerca](assets/search-icon.png) e cercare un&#39;attività modello padre per nome.
+   * Fare clic sull&#39;icona di ricerca ![Icona di ricerca](assets/search-icon.png) e cercare un&#39;attività modello padre per nome.
 
    L&#39;attività modello dovrebbe essere visualizzata nell&#39;elenco.
 
@@ -196,7 +196,7 @@ Viene visualizzata la casella Copia attività modello (Copy Template Task).
 
    Se non si seleziona un&#39;attività modello padre, le attività modello vengono copiate come attività modello principale anziché come attività secondarie e si trovano alla fine dell&#39;elenco delle attività modello nel modello di destinazione.
 
-1. Clic **Copia attività modello**.
+1. Fai clic su **Copia attività modello**.
 
    Le attività modello copiate si trovano ora nel modello specificato e sono sottoattività dell&#39;attività modello padre selezionata o delle ultime attività modello nel modello.
 
@@ -206,35 +206,35 @@ Viene visualizzata la casella Copia attività modello (Copy Template Task).
 È possibile spostare un&#39;attività modello in un&#39;altra attività modello nello stesso modello o in un altro modello. È possibile spostare una o più attività modello in blocco.
 
 1. Passare al modello contenente l&#39;attività modello o le attività modello che si desidera spostare.
-1. Clic **Attività modello** nel pannello a sinistra.
+1. Fai clic su **Attività modello** nel pannello a sinistra.
 1. Esegui una delle operazioni seguenti:
    * Fare clic sul nome di un&#39;attività modello per aprirla.
    * Selezionare una o più attività modello nell&#39;elenco.
-1. (Condizionale) Fai clic su **Altro** menu ![](assets/more-icon.png) nella parte superiore dell&#39;elenco delle attività modello o a destra del nome dell&#39;attività modello, se l&#39;attività è stata aperta, fare clic su **Sposta in** o **Sposta**, a seconda del punto da cui si accede all’opzione Sposta.
+1. (Facoltativo) Fai clic sul menu **Altro** ![](assets/more-icon.png) nella parte superiore dell&#39;elenco delle attività modello o a destra del nome dell&#39;attività modello se hai aperto l&#39;attività, quindi fai clic su **Sposta in** o **Sposta**, a seconda di dove accedi all&#39;opzione Sposta da.
 Viene visualizzata la casella Sposta attività modello (Move Template Task).
    ![](assets/move-template-task-box-unshimmed.png)
 
-1. (Facoltativo) Rinomina l’attività modello in **Nome Attività Modello** campo.
+1. (Facoltativo) Rinomina l&#39;attività modello nel campo **Nome attività modello**.
 
    >[!TIP]
    >
    >Questo campo è inattivo e non è modificabile quando si seleziona per spostare più attività modello in un elenco. Passa il puntatore del mouse sul campo Nome attività modello per visualizzare un elenco di tutte le attività modello selezionate.
 
-1. Inizia a digitare il nome del **Modello di destinazione** dove si desidera spostare l&#39;attività modello in **Seleziona modello di destinazione** , quindi selezionarlo quando viene visualizzato nell&#39;elenco.
+1. Inizia a digitare il nome del **modello di destinazione** in cui desideri spostare l&#39;attività modello nel campo **Seleziona modello di destinazione**, quindi selezionalo quando viene visualizzato nell&#39;elenco.
 
    >[!TIP]
    >
    >Puoi anche iniziare a digitare il Numero di riferimento o immettere l’ID del modello. Questo potrebbe aiutarti a distinguere tra modelli con nomi identici.
 
-1. (Condizionale) Fai clic su **richiedi accesso** per richiedere l’accesso al modello, se non hai accesso al modello di destinazione.
+1. (Condizionale) Fai clic su **richiedi l&#39;accesso** per richiedere l&#39;accesso al modello, se non hai accesso al modello di destinazione.
 1. (Facoltativo) Continua a spostare l’attività modello nel modello di destinazione selezionato senza richiedere l’accesso, se disponi dell’accesso per aggiungere attività modello a una delle attività modello nel modello di destinazione.
 
-1. Clic **Opzioni** nel pannello a sinistra, deseleziona gli attributi dell’attività modello che non desideri copiare con l’attività modello. Tutte le opzioni sono selezionate per impostazione predefinita.
+1. Fai clic su **Opzioni** nel pannello a sinistra, quindi deseleziona gli attributi dell&#39;attività modello che non desideri copiare con l&#39;attività modello. Tutte le opzioni sono selezionate per impostazione predefinita.
 
    >[!TIP]
    >
    >* La sezione Opzioni è disponibile solo dopo aver selezionato un modello di destinazione.
-   >* Deselezionare **Seleziona tutto** deseleziona tutte le opzioni.
+   >* Deselezionando **Seleziona tutto** tutte le opzioni vengono deselezionate.
 
    Deseleziona tra le seguenti opzioni per non trasferire le informazioni all’attività modello spostata. La tabella seguente descrive cosa accade quando le opzioni vengono deselezionate:
 
@@ -312,7 +312,7 @@ Viene visualizzata la casella Sposta attività modello (Move Template Task).
    </table>
 
 
-1. (Facoltativo) Fai clic su **Seleziona elemento padre** nel pannello a sinistra, seleziona l’attività modello nel modello di destinazione che desideri diventi l’attività padre dell’attività modello spostata.
+1. (Facoltativo) Fai clic su **Seleziona elemento principale** nel pannello a sinistra, quindi seleziona l&#39;attività modello nel modello di destinazione che desideri diventi l&#39;elemento principale dell&#39;attività modello spostata.
 
    >[!TIP]
    >
@@ -321,7 +321,7 @@ Viene visualizzata la casella Sposta attività modello (Move Template Task).
    Selezionare un elemento padre eseguendo una delle operazioni seguenti:
 
    * Nell&#39;elenco delle attività modello selezionare uno dei padri nel piano modello.
-   * Fai clic sull’icona di ricerca ![Icona Ricerca](assets/search-icon.png) e cercare un&#39;attività modello padre per nome.
+   * Fare clic sull&#39;icona di ricerca ![Icona di ricerca](assets/search-icon.png) e cercare un&#39;attività modello padre per nome.
 
    L&#39;attività modello dovrebbe essere visualizzata nell&#39;elenco.
 
@@ -329,6 +329,6 @@ Viene visualizzata la casella Sposta attività modello (Move Template Task).
 
    Se non si seleziona un&#39;attività modello padre, le attività modello vengono spostate come attività modello principale anziché come attività secondarie e si trovano alla fine dell&#39;elenco delle attività modello nel modello di destinazione.
 
-1. Clic **Sposta attività modello**.
+1. Fai clic su **Sposta attività modello**.
 
    Le attività modello spostate si trovano ora nel modello specificato e sono sottoattività dell&#39;attività modello padre selezionata o delle ultime attività modello nel modello.

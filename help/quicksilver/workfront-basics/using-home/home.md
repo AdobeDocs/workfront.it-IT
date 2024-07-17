@@ -19,4 +19,4 @@ ht-degree: 7%
 Questa sezione contiene le seguenti sottosezioni:
 
 * [Nuova Home](../../workfront-basics/using-home/new-home/new-home.md)
-* [Utilizza il [!UICONTROL Home] area](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
+* [Utilizza l&#39;area [!UICONTROL Home]](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)

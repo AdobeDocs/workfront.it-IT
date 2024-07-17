@@ -1,25 +1,25 @@
 ---
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Eliminare i piani nel planner dello scenario
-description: È possibile eliminare i piani creati. Non è possibile eliminare i piani condivisi con te.
+title: Eliminare i piani nella Pianificazione scenario
+description: È possibile eliminare i piani creati. Non è possibile eliminare i piani condivisi con l'utente.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
 source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 1%
+source-wordcount: '533'
+ht-degree: 0%
 
 ---
 
-# Elimina i piani nel [!DNL Scenario Planner]
+# Elimina piani in [!DNL Scenario Planner]
 
-È possibile eliminare i piani creati. Non è possibile eliminare i piani condivisi con te.
+È possibile eliminare i piani creati. Non è possibile eliminare i piani condivisi con l&#39;utente.
 
 ## Requisiti di accesso
 
-Devi disporre dei seguenti elementi:
+Devi avere i seguenti:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,28 +27,28 @@ Devi disporre dei seguenti elementi:
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront]<b> piano*</b> </p> </td> 
-   <td>[!UICONTROL Business] o superiore</td> 
+   <td>[!UICONTROL Business] o versione successiva</td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> licenza*</b> </p> </td> 
+   <td> <p>Licenza [!DNL Adobe Workfront]<b>*</b> </p> </td> 
    <td> <p>[!UICONTROL Review] o versione successiva</p> </td> 
   </tr> 
   <tr> 
    <td><b>Prodotto</b> </td> 
-   <td> <p>È necessario acquistare una licenza aggiuntiva per [!DNL Adobe Workfront Scenario Planner] per accedere alla funzionalità descritta in questo articolo.</p> <p>Per informazioni su come ottenere [!DNL Workfront Scenario Planner], vedi <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accesso necessario per utilizzare [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <p>È necessario acquistare una licenza aggiuntiva per [!DNL Adobe Workfront Scenario Planner] per accedere alla funzionalità descritta in questo articolo.</p> <p>Per informazioni su come ottenere [!DNL Workfront Scenario Planner], vedere <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accesso necessario per utilizzare [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Configurazioni a livello di accesso*</strong> </td> 
-   <td> <p>Accesso o superiore a [!DNL Scenario Planner]</p> <p>Nota: Se non hai ancora accesso, chiedi [!DNL Workfront] amministratore se imposta ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td><strong>Configurazioni del livello di accesso*</strong> </td> 
+   <td> <p>Accesso di [!UICONTROL Edit] o versione successiva al [!DNL Scenario Planner]</p> <p>Nota: se non disponi ancora dell'accesso, chiedi all'amministratore [!DNL Workfront] se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Autorizzazioni oggetto</strong> </p> </td> 
-   <td> <p>Autorizzazioni di gestione per un piano</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo a un piano, vedi <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Richiedi l'accesso a un piano nel [!DNL Scenario Planner]</a>.</p> </td> 
+   <td> <p>Autorizzazioni [!UICONTROL Manage] per un piano</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo a un piano, vedere <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Richiedere accesso a un piano in [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
 
 ## Elimina piani
 
@@ -67,19 +67,19 @@ Devi disporre dei seguenti elementi:
 >
 >Quando si eliminano i piani, tenere presente quanto segue:
 >
->* Vengono inoltre eliminate tutte le informazioni relative al piano. Ciò include tutti gli scenari e le iniziative associati al piano, comprese le informazioni sui ruoli e i costi del lavoro. Queste informazioni non possono essere recuperate.
->* Se il piano contiene uno scenario pubblicato, i progetti collegati alle iniziative eliminate vengono mantenuti e la [!DNL Scenario Planner] la zona rimane [!UICONTROL Dettagli progetto] sezione .
+>* Vengono eliminate anche tutte le informazioni relative al piano. Sono inclusi tutti gli scenari e le iniziative associati al piano, incluse informazioni su mansioni e costi. Queste informazioni non possono essere recuperate.
+>* Se il piano contiene uno scenario pubblicato, i progetti collegati alle iniziative eliminate vengono mantenuti e l&#39;area [!DNL Scenario Planner] rimane nella sezione [!UICONTROL Dettagli progetto].
 >
->  Per informazioni sulla pubblicazione di iniziative in progetti, consulta [Aggiornare o creare progetti pubblicando iniziative nel [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
+>  Per informazioni sulla pubblicazione di iniziative nei progetti, vedere [Aggiornare o creare progetti pubblicando iniziative in [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
 
 Per eliminare un piano:
 
-1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png), quindi fai clic su [!UICONTROL Scenari].
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]**, quindi fai clic su [!UICONTROL Scenari].
 
    Viene visualizzato un elenco di piani.
 
 1. Fare clic sul nome di un piano per aprirlo.
-1. Fai clic sul pulsante **[!UICONTROL Menu Altro]** ![](assets/more-menu.png) a destra del nome del piano, quindi fare clic su **[!UICONTROL Elimina]** > **[!UICONTROL Sì, eliminalo]**.
+1. Fai clic sul **[!UICONTROL menu Altro]** ![](assets/more-menu.png) a destra del nome del piano, quindi fai clic su **[!UICONTROL Elimina]** > **[!UICONTROL Sì, elimina]**.
 
    Il piano viene eliminato e si torna all&#39;elenco dei piani.
 
@@ -87,23 +87,23 @@ Per eliminare un piano:
 
 >[!IMPORTANT]
 >
->Quando si elimina uno scenario, tenere presente quanto segue:
+>Quando elimini uno scenario, considera quanto segue:
 >
->* L’eliminazione di uno scenario comporta l’eliminazione di tutte le iniziative e delle relative informazioni dallo scenario. Se vengono copiati in altri scenari, le iniziative rimangono sugli altri scenari.
->* Quando si elimina uno scenario, lo scenario successivo assume il numero dello scenario eliminato e l&#39;ordine di conteggio viene mantenuto. Ad esempio, se elimini lo Scenario 4, lo Scenario 5 diventa lo Scenario 4.
->* Se vengono pubblicate alcune iniziative sullo scenario, il progetto collegato all&#39;iniziativa viene mantenuto e l&#39;area Planner scenario rimane sui progetti collegati
->* Se le iniziative pubblicate esistono in un altro scenario, rimangono su tale scenario, compreso il loro collegamento al progetto. La pubblicazione di tali iniziative dagli altri scenari aggiorna i progetti collegati con nuove informazioni provenienti da tali scenari.
+>* Se si elimina uno scenario, vengono eliminate anche tutte le iniziative e le relative informazioni. Se vengono copiate in altri scenari, le iniziative rimangono sugli altri scenari.
+>* Quando si elimina uno scenario, lo scenario successivo assume il numero dello scenario eliminato e l&#39;ordine di conteggio viene mantenuto. Ad esempio, se si elimina lo scenario 4, lo scenario 5 diventa lo scenario 4.
+>* Se vengono pubblicate alcune iniziative sullo scenario, il progetto collegato all’iniziativa viene mantenuto e l’area Pianificazione scenario rimane sui progetti collegati
+>* Se le iniziative pubblicate esistono in un altro scenario, rimangono in quello scenario, incluso il loro collegamento al progetto. La pubblicazione di tali iniziative da altri scenari aggiorna i progetti collegati con nuove informazioni da tali scenari.
 >
->  Per informazioni sulla pubblicazione di iniziative in progetti, consulta [Aggiornare o creare progetti pubblicando iniziative nel [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
+>  Per informazioni sulla pubblicazione di iniziative nei progetti, vedere [Aggiornare o creare progetti pubblicando iniziative in [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
 
 Per eliminare uno scenario:
 
 1. Passare al piano per il quale si desidera eliminare uno scenario.
 
-   Per impostazione predefinita, viene visualizzato lo scenario Iniziale .
+   Per impostazione predefinita, viene visualizzato lo scenario Iniziale.
 
-1. Fai clic su **[!UICONTROL Confronto degli scenari]**.
-1. Nell’angolo in alto a destra della scheda dello scenario, fai clic su **[!UICONTROL Altro]** menu ![](assets/more-menu.png), quindi fai clic su **[!UICONTROL Elimina]**.
+1. Fai clic su **[!UICONTROL Confronta scenari]**.
+1. Nell&#39;angolo superiore destro della scheda dello scenario, fai clic sul menu **[!UICONTROL Altro]** ![](assets/more-menu.png), quindi fai clic su **[!UICONTROL Elimina]**.
 
    Lo scenario viene eliminato.
 

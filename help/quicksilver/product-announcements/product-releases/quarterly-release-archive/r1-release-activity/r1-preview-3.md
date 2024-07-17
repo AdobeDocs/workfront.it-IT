@@ -18,7 +18,7 @@ ht-degree: 2%
 
 Questa pagina descrive tutte le modifiche disponibili nell’ambiente di anteprima con la versione R1.3. La funzionalità di questa pagina è stata resa disponibile nell’ambiente di anteprima il 1° febbraio 2017.
 
-Per un elenco di tutte le modifiche apportate in R1, vedere [Panoramica dell’attività sulla versione R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md). 
+Per un elenco di tutte le modifiche apportate in R1, vedere [Panoramica delle attività sulla versione di R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md). 
 
 ## Metodo migliorato per il collegamento di file esterni
 
@@ -28,13 +28,13 @@ Inoltre, l’autorizzazione di un provider di documenti prima di collegare i fil
 
 Prima di queste modifiche, l&#39;opzione per collegare i file da un&#39;origine esterna era disponibile nella finestra di dialogo Aggiungi documenti all&#39;interno dell&#39;area Documenti. Prima di collegare un documento da un’origine esterna per la prima volta, l’utente che lo collegava doveva autorizzare quel provider di documenti nell’area Setup.
 
-Per ulteriori informazioni, consulta  [Collegare documenti da applicazioni esterne](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Per ulteriori informazioni, consulta  [Collega documenti da applicazioni esterne](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 ## Calendario di lavoro del team aggiornato
 
 >[!NOTE]
 >
->Gli strumenti di pianificazione delle risorse sono stati dichiarati obsoleti e rimossi da Workfront con la versione 23.1. Per informazioni sulla programmazione delle risorse tramite il Bilanciatore dei carichi di lavoro, consulta [Panoramica del Bilanciatore dei carichi di lavoro](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Gli strumenti di pianificazione delle risorse sono stati dichiarati obsoleti e rimossi da Workfront con la versione 23.1. Per informazioni sulla pianificazione delle risorse tramite il Bilanciatore dei carichi di lavoro, vedere [Panoramica del Bilanciatore dei carichi di lavoro](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Il calendario Lavori in corso disponibile per i team ora contiene funzionalità aggiuntive e un aspetto aggiornato. Il calendario Team Working On ora funziona in modo simile allo strumento di pianificazione delle risorse per i progetti.
 
@@ -70,7 +70,7 @@ La timeline di pianificazione include i seguenti miglioramenti:
 
 >[!NOTE]
 >
->Gli strumenti di pianificazione delle risorse sono stati dichiarati obsoleti e rimossi da Workfront con la versione 23.1. Per informazioni sulla programmazione delle risorse tramite il Bilanciatore dei carichi di lavoro, consulta [Panoramica del Bilanciatore dei carichi di lavoro](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Gli strumenti di pianificazione delle risorse sono stati dichiarati obsoleti e rimossi da Workfront con la versione 23.1. Per informazioni sulla pianificazione delle risorse tramite il Bilanciatore dei carichi di lavoro, vedere [Panoramica del Bilanciatore dei carichi di lavoro](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Ora è possibile utilizzare il filtro per controllare quali utenti vengono visualizzati nella timeline di pianificazione, oltre a quali attività e problemi vengono visualizzati nell’area Non assegnato. Quando gli utenti vengono selezionati nel filtro, vengono visualizzati solo gli utenti selezionati, indipendentemente dal fatto che abbiano un&#39;assegnazione di ruolo corrispondente all&#39;assegnazione di ruolo delle attività nell&#39;area Non assegnato. Vengono visualizzate anche tutte le attività attualmente assegnate a tale utente.
 
@@ -120,7 +120,7 @@ Nelle seguenti aree non viene visualizzato il nome aggiornato degli oggetti:
 * App mobili
 * Componente aggiuntivo per Outlook
 
-Per ulteriori informazioni su come personalizzare la terminologia di Workfront utilizzando un modello di layout, vedere la sezione &quot;Personalizzazione della terminologia&quot; in &quot;Creazione e gestione dei modelli di layout&quot; e la sezione &quot;Informazioni sulle implicazioni della personalizzazione dei nomi di oggetto&quot; in [Comprendere gli oggetti in Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Per ulteriori informazioni su come personalizzare la terminologia di Workfront utilizzando un modello di layout, vedere la sezione &quot;Personalizzazione della terminologia&quot; in &quot;Creazione e gestione dei modelli di layout&quot; e la sezione &quot;Informazioni sulle implicazioni della personalizzazione dei nomi di oggetto&quot; in [Informazioni sugli oggetti in Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 ## Includi date di inizio e fine approvazione nei report
 
@@ -131,9 +131,9 @@ Durante la creazione o la modifica di rapporti è ora possibile includere i camp
 
 Questi campi ti consentono di sapere quando è stato avviato il percorso di approvazione corrente o più recente e quando è stato contrassegnato come Completo.
 
-Per ulteriori informazioni su questi campi, consulta [Glossario della terminologia di Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+Per ulteriori informazioni su questi campi, vedere [Glossario della terminologia di Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-Per ulteriori informazioni sui percorsi di approvazione, su come vengono creati e attivati e sulla funzione che svolgono nei processi di approvazione, consulta [Creare un processo di approvazione per gli elementi di lavoro](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+Per ulteriori informazioni sui percorsi di approvazione, sulle modalità di creazione e attivazione e sulla funzione da essi utilizzata nei processi di approvazione, vedere [Creare un processo di approvazione per gli elementi di lavoro](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 I seguenti campi sono stati rimossi da Workfront e non possono più essere inclusi nei rapporti (questi campi forniscono informazioni sul progetto piuttosto che sulle approvazioni stesse, e spesso sono stati utilizzati in modo improprio):
 
@@ -145,7 +145,7 @@ I seguenti campi sono stati rimossi da Workfront e non possono più essere inclu
 
 L’opzione di consegna Riepilogo giornaliero è stata aggiunta all’area &quot;Richieste effettuate&quot; delle impostazioni delle notifiche.
 
-Per ulteriori informazioni, consulta [Modifica le tue notifiche e-mail](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Per ulteriori informazioni, vedere [Modificare le proprie notifiche e-mail](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Ricorda di aggiornare l’indirizzo e-mail associato al tuo account per poter testare questa funzionalità. Questo è necessario perché la Sandbox di anteprima cancella gli indirizzi e-mail su tutti gli utenti.
 
@@ -153,7 +153,7 @@ Ricorda di aggiornare l’indirizzo e-mail associato al tuo account per poter te
 
 L’aspetto della notifica di &quot;Approvazione documento&quot; è stato aggiornato con una nuova interfaccia:
 
-Per ulteriori informazioni sulle notifiche e-mail, consulta [Notifiche Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md).
+Per ulteriori informazioni sulle notifiche e-mail, vedi [Notifiche Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md).
 
 Ricorda di aggiornare l’indirizzo e-mail associato al tuo account per poter testare questa funzionalità. Questo è necessario perché la Sandbox di anteprima cancella gli indirizzi e-mail su tutti gli utenti.
 
@@ -166,4 +166,4 @@ La vista Milestone (Attività cardine) disponibile quando si visualizza un elenc
 
 Prima di questa modifica, per modificare le date o visualizzare la percentuale di completamento era necessario passare alla singola attività.
 
-Per ulteriori informazioni, consulta [Utilizzare la vista Milestone](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+Per ulteriori informazioni, vedere [Utilizzare la vista Milestone](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).

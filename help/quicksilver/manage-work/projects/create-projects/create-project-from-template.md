@@ -25,7 +25,7 @@ I modelli consentono di acquisire processi, informazioni e impostazioni ripetibi
 >
 >Workfront definisce il gruppo e lo stato del nuovo progetto come segue:
 >
->* Lo stato predefinito di un nuovo progetto creato da un modello corrisponde a quello definito dall&#39;amministratore di Workfront nell&#39;area Preferenze progetto principale o da un amministratore di gruppo (o amministratore Workfront) nell&#39;area Preferenze progetto per un gruppo. Per informazioni sulla configurazione delle preferenze del progetto, consulta [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) o [Configurare le preferenze di progetto per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+>* Lo stato predefinito di un nuovo progetto creato da un modello corrisponde a quello definito dall&#39;amministratore di Workfront nell&#39;area Preferenze progetto principale o da un amministratore di gruppo (o amministratore Workfront) nell&#39;area Preferenze progetto per un gruppo. Per informazioni sulla configurazione delle preferenze di progetto, vedere [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) o [Configurare le preferenze di progetto per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 >
 >* Il Gruppo del nuovo progetto è il Gruppo del modello. Se il modello non è associato a un gruppo, il gruppo del progetto è il gruppo predefinito dell’utente che crea il progetto.
 >
@@ -37,7 +37,7 @@ Per creare un progetto da un modello, puoi utilizzare le seguenti opzioni:
 * Creare un progetto da un modello a livello di modello
 * Allega un modello a un progetto esistente
 
-  Per informazioni, consulta [Allegare un modello a un progetto](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+  Per informazioni, vedere [Allegare un modello a un progetto](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
 
 * Creare un progetto da un modello nell’area Gruppi
 
@@ -117,7 +117,7 @@ Puoi creare un progetto dall’area Progetti nel Menu principale oppure dall’a
 
 1. Esegui una delle operazioni seguenti:
 
-   * Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro. Clic **Progetti**, quindi espandi **Nuovo progetto**.
+   * Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro. Fai clic su **Progetti**, quindi espandi **Nuovo progetto**.
    * Vai a un portfolio, quindi espandi **Nuovo progetto**.
 
      >[!TIP]
@@ -130,7 +130,7 @@ Puoi creare un progetto dall’area Progetti nel Menu principale oppure dall’a
      >
      >Quando si crea un progetto utilizzando un modello di un programma, il campo Programma dei nuovi progetti viene aggiornato in modo da visualizzare il programma dal quale si è scelto di creare il progetto. Il campo Portfolio del modello viene aggiornato in modo da visualizzare il portfolio del programma da cui hai scelto di creare il progetto. In questo modo vengono sovrascritti i campi Programma e Portfolio del modello, se specificati.
 
-   * Se sei un amministratore gruppo, puoi anche creare un progetto nella sezione Progetti di un gruppo che gestisci. Per ulteriori informazioni, consulta [Creare e modificare i progetti di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+   * Se sei un amministratore gruppo, puoi anche creare un progetto nella sezione Progetti di un gruppo che gestisci. Per ulteriori informazioni, vedere [Creare e modificare i progetti di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
      >[!TIP]
      >
@@ -140,9 +140,9 @@ Puoi creare un progetto dall’area Progetti nel Menu principale oppure dall’a
    <p>(this, above, is hyperlinked to the classic version of this article; the Milestone View steps are similar to creating a project in Classic than to the way you do it in NWE)</p>
    -->
 
-   ![Opzioni nuovo progetto](assets/new-project-dropdown.png)
+   ![Nuove opzioni progetto](assets/new-project-dropdown.png)
 
-1. Fai clic sul nome di un modello in **Modelli preferiti** elenco.
+1. Fare clic sul nome di un modello nell&#39;elenco **Modelli preferiti**.
 
    ![Seleziona un modello preferito](assets/new-project-from-template-dropdown-with-template-favorites.png)
 
@@ -150,8 +150,8 @@ Puoi creare un progetto dall’area Progetti nel Menu principale oppure dall’a
 
    Effettua le seguenti operazioni:
 
-   1. Seleziona **Nuovo progetto da modello**.
-   1. In **Cerca Modelli** , inizia a digitare il nome di un modello e fai clic su di esso quando viene visualizzato nell’elenco.
+   1. Seleziona **Nuovo progetto dal modello**.
+   1. Nel campo **Cerca modelli**, inizia a digitare il nome di un modello e fai clic su di esso quando viene visualizzato nell&#39;elenco.
    1. Rivedi i dettagli del modello a destra.
 
       I dettagli del modello includono quanto segue:
@@ -162,34 +162,34 @@ Puoi creare un progetto dall’area Progetti nel Menu principale oppure dall’a
       * Numero di tutte le attività nel modello
       * Nomi dei moduli personalizzati del modello
 
-   1. (Facoltativo) Passa il puntatore del mouse sul nome di un modello nel riquadro a sinistra e fai clic sul pulsante **Preferiti** **icona** ![](assets/favorites-icon-small.png) per contrassegnarlo come preferito per un utilizzo futuro.
+   1. (Facoltativo) Passa il puntatore del mouse sul nome di un modello nel riquadro di sinistra e fai clic sull&#39;icona **Preferiti** **![](assets/favorites-icon-small.png) di** Preferiti per contrassegnarlo come preferito per un utilizzo futuro.
 
       Oppure
 
-      Espandi **Modelli preferiti** e selezionare un modello dall&#39;elenco a discesa.
+      Espandere l&#39;elenco **Modelli preferiti** e selezionare un modello dall&#39;elenco a discesa.
 
       >[!TIP]
       >
       >Puoi avere fino a 40 elementi Workfront contrassegnati come preferiti. Ciò include modelli e altri elementi.
 
-   1. Clic **Usa modello** quando hai selezionato un modello.
+   1. Fare clic su **Usa modello** dopo aver selezionato un modello.
 
       ![Dettagli modello](assets/new-project-from-template-small-box-with-template-details-panel.png)
 
       >[!NOTE]
       >
-      >Se all’elenco dei progetti è applicata la Vista Milestone, fai clic sul nome di un modello in **Sezione Nuovo da modello**.
+      >Se all&#39;elenco dei progetti è applicata la visualizzazione Milestone, fare clic sul nome di un modello nella sezione **Nuovo da modello**.
       >
       >
-      >![Vista Milestone (Attività cardine) della creazione di un progetto da un modello](assets/create-project-from-template-box-from-milestone-view-nwe-350x275.png)
+      >![Vista milestone della creazione di un progetto da un modello](assets/create-project-from-template-box-from-milestone-view-nwe-350x275.png)
       >
 
-   Il **Nuovo progetto** viene visualizzata la casella.
+   Viene visualizzata la casella **Nuovo progetto**.
 
    ![Casella Nuovo progetto](assets/new-project-from-template-box.png)
 
-1. Se un campo è già popolato nel modello, il campo viene prepopolato in **Nuovo progetto** casella. Puoi modificare i valori precompilati in modo che corrispondano meglio al tuo progetto. Per ulteriori informazioni, consulta [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
-1. Clic **Crea progetto**.
+1. Se un campo è già popolato nel modello, il campo viene prepopolato nella casella **Nuovo progetto**. Puoi modificare i valori precompilati in modo che corrispondano meglio al tuo progetto. Per ulteriori informazioni, vedere [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
+1. Fare clic su **Crea progetto**.
 
    Tutti i dettagli definiti nel modello vengono associati automaticamente al nuovo progetto creato se non sono stati modificati nel passaggio precedente.
 
@@ -200,18 +200,18 @@ Invece di iniziare dall’area Progetti, puoi creare un progetto da un modello i
 {{step1-to-templates}}
 
 1. Fare clic sul nome del modello che si desidera utilizzare.
-1. Fai clic su **Altro** menu ![](assets/more-icon.png), quindi fai clic su **Crea progetto**.
+1. Fai clic sul menu **Altro** ![](assets/more-icon.png), quindi fai clic su **Crea progetto**.
 
    ![Crea progetto da modello](assets/project-sharing-on-template.png)
 
-   Il **Nuovo progetto** viene visualizzata la casella.
+   Viene visualizzata la casella **Nuovo progetto**.
 
 1. Immetti un nome per il progetto, quindi controlla ogni sezione e apporta le modifiche necessarie.
 
    ![Casella Nuovo progetto](assets/new-project-from-template-box.png)
 
-   Se un campo è già popolato nel modello, il campo viene prepopolato in **Nuovo progetto** casella. Puoi modificare i valori precompilati in modo che corrispondano meglio al tuo progetto. Per ulteriori informazioni, consulta [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
+   Se un campo è già popolato nel modello, il campo viene prepopolato nella casella **Nuovo progetto**. Puoi modificare i valori precompilati in modo che corrispondano meglio al tuo progetto. Per ulteriori informazioni, vedere [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. Clic **Crea progetto**.
+1. Fare clic su **Crea progetto**.
 
    Tutti i dettagli definiti nel modello vengono associati automaticamente al nuovo progetto creato se non sono stati modificati nel passaggio precedente.

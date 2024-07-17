@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti Agile apportati con la versione 21.4 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 4 ottobre 2021.
 
-Per un elenco di tutte le modifiche disponibili con la versione 21.4, consulta [Panoramica sulla versione 21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 21.4, consulta la [Panoramica sulla versione 21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Assegnazioni utente su bacheche Kanban e Scrum
 
@@ -24,7 +24,7 @@ Abbiamo aggiornato le schede delle storie sulle bacheche Kanban e Scrum per faci
 
 Per ulteriori informazioni, consulta
 
-* [Assegnare utenti a un brano sulla bacheca Kanban](../../../agile/use-kanban-in-an-agile-team/assign-users-to-a-story.md)
+* [Assegna utenti a una storia sul Kanban Board](../../../agile/use-kanban-in-an-agile-team/assign-users-to-a-story.md)
 * [Assegnare utenti a un brano sulla bacheca Scrum](../../../agile/use-scrum-in-an-agile-team/scrum-board/assign-users-to-a-story-scrum.md)
 
 ## Configurare la modalità di applicazione delle date quando si aggiungono elementi di lavoro a un’iterazione Scrum
@@ -33,7 +33,7 @@ Per impostazione predefinita, quando si aggiunge un elemento di lavoro a un&#39;
 
 Questa opzione si applica solo ai team Scrum e non ai team Kanban.
 
-Per ulteriori informazioni, consulta [Configura Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+Per ulteriori informazioni, vedere [Configurare Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Modifiche alla visualizzazione agile dei progetti
 
@@ -41,7 +41,7 @@ Per ulteriori informazioni, consulta [Configura Scrum](../../../agile/get-starte
 >
 >Questa funzione è stata rilasciata nell’ambiente di anteprima il 16 settembre 2021.
 
-Con la versione 21.3, abbiamo migliorato l’intestazione della scheda agile e lo storyboard (consulta [Aggiornamenti nell’intestazione e nella bacheca delle storie della scheda Agile](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)). Questi aggiornamenti si applicavano alle iterazioni e alla visualizzazione agile dei progetti.
+Come parte della versione 21.3, sono stati apportati miglioramenti all&#39;intestazione della scheda agile e agli storyboard (vedi [Aggiornamenti all&#39;intestazione della scheda agile e allo storyboard](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)). Questi aggiornamenti si applicavano alle iterazioni e alla visualizzazione agile dei progetti.
 
 Con la versione 21.4, questi miglioramenti vengono ripristinati per la visualizzazione agile dei progetti. Non vengono apportate modifiche alle iterazioni Agile.
 
@@ -56,5 +56,5 @@ Di seguito sono riportate le modifiche che vengono ripristinate per quanto rigua
 
 Ora puoi creare una nuova storia o un nuovo problema direttamente dalla bacheca Kanban. In questo modo è più semplice aggiungere rapidamente una nuova storia senza dover passare a un progetto, report o dashboard per creare un&#39;attività.
 
-Per ulteriori informazioni, consulta [Aggiungi storie e problemi dal Kanban Board](../../../agile/use-kanban-in-an-agile-team/add-story-from-kanban-board.md).
+Per ulteriori informazioni, consulta [Aggiungere storie e problemi dalla bacheca Kanban](../../../agile/use-kanban-in-an-agile-team/add-story-from-kanban-board.md).
 

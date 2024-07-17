@@ -28,13 +28,13 @@ ht-degree: 1%
 Il lavoro pianificato è rappresentato in Adobe Workfront dai progetti e dalle attività. Tuttavia, puoi lavorare in un ambiente in cui è possibile inserire lavoro non pianificato, sotto forma di richieste, in qualsiasi momento. Workfront fornisce un flusso di lavoro per questo tipo di ambiente tramite l’utilizzo di Code di richieste.
 
 Dopo aver creato una richiesta in una coda di richieste, è possibile assegnarla a una richiesta da completare oppure convertirla in un&#39;attività o un progetto.\
-Per ulteriori informazioni sulla conversione dei problemi in un&#39;attività o in un progetto, vedere l&#39;articolo [Panoramica sulla conversione dei problemi in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+Per ulteriori informazioni sulla conversione dei problemi in un&#39;attività o un progetto, vedere l&#39;articolo [Panoramica sulla conversione dei problemi in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 Puoi creare una richiesta nei seguenti modi:
 
 * Da zero come descritto in questo articolo.
-* Dalle bozze. Per informazioni, consulta [Creare richieste da bozze](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
-* Da una richiesta esistente, copiandone e inviandone una copia. Per informazioni, consulta [Copiare e inviare richieste](../../../manage-work/requests/create-requests/copy-and-submit-requests.md).
+* Dalle bozze. Per informazioni, vedere [Creare richieste dalle bozze](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
+* Da una richiesta esistente, copiandone e inviandone una copia. Per informazioni, vedere [Copiare e inviare richieste](../../../manage-work/requests/create-requests/copy-and-submit-requests.md).
 
 ## Requisiti di accesso
 
@@ -78,19 +78,19 @@ Un amministratore di Workfront deve creare i seguenti componenti di una coda di 
 
 * Progetto in stato Corrente, pubblicato come coda di richieste di aiuto.
 * Argomenti Coda.\
-  Per ulteriori informazioni, consulta l’articolo [Crea argomenti coda](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+  Per ulteriori informazioni, vedere l&#39;articolo [Crea argomenti coda](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
 * Regole di instradamento.\
-  Per ulteriori informazioni, consulta l’articolo [Creare regole di instradamento](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+  Per ulteriori informazioni, vedere l&#39;articolo [Creare regole di routing](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
 * Gruppi di argomenti (facoltativo).\
-  Per ulteriori informazioni, consulta l’articolo [Crea gruppi di argomenti](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
+  Per ulteriori informazioni, vedere l&#39;articolo [Creare gruppi di argomenti](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
 * (Facoltativo) Richiedi modulo personalizzato.\
-  Per ulteriori informazioni, consulta l’articolo [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  Per ulteriori informazioni, vedere l&#39;articolo [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 * (Facoltativo) Processo di approvazione delle richieste.\
-  Per ulteriori informazioni, consulta l’articolo [Creare un processo di approvazione per gli elementi di lavoro](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+  Per ulteriori informazioni, vedere l&#39;articolo [Creare un processo di approvazione per gli elementi di lavoro](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 ## Creare richieste e generare bozze nell’app web Workfront
 
@@ -106,27 +106,27 @@ Quando crei una richiesta nell’app web Workfront, Workfront la salva come bozz
 >* Se la struttura di una coda di richieste cambia, non è più possibile accedere alle bozze esistenti. Ad esempio, se un argomento della coda viene rimosso o viene aggiunto un gruppo di argomenti, le bozze salvate non sono più accessibili.
 >
 
-Per informazioni sulla creazione di richieste da bozze esistenti, consulta [Creare richieste da bozze](../../../manage-work/requests/create-requests/create-requests-from-drafts.md). Per informazioni sull&#39;eliminazione delle bozze di richiesta, vedere anche [Eliminare una bozza di richiesta](../../../manage-work/requests/create-requests/delete-request-draft.md).
+Per informazioni sulla creazione di richieste da bozze esistenti, vedere [Creare richieste da bozze](../../../manage-work/requests/create-requests/create-requests-from-drafts.md). Per informazioni sull&#39;eliminazione delle bozze di richiesta, vedere anche [Eliminare una bozza di richiesta](../../../manage-work/requests/create-requests/delete-request-draft.md).
 
 Per creare una richiesta nell’app web Workfront:
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro.
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    </MadCap:conditionalText>
    -->
 
-1. Clic  **Richieste**, quindi fai clic su **Nuova richiesta** nell’angolo superiore destro della pagina.
+1. Fai clic su **Richieste**, quindi su **Nuova richiesta** nell&#39;angolo superiore destro della pagina.
 
    >[!TIP]
    >
    >* È possibile accedere all’opzione Nuova richiesta da qualsiasi sezione nell’area Richieste.
    >* L’opzione New Request (Nuova richiesta) è disattivata se non disponi dell’accesso per creare problemi.
 
-1. (Condizionale) Fai clic su all’interno del **Tipo di richiesta** ed eseguire una delle operazioni seguenti:
+1. (Condizionale) Fare clic all&#39;interno del campo **Tipo di richiesta** ed eseguire una delle operazioni seguenti:
 
-   * Dalla sezione **Percorsi recenti** , seleziona un percorso utilizzato di recente per aprire una coda di richieste. Un percorso include la coda delle richieste, i gruppi di argomenti e l&#39;argomento della coda a cui hai inviato di recente. Per impostazione predefinita, vengono visualizzati gli ultimi tre percorsi.
+   * Dalla sezione **Percorsi recenti**, seleziona un percorso utilizzato di recente per aprire una coda di richieste. Un percorso include la coda delle richieste, i gruppi di argomenti e l&#39;argomento della coda a cui hai inviato di recente. Per impostazione predefinita, vengono visualizzati gli ultimi tre percorsi.
 
      >[!NOTE]
      >
@@ -134,7 +134,7 @@ Per creare una richiesta nell’app web Workfront:
 
      ![](assets/list-of-recent-paths-and-request-queues-when-entering-new-request-nwe-350x295.png)
 
-   * Dalla sezione **Code di richieste** , seleziona una coda di richieste.
+   * Dalla sezione **Code di richieste**, seleziona una coda di richieste.
    * Per cercare una coda di richieste, immetti una parola chiave che appartiene a un percorso a cui si è effettuato l’accesso in precedenza.
 
      Ad esempio, se disponi di una coda di richieste denominata &quot;Help Desk&quot; con un Topic Group denominato &quot;Location&quot; e un Queue Topic denominato &quot;Remote&quot;, puoi digitare &quot;remote&quot; e tutte le code di richieste che contengono &quot;remote&quot; in qualsiasi elemento del loro percorso vengono visualizzate.
@@ -170,9 +170,9 @@ Per creare una richiesta nell’app web Workfront:
    >* Il nome della coda di richieste è il nome del progetto che è stato pubblicato come coda di richieste di aiuto.
    >* La descrizione del progetto configurato come coda di richieste selezionata viene visualizzata a destra del nome della coda di richieste.
    >   
-   >Per ulteriori informazioni su come pubblicare un progetto come coda di richieste di aiuto, consulta l’articolo [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   >Per ulteriori informazioni su come pubblicare un progetto come coda di richieste di aiuto, vedere l&#39;articolo [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. In **Nuova richiesta** eseguire una delle operazioni seguenti:
+1. Nel modulo **Nuova richiesta** eseguire una delle operazioni seguenti:
 
    * (Facoltativo) Seleziona una bozza disponibile dal messaggio di notifica visualizzato nel campo Tipo di richiesta.
 
@@ -197,13 +197,13 @@ Per creare una richiesta nell’app web Workfront:
    >
 
    Nella coda richieste è possibile incorporare fino a 10 livelli di gruppi di argomenti.\
-   Per ulteriori informazioni su come creare Gruppi di argomenti, vedere l&#39;articolo [Crea gruppi di argomenti](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). Per ulteriori informazioni sulla creazione degli argomenti della coda, vedere l&#39;articolo [Crea argomenti coda](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+   Per ulteriori informazioni sulla creazione di gruppi di argomenti, vedere l&#39;articolo [Creare gruppi di argomenti](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). Per ulteriori informazioni sulla creazione degli argomenti della coda, vedere l&#39;articolo [Creare argomenti della coda](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
    >[!TIP]
    >
    >Se avete selezionato una bozza o un percorso precedente, i gruppi di argomenti e gli argomenti della coda sono già selezionati. Se necessario, puoi selezionarne uno diverso.
 
-1. A seconda dei campi abilitati dall’amministratore di Workfront nel **Campi delle Nuove Issues** sezione del **Dettagli coda** scheda secondaria del progetto, quando invii una nuova richiesta potresti trovare uno dei campi seguenti:
+1. A seconda dei campi abilitati dall&#39;amministratore di Workfront nella sezione **Nuovi campi problema** della scheda secondaria **Dettagli coda** del progetto, quando si invia una nuova richiesta è possibile che siano presenti i campi seguenti:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -249,7 +249,7 @@ Per creare una richiesta nell’app web Workfront:
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader"><strong>Assegnazioni</strong> </td> 
-      <td> <p><span>Specifica il nome di un utente attivo, una mansione o un team a cui assegnare la richiesta.</span> </p> <p>È possibile specificare un solo team.</p>
+      <td> <p><span>Specificare il nome di un utente attivo, una mansione o un team a cui assegnare la richiesta.</span> </p> <p>È possibile specificare un solo team.</p>
 
    <p> A seconda di come è stata impostata la coda di richieste, è possibile assegnare solo uno o due tipi di risorse alla richiesta, anziché tutti e tre (ad esempio, è possibile assegnare la richiesta solo agli utenti).</p>
 
@@ -258,10 +258,10 @@ Per creare una richiesta nell’app web Workfront:
    <p> Per ulteriori informazioni, consulta i seguenti articoli:</p> 
       <ul> 
       <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Creare una coda di richieste</a> </p> </li> 
-      <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Creare regole di instradamento</a> <br> </p> </li> 
+      <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Crea regole di routing</a> <br> </p> </li> 
       </ul> </p>
 
-   <p><span>È consigliabile utilizzare le regole di instradamento per le code di richieste in modo che possano essere instradate automaticamente alle risorse appropriate.</span> </p> </td> 
+   <p><span>È consigliabile utilizzare le regole di routing per le code di richieste in modo che possano essere instradate automaticamente alle risorse appropriate.</span> </p> </td> 
      </tr>
 
    <tr> 
@@ -269,7 +269,7 @@ Per creare una richiesta nell’app web Workfront:
       <td> <p>Stimare quante ore occorrerebbe per completare la richiesta.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Data Inizio Pianificata</strong> </td> 
+      <td role="rowheader"><strong>Data inizio pianificata</strong> </td> 
       <td> <p>Specifica la data di inizio dei lavori per questa richiesta.</p> </td> 
      </tr> 
      <tr> 
@@ -289,29 +289,29 @@ Per creare una richiesta nell’app web Workfront:
 
 1. (Facoltativo) Se l’amministratore di Workfront ha associato un modulo personalizzato alla coda richieste o all’argomento Coda, specifica i campi all’interno del modulo personalizzato.\
    I moduli personalizzati sono diversi per ogni istanza di Workfront.
-1. (Facoltativo e condizionale) In qualsiasi momento durante l’inserimento della richiesta, fai clic su [!UICONTROL **Elimina bozza**] per eliminare la bozza creata automaticamente. In questo modo viene eliminata la bozza che non può essere recuperata. Viene visualizzato un messaggio di conferma per confermare l’eliminazione della bozza.
+1. (Facoltativo e condizionale) In qualsiasi momento durante l&#39;immissione della richiesta, fare clic su [!UICONTROL **Elimina bozza**] per eliminare la bozza creata automaticamente. In questo modo viene eliminata la bozza che non può essere recuperata. Viene visualizzato un messaggio di conferma per confermare l’eliminazione della bozza.
 
-1. (Facoltativo) Fai clic su [!UICONTROL **Annulla**] nel messaggio di conferma se desideri ripristinare l’azione e mantenere la bozza.
+1. (Facoltativo) Fai clic su [!UICONTROL **Annulla**] nel messaggio di conferma se desideri ripristinare l&#39;azione e mantenere la bozza.
 
 1. Esegui una delle operazioni seguenti:
 
-   * Clic **Invia** se sei pronto a inviare la richiesta. La richiesta viene salvata nella sezione Inviata . A seconda della Regola di indirizzamento della Coda richieste, questa richiesta potrebbe essere indirizzata a un progetto diverso da quello designato come Coda richieste. Per informazioni sulle regole di instradamento, vedere [Creare regole di instradamento](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+   * Fare clic su **Invia** per inviare la richiesta. La richiesta viene salvata nella sezione Inviata . A seconda della Regola di indirizzamento della Coda richieste, questa richiesta potrebbe essere indirizzata a un progetto diverso da quello designato come Coda richieste. Per informazioni sulle regole di routing, vedere [Creare regole di routing](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
      Oppure
 
-     Clic **Chiudi** se non sei ancora pronto per inviarlo, potresti tornare indietro e terminarlo in un secondo momento. La richiesta viene salvata nella sezione Bozze e sarà disponibile al prossimo invio di una richiesta per questa coda di richieste.
+     Fai clic su **Chiudi** se non sei ancora pronto per inviarlo e potresti tornare indietro e terminarlo in un secondo momento. La richiesta viene salvata nella sezione Bozze e sarà disponibile al prossimo invio di una richiesta per questa coda di richieste.
 
      ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
    Quando inviate la richiesta, la bozza viene eliminata automaticamente e non può essere ripristinata.
 
-   Per informazioni su come gestire le richieste in arrivo, consulta l’articolo [Gestire le richieste di lavoro e team](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
+   Per informazioni sulla gestione delle richieste in arrivo, vedere l&#39;articolo [Gestione delle richieste del team e del lavoro](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
-   Per informazioni sull’individuazione delle richieste inviate o redatte, consulta anche [Individuare le richieste inviate](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+   Per informazioni sull&#39;individuazione delle richieste inviate o bozze, vedere anche [Individuare le richieste inviate](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
 ## Creare richieste dall’esterno di Workfront
 
-È possibile condividere un collegamento diretto a una coda di richieste quando si invia una nuova richiesta e incorporarla in altre applicazioni. Gli utenti che accedono a questo collegamento dal web o da altre applicazioni devono inoltre aver effettuato l’accesso con un account Workfront attivo per poter accedere a questa coda e inviare richieste. Per informazioni, consulta [Condividere un collegamento a una coda di richieste](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
+È possibile condividere un collegamento diretto a una coda di richieste quando si invia una nuova richiesta e incorporarla in altre applicazioni. Gli utenti che accedono a questo collegamento dal web o da altre applicazioni devono inoltre aver effettuato l’accesso con un account Workfront attivo per poter accedere a questa coda e inviare richieste. Per informazioni, vedere [Condividere un collegamento a una coda di richieste](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
 
 ## Creare le richieste inviando un’e-mail a Workfront
 
@@ -323,13 +323,13 @@ Il corpo del testo dell’e-mail viene aggiunto come descrizione della richiesta
 >
 >La formattazione di HTML viene rimossa quando la richiesta entra in Workfront, ma le firme e il contenuto del thread di risposta esistente non vengono rimossi e vengono visualizzati nella descrizione della richiesta.
 
-Per informazioni su come abilitare una coda di richieste alla ricezione di richieste tramite e-mail, consulta [Consentire agli utenti di inviare un problema tramite e-mail a un progetto della coda richieste](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
+Per informazioni su come consentire a una coda richieste di ricevere richieste tramite e-mail, vedere [Consentire agli utenti di inviare un problema tramite e-mail a un progetto della coda richieste](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 
 ## Creare richieste utilizzando il client di Outlook
 
 È possibile inviare richieste utilizzando il client di Outlook. Puoi creare una nuova richiesta oppure convertire un’e-mail in una richiesta.
 
-Per informazioni sull&#39;invio di richieste tramite il client Outlook, vedere l&#39;articolo [Creare una richiesta Adobe Workfront da un messaggio e-mail di Outlook](../../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md).
+Per informazioni sull&#39;invio di richieste tramite il client Outlook, vedere l&#39;articolo [Creare una richiesta Adobe Workfront da un messaggio di posta elettronica di Outlook](../../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md).
 
 ## Creare richieste utilizzando l’app mobile di Workfront
 
@@ -345,11 +345,11 @@ Per informazioni sull’invio delle richieste tramite l’app mobile, consulta l
 Puoi inviare richieste utilizzando qualsiasi applicazione integrata con Workfront:
 
 * Puoi creare un’integrazione personalizzata tra Workfront e un’altra applicazione che ti consenta di inviare richieste a Workfront dall’altra applicazione.\
-  Per ulteriori informazioni sulle integrazioni personalizzate di Workfront, consulta l’articolo [Integrazioni Adobe Workfront](../../../administration-and-setup/configure-integrations/workfront-integrations-1.md).
+  Per ulteriori informazioni sulle integrazioni Workfront personalizzate, vedere l&#39;articolo [Integrazioni Adobe Workfront](../../../administration-and-setup/configure-integrations/workfront-integrations-1.md).
 
 * Puoi inviare richieste da Salesforce se hai installato l’app Workfront per Salesforce.\
-  Per informazioni sull’invio di richieste da Salesforce tramite la nostra app Workfront per Salesforce, consulta l’articolo [Inviare richieste Adobe Workfront da oggetti Salesforce](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md).
+  Per informazioni sull&#39;invio di richieste da Salesforce tramite la nostra app Workfront per Salesforce, vedi l&#39;articolo [Inviare richieste Adobe Workfront da oggetti Salesforce](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md).
 
 ## Individuare le richieste inviate
 
-Per informazioni sull’individuazione delle richieste inviate o bozze, consulta [Individuare le richieste inviate](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+Per informazioni sull&#39;individuazione delle richieste inviate o bozze, vedere [Individuare le richieste inviate](../../../manage-work/requests/create-requests/locate-submitted-requests.md).

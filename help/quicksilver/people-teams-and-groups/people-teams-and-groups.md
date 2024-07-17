@@ -19,8 +19,8 @@ ht-degree: 0%
 
 Questa sezione contiene le seguenti sottosezioni:
 
-* [Creare e gestire i team](../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)
-* [Lavorare direttamente con altri](../people-teams-and-groups/work-directly-with-others/work-directly-with-others.md)
+* [Crea e gestisci team](../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)
+* [Lavora direttamente con altri](../people-teams-and-groups/work-directly-with-others/work-directly-with-others.md)
 * [Utilizzare gruppi e team](../people-teams-and-groups/work-with-groups-and-teams/work-with-groups-and-teams.md)
-* [Utilizzare le richieste del team](../people-teams-and-groups/work-with-team-requests/work-with-team-requests.md)
+* [Operazioni con le richieste del team](../people-teams-and-groups/work-with-team-requests/work-with-team-requests.md)
 * [Suggerimenti, trucchi e risoluzione dei problemi per persone, team e gruppi](../people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)

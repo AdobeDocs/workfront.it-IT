@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione del quarto trimestre 2023. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione con la versione 23.10.
 
-Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rilascio del quarto trimestre del 2023, consulta [Panoramica sulla versione del quarto trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+Per un elenco di tutte le modifiche disponibili in questo momento nel ciclo di rilascio del quarto trimestre 2023, consulta [Panoramica sulla versione del quarto trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
 ## Approvazioni nuovi documenti
 
@@ -28,9 +28,9 @@ In questa versione, il processo di approvazione è stato semplificato sia per la
 * Processo migliorato per l&#39;aggiunta di un approvatore o revisore esterno
 * È stata migliorata l’esperienza di approvazione e revisione per gli approvatori e i revisori esterni
 
-Per ulteriori informazioni sull&#39;utilizzo delle nuove approvazioni di documenti, vedere [Panoramica sulle nuove approvazioni documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
+Per ulteriori informazioni sull&#39;utilizzo delle nuove approvazioni dei documenti, vedere [Panoramica sulle nuove approvazioni dei documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
-[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3424867){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità.](https://video.tv.adobe.com/v/3424867){target=_blank}
 
 ## Progettazione aggiornata quando si aggiunge un nuovo problema a un progetto
 
@@ -38,7 +38,7 @@ Questo aggiornamento è stato annunciato con la versione 23.3.
 
 È stata aggiornata la casella Nuovo problema che viene visualizzata quando si invia un nuovo problema a un progetto. Ora, l’interfaccia corrisponde alla casella Nuova richiesta che viene visualizzata quando si invia una nuova richiesta a una coda di richieste.
 
-Per ulteriori informazioni, consulta [Crea problemi](/help/quicksilver/manage-work/issues/manage-issues/create-issues.md).
+Per ulteriori informazioni, consulta [Creare problemi](/help/quicksilver/manage-work/issues/manage-issues/create-issues.md).
 
 ## Ricalcolo dinamico dei campi calcolati nei moduli
 
@@ -48,9 +48,9 @@ La modalità di calcolo dei campi non è stata modificata.
 
 Un numero limitato di campi modulo non disporrà di un ricalcolo dinamico, su pagine che non sono state modernizzate.
 
-Per ulteriori informazioni, consulta [Modificare le informazioni nei campi modulo personalizzati](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md).
+Per ulteriori informazioni, vedere [Modificare le informazioni nei campi modulo personalizzato](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
-[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3422678/){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità.](https://video.tv.adobe.com/v/3422678/){target=_blank}
 
 ## Imposta ore pianificate per attività ricorrenti figlio con tipo di durata semplice senza assegnazioni
 

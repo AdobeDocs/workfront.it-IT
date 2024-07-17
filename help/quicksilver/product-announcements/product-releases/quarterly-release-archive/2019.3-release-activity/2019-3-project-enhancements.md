@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutte le modifiche Miglioramenti apportati al progetto con la versione 2019.3. È stato reso disponibile nell’ambiente di produzione la settimana del 19 agosto 2019.
 
-Per un elenco di tutte le modifiche apportate in 2019.3, consulta [Panoramica sull’attività della versione 2019.3](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
+Per un elenco di tutte le modifiche apportate in 2019.3, consulta [Panoramica sull&#39;attività di rilascio di 2019.3](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
 
 ## Modificare il tipo di visualizzazione di un campo in un modulo personalizzato
 
@@ -30,7 +30,7 @@ In alternativa, se è stato creato un campo di testo a riga singola, è possibil
 
 In precedenza, per modificare il tipo di visualizzazione di un campo personalizzato, era necessario creare un nuovo campo ed eliminare quello precedente. Questo richiedeva il trasferimento dei dati, operazione che spesso richiedeva molto tempo.
 
-Per ulteriori informazioni, consulta [Creare o modificare un modulo personalizzato](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) nell’articolo [Creare o modificare un modulo personalizzato](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+Per ulteriori informazioni, vedere [Creare o modificare un modulo personalizzato](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) nell&#39;articolo [Creare o modificare un modulo personalizzato](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
 
 >[!NOTE]
 >
@@ -75,13 +75,13 @@ Prima di questo miglioramento, i nuovi elenchi venivano applicati solo ai seguen
 * Un elenco di attività
 * Un elenco di progetti
 
-Per informazioni sulla visualizzazione degli elementi di un elenco, vedere [Introduzione agli elenchi in Adobe Workfront](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Per informazioni sulla visualizzazione degli elementi in un elenco, vedere [Introduzione agli elenchi in Adobe Workfront](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 ## Modifica Gantt senza attivare una modalità di modifica speciale
 
 È ora possibile modificare l&#39;elenco delle attività Diagramma di Gantt quando il salvataggio automatico è abilitato o meno. Non è possibile annullare le modifiche quando l&#39;interruttore è attivo. In questo caso, le modifiche apportate al progetto vengono salvate automaticamente.
 
-Per informazioni sulla modifica del diagramma di Gantt con l&#39;elenco delle attività, vedere [Aggiorna informazioni nell&#39;elenco delle attività Diagramma di Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+Per informazioni sulla modifica del diagramma di Gantt dell&#39;elenco delle attività, vedere [Aggiornare le informazioni nell&#39;elenco delle attività Diagramma di Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
 
 ## Rimozione della scheda Problemi dal Kanban Board
 
@@ -95,8 +95,8 @@ Stiamo rimuovendo la scheda Issues (Problemi) dalla bacheca Kanban nella version
 
 Stiamo rimuovendo le schede Documenti e Problemi dalla pagina dei dettagli dell’iterazione Agile:
 
-* **Documenti:** Tutti i documenti memorizzati nella scheda Documenti devono essere spostati prima del rilascio della produzione. Se non si riesce a spostare i documenti, non sarà più possibile accedervi.
-* **Problemi:** Questa scheda si trova generalmente sotto il menu a discesa Altro. È comunque possibile accedere alla scheda secondaria Problemi dalla scheda Elementi di lavoro nell’iterazione.
+* **Documenti:** tutti i documenti memorizzati nella scheda Documenti devono essere spostati prima del rilascio della produzione. Se non si riesce a spostare i documenti, non sarà più possibile accedervi.
+* **Problemi:** questa scheda si trova in genere nel menu a discesa Altro. È comunque possibile accedere alla scheda secondaria Problemi dalla scheda Elementi di lavoro nell’iterazione.
 
 ## Considerare o ignorare l&#39;indisponibilità dell&#39;utente nelle date dell&#39;attività
 
@@ -106,9 +106,9 @@ Puoi prendere questa decisione a livello di sistema, come amministratore di Work
 
 Prima di questa modifica, l&#39;indisponibilità dell&#39;assegnatario principale ha sempre adeguato le date pianificate dell&#39;attività, se il vincolo dell&#39;attività consente la modifica delle date.
 
-Per informazioni sull&#39;impostazione del tempo di inattività dell&#39;utente a livello di sistema, vedere [Configurare le preferenze di progetto a livello di sistema](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Per informazioni sull&#39;impostazione del tempo di inattività utente a livello di sistema, vedere [Configurare le preferenze di progetto a livello di sistema](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-Per informazioni sull’impostazione del tempo di inattività utente a livello di progetto, consulta [Modifica progetti](../../../../manage-work/projects/manage-projects/edit-projects.md).
+Per informazioni sull&#39;impostazione del tempo di inattività utente a livello di progetto, vedere [Modifica progetti](../../../../manage-work/projects/manage-projects/edit-projects.md).
 
 >[!NOTE]
 >
@@ -129,7 +129,7 @@ Inoltre, se si dispone dei diritti per modificare un&#39;attività o un problema
 
 In precedenza, le Condizioni non potevano essere personalizzate o modificate e solo gli utenti potevano modificare la Condizione di un’attività o di un problema se vi erano assegnati.
 
-Per ulteriori informazioni, consulta [Condizioni personalizzate](../../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+Per ulteriori informazioni, vedere [Condizioni personalizzate](../../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
 
 >[!NOTE]
 >
@@ -159,7 +159,7 @@ Se l&#39;oggetto fa parte di un progetto, il commento sul documento viene visual
 
 In precedenza, i commenti di aggiornamento venivano visualizzati solo nella scheda Aggiornamenti del documento.
 
-Per ulteriori informazioni, consulta la sezione [Aggiorna lavoro](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#updates) nell’articolo [Aggiorna lavoro](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Per ulteriori informazioni, vedere la sezione [Aggiorna lavoro](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#updates) nell&#39;articolo [Aggiorna lavoro](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 >[!NOTE]
 >
@@ -173,7 +173,7 @@ Quando assegni un utente a un’attività o a un problema, ora puoi visualizzare
 
 Per informazioni sull&#39;assegnazione delle attività, vedere [Assegna attività](../../../../manage-work/tasks/assign-tasks/assign-tasks-1.md)
 
-Per informazioni sulle ferie, consulta [Configurare l’indisponibilità personale](../../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+Per informazioni sulle ferie, vedere [Configurare le ferie personali](../../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
 >[!NOTE]
 >
@@ -187,7 +187,7 @@ Nel generatore di moduli personalizzati è stato creato un nuovo tipo di campo d
 
 In precedenza, gli amministratori dovevano gestire manualmente gli utenti come opzioni individuali nei menu a discesa dei moduli personalizzati.
 
-Per ulteriori informazioni, consulta [Creare o modificare un modulo personalizzato](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Per ulteriori informazioni, vedere [Creare o modificare un modulo personalizzato](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 >[!NOTE]
 >
@@ -209,5 +209,5 @@ Adesso, quando si invia una nuova richiesta a una coda di richieste, si immette 
 
 Prima di questa modifica, inserisci il nome della richiesta nel campo &quot;Oggetto&quot;.
 
-Per informazioni sulla creazione delle richieste, consulta [Creare e inviare richieste Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+Per informazioni sulla creazione di richieste, vedere [Creare e inviare richieste Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 

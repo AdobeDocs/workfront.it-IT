@@ -22,9 +22,9 @@ Nell’area Documenti puoi organizzare, gestire e visualizzare i metadati dei do
 
 Sono disponibili due tipi di aree Documenti. Funzionalità e funzionalità identiche per:
 
-* **Area Documenti in un programma, portfolio, progetto, attività o problema:** Elenca tutti i documenti a cui si ha accesso per un particolare progetto, attività o problema. Per accedere a questa area, fai clic su **Documenti** ![](assets/document-icon-12x14.png) nel pannello a sinistra quando visualizzi un progetto, un’attività o un problema.
+* **Area Documenti in un programma, portfolio, progetto, attività o problema:** Elenca tutti i documenti a cui si ha accesso per un particolare progetto, attività o problema. Per accedere a questa area, fai clic su **Documenti** ![](assets/document-icon-12x14.png) nel pannello a sinistra mentre visualizzi un progetto, un&#39;attività o un problema.
 
-* **Area Documenti globali:** Elenca tutti i documenti a cui si ha accesso in Workfront. Per accedere a questa area, fai clic su **Documenti** ![](assets/document-icon.png) nel menu principale ![](assets/main-menu-icon.png).
+* **Area documenti globali:** Elenca tutti i documenti a cui si ha accesso in Workfront. Per accedere a quest&#39;area, fare clic su **Documenti** ![](assets/document-icon.png) nel menu principale ![](assets/main-menu-icon.png).
 
 Per informazioni sul caricamento di documenti in Workfront, consulta [Aggiungere documenti ad Adobe Workfront dal file system](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
@@ -46,7 +46,7 @@ Se per il documento è impostata la verifica, la sezione Dettagli include inform
 
 ![](assets/documents-area-v2-350x199.png)
 
-Per informazioni sul Riepilogo, consulta [Panoramica del riepilogo dei documenti](../../documents/managing-documents/summary-for-documents.md).
+Per informazioni sul Riepilogo, vedere [Riepilogo per la panoramica dei documenti](../../documents/managing-documents/summary-for-documents.md).
 
 ## Decisione bozza
 
@@ -56,13 +56,13 @@ Una volta presa la decisione relativa alla bozza, questa viene visualizzata nell
 
 ## Cartelle
 
-In un progetto, un&#39;attività o un problema in cui vengono caricati documenti, è possibile impostare cartelle per organizzare i documenti. Per ulteriori informazioni, consulta [Creare cartelle di documenti](../../documents/organizing-documents/create-documents-folder.md).
+In un progetto, un&#39;attività o un problema in cui vengono caricati documenti, è possibile impostare cartelle per organizzare i documenti. Per ulteriori informazioni, vedere [Creare cartelle di documenti](../../documents/organizing-documents/create-documents-folder.md).
 
 Nell&#39;area Documenti globale è possibile impostare due tipi di cartelle per organizzare i documenti a cui si ha accesso:
 
-* **Cartelle avanzate:** Visualizzare solo i documenti che si desidera visualizzare. Per ulteriori informazioni, consulta [Creare e gestire cartelle avanzate](../../documents/organizing-documents/create-manage-smart-folders.md).
+* **Cartelle avanzate:** visualizza solo i documenti che si desidera visualizzare. Per ulteriori informazioni, vedere [Creare e gestire cartelle avanzate](../../documents/organizing-documents/create-manage-smart-folders.md).
 
-* **Le mie cartelle:** Organizzare i documenti nel modo desiderato. Per ulteriori informazioni, consulta [Creare cartelle di documenti](../../documents/organizing-documents/create-documents-folder.md).
+* **Cartelle personali:** Organizzare i documenti nel modo desiderato. Per ulteriori informazioni, vedere [Creare cartelle di documenti](../../documents/organizing-documents/create-documents-folder.md).
 
 ## Dettagli documento espanso
 

@@ -53,8 +53,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>È necessario disporre di uno dei seguenti elementi:</p> 
     <ul> 
-     <li> <p>Livello di accesso Amministratore di sistema. Per informazioni, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente l'accesso amministrativo completo</a>. </p> </li> 
-     <li> <p><b>Utenti</b> impostazione nel livello di accesso configurato su <b>Modifica</b> accesso, con <b>Crea</b> e almeno uno dei due <b>Amministratore utenti</b> opzioni abilitate in <b>Metti a punto le impostazioni</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Di queste due opzioni, se Utente <b>Amministratore (utenti gruppo)</b> è abilitato, è necessario essere un amministratore di gruppo di un gruppo di cui l'utente è membro.</p> <p>Per ulteriori informazioni su <b>Utenti</b> impostazione in un livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concedere l’accesso agli utenti</a>.</p> </li> 
+     <li> <p>Livello di accesso Amministratore di sistema. Per informazioni, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente l'accesso amministrativo completo</a>. </p> </li> 
+     <li> <p>Impostazione di <b>Utenti</b> nel livello di accesso configurato per l'accesso di <b>Modifica</b>, con <b>Crea</b> e almeno una delle due opzioni di <b>Amministratore utenti</b> abilitate in <b>Ottimizza le impostazioni</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Di queste due opzioni, se l'utente <b>Amministratore (utenti gruppo)</b> è abilitato, è necessario essere un amministratore di gruppo di un gruppo di cui l'utente è membro.</p> <p>Per ulteriori informazioni sull'impostazione <b>Utenti</b> in un livello di accesso, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concedere l'accesso agli utenti</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -62,11 +62,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Utilizzare un file di importazione foglio di calcolo per importare gli utenti
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Utenti** ![](assets/users-icon-in-main-menu.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Utenti** ![](assets/users-icon-in-main-menu.png).
 
-1. Fai clic su **Nuovo utente** freccia a discesa, quindi fare clic su **Importa utenti**.
+1. Fai clic sulla freccia a discesa **Nuovo utente**, quindi fai clic su **Importa utenti**.
 
-1. In **Importa utenti** che viene visualizzata, scarica il file di esempio, quindi aggiorna il file di esempio per includere le informazioni personali dell’utente.
+1. Nella casella **Importa utenti** visualizzata, scarica il file di esempio, quindi aggiorna il file di esempio in modo da includere le informazioni personali dell&#39;utente.
 
    Ogni riga include i campi seguenti:
 
@@ -91,13 +91,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    ![import-new-users.png](assets/importing-new-users.png)
 
 1. Salvare il file in una posizione sulla workstation.
-1. Clic **Scegli file** nel **Importa utenti** casella.
+1. Fare clic su **Scegli file** nella casella **Importa utenti**.
 
 1. Individua e seleziona il file salvato.
-1. (Facoltativo) Seleziona la **Invia un&#39;e-mail di invito a questo utente** opzione per inviare un invito e-mail all’utente, avvisandolo che è stato creato un account Workfront e chiedendo di impostare la password.
+1. (Facoltativo) Selezionare l&#39;opzione **Invia un&#39;e-mail di invito a questo utente** per inviare un invito e-mail all&#39;utente, avvisandolo che è stato creato un account Workfront e richiedendo di impostare la password.
 
    Deselezionare questa opzione se si desidera impostare la password per l&#39;utente.
 
-1. Clic **Importa**.
+1. Fai clic su **Importa**.
 
    Nella parte superiore della schermata viene visualizzato un messaggio di conferma che indica che l’importazione dell’utente è avvenuta correttamente.

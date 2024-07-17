@@ -20,7 +20,7 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this article: NWE only; not possible in classic) </p>
 -->
 
-È possibile indicare se i risultati di un raggruppamento devono essere compressi o espansi in un elenco o in un report utilizzando il generatore di report standard. Per impostazione predefinita, i risultati in un raggruppamento vengono visualizzati in modalità espansa. Per informazioni sulla creazione di un raggruppamento, consulta [Creare raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).
+È possibile indicare se i risultati di un raggruppamento devono essere compressi o espansi in un elenco o in un report utilizzando il generatore di report standard. Per impostazione predefinita, i risultati in un raggruppamento vengono visualizzati in modalità espansa. Per informazioni sulla creazione di un raggruppamento, vedere [Creare raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the tips repeat in the Create groupings to organize results article, Understanding text mode, Edit groupings to organize reports, Create a Custom Report; create a snippet when convenient)</p>
@@ -31,7 +31,6 @@ ht-degree: 0%
 >* Quando modifichi manualmente i raggruppamenti durante la visualizzazione di un elenco, Adobe Workfront ricorda la preferenza manuale fino alla disconnessione. Quando effettui di nuovo l’accesso, l’elenco viene visualizzato in base a questa impostazione.
 >* I risultati di un raggruppamento vengono sempre visualizzati in modalità espansa dopo essere stati accessibili da un elemento del grafico.
 >
-
 
 È inoltre possibile indicare se un raggruppamento deve essere espanso o compresso utilizzando la modalità testo.
 
@@ -60,19 +59,19 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 </tr>  
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Indica se i risultati di un raggruppamento devono essere compressi o espansi utilizzando la modalità testo
 
 1. Consente di passare a un elenco di oggetti.
-1. Dalla sezione **Raggruppamento** menu a discesa, seleziona **Nuovo raggruppamento**.
+1. Dal menu a discesa **Raggruppamento** selezionare **Nuovo raggruppamento**.
 
-1. Aggiungi un raggruppamento e fai clic su **Passa alla modalità testo**.
+1. Aggiungere un raggruppamento e fare clic su **Passa alla modalità testo**.
 
    Oppure
 
@@ -88,4 +87,4 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
    group.0.iscollapsed=false
    ```
 
-1. Clic **Fine**, quindi **Salva raggruppamento**.
+1. Fai clic su **Fine**, quindi su **Salva raggruppamento**.

@@ -21,7 +21,7 @@ Questa sezione contiene i seguenti articoli:
 
 * [Panoramica sulla conversione dei problemi in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md)
 * [Convertire un problema in un progetto in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
-* [Convertire un problema in un’attività in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
+* [Convertire un problema in attività in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
 * [Panoramica sugli oggetti risolvibili e risolvibili](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md)
 * [Collegare manualmente la risoluzione di un problema ad altri problemi, attività o progetti](../../../manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md)
 * [Scollega i problemi dai relativi oggetti risolutivi](../../../manage-work/issues/convert-issues/unlink-issues-from-resolvable-objects.md)

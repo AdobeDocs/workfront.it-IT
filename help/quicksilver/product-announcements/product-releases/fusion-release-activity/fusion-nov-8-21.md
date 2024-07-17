@@ -1,6 +1,6 @@
 ---
-title: Attività del rilascio di Workfront Fusion:&nbsp;Settimana dell’8 novembre 2021
-description: Attività del rilascio di Workfront Fusion:&nbsp;Settimana dell’8 novembre 2021
+title: Attività del rilascio di Workfront Fusion:&nbsp;Settimana 8 novembre 2021
+description: Attività del rilascio di Workfront Fusion:&nbsp;Settimana 8 novembre 2021
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti apportati ad Adobe Workfront Fusion la settimana dell’8 novembre 2021.
 
-Per un elenco di tutte le modifiche recenti, vedi [Attività di rilascio di Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Per un elenco di tutte le modifiche recenti, vedere [Attività di Adobe Workfront Fusion release](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedi [Aggiornamenti di manutenzione per Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
+Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedere la pagina [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
 
 ## Converti un modulo record ora disponibile per il connettore Workfront
 
@@ -32,4 +32,4 @@ Abbiamo creato un modulo per una delle azioni più comuni disponibili nel modulo
 
 In precedenza, queste conversioni erano disponibili solo tramite il modulo Azioni varie.
 
-Per ulteriori informazioni, consulta [Moduli Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Per ulteriori informazioni, vedere [Moduli Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).

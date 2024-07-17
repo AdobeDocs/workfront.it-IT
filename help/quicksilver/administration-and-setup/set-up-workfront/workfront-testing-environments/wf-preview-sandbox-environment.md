@@ -3,7 +3,7 @@ user-type: administrator
 content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
-title: Il [!DNL Adobe Workfront] Anteprima ambiente sandbox
+title: L'ambiente Sandbox  [!DNL Adobe Workfront] Anteprima
 description: L’ambiente Sandbox di anteprima è un ambiente di test che funge da replica dell’ambiente live. Viene aggiornato ogni fine settimana da Workfront. I dati aggiunti all’ambiente live il venerdì vengono visualizzati nella Sandbox di anteprima entro il lunedì successivo. Tutti i pacchetti di supporto hanno accesso a questa sandbox.
 author: Lisa
 feature: System Setup and Administration
@@ -16,21 +16,21 @@ ht-degree: 0%
 
 ---
 
-# Il [!DNL Adobe Workfront] Anteprima ambiente sandbox
+# L&#39;ambiente Sandbox di anteprima [!DNL Adobe Workfront]
 
 <!-- Audited: 12/2023 -->
 
-Esistono due ambienti di test per [!DNL Workfront] che sono repliche del tuo [!DNL Workfront] ambiente di produzione:
+Esistono due ambienti di test per [!DNL Workfront] che sono repliche dell&#39;ambiente di produzione [!DNL Workfront]:
 
 * Sandbox di anteprima
 
-  L’anteprima sandbox è un ambiente di test che funge da replica dell’ambiente live e viene aggiornato ogni fine settimana da [!DNL Workfront]. I dati aggiunti all’ambiente live il venerdì vengono visualizzati nella Sandbox di anteprima entro il lunedì successivo.
+  L&#39;ambiente Sandbox di anteprima è un ambiente di test che funge da replica dell&#39;ambiente live ed è aggiornato ogni fine settimana da [!DNL Workfront]. I dati aggiunti all’ambiente live il venerdì vengono visualizzati nella Sandbox di anteprima entro il lunedì successivo.
 
   Tutti i pacchetti di supporto hanno accesso alla Sandbox di anteprima.
 
 * Sandbox di aggiornamento personalizzata
 
-  La sandbox di aggiornamento personalizzata è un ambiente di test separato che viene aggiornato manualmente dall’utente. Per ottenere la Sandbox di aggiornamento personalizzata è necessario un costo aggiuntivo. Per ulteriori informazioni su questo ambiente, consulta [Il [!DNL Adobe Workfront] Ambiente sandbox di aggiornamento personalizzato](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
+  La sandbox di aggiornamento personalizzata è un ambiente di test separato che viene aggiornato manualmente dall’utente. Per ottenere la Sandbox di aggiornamento personalizzata è necessario un costo aggiuntivo. Per ulteriori informazioni su questo ambiente, vedere [L&#39;ambiente Sandbox di aggiornamento personalizzato [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,8 +39,8 @@ Esistono due ambienti di test per [!DNL Workfront] che sono repliche del tuo [!D
  <thead> 
   <tr> 
    <th> <p> </p> </th> 
-   <th> <p><strong>Pacchetto di supporto di [!UICONTROL Standard]</strong> </p> </th> 
-   <th> <p><strong>Pacchetti di supporto [!UICONTROL Plus], [!UICONTROL Preferred] e [!UICONTROL Enterprise]</strong> </p> </th> 
+   <th> <p>Pacchetto di supporto <strong>[!UICONTROL Standard]</strong> </p> </th> 
+   <th> <p><strong>[!UICONTROL Plus], [!UICONTROL Preferred] e [!UICONTROL Enterprise] pacchetti di supporto</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -63,9 +63,9 @@ L’anteprima sandbox funge da ambiente in cui gli utenti dell’organizzazione 
 
 La sandbox di anteprima contiene i dati di produzione effettivi; tuttavia, aggiorna ogni fine settimana in modo che i dati possano trovarsi fino a una settimana indietro rispetto all’ambiente di produzione. Gli elementi creati dall’ultimo aggiornamento si trovano nell’ambiente Sandbox di anteprima fino al successivo aggiornamento.
 
-I dati scorrono in modo unidirezionale, dalla produzione all’anteprima e non viceversa. Un aggiornamento dell’ambiente di anteprima viene sempre pianificato da [!DNL Workfront] ogni fine settimana.
+I dati scorrono in modo unidirezionale, dalla produzione all’anteprima e non viceversa. Un aggiornamento dell&#39;ambiente di anteprima viene sempre pianificato da [!DNL Workfront] ogni fine settimana.
 
-L’anteprima della sandbox consente anche di: [!DNL Workfront] per implementare le nuove funzioni in un ambiente sicuro, prima che siano pronte per l’implementazione in produzione. Puoi testare le nuove funzioni e fornire [!DNL Workfront] feedback sulle funzionalità mediante l’accesso alla sandbox di anteprima. Per questo motivo, il codice della sandbox di anteprima è sempre precedente al codice di produzione, anche se i dati vengono aggiornati settimanalmente.
+L&#39;anteprima della sandbox consente inoltre a [!DNL Workfront] di distribuire nuove funzioni in un ambiente sicuro prima che siano pronte per essere distribuite in produzione. Puoi testare le nuove funzioni e fornire a [!DNL Workfront] feedback sulle loro funzionalità accedendo alla Sandbox di anteprima. Per questo motivo, il codice della sandbox di anteprima è sempre precedente al codice di produzione, anche se i dati vengono aggiornati settimanalmente.
 
 L’ambiente di anteprima è ideale per l’esecuzione di corsi di formazione, il test di nuove funzioni e la determinazione delle funzionalità di configurazione.
 
@@ -73,26 +73,26 @@ L’ambiente di anteprima è ideale per l’esecuzione di corsi di formazione, i
 >
 >Quando accedi all’anteprima sandbox, osserva il banner blu nella parte superiore dello schermo. Impossibile rimuovere il banner mentre si lavora in questo ambiente.
 >
->Sul banner vengono visualizzati il nome dell’ambiente a cui stai effettuando l’accesso (Anteprima) e la versione di rilascio del codice. Clic **[!UICONTROL Scopri le novità]** per informazioni su tale versione.
+>Sul banner vengono visualizzati il nome dell’ambiente a cui stai effettuando l’accesso (Anteprima) e la versione di rilascio del codice. Fare clic su **[!UICONTROL Visualizza le novità]** per ulteriori informazioni sulla versione.
 >
 >![](assets/preview-banner-nwe-350x161.png)
 
 ## Accesso alla sandbox di anteprima
 
-Per impostazione predefinita, come [!DNL Workfront] amministratore, puoi accedere al [!UICONTROL Anteprima] Ambiente sandbox. Se non riesci ad accedere al [!UICONTROL Anteprima] Come descritto in questa sezione, contatta il tuo [!DNL Workfront] o il nostro team di assistenza clienti.
+Per impostazione predefinita, in qualità di amministratore [!DNL Workfront], hai accesso all&#39;ambiente sandbox [!UICONTROL Anteprima]. Se non riesci ad accedere all&#39;ambiente sandbox [!UICONTROL Anteprima] come descritto in questa sezione, contatta l&#39;amministratore di [!DNL Workfront] o il nostro team di assistenza clienti.
 
 
-### Accesso alla sandbox di anteprima da [!DNL Workfront] Interfaccia {#accessing-the-preview-sandbox-from-the-workfront-interface}
+### Accesso alla sandbox di anteprima dall&#39;interfaccia [!DNL Workfront] {#accessing-the-preview-sandbox-from-the-workfront-interface}
 
-As a [!DNL Workfront] amministratore, puoi accedere alla Sandbox di anteprima tramite il [!DNL Workfront] di rete.
+In qualità di amministratore [!DNL Workfront], puoi accedere alla Sandbox di anteprima tramite l&#39;interfaccia [!DNL Workfront].
 
 Per accedere alla sandbox di anteprima:
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Configurazione]** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Configurazione]** ![](assets/gear-icon-settings.png).
 
-1. Clic **[!UICONTROL Sistema]** > **[!UICONTROL Preferenze]**.
+1. Fare clic su **[!UICONTROL Sistema]** > **[!UICONTROL Preferenze]**.
 
-1. In **[!UICONTROL Ambienti di test]** , fare clic su **[!UICONTROL Anteprima sandbox]**.
+1. Nella sezione **[!UICONTROL Ambienti di test]**, fai clic su **[!UICONTROL Anteprima sandbox]**.
 
 1. Accedi con le credenziali di anteprima.
 
@@ -104,7 +104,7 @@ Puoi accedere alla sandbox di anteprima utilizzando un URL.
 
 #### Accesso alla sandbox di anteprima per gli account nei cluster 1, 2, 3 e 5 {#accessing-the-preview-sandbox-for-accounts-on-cluster-1-2-3-and-5}
 
-L’URL per la sandbox di anteprima è: `https://companyname.preview.workfront.com/`.
+URL della sandbox di anteprima: `https://companyname.preview.workfront.com/`.
 
 >[!NOTE]
 >
@@ -112,7 +112,7 @@ L’URL per la sandbox di anteprima è: `https://companyname.preview.workfront.c
 
 Per accedere alla sandbox di anteprima utilizzando un URL:
 
-1. Passa a questo URL: `https://companyname.preview.workfront.com/`.
+1. Passare a questo URL: `https://companyname.preview.workfront.com/`.
 
    Se sei un cliente EMEA e il tuo account si trova nel cluster 4, consulta la sezione Accesso alla sandbox di anteprima per gli account nel cluster 4 (account EMEA) di seguito.
 
@@ -127,9 +127,9 @@ Per accedere alla sandbox di anteprima utilizzando un URL:
 
 Per accedere alla sandbox di anteprima utilizzando un URL:
 
-1. Passa a questo URL: `https://companyname.preview.workfront.com/`.
+1. Passare a questo URL: `https://companyname.preview.workfront.com/`.
 
-   Puoi anche accedere all’anteprima sandbox da [https://cl04.preview.workfront.com/login](https://cl04.preview.workfront.com/login).
+   Puoi anche accedere alla sandbox di anteprima da [https://cl04.preview.workfront.com/login](https://cl04.preview.workfront.com/login).
 
 1. Accedi utilizzando le credenziali di anteprima.
 
@@ -137,28 +137,28 @@ Per accedere alla sandbox di anteprima utilizzando un URL:
 
 ## Ricezione di e-mail dalla sandbox di anteprima
 
-Workfront disabilita tutte le comunicazioni e-mail dall’ambiente Sandbox di anteprima. Se desideri ricevere notifiche e-mail dall’ambiente Sandbox di anteprima, devi abilitare questa funzionalità nelle impostazioni utente. Per ulteriori informazioni sull’abilitazione delle notifiche e-mail nell’ambiente Sandbox di anteprima, consulta [Abilitare la consegna di e-mail dall’ambiente Sandbox di anteprima](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
+Workfront disabilita tutte le comunicazioni e-mail dall’ambiente Sandbox di anteprima. Se desideri ricevere notifiche e-mail dall’ambiente Sandbox di anteprima, devi abilitare questa funzionalità nelle impostazioni utente. Per ulteriori informazioni sull&#39;abilitazione delle notifiche e-mail nell&#39;ambiente Sandbox di anteprima, vedere [Abilitare la consegna di e-mail dall&#39;ambiente Sandbox di anteprima](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
 
 >[!NOTE]
 >
->La consegna dei rapporti e le notifiche push nell’app mobile sono sempre disabilitate per l’ambiente Sandbox di anteprima. Né tu né il [!DNL Workfront] L’amministratore può abilitare la consegna dei rapporti o le notifiche push per l’app mobile quando accedi all’ambiente Sandbox di anteprima.
+>La consegna dei rapporti e le notifiche push nell’app mobile sono sempre disabilitate per l’ambiente Sandbox di anteprima. Né l&#39;utente né l&#39;amministratore [!DNL Workfront] possono abilitare la consegna dei rapporti o le notifiche push per l&#39;app mobile quando si accede all&#39;ambiente Sandbox di anteprima.
 >
->Per ulteriori informazioni sulle consegne di rapporti per l’ambiente di produzione, consulta [Panoramica sulla consegna dei rapporti](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+>Per ulteriori informazioni sulle consegne di report per l&#39;ambiente di produzione, vedere [Panoramica sulla consegna dei report](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 
 ## Single Sign-On (SSO)
 
-Se utilizzi l’SSO, collabora con il nostro team di Assistenza clienti per assicurarti che sia configurato correttamente, in modo da poter utilizzare le credenziali SSO per accedere a [!UICONTROL Anteprima] Sandbox. Se l’accesso iniziale non riesce, contatta il regolare contatto di supporto oppure [!DNL Workfront] per assistenza.
+Se utilizzi l&#39;SSO, collabora con il nostro team di Assistenza clienti per assicurarti che sia configurato correttamente in modo da poter utilizzare le credenziali SSO per accedere alla sandbox [!UICONTROL Anteprima]. Se l&#39;accesso iniziale non riesce, contattare il supporto tecnico o l&#39;amministratore [!DNL Workfront].
 
-Per ulteriori informazioni sul Single Sign-On, vedere [Panoramica del single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+Per ulteriori informazioni sul Single Sign-On, vedere [Panoramica del Single Sign-On in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 ## Configurazione del Single Sign-On nella sandbox di anteprima
 
 >[!IMPORTANT]
 >
->La procedura descritta in questa pagina si applica solo alle organizzazioni che non sono ancora state caricate in [!DNL Adobe Admin Console]. Se per la tua organizzazione è stato eseguito l’onboarding in [!DNL Adobe Admin Console], non è necessaria alcuna azione.
+>La procedura descritta in questa pagina si applica solo alle organizzazioni che non sono ancora state caricate in [!DNL Adobe Admin Console]. Se la tua organizzazione è stata integrata in [!DNL Adobe Admin Console], non è necessaria alcuna azione.
 >
->Per un elenco di procedure che differiscono in base al fatto che la tua organizzazione sia stata caricata su [!DNL Adobe Admin Console], vedi [Differenze di amministrazione basate sulla piattaforma ([!UICONTROL Adobe Workfront]/[!UICONTROL Piattaforma aziendale Adobe])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Per un elenco delle procedure che differiscono a seconda che l&#39;organizzazione sia stata integrata in [!DNL Adobe Admin Console], vedere [Differenze di amministrazione basate su Platform ([!UICONTROL Adobe Workfront]/[!UICONTROL Adobe Business Platform])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 
 Se desideri configurare la sandbox di anteprima in modo che funzioni con una soluzione Single Sign-On, puoi farlo configurandola separatamente dall’ambiente di produzione. La configurazione SSO nella Sandbox di anteprima è indipendente dalla configurazione SSO nell’ambiente di produzione.
@@ -167,14 +167,14 @@ Quando la Sandbox di anteprima viene aggiornata (ogni fine settimana), le inform
 
 I passaggi per configurare il single sign-on nella Sandbox di anteprima sono simili a quelli per la configurazione nell’ambiente di produzione.
 
-Per ulteriori informazioni sulla configurazione [!DNL Workfront] con SSO, vedi [Panoramica del single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+Per ulteriori informazioni sulla configurazione di [!DNL Workfront] con SSO, vedere [Panoramica del single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 ## Anteprima delle prestazioni e della disponibilità dell’ambiente
 
-[!DNL Workfront] Gli ambienti di anteprima non sono destinati al test delle prestazioni o del carico. Piuttosto, utilizza questi ambienti per convalidare le funzionalità con i flussi di lavoro esistenti della tua organizzazione.
+Gli ambienti di anteprima [!DNL Workfront] non sono destinati a test delle prestazioni o del carico. Piuttosto, utilizza questi ambienti per convalidare le funzionalità con i flussi di lavoro esistenti della tua organizzazione.
 
-[!DNL Workfront] Gli ambienti di anteprima sono sempre disponibili.
+Gli ambienti di anteprima [!DNL Workfront] devono essere sempre disponibili.
 
-Eventuali interruzioni a un [!DNL Workfront] L’ambiente di anteprima durante il normale orario di lavoro sarà la prima priorità subito dopo la risoluzione di eventuali problemi di produzione.
+Qualsiasi interruzione in un ambiente di anteprima [!DNL Workfront] durante il normale orario di lavoro sarà una priorità assoluta subito dopo la risoluzione di eventuali problemi di produzione.
 
-Eventuali interruzioni a un [!DNL Workfront] L’ambiente di anteprima nei fine settimana (sabato e domenica) verrà gestito in modo che l’ambiente sia in esecuzione per l’orario di lavoro di lunedì.
+Eventuali interruzioni di un ambiente di anteprima [!DNL Workfront] nei fine settimana (sabato e domenica) verranno risolte in modo che l&#39;ambiente sia in esecuzione per l&#39;orario di lavoro di lunedì.

@@ -19,11 +19,11 @@ ht-degree: 0%
 
 I predecessori sono attività da cui dipendono altre attività per il completamento. Le relazioni con i predecessori influiscono sulle date di inizio e di completamento delle attività e in ultima analisi sulla sequenza temporale del progetto.
 
-Per informazioni sui predecessori, vedere [Panoramica dei predecessori delle attività](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Per informazioni sui predecessori, vedere [Panoramica sui predecessori delle attività](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 Se si impostano relazioni di predecessori tra attività, si definisce in che modo l&#39;inizio o la fine di un&#39;attività dipendente dipende dall&#39;inizio o dalla fine delle attività predecessori. Questa operazione viene eseguita utilizzando tipi di dipendenza diversi.
 
-Per informazioni sui tipi di dipendenza, vedere [Panoramica dei tipi di relazione tra attività](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+Per informazioni sui tipi di dipendenza, vedere [Panoramica sui tipi di relazione tra attività](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
 ## Panoramica dei predecessori forzati
 
@@ -75,24 +75,24 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 ## Imponi un predecessore a livello di attività
 
 1. Passare all&#39;attività successore di cui si desidera applicare il predecessore.
-1. Clic **Predecessori** nel pannello a sinistra, fai clic su **Aggiungi predecessore**. Potrebbe essere necessario fare clic su **Mostra altro**, quindi **Predecessori**.
-1. (Condizionale) Se desideri aggiungere un predecessore per più progetti, rimuovi il nome del progetto in **Progetto principale** e sostituirlo con un altro progetto.
-1. Specificare il nome dell&#39;attività o delle attività predecessore in **Attività** campo.
-1. Specifica la **Tipo di dipendenza** tra queste due attività.
+1. Fai clic su **Predecessori** nel pannello a sinistra, quindi fai clic su **Aggiungi predecessore**. Potrebbe essere necessario fare clic su **Mostra altro**, quindi su **Predecessori**.
+1. (Condizionale) Se desideri aggiungere un predecessore per più progetti, rimuovi il nome del progetto nel campo **Progetto principale** e sostituiscilo con un altro progetto.
+1. Specifica il nome dell&#39;attività predecessore o delle attività nel campo **Attività**.
+1. Specificare il **Tipo di dipendenza** tra queste due attività.
 
-   Il valore predefinito **Tipo di dipendenza** è **Fine-Inizio**.
+   Il tipo di dipendenza **predefinito** è **Fine-Inizio**.
 
-1. Seleziona la **Enforced** per applicare il predecessore.
+1. Seleziona il campo **Imposto** per applicare il predecessore.
 1. Fai clic su **Salva**.
 
 ## Imporre un predecessore in un elenco di attività
 
 1. Consente di passare a un elenco di attività in un progetto.
-1. Dalla sezione **Visualizza** menu a discesa, selezionare **Visualizzazione standard**.
+1. Dal menu a discesa **Visualizza**, selezionare la **Visualizzazione standard**.
 
 1. Prendi nota del numero di attività che intendi designare come predecessore.
 1. Individuare l&#39;attività successore di cui si desidera applicare il predecessore.
-1. In **Predecessori** , inizia a immettere il numero dell&#39;attività predecessore seguito da &quot;e&quot;. Digitare ad esempio &quot;1e&quot; per aggiungere l&#39;attività numero 1 come predecessore dell&#39;attività selezionata.
+1. Nella colonna **Predecessori**, inizia a immettere il numero dell&#39;attività predecessore seguito da &quot;e&quot;. Digitare ad esempio &quot;1e&quot; per aggiungere l&#39;attività numero 1 come predecessore dell&#39;attività selezionata.
 1. Fare clic su Invio per salvare le informazioni sul predecessore per l&#39;attività.
 
-   ![predecessor_enforced_in_list.png](assets/predecessor-enforced-in-list-350x308.png)
+   ![predecor_enforced_in_list.png](assets/predecessor-enforced-in-list-350x308.png)

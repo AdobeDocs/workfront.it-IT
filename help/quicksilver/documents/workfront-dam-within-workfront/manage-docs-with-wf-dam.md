@@ -2,7 +2,7 @@
 product-area: documents
 navigation-topic: workfront-dam-within-workfront
 title: Gestione dei documenti con Adobe Workfront DAM
-description: Adobe Workfront DAM è un sistema nativo di gestione delle risorse digitali (DAM) all’interno di Adobe Workfront che fornisce agli utenti un accesso controllato alle risorse digitali.
+description: Adobe Workfront DAM è un sistema nativo di gestione delle risorse digitali (DAM) all’interno di Adobe Workfront che fornisce agli utenti l’accesso controllato alle risorse digitali.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 50d5939d-64a2-4e8d-b5bd-c7b981fbf36d
@@ -15,42 +15,42 @@ ht-degree: 0%
 
 # Gestione dei documenti con Adobe Workfront DAM
 
-Adobe Workfront DAM è un sistema nativo di gestione delle risorse digitali (DAM) all’interno di Adobe Workfront che fornisce agli utenti un accesso controllato alle risorse digitali.
+Adobe Workfront DAM è un sistema nativo di gestione delle risorse digitali (DAM) all’interno di Adobe Workfront che fornisce agli utenti l’accesso controllato alle risorse digitali.
 
 ## Informazioni su Workfront DAM
 
-Workfront DAM è una piattaforma DAM basata su cloud che offre un’unica posizione in cui memorizzare, organizzare, trovare, recuperare e condividere file digitali. Puoi salvare i documenti da Workfront in Workfront DAM e aggiungere i documenti a Workfront tramite Workfront DAM.
+Workfront DAM è una piattaforma DAM basata su cloud che offre un’unica posizione in cui archiviare, organizzare, trovare, recuperare e condividere file digitali. È possibile salvare documenti da Workfront a Workfront DAM e aggiungere documenti a Workfront tramite Workfront DAM.
 
-Workfront DAM consente di effettuare le seguenti attività:
+Workfront DAM consente di eseguire le seguenti attività:
 
-* Distribuisci e condividi risorse con team e terze parti, eliminando la necessità di caricare o inviare file e-mail di grandi dimensioni tramite FTP
+* Distribuisci e condividi le risorse con team e terze parti, eliminando la necessità di caricare file FTP o di e-mail di grandi dimensioni
 * Visualizzare e condividere le risorse
-* Inviare risorse curate e metadati associati da Workfront direttamente in Workfront DAM 
+* Inviare risorse curate e metadati associati da Workfront direttamente a Workfront DAM 
 
-Prima di poter collegare i documenti con Workfront DAM, è necessario integrare Workfront con Workfront DAM. Per ulteriori informazioni sull’integrazione e la configurazione di Workfront DAM, vedi [Configurare le integrazioni di documenti](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
+Prima di poter collegare i documenti con Workfront DAM, è necessario integrare Workfront con Workfront DAM. Per ulteriori informazioni sull&#39;integrazione e la configurazione di Workfront DAM, vedere [Configurare le integrazioni dei documenti](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 
-## Invio di documenti a Workfront DAM
+## Inviare documenti a Workfront DAM
 
-Puoi salvare i documenti da Workfront in Workfront DAM.
+È possibile salvare documenti da Workfront a Workfront DAM.
 
-1. Vai a **Documenti** scheda per qualsiasi oggetto in Workfront, seleziona il file da salvare in Workfront DAM, quindi fai clic su **Altro**.
+1. Vai alla scheda **Documenti** per qualsiasi oggetto in Workfront, seleziona il file che desideri salvare in Workfront DAM, quindi fai clic su **Altro**.
 
-1. Fai clic su **Invia a** , quindi fai clic su Workfront DAM.
+1. Fai clic sull&#39;icona **Invia a**, quindi su Workfront DAM.
 
-1. Fai clic su **Workfront DAM,** quindi fare clic sul percorso in cui si desidera salvare il documento.
+1. Fare clic su **Workfront DAM,**, quindi sul percorso in cui si desidera salvare il documento.
 
-Per informazioni sull’inclusione automatica dei metadati del documento durante il salvataggio dei documenti da Workfront a Workfront DAM, consulta &quot;Configurazione di Workfront per l’invio di metadati a Workfront DAM&quot; in  [Configurare le integrazioni di documenti](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
+Per informazioni sull&#39;inclusione automatica dei metadati dei documenti durante il salvataggio di documenti da Workfront a Workfront DAM, vedere &quot;Configurazione di Workfront per l&#39;invio di metadati a Workfront DAM&quot; in  [Configura integrazioni documenti](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 
 ## Aggiunta di documenti da Workfront DAM
 
-Workfront DAM fornisce un’area di archiviazione dedicata in cui vengono memorizzate le risorse DAM. Questo consente di aggiungere documenti a Workfront da Workfront DAM senza influire sullo spazio di archiviazione Workfront. 
+Workfront DAM fornisce un’area di archiviazione dedicata in cui vengono archiviate le risorse DAM. Questo consente di aggiungere documenti a Workfront da Workfront DAM senza influire sullo spazio di archiviazione Workfront. 
 
-1. Vai a **Documenti** scheda dell’oggetto a cui si desidera collegare i documenti da Workfront DAM.
-1. Fai clic su **Aggiungi nuovo**.
+1. Passare alla scheda **Documenti** dell&#39;oggetto a cui si desidera collegare i documenti da Workfront DAM.
+1. Fare clic su **Aggiungi nuovo**.
 
-1. Dall’elenco a discesa, fai clic su **Da Workfront DAM**.
+1. Dall&#39;elenco a discesa, fare clic su **Da Workfront DAM**.
 1. Individua e seleziona le risorse da collegare in Workfront.
 
-   Le immagini delle miniature vengono visualizzate nella scheda Documenti. Seleziona la miniatura per visualizzare il nome del file. 
+   Le miniature vengono visualizzate nella scheda Documenti. Selezionare la miniatura per visualizzare il nome del file. 
 
-   Dopo aver collegato i documenti a Workfront, il logo Workfront viene visualizzato accanto al titolo del documento, indicando che il documento risiede effettivamente in Workfront DAM.
+   Dopo aver collegato i documenti a Workfront, il logo Workfront viene visualizzato accanto al titolo del documento, a indicare che il documento risiede effettivamente in Workfront DAM.

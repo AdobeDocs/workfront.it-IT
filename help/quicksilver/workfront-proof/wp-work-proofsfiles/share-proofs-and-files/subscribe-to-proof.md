@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
-title: Iscriviti a una bozza in [!DNL Workfront] Prova
-description: Quando un altro utente ti invia di aprire un URL di prova e lo apri nel browser, avvia il visualizzatore di correzione in modalità di sola lettura. Prima di poter lavorare sulla bozza, devi identificarti registrandoti ad essa.
+title: Sottoscrivi una bozza in [!DNL Workfront] Proof
+description: Quando un altro utente apre un URL di bozza e lo apri nel browser, il visualizzatore di bozze viene avviato in modalità di sola lettura. Prima di lavorare sulla bozza, è necessario identificarsi effettuando l’abbonamento.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 8f488839-efb5-44fb-9757-7e4d1c4aceef
@@ -14,25 +14,25 @@ ht-degree: 0%
 
 ---
 
-# Iscriviti a una bozza in [!DNL Workfront Proof]
+# Sottoscrivi una bozza in [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alla funzionalità del prodotto standalone [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Copertura](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
-Quando un altro utente ti invia di aprire un URL di prova e lo apri nel browser, avvia il visualizzatore di correzione in modalità di sola lettura. Prima di poter lavorare sulla bozza, devi identificarti registrandoti ad essa.
+Quando un altro utente apre un URL di bozza e lo apri nel browser, il visualizzatore di bozze viene avviato in modalità di sola lettura. Prima di lavorare sulla bozza, è necessario identificarsi effettuando l’abbonamento.
 
 >[!NOTE]
 >
->Per consentire agli utenti di abbonarsi a una bozza, è necessario abilitare l’impostazione Iscrizione (consulta la sezione [Configura le impostazioni di bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) in [Configura le impostazioni di bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)).
+>Prima che gli utenti possano sottoscrivere una bozza, è necessario abilitarne l&#39;impostazione di sottoscrizione (vedere la sezione [Configurare le impostazioni di bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) in [Configurare le impostazioni di bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)).
 
-Per sottoscrivere una prova:
+Per sottoscrivere una bozza:
 
-1. Fai clic su **[!UICONTROL Accesso]** nella parte superiore del visualizzatore di correzione.
-1. Digita il tuo indirizzo e-mail nel **[!UICONTROL Accedere]** che appare.
-1. Se non sei un revisore sulla bozza né un utente di [!DNL Workfront Proof], digita il nome visualizzato.\
+1. Fai clic su **[!UICONTROL Accedi]** nella parte superiore del visualizzatore di bozze.
+1. Digita il tuo indirizzo e-mail nella casella **[!UICONTROL Accedi]** che viene visualizzata.
+1. Se non sei un revisore della bozza né un utente di [!DNL Workfront Proof], digita il nome visualizzato.\
    Oppure\
-   Se hai [!DNL Workfront Proof] password, digita la password (che tu sia o meno un revisore sulla bozza).\
-   A seconda delle impostazioni di condivisione delle prove selezionate dalla persona che ha condiviso la bozza, potrebbe essere necessario seguire le istruzioni di convalida in un messaggio e-mail che ti è stato inviato tramite e-mail.
+   Se si dispone di una password [!DNL Workfront Proof], digitarla (indipendentemente dal fatto che si sia o meno revisori della bozza).\
+   A seconda delle impostazioni e-mail di condivisione delle bozze selezionate dalla persona che ha condiviso la bozza, potrebbe essere necessario seguire le istruzioni di convalida in un messaggio e-mail inviato all’utente tramite e-mail.
 
-1. Il tuo ruolo sulla bozza è Iscrizione, impostato nella pagina dei dettagli della bozza. Per ulteriori informazioni sull’impostazione dei ruoli per le bozze, consulta [Configura le impostazioni di bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).
+1. Il tuo ruolo nella bozza è Abbonamento, impostato sulla pagina Dettagli bozza della bozza. Per ulteriori informazioni sull&#39;impostazione dei ruoli per le bozze, vedere [Configurare le impostazioni di bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).

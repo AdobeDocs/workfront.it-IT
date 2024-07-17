@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # [!DNL Adobe Workfront Fusion] organizzazioni e team
 
-[!DNL Adobe Workfront Fusion]Le caratteristiche dell&#39;organizzazione e dei team consentono alle aziende di controllare l&#39;accesso a scenari e altre funzionalità in Fusion.
+Le funzionalità Organizzazione e Team di [!DNL Adobe Workfront Fusion] consentono alle aziende di controllare l&#39;accesso a scenari e altre funzionalità in Fusion.
 
 ## Requisiti di accesso
 
@@ -34,37 +34,37 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   <tr> 
    <td role="rowheader">Licenza [!UICONTROL Adobe Workfront Fusion]**</td> 
    <td>
-   <p>Fabbisogno di licenza corrente: No [!DNL Workfront Fusion] requisito di licenza.</p>
+   <p>Requisiti di licenza correnti: nessun requisito di licenza [!DNL Workfront Fusion].</p>
    <p>Oppure</p>
-   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro], [!UICONTROL [!DNL Workfront Fusion] per automazione lavoro]</p>
+   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione lavoro], [!UICONTROL [!DNL Workfront Fusion] per automazione lavoro]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
    <td>
-   <p>Fabbisogno prodotto corrente: se si dispone di [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Pianifica, la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo. [!DNL Workfront Fusion] è incluso in [!UICONTROL Ultimate] [!DNL Workfront] piano.</p>
+   <p>Fabbisogno prodotto corrente: se si dispone del piano [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], l'organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo. [!DNL Workfront Fusion] è incluso nel piano [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>Oppure</p>
-   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</p>
+   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
    <td> 
-     <p>Devi essere un [!DNL Workfront Fusion] per la tua organizzazione.</p>
-     <p>Devi essere un [!DNL Workfront Fusion] amministratore del team.</p>
+     <p>Devi essere un amministratore [!DNL Workfront Fusion] per la tua organizzazione.</p>
+     <p>Devi essere un amministratore [!DNL Workfront Fusion] per il tuo team.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore [!DNL Workfront].
 
-<p>**Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta <a href="../../workfront-fusion/get-started/license-automation-vs-integration.md" class="MCXref xref">[!DNL Adobe Workfront Fusion] licenze</a></p>
+<p>**Per informazioni sulle licenze [!DNL Adobe Workfront Fusion], vedere <a href="../../workfront-fusion/get-started/license-automation-vs-integration.md" class="MCXref xref">[!DNL Adobe Workfront Fusion] licenze</a></p>
 
 
 ## Organismi
 
-[!DNL Workfront Fusion] gli utenti appartengono a un’organizzazione.
+[!DNL Workfront Fusion] utenti appartengono a un&#39;organizzazione.
 
 * [Ruoli organizzazione](#organization-roles)
 * [Invito di utenti a un&#39;organizzazione](#inviting-users-to-an-organization)
@@ -74,13 +74,13 @@ Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, co
 
 Un utente ha uno dei seguenti ruoli in un’organizzazione:
 
-* **[!UICONTROL Proprietario]**: il proprietario dispone di tutte le autorizzazioni disponibili nell’organizzazione.
-* **[!UICONTROL Amministratore]**: il ruolo di amministratore consente a un utente di creare e gestire team e utenti per l’organizzazione.
-* **[!UICONTROL Membro]**: i membri possono utilizzare [!DNL Workfront Fusion] ma non è in grado di apportare modifiche organizzative.
-* **[!UICONTROL Contabile]**: un ruolo di contabile consente agli utenti di visualizzare solo le informazioni sulle licenze nel dashboard dell’organizzazione.
-* **[!UICONTROL Sviluppatore di app]**: la funzionalità per questo ruolo non è attualmente disponibile e verrà resa disponibile a breve. Non è consigliabile assegnare gli utenti a questo ruolo in questo momento.
+* **[!UICONTROL Proprietario]**: il proprietario dispone di tutte le autorizzazioni disponibili nell&#39;organizzazione.
+* **[!UICONTROL Amministratore]**: il ruolo di amministratore consente a un utente di creare e gestire team e utenti per l&#39;organizzazione.
+* **[!UICONTROL Membro]**: i membri possono utilizzare [!DNL Workfront Fusion], ma non possono apportare modifiche organizzative.
+* **[!UICONTROL Contabile]**: un ruolo di contabile consente agli utenti di visualizzare solo le informazioni sulle licenze nel dashboard dell&#39;organizzazione.
+* **[!UICONTROL Sviluppatore app]**: la funzionalità per questo ruolo non è attualmente disponibile e lo sarà prossimamente. Non è consigliabile assegnare gli utenti a questo ruolo in questo momento.
 
-Per informazioni sulle azioni specifiche disponibili per gli utenti in ciascun ruolo dell’organizzazione, consulta [Ruoli di organizzazione e team](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
+Per informazioni sulle azioni specifiche disponibili per gli utenti in ogni ruolo dell&#39;organizzazione, vedere [Ruoli dell&#39;organizzazione e del team](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
 
 ### Invito di utenti a un&#39;organizzazione
 
@@ -88,17 +88,17 @@ Per impostazione predefinita, il proprietario di un’organizzazione (o l’uten
 
 Per invitare un utente a partecipare a un&#39;organizzazione:
 
-1. Clic **[!UICONTROL Modifica dettagli]** nell&#39;angolo superiore destro dello schermo.
-1. Seleziona **[!UICONTROL Invita un nuovo utente]**.
+1. Fai clic su **[!UICONTROL Modifica dettagli]** nell&#39;angolo superiore destro della schermata.
+1. Selezionare **[!UICONTROL Invita un nuovo utente]**.
 
    ![](assets/fusion-organization-invite-user-350x199.png)
 
 1. Inserisci l’indirizzo e-mail e il nome dell’utente.
-1. Selezionare un ruolo per l&#39;utente. Per ulteriori informazioni sui ruoli, consulta [Ruoli organizzazione](#organization-roles) in questo documento.
+1. Selezionare un ruolo per l&#39;utente. Per ulteriori informazioni sui ruoli, vedere [Ruoli organizzazione](#organization-roles) in questo documento.
 1. (Facoltativo) Aggiungi una nota. Questa nota viene visualizzata nell&#39;e-mail di invito ricevuta dall&#39;utente.
 1. Fai clic su **[!UICONTROL Salva]**.
 
-[!DNL Fusion] invia un’e-mail con un invito all’organizzazione specifica e un [!UICONTROL Accetta Il Ruolo] pulsante.
+[!DNL Fusion] invia un&#39;e-mail con un invito all&#39;organizzazione specifica e un pulsante [!UICONTROL Accetta il ruolo].
 
 Quando il destinatario fa clic sul pulsante, viene reindirizzato alla pagina dell’invito, dove può accettare l’invito.
 
@@ -106,7 +106,7 @@ L&#39;invito scadrà tra un giorno.
 
 >[!NOTE]
 >
->Se l’utente è nuovo su [!DNL Fusion], [!DNL Fusion] crea automaticamente un account per loro e invia un’e-mail con una password temporanea, chiedendo al nuovo utente di accedere e modificare la propria password.
+>Se l&#39;utente è nuovo a [!DNL Fusion], [!DNL Fusion] crea automaticamente un account per l&#39;utente e invia un&#39;e-mail con una password temporanea, indirizzando al nuovo utente l&#39;accesso e la modifica della password.
 
 ### Passare da un’organizzazione all’altra
 
@@ -128,7 +128,7 @@ I team sono gruppi di utenti che condividono l’accesso a risorse specifiche. T
 
 >[!NOTE]
 >
->Poiché i team controllano l’accesso alle risorse, a volte è utile che abbiano un solo membro. Ad esempio, gli utenti in formazione possono creare connessioni con il proprio utente [!DNL Google] account. Tutti i membri del gruppo possono connettersi alla persona [!DNL Google] quindi, in questo caso è meglio che l’utente sia l’unico membro di un team di formazione.
+>Poiché i team controllano l’accesso alle risorse, a volte è utile che abbiano un solo membro. Ad esempio, gli utenti in formazione possono creare connessioni ai loro singoli account [!DNL Google]. Tutti i membri del team potranno connettersi al singolo account [!DNL Google]. In questo caso, è consigliabile che l&#39;utente sia l&#39;unico membro di un team di formazione.
 
 Le organizzazioni possono disporre di tutti i team necessari e gli utenti possono appartenere a uno o più team.
 
@@ -141,13 +141,13 @@ Gli utenti possono selezionare il proprio team dall’elenco a discesa nel panne
 
 Un utente ha uno dei seguenti ruoli in ciascuno dei propri team:
 
-* **[!UICONTROL Amministratore team]**: oltre alle funzionalità degli altri ruoli del team, il ruolo Amministratore consente all’utente di aggiungere, rimuovere o modificare il ruolo di un membro del team.
-* **[!UICONTROL Membro team]**: il ruolo di membro del team consente agli utenti di creare ed eseguire scenari.
-* **[!UICONTROL Monitoraggio team]**: Il [!UICONTROL monitoraggio] Il ruolo consente agli utenti di accedere alle informazioni di esecuzione per gli scenari, ma non sono in grado di progettare scenari o di modificare il loro stato &quot;Attivo&quot;.
-* **[!UICONTROL Operatore team]**: Il [!UICONTROL operatore] Il ruolo consente agli utenti di visualizzare i dati di esecuzione e modificare lo stato &quot;Attivo&quot; degli scenari.
-* **[!UICONTROL Membro con restrizioni team]**: la funzionalità per questo ruolo non è attualmente disponibile e verrà resa disponibile a breve. Non è consigliabile assegnare gli utenti a questo ruolo in questo momento.
+* **[!UICONTROL Amministratore team]**: oltre alle funzionalità degli altri ruoli del team, il ruolo Amministratore consente all&#39;utente di aggiungere, rimuovere o modificare il ruolo di un membro del team.
+* **[!UICONTROL Membro team]**: il ruolo del membro del team consente agli utenti di creare ed eseguire scenari.
+* **[!UICONTROL Monitoraggio team]**: il ruolo [!UICONTROL monitoraggio] consente agli utenti di accedere alle informazioni sull&#39;esecuzione per gli scenari, ma non è possibile progettare scenari o modificare lo stato &quot;Attivo&quot;.
+* **[!UICONTROL Operatore team]**: il ruolo [!UICONTROL operatore] consente agli utenti di visualizzare i dati di esecuzione e di modificare lo stato &quot;Attivo&quot; degli scenari.
+* **[!UICONTROL Membro con restrizioni team]**: la funzionalità per questo ruolo non è attualmente disponibile e sarà disponibile prossimamente. Non è consigliabile assegnare gli utenti a questo ruolo in questo momento.
 
-Per informazioni sulle azioni specifiche disponibili per gli utenti in ogni ruolo del team, vedi [Ruoli di organizzazione e team](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
+Per informazioni sulle azioni specifiche disponibili per gli utenti in ogni ruolo del team, vedere [Ruoli organizzazione e team](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
 
 ### Gestione team
 
@@ -161,8 +161,8 @@ I proprietari e gli amministratori dell’organizzazione possono creare dei team
 Per creare un team:
 
 1. Nel pannello di navigazione a sinistra, fai clic su **[!UICONTROL Organizzazione]**
-1. Seleziona la **[!UICONTROL Team]** scheda.
-1. Clic **[!UICONTROL Aggiungi un nuovo team]** nell’elenco dei team.
+1. Selezionare la scheda **[!UICONTROL Team]**.
+1. Fai clic su **[!UICONTROL Aggiungi un nuovo team]** nell&#39;elenco dei team.
 1. Immettere un nome per il nuovo team e fare clic su **Aggiungi**.
 
 #### Imposta opzioni di notifica team
@@ -173,12 +173,12 @@ Per creare un team:
 >
 >Per utilizzare l’esperienza Unified Shell, inclusa l’area Notifiche dell’Adobe, fai clic sul pulsante Prova nuova interfaccia utente di Fusion in Esperienza unificata nella parte superiore della pagina. Questo pulsante è disponibile solo se l’organizzazione è stata spostata in Unified Shell.
 >
->Per ulteriori informazioni, consulta [Accedere alle notifiche](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) in [!DNL Adobe Unified Experience] per [!DNL Workfront Fusion].
+>Per ulteriori informazioni, vedere [Accedere alle notifiche](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) in [!DNL Adobe Unified Experience] per [!DNL Workfront Fusion].
 
 Le opzioni di notifica e-mail sono impostate a livello di team.
 
 1. Nel pannello di navigazione a sinistra, fai clic su **[!UICONTROL Team]**
-1. Seleziona la **[!UICONTROL Opzioni di notifica]** scheda.
+1. Selezionare la scheda **[!UICONTROL Opzioni di notifica]**.
 1. Abilitare le notifiche che si desidera vengano ricevute dal team.
 
    <table style="table-layout:auto"> 
@@ -195,7 +195,7 @@ Le opzioni di notifica e-mail sono impostate a livello di team.
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Disattivazione scenario]</p> </td> 
-      <td><p>Ricevi un’e-mail quando uno scenario si disattiva.</p><p><b>Nota:</b> Viene inviata una notifica sulla disattivazione dello scenario solo quando lo scenario è stato disattivato automaticamente a causa di errori. Non ricevi notifiche su scenari disattivati manualmente.</p><p>In alcuni casi, uno scenario potrebbe essere disattivato dalla [!DNL Workfront Fusion] team tecnico perché lo scenario causa problemi di prestazioni o di altro tipo. In questi casi, non ricevi notifiche in [!DNL Workfront Fusion]. </p></td>
+      <td><p>Ricevi un’e-mail quando uno scenario si disattiva.</p><p><b>Nota:</b> ricevi una notifica relativa alla disattivazione dello scenario solo quando lo scenario è stato disattivato automaticamente a causa di errori. Non ricevi notifiche su scenari disattivati manualmente.</p><p>In alcuni casi, uno scenario potrebbe essere disattivato dal team di progettazione [!DNL Workfront Fusion] perché causa problemi di prestazioni o di altro tipo. In questi casi, non si ricevono notifiche in [!DNL Workfront Fusion]. </p></td>
 
 </tr>
 </tbody>

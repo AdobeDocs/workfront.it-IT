@@ -1,21 +1,21 @@
 ---
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Copiare le iniziative nel planner dello scenario
-description: Puoi creare iniziative copiandone quelle esistenti. Puoi copiare le iniziative su un piano creato o su un piano condiviso da un utente.
+title: Copiare iniziative nella Pianificazione scenario
+description: Puoi creare iniziative copiando quelle esistenti. È possibile copiare le iniziative in un piano creato dall'utente o in un piano condiviso con l'utente.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 0aadb074-69c3-4229-a01a-7cabdb87e7cb
 source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
-# Copia le iniziative nel [!DNL Scenario Planner]
+# Copia iniziative in [!DNL Scenario Planner]
 
-Puoi creare iniziative copiandone quelle esistenti. Puoi copiare le iniziative su un piano creato o su un piano condiviso da un utente.
+Puoi creare iniziative copiando quelle esistenti. È possibile copiare le iniziative in un piano creato dall&#39;utente o in un piano condiviso con l&#39;utente.
 
 ## Requisiti di accesso
 
@@ -25,7 +25,7 @@ Puoi creare iniziative copiandone quelle esistenti. Puoi copiare le iniziative s
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront]<b> piano*</b> </p> </td> 
-   <td>[!UICONTROL Business] o superiore</td> 
+   <td>[!UICONTROL Business] o versione successiva</td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront]<b> licenza</b>*</p> </td> 
@@ -33,76 +33,76 @@ Puoi creare iniziative copiandone quelle esistenti. Puoi copiare le iniziative s
   </tr> 
   <tr> 
    <td><b>Prodotto</b> </td> 
-   <td> <p>È necessario acquistare una licenza aggiuntiva per [!DNL Adobe Workfront Scenario Planner] per accedere alla funzionalità descritta in questo articolo.</p> <p>Per informazioni su come ottenere [!DNL Workfront Scenario Planner], vedi <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accesso necessario per utilizzare [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <p>È necessario acquistare una licenza aggiuntiva per [!DNL Adobe Workfront Scenario Planner] per accedere alla funzionalità descritta in questo articolo.</p> <p>Per informazioni su come ottenere [!DNL Workfront Scenario Planner], vedere <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accesso necessario per utilizzare [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Configurazioni a livello di accesso*</strong> </td> 
-   <td> <p>Accesso o superiore a [!DNL Scenario Planner]</p> <p>Nota: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come [!DNL Workfront] l'amministratore può modificare il livello di accesso, vedi <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td><strong>Configurazioni del livello di accesso*</strong> </td> 
+   <td> <p>Accesso di [!UICONTROL Edit] o versione successiva al [!DNL Scenario Planner]</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di [!DNL Workfront] può modificare il livello di accesso, vedere <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Autorizzazioni oggetto</strong> </p> </td> 
-   <td> <p>Autorizzazioni di gestione per un piano</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo a un piano, vedi <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Richiedi l'accesso a un piano nel [!DNL Scenario Planner]</a>.</p> </td> 
+   <td> <p>Autorizzazioni [!UICONTROL Manage] per un piano</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo a un piano, vedere <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Richiedere accesso a un piano in [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Copia delle iniziative
+## Copia iniziative
 
-Quando copi le iniziative, considera quanto segue:
+Quando copi le iniziative, tieni presente quanto segue:
 
-* Copiare un&#39;iniziativa posiziona la copia sullo stesso piano dell&#39;iniziativa originale.
-* Copiare un&#39;iniziativa e aggiungere le seguenti informazioni dell&#39;iniziativa originale alla nuova iniziativa:
+* Quando si copia un&#39;iniziativa, la copia viene posizionata sullo stesso piano dell&#39;iniziativa originale.
+* Copiare un&#39;iniziativa copia e aggiunge le seguenti informazioni dall&#39;iniziativa originale alla nuova iniziativa:
 
    * [!UICONTROL Durata]
-   * [!UICONTROL Mansioni]
+   * [!UICONTROL Ruoli]
    * [!UICONTROL Persone] e [!UICONTROL Costi fissi]
-   * [!UICONTROL Benef Pian]
+   * [!UICONTROL Vantaggio pianificato]
 
-* Copiare un&#39;iniziativa può modificare le seguenti informazioni per il piano, se le informazioni sono presenti nell&#39;iniziativa originale:
+* Copiando un&#39;iniziativa è possibile modificare le seguenti informazioni per il piano, se disponibili nell&#39;iniziativa originale:
 
-   * Quantità necessaria di ruoli di lavoro
+   * Quantità richiesta di mansioni
    * [!UICONTROL Costi]
-   * [!UICONTROL Utilizzo del piano]
-   * Utilizzo del ruolo di lavoro
+   * [!UICONTROL Utilizzo piano]
+   * Utilizzo ruolo
    * [!UICONTROL Valore Netto]
 
-* La copia di un&#39;iniziativa creata importando un progetto o pubblicata in un progetto almeno una volta ha le seguenti implicazioni:
+* Copiare un’iniziativa creata importando un progetto o che è stata pubblicata in un progetto almeno una volta ha le seguenti implicazioni:
 
-   * Non duplica il progetto associato all&#39;iniziativa.
-   * Non collega l&#39;iniziativa copiata al progetto.
-   * Non modifica la [!DNL Scenario Planner] sezione sul progetto, per i progetti pubblicati almeno una volta.
+   * Non duplica il progetto associato all’iniziativa.
+   * Non collega l’iniziativa copiata al progetto.
+   * Non modifica la sezione [!DNL Scenario Planner] del progetto, per i progetti che sono stati pubblicati almeno una volta.
 
-   Per informazioni sulla pubblicazione di iniziative in progetti, consulta [Aggiornare o creare progetti pubblicando iniziative nel [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
+  Per informazioni sulla pubblicazione di iniziative nei progetti, vedere [Aggiornare o creare progetti pubblicando iniziative in [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
 
-   Per informazioni sulla creazione di iniziative importando progetti, consulta [Importa progetti nei piani [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md) .
+  Per informazioni sulla creazione di iniziative mediante l&#39;importazione di progetti, vedere [Importare progetti nei piani in [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md) .
 
-## Copia delle iniziative
+## Copia iniziative
 
-1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png), quindi fai clic su [!UICONTROL Scenari].
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]**, quindi fai clic su [!UICONTROL Scenari].
 
    Viene visualizzato un elenco di piani.
 
-1. Fai clic sul nome di un piano per aprirlo, quindi individua le iniziative da copiare.
-1. Seleziona la casella a sinistra dell&#39;iniziativa o delle iniziative da copiare, quindi fai clic su **[!UICONTROL Copia]** dal menu visualizzato nella parte inferiore del piano.
+1. Fare clic sul nome di un piano per aprirlo, quindi individuare le iniziative da copiare.
+1. Seleziona la casella a sinistra dell&#39;iniziativa o delle iniziative da copiare, quindi fai clic su **[!UICONTROL Copia]** dal menu visualizzato in fondo al piano.
 
    ![](assets/bottom-manage-initiative-menu-350x45.png)
 
-   [!DNL Workfront] copia immediatamente le iniziative e le pone sotto l&#39;ultima iniziativa selezionata.
+   [!DNL Workfront] copia immediatamente le iniziative e le posiziona sotto l&#39;ultima iniziativa selezionata.
 
    Il nome dell&#39;iniziativa copiata è *[!UICONTROL Copia di]`<Name of original initiative>`*.
 
    >[!NOTE]
    >
-   >A seconda di dove si inseriscono le nuove iniziative, il numero di iniziative esistenti potrebbe cambiare.
+   >A seconda della posizione in cui vengono inserite le nuove iniziative, il numero di iniziative esistenti potrebbe cambiare.
 
 1. Aggiorna il nome dell&#39;iniziativa copiata.
 
    >[!TIP]
    >
-   >Si consiglia di aggiornare sempre il nome dell’iniziativa per evitare confusione nel caso in cui si desideri copiarli di nuovo.
+   >È consigliabile aggiornare sempre il nome dell’iniziativa per evitare confusione nel caso in cui si desideri copiarli nuovamente.
 
-1. (Facoltativo) Aggiorna la priorità delle iniziative appena create.
+1. (Facoltativo) Aggiorna la priorità delle nuove iniziative create.
 
-   Per informazioni sulla priorità delle iniziative, consulta [Aggiornare le priorità dell&#39;iniziativa [!DNL Scenario Planner]](../scenario-planner/prioritize-initiatives.md).
+   Per informazioni sull&#39;assegnazione delle priorità alle iniziative, vedere [Aggiornare le priorità delle iniziative in  [!DNL Scenario Planner]](../scenario-planner/prioritize-initiatives.md).
 
 1. Fai clic su **[!UICONTROL Salva piano]** per salvare le modifiche.

@@ -2,32 +2,31 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
-title: Eliminare uno stato di gruppo
-description: In qualità di amministratore di gruppo, è possibile eliminare uno stato per un gruppo gestito se non è configurato come stato obbligatorio o bloccato a livello di sistema o per un gruppo superiore nella gerarchia.
+title: Eliminare lo stato di un gruppo
+description: In qualità di amministratore di gruppo, puoi eliminare uno stato per un gruppo che gestisci se non è configurato come obbligatorio o bloccato a livello di sistema o per un gruppo più alto nella gerarchia.
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
 
-# Eliminare uno stato di gruppo
+# Eliminare lo stato di un gruppo
 
-In qualità di amministratore di gruppo, è possibile eliminare uno stato per un gruppo gestito se non è configurato come stato obbligatorio o bloccato a livello di sistema o per un gruppo superiore nella gerarchia.
+In qualità di amministratore di gruppo, puoi eliminare uno stato per un gruppo che gestisci se non è configurato come obbligatorio o bloccato a livello di sistema o per un gruppo più alto nella gerarchia.
 
-Se ci sono gruppi al di sopra del gruppo che gestisci, i loro amministratori possono farlo anche per il tuo gruppo. Lo stesso vale per gli amministratori di Workfront (per qualsiasi gruppo).
+Se al di sopra del gruppo gestito sono presenti gruppi, anche gli amministratori possono eseguire questa operazione per il gruppo. Lo stesso vale per gli amministratori di Workfront (per qualsiasi gruppo).
 
 >[!NOTE]
 >
->Non è possibile eliminare quanto segue:
+>Non è possibile eliminare i seguenti elementi:
 >
->* Gli stati incorporati Planning, Current e Complete. È possibile aggiornare i loro nomi, modificarne i colori e bloccarli o sbloccarli, ma non è possibile eliminarli.
->* Stati in attesa di approvazione per almeno un oggetto associato al gruppo o uno dei suoi sottogruppi.
-
+>* Gli stati incorporati Planning, Current e Complete. Puoi aggiornarne i nomi, modificarne i colori e bloccarli o sbloccarli, ma non è possibile eliminarli.
+>* Stati in attesa di approvazione per almeno un oggetto associato al gruppo o a uno dei suoi sottogruppi.
 
 ## Requisiti di accesso
 
@@ -38,52 +37,52 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Workfront*</td> 
+   <td role="rowheader">piano Workfront*</td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano </p> <p>È necessario essere un amministratore del gruppo o un amministratore di Workfront. Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Amministratori di gruppo</a> e <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente pieno accesso amministrativo</a>.</p> </td> 
+   <td> <p>Piano </p> <p>Devi essere un amministratore di gruppo del gruppo o un amministratore di Workfront. Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Amministratori di gruppi</a> e <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente l'accesso amministrativo completo</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per sapere quale piano o tipo di licenza hai, contatta il tuo amministratore Workfront.
+&#42;Per conoscere il piano o il tipo di licenza di cui si dispone, contattare l&#39;amministratore di Workfront.
 
-## Eliminare uno stato di gruppo
+## Eliminare lo stato di un gruppo
 
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
 1. Nel pannello a sinistra, fai clic su **Gruppi**.
-1. Fai clic sul nome del gruppo di livello principale.
-1. Nel pannello a sinistra fai clic su **Stati**.
-1. Nell’elenco degli stati visualizzati, passa il cursore del mouse sullo stato da eliminare, quindi fai clic su **Elimina** quando appare all&#39;estrema destra.
+1. Fare clic sul nome del gruppo di primo livello.
+1. Nel pannello sinistro fai clic su **Stati**.
+1. Nell&#39;elenco degli stati visualizzati, passa il cursore sullo stato che desideri eliminare, quindi fai clic su **Elimina** quando viene visualizzato all&#39;estrema destra.
 
    ![](assets/hover-click-delete.jpg)
 
-1. Nella casella visualizzata, selezionare uno stato per designare uno stato di sostituzione per gli oggetti (progetti, attività, problemi e processi di approvazione) che utilizzavano lo stato che si sta eliminando.
+1. Nella casella visualizzata, selezionare uno stato per designare uno stato sostitutivo per gli oggetti (progetti, attività, problemi e processi di approvazione) che utilizzavano lo stato che si sta eliminando.
 
-   Sono disponibili solo gli stati che corrispondono allo stato che si sta eliminando. Ad esempio, se elimini uno stato che equivale a Corrente, puoi visualizzare solo gli stati che corrispondono a Corrente.
+   Sono disponibili solo gli stati che corrispondono allo stato che si sta eliminando. Ad esempio, se si elimina uno stato che equivale a Corrente, è possibile visualizzare solo gli stati che equivalgono a Corrente.
 
-   Inoltre, lo stato visualizzato dipende dal fatto che lo stato da eliminare sia sbloccato o bloccato:
+   Inoltre, gli stati visualizzati dipendono dal fatto che lo stato che si sta eliminando sia sbloccato o bloccato:
 
-   * **Se è sbloccato**: Sono disponibili gli stati bloccati e sbloccati non nascosti.
+   * **Se è sbloccato**: sono disponibili stati non nascosti bloccato e bloccato.
 
-      Oltre agli stati creati per il sottogruppo, sono inclusi anche gli stati ereditati dai gruppi a livello di sistema e di livello superiore.
+     Oltre agli stati creati per il sottogruppo, sono inclusi gli stati ereditati dai gruppi di livello superiore e di sistema.
 
-   * **Se è bloccato**: Una delle seguenti affermazioni è vera:
+   * **Se è bloccato**: si verifica una delle seguenti condizioni:
 
       * Se sono presenti altri stati bloccati e non nascosti, sono disponibili solo quelli.
-      * Se non è presente uno stato bloccato non nascosto, lo stato predefinito di Workfront è disponibile, anche se nascosto o sbloccato.
+      * Se non è presente uno stato bloccato non nascosto, lo stato predefinito di Workfront è disponibile, anche se è nascosto o sbloccato.
 
-         Per informazioni sugli stati predefiniti di Workfront, consulta [Accedere all’elenco degli stati del progetto di sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md), [Accedere all&#39;elenco degli stati delle attività del sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)e le informazioni sui 4 stati di problema richiesti in [Accedere all’elenco degli stati dei problemi del sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).
+        Per informazioni sugli stati predefiniti di Workfront, vedere [Accedere all&#39;elenco degli stati dei progetti di sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md), [Accedere all&#39;elenco degli stati delle attività di sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md) e le informazioni sui 4 stati dei problemi richiesti in [Accedere all&#39;elenco degli stati dei problemi di sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).
 
-1. Fai clic su **Elimina stato**.
+1. Fare clic su **Elimina stato**.
 
-   Se lo stato eliminato era quello predefinito per quel tipo nel gruppo, viene sostituito lo stato di sostituzione.
+   Se lo stato eliminato era lo stato predefinito per quel tipo nel gruppo, lo stato di sostituzione prende il suo posto.
 
-   Se lo stato eliminato è stato impostato come stato predefinito del progetto nelle preferenze del progetto, la preferenza ora è impostata sullo stato di sostituzione.
+   Se lo stato di eliminazione è stato impostato come stato predefinito del progetto nelle preferenze del progetto, la preferenza viene impostata sullo stato di sostituzione.
 
 ## Quando un gruppo viene eliminato
 
-Quando un gruppo viene eliminato e sostituito da un altro gruppo, tutti gli stati univoci che il gruppo eliminato aveva aggiunto agli stati del gruppo di sostituzione. Per ulteriori informazioni, consulta [Stati personalizzati in un gruppo spostato o eliminato](../../../administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-in-group-moved-or-deleted.md).
+Quando un gruppo viene eliminato e sostituito da un altro gruppo, tutti gli stati univoci del gruppo eliminato vengono aggiunti agli stati del gruppo sostitutivo. Per ulteriori informazioni, vedere [Stati personalizzati in un gruppo spostato o eliminato](../../../administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-in-group-moved-or-deleted.md).

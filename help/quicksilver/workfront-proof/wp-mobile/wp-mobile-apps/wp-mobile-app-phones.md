@@ -1,6 +1,6 @@
 ---
-title: App mobile Workfront Proof
-description: Scopri l’app mobile Workfront Proof.
+title: app mobile Workfront Proof
+description: Scopri l’app mobile di Workfront Proof.
 hide: true
 hidefromtoc: true
 exl-id: 865019d7-55b4-4d53-93aa-1370d153916e
@@ -11,19 +11,19 @@ ht-degree: 0%
 
 ---
 
-# App mobile Workfront Proof
+# app mobile Workfront Proof
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alle funzionalità del prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Bozza](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
-Scarica il file [!DNL Workfront Proof] dall’App Store di Apple o dal Google Store per essere produttivi ovunque ti trovi. Il [!DNL Workfront Proof] L’app dispone delle seguenti funzioni su iPhone e iPod Touch:
+Scarica l&#39;app [!DNL Workfront Proof] da Apple App Store o Google Store per essere produttiva ovunque ti trovi. L&#39;app [!DNL Workfront Proof] dispone delle seguenti funzionalità su iPhone e iPod Touch:
 
 * Visualizzare, rivedere e approvare bozze statiche e audiovisive
 * Visualizzare, aggiungere e rispondere ai commenti
 * Gestione delle bozze tramite dashboard e visualizzazioni
 
-Non è necessario essere un utente di [!DNL Workfront Proof] (ad esempio, possiedi le tue credenziali di accesso) per rivedere e approvare una bozza tramite l’app iOS. Se scarichi l’app sul tuo dispositivo iOS e accedi al tuo URL personale tramite l’app e-mail di iOS, puoi rivedere e approvare in movimento.
+Non è necessario essere un utente di [!DNL Workfront Proof] (ovvero disporre di credenziali di accesso personalizzate) per rivedere e approvare una bozza tramite l&#39;app iOS. Se scarichi l’app sul tuo dispositivo iOS e accedi al tuo URL personale tramite l’app e-mail di iOS, puoi rivedere e approvare in movimento.
 
 ## Requisiti del dispositivo
 
@@ -35,9 +35,9 @@ Richiede iOS 7.0 o versione successiva. Android 4.0 e versioni successive. Compa
 >
 >L’app mobile Workfront Proof non è più supportata ed è disponibile così com’è.  Eventuali problemi nell’app non verranno risolti.
 
-Per i dispositivi iOS, assicurati di disinstallare il precedente [!DNL Workfront Proof] per dispositivi iOS prima di installare la nuova app.
+Per i dispositivi iOS, assicurarsi di disinstallare la precedente app [!DNL Workfront Proof] per dispositivi iOS prima di installare la nuova app.
 
-Il [!DNL Workfront Proof] L&#39;app rileva automaticamente il tipo di dispositivo in uso. Se desideri utilizzare l’app sul tablet, consulta [[!DNL Workfront Proof] app mobile per tablet](../../../workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md).
+L&#39;app [!DNL Workfront Proof] rileva automaticamente il tipo di dispositivo in uso. Se desideri utilizzare l&#39;app sul tuo tablet, consulta [[!DNL Workfront Proof] app mobile per tablet](../../../workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md).
 
 >[!NOTE]
 >
@@ -45,33 +45,33 @@ Il [!DNL Workfront Proof] L&#39;app rileva automaticamente il tipo di dispositiv
 
 ## Guida introduttiva all’app
 
-Non è necessario essere un [!DNL Workfront Proof] per iniziare a utilizzare l’app. È sufficiente installare l’app sul dispositivo e fare clic su un **[!UICONTROL Vai alla bozza]** nella notifica e-mail. L’app avvia e carica automaticamente la bozza.
+Non è necessario essere un utente [!DNL Workfront Proof] per iniziare a utilizzare l&#39;app. Installa l&#39;app sul tuo dispositivo e fai clic su un collegamento **[!UICONTROL Vai alla bozza]** nella notifica e-mail. L’app avvia e carica automaticamente la bozza.
 
-Se sei un [!DNL Workfront Proof] utente puoi accedere all’app prima di aprire qualsiasi bozza. L’app ti consente di sfogliare tutte le bozze condivise con te e di passare facilmente da una bozza all’altra.
+Se sei un utente di [!DNL Workfront Proof] puoi accedere all&#39;app prima di aprire qualsiasi bozza. L’app ti consente di sfogliare tutte le bozze condivise con te e di passare facilmente da una bozza all’altra.
 
 1. Apri l’app.
-1. Inserisci l’e-mail e la password e tocca **[!UICONTROL Login]**.
+1. Immetti l&#39;e-mail e la password e tocca **[!UICONTROL Accesso]**.
 
    Oppure
 
-   Utilizza Single Sign-On, se configurato sul tuo [!DNL Workfront Proof] account.
+   Utilizza Single Sign-On, se configurato sul tuo account [!DNL Workfront Proof].
 
-   È possibile utilizzare **[!UICONTROL Password dimenticata]** se non si ricorda la password.
+   Puoi usare l&#39;opzione **[!UICONTROL Password dimenticata]** se non ricordi la password.
 
 ## Dashboard
 
-Dopo aver effettuato l’accesso a [!DNL Workfront Proof] viene visualizzata la dashboard. Qui puoi accedere facilmente alle tue bozze. Puoi aprire una delle viste disponibili, Le mie bozze e Tutte le bozze. In alternativa, tocca il nome di una delle bozze recenti per passare direttamente al visualizzatore di bozze.
+Dopo aver effettuato l&#39;accesso all&#39;account [!DNL Workfront Proof], viene visualizzata la dashboard. Qui puoi accedere facilmente alle tue bozze. Puoi aprire una delle viste disponibili, Le mie bozze e Tutte le bozze. In alternativa, tocca il nome di una delle bozze recenti per passare direttamente al visualizzatore di bozze.
 
-Per impostazione predefinita, nel dashboard viene aperta la vista Totale bozze. Questa visualizzazione mostra tutte le bozze di cui sei proprietario o che sono state condivise con te. Per modificare la visualizzazione, tocca la barra nella parte superiore della pagina e apri un menu a discesa contenente [!UICONTROL Ora di attivazione], [!UICONTROL A rischio], [!UICONTROL In Ritardo] e [!UICONTROL Recente] opzioni. Per aprire una bozza da qualsiasi visualizzazione, scorri l’elenco verso il basso per trovare la bozza desiderata, quindi tocca il nome per passare al visualizzatore di bozze.
+Per impostazione predefinita, nel dashboard viene aperta la vista Totale bozze. Questa visualizzazione mostra tutte le bozze di cui sei proprietario o che sono state condivise con te. Per modificare la visualizzazione, tocca la barra nella parte superiore della pagina e apri un menu a discesa contenente le opzioni [!UICONTROL All&#39;ora], [!UICONTROL A rischio], [!UICONTROL In ritardo] e [!UICONTROL Recente]. Per aprire una bozza da qualsiasi visualizzazione, scorri l’elenco verso il basso per trovare la bozza desiderata, quindi tocca il nome per passare al visualizzatore di bozze.
 
-![Screenshot_2016-04-28-20-05-34a.png](assets/screenshot-2016-04-28-20-05-34a-350x535.png)
+![Schermata_2016-04-28-20-05-34a.png](assets/screenshot-2016-04-28-20-05-34a-350x535.png)
 
-| **Visualizzazione Ora di attivazione** | Mostra tutte le bozze attive nel tuo account che disponi dell’autorizzazione per visualizzare e che non hanno una scadenza o mancano più di 24 ore alla scadenza. |
+| **Visualizzazione Ora** | Mostra tutte le bozze attive nel tuo account che disponi dell’autorizzazione per visualizzare e che non hanno una scadenza o mancano più di 24 ore alla scadenza. |
 |---|---|
 | **Visualizzazione a rischio** | Visualizza tutte le bozze per le quali la scadenza è inferiore a 24 ore. |
-| **Vista in ritardo** | Elenca tutte le bozze in cui non tutte le azioni sono completate per le quali la scadenza è già stata superata. |
-| **Vista recente** | Include le bozze a cui hai effettuato l’accesso di recente e di cui sei proprietario, che possiedi le autorizzazioni di visualizzazione in base alle tue autorizzazioni di profilo e che sono state condivise con te. Questa visualizzazione mostra solo le bozze che sei riuscito ad aprire (tramite [!DNL Workfront Proof] o tramite la pagina dei dettagli della bozza). |
-| **Collegamento e-mail** | Per aprire una bozza dall’e-mail, è sufficiente aprire l’e-mail nell’app e-mail e fare clic sul pulsante [!UICONTROL Vai alla bozza] pulsante nell&#39;e-mail (1) e verrai reindirizzato alla bozza nel [!DNL Workfront Proof] app. |
+| **Visualizzazione in ritardo** | Elenca tutte le bozze in cui non tutte le azioni sono completate per le quali la scadenza è già stata superata. |
+| **Visualizzazione recente** | Include le bozze a cui hai effettuato l’accesso di recente e di cui sei proprietario, che possiedi le autorizzazioni di visualizzazione in base alle tue autorizzazioni di profilo e che sono state condivise con te. In questa visualizzazione sono visualizzate solo le bozze aperte dall&#39;utente (tramite il visualizzatore [!DNL Workfront Proof] o tramite la pagina Dettagli bozza). |
+| **Collegamento e-mail** | Per aprire una bozza dall&#39;e-mail, è sufficiente aprire l&#39;e-mail nell&#39;app e-mail, fare clic sul pulsante [!UICONTROL Vai alla bozza] nell&#39;e-mail (1) per passare alla bozza nell&#39;app [!DNL Workfront Proof]. |
 
 {style="table-layout:auto"}
 
@@ -85,17 +85,17 @@ Quando apri una bozza nell’app mobile, puoi effettuare le seguenti operazioni:
 * Prendi una decisione (3).
 * Passa al menu (4).
 * Scalare la bozza pizzicando lo schermo.
-  ![IMG_0223,png](assets/img-0223-350x541.png)
+  ![IMG_0223.png](assets/img-0223-350x541.png)
 
 ## Aggiungere commenti e risposte
 
-1. Dopo aver aperto una bozza, tocca il pulsante **[!UICONTROL Aggiungi commento]** (1).
+1. Dopo aver aperto una bozza, toccare il pulsante **[!UICONTROL Aggiungi commento]** (1).
 
    ![tap_the_comment_button.png](assets/tap-the-comment-button-350x541.png)
 
 1. Digita il commento (2).
 
-   ![add_a_comment.png](assets/add-a-comment-350x543.png)
+   ![aggiungi_un_commento.png](assets/add-a-comment-350x543.png)
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
@@ -108,32 +108,32 @@ Quando apri una bozza nell’app mobile, puoi effettuare le seguenti operazioni:
 
 1. Effettua una delle seguenti operazioni:
 
-   * Per rispondere a un commento, tocca il **[!UICONTROL Rispondi]** (3).
-   * Per tornare all’immagine della bozza, tocca il [!UICONTROL callout] icona.
+   * Per rispondere a un commento, toccare il pulsante **[!UICONTROL Rispondi]** (3).
+   * Per tornare all&#39;immagine della bozza, tocca l&#39;icona [!UICONTROL callout].
    * Per visualizzare il commento completo e le relative risposte, toccare il commento stesso.
 
-     ![reply_to_a_comment.png](assets/reply-to-a-comment-350x543.png)
+     ![rispondi_a_un_commento.png](assets/reply-to-a-comment-350x543.png)
 
    * Per applicare un&#39;azione a un commento:
 
       1. Apri un commento.
-      1. Tocca **[!UICONTROL Rispondi]**.
-      1. Apri [!UICONTROL azioni] sul lato destro del campo di testo (1).
+      1. Tocca **[!UICONTROL Risposta]**.
+      1. Apri il menu [!UICONTROL azioni] sul lato destro del campo di testo (1).
       1. Tocca **[!UICONTROL Aggiungi azione]** (2).
 
-         ![actions_on_comments.png](assets/actions-on-comments-350x543.png)
+         ![azioni_su_commenti.png](assets/actions-on-comments-350x543.png)
 
-         Per ulteriori informazioni sulle azioni, consulta [Utilizzare le azioni sui commenti della bozza](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md).
+         Per ulteriori informazioni sulle azioni, vedere [Utilizzare azioni sui commenti della bozza](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md).
 
 ## Aggiungi markup
 
 È possibile aggiungere un markup (ad esempio una casella che evidenzia un&#39;area della bozza) e digitare un commento da allegare al markup. È inoltre possibile aggiungere un commento senza aggiungere un ricarico. Inoltre, è possibile aggiungere più ricariche a un singolo commento.
 
-1. In una bozza aperta, tocca **Aggiungi commento** (1)
+1. In una bozza aperta, toccare **Aggiungi commento** (1).
 
-   ![tap_the_add_comment_button.png](assets/tap-the-add-comment-button-350x541.png)
+   ![tocca_aggiungi_commento_pulsante.png](assets/tap-the-add-comment-button-350x541.png)
 
-1. Scegli tra [!UICONTROL modalità panoramica] 2) [!UICONTROL strumento rettangolo] 3) [!UICONTROL disegno a mano libera] (4) o [!UICONTROL freccia] strumento (5).
+1. Scegli tra la [!UICONTROL modalità panoramica] (2), lo [!UICONTROL strumento rettangolo] (3), il [!UICONTROL disegno a mano libera] (4) o lo strumento [!UICONTROL freccia] (5).
 
    È inoltre possibile modificare il colore della linea del markup (6).
 
@@ -141,32 +141,32 @@ Quando apri una bozza nell’app mobile, puoi effettuare le seguenti operazioni:
 
    Non è necessario aggiungere testo per salvare il markup (7).
 
-1. Tocca **[!UICONTROL Annulla]** (8) se si desidera eliminare il markup.
+1. Toccare **[!UICONTROL Annulla]** (8) se si desidera eliminare il markup.
 
-   ![adding_a_markup.png](assets/adding-a-markup-350x543.png)
+   ![aggiunta_a_markup.png](assets/adding-a-markup-350x543.png)
 
    Contrassegnando un’area nella bozza si apre automaticamente il campo commento. È possibile rimuovere il markup creato toccando la croce accanto alla forma markup (9).
 
-   ![remove_a_markup.png](assets/removing-a-markup-350x543.png)
+   ![rimozione_a_markup.png](assets/removing-a-markup-350x543.png)
 
 ## Decidi su una bozza
 
-1. Apri la bozza nel Visualizzatore bozze e tocca il [!UICONTROL Decisione] (1).
+1. Apri la bozza nel Visualizzatore bozze e tocca il pulsante [!UICONTROL Decisione] (1).
 
-   ![decision_button.png](assets/decision-button-350x542.png)
+   ![pulsante_decisione.png](assets/decision-button-350x542.png)
 
 1. Tocca la decisione che desideri inviare (2).
-1. Tocca **[!UICONTROL Salva]** per inviare la decisione.
+1. Tocca **[!UICONTROL Salva]** per inviare la tua decisione.
 
-   ![submit_decision.png](assets/submit-decision-350x543.png)
+   ![invia_decisione.png](assets/submit-decision-350x543.png)
 
    >[!NOTE]
    >
    >* Se viene impostato un messaggio a comparsa su decisione sull’account in cui è stata creata la bozza, questo verrà visualizzato anche nell’app iOS quando viene presa una decisione sulla bozza.
-   >* Se imposti motivi di decisione, questi verranno visualizzati sul [!UICONTROL Invia la tua decisione] per scegliere.
+   >* Se imposti i motivi della decisione, verranno visualizzati nella schermata [!UICONTROL Invia la tua decisione] per la tua scelta.
 
 
-   Se hai già inviato una decisione e desideri modificarla o rimuoverla, puoi farlo facilmente. Dopo aver presentato una decisione, una nuova opzione, **[!UICONTROL Rimuovi la mia decisione]** (6), viene visualizzato sul [!UICONTROL Invia la tua decisione] schermo.
+   Se hai già inviato una decisione e desideri modificarla o rimuoverla, puoi farlo facilmente. Dopo aver inviato una decisione, nella schermata [!UICONTROL Invia la decisione] viene visualizzata la nuova opzione **[!UICONTROL Rimuovi la decisione]** (6).
 
    ![remove_decision.png](assets/remove-decision-350x543.png)
 
@@ -174,13 +174,13 @@ Quando apri una bozza nell’app mobile, puoi effettuare le seguenti operazioni:
 
 Rivedere una bozza audio-video nell’app iOS è semplice come rivedere un file statico:
 
-1. Tocca il [!UICONTROL riproduzione/pausa] per riprodurre o sospendere il video (1).
-1. Per navigare nel video, tocca il [!UICONTROL navigazione] barra (2).
-1. Per lasciare un commento, tocca il **[!UICONTROL Commento]** (3), quindi seguire le istruzioni sopra descritte.
+1. Tocca il pulsante [!UICONTROL riproduci/sospendi] per riprodurre o mettere in pausa il video (1).
+1. Per spostarti nel video, tocca la barra di [!UICONTROL navigazione] (2).
+1. Per lasciare un commento, tocca il pulsante **[!UICONTROL Commento]** (3), quindi segui le istruzioni descritte in precedenza.
 
    Eventuali commenti o marcature lasciati sulla bozza saranno contrassegnati da puntini lungo la barra di navigazione (4).
 
-1. Per esaminare i commenti lasciati sulla bozza, tocca il **[!UICONTROL Commenti]** (5), quindi seguire le istruzioni sopra descritte.
-1. Per prendere una decisione, tocca il **[!UICONTROL Decisione]** (6), quindi seguire le istruzioni riportate sopra.
+1. Se desideri rivedere i commenti lasciati sulla bozza, tocca il pulsante **[!UICONTROL Commenti]** (5), quindi segui le istruzioni descritte in precedenza.
+1. Per prendere una decisione, tocca il pulsante **[!UICONTROL Decisione]** (6), quindi segui le istruzioni riportate sopra.
 
    ![AV_proof.png](assets/av-proof-350x545.png)

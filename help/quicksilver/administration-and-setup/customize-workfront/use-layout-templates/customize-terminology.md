@@ -34,14 +34,14 @@ Dopo aver salvato un modello di layout in cui è stata modificata la terminologi
 >[!NOTE]
 >
 >* Nell&#39;area Componente aggiuntivo di Outlook non vengono visualizzate le etichette personalizzate.
->* È possibile che si verifichino problemi grammaticali o di altro tipo quando si personalizzano le etichette. Ad esempio, se modifichi &quot;Problema&quot; in &quot;Richiesta&quot;, nell’interfaccia utente potrebbero essere presenti posizioni in cui viene visualizzata la frase &quot;Una richiesta&quot;. Per ulteriori informazioni, consulta [Implicazioni della personalizzazione dei nomi degli oggetti](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#implications-of-customizing-object-names) nell’articolo [Comprendere gli oggetti in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
+>* È possibile che si verifichino problemi grammaticali o di altro tipo quando si personalizzano le etichette. Ad esempio, se modifichi &quot;Problema&quot; in &quot;Richiesta&quot;, nell’interfaccia utente potrebbero essere presenti posizioni in cui viene visualizzata la frase &quot;Una richiesta&quot;. Per ulteriori informazioni, vedere [Implicazioni della personalizzazione dei nomi degli oggetti](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#implications-of-customizing-object-names) nell&#39;articolo [Informazioni sugli oggetti in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
 >
 
 Per ulteriori informazioni sui modelli di layout, vedere [Creare e gestire modelli di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 Per informazioni sui modelli di layout per i gruppi, vedere [Creare e modificare i modelli di layout di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Dopo aver configurato un modello di layout, è necessario assegnarlo agli utenti affinché le modifiche apportate siano visibili agli altri utenti. Per informazioni sull&#39;assegnazione di un modello di layout agli utenti, vedere [Assegnare utenti a un modello di layout](../use-layout-templates/assign-users-to-layout-template.md).
+Dopo aver configurato un modello di layout, è necessario assegnarlo agli utenti affinché le modifiche apportate siano visibili agli altri utenti. Per informazioni sull&#39;assegnazione di un modello di layout agli utenti, vedere [Assegnare gli utenti a un modello di layout](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Requisiti di accesso
 
@@ -62,7 +62,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Per eseguire questi passaggi a livello di sistema, è necessario disporre del livello di accesso Amministratore di sistema.
-Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p> <p><b>NOTA</b>: se ancora non disponi dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p> <p><b>NOTA</b>: se non disponi ancora dell'accesso, chiedi all'amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,16 +70,16 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
 ## Personalizzare la terminologia dell’interfaccia utente
 
 1. Iniziare a lavorare su un modello di layout, come descritto in [Creare e gestire modelli di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Clic **Imposta terminologia** nell&#39;angolo superiore destro della pagina.
+1. Fai clic su **Imposta terminologia** nell&#39;angolo superiore destro della pagina.
 1. Effettua una delle seguenti operazioni:
 
-   * Per utilizzare un termine alternativo fornito da Workfront, fai clic sulla freccia giù  ![](assets/dropdown-arrow.png) accanto all’etichetta, quindi fai clic sull’etichetta alternativa desiderata nell’elenco a discesa.
+   * Per utilizzare un termine alternativo fornito da Workfront, fare clic sulla freccia giù ![](assets/dropdown-arrow.png) accanto all&#39;etichetta, quindi selezionare l&#39;etichetta alternativa desiderata nell&#39;elenco a discesa.
 
      >[!NOTE]
      >
      >Le etichette alternative fornite negli elenchi a discesa sono supportate nelle versioni di Workfront localizzate per lingue diverse dall’inglese.
 
-   * Per specificare un&#39;alternativa personalizzata per l&#39;etichetta visualizzata per un oggetto, fare clic su **Imposta nome personalizzato** a destra dell’etichetta, quindi digita il **Singolare** e **Plurale** forme del termine personalizzato. Puoi fare clic su **Reimposta** se cambi idea.
+   * Per fornire un&#39;alternativa personalizzata per l&#39;etichetta visualizzata per un oggetto, fare clic su **Imposta nome personalizzato** a destra dell&#39;etichetta, quindi digitare i moduli **Singolare** e **Plurale** del termine personalizzato. Puoi fare clic su **Reimposta** se cambi idea.
 
      È possibile personalizzare i seguenti nomi di oggetto:
 
@@ -100,7 +100,7 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
           <p>Risultato</p>
           <p>Attività</p>
          </ul></td>
-        <td><p>Per ulteriori informazioni su questi oggetti, vedi <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Comprendere gli oggetti in Adobe Workfront</a>.</p></td>
+        <td><p>Per ulteriori informazioni su questi oggetti, vedere <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Informazioni sugli oggetti in Adobe Workfront</a>.</p></td>
        </tr>
        <tr>
         <td role="rowheader"><p>Oggetti Obiettivi Workfront</p></td>
@@ -120,12 +120,12 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
           <p>Scenario</p>
           <p>Piano </p>
          </ul></td>
-        <td><p>Questi oggetti richiedono una licenza aggiuntiva. Per informazioni, consulta <a href="../../../scenario-planner/get-started-with-scenario-planning.md" class="MCXref xref">Introduzione alla Pianificazione scenario</a>.</p></td>
+        <td><p>Questi oggetti richiedono una licenza aggiuntiva. Per informazioni, vedere <a href="../../../scenario-planner/get-started-with-scenario-planning.md" class="MCXref xref">Introduzione alla Pianificazione scenario</a>.</p></td>
        </tr>
       </tbody>
      </table>
 
-1. Al termine, fai clic su **Fine**.
+1. Al termine, fare clic su **Fine**.
 
    >[!TIP]
    >
@@ -135,7 +135,7 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
 
    Oppure
 
-   Se hai finito di personalizzare, fai clic su **Salva**.
+   Se hai completato la personalizzazione, fai clic su **Salva**.
 
 1. Per visualizzare le modifiche terminologiche:
 

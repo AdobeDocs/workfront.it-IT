@@ -25,11 +25,11 @@ In Adobe Workfront puoi gestire le assegnazioni delle attività in vari modi. I 
 
 Questa sezione contiene i seguenti articoli:
 
-* [Panoramica sulla modifica delle assegnazioni delle attività](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
+* [Panoramica sulla modifica delle assegnazioni di attività](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
 * [Assegna attività](../../../manage-work/tasks/assign-tasks/assign-tasks.md)
 * [Crea assegnazioni avanzate](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
-* [Panoramica delle assegnazioni intelligenti](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
-* [Effettua assegnazioni intelligenti](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
-* [Modificare più assegnazioni utente in un elenco di attività](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
-* [Gestire le ore di allocazione di utenti e ruoli sulle attività](../../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md)
+* [Panoramica assegnazioni avanzate](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
+* [Assegnazioni intelligenti](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
+* [Modificare più assegnazioni utente in un elenco attività](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
+* [Gestire le ore di allocazione di utenti e ruoli nelle attività](../../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md)
 * [Gestire la percentuale di allocazione di utenti o ruoli sulle attività](../../../manage-work/tasks/assign-tasks/manage-allocation-percentage-on-tasks.md)

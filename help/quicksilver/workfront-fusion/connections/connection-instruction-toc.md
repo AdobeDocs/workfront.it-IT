@@ -4,8 +4,8 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connettore
 navigation-topic: connections-annd-webhooks
-title: Creare connessioni in [!DNL Adobe Workfront Fusion]
-description: Una connessione deve rispettare i requisiti impostati dall’API dell’app o del servizio web a cui si connette. Per questo motivo, le istruzioni per la configurazione di una connessione variano a seconda dell’app o del servizio web. Questo articolo consente di identificare e individuare le istruzioni per la connessione [!DNL Adobe Workfront Fusion] all’app o al servizio web scelto.
+title: Crea connessioni in [!DNL Adobe Workfront Fusion]
+description: Una connessione deve rispettare i requisiti impostati dall’API dell’app o del servizio web a cui si connette. Per questo motivo, le istruzioni per la configurazione di una connessione variano a seconda dell’app o del servizio web. Questo articolo ti aiuta a identificare e individuare le istruzioni per la connessione di [!DNL Adobe Workfront Fusion] all'app o al servizio Web scelto.
 author: Becky
 feature: Workfront Fusion
 exl-id: fb1a2af4-da58-48ba-85b5-1903d6a3ceda
@@ -16,11 +16,11 @@ ht-degree: 1%
 
 ---
 
-# Creare connessioni in [!DNL Adobe Workfront Fusion]
+# Crea connessioni in [!DNL Adobe Workfront Fusion]
 
 <!-- Audited: 3/2024-->
 
-Una connessione deve rispettare i requisiti impostati dall’API dell’app o del servizio web a cui si connette. Per questo motivo, le istruzioni per la configurazione di una connessione variano a seconda dell’app o del servizio web. Questo articolo consente di identificare e individuare le istruzioni per la connessione [!DNL Adobe Workfront Fusion] all’app o al servizio web scelto.
+Una connessione deve rispettare i requisiti impostati dall’API dell’app o del servizio web a cui si connette. Per questo motivo, le istruzioni per la configurazione di una connessione variano a seconda dell’app o del servizio web. Questo articolo consente di identificare e individuare le istruzioni per la connessione di [!DNL Adobe Workfront Fusion] all&#39;app o al servizio Web scelto.
 
 ## Requisiti di accesso
 
@@ -41,7 +41,7 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licenza**</td>  
    <td> 
-   <p>Corrente: No [!DNL Workfront Fusion] requisito di licenza.</p> 
+   <p>Corrente: nessun requisito di licenza [!DNL Workfront Fusion].</p> 
    <p>Oppure</p> 
    <p>Legacy: qualsiasi </p> 
    </td>  
@@ -49,7 +49,7 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   <tr>  
    <td role="rowheader">Prodotto</td>  
    <td> 
-   <p>Nuovo:</p> <ul><li>[!UICONTROL Select] o [!UICONTROL Prime] [!DNL Workfront] Piano: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Piano: [!DNL Workfront Fusion] è incluso.</li></ul> 
+   <p>Nuovo:</p> <ul><li>Piano [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Workfront]: l'organizzazione deve acquistare [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Il piano [!DNL Workfront Fusion] è incluso.</li></ul> 
    <p>Oppure</p> 
    <p>Corrente: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion].</p> 
    </td>  
@@ -59,17 +59,17 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Connettersi a un&#39;app o a un servizio Web che non richiede configurazione
 
-Nella maggior parte dei casi, è possibile utilizzare il modulo per creare una connessione con poche o nessuna informazione aggiuntiva. [!DNL Workfront Fusion] gestisce automaticamente l’autenticazione.
+Nella maggior parte dei casi, è possibile utilizzare il modulo per creare una connessione con poche o nessuna informazione aggiuntiva. [!DNL Workfront Fusion] gestisce automaticamente l&#39;autenticazione.
 
 Per istruzioni sulla creazione di una connessione senza considerazioni particolari, vedere [Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base](../../workfront-fusion/connections/connect-to-fusion-general.md).
 
-## Connetti a [!DNL Microsoft] app o servizio web
+## Connetti a un&#39;app o a un servizio Web [!DNL Microsoft]
 
-La maggior parte [!DNL Microsoft] app in [!DNL Workfront Fusion] consente di creare una connessione senza informazioni aggiuntive.
+La maggior parte delle app [!DNL Microsoft] in [!DNL Workfront Fusion] consente di creare una connessione senza informazioni aggiuntive.
 
 Le circostanze seguenti richiedono passaggi aggiuntivi per la creazione di una connessione:
 
@@ -77,22 +77,22 @@ Le circostanze seguenti richiedono passaggi aggiuntivi per la creazione di una c
 
   Per istruzioni, consulta [[!DNL Microsoft Dynamics 365] moduli](../../workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md).
 
-* Connessione a [!DNL Microsoft Graph API] utilizzando un [!UICONTROL HTTP] modulo
+* Connessione a [!DNL Microsoft Graph API] tramite un modulo [!UICONTROL HTTP]
 
-  Per istruzioni, consulta [Chiama il [!DNL MS Graph REST API] tramite [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Effettuare una richiesta OAuth 2.0] modulo](../../workfront-fusion/connections/call-the-ms-graph-rest-api.md).
+  Per istruzioni, consulta [Chiamare  [!DNL MS Graph REST API] tramite  [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Effettuare una richiesta OAuth 2.0] modulo](../../workfront-fusion/connections/call-the-ms-graph-rest-api.md).
 
-## Connetti a [!DNL Google] app o servizio web
+## Connetti a un&#39;app o a un servizio Web [!DNL Google]
 
-Processo per la connessione a [!DNL Google] le app possono variare in base al tipo di [!DNL Google] account utilizzato. Inoltre, [!DNL Google] le misure di protezione potrebbero richiedere una configurazione aggiuntiva durante la connessione a [!DNL Workfront Fusion].
+Il processo di connessione alle app [!DNL Google] può variare in base al tipo di account [!DNL Google] utilizzato. Inoltre, [!DNL Google] misure di sicurezza potrebbero richiedere una configurazione aggiuntiva durante la connessione a [!DNL Workfront Fusion].
 
 Per ulteriori informazioni, consulta:
 
-* [Connetti [!DNL Adobe Workfront Fusion] a [!DNL Google Services] utilizzo di un client OAuth personalizzato](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md)
+* [Connetti [!DNL Adobe Workfront Fusion] a [!DNL Google Services] tramite un client OAuth personalizzato](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md)
 * [Connetti [!DNL Adobe Workfront Fusion] a [!DNL Google Services] con misure di sicurezza aggiornate](../../workfront-fusion/connections/connect-to-google-with-new-security-measures.md)
 
 ## Altre app che richiedono una configurazione aggiuntiva
 
-Le seguenti app non seguono la configurazione di base per [!DNL Workfront Fusion] connessioni. Le istruzioni per la connessione di queste app sono disponibili nell’articolo relativo all’app.
+Le app seguenti non seguono la configurazione di base per le connessioni [!DNL Workfront Fusion]. Le istruzioni per la connessione di queste app sono disponibili nell’articolo relativo all’app.
 
 <table style="table-layout:auto">
  <col> 
@@ -144,7 +144,7 @@ Le seguenti app non seguono la configurazione di base per [!DNL Workfront Fusion
   </tr> 
   <tr> 
    <td role="rowheader"> <p>E-mail</p> </td> 
-   <td><a href="../../workfront-fusion/apps-and-their-modules/email-modules.md#connecti" class="MCXref xref">Connetti l’e-mail a [!DNL Workfront Fusion]</a> in <a href="../../workfront-fusion/apps-and-their-modules/email-modules.md" class="MCXref xref">Moduli di [!UICONTROL E-mail]</a></td>
+   <td><a href="../../workfront-fusion/apps-and-their-modules/email-modules.md#connecti" class="MCXref xref">Connetti l'e-mail a [!DNL Workfront Fusion]</a> nei moduli <a href="../../workfront-fusion/apps-and-their-modules/email-modules.md" class="MCXref xref">[!UICONTROL Email]</a></td>
 
 <tr> 
    <td role="rowheader"> <p>[!DNL Gmail]</p> </td> 
@@ -172,7 +172,7 @@ Le seguenti app non seguono la configurazione di base per [!DNL Workfront Fusion
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!DNL Qualtrics]</p> </td> 
-   <td><a href="../../workfront-fusion/apps-and-their-modules/qualtrics-modules.md#connecti" class="MCXref xref">Connessione [!DNL Qualtrics] a [!DNL Workfront Fusion]</a> in <a href="../../workfront-fusion/apps-and-their-modules/qualtrics-modules.md" class="MCXref xref">[!DNL Qualtrics] moduli</a></td> 
+   <td><a href="../../workfront-fusion/apps-and-their-modules/qualtrics-modules.md#connecti" class="MCXref xref">Connessione di [!DNL Qualtrics] a [!DNL Workfront Fusion]</a> in <a href="../../workfront-fusion/apps-and-their-modules/qualtrics-modules.md" class="MCXref xref">[!DNL Qualtrics] moduli</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!DNL ServiceNow]</p> </td> 
@@ -180,7 +180,7 @@ Le seguenti app non seguono la configurazione di base per [!DNL Workfront Fusion
   </tr> 
   <tr> 
    <td role="rowheader"> <p>SFTP</p> </td> 
-   <td><a href="../../workfront-fusion/apps-and-their-modules/sftp.md#connect" class="MCXref xref">Connetti SFTP a [!DNL Workfront Fusion]</a> in <a href="../../workfront-fusion/apps-and-their-modules/sftp.md" class="MCXref xref">Moduli [!UICONTROL SFTP]</a></td> 
+   <td><a href="../../workfront-fusion/apps-and-their-modules/sftp.md#connect" class="MCXref xref">Connetti SFTP a [!DNL Workfront Fusion]</a> nei moduli <a href="../../workfront-fusion/apps-and-their-modules/sftp.md" class="MCXref xref">[!UICONTROL SFTP]</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!DNL SharePoint]</p> </td> 

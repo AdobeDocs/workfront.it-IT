@@ -29,9 +29,9 @@ Puoi assegnare o annullare l’assegnazione dei problemi a utenti, team o mansio
 
 Questo articolo contiene informazioni generali sull&#39;impatto della modifica delle assegnazioni dei problemi. Per informazioni su come assegnare i problemi, vedi i seguenti articoli:
 
-* Per informazioni sull’assegnazione dei problemi, consulta [Assegna problemi](../../../manage-work/issues/manage-issues/assign-issues.md) e [Modificare le assegnazioni utente per più problemi in un elenco](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md).
+* Per informazioni sull&#39;assegnazione dei problemi, vedere [Assegnare i problemi](../../../manage-work/issues/manage-issues/assign-issues.md) e [Modificare le assegnazioni utente per più problemi in un elenco](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md).
 
-* Per informazioni sull’assegnazione dei problemi tramite il Bilanciatore dei carichi di lavoro, consulta [Panoramica sull’assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+* Per informazioni sull&#39;assegnazione dei problemi tramite il Bilanciatore dei carichi di lavoro, vedere [Panoramica sull&#39;assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 Alcune informazioni contenute in questo articolo si applicano anche alle assegnazioni di attività. Per ulteriori informazioni sull&#39;assegnazione delle attività e considerazioni aggiuntive, vedere [Panoramica sulla modifica delle assegnazioni delle attività](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 
@@ -47,7 +47,7 @@ Alcune informazioni contenute in questo articolo si applicano anche alle assegna
 
 È possibile rimuovere assegnazioni da un problema alla volta oppure in blocco da più problemi.
 
-Per ulteriori informazioni sulla rimozione di assegnazioni da problemi in blocco, consulta [Modificare le assegnazioni utente per più problemi in un elenco](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md).
+Per ulteriori informazioni sulla rimozione in blocco delle assegnazioni, vedere [Modificare le assegnazioni utente per più problemi in un elenco](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md).
 
 Quando rimuovi assegnazioni da problemi, considera quanto segue:
 

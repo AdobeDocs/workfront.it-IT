@@ -11,7 +11,7 @@ exl-id: 8a3bf0c4-4a20-4311-8c05-15f4ef3a1d42
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '154'
-ht-degree: 5%
+ht-degree: 3%
 
 ---
 
@@ -56,13 +56,13 @@ GET/ricerca
 
  
 
-## risposta
+## Risposta
 
 JSON contenente un elenco di metadati per file e cartelle che corrispondono alla query. Che cosa costituisce una &quot;corrispondenza&quot; è determinato dal provider del webhook. Idealmente, dovrebbe eseguire una ricerca full-text. È anche possibile eseguire una ricerca basata sul nome del file.
 
 **Esempio:**
 
-Esempio:  `https://www.acme.com/api/search?query=test-query`
+Esempio: `https://www.acme.com/api/search?query=test-query`
 
 ```
 [ 

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Copiare e condividere un collegamento a una cartella di documenti
 
-Puoi copiare un collegamento diretto per qualsiasi cartella di documenti contenuta in uno dei seguenti elementi [!DNL Workfront] oggetti: [!UICONTROL Programma], [!UICONTROL Portfolio], [!UICONTROL Progetto], [!UICONTROL Attività]oppure [!UICONTROL Problema]. Non è possibile copiare un collegamento per le cartelle contenute in [!UICONTROL Documenti] Area dal menu principale, in quanto tali cartelle sono collegate direttamente al tuo profilo utente e non possono essere condivise con altri.
+È possibile copiare un collegamento diretto per qualsiasi cartella documenti contenuta in uno dei seguenti [!DNL Workfront] oggetti: [!UICONTROL Programma], [!UICONTROL Portfolio], [!UICONTROL Progetto], [!UICONTROL Attività] o [!UICONTROL Problema]. Impossibile copiare un collegamento per le cartelle contenute nell&#39;area [!UICONTROL Documenti] dal menu principale, poiché tali cartelle sono collegate direttamente al profilo utente e non possono essere condivise con altri utenti.
 
 ## Requisiti di accesso
 
@@ -26,7 +26,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
@@ -34,19 +34,19 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>Lavoro o superiore</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Visualizza accesso ai documenti</p> <p>Nota: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Visualizza accesso ai documenti</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Copiare e condividere un collegamento a una cartella di documenti
 
-Per copiare un collegamento in una cartella di un documento:
+Per copiare un collegamento in una cartella documenti:
 
-1. Passa a [!DNL Workfront] oggetto contenente la cartella del documento.
-1. Fai clic sul pulsante **[!UICONTROL Altro]** quindi seleziona **[!UICONTROL Copia URL]**. Puoi condividere questo collegamento per fornire accesso rapido alla cartella. Per visualizzare la cartella, gli utenti devono disporre almeno dell’accesso Visualizza all’oggetto.
+1. Passare all&#39;oggetto [!DNL Workfront] che contiene la cartella documenti.
+1. Fai clic sul menu **[!UICONTROL Altro]**, quindi seleziona **[!UICONTROL Copia URL]**. Puoi condividere questo collegamento per fornire un accesso rapido alla cartella. Per visualizzare la cartella, gli utenti devono disporre almeno dell&#39;accesso di visualizzazione all&#39;oggetto.
    ![copia url cartella documenti](assets/copy-doc-folder-url.png)

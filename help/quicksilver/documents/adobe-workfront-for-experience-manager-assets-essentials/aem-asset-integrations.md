@@ -54,9 +54,9 @@ Con l’integrazione nativa di Experience Manager, puoi
 
 ## Introduzione
 
-1. [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+1. [Configura la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 1. Impostare l’integrazione:
-   1. [Configurare l’integrazione di Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
+   1. [Configura l&#39;integrazione as a Cloud Service di Experience Manager Assets](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
 Oppure
    1. [Configurare l’integrazione di Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
-1. Utilizza l’integrazione: invia risorse, crea cartelle collegate, mappa metadati e altro ancora. Consulta [Adobe Workfront per Experience Manager Assets e Assets Essentials: indice degli articoli](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md) per ulteriori informazioni.
+1. Utilizza l’integrazione: invia risorse, crea cartelle collegate, mappa metadati e altro ancora. Per ulteriori informazioni, vedere [Adobe Workfront for Experience Manager Assets and Assets Essentials: article index](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md).

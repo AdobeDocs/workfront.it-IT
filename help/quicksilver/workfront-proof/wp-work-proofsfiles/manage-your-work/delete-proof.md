@@ -18,33 +18,33 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alla funzionalità del prodotto standalone [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Copertura](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
 Gli utenti che dispongono di diritti di modifica su una bozza possono eliminarla.
 
-Per ulteriori informazioni sui diritti di modifica, vedi [Profili delle autorizzazioni di prova in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) e [Gestisci ruoli di bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)
+Per ulteriori informazioni sui diritti di modifica, vedere [Profili autorizzazioni bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) e [Gestione ruoli bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)
 
-Quando elimini una bozza (o qualsiasi altro elemento, ad esempio un file o una cartella) nel tuo account, [!DNL Workfront Proof] lo sposta nel Cestino. Gli elementi nel Cestino possono essere ripristinati facilmente.
+Quando elimini una bozza (o qualsiasi altro elemento, ad esempio un file o una cartella) nel tuo account, [!DNL Workfront Proof] la sposta nel Cestino. Gli elementi nel Cestino possono essere ripristinati facilmente.
 
-Per informazioni sul cestino, vedi [Ripristina e svuota il cestino in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+Per informazioni sul cestino, vedere [Ripristinare e svuotare il cestino in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
 >[!NOTE]
 >
->Gli elementi memorizzati nel conteggio dei rifiuti verso il limite di archiviazione. Per liberare spazio di archiviazione, svuota il Cestino.
+>Elementi memorizzati nel conteggio dei cestini verso il limite di archiviazione. Per liberare spazio di archiviazione, svuotare il cestino.
 
 ## Eliminazione di una bozza
 
-1. Da qualsiasi vista a elenco, fai clic sul pulsante **[!UICONTROL Altro]** a destra della bozza.\
+1. Da qualsiasi visualizzazione elenco, fai clic sul menu **[!UICONTROL Altro]** a destra della bozza.\
    ![](assets/more-button-small.png)
 
-1. Fai clic su **[!UICONTROL Visualizza dettagli della bozza]** nel menu a discesa visualizzato.
+1. Fare clic su **[!UICONTROL Visualizza dettagli bozza]** nel menu a discesa visualizzato.
 1. Fai clic sul pulsante **[!UICONTROL Elimina]** in alto a destra nella pagina.
-1. Nel menu a discesa visualizzato, scegli se desideri eliminare l’intera bozza o solo la versione particolare che stai visualizzando.
+1. Nel menu a discesa visualizzato, scegliere se si desidera eliminare l&#39;intera bozza o solo la versione specifica che si sta visualizzando.
 
 ## Altri modi per eliminare una bozza
 
-È inoltre possibile eliminare le bozze nelle posizioni descritte di seguito. Per una bozza con più versioni, ricorda che questi metodi eliminano l’intera catena di bozza.
+È inoltre possibile eliminare le bozze nelle posizioni descritte di seguito. Per una bozza con più versioni, tieni presente che questi metodi eliminano l’intera catena di bozze.
 
-* Nel visualizzatore di correzione, puoi fare clic su **[!UICONTROL Elimina]** nel menu strumenti a sinistra.
-* In qualsiasi vista a elenco, puoi fare clic sulla casella di controllo a sinistra della bozza (o sulla casella di controllo nell’intestazione per selezionare tutte le bozze elencate), quindi fare clic su [!UICONTROL Elimina] sopra l&#39;elenco.
-* In qualsiasi visualizzazione a elenco, fai clic sul pulsante **[!UICONTROL Altro]** a destra della bozza, quindi fai clic su **[!UICONTROL Elimina]**.
+* Nel visualizzatore di bozze, puoi fare clic su **[!UICONTROL Elimina]** nel menu Strumenti a sinistra.
+* In qualsiasi vista a elenco, puoi fare clic sulla casella di controllo a sinistra della bozza (o sulla casella di controllo nell&#39;intestazione per selezionare tutte le bozze elencate), quindi fare clic su [!UICONTROL Elimina] sopra l&#39;elenco.
+* In qualsiasi visualizzazione elenco, fai clic sul menu **[!UICONTROL Altro]** a destra della bozza, quindi fai clic su **[!UICONTROL Elimina]**.

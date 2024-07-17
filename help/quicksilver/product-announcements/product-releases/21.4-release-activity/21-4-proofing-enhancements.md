@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione 21.4. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 4 ottobre 2021.
 
-Per un elenco di tutte le modifiche disponibili con la versione 21.4, consulta [Panoramica sulla versione 21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 21.4, consulta la [Panoramica sulla versione 21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Funzionalità di verifica migliorate per revisori e richiedenti
 
@@ -31,4 +31,4 @@ Per fornire un’esperienza più integrata tra Workfront e Proof, sono stati app
 * Puoi aggiungere revisori e richiedenti alle bozze che richiedono un accesso o che devono essere firmate elettronicamente.
 * Tutti gli utenti usufruiscono inoltre della connettività migliorata tra Workfront e Proof. Ora, quando si disattiva un utente o si aggiorna l’indirizzo e-mail di un utente, i propri aggiornamenti vengono rispecchiati correttamente nella verifica se modificati in Workfront.
 
-Per ulteriori informazioni, consulta [Panoramica sui ruoli bozza](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
+Per ulteriori informazioni, consulta [Panoramica sui ruoli di bozza](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).

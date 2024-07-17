@@ -36,29 +36,29 @@ Una regola di filtro contiene 3 componenti:
  </tbody> 
 </table>
 
-**Esempio:** Se desideri limitare i risultati nel rapporto solo ai progetti di proprietà di Jane Doe, puoi creare una regola di filtro con il campo &quot;Proprietario progetto&quot;, l’operatore &quot;Uguale a&quot; e il valore &quot;Jane Doe&quot;.
+**Esempio:** Se si desidera limitare i risultati nel report alla visualizzazione dei soli progetti di proprietà di Jane Doe, è possibile creare una regola di filtro con il campo &quot;Proprietario progetto&quot;, l&#39;operatore &quot;Uguale a&quot; e il valore &quot;Jane Doe&quot;.
 
 Oppure potresti visualizzare solo i progetti a cui è assegnato un proprietario, con il campo &quot;Proprietario progetto&quot; e l’operatore &quot;Non è vuoto&quot;.
 
 ## Prerequisiti
 
-Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per ulteriori informazioni, consulta [Reporting Canvas beta: panoramica](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per ulteriori informazioni, vedere [Reporting Canvas beta: overview](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Configurare le regole di filtro per una tabella
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Generazione rapporti**.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **Main Menu** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Reporting**.
 
-1. Clic **Nuovo rapporto**.
+1. Fare clic su **Nuovo report**.
 
    Oppure
 
-   Vai a un rapporto esistente, fai clic su **Menu Altro** icona ![](assets/more-icon.png) nell’intestazione del rapporto, seleziona quindi **Modifica**.
+   Vai a un report esistente, fai clic sull&#39;icona ![](assets/more-icon.png) di **Altro menu** nell&#39;intestazione del report, quindi seleziona **Modifica**.
 
 1. Per raggruppare le righe di una nuova tabella, trascinare o fare doppio clic su un blocco di tabella nell&#39;area di lavoro.
 
    Oppure
 
-   Per raggruppare le righe di una tabella esistente, fare clic su **Modifica** icona ![](assets/edit-icon.png) nell’intestazione della tabella.
+   Per raggruppare le righe in una tabella esistente, fare clic sull&#39;icona **Modifica** ![](assets/edit-icon.png) nell&#39;intestazione della tabella.
 
 1. Nel pannello a destra, individua il campo in base al quale desideri filtrare la tabella, quindi trascinalo nella sezione Filtro.
 
@@ -71,35 +71,35 @@ Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per u
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Uguale a</strong> </td> 
+      <td role="rowheader"><strong>Uguale A</strong> </td> 
       <td> <p>Questo restituisce solo una corrispondenza esatta del valore cercato.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Diverso da</strong> </td> 
+      <td role="rowheader"><strong>Diverso Da</strong> </td> 
       <td> <p>Questo restituisce solo risultati che non corrispondono esattamente al valore cercato.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>È vuoto</strong> </td> 
+      <td role="rowheader"><strong>È Vuoto</strong> </td> 
       <td> <p>Il campo esiste per l’oggetto, ma al campo non è ancora stato assegnato un valore.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Non è vuoto</strong> </td> 
+      <td role="rowheader"><strong>Non È Vuoto</strong> </td> 
       <td> <p>Il campo per il quale stai filtrando esiste ed è stato assegnato un valore.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>È minore di</strong> </td> 
+      <td role="rowheader"><strong>È Minore Di</strong> </td> 
       <td> <p>Consente di cercare tutti i risultati con un valore inferiore a quello immesso, senza includere il valore immesso.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>È minore o uguale a</strong> </td> 
+      <td role="rowheader"><strong>È Minore O Uguale A</strong> </td> 
       <td> <p>Consente di cercare tutti i risultati con un valore minore o uguale al valore immesso.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>È maggiore di</strong> </td> 
+      <td role="rowheader"><strong>È Maggiore Di</strong> </td> 
       <td> <p>Questa opzione consente di cercare tutti i risultati con un valore maggiore di quello immesso, senza includere il valore immesso.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>È maggiore di o uguale a</strong> </td> 
+      <td role="rowheader"><strong>È Maggiore O Uguale A</strong> </td> 
       <td> <p>Consente di cercare tutti i risultati con valori maggiori o uguali al valore immesso.</p> </td> 
      </tr> 
      <tr> 
@@ -121,13 +121,13 @@ Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per u
 
    >[!NOTE]
    >
-   >I valori immessi qui sono **non** distinzione tra maiuscole e minuscole.
+   >I valori immessi sono **non** con distinzione tra maiuscole e minuscole.
 
 1. (Facoltativo) Per aggiungere un’altra regola di filtro al set di regole, effettua le seguenti operazioni:
 
-   1. Trascina un altro campo nel **Rilascia per aggiungere un&#39;altra regola** nella sezione Filtri sotto l’altra regola.
+   1. Trascina un altro campo nell&#39;area **Rilascia per aggiungere un&#39;altra regola** nella sezione Filtri sotto l&#39;altra regola.
    1. Ripetere i passaggi 4-6.
-   1. Nell’elenco a discesa operatore a sinistra della nuova regola, seleziona **E** o **OPPURE**.
+   1. Nell&#39;elenco a discesa operatore a sinistra della nuova regola, selezionare **AND** o **OR**.
 
       <table style="table-layout:auto"> 
        <col> 
@@ -141,7 +141,7 @@ Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per u
         </tr> 
         <tr> 
          <td role="rowheader"> <p>OPPURE</p> </td> 
-         <td> <p>Quando si uniscono regole di filtro o set di regole con l'operatore OR si indica che si desidera <strong>almeno</strong> una regola, o set di regole, a tale livello da soddisfare.</p> </td> 
+         <td> <p>Quando si uniscono regole di filtro o set di regole con l'operatore OR, si indica che si desidera <strong>almeno</strong> una regola, o set di regole, a tale livello da soddisfare.</p> </td> 
         </tr> 
        </tbody> 
       </table>
@@ -152,6 +152,6 @@ Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per u
 
 1. (Condizionale) Per aggiungere un set di regole di filtro aggiuntivo, effettua le seguenti operazioni:
 
-   1. Trascina il campo da aggiungere al **Aggiungere un set di regole** area sotto gli altri set di regole di filtro.
+   1. Trascina il campo da aggiungere nell&#39;area **Aggiungi un set di regole** sotto gli altri set di regole del filtro.
    1. Ripetere i passaggi 4-7.
-   1. Nell’elenco a discesa operatore a sinistra del nuovo set di regole, seleziona **E** o **OPPURE**. Questi operatori funzionano come quelli elencati nel passaggio 7, ma si applicano a interi set di regole anziché a singole regole all’interno di un set.****
+   1. Nell&#39;elenco a discesa operatore a sinistra del nuovo set di regole selezionare **AND** o **OR**. Questi operatori funzionano come quelli elencati nel passaggio 7, ma si applicano a interi set di regole anziché a singole regole all’interno di un set.****

@@ -24,7 +24,7 @@ Ultimo orario disponibile (LAT, Latest Available Time) è un tipo di vincolo att
 
 Questo vincolo differisce dal Più presto possibile in quanto non forzerà la riprogrammazione di predecessori o successori. Ha effetto solo sulla pianificazione dell&#39;attività a cui è associata, impostandola sull&#39;ultimo tempo disponibile in base alla relazione con altre attività.
 
-Per informazioni sull&#39;aggiornamento del vincolo attività per un&#39;attività, vedere [Aggiornare il vincolo attività di un&#39;attività](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Per informazioni su come aggiornare il vincolo attività in un&#39;attività, vedere [Aggiornare il vincolo attività di un&#39;attività](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -54,13 +54,13 @@ Il vincolo Ultimo tempo disponibile è diverso dal vincolo Il più tardi possibi
 
 In questa situazione:
 
-* **Ultimo Orario Disponibile:** L&#39;utilizzo del vincolo Ultimo tempo disponibile sull&#39;attività predecessore dà priorità al vincolo flessibile del successore.
+* **Ultimo tempo disponibile:** L&#39;utilizzo del vincolo Ultimo tempo disponibile nell&#39;attività predecessore dà priorità al vincolo flessibile del successore.
 
-  **Esempio:** Ad esempio, l&#39;attività A è un predecessore dell&#39;attività B. L&#39;attività A ha il vincolo Tempo disponibile più recente e l&#39;attività B ha il vincolo Il più presto possibile. In questa situazione, l&#39;Attività A è programmata il più vicino possibile all&#39;inizio del progetto.
+  **Esempio:** Ad esempio, l&#39;attività A è un predecessore dell&#39;attività B. L&#39;attività A ha l&#39;ultimo vincolo di tempo disponibile e l&#39;attività B ha il vincolo Il più presto possibile. In questa situazione, l&#39;Attività A è programmata il più vicino possibile all&#39;inizio del progetto.
 
   ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
 
-* **Più Tardi Possibile:** In questo scenario, l&#39;utilizzo del vincolo Il più tardi possibile sull&#39;attività predecessore conferisce la priorità all&#39;attività predecessore.
+* **Il più tardi possibile:** In questo scenario, l&#39;utilizzo del vincolo Il più tardi possibile sull&#39;attività predecessore dà la priorità all&#39;attività predecessore.
 
   **Esempio:** Ad esempio, l&#39;attività A è un predecessore dell&#39;attività B. L&#39;attività A ha il vincolo Il più tardi possibile e l&#39;attività B ha il vincolo Il più presto possibile. In questa situazione, l&#39;Attività A è programmata il più vicino possibile alla fine del progetto.
 

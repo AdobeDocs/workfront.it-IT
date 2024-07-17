@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Puoi utilizzare una scorecard per misurare il livello di allineamento di un progetto ai criteri precedentemente stabiliti per un portfolio. Una scorecard spesso riflette la missione, i valori e gli obiettivi strategici di un’organizzazione.
 
-Per ulteriori informazioni sulle scorecard e su come crearne una, consulta [Creare una scorecard](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+Per ulteriori informazioni sulle scorecard e su come crearne una, vedere [Creare una scorecard](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
 ## Requisiti di accesso
 
@@ -61,35 +61,35 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Scorecard progetto {#project-scorecards}
 
-* [Panoramica delle scorecard](#scorecards-overview)
+* [Panoramica scorecard](#scorecards-overview)
 * [Applicare una scorecard a un progetto](#apply-a-scorecard-to-a-project)
 
 ### Panoramica delle scorecard {#scorecards-overview}
 
 In genere, un project manager completa le informazioni della scorecard per produrre un valore di allineamento compreso tra 0 e 100 per il progetto. Il valore prodotto viene successivamente utilizzato quando il gestore portfolio esamina i progetti nell’ottimizzatore portfolio per confrontarli.
 
-Per ulteriori informazioni sull’ottimizzazione del portafoglio, consulta [Panoramica di Portfoli Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+Per ulteriori informazioni sull&#39;ottimizzazione del portfolio, vedere [Panoramica di Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 ### Applicare una scorecard a un progetto
 
 In qualità di utente con una licenza Standard o Plan e le autorizzazioni Manage (Gestisci) per un progetto, puoi allegare una scorecard al progetto.
 
-Per ulteriori informazioni sulle autorizzazioni per i progetti, consulta [Condividere un progetto in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+Per ulteriori informazioni sulle autorizzazioni del progetto, vedere [Condividere un progetto in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
 È possibile aggiungere scorecard a un progetto come parte della creazione del business case per il progetto.
 
-Per ulteriori informazioni sulla creazione di un caso di business, consulta [Creare un Business Case per un progetto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Per ulteriori informazioni sulla creazione di un business case, vedere [Creare un business case per un progetto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-Prima di poter accedere alle scorecard dal caso di business, l’amministratore di Adobe Workfront o l’amministratore gruppo deve abilitare la sezione Scorecard nell’area Business Case dei progetti. Per informazioni sulla configurazione delle preferenze del progetto e sulle aree di abilitazione del caso di business, consulta [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Prima di poter accedere alle scorecard dal caso di business, l’amministratore di Adobe Workfront o l’amministratore gruppo deve abilitare la sezione Scorecard nell’area Business Case dei progetti. Per informazioni sulla configurazione delle preferenze del progetto e sull&#39;abilitazione delle aree del caso di business, consulta [Configurare le preferenze del progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 Per applicare una scorecard a un progetto:
 
 1. Passare a un progetto a cui si desidera applicare una scorecard.
-1. Clic **Business Case** nel pannello a sinistra.
-1. Trova il **Scorecard** sezione del Business Case.\
-   È necessario creare una scorecard prima di **Scorecard** Questa sezione viene visualizzata sul Business Case.
+1. Fai clic su **Business Case** nel pannello a sinistra.
+1. Trova la sezione **Scorecard** del caso di business.\
+   È necessario creare una scorecard prima che venga visualizzata la sezione **Scorecard** sul Business Case.
 
-   Per informazioni sulla creazione di una scorecard, consulta [Creare una scorecard](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+   Per informazioni sulla creazione di una scorecard, vedere [Creare una scorecard](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
 1. Seleziona una scorecard dal menu a discesa.
 
@@ -99,9 +99,9 @@ Per applicare una scorecard a un progetto:
 
    Workfront applica un punteggio a ciascuna domanda e calcola un punteggio di progetto complessivo in base al punteggio individuale di ciascuna domanda.
 
-   Per ulteriori informazioni sulla generazione del punteggio di allineamento complessivo del progetto, consulta [Generare un punteggio di allineamento per un progetto](#generate-an-alignment-score-for-a-project).
+   Per ulteriori informazioni sulla generazione del punteggio di allineamento complessivo del progetto, vedere [Generare un punteggio di allineamento per un progetto](#generate-an-alignment-score-for-a-project).
 
-1. Clic **Salva** per salvare la scorecard e valutare il progetto.
+1. Fai clic su **Salva** per salvare la scorecard e valutare il progetto.
 
    La scheda di valutazione è ora associata al progetto e il progetto ha un punteggio.
 
@@ -135,7 +135,7 @@ Una volta completata la scorecard, Workfront calcola il punteggio di allineament
 
 `Project Alignment Score = The sum of the question points from the scorecard met at a given time / The sum of the possible points on the scorecard`
 
-Per ulteriori informazioni, consulta [Creare una scorecard](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+Per ulteriori informazioni, vedere [Creare una scorecard](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
 ### Generare un punteggio di allineamento per un portfolio {#generate-an-alignment-score-for-a-portfolio}
 
@@ -153,18 +153,18 @@ Una volta completate le scorecard dei progetti, Workfront utilizza questi valori
 
 Puoi visualizzare il punteggio di allineamento di un progetto a livello di progetto o in Ottimizzatore Portfolio.
 
-* [Visualizzare il punteggio di allineamento di un progetto](#view-the-alignment-score-on-a-project)
+* [Visualizzazione del punteggio di allineamento in un progetto](#view-the-alignment-score-on-a-project)
 * [Visualizzare i punteggi di allineamento del progetto e del portfolio in Ottimizzatore Portfolio](#view-the-alignment-scores-of-the-project-and-of-the-portfolio-in-the-portfolio-optimizer)
 
 ### Visualizzare il punteggio di allineamento di un progetto
 
-Se si dispone dei diritti di Contribuisci al progetto, è possibile visualizzare il punteggio di allineamento di un progetto a livello di progetto.
+Se disponi dei diritti di Contribute per un progetto, puoi visualizzare il punteggio di allineamento a livello di progetto.
 
 1. Vai al progetto di cui desideri visualizzare il Punteggio di allineamento.
-1. Clic **Business Case** nel pannello a sinistra.
-1. Vai a **Riepilogo del Business Case** sul lato destro dello schermo.
+1. Fai clic su **Business Case** nel pannello a sinistra.
+1. Vai a **Riepilogo del caso aziendale** sul lato destro dello schermo.
 
-   Il punteggio di allineamento si trova nel Riepilogo caso di business, nel **Allineato** valore.
+   Il punteggio di allineamento si trova nel Riepilogo caso di business, nel valore **Allineato**.
 
    ![Punteggio di allineamento in un progetto](assets/alignment-score-on-a-project.png)
 
@@ -172,23 +172,23 @@ Se si dispone dei diritti di Contribuisci al progetto, è possibile visualizzare
 
 Puoi visualizzare il punteggio di allineamento di un progetto o di un portfolio in Ottimizzatore Portfolio, se disponi dell’accesso Gestisci al portfolio.
 
-Per ulteriori informazioni sulle informazioni visualizzate in Ottimizzatore Portfolio, vedi [Panoramica di Portfoli Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+Per ulteriori informazioni sulle informazioni visualizzate in Portfolio Optimizer, vedere [Panoramica di Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 * [Individua il punteggio di allineamento del progetto in Ottimizzatore Portfolio](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer)
 * [Individua il punteggio di allineamento del portfolio in Ottimizzatore Portfolio](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
 
-  ![Punteggio di allineamento in Portfoli Optimizer](assets/alignment-score-in-portfolio-optimizer.png)
+  ![Punteggio di allineamento in Ottimizzatore Portfolio](assets/alignment-score-in-portfolio-optimizer.png)
 
 #### Individua il punteggio di allineamento del progetto in Ottimizzatore Portfolio {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
 
 {{step1-to-portfolios}}
 
 1. Fai clic sul nome di un portfolio.
-1. Clic **Ottimizzazione Portfolio** nel pannello a sinistra.
+1. Fai clic su **Ottimizzazione Portfoli** nel pannello a sinistra.
 
    Viene visualizzato Ottimizzatore Portfolio.
 
-   Il punteggio di allineamento di un progetto viene visualizzato come percentuale nel **Allineamento** dell&#39;Ottimizzatore Portfolio.
+   Il punteggio di allineamento di un progetto viene visualizzato come percentuale nella colonna **Allineamento** dell&#39;Ottimizzatore Portfolio.
 
    Questo è il punteggio di allineamento del progetto in base alla scheda di valutazione associata al progetto.
 
@@ -197,12 +197,12 @@ Per ulteriori informazioni sulle informazioni visualizzate in Ottimizzatore Port
 {{step1-to-portfolios}}
 
 1. Fai clic sul nome di un portfolio.
-1. Clic **Ottimizzazione Portfolio** nel pannello a sinistra.
-1. Nella parte superiore di Ottimizzatore Portfolio, individua **Allineato** valore, nonché **Allineamento** che indicano il punteggio di allineamento del portfolio.
+1. Fai clic su **Ottimizzazione Portfoli** nel pannello a sinistra.
+1. Nella parte superiore di Ottimizzatore Portfolio trova il valore **Allineato** e il contatore **Allineamento**, che indicano il punteggio di allineamento del portfolio.
 
    Punteggio di allineamento del portfolio.
 
-   Per ulteriori informazioni sulla modalità di generazione del punteggio di allineamento di un portfolio, consulta [Generare un punteggio di allineamento per un portfolio](#generate-an-alignment-score-for-a-portfolio).
+   Per ulteriori informazioni sulla generazione del punteggio di allineamento di un portfolio, vedere [Generare un punteggio di allineamento per un portfolio](#generate-an-alignment-score-for-a-portfolio).
 
 ## Panoramica del punteggio dell’ottimizzatore del Portfolio
 
@@ -210,10 +210,10 @@ Esiste una differenza tra il punteggio di allineamento e il punteggio dell’ott
 
 Il punteggio di allineamento di un progetto viene calcolato in base ai punti ottenuti dopo il completamento della scorecard. Questo punteggio viene quindi utilizzato per determinare il punteggio di allineamento del portfolio. Il punteggio di allineamento viene visualizzato come percentuale.
 
-Il punteggio di allineamento di un progetto viene visualizzato nel **Allineamento** dell&#39;Ottimizzatore Portfolio.
+Il punteggio di allineamento di un progetto viene visualizzato nella colonna **Allineamento** dell&#39;Ottimizzatore Portfolio.
 
-Il punteggio dell’ottimizzatore portfolio è una classificazione calcolata automaticamente nell’ottimizzatore Portfolio in base alla quale è possibile assegnare la priorità ai progetti. Il punteggio dell’ottimizzatore del portfolio viene visualizzato come icona di indicatore accompagnata da un numero e viene visualizzato nel **Punteggio** dell&#39;Ottimizzatore Portfolio. Un punteggio di Portfoli Optimizer viene generato solo quando tutte le sezioni del Business Case sono completate, ad eccezione degli Obiettivi.
+Il punteggio dell’ottimizzatore portfolio è una classificazione calcolata automaticamente nell’ottimizzatore Portfolio in base alla quale è possibile assegnare la priorità ai progetti. Il punteggio dell&#39;ottimizzatore portfolio viene visualizzato come icona indicatore accompagnata da un numero e viene visualizzato nella colonna **Punteggio** dell&#39;ottimizzatore Portfolio. Un punteggio di Portfolio Optimizer viene generato solo quando tutte le sezioni del Business Case sono completate, ad eccezione degli Obiettivi.
 
-Per ulteriori informazioni sulla creazione di un caso di business per un progetto, consulta [Creare un Business Case per un progetto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Per ulteriori informazioni sulla creazione di un Business Case per un progetto, vedere [Creare un Business Case per un progetto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-Per ulteriori informazioni sul calcolo del punteggio dell’ottimizzatore portfolio di un progetto, consulta [Panoramica del punteggio dell’ottimizzatore del Portfolio](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).
+Per ulteriori informazioni sul calcolo del punteggio dell&#39;ottimizzatore portfolio di un progetto, vedere [Panoramica del punteggio dell&#39;ottimizzatore Portfolio](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).

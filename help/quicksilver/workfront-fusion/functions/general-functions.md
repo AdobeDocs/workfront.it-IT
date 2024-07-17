@@ -36,25 +36,25 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   <tr> 
    <td role="rowheader">Licenza [!UICONTROL Adobe Workfront Fusion]**</td> 
    <td>
-   <p>Fabbisogno di licenza corrente: No [!DNL Workfront Fusion] requisito di licenza.</p>
+   <p>Requisiti di licenza correnti: nessun requisito di licenza [!DNL Workfront Fusion].</p>
    <p>Oppure</p>
-   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro] </p>
+   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione del lavoro] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
    <td>
-   <p>Fabbisogno prodotto corrente: se si dispone di [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Pianifica, la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo. [!DNL Workfront Fusion] è incluso in [!UICONTROL Ultimate] [!DNL Workfront] piano.</p>
+   <p>Fabbisogno prodotto corrente: se si dispone del piano [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], l'organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo. [!DNL Workfront Fusion] è incluso nel piano [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>Oppure</p>
-   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</p>
+   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore [!DNL Workfront].
 
-Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## [!UICONTROL get (oggetto o array; percorso)]
 
@@ -71,7 +71,7 @@ Restituisce il percorso del valore di un oggetto o di una matrice. Per accedere 
 
 ## [!UICONTROL if (espressione; valore1; valore2)]
 
-Restituisce il valore `value1` se l’espressione viene valutata come true; in caso contrario restituisce il `value2`.
+Restituisce `value1` se l&#39;espressione viene valutata come true, altrimenti restituisce `value2`.
 
 >[!INFO]
 >
@@ -87,7 +87,7 @@ Restituisce il valore `value1` se l’espressione viene valutata come true; in c
 
 ## [!UICONTROL ifempty (valore1; valore2)]
 
-Restituisce il valore `value1` se questo valore non è vuoto, altrimenti restituisce il `value2`.
+Restituisce `value1` se questo valore non è vuoto, altrimenti restituisce `value2`.
 
 >[!INFO]
 >
@@ -105,7 +105,7 @@ Restituisce il valore `value1` se questo valore non è vuoto, altrimenti restitu
 >
 >   Restituisce B
 
-## [!UICONTROL switch (espressione; valore1; risultato1; [valore2; risultato2; ...]; [else])]
+## [!UICONTROL opzione (espressione; valore1; risultato1; [valore2; risultato2; ...]; [altro])]
 
 Valuta un valore (denominato espressione) rispetto a un elenco di valori; restituisce il risultato corrispondente al primo valore corrispondente.
 
@@ -137,7 +137,7 @@ Omette le chiavi specificate dell&#39;oggetto e restituisce il resto.
 >
 >Restituisce una raccolta delle informazioni dell&#39;utente, esclusa la password.
 
-## [!UICONTROL pick(object; key1; [key2; ...])]
+## [!UICONTROL scegli(oggetto; chiave1; [chiave2; ...])]
 
 Seleziona dall’oggetto solo le chiavi specificate.
 
@@ -145,6 +145,6 @@ Seleziona dall’oggetto solo le chiavi specificate.
 >
 >**Esempio:**
 >
->`pick(` Utente `;` password `;` email `)`
+>`pick(` Utente `;` password `;` e-mail `)`
 >
 >Restituisce una raccolta contenente solo la password e l&#39;indirizzo e-mail dell&#39;utente.

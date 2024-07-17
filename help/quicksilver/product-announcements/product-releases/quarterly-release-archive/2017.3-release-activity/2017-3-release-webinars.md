@@ -20,12 +20,12 @@ Questi webinar si sono concentrati sulle funzionalità incluse nella versione 20
 
 La versione 2017.3 è attualmente disponibile per il test in Anteprima; la versione 2017.3 sarà disponibile nell’ambiente di produzione a novembre 2017.
 
-Per informazioni più dettagliate sulle funzionalità trattate nei webinar, vedi [Panoramica sull’attività della versione 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md) pagina.
+Per visualizzare informazioni più dettagliate sulle funzionalità trattate nei webinar, consulta la pagina di panoramica dell&#39;attività sulla versione [2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
 
 Sono disponibili le seguenti registrazioni di webinar:
 
-* [Webinar sulla versione 2017.3](#2017-3-release-webinar)
-* [Workfront 2017.3 - Versioni di anteprima di settembre](#workfront-2017-3-september-preview-releases)
+* Webinar sulla versione di [2017.3](#2017-3-release-webinar)
+* [Versioni di anteprima di settembre di Workfront 2017.3](#workfront-2017-3-september-preview-releases)
 * [Webinar Workfront 2017.3 Beta 1 e Beta 2](#workfront-2017-3-beta-1-and-beta-2-webinar)
 * [Webinar sulla versione di agosto per dispositivi mobili](#august-mobile-release-webinar)
 
@@ -51,6 +51,6 @@ Il webinar sulle versioni di anteprima di settembre 2017.3 di Workfront è stato
 
 ## Webinar Workfront 2017.3 Beta 1 e Beta 2 {#workfront-2017-3-beta-1-and-beta-2-webinar}
 
-Il webinar sulla versione 2017.3 Beta 1 e Beta 2 è stato presentato dal team di preparazione alla versione di Workfront il 23 agosto 2017. Questo webinar si concentra sulla nuova funzionalità che è stata resa disponibile in Anteprima durante il mese di agosto.
+Il webinar sulla versione 2017.3 di Beta 1 e Beta 2 è stato presentato dal team di preparazione alla versione di Workfront il 23 agosto 2017. Questo webinar si concentra sulla nuova funzionalità che è stata resa disponibile in Anteprima durante il mese di agosto.
 
 ## Webinar sulla versione di agosto per dispositivi mobili {#august-mobile-release-webinar}

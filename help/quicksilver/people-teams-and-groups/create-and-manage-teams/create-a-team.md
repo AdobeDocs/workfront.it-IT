@@ -2,7 +2,7 @@
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: Creare un team
-description: Per impostazione predefinita, quando crei un team, diventi il proprietario del team.
+description: Per impostazione predefinita, quando crei un team diventi il proprietario del team.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 4bef734c-de86-4c58-a0e8-fbb3c5785f4c
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 # Creare un team
 
-Per impostazione predefinita, quando crei un team, diventi il proprietario del team.
+Per impostazione predefinita, quando crei un team diventi il proprietario del team.
 
-Quando crei un rapporto per i team e includi i [!UICONTROL Nome proprietario] nel rapporto. (Per ulteriori informazioni sulla creazione di un rapporto, consulta [Creare un rapporto personalizzato](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).)
+Puoi visualizzare i Proprietari del team per tutti i team quando crei un rapporto per i team e includi il campo [!UICONTROL Nome proprietario] nel rapporto. Per ulteriori informazioni sulla creazione di un report, vedere [Creare un report personalizzato](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Per informazioni su come [!DNL Adobe Workfront] l’amministratore può creare un team da [!UICONTROL Configurazione] area, vedere [Crea un team da [!UICONTROL Configurazione] area](../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md).
+Per informazioni su come un amministratore di [!DNL Adobe Workfront] può creare un team dall&#39;area [!UICONTROL Configurazione], vedere [Creazione di un team dall&#39;area [!UICONTROL Configurazione]](../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md).
 
 ## Requisiti di accesso
 
@@ -42,43 +42,43 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-&#42;Per sapere quale piano o tipo di licenza hai, contatta il tuo [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano o il tipo di licenza disponibile, contattare l&#39;amministratore [!DNL Workfront].
 
 ## Creare un team
 
-1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront, quindi fai clic su **[!UICONTROL Team]**.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **[!UICONTROL Team]**.
 
-1. Fai clic sul pulsante **[!UICONTROL Cambia team]** icona ![Icona Cambia team](assets/switch-team-icon.png), quindi fai clic su **[!UICONTROL Crea nuovo team]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Switch Teams]** ![Switch team icon](assets/switch-team-icon.png), quindi fai clic su **[!UICONTROL Create New Team]**.
 
-   ![Selezionare Crea nuovo team.](assets/create-new-team-350x198.png)
+   ![Seleziona Crea nuovo team.](assets/create-new-team-350x198.png)
 
-1. In **[!UICONTROL Nuovo team]** nella casella visualizzata, immettere le informazioni seguenti:
+1. Nella casella **[!UICONTROL Nuovo team]** visualizzata immettere le informazioni seguenti:
 
    * **[!UICONTROL Nome team]:** Digitare un nome per il nuovo team.
-   * **[!UICONTROL Gruppo]**: Se si desidera assegnare il team a un gruppo associato, iniziare a digitare il nome del gruppo, quindi selezionare il nome quando viene visualizzato.
+   * **[!UICONTROL Gruppo]**: se si desidera assegnare il team a un gruppo associato, iniziare a digitare il nome del gruppo, quindi selezionarlo quando viene visualizzato.
 
-      Per associare il gruppo destro al team, posiziona il puntatore del mouse su di esso e fai clic sull’icona delle informazioni ![](assets/info-icon.png) viene visualizzato accanto a esso. Viene visualizzata una descrizione comandi che elenca le informazioni sul gruppo, ad esempio la gerarchia dei gruppi al di sopra di esso e i relativi amministratori.
+     Per assicurarsi di associare il gruppo corretto al team, passare il puntatore del mouse su di esso e fare clic sull&#39;icona delle informazioni ![](assets/info-icon.png) visualizzata accanto al gruppo. In questo modo viene visualizzata una descrizione del gruppo contenente informazioni sul gruppo stesso, ad esempio la gerarchia dei gruppi al di sopra del gruppo e i relativi amministratori.
 
-      >[!NOTE]
-      >
-      >Quando un team viene assegnato a un gruppo o a un sottogruppo, gli amministratori del gruppo o sottogruppo possono gestire il team senza esserne membri. Gli amministratori del gruppo possono accedere all&#39;area Team dal menu principale e fare clic sulla freccia Cambia team ![Icona Cambia team](assets/switch-team-icon.png) per elencare tutti i team assegnati ai gruppi gestiti.
+     >[!NOTE]
+     >
+     >Quando un team viene assegnato a un gruppo o a un sottogruppo, qualsiasi amministratore di gruppo di tale gruppo o sottogruppo può gestire il team senza esserne membro. Gli amministratori di gruppi possono passare all&#39;area Team dal menu principale e fare clic sulla freccia Switch Teams ![Switch team icon](assets/switch-team-icon.png) per elencare tutti i team assegnati ai gruppi che gestiscono.
 
-   * **[!UICONTROL Questo è un team Agile]:** Seleziona questa opzione se desideri configurare il nuovo team in modo che diventi un team agile.
+   * **[!UICONTROL Questo è un Team Agile]:** Seleziona questa opzione se vuoi configurare questo nuovo Team come Team Agile.
 
-      Per ulteriori informazioni sui team agili, vedi [Creare un team agile](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+     Per ulteriori informazioni sui team Agile, vedi [Creare un team Agile](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
-   * **[!UICONTROL Membri del team]:** Inizia a digitare il nome di un utente da aggiungere al team, quindi seleziona il nome quando viene visualizzato nell’elenco a discesa.
+   * **[!UICONTROL Membri team]:** Inizia a digitare il nome di un utente da aggiungere al team, quindi selezionalo quando viene visualizzato nell&#39;elenco a discesa.
 
-      Ripeti questo processo per aggiungere più utenti al team.
+     Ripetere questo processo per aggiungere più utenti al team.
 
-      Non esiste alcun limite per il numero di utenti che puoi aggiungere a un team. Tuttavia, consigliamo di non avere un numero eccessivamente elevato di utenti in un unico team, in quanto la gestione del lavoro potrebbe diventare troppo complessa per questi team.
+     Non esiste alcun limite al numero di utenti che è possibile aggiungere a un team. Tuttavia, si consiglia di non avere un numero eccessivamente elevato di utenti in un unico team, poiché la gestione del lavoro potrebbe diventare troppo complessa per questi team.
 
-   * **[!UICONTROL Descrizione]:** Digita una descrizione per il team.
+   * **[!UICONTROL Descrizione]:** Digitare una descrizione per il team.
 
-      La descrizione viene visualizzata in alto a destra nell’area Team quando il team è selezionato.
+     La descrizione viene visualizzata in alto a destra nell’area Team quando il team è selezionato.
 
-      >[!NOTE]
-      >
-      >Se la descrizione è lunga, puoi fare clic su di essa per visualizzarne la descrizione completa in un pop-up. Se hai accesso per modificare le impostazioni del team, puoi anche modificare la descrizione direttamente nella finestra a comparsa.
+     >[!NOTE]
+     >
+     >Se la descrizione è lunga, è possibile fare clic su di essa per visualizzare la descrizione completa in un pop-up. Se si dispone dell&#39;accesso per modificare le impostazioni del team, è anche possibile modificare la descrizione direttamente nel pop-up.
 
 1. Fai clic su **[!UICONTROL Crea]**.

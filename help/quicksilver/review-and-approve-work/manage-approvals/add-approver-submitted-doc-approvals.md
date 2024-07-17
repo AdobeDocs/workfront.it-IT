@@ -39,31 +39,31 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Accesso di visualizzazione o accesso successivo all’oggetto associato alla richiesta di accesso o approvazione </p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Accesso di visualizzazione o accesso successivo all’oggetto associato alla richiesta di accesso o approvazione </p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Aggiungi ulteriori approvatori alle approvazioni documenti inviate
 
-1. Fai clic su **Home** icona ![](assets/home-icon-30x29.png) nell’angolo in alto a sinistra di Adobe Workfront.
+1. Fai clic sull&#39;icona **Home** ![](assets/home-icon-30x29.png) nell&#39;angolo superiore sinistro di Adobe Workfront.
 
    >[!NOTE]
    >
    >L’amministratore di Workfront potrebbe apportare le seguenti modifiche all’icona Home nel tuo ambiente:
    >
    >* Sostituiscilo con un’immagine personalizzata per illustrare la tua organizzazione. In questo caso, l’icona avrà un aspetto diverso da quello mostrato in questo articolo.
-   >* Sostituisci la pagina collegata con un’altra pagina. In questo caso, fai clic su **Menu principale** ![](assets/main-menu-icon.png) nell’angolo superiore destro della pagina, quindi fai clic su **Home**.
+   >* Sostituisci la pagina collegata con un’altra pagina. In questo caso, fai clic sul **menu principale** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro della pagina, quindi fai clic su **Home**.
 
-1. In **Elenco lavori** Area, vai a **Approvazioni che ho inviato** raggruppamento.
+1. Nell&#39;area **Elenco lavori**, vai al raggruppamento **Approvazioni inviate**.
 
-1. Seleziona un **Documento** approvazione.
+1. Seleziona un&#39;approvazione **Documento**.
 
-1. Clic **Gestisci approvazioni** nell’angolo superiore destro del pannello di destra.
-1. In **Chiedi a qualcuno di approvare questo documento** digitare il nome dell&#39;approvatore.
+1. Fai clic su **Gestisci approvazioni** nell&#39;angolo superiore destro del pannello di destra.
+1. Nella casella **Chiedi a qualcuno di approvare il documento**, digita il nome dell&#39;approvatore.
 
-   Se l’amministratore di Adobe Workfront ha abilitato la funzionalità di collaborazione con persone che non utilizzano Workfront, come descritto in [Configurare le preferenze di sicurezza del sistema](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), puoi digitare i loro indirizzi e-mail per includerli.
+   Se l&#39;amministratore di Adobe Workfront ha abilitato la funzionalità di collaborazione con persone che non utilizzano Workfront, come descritto in [Configurare le preferenze di sicurezza del sistema](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), è possibile digitare i propri indirizzi di posta elettronica per includerli.
 
 1. Fai clic su **Salva**.

@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Questa pagina descrive tutti i miglioramenti alla gestione dei documenti apportati con la versione del secondo trimestre 2024 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione con la versione del secondo trimestre 2024.
 
-Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rilascio del secondo trimestre 2024, consulta [Panoramica sulla versione del secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del secondo trimestre 2024, consulta [Panoramica sulla versione del secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
 >[!IMPORTANT]
 >
@@ -30,7 +30,7 @@ Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rila
 
 È ora possibile specificare una scadenza per gli utenti o i team assegnati alla revisione o all&#39;approvazione di un documento. I revisori e gli approvatori ricevono le notifiche e-mail 72 ore e 24 ore prima della scadenza specificata. La scadenza si riflette anche nel widget Approvazioni nella nuova area Home.
 
-Per ulteriori informazioni, consulta [Creare una richiesta di revisione o approvazione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+Per ulteriori informazioni, vedere [Creare una richiesta di revisione o approvazione del documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 ## Creare e utilizzare modelli di approvazione
 
@@ -45,7 +45,7 @@ Per ulteriori informazioni, consulta [Creare una richiesta di revisione o approv
 
 È possibile applicare i modelli di approvazione dall&#39;area Documenti durante la creazione di un processo di approvazione per un documento.
 
-Per ulteriori informazioni, consulta [Creare un modello di approvazione](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+Per ulteriori informazioni, vedere [Creare un modello di approvazione](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 ## Visualizza informazioni su tutte le approvazioni in un’unica posizione
 
@@ -62,4 +62,4 @@ Per aiutarti a gestire e analizzare rapidamente le richieste di approvazione, ab
 
 Per una visualizzazione più dettagliata, è possibile espandere le categorie elencate in precedenza. Il widget Tutte le approvazioni è disponibile nelle nuove dashboard Home e Canvas.
 
-Per ulteriori informazioni, consulta [Introduzione alla nuova Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Per ulteriori informazioni, vedere [Introduzione alla nuova Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).

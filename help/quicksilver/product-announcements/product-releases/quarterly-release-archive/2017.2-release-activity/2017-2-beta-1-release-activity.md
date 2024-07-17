@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Attività sulla versione 2017.2 Beta 1
-description: Questa pagina descrive tutte le modifiche disponibili nell’ambiente di anteprima con la versione 2017.2 Beta 1. La funzionalità in questa pagina è stata resa disponibile nell’ambiente di anteprima il 10 maggio 2017.
+title: Attività sulla versione 2017.2 di Beta 1
+description: Questa pagina descrive tutte le modifiche disponibili nell’ambiente di anteprima con la versione 2017.2 di Beta 1. La funzionalità in questa pagina è stata resa disponibile nell’ambiente di anteprima il 10 maggio 2017.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 ---
 
-# Attività sulla versione 2017.2 Beta 1
+# Attività sulla versione 2017.2 di Beta 1
 
-Questa pagina descrive tutte le modifiche disponibili nell’ambiente di anteprima con la versione 2017.2 Beta 1. La funzionalità in questa pagina è stata resa disponibile nell’ambiente di anteprima il 10 maggio 2017.
+Questa pagina descrive tutte le modifiche disponibili nell’ambiente di anteprima con la versione 2017.2 di Beta 1. La funzionalità in questa pagina è stata resa disponibile nell’ambiente di anteprima il 10 maggio 2017.
 
 >[!IMPORTANT]
 >
 >La funzionalità descritta in questa pagina è soggetta a modifiche prima della disponibilità nell’ambiente di produzione.
 
-La versione 2017.2 Beta 1 contiene miglioramenti sia per gli amministratori di Workfront che per altri utenti:
+La versione 2017.2 di Beta 1 contiene miglioramenti sia per gli amministratori di Workfront che per altri utenti:
 
 **Per gli amministratori:**
 
@@ -30,13 +30,13 @@ La versione 2017.2 Beta 1 contiene miglioramenti sia per gli amministratori di W
 * [Nuovo banner di anteprima con informazioni sulla versione](#new-preview-banner-with-release-information) 
 * [Disponibilità di API 7](#api-7-availability)
 
-**Per tutti gli utenti:**
+**Per Tutti Gli Utenti:**
 
-* [Iscriviti ad attività e problemi](#subscribe-to-tasks-and-issues)
-* [Miglioramenti alla programmazione delle risorse](#resource-scheduling-improvements)
+* [Abbonati ad attività e problemi](#subscribe-to-tasks-and-issues)
+* [Miglioramenti alla pianificazione delle risorse](#resource-scheduling-improvements)
 * [Confronta bozze](#compare-proofs)
-* [Nuovo campo per Pool di Risorse per Utenti e Progetti](#new-field-for-resource-pools-for-users-and-projects)
-* [Aspetto aggiornato nell’elenco delle dashboard](#updated-look-and-feel-in-the-dashboard-list)
+* [Nuovo campo per i pool di risorse per utenti e progetti](#new-field-for-resource-pools-for-users-and-projects)
+* [Aspetto aggiornato nell&#39;elenco dashboard](#updated-look-and-feel-in-the-dashboard-list)
 * [Rimozione della funzionalità delle annotazioni in Workfront](#removing-the-endorsements-functionality-in-workfront)
 * [Riordinare le colonne in qualsiasi elenco con il trascinamento della selezione (funzionalità rimossa)](#reorder-columns-in-any-list-with-drag-and-drop-functionality-is-being-removed)
 
@@ -46,17 +46,17 @@ Gli amministratori di Workfront ora possono ripristinare singoli documenti elimi
 
 Prima di questa modifica, gli amministratori di Workfront potevano ripristinare solo progetti, attività e problemi (inclusi i documenti eliminati insieme al progetto, all’attività o al problema eliminato).
 
-Per ulteriori informazioni, consulta [Ripristina elementi eliminati](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+Per ulteriori informazioni, vedere [Ripristinare gli elementi eliminati](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 ## Nuovo banner di anteprima con informazioni sulla versione {#new-preview-banner-with-release-information}
 
-Il banner blu nella parte superiore dell’ambiente Sandbox di anteprima ora mostra il nome della versione e il numero di versione dell’ambiente di anteprima. Facendo clic sul nome della versione si aprirà un articolo del sito di aiuto in cui è possibile trovare ulteriori informazioni sulla versione di anteprima corrente. Per ulteriori informazioni sull’ambiente Sandbox di anteprima, consulta [Ambiente Sandbox di anteprima di Adobe Workfront](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md) 
+Il banner blu nella parte superiore dell’ambiente Sandbox di anteprima ora mostra il nome della versione e il numero di versione dell’ambiente di anteprima. Facendo clic sul nome della versione si aprirà un articolo del sito di aiuto in cui è possibile trovare ulteriori informazioni sulla versione di anteprima corrente. Per ulteriori informazioni sull&#39;ambiente Sandbox di anteprima, vedere [Ambiente Sandbox di anteprima di Adobe Workfront](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md) 
 
 ## Disponibilità di API 7 {#api-7-availability}
 
 L’API 7 è ora disponibile e include oggetti nuovi e aggiornati.
 
-Per ulteriori informazioni, consulta [Novità della versione 7 dell’API](../../../../wf-api/api/new-api-version-7.md).
+Per ulteriori informazioni, vedere [Novità della versione 7](../../../../wf-api/api/new-api-version-7.md) dell&#39;API.
 
 ## Iscriviti ad attività e problemi {#subscribe-to-tasks-and-issues}
 
@@ -66,20 +66,20 @@ A partire dalla versione corrente, se desideri seguire elementi non assegnati a 
 
 È possibile iscriversi a problemi e attività per i quali si dispone delle autorizzazioni di visualizzazione minima. Quando un nuovo commento viene aggiunto al problema o all’attività a cui ti abboni, riceverai una notifica via e-mail.
 
-Per ulteriori informazioni sull’abbonamento a problemi e attività, consulta [Iscriviti agli elementi in Adobe Workfront](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
+Per ulteriori informazioni sulla sottoscrizione a problemi e attività, vedere [Sottoscrivi elementi in Adobe Workfront](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
 
 ## Miglioramenti alla programmazione delle risorse {#resource-scheduling-improvements}
 
 >[!NOTE]
 >
->Gli strumenti di pianificazione delle risorse sono stati dichiarati obsoleti e rimossi da Workfront con la versione 23.1. Per informazioni sulla programmazione delle risorse tramite il Bilanciatore dei carichi di lavoro, consulta [Panoramica del Bilanciatore dei carichi di lavoro](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Gli strumenti di pianificazione delle risorse sono stati dichiarati obsoleti e rimossi da Workfront con la versione 23.1. Per informazioni sulla pianificazione delle risorse tramite il Bilanciatore dei carichi di lavoro, vedere [Panoramica del Bilanciatore dei carichi di lavoro](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Durante la pianificazione delle risorse sono disponibili i seguenti miglioramenti:
 
-* [Visualizzare più elementi nella sequenza temporale di programmazione delle risorse in una singola visualizzazione](#view-more-items-on-the-resource-scheduling-timeline-in-a-single-view)
-* [Configura il nome del progetto da visualizzare nelle attività e nei problemi nella timeline di programmazione](#configure-the-project-name-to-display-on-tasks-and-issues-on-the-scheduling-timeline)
+* [Visualizza altri elementi nella sequenza temporale di programmazione delle risorse in una singola visualizzazione](#view-more-items-on-the-resource-scheduling-timeline-in-a-single-view)
+* [Configura il nome del progetto da visualizzare nelle attività e nei problemi nella sequenza temporale di pianificazione](#configure-the-project-name-to-display-on-tasks-and-issues-on-the-scheduling-timeline)
 * [Configura se le attività padre vengono visualizzate nella sequenza temporale di pianificazione](#configure-whether-parent-tasks-are-displayed-on-the-scheduling-timeline)
-* [Espandere o comprimere più facilmente tutte le attività e i problemi nella sequenza temporale di pianificazione](#more-easily-expand-or-collapse-all-tasks-and-issues-on-the-scheduling-timeline)
+* [Espandi o comprimi più facilmente tutte le attività e tutti i problemi nella sequenza temporale di pianificazione](#more-easily-expand-or-collapse-all-tasks-and-issues-on-the-scheduling-timeline)
 * [Le informazioni su ruolo e utente rimangono nella parte superiore della timeline di programmazione durante lo scorrimento](#role-and-user-information-remains-at-the-top-of-the-scheduling-timeline-when-scrolling)
 
 ### Visualizzare più elementi nella sequenza temporale di programmazione delle risorse in una singola visualizzazione {#view-more-items-on-the-resource-scheduling-timeline-in-a-single-view}
@@ -88,7 +88,7 @@ Quando si programmano le risorse per un team o per progetti di cui si è il Resp
 
 Se decidi di visualizzare i nomi dei progetti per ogni attività e problema nella sequenza temporale di pianificazione, lo spazio verticale di ogni attività e problema viene espanso, con conseguente riduzione delle attività e dei problemi visualizzati in un’unica vista.
 
-Per ulteriori informazioni sulla programmazione delle risorse, vedere &quot;Introduzione alla programmazione delle risorse&quot;.
+Per ulteriori informazioni sulla pianificazione delle risorse, consulta  &quot;Introduzione alla pianificazione delle risorse&quot;.
 
 ### Configura il nome del progetto da visualizzare nelle attività e nei problemi nella timeline di programmazione {#configure-the-project-name-to-display-on-tasks-and-issues-on-the-scheduling-timeline}
 
@@ -118,7 +118,7 @@ Ora, quando si scorre verso il basso nella timeline di pianificazione per visual
 
 Prima di questa modifica, il nome del ruolo e il nome utente scorrono fuori dalla visualizzazione corrente.
 
-Per ulteriori informazioni sulla programmazione delle risorse, vedere &quot;Introduzione alla programmazione delle risorse&quot;.
+Per ulteriori informazioni sulla pianificazione delle risorse, consulta  &quot;Introduzione alla pianificazione delle risorse&quot;.
 
 ## Confronta bozze {#compare-proofs}
 
@@ -126,7 +126,7 @@ Per ulteriori informazioni sulla programmazione delle risorse, vedere &quot;Intr
 
 Le due bozze vengono visualizzate all&#39;interno dello strumento Revisione e approvazione ed è possibile eseguire la verifica di ogni documento confrontandoli in una visualizzazione affiancata.
 
-Per ulteriori informazioni, consulta [Confronta bozze](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md).
+Per ulteriori informazioni, vedere [Confronta bozze](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md).
 
 ## Nuovo campo per Pool di Risorse per Utenti e Progetti {#new-field-for-resource-pools-for-users-and-projects}
 
@@ -134,7 +134,7 @@ La versione R1.5 ha introdotto nell’ambiente di anteprima nuove funzionalità 
 
 Ora puoi associare questi Pool di Risorse ai progetti, oltre che agli utenti. Ora nel progetto e nell’oggetto utente viene visualizzato il nuovo campo &quot;Pool di Risorse&quot;.
 
-Per ulteriori informazioni sui nuovi Pool di Risorse e su come associarli a progetti e utenti, consulta [Panoramica sui pool di risorse](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
+Per ulteriori informazioni sui nuovi Pool di Risorse e su come associarli a progetti e utenti, vedere [Panoramica sui Pool di Risorse](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
 
 ## Aspetto aggiornato nell’elenco delle dashboard {#updated-look-and-feel-in-the-dashboard-list}
 
@@ -142,7 +142,7 @@ Ora, quando si visualizza un elenco di dashboard, l’aspetto è più moderno e 
 
 In precedenza questa funzionalità era disponibile solo per gli utenti iscritti a Early Access. Ora questo è disponibile per tutti gli utenti nell’ambiente di anteprima. Sarà reso disponibile a tutti gli utenti nell’ambiente di produzione con la versione 2017.2. 
 
-Per ulteriori informazioni sulle dashboard, consulta [Creare un dashboard](../../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+Per ulteriori informazioni sui dashboard, vedere [Creare un dashboard](../../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
 ## Rimozione della funzionalità delle annotazioni in Workfront {#removing-the-endorsements-functionality-in-workfront}
 
@@ -161,4 +161,4 @@ Le approvazioni non sono state oggetto segnalabile, pertanto il reporting per qu
 
 La funzionalità per modificare l’ordine delle colonne in qualsiasi elenco trascinando una colonna da una posizione e rilasciandola in un’altra viene rimossa da Early Access nell’ambiente di produzione con la versione 2017.2 e non sarà più disponibile per alcun utente. 
 
-Per ulteriori dettagli su questa funzionalità, consulta [Modifica la larghezza e l&#39;ordine delle colonne](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
+Per ulteriori dettagli su questa funzionalità, vedere [Modificare la larghezza e l&#39;ordine delle colonne](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).

@@ -22,9 +22,9 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti apportati ad Adobe Workfront Fusion la settimana del 30 novembre 2020.
 
-Per un elenco di tutte le modifiche recenti, vedi [Attività di rilascio di Adobe Workfront Fusion](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Per un elenco di tutte le modifiche recenti, vedere [Attività di Adobe Workfront Fusion release](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedi [Aggiornamenti di manutenzione per Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
+Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedere la pagina [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
 
 ## Limite di frequenza per i webhook di Workfront Fusion 2.0.
 
@@ -32,7 +32,7 @@ Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedi [Aggiorn
 
 In precedenza, le richieste di webhook non erano limitate.
 
-Per ulteriori informazioni, consulta [Guardrail delle prestazioni di Adobe Workfront Fusion](../../../../../workfront-fusion/get-started/fusion-performance-guardrails.md).
+Per ulteriori informazioni, vedere [Guardrail delle prestazioni di Adobe Workfront Fusion](../../../../../workfront-fusion/get-started/fusion-performance-guardrails.md).
 
 ## Aggiungere un modulo personalizzato a un oggetto Workfront in Workfront Fusion 2.0
 

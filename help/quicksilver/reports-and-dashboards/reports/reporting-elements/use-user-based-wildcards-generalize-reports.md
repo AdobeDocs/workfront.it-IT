@@ -9,7 +9,7 @@ exl-id: 216e2869-b4f8-4cc7-9497-a12ebe00fe49
 source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -45,43 +45,43 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Gestire le autorizzazioni per un report per modificare gli elementi di reporting in un report</p> <p>Gestire le autorizzazioni per una visualizzazione o un filtro per modificarle</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un report per modificare gli elementi di reporting in un report</p> <p>Gestire le autorizzazioni per una visualizzazione o un filtro per modificarle</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Prerequisiti
 
 È necessario creare un report prima di aggiungere una variabile con caratteri jolly.
 
-Per istruzioni sulla creazione di rapporti, consulta [Creare un rapporto](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
+Per istruzioni sulla creazione di report, vedere [Creare un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
 ## Passaggi pratici
 
 Per inserire un carattere jolly basato sull&#39;utente in un report:
 
 1. Passare a un report per il quale si desidera inserire un carattere jolly basato sull&#39;utente.
-1. Clic **Azioni report**, quindi **Modifica**.
+1. Fai clic su **Azioni report**, quindi su **Modifica**.
 
-1. Fai clic su **Filtri** scheda.
-1. Clic **Aggiungere una regola di filtro**.
+1. Fare clic sulla scheda **Filtri**.
+1. Fai clic su **Aggiungi una regola filtro**.
 1. Inizia a digitare il nome del campo in base al quale desideri filtrare.\
    È necessario digitare i campi che fanno riferimento all&#39;oggetto utente o alle informazioni sugli utenti.
-1. Seleziona **Uguale** nel menu a discesa della variabile filtro.
+1. Seleziona **Uguale** nel menu a discesa per la variabile filtro.
 
    >[!TIP]
    >
-   >È sempre necessario selezionare **Uguale** variabile di filtro quando si utilizzano caratteri jolly in Adobe Workfront.
+   >È sempre necessario selezionare la variabile di filtro **Equal** quando si utilizzano i caratteri jolly in Adobe Workfront.
 
-1. In **Inizia a digitare il nome ...** casella, digitare: `$$USER.ID` o `$$USER.name` se desideri che nel rapporto vengano visualizzate informazioni sull’utente che effettua l’accesso, in base al nome. È possibile inserire altri caratteri jolly che fanno riferimento al gruppo, al team, alla società o ad altre informazioni dell&#39;utente connesso.
+1. Nella casella **Inizia a digitare il nome ...** digitare: `$$USER.ID` o `$$USER.name` se si desidera che nel report vengano visualizzate le informazioni relative all&#39;utente che effettua l&#39;accesso, in base al nome. È possibile inserire altri caratteri jolly che fanno riferimento al gruppo, al team, alla società o ad altre informazioni dell&#39;utente connesso.
 
-   Per un elenco completo dei caratteri jolly basati sull&#39;utente, vedere [Panoramica delle variabili filtro con caratteri jolly](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+   Per un elenco completo dei caratteri jolly basati sull&#39;utente, vedere [Panoramica sulle variabili dei filtri con caratteri jolly](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
    ![](assets/user-based-wildcard-in-project-filter-350x74.png)
 
-1. Clic **Salva e chiudi**.
+1. Fai clic su **Salva e Chiudi**.
 
 ## Informazioni aggiuntive
 
@@ -90,6 +90,6 @@ Vedi anche:
 <!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program) -->
 * [Panoramica delle variabili filtro con caratteri jolly](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
 * [Creare o modificare filtri in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
-* [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [Panoramica filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Aggiungere una richiesta a un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 * [Utilizzare la formattazione condizionale nelle visualizzazioni](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)

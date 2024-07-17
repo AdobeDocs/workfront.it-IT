@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Attività sulla versione 2018.2 Beta 2
-description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.2 Beta 2. La funzionalità è stata resa disponibile nell’ambiente di anteprima il 5 aprile 2018. Sarà disponibile nell’ambiente di produzione a giugno 2018.
+title: Attività sulla versione 2018.2 di Beta 2
+description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.2 di Beta 2. La funzionalità è stata resa disponibile nell’ambiente di anteprima il 5 aprile 2018. Sarà disponibile nell’ambiente di produzione a giugno 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,27 +14,27 @@ ht-degree: 0%
 
 ---
 
-# Attività sulla versione 2018.2 Beta 2
+# Attività sulla versione 2018.2 di Beta 2
 
-Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.2 Beta 2. La funzionalità è stata resa disponibile nell’ambiente di anteprima il 5 aprile 2018. Sarà disponibile nell’ambiente di produzione a giugno 2018.
+Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.2 di Beta 2. La funzionalità è stata resa disponibile nell’ambiente di anteprima il 5 aprile 2018. Sarà disponibile nell’ambiente di produzione a giugno 2018.
 
 >[!IMPORTANT]
 >
 > La funzionalità descritta in questa pagina è soggetta a modifiche prima della disponibilità nell’ambiente di produzione.
 
-Per un elenco di tutte le modifiche apportate in 2018.2, consulta  [Panoramica sull’attività della versione 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+Per un elenco di tutte le modifiche apportate in 2018.2, consulta  Panoramica dell&#39;attività di [versione 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
-La versione 2018.2 Beta 2 contiene i seguenti miglioramenti:
+La versione 2018.2 di Beta 2 contiene i seguenti miglioramenti:
 
 * [Modifica campi direttamente dall&#39;area Home](#edit-fields-directly-from-the-home-area)
 * [Tempo di connessione in giorni](#log-time-in-days)
 * [Visualizzare le relazioni tra i predecessori di progetti nel diagramma di Gantt in un elenco di progetti](#view-cross-project-predecessor-relationships-on-the-gantt-chart-in-a-list-of-projects)
-* [Utilizzare Costo preventivato in Ottimizzatore Portfolio per calcolare le finanze del Portfolio](#use-budgeted-cost-in-the-portfolio-optimizer-to-calculate-portfolio-finances)
-* [Rapporto Utilizzo: popola le ore preventivate dalla nuova area di budget risorse](#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area) (Solo anteprima)
+* [Utilizzare il costo preventivato in Ottimizzatore Portfolio per calcolare le finanze del Portfolio](#use-budgeted-cost-in-the-portfolio-optimizer-to-calculate-portfolio-finances)
+* [Rapporto utilizzo: popola le ore preventivate dalla nuova area budget risorse](#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area) (solo anteprima)
 
-* [Rapporto Utilizzo: visualizzazione delle ore preventivate per utente in un progetto](#utilization-report-view-budgeted-hours-by-user-on-a-project) (Solo anteprima)
+* [Rapporto utilizzo: visualizzazione ore preventivate per utente in un progetto](#utilization-report-view-budgeted-hours-by-user-on-a-project) (solo anteprima)
 
-* [Avanzamento bozza dall’elenco dei documenti disponibile per gli utenti non bozza](#proof-progress-from-the-document-list-available-to-non-proofing-users)
+* [Avanzamento bozza dall&#39;elenco dei documenti disponibile per gli utenti che non eseguono bozze](#proof-progress-from-the-document-list-available-to-non-proofing-users)
 * [Miglioramenti per dispositivi mobili](#mobile-improvements)
 
 ## Modifica campi direttamente dall&#39;area Home {#edit-fields-directly-from-the-home-area}
@@ -43,7 +43,7 @@ Ora, quando si seleziona un oggetto nell’area Home, è possibile modificare i 
 
 Prima di questa modifica, le informazioni potevano essere visualizzate solo nell’area Home, non modificate.
 
-Per ulteriori informazioni, vedere [Aggiornare o modificare un elemento di lavoro nell’area Home](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md) nell’articolo  [Aggiornare o modificare un elemento di lavoro nell’area Home](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
+Per ulteriori informazioni, vedere [Aggiornare o modificare un elemento di lavoro nell&#39;area Home](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md) nell&#39;articolo  [Aggiornare o modificare un elemento di lavoro nell&#39;area Home](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
 
 ## Tempo di connessione in giorni {#log-time-in-days}
 
@@ -51,9 +51,9 @@ Gli amministratori di Workfront ora possono configurare il tempo di accesso degl
 
 Prima di questa modifica, gli utenti potevano registrare il tempo solo in ore.
 
-Puoi configurare questa impostazione modificando il profilo utente. Per ulteriori informazioni, consulta [Configurare se il tempo è registrato in ore o giorni](../../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md).
+Puoi configurare questa impostazione modificando il profilo utente. Per ulteriori informazioni, vedere [Configurare l&#39;ora registrata in ore o giorni](../../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md).
 
-Per informazioni su come gli utenti possono registrare il tempo nei giorni successivi all’aggiornamento di questa impostazione, consulta [Tempo di connessione](../../../../timesheets/create-and-manage-timesheets/log-time.md).
+Per informazioni su come gli utenti possono registrare il tempo nei giorni successivi all&#39;aggiornamento di questa impostazione, vedere [Tempo di registrazione](../../../../timesheets/create-and-manage-timesheets/log-time.md).
 
 ## Visualizzare le relazioni tra i predecessori di progetti nel diagramma di Gantt in un elenco di progetti {#view-cross-project-predecessor-relationships-on-the-gantt-chart-in-a-list-of-projects}
 
@@ -64,7 +64,7 @@ Per informazioni su come gli utenti possono registrare il tempo nei giorni succe
 
 Prima di questa modifica, era possibile visualizzare le relazioni predecessore tra progetti diversi solo per singole attività a livello di progetto.
 
-Per ulteriori informazioni, consulta [Configurare la modalità di visualizzazione delle informazioni nel Diagramma di Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md). 
+Per ulteriori informazioni, vedere [Configurare la visualizzazione delle informazioni nel Diagramma di Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md). 
 
 ## Utilizzare Costo preventivato in Ottimizzatore Portfolio per calcolare le finanze del Portfolio {#use-budgeted-cost-in-the-portfolio-optimizer-to-calculate-portfolio-finances}
 
@@ -74,11 +74,11 @@ Il nuovo Ottimizzatore Portfolio ora utilizza il Costo preventivato della nuova 
 * Ritorno sull&#39;investimento (ROI)
 * Costo
 
-In precedenza, sia il nuovo che il precedente Ottimizzatore Portfolio utilizzavano il costo preventivato legacy. Legacy Portfoli Optimizer utilizza ancora il costo preventivato legacy per calcolare il valore netto, il ritorno sull’investimento e il costo.
+In precedenza, sia il nuovo che il precedente Ottimizzatore Portfolio utilizzavano il costo preventivato legacy. Legacy Portfolio Optimizer utilizza ancora il costo preventivato legacy per calcolare il valore netto, il ritorno sull’investimento e il costo.
 
 Sono stati inoltre aggiunti due nuovi campi ai campi finanziari del Portfolio: ROI legacy e Valore netto legacy per acquisire i nuovi valori dai nuovi strumenti di gestione delle risorse.
 
-Per ulteriori informazioni, consulta [Panoramica di Portfoli Optimizer](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md) nell’articolo  [Panoramica di Portfoli Optimizer](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+Per ulteriori informazioni, vedere [Panoramica di Portfolio Optimizer](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md) nell&#39;articolo  [Panoramica di Portfolio Optimizer](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 ## Rapporto Utilizzo: popola le ore preventivate dalla nuova area di budget risorse {#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area}
 
@@ -90,7 +90,7 @@ Le ore preventivate nel rapporto Utilizzo ora sono compilate dalle informazioni 
 
 Prima di questa modifica, venivano utilizzate le informazioni provenienti dall’area Stime risorse legacy.
 
-Per ulteriori informazioni, consulta [Panoramica del rapporto Utilizzo risorse](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) nell’articolo  [Panoramica del rapporto Utilizzo risorse](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Per ulteriori informazioni, vedere [Panoramica del report sull&#39;utilizzo delle risorse](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) nell&#39;articolo  [Panoramica del report Utilizzo risorse](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Rapporto Utilizzo: visualizzazione delle ore preventivate per utente in un progetto {#utilization-report-view-budgeted-hours-by-user-on-a-project}
 
@@ -102,7 +102,7 @@ Il rapporto Utilizzo di un progetto ora visualizza Ore preventivate per utente.
 
 Prima di questa modifica, il rapporto Utilizzo mostrava Ore preventivate solo per mansione. 
 
-Per ulteriori informazioni, consulta [Panoramica del rapporto Utilizzo risorse](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) nell’articolo [Panoramica del rapporto Utilizzo risorse](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Per ulteriori informazioni, vedere [Panoramica del report sull&#39;utilizzo delle risorse](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) nell&#39;articolo [Panoramica del report sull&#39;utilizzo delle risorse](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Avanzamento bozza dall’elenco dei documenti disponibile per gli utenti non bozza {#proof-progress-from-the-document-list-available-to-non-proofing-users}
 
@@ -110,7 +110,7 @@ Ora gli indicatori di avanzamento della bozza (Inviato, Aperto, Commenti aggiunt
 
 Prima di questa modifica, gli indicatori di avanzamento della bozza erano disponibili solo per gli utenti che potevano generare bozze.
 
-Per ulteriori informazioni, consulta [Panoramica sullo stato e sull’avanzamento della bozza](../../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md).
+Per ulteriori informazioni, vedere [Panoramica sull&#39;avanzamento e sullo stato della bozza](../../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md).
 
 ## Miglioramenti per dispositivi mobili {#mobile-improvements}
 

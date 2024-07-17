@@ -17,28 +17,28 @@ ht-degree: 2%
 
 ## Prerequisiti
 
-Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per ulteriori informazioni, consulta [Reporting Canvas beta: panoramica](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per ulteriori informazioni, vedere [Reporting Canvas beta: overview](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Raggruppare righe in una tabella
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Generazione rapporti**.
-1. Clic **Nuovo rapporto**.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **Main Menu** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Reporting**.
+1. Fare clic su **Nuovo report**.
 
    Oppure
 
-   Vai a un rapporto esistente, fai clic su **Menu Altro** icona ![](assets/more-icon.png) nell’intestazione del rapporto, seleziona quindi **Modifica**.
+   Vai a un report esistente, fai clic sull&#39;icona ![](assets/more-icon.png) di **Altro menu** nell&#39;intestazione del report, quindi seleziona **Modifica**.
 
 1. Per raggruppare le righe di una nuova tabella, trascinare o fare doppio clic su un blocco di tabella nell&#39;area di lavoro.
 
    Oppure
 
-   Per raggruppare le righe di una tabella esistente, fare clic su **Modifica** icona ![](assets/edit-icon.png) nell’intestazione della tabella.
+   Per raggruppare le righe in una tabella esistente, fare clic sull&#39;icona **Modifica** ![](assets/edit-icon.png) nell&#39;intestazione della tabella.
 
-1. Nel pannello a destra, individua un campo in base al quale desideri eseguire il raggruppamento e trascinalo nella **Gruppo** sezione.
+1. Nel pannello a destra, individua un campo in base al quale desideri eseguire il raggruppamento e trascinalo nella sezione **Gruppo**.
 
-   È possibile utilizzare **Ricerca** per trovare un gruppo specifico.
+   È possibile utilizzare la casella **Cerca** per trovare un gruppo specifico.
 
-1. Nel menu a discesa a destra della **Gruppo** , selezionare la modalità di ordinamento del gruppo.
+1. Nel menu a discesa a destra del campo **Gruppo**, seleziona la modalità di ordinamento del gruppo.
 
    Le opzioni variano in base al tipo di campo utilizzato per raggruppare le righe.
 
@@ -91,10 +91,10 @@ Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per u
 1. Effettua una delle seguenti operazioni:
 
    * Per aggiungere un altro gruppo, trascina un altro campo dal pannello laterale.
-   * Per visualizzare le righe di un gruppo compresse per impostazione predefinita, fare clic sul pulsante **Menu Altro** icona ![](assets/more-icon.png) accanto al gruppo, quindi fai clic su **Comprimi gruppo**.
+   * Per visualizzare le righe in un gruppo compresso per impostazione predefinita, fai clic sull&#39;icona ![](assets/more-icon.png) del menu **Altro** accanto al gruppo, quindi fai clic su **Comprimi gruppo**.
 
      Ogni gruppo può essere configurato singolarmente per la visualizzazione con righe compresse o espanse. Per impostazione predefinita, tutte le righe raggruppate sono compresse.
 
-   * Per visualizzare un conteggio nella riga del gruppo, fare clic sul pulsante **Menu Altro** icona ![](assets/more-icon-27x15.png) accanto al gruppo, quindi fai clic su **Numero di visualizzazioni**.
-   * Per rimuovere un gruppo, fare clic su **Menu Altro** icona ![](assets/more-icon.png) accanto al gruppo, quindi fai clic su **Rimuovi gruppo**.
+   * Per visualizzare un conteggio nella riga del gruppo, fai clic sull&#39;icona ![](assets/more-icon-27x15.png) del menu **Altro** accanto al gruppo, quindi fai clic su **Conteggio visualizzato**.
+   * Per rimuovere un gruppo, fai clic sull&#39;icona ![](assets/more-icon.png) del menu **Altro** accanto al gruppo, quindi fai clic su **Rimuovi gruppo**.
    * Per ridisporre più gruppi creati, trascinarli ![](assets/move-icon---dots.png) in un nuovo ordine.

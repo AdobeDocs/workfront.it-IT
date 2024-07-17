@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Versione definitiva Beta 2017.2
+title: Beta Final 2017.2
 description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2017.2. La funzionalità di questa pagina è stata resa disponibile nell’ambiente di anteprima il 28 giugno 2017. Sarà disponibile nell’ambiente di produzione il 26 luglio 2017.
 author: Luke
 feature: Product Announcements
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Versione definitiva Beta 2017.2
+# Beta Final 2017.2
 
 Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2017.2. La funzionalità di questa pagina è stata resa disponibile nell’ambiente di anteprima il 28 giugno 2017. Sarà disponibile nell’ambiente di produzione il 26 luglio 2017.
 
@@ -22,43 +22,43 @@ Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambien
 >
 >La funzionalità descritta in questa pagina è soggetta a modifiche prima della disponibilità nell’ambiente di produzione.
 
-Per un elenco di tutte le modifiche apportate in 2017.2, consulta [Panoramica sull’attività della versione 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md).
+Per un elenco di tutte le modifiche apportate in 2017.2, consulta [Panoramica delle attività sulla versione 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md).
 
-La versione finale della versione beta 2017.2 contiene miglioramenti sia per gli amministratori di Workfront che per altri utenti:
+La versione finale 2017.2 di Beta contiene miglioramenti sia per gli amministratori di Workfront che per altri utenti:
 
 **Per gli amministratori:**
 
 * [Determinare la disponibilità del visualizzatore di verifica video di HTML5 (ProofHQ e Workfront)](#determine-the-availability-of-the-html5-video-proofing-viewer-proofhq-and-workfront)
 * [Supporto dei certificati SHA-256 per SAML 2.0](#support-sha-256-certificates-for-saml-2-0)
-* [Tipo-Avanti per la mappatura degli attributi](#type-ahead-for-mapping-attributes)
+* [Tipo di anticipo per la mappatura degli attributi](#type-ahead-for-mapping-attributes)
 * [Miglioramento API: accedere alle allocazioni utente](#api-enhancement-access-user-allocations)
 
-**Per tutti gli utenti:**
+**Per Tutti Gli Utenti:**
 
 * [Pianificazione risorse](#resource-planner)
 * [Nuova area di pianificazione in un progetto (Team Builder)](#new-scheduling-area-in-a-project-team-builder)
-* [Programmazione delle risorse: Mostra meno articoli per impostazione predefinita](#resource-scheduling-show-fewer-items-by-default)
-* [Programmazione delle risorse: visualizza l&#39;indicatore di rilascio e di sovrassegnazione quando si trascinano attività e problemi](#resource-scheduling-display-drop-indicator-and-over-allocation-when-dragging-tasks-and-issues)
-* [Pianificazione delle risorse: le allocazioni utente non vengono più arrotondate alla mezz&#39;ora più vicina](#resource-scheduling-user-allocations-are-no-longer-rounded-to-the-nearest-half-hour)
-* [Esportare il rapporto Utilizzo in formato TSV e PDF](#export-the-utilization-report-in-tsv-and-pdf-formats)
-* [Versione definitiva Beta 2017.2](#user-calendar-enhancements-in-the-my-work-area%22)
-* [Versione definitiva Beta 2017.2](#layout-template-determines-whether-the-new-or-legacy-calendar-displays-in-the-my-work-area)
-* [Decisione bozza visualizzata nell’area Il mio lavoro (Workfront)](#proof-decision-displays-in-the-my-work-area-workfront)
+* [Pianificazione risorse: mostra meno elementi per impostazione predefinita](#resource-scheduling-show-fewer-items-by-default)
+* [Pianificazione risorse: visualizza l&#39;indicatore di rilascio e di sovrassegnazione durante il trascinamento di attività e problemi](#resource-scheduling-display-drop-indicator-and-over-allocation-when-dragging-tasks-and-issues)
+* [Pianificazione risorse: le allocazioni utente non vengono più arrotondate alla mezz&#39;ora più vicina](#resource-scheduling-user-allocations-are-no-longer-rounded-to-the-nearest-half-hour)
+* [Esporta il rapporto Utilizzo in formato TSV e PDF](#export-the-utilization-report-in-tsv-and-pdf-formats)
+* [Finale Beta 2017.2](#user-calendar-enhancements-in-the-my-work-area%22)
+* [Finale Beta 2017.2](#layout-template-determines-whether-the-new-or-legacy-calendar-displays-in-the-my-work-area)
+* [La decisione della bozza viene visualizzata nell&#39;area Il mio lavoro (Workfront)](#proof-decision-displays-in-the-my-work-area-workfront)
 * [Visualizzare le bozze rich media nelle risoluzioni predefinite (ProofHQ e Workfront)](#view-rich-media-proofs-in-preset-resolutions-proofhq-and-workfront)
-* [Visualizzare l’URL delle pagine secondarie nei Commenti sulle bozze Rich Media (ProofHQ e Workfront)](#view-url-to-sub-pages-in-comments-on-rich-media-proofs-proofhq-and-workfront)
-* [Creare visualizzazioni personalizzate in base alle visualizzazioni standard esistenti (ProofHQ)](#create-custom-views-based-on-existing-standard-views-proofhq)
-* [Filtrare l’area di reporting (ProofHQ)](#filter-the-reporting-area-proofhq)
-* [Visualizzazione dei valori minimo e massimo nei rapporti (ProofHQ)](#display-minimum-and-maximum-values-in-reports-proofhq)
+* [Visualizzare l&#39;URL delle sottopagine nei commenti relativi alle bozze Rich Media (ProofHQ e Workfront)](#view-url-to-sub-pages-in-comments-on-rich-media-proofs-proofhq-and-workfront)
+* [Crea visualizzazioni personalizzate in base alle visualizzazioni standard esistenti (ProofHQ)](#create-custom-views-based-on-existing-standard-views-proofhq)
+* [Filtrare l&#39;area di reporting (ProofHQ)](#filter-the-reporting-area-proofhq)
+* [Visualizza valori minimi e massimi nei report (ProofHQ)](#display-minimum-and-maximum-values-in-reports-proofhq)
 * [Notifica in-app per approvazione bozza](#in-app-notification-for-proof-approval)
 * [Miglioramenti per dispositivi mobili](#mobile-improvements)
 * [Barra aggiunta alle istruzioni di filtro per i valori di campo contenenti virgole](#slash-added-to-filter-statements-for-field-values-that-contain-commas)
 * [Più tariffe di fatturazione](#multiple-billing-rates)
-* [Nuovo campo Ore preventivate risorsa](#new-resource-budgeted-hour-field)
+* [Nuovo campo ore preventivate risorse](#new-resource-budgeted-hour-field)
 * [Mostra Ruolo Utente nell&#39;area &#39;Assegnato a&#39; della pagina dei dettagli per le attività e i problemi](#show-user-job-role-in-assigned-to-area-on-the-details-page-for-tasks-and-issues)
 
 >[!NOTE]
 >
->Gli strumenti di pianificazione delle risorse sono stati dichiarati obsoleti e rimossi da Workfront con la versione 23.1. Per informazioni sulla programmazione delle risorse tramite il Bilanciatore dei carichi di lavoro, consulta [Panoramica del Bilanciatore dei carichi di lavoro](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Gli strumenti di pianificazione delle risorse sono stati dichiarati obsoleti e rimossi da Workfront con la versione 23.1. Per informazioni sulla pianificazione delle risorse tramite il Bilanciatore dei carichi di lavoro, vedere [Panoramica del Bilanciatore dei carichi di lavoro](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 ## Nuova area di pianificazione in un progetto (Team Builder) {#new-scheduling-area-in-a-project-team-builder}
 
@@ -123,7 +123,7 @@ Ora puoi esportare il rapporto Utilizzo su un progetto in formato TSV e PDF, olt
 
 Prima di questa modifica, era possibile esportare il rapporto Utilizzo solo in formato XLSX.
 
-Per ulteriori informazioni sull&#39;esportazione del rapporto Utilizzo, vedere [Panoramica del rapporto Utilizzo risorse](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in [Panoramica del rapporto Utilizzo risorse](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Per ulteriori informazioni sull&#39;esportazione del report Utilizzo, vedere [Panoramica del report Utilizzo risorse](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in [Panoramica del report Utilizzo risorse](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Decisione bozza visualizzata nell’area Il mio lavoro (Workfront) {#proof-decision-displays-in-the-my-work-area-workfront}
 
@@ -131,7 +131,7 @@ Ora, quando si visualizzano le approvazioni di bozza nella scheda Approvazioni p
 
 Prima di questa modifica, non vi era alcuna indicazione che una decisione fosse già stata presa sulla bozza e la bozza rimaneva nella scheda Le mie approvazioni fino a quando non si aggiornava il browser.
 
-Per ulteriori informazioni, consulta [Approvazione del lavoro](../../../../review-and-approve-work/manage-approvals/approving-work.md) in [Approvazione del lavoro](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+Per ulteriori informazioni, vedere [Approvazione del lavoro](../../../../review-and-approve-work/manage-approvals/approving-work.md) in [Approvazione del lavoro](../../../../review-and-approve-work/manage-approvals/approving-work.md).
 
 ## Visualizzare le bozze rich media nelle risoluzioni predefinite (ProofHQ e Workfront) {#view-rich-media-proofs-in-preset-resolutions-proofhq-and-workfront}
 
@@ -139,7 +139,7 @@ In una versione precedente dell’ambiente di anteprima, è stata introdotta la 
 
 È ora possibile scegliere tra le opzioni di risoluzione predefinite di vari telefoni, tablet, notebook e desktop.
 
-Per ulteriori informazioni, consulta &quot;Visualizzazione di una risoluzione predefinita&quot; in [Modificare la risoluzione della bozza interattiva nel visualizzatore di bozze](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md).
+Per ulteriori informazioni, vedere &quot;Visualizzazione di una risoluzione predefinita&quot; in [Modificare la risoluzione della bozza interattiva nel visualizzatore di bozze](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md).
 
 ## Visualizzare l’URL delle pagine secondarie nei Commenti sulle bozze Rich Media (ProofHQ e Workfront) {#view-url-to-sub-pages-in-comments-on-rich-media-proofs-proofhq-and-workfront}
 
@@ -165,25 +165,25 @@ Ora puoi creare una vista personalizzata basata su una vista standard. Le opzio
 
 Prima di questa modifica, per creare una vista personalizzata era necessario creare la vista da zero. 
 
-Per ulteriori informazioni, consulta [Creazione di una vista personalizzata](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md#creating) in [Creare e gestire visualizzazioni personalizzate in Bozza di Workfront](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+Per ulteriori informazioni, vedere [Creazione di una visualizzazione personalizzata](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md#creating) in [Creazione e gestione di visualizzazioni personalizzate in Workfront Proof Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 
 ## Filtrare l’area di reporting (ProofHQ) {#filter-the-reporting-area-proofhq}
 
 Per impostazione predefinita, i dati visualizzati nella scheda Rapporti includono tutte le informazioni del sistema ProofHQ. Ora è possibile utilizzare i filtri per mostrare solo le informazioni pertinenti alle proprie esigenze. 
 
-Per ulteriori informazioni, consulta [Filtraggio dei rapporti](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#filtering-reports) in  [Eseguire rapporti in Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
+Per ulteriori informazioni, vedere [Filtraggio dei report](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#filtering-reports) in  [Esegui report in Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
 
 ## Visualizzazione dei valori minimo e massimo nei rapporti (ProofHQ) {#display-minimum-and-maximum-values-in-reports-proofhq}
 
 Ora puoi configurare se i valori minimo e massimo vengono visualizzati nel grafico durante la visualizzazione dei rapporti.
 
-Per ulteriori informazioni, consulta [Visualizzazione dei rapporti](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#viewing-reports) in  [Eseguire rapporti in Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
+Per ulteriori informazioni, vedere [Visualizzazione dei report](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#viewing-reports) in  [Esegui report in Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
 
 ## Supporto dei certificati SHA-256 per SAML 2.0 {#support-sha-256-certificates-for-saml-2-0}
 
 Ora è supportato Secure Hash Algorithm 256 (SHA-256) durante la configurazione di Workfront per l’SSO con SAML 2.0. Prima di questa versione, supportavamo solo Secure Hash Algorithm 1 (SHA-1).
 
-Per ulteriori informazioni sulla configurazione di Workfront con SAML 2.0, consulta [Configurare Adobe Workfront con SAML 2.0](../../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
+Per ulteriori informazioni sulla configurazione di Workfront con SAML 2.0, vedere [Configurare Adobe Workfront con SAML 2.0](../../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
 
 ## Tipo-Avanti per la mappatura degli attributi {#type-ahead-for-mapping-attributes}
 
@@ -203,14 +203,14 @@ SAML 1.1 non supporta la mappatura degli attributi.
 >
 > L’app mobile viene rilasciata in modo indipendente dall’applicazione principale di Workfront. La funzionalità descritta in questa sezione viene rilasciata all’inizio di agosto.
 
-Nelle app mobili, per entrambe le piattaforme Android e iOS, verranno visualizzate le seguenti funzionalità aggiunte:
+Nelle app mobili, per le piattaforme Android e iOS verranno visualizzate le seguenti funzionalità aggiunte:
 
 * Inviare richieste dall’app mobile
 * Nuova voce scheda orario nell’app mobile
 * Modifica di moduli personalizzati dall’app mobile
 * Richieste di approvazione bozza nell’app mobile
 
-Sarà disponibile un programma beta pubblico per alcune di queste funzioni per la piattaforma Android.
+Per alcune di queste funzioni della piattaforma Android sarà disponibile un programma beta pubblico.
 
 Per ulteriori informazioni sul prossimo programma beta per dispositivi mobili, consulta la  [&quot;Beta&quot;](https://support.workfront.com/hc/en-us/sections/115000743248) pagina.
 
@@ -226,7 +226,7 @@ Quando si crea un filtro in modalità testo e si filtrano i valori di campo che 
 
 Prima di questa modifica, non era possibile filtrare i campi con opzioni contenenti virgole.
 
-Per ulteriori informazioni su questa modifica, consulta [Panoramica sui filtri](../../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Per ulteriori informazioni su questa modifica, vedere [Panoramica sui filtri](../../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Più tariffe di fatturazione {#multiple-billing-rates}
 
@@ -234,9 +234,9 @@ Ora puoi aggiungere più sostituzioni della tariffa di fatturazione per la stess
 
 Prima di questa modifica, era possibile sostituire la tariffa di fatturazione di una mansione una sola volta e il Ricavo effettivo veniva ricalcolato per riflettere la tariffa di fatturazione corrente per tutte le ore registrate prima della modifica della tariffa di fatturazione.
 
-Per ulteriori informazioni sulle tariffe di fatturazione e sui ricavi, consulta [Panoramica su fatturazione e ricavi](../../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Per ulteriori informazioni sulle tariffe di fatturazione e sui ricavi, vedere [Panoramica su fatturazione e ricavi](../../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
-Per ulteriori informazioni sulla sostituzione delle tariffe di fatturazione per le mansioni a livello di progetto, consulta [Panoramica sulla sostituzione delle tariffe di fatturazione dei ruoli e sul calcolo dei ricavi per un progetto](../../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Per ulteriori informazioni sull&#39;override delle tariffe di fatturazione per le mansioni a livello di progetto, vedere [Panoramica sull&#39;override delle tariffe di fatturazione delle mansioni e sul calcolo dei ricavi per un progetto](../../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 ## Pianificazione risorse {#resource-planner}
 
@@ -248,13 +248,13 @@ Con questa versione, verrà introdotta la prima fase della pianificazione delle 
 * Variazione ore (tra le ore preventivate e quelle pianificate)
 * Differenza netta tra ore disponibili e ore preventivate
 
-Per ulteriori informazioni sull&#39;utilizzo della Programmazione delle risorse, consulta [Panoramica di Programmazione delle risorse](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Per ulteriori informazioni sull&#39;utilizzo della Programmazione delle risorse, vedere [Panoramica sulla programmazione delle risorse](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Nuovo campo Ore preventivate risorsa {#new-resource-budgeted-hour-field}
 
 Per supportare la nuova funzionalità Planning e la pianificazione risorse, è stato aggiunto un nuovo campo al generatore di rapporti, che consente di creare rapporti sulle ore risorse preventivate. Questo campo acquisisce la quantità di ore preventivate per una risorsa in un progetto. Questo campo non è disponibile quando si definiscono i budget delle risorse utilizzando la funzionalità Pianificazione risorse legacy.
 
-Per ulteriori informazioni sull&#39;utilizzo delle ore preventivate nella programmazione delle risorse, vedere [Panoramica di Programmazione delle risorse](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Per ulteriori informazioni sull&#39;utilizzo delle ore preventivate nella programmazione delle risorse, vedere [Panoramica sulla programmazione delle risorse](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Notifica in-app per approvazione bozza {#in-app-notification-for-proof-approval}
 
@@ -262,7 +262,7 @@ Quando sei designato come approvatore di una bozza, ricevi una notifica in-app s
 
 Prima di questo miglioramento, l’unica indicazione visiva per indicare che sei stato designato come approvatore su una bozza era una nuova richiesta di bozza nella tua area Il mio lavoro.
 
-Per ulteriori informazioni sulle notifiche in-app, consulta [Visualizzare e gestire le notifiche in-app](../../../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+Per ulteriori informazioni sulle notifiche in-app, vedere [Visualizzare e gestire le notifiche in-app](../../../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
 ## Mostra Ruolo Utente nell&#39;area &#39;Assegnato a&#39; della pagina dei dettagli per le attività e i problemi {#show-user-job-role-in-assigned-to-area-on-the-details-page-for-tasks-and-issues}
 

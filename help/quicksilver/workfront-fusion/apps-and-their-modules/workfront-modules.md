@@ -18,13 +18,13 @@ ht-degree: 2%
 
 # [!DNL Adobe Workfront] moduli
 
-È possibile utilizzare [!DNL Adobe Workfront Fusion] [!DNL Adobe Workfront] per automatizzare i processi in [!DNL Workfront]. Se si dispone di [!UICONTROL [!DNL Workfront Fusion] per l&#39;automazione e l&#39;integrazione del lavoro] , puoi utilizzarla anche per connettersi ad app e servizi di terze parti.
+È possibile utilizzare il connettore [!DNL Adobe Workfront Fusion] [!DNL Adobe Workfront] per automatizzare i processi in [!DNL Workfront]. Se disponi di una licenza [!UICONTROL [!DNL Workfront Fusion] per l&#39;automazione del lavoro e l&#39;integrazione], puoi utilizzarla anche per connettersi ad app e servizi di terze parti.
 
-Il [!DNL Workfront] il connettore non viene conteggiato rispetto al numero di app attive disponibili per l’organizzazione. Tutti gli scenari, anche se utilizzano solo [!DNL Workfront] app, conteggio rispetto al conteggio totale degli scenari della tua organizzazione.
+Il connettore [!DNL Workfront] non viene conteggiato rispetto al numero di app attive disponibili per l&#39;organizzazione. Tutti gli scenari, anche se utilizzano solo l&#39;app [!DNL Workfront], vengono conteggiati rispetto al numero totale di scenari dell&#39;organizzazione.
 
-Per ulteriori informazioni sulle app e sugli scenari disponibili per la tua organizzazione, consulta [Organismi](../../workfront-fusion/organizations/organizations-and-teams.md#organiza2) in [[!DNL Adobe Workfront Fusion] organizzazioni e team](../../workfront-fusion/organizations/organizations-and-teams.md).
+Per ulteriori informazioni sulle app e sugli scenari disponibili per la tua organizzazione, consulta [Organizzazioni](../../workfront-fusion/organizations/organizations-and-teams.md#organiza2) in [[!DNL Adobe Workfront Fusion] organizzazioni e team](../../workfront-fusion/organizations/organizations-and-teams.md).
 
-Per istruzioni sulla creazione di uno scenario, consulta [Creare uno scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md). Per informazioni sui moduli, consulta [Moduli in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Se hai bisogno di istruzioni per la creazione di uno scenario, consulta [Creare uno scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md). Per informazioni sui moduli, vedere [Moduli in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Requisiti di accesso
 
@@ -45,32 +45,32 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licenza**</td> 
    <td>
-   <p>Fabbisogno di licenza corrente: No [!DNL Workfront Fusion] requisito di licenza.</p>
+   <p>Requisiti di licenza correnti: nessun requisito di licenza [!DNL Workfront Fusion].</p>
    <p>Oppure</p>
-   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro], [!UICONTROL [!DNL Workfront Fusion] per automazione lavoro]</p>
+   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione lavoro], [!UICONTROL [!DNL Workfront Fusion] per automazione lavoro]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
    <td>
-   <p>Fabbisogno prodotto corrente: se si dispone di [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Pianifica, la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo. [!DNL Workfront Fusion] è incluso in [!UICONTROL Ultimate] [!DNL Workfront] piano.</p>
+   <p>Fabbisogno prodotto corrente: se si dispone del piano [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], l'organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo. [!DNL Workfront Fusion] è incluso nel piano [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>Oppure</p>
-   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</p>
+   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
 
-Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore [!DNL Workfront].
 
-Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Connetti [!DNL Workfront] a [!DNL Workfront Fusion]
 
-Il [!DNL Workfront] Il connettore utilizza OAuth 2.0 per connettersi a [!DNL Workfront].
+Il connettore [!DNL Workfront] utilizza OAuth 2.0 per connettersi a [!DNL Workfront].
 
-Puoi creare una connessione al tuo [!DNL Workfront] account direttamente dall&#39;interno di un [!DNL Workfront Fusion] modulo.
+Puoi creare una connessione al tuo account [!DNL Workfront] direttamente da un modulo [!DNL Workfront Fusion].
 
 1. In qualsiasi modulo di Adobe Workfront, fai clic su **Aggiungi** accanto al campo Connessione.
 1. Compila i campi seguenti:
@@ -101,15 +101,15 @@ Puoi creare una connessione al tuo [!DNL Workfront] account direttamente dall&#3
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL ID client]</td>
-        <td>Immetti il [!DNL Workfront] ID client. È disponibile nell’area Applicazioni OAuth2 dell’area Configura di Workfront. Apri l’applicazione specifica a cui ti stai connettendo per visualizzare l’ID client.</td>
+        <td>Immetti l'ID client [!DNL Workfront]. È disponibile nell’area Applicazioni OAuth2 dell’area Configura di Workfront. Apri l’applicazione specifica a cui ti stai connettendo per visualizzare l’ID client.</td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Segreto client]</td>
-        <td>Immetti il [!DNL Workfront] ID client. È disponibile nell’area Applicazioni OAuth2 dell’area Configura di Workfront. Apri l’applicazione specifica a cui ti stai connettendo per visualizzare l’ID client.</td>
+        <td>Immetti l'ID client [!DNL Workfront]. È disponibile nell’area Applicazioni OAuth2 dell’area Configura di Workfront. Apri l’applicazione specifica a cui ti stai connettendo per visualizzare l’ID client.</td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL URL autenticazione]</td>
-        <td>Questo può rimanere il valore predefinito, oppure puoi immettere l’URL dell’istanza Workfront, seguito da <code>/integrations/oauth2</code>. <p>Esempio: <code>https://mydomain.my.workfront.com/integrations/oauth2</code></p></td>
+        <td>Questo può rimanere il valore predefinito, oppure puoi immettere l'URL dell'istanza Workfront, seguito da <code>/integrations/oauth2</code>. <p>Esempio: <code>https://mydomain.my.workfront.com/integrations/oauth2</code></p></td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Prefisso host]</td>
@@ -118,7 +118,7 @@ Puoi creare una connessione al tuo [!DNL Workfront] account direttamente dall&#3
     </tbody>
     </table>
 
-1. Clic **[!UICONTROL Continua]** per salvare la connessione e tornare al modulo.
+1. Fai clic su **[!UICONTROL Continua]** per salvare la connessione e tornare al modulo.
 
 
 
@@ -135,15 +135,15 @@ Puoi creare una connessione al tuo [!DNL Workfront] account direttamente dall&#3
 >
 >* Se non viene visualizzato un pulsante di accesso SAML, significa che l&#39;organizzazione non ha attivato il Single Sign-On (SSO). Puoi accedere con il tuo nome utente e la tua password.
 >   
->   Per ulteriori informazioni sull&#39;SSO, vedere [Panoramica del Single Sign-On [!DNL Adobe Workfront]](../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
+>   Per ulteriori informazioni sull&#39;SSO, vedere [Panoramica del Single Sign-On in [!DNL Adobe Workfront]](../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
 >   
->* Connessioni OAuth 2.0 al [!DNL Workfront] Le API non si basano più sulle chiavi API.
+>* Le connessioni OAuth 2.0 all&#39;API [!DNL Workfront] non si basano più sulle chiavi API.
 
 ## [!DNL Workfront] moduli e relativi campi
 
-Quando si configura [!DNL Workfront] moduli, [!DNL Workfront Fusion] visualizza i campi elencati di seguito. Oltre a questi, ulteriori [!DNL Workfront] I campi potrebbero essere visualizzati in base a fattori quali il livello di accesso nell’app o nel servizio. Un titolo in grassetto in un modulo indica un campo obbligatorio.
+Quando configuri [!DNL Workfront] moduli, [!DNL Workfront Fusion] visualizza i campi elencati di seguito. Insieme a questi, potrebbero essere visualizzati ulteriori campi di [!DNL Workfront], a seconda di fattori quali il livello di accesso nell&#39;app o nel servizio. Un titolo in grassetto in un modulo indica un campo obbligatorio.
 
-Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possibile utilizzarlo per impostare variabili e funzioni per tale campo. Per ulteriori informazioni, consulta [Mappare le informazioni da un modulo all’altro in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possibile utilizzarlo per impostare variabili e funzioni per tale campo. Per ulteriori informazioni, vedere [Mappare le informazioni da un modulo all&#39;altro in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 >[!NOTE]
 >
@@ -151,7 +151,7 @@ Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possib
 
 ![](assets/map-toggle-350x74.png)
 
-* [Triggers](#triggers)
+* [Trigger](#triggers)
 * [Azioni](#actions)
 * [Ricerche](#searches)
 
@@ -169,9 +169,9 @@ Questo modulo trigger esegue uno scenario in tempo reale quando in Workfront ven
 
 Il modulo restituisce tutti i campi standard associati al record, insieme a tutti i campi e i valori personalizzati a cui la connessione accede. Puoi mappare queste informazioni nei moduli successivi nello scenario.
 
-1. Clic **[!UICONTROL Aggiungi]** a destra del **Webhook** casella.
+1. Fai clic su **[!UICONTROL Aggiungi]** a destra della casella **Webhook**.
 
-1. Configurare il webhook in **[!UICONTROL Aggiungi un hook]** che viene visualizzata.
+1. Configura il webhook nella casella **[!UICONTROL Aggiungi un hook]** visualizzato.
 
    Durante la configurazione di questo modulo, vengono visualizzati i campi seguenti.
 
@@ -185,19 +185,19 @@ Il modulo restituisce tutti i campi standard associati al record, insieme a tutt
      </tr> 
      <tr> 
       <td>[!UICONTROL Connection]</td> 
-      <td> <p>Per istruzioni sulla connessione [!DNL Workfront] app a [!DNL Workfront Fusion], vedi <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connetti [!DNL Workfront] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+      <td> <p>Per istruzioni sulla connessione dell'app [!DNL Workfront] a [!DNL Workfront Fusion], vedere <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL Workfront] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Tipo di record]</td> 
-      <td>Seleziona il tipo di [!DNL Workfront] registrare che si desidera che il modulo controlli.</td> 
+      <td>Selezionare il tipo di record [!DNL Workfront] che si desidera controllare nel modulo.</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL State]</td> 
-      <td>Seleziona se desideri controllare lo stato precedente o quello nuovo.<ul><li><p><b>[!UICONTROL Nuovo stato]</b></p><p>Attiva uno scenario quando il record cambia <b>a</b> un determinato valore.</p><p>Ad esempio, se lo stato è impostato su [!UICONTROL Nuovo stato] e il filtro è impostato su [!UICONTROL Stato] [!UICONTROL È uguale a] [!UICONTROL In corso], il webhook attiva uno scenario quando lo stato [!UICONTROL Stato] diventa [!UICONTROL In corso], indipendentemente dallo stato precedente. </p></li><li><p><b>[!UICONTROL Old State]</b></p><p>Attiva uno scenario quando il record cambia <b>da</b> un determinato valore.</p><p>Ad esempio, se lo stato è impostato su [!UICONTROL Old State] e il filtro è impostato su [!UICONTROL Status] [!UICONTROL Equals] [!UICONTROL In corso], il webhook attiva uno scenario quando uno stato [!UICONTROL Status] attualmente [!UICONTROL In corso] passa a un altro stato. </p></li></ul></td> 
+      <td>Seleziona se desideri controllare lo stato precedente o quello nuovo.<ul><li><p><b>[!UICONTROL Nuovo stato]</b></p><p>Attiva uno scenario quando il record cambia <b>in</b> un valore specificato.</p><p>Ad esempio, se lo stato è impostato su [!UICONTROL Nuovo stato] e il filtro è impostato su [!UICONTROL Stato] [!UICONTROL È uguale a] [!UICONTROL In corso], il webhook attiva uno scenario quando lo stato [!UICONTROL Stato] diventa [!UICONTROL In corso], indipendentemente dallo stato precedente. </p></li><li><p><b>[!UICONTROL Old State]</b></p><p>Attiva uno scenario quando il record cambia <b> da</b> a un determinato valore.</p><p>Ad esempio, se lo stato è impostato su [!UICONTROL Old State] e il filtro è impostato su [!UICONTROL Status] [!UICONTROL Equals] [!UICONTROL In corso], il webhook attiva uno scenario quando uno stato [!UICONTROL Status] attualmente [!UICONTROL In corso] passa a un altro stato. </p></li></ul></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td> <p>[!UICONTROL Events filters]</p> </td> 
-      <td> <p>È possibile impostare i filtri per controllare solo i record che soddisfano i criteri selezionati.</p> <p>Per ogni filtro, immetti il campo che desideri che il filtro valuti, l’operatore e il valore che desideri che il filtro consenta. Puoi utilizzare più di un filtro aggiungendo regole AND.</p> <p>Nota: non è possibile modificare i filtri esistenti [!DNL Workfront] webhook. Per impostare filtri diversi per [!DNL Workfront] sottoscrizioni di eventi, rimuovi il webhook corrente e creane uno nuovo.</p> <p>Per ulteriori informazioni sui filtri evento, consulta <a href="#event-subscription-filters-in-the-workfront-watch-events-modules" class="MCXref xref">Filtri di abbonamento agli eventi in [!DNL Workfront] &gt; Moduli [!UICONTROL Watch Events]</a> in questo articolo.</p> </td> 
+      <td> <p>È possibile impostare i filtri per controllare solo i record che soddisfano i criteri selezionati.</p> <p>Per ogni filtro, immetti il campo che desideri che il filtro valuti, l’operatore e il valore che desideri che il filtro consenta. Puoi utilizzare più di un filtro aggiungendo regole AND.</p> <p>Nota: non è possibile modificare i filtri nei webhook [!DNL Workfront] esistenti. Per impostare filtri diversi per le sottoscrizioni di eventi [!DNL Workfront], rimuovere il webhook corrente e crearne uno nuovo.</p> <p>Per ulteriori informazioni sui filtri eventi, vedere <a href="#event-subscription-filters-in-the-workfront-watch-events-modules" class="MCXref xref">Filtri di sottoscrizione eventi nei moduli [!DNL Workfront] &gt; [!UICONTROL Watch Events]</a> in questo articolo.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td>Escludi eventi creati da questa connessione</td> 
@@ -205,16 +205,16 @@ Il modulo restituisce tutti i campi standard associati al record, insieme a tutt
      </tr> 
      <tr> 
       <td>[!UICONTROL Origine record]</td> 
-      <td> <p>Scegli se desideri che lo scenario sia visibile <strong>[!UICONTROL Solo Nuovi Record]</strong>, <strong>[!UICONTROL Aggiornato Solo Record]</strong>, <strong>[!UICONTROL Record nuovi e aggiornati]</strong>, o <strong>[!DNL Deleted Records Only]</strong>.</p> <p>Nota: se si sceglie <strong>[!UICONTROL Record nuovi e aggiornati]</strong>, la creazione del webhook crea 2 abbonamenti evento (per lo stesso indirizzo del webhook).</p> </td> 
+      <td> <p>Scegliere se si desidera che lo scenario controlli <strong>[!UICONTROL Solo nuovi record]</strong>, <strong>[!UICONTROL Solo record aggiornati]</strong>, <strong>[!UICONTROL Record nuovi e aggiornati]</strong> o <strong>[!DNL Deleted Records Only]</strong>.</p> <p>Nota: se si sceglie <strong>[!UICONTROL Record nuovi e aggiornati]</strong>, la creazione del webhook crea 2 sottoscrizioni di eventi (per lo stesso indirizzo del webhook).</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 Dopo la creazione del webhook, puoi visualizzare l’indirizzo dell’endpoint a cui vengono inviati gli eventi.
 
-Per ulteriori informazioni, consulta la sezione [Esempi di payload di eventi](../../wf-api/general/event-subs-api.md#examples-of-event-payloads) nel [!DNL Workfront] Articolo della Guida [API di abbonamento agli eventi](../../wf-api/general/event-subs-api.md).
+Per ulteriori informazioni, vedere la sezione [Esempi di payload evento](../../wf-api/general/event-subs-api.md#examples-of-event-payloads) nell&#39;articolo della Guida [!DNL Workfront] [API sottoscrizione evento](../../wf-api/general/event-subs-api.md).
 
-Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
+Visualizzare un elenco dei tipi di oggetto [!DNL Workfront] per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -230,15 +230,15 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Workfront] app a [!DNL Workfront Fusion], vedi <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connetti [!DNL Workfront] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'app [!DNL Workfront] a [!DNL Workfront Fusion], vedere <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL Workfront] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tipo di record]</td> 
-   <td> <p>Seleziona il tipo di [!DNL Workfront] registrare che si desidera che il modulo controlli.</p> <p>Selezionare ad esempio [!UICONTROL Attività] se si desidera avviare l'esecuzione dello scenario ogni volta che viene aggiornato un campo record in un'attività.</p> </td> 
+   <td> <p>Selezionare il tipo di record [!DNL Workfront] che si desidera controllare nel modulo.</p> <p>Selezionare ad esempio [!UICONTROL Attività] se si desidera avviare l'esecuzione dello scenario ogni volta che viene aggiornato un campo record in un'attività.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Field]</td> 
-   <td>Seleziona il campo che desideri che il modulo controlli per gli aggiornamenti. Questi campi riflettono i campi [!DNL Workfront] l'amministratore ha configurato per il tracciamento.</td> 
+   <td>Seleziona il campo che desideri che il modulo controlli per gli aggiornamenti. Questi campi riflettono i campi configurati dall'amministratore [!DNL Workfront] per il tracciamento.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Output]</td> 
@@ -251,11 +251,11 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  </tbody> 
 </table>
 
-Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
+Visualizzare un elenco dei tipi di oggetto [!DNL Workfront] per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
-+++ **[!UICONTROL Record di controllo]**
++++ **[!UICONTROL Osserva record]**
 
 Questo modulo trigger esegue uno scenario quando vengono aggiunti, aggiornati o entrambi gli oggetti di un tipo specifico. Il modulo restituisce tutti i campi standard associati al record o ai record, insieme a tutti i campi e i valori personalizzati a cui la connessione accede. Puoi mappare queste informazioni nei moduli successivi nello scenario. Nell’output, il modulo indica se ogni record è nuovo o aggiornato.
 
@@ -269,15 +269,15 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Workfront] app a [!DNL Workfront Fusion], vedi <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connetti [!DNL Workfront] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'app [!DNL Workfront] a [!DNL Workfront Fusion], vedere <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL Workfront] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Filtro]</td> 
-   <td> <p>Scegli se desideri che lo scenario sia visibile <strong>[!UICONTROL Solo Nuovi Record]</strong>, <strong>[!UICONTROL Aggiornato Solo Record]</strong>, o <strong>[!UICONTROL Record nuovi e aggiornati]</strong>.</p> </td> 
+   <td> <p>Scegliere se si desidera che lo scenario controlli <strong>[!UICONTROL Solo nuovi record]</strong>, <strong>[!UICONTROL Solo record aggiornati]</strong> o <strong>[!UICONTROL Record nuovi e aggiornati]</strong>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Tipo di record]</td> 
-   <td> <p>(Viene visualizzato dopo aver scelto un <strong>Filtro</strong>.) Seleziona il tipo di [!DNL Workfront] registrare che si desidera che il modulo controlli.</p> <p>Ad esempio, se si desidera avviare lo scenario ogni volta che viene creato un nuovo progetto, selezionare [!UICONTROL Progetto]</p> </td> 
+   <td> <p>(Visualizza dopo aver scelto un <strong>filtro</strong>.) Selezionare il tipo di record [!DNL Workfront] che si desidera controllare nel modulo.</p> <p>Ad esempio, se si desidera avviare lo scenario ogni volta che viene creato un nuovo progetto, selezionare [!UICONTROL Progetto]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Output]</td> 
@@ -294,7 +294,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  </tbody> 
 </table>
 
-Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
+Visualizzare un elenco dei tipi di oggetto [!DNL Workfront] per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -328,7 +328,7 @@ Questo modulo di azione effettua una delle seguenti conversioni:
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Workfront] app a [!DNL Workfront Fusion], vedi <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connetti [!DNL Workfront] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'app [!DNL Workfront] a [!DNL Workfront Fusion], vedere <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL Workfront] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Tipo di oggetto]</td> 
@@ -339,7 +339,7 @@ Questo modulo di azione effettua una delle seguenti conversioni:
    <td>Selezionare l'oggetto in cui si desidera convertirlo. Questo è il tipo di oggetto dopo la conversione.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL &lt;object&gt; ID]</td> 
+   <td>[!UICONTROL &lt;ID Oggetto&gt;]</td> 
    <td> <p>Immettere l'ID dell'oggetto. </p> <p>Nota: quando si immette l'ID di un oggetto, è possibile iniziare a digitare il nome dell'oggetto, quindi selezionarlo dall'elenco. Il modulo immette quindi l’ID appropriato nel campo.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -367,15 +367,15 @@ Questo modulo di azione effettua una delle seguenti conversioni:
 
 +++
 
-+++ **[!UICONTROL Creare un record (allegare moduli personalizzati)]**
++++ **[!UICONTROL Crea un record (allegando moduli personalizzati)]**
 
-Questo modulo di azione crea un oggetto, ad esempio un progetto, un’attività o un problema in [!DNL Workfront]e consente di aggiungere un modulo personalizzato al nuovo oggetto. Il modulo consente di selezionare quale dei campi dell’oggetto è disponibile nel modulo.
+Questo modulo di azione crea un oggetto, ad esempio un progetto, un&#39;attività o un problema in [!DNL Workfront], e consente di aggiungere un modulo personalizzato al nuovo oggetto. Il modulo consente di selezionare quale dei campi dell’oggetto è disponibile nel modulo.
 
 Specifica l’ID del record.
 
 Il modulo restituisce l’ID del record ed eventuali campi associati, insieme a eventuali campi e valori personalizzati a cui la connessione accede. Puoi mappare queste informazioni nei moduli successivi nello scenario.
 
-Ad esempio, puoi utilizzare questo modulo per creare un’attività in [!DNL Workfront] quando un client aggiunge una nuova riga in una [!DNL Google Sheets] elenco delle attività da eseguire.
+È possibile utilizzare questo modulo, ad esempio, per creare un&#39;attività in [!DNL Workfront] quando un client aggiunge una nuova riga in un elenco [!DNL Google Sheets] di attività da eseguire.
 
 Durante la configurazione di questo modulo, vengono visualizzati i campi seguenti.
 
@@ -389,15 +389,15 @@ Assicurati di fornire il numero minimo di campi di input. Ad esempio, se desider
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Workfront] app a [!DNL Workfront Fusion], vedi <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connetti [!DNL Workfront] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'app [!DNL Workfront] a [!DNL Workfront Fusion], vedere <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL Workfront] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tipo di record]</td> 
-   <td> <p>Seleziona il tipo di [!DNL Workfront] che si desidera creare nel modulo.</p> <p>Ad esempio, se desideri creare un progetto, seleziona [!UICONTROL Progetto] dall’elenco a discesa, quindi accertati di avere accesso ai dati (dei moduli precedenti nello scenario) che popoleranno il progetto.</p> </td> 
+   <td> <p>Selezionare il tipo di record [!DNL Workfront] che si desidera venga creato dal modulo.</p> <p>Ad esempio, se desideri creare un progetto, seleziona [!UICONTROL Progetto] dall’elenco a discesa, quindi accertati di avere accesso ai dati (dei moduli precedenti nello scenario) che popoleranno il progetto.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Seleziona campi da mappare]</td> 
-   <td> <p>Selezionare i campi che si desidera rendere disponibili per l'immissione dei dati. Questo consente di utilizzare questi campi senza dover scorrere quelli non necessari.</p> <p>Per i campi nei moduli personalizzati, utilizza <b>[!UICONTROL Allega Modulo Personalizzato]</b> campo.</p> </td> 
+   <td> <p>Selezionare i campi che si desidera rendere disponibili per l'immissione dei dati. Questo consente di utilizzare questi campi senza dover scorrere quelli non necessari.</p> <p>Per i campi nei moduli personalizzati, utilizza il campo <b>[!UICONTROL Allega modulo personalizzato]</b>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Allega Modulo Personalizzato]</td> 
@@ -406,14 +406,14 @@ Assicurati di fornire il numero minimo di campi di input. Ad esempio, se desider
  </tbody> 
 </table>
 
-Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
+Visualizzare un elenco dei tipi di oggetto [!DNL Workfront] per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
 >* Quando si immette l&#39;ID di un oggetto, è possibile iniziare a digitare il nome dell&#39;oggetto, quindi selezionarlo dall&#39;elenco. Il modulo immette quindi l’ID appropriato nel campo.
->* Quando si immette il testo per un campo personalizzato o un [!UICONTROL Nota] (Commento o risposta), è possibile utilizzare i tag HTML nella [!UICONTROL Testo nota] per creare testo RTF, ad esempio testo in grassetto o corsivo.
+>* Quando immetti il testo per un campo personalizzato o un oggetto [!UICONTROL Note] (Commento o risposta), puoi utilizzare i tag HTML nel campo [!UICONTROL Testo nota] per creare testo RTF, ad esempio testo in grassetto o corsivo.
 >
->  Per ulteriori informazioni sul testo RTF negli aggiornamenti, consulta [Aggiungere un aggiornamento a un elemento di lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+>  Per ulteriori informazioni sul testo RTF negli aggiornamenti, vedere [Aggiungere un aggiornamento a un elemento di lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 >
 
 +++
@@ -426,7 +426,7 @@ Specifica l’ID del record.
 
 Il modulo restituisce l’ID del record ed eventuali campi associati, insieme a eventuali campi e valori personalizzati a cui la connessione accede. Puoi mappare queste informazioni nei moduli successivi nello scenario.
 
-Ad esempio, puoi utilizzare questo modulo per creare un’attività in [!DNL Workfront] quando un client aggiunge una nuova riga in un elenco di attività di Google Sheets che devono essere eseguite.
+È possibile utilizzare questo modulo, ad esempio, per creare un&#39;attività in [!DNL Workfront] quando un client aggiunge una nuova riga in un elenco di attività di Google Sheets.
 
 Durante la configurazione di questo modulo, vengono visualizzati i campi seguenti.
 
@@ -440,11 +440,11 @@ Assicurati di fornire il numero minimo di campi di input. Ad esempio, se desider
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Workfront] app a [!DNL Workfront Fusion], vedi <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connetti [!DNL Workfront] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'app [!DNL Workfront] a [!DNL Workfront Fusion], vedere <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL Workfront] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tipo di record]</td> 
-   <td> <p>Seleziona il tipo di [!DNL Workfront] che si desidera creare nel modulo.</p> <p>Ad esempio, se desideri creare un progetto, seleziona [!UICONTROL Progetto] dall’elenco a discesa, quindi accertati di avere accesso ai dati (dei moduli precedenti nello scenario) che popoleranno il progetto.</p> </td> 
+   <td> <p>Selezionare il tipo di record [!DNL Workfront] che si desidera venga creato dal modulo.</p> <p>Ad esempio, se desideri creare un progetto, seleziona [!UICONTROL Progetto] dall’elenco a discesa, quindi accertati di avere accesso ai dati (dei moduli precedenti nello scenario) che popoleranno il progetto.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Seleziona campi da mappare]</td> 
@@ -453,30 +453,30 @@ Assicurati di fornire il numero minimo di campi di input. Ad esempio, se desider
  </tbody> 
 </table>
 
-Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
+Visualizzare un elenco dei tipi di oggetto [!DNL Workfront] per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
 >* Quando si immette l&#39;ID di un oggetto, è possibile iniziare a digitare il nome dell&#39;oggetto, quindi selezionarlo dall&#39;elenco. Il modulo immette quindi l’ID appropriato nel campo.
->* Quando si immette il testo per un campo personalizzato o un [!UICONTROL Nota] (Commento o risposta), è possibile utilizzare i tag HTML nella [!UICONTROL Testo nota] per creare testo RTF, ad esempio testo in grassetto o corsivo.
+>* Quando immetti il testo per un campo personalizzato o un oggetto [!UICONTROL Note] (Commento o risposta), puoi utilizzare i tag HTML nel campo [!UICONTROL Testo nota] per creare testo RTF, ad esempio testo in grassetto o corsivo.
 >
->  Per ulteriori informazioni sul testo RTF negli aggiornamenti, consulta [Aggiungere un aggiornamento a un elemento di lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+>  Per ulteriori informazioni sul testo RTF negli aggiornamenti, vedere [Aggiungere un aggiornamento a un elemento di lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 >
 
 +++
 
 +++ **[!UICONTROL Chiamata API personalizzata]**
 
-Questo modulo di azione consente di effettuare una chiamata autenticata personalizzata al [!DNL Workfront] API. In questo modo, puoi creare un’automazione del flusso di dati che non può essere eseguita dall’altro [!DNL Workfront] moduli.
+Questo modulo di azione consente di effettuare una chiamata autenticata personalizzata all&#39;API [!DNL Workfront]. In questo modo è possibile creare un&#39;automazione del flusso di dati che non può essere eseguita dagli altri moduli [!DNL Workfront].
 
 Il modulo restituisce le seguenti informazioni:
 
-* **[!UICONTROL Codice di stato]** (numero): indica l’esito positivo o negativo della richiesta HTTP. Si tratta di codici standard che puoi cercare su Internet.
-* **[!UICONTROL Intestazioni]** (oggetto): contesto più dettagliato per il codice di risposta/stato che non è correlato al corpo di output. Non tutte le intestazioni visualizzate in un’intestazione di risposta sono intestazioni di risposta, quindi alcune potrebbero non essere utili.
+* **[!UICONTROL Codice di stato]** (numero): indica il completamento o l&#39;errore della richiesta HTTP. Si tratta di codici standard che puoi cercare su Internet.
+* **[!UICONTROL Intestazioni]** (oggetto): contesto più dettagliato per il codice di risposta/stato che non è correlato al corpo dell&#39;output. Non tutte le intestazioni visualizzate in un’intestazione di risposta sono intestazioni di risposta, quindi alcune potrebbero non essere utili.
 
   Le intestazioni di risposta dipendono dalla richiesta HTTP scelta durante la configurazione del modulo.
 
-* **[!UICONTROL Corpo]** (oggetto): a seconda della richiesta HTTP scelta durante la configurazione del modulo, alcuni dati potrebbero essere restituiti. Tali dati, ad esempio i dati di una richiesta GET, sono contenuti in questo oggetto.
+* **[!UICONTROL Corpo]** (oggetto): a seconda della richiesta HTTP scelta durante la configurazione del modulo, è possibile che alcuni dati vengano restituiti. Tali dati, ad esempio i dati di una richiesta GET, sono contenuti in questo oggetto.
 
 Puoi mappare queste informazioni nei moduli successivi nello scenario.
 
@@ -488,23 +488,23 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Workfront] app a [!DNL Workfront Fusion], vedi <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connetti [!DNL Workfront] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'app [!DNL Workfront] a [!DNL Workfront Fusion], vedere <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL Workfront] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
-   <td> <p>Inserisci un percorso relativo a<code> https://&lt;WORKFRONT_DOMAIN&gt;/attask/api/&lt;API_VERSION&gt;/</code>.</p> </td> 
+   <td> <p>Immettere un percorso relativo a <code> https://&lt;WORKFRONT_DOMAIN&gt;/attask/api/&lt;API_VERSION&gt;/</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL versione API]</td> 
-   <td>Seleziona la versione di [!DNL Workfront] API che desideri che il modulo utilizzi.</td> 
+   <td>Selezionare la versione dell'API [!DNL Workfront] che si desidera venga utilizzata dal modulo.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
-   <td> <p>Seleziona il metodo di richiesta HTTP necessario per configurare la chiamata API. Per ulteriori informazioni, consulta <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Metodi di richiesta HTTP in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Seleziona il metodo di richiesta HTTP necessario per configurare la chiamata API. Per ulteriori informazioni, vedere <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Metodi di richiesta HTTP in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>Aggiungi le intestazioni della richiesta sotto forma di oggetto JSON standard. Determina il tipo di contenuto della richiesta.</p> <p>Ad esempio:<code> {"Content-type":"application/json"}</code></p> <p>Nota: se ricevi errori ed è difficile determinarne l’origine, puoi modificare le intestazioni in base al [!DNL Workfront] documentazione. Se la chiamata API personalizzata restituisce un errore di richiesta HTTP 422, prova a utilizzare un <code>"Content-Type":"text/plain"</code> intestazione.</p> </td> 
+   <td> <p>Aggiungi le intestazioni della richiesta sotto forma di oggetto JSON standard. Determina il tipo di contenuto della richiesta.</p> <p>Ad esempio:<code> {"Content-type":"application/json"}</code></p> <p>Nota: se ricevi errori ed è difficile determinarne l'origine, puoi modificare le intestazioni in base alla documentazione di [!DNL Workfront]. Se la chiamata API personalizzata restituisce un errore di richiesta HTTP 422, provare a utilizzare un'intestazione <code>"Content-Type":"text/plain"</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Stringa Di Query]</td> 
@@ -512,7 +512,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Aggiungi il contenuto body per la chiamata API sotto forma di oggetto JSON standard.</p> <p>Nota:  <p>Quando si utilizzano istruzioni condizionali quali <code>if</code> nel JSON, inserisci le virgolette al di fuori dell’istruzione condizionale.</p> 
+   <td> <p>Aggiungi il contenuto body per la chiamata API sotto forma di oggetto JSON standard.</p> <p>Nota:  <p>Quando si utilizzano istruzioni condizionali come <code>if</code> nel JSON, inserire le virgolette al di fuori dell'istruzione condizionale.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -520,7 +520,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  </tbody> 
 </table>
 
-Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
+Visualizzare un elenco dei tipi di oggetto [!DNL Workfront] per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -540,24 +540,24 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Workfront] app a [!DNL Workfront Fusion], vedi <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connetti [!DNL Workfront] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'app [!DNL Workfront] a [!DNL Workfront Fusion], vedere <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL Workfront] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Forza eliminazione]</td> 
-   <td>Abilita questa opzione per garantire che il record venga eliminato, anche se [!DNL Workfront] L’interfaccia utente richiede la conferma dell’eliminazione.</td> 
+   <td>Abilita questa opzione per garantire che il record venga eliminato, anche se l'interfaccia utente [!DNL Workfront] richiede la conferma dell'eliminazione.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>ID</td> 
-   <td> <p>Immetti l’univoco [!DNL Workfront] ID del record che desideri eliminare dal modulo.</p> <p>Per ottenere l’ID, apri la [!DNL Workfront] nel browser e copia il testo alla fine dell'URL dopo "ID=". Ad esempio: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
+   <td> <p>Immettere l'ID [!DNL Workfront] univoco del record che si desidera eliminare dal modulo.</p> <p>Per ottenere l'ID, apri l'oggetto [!DNL Workfront] nel browser e copia il testo alla fine dell'URL dopo "ID=". Ad esempio: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tipo di record]</td> 
-   <td>Seleziona il tipo di [!DNL Workfront] che si desidera eliminare dal modulo.</td> 
+   <td>Selezionare il tipo di record [!DNL Workfront] da eliminare dal modulo.</td> 
   </tr> 
  </tbody> 
 </table>
 
-Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
+Visualizzare un elenco dei tipi di oggetto [!DNL Workfront] per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -585,20 +585,20 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Workfront] app a [!DNL Workfront Fusion], vedi <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connetti [!DNL Workfront] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'app [!DNL Workfront] a [!DNL Workfront Fusion], vedere <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL Workfront] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID documento]</td> 
-   <td> <p>Mappa o immetti manualmente il codice univoco [!DNL Workfront] ID del documento che desideri scaricare dal modulo.</p> <p>Per ottenere l’ID, apri la [!DNL Workfront] nel browser e copia il testo alla fine dell'URL dopo "ID=". Ad esempio: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
+   <td> <p>Mappare o immettere manualmente l'ID [!DNL Workfront] univoco del documento che si desidera scaricare dal modulo.</p> <p>Per ottenere l'ID, apri l'oggetto [!DNL Workfront] nel browser e copia il testo alla fine dell'URL dopo "ID=". Ad esempio: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
+Visualizzare un elenco dei tipi di oggetto [!DNL Workfront] per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
-+++ **[!UICONTROL Azione Varie]**
++++ **[!UICONTROL Azione Varia]**
 
 Questo modulo di azione consente di eseguire azioni sull’API.
 
@@ -610,36 +610,36 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Workfront] app a [!DNL Workfront Fusion], vedi <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connetti [!DNL Workfront] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'app [!DNL Workfront] a [!DNL Workfront Fusion], vedere <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL Workfront] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Tipo di record]</td> 
-   <td> <p>Seleziona il tipo di [!DNL Workfront] che si desidera che il modulo interagisca con.</p> </td> 
+   <td> <p>Selezionare il tipo di record [!DNL Workfront] con cui si desidera interagire il modulo.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Action]</td> 
-   <td> <p>Selezionare l'azione che si desidera venga eseguita dal modulo.</p> <p>Potrebbe essere necessario compilare ulteriori campi, a seconda del tipo di record [!UICONTROL] e dell'azione [!UICONTROL] scelti. Alcune combinazioni di queste due impostazioni possono richiedere solo un ID record, mentre altre (come Project per <strong>[!UICONTROL Tipo di record]</strong> e [!UICONTROL Allega modello] per <strong>[!UICONTROL Action]</strong>) richiedono informazioni aggiuntive (ad esempio un ID oggetto e un ID modello).</p> <p>Per informazioni dettagliate sui singoli campi, vedere <a href="http://developer.workfront.com/">Documentazione per sviluppatori Workfront</a>. <p><strong>Nota</strong>: il sito della documentazione per sviluppatori include informazioni solo tramite la versione 14 dell’API, ma contiene ancora informazioni importanti per le chiamate API. </p> 
+   <td> <p>Selezionare l'azione che si desidera venga eseguita dal modulo.</p> <p>Potrebbe essere necessario compilare ulteriori campi, a seconda del tipo di record [!UICONTROL] e dell'azione [!UICONTROL] scelti. Alcune combinazioni di queste due impostazioni possono richiedere solo un ID record, mentre altre (come Project per il tipo di record <strong>[!UICONTROL]</strong> e [!UICONTROL Allega modello] per l'azione <strong>[!UICONTROL]</strong>) richiedono informazioni aggiuntive (ad esempio un ID oggetto e un ID modello).</p> <p>Per informazioni dettagliate sui singoli campi, consulta la <a href="http://developer.workfront.com/">documentazione per gli sviluppatori di Workfront</a>. <p><strong>Nota</strong>: il sito della documentazione per gli sviluppatori include informazioni solo tramite la versione 14 dell'API, ma contiene comunque informazioni importanti per le chiamate API. </p> 
     <ol> 
-     <li value="1"> <p>Selezionare il tipo di record dalla barra di navigazione a sinistra nella [!DNL Workfront] pagina della documentazione per gli sviluppatori. I seguenti tipi hanno pagine proprie:</p> 
+     <li value="1"> <p>Selezionare il tipo di record dalla barra di navigazione a sinistra nella pagina della documentazione per gli sviluppatori [!DNL Workfront]. I seguenti tipi hanno pagine proprie:</p> 
       <ul> 
        <li> <p>[!UICONTROL Progetti]</p> </li> 
        <li> <p>[!UICONTROL Attività]</p> </li> 
        <li> <p>[!UICONTROL Issues]</p> </li> 
        <li> <p>[!UICONTROL Utenti]</p> </li> 
        <li> <p>[!UICONTROL Documenti]</p> </li> 
-      </ul> <p>Per tutti gli altri tipi di record, selezionare <b>[!UICONTROL Altri oggetti ed endpoint]</b>e individuare il tipo di record nelle pagine ordinate alfabeticamente.</p> </li> 
+      </ul> <p>Per tutti gli altri tipi di record, selezionare <b>[!UICONTROL Altri oggetti ed endpoint]</b> e individuare il tipo di record nelle pagine ordinate alfabeticamente.</p> </li> 
      <li value="2"> <p>Nella pagina del tipo di record appropriato, cercare l'azione (Ctrl+F o Comando+F).</p> </li> 
      <li value="3"> <p>Visualizza le descrizioni dei campi disponibili nell'azione selezionata.</p> </li> 
-    </ol> <p>Nota:  <p>Durante la creazione di una bozza tramite il [!DNL Workfront] Nel modulo [!UICONTROL Misc Action], la procedura consigliata consiste nel creare una bozza senza opzioni avanzate, quindi aggiornarla utilizzando [!DNL Workfront Proof] API SOAP.</p> <p>Per ulteriori informazioni sulla creazione di una bozza con [!DNL Workfront] API (utilizzata da questo modulo), consulta <a href="../../wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md" class="MCXref xref">Aggiungi opzioni di verifica avanzate durante la creazione di una bozza tramite [!DNL Adobe Workfront] API</a></p> </p> </td> 
+    </ol> <p>Nota:  <p>Durante la creazione di una bozza tramite il modulo [!DNL Workfront] [!UICONTROL Misc Action], è consigliabile creare una bozza senza opzioni avanzate, quindi aggiornare la bozza utilizzando l'API SOAP [!DNL Workfront Proof].</p> <p>Per ulteriori informazioni sulla creazione di una bozza con l'API [!DNL Workfront] (utilizzata da questo modulo), vedere <a href="../../wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md" class="MCXref xref">Aggiungere opzioni di bozza avanzate durante la creazione di una bozza tramite l'API [!DNL Adobe Workfront]</a></p> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL ID]</td> 
-   <td>Inserisci o mappa l’univoco [!DNL Workfront] ID del record con cui vuoi che il modulo interagisca.<p>Per ottenere l’ID, apri la [!DNL Workfront] nel browser e copia il testo alla fine dell'URL dopo "ID=". Ad esempio: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p></td> 
+   <td>Immettere o mappare l'ID [!DNL Workfront] univoco del record con cui si desidera interagire con il modulo.<p>Per ottenere l'ID, apri l'oggetto [!DNL Workfront] nel browser e copia il testo alla fine dell'URL dopo "ID=". Ad esempio: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
+Visualizzare un elenco dei tipi di oggetto [!DNL Workfront] per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -662,12 +662,12 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
   <tr> 
     <td>[!UICONTROL Connection]</td>
 
-<td> <p>Per istruzioni sulla connessione [!DNL Workfront] app a [!DNL Workfront Fusion], vedi <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connetti [!DNL Workfront] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+<td> <p>Per istruzioni sulla connessione dell'app [!DNL Workfront] a [!DNL Workfront Fusion], vedere <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL Workfront] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
     <td>[!UICONTROL Tipo di record]</td>
 
-<td>Scegli la [!DNL Workfront] tipo di oggetto che si desidera venga letto dal modulo.</td> 
+<td>Scegliere il tipo di oggetto [!DNL Workfront] che si desidera venga letto dal modulo.</td> 
   </tr> 
   <tr> 
     <td>[!UICONTROL Output]</td>
@@ -684,12 +684,12 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
   </tr> 
   <tr> 
     <td>[!UICONTROL ID]</td>
-   <td> <p>Immetti l’univoco [!DNL Workfront] ID del record che desideri che il modulo legga.</p> <p>Per ottenere l’ID, apri la [!DNL Workfront] nel browser e copia il testo alla fine dell'URL dopo "ID=". Ad esempio: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
+   <td> <p>Immettere l'ID [!DNL Workfront] univoco del record che si desidera venga letto dal modulo.</p> <p>Per ottenere l'ID, apri l'oggetto [!DNL Workfront] nel browser e copia il testo alla fine dell'URL dopo "ID=". Ad esempio: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
+Visualizzare un elenco dei tipi di oggetto [!DNL Workfront] per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -711,15 +711,15 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Workfront] app a [!DNL Workfront Fusion], vedi <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connetti [!DNL Workfront] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'app [!DNL Workfront] a [!DNL Workfront Fusion], vedere <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL Workfront] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL ID]</td> 
-   <td> <p>Immetti l’univoco [!DNL Workfront] ID del record che desideri aggiornare nel modulo.</p> <p>Per ottenere l’ID, apri la [!DNL Workfront] nel browser e copia il testo alla fine dell'URL dopo "ID=". Ad esempio: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
+   <td> <p>Immettere l'ID [!DNL Workfront] univoco del record che si desidera aggiornare nel modulo.</p> <p>Per ottenere l'ID, apri l'oggetto [!DNL Workfront] nel browser e copia il testo alla fine dell'URL dopo "ID=". Ad esempio: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
   </tr> 
   <tr> 
    <td>[!DNL Record Type]</td> 
-   <td> <p>Seleziona il tipo di [!DNL Workfront] che desideri aggiornare il modulo.</p> </td> 
+   <td> <p>Selezionare il tipo di record [!DNL Workfront] da aggiornare nel modulo.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!DNL Select fields to map]</td> 
@@ -728,21 +728,21 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  </tbody> 
 </table>
 
-Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
+Visualizzare un elenco dei tipi di oggetto [!DNL Workfront] per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
 >* Quando si immette l&#39;ID di un oggetto, è possibile iniziare a digitare il nome dell&#39;oggetto, quindi selezionarlo dall&#39;elenco. Il modulo immette quindi l’ID appropriato nel campo.
->* Quando si immette il testo per un campo personalizzato o un [!UICONTROL Nota] (Commento o risposta), è possibile utilizzare i tag HTML nella [!UICONTROL Testo nota] per creare testo RTF, ad esempio testo in grassetto o corsivo.
+>* Quando immetti il testo per un campo personalizzato o un oggetto [!UICONTROL Note] (Commento o risposta), puoi utilizzare i tag HTML nel campo [!UICONTROL Testo nota] per creare testo RTF, ad esempio testo in grassetto o corsivo.
 >
->  Per ulteriori informazioni sul testo RTF negli aggiornamenti, consulta [Aggiungere un aggiornamento a un elemento di lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+>  Per ulteriori informazioni sul testo RTF negli aggiornamenti, vedere [Aggiungere un aggiornamento a un elemento di lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 >
 
 +++
 
 +++ **[!UICONTROL Carica documento]**
 
-Questo modulo di azione carica un documento in un [!DNL Workfront] oggetto, ad esempio un progetto, un’attività o un problema.
+Questo modulo di azione carica un documento in un oggetto [!DNL Workfront], ad esempio un progetto, un&#39;attività o un problema.
 
 È possibile specificare la posizione del documento, il file da caricare e un nuovo nome facoltativo per il file.
 
@@ -756,24 +756,24 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Workfront] app a [!DNL Workfront Fusion], vedi <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connetti [!DNL Workfront] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'app [!DNL Workfront] a [!DNL Workfront Fusion], vedere <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL Workfront] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL ID record correlato]</td> 
-   <td>Immetti l’univoco [!DNL Workfront] ID del record in cui desideri caricare il documento.</td> 
+   <td>Immettere l'ID [!DNL Workfront] univoco del record in cui si desidera caricare il documento.</td> 
   </tr> 
   <tr> 
    <td>Tipo di record correlato a [!UICONTROL]</td> 
-   <td>Seleziona il tipo di [!DNL Workfront] registra dove desideri che il modulo carichi il documento.</td> 
+   <td>Selezionare il tipo di record [!DNL Workfront] in cui si desidera che il modulo carichi il documento.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL File di origine]</td> 
+   <td>[!UICONTROL Source file]</td> 
    <td> <p>Selezionare un file di origine da un modulo precedente o mappare il nome e i dati del file di origine.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
+Visualizzare un elenco dei tipi di oggetto [!DNL Workfront] per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -798,15 +798,15 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Workfront] app a [!DNL Workfront Fusion], vedi <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connetti [!DNL Workfront] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'app [!DNL Workfront] a [!DNL Workfront Fusion], vedere <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL Workfront] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Tipo di record]</td> 
-   <td> <p>Selezionare il tipo di record padre (oggetto Workfront) di cui si desidera leggere i record associati.</p> <p>Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in <a href="#object-types-available-for-each-workfront-search-module" class="MCXref xref">[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo</a> in questo articolo.</p> </td> 
+   <td> <p>Selezionare il tipo di record padre (oggetto Workfront) di cui si desidera leggere i record associati.</p> <p>Visualizzare un elenco dei tipi di oggetto [!DNL Workfront] per i quali è possibile utilizzare questo modulo nei tipi di oggetto <a href="#object-types-available-for-each-workfront-search-module" class="MCXref xref">[!DNL Workfront] disponibili per ogni modulo [!DNL Workfront]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL ID record padre]</td> 
-   <td> <p>Immettere o mappare l'ID del record padre di cui si desidera leggere i record associati.</p> <p>Per ottenere l’ID, apri la [!DNL Workfront] nel browser e copia il testo alla fine dell'URL dopo "ID=". Ad esempio: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
+   <td> <p>Immettere o mappare l'ID del record padre di cui si desidera leggere i record associati.</p> <p>Per ottenere l'ID, apri l'oggetto [!DNL Workfront] nel browser e copia il testo alla fine dell'URL dopo "ID=". Ad esempio: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Raccolte]</td> 
@@ -835,11 +835,11 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Workfront] app a [!DNL Workfront Fusion], vedi <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connetti [!DNL Workfront] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'app [!DNL Workfront] a [!DNL Workfront Fusion], vedere <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL Workfront] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tipo di record]</td> 
-   <td> <p>Seleziona il tipo di [!DNL Workfront] record che si desidera cercare nel modulo.</p> </td> 
+   <td> <p>Selezionare il tipo di record [!DNL Workfront] da cercare nel modulo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Result Set]</td> 
@@ -855,7 +855,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
   </tr> 
   <tr> 
    <td>Criteri di ricerca di [!UICONTROL]</td> 
-   <td> <p>Immettere il campo in base al quale si desidera eseguire la ricerca, l'operatore che si desidera utilizzare nella query e il valore ricercato nel campo.</p> <p>Nota: non usi <code>username </code>nei criteri di ricerca. Inclusione <code>username </code>in una query API a [!DNL Workfront] accede a Workfront e la ricerca non avrà esito positivo.</p> <p>Nota: <code>In</code> e <code>NotIn</code>utilizzare gli array. Gli input devono essere in formato array.</p></td> 
+   <td> <p>Immettere il campo in base al quale si desidera eseguire la ricerca, l'operatore che si desidera utilizzare nella query e il valore ricercato nel campo.</p> <p>Nota: non utilizzare <code>username </code> nei criteri di ricerca. L'inclusione di <code>username </code> in una query API per [!DNL Workfront] comporta l'accesso dell'utente a Workfront e la ricerca non avrà esito positivo.</p> <p>Nota: <code>In</code> e <code>NotIn</code> funzionano con gli array. Gli input devono essere in formato array.</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Output]</td> 
@@ -887,11 +887,11 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Workfront] app a [!DNL Workfront Fusion], vedi <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connetti [!DNL Workfront] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'app [!DNL Workfront] a [!DNL Workfront Fusion], vedere <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL Workfront] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tipo di record]</td> 
-   <td> <p>Seleziona il tipo di [!DNL Workfront] record che si desidera cercare nel modulo.</p> </td> 
+   <td> <p>Selezionare il tipo di record [!DNL Workfront] da cercare nel modulo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Result Set]</td> 
@@ -903,7 +903,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
   </tr> 
   <tr> 
    <td>Criteri di ricerca di [!UICONTROL]</td> 
-   <td> <p>Immettere il campo in base al quale si desidera eseguire la ricerca, l'operatore che si desidera utilizzare nella query e il valore ricercato nel campo.</p> <p>Nota: non usi <code>username </code>nei criteri di ricerca. Inclusione <code>username </code>in una query API a [!DNL Workfront] accede a Workfront e la ricerca non avrà esito positivo.</p> <p>Nota: <code>In</code> e <code>NotIn</code>utilizzare gli array. Gli input devono essere in formato array.</p></td> 
+   <td> <p>Immettere il campo in base al quale si desidera eseguire la ricerca, l'operatore che si desidera utilizzare nella query e il valore ricercato nel campo.</p> <p>Nota: non utilizzare <code>username </code> nei criteri di ricerca. L'inclusione di <code>username </code> in una query API per [!DNL Workfront] comporta l'accesso dell'utente a Workfront e la ricerca non avrà esito positivo.</p> <p>Nota: <code>In</code> e <code>NotIn</code> funzionano con gli array. Gli input devono essere in formato array.</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Output]</td> 
@@ -920,17 +920,17 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  </tbody> 
 </table>
 
-Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
+Visualizzare un elenco dei tipi di oggetto [!DNL Workfront] per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
-## [!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo
+## [!DNL Workfront] tipi di oggetto disponibili per ogni modulo [!DNL Workfront]
 
 <!-- [Object types available for each Workfront trigger module](#object-types-available-for-each-workfront-trigger-module) 
 * [Object types available for each Workfront action module](#object-types-available-for-each-workfront-action-module) 
 * [Object types available for each Workfront search module](#object-types-available-for-each-workfront-search-module)-->
 
-+++**Tipi di oggetto disponibili per ogni [!DNL Workfront] modulo trigger**
++++**Tipi di oggetto disponibili per ogni modulo trigger [!DNL Workfront]**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -1197,11 +1197,11 @@ Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibil
 
 +++
 
-+++**Tipi di oggetto disponibili per ogni [!DNL Workfront] modulo azione**
++++**Tipi di oggetto disponibili per ogni modulo azione [!DNL Workfront]**
 
 >[!NOTE]
 >
->Il [!UICONTROL Scarica documento] modulo non è incluso in questa tabella perché [!DNL Workfront] i tipi di oggetto non fanno parte della relativa configurazione.
+>Il modulo [!UICONTROL Scarica documento] non è incluso in questa tabella perché i tipi di oggetto [!DNL Workfront] non fanno parte della relativa configurazione.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -1620,7 +1620,7 @@ Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibil
 
 +++
 
-+++**Tipi di oggetto disponibili per ogni [!DNL Workfront] modulo di ricerca**
++++**Tipi di oggetto disponibili per ogni modulo di ricerca [!DNL Workfront]**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -1821,17 +1821,17 @@ Si consiglia di verificare che questo funzioni come previsto.
 
 +++
 
-## Filtri di abbonamento agli eventi in [!DNL Workfront] > [!UICONTROL Guarda gli eventi] moduli
+## Filtri di sottoscrizione eventi nei moduli [!DNL Workfront] > [!UICONTROL Osserva eventi]
 
 >[!NOTE]
 >
->Si consiglia vivamente di utilizzare i filtri di abbonamento agli eventi nel [!UICONTROL Guarda gli eventi] moduli.
+>Si consiglia vivamente di utilizzare i filtri di abbonamento agli eventi nei moduli [!UICONTROL Osserva eventi].
 
-Il [!DNL Workfront] [!UICONTROL Guarda gli eventi] Il modulo attiva scenari basati su un webhook che crea un abbonamento evento nel [!DNL Workfront] API. L’abbonamento a un evento è un set di dati che determina quali eventi vengono inviati al webhook. Ad esempio, se imposti un [!UICONTROL Guarda gli eventi] modulo che sta monitorando la presenza di problemi, l’abbonamento all’evento invia solo gli eventi relativi ai problemi.
+Il modulo [!DNL Workfront] [!UICONTROL Osserva eventi] attiva scenari basati su un webhook che crea una sottoscrizione evento nell&#39;API [!DNL Workfront]. L’abbonamento a un evento è un set di dati che determina quali eventi vengono inviati al webhook. Ad esempio, se imposti un modulo [!UICONTROL Osserva eventi] che sta monitorando la presenza di problemi, l&#39;abbonamento all&#39;evento invia solo gli eventi correlati ai problemi.
 
-Utilizzando i filtri di abbonamento agli eventi, gli utenti di Fusion possono creare sottoscrizioni agli eventi più adatte ai loro casi d’uso. Ad esempio, puoi impostare una sottoscrizione di evento nel [!DNL Workfront] API per inviare al webhook solo i problemi presenti in un progetto specifico, assicurando che [!UICONTROL Guarda gli eventi] Il modulo verrà attivato solo per i problemi di quel progetto. La possibilità di creare trigger più piccoli migliora la progettazione dello scenario riducendo il numero di trigger irrilevanti.
+Utilizzando i filtri di abbonamento agli eventi, gli utenti di Fusion possono creare sottoscrizioni agli eventi più adatte ai loro casi d’uso. Ad esempio, è possibile impostare una sottoscrizione evento nell&#39;API [!DNL Workfront] per inviare al webhook solo i problemi che si trovano in un progetto specifico, assicurandosi che il modulo [!UICONTROL Osserva eventi] venga attivato solo per i problemi del progetto. La possibilità di creare trigger più piccoli migliora la progettazione dello scenario riducendo il numero di trigger irrilevanti.
 
-Questa operazione è diversa dalla configurazione di un filtro in [!DNL Workfront Fusion] scenario. Senza un filtro di abbonamento agli eventi, il webhook riceve tutti gli eventi relativi al tipo di oggetto selezionato. La maggior parte di questi eventi sarebbe irrilevante per lo scenario e deve essere filtrata prima che lo scenario possa continuare.
+Questa operazione è diversa dalla configurazione di un filtro nello scenario [!DNL Workfront Fusion]. Senza un filtro di abbonamento agli eventi, il webhook riceve tutti gli eventi relativi al tipo di oggetto selezionato. La maggior parte di questi eventi sarebbe irrilevante per lo scenario e deve essere filtrata prima che lo scenario possa continuare.
 
 Nel filtro Workfront > Osserva eventi sono disponibili i seguenti operatori:
 
@@ -1849,15 +1849,15 @@ Nel filtro Workfront > Osserva eventi sono disponibili i seguenti operatori:
 * Cambiato
    * Questo operatore non richiede un valore e il campo del valore è assente.
    * Questo operatore ignora il campo Stato.
-   * Quando si utilizza `Changed`, seleziona **Solo eventi aggiornati** nel **Origine record** campo.
+   * Quando utilizzi `Changed`, seleziona **Solo eventi aggiornati** nel campo **Origine record**.
 
 >[!IMPORTANT]
 >
->Non è possibile modificare i filtri esistenti [!DNL Workfront] webhook. Per impostare filtri diversi per [!DNL Workfront] sottoscrizioni di eventi, rimuovi il webhook corrente e creane uno nuovo.
+>Impossibile modificare i filtri nei webhook [!DNL Workfront] esistenti. Per impostare filtri diversi per le sottoscrizioni di eventi [!DNL Workfront], rimuovere il webhook corrente e crearne uno nuovo.
 
 >[!INFO]
 >
->**Esempio:** Considera uno scenario che elabora i nuovi problemi assegnati a un utente specifico, Ana.
+>**Esempio:** considera uno scenario che elabora nuovi problemi assegnati a un utente specifico, Ana.
 >
 >### Filtrare gli eventi utilizzando un filtro di abbonamento agli eventi (scelta consigliata)
 >
@@ -1869,15 +1869,15 @@ Nel filtro Workfront > Osserva eventi sono disponibili i seguenti operatori:
 >
 >### Filtra gli eventi all’interno dello scenario (scelta non consigliata)
 >
->Per filtrare gli eventi in modo che vengano elaborati solo i problemi assegnati ad Ana, puoi creare un filtro dopo [!UICONTROL Guarda gli eventi] modulo.
+>Per filtrare gli eventi in modo che vengano elaborati solo i problemi assegnati ad Ana, puoi creare un filtro dopo il modulo [!UICONTROL Osserva eventi].
 >
 >![](assets/watch-events-non-event-filter-350x206.png)
 >
 >Se vengono creati 100 problemi in un giorno, ma solo due di essi sono assegnati ad Ana, lo scenario verrebbe eseguito 100 volte. 98 esecuzioni si fermerebbero al filtro, ma il modulo trigger consuma ancora dati ed esegue operazioni in tutte le esecuzioni.
 
-Per ulteriori informazioni sugli abbonamenti agli eventi, consulta [Domande frequenti - Abbonamenti agli eventi](../../wf-api/general/event-subs-faq.md).
+Per ulteriori informazioni sulle sottoscrizioni di eventi, vedere [Domande frequenti - Sottoscrizioni eventi](../../wf-api/general/event-subs-faq.md).
 
-Per ulteriori informazioni sui webhook, consulta [Trigger istantanei (webhook) in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)
+Per ulteriori informazioni sui webhook, vedere [Trigger istantanei (webhook) in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)
 
-Per ulteriori informazioni sui filtri negli scenari, consulta [Aggiungere un filtro a uno scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md).
+Per ulteriori informazioni sui filtri negli scenari, vedere [Aggiungere un filtro a uno scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md).
 

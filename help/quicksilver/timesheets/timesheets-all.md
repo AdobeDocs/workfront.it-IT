@@ -21,6 +21,6 @@ ht-degree: 0%
 Questa sezione contiene gli articoli delle seguenti sottosezioni:
 
 * [Dettagli scheda orario: indice articolo](../timesheets/timesheets/timesheets.md)
-* [Creare e gestire le schede orario: indice dell’articolo](../timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
-* [Configurare la modalità di registrazione del tempo: indice articolo](../timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
+* [Crea e gestisci schede orario: indice articolo](../timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
+* [Configura la modalità di registrazione del tempo: indice articolo](../timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
 * [Suggerimenti, trucchi e risoluzione dei problemi: indice degli articoli](../timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)

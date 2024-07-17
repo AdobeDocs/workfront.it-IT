@@ -5,7 +5,7 @@ product-area: workfront-integrations;documents
 keywords: connettore
 navigation-topic: apps-and-their-modules
 title: Moduli Dropbox
-description: In un [!DNL Adobe Workfront Fusion] In questo scenario, è possibile automatizzare i flussi di lavoro che utilizzano il Dropbox e collegarlo a più applicazioni e servizi di terze parti. Ciò consente di automatizzare attività quali il monitoraggio, la ricerca, il recupero, l'inserimento in elenco, la creazione e la modifica di file e cartelle nel Dropbox.
+description: In uno scenario  [!DNL Adobe Workfront Fusion] , è possibile automatizzare i flussi di lavoro che utilizzano il Dropbox, nonché collegarlo a più applicazioni e servizi di terze parti. Ciò consente di automatizzare attività quali il monitoraggio, la ricerca, il recupero, l'inserimento in elenco, la creazione e la modifica di file e cartelle nel Dropbox.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: a35631d7-40ac-4e7f-9a37-ad3879c0b6a2
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 # [!DNL Dropbox] moduli
 
-In un [!DNL Adobe Workfront Fusion] scenario, puoi automatizzare i flussi di lavoro che utilizzano [!UICONTROL Dropbox] o [!DNL Dropbox Business]nonché a collegarlo a più applicazioni e servizi di terze parti.Ciò consente di automatizzare attività quali il monitoraggio, la ricerca, il recupero, l&#39;inserimento in elenco, la creazione e la modifica di file e cartelle nel [!UICONTROL Dropbox].
+In uno scenario [!DNL Adobe Workfront Fusion], è possibile automatizzare i flussi di lavoro che utilizzano [!UICONTROL Dropbox] o [!DNL Dropbox Business], nonché collegarli a più applicazioni e servizi di terze parti. In questo modo è possibile automatizzare attività quali il monitoraggio, la ricerca, il recupero, l&#39;inserimento in elenco, la creazione e la modifica di file e cartelle nel [!UICONTROL Dropbox].
 
-Per istruzioni sulla creazione di uno scenario, consulta [Creare uno scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Se hai bisogno di istruzioni per la creazione di uno scenario, consulta [Creare uno scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Per informazioni sui moduli, consulta [Moduli in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Per informazioni sui moduli, vedere [Moduli in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Requisiti di accesso
 
@@ -43,29 +43,29 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licenza**</td> 
    <td>
-   <p>Fabbisogno di licenza corrente: No [!DNL Workfront Fusion] requisito di licenza.</p>
+   <p>Requisiti di licenza correnti: nessun requisito di licenza [!DNL Workfront Fusion].</p>
    <p>Oppure</p>
-   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro] </p>
+   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione del lavoro] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
    <td>
-   <p>Fabbisogno prodotto corrente: se si dispone di [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Pianifica, la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo. [!DNL Workfront Fusion] è incluso in [!UICONTROL Ultimate] [!DNL Workfront] piano.</p>
+   <p>Fabbisogno prodotto corrente: se si dispone del piano [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], l'organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo. [!DNL Workfront Fusion] è incluso nel piano [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>Oppure</p>
-   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</p>
+   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore [!DNL Workfront].
 
-Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Prerequisiti
 
-* Da utilizzare [!DNL Dropbox] moduli, è necessario disporre di un [!DNL Dropbox] account.
+* Per utilizzare i moduli [!DNL Dropbox], è necessario disporre di un account [!DNL Dropbox].
 
 >[!IMPORTANT]
 >
@@ -74,11 +74,11 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe
 >Per ulteriori informazioni, cerca &quot;Approvazione produzione&quot; nella guida per gli sviluppatori di Dropbox.
 
 
-## Creare una connessione a [!DNL Dropbox]
+## Crea una connessione a [!DNL Dropbox]
 
-Per creare una connessione per [!DNL Dropbox] moduli:
+Per creare una connessione per i moduli [!DNL Dropbox]:
 
-1. Clic **[!UICONTROL Aggiungi]** accanto alla casella Connessione.
+1. Fai clic su **[!UICONTROL Aggiungi]** accanto alla casella Connessione.
 
 1. Compila i campi seguenti:
 
@@ -107,7 +107,7 @@ Per creare una connessione per [!DNL Dropbox] moduli:
         <td>Immetti il [!UICONTROL Dropbox] [!UICONTROL Client ID]. </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Segreto client]</td>
-        <td>Immetti il [!DNL Dropbox] [!UICONTROL Segreto Client]. </td>
+        <td>Immetti [!DNL Dropbox] [!UICONTROL Client Secret]. </td>
         </tr>
         <tr>
         <td role="rowheader">Tipo di account [!UICONTROL]</td>
@@ -116,19 +116,19 @@ Per creare una connessione per [!DNL Dropbox] moduli:
       </tbody>
     </table>
 
-1. Clic **[!UICONTROL Continua]** per salvare la connessione e tornare al modulo.## [!DNL Dropbox] moduli e relativi campi
+1. Fai clic su **[!UICONTROL Continua]** per salvare la connessione e tornare al modulo.## [!DNL Dropbox] moduli e relativi campi
 
 ## [!DNL Dropbox] moduli e relativi campi
 
-Quando si configura [!DNL Dropbox] moduli, [!DNL Workfront Fusion] visualizza i campi elencati di seguito. Oltre a questi, ulteriori [!DNL Dropbox] I campi potrebbero essere visualizzati in base a fattori quali il livello di accesso nell’app o nel servizio. Un titolo in grassetto in un modulo indica un campo obbligatorio.
+Quando configuri [!DNL Dropbox] moduli, [!DNL Workfront Fusion] visualizza i campi elencati di seguito. Insieme a questi, potrebbero essere visualizzati ulteriori campi di [!DNL Dropbox], a seconda di fattori quali il livello di accesso nell&#39;app o nel servizio. Un titolo in grassetto in un modulo indica un campo obbligatorio.
 
-Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possibile utilizzarlo per impostare variabili e funzioni per tale campo. Per ulteriori informazioni, consulta [Mappare le informazioni da un modulo all’altro in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possibile utilizzarlo per impostare variabili e funzioni per tale campo. Per ulteriori informazioni, vedere [Mappare le informazioni da un modulo all&#39;altro in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
 * [Moduli trigger](#trigger-modules)
-* [Moduli per ottenere [!DNL Dropbox] file e cartelle](#modules-for-getting-dropbox-files-and-folders)
-* [Moduli per la creazione e la modifica [!DNL Dropbox] file e cartelle](#modules-for-creating-and-editing-dropbox-files-and-folders)
+* [Moduli per ottenere  [!DNL Dropbox]  file e cartelle](#modules-for-getting-dropbox-files-and-folders)
+* [Moduli per la creazione e la modifica di  [!DNL Dropbox]  file e cartelle](#modules-for-creating-and-editing-dropbox-files-and-folders)
 * [Altri moduli](#other-modules)
 
 ### Moduli trigger
@@ -143,7 +143,7 @@ Questo modulo del tipo Trigger restituisce i dettagli del file quando viene modi
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Dropbox] account a [!DNL Workfront Fusion], vedi <a href="#create-a-connection-to-dropbox" class="MCXref xref">Creare una connessione a [!DNL Dropbox]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Dropbox] a [!DNL Workfront Fusion], vedere <a href="#create-a-connection-to-dropbox" class="MCXref xref">Creare una connessione a [!DNL Dropbox]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Folder] </td> 
@@ -163,9 +163,9 @@ Questo modulo del tipo Trigger restituisce i dettagli del file quando viene modi
 ### Moduli per ottenere [!DNL Dropbox] file e cartelle
 
 * [[!UICONTROL Cerca file/cartelle]](#search-filesfolders)
-* [[!UICONTROL Scaricare un file]](#download-a-file)
-* [[!UICONTROL Ottenere i metadati di una cartella]](#get-a-folder-metadata)
-* [[!UICONTROL Elencare tutti i file/sottocartelle in una cartella]](#list-all-filessubfolders-in-a-folder)
+* [[!UICONTROL Scarica un file]](#download-a-file)
+* [[!UICONTROL Ottieni metadati cartella]](#get-a-folder-metadata)
+* [[!UICONTROL Elenca tutti i file/sottocartelle in una cartella]](#list-all-filessubfolders-in-a-folder)
 * [[!UICONTROL Elenca revisioni file]](#list-file-revisions)
 
 #### [!UICONTROL Cerca file/cartelle]
@@ -180,7 +180,7 @@ Puoi mappare queste informazioni nei moduli successivi nello scenario.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Dropbox] account a [!DNL Workfront Fusion], vedi <a href="#create-a-connection-to-dropbox" class="MCXref xref">Creare una connessione a [!DNL Dropbox]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Dropbox] a [!DNL Workfront Fusion], vedere <a href="#create-a-connection-to-dropbox" class="MCXref xref">Creare una connessione a [!DNL Dropbox]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL - Ricerca] </td> 
@@ -188,7 +188,7 @@ Puoi mappare queste informazioni nei moduli successivi nello scenario.
   </tr> 
   <tr> 
    <td>[!UICONTROL Folder] </td> 
-   <td> <p>Selezionare la cartella in cui si desidera eseguire la ricerca. Questo modulo esegue ricerche nell’intero [!DNL Dropbox] se non si seleziona una cartella.</p> </td> 
+   <td> <p>Selezionare la cartella in cui si desidera eseguire la ricerca. Se non si seleziona una cartella, questo modulo esegue la ricerca nell'intero [!DNL Dropbox].</p> </td> 
   </tr> 
   <tr> 
    <td>Stato file</td> 
@@ -209,7 +209,7 @@ Puoi mappare queste informazioni nei moduli successivi nello scenario.
  </tbody> 
 </table>
 
-#### [!UICONTROL Scaricare un file]
+#### [!UICONTROL Scarica un file]
 
 Questo modulo di azione scarica un file da una cartella.
 
@@ -229,7 +229,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Dropbox] account a [!DNL Workfront Fusion], vedi <a href="#create-a-connection-to-dropbox" class="MCXref xref">Creare una connessione a [!DNL Dropbox]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Dropbox] a [!DNL Workfront Fusion], vedere <a href="#create-a-connection-to-dropbox" class="MCXref xref">Creare una connessione a [!DNL Dropbox]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>Modalità di selezione dei file</td> 
@@ -242,7 +242,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  </tbody> 
 </table>
 
-#### [!UICONTROL Ottenere i metadati di una cartella]
+#### [!UICONTROL Ottieni metadati cartella]
 
 Questo modulo di azione recupera i dettagli della cartella condivisa.
 
@@ -258,7 +258,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Dropbox] account a [!DNL Workfront Fusion], vedi <a href="#create-a-connection-to-dropbox" class="MCXref xref">Creare una connessione a [!DNL Dropbox]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Dropbox] a [!DNL Workfront Fusion], vedere <a href="#create-a-connection-to-dropbox" class="MCXref xref">Creare una connessione a [!DNL Dropbox]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>ID cartella condivisa</td> 
@@ -267,7 +267,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  </tbody> 
 </table>
 
-#### [!UICONTROL Elencare tutti i file/sottocartelle in una cartella]
+#### [!UICONTROL Elenca tutti i file/sottocartelle in una cartella]
 
 Questo modulo di azione elenca i file o le cartelle presenti in una cartella specifica.
 
@@ -283,7 +283,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Dropbox] account a [!DNL Workfront Fusion], vedi <a href="#create-a-connection-to-dropbox" class="MCXref xref">Creare una connessione a [!DNL Dropbox]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Dropbox] a [!DNL Workfront Fusion], vedere <a href="#create-a-connection-to-dropbox" class="MCXref xref">Creare una connessione a [!DNL Dropbox]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>Elenco </td> 
@@ -319,7 +319,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Dropbox] account a [!DNL Workfront Fusion], vedi <a href="#create-a-connection-to-dropbox" class="MCXref xref">Creare una connessione a [!DNL Dropbox]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Dropbox] a [!DNL Workfront Fusion], vedere <a href="#create-a-connection-to-dropbox" class="MCXref xref">Creare una connessione a [!DNL Dropbox]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>Modalità di selezione dei file</td> 
@@ -336,14 +336,14 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  </tbody> 
 </table>
 
-### Moduli per la creazione e la modifica [!DNL Dropbox] file e cartelle
+### Moduli per la creazione e la modifica di [!DNL Dropbox] file e cartelle
 
 * [[!UICONTROL Carica] un file](#upload-a-file)
-* [[!UICONTROL Creare una cartella]](#create-a-folder)
-* [[!UICONTROL Creare/sovrascrivere un file di testo]](#createoverwrite-a-text-file)
-* [[!UICONTROL Creare/aggiornare un collegamento di condivisione]](#createupdate-a-share-link)
-* [[!UICONTROL Ripristinare un file]](#restore-a-file)
-* [[!UICONTROL Spostare un file o una cartella]](#move-a-filefolder)
+* [[!UICONTROL Crea una cartella]](#create-a-folder)
+* [[!UICONTROL Crea/Sovrascrivi un file di testo]](#createoverwrite-a-text-file)
+* [[!UICONTROL Crea/aggiorna un collegamento di condivisione]](#createupdate-a-share-link)
+* [[!UICONTROL Ripristina un file]](#restore-a-file)
+* [[!UICONTROL Sposta file/cartella]](#move-a-filefolder)
 * [[!UICONTROL Rinominare un file o una cartella]](#rename-a-filefolder)
 * [[!UICONTROL Eliminare un file o una cartella]](#delete-a-filefolder)
 
@@ -363,15 +363,15 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Dropbox] account a [!DNL Workfront Fusion], vedi <a href="#create-a-connection-to-dropbox" class="MCXref xref">Creare una connessione a [!DNL Dropbox]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Dropbox] a [!DNL Workfront Fusion], vedere <a href="#create-a-connection-to-dropbox" class="MCXref xref">Creare una connessione a [!DNL Dropbox]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Folder]</td> 
-   <td> <p> Seleziona la cartella del tuo [!DNL Dropbox] desideri caricare il file in.</p> </td> 
+   <td> <p> Selezionare la cartella di [!DNL Dropbox] in cui caricare il file.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL File di origine]</p> </td> 
-   <td> <p>Immetti o mappa il file che desideri aggiungere al [!DNL Dropbox] cartella selezionata in precedenza.</p> <p style="font-weight: bold;">[!UICONTROL Nome file]</p> <p>Immettere o mappare il nome del file, inclusa l'estensione.</p> <p style="font-weight: bold;">[!UICONTROL File data]</p> <p>Immetti o mappa i dati del file (da un modulo precedente, ad esempio [!UICONTROL Google Drive] &gt;[!UICONTROL Get a File)].</p> <p>Nota: la dimensione massima del file caricato è 150 MB.</p> </td> 
+   <td> <p>[!UICONTROL Source File]</p> </td> 
+   <td> <p>Immettere o mappare il file che si desidera aggiungere alla cartella [!DNL Dropbox] selezionata in precedenza.</p> <p style="font-weight: bold;">[!UICONTROL Nome file]</p> <p>Immettere o mappare il nome del file, inclusa l'estensione.</p> <p style="font-weight: bold;">[!UICONTROL File data]</p> <p>Immetti o mappa i dati del file (da un modulo precedente, ad esempio [!UICONTROL Google Drive] &gt;[!UICONTROL Get a File)].</p> <p>Nota: la dimensione massima del file caricato è 150 MB.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Sovrascrive un file esistente]</td> 
@@ -380,7 +380,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  </tbody> 
 </table>
 
-#### [!UICONTROL Creare una cartella]
+#### [!UICONTROL Crea una cartella]
 
 Questo modulo di azione crea una nuova cartella.
 
@@ -396,7 +396,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Dropbox] account a [!DNL Workfront Fusion], vedi <a href="#create-a-connection-to-dropbox" class="MCXref xref">Creare una connessione a [!DNL Dropbox]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Dropbox] a [!DNL Workfront Fusion], vedere <a href="#create-a-connection-to-dropbox" class="MCXref xref">Creare una connessione a [!DNL Dropbox]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Nome cartella] </td> 
@@ -404,7 +404,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Folder]</p> </td> 
-   <td> <p>Immetti o mappa il percorso in cui desideri creare una nuova cartella.</p> <p>Nota:   <p>Se si utilizza un [!DNL Dropbox Business] con spazi del team, è necessario rimuovere la barra <code>/</code>, o non fare clic su <strong>[!UICONTROL Fare clic qui] per scegliere la cartella</strong> per creare una cartella di team nella radice.</p> <p>Se la barra non viene rimossa, viene generato un errore <code>[409] path/malformed_path/..</code> viene restituito.</p> </p> </td> 
+   <td> <p>Immetti o mappa il percorso in cui desideri creare una nuova cartella.</p> <p>Nota:   <p>Se si utilizza un account [!DNL Dropbox Business] (con spazi del team), è necessario rimuovere la barra <code>/</code> oppure non fare clic su <strong>[!UICONTROL Fare clic qui] per scegliere la cartella</strong> per creare una cartella del team nella radice.</p> <p>Se la barra non viene rimossa, viene restituito l'errore <code>[409] path/malformed_path/..</code>.</p> </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Rinomina automaticamente]</td> 
@@ -413,7 +413,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  </tbody> 
 </table>
 
-#### [!UICONTROL Creare/sovrascrivere un file di testo]
+#### [!UICONTROL Crea/Sovrascrivi un file di testo]
 
 Questo modulo di azione crea un file DOC o sovrascrive il contenuto di un file esistente.
 
@@ -429,7 +429,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Dropbox] account a [!DNL Workfront Fusion], vedi <a href="#create-a-connection-to-dropbox" class="MCXref xref">Creare una connessione a [!DNL Dropbox]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Dropbox] a [!DNL Workfront Fusion], vedere <a href="#create-a-connection-to-dropbox" class="MCXref xref">Creare una connessione a [!DNL Dropbox]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Seleziona per]</td> 
@@ -440,13 +440,13 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
    <td> <p>Selezionare il percorso di destinazione in cui si desidera creare un file.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL File di origine]</p> </td> 
-   <td> <p>Immetti o mappa il file che desideri aggiungere al [!DNL Dropbox] cartella.</p> <p style="font-weight: bold;">Nome file</p> <p>Immettete il nome del nuovo file DOC (senza estensione).</p> <p style="font-weight: bold;">Contenuto file</p> <p>Immettete il contenuto del testo del file DOC.</p> </td> 
+   <td> <p>[!UICONTROL Source File]</p> </td> 
+   <td> <p>Immettere o mappare il file da aggiungere alla cartella [!DNL Dropbox].</p> <p style="font-weight: bold;">Nome file</p> <p>Immettete il nome del nuovo file DOC (senza estensione).</p> <p style="font-weight: bold;">Contenuto file</p> <p>Immettete il contenuto del testo del file DOC.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Creare/aggiornare un collegamento di condivisione]
+#### [!UICONTROL Crea/aggiorna un collegamento di condivisione]
 
 Questo modulo crea un collegamento pubblico a un file.
 
@@ -462,7 +462,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Dropbox] account a [!DNL Workfront Fusion], vedi <a href="#create-a-connection-to-dropbox" class="MCXref xref">Creare una connessione a [!DNL Dropbox]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Dropbox] a [!DNL Workfront Fusion], vedere <a href="#create-a-connection-to-dropbox" class="MCXref xref">Creare una connessione a [!DNL Dropbox]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Modalità di selezione dei file]</td> 
@@ -474,20 +474,20 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
   </tr> 
   <tr> 
    <td> <p>Visibilità richiesta [!UICONTROL]</p> </td> 
-   <td> <p>Seleziona se il collegamento è pubblico, per team o con password limitata.</p> <p>Nota: le opzioni [!UICONTROL Solo team] e [!UICONTROL Accesso con password] sono disponibili solo per gli utenti con [!DNL Dropbox Pro] o versione successiva.</p> </td> 
+   <td> <p>Seleziona se il collegamento è pubblico, per team o con password limitata.</p> <p>Nota: le opzioni [!UICONTROL Solo team] e [!UICONTROL Accesso con password] sono disponibili solo per gli utenti con versione [!DNL Dropbox Pro] o successiva.</p> </td> 
   </tr> 
   <tr> 
    <td>Data di scadenza del collegamento [!UICONTROL]</td> 
-   <td> <p> Immetti la data e l’ora in cui il collegamento scadrà e non sarà più accessibile. Se questo campo viene lasciato vuoto, il collegamento non scade. Per un elenco dei formati di data e ora supportati consulta <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref" data-mc-variable-override="">Tipo di coercizione in [!DNL Adobe Workfront Fusion]</a>.</p> <p>Nota: le opzioni [!UICONTROL Solo team] e [!UICONTROL Accesso con password] sono disponibili solo per gli utenti che dispongono di [!UICONTROL Dropbox Pro] o versioni successive.</p> </td> 
+   <td> <p> Immetti la data e l’ora in cui il collegamento scadrà e non sarà più accessibile. Se questo campo viene lasciato vuoto, il collegamento non scade. Per un elenco dei formati di data e ora supportati, vedere <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref" data-mc-variable-override="">Tipo di coercizione in [!DNL Adobe Workfront Fusion]</a>.</p> <p>Nota: le opzioni [!UICONTROL Solo team] e [!UICONTROL Accesso con password] sono disponibili solo per gli utenti che dispongono di [!UICONTROL Dropbox Pro] o versioni successive.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Livello di accesso di [!UICONTROL Link]</p> </td> 
-   <td> <p>Imposta l’autorizzazione per il destinatario del collegamento.</p> <p><strong>Visualizzatore [!UICONTROL]</strong> Gli utenti che utilizzano il collegamento possono visualizzare e commentare il contenuto.</p> <p><strong>[!UICONTROL Editor]</strong> Gli utenti che utilizzano il collegamento possono modificare, visualizzare e commentare il contenuto.</p> <p><strong>[!UICONTROL Max]</strong> Gli utenti che utilizzano il collegamento ricevono il livello di accesso massimo su cui puoi impostare il collegamento.</p> </td> 
+   <td> <p>Imposta l’autorizzazione per il destinatario del collegamento.</p> <p><strong>[!UICONTROL Viewer]</strong> Gli utenti che utilizzano il collegamento possono visualizzare e commentare il contenuto.</p> <p><strong>[!UICONTROL Editor]</strong> Gli utenti che utilizzano il collegamento possono modificare, visualizzare e commentare il contenuto.</p> <p><strong>[!UICONTROL Max]</strong> Gli utenti che utilizzano il collegamento ricevono il livello di accesso massimo su cui è possibile impostare il collegamento.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Ripristinare un file]
+#### [!UICONTROL Ripristina un file]
 
 Questo modulo ripristina una versione precedente di un file.
 
@@ -503,7 +503,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Dropbox] account a [!DNL Workfront Fusion], vedi <a href="#create-a-connection-to-dropbox" class="MCXref xref">Creare una connessione a [!DNL Dropbox]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Dropbox] a [!DNL Workfront Fusion], vedere <a href="#create-a-connection-to-dropbox" class="MCXref xref">Creare una connessione a [!DNL Dropbox]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Modalità di selezione dei file]</td> 
@@ -520,7 +520,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  </tbody> 
 </table>
 
-#### [!UICONTROL Spostare un file o una cartella]
+#### [!UICONTROL Sposta file/cartella]
 
 Questo modulo di azione sposta un file o una cartella in una posizione diversa.
 
@@ -536,7 +536,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Dropbox] account a [!DNL Workfront Fusion], vedi <a href="#create-a-connection-to-dropbox" class="MCXref xref">Creare una connessione a [!DNL Dropbox]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Dropbox] a [!DNL Workfront Fusion], vedere <a href="#create-a-connection-to-dropbox" class="MCXref xref">Creare una connessione a [!DNL Dropbox]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Modalità di selezione dei file] </td> 
@@ -581,7 +581,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Dropbox] account a [!DNL Workfront Fusion], vedi <a href="#create-a-connection-to-dropbox" class="MCXref xref">Creare una connessione a [!DNL Dropbox]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Dropbox] a [!DNL Workfront Fusion], vedere <a href="#create-a-connection-to-dropbox" class="MCXref xref">Creare una connessione a [!DNL Dropbox]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>Modalità di selezione dei file</td> 
@@ -614,7 +614,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Dropbox] account a [!DNL Workfront Fusion], vedi <a href="#create-a-connection-to-dropbox" class="MCXref xref">Creare una connessione a [!DNL Dropbox]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Dropbox] a [!DNL Workfront Fusion], vedere <a href="#create-a-connection-to-dropbox" class="MCXref xref">Creare una connessione a [!DNL Dropbox]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Modalità di selezione dei file]</td> 
@@ -631,7 +631,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
 
 #### [!UICONTROL Effettuare una chiamata API]
 
-Questo modulo di azione consente di effettuare una chiamata autenticata personalizzata al [!DNL Dropbox] API. In questo modo, puoi creare un’automazione del flusso di dati che non può essere eseguita dall’altro [!DNL Dropbox] moduli.
+Questo modulo di azione consente di effettuare una chiamata autenticata personalizzata all&#39;API [!DNL Dropbox]. In questo modo è possibile creare un&#39;automazione del flusso di dati che non può essere eseguita dagli altri moduli [!DNL Dropbox].
 
 Durante la configurazione di questo modulo, vengono visualizzati i campi seguenti.
 
@@ -641,15 +641,15 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni sulla connessione [!DNL Dropbox] account a [!DNL Workfront Fusion], vedi <a href="#create-a-connection-to-dropbox" class="MCXref xref">Creare una connessione a [!DNL Dropbox]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Dropbox] a [!DNL Workfront Fusion], vedere <a href="#create-a-connection-to-dropbox" class="MCXref xref">Creare una connessione a [!DNL Dropbox]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL URL]</p> </td> 
-   <td> <p>Immettere un percorso relativo per Immettere un percorso relativo a <code>https://api.dropboxapi.com</code>. Ad esempio: <code>/2/files/list_folder</code></p> <p>Nota: per un elenco degli endpoint disponibili, vedere <a href="https://www.dropbox.com/developers/documentation/http/documentation">Documentazione di Dropbox API v2</a>.</p> </td> 
+   <td> <p>Immettere un percorso relativo a Immettere un percorso relativo a <code>https://api.dropboxapi.com</code>. Ad esempio: <code>/2/files/list_folder</code></p> <p>Nota: per un elenco degli endpoint disponibili, consulta la <a href="https://www.dropbox.com/developers/documentation/http/documentation">Documentazione API di Dropbox v2</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Method]</p> </td> 
-   <td> <p>Seleziona il metodo di richiesta HTTP necessario per configurare la chiamata API. Per ulteriori informazioni, consulta <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Metodi di richiesta HTTP in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Seleziona il metodo di richiesta HTTP necessario per configurare la chiamata API. Per ulteriori informazioni, vedere <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Metodi di richiesta HTTP in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Headers] </td> 
@@ -661,7 +661,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
   </tr> 
   <tr> 
    <td>[!UICONTROL Body] </td> 
-   <td> <p>Aggiungi il contenuto body per la chiamata API sotto forma di oggetto JSON standard.</p> <p>Nota:   <p>Quando si utilizzano istruzioni condizionali quali <code>if</code> nel JSON, inserisci le virgolette al di fuori dell’istruzione condizionale.</p> 
+   <td> <p>Aggiungi il contenuto body per la chiamata API sotto forma di oggetto JSON standard.</p> <p>Nota:   <p>Quando si utilizzano istruzioni condizionali come <code>if</code> nel JSON, inserire le virgolette al di fuori dell'istruzione condizionale.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>">  
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -671,7 +671,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
 
 >[!INFO]
 >
->**Esempio:** La seguente chiamata API restituisce i primi 10 file dalla [!DNL /Text files] cartella nel tuo [!DNL Dropbox] account:
+>**Esempio:** La chiamata API seguente restituisce i primi 10 file dalla cartella [!DNL /Text files] nell&#39;account [!DNL Dropbox]:
 >
 >URL: `/2/files/list_folder`
 >
@@ -689,7 +689,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
 >
 >`}`
 >
->Le corrispondenze della ricerca si trovano nell’Output del modulo in [!UICONTROL Bundle] > [!UICONTROL Corpo] > voci.
+>Le corrispondenze della ricerca si trovano nell&#39;output del modulo in [!UICONTROL Bundle] > [!UICONTROL Corpo] > voci.
 >
 >Nel nostro esempio, sono stati restituiti 10 biglietti:
 
@@ -702,14 +702,14 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
 
 Esistono diverse situazioni in cui il caricamento o l’aggiornamento di un file non riesce:
 
-* Il file caricato è troppo grande e supera la dimensione massima consentita per il file [!DNL Dropbox] o ha utilizzato tutte le risorse [!DNL Dropbox] quota di archiviazione dell&#39;account. È necessario eliminare i file esistenti dal [!DNL Dropbox] o aggiornare il piano.
+* Il file caricato è troppo grande e supera la dimensione massima consentita per il piano [!DNL Dropbox] oppure hai utilizzato tutta la quota di archiviazione dell&#39;account [!DNL Dropbox]. È necessario eliminare i file esistenti dall&#39;account [!DNL Dropbox] o aggiornare il piano.
 * La cartella selezionata in precedenza, in cui viene caricato il file, non esiste più. Lo scenario si interrompe e devi selezionare nuovamente la cartella di destinazione.
 
 ### L’immagine a cui si fa riferimento tramite un collegamento condiviso non viene riprodotta
 
-L&#39;URL restituito da [!UICONTROL Dropbox] >[!UICONTROL Creare un collegamento condiviso] non si collega direttamente a un’immagine, ma a una [!DNL Dropbox] pagina. Per forzare il download dell&#39;immagine, sostituisci la `?dl=0` con `?dl=1`. Per forzare il rendering dell&#39;immagine (ad esempio, in un browser Web o in Facebook Messenger), aggiungi `&raw=1` all&#39;URL.
+L&#39;URL restituito dal [!UICONTROL Dropbox] >[!UICONTROL creazione di un collegamento condiviso] non è collegato direttamente a un&#39;immagine, ma a una pagina [!DNL Dropbox]. Per forzare il download dell&#39;immagine, sostituire `?dl=0` finale con `?dl=1`. Per forzare il rendering dell&#39;immagine (ad esempio, in un browser Web o in Facebook Messenger), aggiungi `&raw=1` all&#39;URL.
 
-Se devi ottenere il collegamento diretto o non elaborato dell’immagine per il sito web o per altri [!DNL Workfront Fusion] moduli, devi modificare l’URL condiviso iniziale nel modo seguente:
+Se devi ottenere il collegamento diretto o non elaborato dell&#39;immagine per il tuo sito Web o per altri moduli di [!DNL Workfront Fusion], devi modificare l&#39;URL condiviso iniziale nel modo seguente:
 
 URL originale:
 
@@ -722,7 +722,7 @@ URL finale:
 
 `https://dl.dropbox.com/s/ia8qtvs20f3a5ux/Screen%20Shot%202018-10-15%20at%204.21.11%20PM.png`
 
-Per modificare automaticamente l’URL, puoi utilizzare `replace()` funzione due volte:
+Per modificare automaticamente l&#39;URL, è possibile utilizzare la funzione `replace()` due volte:
 
 * Sostituisci www con dl
 
@@ -736,7 +736,7 @@ Per eseguire questa operazione in un unico passaggio, combina le seguenti funzio
 
 ![](assets/replace-both-350x47.png)
 
-Puoi anche copiarlo e incollarlo nel campo. Sostituisci `1.url` con l’URL.
+Puoi anche copiarlo e incollarlo nel campo. Sostituisci `1.url` con l&#39;URL.
 
 ```
 {{replace(replace(1.url; "?dl=0"; ""); "www"; "dl")}}

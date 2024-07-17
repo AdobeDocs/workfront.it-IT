@@ -5,7 +5,7 @@ product-area: workfront-integrations
 keywords: connettore
 navigation-topic: apps-and-their-modules
 title: HTTP &gt; altri moduli
-description: Il [!DNL Adobe Workfront Fusion] L'app HTTP fornisce vari moduli per la comunicazione basata sul protocollo HTTP (Hypertext Transfer Protocol). HTTP è la base della comunicazione dei dati per il World Wide Web. Puoi utilizzare i moduli per scaricare pagine web e file, chiamare webhook, endpoint API e così via.
+description: L'app HTTP  [!DNL Adobe Workfront Fusion] fornisce vari moduli per le comunicazioni basate sul protocollo HTTP (Hypertext Transfer Protocol). HTTP è la base della comunicazione dei dati per il World Wide Web. Puoi utilizzare i moduli per scaricare pagine web e file, chiamare webhook, endpoint API e così via.
 author: Becky
 feature: Workfront Fusion
 exl-id: ff2cd098-d1d7-43a3-9f00-15e0f6e92332
@@ -20,14 +20,14 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!UICONTROL Adobe Workfront Fusion] richiede un [!UICONTROL Adobe Workfront Fusion] licenza oltre a un [!UICONTROL Adobe Workfront] licenza.
+>[!UICONTROL Adobe Workfront Fusion] richiede una licenza [!UICONTROL Adobe Workfront Fusion] oltre a una licenza [!UICONTROL Adobe Workfront].
 
-Il [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] L&#39;app fornisce vari moduli per la comunicazione basata sul protocollo HTTP (Hypertext Transfer Protocol). HTTP è la base della comunicazione dei dati per il World Wide Web. Puoi utilizzare i moduli per scaricare pagine web e file, chiamare webhook, endpoint API e così via.
+L&#39;app [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] fornisce vari moduli per le comunicazioni basate sul protocollo HTTP (Hypertext Transfer Protocol). HTTP è la base della comunicazione dei dati per il World Wide Web. Puoi utilizzare i moduli per scaricare pagine web e file, chiamare webhook, endpoint API e così via.
 
 La scelta giusta del modulo dipende dal meccanismo di autenticazione/autorizzazione della risorsa a cui desideri accedere. Di seguito sono riportati alcuni esempi di moduli
 
 * Richiesta:modulo universale destinato principalmente a risorse che non utilizzano alcun tipo di autenticazione/autorizzazione
-* Creare una richiesta di autenticazione di base:per le risorse che utilizzano [!DNL HTTP] Autenticazione di base
+* Effettuare una richiesta di autenticazione di base:per le risorse che utilizzano l&#39;autenticazione di base (BA) di [!DNL HTTP]
 * Effettuare una richiesta OAuth 2.0: per risorse che utilizzano il protocollo di autorizzazione OAuth 2.0
 * Effettuare una richiesta di autenticazione certificato client: per le risorse che utilizzano un protocollo di autorizzazione che richiede un certificato lato client.
 * Effettuare una richiesta di autorizzazione della chiave API: per le risorse che utilizzano le chiavi API per l’autorizzazione.
@@ -36,17 +36,17 @@ La scelta giusta del modulo dipende dal meccanismo di autenticazione/autorizzazi
 >
 >Se ti stai connettendo a un prodotto di Adobe che al momento non dispone di un connettore dedicato, ti consigliamo di utilizzare il modulo Adobe Authenticator.
 >
->Per ulteriori informazioni, consulta [Modulo Adobe Authenticator](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
+>Per ulteriori informazioni, vedere [Modulo Adobe Authenticator](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
 
 ## Moduli di richiesta
 
 Per istruzioni specifiche sul modulo di richiesta, consulta i seguenti articoli:
 
-* [[!UICONTROL HTTP] >[!UICONTROL Fai una richiesta] modulo](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-request.md)
-* [[!UICONTROL HTTP] >[!UICONTROL Effettuare una richiesta di autorizzazione di base] modulo](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-basic-auth-request.md)
-* [[!UICONTROL HTTP] > [!UICONTROL Effettuare una richiesta OAuth 2.0] modulo](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md)
-* [[!UICONTROL HTTP] >[!UICONTROL Effettuare una richiesta di autorizzazione del certificato client] modulo](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-client-cert-auth-request.md)
-* [[!UICONTROL HTTP] >[!UICONTROL Effettuare una richiesta di autorizzazione della chiave API]](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-api-key-auth-request.md)
+* [[!UICONTROL HTTP] >[!UICONTROL Richiedi un modulo]](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-request.md)
+* [[!UICONTROL HTTP] >[!UICONTROL Crea una richiesta di autorizzazione di base] modulo](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-basic-auth-request.md)
+* [[!UICONTROL HTTP] > [!UICONTROL Crea una richiesta OAuth 2.0]](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md)
+* [[!UICONTROL HTTP] >[!UICONTROL Crea una richiesta di autorizzazione del certificato client] modulo](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-client-cert-auth-request.md)
+* [[!UICONTROL HTTP] >[!UICONTROL Crea una richiesta di autorizzazione della chiave API]](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-api-key-auth-request.md)
 
 ## Altri moduli di azione
 
@@ -78,7 +78,7 @@ Questo modulo di azione risolve una catena di reindirizzamenti HTTP e restituisc
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL] </td> 
-   <td> <p>Inserisci o mappa l’URL che desideri risolvere, ad esempio [!DNL bit.ly] URL.</p> </td> 
+   <td> <p>Immettere o mappare l'URL da risolvere, ad esempio un URL [!DNL bit.ly].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method] </td> 
@@ -89,7 +89,7 @@ Questo modulo di azione risolve una catena di reindirizzamenti HTTP e restituisc
 
 ## Moduli iteratori
 
-### [!UICONTROL Recuperare le intestazioni]
+### [!UICONTROL Recupera intestazioni]
 
 Questo modulo restituisce ogni intestazione (nome e valore) dal modulo HTTP specificato in un bundle separato.
 
@@ -98,7 +98,7 @@ Questo modulo restituisce ogni intestazione (nome e valore) dal modulo HTTP spec
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source Module]</td> 
+   <td role="rowheader">[!UICONTROL Modulo Source]</td> 
    <td> <p> Seleziona il modulo da cui desideri recuperare le intestazioni.</p> </td> 
   </tr> 
  </tbody> 

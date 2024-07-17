@@ -24,11 +24,11 @@ Puoi utilizzare espressioni di dati calcolati in:
 
 * Campo personalizzato calcolato in un modulo personalizzato
 
-  Per ulteriori informazioni sulla creazione di campi personalizzati calcolati nei moduli personalizzati in Workfront, consulta [Aggiungere dati calcolati a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+  Per ulteriori informazioni sulla creazione di campi personalizzati calcolati nei moduli personalizzati in Workfront, vedere [Aggiungere dati calcolati a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 * Colonna personalizzata calcolata in un report o in un elenco quando si utilizza la modalità testo
 
-  Per ulteriori informazioni sull&#39;utilizzo della modalità testo nei report e nelle visualizzazioni, vedere [Panoramica sulla modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+  Per ulteriori informazioni sull&#39;utilizzo della modalità testo nei report e nelle visualizzazioni, vedere [Cenni preliminari sulla modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 ## Sintassi dei campi personalizzati calcolati rispetto alle colonne personalizzate calcolate
 
@@ -77,7 +77,7 @@ Ad esempio:
   >
   >La stessa sintassi si applica a tutti gli elementi di reporting in modalità testo in cui vengono utilizzate espressioni calcolate: viste, filtri, raggruppamenti, prompt.
 
-Per ulteriori informazioni sulla sintassi da utilizzare in una colonna personalizzata calcolata, consulta [Panoramica sulla modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Per ulteriori informazioni sulla sintassi da utilizzare in una colonna personalizzata calcolata, vedere [Cenni preliminari sulla modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 ## Espressioni dati utilizzabili
 
@@ -87,7 +87,7 @@ Gli elenchi seguenti definiscono le espressioni disponibili da utilizzare per la
 * [Campi personalizzati matematici calcolati](#mathematical-calculated-custom-fields)
 * [Testo dei campi personalizzati calcolati](#text-calculated-custom-fields)
 
-Puoi utilizzare le espressioni elencate di seguito per creare colonne personalizzate calcolate. Tuttavia, devi utilizzare la sintassi corretta per una colonna personalizzata calcolata, come descritto nella sezione  [Sintassi dei campi personalizzati calcolati rispetto alle colonne personalizzate calcolate](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) in questo articolo.
+Puoi utilizzare le espressioni elencate di seguito per creare colonne personalizzate calcolate. È tuttavia necessario utilizzare la sintassi corretta per una colonna personalizzata calcolata, come descritto nella sezione [Sintassi dei campi personalizzati calcolati rispetto alle colonne personalizzate calcolate](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) in questo articolo.
 
 ### Campi personalizzati calcolati per data e ora {#date-time-calculated-custom-fields}
 
@@ -186,7 +186,7 @@ Puoi creare un campo personalizzato calcolato per la data o l’ora utilizzando 
 <p><code>DMAX(date1, date2, ...)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>DMIN</strong> </td> 
+   <td><strong>AMMINISTRATORE</strong> </td> 
    <td> <p>Restituisce la prima data dell'elenco e viene formattata come segue:</p>
 
 <p><code>DMIN(date1, date2, ...)</code></p> </td> 
@@ -210,7 +210,7 @@ Puoi creare un campo personalizzato calcolato per la data o l’ora utilizzando 
 <p><code>MONTH({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>SECOND</strong> </td> 
+   <td><strong>SECONDO</strong> </td> 
    <td> <p>Restituisce il secondo della data come numero compreso tra 0 e 60, formattato come segue. In questo esempio, la data corrisponde alla data di immissione di un oggetto di lavoro.</p>
 
 <p><code>SECOND({entryDate})</code></p> </td> 
@@ -275,7 +275,7 @@ Puoi creare un campo personalizzato calcolato per la data o l’ora utilizzando 
 <p><code>DIV(number1, number2, ...)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>FLOOR</strong> </td> 
+   <td><strong>PIANO</strong> </td> 
    <td>Arrotonda un numero per difetto al numero intero più vicino e viene formattato come segue. In questo esempio viene utilizzato il numero di oggetti sotto l'oggetto a cui è allegato il modulo personalizzato.
 
 <p><code>FLOOR({numberOfChildren})</code></p></td> 
@@ -287,7 +287,7 @@ Puoi creare un campo personalizzato calcolato per la data o l’ora utilizzando 
 <p><code>LN({numberOfChildren})</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>LOG</strong> </td> 
+   <td><strong>REGISTRO</strong> </td> 
    <td>Restituisce il valore logaritmico numero2 al numero base 1 ed è formattato come segue:
 
 <p><code>LOG(number1, number2)</code></p></td> 
@@ -309,7 +309,7 @@ Puoi creare un campo personalizzato calcolato per la data o l’ora utilizzando 
    <td>Converte una stringa in un numero e viene formattato come segue:<p><code>NUMBER(string)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>POWER</strong> </td> 
+   <td><strong>POTENZA</strong> </td> 
    <td>Restituisce un numero elevato a potenza e viene formattato come segue:
 
 <p><code>POWER(number, power)</code></p></td> 
@@ -349,7 +349,7 @@ Puoi creare un campo personalizzato calcolato per la data o l’ora utilizzando 
 <p><code>SQRT({numberOfChildren})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>SUB</strong> </td> 
+   <td><strong>SECONDARIO</strong> </td> 
    <td>Sottrae tutti i numeri nell'ordine specificato e viene formattato come segue:
 
 <p><code>SUB(number1, number2, ...)</code></p></td> 
@@ -378,7 +378,7 @@ Puoi creare un campo personalizzato calcolato per la data o l’ora utilizzando 
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>CASE</strong> </td> 
+   <td><strong>CASO</strong> </td> 
    <td> <p>Viene utilizzato con altre espressioni per scegliere un valore da un elenco in base a un numero di indice. </p>
    <p>Un numero di indice è un campo o una funzione che restituisce un valore numerico (in genere in un intervallo noto).</p> 
    <p>L’espressione viene formattata come segue:</p>
@@ -414,7 +414,7 @@ Puoi creare un campo personalizzato calcolato per la data o l’ora utilizzando 
 <p><code>ENCODEURL(string)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>IF</strong> </td> 
+   <td><strong>SE</strong> </td> 
    <td> <p>Valuta una condizione specificata e restituisce il valore di trueExpression se è true oppure il valore di falseExpression se è false.</p>
 
 <p>L’espressione viene formattata come segue:</p>
@@ -434,7 +434,7 @@ Puoi creare un campo personalizzato calcolato per la data o l’ora utilizzando 
 
 <p><code>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"Off Track","")</code></p>
 
-<p>Per ulteriori informazioni sulla creazione di istruzioni "IF", vedere <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md" class="MCXref xref">Panoramica delle istruzioni "IF"</a>.</p> </td> 
+<p>Per ulteriori informazioni sulla compilazione delle istruzioni "IF", vedere <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md" class="MCXref xref"> Panoramica delle istruzioni "IF"</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>IFIN</strong> </td> 
@@ -464,7 +464,7 @@ Puoi creare un campo personalizzato calcolato per la data o l’ora utilizzando 
 </p><p><code>ISBLANK(value)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>LEFT</strong> </td> 
+   <td><strong>SINISTRA</strong> </td> 
    <td> <p>Restituisce un numero specificato di caratteri dal lato sinistro di una stringa e viene formattato come segue:</p>
 
 <p><code>LEFT(string, length)</code></p> </td> 
@@ -476,7 +476,7 @@ Puoi creare un campo personalizzato calcolato per la data o l’ora utilizzando 
 <p><code>LEN(string)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>LOWER</strong> </td> 
+   <td><strong>INFERIORE</strong> </td> 
    <td>Restituisce la stringa in minuscolo ed è formattata come segue:
 
 <p><code>LOWER(string)</code></p></td> 
@@ -488,7 +488,7 @@ Puoi creare un campo personalizzato calcolato per la data o l’ora utilizzando 
 <p><code>REPLACE(string1, string2, string3)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>RIGHT</strong> </td> 
+   <td><strong>DESTRA</strong> </td> 
    <td> <p>Restituisce un numero specificato di caratteri dal lato destro di una stringa e viene formattato come segue:</p>
 
 <p><code>RIGHT(string, length)</code></p> </td> 
@@ -506,13 +506,13 @@ Puoi creare un campo personalizzato calcolato per la data o l’ora utilizzando 
 <p><code>STRING(number)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>SORTASCSTRING</strong> </td> 
+   <td><strong>STRINGAORDINAMENTO</strong> </td> 
    <td> <p>Ordina un elenco di stringhe in ordine crescente e viene formattato come segue:</p>
 
 <p><code>SORTASCSTRING(string1, string2, ...)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>SORTDESCSTRING</strong> </td> 
+   <td><strong>STRINGAORDINAMENTO</strong> </td> 
    <td> <p> Ordina un elenco di stringhe in ordine decrescente e viene formattato come segue:</p>
 
 <p><code>SORTDESCSTRING(string1, string2, ...)</code></p> </td> 
@@ -524,13 +524,13 @@ Puoi creare un campo personalizzato calcolato per la data o l’ora utilizzando 
 <p><code>SUBSTR({string}, number of start position, number of end position)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>TRIM</strong> </td> 
+   <td><strong>RITAGLIA</strong> </td> 
    <td> <p>Rimuove lo spazio vuoto dall'inizio e dalla fine di una stringa e viene formattato come segue:</p>
 
 <p><code>TRIM(string)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>UPPER</strong> </td> 
+   <td><strong>SUPERIORE</strong> </td> 
    <td> <p>Restituisce una stringa in maiuscolo ed è formattata come segue:</p>
 
 <p><code>UPPER(string)</code></p> </td> 

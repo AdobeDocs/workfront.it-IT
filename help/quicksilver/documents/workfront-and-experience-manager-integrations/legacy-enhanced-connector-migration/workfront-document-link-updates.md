@@ -31,7 +31,7 @@ Puoi utilizzare l’API per migrare cartelle e documenti collegati in Adobe Expe
 
 1. Crea un nuovo collegamento a documento o cartella documenti in Workfront, che punta alla risorsa nella nuova posizione tramite il nuovo ID esterno.
 
-   1. **Documenti**: aggiungi una nuova versione del documento esistente con il nuovo provider di documenti esterno.
+   1. **Documenti**: aggiungere una nuova versione del documento esistente con il nuovo provider di documenti esterno.
    1. **Cartelle**: crea una nuova cartella nella stessa posizione con lo stesso nome.
 
 >[!CAUTION]
@@ -49,7 +49,7 @@ Per ulteriori informazioni sulle API di Workfront in questa sezione, consulta [D
 
 ### Trova tutti i documenti
 
-Trova tutto **Documenti (DOCU)** Collegato a **Provider documento** di **providerType** con **documentProviderID**.
+Trova tutti i **documenti (DOCU)** collegati a **provider di documenti** di **providerType** con **documentProviderID**.
 
 ```
 Http Method: GET
@@ -57,11 +57,11 @@ Http Method: GET
 Http Endpoint: {host}/attask/api/v14.0/document/search?fields=currentVersion:*&currentVersion:externalIntegrationType={providerType}
 ```
 
-[Documentazione di riferimento API](https://developer.workfront.com/documents.html#get-/docu/search)
+[Riferimento documenti API](https://developer.workfront.com/documents.html#get-/docu/search)
 
 ### Trova tutte le cartelle
 
-Trova tutto **Cartelle documenti (DOCFDR)** Collegato al provider di documenti di **providerType** con **documentProviderID**.
+Trova tutte le **cartelle documenti (DOCFDR)** collegate al provider documenti di **providerType** con **documentProviderID**.
 
 ```
 Http Method: GET
@@ -73,7 +73,7 @@ DOCS API: (gli endpoint per cartelle di documenti non sono attualmente inclusi i
 
 ### Collega documenti
 
-Collegamento **Documenti (DOCU)** da **Provider documento esterno** di **providerType** con **documentProviderID**.
+Collega **Documenti (DOCU)** da **Provider documenti esterno** di **providerType** con **documentProviderID**.
 
 >[!IMPORTANT]
 >
@@ -92,7 +92,7 @@ DOCUMENTAZIONE API: (gli endpoint per collegamenti interni non sono attualmente 
 
 ### Collega cartelle
 
-Collegamento **Cartelle documenti (DOCFDR)** da **Provider documento esterno** di **providerType** con **documentProviderID**.
+Collega **Cartelle documenti (DOCFDR)** da **Provider documenti esterno** di **providerType** con **documentProviderID**.
 
 >[!IMPORTANT]
 >
@@ -124,13 +124,13 @@ DOCUMENTAZIONE API: (gli endpoint per collegamenti interni non sono attualmente 
 
 * **ID cartella documenti**: ID interno di Workfront per una cartella di risorse digitali
 
-* **ID provider documenti**: ID associato a provider di documenti specifici
+* **ID provider documenti**: ID associato a provider documenti specifici
 
 >[!IMPORTANT]
 >
 > Per un determinato tipo di provider di documenti, un cliente può avere più istanze collegate. Ad esempio, possono avere più archivi AEM collegati. Oppure più istanze di Google Drive collegate. L&#39;ID del provider di documenti indica l&#39;istanza specifica del tipo di connessione che si desidera sostituire o a cui si desidera passare.
 
-* **Tipo di provider di archiviazione documenti (anche &quot;tipo di integrazione esterna&quot;)**: tipo di integrazione del provider di archiviazione dei documenti supportata da Workfront. Tramite un’integrazione dedicata o una &quot;integrazione personalizzata&quot;.
+* **Tipo di provider di archiviazione documenti (anche &quot;tipo di integrazione esterna&quot;)**: tipo di integrazione del provider di archiviazione documenti supportata da Workfront. Tramite un’integrazione dedicata o una &quot;integrazione personalizzata&quot;.
 
 * **Tipi di provider di archiviazione documenti correnti ( providerType)**:
 
@@ -156,13 +156,13 @@ DOCUMENTAZIONE API: (gli endpoint per collegamenti interni non sono attualmente 
 
 * **Cartella documenti collegati**: contenitore per risorse digitali ospitato in un provider di archiviazione documenti esterno. Workfront avrà un proprio &quot;ID cartella documenti&quot; interno per la risorsa, ma i byte vengono archiviati esternamente. Per facilitare questa operazione, Workfront memorizza anche un &quot;ID documento esterno&quot; per facilitare l’individuazione della risorsa a cui si fa riferimento esternamente all’interno dell’archivio o dell’archivio remoto.
 
-* **ID documento esterno**: ID assegnato quando le risorse vengono memorizzate al di fuori di Workfront. Workfront mappa il proprio identificatore interno all’identificatore utilizzato per individuare la risorsa nel sistema esterno, tramite questo campo &quot;identificatore documento esterno&quot;. Pertanto, quando si collega il documento o la cartella da un nuovo archivio esterno, è necessario comporre un nuovo identificatore di documento esterno nel formato appropriato affinché il provider di documenti esterni possa identificare il documento nel nuovo archivio o archivio.
+* **ID documento esterno**: ID assegnato quando le risorse vengono archiviate all&#39;esterno di Workfront. Workfront mappa il proprio identificatore interno all’identificatore utilizzato per individuare la risorsa nel sistema esterno, tramite questo campo &quot;identificatore documento esterno&quot;. Pertanto, quando si collega il documento o la cartella da un nuovo archivio esterno, è necessario comporre un nuovo identificatore di documento esterno nel formato appropriato affinché il provider di documenti esterni possa identificare il documento nel nuovo archivio o archivio.
 
   >[!NOTE]
   >
   > Workfront non dispone ancora di uno standard per gli identificatori di documenti esterni. È in uso una nuova specifica per gli ID AEM, ma per altri ID, l’ID documento esterno può assumere forme diverse a seconda del tipo di provider.
 
 
-* **Tipo di oggetto**: termine utilizzato solo nelle API ai fini del presente documento. Si tratta di un tipo di oggetto generico all’interno di Workfront con cui desideri interagire. In questi casi, si interagirà con documenti e cartelle di tipo &quot;DOCU&quot; e &quot;DOCFDR&quot; rispettivamente.
+* **Tipo di oggetto**: è un termine solo API ai fini del presente documento. Si tratta di un tipo di oggetto generico all’interno di Workfront con cui desideri interagire. In questi casi, si interagirà con documenti e cartelle di tipo &quot;DOCU&quot; e &quot;DOCFDR&quot; rispettivamente.
 
-* **ID oggetto**: identificatore interno di Workfront per l’oggetto generico con cui desideri interagire. Interagirai con documenti e cartelle in modo che questo sia rispettivamente l’ID del documento o l’ID della cartella del documento.
+* **ID oggetto**: l&#39;identificatore interno di Workfront per l&#39;oggetto generico con cui si desidera interagire. Interagirai con documenti e cartelle in modo che questo sia rispettivamente l’ID del documento o l’ID della cartella del documento.

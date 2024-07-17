@@ -9,18 +9,18 @@ title: Moduli aerodinamici
 description: Adobe Workfront Fusion richiede una licenza Adobe Workfront Fusion oltre a una licenza Adobe Workfront.
 author: Becky
 feature: Workfront Fusion
-exl-id: 5d061b23-0a39-44e6-ac9b-0ef5ac7e9ab4
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+exl-id: 1d78e0db-9a77-437d-a72f-88fb256981c0
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
-source-wordcount: '1863'
-ht-degree: 2%
+source-wordcount: '1862'
+ht-degree: 1%
 
 ---
 
 # Moduli aerodinamici
 
 
-Con il [!DNL Airtable] connettore per [!DNL Adobe Workfront Fusion], puoi avviare uno scenario basato sugli eventi nel tuo [!DNL Airtable] creare, caricare e aggiornare record, cercare record ed effettuare chiamate API personalizzate all’API Airtable.
+Con il connettore [!DNL Airtable] per [!DNL Adobe Workfront Fusion], puoi avviare uno scenario basato sugli eventi nel tuo account [!DNL Airtable], creare, caricare e aggiornare record, cercare record ed effettuare chiamate API personalizzate all&#39;API Airtable.
 
 ## Requisiti di accesso
 
@@ -40,18 +40,18 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licenza**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro] </p> </td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione lavoro] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
-   <td>La tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</td> 
+   <td>La tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</td> 
   </tr> 
  </tbody> 
 </table>
 
-Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore [!DNL Workfront].
 
-Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Prerequisiti
 
@@ -68,10 +68,10 @@ Per utilizzare le funzionalità di questo articolo è necessario disporre di un 
 1. Log in to your Airtable account.
 1. Open your account overview and generate the API key.
 -->
-1. Aprire Workfront Fusion e **Creare una connessione** del modulo desiderato.
+1. Aprire Workfront Fusion e la finestra di dialogo **Crea una connessione** del modulo desiderato.
 1. Immettere un nome per la connessione.
 1. (Facoltativo) Fai clic su Mostra impostazioni avanzate e immetti l&#39;ID cliente Airtable e il segreto cliente.
-1. Fai clic su **Continua** per creare la connessione e tornare al modulo.
+1. Fai clic sul pulsante **Continua** per creare la connessione e tornare al modulo.
 
 ## Moduli aerodinamici e relativi campi
 
@@ -81,7 +81,7 @@ Per utilizzare le funzionalità di questo articolo è necessario disporre di un 
 * [Eliminare un record](#delete-a-record)
 * [Ottieni un record](#get-a-record)
 * [Cerca record](#search-records)
-* [Aggiornare un record](#update-a-record)
+* [Aggiorna un record](#update-a-record)
 * [Eseguire l&#39;upsert di un record](#upsert-a-record)
 * [Osserva i record](#watch-records)
 * [Osservare le risposte](#watch-responses)
@@ -103,7 +103,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  <tbody> 
   <tr> 
    <td>Connessione </td> 
-   <td> <p>Per istruzioni su come collegare il tuo account Airtable a Workfront Fusion, vedi <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Collegamento di Airtable a Workfront Fusion</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account Airtable a Workfront Fusion, vedere <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connessione Airtable a Workfront Fusion</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>Base </td> 
@@ -163,7 +163,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  <tbody> 
   <tr> 
    <td>Connessione </td> 
-   <td> <p>Per istruzioni su come collegare il tuo account Airtable a Workfront Fusion, vedi <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Collegamento di Airtable a Workfront Fusion</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account Airtable a Workfront Fusion, vedere <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connessione Airtable a Workfront Fusion</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>Base </td> 
@@ -190,7 +190,7 @@ Questo modulo di azione recupera i dettagli del record.
  <tbody> 
   <tr> 
    <td>Connessione </td> 
-   <td> <p>Per istruzioni su come collegare il tuo account Airtable a Workfront Fusion, vedi <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Collegamento di Airtable a Workfront Fusion</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account Airtable a Workfront Fusion, vedere <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connessione Airtable a Workfront Fusion</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>Base </td> 
@@ -221,7 +221,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  <tbody> 
   <tr> 
    <td>Connessione </td> 
-   <td> <p>Per istruzioni su come collegare il tuo account Airtable a Workfront Fusion, vedi <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Collegamento di Airtable a Workfront Fusion</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account Airtable a Workfront Fusion, vedere <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connessione Airtable a Workfront Fusion</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>Base </td> 
@@ -233,7 +233,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
   </tr> 
   <tr> 
    <td> <p>Formula</p> </td> 
-   <td> <p>Formula utilizzata per filtrare i record. La formula viene valutata per ogni record e, se il risultato non è <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code>, o <code>#Error!</code> il record è incluso nella risposta.</p> <p>Se combinato con <code>view</code>, verranno restituiti solo i record della visualizzazione che soddisfano la formula.</p> <p>Ad esempio, per includere solo i record in cui Nome non è vuoto, passare:<code> NOT({Name} = '')</code></p> <p>Per ulteriori informazioni, consulta la documentazione di supporto di Airtable per informazioni sui riferimenti ai campi della formula.</p> </td> 
+   <td> <p>Formula utilizzata per filtrare i record. La formula viene valutata per ogni record e se il risultato non è <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code> o <code>#Error!</code> il record viene incluso nella risposta.</p> <p>Se combinati con <code>view</code>, verranno restituiti solo i record della visualizzazione che soddisfano la formula.</p> <p>Ad esempio, per includere solo i record in cui Nome non è vuoto, passare:<code> NOT({Name} = '')</code></p> <p>Per ulteriori informazioni, consulta la documentazione di supporto di Airtable per informazioni sui riferimenti ai campi della formula.</p> </td> 
   </tr> 
   <tr> 
    <td>Ordina </td> 
@@ -266,7 +266,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  <tbody> 
   <tr> 
    <td>Connessione </td> 
-   <td> <p>Per istruzioni su come collegare il tuo account Airtable a Workfront Fusion, vedi <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Collegamento di Airtable a Workfront Fusion</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account Airtable a Workfront Fusion, vedere <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connessione Airtable a Workfront Fusion</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>Base </td> 
@@ -330,7 +330,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  <tbody> 
   <tr> 
    <td>Connessione </td> 
-   <td> <p>Per istruzioni su come collegare il tuo account Airtable a Workfront Fusion, vedi <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Collegamento di Airtable a Workfront Fusion</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account Airtable a Workfront Fusion, vedere <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connessione Airtable a Workfront Fusion</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>Base </td> 
@@ -392,7 +392,7 @@ Questo modulo di attivazione avvia uno scenario quando viene creato o aggiornato
  <tbody> 
   <tr> 
    <td>Connessione </td> 
-   <td> <p>Per istruzioni su come collegare il tuo account Airtable a Workfront Fusion, vedi <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Collegamento di Airtable a Workfront Fusion</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account Airtable a Workfront Fusion, vedere <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connessione Airtable a Workfront Fusion</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>Base </td> 
@@ -404,7 +404,7 @@ Questo modulo di attivazione avvia uno scenario quando viene creato o aggiornato
   </tr> 
   <tr> 
    <td> <p>Configurazione dell'attivatore</p> </td> 
-   <td> <p>Campo trigger</p> <p>A <code>Created Time</code> o <code>Last Modified Time</code> campo utilizzato per ordinare i record. Se non si dispone di <code>Created Time</code> o <code>Last Modified Time</code> nello schema, è necessario crearne uno. </p> <p>Campo etichetta</p> <p>Campo utilizzato come etichetta per un record, ad esempio nella finestra di dialogo Scegli da dove iniziare.</p> </td> 
+   <td> <p>Campo trigger</p> <p>Campo <code>Created Time</code> o <code>Last Modified Time</code> utilizzato per ordinare i record. Se nello schema non è presente un campo <code>Created Time</code> o <code>Last Modified Time</code>, è necessario crearne uno. </p> <p>Campo etichetta</p> <p>Campo utilizzato come etichetta per un record, ad esempio nella finestra di dialogo Scegli da dove iniziare.</p> </td> 
   </tr> 
   <tr> 
    <td>Limite</td> 
@@ -416,7 +416,7 @@ Questo modulo di attivazione avvia uno scenario quando viene creato o aggiornato
   </tr> 
   <tr> 
    <td> <p>Formula</p> </td> 
-   <td> <p>Formula utilizzata per filtrare i record. La formula viene valutata per ogni record e, se il risultato non è <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code>, o <code>#Error!</code> il record è incluso nella risposta.</p> <p>Se combinato con <code>view</code>, verranno restituiti solo i record della visualizzazione che soddisfano la formula.</p> <p>Ad esempio, per includere solo i record in cui Nome non è vuoto, passare:<code> NOT({Name} = '')</code></p> <p>Per ulteriori informazioni, consulta le informazioni sui riferimenti ai campi della formula nella documentazione di supporto di Airtable.</p> </td> 
+   <td> <p>Formula utilizzata per filtrare i record. La formula viene valutata per ogni record e se il risultato non è <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code> o <code>#Error!</code> il record viene incluso nella risposta.</p> <p>Se combinati con <code>view</code>, verranno restituiti solo i record della visualizzazione che soddisfano la formula.</p> <p>Ad esempio, per includere solo i record in cui Nome non è vuoto, passare:<code> NOT({Name} = '')</code></p> <p>Per ulteriori informazioni, consulta le informazioni sui riferimenti ai campi della formula nella documentazione di supporto di Airtable.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -439,7 +439,7 @@ L’URL del webhook deve essere generato in Workfront Fusion e quindi aggiunto a
 1. Accedi al tuo account Airtable.
 1. Aprire la base e la tabella che si desidera utilizzare per la maschera e creare una visualizzazione Maschera.
 1. Imposta il modulo in base alle esigenze, scorri il modulo verso il basso e abilita l’opzione Reindirizza all’URL dopo l’invio del modulo.
-1. Immettere l&#39;URL del webhook generato al passaggio 2 nella finestra di dialogo visualizzata e aggiungere ?record_id={record_id} subito dopo l’URL del webhook per includere l’ID record nell’output del modulo, quindi fai clic su Salva. L’URL risultante sarà, ad esempio, simile al seguente:
+1. Immetti l&#39;URL del webhook generato al passaggio 2 nella finestra di dialogo visualizzata e aggiungi l&#39;?record_id={record_id} subito dopo l&#39;URL del webhook per includere l&#39;ID record nell&#39;output del modulo, quindi fai clic su Salva. L’URL risultante sarà, ad esempio, simile al seguente:
 1. Torna allo scenario Workfront Fusion ed esegui il modulo Risposte di controllo solo per caricare i campi da Airtable e per essere in grado di mappare tali campi negli altri moduli.
 1. Invia il modulo in Airtable se è abilitata l’opzione Reindirizza all’URL dopo l’invio del modulo e viene aggiunto l’URL del webhook (passaggio 6 di cui sopra).
 
@@ -453,7 +453,7 @@ Ora, ogni volta che il modulo viene inviato, viene attivato il modulo Osserva ri
 
 #### Chiamata API personalizzata
 
-Questo modulo di azione consente di effettuare una chiamata autenticata personalizzata al [!DNL Airtable] API. In questo modo, puoi creare un’automazione del flusso di dati che non può essere eseguita dall’altro [!DNL Airtable] moduli.
+Questo modulo di azione consente di effettuare una chiamata autenticata personalizzata all&#39;API [!DNL Airtable]. In questo modo è possibile creare un&#39;automazione del flusso di dati che non può essere eseguita dagli altri moduli [!DNL Airtable].
 
 L’azione si basa sul tipo di entità (tipo di oggetto Allocadia) specificato.
 
@@ -465,15 +465,15 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connessione</p> </td> 
-   <td> <p>Per istruzioni su come collegare il tuo account Airtable a Workfront Fusion, vedi <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Collegamento di Airtable a Workfront Fusion</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account Airtable a Workfront Fusion, vedere <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connessione Airtable a Workfront Fusion</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
-   <td>Inserisci un percorso relativo a <code>https://api.airtable.com/}</code>. Esempio: <code>v0/{base}/{table}</code> </td> 
+   <td>Immettere un percorso relativo a <code>https://api.airtable.com/}</code>. Esempio: <code>v0/{base}/{table}</code> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Metodo</td> 
-   <td> <p>Seleziona il metodo di richiesta HTTP necessario per configurare la chiamata API. Per ulteriori informazioni, consulta <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Metodi di richiesta HTTP in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Seleziona il metodo di richiesta HTTP necessario per configurare la chiamata API. Per ulteriori informazioni, vedere <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Metodi di richiesta HTTP in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Intestazioni</td> 
@@ -485,7 +485,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
   </tr> 
   <tr> 
    <td role="rowheader">Corpo</td> 
-   <td> <p>Aggiungi il contenuto body per la chiamata API sotto forma di oggetto JSON standard.</p> <p>Nota:  <p>Quando si utilizzano istruzioni condizionali quali <code>if</code> nel JSON, inserisci le virgolette al di fuori dell’istruzione condizionale.</p> 
+   <td> <p>Aggiungi il contenuto body per la chiamata API sotto forma di oggetto JSON standard.</p> <p>Nota:  <p>Quando si utilizzano istruzioni condizionali come <code>if</code> nel JSON, inserire le virgolette al di fuori dell'istruzione condizionale.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 

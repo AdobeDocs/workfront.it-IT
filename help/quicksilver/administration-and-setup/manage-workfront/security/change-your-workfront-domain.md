@@ -10,7 +10,7 @@ role: Admin
 exl-id: d817bd2b-1aaa-4dde-8e75-392c1da2943a
 source-git-commit: 22ea9b623d7bc7b216511538cf88e4d020529bd3
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >La procedura descritta in questa pagina si applica solo alle organizzazioni che non hanno ancora effettuato l’onboarding nell’Admin Console. Se per la tua organizzazione è stato eseguito l’onboarding in Adobe Admin Console, non è possibile modificare il dominio Workfront.
 >
->Per un elenco delle procedure che differiscono in base al fatto che la tua organizzazione sia stata onboarding in Adobe Admin Console, consulta [Differenze di amministrazione basate su piattaforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Per un elenco delle procedure che differiscono a seconda che l&#39;organizzazione sia stata integrata in Adobe Admin Console, consulta [Differenze di amministrazione basate su Platform (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 In qualità di amministratore Adobe Workfront e di contatto autorizzato del supporto Workfront, puoi richiedere assistenza al team del supporto Workfront per modificare il dominio Workfront della tua organizzazione.
 
@@ -43,7 +43,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Devi essere un amministratore di Workfront.</p> <p><b>NOTA</b>: se ancora non disponi dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <p>Devi essere un amministratore di Workfront.</p> <p><b>NOTA</b>: se non disponi ancora dell'accesso, chiedi all'amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,7 +51,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 ## Richiedi modifica dominio
 
 1. Inizia a creare un ticket di supporto su Experience League.
-1. In **Descrizione** , includi il nuovo dominio desiderato e l’intervallo di tempo in cui desideri che il nuovo dominio venga reso live.
+1. Nella casella **Descrizione** includere il nuovo dominio desiderato e l&#39;intervallo di tempo in cui si desidera che il nuovo dominio venga attivato.
 1. Completare la compilazione delle caselle relative al caso di supporto, quindi fare clic su **Invia**.
 
 È inoltre possibile chiamare il supporto tecnico Workfront per ottenere assistenza nella modifica del dominio.
@@ -64,17 +64,17 @@ Se l&#39;azienda utilizza l&#39;SSO, dopo aver modificato il dominio Workfront s
 >
 >Questa opzione non è disponibile se l’istanza Workfront della tua organizzazione è abilitata con Adobe IMS. Per ulteriori informazioni, rivolgersi all&#39;amministratore di rete o IT.
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
-1. Nella barra laterale a sinistra, fai clic su **Sistema** > **Informazioni Cliente** e assicurati che il tuo dominio sia aggiornato nella pagina Informazioni cliente.
+1. Nella barra laterale a sinistra, fai clic su **Sistema** > **Informazioni cliente** e assicurati che il tuo dominio sia aggiornato nella pagina Informazioni cliente.
 
-1. Nella barra laterale a sinistra, fai clic su **Sistema** > **Single Sign-On (SSO)**.
+1. Nella barra laterale sinistra, fare clic su **Sistema** > **Single Sign-On (SSO)**.
 
-1. Clic **Scarica metadati SAML 2.0**.
+1. Fare clic su **Scarica metadati SAML 2.0**.
 1. Dopo aver scaricato il file, aprilo e accertati che:
 
-   1. **entityID** sta puntando al nuovo dominio.
-   1. Tutte le posizioni in **`<md:AssertionConsumerService>`** selezionare il nuovo dominio.
+   1. **entityID** punta al nuovo dominio.
+   1. Tutte le posizioni in **`<md:AssertionConsumerService>`** puntano al nuovo dominio.
 
 1. Fornisci il file di metadati scaricato al provider di identità in modo che possa aggiornarlo alla fine.
 1. Assicurati che il dominio sia aggiornato per tutte le integrazioni Workfront utilizzate dalla tua organizzazione.

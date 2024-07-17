@@ -18,9 +18,9 @@ ht-degree: 0%
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti oppure nell’ambiente di produzione per i clienti che hanno abilitato le versioni rapide.</span>
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente di anteprima per tutti i clienti oppure nell&#39;ambiente di produzione per i clienti che hanno abilitato le versioni rapide.</span>
 
-<span class="preview">Per informazioni sulle versioni rapide, consulta [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">Per informazioni sulle versioni rapide, vedi [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 <span class="preview">Per informazioni sulla versione corrente, consulta [Panoramica sulla versione del terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
@@ -30,7 +30,7 @@ Quando gestisci le assegnazioni di attività e problemi, puoi utilizzare le asse
 >
 >Quando si suggeriscono gli utenti, le assegnazioni intelligenti non tengono conto della disponibilità dell’utente. Tuttavia, la loro disponibilità in base alle loro pianificazioni influisce sulle Date pianificate e previste delle attività e dei problemi quando vengono assegnate. Per informazioni sulle pianificazioni, vedere l&#39;articolo [Creare una pianificazione](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-Questo articolo contiene informazioni generali sulle assegnazioni avanzate. Per informazioni sull&#39;utilizzo delle assegnazioni avanzate per assegnare attività e problemi agli utenti, vedere [Effettua assegnazioni intelligenti](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md).
+Questo articolo contiene informazioni generali sulle assegnazioni avanzate. Per informazioni sull&#39;utilizzo delle assegnazioni avanzate per assegnare attività e problemi agli utenti, vedere [Assegnazioni avanzate](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md).
 
 ## Panoramica delle assegnazioni intelligenti
 
@@ -53,7 +53,7 @@ Puoi visualizzare le assegnazioni intelligenti nelle seguenti aree, dove puoi as
 
   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
-* <span class="preview">Un&#39;intestazione di attività nel campo Assegnazioni</span>
+* <span class="preview">Intestazione attività nel campo Assegnazioni</span>
 
   <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
 
@@ -88,7 +88,7 @@ Le assegnazioni intelligenti funzionano in modo diverso per le attività rispett
 
 Il calcolo delle assegnazioni intelligenti delle attività funziona in due fasi che utilizzano due algoritmi diversi.
 
-A seconda dell&#39;algoritmo che individua l&#39;assegnazione intelligente, le assegnazioni sono elencate in due sezioni separate nel campo Assegnazioni. Per informazioni, consulta [Effettua assegnazioni intelligenti](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md).
+A seconda dell&#39;algoritmo che individua l&#39;assegnazione intelligente, le assegnazioni sono elencate in due sezioni separate nel campo Assegnazioni. Per informazioni, vedere [Assegnazioni avanzate](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md).
 
 ![](assets/smart-assignments-task-list.png)
 
@@ -124,7 +124,7 @@ Il calcolo per il punteggio di somiglianza e l&#39;ordine in cui sono elencate l
 
   Ad esempio, se Rick è stato assegnato a un&#39;attività simile in precedenza e Jennifer è stato assegnato a un&#39;attività simile due giorni fa, Rick viene visualizzato per primo.
 
-* Le assegnazioni identificate in questa fase sono elencate nella    **Assegnazioni suggerite**  sezione del campo Assegnazioni per le attività.
+* Le assegnazioni identificate in questa fase sono elencate nella    **Sezione Assegnazioni suggerite** del campo Assegnazioni per le attività.
 
 * Se non ci sono corrispondenze che utilizzano questo calcolo, inizia la seconda fase delle assegnazioni intelligenti che viene calcolata utilizzando un algoritmo diverso.
 
@@ -132,9 +132,9 @@ Il calcolo per il punteggio di somiglianza e l&#39;ordine in cui sono elencate l
 
 Se il primo passaggio delle assegnazioni intelligenti delle attività non ha trovato corrispondenze, Workfront calcola le assegnazioni intelligenti per le attività nello stesso modo in cui le calcola per i problemi.
 
-Per ulteriori informazioni, consulta la sezione [Criteri di assegnazione intelligenti per attività e problemi](#smart-assignments-criteria-for-tasks-and-issues) in questo articolo.
+Per ulteriori informazioni, vedere la sezione [Criteri di assegnazione avanzata per attività e problemi](#smart-assignments-criteria-for-tasks-and-issues) in questo articolo.
 
-Le assegnazioni identificate in questa fase sono elencate nella **Utenti e team**, **Assegnazioni mansioni**, e **Valuta ruoli scheda**  sezioni del campo Assegnazioni. Per ulteriori informazioni sulle schede delle tariffe, consulta [Gestire le schede delle tariffe](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
+Le assegnazioni identificate in questa fase sono elencate nelle sezioni **Utenti e team**, **Assegnazioni mansioni** e **Ruoli scheda valutazione** del campo Assegnazioni. Per ulteriori informazioni sulle schede tariffarie, vedere [Gestione delle schede tariffarie](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 ### Criteri di assegnazione intelligenti per attività e problemi
 
@@ -142,7 +142,7 @@ Le assegnazioni identificate in questa fase sono elencate nella **Utenti e team*
 
 >[!NOTE]
 >
-><span class="preview">I criteri seguenti si applicano alle attività solo quando nella prima fase del calcolo dell&#39;assegnazione intelligente delle attività non sono state trovate corrispondenze. Per informazioni, consulta la sezione [Prima fase del calcolo dell&#39;assegnazione intelligente per le attività](#first-phase-of-smart-assignment-calculation-for-tasks) in questo articolo. Per impostazione predefinita, i seguenti criteri sono sempre applicabili ai problemi. </span>
+><span class="preview">I criteri seguenti si applicano alle attività solo quando nella prima fase del calcolo dell&#39;assegnazione intelligente delle attività non è stata trovata alcuna corrispondenza. Per informazioni, vedere la sezione [Prima fase del calcolo dell&#39;assegnazione intelligente per le attività](#first-phase-of-smart-assignment-calculation-for-tasks) in questo articolo. Per impostazione predefinita, i seguenti criteri sono sempre applicabili ai problemi. </span>
 
 <span class="preview">![](assets/smart-assignments-issue-header.png)</span>
 

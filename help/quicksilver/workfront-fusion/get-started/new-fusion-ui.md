@@ -47,20 +47,20 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   <tr> 
    <td role="rowheader">Prodotto</td> 
    <td>
-   <p>Fabbisogno prodotto corrente: se si dispone di [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Pianifica, la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo. [!DNL Workfront Fusion] è incluso in [!UICONTROL Ultimate] [!DNL Workfront] piano.</p>
+   <p>Fabbisogno prodotto corrente: se si dispone del piano [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], l'organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo. [!DNL Workfront Fusion] è incluso nel piano [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>Oppure</p>
-   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</p>
+   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
-*Per conoscere il piano, il tipo di licenza o l'accesso di cui si dispone, contattare [!DNL Workfront Fusion] amministratore.
+*Per conoscere il piano, il tipo di licenza o l'accesso disponibili, contattare l'amministratore [!DNL Workfront Fusion].
 
-## Naviga [!DNL Workfront Fusion]
+## Passa a [!DNL Workfront Fusion]
 
-Il [!UICONTROL Organizzazione] e [!UICONTROL Team] I menu si trovano nel pannello di navigazione a sinistra di Fusion. Se sei un [!DNL Workfront Fusion] amministratore, il tuo [!UICONTROL Amministrazione] viene visualizzato anche qui.
+I menu [!UICONTROL Organizzazione] e [!UICONTROL Team] si trovano nel pannello di navigazione sinistro di Fusion. Se sei un amministratore di [!DNL Workfront Fusion], qui viene visualizzato anche il menu [!UICONTROL Amministrazione].
 
-Per cambiare team, fai clic sul nome del team nella parte superiore della pagina, quindi seleziona il team. Il selettore team viene visualizzato solo nelle pagine specifiche di un team, ad esempio nel caso di un generatore di scenari o [!UICONTROL Connessioni] pagina.
+Per cambiare team, fai clic sul nome del team nella parte superiore della pagina, quindi seleziona il team. Il selettore team viene visualizzato solo nelle pagine specifiche di un team, ad esempio un generatore di scenari o la pagina [!UICONTROL Connessioni].
 
 Per cambiare organizzazione, fai clic sul nome dell’organizzazione in alto a destra dello schermo, quindi seleziona l’organizzazione.
 
@@ -70,11 +70,11 @@ Per accedere alle opzioni del profilo e delle preferenze, fai clic sull’immagi
 
 Nel tuo profilo puoi visualizzare le seguenti schede:
 
-* **[!UICONTROL Organismi]**: visualizza le organizzazioni di Fusion a cui appartieni.
-* **[!UICONTROL Opzioni fuso orario]**: qui puoi impostare i fusi orari utilizzati nell’interfaccia utente di Fusion e i fusi orari utilizzati per i singoli scenari.
+* **[!UICONTROL Organizzazioni]**: visualizza le organizzazioni di Fusion a cui appartieni.
+* **[!UICONTROL Opzioni fuso orario]**: qui è possibile impostare i fusi orari utilizzati nell&#39;interfaccia utente di Fusion e i fusi orari utilizzati per i singoli scenari.
 * **[!UICONTROL API]**: qui puoi copiare i token API esistenti o crearne di nuovi.
 
 
 ## Accedere alle notifiche
 
-Per visualizzare le notifiche, fai clic sull’icona Notifiche ![Icona Notifiche](assets/notifications-icon.png) nell&#39;angolo superiore destro dello schermo. Un punto rosso sull’icona Notifiche indica che sono presenti notifiche o annunci non letti.
+Per visualizzare le notifiche, fai clic sull&#39;icona Notifiche ![Icona Notifiche](assets/notifications-icon.png) nell&#39;angolo superiore destro dello schermo. Un punto rosso sull’icona Notifiche indica che sono presenti notifiche o annunci non letti.

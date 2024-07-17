@@ -35,7 +35,7 @@ In Adobe Workfront Planning è possibile aggiungere nuovi campi che riflettono i
 
 * È possibile creare campi solo dalla vista tabella di una pagina del tipo di record. I campi vengono visualizzati come colonne nella vista tabella. Nella pagina del record vengono visualizzati anche tutti i campi associati a un tipo di record.
 
-  Per informazioni sulla gestione delle colonne di tabella (o dei campi record), vedere [Gestire la vista tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
+  Per informazioni sulla gestione delle colonne di tabella (o dei campi record), vedere [Gestire la visualizzazione della tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
 
   Per informazioni sulla gestione dei campi, vedi anche i seguenti articoli:
 
@@ -60,7 +60,7 @@ In Adobe Workfront Planning è possibile aggiungere nuovi campi che riflettono i
 
         Per ulteriori informazioni sulla connessione dei tipi di record, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-      * Importando i tipi di record utilizzando un file Excel o CSV. Per ulteriori informazioni, consulta [Crea tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
+      * Importando i tipi di record utilizzando un file Excel o CSV. Per ulteriori informazioni, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
 
    * Automaticamente:
 
@@ -79,11 +79,11 @@ In Adobe Workfront Planning è possibile aggiungere nuovi campi che riflettono i
 
         Puoi aggiungere altri valori o rinominare quelli esistenti.
 
-     Workfront Planning crea campi per i tipi di record quando si crea un&#39;area di lavoro da un modello. Per informazioni, consulta [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
+     Workfront Planning crea campi per i tipi di record quando si crea un&#39;area di lavoro da un modello. Per informazioni, vedere [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
 
 * I campi di Workfront Planning non sono accessibili da Workfront.
 
-* I campi di Workfront sono accessibili da Workfront Planning solo quando si collegano tipi di record a tipi di oggetti di Workfront e si aggiungono campi collegati o di ricerca da oggetti di Workfront. Per informazioni, consulta [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
+* I campi di Workfront sono accessibili da Workfront Planning solo quando si collegano tipi di record a tipi di oggetti di Workfront e si aggiungono campi collegati o di ricerca da oggetti di Workfront. Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 * Se disponi delle autorizzazioni di gestione per l’area di lavoro a cui appartiene il campo, puoi visualizzare e aggiornare le impostazioni per i campi creati da te o da qualsiasi altro utente.
 

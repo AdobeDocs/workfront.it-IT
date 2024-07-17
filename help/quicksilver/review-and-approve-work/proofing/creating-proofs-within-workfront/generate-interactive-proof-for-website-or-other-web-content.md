@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 56e5eeea-1ab9-43c8-bc84-d10638171871
 source-git-commit: 35d76d3cb06c9e9b449844f304f1443e24a221d4
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -50,24 +50,24 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza disponibile, contattare l&#39;amministratore Workfront o Workfront Proof.
+&#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
 
 ## Creare una bozza interattiva per un sito web o altro contenuto web
 
 1. Vai al progetto, all’attività o al problema in cui desideri creare una nuova bozza del sito web o una nuova versione di una bozza esistente.
-1. Clic **Documenti** nel pannello a sinistra.
-1. (Condizionale) Se stai creando una nuova bozza, fai clic su **Aggiungi nuovo**, quindi fai clic su **Bozza** nel menu visualizzato.
+1. Fai clic su **Documenti** nel pannello a sinistra.
+1. (Condizionale) Se stai creando una nuova bozza, fai clic su **Aggiungi nuova**, quindi fai clic su **Bozza** nel menu visualizzato.
 
-1. (Condizionale) Sul **Nuova bozza** viene visualizzata la pagina, se stai creando una nuova versione di una bozza esistente:
+1. (Condizionale) Nella pagina **Nuova bozza** viene visualizzato se si sta creando una nuova versione di una bozza esistente:
 
    1. Passa il puntatore del mouse sulla bozza URL per la quale desideri creare una nuova versione, quindi selezionala facendo clic su, nell’area blu chiara che la circonda.
 
-      ![Select_proof_by_selection_light_blue_background.png](assets/select-proof-by-selecting-light-blue-background-350x52.png)
+      ![Seleziona_bozza_selezionando_sfondo_azzurro_chiaro.png](assets/select-proof-by-selecting-light-blue-background-350x52.png)
 
 
-   1. In **Aggiungi nuovo** a discesa, fai clic su **Versione** > **Bozza**.
+   1. Nel menu a discesa **Aggiungi nuovo**, fai clic su **Versione** > **Bozza**.
 
-1. In **Aggiungi file** , digitare l&#39;URL del sito Web che si desidera verificare, quindi premere **Invio**.  È possibile ripetere questa procedura per aggiungere più siti Web da sottoporre a verifica.
+1. Nella sezione **Aggiungi file**, digita l&#39;URL del sito Web che desideri verificare, quindi premi **Invio**.  È possibile ripetere questa procedura per aggiungere più siti Web da sottoporre a verifica.
 
    ![proof_website.png](assets/proof-website-350x65.png)
 
@@ -80,14 +80,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    ![](assets/click-url-350x137.png)
 
-1. (Facoltativo) Se desideri modificare il nome della bozza dall’URL del sito web, digita un **Nome bozza**.
-1. Seleziona **Interattiva**, quindi fai clic su **Fine**.
+1. (Facoltativo) Se desideri modificare il nome della bozza dall&#39;URL del sito Web a qualcos&#39;altro, digita **Nome bozza**.
+1. Seleziona **Interattivo**, quindi fai clic su **Fine**.
 
    >[!NOTE]
    >
    >Se stai aggiungendo una nuova versione a una bozza URL esistente, tutte le opzioni configurate sulla bozza originale o sulla versione precedente vengono mantenute in questa versione.
 
-1. Clic **Crea bozza** per creare una bozza semplice senza alcun processo di revisione.\
+1. Fai clic su **Crea bozza** per creare una bozza semplice senza processo di revisione.\
    oppure\
    Continua con la configurazione di una bozza avanzata:
 

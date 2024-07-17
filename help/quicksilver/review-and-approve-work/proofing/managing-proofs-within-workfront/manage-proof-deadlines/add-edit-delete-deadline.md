@@ -10,7 +10,7 @@ exl-id: 23010732-dab7-461d-876a-56f9928a2a23
 source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
 workflow-type: tm+mt
 source-wordcount: '288'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -44,23 +44,23 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modifica accesso ai documenti</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Modifica accesso ai documenti</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza disponibile, contattare l&#39;amministratore Workfront o Workfront Proof.
+&#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
 
 ## Aggiungere, modificare o eliminare una scadenza per una fase
 
-1. Passa il puntatore sulla bozza, quindi fai clic su **Flusso di lavoro di verifica** per aprire la pagina Workflow.
+1. Passa il puntatore del mouse sulla bozza, quindi fai clic su **Flusso di lavoro di bozza** per aprire la pagina Flusso di lavoro.
 1. Individuare la fase che si desidera gestire, effettuare una delle seguenti operazioni:
 
    <table>
       <tbody>
       <tr>
       <td>Aggiungi una scadenza alla fase</td>
-      <td>Doppio clic <strong>Nessuna scadenza</strong>, quindi specifica una data e un’ora per la scadenza.</td>
+      <td>Fai doppio clic su <strong>Nessuna scadenza</strong>, quindi specifica una data e un'ora per la scadenza.</td>
       </tr>
       <tr>
       <td>Modifica una scadenza esistente</td>
@@ -68,7 +68,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
       </tr>
       <tr>
       <td>Elimina una scadenza esistente</td>
-      <td>Fare doppio clic sulla data e l'ora nell'angolo superiore destro dello stage, quindi fare clic su <strong>Cancella</strong> nella parte inferiore della casella Calendario visualizzata.</td>
+      <td>Fare doppio clic sulla data e l'ora nell'angolo superiore destro dell'area di visualizzazione, quindi fare clic su <strong>Cancella</strong> nella parte inferiore della casella Calendario visualizzata.</td>
       </tr>
       </tbody>
       </table>

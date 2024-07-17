@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Crea assegnazioni avanzate
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti oppure nell’ambiente di produzione per i clienti che hanno abilitato le versioni rapide.</span>
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente di anteprima per tutti i clienti oppure nell&#39;ambiente di produzione per i clienti che hanno abilitato le versioni rapide.</span>
 
-<span class="preview">Per informazioni sulle versioni rapide, consulta [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">Per informazioni sulle versioni rapide, vedi [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 <span class="preview">Per informazioni sulla versione corrente, consulta [Panoramica sulla versione del terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Quando si assegnano gli utenti al lavoro, la loro disponibilità in base alle loro pianificazioni influisce sulle date pianificate e previste delle attività e dei problemi. Per informazioni sulle pianificazioni, consulta [Creare una pianificazione](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+>Quando si assegnano gli utenti al lavoro, la loro disponibilità in base alle loro pianificazioni influisce sulle date pianificate e previste delle attività e dei problemi. Per informazioni sulle pianificazioni, vedere [Creare una pianificazione](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 ## Aree di Adobe Workfront in cui è possibile effettuare assegnazioni avanzate
 
@@ -43,7 +43,7 @@ Questo articolo descrive come accedere ad Assegnazioni anticipate nell’intesta
 Inoltre, puoi effettuare assegnazioni avanzate nelle seguenti aree di Workfront:
 
 * Negli elenchi e nei report quando il campo Assegnazioni viene visualizzato nella visualizzazione.
-* Nella sezione Assegnazioni durante la modifica di un&#39;attività. Per ulteriori informazioni, consulta [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+* Nella sezione Assegnazioni durante la modifica di un&#39;attività. Per ulteriori informazioni, vedere [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 * Nell’intestazione dell’attività o del problema, nell’area Assegnazioni.
 * Nel Bilanciatore dei carichi di lavoro. Per ulteriori informazioni, consulta [Assegnare il lavoro manualmente utilizzando il Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
 
@@ -71,45 +71,45 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Contribuire o concedere autorizzazioni superiori a un’attività o a un problema</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Autorizzazioni Contribute o superiori per un’attività o un problema</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Assegnazioni avanzate
 
 1. Vai al progetto a cui desideri assegnare un’attività o un problema.
-1. Clic **Attività** o **Problemi** nel pannello a sinistra, fai clic sul nome di un’attività o di un problema nell’elenco.
+1. Fai clic su **Attività** o **Problemi** nel pannello a sinistra, quindi fai clic sul nome di un&#39;attività o di un problema nell&#39;elenco.
 
    >[!TIP]
    >
-   >Se sono presenti due o più persone assegnate, è possibile effettuare assegnazioni avanzate direttamente nell&#39;elenco delle attività o dei problemi. Fai clic all’interno del **Assegnazioni** sulla stessa riga dell’attività o del problema, quindi fai clic sul pulsante **Icona Persone** per aprire la finestra Assegnazioni avanzate. Passare al passaggio 5 per continuare la creazione di assegnazioni avanzate.\
+   >Se sono presenti due o più persone assegnate, è possibile effettuare assegnazioni avanzate direttamente nell&#39;elenco delle attività o dei problemi. Fai clic all&#39;interno del campo **Assegnazioni** sulla stessa riga dell&#39;attività o del problema, quindi fai clic sull&#39;icona **Persone** per aprire la finestra Assegnazioni avanzate. Passare al passaggio 5 per continuare la creazione di assegnazioni avanzate.\
    >![](assets/nwe-advanced-assignments-350x55.png)
    >
 
-1. Clic **Assegna a** nel **Assegnazioni** campo nell’intestazione dell’attività o del problema
+1. Fai clic su **Assegna a** nel campo **Assegnazioni** nell&#39;intestazione dell&#39;attività o del problema
 
    Oppure
 
    Se l’attività o il problema è già assegnato, fai clic sul nome delle assegnazioni.
 
-1. Clic **Avanzate**.
+1. Fare clic su **Avanzate**.
 
    Immagine di esempio nell’ambiente di produzione:
    ![](assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
 
-   <span class="preview">Immagine di esempio nell’ambiente di anteprima:</span>
-   ![Fai clic su Avanzate](assets/assignments-box-in-task-header.png)
+   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
+   ![Fare clic su Avanzate](assets/assignments-box-in-task-header.png)
 
-1. In **Cerca persone, ruolo e team** , inizia a digitare il nome di un utente, una mansione o un team e, quando viene visualizzato nell&#39;elenco a discesa, fai clic sul nome.
+1. Nel campo **Cerca persone, mansione e team**, inizia a digitare il nome di un utente, una mansione o un team e fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
 
    >[!NOTE]
    >
    >Se il nome dell&#39;utente contiene un carattere speciale, è necessario includere tale carattere nel campo di ricerca.
 
-1. (Facoltativo) Continua ad aggiungere assegnatari nel **Cerca persone, ruolo o team** per aggiungere più risorse all’attività o al problema.
+1. (Facoltativo) Continua ad aggiungere assegnatari nella casella **Cerca persone, mansione o team** per aggiungere più risorse all&#39;attività o al problema.
 
    >[!TIP]
    >
@@ -118,7 +118,7 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
    >
    >* Quando aggiungi un’assegnazione utente, osserva l’avatar, il ruolo principale dell’utente o il suo indirizzo e-mail per distinguere gli utenti con nomi identici.
    >Gli utenti devono essere associati ad almeno una mansione per visualizzarla quando vengono aggiunti.
-   >Per consentire agli utenti di visualizzare le e-mail degli utenti, nel proprio livello di accesso deve essere abilitata l’impostazione Visualizza informazioni di contatto. Per informazioni, consulta [Concedere l’accesso agli utenti](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >Per consentire agli utenti di visualizzare le e-mail degli utenti, nel proprio livello di accesso deve essere abilitata l’impostazione Visualizza informazioni di contatto. Per informazioni, vedere [Concedere l&#39;accesso agli utenti](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
    >
    >
    >* Se un utente, una mansione o un team è stato assegnato prima della disattivazione, rimane assegnato all&#39;elemento di lavoro. In questo caso, consigliamo quanto segue:
@@ -131,16 +131,16 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
     * <span class="preview">When adding a job role assignment, you can search for the job role or location. Select the System/Default Job Role to use the default billing rate for the assignment, or select a Rate Card Job Role to override the rate at the assignment level. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
     -->
 
-1. Per ogni utente in **Assegnatario** , specificare le informazioni seguenti:
+1. Per ogni utente nella colonna **Assegnatario**, specificare le informazioni seguenti:
 
 
-   * **Proprietario**: passa il puntatore sul nome dell’assegnatario e fai clic su **Rendi principale** nel campo Proprietario se si desidera contrassegnare l’assegnatario come proprietario dell’attività o del problema. Una casella di controllo verde indica che l’utente specificato è il contatto principale dell’attività o del problema. Adobe Workfront contrassegna come Proprietario o Assegnazione principale il primo utente o mansione assegnato a un&#39;attività o a un problema. Un team non può essere designato come proprietario principale di un’attività o di un problema.
+   * **Proprietario**: passa il puntatore del mouse sul nome dell&#39;assegnatario e fai clic su **Imposta come principale** nel campo Proprietario se desideri contrassegnare l&#39;assegnatario come proprietario dell&#39;attività o del problema. Una casella di controllo verde indica che l’utente specificato è il contatto principale dell’attività o del problema. Adobe Workfront contrassegna come Proprietario o Assegnazione principale il primo utente o mansione assegnato a un&#39;attività o a un problema. Un team non può essere designato come proprietario principale di un’attività o di un problema.
 
      >[!IMPORTANT]
      >
-     >A seconda della modalità di impostazione delle preferenze di progetto da parte dell&#39;amministratore di Workfront o del gruppo, Workfront potrebbe utilizzare la pianificazione del proprietario dell&#39;attività per calcolare la sequenza temporale dell&#39;attività quando più utenti sono assegnati all&#39;attività. Per informazioni su più assegnatari di attività, vedere la sezione &quot;Assegnare più utenti a un&#39;attività&quot; nell&#39;articolo [Assegna attività](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
+     >A seconda della modalità di impostazione delle preferenze di progetto da parte dell&#39;amministratore di Workfront o del gruppo, Workfront potrebbe utilizzare la pianificazione del proprietario dell&#39;attività per calcolare la sequenza temporale dell&#39;attività quando più utenti sono assegnati all&#39;attività. Per informazioni su più assegnatari di attività, vedere la sezione &quot;Assegnare più utenti a un&#39;attività&quot; nell&#39;articolo [Assegnare attività](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
 
-   * **Allocazioni** : quando il Tipo di durata di un’attività è Semplice, specifica il numero di ore che ogni utente o mansione deve essere assegnato all’attività. La somma di tutte le ore assegnate a ciascun utente è uguale al numero in **Ore pianificate** nella parte inferiore della colonna Allocazioni. In tutti gli altri casi, specifica la percentuale di tempo (o allocazione) che l’assegnatario deve dedicare alla risoluzione dell’attività o del problema.
+   * **Allocazioni**: quando il tipo di durata di un&#39;attività è Semplice, specificare il numero di ore che ogni utente o mansione deve assegnare all&#39;attività. La somma di tutte le ore assegnate a ciascun utente è uguale al numero nel campo **Ore pianificate** nella parte inferiore della colonna Allocazioni. In tutti gli altri casi, specifica la percentuale di tempo (o allocazione) che l’assegnatario deve dedicare alla risoluzione dell’attività o del problema.
 
      <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: make sure this is right in the new UI for both classic and QS???)</p>   
@@ -151,7 +151,7 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
      >
      >   
      >   
-     >   * Dopo aver modificato manualmente le allocazioni delle assegnazioni per le attività, le ore pianificate delle attività potrebbero essere aggiornate di conseguenza. Per ulteriori informazioni, vedere la sezione &quot;Aggiornare le ore pianificate per l&#39;attività durante la gestione delle allocazioni utente&quot; nell&#39;articolo [Panoramica sulle ore pianificate](../../../manage-work/tasks/task-information/planned-hours.md).
+     >   * Dopo aver modificato manualmente le allocazioni delle assegnazioni per le attività, le ore pianificate delle attività potrebbero essere aggiornate di conseguenza. Per ulteriori informazioni, consulta la sezione &quot;Aggiornare le ore pianificate per l&#39;attività durante la gestione delle allocazioni utente&quot; nell&#39;articolo [Panoramica sulle ore pianificate](../../../manage-work/tasks/task-information/planned-hours.md).
      >   * Non è possibile modificare manualmente le allocazioni di assegnazione in caso di problemi.
      >   * Non è possibile modificare manualmente le allocazioni per i team assegnati alle attività.
      >   
@@ -162,7 +162,7 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
      Immagine di esempio nell’ambiente di produzione:
      ![](assets/advanced-assignments-box-select-a-role-350x243.png)
 
-     <span class="preview">Immagine di esempio nell’ambiente di anteprima:</span>
+     <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
      ![Ruolo dell&#39;assegnatario](assets/advanced-assignments-select-role.png)
 
    <!--<div class="preview">
@@ -173,13 +173,13 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 
    </div>-->
 
-   * **Tipo di durata**: disponibile solo per le attività. Fai clic sul nome del Tipo di durata e seleziona un Tipo di durata dal menu a discesa. Per informazioni sui tipi di durata, vedi [Panoramica sulla durata e sul tipo di durata dell&#39;attività](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   * **Tipo di durata**: disponibile solo per le attività. Fai clic sul nome del Tipo di durata e seleziona un Tipo di durata dal menu a discesa. Per informazioni sui tipi di durata, vedere [Panoramica sulla durata dell&#39;attività e sul tipo di durata](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
-   * **Durata:** È possibile aggiornare questo campo per un&#39;attività quando si dispone delle autorizzazioni Gestione per l&#39;attività.
+   * **Durata:** È possibile aggiornare questo campo per un&#39;attività quando si dispone delle autorizzazioni di gestione per l&#39;attività.
 
-     Per ulteriori informazioni, consulta [Panoramica sulla durata e sul tipo di durata dell&#39;attività](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md). Quando si modificano in blocco le informazioni di assegnazione, viene visualizzata una finestra di dialogo simile che consente di assegnare utenti, ore, allocazione e proprietario dell&#39;attività.
+     Per ulteriori informazioni, vedere [Panoramica sulla durata e sul tipo di durata dell&#39;attività](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md). Quando si modificano in blocco le informazioni di assegnazione, viene visualizzata una finestra di dialogo simile che consente di assegnare utenti, ore, allocazione e proprietario dell&#39;attività.
 
-   * **Ore pianificate**: quando il tipo di durata è Assegnazione calcolata o Semplice, aggiorna il numero di ore pianificate. Di conseguenza, le percentuali di allocazione o le ore per ogni risorsa vengono distribuite in modo uniforme. Workfront calcola le ore pianificate quando il tipo di durata è Lavoro calcolato o Impegno guidato. Per ulteriori informazioni, consulta [Panoramica sulla durata e sul tipo di durata dell&#39;attività](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   * **Ore pianificate**: quando il tipo di durata è Assegnazione calcolata o Semplice, aggiorna il numero di ore pianificate. Di conseguenza, le percentuali di allocazione o le ore per ogni risorsa vengono distribuite in modo uniforme. Workfront calcola le ore pianificate quando il tipo di durata è Lavoro calcolato o Impegno guidato. Per ulteriori informazioni, vedere [Panoramica sulla durata e sul tipo di durata dell&#39;attività](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
      Immagine di esempio nell’ambiente di produzione:
      ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)

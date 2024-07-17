@@ -1,6 +1,6 @@
 ---
-title: Attività di rilascio di Workfront Fusion:&nbsp;Settimana del 14 febbraio 2022
-description: Attività di rilascio di Workfront Fusion:&nbsp;Settimana del 14 febbraio 2022
+title: Attività del rilascio di Workfront Fusion:&nbsp;Settimana del 14 febbraio 2022
+description: Attività del rilascio di Workfront Fusion:&nbsp;Settimana del 14 febbraio 2022
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti apportati ad Adobe Workfront Fusion la settimana del 14 febbraio 2022.
 
-Per un elenco di tutte le modifiche recenti, vedi [Attività di rilascio di Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Per un elenco di tutte le modifiche recenti, vedere [Attività di Adobe Workfront Fusion release](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedi [Aggiornamenti di manutenzione per Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
+Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedere la pagina [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
 
 ## Aggiornamenti al connettore Workfront Fusion Anaplan
 
@@ -29,4 +29,4 @@ Per espandere la funzionalità del connettore Anaplan, sono stati apportati i se
 * Utilizza un modulo dedicato per caricare un file in Anaplan. Ora puoi prendere un file in Anaplan e caricarlo in aree di lavoro e modelli aggiuntivi.
 * Recuperate le viste Anaplan con il modulo Get a Record. Ora è possibile elencare tutte le viste di un modulo o modello Anaplan.
 
-Per ulteriori informazioni, consulta [Moduli Anaplan](../../../workfront-fusion/apps-and-their-modules/anaplan-modules.md).
+Per ulteriori informazioni, vedere [Moduli Anaplan](../../../workfront-fusion/apps-and-their-modules/anaplan-modules.md).

@@ -9,7 +9,7 @@ exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '1165'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ Quando condividi un oggetto con qualcuno nel sistema, puoi concedere al destinat
 
 Non è necessario essere amministratori di Adobe Workfront per condividere le autorizzazioni sugli oggetti a cui hai accesso, ma le autorizzazioni sugli oggetti funzionano all’interno dei livelli di accesso impostati dall’amministratore di Workfront.
 
-È possibile condividere o rimuovere le autorizzazioni per un oggetto creato o condiviso con l&#39;utente. Se non si è il creatore dell&#39;oggetto, è necessario disporre dell&#39;accesso Condivisione sull&#39;oggetto che si desidera condividere nel proprio livello di accesso oltre alle autorizzazioni Condivisione sull&#39;oggetto. Per informazioni sui livelli di accesso, consulta [Panoramica dei nuovi livelli di accesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) o [Panoramica dei livelli di accesso](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+È possibile condividere o rimuovere le autorizzazioni per un oggetto creato o condiviso con l&#39;utente. Se non si è il creatore dell&#39;oggetto, è necessario disporre dell&#39;accesso Condivisione sull&#39;oggetto che si desidera condividere nel proprio livello di accesso oltre alle autorizzazioni Condivisione sull&#39;oggetto. Per informazioni sui livelli di accesso, vedere [Panoramica sui nuovi livelli di accesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) o [Panoramica sui livelli di accesso](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!NOTE]
 >
@@ -34,37 +34,37 @@ Non è necessario essere amministratori di Adobe Workfront per condividere le au
 
 In Workfront è possibile condividere i seguenti oggetti con altri utenti:
 
-* **Progetti**: per ulteriori informazioni, consulta [Condividere un progetto in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+* **Progetti**: per ulteriori informazioni, vedere [Condividere un progetto in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
-* **Modelli**: per ulteriori informazioni, consulta [Condividere modelli di progetto](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+* **Modelli**: per ulteriori informazioni, vedere [Condividere modelli di progetto](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-* **Portfoli**: per ulteriori informazioni, consulta [Condividere un portfolio](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
+* **Portfoli**: per ulteriori informazioni, vedere [Condividere un portfolio](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
-* **Programmi**: per informazioni, consulta [Condividere un programma](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md) .
+* **Programmi**: per informazioni, vedere [Condividere un programma](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md).
 
-* **Attività**: per informazioni, consulta [Condividere un’attività](../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md).
+* **Attività**: per informazioni, vedere [Condividere un&#39;attività](../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md).
 
-* **Problemi**: per informazioni, consulta [Condividere un problema](../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
+* **Problemi**: per informazioni, vedere [Condividere un problema](../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
 
-* **Documenti**: per informazioni, consulta [Condividere un documento](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md).
+* **Documenti**: per informazioni, vedere [Condividi documento](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md).
 
-* **Cartelle documenti**: per informazioni, consulta [Condividere una cartella documenti](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+* **Cartelle documenti**: per informazioni, vedere [Condividere una cartella documenti](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 
-* **Bozze**: per informazioni, consulta [Condividere una bozza in Workfront](/help/quicksilver/review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+* **Bozze**: per informazioni, vedere [Condividi bozza in Workfront](/help/quicksilver/review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
-* **Report, dashboard e calendari**: per informazioni, consulta [Condividere report, dashboard e calendari](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md). Inoltre, vedi i seguenti articoli:
+* **Report, dashboard e calendari**: per informazioni, vedere [Condividere report, dashboard e calendari](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md). Inoltre, vedi i seguenti articoli:
 
    * [Condividere un rapporto in Adobe Workfront](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
    * [Condividere un dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
    * [Condivisione di un report calendario](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
-* **Filtri, viste e raggruppamenti**: per informazioni, consulta [Condividere un filtro, una visualizzazione o un raggruppamento](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+* **Filtri, visualizzazioni e raggruppamenti**: per informazioni, vedere [Condividere un filtro, una visualizzazione o un raggruppamento](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
-* **Piani**: per informazioni, consulta [Condividere un piano nella Pianificazione scenario](../../scenario-planner/share-a-plan.md).
+* **Piani**: per informazioni, vedere [Condividere un piano nella Pianificazione scenario](../../scenario-planner/share-a-plan.md).
 
   È necessaria una licenza aggiuntiva.
 
-* **Obiettivi**: per informazioni, consulta [Condividere un obiettivo in Obiettivi di Workfront](../../workfront-goals/workfront-goals-settings/share-a-goal.md).
+* **Obiettivi**: per informazioni, vedere [Condividere un obiettivo in Obiettivi Workfront](../../workfront-goals/workfront-goals-settings/share-a-goal.md).
 
   È necessaria una licenza aggiuntiva.
 
@@ -87,8 +87,8 @@ In Workfront è possibile condividere i seguenti oggetti con altri utenti:
   >
   >Per ulteriori informazioni, consulta:
   >
-  >* [Condividere un piano nella Pianificazione scenario](../../scenario-planner/share-a-plan.md)
-  >* [Condividere un obiettivo in Obiettivi di Workfront](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
+  >* [Condivisione di un piano nella Pianificazione scenario](../../scenario-planner/share-a-plan.md)
+  >* [Condividi un obiettivo negli Obiettivi di Workfront](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
 
 ## Limiti di condivisione
 
@@ -96,7 +96,7 @@ Puoi condividere un oggetto con un massimo di 100 entità (utenti, team, gruppi,
 
 ## Autorizzazioni di condivisione per gli oggetti
 
-Nella tabella seguente viene illustrato il livello di autorizzazioni che è possibile selezionare quando si condivide un oggetto. Non tutti gli oggetti dispongono di tutte queste impostazioni. È possibile concedere a un&#39;altra entità le autorizzazioni per visualizzare o gestire un oggetto. Se condividi un progetto, un’attività o un problema, puoi anche concedere le autorizzazioni per contribuire a tale progetto.
+Nella tabella seguente viene illustrato il livello di autorizzazioni che è possibile selezionare quando si condivide un oggetto. Non tutti gli oggetti dispongono di tutte queste impostazioni. È possibile concedere a un&#39;altra entità le autorizzazioni per visualizzare o gestire un oggetto. Se condividi un progetto, un’attività o un problema, puoi anche concedere autorizzazioni a Contribute.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -126,16 +126,16 @@ Nella tabella seguente viene illustrato il livello di autorizzazioni che è poss
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Gestisci</strong></td> 
+   <td role="rowheader"><strong>Gestire</strong></td> 
    <td> <p>È possibile eseguire le azioni seguenti sull'oggetto:</p> 
     <ul> 
-     <li>Tutte le azioni incluse nelle autorizzazioni Visualizza e Contribuisci</li> 
+     <li>Tutte le azioni incluse nelle autorizzazioni Visualizza e Contribute</li> 
      <li>Elimina</li> 
      <li>Gestire le informazioni finanziarie</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Rendi pubblico per gli utenti esterni</strong></td> 
+   <td role="rowheader"><strong>Rendi pubblico agli utenti esterni</strong></td> 
    <td> <p>Chiunque non disponga di un account Workfront può visualizzare l’oggetto facendo clic su un collegamento ad esso. Non disponibile per tutti gli oggetti.</p> </td> 
   </tr> 
   <tr> 
@@ -151,11 +151,11 @@ Nella tabella seguente viene illustrato il livello di autorizzazioni che è poss
 
 Le autorizzazioni in Workfront vengono ereditate gerarchicamente. Ciò significa che se si concedono le autorizzazioni a un utente su un oggetto padre, per impostazione predefinita queste ottengono le stesse autorizzazioni sugli oggetti figlio a esso associati.
 
-Se ad esempio si assegnano a un utente le autorizzazioni Contribute per un progetto, l&#39;utente disporrà delle autorizzazioni Contribute per tutte le attività e i problemi (oggetti figlio) associati al progetto.
+Se ad esempio si assegnano a un utente le autorizzazioni Contribute per un progetto, l&#39;utente disporrà delle autorizzazioni Contribute per tutte le attività e i problemi (oggetti figlio) associati a tale progetto.
 
-Continuando con l&#39;esempio precedente, non è possibile limitare le autorizzazioni agli oggetti figlio. Se non si desidera che l&#39;utente disponga delle autorizzazioni Contribute per gli oggetti figlio associati al progetto, è necessario rimuovere manualmente le autorizzazioni ereditate dagli oggetti e quindi modificare le autorizzazioni per il singolo utente, incluse eventuali impostazioni avanzate. 
+Continuando con l&#39;esempio precedente, non è possibile limitare le autorizzazioni agli oggetti figlio. Se non si desidera che l&#39;utente disponga delle autorizzazioni di Contribute per gli oggetti figlio associati al progetto, è necessario rimuovere manualmente le autorizzazioni ereditate dagli oggetti e quindi modificare le autorizzazioni per il singolo utente, incluse eventuali impostazioni avanzate. 
 
-Per ulteriori informazioni sulla gerarchia e l’interdipendenza degli oggetti in Workfront, consulta la sezione [Interdipendenza e gerarchia degli oggetti](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#interdependency-and-hierarchy-of-objects) nell’articolo [Panoramica sugli oggetti di Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Per ulteriori informazioni sulla gerarchia e l&#39;interdipendenza degli oggetti in Workfront, vedere la sezione [Interdipendenza e gerarchia degli oggetti](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#interdependency-and-hierarchy-of-objects) nell&#39;articolo [Panoramica sugli oggetti di Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 >[!NOTE]
 >
@@ -221,7 +221,7 @@ You cannot remove individual entities from the Inherited Permissions list. You c
 
 ## Condividere un oggetto
 
-Per informazioni sulla condivisione degli oggetti, vedere [Condividere un oggetto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+Per informazioni su come condividere gli oggetti, vedere [Condividere un oggetto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
 ## Rimuovere le autorizzazioni dagli oggetti
 
@@ -233,4 +233,4 @@ Quando qualcuno ti invia un collegamento a un oggetto per il quale non disponi d
 
 È possibile richiedere l&#39;accesso a un oggetto a chiunque disponga dell&#39;autorizzazione di condivisione per l&#39;oggetto. 
 
-Per ulteriori informazioni sulla richiesta di autorizzazioni per gli oggetti, vedere [Richiedi accesso agli oggetti](../../workfront-basics/grant-and-request-access-to-objects/request-access.md).
+Per ulteriori informazioni sulla richiesta di autorizzazioni agli oggetti, vedere [Richiedere l&#39;accesso agli oggetti](../../workfront-basics/grant-and-request-access-to-objects/request-access.md).

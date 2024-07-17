@@ -3,7 +3,7 @@ title: Creare o personalizzare le gravità dei problemi
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-description: Gli utenti possono utilizzare le gravità per definire la gravità del problema. Puoi personalizzare una delle cinque severità predefinite esistenti in Adobe Workfront o crearne una nuova per gli utenti.
+description: Gli utenti possono utilizzare le gravità per definire la gravità di un problema. Puoi personalizzare una qualsiasi delle cinque gravità predefinite esistenti in Adobe Workfront o crearne una nuova per i tuoi utenti.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -23,7 +23,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 Linked to Understanding Issue Severity.
 -->
 
-Gli utenti possono utilizzare le gravità per definire la gravità del problema. Puoi personalizzare una delle cinque severità predefinite esistenti in Adobe Workfront o crearne una nuova per gli utenti.
+Gli utenti possono utilizzare le gravità per definire la gravità di un problema. Puoi personalizzare una qualsiasi delle cinque gravità predefinite esistenti in Adobe Workfront o crearne una nuova per i tuoi utenti.
 
 >[!NOTE]
 >
@@ -46,15 +46,15 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td>Piano</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso</td> 
-   <td> <p>Devi essere un amministratore Workfront.</p> <p><b>NOTA</b>: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Devi essere un amministratore di Workfront.</p> <p><b>NOTA</b>: se non disponi ancora dell'accesso, chiedi all'amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Gravità dei problemi incorporati
+## Gravità del problema incorporata
 
-Workfront ha cinque problemi incorporati:
+Workfront ha cinque livelli di gravità incorporati:
 
 * Cosmetico
 * Causa Confusione
@@ -65,32 +65,32 @@ Workfront ha cinque problemi incorporati:
 <p>È possibile modificare quanto segue per queste gravità:</p>
 
 * Nome
-* Clr icn
+* Colore
 
-   Il colore di una gravità viene mantenuto in un rapporto grafico se i risultati vengono raggruppati per gravità del problema. Per informazioni sui report grafici, consulta [Aggiungere un grafico a un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+  Il colore di una gravità viene mantenuto in un rapporto grafico, se si raggruppano i risultati in base alla gravità della Issue. Per informazioni sui report grafico, vedere [Aggiungere un grafico a un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
-* Quale severità è l&#39;impostazione predefinita
+* Quale gravità è predefinita
 
-   Per ulteriori informazioni sulle severità predefinite, consulta [Creare o modificare una gravità del problema](#create-or-edit-an-issue-severity) in questo articolo.
+  Per ulteriori informazioni sulle gravità predefinite, vedere [Creare o modificare la gravità di un problema](#create-or-edit-an-issue-severity) in questo articolo.
 * Descrizione
 * Se una gravità è nascosta in Workfront
 
-   Per ulteriori informazioni su come nascondere una gravità, vedi [Creare o modificare una gravità del problema](#create-or-edit-an-issue-severity")
+  Per ulteriori informazioni su come nascondere una gravità, vedere [Creare o modificare la gravità di un problema](#create-or-edit-an-issue-severity")
 
 * Eliminare una gravità
 
-   Quando si esegue questa operazione, è necessario selezionare una gravità di sostituzione.
+  In questo caso, è necessario selezionare una gravità di sostituzione.
 
-## Creare o modificare una gravità del problema {#create-or-edit-an-issue-severity}
+## Creare o modificare la gravità di un problema {#create-or-edit-an-issue-severity}
 
-In qualità di amministratore di Workfront, puoi creare e modificare le gravità dei problemi in base alle esigenze degli utenti.
+In qualità di amministratore di Workfront, puoi creare e modificare le gravità dei problemi in base alle esigenze dei tuoi utenti.
 
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
-1. Nel pannello a sinistra, fai clic su **Preferenze del progetto** > **Gravità**.
+1. Nel pannello a sinistra, fai clic su **Preferenze progetto** > **Gravità**.
 
-1. Se stai creando una nuova gravità, fai clic su **Aggiungere una nuova gravità**.
-1. Configura le seguenti opzioni per la nuova gravità o modificale per una esistente:
+1. Se stai creando una nuova gravità, fai clic su **Aggiungi una nuova gravità**.
+1. Configurare le seguenti opzioni per la nuova gravità o modificarle per una esistente:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -102,36 +102,36 @@ In qualità di amministratore di Workfront, puoi creare e modificare le gravità
      </tr> 
      <tr> 
       <td role="rowheader">Importanza</td> 
-      <td>Aumenta o diminuisce il livello di serietà, originariamente assegnato da Workfront, per la gravità.
+      <td>Aumentare o diminuire il livello di gravità, originariamente assegnato da Workfront, per la gravità.
       <p>Il numero di importanza per ogni gravità deve essere univoco. Il numero più alto corrisponde al livello di gravità più alto.</p> <p>Non è possibile modificare questo numero dopo aver salvato la gravità.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Clr icn</td> 
-      <td> <p>Scegli un colore per la gravità.</p> 
-      <p>Il colore della gravità viene utilizzato nei rapporti sui grafici quando si raggruppano i risultati per Gravità del problema. Per informazioni sui report grafici, consulta <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Aggiungere un grafico a un report</a>.</p> </td> 
+      <td role="rowheader">Colore</td> 
+      <td> <p>Scegliere un colore per la gravità.</p> 
+      <p>Il colore della gravità viene utilizzato nei rapporti grafico quando si raggruppano i risultati per gravità del problema. Per informazioni sui report grafico, vedere <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Aggiungere un grafico a un report</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Gravità predefinita</td> 
-      <td>Seleziona la gravità da selezionare automaticamente da Workfront per tutti i nuovi problemi creati.</p>
-      <p>Cosmetic è la gravità predefinita dei problemi in Workfront.</p></td> 
+      <td>Selezionare la gravità che si desidera venga selezionata automaticamente da Workfront per tutti i nuovi problemi creati.</p>
+      <p>La gravità predefinita dei problemi in Workfront è Cosmetic.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Descrizione</td> 
-      <td>Digita una descrizione della gravità per spiegarne la funzione.</td> 
+      <td>Digitare una descrizione della gravità per illustrarne la funzione.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nascondi</td> 
       <td> Nascondere una gravità non più necessaria. 
-      <p>Una gravità nascosta non viene visualizzata in alcun punto di Workfront, pertanto gli utenti non possono sceglierla per i propri problemi.</p> 
-      <p><b>IMPORTANTE</b>: Invece di eliminare le gravità che non desideri più utilizzare, ti consigliamo di nasconderle. In questo modo, puoi conservare tutti i tuoi dati storici su oggetti già completati con la gravità, impedendo al contempo alle persone di utilizzare la gravità in futuro.</p> </td> 
+      <p>Una gravità nascosta non viene visualizzata in alcun punto di Workfront, pertanto gli utenti non possono sceglierla per i problemi.</p> 
+      <p><b>IMPORTANTE</b>: anziché eliminare le gravità che non si desidera più utilizzare, è consigliabile nasconderle. In questo modo, puoi conservare tutti i dati storici sugli oggetti già completati con la gravità, impedendo al contempo alle persone di utilizzare la gravità in futuro.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Facoltativo) Modifica l’ordine di elencazione delle tue severità trascinandole e rilasciandole nell’ordine desiderato.
+1. (Facoltativo) Modifica l’ordine di visualizzazione delle gravità trascinandole e rilasciandole nell’ordine desiderato.
 
-   Questo modifica l’ordine in cui vengono visualizzati per i problemi. Non cambia la **Importanza** numero.
+   Questo cambia l’ordine in cui vengono visualizzate le Issues. Il numero **Importance** non viene modificato.
 
 1. Fai clic su **Salva**.
 
-Per ulteriori informazioni su come utilizzare le gravità durante l’utilizzo dei problemi, consulta [Aggiorna gravità del problema](../../../manage-work/issues/issue-information/update-issue-severity.md).
+Per ulteriori informazioni su come utilizzare le gravità durante l&#39;utilizzo dei problemi, vedere [Aggiorna gravità del problema](../../../manage-work/issues/issue-information/update-issue-severity.md).

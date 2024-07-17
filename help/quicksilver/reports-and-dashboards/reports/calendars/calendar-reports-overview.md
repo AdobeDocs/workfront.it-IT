@@ -10,7 +10,7 @@ exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
 source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
 source-wordcount: '387'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 1%
 
 <!-- Audited: 01/2024 -->
 
-Un report calendario è un report dinamico che fornisce una rappresentazione visiva del lavoro. È possibile visualizzare le informazioni sulla data in un report calendario per i seguenti oggetti:
+Un report calendario è un report dinamico che fornisce una rappresentazione visiva del lavoro. In un Rapporto calendario puoi visualizzare le informazioni sulla data per i seguenti oggetti:
 
 * Attività
 * Problemi
 * Progetti
 
-Possibilità di accedere ai report del calendario in [!DNL Adobe Workfront] è determinato dal tuo livello di accesso. Per ulteriori informazioni sull&#39;accesso necessario per visualizzare i report del calendario, vedere [Concedere l’accesso a rapporti, dashboard e calendari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+La possibilità di accedere ai report del calendario in [!DNL Adobe Workfront] è determinata dal livello di accesso. Per ulteriori informazioni sull&#39;accesso necessario per visualizzare i report del calendario, vedere [Concedere l&#39;accesso a report, dashboard e calendari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 ## Creazione di calendari personalizzati
 
@@ -44,14 +44,14 @@ Possibilità di accedere ai report del calendario in [!DNL Adobe Workfront] è d
 
 >[!NOTE]
 >
->Devi avere [!UICONTROL Modifica] accesso a [!UICONTROL Rapporti], [!UICONTROL Dashboard], e [!UICONTROL Calendari] nel tuo livello di accesso per creare un rapporto sul calendario. Contatta il tuo [!DNL Workfront] per ulteriori informazioni.
+>Per creare un report del calendario è necessario disporre dell&#39;accesso [!UICONTROL Modifica] a [!UICONTROL Report], [!UICONTROL Dashboard] e [!UICONTROL Calendari] nel proprio livello di accesso. Contattare l&#39;amministratore [!DNL Workfront] per ulteriori informazioni.
 
 ## Raggruppa gli elementi per date
 
 All&#39;interno di ogni report calendario è possibile creare gruppi di elementi che consentono di limitare l&#39;attivazione del calendario. È possibile, ad esempio, disporre di un raggruppamento del calendario che visualizza le date di tutte le attività di un progetto specifico, i membri del team marketing che attualmente lavorano sul progetto e le Issues scadute assegnate al team del progetto. Per ulteriori informazioni, consulta i seguenti articoli:
 
-* [Utilizzare [!UICONTROL Date Pianificate] in un report calendario](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
-* [Utilizzare [!UICONTROL Date Previste] in un report calendario](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
+* [Usa [!UICONTROL date pianificate] in un report calendario](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
+* [Usa [!UICONTROL Date previste] in un report calendario](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
 * [Utilizzare campi data personalizzati in un report calendario](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
 
 >[!NOTE]
@@ -60,4 +60,4 @@ All&#39;interno di ogni report calendario è possibile creare gruppi di elementi
 
 ## Aggiungere i calendari a una dashboard
 
-Puoi accedere rapidamente ai rapporti del calendario visualizzandoli su una dashboard. Per informazioni su come aggiungere un calendario a un dashboard, consulta [Modificare una dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md).
+Puoi accedere rapidamente ai rapporti del calendario visualizzandoli su una dashboard. Per informazioni su come aggiungere un calendario a un dashboard, vedere [Modificare un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md).

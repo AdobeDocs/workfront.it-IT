@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti apportati ad Adobe Workfront Fusion la settimana del 16 novembre 2020.
 
-Per un elenco di tutte le modifiche recenti, vedi [Attività di rilascio di Adobe Workfront Fusion](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Per un elenco di tutte le modifiche recenti, vedere [Attività di Adobe Workfront Fusion release](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedi [Aggiornamenti di manutenzione per Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
+Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedere la pagina [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
 
 ## Aggiornamenti al connettore Jira Cloud
 
@@ -35,13 +35,13 @@ Per espandere le modalità di utilizzo del connettore Jira Cloud, sono stati agg
 
 Sono stati inoltre aggiornati i moduli esistenti per supportare il tipo di oggetto &quot;Sprint&quot;. In precedenza, era possibile accedere all’oggetto &quot;Sprint&quot; solo tramite il modulo Chiamata API personalizzata.
 
-Per ulteriori informazioni, consulta [Moduli software Jira](../../../../../workfront-fusion/apps-and-their-modules/jira-software-modules.md).
+Per ulteriori informazioni, vedere [Moduli software Jira](../../../../../workfront-fusion/apps-and-their-modules/jira-software-modules.md).
 
 ## L’ID di esecuzione è ora disponibile per la mappatura negli scenari
 
 L’ID di esecuzione di uno scenario è ora disponibile nel pannello di mappatura. Questo ID rappresenta un’esecuzione specifica dello scenario e può essere utilizzato come metadati. Ad esempio, l’ID di esecuzione può essere salvato con un record creato da Fusion, in modo da poter determinare in seguito quale esecuzione di Fusion ha creato il record. Puoi trovare l’ID esecuzione nel pannello di mappatura in Funzioni generali.
 
-Per ulteriori informazioni sulle esecuzioni dello scenario, consulta [Esecuzione di scenari, cicli e fasi in Adobe Workfront Fusion](../../../../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
+Per ulteriori informazioni sulle esecuzioni dello scenario, vedere [Esecuzione dello scenario, cicli e fasi in Adobe Workfront Fusion](../../../../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
 
 ## Scelte rapide da tastiera per gli scenari Workfront Fusion 2.0
 
@@ -66,7 +66,7 @@ Per espandere le modalità di utilizzo del connettore Office 365 Excel, sono sta
 
 I moduli precedentemente disponibili sono ancora presenti nell’app.
 
-Per ulteriori informazioni, consulta [Moduli Excel di Microsoft Office 365](../../../../../workfront-fusion/apps-and-their-modules/microsoft-365-excel-modules.md).
+Per ulteriori informazioni, vedere [Moduli Excel di Microsoft Office 365](../../../../../workfront-fusion/apps-and-their-modules/microsoft-365-excel-modules.md).
 
 ## Utilizzare OAuth 2.0 nelle connessioni dell&#39;app Workfront
 
@@ -74,4 +74,4 @@ Il connettore Workfront è stato aggiornato per utilizzare OAuth 2.0. Grazie a q
 
 Le connessioni esistenti al momento non richiedono alcuna modifica. Tuttavia, puoi autorizzare nuovamente le connessioni esistenti se desideri sfruttare i vantaggi di OAuth 2.0.
 
-Per ulteriori informazioni, consulta [Moduli Adobe Workfront](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Per ulteriori informazioni, vedere [Moduli Adobe Workfront](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).

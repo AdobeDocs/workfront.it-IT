@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Tutte le schede nella colonna Acquisizione non sono incluse in un gruppo e la colonna Acquisizione è nascosta quando viene applicato un gruppo. Per informazioni sulla colonna dell’assunzione, vedi [Aggiungere una colonna Acquisizione a una bacheca](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+>Tutte le schede nella colonna Acquisizione non sono incluse in un gruppo e la colonna Acquisizione è nascosta quando viene applicato un gruppo. Per informazioni sulla colonna Acquisizione, vedere [Aggiungere una colonna Acquisizione a una bacheca](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 ## Requisiti di accesso
 
@@ -43,13 +43,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
 
 ## Raggruppare le schede su una bacheca
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Schede]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Bacheche]**.
 1. Accedi a una bacheca. Per informazioni, consulta [Creare o modificare una bacheca](../../agile/get-started-with-boards/create-edit-board.md).
-1. Clic **[!UICONTROL Gruppo]** per aprire il pannello gruppo a sinistra della bacheca.
+1. Fai clic su **[!UICONTROL Gruppo]** per aprire il pannello dei gruppi a sinistra della bacheca.
 
    >[!NOTE]
    >
@@ -59,13 +59,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Le schede vengono raggruppate automaticamente. Fare clic sulla freccia accanto al nome del gruppo per comprimere ed espandere il gruppo.
 
-   ![Schede raggruppate su una bacheca](assets/group-by-assignee.png)
+   ![Schede raggruppate in una bacheca](assets/group-by-assignee.png)
 
 1. Seleziona cosa accade quando una scheda viene spostata in un altro gruppo.
 
-   * **[!UICONTROL Aggiungi su assegnatari] / [!UICONTROL Aggiungi su tag]:** Gli assegnatari o i tag nel nuovo gruppo vengono aggiunti all’elenco esistente di assegnatari o tag nella scheda.
-   * **[!UICONTROL Sostituisci assegnatari] / [!UICONTROL Sostituisci tag]:** Gli assegnatari o i tag nel nuovo gruppo sostituiscono tutti gli altri assegnatari o tag e diventano gli unici assegnatari o tag nella scheda.
+   * **[!UICONTROL Aggiungi su assegnatari] / [!UICONTROL Aggiungi su tag]:** Gli assegnatari o i tag nel nuovo gruppo vengono aggiunti all&#39;elenco esistente di assegnatari o tag nella scheda.
+   * **[!UICONTROL Sostituisci assegnatari] / [!UICONTROL Sostituisci tag]:** Gli assegnatari o i tag nel nuovo gruppo sovrascrivono tutti gli altri assegnatari o tag e diventano gli unici assegnatari o tag nella scheda.
 
-   ![[!UICONTROL Opzioni Raggruppa per]](assets/group-by-rail.png)
+   ![[!UICONTROL Raggruppa per opzioni]](assets/group-by-rail.png)
 
-1. Clic **[!UICONTROL Nascondi gruppi]** per nascondere il pannello gruppo e visualizzare la bacheca completa.
+1. Fai clic su **[!UICONTROL Nascondi gruppi]** per nascondere il pannello dei gruppi e visualizzare l&#39;intera bacheca.

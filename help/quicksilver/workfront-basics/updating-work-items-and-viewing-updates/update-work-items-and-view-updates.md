@@ -23,12 +23,12 @@ ht-degree: 0%
 
 Questa sezione contiene i seguenti articoli:
 
-* [Panoramica della sezione Aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
+* [Panoramica della sezione aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
 * [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
 * [Limiti di caratteri nei campi](../../workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
 * [Rispondi agli aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)
 * [Rispondi alle notifiche e-mail](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md)
-* [Assegna tag ad altri utenti in caso di aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
-* [Visualizzare tutti gli aggiornamenti in un report Nota](../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
+* [Assegna tag ad altri utenti negli aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
+* [Visualizza tutti gli aggiornamenti in un report Note](../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
 * [Panoramica del pulsante Lavoraci e Fine](../../workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
 

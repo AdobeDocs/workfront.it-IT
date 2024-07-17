@@ -20,8 +20,8 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alle funzionalità del prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Bozza](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
 Questa sezione contiene i seguenti articoli:
 
-* [Creare una bozza statica di un sito web utilizzando [!DNL Workfront Proof]](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md)
+* [Crea bozza sito Web statico utilizzando  [!DNL Workfront Proof]](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md)

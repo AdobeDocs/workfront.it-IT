@@ -24,7 +24,7 @@ Le persone sono una risorsa di livello 1. Con il Bilanciatore dei carichi di lav
 
 >[!NOTE]
 >
->Il Bilanciatore dei carichi di lavoro ha iniziato a essere rilasciato come versione beta con la versione 2019.4. Tutti i miglioramenti al Bilanciatore dei carichi di lavoro sono generalmente disponibili con la versione 2020.2. I miglioramenti descritti in questa pagina sono stati aggiunti con la versione 2020.2 di. Per una panoramica del Bilanciatore dei carichi di lavoro, vedi [Panoramica del Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Il Bilanciatore dei carichi di lavoro ha iniziato a essere rilasciato come versione beta con la versione 2019.4. Tutti i miglioramenti al Bilanciatore dei carichi di lavoro sono generalmente disponibili con la versione 2020.2. I miglioramenti descritti in questa pagina sono stati aggiunti con la versione 2020.2 di. Per una panoramica del Bilanciatore dei carichi di lavoro, vedere [Panoramica del Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 ## Regolare l’allocazione giornaliera e settimanale nel Bilanciatore dei carichi di lavoro
 
@@ -45,7 +45,7 @@ Prima di questo miglioramento, questo era possibile solo utilizzando gli strumen
 
 Per rendere rilevanti le informazioni nel Bilanciatore dei carichi di lavoro, ora puoi creare filtri sia per l’area Lavoro non assegnato che per l’area Lavoro assegnato del Bilanciatore dei carichi di lavoro e salvarli per utilizzi futuri. Puoi quindi modificare la versione salvata per apportarvi piccole modifiche, anziché iniziare da zero con un nuovo filtro.
 
-Per informazioni sul filtro nel Bilanciatore dei carichi di lavoro, consulta [Gestire i filtri nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)
+Per informazioni sul filtro nel Bilanciatore dei carichi di lavoro, vedi [Gestire i filtri nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -64,7 +64,7 @@ Per informazioni sul filtro nel Bilanciatore dei carichi di lavoro, consulta [Ge
 
 Per facilitare le decisioni corrette in merito alle assegnazioni, una nuova impostazione consente ora di visualizzare la differenza di ore tra le ore che un utente è disponibile a lavorare in base alla propria pianificazione e le ore che è già stato assegnato al lavoro (le ore rimanenti). La nuova impostazione è ora disponibile nel Bilanciatore dei carichi di lavoro.
 
-Per informazioni sulla visualizzazione delle informazioni nel Bilanciatore dei carichi di lavoro, consulta [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (o se utilizzi Adobe Workfront Classic, consulta [Navigare nel Bilanciatore dei carichi di lavoro](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648).)
+Per informazioni sulla visualizzazione delle informazioni nel Bilanciatore dei carichi di lavoro, vedi [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (o se utilizzi Adobe Workfront Classic, vedi [Navigare nel Bilanciatore dei carichi di lavoro](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
 
 **Disponibile in questi ambienti:**
 
@@ -76,7 +76,7 @@ Per comprendere in che modo le attività influiranno sul carico di lavoro degli 
 
 Prima di questa modifica, questa impostazione aggiornava solo le informazioni nell’area Lavoro assegnato del Bilanciatore.
 
-Per informazioni sulla navigazione nel Bilanciatore dei carichi di lavoro, vedi [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (o se utilizzi Adobe Workfront Classic, consulta [Navigare nel Bilanciatore dei carichi di lavoro](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648).).
+Per informazioni sull&#39;esplorazione del Bilanciatore dei carichi di lavoro, vedere [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (oppure, se si utilizza Adobe Workfront Classic, vedere [Navigare nel Bilanciatore dei carichi di lavoro](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
 
 **Disponibile in questi ambienti:**
 
@@ -90,7 +90,7 @@ Per semplificare l’esperienza, ora è disponibile una casella Impostazioni che
 * Gruppo per progetto
 * Visualizza le ore allocate o le ore rimanenti per le attività e i progetti.
 
-Per informazioni sulla visualizzazione delle informazioni nel Bilanciatore dei carichi di lavoro, consulta [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (o se utilizzi Adobe Workfront Classic, consulta [Navigare nel Bilanciatore dei carichi di lavoro](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648).).
+Per informazioni sulla visualizzazione delle informazioni nel Bilanciatore dei carichi di lavoro, vedi [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (o se utilizzi Adobe Workfront Classic, vedi [Navigare nel Bilanciatore dei carichi di lavoro](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648).).
 
 **Disponibile in questi ambienti:**
 
@@ -101,7 +101,7 @@ Per informazioni sulla visualizzazione delle informazioni nel Bilanciatore dei c
 
 Ora puoi condividere il carico di lavoro delle tue persone con dirigenti in modo che possano contestualizzare le tue esigenze di personale. Per questo, ora puoi condividere il Bilanciatore dei carichi di lavoro condividendo un URL univoco con chiunque altro.
 
-Per informazioni sulla navigazione nel Bilanciatore dei carichi di lavoro, vedi [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (o se utilizzi Adobe Workfront Classic, consulta [Navigare nel Bilanciatore dei carichi di lavoro](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
+Per informazioni sull&#39;esplorazione del Bilanciatore dei carichi di lavoro, vedere [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (oppure, se si utilizza Adobe Workfront Classic, vedere [Navigare nel Bilanciatore dei carichi di lavoro](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
 
 **Disponibile in questi ambienti:**
 
@@ -114,7 +114,7 @@ Per personalizzare ulteriormente la durata della timeline del Bilanciatore dei c
 
 Prima di questo miglioramento, il Bilanciatore dei carichi di lavoro visualizzava sempre le informazioni a partire dalla settimana corrente.
 
-Per informazioni sulla navigazione nel Bilanciatore dei carichi di lavoro, vedi [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (o se utilizzi Adobe Workfront Classic, consulta [Navigare nel Bilanciatore dei carichi di lavoro](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
+Per informazioni sull&#39;esplorazione del Bilanciatore dei carichi di lavoro, vedere [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (oppure, se si utilizza Adobe Workfront Classic, vedere [Navigare nel Bilanciatore dei carichi di lavoro](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
 
 **Disponibile in questi ambienti:**
 
@@ -129,11 +129,11 @@ Quando ad esempio si sposta o si copia un&#39;attività con un vincolo Deve iniz
 
 Prima di questa modifica, il vincolo dell’attività diventa sempre Appena possibile.
 
-Per informazioni sullo spostamento delle attività, vedere [Sposta le attività](../../../manage-work/tasks/manage-tasks/move-tasks.md) (o se utilizzi Adobe Workfront Classic, consulta [Spostamento delle attività](https://one.workfront.com/s/article/Moving-Tasks-2081996259)).
+Per informazioni sullo spostamento delle attività, vedi [Sposta attività](../../../manage-work/tasks/manage-tasks/move-tasks.md) (o se utilizzi Adobe Workfront Classic, vedi [Spostamento delle attività](https://one.workfront.com/s/article/Moving-Tasks-2081996259)).
 
-Per informazioni sulla copia delle attività, vedere [Copiare e duplicare le attività](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (o se utilizzi Adobe Workfront Classic, consulta [Copia e duplica attività](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605)).
+Per informazioni sulla copia delle attività, vedere [Copiare e duplicare le attività](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (oppure, se si utilizza Adobe Workfront Classic, vedere [Copiare e duplicare le attività](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605)).
 
-Per una panoramica di tutti i vincoli di attività, vedi [Panoramica sui vincoli delle attività](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (o se utilizzi Adobe Workfront Classic, consulta [Panoramica sui vincoli delle attività](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848)).
+Per una panoramica di tutti i vincoli di attività, vedere [Panoramica dei vincoli di attività](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (o se si utilizza Adobe Workfront Classic, vedere [Panoramica dei vincoli di attività](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848)).
 
 **Disponibile in questi ambienti:**
 
@@ -161,9 +161,9 @@ Gli stati personalizzati possono essere utilizzati ora nei processi di approvazi
 * Crea un processo di approvazione a utente singolo per un oggetto (progetto, attività o problema) e basalo sugli stati associati al gruppo che lavora su tale oggetto. Questo include eventuali stati personalizzati associati al gruppo.
 * Crea un processo di approvazione globale e rendilo disponibile solo per il gruppo o per tutti gli utenti del sistema.
 
-Per gli utenti con accesso amministrativo ai processi di approvazione, le informazioni sulla configurazione dei processi di approvazione sono disponibili in [Creare un processo di approvazione per gli elementi di lavoro](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (o se utilizzi Adobe Workfront Classic, consulta [Creazione di processi di approvazione](https://one.workfront.com/s/article/Creating-Approval-Processes-1001577410)).
+Per gli utenti con accesso amministrativo ai processi di approvazione, le informazioni sulla configurazione dei processi di approvazione sono disponibili in [Creare un processo di approvazione per gli elementi di lavoro](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (o se si utilizza Adobe Workfront Classic, vedere [Creazione di processi di approvazione](https://one.workfront.com/s/article/Creating-Approval-Processes-1001577410)).
 
-Per gli utenti, le informazioni sull&#39;associazione dei processi di approvazione agli elementi di lavoro sono disponibili in [Associa un processo di approvazione nuovo o esistente al lavoro](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (o se utilizzi Adobe Workfront Classic, consulta [Associazione di un processo di approvazione nuovo o esistente al lavoro](https://one.workfront.com/s/article/Associating-a-New-or-Existing-Approval-Process-with-Work-708455630)).
+Per gli utenti, le informazioni sull&#39;associazione dei processi di approvazione agli elementi di lavoro sono disponibili in [Associa un processo di approvazione nuovo o esistente al lavoro](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (oppure se si utilizza Adobe Workfront Classic, vedere [Associazione di un processo di approvazione nuovo o esistente al lavoro](https://one.workfront.com/s/article/Associating-a-New-or-Existing-Approval-Process-with-Work-708455630)).
 
 **Disponibile in questi ambienti:**
 
@@ -174,7 +174,7 @@ Per gli utenti, le informazioni sull&#39;associazione dei processi di approvazio
 
 Per semplificare la gestione delle allocazioni di un utente a un elemento di lavoro nel Bilanciatore dei carichi di lavoro, è ora possibile fare doppio clic sull’elemento di lavoro. È inoltre possibile utilizzare l&#39;opzione di menu Modifica allocazioni esistente. Inoltre, non è più necessario abilitare la visualizzazione delle allocazioni per poterle aggiornare.
 
-Per informazioni sulla gestione delle allocazioni nel Bilanciatore dei carichi di lavoro, consulta [Gestire le allocazioni utente nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Per informazioni sulla gestione delle allocazioni nel Bilanciatore dei carichi di lavoro, vedere [Gestione delle allocazioni utente nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 ## Aggiornare le ore pianificate per l’attività nel Bilanciatore dei carichi di lavoro
 
@@ -184,10 +184,10 @@ Per informazioni sulla gestione delle allocazioni nel Bilanciatore dei carichi d
 
 Una nuova opzione nell’area Gestione risorse del livello di accesso ora consente agli utenti con questo livello di accesso di modificare le Ore pianificate dal Bilanciatore dei carichi di lavoro. Quando si modificano le allocazioni nel Bilanciatore dei carichi di lavoro, il totale delle allocazioni giornaliere non deve necessariamente corrispondere al numero di ore pianificate delle attività. Una volta salvate le allocazioni, il totale delle ore di allocazione diventerà le ore pianificate dell&#39;attività. Ciò è possibile solo per le attività con un tipo di durata semplice.
 
-Per informazioni sulla gestione delle allocazioni nel Bilanciatore dei carichi di lavoro, consulta [Gestire le allocazioni utente nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Per informazioni sulla gestione delle allocazioni nel Bilanciatore dei carichi di lavoro, vedere [Gestione delle allocazioni utente nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
-Per informazioni sulla concessione dell&#39;accesso a Gestione risorse, vedere [Concedere l’accesso alla gestione delle risorse](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+Per informazioni sulla concessione dell&#39;accesso a Gestione risorse, vedere [Concedere l&#39;accesso a Gestione risorse](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 
 ## Rimozione dell’etichetta &quot;beta&quot; dal bilanciatore dei carichi di lavoro
 
-Con la versione 2020.2, il Bilanciatore dei carichi di lavoro non sarà più in uno stato beta e potrai utilizzare il Bilanciatore delle risorse per rivedere e gestire le assegnazioni e le allocazioni delle risorse. L’etichetta &quot;beta&quot; è stata rimossa nell’ambiente di anteprima. La stessa modifica verrà apportata con la versione di produzione 20.2. Per informazioni sul Bilanciatore dei carichi di lavoro, consulta [Panoramica del Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+Con la versione 2020.2, il Bilanciatore dei carichi di lavoro non sarà più in uno stato beta e potrai utilizzare il Bilanciatore delle risorse per rivedere e gestire le assegnazioni e le allocazioni delle risorse. L’etichetta &quot;beta&quot; è stata rimossa nell’ambiente di anteprima. La stessa modifica verrà apportata con la versione di produzione 20.2. Per informazioni sul Bilanciatore dei carichi di lavoro, vedere [Panoramica del Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

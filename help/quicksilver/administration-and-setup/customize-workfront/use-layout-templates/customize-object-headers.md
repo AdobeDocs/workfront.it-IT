@@ -29,7 +29,7 @@ Per informazioni sulla creazione di modelli di layout, vedere [Creare e gestire 
 
 Per informazioni sui modelli di layout per i gruppi, vedere [Creare e modificare i modelli di layout di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Dopo aver configurato un modello di layout, è necessario assegnarlo agli utenti affinché le modifiche apportate siano visibili agli altri utenti. Per informazioni sull&#39;assegnazione di un modello di layout agli utenti, vedere [Assegnare utenti a un modello di layout](../use-layout-templates/assign-users-to-layout-template.md).
+Dopo aver configurato un modello di layout, è necessario assegnarlo agli utenti affinché le modifiche apportate siano visibili agli altri utenti. Per informazioni sull&#39;assegnazione di un modello di layout agli utenti, vedere [Assegnare gli utenti a un modello di layout](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Requisiti di accesso
 
@@ -38,7 +38,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <table>
   <tr>
-   <td><strong>piano Adobe Workfront</strong>
+   <td><strong>Piano Adobe Workfront</strong>
    </td>
    <td>Qualsiasi
    </td>
@@ -63,16 +63,16 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 ## Personalizzare le intestazioni degli oggetti
 
 1. Iniziare a lavorare su un modello di layout, come descritto in [Creare e gestire modelli di layout](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. In **Personalizzare gli elementi visualizzati dagli utenti** menu a discesa, seleziona **Progetti**, **Attività**, o **Problemi**.
+1. Nel menu a discesa **Personalizza gli utenti**, seleziona **Progetti**, **Attività** o **Problemi**.
 
    <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 
-1. In [!UICONTROL Campi intestazione] , passare il puntatore del mouse sui campi visualizzati ed effettuare una delle seguenti operazioni:
-   * Fai clic su **x** icona per rimuovere un campo
+1. Nella sezione [!UICONTROL Campi intestazione], passare il puntatore del mouse sui campi visualizzati ed effettuare una delle operazioni seguenti:
+   * Fai clic sull&#39;icona **x** per rimuovere un campo
 
      Oppure
 
-   * Fai clic e tieni premuto il tasto **afferrare** per trascinare il campo in una nuova posizione.
+   * Fai clic sull&#39;icona **grab** e tieni premuto per trascinare il campo in una nuova posizione.
 
    <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
 
@@ -80,7 +80,7 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 
 1. È possibile avere fino a cinque campi nell&#39;intestazione di un oggetto.
 Se sono già stati selezionati cinque campi, è necessario rimuovere un campo prima di poterne aggiungere uno nuovo.
-1. In **Aggiungi campo** , iniziare a digitare il nome di un campo Workfront non modificabile che si desidera aggiungere, quindi selezionarlo quando viene visualizzato nell&#39;elenco. Il campo viene aggiunto a destra della casella Aggiungi campo e verrà visualizzato come primo campo nell&#39;angolo superiore sinistro dell&#39;intestazione dell&#39;oggetto.
+1. Nella casella **Aggiungi campo** digitare il nome di un campo Workfront non modificabile che si desidera aggiungere, quindi selezionarlo quando viene visualizzato nell&#39;elenco. Il campo viene aggiunto a destra della casella Aggiungi campo e verrà visualizzato come primo campo nell&#39;angolo superiore sinistro dell&#39;intestazione dell&#39;oggetto.
 
    >[!TIP]
    >
@@ -100,7 +100,7 @@ Se sono già stati selezionati cinque campi, è necessario rimuovere un campo pr
 
    Oppure
 
-   Se hai finito di personalizzare, fai clic su **Salva**.
+   Se hai completato la personalizzazione, fai clic su **Salva**.
 
    >[!TIP]
    >

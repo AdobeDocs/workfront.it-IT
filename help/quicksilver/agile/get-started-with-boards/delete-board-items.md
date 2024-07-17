@@ -19,7 +19,7 @@ Quando elimini una scheda ad hoc da una bacheca, questa viene eliminata definiti
 
 Se elimini una scheda connessa da una scheda dinamica, questa verrà visualizzata nuovamente quando aggiorni la scheda, perché questo tipo di scheda richiama tutte le attività e i problemi di un progetto specifico. Per eliminare la scheda, devi eliminare l’attività o il problema connesso dal progetto Workfront.
 
-Quando elimini una scheda collegata da qualsiasi altro tipo di scheda che dispone di una colonna di acquisizione, la scheda viene visualizzata nuovamente nella colonna di acquisizione quando si aggiorna la scheda se l’attività o il problema connesso non è ancora contrassegnato come completato. Per ulteriori informazioni sulle colonne di assunzione, consulta [Aggiungere una colonna Acquisizione a una bacheca](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+Quando elimini una scheda collegata da qualsiasi altro tipo di scheda che dispone di una colonna di acquisizione, la scheda viene visualizzata nuovamente nella colonna di acquisizione quando si aggiorna la scheda se l’attività o il problema connesso non è ancora contrassegnato come completato. Per ulteriori informazioni sulle colonne di acquisizione, vedere [Aggiungere una colonna di acquisizione a una bacheca](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 Quando si archivia una scheda, questa viene inviata all&#39;archivio e può essere successivamente ripristinata nella bacheca.
 
@@ -42,35 +42,35 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
 
 ## Eliminare una scheda da una bacheca
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Schede]**.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Bacheche]**.
 1. Accedi a una bacheca. Per informazioni, consulta [Creare o modificare una bacheca](../../agile/get-started-with-boards/create-edit-board.md).
-1. Fai clic su **[!UICONTROL Altro]** menu ![Menu Altro](assets/more-icon-spectrum.png) sulla scheda e seleziona **[!UICONTROL Elimina]**.
-1. Clic **[!UICONTROL Elimina]** sul messaggio di conferma.
+1. Fai clic sul menu **[!UICONTROL Altro]** ![Altro menu](assets/more-icon-spectrum.png) sulla scheda e seleziona **[!UICONTROL Elimina]**.
+1. Fai clic su **[!UICONTROL Elimina]** nel messaggio di conferma.
 
 ## Archiviare una scheda da una bacheca
 
 1. Accedi alla bacheca.
-1. Fai clic su **[!UICONTROL Altro]** menu ![Menu Altro](assets/more-icon-spectrum.png) sulla scheda e seleziona **[!UICONTROL Archivia]**.
+1. Fai clic sul menu **[!UICONTROL Altro]** ![Altro menu](assets/more-icon-spectrum.png) sulla scheda e seleziona **[!UICONTROL Archivia]**.
 
-   Le schede archiviate sono nascoste dalla bacheca a meno che non si applichi un filtro per visualizzarle. Per ulteriori informazioni, consulta [Filtrare una bacheca per mostrare le schede archiviate](#filter-a-board-to-show-archived-cards) in questo articolo.
+   Le schede archiviate sono nascoste dalla bacheca a meno che non si applichi un filtro per visualizzarle. Per ulteriori informazioni, consulta [Filtrare una bacheca per visualizzare le schede archiviate](#filter-a-board-to-show-archived-cards) in questo articolo.
 
-   Un [!UICONTROL Archivia] icona ![Archivia](assets/archive-icon-spectrum-25x20.png) viene visualizzato sulle schede archiviate. Non puoi modificare una scheda archiviata, ma puoi eliminarla o spostarla in un’altra colonna.
+   Sulle schede archiviate viene visualizzata l&#39;icona [!UICONTROL Archivio] ![Archivio](assets/archive-icon-spectrum-25x20.png). Non puoi modificare una scheda archiviata, ma puoi eliminarla o spostarla in un’altra colonna.
 
-1. Per ripristinare una scheda archiviata, fai clic su **[!UICONTROL Altro]** menu ![Menu Altro](assets/more-icon-spectrum.png) sulla scheda e seleziona **[!UICONTROL Ripristina]**.
+1. Per ripristinare una scheda archiviata, fare clic sul menu **[!UICONTROL Altro]** ![Altro menu](assets/more-icon-spectrum.png) sulla scheda e selezionare **[!UICONTROL Ripristina]**.
 
 ## Filtrare una bacheca per mostrare le schede archiviate {#filter-a-board-to-show-archived-cards}
 
 Per impostazione predefinita, su una bacheca vengono visualizzate solo le schede attive. Puoi filtrare la bacheca per visualizzare anche eventuali schede archiviate.
 
 1. Accedi alla bacheca.
-1. Clic [!UICONTROL **Configura**] sulla destra della bacheca per aprire il pannello Configura.
+1. Fai clic su [!UICONTROL **Configura**] a destra della bacheca per aprire il pannello Configura.
 1. Espandi [!UICONTROL **Schede**].
-1. Attiva [!UICONTROL **Visualizza le schede archiviate sulla bacheca**].
-1. Clic [!UICONTROL **Filtro**], espandi [!UICONTROL Schede archiviate] e seleziona **[!UICONTROL Schede archiviate]** per visualizzare le schede archiviate.
+1. Attiva [!UICONTROL **Visualizza schede archiviate sulla bacheca**].
+1. Fai clic su [!UICONTROL **Filtro**], espandi la sezione [!UICONTROL Schede archiviate] e seleziona **[!UICONTROL Schede archiviate]** per visualizzare le schede archiviate.
 
    Il filtro mostra il numero di schede archiviate.
 
@@ -78,6 +78,6 @@ Per impostazione predefinita, su una bacheca vengono visualizzate solo le schede
 
    >[!NOTE]
    >
-   >Il [!UICONTROL Schede archiviate] La sezione non è disponibile nel filtro se non hai attivato l’impostazione di configurazione per visualizzare le schede archiviate. Per ulteriori informazioni, consulta [Personalizzare i campi visualizzati su una scheda](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+   >La sezione [!UICONTROL Schede archiviate] non è disponibile nel filtro se non è stata attivata l&#39;impostazione di configurazione per la visualizzazione delle schede archiviate. Per ulteriori informazioni, vedere [Personalizzare i campi visualizzati in una scheda](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
-1. Seleziona **[!UICONTROL Schede archiviate]** per cancellare l&#39;opzione e visualizzare solo le schede attive.
+1. Seleziona di nuovo **[!UICONTROL Schede archiviate]** per cancellare l&#39;opzione e visualizzare solo le schede attive.

@@ -9,7 +9,7 @@ role: Developer
 exl-id: dcb7dadb-4dd8-48da-a559-cbe8ad99ff9e
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '353'
 ht-degree: 1%
 
 ---
@@ -21,19 +21,19 @@ Quando utilizzi l’API core di Adobe Workfront, API Explorer è uno strumento d
 
 ## Accedi a API Explorer:
 
-1. Utilizza un browser web per passare al [API Explorer](https://developer.adobe.com/workfront/api-explorer/)\
+1. Utilizza un browser Web per passare a [API Explorer](https://developer.adobe.com/workfront/api-explorer/)\
    ![](assets/mceclip1-350x149.png)
 
-1. Nell’angolo superiore destro di API Explorer, seleziona l’elemento desideratoWorkfront **Versione API**, per impostazione predefinita viene selezionata automaticamente la versione più recente
-1. Il **Filtro** , può essere utilizzato per filtrare gli oggetti elencati per nome e tronca l&#39;elenco di oggetti visualizzato di conseguenza:
+1. In alto a destra in API Explorer, seleziona la **versione API** di Workfront desiderata; per impostazione predefinita, viene selezionata automaticamente la versione più recente
+1. Il campo **Filtro**, può essere utilizzato per filtrare gli oggetti elencati per nome e tronca l&#39;elenco di oggetti visualizzato di conseguenza:
 
    ![](assets/mceclip2-350x147.png)
 
-   * **Campi**: campi disponibili all’interno dell’oggetto specificato.
-   * **Riferimenti**: variabili di riferimento disponibili per l’oggetto specificato. Un riferimento è un alias per una variabile. Una volta inizializzato, un riferimento può essere utilizzato in modo intercambiabile con il nome della variabile. Un riferimento utilizza la memoria inizializzata.
-   * **Raccolte**: raccolte disponibili per l’oggetto. Le raccolte sono variabili che rappresentano una relazione uno-a-molti tra l’oggetto e la risorsa.
-   * **Ricerca**: risorse di ricerca disponibili per l’oggetto. I risultati di una ricerca si basano sui parametri di query specificati dalla risorsa di ricerca nella richiesta API.
-   * **Azioni**: azioni supportate per l’oggetto. Le azioni possono essere procedure semplici o complesse che vengono eseguite su una risorsa o un set di risorse. Una determinata azione può influire anche sulle risorse correlate.
+   * **Campi**: campi disponibili nell&#39;oggetto specificato.
+   * **Riferimenti**: variabili di riferimento disponibili per l&#39;oggetto specificato. Un riferimento è un alias per una variabile. Una volta inizializzato, un riferimento può essere utilizzato in modo intercambiabile con il nome della variabile. Un riferimento utilizza la memoria inizializzata.
+   * **Raccolte**: raccolte disponibili per l&#39;oggetto. Le raccolte sono variabili che rappresentano una relazione uno-a-molti tra l’oggetto e la risorsa.
+   * **Ricerca**: risorse di ricerca disponibili per l&#39;oggetto. I risultati di una ricerca si basano sui parametri di query specificati dalla risorsa di ricerca nella richiesta API.
+   * **Azioni**: azioni supportate per l&#39;oggetto. Le azioni possono essere procedure semplici o complesse che vengono eseguite su una risorsa o un set di risorse. Una determinata azione può influire anche sulle risorse correlate.
 
 1. Apri una scheda, quindi fai clic sull’ID oggetto per visualizzare le variabili applicabili.\
    ![](assets/approval-350x89.png)\

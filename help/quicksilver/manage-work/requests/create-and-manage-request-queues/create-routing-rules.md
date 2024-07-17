@@ -19,7 +19,7 @@ ht-degree: 1%
 
 <!-- Audited: 12/2023 -->
 
-Le regole di instradamento controllano le operazioni di Adobe Workfront con i problemi quando vengono inviati a una coda di richieste. Per ulteriori informazioni sulla creazione di code di richieste, consulta [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Le regole di instradamento controllano le operazioni di Adobe Workfront con i problemi quando vengono inviati a una coda di richieste. Per ulteriori informazioni sulla creazione di code di richieste, vedere [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 Le regole di instradamento inviano i problemi a utenti o ruoli specifici in grado di risolvere nel modo migliore il problema o la richiesta inviati. Le regole di instradamento sono solitamente associate agli argomenti della coda, utilizzati per controllare quale regola di instradamento verrà applicata al problema o alla richiesta.
 
@@ -92,8 +92,8 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 ## Creare una regola di instradamento
 
 1. Passare al progetto in cui si desidera aggiungere le regole di instradamento per le richieste.
-1. Clic **Regole di instradamento** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro**, quindi **Regole di instradamento**.
-1. Clic **Nuova Regola di Instradamento** per aggiungere la nuova regola.
+1. Fai clic su **Regole di indirizzamento** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro**, quindi su **Regole di routing**.
+1. Fare clic su **Nuova regola di routing** per aggiungere la nuova regola.
 1. Inserire le seguenti informazioni per la Regola di instradamento:
 
    <table style="table-layout:auto"> 
@@ -120,7 +120,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    <p><b>NOTA</b></p>
 
-   Dopo l’invio del problema, puoi modificarne le assegnazioni e assegnare altri utenti, ruoli o team. Per informazioni, consulta  <a href="../../../manage-work/issues/manage-issues/assign-issues.md">Assegna problemi</a>.
+   Dopo l’invio del problema, puoi modificarne le assegnazioni e assegnare altri utenti, ruoli o team. Per informazioni, vedere <a href="../../../manage-work/issues/manage-issues/assign-issues.md">Assegnare problemi</a>.
 
    </td> 
      </tr> 
@@ -135,14 +135,14 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    >
    >*Se un utente, una mansione o un team viene disattivato dopo essere stato associato a una regola di instradamento, le richieste continuano a essere instradate a loro. È necessario eseguire periodicamente un inventario di tutte le regole di instradamento e sostituire le assegnazioni disattivate con quelle attive.
 
-   Quando si indirizza un problema a un progetto, gli utenti con autorizzazioni per il problema ricevono le autorizzazioni impostate per tale progetto. Per informazioni sull’impostazione delle autorizzazioni per i progetti, consulta [Condividere un progetto in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+   Quando si indirizza un problema a un progetto, gli utenti con autorizzazioni per il problema ricevono le autorizzazioni impostate per tale progetto. Per informazioni sull&#39;impostazione delle autorizzazioni per i progetti, vedere [Condividere un progetto in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
-   ![Casella Nuova regola di instradamento](assets/new-routing-rule-box.png)
+   ![Casella Nuova regola di routing](assets/new-routing-rule-box.png)
 
 1. Fai clic su **Salva**.
 
-   Questo processo definisce solo la Regola di instradamento. Per garantire che il problema venga instradato quando viene inviato alla coda richieste, è necessario selezionare la regola di instradamento nella **Dettagli coda** scheda in **Percorso predefinito**.
+   Questo processo definisce solo la Regola di instradamento. Per assicurarsi che il problema venga instradato quando viene inviato alla coda richieste, è necessario selezionare la regola di instradamento nella scheda **Dettagli coda** in **Percorso predefinito**.
 
-   Per informazioni sull&#39;aggiunta di una route predefinita a una coda di richieste, vedere [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   Per informazioni sull&#39;aggiunta di una route predefinita a una coda richieste, vedere [Creare una coda richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-   Se si desidera associare più regole di instradamento alla coda di richieste, è necessario creare più argomenti della coda e associarli a una regola di instradamento separata. Per ulteriori informazioni sulla creazione di un argomento della coda, vedere [Crea argomenti coda](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+   Se si desidera associare più regole di instradamento alla coda di richieste, è necessario creare più argomenti della coda e associarli a una regola di instradamento separata. Per ulteriori informazioni sulla creazione di un argomento della coda, vedere [Creare argomenti della coda](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).

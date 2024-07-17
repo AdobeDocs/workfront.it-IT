@@ -17,14 +17,14 @@ ht-degree: 0%
 
 # Best practice per l’abbonamento agli eventi
 
-I messaggi di abbonamento agli eventi di Adobe Workfront vengono inviati automaticamente da Workfront dopo che hai configurato correttamente il servizio e creato un abbonamento agli eventi per attivare le consegne dei messaggi. Per ulteriori informazioni sulla corretta configurazione delle sottoscrizioni agli eventi, consulta [Requisiti di consegna dell’abbonamento agli eventi](../../wf-api/general/setup-event-sub-endpoint.md).
+I messaggi di abbonamento agli eventi di Adobe Workfront vengono inviati automaticamente da Workfront dopo che hai configurato correttamente il servizio e creato un abbonamento agli eventi per attivare le consegne dei messaggi. Per ulteriori informazioni sulla corretta configurazione delle sottoscrizioni eventi, vedere [Requisiti di consegna delle sottoscrizioni eventi](../../wf-api/general/setup-event-sub-endpoint.md).
 
 
 Di seguito sono elencate alcune best practice per creare in modo efficace gli abbonamenti agli eventi.
 
 ## Fornisci tutti i campi obbligatori del corpo della richiesta
 
-Assicurati che tutti i campi obbligatori del corpo della richiesta siano forniti all’API. Per informazioni su tutti gli attributi di richiesta richiesti, consulta [API di abbonamento agli eventi](../../wf-api/general/event-subs-api.md).
+Assicurati che tutti i campi obbligatori del corpo della richiesta siano forniti all’API. Per informazioni su tutti gli attributi di richiesta richiesti, vedere [API sottoscrizione evento](../../wf-api/general/event-subs-api.md).
 
 ## Evita di includere campi corpo aggiuntivi
 
@@ -32,22 +32,22 @@ Non includere campi corpo aggiuntivi nella richiesta, in quanto l’API non sar�
 
 ## Completa il test entro il periodo di tolleranza
 
-Prova a eseguire tutti i test di abbonamento entro il periodo di tolleranza di 100 messaggi. Per ulteriori informazioni su questo periodo di tolleranza, consulta [Domande frequenti - Abbonamenti agli eventi](../../wf-api/general/event-subs-faq.md).
+Prova a eseguire tutti i test di abbonamento entro il periodo di tolleranza di 100 messaggi. Per ulteriori informazioni su questo periodo di tolleranza, consulta [Domande frequenti - Sottoscrizioni eventi](../../wf-api/general/event-subs-faq.md).
 
 ## Soddisfa i requisiti standard per la consegna dei messaggi di abbonamento agli eventi
 
-Assicurati che l’endpoint di abbonamento sia conforme ai requisiti di consegna dei messaggi di abbonamento agli eventi standard. Per informazioni su questi requisiti, consulta [Requisiti di consegna dell’abbonamento agli eventi](../../wf-api/general/setup-event-sub-endpoint.md).
+Assicurati che l’endpoint di abbonamento sia conforme ai requisiti di consegna dei messaggi di abbonamento agli eventi standard. Per informazioni su questi requisiti, consulta [Requisiti di consegna per abbonamento eventi](../../wf-api/general/setup-event-sub-endpoint.md).
 
 ## Inserire nell&#39;elenco Consentiti indirizzi IP per area geografica globale
 
-Inserire nell&#39;elenco Consentiti Per ricevere i payload degli abbonamenti agli eventi tramite il firewall, è necessario aggiungere gli indirizzi IP all’di riferimento per area globale. Per ulteriori informazioni, consulta [API di abbonamento agli eventi](../../wf-api/general/event-subs-api.md).
+Per ricevere i payload degli abbonamenti agli eventi tramite il firewall, è necessario aggiungere gli indirizzi IP al, inseriti nell&#39;elenco Consentiti per area globale. Per ulteriori informazioni, vedere [API sottoscrizione eventi](../../wf-api/general/event-subs-api.md).
 
 ## Avere il giusto livello di accesso e una chiave API
 
 Per creare, eseguire query o eliminare un abbonamento a un evento, è necessario che l’utente di Workfront:
 
-* Un livello di accesso di **Amministratore di sistema**
-Per ulteriori informazioni, consulta [Concedere a un utente l&#39;accesso amministrativo completo](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) o [Concedere agli utenti l&#39;accesso amministrativo a determinate aree](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+* Livello di accesso di **Amministratore di sistema**
+Per ulteriori informazioni, vedere [Concedere a un utente l&#39;accesso amministrativo completo](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) o [Concedere agli utenti l&#39;accesso amministrativo a determinate aree](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 * Una chiave API
 

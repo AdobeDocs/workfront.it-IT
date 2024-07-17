@@ -27,13 +27,13 @@ ht-degree: 0%
 >
 >Il rappresentante del tuo account ti informerà se partecipi a questa fase.
 >
->Per ulteriori informazioni, consulta [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+>Per ulteriori informazioni, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 >
 >In alcuni casi, la documentazione a cui si fa riferimento nelle sezioni seguenti potrebbe essere disponibile dopo il rilascio delle funzioni documentate in Produzione.
 
 In questo articolo sono elencate le funzioni rilasciate a Workfront Planing durante il 2024.
 
-Il programma Workfront Planning è iniziato il 22 maggio 2023. Per un elenco di tutte le funzioni rilasciate nel 2023, consulta [Archivi delle attività sulla versione di Adobe Workfront Planning per il 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md).
+Il programma Workfront Planning è iniziato il 22 maggio 2023. Per un elenco di tutte le funzionalità rilasciate durante il 2023, consulta [Archivi delle attività di rilascio di Adobe Workfront Planning per il 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md).
 
 Le funzioni rilasciate sono elencate in ordine di rilascio, a partire da quelle più recenti. I clienti che partecipano al programma Workfront Planning possono accedere a tutte le funzioni degli ambienti di produzione.
 
@@ -51,7 +51,7 @@ Anteprima: da determinare
 
 Ora, quando si fa clic sul nome di un oggetto Workfront dal record Planning a esso collegato, viene aperta la pagina dell&#39;oggetto Workfront. Prima di questo miglioramento, veniva aperta una pagina Workfront Planning di sola lettura per l&#39;oggetto Workfront connesso, da cui era possibile passare alla pagina oggetto di Workfront.
 
-Per informazioni, consulta [Collega record](/help/quicksilver/planning/records/connect-records.md).
+Per informazioni, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md).
 
 ### Solo gli utenti con licenza Standard o Plan possono creare visualizzazioni
 
@@ -61,7 +61,7 @@ Anteprima: da determinare
 
 Sono stati modificati i tipi di utenti che possono creare visualizzazioni. Ora solo gli utenti con licenza Standard o Plan possono creare visualizzazioni. Tutti gli altri utenti hanno accesso in sola visualizzazione alle visualizzazioni condivise con loro. Prima di questo aggiornamento, gli utenti con licenza Light e Worker potevano creare visualizzazioni.
 
-Per ulteriori informazioni, consulta [Panoramica del tipo di licenza quando si utilizza Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
+Per ulteriori informazioni, vedere [Panoramica del tipo di licenza quando si utilizza Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
 ### Ordinare e raggruppare i record in base ai campi di ricerca con più valori
 
@@ -82,7 +82,7 @@ Se il campo di ricerca contiene più valori, considera quanto segue:
 Per ulteriori informazioni, consulta i seguenti articoli:
 
 * [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md)
-* [Gestire la vista tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
+* [Gestisci la vista tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 
 ## Settimana del 24 giugno 2024
@@ -95,7 +95,7 @@ L’assistente AI funziona nel contesto della pagina selezionata e con il tuo li
 
 L’Assistente AI è attualmente in fase beta ed è disponibile per alcuni clienti. Contatta il rappresentante del tuo account per sapere se sei idoneo a partecipare a questa fase.
 
-Per informazioni, consulta [Panoramica dell’Assistente di Adobe Workfront Planning AI](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
+Per informazioni, vedere [Panoramica dell&#39;Assistente di Adobe Workfront Planning AI](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
 
 ### Nuova casella di ricerca quando si seleziona un&#39;area di lavoro o un tipo di record
 
@@ -105,7 +105,7 @@ Anteprima: da determinare
 
 Per facilitare la navigazione tra aree di lavoro o tra tipi di record, ora puoi cercare un’area di lavoro o un tipo di record nel menu a discesa a destra del loro nome nell’intestazione della pagina.
 
-Per informazioni, consulta [Modifica tipi di record](/help/quicksilver/planning/architecture/edit-record-types.md).
+Per informazioni, vedere [Modifica tipi di record](/help/quicksilver/planning/architecture/edit-record-types.md).
 
 ### Inserisce un nuovo campo a destra o a sinistra di un campo esistente nella vista tabella
 
@@ -115,7 +115,7 @@ Anteprima: da determinare
 
 Per migliorare e velocizzare l’esperienza nella vista della tabella di record, è stata aggiunta la possibilità di aggiungere un nuovo campo tra due colonne, inserendolo a destra o a sinistra di uno esistente.
 
-Per informazioni, consulta [Crea campi](/help/quicksilver/planning/fields/create-fields.md).
+Per informazioni, vedere [Creare i campi](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Settimana del 17 giugno 2024
 
@@ -127,7 +127,7 @@ Anteprima: da determinare
 
 Abbiamo aggiornato l’aspetto della pagina Dettagli dei record. Come parte di questo aggiornamento, le icone dei campi sono state rimosse.
 
-Per informazioni, consulta [Modifica record](/help/quicksilver/planning/records/edit-records.md).
+Per informazioni, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).
 
 ### Modelli Workspace aggiornati
 
@@ -149,9 +149,9 @@ Questo aggiornamento include i seguenti miglioramenti:
 
 Per informazioni, vedere i seguenti articoli:
 
-* [Elenco dei modelli di Workspace](/help/quicksilver/planning/architecture/workspace-templates.md)
+* [Elenco dei modelli dell&#39;area di lavoro](/help/quicksilver/planning/architecture/workspace-templates.md)
 
-* [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md)
+* [Crea aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md)
 
 ### Nuova esperienza durante l’aggiunta di una miniatura o di una copertina a un record
 
@@ -169,7 +169,7 @@ Anteprima: da determinare
 
 Per ulteriori informazioni, consulta i seguenti articoli:
 
-* [Aggiungere una copertina a un record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
+* [Aggiungere un&#39;immagine di copertina a un record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
 
 * [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
 
@@ -183,7 +183,7 @@ Il titolo della pagina Dettagli di un record visualizza il campo principale di u
 
 Per ulteriori informazioni, consulta i seguenti articoli:
 
-* [Gestire la vista tabella](/help/quicksilver/planning/views/manage-the-table-view.md)
+* [Gestisci la vista tabella](/help/quicksilver/planning/views/manage-the-table-view.md)
 
 * [Modifica record](/help/quicksilver/planning/records/edit-records.md)
 
@@ -195,7 +195,7 @@ Anteprima: da determinare
 
 È stato aggiunto il collegamento &quot;Mostra altro/Mostra meno&quot; in un campo record collegato, quando sono presenti record che altrimenti verrebbero visualizzati su più di due righe nella pagina Dettagli di un record.
 
-Per informazioni, consulta [Collega record](/help/quicksilver/planning/records/connect-records.md).
+Per informazioni, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md).
 
 ### Compilare automaticamente il campo Nome con il nome del record, durante la connessione dei tipi di record
 
@@ -205,7 +205,7 @@ Anteprima: da determinare
 
 Quando si crea una connessione tra due record o tra un record e un oggetto da un&#39;altra applicazione, il campo Nome connessione viene compilato automaticamente con il nome del record connesso. Prima di questo miglioramento, era necessario aggiungere manualmente un Nome per il campo di connessione.
 
-Per ulteriori informazioni, consulta [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
+Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Definire la modalità di visualizzazione dei record connessi nei campi connessi
 
@@ -219,7 +219,7 @@ Il titolo di un record è il nome del record o qualsiasi campo impostato come ca
 
 Questo miglioramento è disponibile per i record connessi da Workfront Planning e per le risorse collegate da Adobe Experience Manager.
 
-Per informazioni, consulta [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
+Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Solo gli utenti con licenza Standard o Plan possono disporre delle autorizzazioni Manage per le aree di lavoro (titolo)
 
@@ -229,7 +229,7 @@ Anteprima: da determinare
 
 Sono stati modificati i tipi di utenti che possono avere accesso completo alle aree di lavoro. Ora solo gli utenti con licenza Standard o Plan possono disporre delle autorizzazioni Manage per le aree di lavoro. L&#39;accesso ai tipi di record, ai record e ai campi viene ereditato da un&#39;area di lavoro. Tutti gli altri utenti hanno accesso in sola visualizzazione alle aree di lavoro e ai relativi tipi di oggetto. Prima di questo aggiornamento, gli utenti con licenza Light e Worker potevano ricevere le autorizzazioni Contribute per le aree di lavoro.
 
-Per ulteriori informazioni, consulta [Panoramica del tipo di licenza quando si utilizza Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
+Per ulteriori informazioni, vedere [Panoramica del tipo di licenza quando si utilizza Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
 ## Settimana del 10 giugno 2024
 
@@ -253,7 +253,7 @@ Per ulteriori informazioni, consulta i seguenti articoli:
 
 * [Crea campi](/help/quicksilver/planning/fields/create-fields.md)
 
-* [Gestire la vista tabella](/help/quicksilver/planning/views/manage-the-table-view.md)
+* [Gestisci la vista tabella](/help/quicksilver/planning/views/manage-the-table-view.md)
 
 ## Settimana del 3 giugno 2024
 
@@ -279,7 +279,7 @@ Alcune delle informazioni sulla pagina di destinazione includono:
 
 * Tutorial introduttivo per Workfront Planning
 
-Per ulteriori informazioni, consulta [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+Per ulteriori informazioni, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 ### Nuova esperienza di onboarding per Workfront Planning
 
@@ -309,7 +309,7 @@ L’operatore UNIQUE è disponibile per tutti i tipi di campo, ad eccezione dei 
 * Persone
 * Campo casella di controllo
 
-Per informazioni, consulta [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
+Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Per impostazione predefinita, condividi le viste con tutti i membri di un’area di lavoro
 
@@ -319,7 +319,7 @@ Anteprima: da determinare
 
 È stata introdotta un&#39;opzione che consente di assegnare rapidamente le autorizzazioni di visualizzazione a tutti i membri di un&#39;area di lavoro. Prima di questo miglioramento, solo gli utenti con cui hai condiviso specificamente una visualizzazione potevano accedere alla visualizzazione. Questa opzione non è attivata per impostazione predefinita.
 
-Per informazioni, consulta [Condividere le visualizzazioni](/help/quicksilver/planning/access/share-views.md).
+Per informazioni, vedere [Condividi visualizzazioni](/help/quicksilver/planning/access/share-views.md).
 
 ### Aggiornamento dell&#39;aspetto dell&#39;icona Planning nel menu principale
 
@@ -327,7 +327,7 @@ Produzione: 30 maggio 2024
 
 Anteprima: da determinare
 
-È stato aggiornato l’aspetto dell’icona per l’area Pianificazione nel menu principale. Per informazioni, consulta [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+È stato aggiornato l’aspetto dell’icona per l’area Pianificazione nel menu principale. Per informazioni, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 ### Ridenominazione del programma Workfront Planning
 
@@ -347,7 +347,7 @@ Poiché l’impatto dell’eliminazione di un’area di lavoro può essere signi
 
 Le aree di lavoro eliminate e le relative informazioni non possono essere recuperate.
 
-Per ulteriori informazioni, consulta [Eliminare le aree di lavoro](/help/quicksilver/planning/architecture/delete-workspaces.md).
+Per ulteriori informazioni, vedere [Elimina aree di lavoro](/help/quicksilver/planning/architecture/delete-workspaces.md).
 
 ### I campi della data di ricerca sono ora disponibili nella vista Timeline
 
@@ -357,7 +357,7 @@ Anteprima: da determinare
 
 È ora possibile impostare le date di inizio e di fine della visualizzazione timeline su un campo di ricerca da un record o un tipo di oggetto connesso.
 
-Per ulteriori informazioni sulla creazione delle viste, consultate [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
+Per ulteriori informazioni sulla creazione delle visualizzazioni, vedere [Gestire le visualizzazioni dei record](/help/quicksilver/planning/views/manage-record-views.md).
 
 ## Settimana del 20 maggio 2024
 
@@ -379,7 +379,7 @@ Nella sezione Pianificazione di Workfront sono disponibili le azioni seguenti:
 
 * Aprire la casella o la pagina di anteprima dei dettagli per visualizzare ulteriori informazioni sui record connessi
 
-Per informazioni, consulta [Gestire i record nella sezione Pianificazione degli oggetti di Adobe Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+Per informazioni, vedere [Gestire i record nella sezione Pianificazione degli oggetti Adobe Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
 
 ## Settimana del 13 maggio 2024
 
@@ -399,7 +399,7 @@ Anteprima: da determinare
 
 È stato aggiunto il pulsante &quot;Nuovo record&quot; nell’intestazione di una pagina del tipo di record. È ora possibile creare record da qualsiasi visualizzazione. Prima di questo miglioramento, era possibile creare record solo dalla vista tabella.
 
-Per ulteriori informazioni, consulta [Crea record](/help/quicksilver/planning/records/create-records.md).
+Per ulteriori informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).
 
 
 ### Nuovo avviso sulla visibilità degli oggetti durante la connessione dei record
@@ -412,7 +412,7 @@ Quando si creano connessioni a tipi di oggetto esterni a Workfront Planning, vie
 
 Se ad esempio si collegano progetti da campagne Workfront Planning, tutti gli utenti con accesso a Visualizza campagna avranno accesso anche alla visualizzazione dei progetti collegati e delle informazioni dai campi di ricerca, anche se non dispongono di autorizzazioni per i progetti collegati o di accesso ai progetti in generale. Quando si ricevono le autorizzazioni per le aree di lavoro, è possibile accedere ai record di Planning.
 
-Per ulteriori informazioni, consulta [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
+Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Aggiungere sezioni alle pagine di anteprima e dettagli del record
 
@@ -422,7 +422,7 @@ Anteprima: da determinare
 
 Per una migliore organizzazione delle informazioni sulla pagina del record, per una migliore leggibilità e navigazione, sono state introdotte sezioni nella pagina del record. I titoli delle sezioni fungono da intestazioni che organizzano i campi in categorie distinte. Le sezioni sono completamente personalizzabili e, se necessario, possono essere espanse o compresse.
 
-Per informazioni, consulta [Gestire il layout della pagina record](/help/quicksilver/planning/records/manage-the-record-page.md).
+Per informazioni, vedere [Gestire il layout della pagina record](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ### Aggiornamenti in tempo reale per le modifiche alla configurazione dei campi
 
@@ -440,7 +440,7 @@ Quando un utente modifica una configurazione di campo (nome, descrizione, elenco
 >
 >Non viene inviata alcuna notifica agli altri utenti circa la modifica della configurazione del campo.
 
-Per ulteriori informazioni, consulta [Modifica impostazioni campo](/help/quicksilver/planning/fields/edit-fields.md).
+Per ulteriori informazioni, vedere [Modifica impostazioni campo](/help/quicksilver/planning/fields/edit-fields.md).
 
 ## Settimana del 6 maggio 2024
 
@@ -456,7 +456,7 @@ Anteprima: da determinare
 
 * Aggiunta della descrizione del tipo di record
 
-Per informazioni, consulta [Crea tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
+Per informazioni, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ### Abilita le notifiche di Workfront Planning per i clienti di Adobe Unified Experience
 
@@ -464,9 +464,9 @@ Produzione: 8 maggio 2024
 
 Anteprima: da determinare
 
-Se sei un cliente di Adobe di Unified Experience e qualcuno ti aggiunge a un commento nella pagina di registrazione, riceverai una notifica in-app e un’e-mail relativa al commento. Puoi gestire le preferenze per le notifiche nell’area Preferenze del tuo profilo Adobe Experience Cloud. Per ulteriori informazioni, consulta [Preferenze e notifiche dell’account](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
+Se sei un cliente di Adobe di Unified Experience e qualcuno ti aggiunge a un commento nella pagina di registrazione, riceverai una notifica in-app e un’e-mail relativa al commento. Puoi gestire le preferenze per le notifiche nell’area Preferenze del tuo profilo Adobe Experience Cloud. Per ulteriori informazioni, vedere [Preferenze account e notifiche](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
-Per ulteriori informazioni sulle notifiche di pianificazione di Workfront, vedere [Notifiche di Adobe Workfront Planning: indice articolo](/help/quicksilver/planning/notifications/notifications-information.md).
+Per ulteriori informazioni sulle notifiche di Workfront Planning, vedere [Notifiche di Adobe Workfront Planning: indice articolo](/help/quicksilver/planning/notifications/notifications-information.md).
 
 
 ## Settimana del 29 aprile 2029
@@ -503,7 +503,7 @@ Quando modifichi un’area di lavoro o un tipo di record, ora puoi definire un n
 
 Per ulteriori informazioni, consulta i seguenti articoli:
 
-* [Modificare le aree di lavoro](/help/quicksilver/planning/architecture/edit-workspaces.md)
+* [Modifica aree di lavoro](/help/quicksilver/planning/architecture/edit-workspaces.md)
 
 * [Modifica tipi di record](/help/quicksilver/planning/architecture/edit-record-types.md).
 
@@ -519,7 +519,7 @@ Anteprima: da determinare
 
 Questa funzionalità è supportata per tutti i tipi di campo, ad eccezione dei campi calcolati.
 
-Per ulteriori informazioni, consulta [Modifica record](/help/quicksilver/planning/records/edit-records.md).
+Per ulteriori informazioni, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).
 
 ## Settimana del 1° aprile 2024
 
@@ -531,7 +531,7 @@ Anteprima: da determinare
 
 In qualità di manager di Workspace, ora puoi riordinare i campi elencati nella pagina di record o nell’anteprima. L&#39;aggiornamento dell&#39;ordine dei campi modifica l&#39;ordine dei campi di tutti i record dello stesso tipo, per tutti gli utenti che visualizzano la pagina record o l&#39;anteprima record.
 
-Per ulteriori informazioni, consulta [Gestire il layout della pagina record](/help/quicksilver/planning/records/manage-the-record-page.md).
+Per ulteriori informazioni, vedere [Gestire il layout della pagina record](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 
 ### Aggiungi immagine di copertina per registrare le pagine
@@ -542,7 +542,7 @@ Anteprima: da determinare
 
 Durante la gestione delle pagine di record, è ora possibile aggiungere, riposizionare e sostituire un&#39;immagine di copertina in una pagina di record o in anteprima, per arricchire la presentazione del record e il coinvolgimento delle parti interessate. Le immagini di copertina sono visibili a tutti gli utenti che visualizzano i record.
 
-Per ulteriori informazioni, consulta [Gestire il layout della pagina record](/help/quicksilver/planning/records/manage-the-record-page.md).
+Per ulteriori informazioni, vedere [Gestire il layout della pagina record](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## Settimana del 25 marzo 2024
 
@@ -560,7 +560,7 @@ Per rendere più efficiente l&#39;impostazione delle aree di lavoro, è stata mo
 
 * Spostare dinamicamente i tipi di record all’interno di un’area di lavoro trascinandoli nella posizione desiderata, anche in sezioni diverse.
 
-Per ulteriori informazioni, consulta [Crea tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
+Per ulteriori informazioni, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ### Visualizzazioni duplicate
 
@@ -572,7 +572,7 @@ Per risparmiare tempo e mantenere la coerenza, ora puoi duplicare una vista esis
 
 La duplicazione di una vista crea una vista identica, utilizzando gli stessi filtri, criteri di ordinamento e raggruppamenti. La duplicazione di una vista non mantiene le autorizzazioni della vista originale.
 
-Per ulteriori informazioni, consulta [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
+Per ulteriori informazioni, vedere [Gestire le visualizzazioni dei record](/help/quicksilver/planning/views/manage-record-views.md).
 
 ### Rinominata area Maestro nel menu principale come Planning
 
@@ -592,7 +592,7 @@ Anteprima: da determinare
 
 La casella di conferma durante l’eliminazione di un tipo di record è stata riprogettata. L&#39;eliminazione di un tipo di record ha un impatto notevole, in quanto elimina anche tutti i record, i relativi campi, le informazioni contenute nei campi e le visualizzazioni associate al tipo di record. Non è possibile recuperare i tipi di record eliminati e le relative informazioni eliminate.
 
-Per questo motivo, volevamo garantire che l’intento dell’utente fosse accurato durante l’eliminazione di un tipo di record, per cui abbiamo introdotto un passaggio aggiuntivo nella conferma dell’eliminazione. Per ulteriori informazioni, consulta [Elimina tipi di record](/help/quicksilver/planning/architecture/delete-record-types.md).
+Per questo motivo, volevamo garantire che l’intento dell’utente fosse accurato durante l’eliminazione di un tipo di record, per cui abbiamo introdotto un passaggio aggiuntivo nella conferma dell’eliminazione. Per ulteriori informazioni, vedere [Elimina tipi di record](/help/quicksilver/planning/architecture/delete-record-types.md).
 
 ## Settimana del 18 marzo 2024
 
@@ -602,7 +602,7 @@ Produzione: 19 marzo 2024
 
 Anteprima: da determinare
 
-È ora possibile filtrare le informazioni nella vista calendario. Per ulteriori informazioni, consulta [Gestire la visualizzazione calendario](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+È ora possibile filtrare le informazioni nella vista calendario. Per ulteriori informazioni, vedere [Gestire la visualizzazione del calendario](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
 ### Anteprima con i dettagli dei record aggiunti alla timeline e alle visualizzazioni del calendario
 
@@ -614,7 +614,7 @@ Anteprima: da determinare
 
 Dall&#39;anteprima del record è possibile aprire la pagina di registrazione in una nuova scheda del browser.
 
-Per ulteriori informazioni, consulta [Modifica record](/help/quicksilver/planning/records/edit-records.md).
+Per ulteriori informazioni, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).
 
 ### Il tipo di record Importazione Excel è temporaneamente disabilitato
 
@@ -640,7 +640,7 @@ Per semplificare la visualizzazione di informazioni aggiuntive sui record quando
 
 * Un collegamento per aprire la pagina del record
 
-Per ulteriori informazioni, consulta [Modifica record](/help/quicksilver/planning/records/edit-records.md).
+Per ulteriori informazioni, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).
 
 ### Nuova struttura a schede per le visualizzazioni record
 
@@ -652,18 +652,19 @@ Per migliorare la navigazione e la facilità d’uso, abbiamo riprogettato la vi
 
 Le visualizzazioni vengono visualizzate in ordine cronologico per data aggiunta, da sinistra a destra. Anche le viste condivise vengono visualizzate in ordine cronologico in base al momento in cui sono state condivise.
 
-Per ulteriori informazioni, consulta [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
+Per ulteriori informazioni, vedere [Gestire le visualizzazioni dei record](/help/quicksilver/planning/views/manage-record-views.md).
 
 ### Progettazione dinamica di una visualizzazione record
 
-Produzione: 14 marzo 2024 Anteprima: da definire
+Produzione: 14 marzo 2024
+Anteprima: da determinare
 
 Nella pagina del tipo di record è stato aggiornato l’aspetto delle visualizzazioni. Le nuove viste rispondono dinamicamente e si adattano rapidamente alle dimensioni dello schermo. Le etichette delle opzioni della barra degli strumenti sono nascoste su schermi più piccoli per facilitarne l’utilizzo.
 
 Per ulteriori informazioni, consulta i seguenti articoli:
 
 * [Gestire la vista tabella](/help/quicksilver/planning/views/manage-the-table-view.md)
-* [Gestire la visualizzazione della timeline](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+* [Gestione della visualizzazione della sequenza temporale](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ### Consenti agli amministratori di sistema di gestire tutte le visualizzazioni condivise
 
@@ -673,7 +674,7 @@ Anteprima: da determinare
 
 Per essere coerente con tutte le altre aree del sistema e per essere in grado di gestire e controllare qualsiasi visualizzazione disponibile come amministratore di sistema, ora si dispone delle autorizzazioni di gestione per qualsiasi visualizzazione condivisa con te nella pagina del tipo di record. Prima di questo miglioramento, gli autori delle visualizzazioni potevano concedere le autorizzazioni per visualizzare o gestire la visualizzazione. Ora, se la vista è condivisa con l’utente e l’utente è amministratore di sistema, per impostazione predefinita disporrà delle autorizzazioni di gestione per la vista.
 
-Per ulteriori informazioni, consulta [Condividere le visualizzazioni](/help/quicksilver/planning/access/share-views.md).
+Per ulteriori informazioni, vedere [Condividi visualizzazioni](/help/quicksilver/planning/access/share-views.md).
 
 ### Pagina non autorizzata quando si condivide una visualizzazione senza autorizzazioni
 
@@ -683,7 +684,7 @@ Anteprima: da determinare
 
 Quando un utente riceve un collegamento a un tipo di record e ha accesso all’area di lavoro ma non alla vista condivisa nel collegamento, viene visualizzata una pagina che notifica che non è autorizzato a visualizzare il tipo di record.
 
-Per ulteriori informazioni, consulta [Condividere le visualizzazioni](/help/quicksilver/planning/access/share-views.md).
+Per ulteriori informazioni, vedere [Condividi visualizzazioni](/help/quicksilver/planning/access/share-views.md).
 
 
 ### Nuova etichetta per gli amministratori di sistema nelle finestre di dialogo di condivisione
@@ -694,7 +695,7 @@ Anteprima: da determinare
 
 Nella finestra di dialogo di condivisione, accanto al nome dell’amministratore di sistema viene ora visualizzata l’etichetta &quot;Amministratore&quot; quando si condivide una visualizzazione o un’area di lavoro.
 
-Per informazioni, consulta [Panoramica delle autorizzazioni di condivisione](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Per informazioni, vedere [Panoramica delle autorizzazioni di condivisione](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 ### Pagina non autorizzata quando si condivide una visualizzazione senza autorizzazioni
 
@@ -706,7 +707,7 @@ Quando un utente riceve un collegamento a un tipo di record e ha accesso all’a
 
 Oltre a condividere le aree di lavoro, è necessario condividere le visualizzazioni per consentire ad altri utenti di accedere alla stessa pagina del tipo di record condivisa con un collegamento.
 
-Per ulteriori informazioni, consulta [Condividere le visualizzazioni](/help/quicksilver/planning/access/share-views.md).
+Per ulteriori informazioni, vedere [Condividi visualizzazioni](/help/quicksilver/planning/access/share-views.md).
 
 ## Settimana del 4 marzo 2024
 
@@ -724,7 +725,7 @@ Anteprima: da determinare
 * Medio
 * Alto.
 
-Per ulteriori informazioni, consulta [Gestire la vista tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
+Per ulteriori informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 ### Nuova vista calendario per i record
 
@@ -734,7 +735,7 @@ Anteprima: da determinare
 
 È ora possibile visualizzare i record in una vista calendario. Per creare la visualizzazione calendario è necessario disporre di almeno due campi data in un tipo di record.
 
-Per ulteriori informazioni, consulta [Gestire la visualizzazione calendario](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+Per ulteriori informazioni, vedere [Gestire la visualizzazione del calendario](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
 ## Settimana del 26 febbraio 2024
 
@@ -748,7 +749,7 @@ Anteprima: da determinare
 
 Non è possibile filtrare, ordinare o raggruppare per campi di ricerca che consentono connessioni con più record.
 
-Per informazioni, consulta [Gestire la vista tabella](/help/quicksilver/planning/views/manage-the-table-view.md) e [Gestire la visualizzazione della timeline](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+Per informazioni, vedere [Gestire la vista tabella](/help/quicksilver/planning/views/manage-the-table-view.md) e [Gestire la vista timeline](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Settimana del 5 febbraio 2024
 
@@ -770,7 +771,7 @@ Di seguito sono riportati i livelli più elevati di autorizzazioni che gli utent
 
 Per informazioni sul nuovo modello di licenza, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Per informazioni sulla connessione tra il tipo di licenza e le autorizzazioni nelle funzionalità di pianificazione, consulta [Panoramica del tipo di licenza quando si utilizza Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
+Per informazioni sulla connessione tra il tipo di licenza e le autorizzazioni nelle funzionalità di pianificazione, vedere [Panoramica sul tipo di licenza quando si utilizza Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
 
 ### Nuovo aspetto della barra degli strumenti Testo formattato per i campi record
@@ -781,7 +782,7 @@ Anteprima: da determinare
 
 È stato aggiornato l’aspetto della barra degli strumenti Testo formattato quando si modifica un campo di tipo Paragrafo.
 
-Per informazioni, consulta [Modifica record](/help/quicksilver/planning/records/edit-records.md).
+Per informazioni, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).
 
 ### Esperienza migliorata durante la modifica dei campi Selezione singola, Selezione multipla, Persone e durante l’aggiunta di oggetti connessi
 
@@ -805,7 +806,7 @@ Per i campi connessi, è possibile aggiungerli eseguendo una delle operazioni se
 
 I miglioramenti sono ora disponibili quando si aggiornano i campi nella vista tabella di un tipo di record.
 
-Per ulteriori informazioni, consulta [Collega record](/help/quicksilver/planning/records/connect-records.md).
+Per ulteriori informazioni, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md).
 
 ## Settimana del 29 gennaio 2024
 
@@ -823,7 +824,7 @@ Anteprima: da determinare
 
 Per ulteriori informazioni, consulta i seguenti articoli:
 
-* [Condividere le aree di lavoro](/help/quicksilver/planning/access/share-workspaces.md)
+* [Condividi aree di lavoro](/help/quicksilver/planning/access/share-workspaces.md)
 * [Condividere le visualizzazioni](/help/quicksilver/planning/access/share-views.md)
 
 ### Aggiungi miniature ai record
@@ -834,7 +835,7 @@ Anteprima: da determinare
 
 È ora possibile aggiungere singole miniature a ciascun record per distinguerle in una visualizzazione. Nella vista a tabella è possibile aggiungere come miniature file immagine precedentemente salvati nel computer. Le miniature possono essere univoche per ciascun record e possono essere visualizzate sia nella vista tabella che nella vista timeline della pagina del tipo di record.
 
-Per ulteriori informazioni, consulta [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+Per ulteriori informazioni, vedere [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
 ### Rimuovi schede di tipo record collegate
 
@@ -844,7 +845,7 @@ Anteprima: da determinare
 
 Per evitare confusione e semplificare la gestione delle aree di lavoro, sono state rimosse da un workspace le schede dei tipi di record generati automaticamente e di sola lettura per gli oggetti esterni connessi.
 
-Per ulteriori informazioni, consulta [Collega record](/help/quicksilver/planning/records/connect-records.md).
+Per ulteriori informazioni, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md).
 
 ## Settimana del 22 gennaio 2024
 
@@ -866,7 +867,7 @@ Le seguenti informazioni vengono registrate nella nuova sezione Cronologia:
 
 * Indicatore di data e ora in cui è avvenuta la modifica.
 
-Per ulteriori informazioni, consulta [Panoramica della sezione Cronologia](/help/quicksilver/planning/records/history-section-overview.md).
+Per ulteriori informazioni, vedere [Panoramica della sezione Cronologia](/help/quicksilver/planning/records/history-section-overview.md).
 
 ### Nuova etichetta per collegamento nuovo record
 
@@ -874,7 +875,7 @@ Produzione: 25 gennaio 2024
 
 Anteprima: da determinare
 
-Per garantire coerenza durante la creazione dei record, il collegamento + Nuovo è stato rinominato per la creazione dei record in &quot;+ Nuovo record&quot;.  Prima di questo aggiornamento, il collegamento conteneva il nome del tipo di record. Il nuovo collegamento è ora disponibile durante la creazione di record operativi e di tassonomia. Per informazioni, consulta [Crea record](/help/quicksilver/planning/records/create-records.md).
+Per garantire coerenza durante la creazione dei record, il collegamento + Nuovo è stato rinominato per la creazione dei record in &quot;+ Nuovo record&quot;.  Prima di questo aggiornamento, il collegamento conteneva il nome del tipo di record. Il nuovo collegamento è ora disponibile durante la creazione di record operativi e di tassonomia. Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).
 
 ## Settimana dell’8 gennaio 2024
 
@@ -909,7 +910,7 @@ Di seguito sono riportati i livelli di autorizzazione per le visualizzazioni rec
 * Visualizza: gli utenti possono selezionare la visualizzazione dal menu a discesa Visualizza di una pagina del tipo di record.
 * Gestisci: gli utenti possono modificare, condividere ed eliminare la visualizzazione.
 
-Per ulteriori informazioni, consulta [Panoramica degli accessi](/help/quicksilver/planning/access/access-overview.md) e [Panoramica delle autorizzazioni di condivisione nelle funzionalità di Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Per ulteriori informazioni, vedere [Panoramica dell&#39;accesso](/help/quicksilver/planning/access/access-overview.md) e [Panoramica delle autorizzazioni di condivisione nelle funzionalità di Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 ### Nuovo tipo di campo Formula
 
@@ -923,7 +924,7 @@ I campi formula generano un nuovo valore utilizzando i valori esistenti di altri
 
 Non è possibile utilizzare campi di ricerca da tipi di record collegati in un calcolo di formula. Questa funzionalità sarà disponibile in un secondo momento.
 
-Per informazioni, consulta [Panoramica sui campi formula](/help/quicksilver/planning/fields/formula-fields.md).
+Per informazioni, vedere [Panoramica dei campi formula](/help/quicksilver/planning/fields/formula-fields.md).
 
 ### Azioni Annulla/Ripristina durante la gestione dei record nella vista a tabella
 

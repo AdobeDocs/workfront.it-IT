@@ -31,7 +31,7 @@ La data di completamento effettiva di un progetto è impostata nei modi seguenti
 * Aggiornando manualmente lo stato del progetto: se la modalità di completamento del progetto è impostata su Manuale e lo stato del progetto viene modificato manualmente su Completo, la data di completamento effettiva del progetto viene aggiornata alla data e all&#39;ora dell&#39;ultima attività completata.
 * Automaticamente, quando l&#39;ultima attività del progetto viene completata: se la Modalità di completamento del progetto è impostata su Automatico e l&#39;ultima attività viene contrassegnata come Completa o se si aggiorna la Data di completamento effettiva dell&#39;ultima attività, anche la Data di completamento effettiva del progetto viene aggiornata con tale data.
 
-  Per informazioni sull’impostazione della modalità di completamento di un progetto, consulta l’articolo [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
+  Per informazioni sull&#39;impostazione della modalità di completamento di un progetto, vedere l&#39;articolo [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
 
   >[!NOTE]
   >
@@ -52,4 +52,4 @@ La data di completamento effettiva si trova nelle seguenti aree di Workfront:
 * Aggiornamenti di progetti, attività e problemi come aggiornamento del sistema.
 * Elenchi o report di progetti, attività o problemi.
 
-Per ulteriori informazioni sulla creazione di rapporti, consulta l’articolo [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Per ulteriori informazioni sulla creazione di report, vedere l&#39;articolo [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).

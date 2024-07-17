@@ -21,15 +21,15 @@ ht-degree: 0%
 <p>(We need to keep this as a standalone article. It is linked in multiple articles and FAQs.)</p>
 -->
 
-Come un [!DNL Adobe Workfront] cliente, è possibile contattare il [!DNL Workfront] Il team dell’Assistenza clienti telefonicamente o inviando un ticket online.
+In qualità di cliente [!DNL Adobe Workfront], puoi contattare il team di Assistenza clienti [!DNL Workfront] telefonicamente o inviando un ticket online.
 
 >[!NOTE]
 >
->Per problemi critici, contatta [!DNL Workfront] Assistenza clienti telefonica.
+>Per problemi critici, contattare l&#39;Assistenza clienti [!DNL Workfront] telefonicamente.
 
 ## Telefono
 
-Puoi contattare [!DNL Workfront Customer Support] 7 giorni alla settimana, 24 ore al giorno, fino ai seguenti numeri:
+Puoi contattare [!DNL Workfront Customer Support] 7 giorni alla settimana, 24 ore al giorno, tramite i seguenti numeri:
 
 * USA: 844-306-HELP(4357)
 * EMEA: +44 1256 274200
@@ -37,30 +37,30 @@ Puoi contattare [!DNL Workfront Customer Support] 7 giorni alla settimana, 24 or
 
 ## Web
 
-Puoi inviare un ticket di supporto dal self-service [!DNL Experience League] portale.
+È possibile inviare un ticket di supporto dal portale self-service [!DNL Experience League].
 
 >[!IMPORTANT]
 >
 >Solo i contatti autorizzati del supporto (o gli utenti autorizzati al supporto) possono inviare ticket di supporto online.
 
 
-1. Dalla sezione [[!DNL Experience League]](https://experienceleague.adobe.com) sito Web, fai clic su **[!UICONTROL Supporto]**  nella parte superiore della pagina.
+1. Dal sito Web [[!DNL Experience League]](https://experienceleague.adobe.com), fare clic su **[!UICONTROL Supporto]** nella parte superiore della pagina.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
-   Il [!UICONTROL Supporto] viene visualizzata la pagina.
+   Verrà aperta la pagina [!UICONTROL Supporto].
 
-   Dalla sezione [!UICONTROL Supporto] home page, puoi passare ai casi di supporto aperti, registrare un nuovo caso, visualizzare la parte superiore [!UICONTROL Supporto] o accedere a fonti di apprendimento aggiuntive.
+   Dalla home page del [!UICONTROL Supporto], puoi passare ai tuoi casi di supporto aperti, registrare un nuovo caso, visualizzare i primi [!UICONTROL Articoli di supporto] o accedere ad altre origini di apprendimento.
 
-1. Per inviare un caso, seleziona l’opzione **[!UICONTROL Aprire un caso di supporto]**, quindi fai clic su **[!UICONTROL Firma] In entrata**.
+1. Per inviare un caso, seleziona l&#39;opzione **[!UICONTROL Apri un caso di supporto]**, quindi fai clic su **[!UICONTROL Firma] In**.
 
-1. Clic **[!UICONTROL Apri caso]** nella barra laterale a sinistra.
+1. Fai clic su **[!UICONTROL Apri caso]** nella barra laterale a sinistra.
 
 <!--
    ![](assets/left-nav-bar-for-exl-support-portal.png)
 -->
 
-Il [!UICONTROL creazione di casi] viene visualizzata la pagina in cui è possibile immettere il nome del prodotto ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion], ecc.), il titolo della maiuscola/minuscola e la relativa descrizione.
+Viene visualizzata la pagina [!UICONTROL creazione caso] in cui è possibile immettere il nome del prodotto ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion], ecc.), il titolo del caso e la relativa descrizione.
 
 >[!TIP]
 >
@@ -69,14 +69,14 @@ Il [!UICONTROL creazione di casi] viene visualizzata la pagina in cui è possibi
 
 1. Compila le informazioni per i seguenti campi per fornirci dettagli più specifici:
 
-   * **[!UICONTROL Priorità caso]** ([!UICONTROL Basso], [!UICONTROL Medio], [!UICONTROL Alta], [!UICONTROL Critico])
+   * **[!UICONTROL Priorità maiuscole/minuscole]** ([!UICONTROL Bassa], [!UICONTROL Medium], [!UICONTROL Alta], [!UICONTROL Critica])
    * **[!UICONTROL Prodotto del caso]** ([!UICONTROL DAM], [!DNL Fusion], [!DNL Goals], ecc.)
    * **[!UICONTROL Ambiente]** ([!UICONTROL Produzione], [!UICONTROL Anteprima], [!UICONTROL Sandbox], ecc.)
-   * **[!UICONTROL Area Cliente]** (Americhe, EMEA, APAC)
+   * **[!UICONTROL Area clienti]** (America, EMEA, APAC)
 
 1. Carica tutti i file rilevanti, quindi fai clic su **[!UICONTROL Invia caso]**.
 
-   Il caso viene presentato e il [!UICONTROL I miei casi] viene visualizzata la pagina.
+   Il caso viene inviato e viene visualizzata la pagina [!UICONTROL Casi personali].
 
    <!--
    [](assets/all-cases-list-exl-support-portal.png)
@@ -87,19 +87,19 @@ In caso di domande o problemi durante l’invio di una richiesta, chiama il team
 
 ## Visualizzazione e gestione dei casi di supporto
 
-1. Accedi a **[!UICONTROL I miei casi]** pagina. Questa pagina viene visualizzata quando si invia un caso, oppure è possibile aprirla facendo clic su **[!UICONTROL I miei casi]** nel menu di navigazione a sinistra.
+1. Passa alla pagina **[!UICONTROL I miei casi]**. Questa pagina viene visualizzata quando si invia un caso, oppure è possibile aprirlo facendo clic su **[!UICONTROL I miei casi]** nell&#39;area di navigazione a sinistra.
 
-1. (Facoltativo) Utilizza le opzioni nella parte superiore della pagina per filtrare in base a **Prodotto ([!DNL Experience Cloud] solution)** caso o **[!UICONTROL Stato]** ([!UICONTROL Apri] o Closed). È inoltre possibile utilizzare [!UICONTROL ricerca] per cercare le parole chiave relative ai casi di supporto.
+1. (Facoltativo) Utilizza le opzioni nella parte superiore della pagina per filtrare in base al **prodotto ([!DNL Experience Cloud] soluzione)** o al caso **[!UICONTROL Stato]** ([!UICONTROL Aperto] o Closed). È inoltre possibile utilizzare la casella [!UICONTROL ricerca] per cercare eventuali parole chiave relative ai casi di supporto.
 
-1. (Facoltativo) Per visualizzare ulteriori dettagli su un caso, fai clic sul pulsante **Numero della controversia** per accedervi.
+1. (Facoltativo) Per visualizzare ulteriori dettagli su un caso, fai clic sul **Numero caso** per accedervi.
 
    Viene visualizzata la vista del caso.
 
 1. (Facoltativo) Nella vista Caso, rivedi i commenti più recenti con il proprietario del caso assegnato e aggiungi eventuali allegati o risposte aggiuntivi.
 
-1. (Facoltativo) Per inoltrare il caso, fai clic su **[!UICONTROL Escalation alla gestione]** sul lato destro della pagina in **[!UICONTROL Dettagli caso].
+1. (Facoltativo) Per inoltrare il caso, fare clic su **[!UICONTROL Inoltra alla direzione]** sul lato destro della pagina in **[!UICONTROL Dettagli caso].
 
-1. Fai clic su **[!UICONTROL Chiudi caso]** per chiudere la controversia.
+1. Fai clic sul pulsante **[!UICONTROL Chiudi caso]** per chiudere il caso.
 
 
 <!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)

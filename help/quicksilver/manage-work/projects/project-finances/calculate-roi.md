@@ -2,8 +2,8 @@
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
-title: Calcola il ritorno sull'investimento (ROI)
-description: Il Return On Investment (ROI) è una metrica Adobe Workfront che consente ai responsabili del portafoglio di vedere rapidamente le prestazioni del progetto rispetto al costo originale pianificato del benefit e a budget del progetto.
+title: Calcola il ritorno sull’investimento (ROI)
+description: Il ROI (Return On Investment) è una metrica di Adobe Workfront che consente ai gestori del portfolio di visualizzare rapidamente le prestazioni del progetto rispetto al beneficio pianificato e al costo preventivato originali del progetto.
 author: Alina
 feature: Work Management
 exl-id: 1a3d16cb-8cb1-472e-8102-0ea8e0bc0edd
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 ---
 
-# Calcola il ritorno sull&#39;investimento (ROI)
+# Calcola il ritorno sull’investimento (ROI)
 
-Il Return On Investment (ROI) è una metrica Adobe Workfront che consente ai responsabili del portafoglio di vedere rapidamente le prestazioni del progetto rispetto al costo originale pianificato del benefit e a budget del progetto.
+Il ROI (Return On Investment) è una metrica di Adobe Workfront che consente ai gestori del portfolio di visualizzare rapidamente le prestazioni del progetto rispetto al beneficio pianificato e al costo preventivato originali del progetto.
 
-## Panoramica del progetto Return on Investment (ROI)
+## Panoramica del ritorno sull’investimento (ROI) del progetto
 
 Workfront calcola il ROI utilizzando la seguente formula:
 
@@ -26,32 +26,33 @@ Workfront calcola il ROI utilizzando la seguente formula:
 Project ROI = [(Project Planned Benefit - Project Budgeted Cost) / Project Budgeted Cost] x 100
 ```
 
-I campi seguenti influiscono sul ROI di un progetto:
+I seguenti campi influiscono sul ROI di un progetto:
 
-* **Vantaggio pianificato progetto**: Si tratta di una voce manuale specificata dal proprietario del progetto durante il completamento dell&#39;area Informazioni progetto del Business Case. Si tratta di una stima di ciò che, in qualità di proprietario del progetto, ritieni che il beneficio del progetto possa derivare dal completamento del progetto. Si tratta di un importo specifico di valuta e deve essere un valore positivo.\
-   Per ulteriori informazioni sul beneficio pianificato di un progetto, consulta la sezione &quot;Informazioni sul progetto&quot; nell’articolo [Creare un business case per un progetto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+* **Beneficio pianificato progetto**: voce manuale specificata dal proprietario del progetto al completamento dell&#39;area Informazioni progetto del caso di business. In questo esempio viene illustrato ciò che si ritiene, in qualità di Proprietario del progetto, possa essere utile se si completa il progetto. Si tratta di un importo di valuta specifico che deve essere un valore positivo.\
+  Per ulteriori informazioni sul beneficio pianificato di un progetto, vedere la sezione &quot;Informazioni sul progetto&quot; nell&#39;articolo [Creare un caso di business per un progetto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-* **Costo preventivato progetto**: è il costo totale associato al progetto stimato al primo avvio del progetto.
+* **Costo preventivato progetto**: questo è il costo totale associato al progetto come stimato al primo avvio del progetto.
 
-   La **Costo preventivato** utilizza **Costo manodopera a budget** Valore calcolato nell&#39;area Resource Budgeting del Business Case e che tiene conto delle ore previste per i ruoli di lavoro nel Resource Planner e del tasso Costo per ora di ciascun ruolo di lavoro.\
-   Per ulteriori informazioni, consulta [Calcola costo preventivato](../../../manage-work/projects/project-finances/budgeted-cost.md).
+  Il **Costo preventivato** utilizza il valore **Costo manodopera preventivato** calcolato nell&#39;area Budget risorse del caso di business e tiene conto delle ore preventivate per le mansioni in Programmazione risorse e della tariffa Costo per ora di ciascuna mansione.\
+  Per ulteriori informazioni, vedere [Calcola costo preventivato](../../../manage-work/projects/project-finances/budgeted-cost.md).
 
-## Individua il ritorno sull&#39;investimento (ROI) del progetto
+## Individuazione del ritorno sull&#39;investimento (ROI) del progetto
 
-Puoi visualizzare il valore del ROI di un progetto nelle seguenti aree in Workfront:
+Il valore del ROI di un progetto può essere visualizzato nelle seguenti aree in Workfront:
 
-* In Portfoli Optimizer se il progetto è associato a un portfolio
+* In Ottimizzatore Portfolio se il progetto è associato a un portfolio
 
-   >[!NOTE]
-   >
-   >Il totale di tutti i valori del ROI del progetto è il ROI del portafoglio.
+  >[!NOTE]
+  >
+  >Il totale di tutti i valori di ROI del progetto è il ROI del portfolio.
 
-   Per informazioni su Portfoli Optimizer, consulta l&#39;articolo [Panoramica di Portfoli Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+  Per informazioni su Ottimizzatore Portfolio, vedere l&#39;articolo [Panoramica di Ottimizzatore Portfolio](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
-* Nel campo ROI del progetto , puoi trovare gli elenchi e i rapporti seguenti: 
+* Nel campo ROI progetto nei seguenti elenchi e rapporti: 
 
    * Progetto
    * Attività
    * Problema
    * Progetto (dati finanziari)
-   Per ulteriori informazioni sulla creazione di rapporti in Workfront, consulta l’articolo [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+  Per ulteriori informazioni sulla creazione di report in Workfront, vedere l&#39;articolo [Creazione di un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).

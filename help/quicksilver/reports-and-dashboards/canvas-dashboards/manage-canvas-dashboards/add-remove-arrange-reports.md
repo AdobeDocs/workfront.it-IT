@@ -5,7 +5,8 @@ title: Aggiungere, rimuovere o disporre i rapporti in un dashboard Canvas
 description: Dopo aver creato un dashboard di Canvas, puoi aggiungervi rapporti che presenteranno i dati di Adobe Workfront in vari formati. Questi rapporti possono essere spostati e ridimensionati nell’area di lavoro in base alle tue esigenze.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+exl-id: 840f2e1f-592f-44c1-b2e9-7201e424209a
+source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 # Aggiungere, rimuovere o disporre i rapporti in un dashboard Canvas
 
-Dopo aver creato un dashboard di Canvas, puoi aggiungervi rapporti che presenteranno i dati di Adobe Workfront in vari formati. Questi rapporti possono essere spostati e ridimensionati nell’area di lavoro in base alle tue esigenze. Per informazioni sulla creazione di un dashboard Canvas, vedi [Introduzione ai dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+Dopo aver creato un dashboard di Canvas, puoi aggiungervi rapporti che presenteranno i dati di Adobe Workfront in vari formati. Questi rapporti possono essere spostati e ridimensionati nell’area di lavoro in base alle tue esigenze. Per informazioni sulla creazione di un dashboard Canvas, vedere [Introduzione ai dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 
 ## Requisiti di accesso
 
@@ -45,23 +46,23 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Aggiungere rapporti a un dashboard di Canvas
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **Dashboard**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **Dashboards**.
 
-1. Nel pannello a sinistra, fai clic su **Dashboard Canvas**, quindi fai clic sul nome del dashboard Area di lavoro a cui desideri aggiungere un rapporto.
+1. Nel pannello a sinistra, fai clic su **Dashboard area di lavoro**, quindi fai clic sul nome del dashboard Area di lavoro a cui desideri aggiungere un report.
 
-1. Fai clic su **+ Aggiungi rapporto** nell’angolo in alto a destra della pagina.
+1. Fare clic sul pulsante **+ Aggiungi report** nell&#39;angolo superiore destro della pagina.
 
-1. In **Aggiungi rapporto** finestra visualizzata, fare clic su **Aggiungi** sotto il tipo di rapporto che desideri aggiungere al dashboard di Canvas.
+1. Nella finestra **Aggiungi rapporto** visualizzata, fai clic su **Aggiungi** sotto il tipo di rapporto che desideri aggiungere al dashboard di Canvas.
 
-1. Continua a impostare il rapporto in base al tipo di rapporto selezionato. Per informazioni dettagliate sulla configurazione di ogni tipo di rapporto, consulta [Tipi di rapporti del dashboard Area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md). Se chiudi la finestra prima di completare l’installazione, al dashboard di Canvas verrà comunque aggiunto un rapporto vuoto. È possibile completare l&#39;impostazione in un secondo momento facendo clic sul pulsante **Configurazione** al centro del report vuoto.
+1. Continua a impostare il rapporto in base al tipo di rapporto selezionato. Per informazioni dettagliate sulla configurazione di ogni tipo di report, vedere [Tipi di report del dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md). Se chiudi la finestra prima di completare l’installazione, al dashboard di Canvas verrà comunque aggiunto un rapporto vuoto. Per completare la configurazione in un secondo momento, fai clic sul pulsante **Configurazione** al centro del report vuoto.
 
 ## Spostare o ridimensionare i rapporti in un dashboard Area di lavoro
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **Dashboard**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **Dashboards**.
 
-1. Nel pannello a sinistra, fai clic su **Dashboard Canvas**, quindi fai clic sul nome del dashboard Area di lavoro che desideri modificare.
+1. Nel pannello a sinistra, fai clic su **Dashboard canvas**, quindi fai clic sul nome del dashboard canvas da modificare.
 
-1. Fai clic su **Modifica layout** nell’angolo in alto a destra della pagina.
+1. Fai clic sul pulsante **Modifica layout** nell&#39;angolo superiore destro della pagina.
 
 1. I rapporti nel dashboard Area di lavoro ora vengono visualizzati in caselle che possono essere modificate:
 
@@ -71,12 +72,12 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    Per ridimensionare un report, fai clic e trascina il cuneo nell’angolo inferiore destro della relativa casella fino a raggiungere la dimensione desiderata.
 
-1. Dopo aver completato la disposizione dei report, fare clic sul pulsante **Fine** nell’angolo in alto a destra della pagina per salvare le modifiche.
+1. Dopo aver completato la disposizione dei report, fai clic sul pulsante **Fine** nell&#39;angolo in alto a destra della pagina per salvare le modifiche.
 
 ## Rimuovere un rapporto da un dashboard di Canvas
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **Dashboard**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **Dashboards**.
 
-1. Nel pannello a sinistra, fai clic su **Dashboard Canvas**, quindi fai clic sul nome del dashboard Area di lavoro che contiene il rapporto da rimuovere.
+1. Nel pannello a sinistra, fai clic su **Dashboard area di lavoro**, quindi fai clic sul nome del dashboard Area di lavoro che contiene il report da rimuovere.
 
-1. Fai clic su **Altro** icona ![Icona Altro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/assets/more-icon.png) nell’angolo in alto a destra del report da rimuovere, quindi fai clic su **Rimuovi**.
+1. Fai clic sull&#39;icona **Altro** ![Icona Altro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/assets/more-icon.png) nell&#39;angolo superiore destro del report che desideri rimuovere, quindi fai clic su **Rimuovi**.

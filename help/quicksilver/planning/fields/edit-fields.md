@@ -31,7 +31,7 @@ recommendations: noDisplay, noCatalog
 
 È possibile modificare le impostazioni dei campi già creati in Adobe Workfront Planning.
 
-Per informazioni sulla creazione dei campi di Adobe Workfront Planning, vedere [Crea campi](/help/quicksilver/planning/fields/create-fields.md).
+Per informazioni sulla creazione dei campi di Adobe Workfront Planning, vedere [Creare i campi](/help/quicksilver/planning/fields/create-fields.md).
 
 In questo articolo viene descritto come modificare le impostazioni per i campi di Workfront Planning. Per informazioni sulla modifica dei valori dei campi per i record, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).
 
@@ -79,20 +79,20 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Autorizzazioni</p></td>
-   <td> <p>Gestire le autorizzazioni per un’area di lavoro</a> </p>  
+   <td> <p>Gestione delle autorizzazioni per un'area di lavoro</a> </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>L'amministratore del Workfront o del gruppo deve aggiungere l'area Planning nel modello di layout. Per informazioni, consulta <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica degli accessi</a>. </p>  
+   <td> <p>L'amministratore del Workfront o del gruppo deve aggiungere l'area Planning nel modello di layout. Per informazioni, vedere <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica dell'accesso</a>. </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-*Per ulteriori informazioni, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -138,7 +138,7 @@ Prima di apportare modifiche alla configurazione di un campo, è necessario cons
 
    Verrà aperta la pagina del tipo di record.
 
-1. (Condizionale) Fai clic sulla scheda di un’ **Vista tabella**.
+1. (Condizionale) Fare clic sulla scheda di una **visualizzazione Tabella**.
 
    Tutti i record esistenti associati al tipo di record vengono visualizzati nelle righe della vista tabella.
 1. Passa il puntatore del mouse sull&#39;intestazione di colonna di un campo che desideri modificare, quindi fai clic sulla freccia rivolta verso il basso dopo il nome del campo, quindi fai clic su **Modifica campo**
@@ -159,7 +159,7 @@ Prima di apportare modifiche alla configurazione di un campo, è necessario cons
 
    Le informazioni sul campo vengono aggiornate per tutti gli utenti con accesso alla visualizzazione dell&#39;area di lavoro.
 
-1. (Condizionale) Per i campi record collegati, fai clic su **Modifica campi di ricerca** e aggiungere o rimuovere qualsiasi campo dal tipo di record collegato.
+1. (Condizionale) Per i campi record collegati, fare clic su **Modifica campi di ricerca** e aggiungere o rimuovere i campi dal tipo di record collegato.
 
-   Per ulteriori informazioni, consulta [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
+   Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
 

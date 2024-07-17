@@ -4,7 +4,8 @@ description: Miglioramenti alla gestione finanziaria nel terzo trimestre 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2681e878b3366b08343aa8d0a513b71126d2a67b
+exl-id: c8f78a68-41d3-4cb3-ade5-577bd85181b3
+source-git-commit: 0132485ba872dbd5961145e0d46fc7500169d728
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 2%
@@ -15,7 +16,7 @@ ht-degree: 2%
 
 Questa pagina descrive tutti i miglioramenti alla gestione finanziaria apportati con la versione del terzo trimestre 2024 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione con la versione del terzo trimestre 2024.
 
-Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rilascio del terzo trimestre 2024, consulta [Panoramica sulla versione del terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del terzo trimestre 2024, consulta [Panoramica sulla versione del terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 ## Campi delle spese fatturabili e non fatturabili disponibili per progetti e attività
 
@@ -34,4 +35,4 @@ I rapporti Previsione, Modello e Progetto (Dati finanziari) includono anche i nu
 
 Le spese fatturabili sono contrassegnate come fatturabili per il cliente. Le spese non fatturabili non sono contrassegnate come fatturabili.
 
-Per ulteriori informazioni su come contrassegnare una spesa come fatturabile, vedere [Gestisci spese progetto](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
+Per ulteriori informazioni su come contrassegnare una spesa come fatturabile, vedere [Gestione spese progetto](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).

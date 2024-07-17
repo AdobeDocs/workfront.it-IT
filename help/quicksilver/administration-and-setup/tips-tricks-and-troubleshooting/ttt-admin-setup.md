@@ -12,7 +12,7 @@ recommendations: noDisplay, noCatalog
 exl-id: e72018b7-5de2-4661-b27d-6da6ece5cc48
 source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -25,21 +25,21 @@ Questa sezione contiene i seguenti articoli:
 * [Oggetti attivi e disattivati](../../administration-and-setup/tips-tricks-and-troubleshooting/acitve-and-deactivated-objects.md)
 * [L&#39;URL di disconnessione ADFS non funziona](../../administration-and-setup/tips-tricks-and-troubleshooting/adfs-logout-url-doesnt-work.md)
 * [Domande frequenti su amministrazione e configurazione](../../administration-and-setup/tips-tricks-and-troubleshooting/admin-and-setup-faq.md)
-* [[!DNL Adobe Workfront] credenziali utente e credenziali utente SAML](../../administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
+* [Credenziali utente [!DNL Adobe Workfront] e credenziali utente SAML](../../administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
 * [Promemoria automatici e notifiche promemoria](../../administration-and-setup/tips-tricks-and-troubleshooting/auto-reminders-vs-reminder-notifications.md)
 * [Configura POP in [!DNL Microsoft Exchange]](../../administration-and-setup/tips-tricks-and-troubleshooting/configure-pop-ms-exchange.md)
 * [Errore: l&#39;utente con provisioning automatico non può accedere](../../administration-and-setup/tips-tricks-and-troubleshooting/error-auto-provisioned-user-cant-log-in.md)
 * [Messaggio di errore: [!UICONTROL Impossibile convalidare la firma digitale XML]](../../administration-and-setup/tips-tricks-and-troubleshooting/error-message-couldnt-validate-xml-digital-signature.md)
 * [Messaggio di errore: [!UICONTROL Parametro non valido: valore di conversione]](../../administration-and-setup/tips-tricks-and-troubleshooting/error-message-invalid-parameter-conversion-value.md)
-* [Messaggio di errore: [!UICONTROL Autenticazione SAML 2.0 non riuscita: identificatore utente non trovato]](../../administration-and-setup/tips-tricks-and-troubleshooting/error-message-saml-2-auth-failed-userid-not-found.md)
-* [Messaggio di errore: [!UICONTROL Errore SAML 2.0: codice di stato primario]](../../administration-and-setup/tips-tricks-and-troubleshooting/error-message-saml-2-error-primary-statuscode.md)
-* [Messaggio di errore: [!UICONTROL Errore SAML 2.0: identificatore utente non trovato]](../../administration-and-setup/tips-tricks-and-troubleshooting/error-message-saml-2-error-user-identifier-not-found.md)
-* [Messaggio di errore: [!UICONTROL C&#39;è un piccolo problema. Questo campo viene utilizzato in una configurazione con più moduli]](../../administration-and-setup/tips-tricks-and-troubleshooting/error-message-field-used-in-multi-form-config.md)
-* [Errore: [!UICONTROL Gli utenti SSO non possono accedere ad Adobe Workfront a causa di vari errori]](../../administration-and-setup/tips-tricks-and-troubleshooting/error-sso-users-unable-log-in-various-errors.md)
-* [[!UICONTROL Esterno] tipo di licenza utente mancante dai livelli di accesso](../../administration-and-setup/tips-tricks-and-troubleshooting/external-user-license-type-missing-from-access-levels.md)
+* [Messaggio di errore: [!UICONTROL Autenticazione SAML 2.0 non riuscita: Identificatore utente non trovato]](../../administration-and-setup/tips-tricks-and-troubleshooting/error-message-saml-2-auth-failed-userid-not-found.md)
+* [Messaggio di errore: [!UICONTROL Errore SAML 2.0: Codice di stato primario]](../../administration-and-setup/tips-tricks-and-troubleshooting/error-message-saml-2-error-primary-statuscode.md)
+* [Messaggio di errore: [!UICONTROL Errore SAML 2.0: Identificatore utente non trovato]](../../administration-and-setup/tips-tricks-and-troubleshooting/error-message-saml-2-error-user-identifier-not-found.md)
+* [Messaggio di errore: [!UICONTROL Si è verificato un piccolo problema. Questo campo viene utilizzato in una configurazione multi-modulo]](../../administration-and-setup/tips-tricks-and-troubleshooting/error-message-field-used-in-multi-form-config.md)
+* [Errore: [!UICONTROL Gli utenti SSO non sono in grado di accedere ad Adobe Workfront a causa di vari errori]](../../administration-and-setup/tips-tricks-and-troubleshooting/error-sso-users-unable-log-in-various-errors.md)
+* [Tipo di licenza utente [!UICONTROL Esterno] mancante dai livelli di accesso](../../administration-and-setup/tips-tricks-and-troubleshooting/external-user-license-type-missing-from-access-levels.md)
 * [Errore di accesso: [!UICONTROL I campi seguenti non sono validi: emailAddr non può essere null]](../../administration-and-setup/tips-tricks-and-troubleshooting/login-error-following-field-invalid-emailaddr-cant-be-null.md)
-* [Impedisci spoofing e aggiunta [!DNL Adobe Workfront] Record SPF](../../administration-and-setup/tips-tricks-and-troubleshooting/prevent-spoofing-add-wf-spf-records.md)
+* [Impedire spoofing e aggiungere [!DNL Adobe Workfront] record SPF](../../administration-and-setup/tips-tricks-and-troubleshooting/prevent-spoofing-add-wf-spf-records.md)
 * [Recupero dati storici da [!DNL Adobe Workfront]: pro e contro](../../administration-and-setup/tips-tricks-and-troubleshooting/how-to-get-data-out-of-wf.md)
 * [Salvare un file di intestazione e-mail](../../administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md)
-* [La condivisione mostra più di un’autorizzazione](../../administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
+* [La condivisione mostra più di un&#39;autorizzazione](../../administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
 * [E-mail non autenticata non accettata a causa dei criteri DMARC del dominio](../../administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)

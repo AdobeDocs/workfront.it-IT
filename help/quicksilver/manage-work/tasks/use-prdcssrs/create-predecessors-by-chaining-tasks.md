@@ -1,25 +1,25 @@
 ---
 product-area: projects
 navigation-topic: use-predecessors
-title: Creare relazioni predecessori tramite la combinazione di attività
-description: In Adobe Workfront è possibile creare relazioni predecessori in diversi modi. Un metodo consiste nel concatenare attività.
+title: Creare relazioni predecessori concatenando attività
+description: In Adobe Workfront è possibile creare relazioni con i predecessori in diversi modi. Un metodo consiste nel concatenare le attività.
 author: Alina
 feature: Work Management
 exl-id: 38ea13a5-ab95-4617-a47f-9dde5f752fb4
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
 source-wordcount: '335'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
-# Creare relazioni predecessori tramite la combinazione di attività
+# Creare relazioni predecessori concatenando attività
 
-In Adobe Workfront è possibile creare relazioni predecessori in diversi modi. Un metodo consiste nel concatenare attività.
+In Adobe Workfront è possibile creare relazioni con i predecessori in diversi modi. Un metodo consiste nel concatenare le attività.
 
-Per informazioni sulle attività precedenti, consulta [Panoramica dei predecessori delle attività](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Per informazioni sulle attività predecessore, vedere [Panoramica sui predecessori delle attività](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
-Concatenando le attività, è possibile consentire al sistema di creare automaticamente le relazioni predecessori sulle attività selezionate, anziché creare manualmente una relazione su ogni attività. È ancora possibile utilizzare diversi tipi di relazioni predecessori tra le attività.
+Tramite il concatenamento delle attività, è possibile consentire al sistema di creare automaticamente le relazioni predecessori per le attività selezionate, anziché creare manualmente una relazione per ogni attività. È comunque possibile utilizzare tipi di relazione predecessore diversi tra le attività.
 
 ## Requisiti di accesso
 
@@ -30,7 +30,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
@@ -38,31 +38,31 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>Piano </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Modifica l’accesso a Attività e Progetti</p> <p>Nota: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modifica accesso ad attività e progetti</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestisci le autorizzazioni per le attività e il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per le attività e il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
-## Attività di catena per creare relazioni predecessori
+## Attività concatenate per creare relazioni predecessori
 
-1. Passare al progetto contenente le attività che si desidera catena.
+1. Passare al progetto contenente le attività da concatenare.
 1. Fai clic su **Attività** nel pannello a sinistra.
-1. (Condizionale) Seleziona **Salvataggio automatico** nell&#39;angolo in alto a destra dell&#39;elenco delle attività, selezionare le attività che si desidera catena.
+1. (Condizionale) Seleziona **Salvataggio automatico** nell&#39;angolo superiore destro dell&#39;elenco delle attività, quindi seleziona le attività da concatenare.
 
    ![](assets/nwe-autosave-icon-on-highlighted-350x295.png)
 
    >[!IMPORTANT]
    >
-   >Non è possibile utilizzare la combinazione di attività in un elenco di attività quando si salvano manualmente le modifiche alle attività o si utilizza la modalità di pianificazione della timeline per salvare le attività.
+   >Non è possibile concatenare i task in un elenco di task quando si salvano manualmente le modifiche apportate ai task o si utilizza la modalità Pianificazione sequenza temporale per salvare i task.
 
-1. Fai clic con il pulsante destro del mouse sulle attività selezionate, quindi fai clic su **Catena**.
+1. Fare clic con il pulsante destro del mouse sulle attività selezionate, quindi scegliere **Catena**.
 1. Selezionare uno dei seguenti tipi di dipendenza:
 
    * **Fine-Inizio**
@@ -70,12 +70,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    * **Inizio-Inizio**
    * **Inizio-Fine**
 
-   Per ulteriori informazioni sui tipi di dipendenza predecessore, consulta [Panoramica dei tipi di dipendenza dell&#39;attività](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+   Per ulteriori informazioni sui tipi di relazione predecessore, vedere [Panoramica sui tipi di relazione tra attività](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-1. (Facoltativo) Fai clic su **Unchain** se alcune delle attività sono state precedentemente concatenate.
+1. (Facoltativo) Fare clic su **Rimuovi catena** se alcune attività sono state precedentemente concatenate.
 
    >[!CAUTION]
    >
-   >Solo i predecessori sequenziali vengono rimossi utilizzando l’opzione unchain quando si eseguono operazioni di modifica in serie.
+   >Solo i predecessori sequenziali vengono rimossi utilizzando l&#39;opzione di rimozione dalla catena durante la modifica in serie delle attività.
 
    Le attività selezionate sono ora collegate da relazioni predecessori.

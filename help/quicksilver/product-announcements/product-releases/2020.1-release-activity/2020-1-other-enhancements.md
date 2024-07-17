@@ -28,13 +28,13 @@ Per un elenco di tutte le modifiche disponibili con la versione 2020.1, consulta
 
 Il dominio di verifica sta modificando from proofhq.com in workfront.com.
 
-Se il firewall o il server di posta è configurato in modo da consentire l&#39;accesso solo a fornitori specifici, è necessario aggiungere il seguente URL aggiuntivo al inserisco nell&#39;elenco Consentiti di verifica per assicurarsi che gli utenti dell&#39;organizzazione possano visualizzare le bozze all&#39;interno di Workfront sia nel visualizzatore di bozze del browser che nel visualizzatore di bozze del desktop:
+Se il firewall o il server di posta è configurato in modo da consentire l&#39;accesso solo a fornitori specifici, è necessario aggiungere il seguente URL aggiuntivo al inserisco nell&#39;elenco Consentiti per garantire che gli utenti dell&#39;organizzazione possano visualizzare le bozze in Workfront sia nel visualizzatore di bozze del browser che nel visualizzatore di bozze del desktop:
 
 &#42;.workfront.com
 
-Il &#42;Anche l’URL proofhq.com è obbligatorio.
+Anche l&#39;URL &#42;proofhq.com è obbligatorio.
 
-Per ulteriori informazioni sull’aggiornamento del inserisco nell&#39;elenco Consentiti di, consulta [Configurare il inserisco nell&#39;elenco Consentiti di configurazione del firewall per l’accesso a un sistema di protezione da attacchi di tipo](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Per ulteriori informazioni sull&#39;aggiornamento del inserisco nell&#39;elenco Consentiti di installazione del firewall, vedere [Configurare il inserisco nell&#39;elenco Consentiti di installazione del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 >[!NOTE]
 >
@@ -55,12 +55,12 @@ L’integrazione Workfront for Jira ora sincronizza i commenti Workfront con il 
 
 In precedenza era possibile sincronizzare i commenti da Jira a Workfront, ma non da Workfront a Jira.
 
-Per ulteriori informazioni, consulta [Configurare Adobe Workfront per Jira](../../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
+Per ulteriori informazioni, vedere [Configurare Adobe Workfront per Jira](../../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
 ## Ottimizzatore Portfolio di Flash rimosso
 
-È stata rimossa la possibilità di passare dall’Ottimizzatore di Portfolio nuovo a quello legacy (basato su Flash) dall’ambiente Workfront Classic per tutti i clienti. Legacy Portfoli Optimizer è una funzione obsoleta e i nuovi strumenti forniscono oggi la stessa funzionalità.
+È stata rimossa la possibilità di passare dall’Ottimizzatore di Portfolio nuovo a quello legacy (basato su Flash) dall’ambiente Workfront Classic per tutti i clienti. Legacy Portfolio Optimizer è una funzione obsoleta e i nuovi strumenti forniscono oggi la stessa funzionalità.
 
 Per informazioni su Ottimizzatore portfolio, consulta https://experience.workfront.com/s/article/Understanding-the-Portfolio-Optimizer-356650079
 
-Per informazioni sulla rimozione degli strumenti basati sul Flash in Workfront, consulta [Sostituzione degli strumenti basati su Flash in Adobe Workfront](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Per informazioni sulla rimozione degli strumenti basati sul Flash in Workfront, vedere [Sostituzione degli strumenti basati sul Flash in Adobe Workfront](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).

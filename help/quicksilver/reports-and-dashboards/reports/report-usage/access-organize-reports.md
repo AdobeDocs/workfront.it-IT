@@ -2,7 +2,7 @@
 product-area: reporting
 navigation-topic: report-usage
 title: Accedere e organizzare i rapporti
-description: È possibile utilizzare i rapporti in Adobe Workfront per rivedere o modificare le informazioni sugli oggetti nel sistema. Puoi creare rapporti personalizzati, organizzare i rapporti creati e visualizzare quelli condivisi con te o con un pubblico.
+description: È possibile utilizzare i report in Adobe Workfront per esaminare o modificare le informazioni sugli oggetti presenti nel sistema. È possibile creare report personalizzati, organizzare i report creati e visualizzare i report condivisi o condivisi pubblicamente.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a444d863-12a8-43d0-ae84-ee24863ad87b
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Accedere e organizzare i rapporti
 
-È possibile utilizzare i rapporti in Adobe Workfront per rivedere o modificare le informazioni sugli oggetti nel sistema. Puoi creare rapporti personalizzati, organizzare i rapporti creati e visualizzare quelli condivisi con te o con un pubblico.
+È possibile utilizzare i report in Adobe Workfront per esaminare o modificare le informazioni sugli oggetti presenti nel sistema. È possibile creare report personalizzati, organizzare i report creati e visualizzare i report condivisi o condivisi pubblicamente.
 
 ## Requisiti di accesso
 
@@ -26,7 +26,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
@@ -34,64 +34,64 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>Piano </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Accesso a rapporti, dashboard, calendari</p> <p>Modificare l’accesso a Filtri, Visualizzazioni, Gruppi</p> <p>Nota: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari</p> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Visualizzare i rapporti
 
-Per accedere ai rapporti creati o condivisi con te o pubblicamente:
+Per accedere ai report creati o condivisi con te o condivisi pubblicamente:
 
-1. Da **Menu principale** ![](assets/main-menu-icon.png), fai clic su **Rapporti**.
+1. Dal **menu principale** ![](assets/main-menu-icon.png), fare clic su **Report**.
 
 1. Fai clic su una delle seguenti opzioni, a seconda del rapporto che desideri visualizzare:
 
-   * Fai clic su **Report personali** per visualizzare i rapporti creati.
-   * Fai clic su **Condiviso con me** per visualizzare i rapporti che altri utenti hanno condiviso con te.
-   * Fai clic su **Tutti i report** per visualizzare sia i rapporti creati che quelli condivisi con te o condivisi pubblicamente.
+   * Fai clic su **I miei report** per visualizzare i report creati.
+   * Fai clic su **Condiviso con me** per visualizzare i report che altri utenti hanno condiviso con te.
+   * Fai clic su **Tutti i report** per visualizzare sia i report creati che quelli condivisi con te o condivisi pubblicamente.
 
 ## Organizzare i rapporti creati
 
-Puoi utilizzare le cartelle per organizzare i rapporti creati. Non puoi organizzare rapporti condivisi con te, condivisi pubblicamente o rapporti di sistema.
+È possibile utilizzare le cartelle per organizzare i rapporti creati. Non è possibile organizzare report condivisi con l&#39;utente, condivisi pubblicamente o di sistema.
 
-* [Creare una nuova cartella per i rapporti](#create-a-new-folder-for-reports)
+* [Crea una nuova cartella per i report](#create-a-new-folder-for-reports)
 * [Aggiungere rapporti a una cartella](#add-reports-to-a-folder)
 
 ### Creare una nuova cartella per i rapporti {#create-a-new-folder-for-reports}
 
-1. Da **Menu principale** ![](assets/main-menu-icon.png), fai clic su **Rapporti**.
+1. Dal **menu principale** ![](assets/main-menu-icon.png), fare clic su **Report**.
 
-1. Fai clic sul pulsante **Nuova cartella** icona.\
+1. Fai clic sull&#39;icona **Nuova cartella**.\
    ![](assets/nwe-new-folder-350x346.png)
 
 1. Specificare un nome per la nuova cartella, quindi premere Invio.
-1. Da **Report personali** aggiungere report alla nuova cartella.\
-   Per informazioni sull&#39;aggiunta di un rapporto a una nuova cartella, consulta la sezione [Aggiungere rapporti a una cartella](#add-reports-to-a-folder) in questo articolo.
+1. Dalla cartella **I miei report**, aggiungi i report alla nuova cartella.\
+   Per informazioni sull&#39;aggiunta di un report a una nuova cartella, vedere la sezione [Aggiungere report a una cartella](#add-reports-to-a-folder) in questo articolo.
 
    >[!NOTE]
    >
-   >È possibile aggiungere solo nuove cartelle al **Report personali** cartella. Non è possibile aggiungere nuove cartelle o nuovi rapporti al **Condiviso con me** o **Tutti i report** cartelle.
+   >È possibile aggiungere nuove cartelle solo alla cartella **I miei report**. Impossibile aggiungere nuove cartelle o nuovi report alle cartelle **Condiviso con me** o **Tutti i report**.
 
 ### Aggiungere rapporti a una cartella {#add-reports-to-a-folder}
 
-1. Da **Menu principale** ![](assets/main-menu-icon.png), fai clic su **Rapporti**.
+1. Dal **menu principale** ![](assets/main-menu-icon.png), fare clic su **Report**.
 
-1. Fai clic su **Report personali**.\
+1. Fai clic su **I miei report**.\
    Oppure\
-   Fai clic su una cartella nidificata sotto la **Report personali** cartella.
+   Fai clic su una cartella nidificata nella cartella **I miei report**.
 
-1. Trascinare un report dall&#39;elenco dei report nella cartella in cui si desidera risiedere e rilasciarlo quando si raggiunge la cartella.
+1. Trascinare un report dall&#39;elenco dei report nella cartella in cui si desidera che risieda e rilasciarlo quando si raggiunge la cartella.
 
    >[!NOTE]
    >
-   >È possibile spostare solo i rapporti dal **Report personali** cartella in altre cartelle nidificate sotto **Report personali**. Non è possibile spostare i rapporti da o verso il **Condiviso con me** o **Tutti i report** in o da altre cartelle.
+   >Puoi spostare i report solo dalla cartella **I miei report** ad altre cartelle nidificate in **I miei report**. Non puoi spostare i report da o nella cartella **Condiviso con me** o **Tutti i report** in o da altre cartelle.
 
    ![](assets/nwe-drag-report-to-folder-350x292.png)

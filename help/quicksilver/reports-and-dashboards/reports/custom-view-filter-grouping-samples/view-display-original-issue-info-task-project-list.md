@@ -9,8 +9,8 @@ feature: Reports and Dashboards
 exl-id: 235156b6-a9b6-484e-b126-54874da705c8
 source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 4%
+source-wordcount: '134'
+ht-degree: 5%
 
 ---
 
@@ -22,11 +22,11 @@ Dopo aver convertito il problema in attività e progetti dell’elenco, puoi vis
 * Data voce problema convertito
 * Nome del mittente del problema convertito
 
-Per informazioni sulla creazione di una vista con il generatore di rapporti standard, consulta [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Per informazioni sulla creazione di una visualizzazione mediante il generatore di report standard, vedere [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ![task_and_project_list_with_original_issue_info.png](assets/task-and-project-list-with-original-issue-info-350x59.png)
 
-Per ulteriori informazioni sull’inclusione di informazioni aggiuntive sui problemi negli elenchi di progetti e attività, consulta anche [Visualizza: dettagli problema di origine per attività e progetti](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
+Per ulteriori informazioni sull&#39;inserimento di informazioni aggiuntive sui problemi negli elenchi delle attività e dei progetti, vedere anche [Visualizza: dettagli problemi di origine per attività e progetti](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

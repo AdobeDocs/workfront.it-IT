@@ -9,7 +9,7 @@ feature: Reports and Dashboards
 exl-id: 0187da94-4895-47b1-914f-284fed9e0fd0
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Questa visualizzazione delle attività mostra i dettagli dei predecessori delle attività utilizzando una visualizzazione di raccolta. In una visualizzazione di insieme è possibile visualizzare informazioni sugli oggetti che si trovano in una relazione uno-a-molti. In questo caso, ogni attività (una) può avere più predecessori (molti). Nella visualizzazione vengono visualizzati il nome delle attività, i nomi dei predecessori, i nomi dei progetti dei predecessori, le date di completamento pianificate dei predecessori e gli stati dei predecessori.
 
-Per informazioni sul riferimento alle raccolte nei rapporti, consulta [Fare riferimento alle raccolte in un rapporto](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
+Per informazioni sul riferimento alle raccolte nei report, vedere [Riferimento alle raccolte in un report](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
 
 ![predecessor_details_task_view.png](assets/predecessor-details-task-view-350x34.png)
 
@@ -47,22 +47,22 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 </tr>   
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Visualizza dettagli predecessore
 
 1. Consente di passare a un elenco di attività.
-1. Dalla sezione **Visualizza** menu a discesa, seleziona **Nuova visualizzazione**.
+1. Dal menu a discesa **Visualizza**, selezionare **Nuova visualizzazione**.
 
-1. In **Anteprima colonna** eliminare tutte le colonne tranne una.
-1. Fai clic sull’intestazione della colonna rimanente, quindi fai clic su **Passa alla modalità testo**.
-1. Passa il puntatore del mouse sull&#39;area della modalità testo e fai clic su **Fare clic per modificare il testo**.
-1. Rimuove il testo trovato in **Modalità testo** e sostituirlo con il seguente codice:
-   <pre>column.0.displayname=<br>column.0.linkedname=direct<br>column.0.namekey=name<br>column.0.querysort=name<br>column.0.valuefield=name<br>column.0.valueformat=HTML<br>column.1.displayname=Predecessori Numeri e nomi<br>column.1.listdelimiter= colonna.1<br><br>column.1.listmethod=nested(predecessors).LISTS<br>column.1.textmode=true<br>column.1.type=iterate<br>column.1.valueexpression=CONCAT({predecessor}).{taskNumber},' - ',{predecessor}.{name})<br>column.1.valueformat=HTML<br>column.2.displayname=Nomi progetto predecessori<br>column.2.listdelimiter= colonna.2.listdelimiter<br><br>column.2.listmethod=nested(predecessors).LISTS<br>column.2.textmode=true<br>column.2.type=iterate<br>column.2.valueexpression={predecessor}.{progetto}.{name}<br>column.2.valueformat=HTML<br>column.3.displayname=Date di completamento dei predecessori<br>column.3.listdelimiter=<br><br>column.3.listmethod=nested(predecessors).LISTS<br>column.3.textmode=true<br>column.3.type=iterate<br>column.3.valueexpression={predecessor}.{plannedCompletionDate}<br>column.3.valueformat=HTML<br>column.4.displayname=Stato dei predecessori<br>column.4.listdelimiter=<br><br>column.4.listmethod=nested(predecessors).LISTS<br>column.4.textmode=true<br>column.4.type=iterate<br>column.4.valueexpression={predecessor}.{status}<br>column.4.valueformat=HTML</pre>
+1. Nell&#39;area **Anteprima colonna** eliminare tutte le colonne tranne una.
+1. Fare clic sull&#39;intestazione della colonna rimanente, quindi fare clic su **Passa alla modalità testo**.
+1. Passa il puntatore del mouse sull&#39;area della modalità testo e fai clic su **Fai clic per modificare il testo**.
+1. Rimuovere il testo trovato nella casella **Modalità testo** e sostituirlo con il seguente codice:
+   <pre>column.0.displayname=<br>column.0.linkedname=direct<br>column.0.namekey=name<br>column.0.querysort=name<br>column.0.valuefield=name<br>column.0.valueformat=HTML<br>column.1.displayname=Predecessors Numbers &amp; Names<br>column.1.listdelimiter=<br><br>column.1.listmethod=nested(predecessors).LISTS<br>column.1.textmode=true<br>column.1.type=iterate<br>column.valueespressione=CONCAT({predecessor}.{taskNumber},' - ',{predecessor}.{name})<br>column.1.valueformat=HTML<br>column.2.displayname=Predecessors Project Names<br>column.2.listdelimiter=<br><br>column.2.listmethod=nested(predecessors).LISTS<br>column.2.textmode=true<br>column.2.type=iterate<br>column.2.valueexpression={predecessor}.{project}.{name}<br>column.2.valueformat=HTML<br>column.3.displayname=Predecessors Completion Dates<br>column.3.listdelimiter=<br><br>column.3.listmethod=nested(predecessors).LISTS<br>column.3.textmode=true<br>column.3.type=iterate<br>column.3.valueexpression={predecessor}.{plannedCompletionDate}<br>column.3.valueformat=HTML<br>column.4.displayname=Predecessors Status<br>column.4.listdelimiter=<br><br>column.4.listmethod=nested(predecessors).LISTS<br>column.4.textmode=true<br>column.4.type=iterate<br>column.4.valueexpression={predecessor}.{status}<br>column.4.valueformat=HTML</pre>
 
-1. Clic **Salva visualizzazione**.
+1. Fai clic su **Salva vista**.

@@ -37,7 +37,7 @@ recommendations: noDisplay, noCatalog
 
 I campi formula generano un nuovo valore utilizzando i valori esistenti di altri campi di un tipo di record e una funzione che indica come devono essere calcolati i valori esistenti.
 
-Per informazioni, vedere la sezione &quot;Formula&quot; nell&#39;articolo [Crea campi](/help/quicksilver/planning/fields/create-fields.md).
+Per informazioni, vedere la sezione &quot;Formula&quot; nell&#39;articolo [Creare i campi](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Requisiti di accesso
 
@@ -81,13 +81,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>
 <tr>
    <td role="rowheader"><p>Autorizzazioni</p></td>
-   <td> <p>Gestire le autorizzazioni per un’area di lavoro</a> </p>  
+   <td> <p>Gestione delle autorizzazioni per un'area di lavoro</a> </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>L'amministratore del Workfront o del gruppo deve aggiungere l'area Planning nel modello di layout. Per informazioni, consulta <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica degli accessi</a>. </p>  
+   <td> <p>L'amministratore del Workfront o del gruppo deve aggiungere l'area Planning nel modello di layout. Per informazioni, vedere <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica dell'accesso</a>. </p>  
 </td>
   </tr>
 
@@ -108,7 +108,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Formule supportate
 
-I campi formula di Adobe Workfront Planning supportano tutte le espressioni dei campi calcolati di Workfront. Per ulteriori informazioni, consulta [Panoramica delle espressioni di dati calcolati](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+I campi formula di Adobe Workfront Planning supportano tutte le espressioni dei campi calcolati di Workfront. Per ulteriori informazioni, vedere [Panoramica delle espressioni di dati calcolati](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 Sono inoltre supportate le seguenti espressioni per i campi formula di Workfront Planning:
 

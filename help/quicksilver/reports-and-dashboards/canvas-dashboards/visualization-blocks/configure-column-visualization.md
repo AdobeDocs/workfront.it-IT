@@ -17,7 +17,7 @@ Una visualizzazione a colonne consente di raccontare rapidamente una storia sui 
 
 ## Prerequisiti
 
-Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per ulteriori informazioni, consulta [Reporting Canvas beta: panoramica](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per ulteriori informazioni, vedere [Reporting Canvas beta: overview](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Configurare una visualizzazione di colonne
 
@@ -25,11 +25,11 @@ Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per u
 >
 >Tutte le modifiche vengono salvate automaticamente durante la generazione e la modifica dei blocchi nel report.
 
-1. Per iniziare, aggiungi un blocco di visualizzazione con **Colonna** tipo di visualizzazione di un rapporto, come spiegato in [Aggiungere o modificare un blocco di visualizzazione nell’area di lavoro rapporti](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md).
+1. Inizia aggiungendo un blocco di visualizzazione con tipo di visualizzazione **Colonna** a un rapporto, come spiegato in [Aggiungi o modifica un blocco di visualizzazione nell&#39;area di lavoro Reporting](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md).
 
-1. Fai clic sull’icona Modifica visualizzazione ![](assets/edit-icon.png) nell’angolo superiore destro della visualizzazione, effettua una delle seguenti operazioni.
+1. Fai clic sull&#39;icona Modifica visualizzazione ![](assets/edit-icon.png) nell&#39;angolo superiore destro della visualizzazione, quindi effettua una delle seguenti operazioni.
 
-   1. Il giorno **Impostazioni** scheda:
+   1. Nella scheda **Impostazioni**:
 
       <table style="table-layout:auto">
        <col>
@@ -47,9 +47,9 @@ Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per u
          <td role="rowheader">Asse verticale</td>
          <td><p>Nel menu a discesa a sinistra, seleziona i dati che desideri rappresentare lungo l’asse orizzontale o Y. La visualizzazione mostra gli elementi su questo asse come colonne comparative, in base ai loro valori.</p><p>Nel menu a discesa a destra, seleziona la modalità di calcolo di tali valori nella visualizzazione:</p>
           <ul>
-           <li><p><b>Conteggio</b>: numero di valori</p></li>
-           <li><p><b>Somma</b>: totale di tutti i valori </p></li>
-           <li><p><b>Media</b>: media di tutti i valori</p></li>
+           <li><p><b>Count</b>: numero di valori</p></li>
+           <li><p><b>Somma</b>: il totale di tutti i valori </p></li>
+           <li><p><b>Media</b>: la media di tutti i valori</p></li>
            <li><p><b>Minimo</b>: solo il valore più basso</p></li>
            <li><p><b>Massimo</b>: solo il valore più alto</p></li>
           </ul></td>
@@ -57,11 +57,11 @@ Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per u
        </tbody>
       </table>
 
-   1. Il giorno **Dati** scheda:
+   1. Nella scheda **Dati**:
 
       | Origine dati (menu a discesa) | Modifica l’origine dati per la visualizzazione in un’altra tabella nell’area di lavoro del rapporto. |
       |---|---|
-      | Mostra origine dati | Abilita questa opzione per mostrare la tabella di origine per la visualizzazione nell’area di lavoro del rapporto oppure disabilita l’opzione per nasconderla. |
+      | Mostra Source dati | Abilita questa opzione per mostrare la tabella di origine per la visualizzazione nell’area di lavoro del rapporto oppure disabilita l’opzione per nasconderla. |
 
       {style="table-layout:auto"}
 

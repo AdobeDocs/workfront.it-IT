@@ -20,7 +20,7 @@ ht-degree: 0%
 
 È possibile rinominare i raggruppamenti in modo da renderli più familiari agli utenti.
 
-Quando, ad esempio, si applica il raggruppamento Nome Portfolio standard a un elenco di progetti, il nome del raggruppamento viene visualizzato come *Portfolio: Nome:`<name of portfolio>`*.
+Quando ad esempio si applica il raggruppamento Nome Portfolio standard a un elenco di progetti, il nome del raggruppamento viene visualizzato come *Portfolio: Nome:`<name of portfolio>`*.
 
 ![](assets/grouping-unedited-name-350x167.png)
 
@@ -62,26 +62,26 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 </tr>  
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Modificare il nome visualizzato in un raggruppamento
 
 Per modificare il nome visualizzato in un raggruppamento di progetti:
 
 1. Consente di passare a un elenco di progetti.
-1. Dalla sezione **Raggruppamento** menu a discesa, seleziona **Nuovo raggruppamento**.
+1. Dal menu a discesa **Raggruppamento**, selezionare **Nuovo raggruppamento**.
 
-1. Clic **Aggiungi raggruppamento** e inizia a digitare &quot;Nome Portfolio&quot; nel **In primo luogo per:** , quindi selezionarlo quando viene visualizzato nell&#39;elenco.
+1. Fare clic su **Aggiungi raggruppamento** e iniziare a digitare &quot;Nome Portfolio&quot; nel campo **Primo per:**, quindi selezionarlo quando viene visualizzato nell&#39;elenco.
 
-1. Clic **Passa alla modalità testo**.
+1. Fare clic su **Passa alla modalità testo**.
 1. Eseguire una delle operazioni seguenti:
 
-   * Aggiungi il codice seguente al testo esistente disponibile nella **Raggruppa il report** casella:
+   * Aggiungi il codice seguente al testo esistente disponibile nella casella **Raggruppa il report**:
 
 
      `group.0.displayname=Your Value`
@@ -101,11 +101,11 @@ Per modificare il nome visualizzato in un raggruppamento di progetti:
 
      >[!TIP]
      >
-     >È inoltre possibile lasciare `group.0.name=` e `group.0.displayname=` righe vuote, nel qual caso il raggruppamento mostra il valore in base al quale si sta effettuando il raggruppamento.
+     >È inoltre possibile lasciare vuote le righe `group.0.name=` e `group.0.displayname=`, nel qual caso il raggruppamento mostra il valore in base al quale si sta effettuando il raggruppamento.
 
 
      ![](assets/grouping-edited-name-no-name-350x162.png)
 
-1. Clic **Fine**, quindi **Salva raggruppamento**.
+1. Fai clic su **Fine**, quindi su **Salva raggruppamento**.
 
    Il nome predefinito per il raggruppamento viene modificato in base alle informazioni sulla modalità di testo.

@@ -30,7 +30,7 @@ hide: yes
 
 {{planning-important-intro}}
 
-I tipi di record sono i tipi di oggetto di Adobe Workfront Planning. È possibile modificare l&#39;aspetto dei tipi di record creati dall&#39;utente o da qualsiasi altro utente. Per informazioni sulla creazione di tipi di record di Workfront Planning, vedere [Crea tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
+I tipi di record sono i tipi di oggetto di Adobe Workfront Planning. È possibile modificare l&#39;aspetto dei tipi di record creati dall&#39;utente o da qualsiasi altro utente. Per informazioni sulla creazione di tipi di record di Workfront Planning, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ## Requisiti di accesso
 
@@ -75,13 +75,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Autorizzazioni</p></td>
-   <td> <p>Gestire le autorizzazioni per un’area di lavoro</a> </p>  
+   <td> <p>Gestione delle autorizzazioni per un'area di lavoro</a> </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>L'amministratore del Workfront o del gruppo deve aggiungere l'area Planning nel modello di layout. Per informazioni, consulta <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica degli accessi</a>. </p>  
+   <td> <p>L'amministratore del Workfront o del gruppo deve aggiungere l'area Planning nel modello di layout. Per informazioni, vedere <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica dell'accesso</a>. </p>  
 </td>
   </tr>
 
@@ -104,11 +104,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    Da un workspace, espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente, cercare un workspace e selezionarlo quando viene visualizzato nell&#39;elenco.
 
    Viene aperto il workspace e vengono visualizzati i tipi di record.
-1. Passa il puntatore del mouse sulla scheda di un tipo di record e fai clic sul pulsante **Altro** menu ![](assets/more-menu.png) nell&#39;angolo superiore destro della scheda tipo di record, quindi fare clic su **Modifica**.
+1. Passa il puntatore del mouse sulla scheda di un tipo di record e fai clic sul menu **Altro** ![](assets/more-menu.png) nell&#39;angolo superiore destro della scheda del tipo di record, quindi fai clic su **Modifica**.
 
    ![](assets/more-menu-options-from-record-type-card.png)
 
-1. In **Modifica tipo di record** aggiornare le seguenti informazioni:
+1. Nella casella **Modifica tipo di record**, aggiornare le informazioni seguenti:
 
    * Se necessario, modificare il nome del tipo di record. <!--did they add a field label for this? -->
    * **Descrizione**: modificare o aggiungere una descrizione per il tipo di record con ulteriori informazioni.
@@ -120,7 +120,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Fai clic su **Salva**.
 1. (Facoltativo) Fai clic sulla scheda del tipo di record nell’area di lavoro per aprire la pagina del tipo di record.
-1. Fai clic su **Altro** a destra del nome del tipo di record, quindi fare clic su **Modifica** per aggiornare le informazioni sul tipo di record.
+1. Fai clic sul menu **Altro** a destra del nome del tipo di record, quindi fai clic su **Modifica** per aggiornare le informazioni sul tipo di record.
 
    >[!TIP]
    >

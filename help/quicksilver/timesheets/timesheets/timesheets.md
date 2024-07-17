@@ -11,7 +11,7 @@ exl-id: 59ddd607-5e99-43b4-aea5-c6cb0d6aa13d
 source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
 source-wordcount: '30'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -19,5 +19,5 @@ ht-degree: 0%
 
 Questa sezione contiene i seguenti articoli:
 
-* [Panoramica schede orario](../../timesheets/timesheets/timesheets-overview.md)
+* [Panoramica sulle schede orario](../../timesheets/timesheets/timesheets-overview.md)
 * [Panoramica del layout della scheda orario](../../timesheets/timesheets/timesheet-layout.md)

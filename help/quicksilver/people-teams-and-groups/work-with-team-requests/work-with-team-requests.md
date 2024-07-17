@@ -19,5 +19,5 @@ ht-degree: 0%
 
 Questa sezione contiene i seguenti articoli:
 
-* [Panoramica delle richieste dei team](../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md)
+* [Panoramica delle richieste del team](../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md)
 * [Gestire le richieste di lavoro e team](../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)

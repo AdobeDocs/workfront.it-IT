@@ -19,5 +19,5 @@ ht-degree: 7%
 
 Questa sezione contiene le seguenti sottosezioni:
 
-* [Creare e gestire le code di richieste](../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md)
+* [Crea e gestisci code di richieste](../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md)
 * [Creare richieste](../../manage-work/requests/create-requests/create-requests.md)

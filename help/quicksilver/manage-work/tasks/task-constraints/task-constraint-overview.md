@@ -47,64 +47,64 @@ Nella tabella seguente vengono visualizzati i vincoli e le relative abbreviazion
  </thead> 
  <tbody> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/as-soon-as-possible.md" class="MCXref xref">Panoramica sui vincoli delle attività: Il più presto possibile</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/as-soon-as-possible.md" class="MCXref xref">Panoramica Vincolo Attività: Il Prima Possibile</a> </p> </td> 
    <td scope="col"> <p>ASAP</p> </td>
    <td scope="col"> <p>Posiziona l'ora di inizio dell'attività il più vicino possibile all'inizio del progetto.</p> 
    <p>Si tratta del vincolo predefinito se il progetto utilizza una modalità di programmazione a partire dalla data di inizio e se la data di inizio predefinita del sistema per una nuova attività è impostata su In base alla data pianificata del progetto. </p>
    </td> 
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/as-late-as-possible.md" class="MCXref xref">Panoramica sui vincoli delle attività: Il più tardi possibile </a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/as-late-as-possible.md" class="MCXref xref">Panoramica Vincolo Attività: Il Più Tardi Possibile </a> </p> </td> 
    <td scope="col"> <p>PTP</p> </td> 
    <td scope="col"> <p>Posiziona il tempo di completamento dell'attività il più vicino possibile alla fine del progetto.</p> 
    <p>Si tratta del vincolo predefinito quando la modalità di pianificazione del progetto è impostata su Data completamento e il valore predefinito del sistema o del gruppo per la data di inizio di un'attività è impostato su Basato sulla data pianificata del progetto. </p>
    </td> 
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/earliest-available-time.md" class="MCXref xref">Panoramica sui vincoli delle attività: Primo orario disponibile</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/earliest-available-time.md" class="MCXref xref">Panoramica vincolo attività: primo orario disponibile</a> </p> </td> 
    <td scope="col"> <p>POD</p> </td> 
  <td scope="col"> <p>Consente di pianificare l'inizio di un'attività il prima possibile dopo aver considerato le relazioni precedenti.</p> </td>
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/latest-available-time.md" class="MCXref xref">Panoramica sui vincoli delle attività: ora più recente disponibile</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/latest-available-time.md" class="MCXref xref">Panoramica Vincolo Attività: Ultimo Orario Disponibile</a> </p> </td> 
    <td scope="col"> <p>UOT</p> </td> 
    <td scope="col"> <p>Pianifica l'inizio di un'attività al più tardi nel momento disponibile dopo aver considerato le relazioni predecessore-successore nel progetto.</p> </td>
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-earlier-than.md" class="MCXref xref">Panoramica sui vincoli attività: Iniziare non prima di</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-earlier-than.md" class="MCXref xref">Panoramica Vincolo Attività: Iniziare Non Prima Di</a> </p> </td> 
    <td scope="col"> <p>INPD</p> </td> 
    <td scope="col"> <p>Programma l'inizio di un'attività dopo la data specificata.</p> 
    <p>Questo è il vincolo predefinito se la modalità di programmazione del progetto è dalla data di inizio e se la data di inizio predefinita del sistema o del gruppo per una nuova attività è impostata su Oggi.   </td> 
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-later-than.md" class="MCXref xref">Panoramica sui vincoli delle attività: inizia non più tardi di</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-later-than.md" class="MCXref xref">Panoramica Vincolo Attività: Iniziare Non Più Tardi Di</a> </p> </td> 
    <td scope="col"> <p>INDD</p> </td> 
    <td scope="col"> <p>Programma l'inizio di un'attività prima della data specificata.</p> 
    <p>Si tratta del vincolo predefinito se la modalità di programmazione del progetto è impostata su Data completamento e se il sistema o il gruppo predefinito per la data di inizio di un'attività è impostato su Oggi. 
    </td> 
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md" class="MCXref xref">Panoramica sui vincoli attività: Finire non prima di</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md" class="MCXref xref">Panoramica Vincolo Attività: Fine Non Prima Di</a> </p> </td> 
    <td scope="col"> <p>FNPD</p> </td>
    <td scope="col"> <p>Consente di pianificare il completamento di un'attività dopo la data specificata.</p> </td> 
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/finish-no-later-than.md" class="MCXref xref">Panoramica sui vincoli attività: Termina non più tardi di</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/finish-no-later-than.md" class="MCXref xref">Panoramica vincolo attività: termina non più tardi di</a> </p> </td> 
    <td scope="col"> <p>FNDD</p> </td> 
    <td scope="col"> <p>Programma il completamento di un'attività prima della data specificata.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../manage-work/tasks/task-constraints/must-start-on.md" class="MCXref xref">Panoramica sui vincoli attività: deve iniziare il</a> </p> </td> 
+   <td> <p><a href="../../../manage-work/tasks/task-constraints/must-start-on.md" class="MCXref xref">Panoramica vincolo attività: deve iniziare il</a> </p> </td> 
    <td scope="col"> <p>DIA</p> </td> 
    <td scope="col"> <p>Consente di programmare l'inizio esatto di un'attività in una data specifica.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../manage-work/tasks/task-constraints/must-finish-on.md" class="MCXref xref">Panoramica sui vincoli attività: deve finire al</a> </p> </td> 
+   <td> <p><a href="../../../manage-work/tasks/task-constraints/must-finish-on.md" class="MCXref xref">Panoramica Vincolo Attività: Deve Terminare Il</a> </p> </td> 
    <td scope="col"> <p>DFA</p> </td> 
    <td scope="col"> <p>Consente di pianificare la fine di un'attività in una data specifica.</p> </td>
   </tr> 
   <tr> 
-   <td> <p><a href="../../../manage-work/tasks/task-constraints/fixed-dates.md" class="MCXref xref">Panoramica sui vincoli delle attività: date fisse</a> </p> </td> 
+   <td> <p><a href="../../../manage-work/tasks/task-constraints/fixed-dates.md" class="MCXref xref">Panoramica vincolo attività: date fisse</a> </p> </td> 
    <td> <p>FISSD</p> </td> 
    <td> <p>Programma l'inizio e la fine di un'attività in date specifiche.</p> </td> 
   </tr> 
@@ -117,13 +117,13 @@ Quando si creano nuove attività, Workfront seleziona automaticamente un Vincolo
 
 Workfront utilizza due variabili per decidere quale vincolo attività è selezionato per impostazione predefinita per una nuova attività:
 
-* Il **Pianificazione progetto da** sul progetto.
+* Il campo **Pianificazione progetto da** nel progetto.
 
-  Per informazioni sul campo Pianificazione progetto - Da, vedere [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
+  Per informazioni sul campo Pianificazione progetto da, vedere [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-* Il **Data di inizio** configurata dall&#39;amministratore di Workfront o gruppo in **Attività e problemi** area di **Configurazione**.
+* Preferenza **Data inizio** configurata dall&#39;amministratore di Workfront o gruppo nell&#39;area **Attività e problemi** di **Configurazione**.
 
-  Per informazioni sulle preferenze per attività e problemi, vedere [Nuovi valori predefiniti attività](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#new-task-defaults) sezione in [Configurare le preferenze per attività e problemi a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Per informazioni sulle preferenze per attività e problemi, consulta la sezione [Nuovi valori predefiniti attività](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#new-task-defaults) in [Configurare le preferenze per attività e problemi a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 Nella tabella seguente viene illustrato il vincolo attività predefinito quando si scelgono variabili diverse per il progetto e le nuove attività:
 

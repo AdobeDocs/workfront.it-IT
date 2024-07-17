@@ -2,8 +2,8 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: '''Panoramica sul vincolo di attività: Deve terminare su'
-description: È possibile utilizzare il Vincolo di task deve terminare con (MFO) per pianificare la fine di un'attività in una data specifica.
+title: "Panoramica sul vincolo attività: deve finire al"
+description: È possibile utilizzare il vincolo attività Deve finire il (MFO) per pianificare la fine di un'attività in una data specifica.
 author: Alina
 feature: Work Management
 exl-id: 9e546a0f-7f7a-4f1c-9d9d-aa3cea377fdf
@@ -14,39 +14,40 @@ ht-degree: 0%
 
 ---
 
-# Panoramica sul vincolo di attività: Deve terminare il
+# Panoramica sui vincoli attività: deve finire al
 
-È possibile utilizzare il Vincolo di task deve terminare con (MFO) per pianificare la fine di un&#39;attività in una data specifica.
+È possibile utilizzare il vincolo attività Deve finire il (MFO) per pianificare la fine di un&#39;attività in una data specifica.
 
-Il vincolo deve terminare su programma un&#39;attività per il completamento esatto all&#39;ora e alla data specificate nella **Data completamento pianificata** campo .
+Il vincolo Deve finire al pianifica il completamento di un&#39;attività esattamente alla data e all&#39;ora specificate nel campo **Data di completamento pianificata**.
 
 >[!TIP]
 >
->L&#39;aggiornamento manuale della data di completamento pianificata di un&#39;attività modifica il vincolo dell&#39;attività in Da finire su.
+>Quando si aggiorna manualmente la Data di completamento pianificata di un&#39;attività, il vincolo dell&#39;attività viene impostato su Deve finire al.
 
-## Panoramica del vincolo di fine obbligatoria sul task
+## Panoramica del vincolo Must Finish On Task
 
-Quando si pianifica un&#39;attività con un vincolo deve terminare su, tenere presente quanto segue:
+Quando si pianifica un&#39;attività con un vincolo Deve finire al, tenere presente quanto segue:
 
-* Le relazioni predecessori non forzano la riprogrammazione dell&#39;attività. Adobe Workfront ignora sostanzialmente le relazioni precedenti.
-* L’attività viene visualizzata come **A rischio** se i predecessori iniziano a correre indietro o sono in ritardo.
+* Le relazioni con i predecessori non forzano la riprogrammazione dell&#39;attività. Adobe Workfront essenzialmente ignora le relazioni predecessore.
+* L&#39;attività viene visualizzata come **A rischio** se i predecessori iniziano a essere in ritardo o sono in ritardo.
 
-* Quando si sposta o si copia un&#39;attività con un vincolo MFO in un altro progetto, il vincolo dell&#39;attività o delle date del progetto potrebbe variare a seconda delle date del vincolo e delle date di inizio e completamento del progetto. Esistono i seguenti scenari:
+* Quando si sposta o si copia un&#39;attività con un vincolo MFO in un altro progetto, il vincolo dell&#39;attività o delle date del progetto può variare a seconda delle date del vincolo e delle date di inizio e di completamento del progetto. Esistono i seguenti scenari:
 
-   * Quando il progetto di destinazione è programmato da inizio:
+   * Quando il progetto di destinazione è programmato dall’inizio:
 
-      * Quando la data di vincolo dell&#39;attività è precedente alla data di inizio pianificata del progetto, il vincolo dell&#39;attività diventa Non appena possibile.
-      * Quando la data di vincolo dell&#39;attività è successiva alla data di completamento pianificata del progetto, la data di completamento pianificato del progetto viene modificata in modo da corrispondere alla data di vincolo di completamento dell&#39;attività.
+      * Quando la data di vincolo dell&#39;attività è precedente alla data di inizio pianificata del progetto, il vincolo dell&#39;attività viene impostato su Il più presto possibile.
+      * Quando la data vincolo dell&#39;attività è successiva alla data completamento pianificato del progetto, la data completamento pianificato del progetto viene modificata in modo da corrispondere alla data vincolo completamento dell&#39;attività.
 
-      * Quando il progetto di destinazione è programmato da completamento:
+      * Quando il progetto di destinazione è programmato dal completamento:
 
-         * Quando la data di vincolo dell&#39;attività è successiva alla data di completamento del progetto, il vincolo dell&#39;attività diventa il più tardi possibile.
-         * Quando la data di vincolo dell&#39;attività è precedente alla data di inizio pianificata del progetto, la data di inizio pianificata del progetto viene modificata in modo da corrispondere alla data di vincolo iniziale dell&#39;attività.
-      * Indipendentemente dalla pianificazione del progetto, quando la data del vincolo dell&#39;attività si trova entro le date di inizio e di completamento del progetto, non vi sono modifiche al Vincolo attività o alle date del progetto.
+         * Quando la data vincolo dell&#39;attività è successiva alla data di completamento del progetto, il vincolo attività diventa il più tardi possibile.
+         * Quando la data vincolo dell&#39;attività è precedente alla data inizio pianificata del progetto, la data inizio pianificata del progetto viene modificata in modo da corrispondere alla data vincolo inizio dell&#39;attività.
 
-   Per informazioni sullo spostamento delle attività, consulta [Sposta attività](../../../manage-work/tasks/manage-tasks/move-tasks.md). Per informazioni sulla copia delle attività, vedere [Copia e duplica le attività](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+      * Indipendentemente dalla programmazione del progetto, se la data vincolo dell&#39;attività è compresa tra le date di inizio e di completamento del progetto, non verranno apportate modifiche al vincolo attività o alle date del progetto.
 
-Per informazioni su come aggiornare il vincolo di attività su un&#39;attività, vedere [Aggiornare il vincolo di attività di un&#39;attività](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+  Per informazioni sullo spostamento delle attività, vedere [Sposta attività](../../../manage-work/tasks/manage-tasks/move-tasks.md). Per informazioni sulla copia delle attività, vedere [Copia e duplica attività](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+
+Per informazioni su come aggiornare il vincolo attività in un&#39;attività, vedere [Aggiornare il vincolo attività di un&#39;attività](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

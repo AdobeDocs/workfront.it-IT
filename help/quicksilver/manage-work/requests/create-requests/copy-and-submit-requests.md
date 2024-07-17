@@ -8,8 +8,8 @@ topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
 source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
-source-wordcount: '1380'
-ht-degree: 2%
+source-wordcount: '1381'
+ht-degree: 1%
 
 ---
 
@@ -72,12 +72,12 @@ Se non disponi dell’accesso, chiedi all’amministratore di Workfront se ha im
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Accesso per aggiungere richieste a una coda di richieste</p> <p>Visualizza o autorizzazioni superiori per la richiesta esistente</p> <p>Per informazioni sulla configurazione di una coda di richieste, vedi <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Creare una coda di richieste</a>. </p> </td> 
+   <td> <p>Accesso per aggiungere richieste a una coda di richieste</p> <p>Visualizza o autorizzazioni superiori per la richiesta esistente</p> <p>Per informazioni sulla configurazione di una coda richieste, vedere <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Creare una coda richieste</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Prerequisiti
 
@@ -88,7 +88,7 @@ Se non disponi dell’accesso, chiedi all’amministratore di Workfront se ha im
 * Puoi solo copiare e inviare richieste inviate. Non è possibile copiare richieste bozze.
 * È possibile copiare e inviare le richieste inviate in origine o quelle inviate da altri utenti e a cui si ha accesso almeno alla visualizzazione.
 * Puoi sempre accedere a copiare e inviare una copia delle tue richieste, a meno che qualcuno non rimuova le tue autorizzazioni per esse.
-* L’accesso per copiare e inviare le richieste originariamente inviate da altri può essere concesso automaticamente alle persone nella stessa società quando l’autore della coda di richieste abilita **Le persone della stessa società erediteranno le stesse autorizzazioni per tutte le richieste** nelle aree Dettagli coda o Modifica progetto. La disattivazione di questa impostazione consente solo al richiedente originale di visualizzare le proprie richieste.
+* L&#39;accesso per copiare e inviare le richieste originariamente inviate da altri utenti potrebbe essere concesso automaticamente agli utenti della stessa società quando il creatore della coda di richieste abilita **Gli utenti della stessa società erediteranno le stesse autorizzazioni per tutte le richieste** nelle aree Dettagli coda o Modifica progetto. La disattivazione di questa impostazione consente solo al richiedente originale di visualizzare le proprie richieste.
 
   Per ulteriori informazioni, consulta i seguenti articoli:
 
@@ -105,12 +105,12 @@ Se non disponi dell’accesso, chiedi all’amministratore di Workfront se ha im
      >
      >Se l’argomento della coda era l’unico presente nella coda richieste, puoi comunque copiare e inviare la richiesta, che verrà salvata nella coda richieste stessa.
 
-   * La coda di richieste non viene più pubblicata come coda di richieste di aiuto. Per informazioni, consulta [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   * La coda di richieste non viene più pubblicata come coda di richieste di aiuto. Per informazioni, vedere [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
    * Se la coda di richieste non ha un argomento di coda e la richiesta originale è stata inviata prima di gennaio 2022.
 
    * Lo stato del progetto associato alla coda di richieste non è più Corrente.
 
-* È possibile copiare e inviare una copia di una richiesta convertita se la richiesta è stata mantenuta nel processo di conversione. Per ulteriori informazioni, consulta [Panoramica sulla conversione dei problemi in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+* È possibile copiare e inviare una copia di una richiesta convertita se la richiesta è stata mantenuta nel processo di conversione. Per ulteriori informazioni, vedere [Panoramica sulla conversione dei problemi in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
   >[!TIP]
   >
@@ -118,8 +118,8 @@ Se non disponi dell’accesso, chiedi all’amministratore di Workfront se ha im
 
 ## Copiare e inviare richieste
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Richieste**.
-1. (Condizionale) Se la sezione Inviata non viene visualizzata per impostazione predefinita, fai clic su **Inviato** nel pannello a sinistra.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Richieste**.
+1. (Condizionale) Se la sezione Inviata non viene visualizzata per impostazione predefinita, fai clic su **Inviata** nel pannello a sinistra.
 
    >[!TIP]
    >
@@ -127,13 +127,13 @@ Se non disponi dell’accesso, chiedi all’amministratore di Workfront se ha im
 
 1. Individuare la richiesta che si desidera copiare e inviare come nuova ed effettuare una delle seguenti operazioni:
 
-   * Selezionala, quindi fai clic su **Copia** ![](assets/copy-and-submit-as-new-requests-area-nwe.png) nell’angolo superiore sinistro dell’elenco Richieste inviate.
+   * Selezionala, quindi fai clic su **Copia** ![](assets/copy-and-submit-as-new-requests-area-nwe.png) nell&#39;angolo superiore sinistro dell&#39;elenco Richieste inviate.
 
    >[!TIP]
    >
    > Se non hai selezionato prima una richiesta, l’icona Copia non è attiva.
 
-   * Fai clic su **Altro** menu ![](assets/more-icon.png) a destra del nome della richiesta, quindi fai clic su **Copia e invia come nuovo**
+   * Fai clic sul menu **Altro** ![](assets/more-icon.png) a destra del nome della richiesta, quindi fai clic su **Copia e invia come nuovo**
 
      Oppure
 
@@ -148,13 +148,13 @@ Se non disponi dell’accesso, chiedi all’amministratore di Workfront se ha im
 1. (Facoltativo) Se necessario, aggiorna le seguenti informazioni:
 
    * **Tipo di richiesta**: la coda di richieste in cui viene salvata la richiesta copiata. Per impostazione predefinita, la richiesta copiata viene salvata nella coda richieste della richiesta originale.
-   * **Gruppi di argomenti** e **Argomenti Coda**, se sono selezionati. I nomi o i gruppi di argomenti e gli argomenti della coda vengono personalizzati per l&#39;ambiente in uso. Per impostazione predefinita, la richiesta copiata viene salvata nei gruppi di argomenti e negli argomenti della coda della richiesta originale.
+   * **Gruppi di argomenti** e **Argomenti coda**, se selezionati. I nomi o i gruppi di argomenti e gli argomenti della coda vengono personalizzati per l&#39;ambiente in uso. Per impostazione predefinita, la richiesta copiata viene salvata nei gruppi di argomenti e negli argomenti della coda della richiesta originale.
 
      >[!TIP]
      >
      >Se il percorso cambia rispetto a quello della richiesta originale, l’autore della coda di richieste ha modificato la coda.
 
-1. (Facoltativo) Aggiorna tutte le informazioni della richiesta copiata. A seconda dei campi abilitati dal creatore della coda di richieste in **Campi delle Nuove Issues** sezione del **Dettagli coda** scheda secondaria del progetto, è possibile che siano presenti i campi seguenti:
+1. (Facoltativo) Aggiorna tutte le informazioni della richiesta copiata. A seconda dei campi abilitati dall&#39;autore della coda richieste nella sezione **Nuovi campi problema** della scheda secondaria **Dettagli coda** del progetto, è possibile che siano presenti i campi seguenti:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -162,7 +162,7 @@ Se non disponi dell’accesso, chiedi all’amministratore di Workfront se ha im
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Oggetto</strong> </td> 
-      <td>Visualizza il nome della richiesta originale. Se necessario, aggiornala. In caso contrario, Workfront nomina la richiesta copiata <b>Copia di &lt;name of="" original="" request=""&gt;</b>. Questo è un campo obbligatorio.</td> 
+      <td>Visualizza il nome della richiesta originale. Se necessario, aggiornala. In caso contrario, Workfront nomina la richiesta copiata <b>Copia di &lt;Nome della richiesta originale&gt;</b>. Questo è un campo obbligatorio.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Descrizione</strong> </td> 
@@ -206,15 +206,15 @@ Se non disponi dell’accesso, chiedi all’amministratore di Workfront se ha im
       <td role="rowheader" colspan="2"> <p><p style="font-weight: normal;">A seconda di come è stata impostata la coda di richieste, potresti essere in grado di assegnare alla richiesta un solo tipo di risorsa (ad esempio, utenti). Se alla coda di richieste è associata anche una regola di instradamento che instrada automaticamente la richiesta a un tipo diverso di risorsa (ad esempio, un team), la richiesta viene assegnata sia all'entità specificata manualmente durante l'invio della richiesta (utenti) sia alla risorsa specificata nella regola di instradamento (team).</p> <p style="font-weight: normal;">Per ulteriori informazioni, consulta i seguenti articoli:</p> 
         <ul> 
          <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Creare una coda di richieste</a> </p> </li> 
-         <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Creare regole di instradamento</a> <br> </p> </li> 
+         <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Crea regole di routing</a> <br> </p> </li> 
         </ul> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Lavoro Necessario</strong> </td> 
+      <td role="rowheader"><strong>Ore pianificate</strong> </td> 
       <td> <p>Stimare quante ore occorrerebbe per completare la richiesta.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Data di inizio pianificata</strong> </td> 
+      <td role="rowheader"><strong>Data inizio pianificata</strong> </td> 
       <td> <p>La data in cui dovrebbero iniziare i lavori per questa richiesta.</p> </td> 
      </tr> 
      <tr> 
@@ -241,6 +241,6 @@ Se non disponi dell’accesso, chiedi all’amministratore di Workfront se ha im
    >* Tutti i moduli personalizzati allegati alla richiesta originale e i valori inclusi nei campi personalizzati vengono trasferiti alla richiesta copiata. Sono inclusi i campi che contengono logica.
    >* Non è possibile rimuovere i moduli personalizzati dalla richiesta copiata.
 
-1. Clic **Invia**.
+1. Fai clic su **Invia**.
 
    La richiesta copiata viene inviata come nuova richiesta nella coda richieste specificata.

@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 99165790-0c34-4540-92d9-956ae178a874
 source-git-commit: d4fa663e22daf25fec77be79a452eb207857bdda
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '576'
 ht-degree: 1%
 
 ---
@@ -39,12 +39,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modifica accesso ai documenti</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Modifica accesso ai documenti</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza disponibile, contattare l&#39;amministratore Workfront o Workfront Proof.
+&#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
 
 ## Visualizzazioni dei dispositivi e delle risoluzioni nel visualizzatore di bozze desktop e nel visualizzatore di bozze web
 
@@ -56,15 +56,15 @@ L’amministratore di Adobe Workfront ha configurato il sistema in modo che tu p
 
   >[!NOTE]
   >
-  >L’amministratore di Workfront può configurare dispositivi personalizzati per gli utenti dell’organizzazione, come descritto in [Configurazione di dispositivi personalizzati per le bozze](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#configure-custom-devices-for-proofs) nell’articolo [Configurare le impostazioni della bozza per l’organizzazione](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
+  >L&#39;amministratore di Workfront può configurare dispositivi personalizzati per gli utenti dell&#39;organizzazione, come descritto in [Configurazione di dispositivi personalizzati per le bozze](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#configure-custom-devices-for-proofs) nell&#39;articolo [Configurazione delle impostazioni delle bozze per l&#39;organizzazione](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
 
 ## Visualizzare una bozza con un dispositivo predefinito o un’impostazione di risoluzione
 
 1. Passare all&#39;elenco di documenti contenente la bozza che si desidera aprire.
-1. Passa il puntatore del mouse sul documento, quindi fai clic su **Apri bozza**.
-1. Clic **Reattivo** al centro in basso del visualizzatore di bozze.
+1. Passa il puntatore del mouse sul documento, quindi fai clic su **Apri bozza**.
+1. Fai clic su **Reattivo** al centro del visualizzatore di bozze.
 
-   ![Resolution_option_in_DPV.png](assets/resolution-option-in-dpv-350x64.png)
+   ![Opzione_risoluzione_in_DPV.png](assets/resolution-option-in-dpv-350x64.png)
 
 1. Nell&#39;elenco dei dispositivi e delle risoluzioni visualizzati in Visualizzatore bozze desktop fare clic sul dispositivo desiderato.
 
@@ -72,28 +72,28 @@ L’amministratore di Adobe Workfront ha configurato il sistema in modo che tu p
 
    Nell&#39;elenco delle risoluzioni visualizzato in Visualizzatore bozze Web fare clic su quella desiderata.
 
-   Per informazioni sulle differenze tra questi due visualizzatori, consulta [Panoramica sulle differenze tra il visualizzatore bozze web e il visualizzatore bozze desktop](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
+   Per informazioni sulle differenze tra questi due visualizzatori, vedere [Differenze tra il visualizzatore di bozze Web e la panoramica del visualizzatore di bozze desktop](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
 
    La bozza interattiva viene riprodotta nella risoluzione selezionata.
 
 ## Visualizzare una bozza con un’impostazione di risoluzione personalizzata
 
 1. Passare all&#39;elenco di documenti contenente la bozza che si desidera aprire.
-1. Passa il puntatore del mouse sul documento, quindi fai clic su **Apri bozza**.
-1. Clic **Reattivo** al centro in basso del visualizzatore bozze.
-1. Digita un personalizzato **Reattivo** risoluzione.
+1. Passa il puntatore del mouse sul documento, quindi fai clic su **Apri bozza**.
+1. Fai clic su **Reattivo** al centro in basso nel Visualizzatore bozze.
+1. Digita una risoluzione personalizzata di **Reattiva**.
 
-   ![Type_a_custom_resolution_DPV.png](assets/type-a-custom-resolution-dpv.png)
+   ![Tipo_a_risoluzione_personalizzata_DPV.png](assets/type-a-custom-resolution-dpv.png)
 
    Oppure
 
    Passa il puntatore del mouse sul contenuto interattivo e trascina il bordo blu nell’angolo in basso a destra o nel bordo destro o inferiore alla risoluzione desiderata.
 
-   ![Trascinate_blue_edges_for_resolution.png](assets/drag-blue-edges-for-resolution-350x251.png)
+   ![Trascina_blue_edges_for_resolution.png](assets/drag-blue-edges-for-resolution-350x251.png)
 
    La risoluzione personalizzata viene visualizzata nelle seguenti posizioni:
 
-   * In **Risoluzione** nella parte inferiore centrale del visualizzatore.\
-     ![Screenshot_2018-05-15_10-27-54.png](assets/screenshot-2018-05-15-10-27-54.png)
+   * Nel pannello **Risoluzione** nella parte inferiore centrale del visualizzatore.\
+     ![Schermata_2018-05-15_10-27-54.png](assets/screenshot-2018-05-15-10-27-54.png)
 
    * In qualsiasi commento, i revisori aggiungono alla bozza. Ogni commento include la risoluzione dello schermo selezionata al momento della creazione del commento da parte del revisore.

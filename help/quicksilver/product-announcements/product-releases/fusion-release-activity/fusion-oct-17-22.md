@@ -25,6 +25,6 @@ Poiché le risorse nelle librerie Adobe Creative Cloud sono spesso dettagliate e
 
 In precedenza, il caricamento dei file in questo modulo era limitato a 5 MB.
 
-Per ulteriori informazioni sui moduli Adobe Creative Cloud Libraries, vedi [Moduli Adobe Creative Cloud Libraries](/help/quicksilver/workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md).
+Per ulteriori informazioni sui moduli Adobe Creative Cloud Libraries, vedere [Moduli Adobe Creative Cloud Libraries](/help/quicksilver/workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md).
 
-Per informazioni su altri guardrail delle prestazioni di Workfront Fusion, inclusi i limiti di dimensione dei file, vedere [Guardrail delle prestazioni di Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/fusion-performance-guardrails.md).
+Per informazioni su altri guardrail delle prestazioni di Workfront Fusion, inclusi i limiti di dimensione dei file, vedere [guardrail delle prestazioni di Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/fusion-performance-guardrails.md).

@@ -38,12 +38,12 @@ Ad esempio, se si filtra $$USER.homeGroupID in un report di progetti, vengono re
 <table>
     <tr>
         <td>Filtri in elenchi, rapporti e Programmazione delle risorse</td>
-        <td>Per informazioni sui filtri di Workfront, consulta l’articolo <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md">Panoramica sui filtri</a>.
+        <td>Per informazioni sui filtri di Workfront, vedere l'articolo <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md">Panoramica sui filtri</a>.
 </td>
     </tr>
     <tr>
         <td>Ricerche avanzate</td>
-        <td>Per informazioni sulle ricerche avanzate, consulta la sezione <a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md#using-advanced-search">Usa ricerca avanzata</a> nell’articolo <a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md">Cerca in Adobe Workfront</a>.
+        <td>Per informazioni sulle ricerche avanzate, vedere la sezione <a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md#using-advanced-search">Usa ricerca avanzata</a> nell'articolo <a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md">Cerca in Adobe Workfront</a>.
     </tr>
     <tr>
         <td>Colonne calcolate nelle visualizzazioni</td>
@@ -57,14 +57,14 @@ Ad esempio, se si filtra $$USER.homeGroupID in un report di progetti, vengono re
         <td>Campi personalizzati calcolati</td>
         <td>Le variabili di filtro con caratteri jolly non sono supportate quando si fa riferimento a raccolte nidificate in una colonna calcolata.
 
-Per informazioni sui campi e sulle colonne personalizzati calcolati, consulta l’articolo <a hreft="../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md">Campi personalizzati calcolati e colonne calcolate</a>.
+Per informazioni sui campi e sulle colonne personalizzati calcolati, vedere l&#39;articolo <a hreft="../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md">Confronto tra campi personalizzati calcolati e colonne calcolate</a>.
 </td>
     </tr>
 </table>
 
 ## Variabili filtro con caratteri jolly basate sulla data
 
-Le opzioni con caratteri jolly basate sulla data possono essere utilizzate in combinazione con qualsiasi attributo del filtro data. Per informazioni sull’aggiunta di un carattere jolly basato sulla data a un rapporto, consulta l’articolo [Utilizzare caratteri jolly basati sulla data per generalizzare i rapporti](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
+Le opzioni con caratteri jolly basate sulla data possono essere utilizzate in combinazione con qualsiasi attributo del filtro data. Per informazioni sull&#39;aggiunta di un carattere jolly basato sulla data a un report, vedere l&#39;articolo [Utilizzare caratteri jolly basati sulla data per generalizzare i report](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
 
 >[!NOTE]
 >
@@ -78,11 +78,11 @@ Puoi scegliere uno dei seguenti caratteri jolly basati sulla data:
  <tbody> 
   <tr valign="top"> 
    <td width="100" role="rowheader"> <p><strong>$$OGGI</strong> </p> </td> 
-   <td> <p>È consigliabile creare filtri sensibili alla data utilizzando questo carattere jolly in modo da evitare di creare nuovamente il filtro domani, la prossima settimana o il mese prossimo.</p> <p>Ad esempio, se si desidera visualizzare tutte le attività con scadenza precedente a oggi, è possibile utilizzare la regola seguente in un filtro attività: <em>Data Inizio Pianificata Inferiore A $$OGGI</em>.</p> <p>$$TODAY è sempre uguale a mezzanotte per il giorno corrente.</p> </td> 
+   <td> <p>È consigliabile creare filtri sensibili alla data utilizzando questo carattere jolly in modo da evitare di creare nuovamente il filtro domani, la prossima settimana o il mese prossimo.</p> <p>Ad esempio, se desideri visualizzare tutte le attività con scadenza precedente a oggi, puoi utilizzare la seguente regola in un filtro attività: <em>Data inizio pianificata inferiore a $$TODAY</em>.</p> <p>$$TODAY è sempre uguale a mezzanotte per il giorno corrente.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td width="100" role="rowheader"> <p><strong>$$NOW</strong> </p> </td> 
-   <td> <p>È simile al carattere jolly $$TODAY ma include la data e l'ora correnti. $$NOW corrisponde alla data e all'ora correnti.</p> <p>Ad esempio, se desideri visualizzare tutte le ore inserite fino all’ora corrente, puoi farlo utilizzando la seguente regola nel filtro ore: <em>Data Inizio Pianificata Inferiore A $$NOW</em>.</p> <p>Nota: questo carattere jolly non è supportato nella pianificazione risorse.</p> </td> 
+   <td> <p>È simile al carattere jolly $$TODAY ma include la data e l'ora correnti. $$NOW corrisponde alla data e all'ora correnti.</p> <p>Ad esempio, se desideri visualizzare tutte le ore inserite fino all'ora corrente, puoi usare la seguente regola nel filtro ore: <em>Data inizio pianificata minore di $$NOW</em>.</p> <p>Nota: questo carattere jolly non è supportato nella pianificazione risorse.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -96,7 +96,7 @@ Per indicare vari periodi di tempo e vari punti nel tempo (futuri o passati), è
 | **d** | giorno |
 | **w** | settimana |
 | **m** | mese |
-| **y** | anno |
+| **a** | anno |
 
 {style="table-layout:auto"}
 
@@ -114,7 +114,7 @@ Per indicare vari periodi di tempo e vari punti nel tempo (futuri o passati), è
 
 {style="table-layout:auto"}
 
-Ad esempio, il carattere jolly `$$TODAYb+2w` si riferisce a &quot;2 settimane dall&#39;inizio di questa settimana&quot;. Carattere jolly *`$$NOW+2h` si riferisce a &quot;2 ore da ora&quot;.
+Ad esempio, il carattere jolly `$$TODAYb+2w` fa riferimento a &quot;2 settimane dall&#39;inizio di questa settimana&quot;. Il carattere jolly *`$$NOW+2h` fa riferimento a &quot;2 ore da ora&quot;.
 
 ## Variabili filtro con caratteri jolly basate sull’utente
 
@@ -122,7 +122,7 @@ Ad esempio, il carattere jolly `$$TODAYb+2w` si riferisce a &quot;2 settimane da
 >
 >Se un filtro o un report contiene una variabile di filtro con caratteri jolly basata sull&#39;utente, i risultati mostrano sempre le informazioni filtrate dall&#39;utente attualmente connesso. Quando si condivide un filtro o un report con un altro utente, il carattere jolly recupera le informazioni per l&#39;utente che visualizza il report. I due utenti visualizzano risultati diversi.
 >
->Per informazioni sull&#39;aggiunta di un carattere jolly basato sull&#39;utente a un report, vedere l&#39;articolo [Utilizzare caratteri jolly basati sull&#39;utente per generalizzare i rapporti](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
+>Per informazioni sull&#39;aggiunta di un carattere jolly basato sull&#39;utente a un report, vedere l&#39;articolo [Utilizzare caratteri jolly basati sull&#39;utente per generalizzare i report](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
 Puoi scegliere tra le seguenti variabili basate sull’utente:
 
@@ -134,7 +134,7 @@ Puoi scegliere tra le seguenti variabili basate sull’utente:
    <td width="200" role="rowheader"> <p><strong>$$USER.ID</strong> </p> </td> 
    <td> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: : should these be formatted with code?!) </p>
-    --> <p>La variabile più comune basata sull'utente è $$USER.ID. In questo modo viene sempre restituito l'ID dell'utente connesso. ID utilizzato per identificare l'utente che ha creato ciascun oggetto e le relative assegnazioni di lavoro.</p> <p>Se utilizzato nei rapporti, questo carattere jolly riduce il numero di rapporti da creare nel sistema. Puoi creare un rapporto e condividerlo con diversi utenti; i risultati cambiano a seconda dell’utente che ha effettuato l’accesso e che osserva il rapporto.</p> <p>Ad esempio, per creare un rapporto per tutti i problemi assegnati all’utente connesso, puoi utilizzare la seguente regola in un filtro problemi: <em>Assegnato a ID è uguale a $$USER.ID</em>.</p> <p>Workfront utilizza questa variabile nei seguenti filtri incorporati:</p> 
+    --> <p>La variabile più comune basata sull'utente è $$USER.ID. In questo modo viene sempre restituito l'ID dell'utente connesso. ID utilizzato per identificare l'utente che ha creato ciascun oggetto e le relative assegnazioni di lavoro.</p> <p>Se utilizzato nei rapporti, questo carattere jolly riduce il numero di rapporti da creare nel sistema. Puoi creare un rapporto e condividerlo con diversi utenti; i risultati cambiano a seconda dell’utente che ha effettuato l’accesso e che osserva il rapporto.</p> <p>Ad esempio, per generare un report per tutti i problemi assegnati all'utente connesso, è possibile utilizzare la seguente regola in un filtro di problemi: <em>Assegnato a ID è uguale a $$USER.ID</em>.</p> <p>Workfront utilizza questa variabile nei seguenti filtri incorporati:</p> 
     <ul> 
      <li>I miei report</li> 
      <li>I miei progetti</li> 
@@ -182,7 +182,7 @@ Puoi scegliere tra le seguenti variabili basate sull’utente:
   </tr> 
   <tr valign="top"> 
    <td role="rowheader"> <p><strong>$$USER.homeGroupID</strong> </p> </td> 
-   <td> <p>La variabile $$USER.homeGroupID fa riferimento all’ID del Gruppo Predefinito dell’utente connesso. In qualità di amministratore di gruppo, puoi utilizzare questa variabile per filtrare solo gli elementi che appartengono agli utenti del gruppo predefinito.</p> <p>Ad esempio, per visualizzare tutte le attività incomplete sui progetti nel gruppo contabilità, utilizzare le seguenti regole di filtro in un filtro attività:<br><em>Progetto: ID gruppo è uguale a $$USER.homeGroupID </em><br><em>Percentuale Completamento Inferiore A 100</em></p> <p>Per visualizzare tutte le attività incomplete assegnate a singoli utenti in un gruppo specifico che è il Gruppo Predefinito dell'utente connesso, utilizzare le seguenti regole di filtro in un filtro di attività:</p> <p><em>Assegnato a: ID gruppo è uguale a $$USER.homeGroupID<br>Percentuale Completamento Inferiore A 100</em> </p> </td> 
+   <td> <p>La variabile $$USER.homeGroupID fa riferimento all’ID del Gruppo Predefinito dell’utente connesso. In qualità di amministratore di gruppo, puoi utilizzare questa variabile per filtrare solo gli elementi che appartengono agli utenti del gruppo predefinito.</p> <p>Ad esempio, per visualizzare tutte le attività incomplete sui progetti nel gruppo contabilità, utilizzare le seguenti regole di filtro in un filtro attività:<br><em>Progetto: ID gruppo uguale a $$USER.homeGroupID </em><br><em>Percentuale completata inferiore a 100</em></p> <p>Per visualizzare tutte le attività incomplete assegnate a singoli utenti in un gruppo specifico che è il Gruppo Predefinito dell'utente connesso, utilizzare le seguenti regole di filtro in un filtro di attività:</p> <p><em>Assegnato a: ID gruppo uguale a $$USER.homeGroupID<br>Percentuale completata inferiore a 100</em> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td role="rowheader"> <p><strong>$$USER.otherGroupIDs</strong> </p> </td> 
@@ -198,11 +198,11 @@ Puoi scegliere tra le seguenti variabili basate sull’utente:
   </tr> 
   <tr valign="top"> 
    <td role="rowheader"> <p><strong>$$USER.roleID</strong> </p> </td> 
-   <td> <p>La variabile $$USER.roleID fa riferimento al ruolo primario dell'utente connesso. Utilizzando questa variabile è possibile creare rapporti sulle attività o sui problemi assegnati a una mansione specifica.</p> <p>Ad esempio, per visualizzare tutte le attività assegnate al Ruolo principale dell'utente connesso, è possibile utilizzare la regola di filtro seguente in un filtro attività:</p> <p><em>Attività: l’ID del ruolo è uguale a $$USER.roleID.</em> </p> </td> 
+   <td> <p>La variabile $$USER.roleID fa riferimento al ruolo primario dell'utente connesso. Utilizzando questa variabile è possibile creare rapporti sulle attività o sui problemi assegnati a una mansione specifica.</p> <p>Ad esempio, per visualizzare tutte le attività assegnate al Ruolo principale dell'utente connesso, è possibile utilizzare la regola di filtro seguente in un filtro attività:</p> <p><em>Attività: ID ruolo uguale a $$USER.roleID.</em> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td role="rowheader"><p><strong>$$USER.roleIDs</strong></p></td> 
-   <td> <p>La variabile $$USER.roleIDs fa riferimento a tutti i ruoli associati all'utente connesso. Utilizzando questa variabile, è possibile creare rapporti sulle attività o sui problemi assegnati a una qualsiasi mansione associata all'utente connesso. </p> <p>Ad esempio, per visualizzare tutte le attività assegnate a uno qualsiasi dei ruoli associati all'utente connesso, è possibile utilizzare la regola di filtro seguente in un filtro attività:</p> <p><i>Attività: ID ruolo uguale a $$USERID.roleIDs<br></i> </p> <p>Consiglio: <i>Attività: ID ruolo uguale a $$USERID.roleIDs</i> la regola di filtro esiste nei filtri incorporati Attività non assegnate nel mio ruolo e Problemi non assegnati nel mio ruolo. </p> </td> 
+   <td> <p>La variabile $$USER.roleIDs fa riferimento a tutti i ruoli associati all'utente connesso. Utilizzando questa variabile, è possibile creare rapporti sulle attività o sui problemi assegnati a una qualsiasi mansione associata all'utente connesso. </p> <p>Ad esempio, per visualizzare tutte le attività assegnate a uno qualsiasi dei ruoli associati all'utente connesso, è possibile utilizzare la regola di filtro seguente in un filtro attività:</p> <p><i>Attività: ID ruolo uguale a $$USERID.roleIDs<br></i> </p> <p>Suggerimento: la regola di filtro <i>Attività: ID ruolo è uguale a $$USERID.roleIDs</i> esiste nei filtri incorporati Attività non assegnate nel mio ruolo e Problemi non assegnati nel mio ruolo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -222,7 +222,7 @@ Puoi scegliere tra le seguenti variabili basate sull’utente:
      <p>La variabile $$OBJCODE fa riferimento al tipo di un oggetto. </p> 
      <p>In un modulo personalizzato, quando i tipi di oggetto selezionati del modulo sono incompatibili con un campo a cui si fa riferimento in un campo personalizzato calcolato, è possibile utilizzare questo carattere jolly per evitare la soluzione alternativa di creare moduli duplicati per tali tipi di oggetto.</p> 
      <p>A tale scopo, nel campo personalizzato calcolato includere il carattere jolly in un'espressione IF in modo che il calcolo possa generare valori diversi per ogni tipo di oggetto del modulo. </p> 
-     <p>Per ulteriori informazioni e un esempio, consulta la sezione <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat" class="MCXref xref">Campi personalizzati calcolati nei moduli personalizzati con più oggetti</a> nell’articolo <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md" class="MCXref xref">Aggiungere dati calcolati a un modulo personalizzato</a>.</p> 
+     <p>Per ulteriori informazioni e un esempio, vedere la sezione <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat" class="MCXref xref">Campi personalizzati calcolati nei moduli personalizzati con più oggetti</a> nell'articolo <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md" class="MCXref xref">Aggiungere dati calcolati a un modulo personalizzato</a>.</p> 
     </div> </td> 
   </tr> 
  </tbody> 

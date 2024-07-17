@@ -75,61 +75,61 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizza autorizzazioni o versioni successive per progetti, attività, problemi o documenti</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Visualizza autorizzazioni o versioni successive per progetti, attività, problemi o documenti</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Concedere l’accesso agli oggetti nell’area Home
 
-1. Fai clic su **Home** icona ![](assets/home-icon-30x29.png) nell’angolo in alto a sinistra di Adobe Workfront.
+1. Fai clic sull&#39;icona **Home** ![](assets/home-icon-30x29.png) nell&#39;angolo superiore sinistro di Adobe Workfront.
 
    >[!NOTE]
    >
    >L’amministratore di Workfront potrebbe apportare le seguenti modifiche all’icona Home nel tuo ambiente:
    >
    >* Sostituiscilo con un’immagine personalizzata per illustrare la tua organizzazione. In questo caso, l’icona avrà un aspetto diverso da quello mostrato in questo articolo.
-   >* Sostituisci la pagina collegata con un’altra pagina. In questo caso, fai clic su **Menu principale** ![](assets/main-menu-icon.png) nell’angolo superiore destro della pagina, quindi fai clic su **Home**.
+   >* Sostituisci la pagina collegata con un’altra pagina. In questo caso, fai clic sul **menu principale** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro della pagina, quindi fai clic su **Home**.
 
 1. (Condizionale) Dall’area Home legacy, effettua le seguenti operazioni:
 
-   1. In **Elenco lavori**, seleziona la richiesta di accesso che desideri gestire in **Approvazioni** sezione.
+   1. Nella **Elenco lavori**, seleziona la richiesta di accesso che desideri gestire nella sezione **Approvazioni**.
 
-   ![Screen_Shot_2018-07-02_at_11.35.29_AM.png](assets/screen-shot-2018-07-02-at-11.35.29-am-350x242.png)
+   ![Schermata_Shot_2018-07-02_at_11.35.29_AM.png](assets/screen-shot-2018-07-02-at-11.35.29-am-350x242.png)
 
    La richiesta viene visualizzata a destra di Elenco lavori.
 
    1. Nell’angolo in alto a destra, fai clic sul pulsante per concedere l’accesso.\
-      A seconda del tipo di accesso richiesto, il nome del pulsante cambia. Ad esempio, se il richiedente richiede l’accesso Visualizzazione, il pulsante indica **Concedi l&#39;accesso in visualizzazione**.\
-      ![Grant_Access_2.png](assets/grant-access-2-350x98.png)
+      A seconda del tipo di accesso richiesto, il nome del pulsante cambia. Ad esempio, se il richiedente richiede l&#39;accesso Visualizzazione, il pulsante indica **Concedi l&#39;accesso Visualizzazione**.\
+      ![Concedi_accesso_2.png](assets/grant-access-2-350x98.png)
 
-   1. (Facoltativo) Per concedere un livello di accesso diverso da quello richiesto, fai clic sulla freccia accanto al pulsante Concedi accesso e seleziona il nuovo accesso, quindi fai clic su **Concedi &lt; Livello di autorizzazione > Accesso >**.\
+   1. (Facoltativo) Per concedere un livello di accesso diverso da quello richiesto, fare clic sulla freccia accanto al pulsante Concedi accesso e selezionare il nuovo accesso, quindi fare clic su **Concedi &lt; Livello di autorizzazione > Accesso >**.\
       Viene visualizzato un messaggio che conferma che l’accesso è stato concesso.
 
-   1. (Facoltativo) Fai clic su **Ignora** per negare l’accesso.\
+   1. (Facoltativo) Fai clic su **Ignora** per negare l&#39;accesso.\
       Viene visualizzato un messaggio che conferma che l’accesso è stato ignorato.
 
 1. (Condizionale) Dalla nuova area Home, effettua le seguenti operazioni:
 
-   1. Vai a **In attesa della mia approvazione** e trovare la richiesta di accesso aggiuntivo, quindi fai clic su **Concedi l’accesso**.
+   1. Vai al widget **In attesa della mia approvazione** e trova la richiesta di accesso aggiuntivo, quindi fai clic su **Concedi l&#39;accesso**.
 
       ![](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
 
-   1. (Facoltativo) Per concedere un livello di accesso diverso da quello richiesto, fai clic sul menu a discesa a sinistra del pulsante Concedi accesso e seleziona il nuovo accesso, quindi fai clic su **Concedi l’accesso**.
+   1. (Facoltativo) Per concedere un livello di accesso diverso da quello richiesto, fai clic sul menu a discesa a sinistra del pulsante Concedi l&#39;accesso e seleziona il nuovo accesso, quindi fai clic su **Concedi l&#39;accesso**.
 
       La richiesta di accesso viene concessa e scompare dall’elenco delle richieste di approvazione.
 
-   1. (Facoltativo) Fai clic su **Ignora** per negare l’accesso. La richiesta di accesso non viene concessa e scompare dall’elenco delle richieste di approvazione.
+   1. (Facoltativo) Fai clic su **Ignora** per negare l&#39;accesso. La richiesta di accesso non viene concessa e scompare dall’elenco delle richieste di approvazione.
 
 ## Configurare le notifiche e-mail per le richieste
 
-Puoi configurare la ricezione di notifiche e-mail per le richieste di accesso. L’amministratore di Workfront può disattivare questa funzionalità (come descritto in [Configurare le notifiche degli eventi per tutti gli utenti del sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
+Puoi configurare la ricezione di notifiche e-mail per le richieste di accesso. L&#39;amministratore di Workfront può disabilitare questa funzionalità (come descritto in [Configurare le notifiche degli eventi per tutti gli utenti del sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
-1. Clic **Preferenze**, o scorri fino alla sezione Preferenze.
-1. In **Inviami un&#39;email quando** elenco a discesa, seleziona o deseleziona **Qualcuno mi ha richiesto l&#39;accesso**, a seconda che tu desideri ricevere notifiche e-mail quando un altro utente richiede l’accesso da te o meno.
+1. Fai clic su **Preferenze** oppure scorri fino alla sezione Preferenze.
+1. Nell&#39;elenco a discesa **Invia messaggio di posta elettronica quando**, selezionare o deselezionare **Qualcuno richiede l&#39;accesso da me**, a seconda che si desideri ricevere le notifiche e-mail quando un altro utente richiede l&#39;accesso da te o meno.
 
-1. Clic **Salva modifiche**.
+1. Fai clic su **Salva modifiche**.

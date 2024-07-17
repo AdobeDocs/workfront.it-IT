@@ -22,7 +22,7 @@ Ad esempio, se desideri conoscere il numero di giorni della settimana trascorsi 
 È possibile, ad esempio, calcolare la differenza tra i giorni della settimana tra la data di completamento pianificata e la data di completamento effettiva di un&#39;attività e visualizzare il risultato in una colonna.
 
 In questo calcolo è possibile utilizzare altre due date (Inizio effettivo, Completamento effettivo, Inizio previsto, Completamento previsto e così via).\
-Per ulteriori informazioni sulle espressioni di dati calcolati, vedi [Panoramica delle espressioni di dati calcolati](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Per ulteriori informazioni sulle espressioni di dati calcolati, vedere [Panoramica delle espressioni di dati calcolati](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 ## Requisiti di accesso
 
@@ -49,25 +49,25 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Visualizzare il risultato di un calcolo tra due campi in una colonna
 
 Per aggiungere questa colonna a una visualizzazione delle attività:
 
 1. Consente di passare a un elenco di attività.
-1. Dalla sezione **Visualizza** menu a discesa, fai clic su **Nuova visualizzazione**.
+1. Dal menu a discesa **Visualizza**, fare clic su **Nuova visualizzazione**.
 
-1. Clic **Aggiungi colonna**, quindi **Passa alla modalità testo**.
+1. Fare clic su **Aggiungi colonna**, quindi su **Passa alla modalità testo**.
 
-1. Passa il puntatore del mouse sull’area della modalità testo e fai clic su **Fare clic per modificare il testo**.
-1. Rimuove il testo trovato in **Modalità testo** e sostituirlo con il seguente codice:
+1. Passa il puntatore del mouse sull&#39;area della modalità testo e fai clic su **Fai clic per modificare il testo**.
+1. Rimuovere il testo trovato nella casella **Modalità testo** e sostituirlo con il seguente codice:
    <pre>displayname=Week Day Difference<br>textmode=true<br>valueexpression=WEEKDAYDIFF({plannedCompletionDate},{actualCompletionDate})<br>valueformat=HTML</pre>
 
-1. (Facoltativo) Per aggregare i valori visualizzati nella vista in un raggruppamento, attenersi alla procedura descritta in [Raggruppamento: visualizza il risultato dell’aggregazione di più valori calcolati in un raggruppamento](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
-1. Clic **Salva**, quindi **Salva visualizzazione**.
+1. (Facoltativo) Per aggregare i valori visualizzati nella visualizzazione in un raggruppamento, seguire la procedura descritta in [Raggruppamento: visualizza il risultato dell&#39;aggregazione di più valori calcolati in un raggruppamento](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
+1. Fai clic su **Salva**, quindi su **Salva visualizzazione**.

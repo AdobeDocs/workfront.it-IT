@@ -42,7 +42,7 @@ Puoi collegare documenti e cartelle ad Adobe Workfront dalle seguenti origini:
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
-   <td>Puoi collegare documenti a Workfront da Experience Manager Assets Essentials. Per ulteriori informazioni, consulta <a href="../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md" class="MCXref xref"> Adobe Workfront per Experience Manager Assets Essentials</a>.</td> 
+   <td>Puoi collegare documenti a Workfront da Experience Manager Assets Essentials. Per ulteriori informazioni, vedere <a href="../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md" class="MCXref xref"> Adobe Workfront per Experience Manager Assets Essentials</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workfront DAM </td> 
@@ -55,7 +55,7 @@ Puoi collegare documenti e cartelle ad Adobe Workfront dalle seguenti origini:
  </tbody> 
 </table>
 
-Prima di collegare documenti o cartelle, l&#39;amministratore di Workfront deve attivare questa funzionalità per ogni provider di documenti o per l&#39;integrazione di documenti personalizzati, come descritto in [Configurare le integrazioni dei documenti](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
+Prima di collegare documenti o cartelle, l&#39;amministratore di Workfront deve abilitare questa funzionalità per ogni provider di documenti o per un&#39;integrazione di documenti personalizzata, come descritto in [Configurare le integrazioni di documenti](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 
 Puoi verificare e approvare i documenti collegati a un provider cloud esterno nello stesso modo in cui lo fai con i documenti caricati direttamente in Workfront.
 
@@ -105,7 +105,7 @@ Puoi collegare documenti esistenti con un provider cloud esterno. Ciò include t
 
 ### Prerequisiti {#prerequisites}
 
-Prima di collegare documenti o cartelle, l&#39;amministratore di Workfront deve attivare questa funzionalità per ogni provider di documenti o per l&#39;integrazione di documenti personalizzati, come descritto in [Configurare le integrazioni dei documenti](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
+Prima di collegare documenti o cartelle, l&#39;amministratore di Workfront deve abilitare questa funzionalità per ogni provider di documenti o per un&#39;integrazione di documenti personalizzata, come descritto in [Configurare le integrazioni di documenti](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 
 ### Collegare un documento esterno a Workfront {#link-an-external-document-to-workfront}
 
@@ -115,19 +115,19 @@ Prima di collegare documenti o cartelle, l&#39;amministratore di Workfront deve 
 >
 >Il Dropbox memorizza i documenti in base al percorso del file. Per questo motivo, se un file collegato dal Dropbox viene spostato, rinominato o eliminato, diventa inaccessibile in Workfront.
 
-1. Vai a **Documenti** in Workfront in cui si desidera inserire il documento.
-1. Clic **Aggiungi nuovo**, quindi fare clic sul provider di documenti esterno in cui collegare i documenti a Workfront.
+1. Vai all&#39;area **Documenti** in Workfront in cui desideri inserire il documento.
+1. Fare clic su **Aggiungi nuovo**, quindi sul provider di documenti esterno in cui si desidera collegare i documenti a Workfront.
 
-   Ad esempio, per collegare documenti da un Dropbox, fare clic su **Da Dropbox**.
+   Per collegare documenti dal Dropbox, ad esempio, fare clic su **Dal Dropbox**.
 
    I provider esterni che hai già autorizzato vengono visualizzati nella parte superiore dell’elenco.
 
-1. (Condizionale) Se viene richiesto di accedere al servizio esterno, digita le credenziali di accesso per il servizio nella casella visualizzata, quindi fai clic su **Accedi**.
-1. (Condizionale) Se viene richiesto di autorizzare l’applicazione esterna, fai clic sul pulsante **Autorizza** pulsante.
+1. (Condizionale) Se viene richiesto di accedere al servizio esterno, digitare le credenziali di accesso per il servizio nella casella visualizzata, quindi fare clic su **Accedi**.
+1. (Condizionale) Se viene richiesto di autorizzare l&#39;applicazione esterna, fare clic sul pulsante **Autorizza**.
 
    Devi fare questo solo una volta.
 
-1. Nella casella di ricerca del **Collega file e cartelle esterni** che viene visualizzata, digitare il nome dell&#39;elemento che si desidera cercare, quindi premere **Invio** per visualizzare tutti i risultati dell&#39;applicazione esterna, indipendentemente dalla cartella in cui sono archiviati.
+1. Nella casella di ricerca della casella **Collega file e cartelle esterni** visualizzata, digitare il nome dell&#39;elemento che si desidera cercare, quindi premere **Invio** per visualizzare tutti i risultati dell&#39;applicazione esterna, indipendentemente dalla cartella in cui sono archiviati.
 
    Oppure
 
@@ -135,13 +135,13 @@ Prima di collegare documenti o cartelle, l&#39;amministratore di Workfront deve 
 
    Sebbene sia possibile selezionare più documenti, vengono collegati solo i documenti selezionati nella visualizzazione corrente. Se ad esempio si seleziona un documento e quindi si accede a una cartella, il documento selezionato in origine non verrà collegato.
 
-1. (Condizionale) Se sei un cliente Workfront DAM, fai clic sul pulsante **Miniatura** per visualizzare i file come miniature.
+1. (Condizionale) Se sei un cliente Workfront DAM, fai clic sull&#39;icona **Miniatura** per visualizzare i file come immagini di miniatura.
 
    >[!NOTE]
    >
    >I clienti di Workfront DAM possono visualizzare le miniature quando collegano documenti da Workfront DAM. Le miniature potrebbero essere visualizzate anche per i clienti di Workfront DAM per altri servizi come Dropbox e Box. Tuttavia, la visualizzazione delle miniature per servizi diversi da Workfront DAM in Workfront non è supportata e le miniature non vengono mai visualizzate quando si collegano documenti da SharePoint o Google Drive.
 
-1. Clic **Collegamento**.
+1. Fai clic su **Collegamento**.
 
    In Workfront, accanto ai documenti viene visualizzata l’icona del provider di cloud.
 
@@ -154,24 +154,24 @@ Prima di collegare documenti o cartelle, l&#39;amministratore di Workfront deve 
 
 È possibile aggiungere una nuova versione di un documento collegato a Workfront da un&#39;applicazione esterna.
 
-1. Vai a **Documenti** in cui è collegato il documento, quindi selezionare il documento collegato.
+1. Vai all&#39;area **Documenti** in cui è collegato il documento, quindi seleziona il documento collegato.
 
    >[!IMPORTANT]
    >
    >Per creare una nuova versione, il documento deve trovarsi all&#39;esterno di una cartella collegata.
 
-1. Clic **Aggiungi nuovo** > **Versione**, quindi fare clic sul provider di documenti esterno.
+1. Fai clic su **Aggiungi nuovo** > **Versione**, quindi fai clic sul provider di documenti esterno.
 
-   Per collegare ad esempio una nuova versione di un documento da un Dropbox, fare clic su **Da Dropbox**.
+   Per collegare ad esempio una nuova versione di un documento dal Dropbox, fare clic su **Dal Dropbox**.
 
    I provider esterni che hai già autorizzato vengono visualizzati nella parte superiore dell’elenco.
 
-1. (Condizionale) Se viene richiesto di accedere al servizio esterno, digita le credenziali di accesso per il servizio nella casella visualizzata, quindi fai clic su **Accedi**.
-1. (Condizionale) Se viene richiesto di autorizzare l’applicazione esterna, fai clic su **Autorizza**.
+1. (Condizionale) Se viene richiesto di accedere al servizio esterno, digitare le credenziali di accesso per il servizio nella casella visualizzata, quindi fare clic su **Accedi**.
+1. (Condizionale) Se viene richiesto di autorizzare l&#39;applicazione esterna, fare clic su **Autorizza**.
 
    Devi fare questo solo una volta.
 
-1. Nella casella di ricerca del **Collega file e cartelle esterni** che viene visualizzata, digitare il nome dell&#39;elemento che si desidera cercare, quindi premere **Invio** per visualizzare tutti i risultati dell&#39;applicazione esterna, indipendentemente dalla cartella in cui sono archiviati.
+1. Nella casella di ricerca della casella **Collega file e cartelle esterni** visualizzata, digitare il nome dell&#39;elemento che si desidera cercare, quindi premere **Invio** per visualizzare tutti i risultati dell&#39;applicazione esterna, indipendentemente dalla cartella in cui sono archiviati.
 
    Oppure
 
@@ -179,13 +179,13 @@ Prima di collegare documenti o cartelle, l&#39;amministratore di Workfront deve 
 
    È possibile selezionare più documenti, ma solo i documenti selezionati nella visualizzazione corrente sono collegati. Se ad esempio si seleziona un documento e quindi si accede a una cartella, il documento selezionato in origine non verrà collegato.
 
-1. (Condizionale) Se sei un cliente Workfront DAM, fai clic sul pulsante **Miniatura** per visualizzare i file come miniature.
+1. (Condizionale) Se sei un cliente Workfront DAM, fai clic sull&#39;icona **Miniatura** per visualizzare i file come immagini di miniatura.
 
    >[!NOTE]
    >
    >I clienti di Workfront DAM possono visualizzare le miniature quando collegano documenti da Workfront DAM. Le miniature potrebbero essere visualizzate anche per i clienti di Workfront DAM per altri servizi come Dropbox e Box. Tuttavia, la visualizzazione delle miniature per servizi diversi da Workfront DAM in Workfront non è supportata e le miniature non vengono mai visualizzate quando si collegano documenti da SharePoint o Google Drive.
 
-1. Clic **Collegamento**.
+1. Fai clic su **Collegamento**.
 
    In Workfront, accanto ai documenti viene visualizzata l’icona del provider di cloud, che indica che sono collegati al provider di cloud esterno.
 
@@ -201,14 +201,14 @@ Puoi collegare le bozze a Workfront che originariamente esistevano in Workfront 
 
 Puoi collegare solo le bozze per le quali disponi dell’accesso di visualizzazione in Workfront Proof.
 
-1. Vai a **Documenti** in Workfront in cui si desidera inserire il documento.
-1. Clic **Aggiungi nuovo**, quindi fai clic su **Da Workfront Proof**.
+1. Vai all&#39;area **Documenti** in Workfront in cui desideri inserire il documento.
+1. Fai clic su **Aggiungi nuovo**, quindi su **Da Workfront Proof**.
 
    >[!NOTE]
    >
    >Le opzioni di questo menu possono variare a seconda dei provider di terze parti configurati nel tuo ambiente.
 
-1. In **Collega bozze da Workfront Proof** che viene visualizzata, inizia a digitare il nome della bozza che desideri rendere disponibile in Workfront.
+1. Nella casella **Collega bozze da Workfront Proof** visualizzata, inizia a digitare il nome della bozza che desideri rendere disponibile in Workfront.
 
    L&#39;elenco viene filtrato durante la digitazione.
 
@@ -216,7 +216,7 @@ Puoi collegare solo le bozze per le quali disponi dell’accesso di visualizzazi
 
    Qualsiasi nome di bozza oscurato non è disponibile per il collegamento, perché la bozza è già associata a un documento in Workfront.
 
-1. Clic **Collegamento**.
+1. Fai clic su **Collegamento**.
 
    La versione più recente della bozza è collegata a Workfront. Quando apri la bozza, nel visualizzatore di bozze sono disponibili tutte le versioni.
 
@@ -224,11 +224,11 @@ Puoi collegare solo le bozze per le quali disponi dell’accesso di visualizzazi
 
 È possibile creare un nuovo documento Google da Workfront. Non è possibile creare nuovi documenti da Workfront per altri provider cloud.
 
-1. Vai a **Documenti** in Workfront in cui si desidera inserire il documento.
-1. Clic **Aggiungi nuovo** > **File Google**, quindi selezionare il tipo di documento Google che si desidera creare.
-1. Se il **Aggiungi account Google Drive** , fare clic su **Autorizza unità Google**.
+1. Vai all&#39;area **Documenti** in Workfront in cui desideri inserire il documento.
+1. Fai clic su **Aggiungi nuovo** > **File Google**, quindi seleziona il tipo di documento Google che desideri creare.
+1. Se viene visualizzata la casella **Aggiungi account Google Drive**, fare clic su **Autorizza Google Drive**.
 
-   Un documento Google viene aggiunto al **Documenti** scheda.
+   Un documento Google è stato aggiunto alla scheda **Documenti**.
 
    >[!NOTE]
    >
@@ -245,9 +245,9 @@ Puoi caricare e collegare un documento da Workfront a un provider cloud esterno.
 Gli utenti senza accesso a Workfront possono visualizzare il documento nell’applicazione esterna se hanno accesso all’applicazione.
 
 1. Seleziona un documento caricato in Workfront.
-1. Clic **Altro** >**Invia a**, quindi selezionare il provider di cloud in cui si desidera archiviare il documento collegato.
+1. Fai clic su **Altro** >**Invia a**, quindi seleziona il provider cloud in cui desideri archiviare il documento collegato.
 
-   È inoltre possibile utilizzare il menu Altro ![](assets/more-icon.png) nella pagina Dettagli documento.
+   A tale scopo è inoltre possibile utilizzare il menu Altro ![](assets/more-icon.png) nella pagina Dettagli documento.
 
 1. Selezionare la cartella nell&#39;applicazione del provider in cui si desidera archiviare il documento.
 
@@ -277,14 +277,14 @@ Quando si sincronizza il contenuto della cartella da un&#39;applicazione per doc
 
 ### Collega una o più cartelle esterne {#link-one-or-more-external-folders}
 
-1. Vai all’area di Workfront in cui desideri inserire la cartella, quindi fai clic su  **Documenti** ![](assets/document-icon.png) nel pannello a sinistra .
+1. Vai all&#39;area di Workfront in cui desideri inserire la cartella, quindi fai clic su **Documenti** ![](assets/document-icon.png) nel pannello a sinistra.
 
-1. Clic **Aggiungi nuovo**, quindi fare clic sul provider di documenti esterno da cui si desidera collegare una cartella a Workfront.
+1. Fare clic su **Aggiungi nuovo**, quindi sul provider di documenti esterno da cui si desidera collegare una cartella a Workfront.
 1. (Condizionale) Se non hai ancora autorizzato il servizio esterno, specifica le credenziali di accesso per il provider esterno, quindi fai clic su **Accedi**.
 
    I provider esterni che hai già autorizzato vengono visualizzati nella parte superiore dell’elenco.
 
-1. In **Collega file e cartelle esterni** visualizzata, individuare e selezionare le cartelle che si desidera collegare.
+1. Nella casella **Collega file e cartelle esterni** visualizzata, individuare e selezionare le cartelle che si desidera collegare.
 
    Oppure
 
@@ -296,11 +296,11 @@ Quando si sincronizza il contenuto della cartella da un&#39;applicazione per doc
    >
    >Quando si collegano cartelle da Google Drive, è possibile collegare solo le cartelle che si trovano nell&#39;unità personale (My Drive) e in Team Drive. Non è possibile collegare cartelle dall&#39;area Condiviso con me.
 
-1. Clic **Collegamento**.
+1. Fai clic su **Collegamento**.
 
    In Workfront, accanto alla cartella viene visualizzato il logo del provider di cloud, che indica che è collegato al provider di cloud esterno.
 
-1. (Facoltativo) Per rinominare la cartella in modo che il nome della cartella in Workfront sia diverso dal nome della cartella nell&#39;applicazione documento esterna, selezionare la cartella in **Cartelle** , fare clic sul menu Altro ![](assets/more-icon.png)  accanto al nome della cartella, quindi fai clic su **Rinomina**.
+1. (Facoltativo) Per rinominare la cartella in modo che il nome della cartella in Workfront sia diverso dal nome della cartella nell&#39;applicazione documento esterna, selezionare la cartella nella sezione **Cartelle**, fare clic sul menu Altro ![](assets/more-icon.png) accanto al nome della cartella, quindi fare clic su **Rinomina**.
 
    ![](assets/documents-folderlink-rename-nwe-350x154.png)
 
@@ -310,7 +310,7 @@ La cartella non verrà rinominata nell&#39;applicazione esterna.
 
 È possibile creare una nuova cartella all&#39;interno di una cartella collegata esistente. Puoi anche trascinare un’altra cartella in una cartella collegata esistente.
 
-1. Per creare una nuova cartella all’interno di una cartella collegata esistente, passa alla cartella esistente, quindi crea la nuova cartella come descritto in [Creare cartelle di documenti](../../documents/organizing-documents/create-documents-folder.md).
+1. Per creare una nuova cartella all&#39;interno di una cartella collegata esistente, passare alla cartella esistente, quindi creare la nuova cartella come descritto in [Crea cartelle di documenti](../../documents/organizing-documents/create-documents-folder.md).
 
    Oppure
 
@@ -329,11 +329,11 @@ La cartella non verrà rinominata nell&#39;applicazione esterna.
 
 Quando si aggiunge un documento a una cartella collegata tramite Workfront, questo viene aggiunto automaticamente come documento collegato.
 
-1. Selezionare la cartella collegata in cui si desidera inserire il documento, quindi fare clic su **Aggiungi nuovo > Documento**, quindi individuare il documento e aggiungerlo alla cartella.
+1. Selezionare la cartella collegata in cui si desidera inserire il documento, fare clic su **Aggiungi nuovo > Documento**, quindi individuare il documento e aggiungerlo alla cartella.
 
    Oppure
 
-   In **Documenti** in cui si desidera inserire il documento, trascinare il documento in una cartella collegata.
+   Nell&#39;area **Documenti** in cui si desidera inserire il documento, trascinare il documento in una cartella collegata.
 
    Una nuova versione del documento viene creata automaticamente nell&#39;applicazione esterna e collegata a Workfront.
 
@@ -350,7 +350,7 @@ Quando si aggiunge un documento a una cartella collegata tramite Workfront, ques
 Quando si elimina un documento o una cartella collegata dall&#39;applicazione esterna, il documento o la cartella rimane nel sistema Workfront fino a quando non viene eliminato anche da Workfront.
 
 1. Selezionare il documento o la cartella collegata, quindi fare clic su **Elimina**.
-1. Nella casella di conferma visualizzata, fai clic su **Sì, scollega**.
+1. Nella casella di conferma visualizzata fare clic su **Sì, scollega**.
 
    Il documento è scollegato dal sito Workfront. Non viene influenzato nell’applicazione esterna.
 

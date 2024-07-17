@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: basics-workfront-proof
 title: Informazioni di sistema in [!DNL Workfront Proof]
-description: Scopri le informazioni di sistema in Workfront Proof.
+description: Informazioni sulle informazioni di sistema in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -20,10 +20,10 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alle funzionalità del prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Bozza](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
 Questa sezione contiene i seguenti articoli:
 
-* [Anteprima ambiente di test sandbox - [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md)
+* [Anteprima ambiente di test sandbox- [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md)
 * [Impostazioni lingua in [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/system-information/language-settings.md)
 * [Codec in [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/system-information/codecs.md)

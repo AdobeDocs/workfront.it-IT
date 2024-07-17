@@ -9,7 +9,7 @@ feature: Digital Content and Documents
 exl-id: 72ce147b-29c9-4c3b-a03c-2da0758bc178
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '993'
 ht-degree: 0%
 
 ---
@@ -18,21 +18,21 @@ ht-degree: 0%
 
 Adobe Workfront fornisce due diversi visualizzatori di bozze:
 
-* **Visualizzatore bozze Web:** Progettato principalmente per la verifica di file statici e video. Viene eseguito in Google Chrome, Firefox o Safari.
-* **Visualizzatore bozze desktop:** Progettato per la verifica di file interattivi, video e statici. Funziona come applicazione indipendente sulla workstation. Per ulteriori informazioni, consulta [Informazioni su Visualizzatore bozze desktop](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)
+* **Web Proofing Viewer:** Progettato principalmente per la verifica di file statici e video. Viene eseguito in Google Chrome, Firefox o Safari.
+* **Visualizzatore bozze desktop:** Progettato per la verifica di file interattivi, video e statici. Funziona come applicazione indipendente sulla workstation. Per ulteriori informazioni, vedere [Informazioni su Visualizzatore bozze desktop](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)
 
-* Se l&#39;organizzazione non è in grado di utilizzare l&#39;app Visualizzatore bozze desktop per motivi di sicurezza, l&#39;amministratore di Workfront può configurare il sistema in modo da poter esaminare il contenuto interattivo, incluso in un file di archivio ZIP, nel Visualizzatore bozze web. Per ulteriori informazioni, consulta  [Configurare la verifica dei contenuti interattivi nel visualizzatore bozze web](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
+* Se l&#39;organizzazione non è in grado di utilizzare l&#39;app Visualizzatore bozze desktop per motivi di sicurezza, l&#39;amministratore di Workfront può configurare il sistema in modo da poter esaminare il contenuto interattivo, incluso in un file di archivio ZIP, nel Visualizzatore bozze web. Per ulteriori informazioni, consulta  [Configura la verifica del contenuto interattivo in Web Proofing Viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
 
 L’elenco seguente consente di comprendere cosa è possibile utilizzare Proofing Viewer (Visualizzatore di bozze) per verificare determinati tipi di contenuto:
 
-* **Contenuto web interattivo - URL**: se crei una bozza per il contenuto web utilizzando un URL e desideri eseguirne la bozza in modo interattivo, devi utilizzare il Visualizzatore bozze desktop.
-* **Contenuto web interattivo - File ZIP**: se crei una bozza per il contenuto web utilizzando un file ZIP, puoi utilizzare il visualizzatore bozze web (con alcune limitazioni) o il visualizzatore bozze desktop. Per informazioni sulle limitazioni relative all’utilizzo del visualizzatore bozze web per i contenuti interattivi, consulta [Configurare la verifica dei contenuti interattivi nel visualizzatore bozze web](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
+* **Contenuto Web interattivo - URL**: se si crea una bozza per il contenuto Web utilizzando un URL e si desidera eseguire la bozza del contenuto in modo interattivo, è necessario utilizzare il Visualizzatore bozze desktop.
+* **Contenuto Web interattivo - File ZIP**: se si crea una bozza per il contenuto Web utilizzando un file ZIP, è possibile utilizzare il Visualizzatore bozze Web (con alcune limitazioni) o il Visualizzatore bozze desktop. Per informazioni sulle limitazioni relative all&#39;utilizzo del Visualizzatore bozze Web per il contenuto interattivo, vedere [Configurare la bozza del contenuto interattivo nel Visualizzatore bozze Web](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
 
-* **Contenuti statici e video**: se crei una bozza con contenuto statico, puoi utilizzare il Visualizzatore bozze web o il Visualizzatore bozze desktop.
+* **Contenuto statico e video**: se si crea una bozza con contenuto statico, è possibile utilizzare il visualizzatore bozze Web o il visualizzatore bozze desktop.
 
 ## Bozze statiche
 
-| **Funzionalità** | **Visualizzatore bozze web** | **Visualizzatore bozze desktop** |
+| **Funzionalità** | **Visualizzatore bozze Web** | **Visualizzatore bozze desktop** |
 |---|---|---|
 | Apri bozze statiche | ✓ | ✓&#42; |
 | Visualizzazioni singole, riviste e continue | ✓ | ✓&#42; |
@@ -43,16 +43,16 @@ L’elenco seguente consente di comprendere cosa è possibile utilizzare Proofin
 | Visualizzazione miniature | ✓ | ✓&#42; |
 | Navigatore bozza statica | ✓ | ✓&#42; |
 | Ricerca documenti | ✓ | ✓&#42; |
-| Pubblica commento su più pagine | ✓ (disponibile su tutte le viste) | ✓&#42; (disponibile su tutte le visualizzazioni) |
-| Scelte rapide per bozze statiche avanzate | ✓ (per ulteriori informazioni, consulta la sezione [Scelte rapide da tastiera nel visualizzatore di bozze](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;(per ulteriori informazioni, consulta [Scelte rapide da tastiera nel visualizzatore di bozze](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) |
+| Commento Post su più pagine | ✓ (disponibile su tutte le viste) | ✓&#42; (disponibile su tutte le visualizzazioni) |
+| Scelte rapide per bozze statiche avanzate | ✓ (per ulteriori informazioni, vedere [Scelte rapide da tastiera nel visualizzatore di bozze](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;(per ulteriori informazioni, vedere [Scelte rapide da tastiera nel visualizzatore di bozze](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) |
 
 {style="table-layout:auto"}
 
-&#42; Questa funzionalità funziona solo se l’amministratore di Workfront ha configurato Desktop Proofing Viewer come visualizzatore predefinito per tutte le bozze.
+&#42; Questa funzionalità funziona solo se l&#39;amministratore di Workfront ha configurato Desktop Proofing Viewer come visualizzatore predefinito per tutte le bozze.
 
 ## Bozze video
 
-| **Funzionalità**  | **Visualizzatore bozze web** | **Visualizzatore bozze desktop** |
+| **Funzionalità**  | **Visualizzatore bozze Web** | **Visualizzatore bozze desktop** |
 |---|---|---|
 | Apri bozze video | ✓ | ✓&#42; |
 | Buffering | ✓ | ✓&#42; |
@@ -63,7 +63,7 @@ L’elenco seguente consente di comprendere cosa è possibile utilizzare Proofin
 | modalità a schermo intero | ✓ | ✓&#42;  |
 | Commenti intervallo | ✓ | ✓&#42;  |
 | Eseguire il ciclo continuo delle bozze video (i video vengono completati e avviati automaticamente) | ✓ | ✓&#42;  |
-| Scelte rapide video avanzate | ✓ (per ulteriori informazioni, consulta la sezione [Scelte rapide da tastiera nel visualizzatore di bozze](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;  |
+| Scelte rapide video avanzate | ✓ (per ulteriori informazioni, vedere [Scelte rapide da tastiera nel visualizzatore di bozze](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;  |
 
 {style="table-layout:auto"}
 
@@ -71,7 +71,7 @@ L’elenco seguente consente di comprendere cosa è possibile utilizzare Proofin
 
 ## Bozze interattive
 
-| **Funzionalità**  | **Visualizzatore bozze web** | **Visualizzatore bozze desktop** |
+| **Funzionalità**  | **Visualizzatore bozze Web** | **Visualizzatore bozze desktop** |
 |---|---|---|
 | Aprire le bozze interattive create dal contenuto incluso in un file ZIP | ✓ | ✓ (scelta consigliata) |
 | Aprire una bozza interattiva creata da un URL | Non supportato | ✓ |
@@ -369,7 +369,7 @@ L’elenco seguente consente di comprendere cosa è possibile utilizzare Proofin
 
 ## Visualizzatore
 
-| **Funzionalità**  | **Visualizzatore bozze web**  | **Visualizzatore bozze desktop** |
+| **Funzionalità**  | **Visualizzatore bozze Web**  | **Visualizzatore bozze desktop** |
 |---|---|---|
 | Codice incorporato | Previste per il futuro per bozze video statiche e native | Non supportato  |
 
@@ -384,7 +384,7 @@ L’elenco seguente consente di comprendere cosa è possibile utilizzare Proofin
  <thead> 
   <tr> 
    <th><strong>Funzionalità</strong> </th> 
-   <th><strong>Visualizzatore bozze web</strong> </th> 
+   <th><strong>Visualizzatore bozze Web</strong> </th> 
    <th><strong>Visualizzatore bozze desktop</strong> </th> 
   </tr> 
  </thead> 

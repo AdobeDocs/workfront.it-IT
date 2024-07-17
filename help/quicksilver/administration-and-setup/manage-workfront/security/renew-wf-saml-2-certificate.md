@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >La procedura descritta in questa pagina si applica solo alle organizzazioni che non hanno ancora effettuato l’onboarding nell’Admin Console. Se la tua organizzazione è stata integrata in Adobe Admin Console, non è necessaria alcuna azione.
 >
->Per un elenco delle procedure che differiscono in base al fatto che la tua organizzazione sia stata onboarding in Adobe Admin Console, consulta [Differenze di amministrazione basate su piattaforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Per un elenco delle procedure che differiscono a seconda che l&#39;organizzazione sia stata integrata in Adobe Admin Console, consulta [Differenze di amministrazione basate su Platform (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 I server Adobe Workfront utilizzano il protocollo SAML 2.0 per l’autenticazione e l’autorizzazione. Una volta aggiornato, il nuovo certificato rimane valido per un anno. Quando è il momento di rinnovare il certificato sul provider di identità, viene visualizzato un avviso in Workfront che segnala che questa modifica deve essere apportata. In qualità di amministratore di Workfront, puoi gestire questa modifica a livello di sistema.
 
@@ -72,13 +72,13 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 Per rivedere il messaggio di avviso e confermare l’aggiornamento dei metadati SAML 2.0 nel provider di identità:
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
-1. Clic **Sistema** > **Single Sign-On**.
+1. Fare clic su **Sistema** > **Single Sign-On**.
 
-1. In **Tipo** menu a discesa, seleziona **SAML 2.0**.
+1. Nel menu a discesa **Tipo**, selezionare **SAML 2.0**.
 
-1. Clic **Scarica metadati SAML 2.0**.
+1. Fare clic su **Scarica metadati SAML 2.0**.
 
    In questo modo viene scaricato il certificato Workfront rinnovato per SAML 2.0, che contiene i metadati corretti per il server.
 
@@ -93,7 +93,7 @@ Per rivedere il messaggio di avviso e confermare l’aggiornamento dei metadati 
 
 1. Nel server del provider di identità, aggiorna il nuovo certificato scaricato.
 1. (Condizionale) Se l’URL di Assertion Consumer Service (ACS) o l’URL di risposta è stato modificato nel provider di identità, riportalo all’URL copiato nel passaggio 5.
-1. In Workfront, il **Pagina Single Sign-on (SSO)**, accertati che questa opzione sia selezionata: **Il nuovo certificato Workfront è già stato caricato nel provider di identità**.
+1. In Workfront, nella **pagina Single Sign-on (SSO)**, verificare che questa opzione sia selezionata: **Il nuovo certificato Workfront è già stato caricato nel provider di identità**.
 
    >[!NOTE]
    >
@@ -107,8 +107,8 @@ Per rivedere il messaggio di avviso e confermare l’aggiornamento dei metadati 
 
    Il messaggio di avviso non viene più visualizzato perché hai riconosciuto il rinnovo del certificato SAML 2.0 sul server del provider di identità.
 
-1. Clic **Verifica connessione** per testare la configurazione.
+1. Fai clic su **Verifica connessione** per verificare la configurazione.
 
    Dovresti visualizzare un messaggio che conferma che la connessione è avvenuta correttamente.
 
-Per ulteriori informazioni o per assistenza nella configurazione manuale dei metadati, contatta il nostro team di supporto, come spiegato in [Contatta l’Assistenza clienti](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+Per ulteriori informazioni o per assistenza nella configurazione manuale dei metadati, contatta il nostro team di supporto, come spiegato in [Contatta l&#39;Assistenza clienti](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).

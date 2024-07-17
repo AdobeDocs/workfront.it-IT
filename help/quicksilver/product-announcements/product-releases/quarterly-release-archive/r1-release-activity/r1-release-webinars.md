@@ -20,7 +20,7 @@ Questi webinar si sono concentrati sulle funzionalità incluse nella versione R1
 
 La versione R1 è attualmente disponibile per il test in Anteprima; le versioni R1 nell&#39;ambiente di produzione il 26 aprile 2017.
 
-Per informazioni più dettagliate sulle funzionalità trattate nei webinar, vedi [Panoramica dell’attività sulla versione R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md) pagina.
+Per visualizzare informazioni più dettagliate sulle funzionalità trattate nei webinar, consulta la pagina di panoramica dell&#39;attività sulla versione [R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md).
 
 Sono disponibili le seguenti registrazioni di webinar:
 

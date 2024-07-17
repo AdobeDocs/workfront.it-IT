@@ -45,7 +45,7 @@ Se non disponi dell’accesso, chiedi all’amministratore di Workfront se ha im
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per l’attività</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per l’attività</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,11 +58,11 @@ Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, co
 
 Prima di associare un&#39;attività cardine a un&#39;attività, è necessario che siano presenti le condizioni seguenti:
 
-* L’amministratore di Workfront deve creare un percorso milestone, come descritto in [Creare un percorso milestone](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+* L&#39;amministratore di Workfront deve creare un percorso milestone, come descritto in [Creare un percorso milestone](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
 * È necessario associare un Percorso milestone a un progetto.
 
-  Per informazioni, consulta [Modifica progetti](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+  Per informazioni, vedere [Modifica progetti](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
 * Per associare un percorso milestone a un progetto, il progetto deve trovarsi nello stato Pianificazione o Corrente.
 
@@ -74,18 +74,18 @@ Prima di associare un&#39;attività cardine a un&#39;attività, è necessario ch
 
 Dopo aver associato un percorso milestone a un progetto, alle attività può essere assegnata una milestone.
 
-1. Vai a un’attività, quindi fai clic su **Altro** icona ![](assets/more-icon.png) a destra del nome dell’attività, quindi **Modifica**.
+1. Vai a un&#39;attività, quindi fai clic sull&#39;icona **Altro** ![](assets/more-icon.png) a destra del nome dell&#39;attività, quindi su **Modifica**.
 
    Le attività e le Milestone hanno una relazione 1:1. Impossibile associare la stessa milestone a più attività. È possibile collegare ogni attività a un&#39;unica attività cardine oppure associare ogni attività cardine a un&#39;unica attività.
 
-1. Clic **Impostazioni**, quindi seleziona una milestone in **Milestone** per l&#39;attività.
+1. Fai clic su **Impostazioni**, quindi seleziona una milestone nel campo **Milestone** per l&#39;attività.
 1. Fai clic su **Salva**.
-1. (Facoltativo) In un elenco di attività, aggiungi **Icone di stato** per identificare le attività cardine. Nella colonna Icone di stato viene visualizzato l&#39;indicatore del rombo di Milestone.
+1. (Facoltativo) In un elenco di attività, aggiungi la colonna **Icone di stato** per identificare le attività cardine. Nella colonna Icone di stato viene visualizzato l&#39;indicatore del rombo di Milestone.
 
-   Per informazioni, consulta [Creare o modificare viste in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+   Per informazioni, vedere [Creare o modificare le visualizzazioni in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
    ![](assets/amwt3.png)
 
-1. (Facoltativo) Vai a un elenco di progetti, seleziona la **Milestone** per identificare l&#39;avanzamento delle attività milestone.
+1. (Facoltativo) Vai a un elenco di progetti, seleziona la visualizzazione **Milestone** per identificare l&#39;avanzamento delle attività milestone.
 
    ![](assets/milestone-view-project-list.png)
