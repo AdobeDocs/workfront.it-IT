@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 1b4c914108e8c9e04d026520d20675d2a88dd485
+source-git-commit: ad74648a70bbb44e8093e30e111f75859d6baa68
 workflow-type: tm+mt
-source-wordcount: '1599'
+source-wordcount: '1601'
 ht-degree: 11%
 
 ---
@@ -133,7 +133,7 @@ Solo gli utenti con una licenza Standard possono avere accesso completo ai portf
 | Elimina | ✓&#42; |   |   |   |
 | Condividi | ✓&#42; |   |   |   |
 | Condividi a livello di sistema | ✓&#42; |   |   |   |
-| Visualizza | ✓&#42; | ✓&#42; |   |   |
+| Visualizza | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Modifica dettagli | ✓ |   |   |   |
 | Allegare moduli personalizzati | ✓ |   |   |   |
 | Modifica campi personalizzati | ✓ |   |   |   |
@@ -157,7 +157,7 @@ Solo gli utenti con una licenza Standard possono avere accesso completo ai progr
 | Elimina | ✓&#42; |   |   |   |
 | Condividi | ✓&#42; |   |   |   |
 | Condividi a livello di sistema | ✓&#42; |   |   |   |
-| Visualizza | ✓&#42; | ✓&#42; |   |   |
+| Visualizza | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Modifica dettagli | ✓ |   |   |   |
 | Allegare moduli personalizzati | ✓ |   |   |   |
 | Modifica campi personalizzati | ✓ |   |   |   |

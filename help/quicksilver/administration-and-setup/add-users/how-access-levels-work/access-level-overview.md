@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 2da3c687b33d808ec4bf19d380bc82759d19bf99
+source-git-commit: 528c264f613c0deb88c1cf52adb885ad4ead098b
 workflow-type: tm+mt
-source-wordcount: '1702'
+source-wordcount: '1745'
 ht-degree: 5%
 
 ---
@@ -281,8 +281,8 @@ Di seguito sono riportate le impostazioni di accesso più elevate disponibili pe
 | Progetto |   | ✓ |   |
 | Attività |   | ✓ |   |
 | Problema |   |   | ✓ |
-| Portfolio | ✓ |   |   |
-| Programmi | ✓ |   |   |
+| Portfolio |   | ✓ |   |
+| Programmi |   | ✓ |   |
 | Report (inclusi dashboard e report calendario) |   | ✓ (solo la scheda Dettagli) |   |
 | Filtri, viste e raggruppamenti |   |   | ✓ |
 | Documento |   |   | ✓ |
@@ -297,6 +297,13 @@ Di seguito sono riportate le impostazioni di accesso più elevate disponibili pe
 | Obiettivi |   |   | ✓ |
 
 {style="table-layout:auto"}
+
+>[!IMPORTANT]
+>
+>A partire dalla versione 24.7, per impostazione predefinita i collaboratori hanno accesso in visualizzazione a programmi e Portfoli.
+>
+> 
+>Per impostazione predefinita, i collaboratori avviati prima della versione 24.7 continueranno a non avere accesso a programmi e Portfoli. Se necessario, puoi aggiornarne l’accesso per la visualizzazione manuale.
 
 ### Livello di accesso utente esterno
 
