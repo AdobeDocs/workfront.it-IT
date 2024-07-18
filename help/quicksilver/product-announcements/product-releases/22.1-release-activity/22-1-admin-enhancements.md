@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 63ff1334-aebe-4df4-a855-10011707808b
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1452'
 ht-degree: 0%
 
 ---
@@ -57,8 +57,6 @@ Per ulteriori informazioni, vedere [Configurare una blueprint](../../../administ
 
 L’area Personalizza Forms ha un nuovo aspetto che lo rende aggiornato a molte altre aree della nuova esperienza Workfront.
 
-Per informazioni sulla creazione di un modulo personalizzato, vedere [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-
 ## Numerosi miglioramenti per la creazione di campi personalizzati calcolati
 
 La creazione di campi personalizzati calcolati è ora molto più semplice con queste aggiunte nel nuovo Editor di calcolo:
@@ -70,8 +68,6 @@ La creazione di campi personalizzati calcolati è ora molto più semplice con qu
 * È possibile visualizzare in anteprima il risultato del calcolo utilizzando un oggetto esistente senza uscire dall&#39;editor di calcolo.
 
 Inoltre, nel testo personalizzabile delle &quot;Istruzioni&quot; al passaggio del mouse per un campo personalizzato calcolato, puoi visualizzare o nascondere la formula del campo. Questa opzione è utile se si ritiene che gli utenti che compileranno il modulo personalizzato non avranno bisogno di tali informazioni.
-
-Per ulteriori informazioni sulla creazione di un campo personalizzato calcolato, vedere [Aggiungere dati calcolati a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 ## Visualizzare le informazioni del registro di controllo relative agli stati e alle società
 
@@ -108,8 +104,6 @@ Per ulteriori informazioni, vedere [Gestire le appartenenze alle società](../..
 
 Stiamo continuando a semplificare la creazione di un campo calcolato in un modulo personalizzato. Ora, quando si fa clic su Ingrandisci per aprire il nuovo Editor di calcolo, è possibile trovare e selezionare le espressioni e i campi necessari.
 
-Per ulteriori informazioni, vedere [Aggiungere dati calcolati a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
-
 ## I gruppi possono configurare le proprie preferenze per le ore e le schede orario
 
 >[!NOTE]
@@ -144,8 +138,6 @@ Per ulteriori informazioni, vedere [Eliminare un gruppo](../../../administration
 ## Area più ampia per la creazione di campi calcolati
 
 Ora è più semplice creare campi calcolati complessi in un modulo personalizzato. Fare clic sul nuovo pulsante Ingrandisci per aprire una grande finestra di modifica per la creazione del calcolo. Al termine, fare clic su Riduci a icona per continuare a lavorare sul modulo personalizzato.
-
-Per ulteriori informazioni, vedere [Aggiungere dati calcolati a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 ## Aggiungere moduli personalizzati ai gruppi
 

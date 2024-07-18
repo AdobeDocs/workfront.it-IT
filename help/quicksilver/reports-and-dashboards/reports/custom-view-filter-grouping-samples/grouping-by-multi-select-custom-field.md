@@ -7,9 +7,9 @@ description: Puoi eseguire il raggruppamento in base al valore in un campo perso
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 Per poter raggruppare in base a un campo personalizzato a selezione multipla, è necessario disporre dei seguenti prerequisiti:
 
 * Crea il campo personalizzato a selezione multipla in un modulo personalizzato.\
-  Per informazioni sulla creazione di moduli personalizzati e sull&#39;aggiunta di campi personalizzati, vedere l&#39;articolo [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  Per informazioni sulla creazione di moduli personalizzati e sull&#39;aggiunta di campi personalizzati a tali moduli, vedere l&#39;articolo [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Allegare il modulo personalizzato agli oggetti.
 * Compila il campo personalizzato a selezione multipla con un valore su ciascun oggetto. 
@@ -115,13 +115,13 @@ Per raggruppare in base a un campo personalizzato a selezione multipla in un rap
 <p><strong>Build a calculated custom field that references a multi-select custom field</strong></p>
 <p>To be able to build a calculated field that references a multi-select custom field, you must have the following prerequisites:</p>
 <ul>
-<li>Build the multi-select custom field in a custom form.<br>For information about building custom forms and adding custom fields to them, see the article <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</li>
+<li>Build the multi-select custom field in a custom form.<br>.</li>
 <li>Attach the custom form to objects.</li>
 <li>Populate the multi-select custom field with a value on each object.</li>
 </ul>
 <p>To build the calculated custom field that references the multi-select custom field:</p>
 <ol>
-<li value="1">Create a custom form, or edit an existing one.<br>For information about creating custom forms, see the article <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</li>
+<li value="1">Create a custom form, or edit an existing one.<br>.</li>
 <li value="2">Click<strong>Add a Field</strong>, then <strong>Calculated</strong> to add the multi-select custom field to the form.</li>
 <li value="3">In the <strong>Label</strong> box, name the new calculated field to indicate that it references the multi-select custom field.<br>For example: "Calculated Multi-select Field."</li>
 <li value="4"> <p>In the <strong>Calculation</strong> box, enter the following code:</p><pre>{DE:Multi-select Custom Field}</pre> <p> <img src="assets/calculated-multi-select-custom-field-350x201.png" style="width: 350;height: 201;"> <br> </p> </li>

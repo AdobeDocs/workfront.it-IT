@@ -1,7 +1,7 @@
 ---
-source-git-commit: d0940962d0e64079dadc8c93f5503a01afd9fb8b
+source-git-commit: 56fdec48612520012e606e0906cf3ac05fa27e37
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2457'
 ht-degree: 1%
 
 ---
@@ -65,11 +65,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Con la prossima versione, prevista per il 15 luglio (versione 24.7), chi progetta moduli sarà generalmente disponibile e diventerà l’esperienza predefinita per la creazione e la modifica di moduli personalizzati in Adobe Workfront. Il generatore di moduli legacy non sarà più disponibile. È consigliabile passare ora al progettista del modulo e sfruttarne le funzionalità.
+>Il generatore di moduli legacy non è più disponibile dalla versione 24.7 del 18 luglio 2024. Il progettista di moduli è ora l’esperienza predefinita per la creazione e la modifica di moduli personalizzati in Adobe Workfront.
 >
 >Per informazioni, vedere [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
->
->Il generatore di moduli legacy è stato rimosso dall’ambiente di anteprima il 19 giugno 2024 e verrà rimosso dall’ambiente di produzione con la versione 24.7 di luglio.
 
 ## Associa gruppo a destra con team {#right-group-team}
 

@@ -1,5 +1,5 @@
 ---
-title: Moduli personalizzati
+title: "Moduli personalizzati: indice degli articoli"
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,10 +10,10 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: a732344d-aca5-4825-b360-a4b49076b4d0
-source-git-commit: 0aed653b9e5f0123e6b4d6e494aaff563ae1a72d
+source-git-commit: e15b2866d8dd93d9d8cbc37b204da51d748523c8
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 1%
+source-wordcount: '122'
+ht-degree: 0%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 1%
 
 Non esiste alcun limite al numero di moduli personalizzati che è possibile creare nell’istanza di Workfront. Il limite di moduli personalizzati che è possibile allegare a un oggetto è 10.
 
-Questa sezione contiene i seguenti articoli:
+Questa sezione contiene i seguenti articoli e sottosezioni:
 
-* [Panoramica moduli personalizzati](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
-* [Generatore di moduli personalizzati legacy](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
-* [Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
+* [Panoramica dei moduli personalizzati](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
+* [Progettare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form-toc.md)
+* [Gestire moduli e campi personalizzati](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/manage-custom-forms-toc.md)

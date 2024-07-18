@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '848'
 ht-degree: 2%
 
 ---
@@ -93,7 +93,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    * [Crea regole di routing](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
    * [Crea gruppi di argomenti](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
-   * [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+   * [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
 
 1. Passare al progetto che si è scelto di abilitare come coda di richieste di aiuto e dove si desidera creare un nuovo argomento della coda.\
    Per ulteriori informazioni su come designare un progetto come coda di richieste di assistenza, vedere [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
@@ -128,7 +128,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Moduli personalizzati</strong> </td> 
-      <td>Selezionare i moduli personalizzati da associare all'argomento della coda. È necessario creare moduli personalizzati per i problemi prima di associarli agli argomenti della coda. Per informazioni sulla creazione di moduli personalizzati, vedere <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Creare o modificare un modulo personalizzato</a>.</td> 
+      <td>Selezionare i moduli personalizzati da associare all'argomento della coda. È necessario creare moduli personalizzati per i problemi prima di associarli agli argomenti della coda. Per informazioni sulla creazione di moduli personalizzati, vedere <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Progettare un modulo con Progettazione moduli</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Approvazione predefinita</strong></td> 

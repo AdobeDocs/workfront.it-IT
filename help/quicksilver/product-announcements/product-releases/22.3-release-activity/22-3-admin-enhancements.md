@@ -6,9 +6,9 @@ draft: false
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4607703a-d70e-432c-9fa2-bd43af5a870e
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -54,8 +54,6 @@ Per ulteriori informazioni, consulta i seguenti articoli:
 
 Stiamo continuando a aiutarti a rendere i moduli personalizzati più visivi e informativi con nuovi widget di risorse che puoi aggiungere, come immagini e video. Ora è possibile aggiungere un collegamento a un file PDF a un modulo personalizzato. Quando il modulo viene allegato a un oggetto, gli utenti che lavorano con l’oggetto possono visualizzare e interagire con il PDF dall’interno del modulo.
 
-Per ulteriori informazioni, consulta [Aggiungere o modificare un&#39;immagine o un altro widget di risorse in un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
-
 ## L’editor di calcolo per i campi modulo personalizzati visualizza le informazioni sull’errore
 
 >[!NOTE]
@@ -63,8 +61,6 @@ Per ulteriori informazioni, consulta [Aggiungere o modificare un&#39;immagine o 
 >Questa funzione non è al momento disponibile. Questa pagina verrà aggiornata quando la funzione sarà disponibile.
 
 La modifica dei calcoli per i campi personalizzati è ora più semplice grazie alle utili informazioni sugli errori indicate direttamente nel calcolo. Durante la creazione di un campo calcolato in un modulo personalizzato, gli errori vengono evidenziati in rosa. Quando passi il cursore del mouse sulla parte evidenziata, viene visualizzata una descrizione per descrivere il problema.
-
-Per ulteriori informazioni, vedere [Aggiungere dati calcolati a un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 ## Personalizzazione dell’intestazione del progetto
 
@@ -111,6 +107,4 @@ Per ulteriori informazioni, vedere [Disattivare o riattivare un gruppo](/help/qu
 È ora possibile aggiungere un video per fornire a un modulo personalizzato una nuova modalità di informazioni, interesse visivo e creatività. Quando il modulo viene allegato a un oggetto, gli utenti che lo utilizzano possono riprodurre il video in qualsiasi momento.
 
 In precedenza era possibile aggiungere a un modulo personalizzato solo campi e immagini basati su testo.
-
-Per ulteriori informazioni, consulta [Aggiungere o modificare un widget di immagini o risorse video in un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 

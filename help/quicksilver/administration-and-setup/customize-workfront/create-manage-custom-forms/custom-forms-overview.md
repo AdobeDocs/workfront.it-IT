@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 286a5b40baced3bfd3e06a2b3f1c143839808018
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 7%
+source-wordcount: '366'
+ht-degree: 11%
 
 ---
 
@@ -29,10 +29,11 @@ Ad esempio, puoi allegare a un progetto un modulo personalizzato denominato &quo
 
 ## Come creare un modulo personalizzato
 
-Sono disponibili due opzioni per creare un modulo personalizzato in [!DNL Workfront]. Puoi utilizzare il Generatore di moduli personalizzati legacy o il nuovo progettista di moduli:
+Il progettista di moduli dispone di un&#39;area di lavoro in stile area di lavoro che consente di visualizzare contemporaneamente i campi, l&#39;area di lavoro e le impostazioni dei campi. Consente inoltre di trascinare e rilasciare i campi all’interno delle sezioni durante la progettazione del modulo.
 
-* [Generatore di moduli personalizzati legacy](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
-* [Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
+Per ulteriori informazioni, vedere [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+![Progettazione moduli di esempio](assets/form-designer-example.png)
 
 ## Campi e widget personalizzati
 
@@ -42,15 +43,17 @@ In un modulo personalizzato, è possibile creare campi aggiuntivi che richiedono
 
 In Workfront è possibile aggiungere i seguenti tipi di campi personalizzati a un modulo personalizzato:
 
-* Campo di testo a riga singola o Testo a riga singola nel progettista del modulo
-* Campo di testo paragrafo o Testo paragrafo nel progettista del modulo
-* Campo di testo con formattazione o Testo con formattazione nello strumento di progettazione dei moduli
+* Testo su riga singola
+* Testo paragrafo
+* Testo con formattazione
 * A discesa
-* Ricerca esterna - disponibile solo nel progettista del modulo
+* Elenco a discesa multi-selezione
+* Ricerca esterna
+* Campo nativo
 * Automatico
 * Calcolato
-* Campo data o campo data nel progettista del modulo
-* Checkboxe
+* Campo Data
+* Gruppo di caselle di controllo
 * Bottoni Circolari
 * Testo descrittivo
 * Interruzione di sezione
@@ -58,6 +61,10 @@ In Workfront è possibile aggiungere i seguenti tipi di campi personalizzati a u
 * Immagine
 * PDF
 * Video
+
+>[!NOTE]
+>
+>Per tenere traccia delle modifiche dei campi nei feed di aggiornamento, passa a Configurazione > Interfaccia > Feed di aggiornamento. Per ulteriori informazioni, vedere [Configurare gli aggiornamenti di sistema](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 ## Oggetti a cui gli utenti possono allegare un modulo personalizzato
 
@@ -81,5 +88,4 @@ Gli utenti possono allegare moduli personalizzati ai seguenti tipi di oggetti:
 Per ulteriori informazioni sull&#39;associazione di moduli personalizzati agli oggetti, vedere [Aggiungere un modulo personalizzato a un oggetto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 Per informazioni su ciò che accade ai moduli personalizzati durante la conversione di un oggetto, vedere [Trasferire i dati del modulo personalizzato durante la conversione di un oggetto](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
-
 

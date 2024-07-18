@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 7ae5a04a-a9bc-4a85-8651-2b912f7fd7e4
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1521'
 ht-degree: 0%
 
 ---
@@ -173,6 +173,4 @@ Per ulteriori informazioni, consulta i seguenti articoli:
 ## Novità per gli amministratori: sono disponibili più opzioni di formattazione del testo nei campi del modulo personalizzato
 
 Quando gli utenti digitano nei campi Modulo personalizzato che consentono la formattazione, ora possono organizzare il testo utilizzando punti elenco, numeri, collegamenti ipertestuali e virgolette, oltre a grassetto, corsivo e sottolineato.
-
-Per ulteriori informazioni, vedere [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 

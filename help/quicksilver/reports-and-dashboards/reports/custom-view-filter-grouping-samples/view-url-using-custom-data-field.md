@@ -7,9 +7,9 @@ description: È possibile visualizzare un collegamento a un URL personalizzato i
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 5e402fed-71ce-438a-8da9-8f8d37550ea8
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 
 ## Creare il campo personalizzato calcolato &quot;URL personalizzato&quot;
 
-Per informazioni sulla creazione di un campo personalizzato calcolato, vedere l&#39;articolo [Aggiungere dati calcolati a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Per informazioni sulla creazione di un campo personalizzato calcolato, vedere [Aggiungere campi calcolati a un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 Se si dispone dell&#39;accesso per creare un modulo personalizzato, è possibile creare un campo personalizzato calcolato per le attività denominato &quot;URL personalizzato&quot;. Questo campo è collegato direttamente alla scheda secondaria **Panoramica** nella scheda **Dettagli attività**.
 

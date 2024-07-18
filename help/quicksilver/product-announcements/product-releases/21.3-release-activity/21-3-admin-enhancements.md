@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 18f8f5ac-48a3-45fe-9bf0-12b4b402f85f
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -48,8 +48,3 @@ Per ulteriori informazioni, vedere [Gestire gli stati dei gruppi](../../../admin
 ## Novità per gli amministratori: creare un modulo personalizzato per i record di fatturazione
 
 Ora puoi migliorare il modo in cui gli utenti acquisiscono le informazioni di fatturazione creando un modulo personalizzato per il record di fatturazione. Gli utenti possono allegare il modulo personalizzato a un record di fatturazione, compilarlo ed eseguire rapporti che includono le informazioni contenute nel modulo.
-
-Per informazioni sulla creazione di moduli personalizzati, vedere [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-
-Per informazioni su come allegare un modulo personalizzato per record fatturazione a un progetto, vedere [Aggiungere un modulo personalizzato a un oggetto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
-

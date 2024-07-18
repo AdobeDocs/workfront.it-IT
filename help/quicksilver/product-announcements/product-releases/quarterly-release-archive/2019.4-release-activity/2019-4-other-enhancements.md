@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ed7488f1-2076-4160-97f3-a3da25cccd0f
-source-git-commit: e1bf5fbc7dc25bf8ce472b21b9a0906530f82cf0
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,6 @@ Per un elenco di tutte le modifiche apportate in 2019.4, consulta [Panoramica su
      <strong>Ulteriori tipi di oggetto disponibili per i campi Typeahead in un modulo personalizzato</strong> 
      <p>Ora, quando si crea un campo personalizzato Automatico, è possibile associare al campo i seguenti tipi di oggetto: Utente, Società, Gruppo, Mansione, Portfolio, Programma, Progetto e Modello.</p> 
      <p>In precedenza era possibile associare solo il tipo di oggetto User a un campo personalizzato Typeahead.</p> 
-     <p>Per ulteriori informazioni, vedere la sezione <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">Creare o modificare un modulo personalizzato</a> nell'articolo <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">Creare o modificare un modulo personalizzato</a>.</p> 
     </div> </td> 
   </tr> 
   <tr> 
@@ -75,7 +74,6 @@ Per un elenco di tutte le modifiche apportate in 2019.4, consulta [Panoramica su
      <p>Se ad esempio è stato creato un campo Caselle di controllo, è possibile modificarlo in un campo a discesa o in un campo Pulsanti di scelta. Questi tre tipi di visualizzazione dei campi sono intercambiabili.</p> 
      <p>In alternativa, se è stato creato un campo di testo a riga singola, è possibile modificarlo in un campo di testo paragrafo. Questi due tipi di visualizzazione dei campi sono intercambiabili.</p> 
      <p>In precedenza, per modificare il tipo di visualizzazione di un campo personalizzato, era necessario creare un nuovo campo ed eliminare quello precedente. Questo richiedeva il trasferimento dei dati, operazione che spesso richiedeva molto tempo.</p> 
-     <p>Per ulteriori informazioni, vedere <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">Creare o modificare un modulo personalizzato</a> nell'articolo <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">Creare o modificare un modulo personalizzato</a></p> 
     </div> </td> 
   </tr> 
   <tr> 

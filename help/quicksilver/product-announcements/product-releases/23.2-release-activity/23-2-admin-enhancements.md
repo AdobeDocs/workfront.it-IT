@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 46da311a-0e22-4def-9df8-e30b142c815d
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Con il nuovo form designer è stata aggiunta la possibilità di
 
 * **Modifica le dimensioni per il testo descrittivo**: ora puoi assegnare dimensioni piccole, medie o grandi ai campi Testo descrittivo. È inoltre possibile utilizzarli nella stessa riga con altri campi. <span style="color: #ff0000;"> La modifica delle dimensioni per il testo descrittivo è stata temporaneamente posticipata ma è prevista a breve.</span></li>
 
-Per ulteriori informazioni, vedere [Panoramica di Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).
+Per ulteriori informazioni, vedere [Panoramica moduli personalizzati](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
 
 [Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3416586/){target=_blank}
 

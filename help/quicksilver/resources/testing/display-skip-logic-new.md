@@ -2,9 +2,9 @@
 title: Aggiungere logica di visualizzazione e logica di salto a un modulo personalizzato
 description: Aggiungere logica di visualizzazione e logica di salto a un modulo personalizzato
 draft: Probably
-source-git-commit: c0722924d6621b382050a10e9aac549fc1204d72
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1475'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,6 @@ I tipi di campo a scelta multipla sono Menu a discesa, Caselle di controllo e Pu
   Questa funzione è particolarmente utile se si aggiungono molti altri campi relativi a logo, aggiornamenti di siti Web e brochure, che l&#39;utente non deve necessariamente visualizzare.
 È possibile applicare una regola di salto della logica solo a un campo personalizzato, non a un widget o a una sezione.
 
-Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, consulta [Aggiungere un campo personalizzato a un modulo personalizzato](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) e [Aggiungere o modificare un widget di risorse in un modulo personalizzato](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Requisiti di accesso
 

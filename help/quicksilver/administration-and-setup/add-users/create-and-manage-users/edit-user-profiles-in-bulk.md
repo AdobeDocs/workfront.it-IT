@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: e52881a03f69d7c4d6a62dcdc9c6044f6f5dd016
 workflow-type: tm+mt
-source-wordcount: '2245'
+source-wordcount: '2246'
 ht-degree: 0%
 
 ---
@@ -209,7 +209,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
        <p>Per ulteriori informazioni sui pool di risorse, vedere <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Panoramica sui pool di risorse </a>.</p> </li> 
        <li><b>Costo orario</b>: la quantità di costo orario per l'utente. </li> 
        <li><b>Fatturazione ad ore</b>: la quantità di fatturazione ad ore per l'utente.</li> 
-       <li><b>Forms personalizzato</b>: associa agli utenti un modulo personalizzato esistente. È necessario creare un modulo personalizzato prima di associarlo a un utente. Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. Per informazioni sulla creazione di moduli personalizzati, vedere <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Creare o modificare un modulo personalizzato</a>.</li> 
+       <li><b>Forms personalizzato</b>: associa agli utenti un modulo personalizzato esistente. È necessario creare un modulo personalizzato prima di associarlo a un utente. Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. Per informazioni sulla creazione di moduli personalizzati, vedere <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Progettare un modulo con Progettazione moduli</a>.</li> 
        <li><b>Commento</b>: immetti un commento nel campo fornito. Tutti gli utenti selezionati riceveranno una notifica in-app e una notifica e-mail con il tuo commento. Il commento viene visualizzato nella scheda Aggiornamenti del profilo dell’utente.</li> 
        </ul> </td> 
      </tr> 

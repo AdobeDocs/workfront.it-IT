@@ -6,7 +6,7 @@ description: Panoramica sugli usi comuni della modalità testo
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
-source-git-commit: 111c776af19fbc2982c14cc9d3b3778d37bc0be3
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%
@@ -58,9 +58,9 @@ Per creare viste, filtri e raggruppamenti, è consigliabile utilizzare il genera
 
 È possibile utilizzare la modalità testo per aggiungere un campo personalizzato calcolato a un modulo personalizzato.
 
-Per ulteriori informazioni sull&#39;aggiunta di un campo personalizzato calcolato a un modulo personalizzato, vedere [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Per ulteriori informazioni sull&#39;aggiunta di un campo personalizzato calcolato a un modulo personalizzato, vedere [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-Per ulteriori informazioni sulla creazione di un campo personalizzato calcolato in modalità testo, vedere [Aggiungere dati calcolati a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Per ulteriori informazioni sulla creazione di un campo personalizzato calcolato in modalità testo, vedere [Aggiungere campi calcolati a un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 Ad esempio, è possibile aggiungere un campo personalizzato calcolato che mostra un indicatore di data e ora del momento in cui un elemento è stato contrassegnato come In corso. È possibile utilizzare questo calcolo per altri stati.
 

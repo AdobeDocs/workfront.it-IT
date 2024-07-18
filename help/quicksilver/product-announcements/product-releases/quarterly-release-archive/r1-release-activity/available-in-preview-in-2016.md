@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -93,8 +93,6 @@ Per ulteriori informazioni sui dashboard, vedere [Creare un dashboard](../../../
 È ora possibile controllare gli utenti che hanno accesso a un modulo personalizzato concedendo l’accesso a singoli utenti, team, ruoli, gruppi o aziende. 
 
 Prima di questa modifica, era possibile concedere l’accesso solo ai gruppi.
-
-Per ulteriori informazioni, vedere [Creare o modificare un modulo personalizzato](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
 
 ## Integrazione con Adobe Creative Cloud
 

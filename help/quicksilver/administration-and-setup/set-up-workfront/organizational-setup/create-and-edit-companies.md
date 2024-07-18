@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '1473'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ Per aggiungere o modificare una società:
      </tr>
      <tr> 
       <td role="rowheader">Sezione [!UICONTROL Custom Forms]</td> 
-      <td> <p>Se sono presenti campi che si desidera aggiungere alla società non disponibili in [!DNL Workfront], è possibile creare un modulo personalizzato e associarlo alla società. </p> <p>Per allegare il modulo alla società, selezionarlo dal menu a discesa. Nel menu sono elencati solo i moduli personalizzati attivi.</p> <p><strong>Nota:</strong> le caratteristiche avanzate dei moduli personalizzati, ad esempio i campi di ricerca esterna e i campi nativi di Workfront, sono disponibili solo quando si apre il record della società nella pagina dei dettagli e non nella finestra di dialogo Modifica società. Dall’elenco delle aziende, fai clic sul nome della società per aprire i dettagli.</p> <p> Per informazioni sulla creazione di moduli personalizzati, vedere <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Creare o modificare un modulo personalizzato</a>. </p> </td>
+      <td> <p>Se sono presenti campi che si desidera aggiungere alla società non disponibili in [!DNL Workfront], è possibile creare un modulo personalizzato e associarlo alla società. </p> <p>Per allegare il modulo alla società, selezionarlo dal menu a discesa. Nel menu sono elencati solo i moduli personalizzati attivi.</p> <p><strong>Nota:</strong> le caratteristiche avanzate dei moduli personalizzati, ad esempio i campi di ricerca esterna e i campi nativi di Workfront, sono disponibili solo quando si apre il record della società nella pagina dei dettagli e non nella finestra di dialogo Modifica società. Dall’elenco delle aziende, fai clic sul nome della società per aprire i dettagli.</p> <p> Per informazioni sulla creazione di moduli personalizzati, vedere <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Progettare un modulo con Progettazione moduli</a>. </p> </td>
      </tr> 
     </tbody> 
    </table>

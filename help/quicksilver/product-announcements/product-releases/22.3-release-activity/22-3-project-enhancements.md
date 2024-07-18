@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1235ad4a-72dd-45c5-8513-d073b3e9a2da
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
 workflow-type: tm+mt
-source-wordcount: '1562'
+source-wordcount: '1538'
 ht-degree: 0%
 
 ---
@@ -73,8 +73,6 @@ Per ulteriori informazioni, consulta [Assegnare tag ad altri in occasione di agg
 ## Nuova sintassi per i calcoli nei campi personalizzati
 
 Per prepararti ai miglioramenti futuri che ti aiuteranno ad aggiungere calcoli ai moduli personalizzati, abbiamo standardizzato la sintassi per i campi di riferimento che aggiungi a un calcolo. È facile utilizzare questa nuova sintassi perché il sistema la inserisce automaticamente quando si inizia a digitare il nome di un campo e quindi a selezionarlo.
-
-Per ulteriori informazioni, vedere la sezione &quot;Generare il calcolo per il campo personalizzato calcolato&quot; nell&#39;articolo [Aggiungere dati calcolati a un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 ## Informazioni accurate quando due utenti con un ruolo comune sono coinvolti in un processo di approvazione
 

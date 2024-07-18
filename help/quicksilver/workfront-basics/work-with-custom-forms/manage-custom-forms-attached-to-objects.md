@@ -6,7 +6,7 @@ description: È possibile aggiornare l'ordine di visualizzazione dei moduli pers
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '1109'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Per eseguire le azioni descritte in questo articolo, è necessario disporre dei 
 
 ## Prerequisiti
 
-* L’amministratore di Workfront o un utente con accesso amministrativo ai moduli personalizzati deve creare moduli personalizzati nel tuo ambiente. Per ulteriori informazioni, vedere [Creare o modificare un modulo personalizzato](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+* L’amministratore di Workfront o un utente con accesso amministrativo ai moduli personalizzati deve creare moduli personalizzati nel tuo ambiente. Per ulteriori informazioni, vedere [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * A un oggetto devono essere allegati moduli personalizzati.
 
   Per informazioni su come applicare moduli personalizzati a un oggetto, vedere [Aggiungere un modulo personalizzato a un oggetto](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
@@ -92,7 +92,7 @@ Per eseguire le azioni descritte in questo articolo, è necessario disporre dei 
 
   Non è possibile avere valori diversi per gli stessi campi su moduli diversi associati allo stesso oggetto.
 
-* Se si dispone degli stessi campi calcolati su due oggetti diversi, i relativi calcoli devono essere identici per evitare errori. Per informazioni sull&#39;aggiunta di campi calcolati ai moduli personalizzati, inclusi più moduli, vedere [Aggiungere dati calcolati a un modulo personalizzato](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+* Se si dispone degli stessi campi calcolati su due oggetti diversi, i relativi calcoli devono essere identici per evitare errori. Per informazioni sull&#39;aggiunta di campi calcolati ai moduli personalizzati, inclusi più moduli, vedere [Aggiungere campi calcolati a un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 ## Gestire più moduli personalizzati durante la modifica in blocco di oggetti
 

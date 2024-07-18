@@ -5,7 +5,7 @@ author: Alina
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
-source-git-commit: 1670edf153e57152e51adcfbda052eb74541d931
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 1%
@@ -72,7 +72,7 @@ Prima di iniziare, è necessario disporre di tutti i seguenti elementi:
 
    Disporre dell&#39;accesso corretto per allegare un modulo personalizzato e modificare le informazioni nel modulo.
 
-Per informazioni sulla creazione di moduli personalizzati, vedere [Creare o modificare un modulo personalizzato](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Per informazioni sulla creazione di moduli personalizzati, vedere [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 Per informazioni su come allegare i moduli agli oggetti, vedere [Aggiungere un modulo personalizzato a un oggetto](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
@@ -102,7 +102,7 @@ L&#39;esportazione delle informazioni dalla sezione Dettagli di un oggetto è id
    >   * Quando il gruppo o l’amministratore Workfront deseleziona tutti i campi nell’area Panoramica e all’oggetto sono allegati moduli personalizzati, la sezione Panoramica non viene visualizzata.
    >   * Quando l’amministratore del gruppo o di Workfront deseleziona tutti i campi nell’area Panoramica e all’oggetto non sono allegati moduli personalizzati, il menu a discesa Esporta non è visibile.
    >   * Se all’oggetto non sono allegati moduli personalizzati, è possibile esportare solo l’area Panoramica.
-   >   * I campi personalizzati che si trovano dietro la logica e non sono visibili nel modulo non vengono esportati. Per informazioni sull&#39;aggiunta della logica a un modulo personalizzato, vedere [Aggiungere logica di visualizzazione e ignorare la logica a un modulo personalizzato](../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md).
+   >   * I campi personalizzati che si trovano dietro la logica e non sono visibili nel modulo non vengono esportati. Per informazioni sull&#39;aggiunta della logica a un modulo personalizzato, vedere [Aggiungere logica di visualizzazione e ignorare la logica a un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
    >   
    >
 

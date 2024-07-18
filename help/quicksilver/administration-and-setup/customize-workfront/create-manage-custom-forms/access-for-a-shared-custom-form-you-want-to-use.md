@@ -3,24 +3,24 @@ user-type: administrator
 product-area: system-administration
 keywords: accesso,condiviso,personalizzato,modulo
 navigation-topic: create-and-manage-custom-forms
-title: Accedere a un campo personalizzato condiviso che si desidera utilizzare
+title: Accesso a un campo personalizzato condiviso
 description: Quando un utente condivide un campo personalizzato con l’accesso Visualizza o Gestisci, può configurare diverse altre impostazioni per definire ulteriormente tale accesso. Se sei un destinatario del campo, queste impostazioni influiscono su ciò che puoi fare con il campo. Quando visualizzi il campo, potresti visualizzare quanto segue.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 36172f4c-fe10-49d2-b10b-abb0cfce62c1
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '395'
 ht-degree: 1%
 
 ---
 
-# Accedere a un campo personalizzato condiviso che si desidera utilizzare
+# Accesso a un campo personalizzato condiviso
 
 Quando un utente condivide un campo personalizzato con l’accesso Visualizza o Gestisci, può configurare diverse altre impostazioni per definire ulteriormente tale accesso. Se sei un destinatario del campo, queste impostazioni influiscono su ciò che puoi fare con il campo. Quando visualizzi il campo, potresti visualizzare quanto segue.
 
-Per ulteriori informazioni su come gli utenti configurano le impostazioni di condivisione durante la condivisione di un modulo personalizzato, vedere [Configurare la condivisione per campi e widget personalizzati](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md).
+Per ulteriori informazioni su come gli utenti configurano le impostazioni di condivisione durante la condivisione di un modulo personalizzato, vedere [Configurare la condivisione di campi e widget personalizzati in un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md).
 
 <table style="table-layout:auto"> 
  <col> 

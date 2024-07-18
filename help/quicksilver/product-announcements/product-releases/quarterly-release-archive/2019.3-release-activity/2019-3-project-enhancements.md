@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 127d695c-74e4-45f9-b5f6-55c1d05935cf
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1340'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,6 @@ Se ad esempio è stato creato un campo Caselle di controllo, è possibile modifi
 In alternativa, se è stato creato un campo di testo a riga singola, è possibile modificarlo in un campo di testo paragrafo. Questi due tipi di visualizzazione dei campi sono intercambiabili.
 
 In precedenza, per modificare il tipo di visualizzazione di un campo personalizzato, era necessario creare un nuovo campo ed eliminare quello precedente. Questo richiedeva il trasferimento dei dati, operazione che spesso richiedeva molto tempo.
-
-Per ulteriori informazioni, vedere [Creare o modificare un modulo personalizzato](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) nell&#39;articolo [Creare o modificare un modulo personalizzato](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
 
 >[!NOTE]
 >
@@ -186,8 +184,6 @@ Per informazioni sulle ferie, vedere [Configurare le ferie personali](../../../.
 Nel generatore di moduli personalizzati è stato creato un nuovo tipo di campo denominato Typeahead. Questo campo consente di aggiungere ai moduli personalizzati campi che rappresentano oggetti. Attualmente, l&#39;oggetto User è abilitato con Typeahead e altri oggetti saranno disponibili in futuro.
 
 In precedenza, gli amministratori dovevano gestire manualmente gli utenti come opzioni individuali nei menu a discesa dei moduli personalizzati.
-
-Per ulteriori informazioni, vedere [Creare o modificare un modulo personalizzato](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 >[!NOTE]
 >
