@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6bcd332e-bd4e-4a74-bae9-9ba507299a51
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '911'
 ht-degree: 0%
 
 ---
@@ -96,6 +96,4 @@ La visualizzazione e la selezione delle opzioni relative alle caselle di control
 Ciò dipende dal modo in cui vengono posizionati i campi nel modulo personalizzato. Se si inserisce un altro campo nella stessa riga con il campo casella di controllo o pulsante di opzione, le opzioni potrebbero disporre di spazio orizzontale sufficiente per la visualizzazione in una singola colonna.
 
 Per informazioni sulla compilazione di un modulo personalizzato, vedere [Modifica informazioni nei campi modulo personalizzato](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
-
-Per informazioni sulla creazione di un campo casella di controllo o pulsante di scelta in un modulo personalizzato, vedere le sezioni [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) e [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#configur) nell&#39;articolo [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 

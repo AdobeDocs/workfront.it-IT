@@ -6,9 +6,9 @@ description: È possibile fare riferimento alle maschere personalizzate di un og
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8b0d2e7f-cc92-4f43-a91c-ab2b2d8a1c01
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1000'
 ht-degree: 2%
 
 ---
@@ -52,7 +52,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 Il modulo personalizzato deve esistere prima di potervi fare riferimento in un rapporto.
 
-Per ulteriori informazioni sulla creazione di moduli personalizzati, vedere [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Per ulteriori informazioni sulla creazione di moduli personalizzati, vedere [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Fare riferimento al contenuto dei moduli personalizzati
 
@@ -61,7 +61,7 @@ Puoi fare riferimento ai campi all’interno dei moduli personalizzati. Dopo ave
 >[!NOTE]
 >
 >Per i campi con più opzioni, tutte le opzioni sono disponibili nei Filtri e nei Prompt del rapporto, inclusi quelli nascosti.\
->Per ulteriori informazioni su come nascondere le scelte da un campo personalizzato con più opzioni, vedere l&#39;articolo [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+>Per ulteriori informazioni su come nascondere le scelte da un campo personalizzato con più opzioni, vedere l&#39;articolo [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 Durante la creazione del report, è sufficiente utilizzare il tipo di oggetto del modulo come origine del campo e utilizzare il nome del campo personalizzato come nome del campo.
 

@@ -4,9 +4,9 @@ description: I seguenti miglioramenti significativi sono stati apportati alla ge
 author: Luke
 feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: e15b2866d8dd93d9d8cbc37b204da51d748523c8
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1106'
 ht-degree: 0%
 
 ---
@@ -38,8 +38,6 @@ Attualmente, gli utenti non possono visualizzare il widget nelle seguenti aree:&
 * La casella Modifica dell’oggetto, se non ha il nuovo aspetto dell’esperienza Adobe Workfront (ad esempio, la casella Modifica spesa)
 * &#x200B;L’app mobile di Workfront
 
-Per ulteriori informazioni sull&#39;aggiunta di widget ai moduli personalizzati, vedere [Aggiungere o modificare un widget di immagini o altre risorse in un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
-
 ## Associare un modulo personalizzato a più tipi di oggetto
 
 È possibile associare più tipi di oggetto a qualsiasi nuovo modulo personalizzato:
@@ -68,8 +66,6 @@ Questa funzione è particolarmente utile quando si converte un problema o un&#39
 >
 >Quando si verifica la conversione, il modulo personalizzato deve essere già associato al tipo di oggetto in cui si desidera eseguire la conversione.
 
-Per istruzioni sull&#39;aggiunta di un widget di risorse a un modulo personalizzato, vedere [Aggiungere o modificare un widget di immagini o altre risorse in un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
-
 Quando crei o modifichi un modulo personalizzato con più oggetti, considera quanto segue:
 
 * [Opzioni di autorizzazione per le interruzioni di sezione](#permission-options-for-section-breaks)
@@ -89,8 +85,6 @@ Il set di autorizzazioni di interruzione di sezione disponibile per tutti gli al
 In un modulo personalizzato associato a tipi di oggetto di entrambi questi gruppi, il sistema utilizza un set comune di autorizzazioni di interruzione di sezione che funzionano per tutti i tipi di oggetto. In particolare, anziché utilizzare l&#39;opzione di autorizzazione Modifica limitata, questo set comune sostituisce l&#39;opzione di autorizzazione Modifica con l&#39;opzione di autorizzazione Modifica limitata. L&#39;opzione Modifica è compatibile con tutti i tipi di oggetto.
 
 Quando si associa un tipo di oggetto che utilizza opzioni di autorizzazione diverse rispetto agli altri tipi di oggetto già presenti in un modulo personalizzato, viene visualizzato un messaggio che consente di passare all&#39;insieme comune di opzioni di autorizzazione che verranno utilizzate per il modulo. Questa modifica verrà applicata a tutti i campi, anche se non sono inclusi in un’interruzione di sezione.
-
-Per ulteriori informazioni, vedere [Aggiungere un&#39;interruzione di sezione a un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
 
 ### Compatibilità del campo personalizzato calcolato
 
@@ -125,7 +119,6 @@ In questo caso, puoi effettuare una delle seguenti operazioni:
 >
 >  Se si aggiunge un tipo di oggetto davanti al nome di un campo, questo fa riferimento all&#39;oggetto padre dell&#39;oggetto, pertanto non è possibile utilizzare `{project}.{name}` con un progetto, ma è possibile utilizzarlo con un&#39;attività.
 
-Per istruzioni sull&#39;aggiunta di un campo personalizzato calcolato a un modulo personalizzato, vedere [Aggiungere dati calcolati a un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 Per ulteriori informazioni sulle variabili come `$$OBJCODE`, vedere [Panoramica delle variabili filtro con caratteri jolly](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 

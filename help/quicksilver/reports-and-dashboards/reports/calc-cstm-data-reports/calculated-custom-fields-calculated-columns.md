@@ -7,9 +7,9 @@ description: Per aggregare diversi campi in Adobe Workfront e visualizzare tale 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 Per aggregare diversi campi in Adobe Workfront e visualizzare tale valore aggregato in un nuovo campo, puoi creare quanto segue:
 
 * Campo personalizzato calcolato in un modulo personalizzato\
-  Per ulteriori informazioni sull&#39;aggiunta di un campo personalizzato calcolato a un modulo personalizzato, vedere la sezione [Aggiungere un campo calcolato a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#add-a-calculated-field-to-a-custom-form) nell&#39;articolo [Aggiungere dati calcolati a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+  Per ulteriori informazioni sull&#39;aggiunta di un campo personalizzato calcolato a un modulo personalizzato, vedere [Aggiungere campi calcolati a un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 * Colonna calcolata in una visualizzazione\
   Per ulteriori informazioni sull&#39;utilizzo dei calcoli in una visualizzazione, vedere la sezione [Utilizzare la modalità testo nelle visualizzazioni](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views) nell&#39;articolo [Panoramica sugli usi comuni per la modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).

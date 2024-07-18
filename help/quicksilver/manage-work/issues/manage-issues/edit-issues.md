@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '2506'
+source-wordcount: '2508'
 ht-degree: 2%
 
 ---
@@ -324,13 +324,13 @@ Esistono alcune limitazioni che potrebbero impedire la modifica dei problemi.
 
    ![](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
 
-1. Nel campo **Aggiungi modulo personalizzato**, seleziona il modulo o i moduli personalizzati che desideri associare al problema. Devi creare i moduli personalizzati prima che siano disponibili per la selezione in questo campo. Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. Per ulteriori informazioni sulla creazione di moduli personalizzati, vedere [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). A un problema è possibile aggiungere fino a dieci moduli personalizzati.
+1. Nel campo **Aggiungi modulo personalizzato**, seleziona il modulo o i moduli personalizzati che desideri associare al problema. Devi creare i moduli personalizzati prima che siano disponibili per la selezione in questo campo. Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. Per ulteriori informazioni sulla creazione di moduli personalizzati, vedere [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). A un problema è possibile aggiungere fino a dieci moduli personalizzati.
 
 1. (Condizionale) Se hai allegato un modulo personalizzato al problema, modifica tutti i campi del modulo. È necessario specificare tutti i campi obbligatori prima di salvare il problema.
 
    >[!NOTE]
    >
-   >A seconda di come l’amministratore di Workfront imposta le autorizzazioni per le sezioni nel modulo personalizzato, non tutti possono visualizzare o modificare gli stessi campi in un determinato modulo personalizzato. Le autorizzazioni per modificare i campi all’interno di una sezione di un modulo personalizzato dipendono dalle autorizzazioni di cui disponi per il problema stesso. Per informazioni sull&#39;impostazione delle autorizzazioni per le sezioni di un modulo personalizzato, vedere [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Per informazioni sull&#39;impostazione delle autorizzazioni relative ai problemi, vedere [Condividere un problema](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
+   >A seconda di come l’amministratore di Workfront imposta le autorizzazioni per le sezioni nel modulo personalizzato, non tutti possono visualizzare o modificare gli stessi campi in un determinato modulo personalizzato. Le autorizzazioni per modificare i campi all’interno di una sezione di un modulo personalizzato dipendono dalle autorizzazioni di cui disponi per il problema stesso. Per informazioni sull&#39;impostazione delle autorizzazioni per le sezioni di un modulo personalizzato, vedere [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Per informazioni sull&#39;impostazione delle autorizzazioni relative ai problemi, vedere [Condividere un problema](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
 
 1. Fai clic su **Salva** o continua a modificare la sezione seguente.
 

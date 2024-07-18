@@ -5,9 +5,9 @@ description: Oltre a impostare le entrate e a tenere traccia delle spese, è pos
 author: Alina
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1933'
+source-wordcount: '1934'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Quando si pianifica l&#39;utilizzo dei record di fatturazione, tenere presente q
 
 1. (Facoltativo) In **Forms personalizzato**, selezionare un modulo personalizzato per i record fatturazione che si desidera aggiungere al record fatturazione.
 
-   Prima di poter essere selezionato qui, è necessario creare un modulo personalizzato per i record di fatturazione, o un altro utente con accesso ai moduli personalizzati. Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. Per informazioni sulla creazione di moduli personalizzati, vedere [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+   Prima di poter essere selezionato qui, è necessario creare un modulo personalizzato per i record di fatturazione, o un altro utente con accesso ai moduli personalizzati. Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. Per informazioni sulla creazione di moduli personalizzati, vedere [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
    È possibile ripetere questo passaggio per aggiungere altri moduli personalizzati necessari per il record di fatturazione.
 

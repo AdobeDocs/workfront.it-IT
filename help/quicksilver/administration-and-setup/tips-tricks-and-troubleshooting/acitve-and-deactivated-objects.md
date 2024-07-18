@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '750'
 ht-degree: 2%
 
 ---
@@ -82,7 +82,7 @@ Un modulo personalizzato deve essere attivo per essere visualizzato nel campo [!
 
 È possibile rendere attivo un modulo personalizzato durante la modifica del modulo personalizzato.
 
-Per informazioni sulla modifica dei moduli personalizzati e per un elenco di oggetti a cui è possibile associarli, vedere [Creare o modificare un modulo personalizzato](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Per informazioni sulla modifica di moduli personalizzati e per un elenco di oggetti a cui è possibile associarli, vedere [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Aziende
 

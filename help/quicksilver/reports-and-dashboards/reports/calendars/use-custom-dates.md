@@ -6,9 +6,9 @@ description: Un report calendario è un report dinamico che fornisce una rappres
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 40cc8628-7641-41ce-b8e5-7f5ed5ad36c7
-source-git-commit: 880e82546ac0ca80be60f03db31b99ad1778c35a
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '695'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Prerequisiti
 
-1. È necessario disporre di campi data personalizzati e di un valore all&#39;interno del campo disponibile nell&#39;istanza [!DNL Workfront]. Se non si dispone di un modulo personalizzato con date personalizzate, seguire le istruzioni riportate nelle prime due sezioni di [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+1. È necessario disporre di campi data personalizzati e di un valore all&#39;interno del campo disponibile nell&#39;istanza [!DNL Workfront]. Se non si dispone di un modulo personalizzato con date personalizzate, seguire le istruzioni in [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 1. Allegare il modulo personalizzato a un progetto, un&#39;attività o un problema che si intende aggiungere al calendario e specificare una data. Per ulteriori informazioni, vedere [Aggiungere un modulo personalizzato a un oggetto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 ## Imposta il gruppo di elementi

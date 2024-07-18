@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 41372dd8-5002-4f8b-a5ac-a577c8b05d11
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '948'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,6 @@ In base al tuo feedback, abbiamo introdotto i seguenti miglioramenti per miglior
 
 * Aggiungi un file Adobe XD per rendere un modulo personalizzato più visivo e informativo. Quando il modulo viene allegato a un oggetto, gli utenti che utilizzano l&#39;oggetto possono visualizzare e interagire con il file XD dall&#39;interno del modulo.
 
-  Per ulteriori informazioni, consulta [Aggiungere o modificare un&#39;immagine o un altro widget di risorse in un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 * Utilizza il filtro rapido per individuare facilmente gli elementi nell’elenco dei campi e dei moduli personalizzati modernizzati. Inoltre, è possibile ottenere un aspetto migliore durante la gestione di moduli e campi.
 

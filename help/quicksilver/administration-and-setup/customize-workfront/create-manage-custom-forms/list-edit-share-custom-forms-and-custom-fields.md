@@ -4,9 +4,11 @@ description: Quando si visualizza un elenco dei moduli personalizzati dell'organ
 author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 55b659dc4d24856d835f901b22b937e5bcbfe657
+hidefromtoc: true
+hide: true
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -16,7 +18,7 @@ ht-degree: 0%
 
 Quando si visualizza un elenco dei moduli personalizzati dell&#39;organizzazione e dei campi personalizzati e dei widget che sono stati aggiunti a essi, è possibile utilizzare le opzioni della barra degli strumenti per modificarne le proprietà, limitare il numero di utenti condivisi, copiarli ed eliminarli. Nelle colonne visualizzate è inoltre possibile visualizzare altre informazioni, ad esempio i tipi di oggetto a cui è associato ogni modulo personalizzato.
 
-Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, consulta [Aggiungere un campo personalizzato a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) e [Aggiungere o modificare un widget di risorse in un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, vedere [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Requisiti di accesso
 
@@ -53,9 +55,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Per informazioni sulle operazioni che è possibile eseguire quando si seleziona un modulo personalizzato nell&#39;elenco, vedere gli articoli seguenti:
 
-   * [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+   * [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
    * [Condividi modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
-   * [Copia un modulo personalizzato per crearne uno nuovo](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
+   * [Copia un modulo personalizzato per crearne uno nuovo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/list-edit-share-custom-forms-and-custom-fields.md)
    * [Eliminare o disattivare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
 
 1. Fare clic sulla scheda **Campi**.
@@ -76,12 +78,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    Per informazioni sulle operazioni che è possibile eseguire quando si seleziona una voce nell&#39;elenco, vedere gli articoli seguenti:
 
    * [Aggiungere o modificare un campo personalizzato, un&#39;interruzione di sezione o un widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
-   * [Configura la condivisione per campi e widget personalizzati](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
+   * [Configurare la condivisione per campi personalizzati e widget in un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)
    * [Eliminare un campo personalizzato o un widget dal sistema](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
 
 1. Seleziona la scheda **Sezioni**, quindi assicurati che **Gruppo di parametri** sia selezionato come **Visualizzazione** per l&#39;elenco.
 
    Tutte le interruzioni di sezione vengono visualizzate in questa visualizzazione, insieme a un elenco di moduli personalizzati che contengono ogni interruzione di sezione.
 
-   Per informazioni sulla modifica di una sezione personalizzata selezionata nell&#39;elenco, vedere [Aggiungere un&#39;interruzione di sezione a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
+   Per informazioni sulla modifica di una sezione personalizzata selezionata nell&#39;elenco, vedere [Organizzare e visualizzare in anteprima un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 

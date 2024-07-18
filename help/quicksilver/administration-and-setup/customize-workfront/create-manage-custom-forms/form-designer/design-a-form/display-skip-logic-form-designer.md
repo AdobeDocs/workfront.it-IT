@@ -1,5 +1,5 @@
 ---
-title: Aggiungere logica di visualizzazione e logica di salto con il progettista del modulo
+title: Aggiungere logica di visualizzazione e logica di salto a un modulo
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
 
-# Aggiungere logica di visualizzazione e logica di salto con il progettista del modulo
+# Aggiungere logica di visualizzazione e logica di salto a un modulo
 
 È possibile decidere quali sezioni di un modulo personalizzato devono essere visualizzate o ignorate in base alle scelte effettuate da un utente durante la compilazione.
 

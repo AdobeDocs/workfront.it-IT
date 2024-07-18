@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: ab7877c048ea87180dd518c978b258d266e0f95c
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      </tr>
      <tr> 
       <td role="rowheader">Sezione Forms personalizzata</td> 
-      <td> <p>Se sono presenti campi che si desidera aggiungere alla società non disponibili in Workfront, è possibile creare un modulo personalizzato e associarlo alla società. Per allegare il modulo alla società, selezionarlo dal menu a discesa. Nel menu a discesa sono elencate solo le società attive. Per informazioni sulla creazione di un Forms personalizzato, vedere <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" data-mc-variable-override="">Creare o modificare un modulo personalizzato</a>. </p> </td> 
+      <td> <p>Se sono presenti campi che si desidera aggiungere alla società e che non sono disponibili in Workfront, è possibile creare un modulo personalizzato e associarlo alla società. Per allegare il modulo alla società, selezionarlo dal menu a discesa. Nel menu a discesa sono elencate solo le società attive. Per informazioni sulla creazione di moduli personalizzati, vedere <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Progettare un modulo con Progettazione moduli</a>. </p> </td> 
      </tr> 
     </tbody> 
    </table>

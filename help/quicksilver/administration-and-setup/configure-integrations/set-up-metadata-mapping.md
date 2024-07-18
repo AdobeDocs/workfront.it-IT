@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: ceda437684f565b91dbb8b02f6b03cbe8d27a70a
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '615'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ Quando un utente invia un documento da [!DNL Workfront] a un&#39;applicazione [!
 
 È possibile mappare lo stesso campo [!DNL Workfront] a vari campi di metadati in [!DNL Workfront DAM], ma non è possibile utilizzare un campo di metadati in nessuna di queste applicazioni per più campi di metadati [!DNL Workfront].
 
-Per configurare più campi [!DNL Workfront] da esportare in un campo di metadati in un&#39;applicazione [!DNL Workfront], creare innanzitutto un campo personalizzato calcolato in [!DNL Workfront] per visualizzare tutti i singoli campi personalizzati di un oggetto. Quindi, mappare il campo [!DNL Workfront] calcolato a un campo di metadati nell&#39;applicazione [!DNL Workfront]. Per ulteriori informazioni sui campi personalizzati calcolati, vedere [Aggiungere dati calcolati a un modulo personalizzato](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Per configurare più campi [!DNL Workfront] da esportare in un campo di metadati in un&#39;applicazione [!DNL Workfront], creare innanzitutto un campo personalizzato calcolato in [!DNL Workfront] per visualizzare tutti i singoli campi personalizzati di un oggetto. Quindi, mappare il campo [!DNL Workfront] calcolato a un campo di metadati nell&#39;applicazione [!DNL Workfront]. Per ulteriori informazioni sui campi personalizzati calcolati, vedere [Aggiungere campi calcolati a un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 Prima di poter mappare i campi per il processo di mappatura dei metadati, è necessario abilitare l&#39;applicazione in [!DNL Workfront]. Per ulteriori informazioni, vedere [Configurare le integrazioni dei documenti](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 

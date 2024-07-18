@@ -7,9 +7,9 @@ description: Utilizzando i caratteri jolly nei filtri, è possibile fare riferim
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
+source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1440'
 ht-degree: 1%
 
 ---
@@ -222,7 +222,6 @@ Puoi scegliere tra le seguenti variabili basate sull’utente:
      <p>La variabile $$OBJCODE fa riferimento al tipo di un oggetto. </p> 
      <p>In un modulo personalizzato, quando i tipi di oggetto selezionati del modulo sono incompatibili con un campo a cui si fa riferimento in un campo personalizzato calcolato, è possibile utilizzare questo carattere jolly per evitare la soluzione alternativa di creare moduli duplicati per tali tipi di oggetto.</p> 
      <p>A tale scopo, nel campo personalizzato calcolato includere il carattere jolly in un'espressione IF in modo che il calcolo possa generare valori diversi per ogni tipo di oggetto del modulo. </p> 
-     <p>Per ulteriori informazioni e un esempio, vedere la sezione <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat" class="MCXref xref">Campi personalizzati calcolati nei moduli personalizzati con più oggetti</a> nell'articolo <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md" class="MCXref xref">Aggiungere dati calcolati a un modulo personalizzato</a>.</p> 
     </div> </td> 
   </tr> 
  </tbody> 

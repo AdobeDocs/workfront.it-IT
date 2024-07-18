@@ -5,9 +5,9 @@ title: Utilizzo dei fusi orari
 description: Può essere utile capire come [!DNL Adobe Workfront] utilizza i fusi orari per calcolare i campi di tempo per gli oggetti e gli orari in altre aree, ad esempio le e-mail.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '1150'
 ht-degree: 0%
 
 ---
@@ -111,10 +111,10 @@ Gli amministratori di [!DNL Workfront] creano pianificazioni separate per ogni f
 
 È possibile utilizzare una serie di campi personalizzati calcolati in un modulo personalizzato per visualizzare l’ora corrente per gli utenti dell’organizzazione, ad esempio una riga di orologi aeroportuali che mostrano l’ora in più città. Puoi creare un campo per ciascuno dei fusi orari in cui lavorano gli utenti, ognuno dei quali calcola l’ora per il proprio fuso orario.
 
-Per ulteriori informazioni, vedere [Aggiungere dati calcolati a un modulo personalizzato](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md), nonché la sezione [Campi personalizzati calcolati per data e ora](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date) nell&#39;articolo [Panoramica delle espressioni di dati calcolati](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Per ulteriori informazioni, vedere [Aggiungere campi calcolati a un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md), nonché la sezione [Campi personalizzati calcolati per data e ora](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date) nell&#39;articolo [Panoramica delle espressioni di dati calcolati](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 ### Utilizzare campi di testo invece di campi data in un modulo personalizzato {#use-text-fields-instead-of-date-fields-in-a-custom-form}
 
 Se non si desidera che [!DNL Workfront] converta gli orari configurati per in un oggetto per utenti con fusi orari diversi, è possibile utilizzare un campo di testo in un modulo personalizzato allegato a un oggetto, anziché un campo data. In questo modo, viene visualizzato il tempo digitato per tutti gli utenti del progetto.
 
-In questo caso, si consiglia di ricordare agli utenti del modulo di calcolare la differenza tra il proprio fuso orario e quello dell&#39;utente, in modo che possano determinare quando iniziare e terminare il lavoro. È possibile includerlo nelle istruzioni digitate per il modulo personalizzato o in una descrizione comando per tale campo. Per ulteriori informazioni, vedere [Aggiungere un campo personalizzato a un modulo personalizzato](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
+In questo caso, si consiglia di ricordare agli utenti del modulo di calcolare la differenza tra il proprio fuso orario e quello dell&#39;utente, in modo che possano determinare quando iniziare e terminare il lavoro. È possibile includerlo nelle istruzioni digitate per il modulo personalizzato o in una descrizione comando per tale campo. Per ulteriori informazioni, vedere [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

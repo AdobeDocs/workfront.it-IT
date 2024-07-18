@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5ec5f0bd-6234-488b-bd3a-f14400b08cab
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '272'
 ht-degree: 3%
 
 ---
@@ -45,8 +45,6 @@ L’app mobile ora supporta i seguenti oggetti nei campi di completamento automa
 * Progetto
 * Team
 * Modello
-
-Per ulteriori informazioni, vedere [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 ## Salvare le richieste come bozze nell’app mobile Workfront
 

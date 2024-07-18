@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: acde4cf2-a755-4e77-9469-f5152991dd34
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,6 @@ Per un elenco di tutte le modifiche disponibili con la versione 20.3, consulta l
 Ora, quando l’amministratore di sistema crea campi per moduli personalizzati configurati per la formattazione, è possibile formattare il testo nei campi in cui si utilizza di più: negli elenchi di Workfront. Invece di passare all&#39;area Dettagli per formattare il testo nel modulo personalizzato, è possibile fare clic su un campo di un elenco e applicare Grassetto, Corsivo e Sottolineato al testo.
 
 Questa funzionalità è disponibile solo negli elenchi aggiornati. Per ulteriori informazioni sugli elenchi aggiornati, vedere [Introduzione agli elenchi in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
-
-Per informazioni sulla creazione di campi di testo con formattazione da parte di un amministratore di Workfront, vedere [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 ## È stato aggiornato l’aspetto di diverse intestazioni globali
 
@@ -113,5 +111,4 @@ Per offrire maggiore flessibilità nell&#39;etichettatura e rietichettatura dei 
 
 In passato, l’etichetta veniva visualizzata sopra il campo per gli utenti e utilizzata dal sistema per identificare il campo. Cambiando l&#39;etichetta per gli utenti si causava il malfunzionamento del campo ovunque venisse usato, perché il sistema non poteva più identificarlo.
 
-Per ulteriori informazioni, vedere [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 

@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1474'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,6 @@ Per avere un maggiore controllo su chi può modificare, eliminare e utilizzare i
 Finora, quando hai creato un campo personalizzato, era modificabile da tutti gli utenti del sistema. Questo è ancora lo stato predefinito di un campo personalizzato, ma ora puoi limitare la condivisione di un campo personalizzato a determinati utenti, ruoli, team, gruppi e aziende. Inoltre, puoi determinare se i destinatari possono gestire o solo visualizzare il campo personalizzato.
 
 Inoltre, per rendere più familiare questa esperienza, abbiamo progettato l&#39;interfaccia utente di questa funzionalità in modo che sia simile ad altre aree dell&#39;oggetto condivise in Workfront.
-
-Per ulteriori informazioni, vedere [Configurare la condivisione per campi e widget personalizzati](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md).
 
 ## Novità per gli amministratori: condivisione di moduli personalizzati standardizzati
 

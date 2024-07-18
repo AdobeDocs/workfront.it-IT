@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 55fb0b85-937d-4903-8a64-6f627dd4291f
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
@@ -33,13 +33,11 @@ In precedenza era possibile configurare un modulo personalizzato in modo che fun
 
 Questa funzionalità funziona con tutti i moduli personalizzati creati in precedenza nel sistema Workfront. Ad esempio, se si dispone già di un modulo personalizzato creato per il tipo di oggetto Attività, è ora possibile configurare il modulo in modo che funzioni anche con altri tipi di oggetto, ad esempio Progetto e Problema.
 
-Per ulteriori informazioni, vedere la sezione [Inizia a creare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#start) nell&#39;articolo [Crea o modifica un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-
 >[!NOTE]
 >
->* Al momento del rilascio iniziale dell’anteprima di questa funzionalità, è stata temporaneamente disabilitata la possibilità di copiare un modulo personalizzato con più oggetti. Questa abilità è stata abilitata il 24 marzo. Per informazioni sulla copia di un modulo personalizzato, vedere [Copiare un modulo personalizzato per crearne uno nuovo](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
->* In un campo personalizzato calcolato, alcuni campi a cui si fa riferimento potrebbero non essere compatibili con i tipi di oggetto configurati per il modulo. La nostra soluzione è un carattere jolly che consentirà al calcolo di generare valori diversi, a seconda dell’oggetto a cui è associato il modulo. Abbiamo aggiunto il wild card il 24 marzo. Per informazioni su come utilizzarlo, vedere la sezione [Campi personalizzati calcolati nei moduli personalizzati con più oggetti](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat) nell&#39;articolo [Aggiungere dati calcolati a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
->* Per le interruzioni di sezione nei moduli personalizzati, è stato creato un set di autorizzazioni comuni di visualizzazione e modifica per tutti i tipi di oggetto che è possibile configurare per un modulo. In uno scenario, una di queste autorizzazioni, Modifica limitata, potrebbe causare errori in un modulo. Questo problema è stato risolto il 24 marzo. Per ulteriori informazioni sulle interruzioni di sezione, vedere [Aggiungere un&#39;interruzione di sezione a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
+>* Al momento del rilascio iniziale dell’anteprima di questa funzionalità, è stata temporaneamente disabilitata la possibilità di copiare un modulo personalizzato con più oggetti. Questa abilità è stata abilitata il 24 marzo.
+>* In un campo personalizzato calcolato, alcuni campi a cui si fa riferimento potrebbero non essere compatibili con i tipi di oggetto configurati per il modulo. La nostra soluzione è un carattere jolly che consentirà al calcolo di generare valori diversi, a seconda dell’oggetto a cui è associato il modulo. Abbiamo aggiunto il wild card il 24 marzo.
+>* Per le interruzioni di sezione nei moduli personalizzati, è stato creato un set di autorizzazioni comuni di visualizzazione e modifica per tutti i tipi di oggetto che è possibile configurare per un modulo. In uno scenario, una di queste autorizzazioni, Modifica limitata, potrebbe causare errori in un modulo. Questo problema è stato risolto il 24 marzo.
 >
 
 ## Il catalogo blueprint è disponibile per tutti gli utenti e gli amministratori possono consentire le richieste
@@ -60,7 +58,6 @@ In precedenza, i moduli personalizzati erano completamente basati su testo.
 >
 >Nelle nuove aree di esperienza di Adobe Workfront che non sono ancora state modernizzate, ad esempio la casella visualizzata quando si modificano elementi in blocco, le immagini dei moduli personalizzati non vengono visualizzate. Verranno visualizzate man mano che continuiamo ad aggiornare tali aree.
 
-Per ulteriori informazioni, consulta [Aggiungere o modificare un widget di risorse in un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Nuove configurazioni del livello di accesso predefinito
 
