@@ -6,9 +6,9 @@ description: Utilizzare i flussi di lavoro nell’integrazione Experience Manage
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Un flusso di lavoro è un insieme di azioni che collegano Workfront ad Adobe Exp
 
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Devi avere i seguenti:
 
@@ -62,6 +64,8 @@ Per informazioni sulla richiesta di accesso aggiuntivo, vedere <strong>Richieder
    </td>
   </tr>
 </table>
+
++++
 
 ## Prerequisiti
 
@@ -145,7 +149,6 @@ Tutti i valori del flusso di lavoro sono disponibili in:
 >Poiché le cartelle collegate vengono create al momento della creazione del progetto, la modifica del flusso di lavoro delle cartelle collegate in un progetto esistente non è efficace. La modifica di questi valori durante la creazione di un progetto funziona come previsto.
 
 Per modificare il flusso di lavoro per le cartelle collegate:
-
 
 1. Attiva o disattiva **[!UICONTROL Crea cartella collegata]** come desiderato. Se si attiva questa funzione, è possibile modificare la configurazione della cartella collegata.
 

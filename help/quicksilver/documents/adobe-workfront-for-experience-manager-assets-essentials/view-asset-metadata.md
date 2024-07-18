@@ -7,9 +7,9 @@ description: Nel pannello Dettagli documento e Riepilogo per documenti è possib
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: cfad5855-033c-4a15-b5a2-7ff32ed65fe9
-source-git-commit: 8ecbca4d5d09b1f696f489148e960e0eeba2119e
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 Nel pannello Dettagli documento e Riepilogo per documenti è possibile visualizzare in tempo reale i metadati mappati. I campi metadati vengono mappati per la prima volta quando invii una risorsa da Workfront a Experience Manager Assets o ad Assets Essentials. Se l&#39;amministratore di Workfront ha attivato la sincronizzazione dei metadati dell&#39;oggetto, i campi rimangono aggiornati se vengono modificati in una delle applicazioni.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Devi avere i seguenti:
 
@@ -62,6 +64,7 @@ Per informazioni sulla richiesta di accesso aggiuntivo, vedere <strong>Richieder
 
 *Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront.
 
++++
 
 ## Prerequisiti
 
@@ -77,6 +80,7 @@ Per aprire il pannello Metadati in Dettagli documento:
 1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
 1. Passa il puntatore del mouse sul documento necessario, quindi seleziona **Dettagli documento**.
 1. Trova ed espandi la sezione **Metadati**.
+
    >[!NOTE]
    >
    >Impossibile modificare i campi in questa sezione. Sono di sola visualizzazione.
@@ -91,6 +95,7 @@ Per aprire il pannello Metadati nel pannello Riepilogo:
 1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
 1. Trovare il documento necessario.
 1. Fai clic sull&#39;icona **Riepilogo** ![Riepilogo](assets/summary-panel-icon.png), quindi espandi la sezione **Metadati**.
+
    >[!NOTE]
    >
    >Impossibile modificare i campi in questa sezione. Sono di sola visualizzazione.

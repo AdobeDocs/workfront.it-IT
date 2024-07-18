@@ -6,9 +6,9 @@ description: Quando si carica un documento da un servizio per la prima volta, Ad
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fce8e8aa-fc48-49e1-a71d-c3933a179cf5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Per informazioni sul collegamento di servizi di documentazione esterni a Workfro
 Poiché il servizio documenti è quello che consente il collegamento a Workfront, non è possibile per Workfront rimuovere l&#39;autorizzazione concessa dal servizio documenti. È necessario rimuovere l’autorizzazione all’interno dell’applicazione del servizio di documentazione oppure chiamare il team di supporto per rimuovere il collegamento dai server.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Devi avere i seguenti:
 
@@ -45,6 +47,8 @@ Devi avere i seguenti:
 </table>
 
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+
++++
 
 ## Rimuovere il collegamento tra Workfront e Dropbox
 

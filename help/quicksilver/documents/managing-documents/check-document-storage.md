@@ -6,9 +6,9 @@ description: Sebbene non vi siano restrizioni sui tipi e sulle dimensioni dei si
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
-source-git-commit: 75c490ca4a85197f79ff59024725a51b19238496
+source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Sebbene non vi siano restrizioni sui tipi e sulle dimensioni dei singoli file che gli utenti possono caricare nell’istanza di Workfront, il piano Workfront prevede un limite sulla quantità totale di archiviazione utilizzata dall’istanza di Workfront. In qualità di amministratore di Adobe Workfront, monitori l’archiviazione dei documenti dell’istanza dall’area di configurazione.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Devi avere i seguenti:
 
@@ -38,9 +40,12 @@ Devi avere i seguenti:
 
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
++++
+
 ## Verifica archiviazione documenti
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. Nel pannello a sinistra, fai clic su **Sistema** > **Informazioni cliente**.
 1. Nella sezione **Informazioni di base**, trovare **Quota di archiviazione**. Qui è possibile visualizzare la quantità di storage attualmente utilizzata e la quantità totale di storage inclusa nel piano Workfront.
 

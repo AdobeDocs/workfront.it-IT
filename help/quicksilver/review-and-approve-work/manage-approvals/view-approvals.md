@@ -6,9 +6,9 @@ description: I processi di approvazione offrono la flessibilità necessaria per 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Per informazioni sulla creazione dei processi di approvazione, vedere [Creare un
 Per informazioni sull&#39;associazione delle approvazioni al lavoro in Workfront, vedere [Associare un processo di approvazione nuovo o esistente al lavoro](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -48,7 +50,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+
++++
 
 ## Individuare le approvazioni in Adobe Workfront
 
@@ -111,16 +115,13 @@ Puoi visualizzare o gestire le approvazioni dalle seguenti aree:
  </tbody> 
 </table>
 
-* [Utilizzare l&#39;area Aggiornamenti per visualizzare uno stato di approvazione](#use-the-updates-area-to-view-an-approval-status)
-* [Utilizzare l&#39;area Approvazioni per visualizzare uno stato di approvazione](#use-the-approvals-area-to-view-an-approval-status)
-
 ### Utilizzare l&#39;area Aggiornamenti per visualizzare uno stato di approvazione {#use-the-updates-area-to-view-an-approval-status}
 
 Quando viene avviata un&#39;approvazione su un progetto, un&#39;attività o un problema, nella scheda **Aggiornamenti** dell&#39;oggetto viene visualizzato uno stato che indica lo stato di approvazione. Un nuovo stato viene visualizzato ogni volta che l&#39;oggetto passa attraverso il processo di approvazione. Sono inclusi i seguenti eventi:
 
 * Viene avviato un processo di approvazione su un oggetto. Il processo di approvazione viene avviato quando lo stato viene modificato.
 * L&#39;oggetto viene rifiutato
-* L’oggetto è approvato 
+* L’oggetto è approvato
 
 >[!TIP]
 >

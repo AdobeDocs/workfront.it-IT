@@ -6,9 +6,9 @@ description: Un utente con diritti di gestione su un documento può spostare il 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 46039017-58b3-4e9d-8dcd-6e1f52d98d27
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Quando si sposta un documento, con il documento verrà spostato anche uno dei se
 * Approvazioni documenti
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Devi avere i seguenti:
 
@@ -54,6 +56,8 @@ Devi avere i seguenti:
 
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
++++
+
 ## Spostare un documento
 
 1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
@@ -66,4 +70,4 @@ Devi avere i seguenti:
 
 1. Fai clic su **Termina**.
 
-È inoltre possibile spostare un documento dalla pagina Dettagli documento. Per ulteriori informazioni, consulta l’articolo .
+È inoltre possibile spostare un documento dalla pagina Dettagli documento.

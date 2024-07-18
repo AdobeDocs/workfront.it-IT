@@ -6,9 +6,9 @@ description: La delega delle richieste di approvazione ti consente di assegnare 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 45c0af640daa7bf0c4cb342e55a88a98a745cfc3
+source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1262'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,8 @@ Non puoi delegare le approvazioni di schede orario, documenti o bozze.
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
@@ -54,7 +56,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano o il tipo di licenza di cui si dispone, contattare l&#39;amministratore di Workfront.
+Per conoscere il piano o il tipo di licenza di cui si dispone, contattare l&#39;amministratore Workfront.
+
++++
 
 ## Comprendere l’accesso degli utenti per le approvazioni delegate
 
@@ -79,9 +83,7 @@ Dopo l&#39;interruzione o l&#39;annullamento della delega di approvazione, l&#39
 
 ## Delegare le richieste di approvazione nell’area Home
 
-* [Delega le tue approvazioni a un altro utente](#delegate-your-approvals-to-another-user)
-* [Aggiornare o interrompere una delega di approvazione](#update-or-stop-an-approval-delegation)
-* [Visualizza approvazioni delegate](#view-delegated-approvals)
+Puoi delegare le richieste di approvazione dall’area Home.
 
 ### Delega le tue approvazioni a un altro utente {#delegate-your-approvals-to-another-user}
 

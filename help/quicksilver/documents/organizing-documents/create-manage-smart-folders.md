@@ -6,9 +6,9 @@ description: Le cartelle avanzate vengono utilizzate per gestire documenti ester
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Le cartelle avanzate vengono utilizzate per gestire documenti esterni a un proge
 Per impostazione predefinita, al primo accesso all&#39;area Documenti sono disponibili due cartelle avanzate: Tutti i documenti e Recente. È possibile modificare, rinominare o copiare cartelle avanzate predefinite, ma non eliminarle. Puoi creare ulteriori cartelle avanzate per soddisfare altre esigenze di gestione delle risorse.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -43,6 +45,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+
++++
 
 ## Visualizza cartelle avanzate 
 
@@ -88,7 +92,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Apporta le modifiche, quindi fai clic su **Salva cartella**.
 
-## Eliminare una cartella avanzata 
+## Eliminare una cartella avanzata
 
 1. Passare all&#39;area **Documenti** contenente la cartella Smart che si desidera eliminare.
 1. Nella colonna **Cartelle** fare clic sulla freccia dell&#39;elenco a discesa accanto alla cartella Smart che si desidera eliminare.

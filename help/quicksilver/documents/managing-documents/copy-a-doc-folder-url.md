@@ -6,9 +6,9 @@ description: È possibile copiare un collegamento per qualsiasi cartella di docu
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f8f83f44-7001-4774-9a35-359cd21124d9
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 È possibile copiare un collegamento diretto per qualsiasi cartella documenti contenuta in uno dei seguenti [!DNL Workfront] oggetti: [!UICONTROL Programma], [!UICONTROL Portfolio], [!UICONTROL Progetto], [!UICONTROL Attività] o [!UICONTROL Problema]. Impossibile copiare un collegamento per le cartelle contenute nell&#39;area [!UICONTROL Documenti] dal menu principale, poiché tali cartelle sono collegate direttamente al profilo utente e non possono essere condivise con altri utenti.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -42,6 +44,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+
++++
 
 ## Copiare e condividere un collegamento a una cartella di documenti
 

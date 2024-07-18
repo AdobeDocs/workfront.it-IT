@@ -7,9 +7,9 @@ description: Puoi creare una cartella collegata a Experience Manager Assets o ag
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: 1744e6f2b78c64ba2fa4856d9c6a0611404e4458
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Puoi creare una cartella collegata a Experience Manager Assets o agli Assets Ess
 
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Devi avere i seguenti:
 
@@ -59,6 +61,7 @@ Devi avere i seguenti:
 
 *Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront.
 
++++
 
 ## Prerequisiti
 
@@ -74,8 +77,6 @@ La cartella collegata viene creata nel percorso specificato dall’amministrator
 Il nome della cartella collegata viene creato automaticamente in base al Portfolio, al programma o al progetto a cui è associato e non può essere modificato. Se il progetto non è associato a un Portfolio o programma, nella cartella collegata verranno visualizzati il nome del progetto e la data di creazione.
 
 Per creare una cartella collegata:
-
-
 
 1. Passa al progetto in cui desideri inserire la cartella.
 1. Seleziona **Aggiungi nuovo**, quindi vai all&#39;integrazione di Experience Manager configurata dall&#39;amministratore.

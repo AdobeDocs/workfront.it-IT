@@ -6,9 +6,9 @@ description: È possibile estrarre un documento per impedire ad altri utenti di 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 15d9ea43-1cee-4cb1-9365-4374a291c090
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 È possibile estrarre un documento per impedire ad altri utenti di eliminarlo o di caricarne una nuova versione. Un documento può essere estratto da un solo utente alla volta. Puoi estrarre qualsiasi documento caricato su Adobe Workfront, nonché i documenti collegati a provider di documenti di terze parti (Box, Dropbox, Google Drive, Webdam, Workfront DAM, SharePoint o qualsiasi altro provider personalizzato). 
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -45,6 +47,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+
++++
 
 ## Azioni consentite per i documenti estratti
 

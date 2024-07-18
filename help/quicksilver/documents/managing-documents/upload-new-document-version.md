@@ -6,9 +6,9 @@ description: Puoi aggiungere una nuova versione di un documento precedentemente 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d475e0f0-112e-4d4e-b666-6e0af3ea7702
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Se il documento contiene una bozza e si desidera creare una nuova versione del d
 Per informazioni sull&#39;aggiunta di una nuova versione di un documento collegato a Workfront da un&#39;applicazione esterna, vedere [Aggiungere una nuova versione di un documento collegato](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#add) in [Collegare documenti da applicazioni esterne](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Devi avere i seguenti:
 
@@ -53,6 +55,8 @@ Devi avere i seguenti:
 </table>
 
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+
++++
 
 ## Usa il trascinamento per aggiungere una nuova versione
 

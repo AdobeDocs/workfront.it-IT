@@ -6,9 +6,9 @@ description: I documenti possono essere organizzati in cartelle. È possibile cr
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
-source-git-commit: 9541ac0f04590cb07c6ff4cf1a24ab56a7228322
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ I documenti possono essere organizzati in cartelle. È possibile creare cartelle
 >L&#39;organizzazione dei documenti crea semplicemente collegamenti tra i documenti e gli oggetti a cui sono associati. Non li riposiziona nel sistema.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -46,15 +48,17 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
++++
+
 ## Visualizza cartelle
 
 È possibile visualizzare le cartelle nella visualizzazione Anteprima, Standard o Elenco. Per modificare la visualizzazione, utilizzare le opzioni di visualizzazione nell&#39;angolo superiore destro.
 
-1. Fare clic su **Documenti** nel menu principale. ![](assets/main-menu-icon.png)
+{{step1-to-documents}}
 
-   Oppure
+Oppure
 
-   Con un oggetto Workfront aperto, fai clic su **Documenti** nel pannello a sinistra.
+Con un oggetto Workfront aperto, fai clic su **Documenti** nel pannello a sinistra.
 
 1. Fate clic sulle opzioni di visualizzazione sopra il pannello di destra per modificare la modalità di visualizzazione dei documenti.
 
@@ -64,11 +68,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 Creare cartelle per organizzare meglio i documenti. È possibile creare fino a 2.000 cartelle su un oggetto e fino a 50 sottocartelle all&#39;interno di ogni cartella. Le sottocartelle vengono conteggiate fino a un massimo di 2.000.
 
-1. Fare clic su **Documenti** nel menu principale. ![](assets/main-menu-icon.png)
+{{step1-to-documents}}
 
-   Oppure
+Oppure
 
-   Con un oggetto Workfront aperto, fai clic su **Documenti** nel pannello a sinistra.
+Con un oggetto Workfront aperto, fai clic su **Documenti** nel pannello a sinistra.
 
 1. Per creare una cartella principale, accertati che non sia selezionato nulla, quindi fai clic su **Aggiungi nuovo** > **Cartella**.
 
