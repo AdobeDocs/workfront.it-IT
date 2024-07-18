@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1716'
 ht-degree: 0%
 
 ---
@@ -162,6 +162,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    * Fare clic sull&#39;intestazione di una colonna per selezionarla e copiarla, quindi fare clic sull&#39;intestazione di un&#39;altra colonna e incollare il contenuto della colonna copiata. Le colonne devono contenere tipi di campo simili.
    * Con il tasto Maiusc premuto, fai clic su per selezionare più righe in una tabella, copia le informazioni nelle righe selezionate, quindi fai clic su una riga diversa e incolla le informazioni selezionate nella nuova riga e nelle righe successive.
    * Copiare le informazioni da una cella, quindi selezionare più celle e incollare le stesse informazioni in più celle. È possibile selezionare più celle e incollare le stesse informazioni in più celle da righe e colonne adiacenti.
+   * Selezionare l&#39;angolo inferiore destro di una cella esistente contenente le informazioni da copiare, quindi trascinarlo e rilasciarlo nelle celle adiacenti in cui si desidera incollare le stesse informazioni. Tutte le celle devono contenere lo stesso tipo di informazioni.
+
+     ![](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
    >[!NOTE]
    >

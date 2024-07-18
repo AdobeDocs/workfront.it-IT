@@ -6,14 +6,16 @@ description: È possibile utilizzare le assegnazioni avanzate per identificare l
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
 
 # Effettua assegnazioni intelligenti
+
+<!--Audited: 07/2024-->
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
@@ -27,13 +29,13 @@ ht-degree: 0%
 
 Le assegnazioni intelligenti sono suggerimenti per utenti, ruoli o team che Adobe Workfront presenta quando si assegnano elementi di lavoro alle risorse. Workfront basa i suoi suggerimenti su un algoritmo che determina la risorsa più appropriata per il processo.
 
-<span class="preview">In Workfront esistono due algoritmi distinti che calcolano le assegnazioni intelligenti che funzionano in modo diverso per le attività e per i problemi. </span>
+In Workfront sono disponibili due algoritmi distinti che calcolano le assegnazioni intelligenti che funzionano in modo diverso per le attività e per i problemi.
 
 Per ulteriori informazioni sui criteri utilizzati per determinare le assegnazioni Smart, vedere [Panoramica assegnazioni Smart](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,7 +62,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront. Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Effettua assegnazioni intelligenti
 
@@ -71,35 +75,25 @@ Le assegnazioni intelligenti sono disponibili nella maggior parte delle posizion
    * Un elenco di attività o problemi o un rapporto
    * Un’intestazione di attività o problema
    * Pannello Riepilogo dell’attività o del problema
-   * <span class="preview">Casella Nuova attività o Nuovo problema quando si aggiunge una nuova attività o un nuovo problema a un progetto</span>
+   * Una casella Nuova attività o Nuovo problema quando si aggiunge una nuova attività o un nuovo problema a un progetto
    * Il campo Assegnazioni per un elemento elencato nell&#39;area Home
    * Un’attività o un problema nel Bilanciatore dei carichi di lavoro
 
 1. Posizionare il cursore nel campo Assegnazioni e attendere due secondi.
 
-   <div class="preview">
-   Vengono visualizzate una o più delle seguenti sezioni con suggerimenti di assegnazione intelligente:
+   Per i problemi, le assegnazioni intelligenti vengono visualizzate nelle sezioni seguenti:
 
-   * **Assegnazioni suggerite**: visualizza per le attività. <!--remove the note when we go to production with smarter assignments-->
+   * **Utenti e team**
+   * **Ruoli**
 
-     >[!TIP]
-     >
-     >   L&#39;intestazione dell&#39;elenco visualizza **Ecco alcuni consigli** invece di **Assegnazioni suggerite** nell&#39;ambiente di produzione.
-     >
-   * **Utenti e team**: visualizzazioni per attività e problemi.
-   * **Ruoli**: viene visualizzato per attività e problemi.
-   * **Valuta i ruoli di lavoro delle schede**: visualizza per le attività. Per ulteriori informazioni, consulta [Gestione schede tariffarie](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).<!--check later with Lisa to see if this also came to issues?! - and always keep this in yellow-->
-   </div>
-
-   <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
-
+   ![](assets/smart-assignments-issue-header.png)
 
    Per le attività, le assegnazioni intelligenti vengono visualizzate nelle sezioni seguenti, a seconda della fase di calcolo dell&#39;algoritmo che ha identificato le assegnazioni:
 
-   * **Assegnazioni suggerite**: assegnazioni identificate nella prima fase del calcolo dell&#39;algoritmo dell&#39;assegnazione intelligente dell&#39;attività. <span class="preview">Questa sezione non è disponibile per i problemi.</span>
-   * <span class="preview">**Utenti e team**, **Ruoli** o **Ruoli con scheda di valutazione**: assegnazioni identificate nella seconda fase del calcolo dell&#39;algoritmo dell&#39;assegnazione intelligente dell&#39;attività. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
+   * **Assegnazioni suggerite**: visualizza le assegnazioni identificate nella prima fase dell&#39;algoritmo di assegnazione intelligente delle attività.
+   * **Utenti e team**, **Ruoli** o <span class="preview">**Ruoli con scheda di valutazione**</span>: assegnazioni identificate nella seconda fase del calcolo dell&#39;algoritmo dell&#39;assegnazione intelligente dell&#39;attività.
 
-   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+   ![](assets/smart-assignments-task-list.png)
 
    Per ulteriori informazioni, vedere [Panoramica assegnazioni avanzate](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 

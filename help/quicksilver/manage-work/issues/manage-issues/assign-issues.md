@@ -7,16 +7,16 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
+source-git-commit: 830ad0411084844ace1e1e543c3ebefcb558af80
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1412'
 ht-degree: 0%
 
 ---
 
 # Assegna problemi
 
-<!--keep the rate card job role information always in yellow till it releases to production - check with Lisa - this might not apply to issues?! -->
+<!--Audited: 07/2024-->
 
 Puoi assegnare i problemi a utenti, ruoli e team per indicare chi è responsabile del completamento dei problemi. Per informazioni generali sull&#39;assegnazione dei problemi, vedere [Panoramica sulla modifica delle assegnazioni dei problemi](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
@@ -45,7 +45,7 @@ L’assegnazione di problemi e attività è simile in Adobe Workfront. Per infor
 
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -54,25 +54,28 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Revisione o successiva</p> </td> 
+   <td> <p>Nuovo: Collaboratore o versione successiva</p>
+   <p>Corrente: revisione o versione successiva</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Livello di accesso*</td> 
-   <td> <p>Modifica l'accesso alle Issues</p> <p>Accesso di visualizzazione o superiore ai progetti e alle attività</p> <p>Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni sull'accesso ai problemi nel tuo livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Concedere l'accesso ai problemi</a>. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>. </p> </td> 
+   <td role="rowheader">Livello di accesso</td> 
+   <td> <p>Modifica l'accesso alle Issues</p> <p>Accesso di visualizzazione o superiore a progetti e attività per assegnare un problema</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per il problema</p> <p>Autorizzazioni di Contribute per l’elemento in cui si sta copiando il problema con la possibilità di aggiungere problemi.</p> <p> Per informazioni sulla concessione delle autorizzazioni per i problemi, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Condividere un problema </a></p> <p>Per informazioni sulla richiesta di autorizzazioni aggiuntive, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">Concedere l'accesso agli utenti</a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per il problema</p> <p> Visualizzare le autorizzazioni o versioni successive per il progetto o l’attività in cui si trova il problema, quando si assegna un problema</p><p>Quando si assegnano più problemi, le autorizzazioni Contribute o una versione successiva al progetto o all’attività in cui si trova il problema.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront.
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Considerazioni per più assegnazioni a mansioni, team e utenti
 
@@ -137,7 +140,7 @@ Quando si assegnano più risorse a un elemento di lavoro, tenere presente quanto
      >Per consentire agli utenti di visualizzare le e-mail degli utenti, nel proprio livello di accesso deve essere abilitata l’impostazione Visualizza informazioni di contatto. Per informazioni, vedere [Concedere l&#39;accesso agli utenti](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
      >
 
-     <!-- not sure if this applies to issues; if it does, add this to the TIP above: 
+     <!-- this doesn't apply to issues; if it does, add this to the TIP above: 
       ><span class="preview">When adding a job role assignment, you can search for the job role or location. Select a role from the Job roles list to use the default billing rate for the assignment, or select a Rate card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 

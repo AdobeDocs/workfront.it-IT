@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '1997'
+source-wordcount: '1985'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 <!--Audited: 07/2024-->
 
-<!--remove the span class preview from everywhere but the Rate Card roles referencs must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
+<!--remove the span class preview from everywhere but the Rate Card roles references must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
 
 <span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente di anteprima per tutti i clienti oppure nell&#39;ambiente di produzione per i clienti che hanno abilitato le versioni rapide.</span>
 
@@ -146,12 +146,8 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
    Oppure
 
-   Se l’attività o il problema è già assegnato, fai clic sul nome delle assegnazioni.
+   Fare clic sul nome delle assegnazioni se l&#39;attività è già assegnata.
 
-   Nell’ambiente di produzione:
-   ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
-
-   <span class="preview">Nell&#39;ambiente di anteprima:</span>
    ![Assegnazioni](assets/assignments-box-in-task-header.png)
 
 1. Esegui una delle operazioni seguenti:
@@ -168,7 +164,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      ><span class="preview">Quando si aggiunge un&#39;assegnazione di una mansione, è possibile cercare la mansione o il percorso. Selezionare un ruolo dall&#39;elenco Ruoli per utilizzare la tariffa di fatturazione predefinita per l&#39;assegnazione oppure selezionare un ruolo di ruolo Scheda tariffa per utilizzare la tariffa di fatturazione dalla scheda tariffa. Per ulteriori informazioni sulle schede tariffarie, vedere [Gestire le schede tariffarie](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
-   * (Condizionale) Fai clic su uno dei nomi negli elenchi <span class="preview">**Assegnazioni suggerite**, **Utente e team**, **Ruoli** o **Ruoli scheda valutazione**</span> quando vengono visualizzati. Per ulteriori informazioni, vedere [Panoramica assegnazioni avanzate](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * (Condizionale) Fai clic su uno dei nomi negli elenchi **Assegnazioni suggerite**, **Utente e team**, **Ruoli** o <span class="preview">**Ruoli scheda valutazione**</span> quando vengono visualizzati. Per ulteriori informazioni, vedere [Panoramica assegnazioni avanzate](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
      È possibile iniziare a digitare il nome di qualsiasi utente, team o mansione da assegnare all&#39;attività, quindi selezionarlo quando viene visualizzato nell&#39;elenco.
 
@@ -215,7 +211,7 @@ Per assegnare le attività in un elenco:
      >
      >Per consentire agli utenti di visualizzare le e-mail degli utenti, nel proprio livello di accesso deve essere abilitata l’impostazione Visualizza informazioni di contatto. Per informazioni, vedere [Concedere l&#39;accesso agli utenti](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
      >
-     ><span class="preview">Quando si aggiunge un&#39;assegnazione di una mansione, è possibile cercare la mansione o il percorso. Selezionare la mansione predefinita/di sistema per utilizzare la tariffa di fatturazione predefinita per l&#39;assegnazione oppure selezionare una mansione scheda tariffa per utilizzare la tariffa di fatturazione dalla scheda tariffa. Per ulteriori informazioni sulle schede tariffarie, vedere [Gestire le schede tariffarie](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+     ><span class="preview">Quando si aggiunge un&#39;assegnazione di una mansione, è possibile cercare la mansione o il percorso. Selezionare una mansione per utilizzare la tariffa di fatturazione predefinita per l&#39;assegnazione oppure selezionare una mansione Scheda tariffa per utilizzare la tariffa di fatturazione dalla scheda tariffa. Per ulteriori informazioni sulle schede tariffarie, vedere [Gestire le schede tariffarie](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
 1. (Condizionale) Quando è visibile nel campo **Assegnazioni**, fai clic sull&#39;icona **Persone** nell&#39;angolo superiore destro della casella Assegnazioni per aprire la casella **Assegnazioni avanzate** e creare assegnazioni avanzate.

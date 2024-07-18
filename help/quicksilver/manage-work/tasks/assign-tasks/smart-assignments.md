@@ -7,9 +7,9 @@ description: Quando gestisci le assegnazioni di attività e problemi, puoi utili
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1269'
 ht-degree: 0%
 
 ---
@@ -49,13 +49,13 @@ Puoi visualizzare le assegnazioni intelligenti nelle seguenti aree, dove puoi as
 
   ![](assets/smart-assignments-issue-list.png)
 
-* <span class="preview">Un elenco di attività o un report nella colonna Assegnazioni </span>
+* Un elenco di attività o un report nella colonna Assegnazioni
 
-  <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+  ![](assets/smart-assignments-task-list.png)
 
-* <span class="preview">Intestazione attività nel campo Assegnazioni</span>
+* Un&#39;intestazione di attività nel campo Assegnazioni
 
-  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+  ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * Intestazione di un problema nel campo Assegnazioni
 
@@ -63,24 +63,24 @@ Puoi visualizzare le assegnazioni intelligenti nelle seguenti aree, dove puoi as
 
 * Pannello Riepilogo attività o problemi nell’area Assegnazioni
 
-  ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
+  ![](assets/issue-assignments-summary-panel.png)
 
-* <span class="preview">Campo Assegnazioni nella casella Nuova attività quando si aggiunge un&#39;attività a un progetto</span>
+* Campo Assegnazioni nella casella Nuova attività quando si aggiunge un&#39;attività a un progetto
 
-  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
+  ![](assets/smart-assignments-new-task-modal.png)
 
-* Il campo Assegnazioni per un elemento elencato nell’area Home quando apri un’attività o un problema
+<!--this is not possible in the new home  - we have Summary there: 
+* The Assignments field for an item listed in the Home area, when you open a task or issue
 
-  <span class="preview">![](assets/smart-assignments-in-home-nwe-350x216.png)</span>
+  ![](assets/smart-assignments-in-home-nwe-350x216.png)
+-->
 
 * Bilanciatore dei carichi di lavoro nell’area Assegnato a quando si assegna un’attività o un problema
 
-  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
+  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## Criteri di assegnazione intelligenti
-
-<div class="preview">
 
 Le assegnazioni intelligenti funzionano in modo diverso per le attività rispetto ai problemi.
 
@@ -134,17 +134,16 @@ Se il primo passaggio delle assegnazioni intelligenti delle attività non ha tro
 
 Per ulteriori informazioni, vedere la sezione [Criteri di assegnazione avanzata per attività e problemi](#smart-assignments-criteria-for-tasks-and-issues) in questo articolo.
 
-Le assegnazioni identificate in questa fase sono elencate nelle sezioni **Utenti e team**, **Assegnazioni mansioni** e **Ruoli scheda valutazione** del campo Assegnazioni. Per ulteriori informazioni sulle schede tariffarie, vedere [Gestione delle schede tariffarie](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
+Le assegnazioni identificate in questa fase sono elencate nelle sezioni **Utenti e team**, **Assegnazioni mansioni** e <span class="preview">**Ruoli scheda valutazione**</span> del campo Assegnazioni. <span class="preview">Per ulteriori informazioni sulle schede delle tariffe, vedi [Gestire le schede delle tariffe](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span>. <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 ### Criteri di assegnazione intelligenti per attività e problemi
 
-</div>
 
 >[!NOTE]
 >
-><span class="preview">I criteri seguenti si applicano alle attività solo quando nella prima fase del calcolo dell&#39;assegnazione intelligente delle attività non è stata trovata alcuna corrispondenza. Per informazioni, vedere la sezione [Prima fase del calcolo dell&#39;assegnazione intelligente per le attività](#first-phase-of-smart-assignment-calculation-for-tasks) in questo articolo. Per impostazione predefinita, i seguenti criteri sono sempre applicabili ai problemi. </span>
+>I criteri seguenti si applicano alle attività solo quando nella prima fase del calcolo dell&#39;assegnazione intelligente delle attività non sono state trovate corrispondenze. Per informazioni, vedere la sezione [Prima fase del calcolo dell&#39;assegnazione intelligente per le attività](#first-phase-of-smart-assignment-calculation-for-tasks) in questo articolo. Per impostazione predefinita, i seguenti criteri sono sempre applicabili ai problemi.
 
-<span class="preview">![](assets/smart-assignments-issue-header.png)</span>
+![](assets/smart-assignments-issue-header.png)
 
 Gli utenti sono consigliati nell’elenco a discesa delle assegnazioni intelligenti in base a una combinazione dei seguenti criteri (elencati in ordine crescente e decrescente):
 

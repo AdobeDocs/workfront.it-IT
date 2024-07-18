@@ -6,9 +6,9 @@ description: Puoi aggiornare manualmente la data di conferma di un’attività o
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,13 @@ ht-degree: 0%
 
 # Aggiorna le date di conferma per attività e problemi
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente di anteprima per tutti i clienti oppure nell&#39;ambiente di produzione per i clienti che hanno abilitato le versioni rapide.</span>
+<!--Audited: 07/2024-->
 
-<span class="preview">Per informazioni sulle versioni rapide, vedi [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">Per informazioni sulla versione corrente, consulta [Panoramica sulla versione del terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>-->
 
 Puoi aggiornare manualmente la data di conferma di un’attività o di un problema che ti è stato assegnato. Per ulteriori informazioni su Conferma date in Adobe Workfront, consulta [Panoramica sulla conferma data](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
@@ -28,7 +30,7 @@ Puoi aggiornare manualmente la data di conferma di un’attività o di un proble
 
 <!--Audited: 01/2024-->
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,12 +43,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
    <td> 
-   Per le nuove licenze:
+   Nuovo:
    <ul>
    <li><p>Standard per le attività</p> </li>
    <li><p>Collaboratore o versione successiva per i problemi</p></li>
    </ul>
-   Per le licenze correnti:
+   Corrente:
 <ul>
    <li><p>Lavoro o superiore per le attività</p></li> 
    <li><p>Richiedi o superiore per problemi</p></li>
@@ -65,7 +67,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront. Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisiti
 
@@ -77,10 +81,10 @@ Prima di poter modificare la Data di conferma di un’attività o di un problema
 Puoi aggiornare la Data di conferma di un’attività o di un problema nelle seguenti aree di Workfront:
 
 * La sezione Dettagli di un’attività o di un problema
-* <span class="preview">Intestazione attività o problema</span>
+* Intestazione dell’attività o del problema
 
-  <span class="preview">L&#39;amministratore del Workfront o del gruppo deve aggiungere la data di conferma all&#39;intestazione dell&#39;attività o del problema del modello di layout per visualizzarla dalla pagina dell&#39;attività o del problema.
-Per informazioni, vedere [Personalizzare le intestazioni degli oggetti utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).</span>
+  L’amministratore del Workfront o del gruppo deve aggiungere la Data di conferma all’intestazione dell’attività o del problema del modello di layout per visualizzarla dalla pagina dell’attività o del problema.
+Per informazioni, vedere [Personalizzare le intestazioni degli oggetti utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 L’aggiornamento della data di conferma è identico per attività e problemi.
 
@@ -98,9 +102,9 @@ L’aggiornamento della data di conferma è identico per attività e problemi.
 
    Per ulteriori informazioni su come individuare il proprietario dell&#39;attività per un problema o un&#39;attività, vedere la sezione [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) nell&#39;articolo [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-1. <span class="preview">(Condizionale e facoltativo) Se l&#39;amministratore del Workfront o del gruppo ha aggiunto la Data conferma all&#39;intestazione dell&#39;attività o del problema, fare clic sul campo **Data conferma** nell&#39;intestazione, quindi selezionare una data dal calendario. Se la Data del commit non è nell&#39;intestazione, procedere come segue. </span>
+1. (Condizionale e facoltativo) Se l&#39;amministratore del Workfront o del gruppo ha aggiunto la Data conferma all&#39;intestazione dell&#39;attività o del problema, fare clic sul campo **Data conferma** nell&#39;intestazione, quindi selezionare una data dal calendario. Se la Data del commit non è nell&#39;intestazione, procedere come segue.
 
-   <span class="preview">![](assets/commit-date-task-header.png)</span>
+   ![](assets/commit-date-task-header.png)
 
 1. Fai clic su **Dettagli attività** o **Dettagli problema** nel pannello a sinistra.
 1. Fai clic su **Panoramica** per espanderlo.

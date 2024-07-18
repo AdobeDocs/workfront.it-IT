@@ -6,20 +6,22 @@ description: La condizione di un’attività o di un problema è un flag applica
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1020'
 ht-degree: 1%
 
 ---
 
 # Aggiorna condizione per attività e problemi
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente di anteprima per tutti i clienti oppure nell&#39;ambiente di produzione per i clienti che hanno abilitato le versioni rapide.</span>
+<!--Audited: 07/2024-->
 
-<span class="preview">Per informazioni sulle versioni rapide, vedi [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">Per informazioni sulla versione corrente, consulta [Panoramica sulla versione del terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>-->
 
 La condizione di un’attività o di un problema è un flag applicato a tale attività o problema per indicarne la direzione. Diverso dallo stato dell&#39;elemento di lavoro, che indica la fase corrente di sviluppo dell&#39;elemento.
 
@@ -29,7 +31,7 @@ I valori di Condizione a cui si fa riferimento in questo articolo sono disponibi
 
 ## Requisiti di accesso {#access-requirements}
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,15 +43,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td>
-
-Per le nuove licenze:
-<ul><li><p>Standard per le attività</p></li>
+   <td> 
+   Nuovo:
+   <ul><li><p>Standard per le attività</p></li>
    <li><p>Collaboratore o versione successiva per i problemi</p></li></ul>
-
-
-Per le licenze correnti:
-<ul><li><p>Lavoro o superiore per le attività</p></li>
+   Corrente:
+   <ul><li><p>Lavoro o superiore per le attività</p></li>
    <li><p>Richiedi o superiore per problemi</p></li></ul>
     </td> 
   </tr> 
@@ -66,7 +65,9 @@ Per le licenze correnti:
  </tbody> 
 </table>
 
-*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront. Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisiti
 
@@ -78,9 +79,9 @@ Le condizioni vengono visualizzate come flag associato ad attività o problemi. 
 
 Puoi individuare la Condizione delle attività e dei problemi nelle seguenti aree di Workfront:
 
-* <span class="preview">La pagina Dettagli, dopo che un amministratore di Workfront o di gruppo l&#39;ha aggiunta al modello di layout. Per informazioni, vedere [Personalizzare la visualizzazione Dettagli utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). </span>
+* La pagina Dettagli, dopo che è stata aggiunta da un amministratore di Workfront o di gruppo al modello di layout. Per informazioni, vedere [Personalizzare la visualizzazione Dettagli utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-* <span class="preview">Intestazione di un&#39;attività o di un problema, dopo che è stata aggiunta da un amministratore di Workfront o di un gruppo al modello di layout. Per informazioni, vedere [Personalizzare le intestazioni degli oggetti utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
+* L’intestazione di un’attività o di un problema, dopo che un amministratore di Workfront o di un gruppo l’ha aggiunta al modello di layout. Per informazioni, vedere [Personalizzare le intestazioni degli oggetti utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 * Il pannello Riepilogo, dopo che un amministratore di Workfront o di gruppo lo ha aggiunto al modello di layout. Per informazioni, vedere [Personalizzare la home e il riepilogo utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
@@ -110,7 +111,7 @@ Per informazioni sull&#39;impostazione del pulsante Lavoraci su un pulsante Avvi
 
 >[!NOTE]
 >
->È possibile chiedere all&#39;amministratore del sistema o del gruppo di aggiungere il campo Condizione al pannello Riepilogo per semplificarne l&#39;aggiornamento in varie aree di Workfront.
+>Puoi chiedere all’amministratore del sistema o del gruppo di aggiungere il campo Condizione al pannello Riepilogo, all’intestazione dell’attività o del problema o alle pagine Dettagli.
 >
 >Per ulteriori informazioni, consulta i seguenti articoli:
 >
@@ -124,31 +125,27 @@ Updating the Condition of a task or issue differs depending on whether you are a
 * If you are using the legacy commenting experience, you can update the Condition in the Updates tab or in a list of tasks or issues if you are assigned to them. This is not supported in the new commenting experience. For information, see [New commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 * You can update the Condition in a list of tasks or issues if you are not assigned to them, only if you have Manage permissions to them. In this case, you cannot update the Condition in the Update tab of the task or issue. -->
 
-Per aggiornare manualmente la condizione di un’attività o di un problema, effettua una delle seguenti operazioni:
+Puoi aggiornare manualmente la Condizione delle attività e dei problemi in varie aree di Workfront. Nelle sezioni seguenti viene descritto come aggiornare manualmente la condizione di attività e problemi.
 
-<div class="preview">
+### Aggiornare la condizione di un’attività o di un problema nell’intestazione dell’attività o del problema
 
-1. Per aggiornare la Condizione di un’attività o di un problema nell’intestazione dell’attività o del problema:
+1. (Condizionale) Se l&#39;amministratore del Workfront o del gruppo ha aggiunto il campo Condizione all&#39;intestazione dell&#39;attività o del problema del modello di layout, fare clic sul campo **Condizione** nell&#39;intestazione e selezionare una delle opzioni seguenti:
+   * Senza problemi
+   * Qualche dubbio
+   * Problemi notevoli
 
-   1. (Condizionale) Se l&#39;amministratore del Workfront o del gruppo ha aggiunto il campo Condizione all&#39;intestazione dell&#39;attività o del problema del modello di layout, fare clic sul campo **Condizione** nell&#39;intestazione e selezionare una delle opzioni seguenti:
-      * Senza problemi
-      * Qualche dubbio
-      * Problemi notevoli
+   ![](assets/condition-in-task-header.png)
+1. Fai clic su Invio per salvare la condizione.
 
-      ![](assets/condition-in-task-header.png)
-   1. Fai clic su Invio per salvare la condizione.
+### Aggiornare la condizione di un’attività o di un problema nella sezione Dettagli attività o problema
 
-1. Per aggiornare la Condizione di un’attività o di un problema nella sezione Dettagli dell’attività o del problema:
-
-   1. (Condizionale) Se l&#39;amministratore del Workfront o del gruppo ha aggiunto il campo Condizione alla sezione Dettagli di un&#39;attività o di un problema nel modello di layout, fai clic su **Dettagli** nel pannello a sinistra, quindi fai clic su **Condizione attività** o **Condizione problema** e seleziona una delle seguenti opzioni:
-      * Senza problemi
-      * Qualche dubbio
-      * Problemi notevoli
+1. (Condizionale) Se l&#39;amministratore del Workfront o del gruppo ha aggiunto il campo Condizione alla sezione Dettagli di un&#39;attività o di un problema nel modello di layout, fai clic su **Dettagli** nel pannello a sinistra, quindi fai clic su **Condizione attività** o **Condizione problema** e seleziona una delle seguenti opzioni:
+   * Senza problemi
+   * Qualche dubbio
+   * Problemi notevoli
 1. Fai clic su **Salva modifiche**. La condizione dell’attività o del problema è aggiornata.
 
-</div>
-
-Per aggiornare la condizione di un&#39;attività o di un problema in un report o in un elenco:
+### Aggiornare la condizione di un’attività o di un problema in un rapporto o in un elenco
 
 1. Vai a un elenco di attività o problemi per i quali disponi delle autorizzazioni di gestione. Verificare che il campo **Condizione** sia visibile nella visualizzazione dell&#39;elenco.
 
