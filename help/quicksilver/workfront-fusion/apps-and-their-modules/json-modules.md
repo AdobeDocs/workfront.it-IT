@@ -88,7 +88,7 @@ Se il campo stringa JSON contiene una raccolta `{ ... }`, l&#39;output è un sin
 >       "name" : "Peter",
 >
 >    
-   "ID" : 1
+>   "ID" : 1
 >}
 >```
 >
@@ -108,7 +108,7 @@ Se il campo stringa JSON contiene un array `[ ... ]`, l&#39;output è una serie 
 >   },
 >
 >  
- {
+> {
 >       "name" : "Mike",
 >       "ID" : 2
 >   }
@@ -240,25 +240,25 @@ Questo modulo di azione trasforma un oggetto in una stringa json.
 >
 **Esempio:**
 >   
-```
-{
-
-"books": [
-
-{
-
-"id": "ID",
-
-"title": "Title",
-
-"author": "Author"
-
-}
-
-]
-
-}
-```
+>```
+>{
+>
+>"books": [
+>
+>{
+>
+>"id": "ID",
+>
+>"title": "Title",
+>
+>"author": "Author"
+>
+>}
+>
+>]
+>
+>}
+>```
 >
 1. Fai clic su **[!UICONTROL Salva]**. Il campo [!UICONTROL Specifica] nella struttura dati contiene ora la struttura generata.
 1. Modifica il nome della struttura dati specificando qualcosa di più specifico e fai clic su **[!UICONTROL Salva]**. Un campo corrispondente all’attributo dell’array principale viene visualizzato come campo mappabile nella configurazione del modulo JSON.
