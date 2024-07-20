@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: e52881a03f69d7c4d6a62dcdc9c6044f6f5dd016
+source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
 workflow-type: tm+mt
-source-wordcount: '14266'
+source-wordcount: '14298'
 ht-degree: 1%
 
 ---
@@ -1823,7 +1823,7 @@ ht-degree: 1%
    * Verifica di {#proofing} in corso
       * [Strumenti di correzione: indice articolo](review-and-approve-work/proofing/proofing.md)
       * Panoramica bozza {#proofing-overview}
-         * [Panoramica bozza](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
+         * [Panoramica bozza: indice articolo](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
          * [Panoramica del profilo di autorizzazione della bozza](review-and-approve-work/proofing/proofing-overview/permission-profiles.md)
          * [Panoramica sui ruoli bozza](review-and-approve-work/proofing/proofing-overview/proof-roles.md)
          * [Panoramica del flusso di lavoro automatizzato](review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
@@ -1836,7 +1836,7 @@ ht-degree: 1%
          * [Panoramica sullo stato e sull’avanzamento della bozza](review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md)
          * [Panoramica sulle differenze tra il visualizzatore bozze web e il visualizzatore bozze desktop](review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
       * Crea bozze {#create-proofs}
-         * [Creare le bozze](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
+         * [Creare bozze: indice dell’articolo](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
          * [Configurare i valori predefiniti per la verifica personale](review-and-approve-work/proofing/creating-proofs-within-workfront/set-proof-defaults.md)
          * [Creare una bozza con più pagine](review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)
          * [Creare una bozza interattiva per un sito web o altro contenuto web](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md)
@@ -1846,9 +1846,9 @@ ht-degree: 1%
          * [Creare una bozza avanzata con un flusso di lavoro di base](review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
          * [Creare una bozza avanzata con un flusso di lavoro automatizzato](review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
       * Gestione delle bozze in Adobe Workfront {#manage-proofs-in-workfront}
-         * [Gestire le bozze in Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
+         * [Gestione delle bozze in Adobe Workfront: indice degli articoli](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
          * Gestisci bozze {#manage-proofs}
-            * [Gestire le bozze](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs/manage-proofs.md)
+            * [Gestisci bozze: indice articolo](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs/manage-proofs.md)
             * [Modifica impostazioni bozza](review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md)
             * [Stampare un riepilogo delle bozze in Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)
             * [Eliminare una bozza](review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md)
@@ -1857,27 +1857,27 @@ ht-degree: 1%
             * [Utilizzare il rapporto di approvazione della bozza](review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
             * [Accedere a Workfront Proof da Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)
          * Gestisci versioni bozza {#manage-proof-versions}
-            * [Gestire le versioni delle bozze](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
+            * [Gestione versioni bozza: indice articolo](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
             * [Creare una nuova versione di una bozza](review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)
             * [Visualizzare le versioni di una bozza](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-proof-versions.md)
             * [Visualizzare e gestire i dettagli della versione della bozza](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-version-details.md)
             * [Scarica versioni bozza](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/download-versions.md)
          * Gestisci revisori bozze {#manage-proof-reviewers}
-            * [Gestire i revisori delle bozze](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-reviewers/manage-proof-reviewers.md)
+            * [Gestire i revisori delle bozze: indice degli articoli](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-reviewers/manage-proof-reviewers.md)
             * [Configurare le impostazioni di accesso e abbonamento per una bozza](review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
             * [Condividere una bozza in Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
             * [Inviare messaggi e-mail ai revisori su una bozza](review-and-approve-work/proofing/managing-proofs-within-workfront/send-email-messages-to-users-proof.md)
          * Gestisci notifiche bozza {#manage-proof-notifications}
-            * [Gestire le notifiche delle bozze](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-notifications/manage-proof-notifications.md)
+            * [Gestire le notifiche delle bozze: indice degli articoli](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-notifications/manage-proof-notifications.md)
             * [Gestire le notifiche per i commenti e le decisioni relativi alle bozze](review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
          * Gestisci scadenze bozza {#manage-proof-deadlines}
-            * [Gestire le scadenze delle bozze](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/manage-proof-deadlines.md)
+            * [Gestire le scadenze della bozza: indice articolo](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/manage-proof-deadlines.md)
             * [Imposta una scadenza per una bozza di base esistente](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-deadline-basic-proof.md)
             * [Aggiungere, modificare o eliminare una scadenza per una fase](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/add-edit-delete-deadline.md)
             * [Impostare le scadenze dei singoli revisori](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-individual-deadlines.md)
             * [Rimuovere le scadenze dei singoli revisori](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/remove-individual-deadlines.md)
          * Gestisci bozze automatizzate {#manage-automated-proofs}
-            * [Gestire le bozze automatizzate](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-automated-proofs/manage-automated-proofs.md)
+            * [Gestione delle bozze automatizzate: indice degli articoli](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-automated-proofs/manage-automated-proofs.md)
             * [Visualizzare le fasi del flusso di lavoro automatizzato su una bozza](review-and-approve-work/proofing/managing-proofs-within-workfront/view-aw-stages-proof.md)
             * [Visualizzare le fasi attive su una bozza](review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md)
             * [Creare o modificare un flusso di lavoro automatico per una bozza esistente](review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
@@ -1885,16 +1885,16 @@ ht-degree: 1%
             * [Convertire un flusso di lavoro di base in un flusso di lavoro automatico su una bozza](review-and-approve-work/proofing/managing-proofs-within-workfront/convert-basic-automatic-workflow.md)
             * [Aggiungere stadi e utenti a un flusso di lavoro automatico su una bozza](review-and-approve-work/proofing/managing-proofs-within-workfront/add-stages-users-to-automated-workflow-proof.md)
       * Utilizzare il Visualizzatore bozze desktop {#use-the-desktop-proofing-viewer}
-         * [Utilizzare il Visualizzatore bozze desktop](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/use-desktop-proofing-viewer.md)
+         * [Utilizzare il Visualizzatore bozze desktop: indice articolo](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/use-desktop-proofing-viewer.md)
          * [Installare il Visualizzatore bozze desktop](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)
          * [Aggiornare il Visualizzatore bozze desktop](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)
          * [Aprire le bozze nel Visualizzatore bozze desktop](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md)
          * [Esaminare i contenuti non interattivi nel Visualizzatore bozze desktop](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/review-non-interactive-content-in-desktop-proofing-viewer.md)
          * [Domande frequenti - Visualizzatore bozze desktop](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/faq-desktop-proofing-viewer.md)
       * Verifica bozze in Adobe Workfront {#review-proofs-in-workfront}
-         * [Revisione delle bozze in Adobe Workfront](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
+         * [Revisione delle bozze in Adobe Workfront: indice degli articoli](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
          * Rivedi una bozza {#review-a-proof}
-            * [Rivedere una bozza](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
+            * [Revisione di una bozza: indice dell’articolo](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
             * [Visualizzare il contenuto in una bozza](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-a-proof.md)
             * [Misurare un’area all’interno di una bozza](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/measure-an-area-proof.md)
             * [Modificare l’unità di misura della timeline in una bozza video](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/change-unit-of-measurement-video.md)
@@ -1911,7 +1911,7 @@ ht-degree: 1%
             * [Modificare la risoluzione della bozza interattiva nel visualizzatore di bozze](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)
             * [Configurare le impostazioni del visualizzatore di verifica](review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)
          * Commento su una bozza {#comment-on-a-proof}
-            * [Commento sulle bozze](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
+            * [Commento sulle bozze: indice dell’articolo](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
             * [Commento su una bozza](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md)
             * [Visualizza e rispondi ai commenti della bozza](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md)
             * [Cerca, filtra e ordina commenti bozza](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/search-filter-sort-comments.md)
@@ -1921,12 +1921,12 @@ ht-degree: 1%
             * [Utilizzare le azioni sui commenti della bozza](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)
             * [Assegnare tag agli utenti per condividere una bozza](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md)
          * Decidi su una bozza {#make-decision-on-proof}
-            * [Prendere una decisione sulla bozza](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decision-on-proof.md)
+            * [Decidi su una bozza: indice articolo](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decision-on-proof.md)
             * [Approvare una bozza](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/approve-proof.md)
             * [Decidi su una bozza nel visualizzatore di bozze](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
             * [Modificare una decisione esistente su una bozza](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/change-existing-decision.md)
       * Suggerimenti, trucchi e risoluzione dei problemi per la verifica in Adobe Workfront {#ttt-proofing-in-workfront}
-         * [Suggerimenti, trucchi e risoluzione dei problemi per la verifica in Adobe Workfront](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-proofing.md)
+         * [Suggerimenti, trucchi e risoluzione dei problemi relativi alla verifica in Adobe Workfront: indice degli articoli](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-proofing.md)
          * [Elencare gli utenti con una licenza di verifica in Adobe Workfront](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/report-which-users-have-proofing-license-in-wf.md)
          * [Modificare il campo Profilo autorizzazione bozza in blocco](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
          * [Disattiva la condivisione della bozza tramite URL pubblico o codice incorporato](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
@@ -1934,7 +1934,7 @@ ht-degree: 1%
          * [Il nome del documento è stato modificato dopo il caricamento e contiene un carattere non valido](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
          * [Prova di un PowerPoint con un video incorporato](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
    * Suggerimenti, trucchi e risoluzione dei problemi per le approvazioni {#ttt-approvals}
-      * [Suggerimenti, trucchi e risoluzione dei problemi per le approvazioni](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
+      * [Suggerimenti, trucchi e risoluzione dei problemi per le approvazioni: indice degli articoli](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Visualizza il numero di decisioni su bozze e documenti per tutti gli utenti](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * Schede orario {#timesheets}
    * [Schede orario: indice degli articoli](timesheets/timesheets-all.md)

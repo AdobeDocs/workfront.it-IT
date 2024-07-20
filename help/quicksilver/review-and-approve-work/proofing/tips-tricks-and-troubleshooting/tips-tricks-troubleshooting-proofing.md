@@ -1,19 +1,19 @@
 ---
-title: Suggerimenti, trucchi e risoluzione dei problemi per la verifica in Adobe Workfront
+title: "Suggerimenti, trucchi e risoluzione dei problemi relativi alla verifica in Adobe Workfront: indice degli articoli"
 description: Suggerimenti, trucchi e risoluzione dei problemi per la verifica in Adobe Workfront
 author: Courtney
 draft: Probably
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 83e2f884-b396-444e-9533-864fd78880f2
-source-git-commit: 8dd5e13b479bb46c982b58321d6838d7c0e64410
+source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
 
-# Suggerimenti, trucchi e risoluzione dei problemi per la verifica in Adobe Workfront
+# Suggerimenti, trucchi e risoluzione dei problemi relativi alla verifica in Adobe Workfront: indice degli articoli
 
 Questa sezione contiene i seguenti articoli:
 

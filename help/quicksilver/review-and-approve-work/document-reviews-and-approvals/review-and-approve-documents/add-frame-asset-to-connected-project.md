@@ -6,9 +6,9 @@ description: I creativi possono aggiungere risorse che devono essere riviste in 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f196e56f-6e67-4d54-b36d-83bb4a3ae681
-source-git-commit: a343b8822523d48ca717c87f9ca4c51ca76abc57
+source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 I creativi possono aggiungere risorse che devono essere riviste in Frame.io e inviarle a Workfront per la revisione e l&#39;approvazione formali.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -52,6 +54,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisiti
 

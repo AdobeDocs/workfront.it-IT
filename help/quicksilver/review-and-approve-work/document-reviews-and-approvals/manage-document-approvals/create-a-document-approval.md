@@ -6,9 +6,9 @@ description: Puoi richiedere l’approvazione di altri utenti per un documento i
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: 66f3b53a06147d531e5e700857ca88219c2d4109
+source-git-commit: 796955fb073905337755fc04e9fb43dbc85b6450
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,9 @@ cÈ possibile richiedere ad altri utenti o team l&#39;approvazione di un documen
 >Il contenuto di questo articolo fa riferimento alla funzionalità di approvazione dei documenti aggiornata, disponibile solo per account specifici. Per informazioni sui processi di approvazione standard, vedere gli articoli elencati in [Approvazioni di lavoro](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -49,6 +52,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+
++++
 
 ## Creare una richiesta di revisione o approvazione documento dalla pagina del documento
 

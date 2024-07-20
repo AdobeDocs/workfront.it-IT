@@ -2,20 +2,20 @@
 content-type: reference
 product-area: documents
 navigation-topic: review-proofs-within-workfront
-title: Panoramica su un commento su una bozza
+title: "Panoramica sui commenti relativi a una bozza: indice degli articoli"
 description: Commento su una bozza
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 526d4f65-54c1-480c-ab7b-f207b74cafbf
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '53'
 ht-degree: 0%
 
 ---
 
-# Commento su una bozza
+# Commento su una bozza: indice dell’articolo
 
 * [Commento su una bozza](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md)
 * [Visualizza e rispondi ai commenti della bozza](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md)

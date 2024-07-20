@@ -6,9 +6,9 @@ description: Se si è assegnati come approvatori a un documento, è possibile pr
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: 50a38ad915b639bf742a4b1f18bcb4da88e07d63
+source-git-commit: 3755eb0d384e7274b88fbeafc2affa85f735efbc
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Per informazioni sulla creazione di una nuova approvazione documento, vedere [Cr
 >Il contenuto di questo articolo fa riferimento alla funzionalità di approvazione dei documenti aggiornata, disponibile solo per account specifici. Per informazioni sui processi di approvazione standard, vedere gli articoli elencati in [Approvazioni di lavoro](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -51,6 +53,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+
++++
 
 ## Approvare un documento dalla Home
 

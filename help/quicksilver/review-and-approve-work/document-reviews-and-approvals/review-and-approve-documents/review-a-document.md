@@ -6,9 +6,9 @@ description: In qualità di revisore, puoi visualizzare in anteprima un document
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 50a38ad915b639bf742a4b1f18bcb4da88e07d63
+source-git-commit: 3755eb0d384e7274b88fbeafc2affa85f735efbc
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ In qualità di revisore, puoi visualizzare un documento che ti è stato inviato 
 >Il contenuto di questo articolo fa riferimento alla funzionalità di approvazione dei documenti aggiornata, disponibile solo per account specifici. Per informazioni sui processi di approvazione standard, vedere gli articoli elencati in [Approvazioni di lavoro](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -49,6 +51,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+
++++
 
 <!--
 ## Review a document from Home

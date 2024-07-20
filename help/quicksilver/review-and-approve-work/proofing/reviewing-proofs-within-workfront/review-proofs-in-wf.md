@@ -2,20 +2,20 @@
 content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
-title: Revisione delle bozze in Adobe Workfront
+title: "Revisione delle bozze in Adobe Workfront: indice articolo"
 description: Scopri come rivedere le bozze in Workfront.
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: cf62d4ef-1244-4038-a56d-4a325140f93a
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '51'
 ht-degree: 0%
 
 ---
 
-# Revisione delle bozze in Adobe Workfront
+# Revisione delle bozze in Adobe Workfront: indice degli articoli
 
 Questa sezione contiene i seguenti articoli:
 
