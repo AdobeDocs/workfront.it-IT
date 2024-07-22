@@ -7,33 +7,31 @@ description: Gli stati obiettivo indicano se un obiettivo è attivo e sta regist
 author: Alina
 feature: Workfront Goals
 exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '818'
 ht-degree: 4%
 
 ---
 
 # Panoramica sullo stato degli obiettivi in Obiettivi di Adobe Workfront
 
-Per utilizzare le funzionalità descritte in questo articolo, l’organizzazione deve disporre dei seguenti elementi:
-
-* Per il nuovo piano e la nuova struttura delle licenze:
-
-   * Un piano Ultimate
-
-     Oppure
-
-     Una licenza aggiuntiva per Adobe Workfront Goals per i piani Prime o Select Adobe Workfront. Per informazioni, vedere [Piano Adobe Workfront](https://www.workfront.com/plans).
-
-* Per il piano corrente e la struttura delle licenze:
-
-   * A Pro o superiore
-   * Una licenza Adobe Workfront Goals oltre a una licenza Workfront.
-
-Contatta il tuo account manager Workfront per saperne di più su una licenza Workfront Goals.
-
-Gli stati obiettivo indicano se un obiettivo è attivo e sta registrando l’avanzamento, oppure se è inattivo, bozza o già raggiunto.
+>[!IMPORTANT]
+>
+>Per utilizzare le funzionalità descritte in questo articolo, l’organizzazione deve disporre dei seguenti elementi:
+>
+>* Per il nuovo piano e la nuova struttura delle licenze:
+>
+>   * Il piano Ultimate Workfront
+>    
+>* Per il piano corrente e la struttura delle licenze:
+>
+>   * Un piano Workfront Pro o superiore
+>   * Una licenza Adobe Workfront Goals oltre a una licenza Workfront.
+>
+>Contatta il tuo account manager Workfront per saperne di più su una licenza Workfront Goals.
+> 
+>Per ulteriori informazioni sull&#39;accesso agli obiettivi di Workfront, vedere [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 ## Considerazione durante l’aggiornamento degli stati degli obiettivi in Obiettivi di Workfront
 

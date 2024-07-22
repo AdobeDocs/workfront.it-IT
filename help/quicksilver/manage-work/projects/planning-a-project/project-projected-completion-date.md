@@ -7,9 +7,9 @@ description: La Data di completamento prevista è un indicatore calcolato in tem
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Le sezioni seguenti descrivono come e come individuare la Data di completamento 
 
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 
 <table style="table-layout:auto"> 
@@ -36,7 +36,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza Adobe Workfront*</td> 
    <td> 
    <p>Nuovo: 
    <ul><li><p>Collaboratore o versione successiva per visualizzare la data di completamento prevista in un rapporto</p></li> <li><p>Una licenza Standard per creare un rapporto</p></li> </ul>
@@ -47,7 +47,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
       </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td role="rowheader">Livello di accesso</td> 
    <td> <p>Accesso ai progetti di visualizzazione o superiore</p> <p>Per creare un rapporto è necessario disporre dell'accesso in modifica a report, dashboard e calendari</p> <p>Per creare un rapporto o modificare una vista a elenco, è necessario disporre dell'accesso di modifica a Filtri, Viste, Raggruppamenti</p>  </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Come Adobe Workfront determina la data di completamento prevista
 
@@ -85,7 +87,7 @@ I criteri utilizzati per determinare la data di completamento prevista variano a
   >Quando il predecessore di un&#39;attività ha una data di completamento effettiva, le attività dipendenti ricevono una data di completamento prevista come descritto nel seguente scenario:
   >
   >
-  >Se il progetto ha l&#39;Attività A, l&#39;Attività B e l&#39;Attività C e l&#39;Attività B è il successore dell&#39;Attività A, l&#39;Attività C è il successore dell&#39;Attività B e viene aggiunta una Data di completamento effettiva all&#39;Attività A, la Data di completamento prevista viene ricalcolata automaticamente per l&#39;Attività B (a condizione che il **Tipo di aggiornamento** del progetto sia impostato su Automatico e Su modifica), ma non verrà ricalcolata per l&#39;Attività C. Attualmente, Workfront calcola la Data di completamento prevista per le attività di un livello superiore o inferiore rispetto all&#39;Attività aggiornata, per motivi di prestazioni. 
+  >Se il progetto ha l&#39;Attività A, l&#39;Attività B e l&#39;Attività C e l&#39;Attività B è il successore dell&#39;Attività A, l&#39;Attività C è il successore dell&#39;Attività B e viene aggiunta una Data di completamento effettiva all&#39;Attività A, la Data di completamento prevista viene ricalcolata automaticamente per l&#39;Attività B (a condizione che il **Tipo di aggiornamento** del progetto sia impostato su Automatico e Su modifica), ma non verrà ricalcolata per l&#39;Attività C. Attualmente, Workfront calcola la Data di completamento prevista per le attività di un livello superiore o inferiore rispetto all&#39;Attività aggiornata, per motivi di prestazioni.
 
 * **Problemi:** la data di completamento prevista del problema è inizialmente impostata per corrispondere alla data di completamento pianificata del problema.
 
@@ -119,9 +121,9 @@ Per creare un report di problemi che includa la Data di completamento prevista:
 1. Selezionare la scheda **Colonne (visualizzazione)**.
 1. Fai clic su **Aggiungi colonna** e inizia a digitare **Data di completamento prevista** nel campo **Mostra in questa colonna:**.
 
-1. Selezionala quando viene visualizzata nell&#39;elenco, nell&#39;oggetto **Issue**. 
+1. Selezionala quando viene visualizzata nell&#39;elenco, nell&#39;oggetto **Issue**.
 1. Fai clic su **Salva e Chiudi**.
 
-   La colonna **Data di completamento prevista** nel report è compilata. 
+   La colonna **Data di completamento prevista** nel report è compilata.
 
    ![](assets/issue-projected-completion-date-in-view-nwe-350x148.png)

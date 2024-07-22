@@ -3,7 +3,7 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
+source-git-commit: 18cda76ad78f07e5349d90421ea55e88084459b2
 workflow-type: tm+mt
 source-wordcount: '14298'
 ht-degree: 1%
@@ -1316,7 +1316,7 @@ ht-degree: 1%
          * [Imposta modalità di verifica per le attività](manage-work/tasks/task-information/set-tracking-mode-for-tasks.md)
          * [Ritardo livellamento attività di aggiornamento](manage-work/tasks/task-information/task-leveling-delay.md)
          * [Aggiorna tipo di costo attività](manage-work/tasks/task-information/update-task-cost-type.md)
-         * [Differenziare tra date previste e date stimate](manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
+         * [Panoramica delle date previste e stimate](manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
          * [Panoramica della durata originale e delle ore pianificate originali dell&#39;attività](manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
          * [Differenza tra durata pianificata e durata per le attività](manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
       * Crea attività {#create-tasks}

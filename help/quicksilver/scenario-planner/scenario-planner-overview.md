@@ -7,9 +7,9 @@ description: La Pianificazione scenario richiede una licenza separata oltre alla
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: ba3b3525-cba8-44fe-856d-8ba50cd3b524
-source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '565'
 ht-degree: 5%
 
 ---
@@ -18,12 +18,16 @@ ht-degree: 5%
 
 <!-- Audited: 1/2024 -->
 
-[!DNL Scenario Planner] richiede una licenza separata oltre alla licenza [!DNL Adobe Workfront].
-Per informazioni sull&#39;accesso necessario per utilizzare [!DNL Workfront Scenario Planner], vedere [Accesso necessario per utilizzare  [!DNL Scenario Planner]](access-needed-to-use-sp.md).
+Lo scopo della [!DNL Workfront Scenario Planner] è velocizzare l’esecuzione dei tuoi piani a livello di organizzazione e aiutarti a prendere decisioni cruciali che stimolano la realizzazione di risultati prevedibili e desiderati per la tua azienda.
+
+Per accedere a [!DNL Workfront Scenario Planner] è necessario disporre del seguente piano [!DNL Workfront]:
+
+* Per il nuovo piano Workfront: un piano [!UICONTROL Ultimate].
+* Per il piano [!DNL Workfront] corrente: è necessario disporre di un piano Business o superiore, oltre all&#39;acquisto di una licenza [!DNL Scenario Planner].
+
+Per ulteriori informazioni sull&#39;accesso necessario per utilizzare [!DNL Workfront Scenario Planner], vedere [Accesso necessario per utilizzare  [!DNL Scenario Planner]](access-needed-to-use-sp.md).
 
 ## Panoramica di [!DNL Scenario Planner]
-
-Lo scopo della [!DNL Workfront Scenario Planner] è velocizzare l’esecuzione dei tuoi piani a livello di organizzazione e aiutarti a prendere decisioni cruciali che stimolano la realizzazione di risultati prevedibili e desiderati per la tua azienda.
 
 Utilizzando [!DNL Workfront Scenario Planner], puoi creare piani a livello aziendale che delineano i risultati strategici generali della tua azienda. Puoi definire diverse iniziative per un piano e collocarle in vari scenari per trovare la soluzione ottimale per l’esecuzione del piano.
 

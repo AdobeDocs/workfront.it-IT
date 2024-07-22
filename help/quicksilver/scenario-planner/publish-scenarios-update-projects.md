@@ -7,9 +7,9 @@ description: Puoi creare progetti da iniziative esistenti e aggiornare progetti 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '1722'
+source-wordcount: '1663'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ La pubblicazione di uno scenario da [!DNL Adobe Workfront Scenario Planner] comp
 
 ## Requisiti di accesso
 
-Devi avere i seguenti:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,40 +31,38 @@ Devi avere i seguenti:
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] piano*</p> </td> 
-   <td>[!UICONTROL Business] o versione successiva</td> 
+   <td> <p>Corrente: [!UICONTROL Business] o versione successiva</p>
+   <p>Nuovo: Ultimate </p>
+   </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] licenza*</p> </td> 
-   <td> <p>[!UICONTROL Review] o versione successiva</p> </td> 
+   <td> <p>Nuovo: Chiaro o superiore</p> 
+   <p>Corrente: [!UICONTROL Review] o versione successiva</p> </td> 
   </tr> 
   <tr> 
-   <td>Prodotto </td> 
-   <td> <p>È necessario acquistare una licenza aggiuntiva per [!DNL Adobe Workfront Scenario Planner] per accedere alla funzionalità descritta in questo articolo.</p> <p>Per informazioni su come ottenere [!DNL Workfront Scenario Planner], vedere <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accesso necessario per utilizzare [!DNL Scenario Planner]</a>. </p> </td> 
+   <td>Prodotto* </td> 
+   <td> 
+   <p>Per i piani Workfront correnti: </p>
+   <p>È necessario acquistare una licenza aggiuntiva per [!DNL Adobe Workfront Scenario Planner] per accedere alla funzionalità descritta in questo articolo.</p> <p>Per informazioni sull'accesso e sulle autorizzazioni per [!DNL Workfront Scenario Planner], vedere <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accesso necessario per utilizzare [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p></p> <p>Livello di accesso*</p> </td> 
-   <td> 
-    <ul> 
-    <li>Accesso a [!UICONTROL Edit] per [!DNL Scenario Planner] e progetti</li></ul>
-
-<p><b>NOTA</b>
-
-Se non disponi ancora dell&#39;accesso, chiedi all&#39;amministratore [!DNL Workfront] se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di [!DNL Workfront] può modificare il livello di accesso, vedere <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
-</tr> 
+   <td>Livello di accesso </td> 
+   <td> <p>Accesso [!UICONTROL Edit] per i progetti [!DNL Scenario Planner] e [!UICONTROL]</p> </td> 
+  </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>Autorizzazioni oggetto</p> </td> 
-   <td> 
-    <ul> 
+   <td> <p>Autorizzazioni oggetto </p> </td> 
+   <td> <ul> 
      <li>Autorizzazioni [!UICONTROL Manage] per il piano </li> 
      <li>Autorizzazioni [!UICONTROL Manage] per i progetti pubblicati</li> 
-    </ul> <p>Per informazioni sulla richiesta di accesso aggiuntivo ai progetti, vedere <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo a un piano, vedere <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Richiedere accesso a un piano in [!DNL Scenario Planner]</a>.</p> </td> 
+    </ul> <p>Per informazioni sulla richiesta di accesso aggiuntivo a un piano, vedere <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Richiedere accesso a un piano in [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
+*Per informazioni, consulta [Requisiti di accesso alla documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Per ulteriori informazioni sull&#39;accesso a [!DNL Workfront Scenario Planner], vedere [Accesso necessario per utilizzare  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
++++
 
 ## Prerequisiti
 
@@ -101,7 +99,8 @@ Prima di iniziare:
 >
 >Se si apportano modifiche alle iniziative nel piano, inclusa la risoluzione dei conflitti, è necessario ripubblicare l&#39;iniziativa affinché le nuove informazioni siano visibili nel progetto. Queste informazioni vengono visualizzate sui progetti collegati alle iniziative solo quando pubblichi l’iniziativa corrispondente. Per informazioni sulla risoluzione dei conflitti tra iniziative, vedere [Risolvere i conflitti tra iniziative in  [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md)
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di Workfront, quindi fai clic su **[!UICONTROL Scenari]**
+{{step1-to-scenario-planner}}
+
 1. (Facoltativo e condizionale) Se si desidera pubblicare da un piano esistente, fare clic sull&#39;icona ![](assets/filter-nwepng.png) del **[!UICONTROL filtro]** nell&#39;angolo superiore destro del piano e selezionare una delle opzioni seguenti:
 
    <table style="table-layout:auto"> 

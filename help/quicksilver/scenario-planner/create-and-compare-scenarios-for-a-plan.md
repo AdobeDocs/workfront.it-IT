@@ -7,57 +7,66 @@ description: Quando si pianifica la strategia a lungo termine dell'azienda, è p
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 9a79ef81-6271-4cc9-b701-3ba0aeafb324
-source-git-commit: 296de69a1c444659c60bcf767bdacdd9e6e36830
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '942'
 ht-degree: 1%
 
 ---
 
 # Crea e confronta scenari di piano in [!DNL Scenario Planner]
 
+<!--Audited: 07/2024-->
+
 Quando si pianifica la strategia a lungo termine dell&#39;azienda, è possibile che all&#39;inizio vi siano molte informazioni che non si hanno o non si pensano. Ci vuole tempo e sperimentazione per arrivare a una strategia finale che le parti interessate possano accettare. L&#39;esecuzione di un&#39;analisi &quot;what if&quot; per creare più scenari per il piano può aiutare a prevedere e valutare con precisione le circostanze potenziali e, in ultima analisi, a sviluppare il miglior piano possibile.
 
 ## Requisiti di accesso
 
-Devi avere i seguenti:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> piano*</b> </p> </td> 
-   <td>[!UICONTROL Business] o versione successiva</td> 
+   <td> <p>[!DNL Adobe Workfront] piano*</p> </td> 
+   <td> <p>Corrente: [!UICONTROL Business] o versione successiva</p>
+   <p>Nuovo: Ultimate </p>
+   </td> 
   </tr> 
   <tr> 
-   <td> <p>Licenza [!DNL Adobe Workfront]<b>*</b> </p> </td> 
-   <td> <p>[!UICONTROL Review] o versione successiva</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] licenza*</p> </td> 
+   <td> <p>Nuovo: Chiaro o superiore</p> 
+   <p>Corrente: [!UICONTROL Review] o versione successiva</p> </td> 
   </tr> 
   <tr> 
-   <td><b>Prodotto</b> </td> 
-   <td> <p>È necessario acquistare una licenza aggiuntiva per [!DNL Adobe Workfront Scenario Planner] per accedere alla funzionalità descritta in questo articolo.</p> <p>Per informazioni su come ottenere [!DNL Workfront Scenario Planner], vedere <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accesso necessario per utilizzare [!DNL Scenario Planner]</a>. </p> </td> 
+   <td>Prodotto* </td> 
+   <td> 
+   <p>Per i piani Workfront correnti: </p>
+   <p>È necessario acquistare una licenza aggiuntiva per [!DNL Adobe Workfront Scenario Planner] per accedere alla funzionalità descritta in questo articolo.</p> <p>Per informazioni sull'accesso e sulle autorizzazioni per [!DNL Workfront Scenario Planner], vedere <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accesso necessario per utilizzare [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Configurazioni del livello di accesso*</strong> </td> 
-   <td> <p>Modifica l'accesso o versione successiva al [!DNL Scenario Planner]</p> <p>Nota: se non disponi ancora dell'accesso, chiedi all'amministratore [!DNL Workfront] se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td>Livello di accesso </td> 
+   <td> <p>Accesso di [!UICONTROL Edit] al [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Autorizzazioni oggetto</strong> </p> </td> 
+   <td> <p>Autorizzazioni oggetto </p> </td> 
    <td> <p>Autorizzazioni [!UICONTROL Manage] per un piano</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo a un piano, vedere <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Richiedere accesso a un piano in [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
+*Per informazioni, consulta [Requisiti di accesso alla documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Creare scenari
 
 Uno scenario è una copia di un piano. Puoi creare tutti gli scenari necessari. Tuttavia, consigliamo di ridurre al minimo il numero di scenari in modo da poterli confrontare facilmente.
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]**, quindi fai clic su [!UICONTROL Scenari].
+{{step1-to-scenario-planner}}
 
-1. Creare un piano.
+1. Creare un piano o fare clic sul nome di un piano esistente.
 
    Per informazioni sulla creazione dei piani, vedere [Creare e modificare i piani in [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
 

@@ -5,34 +5,31 @@ author: Alina
 draft: Probably
 feature: Workfront Goals
 exl-id: 9daa074e-94ce-4825-a058-722e53dbce51
-source-git-commit: 514c4ea3eb603bb7a614e4b37abec4272a5febc7
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1374'
 ht-degree: 1%
 
 ---
 
 # Introduzione agli obiettivi di Adobe Workfront
 
-Per utilizzare le funzionalità descritte in questo articolo, l’organizzazione deve disporre dei seguenti elementi:
-
-* Per il nuovo piano e la nuova struttura delle licenze:
-
-   * Un piano Ultimate
-
-     Oppure
-
-     Una licenza aggiuntiva per Adobe Workfront Goals per i piani Prime o Select Adobe Workfront. Per ulteriori informazioni, vedere [Piano Adobe Workfront](https://www.workfront.com/plans).
-
-* Per il piano corrente e la struttura delle licenze:
-
-   * A Pro o superiore
-   * Una licenza Adobe Workfront Goals oltre a una licenza Workfront.
-
-
-Contatta il tuo account manager Workfront per saperne di più su una licenza Workfront Goals.
-
-Per ulteriori informazioni sull&#39;accesso agli obiettivi di Workfront, vedere [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>[!IMPORTANT]
+>
+>Per utilizzare le funzionalità descritte in questo articolo, l’organizzazione deve disporre dei seguenti elementi:
+>
+>* Per il nuovo piano e la nuova struttura delle licenze:
+>
+>   * Il piano Ultimate Workfront
+>    
+>* Per il piano corrente e la struttura delle licenze:
+>
+>   * Un piano Workfront Pro o superiore
+>   * Una licenza Adobe Workfront Goals oltre a una licenza Workfront.
+>
+>Contatta il tuo account manager Workfront per saperne di più su una licenza Workfront Goals.
+> 
+>Per ulteriori informazioni sull&#39;accesso agli obiettivi di Workfront, vedere [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Ogni organizzazione deve stabilire e comunicare obiettivi chiari per mantenere produttivi, focalizzati e coinvolti i propri team. Sapere veramente come il lavoro è allineato alla strategia è fondamentale per il successo. Tuttavia, senza un sistema di registrazione che colleghi la tua strategia e i tuoi obiettivi con il lavoro dell’organizzazione, raggiungere l’allineamento può essere davvero difficile.
 

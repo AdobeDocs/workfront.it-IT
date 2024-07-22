@@ -7,16 +7,15 @@ description: La Pianificazione scenario è disponibile solo nella nuova esperien
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d67f51e5-7c5c-436b-b0c3-e5afbd7cebca
-source-git-commit: e152c20e7b987f4bef7ffd6ee534c059f7b9bf45
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
 
 # Panoramica delle iniziative in [!DNL Scenario Planner]
 
-[!DNL Scenario Planner] è disponibile solo nella nuova esperienza [!DNL Adobe Workfront] e richiede una licenza aggiuntiva. Per informazioni su [!DNL Workfront Scenario Planner], vedere [The [!DNL Scenario Planner] overview](../scenario-planner/scenario-planner-overview.md).
 In qualità di Business Manager, puoi creare iniziative per i piani in [!DNL Adobe Workfront Scenario Planner]. Per informazioni sulla creazione di piani, vedere l&#39;articolo [Creare e modificare i piani in [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
 
 ## Panoramica delle iniziative

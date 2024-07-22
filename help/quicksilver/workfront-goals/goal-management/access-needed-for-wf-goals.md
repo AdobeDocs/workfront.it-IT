@@ -7,9 +7,9 @@ description: Prima di poter accedere agli obiettivi di Adobe Workfront Adobe Wor
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -48,10 +48,7 @@ Prima di poter accedere agli obiettivi di Adobe Workfront Adobe Workfront, l’a
 
 A seconda del piano Workfront su cui si trova attualmente la società, esistono i seguenti scenari:
 
-* Se la società dispone di un nuovo piano Workfront, è necessario disporre di uno dei seguenti elementi:
-
-   * Un piano Workfront avanzato. Gli obiettivi Workfront sono inclusi in questo piano.
-   * Un piano Select o superiore di Workfront e una licenza Workfront Goals separata.
+* Se la tua azienda dispone di un nuovo piano Workfront, devi disporre di un piano Ultimate Workfront. Gli obiettivi Workfront sono inclusi solo in questo piano.
 
 * Se la società dispone del piano Workfront corrente, l’organizzazione deve acquistare una licenza aggiuntiva, oltre alla licenza Workfront, per consentire agli utenti di accedere agli obiettivi di Workfront.
 

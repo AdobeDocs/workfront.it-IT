@@ -7,33 +7,28 @@ description: L’allineamento degli obiettivi garantisce che tutti i membri dell
 author: Alina
 feature: Workfront Goals
 exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '776'
 ht-degree: 1%
 
 ---
 
 # Panoramica sull’allineamento degli obiettivi in Obiettivi di Adobe Workfront
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Per utilizzare le funzionalità descritte in questo articolo, l’organizzazione deve disporre dei seguenti elementi:
-> 
+>
 >* Per il nuovo piano e la nuova struttura delle licenze:
+>
+>   * Il piano Ultimate Workfront
 >    
->   * Un piano Ultimate
->        
->     Oppure
->        
->   * Una licenza aggiuntiva per Adobe Workfront Goals per i piani Prime o Select Adobe Workfront.
->       Per ulteriori informazioni, consulta [Determinazione prezzi e packaging di Adobe Workfront](https://www.workfront.com/plans).
->      
 >* Per il piano corrente e la struttura delle licenze:
->    
->   * Un piano Pro o superiore [Adobe Workfront]
+>
+>   * Un piano Workfront Pro o superiore
 >   * Una licenza Adobe Workfront Goals oltre a una licenza Workfront.
->    
+>
 >Contatta il tuo account manager Workfront per saperne di più su una licenza Workfront Goals.
 > 
 >Per ulteriori informazioni sull&#39;accesso agli obiettivi di Workfront, vedere [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).

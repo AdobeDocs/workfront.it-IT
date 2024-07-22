@@ -2,19 +2,21 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Differenziare tra date previste e date stimate
+title: Panoramica delle date previste e stimate
 description: Esistono diversi tipi di date che mostrano la sequenza temporale delle attività tra le date di inizio e di completamento.
 author: Alina
 feature: Work Management
 exl-id: 7cc68fc4-5f79-4ce6-a404-737ea8959ec3
-source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
 
-# Differenziare tra date previste e date stimate
+# Panoramica delle date previste e stimate
+
+<!--Audited: 07/2024-->
 
 Esistono diversi tipi di date che mostrano la sequenza temporale delle attività tra le date di inizio e di completamento. Di seguito sono riportate alcune date in cui viene visualizzata la sequenza temporale delle attività:
 
@@ -25,7 +27,7 @@ Esistono diversi tipi di date che mostrano la sequenza temporale delle attività
 
 Questo articolo descrive le differenze tra le date stimate e quelle previste per i progetti.
 
-Quando l&#39;attività viene creata per la prima volta, le date pianificate, previste e stimate devono in genere corrispondere. Esistono alcune eccezioni. 
+Quando l&#39;attività viene creata per la prima volta, le date pianificate, previste e stimate devono in genere corrispondere. Esistono alcune eccezioni.
 
 Per ulteriori informazioni sulle date del progetto, dell&#39;attività e del problema in Adobe Workfront, vedere [Panoramica sulle date del progetto, dell&#39;attività e del problema in Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
 
@@ -45,7 +47,7 @@ Quando si utilizzano le date previste e stimate per le attività, tenere present
 
 * Non è possibile modificare manualmente le date previste o stimate delle attività. Sono entrambi calcolati da Adobe Workfront.
 * Quando si crea un&#39;attività, le date Prevista e Stimata devono essere identiche e devono indicare le ore effettive in cui le attività possono iniziare o finire.\
-  Alcuni aggiornamenti apportati alle attività influiscono direttamente sui valori delle date previste e stimate. 
+  Alcuni aggiornamenti apportati alle attività influiscono direttamente sui valori delle date previste e stimate.
 
   Se ad esempio l&#39;utente avvia o completa un&#39;attività, verranno visualizzate le Date di inizio e di completamento effettive che influenzano le date previste e stimate dell&#39;attività. Inoltre, se un assegnatario dell&#39;attività modifica la Data impegno, questa data influisce sulla Data prevista dell&#39;attività.
 
@@ -75,35 +77,35 @@ Nell&#39;elenco seguente vengono visualizzati diversi scenari in cui le date pre
 
 * Quando un’attività è contrassegnata come Completa:
 
-  *Date previste = Date stimate = Date effettive*
+  `Projected Dates = Estimated Dates = Actual Dates`
 
 * Quando un&#39;attività ha una data di inizio effettiva:
 
-  *Data inizio prevista = Data inizio prevista = Data inizio effettiva*
+  `Projected Start Date = Estimated Start Date = Actual Start Date`
 
 * Quando un&#39;attività non ha una data di inizio effettiva, ma esiste un vincolo forzato sulla data di inizio pianificata (deve iniziare il) che è nel futuro:
 
-  *Data Inizio Prevista = Data Vincolata*
+  `Projected Start Date = Constraint Date`
 
   Per informazioni sulla Data Vincolata, consulta [Glossario della terminologia di Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 * Quando un&#39;attività non ha una data di inizio effettiva e non ha una data vincolo forzata:
 
-  *Data di inizio prevista = la prossima data disponibile nel futuro che rientra nella programmazione lavorativa*
+  `Projected Start Date = the next available date in the future that falls within working schedule`
 
 * Quando l’assegnatario aggiorna la Data impegno:
 
-  *Data completamento Prevista = Data Conferma*
+  `Projected Completion Date = Commit Date`
 
   Per informazioni sulla data di conferma, vedere [Panoramica sulla data di conferma](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 * Se all&#39;attività non è associata una data di completamento aggiornata e all&#39;attività è associato un vincolo forzato (Deve finire al) per la data di completamento pianificata nel futuro:
 
-  *Data di completamento Prevista = Data Vincolata*
+  `Projected Completion Date = Constraint Date`
 
 * Se un&#39;attività non dispone di una Data impegno aggiornata, di una Data vincolo forzata nel futuro o di una Data vincolo nel passato:
 
-  *Data completamento prevista = calcolo di sistema per la Data completamento in base all&#39;avanzamento corrente e al lavoro rimanente*
+  `Projected Completion Date = system calculation for the Completion Date based on the current progress and the work left to be done`
 
 ### Comprendere quando l&#39;aggiornamento delle Date Stimate viene eseguito sulle attività {#understand-when-the-estimated-dates-update-on-tasks}
 
@@ -111,7 +113,7 @@ Rispetto agli scenari descritti in precedenza per le Date previste, le Date stim
 
 ## Effetti sulla sequenza temporale di un&#39;attività
 
-Di seguito sono riportati alcuni esempi di ciò che può influenzare la sequenza temporale effettiva di un&#39;attività: 
+Di seguito sono riportati alcuni esempi di ciò che può influenzare la sequenza temporale effettiva di un&#39;attività:
 
 * Avanzamento dell’attività in relazione alle date pianificate e al giorno corrente
 * Percentuale di completamento dell&#39;attività fino ad ora
