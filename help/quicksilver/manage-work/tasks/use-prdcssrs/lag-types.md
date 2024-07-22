@@ -7,9 +7,9 @@ description: Lag è il tempo che deve trascorrere dopo il completamento di un pr
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: ed179058cfec1332384ef76cb04598278109291b
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1462'
 ht-degree: 0%
 
 ---
@@ -26,36 +26,6 @@ Le date Pianificato, Previsto e Stimato delle attività successore vengono calco
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-<!--drafted - replace table at P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the tasks and the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
--->
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -71,7 +41,7 @@ Le date Pianificato, Previsto e Stimato delle attività successore vengono calco
        <p>Corrente: Piano </p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td role="rowheader">Livello di accesso</td> 
    <td> <p>Modifica accesso ad attività e progetti</p> </td> 
   </tr> 
   <tr> 
@@ -84,57 +54,6 @@ Le date Pianificato, Previsto e Stimato delle attività successore vengono calco
 *Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-## Indicare i tipi di ritardo e di ritardo sulle attività
-
-È possibile indicare i tipi di ritardo sulle attività quando si definiscono le relazioni predecessori.
-
-### Indicare i tipi di ritardo nella sezione Predecessori di un&#39;attività {#indicate-lag-types-in-the-predecessors-section-of-a-task}
-
-1. Passare a un&#39;attività per la quale si desidera definire il predecessore e il Tipo di Lag.
-1. Fai clic su **Predecessori** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro** e quindi su **Predecessori**.
-1. Fai clic su **Aggiungi predecessore**.
-1. (Facoltativo) Se desideri aggiungere un predecessore per più progetti, sostituisci il nome del **progetto principale** con un altro progetto.
-1. Inizia a digitare il nome dell&#39;attività predecessore, quindi selezionalo quando viene visualizzato nell&#39;elenco.
-1. Selezionare il **tipo di dipendenza**.
-
-   Per ulteriori informazioni sui tipi di dipendenza predecessori, vedere [Panoramica sui tipi di relazione tra attività](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
-
-1. Specificare un valore di **Lag** utilizzando un valore numerico. È possibile specificare numeri negativi per indicare un ritardo negativo.
-1. Seleziona tra le seguenti opzioni per identificare il tipo di ritardo che desideri indicare per il tuo predecessore:
-
-   * **Giorni**
-   * **Giorni di calendario**
-   * **Percentuale**
-   * **Giorno della settimana**
-   * **Giorno della settimana (diverso da zero)**
-
-     Per ulteriori informazioni su questi tipi di Lag e su come vengono calcolati, vedere la sezione [Tipi di Lag](#lag-types) in questo articolo.
-
-1. Fai clic su **Salva**.
-
-### Indicare i tipi di ritardo in un elenco delle attività  {#indicate-lag-types-in-a-task-list}
-
-1. Passare a un elenco di attività e selezionare la visualizzazione **Standard**.
-
-1. Fai clic nella colonna **Predecessori** corrispondente all&#39;attività per la quale desideri specificare un predecessore e un ritardo.
-1. Immetti quanto segue senza spazi:
-
-   * numero dell&#39;attività che si desidera indicare come predecessore dell&#39;attività selezionata
-   * abbreviazione del tipo di relazione che si desidera indicare tra le attività
-
-     Per ulteriori informazioni sulle abbreviazioni per i tipi di dipendenza, vedere [Panoramica sui tipi di relazione tra attività](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
-
-   * un **+** per un ritardo positivo o un **-** per un ritardo negativo
-
-   * l&#39;ammontare del ritardo
-   * l’abbreviazione del Tipo di Lag che desideri utilizzare
-
-     Per ulteriori informazioni sulle abbreviazioni per i tipi di Lag, vedere la sezione [Tipi di Lag](#lag-types) in questo articolo.
-
-   Ad esempio, per indicare che un&#39;attività ha un predecessore e un ritardo positivo di 2 giorni, immettere `1fs+2d` nella colonna Predecessori.
-
-1. Premi Invio sulla tastiera per salvare le modifiche apportate all’attività.
 
 ## Tipi di Lag {#lag-types}
 
@@ -215,3 +134,54 @@ Quando si utilizzano i tag negativi, considera le seguenti regole:
 
    * Impostare una relazione predecessore Fine-Fine tra le attività.
    * La durata dell&#39;attività successore deve essere uguale o superiore al numero previsto di giorni di ritardo tra le attività.
+
+## Indicare i tipi di ritardo e di ritardo sulle attività
+
+È possibile indicare i tipi di ritardo sulle attività quando si definiscono le relazioni predecessori.
+
+### Indicare i tipi di ritardo nella sezione Predecessori di un&#39;attività {#indicate-lag-types-in-the-predecessors-section-of-a-task}
+
+1. Passare a un&#39;attività per la quale si desidera definire il predecessore e il Tipo di Lag.
+1. Fai clic su **Predecessori** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro** e quindi su **Predecessori**.
+1. Fai clic su **Aggiungi predecessore**.
+1. (Facoltativo) Se desideri aggiungere un predecessore per più progetti, sostituisci il nome del **progetto principale** con un altro progetto.
+1. Inizia a digitare il nome dell&#39;attività predecessore, quindi selezionalo quando viene visualizzato nell&#39;elenco.
+1. Selezionare il **tipo di dipendenza**.
+
+   Per ulteriori informazioni sui tipi di dipendenza predecessori, vedere [Panoramica sui tipi di relazione tra attività](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+
+1. Specificare un valore di **Lag** utilizzando un valore numerico. È possibile specificare numeri negativi per indicare un ritardo negativo.
+1. Seleziona tra le seguenti opzioni per identificare il tipo di ritardo che desideri indicare per il tuo predecessore:
+
+   * **Giorni**
+   * **Giorni di calendario**
+   * **Percentuale**
+   * **Giorno della settimana**
+   * **Giorno della settimana (diverso da zero)**
+
+     Per ulteriori informazioni su questi tipi di Lag e su come vengono calcolati, vedere la sezione [Tipi di Lag](#lag-types) in questo articolo.
+
+1. Fai clic su **Salva**.
+
+### Indicare i tipi di ritardo in un elenco delle attività  {#indicate-lag-types-in-a-task-list}
+
+1. Passare a un elenco di attività e selezionare la visualizzazione **Standard**.
+
+1. Fai clic nella colonna **Predecessori** corrispondente all&#39;attività per la quale desideri specificare un predecessore e un ritardo.
+1. Immetti quanto segue senza spazi:
+
+   * numero dell&#39;attività che si desidera indicare come predecessore dell&#39;attività selezionata
+   * abbreviazione del tipo di relazione che si desidera indicare tra le attività
+
+     Per ulteriori informazioni sulle abbreviazioni per i tipi di dipendenza, vedere [Panoramica sui tipi di relazione tra attività](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+
+   * un **+** per un ritardo positivo o un **-** per un ritardo negativo
+
+   * l&#39;ammontare del ritardo
+   * l’abbreviazione del Tipo di Lag che desideri utilizzare
+
+     Per ulteriori informazioni sulle abbreviazioni per i tipi di Lag, vedere la sezione [Tipi di Lag](#lag-types) in questo articolo.
+
+   Ad esempio, per indicare che un&#39;attività ha un predecessore e un ritardo positivo di 2 giorni, immettere `1fs+2d` nella colonna Predecessori.
+
+1. Premi Invio sulla tastiera per salvare le modifiche apportate all’attività.

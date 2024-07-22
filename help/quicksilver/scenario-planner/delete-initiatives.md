@@ -6,9 +6,9 @@ description: È possibile eliminare le iniziative in base a un piano creato dall
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 799ca02e-c513-4409-b327-1ce7d8eb19ae
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: ed179058cfec1332384ef76cb04598278109291b
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '505'
 ht-degree: 1%
 
 ---
@@ -96,9 +96,9 @@ Viene visualizzato un elenco di piani.
 
 ### Elimina iniziative in blocco {#delete-initiatives-in-bulk}
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]**, quindi fai clic su [!UICONTROL Scenari].
+{{step1-to-scenario-planner}}
 
-   Viene visualizzato un elenco di piani.
+Viene visualizzato un elenco di piani.
 
 1. Fare clic sul nome di un piano per aprirlo, quindi individuare l&#39;iniziativa che si desidera eliminare.
 1. Selezionare le caselle a sinistra delle iniziative che si desidera eliminare, quindi fare clic su **[!UICONTROL Elimina]** dal menu visualizzato nella parte inferiore del piano, quindi fare clic su **[!UICONTROL Sì, eliminale]**.
