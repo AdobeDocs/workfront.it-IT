@@ -6,10 +6,10 @@ description: Per installare l'app prima che diventi disponibile nell'AppExchange
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: c0e7340e2bf650b6f9931ae12aee07c5f7d5292b
+source-git-commit: b088c305cbd16aea1b6b79a9f3a9c5ac326cd0b8
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 0%
+source-wordcount: '1026'
+ht-degree: 1%
 
 ---
 
@@ -197,3 +197,39 @@ Ad esempio, *yourDomain.my.workfront.com*.
 
    Gli utenti di [!UICONTROL Salesforce] possono utilizzare l&#39;app [!DNL Workfront] dopo aver aggiunto la sezione [!DNL Workfront] ai layout di pagina [!UICONTROL Opportunity] o [!UICONTROL Account].\
    Per informazioni sulla configurazione della sezione [!DNL Workfront] per gli utenti, vedere [Configurare la sezione  [!DNL Adobe Workfront] per [!DNL Salesforce] utenti](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
+
+## Configurare le autorizzazioni per l’integrazione di Workfront per Salesforce
+
+### Autorizzazioni per `workfront_business`
+
+1. Passa a **Configurazione** > **Sicurezza** > **URL attendibili**.
+1. Selezionare `workfront_business` dall&#39;elenco.
+1. Fai clic su **Modifica**.
+1. In Direttive CSP, seleziona le seguenti opzioni:
+
+   * connect-src (script)
+   * font-src (font)
+   * frame-src (contenuto iframe)
+   * img-src (immagini)
+   * media-src (audio e video)
+   * style-src (fogli di stile)
+
+1. Fai clic su **Salva**.
+
+
+### Autorizzazioni per workfront_session
+
+1. Passa a **Configurazione** > **Sicurezza** > **URL attendibili**.
+1. Selezionare `workfront_session` dall&#39;elenco.
+1. Fai clic su **Modifica**.
+1. In Direttive CSP, seleziona le seguenti opzioni:
+
+   * connect-src (script)
+   * font-src (font)
+   * frame-src (contenuto iframe)
+   * img-src (immagini)
+   * media-src (audio e video)
+   * style-src (fogli di stile)
+
+1. Fai clic su **Salva**.
+
