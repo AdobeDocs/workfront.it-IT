@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: d07ccec3a11fbbee49fc55a86d44fa88e252700f
+source-git-commit: 5691d6253871efc8e61fa06fe904edc4a5953d62
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1154'
 ht-degree: 0%
 
 ---
@@ -306,9 +306,9 @@ Per ulteriori informazioni, vedere [Panoramica delle integrazioni di Adobe Workf
 
 [!DNL Workfront] ha molte integrazioni partner che arricchiscono la tua esperienza con [!DNL Workfront].
 
-Esempi di offerte per partner esistenti includono integrazioni con [!DNL Salesforce.com], [!DNL Oracle Responsys] e [!DNL Microsoft Visual Studio].
+Workfront offre diverse integrazioni di partner che arricchiscono la tua esperienza con Workfront. Esempi di offerte di partner esistenti includono integrazioni con Claravine, RWS Group e altro ancora.
 
-Per ulteriori informazioni su queste e altre integrazioni con partner, vedi [[!DNL Workfront] Marketplace](https://www.workfront.com/enterprise/marketplace/apps/).
+Per ulteriori informazioni su queste e altre integrazioni partner, vedere [Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?page=1&amp;partnerLevel=All&amp;product=WRKFRNT&amp;sort=RELEVANCE).
 
 ## API [!DNL Workfront]
 
