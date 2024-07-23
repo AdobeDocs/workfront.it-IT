@@ -6,9 +6,9 @@ description: Puoi configurare alcune impostazioni di accesso e abbonamento per l
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f242887b-d768-4d56-b530-a1ac6294b2d4
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '960'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Puoi configurare alcune impostazioni di accesso e abbonamento per le singole bozze, ad esempio se richiedere agli utenti di accedere e se consentire agli utenti di abbonarsi alla bozza. È possibile impostare le impostazioni di accesso e abbonamento per una bozza durante la sua creazione oppure impostarle per una bozza già esistente in Workfront.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -45,6 +47,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
+
++++
 
 ## Configurare le impostazioni di accesso e abbonamento durante la creazione di una bozza
 

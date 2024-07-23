@@ -6,9 +6,9 @@ description: Il proprietario della bozza può convertire il flusso di lavoro di 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c676c696-ab7d-415b-bf5e-5d0335a3920f
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '348'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 Il proprietario della bozza può convertire il flusso di lavoro di base di una bozza esistente in un flusso di lavoro automatizzato.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -45,6 +47,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
+
++++
 
 ## Convertire un flusso di lavoro di base in un flusso di lavoro automatico
 

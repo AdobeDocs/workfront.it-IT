@@ -6,9 +6,9 @@ description: Puoi definire le impostazioni predefinite della bozza personali che
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 278bff89-0305-407b-9def-d06820d908de
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '537'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Puoi definire le impostazioni predefinite della bozza personali che si applicano alle bozze create. Queste impostazioni predefinite vengono applicate ogni volta che si genera una bozza iniziale o si carica una nuova versione di bozza in Workfront.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -42,9 +44,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 &#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
 
++++
+
 ## Configurare i valori predefiniti per la verifica personale
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Strumenti di correzione**.
+{{step1-to-proofing}}
 
 1. Nell&#39;angolo superiore destro fare clic sull&#39;avatar e selezionare **Impostazioni personali**.
 1. Scegliere la scheda **Impostazioni predefinite bozza**, quindi specificare le informazioni seguenti:

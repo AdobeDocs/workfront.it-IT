@@ -6,9 +6,9 @@ description: Gestire il feedback tra più versioni o revisioni di un lavoro può
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '1734'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ Quando crei una nuova versione di una bozza, considera le seguenti informazioni:
 >Se viene creata una bozza in Adobe Workfront, tutte le nuove versioni create per tale bozza devono essere create anche in Workfront. Non è possibile creare una nuova versione di una bozza in Workfront Proof se tale bozza è stata creata in Workfront.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -58,6 +60,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
+
++++
 
 ## Creare una nuova versione di una bozza in Workfront
 
@@ -228,7 +232,7 @@ Se nella versione precedente della bozza era incluso un oggetto/messaggio person
 
   >[!NOTE]
   >
-  > Nessun oggetto/messaggio personalizzato predefinito salvato nelle impostazioni personali influisce su questo valore.
+  >Nessun oggetto/messaggio personalizzato predefinito salvato nelle impostazioni personali influisce su questo valore.
 
 Se nelle impostazioni personali sono salvati un oggetto e un messaggio predefiniti, questo influirà sul messaggio visualizzato per impostazione predefinita nella pagina Nuova versione:
 

@@ -6,9 +6,9 @@ description: Puoi visualizzare l’attività che si è verificata sulla bozza. L
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 74907330-4507-4ea6-ac28-8a760723f46b
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 1b85267e811f5832480316be5322ee819abaf190
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '233'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 Puoi visualizzare l’attività che si è verificata sulla bozza. L’attività include le modifiche recenti apportate alla bozza, tra cui la data e la descrizione dell’attività e l’utente che ha eseguito l’azione.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -45,6 +47,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
+
++++
 
 ## Visualizzare l’attività su una bozza in Adobe Workfront
 

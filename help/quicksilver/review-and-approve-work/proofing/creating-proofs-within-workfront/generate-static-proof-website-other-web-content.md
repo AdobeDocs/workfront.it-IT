@@ -6,9 +6,9 @@ description: Puoi generare una nuova bozza statica o una nuova versione di una b
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1c0511f6-c60b-4a81-bfff-55b6f866add6
-source-git-commit: 35d76d3cb06c9e9b449844f304f1443e24a221d4
+source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Puoi generare una nuova bozza statica o una nuova versione di una bozza statica 
 Quando crei bozze statiche per un sito web o per altri contenuti web, considera quanto segue:
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -47,6 +49,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
+
++++
 
 ## Creare una bozza statica per un sito web o altro contenuto web
 

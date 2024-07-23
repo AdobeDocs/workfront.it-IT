@@ -3,7 +3,7 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 99299e2717b0603d53b394c123a86f4e56c4c1c5
+source-git-commit: 238a1d8e7e1dd80f74a60b2b31301f082e377332
 workflow-type: tm+mt
 source-wordcount: '14320'
 ht-degree: 1%
@@ -1820,8 +1820,8 @@ ht-degree: 1%
          * [Rimuovere approvatori o revisori da una risorsa o da un documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
          * [Creare un modello di approvazione per risorse e documenti](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
          * [Aggiungere una risorsa Frame.io a un progetto Workfront connesso](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
-      * Approva e rivedi risorse e documenti {#review-and-approve-documents}
-         * [Approvare e rivedere i documenti: indice articolo](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
+      * Rivedi e approva risorse e documenti {#review-and-approve-documents}
+         * [Revisione e approvazione dei documenti: indice articolo](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
          * [Rivedere un documento](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [Approvare un documento](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * Verifica di {#proofing} in corso

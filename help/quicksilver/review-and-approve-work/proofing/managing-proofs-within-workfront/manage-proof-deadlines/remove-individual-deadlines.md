@@ -7,9 +7,9 @@ description: È possibile rimuovere una scadenza per la fase in cui si trova il 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 80daeadb-5780-4f83-b757-54146a4dcd6e
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '217'
 ht-degree: 2%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 2%
 È possibile rimuovere una scadenza per la fase in cui si trova il revisore.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -50,6 +52,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
+
++++
 
 ## Rimuovere le scadenze dei singoli revisori
 

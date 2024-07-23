@@ -6,9 +6,9 @@ description: Puoi stampare un riepilogo della bozza, salvarlo come PDF o esporta
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 129c8e6b-5c66-445b-a5d0-7b1460aeabd6
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 1b85267e811f5832480316be5322ee819abaf190
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '758'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 Puoi stampare un riepilogo della bozza, salvarlo come PDF o esportarlo come file XLS o PDF ottimizzato per Adobe Reader.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -45,6 +47,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
+
++++
 
 ## Stampare un riepilogo della bozza o salvarlo come file PDF
 

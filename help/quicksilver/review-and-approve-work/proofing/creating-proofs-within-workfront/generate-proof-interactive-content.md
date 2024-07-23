@@ -6,9 +6,9 @@ description: Puoi generare una bozza per il contenuto interattivo non-sito web m
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ab00d17-a3a3-4417-a958-ac3d95cb8fc8
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '486'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 Puoi generare una bozza per il contenuto interattivo non-sito web memorizzato in un file ZIP. Esempi di questo tipo di contenuti web includono annunci con streaming video o audio, animazioni HTML, banner interattivi.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -45,6 +47,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
+
++++
 
 ## Creare una bozza per il contenuto interattivo in un file ZIP
 

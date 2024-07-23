@@ -6,9 +6,9 @@ description: Quando lavori su una bozza, che tu sia un utente di Adobe Workfront
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c38e005c-8984-4e99-9527-94a0a6b1071d
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '989'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,8 @@ Quando lavori su una bozza, che tu sia un utente di Adobe Workfront o un collabo
 >Queste notifiche sono diverse dagli avvisi e-mail che puoi ricevere sul flusso di una bozza tra i revisori. Sono anche diverse dalle impostazioni degli avvisi e-mail che puoi configurare in Workfront. 
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -49,6 +51,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
+
++++
 
 ## Gestire le notifiche per i commenti e le decisioni relativi alle bozze
 

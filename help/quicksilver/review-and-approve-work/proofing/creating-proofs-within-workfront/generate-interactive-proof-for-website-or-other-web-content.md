@@ -6,9 +6,9 @@ description: Puoi generare una nuova bozza interattiva o una nuova versione di u
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 56e5eeea-1ab9-43c8-bc84-d10638171871
-source-git-commit: 35d76d3cb06c9e9b449844f304f1443e24a221d4
+source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ In una bozza interattiva, i revisori possono navigare e interagire come di consu
 >Assicurati che il sito web o il contenuto interattivo sia accessibile alle persone che lo visiteranno. Possono accedervi nel processo di verifica solo se possono anche accedervi su Internet.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -51,6 +53,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
+
++++
 
 ## Creare una bozza interattiva per un sito web o altro contenuto web
 

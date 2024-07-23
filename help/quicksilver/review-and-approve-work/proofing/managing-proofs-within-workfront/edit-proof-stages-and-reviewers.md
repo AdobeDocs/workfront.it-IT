@@ -6,9 +6,9 @@ description: Scopri come modificare le fasi della bozza e i revisori.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 91549c2d-d7b1-461c-a3c4-ad0032acfb23
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '627'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 Se sei il proprietario o il creatore della bozza oppure hai assegnato il ruolo di bozza corretto, puoi modificare le fasi e i dettagli del revisore in una bozza.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -49,6 +51,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
+
++++
 
 ## Modificare una fase
 

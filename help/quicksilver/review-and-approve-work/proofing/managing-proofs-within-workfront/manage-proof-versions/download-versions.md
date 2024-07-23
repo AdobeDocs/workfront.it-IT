@@ -6,9 +6,9 @@ description: È possibile scaricare una singola versione o tutte le versioni di 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: eb61cc0b-b402-48db-aa88-9a1dea3180d6
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '222'
 ht-degree: 4%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 4%
 È possibile scaricare una singola versione o tutte le versioni di una bozza.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -45,6 +47,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
+
++++
 
 ## Scarica una singola versione di bozza
 

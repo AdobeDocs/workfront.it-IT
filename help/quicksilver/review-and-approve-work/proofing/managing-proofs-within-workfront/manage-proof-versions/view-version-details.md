@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Digital Content and Documents
 exl-id: 360d0f4a-a78c-4c17-b4a1-6d4b811f7bb6
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '361'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 1%
 Puoi visualizzare e gestire i dettagli della bozza.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -44,6 +46,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
+
++++
 
 ## Visualizzare e gestire i dettagli di una versione di bozza precedente
 

@@ -6,9 +6,9 @@ description: I flussi di lavoro automatizzati semplificano la gestione del proce
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 852f960f-1b57-4a8a-a928-407ad52418e6
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1236'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,8 @@ I flussi di lavoro automatizzati semplificano la gestione del processo di revisi
 Per informazioni sulla creazione di un flusso di lavoro automatico per una nuova bozza, vedere [Creare una bozza avanzata con un flusso di lavoro automatico](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -47,6 +49,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
+
++++
 
 ## Crea o modifica un flusso di lavoro automatico per una bozza esistente:
 

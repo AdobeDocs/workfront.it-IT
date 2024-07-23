@@ -6,9 +6,9 @@ description: Una bozza viene archiviata automaticamente quando non viene aperta 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ac4ce52a-ef63-43a8-9f2d-95f0cdb56f53
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 1b85267e811f5832480316be5322ee819abaf190
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Una bozza viene archiviata automaticamente quando non viene aperta per 60 giorni consecutivi. Le bozze archiviate vengono comunque visualizzate nell’elenco Documento nello stesso modo in cui venivano visualizzate prima dell’archiviazione.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -38,6 +40,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano o la bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
+
++++
 
 ## Ripristinare una bozza archiviata
 

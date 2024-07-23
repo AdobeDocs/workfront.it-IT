@@ -6,9 +6,9 @@ description: Durante il processo di revisione e approvazione, è possibile invia
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e7d60d6f-b6bd-4082-b50c-e42d4b72c149
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '450'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,8 @@ Durante il processo di revisione e approvazione, è possibile inviare un messagg
 Puoi scegliere se inviare un promemoria e-mail generico o un messaggio personalizzato a uno o a tutti gli utenti associati a una determinata fase.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -51,6 +53,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
+
++++
 
 ## Inviare messaggi e-mail agli utenti su una bozza
 

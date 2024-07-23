@@ -7,9 +7,9 @@ description: Puoi impostare scadenze diverse per diversi revisori su una bozza g
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8da49c52-295b-402e-b8cb-f4d1cff57aba
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '276'
 ht-degree: 2%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 2%
 Puoi impostare scadenze diverse per diversi revisori su una bozza già creata. A tal fine è necessario creare una fase separata per ogni revisore per il quale si desidera impostare una singola scadenza.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -50,6 +52,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
+
++++
 
 ## Impostare le scadenze dei singoli revisori
 

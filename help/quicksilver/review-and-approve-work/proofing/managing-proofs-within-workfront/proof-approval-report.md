@@ -6,9 +6,9 @@ description: È possibile utilizzare il rapporto Approvazione bozza per visualiz
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f8c924e-7c33-43f3-a9d6-75c56af28527
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 8a388ffa2d30683c08637a4273f628c553e55fdb
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '296'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 È possibile utilizzare il rapporto Approvazione bozza per visualizzare informazioni sulle bozze nel proprio ambiente.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Devi avere i seguenti:
 
@@ -46,9 +48,12 @@ Devi avere i seguenti:
 
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
++++
+
 ## Utilizzare il rapporto di approvazione della bozza
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Rapporti**.
+{{step1-to-reports}}
+
 1. Fai clic su **Nuovo rapporto**, quindi scorri per selezionare **Approvazione bozza**.
 
    ![](assets/proof-approval-report.png)

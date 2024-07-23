@@ -2,20 +2,20 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: "Approva e rivedi documenti: indice articolo"
+title: "Revisione e approvazione dei documenti: indice articolo"
 description: Questa sezione contiene articoli sulla revisione di documenti in Adobe Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: cb4c2496-4219-4e37-9785-a8d224bc3936
-source-git-commit: 8949e61a92aa5899d6ed118c4dbe27d84a1d1e6d
+source-git-commit: b55e06fb9734d7abe203a139ed34ba7ec77f5f4c
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 0%
 
 ---
 
-# Approvare e rivedere i documenti: indice articolo
+# Revisione e approvazione dei documenti: indice articolo
 
 >[!IMPORTANT]
 >
