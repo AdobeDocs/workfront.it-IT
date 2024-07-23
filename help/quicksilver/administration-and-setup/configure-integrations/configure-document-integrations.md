@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: e2aef53f0ab8e76fb2c33aa91281fae0c4fece75
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1087'
 ht-degree: 1%
 
 ---
@@ -100,7 +100,7 @@ Puoi configurare le seguenti integrazioni per la gestione dei documenti:
 
   Per i piani correnti, è necessario un piano [!UICONTROL Pro] [!DNL Workfront] o superiore per utilizzare questa funzione. Per i nuovi piani, questa funzione è disponibile con tutti i piani. Per ulteriori informazioni sui vari piani disponibili, vedere [Piani Workfront](https://www.workfront.com/plans).
 
-Inoltre, è possibile migliorare l&#39;esperienza con i documenti di [!DNL Workfront] con un sistema DAM (Digital Asset Management) nativo o con integrazioni DAM di terze parti. Gli amministratori devono abilitare queste funzionalità affinché gli utenti possano collegare il servizio al proprio account [!DNL Workfront]. Per ulteriori informazioni su Workfront DAM, vedere [Gestione di documenti con [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
+Inoltre, è possibile migliorare l&#39;esperienza dei documenti [!DNL Workfront] con integrazioni DAM di terze parti. Gli amministratori devono abilitare queste funzionalità affinché gli utenti possano collegare il servizio al proprio account [!DNL Workfront].
 
 ## Configurare le integrazioni per gestire i documenti
 
@@ -197,8 +197,6 @@ Dopo aver creato l&#39;integrazione del documento personalizzato, è possibile r
 1. Fai clic su **[!UICONTROL Salva]** per creare l&#39;integrazione.
 
 ## Utilizzare le integrazioni dei documenti
-
-Per informazioni sull&#39;utilizzo di [!DNL Workfront DAM] da parte degli utenti, vedere [Gestione dei documenti con [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
 
 Per informazioni su come gli utenti possono utilizzare la verifica, consulta [Creare bozze](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md).
 

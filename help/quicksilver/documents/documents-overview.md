@@ -8,9 +8,9 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 75635712-c237-4a83-9ab0-fe37c8069284
-source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+source-git-commit: e2aef53f0ab8e76fb2c33aa91281fae0c4fece75
 workflow-type: tm+mt
-source-wordcount: '39'
+source-wordcount: '33'
 ht-degree: 0%
 
 ---
@@ -24,5 +24,4 @@ Questa sezione contiene le seguenti sottosezioni:
 * [Aggiungi nuovi documenti ad Adobe Workfront](../documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
 * [Gestisci documenti](../documents/managing-documents/manage-documents.md)
 * [Organizza documenti](../documents/organizing-documents/organize-documents.md)
-* [DAM Adobe Workfront in Adobe Workfront](../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)
 * [Integrazioni Workfront e Experience Manager Assets](../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
