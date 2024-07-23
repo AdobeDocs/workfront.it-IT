@@ -1,38 +1,21 @@
 ---
-title: Miglioramenti al progetto del terzo trimestre 2024
-description: Miglioramenti al progetto del terzo trimestre 2024
+title: Miglioramenti al progetto del quarto trimestre 2024
+description: Miglioramenti al progetto del quarto trimestre 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-exl-id: 27d479d1-338a-429c-9703-8e72ed8d5c95
 source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
 
-# Miglioramenti al progetto del terzo trimestre 2024
+# Miglioramenti al progetto del quarto trimestre 2024
 
-Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione del terzo trimestre 2024. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
+Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione del quarto trimestre 2024. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
-Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del terzo trimestre 2024, consulta [Panoramica sulla versione del terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
-
-
-## Modifica l’attività e il problema Conferma data e condizione dall’intestazione o dalla sezione Dettagli
-
->[!NOTE]
->
->Versione di anteprima: 30 maggio 2024; Produzione per rilascio rapido: con la versione 24.6 (13 giugno 2024); Versione di produzione per tutti i clienti: con la versione 24.7 (18 luglio 2024).
-
-Per semplificare l’aggiornamento di attività e problemi, ora sono stati aggiunti i campi Conferma data e Condizione come opzioni da aggiungere alle intestazioni delle attività e dei problemi e alla sezione Dettagli in un modello di layout. Gli utenti possono ora aggiornare questi campi dall’intestazione o dalla sezione Details (Dettagli) di una pagina, quando sono assegnati al modello di layout modificato. Prima di questo miglioramento, non era possibile aggiungere la condizione e la data di conferma delle attività e dei problemi durante la personalizzazione delle intestazioni.
-
-Per informazioni sull&#39;aggiornamento della data e della condizione di commit, vedere i seguenti articoli:
-
-* [Aggiorna condizione per attività e problemi](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
-* [Aggiorna data conferma per attività e problemi](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
-
-[Visualizza una dimostrazione video di questa funzionalità.](https://video.tv.adobe.com/v/3429471/){target=_blank}
+Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio del quarto trimestre 2024, consulta [Panoramica sulla versione del quarto trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
 ## Assegnazioni più rilevanti aggiunte al flusso di lavoro Nuova attività
 

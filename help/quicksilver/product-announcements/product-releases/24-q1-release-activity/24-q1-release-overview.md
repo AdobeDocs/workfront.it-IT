@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1631'
 ht-degree: 0%
 
 ---
@@ -348,7 +348,8 @@ Il webinar sulla versione 24.1 era l’11 gennaio 2024. Puoi [registrarti al web
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Altre assegnazioni avanzate rilevanti</a></p><p>È stato modificato l’algoritmo utilizzato da Workfront per calcolare e suggerire assegnazioni intelligenti per le attività. Il nuovo algoritmo si applica nelle seguenti aree di Workfront in cui si assegna un’attività: elenchi di attività, area Assegnazioni nell’intestazione dell’attività, Home e il pannello Riepilogo.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Altre assegnazioni avanzate rilevanti</a></p>
+                        [!BADGE In produzione per rilascio rapido ]{type=Positive}<p>È stato modificato l’algoritmo utilizzato da Workfront per calcolare e suggerire assegnazioni intelligenti per le attività. Il nuovo algoritmo si applica nelle seguenti aree di Workfront in cui si assegna un’attività: elenchi di attività, area Assegnazioni nell’intestazione dell’attività, Home e il pannello Riepilogo.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -360,7 +361,7 @@ Il webinar sulla versione 24.1 era l’11 gennaio 2024. Puoi [registrarti al web
                                 <p>Produzione per rilascio rapido: con la versione 24.3 (marzo 2024)</p>
                             </li>
                             <li>
-                                <p>Produzione per tutti i clienti: con la versione 24.4 (aprile 2024)</p>
+                                <p>Produzione per tutti i clienti: con la versione 24.10 (ottobre 2024)</p>
                             </li>
                         </ul>
                     </td>

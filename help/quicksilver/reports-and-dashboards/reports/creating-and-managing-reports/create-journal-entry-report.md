@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
-source-wordcount: '2758'
+source-wordcount: '2742'
 ht-degree: 4%
 
 ---
@@ -66,11 +66,9 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 Prima di poter eseguire le azioni descritte in questo articolo, è necessario verificare quanto segue:
 
-* Tutti i campi su cui desideri creare rapporti vengono tracciati in Workfront. È possibile creare rapporti solo sui dati dell&#39;area Aggiornamenti tracciati.
+* Tutti i campi (inclusi i campi personalizzati) su cui desideri creare rapporti vengono tracciati in Workfront. È possibile creare rapporti solo sui dati dell&#39;area Aggiornamenti tracciati.
 
   Per informazioni su come aggiungere i campi di cui si desidera tenere traccia in Workfront, vedere [Configurare gli aggiornamenti di sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-
-* Per tutti i campi personalizzati per i quali si desidera creare rapporti, l&#39;impostazione **Visualizza modifiche campo nei feed di aggiornamento** è abilitata.
 
 ## Panoramica del rapporto Voce diario
 

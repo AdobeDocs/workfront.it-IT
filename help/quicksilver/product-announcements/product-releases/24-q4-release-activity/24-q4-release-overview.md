@@ -4,9 +4,10 @@ description: Questa pagina fornisce informazioni sulle funzionalità incluse nel
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 76b44f3d5ff7d7747da801a051a457157e08ea4a
+exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
+source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -33,11 +34,10 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
 
 ## Miglioramenti di Adobe Workfront
 
-<!--* [Project enhancements](#project-enhancements)-->
+* [Miglioramenti al progetto](#project-enhancements)
 * [Altri miglioramenti](#other-enhancements)
 
-<!--
-### Project enhancements
+### Miglioramenti al progetto
 
 <table>
             <col style="width: 50%;" />
@@ -45,79 +45,56 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Feature</span>
+                        <p><span class="bold">Funzionalità</span>
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Release dates</span>
+                        <p><span class="bold">Date di rilascio</span>
                         </p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Edit the task and issue Commit Date and Condition from the header or Details section</a></p>
-                        [!BADGE In production ]{type=Informative}
-                        <p>To make it easier for you to update tasks and issues, we have now added the Commit Date and Condition fields as options to add to task and issue headers and Details section in a layout template. Users are now able to update these fields from the header or Details section of a page, when they are assigned to the modified layout template.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Altre assegnazioni rilevanti aggiunte al flusso di lavoro Nuova attività</a></p>
+                        [!BADGE In produzione per rilascio rapido ]{type=Positive}
+                        <p>È stata aggiunta la stessa funzionalità per assegnazioni intelligenti più rilevanti al campo Assegnazioni della casella Nuova attività quando si aggiunge un'attività a un progetto e in un elenco di attività di progetto.</p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: May 30, 2024</p>
+                                <p>Versione di anteprima: 13 febbraio 2024</p>
                             </li>
                             <li>
-                                <p>Production for fast release: With the 24.6 release (June 13, 2024)</p>
+                                <p>Produzione per rilascio rapido: con la versione 24.5 (16 maggio 2024)</p>
                             </li>
                             <li>
-                                <p>Production release for all customers: With the 24.7 release (July 18, 2024)</p>
+                                <p>Versione di produzione per tutti i clienti: con la versione 24.10 (ottobre 2024)</p>
                             </li>
                         </ul>
-                        <p><span class="preview">This feature has been temporarily removed from Production for customers that are not on the fast release schedule.</span></p>
                     </td>
-                 </tr>
-                   <tr>
+                </tr>
+                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">More relevant assignments added to the New Task workflow</a></p>
-                        [!BADGE In production ]{type=Informative}
-                        <p>We have added the same functionality for more relevant smart assignments to the Assignments field in the New Task box when adding a task to a project and in a project task list.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Altre assegnazioni avanzate rilevanti</a></p>
+                        [!BADGE In produzione per rilascio rapido ]{type=Positive}
+                        <p>È stato modificato l’algoritmo utilizzato da Workfront per calcolare e suggerire assegnazioni intelligenti per le attività. Il nuovo algoritmo si applica nelle seguenti aree di Workfront in cui si assegna un’attività: elenchi di attività, area Assegnazioni nell’intestazione dell’attività, Home e il pannello Riepilogo.</p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: February 13, 2024</p>
+                                <p>Versione di anteprima: 21 dicembre 2023</p>
                             </li>
                             <li>
-                                <p>Production for fast release: With the 24.5 release (May 16, 2024)</p>
+                                <p>Produzione per rilascio rapido: con la versione 24.5 (16 maggio 2024)</p>
                             </li>
                             <li>
-                                <p>Production release for all customers: With the 24.7 release (July 18, 2024)</p>
-                            </li>
-                        </ul>
-                        <p><span class="preview">This feature has been temporarily removed from Production for customers that are not on the fast release schedule.</span></
-                    </td>
-                 </tr>
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">More relevant smart assignments</a></p>
-                        [!BADGE In production ]{type=Informative}
-                        <p>We have changed the algorithm that Workfront uses to calculate and suggest smart assignments for tasks. The new algorithm applies in the following areas in Workfront where you assign a task: task lists, the Assignments area in the task header, Home, and the Summary panel.</p>
-                    </td>
-                    <td><p><b>Available on these dates:</b></p>
-                        <ul>
-                            <li>
-                                <p>Preview release: December 21, 2023</p>
-                            </li>
-                            <li>
-                                <p>Production for fast release: With the 24.5 release (May 16, 2024)</p>
-                            </li>
-                            <li>
-                                <p>Production release for all customers: With the 24.7 release (July 18, 2024)</p>
+                                <p>Versione di produzione per tutti i clienti: con la versione 24.10 (ottobre 2024)</p>
                             </li>
                         </ul>
                     </td>
-                 </tr>
+                </tr>
            </tbody>
         </table>
--->
 
 ### Altri miglioramenti
 
