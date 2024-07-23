@@ -9,9 +9,9 @@ description: Con i moduli di Adobe Photoshop, puoi avviare uno scenario Adobe Wo
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
-source-git-commit: 6bcf404432129a812b5e4d840b59e72f036ec723
+source-git-commit: 1de5018a13f1fbe4383ce9655bc3fe29612b1411
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '3966'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ In uno scenario [!DNL Adobe Workfront Fusion], è possibile automatizzare i flus
 Se hai bisogno di istruzioni per la creazione di uno scenario, consulta [Creare uno scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 Per informazioni sui moduli, vedere [Moduli in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+
++++**Espandere per visualizzare i requisiti di accesso per la funzionalità in questo articolo.**
 
 ## Requisiti di accesso
 
@@ -63,6 +65,8 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
 
 &#42;&#42;Per informazioni sulle licenze [!DNL Adobe Workfront Fusion], vedere [!DNL [Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+
++++
 
 ## Prerequisiti
 
@@ -143,24 +147,365 @@ Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possib
 
 ![](assets/map-toggle-350x74.png)
 
-
-### Azioni
-
+* [Applicare le modifiche Photoshop](#apply-psd-edits)
+* [Correzione automatica del colore di un&#39;immagine](#auto-color-correct-an-image)
+* [Converti formato immagine](#convert-image-format)
+* [Creare una maschera](#create-a-mask)
 * [Crea un nuovo PSD](#create-a-new-psd)
 * [Modificare i livelli di testo](#edit-text-layers)
 * [Esegui sfocatura profondità](#execute-depth-blur)
 * [Eseguire azioni Photoshop](#execute-photoshop-actions)
+* [Esegui azioni Photoshop (JSON)](#execute-photoshop-actions-json)
 * [Esegui ritaglio prodotto](#execute-product-crop)
 * [Ottieni informazioni livello](#get-layer-info)
 * [Effettuare una chiamata API personalizzata](#make-a-custom-api-call)
+* [Rimuovi sfondo](#remove-background)
+* [Sostituire un oggetto avanzato](#replace-a-smart-object)
+* [Ridimensionare un’immagine](#resize-an-image)
+* [Filigrana di un’immagine](#watermark-an-image)
 
-#### Crea un nuovo PSD
+### Applica modifiche PSD
+
+Questo modulo di azione applica una serie di modifiche a livello di documento e di livello.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>Per istruzioni sulla creazione di una connessione a [!DNL Adobe Photoshop], vedere <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Creare una connessione a [!DNL Adobe Photoshop]</a> in questo articolo.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">Archiviazione [!UICONTROL (Input)]</td>
+      <td>
+        <p>Selezionare il servizio file in cui è memorizzato il file che si desidera modificare.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>Percorso file [!UICONTROL (Input)]</p>
+      </td>
+   <td> Immetti o mappa l’URL o il percorso del file da modificare. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Opzioni &gt; Documento &gt; Dimensioni immagine) Altezza]</p>
+      </td>
+      <td> Immettete o mappate l'altezza dell'immagine in pixel. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Opzioni &gt; Documento &gt; Dimensioni immagine) Larghezza]</p>
+      </td>
+      <td> Immettete o mappate la larghezza dell'immagine in pixel. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Opzioni &gt; Documento &gt; Dimensioni area di lavoro) In alto]</p>
+      </td>
+   <td> Immettere o mappare, in pixel, la coordinata y dell'angolo superiore sinistro del documento. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Opzioni &gt; Documento &gt; Dimensioni area di lavoro) Inferiore]</p>
+      </td>
+   <td> Immettere o mappare, in pixel, la coordinata y dell'angolo inferiore destro del documento. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Opzioni &gt; Documento &gt; Dimensioni area di lavoro) A sinistra]</p>
+      </td>
+   <td> Immettere o mappare, in pixel, la coordinata x dell'angolo superiore sinistro del documento. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Opzioni &gt; Documento &gt; Dimensioni area di lavoro) a destra]</p>
+      </td>
+   <td> Immettere o mappare, in pixel, la coordinata x dell'angolo inferiore destro del documento. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Opzioni &gt; Documento) Rifila]</p>
+      </td>
+   <td> Selezionate Pixel trasparenti (Transparent pixels) per basare il ritaglio su pixel trasparenti nell'immagine. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Opzioni) Carattere predefinito]</p>
+      </td>
+   <td> Immettere il nome postscript completo del tipo di carattere da utilizzare come predefinito globale per il documento. Questo tipo di carattere verrà utilizzato per qualsiasi livello di testo con un tipo di carattere mancante e nessun altro tipo di carattere è stato specificato per tale livello. Se questo tipo di carattere non è presente, verrà applicata l'opzione specificata in Gestione tipi di carattere mancanti. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Opzioni) Caratteri]</p>
+      </td>
+   <td> Per ogni tipo di carattere necessario per il documento, fare clic su Aggiungi elemento e immettere la posizione di memorizzazione e il percorso del file del tipo di carattere. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Opzioni) Gestisci tipi di carattere mancanti]</p>
+      </td>
+   <td> Selezionare l'azione da eseguire se nel documento mancano uno o più tipi di carattere. <ul><li><code>fail</code>: il processo non verrà eseguito correttamente e lo stato verrà impostato su Non riuscito con i dettagli dell’errore forniti nella sezione dei dettagli dello stato.</li><li><code>useDefault</code>: il processo avrà esito positivo, tuttavia, per impostazione predefinita tutti i font mancanti verranno sostituiti con ArialMT.</li></ul></td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Opzioni) Livelli]</p>
+      </td>
+   <td> Per ogni livello che desiderate aggiungere, fate clic su Aggiungi elemento (Add item) e inserite i dettagli del livello. <p>Per informazioni dettagliate sulle opzioni dei livelli, vedi <a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/photoshop_applyPsdEdits/">Applica modifiche PSD</a> nella documentazione di Adobe Photoshop.  </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Output]</td>
+      <td>
+        <p>Per ogni file convertito che si desidera creare, fare clic su Aggiungi elemento e immettere l'archivio, il percorso e il tipo elencati nella tabella.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Archiviazione [!UICONTROL (Output)]</td>
+      <td>
+        <p>Selezionare il servizio file in cui si desidera memorizzare il nuovo file.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>Percorso file [!UICONTROL (Output)]</p>
+      </td>
+   <td> Inserisci o mappa l’URL o il percorso in cui verrà memorizzato il nuovo file. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Output) Type]</p>
+      </td>
+   <td>Selezionare il tipo di file in cui convertire il file. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL (Output) Overwrite]</td>
+      <td>
+        <p>Seleziona se il file appena modificato sovrascriverà eventuali file di output già esistenti. Questo vale solo per i file nell'archivio Adobe.</p>
+      </td>
+    </tr>
+        <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Numero massimo di risultati restituiti]</p>
+      </td>
+   <td>Immettere o mappare il numero massimo di record che il modulo deve restituire durante ogni ciclo di esecuzione dello scenario.</td> 
+    </tr>
+    </tbody>
+</table>
+
+
+
+### Correzione automatica del colore di un&#39;immagine
+
+Il colore automatico di questo modulo di azione corregge l’immagine specificata.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>Per istruzioni sulla creazione di una connessione a [!DNL Adobe Photoshop], vedere <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Creare una connessione a [!DNL Adobe Photoshop]</a> in questo articolo.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">Archiviazione [!UICONTROL (Input)]</td>
+      <td>
+        <p>Selezionare il servizio file in cui è memorizzato il file da correggere.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>Percorso file [!UICONTROL (Input)]</p>
+      </td>
+   <td> Immetti o mappa l’URL o il percorso del file di cui desideri correggere il colore. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">Archiviazione [!UICONTROL (Output)]</td>
+      <td>
+        <p>Selezionare il servizio file in cui si desidera memorizzare il nuovo file.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>Percorso file [!UICONTROL (Output)]</p>
+      </td>
+   <td> Inserisci o mappa l’URL o il percorso in cui verrà memorizzato il nuovo file. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Output) Type]</p>
+      </td>
+   <td>Selezionare il tipo di file in cui convertire il file. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL (Output) Overwrite]</td>
+      <td>
+        <p>Seleziona se il file appena modificato sovrascriverà eventuali file di output già esistenti. Questo vale solo per i file nell'archivio Adobe.</p>
+      </td>
+    </tr>
+        <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Numero massimo di risultati restituiti]</p>
+      </td>
+   <td>Immettere o mappare il numero massimo di record che il modulo deve restituire durante ogni ciclo di esecuzione dello scenario.</td> 
+    </tr>
+    </tbody>
+</table>
+
+
+### Converti formato immagine
+
+Questo modulo di azione converte un file in JPEG, PNG, PSD o TIFF.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>Per istruzioni sulla creazione di una connessione a [!DNL Adobe Photoshop], vedere <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Creare una connessione a [!DNL Adobe Photoshop]</a> in questo articolo.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">Archiviazione [!UICONTROL (Input)]</td>
+      <td>
+        <p>Selezionare il servizio file in cui è memorizzato il file da cui si desidera rimuovere lo sfondo.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>Percorso file [!UICONTROL (Input)]</p>
+      </td>
+   <td> Immettere o mappare l'URL o il percorso del file da cui si desidera rimuovere lo sfondo. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Output]</td>
+      <td>
+        <p>Per ogni file convertito che si desidera creare, fare clic su Aggiungi elemento e immettere l'archivio, il percorso e il tipo elencati nella tabella.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Archiviazione [!UICONTROL (Output)]</td>
+      <td>
+        <p>Selezionare il servizio file in cui si desidera memorizzare il nuovo file.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>Percorso file [!UICONTROL (Output)]</p>
+      </td>
+   <td> Inserisci o mappa l’URL o il percorso in cui verrà memorizzato il nuovo file. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Output) Type]</p>
+      </td>
+   <td>Selezionare il tipo di file in cui convertire il file. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL (Output) Overwrite]</td>
+      <td>
+        <p>Seleziona se il file appena modificato sovrascriverà eventuali file di output già esistenti. Questo vale solo per i file nell'archivio Adobe.</p>
+      </td>
+    </tr>
+        <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Numero massimo di risultati restituiti]</p>
+      </td>
+   <td>Immettere o mappare il numero massimo di record che il modulo deve restituire durante ogni ciclo di esecuzione dello scenario.</td> 
+    </tr>
+    </tbody>
+</table>
+
+
+
+### Creare una maschera
+
+Questo modulo di azione restituisce un file PNG con un albero applicato attorno all&#39;oggetto.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>Per istruzioni sulla creazione di una connessione a [!DNL Adobe Photoshop], vedere <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Creare una connessione a [!DNL Adobe Photoshop]</a> in questo articolo.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">Archiviazione [!UICONTROL (Input)]</td>
+      <td>
+        <p>Selezionare il servizio file in cui è memorizzato il file da cui si desidera creare una maschera.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>Percorso file [!UICONTROL (Input)]</p>
+      </td>
+   <td> Inserisci o mappa l’URL o il percorso del file da cui desideri creare una maschera. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">Archiviazione [!UICONTROL (Output)]</td>
+      <td>
+        <p>Selezionare il servizio file in cui si desidera memorizzare il file di maschera.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>Percorso file [!UICONTROL (Output)]</p>
+      </td>
+   <td> Inserisci o mappa l’URL o il percorso in cui verrà memorizzato il file della maschera. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Overwrite]</td>
+      <td>
+        <p>Seleziona se il file appena modificato sovrascriverà eventuali file di output già esistenti. Questo vale solo per i file nell'archivio Adobe.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Spazio colore]</p>
+      </td>
+   <td>Seleziona se l'immagine di output utilizza il colore RGB o RGBA. </td> 
+    </tr>
+     <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Formato maschera]</p>
+      </td>
+   <td>Seleziona se la maschera deve essere morbida (sfumata) o binaria. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Ottimizza]</p>
+      </td>
+   <td>Selezionare Prestazioni per ottimizzare la velocità oppure Batch per consentire il tempo di attesa. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Post process]</p>
+      </td>
+   <td></td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL versione]</p>
+      </td>
+   <td>Il valore predefinito è 4,0</td> 
+    </tr> 
+        <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Numero massimo di risultati restituiti]</p>
+      </td>
+   <td>Immettere o mappare il numero massimo di record che il modulo deve restituire durante ogni ciclo di esecuzione dello scenario.</td> 
+    </tr>
+    </tbody>
+</table>
+
+### Crea un nuovo PSD
 
 Questo modulo di azione crea un nuovo PSD con livelli facoltativi e genera rappresentazioni o salva come PSD.
 
 Per i campi relativi a questo modulo, vedi [Creare un nuovo PSD](https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/documentCreate) nella documentazione di Adobe Photoshop.
 
-#### Modificare i livelli di testo
+### Modificare i livelli di testo
 
 Questo modulo di azione modifica i livelli di testo in un file Photoshop.
 
@@ -232,7 +577,7 @@ Questo modulo di azione modifica i livelli di testo in un file Photoshop.
   </tbody>
 </table>
 
-#### Esegui sfocatura profondità
+### Esegui sfocatura profondità
 
 Questo modulo di azione esegue Sfocatura profondità sul file selezionato.
 
@@ -295,7 +640,7 @@ Questo modulo di azione esegue Sfocatura profondità sul file selezionato.
   </tbody>
 </table>
 
-#### Esegui azioni Photoshop
+### Esegui azioni Photoshop
 
 Questo modulo di azione esegue un’azione Photoshop sull’immagine selezionata.
 
@@ -382,7 +727,118 @@ Questo modulo di azione esegue un’azione Photoshop sull’immagine selezionata
   </tbody>
 </table>
 
-#### Esegui ritaglio prodotto
+### Eseguire azioni Photoshop (JSON)
+
+Questo modulo di azione esegue azioni Photoshop utilizzando comandi JSON.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>Per istruzioni sulla creazione di una connessione a [!DNL Adobe Photoshop], vedere <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Creare una connessione a [!DNL Adobe Photoshop]</a> in questo articolo.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">Archiviazione [!UICONTROL (Input)]</td>
+      <td>
+        <p>Selezionare il servizio file in cui è memorizzato il file che si desidera modificare.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>Percorso file [!UICONTROL (Input)]</p>
+      </td>
+   <td> Immetti o mappa l’URL o il percorso del file da modificare. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Action JSON]</td>
+      <td>
+        <p>Immetti il comando JSON per l’azione da eseguire.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Tipi di carattere / Motivi / Pennelli / Immagini aggiuntive]</td>
+      <td>
+        <p>Per ogni tipo di carattere, motivo, pennello o immagine aggiuntiva che si desidera utilizzare in questa azione, fare clic su Aggiungi elemento e immettere la posizione di archiviazione e file dell'elemento.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Font / Pattern / URL file pennello]</p>
+      </td>
+   <td> Inserisci o mappa l’URL o il percorso del file che desideri utilizzare. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">Archiviazione file di output di [!UICONTROL]</td>
+      <td>
+        <p>Selezionare il servizio file in cui si desidera memorizzare il file modificato.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL URL file di output]</p>
+      </td>
+   <td> Inserisci o mappa l’URL o il percorso in cui verrà memorizzato il file modificato. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Tipo di file di output]</p>
+      </td>
+   <td> Selezionare il tipo di file per il file modificato. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Overwrite]</td>
+      <td>
+        <p>Seleziona se il file appena modificato sovrascriverà eventuali file di output già esistenti.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Compression]</p>
+      </td>
+   <td> Selezionare il livello di compressione per il file di output. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Output]</td>
+      <td>
+        <p>Per ogni file convertito che si desidera creare, fare clic su Aggiungi elemento e immettere l'archivio, il percorso e il tipo elencati nella tabella.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Archiviazione [!UICONTROL (Output)]</td>
+      <td>
+        <p>Selezionare il servizio file in cui si desidera memorizzare il nuovo file.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>Percorso file [!UICONTROL (Output)]</p>
+      </td>
+   <td> Inserisci o mappa l’URL o il percorso in cui verrà memorizzato il nuovo file. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Output) Type]</p>
+      </td>
+   <td>Selezionare il tipo di file in cui convertire il file. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL (Output) Overwrite]</td>
+      <td>
+        <p>Seleziona se il file appena modificato sovrascriverà eventuali file di output già esistenti. Questo vale solo per i file nell'archivio Adobe.</p>
+      </td>
+    </tr>
+        <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Numero massimo di risultati restituiti]</p>
+      </td>
+   <td>Immettere o mappare il numero massimo di record che il modulo deve restituire durante ogni ciclo di esecuzione dello scenario.</td> 
+    </tr>
+      </tbody>
+</table>
+
+### Esegui ritaglio prodotto
 
 Questo modulo di azione esegue il ritaglio prodotto sull’immagine selezionata.
 
@@ -457,7 +913,7 @@ Questo modulo di azione esegue il ritaglio prodotto sull’immagine selezionata.
   </tbody>
 </table>
 
-#### Ottieni informazioni livello
+### Ottieni informazioni livello
 
 Questo modulo di azione recupera le informazioni sui livelli dal file PSD specificato.
 
@@ -490,7 +946,7 @@ Questo modulo di azione recupera le informazioni sui livelli dal file PSD specif
   </tbody>
 </table>
 
-#### Effettuare una chiamata API personalizzata
+### Effettuare una chiamata API personalizzata
 
 Questo modulo di azione effettua una chiamata personalizzata all’API Photoshop.
 
@@ -536,3 +992,334 @@ Questo modulo di azione effettua una chiamata personalizzata all’API Photoshop
      </div> </p> </td>     </tr>
   </tbody>
 </table>
+
+### Rimuovi sfondo
+
+Questo modulo di azione identifica il soggetto principale dell&#39;immagine e rimuove lo sfondo.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>Per istruzioni sulla creazione di una connessione a [!DNL Adobe Photoshop], vedere <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Creare una connessione a [!DNL Adobe Photoshop]</a> in questo articolo.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">Archiviazione [!UICONTROL (Input)]</td>
+      <td>
+        <p>Selezionare il servizio file in cui è memorizzato il file da cui si desidera rimuovere lo sfondo.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>Percorso file [!UICONTROL (Input)]</p>
+      </td>
+   <td> Immettere o mappare l'URL o il percorso del file da cui si desidera rimuovere lo sfondo. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">Archiviazione [!UICONTROL (Output)]</td>
+      <td>
+        <p>Selezionare il servizio file in cui si desidera memorizzare il nuovo file.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>Percorso file [!UICONTROL (Output)]</p>
+      </td>
+   <td> Inserisci o mappa l’URL o il percorso in cui verrà memorizzato il nuovo file. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Overwrite]</td>
+      <td>
+        <p>Seleziona se il file appena modificato sovrascriverà eventuali file di output già esistenti. Questo vale solo per i file nell'archivio Adobe.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Spazio colore]</p>
+      </td>
+   <td>Seleziona se l'immagine di output utilizza il colore RGB o RGBA. </td> 
+    </tr>
+     <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Formato maschera]</p>
+      </td>
+   <td>Seleziona se i bordi dell'immagine devono essere morbidi (sfumati) o binari. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Ottimizza]</p>
+      </td>
+   <td>Selezionare Prestazioni per ottimizzare la velocità oppure Batch per consentire il tempo di attesa. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Post process]</p>
+      </td>
+   <td></td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL versione]</p>
+      </td>
+   <td>Il valore predefinito è 4,0</td> 
+    </tr> 
+        <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Numero massimo di risultati restituiti]</p>
+      </td>
+   <td>Immettere o mappare il numero massimo di record che il modulo deve restituire durante ogni ciclo di esecuzione dello scenario.</td> 
+    </tr>
+    </tbody>
+</table>
+
+
+
+### Sostituire un oggetto avanzato
+
+Questo modulo di azione sostituisce un oggetto avanzato all’interno di un livello PSD e genera nuove rappresentazioni.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>Per istruzioni sulla creazione di una connessione a [!DNL Adobe Photoshop], vedere <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Creare una connessione a [!DNL Adobe Photoshop]</a> in questo articolo.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">Archiviazione [!UICONTROL (Input)]</td>
+      <td>
+        <p>Selezionare il servizio file in cui è memorizzato l'oggetto avanzato.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>Percorso file [!UICONTROL (Input)]</p>
+      </td>
+   <td> Immettere o mappare l'URL o il percorso dell'oggetto avanzato. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Livelli]</p>
+      </td>
+   <td>Per ogni livello che si desidera aggiungere all'oggetto avanzato, fare clic su Aggiungi elemento e immettere il nome o l'ID dell'oggetto, il servizio file in cui è memorizzato l'oggetto avanzato e l'URL o il percorso del livello.<p>Per le descrizioni delle impostazioni avanzate in quest'area, vedere <a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/photoshop_replaceSmartObject/">Sostituire un oggetto avanzato</a> nella documentazione dell'API di Photoshop </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Output]</td>
+      <td>
+        <p>Per ogni nuova copia trasformata che si desidera venga prodotta dal modulo, fare clic su Aggiungi elemento e compilare i campi seguenti. Puoi avere un massimo di 25 file di output.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Archiviazione [!UICONTROL (Output)]</td>
+      <td>
+        <p>Selezionare il servizio file in cui si desidera memorizzare il nuovo file.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>Percorso file [!UICONTROL (Output)]</p>
+      </td>
+   <td> Inserisci o mappa l’URL o il percorso in cui verrà memorizzato il nuovo file. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Output) Width]</p>
+      </td>
+   <td> Larghezza in pixel del file di output. Il modulo mantiene le proporzioni originali. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL (Output) Overwrite]</td>
+      <td>
+        <p>Seleziona se il file appena modificato sovrascriverà eventuali file di output già esistenti. Questo vale solo per i file nell'archivio Adobe.</p>
+      </td>
+    </tr>
+        <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Numero massimo di risultati restituiti]</p>
+      </td>
+   <td>Immettere o mappare il numero massimo di record che il modulo deve restituire durante ogni ciclo di esecuzione dello scenario.</td> 
+    </tr>
+    </tbody>
+</table>
+
+
+
+### Ridimensionare un’immagine
+
+Questa azione ridimensiona un’immagine utilizzando le stesse proporzioni.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>Per istruzioni sulla creazione di una connessione a [!DNL Adobe Photoshop], vedere <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Creare una connessione a [!DNL Adobe Photoshop]</a> in questo articolo.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Storage]</td>
+      <td>
+        <p>Selezionare il servizio file in cui è memorizzato il file da ridimensionare.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Percorso file]</p>
+      </td>
+   <td> Immettere o mappare l'URL o il percorso del file da ridimensionare. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Output]</td>
+      <td>
+        <p>Per ogni file convertito che si desidera creare, fare clic su Aggiungi elemento e immettere l'archivio, il percorso e le altre opzioni elencate in questa tabella.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Type]</p>
+      </td>
+   <td>Selezionare il tipo di file in cui convertire il file. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Width]</p>
+      </td>
+   <td>Immettete un numero che rappresenta la larghezza in pixel dell'immagine ridimensionata. Le proporzioni vengono mantenute.</td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Larghezza massima]</p>
+      </td>
+   <td>Quando la larghezza è 0, è possibile fornire il valore Max con per ottenere le dimensioni. La larghezza massima ha la precedenza e è inferiore alla larghezza del documento.</td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Overwrite]</td>
+      <td>
+        <p>Seleziona se il file appena modificato sovrascriverà eventuali file di output già esistenti. Questo vale solo per i file nell'archivio Adobe.</p>
+      </td>
+    </tr>
+        <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Rifila nell'area di lavoro]</p>
+      </td>
+   <td>Selezionare Sì per rifilare le rappresentazioni alle dimensioni dell'area di lavoro oppure No per creare le rappresentazioni Dimensione livello.</td> 
+    </tr>
+    </tbody>
+</table>
+
+### Filigrana di un’immagine
+
+Questo modulo di azione aggiunge una filigrana all’immagine selezionata.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>Per istruzioni sulla creazione di una connessione a [!DNL Adobe Photoshop], vedere <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Creare una connessione a [!DNL Adobe Photoshop]</a> in questo articolo.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">Archiviazione [!UICONTROL (Base / Input)]</td>
+      <td>
+        <p>Selezionare il servizio file in cui è memorizzato il file a cui si desidera aggiungere una filigrana.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>Percorso file [!UICONTROL (Base / Input)]</p>
+      </td>
+   <td> Immettere o mappare l'URL o il percorso del file a cui si desidera aggiungere una filigrana. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">Archiviazione [!UICONTROL (filigrana/input)]</td>
+      <td>
+        <p>Selezionare il servizio file in cui è memorizzata la filigrana che si desidera aggiungere.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Archiviazione [!UICONTROL (filigrana/input)]</td>
+      <td>
+        <p>Selezionare il servizio file in cui è memorizzata la filigrana che si desidera aggiungere.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>Altezza [!UICONTROL (filigrana/limiti)]</p>
+      </td>
+   <td>Immettete o mappate l'altezza desiderata della filigrana in pixel.</td> 
+    <tr>
+      <td role="rowheader">
+        <p>Larghezza [!UICONTROL (filigrana/limiti)]</p>
+      </td>
+   <td> Immettere o mappare la larghezza desiderata della filigrana in pixel. </td> 
+    </tr>  
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Filigrana/Limiti) Sinistra]</p>
+      </td>
+   <td> Immettete o mappate la distanza in pixel dal lato sinistro dell'immagine da applicare alla filigrana.</td> 
+    </tr>  
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (filigrana/limiti) superiore]</p>
+      </td>
+   <td> Immettete o mappate la distanza in pixel dalla parte superiore dell'immagine da applicare alla filigrana.</td> 
+    </tr>  
+    </tr>  
+    <tr>
+      <td role="rowheader">Archiviazione [!UICONTROL (Output)]</td>
+      <td>
+        <p>Selezionare il servizio file in cui si desidera memorizzare il file con filigrana.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>Percorso file [!UICONTROL (Output)]</p>
+      </td>
+   <td> Immetti o mappa l’URL o il percorso in cui verrà memorizzato il file con filigrana. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Output) Type]</p>
+      </td>
+   <td>Selezionare il tipo di file in cui convertire il file. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Output) Width]</p>
+      </td>
+   <td> Larghezza in pixel del file di output. Il modulo mantiene le proporzioni originali. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL (Output) Overwrite]</td>
+      <td>
+        <p>Seleziona se il file appena modificato sovrascriverà eventuali file di output già esistenti. Questo vale solo per i file nell'archivio Adobe.</p>
+      </td>
+    </tr>
+        <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Numero massimo di risultati restituiti]</p>
+      </td>
+   <td>Immettere o mappare il numero massimo di record che il modulo deve restituire durante ogni ciclo di esecuzione dello scenario.</td> 
+    </tr>
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
