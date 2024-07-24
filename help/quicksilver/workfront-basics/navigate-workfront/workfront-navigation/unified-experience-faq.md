@@ -6,9 +6,9 @@ description: Alcune funzionalità sono diverse tra  [!DNL Workfront]  e Adobe Ex
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: 019a1b61cd97d5d61f9a4fbf3f98eccab50809a8
+source-git-commit: 0cdd29a0fd58427197f1b9a4b4907089d3d86115
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1302'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,7 @@ Questa tabella descrive alcune funzioni che differiscono tra le due esperienze.
 | Un &quot;cambio organizzazione&quot; consente di spostarsi tra [!DNL Workfront] organizzazioni e ambienti | Il &quot;selettore organizzazione&quot; non è disponibile |
 | La navigazione include un&#39;area di navigazione di primo livello per i prodotti [!DNL Adobe], le notifiche [!DNL Adobe], la guida e il profilo utente, oltre alla barra di navigazione [!DNL Workfront] | La navigazione include solo la barra di navigazione [!DNL Workfront] |
 | La Guida è accessibile tramite il [!UICONTROL menu principale] e l&#39;area di navigazione superiore | La Guida è accessibile tramite il [!UICONTROL menu principale] e la barra di navigazione [!DNL Workfront] |
+| Il visualizzatore di bozze si apre in una nuova scheda | Il visualizzatore di bozze si apre in Workfront |
 
 {style="table-layout:auto"}
 

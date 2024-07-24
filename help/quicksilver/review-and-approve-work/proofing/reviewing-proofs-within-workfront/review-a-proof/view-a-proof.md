@@ -6,16 +6,25 @@ description: Scopri come visualizzare il contenuto in una bozza.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 0cdd29a0fd58427197f1b9a4b4907089d3d86115
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
 
 # Visualizzare il contenuto in una bozza
 
+È possibile utilizzare il visualizzatore di bozze per visualizzare i file di markup e visualizzarli in Workfront.
+
+>[!NOTE]
+>
+>Se l’istanza di Workfront si trova nell’esperienza unificata, il visualizzatore di bozze si apre in una nuova scheda.
+
+
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -43,6 +52,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
+
++++
 
 ## Modificare la visualizzazione della bozza
 
