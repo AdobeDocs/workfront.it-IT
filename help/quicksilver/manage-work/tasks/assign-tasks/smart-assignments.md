@@ -7,7 +7,7 @@ description: Quando gestisci le assegnazioni di attività e problemi, puoi utili
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: 758dae749d324326857a330c8a23954764e68fd1
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 0%
@@ -51,13 +51,13 @@ Puoi visualizzare le assegnazioni intelligenti nelle seguenti aree, dove puoi as
 
   ![](assets/smart-assignments-issue-list.png)
 
-* Un elenco di attività o un report nella colonna Assegnazioni
+* <span class="preview">Un elenco di attività o un report nella colonna Assegnazioni</span>
 
-  <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+  ![](assets/smart-assignments-task-list.png)
 
-* Un&#39;intestazione di attività nel campo Assegnazioni
+* <span class="preview">Intestazione attività nel campo Assegnazioni</span>
 
-  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+  ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * Intestazione di un problema nel campo Assegnazioni
 
@@ -67,9 +67,9 @@ Puoi visualizzare le assegnazioni intelligenti nelle seguenti aree, dove puoi as
 
   ![](assets/issue-assignments-summary-panel.png)
 
-* Campo Assegnazioni nella casella Nuova attività quando si aggiunge un&#39;attività a un progetto
+* <span class="preview">Campo Assegnazioni nella casella Nuova attività quando si aggiunge un&#39;attività a un progetto</span>
 
-  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
+  ![](assets/smart-assignments-new-task-modal.png)
 
 <!--this is not possible in the new home  - we have Summary there: 
 * The Assignments field for an item listed in the Home area, when you open a task or issue
@@ -77,9 +77,9 @@ Puoi visualizzare le assegnazioni intelligenti nelle seguenti aree, dove puoi as
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 -->
 
-* Bilanciatore dei carichi di lavoro nell’area Assegnato a quando si assegna un’attività o un problema
+* <span class="preview">Bilanciatore dei carichi di lavoro nell&#39;area Assegnato a quando si assegna un&#39;attività o un problema</span>
 
-  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
+  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## Criteri di assegnazione intelligenti
