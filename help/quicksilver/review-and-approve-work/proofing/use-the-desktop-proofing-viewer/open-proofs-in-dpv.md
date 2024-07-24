@@ -6,9 +6,9 @@ description: Se non riesci ad aprire una bozza come descritto di seguito, contat
 author: Courtney
 feature: Digital Content and Documents
 exl-id: bff8bf09-fca7-41cb-b6bc-813f08d3e18f
-source-git-commit: 69b1677835ea783aa9baf5026e782440395013f0
+source-git-commit: 21d4fb3bd2a6c08b390338d28e357a80f4befeae
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '252'
 ht-degree: 5%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 5%
 Se non riesci ad aprire una bozza come descritto di seguito, contatta l’amministratore Adobe Workfront o l’amministratore Workfront Proof.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -43,6 +45,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
  </tbody> 
 </table>
+
++++
 
 {{latest-version}}
 

@@ -6,9 +6,9 @@ description: È possibile contrassegnare i commenti risolti dopo averli affronta
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 89ba3a34-3347-41dc-939e-94d4c1511c31
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '366'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 È possibile contrassegnare i commenti risolti dopo averli affrontati. È possibile riaprire un commento risolto dall&#39;utente o da un altro revisore.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -49,6 +51,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
+
++++
 
 ## Risolvere un commento
 

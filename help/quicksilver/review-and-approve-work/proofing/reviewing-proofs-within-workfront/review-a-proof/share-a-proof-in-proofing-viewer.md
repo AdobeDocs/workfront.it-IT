@@ -6,9 +6,9 @@ description: Puoi condividere una bozza dal visualizzatore di bozze se la condiv
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 20bd2d94-1401-4a38-9042-335d0cb32a3d
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1512'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Puoi condividere una bozza dal visualizzatore di bozze se la condivisione è abi
 >È necessario abilitare l’impostazione Consenti condivisione bozze tramite URL pubblico o codice di incorporamento.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -49,6 +51,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
+
++++
 
 ## Condividere l’URL
 

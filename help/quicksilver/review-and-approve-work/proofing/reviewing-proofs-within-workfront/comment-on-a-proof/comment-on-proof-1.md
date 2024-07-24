@@ -6,9 +6,9 @@ description: I commenti consentono di fornire feedback sul contenuto e collabora
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b0386786-7f90-4d1c-bd3a-1cd545430de1
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '787'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Quando si assegnano tag agli utenti nei commenti di una bozza, gli utenti a cui 
 * Se sei stato aggiunto alla bozza come utente esterno e fai parte di un altro ambiente con un account di bozza diverso, puoi assegnare tag solo a tali utenti dall’ambiente originale. <!--For more information, see [Proofing collaboration limitations with people outside of your organization](../../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/collaboration-with-members-outside-of-your-organization.md)-->
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -55,6 +57,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 &#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
 
++++
+
 ## Commento su una bozza
 
 1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
@@ -78,17 +82,17 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Draw a mano libera</strong> </td> 
+      <td role="rowheader"><strong>Disegna una linea a mano libera</strong> </td> 
       <td> <img src="assets/freehand-line.png"> </td> 
       <td>Consente di aggiungere una linea a mano libera nell'area selezionata.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Draw una riga</strong> </td> 
+      <td role="rowheader"><strong>Tracciare una riga</strong> </td> 
       <td> <img src="assets/line.png"> </td> 
       <td>Consente di disegnare una linea sull'area selezionata.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Draw una freccia</strong> </td> 
+      <td role="rowheader"><strong>Disegnare una freccia</strong> </td> 
       <td> <img src="assets/arrow.png"> </td> 
       <td>Consente di aggiungere una freccia a un'area selezionata.</td> 
      </tr> 
@@ -98,7 +102,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
       <td>Evidenzia l'area selezionata.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Draw un rettangolo</strong> </td> 
+      <td role="rowheader"><strong>Disegna un rettangolo</strong> </td> 
       <td> <img src="assets/rectangle.png"> </td> 
       <td>Consente di disegnare un rettangolo attorno a un'area.</td> 
      </tr> 
@@ -128,4 +132,4 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    * Fare clic sull&#39;icona della graffetta nell&#39;angolo inferiore destro del commento, quindi individuare e selezionare il file da caricare.
    * Trascinare un file da una posizione nel computer e rilasciarlo nell&#39;area dei commenti.
 
-1. Fare clic su **Post**.
+1. Fai clic su **Post**.

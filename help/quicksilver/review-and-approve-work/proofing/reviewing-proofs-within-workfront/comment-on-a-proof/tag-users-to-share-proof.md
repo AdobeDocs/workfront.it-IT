@@ -6,9 +6,9 @@ description: Quando inserisci un commento su una bozza nel visualizzatore di boz
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4efbfdeb-3834-48dd-aa5b-515891bac519
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Quando si assegnano tag agli utenti nei commenti di una bozza, gli utenti a cui 
 * Se sei stato aggiunto alla bozza come utente esterno e fai parte di un altro ambiente con un account di bozza diverso, puoi assegnare tag solo a tali utenti dall’ambiente originale. <!--For more information, see [Proofing collaboration limitations with people outside of your organization](../../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/collaboration-with-members-outside-of-your-organization.md)-->
 
 ## Requisiti di accesso {#access-requirements}
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -54,6 +56,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
+
++++
 
 ## Assegnare tag agli utenti per condividere una bozza
 

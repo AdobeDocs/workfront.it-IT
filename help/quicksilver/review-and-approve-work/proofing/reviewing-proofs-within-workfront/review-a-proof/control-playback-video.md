@@ -6,9 +6,9 @@ description: Scopri come controllare la riproduzione in una bozza video.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e1dce216-c41d-447b-b5b0-64b04b4132ff
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '355'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 1%
 # Controllare la riproduzione in una bozza video
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -43,6 +45,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
+
++++
 
 ## Regolare la velocità di riproduzione video
 

@@ -6,9 +6,9 @@ description: È possibile eliminare un commento o una risposta a un commento se 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a558cd5c-0341-48bf-b00a-d6db232bda14
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '284'
 ht-degree: 2%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 2%
 È possibile eliminare un commento o una risposta a un commento se non è già stata ricevuta alcuna risposta. Di solito è meglio risolvere un commento piuttosto che eliminarlo. Per ulteriori informazioni, consulta [Risolvere i commenti sulla bozza](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/resolve-proof-comments.md).
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -49,6 +51,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
+
++++
 
 ## Elimina commenti bozza
 

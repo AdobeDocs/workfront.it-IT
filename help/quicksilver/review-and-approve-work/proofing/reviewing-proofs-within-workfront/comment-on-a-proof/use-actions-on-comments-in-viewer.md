@@ -6,9 +6,9 @@ description: Puoi utilizzare le azioni per tenere traccia di ciò che deve accad
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d1ee871c-ef61-44ca-8287-1093c5e5cb97
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '438'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,8 @@ Puoi utilizzare le azioni per tenere traccia di ciò che deve accadere su ogni t
 Per informazioni su come l&#39;amministratore di Workfront abilita e configura le azioni, vedi .
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -51,6 +53,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
+
++++
 
 ## Utilizzare azioni sui commenti
 

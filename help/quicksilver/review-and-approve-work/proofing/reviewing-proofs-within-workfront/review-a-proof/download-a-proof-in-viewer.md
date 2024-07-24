@@ -6,9 +6,9 @@ description: Puoi scaricare file da una bozza esistente. I commenti e le altre i
 author: Courtney
 feature: Digital Content and Documents
 exl-id: dae3e083-3ad4-4a59-9e04-b017d078a89b
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '240'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 Puoi scaricare file da una bozza esistente. I commenti e le altre informazioni associate alla bozza non sono inclusi nel download.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -45,6 +47,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
+
++++
 
 ## Download di una bozza nel visualizzatore di bozze
 

@@ -6,9 +6,9 @@ description: Puoi visualizzare in anteprima l’aspetto di una bozza interattiva
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 99165790-0c34-4540-92d9-956ae178a874
-source-git-commit: d4fa663e22daf25fec77be79a452eb207857bdda
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '587'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 Puoi visualizzare in anteprima l’aspetto di una bozza interattiva su vari dispositivi, per vedere come il contenuto viene visualizzato e come risponde in base a risoluzioni diverse.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -45,6 +47,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
+
++++
 
 ## Visualizzazioni dei dispositivi e delle risoluzioni nel visualizzatore di bozze desktop e nel visualizzatore di bozze web
 

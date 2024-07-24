@@ -6,10 +6,10 @@ description: È possibile configurare il video in modo che venga ripetuto in loo
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 944c4d15-e868-4481-9d35-318a319dc375
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 2%
+source-wordcount: '209'
+ht-degree: 1%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 2%
 È possibile configurare il video in modo che venga ripetuto in loop in modo continuo (la riproduzione del video riparte al termine). 
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -45,6 +47,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
+
++++
 
 ## Abilitare il loop in una bozza video
 

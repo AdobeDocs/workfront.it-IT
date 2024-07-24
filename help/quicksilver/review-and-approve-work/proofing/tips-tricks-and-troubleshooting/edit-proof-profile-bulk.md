@@ -7,9 +7,9 @@ description: Scopri come modificare il profilo di autorizzazione della bozza in 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a804a007-7c9f-471e-ad07-8adca6672575
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '256'
 ht-degree: 3%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 3%
 # Modificare il campo Profilo autorizzazione bozza in blocco
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -45,9 +47,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 &#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
 
++++
+
 ## Modificare il campo Profilo autorizzazione bozza in blocco
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Utenti** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-users}}
 
 1. Ordina gli utenti per **Livello d&#39;Accesso**. È consigliabile modificare in batch in base al livello di accesso per assicurarsi che venga visualizzato il campo **Profilo di autorizzazione bozza**.
 

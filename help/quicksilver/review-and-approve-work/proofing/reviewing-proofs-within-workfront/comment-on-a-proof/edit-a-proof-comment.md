@@ -6,9 +6,9 @@ description: I commenti non possono essere modificati dopo l'aggiunta di una ris
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ae92fb7d-372f-4cae-b0c3-03801248ccdc
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '376'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 I commenti non possono essere modificati dopo l&#39;aggiunta di una risposta al commento. Questa restrizione mantiene l’integrità del thread di commenti. La modifica di un commento non influisce sull&#39;ora in cui è stato creato.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -49,6 +51,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
+
++++
 
 ## Modifica commenti bozza
 
