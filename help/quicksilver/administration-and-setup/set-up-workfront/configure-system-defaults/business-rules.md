@@ -8,14 +8,18 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 7f747a61c22a8927b0cd58c3c85e79143e432b98
+source-git-commit: cbfd30bb64be6a70b27a34068b93d566515434be
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1056'
 ht-degree: 0%
 
 ---
 
 # Creare e modificare le regole business
+
+>[!IMPORTANT]
+>
+>Le regole business non sono al momento disponibili.
 
 Una regola business consente di applicare la convalida agli oggetti di Workfront e di impedire agli utenti di creare, modificare o eliminare un oggetto quando vengono soddisfatte determinate condizioni. Le regole aziendali contribuiscono a migliorare la qualità dei dati e l’efficienza operativa impedendo azioni che potrebbero compromettere l’integrità dei dati.
 
