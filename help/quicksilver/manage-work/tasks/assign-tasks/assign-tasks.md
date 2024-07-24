@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
 source-wordcount: '1985'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 <span class="preview">Per informazioni sulle versioni rapide, vedi [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Per informazioni sulla versione corrente, consulta [Panoramica sulla versione del terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">Per informazioni sulla versione corrente, consulta [Panoramica sulla versione del quarto trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
 
 È possibile assegnare attività a utenti, mansioni o team per indicare chi è responsabile del completamento delle attività. È possibile assegnare un&#39;attività a più risorse contemporaneamente.
 
@@ -55,6 +55,8 @@ Oltre a questo articolo, si consiglia di leggere i seguenti articoli per ulterio
 * [Panoramica sull’assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 ## Requisiti di accesso
+
+<!-- Audited: 07/2024-->
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
@@ -164,7 +166,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      ><span class="preview">Quando si aggiunge un&#39;assegnazione di una mansione, è possibile cercare la mansione o il percorso. Selezionare un ruolo dall&#39;elenco Ruoli per utilizzare la tariffa di fatturazione predefinita per l&#39;assegnazione oppure selezionare un ruolo di ruolo Scheda tariffa per utilizzare la tariffa di fatturazione dalla scheda tariffa. Per ulteriori informazioni sulle schede tariffarie, vedere [Gestire le schede tariffarie](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
-   * (Condizionale) Fai clic su uno dei nomi negli elenchi **Assegnazioni suggerite**, **Utente e team**, **Ruoli** o <span class="preview">**Ruoli scheda valutazione**</span> quando vengono visualizzati. Per ulteriori informazioni, vedere [Panoramica assegnazioni avanzate](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * (Condizionale) Fai clic su uno dei nomi negli elenchi <span class="preview">**Assegnazioni suggerite**</span>, **Utente e team**, **Ruoli** o <span class="preview">**Ruoli scheda valutazione**</span> quando vengono visualizzati. Per ulteriori informazioni, vedere [Panoramica assegnazioni avanzate](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
      È possibile iniziare a digitare il nome di qualsiasi utente, team o mansione da assegnare all&#39;attività, quindi selezionarlo quando viene visualizzato nell&#39;elenco.
 

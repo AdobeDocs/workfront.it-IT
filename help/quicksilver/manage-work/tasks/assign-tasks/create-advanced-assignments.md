@@ -7,14 +7,22 @@ author: Alina
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 830ad0411084844ace1e1e543c3ebefcb558af80
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
 
 # Crea assegnazioni avanzate
+
+<!-- Audited: 07/2024-->
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente di anteprima per tutti i clienti oppure nell&#39;ambiente di produzione per i clienti che hanno abilitato le versioni rapide.</span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedi [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Per informazioni sulla versione corrente, consulta [Panoramica sulla versione del quarto trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
 
 È possibile gestire le assegnazioni di attività o problemi utilizzando Assegnazioni avanzate.
 
@@ -92,7 +100,7 @@ Inoltre, puoi effettuare assegnazioni avanzate nelle seguenti aree di Workfront:
 
 1. Fare clic su **Avanzate**.
 
-   ![Fare clic su Avanzate](assets/assignments-box-in-task-header.png)
+   <span class="preview">![Fare clic su Avanzate](assets/assignments-box-in-task-header.png)</span>
 
 1. Nel campo **Cerca persone, mansione e team**, inizia a digitare il nome di un utente, una mansione o un team e fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
 
@@ -138,15 +146,10 @@ Inoltre, puoi effettuare assegnazioni avanzate nelle seguenti aree di Workfront:
      -->
 
      >[!TIP]
-     >
-     >
-     >   
      >   
      >   * Dopo aver modificato manualmente le allocazioni delle assegnazioni per le attività, le ore pianificate delle attività potrebbero essere aggiornate di conseguenza. Per ulteriori informazioni, consulta la sezione &quot;Aggiornare le ore pianificate per l&#39;attività durante la gestione delle allocazioni utente&quot; nell&#39;articolo [Panoramica sulle ore pianificate](../../../manage-work/tasks/task-information/planned-hours.md).
      >   * Non è possibile modificare manualmente le allocazioni di assegnazione in caso di problemi.
      >   * Non è possibile modificare manualmente le allocazioni per i team assegnati alle attività.
-     >   
-     >
 
    * **Ruolo dell&#39;assegnatario:** Selezionare il ruolo che l&#39;utente deve utilizzare per l&#39;esecuzione di questa assegnazione.  Il Ruolo principale dell’utente viene visualizzato per impostazione predefinita. Fare clic nella casella Ruolo dell&#39;assegnatario per selezionare un altro ruolo.  Quando prima assegni l’attività o il problema a un ruolo e poi aggiungi un utente che può svolgere quel ruolo come seconda assegnazione, l’elenco degli utenti suggeriti viene filtrato per gli utenti che possono adempiere ai ruoli già assegnati all’attività e al problema.
 

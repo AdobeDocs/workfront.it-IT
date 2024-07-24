@@ -6,9 +6,9 @@ description: Un programma rappresenta una raccolta di progetti che condividono u
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1031'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] piano</td>
 
-<td> <p>Nuovo: Qualsiasi</p><p>Oppure</p><p>Corrente: [!UICONTROL Business] o versione successiva</p> </td> 
+<td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 

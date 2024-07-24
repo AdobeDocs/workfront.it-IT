@@ -6,9 +6,9 @@ description: È consigliabile aggiungere progetti ai portfolio quando vengono av
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -33,8 +33,9 @@ Quando aggiungi progetti ai portfolio, tieni presente quanto segue:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] piano</td> 
-   <td> <p>Qualsiasi</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] piano*</td> 
+   <td> <p>Nuovo: Qualsiasi</p>
+   <p>Corrente:[!UICONTROL Business] o versione successiva</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza*</td> 
@@ -42,12 +43,12 @@ Quando aggiungi progetti ai portfolio, tieni presente quanto segue:
    <p>Corrente:[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Accesso a [!UICONTROL View] ai Portfoli o versione successiva</p> <p>Accesso [!UICONTROL Edit] ai progetti</p> </td> 
+   <td role="rowheader">Livello di accesso</td> 
+   <td> <p>Portfoli di accesso a [!UICONTROL Edit]</p> <p>Accesso [!UICONTROL Edit] ai progetti</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Autorizzazioni di [!UICONTROL View] per il portfolio</p> <p>Autorizzazioni [!UICONTROL Manage] per i progetti</p>  </td> 
+   <td> <p>Autorizzazioni di [!UICONTROL Manage] per il portfolio</p> <p>Autorizzazioni [!UICONTROL Manage] per i progetti</p>  </td> 
   </tr> 
  </tbody> 
 </table>

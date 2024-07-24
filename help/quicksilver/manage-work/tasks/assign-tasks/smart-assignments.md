@@ -7,14 +7,16 @@ description: Quando gestisci le assegnazioni di attività e problemi, puoi utili
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
 
 # Panoramica delle assegnazioni intelligenti
+
+<!--Audited: 07/2024-->
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
@@ -22,7 +24,7 @@ ht-degree: 0%
 
 <span class="preview">Per informazioni sulle versioni rapide, vedi [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Per informazioni sulla versione corrente, consulta [Panoramica sulla versione del terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">Per informazioni sulla versione corrente, consulta [Panoramica sulla versione del quarto trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
 
 Quando gestisci le assegnazioni di attività e problemi, puoi utilizzare le assegnazioni intelligenti per identificare la risorsa migliore per completare il lavoro. Le assegnazioni intelligenti sono suggerimenti che Adobe Workfront presenta quando si assegnano elementi di lavoro alle risorse in base a un algoritmo che determina la risorsa più appropriata per il processo. Le assegnazioni intelligenti possono essere utenti, mansioni o team.
 
@@ -36,10 +38,10 @@ Questo articolo contiene informazioni generali sulle assegnazioni avanzate. Per 
 
 Quando si lavora con le assegnazioni intelligenti, considera quanto segue:
 
-* L’algoritmo funziona in modo indipendente per le attività e i problemi. Ciò significa che l’elenco degli utenti suggeriti per i problemi potrebbe differire dall’elenco degli utenti suggeriti per un’attività, perché Workfront crea gli elenchi in base ai criteri relativi ai problemi e alle attività separatamente.
-* Le assegnazioni intelligenti non consigliano mansioni o team. Si tratta invece di suggerimenti di utenti che si prestano meglio a completare un’attività o un problema.
-* Le assegnazioni suggerite sono sempre utenti attivi.
-* L’utente elencato per primo deve corrispondere al meglio per l’attività.
+* <span class="preview">L&#39;algoritmo funziona in modo indipendente per le attività e i problemi. Ciò significa che l’elenco degli utenti suggeriti per i problemi potrebbe differire dall’elenco degli utenti suggeriti per un’attività, perché Workfront crea gli elenchi in base ai criteri relativi ai problemi e alle attività separatamente. </span>
+<!--not sure this is accurate: * Smart assignments do not recommend job roles or teams. Instead, they are suggestions of users who are best fit to complete a task or an issue. -->
+* Le assegnazioni suggerite sono sempre utenti attivi, mansioni o team.
+* La risorsa elencata per prima deve corrispondere al meglio per l&#39;attività.
 
 ## Individuazione suggerimenti assegnazione avanzata
 
@@ -51,11 +53,11 @@ Puoi visualizzare le assegnazioni intelligenti nelle seguenti aree, dove puoi as
 
 * Un elenco di attività o un report nella colonna Assegnazioni
 
-  ![](assets/smart-assignments-task-list.png)
+  <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
 * Un&#39;intestazione di attività nel campo Assegnazioni
 
-  ![](assets/smart-assignments-task-header-nwe-350x302.png)
+  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
 
 * Intestazione di un problema nel campo Assegnazioni
 
@@ -67,7 +69,7 @@ Puoi visualizzare le assegnazioni intelligenti nelle seguenti aree, dove puoi as
 
 * Campo Assegnazioni nella casella Nuova attività quando si aggiunge un&#39;attività a un progetto
 
-  ![](assets/smart-assignments-new-task-modal.png)
+  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
 
 <!--this is not possible in the new home  - we have Summary there: 
 * The Assignments field for an item listed in the Home area, when you open a task or issue
@@ -77,7 +79,7 @@ Puoi visualizzare le assegnazioni intelligenti nelle seguenti aree, dove puoi as
 
 * Bilanciatore dei carichi di lavoro nell’area Assegnato a quando si assegna un’attività o un problema
 
-  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
+  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
 
 
 ## Criteri di assegnazione intelligenti
@@ -86,11 +88,13 @@ Le assegnazioni intelligenti funzionano in modo diverso per le attività rispett
 
 ### Criteri di assegnazione intelligenti per le attività
 
-Il calcolo delle assegnazioni intelligenti delle attività funziona in due fasi che utilizzano due algoritmi diversi.
+Il calcolo delle assegnazioni intelligenti delle attività funziona in <span class="preview">due fasi che utilizzano due algoritmi diversi.</span>
 
-A seconda dell&#39;algoritmo che individua l&#39;assegnazione intelligente, le assegnazioni sono elencate in due sezioni separate nel campo Assegnazioni. Per informazioni, vedere [Assegnazioni avanzate](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md).
+<span class="preview">A seconda dell&#39;algoritmo che individua l&#39;assegnazione intelligente, le assegnazioni sono elencate in due sezioni separate nel campo Assegnazioni.</span> Per informazioni, vedere [Assegnazioni avanzate](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md).
 
 ![](assets/smart-assignments-task-list.png)
+
+<div class="preview">
 
 #### Prima fase del calcolo dell&#39;assegnazione intelligente per le attività
 
@@ -127,6 +131,8 @@ Il calcolo per il punteggio di somiglianza e l&#39;ordine in cui sono elencate l
 * Le assegnazioni identificate in questa fase sono elencate nella    **Sezione Assegnazioni suggerite** del campo Assegnazioni per le attività.
 
 * Se non ci sono corrispondenze che utilizzano questo calcolo, inizia la seconda fase delle assegnazioni intelligenti che viene calcolata utilizzando un algoritmo diverso.
+
+</div>
 
 #### Seconda fase del calcolo dell&#39;assegnazione intelligente per le attività
 

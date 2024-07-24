@@ -6,14 +6,16 @@ description: Puoi organizzare i progetti aggiungendoli ai programmi all’intern
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1fecc4d1-4c24-495c-98f5-824e13967369
-source-git-commit: 93c36a87667097729e89a61f68cc17e9c861d547
+source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
 
 # Aggiungere un progetto a un programma
+
+<!--Audited: 7/2024-->
 
 Puoi organizzare i progetti aggiungendoli ai programmi all’interno dei portfolio. È possibile avere più progetti all&#39;interno di un programma, ma è possibile associare un solo programma a un progetto.
 
@@ -25,32 +27,35 @@ Per informazioni sulla creazione di programmi, vedere [Creare un programma](../.
 
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] piano*</td> 
-   <td> <p>[!UICONTROL Team] o versione successiva</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] piano</td> 
+   <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td><p>Nuovo: Standard</p> 
+   <p>Corrente: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Accesso a programmi o versione successiva di [!UICONTROL View]</p> <p>Accesso [!UICONTROL Edit] ai progetti</p> <p>Nota: se non disponi ancora dell'accesso, chiedi all'amministratore [!DNL Workfront] se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di [!DNL Workfront] può modificare il livello di accesso, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Livello di accesso</td> 
+   <td> <p>Accesso a programmi o versione successiva di [!UICONTROL Edit]</p> <p>Accesso [!UICONTROL Edit] ai progetti</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Autorizzazioni di [!UICONTROL View] per il programma</p> <p>Autorizzazioni [!UICONTROL Manage] per i progetti</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Autorizzazioni di [!UICONTROL Manage] per il programma</p> <p>Autorizzazioni [!UICONTROL Manage] per i progetti</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Aggiungere un progetto a un programma esistente
 
@@ -96,4 +101,4 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. (Condizionale) Se hai selezionato **[!UICONTROL Progetto esistente]**, effettua le seguenti operazioni:
 
    1. Nella finestra di dialogo **[!UICONTROL Aggiungi progetti]** digitare il nome del progetto nel campo fornito, quindi selezionarlo quando viene visualizzato nell&#39;elenco. Puoi aggiungere più progetti alla volta.
-   1. Fai clic su **[!UICONTROL Aggiungi progetti]**.**&#x200B;**&#x200B;Il progetto viene visualizzato nella scheda **[!UICONTROL Progetti]** del programma ed è ora associato al programma e al portfolio. 
+   1. Fai clic su **[!UICONTROL Aggiungi progetti]**.**&#x200B;**&#x200B;Il progetto viene visualizzato nella scheda **[!UICONTROL Progetti]** del programma ed è ora associato al programma e al portfolio.

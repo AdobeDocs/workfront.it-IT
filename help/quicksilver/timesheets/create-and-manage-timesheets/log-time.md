@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 212dda4289e4d29dbfbff0dbdc55315215b5ad91
 workflow-type: tm+mt
-source-wordcount: '3553'
+source-wordcount: '3775'
 ht-degree: 0%
 
 ---
@@ -473,3 +473,36 @@ Per ulteriori informazioni, vedere [Utilizzare schede collegate nelle bacheche](
 
 Puoi registrare l’ora dall’app mobile di Workfront.
 Per ulteriori informazioni, vedere [Adobe Workfront per Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) o [Adobe Workfront per iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md).
+
+## Modificare le ore registrate in elenchi e report
+
+È possibile modificare le ore registrate nelle seguenti aree:
+
+* Tutte le aree in cui hai aggiunto le ore, incluse le schede orario aperte
+* Elenchi di ore e rapporti.
+
+È possibile modificare i seguenti elementi di una voce oraria quando si modifica una voce oraria in un elenco o in un report:
+
+* Numero di ore
+* Tipo di ora
+* Ruolo associato alla voce delle ore
+
+A seconda del tipo di ore che si modificano, sono disponibili per la modifica i campi riportati di seguito.
+
+* Quando si modificano le ore specifiche di un progetto:
+
+   * Puoi modificare il numero di ore.
+   * Puoi cambiare il Tipo di Ora solo in tipi specifici per il progetto.
+   * È possibile modificare l&#39;assegnazione del ruolo delle ore solo se è stata abilitata in Configurazione. Per informazioni, consulta [Configurare le preferenze di orario e scheda orario](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
+
+* Quando si modificano le ore generali:
+
+   * Puoi modificare il numero di ore.
+   * È possibile modificare il Tipo di Ora solo in tipi generali.
+   * Non è possibile modificare l&#39;assegnazione del ruolo alle ore, perché le ore generali non possono essere associate ai ruoli.
+
+* Quando si modifica una combinazione di ore generali e di ore specifiche per il progetto, in blocco:
+
+   * Puoi modificare il numero di ore.
+   * Non è possibile modificare il Tipo di Ora, perché i Tipi di Ora generali non possono essere modificati in Tipi di Ora specifici del progetto e i Tipi di Ora specifici del progetto non possono essere modificati in Tipi Generali.
+   * Non è possibile modificare l&#39;assegnazione della mansione, perché le ore generiche non possono essere associate ai ruoli.

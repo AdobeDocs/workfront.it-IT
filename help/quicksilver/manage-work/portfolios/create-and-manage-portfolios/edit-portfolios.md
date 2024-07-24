@@ -6,10 +6,10 @@ description: Puoi modificare le informazioni sui portfolio che hai creato o che 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 0%
+source-wordcount: '997'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ Puoi modificare un [!UICONTROL portfolio] nella pagina del portfolio oppure puoi
 
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,29 +29,35 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] piano*</td> 
-   <td> <p>Qualsiasi</p> </td> 
+   <td> <p>Nuovo: Qualsiasi</p>
+   <p>Corrente:[!UICONTROL Business] o versione successiva</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Panoramica delle licenze di Adobe [!DNL Workfront]*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">Adobe [!DNL Workfront] licenze*</td> 
+   <td> <p>Nuovo: Standard</p>
+   <p>Corrente: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Livello di accesso*</td> 
-   <td> <p>Accesso a [!UICONTROL Edit] ai Portfoli</p> <p>Nota: se non disponi ancora dell'accesso, chiedi all'amministratore [!DNL Workfront] se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni sull'accesso ai portfolio nel proprio Livello d'Accesso, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md" class="MCXref xref">Concedere l'accesso ai portfolio</a>. Per informazioni su come un amministratore di [!DNL Workfront] può modificare il livello di accesso, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>. </p> </td> 
+   <td role="rowheader">Livello di accesso</td> 
+   <td> <p>Accesso a [!UICONTROL Edit] ai Portfoli</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Autorizzazioni [!UICONTROL Manage] per un portfolio</p> <p> Per informazioni sulla concessione delle autorizzazioni per i portfolio, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md" class="MCXref xref">Condividere un portfolio </a>. </p> <p>Per informazioni sulla richiesta di autorizzazioni aggiuntive, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Autorizzazioni [!UICONTROL Manage] per un portfolio</p>
+   <p> Gestisci le autorizzazioni per i progetti nel portfolio per aggiungerli o rimuoverli dal portfolio</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore [!DNL Workfront].
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Modificare i portfolio
 
-1. Passa al **[!UICONTROL menu principale]**.
-1. Fai clic su **[!UICONTROL Portfoli]**, quindi fai clic sul nome di un portfolio per aprirlo.
+{{step1-to-portfolios}}
+
+1. Fai clic sul nome di un portfolio per aprirlo.
 1. (Facoltativo) Per modificare informazioni limitate sul portfolio, fai clic su **[!UICONTROL Dettagli Portfolio]** nel pannello a sinistra.
 
    ![](assets/portfolio-details-tab-nwe-350x163.png)
@@ -181,7 +187,7 @@ Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contatta
 
    ![](assets/comment-box-edit-portfolio-classic-350x227.png)
 
-1. Aggiungi un commento nel campo **[!UICONTROL Post e aggiorna il portfolio]**.
+1. Aggiungi un commento in **[!UICONTROL Pubblica un aggiornamento per il campo portfolio]**.
 1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Persone]** per aggiungere un utente o un team al commento.
 1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Blocca]** per bloccare il commento e renderlo privato solo per gli utenti della tua azienda.
 1. Fai clic su **[!UICONTROL Salva modifiche]**.
