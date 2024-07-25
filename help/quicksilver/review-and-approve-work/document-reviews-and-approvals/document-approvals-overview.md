@@ -6,22 +6,47 @@ description: È possibile aggiungere ulteriori approvatori o revisori a un docum
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 3fc398c4ce2283964982ac0dd00b9533f62c11c0
+source-git-commit: 3eb17c355f78e14924c8ef36570b76d5719e322e
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 2%
+source-wordcount: '574'
+ht-degree: 1%
 
 ---
 
 # Panoramica sulle nuove approvazioni di documenti
 
-Le nuove approvazioni di documenti sono una riprogettazione completa del processo di approvazione esistente attualmente in fase di sviluppo per Adobe Workfront. Attualmente disponibile in versione limitata, è progettato per essere una soluzione pratica ed efficace per le aziende che richiedono un coinvolgimento completo delle parti interessate e l’approvazione di documenti specifici per le versioni. Il design attento e le nuove funzioni mirate facilitano la collaborazione, la chiarezza dei ruoli e il controllo delle versioni nel processo di approvazione, migliorando l’efficienza e la responsabilità.
-
-Per ulteriori informazioni sulle funzioni e sulle versioni pianificate per le approvazioni di nuovi documenti, prosegui con la lettura di seguito.
-
 >[!IMPORTANT]
 >
 >Il contenuto di questo articolo fa riferimento alla funzionalità di approvazione dei documenti aggiornata, disponibile solo per account specifici. Per informazioni sui processi di approvazione standard, vedere gli articoli elencati in [Approvazioni di lavoro](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+
+Le nuove approvazioni di documenti sono una riprogettazione completa del processo di approvazione esistente attualmente in fase di sviluppo per Adobe Workfront. Attualmente disponibile in versione limitata, è progettato per essere una soluzione pratica ed efficace per le aziende che richiedono un coinvolgimento completo delle parti interessate e l’approvazione di documenti specifici per le versioni. Il design attento e le nuove funzioni mirate facilitano la collaborazione, la chiarezza dei ruoli e il controllo delle versioni nel processo di approvazione, migliorando l’efficienza e la responsabilità.
+
+## Differenze chiave rispetto alle approvazioni di bozze e documenti legacy
+
+**Bozza**
+
+* I pulsanti di decisione per l&#39;approvazione dei documenti non sono disponibili nel visualizzatore di bozze. Le decisioni possono essere prese nella pagina Riepilogo documento, Widget Home Workfront o nella pagina Dettagli documento.
+* I partecipanti all&#39;approvazione del documento vengono visualizzati nel Riepilogo del documento, non nella scheda del flusso di lavoro di verifica.
+* Le approvazioni di nuovi documenti non sono supportate nello strumento di reporting corrente. Il widget Tutte le approvazioni disponibile nei nuovi dashboard Home e Canvas fornisce i seguenti dettagli sulle nuove approvazioni di documenti:
+
+   * Approvazioni mediante decisione
+   * Tempo medio approvazione
+   * Approvazioni in sospeso
+   * Approvazioni scadute
+
+**Approvazioni documenti legacy**
+
+* È possibile aggiungere revisori oltre agli approvatori.
+* È possibile designare un intero team Workfront come revisori o approvatori.
+* Puoi impostare una scadenza per la revisione o l’approvazione.
+* Puoi creare e riutilizzare modelli di approvazione.
+* Puoi visualizzare più indicatori di prestazioni chiave per le approvazioni nei widget della Home di Workfront.
+
+## Utilizzo delle approvazioni di nuovi documenti
+
+Per gli utenti che desiderano creare o gestire le approvazioni dei documenti, vedere gli articoli elencati in [Configurare e gestire le approvazioni di risorse e documenti: indice articolo](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+
+Per gli utenti che desiderano rivedere o approvare documenti per i quali hanno ricevuto una richiesta, vedere gli articoli elencati in [Approvare e rivedere documenti: indice articolo](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
 
 ## Nuove funzioni e obiettivi di progettazione
 
@@ -45,17 +70,4 @@ Stiamo rendendo disponibili agli utenti le nuove approvazioni di documenti nel c
 
 Se desideri che nell’ambiente di produzione siano abilitate le approvazioni dei nuovi documenti, rivolgiti al tuo Customer Success o Strategic Account Manager.
 
-## Utilizzo delle approvazioni di nuovi documenti
 
-Per gli utenti che desiderano creare o gestire le approvazioni dei documenti, vedere gli articoli elencati in [Configurare e gestire le approvazioni di risorse e documenti: indice articolo](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
-
-Per gli utenti che desiderano rivedere o approvare documenti per i quali hanno ricevuto una richiesta, vedere gli articoli elencati in [Approvare e rivedere documenti: indice articolo](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
-
->[!IMPORTANT]
->
->Le approvazioni di nuovi documenti non sono supportate nello strumento di reporting corrente. Il widget Tutte le approvazioni disponibile nei nuovi dashboard Home e Canvas fornisce i seguenti dettagli sulle nuove approvazioni di documenti:
->
->* Approvazioni mediante decisione
->* Tempo medio approvazione
->* Approvazioni in sospeso
->* Approvazioni scadute
