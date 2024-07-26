@@ -6,9 +6,9 @@ description: È possibile eliminare le attività che potrebbero essere duplicate
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
+source-git-commit: 463fc65db6adb5cae6ecffb2e165155c89a63d6d
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '851'
 ht-degree: 1%
 
 ---
@@ -118,7 +118,7 @@ A seconda del modo in cui l’amministratore di Workfront configura le preferenz
    1. (Condizionale) Quando l&#39;interruttore **Salvataggio automatico** è abilitato:
 
       1. Seleziona le attività da eliminare, quindi fai clic su **Altro**
-      1. Fai clic su **Elimina**, quindi su **Sì, Elimina** per confermare l&#39;eliminazione.
+      1. Fai clic su **Elimina**, quindi su **Elimina** per confermare l&#39;eliminazione.
 
          Le attività vengono eliminate.
 
@@ -149,7 +149,7 @@ A seconda del modo in cui l’amministratore di Workfront configura le preferenz
    ![](assets/delete-tasks-task-level-nwe-350x225.png)
 
 1. Fai clic su **Elimina attività**.
-1. Se l&#39;eliminazione è consentita, fare clic su **Sì, eliminarla**.
+1. Se l&#39;eliminazione è consentita, scegliere **Elimina**.
 
    L&#39;amministratore di Workfront o l&#39;amministratore di gruppo potrebbe non consentire l&#39;eliminazione delle attività in cui sono registrate le ore.
 
