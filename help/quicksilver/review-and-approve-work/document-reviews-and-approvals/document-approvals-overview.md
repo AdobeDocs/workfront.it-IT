@@ -6,9 +6,9 @@ description: È possibile aggiungere ulteriori approvatori o revisori a un docum
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 3eb17c355f78e14924c8ef36570b76d5719e322e
+source-git-commit: 0b92e1b80aab05e1deb4651ef41f2a042d697e1e
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '589'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Le nuove approvazioni di documenti sono una riprogettazione completa del process
 
 ## Differenze chiave rispetto alle approvazioni di bozze e documenti legacy
 
-**Bozza**
+**Differenze rispetto alla verifica**
 
 * I pulsanti di decisione per l&#39;approvazione dei documenti non sono disponibili nel visualizzatore di bozze. Le decisioni possono essere prese nella pagina Riepilogo documento, Widget Home Workfront o nella pagina Dettagli documento.
 * I partecipanti all&#39;approvazione del documento vengono visualizzati nel Riepilogo del documento, non nella scheda del flusso di lavoro di verifica.
@@ -34,13 +34,17 @@ Le nuove approvazioni di documenti sono una riprogettazione completa del process
    * Approvazioni in sospeso
    * Approvazioni scadute
 
-**Approvazioni documenti legacy**
+**Differenze rispetto alle approvazioni documenti legacy**
 
-* È possibile aggiungere revisori oltre agli approvatori.
-* È possibile designare un intero team Workfront come revisori o approvatori.
-* Puoi impostare una scadenza per la revisione o l’approvazione.
-* Puoi creare e riutilizzare modelli di approvazione.
-* Puoi visualizzare più indicatori di prestazioni chiave per le approvazioni nei widget della Home di Workfront.
+Con le nuove approvazioni di documenti, puoi
+
+* Aggiungi revisori oltre agli approvatori
+* Designare un intero team Workfront come revisori o approvatori
+* Imposta una scadenza per la revisione o l’approvazione
+* Creare e riutilizzare modelli di approvazione
+* Utilizzare le nuove versioni per
+* Visualizzare più indicatori di prestazioni chiave per le approvazioni nei widget della home di Workfront
+* Utilizza i dashboard di Canvas per visualizzare i dettagli di reporting sulle nuove approvazioni di documenti
 
 ## Utilizzo delle approvazioni di nuovi documenti
 
