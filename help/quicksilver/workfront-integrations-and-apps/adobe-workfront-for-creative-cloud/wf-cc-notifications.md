@@ -6,9 +6,9 @@ description: In Adobe Creative Cloud puoi ricevere da [!DNL Adobe Workfront] not
 author: Courtney,Becky
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: b07474c0-ba41-4382-8374-040f633a47ed
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,9 @@ Le notifiche sono disponibili nelle seguenti app Adobe Creative Cloud:
 
 ## Requisiti di accesso
 
-&lt;Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,6 +51,8 @@ Le notifiche sono disponibili nelle seguenti app Adobe Creative Cloud:
 </table>
 
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
+
++++
 
 ## Prerequisiti
 
