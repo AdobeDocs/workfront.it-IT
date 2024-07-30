@@ -6,9 +6,9 @@ description: Il  [!DNL Adobe Workfront] glossario elenca i termini comunemente u
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
 workflow-type: tm+mt
-source-wordcount: '20310'
+source-wordcount: '20384'
 ht-degree: 0%
 
 ---
@@ -303,7 +303,7 @@ La tabella seguente è un elenco dei termini comunemente utilizzati in Adobe Wor
   <tr> 
    <td>[!UICONTROL Budgeted Completion Date]</td> 
    <td> <p>Questo è un campo obsoleto. Qualsiasi informazione visualizzata in questo campo è correlata a una funzionalità rimossa da [!DNL Workfront]. Impossibile aggiornare questo campo. </p>
-   <p> Questo campo è ancora visibile nei report e negli elenchi [!UICONTROL project] e [!UICONTROL tasks].</p>  </td> 
+   <p> Questo campo è ancora visibile nei report e negli elenchi di [!UICONTROL project].</p>  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Costo Preventivato]</td>
@@ -443,7 +443,7 @@ La tabella seguente è un elenco dei termini comunemente utilizzati in Adobe Wor
    <td>[!UICONTROL Budgeted Start Date]</td> 
   <td> <p>Questo è un campo obsoleto. Qualsiasi informazione visualizzata in questo campo è correlata a una funzionalità rimossa da [!DNL Workfront]. Impossibile aggiornare questo campo.</p>
   <p>Queste aree sono state rimosse da [!DNL Workfront]. </p> 
-  <p>Il campo è ancora visibile nei report e negli elenchi di [!UICONTROL project] e [!UICONTROL task].</p>
+  <p>Il campo è ancora visibile nei report e negli elenchi di [!UICONTROL project].</p>
    <!--
    <p>This field shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner.</p>
    -->   
@@ -1540,6 +1540,19 @@ Le ore possono avere uno dei seguenti stati in Workfront:
   <tr> 
    <td>[!UICONTROL Costo Pianificato]</td> 
    <td> <p>Un totale di [!UICONTROL Planned Labor Cost] e [!UICONTROL Planned Expense Cost] del progetto. Questo valore non include [!UICONTROL Planned Risk Cost] nel progetto.  </p> </td> 
+  </tr>
+
+
+
+<tr> 
+   <td>[!UICONTROL Allineamento date pianificate]</td> 
+   <td> <p>Questo è un indicatore automatico che Workfront assegna progetti, attività e problemi per mostrare quando un elemento verrà completato in relazione alla sua Data di completamento pianificata. </p>
+   <p>Di seguito sono riportati i valori possibili per l'indicatore Allineamento data pianificata: </p>
+<ul>
+<li>Verrà eseguito il giorno della data di completamento pianificata</li>
+<li>Verrà eseguito prima della data di completamento pianificata</li>
+<li>Verrà eseguito dopo la data di completamento pianificata</li></ul>
+<p>L’Allineamento data pianificata è visibile negli elenchi e nei rapporti relativi a progetti, attività e problemi. </p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Duration]</td> 

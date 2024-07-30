@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
 workflow-type: tm+mt
-source-wordcount: '2515'
+source-wordcount: '2510'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Per un esempio di connessione di tipi di record e record, vedere [Esempio di con
 
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandere per visualizzare i requisiti di accesso per Workfront Planning.
 
 <table style="table-layout:auto">
  <col>
@@ -102,6 +102,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 *Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 <!--Maybe enable this at GA - but planing is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
@@ -115,6 +117,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 
 ## Considerazioni sulla connessione dei tipi di record
+
+<!--move this to the Connect record types overview article (new)-->
 
 * È possibile connettere le seguenti entità in Adobe Workfront Planning:
 

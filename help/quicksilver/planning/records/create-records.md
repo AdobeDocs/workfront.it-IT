@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
+source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ In questo articolo viene descritto come creare record. Per informazioni sulla ge
 
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandere per visualizzare i requisiti di accesso per Workfront Planning.
 
 <table style="table-layout:auto">
  <col>
@@ -87,6 +87,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 *Per ulteriori informazioni, vedere [Requisiti di accesso per la documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]

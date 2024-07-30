@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '635'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Potete condividere una vista con le seguenti entità:
 
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandere per visualizzare i requisiti di accesso per Workfront Planning.
 
 <!--at GA the plan below will change to Prime, Select and Ultimate only-->
 
@@ -93,7 +93,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 *Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-
++++
 
 ## Condivisione delle autorizzazioni per una visualizzazione <!--internally-->
 
@@ -141,8 +141,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >[!TIP]
    >
    >   Le visualizzazioni condivise con te presentano un indicatore di persone ![](assets/view-shared-with-others-people-icon.png) accanto all&#39;icona della visualizzazione. Le visualizzazioni senza l&#39;indicatore persone sono visualizzazioni create dall&#39;utente.
-
-
 
 <!--
 ## Share permissions to a view publicly

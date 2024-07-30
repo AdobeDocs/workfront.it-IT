@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '637'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Un&#39;area di lavoro è una raccolta di tipi di record utilizzati da un team e 
 
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandere per visualizzare i requisiti di accesso per Workfront Planning.
 
 <table style="table-layout:auto">
  <col>
@@ -81,6 +81,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 Per ulteriori informazioni sui requisiti di accesso, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]

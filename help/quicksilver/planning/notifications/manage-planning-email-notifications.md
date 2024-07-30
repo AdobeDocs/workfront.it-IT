@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 278d740303b0fa2f1d1b10801634ce76ce0f5739
+source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 0%
+source-wordcount: '296'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,7 @@ Per informazioni sull&#39;assegnazione di tag ad altri utenti in un commento rec
 
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandere per visualizzare i requisiti di accesso per Workfront Planning.
 
 <table style="table-layout:auto">
  <col>
@@ -82,6 +82,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody>
 </table>
 
++++
 
 ## Gestire le notifiche e-mail
 

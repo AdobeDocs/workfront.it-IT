@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
+source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Per informazioni, vedere [Creare tipi di record](/help/quicksilver/planning/arch
 
 <!--************double-check permissions here - asking Isk and Lilit what permissions users need for adding cover images-->
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandere per visualizzare i requisiti di accesso per Workfront Planning.
 
 <table style="table-layout:auto">
  <col>
@@ -86,6 +86,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 *Per ulteriori informazioni, vedere [Requisiti di accesso in Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Considerazioni sulle immagini di copertina della pagina di registrazione
 
