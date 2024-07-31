@@ -6,10 +6,10 @@ description: È possibile visualizzare l'allocazione dei ruoli per tutte le mans
 author: Alina
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -114,10 +114,9 @@ Devi avere i seguenti:
    ![](assets/role-allocation-panel-planned-hours-only-350x316.png)
 
 1. Rivedi le seguenti informazioni nel pannello **Allocazione ruoli**:
-|Campo | Descrizione|
-|—|—|
-| **Mansione** |Mansioni assegnate ad attività e problemi del progetto. Possono essere ruoli assegnati direttamente ad attività e problemi o ruoli associati agli utenti assegnati ad attività e problemi sul progetto.  |
-| **Ore pianificate** |Il numero totale di ore pianificate per attività e problemi assegnati a mansioni o utenti associati a una mansione sul progetto.  |
 
-
+   | Campo | Descrizione |
+   |---|---|
+   | **Mansione** | Ruoli assegnati ad attività e problemi sul progetto. Possono essere ruoli assegnati direttamente ad attività e problemi o ruoli associati agli utenti assegnati ad attività e problemi sul progetto. |
+   | **Ore pianificate** | Il numero totale di ore pianificate dalle attività e dai problemi assegnati a mansioni o utenti associati a una mansione sul progetto. |
 

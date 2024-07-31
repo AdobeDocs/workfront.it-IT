@@ -6,7 +6,7 @@ description: Puoi creare modelli di approvazione per semplificare il processo di
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
-source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
+source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 2%
@@ -61,6 +61,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    |----------------------------|---|
    | **(Facoltativo) Intervallo temporale** | Immetti l’intervallo di tempo in giorni . La scadenza dell’approvazione viene calcolata da questo campo dopo l’applicazione del modello a una risorsa. |
    | **Aggiungi approvatori o revisori** | Inizia a digitare il nome di utenti o team, quindi designali come revisori o approvatori. |
+
 1. Fai clic su **Salva**.
 
 
