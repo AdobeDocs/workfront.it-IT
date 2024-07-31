@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 101a5a80d00a8113ce31222b92f77300a5b0ce8a
+source-git-commit: 94957250387012738f2ef4c80864d51bdc2d792f
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '1046'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,13 @@ Un campo di ricerca esterna in un modulo personalizzato chiama un’API esterna 
 
 Questo articolo fornisce esempi sull’utilizzo del campo Ricerca esterna per richiamare la stessa istanza di Workfront o un’API pubblica. È inoltre possibile utilizzare la funzione di ricerca esterna per comunicare con un sistema esterno come Jira, Salesforce o ServiceNow.
 
-I campi di ricerca esterna sono disponibili solo nel nuovo progettista di moduli, non nel generatore di moduli legacy. Per ulteriori informazioni sull&#39;aggiunta di un campo di ricerca esterna a un modulo personalizzato e ulteriori definizioni dei componenti di ricerca esterni, vedere [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Per ulteriori informazioni sull&#39;aggiunta di un campo di ricerca esterna a un modulo personalizzato e ulteriori definizioni dei componenti di ricerca esterni, vedere [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Impostare un campo di ricerca esterna per la stessa istanza di Workfront
 
 Puoi utilizzare la funzione di ricerca esterna per inserire nel modulo personalizzato i dati dell’istanza di Workfront.
+
+### Utilizzare i valori dei campi nativi di Workfront nella ricerca esterna
 
 Questo esempio mostra come chiamare l’API Workfront e inserire i dati dal campo &quot;Status Query&quot; esistente nel campo di ricerca esterna.
 
@@ -69,6 +71,43 @@ Questo esempio mostra come chiamare l’API Workfront e inserire i dati dal camp
    ![Modulo personalizzato con campo di ricerca esterno](assets/external-lookup-project-status-example1.png)
 
    ![Opzioni di ricerca esterna basate sullo stato](assets/external-lookup-project-status-example2.png)
+
+### Utilizzare i valori dei campi personalizzati nella ricerca esterna
+
+Questo esempio mostra come chiamare l’API Workfront e inserire i dati da un campo personalizzato nel campo di ricerca esterna. Il campo personalizzato di esempio è denominato &quot;Colori personalizzati&quot;.
+
+1. Apri il modulo personalizzato.
+1. Nella parte sinistra dello schermo, trovare **Ricerca esterna** e trascinarlo in una sezione dell&#39;area di lavoro.
+1. Immetti l&#39;**etichetta** e il **nome** per il campo.
+1. Seleziona il **Formato** per il campo.
+1. Immetti la chiamata URL API nel campo **URL API di base**.
+
+   **Esempio**
+   `$$HOST/attask/api/v18.0/PORT/search?ID={portfolioID}&fields=parameterValues`
+
+1. Rivedi **Dipendenze** per i campi a cui fa riferimento il campo di ricerca nell&#39;API.
+
+   Un campo dipendenza può essere un qualsiasi campo personalizzato o nativo esistente nella pagina dei dettagli dell&#39;oggetto.
+
+1. Selezionare il **metodo HTTP**.
+
+   Probabilmente sarà **Get**.
+
+1. Immetti il **percorso JSON** per ottenere i risultati dalla chiamata API.
+
+   **Esempio**
+   `$.data[*].parameterValues.["DE:Combo Colors"]`
+
+   * &quot;parameterValues&quot; si riferisce a qualsiasi campo personalizzato in Workfront per l’oggetto su cui ti trovi.
+   * In questo esempio, &quot;DE:Colori combinati&quot; è il campo personalizzato specifico contenente i valori che si desidera recuperare.
+
+   >[!NOTE]
+   >
+   >**Informazioni sull&#39;intestazione** non necessarie per una chiamata alla stessa istanza di Workfront.
+
+1. Fare clic su **Applica**.
+
+   Quando il modulo personalizzato viene aggiunto a un oggetto Workfront, tutti i valori nel campo &quot;Colori combinati&quot; vengono visualizzati nel menu a discesa del campo di ricerca esterna.
 
 ## Configurare un campo di ricerca esterno per un’API pubblica
 
