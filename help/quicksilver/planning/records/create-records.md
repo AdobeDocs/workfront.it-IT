@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,9 @@ In Adobe Workfront Planning, un record è un&#39;istanza di un tipo di record.
 
 È possibile creare record eseguendo una delle operazioni seguenti:
 
-* Crearli manualmente per i tipi di record
-* Creare record copiando e incollando informazioni da un elenco esterno.
+* Aggiungerli dalla pagina del tipo di record
+* Copiare e incollare un elenco di record da un elenco esterno
+* Duplicale
 
 In questo articolo viene descritto come creare record. Per informazioni sulla gestione dei record nelle viste tabella o sequenza temporale, vedere gli articoli seguenti:
 
@@ -95,7 +96,7 @@ In questo articolo viene descritto come creare record. Per informazioni sulla ge
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/planning/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## Creare record aggiungendoli manualmente a un tipo di record <!--in a record type table (I don't think you can create them elsewhere right now)-->
+## Creare record aggiungendoli a un tipo di record <!--in a record type table (I don't think you can create them elsewhere right now)-->
 
 È possibile creare record nella vista tabella di una pagina del tipo di record.
 
@@ -118,7 +119,8 @@ Tutti i record del tipo selezionato vengono visualizzati nella vista.
 
       * Fai clic su **Nuovo record** nell&#39;ultima riga della tabella
 
-      * Fai clic su **Maiusc + Invio** sulla tastiera da qualsiasi colonna o riga della tabella. Viene aggiunta una riga vuota.
+      * Fai clic su **Maiusc + Invio** sulla tastiera da qualsiasi colonna o riga della tabella. In questo modo viene aggiunta una riga vuota sotto il record iniziale.
+      * Passa il puntatore del mouse sul campo principale di un record, fai clic sul menu **Altro** ![](assets/more-menu.png) a destra del campo, quindi fai clic su **Inserisci record sopra** o su **Inserisci record sotto**.
 
      ![](assets/adding-a-new-campaign-in-table-row.png)
 
@@ -179,7 +181,7 @@ You can import records from other applications by linking them to existing recor
    
 -->
 
-## Creare record copiando e incollando informazioni da un elenco esterno
+## Creare record copiandoli e incollandoli da un elenco esterno
 
 1. Iniziare a creare record nella visualizzazione Tabella, come descritto nella sezione [Creare record aggiungendoli manualmente a un tipo di record](#create-records-by-manually-adding-them-to-a-record-type) in questo articolo.
 
@@ -207,3 +209,8 @@ You can import records from other applications by linking them to existing recor
 
    * Le righe contengono i nuovi record
    * Nelle colonne vengono inserite le informazioni relative ai campi dei record.
+
+
+## Creare record duplicandoli
+
+Per informazioni sulla duplicazione dei record, vedere [Record duplicati](/help/quicksilver/planning/records/copy-or-duplicate-records.md).

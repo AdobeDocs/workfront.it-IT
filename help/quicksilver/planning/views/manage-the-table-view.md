@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
 workflow-type: tm+mt
-source-wordcount: '2598'
+source-wordcount: '2630'
 ht-degree: 3%
 
 ---
@@ -135,9 +135,8 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
 
 È possibile aggiungere fino a 500 campi (o colonne) in una visualizzazione tabella.
 
-1. Passare a una pagina del tipo di record e selezionare una visualizzazione **Tabella** dal menu a discesa Visualizza.
+1. Passare a una pagina del tipo di record e fare clic su una scheda della vista tabella oppure fare clic su **+ Vista** per aggiungere una nuova vista, quindi scegliere **Tabella**.
 
-   <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Inizia ad aggiungere campi (o colonne), come descritto nell&#39;articolo [Crea campi](/help/quicksilver/planning/fields/create-fields.md).
 
    Le colonne aggiunte sono visibili a tutti gli utenti che accedono al tipo di record e vengono aggiunte come nuovi campi nella pagina del record.
@@ -213,9 +212,8 @@ Le righe di una vista tabella visualizzano i singoli record del tipo di record s
 
 È possibile avere fino a 50.000 record (o righe) per un tipo di record S.
 
-1. Passare a una pagina del tipo di record e selezionare una visualizzazione **Tabella** dal menu a discesa Visualizza.
+1. Passare a una pagina del tipo di record e fare clic su una scheda della vista tabella oppure fare clic su **+ Vista** per aggiungere una nuova vista, quindi scegliere **Tabella**.
 
-<!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Inizia ad aggiungere record (o righe), come descritto nell&#39;articolo [Crea record](/help/quicksilver/planning/records/create-records.md).
 
    I record aggiunti nella vista tabella vengono salvati immediatamente e sono visibili a tutti gli utenti che dispongono di autorizzazioni di visualizzazione o di livello superiore per l&#39;area di lavoro.
@@ -229,13 +227,8 @@ Le righe di una vista tabella visualizzano i singoli record del tipo di record s
    >[!NOTE]
    >
    >Non è possibile riordinare le righe se si applica almeno un ordinamento alla vista tabella.
-
-   <!-- this is not possible right now:
-
-    1. To reorder the rows, click the row header, drag and drop it in the desired location. 
-
-        The changes you make to the row order are permanent and visible to all users who access the record type
-    -->
+   >
+   >Le modifiche apportate all&#39;ordine delle righe sono visibili a tutti gli utenti che accedono al tipo di record
 
 <!-- this section below links from the timeline view; consider splitting them if they become different-->
 
@@ -244,6 +237,7 @@ Le righe di una vista tabella visualizzano i singoli record del tipo di record s
 I filtri consentono di ridurre la quantità di informazioni visualizzate sullo schermo.
 
 Quando si lavora con i filtri nella vista a tabella, considera quanto segue:
+
 <!-- this list is almost identical to the one for the table view - update both-->
 
 * I filtri creati per la vista tabella funzionano in modo indipendente dai filtri nella vista timeline se applicati allo stesso tipo di record.

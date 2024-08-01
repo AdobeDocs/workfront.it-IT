@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
 workflow-type: tm+mt
-source-wordcount: '5528'
+source-wordcount: '5654'
 ht-degree: 0%
 
 ---
@@ -39,24 +39,12 @@ Le funzioni rilasciate sono elencate in ordine di rilascio, a partire da quelle 
 
 Workfront Planning è stato temporaneamente rimosso dagli ambienti Anteprima e Sandbox da gennaio 2024. Tutte le funzioni descritte in questo articolo sono attualmente disponibili in Produzione.
 
-## Settimana del 29 luglio 2024
-
-### L’API pubblica di Adobe Workfront Planning è ora disponibile
-
-Produzione: 30 luglio 2024
-
-Anteprima: da determinare
-
-È ora disponibile l’API pubblica di Adobe Workfront Planning.
-
-Per informazioni, vedere [Nozioni di base sulle API di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-api-basics.md).
-
 <!--
 ### Share Workfront Planning views publicly
 
 (***************ensure this is available for *********ALL************** the views and not just the table---***********)
 
-Production: July 31, 2024 
+Production: <date>
 
 Preview: To be determined 
 
@@ -71,6 +59,38 @@ The following capabilities are included with this update:
 * People that access the view from the public link cannot create other views, edit the shared view, or add, delete, or edit record information.  
 
 For more information, see [Share views](/help/quicksilver/planning/access/share-views.md). -->
+
+## Settimana del 29 luglio 2024
+
+### L’API pubblica di Adobe Workfront Planning è ora disponibile
+
+Produzione: 30 luglio 2024
+
+Anteprima: da determinare
+
+È ora disponibile l’API pubblica di Adobe Workfront Planning.
+
+Per informazioni, vedere [Nozioni di base sulle API di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-api-basics.md).
+
+### Inserire e duplicare i record nella vista tabella
+
+Produzione: 1 agosto 2024
+Anteprima: da determinare
+
+Sono state introdotte le seguenti funzionalità per l’utilizzo dei record nella vista a tabella:
+
+* Record duplicati: puoi creare rapidamente un record duplicandone uno esistente.  Viene creato un record identico. Questa funzionalità è disponibile solo nella vista tabella.
+
+* È possibile inserire un nuovo record sopra o sotto un record esistente nella vista tabella. Prima di questo miglioramento, è possibile aggiungere record solo nella parte inferiore della visualizzazione tabella.
+
+Puoi eseguire le nuove funzionalità dalle seguenti aree:
+
+* Menu Altro di un record
+
+* La nuova barra degli strumenti che è stata aggiunta nella parte inferiore della pagina del record nella visualizzazione tabella
+
+Per informazioni, vedere [Crea record](/help/quicksilver/planning/records/create-records.md)
+
 
 ## Settimana dell’8 luglio 2024
 
