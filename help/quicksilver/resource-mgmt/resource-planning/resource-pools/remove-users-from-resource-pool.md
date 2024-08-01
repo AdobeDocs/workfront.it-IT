@@ -6,7 +6,7 @@ description: Sebbene non vi sia alcun limite al numero di utenti che è possibil
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: 00afc0cbc58fce34059302dfeb8847cfacb9c7e4
+source-git-commit: dfafeaeeca5805c84ff646d8a7a98120d34d44d9
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 1%
@@ -75,7 +75,7 @@ Oppure\
    Per rimuovere tutti gli utenti associati a tali entità, inizia a digitare il nome di un&#39;azienda, una mansione, un team o un gruppo.
 
    <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:<span>
-   <span class="preview">![Rimuovi utenti dal Pool di Risorse](assets/remove-users-from-resource-pool.png)<span>
+   ![Rimuovi utenti dal Pool di Risorse](assets/remove-users-from-resource-pool.png)
 
    Immagine di esempio nell’ambiente di produzione:
    ![Ricerca nel pool di risorse](assets/search-inside-new-resource-pool-350x314.png)
