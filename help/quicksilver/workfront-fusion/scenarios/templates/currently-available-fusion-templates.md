@@ -7,9 +7,9 @@ description: In Adobe Workfront Fusion sono attualmente disponibili i seguenti m
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: e569469c2b5e0ba40569ef86043294acae7a6aa8
+source-git-commit: 3c22860b1a9bdc653a772a48ccfcbb4456b11c8c
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,12 @@ Questi modelli automatizzano i processi e i flussi di lavoro di Workfront.
 ### [!BADGE Nuovo!]{type=Informative}
 
 Questo modello Fusion crea una checklist standard per tutte le schede che immettono una colonna specifica su una bacheca specifica a tempo.
+
+### [!BADGE Nuovo!]{type=Informative}
+
+<!--new Aug 1. 2024-->
+
+Questo scenario viene attivato dalla creazione di un nuovo progetto. Con questo scenario, puoi creare una bacheca denominata dopo il progetto, rinominare o creare colonne in base alle tue esigenze, creare tag personalizzati e associare un filtro per le colonne di assegnazione al progetto di origine.  Potrebbero essere apportate migliaia di modifiche aggiuntive, ma partendo da qui potrai vedere le possibilità di creare un punto di partenza per la standardizzazione del consiglio di amministrazione della tua organizzazione.
 
 ### Workfront - Creazione di progetti da CSV
 
