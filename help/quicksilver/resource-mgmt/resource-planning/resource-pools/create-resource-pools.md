@@ -6,9 +6,9 @@ description: I pool di risorse sono insiemi di utenti che consentono di gestire 
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: ca882fbb8b29fc728d9c688c6c671cfdf677c2cb
+source-git-commit: beec2ea4cdfcb89bf8f786a7ab2edeb804a6fbad
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '602'
 ht-degree: 1%
 
 ---
@@ -93,14 +93,14 @@ Devi avere i seguenti:
     </tbody>
    </table>
 
-1. (Facoltativo) Usa il collegamento **Annulla** per rimuovere gli utenti aggiunti tramite un gruppo, un team, una società o una mansione. <span class="preview">(La funzione Annulla non è al momento disponibile nell&#39;ambiente di anteprima.)</span>
+1. (Facoltativo) Usa il collegamento **Annulla** per rimuovere gli utenti aggiunti tramite un gruppo, un team, una società o una mansione.
 
    >[!NOTE]
    >
    >Non esiste alcun limite al numero di utenti che è possibile avere in un Pool di Risorse. Tuttavia, si consiglia di non aggiungere troppi utenti a un Pool di Risorse, altrimenti la gestione delle risorse potrebbe diventare una sfida. L&#39;elenco degli utenti mostra solo i primi 2.000 utenti nel Pool di Risorse e sono elencati in ordine alfabetico.
 
    <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
-   <span class="preview">![Utenti aggiunti al Pool di Risorse](assets/users-in-resource-pool.png)</span>
+   <span class="preview">![Utenti aggiunti al Pool di Risorse](assets/users-in-resource-pool2.png)</span>
 
    Immagine di esempio nell’ambiente di produzione:
    ![Utenti aggiunti al Pool di Risorse](assets/resource-pools-new---undo-button-for-teams-groups-etc-350x113.png)
