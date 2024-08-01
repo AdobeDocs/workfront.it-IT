@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
+source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -154,3 +154,11 @@ Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versi
 ### Aggiornamenti dei corsi di formazione
 
 Scopri gli ultimi aggiornamenti apportati a programmi di apprendimento, percorsi di apprendimento, video e guide per ogni versione di Adobe Workfront. Per ulteriori informazioni, vedere la sezione &quot;Novità&quot; della [pagina Tutorials di Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=it).
+
+### Funzionalità presto rimossa da Workfront
+
+Le seguenti funzionalità verranno presto rimosse da Workfront:
+
+#### Obsolescenza dell’esperienza Home legacy con 24.10
+
+Con la versione 24.10, l’esperienza Home legacy diventerà ufficialmente obsoleta. Gli utenti sono invitati a iniziare a utilizzare la nuova Home, che continuerà a essere migliorata con funzioni aggiuntive prima che venga dichiarata obsoleta. Saranno presto disponibili ulteriori informazioni sulla transizione, compreso ciò che utenti e amministratori possono fare per prepararla.
