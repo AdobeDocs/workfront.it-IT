@@ -3,10 +3,10 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: Panoramica sui pool di risorse
 description: In qualità di responsabile delle risorse, puoi gestire le tue risorse aggiungendo utenti ai pool di risorse.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: f3fc65c8-e436-44a4-9e9d-5b4b138a9f21
-source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
+source-git-commit: 36599722aafadcbbc630650a94005fd73b3e517e
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 0%

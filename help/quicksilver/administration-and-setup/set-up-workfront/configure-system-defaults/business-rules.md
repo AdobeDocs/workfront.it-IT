@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: business rules
 title: Creare e modificare le regole business
-description: È possibile scegliere se ricevere nuove funzionalità Workfront con frequenza mensile o trimestrale.
+description: Una regola business consente di applicare la convalida agli oggetti di Workfront e di impedire agli utenti di creare, modificare o eliminare un oggetto quando vengono soddisfatte determinate condizioni. Le regole aziendali contribuiscono a migliorare la qualità dei dati e l’efficienza operativa impedendo azioni che potrebbero compromettere l’integrità dei dati.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: cbfd30bb64be6a70b27a34068b93d566515434be
+source-git-commit: 49126ecec4a90c32139b49ee3dc37ce6671bb1d1
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---

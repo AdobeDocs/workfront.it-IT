@@ -3,17 +3,19 @@ product-area: resource-management
 navigation-topic: resource-pools
 title: Rimuovere utenti dai pool di risorse
 description: Sebbene non vi sia alcun limite al numero di utenti che è possibile avere in un pool di risorse, l'elenco degli utenti visualizza solo i primi 2.000 utenti, elencati in ordine alfabetico.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 00afc0cbc58fce34059302dfeb8847cfacb9c7e4
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '401'
 ht-degree: 1%
 
 ---
 
 # Rimuovere utenti dai pool di risorse
+
+{{highlighted-preview}}
 
 Sebbene non vi sia alcun limite al numero di utenti che è possibile avere in un pool di risorse, l&#39;elenco degli utenti visualizza solo i primi 2.000 utenti, elencati in ordine alfabetico.
 
@@ -22,6 +24,8 @@ Sebbene non vi sia alcun limite al numero di utenti che è possibile avere in un
 Per ulteriori informazioni sui pool di risorse, vedere [Panoramica sui pool di risorse](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Devi avere i seguenti:
 
@@ -51,23 +55,30 @@ Devi avere i seguenti:
 
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
++++
+
 ## Rimuovere utenti da un gruppo di risorse
 
 È possibile rimuovere utenti da un Pool di Risorse quando tali utenti non sono più necessari in tale Pool.
 
 Per rimuovere un utente da un gruppo di risorse:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront.
+{{step1-to-resourcing}}
 
-1. Fare clic su **Risorse**.
 1. Fai clic su **Pool di Risorse** nel pannello a sinistra.
-1. Seleziona un gruppo di risorse e fai clic su **Modifica.**Oppure\
+1. Seleziona un Pool di Risorse e fai clic su **Modifica**.
+Oppure\
    Fare clic sul nome di un gruppo di risorse.
 
 1. Inizia a digitare il nome di un utente da rimuovere nel campo **Cerca in questo Pool di Risorse**.\
    Oppure\
-   Per rimuovere tutti gli utenti associati a tali entità, inizia a digitare il nome di un&#39;azienda, una mansione, un team o un gruppo.\
-   ![search_inside_NEW_resource_pool.png](assets/search-inside-new-resource-pool-350x314.png)
+   Per rimuovere tutti gli utenti associati a tali entità, inizia a digitare il nome di un&#39;azienda, una mansione, un team o un gruppo.
+
+   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:<span>
+   <span class="preview">![Rimuovi utenti dal Pool di Risorse](assets/remove-users-from-resource-pool.png)<span>
+
+   Immagine di esempio nell’ambiente di produzione:
+   ![Ricerca nel pool di risorse](assets/search-inside-new-resource-pool-350x314.png)
 
 1. Fai clic sull&#39;icona &quot;x&quot; a livello di utente per rimuovere un utente dal Pool di Risorse. Vengono rimossi da tutti gli elenchi in cui compaiono.\
    Oppure\
