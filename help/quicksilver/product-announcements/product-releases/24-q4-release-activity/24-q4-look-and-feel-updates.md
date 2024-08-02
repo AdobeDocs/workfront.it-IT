@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
+source-git-commit: 8c8094dd34f90d51362b43820e1c6fa41ae5b7cd
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -28,6 +28,16 @@ I messaggi di conferma Elimina utente e Disattiva utente visualizzati dagli uten
 
 Per informazioni sull&#39;eliminazione e la disattivazione degli utenti, vedere [Eliminare gli utenti](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/delete-a-user.md) e [Disattivare o riattivare un utente](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 
+## Aggiornamenti look-and-feel della pagina Pool di Risorse
+
+>[!NOTE]
+>
+>Versione di anteprima: 1 agosto 2024; produzione per rilascio rapido: con la versione 24.8 (agosto 2024); produzione per rilascio trimestrale: con la versione 24.10 (ottobre 2024)
+
+La pagina Pool di risorse è stata aggiornata con un design più moderno, coerente con le altre aree di Workfront.
+
+Per informazioni, vedere [Creare i pool di risorse](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+
 ## Messaggio di aggiornamento look-and-feel per eliminazione attività
 
 >[!NOTE]
@@ -37,17 +47,6 @@ Per informazioni sull&#39;eliminazione e la disattivazione degli utenti, vedere 
 Il messaggio di conferma Elimina attività visualizzato dagli utenti durante l’eliminazione di un’attività è stato aggiornato a una progettazione più moderna, coerente con altre aree di Workfront.
 
 Per informazioni sull&#39;eliminazione di un&#39;attività, vedere [Elimina attività](/help/quicksilver/manage-work/tasks/manage-tasks/delete-tasks.md).
-
-
-## Aggiornamenti look-and-feel della pagina Pool di Risorse
-
->[!NOTE]
->
->Versione di anteprima: 25 luglio 2024; produzione per rilascio rapido: con la versione 24.8 (agosto 2024); produzione per rilascio trimestrale: con la versione 24.10 (ottobre 2024)
-
-La pagina Pool di risorse è stata aggiornata con un design più moderno, coerente con le altre aree di Workfront.
-
-Per informazioni, vedere [Creare i pool di risorse](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
 ## Aggiornamenti look-and-feel della pagina Notifiche
 
