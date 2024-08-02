@@ -7,7 +7,7 @@ description: Questo articolo descrive perché gli scenari attivi o disattivati s
 author: Becky
 feature: Workfront Fusion
 exl-id: b3eea763-f0bf-4037-8d73-20d112dc5ac3
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 0f6d02733f091d7e548db6005eebb3a24087799a
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 1%
@@ -76,6 +76,6 @@ Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adob
 ## Attiva o disattiva uno scenario:
 
 1. Fai clic su **[!UICONTROL Scenari]** ![](assets/scenarios-icon.png) nel pannello a sinistra, quindi fai clic sullo scenario per aprirlo.
-1. Nell&#39;angolo superiore destro della finestra, fai clic sull&#39;interruttore **[!UICONTROL Attiva/Disattiva]**.
+1. Nell&#39;angolo inferiore sinistro della finestra, fare clic sull&#39;interruttore **[!UICONTROL Attiva/Disattiva]**.
 
    ![](assets/on-off-switch.jpg)
