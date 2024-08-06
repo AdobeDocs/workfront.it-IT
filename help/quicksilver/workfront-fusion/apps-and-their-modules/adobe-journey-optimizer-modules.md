@@ -11,7 +11,7 @@ feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
 hide: true
 hidefromtoc: true
-source-git-commit: 5c80b8f7c8934500679d31fc15a06fe3789a6f2b
+source-git-commit: 4c1b784442d000d189be076903c4c65fca42e68f
 workflow-type: tm+mt
 source-wordcount: '3659'
 ht-degree: 0%
@@ -392,7 +392,7 @@ Questo modulo di azione restituisce la configurazione di limitazione o limitazio
 * [Cercare un pacchetto](#look-up-a-package)
 * [Importare un pacchetto](#import-a-package)
 * [Publish un pacchetto](#publish-a-package)
-* [Invia un&#39;importazione](#submit-an-import)
+* [Inviare un’importazione](#submit-an-import)
 
 
 
