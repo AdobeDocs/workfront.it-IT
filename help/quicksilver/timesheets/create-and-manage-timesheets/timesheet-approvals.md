@@ -6,14 +6,16 @@ description: Il processo di approvazione delle schede orario fornisce ai respons
 author: Alina
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
 
 # Approvare una scheda orario
+
+<!--Audited: 8/2024-->
 
 Il processo di approvazione delle schede orario fornisce ai responsabili visibilità sulle ore lavorative dei loro referenti diretti. Gli approvatori possono verificare che tutto il tempo registrato sia stato assegnato nelle aree corrette e che sia stato registrato un numero sufficiente di ore per il periodo.
 
@@ -22,6 +24,8 @@ Adobe Workfront consente di configurare le approvazioni delle schede orario per 
 Per informazioni sull&#39;invio di una scheda orario, vedere [Inviare una scheda orario per l&#39;approvazione](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md).
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -32,36 +36,41 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader"><p>piano Adobe Workfront</p></td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano </p> </td> 
+   <td role="rowheader"><p>Licenza Adobe Workfront*</p></td> 
+   <td> <p>Nuovo: Standard</p>
+   <p>Corrente: Piano </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Per conoscere il piano o il tipo di licenza di cui si dispone, contattare l&#39;amministratore Workfront.
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Designa approvatori scheda orario
 
 In genere, le schede orario vengono approvate da responsabili funzionali o dal personale delle risorse umane. Le schede orario non vengono normalmente approvate dai project manager.
 
-Durante la creazione del profilo della scheda orario viene definito un approvatore della scheda orario. È necessario disporre di una licenza Pianificazione per essere designato come approvatore.
+Durante la creazione del profilo della scheda orario viene definito un approvatore della scheda orario. È necessario disporre di una licenza Pianificazione per essere designato come approvatore.
 
 Per ulteriori informazioni sulla designazione degli approvatori della scheda orario, vedere la sezione [Creare o modificare un profilo della scheda orario](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md#create) nell&#39;articolo [Creare, modificare e assegnare profili della scheda orario](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 ## Approvare una scheda orario
 
-Puoi approvare qualsiasi scheda orario inviata se sei stato designato come approvatore. Quando una scheda orario viene inviata per l&#39;approvazione, questa è elencata nell&#39;area **Approvazioni** della **Home**  pagina. Per ulteriori informazioni, vedere [Approvazione del lavoro](../../review-and-approve-work/manage-approvals/approving-work.md).
+Puoi approvare qualsiasi scheda orario inviata se sei stato designato come approvatore. Quando una scheda orario viene inviata per l&#39;approvazione, la scheda orario è elencata nell&#39;area **Approvazioni** della **Home** pagina. Per ulteriori informazioni, vedere [Approvazione del lavoro](../../review-and-approve-work/manage-approvals/approving-work.md).
 
 Se l&#39;amministratore di Workfront ha attivato i gestori eventi Approvazione scheda orario e Rifiuto scheda orario per utente, l&#39;utente riceverà una notifica dopo l&#39;approvazione o il rifiuto della scheda orario. Per informazioni sull&#39;attivazione delle notifiche degli eventi, vedere [Tipi di notifica degli eventi](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 Per approvare una scheda orario:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront.
-1. Fai clic su **Schede orario**.
+{{step1-to-timesheets}}
+
+Verrà aperta l&#39;area **Schede orario**.
+
 1. Seleziona **Le mie approvazioni schede orario** nell&#39;angolo superiore destro della pagina per visualizzare solo le schede orario che hai approvato
 
    Oppure
@@ -72,7 +81,7 @@ Per approvare una scheda orario:
 
    >[!NOTE]
    >
-   >L&#39;opzione Approvazioni schede attività personali non viene visualizzata nella parte superiore dell&#39;elenco delle schede attività o nell&#39;elenco dei filtri se l&#39;amministratore di Workfront o un amministratore di gruppo ha rimosso il filtro Approvazioni schede attività personali dai controlli elenco nell&#39;area Configura o dal modello di layout. Per ulteriori informazioni, consulta i seguenti articoli:
+   >L&#39;opzione Approvazioni schede attività personali non viene visualizzata nella parte superiore dell&#39;elenco delle schede attività o nell&#39;elenco dei filtri se l&#39;amministratore di Workfront o un amministratore di gruppo ha rimosso il filtro Approvazioni schede attività personali dai controlli elenco nell&#39;area Configura o dal modello di layout. Per ulteriori informazioni, consulta i seguenti articoli:
    >
    >   
    >   

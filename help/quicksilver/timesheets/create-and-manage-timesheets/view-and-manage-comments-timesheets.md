@@ -6,9 +6,9 @@ description: È possibile aggiungere commenti alle schede orario, agli elementi 
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 0%
 * Su un singolo elemento, come un’attività o un problema
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -42,7 +44,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Configurazione del livello di accesso</td> 
-   <td> <p>Accesso di visualizzazione o superiore per attività e problemi</p> </td> 
+   <td> <p>Visualizzare o accedere ad altre attività e problemi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
@@ -53,6 +55,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 *Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront. Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Visualizzare i commenti delle ore su una scheda orario {#view-hour-entry-comments-on-a-timesheet}
 
 È possibile configurare i commenti inseriti in singole ore da visualizzare nella scheda orario. L&#39;opzione per mostrare e nascondere i commenti non influisce sui commenti inseriti nella scheda attività generale o sui commenti inseriti nei singoli elementi. Per ulteriori informazioni, consulta  [Aggiungere commenti a una scheda orario](#make-comments-on-a-timesheet).
@@ -61,9 +65,10 @@ Per impostazione predefinita, i commenti vengono nascosti la prima volta che si 
 
 Per visualizzare commenti su una scheda orario:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront.
+{{step1-to-timesheets}}
 
-1. Fai clic su **Schede orario**.
+Verrà aperta l&#39;area **Schede orario**.
+
 1. Aprire la scheda orario in cui si desidera visualizzare i commenti.
 1. Fai clic su **Mostra commenti** nell&#39;angolo superiore destro della scheda orario.
 I commenti vengono visualizzati sotto l’elemento in cui sono stati registrati l’immissione delle ore e il commento.

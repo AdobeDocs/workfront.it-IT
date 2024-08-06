@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1117'
 ht-degree: 1%
 
 ---
@@ -20,9 +20,13 @@ ht-degree: 1%
 
 È possibile condividere una visualizzazione con altri utenti per garantire la collaborazione durante l&#39;utilizzo dei record in Adobe Workfront Planning.
 
-La concessione di autorizzazioni a un&#39;area di lavoro non consente ad altri utenti di concedere autorizzazioni per le visualizzazioni nelle pagine dei tipi di record. È necessario concedere autorizzazioni alle singole visualizzazioni in una pagina di tipo record per condividerle con altri utenti.
-
-Quando si condivide una visualizzazione, si concedono ad altri utenti le autorizzazioni necessarie per accedere a tutti gli elementi della visualizzazione. Ad esempio, quando si assegnano le autorizzazioni Gestione a una visualizzazione, è possibile modificare il raggruppamento, il filtro, l&#39;ordinamento o l&#39;aspetto della barra.
+>[!IMPORTANT]
+>
+>* La concessione di autorizzazioni a un&#39;area di lavoro non consente ad altri utenti di concedere autorizzazioni per le visualizzazioni nelle pagine dei tipi di record. È necessario concedere autorizzazioni alle singole visualizzazioni in una pagina di tipo record per condividerle con altri utenti.
+>
+>* La concessione delle autorizzazioni a una visualizzazione non modifica le autorizzazioni per la visualizzazione dei record. Le autorizzazioni per i record vengono concesse condividendo le aree di lavoro.
+>
+>* Quando si condivide una visualizzazione, si concedono ad altri utenti le autorizzazioni necessarie per accedere a tutti gli elementi della visualizzazione. Ad esempio, quando si assegnano le autorizzazioni Gestione a una visualizzazione, è possibile modificare il raggruppamento, il filtro, l&#39;ordinamento o l&#39;aspetto della barra.
 
 
 Potete condividere una vista con le seguenti entità:
@@ -78,6 +82,7 @@ Potete condividere una vista con le seguenti entità:
 <tr>
    <td role="rowheader"><p>Autorizzazioni</p></td>
    <td> <p>Gestire le autorizzazioni per una visualizzazione</p>  
+   <p>Solo gli utenti con le autorizzazioni di gestione di un’area di lavoro possono condividere una visualizzazione pubblicamente.</p>
 </td>
   </tr>
 
@@ -101,9 +106,9 @@ Potete condividere una vista con le seguenti entità:
 
 * Puoi condividere le visualizzazioni con persone esterne all’organizzazione tramite un collegamento pubblico.
 
-* Quando condividi pubblicamente una visualizzazione, il collegamento è accessibile a chiunque non faccia parte della tua azienda per un periodo di tempo limitato, indicato dalla data di scadenza. Non è necessario effettuare l&#39;accesso per visualizzare la vista tabella condivisa.
+* Quando condividi pubblicamente una visualizzazione, il collegamento è accessibile a chiunque non faccia parte della tua azienda per un periodo di tempo limitato, indicato dalla data di scadenza. Non è necessario effettuare l&#39;accesso per visualizzare la visualizzazione condivisa.
 
-* Gli utenti esterni all&#39;organizzazione che dispongono dell&#39;accesso a una visualizzazione non possono creare altre visualizzazioni, modificare la visualizzazione condivisa o aggiungere, eliminare o modificare le informazioni dei record nella tabella.
+* Gli utenti esterni all&#39;organizzazione che dispongono dell&#39;accesso a una visualizzazione non possono creare altre visualizzazioni, modificare la visualizzazione condivisa o aggiungere, eliminare o modificare le informazioni del record nella visualizzazione.
 
 ## Condivisione interna delle autorizzazioni per una visualizzazione
 
@@ -145,16 +150,25 @@ Puoi condividere con utenti o gruppi in Workfront le viste che hai creato o le v
      Gli amministratori di sistema ricevono sempre le autorizzazioni di gestione per le visualizzazioni condivise con loro.
 
 1. Fai clic su **Copia collegamento** per copiare un collegamento negli Appunti.
-1. Condividi il collegamento copiato con altri utenti. Gli utenti che ricevono il collegamento devono essere utenti attivi e accedere a Workfront per poter accedere alla pagina del tipo di record e visualizzarla nella visualizzazione selezionata.
 1. Fai clic su **Salva**.
 
-   >[!TIP]
-   >
-   >   Le visualizzazioni condivise con te presentano un indicatore di persone ![](assets/view-shared-with-others-people-icon.png) accanto all&#39;icona della visualizzazione. Le visualizzazioni senza l&#39;indicatore persone sono visualizzazioni create dall&#39;utente.
+   La visualizzazione viene aggiornata con l&#39;icona persone ![](assets/view-shared-with-others-people-icon.png) per indicare che la visualizzazione è ora condivisa con altri utenti.
+
+   >>
+   [!TIP]
+   >>
+   Le visualizzazioni senza un utente o un&#39;icona globale sono visualizzazioni create dall&#39;utente e non sono condivise con altri utenti. Le viste non condivise sono visibili solo a te.
+
+1. Condividi il collegamento copiato con altri utenti. Gli utenti che ricevono il collegamento devono essere utenti attivi e accedere a Workfront per poter accedere alla pagina del tipo di record e visualizzarla nella visualizzazione selezionata.
 
 ## Condivisione pubblica delle autorizzazioni per una visualizzazione
 
 Puoi condividere le viste create o le viste per le quali disponi delle autorizzazioni di gestione con persone che non dispongono di una licenza Workfront e che potrebbero essere esterne alla tua organizzazione.
+
+>[!IMPORTANT]
+>
+Solo gli utenti con le autorizzazioni Gestione di un&#39;area di lavoro possono condividere pubblicamente le visualizzazioni dell&#39;area di lavoro.
+
 
 Per condividere una visualizzazione pubblicamente in Workfront Planning:
 
@@ -182,9 +196,13 @@ Per condividere una visualizzazione pubblicamente in Workfront Planning:
 
 1. Fai clic su **Salva**.
 
-   L’icona della vista viene aggiornata per indicare che la vista è condivisa pubblicamente.
+   La visualizzazione viene aggiornata con l&#39;icona globale ![](assets/public-shared-view-icon-highlighted.png) per indicare che è condivisa pubblicamente.
 
-   ![](assets/public-shared-view-icon-highlighted.png)
+   >>
+   [!TIP]
+   >
+   >Le visualizzazioni senza un utente o un&#39;icona globale sono visualizzazioni create dall&#39;utente e non sono condivise con altri utenti. Le viste non condivise sono visibili solo a te.
+
 
 1. (Facoltativo) Incolla il collegamento copiato in un messaggio e-mail, chat, documento o in un commento di Workfront per condividerlo con altri utenti.
 

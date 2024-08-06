@@ -6,9 +6,9 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '846'
 ht-degree: 6%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 6%
 
 {{planning-important-intro}}
 
-È possibile condividere o rimuovere le autorizzazioni per un&#39;area di lavoro o una visualizzazione in Adobe Workfront Planning.
+È possibile condividere o rimuovere le autorizzazioni per un&#39;area di lavoro o una vista di Adobe Workfront Planning.
 
 Questo articolo descrive i livelli di autorizzazione per gli oggetti di Workfront Planning.
 
@@ -38,11 +38,16 @@ Per informazioni su come condividere aree di lavoro o visualizzazioni, vedere i 
 * Aree di lavoro
 
    * È possibile condividere le aree di lavoro con altri utenti all&#39;interno dell&#39;organizzazione.
-   * Quando si condivide un&#39;area di lavoro, vengono condivisi anche tutti i tipi di record, i record e i campi associati alle aree di lavoro. Le visualizzazioni non sono condivise.
+   * Quando si condivide un&#39;area di lavoro, vengono condivisi anche tutti i tipi di record, i record e i campi associati alle aree di lavoro.
+
+     Quando si condivide un&#39;area di lavoro, le visualizzazioni non vengono condivise. Le visualizzazioni sono condivise separatamente.
 
 * Viste
 
    * È necessario concedere agli utenti, inclusi gli amministratori di sistema, le autorizzazioni per accedere alle visualizzazioni separatamente dalle autorizzazioni per l’accesso alle aree di lavoro.
+   * Quando si condivide una visualizzazione, vengono condivisi tutti gli elementi della visualizzazione, inclusi filtri, raggruppamenti, ordinamento o Impostazioni.
+
+     Quando si condivide una visualizzazione, i record visibili nella visualizzazione non vengono condivisi. I record devono essere condivisi condividendo le aree di lavoro.
    * È possibile condividere una visualizzazione pubblicamente con utenti esterni all&#39;organizzazione quando si genera un collegamento pubblico per una visualizzazione.Gli utenti che accedono alla pagina record da un collegamento pubblico possono visualizzare tutti i record e i relativi campi, inclusi i record e i campi collegati.
 
   Per informazioni, vedere [Condividi visualizzazioni](/help/quicksilver/planning/access/share-views.md).
@@ -124,7 +129,7 @@ Di seguito sono riportati i livelli di autorizzazione per i record:
 
 |        | Gestire | Contribuisci | Visualizza |
 |--------|--------|------------|-------|
-| Crea | ✓ |            |       |
+| Crea | ✓ | ✓ |       |
 | Elimina | ✓ | ✓ |       |
 | Modifica | ✓ | ✓ |       |
 | Visualizza | ✓ | ✓ | ✓ |

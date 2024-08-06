@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 212dda4289e4d29dbfbff0dbdc55315215b5ad91
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '3775'
+source-wordcount: '3856'
 ht-degree: 0%
 
 ---
@@ -47,12 +47,9 @@ Per eseguire i passaggi descritti in questo articolo e registrare le ore specifi
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Nuovo: 
-   <ul><li>Chiaro o superiore per registrare le ore generali in una scheda orario</li>
-   <li>Standard per registrare le ore su un progetto, attività o problema</li></ul>
-
-
-<p>Corrente: 
+   <td> <p>Nuovo: </p>
+   <p>Luce o superiore per registrare le ore di un progetto, attività, problema o ore generali su una scheda orario</p>
+   <p>Corrente: 
    <ul><li>Revisione o successiva per registrare le ore generali in una scheda orario</li>
    <li>Lavoro o superiore per registrare le ore su un progetto, attività o problema</li></ul> </td> 
   </tr> 
@@ -476,6 +473,13 @@ Per ulteriori informazioni, vedere [Adobe Workfront per Android](/help/quicksilv
 
 ## Modificare le ore registrate in elenchi e report
 
+>[!CAUTION]
+>
+>* Non puoi modificare le ore che appartengono a una scheda orario chiusa. È innanzitutto necessario riaprire la scheda orario e quindi modificare le informazioni sulle ore.
+>* Quando si modifica il Tipo di Ora da un tipo che non è considerato come ricavo a un altro tipo che è considerato come ricavo, si verificano anche modifiche ai dati finanziari del progetto. La modifica dei tipi di lavoro da un tipo che conta come ricavi a un tipo che non conta come ricavi aggiorna anche i dati finanziari del progetto.
+>
+>Per informazioni, vedere [Gestire i tipi di lavoro](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
+>
 È possibile modificare le ore registrate nelle seguenti aree:
 
 * Tutte le aree in cui hai aggiunto le ore, incluse le schede orario aperte

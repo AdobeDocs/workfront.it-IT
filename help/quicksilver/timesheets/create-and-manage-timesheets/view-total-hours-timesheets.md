@@ -6,20 +6,24 @@ description: Puoi visualizzare il numero totale di ore sulla scheda orario. Il n
 author: Alina
 feature: Timesheets
 exl-id: ff0823f2-61d0-453f-ae1c-68f0f1465d73
-source-git-commit: 210ca2e82286ff904bc7defb7b8c9c2559489d66
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
 
 # Visualizza le ore totali sulla scheda orario
 
+<!--Audited: 8/2024-->
+
 Puoi visualizzare il numero totale di ore sulla scheda orario. Il numero totale di ore della scheda orario include le ore registrate per progetti, attività, problemi e tutte le ore generali.
 
 Le ore totali riflettono le ore inviate tramite la scheda orario, l’area Aggiornamenti o l’area Ore per progetti, attività o problemi.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -28,25 +32,28 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Revisiona </p> </td> 
+   <td> <p>Nuovo: Chiaro o superiore </p>
+   <p>Corrente: revisione o versione successiva</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Accesso di visualizzazione o superiore per attività e problemi</p> <p>Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazione del livello di accesso</td> 
+   <td> <p>Visualizzare o accedere ad altre attività e problemi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizza o autorizzazioni superiori per attività e problemi</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Visualizza o autorizzazioni superiori per attività e problemi</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Per conoscere il piano o il tipo di licenza di cui si dispone, contattare l&#39;amministratore Workfront.
+*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront. Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Visualizzare le ore totali di una scheda orario nell&#39;intestazione della scheda orario
 
@@ -56,9 +63,11 @@ Puoi visualizzare le ore totali di una scheda orario nell’intestazione della s
 
 ## Visualizza le ore totali sulla scheda orario in un elenco di schede orario
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Schede orario**. Il filtro **All** è selezionato per impostazione predefinita e visualizza tutte le schede orario a cui si ha accesso.
+{{step1-to-timesheets}}
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+Verrà aperta l&#39;area **Schede orario**.
+
+![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. (Facoltativo) Per aggiornare il filtro nell’elenco delle schede orario, effettua una delle seguenti operazioni:
 
@@ -76,7 +85,7 @@ Puoi visualizzare le ore totali di una scheda orario nell’intestazione della s
 
    >[!NOTE]
    >
-   >Le opzioni Approvazioni schede attività personali e Schede attività personali non vengono visualizzate nella parte superiore dell&#39;elenco delle schede attività o nell&#39;elenco dei filtri se l&#39;amministratore di Workfront o un amministratore di gruppo ha rimosso i filtri Approvazioni schede attività personali e Schede attività personali dall&#39;area Controlli elenco nella configurazione o dal modello di layout. Per ulteriori informazioni, consulta i seguenti articoli:
+   >Le opzioni Approvazioni schede attività personali e Schede attività personali non vengono visualizzate nella parte superiore dell&#39;elenco delle schede attività o nell&#39;elenco dei filtri se l&#39;amministratore di Workfront o un amministratore di gruppo ha rimosso i filtri Approvazioni schede attività personali e Schede attività personali dall&#39;area Controlli elenco nella configurazione o dal modello di layout. Per ulteriori informazioni, consulta i seguenti articoli:
    >
    >   
    >   
@@ -98,4 +107,4 @@ Puoi visualizzare le ore totali di una scheda orario nell’intestazione della s
 
    >[!TIP]
    >
-   >Quando si utilizza la visualizzazione Standard per un elenco di schede orario, la colonna Ore totali viene visualizzata in rosso se il tempo registrato per gli elementi della scheda orario supera il numero di ore nell&#39;intervallo di tempo della scheda orario. Per ulteriori informazioni, vedere il campo &quot;Ore totali&quot; in [Glossario della terminologia di Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   >Quando si utilizza la visualizzazione Standard per un elenco di schede orario, la colonna Ore totali viene visualizzata in rosso se il tempo registrato per gli elementi della scheda orario supera il numero di ore nell&#39;intervallo di tempo della scheda orario. Per ulteriori informazioni, vedere il campo &quot;Ore totali&quot; in [Glossario della terminologia di Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
