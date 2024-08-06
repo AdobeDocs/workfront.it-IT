@@ -11,9 +11,9 @@ feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
 hide: true
 hidefromtoc: true
-source-git-commit: 4c1b784442d000d189be076903c4c65fca42e68f
+source-git-commit: 357e8e5bb3c81790e503538d96e444fb4f1e0ad5
 workflow-type: tm+mt
-source-wordcount: '3659'
+source-wordcount: '3673'
 ht-degree: 0%
 
 ---
@@ -120,6 +120,10 @@ Puoi creare una connessione in qualsiasi modulo di Adobe Journey Optimizer.
         <tr>
         <td role="rowheader">[!UICONTROL ID organizzazione]</td>
         <td>Immetti l'ID organizzazione [!DNL Adobe] [!UICONTROL]. Questo si trova nella sezione dei dettagli [!UICONTROL Credentials] del [!DNL Adobe Developer Console]</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Nome Sandbox]</td>
+        <td>Immetti il nome della sandbox che verrà utilizzata da questa connessione.</td>
         </tr>
       </tbody>
     </table>
