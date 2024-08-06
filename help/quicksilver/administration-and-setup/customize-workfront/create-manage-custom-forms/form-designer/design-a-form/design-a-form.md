@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 969231d27e1ef2f3f3cd2847664c22f1f21f1911
+source-git-commit: 990b27821fcf5ae4f3ec954ddd3b58ed1b140319
 workflow-type: tm+mt
-source-wordcount: '6090'
+source-wordcount: '6252'
 ht-degree: 4%
 
 ---
@@ -53,10 +53,6 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Fai clic su **Forms personalizzato** nel pannello a sinistra.
 
-   <!-- >[!TIP]
-    >
-    >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
-
 1. Fare clic su **Nuovo modulo personalizzato.**
 1. Seleziona i tipi di oggetto a cui vuoi allegare il modulo personalizzato, quindi fai clic su **Continua**.
 
@@ -76,6 +72,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Successivamente, puoi iniziare ad aggiungere campi al modulo personalizzato. Vedere le sezioni seguenti:
    * [Riutilizzare un campo o un widget esistente già utilizzato in un altro modulo personalizzato](#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
+   * [Note sui nomi e sulle etichette dei campi](#notes-on-field-names-and-labels)
    * [Aggiungi campi di testo](#add-text-fields)
    * [Aggiungere campi calcolati](#add-calculated-fields)
    * [Aggiungi pulsanti di scelta, gruppi di caselle di controllo e elenchi a discesa](#add-radio-buttons-checkboxes-and-dropdowns)
@@ -89,7 +86,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 È possibile utilizzare campi nuovi o esistenti durante la progettazione del modulo personalizzato.
 
-## Riutilizzare un campo o un widget esistente già utilizzato in un altro modulo personalizzato
+### Riutilizzare un campo o un widget esistente già utilizzato in un altro modulo personalizzato
 
 1. Nella parte superiore sinistra dello schermo fare clic su **Libreria campi**.
 
@@ -108,6 +105,39 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    oppure
 
    Fare clic su **Salva e chiudi**.
+
+### Note sui nomi e sulle etichette dei campi {#notes-on-field-names-and-labels}
+
+**label** è disponibile per la maggior parte dei campi. Si tratta di un’etichetta descrittiva visualizzata sopra il campo o il widget nel modulo personalizzato. Puoi modificare l’etichetta in qualsiasi momento.
+
+>[!NOTE]
+>
+>Evita di usare caratteri speciali in questa etichetta. Non vengono visualizzati correttamente nei rapporti.
+
+È necessario un **nome** per ogni campo. Questo nome è il modo in cui il sistema identifica il campo. Quando configuri il campo o il widget per la prima volta e digiti l’etichetta, il campo Nome si popola automaticamente in modo che corrisponda a esso. Tuttavia, i campi Etichetta e Nome non sono sincronizzati. In questo modo è possibile modificare l&#39;etichetta visualizzata dagli utenti senza dover cambiare il nome visualizzato dal sistema.
+
+>[!NOTE]
+>
+>Sebbene sia possibile farlo, si consiglia di non modificare questo nome dopo che l’utente o altri utenti hanno iniziato a utilizzare il modulo personalizzato in Workfront. In questo caso, il sistema non riconoscerà più il campo personalizzato a cui potrebbe ora fare riferimento in altre aree di Workfront.
+>Ad esempio, se aggiungi il campo personalizzato a un rapporto e successivamente ne modifichi il nome, Workfront non lo riconosce nel rapporto e non funzionerà più correttamente a meno che non lo aggiungi nuovamente al rapporto utilizzando il nuovo nome.
+>
+>È consigliabile non digitare un nome già utilizzato per i campi Workfront incorporati.
+>
+>È consigliabile non utilizzare il carattere punto/punto nel nome del campo personalizzato, per evitare errori quando si utilizza il campo in aree diverse di Workfront.
+
+I seguenti caratteri speciali non sono supportati nelle etichette e nei nomi dei campi personalizzati.
+
+* \t
+* \n
+* \r
+* \f
+* `[`
+* `]`
+* (
+* )
+* :
+* `{`
+* `}`
 
 ### Aggiungi campi di testo
 
@@ -158,13 +188,13 @@ Per aggiungere un campo di testo:
     <li>Testo su riga singola</li>
     <li>Testo paragrafo</li>
     <li>Testo con formattazione</li>
-    <li>Testo descrittivo in arrivo</li>
+    <li>Testo descrittivo</li>
     </ul></td>
     </tr>
     <tr>
     <td>Etichetta</td>
     <td><p>Digita un’etichetta descrittiva da visualizzare sopra il widget. Puoi modificare l’etichetta in qualsiasi momento.<p>
-    <p>IMPORTANTE: evita di utilizzare caratteri speciali in questa etichetta. Non vengono visualizzati correttamente nei rapporti.</p></td>
+    <p>IMPORTANTE: evita di utilizzare caratteri speciali in questa etichetta. Non vengono visualizzati correttamente nei rapporti. Per ulteriori informazioni, vedere <a href="design-a-form.md#notes-on-field-names-and-labels">Note sui nomi e le etichette dei campi</a>.</p></td>
     <td><ul>
     <li>Testo su riga singola</li>
     <li>Testo paragrafo</li>
@@ -174,11 +204,7 @@ Per aggiungere un campo di testo:
     <tr>
      <td>Nome</td>
     <td><p>(Obbligatorio) Questo nome indica il modo in cui il sistema identifica il campo. Quando configuri il widget per la prima volta e digiti l’etichetta, il campo Nome si popola automaticamente in modo che corrisponda a esso. Tuttavia, i campi Etichetta e Nome non sono sincronizzati. In questo modo è possibile modificare l'etichetta visualizzata dagli utenti senza dover cambiare il nome visualizzato dal sistema.</p>
-    <p><b>IMPORTANTE</b>:   
-      <ul> 
-      <li>Sebbene sia possibile farlo, si consiglia di non modificare questo nome dopo che l’utente o altri utenti hanno iniziato a utilizzare il modulo personalizzato in Workfront. In questo caso, il sistema non riconoscerà più il campo personalizzato a cui potrebbe ora fare riferimento in altre aree di Workfront. <p>Ad esempio, se aggiungi il campo personalizzato a un rapporto e successivamente ne modifichi il nome, Workfront non lo riconosce nel rapporto e non funzionerà più correttamente a meno che non lo aggiungi nuovamente al rapporto utilizzando il nuovo nome.</p> </li>
-      <li> <p>È consigliabile non digitare un nome già utilizzato per i campi Workfront incorporati.</p> </li>
-      <li><p>È consigliabile non utilizzare il carattere punto/punto nel nome del campo personalizzato, per evitare errori quando si utilizza il campo in aree diverse di Workfront.</p></li>
+    <p>Per ulteriori informazioni, vedere <a href="design-a-form.md#notes-on-field-names-and-labels">Note sui nomi e le etichette dei campi</a>.</p>
     </td>
     <td><ul>
     <li>Testo su riga singola</li>
@@ -189,7 +215,7 @@ Per aggiungere un campo di testo:
     </tr>
     <tr>
     <td>Istruzioni</td>
-    <td>Digita eventuali informazioni aggiuntive sul widget. Quando gli utenti compilano il modulo personalizzato, possono passare il cursore sull’icona del punto interrogativo per visualizzare una descrizione comando contenente le informazioni digitate qui.
+    <td>Digitare eventuali informazioni aggiuntive sul campo. Quando gli utenti compilano il modulo personalizzato, possono passare il cursore sull’icona del punto interrogativo per visualizzare una descrizione comando contenente le informazioni digitate qui.
     <img src="assets/instructions-form-designer.png">
     </td>
     <td><ul>
