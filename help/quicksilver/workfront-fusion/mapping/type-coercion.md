@@ -8,9 +8,9 @@ description: In questo documento viene descritto il comportamento di  [!DNL Adob
 author: Becky
 feature: Workfront Fusion
 exl-id: 847a17c9-bd67-4132-81a8-2a5fe8d516cb
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: d09174b874ff59676a28881de02ae4e7196d0f80
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '652'
 ht-degree: 3%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 3%
 # Tipo coercizione in [!DNL Adobe Workfront Fusion]
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per utilizzare le funzionalità di questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -55,6 +57,8 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
 Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore [!DNL Workfront].
 
 Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
++++
 
 ### Tipo coercizione
 

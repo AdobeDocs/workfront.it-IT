@@ -7,9 +7,9 @@ description: Alcuni moduli di attivazione ti consentono di selezionare il primo 
 author: Becky
 feature: Workfront Fusion
 exl-id: 5ab7cac4-8d50-4be0-b26b-b832544f18f7
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 489ed23fe0d7945753b59810ff9da084bd3e92e4
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '386'
 ht-degree: 1%
 
 ---
@@ -23,6 +23,8 @@ Puoi anche specificare se recuperare tutti i bundle o solo i bundle da dopo una 
 Per ulteriori informazioni sui moduli trigger, vedere la sezione [Moduli trigger](../../workfront-fusion/modules/module-types.md#triggers) nell&#39;articolo [Tipi di moduli](../../workfront-fusion/modules/module-types.md).
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per utilizzare le funzionalità di questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -60,6 +62,8 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
 Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore [!DNL Workfront].
 
 Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
++++
 
 ## Scegli dove inizia un modulo trigger
 
