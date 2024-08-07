@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
+source-git-commit: e65b57c903b08dc734e93b9690ce91407f1d08e0
 workflow-type: tm+mt
 source-wordcount: '2001'
 ht-degree: 2%
@@ -293,7 +293,7 @@ Per individuare Workfront Planning:
 
 1. Fare clic su **Pianificazione** ![](assets/planning-icon.png).
 
-   Viene visualizzata la pagina di destinazione Workfront Planning.
+   Viene visualizzata la pagina principale di Workfront Planning.
 
    ![](assets/planning-landing-page-admin.png)
 
@@ -303,8 +303,8 @@ Per individuare Workfront Planning:
 
 
 1. (Condizionale e facoltativo) Se sei un amministratore di Workfront, fai clic su una delle seguenti schede:
-   * **Aree di lavoro personali**: visualizza le aree di lavoro create.
-   * **Altre aree di lavoro**: visualizza tutte le altre aree di lavoro del sistema, incluse quelle condivise con te.
+   * **Aree di lavoro personali**: visualizza le aree di lavoro create. <!--Replace with: Workspaces I'm on: Displays workspaces you created or workspaces that are shared with you.-->
+   * **Altre aree di lavoro**: visualizza tutte le altre aree di lavoro del sistema, incluse quelle condivise con te. <!--Replace with: Other workspaces: Displays all other workspaces in the system.-->
 
    Per tutti gli altri utenti, tutte le aree di lavoro create o condivise con gli utenti vengono visualizzate nell&#39;area **Aree di lavoro**.
 

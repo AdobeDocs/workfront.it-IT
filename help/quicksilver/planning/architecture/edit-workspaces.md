@@ -1,13 +1,13 @@
 ---
-title: Modificare le aree di lavoro
+title: Modifica aree di lavoro
 description: È possibile modificare le informazioni di un'area di lavoro esistente, ad esempio rinominarla.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,21 @@ Per ulteriori informazioni sui requisiti di accesso, vedere [Requisiti di access
 
 {{step1-to-planning}}
 
+1. (Condizionale) Se sei un amministratore di Workfront, fai clic su **Aree di lavoro personali** per accedere alle aree di lavoro create oppure su **Altre aree di lavoro** per accedere alle aree di lavoro condivise con te. <!--change it to Workspaces I'm on-->
+
 1. Fai clic su una scheda dell’area di lavoro per aprirla.
+
+<!--***********Replace the first step with this:*******
+
+1. (Optional) Click **Show more** to display additional workspaces. The **Show more** link displays only when you have workspaces that display on more than two rows.
+1. (Optional) ClicK **Show less** to limit the number of workspaces that display on the screen. 
+1. To edit a workspace, do one of the following:
+
+   * Hover over the workspace card, then click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the card, then click **Edit**. 
+   * Click a workspace card to open the workspace. 
+   
+   ***********Add (Conditional) If you clicked a workspace card,**********-->
+
 1. Fare clic nel nome dell&#39;area di lavoro nell&#39;intestazione della nuova area di lavoro per rinominarla, quindi premere **Invio**.
 1. Fai clic sul menu **Altro** ![](assets/more-menu.png) a destra del nome dell&#39;area di lavoro nell&#39;intestazione, quindi fai clic su **Modifica**.
 

@@ -6,9 +6,9 @@ description: Il processo di approvazione delle schede orario fornisce ai respons
 author: Alina
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   <tr> 
    <td role="rowheader"><p>Licenza Adobe Workfront*</p></td> 
    <td> <p>Nuovo: Standard</p>
-   <p>Corrente: Piano </p> </td> 
+   <p>Corrente: Piano </p> 
+   <tr> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Accesso amministrativo a schede orario e ore </p> </td> 
+  </tr>
+
+</td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +59,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Designa approvatori scheda orario
 
-In genere, le schede orario vengono approvate da responsabili funzionali o dal personale delle risorse umane. Le schede orario non vengono normalmente approvate dai project manager.
+In genere, le schede orario vengono approvate da responsabili funzionali o dal personale delle risorse umane. Le schede orario in genere non vengono approvate dai project manager. I project manager possono approvare i progetti connessi all&#39;ora, ma i team o i responsabili delle risorse umane devono approvare le schede orario.
 
 Durante la creazione del profilo della scheda orario viene definito un approvatore della scheda orario. È necessario disporre di una licenza Pianificazione per essere designato come approvatore.
 
