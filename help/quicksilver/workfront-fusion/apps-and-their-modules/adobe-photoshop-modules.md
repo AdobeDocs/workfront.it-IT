@@ -9,9 +9,9 @@ description: Con i moduli di Adobe Photoshop, puoi avviare uno scenario Adobe Wo
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
-source-git-commit: 5b2de063836c2cf668e14edfbc5a12f9321d26ca
+source-git-commit: cfd13f8eb422401644f7a1abf54e909218b2e8bf
 workflow-type: tm+mt
-source-wordcount: '3966'
+source-wordcount: '4308'
 ht-degree: 0%
 
 ---
@@ -147,7 +147,7 @@ Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possib
 
 ![](assets/map-toggle-350x74.png)
 
-* [Applicare le modifiche Photoshop](#apply-psd-edits)
+* [Applica modifiche PSD](#apply-psd-edits)
 * [Correzione automatica del colore di un&#39;immagine](#auto-color-correct-an-image)
 * [Converti formato immagine](#convert-image-format)
 * [Creare una maschera](#create-a-mask)
@@ -263,14 +263,14 @@ Questo modulo di azione applica una serie di modifiche a livello di documento e 
     <tr>
       <td role="rowheader">Archiviazione [!UICONTROL (Output)]</td>
       <td>
-        <p>Selezionare il servizio file in cui si desidera memorizzare il nuovo file.</p>
+        <p>Selezionare il servizio file in cui si desidera memorizzare il nuovo file.</p><p>Selezionando l'archiviazione interna di Fusion, il file diventa disponibile per i moduli successivi, ma non al di fuori dello scenario.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>Percorso file [!UICONTROL (Output)]</p>
       </td>
-   <td> Inserisci o mappa l’URL o il percorso in cui verrà memorizzato il nuovo file. </td> 
+   <td> Inserisci o mappa l’URL o il percorso in cui verrà memorizzato il nuovo file. Questa operazione è necessaria solo se per l'archiviazione di output non è stata scelta l'archiviazione interna Fusion.</td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -322,14 +322,14 @@ Il colore automatico di questo modulo di azione corregge l’immagine specificat
     <tr>
       <td role="rowheader">Archiviazione [!UICONTROL (Output)]</td>
       <td>
-        <p>Selezionare il servizio file in cui si desidera memorizzare il nuovo file.</p>
+        <p>Selezionare il servizio file in cui si desidera memorizzare il nuovo file.</p><p>Selezionando l'archiviazione interna di Fusion, il file diventa disponibile per i moduli successivi, ma non al di fuori dello scenario.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>Percorso file [!UICONTROL (Output)]</p>
       </td>
-   <td> Inserisci o mappa l’URL o il percorso in cui verrà memorizzato il nuovo file. </td> 
+   <td> Inserisci o mappa l’URL o il percorso in cui verrà memorizzato il nuovo file. Questa operazione è necessaria solo se per l'archiviazione di output non è stata scelta l'archiviazione interna Fusion.</td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -386,14 +386,14 @@ Questo modulo di azione converte un file in JPEG, PNG, PSD o TIFF.
     <tr>
       <td role="rowheader">Archiviazione [!UICONTROL (Output)]</td>
       <td>
-        <p>Selezionare il servizio file in cui si desidera memorizzare il nuovo file.</p>
+        <p>Selezionare il servizio file in cui si desidera memorizzare il nuovo file.</p><p>Selezionando l'archiviazione interna di Fusion, il file diventa disponibile per i moduli successivi, ma non al di fuori dello scenario.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>Percorso file [!UICONTROL (Output)]</p>
       </td>
-   <td> Inserisci o mappa l’URL o il percorso in cui verrà memorizzato il nuovo file. </td> 
+   <td> Inserisci o mappa l’URL o il percorso in cui verrà memorizzato il nuovo file. Questa operazione è necessaria solo se per l'archiviazione di output non è stata scelta l'archiviazione interna Fusion. </td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -445,14 +445,14 @@ Questo modulo di azione restituisce un file PNG con un albero applicato attorno 
     <tr>
       <td role="rowheader">Archiviazione [!UICONTROL (Output)]</td>
       <td>
-        <p>Selezionare il servizio file in cui si desidera memorizzare il file di maschera.</p>
+        <p>Selezionare il servizio file in cui si desidera memorizzare il file di maschera.</p><p>Selezionando l'archiviazione interna di Fusion, il file diventa disponibile per i moduli successivi, ma non al di fuori dello scenario.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>Percorso file [!UICONTROL (Output)]</p>
       </td>
-   <td> Inserisci o mappa l’URL o il percorso in cui verrà memorizzato il file della maschera. </td> 
+   <td> Inserisci o mappa l’URL o il percorso in cui verrà memorizzato il file della maschera. Questa operazione è necessaria solo se per l'archiviazione di output non è stata scelta l'archiviazione interna Fusion.</td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Overwrite]</td>
@@ -575,6 +575,119 @@ Questo modulo di azione modifica i livelli di testo in un file Photoshop.
    <td> Selezionare il livello di compressione per il file di output. </td> 
     </tr>
   </tbody>
+</table>
+
+
+
+### Eseguire azioni Photoshop (JSON)
+
+Questo modulo di azione esegue azioni Photoshop utilizzando comandi JSON.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>Per istruzioni sulla creazione di una connessione a [!DNL Adobe Photoshop], vedere <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Creare una connessione a [!DNL Adobe Photoshop]</a> in questo articolo.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">Archiviazione [!UICONTROL (Input)]</td>
+      <td>
+        <p>Selezionare il servizio file in cui è memorizzato il file che si desidera modificare.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>Percorso file [!UICONTROL (Input)]</p>
+      </td>
+   <td> Immetti o mappa l’URL o il percorso del file da modificare. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Action JSON]</td>
+      <td>
+        <p>Immetti il comando JSON per l’azione da eseguire.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Tipi di carattere / Motivi / Pennelli / Immagini aggiuntive]</td>
+      <td>
+        <p>Per ogni tipo di carattere, motivo, pennello o immagine aggiuntiva che si desidera utilizzare in questa azione, fare clic su Aggiungi elemento e immettere la posizione di archiviazione e file dell'elemento.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Font / Pattern / URL file pennello]</p>
+      </td>
+   <td> Inserisci o mappa l’URL o il percorso del file che desideri utilizzare. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">Archiviazione file di output di [!UICONTROL]</td>
+      <td>
+        <p>Selezionare il servizio file in cui si desidera memorizzare il file modificato.</p><p>Selezionando l'archiviazione interna di Fusion, il file diventa disponibile per i moduli successivi, ma non al di fuori dello scenario.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL URL file di output]</p>
+      </td>
+   <td> Inserisci o mappa l’URL o il percorso in cui verrà memorizzato il file modificato.  Questa operazione è necessaria solo se per l'archiviazione di output non è stata scelta l'archiviazione interna Fusion.</td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Tipo di file di output]</p>
+      </td>
+   <td> Selezionare il tipo di file per il file modificato. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Overwrite]</td>
+      <td>
+        <p>Seleziona se il file appena modificato sovrascriverà eventuali file di output già esistenti.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Compression]</p>
+      </td>
+   <td> Selezionare il livello di compressione per il file di output. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Output]</td>
+      <td>
+        <p>Per ogni file convertito che si desidera creare, fare clic su Aggiungi elemento e immettere l'archivio, il percorso e il tipo elencati nella tabella.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Archiviazione [!UICONTROL (Output)]</td>
+      <td>
+        <p>Selezionare il servizio file in cui si desidera memorizzare il nuovo file.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>Percorso file [!UICONTROL (Output)]</p>
+      </td>
+   <td> Inserisci o mappa l’URL o il percorso in cui verrà memorizzato il nuovo file. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Output) Type]</p>
+      </td>
+   <td>Selezionare il tipo di file in cui convertire il file. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL (Output) Overwrite]</td>
+      <td>
+        <p>Seleziona se il file appena modificato sovrascriverà eventuali file di output già esistenti. Questo vale solo per i file nell'archivio Adobe.</p>
+      </td>
+    </tr>
+        <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Numero massimo di risultati restituiti]</p>
+      </td>
+   <td>Immettere o mappare il numero massimo di record che il modulo deve restituire durante ogni ciclo di esecuzione dello scenario.</td> 
+    </tr>
+      </tbody>
 </table>
 
 ### Esegui sfocatura profondità
@@ -725,117 +838,6 @@ Questo modulo di azione esegue un’azione Photoshop sull’immagine selezionata
    <td> Selezionare il livello di compressione per il file di output. </td> 
     </tr>
   </tbody>
-</table>
-
-### Eseguire azioni Photoshop (JSON)
-
-Questo modulo di azione esegue azioni Photoshop utilizzando comandi JSON.
-
-<table style="table-layout:auto"> 
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Per istruzioni sulla creazione di una connessione a [!DNL Adobe Photoshop], vedere <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Creare una connessione a [!DNL Adobe Photoshop]</a> in questo articolo.</td>
-    </tr>
-    <tr>
-      <td role="rowheader">Archiviazione [!UICONTROL (Input)]</td>
-      <td>
-        <p>Selezionare il servizio file in cui è memorizzato il file che si desidera modificare.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>Percorso file [!UICONTROL (Input)]</p>
-      </td>
-   <td> Immetti o mappa l’URL o il percorso del file da modificare. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Action JSON]</td>
-      <td>
-        <p>Immetti il comando JSON per l’azione da eseguire.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Tipi di carattere / Motivi / Pennelli / Immagini aggiuntive]</td>
-      <td>
-        <p>Per ogni tipo di carattere, motivo, pennello o immagine aggiuntiva che si desidera utilizzare in questa azione, fare clic su Aggiungi elemento e immettere la posizione di archiviazione e file dell'elemento.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Font / Pattern / URL file pennello]</p>
-      </td>
-   <td> Inserisci o mappa l’URL o il percorso del file che desideri utilizzare. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">Archiviazione file di output di [!UICONTROL]</td>
-      <td>
-        <p>Selezionare il servizio file in cui si desidera memorizzare il file modificato.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL URL file di output]</p>
-      </td>
-   <td> Inserisci o mappa l’URL o il percorso in cui verrà memorizzato il file modificato. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Tipo di file di output]</p>
-      </td>
-   <td> Selezionare il tipo di file per il file modificato. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Overwrite]</td>
-      <td>
-        <p>Seleziona se il file appena modificato sovrascriverà eventuali file di output già esistenti.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Compression]</p>
-      </td>
-   <td> Selezionare il livello di compressione per il file di output. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Output]</td>
-      <td>
-        <p>Per ogni file convertito che si desidera creare, fare clic su Aggiungi elemento e immettere l'archivio, il percorso e il tipo elencati nella tabella.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">Archiviazione [!UICONTROL (Output)]</td>
-      <td>
-        <p>Selezionare il servizio file in cui si desidera memorizzare il nuovo file.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>Percorso file [!UICONTROL (Output)]</p>
-      </td>
-   <td> Inserisci o mappa l’URL o il percorso in cui verrà memorizzato il nuovo file. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL (Output) Type]</p>
-      </td>
-   <td>Selezionare il tipo di file in cui convertire il file. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL (Output) Overwrite]</td>
-      <td>
-        <p>Seleziona se il file appena modificato sovrascriverà eventuali file di output già esistenti. Questo vale solo per i file nell'archivio Adobe.</p>
-      </td>
-    </tr>
-        <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Numero massimo di risultati restituiti]</p>
-      </td>
-   <td>Immettere o mappare il numero massimo di record che il modulo deve restituire durante ogni ciclo di esecuzione dello scenario.</td> 
-    </tr>
-      </tbody>
 </table>
 
 ### Esegui ritaglio prodotto
@@ -1020,14 +1022,14 @@ Questo modulo di azione identifica il soggetto principale dell&#39;immagine e ri
     <tr>
       <td role="rowheader">Archiviazione [!UICONTROL (Output)]</td>
       <td>
-        <p>Selezionare il servizio file in cui si desidera memorizzare il nuovo file.</p>
+        <p>Selezionare il servizio file in cui si desidera memorizzare il nuovo file.</p><p>Selezionando l'archiviazione interna di Fusion, il file diventa disponibile per i moduli successivi, ma non al di fuori dello scenario.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>Percorso file [!UICONTROL (Output)]</p>
       </td>
-   <td> Inserisci o mappa l’URL o il percorso in cui verrà memorizzato il nuovo file. </td> 
+   <td> Inserisci o mappa l’URL o il percorso in cui verrà memorizzato il nuovo file.  Questa operazione è necessaria solo se per l'archiviazione di output non è stata scelta l'archiviazione interna Fusion.</td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Overwrite]</td>
@@ -1115,14 +1117,14 @@ Questo modulo di azione sostituisce un oggetto avanzato all’interno di un live
     <tr>
       <td role="rowheader">Archiviazione [!UICONTROL (Output)]</td>
       <td>
-        <p>Selezionare il servizio file in cui si desidera memorizzare il nuovo file.</p>
+        <p>Selezionare il servizio file in cui si desidera memorizzare il nuovo file.</p><p>Selezionando l'archiviazione interna di Fusion, il file diventa disponibile per i moduli successivi, ma non al di fuori dello scenario.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>Percorso file [!UICONTROL (Output)]</p>
       </td>
-   <td> Inserisci o mappa l’URL o il percorso in cui verrà memorizzato il nuovo file. </td> 
+   <td> Inserisci o mappa l’URL o il percorso in cui verrà memorizzato il nuovo file.  Questa operazione è necessaria solo se per l'archiviazione di output non è stata scelta l'archiviazione interna Fusion.</td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -1162,14 +1164,14 @@ Questa azione ridimensiona un’immagine utilizzando le stesse proporzioni.
     <tr>
       <td role="rowheader">[!UICONTROL Storage]</td>
       <td>
-        <p>Selezionare il servizio file in cui è memorizzato il file da ridimensionare.</p>
+        <p>Selezionare il servizio file in cui è memorizzato il file da ridimensionare.</p><p>Selezionando l'archiviazione interna di Fusion, il file diventa disponibile per i moduli successivi, ma non al di fuori dello scenario.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL Percorso file]</p>
       </td>
-   <td> Immettere o mappare l'URL o il percorso del file da ridimensionare. </td> 
+   <td> Immettere o mappare l'URL o il percorso del file da ridimensionare.  Questa operazione è necessaria solo se per l'archiviazione di output non è stata scelta l'archiviazione interna Fusion.</td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Output]</td>
@@ -1269,18 +1271,17 @@ Questo modulo di azione aggiunge una filigrana all’immagine selezionata.
       </td>
    <td> Immettete o mappate la distanza in pixel dalla parte superiore dell'immagine da applicare alla filigrana.</td> 
     </tr>  
-    </tr>  
     <tr>
       <td role="rowheader">Archiviazione [!UICONTROL (Output)]</td>
       <td>
-        <p>Selezionare il servizio file in cui si desidera memorizzare il file con filigrana.</p>
+        <p>Selezionare il servizio file in cui si desidera memorizzare il file con filigrana.</p><p>Selezionando l'archiviazione interna di Fusion, il file diventa disponibile per i moduli successivi, ma non al di fuori dello scenario.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>Percorso file [!UICONTROL (Output)]</p>
       </td>
-   <td> Immetti o mappa l’URL o il percorso in cui verrà memorizzato il file con filigrana. </td> 
+   <td> Immetti o mappa l’URL o il percorso in cui verrà memorizzato il file con filigrana. Questa operazione è necessaria solo se per l'archiviazione di output non è stata scelta l'archiviazione interna Fusion.</td> 
     </tr>
     <tr>
       <td role="rowheader">
