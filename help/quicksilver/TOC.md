@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: fa6028c04930e2daae7d139ec3863d694484a788
+source-git-commit: 35ec37253655d05a8ce24a5c928b1d5377f7abef
 workflow-type: tm+mt
-source-wordcount: '14294'
+source-wordcount: '14301'
 ht-degree: 1%
 
 ---
@@ -168,6 +168,7 @@ ht-degree: 1%
          * [21.1 Altri miglioramenti](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Attività di rilascio di Adobe Workfront Fusion {#fusion-release}
          * [Attività di rilascio di Adobe Workfront Fusion](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Attività di rilascio di Workfront Fusion: settimana del 5 agosto 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-8-5.md)
          * [Attività di rilascio di Workfront Fusion: settimana del 29 luglio 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-7-29.md)
          * [Attività di rilascio di Workfront Fusion: settimana del 22 luglio 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-7-22.md)
          * [Attività di rilascio di Workfront Fusion: settimana dell&#39;8 luglio 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-7-11.md)
@@ -871,7 +872,7 @@ ht-degree: 1%
       * [Comprendere la navigazione per un utente con licenza Revisione](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
       * [Panoramica delle date di Progetto, Attività e Problema in Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
    * Home {#home}
-      * [Home](workfront-basics/using-home/home.md)
+      * [Pagina Home](workfront-basics/using-home/home.md)
       * Nuova Home {#new-home}
          * [Nuova Home](workfront-basics/using-home/new-home/new-home.md)
          * [Introduzione alla nuova home](workfront-basics/using-home/new-home/get-started-with-new-home.md)
