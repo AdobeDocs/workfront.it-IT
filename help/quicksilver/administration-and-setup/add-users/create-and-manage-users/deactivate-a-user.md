@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: ece0275518169fd67708dce903b8bf46a9ee7b1b
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,8 @@ Puoi riattivare un utente in qualsiasi momento.
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
 
 <table style="table-layout:auto"> 
@@ -72,6 +74,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
++++
+
 ## Prerequisiti
 
 Prima di disattivare un utente con licenza Amministratore Workfront o Standard o Piano, è necessario associare i relativi oggetti e attività a un altro utente.
@@ -90,7 +94,7 @@ Quando disattivi un utente tieni presente quanto segue:
 
 Per disattivare un utente:
 
-1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **Users** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-users}}
 
 1. Seleziona un utente, fai clic sull&#39;icona **Altro** ![](assets/more-icon.png), quindi su **Disattiva**.
 
@@ -104,7 +108,7 @@ Gli amministratori di Workfront e gli utenti con licenza Pianificazione possono 
 
 Per pianificare la disattivazione di un utente:
 
-1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **Users** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-users}}
 
 1. Selezionare il nome dell&#39;utente.
 
@@ -131,7 +135,7 @@ Per pianificare la disattivazione di un utente:
 
 ## Riattivare un utente
 
-1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **Users** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-users}}
 
 1. Selezionare un utente, fare clic sull&#39;icona Altro ![](assets/more-icon.png) e quindi su **Attiva**.
 

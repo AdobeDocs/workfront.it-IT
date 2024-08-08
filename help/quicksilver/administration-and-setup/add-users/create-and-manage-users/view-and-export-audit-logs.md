@@ -1,16 +1,16 @@
 ---
-title: Visualizzare ed esportare i registri di audit
+title: Visualizzare ed esportare i registri di controllo
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Puoi visualizzare tutti i registri di audit nel sistema o quelli che soddisfano determinati criteri di filtro. Puoi anche esportare i registri di audit. I registri di controllo elencano le modifiche utente attivate nel sistema negli ultimi 90 giorni.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ Per informazioni su tutti i tipi di log di controllo e su ciò che li genera, ve
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
 
 <table style="table-layout:auto"> 
@@ -46,9 +48,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
++++
+
 ## Visualizzare i registri di audit
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su **Sistema > Registri di controllo**.
 1. Nel menu a discesa **Tipo di registro**, selezionare il tipo di registro di controllo che si desidera visualizzare.
@@ -70,7 +74,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Esportare i registri di audit
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su **Sistema > Registri di controllo**.
 

@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-title: Aggiungi utenti
+title: Aggiungi Utenti
 description: In qualità di amministratore di Workfront o di utente con accesso amministrativo completo, puoi aggiungere utenti in Workfront.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1157'
 ht-degree: 1%
 
 ---
@@ -40,6 +40,8 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
 
 <table style="table-layout:auto"> 
@@ -67,6 +69,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Prerequisiti
 
 Prima di aggiungere un utente, raccogliere le informazioni sull&#39;utente elencate di seguito e determinare quali informazioni si desidera associare all&#39;utente:
@@ -93,7 +97,7 @@ Prima di aggiungere un utente, raccogliere le informazioni sull&#39;utente elenc
 
 ## Creare un utente da zero
 
-1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **Users** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-users}}
 
 1. Fare clic su **Nuovo utente > Nuovo utente** per aggiungere un utente non ancora aggiunto a Workfront.
 
@@ -145,7 +149,8 @@ Quando si crea un utente in questo modo, tutte le informazioni vengono copiate d
 
 Per creare un nuovo utente copiandone uno esistente:
 
-1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **Users** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-users}}
+
 1. Selezionare l&#39;utente da copiare, quindi fare clic sull&#39;icona Copia ![](assets/copy-icon.png).
 1. Nella casella **Copia utente** visualizzata, modificare i campi disponibili per il nuovo utente.
 

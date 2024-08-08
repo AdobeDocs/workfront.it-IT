@@ -4,14 +4,14 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Modificare la password per un utente con provisioning automatico
-description: Spesso, quando un nuovo utente tenta di modificare la propria password temporanea, immette il proprio indirizzo e-mail e riceve un errore in caso di nome utente errato. Devono immettere il nome utente assegnato dal sistema, ovvero il GUID (Globally Unique Identifier). Poiché un GUID è difficile da ricordare e utilizzare, si consiglia di modificare il nome utente di un nuovo utente con il proprio indirizzo di posta elettronica Workfront, quindi di consentire la modifica della password.
-author: Caroline
+description: È consigliabile modificare il nome utente di un nuovo utente con il proprio indirizzo di posta Workfront, quindi consentire agli utenti di modificare la password.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 14124911-e5e1-4a4f-9b25-8b4fab0329e1
-source-git-commit: 7bd3d2252b124a07a112aaa2b7798063087e7cab
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,8 @@ Poiché i nomi utente GUID possono essere difficili da utilizzare, si consiglia 
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
@@ -61,6 +63,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Modificare la password per un utente con provisioning automatico
 

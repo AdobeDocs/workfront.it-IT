@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Puoi verificare la frequenza con cui gli utenti accedono a Workfront, nonché l’ultima volta che hanno effettuato l’accesso, indicando che desideri includere queste informazioni nella visualizzazione di un elenco di utenti o in un rapporto per gli utenti.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '582'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 1%
 Puoi vedere con quale frequenza gli utenti accedono ad Adobe Workfront, nonché l’ultima volta che hanno effettuato l’accesso, indicando che desideri includere queste informazioni nella visualizzazione di un elenco di utenti o in un rapporto per gli utenti.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
 
@@ -45,6 +47,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Registrazione delle informazioni di accesso in Workfront
 
