@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: b2c5990c1ec1656c44c0621e854adf54b6bc19a3
+source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
 workflow-type: tm+mt
 source-wordcount: '5529'
 ht-degree: 5%
@@ -552,7 +552,7 @@ Per aggiungere campi di tipo typeahead e date:
 
 Un campo di ricerca esterno richiama un’API esterna e restituisce i valori come opzioni in un campo a discesa. Gli utenti che utilizzano l’oggetto a cui è associato il modulo personalizzato possono selezionare una o più di queste opzioni dal menu a discesa. Il campo di ricerca esterno è disponibile anche in elenchi e rapporti.
 
-Per esempi sull&#39;utilizzo del campo di ricerca esterna per chiamare la stessa istanza di Workfront o un&#39;API pubblica, vedere [Esempi del campo di ricerca esterna in un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
+Per esempi di utilizzo del campo di ricerca esterna per chiamare la stessa istanza di Workfront o un&#39;API pubblica, vedere [Esempi di campo di ricerca esterna in un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
 
 >[!NOTE]
 >
@@ -598,7 +598,7 @@ Per aggiungere una ricerca esterna:
       <li><p>$$QUERY - Rappresenta il testo di ricerca digitato dall'utente finale nel campo e consente di implementare il filtro delle query per gli utenti finali. L’utente cercherà il valore nel menu a discesa.</p>
       <p>Se l’API a cui stai facendo riferimento lo consente, puoi anche includere modificatori nella query di ricerca per identificare come dovrebbe funzionare la ricerca. È possibile, ad esempio, utilizzare quanto segue come URL API di base per consentire agli utenti di cercare qualsiasi progetto Workfront contenente testo specifico: <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>.</p><p>Ulteriori informazioni sui modificatori di ricerca Workfront in <a href="/help/quicksilver/wf-api/general/api-basics.md">Nozioni di base sulle API</a>.</p>
       <p><strong>NOTA:</strong> se non si utilizza $$QUERY e l'utente digita del testo nella casella di ricerca, le scelte già disponibili verranno limitate. Tuttavia, se utilizzi $$QUERY e l’utente digita qualsiasi cosa, viene eseguita una nuova chiamata di rete all’API. Pertanto, se nell’API sono presenti più di 2.000 valori e l’API supporta l’esecuzione di query, puoi utilizzare $$QUERY per eseguire ricerche non solo dai valori esistenti del 2.000, ma dall’API originale con le opzioni ridotte.</p></li>
-      <li><p>{fieldName} - Dove fieldName è un campo personalizzato o nativo in Workfront. In questo modo puoi implementare i filtri delle opzioni a discesa a cascata, quando trasmetti il valore di un campo già selezionato al campo Ricerca esterna per filtrare le opzioni. Ad esempio, il campo Regione esiste già nel modulo e stai restringendo un elenco di paesi dall’API a quelli che si trovano in un’area specifica.</p>
+      <li><p>{fieldName} - Dove fieldName è un campo personalizzato o nativo in Workfront. In questo modo puoi implementare i filtri delle opzioni a discesa a cascata, quando trasmetti il valore di un campo già selezionato al campo di ricerca Esterna per filtrare le opzioni. Ad esempio, il campo Regione esiste già nel modulo e stai restringendo un elenco di paesi dall’API a quelli che si trovano in un’area specifica.</p>
       <p>Per un campo di ricerca esterno che ha una dipendenza da altri campi (utilizzando la sintassi {fieldName}), le opzioni restituite dall'API sono limitate a quelle che corrispondono a eventuali stringhe o valori immessi negli altri campi. Questa funzionalità non è supportata negli elenchi e nei report.</p></li>
       <li>{referenceObject}.{fieldName} - Dove il campo fa parte di un oggetto. Questa sintassi è simile alle espressioni personalizzate. Ad esempio, portfolioID={project}.{portfolioID})</li></ul>
       <p><strong>NOTA:</strong> consulta la documentazione dell'API con cui stai lavorando per le query specifiche che puoi definire.</p></td>

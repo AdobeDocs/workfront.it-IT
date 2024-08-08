@@ -5,18 +5,14 @@ description: È possibile visualizzare elenchi di oggetti in [!DNL Adobe Workfro
 feature: Get Started with Workfront
 author: Lisa
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7d43486ca566ae044fac1bbe20874bb45f833ef7
 workflow-type: tm+mt
-source-wordcount: '2398'
+source-wordcount: '2388'
 ht-degree: 0%
 
 ---
 
 # Introduzione agli elenchi in [!DNL Adobe Workfront]
-
-<!--
-{{highlighted-preview}}
--->
 
 È possibile visualizzare elenchi di oggetti in [!DNL Adobe Workfront] per ottenere informazioni su di essi, ad esempio le date di inizio e di scadenza, gli utenti assegnati e altri oggetti associati.
 
@@ -208,12 +204,10 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti disponibili in [!DNL
     </ul> </td> 
   </tr>
   <tr> 
-   <td class="preview">Elenco dei moduli personalizzati</td> 
+   <td>Elenco dei moduli personalizzati</td> 
    <td> 
     <ul> 
-     <li class="preview"> <p>[!UICONTROL Setup] &gt;[!UICONTROL Custom Forms]</p>
-     <!--Remove the following note box when this goes to Production. Or do this when the Preview highlighting becomes available.-->
-     <p><b>NOTA</b>: attualmente disponibile solo nell'ambiente di anteprima</p> </li> 
+     <li>[!UICONTROL Setup] &gt;[!UICONTROL Custom Forms] </li> 
     </ul> </td> 
   </tr> 
   <tr> 

@@ -1,31 +1,31 @@
 ---
-title: Esempi di campo di ricerca esterna in un modulo personalizzato
+title: Esempi di campo di ricerca esterno in un modulo personalizzato
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: Un campo di ricerca esterna in un modulo personalizzato chiama un’API esterna e restituisce i valori come opzioni in un campo a discesa. Questo articolo fornisce esempi sull’utilizzo del campo Ricerca esterna per richiamare la stessa istanza di Workfront o un’API pubblica.
+description: Un campo di ricerca esterno in un modulo personalizzato chiama un’API esterna e restituisce i valori come opzioni in un campo a discesa. Questo articolo fornisce esempi di utilizzo del campo di ricerca esterna per chiamare la stessa istanza di Workfront o un’API pubblica.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 94957250387012738f2ef4c80864d51bdc2d792f
+source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
 
 # Esempi di campo di ricerca esterna in un modulo personalizzato
 
-Un campo di ricerca esterna in un modulo personalizzato chiama un’API esterna e restituisce i valori come opzioni in un campo a discesa. Gli utenti che utilizzano l’oggetto a cui è associato il modulo personalizzato possono selezionare una o più di queste opzioni dal menu a discesa.
+Un campo di ricerca esterno in un modulo personalizzato chiama un’API esterna e restituisce i valori come opzioni in un campo a discesa. Gli utenti che utilizzano l’oggetto a cui è associato il modulo personalizzato possono selezionare una o più di queste opzioni dal menu a discesa.
 
-Questo articolo fornisce esempi sull’utilizzo del campo Ricerca esterna per richiamare la stessa istanza di Workfront o un’API pubblica. È inoltre possibile utilizzare la funzione di ricerca esterna per comunicare con un sistema esterno come Jira, Salesforce o ServiceNow.
+Questo articolo fornisce esempi di utilizzo del campo di ricerca esterna per chiamare la stessa istanza di Workfront o un’API pubblica. È inoltre possibile utilizzare la funzione di ricerca esterna per comunicare con un sistema esterno come Jira, Salesforce o ServiceNow.
 
 Per ulteriori informazioni sull&#39;aggiunta di un campo di ricerca esterna a un modulo personalizzato e ulteriori definizioni dei componenti di ricerca esterni, vedere [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-## Impostare un campo di ricerca esterna per la stessa istanza di Workfront
+## Configurare un campo di ricerca esterna per la stessa istanza di Workfront
 
-Puoi utilizzare la funzione di ricerca esterna per inserire nel modulo personalizzato i dati dell’istanza di Workfront.
+È possibile utilizzare la funzione di ricerca esterna per inserire nel modulo personalizzato i dati dell’istanza di Workfront.
 
 ### Utilizzare i valori dei campi nativi di Workfront nella ricerca esterna
 
@@ -74,7 +74,7 @@ Questo esempio mostra come chiamare l’API Workfront e inserire i dati dal camp
 
 ### Utilizzare i valori dei campi personalizzati nella ricerca esterna
 
-Questo esempio mostra come chiamare l’API Workfront e inserire i dati da un campo personalizzato nel campo di ricerca esterna. Il campo personalizzato di esempio è denominato &quot;Colori personalizzati&quot;.
+Questo esempio mostra come chiamare l’API Workfront e inserire i dati da un campo personalizzato nel campo di ricerca esterno. Il campo personalizzato di esempio è denominato &quot;Colori personalizzati&quot;.
 
 1. Apri il modulo personalizzato.
 1. Nella parte sinistra dello schermo, trovare **Ricerca esterna** e trascinarlo in una sezione dell&#39;area di lavoro.
@@ -107,11 +107,11 @@ Questo esempio mostra come chiamare l’API Workfront e inserire i dati da un ca
 
 1. Fare clic su **Applica**.
 
-   Quando il modulo personalizzato viene aggiunto a un oggetto Workfront, tutti i valori nel campo &quot;Colori combinati&quot; vengono visualizzati nel menu a discesa del campo di ricerca esterna.
+   Quando il modulo personalizzato viene aggiunto a un oggetto Workfront, tutti i valori nel campo &quot;Colori combinati&quot; vengono visualizzati nel menu a discesa del campo di ricerca Esterno.
 
 ## Configurare un campo di ricerca esterno per un’API pubblica
 
-Puoi utilizzare la funzione di ricerca esterna per richiamare un’API pubblica esterna e recuperare dati.
+Puoi utilizzare la Ricerca esterna per richiamare un’API pubblica esterna e recuperare dati.
 
 Questo esempio mostra come chiamare un&#39;API di paesi (ad esempio <https://api.first.org/data/v1/countries>) in modo da non dover codificare tutti i nomi dei paesi nelle opzioni a discesa.
 
@@ -131,7 +131,7 @@ Elenca tutti i paesi: <https://api.first.org/data/v1/countries>
    Consente all&#39;utente di cercare un paese in un&#39;area geografica: <https://api.first.org/data/v1/countries?region={DE:Region}&q=$$QUERY>
 
    * Le aree disponibili sono definite in un campo personalizzato separato in Workfront.
-   * Quando l’utente seleziona un’area nel modulo, il campo Ricerca esterna mostra solo i paesi di tale area (quale paese si trova in quale area è definita nell’API). L’utente può anche cercare un paese nell’area selezionata.
+   * Quando l’utente seleziona un’area nel modulo, il campo di ricerca Esterna mostra solo i paesi di tale area (quale paese si trova in quale area è definita nell’API). L’utente può anche cercare un paese nell’area selezionata.
 
 1. Rivedi **Dipendenze** per i campi a cui fa riferimento il campo di ricerca nell&#39;API.
 
@@ -167,3 +167,23 @@ Elenca tutti i paesi: <https://api.first.org/data/v1/countries>
    ![Modulo personalizzato con campo di ricerca esterno](assets/external-lookup-countries-example1.png)
 
    ![Opzioni di ricerca esterna per un paese basato su regione](assets/external-lookup-countries-example2.png)
+
+## Casi d’uso aggiuntivi per campi di ricerca esterni
+
+Esistono molti altri casi d’uso per la creazione di una ricerca esterna.
+
+**Caso d&#39;uso:** Sostituisci i campi typeahead perché possono causare problemi con il reporting.
+**Soluzione:** Utilizzare una chiamata API per gli oggetti esistenti nel sistema.
+
+Esempio di URL API di base per i modelli, per sostituire un campo typeahead:
+`$$HOST/attask/api/v17.0/tmpl/search?isActive=true&name_Sort=asc`
+
+**Caso d&#39;uso:** crea campi a discesa con altre funzionalità (ad esempio, il campo di ricerca Esterna contiene il ritorno a capo automatico).
+**Soluzione:** utilizzare una chiamata API a oggetti esistenti nel sistema oppure creare un nuovo oggetto e utilizzare una chiamata API a questo oggetto.
+
+**Caso d&#39;uso:** Definisci un modo per gli utenti di mantenere i propri campi al di fuori dell&#39;area dei moduli personalizzati. Imposta il campo di ricerca Esterna e puoi assegnare agli utenti gli oggetti che lo compongono. Questa opzione è adatta per i campi e i team di manutenzione elevati.
+**Soluzione:** creare un nuovo oggetto e utilizzare una chiamata API a questo oggetto.
+
+**Caso d&#39;uso:** integrazione con oggetti esterni a Workfront. Ad esempio, accedere a un altro sistema per ottenere il nome di ogni utente, anziché essere limitati in un campo typeahead.
+**Soluzione:** automazione webhook/Fusion per la connessione ad altri sistemi.
+
