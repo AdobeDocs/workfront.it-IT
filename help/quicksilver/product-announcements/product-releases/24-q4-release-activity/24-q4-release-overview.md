@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
+source-git-commit: 7fc250f40860e52e49a333e3ccf120f35438e14c
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '835'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
 ## Miglioramenti di Adobe Workfront
 
 * [Miglioramenti al progetto](#project-enhancements)
+* [Miglioramenti dell’integrazione](#integration-enhancements)
 * [Altri miglioramenti](#other-enhancements)
 
 ### Miglioramenti al progetto
@@ -95,6 +96,42 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                 </tr>
            </tbody>
         </table>
+
+### Miglioramenti dell’integrazione
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funzionalità</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Date di rilascio</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Miglioramenti dell'esperienza di accesso all'integrazione di Outlook</a></p>
+                        <p>L’esperienza di accesso per l’integrazione con Outlook è stata semplificata: tutti i clienti possono visualizzare lo stesso pulsante per accedere a Workfront, indipendentemente dal fatto che siano abilitati IMS. I passaggi di accesso successivi rimangono diversi per le istanze IMS e non IMS, ma la pagina iniziale è la stessa per tutti gli utenti.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 6 agosto 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Versione di produzione per tutti i clienti: 6 agosto 2024</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
 
 ### Altri miglioramenti
 
