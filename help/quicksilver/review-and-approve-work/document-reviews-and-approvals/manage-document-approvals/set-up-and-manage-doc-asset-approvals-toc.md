@@ -7,13 +7,13 @@ description: Questa sezione contiene articoli sulla gestione delle approvazioni 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 66f3b53a06147d531e5e700857ca88219c2d4109
+exl-id: 242910b9-f251-49c3-a6ad-de3039bdd2f5
+source-git-commit: 4fbeeffc48d47e04c00d9695b346cbed2633748e
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
-
 
 # Impostare e gestire le approvazioni di risorse e documenti: indice articoli
 
@@ -25,3 +25,4 @@ Questa sezione contiene i seguenti articoli:
 * [Rimuovere approvatori o revisori da una risorsa o da un documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
 * [Creare un modello di approvazione per risorse e documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
 * [Aggiungere una risorsa Frame.io a un progetto Workfront connesso](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
+* [Utilizzare insieme nuove approvazioni di documenti e prove](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
