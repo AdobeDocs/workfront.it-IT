@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
-title: Configurare il elenco Consentiti di protezione del firewall
+title: Configurare il Inserisco nell'elenco Consentiti di installazione del firewall
 description: Se il firewall o il server di posta è configurato in modo da consentire l'accesso solo a determinati fornitori, è necessario aggiungere determinati indirizzi IP al relativo inserisco nell'elenco Consentiti di posta elettronica. In questo modo si apre la comunicazione tra l'ambiente e i server Adobe Workfront e si consente agli utenti di inviare messaggi da Workfront e di utilizzare l'SSO con Active Directory o LDAP.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,8 @@ Gli indirizzi IP da aggiungere al elenco Consentiti di produzione dipendono dal 
 
 Per individuare il cluster dell&#39;organizzazione:
 
-1. In qualità di amministratore di Workfront, fai clic sull&#39;icona **Main Menu** ![Main Menu](assets/main-menu-icon.png), quindi fai clic su **Setup**.
+{{step-1-to-setup}}
+
 1. Nel menu di navigazione a sinistra, fai clic su **Sistema**, quindi seleziona **Informazioni cliente**.
 1. Individua il campo **Cluster Setup** nell&#39;angolo superiore destro della pagina. Il cluster della tua organizzazione è elencato qui.
 

@@ -4,13 +4,13 @@ product-area: system-administration;projects;setup
 navigation-topic: configure-system-defaults
 title: Configurare i ricalcoli della sequenza temporale per i progetti
 description: Il ricalcolo delle sequenze temporali consente ai responsabili di vedere in che modo forze esterne al progetto influiscono sulla sequenza temporale del progetto. La sequenza temporale di un progetto si riferisce alle date pianificate e previste per il progetto.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 67028988-6ac3-48d4-957e-1b5202d33c48
-source-git-commit: 4705c3fc76c1544f8c71e70a773432f164282abb
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ In qualità di amministratore [!DNL Adobe Workfront], puoi ricalcolare manualmen
 Questo articolo descrive come l&#39;amministratore di [!DNL Workfront] può determinare come e quando [!DNL Workfront] calcola automaticamente le sequenze temporali del progetto configurando le preferenze del progetto nell&#39;area [!UICONTROL Configurazione].
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
 
@@ -46,11 +48,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
++++
+
 ## Configurare i ricalcoli automatici
 
 In qualità di amministratore [!DNL Adobe Workfront], puoi configurare quando [!DNL Workfront] ricalcola automaticamente le timeline del progetto. [!DNL Workfront] può ricalcolare le sequenze temporali del progetto ogni notte o quando l&#39;ambito del progetto cambia, o entrambe.
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro o sull&#39;icona ![](assets/lines-main-menu.png) del [!UICONTROL **menu principale**] nell&#39;angolo superiore sinistro di [!DNL Workfront], se disponibile, quindi fai clic su **[!UICONTROL Configurazione]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Fai clic su **[!UICONTROL Preferenze progetto]** > **[!UICONTROL Progetti].**
 

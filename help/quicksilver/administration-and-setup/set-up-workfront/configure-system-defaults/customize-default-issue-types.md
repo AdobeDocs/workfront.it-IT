@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: Personalizzare i tipi di problemi predefiniti
+title: Personalizza tipi di problemi predefiniti
 description: Puoi personalizzare le etichette per ogni tipo di problema predefinito in modo che corrispondano meglio alla terminologia utilizzata nell’organizzazione. I tipi di problema sono utili per personalizzare gli stati dei problemi e creare code di richieste.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: caed65ab-a787-437b-9f5f-b3d4135bb980
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,8 @@ I tipi di problema sono utili nelle seguenti circostanze:
 Puoi personalizzare le etichette per ogni tipo di problema predefinito in modo che corrispondano meglio alla terminologia utilizzata nell’organizzazione.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -46,6 +48,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Tipi di problemi predefiniti
 
@@ -70,7 +74,7 @@ Considera quanto segue sulla personalizzazione dei tipi di problema:
 
 Per personalizzare un tipo di problema:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Configurazione]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Fai clic su **[!UICONTROL Preferenze progetto]** > **[!UICONTROL Stati]**.
 

@@ -4,13 +4,13 @@ product-area: system-administration;setup
 navigation-topic: configure-system-defaults
 title: Configurare i tipi di richiesta
 description: Quando lavori a un progetto, potresti scoprire che si verificano eventi imprevisti. È possibile registrare tali eventi imprevisti come problemi per un progetto o un'attività particolare. Puoi anche inviare richieste, che vengono registrate come problemi in un progetto designato come coda di richieste. I problemi e le richieste sono considerati intercambiabili in Adobe Workfront.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Quando lavori a un progetto, potresti scoprire che si verificano eventi imprevis
 Per informazioni sulla creazione di problemi in [!DNL Workfront], vedi [Crea problemi](../../../manage-work/issues/manage-issues/create-issues.md). Per informazioni sulla creazione di richieste in [!DNL Workfront], vedere [Creare e inviare [!DNL Adobe Workfront] richieste](../../../manage-work/requests/create-requests/create-submit-requests.md). Per informazioni sull&#39;associazione dei tipi di richiesta ai progetti, vedere [Definire i tipi di richiesta per un progetto](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md).
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -43,6 +45,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
  </tbody> 
 </table>
+
++++
 
 <!--
 THIS IS DRAFTED IN FLARE
@@ -77,7 +81,7 @@ In qualità di amministratore [!DNL Workfront], puoi configurare i nomi dei tipi
 
 Per personalizzare i nomi dei tipi di richiesta:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Configurazione]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Fai clic su **[!UICONTROL Preferenze progetto]** > **[!UICONTROL Stati]**.
 

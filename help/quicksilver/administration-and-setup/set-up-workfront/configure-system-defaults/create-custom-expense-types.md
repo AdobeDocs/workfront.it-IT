@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
-title: Creare tipi di spesa personalizzati
+title: Crea Tipi di Spesa Personalizzati
 description: In qualità di amministratore  [!DNL Adobe Workfront] , puoi creare tipi di spesa personalizzati per definire e tenere traccia delle spese associate alle attività e ai progetti. Le spese sono costi non di manodopera che possono essere associati ad attività o progetti.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '431'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,8 @@ In qualità di amministratore [!DNL Adobe Workfront], puoi creare tipi di spesa 
 Puoi modificare o eliminare qualsiasi tipo di spesa creato. Impossibile eliminare o modificare i tipi di spesa [!DNL Workfront] predefiniti.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -46,6 +48,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
++++
+
 ## Tipi di spesa predefiniti
 
 I Tipi di Spesa che sono in [!DNL Workfront] per impostazione predefinita non possono essere eliminati o modificati includono:
@@ -59,7 +63,8 @@ I Tipi di Spesa che sono in [!DNL Workfront] per impostazione predefinita non po
 
 ## Creare tipi di spesa personalizzati
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront].
+{{step-1-to-setup}}
+
 1. Fare clic su **[!UICONTROL Tipi di spesa]**.
 1. Fare clic su **[!UICONTROL Nuovo tipo di spesa]**.
 1. Nella casella **[!UICONTROL Nuovo tipo di spesa]** visualizzata, specifica le seguenti informazioni:
@@ -90,7 +95,7 @@ I Tipi di Spesa che sono in [!DNL Workfront] per impostazione predefinita non po
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Trfa</td> 
+      <td role="rowheader">Tariffa</td> 
       <td> <p>Specifica il prezzo unitario. Questo campo è formattato come valuta e rappresenta il costo di ogni unità stabilita nel campo <strong>[!UICONTROL Unità calcolata]</strong>. </p> <p>Il tasso può contenere un valore numerico con un massimo di 4 numeri dopo il decimale. Ad esempio, 1,0375</p> </td> 
      </tr> 
     </tbody> 
@@ -101,7 +106,8 @@ I Tipi di Spesa che sono in [!DNL Workfront] per impostazione predefinita non po
 
 ## Modifica tipi di spesa personalizzati
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront].
+{{step-1-to-setup}}
+
 1. Fare clic su **[!UICONTROL Tipi di spesa]**.
 1. Selezionare il tipo di spesa da modificare, quindi fare clic su **[!UICONTROL Modifica]**.
 

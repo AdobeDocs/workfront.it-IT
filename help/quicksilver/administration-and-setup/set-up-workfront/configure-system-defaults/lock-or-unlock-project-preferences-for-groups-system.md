@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f5a94eaf-ebb8-424b-80ff-ba40cc985a6e
-source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ I gruppi dell’organizzazione potrebbero aver bisogno di una preferenza di prog
 Quando una preferenza viene sbloccata e l&#39;amministratore del gruppo la modifica, i progetti associati al gruppo acquisiscono la configurazione per tale preferenza dall&#39;impostazione a livello di gruppo anziché dall&#39;impostazione a livello di sistema.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -44,6 +46,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
++++
+
 ## Preferenze bloccate e sbloccate
 
 Il blocco di un progetto, di un’attività o di una preferenza di problema configurato a livello di sistema garantisce che tutti utilizzino la stessa impostazione per tale preferenza. Sebbene sia ancora possibile riconfigurare una preferenza bloccata, gli amministratori dei gruppi non possono riconfigurarla per i propri gruppi.
@@ -60,7 +64,7 @@ Per istruzioni su come bloccare o sbloccare un progetto, un&#39;attività o una 
 
 ## Sbloccare una preferenza di progetto in modo che i gruppi possano configurarla
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Configurazione]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Fai clic su **[!UICONTROL Preferenze progetto]**, quindi su **[!UICONTROL Progetti]**.
 

@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
-title: Modificare e creare tipi di rischio
+title: Modifica e crea tipi di rischio
 description: È possibile aggiungere rischi a un progetto nella fase di pianificazione per identificare potenziali ostacoli prima dell'approvazione di qualsiasi lavoro. I rischi sono eventi possibili che potrebbero impedire il completamento del progetto nei tempi previsti o entro i limiti del budget.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 È possibile aggiungere rischi a un progetto nella fase di pianificazione per identificare potenziali ostacoli prima dell&#39;approvazione di qualsiasi lavoro. I rischi sono eventi possibili che potrebbero impedire il completamento del progetto nei tempi previsti o entro i limiti del budget.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -44,6 +46,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
++++
+
 ## Tipi di rischi
 
 I tipi di rischio sono etichette che è possibile utilizzare per i rischi per classificarli a scopo di reporting. Vengono creati nell&#39;area **[!UICONTROL Configurazione]** dall&#39;amministratore [!DNL Adobe Workfront]. Una volta stabiliti i tipi di rischio nell&#39;area **[!UICONTROL Configurazione]**, questi saranno universali per il sistema. Tutti i proprietari dei progetti possono utilizzare gli stessi tipi di rischio per i loro progetti.
@@ -57,7 +61,7 @@ Per impostazione predefinita, alcuni tipi di rischio sono già in [!DNL Workfron
 
 ### Modifica tipi di rischio esistenti {#edit-existing-risk-types}
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Configurazione]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Fare clic su **[!UICONTROL Tipi di rischio]**.
 1. Seleziona il tipo di rischio da modificare.
@@ -74,7 +78,7 @@ Per impostazione predefinita, alcuni tipi di rischio sono già in [!DNL Workfron
 
 Per creare un nuovo tipo di rischio:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Configurazione]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Fare clic su **[!UICONTROL Tipi di rischio]**.
 1. Fare clic su **[!UICONTROL Nuovo tipo di rischio]**.

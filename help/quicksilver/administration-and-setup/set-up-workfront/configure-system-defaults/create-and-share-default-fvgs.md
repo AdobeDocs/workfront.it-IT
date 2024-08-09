@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Creare, modificare e condividere filtri, viste e raggruppamenti predefiniti
 description: Puoi creare filtri, viste e raggruppamenti predefiniti, quindi renderli disponibili agli utenti dell’organizzazione.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '831'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Puoi creare filtri, viste e raggruppamenti predefiniti, quindi renderli disponib
 Quando crei filtri, viste e raggruppamenti predefiniti come descritto in questo articolo, gli utenti con cui li condividi possono sfruttarli durante la visualizzazione dei loro elenchi. Gli utenti possono creare filtri, viste e raggruppamenti personalizzati in base a quelli creati, ma non possono modificare direttamente quelli creati.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -47,6 +49,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Creare filtri, viste o raggruppamenti predefiniti
 
