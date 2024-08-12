@@ -9,9 +9,9 @@ description: Puoi utilizzare il connettore Adobe Workfront Fusion Adobe Workfron
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: f8abe5240f163693c30dc1bd6cf77e4cad5ea476
+source-git-commit: 7c00ea85b4a03346cdb39c937a1cef970d409ef0
 workflow-type: tm+mt
-source-wordcount: '6259'
+source-wordcount: '6280'
 ht-degree: 2%
 
 ---
@@ -147,7 +147,8 @@ Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possib
 
 >[!NOTE]
 >
->Se non trovi i campi più aggiornati in un modulo Workfront, potrebbe trattarsi di un problema di caching. Attendi un’ora e riprova.
+>* Se non trovi i campi più aggiornati in un modulo Workfront, potrebbe trattarsi di un problema di caching. Attendi un’ora e riprova.
+>* I codici di stato HTTP 429 di Adobe Workfront non dovrebbero causare disattivazioni, ma attivare invece una breve pausa di esecuzione nello scenario.
 
 ![](assets/map-toggle-350x74.png)
 
@@ -1019,7 +1020,7 @@ Visualizzare un elenco dei tipi di oggetto [!DNL Workfront] per i quali è possi
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Tipo di Spesa</td> 
+   <td>Tipo di spesa</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -1336,7 +1337,7 @@ Visualizzare un elenco dei tipi di oggetto [!DNL Workfront] per i quali è possi
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Tipo di Spesa</td> 
+   <td>Tipo di spesa</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -1680,7 +1681,7 @@ Visualizzare un elenco dei tipi di oggetto [!DNL Workfront] per i quali è possi
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Tipo di Spesa</td> 
+   <td>Tipo di spesa</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
