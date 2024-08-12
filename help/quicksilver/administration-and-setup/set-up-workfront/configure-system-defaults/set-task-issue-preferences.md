@@ -118,7 +118,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader" [!UICONTROL>Quando si converte un problema in un'attività]</td> 
+    <td role="rowheader">[!UICONTROL Quando si converte un problema in un'attività]</td> 
     <td> <p>Le impostazioni in questa sezione determinano cosa accade durante il processo di conversione da un problema all’altro:</p> 
       <ul> 
       <li> <p><strong>[!UICONTROL Mantieni il problema originale e collegane la risoluzione all'attività]</strong>: durante la conversione del problema, questo rimane visibile come problema fino al completamento dell'attività. Lo stato del problema cambia automaticamente in [!UICONTROL Closed] al completamento dell'attività. Se questa opzione è deselezionata, il problema viene eliminato.</p> <p><b>NOTA</b>:  <p>Gli utenti che non dispongono dell’accesso o delle autorizzazioni necessarie per eliminare un problema non potranno eliminarlo mentre lo stanno convertendo, indipendentemente dallo stato di questa impostazione. Per informazioni sull’accesso e le autorizzazioni per i problemi, consulta:</p> 
