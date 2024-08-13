@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c6d33d5d-da93-4aba-8897-f177c1171595
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 58%
+source-wordcount: '292'
+ht-degree: 56%
 
 ---
 
@@ -22,6 +22,8 @@ I modelli layout dell’esperienza Workfront classica non sono più disponibili 
 È possibile risolvere queste incoerenze eliminando i modelli di layout Classic. Poiché non sono disponibili nell’interfaccia di Workfront, per eliminarle utilizza l’API Workfront.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -43,6 +45,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Eliminare i modelli di layout classici utilizzando una chiamata API
 

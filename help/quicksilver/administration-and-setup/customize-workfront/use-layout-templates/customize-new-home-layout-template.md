@@ -1,5 +1,5 @@
 ---
-title: Personalizzare la nuova Home utilizzando un modello di layout
+title: Personalizzare la nuova home utilizzando un modello di layout
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: c915c282c6258300b01600dd5b6247e96bf45185
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '840'
 ht-degree: 1%
 
 ---
@@ -41,6 +41,8 @@ Dopo aver configurato un modello di layout, è necessario assegnarlo agli utenti
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
@@ -62,6 +64,8 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Personalizzare la nuova Home utilizzando un modello di layout
 

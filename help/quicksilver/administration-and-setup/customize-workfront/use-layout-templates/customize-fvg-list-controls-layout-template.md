@@ -1,5 +1,5 @@
 ---
-title: Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout
+title: Personalizzare filtri, viste e raggruppamenti utilizzando un modello di layout
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Per informazioni sui modelli di layout per i gruppi, vedere [Creare e modificare
 Dopo aver configurato un modello di layout, è necessario assegnarlo agli utenti affinché le modifiche apportate siano visibili agli altri utenti. Per informazioni sull&#39;assegnazione di un modello di layout agli utenti, vedere [Assegnare gli utenti a un modello di layout](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -50,6 +52,8 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Personalizzare i controlli Filtro, Visualizza e Raggruppamento:
 

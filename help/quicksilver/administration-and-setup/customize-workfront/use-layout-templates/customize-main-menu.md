@@ -8,7 +8,7 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 4%
@@ -72,7 +72,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Fare clic su **Imposta menu principale** nell&#39;angolo superiore destro del modello.
 
    Viene visualizzata la casella Main Menu (Menu principale) che consente di visualizzare le aree attualmente visualizzate nel Main Menu (Menu principale) del modello, nonché gli elementi disponibili per l&#39;aggiunta. Di seguito sono riportati tutti gli elementi che è possibile aggiungere:
-   * Home
+   * Pagina Home
 
      >[!TIP]
      >

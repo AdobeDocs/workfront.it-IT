@@ -1,5 +1,5 @@
 ---
-title: Personalizzare la visualizzazione Dettagli utilizzando un modello di layout
+title: Personalizzare la vista Dettagli utilizzando un modello di layout
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,8 @@ Per informazioni sui modelli di layout per i gruppi, vedere [Creare e modificare
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
@@ -88,6 +90,8 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo</p> 
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Personalizzare gli elementi visualizzati dagli utenti nella visualizzazione Dettagli
 

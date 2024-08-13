@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: bd1ebbedecff63fcc9165bd6e409ca1b3b632b3d
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ Dopo aver configurato un modello di layout, è necessario assegnarlo agli utenti
 >Quando Richieste è impostato come pagina di destinazione, gli utenti Collaboratore o Richiedente assegnati al modello di layout visualizzano la home page come pagina di destinazione. È consigliabile scegliere una pagina di destinazione diversa da Richieste di modelli di layout destinati agli utenti Collaboratore o Richiedente?
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -52,6 +54,8 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Personalizzare la pagina di destinazione
 

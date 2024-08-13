@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ Per informazioni sui modelli di layout per i gruppi, vedere [Creare e modificare
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
@@ -57,6 +59,8 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Brand Adobe Workfront utilizzando un modello di layout
 

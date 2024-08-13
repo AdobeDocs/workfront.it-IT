@@ -1,5 +1,5 @@
 ---
-title: Panoramica dei moduli personalizzati
+title: Panoramica di Custom Forms
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,16 +8,18 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
+source-git-commit: 8e6caabfaa347f0595657078e2d08ce70c0cb697
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 10%
+source-wordcount: '441'
+ht-degree: 9%
 
 ---
 
 # Panoramica dei moduli personalizzati
 
 <!--Audited: 12/2023-->
+
+{{highlighted-preview}}
 
 {{form-designer-default}}
 
@@ -30,6 +32,8 @@ Ad esempio, puoi allegare a un progetto un modulo personalizzato denominato &quo
 ## Come creare un modulo personalizzato
 
 Il progettista di moduli dispone di un&#39;area di lavoro in stile area di lavoro che consente di visualizzare contemporaneamente i campi, l&#39;area di lavoro e le impostazioni dei campi. Consente inoltre di trascinare e rilasciare i campi all’interno delle sezioni durante la progettazione del modulo. È possibile ridimensionare il lato destro dello schermo per disporre di più spazio per le opzioni di campo.
+
+<span class="preview">Un pulsante **Layout** (non visualizzato in questa immagine) consente di scegliere un&#39;area di lavoro a due o tre colonne. Il pulsante indica quale layout è attualmente selezionato. Il layout a tre colonne visualizza le impostazioni dei campi nella colonna a destra. Nel layout a due colonne le impostazioni dei campi vengono visualizzate accanto alla raccolta campi nella colonna all&#39;estrema sinistra.</span>
 
 Per ulteriori informazioni, vedere [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
