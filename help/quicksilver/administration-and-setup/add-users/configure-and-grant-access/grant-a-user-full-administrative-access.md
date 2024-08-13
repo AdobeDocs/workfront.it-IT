@@ -1,13 +1,13 @@
 ---
 title: Concedere a un utente l'accesso amministrativo completo
 description: Puoi concedere agli utenti l’accesso amministrativo completo a Workfront.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '1583'
+source-wordcount: '1579'
 ht-degree: 1%
 
 ---
@@ -34,6 +34,8 @@ In qualità di amministratore di Adobe Workfront, puoi creare un altro amministr
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
@@ -55,9 +57,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
++++
+
 ## Concedere a un singolo utente l&#39;accesso completo come amministratore di sistema
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Utenti** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-users}}
 
 1. Fare clic sul nome dell&#39;utente a cui si desidera concedere i diritti di amministratore.
 1. Fai clic sul menu Altro ![](assets/more-icon.png), quindi fai clic su **Modifica**.

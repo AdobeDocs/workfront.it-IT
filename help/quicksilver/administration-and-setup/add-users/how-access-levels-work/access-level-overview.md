@@ -6,11 +6,11 @@ product-area: system-administration
 keywords: accesso,livello,sistema,amministratore,standard,luce,collaboratore
 navigation-topic: access-levels
 description: Per accedere e lavorare in Workfront, ogni utente deve disporre di un livello di accesso. Il livello di accesso consente di controllare cosa un utente può vedere e cosa può fare con determinati oggetti e aree di Workfront.
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 528c264f613c0deb88c1cf52adb885ad4ead098b
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '1745'
 ht-degree: 5%
@@ -103,7 +103,7 @@ Di seguito sono riportate le impostazioni di accesso più elevate disponibili pe
 | Gestione risorse |   |   | ✓ |
 | Pianificazione scenario |   |   | ✓ (l&#39;impostazione predefinita è Nessun accesso). |
 | Bacheche |   |   | ✓ |
-| Home |   |   | ✓ |
+| Pagina Home |   |   | ✓ |
 | Obiettivi |   |   | ✓ |
 
 {style="table-layout:auto"}
@@ -237,7 +237,7 @@ Di seguito sono riportate le impostazioni di accesso più elevate disponibili pe
    <td> </td> 
    <td>✓</td> 
      <tr> 
-   <td>Home </td> 
+   <td>Pagina Home </td> 
    <td> </td> 
    <td> </td> 
    <td>✓</td> 
@@ -293,7 +293,7 @@ Di seguito sono riportate le impostazioni di accesso più elevate disponibili pe
 | Gestione risorse | ✓ |   |   |
 | Pianificazione scenario | ✓ |   |   |
 | Bacheche |   |   | ✓ (schede semplici) |
-| Home |   | ✓ (I miei aggiornamenti) |   |
+| Pagina Home |   | ✓ (I miei aggiornamenti) |   |
 | Obiettivi |   |   | ✓ |
 
 {style="table-layout:auto"}
@@ -344,7 +344,7 @@ Di seguito sono riportate le impostazioni di accesso più elevate disponibili pe
 | Gestione risorse | ✓ |   |   |
 | Pianificazione scenario | ✓ |   |   |
 | Bacheche | ✓ |   |   |
-| Home | ✓ |   |   |
+| Pagina Home | ✓ |   |   |
 | Obiettivi | ✓ |   |   |
 
 

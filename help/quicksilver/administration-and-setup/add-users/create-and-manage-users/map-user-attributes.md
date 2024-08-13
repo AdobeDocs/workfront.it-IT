@@ -3,13 +3,13 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-title: Mappare gli attributi utente
+title: Mappa attributi utente
 description: Utilizzando il Single Sign-On (SSO), è possibile passare gli attributi da Active Directory del provider di identità agli utenti di Adobe Workfront.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
-source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 1%

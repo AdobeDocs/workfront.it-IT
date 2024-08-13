@@ -6,13 +6,13 @@ keywords: accesso,modello,funnel,diagramma,livelli,autorizzazioni
 navigation-topic: access-levels
 title: Funzionalità disponibile per ogni tipo di oggetto per i nuovi livelli di accesso
 description: Nelle tabelle seguenti sono elencate le funzionalità disponibili per ogni tipo di oggetto nei vari livelli di accesso.
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 45890d5d9346baebe0984d581828c778d98eec5a
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1610'
 ht-degree: 11%
 
 ---
@@ -325,7 +325,7 @@ Solo gli utenti con una licenza Standard possono avere accesso completo alla ges
 |----------------------------------------------------------------|----------|--------|-------------|---------------|
 | Modifica priorità e ore preventivate nella Programmazione | ✓&#42; |   |   |   |
 | Crea, modifica, elimina i gruppi di risorse&#42;&#42; | ✓&#42; |   |   |   |
-| `Update Planned Hours in the Workload Balancer`&#42;&#42;&#42; | ✓&#42; |   |   |   |
+| Aggiorna le ore pianificate nel Bilanciatore dei carichi di lavoro&#42;&#42;&#42; | ✓&#42; |   |   |   |
 | Visualizzare le priorità del progetto nella Programmazione delle risorse | ✓&#42; |   |   |   |
 | Visualizzare l&#39;allocazione delle risorse negli strumenti di pianificazione risorse | ✓&#42; | ✓&#42; |   |   |
 | Visualizza gruppi di risorse | ✓&#42; | ✓&#42; |   |   |

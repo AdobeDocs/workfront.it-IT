@@ -6,11 +6,11 @@ keywords: accesso,modello,funnel,diagramma,livelli,autorizzazioni
 navigation-topic: access-levels
 title: Livelli di accesso incorporati
 description: Ciascuno dei sei livelli di accesso predefiniti è progettato per un particolare tipo di utente, inclusi amministratore di sistema, planner, lavoratore, revisore, richiedente e utente esterno. Questi livelli di accesso consentono di controllare quali utenti possono modificare e visualizzare nel sistema. Se è necessario un livello di accesso personalizzato, è possibile copiare un livello di accesso predefinito e modificarlo in base alla quantità di accesso che si desidera consentire per i vari tipi di oggetti di Workfront.
-author: Becky, Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '1685'
 ht-degree: 5%

@@ -1,18 +1,18 @@
 ---
-title: Disattiva l'opzione di aggiornamento automatico per gli utenti non pagati nel nuovo piano di licenze
+title: Disattiva l'opzione di aggiornamento automatico per gli utenti non pagati nel nuovo piano di gestione licenze
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: accesso,livello,sistema,amministratore,standard,luce,collaboratore
 navigation-topic: access-levels
 description: Per accedere e lavorare in Workfront, ogni utente deve disporre di un livello di accesso. Il livello di accesso consente di controllare cosa un utente può vedere e cosa può fare con determinati oggetti e aree di Workfront.
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 58c76187-fc74-4ab4-80e8-c3e296a84f27
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '216'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,8 @@ Le decisioni su bozze e documenti sono limitate per tutte le licenze Workfront n
 >Una volta disabilitati, gli utenti non pagati che superano il numero di decisioni loro assegnato non verranno aggiornati automaticamente.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -51,6 +53,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Disattiva aggiornamenti automatici per utenti non a pagamento
 

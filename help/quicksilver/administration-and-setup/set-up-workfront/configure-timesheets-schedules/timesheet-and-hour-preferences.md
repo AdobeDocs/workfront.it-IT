@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
-title: Configurare le preferenze di orario e scheda orario
+title: Configura le preferenze di Ore e Timesheet
 description: In qualità di amministratore di  [!DNL Adobe Workfront] , puoi specificare le preferenze per le schede orario e le ore in  [!DNL Workfront]  per definire gli elementi con cui le schede orario possono essere precompilate e a quali elementi gli utenti possono registrare il tempo.
 author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,11 @@ In qualità di amministratore di [!DNL Adobe Workfront], puoi specificare le pre
 >
 >Per ulteriori informazioni, consulta [Registra ora](../../../timesheets/create-and-manage-timesheets/log-time.md) e [Panoramica schede orario](/help/quicksilver/timesheets/timesheets/timesheets-overview.md).
 
-
-
 Qualsiasi modifica apportata alle schede orario influisce su tutte le schede orario create in futuro.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -64,6 +64,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 *Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Impostare le preferenze di ora e scheda orario
 

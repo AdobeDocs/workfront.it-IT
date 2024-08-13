@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: single-sign-on-in-workfront
-title: Aggiornare gli utenti per il Single Sign-On
+title: Aggiorna utenti per Single Sign-On
 description: È possibile aggiornare gli utenti per il Single Sign-On in Workfront.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f9c543a-2ae2-4c2c-9c4d-647079263a7e
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '802'
 ht-degree: 1%
 
 ---
@@ -120,9 +120,9 @@ Questo processo aggiorna i nomi utente SSO esistenti in Workfront oppure, se ne 
 
 Il processo di aggiornamento degli utenti per l&#39;SSO aggiunge il campo Nome utente SSO agli utenti di Workfront, se non ne è presente uno, oppure aggiorna il valore in tale campo se è già presente un valore associato agli utenti.
 
-1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Fai clic su, **Sistema** quindi seleziona **Aggiorna utenti per SSO**.
+1. Fai clic su **Sistema**, quindi seleziona **Aggiorna utenti per SSO**.
 
 1. Fare clic su **Scegli file** per cercare il file preparato.
 

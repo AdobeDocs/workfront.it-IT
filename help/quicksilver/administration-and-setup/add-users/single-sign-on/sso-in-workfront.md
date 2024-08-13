@@ -3,13 +3,13 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration
 navigation-topic: single-sign-on-in-workfront
-title: Panoramica del single sign-on in Adobe Workfront
+title: Panoramica del Single Sign-On in Adobe Workfront
 description: Workfront fornisce una configurazione Single Sign-On (SSO) gestita centralmente che integra facilmente Workfront con la soluzione SSO aziendale esistente. Questa configurazione è facile da configurare e gestire ed è disponibile sia per i clienti OnDemand che per quelli OnPremise Enterprise.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87f1b6c0-6b74-4eac-87cd-899b1c74af25
-source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 0%

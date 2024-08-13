@@ -1,16 +1,16 @@
 ---
-title: Personalizza l’istanza di Adobe Workfront
+title: Personalizza la tua istanza Adobe Workfront
 user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
 description: In qualità di amministratore di Workfront, puoi inserire i logo di Workfront nella schermata di accesso, nell’area di navigazione superiore e nel menu principale. È inoltre possibile modificare l'immagine di sfondo e il colore della schermata di accesso.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '912'
 ht-degree: 1%
 
 ---
@@ -57,6 +57,8 @@ In qualità di amministratore di Workfront, puoi aggiungere i logo di Workfront 
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
@@ -78,9 +80,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
++++
+
 ## Personalizzare la schermata di accesso
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Fai clic su **Sistema** > **Marchio**.
 

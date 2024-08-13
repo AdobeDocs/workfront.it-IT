@@ -5,12 +5,12 @@ content-type: reference
 product-area: system-administration
 navigation-topic: add-users-to-workfront
 description: In qualità di amministratore di Adobe Workfront, può concedere agli utenti l’accesso per visualizzare o modificare gli oggetti assegnando loro un livello di accesso.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 150a7e52-d379-4909-b7e3-df8a0b0289d1
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 0%

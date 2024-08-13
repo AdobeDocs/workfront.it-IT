@@ -1,13 +1,13 @@
 ---
-title: Modificare le impostazioni di un team dall'area Configurazione
+title: Modificare le impostazioni di un team dall'area di configurazione
 description: In qualità di amministratore di Adobe Workfront, puoi modificare le impostazioni di un team dall’area Configurazione. È possibile aggiungere utenti a un team, impostare il modello di layout di un team e impostare la modalità di registrazione dello stato al completamento degli elementi di lavoro da parte di un team.
-author: Caroline, Courtney
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 648a36ce-5793-472f-9fee-9dedf71991ef
-source-git-commit: 7fa4791e19a84d7215e341e8bbde8dd4d4d8ccc6
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '617'
 ht-degree: 3%
 
 ---
@@ -25,6 +25,8 @@ Per informazioni sui team, consulta [Panoramica sui team](../../../people-teams-
 >
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -47,9 +49,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
++++
+
 ## Modificare le impostazioni di un team
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Fai clic su **Team** nel pannello a sinistra.
 1. Seleziona un team, quindi fai clic su **Modifica** ![](assets/edit-icon.png).
@@ -86,7 +90,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
       <td>Digitare una descrizione per il team.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Modello di layout</td> 
+      <td role="rowheader">Modello layout</td> 
       <td> <p>Iniziare a digitare il nome del modello di layout che si desidera venga utilizzato dal team, quindi fare clic su di esso quando viene visualizzato.</p> </td> 
      </tr> 
      <tr> 

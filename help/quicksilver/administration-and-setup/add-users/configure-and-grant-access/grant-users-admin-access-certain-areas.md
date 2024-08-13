@@ -1,13 +1,13 @@
 ---
-title: Concedere agli utenti l'accesso amministrativo a determinate aree
+title: Concedere agli utenti l'accesso amministrativo ad alcune aree
 description: In qualità di amministratore di Adobe Workfront, puoi utilizzare un livello di accesso per concedere agli utenti con una licenza Pianificazione l’accesso amministrativo a determinate aree del sistema.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
-source-git-commit: 253a116e04e0b3a729331f5d0a29405e82808390
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '843'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,8 @@ In qualità di amministratore di Adobe Workfront, puoi utilizzare un livello di 
 >Ciò è diverso dall&#39;assegnare a un utente l&#39;accesso amministrativo completo a Workfront, come illustrato in [Concedere a un utente l&#39;accesso amministrativo completo](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).&#x200B;
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -45,13 +47,15 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
++++
+
 ## Concedere agli utenti del piano l&#39;accesso amministrativo ad alcune aree di Workfront
 
 >[!IMPORTANT]
 >
 >È consigliabile lasciare invariati i livelli di accesso incorporati in modo da potervi fare riferimento dopo aver configurato gli utenti. Per personalizzare un livello di accesso, copiare il livello di accesso predefinito e modificare la copia. Questa operazione può essere eseguita per ogni livello di accesso, ad eccezione di Amministratore di sistema e Utente esterno.
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su **Livelli di accesso**.
 1. Fare clic sul nome del livello di accesso che si desidera utilizzare per concedere agli utenti l&#39;accesso amministrativo a determinate aree di Workfront.

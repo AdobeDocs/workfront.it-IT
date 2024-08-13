@@ -1,16 +1,16 @@
 ---
-title: Concedere l’accesso a filtri, viste e raggruppamenti
+title: Concedere l’accesso a filtri, visualizzazioni e raggruppamenti
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-access-to-workfront
 description: In qualità di amministratore di Adobe Workfront, puoi utilizzare un livello di accesso per definire l’accesso di un utente ai controlli di filtro, visualizzazione e raggruppamento per elenchi e report.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4fb6eefd-74dd-4941-91d4-0e5f637febf3
-source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '422'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,8 @@ In qualità di amministratore di Adobe Workfront, puoi utilizzare un livello di 
 Per informazioni sui controlli di filtro, visualizzazione e raggruppamento, vedere [Elementi di reporting: filtri, visualizzazioni e raggruppamenti](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -43,6 +45,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Configurare l’accesso degli utenti a filtri, viste e raggruppamenti utilizzando un livello di accesso personalizzato
 

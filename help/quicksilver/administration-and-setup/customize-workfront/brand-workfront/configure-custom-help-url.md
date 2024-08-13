@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
 description: Se crei un sito di assistenza interno personalizzato contenente informazioni sull’utilizzo di Workfront da parte dell’organizzazione, puoi configurare l’icona Aiuto del menu principale per passare a tale sito. Ciò non influisce sul collegamento della Guida principale nel menu principale e sui collegamenti di assistenza sensibili al contesto presenti in Workfront, che portano gli utenti al sito della Guida di Workfront.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Ciò non influisce sul collegamento della Guida principale nel menu principale e
 Per informazioni sul modo in cui gli utenti accedono sia a un URL della guida personalizzato configurato in Workfront che al normale sito della guida di Workfront, vedere [Accesso alla guida di Workfront nella nuova esperienza Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -50,9 +52,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
++++
+
 ## Configurare un URL guida personalizzato
 
-1. Fare clic sull&#39;icona del menu principale ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fare clic su Configurazione.
+{{step-1-to-setup}}
+
 1. Fare clic su **Sistema** > **Preferenze**.
 1. Nella sezione **Preferenze generali**, nel campo **URL Guida personalizzato**, digita l&#39;URL in cui si trova il sito della Guida personalizzato.
 
