@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '2507'
+source-wordcount: '2495'
 ht-degree: 1%
 
 ---
@@ -156,7 +156,6 @@ Per un esempio di connessione dei tipi di record, vedere [Esempio di connessione
 
    * Da un record di Planning in Workfront Planning
 
-
 ## Prerequisiti per il collegamento di record
 
 Per collegare record ad altri record o oggetti, è necessario disporre dei seguenti elementi:
@@ -181,7 +180,7 @@ Per collegare record ad altri record o oggetti, è necessario disporre dei segue
 
    Viene aperto il workspace e i tipi di record vengono visualizzati come schede.
 1. Fare clic sulla scheda di un tipo di record per aprire la pagina del tipo di record.
-1. Selezionare una visualizzazione **Tabella** dal menu a discesa **Visualizzazione** nell&#39;angolo superiore destro della pagina del tipo di record.
+1. Fare clic sul nome di una visualizzazione **Tabella** per aprirla.
 1. (Facoltativo) Aggiungere record al tipo di record selezionato aggiungendo una nuova riga alla tabella. Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).
 1. (Condizionale) Dopo aver collegato il tipo di record selezionato con un altro tipo di record, passare alla colonna del record collegato e fare doppio clic sulla cella corrispondente al record che si desidera collegare con altri record.
 
@@ -191,9 +190,18 @@ Per collegare record ad altri record o oggetti, è necessario disporre dei segue
 
    * Fare clic sul nome di un record connesso nell&#39;elenco per aggiungerlo al record selezionato. Il record viene aggiunto automaticamente.
    * Iniziare a digitare il nome di un record e fare clic su di esso quando viene visualizzato nell&#39;elenco. Il record viene aggiunto automaticamente.
-   * Fare clic su **Visualizza tutti** per visualizzare tutti i record.
 
-1. (Condizionale) Se hai fatto clic su **Seleziona tutti** nel passaggio precedente, viene visualizzata la casella **Connetti oggetti**.
+   <!--1. (Optional) If you cannot find a record to connect, and you want to add it, click **+ Add** to add a new record. For more information, see the "Create records by connecting them" in the article [Create records](/help/quicksilver/planning/records/create-records.md). -->
+
+   >[!TIP]
+   >
+   >    È possibile aprire la pagina di un record facendo clic sul nome del record nella visualizzazione, trovare il campo record collegato e fare doppio clic sul campo (se sono già presenti record connessi) oppure fare clic su **Connetti record** (se il campo è vuoto) per aggiungere record dal record o dal tipo di oggetto connesso.
+   >
+   >![](assets/connect-records-from-record-page-field.png)
+
+1. (Facoltativo) Fai clic su **Visualizza tutti** per visualizzare tutti i record.
+
+1. (Condizionale) Se hai fatto clic su **Visualizza tutti** nel passaggio precedente, viene visualizzata la casella **Connetti oggetti**.
 
    ![](assets/connected-objects-table-for-records.png)
 
@@ -201,17 +209,11 @@ Per collegare record ad altri record o oggetti, è necessario disporre dei segue
 
    Oppure
 
-   Selezionare il nome di uno o più record nella casella, quindi fare clic su **Connetti oggetti** nell&#39;angolo superiore destro della casella Connetti oggetti.
-
-   >[!TIP]
-   >
-   >    È possibile aprire la pagina di un record, trovare il campo record collegato e fare clic sul campo connesso (se sono già presenti record connessi) oppure fare clic su **Connetti record** (se il campo è vuoto) per aggiungere record dal record o dal tipo di oggetto connesso.
-   >
-   >![](assets/connect-records-from-record-page-field.png)
+   Selezionare il nome di uno o più record nella casella, quindi fare clic su **Connetti oggetti**.
 
    Sono aggiunti i seguenti elementi:
 
-   * I record collegati vengono visualizzati nel campo record collegato del record selezionato al passaggio 6. <!--accurate?-->
+   * I record collegati vengono visualizzati nel campo record collegato del record selezionato in un passaggio precedente.
    * I campi collegati vengono compilati con le informazioni dei record collegati, se sono stati aggiunti campi di ricerca collegati al momento della connessione dei tipi di record.
 
    L&#39;aggiornamento dei record collegati aggiorna automaticamente i campi collegati per i record da cui si sta effettuando il collegamento. Non è possibile modificare manualmente i campi collegati.
@@ -259,7 +261,12 @@ Dopo aver creato una connessione tra un tipo di record e un tipo di oggetto Work
 
    * Fare clic su un oggetto dall&#39;elenco per aggiungerlo al record selezionato. Gli oggetti sono elencati in ordine alfabetico. L&#39;oggetto viene aggiunto automaticamente.
    * Iniziare a digitare il nome di un oggetto e fare clic su di esso quando viene visualizzato nell&#39;elenco. L&#39;oggetto viene aggiunto automaticamente.
-   * Fai clic su **Visualizza tutti** per visualizzare tutti gli oggetti per i quali disponi almeno delle autorizzazioni di visualizzazione.
+
+   >[!TIP]
+   >
+   >È possibile aprire la pagina di un record dalla visualizzazione, fare doppio clic sul campo del record collegato oppure fare clic su **Connetti** nel campo per aggiungere oggetti dal tipo di oggetto connesso.
+
+1. (Facoltativo) Fai clic su **Visualizza tutti** per visualizzare tutti gli oggetti per i quali disponi almeno delle autorizzazioni di visualizzazione.
 
 1. (Condizionale) Se hai fatto clic su **Visualizza tutti** nel passaggio precedente, viene visualizzata la casella **Connetti oggetti**.
 
@@ -269,7 +276,7 @@ Dopo aver creato una connessione tra un tipo di record e un tipo di oggetto Work
 
    Oppure
 
-   Selezionare il nome di uno o più oggetti nella casella, quindi fare clic su **Connetti oggetti** nell&#39;angolo superiore destro della casella Connetti oggetti.
+   Selezionare il nome di uno o più oggetti nella casella, quindi fare clic su **Connetti oggetti**.
 
    >[!IMPORTANT]
    >
@@ -281,10 +288,6 @@ Dopo aver creato una connessione tra un tipo di record e un tipo di oggetto Work
 
    * Gli oggetti Workfront selezionati vengono aggiunti al campo record collegato.
    * Se sono stati aggiunti quando il tipo di record è stato connesso a Workfront, i campi collegati (o i campi di ricerca) degli oggetti Workfront vengono automaticamente compilati con le informazioni di Workfront.
-
-   >[!TIP]
-   >
-   >Puoi aprire la pagina di un record, trovare il campo del record collegato e fare clic sull&#39;icona **+** nel campo per aggiungere oggetti dal tipo di oggetto connesso.
 
    Per ulteriori informazioni sulla connessione di tipi di record con oggetti di un&#39;altra applicazione, vedere [Connettere tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
 

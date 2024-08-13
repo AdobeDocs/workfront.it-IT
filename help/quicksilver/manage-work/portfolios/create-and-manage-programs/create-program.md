@@ -2,13 +2,13 @@
 product-area: programs
 navigation-topic: create and manage programs
 title: Creare un programma
-description: Un programma rappresenta una raccolta di progetti che condividono una strategia, un obiettivo o un obiettivo comune che trascende i limiti del progetto. I programmi non possono esistere all'esterno di un portfolio.
+description: Un programma rappresenta una raccolta di progetti che condividono una strategia, un obiettivo o un obiettivo comune che trascende i limiti del progetto. I programmi sono una suddivisione dei portafogli e non possono esistere al di fuori di un portfolio. In genere, i programmi condividono le stesse risorse di altri programmi all’interno dello stesso portfolio. Puoi creare programmi per organizzare i portfolio quando diventano troppo grandi.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1143'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,12 @@ ht-degree: 1%
 
 <!-- Audited: 1/2024 -->
 
-Un programma rappresenta una raccolta di progetti che condividono una strategia, un obiettivo o un obiettivo comune che trascende i limiti del progetto. I programmi non possono esistere all&#39;esterno di un portfolio.
+Un programma rappresenta una raccolta di progetti che condividono una strategia, un obiettivo o un obiettivo comune che trascende i limiti del progetto.
+I programmi sono una suddivisione dei portafogli e non possono esistere al di fuori di un portfolio. In genere, i programmi condividono le stesse risorse di altri programmi all’interno dello stesso portfolio.
+
+Puoi creare programmi per organizzare i portfolio quando diventano troppo grandi.
+
+È possibile, ad esempio, disporre di un Portfolio Anno fiscale di marketing 2024 che contiene tutti i progetti della divisione Marketing. Potrebbe essere utile organizzare ulteriormente i progetti in trimestri fiscali e aggiungere programmi Marketing Fiscal Quarter 1-4 2024 all&#39;interno del Portfolio Marketing Fiscal Year 2024.
 
 ## Requisiti di accesso
 

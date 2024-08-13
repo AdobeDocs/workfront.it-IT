@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1383'
 ht-degree: 1%
 
 ---
@@ -61,7 +61,7 @@ Quando si aggiorna la Durata delle attività in un elenco, è possibile utilizza
 | Ore | H |
 | Giorni. Questa è l&#39;impostazione predefinita. | Dsbld |
 | Settimane | M |
-| Mesi | G |
+| Mesi | T, MO |
 | Minuti trascorsi | EM |
 | Ore trascorse | EH |
 | Giorni trascorsi | ED |

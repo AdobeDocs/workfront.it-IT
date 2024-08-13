@@ -1,14 +1,14 @@
 ---
 product-area: programs
 navigation-topic: create and manage programs
-title: Modifica programmi
-description: È possibile modificare le informazioni relative ai programmi creati dall'utente o da altri utenti se questi li hanno condivisi con l'utente.
+title: Modifica i Programmi
+description: È possibile modificare le informazioni relative ai programmi creati dall'utente o da altri utenti se questi li hanno condivisi con l'utente. Questo articolo descrive come cercare, trovare e modificare un programma, se si dispone delle autorizzazioni necessarie.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1074'
 ht-degree: 0%
 
 ---
@@ -174,7 +174,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    ![](assets/comment-box-in-program-edit-box-classic-350x195.png)
 
-1. Aggiungi un commento nel campo **[!UICONTROL Post e aggiorna il programma]**.
+1. Aggiungi un commento nel campo **[!UICONTROL Pubblica un aggiornamento al programma]**.
 1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Persone]** per aggiungere un utente o un team al commento.
 1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Blocca]** per bloccare il commento e renderlo privato solo per gli utenti della tua azienda.
 

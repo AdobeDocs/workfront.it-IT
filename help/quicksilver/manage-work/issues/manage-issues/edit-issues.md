@@ -2,15 +2,15 @@
 product-area: projects
 navigation-topic: manage-issues
 title: Modifica problemi
-description: Puoi modificare le informazioni sui problemi che hai creato o che altri utenti hanno creato se hanno condiviso i problemi con te.
+description: Puoi modificare le informazioni sui problemi che hai creato o che altri utenti hanno creato se hanno condiviso i problemi con te. Questo articolo descrive come cercare, trovare e modificare un problema, se si dispone delle autorizzazioni necessarie.
 author: Alina
 feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '2508'
+source-wordcount: '2529'
 ht-degree: 2%
 
 ---

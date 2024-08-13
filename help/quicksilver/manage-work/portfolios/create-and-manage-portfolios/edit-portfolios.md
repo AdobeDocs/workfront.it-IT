@@ -1,14 +1,14 @@
 ---
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
-title: Modificare i portfolio
-description: Puoi modificare le informazioni sui portfolio che hai creato o che altri utenti hanno creato se li hanno condivisi con te.
+title: Modifica i Portfolio
+description: Puoi modificare le informazioni sui portfolio che hai creato o che altri utenti hanno creato se li hanno condivisi con te. Questo articolo descrive come cercare, trovare e modificare un portfolio, se si dispone delle autorizzazioni necessarie.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1018'
 ht-degree: 1%
 
 ---
