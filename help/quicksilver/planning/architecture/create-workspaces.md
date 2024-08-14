@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '521'
 ht-degree: 1%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 1%
 In Adobe Workfront Planning, le aree di lavoro sono posizioni centralizzate in cui i team possono pianificare il lavoro.
 
 Un&#39;area di lavoro è una raccolta di tipi di record utilizzati da un team e rappresenta il ciclo di vita del lavoro del team. È possibile personalizzare completamente le aree di lavoro in Adobe Workfront Planning.
+
+Per informazioni generali sulle aree di lavoro, vedere [Panoramica delle aree di lavoro](/help/quicksilver/planning/architecture/workspaces-overview.md).
 
 ## Requisiti di accesso
 
@@ -95,27 +97,6 @@ Per ulteriori informazioni sui requisiti di accesso, vedere [Requisiti di access
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## Considerazioni sulle aree di lavoro
-
-* Puoi creare aree di lavoro per specifiche unità organizzative all’interno dell’organizzazione, in base al funzionamento univoco di ciascuna unità.
-* A seconda della licenza Workfront in uso, le aree di lavoro vengono visualizzate nelle schede seguenti nell&#39;area Planning:
-
-   * Per gli amministratori di sistema, le aree di lavoro vengono visualizzate nelle seguenti schede:
-
-      * **Aree di lavoro personali**: visualizza le aree di lavoro create. <!--Replace with: Workspaces I'm on: Displays workspaces you created or workspaces that are shared with you.-->
-      * **Altre aree di lavoro**: visualizza tutte le altre aree di lavoro del sistema, incluse quelle condivise con te. &lt;!—Replace with: Other workspaces (Sostituisci con: Altre aree di lavoro): visualizza tutte le altre aree di lavoro del sistema. >
-
-   * Per tutti gli altri utenti, le aree di lavoro create e quelle condivise con gli altri utenti vengono visualizzate nell&#39;area Workspace.
-
-* I tipi di record contenuti in un&#39;area di lavoro devono riflettere il ciclo di vita lavorativo di un&#39;unità organizzativa.
-* Quando crei un’area di lavoro, solo tu disponi dell’autorizzazione per accedere a essa e gestirla. È necessario condividerlo con altri utenti affinché possano collaborare con te nello stesso spazio. Per informazioni, vedere [Condividere un&#39;area di lavoro](/help/quicksilver/planning/access/share-workspaces.md). Gli amministratori di sistema possono gestire tutte le aree di lavoro, anche quelle che non hanno creato.
-* È possibile:
-
-   * Fino a 50 sezioni in un’area di lavoro.
-   * Fino a un totale di 1.000 tipi di record da tutte le sezioni in un&#39;unica area di lavoro. Tutti i tipi di record sono univoci per ogni area di lavoro. <!--this might change-->
-   * Fino a 1.000 aree di lavoro nell’istanza Workfront della tua organizzazione.
-
-
 ## Crea un’area di lavoro
 
 È possibile creare un workspace e aggiungervi tipi di record per organizzare gli oggetti in Workfront Planning. Per ulteriori informazioni sulla modifica di un&#39;area di lavoro, vedere [Modifica aree di lavoro](/help/quicksilver/planning/architecture/edit-workspaces.md).
@@ -153,7 +134,7 @@ Per ulteriori informazioni sui requisiti di accesso, vedere [Requisiti di access
    * Area di lavoro vuota denominata **Workspace senza titolo** in cui è possibile iniziare ad aggiungere tipi di record manualmente quando si crea un&#39;area di lavoro da zero.
    * Area di lavoro denominata in base al modello selezionato, popolata con tipi di record di esempio. È possibile personalizzare ulteriormente i tipi di record e il workspace.
 
-   Per gli amministratori di Workfront, la nuova area di lavoro viene visualizzata nella scheda **Aree di lavoro personali**. <!--replace this with: Workspaces I'm on tab-->
+   Per gli amministratori di Workfront, la nuova area di lavoro viene visualizzata nella scheda **Aree di lavoro personali**. <!--replace this with: **Workspaces I'm on** tab-->
 1. Fai clic sul nome del workspace nell’intestazione del nuovo workspace per rinominarlo, quindi premi Invio.
 
 1. (Facoltativo e condizionale) Se l&#39;area di lavoro è stata creata da un modello, fare clic all&#39;interno del nome delle sezioni **Tipi di record operativi** o **Tassonomie**

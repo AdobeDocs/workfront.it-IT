@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: e65b57c903b08dc734e93b9690ce91407f1d08e0
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '2001'
+source-wordcount: '1836'
 ht-degree: 2%
 
 ---
@@ -115,6 +115,8 @@ Per ulteriori informazioni su come concedere l&#39;accesso a Workfront Planning 
 Sebbene Workfront Planning faccia parte di Workfront, viene fornito con concetti e terminologia proprietari. Prima di iniziare la configurazione di Workfront Planning per la tua organizzazione, assicurati di conoscere i nuovi concetti.
 
 Il framework per Workfront Planning è completamente personalizzabile. È possibile creare tutti i tipi di record, i relativi attributi e qualsiasi campo ad essi associato in base alle esigenze specifiche dell&#39;organizzazione.
+
+Il numero di oggetti di Workfront Planning che è possibile creare è limitato. Per ulteriori informazioni, vedere [Panoramica sulle limitazioni degli oggetti di Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md).
 
 Di seguito sono riportati gli oggetti e i concetti principali di Workfront Planning:
 
@@ -252,34 +254,6 @@ Di seguito sono riportati gli oggetti e i concetti principali di Workfront Plann
 
 
 Per ulteriori informazioni, vedere [Gestire le visualizzazioni dei record](/help/quicksilver/planning/views/manage-record-views.md).
-
-
-## Limitazioni degli oggetti di Adobe Workfront Planning
-
-Nella tabella seguente vengono illustrati i limiti per il numero di oggetti che è possibile creare in Workfront Planning. I limiti sono soggetti a modifiche man mano che passiamo alle fasi successive di sviluppo.
-
-<!--consider making the table view a stand-alone article when we go to GA-->
-
-| Oggetto Adobe Workfront Planning | Limite |
-|-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
-| Numero di aree di lavoro per un’istanza Workfront | 1.000 |
-| Numero di sezioni per un’area di lavoro | 50 |
-| Numero di tipi di record per un&#39;area di lavoro | 1.000 (sono inclusi i tipi di record di tutte le sezioni e quelli creati quando si utilizza un modello di workspace) |
-| Numero di record per un tipo di record | 50.000 |
-| Numero di campi per un tipo di record o una tassonomia | 500 |
-| Numero di caratteri per un campo di testo | 1.000 caratteri |
-| Dimensione del file che è possibile incollare in una tabella del tipo di record | 1 MB |
-| Dimensione del file che è possibile importare tramite l’API per una tabella del tipo di record | 1,5 MB |
-| Frequenza con cui è possibile effettuare richieste API | 200 richieste al minuto |
-| Dimensione del file CSV di Excel che puoi importare* | 5 MB |
-| Numero di visualizzazioni che un utente può creare per un tipo di record | 100 |
-
-<!--add to the table above: Maximum number of views created by one use 100 -->
-
->[!IMPORTANT]
->
->*Questa funzionalità è stata temporaneamente disabilitata e sarà disponibile in un secondo momento.
-
 
 ## Individuazione di Adobe Workfront Planning
 

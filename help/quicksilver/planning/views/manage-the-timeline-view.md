@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '1880'
+source-wordcount: '1888'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ Per gestire una vista timeline:
 
 1. Per spostarsi nella timeline, effettuate una delle seguenti operazioni:
 
-   * Fate clic sulle icone sinistra e destra oppure utilizzate lo scorrimento orizzontale per spostarvi avanti e indietro nella timeline.
+   * Fate clic sulle icone sinistra e destra oppure utilizzate lo scorrimento orizzontale per spostarvi avanti e indietro nella timeline. L’aggiornamento della pagina mantiene l’intervallo di tempo selezionato.
    * Fai clic su **Oggi** per centrare la timeline fino alla data odierna.
    * Per aggiornare gli incrementi di tempo, selezionate una delle seguenti opzioni dal menu a discesa intervallo di tempo:
 

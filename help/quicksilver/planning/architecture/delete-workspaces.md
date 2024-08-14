@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 1%
@@ -106,16 +106,19 @@ In Adobe Workfront Planning, le aree di lavoro sono posizioni centralizzate in c
 
    Viene visualizzata la pagina dell’area di lavoro.
 
-<!--***********Replace the first step with this:*******
+<!--***********Replace the steps from the next below till the "Type "delete" in the space ... " (but keep this last step)*******
 
-1. (Optional) Click **Show more** to display additional workspaces. The **Show more** link displays only when you have workspaces that display on more than two rows.
+1. (Optional) Click **Show more** to display additional workspaces. The **Show more** link displays only when you have more than two rows of workspace cards.
 1. (Optional) ClicK **Show less** to limit the number of workspaces that display on the screen. 
 1. To delete a workspace, do one of the following:
 
-   * Hover over the workspace card, then click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the card, then click **De,ete**. 
-   * Click a workspace card to open the workspace. 
-   
-   ***********Add (Conditional) If you clicked a workspace card,******to the step below****-->
+   * Hover over the workspace card, then click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the card
+      Or
+   * Click a workspace card to open the workspace, then click **More** to the right of the workspace name. 
+1. Click **Delete**.
+
+   ![](assets/permanently-delete-workspace-confirmation.png)
+   -->
 
 1. Fai clic sul menu **Altro** ![](assets/more-menu.png) accanto al nome dell&#39;area di lavoro, quindi fai clic su **Elimina**.
 

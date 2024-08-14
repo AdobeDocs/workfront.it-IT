@@ -1,13 +1,13 @@
 ---
-title: Panoramica sulla connessione dei tipi di record
+title: Panoramica dei tipi di record di connessione
 description: Un modo per indicare la correlazione tra i singoli tipi di record consiste nel collegarli. Inoltre, è possibile collegare i tipi di record di Adobe Workfront Planning con i tipi di oggetto di altre applicazioni per migliorare l'esperienza degli utenti e mantenere lo stato attivo in un'unica applicazione.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 0%
+source-wordcount: '1086'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 È possibile indicare che i singoli tipi di record sono correlati tra loro o a oggetti di altre applicazioni collegandoli.
 
-Questo articolo offre una panoramica della connessione dei tipi di record e descrive i tipi di connessione che è possibile stabilire tra i tipi di record e di oggetto.
+Questo articolo offre una panoramica delle connessioni dei tipi di record e descrive i tipi di connessioni che è possibile stabilire tra tipi di record e tipi di oggetto.
 
 Per informazioni sulla connessione dei tipi di record, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
 
@@ -29,9 +29,9 @@ Per informazioni sulla connessione dei tipi di record, vedere [Connetti tipi di 
 
 * È possibile connettere le seguenti entità in Adobe Workfront Planning:
 
-   * Due tipi di record
+   * Due tipi di record.
 
-     I tipi di record devono appartenere allo stesso workspace.
+     Per impostazione predefinita, è possibile connettere due tipi di record dallo stesso workspace. È inoltre possibile impostare tipi di record per la connessione con tipi di record di altre aree di lavoro.
    * Tipo di record e tipo di oggetto di un&#39;altra applicazione.
 
 * È possibile connettere i tipi di record di Workfront Planning ai tipi di oggetto seguenti delle applicazioni seguenti:
@@ -70,38 +70,51 @@ Per informazioni sulla connessione dei tipi di record, vedere [Connetti tipi di 
       * I campi dei record di Planning non sono accessibili dagli oggetti di Workfront.
       * I campi dei record di pianificazione sono accessibili da Experience Manager Assets quando l’amministratore Workfront configura la mappatura dei metadati tramite l’integrazione tra Workfront e Adobe Experience Manager Assets. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
-   * **Quando si aggiungono campi collegati (o di ricerca) dal record o dall&#39;oggetto a cui ci si connette**: un campo collegato (o di ricerca) con le informazioni del record a cui ci si connette viene visualizzato nel record da cui ci si connette.
+   * **Quando si aggiungono campi collegati (o di ricerca) dal record o dall&#39;oggetto a cui ci si connette**: oltre a creare un campo record collegato, è anche possibile connettersi ai campi del record o del tipo di oggetto connesso denominati campi di ricerca. Un campo di ricerca collegato con le informazioni del record a cui ci si connette viene visualizzato nel record da cui ci si connette.
 
      È possibile collegare campi di altri tipi di record o oggetti di un&#39;altra applicazione al tipo di record di Workfront Planning.
 
      I campi collegati sono di sola lettura e visualizzano automaticamente le informazioni dei record o degli oggetti connessi quando si collegano i record o gli oggetti.
 
+     È possibile fare riferimento a campi di ricerca di altri tipi di record o oggetti in formule, filtri o raggruppamenti.
+
      Ad esempio, se si collega il tipo di record &quot;Campagna&quot; a un progetto Workfront e si seleziona di inserire il campo Data di completamento pianificata del progetto nel record Pianificazione di Workfront, per la campagna viene automaticamente creato un campo collegato denominato Data di completamento pianificata (da progetto). Impossibile modificare manualmente il campo collegato. Nel campo Data di completamento pianificata (da progetto) viene visualizzata la Data di completamento pianificata dei progetti collegati.
 
      >[!IMPORTANT]
      >
-     >Tutti coloro che dispongono di autorizzazioni di visualizzazione o di livello superiore per l&#39;area di lavoro possono visualizzare le informazioni nei campi collegati, indipendentemente dalle autorizzazioni o dal livello di accesso nell&#39;applicazione dei tipi di oggetto collegati.
+     >Tutti gli utenti con autorizzazioni View (Visualizzazione) o superiori all&#39;area di lavoro possono visualizzare le informazioni nei campi di ricerca, indipendentemente dalle autorizzazioni o dal livello di accesso nell&#39;applicazione dei tipi di oggetto collegato <!--or their permissions in other workspaces-->.
+
+<!--see the commented out text above for the release of cross-workspace connections-->
 
 * I campi record collegati sono preceduti dall&#39;icona di relazione ![](assets/relationship-field-icon.png).
 
   I campi collegati sono preceduti da un’icona che identifica il tipo di campo. Ad esempio, i campi collegati (o di ricerca) sono preceduti da icone che indicano che un campo è un numero, un paragrafo o una data.
 
-* I campi di ricerca sono preceduti da un&#39;icona che indica il tipo di informazioni visualizzate nel campo.
 
 ## Tipi di connessione
 
 Dopo aver stabilito una connessione tra due tipi di record o tra un record e un tipo di oggetto da un&#39;altra applicazione, è possibile aggiungere record nei campi dei record connessi.
 
-A seconda del numero di record che è possibile aggiungere a una connessione, i tipi di connessione che è possibile scegliere per la connessione dei tipi di record sono i seguenti:
+A seconda del numero di record che è possibile aggiungere a un campo record connesso, i tipi di connessione disponibili per la connessione dei tipi di record sono i seguenti:
 
 * [Da uno a molti](#one-to-many-connection-type)
-* [Uno a uno](#many-to-one-connection-type)
-* [Molti a uno](#many-to-one-connection-type)
-* [Molti a molti](#many-to-many-connection-type)
+* [Da uno a uno](#many-to-one-connection-type)
+* [Da molti a uno](#many-to-one-connection-type)
+* [Da molti a molti](#many-to-many-connection-type)
+
+>[!WARNING]
+>
+>Queste opzioni non sono disponibili quando si collegano i seguenti elementi:
+>* Due record da aree di lavoro diverse
+>
+>* Un tipo di record e risorse AEM
+
 
 <!-- add screen shots for each type of connection below-->
 
 ### Tipo di connessione uno-a-molti
+
+![](assets/one-to-many-connection-picker.png)
 
 Quando si seleziona il tipo di connessione uno-a-molti tra tipi di record, è possibile collegare un record in un secondo momento a più record a cui ci si connette.
 
@@ -111,6 +124,8 @@ Quando si seleziona questo tipo di connessione, è possibile modificarlo in un s
 
 ### Tipo di connessione uno-a-uno
 
+![](assets/one-to-one-connection-picker.png)
+
 Quando si seleziona il tipo di connessione uno-a-uno tra i tipi di record, è possibile collegare un record in un secondo momento a un altro record a cui ci si connette.
 
 Ad esempio, se colleghi le campagne ai progetti, puoi collegare una campagna a un progetto. Un progetto può essere connesso a una sola campagna.
@@ -118,6 +133,8 @@ Ad esempio, se colleghi le campagne ai progetti, puoi collegare una campagna a u
 Quando selezioni questo tipo di connessione, puoi successivamente modificarlo in qualsiasi altro tipo di connessione.
 
 ### Tipo di connessione molti-a-uno
+
+![](assets/many-to-one-connection-picker.png)
 
 Quando si seleziona il tipo di connessione molti-a-uno tra tipi di record, è possibile collegare più record in un secondo momento con un solo record a cui ci si connette.
 
@@ -127,8 +144,11 @@ Quando si seleziona questo tipo di connessione, è possibile modificarlo in un s
 
 ### Tipo di connessione da molti-a-molti
 
+![](assets/many-to-many-connection-picker.png)
+
 Quando si seleziona il tipo di connessione molti-a-molti tra tipi di record, è possibile collegare più record in un secondo momento.
 
 Ad esempio, se colleghi le campagne ai progetti, puoi collegare più campagne a più progetti. Puoi anche collegare più progetti a più campagne.
 
 Quando si seleziona questo tipo di connessione, non è possibile modificarlo dopo averlo salvato.
+

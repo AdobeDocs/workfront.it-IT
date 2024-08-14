@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -40,15 +40,16 @@ Gli articoli nelle sezioni elencate di seguito descrivono come configurare Workf
 >
 >La documentazione a cui si fa riferimento nelle sezioni seguenti sarà disponibile un po’ di tempo dopo il rilascio delle funzioni in produzione.
 
-## Panoramica generale di Adobe Workfront Planning
+## Informazioni generali su Adobe Workfront Planning
 
-Per una panoramica della nuova pianificazione di Workfront, accedere ai seguenti articoli:
+Accedere ai seguenti articoli per informazioni generali sulla nuova pianificazione di Workfront:
 
 <!--update the video when we have something better, especially after early access - remove it-->
 
 <!--* [View a video demonstration of Adobe Workfront Planning](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 * [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md): panoramica di alto livello di Adobe Workfront Planning, inclusi la terminologia e i concetti specifici di questa soluzione. È consigliabile iniziare il percorso con Workfront Planning.
+* [Panoramica sui limiti degli oggetti di Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md): elenco di limiti per il numero di oggetti che è possibile creare in Workfront Planning.
 * [Attività della versione corrente di Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md): elenco di tutte le funzionalità rilasciate dall&#39;avvio del programma Adobe Workfront Planning, il 22 maggio 2023, con date di rilascio esatte e una breve panoramica di ciascuna funzionalità.
 * [Panoramica dell&#39;Assistente di Adobe Workfront Planning AI](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): con l&#39;Assistente di Workfront AI per Planning è possibile cercare record oppure creare, aggiornare ed eliminare record utilizzando i comandi e consentendo all&#39;assistente di eseguire il lavoro desiderato.
 
@@ -76,7 +77,7 @@ Le sezioni seguenti contengono articoli che descrivono in dettaglio le funzioni 
    * Creare, modificare ed eliminare aree di lavoro
    * Crea, modifica, elimina tipi di record
    * Collegare tipi di record ed esempi di connessione dei tipi di record
-   * Modello Workspace
+   * Modelli Workspace
 
 * [Campi: l&#39;indice dell&#39;articolo](/help/quicksilver/planning/fields/fields-information.md) contiene le seguenti informazioni:
 

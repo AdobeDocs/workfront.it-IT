@@ -3,10 +3,10 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 9714e1cd0d9ed4c315ab4004deb4585422b85094
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '14309'
-ht-degree: 1%
+source-wordcount: '14317'
+ht-degree: 2%
 
 ---
 
@@ -465,7 +465,7 @@ ht-degree: 1%
          * [Ricalcoli sequenza temporale progetto](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
          * [Trimestri personalizzati per progetti](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
          * [Abilitare o disabilitare le versioni rapide per la tua organizzazione](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
-         * [Creare e modificare le regole business](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
+         * [Creare e modificare regole aziendali](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
          * [Configurare le posizioni](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
          * [Gestire le schede delle tariffe](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)
       * Configura pianificazioni e preferenze scheda orario {#configure-timesheets-schedules}
@@ -473,8 +473,8 @@ ht-degree: 1%
          * [Panoramica sugli Schedules](administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)
          * [Configurare i tipi di tempo di registro](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-users-log-time-in-hrs-or-days.md)
          * [Preferenze Timesheet e Ora](administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
-         * [Gestire i tipi di lavoro](administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md)
-         * [Creare una pianificazione](administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+         * [Gestire tipi di ora](administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md)
+         * [Creare una nuova pianificazione](administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
       * Configurazione organizzativa {#organization-setup}
          * [Configurazione organizzativa](administration-and-setup/set-up-workfront/organizational-setup/organizational-setup.md)
          * [Gestire le aziende](administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)
@@ -486,8 +486,8 @@ ht-degree: 1%
          * [Disattiva mansioni](administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)
          * [Sostituisci tariffe di fatturazione mansione](administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)
       * Feed di aggiornamento tracciati dal sistema {#system-tracked-updates}
-         * [Aggiornamenti monitorati dal sistema](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md)
-         * [Aggiornamenti monitorati dal sistema](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)
+         * [Aggiornamenti tracciati dal sistema](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md)
+         * [Aggiornamenti tracciati dal sistema](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)
          * [Configurare gli aggiornamenti di sistema](administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)
          * [Configurare le preferenze per gli aggiornamenti utente](administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)
       * Ambienti di test di Adobe Workfront {#testing-environments}
@@ -562,7 +562,7 @@ ht-degree: 1%
       * Accesso singolo in Workfront {#sso}
          * [Single sign-on: indice articolo](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
          * [Panoramica del Single Sign-On](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
-         * [Aggiornare gli utenti per il Single Sign-On](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
+         * [Aggiornare utenti per Single Sign-On](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
          * [Configurare Workfront con SAML 2.0](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
          * [Aggiornamento dei metadati SAML 2.0 nel provider di identità](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
          * [Configurare Adobe Workfront con SAML 2.0 utilizzando ADFS](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
@@ -577,7 +577,7 @@ ht-degree: 1%
       * Personalizza il branding in Adobe Workfront {#custom-branding}
          * [Marchio personalizzato](administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
          * [Assegna un marchio all’istanza](administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
-         * [Configurare un URL guida personalizzato](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
+         * [Configurare un URL della guida personalizzato](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
       * Modelli di layout {#layout-templates}
          * [Modelli di layout](administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
          * [Layout Workfront predefinito](administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
@@ -704,7 +704,7 @@ ht-degree: 1%
          * [Impostare i tassi di cambio](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
       * Gestire gli elementi eliminati {#manage-deleted-items}
          * [Gestisci elementi eliminati](administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)
-         * [Ripristina elementi eliminati](administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)
+         * [Ripristinare elementi eliminati](administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)
          * [Visualizza elemento ripristinato](administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
          * [Effetti degli oggetti eliminati sugli oggetti](administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
          * [Ripristino di singoli oggetti figlio](administration-and-setup/manage-workfront/manage-deleted-items/restoring-individual-child-objects.md)
@@ -788,7 +788,7 @@ ht-degree: 1%
       * [Configurare Workfront con il connettore legacy di Adobe Experience Manager](administration-and-setup/configure-integrations/configure-workfront-aem.md)
       * [Consenti agli utenti di accedere all’app mobile](administration-and-setup/configure-integrations/enable-users-access-mobile-app.md)
       * [Abilita Adobe Workfront per Outlook](administration-and-setup/configure-integrations/enable-workfront-for-outlook.md)
-      * [Configurare le integrazioni dei documenti](administration-and-setup/configure-integrations/configure-document-integrations.md)
+      * [Configurare le integrazioni di documenti](administration-and-setup/configure-integrations/configure-document-integrations.md)
       * [Disattiva integrazioni documenti](administration-and-setup/configure-integrations/disable-document-integrations.md)
       * [Configurare l’integrazione di SharePoint](administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
       * [Configurare la mappatura dei metadati](administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
@@ -1485,7 +1485,7 @@ ht-degree: 1%
    * [Team e gruppi](people-teams-and-groups/people-teams-and-groups.md)
    * Crea e gestisci i team {#create-manage-teams}
       * [Creare e gestire i team](people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)
-      * [Panoramica sui team](people-teams-and-groups/create-and-manage-teams/teams-overview.md)
+      * [Panoramica dei team](people-teams-and-groups/create-and-manage-teams/teams-overview.md)
       * [Creare un team](people-teams-and-groups/create-and-manage-teams/create-a-team.md)
       * [Creare e gestire i team Agile](people-teams-and-groups/create-and-manage-teams/create-and-manage-agile-teams.md)
       * [Modifica impostazioni team](people-teams-and-groups/create-and-manage-teams/edit-team-settings.md)
@@ -1753,7 +1753,7 @@ ht-degree: 1%
       * [Accesso necessario per preventivare le risorse in Adobe Workfront](resource-mgmt/resource-planning/access-needed-to-budget-resources.md)
       * [Panoramica di Programmazione delle risorse](resource-mgmt/resource-planning/get-started-resource-planner.md)
       * [Individua la Programmazione delle risorse](resource-mgmt/resource-planning/locate-resource-planner.md)
-      * [Panoramica sulla navigazione in Programmazione delle risorse](resource-mgmt/resource-planning/resource-planner-navigation.md)
+      * [Panoramica sulla navigazione di Pianificazione risorse](resource-mgmt/resource-planning/resource-planner-navigation.md)
       * [Verificare la disponibilità e l&#39;allocazione delle risorse mediante Adobe Workfront Resource Planner](resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md)
       * [Panoramica di ore, FTE e informazioni sui costi nelle visualizzazioni Progetto e Ruolo della Programmazione delle risorse](resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
       * [Risorse preventivate nella Programmazione delle risorse utilizzando le viste Progetto e Ruolo](resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)
@@ -1943,7 +1943,7 @@ ht-degree: 1%
       * [Panoramica del layout della scheda orario](timesheets/timesheets/timesheet-layout.md)
    * Crea e gestisci schede orario {#create-and-manage-timesheets-in-adobe-workfront}
       * [Creare e gestire le schede orario: indice dell’articolo](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
-      * [Creare, modificare e assegnare profili di schede orario](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
+      * [Creare, modificare e assegnare profili della scheda orario](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
       * [Definire i tipi di ore e la disponibilità](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
       * [Creare una scheda orario monouso](timesheets/create-and-manage-timesheets/create-tmshts.md)
       * [Modifica informazioni scheda orario](timesheets/create-and-manage-timesheets/edit-timesheets.md)
@@ -2039,11 +2039,13 @@ ht-degree: 1%
       * [Informazioni generali su Adobe Workfront Planning: indice articolo](planning/general/planning-general-article-index.md)
       * [Panoramica di Adobe Workfront Planning](planning/general/planning-overview.md)
       * [Nozioni di base sulle API di Adobe Workfront Planning](planning/general/planning-api-basics.md)
+      * [Panoramica sui limiti degli oggetti di Adobe Workfront Planning](planning/general/limitations-overview.md)
       * [Panoramica dell’Assistente di Adobe Workfront Planning AI](planning/general/planning-ai-assistant-overview.md)
       * [Attività della versione corrente di Adobe Workfront Planning](planning/general/release-activity.md)
       * [Archivi delle attività sulla versione di Adobe Workfront Planning per il 2023](planning/general/release-activity-archives-2023.md)
    * Architettura di Adobe Workfront Planning {#adobe-workfront-planning-architecture}
       * [Architettura: indice degli articoli](planning/architecture/architecture-information.md)
+      * [Panoramica delle aree di lavoro](planning/architecture/workspaces-overview.md)
       * [Creare aree di lavoro](planning/architecture/create-workspaces.md)
       * [Panoramica sui tipi di record](planning/architecture/overview-of-record-types.md)
       * [Crea tipi di record](planning/architecture/create-record-types.md)

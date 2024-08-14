@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '415'
 ht-degree: 2%
 
 ---
@@ -136,11 +136,11 @@ Per informazioni sui tipi di record, vedere [Panoramica sui tipi di record](/hel
    Viene aperto il workspace e vengono visualizzati i tipi di record.
 1. Esegui una delle operazioni seguenti:
 
-   * Passa il puntatore del mouse sulla scheda del tipo di record, fai clic sul menu Altro, quindi su **Elimina**.
+   * Passa il puntatore del mouse sulla scheda del tipo di record, fai clic sul menu **Altro**, quindi su **Elimina**.
    * Fare clic sulla scheda del tipo di record che si desidera eliminare e nella pagina del tipo di record fare clic sul menu **Altro** ![](assets/more-menu.png) a destra del nome del tipo di record, quindi fare clic su **Elimina**.
 
    ![](assets/permanently-delete-record-type-confirmation.png)
 
 1. Digita **delete** nella casella di conferma, quindi fai clic su **Delete** definitivamente. Non fa distinzione tra maiuscole e minuscole.
 
-   Il tipo di record selezionato e i relativi campi, record associati e viste vengono eliminati.
+   Il tipo di record selezionato, insieme ai relativi campi, record associati e viste, viene eliminato e non può essere recuperato.

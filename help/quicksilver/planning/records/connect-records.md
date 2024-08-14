@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
 source-wordcount: '2495'
 ht-degree: 1%
@@ -147,7 +147,6 @@ Per un esempio di connessione dei tipi di record, vedere [Esempio di connessione
 * Tutti coloro che dispongono dell&#39;accesso a Workfront Planning and View o delle autorizzazioni di livello superiore per l&#39;area di lavoro possono visualizzare le connessioni tra record o tra record e oggetti di altre applicazioni. Possono visualizzare i record e gli oggetti connessi indipendentemente dalle autorizzazioni di cui dispongono nelle applicazioni a cui ci si connette.
 * Se si dispone delle autorizzazioni di gestione per l&#39;area di lavoro in cui si trovano i record connessi, è possibile visualizzare e modificare le connessioni di tutti gli altri utenti.
 * È possibile connettere un record a uno o più oggetti di un&#39;altra applicazione.
-
 * È possibile connettere oggetti da Workfront a record di Workfront Planning nelle seguenti aree:
    * Da un record Planning in Workfront Planning.
    * Dalla sezione Planning di un oggetto Workfront.
