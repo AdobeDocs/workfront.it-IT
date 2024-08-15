@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: fdee3747716f22e291234a2e0ad626eb5a27feda
+source-git-commit: 132c701d8a00897ed7cd1704d8da2e6a24400393
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 1%
@@ -52,14 +52,14 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Attivare o disattivare l’Assistente IA in Workfront
 
-L&#39;Assistente AI è attivato per impostazione predefinita.
+L&#39;Assistente AI è disattivato per impostazione predefinita.
 
-Per disabilitare l&#39;Assistente IA per un determinato livello di accesso:
+Per abilitare l&#39;Assistente AI per un determinato livello di accesso:
 
 1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic sull&#39;icona **[!UICONTROL Setup]** ![Setup](/help/_includes/assets/gear-icon-setup.png).
 1. Seleziona **Livelli di accesso** nel menu di navigazione a sinistra.
 1. Selezionare il livello di accesso per il quale si desidera disabilitare l&#39;Assistente AI.
 1. Nella finestra Modifica livello di accesso, scorri verso il basso fino alla parte inferiore della finestra e fai clic su **Imposta restrizioni aggiuntive...**.
-1. Nell&#39;area Imposta restrizioni aggiuntive abilitare l&#39;opzione **Disabilita l&#39;Assistente di Workfront AI**.
+1. Nell&#39;area Imposta restrizioni aggiuntive, abilitare l&#39;opzione **Abilita l&#39;Assistente di Workfront AI**.
 1. Fai clic su **Salva**.
-1. Ripeti i passaggi 3-6 per ogni livello di accesso per il quale vuoi disabilitare l’assistente AI.
+1. Ripeti i passaggi 3-6 per ogni livello di accesso per il quale desideri abilitare l’assistente AI.
