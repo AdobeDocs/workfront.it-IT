@@ -7,7 +7,7 @@ description: Questo articolo descrive come creare uno scenario di integrazione c
 author: Becky
 feature: Workfront Fusion
 exl-id: 643bb1d5-d7bc-402b-8ed1-9ca9a30e4560
-source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
+source-git-commit: cb4edb02aad8a0738ea80f058fcc2bc016832ce1
 workflow-type: tm+mt
 source-wordcount: '2139'
 ht-degree: 0%
@@ -120,7 +120,7 @@ La creazione di uno scenario è costituita da diverse attività principali:
    Viene visualizzato l&#39;editor dello scenario, contenente un modulo vuoto al centro, l&#39;app [!DNL Google Sheets] precaricata e alcune opzioni nella barra degli strumenti nella parte inferiore.
 
 <!--
-   ![](assets/scenario-editor-350x235.png)
+   ![](assets/scenario-editor.png)
 -->
 
 Quando si inizia a creare un nuovo scenario, è consigliabile iniziare con la creazione di un nome.

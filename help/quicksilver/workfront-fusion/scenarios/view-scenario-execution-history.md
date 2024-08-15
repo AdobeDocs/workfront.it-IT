@@ -7,7 +7,7 @@ description: È possibile visualizzare informazioni su tutte le esecuzioni di un
 author: Becky
 feature: Workfront Fusion
 exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
-source-git-commit: ae57c38149bf6db3bbbb471fad8f3567b7d712a7
+source-git-commit: 1b729960a23e43252bda16d9bfb7ca9656a115a1
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 0%
@@ -70,8 +70,6 @@ Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adob
    Se si sta lavorando sullo scenario nell&#39;editor scenari, fare clic sulla freccia sinistra ![](assets/exit-editing-arrow.png) nell&#39;angolo superiore sinistro della finestra.
 
 1. Visualizzare le informazioni nell&#39;elenco a destra.
-
-   ![](assets/open-history-tab-350x202.png)
 
    Puoi anche fare clic su per visualizzare una pagina intera di queste informazioni. La visualizzazione a pagina intera consente di filtrare la cronologia per visualizzare esecuzioni specifiche.
 

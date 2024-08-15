@@ -7,7 +7,7 @@ description: L’editor degli scenari consente di creare e modificare scenari in
 author: Becky
 feature: Workfront Fusion
 exl-id: 4377303d-7615-41eb-b0cc-4bf884899361
-source-git-commit: 75cf9af858e90a640c45b211d36f35b684128c2f
+source-git-commit: cb4edb02aad8a0738ea80f058fcc2bc016832ce1
 workflow-type: tm+mt
 source-wordcount: '1108'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 L’editor degli scenari consente di creare e modificare scenari in un’interfaccia visiva.
 
-![](assets/scenario-editor-350x228.jpg)
+![](assets/scenario-editor.jpg)
 
 ## Requisiti di accesso
 
