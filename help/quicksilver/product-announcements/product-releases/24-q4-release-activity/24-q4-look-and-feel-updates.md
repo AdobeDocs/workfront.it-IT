@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 32229f433268d173979e7dba06a9aee3d56181d1
+source-git-commit: 5138321543175cac3e51cc21c8309cbefd8bc1e8
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Per informazioni, vedere [Configurare le preferenze di sistema](/help/quicksilve
 
 >[!NOTE]
 >
->Versione di anteprima: 1 agosto 2024; produzione per rilascio rapido: con la versione 24.8 (agosto 2024); produzione per rilascio trimestrale: con la versione 24.10 (ottobre 2024)
+>Versione di anteprima: 1 agosto 2024; produzione per rilascio rapido: con la versione 24.8 (15 agosto 2024); produzione per rilascio trimestrale: con la versione 24.10 (ottobre 2024)
 
 I messaggi di conferma Elimina utente e Disattiva utente visualizzati dagli utenti durante l’eliminazione o la disattivazione di un utente sono stati aggiornati a una progettazione più moderna, coerente con altre aree di Workfront.
 
@@ -42,7 +42,7 @@ Per informazioni sull&#39;eliminazione e la disattivazione degli utenti, vedere 
 
 >[!NOTE]
 >
->Versione di anteprima: 1 agosto 2024; produzione per rilascio rapido: con la versione 24.8 (agosto 2024); produzione per rilascio trimestrale: con la versione 24.10 (ottobre 2024)
+>Versione di anteprima: 1 agosto 2024; produzione per rilascio rapido: con la versione 24.8 (15 agosto 2024); produzione per rilascio trimestrale: con la versione 24.10 (ottobre 2024)
 
 La pagina Pool di risorse è stata aggiornata con un design più moderno, coerente con le altre aree di Workfront.
 
@@ -62,8 +62,8 @@ Per informazioni sull&#39;eliminazione di un&#39;attività, vedere [Elimina atti
 
 >[!NOTE]
 >
->Versione di anteprima: 17 luglio 2024; produzione per rilascio rapido: con la versione 24.8 (agosto 2024); produzione per rilascio trimestrale: con la versione 24.10 (ottobre 2024)
+>Versione di anteprima: 17 luglio 2024; produzione per rilascio rapido: con la versione 24.8 (15 agosto 2024); produzione per rilascio trimestrale: con la versione 24.10 (ottobre 2024)
 
 È stata aggiornata la pagina Notifica (a cui si accede facendo clic sull’icona di notifica nella barra degli strumenti principale e poi facendo clic su Tutte le notifiche) con una progettazione più moderna, coerente con le altre aree di Workfront.
 
-Per informazioni, vedere [Creare e gestire ruoli](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+Per informazioni, consulta [Visualizzare e gestire le notifiche in-app](/help/quicksilver/workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).

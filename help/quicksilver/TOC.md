@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: e97d4b7565370feaf23d73b17b97f88f4b8afa63
 workflow-type: tm+mt
-source-wordcount: '14317'
+source-wordcount: '14330'
 ht-degree: 2%
 
 ---
@@ -21,8 +21,10 @@ ht-degree: 2%
       * [Prepararsi per una versione trimestrale di Adobe Workfront](product-announcements/product-releases/release-readiness.md)
       * Versione {#release-24-q4} del quarto trimestre 2024
          * [Panoramica sulla versione del quarto trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
+         * [Miglioramenti per gli amministratori del quarto trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md)
          * [Miglioramenti al progetto per il quarto trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md)
          * [Miglioramenti all’integrazione nel quarto trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md)
+         * [Altri miglioramenti durante il periodo di rilascio del quarto trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md)
          * [Aggiornamenti look-and-feel durante il periodo di rilascio del quarto trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-look-and-feel-updates.md)
       * Versione {#release-24-q3} del terzo trimestre 2024
          * [Panoramica sulla versione del terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
@@ -2411,7 +2413,7 @@ ht-degree: 2%
       * [Cerca elementi Adobe Workfront da Slack](workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md)
       * [Accedere agli oggetti di Adobe Workfront da un collegamento condiviso in Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md)
       * [Accedere ad Adobe Workfront da Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)
-      * [Post un commento di Slack come aggiornamento](workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
+      * [Pubblica un commento di Slack come aggiornamento](workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
       * [Ricevere notifiche Adobe Workfront in Slack](workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)
    * Adobe Workfront con Anaplan {#workfront-with-anaplan}
       * [Adobe Workfront con Anaplan](workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md)
