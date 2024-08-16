@@ -1,23 +1,24 @@
 ---
-title: "Panoramica dell’Assistente di Adobe Workfront Planning AI"
+title: Panoramica dell’Assistente di Adobe Workfront Planning AI
 description: È possibile utilizzare l’assistente AI per generare, aggiornare o rimuovere record in base al contesto della pagina e alla struttura dei record correnti. I comandi dell’utente e l’esecuzione di tali comandi da parte dell’IA collaborano per garantire che le modifiche apportate dall’IA vengano riflesse accuratamente nell’ambiente.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
+exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
+source-git-commit: 98ba6e1c1624639ba45ccf2cc3fd8e29bc716f89
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
 
-
 # Panoramica dell’Assistente di Adobe Workfront Planning AI
 
-<!-- update TOC and miniTOC when making this live-->
+<!-- update metadata above at GA-->
 
 >[!IMPORTANT]
 >
+><span class="preview">L&#39;Assistente AI è stato temporaneamente rimosso e tornerà in un secondo momento.</span>
 >Le informazioni contenute in questo articolo si riferiscono ad Adobe Workfront Planning e Workfront AI Assistant (beta), ovvero nuove offerte di Adobe Workfront.
 >
 >Attualmente, Workfront Planning è in una fase di accesso iniziale e Workfront AI Assistant è in una fase beta.
@@ -36,7 +37,7 @@ I comandi dell’utente e l’esecuzione di tali comandi da parte dell’IA coll
 
 ## Considerazioni sull’Assistente AI
 
-* Per impostazione predefinita, l’Assistente IA è disponibile per gli amministratori di Workfront.
+* Per impostazione predefinita, l’Assistente AI è disponibile per l’amministratore principale di Workfront. Per informazioni, vedere [Configurare le informazioni di base per il sistema](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 * L’amministratore di Workfront deve abilitare l’Assistente AI per tutti gli altri utenti. Per ulteriori informazioni, vedere [Attivare o disattivare l&#39;Assistente AI](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 

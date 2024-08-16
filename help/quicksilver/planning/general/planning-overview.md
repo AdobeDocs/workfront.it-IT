@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: 98ba6e1c1624639ba45ccf2cc3fd8e29bc716f89
 workflow-type: tm+mt
-source-wordcount: '1836'
+source-wordcount: '1855'
 ht-degree: 2%
 
 ---
@@ -103,6 +103,9 @@ Per informazioni sulle nuove funzionalità e sulla data di rilascio, vedere [Att
 | Accedere ai record di Planning dagli oggetti di Workfront | ✓ |                                  |                 |
 | Collegare i record di Planning dagli oggetti Workfront | ✓ |                                  |                 |
 | API pubblica di Workfront Planning | ✓ |                                  |                 |
+| Assistente di Workfront Planning AI* | ✓ |                                  |                 |
+
+*L&#39;Assistente AI è stato temporaneamente rimosso e tornerà in un secondo momento.
 
 ## Abilita Adobe Workfront Planning per gli utenti nell’istanza Workfront
 
