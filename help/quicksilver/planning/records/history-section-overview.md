@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '462'
 ht-degree: 3%
 
 ---
@@ -42,8 +42,7 @@ Nel pannello destro di un record vengono visualizzate le sezioni riportate di se
 1. Fare clic su una scheda del tipo di record.
 Viene visualizzata la pagina del tipo di record e vengono visualizzati tutti i record di quel tipo.
 
-1. Scegliere una vista tabella dal menu a discesa **Visualizza**.
-1. Fare clic sul nome di un record nella vista tabella.
+1. In qualsiasi visualizzazione fare clic sul nome di un record.
 
    Viene visualizzata la pagina del record. L’area Commenti (Comments) viene visualizzata per impostazione predefinita nel pannello di destra.
 1. Fai clic sull&#39;icona **Mostra cronologia** ![](assets/show-history-icon.png). Tutte le modifiche apportate ai campi del record vengono visualizzate nel pannello di destra, a partire da quello più recente.

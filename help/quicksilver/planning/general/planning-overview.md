@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 98ba6e1c1624639ba45ccf2cc3fd8e29bc716f89
+source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
 workflow-type: tm+mt
-source-wordcount: '1855'
+source-wordcount: '1874'
 ht-degree: 2%
 
 ---
@@ -89,8 +89,9 @@ Per informazioni sulle nuove funzionalità e sulla data di rilascio, vedere [Att
 | Condividere le visualizzazioni | ✓ | |  |
 | Condividere le visualizzazioni pubblicamente con risorse esterne | ✓ | |  |
 | Visualizzazioni duplicate | ✓ | |  |
-| Inviare richieste |                               |                                  | ✓ |
-| Descrizione creativa |                               |                                  | ✓ |
+| Inviare richieste |                               | ✓ |                 |
+| Esporta dettagli record in Word |                               | ✓ |                 |
+| Esporta dettagli record in PDF |                               |                                  | ✓ |
 | Personalizzare il colore e l&#39;icona di un record | ✓ |                                  |                 |
 | Aggiungere commenti ai record | ✓ |                                  |                 |
 | Ricevere notifiche in-app | ✓ |                                  |                 |
@@ -104,8 +105,9 @@ Per informazioni sulle nuove funzionalità e sulla data di rilascio, vedere [Att
 | Collegare i record di Planning dagli oggetti Workfront | ✓ |                                  |                 |
 | API pubblica di Workfront Planning | ✓ |                                  |                 |
 | Assistente di Workfront Planning AI* | ✓ |                                  |                 |
+| Generazione di rapporti sulle informazioni di Workfront Planning (dashboard Area di lavoro) |                               | ✓ |                 |
 
-*L&#39;Assistente AI è stato temporaneamente rimosso e tornerà in un secondo momento.
+*L&#39;Assistente AI è stato temporaneamente rimosso e sarà disponibile in un secondo momento.
 
 ## Abilita Adobe Workfront Planning per gli utenti nell’istanza Workfront
 
