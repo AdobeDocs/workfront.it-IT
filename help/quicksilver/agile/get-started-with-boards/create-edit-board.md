@@ -6,9 +6,9 @@ description: Dal dashboard [!UICONTROL bacheche], puoi creare una nuova bacheca 
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
+source-git-commit: efe636e14964cc8705839c9f534a9947327803d7
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '824'
 ht-degree: 1%
 
 ---
@@ -74,7 +74,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
       >[!NOTE]
       >
-      >Il limite di schede per le bacheche dinamiche è di 700 attività e 700 problemi, per un totale di 1.400 schede. Un numero elevato di schede sulla scheda può influire sulle prestazioni della scheda.
+      >Il limite di schede per le bacheche dinamiche è di 700 attività e 700 problemi, per un totale di 1.400 schede. Un numero elevato di schede sulla scheda può influire sulle prestazioni della scheda. Tutte le schede archiviate, sia nascoste che visibili, vengono conteggiate per questo limite.
 
    1. (Facoltativo) Seleziona [!UICONTROL **Non archiviare le schede completate**] per inserire le attività e i problemi completati nella bacheca come schede visibili nella colonna Completati. Se questa opzione non è selezionata, le schede completate al momento della creazione della bacheca vengono inserite nella bacheca come schede archiviate.
 

@@ -4,13 +4,13 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: Usa stati personalizzati come stati predefiniti
 description: Quando uno stato personalizzato viene impostato come predefinito, il nuovo stato predefinito viene utilizzato in tutto il sistema in vari modi. Il modo in cui viene utilizzato dipende dal fatto che sia impostato come stato predefinito a livello di sistema o di gruppo.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5b137cee-e03a-4176-a683-b77f2b27f5ce
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Quando uno stato personalizzato viene impostato come predefinito, il nuovo stato predefinito viene utilizzato in tutto il sistema in vari modi. Il modo in cui viene utilizzato dipende dal fatto che sia impostato come stato predefinito a livello di sistema o di gruppo.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -41,6 +43,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Stati personalizzati predefiniti a livello di sistema
 
@@ -76,7 +80,8 @@ Se lo stato personalizzato è uno stato Problema, tutti e quattro i tipi di prob
 
 ## Impostare uno stato personalizzato come predefinito
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. Nel pannello a sinistra, fai clic su **Preferenze progetto** > **Stati**.
 1. (Condizionale) Se si imposta uno stato predefinito per un gruppo, iniziare a digitare il nome del gruppo nel menu nell&#39;angolo superiore destro, quindi selezionarlo quando viene visualizzato.
 1. Apri la scheda **Progetto**, **Attività** o **Problemi**, a seconda del tipo di stato che desideri impostare come predefinito.

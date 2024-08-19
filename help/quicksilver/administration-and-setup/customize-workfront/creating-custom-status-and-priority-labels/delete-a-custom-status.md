@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
 title: Eliminare uno stato personalizzato
 description: È possibile eliminare uno stato di sistema personalizzato se non risulta più utile per l'organizzazione.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 73c4eb87-94f6-47bf-b447-eb02a703f7ef
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '482'
 ht-degree: 1%
 
 ---
@@ -41,6 +41,8 @@ Per istruzioni sull&#39;eliminazione dello stato di un gruppo, vedere [Eliminare
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
@@ -62,9 +64,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
++++
+
 ## Eliminare uno stato di sistema personalizzato
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su **Preferenze progetto** > **Stati**.
 

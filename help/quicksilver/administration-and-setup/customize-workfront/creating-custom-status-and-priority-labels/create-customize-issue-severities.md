@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: Gli utenti possono utilizzare le gravità per definire la gravità di un problema. Puoi personalizzare una qualsiasi delle cinque gravità predefinite esistenti in Adobe Workfront o crearne una nuova per i tuoi utenti.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 4%
+source-wordcount: '588'
+ht-degree: 5%
 
 ---
 
@@ -30,6 +30,8 @@ Gli utenti possono utilizzare le gravità per definire la gravità di un problem
 >Le attività e i progetti non hanno gravità.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -51,6 +53,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Gravità del problema incorporata
 
@@ -85,7 +89,7 @@ Workfront ha cinque livelli di gravità incorporati:
 
 In qualità di amministratore di Workfront, puoi creare e modificare le gravità dei problemi in base alle esigenze dei tuoi utenti.
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su **Preferenze progetto** > **Gravità**.
 

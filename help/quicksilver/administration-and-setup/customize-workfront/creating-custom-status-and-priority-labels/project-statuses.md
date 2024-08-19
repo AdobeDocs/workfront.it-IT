@@ -1,17 +1,17 @@
 ---
-title: Accedere all’elenco degli stati del progetto di sistema
+title: Accedere all'elenco degli stati dei progetti di sistema
 user-type: administrator
 content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: Gli utenti possono specificare lo stato di un progetto in modo che gli altri utenti possano visualizzare l’attuale fase di sviluppo del progetto in un determinato momento.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1fc91438-1ead-40d2-b0aa-863c1125c2fb
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,8 @@ Puoi anche aggiungere stati di progetto personalizzati in base alle esigenze del
 In qualità di amministratore di Workfront, puoi configurare lo stato predefinito per tutti i nuovi progetti nel sistema. Per istruzioni, consulta [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -49,13 +51,15 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
++++
+
 ## Accedere agli stati del progetto
 
 In qualità di amministratore di Workfront, puoi accedere all’elenco degli stati dei progetti a livello di sistema.
 
 Per informazioni sulla modifica dello stato di un sistema e sulla creazione di stati personalizzati, vedere [Creare o modificare uno stato](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Fai clic su **Preferenze progetto** > **Stati**.
 

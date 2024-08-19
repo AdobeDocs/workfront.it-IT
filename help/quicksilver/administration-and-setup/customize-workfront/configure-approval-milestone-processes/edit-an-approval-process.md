@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
 workflow-type: tm+mt
-source-wordcount: '1954'
+source-wordcount: '1950'
 ht-degree: 1%
 
 ---
@@ -35,6 +35,8 @@ Per informazioni sulla creazione dei processi di approvazione, vedere [Creare un
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Devi avere i seguenti:
 
 <table style="table-layout:auto"> 
@@ -58,9 +60,12 @@ Devi avere i seguenti:
 
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
++++
+
 ## Modificare un processo di approvazione esistente
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. (Condizionale) Se stai modificando un processo di approvazione a livello di sistema, fai clic su **Processi** > **Approvazioni** nel pannello a sinistra.
 
    Oppure

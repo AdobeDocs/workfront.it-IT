@@ -1,17 +1,17 @@
 ---
-title: Accedere all’elenco degli stati dei problemi di sistema
+title: Accedere all’elenco degli stati dei problemi del sistema
 user-type: administrator
 content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: È possibile utilizzare lo stato di un problema per mostrare agli utenti del sistema in quale fase di sviluppo si trova un problema in un determinato momento.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bdaec2f-acdf-4cbf-a308-ebcc861dbb89
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1467'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 È possibile utilizzare lo stato di un problema per mostrare agli utenti del sistema in quale fase di sviluppo si trova un problema in un determinato momento.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -43,13 +45,15 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
++++
+
 ## Accedere agli stati dei problemi
 
 Puoi accedere e modificare gli stati dei problemi a livello di sistema. È possibile modificare alcune informazioni sugli stati di sistema predefiniti oppure creare nuovi stati personalizzati. Per ulteriori informazioni sulla creazione di stati personalizzati o sulla modifica di stati di sistema, vedere [Creare o modificare uno stato](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 Per accedere agli stati dei problemi a livello di sistema:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Fai clic su **Preferenze progetto** > **Stati**.
 

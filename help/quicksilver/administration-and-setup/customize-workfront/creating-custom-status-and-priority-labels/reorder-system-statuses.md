@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-title: Riordina gli stati a livello di sistema e di gruppo
+title: Riordina stati a livello di sistema e di gruppo
 description: In qualità di amministratore di Workfront, puoi modificare l’ordine degli stati di progetto, attività e problema per tutti gli utenti del sistema o per un singolo gruppo.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6fee45a6-1a55-4351-8b08-88244c742ed5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '516'
 ht-degree: 6%
 
 ---
@@ -35,6 +35,8 @@ In qualità di amministratore di Workfront, puoi modificare l’ordine degli sta
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
 
 <table style="table-layout:auto"> 
@@ -53,6 +55,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano o il tipo di licenza di cui si dispone, contattare l&#39;amministratore di Workfront.
+
++++
 
 ## Ordine predefinito degli stati
 
@@ -108,7 +112,7 @@ Per impostazione predefinita, gli stati vengono visualizzati nell&#39;ordine seg
 
 ## Riordina gli stati per attività e progetti a livello di sistema o per un gruppo
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su **Preferenze progetto > Stati**.
 1. (Condizionale) Se si stanno riordinando gli stati per un gruppo, iniziare a digitare il nome del gruppo nella casella nell&#39;angolo superiore destro, quindi fare clic sul nome quando viene visualizzato.

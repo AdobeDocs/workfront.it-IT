@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
-title: Elenca gli oggetti con un processo di approvazione in sospeso utilizzando un determinato stato
+title: Elencare oggetti con un processo di approvazione in sospeso utilizzando un determinato stato
 description: Se si tenta di eliminare uno stato, è possibile che venga visualizzato un messaggio di errore che indica che non è possibile eliminarlo perché è utilizzato in processi di approvazione in sospeso sugli oggetti nel sistema. Se si desidera trovare ed esaminare tali oggetti per decidere cosa è necessario fare, è possibile eseguire un report che li elenca.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 52dd8750-9a6f-4ac6-9779-ba4ea9b6f4e0
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,8 @@ Se si tenta di eliminare uno stato, è possibile che venga visualizzato un messa
 
 ## In modalità standard
 
-1. Vai all&#39;area **Reporting** nella barra di navigazione globale, quindi seleziona la scheda **Reports**.
-1. Fai clic sull&#39;icona del menu principale ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **Rapporti**.
+{{step1-to-reports}}
+
 1. Fai clic su **Nuovo rapporto**, quindi seleziona **Rapporto progetto**, **Rapporto attività** o **Rapporto problemi**.
 1. Apri la scheda **Filtri**.
 1. Fai clic su **Aggiungi regola filtro**, quindi effettua le seguenti operazioni per impostare la regola:
@@ -42,7 +42,8 @@ Se si tenta di eliminare uno stato, è possibile che venga visualizzato un messa
 
 ## In modalità testo
 
-1. Fai clic sull&#39;icona del menu principale ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **Rapporti**.
+{{step1-to-reports}}
+
 1. Fai clic su **Nuovo rapporto**, quindi seleziona **Rapporto progetto**, **Rapporto attività** o **Rapporto problemi**.
 1. Apri la scheda **Filtri**.
 1. Selezionare **Passa alla modalità testo**.

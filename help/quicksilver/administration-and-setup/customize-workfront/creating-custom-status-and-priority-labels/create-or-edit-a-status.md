@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '955'
 ht-degree: 2%
 
 ---
@@ -66,7 +66,7 @@ Puoi aggiungere uno stato personalizzato da utilizzare per l’intera organizzaz
 
 Quando crei uno stato personalizzato per l’intera organizzazione, puoi configurarlo in modo che tutti i gruppi del sistema possano utilizzarlo senza modificarlo. Oppure puoi configurarlo in modo che gli amministratori dei gruppi possano modificarlo per i loro gruppi, come spiegato in [Creare o modificare lo stato di un gruppo](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
-1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic sull&#39;icona **[!UICONTROL Setup]** ![Setup](/help/_includes/assets/gear-icon-setup.png).
+{{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su **Preferenze progetto** > **Stati**.
 

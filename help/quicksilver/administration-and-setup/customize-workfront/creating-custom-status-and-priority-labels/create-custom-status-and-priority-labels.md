@@ -1,23 +1,23 @@
 ---
-title: Stati ed etichette di priorità
+title: "Creare stati personalizzati ed etichette di priorità: indice articolo"
 user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
 description: In qualità di amministratore di Adobe Workfront, puoi creare stati personalizzati per progetti, attività e problemi. Possono essere destinati agli utenti di tutto il sistema Workfront o a gruppi o sottogruppi specifici. Lo stato di un elemento di lavoro rappresenta lo stato di sviluppo corrente.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 94248a76-6531-4196-964d-6fd51ed02f6a
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 0%
+source-wordcount: '145'
+ht-degree: 3%
 
 ---
 
-# Creare stati personalizzati ed etichette di priorità
+# Creare stati personalizzati ed etichette di priorità: indice articolo
 
 Questa sezione contiene i seguenti articoli:
 
