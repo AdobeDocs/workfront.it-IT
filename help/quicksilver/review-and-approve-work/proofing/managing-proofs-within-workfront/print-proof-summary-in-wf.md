@@ -6,9 +6,9 @@ description: Puoi stampare un riepilogo della bozza, salvarlo come PDF o esporta
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 129c8e6b-5c66-445b-a5d0-7b1460aeabd6
-source-git-commit: 1b85267e811f5832480316be5322ee819abaf190
+source-git-commit: 918d51e3b832a3104777346cebd54a4830e2d826
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '765'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 >[!NOTE]
 >
->Non è possibile stampare contemporaneamente più riepiloghi delle bozze dall&#39;elenco dei documenti.
+>* I riepiloghi superiori a 1 GB non sono supportati.
+>* Non è possibile stampare contemporaneamente più riepiloghi delle bozze dall&#39;elenco dei documenti.
 
 1. Nell&#39;elenco dei documenti che contiene la bozza, posizionare il puntatore del mouse sulla riga contenente il documento, quindi fare clic su **Stampa riepilogo**.
 
