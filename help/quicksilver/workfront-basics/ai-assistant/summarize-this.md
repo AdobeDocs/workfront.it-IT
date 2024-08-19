@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
+source-git-commit: 513d33c653901394f35c342d8dbf89906017fb3f
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '234'
 ht-degree: 2%
 
 ---
@@ -32,6 +32,31 @@ L&#39;Assistente IA può riepilogare i seguenti oggetti:
 >La funzionalità di riepilogo dell’Assistente AI è diversa da quella del pannello Riepilogo.
 >
 >Per informazioni sul pannello Riepilogo in Workfront, vedi [Panoramica di riepilogo](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
+
+## Requisiti di accesso
+
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">piano Adobe Workfront</td> 
+   <td><p>Nuovo: Qualsiasi</p>
+       <p>oppure</p>
+       <p>Corrente: non disponibile</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td><p>Nuovo: Standard</p>
+       <p>oppure</p>
+       <p>Corrente: non disponibile</p></td>
+  </tr> 
+ </tbody> 
+</table>
+
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Riepilogare un oggetto
 
