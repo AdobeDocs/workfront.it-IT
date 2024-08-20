@@ -3,13 +3,13 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration;setup;user-management
 navigation-topic: configure-proofing-functionality
-title: Accesso alla funzionalità di verifica in Workfront
+title: Accesso alla funzionalità di correzione in Workfront
 description: La funzionalità di verifica disponibile per gli utenti dipende dal piano Workfront acquistato dall'organizzazione.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 30a41ae9-9755-4c7b-9e3b-d4a8b0ad7ee8
-source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%

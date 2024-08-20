@@ -2,24 +2,26 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
-title: Configurare i ruoli di verifica predefiniti
+title: Configura ruoli bozza predefiniti
 description: In qualità di amministratore di Adobe Workfront, puoi configurare i ruoli di bozza predefiniti per gli utenti e gli utenti guest che accedono alle bozze create in Workfront. Chiunque aggiunga utenti a una bozza può modificarli in base a tali ruoli.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: d64213bf-f270-404f-a45a-6f94c7b7cb91
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 1%
+source-wordcount: '550'
+ht-degree: 2%
 
 ---
 
-# Configurare i ruoli di verifica predefiniti
+# Configurare ruoli di bozza predefiniti
 
 In qualità di amministratore di Adobe Workfront, puoi configurare i ruoli di bozza predefiniti per gli utenti e gli utenti guest che accedono alle bozze create in Workfront. Chiunque aggiunga utenti a una bozza può modificarli in base a tali ruoli.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -44,11 +46,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
-## Configurare i ruoli di verifica predefiniti
++++
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+## Configurare ruoli di bozza predefiniti
 
-   <!--
+{{step-1-to-setup}}
+
+<!--
    <li In the left panel, click Proofs Proof roles.
    -->
 

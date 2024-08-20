@@ -8,10 +8,10 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: cfccb120-8759-49f2-8b7b-dabcd57d4fda
-source-git-commit: f391f43e96add70f8a5aeed259eee1259ed786a3
+source-git-commit: 5676910e53f1c4f49cab196e42bfbce8704887ca
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 6%
+source-wordcount: '557'
+ht-degree: 7%
 
 ---
 
@@ -53,7 +53,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Configurare le nuove impostazioni predefinite della bozza
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione**.
+{{step-1-to-setup}}
+
 1. Nel pannello a sinistra, fai clic su **Bozze** > **Impostazioni bozza**.
 1. Nella sezione **Nuovi valori predefiniti per la bozza** configura le impostazioni seguenti:
 
@@ -113,7 +114,8 @@ Gli utenti possono utilizzare le decisioni relative alle bozze per indicare lo s
 
 Per configurare le decisioni relative alle bozze:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione**.
+{{step-1-to-setup}}
+
 1. Nel pannello a sinistra, fai clic su **Bozze** > **Impostazioni bozza**.
 1. Nella sezione **Decisioni** puoi
 

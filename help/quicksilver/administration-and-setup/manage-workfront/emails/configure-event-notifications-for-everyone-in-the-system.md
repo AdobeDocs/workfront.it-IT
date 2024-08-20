@@ -1,18 +1,18 @@
 ---
-title: Configurare le notifiche degli eventi per tutti gli utenti del sistema
+title: Configurare le notifiche degli eventi per tutti nel sistema
 description: Le notifiche degli eventi attivano le e-mail agli utenti quando si verifica un determinato evento. In qualità di amministratore di Adobe Workfront o di utente con un livello di accesso alla Pianificazione, puoi configurare una notifica dell’evento per tutti gli utenti del sistema. La configurazione di una notifica di evento consiste nell’attivarla o disattivarla.
 author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Configurare le notifiche degli eventi per tutti gli utenti del sistema
+# Configurare le notifiche degli eventi per tutti nel sistema
 
 <!-- Audited: 1/2024 -->
 

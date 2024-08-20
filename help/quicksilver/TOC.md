@@ -3,7 +3,7 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: a06df1c4006b06e4fe5c730c1894fcc5122f68f5
+source-git-commit: 5676910e53f1c4f49cab196e42bfbce8704887ca
 workflow-type: tm+mt
 source-wordcount: '14334'
 ht-degree: 2%
@@ -406,13 +406,13 @@ ht-degree: 2%
             * [Webinar sulla versione di R1](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-webinars.md)
    * Annunci {#announcements}
       * [Notifiche](product-announcements/announcements/announcements.md)
-      * [Miglioramenti dei moduli personalizzati](product-announcements/announcements/custom-form-enhancements.md)
       * [Pianificazione delle funzioni non più supportate](product-announcements/announcements/feature-removal-timeline.md)
       * [Domande frequenti sulla finestra di manutenzione](product-announcements/announcements/maintenance-window-faq.md)
       * [Modifica necessaria per aggiungere le bozze al inserisco nell&#39;elenco Consentiti di lavoro di un’organizzazione](product-announcements/announcements/proofhq-domain-change-workfront.md)
       * [Annulla l’iscrizione ai messaggi del Centro notifiche nella nuova esperienza Adobe Workfront](product-announcements/announcements/unsubscribe-from-ac-messages.md)
       * Archivio notifiche {#announcement-archive}
          * [Archivio notifiche](product-announcements/announcements/announcement-archive/announcement-archive.md)
+         * [Miglioramenti dei moduli personalizzati](product-announcements/announcements/announcement-archive/custom-form-enhancements.md)
          * [App mobile aggiornata per iOS e Android (inizio agosto 2017)](product-announcements/announcements/announcement-archive/updated-mobile-app.md)
          * [TLS 1.2 è richiesto in Adobe Workfront](product-announcements/announcements/announcement-archive/tls-1-disabled.md)
          * [Il Componente Aggiuntivo Outlook 365 È Ora Disponibile](product-announcements/outlook-365-add-in/outlook-365-add-in-now-available.md)

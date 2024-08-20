@@ -6,9 +6,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '604'
 ht-degree: 4%
 
 ---
@@ -32,6 +32,8 @@ Alcune notifiche di eventi hanno più righe dell’oggetto, il che significa che
 >
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -58,9 +60,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
++++
+
 ## Personalizzare le righe dell’oggetto dell’e-mail per le notifiche dell’evento {#customize-email-subject-lines-for-event-notifications}
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su **E-mail** > **Notifiche**.
 

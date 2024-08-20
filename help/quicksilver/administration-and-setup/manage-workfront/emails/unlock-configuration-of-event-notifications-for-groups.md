@@ -8,9 +8,9 @@ author: Lisa, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 056d76c1-7e9b-49b9-974a-75765e53b7fd
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ Quando un amministratore configura una notifica di evento per un gruppo, la conf
 >
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -52,13 +54,15 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
++++
+
 ## Sblocca o riblocca la possibilità di configurare una notifica di evento
 
 >[!IMPORTANT]
 >
 >Quando si blocca nuovamente una notifica, tutti i gruppi nel sistema ereditano la notifica esattamente come è stata impostata. In questo modo si ignorano eventuali modifiche apportate dagli amministratori dei gruppi ai propri gruppi. È quindi consigliabile consultarli prima.
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Fai clic su **E-mail** > **Notifiche**.
 

@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: Impostare promemoria automatici
-description: Impostare promemoria automatici
+description: Puoi impostare promemoria automatici per attivare le notifiche e-mail quando tutte le attività o i problemi sono in scadenza, in ritardo o in prossimità della data di completamento pianificata.
 author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 4%
+source-wordcount: '627'
+ht-degree: 3%
 
 ---
 
@@ -35,6 +35,8 @@ Un promemoria automatico può essere inviato a uno o più dei seguenti:
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
@@ -56,11 +58,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
++++
+
 ## Impostare promemoria automatici
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Fai clic su **E-mail** >**Promemoria automatici**.
+1. Fai clic su **E-mail** > **Promemoria automatici**.
 
 1. Nell&#39;area **Invia una notifica in ritardo a**, selezionare una delle opzioni seguenti:
 
@@ -85,7 +89,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
         <td>Nell'area <b>Invia promemoria scadenza a</b>. Selezionare questa opzione se si desidera che l'utente assegnato a un'attività o a un problema riceva una notifica relativa all'elemento di lavoro che si avvicina alla data di scadenza.</td>
         <td></td>
     </tr>
-</table>
+   </table>
 
 1. Selezionare l&#39;ora per l&#39;invio del promemoria automatico selezionando la quantità di tempo precedente o successiva alla data di scadenza dell&#39;elemento di lavoro.
 

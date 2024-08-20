@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
+source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Per migliorare le prestazioni del sistema e semplificare l&#39;utilizzo dei modu
 
 >[!CAUTION]
 >
->L’eliminazione di un campo personalizzato comporta anche l’eliminazione di tutti i dati personalizzati immessi dagli utenti nel campo durante la compilazione dei moduli personalizzati allegati agli oggetti. I dati eliminati non possono essere recuperati.
+>L’eliminazione di un campo personalizzato comporta anche l’eliminazione di tutti i dati personalizzati immessi dagli utenti nel campo durante la compilazione dei moduli personalizzati allegati agli oggetti. I dati eliminati non possono essere recuperati. Inoltre, non esiste un sistema di notifica per avvisare gli utenti che utilizzano il modulo personalizzato che il modulo è stato eliminato.
 >
 >È possibile visualizzare tutte le maschere e i report personalizzati che utilizzano un campo personalizzato che si desidera eliminare per valutare le possibili ripercussioni. Per ulteriori informazioni, vedere [Visualizzare tutti i moduli personalizzati che utilizzano un determinato campo personalizzato o widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md) e [Visualizzare tutti i report che utilizzano un determinato campo personalizzato o widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md).
 >

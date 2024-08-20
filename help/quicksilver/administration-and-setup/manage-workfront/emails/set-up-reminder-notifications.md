@@ -1,11 +1,11 @@
 ---
-title: Impostare le notifiche di promemoria
+title: Imposta gli Avvisi di Promemoria
 description: Le notifiche di promemoria generano e-mail inviate agli utenti in base a criteri specificati. Le notifiche di promemoria ricordano agli utenti di un’azione la necessità di eseguire per un’attività, un problema, un progetto o una scheda orario.
 author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '1226'
 ht-degree: 2%

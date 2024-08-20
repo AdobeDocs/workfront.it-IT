@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: c89b21c6-fe70-4f46-aebd-5b82a667db72
-source-git-commit: 5cc1acffff12d78e48228f3ae223514c0ff379ef
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 Il Visualizzatore bozze desktop, progettato principalmente per la verifica del contenuto interattivo, è un&#39;applicazione che deve essere installata nel computer locale di ogni utente. In qualità di amministratore di Adobe Workfront o di Workfront Proof, puoi eseguire questa installazione.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -45,6 +47,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Requisiti di sistema
 

@@ -3,13 +3,13 @@ user-type: administrator
 product-area: system-administration
 keywords: modifica,e-mail,notifica,impostazioni,in blocco,modifica in blocco,configura,più,utenti
 navigation-topic: emails-administration
-title: Modificare le impostazioni delle notifiche e-mail per più utenti
+title: Modifica impostazioni di notifica e-mail per più utenti
 description: Questo articolo fornisce informazioni agli amministratori di Workfront o di gruppi su come aggiornare le notifiche e-mail di altri utenti.
 author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%

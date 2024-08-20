@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
-title: Configurare le impostazioni della bozza per l’organizzazione
+title: Configurare le impostazioni di bozza per l’organizzazione
 description: In qualità di amministratore di Adobe Workfront o di Workfront Proof, puoi personalizzare le impostazioni predefinite della bozza per la tua organizzazione. Queste impostazioni includono opzioni di condivisione predefinite, branding e altro ancora.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 29405172-c3dd-431f-a242-fd38b53a307d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 In qualità di amministratore di Adobe Workfront o di Workfront Proof, puoi personalizzare le impostazioni predefinite della bozza per la tua organizzazione. Queste impostazioni includono opzioni di condivisione predefinite, branding e altro ancora.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Devi avere i seguenti:
 
@@ -44,6 +46,8 @@ Devi avere i seguenti:
 
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
++++
+
 ## Configurare le azioni
 
 Per informazioni sull&#39;utilizzo delle azioni nel visualizzatore di bozze, vedere [Utilizzare azioni sui commenti della bozza](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md).
@@ -56,7 +60,7 @@ Puoi configurare le azioni per la tua organizzazione nei seguenti modi:
 
 ### Aggiungere o rinominare un’azione {#add-or-rename-an-action}
 
-1. Da Workfront, fare clic sul menu principale ![](assets/main-menu-icon.png), quindi fare clic su Bozza ![](assets/proofing-in-main-menu.png) per accedere a Workfront Proof.
+{{step1-to-proofing}}
 
 1. Fai clic su **Impostazioni** > **Impostazioni account** nell&#39;angolo superiore destro dell&#39;interfaccia di Workfront Proof, quindi fai clic sulla scheda **Impostazioni**.
 
@@ -73,7 +77,7 @@ Puoi configurare le azioni per la tua organizzazione nei seguenti modi:
 
 ### Disattivare o riattivare un&#39;azione {#deactivate-or-reactivate-an-action}
 
-1. Da Workfront, fare clic sul menu principale ![](assets/main-menu-icon.png), quindi fare clic su Bozza ![](assets/proofing-in-main-menu.png) per accedere a Workfront Proof.
+{{step1-to-proofing}}
 
 1. Fai clic su **Impostazioni** > **Impostazioni account** nell&#39;angolo superiore destro dell&#39;interfaccia di Workfront Proof, quindi fai clic sulla scheda **Impostazioni**.
 
@@ -82,7 +86,7 @@ Puoi configurare le azioni per la tua organizzazione nei seguenti modi:
 
 ### Riordina azioni {#reorder-actions}
 
-1. Da Workfront, fare clic sul menu principale ![](assets/main-menu-icon.png), quindi fare clic su Bozza ![](assets/proofing-in-main-menu.png) per accedere a Workfront Proof.
+{{step1-to-proofing}}
 
 1. Fai clic su **Impostazioni** > **Impostazioni account** nell&#39;angolo superiore destro dell&#39;interfaccia di Workfront Proof, quindi fai clic sulla scheda **Impostazioni**.
 
@@ -98,7 +102,7 @@ Per informazioni su come gli utenti possono selezionare i dispositivi durante la
 
 Per aggiungere un dispositivo personalizzato:
 
-1. Da Workfront, fare clic sul menu principale ![](assets/main-menu-icon.png), quindi fare clic su Bozza ![](assets/proofing-in-main-menu.png) per accedere a Workfront Proof.
+{{step1-to-proofing}}
 
 1. Fai clic su **Impostazioni** > **Impostazioni account** nell&#39;angolo superiore destro dell&#39;interfaccia di Workfront Proof, quindi fai clic sulla scheda **Impostazioni**.
 

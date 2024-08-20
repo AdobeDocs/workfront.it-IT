@@ -6,11 +6,12 @@ title: Impostare i tassi di cambio
 description: In qualità di amministratore di Adobe Workfront, puoi impostare i tassi di cambio in Workfront.
 feature: System Setup and Administration
 role: Admin
+author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: b0cf0a5ec6b932267c8714b966638d8da93331b8
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 3%
+source-wordcount: '556'
+ht-degree: 2%
 
 ---
 
@@ -41,6 +42,8 @@ La modalità di impostazione dei tassi di cambio influisce sulla possibilità de
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
@@ -62,9 +65,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
++++
+
 ## Impostare i tassi di cambio
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Fai clic su **Preferenze progetto** > **Tassi di cambio.**
 

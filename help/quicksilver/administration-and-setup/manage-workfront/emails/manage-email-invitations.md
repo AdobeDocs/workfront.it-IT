@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: Gestire gli inviti e-mail per nuovi utenti
+title: Gestire gli inviti e-mail ai nuovi utenti
 description: In qualità di amministratore di Adobe Workfront, puoi aggiungere utenti a Workfront e avvisarli che sono stati aggiunti, utilizzando inviti e-mail.
 author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
 
-# Gestire gli inviti e-mail per nuovi utenti
+# Gestire gli inviti e-mail per i nuovi utenti
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">*** DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
@@ -44,6 +44,8 @@ Per informazioni sulla ricezione di inviti e-mail, vedere [Ricevere inviti e-mai
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
@@ -65,6 +67,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
++++
+
 ## Genera inviti e-mail {#generate-email-invitations}
 
 Gli inviti e-mail vengono generati nei seguenti scenari:
@@ -80,7 +84,8 @@ Gli inviti e-mail vengono generati nei seguenti scenari:
 
 Per generare manualmente inviti e-mail per utenti esistenti non registrati:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Utenti** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-users}}
+
 1. Seleziona l&#39;utente che mostra l&#39;etichetta **Non registrato** dopo il nome.
 
    ![](assets/unreg-user-qs-350x221.png)
@@ -101,7 +106,7 @@ Per generare manualmente inviti e-mail per utenti esistenti non registrati:
 
 In qualità di amministratore di Workfront, puoi configurare il messaggio da includere con gli inviti e-mail per i nuovi utenti.
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Nell&#39;elenco a sinistra, fare clic su **E-mail** > **Inviti**.
 

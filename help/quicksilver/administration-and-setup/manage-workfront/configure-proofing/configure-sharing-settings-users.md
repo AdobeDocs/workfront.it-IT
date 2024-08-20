@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 505c183b-6252-4367-898f-2429824860be
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 In qualità di amministratore di Adobe Workfront o di Workfront Proof, puoi configurare gli account utente con cui è possibile condividere le bozze, specificare se gli utenti possono visualizzare tutte le versioni di una bozza e i tempi in cui gli utenti possono accedere agli elementi condivisi.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Devi avere i seguenti:
 
@@ -44,9 +46,11 @@ Devi avere i seguenti:
 
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
++++
+
 ## Configurare la condivisione con altri account
 
-1. Da Workfront, fare clic sul menu principale ![](assets/main-menu-icon.png), quindi fare clic su Bozza ![](assets/proofing-in-main-menu.png) per accedere a Workfront Proof.
+{{step1-to-proofing}}
 
 1. Fai clic su **Impostazioni** > **Impostazioni account**, quindi fai clic sulla scheda **Impostazioni**.
 
@@ -57,7 +61,7 @@ Devi avere i seguenti:
 
 ## Configurare la visibilità per tutte le versioni di una bozza condivisa
 
-1. Da Workfront, fare clic sul menu principale ![](assets/main-menu-icon.png), quindi fare clic su Bozza ![](assets/proofing-in-main-menu.png) per accedere a Workfront Proof.
+{{step1-to-proofing}}
 
 1. Fai clic su **Impostazioni** > **Impostazioni account**, quindi fai clic sulla scheda **Impostazioni**.
 
@@ -75,7 +79,7 @@ Devi avere i seguenti:
 
 Per configurare quando le bozze con un flusso di lavoro automatizzato sono visibili agli utenti:
 
-1. Da Workfront, fare clic sul menu principale ![](assets/main-menu-icon.png), quindi fare clic su Bozza ![](assets/proofing-in-main-menu.png) per accedere a Workfront Proof.
+{{step1-to-proofing}}
 
 1. Fai clic su **Impostazioni** > **Impostazioni account**, quindi fai clic sulla scheda **Impostazioni**.
 
