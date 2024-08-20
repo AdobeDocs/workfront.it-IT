@@ -1,16 +1,16 @@
 ---
-title: "Nozioni di base sulle API di Adobe Workfront Planning"
+title: Nozioni di base sulle API di Adobe Workfront Planning
 description: L’obiettivo per l’API di pianificazione di Adobe Workfront è semplificare la creazione di integrazioni con Planning introducendo un’architettura REST-ful che funziona tramite HTTP. Questo documento presuppone che tu abbia familiarità con le risposte REST e JSON e descrive l’approccio adottato dall’API di Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: ebdcb8ee2a6efe96c77f863e85f8911d20ab1dd4
+exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
+source-git-commit: 83ea00f63f597731f808673d45b6103522995fb1
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 2%
 
 ---
-
 
 # Nozioni di base sulle API di Adobe Workfront Planning
 
@@ -98,13 +98,13 @@ Workfront Planning supporta i seguenti modificatori di ricerca:
         <td>$majorThanOrEqual </td>
         <td><code>"fieldId": { "$greaterThanOrEqual": 10 } </code> </td>
         <td>Restituisce record il cui valore di campo è maggiore o uguale al filtro  </td>
-        <td><ul><li>10</li><li>20</li><ul><li>25</li> </td>
+        <td><ul><li>10</li><li>20</li><li>25</li> </ul></td>
     </tr>
     <tr>
         <td>$lessThan </td>
         <td><code>"fieldId": { "$lessThan": 10 } </code> </td>
         <td>Restituisce record il cui valore di campo è minore del filtro  </td>
-        <td><ul><li>5</li><li>9</li><ul> </td>
+        <td><ul><li>5</li><li>9</li></td></ul> 
     </tr>
     <tr>
         <td>$lessThanOrEqual </td>
@@ -355,6 +355,3 @@ Corpo della richiesta:
 Per assicurarti che i risultati siano impaginati correttamente, utilizza un parametro di ordinamento. Questo consente di restituire i risultati nello stesso ordine, in modo che l’impaginazione non si ripeta né salti i risultati.
 
 Per ulteriori informazioni sull&#39;ordinamento, vedere [Ordinamento dei risultati della query nell&#39;API](#sorting-query-results-in-the-api) in questo articolo.
-
-
-
