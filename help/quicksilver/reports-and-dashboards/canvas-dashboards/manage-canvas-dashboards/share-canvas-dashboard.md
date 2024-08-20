@@ -6,14 +6,18 @@ description: Puoi condividere un dashboard di Canvas con altri utenti di Adobe W
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
 
 # Condividere un dashboard Canvas
+
+>[!IMPORTANT]
+>
+>Questa pagina descrive le funzionalità disponibili solo per gli utenti iscritti a Dashboard di Canvas in versione beta chiusa. Per ulteriori informazioni, consulta [Informazioni sulla versione beta delle dashboard di Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
 Puoi condividere un dashboard di Canvas con altri utenti di Adobe Workfront in modo che possano visualizzarlo o modificarlo.
 

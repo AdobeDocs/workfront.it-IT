@@ -6,14 +6,18 @@ description: I rapporti creati tramite lo strumento Rapporti di Adobe Workfront 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
 
 # Aggiungere un rapporto esistente a un dashboard di Canvas
+
+>[!IMPORTANT]
+>
+>Questa pagina descrive le funzionalità disponibili solo per gli utenti iscritti a Dashboard di Canvas in versione beta chiusa. Per ulteriori informazioni, consulta [Informazioni sulla versione beta delle dashboard di Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
 I rapporti creati tramite lo strumento Rapporti di Adobe Workfront possono essere aggiunti a un dashboard di Canvas. Per ulteriori informazioni sulla creazione di report, vedere [Introduzione ai report](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
 

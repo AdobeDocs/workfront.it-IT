@@ -6,14 +6,18 @@ description: È possibile aggiungere a un dashboard Canvas un rapporto KPI che v
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
 
 # Creare un rapporto KPI in un dashboard Area di lavoro
+
+>[!IMPORTANT]
+>
+>Questa pagina descrive le funzionalità disponibili solo per gli utenti iscritti a Dashboard di Canvas in versione beta chiusa. Per ulteriori informazioni, consulta [Informazioni sulla versione beta delle dashboard di Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
 È possibile aggiungere a un dashboard Canvas un rapporto KPI che visualizzi in modo evidente un singolo indicatore KPI aggregato.
 

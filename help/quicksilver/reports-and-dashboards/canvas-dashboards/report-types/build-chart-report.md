@@ -6,14 +6,18 @@ description: È possibile aggiungere a un dashboard di Canvas un report di grafi
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
 
 # Creare un rapporto di grafico in un dashboard di Canvas
+
+>[!IMPORTANT]
+>
+>Questa pagina descrive le funzionalità disponibili solo per gli utenti iscritti a Dashboard di Canvas in versione beta chiusa. Per ulteriori informazioni, consulta [Informazioni sulla versione beta delle dashboard di Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
 È possibile aggiungere a un dashboard di Canvas un report di grafici che visualizza i dati sotto forma di barre, colonne, linee o grafici a torta.
 
