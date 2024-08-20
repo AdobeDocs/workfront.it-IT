@@ -6,7 +6,7 @@ description: Puoi generare una nuova bozza statica o una nuova versione di una b
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1c0511f6-c60b-4a81-bfff-55b6f866add6
-source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
+source-git-commit: 0a7cdf217d3c8227c569831b16f09c0b1d9c7111
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 0%
@@ -75,7 +75,7 @@ Per creare una bozza statica, il sito web deve essere accessibile al pubblico (n
 
    >[!NOTE]
    >
-   > L&#39;URL deve contenere meno di 1.000 caratteri.
+   > L&#39;URL deve contenere meno di 2.000 caratteri.
 
 1. Fai clic sull’URL aggiunto.
 
