@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
 workflow-type: tm+mt
 source-wordcount: '3390'
 ht-degree: 2%
@@ -394,6 +394,24 @@ Per ulteriori informazioni, vedere [Panoramica dei campi formula](/help/quicksil
    >
    >* È possibile fare riferimento a un campo fino a 4 livelli di distanza dal tipo di record corrente. Ad esempio, se si crea un campo formula per un tipo di record Attività e l&#39;attività è connessa al tipo di record Prodotto connesso al tipo di record Campagna connesso a un progetto Workfront, è possibile fare riferimento al budget del progetto nella formula che si sta creando per il tipo di record Attività.
 
+<!--1. In the **Format** field, select from the following choices to identify the format of the result displayed in the formula-type field:
+
+    * **Text**: The result of the formula field displays as plain text. 
+    * **Number**: The result of the formula field displays as a number. 
+    * **Percent**: The result of the formula field displays as a number followed by a percentage symbol.  
+    * **Currency**: The result of the formula field displays as a number preceded or followed by a currency symbol.  
+    * **Tags**: The result of the formula field displays as a tag with the object's name. 
+    * **Date**: The result of the formula field displays as a date. 
+
+        A preview of what the result will look like displays under the **Format** field. 
+
+        ![](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
+
+        >[!WARNING]
+        >
+        >If the result of the formula does not match the selected format, the field will show an error message where it displays. 
+
+-->
 1. Fai clic su **Crea**.
 
    Il nuovo campo formula viene aggiunto come colonna al tipo di record e i relativi valori possono essere associati ai record.

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
+source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '644'
 ht-degree: 1%
 
 ---
@@ -98,8 +98,6 @@ La sezione Pianificazione è disponibile per i seguenti oggetti Workfront:
 ## Considerazioni sulla sezione Pianificazione degli oggetti di Workfront
 
 * I tipi di record di Workfront Planning devono essere connessi ai tipi di oggetto di Workfront.
-
-* Almeno un record deve essere connesso a un oggetto Workfront per poter visualizzare i record in Workfront.
 
   Per informazioni, vedere i seguenti articoli:
 

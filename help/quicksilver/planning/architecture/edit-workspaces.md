@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -91,28 +91,20 @@ Per ulteriori informazioni sui requisiti di accesso, vedere [Requisiti di access
 
 {{step1-to-planning}}
 
-1. (Condizionale) Se sei un amministratore di Workfront, fai clic su **Aree di lavoro personali** per accedere alle aree di lavoro create oppure su **Altre aree di lavoro** per accedere alle aree di lavoro condivise con te. <!--replace My workspaces with **Workspaces I'm on**-->
+1. (Condizionale) Se sei un amministratore di Workfront, fai clic su **Aree di lavoro in cui sono presente** per accedere alle aree di lavoro create oppure su **Altre aree di lavoro** per accedere alle aree di lavoro condivise con te.
 
-<!--***********Replace the steps from the next below till the "Update the following information in the Edit workspace box:" (but keep this last step)*******
+<!--***********Replace the steps from the next below till the "Update the following information in the Edit workspace box:" (but keep this last step)*******-->
 
-1. (Optional) Click **Show more** to display additional workspaces. The **Show more** link displays only when you have more than two rows of workspace cards.
-1. (Optional) ClicK **Show less** to limit the number of workspaces that display on the screen. 
-1. To edit a workspace, do one of the following:
+1. (Facoltativo) Fai clic su **Mostra tutto** per visualizzare altre aree di lavoro. Il collegamento **Mostra tutto** viene visualizzato solo se sono presenti più di due righe di schede dell&#39;area di lavoro.
+1. (Facoltativo) Fai clic su **Mostra meno** per limitare il numero di aree di lavoro visualizzate sullo schermo.
+1. Per modificare un&#39;area di lavoro, effettuate una delle seguenti operazioni:
 
-   * Hover over the workspace card, then click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the card
-      Or
-   * Click a workspace card to open the workspace, then click **More** to the right of the workspace name. 
-1. Click **Edit**.
+   * Passa il puntatore del mouse sulla scheda dell&#39;area di lavoro, quindi fai clic sul menu **Altro** ![](assets/more-menu.png) nell&#39;angolo superiore destro della scheda
+Oppure
+   * Fai clic su una scheda dell&#39;area di lavoro per aprirla, quindi fai clic sul menu **Altro** ![](assets/more-menu.png) a destra del nome dell&#39;area di lavoro.
+1. Fai clic su **Modifica**.
 
-   ![](assets/edit-workspace-box.png)
-   -->
-
-1. Fai clic su una scheda dell’area di lavoro per aprirla.
-
-   Viene visualizzata la pagina del workspace.
-
-1. Fare clic nel nome dell&#39;area di lavoro nell&#39;intestazione della nuova area di lavoro per rinominarla, quindi premere **Invio**.
-1. Fai clic sul menu **Altro** ![](assets/more-menu.png) a destra del nome dell&#39;area di lavoro nell&#39;intestazione, quindi fai clic su **Modifica**.
+   Viene visualizzata la casella **Modifica area di lavoro**.
 
    ![](assets/edit-workspace-box.png)
 

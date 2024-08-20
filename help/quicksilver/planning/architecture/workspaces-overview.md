@@ -4,9 +4,9 @@ description: Un'area di lavoro è una raccolta di tipi di record utilizzati da u
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,8 @@ Un’area di lavoro è una raccolta di tipi di record utilizzati da un’unità 
 
    * Per gli amministratori di sistema, le aree di lavoro vengono visualizzate nelle seguenti schede:
 
-      * **Aree di lavoro personali**: visualizza le aree di lavoro create. <!--Replace with: **Workspaces I'm on**: Displays workspaces you created or workspaces that are shared with you.-->
-      * **Altre aree di lavoro**: visualizza tutte le altre aree di lavoro del sistema, incluse quelle condivise con te. <!--Replace with: **Other workspaces**: Displays all other workspaces in the system.-->
+      * **Aree di lavoro in cui si trova**: visualizza le aree di lavoro create dall&#39;utente o condivise con l&#39;utente.
+      * **Altre aree di lavoro**: visualizza tutte le altre aree di lavoro nel sistema.
 
    * Per tutti gli altri utenti, le aree di lavoro create e quelle condivise con gli altri utenti vengono visualizzate nell&#39;area Workspace.
 
@@ -55,6 +55,7 @@ Un’area di lavoro è una raccolta di tipi di record utilizzati da un’unità 
   Gli amministratori di sistema possono gestire tutte le aree di lavoro, anche quelle che non hanno creato.
 
 <!--make this live with the GA: * There is no limit for how many workspaces you can create in your environment. However, we recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.-->
+
 * Il numero di oggetti del workspace che è possibile creare nell&#39;istanza di Workfront Planning è limitato. Per informazioni, vedere [Panoramica delle limitazioni degli oggetti di Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md).
 
 

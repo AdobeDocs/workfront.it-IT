@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '538'
 ht-degree: 1%
 
 ---
@@ -134,7 +134,10 @@ Per ulteriori informazioni sui requisiti di accesso, vedere [Requisiti di access
    * Area di lavoro vuota denominata **Workspace senza titolo** in cui è possibile iniziare ad aggiungere tipi di record manualmente quando si crea un&#39;area di lavoro da zero.
    * Area di lavoro denominata in base al modello selezionato, popolata con tipi di record di esempio. È possibile personalizzare ulteriormente i tipi di record e il workspace.
 
-   Per gli amministratori di Workfront, la nuova area di lavoro viene visualizzata nella scheda **Aree di lavoro personali**. <!--replace this with: **Workspaces I'm on** tab-->
+   Per gli amministratori di Workfront, la nuova area di lavoro viene visualizzata nella scheda **Aree di lavoro in cui sono presente**.
+
+   Per tutti gli altri utenti che possono creare aree di lavoro, la nuova area di lavoro viene visualizzata nell&#39;area **Aree di lavoro**.
+
 1. Fai clic sul nome del workspace nell’intestazione del nuovo workspace per rinominarlo, quindi premi Invio.
 
 1. (Facoltativo e condizionale) Se l&#39;area di lavoro è stata creata da un modello, fare clic all&#39;interno del nome delle sezioni **Tipi di record operativi** o **Tassonomie**

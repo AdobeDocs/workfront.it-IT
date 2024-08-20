@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '2507'
+source-wordcount: '2007'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Questo articolo descrive come collegare due tipi di record di Workfront Planning
 
 Dopo aver stabilito la connessione tra i record o i tipi di oggetto, è possibile collegare tra loro singoli record e visualizzare i campi del record o dei tipi di oggetto collegati in un record di Workfront Planning.
 
-<!-- uncomment out for the release close to GA: For general information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).-->
+Per informazioni generali sui tipi di connessione, vedere [Panoramica sui tipi di record connessi](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 Per informazioni sulla connessione di un record di Workfront Planning a un oggetto di un&#39;altra applicazione, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md).
 
@@ -111,71 +111,7 @@ Per un esempio di connessione di tipi di record e record, vedere [Esempio di con
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
-
-
-## Considerazioni sulla connessione dei tipi di record
-
-<!--DELETE THE CONTENT BELOW WHEN YOU MAKE "CONNECT RECORD TYPE OVERVIEW" ARTICLE PUBLIC-->
-
-* È possibile connettere le seguenti entità in Adobe Workfront Planning:
-
-   * Due tipi di record
-
-     I tipi di record devono appartenere allo stesso workspace.
-   * Tipo di record e tipo di oggetto di un&#39;altra applicazione.
-
-* È possibile connettere i tipi di record di Workfront Planning ai tipi di oggetto seguenti delle applicazioni seguenti:
-
-   * Adobe Workfront:
-
-      * Progetti
-      * Portfolio
-      * Programmi
-      * Aziende
-      * Gruppi
-
-   * Adobe Experience Manager Assets:
-
-      * Immagini
-      * Cartelle
-
-     >[!IMPORTANT]
-     >
-     >È necessario disporre di una licenza Adobe Experience Manager Assets e l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Business Platform o Adobe Admin Console per collegare i record di Workfront Planning ad Adobe Experience Manager Assets.
-     >
-     >Se hai domande sull&#39;onboarding in Adobe Admin Console, consulta le [Domande frequenti sull&#39;esperienza unificata di Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
-
-* Dopo aver creato singoli record per un tipo di record, è possibile selezionare i record a cui ci si connette dal campo del tipo di record collegato. Per informazioni, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md).
-
-* Dopo aver collegato un tipo di record a un altro tipo di record o a un tipo di oggetto di un&#39;altra applicazione, si verificano i seguenti scenari:
-
-   * **Quando si connettono due tipi di record**: viene creato un campo record collegato nel tipo di record da cui si sta effettuando la connessione. Un campo record collegato simile viene creato nel tipo di record a cui ci si connette.
-
-     Ad esempio, se si collega il tipo di record &quot;Campagna&quot; al tipo di record &quot;Prodotto&quot;, nel tipo di record Campagna viene creato un campo di record collegato denominato &quot;Prodotto collegato&quot; e nel tipo di record Prodotto viene creato automaticamente un tipo di record collegato denominato &quot;Campagna&quot;.
-
-   * **Quando si connette un tipo di record con un tipo di oggetto di un&#39;altra applicazione**:
-
-      * Nel tipo di record da cui si sta effettuando la connessione viene creato un campo record collegato. Nessun campo record collegato viene creato automaticamente sul tipo di oggetto dell&#39;altra applicazione.
-
-      * I campi dei record di Planning non sono accessibili dagli oggetti di Workfront.
-      * I campi dei record di pianificazione sono accessibili da Experience Manager Assets quando l’amministratore Workfront configura la mappatura dei metadati tramite l’integrazione tra Workfront e Adobe Experience Manager Assets. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
-
-   * **Quando si aggiungono campi collegati (o di ricerca) del record o dell&#39;oggetto a cui ci si connette**: è possibile connettere i campi dall&#39;oggetto dell&#39;altra applicazione al tipo di record di Workfront Planning. I campi collegati sono di sola lettura e visualizzano automaticamente le informazioni dei record o degli oggetti connessi quando si collegano i record o gli oggetti.
-
-     Ad esempio, se si collega il tipo di record &quot;Campagna&quot; a un progetto Workfront e si seleziona di inserire il campo Data di completamento pianificata del progetto nel record Pianificazione di Workfront, per la campagna viene automaticamente creato un campo collegato denominato Data di completamento pianificata (da progetto). Impossibile modificare manualmente il campo collegato. Nel campo Data di completamento pianificata (da progetto) viene visualizzata la Data di completamento pianificata dei progetti collegati.
-
-     >[!IMPORTANT]
-     >
-     >    Tutti coloro che dispongono di autorizzazioni di visualizzazione o di livello superiore per l&#39;area di lavoro possono visualizzare le informazioni nei campi collegati, indipendentemente dalle autorizzazioni o dal livello di accesso nell&#39;applicazione dei tipi di oggetto collegati.
-
-* I campi record collegati sono preceduti dall&#39;icona di relazione ![](assets/relationship-field-icon.png).
-
-  I campi collegati sono preceduti da un’icona che identifica il tipo di campo. Ad esempio, i campi collegati (o di ricerca) sono preceduti da icone che indicano che un campo è un numero, un paragrafo o una data.
 
 
 ## Connetti tipi di record
@@ -204,15 +140,17 @@ Per un esempio di connessione di tipi di record e record, vedere [Esempio di con
 
      >[!TIP]
      >
-     >Solo i tipi di record dell&#39;area di lavoro selezionata sono disponibili per la connessione.
      > 
      >Se nell&#39;area di lavoro selezionata non sono presenti altri tipi di record, la sezione area di lavoro non viene visualizzata.
 
      <!--remove the first sentence in the tip above at GA-->
 
-     <!--FORMAT THE TIP BELOW AT RELEASE: * A record type from another workspace that was configured to connect from other workspaces. For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). (*****add screen shot****)
-        [!TIP]
-         If there are no record types that are configured to connect from other workspace, the workspace section does not display.-->
+      * Tipo di record di un&#39;altra area di lavoro configurata per la connessione da altre aree di lavoro. Per informazioni, vedere [Modifica tipi di record](/help/quicksilver/planning/architecture/edit-record-types.md).
+
+     >[!TIP]
+     >
+     >Se non sono presenti tipi di record configurati per la connessione da un&#39;altra area di lavoro, la sezione area di lavoro non viene visualizzata.
+
 
    * **Progetto, Portfolio, Programma, Società** o **Gruppo** dalla sezione **Tipi di oggetti di Workfront**.
 

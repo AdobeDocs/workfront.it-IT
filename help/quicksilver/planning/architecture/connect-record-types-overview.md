@@ -4,10 +4,10 @@ description: Un modo per indicare la correlazione tra i singoli tipi di record c
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 1%
+source-wordcount: '818'
+ht-degree: 0%
 
 ---
 
@@ -27,11 +27,18 @@ Per informazioni sulla connessione dei tipi di record, vedere [Connetti tipi di 
 
 ## Considerazioni sulla connessione dei tipi di record
 
+In Workfront Planning sono disponibili due passaggi per le connessioni:
+
+1. Innanzitutto, è necessario stabilire una connessione tra due tipi di record o un tipo di record e un tipo di oggetto da un&#39;altra applicazione. Per informazioni su come connettere i tipi di record, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
+1. In secondo luogo, è possibile collegare singoli record di un tipo a record di un altro tipo dopo aver connesso i due tipi di record. Per informazioni sulla connessione dei record, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md).
+
+Considerare le seguenti informazioni sulla connessione dei tipi di record:
+
 * È possibile connettere le seguenti entità in Adobe Workfront Planning:
 
    * Due tipi di record.
 
-     Per impostazione predefinita, è possibile connettere due tipi di record dallo stesso workspace. È inoltre possibile impostare tipi di record per la connessione con tipi di record di altre aree di lavoro.
+     Per impostazione predefinita, è possibile connettere due tipi di record dallo stesso workspace. È inoltre possibile impostare tipi di record per la connessione con tipi di record di altre aree di lavoro. Per informazioni, vedere [Modifica tipi di record](/help/quicksilver/planning/architecture/edit-record-types.md).
    * Tipo di record e tipo di oggetto di un&#39;altra applicazione.
 
 * È possibile connettere i tipi di record di Workfront Planning ai tipi di oggetto seguenti delle applicazioni seguenti:
@@ -82,73 +89,79 @@ Per informazioni sulla connessione dei tipi di record, vedere [Connetti tipi di 
 
      >[!IMPORTANT]
      >
-     >Tutti gli utenti con autorizzazioni View (Visualizzazione) o superiori all&#39;area di lavoro possono visualizzare le informazioni nei campi di ricerca, indipendentemente dalle autorizzazioni o dal livello di accesso nell&#39;applicazione dei tipi di oggetto collegato <!--or their permissions in other workspaces-->.
+     >Tutti gli utenti con autorizzazioni View (Visualizzazione) o superiori all&#39;area di lavoro possono visualizzare le informazioni nei campi di ricerca, indipendentemente dalle autorizzazioni o dal livello di accesso nell&#39;applicazione dei tipi di oggetto collegati o dalle autorizzazioni in altre aree di lavoro.
 
-<!--see the commented out text above for the release of cross-workspace connections-->
+     I campi record collegati sono preceduti dall&#39;icona di relazione ![](assets/relationship-field-icon.png).
 
-* I campi record collegati sono preceduti dall&#39;icona di relazione ![](assets/relationship-field-icon.png).
+     I campi collegati sono preceduti da un’icona che identifica il tipo di campo. Ad esempio, i campi collegati (o di ricerca) sono preceduti da icone che indicano che un campo è un numero, un paragrafo o una data.
 
-  I campi collegati sono preceduti da un’icona che identifica il tipo di campo. Ad esempio, i campi collegati (o di ricerca) sono preceduti da icone che indicano che un campo è un numero, un paragrafo o una data.
+<!--## Connection types
 
+After you establish a connection between two record types or between a record and an object type from another application, you can add records in the connected record fields. 
 
-## Tipi di connessione
+Depending on how many records you can add to a connected record field, the following are the connection types you can choose from when connecting record types: 
 
-Dopo aver stabilito una connessione tra due tipi di record o tra un record e un tipo di oggetto da un&#39;altra applicazione, è possibile aggiungere record nei campi dei record connessi.
-
-A seconda del numero di record che è possibile aggiungere a un campo record connesso, i tipi di connessione disponibili per la connessione dei tipi di record sono i seguenti:
-
-* [Da uno a molti](#one-to-many-connection-type)
-* [Da uno a uno](#many-to-one-connection-type)
-* [Da molti a uno](#many-to-one-connection-type)
-* [Da molti a molti](#many-to-many-connection-type)
+* [Many to many](#many-to-many-connection-type)
+* [One to many](#one-to-many-connection-type)
+* [Many to one](#many-to-one-connection-type)
+* [One to one](#many-to-one-connection-type)
 
 >[!WARNING]
 >
->Queste opzioni non sono disponibili quando si collegano i seguenti elementi:
->* Due record da aree di lavoro diverse
+>These options are not available when connecting the following: 
+>* Two records from different workspaces
 >
->* Un tipo di record e risorse AEM
+>* A record type and AEM assets
 
-
-<!-- add screen shots for each type of connection below-->
-
-### Tipo di connessione uno-a-molti
-
-![](assets/one-to-many-connection-picker.png)
-
-Quando si seleziona il tipo di connessione uno-a-molti tra tipi di record, è possibile collegare un record in un secondo momento a più record a cui ci si connette.
-
-Ad esempio, se colleghi le campagne ai progetti, puoi collegare una campagna a più progetti. Tuttavia, un progetto può essere connesso a una sola campagna.
-
-Quando si seleziona questo tipo di connessione, è possibile modificarlo in un secondo momento solo in un tipo di connessione molti-a-molti.
-
-### Tipo di connessione uno-a-uno
-
-![](assets/one-to-one-connection-picker.png)
-
-Quando si seleziona il tipo di connessione uno-a-uno tra i tipi di record, è possibile collegare un record in un secondo momento a un altro record a cui ci si connette.
-
-Ad esempio, se colleghi le campagne ai progetti, puoi collegare una campagna a un progetto. Un progetto può essere connesso a una sola campagna.
-
-Quando selezioni questo tipo di connessione, puoi successivamente modificarlo in qualsiasi altro tipo di connessione.
-
-### Tipo di connessione molti-a-uno
-
-![](assets/many-to-one-connection-picker.png)
-
-Quando si seleziona il tipo di connessione molti-a-uno tra tipi di record, è possibile collegare più record in un secondo momento con un solo record a cui ci si connette.
-
-Ad esempio, se colleghi le campagne ai progetti, puoi collegare più campagne a un unico progetto. Un progetto può essere connesso a più campagne.
-
-Quando si seleziona questo tipo di connessione, è possibile modificarlo in un secondo momento solo in un tipo di connessione molti-a-molti.
-
-### Tipo di connessione da molti-a-molti
+### Many-to-many connection type
 
 ![](assets/many-to-many-connection-picker.png)
 
-Quando si seleziona il tipo di connessione molti-a-molti tra tipi di record, è possibile collegare più record in un secondo momento.
+When you select the many-to-many connection type between record types, you can later connect many records with multiple records you're connecting to. 
 
-Ad esempio, se colleghi le campagne ai progetti, puoi collegare più campagne a più progetti. Puoi anche collegare più progetti a più campagne.
+For example, if you connect campaigns with projects and you choose this type of connection, you can connect several campaigns with multiple projects. You can also connect the same projects you are connecting to the campaigns to more than one campaign. 
 
-Quando si seleziona questo tipo di connessione, non è possibile modificarlo dopo averlo salvato.
+A real-life example of a many-to-many relationship type is the relationship between customers and products: customers can purchase multiple products; and those products can also be purchased by many other customers. 
+
+When you select this connection type, you cannot change the connection type after you save it. 
+
+### One-to-many connection type
+
+![](assets/one-to-many-connection-picker.png)
+
+When you select the one-to-many connection type between record types, you can later connect one record with multiple records you're connecting to. 
+
+For example, if you connect campaigns with projects and you choose this type of connection, you can connect one campaign with multiple projects. But one of the projects you're connecting to the campaigns can be connected only to one campaign at a time. 
+
+A real-life example of a one-to-many relationship type is the relationship between libraries and books: a library has many books in its inventory; but one particular book can only be in one library at a given point in time. 
+
+When you select this connection type, you can later change it only to a many-to-many connection type. 
+ 
+### Many-to-one connection type
+
+![](assets/many-to-one-connection-picker.png)
+
+When you select the many-to-one connection type between record types, you can later connect many records with only one record you're connecting to. 
+
+For example, if you connect campaigns with projects and you choose this type of connection, you can add only one project to a campaign. But you can add multiple campaigns to one project. 
+
+A real-life example of a many-to-one relationship type is the relationship between many movies and one actor: one actor can be in many movies, but each movie can only have a specific actor once in its cast. 
+
+When you select this connection type, you can later change it only to a many-to-many connection type.
+
+### One-to-one connection type
+
+![](assets/one-to-one-connection-picker.png)
+
+When you select the one-to-one connection type between record types, you can later connect one record with one other record that you're connecting to. 
+
+For example, if you connect campaigns with projects and you choose this type of connection, you can connect one campaign with one project. One project can be connected only to one campaign. 
+
+A real-life example of a one-to-one relationship is the one existing between a person and their country's unique identifier (like a Social Security Number, Passport ID, local identification ID): each person has only one unique identifier for a country and each unique identifier can be linked to only one person. 
+
+When you select this connection type, you can later change it to any other connection type. 
+
+-->
+
+
 

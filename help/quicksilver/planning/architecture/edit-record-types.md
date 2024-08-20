@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 2%
+source-wordcount: '628'
+ht-degree: 1%
 
 ---
 
@@ -35,8 +35,6 @@ I tipi di record sono i tipi di oggetto di Adobe Workfront Planning. È possibil
 ## Requisiti di accesso
 
 +++ Espandere per visualizzare i requisiti di accesso per Workfront Planning.
-
-<!--update the table to say that: Only system administrators can enable record types to connect from other workspaces.-->
 
 <table style="table-layout:auto">
  <col>
@@ -79,7 +77,8 @@ I tipi di record sono i tipi di oggetto di Adobe Workfront Planning. È possibil
 <tr>
    <td role="rowheader"><p>Autorizzazioni</p></td>
    <td> <p>Gestione delle autorizzazioni per un'area di lavoro</a> </p>  
-   <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create
+   <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>
+   <p>Solo gli amministratori di sistema possono abilitare i tipi di record alla connessione da altre aree di lavoro</p>
 </td>
   </tr>
 <tr>
@@ -115,60 +114,34 @@ Oppure
 
    ![](assets/more-menu-options-from-record-type-card.png)
 
-   <!--replace everything below with the commented out text below-->
+1. Nella casella **Modifica tipo di record**, per impostazione predefinita viene aperta la scheda **Aspetto**.
 
-1. Nella casella **Modifica tipo di record**, aggiornare le informazioni seguenti:
+   ![](assets/edit-record-type-box-appearance-tab.png)
 
-   * Se necessario, modificare il nome del tipo di record. <!--did they add a field label for this? -->
+   Aggiorna le seguenti informazioni nella scheda **Aspetto**:
+
+   * Se necessario, modificare il nome del tipo di record. <!--did they add a field label for this?-->
    * **Descrizione**: modificare o aggiungere una descrizione per il tipo di record con ulteriori informazioni.
    * Modificare il colore e la forma dell&#39;icona associata al tipo di record. Effettua le seguenti operazioni:
-      * Selezionare un colore per identificare il tipo di record. Colore dell&#39;icona del tipo di record. Il grigio è selezionato per impostazione predefinita.
+      * Selezionare un colore per identificare il tipo di record. Colore dell&#39;icona del tipo di record.
       * Seleziona un’icona dall’elenco, oppure inizia a digitare il nome di un’icona per descrivere ciò che rappresenta, quindi selezionala quando viene visualizzata. Icona del tipo di record. Per impostazione predefinita, viene selezionata un&#39;icona di file.
 
-     ![](assets/update-record-type-box.png)
-
-1. Fai clic su **Salva**.
-1. (Facoltativo) Fai clic sulla scheda del tipo di record nell’area di lavoro per aprire la pagina del tipo di record.
-1. Fai clic sul menu **Altro** a destra del nome del tipo di record, quindi fai clic su **Modifica** per aggiornare le informazioni sul tipo di record.
-
-   >[!TIP]
-   >
-   >   È possibile rinominare il tipo di record nell&#39;intestazione.
-
-   ![](assets/more-menu-options-from-record-type-page.png)
-
-   <!--check this screen shot - not sure this is valid ???-->
-
-1. (Facoltativo) Per modificare un altro tipo di record, espandere la freccia rivolta verso il basso a destra del nome di un tipo di record, cercare un tipo di record e selezionarlo quando viene visualizzato nell&#39;elenco.
-
-<!--*******************For GA - replace the above with this:
-
-1. In the **Edit record type** box, click the **Appearance** tab and update the following information: (*******copy the screen shot above here and update it with the Appearance tab**********)
-
-    * Edit the record type name, if needed. (*****did they add a field label for this?******)
-    * **Description**: Edit or add a description for the record type with more information about it. 
-    * Edit the color and shape of the icon associated with the record type. Do the following: 
-        * Select a color to identify the record type. This is the color of the record type icon. Gray is selected by default.
-        * Select an icon from the list, or start typing the name of an icon to describe what it represents, then select it when it displays. This is the icon of the record type. A file icon is selected by default.
-
-        ![](assets/update-record-type-box.png)
-
-1. (Conditional) If you are a system administrator, click the **Advanced settings** tab in the **Edit record type** box and update the following information: 
-
-   * **Connect from other workspaces**: Select this toggle to allow users to connect to this record type from other workspaces. This is deselected by default.
-   * **System wide**: Select this option to allow users to connect to this record from all workspaces in the system.
-   * **Specific workspaces**: Select this option to restrict the workspaces from which users can connect to this record type, then expand the drop down menu and select the workspaces you want users to connect to this record type from. You can start typing the name of a workspace, and select it when it displays in the list. 
+1. (Condizionale) Se sei un amministratore di sistema, fai clic sulla scheda **Impostazioni avanzate** nella casella **Modifica tipo di record**.
 
    ![](assets/edit-record-type-box-advanced-settings-tab.png)
 
-   The record type card displays a connectivity icon ![](assets/connect-from-other-workspaces-icon.png) in the upper-right corner to indicate that the record is now accessible from other workspaces. 
+1. (Condizionale) In qualità di amministratore di sistema, aggiorna le seguenti informazioni nella scheda **Impostazioni avanzate**:
 
+   * **Connetti da altre aree di lavoro**: selezionare questa opzione per consentire agli utenti di connettersi a questo tipo di record da altre aree di lavoro. Questa opzione è deselezionata per impostazione predefinita.
+   * **A livello di sistema**: selezionare questa opzione per consentire agli utenti di connettersi a questo record da tutte le aree di lavoro del sistema.
+   * **Aree di lavoro specifiche**: selezionare questa opzione per limitare le aree di lavoro da cui gli utenti possono connettersi a questo tipo di record, quindi espandere il menu a discesa e selezionare le aree di lavoro da cui si desidera che gli utenti si connettano a questo tipo di record. Potete iniziare a digitare il nome di un workspace e selezionarlo quando viene visualizzato nell&#39;elenco.
 
-1. Click **Save**.
-1. (Optional) Click the record type card from the workspace area to open the record type's page, then rename the record type in the header.  
+1. Fai clic su **Salva**.
 
-1. (Optional) To edit another record type, from the record type page, expand the downward-pointing arrow to the right of a record type name, search for a record type, then select it when it displays in the list.
+   La scheda del tipo di record nell&#39;area di lavoro visualizza un&#39;icona di connettività ![](assets/connect-from-other-workspaces-icon.png) nell&#39;angolo superiore destro per indicare che il record è ora accessibile da altre aree di lavoro.
+
+1. (Facoltativo) Fai clic sulla scheda del tipo di record nell’area di lavoro per aprire la pagina del tipo di record, quindi rinomina il tipo di record nell’intestazione.
+
+1. (Facoltativo) Per modificare un altro tipo di record, dalla pagina tipo di record espandere la freccia rivolta verso il basso a destra del nome di un tipo di record, cercare un tipo di record e selezionarlo quando viene visualizzato nell&#39;elenco.
 
    ![](assets/record-type-drop-down-on-record-type-page-with-search-box.png)
-
-   -->

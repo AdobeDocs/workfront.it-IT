@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 8%
@@ -110,6 +110,17 @@ Per informazioni, vedere la sezione &quot;Formula&quot; nell&#39;articolo [Crear
 * Non è possibile modificare il tipo di campo Campo di un campo Formula dopo averlo salvato.
 * È possibile aggiornare il calcolo di un campo formula dopo averlo salvato e i risultati del calcolo vengono aggiornati automaticamente per tutti i record dello stesso tipo.
 * È necessario aggiungere i campi a cui si fa riferimento nelle formule così come vengono visualizzati nell&#39;interfaccia di Workfront Planning.
+<!--* You can format the result of a formula calculation by choosing from the following options:
+
+   * Text
+   * Number
+   * Percent
+   * Currency
+   * Tags
+   * Date
+
+   For more information, see the "Formula" section in the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). -->
+
 
 ## Formule supportate
 

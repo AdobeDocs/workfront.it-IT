@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '1874'
+source-wordcount: '1880'
 ht-degree: 2%
 
 ---
@@ -78,11 +78,11 @@ Per informazioni sulle nuove funzionalità e sulla data di rilascio, vedere [Att
 | Ordinare i record nella visualizzazione timeline |                               | ✓ |                  |
 | Ordinare i raggruppamenti nella vista tabella |                               | ✓ |                  |
 | Ordinare i raggruppamenti nella visualizzazione timeline |                               | ✓ |                  |
-| Connettere le aree di lavoro |                               | ✓ |                  |
 | Cerca record nella vista tabella | ✓ |   |
 | Cercare i record nella visualizzazione timeline | ✓ |   |
 | Collegare i record di Workfront Planning a progetti, programmi, portafogli, società e gruppi di Workfront | ✓ |                                 |                  |
 | Collegare i record di Workfront Planning alle risorse Adobe Experience Manager | ✓ |                                  |                 |
+| Collegare i record di Planning da aree di lavoro diverse | ✓ |                                  |                 |
 | Registra pagina con informazioni dettagliate | ✓ |                                  |                  |
 | Aggiornare il layout della pagina del record | ✓ |                                 |                  |
 | Condividere le aree di lavoro | ✓ | |  |
@@ -282,10 +282,10 @@ Per individuare Workfront Planning:
 
 
 1. (Condizionale e facoltativo) Se sei un amministratore di Workfront, fai clic su una delle seguenti schede:
-   * **Aree di lavoro personali**: visualizza le aree di lavoro create. <!--Replace with: Workspaces I'm on: Displays workspaces you created or workspaces that are shared with you.-->
-   * **Altre aree di lavoro**: visualizza tutte le altre aree di lavoro del sistema, incluse quelle condivise con te. <!--Replace with: Other workspaces: Displays all other workspaces in the system.-->
+   * **Aree di lavoro in cui si trova**: visualizza le aree di lavoro create dall&#39;utente o condivise con l&#39;utente.
+   * **Altre aree di lavoro**: visualizza tutte le altre aree di lavoro nel sistema.
 
-   Per tutti gli altri utenti, tutte le aree di lavoro create o condivise con gli utenti vengono visualizzate nell&#39;area **Aree di lavoro**.
+   Per tutti gli altri utenti, entrambe le aree di lavoro create o condivise con gli utenti vengono visualizzate nell&#39;area **Aree di lavoro**.
 
 1. (Facoltativo e consigliato) Per creare la struttura di lavoro, continua con alcune delle azioni seguenti:
 

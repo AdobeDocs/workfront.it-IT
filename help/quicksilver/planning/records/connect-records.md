@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
+source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
 workflow-type: tm+mt
-source-wordcount: '2292'
+source-wordcount: '2281'
 ht-degree: 1%
 
 ---
@@ -428,7 +428,6 @@ Per collegare i record con le risorse AEM:
 Per connettere i record di Workfront Planning dagli oggetti di Workfront, è necessario disporre delle seguenti informazioni:
 
 * Connessioni tra tipi di record e tipi di oggetti Workfront stabiliti in Workfront Planning.
-* Almeno una connessione tra un record e un oggetto Workfront.
 * L&#39;amministratore di Workfront o di gruppo deve aggiungere la sezione Planning ai tipi di oggetto di Workfront che possono connettersi ai tipi di record di Planning nel modello di layout.
 
 Per ulteriori informazioni, vedere [Gestire i record nella sezione Pianificazione degli oggetti Adobe Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
