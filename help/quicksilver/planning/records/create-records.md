@@ -1,13 +1,13 @@
 ---
 title: Crea record
-description: Quando si utilizza Adobe Workfront Planning, un record è un'istanza di un tipo di record.
+description: Quando si utilizza Adobe Workfront Planning, un record è un'istanza di un tipo di record. È possibile creare record univoci per ogni tipo di record in Workfront Planning aggiungendoli manualmente alla vista tabella, importandoli da un elenco, duplicandoli o creandoli durante la connessione ad altri record.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '971'
 ht-degree: 0%
 
 ---
@@ -22,10 +22,10 @@ In Adobe Workfront Planning, un record è un&#39;istanza di un tipo di record.
 
 È possibile creare record eseguendo una delle operazioni seguenti:
 
-* Aggiungerli dalla pagina del tipo di record
+* Aggiungerli dalla pagina del tipo di record nella visualizzazione tabella
 * Copiare e incollare un elenco di record da un elenco esterno
 * Duplicale
-  <!--* Add them as you connect them from other records-->
+  <!--* Create them as you connect them from other records-->
 
 In questo articolo viene descritto come creare record. Per informazioni sulla gestione dei record nelle viste tabella o sequenza temporale, vedere gli articoli seguenti:
 
@@ -92,10 +92,13 @@ In questo articolo viene descritto come creare record. Per informazioni sulla ge
 
 +++
 
-<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/planning/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
+
+<!--For the release of in-context record creation - add this to the table above for permissions and access:
+
+* Manage permissions to the workspace you want to add records to. 
+* Edit access in Workfront for the object types that you want to add (projects and portfolios.)
+* Manage permissions to Workfront objects (portfolios) to add children objects (projects).-->
+
 
 ## Creare record aggiungendoli a un tipo di record <!--in a record type table (I don't think you can create them elsewhere right now)-->
 
@@ -219,12 +222,17 @@ Per informazioni sulla duplicazione dei record, vedere [Record duplicati](/help/
 
 ## Create records as you connect them
 
-You can create records as you connect them from other records. 
+You can create records or Workfront objects as you connect them from other records. 
 
-You must have the following before you can add new records by connecting them from existing records:
+You must have the following before you can add new records or Workfront objects by connecting them from existing records:
 
 * Connected record types. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Connected records. For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+* The correct access and permissions in Workfront Planning and Workfront, as described in the section [Access requirements](#access-requirements) in this article. 
+
+>[!NOTE]
+>
+>Creating Workfront projects and portfolios as you connect them to Workfront Planning records is similar to creating Planning records as you connect them from other records.
 
 To create records as you are connecting them from other records: 
 

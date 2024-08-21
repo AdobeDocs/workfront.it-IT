@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
 source-wordcount: '1880'
 ht-degree: 2%
@@ -61,12 +61,12 @@ Nella tabella seguente sono illustrate le principali funzionalità disponibili i
 
 Per informazioni sulle nuove funzionalità e sulla data di rilascio, vedere [Attività sulla versione corrente di Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md).
 
-| Funzionalità | Disponibile ora | Disponibile a breve | Nella ricerca |
+| Funzionalità | Disponibile ora | Presto disponibile | Nella ricerca |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
 | Creare aree di lavoro | ✓ |                                  |                  |
 | Crea tipi di record | ✓ |                                  |                  |
 | Creare campi personalizzati del record | ✓ |                                  |                  |
-| Importare tipi di record e campi utilizzando un file Excel o CSV* | ✓ |                                  |                  |
+| Importare tipi di record e campi utilizzando un file Excel o CSV |                              | ✓ |                  |
 | Collega record | ✓ |                                  |                  |
 | Visualizzare i record in una tabella | ✓ |                                  |                  |
 | Visualizzare i record in un indicatore cronologico | ✓ |                                  |                  |

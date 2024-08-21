@@ -1,13 +1,13 @@
 ---
-title: Connetti record
+title: Collega record
 description: Dopo aver creato connessioni tra tipi di record, è possibile collegare tra loro singoli record.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '2281'
+source-wordcount: '2287'
 ht-degree: 1%
 
 ---
@@ -151,11 +151,11 @@ Per collegare i record ad altri record o oggetti, è necessario disporre dei seg
 
 È possibile collegare record da Workfront Planning nelle seguenti aree:
 
-* Da un record Planning in Workfront Planning nei campi collegati nella vista tabella.
+* Da un record di Planning in Workfront Planning nei campi dei record collegati nella vista tabella.
 * Da un record Planning in Workfront Planning nell&#39;anteprima record o nella pagina nei campi record collegati.
   <!--
   * From a Planning record in Workfront Planning in the record preview or page in the connected record fields on the Details tab.
-  * From a Planning record in the record's preview or page on the Connections tab.  -->
+  * From a Planning record in the record's preview or page on the Connections tab.-->
 
 ### Collegare i record di Adobe Workfront Planning dalla vista tabella o dalla pagina record <!--Details tab of the-->
 
@@ -211,7 +211,7 @@ Per collegare i record ad altri record o oggetti, è necessario disporre dei seg
    >
    >* Utilizziamo &quot;campi collegati&quot; e &quot;campi di ricerca&quot; in modo intercambiabile.
    >
-   >* Se è stata abilitata l&#39;impostazione **Consenti più record** quando sono stati connessi i tipi di record, i valori dei campi per i più oggetti selezionati vengono visualizzati separati da virgole o aggregati in base all&#39;aggregatore scelto.
+   >* Quando si sceglie di connettere più record durante la connessione dei tipi di record, i valori dei campi dei diversi oggetti vengono visualizzati separati da virgole o aggregati in base all&#39;aggregatore scelto.
 
 1. (Facoltativo) Chiudere la pagina del tipo di record e passare all&#39;area di lavoro selezionata.
 1. Fare clic sulla scheda del tipo di record a cui si è collegati.
@@ -286,7 +286,7 @@ Dopo aver creato una connessione tra un tipo di record e un tipo di oggetto Work
 
    >[!TIP]
    >
-   >* Quando si abilita l&#39;impostazione Consenti più record, i valori dei campi di ricerca vengono visualizzati separati da virgole o aggregati in base all&#39;aggregatore scelto.
+   >* Quando si sceglie di connettere più record durante la connessione dei tipi di record, i valori dei campi di ricerca vengono visualizzati separati da virgole o aggregati in base all&#39;aggregatore scelto.
    >
    >* Non viene creato un campo record collegato per gli oggetti Workfront collegati in Workfront.
 
@@ -360,7 +360,7 @@ Per collegare i record con le risorse AEM:
 
      >[!TIP]
      >
-     >* Se è stata abilitata l&#39;impostazione Consenti più record, i valori dei diversi oggetti vengono visualizzati separati da virgole o aggregati in base all&#39;aggregatore scelto.
+     >* Quando si sceglie di connettere più record durante la connessione dei tipi di record, i valori dei diversi oggetti vengono visualizzati separati da virgole o aggregati in base all&#39;aggregatore scelto.
      >
      >* Non viene creato un campo record collegato ai record collegati di Workfront Planning per le risorse Experienci Manager collegate nell&#39;applicazione Experience Manager Assets.
 
@@ -408,6 +408,12 @@ Per collegare i record con le risorse AEM:
     ![](assets/connections-tab-on-record-in-workfront-planning.png)
 
     All record or object types that are linked to the selected record type display as sections. Connected records or objects display under their record or object type names on cards. 
+
+    >[!TIP]
+    >
+    >    Only connected records that have individual records connected display by default.
+
+1. (Optional) Click **Show all connections** to show all connected record types, including the ones without connected records. 
 
 1. (Optional) Click the downward-pointing arrow to the left of a section to collapse it. 
 

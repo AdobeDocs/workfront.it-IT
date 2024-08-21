@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,13 @@ Per informazioni sulla creazione di campi personalizzati in Workfront Planning, 
 * È possibile eliminare un campo solo nella vista tabella del tipo di record.
 * Impossibile eliminare il campo principale di un record.
 * Tutte le informazioni memorizzate nel campo vengono eliminate e non possono essere recuperate.
-* Quando si elimina un campo record collegato, vengono eliminati anche tutti i campi di ricerca collegati dal tipo di record da cui si esegue il collegamento. I campi record collegati dei tipi di record a cui si effettua il collegamento non vengono eliminati.
+* Quando si elimina un campo record connesso, vengono eliminati anche tutti i campi di ricerca connessi dal tipo di record da cui ci si connette. I campi dei record connessi dei tipi di record a cui ci si connette vengono eliminati anche dal record a cui ci si connette.
+
+  Ad esempio, quando si collegano le campagne a un altro tipo di record denominato prodotto e si eliminano dalla campagna il campo connesso al prodotto e il campo di ricerca Stato del prodotto, vengono eliminati i seguenti elementi:
+
+   * Il campo Prodotto connesso dalla campagna
+   * Il campo di ricerca Stato prodotto dalla campagna
+   * Il campo Campaign connesso dal prodotto.
 
   Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
 

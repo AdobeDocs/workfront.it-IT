@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '462'
 ht-degree: 8%
 
 ---
@@ -106,10 +106,12 @@ Per informazioni, vedere la sezione &quot;Formula&quot; nell&#39;articolo [Crear
 
 ## Considerazioni sui campi formula
 
-* I campi formula fanno riferimento a campi che appartengono allo stesso tipo di record. Non è possibile fare riferimento a campi di altri tipi di record durante la creazione di un campo formula. <!--is this still accurate??-->
+* I campi formula fanno riferimento a campi che appartengono allo stesso tipo di record.
+* È possibile fare riferimento a campi di altri tipi di record solo quando si collega un altro tipo di record a quello per il quale si sta creando un campo formula.
 * Non è possibile modificare il tipo di campo Campo di un campo Formula dopo averlo salvato.
 * È possibile aggiornare il calcolo di un campo formula dopo averlo salvato e i risultati del calcolo vengono aggiornati automaticamente per tutti i record dello stesso tipo.
 * È necessario aggiungere i campi a cui si fa riferimento nelle formule così come vengono visualizzati nell&#39;interfaccia di Workfront Planning.
+* È possibile fare riferimento solo ai campi visualizzati nella visualizzazione tabella di un tipo di record o nella pagina dei dettagli del record.
 <!--* You can format the result of a formula calculation by choosing from the following options:
 
    * Text
