@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
-title: Blocca o sblocca una preferenza di tipo Timesheet gruppo e Ora
+title: Blocca o sblocca una scheda orario di gruppo e la preferenza dell'ora
 description: Se si è un amministratore di gruppo, è possibile configurare e quindi bloccare una scheda orario e una preferenza per le ore per il gruppo dopo che un amministratore di Workfront lo ha sbloccato a livello di sistema.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5b36106f-d521-4cc1-9f1f-647415c282b4
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -43,9 +43,10 @@ Unlike other Lock/Unlock articles that start just like this one, we need the ste
 >* Se spostate un gruppo all&#39;interno di un gruppo che ha una preferenza sbloccata, il gruppo spostato non viene influenzato da tale preferenza.
 >
 >  Se la preferenza nel gruppo spostato è bloccata al momento dello spostamento, rimane bloccata, ma l&#39;amministratore del gruppo può sbloccarla ora perché è sbloccata per il gruppo padre.
->
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
 
@@ -66,13 +67,15 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 &#42;Per conoscere il piano o il tipo di licenza di cui si dispone, contattare l&#39;amministratore di Workfront.
 
++++
+
 ## Blocca o sblocca una preferenza di tipo Timesheet gruppo e Ora
 
 >[!TIP]
 >
 >Se sei un amministratore di Workfront, puoi saltare i passaggi 1-4 da Configurazione > Scheda orario e ore > Preferenze, quindi cercare il nome del gruppo nella casella nella parte superiore della pagina.
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su **Gruppi**.
 1. Fare clic sul nome del gruppo in cui si desidera bloccare o sbloccare una preferenza di schede orario e ore.

@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Riordina stati gruppo
 description: In qualità di amministratore di gruppo, puoi modificare l’ordine degli stati di progetto, attività e problema per un gruppo che gestisci.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 0cdb4d10-7792-4140-8dec-ef805f668f90
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '487'
 ht-degree: 6%
 
 ---
@@ -38,6 +38,8 @@ Se al di sopra del gruppo gestito sono presenti gruppi, anche gli amministratori
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
 
 <table style="table-layout:auto"> 
@@ -56,6 +58,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano o il tipo di licenza di cui si dispone, contattare l&#39;amministratore di Workfront.
+
++++
 
 ## Ordine predefinito degli stati
 
@@ -108,7 +112,7 @@ Per impostazione predefinita, gli stati vengono visualizzati nell&#39;ordine seg
 
 ## Riordina gli stati per le attività e i progetti in un gruppo che gestisci
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su **Gruppi**, quindi sul nome del gruppo.
 1. Nel pannello a sinistra, fai clic su **Stati**.
@@ -122,7 +126,7 @@ Per impostazione predefinita, gli stati vengono visualizzati nell&#39;ordine seg
 
 ## Riordina gli stati per i problemi
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su **Gruppi**, quindi sul nome del gruppo.
 1. Nel pannello a sinistra, fai clic su **Stati**.

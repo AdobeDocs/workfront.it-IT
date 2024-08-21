@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Utilizzare uno stato personalizzato come stato predefinito per un gruppo
-description: In qualità di amministratore di gruppo, puoi configurare uno stato personalizzato come stato predefinito per un gruppo o un sottogruppo che gestisci. Questa funzione è utile quando il sistema deve assegnare automaticamente uno stato Workfront a un progetto, attività o problema. Un progetto, un'attività o un problema visualizza sempre lo stato personalizzato impostato come predefinito invece dello stato Workfront a cui corrisponde.
-author: Caroline
+description: In qualità di amministratore di gruppo, puoi configurare uno stato personalizzato come stato predefinito per un gruppo o un sottogruppo che gestisci.
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51018635-cd9a-402d-a136-c5bec4707cda
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ Se al di sopra del gruppo gestito sono presenti gruppi, anche gli amministratori
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
 
 <table style="table-layout:auto"> 
@@ -50,6 +52,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 &#42;Per conoscere il piano o il tipo di licenza di cui si dispone, contattare l&#39;amministratore di Workfront.
 
++++
+
 ## Stati problemi
 
 Se lo stato personalizzato è uno stato Problema, tutti e quattro i tipi di problema devono essere abilitati (Rapporto bug, Ordine di modifica, Problema e Richiesta). Ad esempio, nello stato del problema mostrato di seguito, lo stato Riaperto non può essere utilizzato come stato predefinito perché il tipo di problema Ordine di modifica non è selezionato:
@@ -58,7 +62,8 @@ Se lo stato personalizzato è uno stato Problema, tutti e quattro i tipi di prob
 
 ## Impostazione di uno stato personalizzato come stato predefinito per un gruppo
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. Nel pannello a sinistra, fai clic su **Gruppi** ![](assets/groups-icon.png), quindi fai clic sul nome del gruppo in cui desideri creare o personalizzare gli stati.
 1. Nel pannello a sinistra, fai clic su **Stati** ![](assets/gear-icon-settings.png).
 1. Apri la scheda **Progetto**, **Attività** o **Problemi**, a seconda del tipo di stato che desideri impostare come predefinito.

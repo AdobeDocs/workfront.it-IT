@@ -5,13 +5,13 @@ keywords: gruppo,layout,modelli
 navigation-topic: work-with-a-groups-objects
 title: Creare e modificare i modelli di layout di un gruppo
 description: Quando si visualizza un gruppo gestito nell'area Gruppi, è possibile visualizzare e utilizzare il modello di layout per il quale gli amministratori del gruppo o di uno dei suoi sottogruppi dispongono dell'accesso amministrativo.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 2be211a8-df84-49c3-827f-1215c77159e0
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Quando si visualizza un gruppo gestito nell&#39;area Gruppi, è possibile visual
 Se al di sopra del gruppo gestito sono presenti gruppi, anche gli amministratori possono eseguire questa operazione per il gruppo. Lo stesso vale per gli amministratori di Workfront (per qualsiasi gruppo).
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
 
@@ -43,9 +45,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 &#42;Per conoscere il piano o il tipo di licenza di cui si dispone, contattare l&#39;amministratore di Workfront.
 
++++
+
 ## Creare o modificare modelli di layout per un gruppo gestito
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Fai clic su **Gruppi**.
 

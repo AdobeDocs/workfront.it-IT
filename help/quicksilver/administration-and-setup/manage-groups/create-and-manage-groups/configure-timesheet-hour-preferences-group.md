@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: gruppo,preferenze,attività,gruppi,problema,sblocca
 navigation-topic: create-and-manage-groups
-title: Configurare le preferenze di orario e scheda orario per un gruppo
+title: Configurare le preferenze di Ore e Timesheet per un gruppo
 description: A livello di sistema, un amministratore Adobe Workfront può sbloccare le sezioni delle preferenze relative a schede orario e ore Preferenze generali e Precompila schede orario con. Questo consente agli amministratori di gruppi di configurare le opzioni in tali sezioni in modo indipendente per i propri gruppi.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '1379'
+source-wordcount: '1364'
 ht-degree: 1%
 
 ---
@@ -81,7 +81,7 @@ Considera le seguenti informazioni sulla configurazione di una scheda orario sbl
 >
 >Se sei un amministratore di Workfront, puoi saltare i passaggi 1-4 da Configurazione > Scheda orario e ore > Preferenze, quindi cercare il nome del gruppo nella casella nella parte superiore della pagina.
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su **Gruppi** ![](assets/groups-icon.png).
 

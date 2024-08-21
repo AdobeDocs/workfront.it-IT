@@ -3,19 +3,19 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
 title: Ripristina elementi eliminati
-description: Se sei un amministratore di Workfront, puoi ripristinare progetti, attività, problemi, documenti e modelli in Adobe Workfront se sono stati eliminati negli ultimi 30 giorni. Dopo 30 giorni, questi elementi vengono eliminati definitivamente e non possono essere ripristinati. Quando si ripristina un oggetto, vengono ripristinati anche tutti gli oggetti e i campi figlio. Ad esempio, se ripristini un progetto, vengono ripristinate anche tutte le attività, i problemi, i documenti, le ore, le note, le assegnazioni e i dati personalizzati del progetto.elementi
+description: Se sei un amministratore di Workfront, puoi ripristinare progetti, attività, problemi, documenti e modelli in Adobe Workfront se sono stati eliminati negli ultimi 30 giorni. Dopo 30 giorni, questi elementi vengono eliminati definitivamente e non possono essere ripristinati.
 feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 1%
+source-wordcount: '1044'
+ht-degree: 2%
 
 ---
 
-# Ripristina elementi eliminati
+# Ripristinare elementi eliminati
 
 <!--Audited: 12/2023-->
 

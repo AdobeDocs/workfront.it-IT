@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration
 keywords: SAML 2.0,protezione,certificato,Amministratore,Esenzione,configura,metadati
 navigation-topic: security
-title: Rinnovare il certificato di metadati SAML 2.0 di Adobe Workfront
+title: Rinnovare il certificato metadati SAML 2.0 di Adobe Workfront
 description: I server Adobe Workfront utilizzano il protocollo SAML 2.0 per l’autenticazione e l’autorizzazione. Una volta aggiornato, il nuovo certificato rimane valido per un anno. Quando è il momento di rinnovare il certificato sul provider di identità, viene visualizzato un avviso in Workfront che segnala che questa modifica deve essere apportata. In qualità di amministratore di Workfront, puoi gestire questa modifica a livello di sistema.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4b481215-36a1-4945-828a-1598502529d8
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 Per rivedere il messaggio di avviso e confermare l’aggiornamento dei metadati SAML 2.0 nel provider di identità:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Fare clic su **Sistema** > **Single Sign-On**.
 

@@ -3,7 +3,7 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 38f103eea19fa85104f40fa368b975673fc74d9d
+source-git-commit: b61879975732bd8e9b6c94143c2134bfe023f7ea
 workflow-type: tm+mt
 source-wordcount: '14337'
 ht-degree: 2%
@@ -707,8 +707,8 @@ ht-degree: 2%
       * Gestire gli elementi eliminati {#manage-deleted-items}
          * [Gestisci elementi eliminati](administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)
          * [Ripristinare elementi eliminati](administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)
-         * [Visualizza elemento ripristinato](administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
-         * [Effetti degli oggetti eliminati sugli oggetti](administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
+         * [Visualizzare elementi ripristinati](administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
+         * [Effetti degli oggetti eliminati sulle ore](administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
          * [Ripristino di singoli oggetti figlio](administration-and-setup/manage-workfront/manage-deleted-items/restoring-individual-child-objects.md)
       * Diagnostica {#diagnostics}
          * [Diagnostiche](administration-and-setup/manage-workfront/run-diagnostics/diagnostics.md)

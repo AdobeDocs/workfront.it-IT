@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
-title: Stati personalizzati su un'attività o un problema spostato o copiato
+title: Stati personalizzati per un'attività o un problema che viene spostato o copiato
 description: Quando si sposta o si copia un'attività o un problema in un progetto diverso, alcuni stati dell'attività o del problema potrebbero essere aggiornati in modo da corrispondere agli stati utilizzati dal gruppo del progetto di destinazione.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4bd9b89d-9c66-4af7-97bf-f9518ad55d7c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%

@@ -3,20 +3,20 @@ user-type: administrator
 product-area: system-administration
 keywords: kick-start, kick-start, kick-start, kick-start
 navigation-topic: use-kick-starts
-title: Importare dati in Adobe Workfront utilizzando un modello di avvio
+title: Importare dati in Workfront utilizzando un modello di avvio
 description: I Kick-Start sono cartelle di lavoro di Excel appositamente formattate che è possibile compilare con i dati che si desidera importare in Workfront. Adobe Workfront fornisce un modello Kick-Start da utilizzare a tale scopo, come spiegato in Importazione dati Kick-Start.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 8e076e9c89ad208aa94ddefead4b8c6105992542
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: '2753'
 ht-degree: 6%
 
 ---
 
-# Importare dati in Adobe Workfront utilizzando un modello di avvio
+# Importare dati in Workfront utilizzando un modello di avvio
 
 <!--Audited: 12/2023-->
 
@@ -116,7 +116,7 @@ Per esportare un modello di Kick-Start:
      <tr> 
       <td scope="col"> <p>Approvazione</p> </td> 
       <td scope="col"> <p>Esporta come file Excel</p> </td> 
-      <td scope="col"> <p>Approvatore fase</p> <p>Fase di approvazione</p> <p>Approvazione</p> <p>Processo di approvazione</p> <p>Preferenze</p> </td> 
+      <td scope="col"> <p>Approvatore fase</p> <p>Fase di approv.</p> <p>Approvazione</p> <p>Processo di approvazione</p> <p>Preferenze</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>Dati personalizzati</p> </td> 
@@ -124,9 +124,9 @@ Per esportare un modello di Kick-Start:
       <td scope="col"> <p>Parametro</p> <p>Testo descrittivo</p>  <p>Opzione Parametro</p> <p>Gruppo di parametri</p> <p>Parametro di Categoria</p> <p>Categoria</p> <p>Preferenze</p> </td> 
      </tr> 
      <tr> 
-      <td scope="col"> <p>Tipo di Spesa</p> </td> 
+      <td scope="col"> <p>Tipo di spesa</p> </td> 
       <td scope="col"> <p>Esporta come file Excel</p> </td> 
-      <td> <p>Tipo di Spesa</p> <p>Preferenze</p> </td> 
+      <td> <p>Tipo di spesa</p> <p>Preferenze</p> </td> 
      </tr> 
      <tr> 
       <td> <p>Tipo di ora</p> </td> 
@@ -223,7 +223,7 @@ Per esportare un modello di Kick-Start:
      <tr> 
       <td>Progetto</td> 
       <td>Esporta come file Excel</td> 
-      <td> <p> Coda</p> <p>Progetto</p> <p>Regola di Istradamento</p> <p>Argomento Coda</p> <p>Preferenze </p> </td> 
+      <td> <p> Coda</p> <p>Progetto</p> <p>Regola di Istradamento</p> <p>Argomento coda</p> <p>Preferenze </p> </td> 
      </tr> 
      <tr> 
       <td>Stima Risorse</td> 
@@ -253,7 +253,7 @@ Per esportare un modello di Kick-Start:
      <tr> 
       <td>Modello</td> 
       <td> Esporta come file Excel</td> 
-      <td> <p> Coda</p> <p>Modello</p> <p>Regola di Istradamento</p> <p>Argomento Coda</p> <p>Preferenze </p> </td> 
+      <td> <p> Coda</p> <p>Modello</p> <p>Regola di Istradamento</p> <p>Argomento coda</p> <p>Preferenze </p> </td> 
      </tr> 
      <tr> 
       <td>Assegnazione Modello</td> 

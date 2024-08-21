@@ -5,13 +5,13 @@ keywords: kick-start, kick-start, kick-start, kick-start
 navigation-topic: use-kick-starts
 title: "Scenario di avvio: importare campi personalizzati con più opzioni in Workfront"
 description: Puoi importare campi personalizzati con più opzioni in Adobe Workfront utilizzando la funzionalità di avvio.
-author: Courtney
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '2128'
+source-wordcount: '2096'
 ht-degree: 0%
 
 ---
@@ -51,8 +51,9 @@ Se si conoscono bene gli oggetti e la struttura del database di Workfront, è po
 
 Per esportare dati esistenti da Workfront:
 
-1. Fare clic su **Main Menu > Setup** nell&#39;angolo superiore destro dell&#39;interfaccia di Workfront.
-1. Espandere il menu **Sistema** a sinistra, quindi fare clic su **Esporta dati (Kick-Start)**.
+{{step-1-to-setup}}
+
+1. Espandere **Sistema** nel menu a sinistra, quindi fare clic su **Esporta dati (Kick-Start)**.
 
    ![](assets/export-data-kick-starts-link-in-setup.png)
 
@@ -88,9 +89,9 @@ Per esportare dati esistenti da Workfront:
 
 Dopo aver analizzato le informazioni sui campi personalizzati esistenti nel sistema, puoi scaricare un nuovo modello di avvio per l’importazione.
 
-1. Fare clic su **Main Menu > Setup** nell&#39;angolo superiore destro dell&#39;interfaccia di Workfront.
+{{step-1-to-setup}}
 
-1. Espandere il menu **Sistema** a sinistra.
+1. Espandere **Sistema** nel menu a sinistra.
 
 1. Fare clic su **Importa dati (Kick-Start)**.
 
@@ -129,9 +130,6 @@ Per popolare il foglio di calcolo Excel con le informazioni per i nuovi campi pe
    >Per informazioni sui nomi degli oggetti nel database di Workfront, vedere [API Explorer](../../../wf-api/general/api-explorer.md).
    >
    >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
-
-
-
 
 
 1. Verifica che le seguenti informazioni siano formattate correttamente:
@@ -245,7 +243,9 @@ Per popolare il foglio di calcolo Excel con le informazioni per i nuovi campi pe
 
 Dopo aver eseguito i passaggi descritti nelle sezioni precedenti, continuare con quanto segue per caricare i nuovi campi e moduli in Workfront:
 
-1. Fare clic su **Importa dati** **(Kick-Start) **nel menu **Menu principale > Configurazione > Sistema**.
+{{step-1-to-setup}}
+
+1. Fare clic su **Sistema > Importa dati (Kick-Start)**.
 
 1. Fare clic su **Scegli file** nella sezione **Carica dati con foglio di calcolo di avvio**.
 

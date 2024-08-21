@@ -9,18 +9,20 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1100'
 ht-degree: 2%
 
 ---
 
-# Scenario di avvio: società, gruppo, ruolo e preparazione di avvio utente
+# Scenario Kick-Start: preparazione di Kick-Start per società, gruppo, ruolo e utente
 
 Quando si inizia a implementare Adobe Workfront, anziché inserire manualmente i dati, è possibile importare l’elenco dei clienti, i reparti interni, le mansioni e le informazioni utente.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -42,6 +44,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Cosa si può importare
 
@@ -67,7 +71,7 @@ Nella tabella seguente vengono visualizzate le società, i gruppi e i ruoli da i
  </tbody> 
 </table>
 
-I nomi dei ruoli devono essere univoci. Impossibile importare i ruoli esistenti.
+I nomi dei ruoli devono essere univoci. Impossibile importare i ruoli di lavoro esistenti.
 
 Nelle tabelle seguenti vengono visualizzati gli utenti da importare e diversi attributi utente per ciascuno di essi:
 
@@ -157,7 +161,7 @@ Nelle tabelle seguenti vengono visualizzati gli utenti da importare e diversi at
 
 ## Scaricare un modello di Kick-Start
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Fai clic su **Sistema** > **Avvii** > **Importa dati.**
 
@@ -299,4 +303,4 @@ Nelle tabelle seguenti vengono visualizzati gli utenti da importare e diversi at
 1. Compila gli altri dettagli utente, se necessario, quindi salva il file.
 1. Importa il file di Excel.
 
-   Seguire le istruzioni fornite nella sezione **Importazione dei file di avvio** di questo articolo.
+   Segui le istruzioni fornite in [Importa dati in Adobe Workfront utilizzando un modello di avvio](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).

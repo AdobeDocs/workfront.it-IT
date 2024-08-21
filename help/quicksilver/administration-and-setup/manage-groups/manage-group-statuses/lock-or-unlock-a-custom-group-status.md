@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Stati dei gruppi bloccati e sbloccati
-description: Il blocco degli stati personalizzati di un gruppo consente di garantire che gli utenti del gruppo e dei relativi sottogruppi utilizzino gli stessi processi nel flusso di lavoro. Quando lo stato di un gruppo è bloccato, è disponibile per tutti gli utenti del gruppo e dei gruppi inferiori. Sebbene tu (o un amministratore Workfront) possa modificare o eliminare uno stato bloccato, gli amministratori dei sottogruppi di seguito non possono farlo per tali gruppi. Al contrario, sbloccare gli stati personalizzati di un gruppo consente agli amministratori dei sottogruppi più bassi di gestire i propri flussi di lavoro in modo più flessibile. Possono modificare gli attributi di uno stato sbloccato o eliminarlo per i loro gruppi.
-author: Caroline
+description: Il blocco degli stati personalizzati di un gruppo consente di garantire che gli utenti del gruppo e dei relativi sottogruppi utilizzino gli stessi processi nel flusso di lavoro. Quando lo stato di un gruppo è bloccato, è disponibile per tutti gli utenti del gruppo e dei gruppi inferiori.
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 3463e4cb-7336-49b7-b81a-c2acef72f61d
-source-git-commit: d67de32fcbe4706cf8a1fc6f5bb8ec9d08b07119
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---

@@ -4,15 +4,15 @@ content-type: reference
 product-area: system-administration;user-management
 navigation-topic: manage-groups
 title: Ruoli di gruppo
-description: L’amministratore di Workfront concede ai gruppi l’accesso alle aree Workfront in cui devono lavorare e comunicare. Ciascun gruppo può quindi mantenere le informazioni relative a Workfront, quali utenti, modelli, moduli personalizzati e progetti, separate da quelle di altri reparti. È necessario almeno un amministratore di gruppo per ogni gruppo. In un gruppo possono esistere fino a 14 livelli di sottogruppi.
-author: Caroline
+description: L’amministratore di Workfront concede ai gruppi l’accesso alle aree Workfront in cui devono lavorare e comunicare. Ciascun gruppo può quindi mantenere le informazioni relative a Workfront, quali utenti, modelli, moduli personalizzati e progetti, separate da quelle di altri reparti.
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 23f9f91c-0d6e-4203-ab31-75fec73f9201
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '70'
 ht-degree: 2%
 
 ---

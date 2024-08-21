@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: Creare e modificare i team di un gruppo
 description: Quando visualizzi un gruppo che gestisci nell’area Gruppi, puoi visualizzare e lavorare con i team associati al gruppo e a qualsiasi suo sottogruppo.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
-source-git-commit: 6f9eddd46430990e11d5d661ea09f0595a9acebc
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1010'
 ht-degree: 3%
 
 ---
@@ -26,6 +26,8 @@ Per informazioni su come gli utenti con una licenza Pianificazione possono crear
 Per informazioni su come un amministratore di Workfront può creare un team, vedere [Creare un team dall&#39;area Configurazione](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md).
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
 
@@ -46,9 +48,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 &#42;Per conoscere il piano o il tipo di licenza di cui si dispone, contattare l&#39;amministratore di Workfront.
 
++++
+
 ## Visualizza, utilizza e crea team per il tuo gruppo dall’area Gruppi
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su **Gruppi** ![](assets/groups-icon.png).
 
@@ -123,7 +127,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
        <td>Digitare una descrizione per il team.</td> 
        </tr> 
        <tr> 
-       <td role="rowheader">Modello di layout</td> 
+       <td role="rowheader">Modello layout</td> 
        <td> <p>Iniziare a digitare il nome del modello di layout che si desidera venga utilizzato dal team, quindi fare clic su di esso quando viene visualizzato.</p> <p>Quando si designa il team con questo modello di layout come team predefinito di utenti, tutti gli utenti di questo team visualizzeranno le personalizzazioni nel modello di layout.<br>Le singole impostazioni del modello di layout sovrascriveranno quelle del modello di layout del team principale. </p> </td> 
        </tr> 
        <tr> 

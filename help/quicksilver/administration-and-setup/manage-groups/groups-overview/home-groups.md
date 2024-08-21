@@ -1,16 +1,16 @@
 ---
-title: Panoramica sui gruppi predefiniti
+title: Panoramica dei gruppi predefiniti
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: groups-overview
-description: Nel profilo dell’utente viene assegnato un Gruppo predefinito. Tutti gli utenti devono avere un Gruppo Predefinito. Un utente può appartenere a più gruppi, ma può avere un solo gruppo predefinito. Anche se qualsiasi gruppo esistente nel sistema può essere assegnato come Gruppo predefinito di un utente, si consiglia di creare e assegnare nuovi gruppi che rappresentino unità organizzative più grandi. Quando stabilisci i gruppi predefiniti, considera in che modo l’organizzazione divide gli utenti Adobe Workfront.
-author: Caroline
+description: Nel profilo dell’utente viene assegnato un Gruppo predefinito. Tutti gli utenti devono avere un Gruppo Predefinito.
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 89adb9ea-bfde-4c0d-9fec-b1f97e925340
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---

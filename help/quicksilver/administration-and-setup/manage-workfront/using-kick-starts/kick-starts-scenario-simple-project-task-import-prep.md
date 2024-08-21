@@ -3,26 +3,26 @@ user-type: administrator
 product-area: system-administration;projects
 keywords: kick-start, kick-start, kick-start, kick-start
 navigation-topic: use-kick-starts
-title: 'Scenario di avvio: preparazione semplice per l''importazione di un progetto e un''attività'
+title: "Scenario di avvio: preparazione semplice per l'importazione di progetti e attività"
 description: Descrive in dettaglio le impostazioni e i controlli disponibili per un'importazione di base di progetti e attività utilizzando il metodo Kick Start.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-source-git-commit: 101a5a80d00a8113ce31222b92f77300a5b0ce8a
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1475'
 ht-degree: 9%
 
 ---
 
 # Scenario di avvio: preparazione semplice per l’importazione di un progetto e un’attività
 
-Descrive in dettaglio le impostazioni e i controlli disponibili per un&#39;importazione di base di progetti e attività utilizzando il metodo Kick Start.
+Descrive in dettaglio le impostazioni e i controlli disponibili per un&#39;importazione di base di progetti e attività utilizzando il metodo Kick-Start.
 
 ## Scenario
 
-Il team di implementazione preferisce importare le informazioni sui progetti e sulle attività per i progetti attivi anziché inserire manualmente tali dati nel sistema.
+Il team di implementazione preferisce importare le informazioni sui progetti e sulle attività per i progetti attivi invece di inserire manualmente tali dati nel sistema.
 
 * [Progetti](#projects)
 * [Elenco attività](#task-list)

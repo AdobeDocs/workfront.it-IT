@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 86c120de-16b8-4ca8-a7a1-76ece70c0505
-source-git-commit: 0afd578ebaa55d911c04a1d08fbcadddc1d05bbc
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ In qualità di amministratore di gruppo, puoi gestire un gruppo che amministri d
 >Quando si è assegnati come amministratore di un gruppo, si eredita il ruolo di amministratore del gruppo per tutti i sottogruppi al di sotto di esso. Gli unici utenti che possono gestire un sottogruppo sono gli amministratori di gruppo per il gruppo superiore e gli amministratori di gruppo assegnati al sottogruppo.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
 
@@ -48,6 +50,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano o il tipo di licenza di cui si dispone, contattare l&#39;amministratore di Workfront.
+
++++
 
 ## Gestire le appartenenze di un gruppo
 
@@ -71,7 +75,7 @@ Per istruzioni, vedere [Visualizzare e gestire i dettagli di un gruppo](../../..
 
 Senza uscire dalla pagina principale di un gruppo che si sta visualizzando, è possibile modificare, copiare o eliminare rapidamente il gruppo.
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Fai clic su **Gruppi**.
 

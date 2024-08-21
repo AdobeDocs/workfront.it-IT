@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: security
 title: Impedisci utenti duplicati
 description: Durante la creazione di un nuovo utente in Adobe Workfront, non è più possibile utilizzare un indirizzo e-mail già utilizzato da un altro utente, anche se l’indirizzo e-mail varia in base al caso (ad esempio, JohnDoe@example.com e johndoe@example.com). Inoltre, per prepararsi ai miglioramenti futuri dell’autenticazione, assicurati che tutti gli utenti abbiano indirizzi e-mail univoci in un’istanza di Workfront.
-author: Caroline
+author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 84d9a752-e894-42cf-9b40-375e35f02c97
-source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Durante la creazione di un nuovo utente in Adobe Workfront, non è più possibile utilizzare un indirizzo e-mail già utilizzato da un altro utente, anche se l’indirizzo e-mail varia in base al caso (ad esempio, JohnDoe@example.com e johndoe@example.com). Inoltre, per prepararsi ai miglioramenti futuri dell’autenticazione, assicurati che tutti gli utenti abbiano indirizzi e-mail univoci in un’istanza di Workfront.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -42,6 +44,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
++++
+
 ## Creare utenti con indirizzi e-mail univoci
 
 A partire dalla versione 2019.4, quando si crea un nuovo utente in Workfront, non è più possibile utilizzare un indirizzo e-mail già utilizzato da un altro utente, anche se l’indirizzo e-mail varia in base ai casi. Ad esempio, non puoi creare un utente con l’indirizzo e-mail JohnDoe@example.com se un altro utente ha l’indirizzo e-mail johndoe@example.com.
@@ -53,7 +57,7 @@ Per correggere gli indirizzi e-mail duplicati all’interno di un’istanza di W
 
 1. Esamina eventuali utenti duplicati e decidi quale utente non è più necessario.
 
-   1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Workfront, quindi fai clic su **Utenti**. ![](assets/users-icon-in-main-menu.png)
+   {{step-1-to-users}}
 
    1. Nel menu **Filtro**, seleziona **Tutto**.
 

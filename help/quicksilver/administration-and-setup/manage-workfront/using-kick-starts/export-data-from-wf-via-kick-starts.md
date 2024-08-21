@@ -3,20 +3,20 @@ user-type: administrator
 product-area: system-administration
 keywords: kick-start, kick-start, kick-start, kick-start
 navigation-topic: use-kick-starts
-title: Esportare dati da Adobe Workfront tramite Kick-Start
+title: Esportare dati da Workfront tramite Kick-Start
 description: In qualità di amministratore di Adobe Workfront, puoi utilizzare la funzione di esportazione dati di Kick-Start per esportare dati da Workfront.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 8e076e9c89ad208aa94ddefead4b8c6105992542
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 7%
+source-wordcount: '1011'
+ht-degree: 8%
 
 ---
 
-# Esportare dati da Adobe Workfront tramite Kick-Start
+# Esportare dati da Workfront tramite Kick-Start
 
 <!-- Audited: 2/2024 -->
 
@@ -146,7 +146,7 @@ Esistono le seguenti limitazioni quando si esportano dati tramite avvii (i dati 
       <td scope="col" valign="top"> <p> Excel</p> </td> 
      </tr> 
      <tr> 
-      <td scope="col" valign="top"> <p>Tipo di Spesa</p> </td> 
+      <td scope="col" valign="top"> <p>Tipo di spesa</p> </td> 
       <td valign="top"> <p>Tipo di spesa<br>Preferenze</p> </td> 
       <td scope="col" valign="top"> <p>Excel</p> </td> 
      </tr> 

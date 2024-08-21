@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-subgroups
 title: Creare un sottogruppo
 description: Puoi creare un sottogruppo all’interno di un gruppo che gestisci per organizzare utenti e progetti e assegnare diritti di accesso in Adobe Workfront. In genere, gli amministratori di gruppi gestiscono gruppi e sottogruppi. È possibile utilizzare la pagina Gruppi per gestire i gruppi e i sottogruppi in un'unica posizione.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: b59b1491-9a78-49c0-89c9-ab1ce0099e0b
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '879'
 ht-degree: 3%
 
 ---
@@ -24,6 +24,8 @@ Se al di sopra del gruppo gestito sono presenti gruppi, anche gli amministratori
 In genere, tuttavia, gli amministratori di gruppi gestiscono gruppi e sottogruppi. È possibile utilizzare la pagina Gruppi per gestire i gruppi e i sottogruppi in un&#39;unica posizione. Per informazioni sul funzionamento dei gruppi e dei sottogruppi in Workfront, vedere [Panoramica sui gruppi](../../../administration-and-setup/manage-groups/groups-overview/groups.md) e [Panoramica sui sottogruppi](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
 
@@ -44,9 +46,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 &#42;Per conoscere il piano o il tipo di licenza di cui si dispone, contattare l&#39;amministratore di Workfront.
 
++++
+
 ## Aggiungi un sottogruppo
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Fai clic su **Gruppi**.
 
@@ -82,7 +86,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
         </ul> </p> <p>Se hai bisogno di informazioni sull'accesso necessario per modificare gli utenti, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref" data-mc-variable-override="">Concedere l'accesso agli utenti</a>. Per informazioni sulla modifica degli utenti, vedere <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" data-mc-variable-override="">Modificare il profilo di un utente</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Business Leader </td> 
+      <td role="rowheader">Leader aziendale </td> 
       <td> <p>È possibile assegnare un utente come Business Leader per un sottogruppo gestito dall'utente. Un Business Leader è una persona che prende decisioni commerciali per il sottogruppo. Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">Panoramica di Business Leader</a><span>.</span></p> <p>Se la persona non è già membro del sottogruppo, l’aggiunta del nome a questo campo le aggiunge anche al gruppo.</p> <p><b>NOTA</b>:  
         <ul> 
          <li>Prima di rimuovere Business Leader da un sottogruppo, è necessario rimuoverne il nome dal campo Business Leader.</li> 

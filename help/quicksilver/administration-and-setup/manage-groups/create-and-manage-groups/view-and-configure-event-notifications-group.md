@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a815aeb1-3403-4491-a8ad-7e47c519905c
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,8 @@ Per informazioni sull&#39;impostazione di notifica predefinita per un evento, ve
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
 
 <table style="table-layout:auto"> 
@@ -51,10 +53,15 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 &#42;Per conoscere il piano o il tipo di licenza di cui si dispone, contattare l&#39;amministratore di Workfront.
 
++++
+
 ## Visualizzare e configurare le notifiche degli eventi di un gruppo
 
-1. (Condizionale e facoltativo) Se si è un amministratore di Workfront e si è già nella pagina Notifiche e-mail (Configurazione > E-mail > Notifiche), è possibile eseguire le operazioni seguenti e passare al passaggio 6: Elimina **Notifiche eventi di sistema** nella casella sopra l&#39;elenco, iniziare a digitare il nome del gruppo nella casella, quindi fare clic su di esso quando viene visualizzato.
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+>[!TIP]
+>
+>Se si è un amministratore di Workfront e si è già nella pagina Notifiche e-mail (Configurazione > E-mail > Notifiche), è possibile eseguire le operazioni seguenti e passare al passaggio 6: Elimina **Notifiche eventi di sistema** nella casella sopra l&#39;elenco, iniziare a digitare il nome del gruppo nella casella, quindi fare clic su di esso quando viene visualizzato.
+
+{{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su **Gruppi** ![](assets/groups-icon.png).
 

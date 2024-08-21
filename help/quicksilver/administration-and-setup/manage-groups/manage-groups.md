@@ -4,20 +4,24 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: administration-and-setup
-description: Un amministratore Workfront può creare gruppi di utenti che coincidono con la struttura del reparto. I gruppi sono simili ma distinti dai team e dalle aziende. L’amministratore di Workfront concede ai gruppi l’accesso alle aree Workfront in cui devono lavorare e comunicare. Ciascun gruppo può quindi mantenere le informazioni relative a Workfront, quali utenti, modelli, moduli personalizzati e progetti, separate da quelle di altri reparti.
-author: Caroline
+description: I gruppi sono simili ma distinti dai team e dalle aziende. L’amministratore di Workfront concede ai gruppi l’accesso alle aree Workfront in cui devono lavorare e comunicare.
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: bda8d47c-5ec7-4654-b7bd-c6fb854c3084
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
 
 # Gestisci gruppi
+
+Un amministratore Workfront può creare gruppi di utenti che coincidono con la struttura del reparto. I gruppi sono simili ma distinti dai team e dalle aziende.
+
+L’amministratore di Workfront concede ai gruppi l’accesso alle aree Workfront in cui devono lavorare e comunicare. Ciascun gruppo può quindi mantenere le informazioni relative a Workfront, quali utenti, modelli, moduli personalizzati e progetti, separate da quelle di altri reparti.
 
 Questa sezione contiene le seguenti sottosezioni:
 

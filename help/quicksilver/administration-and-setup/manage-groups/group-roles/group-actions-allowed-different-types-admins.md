@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
-title: Azioni consentite per diversi tipi di amministratori
+title: Azioni consentite per gli amministratori di gruppi
 description: In questa tabella vengono confrontate le attività di amministrazione disponibili per un amministratore di Adobe Workfront che gestisce il sistema Workfront, per un amministratore di gruppo che gestisce un gruppo di primo livello e per un amministratore di gruppo che gestisce un sottogruppo.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: 9dcd8dbe0474bdbb1fd50bb1f2525e03cd350559
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 2%
+source-wordcount: '537'
+ht-degree: 3%
 
 ---
 

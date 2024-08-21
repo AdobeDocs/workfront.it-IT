@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4a039619-0943-4b5b-ba7a-1ad9b5c11df0
-source-git-commit: 0afd578ebaa55d911c04a1d08fbcadddc1d05bbc
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: '1658'
 ht-degree: 3%
 
 ---
@@ -29,6 +29,8 @@ Ogni sottogruppo ha bisogno di almeno un amministratore di gruppo. Gli amministr
 Gli amministratori di gruppi e gli amministratori di Workfront possono anche creare sottogruppi in un gruppo. Per istruzioni, vedere [Creare un sottogruppo](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md).
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
 
@@ -49,13 +51,15 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 &#42;Per conoscere il piano o il tipo di licenza di cui si dispone, contattare l&#39;amministratore di Workfront.
 
++++
+
 ## Creare un gruppo di primo livello da zero
 
 Questi passaggi spiegano come creare un nuovo gruppo da zero. Per informazioni sulla creazione di un gruppo o di un sottogruppo copiandone uno esistente, vedere [Creare un gruppo di primo livello copiando un gruppo o un sottogruppo esistente](#create-a-top-level-group-by-copying-an-existing-group-or-subgroup) in questo articolo.
 
 Per creare un gruppo di primo livello è necessario essere un amministratore di Workfront.
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su **Gruppi** ![](assets/groups-icon.png).
 
@@ -93,7 +97,7 @@ Per creare un gruppo di primo livello è necessario essere un amministratore di 
         </ul> </p> <p>Se hai bisogno di informazioni sull'accesso necessario per modificare gli utenti, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concedere l'accesso agli utenti</a>. Per informazioni sulla modifica degli utenti, vedere <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modificare il profilo di un utente</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Business Leader </td> 
+      <td role="rowheader">Leader aziendale </td> 
       <td> <p>È possibile assegnare un utente come Business Leader per un gruppo gestito dall'utente. Un Business Leader è una persona che prende decisioni commerciali per il gruppo. Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">Panoramica di Business Leader</a><span>.</span></p> <p>Se la persona non è già membro del gruppo, l’aggiunta del proprio nome a questo campo le aggiunge anche al gruppo.</p> <p><b>NOTA</b>:  
         <ul> 
          <li>Prima di rimuovere Business Leader da un gruppo, è necessario rimuoverne il nome dal campo Business Leader.</li> 
@@ -127,7 +131,7 @@ Quando desideri eseguire questa operazione, tieni presente quanto segue:
 
 Per creare un nuovo gruppo di primo livello copiando un gruppo o un sottogruppo:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su **Gruppi** ![](assets/groups-icon.png).
 
@@ -163,7 +167,7 @@ Per creare un nuovo gruppo di primo livello copiando un gruppo o un sottogruppo:
         </ul> </p> <p>Se hai bisogno di informazioni sull'accesso necessario per modificare gli utenti, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref" data-mc-variable-override="">Concedere l'accesso agli utenti</a>. Per informazioni sulla modifica degli utenti, vedere <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" data-mc-variable-override="">Modificare il profilo di un utente</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Business Leader </td> 
+      <td role="rowheader">Leader aziendale </td> 
       <td> <p>È possibile assegnare un utente come Business Leader per un gruppo gestito dall'utente. Un Business Leader è una persona che prende decisioni commerciali per il gruppo. Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">Panoramica di Business Leader</a><span>.</span></p> <p>Se la persona non è già membro del gruppo, l’aggiunta del proprio nome a questo campo le aggiunge anche al gruppo.</p> <p><b>NOTA</b>:  
         <ul> 
          <li>Prima di rimuovere Business Leader da un gruppo, è necessario rimuoverne il nome dal campo Business Leader.</li> 

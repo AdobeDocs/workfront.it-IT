@@ -5,11 +5,11 @@ product-area: system-administration
 navigation-topic: security
 title: Informativa sulla privacy di Adobe Workfront
 description: Adobe Workfront Inc. ("Workfront") prende sul serio la protezione della privacy dei nostri clienti. La presente Informativa sulla privacy (la "Informativa sulla privacy") ti informa sulle nostre politiche relative alla raccolta, all'utilizzo e alla divulgazione di tutte le informazioni personali ("Dati Personali") e di altri dati che ci vengono forniti attraverso l'uso di ciascuno dei nostri siti web e applicazioni mobili su cui viene visualizzato un link alla presente Informativa sulla privacy e tutti i prodotti e i servizi resi disponibili attraverso tali siti web, tra cui, senza limitazioni, le nostre offerte SaaS (collettivamente, il "Servizio").
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cacff71c-d0a9-4a36-b8d2-787101a16f52
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 0%

@@ -3,13 +3,13 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration;user-management
 navigation-topic: groups-overview
-title: Panoramica sui sottogruppi
+title: Panoramica dei sottogruppi
 description: È possibile creare fino a 14 livelli di sottogruppi in un unico gruppo. Su uno qualsiasi di questi livelli, puoi creare un numero illimitato di sottogruppi paralleli.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a4280498-6719-4911-a69a-b715a5438eed
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 0%
