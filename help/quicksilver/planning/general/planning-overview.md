@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 2742594d4f835bb2b81b314075ab374f22074d87
 workflow-type: tm+mt
-source-wordcount: '1880'
+source-wordcount: '1900'
 ht-degree: 2%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 2%
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
-
-<!-- remove the references to closed beta from the entire article-->
-
-<!--update the video in the IMPORTANT below, when we have something better, especially after Open Beta - remove it-->
 
 >[!IMPORTANT]
 >
@@ -34,7 +30,6 @@ ht-degree: 2%
 >
 >Per un elenco completo di tutte le sezioni e degli articoli che documentano Workfront Planning, vedere [Adobe Workfront Planning: indice articolo](/help/quicksilver/planning/planning-information.md).
 
-<!--[View a video demonstration of Adobe Workfront Planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 ## Introduzione ad Adobe Workfront Planning
 
@@ -56,6 +51,8 @@ Di seguito sono riportate alcune delle funzionalità principali:
 * Collegamento a tipi di oggetto da altri sistemi, creando un framework coerente per tutti i processi.
 
 ## Funzioni di Adobe Workfront Planning attualmente disponibili
+
+<!--for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns-->
 
 Nella tabella seguente sono illustrate le principali funzionalità disponibili in Workfront Planning e la relativa tempistica di disponibilità. L&#39;elenco non include tutte le funzionalità.
 
@@ -90,7 +87,7 @@ Per informazioni sulle nuove funzionalità e sulla data di rilascio, vedere [Att
 | Condividere le visualizzazioni pubblicamente con risorse esterne | ✓ | |  |
 | Visualizzazioni duplicate | ✓ | |  |
 | Inviare richieste |                               | ✓ |                 |
-| Esporta dettagli record in Word |                               | ✓ |                 |
+| Esporta dettagli record in Word | ✓ |                                  |                 |
 | Esporta dettagli record in PDF |                               |                                  | ✓ |
 | Personalizzare il colore e l&#39;icona di un record | ✓ |                                  |                 |
 | Aggiungere commenti ai record | ✓ |                                  |                 |
@@ -203,9 +200,9 @@ Di seguito sono riportati gli oggetti e i concetti principali di Workfront Plann
    * Ultima modifica eseguita da
    * Data ultima modifica
 
-* **Tipi di record collegati**, **Record collegati** e **Campi record collegati** o **Tipi di record connessi**, **Record connessi** e **Campi connessi**: è possibile creare una connessione tra le seguenti entità in Workfront Planning:
+* **Tipi di record connessi**, **Record connessi** e **Campi connessi**: è possibile creare una connessione tra le seguenti entità in Workfront Planning:
 
-   * Due tipi di record.
+   * Due tipi di record di Workfront Planning.
    * Tipo di record e tipo di oggetto progetto, programma, portfolio, società o gruppo di Workfront.
    * Un tipo di record e una risorsa o cartella Adobe Experience Manager.
 
@@ -224,7 +221,7 @@ Di seguito sono riportati gli oggetti e i concetti principali di Workfront Plann
 
   >[!TIP]
   >
-  > Non è possibile aggiungere i seguenti tipi di campi come campi di ricerca:
+  > Non è possibile aggiungere i tipi di campo seguenti come campi di ricerca dal record o dai tipi di oggetto collegati:
   >
   >* Persone
   >* Creato da
@@ -246,11 +243,11 @@ Di seguito sono riportati gli oggetti e i concetti principali di Workfront Plann
 
   Di seguito sono riportati i tipi di visualizzazione che è possibile applicare alla pagina del tipo di record:
 
-   * **Vista tabella**: visualizza i record e i relativi campi in un formato tabella. Le righe della tabella sono i singoli record e le colonne sono i campi record. Questa è la vista predefinita.
+   * **Vista tabella**: visualizza i record e i relativi campi, inclusi i campi connessi e di ricerca, in un formato tabella. Le righe della tabella sono i singoli record e le colonne sono i campi record. Questa è la vista predefinita.
 
      ![](assets/table-view-example.png)
 
-   * **Visualizzazione sequenza temporale**: visualizza i record contenenti almeno due campi di tipo Data in una sequenza temporale cronologica.
+   * **Visualizzazione sequenza temporale**: visualizza i record contenenti almeno due campi di tipo Data in una sequenza temporale cronologica. È possibile visualizzare fino a 5 tipi di record collegati e i relativi record nella visualizzazione timeline.
 
      ![](assets/grouping-applied-in-timeline-view.png)
 
@@ -279,7 +276,6 @@ Per individuare Workfront Planning:
    >[!TIP]
    >
    >    L&#39;amministratore di Workfront può aggiungere l&#39;area Pianificazione all&#39;opzione Seleziona pagina di destinazione nel modello di layout, in modo da poter aprire Planning non appena si accede a Workfront. Per informazioni, vedere [Personalizzare la pagina di destinazione utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
-
 
 1. (Condizionale e facoltativo) Se sei un amministratore di Workfront, fai clic su una delle seguenti schede:
    * **Aree di lavoro in cui si trova**: visualizza le aree di lavoro create dall&#39;utente o condivise con l&#39;utente.
