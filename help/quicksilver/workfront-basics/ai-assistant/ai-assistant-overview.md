@@ -6,9 +6,9 @@ author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 2a6de1325895bc36527ab83b1d0b47910636b9b9
+source-git-commit: b61f021fe52e5a15afc4bc7e1b9545da97fb03d2
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,10 @@ Per abilitare l&#39;Assistente IA per la tua organizzazione, **tutti** i seguent
 
   Per ulteriori informazioni, vedere [Attivare o disattivare l&#39;Assistente AI](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
+* L&#39;Assistente di Workfront Planning AI dispone di funzioni diverse dall&#39;Assistente di Workfront AI.
+
+  Per ulteriori informazioni sull&#39;Assistente di IA in Workfront Planning, vedere [Panoramica dell&#39;Assistente di IA di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
+
 
 ## Funzionalità disponibile in AI Assistant
 
@@ -85,7 +89,7 @@ L’Assistente AI offre attualmente le seguenti funzionalità:
 
   Per ulteriori informazioni, vedere [Generare o modificare formule di campi calcolati con Assistente IA](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md).
 
-## ## Assistente di Access AI
+## Accedi all’Assistente di AI
 
 1. Nella parte superiore di qualsiasi pagina di Workfront, fare clic sull&#39;icona Assistente AI ![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
 1. Digita la domanda o il prompt nel pannello a destra della schermata.
