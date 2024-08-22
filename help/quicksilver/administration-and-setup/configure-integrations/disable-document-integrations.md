@@ -1,16 +1,17 @@
 ---
-title: Disattiva integrazioni documenti
+title: Disabilita integrazioni documenti
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: In qualità di amministratore  [!DNL anAdobe] [!DNL Workfront], puoi disabilitare la connessione tra Workfront e qualsiasi provider di documenti di terze parti.
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
+author: Courtney, Becky
 exl-id: 78281bca-1fa1-4e78-96e5-70be12142bbd
-source-git-commit: ceda437684f565b91dbb8b02f6b03cbe8d27a70a
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 0%
+source-wordcount: '297'
+ht-degree: 1%
 
 ---
 
@@ -21,6 +22,8 @@ In qualità di amministratore [!DNL Adobe] [!DNL Workfront], puoi disabilitare l
 Quando si disattiva la connessione tra [!DNL Workfront] e un provider di documenti, i collegamenti ai documenti scompaiono da [!DNL Workfront]. Gli utenti non possono più visualizzare i documenti collegati, non possono apportare modifiche ai documenti tramite i collegamenti [!DNL Workfront] e non possono aggiungere altri documenti a tale provider.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
 
@@ -45,12 +48,15 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
 
++++
+
 ## Disabilita integrazioni provider cloud
 
 Per disabilitare le integrazioni dei documenti per [!UICONTROL Workfront DAM], [!DNL Box], [!DNL Dropbox], [!DNL Google Drive], [!DNL Microsoft OneDrive], [!DNL WebDAM]:
 
 1. Accedere a [!DNL Workfront] come amministratore [!DNL Workfront].
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Configurazione]** ![](assets/gear-icon-settings.png).
+
+{{step-1-to-setup}}
 
 1. Fai clic su **[!UICONTROL Documenti]** > **[!UICONTROL Provider cloud]**.
 
@@ -62,7 +68,8 @@ Per disabilitare le integrazioni dei documenti per [!UICONTROL Workfront DAM], [
 ## Disattiva l&#39;integrazione di [!DNL SharePoint]
 
 1. Accedere a [!DNL Workfront] come amministratore [!DNL Workfront].
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Configurazione]** ![](assets/gear-icon-settings.png).
+
+{{step-1-to-setup}}
 
 1. Espandere **[!UICONTROL Documenti]**, quindi fare clic su **[!UICONTROL [!DNL SharePoint]Integrazione]**.
 1. Selezionare l&#39;integrazione di [!DNL SharePoint] da disabilitare.
@@ -72,7 +79,8 @@ Per disabilitare le integrazioni dei documenti per [!UICONTROL Workfront DAM], [
 ## Disattiva integrazioni personalizzate
 
 1. Accedere a [!DNL Workfront] come amministratore.
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Configurazione]** ![](assets/gear-icon-settings.png).
+
+{{step-1-to-setup}}
 
 1. Fai clic su **[!UICONTROL Documenti]** > **[!UICONTROL Integrazione personalizzata]**.
 1. Seleziona l’integrazione personalizzata da disabilitare.

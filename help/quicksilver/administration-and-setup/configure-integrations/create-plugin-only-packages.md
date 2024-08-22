@@ -1,13 +1,14 @@
 ---
-title: Creare pacchetti solo plug-in per gli utenti in Adobe Admin Console
+title: Creare pacchetti di solo plug-in per gli utenti in Adobe Admin Console
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: Un amministratore di Adobe Admin Console può creare un pacchetto leggero, solo plug-in. Distribuendo questi pacchetti preconfigurati, gli amministratori possono garantire che gli utenti dispongano di questi plug-in senza dover ricorrere all’utente per la ricerca del plug-in. È consigliabile utilizzare questi plug-in leggeri per distribuire i plug-in di Adobe Workfront for Creative Cloud agli utenti dell’organizzazione.
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+author: Becky
 exl-id: 99c40201-815e-447d-b791-dd026af55ec1
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 4%

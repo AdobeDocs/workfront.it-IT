@@ -4,13 +4,13 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;workfront-integrations
 navigation-topic: adobe-admin-console
-title: Prepara l’onboarding della tua organizzazione in Adobe Admin Console
+title: Preparare l’onboarding dell’organizzazione in Adobe Admin Console
 description: Poiché Adobe Workfront è un prodotto di Adobe, puoi accedervi tramite Adobe Admin Console. Questo consente di gestire Workfront insieme ad altri account e prodotti di Adobe per i tuoi utenti da una posizione centrale.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d9b5e4a1-069e-48be-80d0-84f4bf8aea8b
-source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%

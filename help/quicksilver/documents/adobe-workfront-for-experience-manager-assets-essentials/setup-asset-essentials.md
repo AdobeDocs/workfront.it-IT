@@ -6,10 +6,10 @@ description: Collega il tuo lavoro con i contenuti in Experience Manager Assets 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 0%
+source-wordcount: '626'
+ht-degree: 1%
 
 ---
 
@@ -27,48 +27,51 @@ Collega il tuo lavoro con i contenuti in Experience Manager Assets Essentials&#x
 
 ## Requisiti di accesso
 
-Devi avere i seguenti:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table>
   <tr>
-   <td><strong>Piano Adobe Workfront*</strong>
+   <td>[!DNL Adobe Workfront] piano
    </td>
    <td>Qualsiasi
    </td>
   </tr>
   <tr>
-   <td><strong>Licenze Adobe Workfront*</strong>
+   <td>[!DNL Adobe Workfront] licenza
    </td>
-   <td>Piano
+   <td><p>Corrente: [!UICONTROL Plan]</p>
+   <p>Nuovo: [!UICONTROL Standard]</p></td>
+  </tr>
+  <tr>
+   <td>[!DNL Experience Manager] licenza
+   </td>
+   <td>[!UICONTROL Standard]
    </td>
   </tr>
   <tr>
-   <td><strong>Licenza Experience Manager</strong>
-   </td>
-   <td>Standard
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Prodotto</strong>
+   <td>Prodotto
    </td>
    <td>Devi disporre di Experience Manager Assets Essentials e devi essere aggiunto al prodotto come utente nell’Admin Console.
    </td>
   </tr>
   <tr>
-   <td><strong>Configurazioni del livello di accesso</strong>
+   <td>Configurazioni del livello di accesso
    </td>
-   <td>Devi essere un amministratore di Workfront. Per informazioni sugli amministratori di Workfront, vedere <strong>Concedere a un utente l'accesso amministrativo completo</strong>.
+   <td>Devi essere un amministratore [!DNL Workfront].
    </td>
   </tr>
 </table>
 
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront.
-
++++
 
 ## Configurare l’integrazione
 
-1. Fai clic sull&#39;icona **Main Menu** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Setup**.
+{{step-1-to-setup}}
+
 1. Seleziona **Documenti** ![icona documenti](assets/document-icon.png) nel pannello a sinistra, quindi seleziona **Integrazione Experience Manager**.
 1. Selezionare **Aggiungi integrazione Experience Manager**.
 1. Specifica quanto segue:
@@ -126,20 +129,21 @@ Look for essentials article
 For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
 -->
 
-+++
-
 
 ### Risorse
 
 I metadati vengono mappati quando una risorsa viene inviata da Workfront per la prima volta. La prima volta che una risorsa viene inviata a Experience Manager Assets Essentials, i documenti con i campi incorporati o personalizzati vengono mappati automaticamente sui campi specificati.
 
 1. Nella colonna **Campo Workfront** scegliere un campo Workfront predefinito o personalizzato.
+
    >[!NOTE]
    >
    >È possibile mappare un singolo campo Workfront a più campi Experience Manager Assets. Non puoi mappare più campi Workfront a un singolo campo Experience Manager Assets.
+
 1. Nel campo **Experience Manager**, scegli un campo Experience Manager Assets.
 
    Per associare un campo Workfront a un tag Experience Manager Assets, selezionare `xcm:keywords`.
+
 1. Ripetere i passaggi 1 e 2 in base alle esigenze.
    ![abilita metadati](assets/metadata-assets-essentials.png)
 1. Fai clic su **Salva** o passa alla sezione [Configura cartelle collegate (facoltativo)](#set-up-linked-folders-optional) in questo articolo.

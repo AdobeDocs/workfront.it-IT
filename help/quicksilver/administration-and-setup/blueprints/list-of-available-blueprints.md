@@ -4,11 +4,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: administration-and-setup
 title: Elenco dei blueprint disponibili
 description: I  [!DNL Adobe Workfront] blueprint elencati sono disponibili per l'installazione da parte degli amministratori di sistema.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 93c50eb6ad2e9693cd9fd104efed2763e07cd418
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
 source-wordcount: '2019'
 ht-degree: 0%
@@ -87,7 +87,7 @@ Questo blueprint contiene un singolo dashboard con 13 rapporti per trovare, rias
 
 Questo blueprint contiene un singolo dashboard con 12 rapporti per dare visibilità ai responsabili delle persone nel lavoro dei loro referenti diretti.
 
-**[!UICONTROL Implementazione di Post: rollout nuovo caso d&#39;uso]**
+**[!UICONTROL Post-implementazione: rollout nuovo caso d&#39;uso]**
 Questo blueprint contiene un singolo modello che organizza il lavoro che un cliente [!DNL Workfront] dovrà completare per gestire l&#39;espansione ai processi successivi dopo l&#39;implementazione iniziale.
 
 **[!UICONTROL Produzione risorse di stampa] (integrata)**

@@ -1,17 +1,17 @@
 ---
-title: Configurare la mappatura dei metadati
+title: Impostare la mappatura dei metadati
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: I metadati sono informazioni descrittive associate a un documento. Puoi impostare  [!DNL Adobe Workfront]  per includere metadati con documenti inviati ad  [!DNL Workfront]  applicazioni.
-author: Caroline
+author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 1%
+source-wordcount: '600'
+ht-degree: 0%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 1%
 I metadati sono informazioni descrittive associate a un documento. È possibile configurare [!DNL Adobe Workfront] per includere metadati con documenti inviati alle applicazioni [!DNL Workfront].
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -41,6 +43,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Informazioni sui metadati [!DNL Workfront]
 
@@ -64,7 +68,7 @@ Prima di poter mappare i campi per il processo di mappatura dei metadati, è nec
 
 ## Configura [!DNL Workfront] per inviare metadati
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Configurazione]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su **[!UICONTROL Documenti]** > **[!UICONTROL Mappatura metadati]**.
 
@@ -82,7 +86,8 @@ Prima di poter mappare i campi per il processo di mappatura dei metadati, è nec
 ## Elimina campi mappati
 
 1. Accedere a [!DNL Workfront] come amministratore.
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Configurazione]** ![](assets/gear-icon-settings.png).
+
+{{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su **[!UICONTROL Documenti]** > **[!UICONTROL Mappatura metadati]**.
 

@@ -5,14 +5,14 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Installare una blueprint
 description: Puoi installare una blueprint nell’ambiente di produzione o in un ambiente Sandbox.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 546e19ab-dc50-4d23-b5f6-31bde1c82b6a
-source-git-commit: d46eb98c443a421f340b1021972ddb89eda1966b
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 0%
+source-wordcount: '487'
+ht-degree: 1%
 
 ---
 
@@ -22,6 +22,8 @@ Puoi installare una blueprint nell’ambiente di produzione o in un ambiente San
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
@@ -29,19 +31,26 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] piano</strong></td> 
-   <td> <p> Qualsiasi</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] piano</td> 
+   <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licenza Adobe [!DNL Workfront]</strong></td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
+   <td>
+   <p>Nuovo: Standard</p>
+   <p>oppure</p>
+   <p>Corrente: Piano</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurazioni del livello di accesso</strong></td> 
-   <td> <p>[!UICONTROL Amministratore di sistema]</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td>Devi essere un amministratore [!DNL Workfront]. </td> 
   </tr> 
  </tbody> 
 </table>
+
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Dove devo installare una blueprint? {#where-should-i-install-a-blueprint}
 
@@ -73,7 +82,8 @@ Puoi installare il pacchetto in uno dei seguenti ambienti:
 
 ## Installare la blueprint
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe] Workfront, quindi fai clic su **[!UICONTROL Blueprint]**.
+{{step1-to-blueprints}}
+
 1. Trova il blueprint da installare. Puoi filtrare per caso d’uso, livello di maturità, stato di installazione e tipo sul lato destro.
 1. (Facoltativo) Fai clic su **[!UICONTROL Dettagli]** per scoprire come funziona la blueprint.
 1. Fare clic su **[!UICONTROL Installa]**.

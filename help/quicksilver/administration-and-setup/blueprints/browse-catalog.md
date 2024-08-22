@@ -2,14 +2,14 @@
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: templates-navigation-topic
-title: Sfoglia il catalogo dei blueprint e richiedi l’installazione dei blueprint
+title: Sfoglia il catalogo dei blueprint e richiedi l’installazione di blueprint
 description: I blueprint forniscono elementi di base per aiutarti a creare un sistema di gestione del lavoro che cresce con te. Tutti gli [!DNL Adobe Workfront] utenti possono sfogliare il catalogo dei blueprint. È inoltre possibile richiedere all'amministratore di  [!DNL Workfront]  di installare un blueprint specifico, se l'amministratore ha abilitato le richieste blueprint.
-author: Lisa
+author: Becky, Lisa
 feature: System Setup and Administration, Work Management
 exl-id: 932072e4-4d52-4b4b-a045-0cd38cb882d3
-source-git-commit: d46eb98c443a421f340b1021972ddb89eda1966b
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Solo l’amministratore di sistema può installare i blueprint. Per informazioni
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
@@ -29,21 +31,29 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] piano</strong></td> 
-   <td> <p> Qualsiasi</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] piano</td> 
+   <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licenza Adobe [!DNL Workfront]</strong></td> 
-   <td> <p>[!UICONTROL Request] o versione successiva</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
+   <td>
+   <p>Nuovo: Collaboratore o versione successiva</p>
+   <p>oppure</p>
+   <p>Corrente: richiesta o successiva</p></td> 
   </tr>
  </tbody> 
 </table>
+
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Sfogliare il catalogo blueprint
 
 Il catalogo mostra tutti i blueprint disponibili per la tua organizzazione. Per informazioni sui blueprint, come i tipi di blueprint e i livelli di maturità, consulta [Panoramica sui blueprint](../../administration-and-setup/blueprints/blueprints-overview.md).
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Blueprint]**.
+{{step1-to-blueprints}}
+
 1. Sfoglia il catalogo dei blueprint.
 1. Utilizza il pannello dei filtri a destra per filtrare il catalogo in base alle seguenti opzioni:
 
@@ -62,7 +72,8 @@ Se l’amministratore di sistema consente le richieste blueprint, puoi richieder
 
 Quando richiedi l’installazione di una blueprint, la richiesta viene inviata all’amministratore di sistema. Ricevi una notifica quando la richiesta viene completata, in base alle preferenze di notifica.
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Blueprint]**.
+{{step1-to-blueprints}}
+
 1. Trova il blueprint da installare. Puoi filtrare per caso d’uso, livello di maturità, stato di installazione e tipo utilizzando i filtri nel pannello di destra.
 1. Fai clic su **[!UICONTROL Richiesta]** nella blueprint.
 

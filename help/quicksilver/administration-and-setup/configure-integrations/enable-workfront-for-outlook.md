@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: Prima che gli utenti possano iniziare a utilizzare  [!DNL Adobe Workfront]  per Outlook, devi prima attivarlo per il tuo sistema.
-author: Becky
+author: Lisa, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: be523b27-191f-46ca-9a87-d512f9a15a1e
-source-git-commit: f7e3182776e6b62103cd755b2fbd5057efc95394
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '201'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,8 @@ Prima che gli utenti possano iniziare a utilizzare [!DNL Adobe Workfront for Out
 Per informazioni sull&#39;utilizzo di [!DNL Workfront for Outlook] dopo l&#39;attivazione, vedere [[!DNL Adobe Workfront for Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md).
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
 
@@ -46,10 +48,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
 
++++
+
 ## Abilita il componente aggiuntivo [!DNL Workfront] [!DNL Outlook]
 
 1. Accedere a [!DNL Workfront] come amministratore.
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Configurazione]** ![](assets/gear-icon-settings.png).
+
+{{step-1-to-setup}}
 
 1. Espandi **[!UICONTROL Sistema]**, quindi fai clic su **[!UICONTROL Preferenze]**.
 

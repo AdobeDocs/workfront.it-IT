@@ -6,9 +6,9 @@ description: Puoi collegare il tuo lavoro al contenuto in [!DNL Experience Manag
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '1679'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
@@ -39,36 +39,35 @@ ht-degree: 0%
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Devi avere i seguenti:
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] piano</strong>
+   <td>[!DNL Adobe Workfront] piano
    </td>
    <td>Qualsiasi
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] licenze</strong>
+   <td>[!DNL Adobe Workfront] licenza
    </td>
-   <td>Corrente: [!UICONTROL Plan] <br>
-   Nuovo: [!UICONTROL Standard]
-   </td>
+   <td><p>Corrente: [!UICONTROL Plan]</p>
+   <p>Nuovo: [!UICONTROL Standard]</p></td>
   </tr>
   <tr>
-   <td><strong>[!DNL Experience Manager] licenza</strong>
+   <td>[!DNL Experience Manager] licenza
    </td>
    <td>[!UICONTROL Standard]
    </td>
   </tr>
   <tr>
-   <td><strong>Prodotto</strong>
+   <td>Prodotto
    </td>
    <td>Devi avere [!DNL Experience Manager Assets as a Cloud Service] e devi essere aggiunto al prodotto come utente.
    </td>
   </tr>
   <tr>
-   <td>Configurazioni del livello di accesso*
+   <td>Configurazioni del livello di accesso
    </td>
    <td>Devi essere un amministratore [!DNL Workfront].
    </td>
@@ -78,7 +77,6 @@ Devi avere i seguenti:
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
 
 ## Prerequisiti
 

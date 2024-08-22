@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 5691d6253871efc8e61fa06fe904edc4a5953d62
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 0%
@@ -260,7 +260,7 @@ Sappiamo che le integrazioni integrate (native) disponibili potrebbero non soddi
      <li>Ricevi [!DNL Workfront] notifiche in [!DNL Slack] </li> 
      <li>Gestisci approvazioni in [!DNL Slack] </li> 
      <li>Crea [!DNL Workfront] attività e problemi da [!DNL Slack] </li> 
-     <li>Commenti di Post a un progetto o a un'attività da [!DNL Slack]</li> 
+     <li>Pubblica commenti su un progetto o un'attività da [!DNL Slack]</li> 
     </ul> <p>Per ulteriori informazioni, vedere <a href="../../workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md" class="MCXref xref">[!DNL Adobe Workfront for Slack]</a>.</p> </td> 
    <td> 
     <ul> 
