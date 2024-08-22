@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 5138321543175cac3e51cc21c8309cbefd8bc1e8
+source-git-commit: 716db8e2d6411495d1809dd320c9c3cca86e2659
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,10 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
 
 ## Miglioramenti di Adobe Workfront
 
-* [Miglioramenti per gli amministratori]
-* [Miglioramenti al progetto](#project-enhancements)
+* [Miglioramenti per gli amministratori](#administrator-enhancements)
 * [Miglioramenti dell’integrazione](#integration-enhancements)
+* [Miglioramenti al progetto](#project-enhancements)
+* [Miglioramenti delle bozze](#proofing-enhancements)
 * [Altri miglioramenti](#other-enhancements)
 
 ### Miglioramenti per gli amministratori
@@ -73,6 +74,41 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                             </li>
                         </ul>
                         <p><i>Questa funzione fa parte di un rilascio graduale e sarà disponibile per un numero limitato di clienti a settembre.</i></p>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
+### Miglioramenti dell’integrazione
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funzionalità</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Date di rilascio</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Miglioramenti dell'esperienza di accesso all'integrazione di Outlook</a></p>
+                        <p>L’esperienza di accesso per l’integrazione con Outlook è stata semplificata: tutti i clienti possono visualizzare lo stesso pulsante per accedere a Workfront, indipendentemente dal fatto che siano abilitati IMS. I passaggi di accesso successivi rimangono diversi per le istanze IMS e non IMS, ma la pagina iniziale è la stessa per tutti gli utenti.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 6 agosto 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Versione di produzione per tutti i clienti: 6 agosto 2024</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
            </tbody>
@@ -137,7 +173,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
            </tbody>
         </table>
 
-### Miglioramenti dell’integrazione
+### Miglioramenti delle bozze
 
 <table>
             <col style="width: 50%;" />
@@ -155,23 +191,22 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Miglioramenti dell'esperienza di accesso all'integrazione di Outlook</a></p>
-                        <p>L’esperienza di accesso per l’integrazione con Outlook è stata semplificata: tutti i clienti possono visualizzare lo stesso pulsante per accedere a Workfront, indipendentemente dal fatto che siano abilitati IMS. I passaggi di accesso successivi rimangono diversi per le istanze IMS e non IMS, ma la pagina iniziale è la stessa per tutti gli utenti.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Aggiornamento Chromium per il Visualizzatore bozze desktop</a></p>
+                        <p>Stiamo aggiornando il Visualizzatore bozze desktop per supportare Chromium 126.0.6478.127 che risolverà i problemi con gli elementi dell’interfaccia utente nelle bozze interattive.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Versione di anteprima: 6 agosto 2024</p>
+                                <p>Versione di anteprima: 29 agosto 2024</p>
                             </li>
                             <li>
-                                <p><span class="preview">Versione di produzione per tutti i clienti: 6 agosto 2024</span></p>
+                                <p><span class="preview">Versione di produzione per tutti i clienti: 29 agosto 2024</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
            </tbody>
         </table>
-
 
 ### Altri miglioramenti
 
