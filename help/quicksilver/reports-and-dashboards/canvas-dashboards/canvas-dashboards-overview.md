@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533
-source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
+source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Questa pagina descrive le funzionalità disponibili solo per gli utenti iscritti a Dashboard di Canvas in versione beta chiusa. Per ulteriori informazioni, consulta [Informazioni sulla versione beta delle dashboard di Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>Questa pagina descrive le funzionalità disponibili come parte della versione beta delle dashboard di Canvas. Per ulteriori informazioni, consulta [Informazioni sulla versione beta delle dashboard di Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
 Le dashboard di Canvas consentono di visualizzare facilmente i dati di Adobe Workfront aggiungendo vari tipi di rapporti a un’area di lavoro personalizzabile. Per istruzioni di base sull&#39;utilizzo dei dashboard di Canvas, iniziare con l&#39;articolo [Introduzione ai dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md). In caso contrario, consulta l’indice dell’articolo seguente per ulteriori informazioni su un argomento specifico.
 

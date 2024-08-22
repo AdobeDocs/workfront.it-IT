@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: b61879975732bd8e9b6c94143c2134bfe023f7ea
+source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
-source-wordcount: '14337'
+source-wordcount: '14341'
 ht-degree: 2%
 
 ---
@@ -410,6 +410,7 @@ ht-degree: 2%
       * [Domande frequenti sulla finestra di manutenzione](product-announcements/announcements/maintenance-window-faq.md)
       * [Modifica necessaria per aggiungere le bozze al inserisco nell&#39;elenco Consentiti di lavoro di un’organizzazione](product-announcements/announcements/proofhq-domain-change-workfront.md)
       * [Annulla l’iscrizione ai messaggi del Centro notifiche nella nuova esperienza Adobe Workfront](product-announcements/announcements/unsubscribe-from-ac-messages.md)
+      * [Guida obsoleta della home page legacy](product-announcements/announcements/legacy-home-deprecation.md)
       * Archivio notifiche {#announcement-archive}
          * [Archivio notifiche](product-announcements/announcements/announcement-archive/announcement-archive.md)
          * [Miglioramenti dei moduli personalizzati](product-announcements/announcements/announcement-archive/custom-form-enhancements.md)

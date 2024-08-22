@@ -6,9 +6,9 @@ description: Dopo aver creato un dashboard di Canvas, puoi aggiungervi rapporti 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 840f2e1f-592f-44c1-b2e9-7201e424209a
-source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
+source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Questa pagina descrive le funzionalità disponibili solo per gli utenti iscritti a Dashboard di Canvas in versione beta chiusa. Per ulteriori informazioni, consulta [Informazioni sulla versione beta delle dashboard di Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>Questa pagina descrive le funzionalità disponibili come parte della versione beta delle dashboard di Canvas. Per ulteriori informazioni, consulta [Informazioni sulla versione beta delle dashboard di Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
 Dopo aver creato un dashboard di Canvas, puoi aggiungervi rapporti che presenteranno i dati di Adobe Workfront in vari formati. Questi rapporti possono essere spostati e ridimensionati nell’area di lavoro in base alle tue esigenze. Per informazioni sulla creazione di un dashboard Canvas, vedere [Introduzione ai dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 
