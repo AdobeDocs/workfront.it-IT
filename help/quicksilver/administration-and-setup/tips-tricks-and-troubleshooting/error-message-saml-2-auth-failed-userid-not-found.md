@@ -4,14 +4,14 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: "Messaggio di errore: autenticazione SAML 2.0 non riuscita: identificatore utente non trovato"
-description: Quando si utilizza SAML 2.0, l'errore "SAML 2.0 Authentication Failed-User Identifier Not Found" (Identificatore utente non riuscito con autenticazione SAML 2.0 non trovato) indica che un UID o un ID NAME non viene passato dalle regole di attestazione ADFS. In ADFS l'attendibilità della relying party deve disporre di una regola di attestazione che trasmette un UID o un valore di ID NAME. Quando esegui una connessione di prova  [!DNL Workfront] , questa dovrebbe essere visualizzata in caso di esito positivo.
-author: Caroline
+description: Quando si utilizza SAML 2.0, l'errore "SAML 2.0 Authentication Failed-User Identifier Not Found" (Identificatore utente non riuscito con autenticazione SAML 2.0 non trovato) indica che un ID UID o NAME non viene passato dalle regole di attestazione ADFS.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 9467cdff-7965-49ba-ac13-ed79c496a725
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,15 @@ Viene visualizzato questo errore quando si utilizza SAML 2.0: &quot;Autenticazio
 
 ## Causa
 
-Ciò si verifica quando un **UID** o un **ID NOME** non viene passato dalle **regole attestazione ADFS**.
+Ciò si verifica quando **UID** o **NAME ID** non viene passato dalle **regole attestazione ADFS**.
 
-In ADFS l&#39;attendibilità del componente **Relying Party** deve avere una **regola attestazione** che passa un valore **UID** o **NAME ID**. Quando si esegue una connessione di prova **[!DNL Workfront]**, questa dovrebbe essere visualizzata in caso di esito positivo.
+In ADFS l&#39;attendibilità del componente **Relying Party** deve avere una **regola attestazione** che trasmette un valore **UID** o un valore **NAME ID**. Quando si esegue una connessione di prova **[!DNL Workfront]**, questa dovrebbe essere visualizzata in caso di esito positivo.
 
 ## Requisiti di accesso
+
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -42,14 +46,21 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
-   <td>Piano</td> 
+   <td>
+   <p>Nuovo: Standard</p>
+   <p>oppure</p>
+   <p>Corrente: Piano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Devi essere un amministratore [!DNL Workfront]. Per ulteriori informazioni, vedere <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente l'accesso amministrativo completo</a>.</p> <p><b>NOTA</b>: se non disponi ancora dell'accesso, chiedi all'amministratore di [!DNL Workfront] se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di [!DNL Workfront] può modificare il tuo livello di accesso, vedi <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td>Devi essere un amministratore [!DNL Workfront]. </td> 
   </tr> 
  </tbody> 
 </table>
+
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Soluzione
 

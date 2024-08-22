@@ -5,13 +5,13 @@ product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: "Messaggio di errore: si è verificato un piccolo problema. Questo campo viene utilizzato in una configurazione multi-modulo"
 description: Quando si modifica un calcolo in un campo personalizzato calcolato in un modulo personalizzato e un messaggio di errore indica che il campo viene utilizzato in una configurazione con più moduli, è necessario sostituire il campo con un nuovo campo contenente il calcolo che si desidera utilizzare.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 43668525-5572-4d82-8eed-0e320249f296
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1239'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Questo articolo spiega come trovare l’oggetto e quindi risolvere il problema i
 
 ## Trovare l’oggetto a cui sono allegati i moduli personalizzati {#find-the-object-where-the-custom-forms-are-attached}
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Utenti]** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-setup}}
 
 1. Fai clic su **[!UICONTROL Forms personalizzato]** > **[!UICONTROL Campi]**.
 1. Applica la visualizzazione **[!UICONTROL Elenco campi]** per trovare il campo calcolato che stai tentando di modificare e annota ogni modulo personalizzato in cui viene utilizzato (ad esempio Modulo 1, Modulo 2, Modulo 3).

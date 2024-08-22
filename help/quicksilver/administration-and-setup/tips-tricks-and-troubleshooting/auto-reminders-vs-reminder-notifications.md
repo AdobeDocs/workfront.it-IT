@@ -4,14 +4,14 @@ content-type: reference
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Promemoria automatici e notifiche promemoria
-description: Questo articolo descrive le differenze tra i promemoria automatici e le notifiche dei promemoria e fornisce scenari per ciascuno di essi. Per ulteriori informazioni su tutte [!DNL Adobe Workfront] le notifiche, vediAdobe [!DNL Workfront] notifiche.
-author: Caroline
+description: Questo articolo descrive le differenze tra i promemoria automatici e le notifiche dei promemoria e fornisce scenari per ciascuno di essi.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 26c6fa2c-5c3a-4f53-bd7e-e49a623ff60d
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---

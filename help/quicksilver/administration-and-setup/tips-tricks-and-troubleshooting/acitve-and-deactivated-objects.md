@@ -5,11 +5,11 @@ product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Oggetti attivi e disattivati
 description: In qualità di amministratore di  [!DNL Adobe Workfront] , puoi attivare o disattivare oggetti all'interno del sistema. È consigliabile non eliminare mai gli oggetti che è possibile disattivare. È sufficiente disattivare l'oggetto per impedirne l'utilizzo futuro e rimuoverlo dai menu a discesa di altri oggetti.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 2%
