@@ -6,9 +6,9 @@ description: È possibile condividere o rimuovere le autorizzazioni per un ogget
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 7f59cc0a7a10bb8405acad2fa2300e653e5ad78c
+source-git-commit: e1ac95e8be0f6059700ddacb120b08c7c7b683b1
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1181'
 ht-degree: 1%
 
 ---
@@ -140,7 +140,7 @@ Nella tabella seguente viene illustrato il livello di autorizzazioni che è poss
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Rendi visibile a livello di sistema</strong></td> 
-   <td> <p>L’oggetto si trova nelle ricerche e viene visualizzato dagli utenti con un account Workfront.</p><p><b>Nota&gt;/b&gt;: gli utenti con licenze Collaboratore o Richiedente non possono visualizzare i progetti, anche se questa impostazione è abilitata. </td> 
+   <td> <p>L’oggetto si trova nelle ricerche e viene visualizzato dagli utenti con un account Workfront.</p><p><b>Nota</b>: gli utenti con licenze Collaboratore o Richiedente non possono visualizzare i progetti, anche se questa impostazione è abilitata. </td> 
   </tr> 
  </tbody> 
 </table>
