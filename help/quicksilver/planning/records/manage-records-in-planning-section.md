@@ -1,13 +1,13 @@
 ---
 title: Gestire i record nella sezione Pianificazione degli oggetti di Adobe Workfront
-description: È possibile visualizzare i record connessi agli oggetti di Adobe Workfront nella sezione Pianificazione di un oggetto di Workfront, nel pannello sinistro.
+description: È possibile visualizzare i record di Workfront Planning connessi agli oggetti di Adobe Workfront nella sezione Planning di un oggetto di Workfront, nel pannello sinistro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '756'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-È possibile visualizzare i record connessi agli oggetti di Adobe Workfront nella sezione Pianificazione di un oggetto di Workfront, nel pannello sinistro.
+È possibile visualizzare i record di Workfront Planning connessi agli oggetti di Adobe Workfront nella sezione Planning di un oggetto di Workfront, nel pannello sinistro.
 
 La sezione Pianificazione è disponibile per i seguenti oggetti Workfront:
 
@@ -35,7 +35,11 @@ La sezione Pianificazione è disponibile per i seguenti oggetti Workfront:
 
 ## Requisiti di accesso
 
+<!--Updated for GA-->
+
 +++ Espandere per visualizzare i requisiti di accesso per Workfront Planning.
+
+Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
 
 <table style="table-layout:auto">
  <col>
@@ -46,52 +50,66 @@ La sezione Pianificazione è disponibile per i seguenti oggetti Workfront:
     <tr>
 <tr>
 <td>
-   <p> Prodotto</p> </td>
+   <p> Prodotti</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <ul><li><p> Adobe Workfront</p></li>
+   <li><p> Adobe Workfront Planning<p></li></ul></td>
   </tr>  
- <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
+ <tr>
+   <td role="rowheader"><p>Piano Adobe Workfront*</p></td>
    <td>
-<p>L'organizzazione deve essere iscritta alla fase di accesso anticipato per Workfront Planning </p>
+<p>Uno dei seguenti piani di Workfront:</p>
+<ul><li>Seleziona</li>
+<li>Prime</li>
+<li>Ultimate</li></ul>
+<p>Workfront Planning non è disponibile per i piani Workfront legacy</p>
    </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>piano Adobe Workfront</p></td>
+
+<tr>
+   <td role="rowheader"><p>Piano di pianificazione Adobe Workfront*</p></td>
    <td>
 <p>Qualsiasi</p>
+<p>Per ulteriori informazioni su ciò che è incluso in ogni piano di Workfront Planning, vedere <a href="https://business.adobe.com/products/workfront/pricing.html">Determinazione prezzi e packaging di Adobe Workfront</a>. </p>
    </td>
+
+<tr>
+   <td role="rowheader"><p>Piattaforma Adobe Workfront</p></td>
+   <td>
+<p>Per poter accedere a tutte le funzionalità di Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p>
+<p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata di Adobe per Workfront</a>. </p>
+   </td>
+
+</tr>
   </tr>
   <tr>
    <td role="rowheader"><p>Licenza Adobe Workfront*</p></td>
    <td>
-   <p>Nuovo: Standard</p>
-   Oppure
-   <p>Corrente: Piano</p> 
+   <p>Standard</p>
+   <p>Workfront Planning non è disponibile per le licenze Workfront legacy</p>
   </td>
   </tr>
-
-<tr>
-   <td role="rowheader"><p>Configurazioni del livello di accesso</p></td>
+  <tr>
+   <td role="rowheader"><p>Configurazione del livello di accesso</p></td>
    <td> <p>Accesso di visualizzazione o superiore a progetti, programmi e Portfoli</p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Autorizzazioni</p></td>
-   <td> <p>In Workfront, visualizzare o autorizzazioni superiori per un progetto, portfolio o programma</a> </p> 
+   <td role="rowheader"><p>Autorizzazioni oggetto</p></td>
+   <td>
+   <p>In Workfront, visualizzare o autorizzazioni superiori per un progetto, portfolio o programma</a> </p> 
    <p>In Workfront Planning, Contribute o autorizzazioni superiori per un'area di lavoro</a> </p>  
-   <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro di Workfront Planning, incluse quelle non create</p>
-</td>
+   <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro di Workfront Planning, incluse quelle non create</p> 
+  </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>L'amministratore del Workfront o del gruppo deve aggiungere al modello di layout l'area Pianificazione nel menu principale e la sezione Pianificazione nel pannello sinistro. Per informazioni, vedere <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica dell'accesso</a>. </p>  
+   <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale e l'area Planning per i progetti, i portfolio e i programmi. </p> Per ulteriori informazioni, vedere <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica dell'accesso</a>. </p>  </p>  
 </td>
   </tr>
-
-</tbody>
+ </tbody>
 </table>
 
-*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -135,6 +153,7 @@ La pagina degli oggetti si apre in Workfront.
 
    ![](assets/planning-section-on-project.png)
 
+1. (Facoltativo) Fare clic su **Mostra tutte le connessioni** per visualizzare tutti i tipi di record connessi, inclusi quelli senza record connessi. Per impostazione predefinita, i tipi di record senza record collegati non vengono visualizzati.
 1. Fare clic su una scheda record per visualizzare ulteriori informazioni sul record. Viene visualizzata la casella di anteprima del record.
 1. (Facoltativo) Inizia a modificare i campi nella casella di anteprima del record. Le modifiche vengono salvate automaticamente.
 1. (Facoltativo) Fai clic sull&#39;icona ![](assets/open-details-in-a-new-tab-icon.png) di **Apri in una nuova scheda** nell&#39;angolo superiore destro della casella di anteprima per aprire la pagina dei dettagli del record. La pagina dei dettagli del record viene visualizzata in Workfront Planning.
@@ -143,16 +162,12 @@ Si verificano le seguenti situazioni:
    * Il record non è più connesso all&#39;oggetto Workfront.
    * L&#39;oggetto Workfront viene inoltre rimosso dal campo connesso del record da Workfront Planning.
    * Vengono eliminati anche i valori dei campi di ricerca di Workfront connessi al record Planning.
-1. Fai clic su **Connetti** per connettere altri record.
+1. Fai clic su **Connetti** per connettere altri record per i tipi di record connessi. Per ulteriori informazioni, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md).
 
-   >[!NOTE]
-   >
-   >   Il pulsante Connetti viene visualizzato solo per le aree di lavoro per le quali si dispone di autorizzazioni Contribute. <!--they might replace this with one button at the top of the page. Rephrase-->
-
-1. Fare clic sui record che si desidera connettere. Si verificano le seguenti situazioni:
+   Si verificano le seguenti situazioni:
 
    * I record vengono immediatamente collegati all&#39;oggetto Workfront e vengono visualizzati nella sezione Planning.
    * L&#39;oggetto Workfront viene aggiunto al campo connesso del record di Workfront Planning.
    * I valori dei campi di ricerca di Workfront connessi al record Planning vengono inseriti in Workfront Planning.
 
-<!--add more steps here for what happens after clicking Connect-->
+

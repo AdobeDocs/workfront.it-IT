@@ -4,9 +4,9 @@ description: Dopo aver creato connessioni tra tipi di record, è possibile colle
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -40,23 +40,17 @@ Per informazioni su come connettere i record tra loro o a un altro oggetto, vede
 
 * Tutti coloro che dispongono dell&#39;accesso a Workfront Planning and View o delle autorizzazioni di livello superiore per l&#39;area di lavoro possono visualizzare le connessioni tra record o tra record e oggetti di altre applicazioni. Possono visualizzare i record e gli oggetti connessi indipendentemente dalle autorizzazioni di cui dispongono nelle applicazioni a cui ci si connette.
 * Se si dispone delle autorizzazioni di gestione per l&#39;area di lavoro in cui si trovano i record connessi, è possibile visualizzare e modificare le connessioni di tutti gli altri utenti.
-* È possibile connettere un record a uno o più oggetti di un&#39;altra applicazione. <!--For more information, see the "Connections types" section in the article [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md). -->
+* È possibile connettere un record a uno o più oggetti di un&#39;altra applicazione. Per ulteriori informazioni, vedere la sezione &quot;Tipi di connessione&quot; nell&#39;articolo [Panoramica sui tipi di record connessi](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 ## Aree in cui è possibile collegare i record
 
 È possibile collegare record ad altri record o a oggetti di un&#39;altra applicazione nelle aree seguenti:
 
-* È possibile collegare record da Workfront Planning a oggetti Workfront nelle aree seguenti:
-   * Da un record Planning in Workfront Planning nei campi collegati nella vista tabella.
-   * Da un record Planning in Workfront Planning nell&#39;anteprima record o nella pagina nei campi record collegati.
-  <!--
-  * From a Planning record in Workfront Planning in the record preview or page in the connected record fields on the Details tab.
-  * From a Planning record in the record's preview or page on the Connections tab.  -->
+* È possibile collegare record da Workfront Planning a oggetti Workfront o Experience Manager Assets nelle seguenti aree di un record Planning:
 
-* È possibile collegare i record di Workfront Planning a Experience Manager Assets nelle seguenti aree:
-
-   * Da un record Planning in Workfront Planning nella vista tabella.
-  <!--* From a Planning record in the Connections tab on the record's preview or page.  -->
+   * Campi record collegati nella vista tabella di un tipo di record in Planning.
+   * L&#39;anteprima o la pagina del record nei campi del record collegato nella scheda Dettagli.
+   * L&#39;anteprima o la pagina del record nella scheda Connessioni.
 
 * È possibile collegare oggetti Workfront ai record di Workfront Planning nelle aree seguenti:
 
