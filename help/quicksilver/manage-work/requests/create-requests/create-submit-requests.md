@@ -1,19 +1,19 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Creare e inviare richieste Adobe Workfront
+title: Creare e inviare richieste
 description: Il lavoro pianificato è rappresentato in Adobe Workfront dai progetti e dalle attività. Tuttavia, è possibile lavorare in un ambiente in cui il lavoro non pianificato, sotto forma di richieste casuali, può essere fornito in qualsiasi momento. Workfront fornisce un flusso di lavoro per questo tipo di ambiente tramite l’utilizzo di Code di richieste.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
-source-wordcount: '2339'
+source-wordcount: '2303'
 ht-degree: 1%
 
 ---
 
-# Creare e inviare richieste Adobe Workfront
+# Creare e inviare richieste
 
 <!--Audited: 12/2023-->
 
@@ -47,18 +47,18 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> <p>Nuovo: Collaboratore o versione successiva</p>
    Oppure
    <p>Corrente: richiesta o successiva</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Modifica l'accesso alle Issues</p>  </td> 
   </tr> 
  </tbody> 
@@ -110,14 +110,9 @@ Per informazioni sulla creazione di richieste da bozze esistenti, vedere [Creare
 
 Per creare una richiesta nell’app web Workfront:
 
-1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro.
+{{step1-to-requests}}
 
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   </MadCap:conditionalText>
-   -->
-
-1. Fai clic su **Richieste**, quindi su **Nuova richiesta** nell&#39;angolo superiore destro della pagina.
+1. Fai clic su **Nuova richiesta** nell&#39;angolo superiore destro della pagina.
 
    >[!TIP]
    >
@@ -331,7 +326,7 @@ Per informazioni su come consentire a una coda richieste di ricevere richieste t
 
 Per informazioni sull&#39;invio di richieste tramite il client Outlook, vedere l&#39;articolo [Creare una richiesta Adobe Workfront da un messaggio di posta elettronica di Outlook](../../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md).
 
-## Creare richieste utilizzando l’app mobile di Workfront
+## Creare richieste tramite l’app mobile di Workfront
 
 Puoi inviare richieste utilizzando l’app mobile sul tuo smartphone. Puoi creare una nuova richiesta e inviarla alle code di richieste a cui hai accesso e che potrai visualizzare nell’applicazione web.
 

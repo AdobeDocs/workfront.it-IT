@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
+source-git-commit: 1a2f6e95b5b229f9b749290fcb1767ff794ddd6d
 workflow-type: tm+mt
-source-wordcount: '5540'
+source-wordcount: '5546'
 ht-degree: 5%
 
 ---
@@ -903,4 +903,4 @@ Per aggiungere un file Adobe XD:
 
 ## Organizzare e visualizzare in anteprima un modulo con il progettista del modulo
 
-Per informazioni su come organizzare e visualizzare un&#39;anteprima del modulo, vedere [Organizzare e visualizzare l&#39;anteprima di un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
+Per informazioni su come organizzare un modulo personalizzato con interruzioni di sezione e visualizzare un&#39;anteprima del modulo, vedere [Organizzare e visualizzare in anteprima un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
