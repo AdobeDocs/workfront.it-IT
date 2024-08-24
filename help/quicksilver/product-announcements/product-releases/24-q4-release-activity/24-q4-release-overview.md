@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 716db8e2d6411495d1809dd320c9c3cca86e2659
+source-git-commit: 3f1882b555658b2095d99258900f3bba28246c3f
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
@@ -295,4 +295,4 @@ Le seguenti funzionalità verranno presto rimosse da Workfront:
 
 #### Obsolescenza dell’esperienza Home legacy con 24.10
 
-Con la versione 24.10, l’esperienza Home legacy diventerà ufficialmente obsoleta. Gli utenti sono invitati a iniziare a utilizzare la nuova Home, che continuerà a essere migliorata con funzioni aggiuntive prima che venga dichiarata obsoleta. Saranno presto disponibili ulteriori informazioni sulla transizione, compreso ciò che utenti e amministratori possono fare per prepararla.
+Con la versione 24.10, l’esperienza Home legacy diventerà ufficialmente obsoleta. Gli utenti sono invitati a iniziare a utilizzare la nuova Home, che continuerà a essere migliorata con funzioni aggiuntive prima che venga dichiarata obsoleta. Per ulteriori informazioni sulla transizione, inclusi consigli su cosa possono fare gli utenti e gli amministratori per prepararsi, consulta [Legacy Home deprecation guide](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).

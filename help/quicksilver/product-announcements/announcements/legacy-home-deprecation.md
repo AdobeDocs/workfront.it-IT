@@ -5,9 +5,9 @@ title: Guida obsoleta della home page legacy
 description: Questa pagina contiene informazioni sull’imminente rimozione della Home legacy.
 author: Nolan
 feature: Product Announcements
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: 3f1882b555658b2095d99258900f3bba28246c3f
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Community di Adobe Workfront, abbiamo delle novità e presto ritireremo la versi
 
 ![](assets/legacy-home-worklist-view.png)
 
-Questa pagina diventerà obsoleta durante il rilascio della versione 24.10 (pianificato per il 17 ottobre 2024). A quel punto, ti verrà richiesto di passare alla nuova esperienza Home. Se hai utilizzato la Home per gestire il tuo lavoro, non preoccuparti. Oltre a migliorare continuamente la nuova Home, siamo stati impegnati a creare un&#39;esperienza di gestione del lavoro semplificata chiamata Le mie priorità.
+Questa pagina diventerà obsoleta durante il rilascio della versione 24.10 (pianificato per il 17 ottobre 2024). A quel punto, ti verrà richiesto di passare alla nuova esperienza Home. Se hai utilizzato la Home per gestire il tuo lavoro, non preoccuparti. Oltre a migliorare continuamente la nuova Home, siamo stati impegnati a creare un&#39;esperienza di gestione del lavoro semplificata chiamata Priorities.
 Sappiamo comunque che un cambiamento di questo tipo può essere dirompente, e vogliamo aiutarti con la tua transizione in ogni modo possibile. Questa pagina contiene informazioni su ciò che esattamente cambierà, consigli su come prepararsi per la transizione e alcune risposte alle domande frequenti.
 
 ## Informazioni obsolete
@@ -35,7 +35,7 @@ Sappiamo comunque che un cambiamento di questo tipo può essere dirompente, e vo
 
 * La nuova Home è già disponibile come sostituzione. Per ulteriori informazioni sull&#39;utilizzo della nuova Home, vedere [Introduzione alla nuova Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md). Può essere personalizzato sia dagli utenti tramite opzioni di personalizzazione che dagli amministratori tramite modelli di layout.
 
-* Le mie priorità sono in fase di sviluppo e costituiranno un altro elemento dell’esperienza di gestione del lavoro semplificata in Adobe Workfront.
+* Le priorità sono in fase di sviluppo e costituiranno un altro elemento della semplificazione dell’esperienza di gestione del lavoro in Adobe Workfront.
 
 ## Prepararsi per l’obsolescenza
 
@@ -57,7 +57,7 @@ Procedendo in questo modo, gli utenti avranno il tempo di adattarsi alla nuova e
 
 ### Segui l’esperienza Home man mano che si sviluppa
 
-È inoltre consigliabile rimanere aggiornati con le ultime note sulla versione (consulta [Rilasci di prodotto](/help/quicksilver/product-announcements/product-releases/product-releases.md)) per scoprire eventuali modifiche apportate all&#39;esperienza Home man mano che ci avviciniamo alla deprecazione. Inoltre, continua a leggere Le mie priorità per comprendere meglio la nostra visione per il futuro della gestione del lavoro in Adobe Workfront (ulteriori informazioni saranno presto disponibili).
+È inoltre consigliabile rimanere aggiornati con le ultime note sulla versione (consulta [Rilasci di prodotto](/help/quicksilver/product-announcements/product-releases/product-releases.md)) per scoprire eventuali modifiche apportate all&#39;esperienza Home man mano che ci avviciniamo alla deprecazione. Inoltre, continua a leggere Priorità per comprendere meglio la nostra visione del futuro della gestione del lavoro in Adobe Workfront (ulteriori informazioni saranno presto disponibili).
 
 ### Richiedi assistenza
 
@@ -70,7 +70,7 @@ Se riscontri problemi durante la transizione, contatta il tuo Account Executive/
 No, verrà rimosso completamente dall’applicazione.
 +++
 
-+++ Tutte le funzioni della Home legacy sono disponibili nella nuova Home (o, eventualmente, in Le mie priorità)?
++++ Tutte le funzioni della Home legacy sono disponibili nella nuova Home (o, eventualmente, in Priorities)?
 
 Quasi, ad eccezione di:
 
@@ -78,7 +78,7 @@ Quasi, ad eccezione di:
 
 * La visualizzazione dei timestamp per le date di scadenza degli oggetti non è attualmente disponibile.
 
-* La visualizzazione della data di conferma nel feed di aggiornamento non è al momento disponibile. Tuttavia, è disponibile una soluzione alternativa: visualizzare la data del commit nella personalizzazione dell’intestazione tramite modelli di layout.
+* La visualizzazione della data di conferma nel feed di aggiornamento non è al momento disponibile. Tuttavia, è disponibile una soluzione alternativa: visualizzare la data del commit nell’intestazione tramite la personalizzazione del modello di layout.
 +++
 
 +++Come posso regolare a quali widget gli utenti hanno accesso in una nuova Home?
