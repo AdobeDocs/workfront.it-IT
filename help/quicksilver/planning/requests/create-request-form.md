@@ -1,23 +1,25 @@
 ---
-title: Creazione di un modulo di richiesta in Adobe Workfront Planning
-description: Dopo aver selezionato un tipo di record nell'area Adobe Workfront Planning, è possibile creare un modulo di richiesta associato a tale tipo di record e condividere un collegamento ad esso con altri utenti interni o esterni.
+title: Creazione e gestione di un modulo di richiesta in Adobe Workfront Planning
+description: Dopo aver selezionato un tipo di record nell'area Adobe Workfront Planning, è possibile creare un modulo di richiesta e associarlo a tale tipo di record. Puoi quindi condividere un collegamento con altri utenti interni o esterni. Gli utenti con un collegamento al modulo possono compilare i valori dei campi e, inviandolo, possono aggiungere un nuovo record per il tipo di record ad esso associato.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '1101'
 ht-degree: 2%
 
 ---
 
-# Creazione di un modulo di richiesta in Adobe Workfront Planning
+# Creazione e gestione di un modulo di richiesta in Adobe Workfront Planning
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 {{planning-important-intro}}
 
 Dopo aver selezionato un tipo di record nell&#39;area Adobe Workfront Planning, è possibile creare un modulo di richiesta e associarlo a tale tipo di record. Puoi quindi condividere un collegamento con altri utenti interni o esterni. <!--double-check on the external part of it-->
+
+Gli utenti con un collegamento al modulo possono compilare i valori dei campi e, inviandolo, possono aggiungere un nuovo record per il tipo di record ad esso associato.
 
 ## Requisiti di accesso
 
@@ -52,7 +54,8 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
 <tr>
    <td role="rowheader"><p>Piano di pianificazione Adobe Workfront*</p></td>
    <td>
-<p>Qualsiasi </p>   </td>
+<p>Qualsiasi </p>  
+<p>Per ulteriori informazioni su ciò che è incluso in ogni piano di Workfront Planning, vedere <a href="https://business.adobe.com/products/workfront/pricing.html">Determinazione prezzi e packaging di Adobe Workfront</a>. </td>
 
 <tr>
    <td role="rowheader"><p>Piattaforma Adobe Workfront</p></td>
@@ -118,31 +121,76 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
 
 1. Fai clic su **Crea**. Viene aperto il modulo di richiesta per il tipo di record selezionato.
 
+   ![](assets/campaigns-request-form-edit-mode.png)
+
    Per impostazione predefinita, il modulo di richiesta contiene le seguenti informazioni:
 
+   * Tutti i campi record disponibili nella vista tabella del tipo di record selezionato.
    * **Sezione predefinita**: questa è l&#39;interruzione di sezione predefinita che Workfront applica al modulo di richiesta. Impossibile rinominare o rimuovere la sezione predefinita.
    * Campo **Oggetto**: campo che identificherà la richiesta in Workfront. Questa funzionalità non è ancora disponibile.
    * Tutti i campi associati al tipo di record.
 
    I campi contenuti nel modulo di richiesta saranno visibili a tutti coloro che inviano una richiesta a questo tipo di record.
 
-1. (Facoltativo) Rimuovere il campo **Oggetto**, in quanto non è visibile in Workfront Planning. <!--remove this step when we connect intake with the Requests area in Workfront-->
-1. Passare il puntatore del mouse su tutti i campi del modulo che si desidera rimuovere. Vengono aggiunti alla scheda **Campi** sul lato sinistro del modulo.
-1. Fare clic su un campo qualsiasi, quindi utilizzare i controlli sul lato destro del modulo per definire una delle seguenti informazioni sui campi:
+1. (Facoltativo) Passa il puntatore del mouse su tutti i campi del modulo che desideri rimuovere, quindi fai clic sull&#39;icona **x** per rimuoverli. Vengono aggiunti alla scheda **Campi** a sinistra del modulo.
+
+   Rimuovere ad esempio il campo **Oggetto**, in quanto non è visibile in Workfront Planning. <!--remove this step when we connect intake with the Requests area in Workfront-->
+1. Fare clic su un campo qualsiasi, quindi utilizzare i controlli sul lato destro del modulo per definirne le dimensioni o una delle informazioni seguenti relative ai campi:
 
    * **Etichetta**: questo è il nome del campo che verrà visualizzato nel modulo di richiesta. Questo non modifica il nome del campo record.
    * **Istruzioni**: aggiungere ulteriori informazioni sul campo.
    * **Imposta un campo obbligatorio**: se selezionata, il campo deve avere un valore. In caso contrario, il modulo non può essere inviato.
    * **Aggiungi logica**: definisci quali condizioni devono essere soddisfatte affinché il campo venga visualizzato o nascosto.
 
-1. Fare clic sulla scheda Elementi contenuto a destra del modulo e aggiungere uno dei seguenti elementi:
+1. (Facoltativo) Fai clic sulla scheda **Elementi di contenuto** sul lato sinistro del modulo e aggiungi i seguenti elementi:
 
-   * Testo descrittivo
-   * Interruzione di sezione
+   * **Testo descrittivo**
+   * **Interruzione di sezione**
 
    Per ulteriori informazioni sulla creazione di un modulo personalizzato, vedere [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
+1. (Facoltativo) Fare clic su **Anteprima** per visualizzare la modalità di visualizzazione del modulo per gli altri utenti che lo utilizzeranno per inviare un nuovo record.
+1. Fai clic su **Publish** per pubblicare il modulo e ottenere un collegamento univoco.
 
+   Si verificano le seguenti situazioni:
+
+   * Il pulsante Publish viene rimosso.
+   * Il pulsante **Annulla pubblicazione** è stato aggiunto al modulo. Facendo clic su di esso, il modulo non sarà accessibile.
+   * Un pulsante **Condividi** è stato aggiunto al modulo.
+
+1. Fai clic su **Condividi** per condividere il modulo con altri.
+
+   ![](assets/share-box-for-request-form.png)
+
+1. Selezionare una delle opzioni seguenti per indicare i tipi di utenti che possono accedere al modulo:
+
+   * Chiunque con accesso alla visualizzazione, o superiore, all’area di lavoro
+   * Chiunque con accesso per contribuire, o superiore, all’area di lavoro
+   * Chiunque abbia il collegamento
+
+   >[!IMPORTANT]
+   >
+   >Quando si seleziona Chiunque disponga del collegamento, chiunque, anche le persone esterne all&#39;organizzazione senza un account Workfront, può accedere al modulo e inviare un nuovo record.
+
+1. (Condizionale) Se hai selezionato **Qualcuno con il collegamento** nel passaggio precedente, seleziona **Data di scadenza collegamento** dal calendario disponibile. Gli utenti riceveranno un errore dopo la scadenza del collegamento e dovrai aggiornare la data del collegamento prima di poter accedere nuovamente al modulo.  <!--add info here about how long the expiration date should be; logged bug-->
+
+1. Fare clic su **Salva e copia collegamento** per salvare i dettagli di condivisione per il modulo.
+
+   Le opzioni di condivisione del modulo vengono salvate e il collegamento viene copiato negli Appunti. Ora puoi condividerlo con altri utenti.
+
+   Per informazioni sulla creazione di record mediante un collegamento a un modulo di richiesta, vedere [Inviare richieste Adobe Workfront Planning](/help/quicksilver/planning/requests/submit-requests.md).
+
+1. Fai clic su **Salva** nell&#39;angolo inferiore destro della schermata per salvare il modulo.
+1. Fare clic sulla freccia rivolta a sinistra a sinistra del nome della maschera nell&#39;intestazione per chiudere la maschera.
+
+   Viene visualizzata la pagina del tipo di record.
+1. (Facoltativo) Fare clic sul menu **Altro** ![](assets/more-menu.png) a destra del nome del tipo di record nell&#39;intestazione, quindi eseguire una delle operazioni seguenti:
+   * Fai clic su **Aggiorna modulo di richiesta** per apportare eventuali modifiche al modulo di richiesta.
+   * Fai clic su **Copia collegamento al modulo di richiesta** per condividere il collegamento al modulo con altri utenti.
+
+   >[!TIP]
+   >
+   >In questo caso, il collegamento viene condiviso pubblicamente.
 
 
 

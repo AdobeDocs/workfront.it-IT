@@ -1,16 +1,18 @@
 ---
 title: "Notifiche di Adobe Workfront Planning: indice articolo"
 description: Quando qualcuno ti assegna un tag in un commento del record, potresti ricevere notifiche e-mail o in-app per tale tag. Il tipo di notifiche che ricevi dipende dal fatto che la tua azienda sia o meno un cliente Adobe di Unified Experience. Negli articoli seguenti vengono descritti i tipi di notifiche di Workfront Planning che possono essere ricevute e le modalità di gestione delle preferenze.
-hidefromtoc: true
-hide: true
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 9c2f5b14-77c5-42fd-83ad-acbe7da801bd
-source-git-commit: 502ab27759749ed428f8adbf486e39165d61fcf0
+source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
 
 ---
+
 
 # Notifiche di Adobe Workfront Planning: indice articolo
 

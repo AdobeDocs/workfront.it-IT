@@ -1,19 +1,18 @@
 ---
 title: Panoramica delle autorizzazioni di condivisione in Adobe Workfront Planning
-description: È possibile condividere o rimuovere le autorizzazioni per un'area di lavoro o una vista di Adobe Workfront Planning.
-hidefromtoc: true
-hide: true
+description: Non tutti gli utenti dell’organizzazione dispongono dello stesso accesso e delle stesse autorizzazioni per utilizzare Adobe Workfront Planning. In questo articolo vengono descritte le informazioni generali sulla condivisione o la rimozione delle autorizzazioni per un'area di lavoro o una visualizzazione di Adobe Workfront Planning.
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
-el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '867'
 ht-degree: 6%
 
 ---
 
-<!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Workfront Planning. This article describes the levels of access that users could have to Adobe Workfront Planning. -->
 
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
 
@@ -178,8 +177,6 @@ Di seguito sono riportati i livelli di autorizzazione per le visualizzazioni e g
 | Applica | ✓ |
 
 *Gli utenti devono disporre di autorizzazioni View (Visualizzazione) o superiori per un&#39;area di lavoro per poter accedere a questa visualizzazione.
-
-
 
 <!--old view permissions, before sharing View permissions to a view through a workspace:
 |        | Manage | View  |

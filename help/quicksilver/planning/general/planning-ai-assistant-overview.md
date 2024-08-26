@@ -1,35 +1,22 @@
 ---
 title: Panoramica dell’Assistente di Adobe Workfront Planning AI
 description: È possibile utilizzare l’assistente AI per generare, aggiornare o rimuovere record in base al contesto della pagina e alla struttura dei record correnti. I comandi dell’utente e l’esecuzione di tali comandi da parte dell’IA collaborano per garantire che le modifiche apportate dall’IA vengano riflesse accuratamente nell’ambiente.
-hidefromtoc: true
-hide: true
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
+source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
 
+
 # Panoramica dell’Assistente di Adobe Workfront Planning AI
 
-<!-- update metadata above at GA-->
-
->[!IMPORTANT]
->
-><span class="preview">L&#39;Assistente di Workfront AI è stato temporaneamente rimosso e sarà disponibile in un secondo momento.</span>
->Le informazioni contenute in questo articolo si riferiscono ad Adobe Workfront Planning e Workfront AI Assistant (beta), ovvero nuove offerte di Adobe Workfront.
->
->Attualmente, Workfront Planning è in una fase di accesso iniziale e Workfront AI Assistant è in una fase beta.
->
->Workfront Planning e l’Assistente IA (beta) sono aperti a un numero limitato di clienti.
->
->Per utilizzare queste funzionalità è necessario essere clienti di Workfront.
->
->Il rappresentante del tuo account ti informerà se partecipi a questa fase.
->
->Per ulteriori informazioni, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+{{planning-important-intro}}
 
 È possibile utilizzare l&#39;Assistente AI per generare, aggiornare o rimuovere record in base al contesto della pagina corrente e alla struttura dei record.
 
@@ -37,7 +24,8 @@ I comandi dell’utente e l’esecuzione di tali comandi da parte dell’IA coll
 
 ## Considerazioni sull’Assistente AI
 
-* Per impostazione predefinita, l’Assistente AI è disponibile per l’amministratore principale di Workfront. Per informazioni, vedere [Configurare le informazioni di base per il sistema](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+* L’Assistente AI deve essere abilitato per la tua organizzazione prima che sia disponibile per gli utenti della tua azienda. Per informazioni, vedere [Panoramica dell&#39;Assistente AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+* Dopo che Workfront ha abilitato l’Assistente AI per la tua organizzazione, questo sarà disponibile per l’amministratore Workfront principale. Per informazioni, vedere [Configurare le informazioni di base per il sistema](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 * L’amministratore di Workfront deve abilitare l’Assistente AI per tutti gli altri utenti. Per ulteriori informazioni, vedere [Attivare o disattivare l&#39;Assistente AI](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
@@ -71,7 +59,7 @@ In questo momento, puoi utilizzare l’Assistente IA per eseguire le seguenti az
 * Elimina record
 * Ripristina i record appena eliminati
 
-## Accedere all’Assistente AI
+## Accedere all’Assistente AI nell’area Pianificazione
 
 1. Accedi a Workfront, quindi vai all&#39;area **Planning**.
 

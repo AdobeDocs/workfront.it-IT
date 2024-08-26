@@ -1,16 +1,18 @@
 ---
-title: "Informazioni di accesso di Adobe Workfront Planning: indice articolo"
+title: "Informazioni sull'accesso ad Adobe Workfront Planning: indice articolo"
 description: In qualità di amministratore di Workfront, devi concedere l’accesso ai tuoi utenti per utilizzare Adobe Workfront Planning. Nei seguenti articoli vengono fornite informazioni sull'accesso necessario per l'utilizzo di Workfront Planning.
-hidefromtoc: true
-hide: true
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
-source-git-commit: 502ab27759749ed428f8adbf486e39165d61fcf0
+source-git-commit: 18183b53c783366f467e7330159923372b51deb6
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
 
 ---
+
 
 # Informazioni di accesso di Adobe Workfront Planning: indice articolo
 
@@ -25,5 +27,6 @@ Gli articoli seguenti contengono informazioni sull&#39;accesso necessario per l&
 * [Condividere le aree di lavoro](/help/quicksilver/planning/access/share-workspaces.md)
 * [Condividere le visualizzazioni](/help/quicksilver/planning/access/share-views.md)
 * [Panoramica del tipo di licenza quando si utilizza Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md)
+  <!--* [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md)-->
 
 

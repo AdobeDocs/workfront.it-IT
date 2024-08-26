@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 716db8e2d6411495d1809dd320c9c3cca86e2659
+source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
 workflow-type: tm+mt
-source-wordcount: '14299'
+source-wordcount: '14318'
 ht-degree: 2%
 
 ---
@@ -250,6 +250,9 @@ ht-degree: 2%
          * [Attività di rilascio di Workfront Fusion: settimana del 16 novembre 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-16.md)
          * [Attività di rilascio di Workfront Fusion: settimana del 30 novembre 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-30.md)
          * [Attività di rilascio di Workfront Fusion: settimana del 21 settembre 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-sept-21.md)
+      * Attività sulla versione di Adobe Workfront Planning{#planning-release-activity}
+         * [Attività sulla versione di Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+         * [Attività della versione del quarto trimestre 2024 per Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
       * Attività di rilascio di Adobe Workfront Scenario Planner {#scenario-planner-release}
          * [Attività di rilascio di Adobe Workfront Scenario Planner](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
          * [Adobe Workfront Scenario Planner con la versione 21.3](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
@@ -2038,8 +2041,8 @@ ht-degree: 2%
       * [Panoramica di Adobe Workfront Planning](planning/general/planning-overview.md)
       * [Nozioni di base sulle API di Adobe Workfront Planning](planning/general/planning-api-basics.md)
       * [Panoramica dell’Assistente di Adobe Workfront Planning AI](planning/general/planning-ai-assistant-overview.md)
-      * [Attività della versione corrente di Adobe Workfront Planning](planning/general/release-activity.md)
-      * [Archivi delle attività sulla versione di Adobe Workfront Planning per il 2023](planning/general/release-activity-archives-2023.md)
+      * [Attività sulla versione di Adobe Workfront Planning per il 2024](planning/general/release-activity.md)
+      * [Attività sulla versione di Adobe Workfront Planning per il 2023](planning/general/release-activity-archives-2023.md)
       * [Panoramica sui limiti degli oggetti di Adobe Workfront Planning](planning/general/limitations-overview.md)
    * Architettura di Adobe Workfront Planning {#adobe-workfront-planning-architecture}
       * [Architettura: indice degli articoli](planning/architecture/architecture-information.md)

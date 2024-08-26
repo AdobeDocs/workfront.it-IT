@@ -1,20 +1,20 @@
 ---
-title: Gestire le visualizzazioni record
+title: Gestisci visualizzazioni record
 description: È possibile visualizzare i record in una vista tabella, sequenza temporale o calendario quando si utilizza Adobe Workfront Planning.
-hidefromtoc: true
-hide: true
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1212'
 ht-degree: 1%
 
 ---
 
-# Gestire le visualizzazioni record
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+# Gestire le visualizzazioni record
 
 {{planning-important-intro}}
 
@@ -41,8 +41,6 @@ Questo articolo descrive le seguenti informazioni sulle visualizzazioni record:
 
 
 ## Requisiti di accesso
-
-<!--Updated for GA-->
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
@@ -87,7 +85,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licenza Adobe Workfront*</p></td> 
-   <td> <ul><li><p>Qualsiasi, per visualizzare le informazioni di Workfront Planning</p></li>
+   <td> <ul><li><p>Standard, Light o Contributor per visualizzare le informazioni di Workfront Planning</p></li>
    <li><p>Standard, per creare aree di lavoro</p></li></ul>
    <p>Workfront Planning non è disponibile per le licenze Workfront legacy</p> 
   </td> 
