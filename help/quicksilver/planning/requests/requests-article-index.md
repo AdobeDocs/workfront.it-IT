@@ -1,10 +1,11 @@
 ---
-title: "Richieste Adobe Workfront Planning: indice articolo"
+title: "Richieste di Adobe Workfront Planning: indice articolo"
 description: È possibile creare un modulo di richiesta per ogni tipo di record, condividerlo con gli utenti e aggiungere nuovi record completando e inviando il modulo.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 0%
@@ -14,8 +15,6 @@ ht-degree: 0%
 # Richieste Adobe Workfront Planning: indice articolo
 
 È possibile creare un modulo di richiesta per ogni tipo di record, condividerlo con gli utenti e aggiungere nuovi record completando e inviando il modulo.
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 Questa sezione contiene i seguenti articoli:
 

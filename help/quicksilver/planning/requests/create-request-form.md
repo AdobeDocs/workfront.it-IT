@@ -1,12 +1,13 @@
 ---
 title: Creazione e gestione di un modulo di richiesta in Adobe Workfront Planning
 description: Dopo aver selezionato un tipo di record nell'area Adobe Workfront Planning, è possibile creare un modulo di richiesta e associarlo a tale tipo di record. Puoi quindi condividere un collegamento con altri utenti interni o esterni. Gli utenti con un collegamento al modulo possono compilare i valori dei campi e, inviandolo, possono aggiungere un nuovo record per il tipo di record ad esso associato.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1138'
 ht-degree: 2%
 
 ---
@@ -17,9 +18,13 @@ ht-degree: 2%
 
 {{planning-important-intro}}
 
-Dopo aver selezionato un tipo di record nell&#39;area Adobe Workfront Planning, è possibile creare un modulo di richiesta e associarlo a tale tipo di record. Puoi quindi condividere un collegamento con altri utenti interni o esterni. <!--double-check on the external part of it-->
+È possibile creare un modulo di richiesta e associarlo a un tipo di record in Adobe Workfront Planning. Puoi quindi condividere un collegamento con altri utenti interni o esterni.
 
-Gli utenti con un collegamento al modulo possono compilare i valori dei campi e, inviandolo, possono aggiungere un nuovo record per il tipo di record ad esso associato.
+Gli utenti con un collegamento al modulo possono aggiornare i valori dei campi in esso contenuti e aggiungere nuovi record inviandolo.
+
+In questo articolo viene descritto come un manager area di lavoro può creare un modulo di richiesta associato a un tipo di record.
+
+Per informazioni sull&#39;invio di una richiesta a un tipo di record per la creazione di un record, vedere [Inviare richieste di Adobe Workfront Planning per la creazione di record](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Requisiti di accesso
 
@@ -170,9 +175,11 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
 
    >[!IMPORTANT]
    >
-   >Quando si seleziona Chiunque disponga del collegamento, chiunque, anche le persone esterne all&#39;organizzazione senza un account Workfront, può accedere al modulo e inviare un nuovo record.
+   >Quando si seleziona **Chiunque disponga del collegamento** può accedere al modulo e inviare un nuovo record, anche persone esterne all&#39;organizzazione che non dispongono di un account Workfront.
 
-1. (Condizionale) Se hai selezionato **Qualcuno con il collegamento** nel passaggio precedente, seleziona **Data di scadenza collegamento** dal calendario disponibile. Gli utenti riceveranno un errore dopo la scadenza del collegamento e dovrai aggiornare la data del collegamento prima di poter accedere nuovamente al modulo.  <!--add info here about how long the expiration date should be; logged bug-->
+1. (Condizionale) Se hai selezionato **Qualcuno con il collegamento** nel passaggio precedente, seleziona **Data di scadenza collegamento** dal calendario disponibile. Gli utenti riceveranno un errore dopo la scadenza del collegamento e dovrai aggiornare la data del collegamento prima di poter accedere nuovamente al modulo.
+
+   È possibile selezionare date future entro 180 giorni dalla data corrente.
 
 1. Fare clic su **Salva e copia collegamento** per salvare i dettagli di condivisione per il modulo.
 
@@ -191,6 +198,7 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
    >[!TIP]
    >
    >In questo caso, il collegamento viene condiviso pubblicamente.
+   >![](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
 
 
 

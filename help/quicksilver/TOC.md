@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: bcabc57ace3c10f471139ebfb23be472758750be
+source-git-commit: d049d3c3f6d48b2c9d778740905d76a40620c8e0
 workflow-type: tm+mt
-source-wordcount: '14317'
+source-wordcount: '14353'
 ht-degree: 2%
 
 ---
@@ -2073,6 +2073,7 @@ ht-degree: 2%
       * [Panoramica del tipo di licenza quando si utilizza Adobe Workfront Planning](planning/access/license-type-overview.md)
       * [Condividere le aree di lavoro](planning/access/share-workspaces.md)
       * [Condividere le visualizzazioni](planning/access/share-views.md)
+      * [Richiedere le autorizzazioni per una visualizzazione o un’area di lavoro](planning/access/request-permissions.md)
    * Record di Adobe Workfront Planning {#adobe-workfront-planning-records}
       * [Record: indice articolo](planning/records/records-information.md)
       * [Crea record](planning/records/create-records.md)
@@ -2089,6 +2090,10 @@ ht-degree: 2%
       * [Gestire il layout della pagina record](planning/records/manage-the-record-page.md)
       * [Gestire i record nella sezione Pianificazione degli oggetti di Adobe Workfront](planning/records/manage-records-in-planning-section.md)
       * [Esportare i dettagli di un record](/help/quicksilver/planning/records/export-the-record-page.md)
+   * Richieste di Adobe Workfront Planning {#adobe-workfront-planning-requests}
+      * [Richieste Adobe Workfront Planning: indice articolo](planning/requests/requests-article-index.md)
+      * [Creazione e gestione di un modulo di richiesta in Adobe Workfront Planning](planning/requests/create-request-form.md)
+      * [Inviare richieste di Adobe Workfront Planning per creare record](planning/requests/submit-requests.md)
    * Visualizzazioni di Adobe Workfront Planning {#adobe-workfront-planning-views}
       * [Visualizzazioni: indice articolo](planning/views/views-information.md)
       * [Gestire le visualizzazioni record](planning/views/manage-record-views.md)

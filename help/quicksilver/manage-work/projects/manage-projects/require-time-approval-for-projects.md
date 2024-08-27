@@ -6,18 +6,16 @@ description: Richiede l'approvazione del tempo per un progetto
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
 
 # Richiede l&#39;approvazione del tempo per un progetto
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: THIS IS LINKED TO THE UI IN A TOOLTIP IN THE EDIT PROJECT MODAL) </p>
--->
+<!--audited: 08/2024-->
 
 Puoi configurare il progetto in modo che le ore registrate vengano approvate dal proprietario del progetto. Se configurate in questo modo, le ore devono prima essere approvate dal proprietario del progetto prima di poter essere utilizzate in un record di fatturazione.\
 Per ulteriori informazioni sui record di fatturazione, vedere l&#39;articolo [Creare record di fatturazione](../../../manage-work/projects/project-finances/create-billing-records.md).
@@ -40,19 +38,22 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Pianifica per richiedere l'approvazione del tempo per il progetto</p>
-   <p>Revisione o successiva per approvare le ore registrate in un progetto</p>
+   <td> <p>Per richiedere l'approvazione del tempo per il progetto:</p>
+   <ul><li>Nuovo: Standard</li>
+   <li>Corrente: Piano</li></ul>
+
+<p>Per approvare le ore registrate in un progetto:</p>
+   <ul><li>Nuovo: Chiaro o superiore</li>
+   <li>Revisione o successiva</li>
     </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modifica l'accesso ai Progetti o versione successiva</p> <p><b>NOTA</b>
-
-Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
-</tr> 
+   <td> <p>Modifica l'accesso ai Progetti o versione successiva</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizza le autorizzazioni per il progetto o versione successiva</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Visualizza le autorizzazioni per il progetto o versione successiva</p>
   </tr> 
   <tr> 
    <td role="rowheader">Accesso aggiuntivo</td> 
@@ -63,7 +64,7 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
        <li>Se disponi delle autorizzazioni di gestione per il progetto, puoi approvare o rifiutare le ore registrate sul progetto da qualsiasi altro utente.</li>
        <li> Se disponi dell’accesso Contribute o View al progetto, potrai approvare o rifiutare solo le ore registrate da te o da qualsiasi altro utente che ti segnali.<br></li>
       </ul></li> 
-     <li>Disponi di una licenza Pianificazione con accesso amministrativo alle schede orario e alle ore. In questo caso:
+     <li>Disponi di una licenza Pianificazione con accesso amministrativo alle schede orario e alle ore. In questo caso:
       <ul>
        <li>Puoi approvare o rifiutare qualsiasi ora per i progetti per i quali disponi almeno delle autorizzazioni di visualizzazione. </li>
       </ul></li> 
@@ -72,7 +73,7 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Richiede l&#39;approvazione del tempo per un progetto
 
@@ -90,22 +91,27 @@ Per richiedere l&#39;approvazione del project manager per le ore relative al pro
 
 In qualità di project manager, puoi approvare o rifiutare le ore registrate per attività, problemi o il progetto.
 
-L’approvazione delle ore a livello di progetto non ha alcun impatto sulla scheda orario di nessuno degli utenti che hanno registrato le ore. Ad esempio, le ore nel progetto possono essere approvate dal project manager, ma la scheda orario deve ancora essere approvata dal manager dell&#39;utente o dall&#39;approvatore della scheda orario. 
+L’approvazione delle ore a livello di progetto non ha alcun impatto sulla scheda orario di nessuno degli utenti che hanno registrato le ore. Ad esempio, le ore nel progetto possono essere approvate dal project manager, ma la scheda orario deve ancora essere approvata dal manager dell&#39;utente o dall&#39;approvatore della scheda orario.
 
 Se si imposta un progetto per richiedere l&#39;approvazione sulle ore registrate, il project manager deve approvare le ore affinché siano disponibili per essere incluse in una fatturazione per il progetto. Per ulteriori informazioni sulla creazione di record di fatturazione, vedere l&#39;articolo [Creare record di fatturazione](../../../manage-work/projects/project-finances/create-billing-records.md).
 
 Per approvare o rifiutare le ore di un progetto:
 
 1. Vai al progetto.
-1. Fai clic sull&#39;area **Ore** nel pannello a sinistra. Potrebbe trovarsi nell&#39;area **Mostra altro**.
+1. Fai clic sull&#39;area **Ore** nel pannello a sinistra. Potrebbe trovarsi nell&#39;area **Mostra altro**.
 
 1. Vengono visualizzate le ore registrate per problemi, attività e progetto con lo stato **Inviato**.\
    Fai clic sulla casella a sinistra delle voci orarie per selezionare le ore da approvare.
 
-1. Fai clic su **Approva**.\
+1. Fai clic sull&#39;icona **Approva** ![](assets/approve-hours-icon.png) in alto nell&#39;elenco delle ore.\
    Lo stato delle ore cambia in **Approvato**.\
    Se successivamente si rifiutano le ore approvate, lo stato delle ore cambia in **Non approvato**.\
    Quando si includono le ore approvate in un record di fatturazione, lo stato delle ore cambia in **Fatturate e Approvate**. Le ore aggiunte a un record di fatturazione non possono essere eliminate. Per ulteriori informazioni sulla creazione di record di fatturazione, vedere l&#39;articolo [Creare record di fatturazione](../../../manage-work/projects/project-finances/create-billing-records.md)
 
-1. (Facoltativo) Fai clic su **Rifiuta** per rifiutare le voci di orario nel progetto.\
+1. (Facoltativo) Fai clic sull&#39;icona ![](assets/reject-hours-icon.png) di tipo **Rifiuta** per rifiutare le voci di ora nel progetto.\
    Lo stato delle ore diventa **Rifiutato**.
+
+   >[!NOTE]
+   >
+   >   Se le ore selezionate sono incluse in una fatturazione contrassegnata come Fatturata o Fatturata e approvata, le icone Approva e Rifiuta non vengono visualizzate. Puoi approvare solo le ore che non sono già fatturate in un record fatturazione.
+

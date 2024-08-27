@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '413'
 ht-degree: 1%
 
 ---
@@ -17,15 +17,14 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-Quando qualcuno ti assegna un tag in un commento del record, potresti ricevere una notifica in-app per tale tag.
+È possibile ricevere notifiche in-app da Workfront Planning quando si verificano i seguenti scenari:
 
->[!IMPORTANT]
->
->Per poter ricevere notifiche da Workfront Planning, l&#39;azienda deve essere un Adobe cliente di Unified Experience.
->
->Per informazioni, vedere [Esperienza unificata di Adobe per Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+* Qualcuno ti assegna un tag in un commento record
 
-Per informazioni sull&#39;assegnazione di tag ad altri utenti in un commento record, vedere [Gestire i commenti record](/help/quicksilver/planning/records/manage-record-comments.md).
+  Per informazioni sull&#39;assegnazione di tag ad altri utenti in un commento record, vedere [Gestire i commenti record](/help/quicksilver/planning/records/manage-record-comments.md).
+* Qualcuno richiede l’autorizzazione per accedere a una vista o a un’area di lavoro
+* Qualcuno conferma che l&#39;accesso è stato concesso per una visualizzazione o un&#39;area di lavoro <!--verify this-->
+* Qualcuno ha negato l’accesso a una visualizzazione o a un’area di lavoro. <!--verify this-->
 
 ## Requisiti di accesso
 
@@ -158,7 +157,7 @@ OLD:
 +++
 -->
 
-## Gestire le notifiche in-app
+## Gestire le notifiche in-app quando qualcuno ti assegna i tag in un commento
 
 1. (Condizionale) Dopo che un utente ti ha contrassegnato in un commento su un record, passa all&#39;icona in-app **Notifiche** ![](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud.
 
@@ -170,3 +169,8 @@ OLD:
 
 1. (Facoltativo) Fai clic su **Segna tutto come letto** per indicare che hai letto tutte le notifiche.
 1. (Facoltativo) Fai clic su **Visualizza tutto** per passare alla pagina **Notifiche** in Adobe Experience Cloud.
+
+
+## Gestire le notifiche in-app quando si richiedono, si concedono o si negano le autorizzazioni per una visualizzazione o un’area di lavoro
+
+Per informazioni sulla richiesta, la concessione o il rifiuto delle autorizzazioni per una visualizzazione o un&#39;area di lavoro, vedere [Richiedere le autorizzazioni per una visualizzazione o un&#39;area di lavoro](/help/quicksilver/planning/access/request-permissions.md).

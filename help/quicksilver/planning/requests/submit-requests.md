@@ -1,19 +1,18 @@
 ---
 title: Inviare richieste di Adobe Workfront Planning
 description: Dopo che un utente ha condiviso un collegamento a un modulo di richiesta da una pagina di tipo di record in Adobe Workfront Planning, è possibile aggiungere una richiesta per la creazione di record per il tipo di record associato al modulo di richiesta.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 18183b53c783366f467e7330159923372b51deb6
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '659'
 ht-degree: 1%
 
 ---
 
 # Inviare richieste di Adobe Workfront Planning per creare record
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 
@@ -22,6 +21,10 @@ ht-degree: 1%
 Dopo che un utente ha condiviso un collegamento a un modulo di richiesta da una pagina di tipo di record in Adobe Workfront Planning, è possibile aggiungere una richiesta per la creazione di record per il tipo di record associato al modulo di richiesta.
 
 Gli utenti Workfront e gli utenti esterni possono inviare richieste ai tipi di record Planning e creare record. <!--double check on the external users-->
+
+Questo articolo descrive come inviare una richiesta per aggiungere nuovi record a un tipo di record.
+
+Per informazioni su come un manager area di lavoro può creare un modulo di richiesta e associarlo a un tipo di record, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 ## Requisiti di accesso
 
@@ -57,7 +60,6 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
    <td>
 <p>Qualsiasi </p>  
 <p>Per ulteriori informazioni su ciò che è incluso in ogni piano di Workfront Planning, vedere <a href="https://business.adobe.com/products/workfront/pricing.html">Determinazione prezzi e packaging di Adobe Workfront</a>. </td>
-
 <tr>
    <td role="rowheader"><p>Piattaforma Adobe Workfront</p></td>
    <td>
@@ -110,7 +112,7 @@ Prima di inviare una richiesta a un modulo di richiesta Workfront Planning, è n
 * Il modulo di richiesta deve essere condiviso con un collegamento in modo da potervi accedere. Esistono i seguenti scenari:
 
    * Se disponi di un account Workfront, il collegamento è stato condiviso solo con persone interne e puoi accedere all’area di lavoro. Gli utenti esterni a Workfront non possono accedere a un collegamento condiviso internamente.
-   * Se non disponi di un account Workfront, il collegamento è stato condiviso con persone esterne. Gli utenti di Workfront possono anche utilizzare un collegamento condiviso con persone esterne.
+   * Se non disponi di un account Workfront, il collegamento è stato condiviso con persone esterne. Gli utenti di Workfront possono anche accedere a un collegamento condiviso con persone esterne.
 
 * Il collegamento al modulo non deve essere scaduto.
 

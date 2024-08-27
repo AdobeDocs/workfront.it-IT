@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1194'
+source-wordcount: '1368'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,8 @@ Questo articolo descrive le seguenti informazioni sulle visualizzazioni record:
 
 * [Creare e modificare una visualizzazione](#create-or-edit-record-views)
 * [Eliminare una visualizzazione](#delete-views)
-* [Duplicare una visualizzazione](#duplicate-views)
+* [Duplicare una vista](#duplicate-views)
+* [Attiva gli indicatori di presenza in tempo reale in una visualizzazione](#enable-the-real-time-presence-indicator-in-a-view)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 
@@ -343,3 +344,22 @@ Per impostazione predefinita, tutti i record del tipo selezionato vengono visual
 
    La visualizzazione è duplicata e il nome della nuova visualizzazione segue il seguente schema: `Original view's name (Copy)`. La nuova scheda vista viene visualizzata alla fine di tutte le schede vista.
 
+## Abilitare l&#39;indicatore di presenza in tempo reale in una visualizzazione
+
+Per impostazione predefinita, nell&#39;angolo superiore destro di tutte le visualizzazioni record vengono visualizzati gli avatar di altri utenti che modificano le informazioni dei record contemporaneamente.
+
+Quando si visualizza la vista tabella, è inoltre possibile visualizzare il campo che un altro utente sta modificando al momento della visualizzazione del record.
+
+1. Passare a una pagina del tipo di record e aprire qualsiasi visualizzazione.
+1. (Condizionale) Se altri utenti modificano contemporaneamente i record del tipo selezionato, i relativi avatar vengono visualizzati nell’angolo superiore destro della visualizzazione.
+1. Fai clic sul menu a discesa accanto agli avatar, quindi seleziona l&#39;opzione **Mostra collaboratori**. L’opzione è selezionata per impostazione predefinita.
+
+   ![](assets/show-collaborators-toggle-selected.png)
+
+1. (Facoltativo) Apri una vista tabella e il campo che un’altra persona sta modificando viene evidenziato con il colore corrispondente al contorno del proprio avatar nella vista tabella.
+
+   ![](assets/real-time-indicator-table-field-and-avatar-connection.png)
+
+   >[!TIP]
+   >
+   >È possibile selezionare l&#39;opzione **Mostra collaboratori** da qualsiasi visualizzazione. Il campo modificato è evidenziato solo nella vista tabella.

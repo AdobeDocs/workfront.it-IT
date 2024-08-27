@@ -1,11 +1,13 @@
 ---
 title: Richiedere le autorizzazioni per una visualizzazione o un Workspace
 description: È possibile richiedere le autorizzazioni per una visualizzazione o un'area di lavoro a cui altri utenti ti hanno inviato un collegamento che non è stato condiviso in precedenza con te.
-hidefrontoc: true
-hide: true
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '506'
 ht-degree: 1%
 
 ---
@@ -130,6 +132,6 @@ Quando qualcuno condivide con te un collegamento a un’area di lavoro o a una v
 
    * [Condividere le visualizzazioni](/help/quicksilver/planning/access/share-views.md)
    * [Condividere le aree di lavoro](/help/quicksilver/planning/access/share-workspaces.md)
-1. (Facoltativo) Quando il gestore della visualizzazione o dell’area di lavoro concede le autorizzazioni per la visualizzazione o l’area di lavoro, viene inviata una notifica e-mail con la conferma che le autorizzazioni sono state concesse o negate. <!--check this - I was not able to test this-->
+1. (Facoltativo) Quando il gestore della visualizzazione o dell’area di lavoro ti concede le autorizzazioni per la visualizzazione o l’area di lavoro, ricevi una notifica e-mail e una notifica in-app con la conferma che l’autorizzazione è stata concessa. <!--check this - I was not able to test this-->
 
 

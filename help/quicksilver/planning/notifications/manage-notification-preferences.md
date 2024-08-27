@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '431'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,11 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-Quando qualcuno ti aggiunge a un commento nella pagina record, ricevi una notifica in-app e un’e-mail relativa al commento.
+In Workfront Planning è possibile ricevere una notifica in-app o e-mail quando si verificano le seguenti azioni:
+
+* Qualcuno ti aggiunge a un commento nella pagina del record
+* Qualcuno chiede l&#39;autorizzazione per accedere a una vista o a un&#39;area di lavoro
+* Qualcuno ti concede o nega l&#39;autorizzazione per accedere a una visualizzazione o a un&#39;area di lavoro <!--test this - could not test before GA-->
 
 ## Requisiti di accesso
 
@@ -90,6 +94,12 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
 
 +++
 
+
+Per ulteriori informazioni sulle notifiche di Workfront Planning, vedere anche i seguenti articoli:
+
+* Per informazioni sui commenti sui record, vedere [Gestisci commenti record](/help/quicksilver/planning/records/manage-record-comments.md).
+* Per informazioni sulle notifiche in-app da Workfront Planning, vedere [Gestire le notifiche in-app per Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md).
+* Per informazioni sulle notifiche e-mail da Workfront Planning, vedere [Gestire le notifiche e-mail per Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md).
 <!--
 
 OLD: 
@@ -152,16 +162,18 @@ OLD:
 
 1. Accedi a Workfront con le credenziali Adobe Experience Cloud.
 1. Fai clic sull&#39;icona ![](assets/account-menu-icon-on-experience-cloud.png) del menu **account** in alto a destra dello schermo, quindi fai clic su **Preferenze**.
-1. Nella sezione **Notifiche**, fai clic su **Workfront**, quindi segui i passaggi descritti nel seguente articolo per gestire le preferenze di notifica per Workfront Planning:
-   [Preferenze account e notifiche](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
+1. Nella sezione **Notifiche** fare clic su **Workfront**.
+1. Seleziona le notifiche che desideri ricevere.
+Oppure
+Deseleziona le notifiche che desideri interrompere la ricezione.
 
-Per ulteriori informazioni sulle notifiche di Workfront Planning, vedere anche i seguenti articoli:
+   ![](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)
+1. Per Workfront sono disponibili le seguenti notifiche:
 
-* Per informazioni sui commenti sui record, vedere [Gestisci commenti record](/help/quicksilver/planning/records/manage-record-comments.md).
-* Per informazioni sulle notifiche in-app da Workfront Planning, vedere [Gestire le notifiche in-app per Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md).
-* Per informazioni sulle notifiche e-mail da Workfront Planning, vedere [Gestire le notifiche e-mail per Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md).
+   * **Riferimenti**: si riceve una notifica quando un utente assegna un tag a un commento in Workfront Planning
+   * **Richieste**: si riceve una notifica quando un utente richiede l&#39;autorizzazione per un oggetto Workfront Planning
 
-
+   Per ulteriori informazioni sulla gestione delle notifiche, vedere [Preferenze account e notifiche](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 <!--OLD: notifications are not available to non-IMS customers: 
 
