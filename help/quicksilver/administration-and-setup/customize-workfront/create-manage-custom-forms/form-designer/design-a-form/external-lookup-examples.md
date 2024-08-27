@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
+source-git-commit: bcc0054f761101ac19d1ced241329fce95be4e99
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -108,6 +108,16 @@ Questo esempio mostra come chiamare l’API Workfront e inserire i dati da un ca
 1. Fare clic su **Applica**.
 
    Quando il modulo personalizzato viene aggiunto a un oggetto Workfront, tutti i valori nel campo &quot;Colori combinati&quot; vengono visualizzati nel menu a discesa del campo di ricerca Esterno.
+
+## Impostare un campo di ricerca esterna per l&#39;API di pianificazione di Workfront
+
+Un endpoint è disponibile nell&#39;API di pianificazione [Workfront](/help/quicksilver/planning/general/planning-api-basics.md) per cercare i record in base all&#39;ID del tipo di record tramite il metodo Get. È possibile utilizzare questo endpoint per fare riferimento ai record di Planning nei campi di ricerca esterna.
+
+* **URL API di base:** `$$HOST/maestro/api/v1/records/search?recordTypeId={recordTypeID}`
+* **Metodo HTTP:** Get
+* **Percorso JSON:** `$.records[*].data.{fieldID}`
+
+  **{fieldID}** è il campo da visualizzare nei risultati della ricerca esterna nel modulo personalizzato per gli utenti finali.
 
 ## Configurare un campo di ricerca esterno per un’API pubblica
 
