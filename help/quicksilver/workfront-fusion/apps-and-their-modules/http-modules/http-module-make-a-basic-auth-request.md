@@ -9,7 +9,7 @@ description: Adobe Workfront Fusion richiede una licenza Adobe Workfront Fusion 
 author: Becky
 feature: Workfront Fusion
 exl-id: df8b53de-1af2-4026-b7dd-ff5133b4aac2
-source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
+source-git-commit: c84e4b021640a2b145bf4f36ddddbdfe33baacf1
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 0%
@@ -115,7 +115,7 @@ Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possib
      <li> <p><strong>[!UICONTROL Multipart/form-data]</strong> </p> <p>[!UICONTROL Multipart/form-data] è una richiesta multipart HTTP utilizzata per inviare file e dati. Viene comunemente utilizzato per caricare file sul server.</p> <p>Aggiungi i campi da inviare nella richiesta. Ogni campo deve contenere una coppia chiave-valore.</p> 
       <ul> 
        <li> <p><strong>[!UICONTROL Testo]</strong> </p> <p>Immetti la chiave e il valore da inviare nel corpo della richiesta.</p> </li> 
-       <li> <p><strong>[!UICONTROL File]</strong> </p> <p>Immetti la chiave e specifica il file di origine da inviare nel corpo della richiesta.</p> <p>Mappa il file che desideri caricare dal modulo precedente (ad esempio [!UICONTROL HTTP] &gt;[!UICONTROL Ottieni un file] o [!UICONTROL Google Drive] &gt;[!UICONTROL Scarica un file)], oppure immetti manualmente il nome del file e i dati del file.</p> </li> 
+       <li> <p><strong>[!UICONTROL File]</strong> </p> <p>Immetti la chiave e specifica il file di origine da inviare nel corpo della richiesta.</p> <p>Mappa il file che desideri caricare dal modulo precedente (ad esempio [!UICONTROL HTTP] &gt; [!UICONTROL Ottieni un file] o [!UICONTROL Google Drive] &gt; [!UICONTROL Scarica un file]) oppure immetti manualmente il nome del file e i dati del file.</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 

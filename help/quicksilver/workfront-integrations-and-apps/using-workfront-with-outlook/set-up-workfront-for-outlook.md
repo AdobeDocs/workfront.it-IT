@@ -6,9 +6,9 @@ description: Il componente aggiuntivo  [!DNL Adobe Workfront] [!DNL Outlook] con
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: e4f722bab4c4024ca796af8413e7d6b69f6a89a7
+source-git-commit: bcf03609e0503a5db0384fd573066467a1feb341
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Il componente aggiuntivo [!DNL Workfront] per [!DNL Outlook] è supportato in am
 Workfront supporta le seguenti versioni di [!DNL Outlook]:
 
 * [!DNL Outlook 2013] o versione successiva il [!DNL Windows]
-*[!DNL  Outlook 2016] o versione successiva il [!DNL Windows]
+* [!DNL Outlook 2016] o versione successiva il [!DNL Windows]
 * [!DNL Outlook] il [!DNL Mac] ([!DNL Microsoft 365])
 * [!DNL Outlook] il [!DNL Windows] ([!DNL Microsoft 365])
 * [!DNL Outlook] sul Web
@@ -90,7 +90,7 @@ Durante la configurazione del client, l’utente deve selezionare uno dei seguen
 
 * [!DNL Exchange]
 * [!DNL Office 365]
-* [!DNL Outlook.com]&#x200B;**&#x200B;**&#x200B;Se il client è configurato per la connessione con POP3 o IMAP, il componente aggiuntivo [!DNL Workfront] non viene caricato.
+* [!DNL Outlook.com] Se il client è configurato per la connessione con POP3 o IMAP, il componente aggiuntivo [!DNL Workfront] non si carica.
 
 ### Requisiti del server di posta {#mail-server-requirements}
 

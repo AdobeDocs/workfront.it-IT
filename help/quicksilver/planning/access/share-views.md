@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: 4c675fc5cbe82c27182b8f442bec9a6c2d9634fa
 workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 1%
@@ -226,7 +226,7 @@ Puoi condividere con utenti o gruppi in Workfront le viste che hai creato o le v
 
    >[!TIP]
    >
-   Le visualizzazioni senza un utente o un&#39;icona globale sono visualizzazioni create dall&#39;utente e non sono condivise con altri utenti. Le viste non condivise sono visibili solo a te.
+   >Le visualizzazioni senza un utente o un&#39;icona globale sono visualizzazioni create dall&#39;utente e non sono condivise con altri utenti. Le viste non condivise sono visibili solo a te.
 
 1. Condividi il collegamento copiato con altri utenti. Gli utenti che ricevono il collegamento devono essere utenti attivi e accedere a Workfront per poter accedere alla pagina del tipo di record e visualizzarla nella visualizzazione selezionata.
 
@@ -236,7 +236,7 @@ Puoi condividere le viste create o le viste per le quali disponi delle autorizza
 
 >[!IMPORTANT]
 >
-Solo gli utenti con le autorizzazioni Gestione di un&#39;area di lavoro possono condividere pubblicamente le visualizzazioni dell&#39;area di lavoro.
+>Solo gli utenti con le autorizzazioni Gestione di un&#39;area di lavoro possono condividere pubblicamente le visualizzazioni dell&#39;area di lavoro.
 
 
 Per condividere una visualizzazione pubblicamente in Workfront Planning:

@@ -10,9 +10,9 @@ description: In uno scenario Adobe Workfront Fusion, è possibile automatizzare 
 author: Becky
 feature: Workfront Fusion
 exl-id: 889b417c-04a9-4dbf-9a34-0dab65f11f03
-source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
+source-git-commit: 0b8a4e3864cf9ca2c179a824bdb87977819c9383
 workflow-type: tm+mt
-source-wordcount: '1401'
+source-wordcount: '1387'
 ht-degree: 0%
 
 ---
@@ -102,17 +102,13 @@ Un modello [!DNL Microsoft Word] è un normale documento [!DNL Microsoft Word] (
 
 ### Tag valore semplice {#simple-value-tag}
 
-Un tag di valore semplice viene semplicemente sostituito con un valore corrispondente. Il nome del tag corrisponde al valore del campo [!UICONTROL Chiave], che si trova all&#39;interno di doppie parentesi graffe; ad esempio,
-
-
-<pre>&lbrace;&lbrace;name&rbrace;&rbrace;</pre>
-
-
-.
+Un tag di valore semplice viene semplicemente sostituito con un valore corrispondente. Il nome del tag corrisponde al valore del campo [!UICONTROL Chiave], che si trova all&#39;interno di parentesi graffe doppie, ad esempio `{{name}}`.
 
 **Esempio:** Per creare un documento con la dicitura &quot;Ciao, Petr!&quot;, puoi utilizzare un modulo [!DNL Microsoft Word Template] per creare il seguente modello:
 
-<pre>&gt; Salve &lbrace;&lbrace;name&rbrace;&rbrace;!</pre>
+```
+> Hi {{name}}!
+```
 
 A questo scopo, imposta il modulo come segue:
 
@@ -123,12 +119,21 @@ A questo scopo, imposta il modulo come segue:
 È possibile utilizzare un tag condizione per racchiudere il testo di cui eseguire il rendering solo quando vengono soddisfatte determinate condizioni. Per racchiudere il testo, posizionalo tra i tag della condizione di apertura e chiusura, ad esempio &quot;hasPhone&quot; se la condizione è se i dati includono o meno un numero di telefono. Il nome di un tag di apertura è preceduto da un hash sign #, il nome di un tag di chiusura è preceduto da una barra /, come mostrato nell&#39;esempio seguente.
 
 **Esempio:** Per produrre un documento che includa il numero di telefono di un cliente se i dati di input includono un numero di telefono, ma nessun indirizzo e-mail, è possibile utilizzare un modulo [!DNL Microsoft Word Template] e creare il seguente modello:
-<pre>&gt; &lbrace;&lbrace;#hasPhone&rbrace;&rbrace;Telefono: &lbrace;&lbrace;phone&rbrace;&rbrace; &lbrace;&lbrace;/hasPhone&rbrace;&rbrace;</pre><pre>&gt; &lbrace;&lbrace;#hasEmail&rbrace;&rbrace;E-mail: &lbrace;&lbrace;email&rbrace;&rbrace; &lbrace;&lbrace;/hasEmail&rbrace;&rbrace;</pre>A questo scopo, imposta il modulo come segue:
+
+```
+> {{#hasPhone}}Phone: {{phone}} {{/hasPhone}}
+> {{#hasEmail}}Email: {{email}} {{/hasEmail}}
+```
+
+A questo scopo, imposta il modulo come segue:
 
 ![](assets/word-template-conditional-350x501.png)
 
 Nel documento, il numero di telefono apparirà come segue:
-<pre>&gt; Telefono: 4445551234</pre>
+
+```
+> Phone: 4445551234
+```
 
 ### Tag loop {#loop-tag}
 
@@ -141,7 +146,11 @@ Per ripetere una sezione di testo, è possibile utilizzare un tag loop, noto anc
 
 **Esempio:** Per produrre un documento che elenca il nome e il numero di telefono di ciascun contatto in un elenco clienti, è possibile utilizzare un modulo [!DNL Microsoft Word Template] e creare il seguente modello:
 
-<pre>&gt; {#contact}</pre><pre>&gt;     &lbrace;&lbrace;name&rbrace;&rbrace;, &lbrace;&lbrace;phone&rbrace;&rbrace;</pre><pre>&gt; &lbrace;&lbrace;/contact&rbrace;&rbrace;</pre>
+```
+> {{#contact}}
+>     {{name}}, {{phone}}
+> {{/contact}}
+```
 
 A questo scopo, imposta il modulo come segue:
 

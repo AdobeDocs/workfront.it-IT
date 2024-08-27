@@ -9,9 +9,9 @@ description: Con i  [!DNL Adobe Workfront Fusion] moduli Figma è possibile recu
 author: Becky
 feature: Workfront Fusion
 exl-id: d88db592-32d4-4765-952f-9ffb58cf1720
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: df4ac2c7fdf319fd8e2e8383cd395e8826e19df0
 workflow-type: tm+mt
-source-wordcount: '2312'
+source-wordcount: '2313'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possib
 
 * [Elenca commenti](#list-comments)
 
-* [Post: un commento](#post-a-comment)
+* [Pubblica un commento](#post-a-comment)
 
 
 #### [!UICONTROL Elimina commento]
@@ -156,7 +156,7 @@ Questo modulo di ricerca elenca tutti i commenti allegati a un singolo file in [
 </table>
 
 
-#### [!UICONTROL Post un commento]
+#### [!UICONTROL Pubblica un commento]
 
 Questo modulo di azione pubblica un commento su un file Figma.
 
@@ -363,7 +363,7 @@ Questo modulo di azione recupera un singolo file o immagine da una libreria Figm
       <td>Seleziona il file da cui vuoi restituire il JSON.</td>
     </tr>
     <tr>
-      <td role="rowheader" [!UICONTROL>ID nodo]</td>
+      <td role="rowheader">[!UICONTROL ID nodo]</td>
       <td>
         <p>Immetti i nodi di cui vuoi eseguire il rendering nel modulo.</p>
         <p>Per ogni nodo di cui si desidera eseguire il rendering, fare clic su <b>[!UICONTROL Add]</b> e immettere il testo del nodo.</p>

@@ -6,9 +6,9 @@ description: L’amministratore di Adobe Workfront consente agli utenti di visua
 author: Alina, Nolan
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: 310935c7ad1cc97a7d26fc2ff40d2d68d192bb39
 workflow-type: tm+mt
-source-wordcount: '1966'
+source-wordcount: '1954'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Per condividere gli oggetti, è necessario disporre dei seguenti elementi:
 
 1. Nella casella **Concedi &lt; nome oggetto > l&#39;accesso a**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo o della società con cui desideri condividere l&#39;oggetto, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
 
-   ![](assets/new-share-button-add-people.png) {width=&quot;350&quot; }
+   ![](assets/new-share-button-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -132,7 +132,8 @@ Per condividere gli oggetti, è necessario disporre dei seguenti elementi:
 
    ![](assets/new-share-advanced-permissions-dropdown.png)
 
-   Le opzioni avanzate di Visualizza, Gestisci e Contribute variano a seconda dell&#39;oggetto selezionato.\
+   Le opzioni avanzate di Visualizza, Gestisci e Contribute variano a seconda dell&#39;oggetto selezionato.
+
    Per ulteriori informazioni sui livelli di autorizzazione, vedere [Panoramica sulla condivisione delle autorizzazioni sugli oggetti](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 1. (Facoltativo) Per rendere questo oggetto disponibile a tutti gli utenti del sistema, fai clic sul menu a discesa in **Chi ha accesso**, quindi nel menu a discesa fai clic su **Tutti nel sistema possono visualizzare**.
@@ -187,7 +188,7 @@ Per condividere gli oggetti, è necessario disporre dei seguenti elementi:
 
 1. Nella casella **Concedi a &lt; Nome oggetto > l&#39;accesso a**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo o della società con cui desideri condividere l&#39;oggetto, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
 
-   ![](assets/list-share-add-people.png) {width=&quot;350&quot; }
+   ![](assets/list-share-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -234,7 +235,7 @@ Per condividere gli oggetti, è necessario disporre dei seguenti elementi:
    >
    >Questa opzione non è disponibile per tutti gli oggetti.
 
-   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png) {width=&quot;350&quot; }
+   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png){width="350"}
 
 1. (Condizionale) Se l&#39;oggetto è stato reso pubblico a utenti esterni, fare clic su **copia collegamento**, quindi distribuire il collegamento a utenti esterni.
 
@@ -254,11 +255,11 @@ Per condividere gli oggetti, è necessario disporre dei seguenti elementi:
 
 1. Fai clic sulla casella di controllo accanto agli oggetti che desideri condividere, quindi fai clic sull&#39;icona **Condividi** ![](assets/share-icon.png) nella parte superiore della pagina.
 
-   ![](assets/list-share-object-select.png) {width=&quot;350&quot; }
+   ![](assets/list-share-object-select.png){width="350"}
 
 1. Nella finestra **&lt; Oggetto > Accesso**, iniziare a digitare nella casella **Modifica &lt; Nome oggetto > accesso per** il nome dell&#39;utente, del team, della mansione, del gruppo o della società con cui si desidera condividere gli oggetti, quindi fare clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
 
-   ![](assets/list-share-add-people.png) {width=&quot;350&quot; }
+   ![](assets/list-share-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -286,10 +287,10 @@ Per condividere gli oggetti, è necessario disporre dei seguenti elementi:
      >
      >È possibile concedere autorizzazioni Contribute solo ai seguenti oggetti:
      >
-     >   * Progetti
-     >   * Attività
-     >   * Problemi
-     >  
+     >* Progetti
+     >* Attività
+     >* Problemi
+     >
 
    * **Gestisci:** gli utenti hanno accesso completo all&#39;oggetto senza diritti amministrativi (concessi a livello di accesso). Inoltre, dispongono anche di tutte le autorizzazioni View (Visualizzazione) e Contribute (Visualizzazione).
 
@@ -328,7 +329,7 @@ Per condividere gli oggetti, è necessario disporre dei seguenti elementi:
    >
    >Questa opzione non è disponibile per tutti gli oggetti.
 
-   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png) {width=&quot;350&quot; }
+   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png){width="350"}
 
 1. (Condizionale) Se gli oggetti sono stati resi pubblici a utenti esterni, fare clic su **copia collegamento**, quindi distribuire il collegamento a utenti esterni.
 

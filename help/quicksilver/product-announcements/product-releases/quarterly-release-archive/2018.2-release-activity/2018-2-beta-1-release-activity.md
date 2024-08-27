@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: cbe98ee2-f155-4d31-88c4-7f41b6f91eb2
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
 workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 0%
@@ -74,7 +74,6 @@ Le azioni seguenti non vengono reintrodotte come collegamenti nel documento all&
 
 Per ulteriori informazioni, vedere le sezioni seguenti:
 
-*  
 *  in 
 
 ## Miglioramenti nella visualizzazione utente nella Programmazione delle risorse {#user-view-improvements-in-the-resource-planner}

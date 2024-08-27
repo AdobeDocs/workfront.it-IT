@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
 workflow-type: tm+mt
-source-wordcount: '2074'
+source-wordcount: '2075'
 ht-degree: 0%
 
 ---
 
-# Configurare le preferenze per attività e problemi a livello di sistema
+# Configurare le preferenze relative alle attività e ai problemi a livello di sistema
 
 <!-- Audited: 2/2024 -->
 

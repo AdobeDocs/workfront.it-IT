@@ -8,7 +8,7 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%
@@ -202,10 +202,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >[!NOTE]
    >
    >Gli ultimi 3 elementi dell&#39;elenco a discesa **[!UICONTROL Personalizza gli elementi visualizzati dagli utenti]** ([!UICONTROL Elenchi], [!UICONTROL Home e Riepilogo] e [!UICONTROL Branding]) sono destinati alla configurazione di aree diverse dal pannello sinistro. Per informazioni su di essi, consulta i seguenti articoli:
->   >   
-* [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
->* [Personalizza [!UICONTROL Home] e [!UICONTROL Riepilogo] utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
-* [Adobe marchio [!DNL Workfront] utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
+   >
+   >* [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >* [Personalizza [!UICONTROL Home] e [!UICONTROL Riepilogo] utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   >* [Adobe marchio [!DNL Workfront] utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
 1. (Facoltativo) Se desideri aggiungere un elemento del pannello sinistro collegato a uno dei dashboard dell&#39;organizzazione, fai clic su **[!UICONTROL Aggiungi sezione personalizzata]**, digita un **[!UICONTROL Titolo sezione personalizzata]** per l&#39;elemento, quindi aggiungi il dashboard.
@@ -214,7 +214,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    >[!NOTE]
    >
-   Gli utenti possono aggiungere elementi del dashboard personalizzati al proprio pannello sinistro. Quando si aggiungono elementi del dashboard personalizzati in un modello di layout, gli elementi vengono uniti ai relativi senza sovrascriverli o reimpostarli. Ciò si verifica anche se si assegnano gli utenti a un nuovo modello di layout con elementi del dashboard personalizzati. Per informazioni su come personalizzare il pannello sinistro, vedere [Creare schede o sezioni personalizzate](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
+   >Gli utenti possono aggiungere elementi del dashboard personalizzati al proprio pannello sinistro. Quando si aggiungono elementi del dashboard personalizzati in un modello di layout, gli elementi vengono uniti ai relativi senza sovrascriverli o reimpostarli. Ciò si verifica anche se si assegnano gli utenti a un nuovo modello di layout con elementi del dashboard personalizzati. Per informazioni su come personalizzare il pannello sinistro, vedere [Creare schede o sezioni personalizzate](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
 
    Per informazioni sulle dashboard, vedere [Dashboard](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
@@ -226,4 +226,4 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    >[!TIP]
    >
-   Puoi fare clic su [!UICONTROL Salva] in qualsiasi momento per salvare l&#39;avanzamento, quindi continuare a modificare il modello in un secondo momento.
+   >Puoi fare clic su [!UICONTROL Salva] in qualsiasi momento per salvare l&#39;avanzamento, quindi continuare a modificare il modello in un secondo momento.

@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91e79c87-9c70-4050-9a3f-236eff0be41d
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b9dd01ee0e8732bf7e2fec68a7682fc17271e19e
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1132'
 ht-degree: 0%
 
 ---
@@ -176,11 +176,11 @@ Questa funzionalità include:
 
 * Il Responsabile del budget verrà sostituito con la nuova Pianificazione risorse
 
-  Per ulteriori informazioni, vedere [Pianificazione risorse in Adobe Workfront](../../../../resource-mgmt/resource-planning/resource-planning-overview.md) [.](https://support.workfront.com/hc/en-us/sections/115001049327)
+  Per ulteriori informazioni, vedere [Pianificazione risorse in Adobe Workfront](../../../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
 * La griglia risorse verrà sostituita con la nuova pianificazione risorse
 
-  Per ulteriori informazioni, vedere [ [Pianificazione risorse in Adobe Workfront](../../../../resource-mgmt/resource-planning/resource-planning-overview.md).](https://support.workfront.com/hc/en-us/sections/115001049327)
+  Per ulteriori informazioni, vedere [Pianificazione risorse in Adobe Workfront](../../../../resource-mgmt/resource-planning/resource-planning-overview.md)
 
 * Le Stime delle Risorse nel Business Case verranno sostituite con la nuova sezione Budget Risorse del Business Case nella Programmazione delle Risorse
 
