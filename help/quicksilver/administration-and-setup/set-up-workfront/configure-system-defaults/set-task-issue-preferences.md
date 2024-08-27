@@ -74,7 +74,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    <!--
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Lavoraci</a> </li>
-  --&gt;
+  -->
 
 * [[!UICONTROL Accesso]](#access)
 
