@@ -224,9 +224,8 @@ Puoi condividere con utenti o gruppi in Workfront le viste che hai creato o le v
 
    La visualizzazione viene aggiornata con l&#39;icona persone ![](assets/view-shared-with-others-people-icon.png) per indicare che la visualizzazione è ora condivisa con altri utenti.
 
-   >>
-   [!TIP]
-   >>
+   >[!TIP]
+   >
    Le visualizzazioni senza un utente o un&#39;icona globale sono visualizzazioni create dall&#39;utente e non sono condivise con altri utenti. Le viste non condivise sono visibili solo a te.
 
 1. Condividi il collegamento copiato con altri utenti. Gli utenti che ricevono il collegamento devono essere utenti attivi e accedere a Workfront per poter accedere alla pagina del tipo di record e visualizzarla nella visualizzazione selezionata.
@@ -268,8 +267,7 @@ Per condividere una visualizzazione pubblicamente in Workfront Planning:
 
    La visualizzazione viene aggiornata con l&#39;icona globale ![](assets/public-shared-view-icon-highlighted.png) per indicare che è condivisa pubblicamente.
 
-   >>
-   [!TIP]
+   >[!TIP]
    >
    >Le visualizzazioni senza un utente o un&#39;icona globale sono visualizzazioni create dall&#39;utente e non sono condivise con altri utenti. Le viste non condivise sono visibili solo a te.
 
