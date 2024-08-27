@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 85e27a1e7979eadf2731be9aaca9279a82587bbf
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '939'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Alcune righe contengono informazioni etichettate come &quot;Nuovo&quot; e &quot;
    <td role="rowheader">piano Adobe Workfront</td> 
    <td> I piani di Adobe Workfront si riferiscono all’insieme di funzioni acquistate dalla tua organizzazione. La maggior parte delle funzionalità di Workfront è disponibile in tutti i piani, con alcune eccezioni, per lo più relative alla pianificazione strategica e ai controlli aziendali. 
    <ul><li>Per informazioni sul piano Adobe Workfront utilizzato dalla tua organizzazione, compreso se l’organizzazione si trova nel modello di packaging nuovo o corrente, contatta l’amministratore Workfront.</li>
-   <li>Per istruzioni su come un amministratore di Workfront può individuare il piano Workfront della tua organizzazione, consulta <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">Visualizzare il piano Workfront e il cluster della tua organizzazione</a>.</li></ul> </td> 
+   <li>Per istruzioni su come un amministratore di Workfront può individuare il piano Workfront della tua organizzazione, consulta <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">Visualizzare il piano Workfront e il cluster della tua organizzazione</a>.</li><li>Per ulteriori informazioni sui nuovi piani di Workfront, vedere <a href="https://business.adobe.com/products/workfront/pricing.html">Determinazione prezzi e creazione pacchetti di Adobe Workfront</a>.</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
