@@ -7,9 +7,9 @@ description: Un'iterazione è una quantità di tempo riservata per il completame
 author: Lisa
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -24,24 +24,32 @@ Un&#39;iterazione è una quantità di tempo riservata per il completamento del l
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] piano*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>[!UICONTROL Request] o versione successiva</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
+   <td> 
+   <p>Nuovo: [!UICONTROL Contributor] o versione successiva</p> 
+   <p>oppure</p>
+   <p>Corrente: [!UICONTROL Request] o versione successiva</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
+
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Creare un’iterazione in un flusso di lavoro
 

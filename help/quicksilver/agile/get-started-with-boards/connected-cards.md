@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Utilizzare le schede collegate sulle bacheche
+title: Usa schede collegate sulle bacheche
 description: È possibile aggiungere alla bacheca una scheda connessa alle attività e ai problemi esistenti in Workfront.
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 5c093edc97afdbd1d88824376ce4b019f71e099f
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1461'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,8 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Aggiungere una scheda collegata
 
-1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **[!UICONTROL Bozze]**.
+{{step1-to-boards}}
+
 1. Accedi a una bacheca. Per informazioni, consulta [Creare o modificare una bacheca](../../agile/get-started-with-boards/create-edit-board.md).
 1. Fai clic su **[!UICONTROL Aggiungi scheda] > [!UICONTROL Scheda connessa]**.
 1. Scegli un progetto, quindi scegli un’attività o un problema da aggiungere come scheda sulla bacheca.

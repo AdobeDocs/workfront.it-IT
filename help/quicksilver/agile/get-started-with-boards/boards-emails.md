@@ -2,14 +2,14 @@
 filename: boards-emails
 content-type: reference
 navigation-topic: boards
-title: Bacheche notifiche e preferenze e-mail
+title: Bacheche Notifiche e preferenze e-mail
 description: Le bacheche Adobe Workfront ti inviano un’e-mail quando sei aggiunto a una bacheca e quando ti viene assegnata una scheda.
 author: Lisa
 feature: Agile
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -22,26 +22,32 @@ Riceverai anche un’e-mail quando ti viene taggato all’interno di un commento
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] piano*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>[!UICONTROL Request] o versione successiva</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
+   <td> 
+   <p>Nuovo: [!UICONTROL Contributor] o versione successiva</p> 
+   <p>oppure</p>
+   <p>Corrente: [!UICONTROL Request] o versione successiva</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Impostare le preferenze per le e-mail delle bacheche
 

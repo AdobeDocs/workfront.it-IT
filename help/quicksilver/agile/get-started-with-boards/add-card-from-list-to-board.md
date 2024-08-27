@@ -1,19 +1,19 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Aggiungere attività o problemi esistenti a una bacheca o a un flusso di lavoro di Adobe Workfront
+title: Aggiungere attività o problemi esistenti a una bacheca Workfront
 description: È possibile aggiungere qualsiasi attività o problema a una bacheca in Adobe Workfront da una vista a elenco o report.
 author: Lisa
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
 
-# Aggiungere attività o problemi esistenti a una bacheca o a un flusso di lavoro [!DNL Adobe Workfront]
+# Aggiungi attività o problemi esistenti a una bacheca [!DNL Workfront]
 
 >[!IMPORTANT]
 >
@@ -23,6 +23,8 @@ ht-degree: 0%
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto">
@@ -30,26 +32,33 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col>
  <tbody>
   <tr>
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] piano*</strong></td>
+   <td role="rowheader">[!DNL Adobe Workfront] piano</td>
    <td> <p>Qualsiasi</p> </td>
   </tr>
   <tr>
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td>
-   <td> <p>[!UICONTROL Work] o versione successiva</p> </td>
+   <td role="rowheader">[!DNL Adobe Workfront] licenza</td>
+   <td>
+   <p>Nuovo: [!UICONTROL Standard]</p> 
+   <p>oppure</p>
+   <p>Corrente: [!UICONTROL Work] o versione successiva</p>
+   </td>
   </tr>
   <tr>
-   <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td>
-   <td> <p>Autorizzazioni di [!UICONTROL View] o superiori per l'attività o il problema</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td>
+   <td role="rowheader">Autorizzazioni oggetto</td>
+   <td>Autorizzazioni di [!UICONTROL View] o superiori per l'attività o il problema </td>
   </tr>
  </tbody>
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Aggiungere attività o problemi esistenti a una bacheca o a un flusso di lavoro da un elenco
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront].
-1. Scegliere uno dei seguenti elementi: **[!UICONTROL Progetti]**, **[!UICONTROL Reporting]** o **[!UICONTROL Dashboard]**.
+{{step1-click-main-menu}}
+
+1. Scegliere uno dei seguenti elementi: **[!UICONTROL Progetti]**, **[!UICONTROL Rapporti]** o **[!UICONTROL Dashboard]**.
 1. Passare al progetto, report o dashboard contenente l&#39;attività o il problema che si desidera aggiungere alla bacheca o al flusso di lavoro.
 1. Seleziona una o più attività o problemi.
 
@@ -70,7 +79,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Aggiungi attività o problemi esistenti a una bacheca o a un flusso di lavoro dai dettagli dell’oggetto
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront].
+{{step1-click-main-menu}}
+
 1. Fai clic su [!UICONTROL **Progetti**], quindi fai clic sul nome di un progetto per aprirlo.
 1. Fai clic su [!UICONTROL **Attività**] o [!UICONTROL **Problemi**] nel pannello a sinistra.
 1. Fare clic sull&#39;attività, sull&#39;attività secondaria o sul problema che si desidera aggiungere a una bacheca o a un flusso di lavoro.

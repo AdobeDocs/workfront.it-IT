@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Utilizzare il dashboard delle bacheche
+title: Utilizzare il dashboard Bacheche
 description: Il dashboard [!UICONTROL bacheche] mostra l'elenco delle bacheche a cui hai accesso, incluse le bacheche create e a cui sei stato aggiunto.
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '828'
 ht-degree: 0%
 
 ---
@@ -44,11 +44,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] piano*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
    <td> 
    <p>Nuovo: [!UICONTROL Contributor] o versione successiva</p> 
    <p>oppure</p>

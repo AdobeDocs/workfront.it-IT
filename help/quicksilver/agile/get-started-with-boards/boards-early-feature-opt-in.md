@@ -2,19 +2,19 @@
 filename: boards-early-feature-opt-in
 content-type: reference
 navigation-topic: boards
-title: Consenso anticipato per  [!DNL Adobe Workfront] bacheche
+title: Consenso anticipato alle funzionalità per  [!DNL Workfront]  bacheche
 description: Leggi questo articolo per saperne di più sul consenso anticipato alle funzioni  [!DNL Workfront Boards] .
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 3706921e4705a05d9d1fa18a3d242632b5e0616b
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 0%
 
 ---
 
-# Consenso anticipato alle funzionalità per [!DNL Adobe Workfront] [!UICONTROL Bacheche]
+# Consenso anticipato alle funzionalità per [!DNL Workfront] [!UICONTROL Bacheche]
 
 La funzionalità opt-in anticipata per [!DNL Adobe Workfront] [!UICONTROL Bacheche] è stata avviata a luglio 2022.
 

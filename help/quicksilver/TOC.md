@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: bcabc57ace3c10f471139ebfb23be472758750be
 workflow-type: tm+mt
-source-wordcount: '14318'
+source-wordcount: '14317'
 ht-degree: 2%
 
 ---
@@ -1017,7 +1017,7 @@ ht-degree: 2%
    * [Panoramica delle schede](agile/boards-overview.md)
    * Introduzione alle bacheche in Adobe Workfront {#boards-in-workfront}
       * [Introduzione alle bacheche: indice degli articoli](agile/get-started-with-boards/get-started-with-boards.md)
-      * [Dimostrazioni video delle bacheche Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
+      * [Dimostrazioni video di schede madri Workfront](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
       * [Consenso anticipato alle funzioni delle bacheche](agile/get-started-with-boards/boards-early-feature-opt-in.md)
       * [Utilizzare il dashboard delle bacheche](agile/get-started-with-boards/use-boards-page.md)
       * [Creare o modificare una bacheca](agile/get-started-with-boards/create-edit-board.md)

@@ -2,14 +2,14 @@
 content-type: reference
 product-area: agile-and-teams
 navigation-topic: boards
-title: Utilizza l’elenco delle schede
+title: Utilizzare l’elenco delle schede
 description: È possibile creare un elenco di schede in un flusso di lavoro e aggiungere le schede alle iterazioni.
 author: Lisa
 feature: Agile
 exl-id: 2976f7e8-be84-4d27-9d70-8430392d5331
-source-git-commit: d44eb048103e469bc072cc5287947fea471668b3
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -26,24 +26,32 @@ L’elenco delle schede può fungere da backlog di lavoro per il flusso di lavor
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] piano*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>[!UICONTROL Request] o versione successiva</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
+   <td> 
+   <p>Nuovo: [!UICONTROL Contributor] o versione successiva</p> 
+   <p>oppure</p>
+   <p>Corrente: [!UICONTROL Request] o versione successiva</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
+
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Aggiungi schede all’elenco delle schede
 

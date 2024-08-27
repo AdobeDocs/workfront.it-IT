@@ -7,9 +7,9 @@ description: Facoltativamente, puoi aggiungere alla bacheca una colonna di acqui
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 14448432922ec1fa478b805dead2ba1e6c211e86
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1094'
 ht-degree: 3%
 
 ---
@@ -46,30 +46,37 @@ Per ulteriori informazioni sulle colonne, vedere [Gestisci colonne bacheca](/hel
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] piano*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>[!DNL Request] o superiore</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
+   <td> 
+   <p>Nuovo: [!UICONTROL Contributor] o versione successiva</p> 
+   <p>oppure</p>
+   <p>Corrente: [!UICONTROL Request] o versione successiva</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Creare una colonna di acquisizione utilizzando filtri semplici
 
-1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **[!UICONTROL Bacheche]**.
+{{step1-to-boards}}
+
 1. Accedi a una bacheca. Per informazioni, consulta [Creare o modificare una bacheca](../../agile/get-started-with-boards/create-edit-board.md).
 1. Fai clic su **[!UICONTROL Configura]** a destra della bacheca per aprire il pannello Configura.
 1. Espandi **[!UICONTROL Bacheca]**.
@@ -95,7 +102,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Creare una colonna di acquisizione utilizzando filtri avanzati
 
-1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **[!UICONTROL Bacheche]**.
+{{step1-to-boards}}
+
 1. Accedi a una bacheca. Per informazioni, consulta [Creare o modificare una bacheca](../../agile/get-started-with-boards/create-edit-board.md).
 1. Fai clic su **[!UICONTROL Configura]** a destra della bacheca per aprire il pannello Configura.
 1. Espandi **[!UICONTROL Bacheca]**.

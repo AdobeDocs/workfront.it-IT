@@ -6,9 +6,9 @@ description: Le persone devono essere aggiunte alla bacheca come membri prima ch
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
@@ -19,30 +19,37 @@ Persone e team devono essere aggiunti alla bacheca come membri prima che possano
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] piano*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>[!UICONTROL Request] o versione successiva</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
+   <td> 
+   <p>Nuovo: [!UICONTROL Contributor] o versione successiva</p> 
+   <p>oppure</p>
+   <p>Corrente: [!UICONTROL Request] o versione successiva</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Aggiungere membri a una bacheca
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe] Workfront, quindi fai clic su **[!UICONTROL Bacheche]**.
+{{step1-to-boards}}
+
 1. Crea una nuova bacheca o modificane una esistente. Per informazioni, consulta [Creare o modificare una bacheca](../../agile/get-started-with-boards/create-edit-board.md).
 1. Fare clic sull&#39;icona **[!UICONTROL Aggiungi membro]** ![Aggiungi membri](assets/boards-addmember-spectrum-25x25.png).
 1. Nella casella **[!UICONTROL Aggiungi membri]**, inizia a digitare un nome, quindi selezionalo quando viene visualizzato nell&#39;elenco.
@@ -58,7 +65,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Rimuovere membri da una bacheca
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe] Workfront, quindi fai clic su **[!UICONTROL Bacheche]**.
+{{step1-to-boards}}
+
 1. Crea una nuova bacheca o modificane una esistente. Per informazioni, consulta [Creare o modificare una bacheca](../../agile/get-started-with-boards/create-edit-board.md).
 1. Fare clic sull&#39;icona **[!UICONTROL Aggiungi membro]** ![Aggiungi membri](assets/boards-addmember-spectrum-25x25.png).
 1. Nella casella **[!UICONTROL Aggiungi membri]** fare clic sulla X accanto al nome di una persona o di un team per rimuoverli dalla bacheca.

@@ -9,10 +9,10 @@ description: Puoi utilizzare il connettore per schede madri Adobe Workfront per 
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: 7003ea4b6daba68957ef0ec501ecfd4a8d750d4c
+source-git-commit: 0b7b63df57c9e99fb782c59af55d1165283dd634
 workflow-type: tm+mt
-source-wordcount: '2591'
-ht-degree: 1%
+source-wordcount: '2631'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Questo connettore è attualmente in Beta.
+>Il connettore Boards Fusion è in stato beta. Di conseguenza, il supporto per questo connettore è limitato e potrebbe cambiare a causa del futuro sviluppo di schede madri. Inoltre, potrebbero esserci modifiche all’API di GraphQL senza preavviso che potrebbero influire sul processo del connettore Fusion.
 
 Le bacheche Adobe Workfront sono strumenti flessibili che consentono la collaborazione in team fornendo l’accesso a una bacheca condivisa contenente colonne e schede.
 
