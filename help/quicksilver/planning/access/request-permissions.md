@@ -3,9 +3,9 @@ title: Richiedere le autorizzazioni per una visualizzazione o un Workspace
 description: È possibile richiedere le autorizzazioni per una visualizzazione o un'area di lavoro a cui altri utenti ti hanno inviato un collegamento che non è stato condiviso in precedenza con te.
 hidefrontoc: true
 hide: true
-source-git-commit: 18183b53c783366f467e7330159923372b51deb6
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '504'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ title: Request Permissions to a View or a Workspace
 description: You can request permissions to a view or a workspace that others sent you a link to which has not been previously shared with you. 
 author: Alina
 feature: Workfront Planning
-role: User
+role: User, Admin
 ---
 -->
 
@@ -27,6 +27,8 @@ role: User
 # Richiedere le autorizzazioni per una visualizzazione o un’area di lavoro
 
 È possibile richiedere le autorizzazioni per una visualizzazione o un&#39;area di lavoro a cui altri utenti ti hanno inviato un collegamento che non è stato condiviso in precedenza con te.
+
+La richiesta delle autorizzazioni per una visualizzazione è simile alla richiesta delle autorizzazioni per un&#39;area di lavoro.
 
 ## Requisiti di accesso
 
@@ -86,8 +88,10 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
-   <td>  <p>Gestire le autorizzazioni per una visualizzazione</p>  
-   <p>Solo gli utenti con le autorizzazioni di gestione di un’area di lavoro possono condividere una visualizzazione pubblicamente.</p></td> 
+   <td>  <p>Dopo aver concesso la richiesta di autorizzazione, puoi ottenere le seguenti autorizzazioni:</p>
+   <ul><li><p>Visualizzare o gestire una visualizzazione</p></li>
+   <li><p>Visualizzare, Contribute o gestire in un’area di lavoro</p></li></ul>  
+   <p>Solo gli utenti con le autorizzazioni di gestione per un’area di lavoro e una visualizzazione possono condividere una visualizzazione pubblicamente.</p></td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Modello di layout</p></td> 
@@ -100,20 +104,32 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
 
 +++
 
-## Richiedere e concedere autorizzazioni per una visualizzazione o un&#39;area di lavoro
+## Richiedere le autorizzazioni per una visualizzazione o un’area di lavoro
 
-Quando qualcuno condivide con te un collegamento a un’area di lavoro o a una vista a cui non hai accesso, si verifica lo scenario seguente:
+La richiesta di autorizzazioni per una visualizzazione è simile alla richiesta di autorizzazioni per un&#39;area di lavoro.
+
+Quando qualcuno condivide con te un collegamento a un’area di lavoro o a una visualizzazione a cui non hai accesso:
 
 1. Fai clic sul collegamento condiviso con te per la visualizzazione o l’area di lavoro.
 
    Viene visualizzata una pagina di **Accesso negato** per informare che non si dispone dell&#39;accesso alla visualizzazione o all&#39;area di lavoro.
 
+   ![](assets/request-access-to-view.png)
+
 1. (Condizionale) Se il collegamento condiviso è per una visualizzazione di un&#39;area di lavoro a cui hai accesso, fai clic su **Apri con visualizzazione esistente**. Se si dispone delle autorizzazioni di accesso all&#39;area di lavoro, la pagina del tipo di record viene visualizzata nella visualizzazione predefinita.
 
-1. (Facoltativo) Aggiungi un messaggio personalizzato nella casella disponibile.
+1. (Facoltativo e condizionale) Se non disponi delle autorizzazioni necessarie per visualizzare l&#39;area di lavoro, aggiungi un messaggio personalizzato nella casella disponibile, quindi fai clic su **Richiedi accesso**.
 
-1. Fai clic su **Richiedi accesso**.
+   Tutti gli utenti con autorizzazioni di gestione per la visualizzazione o l’area di lavoro ricevono le notifiche seguenti per la richiesta di accesso:
+   * Una notifica in-app
+     ![](assets/in-app-notification-for-access-request.png)
+   * Una notifica e-mail
+     ![](assets/email-notification-for-access-request.png)
 
-   Tutti gli utenti con autorizzazioni Manage (Gestione) per la visualizzazione o l’area di lavoro ricevono una notifica e-mail per la richiesta.
-1. Gli utenti che hanno ricevuto la notifica e-mail per la richiesta di accesso accedono alla vista o all’area di lavoro e ti concedono le autorizzazioni.
-1. Ricevi una notifica e-mail con la quale ti viene notificato che ti è stato concesso l’accesso alla vista o all’area di lavoro. Puoi accedere alla vista o all’area di lavoro dalla notifica e-mail.
+   Per informazioni sulla concessione di autorizzazioni per visualizzazioni e aree di lavoro, vedere gli articoli seguenti:
+
+   * [Condividere le visualizzazioni](/help/quicksilver/planning/access/share-views.md)
+   * [Condividere le aree di lavoro](/help/quicksilver/planning/access/share-workspaces.md)
+1. (Facoltativo) Quando il gestore della visualizzazione o dell’area di lavoro concede le autorizzazioni per la visualizzazione o l’area di lavoro, viene inviata una notifica e-mail con la conferma che le autorizzazioni sono state concesse o negate. <!--check this - I was not able to test this-->
+
+

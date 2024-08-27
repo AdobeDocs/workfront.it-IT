@@ -1,28 +1,17 @@
 ---
-title: Connetti tipi di record
+title: Collega tipi di record
 description: Un modo per indicare la correlazione tra i singoli tipi di record consiste nel collegarli. Inoltre, è possibile collegare i tipi di record di Adobe Workfront Planning con i tipi di oggetto di altre applicazioni per migliorare l'esperienza degli utenti e mantenere lo stato attivo in un'unica applicazione.
-hidefromtoc: true
-hide: true
-recommendations: noDisplay, noCatalog
+feature: Workfront Planning
+role: User
+author: Alina
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: 743dbef27149f42ee2328e45a76be660657a75bb
 workflow-type: tm+mt
 source-wordcount: '2137'
 ht-degree: 1%
 
 ---
 
-<!-----
-title: Connect record types
-description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Adobe Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application.
-hidefromtoc: yes
-hide: yes
-feature: Work management
-role: User
-author: Alina
---->
-
-<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Connetti tipi di record
 
@@ -46,8 +35,6 @@ Per un esempio di connessione di tipi di record e record, vedere [Esempio di con
 <!--ensure this last linked article is right; the title and the link should have changed-->
 
 ## Requisiti di accesso
-
-<!--Updated for GA-->
 
 +++ Espandere per visualizzare i requisiti di accesso per Workfront Planning.
 

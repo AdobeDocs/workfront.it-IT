@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '309'
 ht-degree: 1%
 
 ---
@@ -30,8 +30,8 @@ Nella tabella seguente vengono illustrati i limiti per il numero di oggetti che 
 | Numero di sezioni per un’area di lavoro | 50 |
 | Numero di tipi di record per un&#39;area di lavoro | 1.000 (sono inclusi i tipi di record di tutte le sezioni e quelli creati quando si utilizza un modello di workspace) |
 | Numero di record per un tipo di record | 25.000 |
-| Numero di record per un&#39;area di lavoro | 25.000 per i clienti con il piano Planning <br> 500.000 per i clienti con il piano Planning Plus |
-| Numero di record totali per un&#39;istanza di tipo Workfront Planning | 500.000 per i clienti con il piano Planning <br>2 milioni per i clienti con il piano Planning Plus |
+| Numero di record per un&#39;area di lavoro | 25.000 per i clienti con Planning <br> 500.000 per i clienti con Planning Plus |
+| Numero di record totali per un&#39;istanza di Workfront Planning | 500.000 per i clienti con il piano di pianificazione <br>2 milioni per i clienti con Planning Plus |
 | Numero di campi per un tipo di record o una tassonomia | 500 |
 | Numero di caratteri per un campo di testo | 1.000 caratteri |
 | Dimensione del file che è possibile incollare in una tabella del tipo di record | 1 MB |
