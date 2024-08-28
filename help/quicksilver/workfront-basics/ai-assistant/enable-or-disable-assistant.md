@@ -5,23 +5,14 @@ description: Puoi controllare quali livelli di accesso nell’organizzazione han
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
+source-git-commit: eee21282e894137df32e3d23e7affcc0f43abd02
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '228'
 ht-degree: 1%
 
 ---
 
 # Attivare o disattivare l&#39;Assistente AI
-
->[!IMPORTANT]
->
->Al momento, AI Assistant è disponibile per un numero limitato di clienti Workfront e Workfront Planning.
->
->* Workfront: versione beta di AI Assistant
->* Pianificazione Workfront: accesso anticipato
->
->Il rappresentante del tuo account può informarti se fai parte di uno di questi gruppi.
 
 In qualità di amministratore di Workfront, puoi controllare quali utenti dell’organizzazione dispongono di Assistente AI abilitato. Questo viene gestito tramite i livelli di accesso.
 
@@ -62,7 +53,7 @@ Per abilitare l&#39;Assistente AI per un determinato livello di accesso:
 
 1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic sull&#39;icona **[!UICONTROL Setup]** ![Setup](/help/_includes/assets/gear-icon-setup.png).
 1. Seleziona **Livelli di accesso** nel menu di navigazione a sinistra.
-1. Selezionare il livello di accesso per il quale si desidera disabilitare l&#39;Assistente AI.
+1. Selezionare il livello di accesso per il quale si desidera abilitare l&#39;Assistente AI.
 1. Nella finestra Modifica livello di accesso, scorri verso il basso fino alla parte inferiore della finestra e fai clic su **Imposta restrizioni aggiuntive...**.
 1. Nell&#39;area Imposta restrizioni aggiuntive, abilitare l&#39;opzione **Abilita l&#39;Assistente di Workfront AI**.
 1. Fai clic su **Salva**.
