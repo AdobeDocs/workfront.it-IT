@@ -8,9 +8,8 @@ description: La funzionalità di promozione dell’ambiente ha lo scopo di conse
 author: Becky
 feature: System Setup and Administration
 role: Admin
-recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 706c27e611b1bd1e1c06eb3fd2e59ad0f55a6157
+source-git-commit: e9df34c206dd65ccc2edec00087248eb4ed16f54
 workflow-type: tm+mt
 source-wordcount: '1009'
 ht-degree: 1%
@@ -95,7 +94,7 @@ Poiché la promozione dell’ambiente riguarda la configurazione dell’oggetto,
 | Percorso milestone (MPATH) | Percorso milestone<br>Milestone |
 | Timesheet Ricorrente (TSPRO) | Tipo di Profilo<br>Ora Scheda Orario |
 | Tipo di Ora (HOURT) | Tipo di ora |
-| Tipo di spesa (EXPTYP) | Tipo di Spesa |
+| Tipo di spesa (EXPTYP) | Tipo di spesa |
 | Tipo di rischio (RSKTYP) | Tipo Rischio |
 | Pool di Risorse (RSPL) | Gruppo di risorse |
 

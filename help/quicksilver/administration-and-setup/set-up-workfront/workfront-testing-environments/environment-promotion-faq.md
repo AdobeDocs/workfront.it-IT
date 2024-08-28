@@ -8,10 +8,10 @@ description: Esplora le domande frequenti sulla promozione dell’ambiente Workf
 author: Becky
 feature: System Setup and Administration
 role: Admin
-recommendations: noDisplay, noCatalog
-source-git-commit: e2150f344ddc8626389afaaccc7c394f61c2dbc9
+exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
+source-git-commit: 2bbfd449d913a5134c9c36b1ee10567973c56eaa
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '301'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ La promozione dell’ambiente tra più domini non è attualmente supportata. Dev
 
 ### Risposta
 
-No. La promozione dell’ambiente è disponibile sia per le istanze IMS abilitate che per quelle non IMSWorkfront.
+No. La promozione dell’ambiente è disponibile sia per le istanze di Workfront IMS che per quelle non-IMS.
 
 ## Come possiamo sapere se la nostra istanza di Workfront è su licenza Prime o Ultimate?
 
@@ -73,4 +73,3 @@ Il rollback è una priorità assoluta ed è attualmente in fase di sviluppo. La 
 * &quot;Usa esistente&quot; equivale a &quot;ignorare&quot; o &quot;ignorare&quot; la distribuzione, perché viene mappato sull’oggetto esistente nell’ambiente di destinazione e non apporta modifiche.
 * Per ignorare gli oggetti, si consiglia di rimuovere
 tutti gli oggetti che non desideri installare dal pacchetto di promozione o direttamente dall’ambiente di origine. Dopo aver rimosso gli oggetti, riassemblate il pacchetto.
-
