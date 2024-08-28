@@ -4,11 +4,11 @@ navigation-topic: get-started-with-workfront
 title: Lingue supportate in Adobe Workfront
 description: Puoi modificare la lingua in cui vengono visualizzati Adobe Workfront e le e-mail provenienti da Workfront, regolando le preferenze di lingua sul browser e le impostazioni internazionali e-mail predefinite in Workfront.
 feature: Get Started with Workfront
-author: Caroline
+author: Nolan
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
+source-git-commit: cac27d995a1b5295e05ea1f67990b05f28b66211
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1071'
 ht-degree: 1%
 
 ---
@@ -116,7 +116,7 @@ La lingua del browser deve essere modificata su base individuale.
 
 Per informazioni specifiche su come modificare la lingua del browser, consultare il menu &quot;Aiuto&quot; del browser in uso.
 
-## Modificare la lingua di Adobe Experience Cloud
+### Modificare la lingua di Adobe Experience Cloud
 
 Se l’organizzazione utilizza IMS, la lingua del profilo Adobe Experience Cloud determina quella visualizzata in Workfront.
 
@@ -149,6 +149,10 @@ Per modificare le impostazioni internazionali predefinite per le e-mail di Workf
 ### Modifica impostazioni internazionali e-mail utente {#change-the-user-locale}
 
 Quando modifichi le impostazioni internazionali dell’e-mail utente, puoi modificare la lingua, la data e il formato del numero utilizzati nei messaggi in uscita. Queste impostazioni sostituiscono le impostazioni di sistema selezionate nell&#39;area Informazioni cliente di Configura.
+
+>[!NOTE]
+>
+>Quando la tua organizzazione utilizza l’esperienza unificata di Adobe, le preferenze della lingua vengono memorizzate nel profilo dell’Adobe e le impostazioni locali dell’e-mail non vengono utilizzate. Vedi [Modificare la lingua di Adobe Experience Cloud](#change-the-adobe-experience-cloud-language) in questo articolo.
 
 Per modificare le impostazioni internazionali dell&#39;e-mail utente:
 

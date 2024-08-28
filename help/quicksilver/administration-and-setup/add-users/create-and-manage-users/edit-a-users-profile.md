@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
+source-git-commit: 1e70620514f180d547c61970c0dd49d281377ce5
 workflow-type: tm+mt
-source-wordcount: '3297'
+source-wordcount: '3336'
 ht-degree: 0%
 
 ---
@@ -111,8 +111,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
       <td role="rowheader">Preferenze </td> 
       <td> 
        <ul> 
-      <li> <p><b>Fuso orario:</b> Fuso orario dell'utente.</p> <p>Per informazioni su come aiutare gli utenti a collaborare in Workfront con fusi orari diversi, consulta <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Lavorare con fusi orari diversi</a>.</p> </li> 
-       <li><b>Impostazioni locali e-mail</b>: impostazioni locali e-mail preferite dall'utente. Questo influisce sul formato dei numeri e delle date nelle e-mail inviate da Workfront a questo utente.</li>
+      <li> <p><b>Fuso orario:</b> Fuso orario dell'utente.</p> <p>Per informazioni su come aiutare gli utenti a collaborare in Workfront con fusi orari diversi, consulta <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Lavorare con fusi orari diversi</a>.</p> </li>
+
+   <li><p><b>Impostazioni locali e-mail</b>: impostazioni locali e-mail preferite dall'utente. Questo influisce sul formato dei numeri e delle date nelle e-mail inviate da Workfront a questo utente.</p>
+      <p><b>NOTA:</b> quando l'organizzazione si trova nell'esperienza unificata Adobe, le preferenze di lingua dell'utente vengono memorizzate nel profilo di Adobe e le impostazioni locali dell'e-mail non vengono utilizzate. Per informazioni sull'accesso a queste preferenze, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p></li>
 
    <li><b>Ricevi e-mail da questo ambiente di test</b>: seleziona questa opzione se desideri ricevere notifiche e-mail dall'ambiente in cui hai effettuato l'accesso.
       <p><b>NOTA</b></p>
