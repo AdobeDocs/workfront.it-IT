@@ -7,10 +7,10 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
+source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 17%
+source-wordcount: '86'
+ht-degree: 16%
 
 ---
 
@@ -29,4 +29,5 @@ Questa sezione contiene le seguenti sottosezioni:
 * [Concedere e richiedere autorizzazioni agli oggetti](../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
 * [Gestione dell&#39;account e del profilo](../workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md)
 * [App mobili](../workfront-basics/mobile-apps/mobile-apps.md)
+* [Assistente AI in Workfront](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
 * [Suggerimenti, trucchi e risoluzione dei problemi per le nozioni di base di Adobe Workfront](../workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
