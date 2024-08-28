@@ -1,25 +1,25 @@
 ---
 content-type: reference
 product-area: reports and dashboards
-navigation-topic: data lake
+navigation-topic: data connect
 title: Creazione di un account di lettura (servizio) per il Snowflake
-description: Per accedere ai dati nel Data Lake di Workfront, devi innanzitutto creare un account di lettura per il Snowflake.
+description: Per accedere ai dati di Data Connect, è necessario innanzitutto creare un account lettore di Snowflake.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
+source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
 
 # Creazione di un account di lettura (servizio) per il Snowflake
 
-Per accedere ai dati del data lake di Workfront, devi prima creare un account di lettura del Snowflake (o servizio) per ogni nuova connessione. Dopo aver creato una connessione, puoi trovare l&#39;URL e il nome utente associati facendo clic su di esso nella pagina **Accesso ai dati** (**Menu principale** > **Configurazione** > **Sistema** > **Accesso ai dati**) nella scheda **Connessioni esistenti**.
+Per accedere ai dati di Data Connect, è necessario innanzitutto creare un account lettore di Snowflake (o servizio) per ogni nuova connessione. Dopo aver creato una connessione, puoi trovare l&#39;URL e il nome utente associati facendo clic su di esso nella pagina **Accesso ai dati** (**Menu principale** > **Configurazione** > **Sistema** > **Accesso ai dati**) nella scheda **Connessioni esistenti**.
 
-Per informazioni sull&#39;utilizzo di una connessione appena creata con un prodotto esterno, vedere [Stabilire una connessione al data lake di Workfront](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md).
+Per informazioni sull&#39;utilizzo di una connessione appena creata con un prodotto esterno, vedere [Stabilire una connessione a Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md).
 
 ## Requisiti di accesso
 
@@ -68,7 +68,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    ![Reimposta password Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
 
-1. Ora puoi utilizzare il tuo nome utente e la nuova password per accedere al tuo data lake Workfront in Snowflake o nello strumento di visualizzazione aziendale di tua scelta.
+1. Ora puoi utilizzare il tuo nome utente e la nuova password per accedere al data lake Data Connect in Snowflake o nello strumento di visualizzazione aziendale di tua scelta.
 
 ## Revoca di un account lettore
 

@@ -1,31 +1,31 @@
 ---
 content-type: reference
 product-area: reports and dashboards
-navigation-topic: data lake
-title: Dizionario dati Data Lake
-description: Questa pagina contiene informazioni sulla struttura e il contenuto dei dati nel data lake di Workfront.
+navigation-topic: data connect
+title: Dizionario dati Workfront Data Connect
+description: Questa pagina contiene informazioni sulla struttura e sul contenuto dei dati in Workfront Data Connect.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '726'
 ht-degree: 5%
 
 ---
 
-# dizionario dati del data lake di Workfront
+# Dizionario dati Workfront Data Connect
 
-Questa pagina contiene informazioni sulla struttura e il contenuto dei dati nel data lake di Workfront.
+Questa pagina contiene informazioni sulla struttura e sul contenuto dei dati in Workfront Data Connect.
 
 >[!NOTE]
 >
->I dati nel data lake di Workfront vengono aggiornati ogni quattro ore, pertanto le modifiche recenti potrebbero non essere applicate immediatamente.
+>I dati in Data Connect vengono aggiornati ogni quattro ore, pertanto le modifiche recenti potrebbero non essere applicate immediatamente.
 
 ## Tipi di tabella
 
-Esistono diversi tipi di tabelle che è possibile utilizzare per visualizzare i dati di Workfront in modo da fornire la maggior parte delle informazioni.
+Esistono diversi tipi di tabelle che è possibile utilizzare in Data Connect per visualizzare i dati di Workfront in modo da fornire la maggior parte delle informazioni.
 
 * **Tabella corrente**
 
@@ -43,9 +43,9 @@ Esistono diversi tipi di tabelle che è possibile utilizzare per visualizzare i 
 
 ## Diagramma relazioni entità
 
-Gli oggetti in Workfront (e, pertanto, nel data lake) sono definiti non solo dai singoli valori, ma anche dalle relazioni con altri oggetti. Il diagramma delle relazioni tra entità riportato di seguito fornisce una mappatura di alto livello delle relazioni tra oggetti nel data lake di Workfront. Il diagramma può essere visualizzato e scaricato utilizzando il seguente collegamento:
+Gli oggetti in Workfront (e, pertanto, nel data lake di Data Connect) sono definiti non solo dai singoli valori, ma anche dalle relazioni con altri oggetti. Il diagramma delle relazioni tra entità riportato di seguito fornisce una mappatura di alto livello delle relazioni tra oggetti in Data Connect. Il diagramma può essere visualizzato e scaricato utilizzando il seguente collegamento:
 
-[Diagramma delle relazioni delle entità del data lake di Workfront](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
+[Diagramma delle relazioni tra entità di Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
 
 >[!IMPORTANT]
 >
@@ -62,7 +62,7 @@ Esistono diversi oggetti data che forniscono informazioni su quando si verifican
 
 ## Tabella terminologica
 
-La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (così come i loro nomi nell’interfaccia e nell’API) con i loro nomi equivalenti nel data lake.
+La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (nonché i relativi nomi nell’interfaccia e nell’API) con i nomi equivalenti in Data Connect.
 
 <table>
 <thead>

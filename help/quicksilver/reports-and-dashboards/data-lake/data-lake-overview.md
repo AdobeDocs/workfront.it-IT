@@ -1,36 +1,36 @@
 ---
 content-type: overview;reference
 product-area: reports and dashboards
-navigation-topic: data lake
+navigation-topic: data connect
 title: Panoramica del data lake di Workfront
 description: Panoramica della funzionalità del data lake di Workfront
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
-source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
+source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
 
-# Panoramica del data lake di Workfront
+# Panoramica di Data Connect
 
-Il data lake di Workfront offre un accesso senza precedenti ai dati Workfront utilizzando la tecnologia di Snowflake, consentendo di rispondere a domande critiche e misurare il valore dei processi. Questa funzionalità consente ai clienti aziendali di interrogare i propri dati utilizzando strumenti di visualizzazione dei dati direttamente da un data lake di Workfront o di esportare i dati Workfront in data warehouse di proprietà del cliente.
+Data Connect offre un accesso senza precedenti ai dati Workfront utilizzando la tecnologia di Snowflake, consentendo di rispondere alle domande critiche e di misurare il valore dei processi. Questa funzionalità consente ai clienti aziendali di interrogare i propri dati utilizzando strumenti di visualizzazione dei dati direttamente da un data lake di Workfront o di esportare i dati Workfront in data warehouse di proprietà del cliente.
 
-Gli abbonati potranno collegare il loro strumento di business intelligence di scelta (Tableau, Power BI, Domo, Looker, ecc.) al data lake di Workfront per creare visualizzazioni dati con i seguenti tipi di dati:
+Gli abbonati potranno collegare il loro strumento di business intelligence di scelta (Tableau, Power BI, Domo, Looker, ecc.) a Connessione dati per creare visualizzazioni dati con i seguenti tipi di dati:
 
 * Bassa latenza, dati dello stato corrente
 * Modificare i record di eventi per i confronti point-in-time
 * Snapshot cronologici giornalieri per l&#39;analisi delle tendenze
 
-## data lake di Workfront: indice articolo
+## Connessione dati: indice articolo
 
-Per ulteriori informazioni sul data lake di Workfront, vedi i seguenti articoli:
+Per ulteriori informazioni su Data Connect, vedere gli articoli seguenti:
 
-* [Informazioni beta del data lake di Workfront](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
+* [Informazioni sulla versione beta di Workfront Data Connect](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * [Creazione di un account di lettura (servizio) per il Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
-* [Stabilire una connessione al data lake di Workfront](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
-* [dizionario dati del data lake di Workfront](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)
-<!-- * [Basic Workfront data lake query examples](/help/quicksilver/reports-and-dashboards/data-lake/basic-query-examples.md) -->
+* [Stabilire una connessione a Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
+* [Dizionario dati Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)
+* [Esempi di query Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/basic-query-examples.md)
