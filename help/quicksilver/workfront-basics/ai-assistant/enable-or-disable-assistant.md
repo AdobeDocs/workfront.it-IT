@@ -5,7 +5,7 @@ description: Puoi controllare quali livelli di accesso nell’organizzazione han
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: eee21282e894137df32e3d23e7affcc0f43abd02
+source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 1%
@@ -58,3 +58,4 @@ Per abilitare l&#39;Assistente AI per un determinato livello di accesso:
 1. Nell&#39;area Imposta restrizioni aggiuntive, abilitare l&#39;opzione **Abilita l&#39;Assistente di Workfront AI**.
 1. Fai clic su **Salva**.
 1. Ripeti i passaggi 3-6 per ogni livello di accesso per il quale desideri abilitare l’assistente AI.
+

@@ -5,7 +5,7 @@ description: È possibile riepilogare rapidamente gli elementi di lavoro e i doc
 author: Becky
 feature: Get Started with Workfront
 exl-id: c7460e8f-a7ae-415a-8db0-29736e8be0f8
-source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
+source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -55,3 +55,4 @@ Per ottenere informazioni o istruzioni dalla documentazione di Workfront utilizz
 1. Visualizza la risposta nel pannello Assistente AI.
 1. (Facoltativo) Se la risposta non contiene le informazioni necessarie, perfeziona la risposta e riprova.
 1. (Facoltativo e condizionale) Se la risposta include un collegamento a un articolo di Adobe Experience League, fai clic sul collegamento per aprire l’articolo in una nuova finestra.
+
