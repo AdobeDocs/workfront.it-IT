@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
-title: Aggiungi attività o problemi esistenti alla bacheca Kanban
+title: Aggiungi attività o problemi esistenti al Kanban Board
 description: Puoi aggiungere qualsiasi attività o problema a una bacheca Kanban se disponi dell’accesso Gestisci al progetto.
 author: Lisa
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: 1b41124ce48826ac3e77915d8d41e71e59a5003e
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -22,36 +22,40 @@ Puoi aggiungere qualsiasi attività o problema a una bacheca [!UICONTROL Kanban]
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
+ </col> 
  <col> 
+ </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] piano*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] piano</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>[!UICONTROL Work] o versione successiva</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
-   <td> <p>[!UICONTROL Worker] o versione successiva</p> <p>Nota: se non disponi ancora dell'accesso, chiedi all'amministratore [!DNL Workfront] se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di [!DNL Workfront] può modificare il livello di accesso, vedere <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
+   <td> <p>Nuovo: [!UICONTROL Standard]</p> 
+   oppure
+   <p>Corrente: [!UICONTROL Work] o versione successiva</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Aggiungi attività o problemi esistenti alla bacheca Kanban
 
 Per aggiungere un&#39;attività o un problema a una bacheca [!UICONTROL Kanban]:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront].
+{{step1-click-main-menu}}
 
-1. Scegliere uno dei seguenti elementi: **[!UICONTROL Progetti]**, **[!UICONTROL Reporting]** o **[!UICONTROL Dashboard]**.
+1. Scegliere uno dei seguenti elementi: **[!UICONTROL Progetti]**, **[!UICONTROL Rapporti]** o **[!UICONTROL Dashboard]**.
 
 1. Vai al progetto, al report o al dashboard contenente l’attività o il problema che desideri aggiungere alla bacheca Kanban.
 1. Seleziona una o più attività o problemi.
@@ -60,7 +64,7 @@ Per aggiungere un&#39;attività o un problema a una bacheca [!UICONTROL Kanban]:
 
    >[!NOTE]
    >
-   >Se si aggiungono più team, l&#39;attività o il problema può essere visualizzato solo sulla bacheca [!DNL kanban] di un team. Questa è la bacheca scelta al punto 5.
+   >Se si aggiungono più team, l&#39;attività o il problema può essere visualizzato solo sulla bacheca [!DNL kanban] di un team. Questa è la bacheca scelta in precedenza.
 
 1. Se stai aggiungendo attività, fai clic su **[!UICONTROL Aggiungi storie]**.
 Oppure

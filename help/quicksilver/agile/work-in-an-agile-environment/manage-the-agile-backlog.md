@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: work-in-an-agile-environment
-title: Gestire il backlog agile
+title: Gestire il backlog Agile
 description: Le attività e i problemi possono essere assegnati a un team agile e aggiunti al backlog del team come storie, a seconda della metodologia agile utilizzata dal team.
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '1371'
+source-wordcount: '1360'
 ht-degree: 0%
 
 ---
@@ -39,20 +39,18 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] piano</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] piano</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza</strong></td> 
-   <td> <p>Nuovo: [!UICONTROL Standard]</p><p>Oppure</p><p>Corrente: [!UICONTROL Work] o versione successiva</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
+   <td> <p>Nuovo: [!UICONTROL Standard]</p> 
+   oppure
+   <p>Corrente: [!UICONTROL Work] o versione successiva</p> </td> 
+  </tr>
   <tr> 
-   <td role="rowheader"><strong>Configurazioni del livello di accesso</strong></td> 
-   <td> <p>Nuovo: [!UICONTROL Standard]</p><p>Oppure</p><p>Corrente: [!UICONTROL Worker] o versione successiva</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Accesso [!UICONTROL Gestisci] al progetto in cui si trova il brano</p>  </td> 
+   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td>Accesso [!UICONTROL Gestisci] al progetto in cui si trova il brano </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,7 +76,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    >
    >Se a un’attività o a un problema è assegnato un team agile e lo stato del progetto non è Corrente, il team non viene visualizzato nel backlog. Tuttavia, influiscono ancora sul conteggio del backlog nella colonna Ordine.
 
-1. Seleziona uno o più brani, quindi trascina i brani nell’ordine in cui desideri che vengano visualizzati nel backlog.\
+1. Seleziona uno o più brani, quindi trascina i brani nell’ordine in cui desideri che vengano visualizzati nel backlog.
    ![Trascina gli elementi del backlog](assets/agile-backlog-drag-and-drop.png)
 
 ### Suddividere storie {#break-down-stories}
@@ -96,8 +94,8 @@ Poiché le storie in un backlog hanno dimensioni diverse, gli utenti possono sud
 Per suddividere una storia:
 
 1. Vai al backlog contenente la storia che desideri scomporre.
-1. Seleziona la storia da scomporre, quindi fai clic su **[!UICONTROL Dettaglio]**.\
-   Viene visualizzata la finestra di dialogo [!UICONTROL Breakdown Story].\
+1. Seleziona la storia da scomporre, quindi fai clic su **[!UICONTROL Dettaglio]**.
+Viene visualizzata la finestra di dialogo [!UICONTROL Breakdown Story].
    ![Finestra di dialogo Breakdown Story](assets/backlog-breakdown-dialog.png)
 
 1. Specificate un nome e una stima per il brano, quindi selezionate se il brano è pronto.
@@ -186,12 +184,10 @@ Per assegnare un’attività o un problema a un team agile:
 1. (Facoltativo) Elimina eventuali assegnatari esistenti.
 1. Fai clic su **[!UICONTROL Aggiungi assegnatario]**.
 1. Inizia a digitare il nome del team Agile che desideri assegnare all’attività o al problema, quindi fai clic sul nome del team quando viene visualizzato nell’elenco a discesa.
-1. Fai clic su **[!UICONTROL Salva modifiche]**.\
-   L’attività o il problema è ora disponibile nel backlog del team.
+1. Fai clic su **[!UICONTROL Salva modifiche]**.
+L’attività o il problema è ora disponibile nel backlog del team.
 
-## Spostare i brani nel backlog o fuori di esso
-
-{#move-stories-from-the-backlog-to-an-iteration-or-kanban-board}
+## Spostare i brani nel backlog o fuori da esso
 
 * [Sposta le storie dal backlog a un’iterazione o a una bacheca +](#move-stories-from-the-backlog-to-an-iteration-or--board)
 * [Sposta i brani esistenti nel backlog](#move-existing-stories-to-the-backlog)
@@ -200,9 +196,9 @@ Per assegnare un’attività o un problema a un team agile:
 ### Sposta le storie dal backlog a un’iterazione o a una bacheca +
 
 1. Vai al backlog del team agile.
-1. Seleziona i brani da spostare in un&#39;iterazione o una bacheca Kanban, quindi fai clic su **[!UICONTROL Altro]** > **[!UICONTROL Sposta in]**.\
-   Se si sposta la storia in una bacheca [!UICONTROL Kanban], viene visualizzata la bacheca [!UICONTROL Move Story to the Kanban].\
-   Se si sposta il brano in un&#39;iterazione, viene visualizzata la finestra di dialogo [!UICONTROL Sposta brano in un&#39;iterazione].\
+1. Seleziona i brani da spostare in un&#39;iterazione o una bacheca Kanban, quindi fai clic su **[!UICONTROL Altro]** > **[!UICONTROL Sposta in]**.
+Se si sposta la storia in una bacheca [!UICONTROL Kanban], viene visualizzata la bacheca [!UICONTROL Move Story to the Kanban].
+Se si sposta il brano in un&#39;iterazione, viene visualizzata la finestra di dialogo [!UICONTROL Sposta brano in un&#39;iterazione].
    ![Finestra di dialogo Sposta storia](assets/agile-backlog-addtoiteration.png)
 
 1. Effettuare una delle seguenti operazioni:

@@ -2,13 +2,13 @@
 product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: Configura Kanban
-description: Crea un team agile Kanban o Scrum in [!DNL Adobe Workfront].
+description: Puoi configurare le seguenti opzioni per i team Kanban Agile durante o dopo la creazione del team.
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1498'
 ht-degree: 1%
 
 ---
@@ -46,26 +46,26 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] piano*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] piano</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
    <td> <p>Nuovo: [!UICONTROL Standard]</p> 
    oppure
    <p>Corrente: [!UICONTROL Work] o versione successiva</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">Livello di accesso</td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Modificare l’accesso ai team</p>  </td> 
   </tr>
 
 </tbody> 
 </table>
 
-*Per sapere quale piano o tipo di licenza si dispone, contattare l&#39;amministratore [!DNL Workfront].
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -148,7 +148,7 @@ Per configurare le schede delle storie assegnate al team Agile in modo da visual
 1. Fai clic sull&#39;icona **[!UICONTROL Switch Teams]** ![Switch Teams icon](assets/switch-team-icon.png), quindi seleziona un nuovo team dal menu a discesa o cerca un team nella barra di ricerca.
 
 1. Seleziona il team agile da gestire.
-1. Fai clic sul menu **[!UICONTROL Altro]**, quindi seleziona **[!UICONTROL Modifica]**.\
+1. Fai clic sul menu **[!UICONTROL Altro]**, quindi seleziona **[!UICONTROL Modifica]**.
 
    ![Modifica team](assets/edit-team-settings-350x205.png)
 
@@ -179,9 +179,9 @@ Per limitare WIP per il team Kanban:
 
 1. Nella sezione **[!UICONTROL Agile]** della sezione **[!UICONTROL Metodologia]** verificare che sia selezionato Kanban.
 
-1. Nella sezione **[!UICONTROL Storyboard]**, nel campo **[!UICONTROL Limite WIP]**, specifica il numero massimo di elementi consentiti in ogni colonna dello storyboard agile [!UICONTROL Kanban]. È possibile impostare un limite diverso per ogni colonna. Il limite massimo che è possibile impostare per ogni colonna è 100.\
-   Una volta impostato, il limite WIP visualizza un messaggio di avviso sullo storyboard agile [!UICONTROL Kanban] ogni volta che viene superato il limite per qualsiasi colonna dello storyboard. Questo messaggio di avviso viene visualizzato solo la prima volta che viene superato il limite WIP. Questo messaggio di avviso non viene visualizzato in alcuna colonna con uno stato corrispondente a [!UICONTROL Complete].\
-   Il limite WIP è semplicemente un&#39;avvertenza visiva e non impedisce al team di avere più elementi in una singola colonna rispetto al limite impostato.
+1. Nella sezione **[!UICONTROL Storyboard]**, nel campo **[!UICONTROL Limite WIP]**, specifica il numero massimo di elementi consentiti in ogni colonna dello storyboard agile [!UICONTROL Kanban]. È possibile impostare un limite diverso per ogni colonna. Il limite massimo che è possibile impostare per ogni colonna è 100.
+Una volta impostato, il limite WIP visualizza un messaggio di avviso sullo storyboard agile [!UICONTROL Kanban] ogni volta che viene superato il limite per qualsiasi colonna dello storyboard. Questo messaggio di avviso viene visualizzato solo la prima volta che viene superato il limite WIP. Questo messaggio di avviso non viene visualizzato in alcuna colonna con uno stato corrispondente a [!UICONTROL Complete].
+Il limite WIP è semplicemente un&#39;avvertenza visiva e non impedisce al team di avere più elementi in una singola colonna rispetto al limite impostato.
 
    ![Limite WIP](assets/wip-limit-350x193.png)
 

@@ -6,9 +6,9 @@ description: Adobe Workfront consente ai team agili di completare il lavoro in m
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1001'
 ht-degree: 1%
 
 ---
@@ -40,11 +40,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] piano*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] piano</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
    <td> <p>Nuovo: Standard</p>
    Corrente: 
    <ul><li><p>[!UICONTROL Plan] per creare un nuovo team agile</p></li> 
@@ -53,7 +53,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-Per conoscere il piano o il tipo di licenza disponibile, contattare l&#39;amministratore [!DNL Workfront].
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,14 +71,14 @@ La metodologia agile [!DNL Kanban] in [!DNL Workfront] consente di spostare più
 
 Le funzionalità seguenti supportano questa metodologia:
 
-* Visualizza il backlog nella bacheca delle storie agile di [!DNL Kanban].\
-   Per ulteriori informazioni, vedere [Aggiungere il backlog alla bacheca [!UICONTROL Kanban]](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md).
+* Visualizza il backlog nella bacheca delle storie agile di [!DNL Kanban].
+Per ulteriori informazioni, vedere [Aggiungere il backlog alla bacheca [!UICONTROL Kanban]](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md).
 
-* Configura gli elementi nel backlog da aggiungere automaticamente allo storyboard agile [!UICONTROL Kanban] quando gli altri elementi vengono spostati in uno stato che equivale a Complete.\
-   Per ulteriori informazioni, vedere la sezione [Configurare i brani da aggiungere automaticamente dal backlog](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) nell&#39;articolo [Configurare Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+* Configura gli elementi nel backlog da aggiungere automaticamente allo storyboard agile [!UICONTROL Kanban] quando gli altri elementi vengono spostati in uno stato che equivale a Complete.
+Per ulteriori informazioni, vedere la sezione [Configurare i brani da aggiungere automaticamente dal backlog](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) nell&#39;articolo [Configurare Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
-* Configurare un limite WIP (Work In Progress) da visualizzare sullo storyboard agile [!UICONTROL Kanban].\
-   Per ulteriori informazioni, vedere [Gestire il limite WIP (Work In Progress) sulla bacheca Kanban](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
+* Configurare un limite WIP (Work In Progress) da visualizzare sullo storyboard agile [!UICONTROL Kanban].
+Per ulteriori informazioni, vedere [Gestire il limite WIP (Work In Progress) sulla bacheca Kanban](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
 
 ### Vantaggi dell&#39;utilizzo di Scrum in [!DNL Workfront]
 
@@ -89,8 +89,8 @@ Le funzionalità seguenti supportano questa metodologia:
 * Includi problemi nello storyboard [!UICONTROL Scrum]
 * Includi problemi nel backlog di un team Agile
 * Le sottoattività possono essere visualizzate sullo storyboard [!UICONTROL Scrum]
-* Visualizza un grafico a burn-down per visualizzare i progressi rispetto alle storie durante l’iterazione\
-   Per ulteriori informazioni, vedere [Panoramica del grafico a burn-down Agile](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md).
+* Visualizza un grafico a burn-down per visualizzare i progressi rispetto alle storie durante l’iterazione
+Per ulteriori informazioni, vedere [Panoramica del grafico a burn-down Agile](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md).
 
 ## Creare un team agile
 
@@ -150,19 +150,21 @@ Le funzionalità seguenti supportano questa metodologia:
 
 Puoi convertire un team esistente in un team agile:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Team]**.
+{{step1-to-team}}
+
 1. Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Cambia team icona](assets/switch-team-icon.png), quindi seleziona un nuovo team dal menu a discesa o cerca un team nella barra di ricerca.
 
 1. Seleziona il team da convertire in un team Agile.
-1. Fai clic sul menu **[!UICONTROL Altro]**, quindi seleziona **[!UICONTROL Modifica]**.\
-   Solo i membri del team con una licenza di [!UICONTROL Piano] o [!UICONTROL Lavoro] possono visualizzare questa opzione.\
+1. Fai clic sul menu **[!UICONTROL Altro]**, quindi seleziona **[!UICONTROL Modifica]**.
+
+   Solo i membri del team con una licenza [!UICONTROL Standard], [!UICONTROL Piano] o [!UICONTROL Lavoro] possono vedere questa opzione.
    ![](assets/edit-team-settings-350x205.png)
 
 1. Nella sezione **[!UICONTROL Agile]**, seleziona **[!UICONTROL Questo è un team Agile]**.
 
 1. Nella sezione **[!UICONTROL Metodologia]**, seleziona se il team utilizzerà una metodologia agile **[!UICONTROL Scrum]** o **[!UICONTROL Kanban]**.
 
-1. Fai clic su **Salva modifiche.**
+1. Fai clic su **Salva modifiche**.
 
    Il team viene salvato come team Agile. È possibile configurare il nuovo team come Scrum o Kanban quando si modifica il team.
 

@@ -6,9 +6,9 @@ description: Le iterazioni sono un componente chiave per i team agili Scrum nell
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Le iterazioni sono un componente chiave per i team agili Scrum nella pianificazi
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
@@ -28,27 +30,31 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] piano*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] piano</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>[!UICONTROL Review] o versione successiva</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
+   <td> <p>Nuovo: [!UICONTROL Light] o versione successiva</p> 
+   oppure
+   <p>Corrente: [!UICONTROL Review] o versione successiva</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano o il tipo di licenza disponibile, contattare l&#39;amministratore [!DNL Workfront].
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Aggiungi un’iterazione
 
 Utilizza la funzione [!UICONTROL Aggiungi iterazione] per creare rapidamente un&#39;iterazione e aggiungere attività e problemi in un secondo momento.
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Team]**.
+{{step1-to-team}}
 
 1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Cambia team](assets/switch-team-icon.png), quindi seleziona un nuovo team Scrum dal menu a discesa o cerca un team nella barra di ricerca.
 
-1. Nella scheda **[!UICONTROL Iterazioni]**, fare clic su **[!UICONTROL Aggiungi iterazione]**.\
+1. Nella scheda **[!UICONTROL Iterazioni]**, fare clic su **[!UICONTROL Aggiungi iterazione]**.
    ![](assets/add-iteration-adobe-350x275.png)
 
 1. Specifica quanto segue:
@@ -90,7 +96,7 @@ Utilizza la funzione [!UICONTROL Aggiungi iterazione] per creare rapidamente un&
 
 Utilizza la funzione [!UICONTROL Iterazione piano] per creare un&#39;iterazione utilizzando le attività nel backlog.
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Team]**.
+{{step1-to-team}}
 
 1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Cambia team](assets/switch-team-icon.png), quindi seleziona un nuovo team Scrum dal menu a discesa o cerca un team nella barra di ricerca.
 
@@ -129,10 +135,10 @@ Utilizza la funzione [!UICONTROL Iterazione piano] per creare un&#39;iterazione 
     </tbody> 
    </table>
 
-1. (Facoltativo) Seleziona i brani per aggiungerli ora all&#39;iterazione oppure puoi saltare questo passaggio e aggiungerli a un&#39;iterazione in un secondo momento. Le storie nella parte superiore del backlog hanno priorità più alta. Le storie vengono evidenziate in verde quando rientrano nella loro capacità; in caso contrario vengono evidenziate in rosso.\
-   È possibile aggiungere sia attività che problemi a una singola iterazione:
+1. (Facoltativo) Seleziona i brani per aggiungerli ora all&#39;iterazione oppure puoi saltare questo passaggio e aggiungerli a un&#39;iterazione in un secondo momento. Le storie nella parte superiore del backlog hanno priorità più alta. Le storie vengono evidenziate in verde quando rientrano nella loro capacità; in caso contrario vengono evidenziate in rosso.
+È possibile aggiungere sia attività che problemi a una singola iterazione:
 
-   * **Per aggiungere attività all&#39;iterazione:** Nella scheda **[!UICONTROL Backlog]**, verificare che sia selezionata la scheda **[!UICONTROL Storie]** (questa scheda è selezionata per impostazione predefinita durante la visualizzazione del backlog). Selezionare i brani da aggiungere all&#39;iterazione.\
+   * **Per aggiungere attività all&#39;iterazione:** Nella scheda **[!UICONTROL Backlog]**, verificare che sia selezionata la scheda **[!UICONTROL Storie]** (questa scheda è selezionata per impostazione predefinita durante la visualizzazione del backlog). Selezionate i brani da aggiungere all&#39;iterazione.
 
      Quando si aggiungono attività a un&#39;iterazione, la data di inizio dell&#39;attività viene calcolata come descritto in [[!UICONTROL Comprendere] come vengono calcolate le date di inizio dell&#39;attività quando questa viene aggiunta a un&#39;iterazione](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
 
@@ -151,4 +157,4 @@ Quando si aggiunge un&#39;attività come brano a un&#39;iterazione, per ogni bra
 
 Viene utilizzata la [!UICONTROL Data di fine progetto] al posto della   se la data di inizio del progetto è successiva alla data di inizio dell&#39;iterazione e la data di fine del progetto è successiva a tale data.
 
-È possibile configurare singoli team Scrum in modo che utilizzino le date del progetto per impostazione predefinita, anziché le date di iterazione. Per informazioni, vedere la sezione [Configurare le modalità di applicazione delle date durante l&#39;aggiunta di elementi di lavoro a un&#39;iterazione](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) nell&#39;articolo [Configurare Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+È possibile configurare singoli team Scrum in modo che utilizzino le date del progetto per impostazione predefinita, anziché le date di iterazione. Per informazioni, vedere la sezione [Configurare le modalità di applicazione delle date durante l&#39;aggiunta di elementi di lavoro a un&#39;iterazione](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) nell&#39;articolo [Configurare Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).

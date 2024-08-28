@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: burndown
-title: Ridimensionare e comprimere il grafico a dispersione
+title: Ridimensionare e comprimere il grafico Burndown
 description: È possibile ridimensionare o comprimere il grafico a bruciatura per regolare lo spazio occupato sullo storyboard.
 author: Lisa
 feature: Agile
 exl-id: ad7ea883-987a-4278-8d24-7c1dd4e542a3
-source-git-commit: 094a9d453476418cbe1b065930eb3a179e4cf73a
+source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ Qualsiasi modifica apportata alle dimensioni o alla visibilità del grafico a bu
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
@@ -30,31 +32,35 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] piano*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] piano</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>[!UICONTROL Review] o versione successiva</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
+   <td> <p>Nuovo: [!UICONTROL Light] o versione successiva</p> 
+   oppure
+   <p>Corrente: [!UICONTROL Review] o versione successiva</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano o il tipo di licenza disponibile, contattare l&#39;amministratore [!DNL Workfront].
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Ridimensionare il grafico a dispersione
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Team]**.
+{{step1-to-team}}
 
 1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Cambia team](assets/switch-team-icon.png), quindi seleziona un nuovo team [!UICONTROL Scrum] dal menu a discesa o cerca un team nella barra di ricerca.
 
 1. Passare all&#39;iterazione contenente il grafico a burn-down che si desidera ridimensionare.
-1. Passa il puntatore del mouse sulla linea inferiore del grafico a burn-down, quindi trascina il grafico fino a ottenere le dimensioni desiderate.\
+1. Passa il puntatore del mouse sulla linea inferiore del grafico a burn-down, quindi trascina il grafico fino a ottenere le dimensioni desiderate.
    ![](assets/burndown-resize.png)
 
 ## Comprimi il grafico a dispersione
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Team]**.
+{{step1-to-team}}
 
 1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Cambia team](assets/switch-team-icon.png), quindi seleziona un nuovo team [!UICONTROL Scrum] dal menu a discesa o cerca un team nella barra di ricerca.
 

@@ -2,12 +2,12 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: burndown
-title: Panoramica del grafico a burn-down Agile
+title: Panoramica del grafico Burndown Agile
 description: Il grafico burndown fornisce una rappresentazione visiva dell'avanzamento delle storie nell'iterazione o nel progetto. Il tasso di burndown effettivo viene misurato rispetto al tasso di burndown ideale per l’iterazione o la timeline del progetto.
 author: Lisa
 feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
-source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 0%
