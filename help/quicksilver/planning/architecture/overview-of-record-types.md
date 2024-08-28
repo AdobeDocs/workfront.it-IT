@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Per informazioni sulla creazione di tipi di record, vedere [Creare tipi di recor
 * Quando si crea un tipo di record in un&#39;area di lavoro creata da zero, è possibile inserire il tipo di record in qualsiasi sezione creata nell&#39;area di lavoro.
 * Quando si crea un tipo di record, solo l&#39;utente e coloro ai quali sono state assegnate le autorizzazioni di accesso all&#39;area di lavoro possono visualizzare il tipo di record.
 * È necessario creare un&#39;area di lavoro prima di poter creare i tipi di record per l&#39;area di lavoro.
-* È possibile avere un totale di 1.000 tipi di record in un&#39;area di lavoro, indipendentemente dal numero di sezioni dell&#39;area di lavoro. Sono inclusi i tipi di record creati da zero o quando si utilizza un modello.
+* Per informazioni sui limiti relativi al numero di tipi di record che è possibile avere in un&#39;istanza dell&#39;area di lavoro o di Workfront, vedere [Panoramica sui limiti degli oggetti di Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md).
 
 
 <!--

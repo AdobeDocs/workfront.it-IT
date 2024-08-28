@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '1986'
-ht-degree: 1%
+source-wordcount: '1989'
+ht-degree: 2%
 
 ---
 
@@ -174,8 +174,6 @@ Di seguito sono riportati gli oggetti e i concetti principali di Workfront Plann
 
 * **Workspace**: raccolta di tipi di record che definiscono il ciclo di vita operativo di una determinata organizzazione. Un’area di lavoro è l’area di lavoro di un’unità organizzativa.
 
-  Un’istanza di Workfront può avere un massimo di 1.000 aree di lavoro.
-
   ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
   Per ulteriori informazioni, vedere [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
@@ -204,9 +202,15 @@ Di seguito sono riportati gli oggetti e i concetti principali di Workfront Plann
 
   ![](assets/workspaces-page-with-templates-thumbnails.png)
 
-  Adobe Workfront Planning viene fornito con un modello di area di lavoro Vendite, Marketing e Gestione prodotto.
+  Adobe Workfront Planning contiene i seguenti modelli:
 
-  Per ulteriori informazioni, vedere [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
+   * Base: Marketing Management
+   * Avanzato: Marketing Management
+   * Enterprise: Marketing Management
+   * Gestione vendite
+   * Gestione del prodotto
+
+  Per ulteriori informazioni, vedere [Elenco dei modelli di area di lavoro](/help/quicksilver/planning/architecture/workspace-templates.md).
 
 * **Campi**: i campi sono attributi che è possibile aggiungere ai tipi di record. I campi contengono informazioni sul tipo di record. <!--check the shot below, "Connection" needs to be in lowercase-->
 
@@ -293,7 +297,7 @@ Di seguito sono riportati gli oggetti e i concetti principali di Workfront Plann
 
   Di seguito sono riportati i tipi di visualizzazione che è possibile applicare alla pagina del tipo di record:
 
-   * **Vista tabella**: visualizza i record e i relativi campi, inclusi i campi connessi e di ricerca, in un formato tabella. Le righe della tabella sono i singoli record e le colonne sono i campi record. Questa è la vista predefinita.
+   * **Vista tabella**: visualizza i record e i relativi campi, inclusi i campi connessi e di ricerca, in un formato tabella. Le righe della tabella sono i singoli record e le colonne sono i campi record. La vista tabella è quella predefinita.
 
      ![](assets/table-view-example.png)
 

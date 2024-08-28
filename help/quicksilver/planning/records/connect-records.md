@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '2710'
+source-wordcount: '2714'
 ht-degree: 1%
 
 ---
@@ -225,7 +225,7 @@ Per collegare i record ad altri record o oggetti, è necessario disporre dei seg
 
    Viene aperto il workspace e i tipi di record vengono visualizzati come schede.
 1. Fare clic sulla scheda di un tipo di record per aprire la pagina del tipo di record.
-1. Fare clic sul nome di una visualizzazione **Tabella** per aprirla.
+1. Fare clic sul nome di una vista tabella per aprirla.
 1. (Facoltativo) Aggiungere record al tipo di record selezionato aggiungendo una nuova riga alla tabella. Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).
 1. (Condizionale) Dopo aver collegato il tipo di record selezionato con un altro tipo di record, passare alla colonna del record collegato e fare doppio clic sulla cella corrispondente al record che si desidera collegare con altri record.
 
@@ -240,7 +240,7 @@ Per collegare i record ad altri record o oggetti, è necessario disporre dei seg
 
    >[!TIP]
    >
-   >    È possibile aprire la pagina di un record eseguendo le operazioni seguenti nella vista a tabella:
+   >    È possibile aprire la pagina di un record e connettere altri record eseguendo le operazioni seguenti nella vista a tabella:
    >1. Fare clic sul nome del record nella visualizzazione.
    >1. Trovare il campo record collegato e fare doppio clic sul campo (se sono già presenti record connessi)
    >Oppure
