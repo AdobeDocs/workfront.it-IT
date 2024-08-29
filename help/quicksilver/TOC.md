@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 41fe217aee733e8382416366542845d90c1b10fd
+source-git-commit: 35bc6db1bc9244db6b21a175cee8e02f8188312e
 workflow-type: tm+mt
-source-wordcount: '14358'
+source-wordcount: '14363'
 ht-degree: 2%
 
 ---
@@ -880,6 +880,7 @@ ht-degree: 2%
          * [Nuova Home](workfront-basics/using-home/new-home/new-home.md)
          * [Introduzione alla nuova home](workfront-basics/using-home/new-home/get-started-with-new-home.md)
          * [Aggiungere, modificare o rimuovere widget in Nuova Home](workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
+         * [Panoramica dei nuovi filtri dei widget Home](workfront-basics/using-home/new-home/widget-filter-overview-new-home.md)
       * Utilizza l&#39;area Home {#use-home-area}
          * [Utilizzare l’area Home](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
          * [Introduzione alla Home](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
