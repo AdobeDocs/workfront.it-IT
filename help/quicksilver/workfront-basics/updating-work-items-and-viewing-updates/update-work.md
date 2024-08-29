@@ -6,9 +6,9 @@ description: Puoi aggiungere un aggiornamento a un oggetto Adobe Workfront (prog
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '2984'
+source-wordcount: '3007'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
       * Un elenco di oggetti
       * Una scheda orario
-      * Home
+      * Pagina Home
       * Il Bilanciatore dei carichi di lavoro
 
 <!--info for April 11: hide the section below: add an update to a work item-->
@@ -378,7 +378,7 @@ Puoi migliorare gli aggiornamenti utilizzando Rich Text o aggiungendo vari eleme
    1. Fai clic nell’aggiornamento nel punto in cui desideri inserire un collegamento.
    1. Sulla barra degli strumenti **Rich Text**, fare clic sull&#39;icona ![](assets/link-icon.png) del **collegamento ipertestuale**.
 
-   1. Nella casella **Crea collegamento** visualizzata, in **URL**, digitare o incollare l&#39;URL dell&#39;origine a cui si desidera creare il collegamento.
+   1. Nella casella **Crea collegamento**, in **URL**, digita o incolla l&#39;URL dell&#39;origine a cui desideri collegare.
 
    1. In **Testo da visualizzare** digitare o incollare il testo del collegamento.
    1. Fai clic su **Salva**.
@@ -386,7 +386,7 @@ Puoi migliorare gli aggiornamenti utilizzando Rich Text o aggiungendo vari eleme
 1. (Facoltativo) Per allegare un&#39;immagine all&#39;aggiornamento, effettuare una delle seguenti operazioni:
 
    * Salva l’immagine sul computer, quindi trascinala e rilasciala nell’area Nuovo commento.
-   * Copiare uno screenshot dal computer, quindi incollarlo nel commento.<!-- This is not available in the legacy commenting experience.-->
+   * Copia uno screenshot dal computer, quindi incollalo nel commento.
    * Fai clic sull&#39;icona **Aggiungi immagine** ![](assets/add-image-mountain-with-plus-icon.png) e individua l&#39;immagine nel computer.
 
 
@@ -399,7 +399,8 @@ Puoi migliorare gli aggiornamenti utilizzando Rich Text o aggiungendo vari eleme
    >* Per poter visualizzare le icone Immagine o Aggiungi allegato, l&#39;amministratore di Workfront deve abilitare l&#39;aggiunta di immagini nella sezione Preferenze feed di aggiornamento dell&#39;area Interfaccia Workfront. Per informazioni, vedere [Configurare le preferenze per gli aggiornamenti utente](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* La dimensione massima del file di immagine è 7 MB. I tipi di file immagine supportati sono .jpg, .gif e .png.
    >* Le immagini sono accessibili dalla sezione Aggiornamenti di un oggetto e sono disponibili anche nell&#39;area Documenti del menu principale.
-   >* È possibile incollare l&#39;immagine facendo clic con il pulsante destro del mouse nel nuovo commento oppure premendo CTRL + V per Windows (o ⌘ + V per Mac) sulla tastiera.
+   >È possibile copiare uno screenshot dal computer utilizzando una combinazione di tastiera o, ad esempio, la funzione Stamp (su computer Windows).
+   >* È possibile incollare l&#39;immagine facendo clic con il pulsante destro del mouse nel nuovo commento e quindi scegliendo **Incolla** oppure premendo CTRL + V per Windows (o ⌘ + V per Mac) sulla tastiera.
    >* È possibile inviare un aggiornamento con un’immagine e senza testo.
    >* Quando si elimina un commento che contiene un&#39;immagine, questa viene rimossa sia dalla sezione Aggiornamenti che dall&#39;area Documenti. L&#39;immagine viene eliminata anche dall&#39;area Documenti quando modificate un commento ed eliminate l&#39;immagine.
    >* Quando qualcuno elimina un’immagine allegata a un commento dall’area Documenti, questa viene rimossa anche dal commento.

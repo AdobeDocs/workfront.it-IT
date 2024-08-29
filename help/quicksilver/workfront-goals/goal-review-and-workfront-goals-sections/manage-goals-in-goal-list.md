@@ -6,9 +6,9 @@ description: Dopo che tu o altri utenti avete creato gli obiettivi, puoi esamina
 author: Alina
 feature: Workfront Goals
 exl-id: 2a2c1240-f796-4cb8-b8a6-2ad5853916b9
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '803'
 ht-degree: 2%
 
 ---
@@ -33,9 +33,8 @@ Per eseguire le azioni descritte in questo articolo, è necessario disporre dei 
    <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> 
    <p>Per il nuovo piano e la nuova struttura delle licenze:
-  <ul><li>Un piano Ultimate </li>
-  Oppure
-  <li>Una licenza aggiuntiva per Adobe Workfront Goals per i piani Prime o Select Adobe Workfront. </li></ul> </p>
+  <ul><li>Un piano Ultimate </li></ul>
+   </p>
 <p>Per il piano corrente e la struttura delle licenze: 
 <ul><li> A Pro o superiore </li>
   <li>Una licenza Adobe Workfront Goals oltre a una licenza Workfront.</li></ul></p>

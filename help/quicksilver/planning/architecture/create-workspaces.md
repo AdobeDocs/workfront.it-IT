@@ -3,9 +3,10 @@ title: Crea aree di lavoro
 description: Un'area di lavoro è una raccolta di tipi di record utilizzati da un team e rappresenta il ciclo di vita del lavoro del team. È possibile personalizzare completamente le aree di lavoro in Adobe Workfront Planning. I tipi di record sono organizzati per sezioni in un'area di lavoro.
 feature: Workfront Planning
 role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 1%

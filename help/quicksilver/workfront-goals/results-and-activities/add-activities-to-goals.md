@@ -7,9 +7,9 @@ description: Le attività misurano l’avanzamento di un obiettivo. Senza risult
 author: Alina
 feature: Workfront Goals
 exl-id: 4d6ef324-4b5c-402b-b64d-b1a2a7d2ab57
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '449'
 ht-degree: 1%
 
 ---
@@ -32,9 +32,8 @@ Devi avere i seguenti:
    <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> 
    <p>Per il nuovo piano e la nuova struttura delle licenze:
-  <ul><li>Un piano Ultimate </li>
-  Oppure
-  <li>Una licenza aggiuntiva per Adobe Workfront Goals per i piani Prime o Select Adobe Workfront. </li></ul> </p>
+  <ul><li>Un piano Ultimate </li></ul>
+   </p>
 <p>Per il piano corrente e la struttura delle licenze: 
 <ul><li> A Pro o superiore </li>
   <li>Una licenza Adobe Workfront Goals oltre a una licenza Workfront.</li></ul></p>

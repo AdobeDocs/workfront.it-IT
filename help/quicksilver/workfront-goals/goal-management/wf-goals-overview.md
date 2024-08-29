@@ -7,9 +7,9 @@ description: Gli obiettivi di Workfront consentono di definire, comunicare e rag
 author: Alina
 feature: Workfront Goals
 exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,8 @@ ht-degree: 0%
 >   * Una licenza Adobe Workfront Goals oltre a una licenza Workfront.
 >
 >Contatta il tuo account manager Workfront per saperne di più su una licenza Workfront Goals.
-
+> 
+>Per ulteriori informazioni sull&#39;accesso agli obiettivi di Workfront, vedere [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Gli obiettivi di Workfront consentono di definire, comunicare e raggiungere risultati strategici collegando la strategia all’esecuzione e alla consegna del lavoro. Puoi concentrare gli sforzi di tutti su ciò che conta veramente, rendere i progressi misurabili e consentire ai team di raggiungere risultati straordinari. Le persone possono fare del loro meglio sapendo che i loro contributi hanno un impatto significativo.
 
@@ -42,9 +43,9 @@ Per ulteriori informazioni sulle best practice per l&#39;utilizzo degli obiettiv
 >
 >Gli obiettivi strategici che gestisci utilizzando gli obiettivi di Workfront non devono essere confusi con gli obiettivi a livello di progetto che fanno parte del Business Case del progetto. Per informazioni sugli obiettivi a livello di progetto, vedere [Creare gli obiettivi del caso di business](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
 
-## Funzioni incluse in Workfront Goals
+## Funzionalità degli obiettivi di Workfront
 
-Le seguenti funzionalità sono attualmente incluse in Workfront Goals:
+In Obiettivi Workfront è inclusa la seguente funzionalità:
 
 * Crea obiettivi trimestrali o annuali e assegnali a utenti, team, gruppi o alla tua organizzazione. Puoi anche personalizzare le timeline degli obiettivi.
 

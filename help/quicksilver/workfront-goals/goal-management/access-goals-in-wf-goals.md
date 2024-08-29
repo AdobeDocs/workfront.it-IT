@@ -6,9 +6,9 @@ description: Questo articolo descrive come trovare e gestire gli obiettivi in Ad
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '463'
 ht-degree: 1%
 
 ---
@@ -32,9 +32,8 @@ Per eseguire le attività descritte in questo articolo, è necessario disporre d
    <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> 
    <p>Per il nuovo piano e la nuova struttura delle licenze:
-  <ul><li>Un piano Ultimate </li>
-  Oppure
-  <li>Una licenza aggiuntiva per Adobe Workfront Goals per i piani Prime o Select Adobe Workfront. </li></ul> </p>
+  <ul><li>Un piano Ultimate </li></ul>
+   </p>
 <p>Per il piano corrente e la struttura delle licenze: 
 <ul><li> A Pro o superiore </li>
   <li>Una licenza Adobe Workfront Goals oltre a una licenza Workfront.</li></ul></p>

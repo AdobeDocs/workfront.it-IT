@@ -10,9 +10,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 08aea7a6-1ce2-46d9-9807-c94526851655
-source-git-commit: 3bb0baa2e8831827f32156b1772fa9ee33694950
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Il nuovo programma experience beta per la creazione di commenti è attualmente chiuso.
+>Il nuovo programma experience beta per la creazione di commenti è attualmente chiuso e le funzionalità di aggiunta di commenti sono ora disponibili per tutti i clienti.
 >
 >Le funzioni rilasciate durante il periodo beta sono state rese disponibili a tutti i clienti a partire dalla versione del quarto trimestre del 2023 (ottobre 2023).
 

@@ -1,14 +1,14 @@
 ---
 title: "Informazioni sull'accesso ad Adobe Workfront Planning: indice articolo"
-description: In qualità di amministratore di Workfront, devi concedere l’accesso ai tuoi utenti per utilizzare Adobe Workfront Planning. Nei seguenti articoli vengono fornite informazioni sull'accesso necessario per l'utilizzo di Workfront Planning.
+description: In qualità di amministratore di Workfront, devi concedere l’accesso ai tuoi utenti per utilizzare Adobe Workfront Planning. Gli articoli seguenti contengono informazioni sull'accesso necessario per l'utilizzo di Workfront Planning da parte degli utenti e su come richiedere e concedere autorizzazioni quando gli utenti non dispongono dell'accesso.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---

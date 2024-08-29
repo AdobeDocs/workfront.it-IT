@@ -3,9 +3,10 @@ title: Elimina aree di lavoro
 description: È possibile eliminare le aree di lavoro quando non sono più rilevanti.
 feature: Workfront Planning
 role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 1%

@@ -3,9 +3,10 @@ title: Esempio di collegamento di tipi di record e record
 description: In questo articolo viene descritto un esempio di come creare una connessione tra un tipo di record di Adobe Workfront Planning e un tipo di oggetto di progetto Workfront. Descrive inoltre come collegare un record di Workfront Planning a un singolo progetto.
 feature: Workfront Planning
 role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
+source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
 workflow-type: tm+mt
 source-wordcount: '1949'
 ht-degree: 0%

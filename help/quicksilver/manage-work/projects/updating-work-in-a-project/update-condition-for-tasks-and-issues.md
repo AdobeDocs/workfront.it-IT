@@ -6,7 +6,7 @@ description: La condizione di un’attività o di un problema è un flag applica
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 1%
@@ -59,7 +59,7 @@ I valori di Condizione a cui si fa riferimento in questo articolo sono disponibi
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
    <td> <p>Visualizza o autorizzazioni superiori per attività e problemi per visualizzarne la condizione</p>
-   <p>Gestire le autorizzazioni su attività e problemi per aggiornare la condizione</p>
+   <p>Autorizzazioni di Contribute per attività e problemi per aggiornare la condizione</p>
   </td> 
   </tr> 
  </tbody> 

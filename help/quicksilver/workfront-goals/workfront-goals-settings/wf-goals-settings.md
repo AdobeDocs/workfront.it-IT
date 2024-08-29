@@ -8,9 +8,9 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: 7cdef9d5-e37b-4f1f-9293-39c79781590a
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -33,8 +33,6 @@ ht-degree: 0%
 >Contatta il tuo account manager Workfront per saperne di più su una licenza Workfront Goals.
 > 
 >Per ulteriori informazioni sull&#39;accesso agli obiettivi di Workfront, vedere [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
-Per ulteriori informazioni sull&#39;accesso agli obiettivi di Workfront, vedere [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Questa sezione contiene i seguenti articoli:
 

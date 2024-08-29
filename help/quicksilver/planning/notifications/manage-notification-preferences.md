@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '421'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ In Workfront Planning è possibile ricevere una notifica in-app o e-mail quando 
 
 * Qualcuno ti aggiunge a un commento nella pagina del record
 * Qualcuno chiede l&#39;autorizzazione per accedere a una vista o a un&#39;area di lavoro
-* Qualcuno ti concede o nega l&#39;autorizzazione per accedere a una visualizzazione o a un&#39;area di lavoro <!--test this - could not test before GA-->
+* Qualcuno ti concede l&#39;autorizzazione per accedere a una visualizzazione o a un&#39;area di lavoro <!--I could not test this but Isk confirmed-->
 
 ## Requisiti di accesso
 
@@ -62,7 +62,7 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
  <tr> 
    <td role="rowheader"><p>Piattaforma Adobe Workfront</p></td> 
    <td> 
-<p>Per poter accedere a tutte le funzionalità di Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p> 
+<p>L’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p> 
 <p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata di Adobe per Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -171,7 +171,7 @@ Deseleziona le notifiche che desideri interrompere la ricezione.
 1. Per Workfront sono disponibili le seguenti notifiche:
 
    * **Riferimenti**: si riceve una notifica quando un utente assegna un tag a un commento in Workfront Planning
-   * **Richieste**: si riceve una notifica quando un utente richiede l&#39;autorizzazione per un oggetto Workfront Planning
+   * **Richieste**: si riceve una notifica quando un utente richiede o concede l&#39;autorizzazione per un oggetto Workfront Planning
 
    Per ulteriori informazioni sulla gestione delle notifiche, vedere [Preferenze account e notifiche](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
