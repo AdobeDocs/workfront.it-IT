@@ -5,9 +5,9 @@ title: Guida obsoleta della home page legacy
 description: Questa pagina contiene informazioni sull’imminente rimozione della Home legacy.
 author: Nolan
 feature: Product Announcements
-source-git-commit: 3f1882b555658b2095d99258900f3bba28246c3f
+source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Consigliamo agli amministratori di:
 
 1. Riassegnare gli altri utenti al nuovo layout della home page.
 
-Procedendo in questo modo, gli utenti avranno il tempo di adattarsi alla nuova esperienza e di personalizzare le nuove pagine iniziali in base alle loro esigenze.
+Procedendo in questo modo, gli utenti avranno il tempo di adattarsi alla nuova esperienza e di personalizzare le nuove pagine iniziali in base alle loro esigenze. Per informazioni su come personalizzare i widget nella nuova home page, vedere [Rimuovere, aggiungere e ridisporre i widget](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
 
 ### Segui l’esperienza Home man mano che si sviluppa
 
@@ -74,7 +74,7 @@ No, verrà rimosso completamente dall’applicazione.
 
 Quasi, ad eccezione di:
 
-* Calendar (Calendario), attualmente nella roadmap per la nuova Home.
+* Calendario, attualmente nella nostra tabella di marcia per le priorità.
 
 * La visualizzazione dei timestamp per le date di scadenza degli oggetti non è attualmente disponibile.
 

@@ -2,22 +2,22 @@
 content-type: overview;reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: Panoramica del data lake di Workfront
-description: Panoramica della funzionalità del data lake di Workfront
+title: Panoramica di Workfront Data Connect
+description: Panoramica di Workfront Data Connect
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
-source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
+source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 0%
 
 ---
 
-# Panoramica di Data Connect
+# Panoramica di Workfront Data Connect
 
-Data Connect offre un accesso senza precedenti ai dati Workfront utilizzando la tecnologia di Snowflake, consentendo di rispondere alle domande critiche e di misurare il valore dei processi. Questa funzionalità consente ai clienti aziendali di interrogare i propri dati utilizzando strumenti di visualizzazione dei dati direttamente da un data lake di Workfront o di esportare i dati Workfront in data warehouse di proprietà del cliente.
+Workfront Data Connect offre un accesso senza precedenti ai dati Workfront utilizzando la tecnologia di Snowflake, consentendo di rispondere alle domande critiche e di misurare il valore dei processi. Questa funzionalità consente ai clienti aziendali di interrogare i propri dati utilizzando strumenti di visualizzazione dei dati direttamente da un data lake di Workfront o di esportare i dati Workfront in data warehouse di proprietà del cliente.
 
 Gli abbonati potranno collegare il loro strumento di business intelligence di scelta (Tableau, Power BI, Domo, Looker, ecc.) a Connessione dati per creare visualizzazioni dati con i seguenti tipi di dati:
 
