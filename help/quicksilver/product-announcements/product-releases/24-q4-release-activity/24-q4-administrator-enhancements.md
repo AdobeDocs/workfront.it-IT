@@ -4,9 +4,9 @@ description: Miglioramenti per gli amministratori del quarto trimestre 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5138321543175cac3e51cc21c8309cbefd8bc1e8
+source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,24 @@ Questa pagina descrive tutti i miglioramenti per gli amministratori apportati co
 
 Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio del quarto trimestre 2024, consulta [Panoramica sulla versione del quarto trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
+## Ripristino dei pacchetti di promozione dell’ambiente
+
+>[!NOTE]
+>
+>Versione di anteprima: 29 agosto 2024; produzione per rilascio rapido: con la versione 24.9 (12 settembre 2024); produzione per rilascio trimestrale: con la versione 24.10 (ottobre 2024)
+>
+
+Per rendere la promozione dell’ambiente più flessibile e facile da utilizzare, è stata abilitata la funzionalità di rollback. Ora è possibile eseguire il rollback dei pacchetti entro 24 ore, consentendo di ripristinare più facilmente le configurazioni precedenti interessate da un pacchetto di promozione dell’ambiente.
+
+In precedenza, le configurazioni venivano ripristinate manualmente o tramite un altro pacchetto di promozione dell’ambiente.
+
+Per ulteriori informazioni sul rollback di un pacchetto di promozione dell&#39;ambiente, vedere [Ripristinare un pacchetto di promozione dell&#39;ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-rollback.md).
+
 ## Il pulsante Layout di Progettazione moduli personalizzati consente due o tre colonne
 
 >[!NOTE]
 >
->Versione di anteprima: 12 agosto 2024; produzione per rilascio rapido con la versione 24.9 (settembre 2024); produzione per rilascio trimestrale: da definire
+>Versione di anteprima: 12 agosto 2024; produzione per rilascio rapido: con la versione 24.9 (12 settembre 2024); produzione per rilascio trimestrale: da definire
 >
 >_Questa funzione fa parte di una versione graduale e sarà disponibile per un numero limitato di clienti a settembre. Rimarrà nell&#39;ambiente di anteprima per un periodo di tempo prolungato durante la raccolta dei commenti._
 
