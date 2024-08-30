@@ -7,9 +7,9 @@ description: È possibile condividere e rivedere vari tipi di file con i revisor
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
+source-git-commit: 0a9bc92df7360565318d7776dae73b414c054fc2
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
@@ -181,11 +181,8 @@ Workfront ha i seguenti limiti:
 > * PPSX - Presentazione di Microsoft PowerPoint
 > * XLT - Modello Microsoft Excel
 > * XLTX - Modello Microsoft Excel
-
->[!WARNING]
-> Per un problema di sicurezza, temporaneamente non è supportato il seguente tipo di file statico:
->
 > * EPS - PostScript incapsulato
+
 
 * AI - Illustrazione di Adobe Illustrator
 * AIT - Modello Adobe Illustrator
