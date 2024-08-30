@@ -4,12 +4,12 @@ product-area: resource-management
 navigation-topic: resource-management-overview
 title: Introduzione alla gestione delle risorse
 description: Gestione risorse consente di configurare il sistema per prevedere con precisione l'utilizzo delle risorse in base alla disponibilità, in modo che il lavoro da eseguire venga completato in tempo e nel preventivo.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
+source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
@@ -137,11 +137,11 @@ I seguenti utenti hanno accesso agli strumenti di gestione delle risorse in Work
 Devi essere uno dei seguenti utenti e disporre dei seguenti diritti di accesso e autorizzazioni per accedere agli strumenti di gestione delle risorse:
 
 * L&#39;amministratore di sistema.
-* Utente con una licenza Pianificazione.
+* Utente con una licenza Standard o Plan.
 
   Un utente con una licenza Lavoro può utilizzare il Bilanciatore dei carichi di lavoro di un progetto e gestire assegnazioni e allocazioni.
 
-  Oltre a disporre di una licenza Lavoro o superiore, per utilizzare strumenti specifici di gestione delle risorse è necessario disporre dei seguenti elementi:
+  Oltre a disporre di una licenza Lavoro o superiore (o di una licenza Standard), per utilizzare strumenti specifici di gestione delle risorse è necessario disporre dei seguenti elementi:
 
    * Accesso di modifica alla gestione delle risorse (non necessario per effettuare assegnazioni nel Bilanciatore dei carichi di lavoro)
    * Modifica l&#39;accesso ai dati finanziari per visualizzare le informazioni sui costi nella Programmazione delle risorse
@@ -168,7 +168,6 @@ Prima di poter utilizzare in modo efficiente gli strumenti di gestione delle ris
 Per informazioni sui requisiti di ogni strumento di gestione delle risorse in Workfront, vedere:
 
 * La sezione [Prerequisiti per l&#39;utilizzo di Programmazione delle risorse](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner) nell&#39;articolo [Panoramica di Programmazione delle risorse](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
-  <!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
 * La sezione [Best practice per l&#39;utilizzo del Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) nell&#39;articolo [Panoramica sul Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 * [Accesso necessario per preventivare le risorse in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 * [Accesso necessario per gestire le risorse nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).

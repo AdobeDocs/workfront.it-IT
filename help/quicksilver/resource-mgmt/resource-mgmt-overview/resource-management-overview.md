@@ -2,16 +2,16 @@
 content-type: reference;overview
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
-title: Gestione risorse
+title: Panoramica sulla gestione delle risorse
 description: Gestione delle risorse consente ai responsabili delle risorse di prendere decisioni aziendali che garantiscano la disponibilità di singoli lavoratori in budget rispetto al lavoro con la massima priorità. Anche se può iniziare a livello di mansione, alla fine Gestione risorse si preoccupa degli utenti e del loro sottoutilizzo o sovra-impegno.
 author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: 137787c9-82f6-4b18-a427-720589221a7c
-source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
+source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 1%
+source-wordcount: '128'
+ht-degree: 0%
 
 ---
 

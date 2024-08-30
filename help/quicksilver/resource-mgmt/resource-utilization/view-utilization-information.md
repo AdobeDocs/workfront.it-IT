@@ -1,12 +1,12 @@
 ---
 product-area: resource-management
 navigation-topic: resource-utilization
-title: Visualizza informazioni sull'utilizzo delle risorse
+title: Visualizza informazioni utilizzo risorse
 description: È possibile visualizzare l'utilizzo delle risorse nel rapporto Utilizzo.
-author: Alina, Lisa
+author: Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
 workflow-type: tm+mt
 source-wordcount: '7255'
 ht-degree: 0%
