@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 1a2f6e95b5b229f9b749290fcb1767ff794ddd6d
+source-git-commit: ad5d49baddcacaf59c0194fcd3335e71448ae5f7
 workflow-type: tm+mt
 source-wordcount: '5546'
 ht-degree: 5%
@@ -304,7 +304,7 @@ Per aggiungere pulsanti di scelta, gruppi di caselle di controllo e elenchi a di
    * A discesa
    * Elenco a discesa multi-selezione
 
-   ![Trascinare un campo nell&#39;area di lavoro](assets/drag-field-to-section-041524.png)
+   ![Trascinare un campo nell&#39;area di lavoro](assets/drag-field-to-section.png)
 
 1. Sul lato destro della schermata, configura le opzioni disponibili per il tipo di campo personalizzato che stai aggiungendo:
 
@@ -579,7 +579,7 @@ Per aggiungere una ricerca esterna:
      </tr> 
      <tr> 
       <td role="rowheader">Nome</td> 
-      <td> <p>(Obbligatorio) Questo nome indica il modo in cui il sistema identifica il campo. Quando configuri il widget per la prima volta e digiti l’etichetta, il campo Nome si popola automaticamente in modo che corrisponda a esso. Tuttavia, i campi Etichetta e Nome non sono sincronizzati. In questo modo è possibile modificare l'etichetta visualizzata dagli utenti senza dover cambiare il nome visualizzato dal sistema.</p> 
+      <td> <p>(Obbligatorio) Questo nome indica il modo in cui il sistema identifica il campo. Quando configuri il widget per la prima volta e digiti l’etichetta, il campo Nome si popola automaticamente in modo che corrisponda a esso. Tuttavia, i campi Etichetta e Nome non sono sincronizzati. In questo modo è possibile modificare l'etichetta visualizzata dagli utenti senza dover cambiare il nome visualizzato dal sistema.</p>
       <p>Per ulteriori informazioni, vedere <a href="design-a-form.md#notes-on-field-names-and-labels">Note sui nomi e le etichette dei campi</a>.</p> </td>
      </tr> 
       <td role="rowheader">Istruzioni</td> 

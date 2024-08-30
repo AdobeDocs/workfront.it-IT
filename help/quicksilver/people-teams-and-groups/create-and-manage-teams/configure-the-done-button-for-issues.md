@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams;setup
 navigation-topic: create-and-manage-teams
-title: Configura il pulsante Fine per i problemi
+title: Configurare il pulsante Fine per i problemi
 description: Il pulsante Done (Fine) può impostare automaticamente lo stato di un’attività o di un problema. Per impostazione predefinita, Adobe Workfront contrassegna un problema come Risolto quando un assegnatario fa clic su Fine sul proprio elemento di lavoro.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: 1f749ba9a54ce75a917e4b1e95713ac7abeaa66b
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1170'
 ht-degree: 1%
 
 ---
@@ -28,36 +28,41 @@ Gli utenti con determinate autorizzazioni possono configurare il pulsante [!UICO
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] piano*</strong></td> 
-   <td> <p>Qualsiasi</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>piano Adobe Workfront</p> </td> 
+   <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td>
+   <p>Nuovo: Standard</p>
+   <p>oppure</p>
+   <p>Corrente: Piano</p></td>
   </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
-   <td>Per configurare il pulsante [!UICONTROL Done] è necessario disporre dell'accesso come amministratore di sistema quando viene eliminato lo stato [!UICONTROL Resolved]</td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Per configurare il pulsante Fine quando lo stato Risolto viene eliminato, è necessario disporre dell'accesso come amministratore di sistema</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Configura il pulsante [!UICONTROL Fine] per un team
 
 È possibile cambiare lo stato applicato all&#39;elemento di lavoro con il pulsante [!UICONTROL Fine]. È inoltre possibile impostare più stati e consentire all&#39;utente di scegliere lo stato appropriato.
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **[!UICONTROL Team]**.
+{{step1-to-team}}
 
 1. Fai clic sull&#39;icona **[!UICONTROL Cambia team]**, quindi seleziona un nuovo team dal menu a discesa o cerca un team nella barra di ricerca.
 1. Fai clic sul menu **[!UICONTROL Altro]**, quindi fai clic su **[!UICONTROL Modifica]**.

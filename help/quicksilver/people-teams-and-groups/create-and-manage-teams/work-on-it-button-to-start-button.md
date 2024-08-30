@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
-title: Sostituire il pulsante Lavoraci con un pulsante Start
+title: Sostituisci il pulsante Lavoraci con un pulsante Start
 description: La configurazione predefinita di Adobe Workfront include un pulsante Lavoraci per le attività e i problemi visualizzati per gli elementi assegnati.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 9387c5ae-2835-4d8f-80ec-22fcd16c5b6e
-source-git-commit: 24bb9b5c0836196a1c6e15f828eb47bbd489ef25
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '793'
 ht-degree: 0%
 
 ---
@@ -25,26 +25,31 @@ La configurazione predefinita di [!DNL Adobe Workfront] include un pulsante [!UI
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] piano*</strong></td> 
-   <td> <p>Qualsiasi</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>piano Adobe Workfront</p> </td> 
+   <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>Piano</p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td>
+   <p>Nuovo: Standard</p>
+   <p>oppure</p>
+   <p>Corrente: Piano</p></td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano o il tipo di licenza disponibile, contattare l&#39;amministratore [!DNL Workfront].
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Configura il pulsante [!UICONTROL Avvia]
 
@@ -66,7 +71,7 @@ Se disponi di una licenza [!UICONTROL Plan], puoi configurare il pulsante [!UICO
 
 Per configurare il pulsante Start:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **[!UICONTROL Team]**.
+{{step1-to-team}}
 
 1. Nel menu a discesa **[!UICONTROL Team]**, seleziona un team.\
    oppure\
@@ -87,9 +92,9 @@ Per configurare il pulsante Start:
 
 Per associare utenti a un team predefinito:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront].
+{{step-1-to-users}}
 
-1. Fare clic su **[!UICONTROL Utenti]**, quindi selezionare l&#39;utente o gli utenti che si desidera associare a un team predefinito.
+1. Selezionare l&#39;utente o gli utenti che si desidera associare a un team predefinito.
 1. Fai clic sul menu **[!UICONTROL Altro]**, quindi seleziona **[!UICONTROL Modifica]**.\
    ![](assets/user-settings-nwe-350x291.png)
 

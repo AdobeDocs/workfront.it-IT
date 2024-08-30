@@ -7,9 +7,9 @@ description: Leggi questi suggerimenti quando ricevi un errore che indica che il
 author: Lisa
 feature: People Teams and Groups
 exl-id: dc9accf0-7ef4-4555-9b1c-d69b2110f3da
-source-git-commit: 24bb9b5c0836196a1c6e15f828eb47bbd489ef25
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '318'
 ht-degree: 1%
 
 ---
@@ -18,26 +18,35 @@ ht-degree: 1%
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] piano</strong></td> 
-   <td> <p>Qualsiasi</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>piano Adobe Workfront</p> </td> 
+   <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza</strong></td> 
-   <td> <p>[!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td>
+   <p>Nuovo: Standard</p>
+   <p>oppure</p>
+   <p>Corrente: Piano</p></td>
   </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Configurazioni del livello di accesso</strong></td> 
-   <td> <p>[!UICONTROL Amministratore di sistema]</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Amministratore di sistema</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Domanda
 
@@ -57,7 +66,8 @@ Ciò può verificarsi perché il nome utente o l&#39;indirizzo e-mail non è uni
 
 Verificare che il nome utente e l&#39;indirizzo di posta elettronica siano univoci nell&#39;istanza [!DNL Workfront] corrente:
 
-1. In qualità di amministratore [!DNL Workfront], fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Utenti]**.
+{{step-1-to-users}}
+
 1. Nell&#39;elenco delle persone, cerca nella colonna **[!UICONTROL E-mail]** per verificare che non siano presenti e-mail duplicate.
 1. Aggiungi alla vista una colonna per il nome utente.
 

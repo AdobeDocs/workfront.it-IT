@@ -7,9 +7,9 @@ description: Una richiesta rappresenta un'attività o un'assegnazione di problem
 author: Lisa
 feature: People Teams and Groups, Work Management
 exl-id: ef96e520-0d5f-4180-a27a-1fbbffff8f2b
-source-git-commit: 9693ac3792fec3eca6218a228f2067519ed433ac
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
@@ -24,26 +24,36 @@ Una richiesta rappresenta un&#39;attività o un&#39;assegnazione di problema in 
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] piano*</strong></td> 
-   <td> <p>Qualsiasi</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">piano Adobe Workfront</td> 
+   <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>Rivedi o superiore per assegnare o lavorare su una richiesta; Lavora o superiore per riassegnare una richiesta</p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td>
+   <p>Per assegnare o lavorare su una richiesta:
+   <p>Nuovo: Chiaro o superiore</br>
+    o</br>
+   Corrente: revisione o versione successiva</p>
+   <p>Per riassegnare una richiesta:
+   <p>Nuovo: Standard</br>
+    o</br>
+   Corrente: Lavoro o versione successiva</p></td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano o il tipo di licenza disponibile, contattare l&#39;amministratore [!DNL Workfront].
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Assegnare una richiesta a un team {#assign-a-request-to-a-team}
 
@@ -64,7 +74,7 @@ Puoi assegnare manualmente una richiesta a un team dalla pagina del team, come d
 
 Per assegnare manualmente una richiesta a un team dalla pagina del team:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Team]**.
+{{step1-to-team}}
 
 1. Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Cambia team icona](assets/switch-team-icon.png), quindi seleziona un nuovo team dal menu a discesa o cerca un team nella barra di ricerca.
 
@@ -80,7 +90,8 @@ Per assegnare manualmente una richiesta a un team dalla pagina del team:
 
 Puoi riassegnare le richieste assegnate al team:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Team]**.
+{{step1-to-team}}
+
 1. Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Cambia team icona](assets/switch-team-icon.png), quindi seleziona un nuovo team dal menu a discesa o cerca un team nella barra di ricerca.
 1. Nel pannello di navigazione a sinistra, seleziona **[!UICONTROL Richieste team]**.
 1. Fai clic sull&#39;icona **[!UICONTROL Riassegna]**.

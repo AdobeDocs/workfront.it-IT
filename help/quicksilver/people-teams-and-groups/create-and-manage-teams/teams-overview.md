@@ -2,19 +2,19 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
-title: Panoramica sui team
+title: Panoramica dei team
 description: Lo scopo di un team in Adobe Workfront è di acquisire la dinamica reale dei gruppi di lavoro funzionali sul posto di lavoro.
 author: Lisa
 feature: People Teams and Groups
 exl-id: c62c0789-2aaa-4091-9c45-b9e7801043a9
-source-git-commit: 3706921e4705a05d9d1fa18a3d242632b5e0616b
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
 source-wordcount: '236'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Panoramica sui team
+# Panoramica dei team
 
 <!-- Audited: 01/2024 -->
 
