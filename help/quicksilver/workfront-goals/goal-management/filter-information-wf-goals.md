@@ -6,9 +6,9 @@ description: Puoi visualizzare gli obiettivi che tu o chiunque altro hai aggiunt
 author: Alina
 feature: Workfront Goals
 exl-id: ec9b6789-fffe-425c-8316-eefe670ad0d6
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1366'
 ht-degree: 2%
 
 ---
@@ -31,9 +31,8 @@ Per eseguire le azioni descritte in questo articolo, è necessario disporre dei 
    <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> 
    <p>Per il nuovo piano e la nuova struttura delle licenze:
-  <ul><li>Un piano Ultimate </li>
-  Oppure
-  <li>Una licenza aggiuntiva per Adobe Workfront Goals per i piani Prime o Select Adobe Workfront. </li></ul> </p>
+  <ul><li>Un piano Ultimate </li> </ul>
+
 <p>Per il piano corrente e la struttura delle licenze: 
 <ul><li> A Pro o superiore </li>
   <li>Una licenza Adobe Workfront Goals oltre a una licenza Workfront.</li></ul></p>
