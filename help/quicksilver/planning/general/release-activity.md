@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '7432'
+source-wordcount: '7462'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,11 @@ Anteprima e produzione: 28 agosto 2024
 Quando richiedi l’accesso a un’area di lavoro o a una visualizzazione, l’utente da cui richiedi l’accesso riceve una notifica e-mail relativa alla richiesta. Dopo aver concesso la richiesta, riceverai una notifica e-mail con la conferma che la richiesta è stata approvata.
 
 Una volta concessa l’autorizzazione, puoi accedere alla vista o all’area di lavoro dalla notifica e-mail.  <!--see if they also get an in-app notification-->
+
+>[!NOTE]
+>
+>Per consentire agli utenti di richiedere e concedere autorizzazioni per una visualizzazione o un’area di lavoro da una richiesta di autorizzazione, è necessario che la tua organizzazione sia integrata nell’esperienza unificata di Adobe.
+
 
 Per informazioni, vedere [Richiedere le autorizzazioni per una visualizzazione o un&#39;area di lavoro](/help/quicksilver/planning/access/request-permissions.md).
 

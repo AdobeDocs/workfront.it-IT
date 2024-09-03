@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '330'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,9 @@ Nella tabella seguente vengono illustrati i limiti per il numero di oggetti che 
 | Numero di record per un&#39;area di lavoro | 25.000 per i clienti con Planning <br> 500.000 per i clienti con Planning Plus |
 | Numero di record totali per un&#39;istanza di Workfront Planning | 500.000 per i clienti con il piano di pianificazione <br>2 milioni per i clienti con Planning Plus |
 | Numero di campi per un tipo di record o una tassonomia | 500 |
-| Numero di caratteri per un campo di testo | 1.000 caratteri |
+| Numero di caratteri per un campo di testo a riga singola | 1.000 caratteri |
+| Numero di caratteri per un campo paragrafo | 100.000 caratteri |
+| Numero di campi paragrafo per un tipo di record | 20 campi paragrafo |
 | Dimensione del file che è possibile incollare in una tabella del tipo di record | 1 MB |
 | Dimensione del file che è possibile importare tramite l’API per una tabella del tipo di record | 1,5 MB |
 | Frequenza con cui è possibile effettuare richieste API | 200 richieste al minuto |
