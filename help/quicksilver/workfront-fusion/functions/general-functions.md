@@ -8,9 +8,9 @@ description: Nel pannello di mappatura di Adobe Workfront Fusion sono disponibil
 author: Becky
 feature: Workfront Fusion
 exl-id: 74bfda4e-5690-4b8c-ac58-20cf261f188d
-source-git-commit: a5130e551ad73717796bfac206d99799efc7987d
+source-git-commit: 4cca9738ad9537247234faa0b1c441163d4e315f
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,12 @@ Restituisce il percorso del valore di un oggetto o di una matrice. Per accedere 
 
 Restituisce `value1` se l&#39;espressione viene valutata come true, altrimenti restituisce `value2`.
 
+Per creare un&#39;istruzione if che restituisca un valore solo se due o più espressioni vengono valutate come true, utilizzare la parola chiave `and`.
+
+Per combinare `if` istruzioni, utilizzare gli operatori `and` e `or`.
+
+![e operatore](/help/quicksilver/workfront-fusion/functions/assets/and-in-if-statement.png)
+
 >[!INFO]
 >
 >**Esempi:**
@@ -81,9 +87,14 @@ Restituisce `value1` se l&#39;espressione viene valutata come true, altrimenti r
 >
 >    Restituisce Un
 >
->* `if( = 2 ; A ; B )`
+>* `if( 1 = 2 ; A ; B )`
 >
 >   Restituisce B
+>
+>* `if( 1 = 2 and 1 = 2 ; A ; B )`
+>
+>    Restituisce B
+>   
 
 ## [!UICONTROL ifempty (valore1; valore2)]
 
@@ -107,7 +118,7 @@ Restituisce `value1` se questo valore non è vuoto, altrimenti restituisce `valu
 
 ## [!UICONTROL opzione (espressione; valore1; risultato1; [valore2; risultato2; ...]; [altro])]
 
-Valuta un valore (denominato espressione) rispetto a un elenco di valori; restituisce il risultato corrispondente al primo valore corrispondente.
+Valuta un valore (denominato espressione) rispetto a un elenco di valori; restituisce il risultato corrispondente al primo valore corrispondente. Per includere un valore `else`, aggiungerlo dopo l&#39;espressione o il valore finale.
 
 >[!INFO]
 >
@@ -123,7 +134,9 @@ Valuta un valore (denominato espressione) rispetto a un elenco di valori; restit
 >
 >* `switch( X ; A ; 1 ; B ; 2 ; C ; 3 ; 4 )`
 >
->  Restituisce 4
+>   Restituisce 4
+>   
+>   In questa funzione, 4 è il valore da restituire se non viene applicata alcuna espressione (il valore `else`).
 
 ## [!UICONTROL omit(object; key1; [key2; ...])]
 
