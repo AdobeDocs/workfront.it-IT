@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 21c873d617187518bdbfe54a7a1ee5f1119ed8fd
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -104,11 +104,13 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo</p> 
 1. Nella sezione **Dettagli** eseguire una delle operazioni seguenti per personalizzare la visualizzazione della visualizzazione Dettagli:
 
    * Trascinare le intestazioni di sezione ![](assets/move-icon---dots.png) per modificarne l&#39;ordine.
-   * Abilita o disabilita le opzioni in **Panoramica** e **Forms personalizzato** per mostrarle o nasconderle.
+   * Abilita o disabilita le opzioni nelle varie aree, ad esempio **Panoramica**, **Finanza** e **Forms personalizzato**, per mostrarle o nasconderle.
 
      Se si nascondono tutti i campi in una di queste sezioni, l&#39;intera sezione viene nascosta.
 
-     Tutti i campi sono attivati per impostazione predefinita.
+     Tutti i campi sono attivati per impostazione predefinita. È possibile selezionare o deselezionare la casella di controllo **Seleziona tutto** in un&#39;area per visualizzare o nascondere tutti i campi in tale area.
+
+   ![Visualizzazione dettagli nel modello di layout](assets/layout-template-details-view.png)
 
 1. Continuate a personalizzare il modello di layout.
 
