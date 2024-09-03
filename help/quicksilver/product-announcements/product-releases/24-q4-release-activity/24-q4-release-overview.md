@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
+source-git-commit: 621e208a17a3a285dda0dc97cbe83638af2de1a5
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1361'
 ht-degree: 0%
 
 ---
@@ -206,6 +206,24 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                     <td>
                         <p><span class="bold">Date di rilascio</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Correzione a schermo vuoto per gli utenti Windows del Visualizzatore bozze desktop</a></p>
+                        [!BADGE In produzione ]{type=Informative}
+                        <p>È stato risolto un problema relativo alla nuova versione del Visualizzatore bozze desktop 2.1.36 a causa del quale alcuni utenti di Windows visualizzavano una schermata vuota dopo l’apertura del visualizzatore. </p>
+                        <p>Nuova versione per utenti Windows: 2.1.37</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 30 agosto 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Versione di produzione per tutti i clienti: 30 agosto 2024</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>

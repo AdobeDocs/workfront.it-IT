@@ -1,7 +1,7 @@
 ---
-source-git-commit: 5ea52fd7843a8e202980ed03d2e87953c7726f35
+source-git-commit: 621e208a17a3a285dda0dc97cbe83638af2de1a5
 workflow-type: tm+mt
-source-wordcount: '2544'
+source-wordcount: '2550'
 ht-degree: 1%
 
 ---
@@ -349,7 +349,9 @@ Per impostare le cartelle collegate:
 
 ## Versione più recente di DPV {#latest-version}
 
-**Ultima versione**: 2.1.36 dal 8/29/2024
+**Versione più recente**:
+* Mac: 2.1.36 a partire dal 8/29/2024
+* Windows: 2.1.37 del 8/30/2024
 
 <!-- Release -->
 
