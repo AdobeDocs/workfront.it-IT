@@ -2,19 +2,19 @@
 content-type: overview
 product-area: resource-management
 navigation-topic: resource-planning
-title: Panoramica sulla navigazione in Programmazione delle risorse
+title: Panoramica sulla navigazione di Programmazione delle risorse
 description: La pianificazione delle risorse di Adobe Workfront consente di comprendere facilmente la disponibilità delle risorse e il tempo pianificato necessario per completare il lavoro sui progetti. Puoi quindi gestire l’allocazione degli utenti e delle loro mansioni sui progetti a cui sono assegnati.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
 source-wordcount: '2621'
 ht-degree: 1%
 
 ---
 
-# Panoramica sulla navigazione in Programmazione delle risorse
+# Panoramica sulla navigazione di Pianificazione risorse
 
 La pianificazione delle risorse di Adobe Workfront consente di comprendere facilmente la disponibilità delle risorse e il tempo pianificato necessario per completare il lavoro sui progetti. Puoi quindi gestire l’allocazione degli utenti e delle loro mansioni sui progetti a cui sono assegnati.
 

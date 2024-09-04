@@ -5,9 +5,9 @@ description: La barra di navigazione superiore, visualizzata nella parte superio
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 692f3be1d7d3c3099e822440872ebdf3af3e04d1
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,13 @@ L’amministratore di Workfront può personalizzare l’icona Home per aprire un
 
 Puoi fissare le pagine che visiti di frequente in modo che vengano visualizzate nella barra di navigazione superiore. Per ulteriori informazioni sulle pagine bloccate, consulta [Fissa pagine per personalizzare l&#39;area di lavoro](../../workfront-basics/the-new-workfront-experience/pin-pages.md).
 
-## Menu [!UICONTROL Guida]
+<!--
+## [!UICONTROL Help] menu
 
-Il menu **[!UICONTROL Guida]** consente di cercare informazioni su un&#39;attività specifica, di trovare ulteriori informazioni sull&#39;utilizzo di [!DNL Workfront], di visualizzare il contenuto della pagina corrente o di inviare commenti e suggerimenti sulla tua esperienza.
+The **[!UICONTROL Help]** menu allows you to search for help with a specific task, find more information on using [!DNL Workfront], view content related to the page you are currently on, or submit feedback about your experience.
 
-Per ulteriori informazioni sul menu ?, vedere [Access [!DNL Adobe Workfront] help](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
+To learn more about the Help menu, see [Access [!DNL Adobe Workfront] help](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
+-->
 
 ## Menu [!UICONTROL Notifiche]
 

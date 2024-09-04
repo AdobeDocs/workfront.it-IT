@@ -1,14 +1,14 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: Risorse preventivate nella Programmazione delle risorse utilizzando le viste Progetto e Ruolo
+title: Risorse preventivate nella Programmazione delle risorse utilizzando le visualizzazioni Progetto e Ruolo
 description: È possibile preventivare le risorse in Adobe Workfront Resource Planner utilizzando le viste Progetto e Ruolo. Non è possibile preventivare le risorse utilizzando la vista Utente nella Programmazione delle risorse.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '2165'
+source-wordcount: '2121'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,8 @@ Prima di iniziare a inserire le informazioni sul budget nella Programmazione del
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
@@ -40,27 +42,31 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
-   <td> <p>Pro e superiore</p> </td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
+    <td><p>Nuovo: Qualsiasi</p>
+       <p>oppure</p>
+       <p>Corrente: Pro o superiore</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano </p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td><p>Nuovo: Standard</p>
+       <p>oppure</p>
+       <p>Corrente: Piano</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modifica l'accesso a Gestione risorse, incluso l'accesso a Modifica priorità e ore preventivate nella Programmazione risorse</p> <p>Modifica l'accesso ai dati finanziari per preventivare le risorse in base al costo</p> <p>Modifica accesso a progetti e utenti</p> <p><b>NOTA</b>
-
-Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Modifica l'accesso a Gestione risorse, incluso l'accesso a Modifica priorità e ore preventivate nella Programmazione risorse</p> <p>Modifica accesso ai dati finanziari per preventivare le risorse in base al costo</p> <p>Modifica accesso a progetti e utenti</p></td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per i progetti per i quali si desidera preventivare le informazioni</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per i progetti per i quali si desidera preventivare le informazioni</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Risorse preventivate nella Programmazione risorse
 
@@ -74,9 +80,8 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this section is linked to the Budgeting Project Resources in the Business Case article)</p>
 -->
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront.
+{{step1-to-resourcing}}
 
-1. Fare clic su **Risorse**.
 1. Il **Planner** viene visualizzato per impostazione predefinita.
 1. (Condizionale) Selezionare la visualizzazione **Visualizza per progetto**.
 1. Espandi i progetti e le mansioni per gestire l’allocazione per il progetto, le mansioni o gli utenti.
@@ -87,9 +92,7 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
    * Fai clic sul menu **Altro** per la mansione dell&#39;utente, quindi fai clic su **Imposta ore pianificate degli utenti come preventivate**.\
      Le ore preventivate di ciascun utente vengono calcolate utilizzando la seguente formula:
 
-     ```
-     User Budgeted Hours = User Planned Hours
-     ```
+     `User Budgeted Hours = User Planned Hours`
 
 1. Per allocare budget per le mansioni, eseguire una delle operazioni seguenti:
 
@@ -102,17 +105,13 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
    * (Condizionale) Se hai ore preventivate per gli utenti, fai clic sul menu **Altro** per la mansione, quindi fai clic su **Ore preventivate utenti totali per la mansione**.\
      Le ore preventivate per ciascun ruolo vengono calcolate utilizzando la formula seguente:
 
-     ```
-     Role Budgeted Hours = SUM(User Budgeted Hours)
-     ```
+     `Role Budgeted Hours = SUM(User Budgeted Hours)`
 
    * Fai clic sul menu **Altro** per il progetto, quindi fai clic su **Imposta ore pianificate dei ruoli come preventivate**.\
      Le ore preventivate per ciascun ruolo vengono calcolate utilizzando la formula seguente:\
      *
 
-     ```
-     Role Budgeted Hours = Role Planned Hours
-     ```
+     `Role Budgeted Hours = Role Planned Hours`
 
      >[!NOTE]
      >   
@@ -132,9 +131,7 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
    * Preventivare i ruoli nel progetto, come descritto nel passaggio 7.\
      Le ore preventivate progetto vengono calcolate con la formula seguente:
 
-     ```
-     Project Budgeted Hours = SUM(Role Budgeted Hours)
-     ```
+     `Project Budgeted Hours = SUM(Role Budgeted Hours)`
 
    * Nella colonna **BDG** specificare manualmente un numero di ore preventivate, FTE o costo per il progetto.\
      Questo aggiorna le ore preventivate per il ruolo, come descritto nel passaggio 7.\
@@ -175,9 +172,7 @@ Per preventivare le allocazioni nella Programmazione risorse nella vista Ruolo**
    * Fai clic sul menu **Altro** per il progetto, quindi fai clic su **Imposta ore pianificate degli utenti come preventivate**.\
      Le ore preventivate di ciascun utente vengono calcolate utilizzando la seguente formula:
 
-     ```
-     User Budgeted Hours = User Planned Hours
-     ```
+     `User Budgeted Hours = User Planned Hours`
 
 1. Per allocare budget per le mansioni, eseguire una delle operazioni seguenti:
 
@@ -187,15 +182,11 @@ Per preventivare le allocazioni nella Programmazione risorse nella vista Ruolo**
    * Fai clic sul menu **Altro** per la mansione, quindi fai clic su **Imposta ore pianificate dei progetti come preventivate.**Le ore preventivate per ruolo vengono calcolate utilizzando la formula seguente:\
      *
 
-     ```
-     Role Budgeted Hours = SUM(Project Budgeted Hours)
-     ```
+     `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 
      *Le ore preventivate del progetto sono calcolate con la seguente formula:
 
-     ```
-     Project Budgeted Hours = Project Planned Hours
-     ```
+     `Project Budgeted Hours = Project Planned Hours`
 
    * Nella colonna **BDG**, specifica manualmente un numero di ore preventivate, FTE o costo per i progetti elencati nella mansione.\
      Questo aggiunge il numero di ore preventivate progetto al ruolo.
@@ -213,24 +204,20 @@ Per preventivare le allocazioni nella Programmazione risorse nella vista Ruolo**
    * Fai clic sul menu **Altro** per la mansione, quindi fai clic su **Imposta ore pianificate dei progetti come preventivate**.\
      Le ore preventivate progetto vengono calcolate con la seguente formula:
 
-     ```
-     Project Budgeted Hours = Project Planned Hours
-     ```
+     `Project Budgeted Hours = Project Planned Hours`
 
      Le ore preventivate del progetto vengono aggiunte alle ore preventivate del ruolo.
 
    * (Condizionale) Se hai preventivato le ore per gli utenti, fai clic sul menu **Altro** per il progetto, quindi fai clic su **Ore preventivate utenti totali per il progetto**.\
      Le ore preventivate progetto vengono calcolate utilizzando la formula seguente:
 
-     ```
-     Project Budgeted Hours = SUM(User Budgeted Hours)
-     ```
+     `Project Budgeted Hours = SUM(User Budgeted Hours)`
 
      ![budget_per_ruolo.png](assets/budget-by-role-350x181.png)
 
 1. Fai clic su **Salva**.\
-   Dopo aver preventivato le risorse nella Programmazione risorse, le ore preventivate per le risorse ed eventuali costi associati vengono elencati nel Business Case di ogni progetto.\
-   Per ulteriori informazioni sulla comprensione dell&#39;area Budget risorse del caso aziendale, vedere l&#39;articolo [Risorse budget nel caso aziendale](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+   Dopo aver preventivato le risorse nella Programmazione risorse, le ore preventivate per le risorse ed eventuali costi associati vengono elencati nel Business Case di ogni progetto.
+Per ulteriori informazioni sulla comprensione dell&#39;area Budget risorse del caso aziendale, vedere l&#39;articolo [Risorse budget nel caso aziendale](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
 1. (Facoltativo) Seleziona la visualizzazione **Visualizza per utente** per notare eventuali sovrassegnazioni o sottoutilizzo dell&#39;utente tra le ore disponibili e quelle pianificate per ogni utente. Le ore preventivate non sono visibili nella vista Visualizza per utente.
 
