@@ -4,9 +4,9 @@ description: Miglioramenti per gli amministratori del quarto trimestre 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
+source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,21 @@ Questa pagina descrive tutti i miglioramenti per gli amministratori apportati co
 
 Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio del quarto trimestre 2024, consulta [Panoramica sulla versione del quarto trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
+## Nei modelli di layout è ora disponibile l’opzione &quot;Seleziona tutto&quot;
+
+>[!NOTE]
+>
+>Versione di anteprima: 29 agosto 2024; versione di produzione per tutti i clienti: 29 agosto 2024
+
+Per semplificare la visualizzazione e la visualizzazione dei campi con i modelli di layout, è stata aggiunta una casella di controllo **Seleziona tutto** alle aree Panoramica e Finanza della visualizzazione Dettagli in un modello di layout. Questa opzione è disponibile se hai selezionato Progetto, Attività, Problema, Portfolio o Programma in **Personalizza gli elementi visualizzati dagli utenti**. Si noti che non tutti gli oggetti visualizzano l&#39;area Finanza e che i campi in ogni area sono diversi a seconda dell&#39;oggetto.
+
+Per ulteriori informazioni, vedere [Personalizzare la visualizzazione Dettagli utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+
 ## Ripristino dei pacchetti di promozione dell’ambiente
 
 >[!NOTE]
 >
 >Versione di anteprima: 29 agosto 2024; produzione per rilascio rapido: con la versione 24.9 (12 settembre 2024); produzione per rilascio trimestrale: con la versione 24.10 (ottobre 2024)
->
 
 Per rendere la promozione dell’ambiente più flessibile e facile da utilizzare, è stata abilitata la funzionalità di rollback. Ora è possibile eseguire il rollback dei pacchetti entro 24 ore, consentendo di ripristinare più facilmente le configurazioni precedenti interessate da un pacchetto di promozione dell’ambiente.
 
