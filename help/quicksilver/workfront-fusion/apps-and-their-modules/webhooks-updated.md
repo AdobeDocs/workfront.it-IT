@@ -8,9 +8,9 @@ description: Un webhook è una chiamata HTTP attivata da un evento. Puoi utilizz
 author: Becky
 feature: Workfront Fusion
 exl-id: 987544a4-5840-40d4-9438-41a000aa22ee
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1449'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ Oppure puoi seguire i passaggi seguenti per inviare i dati di esempio tramite il
 
    Gli elementi del webhook sono ora disponibili nel pannello di mappatura per l’utilizzo con i moduli successivi nello scenario.
 
-## Coda
+## La coda del webhook
 
 Se un webhook riceve dati e non esiste uno scenario attivo che preveda tali dati, questi vengono memorizzati nella coda. Una volta attivato lo scenario, elabora in sequenza tutti i bundle in attesa nella coda.
 

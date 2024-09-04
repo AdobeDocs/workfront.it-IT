@@ -5,7 +5,7 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 6437fe98-2c2b-4b49-97e2-f94b23da93fd
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: ed7ea1d3409c39caea5fe8b107b7b2907dc87d76
 workflow-type: tm+mt
 source-wordcount: '2072'
 ht-degree: 1%
@@ -282,8 +282,8 @@ Questo modulo di attivazione avvia uno scenario quando viene aggiunto, aggiornat
 ### Azioni
 
 * [[!UICONTROL Aggiungi problema a sprint]](#add-issue-to-sprint)
-* [[!UICONTROL Chiamata API personalizzata]](#custom-api-call)
 * [[!UICONTROL Crea un record]](#create-a-record)
+* [[!UICONTROL Chiamata API personalizzata]](#custom-api-call)
 * [[!UICONTROL Eliminare un record]](#delete-a-record)
 * [[!UICONTROL Scarica un allegato]](#download-an-attachment)
 * [[!UICONTROL Leggi un record]](#read-a-record)

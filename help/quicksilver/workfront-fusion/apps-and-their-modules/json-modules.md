@@ -8,9 +8,9 @@ description: L’app JSON per Adobe Workfront Fusion fornisce moduli per elabora
 author: Becky
 feature: Workfront Fusion
 exl-id: 60540608-9d2e-4e10-9fb2-5388dda64784
-source-git-commit: 0290772c26ca82af31f14d101b4dde99377d6ce4
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1214'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ Se il campo stringa JSON contiene una raccolta `{ ... }`, l&#39;output è un sin
 >       "name" : "Peter",
 >
 >    
->   "ID" : 1
+   "ID" : 1
 >}
 >```
 >
@@ -108,7 +108,7 @@ Se il campo stringa JSON contiene un array `[ ... ]`, l&#39;output è una serie 
 >   },
 >
 >  
-> {
+ {
 >       "name" : "Mike",
 >       "ID" : 2
 >   }
@@ -125,13 +125,14 @@ Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possib
 
 ![](assets/map-toggle-350x74.png)
 
-* [Aggrega a JSON](#aggregate-to-json)
 * [Converti JSON in XML](#convert-json-to-xml)
 * [Analizza JSON](#parse-json)
 * [Crea JSON](#create-json)
 * [Trasforma JSON](#transform-json)
 
-### [!UICONTROL Aggrega a JSON]
+### Aggregatori
+
+#### [!UICONTROL Aggrega a JSON]
 
 Questo modulo aggregatore aggrega l’output di un modulo precedente in JSON.
 
@@ -162,7 +163,14 @@ Questo modulo aggregatore aggrega l’output di un modulo precedente in JSON.
  </tbody> 
 </table>
 
-### [!UICONTROL Converti JSON in XML]
+### Trasformatori
+
+* [Converti JSON in XML](#convert-json-to-xml)
+* [Crea JSON](#create-json)
+* [Analizza JSON](#parse-json)
+* [Trasforma JSON](#transform-json)
+
+#### [!UICONTROL Converti JSON in XML]
 
 Questo modulo di azione converte una stringa JSON in XML.
 
@@ -177,7 +185,22 @@ Questo modulo di azione converte una stringa JSON in XML.
  </tbody> 
 </table>
 
-### [!UICONTROL Analizza JSON]
+#### [!UICONTROL Crea JSON]
+
+Questo modulo di azione crea JSON da una struttura di dati.
+
+<table style="table-layout:auto"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Struttura dei dati</td> 
+   <td> <p>Seleziona la struttura dati da utilizzare per creare JSON. Per ulteriori informazioni, vedere <a href="#data-structure" class="MCXref xref">Struttura dati</a> in questo articolo.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Analizza JSON]
 
 Questo modulo di azione analizza una stringa JSON in una struttura di dati, consentendo di accedere ai dati all’interno della stringa JSON.
 
@@ -196,22 +219,7 @@ Questo modulo di azione analizza una stringa JSON in una struttura di dati, cons
  </tbody> 
 </table>
 
-### [!UICONTROL Crea JSON]
-
-Questo modulo di azione crea JSON da una struttura di dati.
-
-<table style="table-layout:auto"> 
- <col data-mc-conditions=""> 
- <col data-mc-conditions=""> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Struttura dei dati</td> 
-   <td> <p>Seleziona la struttura dati da utilizzare per creare JSON. Per ulteriori informazioni, vedere <a href="#data-structure" class="MCXref xref">Struttura dati</a> in questo articolo.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### [!UICONTROL Trasforma JSON]
+#### [!UICONTROL Trasforma JSON]
 
 Questo modulo di azione trasforma un oggetto in una stringa json.
 
@@ -238,28 +246,27 @@ Questo modulo di azione trasforma un oggetto in una stringa json.
 >
 1. Connetti [!UICONTROL JSON] > [!UICONTROL Crea modulo JSON] dopo il modulo [!UICONTROL Array Aggregator]. La configurazione del modulo richiede una struttura dati che descriva il formato JSON. Fai clic su **[!UICONTROL Aggiungi]** per aprire la configurazione della struttura dati. Il modo più semplice per creare questa struttura dati è generarla automaticamente da un campione JSON. Fai clic su **[!UICONTROL Generatore]** e incolla il tuo esempio JSON nel campo **[!UICONTROL Dati di esempio]**:
 >
->     **Esempio:**
+**Esempio:**
 >
->     ```
->     {
->     
->     "books": [
->     
->     {
->     
->     "id": "ID",
->     
->     "title": "Title",
->     
->     "author": "Author"
->     
->     }
->     
->     ]
->     
->     }
->     
->     ```
+```
+{
+
+"books": [
+
+{
+
+"id": "ID",
+
+"title": "Title",
+
+"author": "Author"
+
+}
+
+]
+
+}
+```
 >
 1. Fai clic su **[!UICONTROL Salva]**. Il campo [!UICONTROL Specifica] nella struttura dati contiene ora la struttura generata.
 1. Modifica il nome della struttura dati specificando qualcosa di più specifico e fai clic su **[!UICONTROL Salva]**. Un campo corrispondente all’attributo dell’array principale viene visualizzato come campo mappabile nella configurazione del modulo JSON.

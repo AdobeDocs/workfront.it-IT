@@ -10,9 +10,9 @@ description: Con il connettore  [!DNL Adobe Experience Manager Assets]  per l'ac
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: e06ca7c05867c12940df487fe4bc4e34744e2f1f
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
-source-wordcount: '1609'
+source-wordcount: '1647'
 ht-degree: 0%
 
 ---
@@ -190,6 +190,15 @@ Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possib
 
 ![](assets/map-toggle-350x74.png)
 
+* [Copiare una cartella o una risorsa](#copy-a-folder-or-asset)
+* [Creare un record](#create-a-record)
+* [Eliminare una cartella, una risorsa o una rappresentazione](#delete-a-folder-asset-or-rendition)
+* [Ottieni un elenco di cartelle](#get-a-folder-listing)
+* [Effettuare una chiamata API personalizzata](#make-a-custom-api-call)
+* [Spostare una cartella o una risorsa](#move-a-folder-or-asset)
+* [Aggiornare un record](#update-a-record)
+* [Caricare una risorsa](#upload-an-asset)
+
 ### [!UICONTROL Copia cartella o risorsa]
 
 Questo modulo di azione copia una cartella o una risorsa in un’altra posizione nell’account Adobe Experience Manager Assets.
@@ -260,7 +269,7 @@ Questo modulo di azione crea una cartella o un commento alla risorsa.
  </tbody> 
 </table>
 
-### [!UICONTROL Eliminare un record]
+### [!UICONTROL Eliminare una cartella, una risorsa o una rappresentazione]
 
 Questo modulo di azione elimina una cartella, una risorsa o un rendering.
 

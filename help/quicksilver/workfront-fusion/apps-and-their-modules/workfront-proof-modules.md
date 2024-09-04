@@ -9,7 +9,7 @@ description: In uno scenario  [!DNL Adobe Workfront Fusion] , puoi automatizzare
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: 614fd206ea2c5fe103beb5be8f5ff99c8a45a502
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
 source-wordcount: '3099'
 ht-degree: 0%
@@ -637,8 +637,31 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
 
 ### Ricerche
 
-* [[!UICONTROL Ricerca]](#search)
 * [[!UICONTROL Modelli flusso di lavoro elenco]](#list-workflow-templates)
+* [[!UICONTROL Ricerca]](#search)
+
+#### [!UICONTROL Modelli flusso di lavoro elenco]
+
+Questo modulo di ricerca elenca tutti i modelli di flusso di lavoro disponibili.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!DNL Connection]</td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Workfront Proof] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Output]</td> 
+   <td> <p>Seleziona le informazioni da includere nel bundle di output per questo modulo.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Limit]</td> 
+   <td> <p>Immettere o mappare il numero massimo di modelli che il modulo deve restituire durante ogni ciclo di esecuzione dello scenario.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL Ricerca]
 
@@ -677,29 +700,6 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Direzione ordinamento]</td> 
    <td> <p>Seleziona se desideri ordinare i risultati in modo crescente o decrescente.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Modelli flusso di lavoro elenco]
-
-Questo modulo di ricerca elenca tutti i modelli di flusso di lavoro disponibili.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>[!DNL Connection]</td> 
-   <td> <p>Per istruzioni sulla connessione dell'account [!DNL Workfront Proof] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Output]</td> 
-   <td> <p>Seleziona le informazioni da includere nel bundle di output per questo modulo.</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Limit]</td> 
-   <td> <p>Immettere o mappare il numero massimo di modelli che il modulo deve restituire durante ogni ciclo di esecuzione dello scenario.</p> </td> 
   </tr> 
  </tbody> 
 </table>
