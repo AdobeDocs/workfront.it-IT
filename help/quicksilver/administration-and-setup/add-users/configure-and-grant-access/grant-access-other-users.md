@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 5113771baf269405e758307d11a392f95ee870fe
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '793'
 ht-degree: 1%
 
 ---
@@ -95,7 +95,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
       <td> <p>Consente agli utenti di effettuare le seguenti operazioni per qualsiasi utente in Workfront:</p> 
        <ul> 
         <li>Modifica, elimina o disattiva l'utente</li> 
-        <li>Accedi come utente</li> 
+        <li>Accedi come utente<p><b>NOTA</b>: non è possibile accedere come qualsiasi utente che sia un amministratore di sistema.</p></li> 
         <li>Reimposta password utente</li> 
        </ul> <p>Questa opzione è disabilitata per impostazione predefinita.</p> </td> 
      </tr> 
