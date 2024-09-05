@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: c815ce839e32cc060cd839272bc3d06938b4137a
+source-git-commit: d92dc8581bef1f5fdbef7a853ac27ffc3fa7ddbe
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 10%
+source-wordcount: '736'
+ht-degree: 9%
 
 ---
 
@@ -327,7 +327,7 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>gruppi</td> 
+   <td>gruppi<p><b>NOTA</b>: questo campo non è filtrabile.</p></td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1857,7 +1857,7 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>dati</td> 
+   <td>dati<p><b>NOTA</b>: questo campo non è filtrabile.</p></td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1907,7 +1907,7 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>dati</td> 
+   <td>dati<p><b>NOTA</b>: questo campo non è filtrabile.</p></td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1927,7 +1927,7 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>campi</td> 
+   <td>campi<p><b>NOTA</b>: questo campo non è filtrabile.</p></td> 
   </tr> 
   <tr> 
    <td> </td> 

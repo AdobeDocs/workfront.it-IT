@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
+source-git-commit: d92dc8581bef1f5fdbef7a853ac27ffc3fa7ddbe
 workflow-type: tm+mt
-source-wordcount: '2147'
+source-wordcount: '2157'
 ht-degree: 3%
 
 ---
@@ -452,6 +452,12 @@ Ad esempio, è possibile impostare una sottoscrizione dell&#39;evento **UPDATE -
 * L&#39;applicazione di più filtri a una singola sottoscrizione equivale a utilizzare un operatore logico **AND**.
 * È possibile applicare più sottoscrizioni di eventi a un singolo oggetto, a condizione che uno o più parametri del campo di sottoscrizione dell’evento siano diversi tra ciascuna sottoscrizione di eventi.
 * Quando a un singolo oggetto vengono assegnate più sottoscrizioni di eventi, tutte le sottoscrizioni di eventi associate a tale oggetto possono essere restituite a un singolo endpoint. Questa esercitazione può essere utilizzata come sostituto equivalente dell&#39;operatore logico **OR** che non può essere impostato utilizzando i parametri di filtro.
+* I seguenti campi non sono filtrabili:
+
+   * DOCU.groups
+   * RECORD.data
+   * RECORD_TYPE.data
+   * RECORD_TYPE.fields
 
 ### Utilizzo degli operatori di confronto
 
