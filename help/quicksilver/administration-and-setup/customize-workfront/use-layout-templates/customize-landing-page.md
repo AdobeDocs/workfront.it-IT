@@ -8,16 +8,21 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 0%
+source-wordcount: '442'
+ht-degree: 5%
 
 ---
 
 # Personalizzare la pagina di destinazione utilizzando un modello di layout
 
 In qualità di amministratore di Adobe Workfront, puoi utilizzare un modello di layout per specificare l’area che gli utenti dovranno visualizzare ogni volta che accedono a Workfront.
+
+Gli utenti possono aprire una delle seguenti posizioni:
+
+* Area Workfront designata
+* Un dashboard personalizzato.
 
 Per informazioni sulla creazione di modelli di layout, vedere [Creare e gestire modelli di layout](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -62,9 +67,38 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
 1. Iniziare a lavorare su un modello di layout, come descritto in [Creare e gestire modelli di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 1. Nell&#39;**area di navigazione superiore**, fai clic su **Seleziona pagina di destinazione**, quindi seleziona l&#39;area che desideri che gli utenti visualizzino al momento dell&#39;accesso.
 
+   Seleziona una delle seguenti aree o aggiungi un dashboard personalizzato:
+
+   * Analisi
+   * Calendari
+   * Dashboard
+   * Documenti
+   * Obiettivi
+   * Pagina Home
+   * I miei aggiornamenti
+   * Portfolio
+   * Programmi
+   * Progetti
+   * Report
+   * Richieste
+   * Gestione risorse
+   * Scenari
+   * Team
+   * Modelli
+   * Schede orario
+   * Utenti
+   * Blueprint
+   * In Pianificazione
+
    >[!IMPORTANT]
    >
-   >Per visualizzare le aree Scenari e Obiettivi sono necessarie licenze aggiuntive. Per informazioni sugli obiettivi di Workfront, vedere [Panoramica sugli obiettivi di Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md) oppure per informazioni sulla Pianificazione scenario di Workfront, vedere [Panoramica sulla Pianificazione scenario](../../../scenario-planner/scenario-planner-overview.md).
+   >Per visualizzare le aree Scenari, Obiettivi e Pianificazione sono necessarie licenze aggiuntive.
+   >
+   >* Per informazioni sugli obiettivi di Workfront, consulta [Panoramica sugli obiettivi di Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
+   >
+   >* Per informazioni su Workfront Scenario Planner, vedere [Panoramica di Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
+   >
+   >* Per informazioni su Workfront Planning, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 1. Continuate a personalizzare il modello di layout.
 

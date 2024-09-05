@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 0%
+source-wordcount: '516'
+ht-degree: 4%
 
 ---
 
@@ -64,11 +64,38 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
 
 1. Nel menu a discesa visualizzato, effettuare una delle seguenti operazioni:
 
-   * Fare clic su una voce del menu principale.
+   * Seleziona tra le seguenti aree:
 
-     >[!IMPORTANT]
-     >
-     >Per visualizzare le aree Scenari e Obiettivi sono necessarie licenze aggiuntive. Per informazioni sugli obiettivi di Workfront, vedere [Panoramica sugli obiettivi di Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md) oppure per informazioni sulla Pianificazione scenario di Workfront, vedere [Panoramica sulla Pianificazione scenario](../../../scenario-planner/scenario-planner-overview.md).
+      * Analisi
+      * Calendari
+      * Dashboard
+      * Documenti
+      * Obiettivi
+      * Pagina Home
+      * I miei aggiornamenti
+      * Portfolio
+      * Programmi
+      * Progetti
+      * Report
+      * Richieste
+      * Gestione risorse
+      * Scenari
+      * Team
+      * Modelli
+      * Schede orario
+      * Utenti
+      * Blueprint
+      * In Pianificazione
+
+   >[!IMPORTANT]
+   >
+   >Per visualizzare le aree Scenari, Obiettivi e Pianificazione sono necessarie licenze aggiuntive.
+   >
+   >* Per informazioni sugli obiettivi di Workfront, consulta [Panoramica sugli obiettivi di Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
+   >
+   >* Per informazioni su Workfront Scenario Planner, vedere [Panoramica di Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
+   >
+   >* Per informazioni su Workfront Planning, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
    * Fai clic su **Aggiungi dashboard**, quindi digita un titolo descrittivo della sezione **Personalizza** e aggiungi il dashboard.
 

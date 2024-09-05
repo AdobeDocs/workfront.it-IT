@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '7446'
+source-wordcount: '7484'
 ht-degree: 0%
 
 ---
@@ -144,6 +144,13 @@ In questo aggiornamento sono incluse le seguenti funzionalità:
 * In qualità di responsabile dell&#39;area di lavoro, puoi creare un modulo di richiesta e associarlo a un tipo di record. È possibile condividere un collegamento a questo modulo con altri utenti, inclusi utenti esterni.
 
 * Quando gli utenti accedono al modulo, lo completano e inviano la richiesta, viene creato un record per il tipo di record associato al modulo di richiesta.
+
+* A seconda della configurazione, il modulo di richiesta può visualizzare tutti i campi del tipo di record, ad eccezione dei campi dei tipi seguenti:
+
+   * Persone
+   * Campi collegati (include connessioni con risorse Experience Manager)
+   * Campi di ricerca connessi
+   * Formula
 
 Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 

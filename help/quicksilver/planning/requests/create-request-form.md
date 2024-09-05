@@ -5,9 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
+source-git-commit: 3823afdc14aaf5646d8edc60f5ad633e48336af7
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1159'
 ht-degree: 2%
 
 ---
@@ -130,7 +131,17 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
 
    Per impostazione predefinita, il modulo di richiesta contiene le seguenti informazioni:
 
-   * Tutti i campi record disponibili nella vista tabella del tipo di record selezionato.
+   * Campi record disponibili nella vista tabella del tipo di record selezionato. <!--they are working on removing the limitation below-->
+
+     >[!IMPORTANT]
+     >
+     >   I campi dei seguenti tipi non vengono visualizzati nel modulo di richiesta:
+     >
+     >    * Persone
+     >    * Campi collegati (include connessioni con risorse Experience Manager)
+     >    * Campi di ricerca connessi
+     >    * Formula
+
    * **Sezione predefinita**: questa è l&#39;interruzione di sezione predefinita che Workfront applica al modulo di richiesta. Impossibile rinominare o rimuovere la sezione predefinita.
    * Campo **Oggetto**: campo che identificherà la richiesta in Workfront. Questa funzionalità non è ancora disponibile.
    * Tutti i campi associati al tipo di record.
@@ -199,6 +210,3 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
    >
    >In questo caso, il collegamento viene condiviso pubblicamente.
    >![](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
-
-
-

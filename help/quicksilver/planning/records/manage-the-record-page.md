@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1357'
 ht-degree: 0%
 
 ---
@@ -216,7 +216,7 @@ Si verificano le seguenti situazioni:
    * L&#39;oggetto Workfront viene inoltre rimosso dal campo connesso del record da Workfront Planning.
    * Vengono eliminati anche i valori dei campi di ricerca di Workfront connessi al record Planning.
 
-## Ridisporre i campi nell&#39;anteprima o nella pagina del record
+## Ridisporre i campi nella scheda Dettagli del record
 
 {{step1-to-planning}}
 
@@ -240,11 +240,11 @@ Si verificano le seguenti situazioni:
 
 1. (Facoltativo) Fai clic sull&#39;icona **Apri in una nuova scheda** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda.
 
-   Viene visualizzata la pagina del record.
+   Per impostazione predefinita viene aperta la scheda **Dettagli** del record.
 
    ![](assets/details-page.png)
 
-1. Nell&#39;anteprima del record o nella pagina, fare clic sull&#39;icona **grab** ![](assets/grab-icon.png) a sinistra del nome di un campo, quindi trascinarla e rilasciarla in un punto desiderato. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
+1. Nella scheda record **Dettagli**, fai clic sull&#39;icona **grab** ![](assets/grab-icon.png) a sinistra del nome di un campo, quindi trascinala e rilasciala nella posizione desiderata. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
 
    La nuova posizione del campo viene aggiornata sia nell&#39;anteprima che nella pagina di tutti i record dello stesso tipo per tutti gli utenti che visualizzano i record.
 
