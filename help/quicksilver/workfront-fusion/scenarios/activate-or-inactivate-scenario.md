@@ -7,9 +7,9 @@ description: Questo articolo descrive perché gli scenari attivi o disattivati s
 author: Becky
 feature: Workfront Fusion
 exl-id: b3eea763-f0bf-4037-8d73-20d112dc5ac3
-source-git-commit: 0f6d02733f091d7e548db6005eebb3a24087799a
+source-git-commit: b1764e443ebb0ad48ca4ae0263d326f4156fb155
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '290'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 * Uno scenario inattivo viene eseguito solo quando viene eseguito manualmente.
 
-  Questa opzione è utile quando si desidera eseguire lo scenario solo in determinati momenti.
+  Questa opzione è utile quando si desidera eseguire lo scenario manualmente ogni volta.
 
 Puoi attivare o disattivare uno scenario in qualsiasi momento, a seconda di come desideri utilizzarlo.
 
