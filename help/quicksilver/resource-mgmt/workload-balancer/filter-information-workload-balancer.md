@@ -6,9 +6,9 @@ description: Per trovare in modo efficiente gli elementi di lavoro e concentrars
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: b255a3140629a488d24d1df980ba81faa1064d16
 workflow-type: tm+mt
-source-wordcount: '2497'
+source-wordcount: '2470'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,9 @@ Questo articolo contiene informazioni sui filtri nel Bilanciatore dei carichi di
 
 ## Requisiti di accesso
 
-Devi avere i seguenti:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,38 +45,40 @@ Devi avere i seguenti:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
-   <td> <p>Qualsiasi piano</p> </td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
+   <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Pianificare, quando si utilizza il Bilanciatore dei carichi di lavoro nell'area Risorse</p>
-   <p>Utilizzare il Bilanciatore dei carichi di lavoro di un team o di un progetto</p>
- </td> 
-  </tr> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td><p>Nuovo: Standard</p>
+       <p>oppure</p>
+       <p>Corrente: piano, quando si utilizza il Bilanciatore dei carichi di lavoro nell'area Risorse;</br>
+       Utilizzare il Bilanciatore dei carichi di lavoro di un team o di un progetto</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Livello di accesso*</td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Accesso di visualizzazione o superiore ai seguenti elementi:</p> 
     <ul> 
-     <li> <p>Gestione risorse</p> </li> 
-     <li> <p>Progetti</p> </li> 
-     <li> <p>Attività</p> </li> 
-     <li> <p>Problemi</p> </li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Filtri, visualizzazioni e raggruppamenti</p> </li> 
-    </ul> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span>Modifica l'accesso a filtri, visualizzazioni e raggruppamenti durante la creazione o la modifica di filtri</span> </p> <p><b>NOTA</b>
-
-Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
-</tr> 
+     <li>Gestione risorse</li> 
+     <li>Progetti</li> 
+     <li>Attività</li> 
+     <li>Problemi</li>
+     <li>Filtri, visualizzazioni e raggruppamenti</li>
+    </ul>
+    <p>Modificare l’accesso a Filtri, Viste e Raggruppamenti durante la creazione o la modifica di filtri </p> </td>
+  </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
    <td> <p>Visualizza o autorizzazioni superiori per i progetti, le attività e i problemi</p>
    <p>Gestire le autorizzazioni per i filtri da modificare o eliminare</p>
-     </p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Panoramica dei filtri nel Bilanciatore dei carichi di lavoro
 

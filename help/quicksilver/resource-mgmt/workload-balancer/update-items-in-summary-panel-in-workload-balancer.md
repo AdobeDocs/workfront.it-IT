@@ -6,16 +6,14 @@ description: È possibile aprire il pannello Riepilogo nel Bilanciatore dei cari
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: d19b817aabf169e1b8f38bf63f6ca5cc3c0de308
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 1%
+source-wordcount: '403'
+ht-degree: 2%
 
 ---
 
 # Aggiornare gli elementi di lavoro nel Bilanciatore dei carichi di lavoro utilizzando il Riepilogo
-
-{{highlighted-preview}}
 
 Puoi utilizzare il pannello Riepilogo di un’attività o di un problema per aggiornare informazioni importanti per tale elemento. nel Bilanciatore dei carichi di lavoro.
 
@@ -23,40 +21,46 @@ Il pannello Riepilogo è disponibile per le attività e i problemi nelle aree La
 
 ## Requisiti di accesso
 
-Devi avere i seguenti:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Pianificare, quando si utilizza il Bilanciatore dei carichi di lavoro nell'area Risorse</p>
-   <p>Utilizzare il Bilanciatore dei carichi di lavoro di un team o di un progetto</p> 
- </p> </td> 
-  </tr> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td><p>Nuovo: Standard</p>
+       <p>oppure</p>
+       <p>Corrente: piano, quando si utilizza il Bilanciatore dei carichi di lavoro nell'area Risorse;</br>
+       Utilizzare il Bilanciatore dei carichi di lavoro di un team o di un progetto</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Modifica accesso a:</p> 
     <ul> 
-     <li> <p>Gestione risorse</p> </li> 
-     <li> <p>Progetti</p> </li> 
-     <li> <p>Attività</p> </li> 
-     <li> <p>Problemi</p> </li> 
-    </ul> <p>Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+     <li>Gestione risorse</li> 
+     <li>Progetti</li> 
+     <li>Attività</li> 
+     <li>Problemi</li> 
+    </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Autorizzazioni Contribute o superiori per progetti, attività e problemi </p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td>Autorizzazioni Contribute o superiori per progetti, attività e problemi</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Aggiornare attività e problemi nel pannello Riepilogo del Bilanciatore dei carichi di lavoro
 
@@ -82,15 +86,7 @@ Devi avere i seguenti:
 
    Il pannello Riepilogo si apre a destra.
 
-   <div class="preview">
-
-   Esempio del pannello Riepilogo nell’ambiente di anteprima:
    ![Pannello di riepilogo](assets/summary-panel-task-wb-new-comments.png)
-
-   </div>
-
-   Esempio del pannello Riepilogo nell’ambiente di produzione:
-   ![Pannello di riepilogo](assets/summary-panel-for-task-in-workload-balancer-350x449.png)
 
 1. Modificare un certo numero di campi per l&#39;elemento di lavoro, immettere un aggiornamento oppure passare da qui ad altre aree di Workfront per aggiungere documenti o altre informazioni all&#39;elemento di lavoro.
 

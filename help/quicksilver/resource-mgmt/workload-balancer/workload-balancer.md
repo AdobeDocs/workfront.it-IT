@@ -2,15 +2,15 @@
 content-type: reference
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
-title: Il Bilanciatore dei carichi di lavoro
+title: "Il Bilanciatore dei carichi di lavoro: indice degli articoli"
 description: Il Bilanciatore dei carichi di lavoro è uno strumento di pianificazione delle risorse in Adobe Workfront che consente di assegnare attività e problemi alle risorse umane.
 author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: b6a9e2ad-bd69-4075-8b87-3545e07b744d
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---

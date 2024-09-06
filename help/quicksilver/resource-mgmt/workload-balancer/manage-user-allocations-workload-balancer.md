@@ -6,7 +6,7 @@ description: In qualità di Responsabile risorse, puoi assegnare il lavoro agli 
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
 source-wordcount: '2898'
 ht-degree: 0%
@@ -23,7 +23,7 @@ In qualità di Responsabile risorse, è possibile assegnare lavoro agli utenti e
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Devi avere i seguenti:
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,26 +35,21 @@ Devi avere i seguenti:
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td>
-   <p>Quando si utilizza il Bilanciatore dei carichi di lavoro nell’area Risorse, è necessario:</p>
-   <p>Nuovo: Standard</p>
-   <p>Oppure</p>
-   <p>Corrente: Piano</p>
-   <p>Quando si utilizza il Bilanciatore dei carichi di lavoro di un team o di un progetto, è necessario:</p>
-   <p>Nuovo: Standard</p>
-   <p>Oppure</p>
-   <p>Corrente: Lavoro</p>
- </td> 
-  </tr> 
+   <td><p>Nuovo: Standard</p>
+       <p>oppure</p>
+       <p>Corrente: piano, quando si utilizza il Bilanciatore dei carichi di lavoro nell'area Risorse;</br>
+       Utilizzare il Bilanciatore dei carichi di lavoro di un team o di un progetto</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Configurazione del livello di accesso</td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Modifica accesso a:</p> 
     <ul> 
-     <li> <p>Gestione risorse</p> </li> 
-     <li> <p>Progetti</p> </li> 
-     <li> <p>Attività</p> </li> 
-     <li> <p>Problemi</p> </li> 
-    </ul> </td> 
+     <li>Gestione risorse</li> 
+     <li>Progetti</li> 
+     <li>Attività</li> 
+     <li>Problemi</li> 
+    </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 

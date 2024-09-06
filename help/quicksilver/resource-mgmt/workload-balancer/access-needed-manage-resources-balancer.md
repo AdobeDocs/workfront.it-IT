@@ -6,9 +6,9 @@ description: Senza l'accesso o le autorizzazioni corrette, potrebbe non essere p
 author: Lisa
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ La tabella seguente illustra la connessione tra il piano Workfront di cui dispon
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p><b>Workfront Plan</b></p></td> 
+   <td role="rowheader"><p><b>Piano Workfront (corrente)</b></p></td> 
    <td> <p><b>Aree in cui è possibile accedere al Bilanciatore dei carichi di lavoro</b></p> </td> 
   </tr> 
   <tr> 
@@ -38,6 +38,14 @@ La tabella seguente illustra la connessione tra il piano Workfront di cui dispon
   <tr> 
    <td role="rowheader">Pro o superiore</td> 
    <td>Bilanciatore dei carichi di lavoro per più progetti, a livello di sistema</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p><b>Piano Workfront (nuovo)</b></p></td> 
+   <td> <p><b>Aree in cui è possibile accedere al Bilanciatore dei carichi di lavoro</b></p> </td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">Qualsiasi </td> 
+   <td>Accedere al Bilanciatore dei carichi di lavoro ovunque in Workfront</td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,26 +61,26 @@ Per visualizzare il Bilanciatore dei carichi di lavoro è necessario disporre de
 <table style="table-layout:auto"> 
  <col> 
  <col> 
- <tbody> 
+ <tbody>
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano per visualizzare il Bilanciatore dei carichi di lavoro nell'area Risorse</p>
-   <p>Lavorare per visualizzare il Bilanciatore dei carichi di lavoro di un team o di un progetto</p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td><p>Nuovo: Standard</p>
+       <p>oppure</p>
+       <p>Corrente: piano, per visualizzare il Bilanciatore dei carichi di lavoro nell'area Risorse;</br>
+       Utilizzare, per visualizzare il Bilanciatore dei carichi di lavoro di un team o di un progetto</p></td>
+  </tr>  
+  <tr> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Accesso di visualizzazione o superiore a Gestione risorse</p> <p>Per informazioni sul livello di accesso Gestione risorse, vedere l'articolo <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Concedere l'accesso a Gestione risorse</a>.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Accesso di visualizzazione o superiore a Gestione risorse</p> <p>Per informazioni sul livello di accesso Gestione risorse, vedere l'articolo <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Concedere l'accesso a Gestione risorse</a>.</p> <p><b>NOTA</b>
-
-Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
-</tr> 
-  <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Si dispone delle autorizzazioni di visualizzazione per il progetto di cui si desidera visualizzare le assegnazioni. </p> <p>Per informazioni sulle autorizzazioni del progetto, vedere l'articolo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Condividere un progetto in Adobe Workfront</a>.</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>È necessario disporre delle autorizzazioni di visualizzazione per il progetto di cui si desidera visualizzare le assegnazioni. </p> <p>Per informazioni sulle autorizzazioni del progetto, vedere l'articolo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Condividere un progetto in Adobe Workfront</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Accesso necessario per gestire le assegnazioni nel Bilanciatore dei carichi di lavoro
 
@@ -81,29 +89,27 @@ Per gestire il Bilanciatore dei carichi di lavoro è necessario disporre dei seg
 <table style="table-layout:auto"> 
  <col> 
  <col> 
- <tbody> 
+ <tbody>
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano per gestire le assegnazioni nel Bilanciatore dei carichi di lavoro nell'area Risorse</p>
-   <p>Lavorare per gestire le assegnazioni nel Bilanciatore dei carichi di lavoro di un team o di un progetto</p>
-   </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td><p>Nuovo: Standard</p>
+       <p>oppure</p>
+       <p>Corrente: piano, per gestire le assegnazioni nel Bilanciatore dei carichi di lavoro nell'area Risorse;</br>
+       Utilizzare, per gestire le assegnazioni nel Bilanciatore dei carichi di lavoro di un team o di un progetto</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Modifica accesso a Gestione risorse</p> 
-     <p>Per informazioni sul livello di accesso Gestione risorse, vedere l'articolo <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Concedere l'accesso a Gestione risorse</a>.</p>
-     <p><b>NOTA</b>
-
-Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
-</tr> 
+     <p>Per informazioni sul livello di accesso Gestione risorse, vedere l'articolo <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Concedere l'accesso a Gestione risorse</a>.</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p> Autorizzazioni Contribute o di livello superiore per il progetto di cui si desidera gestire le assegnazioni, che includono le autorizzazioni per effettuare assegnazioni. </p> <p>Per informazioni sulle autorizzazioni del progetto, vedere l'articolo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Condividere un progetto in Adobe Workfront</a>.</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p> Autorizzazioni Contribute o di livello superiore per il progetto di cui si desidera gestire le assegnazioni, che includono le autorizzazioni per effettuare assegnazioni. </p> <p>Per informazioni sulle autorizzazioni del progetto, vedere l'articolo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Condividere un progetto in Adobe Workfront</a>.</p></td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--these notes were inside the table: for the Edit access to Res Management
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">View or higher access to Financial Data, if you want to view information by cost (NOTE: this is not possible yet!)</p>    

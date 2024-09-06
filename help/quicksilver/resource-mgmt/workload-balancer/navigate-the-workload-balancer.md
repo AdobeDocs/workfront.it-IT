@@ -2,66 +2,28 @@
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Navigare nel Bilanciatore dei carichi di lavoro
-description: Utilizza il Bilanciatore dei carichi di lavoro per comprendere la disponibilità delle risorse e per assegnare lavoro agli utenti. Questo articolo illustra come utilizzare le icone e le impostazioni disponibili per aggiornare la visualizzazione e navigare nel Bilanciatore dei carichi di lavoro.
+description: Utilizza il Bilanciatore dei carichi di lavoro per comprendere la disponibilità delle risorse e per assegnare lavoro agli utenti. In questo articolo viene illustrato come utilizzare le icone e le impostazioni disponibili per aggiornare la visualizzazione e spostarsi in Workload Balancer.
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '4146'
+source-wordcount: '4068'
 ht-degree: 0%
 
 ---
 
-# Navigare nel Bilanciatore dei carichi di lavoro
+# Spostarsi nel Workload Balancer
 
-Utilizza il Bilanciatore dei carichi di lavoro in Adobe Workfront per assegnare il lavoro agli utenti in base alla loro disponibilità. Questo articolo descrive come utilizzare le impostazioni e le opzioni per navigare nel Bilanciatore dei carichi di lavoro e visualizzare le informazioni pertinenti. Gli articoli aggiuntivi elencati di seguito descrivono come utilizzare il Bilanciatore dei carichi di lavoro per gestire le risorse e la relativa allocazione al lavoro.
+Utilizzare Workload Balancer in Adobe Systems Workfront per assegnare il lavoro agli utenti in base alla loro disponibilità. In questo articolo viene descritto come utilizzare le impostazioni e le opzioni per esplorare Workload Balancer e visualizzare le informazioni rilevanti per l&#39;utente. Gli articoli aggiuntivi elencati di seguito descrivono come utilizzare Workload Balancer per gestire le risorse e la loro allocazione al lavoro.
 
 Il Bilanciatore dei carichi di lavoro è disponibile in più aree di Adobe Workfront. La navigazione è simile in tutte le aree.
 
 Per ulteriori informazioni sulla posizione del Bilanciatore dei carichi di lavoro, vedere [Individuare il Bilanciatore dei carichi di lavoro](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer.html?lang=en).
 
-
 ## Requisiti di accesso
 
-<!--drafted - replace table for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-<td><p>Current license: Standard </p>
-    Or 
-<p>Legacy license:</p>
-    <ul>
-    <li><p>Plan, when using the Workload Balancer for a team or in the Resourcing area </p></li>
-    <li><p>Work, when using the Workload Balancer of a project </p></li>
-    </ul>
- </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to the following:</p> 
-    <ul> 
-     <li> <p>Resource Management</p> </li> 
-     <li> <p>Projects</p> </li> 
-     <li> <p>Tasks</p> </li> 
-     <li> <p>Issues</p> </li> 
-    </ul> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -70,33 +32,37 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Pianificare, quando si utilizza il Bilanciatore dei carichi di lavoro nell'area Risorse</p>
-   <p>Utilizzare il Bilanciatore dei carichi di lavoro di un team o di un progetto</p>
- </td> 
-  </tr> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td><p>Nuovo: Standard</p>
+       <p>oppure</p>
+       <p>Corrente: piano, quando si utilizza il Bilanciatore dei carichi di lavoro nell'area Risorse;</br>
+       Utilizzare il Bilanciatore dei carichi di lavoro di un team o di un progetto</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Accesso di visualizzazione o superiore ai seguenti elementi:</p> 
     <ul> 
-     <li> <p>Gestione risorse</p> </li> 
-     <li> <p>Progetti</p> </li> 
-     <li> <p>Attività</p> </li> 
-     <li> <p>Problemi</p> </li> 
-    </ul> <p>Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+     <li>Gestione risorse</li> 
+     <li>Progetti</li> 
+     <li>Attività</li> 
+     <li>Problemi</li> 
+    </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizza o autorizzazioni superiori per i progetti, le attività e i problemi </p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td>Visualizza o autorizzazioni superiori per i progetti, le attività e i problemi</td> 
   </tr> 
  </tbody> 
 </table>
 
-*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Considerazioni per la visualizzazione degli elementi nel Bilanciatore dei carichi di lavoro
 
@@ -110,8 +76,8 @@ Quando visualizzi il Bilanciatore dei carichi di lavoro, considera quanto segue:
   >[!NOTE]
   >
   >* Gli elementi di lavoro assegnati a una mansione o a un team e assegnati a un utente vengono visualizzati sia nell&#39;area Lavoro non assegnato che sotto il nome dell&#39;utente assegnato nell&#39;area Lavoro assegnato.
-  >* Gli elementi di lavoro assegnati a un utente e una mansione, in cui la mansione è selezionata come assegnataria principale dell’elemento, vengono visualizzati nell’area Lavoro non assegnato.
-  >* Gli elementi di lavoro assegnati a più utenti vengono visualizzati sotto tutti i nomi degli utenti assegnati nell’area Lavoro assegnato.
+  >* Gli elementi di lavoro assegnati a un utente e a un ruolo processo, in cui il ruolo professionale viene selezionato come assegnatario principale dell&#39;elemento, vengono visualizzati nell&#39;area Lavoro non assegnato.
+  >* Gli elementi di lavoro assegnati a più utente vengono visualizzati con tutti i nomi degli utenti assegnati nell&#39;area di lavoro assegnato.
 
   Per ulteriori informazioni, vedere &quot;Aree di assegnazione nel Bilanciatore dei carichi di lavoro&quot; in [Panoramica sull&#39;assegnazione di lavoro nel Bilanciatore dei carichi di lavoro](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
@@ -156,17 +122,18 @@ Dopo aver selezionato le impostazioni da applicare alla vista, il Bilanciatore d
 
 Per navigare nel Bilanciatore dei carichi di lavoro per più progetti:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Workfront, quindi fai clic su **Risorse**.
+{{step1-to-resourcing}}
+
 1. Fai clic su **Bilanciatore dei carichi di lavoro** nel pannello a sinistra.
 
    ![Bilanciamento del carico di lavoro](assets/nwe-balancer-global.png)
 
    Il Bilanciatore dei carichi di lavoro visualizza le informazioni sull’assegnazione del lavoro a partire dalla settimana corrente nelle due aree seguenti:
 
-   * Nell&#39;area **Lavoro non assegnato** sono visualizzati i seguenti elementi di lavoro:
+   * Nell&#39;area **di lavoro** non assegnati vengono visualizzati i seguenti elementi di lavoro:
 
-      * Gli elementi di lavoro (attività e problemi) assegnati a ruoli, team o a cui non è stato assegnato vengono visualizzati dopo l’applicazione dei filtri.
-Nell&#39;area Lavoro non assegnato non viene visualizzato alcun elemento di lavoro per impostazione predefinita. È consigliabile utilizzare i filtri per visualizzare informazioni rilevanti per l&#39;utente in quest&#39;area.
+      * Gli elementi di lavoro (attività e problemi) assegnati a ruoli, team o non assegnati vengono visualizzati dopo l&#39;applicazione dei filtri.
+Per impostazione predefinita, l&#39;area di lavoro non assegnata non visualizza alcun elemento di lavoro. Ti consigliamo di utilizzare i filtri per visualizzare le informazioni rilevanti per te in quest&#39;area.
 
         Per informazioni sull&#39;utilizzo dei filtri, vedere [Informazioni sui filtri nel Bilanciatore dei carichi di lavoro](../workload-balancer/filter-information-workload-balancer.md).
 
@@ -215,11 +182,11 @@ Nell&#39;area Lavoro non assegnato non viene visualizzato alcun elemento di lavo
 
 1. Utilizzare lo scorrimento orizzontale per visualizzare la sequenza temporale degli elementi di lavoro che si estendono oltre i limiti dello schermo.
 1. Fai clic sulle icone **avanti o indietro** ![Indietro e avanti](assets/back-and-forward-icons.png) nell&#39;angolo superiore sinistro per spostarti nella timeline, quindi fai clic su **Oggi** per tornare alla settimana corrente.
-1. Fare clic sul menu a discesa dell&#39;intervallo di tempo **** sulla barra degli strumenti, quindi fare clic sulla data di inizio del periodo che si desidera visualizzare. Per impostazione predefinita, la prima settimana selezionata nel calendario è quella a cui si è passati.
+1. Fai clic sul **menu** a discesa Intervallo di tempo nella barra degli strumenti, quindi fai clic sulla data di inizio del periodo che desideri visualizzare. Per impostazione predefinita, la prima settimana selezionata nel calendario è la settimana in cui è stato effettuato il passaggio.
 
    ![Selezione calendario](assets/calendar-date-picker-wb.png)
 
-1. Seleziona il numero di settimane da visualizzare contemporaneamente nel Bilanciatore dei carichi di lavoro tra le seguenti opzioni:
+1. Selezionare il numero di settimane che si desidera visualizzare contemporaneamente in Workload Balancer tra le opzioni seguenti:
    * 1 settimana
    * 2 settimane
    * 4 settimane. Questa è l&#39;impostazione predefinita.
@@ -264,11 +231,11 @@ Nell&#39;area Lavoro non assegnato non viene visualizzato alcun elemento di lavo
 
 1. Trascina e rilascia la **linea di separazione** tra il pannello sinistro e l&#39;area della timeline per modificare le dimensioni del pannello sinistro.
 
-   ![Riga di separazione](assets/wb-adjust-panel-size.png)
+   ![Linea di separazione](assets/wb-adjust-panel-size.png)
 
-1. Fare clic sull&#39;icona **Impostazioni** ![Impostazioni](assets/settings-gear-icon.png).
+1. Fai clic sull&#39;icona ![Impostazioni **Impostazioni sull&#39;icona**.](assets/settings-gear-icon.png)
 
-   Il pannello Impostazioni viene visualizzato a destra.
+   Il pannello Impostazioni viene visualizzato sulla destra.
 
    ![Pannello impostazioni](assets/settings-box-options-global-with-color-theme-and-percentage-wb-nwe.png)
 
@@ -352,13 +319,13 @@ Nell&#39;area Lavoro non assegnato non viene visualizzato alcun elemento di lavo
       * In Windows: CTRL+clic sulla barra delle attività o dei problemi.
       * In Mac: CMD+fai clic sulla barra delle attività o dei problemi.
 
-     Per ulteriori informazioni sull&#39;assegnazione di elementi di lavoro agli utenti nel Bilanciatore dei carichi di lavoro, vedere [Panoramica sull&#39;assegnazione di lavoro nel Bilanciatore dei carichi di lavoro](../workload-balancer/assign-work-in-workload-balancer.md).
+     Per ulteriori informazioni sull&#39;assegnazione di elementi di lavoro agli utenti nel bilanciamento del carico di lavoro, vedere [Panoramica dell&#39;assegnazione del lavoro nel bilanciamento del carico di](../workload-balancer/assign-work-in-workload-balancer.md) lavoro.
 
      >[!TIP]
      >
-     >Se l’amministratore di Workfront o di gruppo ha abilitato le deleghe nell’ambiente, utilizza la scheda Assegnazioni per assegnare gli utenti all’attività o al problema. Per informazioni sulla delega del lavoro, vedere [Gestire la delega di attività e problemi](../../manage-work/delegate-work/how-to-delegate-work.md).
+     >Se Workfront o l&#39;amministratore del gruppo ha abilitato le deleghe nell&#39;ambiente, utilizzare il scheda Assegnazioni per assegnare gli utenti all&#39;attività o al problema. Per informazioni sulla delega del lavoro, vedere [Gestire la delega](../../manage-work/delegate-work/how-to-delegate-work.md) delle attività e dei problemi.
 
-   * **Modifica allocazioni**, quindi modifica le allocazioni giornaliere o settimanali per l&#39;utente. Per informazioni sulla gestione delle allocazioni utente, vedere [Gestione delle allocazioni utente nel Bilanciatore dei carichi di lavoro](../workload-balancer/manage-user-allocations-workload-balancer.md).
+   * **Modifica allocazioni**, quindi modifica le allocazioni giornaliere o settimanali per il utente. Per informazioni sulla gestione delle allocazioni utente, vedere [Gestione delle allocazioni utente nel Bilanciatore dei carichi di lavoro](../workload-balancer/manage-user-allocations-workload-balancer.md).
 
    * **Apri riepilogo**. Il pannello Riepilogo si apre a destra, quindi fai clic sul campo Assegnazioni e inizia a digitare il nome di un utente, ruolo o team nel campo **Cerca persone, ruolo o team** per assegnare l&#39;elemento. Per ulteriori informazioni, vedere la sezione [Visualizzare ulteriori informazioni sulle attività e sui problemi](#display-more-information-about-tasks-and-issues) in questo articolo.
 
@@ -433,9 +400,11 @@ Puoi visualizzare ulteriori informazioni sulle attività e sui problemi nel Bila
 
 La navigazione nel Bilanciatore dei carichi di lavoro di un team è simile alla navigazione nel Bilanciatore dei carichi di lavoro per più progetti. Per informazioni, vedere la sezione [Navigare nel Bilanciatore dei carichi di lavoro per più progetti](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in questo articolo.
 
-1. Fai clic sull&#39;icona **Menu principale** ![Menu principale](assets/main-menu-icon.png), quindi fai clic su **Team**.
+{{step1-to-team}}
+
 Per impostazione predefinita, viene visualizzata la pagina del team predefinito.
-1. Fai clic su **Bilanciatore dei carichi di lavoro** nel pannello a sinistra. Per impostazione predefinita, viene visualizzato il Bilanciatore dei carichi di lavoro di un team.
+
+1. Fai clic su **Bilanciatore dei carichi di lavoro** nel pannello a sinistra.
 
    ![Bilanciatore dei carichi di lavoro di un team](assets/nwe-balancer-team-350x172.png)
 
@@ -448,7 +417,8 @@ Per impostazione predefinita, viene visualizzata la pagina del team predefinito.
 
 ## Navigare nel Bilanciatore dei carichi di lavoro di un singolo progetto
 
-1. Fai clic sull&#39;icona **Menu principale** ![Menu principale](assets/main-menu-icon.png), quindi fai clic su **Progetti**.
+{{step1-to-projects}}
+
 1. Fai clic sul nome di un progetto per aprire la pagina del progetto.
 1. Fai clic su **Bilanciatore dei carichi di lavoro** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro**, quindi su **Bilanciatore dei carichi di lavoro**.
 
@@ -457,11 +427,11 @@ Per impostazione predefinita, viene visualizzata la pagina del team predefinito.
    Il Bilanciatore dei carichi di lavoro per il progetto visualizza le seguenti informazioni, per impostazione predefinita:
 
    * Nell&#39;area **Lavoro non assegnato**: elementi di lavoro del progetto assegnati a ruoli o team e non assegnati a utenti.
-   * Nell&#39;area **Lavoro assegnato**: elementi di lavoro del progetto assegnati ad almeno un utente.
+   * Nell&#39;area **Lavoro** assegnato: elementi di lavoro nel progetto assegnati ad almeno un utente.
 
-   È consigliabile utilizzare i filtri per mostrare solo gli utenti che sono importanti per te.
+   Ti consigliamo di usare i filtri per mostrare solo gli utenti importanti per te.
 
-   Ad esempio, puoi considerare la possibilità di visualizzare solo gli utenti che appartengono ai tuoi team o gruppi. Per ulteriori informazioni, vedere [Informazioni sul filtro nel Bilanciatore dei carichi di lavoro](../workload-balancer/filter-information-workload-balancer.md).
+   Ad esempio, potresti considerare di visualizzare solo gli utenti che appartengono ai tuoi team o gruppi. Per ulteriori informazioni, vedere [Informazioni sul filtro nel Bilanciatore dei carichi di lavoro](../workload-balancer/filter-information-workload-balancer.md).
 
 1. (Facoltativo) Fai clic sull&#39;icona **Filtro** ![Icona Filtro](assets/filter-icon.png) nell&#39;area Lavoro assegnato e seleziona l&#39;opzione **Elementi di lavoro del progetto** nell&#39;area **Suggested** del pannello dei filtri. Questo filtro è deselezionato per impostazione predefinita.
 

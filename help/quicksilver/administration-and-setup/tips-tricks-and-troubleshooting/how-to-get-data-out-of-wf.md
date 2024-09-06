@@ -9,14 +9,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ed40984f-602a-46e9-a72b-141936de8fcb
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
 
-# Esporta dati storici da [!DNL Adobe Workfron] t: pro e contro
+# Esporta dati storici da [!DNL Adobe Workfront]: pro e contro
 
 In questo articolo vengono illustrati i pro e i contro di quattro opzioni che è possibile utilizzare per esportare dati storici da [!DNL Workfront].
 
@@ -32,11 +32,11 @@ In questo articolo vengono illustrati i pro e i contro di quattro opzioni che è
 
 ## Richiedi un file di dump dei dati [!DNL Postgres] dal nostro team di database
 
-Il tuo Account Executive può inviare una richiesta al nostro team di database per esportare un file di dump del database (file con estensione dmp [!DNL Postgres]) con i tuoi dati. Un’ulteriore richiesta andrà al nostro team AOS per recuperare tutti i documenti memorizzati.
+È necessario inviare una richiesta al nostro team di Assistenza clienti, che invierà quindi una richiesta al nostro team di database per esportare un file di dump del database (file con estensione dmp [!DNL Postgres]) con i tuoi dati. Verrà inviata una richiesta aggiuntiva al nostro team NOC per recuperare tutti i documenti archiviati.
 
 * **Pro**: ottieni l&#39;intero caricamento dei dati, inclusi i campi personalizzati, nonché i documenti archiviati nel sistema.
 
-* **Contro**: il file di database è difficile da leggere: non è possibile leggere questo file a meno che non venga caricato in un database [!DNL Postgres] e non vengano ristabilite le relazioni tra le tabelle. I documenti vengono memorizzati in un file server separato e devono essere estratti separatamente utilizzando un processo separato dal team AOS. In questo modo, non esiste alcuna organizzazione per i documenti, a cui viene fatto riferimento tramite il relativo GUID.
+* **Contro**: il file di database è difficile da leggere: non è possibile leggere questo file a meno che non venga caricato in un database [!DNL Postgres] e non vengano ristabilite le relazioni tra le tabelle. I documenti vengono memorizzati in un file server separato e devono essere estratti separatamente utilizzando un processo separato dal team NOC. In questo modo, non esiste alcuna organizzazione per i documenti, a cui viene fatto riferimento tramite il relativo GUID.
 
 * **Costo**: esiste un costo associato a questo download, a seconda del tempo impiegato dal team per creare il file. Per ulteriori informazioni o per iniziare il processo, rivolgiti al tuo AE/CAE.
 
