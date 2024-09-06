@@ -3,10 +3,10 @@ product-area: resource-management;reporting
 navigation-topic: resource-planning
 title: Rapporto sulle ore preventivate di programmazione risorse
 description: È possibile preventivare le risorse sui progetti utilizzando la Programmazione delle risorse. Per informazioni sull'impostazione del budget delle risorse tramite Adobe Workfront Resource Planner, vedere l'articolo Risorse preventivate in Pianificazione risorse mediante le visualizzazioni Progetto e Ruolo.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 6adf11a4-3c33-484f-80cc-c5d96a7c7112
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%

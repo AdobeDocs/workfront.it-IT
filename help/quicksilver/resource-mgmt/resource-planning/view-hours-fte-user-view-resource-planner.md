@@ -2,12 +2,12 @@
 content-type: reference
 product-area: resource-management;user-management
 navigation-topic: resource-planning
-title: Visualizzare le ore disponibili, pianificate ed effettive o FTE nella Programmazione delle risorse quando si utilizza la vista Utente
+title: Visualizzare le ore disponibili, pianificate ed effettive o l'FTE nella Programmazione delle risorse quando si utilizza la Vista utente
 description: Visualizzare le ore disponibili, pianificate ed effettive o FTE nella pianificazione risorse quando si utilizza la vista Utente "Pianificazione" nell’RP", ad esempio "Budget delle risorse nell’RP" o "Gestione delle risorse nell’RP". ecc... - o potrebbe essere necessario riutilizzarlo da un altro POV?!)"
-author: Alina
+author: LIsa
 feature: Resource Management
 exl-id: 6b532aa2-435f-4fda-b7ce-abe0a785638f
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
 workflow-type: tm+mt
 source-wordcount: '1739'
 ht-degree: 1%

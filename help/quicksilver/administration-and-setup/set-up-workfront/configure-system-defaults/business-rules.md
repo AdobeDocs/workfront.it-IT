@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 0a50e3aef47720d78e798f6111ee503389dde984
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1152'
 ht-degree: 0%
 
 ---
 
-# Creare e modificare le regole business
+# Creare e modificare regole aziendali
 
 Una regola business consente di applicare la convalida agli oggetti di Workfront e di impedire agli utenti di creare, modificare o eliminare un oggetto quando vengono soddisfatte determinate condizioni. Le regole aziendali contribuiscono a migliorare la qualità dei dati e l’efficienza operativa impedendo azioni che potrebbero compromettere l’integrità dei dati.
 
@@ -74,10 +74,17 @@ Per informazioni sui caratteri jolly basati sulla data, vedere [Utilizzare carat
 
 Un carattere jolly API è disponibile anche nelle regole business. È possibile utilizzare `$$ISAPI` per attivare la regola solo nell&#39;interfaccia utente o solo nell&#39;API.
 
+I caratteri jolly `$$BEFORE_STATE` e `$$AFTER_STATE` vengono utilizzati nelle espressioni per accedere ai valori dei campi dell&#39;oggetto prima e dopo eventuali modifiche.
+
+* Questi caratteri jolly sono entrambi disponibili per il trigger di modifica. Lo stato predefinito del trigger di modifica (se nell&#39;espressione non è incluso alcuno stato) è `$$AFTER_STATE`.
+* Il trigger di creazione dell&#39;oggetto consente solo `$$AFTER_STATE`, perché lo stato prima non esiste.
+* Il trigger di eliminazione dell&#39;oggetto consente solo `$$BEFORE_STATE`, perché lo stato after non esiste.
+
+
 Alcuni semplici scenari di regole di business sono:
 
 * Gli utenti non possono aggiungere nuove spese durante l&#39;ultima settimana di febbraio. Questa formula potrebbe essere dichiarata come: `IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
-* Gli utenti non possono modificare un progetto che si trova nello stato Completato. Questa formula potrebbe essere dichiarata come: `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
+* Gli utenti non possono modificare il nome di un progetto nello stato Completato. Questa formula potrebbe essere dichiarata come: `IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")`
 
 Uno scenario con istruzioni IF nidificate è:
 
