@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: d43bc45ca400846307958fc15e04e16ef37eff11
 workflow-type: tm+mt
-source-wordcount: '14362'
+source-wordcount: '14372'
 ht-degree: 2%
 
 ---
@@ -172,6 +172,7 @@ ht-degree: 2%
          * [21.1 Altri miglioramenti](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Attività di rilascio di Adobe Workfront Fusion {#fusion-release}
          * [Attività di rilascio di Adobe Workfront Fusion](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Attività di rilascio di Workfront Fusion: settimana del 19 agosto 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-8-19.md)
          * [Attività di rilascio di Workfront Fusion: settimana del 5 agosto 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-8-5.md)
          * [Attività di rilascio di Workfront Fusion: settimana del 29 luglio 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-7-29.md)
          * [Attività di rilascio di Workfront Fusion: settimana del 22 luglio 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-7-22.md)
@@ -1450,6 +1451,7 @@ ht-degree: 2%
          * [Rimuovere un progetto da un portfolio](manage-work/portfolios/create-and-manage-portfolios/remove-project-from-portfolio.md)
          * [Esamina progetti richiesti](manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md)
       * Crea e gestisci programmi {#create-and-manage-programs}
+         * [Panoramica dei programmi in [!DNL Adobe Workfront]](manage-work/portfolios/create-and-manage-programs/programs-overview.md)
          * [Creare e gestire i programmi](manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
          * [Creare un programma](manage-work/portfolios/create-and-manage-programs/create-program.md)
          * [Modifica programmi](manage-work/portfolios/create-and-manage-programs/edit-programs.md)

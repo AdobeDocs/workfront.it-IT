@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
 workflow-type: tm+mt
 source-wordcount: '3620'
 ht-degree: 2%
@@ -247,7 +247,7 @@ I campi Paragrafo acquisiscono informazioni alfanumeriche aggiuntive su un recor
 >
 >* È possibile avere un massimo di 20 campi paragrafo per un tipo di record.
 >
->* Il contenuto di un campo paragrafo può contenere fino a 100.000 caratteri.
+>* Il contenuto di un campo paragrafo può contenere fino a 10.000 caratteri.
 >* È possibile utilizzare la formattazione Rich Text per migliorare il contenuto dei campi paragrafo visualizzati nella visualizzazione Tabella o nella pagina Dettagli di un record. Per informazioni, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).
 >
 

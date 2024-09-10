@@ -7,16 +7,18 @@ description: Dopo aver creato un modello, è possibile modificare le informazion
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
 workflow-type: tm+mt
-source-wordcount: '2385'
+source-wordcount: '2409'
 ht-degree: 4%
 
 ---
 
 # Modificare un’attività modello
 
-Dopo aver creato un modello, è possibile modificare le informazioni sulle attività del modello. Le informazioni aggiornate in un&#39;attività modello vengono associate alle attività del progetto dopo che è stato utilizzato il modello per creare un progetto o dopo che il modello è stato allegato a un progetto.
+<!--Audited: 09/2024-->
+
+Dopo aver creato un modello, è possibile modificare le informazioni relative alle attività del modello. Le informazioni aggiornate in un&#39;attività modello vengono associate alle attività del progetto dopo che è stato utilizzato il modello per creare un progetto o dopo che il modello è stato allegato a un progetto.
 
 Per informazioni sulla creazione di un modello, vedere [Creare un modello di progetto](../../../manage-work/projects/create-and-manage-templates/create-template.md).
 
@@ -28,6 +30,8 @@ Per informazioni sulla creazione di un modello, vedere [Creare un modello di pro
 
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -55,7 +59,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-*Per conoscere il piano, il tipo di licenza o il livello di accesso disponibili, contattare l&#39;amministratore Workfront. Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisiti
 
@@ -88,7 +94,7 @@ Prima di iniziare, è necessario
 
    >[!TIP]
    >
-   >Per informazioni su tutti i campi visualizzati nell&#39;area Dettagli, continuare a modificare tutti i campi utilizzando la casella Modifica attività modello di seguito.
+   >Per informazioni su tutti i campi visualizzati nell&#39;area Dettagli, continuare a modificare tutti i campi utilizzando la casella Modifica attività modello, come descritto di seguito.
 
 1. (Condizionale) Per modificare tutte le informazioni sull&#39;attività modello, fai clic sul menu **Altro** ![](assets/qs-more-icon-on-an-object.png) accanto al nome dell&#39;attività modello, quindi fai clic su **Modifica**.
 
@@ -212,7 +218,7 @@ Prima di iniziare, è necessario
 
 ### Finanz {#finance}
 
-1. Inizia a modificare un’attività come descritto in precedenza.
+1. Inizia a modificare un’attività modello come descritto in precedenza.
 1. Fare clic su **Finanza**.
 
    ![modifica_attività_finanza.png](assets/edit-task-finance-350x216.png)
@@ -259,7 +265,7 @@ Prima di iniziare, è necessario
 
 ### Impostazioni {#settings}
 
-1. Inizia a modificare un’attività come descritto in precedenza.
+1. Inizia a modificare un’attività modello come descritto in precedenza.
 1. Fare clic su **Impostazioni**.
 
    ![](assets/edit-template-tasks-settings-classic-350x231.png)
@@ -319,7 +325,7 @@ Prima di iniziare, è necessario
 
 ### Assegnazioni {#assignments}
 
-1. Inizia a modificare un’attività come descritto in precedenza.
+1. Inizia a modificare un’attività modello come descritto in precedenza.
 1. Fai clic su **Assegnazioni**.
 
    ![assegnazioni_modifica_attività.png](assets/assignments-edit-tasks-350x87.png)
@@ -343,14 +349,22 @@ Prima di iniziare, è necessario
 
 ### Moduli personalizzati {#custom-forms}
 
-È possibile definire moduli personalizzati predefiniti da allegare automaticamente alle attività quando queste vengono aggiunte a un progetto. Per informazioni sulla configurazione del progetto per includere moduli personalizzati per attività predefiniti, vedere la sezione &quot;Attività&quot; nell&#39;articolo [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
+È possibile definire moduli personalizzati da allegare automaticamente per impostazione predefinita alle attività quando queste vengono aggiunte a un progetto. Per informazioni sulla configurazione del progetto per includere moduli personalizzati per attività predefiniti, vedere la sezione &quot;Attività&quot; nell&#39;articolo [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. Inizia a modificare un’attività come descritto in precedenza. test
+È inoltre possibile aggiungere moduli personalizzati alle attività future di un progetto quando il progetto viene creato da un modello, aggiungendo i moduli personalizzati alle attività del modello.
+
+1. Inizia a modificare un’attività modello come descritto in precedenza.
 1. Fare clic su **Forms personalizzato**.
 
    ![custom_forms_edit_task.png](assets/custom-forms-edit-task-350x136.png)
 
-1. Selezionare il modulo o i moduli personalizzati che si desidera associare all&#39;attività modello. Devi creare i moduli personalizzati prima che siano disponibili per la selezione in questo campo. Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. Per ulteriori informazioni sulla creazione di moduli personalizzati, vedere [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). È possibile aggiungere fino a dieci moduli personalizzati a un&#39;attività modello. I moduli vengono aggiunti automaticamente alle attività create dal modello.
+1. Selezionare il modulo o i moduli personalizzati che si desidera associare all&#39;attività modello.
+
+   Devi creare i moduli personalizzati prima che siano disponibili per la selezione in questo campo.
+Nell’elenco vengono visualizzati solo i moduli personalizzati attivi.
+Per ulteriori informazioni sulla creazione di moduli personalizzati, vedere [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+È possibile aggiungere fino a dieci moduli personalizzati a un&#39;attività modello.
+I moduli vengono aggiunti automaticamente alle attività create dal modello.
 1. (Condizionale e facoltativo) Se si è allegato un modulo personalizzato all&#39;attività modello, modificare tutti i campi del modulo. È necessario specificare tutti i campi obbligatori prima di salvare l&#39;attività modello.
 
    >[!NOTE]
@@ -368,14 +382,12 @@ Prima di iniziare, è necessario
 
 ### Commento {#comment}
 
-1. Inizia a modificare un’attività come descritto in precedenza.
+1. Inizia a modificare un’attività modello come descritto in precedenza.
 1. Fai clic su **Commento**.
 
    ![commento_modifica_attività.png](assets/comment-edit-task-350x138.png)
 
 1. Nel campo disponibile, specifica un commento da visualizzare nel flusso di aggiornamenti dell’attività modello. Questo commento è visibile a tutti coloro che dispongono dell&#39;accesso di visualizzazione al modello e all&#39;attività modello e dell&#39;accesso di visualizzazione alle note.
 1. Fai clic su **Salva modifiche**.
-
-   Le modifiche verranno inviate per questa attività modello.
 
    Quando un utente crea un progetto a partire da questo modello, tutte le impostazioni applicate alle attività modello diventano le impostazioni delle attività progetto.
