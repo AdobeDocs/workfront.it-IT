@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 52dd8750-9a6f-4ac6-9779-ba4ea9b6f4e0
-source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
+source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,43 @@ ht-degree: 0%
 # Elenca gli oggetti con un processo di approvazione in sospeso utilizzando un determinato stato
 
 Se si tenta di eliminare uno stato, è possibile che venga visualizzato un messaggio di errore che indica che non è possibile eliminarlo perché è incluso in almeno un processo di approvazione in sospeso nel sistema. È possibile eseguire un report per elencare gli oggetti in cui si trova in un processo di approvazione in sospeso, quindi decidere cosa è necessario fare per ciascuno di essi.
+
+## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">piano Adobe Workfront</td> 
+   <td>Qualsiasi</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td>
+     <p>Nuovo: Standard</p>
+     <p>oppure</p>
+     <p>Corrente: Piano</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td><p>Modificare l’accesso a Rapporti, Dashboard, Calendari</p><p>Modifica accesso a Filtri, Viste, Raggruppamenti</p></td>
+  </tr>
+  <tr> 
+   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td>Ottieni le autorizzazioni di gestione per i rapporti creati.</td>
+  </tr>
+ </tbody> 
+</table>
+
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## In modalità standard
 
