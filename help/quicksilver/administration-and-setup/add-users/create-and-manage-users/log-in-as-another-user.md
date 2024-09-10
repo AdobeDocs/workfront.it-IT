@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
 source-wordcount: '738'
 ht-degree: 0%
@@ -69,7 +69,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Con il livello di accesso Amministratore di sistema, puoi accedere come chiunque.</p> <p>Con un livello di accesso Standard o Planner, puoi accedere come utente con un livello di licenza inferiore se l'impostazione <b>Utenti</b> nel livello di accesso è configurata per l'accesso <b>Modifica</b>, con <b>Crea</b> e almeno una delle due opzioni <b>Amministratore utenti</b> abilitate in <b>Ottimizza le impostazioni</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
-   <p><b>NOTA</b>: di queste due opzioni, se l'utente <b>Amministratore (utenti gruppo)</b> è abilitato, è necessario essere un amministratore di gruppo di un gruppo di cui l'utente è membro.</p></td> 
+   <p><b>NOTA</b>: di queste due opzioni, se <b>Amministratore utenti (Utenti gruppi)</b> è abilitato, è necessario essere un amministratore di gruppo di un gruppo di cui l'utente è membro.</p></td>
   </tr> 
  </tbody> 
 </table>

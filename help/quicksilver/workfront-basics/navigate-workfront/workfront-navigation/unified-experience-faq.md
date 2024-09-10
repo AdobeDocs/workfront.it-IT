@@ -6,9 +6,9 @@ description: Alcune funzionalità sono diverse tra  [!DNL Workfront]  e Adobe Ex
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: 0cdd29a0fd58427197f1b9a4b4907089d3d86115
+source-git-commit: b3837dc83c56cb3d7796b8bee39e8bab78e35415
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1314'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ Questa tabella descrive alcune funzioni che differiscono tra le due esperienze.
 | La navigazione include un&#39;area di navigazione di primo livello per i prodotti [!DNL Adobe], le notifiche [!DNL Adobe], la guida e il profilo utente, oltre alla barra di navigazione [!DNL Workfront] | La navigazione include solo la barra di navigazione [!DNL Workfront] |
 | La Guida è accessibile tramite il [!UICONTROL menu principale] e l&#39;area di navigazione superiore | La Guida è accessibile tramite il [!UICONTROL menu principale] e la barra di navigazione [!DNL Workfront] |
 | Il visualizzatore di bozze si apre in una nuova scheda | Il visualizzatore di bozze si apre in Workfront |
+| URL utilizzato per accedere a Workfront: `experience.adobe.com` | URL utilizzato per accedere a Workfront: `(CompanyName).my.workfront.com` |
 
 {style="table-layout:auto"}
 

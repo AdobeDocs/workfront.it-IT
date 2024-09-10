@@ -8,10 +8,10 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 0c0fc9df-23eb-4a2b-a5b0-6dbd742e8238
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 2%
+source-wordcount: '204'
+ht-degree: 1%
 
 ---
 
@@ -29,24 +29,32 @@ Per informazioni su come ripristinare un progetto, un&#39;attività, un problema
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td>Piano</td> 
+  <tr> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td><p>Nuovo: Standard</p>
+       <p>Oppure</p>
+       <p>Corrente: Piano</p></td>
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td>[!UICONTROL Amministratore di sistema]</td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano o il tipo di licenza di cui si dispone, contattare l&#39;amministratore di Workfront.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -3,21 +3,21 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
 title: Ripristina singoli oggetti figlio
-description: Questo documento descrive come ottenere aiuto nel recupero di singoli oggetti secondari eliminati dagli ambienti di produzione o anteprima Adobe Workfront meno di 30 giorni prima.
+description: Questo articolo descrive come ottenere aiuto per il recupero di singoli oggetti secondari eliminati dagli ambienti di produzione o anteprima di Adobe Workfront meno di 30 giorni prima.
 feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: e2e4fbb7-5433-4d88-8e36-d82f4cc8a194
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '641'
 ht-degree: 0%
 
 ---
 
 # Ripristino di singoli oggetti figlio
 
-Questo documento descrive come ottenere aiuto nel recupero di singoli oggetti secondari eliminati dagli ambienti di produzione o anteprima Adobe Workfront meno di 30 giorni prima.
+Questo articolo descrive come ottenere aiuto per il recupero di singoli oggetti secondari eliminati dagli ambienti di produzione o anteprima di Adobe Workfront meno di 30 giorni prima.
 
 Un amministratore di Workfront può ripristinare progetti, attività, problemi e documenti in ogni istanza di Workfront, come descritto in [Ripristina elementi eliminati](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md). Tuttavia, solo il team del database di Workfront può ripristinare oggetti quali attività, problemi, documenti, moduli personalizzati, ore e note indipendentemente dall&#39;oggetto padre.
 
@@ -42,6 +42,39 @@ Per ulteriori informazioni sulle finestre di manutenzione per l&#39;ambiente San
 >[!IMPORTANT]
 >
 >I documenti sono un&#39;eccezione a questi metodi di ripristino. Puoi scaricarli manualmente dall’ambiente di anteprima e ricaricarli nell’ambiente di produzione. Se desideri scaricare e caricare documenti in blocco, devi richiedere un ripristino dei dati da Workfront.
+
+## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">piano Adobe Workfront</td> 
+   <td>Qualsiasi</td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td><p>Nuovo: Standard</p>
+       <p>Oppure</p>
+       <p>Corrente: Piano</p></td>
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td>[!UICONTROL Amministratore di sistema]</td>
+  </tr> 
+ </tbody> 
+</table>
+
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Informazioni necessarie per il ripristino dei dati
 

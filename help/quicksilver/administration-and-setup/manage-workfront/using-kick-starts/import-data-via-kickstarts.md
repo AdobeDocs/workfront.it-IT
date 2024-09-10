@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '2753'
+source-wordcount: '2750'
 ht-degree: 6%
 
 ---
@@ -53,7 +53,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td>Devi essere un amministratore di Workfront. </td> 
+   <td>[!UICONTROL Amministratore di sistema]</td> 
   </tr> 
  </tbody> 
 </table>

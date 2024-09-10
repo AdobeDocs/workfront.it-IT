@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: fcc876d9-0512-424a-a731-6bbacd55af3f
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '142'
 ht-degree: 1%
 
 ---
@@ -23,8 +23,6 @@ ht-degree: 1%
 Non è più possibile visualizzare il tipo di licenza per utente esterno in Livelli di accesso in Configurazione.
 
 ## Requisiti di accesso
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
@@ -47,7 +45,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td>Devi essere un amministratore [!DNL Workfront]. </td> 
+   <td>[!UICONTROL Amministratore di sistema]</td> 
   </tr> 
  </tbody> 
 </table>

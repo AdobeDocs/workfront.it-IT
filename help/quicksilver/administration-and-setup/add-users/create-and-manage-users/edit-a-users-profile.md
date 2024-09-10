@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
 source-wordcount: '3298'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>È necessario disporre di uno dei seguenti elementi:</p> 
     <ul> 
      <li> <p>Livello di accesso Amministratore di sistema. </li> 
-     <li> <p>Impostazione di <b>Utenti</b> nel livello di accesso configurato per l'accesso di <b>Modifica</b>, con <b>Crea</b> e almeno una delle due opzioni di <b>Amministratore utenti</b> abilitate in <b>Ottimizza le impostazioni</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Di queste due opzioni, se l'utente <b>Amministratore (utenti gruppo)</b> è abilitato, è necessario essere un amministratore di gruppo di un gruppo di cui l'utente è membro.</p> </li> 
+     <li> <p>Impostazione di <b>Utenti</b> nel livello di accesso configurato per l'accesso di <b>Modifica</b>, con <b>Crea</b> e almeno una delle due opzioni di <b>Amministratore utenti</b> abilitate in <b>Ottimizza le impostazioni</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Di queste due opzioni, se <b>User Admin (Group Users)</b> è abilitato, è necessario essere un amministratore di gruppo di un gruppo di cui l'utente è membro.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

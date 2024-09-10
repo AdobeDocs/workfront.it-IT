@@ -7,9 +7,9 @@ description: Puoi integrare [!DNL Adobe Workfront] con applicazioni di terze par
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: ac349d205d7526b03bebc497883f9ed1682191ad
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '550'
 ht-degree: 3%
 
 ---
@@ -45,6 +45,17 @@ Le seguenti integrazioni integrate sono attualmente disponibili in Workfront.
      </ul>
      <li><p>Scarica/installa da <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
      <p>Per informazioni e istruzioni, vedere <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Installare il plug-in [!DNL Adobe Workfront] per [!DNL Creative Cloud] applicazioni</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>ADOBE EXPERIENCE MANAGER ASSETS e ASSETS ESSENTIALS </p>  </p> </td> 
+   <td> 
+    <ul> 
+     <li>Creazione automatica di cartelle collegate tra Workfront e Adobe Experience Manager 
+      <li>Sincronizza metadati per risorse collegate esistenti</p></li>
+      <li>Aggiorna automaticamente metatada portfolio, programma, progetto, attività, problema e documenti quando viene modificato in Workfront.</li>
+      <li>Collegare in modo semplice più archivi Experience Manager Assets a un ambiente Workfront o più ambienti Workfront a un archivio Experience Manager Assets tra gli ID organizzazione</li></ul>
+     <p>Per informazioni e istruzioni, consulta <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">Panoramica delle integrazioni Adobe Experience Manager Assets</a></p> 
+     </td>
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Box</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
@@ -142,7 +153,7 @@ Le seguenti integrazioni integrate sono attualmente disponibili in Workfront.
      <li>Ricevi [!DNL Workfront] notifiche in [!DNL Slack] </li> 
      <li>Gestire le approvazioni in Slack </li> 
      <li>Crea [!DNL Workfront] attività e problemi da [!DNL Slack] </li> 
-     <li>Commenti di Post a un progetto o a un'attività da Slack</li> 
+     <li>Pubblicare commenti in un progetto o attività da uno Slack</li> 
     </ul> </td> 
   </tr> 
   <tr> 
