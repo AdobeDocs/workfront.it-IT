@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
+source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
 workflow-type: tm+mt
-source-wordcount: '2075'
+source-wordcount: '2073'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Devi essere un amministratore [!DNL Workfront].</p> </td> 
+   <td>[!UICONTROL Amministratore di sistema]</td>
   </tr> 
  </tbody> 
 </table>
@@ -74,7 +74,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    <!--
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Lavoraci</a> </li>
-  -->
+  --&gt;
 
 * [[!UICONTROL Accesso]](#access)
 

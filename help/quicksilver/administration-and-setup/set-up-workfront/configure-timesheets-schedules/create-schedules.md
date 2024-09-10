@@ -8,14 +8,14 @@ author: Lisa, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: f7347ba6-68bf-45d8-b5d2-6136f3e696c9
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
 
-# Creare una pianificazione
+# Creare una nuova pianificazione
 
 <!--Audited: 01/2024-->
 
@@ -57,7 +57,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td>Devi essere un amministratore [!DNL Workfront]. </td> 
+   <td>[!UICONTROL Amministratore di sistema]</td>  
   </tr> 
  </tbody> 
 </table>
@@ -66,7 +66,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 +++
 
-## Creare una pianificazione
+## Creare una nuova pianificazione
 
 {{step-1-to-setup}}
 

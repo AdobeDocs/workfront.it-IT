@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1419'
 ht-degree: 0%
 
 ---
 
-# Creare e modificare le società
+# Creare e modificare le aziende
 
 <!--Audited: 01/2024-->
 
@@ -27,7 +27,7 @@ Un&#39;azienda è un&#39;unità organizzativa in [!DNL Adobe Workfront] che può
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per gestire le società in [!DNL Workfront] è necessario disporre dei seguenti elementi:
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -38,9 +38,9 @@ Per gestire le società in [!DNL Workfront] è necessario disporre dei seguenti 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Adobe Workfront] licenza*</p> </td> 
+   <td role="rowheader"> <p>[!DNL Adobe Workfront] licenza</p> </td> 
    <td><p>Corrente: [!UICONTROL Plan]</p>
-   Oppure
+   <p>Oppure</p>
    <p>Nuovo: [!UICONTROL Standard]</p>
    </td> 
   </tr> 
@@ -48,22 +48,23 @@ Per gestire le società in [!DNL Workfront] è necessario disporre dei seguenti 
    <td role="rowheader">Configurazione del livello di accesso</td> 
    <td> <p>Uno dei seguenti elementi:</p> 
     <ul> 
-     <li> <p>Il livello di accesso [!UICONTROL Amministratore di sistema], che consente di modificare qualsiasi società del sistema. Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md">Concedere a un utente l'accesso amministrativo completo</a>. </p> </li> 
-     <li> <p>Accesso amministrativo per gestire le società, che consente di modificare qualsiasi società nel sistema. Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md">Concedere agli utenti l'accesso amministrativo ad alcune aree</a>.</p> </li> 
+     <li> <p>Il livello di accesso [!UICONTROL Amministratore di sistema], che consente di modificare qualsiasi società del sistema.</p> </li> 
+     <li> <p>Accesso amministrativo per gestire le società, che consente di modificare qualsiasi società nel sistema.</p> </li> 
     </ul> <p><b>NOTA</b>:  
      <ul> 
       <li> <p>Puoi anche gestire le aziende associate a qualsiasi gruppo a cui sei assegnato come amministratore di gruppo.</p> </li> 
       <li> <p>Per aggiungere e rimuovere utenti dal sistema [!DNL Workfront], è necessario disporre di uno dei seguenti elementi:</p> 
        <ul> 
-        <li> <p>Livello di accesso [!UICONTROL System Administrator]. Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente l'accesso amministrativo completo</a>. </p> </li> 
+        <li> <p>Livello di accesso [!UICONTROL System Administrator]. </p> </li> 
         <li> <p>Nel livello di accesso, è necessario selezionare [!UICONTROL Edit] per l'impostazione [!UICONTROL Users]. Inoltre, per l'impostazione [!UICONTROL Users], in [!UICONTROL Ottimizza le impostazioni] <img src="assets/gear-icon-in-access-levels.png">, è necessario abilitare l'opzione [!UICONTROL Create] e almeno una delle due opzioni [!UICONTROL User Admin]. </p> <p> <img src="assets/access-req-users.png"> </p> <p>Se si utilizza l'opzione [!UICONTROL User Admin (Group Users)], è necessario essere un amministratore di gruppo di un gruppo di cui l'utente è membro.</p> </li> 
-       </ul> <p>Per informazioni sull'impostazione Utenti in un livello di accesso, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concedere l'accesso agli utenti</a>.</p> </li> 
+       </ul>
+       </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sulle configurazioni di piano, tipo di licenza o livello di accesso disponibili, contattare l&#39;amministratore [!DNL Workfront]. Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -91,11 +92,12 @@ Per impostazione predefinita, la società associata all&#39;istanza di [!DNL Wor
 
 Per aggiungere o modificare una società:
 
-{#step-1-to-setup}
+{{step-1-to-setup}}
 
 1. Fai clic su **[!UICONTROL Aziende]**.
 
    Viene visualizzato un elenco di aziende.
+
 1. Se stai aggiungendo una società, fai clic su **[!UICONTROL Nuova società]**.
 
    Oppure

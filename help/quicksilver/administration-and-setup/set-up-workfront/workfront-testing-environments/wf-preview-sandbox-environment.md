@@ -5,13 +5,13 @@ product-area: system-administration
 navigation-topic: workfront-testing-environments
 title: L'ambiente Sandbox  [!DNL Adobe Workfront] Anteprima
 description: L’ambiente Sandbox di anteprima è un ambiente di test che funge da replica dell’ambiente live. Viene aggiornato ogni fine settimana da Workfront. I dati aggiunti all’ambiente live il venerdì vengono visualizzati nella Sandbox di anteprima entro il lunedì successivo. Tutti i pacchetti di supporto hanno accesso a questa sandbox.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ In qualità di amministratore [!DNL Workfront], puoi accedere alla Sandbox di an
 
 Per accedere alla sandbox di anteprima:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Configurazione]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Fare clic su **[!UICONTROL Sistema]** > **[!UICONTROL Preferenze]**.
 

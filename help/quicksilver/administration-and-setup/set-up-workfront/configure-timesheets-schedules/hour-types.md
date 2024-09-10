@@ -5,18 +5,18 @@ product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Gestisci i Tipi di Ora
 description: È possibile associare i tipi di ore alle ore inserite. I tipi di ore sono etichette utilizzate per definire le ore inserite.
-author: Alina
+author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '777'
 ht-degree: 1%
 
 ---
 
-# Gestire i tipi di lavoro
+# Gestire tipi di ora
 
 <!--Audited: 07/2024-->
 
@@ -51,6 +51,8 @@ Per informazioni sulle ore di registrazione e sulla loro associazione ai tipi di
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -60,18 +62,18 @@ Per informazioni sulle ore di registrazione e sulla loro associazione ai tipi di
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
    <td> <p>Nuovo: [!UICONTROL Standard]</p>
    <p>Corrente: [!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Livello di accesso</td> 
-   <td> <p>Devi essere un amministratore [!DNL Workfront].</p> <p> </td> 
+   <td>[!UICONTROL Amministratore di sistema]</td>
   </tr> 
  </tbody> 
 </table>
 
-*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

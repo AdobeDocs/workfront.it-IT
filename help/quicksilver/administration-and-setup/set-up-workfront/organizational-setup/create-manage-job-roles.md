@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
-title: Creare e gestire le mansioni
+title: Creare e gestire i ruoli
 description: In qualità di amministratore  [!DNL Adobe Workfront]  o di utente con accesso amministrativo ai Ruoli, puoi creare Ruoli che possono essere assegnati agli utenti ed eliminare Ruoli predefiniti che non sono rilevanti per la tua organizzazione.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1162'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ In qualità di amministratore [!DNL Adobe Workfront] o di utente con accesso amm
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Devi avere i seguenti:
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,17 +40,18 @@ Devi avere i seguenti:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
    <td>
-   <p>Nuovo: Standard</p>
+   <p>Nuovo: [!UICONTROL Standard]</p>
+   <p>Oppure</p>
    <p>Corrente: [!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Accesso amministrativo alle mansioni</p> </td> 
+   <td>Accesso amministrativo ai Ruoli</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

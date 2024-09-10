@@ -3,15 +3,15 @@ user-type: administrator
 content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
-title: ' [!DNL Adobe Workfront] Ambiente Sandbox di aggiornamento personalizzato'
+title: L'ambiente sandbox di aggiornamento personalizzato  [!DNL Adobe Workfront]
 description: La sandbox di aggiornamento personalizzata è un ambiente in cui puoi testare e lavorare utilizzando i dati dell’ambiente di produzione. È ideale anche per l’esecuzione di corsi di formazione e per determinare le funzionalità di configurazione.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1639'
 ht-degree: 0%
 
 ---
@@ -31,12 +31,11 @@ La sandbox di aggiornamento personalizzata è un ambiente in cui puoi testare e 
 >
 >  Per ulteriori informazioni sulla Sandbox di anteprima, vedi [L&#39;ambiente Sandbox di anteprima [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
-
 ## Requisiti di accesso
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,6 +55,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
  </tbody> 
 </table>
+
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

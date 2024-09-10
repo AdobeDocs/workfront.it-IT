@@ -3,20 +3,20 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration
 navigation-topic: system-tracked-update-feeds
-title: Aggiornamenti monitorati dal sistema
+title: Aggiornamenti tracciati dal sistema
 description: Adobe Workfront acquisisce l'attività che si svolge su determinati oggetti registrando le informazioni sullo stato nell'area [!UICONTROL Aggiornamenti] dell'oggetto.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
 
 ---
 
-# Aggiornamenti monitorati dal sistema
+# Aggiornamenti tracciati dal sistema
 
 <!-- Audited: April, 2024-->
 

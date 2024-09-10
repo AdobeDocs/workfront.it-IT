@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 0a50e3aef47720d78e798f6111ee503389dde984
+source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
 workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 0%
@@ -80,7 +80,6 @@ I caratteri jolly `$$BEFORE_STATE` e `$$AFTER_STATE` vengono utilizzati nelle es
 * Il trigger di creazione dell&#39;oggetto consente solo `$$AFTER_STATE`, perché lo stato prima non esiste.
 * Il trigger di eliminazione dell&#39;oggetto consente solo `$$BEFORE_STATE`, perché lo stato after non esiste.
 
-
 Alcuni semplici scenari di regole di business sono:
 
 * Gli utenti non possono aggiungere nuove spese durante l&#39;ultima settimana di febbraio. Questa formula potrebbe essere dichiarata come: `IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
@@ -92,7 +91,7 @@ Gli utenti non possono modificare i progetti completati e non possono modificare
 
 ```
 IF(
-    {status}="CPL",
+    $$AFTER_STATE.{status}="CPL",
     "You cannot edit a completed project",
     IF(
         MONTH({plannedCompletionDate})=3,

@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 0%
+source-wordcount: '617'
+ht-degree: 1%
 
 ---
 
@@ -31,21 +31,21 @@ Le domande e le risposte scelte per una scorecard devono essere quantificabili i
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] piano*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] piano</td> 
    <td> <p>Corrente: [!UICONTROL Business] o versione successiva</p> 
    Oppure
    <p>Nuovo: [!UICONTROL Prime] o versione successiva</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
    <td><p>Corrente: [!UICONTROL Plan]</p>
    Oppure
    <p>Nuovo: [!UICONTROL Standard]</p>
@@ -53,6 +53,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
  </tbody> 
 </table>
+
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
