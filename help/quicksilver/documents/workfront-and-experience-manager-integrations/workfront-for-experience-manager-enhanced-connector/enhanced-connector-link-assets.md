@@ -5,18 +5,26 @@ author: Courtney
 draft: Probably
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 35c80f6a-419b-4237-8139-f59ab7bbd5c7
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: dd8718b00a310bee6caa13db7644b86174b476f4
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
+
 
 # Collegare risorse e cartelle con il connettore avanzato
 
 È possibile collegare una risorsa o una cartella da Experience Manager Assets a qualsiasi oggetto Workfront che supporti i documenti. Assets inviato da Experience Manager Assets non viene conteggiato per l’archiviazione complessiva dei documenti in Workfront. I documenti caricati e inviati da Workfront a Experience Manager Assets vengono conteggiati ai fini dell’archiviazione complessiva.
 
+
+>[!NOTE]
+>
+>I file Excel collegati tramite il connettore avanzato non possono essere visualizzati in anteprima in Workfront. È necessario scaricare il file per accedervi.
+
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -30,7 +38,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Richiedi o superiore</p> </td> 
+   <td> <p>Corrente: richiesta o successiva</p> 
+   oppure
+   <p>Nuovo: Collaboratore o versione successiva</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
@@ -48,6 +58,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
++++
 
 ## Prerequisiti
 
