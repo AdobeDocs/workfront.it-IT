@@ -6,15 +6,17 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 969f7c609afcc0029fa9ba054de113904a10917b
 workflow-type: tm+mt
-source-wordcount: '2135'
+source-wordcount: '2197'
 ht-degree: 1%
 
 ---
 
 
 # Connetti tipi di record
+
+<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 {{planning-important-intro}}
 
@@ -183,8 +185,7 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
 
    * Un altro tipo di record dall&#39;area di lavoro selezionata
 
-     ![](assets/new-connection-tab-fields-with-another-record-selected.png)
-
+     <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
      >[!TIP]
      >
      > 
@@ -193,7 +194,7 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
 
    * Tipo di record di un&#39;altra area di lavoro configurata per la connessione da altre aree di lavoro. Per informazioni, vedere [Modifica tipi di record](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-     ![](assets/connect-record-from-another-workspace-new-connection-tab.png)
+     <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
 
      >[!TIP]
      >
@@ -206,7 +207,7 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
 
    * **Experience Manager Assets** dalla sezione **Adobe Applications**.
 
-     ![](assets/aem-assets-connection-selection.png)
+     <span class="preview">![](assets/aem-assets-connection-selection.png)</span>
 
 1. Aggiorna le seguenti informazioni:
 
@@ -221,7 +222,7 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
 
      Questa opzione è disponibile solo quando si collegano record di due aree di lavoro diverse o un record e un oggetto risorsa di Adobe Experience Manager.
 
-     ![](assets/new-connection-allow-multiple-records-box.png)
+     <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
 
    * **Tipo di connessione**: selezionare una delle opzioni seguenti per indicare il numero di record a cui è possibile connettersi e da cui connettersi:
 
@@ -232,7 +233,7 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
 
      Questa opzione è disponibile solo quando si connettono record dello stesso workspace o di un record e un tipo di oggetto Workfront.
 
-     ![](assets/many-to-many-connection-picker.png)
+     <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
 
      Per ulteriori informazioni sui tipi di connessione, vedere [Panoramica sui tipi di record connessi](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -259,13 +260,21 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
    >
    >L&#39;amministratore di Workfront può mappare i campi di Workfront Planning sui campi di Experience Manager Assets tramite la mappatura dei metadati in Workfront. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
-1. (Condizionale) Se hai selezionato di connetterti a Experience Manager Assets o a un tipo di record di Workfront Planning, deseleziona l&#39;opzione **Titolo** nell&#39;area **Aspetto record**, se non desideri che il titolo dei record o delle risorse connessi venga visualizzato nel campo collegato. Se questa opzione è deselezionata, nei campi collegati vengono visualizzate solo le miniature dei record. Nei record senza miniatura viene invece visualizzata un&#39;icona di immagine. L’opzione è selezionata per impostazione predefinita. Nell&#39;area **Aspetto del record** viene visualizzato un esempio di visualizzazione dei record connessi.
+1. (Condizionale) Se si è scelto di connettersi a Experience Manager Assets o a un tipo di record di Workfront Planning, selezionare una delle opzioni seguenti nell&#39;area **Aspetto record**:
+
+   * <span class="preview">**Nome e immagine**: nel campo del record connesso verranno visualizzati sia il nome che la miniatura o l&#39;icona dei record connessi. Questa è l&#39;opzione predefinita. </span>
+   * <span class="preview">**Nome**: nel campo del record connesso verrà visualizzato solo il nome dei record connessi.</span>
+   * <span class="preview">**Immagine**: nel campo del record connesso verrà visualizzata solo la miniatura o l&#39;icona dei record connessi.</span>
+
+   Per i record senza miniatura viene invece visualizzata l&#39;icona del tipo di record. Nell&#39;area **Aspetto del record** viene visualizzato un esempio di visualizzazione dei record connessi.
 
    >[!TIP]
    >
    >    Se si consente il collegamento di più record, la visualizzazione della sola miniatura potrebbe consentire di risparmiare spazio in aree più piccole, come le visualizzazioni record.
    >
-   >Il titolo di un record è il campo principale del record. Per ulteriori informazioni, vedere [Panoramica del campo primario](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >Il nome di un record è il campo principale del record. Per ulteriori informazioni, vedere [Panoramica del campo primario](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >
+   >La selezione dell&#39;aspetto di un record non è disponibile quando si selezionano i tipi di oggetto di Workfront.
 
 1. Fai clic su **Crea**.
 
@@ -286,7 +295,7 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
    >    Tutti coloro che dispongono di autorizzazioni di visualizzazione o di livello superiore per l&#39;area di lavoro possono visualizzare le informazioni nei campi collegati, indipendentemente dalle autorizzazioni o dal livello di accesso nell&#39;applicazione dei tipi di oggetto collegati.
 
 
-1. (Facoltativo) Fai clic su **Ignora** per saltare l&#39;aggiunta di campi dal record o dal tipo di oggetto collegato. Il **Nome** o il **Titolo** del record collegato è l&#39;unico campo visibile nella visualizzazione tabella del tipo di record da cui ci si connette.
+1. (Facoltativo) Fai clic su **Ignora** per saltare l&#39;aggiunta di campi dal record o dal tipo di oggetto collegato. Il campo Nome o Primario del record collegato è l&#39;unico campo visibile nella visualizzazione tabella del tipo di record da cui ci si connette.
 
 1. (Facoltativo e condizionale) Se si seleziona di collegare un campo di tipo numero, valuta, percentuale o data, selezionare anche un valore aggregatore per riepilogare più valori. Quando gli utenti selezionano più record collegati nel campo record collegato, i valori dei campi collegati vengono visualizzati separati da virgole o come valore di riepilogo in base all&#39;aggregatore scelto.
 

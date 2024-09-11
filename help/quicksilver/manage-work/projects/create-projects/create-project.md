@@ -6,9 +6,9 @@ description: Un progetto è una grande unità di lavoro in Adobe Workfront. Puoi
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1299'
 ht-degree: 1%
 
 ---
@@ -112,7 +112,22 @@ Puoi creare un progetto in Workfront utilizzando uno dei seguenti metodi:
 
   Per informazioni sull&#39;importazione di progetti tramite Kick-Start, vedere [Scenario Kick-Start: preparazione dell&#39;importazione di un progetto semplice e di un&#39;attività](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
-* Publish un’iniziativa da uno scenario in Adobe Workfront Scenario Planner. Scenario Planner richiede una licenza aggiuntiva. Per informazioni su Workfront Scenario Planner, vedere [Panoramica di Scenario Planner](../../../scenario-planner/scenario-planner-overview.md). Per informazioni sulla creazione di progetti dalle iniziative di pubblicazione, vedere [Aggiornare o creare progetti pubblicando iniziative in Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md).
+* Publish un’iniziativa da uno scenario in Adobe Workfront Scenario Planner.
+
+  La Pianificazione scenario richiede uno dei seguenti elementi:
+
+   * Una licenza aggiuntiva per la struttura di licenze Workfront corrente.
+   * Una licenza Ultimate per la nuova struttura delle licenze Workfront.
+
+  Per informazioni su Workfront Scenario Planner, vedere [Panoramica di Scenario Planner](../../../scenario-planner/scenario-planner-overview.md). Per informazioni sulla creazione di progetti dalle iniziative di pubblicazione, vedere [Aggiornare o creare progetti pubblicando iniziative in Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md).
+
+* Aggiungere progetti quando si collegano da un tipo di record in Workfront Planning. È possibile creare solo progetti senza modelli da Workfront Planning.
+
+  È necessario disporre di una nuova licenza Workfront e di una licenza Workfront Planning aggiuntiva per Workfront Planning.
+
+  Per informazioni sull&#39;accesso a Workfront Planning, vedere [Panoramica dell&#39;accesso](/help/quicksilver/planning/access/access-overview.md).
+
+  Per informazioni sulla creazione di progetti tramite l&#39;aggiunta di tali record ai record, vedere la sezione &quot;Creare record durante la connessione&quot; nell&#39;articolo [Creare record](/help/quicksilver/planning/records/create-records.md).
 
 ## Prerequisiti
 

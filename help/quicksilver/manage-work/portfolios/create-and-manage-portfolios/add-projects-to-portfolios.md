@@ -6,9 +6,9 @@ description: È consigliabile aggiungere progetti ai portfolio quando vengono av
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,9 @@ Quando aggiungi progetti ai portfolio, tieni presente quanto segue:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] piano*</td> 
-   <td> <p>Nuovo: Qualsiasi</p>
-   <p>Corrente:[!UICONTROL Business] o versione successiva</p></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] piano</td> 
+   <td> <p>Qualsiasi</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza*</td> 
