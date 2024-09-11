@@ -1,18 +1,18 @@
 ---
 content-type: release-notes
-title: "Attività di Adobe Workfront Planning Release per la versione 24.10"
+title: Attività sulla versione 24.10 di Adobe Workfront Planning
 description: Questa è l’attività di rilascio del prodotto Adobe Workfront Planning per il quarto trimestre 2024.
 author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
+exl-id: d27f937b-e179-4f67-aebd-ed351440cb0f
+source-git-commit: 2c6d01d009e3dc09b65d7c414e1a3d8536d384e0
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
-
 
 # Attività della versione del quarto trimestre 2024 per Adobe Workfront Planning
 
@@ -37,6 +37,22 @@ Per informazioni sulle funzionalità incluse in questa versione, consulta [Attiv
 <!--remove the general activity mention after fourth quarter 2024 is released-->
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning dopo il rilascio di disponibilità generale del 28 agosto 2024, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Opzioni di visualizzazione per i record collegati
+
+>[!NOTE]
+>
+>Versione di anteprima: 9 settembre 2024; versione di produzione per tutti i clienti: con la versione 24.10 (ottobre 2024)
+
+È stata riprogettata l&#39;area dell&#39;aspetto Record durante il collegamento dei tipi di record. Ora, quando si decide come visualizzare i record connessi nei campi connessi, è possibile selezionare una delle seguenti opzioni:
+
+* Nome
+* Nome e immagine
+* Immagine
+
+Prima di questo miglioramento, era possibile selezionare o deselezionare l’opzione Titolo per visualizzare il nome dei record o solo l’icona o la miniatura. L’interruttore Titolo è stato rimosso.
+
+Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## Esporta dettagli record in PDF
 
@@ -67,4 +83,3 @@ Di seguito sono riportate alcune delle funzionalità principali di Adobe Workfro
 * Connettersi a tipi di oggetto da altri sistemi, creando un framework coerente per tutti i processi.
 
 Per ulteriori informazioni su Workfront Planning, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
-
