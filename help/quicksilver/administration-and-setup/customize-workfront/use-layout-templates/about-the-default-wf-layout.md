@@ -9,16 +9,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '307'
 ht-degree: 6%
 
 ---
 
 # Informazioni sul layout predefinito di Adobe Workfront
 
-Il layout predefinito è la disposizione del menu principale ![](assets/main-menu-icon.png), del pannello sinistro e delle visualizzazioni, dei raggruppamenti e dei filtri prima che un amministratore Adobe Workfront apporti modifiche utilizzando un modello di layout.
+Il layout predefinito è la disposizione del menu principale ![](assets/main-menu-icon.png) o del menu principale ![](assets/lines-main-menu.png), se disponibile, il pannello sinistro e le visualizzazioni, i raggruppamenti e i filtri prima che un amministratore Adobe Workfront apporti modifiche utilizzando un modello di layout.
 
 Per informazioni su come un amministratore di Workfront può modificare il layout predefinito di un utente assegnandogli un modello di layout, vedere [Assegnare utenti a un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
@@ -30,7 +30,7 @@ Per informazioni su come un amministratore di Workfront può modificare il layou
 
 Il layout predefinito di ogni utente dipende dal relativo livello di accesso. Alcuni utenti potrebbero non visualizzare determinate aree nel menu principale o alcune voci del pannello sinistro, a seconda del livello di accesso loro assegnato.
 
-La tabella seguente mostra gli elementi del pannello sinistro visualizzati per impostazione predefinita per ogni livello di accesso. Viene inoltre indicata l’area di destinazione predefinita per ciascun livello di accesso:
+La tabella seguente mostra l’area di destinazione predefinita e gli elementi del pannello sinistro visualizzati per ciascun livello di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,8 +45,8 @@ La tabella seguente mostra gli elementi del pannello sinistro visualizzati per i
   <tr> 
    <th>Area</th> 
    <th> Elementi del pannello sinistro </th> 
-   <th> <p>Amministratore di Sistema</p> </th> 
-   <th> <p>Pianificatore</p> </th> 
+   <th> Amministratore di Sistema</th> 
+   <th> Pianificatore </th> 
    <th>Collaboratore</th> 
    <th>Revisore</th> 
    <th>Richiedente</th> 
@@ -150,7 +150,7 @@ La tabella seguente mostra gli elementi del pannello sinistro visualizzati per i
   </tr> 
   <tr> 
    <td rowspan="3"><strong>Richieste</strong> </td> 
-   <td><strong>Nuova richiesta</strong> </td> 
+   <td>Nuova richiesta </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 

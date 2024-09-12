@@ -6,9 +6,9 @@ description: È possibile eliminare i piani creati. Non è possibile eliminare i
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '507'
 ht-degree: 1%
 
 ---
@@ -27,8 +27,10 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] piano*</p> </td> 
-   <td> <p>Corrente: [!UICONTROL Business] o versione successiva</p>
-   <p>Nuovo: Ultimate </p>
+   <td> <ul></li>
+   <li><p>Nuovo: Ultimate </p></li>
+   <p>Pianificazione scenario non disponibile per il nuovo piano Workfront Select o Workfront. </p>
+   <li><p>Corrente: [!UICONTROL Business] o versione successiva</p></ul>
    </td> 
   </tr> 
   <tr> 
@@ -38,9 +40,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>Prodotto* </td> 
-   <td> 
-   <p>Per i piani Workfront correnti: </p>
-   <p>È necessario acquistare una licenza aggiuntiva per [!DNL Adobe Workfront Scenario Planner] per accedere alla funzionalità descritta in questo articolo.</p> <p>Per informazioni sull'accesso e sulle autorizzazioni per [!DNL Workfront Scenario Planner], vedere <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accesso necessario per utilizzare [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <ul><li><p>Per i nuovi piani Workfront:</p><p> Adobe Workfront</li></p>
+   <li><p>Per i piani Workfront correnti: </p>
+   <p>Adobe Workfront</p> <p>Pianificazione scenario Adobe Workfront</p></li></ul>
+
+<p>Per ulteriori informazioni, vedere <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accesso necessario per utilizzare [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Livello di accesso </td> 

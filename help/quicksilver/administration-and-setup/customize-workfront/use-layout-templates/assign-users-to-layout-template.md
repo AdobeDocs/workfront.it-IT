@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
@@ -44,16 +44,20 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td>Piano</td> 
+   <td role="rowheader">Licenza Adobe Workfront*</td> 
+   <td><p>Nuovo: Standard</p>
+  <p> Corrente: Piano</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Per eseguire questi passaggi a livello di sistema, è necessario disporre del livello di accesso Amministratore di sistema.
-Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p> <p><b>NOTA</b>: se non disponi ancora dell'accesso, chiedi all'amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,7 +67,7 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
 
    >[!TIP]
    >
-   >Se si è soddisfatti del modello di layout, si consiglia di verificarlo, come descritto in [Verifica di un nuovo modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md).
+   >Se si è soddisfatti del modello di layout, si consiglia di verificarlo come descritto in [Verificare un nuovo modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md).
 
 1. Fai clic su **Assegna a** nella sezione superiore della pagina.
 1. Nella casella visualizzata, fare clic su **Aggiungi utente, mansione, team o gruppo**, iniziare a digitare il nome di un utente, una mansione, un team o un gruppo, quindi fare clic sul nome quando viene visualizzato nel menu a discesa.

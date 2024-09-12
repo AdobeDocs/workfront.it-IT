@@ -7,9 +7,9 @@ description: Puoi creare progetti da iniziative esistenti e aggiornare progetti 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1670'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,10 @@ La pubblicazione di uno scenario da [!DNL Adobe Workfront Scenario Planner] comp
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] piano*</p> </td> 
-   <td> <p>Corrente: [!UICONTROL Business] o versione successiva</p>
-   <p>Nuovo: Ultimate </p>
+   <td> <ul></li>
+   <li><p>Nuovo: Ultimate </p></li>
+   <p>Pianificazione scenario non disponibile per il nuovo piano Workfront Select o Workfront. </p>
+   <li><p>Corrente: [!UICONTROL Business] o versione successiva</p></ul>
    </td> 
   </tr> 
   <tr> 
@@ -42,17 +44,19 @@ La pubblicazione di uno scenario da [!DNL Adobe Workfront Scenario Planner] comp
   </tr> 
   <tr> 
    <td>Prodotto* </td> 
-   <td> 
-   <p>Per i piani Workfront correnti: </p>
-   <p>È necessario acquistare una licenza aggiuntiva per [!DNL Adobe Workfront Scenario Planner] per accedere alla funzionalità descritta in questo articolo.</p> <p>Per informazioni sull'accesso e sulle autorizzazioni per [!DNL Workfront Scenario Planner], vedere <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accesso necessario per utilizzare [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <ul><li><p>Per i nuovi piani Workfront:</p><p> Adobe Workfront</li></p>
+   <li><p>Per i piani Workfront correnti: </p>
+   <p>Adobe Workfront</p> <p>Pianificazione scenario Adobe Workfront</p></li></ul>
+
+<p>Per ulteriori informazioni, vedere <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accesso necessario per utilizzare [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Livello di accesso </td> 
-   <td> <p>Accesso [!UICONTROL Edit] per i progetti [!DNL Scenario Planner] e [!UICONTROL]</p> </td> 
+   <td> <p>Accesso [!UICONTROL Edit] per i progetti [!DNL Scenario Planner] e [!UICONTROL]</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Autorizzazioni oggetto </p> </td> 
-   <td> <ul> 
+   <td>  <ul> 
      <li>Autorizzazioni [!UICONTROL Manage] per il piano </li> 
      <li>Autorizzazioni [!UICONTROL Manage] per i progetti pubblicati</li> 
     </ul> <p>Per informazioni sulla richiesta di accesso aggiuntivo a un piano, vedere <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Richiedere accesso a un piano in [!DNL Scenario Planner]</a>.</p> </td> 

@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: 21c873d617187518bdbfe54a7a1ee5f1119ed8fd
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Le modifiche apportate alla visualizzazione Dettagli per un oggetto determinano 
   ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
 
 
-* Riepilogo del pannello ![](assets/summary-panel-icon.png) per elenchi di attività e problemi
+* Pannello di riepilogo ![](assets/summary-panel-icon.png) per elenchi di attività e problemi
 
   ![](assets/summary-area.png)
 
@@ -80,16 +80,20 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td>Piano</td> 
+   <td role="rowheader">Licenza Adobe Workfront*</td> 
+   <td><p>Nuovo: Standard</p>
+  <p> Corrente: Piano</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Per eseguire questi passaggi a livello di sistema, è necessario disporre del livello di accesso Amministratore di sistema.
-Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo</p> <p><b>NOTA</b>: se non disponi ancora dell'accesso, chiedi all'amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '977'
 ht-degree: 2%
 
 ---
@@ -49,16 +49,20 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td>Piano</td> 
+   <td role="rowheader">Licenza Adobe Workfront*</td> 
+   <td><p>Nuovo: Standard</p>
+  <p> Corrente: Piano</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Per eseguire questi passaggi a livello di sistema, è necessario disporre del livello di accesso Amministratore di sistema.
-Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p> <p><b>NOTA</b>: se non disponi ancora dell'accesso, chiedi all'amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -68,7 +72,7 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
 
 1. Fai clic sulla freccia giù ![](assets/dropdown-arrow.png) sotto **Personalizza gli elementi visualizzati dagli utenti**, quindi fai clic su **Home e Riepilogo**.
 
-1. Nell&#39;elenco visualizzato a sinistra, fare clic sul tipo di oggetto (**Attività**, **Problemi**, **Progetti**, **Documenti** o **Versioni documento**) che si desidera personalizzare in Home e Riepilogo.
+1. Nell&#39;elenco a sinistra fare clic sul tipo di oggetto (**Attività**, **Problemi**, **Progetti**, **Documenti** o **Versioni documento**) che si desidera personalizzare in Home e Riepilogo.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -139,7 +143,7 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
         <li>Data di completamento Pianificata</li>
         <li>Conferma data</li>
         <li>Data di invio</li>
-       </ul><p><b>NOTA</b>: quando questa opzione è abilitata, gli elementi di lavoro scaduti vengono spostati nel raggruppamento In ritardo nella sezione Elenco lavori dell'area Home in base solo alla data e non all'ora.</p></td> 
+       </ul><p><b>NOTA</b>:</p> <p> Quando questa opzione è abilitata, gli elementi di lavoro scaduti vengono spostati nel raggruppamento In ritardo nella sezione Work List (Elenco di lavoro) dell’area Home in base alla sola data e non all’ora.</p></td> 
      </tr> 
     </tbody> 
    </table>

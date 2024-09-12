@@ -1,5 +1,5 @@
 ---
-title: Verifica di un nuovo modello di layout
+title: Testare un nuovo modello di layout
 user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
@@ -8,16 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8786648a-3630-4aa9-8e85-9df47a9e4609
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
 
-# Verifica di un nuovo modello di layout
+# Testare un nuovo modello di layout
 
-È importante verificare il nuovo modello o il modello di layout prima di assegnarlo agli utenti.
+È importante verificare il modello di layout appena creato prima di assegnarlo agli utenti.
 
 Per ulteriori informazioni sui modelli di layout, vedere [Creare e gestire modelli di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 

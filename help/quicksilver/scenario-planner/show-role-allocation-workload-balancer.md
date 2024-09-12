@@ -6,10 +6,10 @@ description: Dopo aver collegato progetti e iniziative, puoi gestirne l’alloca
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: cdc3a1b0-7021-4853-9b51-c3682fd55430
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 0%
+source-wordcount: '799'
+ht-degree: 1%
 
 ---
 
@@ -33,8 +33,10 @@ Per informazioni generali sulla riconciliazione delle risorse tra progetti e ini
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] piano*</p> </td> 
-   <td> <p>Corrente: [!UICONTROL Business] o versione successiva</p>
-   <p>Nuovo: Ultimate </p>
+   <td> <ul></li>
+   <li><p>Nuovo: Ultimate </p></li>
+   <p>Pianificazione scenario non disponibile per il nuovo piano Workfront Select o Workfront. </p>
+   <li><p>Corrente: [!UICONTROL Business] o versione successiva</p></ul>
    </td> 
   </tr> 
   <tr> 
@@ -44,17 +46,19 @@ Per informazioni generali sulla riconciliazione delle risorse tra progetti e ini
   </tr> 
   <tr> 
    <td>Prodotto* </td> 
-   <td> 
-   <p>Per i piani Workfront correnti: </p>
-   <p>È necessario acquistare una licenza aggiuntiva per [!DNL Adobe Workfront Scenario Planner] per accedere alla funzionalità descritta in questo articolo.</p> <p>Per informazioni sull'accesso e sulle autorizzazioni per [!DNL Workfront Scenario Planner], vedere <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accesso necessario per utilizzare [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <ul><li><p>Per i nuovi piani Workfront:</p><p> Adobe Workfront</li></p>
+   <li><p>Per i piani Workfront correnti: </p>
+   <p>Adobe Workfront</p> <p>Pianificazione scenario Adobe Workfront</p></li></ul>
+
+<p>Per ulteriori informazioni, vedere <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accesso necessario per utilizzare [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Livello di accesso </td> 
-   <td> <p>Accesso di [!UICONTROL View] o versione successiva a [!UICONTROL Projects]</p> </td> 
+   <td> <p>Accesso di visualizzazione o superiore ai progetti.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Autorizzazioni oggetto </p> </td> 
-   <td> <p>Autorizzazioni di [!UICONTROL View] per un progetto</p> </td> 
+   <td> <p> Visualizza o autorizzazioni superiori per un progetto.</p> </td> 
   </tr> 
  </tbody> 
 </table>

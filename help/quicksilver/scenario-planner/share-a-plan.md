@@ -7,10 +7,10 @@ description: Puoi condividere un piano creato in Adobe Workfront Scenario Planne
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 0%
+source-wordcount: '910'
+ht-degree: 1%
 
 ---
 
@@ -34,8 +34,10 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] piano*</p> </td> 
-   <td> <p>Corrente: [!UICONTROL Business] o versione successiva</p>
-   <p>Nuovo: Ultimate </p>
+   <td> <ul></li>
+   <li><p>Nuovo: Ultimate </p></li>
+   <p>Pianificazione scenario non disponibile per il nuovo piano Workfront Select o Workfront. </p>
+   <li><p>Corrente: [!UICONTROL Business] o versione successiva</p></ul>
    </td> 
   </tr> 
   <tr> 
@@ -45,9 +47,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>Prodotto* </td> 
-   <td> 
-   <p>Per i piani Workfront correnti: </p>
-   <p>È necessario acquistare una licenza aggiuntiva per [!DNL Adobe Workfront Scenario Planner] per accedere alla funzionalità descritta in questo articolo.</p> <p>Per informazioni sull'accesso e sulle autorizzazioni per [!DNL Workfront Scenario Planner], vedere <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accesso necessario per utilizzare [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <ul><li><p>Per i nuovi piani Workfront:</p><p> Adobe Workfront</li></p>
+   <li><p>Per i piani Workfront correnti: </p>
+   <p>Adobe Workfront</p> <p>Pianificazione scenario Adobe Workfront</p></li></ul>
+
+<p>Per ulteriori informazioni, vedere <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accesso necessario per utilizzare [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Livello di accesso </td> 

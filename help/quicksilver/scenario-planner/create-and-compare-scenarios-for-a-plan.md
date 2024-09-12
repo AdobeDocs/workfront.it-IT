@@ -7,10 +7,10 @@ description: Quando si pianifica la strategia a lungo termine dell'azienda, è p
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 9a79ef81-6271-4cc9-b701-3ba0aeafb324
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 1%
+source-wordcount: '949'
+ht-degree: 2%
 
 ---
 
@@ -30,8 +30,10 @@ Quando si pianifica la strategia a lungo termine dell&#39;azienda, è possibile 
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] piano*</p> </td> 
-   <td> <p>Corrente: [!UICONTROL Business] o versione successiva</p>
-   <p>Nuovo: Ultimate </p>
+   <td> <ul></li>
+   <li><p>Nuovo: Ultimate </p></li>
+   <p>Pianificazione scenario non disponibile per il nuovo piano Workfront Select o Workfront. </p>
+   <li><p>Corrente: [!UICONTROL Business] o versione successiva</p></ul>
    </td> 
   </tr> 
   <tr> 
@@ -41,9 +43,11 @@ Quando si pianifica la strategia a lungo termine dell&#39;azienda, è possibile 
   </tr> 
   <tr> 
    <td>Prodotto* </td> 
-   <td> 
-   <p>Per i piani Workfront correnti: </p>
-   <p>È necessario acquistare una licenza aggiuntiva per [!DNL Adobe Workfront Scenario Planner] per accedere alla funzionalità descritta in questo articolo.</p> <p>Per informazioni sull'accesso e sulle autorizzazioni per [!DNL Workfront Scenario Planner], vedere <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accesso necessario per utilizzare [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <ul><li><p>Per i nuovi piani Workfront:</p><p> Adobe Workfront</li></p>
+   <li><p>Per i piani Workfront correnti: </p>
+   <p>Adobe Workfront</p> <p>Pianificazione scenario Adobe Workfront</p></li></ul>
+
+<p>Per ulteriori informazioni, vedere <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accesso necessario per utilizzare [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Livello di accesso </td> 
@@ -55,6 +59,7 @@ Quando si pianifica la strategia a lungo termine dell&#39;azienda, è possibile 
   </tr> 
  </tbody> 
 </table>
+
 
 *Per informazioni, consulta [Requisiti di accesso alla documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
@@ -138,7 +143,7 @@ Dopo aver creato gli scenari, puoi confrontarli per trovare quello migliore per 
       <td>Il numero di ruoli richiesti, in base alle iniziative. </td> 
      </tr> 
      <tr> 
-      <td>Bdg</td> 
+      <td>Budget</td> 
       <td>Budget totale definito per il piano in questo scenario. Per informazioni di budget sui piani, vedere <a href="../scenario-planner/plans-overview.md" class="MCXref xref">Panoramica dei piani in [!DNL Scenario Planner]</a>. </td> 
      </tr> 
      <tr> 

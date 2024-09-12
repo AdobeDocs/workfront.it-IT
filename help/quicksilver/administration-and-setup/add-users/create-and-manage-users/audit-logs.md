@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: In qualità di amministratore di Adobe Workfront, puoi tenere traccia delle modifiche utente attivate nel sistema negli ultimi 90 giorni utilizzando i registri di audit.
-author: Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1530'
 ht-degree: 3%
 
 ---
@@ -65,10 +65,11 @@ In ogni voce del registro di controllo vengono registrati i campi riportati di s
 ## Tipi di registro di controllo e azioni che li attivano
 
 * [Livello d&#39;Accesso](#access-level)
+* [Regole aziendali](#business-rules)
 * [Società](#company)
 * [Condizione](#condition)
 * [Campo personalizzato](#custom-field)
-* [Moduli personalizzati](#custom-forms)
+* [Modulo personalizzato](#custom-forms)
 * [Sezione personalizzata](#custom-section)
 * [Tasso di cambio](#exchange-rate)
 * [Gruppo](#group)
@@ -97,6 +98,21 @@ Il sistema genera una voce di registro del livello di accesso quando un utente e
      >Il sistema non registra alcuna modifica delle autorizzazioni per Financial Data o all&#39;interno dei seguenti tipi di accesso: Visualizza e Modifica.
      >
      >Ad esempio, se un utente modifica il tipo di accesso Planner da Vista a Modifica, il sistema non visualizza le informazioni contenute nel menu a discesa Ottimizza impostazioni.
+
+### Regole aziendali
+
+Le regole business sono disponibili solo per i clienti che hanno acquistato un piano Workfront Ultimate. Per ulteriori informazioni, vedere [Creare e modificare le regole business](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+
+Il sistema genera una voce del registro di controllo Regola aziendale quando un utente esegue una delle operazioni seguenti:
+
+* Crea una regola business
+* Modifica una regola business:
+
+   * Rinomina
+   * Aggiunge o rimuove espressioni
+   * Modifica un trigger
+
+* Elimina una regola business
 
 ### Azienda {#company}
 
@@ -160,7 +176,7 @@ Il sistema genera una voce del registro di controllo del campo personalizzato qu
 * Elimina un campo personalizzato
 * Condivide un campo personalizzato
 
-### Moduli personalizzati {#custom-forms}
+### Modulo personalizzato {#custom-form}
 
 Il sistema genera una voce del registro di controllo di Forms personalizzato quando un utente esegue una delle seguenti operazioni:
 
@@ -241,7 +257,7 @@ Per ulteriori informazioni sulla configurazione dei ruoli, vedere [Creare e gest
 Il sistema genera una voce del registro di controllo Tentativo di accesso quando un utente esegue una delle seguenti operazioni:
 
 * Effettua l’accesso, esce o non riesce dopo un tentativo di accesso in Workfront (in un browser e nell’app mobile).
-* Effettua l’accesso, si disconnette o non riesce dopo un tentativo di accesso in alcuna integrazione Workfront (come Workfront per Slack e Workfront per Salesforce).
+* Effettua l’accesso, si disconnette o non riesce dopo un tentativo di accesso nell’integrazione con Workfront (ad esempio Workfront per Slack e Workfront per Salesforce).
 * Accedi o esce dall’API Workfront
 
 I registri dei tentativi di accesso non vengono registrati quando un amministratore di Workfront utilizza la funzione Accedi come.
