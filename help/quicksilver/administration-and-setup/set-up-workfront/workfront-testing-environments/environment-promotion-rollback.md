@@ -9,16 +9,17 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 84a72ab4547a582707351948052fdd59cc57a9d5
+exl-id: 70f7e2a8-bb27-4546-afb7-53e0eec30bf1
+source-git-commit: 7e15301dae4b761d19c85a3581bfdb4540ed40fd
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 0%
+source-wordcount: '397'
+ht-degree: 1%
 
 ---
 
 # Ripristinare un pacchetto di promozione dell’ambiente
 
-<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
+
 
 Dopo aver installato un pacchetto, puoi ripristinarlo. In questo modo vengono rimosse le modifiche apportate dal pacchetto nell&#39;ambiente di destinazione e vengono ripristinate le configurazioni precedenti degli oggetti interessati.
 
@@ -86,10 +87,3 @@ Per sapere se è possibile eseguire il rollback di una specifica distribuzione d
 
 1. (Facoltativo) Nell’area Anteprima rollback, visualizza le modifiche che si verificheranno quando viene eseguito il rollback della distribuzione.
 1. Fai clic su **Ripristina versione precedente** nell&#39;angolo superiore destro dello schermo.
-
-
-
-
-
-
-
