@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 57c08a06a57bebfaa81035e4fe801f3077e6a829
+source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1606'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
 * [Miglioramenti delle bozze](#proofing-enhancements)
 * [Miglioramenti di Report e Dashboard](#report-and-dashboard-enhancements)
 * [Altri miglioramenti](#other-enhancements)
-
+* [Funzionalità presto rimossa da Workfront](#functionality-soon-to-be-removed-from-workfront)
 
 ### Miglioramenti per gli amministratori
 
@@ -78,6 +78,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Ripristino dei pacchetti di promozione dell'ambiente</a></p>
+                        [!BADGE In produzione per rilascio rapido ]{type=Positive}
                         <p>Per rendere la promozione dell’ambiente più flessibile e facile da utilizzare, è stata abilitata la funzionalità di rollback. Ora è possibile eseguire il rollback dei pacchetti entro 24 ore, consentendo di ripristinare più facilmente le configurazioni precedenti interessate da un pacchetto di promozione dell’ambiente.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -192,7 +193,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Altre assegnazioni avanzate rilevanti</a></p>
-                        [!BADGE In produzione ]{type=Informative}
+                        [!BADGE In produzione per rilascio rapido ]{type=Positive}
                         <p>È stato modificato l’algoritmo utilizzato da Workfront per calcolare e suggerire assegnazioni intelligenti per le attività. Il nuovo algoritmo si applica nelle seguenti aree di Workfront in cui si assegna un’attività: elenchi di attività, area Assegnazioni nell’intestazione dell’attività, Home e il pannello Riepilogo.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -362,6 +363,14 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
            </tbody>
         </table>
 
+### Funzionalità presto rimossa da Workfront
+
+Le seguenti funzionalità verranno presto rimosse da Workfront:
+
+#### Obsolescenza dell’esperienza Home legacy con 24.10
+
+Con la versione 24.10, l’esperienza Home legacy diventerà ufficialmente obsoleta. Gli utenti sono invitati a iniziare a utilizzare la nuova Home, che continuerà a essere migliorata con funzioni aggiuntive prima che venga dichiarata obsoleta. Per ulteriori informazioni sulla transizione, inclusi consigli su cosa possono fare gli utenti e gli amministratori per prepararsi, consulta [Legacy Home deprecation guide](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
+
 ## Notifiche
 
 ### Miglioramenti apportati a Workfront Fusion
@@ -399,11 +408,3 @@ Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versi
 ### Aggiornamenti dei corsi di formazione
 
 Scopri gli ultimi aggiornamenti apportati a programmi di apprendimento, percorsi di apprendimento, video e guide per ogni versione di Adobe Workfront. Per ulteriori informazioni, vedere la sezione &quot;Novità&quot; della [pagina Tutorials di Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=it).
-
-### Funzionalità presto rimossa da Workfront
-
-Le seguenti funzionalità verranno presto rimosse da Workfront:
-
-#### Obsolescenza dell’esperienza Home legacy con 24.10
-
-Con la versione 24.10, l’esperienza Home legacy diventerà ufficialmente obsoleta. Gli utenti sono invitati a iniziare a utilizzare la nuova Home, che continuerà a essere migliorata con funzioni aggiuntive prima che venga dichiarata obsoleta. Per ulteriori informazioni sulla transizione, inclusi consigli su cosa possono fare gli utenti e gli amministratori per prepararsi, consulta [Legacy Home deprecation guide](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
