@@ -6,9 +6,9 @@ description: Alcune funzionalità sono diverse tra  [!DNL Workfront]  e Adobe Ex
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: b3837dc83c56cb3d7796b8bee39e8bab78e35415
+source-git-commit: b4c1f9c29dd6ad1e07acc741ab52e95a7bae7f67
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1352'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,7 @@ Questa tabella descrive alcune funzioni che differiscono tra le due esperienze.
 | La Guida è accessibile tramite il [!UICONTROL menu principale] e l&#39;area di navigazione superiore | La Guida è accessibile tramite il [!UICONTROL menu principale] e la barra di navigazione [!DNL Workfront] |
 | Il visualizzatore di bozze si apre in una nuova scheda | Il visualizzatore di bozze si apre in Workfront |
 | URL utilizzato per accedere a Workfront: `experience.adobe.com` | URL utilizzato per accedere a Workfront: `(CompanyName).my.workfront.com` |
+| Il formato della data (ad esempio GG/MM/AAAA) si basa sulle preferenze del browser | Il formato della data (ad esempio GG/MM/AAAA) si basa sulle impostazioni della lingua Unified Experience. Se l&#39;utente non ha aggiornato le impostazioni della lingua, verranno utilizzate `en-US` impostazioni. |
 
 {style="table-layout:auto"}
 
