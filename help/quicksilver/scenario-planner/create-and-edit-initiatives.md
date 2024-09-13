@@ -6,9 +6,9 @@ description: Quando utilizzi Adobe Workfront Scenario Planner, puoi creare inizi
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: a811bad0-d3c0-4cba-8b78-d9a14ffc8482
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1626'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Quando si utilizza [!UICONTROL Adobe Workfront Scenario Planner], è possibile c
    <td> <p>[!DNL Adobe Workfront] piano*</p> </td> 
    <td> <ul></li>
    <li><p>Nuovo: Ultimate </p></li>
-   <p>Pianificazione scenario non disponibile per il nuovo piano Workfront Select o Workfront. </p>
+   <p>Pianificazione scenario non disponibile per i nuovi piani Workfront Select o Workfront Prime. </p>
    <li><p>Corrente: [!UICONTROL Business] o versione successiva</p></ul>
    </td> 
   </tr> 

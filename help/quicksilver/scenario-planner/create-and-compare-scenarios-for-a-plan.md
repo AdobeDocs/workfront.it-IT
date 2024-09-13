@@ -7,9 +7,9 @@ description: Quando si pianifica la strategia a lungo termine dell'azienda, è p
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 9a79ef81-6271-4cc9-b701-3ba0aeafb324
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '950'
 ht-degree: 2%
 
 ---
@@ -32,7 +32,7 @@ Quando si pianifica la strategia a lungo termine dell&#39;azienda, è possibile 
    <td> <p>[!DNL Adobe Workfront] piano*</p> </td> 
    <td> <ul></li>
    <li><p>Nuovo: Ultimate </p></li>
-   <p>Pianificazione scenario non disponibile per il nuovo piano Workfront Select o Workfront. </p>
+   <p>Pianificazione scenario non disponibile per i nuovi piani Workfront Select o Workfront Prime. </p>
    <li><p>Corrente: [!UICONTROL Business] o versione successiva</p></ul>
    </td> 
   </tr> 

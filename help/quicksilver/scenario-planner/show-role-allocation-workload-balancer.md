@@ -6,9 +6,9 @@ description: Dopo aver collegato progetti e iniziative, puoi gestirne l’alloca
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: cdc3a1b0-7021-4853-9b51-c3682fd55430
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '800'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Per informazioni generali sulla riconciliazione delle risorse tra progetti e ini
    <td> <p>[!DNL Adobe Workfront] piano*</p> </td> 
    <td> <ul></li>
    <li><p>Nuovo: Ultimate </p></li>
-   <p>Pianificazione scenario non disponibile per il nuovo piano Workfront Select o Workfront. </p>
+   <p>Pianificazione scenario non disponibile per i nuovi piani Workfront Select o Workfront Prime. </p>
    <li><p>Corrente: [!UICONTROL Business] o versione successiva</p></ul>
    </td> 
   </tr> 
