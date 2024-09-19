@@ -3,7 +3,7 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 2f731d1ee8381df6a9d0d767743dc8b5b52f4a1b
+source-git-commit: d996e2777060ccd7d264af7f61261737b36a616b
 workflow-type: tm+mt
 source-wordcount: '14404'
 ht-degree: 2%
@@ -414,10 +414,10 @@ ht-degree: 2%
    * Annunci {#announcements}
       * [Notifiche](product-announcements/announcements/announcements.md)
       * [Pianificazione delle funzioni non più supportate](product-announcements/announcements/feature-removal-timeline.md)
+      * [Guida obsoleta della home page legacy](product-announcements/announcements/legacy-home-deprecation.md)
       * [Domande frequenti sulla finestra di manutenzione](product-announcements/announcements/maintenance-window-faq.md)
       * [Modifica necessaria per aggiungere le bozze al inserisco nell&#39;elenco Consentiti di lavoro di un’organizzazione](product-announcements/announcements/proofhq-domain-change-workfront.md)
       * [Annulla l’iscrizione ai messaggi del Centro notifiche nella nuova esperienza Adobe Workfront](product-announcements/announcements/unsubscribe-from-ac-messages.md)
-      * [Guida obsoleta della home page legacy](product-announcements/announcements/legacy-home-deprecation.md)
       * Archivio notifiche {#announcement-archive}
          * [Archivio notifiche](product-announcements/announcements/announcement-archive/announcement-archive.md)
          * [Miglioramenti dei moduli personalizzati](product-announcements/announcements/announcement-archive/custom-form-enhancements.md)

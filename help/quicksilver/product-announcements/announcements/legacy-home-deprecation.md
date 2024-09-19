@@ -5,9 +5,10 @@ title: Guida obsoleta della home page legacy
 description: Questa pagina contiene informazioni sull’imminente rimozione della Home legacy.
 author: Nolan
 feature: Product Announcements
-source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
+exl-id: 1fef08c9-624d-4783-a0bd-8009413fc2bd
+source-git-commit: 629fc09ded495e9add5f24144c4fdffc31e40552
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
@@ -79,6 +80,10 @@ Quasi, ad eccezione di:
 * La visualizzazione dei timestamp per le date di scadenza degli oggetti non è attualmente disponibile.
 
 * La visualizzazione della data di conferma nel feed di aggiornamento non è al momento disponibile. Tuttavia, è disponibile una soluzione alternativa: visualizzare la data del commit nell’intestazione tramite la personalizzazione del modello di layout.
+* Le approvazioni che ho inviato non sono attualmente supportate nella nuova Home. Se hai bisogno di questa funzionalità, aggiorna il voto o pubblica un commento qui nei seguenti post della community:
+   * [Aggiungi il widget &quot;Approvals I Submitted&quot; alla nuova home](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
+   * [Aggiungi &quot;Approvazioni inviate&quot; alla nuova Home](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
+
 +++
 
 +++Come posso regolare a quali widget gli utenti hanno accesso in una nuova Home?
