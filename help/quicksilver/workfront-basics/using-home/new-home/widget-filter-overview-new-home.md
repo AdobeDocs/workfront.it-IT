@@ -5,9 +5,10 @@ title: Panoramica dei nuovi filtri dei widget Home
 description: È possibile scegliere tra diversi widget per personalizzare il contenuto visualizzato nella home page. Questi widget possono essere ridimensionati e disposti nella home page.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: a1fcaaa9695fb059ffa9dc670ae4fe3e5609aa23
+exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
+source-git-commit: 6fe37148bbb242f3a954a4fd26284fd7e70a5cdf
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '742'
 ht-degree: 14%
 
 ---
@@ -19,6 +20,7 @@ Per trovare e organizzare il lavoro, potete utilizzare i filtri dei seguenti wid
 * [I miei progetti](#my-projects)
 * [Le mie attività](#my-tasks)
 * [I miei problemi](#my-issues)
+* [Il mio lavoro]
 
 ## I miei progetti
 
@@ -229,4 +231,52 @@ Puoi utilizzare i seguenti filtri nel widget Problemi personali:
     <td>Non assegnate al mio ruolo</td>
     <td>Visualizza tutti i problemi a cui non è stato assegnato un utente principale ma a cui è stato assegnato un ruolo </td>
   </tr>
+</table>
+
+## Il mio lavoro
+
+È possibile utilizzare i seguenti filtri nel widget Il mio lavoro:
+
+<table>
+  <tbody>
+    <tr>
+      <td>Lavori</td>
+      <td>Visualizza gli elementi su cui si sta lavorando</td>
+    </tr>
+    <tr>
+      <td>È il momento di iniziare?</td>
+      <td>Visualizza gli elementi con 
+      <ul>
+      <li>Nessun predecessore o vincolo di attività incompleto</li>
+      <li>La data di inizio pianificata è nel passato o è prevista entro due settimane</li>
+      </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Non pronto</td>
+      <td>Visualizza gli elementi con
+       <ul>
+      <li>Predecessori incompleti o vincoli di attività che impediscono la lavorazione dell'elemento</li>
+      oppure
+      <li>La data di inizio pianificata nel futuro è tra più di due settimane</li>
+      </ul>
+       </td>
+    </tr>
+    <tr>
+      <td>Richiesto il</td>
+      <td>Visualizza i problemi per i quali non hai iniziato a lavorare</td>
+    </tr>
+    <tr>
+      <td>Delegata da me</td>
+      <td>Visualizza gli elementi delegati ad altri utenti</td>
+    </tr>
+    <tr>
+      <td>Delegata a me</td>
+      <td>Visualizza gli elementi che gli utenti ti hanno delegato</td>
+    </tr>
+    <tr>
+      <td>Completato</td>
+      <td>Visualizza il lavoro completato nelle ultime due settimane. Questa opzione di filtro non include le approvazioni.</td>
+    </tr>
+  </tbody>
 </table>
