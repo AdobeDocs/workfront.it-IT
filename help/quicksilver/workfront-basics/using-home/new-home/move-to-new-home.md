@@ -5,9 +5,9 @@ title: Passa dalla home legacy alla nuova home
 description: La pagina Home legacy verrà rimossa da Workfront il 10/17 con la versione Q4. Questo articolo fornisce informazioni sulle funzionalità che saranno disponibili nella nuova home e consigli per spostare gli utenti nella nuova esperienza Home.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 69b264ac060a7c76a151536df622011b5eeb7953
+source-git-commit: 8666870341227f2bdcd08ad77753a28748ed9847
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1632'
 ht-degree: 5%
 
 ---
@@ -185,7 +185,7 @@ Di seguito sono riportati gli 11 widget attualmente disponibili tra cui sceglier
 
 +++
 
-  ![](assets/widgets-menu.png)
+![](assets/widgets-menu.png)
 
 ### Visualizza i widget disponibili per ogni tipo di licenza
 
@@ -262,3 +262,17 @@ Consigliamo agli amministratori di:
 1. Riassegnare gli altri utenti al layout Nuova home page.
 
 Procedendo in questo modo, gli utenti avranno il tempo di adattarsi alla nuova esperienza e di personalizzare le nuove pagine iniziali in base alle loro esigenze. Per informazioni su come personalizzare i widget nella nuova home page, vedere [Rimuovere, aggiungere e ridisporre i widget](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
+
+### Risorse per gli utenti finali
+
+**Articoli della Guida**
+
+* [Gestisci il tuo lavoro con il widget Il mio lavoro](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
+
+**Corso di formazione**
+
+* [Nozioni di base sui lavoratori in Adobe Workfront](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
+
+>[!IMPORTANT]
+>
+>Questo è un corso gratuito, ma per accedervi devi effettuare l’accesso e registrarti.
