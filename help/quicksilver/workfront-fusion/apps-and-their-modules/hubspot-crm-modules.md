@@ -4,9 +4,9 @@ description: I moduli di gestione delle relazioni con i clienti HubSpot  [!DNL A
 author: Becky
 feature: Workfront Fusion
 exl-id: d58e0c12-a798-495c-8f88-fbf2a532f8a4
-source-git-commit: 1c56cf8aa9da7ec2644955d5533c71f60160d580
+source-git-commit: d550ba76a5a6c1d241d1dc73e63e49ef4c22a40d
 workflow-type: tm+mt
-source-wordcount: '2615'
+source-wordcount: '6394'
 ht-degree: 0%
 
 ---
@@ -79,11 +79,26 @@ Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possib
 * [Conttati](#contacts)
 * [Offerte](#deals)
 * [Aziende](#companies)
+* [Coinvolgimenti](#engagements)
+* [Eventi e notifiche](#events-and-notifications)
 * [File](#files)
+* [Attività](#tasks)
+* [Utenti](#users)
 * [Biglietti](#tickets)
-* [Effettuare una chiamata API](#make-an-api-call)
+* [Moduli](#forms)
+* [Social media (broadcast)](#social-media-broadcast)
+* [Post di blog](#blog-posts)
+  <!--* [Workflows]-->
+* [Iscrizioni](#subscriptions)
+  <!--* [Associations](#associations)-->
+* [Altro](#other)
+
++++**oggetti CRM**
 
 ### Oggetti CRM
+
+* [Cerca oggetti CRM](#search-for-crm-objects)
+* [Osserva oggetti CRM](#watch-crm-objects)
 
 #### [!UICONTROL Cerca oggetti CRM]
 
@@ -95,7 +110,7 @@ Questo modulo di ricerca cerca oggetti CRM per proprietà personalizzate o per q
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
@@ -124,23 +139,86 @@ Questo modulo di ricerca cerca oggetti CRM per proprietà personalizzate o per q
      <li> <p><strong>[!UICONTROL Nome proprietà]</strong> </p> <p>Selezionare la proprietà in base alla quale si desidera ordinare i risultati</p> </li> 
      <li> <p><strong>[!UICONTROL Direzione]</strong> </p> <p>Scegliere se si desidera ordinare i risultati in senso crescente o decrescente.</p> </li> 
     </ul> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Start Offset</td> 
-    <td>Enter or map the ID of the first item you want to retrieve details for. This module only returns up to 5000 results at a time. Setting a start offset allows you to retrieve items other than the first 5000. If the start offset is 5000, the module would return items 5000-9999.</td> 
+  </tr> 
+   <tr> 
+    <td role="rowheader">Offset iniziale</td> 
+    <td>Immetti o mappa l’ID del primo elemento per il quale desideri recuperare i dettagli. Questo modulo restituisce solo fino a 5000 risultati alla volta. Impostate un offset iniziale per recuperare elementi diversi dai primi 5000. Se l'offset iniziale è 5000, il modulo restituirà gli elementi da 5000 a 9999.</td> 
    </tr>
-  --> 
  </tbody> 
 </table>
 
+#### Osserva oggetti CRM
+
+Questo modulo di attivazione avvia uno scenario quando viene creato o aggiornato un oggetto CRM.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td>Immettere o mappare il numero massimo di elementi restituiti dal modulo in un ciclo di esecuzione.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Tipo di oggetto da cercare]</td> 
+   <td> <p>Selezionare il tipo di oggetto che si desidera cercare.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Proprietà output di [!UICONTROL]</td> 
+   <td>Selezionare le proprietà che si desidera includere nell'output per questo modulo.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Creato/Aggiornato]</td> 
+   <td>Seleziona se desideri guardare gli oggetti creati (nuovi) o aggiornati (modificati).</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Filtra per]</td> 
+   <td>Puoi aggiungere un filtro per garantire che lo scenario inizi solo quando vengono soddisfatte determinate condizioni.<ul><li><b>Query</b><p>Immettere la query in base alla quale si desidera filtrare.</li><li><b>Proprietà</b><p>Per ogni proprietà che si desidera utilizzare per filtrare i risultati, fare clic su <b>Aggiungi elemento</b> e immettere il nome, l'operatore e il valore della proprietà.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++**Record (offerte, contatti e società)**
+
 ### Record (offerte, contatti e società)
 
+* [Crea un record](#create-a-record)
 * [[!UICONTROL Crea un record (legacy)]](#create-a-record-legacy)
-* [[!UICONTROL Ottieni un record]](#get-a-record)
-* [[!UICONTROL Aggiorna un record]](#update-a-record)
 * [[!UICONTROL Eliminare un record]](#delete-a-record)
+* [[!UICONTROL Ottieni un record]](#get-a-record)
 * [[!UICONTROL Ottieni una proprietà record]](#get-a-record-property)
+* [Elenca record](#list-records)
+* [[!UICONTROL Aggiorna un record]](#update-a-record)
 * [[!UICONTROL Osserva record]](#watch-records)
+
+#### Creare un record
+
+Questo modulo di azione crea un contatto, una società o un&#39;offerta.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Tipo di record]</td> 
+   <td> <p>Selezionare il tipo di record da creare.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Gruppi di proprietà [!UICONTROL]</td> 
+   <td>Per ogni proprietà che si desidera aggiungere durante la creazione del record, selezionare il gruppo in cui si trova la proprietà. Il gruppo di proprietà si aprirà e potrai quindi inserire il valore delle proprietà. I gruppi di proprietà e le proprietà disponibili dipendono dal tipo di record che si desidera creare.</td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL Crea un record (legacy)]
 
@@ -152,15 +230,38 @@ Questo modulo di azione crea un contatto, un’azienda o un’offerta.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Tipo di record]</td> 
-   <td> <p>Selezionare il tipo di record da creare</p> </td> 
+   <td> <p>Selezionare il tipo di record da creare.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proprietà [!UICONTROL]</td> 
    <td>Immettere le proprietà che si desidera impostare per il record. I campi disponibili dipendono dal tipo di record che si desidera creare.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Eliminare un record]
+
+Questo modulo di azione elimina un contatto, un’azienda o un’offerta.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Tipo di record]</td> 
+   <td>Selezionare il tipo di record che si desidera eliminare.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID]</td> 
+   <td>Immettere l'ID del contatto, della società o dell'offerta che si desidera eliminare. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -175,7 +276,7 @@ Questo modulo di azione ottiene i dettagli di un contatto, un’azienda o un’o
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Tipo di record]</td> 
@@ -201,6 +302,61 @@ Questo modulo di azione ottiene i dettagli di un contatto, un’azienda o un’o
  </tbody> 
 </table>
 
+#### [!UICONTROL Ottieni una proprietà record]
+
+Questo modulo di azione ottiene i metadati per una proprietà record specifica in base al nome (interno).
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Tipo di record]</td> 
+   <td>Selezionare il tipo di record con la proprietà per cui si desidera recuperare i metadati.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Nome proprietà [!UICONTROL]</td> 
+   <td>Seleziona la proprietà per la quale desideri recuperare i metadati.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID opzione]</td> 
+   <td> <p> Alcune proprietà dispongono di un set di opzioni disponibili che un utente può selezionare come valore della proprietà. Immetti l’ID dell’opzione che rappresenta il valore della proprietà da recuperare.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Elenca record
+
+Questo modulo di ricerca restituisce un elenco di contatti, aziende o offerte. La produzione è limitata a 5000 contatti, 12.500 aziende o 12.500 offerte.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Type]</td> 
+   <td> <p>Selezionare il tipo di record che si desidera restituire.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Proprietà output di [!UICONTROL]</td> 
+   <td>Selezionare le proprietà che si desidera includere nell'output per questo modulo.</td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Immettere o mappare il numero massimo di record che il modulo deve restituire durante ogni ciclo di esecuzione dello scenario.</p> </td> 
+  </tr>
+
+</tbody> 
+</table>
+
 #### [!UICONTROL Aggiorna un record]
 
 Questo modulo di azione aggiorna un contatto, un’azienda o un’offerta.
@@ -211,7 +367,7 @@ Questo modulo di azione aggiorna un contatto, un’azienda o un’offerta.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Tipo di record]</td> 
@@ -240,56 +396,6 @@ Questo modulo di azione aggiorna un contatto, un’azienda o un’offerta.
  </tbody> 
 </table>
 
-#### [!UICONTROL Eliminare un record]
-
-Questo modulo di azione elimina un contatto, un’azienda o un’offerta.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Tipo di record]</td> 
-   <td>Selezionare il tipo di record che si desidera eliminare.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL ID]</td> 
-   <td>Immettere l'ID del contatto, della società o dell'offerta che si desidera eliminare. </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Ottieni una proprietà record]
-
-Questo modulo di azione ottiene i metadati per una proprietà record specifica in base al nome (interno).
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Tipo di record]</td> 
-   <td>Selezionare il tipo di record con la proprietà per cui si desidera recuperare i metadati.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Nome proprietà [!UICONTROL]</td> 
-   <td>Seleziona la proprietà per la quale desideri recuperare i metadati.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL ID opzione]</td> 
-   <td> <p> Alcune proprietà dispongono di un set di opzioni disponibili che un utente può selezionare come valore della proprietà. Immetti l’ID dell’opzione che rappresenta il valore della proprietà da recuperare.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
 #### [!UICONTROL Osserva record]
 
 Questo modulo di attivazione avvia uno scenario in cui un contatto, una società o un&#39;offerta è stata modificata o creata negli ultimi 30 giorni. L&#39;output è limitato a 10.000 record.
@@ -300,7 +406,7 @@ Questo modulo di attivazione avvia uno scenario in cui un contatto, una società
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Tipo di record]</td> 
@@ -321,16 +427,68 @@ Questo modulo di attivazione avvia uno scenario in cui un contatto, una società
  </tbody> 
 </table>
 
++++
+
++++**Contatti**
+
 ### Conttati
 
+* [[!UICONTROL Aggiungi contatti a un elenco]](#add-contacts-to-a-list)
+* [Creare/aggiornare un contatto](#createupdate-a-contact)
 * [[!UICONTROL Crea/aggiorna un contatto (legacy)]](#createupdate-a-contact-legacy)
 * [[!UICONTROL Crea/aggiorna un gruppo di contatti]](#createupdate-a-group-of-contacts)
-* [[!UICONTROL Aggiungi contatti a un elenco]](#add-contacts-to-a-list)
-* [[!UICONTROL Rimuovere un contatto da un elenco]](#remove-a-contact-from-a-list)
-* [[!UICONTROL Unisci contatti]](#merge-contacts)
-* [[!UICONTROL Cerca contatti]](#search-for-contacts)
 * [[!UICONTROL Elenca contatti]](#list-contacts)
 * [[!UICONTROL Elenca contatti di un&#39;azienda]](#list-contacts-of-a-company)
+* [[!UICONTROL Unisci contatti]](#merge-contacts)
+* [[!UICONTROL Rimuovere un contatto da un elenco]](#remove-a-contact-from-a-list)
+* [[!UICONTROL Cerca contatti]](#search-for-contacts)
+* [Osservare i contatti aggiunti a un elenco](#watch-contacts-added-to-a-list)
+
+#### [!UICONTROL Aggiungi contatti a un elenco]
+
+Questo modulo aggiunge a un elenco contatti i record contatto già creati nel sistema.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID elenco] </td> 
+   <td>Selezionare l'ID dell'elenco a cui si desidera aggiungere il contatto. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL IDs/E-mail] </td> 
+   <td> <p>Selezionare la modalità di identificazione dei contatti che si desidera aggiungere all'elenco:</p> 
+    <ul> 
+     <li> <p>[!UICONTROL IDs]</p> <p>Aggiungere gli ID dei contatti che si desidera aggiungere all'elenco.</p> </li> 
+     <li> <p>[!UICONTROL E-Mail]</p> <p>Aggiungere gli indirizzi di posta elettronica dei contatti che si desidera aggiungere all'elenco.</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Crea/aggiorna un contatto
+
+Questo modulo di azione crea un contatto se non esiste in un portale. Se il contatto esiste nel portale, questo modulo lo aggiorna con i valori forniti.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Gruppi di proprietà [!UICONTROL]</td> 
+   <td>Per ogni proprietà che si desidera aggiungere durante la creazione del contatto, selezionare il gruppo in cui si trova la proprietà. Il gruppo di proprietà si aprirà e sarà quindi possibile inserire i valori delle proprietà.</td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL Crea/aggiorna un contatto (legacy)]
 
@@ -342,7 +500,7 @@ Crea un contatto se non esiste già in un portale, oppure lo aggiorna con i valo
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proprietà [!UICONTROL]</td> 
@@ -361,7 +519,7 @@ Crea un gruppo di contatti o li aggiorna se esistono già. Le prestazioni sono m
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Batch di contatti da creare/aggiornare] </td> 
@@ -378,9 +536,9 @@ Crea un gruppo di contatti o li aggiorna se esistono già. Le prestazioni sono m
  </tbody> 
 </table>
 
-#### [!UICONTROL Aggiungi contatti a un elenco]
+#### [!UICONTROL Elenca contatti]
 
-Questo modulo aggiunge a un elenco contatti i record contatto già creati nel sistema.
+Restituisce tutti i contatti creati nel portale. L&#39;output è limitato a 5000 contatti. Per elencare i contatti precedenti o successivi, puoi utilizzare il parametro [!UICONTROL advanced] per impostare l&#39;offset dell&#39;elenco.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -388,19 +546,69 @@ Questo modulo aggiunge a un elenco contatti i record contatto già creati nel si
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ID elenco] </td> 
-   <td>Selezionare l'ID dell'elenco a cui si desidera aggiungere il contatto. </td> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td>Il numero massimo di contatti [!DNL Workfront Fusion] deve essere restituito durante un ciclo di esecuzione dello scenario. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL IDs/E-mail] </td> 
-   <td> <p>Selezionare la modalità di identificazione dei contatti che si desidera aggiungere all'elenco:</p> 
-    <ul> 
-     <li> <p>[!UICONTROL IDs]</p> <p>Aggiungere gli ID dei contatti che si desidera aggiungere all'elenco.</p> </li> 
-     <li> <p>[!UICONTROL E-Mail]</p> <p>Aggiungere gli indirizzi di posta elettronica dei contatti che si desidera aggiungere all'elenco.</p> </li> 
-    </ul> </td> 
+   <td role="rowheader">[!UICONTROL Proprietà output]</td> 
+   <td>Selezionare le proprietà che si desidera visualizzare nell'output del modulo. </td> 
+  </tr> 
+   <tr> 
+    <td role="rowheader">ID contatto [offset inizio] </td> 
+    <td>Immetti o mappa l’ID dell’utente che desideri avviare l’elenco. Ad esempio, se si imposta l'ID contatto come ID del 101° contatto, il modulo potrà elencare i contatti 101-5100 anziché 1-5000. </td> 
+   </tr>
+ </tbody> 
+</table>
+
+#### [!UICONTROL Elenca contatti di un&#39;azienda]
+
+Recupera un elenco di contatti della società. L&#39;output è limitato a 5000 contatti. Per elencare i contatti precedenti o successivi, puoi utilizzare il parametro [!UICONTROL advanced] per impostare l&#39;offset dell&#39;elenco.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID]</td> 
+   <td>Immettere l'ID della società di cui si desidera elencare i contatti. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td>Il numero massimo di contatti [!DNL Workfront Fusion] deve essere restituito durante un ciclo di esecuzione dello scenario. </td> 
+  </tr> 
+   <tr> 
+    <td role="rowheader">ID contatto [offset inizio] </td> 
+    <td>Immetti o mappa l’ID dell’utente che desideri avviare l’elenco. Ad esempio, se si imposta l'ID contatto come ID del 101° contatto, il modulo potrà elencare i contatti 101-5100 anziché 1-5000. </td> 
+   </tr>
+ </tbody> 
+</table>
+
+#### [!UICONTROL Unisci contatti]
+
+Questo modulo di azione unisce i contatti
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID 1] </td> 
+   <td>Immettere l'ID di uno dei contatti da unire. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID 2] </td> 
+   <td>Immettere l'ID dell'altro contatto che si desidera unire.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -419,7 +627,7 @@ Rimuove un contatto da un elenco contatti.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID elenco] </td> 
@@ -428,27 +636,6 @@ Rimuove un contatto da un elenco contatti.
   <tr> 
    <td role="rowheader">[!UICONTROL ID contatto] </td> 
    <td>Immettere l'ID del contatto da rimuovere dall'elenco. </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Unisci contatti]
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL ID 1] </td> 
-   <td>Immettere l'ID di uno dei contatti da unire. </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL ID 2] </td> 
-   <td>Immettere l'ID dell'altro contatto che si desidera unire.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -463,7 +650,7 @@ Recupera un elenco di contatti utilizzando la query di ricerca.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query]</td> 
@@ -473,62 +660,6 @@ Recupera un elenco di contatti utilizzando la query di ricerca.
    <td role="rowheader">[!UICONTROL Limit] </td> 
    <td>Immettere o mappare il numero massimo di contatti che [!DNL Workfront Fusion] deve restituire durante un ciclo di esecuzione dello scenario. </td> 
   </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Elenca contatti]
-
-Restituisce tutti i contatti creati nel portale. L&#39;output è limitato a 5000 contatti. Per elencare i contatti precedenti o successivi, puoi utilizzare il parametro [!UICONTROL advanced] per impostare l&#39;offset dell&#39;elenco.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td>Il numero massimo di contatti [!DNL Workfront Fusion] deve essere restituito durante un ciclo di esecuzione dello scenario. </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Proprietà output]</td> 
-   <td>Selezionare le proprietà che si desidera visualizzare nell'output del modulo. </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Contact ID [start offset] </td> 
-    <td>Enter or map the ID of the user that you want to start the list. For example, setting the Contact ID as the ID of the 101st contact will allow the module to list contacts 101-5100 rather than 1-5000. </td> 
-   </tr>
-  --> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Elenca contatti di un&#39;azienda]
-
-Recupera un elenco di contatti della società. L&#39;output è limitato a 5000 contatti. Per elencare i contatti precedenti o successivi, puoi utilizzare il parametro [!UICONTROL advanced] per impostare l&#39;offset dell&#39;elenco.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL ID]</td> 
-   <td>Immettere l'ID della società di cui si desidera elencare i contatti. </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td>Il numero massimo di contatti [!DNL Workfront Fusion] deve essere restituito durante un ciclo di esecuzione dello scenario. </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Contact ID [start offset] </td> 
-    <td>Enter or map the ID of the user that you want to start the list. For example, setting the Contact ID as the ID of the 101st contact will allow the module to list contacts 101-5100 rather than 1-5000. </td> 
-   </tr>
-  --> 
  </tbody> 
 </table>
 
@@ -542,7 +673,7 @@ Questo modulo di attivazione avvia uno scenario quando un nuovo contatto viene a
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID elenco]</td> 
@@ -559,29 +690,14 @@ Questo modulo di attivazione avvia uno scenario quando un nuovo contatto viene a
  </tbody> 
 </table>
 
++++
+
++++**Offerte**
+
 ### Offerte
 
-* [[!UICONTROL Elencare le pipeline di offerte/biglietti]](#list-dealticket-pipelines)
 * [[!UICONTROL Ottieni pipeline CRM dell&#39;offerta]](#get-a-deals-crm-pipeline)
-
-#### [!UICONTROL Elencare le pipeline di offerte/biglietti]
-
-Restituisce tutte le pipeline di offerte e biglietti per un determinato portale.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Tipo di oggetto [!UICONTROL] </td> 
-   <td>Seleziona se desideri elencare offerte o biglietti.</td> 
-  </tr> 
- </tbody> 
-</table>
+* [[!UICONTROL Elencare le pipeline di offerte/biglietti]](#list-dealticket-pipelines)
 
 #### [!UICONTROL Ottieni pipeline CRM dell&#39;offerta]
 
@@ -593,7 +709,7 @@ Restituisce una pipeline di offerta specifica.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">ID pipeline di [!UICONTROL] </td> 
@@ -605,6 +721,29 @@ Restituisce una pipeline di offerta specifica.
   </tr> 
  </tbody> 
 </table>
+
+#### [!UICONTROL Elencare le pipeline di offerte/biglietti]
+
+Restituisce tutte le pipeline di offerte e biglietti per un determinato portale.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Tipo di oggetto [!UICONTROL] </td> 
+   <td>Seleziona se desideri elencare offerte o biglietti.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++**Aziende**
 
 ### Aziende
 
@@ -618,7 +757,7 @@ Recupera un elenco di aziende in base a una corrispondenza esatta con la proprie
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Domain] </td> 
@@ -635,11 +774,439 @@ Recupera un elenco di aziende in base a una corrispondenza esatta con la proprie
  </tbody> 
 </table>
 
++++
+
++++**Coinvolgimenti**
+
+### Coinvolgimenti
+
+* [Associare un accordo a un oggetto CRM](#associate-an-engagement-with-a-crm-object)
+* [Creare un coinvolgimento](#create-an-engagement)
+* [Eliminare un coinvolgimento](#delete-an-engagement)
+* [Guarda le interazioni](#watch-engagements)
+
+#### Associare un accordo a un oggetto CRM
+
+Questo modulo di azione associa un coinvolgimento a un contatto, a una società o a un affare.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Type]</td> 
+   <td>Selezionare il tipo di record di gestione delle relazioni con i clienti a cui si desidera associare un accordo. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Engagement ID]</td> 
+  <td>Immettere o mappare l'ID del progetto che si desidera associare all'oggetto.</td> 
+   </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID record]</td> 
+  <td>Immettere o mappare l'ID del record a cui si desidera associare il coinvolgimento.</td> 
+   </tr> 
+ </tbody> 
+</table>
+
+#### Creare un coinvolgimento
+
+Questo modulo di azione crea un coinvolgimento (ad esempio una nota, un’attività o un’attività) con un oggetto di gestione delle relazioni con i clienti in HubSpot. Gli engagement sono qualsiasi interazione con un contatto che deve essere registrato nel CRM.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL È Attivo?]</td> 
+   <td>Abilita questa opzione se il nuovo accordo sarà attivo al momento della creazione. Un impegno deve essere attivo per essere visualizzato nella timeline.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Type]</td> 
+  <td>Seleziona il tipo di coinvolgimento da creare.
+  <ul>
+  <li><b>E-mail</b><p></p>Passa a <a href="#email-metadata" class="MCXref xref" >Metadati e-mail</a>.</p></li>
+  <li><b>Chiamata</b><p>Continua con <a href="#call-metadata" class="MCXref xref" >Chiamata metadati</a>.</p></li>
+  <li><b>Riunione</b><p>Passa a <a href="#meeting-fields" class="MCXref xref" >Campi riunione</a>.</p></li>
+  <li><b>Attività</b><p>Passa a <a href="#task-fields" class="MCXref xref" >Campi attività</a>.</p></li>
+  <li><b>Nota</b><p>Nel campo Corpo immettere il testo della nota.</p></li>
+  </ul>
+  </td> 
+   </tr> 
+  <tr> 
+   <td role="rowheader">Timestamp</td> 
+   <td>Immetti o mappa un timestamp per il coinvolgimento.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">ID proprietario</td> 
+   <td>Immettere o mappare l'ID proprietario della persona a cui verrà assegnato il progetto.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">UID</td> 
+   <td>Immetti o mappa un ID per il progetto, che può essere utilizzato tra tipi di oggetto diversi.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">ID portale</td> 
+   <td>Inserisci o mappa l’ID del portale. Questa funzione è utile se l’organizzazione dispone di più portali.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Contatti associati</td> 
+   <td>Per ogni contatto a cui si desidera associare il progetto, fare clic su <b>Aggiungi elemento</b> e immettere l'ID contatto.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Società associate</td> 
+   <td>Per ogni società a cui si desidera associare il progetto, fare clic su <b>Aggiungi elemento</b> e immettere l'ID società.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Offerte associate</td> 
+   <td>Per ogni offerta a cui si desidera associare questo accordo, fare clic su <b>Aggiungi elemento</b> e immettere l'ID offerta.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Ticket associati</td> 
+   <td>Per ogni ticket a cui si desidera associare il progetto, fare clic su <b>Aggiungi elemento</b> e immettere l'ID ticket.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Allegati</td> 
+   <td>Per ogni allegato a cui si desidera associare il progetto, fare clic su <b>Aggiungi elemento</b> e immettere l'ID file del file che si desidera allegare.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+##### Metadati e-mail
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!UICONTROL Da &gt; E-mail]</p> </td> 
+   <td> <p>Inserisci o mappa l’indirizzo e-mail da cui verrà inviata l’e-mail.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL First Name]</td> 
+   <td>Inserisci o mappa il nome della persona da cui verrà inviata l’e-mail.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Cognome]</td> 
+  <td>Inserisci o mappa il cognome della persona da cui verrà inviata l’e-mail.
+  </td> 
+   </tr> 
+  <tr> 
+   <td role="rowheader">A</td> 
+   <td>Per ogni indirizzo e-mail a cui desideri inviare l'e-mail, fai clic su <b>Aggiungi elemento</b> e immetti o mappa l'indirizzo e-mail.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Cc</td> 
+   <td>Per ogni indirizzo e-mail a cui desideri inviare il messaggio, fai clic su <b>Aggiungi elemento</b> e immetti o mappa l'indirizzo e-mail.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Ccn</td> 
+   <td>Per ogni indirizzo e-mail a cui desideri inviare il messaggio, fai clic su <b>Aggiungi elemento</b> e immetti o mappa l'indirizzo e-mail.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Oggetto</td> 
+   <td>Inserisci o mappa il testo dell’oggetto e-mail</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">HTML</td> 
+   <td>Per inviare un messaggio e-mail in formato HTML, immetti o mappa il corpo del messaggio, inclusi i HTML.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Testo</td> 
+   <td>Per inviare un messaggio e-mail di solo testo, immetti o mappa il testo del corpo del messaggio.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+##### Metadati della chiamata
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!UICONTROL A Numero]</p> </td> 
+   <td> <p>Immettere o mappare il numero di telefono a cui verrà effettuata la chiamata.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Da Numero]</td> 
+   <td>Immettere o mappare il numero di telefono da cui verrà effettuata la chiamata.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Stato]</td> 
+  <td>Seleziona lo stato della chiamata.
+  </td> 
+   </tr> 
+  <tr> 
+   <td role="rowheader">Corpo</td> 
+   <td>Immetti o mappa i dettagli o le note per la chiamata.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">ID esterno</td> 
+   <td>Questo campo rappresenta l’ID interno di una chiamata effettuata in HubSpot. Non richiede alcuna azione.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Durata</td> 
+   <td>Immetti o mappa la lunghezza della chiamata in millisecondi</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">ID account esterno</td> 
+   <td>Questo campo rappresenta l’ID account interno di una chiamata effettuata in HubSpot. Non richiede alcuna azione.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">URL di registrazione</td> 
+   <td>Immettere o mappare l'URL del file di registrazione.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+##### Campi riunione
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!UICONTROL Title]</p> </td> 
+   <td> <p>Immettere o mappare il titolo o l'oggetto della riunione.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
+   <td>Immettere o mappare il testo della descrizione o dei dettagli della riunione.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Ora di inizio]</td> 
+  <td>Immettere o mappare l'ora di inizio della riunione come timestamp UNIX.
+  </td> 
+   </tr> 
+  <tr> 
+   <td role="rowheader">Ora di fine</td> 
+   <td>Immettere o mappare l'ora di fine della riunione come timestamp UNIX.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+##### Campi attività
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!UICONTROL Subject]</p> </td> 
+   <td> <p>Immettere o mappare il titolo o l'oggetto dell'attività.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
+   <td>Immettere o mappare il testo della descrizione o dei dettagli dell'attività.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Stato</td> 
+   <td>Selezionare lo stato dell'attività.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Per Tipo Di Oggetto]</td> 
+  <td>Immettere <code>CONTACT</code> o <code>COMPANY</code>.
+  </td> 
+   </tr> 
+ </tbody> 
+</table>
+
+#### Eliminare un coinvolgimento
+
+Questo modulo di azione elimina un coinvolgimento in base al relativo ID.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID file]</td> 
+   <td>Immettere o mappare l'ID del progetto che si desidera eliminare.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Guarda le interazioni
+
+Questo modulo di attivazione avvia uno scenario quando viene creato un nuovo impegno in un portale. Questo modulo restituisce solo i record creati negli ultimi 30 giorni o gli ultimi 10.000 record creati.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td>Il numero massimo di società [!DNL Workfront Fusion] deve essere restituito durante un ciclo di esecuzione dello scenario. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Da]</td> 
+   <td>Immetti o mappa la prima data per la quale desideri guardare gli eventi. Utilizza il formato <code>MM/DD/YYYY h:mm</code>.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++**Eventi e notifiche**
+
+### Eventi e notifiche
+
+* [Creare o aggiornare un evento timeline](#create--update-a-timeline-event)
+* [Elencare i tipi di evento Timeline](#list-timeline-event-types)
+* [Guarda gli eventi del calendario](#watch-calendar-events)
+* [Notifiche Watch](#watch-notifications)
+
+#### Creare o aggiornare un evento timeline
+
+Questo modulo di azione crea o aggiorna un evento timeline. Questo modulo può essere utilizzato solo con una connessione per sviluppatori che includa l’identificatore utente, la chiave API HubSpot, l’ID client e il segreto client.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID applicazione]</td> 
+   <td>Immetti o mappa l’ID dell’applicazione a cui appartiene questo evento.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID evento]</td> 
+   <td>Immetti o mappa un ID per questo evento. Gli ID evento non vengono generati dal sistema.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID tipo evento]</td> 
+   <td>Inserisci o mappa l’ID del tipo di evento di questo evento.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL E-Mail]</td> 
+   <td>Inserisci o mappa l’indirizzo e-mail del contatto per il quale stai creando l’evento.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Object ID]</td> 
+   <td>Inserisci o mappa l’ID del contatto per il quale stai creando l’evento.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Timestamp]</td> 
+   <td>Immetti o mappa la marca temporale per questo evento.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Dati personalizzati]</td> 
+   <td>Per ogni elemento di dati personalizzati che si desidera aggiungere all'evento, fare clic su <b>Aggiungi elemento</b> e immettere il nome e il valore dell'elemento.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Elencare i tipi di evento Timeline
+
+Questo modulo di ricerca restituisce un elenco di tutti gli eventi della timeline per un’applicazione specifica. Questo modulo può essere utilizzato solo con una connessione per sviluppatori che includa l’identificatore utente, la chiave API HubSpot, l’ID client e il segreto client.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID applicazione]</td> 
+   <td>Immetti o mappa l’ID dell’applicazione a cui appartengono questi eventi. </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Guarda gli eventi del calendario
+
+Questo modulo di attivazione avvia uno scenario quando un nuovo evento viene aggiunto a un calendario. Include fino a 500 attività nell&#39;intervallo tra la data di inizio e la data di fine. Questo modulo può essere utilizzato solo con una connessione per sviluppatori che includa l’identificatore utente, la chiave API HubSpot, l’ID client e il segreto client.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Tipo di eventi]</td> 
+   <td>Seleziona se desideri guardare eventi social, eventi di contenuto o tutti gli eventi.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Immettere o mappare il numero massimo di file che il modulo deve restituire durante ogni ciclo di esecuzione dello scenario.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Data Inizio]</td> 
+   <td>Immettere o mappare la data di inizio.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Data di fine]</td> 
+   <td>Immettere o mappare la data di fine.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Notifiche Watch
+
+Questo modulo di attivazione avvia uno scenario quando viene inviata una nuova notifica sulle modifiche.  Include fino a 500 attività nell&#39;intervallo tra la data di inizio e la data di fine. Questo modulo può essere utilizzato solo con una connessione per sviluppatori che includa l’identificatore utente, la chiave API HubSpot, l’ID client e il segreto client. In HubSpot puoi avere un solo URL webhook per applicazione per sviluppatori.
+
+Per creare un webhook per questo modulo, fai clic su **Aggiungi** accanto al campo del webhook e compila i campi seguenti:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID applicazione]</td> 
+   <td>Immettere l'ID applicazione da utilizzare per questo webhook. Puoi trovare l’ID nel portale per sviluppatori HubSpot.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Subscriptions]</td> 
+   <td> <p>Per ogni tipo di notifica che si desidera controllare, fare clic su <b>Aggiungi elemento</b> e selezionare il tipo di sottoscrizione.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Forza la rimozione delle vecchie sottoscrizioni]</td> 
+   <td>Abilita questa opzione per scollegare o eliminare le vecchie sottoscrizioni associate a questo webhook.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++**File**
+
 ### File
 
 * [[!UICONTROL Crea una cartella]](#create-a-folder)
+* [Eliminare un file](#delete-a-file)
 * [[!UICONTROL Elimina cartella]](#delete-a-folder)
+* [File di elenco](#list-files)
 * [[!UICONTROL Sposta un file]](#move-a-file)
+* [Carica un file](#upload-a-file)
+* [Guarda i file](#watch-files)
 
 #### [!UICONTROL Crea una cartella]
 
@@ -651,7 +1218,7 @@ Questo modulo crea una cartella.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Nome cartella] </td> 
@@ -660,6 +1227,25 @@ Questo modulo crea una cartella.
   <tr> 
    <td role="rowheader">[!UICONTROL ID cartella padre] </td> 
    <td>Seleziona l’ID della cartella principale per la cartella che stai creando. </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Eliminare un file
+
+Questo modulo di azione elimina definitivamente un file e tutti i dati e le miniature correlati dal file manager.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID file]</td> 
+   <td>Immetti o mappa l’ID del file da eliminare.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -674,11 +1260,38 @@ Contrassegna una cartella come eliminata.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID]</td> 
-   <td>Immetti l’ID della cartella da eliminare.</td> 
+   <td>Immetti o mappa l’ID della cartella da eliminare.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### File di elenco
+
+Questo modulo di ricerca restituisce un elenco di file memorizzati nel file manager.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Immettere o mappare il numero massimo di file che il modulo deve restituire durante ogni ciclo di esecuzione dello scenario.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID cartella]</td> 
+   <td>Immettere o mappare l'ID della cartella contenente i file che si desidera elencare.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Filtro]</td> 
+   <td>Per includere solo i file che contengono caratteri specifici nel nome file, immettere o mappare i caratteri che si desidera includere nel nome file.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -693,7 +1306,7 @@ Sposta un file in un&#39;altra cartella.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID file] </td> 
@@ -710,7 +1323,220 @@ Sposta un file in un&#39;altra cartella.
  </tbody> 
 </table>
 
+#### Carica un file
+
+Questo modulo di azione carica un file nel file manager.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Source file]</td> 
+   <td> <p>Selezionare un file di origine da un modulo precedente o mappare il nome e i dati del file di origine.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Tipo di accesso] </td> 
+   <td>Seleziona se desideri che il file sia privato, pubblico ma non indicizzabile, o pubblico e indicizzabile. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID cartella] </td> 
+   <td>Seleziona l’ID della cartella in cui desideri caricare il file. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Overwrite]</td> 
+   <td>Abilita questa opzione per sovrascrivere il file se esiste già nella cartella.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### File di controllo
+
+Questo modulo di attivazione avvia uno scenario quando un nuovo file viene salvato nel file manager.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Immettere o mappare il numero massimo di file che il modulo deve restituire durante ogni ciclo di esecuzione dello scenario.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID cartella]</td> 
+   <td>Immetti o mappa l’ID della cartella che contiene i file che desideri guardare.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Filtro]</td> 
+   <td>Per includere solo i file che contengono caratteri specifici nel nome file, immettere o mappare i caratteri che si desidera includere nel nome file.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++**Attività**
+
+### Attività
+
+* [Creare un’attività Calendario](#create-a-calendar-task)
+* [Eliminare un’attività Calendario](#create-a-calendar-task)
+* [Osserva eventi attività](#watch-task-events)
+
+#### Creare un’attività Calendario
+
+Questo modulo di azione crea una nuova attività per un calendario. La connessione utilizzata in questo modulo deve utilizzare le credenziali di un utente con un account Marketing a pagamento.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Name]</td> 
+   <td>Immettere o mappare un nome per la nuova attività calendario.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Descrizione]</td> 
+   <td>Immettere o mappare una descrizione per la nuova attività calendario.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID proprietario]</td> 
+   <td>Immettere o mappare l'ID proprietario dell'utente assegnato a questa attività.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Event Date]</td> 
+   <td>Immettere o mappare la data per l'attività.<p>Per un elenco dei formati di data e ora supportati, vedere <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Tipo di coercizione in [!DNL Adobe Workfront Fusion]</a>.</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Categoria]</td> 
+   <td>Seleziona il tipo di evento.<ul><li><b>Post di blog</b><p>Immetti l’ID del gruppo di contenuti. Questo è l'ID della pagina del blog.</p></li><li><b>E-mail</b><p>Inserisci o mappa il percorso del modello e-mail che desideri utilizzare.</li><li><b>Pagina di destinazione</b><p>Inserisci o mappa il percorso del modello della pagina di destinazione che desideri utilizzare.</li><li><b>Personalizzato</b></li><ul></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL State]</td> 
+   <td>Specifica se l'evento si trova nello stato "To do" (Da fare) o "Done" (Fine).</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL GUID campagna]</td> 
+   <td>Inserisci o mappa l’ID HubSpot interno della campagna di cui fa parte questo evento.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Eliminare un’attività Calendario
+
+Questo modulo di azione elimina un’attività calendario. La connessione utilizzata in questo modulo deve utilizzare le credenziali di un utente con un account Marketing a pagamento.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID]</td> 
+   <td>Immettere o mappare l'ID dell'attività che si desidera eliminare.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Osserva eventi attività
+
+Questo modulo di attivazione avvia uno scenario quando è presente un nuovo evento attività in un calendario. La connessione utilizzata in questo modulo deve utilizzare le credenziali di un utente con un account Marketing a pagamento. Il modulo restituisce fino a 500 eventi.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Immettere o mappare il numero massimo di file che il modulo deve restituire durante ogni ciclo di esecuzione dello scenario.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Data Inizio]</td> 
+   <td>Immetti o mappa la prima data per la quale desideri guardare gli eventi. Utilizza il formato <code>MM/DD/YYYY h:mm</code>.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Data di fine]</td> 
+   <td>Immetti o mappa la data più recente per la quale desideri guardare gli eventi. Utilizza il formato <code>MM/DD/YYYY h:mm</code>.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++**Utenti**
+
+### Utenti
+
+* [Ottieni un proprietario](#get-an-owner)
+* [Proprietari elenco](#list-owners)
+
+#### Ottieni un proprietario
+
+Questo modulo di azione restituisce i dettagli di un proprietario.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID proprietario]</td> 
+   <td> <p>Immetti o mappa l’ID del proprietario per il quale desideri restituire i dettagli.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Proprietari elenco
+
+Questo modulo di ricerca restituisce un elenco di tutti i proprietari di un account HubSpot.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++**Ticket**
+
 ### Biglietti
+
+<!--* [Create a Ticket]-->
+* [Elimina ticket](#delete-a-ticket)
+  <!--* [Create a Ticket]-->
+  <!--* [Create a Ticket]-->
+  <!--* [Create a Ticket]-->
+  <!--* [Create a Ticket]-->
+
+<!-- Create a Ticket Need to find a working connection-->
 
 #### [!UICONTROL Elimina ticket]
 
@@ -722,7 +1548,7 @@ Elimina un ticket esistente in base al suo ID.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID]</td> 
@@ -731,7 +1557,344 @@ Elimina un ticket esistente in base al suo ID.
  </tbody> 
 </table>
 
-### [!UICONTROL Effettuare una chiamata API]
+<!-- Get a Ticket  Need to find a working connection-->
+
+<!-- List Tickets  Need to find a working connection-->
+
+&lt;!— Aggiornare un ticket Necessità di trovare una connessione funzionante —>
+
+<!-- Watch Tickets Need to find a working connection-->
+
++++
+
++++**Forms**
+
+### Moduli
+
+* [Ottieni un file caricato tramite modulo](#get-a-file-uploaded-via-form)
+* [Elenca Forms](#list-forms)
+  <!--* [Submit Data to a Form]-->
+  <!--* [Watch Submissions for a Form]-->
+
+#### Ottieni un file caricato tramite modulo
+
+Questo modulo di azione restituisce un file caricato tramite un modulo.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL URL file]</td> 
+   <td>Immetti o mappa l’URL del file da recuperare. Questo si trova nei metadati del modulo.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Elenca Forms
+
+Questo modulo di azione restituisce tutti i moduli creati nell&#39;account associato alla connessione utilizzata per questo modulo.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td>Immettere o mappare il numero massimo di moduli restituiti dal modulo in un ciclo di esecuzione.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+<!--#### Submit Data to a Form Need to find a working connection-->
+
+
+
+&lt;!—#### Osserva gli invii per un modulo—È necessario trovare una connessione funzionante>—>
+
++++
+
++++**Social media (broadcast)**
+
+### Social media (broadcast)
+
+* [Annullare un messaggio di trasmissione](#cancel-a-broadcast-message)
+* [Creare un messaggio di trasmissione](#create-a-broadcast-message)
+* [Guarda i messaggi broadcast](#watch-broadcast-messages)
+
+#### Annullare un messaggio di trasmissione
+
+Questo modulo di azione annulla una trasmissione pianificata, ad esempio un tweet o un post di Facebook.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID trasmissione]</td> 
+   <td>Immetti o mappa l’ID della trasmissione che desideri annullare.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Creare un messaggio di trasmissione
+
+Questo modulo di azione crea e pubblica immediatamente un messaggio sul canale social media specificato.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID canale]</td> 
+   <td>Immetti o mappa l’ID del canale che desideri utilizzare per questa trasmissione.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Title]</td> 
+   <td>Inserisci o mappa un titolo per la trasmissione.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
+   <td>Inserisci o mappa il testo della trasmissione.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL URL foto]</td> 
+   <td>Inserisci o mappa l’URL di una foto da includere nella trasmissione.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL URL miniatura]</td> 
+   <td>Immettere o mappare l'URL di una miniatura che si desidera utilizzare per la trasmissione.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Trigger at]</td> 
+   <td>Immetti o mappa la data e l’ora in cui desideri inviare la trasmissione. Se questo campo viene lasciato vuoto, la trasmissione viene inviata immediatamente.<p>Per un elenco dei formati di data e ora supportati, vedere <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Tipo di coercizione in [!DNL Adobe Workfront Fusion]</a>.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Guarda i messaggi broadcast
+
+Questo modulo di attivazione avvia uno scenario quando un messaggio viene inviato da HubSpot al canale di social media specificato.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td>Immettere o mappare il numero massimo di elementi restituiti dal modulo in un ciclo di esecuzione.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Filtra per stato]</td> 
+   <td>Per avviare lo scenario solo quando il messaggio si trova in uno stato specifico, seleziona lo stato.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Filtra per canale]</td> 
+   <td>Per avviare lo scenario solo quando il messaggio si trova su un canale specifico, seleziona il canale.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID trasmissione]</td> 
+   <td>Per avviare lo scenario solo quando il messaggio è in corrispondenza o dopo una data specifica, immettere o mappare la data nel formato <code>MM/DD/YYYY</code>.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
++++**Post di blog**
+
+### Post di blog
+
+<!--* [Create a Blog Post]-->
+* [Elimina post di blog](#delete-a-blog-post)
+  <!--* [List Blog Posts]-->
+* [Publish/Annulla pubblicazione post di blog](#publish--unpublish-a-blog-post)
+  <!--* [Watch Blog Posts]-->
+
+<!--
+#### Create a Blog Post May need connection
+-->
+
+
+#### Eliminare un post di blog
+
+Questo modulo di azione elimina un singolo post di blog.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID]</td> 
+   <td>Immettete o mappate l'ID del post di blog da eliminare.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+<!--#### List Blog Posts May need connection
+
+This search module retrieves posts from a HubSpot blog.-->
+
+#### Publish/Annulla pubblicazione post di blog
+
+Questo modulo di azione pianifica o annulla la pubblicazione di un post di blog.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID]</td> 
+   <td>Immetti o mappa l'ID del post di blog che desideri pianificare o annullare.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Action]</td> 
+   <td>Seleziona se desideri pianificare il post di blog o annullare un post di blog pianificato in precedenza.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+<!--#### Watch Blog PostsMay need connection-->
+
++++
+
+<!--+++**Workflows**>
+
+<!--### Workflows May need connection
+
+#### Add a Contact to a Workflow
+
+
+#### Remove a Contact from a Workflow
+
+-->
+
+<!--+++-->
+
++++**Iscrizioni**
+
+### Abbonamenti
+
+* [Aggiorna iscrizione e-mail](#update-email-subscription)
+* [Controllo della sequenza temporale degli abbonamenti per un portale](#watch-subscriptions-timeline-for-a-portal)
+
+#### Aggiorna iscrizione e-mail
+
+Questo modulo di azione aggiorna un abbonamento e-mail in HubSpot.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL E-Mail]</td> 
+   <td>Inserisci o mappa l’indirizzo e-mail dell’abbonamento che desideri aggiornare.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Stati [!UICONTROL]</td> 
+   <td>Per ogni stato per il quale si desidera aggiornare l'abbonamento, fare clic su <b>Aggiungi elemento</b>, immettere l'ID dello stato e specificare se l'indirizzo di posta elettronica sarà abbonato a tale stato.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Portal Subscription Legal Status]</td> 
+   <td>Per registrare la base legale per questa sottoscrizione al RGPD, seleziona lo stato legale della sottoscrizione.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Portal Subscription Legal Basation]</td> 
+   <td>Per aggiungere una nota relativa alla base giuridica per questa sottoscrizione al RGPD, immetti o mappa il testo della nota.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Controllo della sequenza temporale degli abbonamenti per un portale
+
+Questo modulo di attivazione avvia uno scenario quando al portale viene aggiunta una nuova sottoscrizione della timeline e-mail.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td>Immettere o mappare il numero massimo di elementi restituiti dal modulo in un ciclo di esecuzione.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Timestamp di inizio]</td> 
+   <td>Per restituire i risultati da una data specifica o da una data successiva, immettere la data nel formato <code>MM/DD/YYYY.</code></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL End Timestamp]</td> 
+   <td>Per restituire i risultati in una data specifica o prima di essa, immettere la data nel formato <code>MM/DD/YYYY.</code></td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
+
+<!--+++**Associations**-->
+
+<!--### Associations-->
+
+<!--#### Associate CRM Objects  May need connection
+
+This action module associates two CRM objects.-->
+
+<!--#### Associate Multiple CRM Objects  May need connection-->
+
+
+
+<!--#### Delete an Association May need connection-->
+
+
+
+<!--#### Delete Multiple Associations between CRM Objects May need connection-->
+
+
+
+<!--#### List Associations for a CRM Object May need connection-->
+
+<!--+++-->
+
++++**Altro**
+
+### Altro
+
+#### [!UICONTROL Effettuare una chiamata API]
 
 Consente di eseguire una chiamata API personalizzata.
 
@@ -754,7 +1917,7 @@ Consente di eseguire una chiamata API personalizzata.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
+   <td> <p>Per istruzioni sulla connessione dell'account [!DNL HubSpot CRM] a [!DNL Workfront Fusion], vedere <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
@@ -794,6 +1957,8 @@ Consente di eseguire una chiamata API personalizzata.
 >Nel nostro esempio, sono stati restituiti 3 contatti:
 >
 >![](assets/hubspot-api-output.png)
+
++++
 
 ## Crea una nuova applicazione
 
