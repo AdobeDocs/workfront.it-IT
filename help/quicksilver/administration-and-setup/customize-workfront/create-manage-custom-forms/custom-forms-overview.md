@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 8e6caabfaa347f0595657078e2d08ce70c0cb697
+source-git-commit: 8d9a9d8356f195d1e1fcbf0ae6c9b08f20ba4bbf
 workflow-type: tm+mt
 source-wordcount: '441'
-ht-degree: 9%
+ht-degree: 7%
 
 ---
 
@@ -33,7 +33,7 @@ Ad esempio, puoi allegare a un progetto un modulo personalizzato denominato &quo
 
 Il progettista di moduli dispone di un&#39;area di lavoro in stile area di lavoro che consente di visualizzare contemporaneamente i campi, l&#39;area di lavoro e le impostazioni dei campi. Consente inoltre di trascinare e rilasciare i campi all’interno delle sezioni durante la progettazione del modulo. È possibile ridimensionare il lato destro dello schermo per disporre di più spazio per le opzioni di campo.
 
-<span class="preview">Un pulsante **Layout** (non visualizzato in questa immagine) consente di scegliere un&#39;area di lavoro a due o tre colonne. Il pulsante indica quale layout è attualmente selezionato. Il layout a tre colonne visualizza le impostazioni dei campi nella colonna a destra. Nel layout a due colonne le impostazioni dei campi vengono visualizzate accanto alla raccolta campi nella colonna all&#39;estrema sinistra.</span>
+<span class="preview">Un pulsante Layout (non visualizzato in questa immagine) consente di scegliere un&#39;area di lavoro a due o tre colonne. Il pulsante indica quale layout è attualmente selezionato. Il layout a tre colonne visualizza le impostazioni dei campi nella colonna a destra. Nel layout a due colonne le impostazioni dei campi vengono visualizzate accanto alla raccolta campi nella colonna all&#39;estrema sinistra.</span>
 
 Per ulteriori informazioni, vedere [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
@@ -48,17 +48,17 @@ In un modulo personalizzato, è possibile creare campi aggiuntivi che richiedono
 In Workfront è possibile aggiungere i seguenti tipi di campi personalizzati a un modulo personalizzato:
 
 * Testo su riga singola
-* Testo paragrafo
+* Paragrafo
 * Testo con formattazione
-* A discesa
-* Elenco a discesa multi-selezione
+* Menu a discesa a selezione singola
+* Menu a discesa a selezione multipla
 * Ricerca esterna
-* Campo nativo
+* Riferimento campo nativo
 * Automatico
 * Calcolato
-* Campo Data
+* Data
 * Gruppo di caselle di controllo
-* Bottoni Circolari
+* Pulsanti di opzione
 * Testo descrittivo
 * Interruzione di sezione
 * Adobe XD

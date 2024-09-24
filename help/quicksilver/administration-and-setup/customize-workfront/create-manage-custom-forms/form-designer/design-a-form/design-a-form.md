@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: ad5d49baddcacaf59c0194fcd3335e71448ae5f7
+source-git-commit: 9a8498adb51f5bc18747667865ebf4b248e57bb5
 workflow-type: tm+mt
-source-wordcount: '5546'
-ht-degree: 5%
+source-wordcount: '5541'
+ht-degree: 4%
 
 ---
 
@@ -152,7 +152,7 @@ I seguenti caratteri speciali non sono supportati nelle etichette e nei nomi dei
 +++ **Espandi per visualizzare le descrizioni dei campi di testo disponibili**
 
 * **Campo di testo a riga singola**: consente agli utenti di digitare una singola riga di testo nel campo.
-* **Campo di testo paragrafo**: consente agli utenti di digitare più righe di testo nel campo.
+* **Campo paragrafo**: consente agli utenti di digitare più righe di testo nel campo.
 * **Campo di testo con formattazione**: consente agli utenti di digitare più righe di testo nel campo e di formattare il testo con grassetto, corsivo, sottolineatura, punti elenco, numerazione, collegamenti ipertestuali e virgolette. Un limite di caratteri di 15.000 consente di inserire testo e formattazione in modo molto ampio.
 
   Questo tipo di campo personalizzato non è supportato nei filtri di elenchi e rapporti.
@@ -172,8 +172,8 @@ Per aggiungere un campo di testo:
 1. Nella parte sinistra dello schermo, individua uno dei campi di testo seguenti e trascinalo in una sezione dell’area di lavoro:
 
    * Testo su riga singola
-   * Testo paragrafo
-   * Campo di testo con formattazione
+   * Paragrafo
+   * Testo con formattazione
    * Testo descrittivo
 
    ![](assets/drag-field-to-section.png)
@@ -192,7 +192,7 @@ Per aggiungere un campo di testo:
    </td>
     <td><ul>
     <li>Testo su riga singola</li>
-    <li>Testo paragrafo</li>
+    <li>Paragrafo</li>
     <li>Testo con formattazione</li>
     <li>Testo descrittivo</li>
     </ul></td>
@@ -203,7 +203,7 @@ Per aggiungere un campo di testo:
     <p>IMPORTANTE: evita di utilizzare caratteri speciali in questa etichetta. Non vengono visualizzati correttamente nei rapporti. Per ulteriori informazioni, vedere <a href="design-a-form.md#notes-on-field-names-and-labels">Note sui nomi e le etichette dei campi</a>.</p></td>
     <td><ul>
     <li>Testo su riga singola</li>
-    <li>Testo paragrafo</li>
+    <li>Paragrafo</li>
     <li>Testo con formattazione</li>
     </ul></td>
     </tr>
@@ -214,7 +214,7 @@ Per aggiungere un campo di testo:
     </td>
     <td><ul>
     <li>Testo su riga singola</li>
-    <li>Testo paragrafo</li>
+    <li>Paragrafo</li>
     <li>Testo con formattazione</li>
     <li>Testo descrittivo</li>
     </ul></td>
@@ -226,7 +226,7 @@ Per aggiungere un campo di testo:
     </td>
     <td><ul>
     <li>Testo su riga singola</li>
-    <li>Testo paragrafo</li>
+    <li>Paragrafo</li>
     <li>Testo con formattazione</li>
     </ul></td>
     </tr>
@@ -240,7 +240,7 @@ Per aggiungere un campo di testo:
      </ul></p></td> </td>
     <td><ul>
     <li>Testo su riga singola</li>
-    <li>Testo paragrafo</li>
+    <li>Paragrafo</li>
     </ul></td>
     </tr>
     <tr>
@@ -248,7 +248,7 @@ Per aggiungere un campo di testo:
     <td>Passa da un campo di testo a riga singola a un campo di testo di paragrafo e viceversa.</td>
     <td><ul>
     <li>Testo su riga singola</li>
-    <li>Testo paragrafo</li>
+    <li>Paragrafo</li>
     </ul></td>
     </tr>
     <tr>
@@ -286,7 +286,7 @@ In un modulo personalizzato è possibile aggiungere pulsanti di scelta, gruppi d
 
 * **Pulsanti di scelta**: richiede agli utenti di selezionare una sola scelta.
 * **Gruppo di caselle di controllo**: consente agli utenti di selezionare più scelte.
-* **Elenco a discesa**: fornisce un elenco di scelte a discesa.
+* **Elenco a discesa a selezione singola**: fornisce un elenco di scelte a discesa.
 * **Elenco a discesa a selezione multipla**: consente agli utenti di selezionare più scelte da un elenco a discesa.
 
 +++
@@ -301,8 +301,8 @@ Per aggiungere pulsanti di scelta, gruppi di caselle di controllo e elenchi a di
 
    * Pulsanti di opzione
    * Gruppo di caselle di controllo
-   * A discesa
-   * Elenco a discesa multi-selezione
+   * Menu a discesa a selezione singola
+   * Menu a discesa a selezione multipla
 
    ![Trascinare un campo nell&#39;area di lavoro](assets/drag-field-to-section.png)
 
@@ -321,8 +321,8 @@ Per aggiungere pulsanti di scelta, gruppi di caselle di controllo e elenchi a di
      <td><ul>
     <li>Pulsanti di opzione</li>
     <li>Gruppo di caselle di controllo</li>
-    <li>A discesa</li>
-    <li>Elenco a discesa multi-selezione</li>
+    <li>Menu a discesa a selezione singola</li>
+    <li>Menu a discesa a selezione multipla</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -332,8 +332,8 @@ Per aggiungere pulsanti di scelta, gruppi di caselle di controllo e elenchi a di
      <td><ul>
     <li>Pulsanti di opzione</li>
     <li>Gruppo di caselle di controllo</li>
-    <li>A discesa</li>
-    <li>Elenco a discesa multi-selezione</li>
+    <li>Menu a discesa a selezione singola</li>
+    <li>Menu a discesa a selezione multipla</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -344,8 +344,8 @@ Per aggiungere pulsanti di scelta, gruppi di caselle di controllo e elenchi a di
     <td><ul>
     <li>Pulsanti di opzione</li>
     <li>Gruppo di caselle di controllo</li>
-    <li>A discesa</li>
-    <li>Elenco a discesa multi-selezione</li>
+    <li>Menu a discesa a selezione singola</li>
+    <li>Menu a discesa a selezione multipla</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -359,18 +359,18 @@ Per aggiungere pulsanti di scelta, gruppi di caselle di controllo e elenchi a di
      <td><ul>
     <li>Pulsanti di opzione</li>
     <li>Gruppo di caselle di controllo</li>
-    <li>A discesa</li>
-    <li>Elenco a discesa multi-selezione</li>
+    <li>Menu a discesa a selezione singola</li>
+    <li>Menu a discesa a selezione multipla</li>
     </ul></td>
     </tr> 
     <tr> 
      <td role="rowheader">Tipo di Disposizione</td> 
-    <td>Passa da un pulsante di opzione a un altro, da un gruppo di caselle di controllo a un altro, da un elenco a discesa a un altro o da un elenco a discesa a selezione multipla per il campo.</td> 
+    <td>Passa da un pulsante di opzione all’altro, da un gruppo di caselle di controllo a un altro, da un elenco a discesa a selezione singola o a un elenco a discesa a selezione multipla per il campo.</td> 
     <td><ul>
     <li>Pulsanti di opzione</li>
     <li>Gruppo di caselle di controllo</li>
-    <li>A discesa</li>
-    <li>Elenco a discesa multi-selezione</li>
+    <li>Menu a discesa a selezione singola</li>
+    <li>Menu a discesa a selezione multipla</li>
     </ul></td>
     </tr> 
      <tr> 
@@ -379,8 +379,8 @@ Per aggiungere pulsanti di scelta, gruppi di caselle di controllo e elenchi a di
     <td><ul>
     <li>Pulsanti di opzione</li>
     <li>Gruppo di caselle di controllo</li>
-    <li>A discesa</li>
-    <li>Elenco a discesa multi-selezione</li>
+    <li>Menu a discesa a selezione singola</li>
+    <li>Menu a discesa a selezione multipla</li>
     </ul></td>
      </tr> 
     <tr> 
@@ -404,8 +404,8 @@ Per aggiungere pulsanti di scelta, gruppi di caselle di controllo e elenchi a di
     <td><ul>
     <li>Pulsanti di opzione</li>
     <li>Gruppo di caselle di controllo</li>
-    <li>A discesa</li>
-    <li>Elenco a discesa multi-selezione</li>
+    <li>Menu a discesa a selezione singola</li>
+    <li>Menu a discesa a selezione multipla</li>
     </ul></td>
      </tr> 
     </tbody> 
@@ -441,7 +441,7 @@ Per aggiungere pulsanti di scelta, gruppi di caselle di controllo e elenchi a di
    * Team
    * Modello
    * Azienda
-* **Campo data**: visualizza un calendario in cui gli utenti possono selezionare una data e un&#39;ora.
+* **Data**: visualizza un calendario in cui gli utenti possono selezionare una data e un&#39;ora.
 
 +++
 
@@ -450,7 +450,7 @@ Per aggiungere campi di tipo typeahead e date:
 1. Nella parte sinistra dello schermo, individua uno dei campi seguenti e trascinalo in una sezione dell’area di lavoro.
 
    * Automatico
-   * Campo Data
+   * Data
 
    ![](assets/drag-field-to-section.png)
 
@@ -468,7 +468,7 @@ Per aggiungere campi di tipo typeahead e date:
       <td> <p>(Obbligatorio) Digita un’etichetta descrittiva da visualizzare sopra il campo personalizzato. Puoi modificare l’etichetta in qualsiasi momento.</p> <p><b>IMPORTANTE</b>: evitare di utilizzare caratteri speciali in questa etichetta. Non vengono visualizzati correttamente nei rapporti. Per ulteriori informazioni, vedere <a href="design-a-form.md#notes-on-field-names-and-labels">Note sui nomi e le etichette dei campi</a>.</p> </td> 
        <td><ul>
     <li>Automatico</li>
-    <li>Campo Data</li>
+    <li>Data</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -477,7 +477,7 @@ Per aggiungere campi di tipo typeahead e date:
       <p>Per ulteriori informazioni, vedere <a href="design-a-form.md#notes-on-field-names-and-labels">Note sui nomi e le etichette dei campi</a>.</p> </td>
     <td><ul>
     <li>Automatico</li>
-    <li>Campo Data</li>
+    <li>Data</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -487,14 +487,14 @@ Per aggiungere campi di tipo typeahead e date:
       </td> 
          <td><ul>
     <li>Automatico</li>
-    <li>Campo Data</li>
+    <li>Data</li>
     </ul></td>
      </tr> 
      <tr> 
       <td role="rowheader">Visualizza ora del giorno</td> 
       <td>Seleziona questa opzione se desideri visualizzare l’ora del giorno insieme alla data nel campo.</td> 
          <td><ul>
-    <li>Campo Data</li>
+    <li>Data</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -532,7 +532,7 @@ Per aggiungere campi di tipo typeahead e date:
       <td>Seleziona questa opzione se desideri che il campo sia obbligatorio per consentire all’utente di completare il modulo personalizzato. </td> 
        <td><ul>
     <li>Automatico</li>
-    <li>Campo Data</li>
+    <li>Data</li>
     </ul></td>
      </tr> 
     </tbody> 
@@ -807,7 +807,7 @@ In questa tabella sono elencati i campi nativi disponibili per oggetti Workfront
 
 +++
 
-1. Nella parte sinistra della schermata, individua **Campo nativo** e trascinalo in una sezione dell&#39;area di lavoro.
+1. Nella parte sinistra della schermata, trova **Riferimento campo nativo** e trascinalo in una sezione dell&#39;area di lavoro.
 1. Sul lato destro della schermata, configura le opzioni per il campo personalizzato:
 
    <table style="table-layout:auto"> 

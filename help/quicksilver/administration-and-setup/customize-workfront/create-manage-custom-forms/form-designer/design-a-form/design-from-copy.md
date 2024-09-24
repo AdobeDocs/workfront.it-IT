@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 578a8bd5-d93f-4327-bb4f-2c17b91b170a
-source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
+source-git-commit: 8d9a9d8356f195d1e1fcbf0ae6c9b08f20ba4bbf
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -84,12 +84,12 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    Analogamente, se un&#39;opzione di accesso per un&#39;interruzione di sezione nel modulo originale non è compatibile con un tipo di oggetto aggiunto al nuovo, verrà visualizzato un messaggio in cui viene richiesto di modificare l&#39;opzione.
 
 1. Seleziona il modulo appena copiato, quindi fai clic sull&#39;![icona Modifica](assets/edit-icon.png).
-1. Apportare le modifiche al modulo, come descritto nelle sezioni seguenti dell&#39;articolo [Progettare un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md):
+1. Apportare le modifiche al modulo, come descritto nelle sezioni seguenti dell&#39;articolo [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md):
 
    * [Riutilizzare un campo o un widget esistente già utilizzato in un altro modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
       * [Aggiungi campi di testo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-text-fields)
       * [Aggiungere campi calcolati](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-calculated-fields)
-      * [Aggiungi pulsanti di scelta, gruppo di caselle di controllo e elenchi a discesa](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkboxes-and-dropdowns)
+      * [Aggiungi pulsanti di scelta, gruppi di caselle di controllo e elenchi a discesa](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkboxes-and-dropdowns)
       * [Aggiungere campi di tipo typeahead e date](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-typeahead-and-date-fields)
       * [Aggiungere immagini, PDF e video](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-images-pdfs-and-videos)
       * [Aggiungere file Adobe XD](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-adobe-xd-files)

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
+source-git-commit: 8d9a9d8356f195d1e1fcbf0ae6c9b08f20ba4bbf
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1300'
 ht-degree: 0%
 
 ---
@@ -61,13 +61,13 @@ Le impostazioni di accesso selezionate per una sezione sono direttamente correla
 
 Per informazioni sulle autorizzazioni per gli oggetti, vedere [Panoramica sulle autorizzazioni di condivisione per gli oggetti](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, vedere [Progettare un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, vedere [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ### Creare e configurare l’accesso per una sezione in un modulo personalizzato
 
-1. Inizia a creare o modificare un modulo personalizzato e ad aggiungere campi, come descritto in [Progettare un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Inizia a creare o modificare un modulo personalizzato e ad aggiungere campi, come descritto in [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Fare clic su **Interruzione di sezione** e trascinarlo nella posizione desiderata nell&#39;area di lavoro.
+1. Fare clic su **Interruzione di sezione** e trascinarla nella posizione desiderata nell&#39;area di lavoro.
 
 1. Nel pannello a destra, configura le opzioni desiderate per la sezione:
 
@@ -147,7 +147,7 @@ In un modulo personalizzato con un&#39;interruzione di sezione configurata con l
 ## Posizionare campi e widget personalizzati in un modulo personalizzato
 
 
-1. Iniziare a creare o modificare un modulo personalizzato, come descritto in [Progettare un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Iniziare a creare o modificare un modulo personalizzato, come descritto in [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Per posizionare campi personalizzati e widget sulla stessa riga, trascinare uno accanto all&#39;altro fino a visualizzare una linea tra di essi.
 
@@ -166,7 +166,7 @@ In un modulo personalizzato con un&#39;interruzione di sezione configurata con l
 
 ## Visualizzare in anteprima un modulo personalizzato
 
-1. Inizia a creare o modificare un modulo personalizzato e ad aggiungere campi, come descritto in [Progettare un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Inizia a creare o modificare un modulo personalizzato e ad aggiungere campi, come descritto in [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Fai clic su **Anteprima** nell&#39;angolo in alto a destra per vedere come si presenterà il modulo durante l&#39;utilizzo, quindi fai clic su **Fine anteprima** per tornare alla modifica del modulo.
 
