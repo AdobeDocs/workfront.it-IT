@@ -6,9 +6,9 @@ description: La nuova Home è una nuova potente funzione per la gestione del tuo
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 60ff39c7a8c4736e1a176dd22bd0be5ab804223f
+source-git-commit: 233016ccc574118df705b857092d647767c05835
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1173'
 ht-degree: 5%
 
 ---
@@ -33,10 +33,13 @@ I widget sono alla base della nuova Home. Aggiungendo i widget alla home page, �
 
 Per informazioni sull&#39;aggiunta, lo spostamento, il ridimensionamento o l&#39;eliminazione di widget, vedere [Aggiungere, modificare o rimuovere widget nella nuova home](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
 
-Di seguito sono riportati i dieci widget attualmente disponibili tra cui scegliere e un riepilogo delle informazioni visualizzate:
+Di seguito sono riportati gli 11 widget attualmente disponibili tra cui scegliere e un riepilogo delle informazioni visualizzate:
 
 * **Il mio lavoro**\
     Un ottimo punto di partenza per la gestione di una varietà di lavori, questo widget mostra tutte le attività, i problemi e le richieste assegnati in un&#39;unica posizione. È possibile fare clic sul pulsante Lavoraci per iniziare a lavorare su un elemento oppure sul pulsante Fine per contrassegnarli come completati. È inoltre possibile aggiornare le informazioni (Stato, Condizione, Percentuale di completamento) relative alle attività e ai problemi, registrare i tempi e aggiungere aggiornamenti dal widget Il mio lavoro.
+
+* **Bacheche**\
+    Visualizza tutte le bacheche create o che sono state invitate a utilizzare. Puoi anche creare una nuova bacheca basata sui seguenti modelli: Bacheca di base, Bacheca Kanban, Bacheca retrospettiva, Bacheca dinamica
 
 * **Progetti personali**\
     Visualizza in un elenco i progetti di cui sei proprietario o a cui appartieni. È possibile utilizzare filtri, viste o raggruppamenti esistenti per personalizzare l’elenco oppure creare un progetto direttamente dal widget.
@@ -48,7 +51,7 @@ Di seguito sono riportati i dieci widget attualmente disponibili tra cui sceglie
     Visualizza i problemi assegnati all&#39;utente in un elenco. Puoi utilizzare i filtri, le viste o i raggruppamenti esistenti per personalizzare l’elenco, oppure puoi creare un problema direttamente dal widget. Questo widget include solo i problemi i cui progetti associati sono impostati su Corrente e non include i progetti completati. Puoi anche delegare i tuoi problemi mentre sei lontano dall&#39;ufficio.
 
 * **Richieste personali**\
-    Visualizza tutte le richieste inviate, un filtro per visualizzare solo le richieste aperte e un pulsante che apre il riquadro di riepilogo di una richiesta.
+    Visualizza tutte le richieste inviate, un filtro per visualizzare solo le richieste aperte e un pulsante che apre il pannello di riepilogo di una richiesta.
 
 * **Richieste team**\
     Mostra tutte le richieste in sospeso per i team di cui fai parte, ordinate per team, nonché i pulsanti per assegnare direttamente una richiesta a un utente o per lavorarci di persona.
@@ -57,10 +60,10 @@ Di seguito sono riportati i dieci widget attualmente disponibili tra cui sceglie
     Mostra tutte le approvazioni assegnate o delegate in attesa, un pulsante per delegare le approvazioni e pulsanti per prendere decisioni di approvazione direttamente all’interno del widget.
 
 * **Tutte le approvazioni**\
-        <span class="preview"> Visualizza 2 grafici con informazioni sul tempo medio di approvazione e sulle decisioni, nonché visualizzazioni elenco delle approvazioni in sospeso e scadute.</span> <span style="color: #ff0000;">Questa funzionalità fa parte di una versione graduale ed è attualmente disponibile solo per clienti specifici.</span>
+        Visualizza 2 grafici con informazioni sul tempo medio di approvazione e sulle decisioni, nonché visualizzazioni elenco delle approvazioni in sospeso e in ritardo. <span style="color: #ff0000;">Questa funzionalità fa parte di una versione graduale ed è attualmente disponibile solo per clienti specifici.</span>
 
 * **Menzioni**\
-    Visualizza i thread di commenti recenti da Workfront, in modo simile alla pagina My Updates (I miei aggiornamenti). Puoi utilizzare il pulsante di risposta per comporre una risposta all’interno del widget. Questo widget mostra anche i commenti aggiunti sulle attività e sui problemi che ti vengono assegnati, che hai assegnato a un altro utente, di cui sei proprietario, per cui sei il contatto principale o che hai creato, purché l’attività o il problema sia stato aggiornato negli ultimi 30 giorni.
+    Visualizza i thread di commenti recenti provenienti da Workfront, in modo simile alla pagina My Updates (I miei aggiornamenti). Puoi utilizzare il pulsante di risposta per comporre una risposta all’interno del widget. Questo widget mostra anche i commenti aggiunti sulle attività e sui problemi che ti vengono assegnati, che hai assegnato a un altro utente, di cui sei proprietario, per cui sei il contatto principale o che hai creato, purché l’attività o il problema sia stato aggiornato negli ultimi 30 giorni.
 
 * **Da fare**\
     Questo widget univoco consente di aggiungere elementi a un elenco di controllo personale che puoi modificare liberamente. Le cose da fare vengono tracciate come attività nel progetto personale e rimangono fino a due settimane dopo il completamento.

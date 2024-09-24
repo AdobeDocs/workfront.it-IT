@@ -5,9 +5,9 @@ title: Gestisci il tuo lavoro con il widget Il mio lavoro
 description: Il widget Il mio lavoro mostra tutte le attività, i problemi e le richieste assegnati in un'unica posizione. In questa finestra è possibile filtrare e organizzare il lavoro, registrare il tempo, apportare aggiornamenti e contrassegnare gli elementi di lavoro come completati.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: c96169186af3bc83b823ec8870173911cf546091
+source-git-commit: 09dd8d24d021e8a25b3a7a63fe93d074f8a8ee0c
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '704'
 ht-degree: 5%
 
 ---
@@ -74,6 +74,7 @@ Puoi perfezionare i filtri Il mio lavoro per concentrarti su elementi specifici 
       <td>Visualizza gli elementi con 
       <ul>
       <li>Nessun predecessore o vincolo di attività incompleto</li>
+      <p>e</p>
       <li>La data di inizio pianificata è nel passato o è prevista entro due settimane</li>
       </ul>
       </td>
@@ -83,7 +84,7 @@ Puoi perfezionare i filtri Il mio lavoro per concentrarti su elementi specifici 
       <td>Visualizza gli elementi con
        <ul>
       <li>Predecessori incompleti o vincoli di attività che impediscono la lavorazione dell'elemento</li>
-      oppure
+      <p>oppure</p>
       <li>La data di inizio pianificata nel futuro è tra più di due settimane</li>
       </ul>
        </td>
@@ -127,7 +128,7 @@ Gli elementi scaduti visualizzano un&#39;icona di avviso accanto alla data. Work
 
 >[!TIP]
 >
->Per creare un elenco che visualizzi tutti gli elementi scaduti nella parte superiore del widget Il mio lavoro, ordinarli per data di scadenza e non applicare un gruppo.
+>Per creare un elenco che visualizzi tutti gli elementi scaduti nella parte superiore del widget Il mio lavoro, ordinarli per data di scadenza e non applicare un raggruppamento.
 
 
 ![](assets/sort-my-work-widget.png)
@@ -156,7 +157,7 @@ Puoi aprire il pannello Riepilogo per aggiornare rapidamente le informazioni in 
 * Aggiungi un aggiornamento
 * Passare all&#39;area Documento per caricare un documento
 * Visualizzare i dettagli degli elementi di lavoro e aggiornare i campi personalizzati
-Gli amministratori di Workfront possono personalizzare i campi da visualizzare nel Riepilogo del modello di layout. Per ulteriori informazioni, vedere [Personalizzare la home e il riepilogo utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+Gli amministratori di Workfront possono personalizzare i campi da visualizzare nel Riepilogo nel modello di layout. Per ulteriori informazioni, vedere [Personalizzare la home e il riepilogo utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 * Modificare lo stato dell&#39;elemento di lavoro
 * Visualizza le sottoattività
 * Registra ore
