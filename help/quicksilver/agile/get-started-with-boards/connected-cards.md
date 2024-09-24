@@ -6,9 +6,9 @@ description: È possibile aggiungere alla bacheca una scheda connessa alle attiv
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 0c0c1f538cfd12e18c504fcb42ee424789d1cde8
 workflow-type: tm+mt
-source-wordcount: '1461'
+source-wordcount: '1483'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ Quando uno qualsiasi dei seguenti dettagli viene aggiornato per la scheda in una
 * [!UICONTROL Stima] / [!UICONTROL Punti Storia]
 * [!UICONTROL Attività secondarie]
 * [!UICONTROL Documenti]
+
+Per sincronizzare le schede collegate con Workfront, fai clic sul menu **[!UICONTROL Altro]** ![[!UICONTROL Altro menu]](assets/more-icon-spectrum.png) accanto al nome della bacheca e seleziona **[!UICONTROL Sincronizza elementi connessi]**.
 
 >[!NOTE]
 >

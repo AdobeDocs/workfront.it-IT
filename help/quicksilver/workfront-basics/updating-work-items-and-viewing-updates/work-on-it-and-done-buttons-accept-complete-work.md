@@ -8,9 +8,9 @@ author: Lisa and Alina
 feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: a634e29df16d401812fb87ea53521d5028f7fd20
+source-git-commit: f5632af0fb87739fc41c4e2f41dc8ebab0f8be8b
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,14 @@ Quando ti viene assegnata un’attività o un problema, puoi utilizzare un pulsa
 
 Utilizzando il pulsante contestuale per accettare o completare gli elementi di lavoro, puoi consentire ad Adobe Workfront di aggiornare diversi campi sugli elementi senza doverli aggiornare manualmente.
 
+I pulsanti Lavoraci e Fine sono visibili agli utenti che dispongono di:
+
+* Una licenza Standard (nuova) o una licenza Pianificazione o Lavoro (corrente)
+* Accesso limitato o superiore alle modifiche per l’attività o il problema
+
 ## Lavoraci e nomi dei pulsanti Fine
 
-A seconda dell’area di Workfront da cui accedi all’attività o al problema, il pulsante Lavoraci o Fine può modificare i nomi, come descritto nei seguenti scenari: 
+A seconda dell’area di Workfront da cui accedi all’attività o al problema, il pulsante Lavoraci o Fine può modificare i nomi, come descritto nei seguenti scenari:
 
 * Quando l’attività o il problema viene assegnato per la prima volta e lo stato è Nuovo, il pulsante viene visualizzato come Lavoraci.
 
@@ -33,7 +38,7 @@ A seconda dell’area di Workfront da cui accedi all’attività o al problema, 
   >
   >È possibile sostituire il pulsante Lavoraci con un pulsante Avvia. Per informazioni sulla sostituzione del pulsante Lavoraci con un pulsante Start, vedere [Sostituire il pulsante Lavoraci con un pulsante Start](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md) .
 
-* Dopo aver fatto clic su Accetta lavoro, il pulsante diventa Contrassegna come completato o Fine , a seconda di dove si accede all’attività o al problema in Workfront. Per informazioni su dove è possibile accedere al pulsante Lavoraci, vedere la sezione [Individuare il pulsante Lavoraci e completati](#locate-the-work-on-it-and-done-button) in questo articolo.
+* Dopo aver fatto clic su Accetta lavoro, il pulsante cambia in Contrassegna come completato o Fine, a seconda di dove si accede all’attività o al problema in Workfront. Per informazioni su dove è possibile accedere al pulsante Lavoraci, vedere la sezione [Individuare il pulsante Lavoraci e completati](#locate-the-work-on-it-and-done-button) in questo articolo.
 
   ![](assets/nwe-mark-as-done-button-350x122.png)
 
@@ -86,7 +91,7 @@ Se si dispone dell&#39;accesso per modificare i team, è possibile sostituire il
 Oltre ai campi che vengono aggiornati quando si fa clic sul pulsante Lavoraci, quando si fa clic sul pulsante Start i campi seguenti vengono aggiornati automaticamente per un&#39;attività o un problema:
 
 * Stato
-* Data d&#39;Inizio Reale
+* Data di inizio effettiva
 
   Per informazioni sulla data di inizio effettiva, vedere [Panoramica sulla data di inizio effettiva del progetto](../../manage-work/projects/planning-a-project/project-actual-start-date.md).
 

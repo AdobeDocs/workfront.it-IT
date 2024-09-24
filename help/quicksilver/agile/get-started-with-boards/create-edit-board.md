@@ -6,9 +6,9 @@ description: Dal dashboard [!UICONTROL bacheche], puoi creare una nuova bacheca 
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: efe636e14964cc8705839c9f534a9947327803d7
+source-git-commit: 0c0c1f538cfd12e18c504fcb42ee424789d1cde8
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '858'
 ht-degree: 1%
 
 ---
@@ -107,6 +107,8 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Nel dashboard, seleziona la bacheca da aprire.
 1. Modifica la bacheca in base alle esigenze. Puoi fare clic sul nome della bacheca per rinominarla.
+
+   Per sincronizzare le schede collegate con Workfront e inserire nuove attività e problemi nella scheda o nella colonna Acquisizione, fai clic sul menu **[!UICONTROL Altro]** ![[!UICONTROL Altro menu]](assets/more-icon-spectrum.png) accanto al nome della scheda e seleziona **[!UICONTROL Sincronizza elementi connessi]**.
 
    Per informazioni, vedere [Aggiungere o rimuovere membri da una bacheca](../../agile/get-started-with-boards/add-members-to-board.md), [Gestire le colonne della bacheca](../../agile/get-started-with-boards/manage-board-columns.md) e [Aggiungere una scheda a una bacheca](../../agile/get-started-with-boards/add-card-to-board.md).
 
