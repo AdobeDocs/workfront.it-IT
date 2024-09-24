@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 7a2cfddf4683b5b49121bbe3987498297b963ffa
 workflow-type: tm+mt
 source-wordcount: '2075'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Puoi modificare facilmente qualsiasi modello di flusso di lavoro automatico, agg
 Quando si utilizza un modello di flusso di lavoro automatizzato, tenere presente quanto segue:
 
 1. Le impostazioni di un modello di flusso di lavoro automatico determinano le operazioni che è possibile eseguire con il flusso di lavoro automatico per una bozza. Ad esempio, se il pulsante Aggiungi un’area di visualizzazione è disabilitato nel modello, non sarà visibile durante l’utilizzo delle impostazioni del flusso di lavoro automatico per la bozza.
-1. Quando una persona viene aggiunta a un’area di un modello di flusso di lavoro automatico, ma è anche già presente come revisore sulla bozza, l’applicazione del modello rimuove il revisore dall’area di visualizzazione. Se non si aggiunge un altro revisore all&#39;area di visualizzazione, verrà visualizzato un messaggio che richiede di aggiungerne uno.
+1. Quando una persona viene aggiunta a una fase di un modello di flusso di lavoro automatico, ma è già presente come revisore nella bozza, l’applicazione del modello rimuove il revisore dalla fase. Se non si aggiunge un altro revisore all&#39;area di visualizzazione, verrà visualizzato un messaggio che richiede di aggiungerne uno.
 1. La possibilità di modificare un modello di flusso di lavoro automatico dipende dalle impostazioni del modello configurate dall&#39;amministratore di Workfront, come descritto in . Se la possibilità di modificare il modello è disabilitata, solo il proprietario del modello può modificarlo.
 
 Per informazioni sui flussi di lavoro automatizzati, vedere [Panoramica sui flussi di lavoro automatizzati](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
