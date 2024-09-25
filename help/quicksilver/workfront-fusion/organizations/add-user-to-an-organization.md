@@ -7,9 +7,9 @@ description: È possibile aggiungere utenti alle organizzazioni in Adobe Workfro
 author: Becky
 feature: Workfront Fusion
 exl-id: 98248cca-98f5-4eb5-b203-67e261df33f1
-source-git-commit: 1b4a6d2b2ad57ddf1afd5dadf8b1fed358f95b61
+source-git-commit: 5cdc438c6757d438b2c09796cf77e59dc19c45d9
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -93,6 +93,9 @@ Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adob
 <p><strong>Add a user to an organization that has not been onboarded to the Adobe Business Console</strong></p>
 
 -->
+>[!NOTE]
+>
+>Se la tua organizzazione è attualmente in fase di trasferimento al Adobe Admin Console, non puoi gestire gli utenti in Workfront (aggiunta o eliminazione di utenti). Puoi eseguire queste azioni in Adobe Admin Console al termine della migrazione.
 
 Per aggiungere utenti all’organizzazione, devi essere un amministratore dell’organizzazione a cui desideri aggiungere gli utenti. Per informazioni sui ruoli, vedere [Ruoli organizzazione in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/organization-roles.md).
 
