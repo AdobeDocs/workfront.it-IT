@@ -6,9 +6,9 @@ description: Puoi condividere un documento di prova con destinatari interni ed e
 author: Nolan
 feature: Get Started with Workfront
 exl-id: a97ddd1e-1cae-49a8-b3a4-7c9850169179
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Questa opzione invia un&#39;e-mail con un collegamento di bozza pubblico a un co
 
 ## Scarica la bozza
 
-Puoi scaricare una copia del documento della bozza sul tuo dispositivo mobile.
+Puoi scaricare una copia del documento della bozza sul tuo dispositivo mobile. Sebbene non sia possibile visualizzare in anteprima i file video, è comunque possibile scaricarli.
 
 1. Apri la bozza del documento e seleziona il menu **[!UICONTROL Altro]** ![Altro menu](assets/mobile-verticalmoremenu-20x33.png) in alto a destra del documento. Quindi, seleziona **[!UICONTROL Altro]**.
 1. Seleziona **[!UICONTROL Scarica]**.

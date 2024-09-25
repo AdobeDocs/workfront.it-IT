@@ -6,9 +6,9 @@ description: Pianificare la consegna automatica dei rapporti
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1172'
 ht-degree: 2%
 
 ---
@@ -130,7 +130,7 @@ Per pianificare la consegna automatica di un report o per modificare o eliminare
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Ora</p> </td> 
-      <td> <p>Seleziona l’ora del giorno per la consegna da inviare.</p> <p>Suggerimento: poiché i carichi di sistema possono influire sui tempi di consegna dei rapporti, potrebbe verificarsi un ritardo tra l’ora pianificata e l’ora di consegna effettiva. Se hai bisogno di un rapporto consegnato entro un orario specifico, ti consigliamo di pianificarlo prima del momento in cui è necessario. Ad esempio, consigliamo di pianificare la consegna un giorno prima della data in cui è necessaria.</p> </td> 
+      <td> <p>Seleziona l’ora del giorno per la consegna da inviare.</p> <p>Suggerimento: poiché i carichi di sistema possono influire sui tempi di consegna dei rapporti, potrebbe verificarsi un ritardo di 24 ore tra l’ora pianificata e l’ora di consegna effettiva. Se hai bisogno di un rapporto consegnato entro un orario specifico, ti consigliamo di pianificarlo prima del momento in cui è necessario. In generale, consigliamo di pianificare la consegna almeno un giorno prima della data in cui è necessaria.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Si ripete il</p> </td> 
