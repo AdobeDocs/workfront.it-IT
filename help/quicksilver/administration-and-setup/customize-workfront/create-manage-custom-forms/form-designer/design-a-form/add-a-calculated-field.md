@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
+source-git-commit: 0e7651389a8762a2b09b0bcf87bf08c7be72adee
 workflow-type: tm+mt
-source-wordcount: '2319'
+source-wordcount: '2353'
 ht-degree: 0%
 
 ---
@@ -279,6 +279,8 @@ Un calcolo inizia in genere con un&#39;espressione, seguita da parentesi contene
 +++
 
    1. Fai clic nella casella di testo grande, quindi fai clic su **Espressioni** e **Campi** disponibili per aggiungerli al calcolo.
+
+      Espandere il nome di un oggetto in **Campi** per visualizzare tutti i campi disponibili per l&#39;oggetto. L&#39;elenco è limitato a 200 elementi. Se conosci il nome del campo, puoi cercarlo.
 
       È inoltre possibile iniziare a digitare un&#39;espressione o un campo nella casella di testo grande, quindi selezionarlo quando viene visualizzato. Ogni elemento viene visualizzato con una &quot;F&quot; per il campo o una &quot;E&quot; per l’espressione.
 
