@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 56f59e901e4c20159cd8b40cea0cbbe24271099b
+source-git-commit: 2fa590235063e194d6277394f13b3d6be752ec4f
 workflow-type: tm+mt
 source-wordcount: '1953'
 ht-degree: 10%
@@ -292,7 +292,7 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
 | Visualizza | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
 | Modifica dettagli | ✓ | ✓ | ✓ | ✓ |   |
 | Scarica | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Cassa | ✓ | ✓ | ✓ | ✓ |   |
+| Pagamento | ✓ | ✓ | ✓ | ✓ |   |
 | Aggiungi approvatori | ✓ | ✓ | ✓ | ✓ |   |
 | Approva documenti | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Allegare moduli personalizzati | ✓ | ✓ | ✓ | ✓ |   |
@@ -313,7 +313,7 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
 
 {style="table-layout:auto"}
 
-&#42; Utilizzando un livello di accesso, gli amministratori di Workfront possono disabilitare o abilitare questa funzionalità. Per ulteriori informazioni, vedere [Configurabile accesso alla funzionalità per ogni tipo di](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md) oggetto.
+&#42; Utilizzando un livello di accesso, gli amministratori di Workfront possono disabilitare o abilitare questa funzionalità. Per ulteriori informazioni, vedere [Accesso configurabile alle funzionalità per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 &#42;&#42;Disponibile solo per le cartelle di documenti, non per i documenti
 
@@ -577,4 +577,5 @@ Solo gli utenti con una licenza Pianificazione possono avere accesso completo al
 | Visualizza la sezione Elenco obiettivi nel pannello a sinistra | ✓ | ✓ |
 | Visualizzare la sezione Grafici nel pannello a sinistra | ✓ | ✓ |
 | Visualizza la sezione Allineamento obiettivo nel pannello a sinistra | ✓ | ✓ |
+
 
