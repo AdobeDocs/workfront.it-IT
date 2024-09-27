@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
+source-git-commit: b0b56dfb8d50fbbd40e2a1de82f95352c182615a
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -46,9 +46,9 @@ Per ulteriori informazioni sul rollback di un pacchetto di promozione dell&#39;a
 
 >[!NOTE]
 >
->Versione di anteprima: 12 agosto 2024; produzione per rilascio rapido: con la versione 24.9 (12 settembre 2024); produzione per rilascio trimestrale: da definire
+>Versione di anteprima: ~~12 agosto 2024~~; produzione per rilascio rapido: N/D; produzione per rilascio trimestrale: N/D
 >
->_Questa funzione fa parte di una versione graduale e sarà disponibile per un numero limitato di clienti a settembre. Rimarrà nell&#39;ambiente di anteprima per un periodo di tempo prolungato durante la raccolta dei commenti._
+>_Questa funzionalità è stata rimossa dall&#39;anteprima e non verrà rilasciata con versioni future._
 
 Un pulsante &quot;Layout&quot; nella finestra di progettazione del modulo personalizzato consente di scegliere un&#39;area di lavoro a due o tre colonne. Il progettista del modulo originale utilizza tre colonne e le impostazioni dei campi vengono visualizzate nella colonna a destra. Se si selezionano due colonne, le impostazioni dei campi vengono visualizzate accanto alla raccolta campi nella colonna all&#39;estrema sinistra.
 
