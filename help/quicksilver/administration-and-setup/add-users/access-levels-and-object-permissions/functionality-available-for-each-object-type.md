@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 5113771baf269405e758307d11a392f95ee870fe
+source-git-commit: 56f59e901e4c20159cd8b40cea0cbbe24271099b
 workflow-type: tm+mt
-source-wordcount: '1919'
+source-wordcount: '1953'
 ht-degree: 10%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 10%
 Nelle tabelle seguenti sono elencate le funzionalità disponibili per ogni tipo di oggetto nei vari livelli di accesso.
 
 Indica inoltre le azioni che gli amministratori di Workfront possono disabilitare o abilitare utilizzando un livello di accesso.
+
+>[!NOTE]
+>
+>Questo articolo descrive le funzionalità disponibili per i livelli di accesso nel modello di piano Workfront corrente. Per visualizzare le funzionalità disponibili nel nuovo modello di piano, vedere [Funzionalità disponibili per ogni tipo di oggetto per i nuovi livelli di accesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md).
 
 ## Progetti
 
@@ -288,7 +292,7 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
 | Visualizza | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
 | Modifica dettagli | ✓ | ✓ | ✓ | ✓ |   |
 | Scarica | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Pagamento | ✓ | ✓ | ✓ | ✓ |   |
+| Cassa | ✓ | ✓ | ✓ | ✓ |   |
 | Aggiungi approvatori | ✓ | ✓ | ✓ | ✓ |   |
 | Approva documenti | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Allegare moduli personalizzati | ✓ | ✓ | ✓ | ✓ |   |
@@ -309,7 +313,7 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
 
 {style="table-layout:auto"}
 
-&#42; Utilizzando un livello di accesso, gli amministratori di Workfront possono disabilitare o abilitare questa funzionalità. Per ulteriori informazioni, vedere [Accesso configurabile alle funzionalità per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Utilizzando un livello di accesso, gli amministratori di Workfront possono disabilitare o abilitare questa funzionalità. Per ulteriori informazioni, vedere [Configurabile accesso alla funzionalità per ogni tipo di](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md) oggetto.
 
 &#42;&#42;Disponibile solo per le cartelle di documenti, non per i documenti
 
