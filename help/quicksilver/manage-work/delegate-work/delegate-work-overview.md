@@ -7,9 +7,9 @@ description: Quando prevedi di uscire dall'ufficio per un breve periodo di tempo
 author: Lisa
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 70e20df7c9738f33496e37b31b6e11caf0ac2f0f
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '886'
 ht-degree: 1%
 
 ---
@@ -28,11 +28,11 @@ Ad esempio, se alcune attività sono in scadenza prima della restituzione ma non
 
 * Attività assegnate a te
 * Problemi assegnati a te
-* Approvazioni di progetti, attività, problemi e documenti assegnate all&#39;utente.
+* Le approvazioni di progetti, attività o problemi che ti sono state assegnate.
 
 Questo articolo contiene informazioni generali sulla delega di attività e problemi.
 
-Per informazioni sulla delega delle approvazioni di progetti, attività, problemi e documenti, vedere [Delegare la richiesta di approvazione](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+Per informazioni sulla delega delle approvazioni di progetti, attività e problemi, vedere [Delegare la richiesta di approvazione](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 Per informazioni su come delegare attività e problemi, vedere [Delegare attività e problemi](../../manage-work/delegate-work/how-to-delegate-work.md).
 
@@ -43,6 +43,7 @@ Quando deleghi attività e problemi, tieni presente quanto segue:
 * L&#39;amministratore di [!DNL Workfront] o del gruppo deve abilitare le preferenze di delega nell&#39;area [!UICONTROL Configurazione] prima di poter delegare il lavoro ad altri.
 
   Per informazioni, consulta [Configurare le preferenze per attività e problemi a livello di sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+
 * Puoi delegare attività e problemi solo dall&#39;area [!UICONTROL Home].
 * Esistono eccezioni per i seguenti tipi di licenza:
 
