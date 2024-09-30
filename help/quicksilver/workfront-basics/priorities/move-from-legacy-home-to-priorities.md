@@ -5,9 +5,9 @@ description: La pagina Home legacy verrà rimossa da Workfront il 10/17 con la v
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 3b530431ea9db318e03ac1f348e40cfbdedefc01
+source-git-commit: e0eeb62dc1e29849258fa7b111ccce6480767812
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '564'
 ht-degree: 3%
 
 ---
@@ -49,9 +49,7 @@ Raggruppamenti
 
 #### Delega lavoro
 
-Al momento gli utenti non possono delegare o visualizzare il lavoro delegato nelle priorità.
-
-Gli utenti possono comunque delegare il lavoro dalla Nuova Home nei seguenti widget:
+Al momento gli utenti non possono delegare o visualizzare il lavoro delegato nelle priorità. Tuttavia, gli utenti possono comunque delegare il lavoro dalla Nuova Home nei seguenti widget:
 
 * Il mio lavoro
 * Le mie attività
