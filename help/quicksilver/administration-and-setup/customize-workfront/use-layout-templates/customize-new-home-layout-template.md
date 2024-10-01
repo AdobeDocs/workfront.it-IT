@@ -8,28 +8,30 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: cf722e3dc021cf4302e9542fd65a0e5dd0043de5
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '808'
 ht-degree: 1%
 
 ---
 
 # Personalizzare la nuova Home utilizzando un modello di layout
 
-È possibile utilizzare un modello di layout per configurare ciò che gli utenti visualizzano quando aprono una nuova Home.
+È possibile utilizzare un modello di layout per configurare ciò che gli utenti visualizzano quando aprono per la prima volta una nuova Home.
 
 Puoi configurare:
 
-* Quali widget vengono visualizzati nell’area di lavoro per impostazione predefinita e il relativo layout nella pagina
+* Quali widget vengono visualizzati nell’area di lavoro per impostazione predefinita
 * Quale sfondo è selezionato
 * Impostazioni specifiche dei widget, inclusi i filtri e i gruppi disponibili per i widget Progetti personali, Attività personali e Problemi personali, nonché i relativi valori predefiniti
 
 >[!IMPORTANT]
 >
->Le scelte del modello di layout amministratore descritte in questa pagina hanno la precedenza sulle scelte di personalizzazione dei singoli utenti.
->
->Quando si salvano le modifiche apportate a un modello di layout, la nuova home page degli utenti di tale modello viene modificata in modo da corrispondere al modello di layout e le selezioni di widget esistenti vengono spostate nella parte inferiore della pagina. I widget selezionati dall’amministratore possono essere riposizionati e ridimensionati da un utente, ma non possono essere rimossi.
+>Gli utenti finali possono modificare lo sfondo e riordinare i widget sulla pagina dopo l’applicazione del modello di layout. Non sono in grado di rimuovere i widget inclusi da un amministratore Workfront.
+> <br>
+>Gli amministratori possono aggiungere nuovi widget per gli utenti. Tuttavia, se un utente finale ha già personalizzato l’ordine dei widget o la selezione di sfondo, tali personalizzazioni specifiche non vengono modificate.
+
+
 
 Per informazioni sulla nuova home, vedere [Introduzione alla nuova home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
@@ -71,7 +73,9 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
 
 +++
 
-## Personalizzare la nuova Home utilizzando un modello di layout
+## Personalizzare la nuova home utilizzando un modello di layout
+
+Per personalizzare la nuova home tramite un modello di layout:
 
 1. Iniziare a lavorare su un modello di layout, come descritto in [Creare e gestire modelli di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
