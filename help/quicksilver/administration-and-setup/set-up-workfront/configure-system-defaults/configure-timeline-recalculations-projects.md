@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 67028988-6ac3-48d4-957e-1b5202d33c48
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -77,6 +77,11 @@ Per informazioni sui tipi di aggiornamento del progetto, vedere [Panoramica sul 
 1. Fai clic su **[!UICONTROL Salva]**.
 
    La timeline di tutti i progetti nel sistema viene ricalcolata automaticamente in base al Tipo di aggiornamento di ciascun progetto.
+
+>[!IMPORTANT]
+>
+>Per gli ambienti Sandbox di anteprima e aggiornamento personalizzato, il ricalcolo notturno è disattivato e le timeline del progetto non vengono ricalcolate automaticamente. Devi ricalcolare manualmente la timeline del progetto per gli ambienti Sandbox di anteprima e aggiornamento personalizzati. Per informazioni, vedere [Ricalcolare i timeline del progetto](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
+
 
 ## Ricalcola le timeline per l&#39;intera istanza [!DNL Workfront]
 

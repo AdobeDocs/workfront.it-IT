@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '1749'
 ht-degree: 0%
 
 ---
@@ -199,6 +199,16 @@ Per ulteriori informazioni sulla configurazione di [!DNL Workfront] con SSO, ved
 >[!NOTE]
 >
 >Non è disponibile se l&#39;istanza [!DNL Workfront] dell&#39;organizzazione è abilitata con Adobe IMS. Per ulteriori informazioni, rivolgersi all&#39;amministratore di rete o IT.
+
+## Ricalcolo automatico delle sequenze temporali del progetto
+
+Il ricalcolo delle sequenze temporali consente ai responsabili di vedere in che modo forze esterne al progetto influiscono sulla sequenza temporale del progetto. La sequenza temporale di un progetto si riferisce alle date pianificate e previste per il progetto.
+
+In qualità di amministratore di Workfront, puoi configurare quando Workfront ricalcola automaticamente le timeline dei progetti. Workfront può ricalcolare le sequenze temporali del progetto ogni notte o quando l’ambito del progetto cambia, oppure entrambe.
+
+Per informazioni, vedere [Configurare i ricalcoli della sequenza temporale per i progetti](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+
+Per l’ambiente Sandbox di aggiornamento personalizzato, il ricalcolo notturno è disattivato e le timeline del progetto non vengono ricalcolate automaticamente. È necessario ricalcolare manualmente la timeline del progetto per l’ambiente Sandbox di aggiornamento personalizzato. Per informazioni, vedere [Ricalcolare i timeline del progetto](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
 ## Uso previsto e disponibilità
 

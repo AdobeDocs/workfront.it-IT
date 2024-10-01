@@ -6,9 +6,9 @@ description: Il ricalcolo delle sequenze temporali consente ai responsabili di v
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1058'
 ht-degree: 0%
 
 ---
@@ -94,6 +94,11 @@ Per impostazione predefinita, le sequenze temporali del progetto vengono ricalco
 
 * [Ricalcolo automatico delle sequenze temporali del progetto](#automatic-recalculation-of-project-timelines)
 * [Azioni che attivano il ricalcolo automatico delle sequenze temporali del progetto](#actions-that-trigger-an-automatic-recalculation-of-project-timelines)
+
+
+>[!IMPORTANT]
+>
+>Per gli ambienti Sandbox di anteprima e aggiornamento personalizzato, il ricalcolo notturno è disattivato e le timeline del progetto non vengono ricalcolate automaticamente. Devi ricalcolare manualmente la timeline del progetto per gli ambienti Sandbox di anteprima e aggiornamento personalizzati.
 
 ### Ricalcolo automatico delle sequenze temporali del progetto {#automatic-recalculation-of-project-timelines}
 
