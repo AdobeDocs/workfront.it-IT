@@ -9,24 +9,24 @@ feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 899641a0-a104-4be9-b423-34a32e985b53
-source-git-commit: fe096ba36da9b56e0e38f6061481b66cfbeee5c6
+source-git-commit: 67e1d158b09ca339d25473ebedf8851155b2c1c0
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 1%
+source-wordcount: '408'
+ht-degree: 0%
 
 ---
 
-# Generare un modulo utilizzando IA
+# Generare un segmento di scenario utilizzando IA
 
 <!--DO NOT DELETE - linked through CSH-->
 
 >[!IMPORTANT]
 >
->Poiché questa funzione è ancora nelle prime fasi di sviluppo, è disponibile solo per gli utenti interni di Workfront.
+>Poiché questa funzione è disponibile in Beta, è disponibile solo per alcuni utenti di Workfront.
 
-È possibile utilizzare l’intelligenza artificiale per immettere un prompt di testo che descriva le operazioni che devono essere eseguite da un modulo. Fusion genera quindi un modulo HTTP che si connette all’endpoint corretto dell’API desiderata.
+Puoi utilizzare l’intelligenza artificiale per immettere un prompt di testo che descriva ciò che occorre fare in una sezione dello scenario. Fusion genera quindi moduli che eseguiranno tali azioni, che puoi utilizzare nello scenario.
 
-Come per tutto ciò che viene generato dall’intelligenza artificiale, ti consigliamo di controllare e testare il modulo generato per verificare che funzioni come previsto.
+Come per tutto ciò che viene generato dall’intelligenza artificiale, ti consigliamo di controllare e testare i moduli generati per verificare che funzionino come previsto.
 
 ## Applicazioni del modulo di IA attualmente supportate
 
@@ -50,43 +50,54 @@ Fusion AI può attualmente generare moduli che si connettono alle seguenti appli
 * OpenAI
 * Slack
 
-## Generare un modulo
+## Genera moduli
 
-1. Aggiungi un modulo e seleziona **Genera con IA** dall&#39;elenco delle applicazioni.
+1. Inizia ad aggiungere un modulo e seleziona **Genera con IA** dall&#39;elenco delle applicazioni.
 
    Oppure
 
-   Fai clic con il pulsante destro del mouse su un&#39;area vuota dell&#39;editor di scenari, quindi seleziona **Genera con IA**.
+   Fai clic sull&#39;icona Genera con IA ![Genera con IA](assets/generate-with-ai-icon-beta.png) nella parte inferiore della pagina dell&#39;editor di scenari.
+
+   Viene aperto il pannello Assistente AI.
 1. Immettere un prompt di testo nella casella.
 
    Per suggerimenti sui prompt, vedere [Suggerimenti per la creazione di prompt di testo](#tips-for-creating-text-prompts) in questo articolo.
-1. Aggiungi il token API per l’applicazione al modulo.
-1. Controlla il modulo per assicurarti che sembri configurato per l’applicazione e l’azione appropriate.
-1. (Condizionale) Se il modulo non è allegato allo scenario, trascinalo nella posizione desiderata.
 
-È consigliabile eseguire il test del modulo per verificare che il modulo generato funzioni come previsto.
+   Viene generato il modulo o il set di moduli.
+1. (Condizionale) Se necessario, aggiungi il token API per l’applicazione ai moduli.
+1. Controlla i moduli per assicurarti che siano configurati per l’applicazione e l’azione appropriate.
+1. (Condizionale) Se la sezione dello scenario generato non è associata allo scenario, trascinala nella posizione desiderata.
+
+È consigliabile testare i moduli per verificare che funzionino come previsto.
 
 ## Suggerimenti per la creazione di prompt di testo
 
 I prompt di testo devono includere almeno le seguenti informazioni:
 
 * Applicazione a cui ci si connette
-* Azione che si desidera eseguire
+* Azione o azioni da eseguire
+
+>[!IMPORTANT]
+>
+>È possibile generare più di un modulo alla volta, ma è possibile generare moduli solo per un&#39;applicazione alla volta.
 
 >[!INFO]
 >
 >**Esempi**:
 >
->* `Retrieve a list of my calendars from Google Calendar`
+>* `Delete the records 'xyz-123', 'xyz-456', 'xyz-789' from Adobe Workfront Planning`
+>Ciò include l&#39;applicazione `Workfront Planning` e l&#39;azione `delete records`. Questo prompt crea tre moduli, uno per ogni record che verrà eliminato.
+>* `Change campaign summary of the record 'xyz-123' from Adobe Workfront Planning`
+>Ciò include l&#39;applicazione `Workfront Planning` e l&#39;azione `change campaign summary`.
+>* `Get all field details in the record type with ID 'test-record' from Adobe Workfront Planning`
+>Ciò include l&#39;applicazione `Workfront Planning` e l&#39;azione `get field details`.
 >
->   Ciò include l&#39;applicazione `Google Calendar` e l&#39;azione `Retrieve a list of my calendars`.
+>L’esempio seguente NON è corretto:
+>* `Generate an image in Adobe Firefly and upload it to Dropbox`
 >
->* `Retrieve popular songs from Spotify`
->
->   Ciò include l&#39;applicazione `Spotify` e l&#39;azione `Retrieve popular songs`.
+>    Questo esempio non è corretto perché include più di un&#39;applicazione
 
 Durante la creazione di prompt di testo, tenete presente quanto segue:
 
-* Poiché ogni modulo di Fusion esegue una singola azione, il prompt di testo deve descrivere un&#39;azione specifica.
 * Utilizza un linguaggio semplice e diretto.
-* Verifica e verifica il modulo. Se non funziona come previsto, perfeziona la richiesta e riprova.
+* Verifica e verifica i moduli. Se non funziona come previsto, perfeziona la richiesta e riprova.
