@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 9a8498adb51f5bc18747667865ebf4b248e57bb5
+source-git-commit: eee683edc36b33b74d67a9ffbcab9697826e3a86
 workflow-type: tm+mt
-source-wordcount: '5541'
-ht-degree: 4%
+source-wordcount: '5575'
+ht-degree: 5%
 
 ---
 
 # Progettare un modulo con il progettista del modulo
+
+{{highlighted-preview}}
 
 È possibile progettare un modulo personalizzato con il progettista del modulo. È possibile allegare moduli personalizzati a diversi oggetti di Workfront per acquisire dati su tali oggetti.
 
@@ -89,6 +91,8 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 ## Aggiungere campi nuovi o esistenti al modulo personalizzato
 
 È possibile utilizzare campi nuovi o esistenti durante la progettazione del modulo personalizzato.
+
+<span class="preview">I moduli personalizzati sono limitati a 500 campi. Un contatore in basso a sinistra visualizza il numero di campi utilizzati nel modulo ed è sempre visibile durante lo scorrimento all&#39;interno del progettista del modulo.</span>
 
 ### Riutilizzare un campo o un widget esistente già utilizzato in un altro modulo personalizzato
 
@@ -301,8 +305,8 @@ Per aggiungere pulsanti di scelta, gruppi di caselle di controllo e elenchi a di
 
    * Pulsanti di opzione
    * Gruppo di caselle di controllo
-   * Menu a discesa a selezione singola
-   * Menu a discesa a selezione multipla
+   * Elenco a discesa a selezione singola
+   * Elenco a discesa multi-selezione
 
    ![Trascinare un campo nell&#39;area di lavoro](assets/drag-field-to-section.png)
 
@@ -321,8 +325,8 @@ Per aggiungere pulsanti di scelta, gruppi di caselle di controllo e elenchi a di
      <td><ul>
     <li>Pulsanti di opzione</li>
     <li>Gruppo di caselle di controllo</li>
-    <li>Menu a discesa a selezione singola</li>
-    <li>Menu a discesa a selezione multipla</li>
+    <li>Elenco a discesa a selezione singola</li>
+    <li>Elenco a discesa multi-selezione</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -332,8 +336,8 @@ Per aggiungere pulsanti di scelta, gruppi di caselle di controllo e elenchi a di
      <td><ul>
     <li>Pulsanti di opzione</li>
     <li>Gruppo di caselle di controllo</li>
-    <li>Menu a discesa a selezione singola</li>
-    <li>Menu a discesa a selezione multipla</li>
+    <li>Elenco a discesa a selezione singola</li>
+    <li>Elenco a discesa multi-selezione</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -344,8 +348,8 @@ Per aggiungere pulsanti di scelta, gruppi di caselle di controllo e elenchi a di
     <td><ul>
     <li>Pulsanti di opzione</li>
     <li>Gruppo di caselle di controllo</li>
-    <li>Menu a discesa a selezione singola</li>
-    <li>Menu a discesa a selezione multipla</li>
+    <li>Elenco a discesa a selezione singola</li>
+    <li>Elenco a discesa multi-selezione</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -359,8 +363,8 @@ Per aggiungere pulsanti di scelta, gruppi di caselle di controllo e elenchi a di
      <td><ul>
     <li>Pulsanti di opzione</li>
     <li>Gruppo di caselle di controllo</li>
-    <li>Menu a discesa a selezione singola</li>
-    <li>Menu a discesa a selezione multipla</li>
+    <li>Elenco a discesa a selezione singola</li>
+    <li>Elenco a discesa multi-selezione</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -369,8 +373,8 @@ Per aggiungere pulsanti di scelta, gruppi di caselle di controllo e elenchi a di
     <td><ul>
     <li>Pulsanti di opzione</li>
     <li>Gruppo di caselle di controllo</li>
-    <li>Menu a discesa a selezione singola</li>
-    <li>Menu a discesa a selezione multipla</li>
+    <li>Elenco a discesa a selezione singola</li>
+    <li>Elenco a discesa multi-selezione</li>
     </ul></td>
     </tr> 
      <tr> 
@@ -379,8 +383,8 @@ Per aggiungere pulsanti di scelta, gruppi di caselle di controllo e elenchi a di
     <td><ul>
     <li>Pulsanti di opzione</li>
     <li>Gruppo di caselle di controllo</li>
-    <li>Menu a discesa a selezione singola</li>
-    <li>Menu a discesa a selezione multipla</li>
+    <li>Elenco a discesa a selezione singola</li>
+    <li>Elenco a discesa multi-selezione</li>
     </ul></td>
      </tr> 
     <tr> 
@@ -404,8 +408,8 @@ Per aggiungere pulsanti di scelta, gruppi di caselle di controllo e elenchi a di
     <td><ul>
     <li>Pulsanti di opzione</li>
     <li>Gruppo di caselle di controllo</li>
-    <li>Menu a discesa a selezione singola</li>
-    <li>Menu a discesa a selezione multipla</li>
+    <li>Elenco a discesa a selezione singola</li>
+    <li>Elenco a discesa multi-selezione</li>
     </ul></td>
      </tr> 
     </tbody> 
