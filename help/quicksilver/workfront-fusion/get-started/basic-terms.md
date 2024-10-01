@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion richiede una licenza Adobe Workfront Fusion 
 author: Becky
 feature: Workfront Fusion
 exl-id: 2169dc2e-2135-47e0-a615-3de12cd120a9
-source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
+source-git-commit: eb39c26b076e89acb8bc4eef1a459b6ef8cd389b
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '858'
 ht-degree: 0%
 
 ---
@@ -101,6 +101,10 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader"> <p>Scenario</p> </td> 
    <td> <p>Una serie di passaggi automatizzati creati dall’utente, ciascuno rappresentato ed eseguito da un modulo. Lo scopo di uno scenario è quello di spostare e manipolare i dati.</p> <p> <img src="assets/scenario-350x178.jpg" style="width: 350;height: 178;"> </p> <p> Per ulteriori informazioni, vedere <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Creare uno scenario in [!UICONTROL Adobe Workfront Fusion]</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Segmento scenario</p> </td> 
+   <td> <p> Sezione di uno scenario costituita da una serie di moduli che si connettono tutti alla stessa applicazione. I segmenti di scenario spesso rappresentano un breve flusso di lavoro nell’applicazione.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Transazioni</p> </td> 
