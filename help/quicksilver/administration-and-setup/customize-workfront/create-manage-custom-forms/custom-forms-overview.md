@@ -8,20 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: db7b5213fb58e219fdabbacfa5bddac7b9da0b00
+source-git-commit: a9cc21d182051410c87e1b6a4fbe8fd8cbe2a178
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 7%
+source-wordcount: '383'
+ht-degree: 11%
 
 ---
 
 # Panoramica dei moduli personalizzati
 
 <!--Audited: 12/2023-->
-
-{{highlighted-preview}}
-
-{{form-designer-default}}
 
 Puoi creare un modulo personalizzato che gli utenti possono allegare a un oggetto Adobe Workfront. Gli utenti che lavorano sull’oggetto possono compilare il modulo personalizzato per fornire informazioni sull’oggetto.
 
@@ -32,8 +28,6 @@ Ad esempio, puoi allegare a un progetto un modulo personalizzato denominato &quo
 ## Come creare un modulo personalizzato
 
 Il progettista di moduli dispone di un&#39;area di lavoro in stile area di lavoro che consente di visualizzare contemporaneamente i campi, l&#39;area di lavoro e le impostazioni dei campi. Consente inoltre di trascinare e rilasciare i campi all’interno delle sezioni durante la progettazione del modulo. È possibile ridimensionare il lato destro dello schermo per disporre di più spazio per le opzioni di campo.
-
-<span class="preview">Un pulsante Layout (non visualizzato in questa immagine) consente di scegliere un&#39;area di lavoro a due o tre colonne. Il pulsante indica quale layout è attualmente selezionato. Il layout a tre colonne visualizza le impostazioni dei campi nella colonna a destra. Nel layout a due colonne le impostazioni dei campi vengono visualizzate accanto alla raccolta campi nella colonna all&#39;estrema sinistra.</span>
 
 Per ulteriori informazioni, vedere [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
@@ -50,10 +44,10 @@ In Workfront è possibile aggiungere i seguenti tipi di campi personalizzati a u
 * Testo su riga singola
 * Paragrafo
 * Testo con formattazione
-* Menu a discesa a selezione singola
+* Elenco a discesa a selezione singola
 * Menu a discesa a selezione multipla
 * Ricerca esterna
-* Riferimento campo nativo
+* Riferimento di campo nativo
 * Automatico
 * Calcolato
 * Data
