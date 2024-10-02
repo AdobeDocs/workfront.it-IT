@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: cf722e3dc021cf4302e9542fd65a0e5dd0043de5
+source-git-commit: 21e81e6395680e3ea7ffd05424217e5352fff0f6
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '830'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ Per personalizzare la nuova home tramite un modello di layout:
       <p>Dopo aver selezionato il widget da modificare, le opzioni disponibili vengono visualizzate a destra. Queste opzioni includono <b>Filtri</b>, <b>Colonne</b> e <b>Gruppi</b>. È possibile:</p>
       <ul>
       <li><p><b>Seleziona e ordina Filtri, Colonne o Gruppi disponibili per gli utenti:</b></p>
-      <p>Seleziona la casella accanto a tutte le opzioni nell’elenco che desideri possano essere utilizzate dagli utenti. Le opzioni non selezionate non vengono visualizzate per gli utenti. Trascina le opzioni nell’elenco per impostare un ordine.</li></p>
+      <p>Seleziona la casella accanto a tutte le opzioni nell’elenco che desideri possano essere utilizzate dagli utenti. Queste opzioni non si estendono al pannello Riepilogo. È necessario configurare tale area nella scheda Riepilogo del modello di layout. Le opzioni non selezionate non vengono visualizzate per gli utenti. Trascina le opzioni nell’elenco per impostare un ordine.</li></p>
       <p>
 
 >[!IMPORTANT]
