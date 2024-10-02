@@ -5,9 +5,9 @@ description: Priorities è un’esperienza semplice e intuitiva, personalizzata 
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: fa7bb26215caba62edfbe8eabc15526427abd0b8
+source-git-commit: 08221eb867a052187138be5c51a8720bb095f31b
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '832'
 ht-degree: 3%
 
 ---
@@ -182,6 +182,7 @@ Utilizza la funzione Recuperami per vedere cosa ti sei perso. Il comando Recuper
 
 ## Considerazioni
 
+* Al momento gli amministratori di Workfront non possono personalizzare le priorità tramite il modello di layout.
 * L’accesso alle attività in Priorità è suddiviso tra schede. In futuro è prevista l’aggiunta di ulteriori schede, ad esempio Documenti, Sottoattività, Approvazioni e così via. Comunicaci che hai bisogno di questi elementi inviando un feedback utilizzando il pulsante **Invia feedback**.
 
 
