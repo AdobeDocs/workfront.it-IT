@@ -10,9 +10,9 @@ description: Con il connettore  [!DNL Adobe Experience Manager Assets]  per l'ac
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
+source-git-commit: 993d10a93eca28573aaa38e4ce76e5a1b30ec42e
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1706'
 ht-degree: 0%
 
 ---
@@ -127,20 +127,28 @@ Per creare una connessione per i moduli [!DNL Adobe Experience Manager Assets]:
                   <td>Immettere l'URL per l'istanza [!DNL Adobe Experience Manager]. Non includere una barra <code>/</code> alla fine dell'URL.</td>
               </tr>
               <tr>
+                  <td role="rowheader">[!UICONTROL Opzioni di compilazione dettagli account]</td>
+                  <td>Seleziona se desideri fornire il codice JSON che descriva i dettagli dell’account o se desideri immettere i dettagli manualmente.</td>
+              </tr>
+              <tr>
+                  <td role="rowheader">[!UICONTROL Dettagli account tecnico in formato JSON]</td>
+                  <td>Se fornisci JSON, immetti o incolla il JSON che descrive i dettagli dell’account.</td>
+              </tr>
+              <tr>
                   <td role="rowheader">[!UICONTROL ID client]</td>
-                  <td>Immettere l'ID client generato nell'installazione di [!UICONTROL Server-to-server].</td>
+                  <td>Se si immettono i dettagli manualmente, immettere l'ID client generato nell'installazione di [!UICONTROL Server-to-server].</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Segreto client]</td>
-                  <td>Immettere il segreto client generato nell'installazione di [!UICONTROL Server-to-server].</td>
+                  <td>Se si immettono i dettagli manualmente, immettere il segreto client generato nell'installazione di [!UICONTROL Server-to-server].</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL ID account tecnico]</td>
-                  <td>Immetti l’ID dell’account tecnico. Campo "[!UICONTROL id]" nel file JSON delle credenziali client.</td>
+                  <td>Se inserisci i dettagli manualmente, immetti l’ID dell’account tecnico. Campo "[!UICONTROL id]" nel file JSON delle credenziali client.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL ID organizzazione]</td>
-                  <td class="">Immetti l’ID della tua organizzazione. Campo "[!UICONTROL org]" nel file JSON delle credenziali client.</td>
+                  <td class="">Se inserisci i dettagli manualmente, inserisci l’ID della tua organizzazione. Campo "[!UICONTROL org]" nel file JSON delle credenziali client.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Meta Ambiti]</td>
