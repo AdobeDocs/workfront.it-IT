@@ -6,9 +6,9 @@ description: Lo scopo del dashboard è quello di fornire un accesso rapido alle 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '536'
 ht-degree: 1%
 
 ---
@@ -21,10 +21,6 @@ Lo scopo del dashboard è quello di fornire un accesso rapido alle informazioni.
 
   Per ulteriori informazioni sulla creazione di report, vedere [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-* Calendari
-
-  Per ulteriori informazioni sulla creazione di calendari, vedere [Calendari: indice articolo](../../../reports-and-dashboards/reports/calendars/calendars.md).
-
 * Pagine esterne
 
   Per ulteriori informazioni sulla creazione di pagine esterne, vedere [Incorporare una pagina Web esterna in un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
@@ -33,7 +29,7 @@ Dopo aver creato questi elementi e averli aggiunti a un dashboard, è possibile 
 
 Eventuali modifiche apportate a un dashboard avranno un impatto su tutti gli utenti che hanno accesso a tale dashboard.
 
-Quando condividi un dashboard con gli utenti, anche tutti i report, i calendari e le pagine esterne vengono condivisi con gli stessi utenti.
+Quando condividi un dashboard con gli utenti, anche tutti i report e le pagine esterne vengono condivisi con gli stessi utenti.
 
 ## Requisiti di accesso
 
@@ -86,7 +82,7 @@ Per informazioni sulla creazione di dashboard, vedere [Creare un dashboard](../.
    * **Nome**: modificare il nome del dashboard.
    * **Descrizione**: specificare una descrizione per il dashboard.
 
-1. Nella sezione **Report e calendari disponibili**, inizia a digitare il nome di un report, di un calendario o di una pagina esterna nel campo **Cerca per nome o tipo ...**, quindi trascina il report o il calendario nel riquadro di layout a destra.
+1. Nella sezione **Report disponibili**, inizia a digitare il nome di un report o di una pagina esterna nel campo **Cerca per nome o tipo ...**, quindi trascina e rilascia il report nel riquadro di layout a destra.
 
    >[!NOTE]
    >

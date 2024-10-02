@@ -6,7 +6,7 @@ description: Puoi visualizzare i rapporti del calendario e i dettagli dell’eve
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: e5a3024b1657942cd7abdfff76a7a6795127a4f5
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -54,14 +54,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    A seconda del livello di accesso, è possibile che vengano elencati i calendari seguenti:
 
-   * Calendario [!DNL Adobe Workfront] predefinito\
+   * Calendario [!DNL Adobe Workfront] predefinito
 
      Workfront crea un calendario per l&#39;utente in base ai progetti, alle attività e ai problemi assegnati all&#39;utente o ai team, ai gruppi o ai ruoli a cui l&#39;utente è assegnato.
-   * Calendari creati\
+   * Calendari creati
 
      Per informazioni sulla creazione di calendari, vedere [Panoramica sui report calendario](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
-   * Calendari condivisi con altri utenti\
+   * Calendari condivisi con altri utenti
 
      Per informazioni sulla condivisione dei calendari, vedere [[!UICONTROL Condividere un calendario] report](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
 

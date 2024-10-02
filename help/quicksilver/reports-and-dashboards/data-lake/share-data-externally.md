@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '611'
 ht-degree: 1%
 
 ---
@@ -39,6 +39,45 @@ Per collegare il data lake di Data Connect a un prodotto esterno, è necessario 
 >Una volta aggiunta una voce al inserisco nell&#39;elenco Consentiti di, tutti gli altri indirizzi IP non sono più consentiti. Prima di utilizzare lo strumento, assicurati di aver inserito tutti gli indirizzi IP richiesti, sia per la creazione che per la lettura dello strumento di visualizzazione. In caso contrario, potrebbe verificarsi un errore relativo alle credenziali non valide.
 >
 >Se nel elenco Consentiti non è incluso alcun indirizzo IP ma si verificano ancora problemi di connessione a uno strumento BI, controllare la configurazione del server proxy per lo strumento BI.
+
+## Requisiti di accesso
+
++++ Espandere per visualizzare i requisiti di accesso.
+
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">piano Adobe Workfront</td> 
+   <td><p>Incluso nei seguenti piani:</p>
+    <ul>
+        <li>Ultimate</li> 
+    </ul>    
+   <p>Può essere acquistato come componente aggiuntivo per i seguenti piani:</p> 
+    <ul>
+        <li>Seleziona</li> 
+        <li>Prime</li>
+    </ul> 
+    <p>Workfront Data Connect non è disponibile per i piani Workfront legacy.</p> 
+   </td> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td>Piano</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Devi essere un amministratore di Workfront.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Aggiungere IP al inserisco nell&#39;elenco Consentiti di
 

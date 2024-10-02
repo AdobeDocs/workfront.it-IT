@@ -6,9 +6,9 @@ description: Pianificare la consegna automatica dei rapporti
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1272'
 ht-degree: 2%
 
 ---
@@ -160,6 +160,12 @@ Per pianificare la consegna automatica di un report o per modificare o eliminare
    Il report viene visualizzato nella sezione **Consegne ripetute** (nella finestra di dialogo **Invia report**) e verrà inviato all&#39;ora pianificata.
 
    Per informazioni sui limiti di dimensione che possono influenzare la consegna dei report, vedi le sezioni [Limiti di consegna dei report](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#understanding-export-limits) e [Limiti di esportazione](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#export).
+
+>[!IMPORTANT]
+>
+>I rapporti pianificati sono soggetti a un limite di tempo interno durante l’elaborazione per la consegna. Nel caso in cui un rapporto richieda più tempo del limite da inviare, riceverai una notifica e non verrà più consegnato, indipendentemente dalle consegne pianificate rimanenti. Per continuare a inviare il rapporto, prova innanzitutto a ridurne le dimensioni tramite filtri e visualizzazioni, quindi crea una nuova consegna pianificata.
+>
+>Se utilizzi una consegna di rapporti pianificata per analizzare i dati di Workfront tramite uno strumento di business intelligence, ti consigliamo invece di utilizzare Workfront Data Connect. Per ulteriori informazioni, vedere [Panoramica di Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
 1. (Facoltativo) Per eliminare una consegna programmata:
 

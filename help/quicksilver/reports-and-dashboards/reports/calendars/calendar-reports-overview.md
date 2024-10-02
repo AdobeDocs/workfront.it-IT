@@ -7,9 +7,9 @@ description: Un report calendario è un report dinamico che fornisce una rappres
 author: Lisa
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '352'
 ht-degree: 4%
 
 ---
@@ -57,7 +57,3 @@ All&#39;interno di ogni report calendario è possibile creare gruppi di elementi
 >[!NOTE]
 >
 >Se durante l&#39;esecuzione di un report calendario viene visualizzato un errore 504, è probabile che il report contenga troppi filtri. La riduzione del numero di filtri dovrebbe consentire l’esecuzione del rapporto.
-
-## Aggiungere i calendari a una dashboard
-
-Puoi accedere rapidamente ai rapporti del calendario visualizzandoli su una dashboard. Per informazioni su come aggiungere un calendario a un dashboard, vedere [Modificare un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md).

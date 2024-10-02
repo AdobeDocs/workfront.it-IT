@@ -4,9 +4,9 @@ description: Miglioramenti Home Quarto Trimestre 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c32d08a0b32c6695a29ef45400a7eb1e10e665fd
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,10 @@ Questa pagina descrive tutti i miglioramenti apportati all’ambiente di antepri
 Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio del quarto trimestre 2024, consulta [Panoramica sulla versione del quarto trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
 ## Semplificare l&#39;esperienza Workfront per i proprietari di attività con priorità
+
+>[!NOTE]
+>
+>Versione di anteprima: 3 ottobre 2024; versione di produzione per tutti i clienti: con la versione 24.10 (17 ottobre 2024).
 
 Priorità: un’esperienza Workfront più semplice, semplice e intuitiva per i titolari delle attività.
 
