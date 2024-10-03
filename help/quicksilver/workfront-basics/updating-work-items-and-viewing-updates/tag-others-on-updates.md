@@ -1,14 +1,14 @@
 ---
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Assegna tag ad altri utenti in caso di aggiornamenti
+title: Assegna tag ad altri in caso di aggiornamenti
 description: Quando si forniscono commenti di aggiornamento su un oggetto Adobe Workfront, tutti gli utenti del progetto possono visualizzare le informazioni inviate. Tuttavia, in alcuni casi gli utenti che non fanno parte del progetto potrebbero trarre vantaggio dalla visualizzazione di tali informazioni. Invece di includere tali utenti nel progetto, puoi assegnare loro tag nell’aggiornamento per condividerlo con loro. Gli utenti taggati ricevono una notifica dell’evento.
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1008'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,8 @@ Invece di includere tali utenti nell’oggetto assegnandoli a esso o imponendo l
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto">
@@ -82,6 +84,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 *Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront. Per ulteriori informazioni, consulta [Requisiti di accesso per la documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Assegna tag ad altri utenti in caso di aggiornamenti
 

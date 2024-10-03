@@ -1,14 +1,14 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: Visualizza e aggiorna la percentuale di completamento per le attività
+title: Visualizza e aggiorna percentuale di completamento per le attività
 description: È possibile aggiornare la percentuale di completamento di un'attività per indicare lo stato di avanzamento dell'attività verso il completamento.
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 È possibile aggiornare la percentuale di completamento di un&#39;attività per indicare lo stato di avanzamento dell&#39;attività verso il completamento.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per aggiornare manualmente le attività, è necessario disporre dei seguenti diritti di accesso:
 
@@ -49,8 +51,9 @@ Per aggiornare manualmente le attività, è necessario disporre dei seguenti dir
  </tbody> 
 </table>
 
-*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront. Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
 
 ## Aree in cui è possibile aggiornare la percentuale di completamento di un&#39;attività
 

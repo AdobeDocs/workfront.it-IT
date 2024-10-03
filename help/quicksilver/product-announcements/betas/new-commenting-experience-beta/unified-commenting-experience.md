@@ -9,9 +9,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1071'
 ht-degree: 1%
 
 ---
@@ -35,6 +35,8 @@ ht-degree: 1%
 >Il programma beta per la nuova esperienza di commento è iniziato ad aprile 2023 e si è concluso a ottobre 2023, con la versione di ottobre 2023.
 >
 >Dall’11 aprile 2024 tutte le funzioni per la nuova esperienza di commenti sono disponibili nell’ambiente di produzione per tutti i clienti.
+>
+> L’esperienza di commento precedente è stata rimossa da Workfront.
 
 ## Funzioni
 
@@ -47,7 +49,7 @@ Tra i miglioramenti inclusi nella nuova esperienza di commento, ci sono i seguen
 * Indicatore in tempo reale quando vengono aggiunti nuovi commenti a un oggetto
 * Modifica di commenti dopo l’invio
 
-Le seguenti funzioni sono state rimosse o diventeranno obsolete nella nuova esperienza:
+Le seguenti funzioni sono state rimosse dalla nuova esperienza:
 
 * Commento su un aggiornamento del sistema. I commenti aggiunti in passato agli aggiornamenti di sistema sono stati importati come commenti di sola lettura nella nuova scheda Attività di sistema.
 * Possibilità di modificare lo stato, la condizione, la data di conferma e la percentuale di completamento durante il commento di attività e problemi.
@@ -81,17 +83,14 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
   <tr>
    <td><strong>Funzione </strong>
    </td>
-   <td><strong>Esiste nella vecchia esperienza di commento </strong>
+   <td><strong>Esisteva nella vecchia esperienza di commento </strong>
    </td>
    <td><strong>Esiste nella nuova esperienza di commento </strong>
    </td>
-   <td><strong>Verrà introdotto nella nuova esperienza di commento </strong>
+
+<td><strong>Introduzione alla nuova esperienza di commento </strong>
    </td>
-   <td><strong>Quando verrà introdotto nella nuova esperienza di commento </strong>
-   </td>
-   <td><strong>Nella ricerca </strong>
-   </td>
-  </tr>
+   </tr>
   <tr>
    <td>Creare/leggere/rispondere/eliminare commenti 
    </td>
@@ -99,13 +98,11 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
   </td>
    <td>✓ 
    </td>
-   <td> 
+
+<td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>Testo formattato (escluse citazioni ed emoticon)
    </td>
@@ -113,12 +110,10 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
    <td>✓
    </td>
-   <td> 
+
+<td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
+   &gt;
   </tr>
 
 <tr>
@@ -130,11 +125,8 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
 
 <tr>
    <td>Testo formattato (virgolette)
@@ -143,13 +135,10 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
    <td> ✓
    </td>
-   <td> 
+    <td> 2° trimestre 2023
    </td>
-   <td> 2° trimestre 2023
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
 <tr>
    <td> Commenti offerta
@@ -158,13 +147,10 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td> 2° trimestre 2023
    </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>Reagisce ai commenti (come) 
    </td>
@@ -174,11 +160,8 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>Allega immagini ai commenti 
    </td>
@@ -186,13 +169,10 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
    <td>✓ 
    </td>
-   <td> 
+      <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>Assegnare tag alle persone nei commenti 
    </td>
@@ -202,11 +182,8 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>Rimuovi partecipanti thread
    </td>
@@ -216,23 +193,13 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
   </tr>
-
-
-<tr>
+  <tr>
    <td>Assegna automaticamente tag a tutti i partecipanti del thread
    </td>
    <td> 
    </td>
    <td>✓
-   </td>
-   <td> 
-   </td>
-   <td> 
    </td>
    <td> 
    </td>
@@ -247,10 +214,6 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
   </tr>
   <tr>
    <td>Annullare la pubblicazione di un commento 
@@ -259,11 +222,7 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
    <td>Sostituito con modifica commento 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
+     <td> 
    </td>
   </tr>
   <tr>
@@ -275,11 +234,7 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>Modifica commenti 
    </td>
@@ -289,11 +244,7 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>Salvataggio delle bozze dei commenti quando si esce dalla pagina 
    </td>
@@ -303,21 +254,13 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>Visualizzare nuovi commenti in tempo reale (include la visualizzazione quando un commento viene eliminato)
    </td>
    <td> 
    </td>
    <td>✓
-   </td>
-   <td> 
-   </td>
-   <td> 
    </td>
    <td> 
    </td>
@@ -331,10 +274,6 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
   </tr>
     <tr>
    <td>Copia link thread 
@@ -343,11 +282,7 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
    <td> Sostituito con il collegamento Copia
    </td>
-   <td> 
-   </td>
    <td>2° trimestre 2023 
-   </td>
-   <td> 
    </td>
   </tr>
   <tr>
@@ -359,11 +294,7 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>Testo commento preventivo 
    </td>
@@ -371,13 +302,9 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
    <td>✓
    </td>
-   <td> 
+  <td>2° trimestre 2023 
    </td>
-   <td>2° trimestre 2023 
-   </td>
-   <td> 
-   </td>
-  </tr>
+   </tr>
   <tr>
    <td>Copia corpo del testo 
    </td>
@@ -385,13 +312,9 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>
    </td>
-   <td> 
-   </td>
-  </tr>
+   </tr>
     <tr>
    <td>Cerca nei commenti 
    </td>
@@ -399,13 +322,10 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>1° trimestre 2024 
    </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
 
 <tr>
    <td>Copiare e incollare immagini in un commento
@@ -414,13 +334,9 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>1° trimestre 2024 
    </td>
-   <td> 
-   </td>
-  </tr>
+     </tr>
 
 <tr>
    <td>Trascinare le immagini in un commento
@@ -429,22 +345,14 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>1° trimestre 2024 
    </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
 
 <tr>
    <td>Modifica modulo personalizzato 
    </td>
    <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
    </td>
    <td> 
    </td>
@@ -460,10 +368,6 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td>
-   </td>
   </tr>
 <tr>
    <td>Rispondi agli aggiornamenti di sistema 
@@ -472,11 +376,7 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
    <td>
-   </td>
-   <td> 
    </td>
   </tr>
 <tr>
@@ -486,11 +386,7 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>
-   </td>
-   <td> 
    </td>
   </tr>
 
@@ -499,13 +395,9 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
    <td> ✓
    </td>
-   <td> Potrebbe essere rilasciato in una data successiva
-   </td>
    <td> 
    </td>
-   <td>
-   </td>
-   <td> ✓
+   <td> 
    </td>
   </tr>
 </table>
@@ -519,41 +411,41 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
 >Per ulteriori informazioni sulla gestione degli aggiornamenti per gli oggetti Workfront, vedere [Aggiorna lavoro](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
-Di seguito è riportata una timeline pianificata con le tappe principali per il rilascio della nuova esperienza di commento nell’ambiente di produzione. Oltre alle tappe indicate di seguito, continueremo a migliorare l’esperienza di aggiunta dei commenti con miglioramenti di minore entità.
+Le informazioni seguenti descrivono la tempistica con le tappe chiave per il rilascio della nuova esperienza di commento nell’ambiente di produzione. Oltre alle tappe indicate di seguito, continueremo a migliorare l’esperienza di aggiunta dei commenti con miglioramenti di minore entità.
 
-Per informazioni sulle funzioni rilasciate per la nuova esperienza di commento dopo la chiusura del periodo beta, consulta la pagina di panoramica della versione corrente.
+Per informazioni sulle funzioni rilasciate per la nuova esperienza di commento dopo la chiusura del periodo beta, consulta la pagina di panoramica della versione corrente. Per ulteriori informazioni, vedere [Versioni del prodotto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 Di seguito è riportata una timeline pianificata per il rilascio della nuova esperienza di commento:
 
 * Con la versione 23.2 (6 aprile 2023):
-   * Avvia l&#39;esperienza di commento Beta per i problemi
-   * Rilascia la nuova esperienza di commento per gli obiettivi (come unica esperienza)
+   * È stata avviata l&#39;esperienza di commento Beta per i problemi
+   * È stata rilasciata la nuova esperienza di commento per gli obiettivi (come unica esperienza).
 * Con la versione 23.3 (20 luglio 2023):
-   * Avvia l&#39;esperienza di aggiunta di commenti Beta per progetti, attività e documenti.
-   * Rilascia la nuova esperienza di commento per le schede nell’area Schede (come unica esperienza)
+   * Avviato l&#39;esperienza di aggiunta di commenti Beta per progetti, attività e documenti.
+   * È stata rilasciata la nuova esperienza di commento per le schede nell’area Schede (come unica esperienza)
 * Durante il rilascio del quarto trimestre 2023 (rilascio limitato, disponibile solo per i clienti che scelgono il rilascio rapido):
-   * Rilascia la nuova esperienza di commento per modelli, attività modello, programmi, portfolio, team, utenti e schede orario (come unica esperienza)
-   * Aggiorna l’esperienza di aggiunta di commenti in Beta affinché progetti, attività, problemi e documenti diventi l’opzione predefinita. L’etichetta &quot;Beta&quot; viene rimossa.
+   * È stata rilasciata la nuova esperienza di commento per modelli, attività modello, programmi, portfolio, team, utenti e schede orario (come unica esperienza)
+   * È stata aggiornata l&#39;esperienza di aggiunta di commenti in Beta in modo che l&#39;opzione predefinita diventasse progetti, attività, problemi e documenti. L’etichetta &quot;Beta&quot; è stata rimossa.
 * Con la versione del quarto trimestre 2023 (23.10) (26 ottobre 2023)
-   * Rilascia a tutti i clienti la nuova esperienza di aggiunta di commenti per modelli, attività modello, programmi, portfolio, team, utenti e schede orario (come unica esperienza).
-   * Imposta come predefinita la nuova esperienza di aggiunta di commenti per progetti, attività, problemi e documenti.
+   * È stata rilasciata a tutti i clienti la nuova esperienza di aggiunta di commenti per modelli, attività modello, programmi, portfolio, team, utenti e schede orario (come unica esperienza).
+   * La nuova esperienza di aggiunta di commenti per progetti, attività, problemi e documenti è diventata l’opzione predefinita.
 
   >[!IMPORTANT]
   >
-  >    In questo modo si conclude la fase Beta della nuova esperienza di commento.
+  >    In questo modo si è conclusa la fase Beta della nuova esperienza di commento.
 
-   * Rendi tutte le funzioni rilasciate per la nuova esperienza di commento che inizia con questa data parte delle regolari versioni mensili e trimestrali correnti.
+   * Sono state rese disponibili tutte le funzioni per la nuova esperienza di commento che inizia con questa data e fa parte delle regolari versioni mensili e trimestrali correnti.
 * Fine del 2023:
-   * Mantieni l’esperienza di commento legacy come opzione secondaria per i seguenti oggetti: progetti, attività, problemi e documenti. La nuova esperienza di aggiunta di commenti è l’opzione predefinita per tutti gli utenti di questi oggetti.
-   * Rendi la nuova esperienza di commento l’unica esperienza per tutti gli altri oggetti.
-
-  >[!NOTE]
-  >
-  >    Le iterazioni continueranno a presentare l’esperienza di commento legacy. La nuova esperienza di aggiunta di commenti non sarà disponibile per le iterazioni.
+   * Mantenere l’esperienza di commento legacy come opzione secondaria per i seguenti oggetti: progetti, attività, problemi e documenti. La nuova esperienza di aggiunta di commenti è l’opzione predefinita per tutti gli utenti di questi oggetti.
+   * La nuova esperienza di commento è diventata l’unica esperienza per tutti gli altri oggetti.
 
 * Con la versione del secondo trimestre 2024 (11 aprile 2024):
 
-  Rimuovi l’opzione per tornare al flusso di commenti legacy e rendere il nuovo flusso di commenti l’unica esperienza per tutti gli oggetti.
+  È stata rimossa l’opzione per tornare al flusso di commento legacy e rendere il nuovo flusso di commento l’unica esperienza per tutti gli oggetti.
+
+* 3 ottobre 2024:
+
+  È stato rimosso il pulsante Lascia un feedback nell’area Aggiornamenti.
 
 ## Individua la nuova esperienza di commento
 

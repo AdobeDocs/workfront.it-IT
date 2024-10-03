@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: Aggiorna stato attività
+title: Aggiorna Stato Attività
 description: È possibile aggiornare lo stato di un'attività per informare gli altri utenti sulla posizione dell'attività (e del progetto complessivo) e sull'avanzamento dell'attività.
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '648'
 ht-degree: 1%
 
 ---
 
 # Aggiorna stato attività
+
+<!--Audited: 10/2024-->
 
 È possibile aggiornare lo stato di un&#39;attività per informare gli altri utenti sulla posizione dell&#39;attività (e del progetto complessivo) e sull&#39;avanzamento dell&#39;attività.
 
@@ -22,6 +24,8 @@ Gli stati predefiniti sono Nuovo (New), In corso (In Progress) e Completo (Compl
 È possibile aggiornare manualmente gli stati delle attività oppure consentire a Workfront di aggiornarli automaticamente quando si verificano determinate azioni.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per aggiornare manualmente le attività, è necessario disporre dei seguenti diritti di accesso:
 
@@ -51,7 +55,9 @@ Per aggiornare manualmente le attività, è necessario disporre dei seguenti dir
  </tbody> 
 </table>
 
-*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront. Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Considerazioni sull&#39;aggiornamento dello stato delle attività
 

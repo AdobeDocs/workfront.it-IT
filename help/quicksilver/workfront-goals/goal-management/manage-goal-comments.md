@@ -6,9 +6,9 @@ description: Puoi aggiungere commenti a tutti gli obiettivi che puoi visualizzar
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,8 @@ After the monthly releases to Production, the same features are also available i
 Puoi aggiungere commenti a tutti gli obiettivi che puoi visualizzare in Obiettivi di Adobe Workfront.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire le azioni descritte in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -87,6 +89,8 @@ Per eseguire le azioni descritte in questo articolo, è necessario disporre dei 
 </table>
 
 *Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Gestisci commenti obiettivo
 

@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
+source-git-commit: 64a8d2ff8546874cf829738dcea03b2946c360cb
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
-
 
 # Panoramica sui record collegati
 
@@ -30,9 +30,9 @@ Per informazioni su come connettere i record tra loro o a un altro oggetto, vede
 * È possibile sfogliare e aggiungere record e oggetti dei tipi di record e oggetti collegati dai campi dei record collegati.
 * È possibile aggiungere campi (campi di ricerca) dei tipi di record collegati nella tabella del tipo di record da cui si sta effettuando il collegamento.
 
-  È possibile aggiungere campi (campi di ricerca) dei tipi di record da cui si esegue il collegamento nella tabella del tipo di record a cui si esegue il collegamento.
+  È inoltre possibile aggiungere campi (campi di ricerca) dei tipi di record da cui si sta effettuando il collegamento nella tabella del tipo di record a cui si sta effettuando il collegamento.
 
-  Ad esempio, se colleghi il tipo di record Prodotto dal tipo di record Campagna, puoi visualizzare i campi Prodotto per le campagne e Campagna per Prodotti.
+  Ad esempio, se colleghi il tipo di record Prodotto dal tipo di record Campagna, puoi visualizzare i campi prodotto per le campagne e i campi campagna per i prodotti.
 * Non è possibile aggiornare manualmente i valori dei campi di ricerca nei record da cui si sta effettuando il collegamento.
 
   I valori dei campi di ricerca vengono inseriti automaticamente nel record di Workfront Planning da cui si sta eseguendo il collegamento dopo l&#39;aggiornamento nel record o nell&#39;oggetto originale.
@@ -54,4 +54,3 @@ Per informazioni su come connettere i record tra loro o a un altro oggetto, vede
 * È possibile collegare oggetti Workfront ai record di Workfront Planning nelle aree seguenti:
 
    * Dalla sezione Planning di un oggetto Workfront.
-

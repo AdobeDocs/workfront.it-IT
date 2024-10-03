@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 969f7c609afcc0029fa9ba054de113904a10917b
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '2197'
+source-wordcount: '2196'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 <!--
 You can use Adobe Workfront Planning to design fully-customizable workspaces that contain record types needed in your organization. A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application. -->
 
-È possibile connettere tipi di record tra loro o tipi di record con tipi di oggetto di altre applicazioni.
+È possibile connettere tipi di record tra loro o collegare tipi di record con tipi di oggetti di altre applicazioni.
 
 Questo articolo descrive come collegare due tipi di record di Workfront Planning o un tipo di record di Workfront Planning a un oggetto di un&#39;altra applicazione.
 
@@ -183,7 +183,7 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
 
 1. Nel campo **Tipo di record**, cercare un tipo di record oppure selezionare uno dei tipi seguenti:
 
-   * Un altro tipo di record dall&#39;area di lavoro selezionata
+   * Un altro tipo di record dell&#39;area di lavoro corrente
 
      <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
      >[!TIP]
@@ -198,7 +198,7 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
 
      >[!TIP]
      >
-     >Se non sono presenti tipi di record configurati per la connessione da un&#39;altra area di lavoro, la sezione area di lavoro non viene visualizzata.
+     >Se non sono presenti tipi di record configurati per la connessione da altre aree di lavoro, la sezione area di lavoro non viene visualizzata.
 
 
    * **Progetto, Portfolio, Programma, Società** o **Gruppo** dalla sezione **Tipi di oggetti di Workfront**.
@@ -237,7 +237,7 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
 
      Per ulteriori informazioni sui tipi di connessione, vedere [Panoramica sui tipi di record connessi](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
-   * **Seleziona campi di ricerca**: selezionare questa opzione per aggiungere campi dal tipo di record selezionato. I campi di ricerca sono campi associati al record o al tipo di oggetto a cui si sta effettuando il collegamento. Il collegamento consente di visualizzare le informazioni del record o dell&#39;oggetto a cui si sta effettuando il collegamento nel record di cui si desidera creare il collegamento. Questa opzione è selezionata per impostazione predefinita.
+   * **Seleziona campi di ricerca**: selezionare questa opzione per aggiungere campi dal tipo di record selezionato. I campi di ricerca sono campi associati al record o al tipo di oggetto a cui si sta effettuando il collegamento. Il collegamento consente di visualizzare le informazioni del record o dell&#39;oggetto a cui si sta effettuando il collegamento nel record da cui si sta effettuando il collegamento. Questa opzione è selezionata per impostazione predefinita.
 
      >[!TIP]
      >
@@ -305,7 +305,7 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
 
    * I record sono raggruppati per ogni combinazione univoca di valori di campo
 
-   * La vista timeline viene creata in base al primo valore di data.
+   * La vista timeline viene creata in base al primo valore di data
 
    >[!IMPORTANT]
    >
@@ -353,11 +353,11 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
 
      `<Name of the original field on the linked record> (from <Name of your linked field>)`
 
-     Ad esempio, se hai collegato un tipo di record Campaign con un tipo di record Programma e denomini il campo del record collegato al Programma &quot;Informazioni sul programma&quot;, quindi hai selezionato di visualizzare anche il campo Budget del programma nella vista a tabella di Campaign, il campo collegato viene automaticamente denominato `Budget (from Program information)` nella vista a tabella della campagna.
+     Ad esempio, se hai collegato un tipo di record Campaign con un tipo di record Programma e denomini il campo del record collegato al Programma &quot;Informazioni sul programma&quot;, selezionato per visualizzare anche il campo Budget del programma nella vista tabella della campagna, il campo collegato viene automaticamente denominato `Budget (from Program information)` nella vista tabella della campagna.
 
    * Quando si collegano tra loro tipi di record, viene aggiunto anche un campo record collegato al tipo di record a cui si desidera collegarsi. Il nome del campo record collegato nel tipo di record collegato è il nome del tipo di record da cui si esegue il collegamento.
 
-     Ad esempio, se colleghi il tipo di record &quot;Prodotto&quot; dal tipo di record &quot;Campagna&quot; e denomini il campo connesso della campagna &quot;Prodotto collegato&quot;, viene creato un campo di record collegato &quot;Campagna&quot; per il tipo di record Prodotto.
+     Ad esempio, se colleghi il tipo di record &quot;Prodotto&quot; dal tipo di record &quot;Campagna&quot; e hai denominato il campo connesso della campagna &quot;Prodotto collegato&quot;, viene creato un campo di record collegato &quot;Campagna&quot; per il tipo di record Prodotto.
 
      >[!TIP]
      >
@@ -365,7 +365,7 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
 
 1. (Facoltativo e condizionale) Nella vista tabella del tipo di record originale o del tipo di record collegato fare clic sulla freccia rivolta verso il basso nell&#39;intestazione dei campi del record collegato, quindi scegliere una delle opzioni seguenti:
 
-   * **Modifica campo**: è possibile aggiornare **Nome** e le **Descrizione** informazioni del campo.
+   * **Modifica campo**: aggiorna il **Nome** e le **Descrizione** informazioni del campo.
    * **Modifica campi di ricerca**: aggiungere o rimuovere i campi del record collegato.
 
    ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 64a8d2ff8546874cf829738dcea03b2946c360cb
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '797'
 ht-degree: 1%
 
 ---
@@ -110,14 +110,16 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
 
 ## Considerazioni sulla sezione Pianificazione degli oggetti di Workfront
 
-* I tipi di record di Workfront Planning devono essere connessi ai tipi di oggetto di Workfront.
+Quando si visualizzano i record di Workfront Planning dalla sezione Planning di un oggetto Workfront, tenere presente quanto segue:
+
+* I tipi di record di Workfront Planning devono prima essere connessi ai tipi di oggetto di Workfront.
 
   Per informazioni, vedere i seguenti articoli:
 
    * [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [Connetti record](/help/quicksilver/planning/records/connect-records.md)
-* È possibile visualizzare la sezione Planning in un oggetto Workfront, anche quando non vi sono record associati all&#39;oggetto Workfront.
-* È possibile connettere i record di Planning con gli oggetti di Workfront da Workfront, nella sezione Planning quando è presente almeno un record connesso all&#39;oggetto di Workfront.
+* È possibile visualizzare la sezione Planning da un oggetto Workfront, anche quando non vi sono record associati all&#39;oggetto Workfront.
+* Oltre a connettere oggetti Workfront dall&#39;area Planning di Workfront, è possibile connettere i record di Planning con gli oggetti di Workfront da Workfront dalla sezione Planning.
 
 ## Gestire i record nella sezione Pianificazione
 
@@ -130,13 +132,17 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
 1. Fare clic sulla scheda di un tipo di record connesso a un progetto, portfolio o programma Workfront.
 1. Passare a un campo record connesso che presenta una connessione con un oggetto Workfront, nella visualizzazione tabella o dalla pagina dei dettagli di un record. Per informazioni, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md).
 1. Fare clic sul nome di un oggetto Workfront nel campo record connesso.
-La pagina degli oggetti si apre in Workfront.
+La pagina dell&#39;oggetto si apre in Workfront.
+
+   >[!NOTE]
+   >
+   >  Se si conosce un oggetto Workfront già connesso a un record di Planning, è possibile passare alla sezione Planning dall&#39;oggetto Workfront.
 
 1. Fare clic su **Pianificazione** nel pannello sinistro.
 
    >[!NOTE]
    >
-   >   L&#39;amministratore del Workfront o del gruppo deve aggiungere la sezione Pianificazione al modello di layout prima che venga visualizzata per un progetto, portfolio o programma Workfront.
+   >   L&#39;amministratore del Workfront o del gruppo deve aggiungere la sezione Pianificazione al modello di layout prima che venga visualizzata per un progetto, un portfolio o un programma Workfront.
 
    Viene visualizzata la sezione Pianificazione con le seguenti informazioni:
 
@@ -152,7 +158,7 @@ La pagina degli oggetti si apre in Workfront.
 1. Fare clic su una scheda record per visualizzare ulteriori informazioni sul record. Viene visualizzata la casella di anteprima del record.
 1. (Facoltativo) Inizia a modificare i campi nella casella di anteprima del record. Le modifiche vengono salvate automaticamente.
 1. (Facoltativo) Fai clic sull&#39;icona ![](assets/open-details-in-a-new-tab-icon.png) di **Apri in una nuova scheda** nell&#39;angolo superiore destro della casella di anteprima per aprire la pagina dei dettagli del record. La pagina dei dettagli del record viene visualizzata in Workfront Planning.
-1. Passa il puntatore del mouse su una scheda record, quindi fai clic sull&#39;icona Disconnetti record **-**, quindi fai clic su **Disconnetti**.
+1. (Facoltativo) Passa il puntatore del mouse su una scheda record, quindi fai clic sull&#39;icona Disconnetti record **-**, quindi fai clic su **Disconnetti**.
 Si verificano le seguenti situazioni:
    * Il record non è più connesso all&#39;oggetto Workfront.
    * L&#39;oggetto Workfront viene inoltre rimosso dal campo connesso del record da Workfront Planning.

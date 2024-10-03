@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 3823afdc14aaf5646d8edc60f5ad633e48336af7
+source-git-commit: 7c2fa065045f434b3a761f4742ca496670bfd6b2
 workflow-type: tm+mt
-source-wordcount: '1159'
-ht-degree: 2%
+source-wordcount: '1290'
+ht-degree: 4%
 
 ---
 
@@ -146,17 +146,33 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
    * Campo **Oggetto**: campo che identificherà la richiesta in Workfront. Questa funzionalità non è ancora disponibile.
    * Tutti i campi associati al tipo di record.
 
-   I campi contenuti nel modulo di richiesta saranno visibili a tutti coloro che inviano una richiesta a questo tipo di record.
+     I campi contenuti nel modulo di richiesta saranno visibili a tutti coloro che inviano una richiesta a questo tipo di record.
 
 1. (Facoltativo) Passa il puntatore del mouse su tutti i campi del modulo che desideri rimuovere, quindi fai clic sull&#39;icona **x** per rimuoverli. Vengono aggiunti alla scheda **Campi** a sinistra del modulo.
 
    Rimuovere ad esempio il campo **Oggetto**, in quanto non è visibile in Workfront Planning. <!--remove this step when we connect intake with the Requests area in Workfront-->
-1. Fare clic su un campo qualsiasi, quindi utilizzare i controlli sul lato destro del modulo per definirne le dimensioni o una delle informazioni seguenti relative ai campi:
+1. Fare clic su un campo qualsiasi, quindi utilizzare i controlli nel pannello destro del modulo per definirne le dimensioni o una delle seguenti informazioni:
 
    * **Etichetta**: questo è il nome del campo che verrà visualizzato nel modulo di richiesta. Questo non modifica il nome del campo record.
    * **Istruzioni**: aggiungere ulteriori informazioni sul campo.
    * **Imposta un campo obbligatorio**: se selezionata, il campo deve avere un valore. In caso contrario, il modulo non può essere inviato.
    * **Aggiungi logica**: definisci quali condizioni devono essere soddisfatte affinché il campo venga visualizzato o nascosto.
+
+   Il tipo di campo di ciascun campo viene visualizzato nella parte superiore del pannello di destra, dopo aver selezionato il campo nel modulo. I nomi dei tipi di campo nel modulo di richiesta sono diversi da quelli nella visualizzazione per tabella. Nella tabella seguente vengono descritte le differenze tra i nomi dei tipi di campo nella visualizzazione tabella e i nomi degli stessi campi nel modulo di richiesta del tipo di record:
+
+   | Tipo di campo Workfront Planning | Tipo di campo modulo richiesta |
+   |-------------------------------|-------------------------|
+   | Testo a riga singola | Testo su riga singola |
+   | Paragrafo | Testo con formattazione |
+   | Valuta, numero, percentuale | Testo su riga singola |
+   | Selezione singola | Elenco a discesa a selezione singola |
+   | Selezione multipla | Elenco a discesa multi-selezione |
+   | Casella di controllo | Gruppo di caselle di controllo |
+
+   >[!NOTE]
+   >
+   >   I formati dei campi vengono mantenuti. Ad esempio, anche se Valuta e Percentuale vengono visualizzati come campi di testo a riga singola, le informazioni contenute nei campi vengono visualizzate come valuta e come valore percentuale.
+
 
 1. (Facoltativo) Fai clic sulla scheda **Elementi di contenuto** sul lato sinistro del modulo e aggiungi i seguenti elementi:
 

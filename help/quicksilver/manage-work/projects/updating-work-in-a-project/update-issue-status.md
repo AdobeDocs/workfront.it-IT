@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: Aggiorna stato problema
+title: Aggiorna lo stato della Issue
 description: È possibile aggiornare lo stato di un problema per informare gli altri utenti sulla posizione del problema e sul suo avanzamento.
 author: Alina
 feature: Work Management
 exl-id: 6e09dfcf-dceb-4f33-9592-0769283369c7
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 2%
+source-wordcount: '645'
+ht-degree: 3%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 2%
 È possibile aggiornare lo stato di un problema per informare gli altri utenti sulla posizione del problema e sul suo avanzamento.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -33,9 +35,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Nuova licenza: Collaboratore o versione successiva</p>
+   <td> <p>Nuovo: Collaboratore o versione successiva</p>
    Oppure
-   <p>Licenza corrente: richiesta o successiva</p>
+   <p>Corrente: richiesta o successiva</p>
    </td> 
   </tr> 
   <tr> 
@@ -49,7 +51,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront. Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Stati problemi
 

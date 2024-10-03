@@ -1,12 +1,12 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: Aggiorna le date di conferma per attività e problemi
+title: Aggiornare le date di conferma per attività e problemi
 description: Puoi aggiornare manualmente la data di conferma di un’attività o di un problema che ti è stato assegnato. Per ulteriori informazioni sulle date di conferma in Adobe Workfront, consulta Panoramica sulla data di conferma.
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 0%

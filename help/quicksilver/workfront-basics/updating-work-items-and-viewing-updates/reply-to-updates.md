@@ -1,16 +1,16 @@
 ---
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Rispondere agli aggiornamenti
+title: Rispondi agli aggiornamenti
 description: Quando qualcuno aggiunge o risponde a un aggiornamento su un oggetto di lavoro, la risposta viene visualizzata nel thread di comunicazione nella sezione Aggiornamenti dell’oggetto. È possibile aggiungere una risposta a un aggiornamento o aggiungerla come se si disponesse dell'accesso di visualizzazione all'oggetto.
 author: Nolan and Alina
 feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '736'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,8 @@ Questo articolo descrive come rispondere ai commenti della maggior parte degli o
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
@@ -80,6 +82,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 *Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront. Per ulteriori informazioni, consulta [Requisiti di accesso per la documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Rispondere a un aggiornamento o a una risposta in Workfront
 

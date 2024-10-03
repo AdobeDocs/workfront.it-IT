@@ -9,9 +9,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 5ce15530-0858-44a4-b928-779654310dee
-source-git-commit: 3bb0baa2e8831827f32156b1772fa9ee33694950
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Non prevediamo di ripristinare la capacità di eseguire queste azioni, in quanto
 
 ## È prevista una visualizzazione combinata di commenti e aggiornamenti di sistema?
 
-Non è attualmente prevista la visualizzazione combinata. Fornisci il tuo feedback e i tuoi casi d’uso tramite il pulsante Lascia un feedback in-app o invia richieste nell’area Workfront Ideas della community per consentirci di comprendere meglio quanto è necessaria la funzionalità.
+Non è attualmente prevista la visualizzazione combinata. Invia una richiesta al team di supporto, se necessario, in modo da comprendere meglio quanto è necessaria la funzionalità.
 
 ## Ripristinerai la funzionalità di annullamento di un commento pubblicato?
 
@@ -40,11 +40,11 @@ Abbiamo sostituito la funzionalità di annullamento di un commento pubblicato co
 
 ## La funzionalità di rimozione dei partecipanti al thread sarà limitata a tipi di licenza specifici?
 
-Non è attualmente previsto l&#39;aggiunta di autorizzazioni o controlli di accesso per gli utenti che possono utilizzare questa funzionalità appena introdotta. Fornisci il tuo feedback e i tuoi casi d’uso tramite il pulsante Lascia un feedback in-app o invia richieste nell’area Workfront Ideas della community per consentirci di comprendere meglio l’importanza di questa funzionalità.
+Non è attualmente previsto l&#39;aggiunta di autorizzazioni o controlli di accesso per gli utenti che possono utilizzare questa funzionalità appena introdotta. Invia una richiesta al team di supporto, se necessario, in modo da comprendere meglio l’importanza di questa funzionalità.
 
 ## Esiste un modo per controllare chi può modificare i commenti?
 
-Non è attualmente previsto l&#39;aggiunta di autorizzazioni o controlli di accesso per stabilire chi può modificare i commenti. Fornisci il tuo feedback e i tuoi casi d’uso tramite il pulsante Lascia un feedback in-app o invia richieste nell’area Workfront Ideas della community per consentirci di comprendere meglio l’importanza di questa funzionalità.
+Non è attualmente previsto l&#39;aggiunta di autorizzazioni o controlli di accesso per stabilire chi può modificare i commenti. Invia una richiesta al team di supporto, se necessario, in modo da comprendere meglio l’importanza di questa funzionalità.
 
 ## Sarà possibile cercare o filtrare i commenti?
 

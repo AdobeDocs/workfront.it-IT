@@ -1,13 +1,13 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: Registra ore
+title: Tempo di connessione
 description: È possibile registrare il tempo per gli elementi di lavoro in&nbsp;Adobe Workfront per indicare il numero di ore dedicate al loro lavoro. È inoltre possibile registrare il tempo non correlato al lavoro, ad esempio ferie, malattia o riunioni. L'ora registrata viene visualizzata nella scheda orario.
 author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
 source-wordcount: '3856'
 ht-degree: 0%
