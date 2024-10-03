@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: e9df34c206dd65ccc2edec00087248eb4ed16f54
+source-git-commit: 2801c18cebbc7e1338c29652bc87303029a2e289
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,10 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Nel campo **Nome pacchetto** immettere un nome per il pacchetto.
 1. Nel campo **Descrizione** immettere una descrizione per il pacchetto.
-1. Per aggiungere un oggetto al pacchetto, fare clic su **Aggiungi oggetti** nel menu di navigazione a sinistra e selezionare il tipo di oggetto che si desidera aggiungere.
-1. Selezionare uno o più oggetti dall&#39;elenco oppure digitare il nome nella barra di ricerca e selezionare l&#39;oggetto quando viene visualizzato nell&#39;elenco. È possibile selezionare più oggetti nell&#39;elenco.
+1. Per aggiungere un oggetto al pacchetto, nel menu di navigazione a sinistra selezionare il tipo di oggetto che si desidera aggiungere.
+1. Selezionare uno o più oggetti dall&#39;elenco visualizzato oppure digitare il nome nella barra di ricerca e selezionare l&#39;oggetto quando viene visualizzato nell&#39;elenco. È possibile selezionare più oggetti nell&#39;elenco.
+
+   L&#39;elenco include fino a 500 oggetti del tipo selezionato. Per individuare un oggetto non presente nell&#39;elenco, utilizzare la barra di ricerca.
 1. Fare clic su **Aggiungi (X oggetti)** per aggiungere gli oggetti selezionati al pacchetto.
 
    >[!INFO]
