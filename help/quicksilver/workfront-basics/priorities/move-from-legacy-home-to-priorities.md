@@ -5,17 +5,15 @@ description: La pagina Home legacy verrà rimossa da Workfront il 10/17 con la v
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: e0eeb62dc1e29849258fa7b111ccce6480767812
+source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '556'
 ht-degree: 3%
 
 ---
 
 
 # Passa dalla home page legacy alle priorità
-
-<span class="preview">Le priorità saranno disponibili in anteprima il 10/3/2024</span>
 
 La pagina Home legacy verrà rimossa da Workfront il 10/17 con la versione Q4. Questo articolo fornisce informazioni sulle funzionalità che saranno disponibili in Priorità e consigli per gli amministratori di Workfront che spostano gli utenti in Priorità.
 

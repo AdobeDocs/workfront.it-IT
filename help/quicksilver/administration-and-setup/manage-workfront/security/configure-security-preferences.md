@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: 21c8c8d6aed7620dc2d7b99fd01c6be41f918eeb
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '905'
 ht-degree: 5%
 
 ---
@@ -128,8 +128,12 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       <td>Consente di specificare se gli utenti visualizzeranno la nuova esperienza Home per impostazione predefinita. Quando questa opzione è attivata, gli utenti vedranno l’esperienza Nuova home per impostazione predefinita, ma potranno comunque scegliere di abilitare o disabilitare la nuova home su base individuale. Se l'opzione è disabilitata, gli utenti non visualizzeranno il banner che consente loro di passare alla nuova home. Tuttavia, possono comunque passare alla nuova home page immettendo manualmente <code>/home/workspaces</code> alla fine dell'URL dell'istanza. Questa impostazione è attivata per impostazione predefinita.</td> 
      </tr>
      <tr> 
+      <td role="rowheader">Abilitare l’elenco di lavoro Priorità </td> 
+      <td>Consente di abilitare o disabilitare l’esperienza dell’elenco di lavoro Priorità per i tuoi utenti. <!--Users will still see the Priorities icons in Workfront, but they will not have access to the functionality.--> Per ulteriori informazioni sulle priorità, vedere <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Introduzione alle priorità</a>.</td> 
+     </tr>
+     <tr> 
       <td role="rowheader">Ambienti di prova</td> 
-      <td>Consente di accedere agli ambienti di test di Workfront. Per ulteriori informazioni, consulta <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Ambiente Sandbox di anteprima di Adobe Workfront</a>.</p></td> 
+      <td>Consente di accedere agli ambienti di test di Workfront. Per ulteriori informazioni, consulta <a href="/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md">Ambiente Sandbox di anteprima di Adobe Workfront</a>.</p></td> 
     </tbody> 
    </table>
 

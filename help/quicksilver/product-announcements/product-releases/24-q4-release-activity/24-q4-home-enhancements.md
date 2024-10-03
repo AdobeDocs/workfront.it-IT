@@ -4,9 +4,9 @@ description: Miglioramenti Home Quarto Trimestre 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 0d2bb434b1b52ea175ad912c554b4aa07d5d2f7d
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -38,3 +38,15 @@ Priorities è destinato a sostituire la Home legacy e le nuove funzionalità ver
 Per ulteriori informazioni, vedere [Introduzione alle priorità](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)
 
 [Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3434848/){target=_blank}
+
+## Obsolescenza dell’esperienza Home legacy con 24.10
+
+Con la versione 24.10, l’esperienza Home legacy diventerà ufficialmente obsoleta.
+
+Con questa modifica, l&#39;area _Home e Riepilogo_ nel modello di layout verrà rinominata _Pannello di riepilogo_. Le personalizzazioni in quest’area verranno comunque applicate al pannello Riepilogo nella nuova Home. Per ulteriori informazioni, vedere [Personalizzare la home e il riepilogo utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+
+Gli utenti sono invitati a iniziare a utilizzare la nuova Home, che continuerà a essere migliorata con funzioni aggiuntive prima che venga dichiarata obsoleta. Per ulteriori informazioni sulla transizione, inclusi consigli su cosa possono fare gli utenti e gli amministratori per prepararsi, consulta [Legacy Home deprecation guide](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
+
+>[!NOTE]
+>
+>Dopo che la home legacy sarà stata dichiarata obsoleta, _nuova home_ verrà indicata come _home_ in Workfront. Tutta la documentazione della _nuova Home_ verrà rinominata _Home_.

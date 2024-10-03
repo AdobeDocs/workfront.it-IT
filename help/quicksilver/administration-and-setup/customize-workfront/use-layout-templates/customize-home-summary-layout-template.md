@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 115757a829b92c13cb684369120e26602b9a1782
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '1006'
 ht-degree: 2%
 
 ---
 
 # Personalizzare Home e Riepilogo utilizzando un modello di layout
+
+<span class="preview">Questo articolo verrà rinominato &quot;Personalizza il pannello Riepilogo utilizzando un modello di layout&quot; quando la pagina Home legacy verrà rimossa da Workfront con la versione Q4 del 17 ottobre. 2024.</span>
 
 Puoi utilizzare un modello di layout per configurare ciò che gli utenti visualizzano quando fanno clic su un’attività o un problema in Home e nel Riepilogo. Ogni configurazione effettuata utilizzando i passaggi riportati di seguito ha lo stesso effetto sull’area Home e sul pannello Riepilogo. Queste personalizzazioni non sono applicabili al pannello Riepilogo documento.
 

@@ -5,17 +5,15 @@ description: Priorities è un’esperienza semplice e intuitiva, personalizzata 
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 08221eb867a052187138be5c51a8720bb095f31b
+source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '883'
 ht-degree: 3%
 
 ---
 
 
 # Introduzione alle priorità
-
-<span class="preview">Le priorità saranno disponibili in anteprima il 10/3/2024</span>
 
 Priorities è un’esperienza semplice e intuitiva, personalizzata per i titolari delle attività. Le priorità verranno implementate in fasi, a partire dall’elenco di lavoro.
 
@@ -118,6 +116,16 @@ La visualizzazione Calendario fornisce una rappresentazione visiva delle attivit
 ## Lavori su attività e problemi
 
 In Priorità puoi aggiornare gli elementi di lavoro per mantenere aggiornati i dettagli degli elementi di lavoro, registrare il tempo per tenere traccia con precisione delle ore lavorative, caricare le risorse senza dover passare a un progetto e aggiungere collegamenti rapidi per un facile accesso alle risorse utilizzate di frequente.
+
+>[!NOTE]
+>
+>Le licenze Light, Review, Contributor e Requestor hanno accesso limitato alle priorità. Per ulteriori informazioni su come questi tipi di licenza possono interagire con attività e problemi, vedi
+>
+>* [Accesso a oggetti e aree da per le nuove licenze](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+>* [Funzionalità disponibile per ogni tipo di oggetto per i nuovi livelli di accesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+>* [Accesso a oggetti e aree per tipo di licenza](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+>* [Funzionalità disponibile per ogni tipo di oggetto](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
+
 
 ### Aggiungi e visualizza aggiornamenti
 
