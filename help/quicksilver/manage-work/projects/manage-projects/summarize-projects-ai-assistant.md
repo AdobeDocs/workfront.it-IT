@@ -5,14 +5,14 @@ title: Riepilogare i progetti con l’Assistente AI
 description: L’intestazione del progetto include un pulsante che utilizza l’Assistente IA per riepilogare i progetti.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: bec1318d83938964697d76b83062ef11745802e3
+source-git-commit: df10444228de70dd460c4df72c4ba7dba6455f15
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 1%
 
 ---
 
-# Riepilogare gli aggiornamenti con l’Assistente AI
+# Riepilogare i progetti con l’Assistente AI
 
 L&#39;Assistente AI di Workfront è in grado di riepilogare i progetti, consentendo di comprendere rapidamente le informazioni sul progetto, quali lo scopo e lo stato del progetto, fornisce esempi di attività completate e ancora in sospeso e fornisce alcuni dettagli e note aggiuntivi.
 
