@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,18 @@ ht-degree: 0%
 Questa pagina descrive tutti i miglioramenti per gli amministratori apportati con la versione del quarto trimestre 2024 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio del quarto trimestre 2024, consulta [Panoramica sulla versione del quarto trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
+
+## Un contatore nei moduli personalizzati mostra il numero di campi
+
+>[!NOTE]
+>
+>Versione di anteprima: 1 ottobre 2024; versione di produzione per tutti i clienti: con la versione 24.10 (17 ottobre 2024)
+
+I moduli personalizzati sono limitati a 500 campi. In un modulo lungo può essere difficile sapere quanti campi sono presenti nel modulo e se ci si avvicina al limite.
+
+Un contatore è stato aggiunto ai moduli personalizzati in basso a sinistra. Il contatore indica il numero di campi utilizzati nel modulo ed è sempre visibile durante lo scorrimento all&#39;interno del progettista del modulo.
+
+Per ulteriori informazioni, vedere [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Nei modelli di layout è ora disponibile l’opzione &quot;Seleziona tutto&quot;
 

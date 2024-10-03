@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 0%
@@ -22,11 +22,28 @@ Per un elenco di tutte le modifiche disponibili con la versione del quarto trime
 
 >[!NOTE]
 >
->Versione di anteprima: 19 settembre 2024; versione di produzione per tutti i clienti: con la versione 24.10 (17 ottobre 2024)
+>Versione di anteprima: 26 settembre 2024; versione di produzione per tutti i clienti: con la versione 24.10 (17 ottobre 2024)
 
-Sono stati apportati diversi aggiornamenti all’interfaccia delle dashboard per adeguarla al design di altre aree di Workfront. Queste modifiche includono una nuova schermata Anteprima di stampa durante la stampa di un dashboard e la rimozione della possibilità di inserire calendari nei dashboard. Nei calendari esistenti nei dashboard verrà invece visualizzato un collegamento al calendario.
+Sono stati apportati diversi aggiornamenti all’interfaccia delle dashboard per adeguarla al design di altre aree di Workfront, tra cui miglioramenti alla schermata di anteprima di stampa durante la stampa di una dashboard.
+
+In seguito a queste modifiche, i calendari non possono più essere inseriti nei dashboard. Nei calendari esistenti nei dashboard verrà invece visualizzato un collegamento al calendario.
 
 Per ulteriori informazioni sulle dashboard, vedere [Creare e gestire le dashboard](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md). Per ulteriori informazioni sui calendari, vedere [Panoramica sui report calendario](/help/quicksilver/reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+
+<!--
+
+## Look and feel updates for reports
+
+>[!NOTE]
+>
+>Preview release: September 19, 2024; Production release for all customers: With the 24.10 release (October 17, 2024)
+
+We have made a variety of updates to the reports interface to match the design of other areas of Workfront, including:
+
+* changes to existing reports that improve their use in Canvas Dashboards
+* an expanded color palette for conditional formatting rules in reports
+
+For more information about -->
 
 ## Pagina Aggiornamenti look-and-feel per le preferenze di sistema
 
