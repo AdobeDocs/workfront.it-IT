@@ -1,31 +1,24 @@
 ---
-title: Riepiloga utilizzando l’Assistente AI
-content-type: reference
-description: È possibile riepilogare rapidamente gli elementi di lavoro e i documenti utilizzando la funzionalità Riepiloga.
+product-area: projects
+navigation-topic: update-work-items-and-view-updates
+title: Riepilogare i progetti con l’Assistente AI
+description: L’intestazione del progetto include un pulsante che utilizza l’Assistente IA per riepilogare i progetti.
 author: Becky
 feature: Get Started with Workfront
-exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
 source-git-commit: bec1318d83938964697d76b83062ef11745802e3
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '389'
 ht-degree: 1%
 
 ---
 
-# Riepiloga utilizzando l’Assistente AI
+# Riepilogare gli aggiornamenti con l’Assistente AI
+
+L&#39;Assistente AI di Workfront è in grado di riepilogare i progetti, consentendo di comprendere rapidamente le informazioni sul progetto, quali lo scopo e lo stato del progetto, fornisce esempi di attività completate e ancora in sospeso e fornisce alcuni dettagli e note aggiuntivi.
+
+È possibile utilizzare il pulsante Riepilogo progetto per generare un riepilogo oppure immettere una richiesta in Assistente IA.
 
 <span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
-
-L&#39;Assistente AI di Workfront può riepilogare alcuni oggetti, fornendo una visualizzazione di alto livello dell&#39;intento o dei dettagli dell&#39;oggetto.
-
-Ad esempio, se si richiede all&#39;Assistente AI di riepilogare un progetto, questo restituisce brevi descrizioni dello scopo e dello stato del progetto, fornisce esempi di attività completate e ancora in sospeso e fornisce alcuni dettagli e note aggiuntivi.
-
-L&#39;Assistente IA può riepilogare i seguenti oggetti:
-
-* Progetti
-* Attività
-* Problemi
-* Documenti
 
 >[!NOTE]
 >
@@ -53,6 +46,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
        <p>oppure</p>
        <p>Corrente: non disponibile</p></td>
   </tr> 
+  <tr> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td><p>Nuovo: Standard</p>
+       <p>oppure</p>
+       <p>Corrente: non disponibile</p></td>
+  </tr> 
+ </tbody> 
  </tbody> 
 </table>
 
@@ -67,27 +67,21 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
   Per ulteriori informazioni, vedere [Attivare o disattivare l&#39;Assistente AI](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
+
+
 <div class="preview">
 
-## Riepiloga utilizzando i pulsanti Riepiloga
+## Pulsante Riepiloga con riepilogo progetto
 
-Nelle seguenti aree sono disponibili pulsanti che generano riepiloghi tramite l’Assistente IA:
+1. Passare al flusso di aggiornamento che si desidera riepilogare.
+1. Fai clic sul pulsante **Riepilogo progetto**.
 
-* Intestazione progetto: Riepilogo progetto
-* Area Aggiornamenti: Riepiloga contenuto
-
-Per utilizzare il pulsante Riepilogo progetto o Riepiloga contenuto:
-
-1. Fai clic sul pulsante.
-
-   Viene aperto l’Assistente AI, con una richiesta di riepilogo del progetto o degli ultimi 7 giorni di commenti sul flusso di aggiornamento.
+   Viene aperto l’Assistente AI, con una richiesta di riepilogo del progetto.
 
    La generazione del riepilogo può richiedere alcuni istanti, a seconda delle dimensioni o della complessità dell&#39;oggetto.
 
 1. Visualizza il riepilogo dell’intelligenza artificiale nel pannello Assistente intelligenza artificiale.
 1. (Facoltativo) Affina il prompt per assicurarti di fornire le informazioni necessarie.
-
-   Ad esempio, è possibile perfezionare il prompt Riepiloga contenuto per riepilogare i commenti relativi agli ultimi 14 giorni, anziché agli ultimi 7.
 
    </div>
 

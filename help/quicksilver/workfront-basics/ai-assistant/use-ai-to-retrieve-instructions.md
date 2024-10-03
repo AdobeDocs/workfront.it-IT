@@ -5,10 +5,10 @@ description: È possibile riepilogare rapidamente gli elementi di lavoro e i doc
 author: Becky
 feature: Get Started with Workfront
 exl-id: c7460e8f-a7ae-415a-8db0-29736e8be0f8
-source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
+source-git-commit: bec1318d83938964697d76b83062ef11745802e3
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 0%
+source-wordcount: '297'
+ht-degree: 1%
 
 ---
 
@@ -42,6 +42,15 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## Prerequisiti
+
+* L’amministratore di Workfront deve aver abilitato l’Assistente AI per la tua organizzazione.
+
+  Per ulteriori informazioni, vedere [Prerequisiti per l&#39;Assistente IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) nell&#39;articolo Panoramica dell&#39;Assistente IA.
+* L&#39;amministratore di Workfront deve aver abilitato l&#39;Assistente AI per il proprio livello di accesso.
+
+  Per ulteriori informazioni, vedere [Attivare o disattivare l&#39;Assistente AI](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
 ## Ottieni informazioni dall’Assistente AI
 
