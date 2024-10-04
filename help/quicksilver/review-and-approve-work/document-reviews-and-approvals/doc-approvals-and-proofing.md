@@ -5,13 +5,13 @@ title: Utilizzare insieme nuove approvazioni di documenti e prove
 description: È possibile utilizzare le nuove approvazioni di documenti con la verifica.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 8dc9df69bbce86f141ac451381fcc41a112ca0bc
+exl-id: be484629-6e70-4809-ad4c-a489d5814da6
+source-git-commit: bea547e7a7400798d4544fb4f299f72e18a700be
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
-
 
 # Utilizzare insieme nuove approvazioni di documenti e prove
 
@@ -85,9 +85,9 @@ Per aggiungere una nuova versione:
 
 1. (Facoltativo) Imposta una scadenza per l’approvazione. Gli utenti e i team ricevono una notifica via e-mail 72 ore e in seguito 24 ore prima della scadenza specificata.
 
-1. Per aggiungere un approvatore, fare clic sul pulsante Approvatore e iniziare a digitare il nome di un utente o di un team.
+1. Per aggiungere un approvatore, fare clic sul pulsante Approvatore e iniziare a digitare il nome di un utente o di un team, <span class="preview"> oppure scegliere un approvatore della versione precedente.</span>
 
-1. Per aggiungere un revisore, fare clic sul pulsante Revisore e iniziare a digitare il nome di un utente o di un team.
+1. Per aggiungere un revisore, fare clic sul pulsante Revisore e iniziare a digitare il nome di un utente o di un team, <span class="preview"> oppure scegliere un revisore della versione precedente. </span>
 
    ![](assets/add-approvers.png)
 
@@ -125,4 +125,3 @@ Per rivedere e approvare un documento:
    * **Lavoro necessario**: il documento richiede modifiche e non è pronto per l&#39;uso. Dopo aver apportato le modifiche specificate, il documento deve essere caricato come nuova versione e superare un altro ciclo di approvazioni. Per ulteriori informazioni sul caricamento di una nuova versione, vedere [Creare una nuova versione in base alle esigenze](#create-a-new-version-as-needed) in questo articolo.
 
 Una volta presa una decisione, il proprietario del documento riceve una notifica tramite e-mail.
-

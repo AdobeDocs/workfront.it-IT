@@ -6,9 +6,9 @@ description: È possibile aggiungere ulteriori approvatori o revisori a un docum
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
-source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
+source-git-commit: a1a5c2bb9395748c4e0103d10dcf66624238032b
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Scorri verso il basso fino alla sezione **Approvazioni** nel riquadro Riepilogo documento, in cui sono elencati tutti gli approvatori e i revisori esistenti. Per aggiungere un approvatore, assicurati che la casella di controllo **Approvatore** sia selezionata e inizia a digitare nella casella di testo **Revisori**. Puoi aggiungere utenti o team di Workfront per nome. Se invece desideri aggiungere un revisore, deseleziona semplicemente la casella di controllo **Approvatore** prima di digitare.
 
 1. Ripeti il passaggio precedente per aggiungere altri approvatori o revisori.
+
+## Aggiungere altre revisioni e approvatori da una versione precedente
+
+Se è necessaria l&#39;approvazione per una nuova versione del documento, è possibile aggiungere facilmente
 
 <!--
 ## Add additional approvers or reviewers from Home
