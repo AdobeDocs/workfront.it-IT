@@ -6,9 +6,9 @@ description: Quando elimini una scheda da una bacheca, questa viene eliminata de
 author: Lisa
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 81e87793905fd925db00c7a0ac107150263a1365
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Se elimini una scheda connessa da una scheda dinamica, questa verrà visualizzat
 Quando elimini una scheda collegata da qualsiasi altro tipo di scheda che dispone di una colonna di acquisizione, la scheda viene visualizzata nuovamente nella colonna di acquisizione quando si aggiorna la scheda se l’attività o il problema connesso non è ancora contrassegnato come completato. Per ulteriori informazioni sulle colonne di acquisizione, vedere [Aggiungere una colonna di acquisizione a una bacheca](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 Quando si archivia una scheda, questa viene inviata all&#39;archivio e può essere successivamente ripristinata nella bacheca.
+
+Le schede archiviate non vengono sincronizzate con attività e problemi di Workfront. Se si ripristina una scheda, questa verrà sincronizzata di nuovo.
 
 ## Requisiti di accesso
 
@@ -71,7 +73,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Per ripristinare una scheda archiviata, fare clic sul menu **[!UICONTROL Altro]** ![Altro menu](assets/more-icon-spectrum.png) sulla scheda e selezionare **[!UICONTROL Ripristina]**.
 
-## Filtrare una bacheca per mostrare le schede archiviate {#filter-a-board-to-show-archived-cards}
+## Filtrare una bacheca per mostrare le schede archiviate
 
 Per impostazione predefinita, su una bacheca vengono visualizzate solo le schede attive. Puoi filtrare la bacheca per visualizzare anche eventuali schede archiviate.
 
