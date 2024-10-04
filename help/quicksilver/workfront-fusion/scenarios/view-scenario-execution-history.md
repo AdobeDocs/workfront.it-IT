@@ -2,23 +2,29 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Visualizzare la cronologia di esecuzione di uno scenario in Adobe Workfront Fusion
+title: Visualizzare la cronologia di uno scenario in Adobe Workfront Fusion
 description: È possibile visualizzare informazioni su tutte le esecuzioni di uno scenario oppure cercare dati specifici in tutte le esecuzioni dello scenario.
 author: Becky
 feature: Workfront Fusion
 exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
-source-git-commit: 1b729960a23e43252bda16d9bfb7ca9656a115a1
+source-git-commit: 2e26c4e4b5f331ed2e609381ef442f45e90c4faa
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '972'
 ht-degree: 0%
 
 ---
 
-# Visualizzare la cronologia di esecuzione di uno scenario in [!DNL Adobe Workfront Fusion]
+# Visualizzazione della cronologia di uno scenario in [!DNL Adobe Workfront Fusion]
 
-È possibile visualizzare informazioni su tutte le esecuzioni di uno scenario oppure cercare dati specifici in tutte le esecuzioni dello scenario.
+È possibile visualizzare informazioni sugli eventi o sulle esecuzioni di uno scenario oppure cercare dati specifici in tutte le esecuzioni dello scenario.
 
-La cronologia di esecuzione di uno scenario visualizza tutte le esecuzioni dello scenario negli ultimi 30 giorni.
+L’esecuzione di uno scenario rappresenta una singola esecuzione dello scenario.
+
+Un evento scenario è una modifica allo scenario, ad esempio la modifica, l’attivazione o la disattivazione.
+
+>[!NOTE]
+>
+>La cronologia di uno scenario visualizza tutti gli eventi e le esecuzioni dello scenario per gli ultimi 30 giorni.
 
 ## Requisiti di accesso
 
@@ -59,9 +65,9 @@ Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contatta
 
 Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Visualizzare tutte le esecuzioni di uno scenario
+## Visualizzare la cronologia dello scenario
 
-### Visualizza la cronologia di esecuzione dello scenario nella pagina [!UICONTROL Dettagli scenario]
+### Visualizza cronologia scenario nella pagina [!UICONTROL Dettagli scenario]
 
 1. Fai clic sulla scheda **[!UICONTROL Scenario]** nel pannello a sinistra, quindi fai clic sullo scenario.
 
@@ -69,9 +75,7 @@ Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adob
 
    Se si sta lavorando sullo scenario nell&#39;editor scenari, fare clic sulla freccia sinistra ![](assets/exit-editing-arrow.png) nell&#39;angolo superiore sinistro della finestra.
 
-1. Visualizzare le informazioni nell&#39;elenco a destra.
-
-   Puoi anche fare clic su per visualizzare una pagina intera di queste informazioni. La visualizzazione a pagina intera consente di filtrare la cronologia per visualizzare esecuzioni specifiche.
+1. Visualizza la cronologia di esecuzione nella scheda **Cronologia** del pannello a destra.
 
    Per ogni esecuzione dello scenario sono elencati i seguenti dettagli:
 
@@ -80,13 +84,16 @@ Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adob
    * Esegui **[!UICONTROL Durata]**
    * Numero di **[!UICONTROL operazioni]**
    * Dimensione di **[!UICONTROL Trasferimento dati]**
-   * Collega a **[!UICONTROL Dettagli]**
 
->[!NOTE]
->
->Nella cronologia degli scenari viene visualizzato un contrassegno **Elaborazione** accanto agli scenari eseguiti di recente, mentre i dettagli di esecuzione vengono scritti nell&#39;archivio. L’elaborazione si verifica immediatamente dopo l’esecuzione dello scenario. e non dovrebbe durare più di qualche minuto. I dettagli dell’esecuzione dello scenario potrebbero non essere visibili durante l’elaborazione dell’esecuzione.
+   >[!NOTE]
+   >
+   >Nella cronologia degli scenari viene visualizzato un contrassegno **Elaborazione** accanto agli scenari eseguiti di recente, mentre i dettagli di esecuzione vengono scritti nell&#39;archivio. L’elaborazione si verifica immediatamente dopo l’esecuzione dello scenario. e non dovrebbe durare più di qualche minuto. I dettagli dell’esecuzione dello scenario potrebbero non essere visibili durante l’elaborazione dell’esecuzione.
 
-### Visualizza la cronologia di esecuzione dello scenario nella scheda [!UICONTROL Cronologia]
+1. Per visualizzare i dettagli di un’esecuzione di uno scenario specifico, fai clic su tale esecuzione nel pannello a destra.
+1. Per visualizzare gli eventi, fai clic sulla scheda **Eventi** del pannello a destra.
+
+
+### Visualizza cronologia scenario nella scheda [!UICONTROL Cronologia]
 
 La scheda [!UICONTROL Cronologia] mostra più dettagli di quelli disponibili nella pagina [!UICONTROL Dettagli scenario]. Puoi anche filtrare e ordinare le esecuzioni nella scheda [!UICONTROL Cronologia].
 
@@ -97,7 +104,7 @@ La scheda [!UICONTROL Cronologia] mostra più dettagli di quelli disponibili nel
    Se si sta lavorando sullo scenario nell&#39;editor scenari, fare clic sulla freccia sinistra ![](assets/exit-editing-arrow.png) nell&#39;angolo superiore sinistro della finestra.
 
 1. Fai clic sulla scheda **[!UICONTROL Cronologia]** nell&#39;angolo superiore sinistro della pagina
-1. (Facoltativo) Per informazioni dettagliate sull&#39;esecuzione di uno scenario selezionato, inclusi i bundle elaborati, fai clic sul collegamento **[!UICONTROL Dettagli]**.
+1. (Facoltativo) Per informazioni dettagliate sull&#39;esecuzione di uno scenario selezionato, inclusi i bundle elaborati, fare clic sul pulsante **[!UICONTROL Dettagli]** nella riga per l&#39;esecuzione.
 
    Per ulteriori informazioni sull&#39;elaborazione dei bundle, vedere [Flusso di esecuzione dello scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md).
 
@@ -106,6 +113,8 @@ La scheda [!UICONTROL Cronologia] mostra più dettagli di quelli disponibili nel
    >* Il collegamento [!UICONTROL details] è visibile solo se sono disponibili dettagli sull&#39;esecuzione.
    >
    >* La cronologia degli scenari visualizza un contrassegno **Cronologia elaborazione** accanto agli scenari eseguiti di recente, mentre i dettagli di esecuzione vengono scritti nell&#39;archivio. L’elaborazione si verifica immediatamente dopo l’esecuzione dello scenario. e non dovrebbe durare più di qualche minuto. I dettagli dell’esecuzione dello scenario potrebbero non essere visibili durante l’elaborazione dell’esecuzione.
+
+1. Per visualizzare gli eventi, abilita l&#39;interruttore **Mostra eventi**.
 
 ## Filtrare la cronologia di esecuzione dello scenario
 
@@ -128,13 +137,7 @@ Puoi ordinare la cronologia di esecuzione dello scenario.
 
 ## Cercare tutte le esecuzioni di uno scenario
 
-1. Fai clic sull&#39;icona **[!UICONTROL Scenario]** ![](assets/scenarios-icon.png) nel pannello a sinistra, quindi fai clic sullo scenario.
-
-   Oppure
-
-   Se si sta lavorando sullo scenario nell&#39;editor scenari, fare clic sulla freccia sinistra ![](assets/exit-editing-arrow.png) nell&#39;angolo superiore sinistro della finestra.
-
-1. Fai clic sulla scheda **[!UICONTROL Cronologia]** nell&#39;angolo superiore sinistro dello schermo.
+1. Aprire la cronologia a pagina intera per uno scenario come descritto in [Visualizzare la cronologia di esecuzione dello scenario nella scheda [!UICONTROL Cronologia]](#view-scenario-execution-history-on-the-history-tab) in questo articolo.
 1. Fai clic su **[!UICONTROL Ricerca full-text]** in alto nell&#39;elenco delle esecuzioni.
 
    Oppure
