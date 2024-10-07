@@ -9,9 +9,9 @@ description: Puoi utilizzare il connettore Adobe Workfront Fusion Adobe Workfron
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
+source-git-commit: 3eb7f8988f441cfa5b353274526450510810b156
 workflow-type: tm+mt
-source-wordcount: '6280'
+source-wordcount: '6518'
 ht-degree: 2%
 
 ---
@@ -744,7 +744,7 @@ Visualizzare un elenco dei tipi di oggetto [!DNL Workfront] per i quali è possi
 
 +++ **[!UICONTROL Carica documento]**
 
-Questo modulo di azione carica un documento in un oggetto [!DNL Workfront], ad esempio un progetto, un&#39;attività o un problema.
+Questo modulo di azione carica un documento in un oggetto [!DNL Workfront], ad esempio un progetto, un&#39;attività o un problema. Questo modulo carica il documento in blocchi, rendendo il processo di caricamento più semplice per Workfront.
 
 È possibile specificare la posizione del documento, il file da caricare e un nuovo nome facoltativo per il file.
 
@@ -767,6 +767,51 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
   <tr> 
    <td>Tipo di record correlato a [!UICONTROL]</td> 
    <td>Selezionare il tipo di record [!DNL Workfront] in cui si desidera che il modulo carichi il documento.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL ID cartella]</td> 
+   <td>A seconda del tipo di record correlato, potrebbe essere necessario immettere o mappare un ID cartella.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Source file]</td> 
+   <td> <p>Selezionare un file di origine da un modulo precedente o mappare il nome e i dati del file di origine.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Visualizzare un elenco dei tipi di oggetto [!DNL Workfront] per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
+
++++
+
++++ **[!UICONTROL Carica documento (legacy)]**
+
+Questo modulo di azione carica un documento in un oggetto [!DNL Workfront], ad esempio un progetto, un&#39;attività o un problema. Carica l’intero documento contemporaneamente.
+
+È possibile specificare la posizione del documento, il file da caricare e un nuovo nome facoltativo per il file.
+
+Il modulo restituisce l’ID del documento e dei campi associati, insieme a eventuali campi e valori personalizzati a cui la connessione accede. Puoi mappare queste informazioni nei moduli successivi nello scenario.
+
+Durante la configurazione di questo modulo, vengono visualizzati i campi seguenti.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+   <td> <p>Per istruzioni sulla connessione dell'app [!DNL Workfront] a [!DNL Workfront Fusion], vedere <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL Workfront] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL ID record correlato]</td> 
+   <td>Immettere l'ID [!DNL Workfront] univoco del record in cui si desidera caricare il documento.</td> 
+  </tr> 
+  <tr> 
+   <td>Tipo di record correlato a [!UICONTROL]</td> 
+   <td>Selezionare il tipo di record [!DNL Workfront] in cui si desidera che il modulo carichi il documento.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL ID cartella]</td> 
+   <td>A seconda del tipo di record correlato, potrebbe essere necessario immettere o mappare un ID cartella.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Source file]</td> 
