@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 2801c18cebbc7e1338c29652bc87303029a2e289
+source-git-commit: 2e4bcd6400971104e9138fab0faf20d33af32e51
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,9 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Modificare o assemblare un pacchetto esistente
 
-1. Passa all’ambiente in cui desideri creare il pacchetto. Questo è l&#39;ambiente dal quale si stanno copiando gli oggetti **da**.
+Un pacchetto deve essere nello stato `DRAFT` per essere modificato.
+
+1. Passa all’ambiente in cui desideri modificare il pacchetto. Questo è l’ambiente in cui è stato originariamente creato il pacchetto.
 1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic sull&#39;icona **[!UICONTROL Setup]** ![Setup](/help/_includes/assets/gear-icon-setup.png).
 1. Seleziona **Sistema** nell&#39;area di navigazione a sinistra, quindi seleziona **Promozione ambiente**.
 1. Seleziona il pacchetto dall’elenco visualizzato.
@@ -99,6 +101,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 1. (Facoltativo) Per visualizzare il contenuto, inclusi tutti gli oggetti e i relativi oggetti secondari, fare clic sulla freccia a discesa accanto al tipo di oggetto nella sezione **Contents**.
 1. (Facoltativo) Per visualizzare le installazioni precedenti e i tentativi di installazione di questo pacchetto, fare clic su **Distribuzioni**.
 1. (Facoltativo) Per modificare il pacchetto, fare clic su **Modifica pacchetto** in alto a destra nella schermata.
+Un pacchetto deve essere nello stato `DRAFT` per essere modificato. Per spostare il pacchetto nello stato `DRAFT`, nel campo **Stato**, selezionare `Draft`. È quindi possibile continuare a modificare il pacchetto.
 1. Per installare il pacchetto, fare clic su **Installa** in alto a destra.
 
    Per istruzioni sull&#39;installazione di un pacchetto, vedere [Installare un pacchetto di promozione dell&#39;ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).
