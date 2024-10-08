@@ -6,14 +6,19 @@ description: I pool di risorse sono insiemi di utenti che consentono di gestire 
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 2f5e0b8ba4ec4f32ae0457a6a901a43d03389773
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '606'
 ht-degree: 2%
 
 ---
 
-# Creare i pool di risorse
+# Creare i pool di risorse {#create-resource-pools}
+
+>[!CONTEXTUALHELP]
+>id="wf_resource_pools"
+>title="Gruppi di risorse"
+>abstract="Un Pool di Risorse è una raccolta di utenti necessari contemporaneamente per il completamento di un progetto. Dopo aver creato un pool di risorse, è possibile associarlo a progetti e modelli."
 
 {{preview-and-fast-release-Q424}}
 
