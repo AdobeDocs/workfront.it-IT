@@ -6,9 +6,9 @@ description: L'[!UICONTROL Elenco lavori] nell'area [!UICONTROL Home] visualizza
 author: Nolan
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: d614d5cbded1de6fd899a47495a6e058f9eaf3cf
 workflow-type: tm+mt
-source-wordcount: '1837'
+source-wordcount: '1843'
 ht-degree: 0%
 
 ---
@@ -94,6 +94,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
         <p>Visualizza solo le attività pronte per l'avvio. Entrambe le istruzioni seguenti devono essere vere:</p> 
         <ul> 
          <li> <p>Le attività e i relativi genitori non hanno predecessori o vincoli di attività che impediscono di lavorarci.</p> </li> 
+         <li> <p>Tutte le attività predecessore sono state completate.</p> </li> 
          <li> <p>La [!UICONTROL Planned Start Date] (Data di inizio pianificata) delle attività è negli ultimi o nel futuro di un massimo di due settimane.</p> </li> 
         </ul> 
        </div> </td> 

@@ -4,9 +4,9 @@ description: Miglioramenti Home Quarto Trimestre 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0d2bb434b1b52ea175ad912c554b4aa07d5d2f7d
+source-git-commit: 9de54aafb07d5c5858494c51356ae9322e1a0f79
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,10 @@ Per ulteriori informazioni, vedere [Introduzione alle priorità](/help/quicksilv
 
 Con la versione 24.10, l’esperienza Home legacy diventerà ufficialmente obsoleta.
 
-Con questa modifica, l&#39;area _Home e Riepilogo_ nel modello di layout verrà rinominata _Pannello di riepilogo_. Le personalizzazioni in quest’area verranno comunque applicate al pannello Riepilogo nella nuova Home. Per ulteriori informazioni, vedere [Personalizzare la home e il riepilogo utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+Con questa modifica, le seguenti aree del modello di layout verranno rinominate:
+
+* L&#39;area di lavoro _Home_ verrà rinominata _Home_.
+* L&#39;area _Home e Riepilogo_ verrà rinominata _Summary panel_. Le personalizzazioni in quest’area verranno comunque applicate al pannello Riepilogo nella nuova Home. Per ulteriori informazioni, vedere [Personalizzare la home e il riepilogo utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 Gli utenti sono invitati a iniziare a utilizzare la nuova Home, che continuerà a essere migliorata con funzioni aggiuntive prima che venga dichiarata obsoleta. Per ulteriori informazioni sulla transizione, inclusi consigli su cosa possono fare gli utenti e gli amministratori per prepararsi, consulta [Legacy Home deprecation guide](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
 
