@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 83827c24bd9157d2a4fb151e61c38cd6892a7c86
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1512'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,11 @@ In Adobe Workfront Planning, un record è un&#39;istanza di un tipo di record.
 
 È possibile creare record eseguendo una delle operazioni seguenti:
 
-* Aggiungere record dalla pagina del tipo di record nella vista tabella
-* Copiare e incollare un elenco di record da un elenco esterno
-* Duplicare record da una vista tabella
-* Crea record durante la connessione da altri record
-* Per crearli, inviare un modulo di richiesta a un tipo di record
-
-In questo articolo viene descritto come creare record.
+* [Aggiungere record dalla pagina del tipo di record nella vista tabella](#create-records-by-adding-them-to-a-record-type-in-a-record-type-table)
+* [Copiare e incollare un elenco di record da un elenco esterno](#create-records-by-copying-and-pasting-them-from-an-external-list)
+* [Duplicare record da una vista tabella](#create-records-by-duplicating-them)
+* [Crea record durante la connessione da altri record](#create-records-as-you-connect-them)
+* [Per crearli, inviare un modulo di richiesta a un tipo di record](#create-records-by-submitting-a-request-form-to-a-record-type)
 
 Per informazioni sulla gestione dei record nelle viste tabella o sequenza temporale, vedere gli articoli seguenti:
 
@@ -106,62 +104,6 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
 </table>
 
 *Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-<!--OLD info: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   <p>Current: Plan</p>  
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access controls for Adobe Workfront Planning </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-*For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 +++
 
@@ -305,6 +247,15 @@ Per creare i record durante la connessione da altri record:
    ![](assets/add-button-to-create-records-in-context-highlighted.png)
 
    Il record viene creato e aggiunto al campo record connesso.
+
+   >[!IMPORTANT]
+   >
+   >* Puoi creare solo progetti e portfolio in Workfront quando li connetti da un record.
+   >
+   >* Non è possibile creare programmi, gruppi o società quando si collegano da un record in Workfront Planning.
+   >
+   >* Non è possibile creare un progetto da un modello quando si creano progetti collegandoli da un record. È necessario aggiungere manualmente le attività e le informazioni di progetto o un modello al nuovo progetto dopo averlo aggiunto al record.
+
 1. (Facoltativo) Passare alla visualizzazione tabella del tipo di record di cui è stato creato il record. Nell&#39;ultima riga della visualizzazione viene visualizzato un nuovo record.
 1. (Facoltativo) Inizia ad aggiungere informazioni per il nuovo record nella vista tabella
 Oppure

@@ -7,10 +7,10 @@ description: Nella sezione Aggiornamenti di un oggetto vengono visualizzati i co
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 5%
+source-wordcount: '1088'
+ht-degree: 4%
 
 ---
 
@@ -75,8 +75,12 @@ I seguenti oggetti dispongono di una sezione Aggiornamenti in cui è possibile a
 * Schede orario
 * Team
 * Obiettivi
-* Schede nell’area Schede
 * Iterazioni
+
+Gli oggetti riportati di seguito contengono aree in cui è possibile aggiungere commenti e rivedere gli aggiornamenti di sistema.
+
+* Schede su schede
+* Record in Workfront Planning
 
 <!--info for April 11: remove all the information below, all the way down to the following section: -->
 
@@ -120,7 +124,7 @@ Depending on what objects you access the commenting experience for, you might fi
 
 <!--Info for April 11: reword the section title below to: Overview of the Updates section; and remove the preview tags-->
 
-### Panoramica della sezione Aggiornamenti
+### Aggiornamenti sezione schede panoramica
 
 ![Sezione aggiornamenti](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
@@ -135,6 +139,10 @@ Depending on what objects you access the commenting experience for, you might fi
      >Le schede Commenti e Attività di sistema vengono aggiornate in tempo reale. Per visualizzare gli aggiornamenti più recenti, è necessario aggiornare la scheda Tutti.
 
 
+### Somiglianze e differenze tra le aree Aggiornamenti di oggetti diversi
+
+Esistono differenze tra le modalità di visualizzazione dei commenti e degli aggiornamenti per i diversi oggetti.
+
 * Gli oggetti seguenti hanno esperienze simili in tutte e tre le schede della sezione Aggiornamenti:
 
    * Progetti
@@ -145,17 +153,30 @@ Depending on what objects you access the commenting experience for, you might fi
    * Utenti
    * Schede orario
 
-* I seguenti oggetti non dispongono di una scheda Attività di sistema o Tutte e l&#39;esperienza nella scheda Commenti corrisponde a quella di tutti gli altri oggetti:
+* I seguenti oggetti non dispongono di una scheda Attività di sistema o di una scheda Tutto e l&#39;esperienza nella scheda Commenti corrisponde a quella di tutti gli altri oggetti:
 
    * Team
    * Modello
    * Attività modello
 
 * I seguenti oggetti non dispongono di una scheda Attività di sistema o di una scheda Tutto e l&#39;esperienza nella scheda Commenti è diversa da quella di tutti gli altri oggetti:
+
    * Iterazioni
-   * Scheda ad hoc
+   * Schede ad hoc nell’area Schede
 
      Per ulteriori informazioni sugli aggiornamenti delle schede, vedere [Aggiungere una scheda ad hoc a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+
+* I seguenti oggetti hanno una scheda Attività di sistema e non hanno una scheda Tutto:
+
+   * Schede collegate nell&#39;area Schede
+
+     Per informazioni, vedere [Utilizzare schede collegate nelle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+* Gli oggetti seguenti hanno una scheda Cronologia che sostituisce la scheda Attività di sistema:
+
+   * Record in Workfront Planning
+
+     Per informazioni, vedere [Panoramica della sezione Cronologia](/help/quicksilver/planning/records/history-section-overview.md).
 
 * I seguenti oggetti non dispongono di una scheda Tutto e l&#39;esperienza nella scheda Commenti corrisponde a quella della maggior parte degli oggetti:
 

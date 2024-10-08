@@ -1,19 +1,21 @@
 ---
 product-area: timesheets;system-administration
 navigation-topic: create-and-manage-timesheets
-title: Definire i tipi di ore e la disponibilità
+title: Definire i tipi di lavoro e la disponibilità
 description: Un Tipo di Ora è un’etichetta che consente di categorizzare l’immissione dell’ora. A seconda dei requisiti di reporting della tua organizzazione per ore, questo può essere una parte essenziale del tempo di registrazione.
 author: Alina
 feature: Timesheets
 exl-id: 3c07a6b0-4751-4fce-ac28-6a83084025d4
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: 83827c24bd9157d2a4fb151e61c38cd6892a7c86
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
 
 # Definire i tipi di ore e la disponibilità
+
+<!--Audited: 10/2024-->
 
 Un Tipo di Ora è un’etichetta che consente di categorizzare l’immissione dell’ora. A seconda dei requisiti di reporting della tua organizzazione per ore, questo può essere una parte essenziale del tempo di registrazione.
 
@@ -34,6 +36,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso e autorizzazioni:
+
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -41,15 +45,17 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano o superiore</p> </td> 
+   <td> <p>Nuovo: Standard</p> 
+   <p>Corrente: Piano</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Accesso amministratore di sistema per definire i tipi di lavoro a livello di sistema e modificare tutti gli utenti</p> </td> 
   </tr> 
   <tr> 
@@ -59,7 +65,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano o il tipo di licenza di cui si dispone, contattare l&#39;amministratore di Workfront.
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,24 +78,32 @@ L&#39;amministratore di sistema determina quali tipi di ore specifici del proget
 Il proprietario del progetto determina se tutti i tipi di ore definiti a livello di sistema sono disponibili nel progetto (e le attività e i problemi all’interno del progetto) o se è disponibile solo un sottoinsieme di tali tipi di ore.
 
 1. Vai al progetto in cui desideri determinare la disponibilità dei tipi di ore.
-1. Fai clic sul menu **Altro** accanto al nome dell&#39;attività, quindi fai clic su **Modifica**.
+1. Fai clic sul menu **Altro** accanto al nome del progetto nell&#39;intestazione, quindi fai clic su **Modifica**.
+Viene visualizzata la casella **Modifica progetto**.
 
-1. Fare clic su **Modifica progetto**.
-1. Nella sezione **Impostazioni**, individua l&#39;opzione **Filtra tipi di lavoro**.
+1. Nella sezione **Impostazioni progetto**, individua l&#39;impostazione **Filtra tipi di lavoro**.
 
 1. Selezionare **No** per rendere disponibili nel progetto tutti i tipi di lavoro specifici del progetto.
 
    Oppure
 
-   Selezionare **Sì** per rendere disponibile nel progetto solo un sottoinsieme dei tipi di ore specifici del progetto, quindi selezionare i tipi di ore che si desidera rendere disponibili. (Tenere premuto il tasto Maiusc per selezionare più tipi di ore).
+   Selezionare **Sì** per rendere disponibile nel progetto solo un sottoinsieme dei tipi di ore specifici del progetto, quindi selezionare i tipi di ore che si desidera rendere disponibili.
 
-   Se selezioni questa opzione, solo i tipi di ore selezionati saranno disponibili per la selezione durante la registrazione delle ore sul progetto (o sulle attività e sui problemi all’interno del progetto). Se si seleziona questa opzione e non si seleziona alcun tipo di ora, nel progetto verranno visualizzati solo i tipi di ora generali.
+   Tenere premuto il tasto Maiusc per selezionare più tipi di ore.
 
-   Le stesse selezioni devono essere effettuate a livello del singolo utente affinché l’utente possa visualizzare queste opzioni del tipo di ora sul progetto.
+   >[!NOTE]
+   >
+   >   Considera quanto segue:
+   >   
+   >   * Se si seleziona **Sì**, solo i tipi di ore selezionati saranno disponibili per la selezione quando si registrano le ore nel progetto (o per attività e problemi all&#39;interno del progetto).
+   >   
+   >   * Se si seleziona **Sì** e non si seleziona alcun tipo di ora, nel progetto verranno visualizzati solo i tipi di ora generali.
+   >
+   >   * Le stesse selezioni devono essere effettuate a livello del singolo utente affinché l’utente possa visualizzare queste opzioni del tipo di ora sul progetto.
+   >
+   >   * Quando il Tipo di Ora Predefinito dell’Utente e un Tipo di Ora Filtrato del Progetto corrispondono, quel tipo di Ora è selezionato per impostazione predefinita durante la registrazione dell’Ora.
 
-   Quando il Tipo di Ora Predefinito dell’Utente e un Tipo di Ora Filtrato del Progetto corrispondono, quel tipo di Ora è selezionato per impostazione predefinita durante la registrazione dell’Ora.
-
-1. Fai clic su **Salva modifiche**.
+1. Fai clic su **Salva**.
 
 ## Definire la disponibilità a livello di utente
 
@@ -99,12 +113,21 @@ Se si rende disponibile un tipo di ora a livello di utente come descritto in que
 
 Per definire i tipi di ore disponibili per un utente:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic sull&#39;avatar utente nell&#39;angolo superiore sinistro
 
-1. Fai clic sull’avatar utente nell’angolo in alto a sinistra.
+   Oppure
+
+   Fai clic sull&#39;icona ![](assets/adobe-main-menu.png) del **menu principale** nell&#39;angolo superiore destro, se disponibile, quindi fai clic su **Profilo Workfront**.
+
 1. Fai clic sul menu **Altro** accanto al nome utente, quindi fai clic su **Modifica**.
 
-1. Solo un amministratore di sistema può modificare altri utenti. Se si dispone di una licenza Pianificazione, è possibile modificare i tipi di ore nel proprio profilo.
+   Viene visualizzata la casella **Modifica persona**.
+
+   >[!IMPORTANT]
+   >
+   >Solo un amministratore di sistema può modificare altri utenti. Se si dispone di una licenza Pianificazione, è possibile modificare i tipi di ore nel proprio profilo.
+
+
 1. Nella sezione **Pianificazione risorse**, nel menu a discesa **Tipi di ore disponibili**, eseguire una delle operazioni seguenti, a seconda dei tipi di ore che si desidera rendere disponibili quando si registra l&#39;ora in un progetto, un&#39;attività o un problema:
 
    * **Per rendere disponibili tutti i tipi di lavoro per l&#39;utente:** Selezionare tutti i tipi di lavoro.\
@@ -120,7 +143,6 @@ Per definire i tipi di ore disponibili per un utente:
 1. Fai clic su **Salva modifiche**.
 
    Ora, quando si registrano le ore per un progetto, un&#39;attività o un problema, i tipi di ore selezionati sono disponibili se tali tipi di ore sono stati resi disponibili a livello di progetto.
-
 
 ## Collaborazione tra i tipi di lavoro a livello di utente e di progetto
 
