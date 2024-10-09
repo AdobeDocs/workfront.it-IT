@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 21c8c8d6aed7620dc2d7b99fd01c6be41f918eeb
+source-git-commit: 222e940432f9cdea2b7da7fefbb429d75a3824d7
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '923'
 ht-degree: 5%
 
 ---
@@ -129,7 +129,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
      </tr>
      <tr> 
       <td role="rowheader">Abilitare l’elenco di lavoro Priorità </td> 
-      <td>Consente di abilitare o disabilitare l’esperienza dell’elenco di lavoro Priorità per i tuoi utenti. <!--Users will still see the Priorities icons in Workfront, but they will not have access to the functionality.--> Per ulteriori informazioni sulle priorità, vedere <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Introduzione alle priorità</a>.</td> 
+      <td>Consente di abilitare o disabilitare l’esperienza dell’elenco di lavoro Priorità per i tuoi utenti. Gli utenti continueranno a visualizzare le icone Priorità in Workfront, ma non avranno accesso alla funzionalità. Per ulteriori informazioni sulle priorità, vedere <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Introduzione alle priorità</a>.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Ambienti di prova</td> 
