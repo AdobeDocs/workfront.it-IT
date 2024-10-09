@@ -6,9 +6,9 @@ description: Il  [!DNL Adobe Workfront] glossario elenca i termini comunemente u
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
 workflow-type: tm+mt
-source-wordcount: '20384'
+source-wordcount: '20938'
 ht-degree: 0%
 
 ---
@@ -629,8 +629,37 @@ La tabella seguente è un elenco dei termini comunemente utilizzati in Adobe Wor
   <tr> 
    <td>[!UICONTROL Condition Update]</td> 
    <td> <p>Questo campo mostra la condizione corrente delle attività, dei progetti o dei problemi. Questa opzione mostra gli aggiornamenti più recenti forniti dai proprietari di attività, progetti o problemi nel campo [!UICONTROL Update Status] (Stato aggiornamento), insieme alla nuova condizione.</p> <p>I commenti aggiunti agli aggiornamenti delle condizioni non vengono visualizzati nella colonna [!UICONTROL Condition Update], ma solo nell'aggiornamento principale.</p> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Tipi di record connessi]</td> 
+   <td> <p>In Workfront Planning è possibile creare una connessione tra uno dei seguenti: </p>
+   <ul>
+   <li>Due tipi di record</li>
+   <li>Un tipo di record e un tipo di oggetto Workfront</li>
+   <li>Un tipo di record e una risorsa Adobe Experience Manager</li></ul>
+   <p>La connessione dei tipi di record consente di visualizzare le informazioni di un record o di un tipo di oggetto in un altro tipo di record.</p>
+   <p>Per informazioni, vedere <a href="/help/quicksilver/planning/architecture/connect-record-types-overview.md">Panoramica sui tipi di record connessi</a>  </p>
+  <p>Workfront Planning richiede una licenza aggiuntiva. </p>
+ </td> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Record connessi]</td> 
+   <td> <p>In Workfront Planning, dopo aver collegato due tipi di record, è possibile collegare tra loro due singoli record di tali tipi.  </p>
+   <p>La connessione dei record consente di visualizzare le informazioni di un record o di un oggetto di un'altra applicazione su un altro record.</p>
+   <p>Per informazioni, vedere <a href="/help/quicksilver/planning/records/connected-records-overview.md">Panoramica dei record connessi</a>. </p>
+
+<p>Workfront Planning richiede una licenza aggiuntiva. </p>
+ </td> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Connessioni]</td> 
+   <td> <p>In Workfront Planning le connessioni possono fare riferimento a tipi di record connessi o a record connessi. Workfront Planning richiede una licenza aggiuntiva.</p> </td> 
+  </tr>
+
+<tr> 
    <td>[!UICONTROL Data Vincolata]</td> 
    <td> <p>Se si utilizza un [!UICONTROL Vincolo attività] associato a una data specifica, ad esempio [!UICONTROL Deve iniziare il], tale data specifica diventerà il [!UICONTROL Vincolo data] dell'attività.</p> <p>I seguenti vincoli di attività aggiornano il campo [!UICONTROL Constraint Date]:</p> 
     <ul> 
@@ -882,11 +911,11 @@ La tabella seguente è un elenco dei termini comunemente utilizzati in Adobe Wor
 
 <p>Per ulteriori informazioni, vedere <a href="../../../wf-api/general/api-explorer.md">API Explorer</a> e <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md">Text Mode overview</a>.</p>
 
-<p>Per impostazione predefinita, Workfront include un set di campi che definiscono sia gli oggetti che le relative informazioni. È inoltre possibile creare campi personalizzati per definire gli oggetti, ma non è possibile creare oggetti personalizzati.</p> 
-   </td> 
-  </tr>
+<p>Per impostazione predefinita, Workfront include un set di campi che definiscono sia gli oggetti che le relative informazioni. È inoltre possibile creare campi personalizzati per definire gli oggetti, ma non è possibile creare oggetti personalizzati.</p>
 
-<tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
+<p>In Workfront Planning è possibile creare campi personalizzati per tutti i tipi di record. I tipi di record Workfront sono disponibili con un numero molto limitato di campi. È necessario creare tutti i campi da zero e associarli ai tipi di record. Per informazioni, vedere <a href="/help/quicksilver/planning/fields/fields-overview.md">Panoramica campo</a>. </p> <p>Workfront Planning richiede una licenza aggiuntiva. </p>   
+  </tr>
+  <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Filtro]</td> 
    <td> <p>Uno dei principali blocchi predefiniti di un rapporto o di un elemento elenco che definisce quali informazioni visualizzare sullo schermo. Per ulteriori informazioni sugli elementi di reporting, vedere <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Elementi di reporting: filtri, visualizzazioni e raggruppamenti</a>.</p> <p>Il filtro determina i risultati visualizzati in un report o in un elenco di pannelli [!DNL Workfront], ad esempio progetti, attività o problemi.</p> </td> 
   </tr> 
@@ -1032,7 +1061,6 @@ Le ore possono avere uno dei seguenti stati in Workfront:
    <li><b>Fatturato e approvato</b>: le ore sono state registrate, approvate dal proprietario del progetto e lo stato del record di fatturazione è stato contrassegnato come Fatturato.</li>
    </ul>
 
-
 <p>Quando le ore fanno parte di una fatturazione, lo Stato Ore indica se le ore sono state approvate o se la Fatturazione a cui appartengono è stata fatturata. Lo stato di un'ora è visibile solo in un elenco o report di ore. </p>
 
 <p>Per ulteriori informazioni sull'aggiunta di ore ai record di fatturazione, vedere la sezione "Add Hours to billing records" nell'articolo <a href="../../../manage-work/projects/project-finances/create-billing-records.md" >Create billing records</a> (Aggiungere ore ai record di fatturazione).</p>
@@ -1043,8 +1071,6 @@ Le ore possono avere uno dei seguenti stati in Workfront:
 
 <p>Le ore generali non registrate direttamente sugli elementi di lavoro non visualizzano uno Stato delle ore. </p> </td> 
   </tr>
-
-
 
 <tr> 
    <td>[!UICONTROL Hour Type]</td> 
@@ -1248,6 +1274,14 @@ Le ore possono avere uno dei seguenti stati in Workfront:
   <tr> 
    <td>[!UICONTROL List Controls]</td> 
    <td> <p>Parte di [!UICONTROL Interface Setup] che consente di collegare filtri, viste e raggruppamenti personalizzati a singoli utenti o a livello globale a tutti gli utenti.</p> </td> 
+  </tr> 
+<tr> 
+   <td>Campi di ricerca [!UICONTROL]</td> 
+   <td> <p>In Workfront Planning, dopo aver stabilito la connessione tra due tipi di record e aver collegato i singoli record, è possibile fare riferimento ai campi dei record collegati nel record da cui si sta effettuando la connessione.</p>
+   <p>Se ad esempio si connette un tipo di record Campagna a un tipo di oggetto Progetto Workfront, è possibile visualizzare il campo Budget dei progetti connessi nei record della campagna. Il campo Progetto budget è un campo di ricerca dei progetti di una campagna.</p> <p>I valori dei campi di ricerca vengono compilati automaticamente nei record da cui sono connessi.</p>
+   <p>Per informazioni, vedere <a href="/help/quicksilver/planning/records/connected-records-overview.md">Panoramica dei record connessi</a>.</p>
+   <p>Workfront Planning richiede una licenza aggiuntiva.</p>
+    </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1798,8 +1832,26 @@ Le ore possono avere uno dei seguenti stati in Workfront:
   <tr> 
    <td>[!UICONTROL Pronto]</td> 
    <td> <p>Questo campo in un report attività indica se un'attività [!UICONTROL Agile] è stata contrassegnata come [!UICONTROL Ready] nel backlog. Questo flag si applica solo alle attività [!UICONTROL Agile], che sono attività assegnate a un team [!UICONTROL Agile]. </p> </td> 
-  </tr> 
-  <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Record]</td> 
+   <td> <p>In Workfront Planning, un record è un'istanza univoca di un tipo di record.</p>
+<p>Dopo aver aggiunto un tipo di record a un'area di lavoro, è possibile iniziare ad aggiungere record di tale tipo nella pagina del tipo di record.</p>
+<p>Ad esempio, "Campagna" può essere un tipo di record e "Campagna estiva per l’area EMEA" è un record del tipo di record Campagna.</p>
+<p>Per informazioni sulla creazione di record, vedere <a href="/help/quicksilver/planning/records/create-records.md">Crea record</a>. </p> <p>Workfront Planning richiede una licenza aggiuntiva. </p></td> 
+  </tr>
+
+
+<tr> 
+   <td>[!UICONTROL Tipo di record]</td> 
+   <td> <p>Tipo di oggetto di Workfront Planning.</p>
+<p>A differenza di Workfront, dove i tipi di oggetto sono predefiniti, in Workfront Planning è possibile creare tipi di oggetto personalizzati.I tipi di oggetto di Workfront Planning sono denominati tipi di record.</p>
+<p>In Workfront, ad esempio, sono già stati creati i tipi di oggetto Programma, Portfolio, Progetto, Attività o Problema.</p>
+<p>In Workfront Planning è possibile creare qualsiasi tipo di record che soddisfi i flussi di lavoro dell'organizzazione. Successivamente è possibile definire la relazione tra i tipi di record o le dipendenze tra le maschere.</p> Per informazioni sulla creazione di tipi di record, vedere <a href="/help/quicksilver/planning/architecture/create-record-types.md">Creare tipi di record</a>. </p> <p>Workfront Planning richiede una licenza aggiuntiva. </p></td> 
+  </tr>
+
+<tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td>[!UICONTROL Frequenza Ricorrenza]</td> 
    <td> <p>Campo visualizzato nella casella [!UICONTROL Dettagli attività] o [!UICONTROL Modifica attività] di un elemento padre di attività ricorrenti. Frequenza con cui si verificano le attività nella ricorrenza. Per informazioni sulla creazione di attività ricorrenti, vedere <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Creare attività ricorrenti</a>. </p> </td> 
   </tr> 
@@ -2340,7 +2392,14 @@ Le ore possono avere uno dei seguenti stati in Workfront:
   <tr> 
    <td>Visualizzazione [!UICONTROL]</td> 
    <td> <p>Le visualizzazioni si riferiscono a un elemento di reporting che consente di modificare le colonne di un report o di un elenco di oggetti.</p> 
-   <p> Visualizza si riferisce anche al diritto di un utente di visualizzare solo le informazioni su un oggetto, in base al proprio livello di accesso o a un livello di condivisione delle autorizzazioni su tale oggetto.</p> </td> 
+   <p> Visualizza si riferisce anche al diritto di un utente di visualizzare solo le informazioni su un oggetto, in base al proprio livello di accesso o a un livello di condivisione delle autorizzazioni su tale oggetto.</p> 
+   <p>In Workfront Planning i record vengono visualizzati nella pagina del tipo di record in uno dei tipi di visualizzazione seguenti:</p>
+   <ul><li>Tabella</li>
+   <li>Timeline</li>
+   <li>Calendario</li></ul>
+   <p>In Workfront Planning le visualizzazioni includono i filtri, i raggruppamenti, l'ordinamento e altre impostazioni applicate ai record sullo schermo.</p> <p>Per informazioni, vedere <a href="/help/quicksilver/planning/views/manage-record-views.md">Gestire le visualizzazioni dei record</a>.</p>   
+   <p>Workfront Planning richiede una licenza aggiuntiva.</p>
+   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Icone Vista]</td> 
@@ -2430,7 +2489,7 @@ Utilizzare la riga di codice <code>[!UICONTROL usewidths=true]</code> aggiuntiva
    <td>Definizione dei proprietari e delle parti interessate per la gestione dell'ambito, dell'esecuzione e delle approvazioni del problema, del task, del progetto, del programma o del portfolio designato.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL SLA gestione lavoro]</td> 
+   <td>[!UICONTROL SLA per la gestione del lavoro]</td> 
    <td>Una metrica quantificabile concordata da tutte le parti interessate.</td> 
   </tr> 
   <tr> 
@@ -2481,6 +2540,15 @@ Utilizzare la riga di codice <code>[!UICONTROL usewidths=true]</code> aggiuntiva
    <p>valueformat=HTML</p>
    </code>
     <p>Per informazioni sull'utilizzo della modalità testo, vedere <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Panoramica sulla sintassi della modalità testo</a>. </p> </td> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Workspace] </td> 
+   <td> <p>In Workfront Planning, un'area di lavoro è una raccolta di tipi di record che definiscono il ciclo di vita operativo di una determinata organizzazione. Un’area di lavoro è l’area di lavoro di un’unità organizzativa.</p>
+   <p>Workfront Planning richiede una licenza aggiuntiva. </p>
+   <p>Per informazioni, vedere <a href="/help/quicksilver/planning/architecture/create-workspaces.md">Creare aree di lavoro</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+

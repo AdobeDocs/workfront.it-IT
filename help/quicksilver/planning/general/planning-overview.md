@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
 workflow-type: tm+mt
 source-wordcount: '2102'
 ht-degree: 1%
@@ -183,7 +183,7 @@ Di seguito sono riportati gli oggetti e i concetti principali di Workfront Plann
 
   Per ulteriori informazioni, vedere [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-* **Tipo di record**: il tipo di oggetto o Workfront Planning.
+* **Tipo di record**: il tipo di oggetto di Workfront Planning.
 
   A differenza di Workfront, dove i tipi di oggetto sono predefiniti, in Workfront Planning è possibile creare tipi di oggetto personalizzati.
 
@@ -199,7 +199,7 @@ Di seguito sono riportati gli oggetti e i concetti principali di Workfront Plann
 
   Dopo aver aggiunto un tipo di record a un&#39;area di lavoro, è possibile iniziare ad aggiungere record di tale tipo nella pagina del tipo di record.
 
-  Ad esempio, &quot;Campagna&quot; può essere un tipo di record e &quot;Campagna estiva per l’area EMEA&quot; è un record del tipo di record Campagna
+  Ad esempio, &quot;Campagna&quot; può essere un tipo di record e &quot;Campagna estiva per l’area EMEA&quot; è un record del tipo di record Campagna.
 
   Per ulteriori informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).
 

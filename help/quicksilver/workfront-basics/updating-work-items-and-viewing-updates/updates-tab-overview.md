@@ -7,7 +7,7 @@ description: Nella sezione Aggiornamenti di un oggetto vengono visualizzati i co
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
+source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
 workflow-type: tm+mt
 source-wordcount: '1088'
 ht-degree: 4%
@@ -128,16 +128,15 @@ Depending on what objects you access the commenting experience for, you might fi
 
 ![Sezione aggiornamenti](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
-* La sezione Aggiornamenti visualizza le informazioni nelle seguenti schede:
+La sezione Aggiornamenti visualizza le informazioni nelle seguenti schede:
 
-   * **Commenti**: visualizza i commenti degli utenti e le risposte a tali commenti. Utilizzare la scheda Commenti per aggiungere nuovi commenti o rispondere a quelli esistenti. Per informazioni sull&#39;aggiornamento degli oggetti, vedere [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
-   * **Attività di sistema**: visualizza gli aggiornamenti di sistema che sono messaggi informativi creati da Workfront per registrare determinati eventi su un oggetto. Ad esempio, le modifiche nei campi di stato, nome o personalizzati vengono acquisite con gli aggiornamenti del sistema. L&#39;amministratore del Workfront o del gruppo può abilitare gli aggiornamenti di sistema per gli oggetti. Tutte le risposte ai record di attività del sistema nell’esperienza di commento legacy vengono popolate nella scheda Attività del sistema come di sola lettura. Per ulteriori informazioni, vedere [Configurare gli aggiornamenti di sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-   * **Tutti (sola lettura)**: visualizza i commenti degli utenti e quelli delle attività di sistema in un&#39;unica posizione. Questa è una scheda di sola visualizzazione. Non è possibile rispondere a commenti o assegnare tag ad altri utenti nei commenti esistenti nella scheda Tutti. Per rispondere a un commento specifico, utilizzare il collegamento dalla scheda Tutti alla scheda Commenti. Per informazioni sull&#39;aggiornamento degli oggetti, vedere [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
+* **Commenti**: visualizza i commenti degli utenti e le risposte a tali commenti. Utilizzare la scheda Commenti per aggiungere nuovi commenti o rispondere a quelli esistenti. Per informazioni sull&#39;aggiornamento degli oggetti, vedere [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
+* **Attività di sistema**: visualizza gli aggiornamenti di sistema che sono messaggi informativi creati da Workfront per registrare determinati eventi su un oggetto. Ad esempio, le modifiche nei campi di stato, nome o personalizzati vengono acquisite con gli aggiornamenti del sistema. L&#39;amministratore del Workfront o del gruppo può abilitare gli aggiornamenti di sistema per gli oggetti. Tutte le risposte ai record di attività del sistema nell’esperienza di commento legacy vengono popolate nella scheda Attività del sistema come di sola lettura. Per ulteriori informazioni, vedere [Configurare gli aggiornamenti di sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+* **Tutti (sola lettura)**: visualizza i commenti degli utenti e quelli delle attività di sistema in un&#39;unica posizione. Questa è una scheda di sola visualizzazione. Non è possibile rispondere a commenti o assegnare tag ad altri utenti nei commenti esistenti nella scheda Tutti. Per rispondere a un commento specifico, utilizzare il collegamento dalla scheda Tutti alla scheda Commenti. Per informazioni sull&#39;aggiornamento degli oggetti, vedere [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
 
-     >[!NOTE]
-     >
-     >Le schede Commenti e Attività di sistema vengono aggiornate in tempo reale. Per visualizzare gli aggiornamenti più recenti, è necessario aggiornare la scheda Tutti.
-
+  >[!NOTE]
+  >
+  >Le schede Commenti e Attività di sistema vengono aggiornate in tempo reale. Per visualizzare gli aggiornamenti più recenti, è necessario aggiornare la scheda Tutti.
 
 ### Somiglianze e differenze tra le aree Aggiornamenti di oggetti diversi
 
