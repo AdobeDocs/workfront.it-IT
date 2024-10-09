@@ -2,15 +2,14 @@
 content-type: overview;reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: Stabilire una connessione al data lake di Workfront
-description: Workfront data lake consente di utilizzare i dati Workfront della tua organizzazione con i più diffusi strumenti di business intelligence o di memorizzarli in un data warehouse esterno.
+title: Stabilire una connessione a Workfront Data Connect
+description: Workfront Data Connect consente di utilizzare i dati Workfront della propria organizzazione con strumenti di business intelligence o di memorizzarli in un data warehouse esterno.
 author: Nolan
 feature: Reports and Dashboards
-recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '591'
 ht-degree: 1%
 
 ---
@@ -103,16 +102,16 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Condividere i dati con gli strumenti di Business Intelligence
 
-Di seguito sono elencati alcuni strumenti di business intelligence comuni. I collegamenti ti porteranno al sito della documentazione del servizio per ulteriori informazioni sulla connessione al data lake.
+Di seguito sono elencati alcuni strumenti comuni di business intelligence. Per ulteriori informazioni sulla connessione al data lake, visita i relativi siti di documentazione.
 
-* [Tableau](https://help.tableau.com/current/pro/desktop/en-us/basicconnectoverview.htm)
-* [Power BI](https://learn.microsoft.com/power-query/connectors/snowflake)
-* [Domo](https://www.domo.com/appstore/connector/snowflake-connector/overview)
+* Tableau
+* Power BI
+* Domo
 * SAP HANA
 
 ## Archiviare dati in un data warehouse esterno
 
-Di seguito sono elencati alcuni data warehouse comuni; i collegamenti ti porteranno al sito della documentazione di ciascun servizio, dove puoi saperne di più sulla connessione al tuo data lake.
+Di seguito sono elencati alcuni data warehouse comuni; visita i relativi siti di documentazione per ulteriori informazioni sulla connessione al data lake.
 
-* [Database](https://docs.databricks.com/en/connect/index.html)
-* [AWS Redshift](https://docs.aws.amazon.com/redshift/latest/gsg/federated-query.html)
+* Database
+* AWS Redshift

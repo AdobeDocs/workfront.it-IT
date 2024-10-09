@@ -1,7 +1,7 @@
 ---
-source-git-commit: 385dbe63d0db9b13692fb6f5c78ed56bd0d823c4
+source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
 workflow-type: tm+mt
-source-wordcount: '2550'
+source-wordcount: '2586'
 ht-degree: 1%
 
 ---
@@ -154,6 +154,10 @@ Per impostare le cartelle collegate:
 >* Sostituiscilo con un’immagine personalizzata per illustrare la tua organizzazione. In questo caso, l’icona avrà un aspetto diverso da quello mostrato in questo articolo.
 >* Sostituisci la pagina collegata con un’altra pagina. In questo caso, fai clic sul **[!UICONTROL menu principale]** ![menu principale](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro della pagina oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL menu principale]** ![menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **[!UICONTROL Home]**.
 >
+
+## Passaggio 1 - Priorità - {#step1-to-priorities}
+
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **[!UICONTROL Priorities]**.
 
 <!-- Integrations -->
 

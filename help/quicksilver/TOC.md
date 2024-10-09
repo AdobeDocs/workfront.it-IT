@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 1944c21c8234755ac5bc1c6caaed10b817ef409e
+source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
 workflow-type: tm+mt
-source-wordcount: '14476'
+source-wordcount: '14482'
 ht-degree: 2%
 
 ---
@@ -1758,6 +1758,7 @@ ht-degree: 2%
       * [Stabilire una connessione a Workfront Data Connect](reports-and-dashboards/data-lake/share-data-externally.md)
       * [Dizionario dati Workfront Data Connect](reports-and-dashboards/data-lake/data-dictionary.md)
       * [Esempi di query Workfront Data Connect](reports-and-dashboards/data-lake/basic-query-examples.md)
+      * [Visualizzare le metriche di utilizzo di Workfront Data Connect](reports-and-dashboards/data-lake/view-usage-metrics.md)
 * Gestire le risorse {#manage-resources}
    * [Gestire le risorse](resource-mgmt/manage-resources.md)
    * Gestione delle risorse {#resource-management}
