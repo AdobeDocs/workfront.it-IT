@@ -8,9 +8,9 @@ description: Nel pannello di mappatura di Adobe Workfront Fusion sono disponibil
 author: Becky
 feature: Workfront Fusion
 exl-id: 74bfda4e-5690-4b8c-ac58-20cf261f188d
-source-git-commit: 4cca9738ad9537247234faa0b1c441163d4e315f
+source-git-commit: 5cd1cbd1976d5574668098be53daee780a9cc1fb
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -161,3 +161,8 @@ Seleziona dall’oggetto solo le chiavi specificate.
 >`pick(` Utente `;` password `;` e-mail `)`
 >
 >Restituisce una raccolta contenente solo la password e l&#39;indirizzo e-mail dell&#39;utente.
+
+## mergeCollections(collection1 ; collection2)
+
+Unisce due raccolte combinando le rispettive coppie chiave-valore. Se entrambi gli insiemi contengono la stessa chiave, il valore della seconda raccolta sovrascrive quello della prima raccolta.
+
