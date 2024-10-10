@@ -5,9 +5,9 @@ title: Gestisci il tuo lavoro con il widget Il mio lavoro
 description: Il widget Il mio lavoro mostra tutte le attività, i problemi e le richieste assegnati in un'unica posizione. In questa finestra è possibile filtrare e organizzare il lavoro, registrare il tempo, apportare aggiornamenti e contrassegnare gli elementi di lavoro come completati.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 20791e9f2cc0716b9b0ddd8f98c31ae0bea7ff45
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '703'
 ht-degree: 5%
 
 ---
@@ -185,7 +185,7 @@ Per individuare il menu Azioni rapide, passa il puntatore sull&#39;elemento di l
 
 Le approvazioni e le richieste del team non vengono visualizzate nel widget Il mio lavoro. Se lavori regolarmente con approvazioni e richieste del team, ti consigliamo di aggiungere i seguenti widget alla nuova home page:
 
-* In attesa della mia approvazione
+* La mia approvazione
 * Tutte le approvazioni
 * Richieste team
 

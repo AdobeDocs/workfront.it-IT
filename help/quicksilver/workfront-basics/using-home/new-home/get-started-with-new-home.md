@@ -6,10 +6,10 @@ description: La nuova Home è una nuova potente funzione per la gestione del tuo
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 233016ccc574118df705b857092d647767c05835
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '1173'
-ht-degree: 5%
+source-wordcount: '1168'
+ht-degree: 3%
 
 ---
 
@@ -56,8 +56,8 @@ Di seguito sono riportati gli 11 widget attualmente disponibili tra cui sceglier
 * **Richieste team**\
     Mostra tutte le richieste in sospeso per i team di cui fai parte, ordinate per team, nonché i pulsanti per assegnare direttamente una richiesta a un utente o per lavorarci di persona.
 
-* **In attesa della mia approvazione**\
-    Mostra tutte le approvazioni assegnate o delegate in attesa, un pulsante per delegare le approvazioni e pulsanti per prendere decisioni di approvazione direttamente all’interno del widget.
+* **La mia approvazione**\
+    Visualizza tutte le approvazioni in sospeso, assegnate, delegate e inviate, un pulsante per delegare le approvazioni e pulsanti per prendere decisioni di approvazione direttamente all&#39;interno del widget.
 
 * **Tutte le approvazioni**\
         Visualizza 2 grafici con informazioni sul tempo medio di approvazione e sulle decisioni, nonché visualizzazioni elenco delle approvazioni in sospeso e in ritardo. <span style="color: #ff0000;">Questa funzionalità fa parte di una versione graduale ed è attualmente disponibile solo per clienti specifici.</span>
@@ -85,15 +85,15 @@ Per impostazione predefinita, la home page è compilata con alcuni widget specif
     </tr>
     <tr>
         <td>Light</td>
-        <td>Il mio lavoro, in attesa della mia approvazione</td>
+        <td>Il mio lavoro, la mia approvazione</td>
     </tr>
     <tr>
         <td>Collaboratore</td>
-        <td>Le mie richieste, menzioni, in attesa della mia approvazione, bacheche</td>
+        <td>Le mie richieste, menzioni, la mia approvazione, bacheche</td>
     </tr>
     <tr>
         <td>Esterno</td>
-        <td>In attesa della mia approvazione</td>
+        <td>La mia approvazione</td>
     </tr>
 </table>
 
@@ -116,7 +116,7 @@ Per impostazione predefinita, la home page è compilata con alcuni widget specif
     </tr>
     <tr>
         <td>Richiesta</td>
-        <td>I miei progetti, in attesa della mia approvazione</td>
+        <td>I miei progetti, La mia approvazione</td>
     </tr>
     <tr>
         <td>Contribuisci</td>
@@ -124,7 +124,7 @@ Per impostazione predefinita, la home page è compilata con alcuni widget specif
     </tr>
     <tr>
         <td>Esterno</td>
-        <td>In attesa della mia approvazione</td>
+        <td>La mia approvazione</td>
     </tr>
 </table>
 

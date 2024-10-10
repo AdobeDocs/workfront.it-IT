@@ -5,9 +5,9 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f69cbb95-e7fe-4f8f-a7e7-7693c968e76c
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,13 @@ Per ulteriori informazioni sui widget disponibili in Nuova home, vedere [Introdu
 
 ## Nuova pagina di destinazione predefinita per i collaboratori: Nuova home
 
-La nuova Home è ora la pagina di destinazione predefinita per gli account Collaboratore/Richiedente. Questa nuova home page predefinita include una serie di widget selezionati in modo specifico per consentire ai collaboratori di gestire immediatamente il proprio lavoro. Al momento della prima visita alla pagina, i collaboratori riceveranno anche istruzioni sull’utilizzo della nuova home e dei widget specifici disponibili per impostazione predefinita in una procedura dettagliata personalizzata. I widget predefiniti per i collaboratori sono: Richieste personali, Riferimenti, In attesa di approvazione e Bacheche. Si noti che se un layout con una home page personalizzata è attualmente utilizzato da un account collaboratore, rimarrà la propria home page.
+La nuova Home è ora la pagina di destinazione predefinita per gli account Collaboratore/Richiedente. Questa nuova home page predefinita include una serie di widget selezionati in modo specifico per consentire ai collaboratori di gestire immediatamente il proprio lavoro. Al momento della prima visita alla pagina, i collaboratori riceveranno anche istruzioni sull’utilizzo della nuova home e dei widget specifici disponibili per impostazione predefinita in una procedura dettagliata personalizzata. I widget predefiniti per i collaboratori sono: Richieste personali, Riferimenti, La mia approvazione e Bacheche. Si noti che se un layout con una home page personalizzata è attualmente utilizzato da un account collaboratore, rimarrà la propria home page.
 
 Per ulteriori informazioni sull&#39;utilizzo della nuova home, vedere [Introduzione alla nuova home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Modifiche al tracciamento del lavoro in Nuova Home
 
-In base al feedback degli utenti, sono stati rimossi il filtro per l’intervallo di tempo a livello di pagina e la barra di riepilogo che riportava le attività in scadenza e completate. I widget Progetto, Attività e Problema dispongono ciascuno di funzioni di filtro incorporate che consentono di personalizzarne l’ambito su base individuale. Inoltre, questi widget ora includeranno solo il contenuto attualmente attivo in base allo stato, garantendo che il lavoro di cui tengono traccia sia sempre rilevante. Inoltre, abbiamo limitato i widget che visualizzano le bolle di conteggio degli elementi a quelli più utili: Il mio lavoro, Menzioni, In attesa della mia approvazione e Cose da fare.
+In base al feedback degli utenti, sono stati rimossi il filtro per l’intervallo di tempo a livello di pagina e la barra di riepilogo che riportava le attività in scadenza e completate. I widget Progetto, Attività e Problema dispongono ciascuno di funzioni di filtro incorporate che consentono di personalizzarne l’ambito su base individuale. Inoltre, questi widget ora includeranno solo il contenuto attualmente attivo in base allo stato, garantendo che il lavoro di cui tengono traccia sia sempre rilevante. Inoltre, abbiamo limitato i widget che visualizzano le bolle di conteggio degli elementi a quelli più utili: Il mio lavoro, Mentions, La mia approvazione e cose da fare.
 
 Per ulteriori informazioni sul monitoraggio del lavoro in Nuova Home, vedere [Introduzione alla Nuova Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 

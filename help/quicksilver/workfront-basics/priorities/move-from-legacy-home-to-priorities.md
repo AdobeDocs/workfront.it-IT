@@ -5,9 +5,9 @@ description: La pagina Home legacy verrà rimossa da Workfront il 10/17 con la v
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
+source-git-commit: e63180a5d2b542f98c96ec5a2bd2fb0df078bb11
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '564'
 ht-degree: 3%
 
 ---
@@ -80,13 +80,13 @@ Gli utenti possono contrassegnare il lavoro ad alta priorità con le seguenti op
 
 #### Visualizza le approvazioni che ho inviato
 
-Gli utenti non possono visualizzare le approvazioni inviate in Priorità. Come soluzione alternativa, gli utenti possono creare un rapporto di approvazione per visualizzare queste informazioni.
+Gli utenti non possono visualizzare le approvazioni inviate in Priorità. Come soluzione alternativa, gli utenti possono visualizzare queste informazioni nel widget Approvazioni personali nella Home utilizzando l’opzione di filtro Approvazioni inviate.
 
 ### Visualizzare approvazioni e richieste del team
 
 Gli utenti non possono interagire con le approvazioni e le richieste dei team in Priorità. Tuttavia, possono gestire le richieste di approvazione e di team in Nuova Home utilizzando i seguenti widget:
 
-* In attesa della mia approvazione
+* La mia approvazione
 * Tutte le approvazioni
 * Richieste team
 

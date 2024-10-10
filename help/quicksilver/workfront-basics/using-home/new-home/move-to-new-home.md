@@ -5,9 +5,9 @@ title: Passa dalla home legacy alla nuova home
 description: La pagina Home legacy verrà rimossa da Workfront il 10/17 con la versione Q4. Questo articolo fornisce informazioni sulle funzionalità che saranno disponibili nella nuova home e consigli per spostare gli utenti nella nuova esperienza Home.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 9a71080c732363bf346b18d3bf61353c6c3859f7
+source-git-commit: e63180a5d2b542f98c96ec5a2bd2fb0df078bb11
 workflow-type: tm+mt
-source-wordcount: '1641'
+source-wordcount: '1596'
 ht-degree: 5%
 
 ---
@@ -51,12 +51,12 @@ Gli utenti possono comunque delegare il lavoro dalla Nuova Home nei seguenti wid
 * Il mio lavoro
 * Le mie attività
 * I miei problemi
-* In attesa delle mie approvazioni
+* Le mie approvazioni
 
 Gli utenti possono trovare il lavoro loro delegato nei seguenti widget:
 
 * Il mio widget Lavoro utilizzando il filtro Delegato a me
-* In attesa delle mie approvazioni tramite il filtro Approvazioni delegate
+* Le mie approvazioni utilizzando il filtro Approvazioni delegate
 
 | **Pagina principale precedente** | **Nuova Home** |
 |------------|-----------|
@@ -72,10 +72,7 @@ Gli utenti non possono più creare un’attività personale esattamente come fac
 
 #### Visualizza le approvazioni che ho inviato
 
-Gli utenti non possono visualizzare le approvazioni inviate in Nuova Home. Se gli utenti dell’organizzazione necessitano di questa funzionalità, puoi creare un rapporto sulle approvazioni come soluzione alternativa, votare a favore o pubblicare un commento qui nei seguenti post della community:
-
-* [Aggiungi il widget &quot;Approvals I Submitted&quot; alla nuova home](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
-* [Aggiungi &quot;Approvazioni inviate&quot; alla nuova Home](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
+Gli utenti possono visualizzare le approvazioni inviate in Nuova Home nel widget Approvazioni personali utilizzando il filtro Approvazioni inviate.
 
 #### Aggiungi elementi a Mia priorità
 
@@ -131,7 +128,7 @@ Per individuare il menu Azioni rapide, passa il puntatore sull&#39;elemento di l
 
 Gli utenti possono comunque gestire le approvazioni e le richieste dei team in Nuova Home utilizzando i seguenti widget:
 
-* In attesa della mia approvazione
+* La mia approvazione
 * Tutte le approvazioni
 * Richieste team
 
@@ -167,7 +164,7 @@ Di seguito sono riportati gli 11 widget attualmente disponibili tra cui sceglier
 * **Richieste team**\
     Mostra tutte le richieste in sospeso per i team di cui fai parte, ordinate per team, nonché i pulsanti per assegnare direttamente una richiesta a un utente o per lavorarci di persona.
 
-* **In attesa della mia approvazione**\
+* **La mia approvazione**\
     Mostra tutte le approvazioni assegnate o delegate in attesa, un pulsante per delegare le approvazioni e pulsanti per prendere decisioni di approvazione direttamente all’interno del widget.
 
 * **Tutte le approvazioni**\
@@ -202,15 +199,15 @@ Per impostazione predefinita, la home page è compilata con alcuni widget specif
     </tr>
     <tr>
         <td>Light</td>
-        <td>Il mio lavoro, in attesa della mia approvazione</td>
+        <td>Il mio lavoro, la mia approvazione</td>
     </tr>
     <tr>
         <td>Collaboratore</td>
-        <td>Le mie richieste, menzioni, in attesa della mia approvazione, bacheche</td>
+        <td>Le mie richieste, menzioni, la mia approvazione, bacheche</td>
     </tr>
     <tr>
         <td>Esterno</td>
-        <td>In attesa della mia approvazione</td>
+        <td>La mia approvazione</td>
     </tr>
 </table>
 
@@ -233,7 +230,7 @@ Per impostazione predefinita, la home page è compilata con alcuni widget specif
     </tr>
     <tr>
         <td>Richiesta</td>
-        <td>I miei progetti, in attesa della mia approvazione</td>
+        <td>I miei progetti, La mia approvazione</td>
     </tr>
     <tr>
         <td>Contribuisci</td>
@@ -241,7 +238,7 @@ Per impostazione predefinita, la home page è compilata con alcuni widget specif
     </tr>
     <tr>
         <td>Esterno</td>
-        <td>In attesa della mia approvazione</td>
+        <td>La mia approvazione</td>
     </tr>
 </table>
 

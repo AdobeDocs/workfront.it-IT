@@ -5,9 +5,9 @@ description: Priorities è un’esperienza semplice e intuitiva, personalizzata 
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '882'
 ht-degree: 3%
 
 ---
@@ -176,7 +176,7 @@ Puoi incorporare i collegamenti utilizzati di frequente nella pagina dei dettagl
 
 La possibilità di rivedere e approvare le risorse si trova nella roadmap delle priorità.
 
-Per il momento, consigliamo di utilizzare i widget In attesa della mia approvazione e Tutte le approvazioni nella nuova home.
+Per il momento, consigliamo di utilizzare i widget Approvazione personale e Tutte le approvazioni in Nuova Home.
 
 Per ulteriori informazioni, vedere [Aggiungere, modificare o rimuovere widget nella nuova home](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
 

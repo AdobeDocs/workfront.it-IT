@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
-source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '1151'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ Revisori e approvatori possono essere aggiunti a un flusso di lavoro di approvaz
 Gli utenti possono accedere al visualizzatore Frame.io nei modi seguenti:
 
 * Notifiche e-mail Workfront
-* Il widget In attesa della mia approvazione nella nuova Home di Workfront
+* Il widget Approvazione personale nella nuova area Home di Workfront
   ![](assets/awaiting-my-approval.png)
 
 >[!NOTE]
