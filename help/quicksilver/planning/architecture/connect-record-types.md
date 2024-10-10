@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
 workflow-type: tm+mt
-source-wordcount: '2196'
+source-wordcount: '2222'
 ht-degree: 1%
 
 ---
@@ -268,13 +268,15 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
 
    Per i record senza miniatura viene invece visualizzata l&#39;icona del tipo di record. Nell&#39;area **Aspetto del record** viene visualizzato un esempio di visualizzazione dei record connessi.
 
-   >[!TIP]
+   >[!NOTE]
    >
-   >    Se si consente il collegamento di più record, la visualizzazione della sola miniatura potrebbe consentire di risparmiare spazio in aree più piccole, come le visualizzazioni record.
+   >* Se si consente il collegamento di più record, la visualizzazione della sola miniatura potrebbe consentire di risparmiare spazio in aree più piccole, come le visualizzazioni record.
    >
-   >Il nome di un record è il campo principale del record. Per ulteriori informazioni, vedere [Panoramica del campo primario](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >* Il nome di un record è il campo principale del record. Per ulteriori informazioni, vedere [Panoramica del campo primario](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
-   >La selezione dell&#39;aspetto di un record non è disponibile quando si selezionano i tipi di oggetto di Workfront.
+   >* La selezione dell&#39;aspetto di un record non è disponibile quando si selezionano i tipi di oggetto di Workfront.
+   >
+   >* L&#39;opzione selezionata nell&#39;area Aspetto record determina la modalità di visualizzazione dei record nelle connessioni di tutto il sistema, incluse tutte le visualizzazioni e le pagine Dettagli.
 
 1. Fai clic su **Crea**.
 
