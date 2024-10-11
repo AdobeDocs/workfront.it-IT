@@ -4,9 +4,9 @@ description: Miglioramenti Home Quarto Trimestre 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 9de54aafb07d5c5858494c51356ae9322e1a0f79
+source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,19 @@ ht-degree: 0%
 Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione del quarto trimestre 2024. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio del quarto trimestre 2024, consulta [Panoramica sulla versione del quarto trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
+
+## Aggiornamenti al widget In attesa di approvazione nella nuova Home
+
+>[!NOTE]
+>
+>Versione di anteprima: 10 ottobre 2024; versione di produzione per tutti i clienti: 10 ottobre 2024.
+
+Abbiamo apportato le seguenti modifiche al widget In attesa di approvazione:
+
+* **Widget rinominato**: il nome di questo widget è ora Approvazioni personali.
+* **Approvazioni aggiunte che ho inviato come opzione filtro**: ora puoi visualizzare le approvazioni inviate nella nuova Home con questo widget.
+
+Per ulteriori informazioni, vedere [Introduzione alla nuova Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Semplificare l&#39;esperienza Workfront per i proprietari di attività con priorità
 

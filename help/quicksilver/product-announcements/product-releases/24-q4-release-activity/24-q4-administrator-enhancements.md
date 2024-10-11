@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
+source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Per ulteriori informazioni sul rollback di un pacchetto di promozione dell&#39;a
 
 >[!NOTE]
 >
->Versione di anteprima: ~~12 agosto 2024~~; produzione per rilascio rapido: N/D; produzione per rilascio trimestrale: N/D
+>~~Anteprima versione: 12 agosto 2024~~; produzione per rilascio rapido: N/D; produzione per rilascio trimestrale: N/D
 >
 >_Questa funzionalità è stata rimossa dall&#39;anteprima e non verrà rilasciata con versioni future._
 

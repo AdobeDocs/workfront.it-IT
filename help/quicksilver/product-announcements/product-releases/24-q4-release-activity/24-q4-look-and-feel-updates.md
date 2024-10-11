@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
+source-git-commit: 2d5cfabe17e4bc0f82c412e9144488160f13c717
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -22,28 +22,29 @@ Per un elenco di tutte le modifiche disponibili con la versione del quarto trime
 
 >[!NOTE]
 >
->Versione di anteprima: 26 settembre 2024; versione di produzione per tutti i clienti: con la versione 24.10 (17 ottobre 2024)
+>Versione di anteprima: 15 ottobre; versione di produzione per tutti i clienti: con la versione 24.10 (17 ottobre 2024)
 
 Sono stati apportati diversi aggiornamenti all’interfaccia delle dashboard per adeguarla al design di altre aree di Workfront, tra cui miglioramenti alla schermata di anteprima di stampa durante la stampa di una dashboard.
 
-In seguito a queste modifiche, i calendari non possono più essere inseriti nei dashboard. Nei calendari esistenti nei dashboard verrà invece visualizzato un collegamento al calendario.
-
 Per ulteriori informazioni sulle dashboard, vedere [Creare e gestire le dashboard](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md). Per ulteriori informazioni sui calendari, vedere [Panoramica sui report calendario](/help/quicksilver/reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
-<!--
-
-## Look and feel updates for reports
+## Aggiornamenti look and feel per i rapporti
 
 >[!NOTE]
 >
->Preview release: September 19, 2024; Production release for all customers: With the 24.10 release (October 17, 2024)
+>Versione di anteprima: a partire dal 12 settembre 2024; versione di produzione per tutti i clienti: diversa, tutti gli aggiornamenti saranno disponibili entro l’8 novembre 2024
 
-We have made a variety of updates to the reports interface to match the design of other areas of Workfront, including:
+Sono stati apportati diversi aggiornamenti all’interfaccia dei rapporti per rispecchiare la progettazione di altre aree di Workfront. Questi aggiornamenti includono alcune modifiche aggiuntive a varie funzioni di reporting, tra cui:
 
-* changes to existing reports that improve their use in Canvas Dashboards
-* an expanded color palette for conditional formatting rules in reports
+* Nuovo pulsante per passare alla modalità testo quando si modifica una colonna di un report
+* Piccole modifiche alla funzione dei caratteri jolly e delle scelte rapide da tastiera per data relativa
+* Le regole condizionali non richiedono più di fare clic su un pulsante &quot;Fine&quot; per essere create
+* Palette di colori espansa per le regole di formattazione condizionale nei report
+* Modifiche ai rapporti esistenti che ne migliorano l’utilizzo nei dashboard di Canvas
 
-For more information about -->
+Questi aggiornamenti vengono implementati singolarmente in anteprima e produzione a partire dal 12 settembre 2024. Tutti gli aggiornamenti saranno completamente implementati in produzione per tutti i clienti entro l’8 novembre 2024.
+
+Per ulteriori informazioni sui report in Workfront, vedere [Introduzione ai report](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
 
 ## Pagina Aggiornamenti look-and-feel per le preferenze di sistema
 
