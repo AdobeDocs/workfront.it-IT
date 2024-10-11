@@ -6,9 +6,9 @@ description: Vengono elencati e spiegati gli stati di decisione del documento
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
-source-git-commit: d01a26eaa43b264d11faa88c750f48f0ef1272c4
+source-git-commit: bb889a181babe8c8641775871292c9a083d92818
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '177'
 ht-degree: 5%
 
 ---
@@ -18,6 +18,11 @@ ht-degree: 5%
 È possibile visualizzare lo stato del documento direttamente nell&#39;elenco dei documenti:
 
 ![](assets/status-in-doc-list.png)
+
+>[!IMPORTANT]
+>
+>La possibilità di visualizzare lo stato del documento nell&#39;elenco dei documenti non è al momento disponibile.
+
 
 Sono disponibili i seguenti stati:
 
