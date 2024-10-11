@@ -7,9 +7,9 @@ description: Workfront Proof consente di creare bozze da documenti o siti Web e 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
-source-wordcount: '2253'
+source-wordcount: '2257'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 0%
 
      Per ulteriori informazioni sulla condivisione di una bozza, vedere &quot;Aggiunta di utenti a una bozza&quot; in [Condividi una bozza in [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
-   * **Automatizzato:** Selezionare questa opzione per gestire la revisione e l&#39;approvazione del contenuto quando si utilizzano processi di revisione complessi o se si inviano regolarmente contenuti per la revisione agli stessi gruppi di persone. Con il flusso di lavoro automatizzato, la bozza si sposta da un’area all’altra fino all’approvazione finale. Gli utenti interessati ricevono una notifica ogni volta che sono tenuti a effettuare un’approvazione.
+   * **Automatizzato:** Selezionare questa opzione per gestire la revisione e l&#39;approvazione del contenuto quando si utilizzano processi di revisione complessi o se si inviano regolarmente contenuti per la revisione agli stessi gruppi di persone. Con un flusso di lavoro automatizzato, la bozza si sposta da una fase all’altra fino all’approvazione finale. Gli utenti interessati vengono avvisati ogni volta che sono tenuti a effettuare un’approvazione.
 
      Per ulteriori informazioni sulla creazione di un flusso di lavoro automatico, vedere [Configurare una bozza con un flusso di lavoro automatico in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md#create2).
 
@@ -122,7 +122,7 @@ ht-degree: 0%
       <td> <p><strong></strong> Quando questa opzione è selezionata, i revisori possono scaricare il file originale da cui è stata creata la bozza.</p> <p>Quando questa opzione è deselezionata, l’icona Scarica non è più visibile.<br>Questa opzione è attivata per impostazione predefinita.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Condividi bozza tramite URL pubblico o codice incorporato</td> 
+      <td role="rowheader">Condividere una bozza tramite un URL pubblico o un codice incorporato</td> 
       <td>Quando questa opzione è selezionata, la bozza può essere condivisa tramite un URL pubblico o un codice di incorporamento.</td> 
      </tr> 
      <tr> 
@@ -220,7 +220,7 @@ Per generare una bozza per un URL:
 
 1. Fai clic su **[!UICONTROL Fine]**.
 
-   Se stai aggiungendo una nuova versione a una bozza URL esistente, tutte le opzioni configurate sulla bozza originale o sulla versione precedente vengono mantenute in questa versione.Se stai aggiungendo una nuova versione a una bozza URL esistente, tutte le opzioni configurate sulla bozza originale o sulla versione precedente vengono mantenute in questa versione.
+   Se stai aggiungendo una nuova versione a una bozza URL esistente, tutte le opzioni configurate sulla bozza originale o sulla versione precedente vengono mantenute in questa versione. Se stai aggiungendo una nuova versione a una bozza URL esistente, tutte le opzioni configurate sulla bozza originale o sulla versione precedente vengono mantenute in questa versione.
 
 1. Fare clic su **[!UICONTROL Crea bozza]**.
 

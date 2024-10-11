@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
 source-wordcount: '2713'
 ht-degree: 1%
@@ -42,8 +42,8 @@ Per un esempio di connessione dei tipi di record, vedere [Esempio di connessione
       * Progetti
       * Portfolio
       * Programmi
-      * Azienda
-      * Gruppo
+      * Aziende
+      * Gruppi
 
    * Adobe Experience Manager Assets
 
@@ -122,66 +122,6 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
 
 *Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<!--OLD:
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> 
-   <p>To connect Adobe Workfront Planning records with Experience Manager Assets, you must have an Adobe Experience Manager Assets license and your organization's instance of Workfront must be onboarded to the Adobe Unified Experience. For information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p>
-   </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   <p>Current: Plan</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls for Workfront Planning</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace to connect records </p>  
-   <p>View or higher permissions to a workspace to view all connections to objects and fields from other applications, regardless of your access in the other application. </p>
-   <p>View or higher permissions to the objects you want to link from Workfront or Experience Manager Assets. </p>
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
-
 +++
 
 ## Prerequisiti per la connessione dei record
@@ -210,7 +150,7 @@ Per collegare i record ad altri record o oggetti, è necessario disporre dei seg
 
 {{step1-to-planning}}
 
-1. Fare clic sull&#39;area di lavoro di cui si desidera connettere i record
+1. Fare clic sull&#39;area di lavoro di cui si desidera connettere i record.
 
    Viene aperto il workspace e i tipi di record vengono visualizzati come schede.
 1. Fare clic sulla scheda di un tipo di record per aprire la pagina del tipo di record.
@@ -225,7 +165,7 @@ Per collegare i record ad altri record o oggetti, è necessario disporre dei seg
    * Fare clic sul nome di un record connesso nell&#39;elenco per aggiungerlo al record selezionato. Il record viene aggiunto automaticamente.
    * Iniziare a digitare il nome di un record e fare clic su di esso quando viene visualizzato nell&#39;elenco. Il record viene aggiunto automaticamente.
 
-1. (Facoltativo) Se non è possibile trovare un record o un oggetto da connettere e si desidera aggiungerlo, fare clic su **+ Aggiungi** per aggiungere un nuovo record. Per ulteriori informazioni, vedere l&#39;articolo [Creare record](/help/quicksilver/planning/records/create-records.md) in cui è possibile creare record durante la connessione.
+1. (Facoltativo) Se non è possibile trovare un record o un oggetto da connettere e si desidera aggiungerlo, fare clic su **+ Aggiungi** per aggiungere un nuovo record. Per ulteriori informazioni, vedere la sezione &quot;Creare record durante la connessione&quot; nell&#39;articolo [Creare record](/help/quicksilver/planning/records/create-records.md).
 
    >[!TIP]
    >
@@ -307,11 +247,11 @@ Dopo aver creato una connessione tra un tipo di record e un tipo di oggetto Work
 
 1. (Facoltativo) Se non riesci a trovare un oggetto da connettere e vuoi aggiungerlo, fai clic su **+ Aggiungi** per creare e aggiungere un nuovo progetto o portfolio.
 
-   È possibile aggiungere progetti senza un modello o portafogli solo quando si collegano ai record di Planning. Non è possibile aggiungere nuovi programmi, utenti o società.
+   È possibile aggiungere progetti senza un modello o portafogli solo quando si collegano ai record di Planning. Non è possibile aggiungere nuovi programmi, gruppi o società.
 
 1. (Facoltativo) Fai clic su **Visualizza tutti** per visualizzare tutti gli oggetti per i quali disponi almeno delle autorizzazioni di visualizzazione.
 
-1. (Condizionale) Se hai fatto clic su **Visualizza tutti** nel passaggio precedente, viene visualizzata la casella **Connetti oggetti**.
+   Se hai fatto clic su **Visualizza tutti** nel passaggio precedente, viene visualizzata la casella **Connetti oggetti**.
 
    ![](assets/connect-objects-box-to-select-projects.png)
 
@@ -382,7 +322,7 @@ Per collegare record con risorse Experience Manager:
 1. Selezionare una visualizzazione **Tabella** dal menu a discesa **Visualizzazione** nell&#39;angolo superiore destro della pagina del tipo di record.
 
 1. (Facoltativo) Fare clic su **Nuovo record** per aggiungere nuovi record al tipo di record selezionato. Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).
-1. (Condizionale) Dopo aver connesso il tipo di record selezionato con Experience Manager Assets, passa alla colonna dell&#39;oggetto collegato e passa il puntatore del mouse sulla cella corrispondente al record che desideri collegare ad altri oggetti da Experience Manager, quindi fai clic sull&#39;icona **+**.
+1. (Condizionale) Dopo aver collegato il tipo di record selezionato a Experience Manager Assets, passa alla colonna dell&#39;oggetto collegato e passa il puntatore del mouse sulla cella corrispondente al record che desideri collegare ad altri oggetti da Experience Manager, quindi fai clic sull&#39;icona **+**.
 
    >[!TIP]
    >
@@ -473,7 +413,7 @@ Per collegare record con risorse Experience Manager:
 1. (Condizionale) Fare clic su **Connetti** per aggiungere altri record o oggetti dello stesso tipo.
 1. Seguire i passaggi descritti nelle sezioni precedenti per connettere i record da Workfront Planning o gli oggetti da Workfront o Experience Manager Assets.
 I record e gli oggetti vengono aggiunti immediatamente.
-1. (Facoltativo) Passa il puntatore del mouse sulla scheda connessa di un record o di un oggetto, quindi fai clic sull&#39;icona **Disconnetti record** **-** per disconnetterlo dal record selezionato.
+1. (Facoltativo) Passa il puntatore del mouse sulla scheda connessa di un record o di un oggetto, quindi fai clic sull&#39;icona **Disconnetti record** ![](assets/disconnect-icon-with-tooltip.png) per disconnetterlo dal record selezionato.
 
    ![](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
 

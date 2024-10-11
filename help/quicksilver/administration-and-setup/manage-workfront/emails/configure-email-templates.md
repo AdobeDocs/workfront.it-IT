@@ -8,14 +8,18 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 3%
 
 ---
 
+
 # Configurare i modelli e-mail
+
+<!--Audited: 10/2024-->
+
 
 In qualità di amministratore di Adobe Workfront, puoi configurare modelli e-mail per supportare le notifiche dei promemoria.
 
@@ -40,9 +44,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td><p>Corrente: Piano</p>
+   <td><p>Nuovo: Standard</p>
    Oppure
-   <p>Nuovo: Standard</p></td> 
+   <p>Corrente: Piano</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazione del livello di accesso</td> 

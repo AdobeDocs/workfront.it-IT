@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '591'
 ht-degree: 7%
 
 ---
@@ -175,7 +175,7 @@ OLD:
 
 ## Formule supportate
 
-I campi formula di Adobe Workfront Planning supportano tutte le espressioni dei campi calcolati di Workfront. Per ulteriori informazioni, vedere [Panoramica delle espressioni di dati calcolati](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+I campi formula di Adobe Workfront Planning supportano tutte le espressioni dei campi calcolati di Workfront. Per un elenco delle espressioni di Workfront, vedere [Panoramica delle espressioni di dati calcolati](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 Sono inoltre supportate le seguenti espressioni per i campi formula di Workfront Planning:
 

@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 3%
+source-wordcount: '1236'
+ht-degree: 2%
 
 ---
 
@@ -165,18 +165,7 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
    >   Il tipo di campo di ciascun campo viene visualizzato nella parte superiore del pannello di destra, dopo aver selezionato il campo nel modulo.
    >   
    >
-   >   Nella tabella seguente vengono visualizzati i nomi dei tipi di campo nella vista tabella e i nomi degli stessi campi nel modulo di richiesta del tipo di record. I formati di ciascun campo corrispondono tra la vista tabella e il modulo di richiesta.
-   >
-   >   | Tipo di campo Workfront Planning | Tipo di campo modulo richiesta |
-   >   |-------------------------------|-------------------------|
-   >   | Testo a riga singola | Testo a riga singola |
-   >   | Paragrafo | Paragrafo |
-   >   | Valuta, numero, percentuale | Testo su riga singola (i formati di questi campi rimangono valuta, numero e percentuale) |
-   >   | Selezione singola | Selezione singola |
-   >   | Selezione multipla | Selezione multipla |
-   >   | Casella di controllo | Casella di controllo |
-   >   | Data | Data |
-   >
+   >   I campi Valuta, Numero e Percentuale vengono visualizzati come un tipo di campo di testo a riga singola. Tuttavia, il formato del campo viene mantenuto e i valori all’interno di questi campi verranno visualizzati come Valuta, Numero e Percentuale.
 
 1. (Facoltativo) Fai clic sulla scheda **Elementi di contenuto** sul lato sinistro del modulo e aggiungi i seguenti elementi:
 
