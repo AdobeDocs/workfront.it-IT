@@ -7,7 +7,7 @@ description: Panoramica di ore, FTE e informazioni sui costi nelle visualizzazio
 author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
 source-wordcount: '2977'
 ht-degree: 0%
@@ -329,7 +329,7 @@ Questa opzione viene applicata solo quando si personalizza la visualizzazione ne
 
 >[!NOTE]
 >
->**Quando le ore NETTE, FTE o Costo sono visualizzati in rosso, il tempo disponibile o il budget non sono sufficienti per coprire il Budget** o il Tempo pianificato o il costo associato al lavoro. In questo caso, le risorse sono sovrassegnate.
+>Quando il campo Ore nette, FTE o Costo viene visualizzato in rosso, il tempo o il budget disponibile non è sufficiente per coprire il tempo o il costo preventivato o pianificato associato al lavoro. In questo caso, le risorse sono sovrassegnate.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the table below is ideal but it does not transfer to Markdown)</p>

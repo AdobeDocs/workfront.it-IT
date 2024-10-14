@@ -7,9 +7,9 @@ description: È possibile accedere al riepilogo Commenti in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,13 @@ Il riepilogo Commenti è accessibile direttamente dalle seguenti aree:
 
 ### Visualizzatore bozze {#the-proof-viewer}
 
-È possibile stampare il riepilogo dei commenti della bozza, incluse le miniature o l&#39;immagine completa della bozza, facendo clic sull&#39;icona **[!UICONTROL Stampa]** nel Visualizzatore bozze. 1)
+È possibile stampare il riepilogo dei commenti della bozza, incluse le miniature o l&#39;immagine completa della bozza, facendo clic sull&#39;icona **[!UICONTROL Stampa]** nel Visualizzatore bozze.
 
 ![PV_print_all_comm.png](assets/pv-print-all-comm-350x158.png)
 
 ### Pagina Dettagli bozza {#the-proof-details-page}
 
-Puoi stampare il riepilogo dei commenti della bozza facendo clic sull&#39;icona **[!UICONTROL Stampa]** nella pagina Dettagli bozza. 2)
+Puoi stampare il riepilogo dei commenti della bozza facendo clic sull&#39;icona **[!UICONTROL Stampa]** nella pagina Dettagli bozza.
 
 ![dettagli_bozza_pagina.png](assets/proof-details-page-350x231.png)
 
@@ -46,17 +46,18 @@ Puoi stampare il riepilogo dei commenti della bozza facendo clic sull&#39;icona 
 
 Per accedere alla pagina [!UICONTROL Riepilogo commenti] da una visualizzazione elenco:
 
-1. Fai clic sul menu **[!UICONTROL Azioni]**. 3)
-1. Seleziona **[!UICONTROL Stampa commenti]**. 4)
+1. Fai clic sul menu **[!UICONTROL Azioni]**.
+1. Seleziona **[!UICONTROL Stampa commenti]**.
 
-![Vista_elenco.png](assets/list-view-350x155.png)\
-Nella pagina di riepilogo Commenti è possibile scegliere tra le seguenti opzioni di stampa:
+   ![Vista_elenco.png](assets/list-view-350x155.png)
 
-* Visualizzazione miniature (1)
-* Visualizzazione a pagina intera (2)
-* Stampa la pagina (3)
-* Esporta la bozza con commenti in un file PDF (4)
-* Esporta i commenti della bozza in un file [!DNL Excel] (5)
+   Nella pagina di riepilogo Commenti è possibile scegliere tra le seguenti opzioni di stampa:
+
+   * Visualizzazione miniature (1)
+   * Visualizzazione a pagina intera (2)
+   * Stampa la pagina (3)
+   * Esporta la bozza con commenti in un file PDF (4)
+   * Esporta i commenti della bozza in un file [!DNL Excel] (5)
 
 ![PV_thumb_full_option_callouts.png](assets/pv-thumb-full-option-callouts-350x154.png)
 
@@ -89,7 +90,8 @@ Per scaricare il riepilogo [!DNL Excel]:
 Per scaricare il riepilogo [!DNL Excel] dalla pagina Dettagli bozza:
 
 1. Fare clic sull&#39;icona Esporta in **[!DNL Excel]**. 2)
-1. ![Esporta_in_excel.png](assets/export-to-excel-350x185.png)
+
+   ![Esporta_in_excel.png](assets/export-to-excel-350x185.png)
 
 ## Esportazione in PDF
 

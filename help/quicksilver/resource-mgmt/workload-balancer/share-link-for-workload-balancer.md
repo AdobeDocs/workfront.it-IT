@@ -6,7 +6,7 @@ description: È possibile condividere il Bilanciatore dei carichi di lavoro con 
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 1%
@@ -136,4 +136,4 @@ Per visualizzare le informazioni nel Bilanciatore dei carichi di lavoro da un co
 
      >[!IMPORTANT]
      >
-     >Quando si aggiunge il Bilanciatore dei carichi di lavoro alla sezione personalizzata di un oggetto, le informazioni nel Bilanciatore dei carichi di lavoro non vengono filtrate dall’oggetto. Il Bilanciatore dei carichi di lavoro visualizza le informazioni filtrate dai filtri applicati originariamente.
+     >Quando si aggiunge il Bilanciatore dei carichi di lavoro alla sezione personalizzata di un oggetto, le informazioni nel Bilanciatore dei carichi di lavoro non vengono filtrate dall’oggetto. Il Bilanciatore dei carichi di lavoro visualizza le informazioni filtrate dai filtri applicati originariamente.

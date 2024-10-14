@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
-source-wordcount: '3856'
+source-wordcount: '3830'
 ht-degree: 0%
 
 ---
@@ -335,10 +335,8 @@ Per rimuovere un elemento dalla scheda orario aggiunto manualmente:
 
 Puoi registrare l’ora specifica del progetto nella Home.
 
-Per informazioni generali sull&#39;utilizzo dell&#39;area Home, vedere le sezioni seguenti:
+Per informazioni generali sull&#39;utilizzo dell&#39;area Home, vedere [Utilizzare l&#39;area Home](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
-* Per informazioni sull&#39;utilizzo dell&#39;area Home legacy, vedere [Utilizzare l&#39;area Home](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
-* Per informazioni sull&#39;utilizzo della nuova area Home, vedere [Introduzione alla nuova Home](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 #### Tempo di connessione per un elemento di lavoro dalla nuova area Home
 
