@@ -9,16 +9,16 @@ exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
 source-git-commit: 2f5e0b8ba4ec4f32ae0457a6a901a43d03389773
 workflow-type: tm+mt
 source-wordcount: '606'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
-# Creare i pool di risorse {#create-resource-pools}
+# Creare pool di risorse {#create-resource-pools}
 
 >[!CONTEXTUALHELP]
 >id="wf_resource_pools"
 >title="Gruppi di risorse"
->abstract="Un Pool di Risorse è una raccolta di utenti necessari contemporaneamente per il completamento di un progetto. Dopo aver creato un pool di risorse, è possibile associarlo a progetti e modelli."
+>abstract="Un pool di risorse è un insieme di utenti necessari contemporaneamente per il completamento di un progetto. Dopo aver creato un pool di risorse, è possibile associarlo a progetti e modelli."
 
 {{preview-and-fast-release-Q424}}
 
