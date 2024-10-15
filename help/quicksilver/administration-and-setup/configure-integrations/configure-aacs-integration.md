@@ -6,9 +6,9 @@ description: Puoi collegare il tuo lavoro al contenuto in [!DNL Experience Manag
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 99924f690c53584c090d19fff90d23d84ec306d4
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1700'
 ht-degree: 0%
 
 ---
@@ -242,9 +242,11 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 
 ## Impostare i flussi di lavoro (facoltativo)
 
-Un flusso di lavoro è un insieme di azioni che collegano Workfront ad Adobe Experience Manager as a Cloud Service. In qualità di amministratore di Workfront, puoi configurare i flussi di lavoro in Workfront e quindi assegnarli a Modelli di progetto. Quando un progetto viene creato utilizzando un modello di progetto a cui è assegnato un flusso di lavoro, vengono attivate le azioni definite nel flusso di lavoro.
+Un flusso di lavoro è un insieme di azioni che collegano Workfront ad Adobe Experience Manager as a Cloud Service. In qualità di amministratore di Workfront, puoi configurare i flussi di lavoro in Workfront e quindi assegnarli a Modelli di progetto.
 
-I flussi di lavoro sono abilitati e configurati per Adobe Experience Manager nel suo complesso. Questi flussi di lavoro possono quindi essere applicati ai modelli di progetto e modificati o personalizzati a livello di modello o di progetto.
+Quando un progetto viene creato utilizzando un modello di progetto a cui è assegnato un flusso di lavoro, vengono attivate le azioni definite nel flusso di lavoro.
+
+I flussi di lavoro sono abilitati e configurati per Adobe Experience Manager nel suo complesso. Questi flussi di lavoro possono quindi essere applicati ai modelli di progetto. Possono essere regolati o personalizzati a livello di modello o a livello di progetto quando un progetto viene creato da tale modello.
 
 Nell’integrazione di Adobe Experience Manager sono disponibili i seguenti flussi di lavoro:
 

@@ -6,9 +6,9 @@ description: Quando colleghi [!DNL Jira] problemi ad [!DNL Adobe Workfront] atti
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 79ac6ff1-2f7d-4abc-8735-398f6aac5191
-source-git-commit: e01f5eaf3133fa1bdaedf4dad56e9a8175b70667
+source-git-commit: 99924f690c53584c090d19fff90d23d84ec306d4
 workflow-type: tm+mt
-source-wordcount: '1570'
+source-wordcount: '1576'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ L&#39;elenco seguente mostra quali campi [!DNL Workfront] si sincronizzano con i
   </tr> 
   <tr> 
    <td>[!UICONTROL Commenti]</td> 
-   <td> <p>Il commento viene aggiunto alla scheda <strong>[!DNL Workfront]</strong> del problema [!DNL Jira]. Non è stato aggiunto alla scheda <strong>[!UICONTROL Commenti]</strong> del problema [!DNL Jira]</p> <p>Nota: quando si collegano manualmente due elementi esistenti, i commenti aggiunti all'elemento [!DNL Workfront] prima di collegarlo a [!DNL Jira] non vengono sincronizzati con il problema [!DNL Jira]. </p> </td> 
+   <td> <p>Il commento viene aggiunto alla scheda <strong>[!DNL Workfront]</strong> del problema [!DNL Jira]. Non è stato aggiunto alla scheda <strong>[!UICONTROL Commenti]</strong> del problema [!DNL Jira]</p> <p>Nota: quando si collegano manualmente due elementi esistenti, i commenti aggiunti all'elemento [!DNL Workfront] prima di collegarlo a [!DNL Jira] non vengono sincronizzati con il problema [!DNL Jira]. </p> <p>I commenti Jira vengono sincronizzati con Workfront.</td> 
   </tr> 
  </tbody> 
 </table>
