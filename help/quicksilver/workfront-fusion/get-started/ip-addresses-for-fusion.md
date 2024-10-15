@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion richiede una licenza Adobe Workfront Fusion 
 author: Becky
 feature: Workfront Fusion
 exl-id: f6295cc7-367f-4c8b-891b-cc11ff42a225
-source-git-commit: 55a4fda46f6d314c71d9ef98864b21b84f946b09
+source-git-commit: d4ae54f14c2328888ce80902275b0d390fb4fbb7
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,28 @@ ht-degree: 0%
 >[!DNL Adobe Workfront Fusion] richiede una licenza [!DNL Adobe Workfront Fusion] oltre a [!DNL Adobe Workfront license].
 
 Se il firewall o il server di posta è configurato per consentire l&#39;accesso solo a determinati fornitori, è necessario aggiungere determinati indirizzi IP al relativo inserisco nell&#39;elenco Consentiti per consentire la comunicazione aperta tra l&#39;ambiente e [!DNL Adobe Workfront Fusion].
+
+## Identificare il datacenter
+
+Gli indirizzi IP variano in base alla posizione in cui vengono memorizzati i dati.
+
+Se accedi a Fusion tramite un URL, puoi esaminarlo per individuare il tuo datacenter.
+
+| URL | Datacenter |
+| --- | --- |
+| `https://app.workfrontfusion.com/` | Datacenter USA |
+| `https://app-eu.workfrontfusion.com/` | Datacenter UE |
+| `https://app-az.workfrontfusion.com/` | Datacenter di Azure |
+
+Se accedi a Fusion tramite experience.adobe.com, puoi controllare la scheda di rete nel browser per identificare il datacenter.
+
+| URL | Datacenter |
+| --- | --- |
+| Chiamate a `https://fusion.adobe.com` | Datacenter USA |
+| Chiamate a `https://eu.fusion.adobe.com` | Datacenter UE |
+| Chiamate a `https://az.fusion.adobe.com` | Datacenter di Azure |
+
+## Indirizzi IP per Workfront Fusion
 
 Aggiungere i seguenti indirizzi IP al inserisco nell&#39;elenco Consentiti di accesso al sistema per consentire a [!DNL Workfront Fusion] di accedere al sistema.
 
