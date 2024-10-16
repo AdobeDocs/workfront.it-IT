@@ -5,7 +5,7 @@ description: È possibile riepilogare rapidamente gli elementi di lavoro e i doc
 author: Becky
 feature: Get Started with Workfront
 exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: bec1318d83938964697d76b83062ef11745802e3
+source-git-commit: bbe4ad6a8528e7d0e3a5f6f2b669c1b5d8d2e313
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 1%
@@ -73,10 +73,10 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 Nelle seguenti aree sono disponibili pulsanti che generano riepiloghi tramite l’Assistente IA:
 
-* Intestazione progetto: Riepilogo progetto
-* Area Aggiornamenti: Riepiloga contenuto
+* Intestazione progetto: Riepiloga progetto
+* Area Aggiornamenti: riepilogo dei commenti
 
-Per utilizzare il pulsante Riepilogo progetto o Riepiloga contenuto:
+Per utilizzare il pulsante Riepiloga progetto o Riepiloga commenti:
 
 1. Fai clic sul pulsante.
 
