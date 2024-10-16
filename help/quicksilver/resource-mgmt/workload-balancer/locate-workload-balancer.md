@@ -7,9 +7,9 @@ description: È possibile utilizzare il Bilanciatore dei carichi di lavoro per p
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 2375cf5d7ae817340ce9552994d87cb5af9a054b
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -104,16 +104,16 @@ Viene visualizzata la pagina del team predefinito.
 
 1. Fai clic su **Bilanciatore dei carichi di lavoro** nel pannello a sinistra.
 
-![](assets/nwe-balancer-team-350x172.png)
+   ![](assets/nwe-balancer-team-350x172.png)
 
-Il Bilanciatore dei carichi di lavoro di un team visualizza le seguenti informazioni, per impostazione predefinita:
+   Il Bilanciatore dei carichi di lavoro di un team visualizza le seguenti informazioni, per impostazione predefinita:
 
-* **Lavoro non assegnato**: elementi assegnati al team e non assegnati agli utenti.
-* **Lavoro assegnato**: tutti i membri del team con tutte le loro assegnazioni.
+   * **Lavoro non assegnato**: elementi assegnati al team e non assegnati agli utenti.
+   * **Lavoro assegnato**: tutti i membri del team con tutte le loro assegnazioni.
 
-  >[!TIP]
-  >
-  >I membri del team possono essere assegnati a un lavoro assegnato anche al team o a un lavoro assegnato ad altri team o ruoli.
+     >[!TIP]
+     >
+     >I membri del team possono essere assegnati a un lavoro assegnato anche al team o a un lavoro assegnato ad altri team o ruoli.
 
 ### Accedere al Bilanciatore dei carichi di lavoro per un progetto
 
