@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: ac14cbb856181f2bef5ab69a9d5408ef8137190f
+source-git-commit: 00a1876e005f0f0c47bdebaab77bbcfe42318612
 workflow-type: tm+mt
-source-wordcount: '14488'
+source-wordcount: '14530'
 ht-degree: 2%
 
 ---
@@ -884,6 +884,14 @@ ht-degree: 2%
    * Priorità {#priorities}
       * [Priorità: indice articoli](workfront-basics/priorities/priorities-toc.md)
       * [Introduzione alle priorità](workfront-basics/priorities/get-started-with-priorities.md)
+      * [Filtrare e raggruppare il lavoro in Priorità](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
+      * [Personalizzare le colonne dell’elenco lavori](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
+      * [Assegna priorità agli elementi di lavoro importanti](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)
+      * [Creare attività e problemi in Priorità](/help/quicksilver/workfront-basics/priorities/create-task-issue-priorities.md)
+      * [Aggiungere e visualizzare aggiornamenti in Priorità](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md)
+      * [Tempo di connessione in Priorità](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md)
+      * [Caricare file in Priorità](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)
+      * [Aggiungere e gestire collegamenti rapidi in Priorità](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)
    * Home {#home}
       * [Pagina Home](workfront-basics/using-home/home.md)
       * Nuova Home {#new-home}
@@ -1769,7 +1777,7 @@ ht-degree: 2%
       * Gruppi di risorse {#resource-pools}
          * [Gruppi di risorse](resource-mgmt/resource-planning/resource-pools/resource-pools.md)
          * [Panoramica sui pool di risorse](resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
-         * [Creare i pool di risorse](resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
+         * [Creare pool di risorse](resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
          * [Associare i pool di risorse a progetti e modelli](resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md)
          * [Associa i pool di risorse agli utenti](resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
          * [Rimuovere utenti dai pool di risorse](resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)

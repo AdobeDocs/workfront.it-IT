@@ -5,9 +5,9 @@ description: La pagina Home legacy verrà rimossa da Workfront il 10/17 con la v
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: e63180a5d2b542f98c96ec5a2bd2fb0df078bb11
+source-git-commit: 00a1876e005f0f0c47bdebaab77bbcfe42318612
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '568'
 ht-degree: 3%
 
 ---
@@ -29,7 +29,7 @@ Nella vista della tabella Priorità vengono visualizzate le attività e i proble
 
 | **Filtro** | **Raggruppamento** |
 |------------|-----------|
-| - Lavoro in corso su <br> - Pronto per iniziare <br> - Non pronto <br> - Richiesto <br> - Completato <br> - Progetto <br> - Scadenza <br> - Stato | - Nessuno <br> - Settimana Scadenza <br> - Stato <br> - Progetto |
+| - Lavoro in corso su <br> - Pronto per iniziare <br> - Non pronto <br> - Richiesto <br> - Completato <br> - Progetto <br> - Scadenza <br> - Stato <br> - Stato attivo | - Nessuno <br> - Stato attivo <br> - Scadenza settimana <br> - Stato <br> - Progetto |
 
 
 **Opzioni di raggruppamento e filtro home legacy non disponibili in Priorità**
