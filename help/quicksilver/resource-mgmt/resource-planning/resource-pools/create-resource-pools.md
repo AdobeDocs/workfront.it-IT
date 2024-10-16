@@ -6,10 +6,10 @@ description: I pool di risorse sono insiemi di utenti che consentono di gestire 
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: 2f5e0b8ba4ec4f32ae0457a6a901a43d03389773
+source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,8 +19,6 @@ ht-degree: 8%
 >id="wf_resource_pools"
 >title="Gruppi di risorse"
 >abstract="Un pool di risorse è un insieme di utenti necessari contemporaneamente per il completamento di un progetto. Dopo aver creato un pool di risorse, è possibile associarlo a progetti e modelli."
-
-{{preview-and-fast-release-Q424}}
 
 I pool di risorse sono insiemi di utenti che consentono di gestire più facilmente le risorse in Adobe Workfront. Per ulteriori informazioni sui pool di risorse, vedere [Panoramica sui pool di risorse](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
 
@@ -66,14 +64,10 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 {{step1-to-resourcing}}
 
 1. Fai clic su **Pool di Risorse** nel pannello a sinistra.
-
-   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
-   <span class="preview">![Gruppi di risorse](assets/list-of-resource-pools.png)</span>
-
-   Immagine di esempio nell’ambiente di produzione:
-   ![Gruppi di risorse](assets/resource-pools-tab-350x198.png)
-
 1. Fare clic su **Nuovo pool di risorse**.
+
+   ![Gruppi di risorse](assets/list-of-resource-pools.png)
+
 1. Specifica quanto segue:
 
    <table style="table-layout:auto">
@@ -108,11 +102,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    >
    >Non esiste alcun limite al numero di utenti che è possibile avere in un Pool di Risorse. Tuttavia, si consiglia di non aggiungere troppi utenti a un Pool di Risorse, altrimenti la gestione delle risorse potrebbe diventare una sfida. L&#39;elenco degli utenti mostra solo i primi 2.000 utenti nel Pool di Risorse e sono elencati in ordine alfabetico.
 
-   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
-   <span class="preview">![Utenti aggiunti al Pool di Risorse](assets/users-in-resource-pool2.png)</span>
-
-   Immagine di esempio nell’ambiente di produzione:
-   ![Utenti aggiunti al Pool di Risorse](assets/resource-pools-new---undo-button-for-teams-groups-etc-350x113.png)
+   ![Utenti aggiunti al Pool di Risorse](assets/users-in-resource-pool2.png)
 
 1. (Facoltativo) Fai clic sull’icona X a destra del nome di un utente per rimuoverlo. Per ulteriori informazioni sulla rimozione degli utenti da un pool di risorse, vedere [Rimuovere gli utenti dai pool di risorse](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md).
 1. (Facoltativo) Utilizza l&#39;opzione **Cerca** per trovare un utente nel Pool di Risorse.

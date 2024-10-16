@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: eee683edc36b33b74d67a9ffbcab9697826e3a86
+source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
 workflow-type: tm+mt
-source-wordcount: '5575'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Progettare un modulo con il progettista del modulo
-
-{{highlighted-preview}}
 
 È possibile progettare un modulo personalizzato con il progettista del modulo. È possibile allegare moduli personalizzati a diversi oggetti di Workfront per acquisire dati su tali oggetti.
 
@@ -92,7 +90,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 È possibile utilizzare campi nuovi o esistenti durante la progettazione del modulo personalizzato.
 
-<span class="preview">I moduli personalizzati sono limitati a 500 campi. Un contatore in basso a sinistra visualizza il numero di campi utilizzati nel modulo ed è sempre visibile durante lo scorrimento all&#39;interno del progettista del modulo.</span>
+I moduli personalizzati sono limitati a 500 campi. Un contatore in basso a sinistra visualizza il numero di campi utilizzati nel modulo, che è sempre visibile durante lo scorrimento all&#39;interno del progettista del modulo.
 
 ### Riutilizzare un campo o un widget esistente già utilizzato in un altro modulo personalizzato
 
