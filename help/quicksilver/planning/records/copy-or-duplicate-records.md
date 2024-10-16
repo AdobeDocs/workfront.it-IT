@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 2fed8c96-0c9c-4662-a9c4-66dae507ff2a
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '586'
 ht-degree: 2%
 
 ---
-
 
 # Record duplicati
 
@@ -25,7 +25,7 @@ In Adobe Workfront Planning, un record è un&#39;istanza di un tipo di record.
 
 +++ Espandere per visualizzare i requisiti di accesso per Workfront Planning.
 
-Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
 <col> 

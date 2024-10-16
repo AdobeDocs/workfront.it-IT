@@ -1,5 +1,5 @@
 ---
-title: Modelli di layout
+title: "Modelli di layout: indice articolo"
 user-type: administrator
 content-type: reference
 product-area: system-administration;templates
@@ -10,10 +10,10 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: f8961140-948f-4bea-956b-a8126008b8cb
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 1%
+source-wordcount: '196'
+ht-degree: 0%
 
 ---
 
@@ -21,22 +21,25 @@ ht-degree: 1%
 
 <!-- Audited: 2/2024 -->
 
-Questa sezione contiene i seguenti articoli:
+In qualità di amministratore di Workfront o di un gruppo, puoi creare e modificare modelli di layout per personalizzare gli elementi dell’Adobe
+Interfaccia Workfront per i tuoi utenti.
 
-* [Informazioni sul layout predefinito di Adobe Workfront](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
-* [Brand Adobe Workfront utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
-* [Personalizzare il menu principale utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
+Gli articoli seguenti descrivono come personalizzare l’interfaccia di Workfront utilizzando i modelli di layout:
+
+* [Informazioni sul layout predefinito di Adobe Workfront](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
+* [Brand Adobe Workfront utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
+* [Personalizzare il menu principale utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
 * [Personalizzare le intestazioni degli oggetti utilizzando un modello di layout](../../customize-workfront/use-layout-templates/customize-object-headers.md)
-* [Personalizzare il pannello sinistro utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
-* [Personalizzare la visualizzazione Dettagli utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
-* [Personalizzare Home e Riepilogo utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
-* [Personalizza nuova Home utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
-* [Personalizzare le pagine bloccate utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
-* [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-* [Personalizzare la terminologia dell&#39;interfaccia utente utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
-* [Personalizzare la pagina di destinazione utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
-* [Verifica un nuovo modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
-* [Concedere l&#39;accesso amministrativo per un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
-* [Assegnare utenti a un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
-* [Copiare un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
-* [Eliminare i modelli di layout classici utilizzando una chiamata API](../../../administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
+* [Personalizzare il pannello sinistro utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
+* [Personalizzare la visualizzazione Dettagli utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
+* [Personalizzare il pannello Riepilogo utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+* [Personalizza la Home usando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
+* [Personalizzare le pagine bloccate utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
+* [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+* [Personalizzare la terminologia dell&#39;interfaccia utente utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
+* [Personalizzare la pagina di destinazione utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
+* [Verifica un nuovo modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
+* [Concedere l&#39;accesso amministrativo per un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
+* [Assegnare utenti a un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
+* [Copiare un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
+* [Eliminare i modelli di layout classici utilizzando una chiamata API](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)

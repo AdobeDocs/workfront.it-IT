@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
-
 
 # Richiedere le autorizzazioni per una visualizzazione o un’area di lavoro
 
@@ -38,7 +38,7 @@ Per informazioni sulla concessione di autorizzazioni per visualizzazioni e aree 
 
 +++ Espandere per visualizzare i requisiti di accesso per Workfront Planning.
 
-Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -131,5 +131,3 @@ Quando qualcuno condivide con te un collegamento a un’area di lavoro o a una v
      ![](assets/email-notification-for-access-request.png)
 
 1. (Facoltativo) Quando il gestore della visualizzazione o dell’area di lavoro ti concede le autorizzazioni per la visualizzazione o l’area di lavoro, ricevi una notifica e-mail e una notifica in-app con la conferma che l’autorizzazione è stata concessa. <!--check this - I was not able to test this, but Isk confirmed.-->
-
-

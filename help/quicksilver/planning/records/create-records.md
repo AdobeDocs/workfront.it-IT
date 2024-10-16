@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 83827c24bd9157d2a4fb151e61c38cd6892a7c86
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1513'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Per informazioni sulla gestione dei record nelle viste tabella o sequenza tempor
 
 +++ Espandere per visualizzare i requisiti di accesso per Workfront Planning.
 
-Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
 <col> 

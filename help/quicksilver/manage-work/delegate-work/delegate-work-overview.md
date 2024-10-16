@@ -7,9 +7,9 @@ description: Quando prevedi di uscire dall'ufficio per un breve periodo di tempo
 author: Lisa
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: 70e20df7c9738f33496e37b31b6e11caf0ac2f0f
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '898'
 ht-degree: 1%
 
 ---
@@ -30,13 +30,18 @@ Ad esempio, se alcune attività sono in scadenza prima della restituzione ma non
 * Problemi assegnati a te
 * Le approvazioni di progetti, attività o problemi che ti sono state assegnate.
 
-Questo articolo contiene informazioni generali sulla delega di attività e problemi.
+  >[!TIP]
+  >
+  >   Non puoi delegare le approvazioni di schede orario, documenti o bozze.
+
+
+Questo articolo contiene informazioni generali sulla delega di attività e problemi assegnati all&#39;utente.
 
 Per informazioni sulla delega delle approvazioni di progetti, attività e problemi, vedere [Delegare la richiesta di approvazione](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 Per informazioni su come delegare attività e problemi, vedere [Delegare attività e problemi](../../manage-work/delegate-work/how-to-delegate-work.md).
 
-## Panoramica sul lavoro dei delegati
+## Panoramica su delega attività e problemi
 
 Quando deleghi attività e problemi, tieni presente quanto segue:
 
@@ -62,7 +67,7 @@ Quando deleghi attività e problemi, tieni presente quanto segue:
 * Se durante il periodo di tempo selezionato per la delega del lavoro ad altri utenti vengono assegnate attività e problemi aggiuntivi, il nuovo lavoro assegnato viene delegato automaticamente alla stessa persona per l&#39;intervallo di tempo selezionato, se le date dell&#39;attività o del problema sono comprese in tale intervallo di tempo.
 * Più utenti possono selezionare come delegato lo stesso utente.
 * Le attività e i problemi delegati non vengono visualizzati negli strumenti di gestione delle risorse, come il [!UICONTROL Bilanciatore dei carichi di lavoro] o il [!UICONTROL Pianificazione risorse] per gli utenti delegati.
-* È possibile visualizzare i nomi dei delegati e dei lavori delegati in diverse aree di [!DNL Workfront]. Per ulteriori informazioni, vedere la sezione &quot;Individuare informazioni sul lavoro delegato e sui delegati&quot; nell&#39;articolo [Gestire la delega di attività e problemi](../delegate-work/how-to-delegate-work.md).
+* È possibile visualizzare i nomi dei delegati e dei lavori delegati in diverse aree di [!DNL Workfront]. Per ulteriori informazioni, vedere la sezione &quot;Individuare le informazioni sul lavoro delegato e sui delegati&quot; nell&#39;articolo [Delegare attività e problemi](../delegate-work/how-to-delegate-work.md).
 
 
   >[!IMPORTANT]

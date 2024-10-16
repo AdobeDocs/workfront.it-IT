@@ -6,9 +6,9 @@ description: L'invio della scheda orario per l'approvazione fornisce al tuo resp
 author: Alina
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza Adobe Workfront*</td> 
    <td> <p>Nuovo: Chiaro o superiore </p>
    <p>Corrente: revisione o versione successiva </p>
   </tr> 
@@ -49,7 +49,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,7 +72,7 @@ Per inviare una scheda orario per l&#39;approvazione:
 
    Il pulsante **Invia per approvazione** è sostituito dai pulsanti **Approva**, **Rifiuta** e **Richiama**. Lo stato della scheda orario diventa **Inviato**.
 
-   Quando la scheda orario viene inviata per l&#39;approvazione, l&#39;approvatore visualizza la scheda orario elencata nell&#39;area **Approvazioni** della **Home** pagina. Potrebbero verificarsi gli eventi seguenti:
+   Quando la scheda orario viene inviata per l&#39;approvazione, l&#39;approvatore visualizza la scheda orario elencata nel widget **Approvazioni personali** nell&#39;area **Home**. Potrebbero verificarsi gli eventi seguenti:
 
    * Se l&#39;approvano, il pulsante **Richiama** diventa **Riapri** e lo stato della scheda orario diventa **Apri**.
    * Se rifiuta, il pulsante **Invia per approvazione** sostituisce il pulsante **Richiama** e lo stato della scheda orario viene aggiornato a **Rifiutato**.

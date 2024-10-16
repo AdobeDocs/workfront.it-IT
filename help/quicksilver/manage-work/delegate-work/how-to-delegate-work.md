@@ -3,19 +3,19 @@ filename: how-to-delegate-work
 navigation-topic: delegate-work
 title: Delega attività e problemi
 description: Puoi delegare temporaneamente il lavoro che ti è stato assegnato mentre sei fuori sede. Questo articolo descrive come delegare le assegnazioni di attività e problemi.
-author: Lisa
+author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '1460'
+source-wordcount: '1518'
 ht-degree: 0%
 
 ---
 
-# Gestire la delega di attività e problemi
+# Delega attività e problemi
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 10/2024 -->
 
 
 <!--
@@ -59,7 +59,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licenza*</td> 
    <td> <p>Nuovo: Collaboratore o versione successiva</p><p>Oppure</p><p>Corrente: revisione o versione successiva</p>
 
 >[!NOTE]
@@ -80,7 +80,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -92,7 +92,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 Prima di poter eseguire le attività descritte in questo articolo, è necessario verificare quanto segue:
 
-* L&#39;amministratore di [!DNL Workfront] o gruppo ha abilitato [!UICONTROL Consenti agli utenti di eliminare attività e problemi con ore registrate] nell&#39;area [!UICONTROL Configurazione] dell&#39;istanza di [!DNL Workfront].
+* L&#39;amministratore di [!DNL Workfront] o del gruppo ha abilitato l&#39;impostazione [!UICONTROL **Consenti agli utenti di delegare le attività e i problemi**] nella sezione [!UICONTROL Preferenze attività e problemi] nell&#39;area [!UICONTROL Configurazione] dell&#39;istanza [!DNL Workfront].
 
   Per ulteriori informazioni, consulta [Configurare le preferenze per attività e problemi a livello di sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
@@ -104,11 +104,16 @@ Per informazioni generali sulla delega di attività e problemi, vedere [Panorami
 
 Per delegare le tue attività e i tuoi problemi ad altri:
 
-1. Vai all&#39;area [!UICONTROL **Home**], quindi fai clic su [!UICONTROL **Delega**] nella parte superiore del [!UICONTROL **Elenco lavori**].
+1. Vai alla [!UICONTROL **Home**].
+1. Verifica che i widget [!UICONTROL **Il mio lavoro**], [!UICONTROL **Le mie attività**] o [!UICONTROL **I miei problemi**] siano stati aggiunti alla [!UICONTROL **Home**].
 
-   ![](assets/delegate-button-in-home.png)
+   Per informazioni, vedere [Aggiungere, modificare o rimuovere widget nella Home](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
 
-1. Nella scheda [!UICONTROL **Delega attività e problemi**], aggiorna quanto segue:
+1. Fai clic su [!UICONTROL **Delega**] nell&#39;angolo superiore sinistro dei widget [!UICONTROL **Il mio lavoro**], [!UICONTROL **Le mie attività**] o [!UICONTROL **I miei problemi**].
+
+   ![](assets/delegate-button-on-my-work-widget.png)
+
+1. Aggiorna quanto segue:
 
    * [!UICONTROL **Delega le attività e i problemi a**]: inizia a digitare il nome di un utente a cui desideri delegare le attività e i problemi, quindi selezionalo quando viene visualizzato nell&#39;elenco. Puoi selezionare un solo utente.
 
@@ -129,6 +134,7 @@ Per delegare le tue attività e i tuoi problemi ad altri:
      >Se si lascia vuoto il campo Data di fine e l&#39;opzione Nessuna data di fine non è selezionata, la delega viene impostata solo per il giorno corrente.
 
      ![](assets/delegate-box-expanded-in-home.png)
+     <!--check screen shot - submitted bug for casing-->
 
 1. Fai clic su [!UICONTROL **Salva**].
 
@@ -141,18 +147,18 @@ Per delegare le tue attività e i tuoi problemi ad altri:
      >   Gli elementi di lavoro completati con date comprese nell’intervallo di tempo della delega non vengono delegati.
 
 
-   * Viene visualizzato un messaggio nell’angolo superiore destro della schermata per confermare che hai abilitato la delega del tuo lavoro a un altro utente. Il nome dell’utente delegato viene visualizzato nel messaggio di conferma.
+   * Viene visualizzato un messaggio nella parte inferiore della schermata che conferma di aver abilitato la delega del lavoro a un altro utente. Il nome dell’utente delegato viene visualizzato nel messaggio di conferma.
 
    * Un&#39;indicazione che le attività e i problemi sono delegati ad altri utenti viene visualizzata nella maggior parte delle aree in cui è possibile visualizzare le assegnazioni in [!DNL Workfront]. Per ulteriori informazioni sulle aree che non includono i nomi dei delegati, vedere [Panoramica sul lavoro dei delegati](delegate-work-overview.md).
 
-   * Il pulsante [!UICONTROL **Delega**] nell&#39;area [!UICONTROL Home] diventa [!UICONTROL **Modifica delega**] per indicare che è attiva una delega.
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE: is this shot correct?&nbsp;See UI - this is a mock)
-   </MadCap:conditionalText>
-   -->
+   * Il pulsante [!UICONTROL **Delega**] nell&#39;area [!UICONTROL **Home**] diventa [!UICONTROL **Modifica delega**] per indicare che è attiva una delega.
+     <!--
+      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+      (NOTE: is this shot correct?&nbsp;See UI - this is a mock)
+      </MadCap:conditionalText>
+      -->
 
-   ![](assets/work-delegated-button-in-home.png)
+     ![](assets/edit-delegation-button-on-my-work-widget.png)
 
    * Se le notifiche degli eventi e le notifiche personali sono abilitate, riceverai anche una conferma via e-mail della tua delega.
 
@@ -164,8 +170,8 @@ Per delegare le tue attività e i tuoi problemi ad altri:
 
 Puoi lasciare scadere una delega se hai selezionato una Data di fine oppure puoi interromperla manualmente. Puoi anche modificare l’intervallo di tempo per la delega, se le date per la delega sono cambiate.
 
-1. Vai all&#39;area [!UICONTROL Home], quindi fai clic su [!UICONTROL Modifica delega] nell&#39;angolo superiore destro dell&#39;Elenco lavori.
-1. Nella scheda [!UICONTROL Delega attività e problemi] eseguire una delle operazioni seguenti:
+1. Vai alla [!UICONTROL **Home**] e fai clic su [!UICONTROL **Modifica delega**] in uno dei seguenti widget: **Il mio lavoro**, **Le mie attività** o **I miei problemi**.
+1. Nella casella [!UICONTROL Interrompi la delega di attività e problemi] eseguire una delle operazioni seguenti:
    * Modifica [!UICONTROL **Data inizio**] o [!UICONTROL **Data fine**]
    * Fai clic su [!UICONTROL **Interrompi delega**]
 
@@ -173,7 +179,7 @@ Puoi lasciare scadere una delega se hai selezionato una Data di fine oppure puoi
    >
    >    Se la delega è già stata avviata, è possibile modificare solo la data di fine della delega.
 
-   ![](assets/stop-delegation-screen-in-home.png)
+   ![](assets/stop-delegation-box-new-home-tasks-and-issues.png)
 
 1. (Condizionale) fai clic su [!UICONTROL **Salva**] per salvare le nuove date di delega
 
@@ -182,7 +188,6 @@ Puoi lasciare scadere una delega se hai selezionato una Data di fine oppure puoi
    Fai clic su [!UICONTROL **Interrompi delega**] nella casella di conferma per confermare l&#39;interruzione della delega.
 
    La delega ha aggiornato le date o è stata interrotta e gli utenti delegati sono stati rimossi dalle attività e dai problemi. Le loro autorizzazioni per le attività e i problemi rimangono in vigore.
-
 
 ## Individua le informazioni sul lavoro delegato e sui delegati
 
@@ -229,24 +234,31 @@ Se un&#39;attività o un problema è delegato e la scheda secondaria [!UICONTROL
 
 ### Individua lavoro delegato in [!UICONTROL Home]
 
-1. Vai all&#39;area [!UICONTROL **Home**], quindi fai clic sul menu a discesa del filtro e seleziona una o più delle seguenti opzioni:
+1. Vai alla [!UICONTROL **Home**] nel widget [!UICONTROL **Il mio lavoro**].
+1. Fai clic sul menu a discesa del filtro e seleziona una o più delle seguenti opzioni:
    * [!UICONTROL **Delegato**]: per visualizzare le attività e i problemi delegati a te o da te.
    * [!UICONTROL **Delegata a me**]: per visualizzare le attività e i problemi delegati a te da un altro utente.
    * [!UICONTROL **Delegato da me**]: per visualizzare le attività e i problemi da te delegati ad altri utenti.
 
-   ![](assets/delegated-to-me-or-by-me-filters-in-home.png)
+     ![](assets/delegated-tasks-and-issues-new-home-filter.png)
 
-1. Fai clic sul menu a discesa [!UICONTROL ordinamento] per ordinare l&#39;elenco in base ai seguenti criteri:
-   * [!UICONTROL Completamento pianificato]. Questa è l’opzione di ordinamento predefinita.
-   * [!UICONTROL Inizio pianificato]
-   * [!UICONTROL Data commit]
+1. (Facoltativo) Fai clic sul menu a discesa [!UICONTROL **Ordina**] per ordinare l&#39;elenco in base ai seguenti criteri:
+   * [!UICONTROL Data di scadenza]. Questa è l’opzione di ordinamento predefinita.
+   * [!UICONTROL Nome]
+   * [!UICONTROL Percentuale completato]
+   * [!UICONTROL Stato]
+1. (Facoltativo) Espandi il menu a discesa dei raggruppamenti in alto a destra del widget [!UICONTROL **Il mio lavoro**] e raggruppa in base a uno dei seguenti criteri:
+   * Niente. Questa è l’opzione di raggruppamento predefinita.
    * [!UICONTROL Progetto]
-   * [!UICONTROL Priorità personale]
-1. Espandere i raggruppamenti in [!UICONTROL **Elenco lavori**] per visualizzare gli elementi di lavoro delegati. Esistono i seguenti scenari:
-   * Per gli elementi che hai delegato ad altri, il nome del delegato viene visualizzato in [!UICONTROL **Elenco lavori**] e nel campo [!UICONTROL **Assegnazioni e deleghe**] a destra.
+   * [!UICONTROL Stato]
+   * [!UICONTROL Data di scadenza]
 
-   * Per gli elementi delegati, il nome dell&#39;assegnatario viene visualizzato in [!UICONTROL **Elenco lavori**] e nel campo **[!UICONTROL Assegnazioni e deleghe]** a destra.
+1. Per visualizzare gli elementi che hai delegato o che ti sono stati delegati, puoi effettuare una delle seguenti operazioni:
 
-   >[!TIP]
-   >
-   >    Se la delega è impostata per iniziare in una data successiva alla data odierna, la data di inizio della delega viene visualizzata anche in [!UICONTROL Elenco lavori]. Gli elementi delegati vengono visualizzati nel raggruppamento selezionato per l&#39;[!UICONTROL Elenco lavori], in base al tipo di raggruppamento. Ad esempio, se si raggruppa per [!UICONTROL Data di completamento pianificata], gli elementi delegati vengono visualizzati nel raggruppamento che corrisponde alle date di completamento pianificate.
+   * Per gli elementi che hai delegato ad altri, trova il nome del delegato nello stato dell&#39;attività o del problema, dopo [!UICONTROL **Delegato a**].
+
+   * Per gli elementi delegati a te, trova il nome dell&#39;assegnatario nello stato dell&#39;attività o del problema, dopo [!UICONTROL **Delega da**].
+
+     >[!TIP]
+     >
+     >    Se la delega è impostata per iniziare in una data successiva alla data odierna, la data di inizio della delega viene visualizzata anche in [!UICONTROL Elenco lavori]. Gli elementi delegati vengono visualizzati nel raggruppamento selezionato per l&#39;[!UICONTROL Elenco lavori], in base al tipo di raggruppamento. Ad esempio, se si raggruppa per [!UICONTROL Data di completamento pianificata], gli elementi delegati vengono visualizzati nel raggruppamento che corrisponde alle date di completamento pianificate.

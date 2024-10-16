@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '2116'
+source-wordcount: '2100'
 ht-degree: 1%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 1%
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente di anteprima per tutti i clienti oppure nell&#39;ambiente di produzione per i clienti che hanno abilitato le versioni rapide.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">Per informazioni sulle versioni rapide, vedi [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Per informazioni sulla versione corrente, consulta [Panoramica sulla versione del quarto trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>-->
 
 >[!IMPORTANT]
 >
@@ -86,7 +86,9 @@ In Workfront Planning sono attualmente disponibili le seguenti funzionalità:
 * Connetti record appartenenti alla stessa area di lavoro
 * Connettere i record che appartengono a aree di lavoro diverse
 * Collegare i record di Workfront Planning a progetti, programmi, portafogli, società e gruppi di Workfront
-* Collegare i record di Workfront Planning alle risorse Adobe Experience Manager
+* Collegare i record di Workfront Planning alle risorse Adobe Experience Manager\
+  Devi disporre di una licenza Adobe Experience Manager Assets e di un’integrazione tra AEM Assets e Workfront.
+Per informazioni, vedere [Adobe Workfront per Experience Manager Assets e Assets Essentials: indice articolo](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md).
 * Visualizzare le informazioni del record nella scheda Dettagli
 * Visualizzare le connessioni ai record nella scheda Connessioni
 * Personalizzare il layout della pagina di un record
@@ -95,7 +97,7 @@ In Workfront Planning sono attualmente disponibili le seguenti funzionalità:
 * Condividi le visualizzazioni pubblicamente con qualsiasi risorsa esterna, anche con utenti che non sono utenti di Workfront
 * Visualizzazioni duplicate
 * Inviare richieste per creare record
-* Esporta dettagli record in Word <span class="preview">e PDF.</span>
+* Esporta i dettagli dei record in Word e PDF.
 * Aggiungere commenti ai record
 * Ricevere notifiche in-app
 * Ricevere notifiche e-mail
@@ -108,7 +110,8 @@ In Workfront Planning sono attualmente disponibili le seguenti funzionalità:
 * API pubblica di Workfront Planning
 * Moduli di Adobe Workfront Planning per Adobe Workfront Fusion
 * Assistente di Workfront Planning AI
-* Generazione di rapporti sulle informazioni di Workfront Planning (dashboard Area di lavoro)
+* Generazione di rapporti sulle informazioni di Workfront Planning
+È possibile creare rapporti sulle informazioni di Planning utilizzando il pannello di controllo Area di lavoro. Per informazioni, vedere [Panoramica dei dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
 <!--OLD: 
 
@@ -375,7 +378,7 @@ Per un elenco aggiornato delle funzionalità rilasciate, vedere [Attività di Ad
 
 ## Risorse aggiuntive per Workfront Planning
 
-* [Adobe Workfront Planning: indice articolo](/help/quicksilver/planning/planning-information.md): indice con tutti gli articoli che contengono la documentazione su Workfront Planning, raggruppati per area di interesse.
+* [Adobe Workfront Planning: indice articolo](/help/quicksilver/planning/planning-information.md): indice di tutti gli articoli che contengono la documentazione su Workfront Planning, raggruppati per area di interesse.
 * [Panoramica dell&#39;Assistente di Adobe Workfront Planning AI](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): con l&#39;Assistente di Workfront AI per Planning è possibile cercare record oppure creare, aggiornare ed eliminare record utilizzando i comandi e consentendo all&#39;assistente di eseguire il lavoro desiderato.
   <!--
     >[!NOTE]

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '2222'
+source-wordcount: '2248'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # Connetti tipi di record
 
-<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>-->
 
 {{planning-important-intro}}
 
@@ -41,7 +41,7 @@ Per un esempio di connessione di tipi di record e record, vedere [Esempio di con
 
 +++ Espandere per visualizzare i requisiti di accesso per Workfront Planning.
 
-Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -55,7 +55,12 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
    <p> Prodotti</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+   <li><p> Adobe Workfront Planning<p></li>
+   <li><p> Adobe Experience Manager Assets, se si desidera collegare le risorse AEM con i tipi di record Planning<p>
+   <p>Devi disporre di una licenza Adobe Experience Manager Assets e di un’integrazione tra AEM Assets e Workfront.
+    Per informazioni, vedere <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront per Experience Manager Assets e Assets Essentials: indice articolo</a>. </p>
+   </li>
+   </ul></td> 
   </tr>   
 <tr> 
    <td role="rowheader"><p>Piano Adobe Workfront*</p></td> 
@@ -185,7 +190,8 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
 
    * Un altro tipo di record dell&#39;area di lavoro corrente
 
-     <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
+     ![](assets/many-to-many-connection-picker.png)
+
      >[!TIP]
      >
      > 
@@ -194,7 +200,7 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
 
    * Tipo di record di un&#39;altra area di lavoro configurata per la connessione da altre aree di lavoro. Per informazioni, vedere [Modifica tipi di record](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-     <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
+     ![](assets/new-connection-allow-multiple-records-box.png)
 
      >[!TIP]
      >
@@ -207,7 +213,7 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
 
    * **Experience Manager Assets** dalla sezione **Adobe Applications**.
 
-     <span class="preview">![](assets/aem-assets-connection-selection.png)</span>
+     ![](assets/aem-assets-connection-selection.png)
 
 1. Aggiorna le seguenti informazioni:
 
@@ -222,7 +228,7 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
 
      Questa opzione è disponibile solo quando si collegano record di due aree di lavoro diverse o un record e un oggetto risorsa di Adobe Experience Manager.
 
-     <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
+     ![](assets/new-connection-allow-multiple-records-box.png)
 
    * **Tipo di connessione**: selezionare una delle opzioni seguenti per indicare il numero di record a cui è possibile connettersi e da cui connettersi:
 
@@ -233,7 +239,7 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
 
      Questa opzione è disponibile solo quando si connettono record dello stesso workspace o di un record e un tipo di oggetto Workfront.
 
-     <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
+     ![](assets/many-to-many-connection-picker.png)
 
      Per ulteriori informazioni sui tipi di connessione, vedere [Panoramica sui tipi di record connessi](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -262,9 +268,9 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
 
 1. (Condizionale) Se si è scelto di connettersi a Experience Manager Assets o a un tipo di record di Workfront Planning, selezionare una delle opzioni seguenti nell&#39;area **Aspetto record**:
 
-   * <span class="preview">**Nome e immagine**: nel campo del record connesso verranno visualizzati sia il nome che la miniatura o l&#39;icona dei record connessi. Questa è l&#39;opzione predefinita. </span>
-   * <span class="preview">**Nome**: nel campo del record connesso verrà visualizzato solo il nome dei record connessi.</span>
-   * <span class="preview">**Immagine**: nel campo del record connesso verrà visualizzata solo la miniatura o l&#39;icona dei record connessi.</span>
+   * **Nome e immagine**: nel campo del record connesso verranno visualizzati sia il nome che la miniatura o l&#39;icona dei record connessi. Questa è l&#39;opzione predefinita.
+   * **Nome**: nel campo del record connesso verrà visualizzato solo il nome dei record connessi.
+   * **Immagine**: nel campo del record connesso verrà visualizzata solo la miniatura o l&#39;icona dei record connessi.
 
    Per i record senza miniatura viene invece visualizzata l&#39;icona del tipo di record. Nell&#39;area **Aspetto del record** viene visualizzato un esempio di visualizzazione dei record connessi.
 
@@ -276,7 +282,7 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
    >
    >* La selezione dell&#39;aspetto di un record non è disponibile quando si selezionano i tipi di oggetto di Workfront.
    >
-   >* L&#39;opzione selezionata nell&#39;area Aspetto record determina la modalità di visualizzazione dei record nelle connessioni di tutto il sistema, incluse tutte le visualizzazioni e le pagine Dettagli.
+   >* L&#39;opzione selezionata nell&#39;area Aspetto record determina la modalità di visualizzazione dei record nelle connessioni di tutto il sistema, incluse tutte le visualizzazioni e le pagine dei dettagli.
 
 1. Fai clic su **Crea**.
 

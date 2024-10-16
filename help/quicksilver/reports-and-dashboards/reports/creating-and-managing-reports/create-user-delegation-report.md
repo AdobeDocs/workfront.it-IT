@@ -7,14 +7,16 @@ description: Creare un rapporto di delega utente
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '383'
 ht-degree: 1%
 
 ---
 
 # Creare un rapporto di delega utente
+
+<!--Audited: 10/2024-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider moving this to the Custom&nbsp;View, Filter, Grouping Samples section as an example of a report)</p>
@@ -39,6 +41,8 @@ Per ulteriori informazioni sulla delega delle approvazioni, vedere [Delegare la 
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
@@ -46,12 +50,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano </p> </td> 
+   <td> <p>Nuovo: Standard </p>
+   <p>Corrente: Piano </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
@@ -64,7 +69,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront.
++++
 
 ## Creare un rapporto di delega utente
 
@@ -79,14 +85,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    |---|---|
    | **Dall&#39;utente** | Questo è l’utente che delega le proprie approvazioni di attività, problemi e progetti a un altro utente. |
    | **All&#39;Utente** | Questo è l’utente al quale sono delegate le approvazioni di attività, problemi e progetti. |
-   | **Inizio** | Questo è l&#39;inizio del periodo di fuori sede per l&#39;utente che ha effettuato le deleghe. |
-   | **Fine** | Questo è il termine del tempo fuori sede per l&#39;utente che ha effettuato le deleghe. |
+   | **Data inizio** | Questo è l&#39;inizio del periodo di fuori sede per l&#39;utente che ha effettuato le deleghe. |
+   | **Data di fine** | Questo è il termine del tempo fuori sede per l&#39;utente che ha effettuato le deleghe. |
 
    {style="table-layout:auto"}
 
 1. (Facoltativo) Nel generatore di report, modifica quanto segue:
 
-   * Colonne
+   * Colonne (Visualizzazione)
    * Raggruppamenti
    * Filtri
    * Diagramma
@@ -94,7 +100,5 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    Per ulteriori informazioni su queste caratteristiche, vedere [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 1. Dopo aver completato la creazione del report, fai clic su **Salva + Chiudi**.
-
-1. Immetti un nuovo nome nel campo **Nome report**, quindi fai clic su **Salva report**.
 
    Viene visualizzato il rapporto.

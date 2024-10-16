@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '2073'
+source-wordcount: '2110'
 ht-degree: 0%
 
 ---
@@ -193,15 +193,22 @@ L&#39;abilitazione dell&#39;impostazione **[!UICONTROL Consenti agli utenti di d
 
 Quando questa impostazione è abilitata, gli utenti possono visualizzare quanto segue:
 
-* Il collegamento [!UICONTROL Delega] nell&#39;area [!UICONTROL Home]. Da qui possono delegare le approvazioni, o le assegnazioni di attività e problemi.
+* Il collegamento [!UICONTROL **Delega**] nei rispettivi widget [!UICONTROL Il mio lavoro], [!UICONTROL Le mie attività] o [!UICONTROL I miei problemi] nell&#39;area [!UICONTROL Home]. Da lì possono delegare le assegnazioni di attività e problemi.
+
+  >[!NOTE]
+  >
+  >  Il collegamento [!UICONTROL **Delegate approvals**] è sempre abilitato nell&#39;area [!UICONTROL Home].
+
 * Indica che un&#39;attività o un problema è delegato a un altro utente nell&#39;area [!UICONTROL Assegnazioni e deleghe] nell&#39;intestazione dell&#39;attività o del problema.
+* Indica che un&#39;attività o un problema è delegato a un altro utente nel widget [!UICONTROL Il mio lavoro] in [!UICONTROL Home].
 
   Se disattivi l&#39;impostazione [!UICONTROL Consenti agli utenti di delegare le loro attività e i loro problemi], le deleghe attualmente pianificate verranno interrotte e gli utenti delegati riceveranno una notifica e-mail di interruzione della delega.
 
 Per informazioni sulla delega del lavoro ad altri, vedere gli articoli seguenti:
 
 * [Panoramica sul lavoro dei delegati](../../../manage-work/delegate-work/delegate-work-overview.md)
-* [Gestire la delega di attività e problemi](../../../manage-work/delegate-work/how-to-delegate-work.md)
+* [Delega attività e problemi](../../../manage-work/delegate-work/how-to-delegate-work.md)
+
 
 <!--
 <p><strong>Work On It</strong></p>

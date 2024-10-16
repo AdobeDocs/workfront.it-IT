@@ -1,14 +1,14 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: Approvare una scheda orario
+title: Approva una scheda orario
 description: Il processo di approvazione delle schede orario fornisce ai responsabili visibilità sulle ore lavorative dei loro referenti diretti. Gli approvatori possono verificare che tutto il tempo registrato sia stato assegnato nelle aree corrette e che sia stato registrato un numero sufficiente di ore per il periodo.
 author: Alina
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -67,15 +67,20 @@ Per ulteriori informazioni sulla designazione degli approvatori della scheda ora
 
 ## Approvare una scheda orario
 
-Puoi approvare qualsiasi scheda orario inviata se sei stato designato come approvatore. Quando una scheda orario viene inviata per l&#39;approvazione, la scheda orario è elencata nell&#39;area **Approvazioni** della **Home** pagina. Per ulteriori informazioni, vedere [Approvazione del lavoro](../../review-and-approve-work/manage-approvals/approving-work.md).
+Puoi approvare qualsiasi scheda orario inviata se sei stato designato come approvatore. Quando una scheda orario viene inviata per l&#39;approvazione, la scheda orario è elencata nel widget **Approvazioni personali** nell&#39;area **Home**. Per ulteriori informazioni, vedere [Approvazione del lavoro](../../review-and-approve-work/manage-approvals/approving-work.md).
 
-Se l&#39;amministratore di Workfront ha attivato i gestori eventi Approvazione scheda orario e Rifiuto scheda orario per utente, l&#39;utente riceverà una notifica dopo l&#39;approvazione o il rifiuto della scheda orario. Per informazioni sull&#39;attivazione delle notifiche degli eventi, vedere [Tipi di notifica degli eventi](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Se sono attive le seguenti impostazioni di notifica, l’utente che invia la scheda orario per l’approvazione riceve un’e-mail dopo l’approvazione di una scheda orario:
 
-Per approvare una scheda orario:
+* L&#39;amministratore di Workfront ha abilitato i gestori eventi Approvazione scheda orario per utente e Rifiuto scheda orario per utente. Per informazioni sull&#39;attivazione delle notifiche degli eventi, vedere [Tipi di notifica degli eventi](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+* La notifica personale La mia scheda orario è approvata è abilitata nella pagina del profilo dell&#39;utente. Per ulteriori informazioni, vedere [Modificare le proprie notifiche e-mail](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+
+### Approvare una scheda orario dall&#39;area Schede orario
 
 {{step1-to-timesheets}}
 
 Verrà aperta l&#39;area **Schede orario**.
+
+1. (Condizionale) Se l&#39;ultimo accesso è avvenuto, fai clic su **Torna alle schede orario** nell&#39;angolo in alto a sinistra dello schermo.
 
 1. Seleziona **Le mie approvazioni schede orario** nell&#39;angolo superiore destro della pagina per visualizzare solo le schede orario che hai approvato
 
@@ -87,11 +92,9 @@ Verrà aperta l&#39;area **Schede orario**.
 
    >[!NOTE]
    >
-   >L&#39;opzione Approvazioni schede attività personali non viene visualizzata nella parte superiore dell&#39;elenco delle schede attività o nell&#39;elenco dei filtri se l&#39;amministratore di Workfront o un amministratore di gruppo ha rimosso il filtro Approvazioni schede attività personali dai controlli elenco nell&#39;area Configura o dal modello di layout. Per ulteriori informazioni, consulta i seguenti articoli:
+   >L&#39;opzione Approvazioni schede attività personali non viene visualizzata nella parte superiore dell&#39;elenco delle schede attività o nell&#39;elenco dei filtri se l&#39;amministratore di Workfront o un amministratore di gruppo ha rimosso il filtro Approvazioni schede attività personali dai controlli elenco nell&#39;area Configura o dal modello di layout.
    >
-   >   
-   >   
-   >   * [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >Per ulteriori informazioni, vedere [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >   
    >
 
@@ -112,3 +115,21 @@ Verrà aperta l&#39;area **Schede orario**.
    Se approvato, lo stato della scheda orario diventa **Chiuso**.
 
    Se viene rifiutato, lo stato della scheda orario diventa **Rifiutato**.
+
+### Approvare una scheda orario dalla sezione Home
+
+{{step1-to-home}}
+
+Viene visualizzata l’area Home.
+
+1. Verifica che il widget **Le mie approvazioni** sia stato aggiunto alla tua area Home. Per ulteriori informazioni, vedere [Aggiungere, modificare o rimuovere widget nella nuova home](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
+1. Trova un&#39;approvazione della scheda orario nel widget Le mie approvazioni.
+1. (Facoltativo) Espandi il menu a discesa a destra dei pulsanti Approva o Rifiuta per aggiungere un commento sulla tua decisione, quindi fai clic su **Aggiungi**.
+1. Fai clic su uno dei seguenti pulsanti per prendere la decisione relativa all’approvazione:
+
+   * Approvazione
+   * Rifiuta
+
+   L&#39;approvazione è stata rimossa dal widget **Approvazioni personali**.
+
+

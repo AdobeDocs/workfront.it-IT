@@ -7,9 +7,9 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 1%
 
 ---
@@ -105,7 +105,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    >[!TIP]
    >
-   > Se l’amministratore di Workfront o di gruppo ha abilitato le deleghe nell’ambiente, utilizza la scheda Assegnazioni per assegnare gli utenti all’attività o al problema. Utilizzare la scheda Deleghe per visualizzare gli utenti delegati all&#39;elemento di lavoro. Per informazioni sulla delega del lavoro, vedere [Gestire la delega di attività e problemi](../../manage-work/delegate-work/how-to-delegate-work.md).
+   > Se l’amministratore di Workfront o di gruppo ha abilitato le deleghe nell’ambiente, utilizza la scheda Assegnazioni per assegnare gli utenti all’attività o al problema. Utilizzare la scheda Deleghe per visualizzare gli utenti delegati all&#39;elemento di lavoro. Per informazioni sulla delega del lavoro, vedere [Delegare attività e problemi](../../manage-work/delegate-work/how-to-delegate-work.md).
 
 
    In questo modo l&#39;elemento di lavoro viene assegnato o riassegnato agli assegnatari specificati.

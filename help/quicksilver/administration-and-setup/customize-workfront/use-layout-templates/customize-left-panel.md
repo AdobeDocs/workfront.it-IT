@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1091'
 ht-degree: 0%
 
 ---
 
 # Personalizzare il pannello sinistro utilizzando un modello di layout
+
+<!--Audited: 10/2024-->
 
 In un modello di layout è possibile personalizzare gli elementi visualizzati dagli utenti nell&#39;area del pannello sinistro in [!DNL Adobe Workfront].
 
@@ -68,26 +70,19 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
 ## Personalizzare il pannello sinistro per un&#39;area in [!DNL Workfront]:
 
 1. Iniziare a lavorare su un modello di layout, come descritto in [Creare e gestire modelli di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Fare clic sulla freccia rivolta verso il basso ![](assets/dropdown-arrow.png) in **[!UICONTROL Personalizza gli elementi visualizzati dagli utenti]**, quindi fare clic sul pannello sinistro che si desidera personalizzare.
+1. Fare clic sulla freccia rivolta verso il basso ![](assets/dropdown-arrow.png) in **[!UICONTROL Personalizzare gli elementi visualizzati dagli utenti]**, quindi fare clic sul nome di un tipo di oggetto o di un&#39;area [!DNL Workfront] di cui si desidera personalizzare il pannello sinistro.
 
-   >[!NOTE]
-   >
-   >Per informazioni sull&#39;opzione [!UICONTROL Home] in questo elenco a discesa, vedere [Personalizzare [!UICONTROL Home] e [!UICONTROL Riepilogo] utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md). Per informazioni sull&#39;opzione Elenchi, vedere [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+   I tipi di oggetto e le aree [!DNL Workfront] di cui è possibile personalizzare il pannello sinistro sono elencati nella tabella seguente:
 
-1. Nell&#39;elenco **[!UICONTROL Pannello sinistro]** eseguire una delle operazioni seguenti per determinare gli elementi visualizzati dagli utenti nel pannello sinistro per l&#39;opzione ([!DNL Workfront] area o tipo di oggetto) selezionata:
-
-   * Mostra ![](assets/add-secondary-nav-item.png) o nascondi ![](assets/delete-secondary-nav-item.png) elementi. Impossibile nascondere qualsiasi elemento senza ![](assets/add-secondary-nav-item.png) o ![](assets/delete-secondary-nav-item.png).
-
-   * Trascinare gli elementi ![](assets/move-icon---dots.png) per modificarne l&#39;ordine nel pannello sinistro.
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <col> 
     <thead> 
      <tr> 
-      <th>Opzione</th> 
+      <th>Tipo di oggetto o area [!DNL Workfront]</th> 
       <th>Quando gli utenti fanno clic su quanto segue:</th> 
-      <th>Visualizzano gli elementi del pannello sinistro scelti tra i seguenti:</th> 
+      <th>Sezioni nel pannello sinistro visualizzate dagli utenti dopo che sono state visualizzate nel modello di layout:</th> 
      </tr> 
     </thead> 
     <tbody> 
@@ -206,24 +201,38 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
 
    *La società deve acquistare una licenza aggiuntiva per Workfront Planning per poter aggiungere quest&#39;area al pannello sinistro di progetti, portfolio e programmi. Per ulteriori informazioni, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
 
+
+1. Nell&#39;elenco **[!UICONTROL Pannello sinistro]**, eseguire una delle operazioni seguenti per determinare gli elementi visualizzati dagli utenti nel pannello sinistro per l&#39;area [!DNL Workfront] o il tipo di oggetto selezionato:
+
+   * Fai clic sulle icone **Mostra** ![](assets/add-secondary-nav-item.png) o **Nascondi** ![](assets/delete-secondary-nav-item.png) per visualizzare o nascondere le sezioni nel pannello a sinistra. Non puoi nascondere elementi che non hanno un&#39;icona **Mostra** o **Nascondi**.
+
+   * Trascinare gli elementi ![](assets/move-icon---dots.png) per modificarne l&#39;ordine nel pannello sinistro.
+
    >[!NOTE]
    >
-   >Gli ultimi 3 elementi dell&#39;elenco a discesa **[!UICONTROL Personalizza gli elementi visualizzati dagli utenti]** ([!UICONTROL Elenchi], [!UICONTROL Home e Riepilogo] e [!UICONTROL Branding]) sono destinati alla configurazione di aree diverse dal pannello sinistro. Per informazioni su di essi, consulta i seguenti articoli:
+   >I seguenti elementi nell&#39;elenco a discesa **[!UICONTROL Personalizza gli elementi visualizzati dagli utenti]** fanno riferimento ad aree diverse dal pannello sinistro:
+   >* [!UICONTROL Elenchi]
+   >* [!UICONTROL Pannello di riepilogo]
+   >* [!UICONTROL Home]
+   >* [!UICONTROL Marchio]
+   > 
+   >Per informazioni su come personalizzare le aree aggiuntive, vedere gli articoli seguenti:
    >
    >* [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >* [Personalizza [!UICONTROL Home] e [!UICONTROL Riepilogo] utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   >* [Personalizza il [!UICONTROL pannello di riepilogo] utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   >* [Personalizza la Home usando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
    >* [Adobe marchio [!DNL Workfront] utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
 1. (Facoltativo) Se desideri aggiungere un elemento del pannello sinistro collegato a uno dei dashboard dell&#39;organizzazione, fai clic su **[!UICONTROL Aggiungi sezione personalizzata]**, digita un **[!UICONTROL Titolo sezione personalizzata]** per l&#39;elemento, quindi aggiungi il dashboard.
 
-   Gli elementi del dashboard vengono visualizzati nella parte inferiore del pannello sinistro. Gli utenti visualizzano il titolo della sezione Personalizzata digitato accanto all’elemento del dashboard quando passano il puntatore del mouse sul pannello sinistro.
+   Gli elementi del dashboard vengono visualizzati nella parte inferiore del pannello sinistro. Gli utenti visualizzano il titolo della sezione Personalizzata digitato accanto all’elemento del dashboard quando lo passano con il mouse sul pannello sinistro.
 
    >[!NOTE]
    >
-   >Gli utenti possono aggiungere elementi del dashboard personalizzati al proprio pannello sinistro. Quando si aggiungono elementi del dashboard personalizzati in un modello di layout, gli elementi vengono uniti ai relativi senza sovrascriverli o reimpostarli. Ciò si verifica anche se si assegnano gli utenti a un nuovo modello di layout con elementi del dashboard personalizzati. Per informazioni su come personalizzare il pannello sinistro, vedere [Creare schede o sezioni personalizzate](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
-
-   Per informazioni sulle dashboard, vedere [Dashboard](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
+   >Gli utenti possono aggiungere elementi del dashboard personalizzati al proprio pannello sinistro. Quando si aggiungono elementi del dashboard personalizzati in un modello di layout, gli elementi vengono visualizzati in aggiunta a quelli aggiunti, senza sovrascriverli o reimpostarli. Ciò si verifica anche se si assegnano gli utenti a un nuovo modello di layout con elementi del dashboard personalizzati. Per informazioni su come personalizzare il pannello sinistro, vedere [Creare schede o sezioni personalizzate](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
+   >
+   >Per informazioni sulle dashboard, vedere [Dashboard](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
 1. Continuate a personalizzare il modello di layout.
 
@@ -233,4 +242,4 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
 
    >[!TIP]
    >
-   >Puoi fare clic su [!UICONTROL Salva] in qualsiasi momento per salvare l&#39;avanzamento, quindi continuare a modificare il modello in un secondo momento.
+   >Puoi fare clic su [!UICONTROL **Salva**] in qualsiasi momento per salvare l&#39;avanzamento, chiudendo l&#39;editor dei modelli di layout e continuando a modificare il modello in un secondo momento.

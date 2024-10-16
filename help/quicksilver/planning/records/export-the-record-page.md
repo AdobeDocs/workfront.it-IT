@@ -6,20 +6,20 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '480'
 ht-degree: 1%
 
 ---
 
 # Esportare i dettagli di un record
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente di anteprima per tutti i clienti oppure nell&#39;ambiente di produzione per i clienti che hanno abilitato le versioni rapide.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">Per informazioni sulle versioni rapide, vedi [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Per informazioni sulla versione corrente, consulta [Panoramica sulla versione del quarto trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>-->
 
 
 Per collaborare in modo più efficiente con altri utenti che potrebbero non disporre di un account Workfront, è possibile esportare i dettagli di un record in un file e condividerlo con loro.
@@ -28,7 +28,7 @@ Per collaborare in modo più efficiente con altri utenti che potrebbero non disp
 
 +++ Espandere per visualizzare i requisiti di accesso per Workfront Planning.
 
-Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -156,7 +156,7 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
 * È possibile esportare i dettagli di un record nei seguenti formati di file:
 
    * .docx Word
-   * <span class="preview">.pdf</span>
+   * .pdf
 
 * È possibile esportare la scheda Dettagli della pagina di un record. Non è possibile esportare la scheda Connessioni.
 
@@ -184,9 +184,9 @@ Viene visualizzata la pagina del tipo di record e vengono visualizzati tutti i r
 1. Fai clic sull&#39;icona **Esporta** ![](assets/export-icon-in-record-details-page.png) nell&#39;anteprima o nella pagina del record, quindi fai clic su una delle seguenti opzioni:
 
    * **Microsoft Word**
-   * <span class="preview">**Adobe PDF**</span>
+   * **Adobe PDF**
 
-   Un file Word (.docx) <span class="preview">o PDF</span> viene scaricato e salvato nel computer.
+   Un file Word (.docx) o PDF viene scaricato e salvato nel computer.
 
    Il nome del file esportato è il campo Principale del record.
 
@@ -194,7 +194,7 @@ Viene visualizzata la pagina del tipo di record e vengono visualizzati tutti i r
 
    >[!NOTE]
    >
-   >    Le informazioni aggiuntive non visualizzate nella pagina e visibili solo dopo aver fatto clic su Mostra altro nella scheda Dettagli non vengono visualizzate nel file PDF esportato. Nel file esportato vengono visualizzate solo le informazioni visibili nella pagina.
+   >    Le informazioni aggiuntive non visualizzate nella pagina e visibili solo dopo aver fatto clic su Mostra altro nell&#39;area dei dettagli del record non vengono visualizzate nel file PDF esportato. Nel file esportato vengono visualizzate solo le informazioni visibili nella pagina.
 
 
 1. (Facoltativo) Vai al file scaricato, aprilo e modificalo (se è un file di Word), o condividilo con altri.

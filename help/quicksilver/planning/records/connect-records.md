@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '2713'
+source-wordcount: '2793'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ Per un esempio di connessione dei tipi di record, vedere [Esempio di connessione
 
 +++ Espandere per visualizzare i requisiti di accesso per Workfront Planning.
 
-Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -70,7 +70,12 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
    <p> Prodotti</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+   <li><p> Adobe Workfront Planning<p></li>
+   <li><p>Adobe Experience Manager Assets, se si desidera collegare le risorse AEM ai record Planning<p>
+   <p>Devi disporre di una licenza Adobe Experience Manager Assets e di un’integrazione tra AEM Assets e Workfront.
+    Per informazioni, vedere <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront per Experience Manager Assets e Assets Essentials: indice articolo</a>. </p>
+   </li>  
+   </ul></td> 
   </tr>   
 <tr> 
    <td role="rowheader"><p>Piano Adobe Workfront*</p></td> 
@@ -146,7 +151,7 @@ Per collegare i record ad altri record o oggetti, è necessario disporre dei seg
 * L&#39;anteprima o la pagina del record nei campi del record collegato nella scheda Dettagli.
 * L&#39;anteprima o la pagina del record nella scheda Connessioni.
 
-### Collegare i record di Adobe Workfront Planning dalla vista tabella o dalla scheda Dettagli della pagina record
+### Collegare i record di Adobe Workfront Planning dalla vista tabella o dall&#39;area Dettagli
 
 {{step1-to-planning}}
 
@@ -164,6 +169,11 @@ Per collegare i record ad altri record o oggetti, è necessario disporre dei seg
 
    * Fare clic sul nome di un record connesso nell&#39;elenco per aggiungerlo al record selezionato. Il record viene aggiunto automaticamente.
    * Iniziare a digitare il nome di un record e fare clic su di esso quando viene visualizzato nell&#39;elenco. Il record viene aggiunto automaticamente.
+
+   >[!TIP]
+   >
+   >    Se al momento della connessione dei tipi di record è stata selezionata solo l&#39;immagine del record, nel campo connesso verrà visualizzata solo la miniatura o l&#39;icona del record. Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
+
 
 1. (Facoltativo) Se non è possibile trovare un record o un oggetto da connettere e si desidera aggiungerlo, fare clic su **+ Aggiungi** per aggiungere un nuovo record. Per ulteriori informazioni, vedere la sezione &quot;Creare record durante la connessione&quot; nell&#39;articolo [Creare record](/help/quicksilver/planning/records/create-records.md).
 
