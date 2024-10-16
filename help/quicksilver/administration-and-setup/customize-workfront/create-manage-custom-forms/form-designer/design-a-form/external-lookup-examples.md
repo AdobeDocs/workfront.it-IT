@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: bcc0054f761101ac19d1ced241329fce95be4e99
+source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1314'
 ht-degree: 0%
 
 ---
@@ -35,10 +35,10 @@ Questo esempio mostra come chiamare l’API Workfront e inserire i dati dal camp
 1. Nella parte sinistra dello schermo, trovare **Ricerca esterna** e trascinarlo in una sezione dell&#39;area di lavoro.
 1. Immetti l&#39;**etichetta** e il **nome** per il campo.
 1. Seleziona il **Formato** per il campo.
-1. Immetti la chiamata URL API nel campo **URL API di base**.
+1. Immetti la chiamata API nel campo **URL API di base**.
 
-   * È possibile aggiungere $$HOST per fare riferimento alla stessa istanza.
-   * È possibile aggiungere $$QUERY per filtrare i risultati in base all&#39;esecuzione di query in un campo diverso.
+   * Per fare riferimento alla stessa istanza di Workfront in cui si trova il modulo personalizzato, utilizza $$HOST per l’URL.
+   * Per filtrare i risultati in base all&#39;esecuzione di query su un campo diverso, aggiungere $$QUERY.
 
    **Esempio**
    `$$HOST/attask/api/v15.0/project/search?status={DE:StatusQuery}&$$QUERY`

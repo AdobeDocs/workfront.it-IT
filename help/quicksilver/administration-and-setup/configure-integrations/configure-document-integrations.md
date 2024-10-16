@@ -8,7 +8,7 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
 workflow-type: tm+mt
 source-wordcount: '1087'
 ht-degree: 1%
@@ -144,7 +144,7 @@ Dopo aver creato l&#39;integrazione del documento personalizzato, è possibile r
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL URL API di base] </td> 
-      <td>L’URL HTTP di base o sicuro per le chiamate API. Ad esempio: <code>https://documentprovider.com/api/v2</code></td> 
+      <td>L’URL HTTP di base o sicuro per le chiamate API. Ad esempio: <code>https://&lt;documentprovider&gt;.com/api/v2</code></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Authentication Type]</td> 

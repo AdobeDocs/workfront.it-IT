@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 70cbeaa132127d1fc879b04fb6b5eb339945ff78
+source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
 workflow-type: tm+mt
-source-wordcount: '4395'
+source-wordcount: '4419'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,11 @@ A ogni oggetto nel sistema viene assegnato un URI univoco costituito dal tipo di
 
 Il tipo di oggetto non distingue tra maiuscole e minuscole e può essere l&#39;abbreviazione ObjCode (ad esempio proj) o il nome dell&#39;oggetto alternativo (project).
 
-Per un elenco dei ObjCodes validi, vedi  [API Explorer](../../wf-api/general/api-explorer.md).
+Per un elenco di oggetti, ObjCodes validi e campi oggetto, vedi  [API Explorer](../../wf-api/general/api-explorer.md).
+
+>[!NOTE]
+>
+>Nel contesto dell&#39;API di Workfront, un modulo personalizzato è un oggetto `Category` e un campo personalizzato è un oggetto `Parameter`.
 
 ### Operazioni
 
