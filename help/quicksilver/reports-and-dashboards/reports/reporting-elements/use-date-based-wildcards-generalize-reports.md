@@ -6,9 +6,9 @@ description: È possibile generalizzare un rapporto utilizzando caratteri jolly 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '687'
 ht-degree: 1%
 
 ---
@@ -68,7 +68,6 @@ Per inserire un carattere jolly basato sulla data in un report:
 
 1. Passare a un report per il quale si desidera inserire un carattere jolly basato sulla data.
 1. Fai clic su **Azioni report**, quindi su **Modifica**.
-
 1. Fare clic sulla scheda **Filtri**.
 1. Fai clic su **Aggiungi una regola filtro**.
 1. Inizia a digitare il nome del campo in base al quale desideri filtrare.\
@@ -79,7 +78,7 @@ Per inserire un carattere jolly basato sulla data in un report:
    >
    >È sempre necessario selezionare la variabile di filtro **Equal** quando si utilizzano i caratteri jolly in Adobe Workfront.
 
-1. Nella casella **Inizia a digitare il nome ...** digitare: `$$TODAY` se si desidera visualizzare informazioni su un evento che si verifica nello stesso giorno in cui viene eseguito il report.
+1. Fare clic sull&#39;interruttore **Imposta data relativa**, quindi nella casella di testo visualizzata digitare: `$$TODAY` se si desidera visualizzare informazioni su un evento che si verifica nello stesso giorno in cui viene eseguito il report.
 
    Oppure
 
@@ -91,8 +90,6 @@ Per inserire un carattere jolly basato sulla data in un report:
 1. (Facoltativo) Se si desidera visualizzare informazioni su un evento che si è verificato in un intervallo di tempo precedente alla data di esecuzione del report, digitare `$$TODAY-1w` per visualizzare le informazioni della settimana precedente oppure `$$TODAY-2m` per visualizzare le informazioni dei due mesi precedenti. È inoltre possibile indicare gli intervalli di tempo per trimestri, ore, giorni o anni.
 
    Per un elenco completo degli attributi, dei qualificatori e degli operatori che è possibile utilizzare nei caratteri jolly basati sulla data, vedere l&#39;articolo [Panoramica delle variabili di filtro con caratteri jolly](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
-
-   ![](assets/video-date-based-wildcard-in-task-filter-350x81.png)
 
 1. Fai clic su **Salva e Chiudi**.
 

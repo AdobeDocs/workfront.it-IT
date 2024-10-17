@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '567'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,18 @@ ht-degree: 0%
 Questa pagina descrive tutti i miglioramenti per gli amministratori apportati con la versione del quarto trimestre 2024 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio del quarto trimestre 2024, consulta [Panoramica sulla versione del quarto trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
+
+## Il livello di accesso è ora disponibile nella promozione dell’ambiente
+
+>[!NOTE]
+>
+>Versione di anteprima: 17 ottobre 2024; versione di produzione per tutti i clienti: con la versione 24.10 (17 ottobre 2024)
+
+Per espandere le funzionalità di promozione dell’ambiente, è stata aggiunta la possibilità di includere i livelli di accesso. Ora è possibile configurare un livello di accesso in un ambiente Sandbox e quindi promuovere tale livello di accesso all’ambiente di produzione.
+
+In precedenza, i livelli di accesso non erano disponibili per la promozione dell’ambiente.
+
+Per ulteriori informazioni sugli oggetti disponibili per la promozione dell&#39;ambiente, vedere [Oggetti supportati per la promozione dell&#39;ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) nell&#39;articolo Panoramica sulla promozione dell&#39;ambiente.
 
 ## Un contatore nei moduli personalizzati mostra il numero di campi
 

@@ -6,9 +6,9 @@ description: Quando condividi i tuoi rapporti con altri utenti in Adobe Workfron
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1218'
 ht-degree: 3%
 
 ---
@@ -139,7 +139,7 @@ Per informazioni sulla creazione di un report, vedere [Creare un report](../../.
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Colore testo</strong></td> 
-      <td> <p>Selezionare il colore di visualizzazione del testo. Sono disponibili 8 colori.</p> <p><b>NOTA</b></p> <p> Se il campo contiene un collegamento ipertestuale, le selezioni del colore del testo non vengono applicate al campo.</p> </td> 
+      <td> <p>Selezionare il colore in cui il testo viene visualizzato utilizzando il selettore colore.</p> <p><b>NOTA</b></p> <p> Se il campo contiene un collegamento ipertestuale, le selezioni del colore del testo non vengono applicate al campo.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Formato testo</strong></td> 
@@ -151,7 +151,7 @@ Per informazioni sulla creazione di un report, vedere [Creare un report](../../.
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Informazioni di base</strong></td> 
-      <td>Selezionare il colore dello sfondo per il testo. Sono disponibili 8 colori.</td> 
+      <td>Selezionare il colore dello sfondo per il testo utilizzando il selettore colore.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Mostra icona</strong></td> 
@@ -189,6 +189,6 @@ Per informazioni sulla creazione di un report, vedere [Creare un report](../../.
    * Aggiungi nuovamente la regola di colonna per lo sfondo rosso nei progetti in ritardo.
    * Quando salvi le regole e la visualizzazione, lo sfondo rosso non viene applicato a un progetto annullato.
 
-1. Fai clic su **Fine**.
+1. Fai clic su **Salva**.
 1. Fai clic su **Salva e Chiudi**.\
    Nel report, gli utenti visualizzano le modifiche al formato se sono state soddisfatte le condizioni specificate.

@@ -6,7 +6,7 @@ description: È possibile limitare la quantità di informazioni visualizzate sul
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
 source-wordcount: '2461'
 ht-degree: 1%
@@ -399,7 +399,7 @@ Indipendentemente dal metodo utilizzato per creare i filtri, la creazione di un 
      >
      >Quando si connette un gruppo di istruzioni AND da più istruzioni OR, è necessario ripetere i campi che non cambiano tra le istruzioni OR per ogni gruppo di istruzioni.
      >
-     >![Istruzioni filtro collegate](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-2022.png)
+     >![Istruzioni filtro collegate](assets/filters-and-statements-connected-by-or-statements-builder-ui-legacy-filters.png)
      >
      >Quando si crea un filtro per i task che contengono la parola &quot;marketing&quot; e si trovano in progetti con lo stato Attuale o Pianificazione, è necessario disporre delle seguenti regole di filtro:
      >

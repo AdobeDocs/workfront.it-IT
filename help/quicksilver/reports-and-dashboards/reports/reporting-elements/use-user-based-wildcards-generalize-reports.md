@@ -6,7 +6,7 @@ description: È possibile generalizzare un rapporto utilizzando caratteri jolly 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 216e2869-b4f8-4cc7-9497-a12ebe00fe49
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 1%
@@ -78,8 +78,6 @@ Per inserire un carattere jolly basato sull&#39;utente in un report:
 1. Nella casella **Inizia a digitare il nome ...** digitare: `$$USER.ID` o `$$USER.name` se si desidera che nel report vengano visualizzate le informazioni relative all&#39;utente che effettua l&#39;accesso, in base al nome. È possibile inserire altri caratteri jolly che fanno riferimento al gruppo, al team, alla società o ad altre informazioni dell&#39;utente connesso.
 
    Per un elenco completo dei caratteri jolly basati sull&#39;utente, vedere [Panoramica sulle variabili dei filtri con caratteri jolly](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
-
-   ![](assets/user-based-wildcard-in-project-filter-350x74.png)
 
 1. Fai clic su **Salva e Chiudi**.
 

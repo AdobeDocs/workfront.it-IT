@@ -6,9 +6,9 @@ description: "NOTA: aggiungi una sezione in questo articolo: /Content/Reports an
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '482'
 ht-degree: 1%
 
 ---
@@ -97,13 +97,11 @@ Per informazioni sulla creazione di un report, vedere [Creare un report personal
    >
    >Per modificare una vista utilizzando la modalità testo, è necessario modificare una colonna alla volta.
 
-1. Fare clic su **Passa alla modalità testo** nell&#39;angolo superiore destro del generatore.
+1. Fai clic su **Passa alla modalità testo** nell&#39;angolo superiore destro del generatore, quindi fai clic su **Modifica modalità testo**.
 
    >[!NOTE]
    >
    >Quando si modifica una colonna in modalità testo, Workfront aggiunge la riga di codice `textmode=true` alla colonna. Indica che la colonna è stata modificata in modalità testo.
-
-   ![](assets/switch-to-text-mode-in-view-nwe-highlighted-350x447.png)
 
    La tabella seguente illustra le linee chiave in una vista in modalità testo:
 

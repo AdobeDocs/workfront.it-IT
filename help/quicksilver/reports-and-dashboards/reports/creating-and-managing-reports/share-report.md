@@ -6,9 +6,9 @@ description: L’amministratore di Adobe Workfront consente agli utenti di visua
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ La condivisione di uno o più report da un elenco è identica.
 
      >[!NOTE]
      >
-     >Se il report presenta una richiesta e la condividi pubblicamente, gli utenti che eseguono il report devono aver effettuato l’accesso a Workfront per poter eseguire il report utilizzando la richiesta. Se non è possibile accedere a Workfront, il report verrà visualizzato senza il prompt applicato. Per ulteriori informazioni sulle limitazioni della condivisione di report con i prompt, vedere la sezione [Limitazioni della condivisione dei report richiesti](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) nell&#39;articolo [Aggiungere un prompt a un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+     >Se il report include una richiesta e viene condiviso pubblicamente, gli utenti che eseguono il report tramite il collegamento di condivisione pubblico non potranno eseguire il report utilizzando la richiesta. Il report verrà visualizzato senza che sia stato applicato il prompt, a meno che non accedano a Workfront e non accedano al report senza utilizzare il collegamento di condivisione pubblica. Per ulteriori informazioni sulle limitazioni della condivisione di report con i prompt, vedere la sezione [Limitazioni della condivisione dei report richiesti](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) nell&#39;articolo [Aggiungere un prompt a un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
    * **Rendi visibile a livello di sistema:** Seleziona questa opzione per consentire a tutti gli utenti di Workfront con accesso ai report di visualizzare il report.
 

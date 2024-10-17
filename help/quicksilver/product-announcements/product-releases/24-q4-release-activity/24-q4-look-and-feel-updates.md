@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 2d5cfabe17e4bc0f82c412e9144488160f13c717
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '1075'
 ht-degree: 0%
 
 ---
@@ -18,33 +18,51 @@ Questa pagina descrive piccoli aggiornamenti all’aspetto di varie aree dell’
 
 Per un elenco di tutte le modifiche disponibili con la versione del quarto trimestre 2024, consulta [Panoramica sulla versione del quarto trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
-## Aggiornamenti look-and-feel delle dashboard
-
->[!NOTE]
->
->Versione di anteprima: 15 ottobre; versione di produzione per tutti i clienti: con la versione 24.10 (17 ottobre 2024)
-
-Sono stati apportati diversi aggiornamenti all’interfaccia delle dashboard per adeguarla al design di altre aree di Workfront, tra cui miglioramenti alla schermata di anteprima di stampa durante la stampa di una dashboard.
-
-Per ulteriori informazioni sulle dashboard, vedere [Creare e gestire le dashboard](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md). Per ulteriori informazioni sui calendari, vedere [Panoramica sui report calendario](/help/quicksilver/reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
-
 ## Aggiornamenti look and feel per i rapporti
 
 >[!NOTE]
 >
->Versione di anteprima: a partire dal 12 settembre 2024; versione di produzione per tutti i clienti: diversa, tutti gli aggiornamenti saranno disponibili entro l’8 novembre 2024
+>Versione di produzione per tutti i clienti: a partire dalla versione 24.10 (17 ottobre 2024), disponibilità completa entro l’8 novembre 2024
 
-Sono stati apportati diversi aggiornamenti all’interfaccia dei rapporti per rispecchiare la progettazione di altre aree di Workfront. Questi aggiornamenti includono alcune modifiche aggiuntive a varie funzioni di reporting, tra cui:
+Sono stati apportati diversi aggiornamenti all’interfaccia di report per adeguarla al design di altre aree di Workfront. Questi aggiornamenti includono alcune modifiche aggiuntive a varie funzioni di reporting, tra cui:
 
-* Nuovo pulsante per passare alla modalità testo quando si modifica una colonna di un report
-* Piccole modifiche alla funzione dei caratteri jolly e delle scelte rapide da tastiera per data relativa
-* Le regole condizionali non richiedono più di fare clic su un pulsante &quot;Fine&quot; per essere create
-* Palette di colori espansa per le regole di formattazione condizionale nei report
-* Modifiche ai rapporti esistenti che ne migliorano l’utilizzo nei dashboard di Canvas
+* È stata aggiunta una palette di colori espansa per le regole di formattazione condizionale nei rapporti. Per ulteriori informazioni sulla formattazione condizionale, vedere [Utilizzare la formattazione condizionale nelle visualizzazioni](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+* È stato aggiunto un nuovo pulsante &quot;Modifica modalità testo&quot; per entrare in modalità testo quando si modifica una colonna nel generatore di rapporti. Per ulteriori informazioni sulla modifica delle visualizzazioni report in modalità testo, vedere [Modificare una visualizzazione utilizzando la modalità testo](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+* È stato aggiunto un nuovo interruttore all’interfaccia filtro dei rapporti per passare da un selettore di data calendario a un campo di testo con caratteri jolly per data relativa quando si filtra in base a un campo data. Inoltre, la selezione di un collegamento con caratteri jolly relativi per la data nell’interfaccia del filtro dei rapporti ora popola automaticamente i campi jolly associati in base alla selezione. Per ulteriori informazioni sull&#39;utilizzo dei caratteri jolly relativi nei filtri dei report, vedere [Utilizzare caratteri jolly basati sulla data per generalizzare i report](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
+* I caratteri jolly basati sugli utenti nei filtri dei rapporti ora suggeriscono caratteri jolly pertinenti per il completamento automatico in base al tipo di campo selezionato. Per ulteriori informazioni sui caratteri jolly basati sugli utenti nei filtri dei report, vedere [Utilizzare caratteri jolly basati sugli utenti per generalizzare i report](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
+* I report con prompt condivisi pubblicamente verranno ora visualizzati senza prompt applicati a tutti gli utenti che vi accedono tramite il collegamento di condivisione pubblica. Gli utenti connessi che accedono direttamente al rapporto potranno comunque applicare le richieste. Per informazioni sui prompt dei report, vedere [Aggiungere un prompt a un report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+* Modifiche ai rapporti esistenti che ne migliorano la compatibilità con le dashboard di Canvas.
 
-Questi aggiornamenti vengono implementati singolarmente in anteprima e produzione a partire dal 12 settembre 2024. Tutti gli aggiornamenti saranno completamente implementati in produzione per tutti i clienti entro l’8 novembre 2024.
+_Questi aggiornamenti vengono implementati in modo incrementale in produzione a partire dalla versione 24.10 del 17 ottobre 2024. Le modifiche saranno disponibili inizialmente solo per un numero limitato di clienti, diventando sempre più disponibili nel tempo fino a quando non saranno completamente disponibili per tutti i clienti entro l&#39;8 novembre 2024._
 
-Per ulteriori informazioni sui report in Workfront, vedere [Introduzione ai report](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
+## Aggiornamenti look-and-feel delle dashboard
+
+>[!NOTE]
+>
+>Versione di produzione per tutti i clienti: a partire dalla versione 24.10 (17 ottobre 2024), disponibilità completa entro l’8 novembre 2024
+
+Sono stati apportati diversi aggiornamenti all’interfaccia delle dashboard per adeguarla al design di altre aree di Workfront. Questi aggiornamenti includono alcune modifiche aggiuntive a varie funzioni del dashboard, tra cui:
+
+* È stata migliorata la schermata di anteprima di stampa durante la stampa di un dashboard. Per informazioni sulla stampa di un dashboard, vedere []
+
+Per informazioni generali sulle dashboard, vedere [Creare e gestire le dashboard](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md).
+
+_Questi aggiornamenti vengono implementati in modo incrementale in produzione a partire dalla versione 24.10 del 17 ottobre 2024. Le modifiche saranno disponibili inizialmente solo per un numero limitato di clienti, diventando sempre più disponibili nel tempo fino a quando non saranno completamente disponibili per tutti i clienti entro l&#39;8 novembre 2024._
+
+## Aggiornamenti look-and-feel di filtri e viste
+
+>[!NOTE]
+>
+>Versione di produzione per tutti i clienti: a partire dalla versione 24.10 (17 ottobre 2024), disponibilità completa entro l’8 novembre 2024
+
+Abbiamo apportato una serie di aggiornamenti alle interfacce Filtri e Viste per uniformarle al design di altre aree di Workfront. Questi aggiornamenti includono alcune modifiche aggiuntive alle viste e all’interfaccia dei filtri legacy, tra cui:
+
+* È stata aggiunta una palette di colori espansa per le regole di formattazione condizionale nei rapporti. Per ulteriori informazioni sulla formattazione condizionale, vedere [Utilizzare la formattazione condizionale nelle visualizzazioni](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+* È stato aggiunto un nuovo pulsante &quot;Modifica modalità testo&quot; per entrare in modalità testo quando si modifica una colonna durante la creazione di una nuova vista. Per ulteriori informazioni sulla modifica delle visualizzazioni in modalità testo, vedere [Modificare una visualizzazione utilizzando la modalità testo](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md).
+* È stato aggiunto un nuovo interruttore all’interfaccia dei filtri legacy per passare da un selettore di data calendario a un campo di testo con caratteri jolly per data relativa quando si filtra in base a un campo data. Inoltre, la selezione di un collegamento con caratteri jolly relativi per la data nell’interfaccia del filtro dei rapporti ora popola automaticamente i campi jolly associati in base alla selezione.
+* I caratteri jolly basati sull’utente nei filtri legacy ora suggeriscono caratteri jolly pertinenti per il completamento automatico in base al tipo di campo selezionato. Per ulteriori informazioni sull&#39;utilizzo dei filtri legacy, vedere [Creare o modificare filtri in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+
+_Questi aggiornamenti vengono implementati in modo incrementale in produzione a partire dalla versione 24.10 del 17 ottobre 2024. Le modifiche saranno disponibili inizialmente solo per un numero limitato di clienti, diventando sempre più disponibili nel tempo fino a quando non saranno completamente disponibili per tutti i clienti entro l&#39;8 novembre 2024._
 
 ## Pagina Aggiornamenti look-and-feel per le preferenze di sistema
 

@@ -6,9 +6,9 @@ description: Puoi esportare i dati di Adobe Workfront da vari elenchi, report, d
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '2164'
+source-wordcount: '2255'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,6 @@ Esistono diverse limitazioni relative al modo in cui i rapporti vengono visualiz
   >L’esportazione di un rapporto che include un riferimento a una raccolta all’interno di una colonna può causare un errore, anche se il rapporto si trova entro i limiti di esportazione elencati. Se la raccolta a cui si fa riferimento è troppo grande, il processo di esportazione va in timeout e successivamente genera un errore.
   >
   >Per evitare questo errore, escludi le colonne che fanno riferimento a raccolte di grandi dimensioni o riduci le dimensioni delle raccolte a cui si fa riferimento prima dell’esportazione.
-  >
 
   Se il report contiene più elementi di questi limiti, viene visualizzato un messaggio di errore che indica che l&#39;esportazione non ha esito positivo. Riduci il numero di elementi visualizzati sullo schermo a un numero minore o uguale a questi limiti per poter esportare i risultati.
 
@@ -151,6 +150,14 @@ Esistono diverse limitazioni relative al modo in cui i rapporti vengono visualiz
 * **Dimensione file 10 MB:** Limite dimensione file per qualsiasi report esportato pianificato per la consegna. Se un file esportato allegato a un messaggio e-mail supera i 5 MB, viene inviato un collegamento tramite e-mail in cui è possibile scaricare il file, anziché il report esportato allegato.
 * **65.530 collegamenti ipertestuali:** Si tratta di un limite imposto da Excel ai documenti che contengono più di 65.530 collegamenti ipertestuali. Non è possibile aprire questi documenti quando vengono esportati manualmente o inviati in un report consegnato. Si noti che un documento di Excel può contenere solo 200 righe di dati, ma se il documento contiene più di 65.530 collegamenti, il documento non si apre. Questo limite esiste solo per i file Excel e non per gli altri formati supportati. 
 * **256 colonne**: limite imposto da Excel ai documenti contenenti più di 256 colonne. Questi documenti non possono essere esportati manualmente o inviati in un report consegnato. Questo limite esiste solo per i file Excel e non per gli altri formati supportati.
+
+  >[!IMPORTANT]
+  >
+  >L’esportazione di un rapporto che include una colonna Rapporti può causare un errore anche se il rapporto si trova entro i limiti di esportazione elencati.
+  >
+  >Se utilizzi la funzione di esportazione per condividere con altri utenti un rapporto contenente una colonna Rapporti, puoi condividere il rapporto rendendolo pubblico. Per ulteriori informazioni su come rendere pubblico un report, vedere [Condividere un report in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
+  >
+  >Se utilizzi la funzione di esportazione per valutare i dati esternamente, ti consigliamo invece di utilizzare Workfront Data Connect. Per ulteriori informazioni, vedere [Panoramica di Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
 Se tenti di esportare dati oltre il limite, potresti non ricevere tutti i dati previsti nell’esportazione. Piuttosto, un rapporto modificato viene prodotto entro il limite.
 

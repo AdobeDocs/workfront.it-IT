@@ -6,9 +6,9 @@ description: I filtri e i prompt sono simili in quanto limitano la quantità di 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: '1301'
 ht-degree: 0%
 
 ---
@@ -75,11 +75,11 @@ Per istruzioni sulla creazione di un report, vedere [Creare un report](../../../
 1. Passare al report in cui si desidera aggiungere un prompt.
 1. Espandere **Azioni report**, quindi fare clic su **Modifica**.
 
-1. Fare clic su **Impostazioni report**.
-1. Nell&#39;area **Prompt dei report**, fare clic su **Aggiungi un prompt**.\
-   ![](assets/qs-add-a-prompt-350x216.png)
+1. Fare clic sul pulsante **Impostazioni report**.
+1. Fai clic sulla scheda **Prompt dei rapporti**, quindi fai clic su **Aggiungi un prompt**.\
+   ![](assets/create-report-prompt-tab.png)
 
-1. (Condizionale) Seleziona il campo su cui desideri basare il prompt. Inizia a digitare il nome del campo e fai clic su per selezionarlo quando viene visualizzato nell’elenco.\
+1. (Condizionale) Seleziona il campo su cui desideri basare il prompt. Inizia a digitare il nome del campo, quindi fai clic su per selezionarlo quando viene visualizzato nell’elenco.\
    Le opzioni disponibili per gli utenti che eseguono il rapporto variano a seconda del campo selezionato.\
    Ad esempio, se si seleziona un campo data, ad esempio Data di completamento effettiva in un report attività, &quot;Data di completamento effettiva&quot; è il nome del prompt. Quando modifichi questo prompt durante l’esecuzione del report, puoi scegliere da un set di modificatori per creare l’istruzione di filtro. Questo processo è identico alla creazione di un filtro. Per ulteriori informazioni sui modificatori, vedere [Filtri e modificatori di condizioni](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
@@ -92,8 +92,9 @@ Per istruzioni sulla creazione di un report, vedere [Creare un report](../../../
    Specificare le seguenti informazioni per il prompt personalizzato: La condizione di un prompt personalizzato può essere modificata solo utilizzando la modalità testo. Questo consente di applicare più condizioni in un singolo campo.
 
    * **Nome campo:** Questo è il nome del prompt visualizzato prima dell&#39;esecuzione del report.
-   * **Etichetta:** Questo è il nome di una delle opzioni all&#39;interno del prompt visualizzato prima dell&#39;esecuzione del report.
+   * **Etichetta elemento a discesa:** Questo è il nome di una delle opzioni all&#39;interno del prompt visualizzato prima dell&#39;esecuzione del report.
    * **Condizione:** Immettere una condizione che definisce il prompt.
+   * **Predefinito:** È possibile selezionare un elemento come opzione predefinita per questo prompt.
 
    Utilizza la stessa sintassi che utilizzeresti quando inserisci un filtro in modalità testo e unisci le istruzioni con &quot;&amp;&quot;. Per ulteriori informazioni sulla modifica di un filtro in modalità testo, vedere [Modificare un filtro in modalità testo](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
@@ -128,7 +129,7 @@ Per eseguire un report con un prompt:
 
 1. Vai al report con il prompt.
 
-   ![](assets/qs-prompt-drop-downs-350x229.png)
+   ![](assets/run-report-prompts.png)
 
 1. Scegli una condizione per uno o tutti i prompt visualizzati nella scheda **Prompts**.\
    (Facoltativo) Puoi lasciare vuoti i prompt e non filtrare il rapporto in base alle condizioni dei prompt.
@@ -145,13 +146,14 @@ Per eseguire un report con un prompt:
 
 >[!CAUTION]
 >
->Quando condividi un rapporto richiesto all’esterno di Workfront, l’utente che lo visualizza deve aver effettuato l’accesso a Workfront per eseguire il rapporto utilizzando il prompt. Se l’utente che visualizza il rapporto non ha effettuato l’accesso, tutti i risultati del rapporto vengono visualizzati senza applicare il prompt.
+>Quando si condivide un report richiesto, gli utenti connessi e non connessi che visualizzano il report utilizzando il collegamento di condivisione pubblico non possono eseguire il report utilizzando i relativi prompt. In questo caso, i risultati del report vengono visualizzati senza l&#39;applicazione di alcun prompt e le informazioni visualizzate si basano invece sul livello di accesso e sulle autorizzazioni dell&#39;utente o sul livello di accesso e sulle autorizzazioni RunAs del report, se impostato.
 
 Di seguito sono riportate le limitazioni relative alla condivisione dei rapporti richiesti da Workfront:
 
-* Quando si condivide un report pubblicamente, gli utenti non possono eseguirlo applicando il prompt, a meno che non dispongano delle credenziali di Workfront e accedano prima per visualizzare il report in Workfront.
+* Quando si condivide un report pubblicamente, gli utenti non possono eseguirlo con i prompt applicati, a meno che: non abbiano le credenziali di Workfront, non effettuino l&#39;accesso e non passino direttamente al report in Workfront (non attraverso il collegamento di condivisione pubblico).
 
   Per ulteriori informazioni sulla condivisione di report, vedere l&#39;articolo [Condividere un report in Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
-* Quando pianifichi la consegna di un rapporto richiesto, il rapporto nell’allegato e-mail include i dati del rapporto omesso. Quando l’utente fa clic sul collegamento nell’e-mail per accedere al rapporto, deve prima accedere per visualizzare il rapporto ed eseguire personalmente il prompt.
+
+* Quando pianifichi la consegna di un rapporto richiesto, il rapporto nell’allegato e-mail include i dati del rapporto non richiesti. Quando l’utente fa clic sul collegamento nell’e-mail per accedere al rapporto, deve prima accedere per visualizzare il rapporto ed eseguire personalmente il prompt.
 
   Per informazioni sulla pianificazione di un report consegnato, vedere [Pianificare la consegna automatica di un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
