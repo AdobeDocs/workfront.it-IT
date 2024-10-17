@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '474'
 ht-degree: 1%
 
 ---
@@ -94,63 +94,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 +++
 
-<!--OLD:
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   Or
-   <p>Current: Plan</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access controls for Adobe Workfront Planning</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
-
 ## Considerazioni sull&#39;esportazione dei dettagli di un record:
 
 * È possibile esportare i dettagli di un record nei seguenti formati di file:
@@ -158,7 +101,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    * .docx Word
    * .pdf
 
-* È possibile esportare la scheda Dettagli della pagina di un record. Non è possibile esportare la scheda Connessioni.
+* È possibile esportare la scheda Dettagli della pagina di un record.
 
 * Il file esportato mantiene il layout della pagina di registrazione, incluse le miniature e le immagini di copertina.
 
@@ -181,7 +124,7 @@ Viene visualizzata la pagina del tipo di record e vengono visualizzati tutti i r
 
 1. Scegliere la scheda **Dettagli**. Per impostazione predefinita, viene aperta la scheda Dettagli.
 
-1. Fai clic sull&#39;icona **Esporta** ![](assets/export-icon-in-record-details-page.png) nell&#39;anteprima o nella pagina del record, quindi fai clic su una delle seguenti opzioni:
+1. Fare clic sul menu **Esporta** ![](assets/export-icon-in-record-details-page.png) nell&#39;anteprima o nella pagina del record, quindi fare clic su una delle opzioni seguenti:
 
    * **Microsoft Word**
    * **Adobe PDF**

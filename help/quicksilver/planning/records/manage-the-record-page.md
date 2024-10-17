@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: '1361'
 ht-degree: 0%
 
 ---
@@ -198,7 +198,7 @@ Per impostazione predefinita, tutte le sezioni vengono espanse.
 
    Tutte le modifiche apportate alle sezioni e all&#39;ordine dei campi vengono salvate automaticamente.
 
-1. (Facoltativo) Fai clic sull&#39;icona **Esporta** ![](assets/export-icon-in-record-details-page.png) per esportare la scheda Dettagli in un file Word. Per ulteriori informazioni, vedere [Esportare i dettagli di un record](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Facoltativo) Fare clic sul menu **Esporta** ![](assets/export-icon-in-record-details-page.png) per esportare la scheda Dettagli in un file Word o PDF. Per ulteriori informazioni, vedere [Esportare i dettagli di un record](/help/quicksilver/planning/records/export-the-record-page.md).
 
 1. (Facoltativo) Fai clic sulla scheda **Connessioni** accanto alla scheda **Dettagli**. Potrebbe essere necessario fare clic su **Altro** prima di fare clic sulla scheda **Connessioni**.
 

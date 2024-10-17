@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1321'
 ht-degree: 0%
 
 ---
@@ -111,13 +111,15 @@ Questo esempio mostra come chiamare l’API Workfront e inserire i dati da un ca
 
 ## Impostare un campo di ricerca esterna per l&#39;API di pianificazione di Workfront
 
-Un endpoint è disponibile nell&#39;API di pianificazione [Workfront](/help/quicksilver/planning/general/planning-api-basics.md) per cercare i record in base all&#39;ID del tipo di record tramite il metodo Get. È possibile utilizzare questo endpoint per fare riferimento ai record di Planning nei campi di ricerca esterna.
+Nell&#39;API di Workfront Planning è disponibile un endpoint per la ricerca dei record in base all&#39;ID del tipo di record tramite il metodo Get. È possibile utilizzare questo endpoint per fare riferimento ai record di Planning nei campi di ricerca esterna.
 
 * **URL API di base:** `$$HOST/maestro/api/v1/records/search?recordTypeId={recordTypeID}`
 * **Metodo HTTP:** Get
 * **Percorso JSON:** `$.records[*].data.{fieldID}`
 
   **{fieldID}** è il campo da visualizzare nei risultati della ricerca esterna nel modulo personalizzato per gli utenti finali.
+
+Per ulteriori informazioni, vedere [Workfront Planning API](/help/quicksilver/planning/general/planning-api-basics.md).
 
 ## Configurare un campo di ricerca esterno per un’API pubblica
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
-source-wordcount: '1949'
+source-wordcount: '1957'
 ht-degree: 0%
 
 ---
@@ -55,10 +55,13 @@ Per eseguire questa operazione:
      >
      >L&#39;opzione **Tipo di connessione** non è disponibile per la connessione di record da aree di lavoro diverse o per la connessione di risorse Experience Manager. Per ulteriori informazioni, vedere [Panoramica sui tipi di record connessi](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
-   * **Aspetto del record**: deseleziona l&#39;opzione **Titolo** se non desideri visualizzare il nome dei prodotti quando li aggiungi al campo Informazioni prodotto della campagna. Se questa opzione è attivata, nei record vengono visualizzati sia la miniatura che il titolo. L’interruttore è attivato per impostazione predefinita.
+   * **Aspetto record**: scegliere una delle opzioni seguenti:
+      * **Nome e immagine**: visualizza il nome e la miniatura o l&#39;icona dei record connessi. Questa opzione è selezionata per impostazione predefinita.
+      * **Nome**: visualizza solo il nome dei record connessi.
+      * **Immagine**: visualizza solo la miniatura o l&#39;icona dei record connessi.
    * **Seleziona campi di ricerca**: se lasci selezionata questa opzione, viene visualizzata la casella **Aggiungi campi di ricerca** per consentire il collegamento di campi prodotto con il tipo di record Campaign. Puoi fare clic su **Ignora** per saltare questo passaggio e aggiungere i campi Prodotto in un secondo momento.
 
-   ![](assets/new-connection-with-product-record-type.png)
+     ![](assets/new-connection-with-product-record-type.png)
 
 1. (Condizionale) Se nel passaggio precedente hai selezionato l&#39;opzione **Seleziona campi di ricerca**, dall&#39;elenco dei campi associati al tipo di record **Prodotto** fai clic sull&#39;icona **+** per il campo **Budget**, quindi fai clic su **Aggiungi campi**. In questo modo viene creato un campo denominato **Budget (dalle informazioni sul prodotto)**, che corrisponde al nome del campo collegato. In questo campo vengono visualizzate tutte le informazioni relative al budget prodotti per i record Campagna.
 

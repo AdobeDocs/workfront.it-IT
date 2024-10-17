@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
 source-wordcount: '1867'
 ht-degree: 0%
@@ -304,7 +304,7 @@ Per ulteriori informazioni, vedere [Gestire le visualizzazioni dei record](/help
 
    Workfront salva automaticamente le modifiche.
 
-1. (Facoltativo) Fai clic sull&#39;icona **Esporta** ![](assets/export-icon-in-record-details-page.png) per esportare i dettagli del record. Per informazioni, vedere [Esportare i dettagli di un record](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Facoltativo) Fare clic sul menu **Esporta** ![](assets/export-icon-in-record-details-page.png) per esportare i dettagli del record. Per informazioni, vedere [Esportare i dettagli di un record](/help/quicksilver/planning/records/export-the-record-page.md).
 
 1. (Facoltativo) Fai clic sull&#39;icona **Apri in una nuova scheda** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda. Continua a modificare il record come descritto in [Modifica un record dalla sezione della pagina del record](#edit-a-record-from-the-records-page) in questo articolo.
 
@@ -359,7 +359,7 @@ Per ulteriori informazioni, vedere [Gestire le visualizzazioni dei record](/help
 
    Workfront salva automaticamente le modifiche.
 
-1. (Facoltativo) Fai clic sull&#39;icona **Esporta** ![](assets/export-icon-in-record-details-page.png) per esportare i dettagli del record. Per informazioni, vedere [Esportare i dettagli di un record](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Facoltativo) Fare clic sul menu **Esporta** ![](assets/export-icon-in-record-details-page.png) per esportare i dettagli del record. Per informazioni, vedere [Esportare i dettagli di un record](/help/quicksilver/planning/records/export-the-record-page.md).
 
 
 ## Modificare un record da un oggetto Workfront nella sezione Planning
