@@ -5,16 +5,14 @@ description: È possibile riepilogare rapidamente gli elementi di lavoro e i doc
 author: Becky
 feature: Get Started with Workfront
 exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: bbe4ad6a8528e7d0e3a5f6f2b669c1b5d8d2e313
+source-git-commit: 59c74b6530df09cb664e146b611d246465cf0116
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '415'
 ht-degree: 1%
 
 ---
 
 # Riepiloga utilizzando l’Assistente AI
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 L&#39;Assistente AI di Workfront può riepilogare alcuni oggetti, fornendo una visualizzazione di alto livello dell&#39;intento o dei dettagli dell&#39;oggetto.
 
@@ -67,8 +65,6 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
   Per ulteriori informazioni, vedere [Attivare o disattivare l&#39;Assistente AI](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
-<div class="preview">
-
 ## Riepiloga utilizzando i pulsanti Riepiloga
 
 Nelle seguenti aree sono disponibili pulsanti che generano riepiloghi tramite l’Assistente IA:
@@ -88,8 +84,6 @@ Per utilizzare il pulsante Riepiloga progetto o Riepiloga commenti:
 1. (Facoltativo) Affina il prompt per assicurarti di fornire le informazioni necessarie.
 
    Ad esempio, è possibile perfezionare il prompt Riepiloga contenuto per riepilogare i commenti relativi agli ultimi 14 giorni, anziché agli ultimi 7.
-
-   </div>
 
 ## Riepilogare un oggetto nell’Assistente IA
 
