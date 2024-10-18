@@ -1,25 +1,26 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: Creare elementi di lavoro dall'area Home
-description: È possibile creare elementi di lavoro dalla [!UICONTROL Home]. È possibile creare attività personali per se stessi, richiedere lavoro ad altri utenti o aggiungere attività a progetti specifici.
-author: Nolan
+title: Creare elementi di lavoro e progetti dall’area Home
+description: È possibile creare elementi di lavoro e progetti dall'area [!UICONTROL Home].
+author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
+source-git-commit: 5ff0fabb60cb9e7c2a7b3506693efdb6c5d8e956
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 0%
+source-wordcount: '669'
+ht-degree: 3%
 
 ---
 
-# Creare elementi di lavoro dall&#39;area Home
+# Creare elementi di lavoro e progetti dall’area Home
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From Courtney: Need to rename)</p>
--->
+È possibile creare elementi di lavoro e progetti dall&#39;area [!UICONTROL Home]. Da Home, puoi
 
-È possibile creare elementi di lavoro dalla [!UICONTROL Home]. È possibile creare attività personali per se stessi, richiedere lavoro ad altri utenti o aggiungere attività a progetti specifici.
+* Crea cose da fare personali per te
+* Inviare richieste
+* Aggiungi attività e problemi a progetti specifici
+* Crea progetti da un modello, un progetto vuoto o importa un progetto MS.
 
 ## Requisiti di accesso
 
@@ -51,71 +52,117 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
 
-## Crea un&#39;attività personale
+## Creare un&#39;attività personale
 
-Puoi creare un&#39;attività personale disponibile solo per te nell&#39;area [!UICONTROL Home]:
-
-1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
-1. Fai clic su **[!UICONTROL Nuova attività]** > **[!UICONTROL Personale]**.
-
-   ![](assets/creating-work-items-new-task-personal-nwe-350x228.png)
-
-1. Nel campo **[!UICONTROL Nome]**, specifica un nome per l&#39;attività.
-1. (Facoltativo) Fai clic su **[!UICONTROL Seleziona data]**, quindi seleziona la data di scadenza dell&#39;attività. Imposta la [!UICONTROL data di completamento pianificata] per l&#39;attività.\
-   Puoi modificare la **[!UICONTROL Data di completamento pianificata]** facendo clic sulla data nel pannello a destra o modificando la **[!UICONTROL La data verrà completata entro]** direttamente nell&#39;attività.
-
-1. Fai clic su **[!UICONTROL Crea]** per salvare l&#39;attività.\
-   L&#39;attività è assegnata all&#39;utente ed è disponibile nella [!UICONTROL Home].
-
->[!NOTE]
->
->* Quando si crea un&#39;attività personale, questa viene memorizzata in un progetto &quot;nascosto&quot; che non è ricercabile in [!UICONTROL Workfront]. Il progetto si chiama &quot;&lt; Nome utente >&#39;s Tasks&quot; (Attività di). &quot;Nome utente&quot; è il nome completo dell&#39;utente che ha creato l&#39;attività. Puoi accedere a questo progetto solo quando fai clic sull&#39;attività personale nell&#39;area [!UICONTROL Home], ad esempio dalla breadcrumb dell&#39;attività.
->
->* A differenza delle normali attività di progetto, le attività personali hanno un set limitato di campi visibili nell’interfaccia di Workfront e non influenzano la timeline o l’avanzamento di alcun progetto. Quando si riassegna un&#39;attività personale a un altro utente, tutti i campi delle attività vengono aggiunti a un&#39;attività personale, ma l&#39;attività rimane nel progetto personale dell&#39;utente che ha creato l&#39;attività.
->
->
->* Le attività personali vengono visualizzate nelle schede orario solo quando sono registrate o sono bloccate nella scheda orario. È possibile aggiungere un&#39;attività personale a una scheda orario solo quando sono presenti ore registrate per l&#39;attività. Per ulteriori informazioni, vedere [Tempo di connessione](../../../timesheets/create-and-manage-timesheets/log-time.md).
-> 
->* Se desideri che le attività personali facciano parte del flusso di lavoro normale, è consigliabile creare un progetto e spostarvi tutte le attività personali.
->
-> ![[!UICONTROL Progetto per attività personali]](assets/createworkitems-personal--project-350x105.png)
-
-## Richiedi lavoro da un altro utente
-
-È possibile richiedere il lavoro a un altro utente direttamente dall&#39;area Home. Quando si richiede il lavoro a un altro utente come descritto in questa sezione, l&#39;attività viene visualizzata come richiesta nell&#39;area Home dell&#39;utente fino a quando l&#39;utente non fa clic su **[!UICONTROL Lavoraci]**.
-
-Per richiedere il lavoro a un altro utente dell&#39;area [!UICONTROL Home]:
+È possibile creare un elemento attività personale disponibile solo per l&#39;utente corrente nell&#39;area [!UICONTROL Home]:
 
 1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
-1. Fai clic su **[!UICONTROL Nuova attività]**, quindi seleziona **[!UICONTROL Richiesta]**.
+1. (Condizionale) Aggiungi il widget attività alla schermata iniziale. Fai clic su **Personalizza** e trova **Da-fare**.
+1. Vai al widget **Da fare**, quindi fai clic su **Aggiungi da fare**.
+1. Digita il
+1. (Facoltativo) Fai clic sull&#39;icona **Data** ![](assets/date-icon.png) per aggiungere una data di scadenza per l&#39;elemento.
+   ![](assets/my-work-to-dos.png)
 
-   ![](assets/creating-work-items-new-task-request-nwe-350x283.png)
 
-1. Nel campo **[!UICONTROL Nome]**, specifica un nome per l&#39;attività.
-1. Nel campo **[!UICONTROL Assegna a]**, inizia a digitare il nome dell&#39;utente, del team o del ruolo che desideri assegnare, quindi fai clic sul nome quando viene visualizzato nel menu a discesa.
-1. Nel menu a discesa [!UICONTROL Aggiungi come], seleziona se aggiungere un&#39;attività o un problema.
-1. Fai clic su **[!UICONTROL Seleziona data]**, quindi seleziona la data e l&#39;ora di scadenza dell&#39;attività.
-1. Fai clic su **[!UICONTROL Crea]** per salvare l&#39;attività.\
-   L&#39;attività viene visualizzata come richiesta di lavoro nell&#39;area [!UICONTROL Home] dell&#39;utente designato.
 
-## Aggiungere un’attività o un problema a un progetto
+## Aggiungere un’attività a un progetto
 
-Puoi aggiungere un’attività o un problema a un progetto esistente direttamente dall’area Home:
+Puoi aggiungere un’attività a un progetto esistente direttamente dall’area Home:
 
-1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **Home**.
-1. Fai clic su **[!UICONTROL Nuova attività]**, quindi seleziona **[!UICONTROL Attività progetto]**.
+1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
+1. (Condizionale) Aggiungi il widget **Le mie attività** alla schermata iniziale. Fai clic su **Personalizza** e trova **Le mie attività**.
+1. Vai al widget **Le mie attività**, quindi fai clic su **Nuove**.
+   ![](assets/create-new-task.png)
+1. Nella finestra di dialogo **Nuova attività** immettere il nome dell&#39;attività.
+1. Inizia a digitare il nome di un progetto, quindi selezionalo dall’elenco.
+1. (Facoltativo) Immettere le informazioni nei campi riportati di seguito.
 
-   ![](assets/creating-work-items-new-project-task-nwe-350x358.png)
+   | Campo | Istruzioni |
+   |----------|----------|
+   | **Descrizione** | Immetti una descrizione. |
+   | **Assegnazioni** | Assegna utenti. |
+   | **Durata** | Immetti la durata. |
+   | **Data di completamento Pianificata** | Scegli una data di completamento pianificata. |
+   | **Altre opzioni** | Scegliere altre opzioni per configurare altre impostazioni per l&#39;attività. Per ulteriori informazioni sulla creazione di attività, vedere [Modifica attività](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md). |
 
-1. Nel campo **[!UICONTROL Nome]**, specifica un nome per l&#39;attività o il problema.
-1. Nel campo **[!UICONTROL Assegna a]**, inizia a digitare il nome dell&#39;utente, del team o del ruolo che desideri assegnare, quindi fai clic sul nome quando viene visualizzato nel menu a discesa.
-1. Inizia a digitare il nome del progetto in cui desideri creare l’attività o il problema, quindi fai clic sul nome quando viene visualizzato nel menu a discesa.
+1. Fai clic su **Crea attività**.
 
-   >[!IMPORTANT]
-   >
-   >L&#39;attività o il problema viene visualizzato in [!UICONTROL Elenco lavori] solo quando il progetto [!UICONTROL Stato] è impostato su [!UICONTROL Corrente].
 
-1. (Condizionale) Per creare un problema, seleziona **[!UICONTROL Problema]** dal menu a discesa **[!UICONTROL Aggiungi come]**. Per impostazione predefinita, è selezionata l&#39;attività **[!UICONTROL Attività]**.
+## Aggiungere un problema a un progetto
 
-1. Fai clic su **[!UICONTROL Seleziona data]**, quindi seleziona la data e l&#39;ora di scadenza dell&#39;attività.
-1. Fai clic su **[!UICONTROL Crea]** per salvare l&#39;attività.
+Puoi aggiungere un problema a un progetto esistente direttamente dall’area Home:
+
+1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
+1. (Condizionale) Aggiungi il widget **Problemi personali** alla schermata iniziale. Fai clic su **Personalizza** e trova **I miei problemi**.
+1. Vai al widget **I miei problemi**, quindi fai clic su **Nuovi**.
+   ![](assets/create-new-issue.png)
+1. Nella finestra di dialogo **Nuovo problema**, inizia a digitare il nome di un progetto, quindi selezionalo dall&#39;elenco.
+1. Immetti un nome per il problema.
+1. (Facoltativo) Immettere le informazioni nei campi riportati di seguito.
+
+   | Campo | Istruzioni |
+   |----------|----------|
+   | **Descrizione** | Immetti una descrizione. |
+   | **Assegnazioni** | Assegna utenti. |
+   | **Priorità** | Scegli un livello di priorità. |
+   | **Documenti** | Carica un documento. |
+
+1. Fai clic su **Salva nuovo problema**.
+
+## Creare una richiesta
+
+Puoi creare una richiesta direttamente dall’area Home:
+
+1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
+1. (Condizionale) Aggiungi il widget **Richieste personali** alla schermata iniziale. Fai clic su **Personalizza** e trova **Le mie richieste**.
+1. Vai al widget **Richieste personali**, quindi fai clic su **Nuove**.
+   ![](assets/create-new-request.png)
+
+1. Nella finestra di dialogo **Nuova richiesta**, inizia a digitare il nome della coda di richieste.
+1. Compila i campi pertinenti.
+1. Fai clic su **Invia**.
+
+Per ulteriori informazioni sull&#39;invio di richieste, vedere [Creare e inviare richieste](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+
+## Crea un Progetto
+
+Puoi creare un progetto direttamente dall’area Home:
+
+1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
+1. (Condizionale) Aggiungi il widget **Progetti personali** alla schermata iniziale. Fai clic su **Personalizza** e trova **I miei progetti**.
+1. Vai al widget **Progetti personali**, quindi fai clic su **Nuovi**.
+   ![](assets/create-new-project.png)
+1. Scegliere una delle opzioni seguenti:
+
+   | Campo | Istruzioni |
+   |----------|----------|
+   | Da un modello | Vai a [Crea un progetto utilizzando un modello](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md) per istruzioni dettagliate sulla creazione di un progetto da un modello. |
+   | Progetto vuoto | Vai a [Crea un progetto da zero](/help/quicksilver/manage-work/projects/create-projects/create-project.md#create-a-project-from-scratch) per istruzioni dettagliate sulla creazione di un progetto vuoto. |
+   | Importa progetto MS | Vai a [Importa un progetto da Microsoft Project](/help/quicksilver/manage-work/projects/create-projects/import-project-from-ms-project.md) per istruzioni dettagliate sull&#39;importazione di un progetto MS. |
+
+
+<!--
+## Create a board
+
+You can create a board directly from the Home area:
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. (Conditional) Add the **Boards** widget to your home screen. Click **Customize**, and find **Boards**. -->
+
+
+
+
+
+<!--
+## Delete a to-do item
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Go to the to-do widget.
+1. Hover over the item, then click the **Delete** icon ![](assets/delete-to-do.png). 
+
+## Edit a to-do item
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Go to the to-do widget.
+1. Edit the item name.
+1. Click on the **Date** icon ![](assets/date-icon.png) to add or adjust a due date. -->

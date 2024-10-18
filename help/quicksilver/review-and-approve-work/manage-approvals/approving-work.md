@@ -6,10 +6,10 @@ description: Approvazione del lavoro
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: 216bf9ea9cb58294b42cc41d70ca0ab99b6dc827
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 0%
+source-wordcount: '896'
+ht-degree: 1%
 
 ---
 
@@ -66,68 +66,75 @@ Per ulteriori informazioni sulla visualizzazione degli elementi in attesa di app
 
 ## Approva lavoro dalla sezione Home
 
-1. Fai clic sull&#39;icona **Home** ![](assets/home-icon-30x29.png) nell&#39;angolo superiore sinistro di Adobe Workfront.
+1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
+1. (Condizionale) Fai clic su **Personalizza** per aggiungere il widget **Le mie approvazioni**.
+1. (Condizionale) Fai clic sul menu a discesa **Filtro**, quindi seleziona **Tutti** per visualizzare le approvazioni assegnate e delegate all&#39;utente.
 
    >[!NOTE]
    >
-   >L’amministratore di Workfront potrebbe apportare le seguenti modifiche all’icona Home nel tuo ambiente:
-   >
-   >   
-   >* Sostituiscilo con un’immagine personalizzata per illustrare la tua organizzazione. In questo caso, l’icona avrà un aspetto diverso da quello mostrato in questo articolo.
-   >* Sostituisci la pagina collegata con un’altra pagina. In questo caso, fai clic sul **menu principale** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro della pagina, quindi fai clic su **Home**.
+   >Le approvazioni assegnate a Ruoli o Gruppi non vengono visualizzate nella Home. Le approvazioni assegnate ai team vengono visualizzate nel widget Approvazioni personali per ogni membro del team.
 
-1. Fai clic sul menu a discesa **Filtro**.
 
-   ![](assets/displaying-work-items-filters-nwe-350x401.png)
-
-1. Seleziona **Approvazioni**.\
-   Vengono visualizzati tutti gli elementi di lavoro che richiedono l&#39;approvazione. 
-
-   >[!NOTE]
-   >
-   >Le approvazioni assegnate a Ruoli o Gruppi non vengono visualizzate nella Home. Le approvazioni assegnate ai team vengono visualizzate nel raggruppamento Richiesta team in Work List (Elenco di lavoro).
-
-1. (Facoltativo) Modificare l&#39;ordine di visualizzazione delle approvazioni, come descritto nella sezione &quot;Raggruppa e ordina per data, progetto o priorità&quot; nell&#39;articolo [Visualizzare gli elementi nell&#39;elenco di lavoro nell&#39;area Home](../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 1. Seleziona l’elemento in cui desideri prendere una decisione di approvazione.
 
-   ![](assets/task-approval-home-350x127.png)
+   ![](assets/my-approvals-widget.png)
 
 1. Fai clic su una delle opzioni disponibili quando prendi una decisione di approvazione nel pannello a destra. Le seguenti opzioni vengono visualizzate nell&#39;angolo superiore destro della pagina, a seconda del tipo di elemento che si sta approvando:
 
-   * **Progetti:** Fai clic su **Approva** o **Rifiuta**.
+   <table>
+   <tr>
+      <td>
+      <p><strong>Accesso</strong></p>
+      </td>
+      <td>
+      <p><strong>Elementi di lavoro</strong></p>
+      </td>
+      <td>
+      <p><strong>Documenti</strong></p>
+      </td>
+      <td>
+      <p><strong>Bozze</strong></p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+       <ul>
+      <li>Concedi</li>
+      <li>Ignora</li>
+      </ul>
+      Se necessario, è possibile regolare il livello di accesso nel menu a discesa <b>Modifica accesso</b>.
+      </td>
+      <td>
+         <ul>
+         <li>Approvazione</li>
+         <li>Rifiuta</li>
+         </ul>
+      Per lasciare un commento associato alla decisione, fai clic sul menu a discesa nel pulsante di decisione.
+      </td>
+      <td>
+   Assegnato come approvatore
+         <ul>
+         <li>Approvazione</li>
+         <li>Approva con modifiche</li>
+         <li>Azioni da intraprendere</li>
+         </ul>
+   Assegnato come revisore
+         <ul>
+         <li>Completa la revisione</li>
+         </ul>
+      Le opzioni di questa colonna si applicano solo alle nuove approvazioni di documenti. Le approvazioni di documenti legacy vengono visualizzate come le approvazioni di elementi di lavoro. 
+      </td>
+      <td>
+         <ul>
+         <li>Vai alla bozza</li>
+         </ul>
+         La decisione viene presa nel visualizzatore bozze. Per informazioni sulla revisione di una bozza, vedi <a href="../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md">Verifica delle bozze in Adobe Workfront</a>.
+      </td>
+   </tr>
+   </table>
 
-   * **Attività:** Fai clic su **Approva** o **Rifiuta**.
+Dopo aver preso una decisione, l&#39;approvazione viene rimossa dal widget Approvazione personale.
 
-   * **Problemi:** Fai clic su **Approva** o **Rifiuta**.
-
-   * **Schede orario:** Fare clic su **Approva** o **Rifiuta**.
-
-   * **Documenti:** Fare clic su **Approva**, **Rifiuta** o **Modifiche**.\
-      Considera quanto segue durante la visualizzazione  approvazioni:
-
-      * Le approvazioni delle bozze vengono visualizzate qui quando un utente condivide una bozza con te, come descritto nella sezione &quot;Condividi un collegamento alla bozza&quot; nell&#39;articolo [Condividi una bozza in Adobe Workfront](../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
-      * Le approvazioni delle bozze vengono visualizzate nell’area Home solo se l’ambiente Workfront è integrato con un account Workfront Proof Premium. Se non è possibile utilizzare gli strumenti di correzione come descritto qui, contattare l&#39;amministratore di Workfront.
-      * Ricevi una notifica in-app con la quale ti viene notificata l’approvazione della verifica.\
-        Per ulteriori informazioni sulle notifiche in-app, vedere [Visualizzare e gestire le notifiche in-app](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
-
-      * Il nome dell’utente che ha richiesto l’approvazione viene visualizzato accanto all’immagine miniatura nell’area Home, con il testo seguente:\
-        &quot;*L&#39;utente A* richiede la tua approvazione per...&quot;
-
-        <!--      
-        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">      
-        (NOTE:&nbsp;From&nbsp;Courtney: Is this true?)      
-        </MadCap:conditionalText>      
-        -->
-
-        Se il nome utente non è disponibile, viene visualizzato il testo seguente:\
-        &quot;È pronta una nuova versione di una bozza&quot;
-      * Per prendere una decisione di approvazione sulla bozza, fai clic su **Vai alla bozza**, fai clic su **Termina revisione**, quindi fai clic su una delle opzioni disponibili. Le opzioni disponibili per l&#39;approvazione di una bozza sono: **Approvato**, **Approvato con modifiche**, **Modifiche richieste** e **Non pertinente**.
-
-      * Dopo aver preso una decisione sulla bozza, la bozza rimane nella scheda Approvazioni personali con il testo &quot;Presa di decisione&quot; fino a quando non fai clic sul pulsante **Aggiorna** o non aggiorni la pagina del browser.
-
-        Per informazioni sulla revisione di una bozza, vedi [Verifica delle bozze in Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
-
-   * **Accesso:** Selezionare il livello di accesso da concedere nel menu a discesa **Cambia accesso**, quindi fare clic su **Concedi accesso**. In alternativa, fare clic su **Ignora**.
 
 ## Approvare il lavoro direttamente da un progetto, attività o problema
 

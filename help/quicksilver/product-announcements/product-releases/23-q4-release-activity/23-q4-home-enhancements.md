@@ -5,9 +5,9 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f69cbb95-e7fe-4f8f-a7e7-7693c968e76c
-source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
+source-git-commit: e68972f7334a93f7fbd3db29919a2f2746ce64fe
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
@@ -28,46 +28,38 @@ Per ulteriori informazioni sulla delega in Workfront, vedi [Gestire la delega di
 
 In una nuova importante aggiunta alle opzioni di gestione del lavoro disponibili in Nuova Home, ora puoi visualizzare una bacheca nella tua home page! Con il widget Schede, puoi scegliere di visualizzare una scheda esistente o crearne una nuova all’interno del widget. Potrai quindi utilizzare tutte le funzionalità della tua bacheca, creare e spostare schede, aggiungere colonne e altro ancora, senza uscire dalla pagina principale.
 
-Per ulteriori informazioni sui widget disponibili in Nuova home, vedere [Introduzione alla nuova home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Nuova pagina di destinazione predefinita per i collaboratori: Nuova home
 
 La nuova Home è ora la pagina di destinazione predefinita per gli account Collaboratore/Richiedente. Questa nuova home page predefinita include una serie di widget selezionati in modo specifico per consentire ai collaboratori di gestire immediatamente il proprio lavoro. Al momento della prima visita alla pagina, i collaboratori riceveranno anche istruzioni sull’utilizzo della nuova home e dei widget specifici disponibili per impostazione predefinita in una procedura dettagliata personalizzata. I widget predefiniti per i collaboratori sono: Richieste personali, Riferimenti, La mia approvazione e Bacheche. Si noti che se un layout con una home page personalizzata è attualmente utilizzato da un account collaboratore, rimarrà la propria home page.
 
-Per ulteriori informazioni sull&#39;utilizzo della nuova home, vedere [Introduzione alla nuova home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Modifiche al tracciamento del lavoro in Nuova Home
 
 In base al feedback degli utenti, sono stati rimossi il filtro per l’intervallo di tempo a livello di pagina e la barra di riepilogo che riportava le attività in scadenza e completate. I widget Progetto, Attività e Problema dispongono ciascuno di funzioni di filtro incorporate che consentono di personalizzarne l’ambito su base individuale. Inoltre, questi widget ora includeranno solo il contenuto attualmente attivo in base allo stato, garantendo che il lavoro di cui tengono traccia sia sempre rilevante. Inoltre, abbiamo limitato i widget che visualizzano le bolle di conteggio degli elementi a quelli più utili: Il mio lavoro, Mentions, La mia approvazione e cose da fare.
 
-Per ulteriori informazioni sul monitoraggio del lavoro in Nuova Home, vedere [Introduzione alla Nuova Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Nuovi pulsanti di azione rapida per il widget Il mio lavoro
 
 Ampliando ulteriormente la possibilità di gestire il lavoro direttamente dalla Nuova Home, sono stati aggiunti nuovi pulsanti di azione rapida al widget Il mio lavoro. Questi nuovi pulsanti, disponibili in ogni progetto, attività, problema o richiesta del widget, consentono di aprire rapidamente il riquadro di riepilogo, caricare file, modificare moduli personalizzati, creare un aggiornamento e registrare l&#39;ora senza uscire dalla nuova home page, nonché un pulsante Work On It/Done più grande.
 
-Per ulteriori informazioni sulle funzionalità dei widget in Nuova home, vedere [Introduzione alla nuova home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Nuove opzioni filtro per Nuova Home
 
 Sono ora disponibili nuove opzioni di filtro per il widget Il mio lavoro nella nuova home. Le opzioni includono i filtri per i tipi di oggetto (attività, problemi e richieste) e gli stati (non pronto, pronto per l’avvio, al lavoro e completato).
 
-Per ulteriori informazioni sul filtraggio dei contenuti nella nuova home, vedere [Introduzione alla nuova home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Supporto terminologico personalizzato per la nuova home
 
 Per soddisfare al meglio le esigenze specifiche delle organizzazioni, New Home ora utilizza una terminologia personalizzata per gli oggetti definita nei modelli di layout di un’istanza. Ad esempio, se gli oggetti &quot;Progetto&quot; sono stati rinominati &quot;Campagne&quot; nella tua istanza di Workfront, il widget Progetti personali verrà invece visualizzato come Campagne personali nella nuova home.
 
-Per ulteriori informazioni sul contenuto disponibile in Nuova home, vedere [Introduzione alla nuova home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Passa al nuovo widget predefinito della Home
 
 Il widget Da fare, che richiede l&#39;autorizzazione per creare attività, è ora presente solo nel widget predefinito impostato per gli utenti con i tipi di licenza Standard, Piano o Lavoro. Inoltre, il widget è stato rimosso automaticamente dalle home page degli utenti con tutti gli altri tipi di licenza.
 
-Per ulteriori informazioni sui widget disponibili in Nuova home, vedere [Introduzione alla nuova home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Pulsante Prova nuova home rimosso per gli account che hanno disabilitato Nuova home
 
 Il pulsante Prova nuova home non è più presente per gli account in cui la nuova home è stata disabilitata. L&#39;amministratore di sistema deve riattivare la Nuova Home prima che i singoli utenti possano utilizzare il pulsante per provare la Nuova Home.
 
-Per ulteriori informazioni sull&#39;abilitazione o la disabilitazione di New Home, vedere [Introduzione a New Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).

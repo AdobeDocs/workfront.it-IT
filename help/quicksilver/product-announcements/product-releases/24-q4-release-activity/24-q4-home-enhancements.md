@@ -4,9 +4,9 @@ description: Miglioramenti Home Quarto Trimestre 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: e68972f7334a93f7fbd3db29919a2f2746ce64fe
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Abbiamo apportato le seguenti modifiche al widget In attesa di approvazione:
 * **Approvazioni aggiunte che ho inviato come opzione filtro**: ora puoi visualizzare le approvazioni inviate nella nuova Home con questo widget.
 * **Scadenza**: è ora possibile visualizzare la scadenza della bozza, se ne è stata impostata una. Se non viene impostata una scadenza, per impostazione predefinita viene utilizzata la data di creazione.
 
-Per ulteriori informazioni, vedere [Introduzione alla nuova Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Per ulteriori informazioni, vedere [Introduzione alla Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 ## Semplificare l&#39;esperienza Workfront per i proprietari di attività con priorità
 

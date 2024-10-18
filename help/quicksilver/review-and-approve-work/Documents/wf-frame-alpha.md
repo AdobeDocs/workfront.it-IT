@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
+source-git-commit: e68972f7334a93f7fbd3db29919a2f2746ce64fe
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '969'
 ht-degree: 1%
 
 ---
@@ -96,7 +96,6 @@ Per aiutarti a gestire e analizzare rapidamente le richieste di approvazione, ab
 
 Per una visualizzazione più dettagliata, è possibile espandere le categorie elencate in precedenza. Il widget Tutte le approvazioni è disponibile nelle nuove dashboard Home e Canvas.
 
-Per ulteriori informazioni, vedere [Introduzione alla nuova Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ### Blocca la revisione e le approvazioni una volta presa una decisione generale
 

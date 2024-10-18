@@ -2,20 +2,23 @@
 product-area: projects;agile-and-teams
 navigation-topic: use-the-home-area
 title: Gestire le richieste di lavoro e team nell’area Home
-description: Quando le attività e i problemi di lavoro vengono assegnati all'utente, sono elencati in [!UICONTROL Elenco lavori] nell'area [!UICONTROL Home]. Puoi visualizzare, riassegnare, rispondere, lavorare su una richiesta o rimuoverla. Le richieste di lavoro nell'area [!UICONTROL Home] non sono limitate ai problemi associati alle code di richieste.
-author: Lisa
+description: Quando le attività e i problemi vengono assegnati all'utente, vengono elencati nei widget Il mio lavoro, Le mie attività e I miei problemi.  È possibile visualizzare, lavorare o rimuovere elementi di lavoro e richieste.
+author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
-source-git-commit: d1babaf52c4035c20bf3990272af5a2f401b7fcb
+source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '834'
 ht-degree: 0%
 
 ---
 
-# Gestisci le richieste di lavoro e team nell&#39;area [!UICONTROL Home]
 
-Quando le attività e i problemi di lavoro vengono assegnati all&#39;utente, sono elencati in [!UICONTROL Elenco lavori] nell&#39;area [!UICONTROL Home]. Puoi visualizzare, riassegnare, rispondere, lavorare su una richiesta o rimuoverla. Le richieste di lavoro nell&#39;area [!UICONTROL Home] non sono limitate ai problemi associati alle code di richieste.
+# Gestisci elementi di lavoro e richieste del team nell&#39;area [!UICONTROL Home]
+
+Quando le attività e i problemi vengono assegnati all&#39;utente, vengono elencati nei widget Il mio lavoro, Le mie attività e I miei problemi.  È possibile visualizzare, lavorare o rimuovere elementi di lavoro e richieste.
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 ## Requisiti di accesso
 
@@ -48,18 +51,22 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
 
-## Visualizzare una richiesta di lavoro
++++
 
-Le richieste di lavoro assegnate all&#39;utente vengono visualizzate nel pannello a sinistra in [!UICONTROL Home]. Puoi configurare le richieste da visualizzare nella [!UICONTROL Home] utilizzando il filtro nella parte superiore del [!UICONTROL Elenco lavori].
+## Visualizzare un elemento di lavoro nel widget Il mio lavoro
+
+Gli elementi di lavoro assegnati vengono visualizzati nel widget Il mio lavoro in [!UICONTROL Home]. Puoi configurare gli elementi di lavoro da visualizzare nel widget Il mio lavoro utilizzando il filtro nella parte superiore del widget [!UICONTROL worklist].
 
 Puoi selezionare filtri che visualizzano elementi pronti per l’uso oppure elementi su cui stai già lavorando.
 
-In questo articolo viene descritto come utilizzare i filtri nell&#39;area [!UICONTROL Home] per visualizzare gli elementi su cui si sta lavorando o che si potrebbe considerare di iniziare a lavorare. Per informazioni su tutti i filtri nell&#39;area [!UICONTROL Home], vedere [Visualizzare gli elementi nell&#39;elenco di lavoro nell&#39;area [!UICONTROL Home]](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+In questo articolo viene descritto come utilizzare i filtri nell&#39;area [!UICONTROL Home] per visualizzare gli elementi su cui si sta lavorando o che si potrebbe considerare di iniziare a lavorare. Per informazioni su come utilizzare i filtri nell&#39;area [!UICONTROL Home], vedere [Visualizzare gli elementi nell&#39;elenco di lavoro [!UICONTROL 4} nell&#39;area [!UICONTROL Home]](/help/quicksilver/workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).]
+
+Per visualizzare un elemento di lavoro nel widget Il mio lavoro:
 
 1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
-1. Fai clic sul menu a discesa **[!UICONTROL Filtro]**.
+1. (Condizionale) Fai clic su **Personalizza** per aggiungere il widget **Il mio lavoro**.
 
-   ![](assets/displaying-work-items-filters-nwe-350x401.png)
+1. Fare clic sull&#39;icona ![](assets/filter-nwepng.png) del **filtro** nell&#39;angolo superiore sinistro dell&#39;elenco lavori widget.
 
 1. Fare clic su una o entrambe le opzioni seguenti per le attività:
 
@@ -73,86 +80,86 @@ In questo articolo viene descritto come utilizzare i filtri nell&#39;area [!UICO
    * Le attività e i relativi genitori potrebbero avere predecessori o vincoli di attività che impediscono di lavorarci.
    * Le attività o i problemi hanno una [!UICONTROL Data inizio pianificata] che è superiore alle due settimane future.
 
-
 1. Fai clic su **[!UICONTROL Lavori in corso]** in [!UICONTROL Attività] o [!UICONTROL Problemi] per visualizzare le attività e i problemi su cui stai lavorando.
 1. Fai clic su **[!UICONTROL Richiesto]** in [!UICONTROL Problemi] per visualizzare i problemi che ti sono stati richiesti (a cui sei assegnato), ma per il momento non hai accettato di lavorare.
 
-## Accedere a una richiesta team
+## Accedere a una richiesta team nel widget Richiesta team
 
-Puoi accedere a una richiesta assegnata al tuo team direttamente dalla [!UICONTROL Home]. Per ulteriori informazioni sulle richieste del team, vedere [Panoramica delle richieste del team](../../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md).
+Puoi accedere a una richiesta assegnata al tuo team direttamente dal widget Richieste team nell&#39;area [!UICONTROL Home]. Per ulteriori informazioni sulle richieste del team, vedere [Panoramica delle richieste del team](../../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md).
 
-1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
-1. Nell&#39;area **[!UICONTROL Elenco lavori]**, fare clic per espandere il raggruppamento **[!UICONTROL Richieste team]**.
-
-   Se al team non è stata assegnata alcuna richiesta, il raggruppamento non viene visualizzato.
-
-   ![](assets/team-requests-expanded-home-group-by-drop-down-nwe-350x314.png)
-
-1. Fare clic sul nome del team.\
-   La sezione **[!UICONTROL Richieste team]** visualizza e mostra tutte le richieste assegnate al team. Per ulteriori informazioni sull&#39;utilizzo delle richieste del team, vedere [Gestire le richieste del team e del lavoro](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
-
-## Riassegnare una richiesta
+Per accedere a una richiesta team:
 
 1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
-1. Nell&#39;area **[!UICONTROL Elenco lavori]** selezionare la richiesta che si desidera riassegnare.
+1. (Condizionale) Fai clic su **Personalizza** per aggiungere il widget **Richieste team**.
 
-1. Fai clic sul widget **[!UICONTROL Assegnazioni]** e rimuoviti dalla richiesta, quindi digita il nome dell&#39;utente a cui desideri riassegnare la richiesta.
+   Il widget mostra le richieste del team sotto i raggruppamenti del team. Il widget **[!UICONTROL Richieste team]** visualizza e mostra tutte le richieste assegnate a qualsiasi team a cui sei iscritto. Per ulteriori informazioni sull&#39;utilizzo delle richieste del team, vedere [Gestire le richieste del team e del lavoro](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
+
+   ![](assets/team-request-widget.png)
+
+## Lavorare su un elemento di lavoro nel widget Il mio lavoro
+
+Quando si fa clic sul pulsante [!UICONTROL Lavoraci], si indica all&#39;utente che ha inviato l&#39;elemento di lavoro e a qualsiasi altro utente che potrebbe essere assegnato all&#39;elemento di lavoro che si sta per avviare il lavoro.
+
+Per lavorare su un elemento di lavoro:
+
+1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
+1. (Condizionale) Fai clic su **Personalizza** per aggiungere il widget **Il mio lavoro**.
+
+1. Nell&#39;area **[!UICONTROL worklist]** del widget, seleziona la richiesta su cui vuoi lavorare, quindi fai clic su **[!UICONTROL Lavoraci]**.
+1. Passa il puntatore del mouse sull&#39;elemento di lavoro, quindi fai clic sull&#39;icona **Riepilogo** per visualizzare le informazioni sull&#39;elemento di lavoro.
+
+   ![](assets/open-summary-new-home.png)
+
+
+## Rimuovere un elemento di lavoro
+
+Se si decide di non utilizzare l&#39;elemento di lavoro, è possibile rimuoverlo dall&#39;elenco.
+
+Per rimuovere un elemento di lavoro:
+
+1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
+1. (Condizionale) Fai clic su **Personalizza** per aggiungere il widget **Il mio lavoro**.
+
+1. Nell&#39;elenco lavori del widget, passa il cursore sull&#39;elemento di lavoro, quindi fai clic sull&#39;icona **Riepilogo** per visualizzare le informazioni sull&#39;elemento di lavoro.
+   ![](assets/open-summary-new-home.png)
+1. nella sezione **Assegnazioni**, rimuovi il tuo nome.
+   ![](assets/remove-assignment.png)
+
+
+
+<!--
+## Reassign a request
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. In the **[!UICONTROL Work List]** area, select the request you want to reassign.
+
+1. Click on the **[!UICONTROL Assignments]** widget and remove yourself from the request, then type the name of the user you want to reassign the request to.
 
    >[!TIP]
    >
-   >Se la richiesta di lavoro è ancora nello stato Pronto per l&#39;avvio o Non pronto, è possibile utilizzare il pulsante **[!UICONTROL Riassegna]** nel menu **[!UICONTROL Altro]** del [!UICONTROL Elenco lavori].\
-   >![Pulsante Riassegna](assets/reassign-in-left-panel-350x204.png)
+   >If the work request is still in the Ready to Start or Not Ready state, you can use the **[!UICONTROL Reassign]** button in the **[!UICONTROL More]** menu in the [!UICONTROL Work List].\
+   >![Reassign button](assets/reassign-in-left-panel-350x204.png)
 
-1. Se lo stato di un&#39;attività viene modificato in [!UICONTROL Nuovo] o [!UICONTROL In corso] dopo il completamento, è necessario annullare l&#39;assegnazione dell&#39;utente, salvare l&#39;attività e riassegnare l&#39;utente affinché l&#39;attività venga nuovamente visualizzata nella sezione Elenco lavori dell&#39;area Home.
+1. If a task's status is changed to [!UICONTROL New] or [!UICONTROL In Progress] after it was completed, you must unassign the user, save the task, then reassign the user in order for the task to reappear in their Home Work List.
 
-## Rispondere a una richiesta
 
-È possibile rispondere a una richiesta per chiarire ulteriormente la richiesta o proporre una nuova data.
 
-1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
-1. Nell&#39;area **[!UICONTROL Elenco lavori]** selezionare la richiesta a cui si desidera rispondere.
-1. Individua la persona che ti ha assegnato la richiesta.
+## Reply to a request
 
-   Queste informazioni sono disponibili nella scheda [!UICONTROL Aggiornamenti] dell&#39;attività. Assicurarsi che l&#39;opzione **[!UICONTROL Mostra aggiornamenti di sistema]** sia abilitata.
+You can reply to a request to further clarify the request or to propose a new date.
 
-1. Fai clic su **[!UICONTROL Avvia nuovo aggiornamento]** e inizia a digitare la risposta.
-1. Immetti il nome del destinatario nella casella **[!UICONTROL Notify]**, quindi fai clic su **[!UICONTROL Update]**.
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. In the **[!UICONTROL Work List]** area, select the request you want to reply to.
+1. Locate the individual who assigned the request to you.
+
+   You can find this information on the [!UICONTROL Updates] tab of the task. Make sure the option to **[!UICONTROL Show System Updates]** is enabled.
+
+1. Click **[!UICONTROL Start new update]** and begin typing your reply.
+1. Enter the name of the recipient in the **[!UICONTROL Notify]** box, then click **[!UICONTROL Update]**.
 
    >[!TIP]
    >
-   >Se la richiesta di lavoro è ancora nello stato Pronto per l&#39;avvio o [!UICONTROL Non pronto], è possibile utilizzare il pulsante **[!UICONTROL Rispondi]** nel menu **[!UICONTROL Altro]** in [!UICONTROL Elenco lavori].\
-   >![[!UICONTROL Pulsante Rispondi]](assets/reassign-in-left-panel-350x204.png)   >
+   >If the work request is still in the Ready to Start or [!UICONTROL Not Ready] state, you can use the **[!UICONTROL Reply]** button in the **[!UICONTROL More]** menu in the [!UICONTROL Work List].\
+   >![[!UICONTROL Reply button]](assets/reassign-in-left-panel-350x204.png)   
 
-## Lavorare su una richiesta
-
-Quando si fa clic sul pulsante [!UICONTROL Lavoraci], si indica all&#39;utente che ha inviato la richiesta e a qualsiasi altro utente che potrebbe essere assegnato alla richiesta che si sta per iniziare a lavorare sulla richiesta. Per ulteriori informazioni sull&#39;utilizzo delle richieste, vedere [Gestire le richieste del team e del lavoro](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
-
-1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
-1. Nell&#39;area **[!UICONTROL Elenco lavori]**, seleziona la richiesta su cui vuoi lavorare, quindi fai clic su **[!UICONTROL Lavoraci]**.\
-   Le informazioni sul problema vengono visualizzate nel pannello di destra.
-
-## Rimuovere una richiesta
-
-Se decidi di non lavorare sulla richiesta, puoi convertire l’attività o il problema in una richiesta o rimuoverla dall’elenco.
-
-1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
-1. Nella **[!UICONTROL Elenco lavori]**, selezionare l&#39;elemento in attesa di elaborazione.
-1. Fai clic sul widget **[!UICONTROL Assegnazioni]** e rimuovi te stesso. Questo rimuove l’elemento di lavoro dall’elenco di lavoro. Se la richiesta non viene assegnata ad altri utenti o a un altro team o mansione, la richiesta viene lasciata senza assegnazione.
-
-   Oppure
-
-   Fai clic sull&#39;icona del menu **[!UICONTROL Altro]** ![](assets/more-icon.png) a destra del nome dell&#39;attività o del problema nell&#39;elenco [!UICONTROL Lavoro principale].
-
-   ![](assets/more-menu-in-home-work-list-convert-to-request-remove-add-to-priority-options-nwe-350x160.png)
-
-1. Selezionare una delle opzioni seguenti:
-
-   * **[!UICONTROL Converti in richiesta di lavoro]:** Selezionare questa opzione per convertire nuovamente l&#39;elemento di lavoro in una richiesta di lavoro.\
-
-     L’elemento di lavoro viene ritrasferito a una richiesta e l’utente rimane assegnato alla richiesta.\
-      Puoi accettare la richiesta in un secondo momento facendo nuovamente clic su **[!UICONTROL Lavoraci]**.
-
-   * **[!UICONTROL Rimuovi]:** Seleziona questa opzione per rimuovere una richiesta dal tuo [!UICONTROL Elenco lavori].\
-
-     Sei stato rimosso dall&#39;assegnazione della richiesta e questa non è più associata al tuo nome in [!DNL Adobe Workfront].\
-      Se la richiesta non viene assegnata ad altri utenti o a un altro team o mansione, la richiesta viene lasciata senza assegnazione.
+   -->

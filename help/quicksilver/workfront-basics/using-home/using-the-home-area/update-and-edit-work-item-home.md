@@ -6,10 +6,10 @@ description: Puoi visualizzare e aggiungere aggiornamenti a un elemento di lavor
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
+source-git-commit: 3786f62c16c7d295de3b19fd6b7ea5ec21fc8ce6
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 0%
+source-wordcount: '658'
+ht-degree: 4%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 0%
 <!--Audited: April 2024-->
 
 Puoi visualizzare e aggiungere aggiornamenti a un elemento di lavoro all&#39;interno dell&#39;area [!UICONTROL Home] in [!DNL Adobe Workfront]. È inoltre possibile modificare altri dati relativi all&#39;elemento di lavoro se si dispone dell&#39;accesso per modificarlo.
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 ## Requisiti di accesso
 
@@ -53,6 +55,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 *Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore [!DNL Workfront]. Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Visualizzare gli aggiornamenti su un elemento di lavoro
 
 Puoi visualizzare gli aggiornamenti su qualsiasi elemento di lavoro nella [!UICONTROL Elenco lavori]:
@@ -61,41 +65,60 @@ Puoi visualizzare gli aggiornamenti su qualsiasi elemento di lavoro nella [!UICO
 1. Nell&#39;area **[!UICONTROL Elenco lavori]**, selezionare l&#39;elemento in cui si desidera visualizzare gli aggiornamenti.\
    Gli aggiornamenti vengono visualizzati nel pannello di destra.
 
-1. (Facoltativo) Per filtrare gli aggiornamenti di sistema in modo da visualizzare solo gli aggiornamenti utente, impostare **[!UICONTROL Mostra aggiornamenti di sistema]** su Disattivato.
 
-   ![](assets/show-system-updates-home-350x114.png)
 
-## Fornire aggiornamenti su un elemento di lavoro
+## Aggiungere un commento a un elemento di lavoro
 
 Puoi fornire aggiornamenti su qualsiasi elemento di lavoro nell&#39;elenco [!UICONTROL Lavoro]:
 
-1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro o sul **menu principale** ![](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro, se disponibile, quindi fai clic su **[!UICONTROL Home]**.
-1. Nell&#39;area **[!UICONTROL Elenco lavori]**, selezionare l&#39;elemento in cui si desidera fornire un aggiornamento.
-1. Nel pannello di destra, fai clic su **[!UICONTROL Aggiorna]** per visualizzare un campo di testo.
+1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
+1. (Condizionale) Fai clic su **Personalizza** per aggiungere i seguenti widget:
 
-   ![](assets/make-an-update-box-expanded-home-nwe-350x204.png)
+   | Widget | Descrizione |
+   |--------------|---------------------------------------------------------------------------------------------------|
+   | Bacheche | Visualizza tutte le bacheche create o che sono state invitate a utilizzare |
+   | Il mio lavoro | Visualizza le attività e i problemi assegnati all&#39;utente |
+   | I miei progetti | Visualizza i progetti di cui sei proprietario o a cui lavori |
+   | Le mie attività | Visualizza le attività assegnate a te |
+   | I miei problemi | Visualizza le Issues assegnate a te |
+   | Le mie richieste | Visualizza tutte le richieste inviate |
+   | Le mie approvazioni | Visualizza tutte le approvazioni in sospeso, assegnate, delegate e inviate |
 
-1. Nel campo fornito, specifica l’aggiornamento.
-1. (Facoltativo) Specificare una delle seguenti informazioni:\
-   **[!UICONTROL Data commit]:** Selezionare una data dalla selezione della data quando si esegue il commit per completare l&#39;elemento di lavoro.\
-   **[!UICONTROL Come va?]:** Seleziona una nuova condizione per l&#39;attività o il problema. Per ulteriori informazioni sulle condizioni di attività e problemi, vedere [Aggiorna condizione per attività e problemi](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).\
-   **[!UICONTROL Stato]:** Seleziona un nuovo stato per l&#39;attività o il problema. Per ulteriori informazioni sugli stati dell&#39;attività, vedere [Aggiorna stato attività](../../../manage-work/projects/updating-work-in-a-project/update-task-status.md). Per ulteriori informazioni sugli stati dei problemi, vedere [Accedere all&#39;elenco degli stati dei problemi di sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).\
-   **[!UICONTROL Barra di completamento]:** Indicare la percentuale di lavoro completata facendo scorrere la barra di avanzamento fino alla percentuale desiderata. È inoltre possibile fare doppio clic sulla barra di completamento e immettere la percentuale di completamento.
+1. Individuare l&#39;elemento di lavoro da aggiornare.
+1. Passa il puntatore del mouse sul nome, quindi fai clic su **Aggiungi nuovo aggiornamento**.
+   ![](assets/add-update-on-widget.png)
+1. Inizia a digitare il commento.
+1. (Facoltativo) Nella casella **Assegna tag a persone o team**, inizia a digitare il nome o l&#39;e-mail di un utente o di un team che desideri includere in questo commento, quindi selezionalo quando viene visualizzato nell&#39;elenco.
+1. (Facoltativo) Utilizza le opzioni nella barra degli strumenti Testo formattato per formattare il testo, aggiungere emoticon, collegamenti o immagini al commento, per migliorarne il contenuto.
+1. Fai clic su **Invia** per aggiungere il commento all&#39;elemento di lavoro.
 
-1. Fai clic su **[!UICONTROL Aggiorna]**.
+   >[!IMPORTANT]
+   >
+   >È possibile modificare il commento solo entro 15 minuti dall&#39;invio. Per modificare un commento, fai clic sul menu **Altro** nell&#39;angolo superiore destro del commento, quindi fai clic su **Modifica**.
+
+Per informazioni più dettagliate sull&#39;aggiunta di aggiornamenti, vedere [Aggiungere un aggiornamento a un elemento di lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Modificare un elemento di lavoro
 
 È possibile modificare qualsiasi campo di qualsiasi elemento di lavoro a cui si ha accesso per la modifica.
 
-1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro o sul **menu principale** ![](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro, se disponibile, quindi fai clic su **[!UICONTROL Home]**.
-1. Nell&#39;area **[!UICONTROL Elenco lavori]** selezionare l&#39;elemento che si desidera modificare.\
-   Tutti i campi che puoi visualizzare vengono visualizzati nel pannello di destra.
+1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
+1. (Condizionale) Fai clic su **Personalizza** per aggiungere i seguenti widget:
 
-1. Nel pannello a destra, passa il cursore sul campo da modificare.\
-   Se si dispone dei diritti per modificare il campo, il campo viene evidenziato quando si passa il puntatore del mouse su di esso.
+   | Widget | Descrizione |
+   |--------------|---------------------------------------------------------------------------------------------------|
+   | Bacheche | Visualizza tutte le bacheche create o che sono state invitate a utilizzare |
+   | Il mio lavoro | Visualizza le attività e i problemi assegnati all&#39;utente |
+   | I miei progetti | Visualizza i progetti di cui sei proprietario o a cui lavori |
+   | Le mie attività | Visualizza le attività assegnate a te |
+   | I miei problemi | Visualizza le Issues assegnate a te |
+   | Le mie richieste | Visualizza tutte le richieste inviate |
+   | Le mie approvazioni | Visualizza tutte le approvazioni in sospeso, assegnate, delegate e inviate |
 
-   ![](assets/home-350x123.png)
+1. Passa il puntatore del mouse sull&#39;elemento di lavoro, quindi fai clic sull&#39;icona **Riepilogo**.
+   ![](assets/open-summary-new-home.png)
 
+1. Nel pannello Riepilogo, posizionate il cursore sul campo da modificare.
+Se si dispone dei diritti per modificare il campo, il campo viene evidenziato quando si passa il puntatore del mouse su di esso.
 1. Fai clic sul campo da modificare, quindi apporta l’aggiornamento desiderato.
 1. Fai clic lontano dal campo per salvare le modifiche.

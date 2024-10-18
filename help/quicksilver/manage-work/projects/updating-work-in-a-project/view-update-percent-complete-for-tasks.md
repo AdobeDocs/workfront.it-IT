@@ -6,7 +6,7 @@ description: È possibile aggiornare la percentuale di completamento di un'attiv
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: e68972f7334a93f7fbd3db29919a2f2746ce64fe
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 0%
@@ -91,7 +91,7 @@ Per aggiornare manualmente le attività, è necessario disporre dei seguenti dir
 
 * **Home**: è possibile aggiornare la percentuale di completamento di un&#39;attività o di un problema dal pannello Riepilogo nell&#39;area Home o dal widget Il mio lavoro.
 
-Per informazioni, vedere [Guida introduttiva alla nuova Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Per informazioni, vedere [Guida introduttiva alla nuova Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 ## Considerazioni sull&#39;aggiornamento della percentuale di completamento di un&#39;attività
 

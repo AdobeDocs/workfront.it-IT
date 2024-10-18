@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 9f351a16c2a741b922e8ee51efb3ea3d7d2d18e1
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '749'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Ad esempio, dopo aver creato un progetto, è possibile aggiungere attività e modificarle per organizzare il piano del progetto. Per ulteriori informazioni sulla creazione di un progetto, vedere [Creare un progetto](../../../manage-work/projects/create-projects/create-project.md).
 
-Per informazioni sulla creazione di attività personali non incluse in un progetto, vedere la sezione [Creare un&#39;attività personale](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task) nell&#39;articolo [Creare elementi di lavoro dall&#39;area Home](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+Per informazioni sulla creazione di attività personali non incluse in un progetto, vedere la sezione [Creare un&#39;attività personale](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task) nell&#39;articolo [Creare elementi di lavoro e progetti dall&#39;area Home](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 Questo articolo descrive come creare le attività da zero. È inoltre possibile creare le attività nei modi seguenti:
 

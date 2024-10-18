@@ -3,21 +3,18 @@ product-area: projects
 navigation-topic: use-the-home-area
 title: Utilizzare l'area I miei aggiornamenti
 description: Puoi usare l'area [!UICONTROL I miei aggiornamenti] per rivedere rapidamente le approvazioni in attesa della tua decisione o le conversazioni in cui sei stato incluso.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
 
 # Utilizza l&#39;area [!UICONTROL I miei aggiornamenti]
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: there is a similar article like this in the "My Work" folder that is conditioned for Classic only)</p>
--->
 
 Puoi usare l&#39;area [!UICONTROL I miei aggiornamenti] per rivedere rapidamente le approvazioni in attesa della tua decisione o le conversazioni in cui sei stato incluso.
 
@@ -28,6 +25,8 @@ Per informazioni sulle [!DNL Adobe Workfront] licenze, vedere [[!DNL Adobe Workf
 Se si dispone di un tipo di licenza diverso da Revisione, l&#39;amministratore di [!DNL Workfront] o del gruppo deve aggiungere l&#39;area [!UICONTROL I miei aggiornamenti] al modello di layout per visualizzarlo nel menu principale. Per informazioni, vedere [Personalizzare il [!UICONTROL menu principale] utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -57,6 +56,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 *Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore [!DNL Workfront]. Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisiti
 

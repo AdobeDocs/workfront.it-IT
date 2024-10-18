@@ -6,9 +6,9 @@ description: Questa pagina contiene informazioni sull’imminente rimozione dell
 author: Nolan
 feature: Product Announcements
 exl-id: 1fef08c9-624d-4783-a0bd-8009413fc2bd
-source-git-commit: 695674b1f89aa116e592081d72403b4be568f931
+source-git-commit: e68972f7334a93f7fbd3db29919a2f2746ce64fe
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Sappiamo comunque che un cambiamento di questo tipo può essere dirompente, e vo
 
 **Cosa posso usare al suo posto?**
 
-* La nuova Home è già disponibile come sostituzione. Per ulteriori informazioni sull&#39;utilizzo della nuova Home, vedere [Introduzione alla nuova Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md). Può essere personalizzato sia dagli utenti tramite opzioni di personalizzazione che dagli amministratori tramite modelli di layout.
+* La nuova Home è già disponibile come sostituzione. Per ulteriori informazioni sull&#39;utilizzo della nuova Home, vedere [Introduzione alla nuova Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md). Può essere personalizzato sia dagli utenti tramite opzioni di personalizzazione che dagli amministratori tramite modelli di layout.
 
 * Le priorità sono in fase di sviluppo e costituiranno un altro elemento della semplificazione dell’esperienza di gestione del lavoro in Adobe Workfront.
 
@@ -54,13 +54,13 @@ Consigliamo agli amministratori di:
 
 1. Riassegnare gli altri utenti al nuovo layout della home page.
 
-Procedendo in questo modo, gli utenti avranno il tempo di adattarsi alla nuova esperienza e di personalizzare le nuove pagine iniziali in base alle loro esigenze. Per informazioni su come personalizzare i widget nella nuova home page, vedere [Rimuovere, aggiungere e ridisporre i widget](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
+Procedendo in questo modo, gli utenti avranno il tempo di adattarsi alla nuova esperienza e di personalizzare le nuove pagine iniziali in base alle loro esigenze. Per informazioni su come personalizzare i widget nella nuova home page, vedere [Rimuovere, aggiungere e ridisporre i widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
 ### Scopri cosa è disponibile nella nuova Home e Priorità
 
 Questi articoli forniscono informazioni sulle funzionalità disponibili nella nuova Home e Priorità:
 
-* [Passa dalla home legacy alla nuova home](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
+<!--* [Move from Legacy Home to New Home](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)-->
 * [Passa dalla home page legacy alle priorità](/help/quicksilver/workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
 
 ### Segui l’esperienza Home man mano che si sviluppa

@@ -4,9 +4,9 @@ description: Miglioramenti per la casa nel primo trimestre 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 54bbcc0a86516f4e4b561a7fae8c73c3979e59a4
+source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,6 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 
 Per facilitarti la visualizzazione dello stato delle approvazioni e delle revisioni sui tuoi progetti, abbiamo aggiunto un nuovo widget Approvazioni in sospeso alla pagina Home. Qui puoi visualizzare un elenco di utenti assegnati per approvare o rivedere documenti su progetti di tua proprietà, vedere lo stato della loro revisione o approvazione e ricordare ai revisori e agli approvatori di completare la loro revisione o approvazione.
 
-Per ulteriori informazioni sui widget Home, vedere [Introduzione alla nuova Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Controlli di amministratore per la nuova Home utilizzando i modelli di layout
 
@@ -34,5 +33,3 @@ Per ulteriori informazioni, vedere [Personalizzare la nuova home utilizzando un 
 ## I pulsanti di azione rapida Il mio lavoro sono stati modificati per essere visualizzati solo al passaggio del mouse
 
 Per migliorare le prestazioni, i pulsanti di azione rapida disponibili nel widget Il mio lavoro ora vengono visualizzati solo quando un elemento di lavoro viene passato con il mouse.
-
-Per ulteriori informazioni sui pulsanti di azione rapida disponibili nel widget Il mio lavoro, vedere [Introduzione alla nuova home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).

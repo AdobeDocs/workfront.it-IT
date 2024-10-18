@@ -6,7 +6,7 @@ description: Il processo di approvazione delle schede orario fornisce ai respons
 author: Alina
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -122,7 +122,7 @@ Verrà aperta l&#39;area **Schede orario**.
 
 Viene visualizzata l’area Home.
 
-1. Verifica che il widget **Le mie approvazioni** sia stato aggiunto alla tua area Home. Per ulteriori informazioni, vedere [Aggiungere, modificare o rimuovere widget nella nuova home](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
+1. Verifica che il widget **Le mie approvazioni** sia stato aggiunto alla tua area Home. Per ulteriori informazioni, vedere [Aggiungere, modificare o rimuovere widget nella nuova home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 1. Trova un&#39;approvazione della scheda orario nel widget Le mie approvazioni.
 1. (Facoltativo) Espandi il menu a discesa a destra dei pulsanti Approva o Rifiuta per aggiungere un commento sulla tua decisione, quindi fai clic su **Aggiungi**.
 1. Fai clic su uno dei seguenti pulsanti per prendere la decisione relativa all’approvazione:
