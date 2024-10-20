@@ -6,9 +6,9 @@ description: Puoi creare dashboard per accedere rapidamente alle informazioni in
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 008713ef6587041310388c05909ad5f78fb9fa4c
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '496'
 ht-degree: 1%
 
 ---
@@ -102,13 +102,13 @@ Prima di poter aggiungere gli oggetti seguenti a un dashboard, è necessario cre
    Consider adding the information from this article above here, at some point, instead of linking to it.)
    -->
 
-1. Cercare i report, i calendari o le pagine esterne nel campo **Cerca per nome o tipo ...**, quindi trascinarli nel riquadro di layout quando vengono visualizzati nell&#39;elenco.
+1. Nella sezione **Report e calendari disponibili**, inizia a digitare il nome di un report, di un calendario o di una pagina esterna nella barra di ricerca, quindi trascina e rilascia il report, il calendario o la pagina esterna nel riquadro di layout a destra.
 
    >[!NOTE]
    >
    >Durante la ricerca di un elemento, la ricerca restituisce uno dei 2.000 rapporti creati più di recente. I nomi dei rapporti che includono caratteri Unicode non vengono restituiti nei risultati della ricerca. Come best practice, evita di includere caratteri unicode durante la denominazione di oggetti in Workfront digitando i nomi anziché copiarli e incollarli da un’altra origine.
 
-   ![Cerca i report](assets/qs-new-dashboard-ui-0722.png)
+   ![Cerca i report](assets/unshimmed-dashboard-ui.png)
 
 1. (Facoltativo) Fai clic su **Aggiungi pagina esterna** per aggiungere una nuova pagina esterna al dashboard.
 

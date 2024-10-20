@@ -6,9 +6,9 @@ description: Lo scopo del dashboard è quello di fornire un accesso rapido alle 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 008713ef6587041310388c05909ad5f78fb9fa4c
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '538'
 ht-degree: 1%
 
 ---
@@ -82,7 +82,7 @@ Per informazioni sulla creazione di dashboard, vedere [Creare un dashboard](../.
    * **Nome**: modificare il nome del dashboard.
    * **Descrizione**: specificare una descrizione per il dashboard.
 
-1. Nella sezione **Report disponibili**, inizia a digitare il nome di un report o di una pagina esterna nel campo **Cerca per nome o tipo ...**, quindi trascina e rilascia il report nel riquadro di layout a destra.
+1. Nella sezione **Report e calendari disponibili**, inizia a digitare il nome di un report, di un calendario o di una pagina esterna nella barra di ricerca, quindi trascina e rilascia il report, il calendario o la pagina esterna nel riquadro di layout a destra.
 
    >[!NOTE]
    >
