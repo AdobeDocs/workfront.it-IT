@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 507145d1afb1f497dc34072d455ee443263361fe
+source-git-commit: 43cf88c533b80324266f0660648c6a1ab13ca8fc
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '905'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,7 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
 
 1. Fare clic sulla freccia giù ![](assets/dropdown-arrow.png) in **Personalizza gli elementi visualizzati dagli utenti**, quindi fare clic su **Riepilogo**.
 
-1. Nell&#39;elenco a sinistra fare clic sul tipo di oggetto (**Attività**, **Problemi**, **Progetti**, **Documenti** o **Versioni documento**) che si desidera personalizzare in Home e Riepilogo.
+1. Nell&#39;elenco a sinistra fare clic sul tipo di oggetto (**Attività**, **Problemi**, **Progetti**, **Documenti** o **Versioni documento**) che si desidera personalizzare nel pannello Riepilogo.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -115,7 +115,7 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
 
    ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
-1. (Condizionale) Se viene visualizzato il menu a discesa **Imposta pulsante azione principale** (se si seleziona **Attività** o **Problemi** nell&#39;elenco a sinistra), fare clic sull&#39;azione principale (**Fine** o **Stato**) che si desidera rendere disponibile agli utenti nell&#39;area Home e nel pannello Riepilogo quando visualizzano un&#39;attività o un problema.
+1. (Condizionale) Se viene visualizzato il menu a discesa **Imposta pulsante azione principale** (se si seleziona **Attività** o **Problemi** nell&#39;elenco a sinistra), fare clic sull&#39;azione principale (**Fine** o **Stato**) che si desidera rendere disponibile agli utenti nel pannello Riepilogo quando visualizzano un&#39;attività o un problema.
 
    ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
@@ -124,7 +124,7 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
    ![](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. Ripetete i passaggi 3-6 per personalizzare il pannello Riepilogo per qualsiasi altro tipo di oggetto.
-1. Fai clic su **Impostazioni globali**, nell&#39;angolo inferiore sinistro, quindi attiva o disattiva le seguenti opzioni relative agli oggetti Adobe Workfront in Home e Riepilogo:
+1. Fai clic su **Impostazioni globali**, nell&#39;angolo inferiore sinistro, quindi attiva o disattiva le seguenti opzioni relative agli oggetti Adobe Workfront nel Riepilogo:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -132,7 +132,7 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
     <tbody> 
      <tr> 
       <td role="rowheader">Mostra aggiornamenti per il lavoro</td> 
-      <td>Visualizza in Home o Riepilogo gli aggiornamenti apportati a un’attività o a un problema selezionato. Ciò include sia gli aggiornamenti di sistema che quelli effettuati da un utente. Gli utenti possono ancora filtrare gli aggiornamenti di sistema, come descritto in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">Abilitare o disabilitare gli aggiornamenti di sistema</a> in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Aggiorna lavoro</a>.</td> 
+      <td>Visualizza nel pannello Riepilogo tutti gli aggiornamenti apportati a un’attività o a un problema selezionato. Ciò include sia gli aggiornamenti di sistema che quelli effettuati da un utente. Gli utenti possono ancora filtrare gli aggiornamenti di sistema, come descritto in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">Abilitare o disabilitare gli aggiornamenti di sistema</a> in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Aggiorna lavoro</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tempo di connessione rispetto al lavoro</td> 
@@ -140,16 +140,16 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
      </tr> 
      <tr> 
       <td role="rowheader">Visualizza documenti associati al lavoro</td> 
-      <td>Visualizza un'area Documenti in Home e Riepilogo quando viene selezionata un'attività o un problema, elencando tutti i documenti allegati all'attività o al problema. Gli utenti possono fare clic sui documenti per visualizzarli in una finestra di anteprima.</td> 
+      <td>Visualizza un'area Documenti nel pannello Riepilogo quando viene selezionata un'attività o un problema, in cui sono elencati tutti i documenti allegati all'attività o al problema. Gli utenti possono fare clic sui documenti per visualizzarli in una finestra di anteprima.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nascondi data/ora</td> 
-      <td>Nasconde i timestamp per i seguenti campi data in Home e Summary:
+      <td>Nasconde i timestamp per i seguenti campi di data nel pannello Riepilogo:
        <ul>
         <li>Data di completamento Pianificata</li>
         <li>Conferma data</li>
         <li>Data di invio</li>
-       </ul><p><b>NOTA</b>:</p> <p> Quando questa opzione è abilitata, gli elementi di lavoro scaduti vengono spostati nel raggruppamento In ritardo nella sezione Work List (Elenco di lavoro) dell’area Home in base alla sola data e non all’ora.</p></td> 
+       </ul></td> 
      </tr> 
     </tbody> 
    </table>

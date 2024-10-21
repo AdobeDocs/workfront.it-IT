@@ -3,21 +3,21 @@ title: Personalizzare la nuova home utilizzando un modello di layout
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: È possibile utilizzare un modello di layout per configurare ciò che gli utenti visualizzano quando aprono una nuova Home.
+description: È possibile utilizzare un modello di layout per configurare ciò che gli utenti visualizzano all’apertura della pagina Home.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 1426f806b72d740712eba5e337c8424f8af6c9dc
+source-git-commit: 0a19683e2311b1acc57423f5cb5a7dd141c8b79c
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '841'
 ht-degree: 1%
 
 ---
 
-# Personalizzare la nuova Home utilizzando un modello di layout
+# Personalizzare la Home utilizzando un modello di layout
 
-È possibile utilizzare un modello di layout per configurare ciò che gli utenti visualizzano quando aprono per la prima volta una nuova Home.
+È possibile utilizzare un modello di layout per configurare gli elementi visualizzati dagli utenti la prima volta che aprono Home.
 
 Puoi configurare:
 
@@ -33,7 +33,7 @@ Puoi configurare:
 
 
 
-Per informazioni sulla nuova Home, vedere [Introduzione alla Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+Per informazioni sulla home, vedere [Introduzione alla home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 Per informazioni sulla creazione di modelli di layout, vedere [Creare e gestire modelli di layout](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -73,9 +73,9 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
 
 +++
 
-## Personalizzare la nuova home utilizzando un modello di layout
+## Personalizza la Home utilizzando un modello di layout
 
-Per personalizzare la nuova home tramite un modello di layout:
+Per personalizzare la Home tramite un modello di layout:
 
 1. Iniziare a lavorare su un modello di layout, come descritto in [Creare e gestire modelli di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -91,13 +91,13 @@ Per personalizzare la nuova home tramite un modello di layout:
       <td role="rowheader">Progettazione e layout</td> 
       <td>
       <p>Selezionate i widget che saranno presenti nelle aree di lavoro degli utenti, la loro posizione e scegliete uno sfondo. Gli utenti non possono rimuovere i widget selezionati, ma possono spostarli e ridimensionarli liberamente e aggiungere altri widget.</p>
-      <p>Questa scheda funziona essenzialmente come una nuova area di lavoro principale; in quanto tale, può essere personalizzata in base ai passaggi descritti in <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Aggiungere, modificare o rimuovere widget nella Home</a>. Selezionate i widget e disponete l'area di lavoro come desiderate che appaia per gli utenti.</p>
+      <p>Questa scheda funziona essenzialmente come una piccola area di lavoro principale; in quanto tale, può essere personalizzata in base ai passaggi descritti in <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Aggiungere, modificare o rimuovere widget nella Home</a>. Selezionate i widget e disponete l'area di lavoro come desiderate che appaia per gli utenti.</p>
       <p>Per modificare lo sfondo, seguire i passaggi descritti in <b>Personalizzazione in background</b> in <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref">Introduzione alla Home</a>.</p>
       <p>
 
 >[!NOTE]
 >
->Solo lo spostamento o il ridimensionamento dei widget nel modello di layout non attiverà le nuove home page degli utenti per aggiornare il layout. Tuttavia, l’aggiunta o la rimozione di un widget attiverà un aggiornamento delle pagine degli utenti.
+>Solo lo spostamento o il ridimensionamento dei widget nel modello di layout non attiverà le home page degli utenti per aggiornare il layout. Tuttavia, l’aggiunta o la rimozione di un widget attiverà un aggiornamento delle pagine degli utenti.
 
 </p>
      </td> 
@@ -119,7 +119,8 @@ Per personalizzare la nuova home tramite un modello di layout:
 
 >[!IMPORTANT]
 >
->Gli utenti devono disporre almeno dell&#39;accesso Crea alle visualizzazioni per consentire la corretta applicazione della configurazione della colonna Amministratore alle nuove home page.
+>* Le opzioni Filtro, Colonne e Gruppo sono collegate alle opzioni di personalizzazione elenco nel modello di layout. Le modifiche apportate qui verranno applicate anche a queste impostazioni.
+>* Gli utenti devono disporre almeno dell&#39;accesso Crea alle visualizzazioni per consentire la corretta applicazione della configurazione della colonna Amministratore alle proprie home page.
 
 </p>
       <li><p><b>Impostate un filtro o un gruppo predefinito per il widget:</b></p>
@@ -147,4 +148,4 @@ Per personalizzare la nuova home tramite un modello di layout:
 
 >[!IMPORTANT]
 >
->È necessario aggiornare la nuova home page per visualizzare le personalizzazioni dal modello di layout.
+>È necessario aggiornare la home page per visualizzare le personalizzazioni dal modello di layout.
