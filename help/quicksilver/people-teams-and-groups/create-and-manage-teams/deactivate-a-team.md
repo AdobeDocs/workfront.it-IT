@@ -1,19 +1,19 @@
 ---
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
-title: Disattivare un team
+title: Disattivare o eliminare un team
 description: Puoi disattivare i team che non utilizzi più conservando i dati storici associati. Gli amministratori di Adobe Workfront possono riattivare un team in qualsiasi momento dall’area Team di Configurazione.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
 
-# Disattivare un team
+# Disattivare o eliminare un team
 
 Puoi disattivare i team che non utilizzi più conservando i dati storici associati. Gli amministratori di [!DNL Adobe Workfront] possono riattivare un team in qualsiasi momento dall&#39;area Team in Configurazione. Se si disattiva un team, il team non verrà più visualizzato nelle seguenti aree:
 
@@ -53,7 +53,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>piano Adobe Workfront</p> </td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
@@ -62,7 +62,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <p>Nuovo: Standard</p>
    <p>oppure</p>
    <p>Corrente: Piano</p></td>
-  </tr> 
+  </tr>
+  <tr>
+   <td>Configurazioni del livello di accesso</td>
+   <td><p>Per disattivare un team, non è richiesta alcuna configurazione.</p>
+   <p>Per eliminare un team, è necessario essere un amministratore di sistema.</p></td>
+  </tr>
  </tbody> 
 </table>
 
@@ -85,13 +90,28 @@ Quando si utilizzano le code di richieste, se si disattiva un team assegnato com
 1. Fai clic sull&#39;icona **[!DNL Switch team]**, quindi seleziona un nuovo team dal menu a discesa o cerca un team nella barra di ricerca.
 1. Fai clic sul menu **[!UICONTROL Altro]**, quindi seleziona **[!UICONTROL Modifica]**.
 
-   ![](assets/edit-team-settings-350x205.png)
+   ![](assets/edit-team-settings.png)
 
-1. Deselezionare la casella di controllo **[!UICONTROL È attivo]**.
+1. Deselezionare la casella di controllo **[!UICONTROL È attivo]** nelle impostazioni del team.
 1. Fai clic su **[!UICONTROL Salva modifiche]**.
 
-## Limitazioni note
+## Limitazioni note della disattivazione di un team
 
 I team disattivati vengono visualizzati nelle seguenti aree:
 
 * Il campo Proprietario in [!DNL Workfront Goals]. È necessaria una licenza aggiuntiva per [!DNL Adobe Workfront Goals]. Per ulteriori informazioni, vedere [Introduzione a [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
+
+## Eliminare un team
+
+Solo un amministratore di sistema può eliminare un team. Se il proprietario del team (ma non l&#39;amministratore) tenta di eliminare un team, verrà visualizzato un messaggio di errore.
+
+Per eliminare un team:
+
+{{step1-to-team}}
+
+1. Fai clic sull&#39;icona **[!DNL Switch team]**, quindi seleziona un nuovo team dal menu a discesa o cerca un team nella barra di ricerca.
+1. Fai clic sul menu **[!UICONTROL Altro]**, quindi seleziona **[!UICONTROL Elimina]**.
+
+   ![](assets/edit-team-settings.png)
+
+1. Fai clic su [!UICONTROL **Conferma**] nel messaggio di conferma per eliminare definitivamente il team. Non è possibile recuperare i team eliminati.

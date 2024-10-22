@@ -6,9 +6,9 @@ description: Gli amministratori di Workfront e gli utenti con una licenza Pianif
 author: Lisa
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -55,11 +55,11 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Fai clic sul menu **[!UICONTROL Altro]** ![](assets/more-icon.png), quindi seleziona **[!UICONTROL Modifica]**.
 
-   Solo i membri del team con una licenza di [!UICONTROL Piano] o [!UICONTROL Lavoro] possono visualizzare questa opzione.
+   Solo i membri del team con una licenza [!UICONTROL Standard], [!UICONTROL Piano] o [!UICONTROL Lavoro] possono vedere questa opzione.
 
    Se l&#39;opzione [!UICONTROL Modifica] è necessaria ma non è visualizzata, chiedere all&#39;amministratore di Workfront di verificare che [!UICONTROL Impostazioni team] sia visibile nel modello di layout per [!UICONTROL Team Scrum], [!UICONTROL Team Kanban] o [!UICONTROL Team Waterfall].
 
-   ![](assets/edit-team-settings-1.png)
+   ![](assets/edit-team-settings.png)
 
 1. Nelle impostazioni del team è possibile apportare i seguenti tipi di modifiche:
 

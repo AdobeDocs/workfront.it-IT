@@ -6,9 +6,9 @@ description: La configurazione predefinita di Adobe Workfront include un pulsant
 author: Lisa
 feature: People Teams and Groups
 exl-id: 9387c5ae-2835-4d8f-80ec-22fcd16c5b6e
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '794'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Per configurare il pulsante Start:
 
 1. Nel menu a discesa **[!UICONTROL Team]**, seleziona un team.\
    oppure\
-   Fare clic su **[!UICONTROL Crea team]**.
+   Fare clic su **[!UICONTROL Crea nuovo team]**.
 
 1. Fai clic sull&#39;icona **[!UICONTROL Altro]** ![](assets/more-icon.png), quindi fai clic su **[!UICONTROL Modifica]**.
 

@@ -6,9 +6,9 @@ description: Adobe Workfront consente ai team agili di completare il lavoro in m
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1003'
 ht-degree: 1%
 
 ---
@@ -98,7 +98,7 @@ Per ulteriori informazioni, vedere [Panoramica del grafico a burn-down Agile](..
 
 1. Fai clic sull&#39;icona **[!UICONTROL Switch Teams]** ![Switch team icon](assets/switch-team-icon.png), quindi fai clic su **[!UICONTROL Create new team]**.
 
-   ![Seleziona Crea nuovo team.](assets/create-new-team-350x198.png)
+   ![Seleziona Crea nuovo team](assets/create-new-team.png)
 
    Viene visualizzata la casella Nuovo team.
 
@@ -158,7 +158,7 @@ Puoi convertire un team esistente in un team agile:
 1. Fai clic sul menu **[!UICONTROL Altro]**, quindi seleziona **[!UICONTROL Modifica]**.
 
    Solo i membri del team con una licenza [!UICONTROL Standard], [!UICONTROL Piano] o [!UICONTROL Lavoro] possono vedere questa opzione.
-   ![](assets/edit-team-settings-350x205.png)
+   ![Seleziona Modifica](assets/edit-team-settings.png)
 
 1. Nella sezione **[!UICONTROL Agile]**, seleziona **[!UICONTROL Questo è un team Agile]**.
 

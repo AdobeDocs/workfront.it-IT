@@ -6,7 +6,7 @@ description: Per impostazione predefinita, quando crei un team diventi il propri
 author: Lisa
 feature: People Teams and Groups
 exl-id: 4bef734c-de86-4c58-a0e8-fbb3c5785f4c
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Fai clic sull&#39;icona **[!UICONTROL Switch Teams]** ![Switch team icon](assets/switch-team-icon.png), quindi fai clic su **[!UICONTROL Create New Team]**.
 
-   ![Seleziona Crea nuovo team.](assets/create-new-team-350x198.png)
+   ![Seleziona Crea nuovo team.](assets/create-new-team.png)
 
 1. Nella casella **[!UICONTROL Nuovo team]** visualizzata immettere le informazioni seguenti:
 
