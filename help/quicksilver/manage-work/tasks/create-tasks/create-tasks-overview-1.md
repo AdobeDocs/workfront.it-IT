@@ -2,22 +2,24 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: tasks
-title: Creare le attività
-description: È possibile creare attività in un progetto specifico oppure dall'area Home.
+title: "Crea attività: indice articolo"
+description: È possibile creare attività in un progetto specifico.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 5776570c-f303-4e62-bc80-5038191a83fd
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 7%
+source-wordcount: '46'
+ht-degree: 0%
 
 ---
 
-# Creare le attività
+# Crea attività: indice articolo
 
-È possibile creare attività in un progetto specifico oppure dall&#39;area Home.
+<!--Audited: 10/2024-->
+
+Puoi creare attività in un progetto specifico in Adobe Workfront.
 
 Questa sezione contiene i seguenti articoli:
 

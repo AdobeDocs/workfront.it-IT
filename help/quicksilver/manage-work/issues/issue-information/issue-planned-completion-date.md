@@ -6,7 +6,7 @@ description: La Data di completamento pianificata di un problema è la data entr
 author: Alina
 feature: Work Management
 exl-id: bdb206dc-18f8-4f8a-862b-e881408a8408
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 0%
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 La Data di completamento pianificata di un problema è la data entro la quale si prevede che il problema venga completato.
 
-Puoi specificare la Data di completamento pianificata di un problema oppure lasciare che sia Adobe Workfront a calcolarla in base a determinati criteri. 
+Puoi specificare la Data di completamento pianificata di un problema oppure lasciare che sia Adobe Workfront a calcolarla in base a determinati criteri.
 
-Le Date di completamento pianificate dei problemi non influiscono sulla Data di completamento pianificata del progetto. Solo le date di completamento pianificate delle attività influiscono sulla data di completamento pianificata del progetto. Per ulteriori informazioni sulla data di completamento pianificata del progetto, vedere [Impostare la data di completamento pianificata del progetto](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
+Le Date di completamento pianificate dei problemi non influiscono sulla Data di completamento pianificata del progetto. Solo le date di completamento pianificate delle attività influiscono sulla data di completamento pianificata del progetto. Per ulteriori informazioni sulla data di completamento pianificata del progetto, vedere [Impostare la data di completamento pianificata del progetto](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Per poter aggiornare la Data di completamento pianificata del problema, è neces
 
 Puoi impostare manualmente la Data di completamento pianificata di un problema nelle seguenti aree di Workfront:
 
-* Nella casella Modifica problema o nell’area Dettagli problema durante la creazione o la modifica di un problema. Per informazioni, vedere [Modifica problemi](../../../manage-work/issues/manage-issues/edit-issues.md).
+* Nella casella Modifica problema o nell’area Dettagli problema durante la creazione o la modifica di un problema. Per informazioni, vedere [Modifica problemi](../../../manage-work/issues/manage-issues/edit-issues.md).
 * Nell’area Home se viene visualizzata la Data di completamento pianificata quando viene visualizzato un problema. Per informazioni, vedere [Aggiornare o modificare un elemento di lavoro nell&#39;area Home](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
 * Nell’intestazione del problema. Per informazioni, vedere [Nuove intestazioni oggetto](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 * In un elenco o in un rapporto di problemi quando il campo Data di completamento pianificata viene visualizzato nella vista.
@@ -50,17 +50,17 @@ Puoi impostare manualmente la Data di completamento pianificata di un problema n
 
 Quando Workfront calcola automaticamente la Data di completamento pianificata di un problema, i seguenti elementi possono influenzare la data:
 
-* Data Inizio Pianificata
+* Data di inizio pianificata
 
   La Data di ingresso e la Data di inizio pianificata devono corrispondere su un problema quando crei il problema per la prima volta.
 
-* La durata predefinita configurata nella sezione Dettagli coda del progetto. Per informazioni, vedere [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* La durata predefinita configurata nella sezione Dettagli coda del progetto. Per informazioni, vedere [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
   Se la durata predefinita è 0 giorni, la data di completamento pianificata corrisponde alla data di inizio pianificata del problema.
 
 * Pianificazione progetto
 
-Quando viene impostata automaticamente, la Data di completamento pianificata viene determinata in base al seguente calcolo: 
+Quando viene impostata automaticamente, la Data di completamento pianificata viene determinata in base al seguente calcolo:
 
 ```
 Planned Completion Date = Planned Start Date (or Entry Date + Default Duration
@@ -77,4 +77,4 @@ Esistono le seguenti situazioni:
 >
 >Workfront prende in considerazione le eccezioni alla pianificazione come festività e fine settimana nel calcolo delle date di completamento pianificate.
 
- 
+

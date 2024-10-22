@@ -3,12 +3,12 @@ product-area: user-management;setup
 navigation-topic: configure-your-user-profile
 title: Configura le mie impostazioni
 description: Il tuo profilo  [!DNL Adobe Workfront]  contiene informazioni su di te (ad esempio nome, indirizzo e-mail, indirizzo, numero di telefono, titolo, ecc.). Contiene inoltre informazioni sulle tue interazioni con  [!DNL Workfront]  e altri utenti della tua azienda.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: ecf0aba451d530fa3be258d954f827e7cfc6b198
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '3319'
+source-wordcount: '3306'
 ht-degree: 1%
 
 ---
@@ -345,7 +345,7 @@ Specificare gli elementi da visualizzare nell&#39;interfaccia [!DNL Workfront] i
 
 <tr> 
    <td role="rowheader"><strong>[!UICONTROL Invia il lavoro assegnato a me stesso alla mia scheda Lavori in corso]</strong> </td> 
-   <td>Selezionare questo campo per visualizzare il lavoro che si sta assegnando direttamente nella scheda [!UICONTROL Working On] anziché nella scheda [!UICONTROL Work Requests] (Richieste di lavoro).</td> 
+   <td>Questo campo fa riferimento a una funzionalità obsoleta che è stata rimossa da [!DNL Workfront].</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Condizionale) Genera automaticamente delle bozze durante il caricamento dei documenti</strong></td> 

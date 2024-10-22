@@ -6,7 +6,7 @@ description: La condizione di un’attività o di un problema è un flag applica
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 1%
@@ -83,7 +83,7 @@ Puoi individuare la Condizione delle attività e dei problemi nelle seguenti are
 
 * L’intestazione di un’attività o di un problema, dopo che un amministratore di Workfront o di un gruppo l’ha aggiunta al modello di layout. Per informazioni, vedere [Personalizzare le intestazioni degli oggetti utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
-* Il pannello Riepilogo, dopo che un amministratore di Workfront o di gruppo lo ha aggiunto al modello di layout. Per informazioni, vedere [Personalizzare la home e il riepilogo utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+* Il pannello Riepilogo, dopo che un amministratore di Workfront o di gruppo lo ha aggiunto al modello di layout. Per informazioni, vedere [Personalizzare il pannello Riepilogo utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 * Report ed elenchi quando si visualizza il campo Condizione in una visualizzazione o in un raggruppamento.
 
@@ -116,7 +116,7 @@ Per informazioni sull&#39;impostazione del pulsante Lavoraci su un pulsante Avvi
 >Per ulteriori informazioni, consulta i seguenti articoli:
 >
 >* [Panoramica di riepilogo](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
->* [Personalizza la home e il riepilogo utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+>* [Personalizzare il pannello Riepilogo utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 
 <!--old Condition update - in the commenting stream: 

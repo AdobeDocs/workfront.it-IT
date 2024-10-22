@@ -7,9 +7,9 @@ description: Quando prevedi di uscire dall'ufficio per un breve periodo di tempo
 author: Lisa
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '902'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ Quando deleghi attività e problemi, tieni presente quanto segue:
   Per informazioni, consulta [Configurare le preferenze per attività e problemi a livello di sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 * Puoi delegare attività e problemi solo dall&#39;area [!UICONTROL Home].
-* Esistono eccezioni per i seguenti tipi di licenza:
+* Quando si delega un lavoro, sono presenti eccezioni per i seguenti tipi di licenza:
 
    * Puoi delegare il lavoro a revisori o richiedenti, anche se [!DNL Workfront] non lo consiglia.
    * I revisori possono delegare il lavoro ad altri. Non possono visualizzare gli elementi di lavoro nella loro area [!UICONTROL Home]. Possono visualizzare solo le approvazioni.

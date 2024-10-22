@@ -4,10 +4,11 @@ navigation-topic: the-new-workfront-experience
 title: Panoramica delle intestazioni degli oggetti
 description: È possibile visualizzare le informazioni sugli oggetti in [!DNL Adobe Workfront] quando si rivede la relativa intestazione. Le informazioni in un'intestazione possono includere il proprietario dell'oggetto, lo stato o la percentuale di completamento.
 feature: Get Started with Workfront
+author: Courtney
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
-source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '3707'
+source-wordcount: '3697'
 ht-degree: 0%
 
 ---
@@ -31,12 +32,12 @@ Ad esempio, per accedere all’intestazione di un progetto:
 
    ![](assets/project-header-350x18.png)
 
-## Panoramica dell&#39;intestazione [!UICONTROL Home]
+<!--## [!UICONTROL Home] header overview 
 
-Le seguenti intestazioni sono disponibili in Home:
+The following headers are available in Home:
 
-* Attività: per ulteriori informazioni su come utilizzare questa intestazione, consulta la [Panoramica dell&#39;intestazione dell&#39;attività](#task-header-overview) in questo articolo.
-* Problema: per ulteriori informazioni su come utilizzare questa intestazione, consulta [Panoramica intestazione problema](#issue-header-overview) in questo articolo.
+* Task: For more information on how you can use this header, see the [Task header overview](#task-header-overview) in this article.
+* Issue: For more information on how you can use this header, see the [Issue header overview](#issue-header-overview) in this article.-->
 
 ## Intestazioni personalizzabili
 
@@ -80,8 +81,8 @@ Per impostazione predefinita, nell’intestazione del progetto vengono visualizz
    <td> <p>Il testo "[!UICONTROL PROJECT]" viene visualizzato sopra il nome del progetto nell'intestazione.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Area azioni dell'attività</td> 
-   <td> <p>Accanto al nome del progetto viene visualizzata l’area delle azioni.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p>  </td> 
+   <td role="rowheader">Area Azioni del progetto</td> 
+   <td> <p>Accanto al nome del progetto viene visualizzata l'area delle azioni che include l'opzione <b>Condividi</b>.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Percent Complete]</td> 
@@ -144,7 +145,7 @@ Per impostazione predefinita, l&#39;intestazione dell&#39;attività include le s
   </tr> 
   <tr> 
    <td role="rowheader">Area azioni dell'attività</td> 
-   <td> <p>Accanto al nome dell'attività viene visualizzata l'area [!UICONTROL actions].</p> <p> <img src="assets/nwe-dependency-action-area.png"> </p> <p>Se viene visualizzata l'icona Dipendenza, è possibile fare clic su di essa per visualizzare eventuali predecessori o successori dell'attività.</p> </td> 
+   <td> <p>Accanto al nome dell'attività viene visualizzata l'area delle azioni che include l'opzione <b>Condividi</b>.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p> <p>Se viene visualizzata l'icona Dipendenza, è possibile fare clic su di essa per visualizzare eventuali predecessori o successori dell'attività.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Percent Complete]</td> 
@@ -207,7 +208,7 @@ Per impostazione predefinita, l’intestazione del problema include le seguenti 
   </tr> 
   <tr> 
    <td role="rowheader">Area azioni del problema</td> 
-   <td> <p>Accanto al nome del problema viene visualizzata l’area [!UICONTROL actions].</p> <p> <img src="assets/nwe-dependency-action-area.png"> </p> <p>Se viene visualizzata l'icona [!UICONTROL Dependency], è possibile fare clic su di essa per visualizzare eventuali predecessori o successori del problema.</p>  </td> 
+   <td> <p>Accanto al nome del problema viene visualizzata l'area azioni che include l'opzione <b>Condividi</b>.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> <p>Se viene visualizzata l'icona [!UICONTROL Dependency], è possibile fare clic su di essa per visualizzare eventuali predecessori o successori del problema.</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Percent Complete]</td> 
@@ -274,7 +275,7 @@ L’intestazione del programma visualizza le seguenti informazioni:
   </tr> 
   <tr> 
    <td role="rowheader">Il settore d'azione del programma</td> 
-   <td> <p>Accanto al nome del programma, viene visualizzata l'area [!UICONTROL actions].</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
+   <td> <p>Accanto al nome del programma, viene visualizzata l'area delle azioni che include l'opzione <b>Condividi</b>.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Percent Complete]</td> 
@@ -328,8 +329,8 @@ L’intestazione del portfolio include le seguenti informazioni:
    <td> <p>Se il portfolio è disattivato, il testo "[!UICONTROL PORTFOLIO DISATTIVATO]" viene visualizzato sopra il nome del portfolio nell’intestazione.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">L'area [!UICONTROL actions] del portfolio</td> 
-   <td> <p>Accanto al nome del portfolio viene visualizzata l'area [!UICONTROL actions].</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
+   <td role="rowheader">L’area Azioni del portfolio</td> 
+   <td> <p>Accanto al nome del portfolio viene visualizzata l'area [!UICONTROL actions].</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Gestione Portfoli]</td> 
@@ -392,7 +393,7 @@ L’intestazione del modello visualizza le seguenti informazioni:
   </tr> 
   <tr> 
    <td role="rowheader">Area azioni del modello</td> 
-   <td> <p>Accanto al nome del modello viene visualizzata l’area delle azioni.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
+   <td> <p>Accanto al nome del modello viene visualizzata l’area delle azioni.</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proprietario del modello [!UICONTROL]</td> 
@@ -439,7 +440,7 @@ Nell&#39;intestazione dell&#39;attività modello vengono visualizzate le seguent
   </tr> 
   <tr> 
    <td role="rowheader">Area azioni dell'attività modello</td> 
-   <td> <p>Accanto al nome dell’attività modello viene visualizzata l’area delle azioni.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
+   <td> <p>Accanto al nome dell’attività modello viene visualizzata l’area delle azioni.</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Assegnazioni]</td> 
@@ -485,12 +486,15 @@ Nell&#39;intestazione del record fatturazione vengono visualizzate le seguenti i
    <td> <p>Il testo "[!UICONTROL BILLING RECORD]" viene visualizzato sopra il nome del record di fatturazione nell’intestazione.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Area azioni del record fatturazione</td> 
+   <td role="rowheader">Menu Altro per il record fatturazione</td> 
    <td> <p>Accanto al nome del record fatturazione viene visualizzato il menu [!UICONTROL Altro] <img src="assets/more-menu.png">, che consente di selezionare le opzioni seguenti:</p> 
     <ul> 
      <li> <p>[!UICONTROL Modifica]</p> </li> 
-     <li> <p> </p> </li> 
-    </ul> </td> 
+     <li> <p> Elimina </p> </li> 
+    </ul>
+    <p><b>NOTA</b></p>
+    <p>Il menu Altro non viene visualizzato per i record fatturazione con lo stato Fatturato. Non è possibile modificare o eliminare i record fatturati.</p>
+     </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Totale record fatturazione]</td> 
@@ -542,7 +546,7 @@ L’intestazione utente mostra le seguenti informazioni:
   </tr> 
   <tr> 
    <td role="rowheader">Area azioni dell'utente</td> 
-   <td> <p>Accanto al nome dell’utente viene visualizzata l’area delle azioni.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
+   <td> <p>Accanto al nome dell’utente viene visualizzata l’area delle azioni.</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Indirizzo e-mail</td> 
@@ -589,7 +593,7 @@ L’intestazione del team mostra le seguenti informazioni:
   </tr> 
   <tr> 
    <td role="rowheader">L’area Azioni del team</td> 
-   <td> <p>Accanto al nome del team viene visualizzata l'area [!UICONTROL actions].</p> <p> <img src="assets/nwe-switch-team-actions-area.png"> </p></td> 
+   <td> <p>Accanto al nome del team viene visualizzata l’area delle azioni.</p> <p> <img src="assets/actions-area-icons-for-a-team.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Immagini del profilo del membro del team</td> 
@@ -632,8 +636,7 @@ Nell&#39;intestazione dell&#39;iterazione vengono visualizzate le seguenti infor
   </tr> 
   <tr> 
    <td role="rowheader">Area azioni dell'iterazione</td> 
-   <td> <p>Nell’angolo superiore destro dell’intestazione viene visualizzata l’area delle azioni.</p> <p> <img src="assets/nwe-iteration-action-area.png"> </p></td> 
-  </tr> 
+   <td> <p>Accanto al nome dell'iterazione viene visualizzata l'area delle azioni.</p> <p> <img src="assets/actions-area-icons-for-an-iteration.png">
   <tr> 
    <td role="rowheader">Proprietario</td> 
    <td>Proprietario [!UICONTROL] dell'iterazione. Impossibile modificare [!UICONTROL Owner] nell'intestazione.</td> 
@@ -735,7 +738,7 @@ Nell&#39;intestazione del documento vengono visualizzate le seguenti informazion
   </tr> 
   <tr> 
    <td role="rowheader">Area azioni del documento</td> 
-   <td> <p>Accanto al nome del documento viene visualizzata l'area delle azioni.</p> <p> <img src="assets/nwe-doc-version-actions-area.png"> </p></td> 
+   <td> <p>Accanto al nome del documento viene visualizzata l'area delle azioni.</p> <p> <img src="assets/actions-area-icons-for-a-document.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Area [!UICONTROL Decision] di approvazione</td> 
@@ -773,7 +776,7 @@ L’intestazione dell’azienda mostra le seguenti informazioni:
    <td> <p>Il testo "[!UICONTROL COMPANY]" viene visualizzato sopra il nome della società nell'intestazione.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">L’area delle azioni dell’azienda</td> 
+   <td role="rowheader">Il menu Altro dell’azienda</td> 
    <td> <p>Accanto al nome della società viene visualizzato il menu [!UICONTROL Altro] <img src="assets/more-menu.png">, che consente di selezionare le opzioni seguenti:</p> 
     <ul> 
      <li> <p>[!UICONTROL Modifica]</p> </li> 
@@ -819,7 +822,7 @@ Nell&#39;intestazione del piano vengono visualizzate le seguenti informazioni:
   </tr> 
   <tr> 
    <td role="rowheader">L'area delle azioni del piano</td> 
-   <td> <p>Accanto al nome del piano viene visualizzata l'area delle azioni.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
+   <td> <p>Accanto al nome del piano viene visualizzata l'area delle azioni.</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Azioni del piano aggiuntive</td> 
@@ -885,9 +888,9 @@ L’intestazione dell’obiettivo mostra le seguenti informazioni:
    <td> <p>Il testo "[!UICONTROL GOAL]" viene visualizzato sopra il nome dell'obiettivo nell'intestazione.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Area azioni dell’obiettivo</td> 
-   <td> <p>Accanto al nome dell’obiettivo viene visualizzata l’area delle azioni.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p>
-   Dall’area delle azioni dell’obiettivo puoi eseguire le azioni seguenti:
+   <td role="rowheader">Il menu Altro dell’obiettivo</td> 
+   <td> <p>Accanto al nome dell'obiettivo viene visualizzato il menu Altro <img src="assets/more-icon.png">.</p> </p>
+   Puoi eseguire le seguenti azioni dal menu Altro di un obiettivo:
    <ul><li>[!UICONTROL Modifica]</li>
    <li>[!UICONTROL Copia obiettivo]</li>
    <li>[!UICONTROL Elimina obiettivo]</li>

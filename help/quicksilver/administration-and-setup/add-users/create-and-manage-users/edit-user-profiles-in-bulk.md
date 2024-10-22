@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '2236'
+source-wordcount: '2213'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
        <ul> 
         <li><b>Fuso orario:</b> Il fuso orario degli utenti.</li> 
         <li><b>Impostazioni locali</b>: impostazioni locali preferite dagli utenti. Questo influisce sul formato dei numeri e delle date nelle e-mail provenienti da Workfront.</li> 
-        <li><b>Invia il lavoro che assegno a me stesso alla mia scheda Lavori in corso</b>: seleziona questa opzione se vuoi che tutto ciò che gli utenti assegnano a se stessi appaia direttamente nella loro scheda Lavori in corso. L’impostazione predefinita consiste nell’elencare tutto ciò che è stato assegnato a un utente nella relativa scheda Work Request (Richiesta di lavoro).</li> 
+        <li><b>Invia il lavoro assegnato a me stesso alla mia scheda Lavori in corso</b>: questa impostazione fa riferimento a una funzionalità obsoleta che è stata rimossa da Workfront.</li> 
        </ul> </td> 
      </tr> 
      <tr> 

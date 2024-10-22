@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '3298'
+source-wordcount: '3264'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       </li>
 
    </li> 
-       <li><b>Invia il lavoro assegnato a me stesso alla mia scheda Lavori in corso</b>: seleziona questa opzione se desideri che tutto ciò che l'utente assegna a se stesso venga visualizzato direttamente nell'elenco Lavori in corso nell'area Home. L’impostazione predefinita consiste nell’elencare tutto ciò che è stato assegnato a un utente nell’elenco Pronto per l’avvio o Non pronto nell’area Home.</li> 
+       <li><b>Invia il lavoro assegnato a me stesso alla mia scheda Lavori in corso</b>: questa impostazione fa riferimento a una funzionalità obsoleta che è stata rimossa da Workfront.</li> 
        <li><b>Genera automaticamente le bozze durante il caricamento dei documenti</b>: seleziona questa opzione se desideri che i documenti caricati dall'utente generino immediatamente una bozza. </li>
        </ul> </td> 
      </tr> 
@@ -153,7 +153,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       <li><b>Report diretti:</b> Se è stata specificata una società per l'utente, è possibile specificare anche i report diretti dell'utente. Un utente può avere più referenti diretti. Questo campo non viene visualizzato se l’utente non è prima associato a una società.</li> 
       <li><b>Team predefinito</b>: specificare il team predefinito dell'utente. Gli utenti possono avere un solo team principale. Il team predefinito è importante quando si assegna un modello di layout o quando si definisce il pulsante Lavoraci per le attività e i problemi assegnati all’utente. </li> 
       <li><b>Altri team</b>: gli utenti possono appartenere a più team. Un utente può visualizzare gli elementi di lavoro assegnati a qualsiasi team nella propria area Home. </li> 
-      <li> <p><b>Gruppo predefinito:</b> Selezionare un gruppo appropriato per assegnare l'utente. In questo modo l'utente può accedere agli oggetti condivisi con il gruppo. È inoltre possibile condividere i modelli di layout con il Gruppo predefinito dell'utente.</p> <p>Questo campo è obbligatorio. Ogni utente deve essere associato a un gruppo predefinito. Se non ne selezioni uno, il gruppo viene assegnato come gruppo predefinito del nuovo utente.</p> <p><b>NOTA</b>:</p> 
+      <li> <p><b>Gruppo predefinito:</b> Selezionare un gruppo appropriato per assegnare l'utente. In questo modo l'utente può accedere agli oggetti condivisi con il gruppo. È inoltre possibile condividere i modelli di layout con il Gruppo predefinito dell'utente.</p> <p>Questo campo è obbligatorio. Ogni utente deve essere associato a un gruppo predefinito. Se non ne selezioni uno, il Gruppo predefinito viene assegnato come Gruppo predefinito del nuovo utente.</p> <p><b>NOTA</b>:</p> 
       <p> È possibile assegnare un gruppo a un utente solo se si verifica una delle condizioni seguenti:</p>
       <ul><li>sei un amministratore di Workfront</li>
       <li>sei l’amministratore del gruppo</li>

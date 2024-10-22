@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Il tipo di licenza di Adobe Workfront funziona in combinazione con le autorizzaz
 
 Per informazioni sulle autorizzazioni per gli oggetti in Workfront Planning, vedere [Panoramica sulle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
-Per informazioni sull&#39;accesso a Workfront Planning, vedere [Panoramica dell&#39;accesso](/help/quicksilver/planning/access/access-overview.md).
+Per informazioni sull&#39;accesso a Workfront Planning, vedere [Panoramica dell&#39;accesso di Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
 
 ## Relazione tra i tipi di licenza di Workfront e le autorizzazioni di Workfront Planning
 

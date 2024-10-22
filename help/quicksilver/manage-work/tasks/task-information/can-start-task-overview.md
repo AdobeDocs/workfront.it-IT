@@ -7,9 +7,9 @@ description: Quando un’attività è pronta per iniziare, Adobe Workfront aggiu
 author: Alina
 feature: Work Management
 exl-id: 158f8370-9717-4c61-99fa-e3b76a9e61cb
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,9 @@ Quando l&#39;attività è pronta per essere elaborata, il campo Può iniziare de
 
 Workfront verifica quanto segue prima di contrassegnare un&#39;attività come True per il campo Può iniziare:
 
-* Se l&#39;attività ha un elemento padre, verifica se il valore di Può iniziare per l&#39;elemento padre è impostato su True. Se il valore dell&#39;elemento padre è False, anche il valore di Can Start per tutte le sottoattività sarà impostato su False. 
-* Verifica inoltre se i predecessori dell&#39;attività e i predecessori dei genitori sono completi. Se sono state completate, il valore Può iniziare dell&#39;attività è impostato su True. Se uno dei predecessori delle attività o dei predecessori dei relativi padri non è completo o ha lo stato Completo - In attesa di approvazione, il valore Può iniziare per l&#39;attività è impostato su False. 
+* Indica se il valore di Può iniziare per l&#39;elemento padre è impostato su True, se l&#39;attività ha un elemento padre. Se il valore dell&#39;elemento padre è False, anche il valore di Can Start per tutte le sottoattività sarà impostato su False.
+* Indica se i predecessori dell&#39;attività e i predecessori dei genitori sono completi. Se sono state completate, il valore Può iniziare dell&#39;attività è impostato su True. Se uno dei predecessori delle attività o dei predecessori dei relativi padri non è completo o ha lo stato Completo - In attesa di approvazione, il valore Può iniziare per l&#39;attività è impostato su False.
+* Indica se il tipo di relazione tra attività è Start-Start o Start-Finish. Se il tipo di relazione è Inizio-Inizio o Inizio-Fine, per l&#39;attività dipendente il flag &quot;Può iniziare&quot; sarà impostato su True dopo che l&#39;attività padre è in corso (o dopo che la percentuale di completamento dell&#39;attività padre è superiore all&#39;1%). <!--not sure if this should say PARENT or PREDECESSOR??; asking on the issue-->
 
   Per informazioni sui predecessori delle attività, vedere [Panoramica sui predecessori delle attività](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 

@@ -6,9 +6,9 @@ description: È possibile utilizzare le assegnazioni avanzate per identificare l
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,6 @@ Le assegnazioni intelligenti sono disponibili nella maggior parte delle posizion
    * Un’intestazione di attività o problema
    * Pannello Riepilogo dell’attività o del problema
    * <span class="preview">Una nuova attività</span> o una nuova casella Problema, quando si aggiunge <span class="preview">una nuova attività</span> o un problema a un progetto
-   * Il campo Assegnazioni per un elemento elencato nell&#39;area Home
    * Un’attività o un problema nel Bilanciatore dei carichi di lavoro
 
 1. Posizionare il cursore nel campo Assegnazioni e attendere due secondi.

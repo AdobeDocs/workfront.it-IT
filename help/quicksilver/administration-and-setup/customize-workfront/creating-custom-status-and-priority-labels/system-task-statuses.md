@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b8c751c3-aed3-4836-a888-f3f8a5f08421
-source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Nell’istanza di Workfront vengono forniti i seguenti stati delle attività:
   <tr> 
    <td>Completo (stato obbligatorio)</td> 
    <td> <p>È possibile contrassegnare manualmente un'attività come completata al completamento del relativo lavoro.</p> <p>Quando la Modalità di registrazione di un'attività è impostata su Completamento automatico, l'attività viene automaticamente contrassegnata come Completata quando raggiunge la Data di completamento pianificata.</p> </td> 
-   <td> <p>Quando un'attività viene completata, la percentuale di completamento dell'attività viene contrassegnata come 100%. L’attività viene rimossa dall’elenco di lavoro dell’assegnatario nell’area Home al termine.</p> <p>Quando si contrassegna un'attività come Completata, viene visualizzato un valore per Data di completamento effettiva.</p> <p><b>NOTA</b>: se l'attività presenta problemi incompleti e lo stato dell'attività viene modificato in Completato, lo stato viene automaticamente modificato in Completato - Problemi in sospeso.</p> </td> 
+   <td> <p>Quando un'attività viene completata, la percentuale di completamento dell'attività viene contrassegnata come 100%. L’attività viene rimossa dall’elenco Il mio lavoro dell’assegnatario nell’area Home al termine.</p> <p>Quando si contrassegna un'attività come Completata, viene visualizzato un valore per Data di completamento effettiva.</p> <p><b>NOTA</b>: se l'attività presenta problemi incompleti e lo stato dell'attività viene modificato in Completato, lo stato viene automaticamente modificato in Completato - Problemi in sospeso.</p> </td> 
   </tr> 
  </tbody> 
 </table>

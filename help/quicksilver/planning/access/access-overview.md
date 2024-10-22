@@ -1,20 +1,20 @@
 ---
-title: Panoramica degli accessi
+title: Panoramica di Adobe Workfront Planning Access
 description: Non tutti gli utenti dell’organizzazione dispongono dello stesso accesso e delle stesse autorizzazioni per utilizzare Adobe Workfront Planning. Questo articolo descrive l'accesso e le autorizzazioni che gli utenti potrebbero avere per utilizzare le funzionalità di Adobe Workfront Planning.
 author: Alina
 feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '673'
 ht-degree: 1%
 
 ---
 
 
-# Panoramica degli accessi
+# Panoramica sull’accesso ad Adobe Workfront Planning
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 

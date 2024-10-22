@@ -6,9 +6,9 @@ description: Le notifiche seguenti ti informano delle richieste effettuate in Ad
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 42771f71-dbf8-4e73-9a0e-8efea612af4a
-source-git-commit: 9f351a16c2a741b922e8ee51efb3ea3d7d2d18e1
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1412'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Vedi anche [Notifiche evento](../../workfront-basics/using-notifications/event-n
    <td><strong>Istantanea</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Un'attività personale che ho assegnato a qualcun altro è stata completata</strong> </p> <p>Viene inviata una notifica all’utente che ha assegnato un’attività ad hoc a un altro utente al completamento dell’attività. </p> <p>Per ulteriori informazioni sulle attività ad hoc, vedere <a href="../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md" class="MCXref xref">Creare elementi di lavoro e progetti dall'area [!UICONTROL Home]</a>.</p> <p>L'oggetto dell'e-mail di notifica immediata è: <em>Completamento attività: &lt;Nome attività&gt;</em></p> <p> <p>Nota: non puoi configurare questa notifica per un messaggio e-mail di riepilogo giornaliero.</p> </p> </td> 
+   <td> <p><strong>Un'attività personale che ho assegnato a qualcun altro è stata completata</strong> </p> <p>Viene inviata una notifica all’utente che ha assegnato una richiesta di lavoro personale a un altro utente al termine della richiesta. </p>  <p>L'oggetto dell'e-mail di notifica immediata è: <em>Completamento attività: &lt;Nome attività&gt;</em></p> <p> <p>Nota: non puoi configurare questa notifica per un messaggio e-mail di riepilogo giornaliero.</p> </p> </td> 
    <td> Nome attività<br>Nome progetto predefinito (progetto personale dell'utente che ha ricevuto l'attività personale)<br>Numero di riferimento attività<br>Nome proprietario attività<br>Nuovo stato attività<br>Data e ora di completamento dell'attività<br>Stato attività precedente<br><strong>[!UICONTROL Ulteriori dettagli]</strong> pulsante<br><br><br></td> 
    <td><strong>Istantanea</strong> </td> 
   </tr> 

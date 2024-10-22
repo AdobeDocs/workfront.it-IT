@@ -5,9 +5,9 @@ description: Puoi utilizzare il pannello Riepilogo per rivedere e aggiornare le 
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '960'
 ht-degree: 2%
 
 ---
@@ -187,9 +187,7 @@ Utilizza la sezione [!UICONTROL Documenti] del [!UICONTROL Riepilogo] per visual
 
 Utilizza la sezione [!UICONTROL Dettagli] del [!UICONTROL Riepilogo] per visualizzare i dettagli degli elementi di lavoro di alto livello, effettuare assegnazioni o aggiungere date di inizio. Fai clic su **[!UICONTROL Visualizza tutto]** per passare direttamente alla scheda [!UICONTROL Dettagli] sull&#39;attività o sul problema.
 
->[!NOTE]
->
->I campi visualizzati in questa sezione sono gli stessi campi visualizzati nel pannello destro della Home. Puoi personalizzare questi campi [Personalizza [!UICONTROL Home] e [!UICONTROL Riepilogo] utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+
 
 ![Sezione Dettagli nel pannello Riepilogo](assets/summary-details-section.png)
 

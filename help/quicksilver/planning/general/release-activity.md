@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '7484'
+source-wordcount: '7488'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 >È necessario acquistare un piano Workfront Planning, oltre a un piano Workfront per poter accedere e utilizzare le funzionalità di Workfront Planning.
 >
->Per un elenco completo dei requisiti per accedere a Workfront Planning, vedere [Panoramica dell&#39;accesso](/help/quicksilver/planning/access/access-overview.md).
+>Per un elenco completo dei requisiti per accedere a Workfront Planning, vedere [Panoramica dell&#39;accesso di Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
 >Per una panoramica di Workfront Planning, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 >
 
@@ -1259,7 +1259,7 @@ Di seguito sono riportati i livelli di autorizzazione per le visualizzazioni rec
 * Visualizza: gli utenti possono selezionare la visualizzazione dal menu a discesa Visualizza di una pagina del tipo di record.
 * Gestisci: gli utenti possono modificare, condividere ed eliminare la visualizzazione.
 
-Per ulteriori informazioni, vedere [Panoramica dell&#39;accesso](/help/quicksilver/planning/access/access-overview.md) e [Panoramica delle autorizzazioni di condivisione nelle funzionalità di Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Per ulteriori informazioni, vedere [Panoramica dell&#39;accesso di Planning all&#39;Adobe](/help/quicksilver/planning/access/access-overview.md) e [Panoramica delle autorizzazioni di condivisione nelle funzionalità di Planning di Adobe Workfront](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 ### Nuovo tipo di campo Formula
 
