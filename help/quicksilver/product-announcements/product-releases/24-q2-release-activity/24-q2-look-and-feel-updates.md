@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be398d7f-7bc3-4a27-bc17-ffa4054d81ac
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -34,4 +34,4 @@ I modelli e-mail per aggiungere un approvatore a una risorsa e un utente a una b
 
 Abbiamo aggiornato le schede per Forms, Campi e Sezioni nell’area Configurazione > Forms personalizzato per ottenere un design più moderno che sia coerente con altre aree di Workfront. Ora puoi accedere alle tre aree dal menu di navigazione a sinistra. Filtri, viste e raggruppamenti sono ancora disponibili per gli elenchi. La progettazione aggiornata si applica ai moduli personalizzati, ai campi e alle sezioni creati sia nel nuovo progettista di moduli che nel generatore di moduli legacy.
 
-Per informazioni, vedere [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Per informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

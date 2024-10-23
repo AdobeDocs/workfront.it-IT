@@ -6,9 +6,9 @@ description: Il tuo profilo  [!DNL Adobe Workfront]  contiene informazioni su di
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '3306'
+source-wordcount: '3303'
 ht-degree: 1%
 
 ---
@@ -524,7 +524,7 @@ Per allegare un modulo personalizzato al profilo utente, è necessario disporre 
 
 Tutti gli utenti possono visualizzare i moduli personalizzati associati ai loro profili.
 
-L&#39;amministratore [!DNL Workfront] deve configurare moduli personalizzati per l&#39;oggetto utente per poter allegare un modulo personalizzato al profilo utente. Per ulteriori informazioni sulla creazione di moduli personalizzati, vedere [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+L&#39;amministratore [!DNL Workfront] deve configurare moduli personalizzati per l&#39;oggetto utente per poter allegare un modulo personalizzato al profilo utente. Per ulteriori informazioni sulla creazione di moduli personalizzati, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ### [!UICONTROL Commento]
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1129'
 ht-degree: 1%
 
 ---
@@ -93,7 +93,7 @@ Prima di aggiungere un utente, raccogliere le informazioni sull&#39;utente elenc
 * In quale team principale deve essere incluso questo utente? La persona dovrebbe far parte di più team? Per informazioni sui team, consulta [Panoramica sui team](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md).
 * Quali informazioni personalizzate è necessario associare a questo utente?
 
-  Se le informazioni sugli utenti vengono acquisite nei campi personalizzati creati, è necessario disporre di un modulo personalizzato durante la creazione di un utente. Per informazioni sui moduli personalizzati, vedere [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Se le informazioni sugli utenti vengono acquisite nei campi personalizzati creati, è necessario disporre di un modulo personalizzato durante la creazione di un utente. Per informazioni sui moduli personalizzati, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Creare un utente da zero
 

@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e5da58f-105a-4edf-8fc1-65e8762d43c6
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1135'
 ht-degree: 0%
 
 ---
@@ -97,4 +97,4 @@ L’introduzione di una nuova dashboard e dei relativi rapporti può consentire 
 
 ### Distribuire dati personalizzati ai moduli pertinenti
 
-Alcuni rapporti inclusi in una blueprint del dashboard dispongono di campi dati personalizzati nella visualizzazione, nel filtro o nel raggruppamento del rapporto. In alcuni casi, la blueprint avrà anche un modulo a cui sono associati questi campi. Tuttavia, nella maggior parte dei casi i campi personalizzati non vengono applicati a un modulo personalizzato. Affinché le colonne, i filtri o i raggruppamenti funzionino correttamente, questi campi devono essere associati a maschere connesse a un record utente, progetto, attività o altro oggetto. Per informazioni, vedere [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Alcuni rapporti inclusi in una blueprint del dashboard dispongono di campi dati personalizzati nella visualizzazione, nel filtro o nel raggruppamento del rapporto. In alcuni casi, la blueprint avrà anche un modulo a cui sono associati questi campi. Tuttavia, nella maggior parte dei casi i campi personalizzati non vengono applicati a un modulo personalizzato. Affinché le colonne, i filtri o i raggruppamenti funzionino correttamente, questi campi devono essere associati a maschere connesse a un record utente, progetto, attività o altro oggetto. Per informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

@@ -7,9 +7,9 @@ description: È possibile aggiungere un modulo personalizzato esistente a uno qu
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '820'
 ht-degree: 2%
 
 ---
@@ -75,7 +75,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Prerequisiti
 
-L’amministratore di Workfront o un utente con una licenza Pianificazione e l’accesso amministrativo ai moduli personalizzati deve creare moduli personalizzati nel tuo ambiente prima di poterli aggiungere agli oggetti. Per ulteriori informazioni, vedere [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+L’amministratore di Workfront o un utente con una licenza Pianificazione e l’accesso amministrativo ai moduli personalizzati deve creare moduli personalizzati nel tuo ambiente prima di poterli aggiungere agli oggetti. Per ulteriori informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Aggiungere un modulo personalizzato a un oggetto
 

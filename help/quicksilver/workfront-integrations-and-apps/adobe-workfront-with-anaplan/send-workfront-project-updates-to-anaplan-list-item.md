@@ -6,10 +6,10 @@ description: Questo scenario di integrazione condivide i dettagli relativi all'a
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: 97e9dac6-f5b5-4d6e-b58b-93acd19048ee
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 0%
+source-wordcount: '909'
+ht-degree: 1%
 
 ---
 
@@ -101,7 +101,7 @@ Per utilizzare questo scenario, è necessario disporre dei seguenti elementi in 
    </tbody> 
   </table>
 
-  Per informazioni sulla creazione di moduli personalizzati, vedere [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Per informazioni sulla creazione di moduli personalizzati, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 <!--
 <note type="note">  

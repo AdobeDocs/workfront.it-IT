@@ -8,9 +8,9 @@ author: Lisa and Alina
 feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: 7b5018f546d4c654832298e85c10504375f380b4
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '768'
 ht-degree: 1%
 
 ---
@@ -25,6 +25,10 @@ I pulsanti Lavoraci e Fine sono visibili agli utenti che dispongono di:
 
 * Una licenza Standard (nuova) o una licenza Pianificazione o Lavoro (corrente)
 * Accesso limitato o superiore alle modifiche per l’attività o il problema
+
+>[!NOTE]
+>
+>Il pulsante Done (Fine) viene visualizzato come Mark as done (Contrassegna come completato) in tutte le aree di Workfront.
 
 ## Lavoraci e nomi dei pulsanti Fine
 
@@ -47,9 +51,9 @@ A seconda dell’area di Workfront da cui accedi all’attività o al problema, 
 
   ![](assets/home-left-done-with-my-part-button-350x184.png)-->
 
-## Individua il pulsante Lavoraci e contrassegna come completato {#locate-the-work-on-it-and-done-button}
+## Individuare il pulsante Lavoraci e Fine {#locate-the-work-on-it-and-done-button}
 
-Puoi individuare il pulsante Lavoraci e Contrassegna come completato nelle seguenti aree di Workfront:
+Puoi individuare il pulsante Lavoraci e Fine nelle seguenti aree di Workfront:
 
 * Area Home nel widget Il mio lavoro
 
@@ -63,9 +67,9 @@ Puoi individuare il pulsante Lavoraci e Contrassegna come completato nelle segue
 
   Per informazioni sull&#39;utilizzo del pannello Riepilogo, vedere [Panoramica di riepilogo](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-## Panoramica dei campi che vengono aggiornati automaticamente quando si fa clic sul pulsante Lavoraci e Contrassegna come completato
+## Panoramica dei campi che vengono aggiornati automaticamente quando si fa clic sui pulsanti Lavoraci o Fine
 
-L&#39;utilizzo dei pulsanti Lavoraci e Contrassegna come completato consente a Workfront di aggiornare automaticamente le informazioni sull&#39;elemento di lavoro assegnato.
+I pulsanti Lavoraci e Fine consentono a Workfront di aggiornare automaticamente le informazioni sull&#39;elemento di lavoro assegnato.
 
 * [Pulsante Lavoraci](#work-on-it-button)
 * [Pulsante Start](#start-button)
@@ -111,10 +115,6 @@ Oltre ai campi che vengono aggiornati quando si fa clic sul pulsante Lavoraci, q
 >
 
 ### Pulsante Fine {#the-done-button}
-
->[!NOTE]
->
->Il pulsante Done (Fine) viene visualizzato come Mark as done (Contrassegna come completato) in tutte le aree di Workfront.
 
 Se si dispone dell&#39;accesso per modificare i team, è possibile configurare il pulsante Fine per un team in modo da aggiornare gli stati di attività o problemi quando si contrassegna un elemento come completato. Quando gli utenti con quel team come team predefinito fanno clic sul pulsante Contrassegna come completato sui loro elementi, i seguenti campi si aggiornano automaticamente su un’attività o un problema:
 

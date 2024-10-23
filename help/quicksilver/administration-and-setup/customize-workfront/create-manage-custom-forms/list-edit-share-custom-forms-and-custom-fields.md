@@ -6,9 +6,9 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 hidefromtoc: true
 hide: true
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Quando si visualizza un elenco dei moduli personalizzati dell&#39;organizzazione e dei campi personalizzati e dei widget che sono stati aggiunti a essi, è possibile utilizzare le opzioni della barra degli strumenti per modificarne le proprietà, limitare il numero di utenti condivisi, copiarli ed eliminarli. Nelle colonne visualizzate è inoltre possibile visualizzare altre informazioni, ad esempio i tipi di oggetto a cui è associato ogni modulo personalizzato.
 
-Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, vedere [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Requisiti di accesso
 
@@ -55,7 +55,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Per informazioni sulle operazioni che è possibile eseguire quando si seleziona un modulo personalizzato nell&#39;elenco, vedere gli articoli seguenti:
 
-   * [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+   * [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
    * [Condividi modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
    * [Copia un modulo personalizzato per crearne uno nuovo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/list-edit-share-custom-forms-and-custom-fields.md)
    * [Eliminare o disattivare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)

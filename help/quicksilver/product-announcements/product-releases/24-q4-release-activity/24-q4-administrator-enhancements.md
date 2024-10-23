@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ I moduli personalizzati sono limitati a 500 campi. In un modulo lungo può esser
 
 Un contatore è stato aggiunto ai moduli personalizzati in basso a sinistra. Il contatore indica il numero di campi utilizzati nel modulo ed è sempre visibile durante lo scorrimento all&#39;interno del progettista del modulo.
 
-Per ulteriori informazioni, vedere [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Per ulteriori informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Nei modelli di layout è ora disponibile l’opzione &quot;Seleziona tutto&quot;
 

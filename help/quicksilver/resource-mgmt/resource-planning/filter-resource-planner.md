@@ -6,9 +6,9 @@ description: Utilizzando i filtri, puoi modificare le informazioni visualizzate 
 author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '2374'
+source-wordcount: '2371'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ Espandi il menu a discesa **Filtro** e fai clic su **Aggiungi nuovo filtro**.
 
    >[!IMPORTANT]
    >
-   >Quando si fa riferimento a campi personalizzati, è necessario digitare il nome del campo e non l’etichetta del campo. L’etichetta del campo viene visualizzata in un modulo personalizzato associato a un oggetto. Per informazioni sulla differenza tra l&#39;etichetta e il nome di un campo personalizzato, vedere [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   >Quando si fa riferimento a campi personalizzati, è necessario digitare il nome del campo e non l’etichetta del campo. L’etichetta del campo viene visualizzata in un modulo personalizzato associato a un oggetto. Per informazioni sulla differenza tra l&#39;etichetta e il nome di un campo personalizzato, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Fare clic sul nome del campo per aggiungerlo al filtro quando viene visualizzato nell&#39;elenco.\
    Per ulteriori informazioni sui campi visualizzati nell&#39;elenco, vedere [Glossario della terminologia di Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).

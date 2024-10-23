@@ -7,9 +7,9 @@ description: È possibile modificare le informazioni di un modulo personalizzato
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1030'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Devi avere i seguenti:
 
 ## Prerequisiti
 
-* L’amministratore di Workfront o un utente con accesso amministrativo ai moduli personalizzati deve creare moduli personalizzati nel tuo ambiente. Per ulteriori informazioni, vedere [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+* L’amministratore di Workfront o un utente con accesso amministrativo ai moduli personalizzati deve creare moduli personalizzati nel tuo ambiente. Per ulteriori informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * A un oggetto devono essere allegati moduli personalizzati.
 
   Per informazioni su come applicare moduli personalizzati a un oggetto, vedere [Aggiungere un modulo personalizzato a un oggetto](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
@@ -91,7 +91,7 @@ La modifica delle informazioni in un modulo personalizzato associato a un oggett
    * È possibile formattare i campi di testo (grassetto, corsivo o sottolineato) solo se l&#39;utente che ha creato il modulo li ha impostati come campo di testo con tipo di campo Formattazione. Impossibile formattare i campi di testo a riga singola e i campi di testo a paragrafo.
    * È possibile aggiornare l&#39;ora del giorno in un tipo di campo Data solo se l&#39;utente che ha creato il modulo lo ha incluso durante la creazione del campo.
 
-   Per informazioni su tutti i tipi di campo, vedere [Progettare un modulo con la finestra di progettazione del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Per informazioni su tutti i tipi di campo, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Fai clic su **Salva modifiche**.
 

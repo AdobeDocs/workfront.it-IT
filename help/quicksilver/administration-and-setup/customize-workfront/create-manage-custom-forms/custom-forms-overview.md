@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: a9cc21d182051410c87e1b6a4fbe8fd8cbe2a178
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '380'
 ht-degree: 11%
 
 ---
@@ -29,7 +29,7 @@ Ad esempio, puoi allegare a un progetto un modulo personalizzato denominato &quo
 
 Il progettista di moduli dispone di un&#39;area di lavoro in stile area di lavoro che consente di visualizzare contemporaneamente i campi, l&#39;area di lavoro e le impostazioni dei campi. Consente inoltre di trascinare e rilasciare i campi all’interno delle sezioni durante la progettazione del modulo. È possibile ridimensionare il lato destro dello schermo per disporre di più spazio per le opzioni di campo.
 
-Per ulteriori informazioni, vedere [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Per ulteriori informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ![Progettazione moduli di esempio](assets/form-designer-example.png)
 

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
-source-git-commit: a1386652f5181d4aa94ddab8e4f9714ef1c08b73
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Per ulteriori informazioni sull&#39;anteprima di un modulo personalizzato nel pr
 
 Le funzioni avanzate dei moduli personalizzati, ad esempio i campi di ricerca esterna e i campi nativi di Workfront, sono ora disponibili quando si allega un modulo personalizzato a un’azienda o a un utente. Le funzioni avanzate sono disponibili nelle pagine Dettagli società e Dettagli utente e non nelle finestre di dialogo Modifica società e Modifica utente. Per utilizzare questi tipi di campi, è necessario creare il modulo personalizzato nel nuovo progettista di moduli.
 
-Per ulteriori informazioni sui campi modulo personalizzati, vedere [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Per ulteriori informazioni sui campi modulo personalizzato, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## L’integrazione JumpSeat è ora disponibile per i nuovi tipi di pacchetto
 
@@ -64,7 +64,7 @@ I campi nativi utilizzati nei moduli personalizzati diventano disponibili nella 
 
 Questa funzione è disponibile solo nella versione beta di Progettazione moduli e non nel generatore di moduli legacy.
 
-Per ulteriori informazioni, vedere [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Per ulteriori informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 [Visualizza una dimostrazione video di questa funzionalità.](https://video.tv.adobe.com/v/3427702/){target=_blank}
 

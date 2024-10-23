@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '845'
 ht-degree: 2%
 
 ---
@@ -93,7 +93,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    * [Crea regole di routing](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
    * [Crea gruppi di argomenti](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
-   * [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+   * [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
 
 1. Passare al progetto che si è scelto di abilitare come coda di richieste di aiuto e dove si desidera creare un nuovo argomento della coda.\
    Per ulteriori informazioni su come designare un progetto come coda di richieste di assistenza, vedere [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).

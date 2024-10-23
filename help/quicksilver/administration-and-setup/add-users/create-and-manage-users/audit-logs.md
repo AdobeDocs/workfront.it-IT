@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1527'
 ht-degree: 3%
 
 ---
@@ -208,7 +208,7 @@ Il sistema genera una voce del registro di controllo Sezione personalizzata quan
 * Modifica il nome o la descrizione di una sezione personalizzata
 * Elimina una sezione personalizzata
 
-Per informazioni sulle sezioni personalizzate nei moduli personalizzati, vedere [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Per informazioni sulle sezioni personalizzate nei moduli personalizzati, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ### Tasso di cambio {#exchange-rate}
 

@@ -6,9 +6,9 @@ description: È possibile modificare i modelli di progetto per riflettere le mod
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '4726'
+source-wordcount: '4720'
 ht-degree: 2%
 
 ---
@@ -722,7 +722,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
          <td><p>Specifica la valuta per il progetto futuro, se è diversa da quella predefinita del sistema. Questo campo non è visibile se nel sistema è presente solo la valuta predefinita.<br>Per ulteriori informazioni sulla valuta, vedere <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Impostare i tassi di cambio</a>.</p></td> 
        </tr>
        <tr> 
-       <td role="rowheader"><strong>Bdg</strong></td> 
+       <td role="rowheader"><strong>Budget</strong></td> 
        <td><p>Specifica un budget per i progetti creati da questo modello.</p></td> 
        </tr>  
        <tr> 
@@ -771,7 +771,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 1. Fare clic all&#39;interno del campo **Aggiungi modulo personalizzato** e selezionare il modulo o i moduli personalizzati che si desidera associare al modello. Devi creare i moduli personalizzati prima che siano disponibili per la selezione in questo campo.
 
-   Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. Per ulteriori informazioni sulla creazione di moduli personalizzati, vedere [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. Per ulteriori informazioni sulla creazione di moduli personalizzati, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
    È possibile aggiungere fino a dieci moduli personalizzati a un modello.
 
@@ -927,7 +927,7 @@ Per informazioni sull&#39;effetto di queste impostazioni sulla creazione di nuov
    ![](assets/edit-template-box-tax-settings-section.png)
 
 1. Nella casella **Processo di approvazione predefinito attività** selezionare il processo di approvazione che si desidera associare a tutte le nuove attività quando si aggiungono a un progetto creato da questo modello. È necessario creare un processo di approvazione per le attività prima di associarlo alle attività. Nell&#39;elenco vengono visualizzati solo i processi di approvazione attivi. Per ulteriori informazioni sulla creazione di processi di approvazione, vedere [Creazione di processi di approvazione](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
-1. Nella casella **Forms personalizzato predefinito attività** selezionare il modulo o i moduli personalizzati che si desidera associare a tutte le nuove attività quando vengono aggiunti a un progetto creato da questo modello. Devi creare i moduli personalizzati prima che siano disponibili per la selezione in questo campo. Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. Per ulteriori informazioni sulla creazione di moduli personalizzati, vedere [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). È possibile associare fino a dieci moduli personalizzati a un&#39;attività.
+1. Nella casella **Forms personalizzato predefinito attività** selezionare il modulo o i moduli personalizzati che si desidera associare a tutte le nuove attività quando vengono aggiunti a un progetto creato da questo modello. Devi creare i moduli personalizzati prima che siano disponibili per la selezione in questo campo. Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. Per ulteriori informazioni sulla creazione di moduli personalizzati, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). È possibile associare fino a dieci moduli personalizzati a un&#39;attività.
 1. (Facoltativo) Seleziona **Usa Impegno di lavoro per calcolare automaticamente le ore pianificate per l&#39;attività** se desideri abilitare la gestione dell&#39;impegno di attività utilizzando Impegno di lavoro invece delle Ore pianificate nel progetto creato dal modello.
 1. (Condizionale e facoltativo) Se è stata selezionata l&#39;opzione Usa impegno di lavoro per calcolare automaticamente le ore pianificate per l&#39;attività, fare clic sul menu a discesa per aggiornare la percentuale per ogni livello di impegno di lavoro. I valori percentuali predefiniti sono i seguenti:
 

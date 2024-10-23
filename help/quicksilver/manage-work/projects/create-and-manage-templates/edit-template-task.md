@@ -7,9 +7,9 @@ description: Dopo aver creato un modello, è possibile modificare le informazion
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '2409'
+source-wordcount: '2406'
 ht-degree: 4%
 
 ---
@@ -362,7 +362,7 @@ Prima di iniziare, è necessario
 
    Devi creare i moduli personalizzati prima che siano disponibili per la selezione in questo campo.
 Nell’elenco vengono visualizzati solo i moduli personalizzati attivi.
-Per ulteriori informazioni sulla creazione di moduli personalizzati, vedere [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Per ulteriori informazioni sulla creazione di moduli personalizzati, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 È possibile aggiungere fino a dieci moduli personalizzati a un&#39;attività modello.
 I moduli vengono aggiunti automaticamente alle attività create dal modello.
 1. (Condizionale e facoltativo) Se si è allegato un modulo personalizzato all&#39;attività modello, modificare tutti i campi del modulo. È necessario specificare tutti i campi obbligatori prima di salvare l&#39;attività modello.

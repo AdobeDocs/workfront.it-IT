@@ -5,9 +5,9 @@ description: Oltre a impostare le entrate e a tenere traccia delle spese, è pos
 author: Alina
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1934'
+source-wordcount: '1931'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Quando si pianifica l&#39;utilizzo dei record di fatturazione, tenere presente q
       <td> <p>Seleziona <strong>Non fatturato</strong>, se questo record non è ancora stato fatturato.</p> <p>Seleziona <strong>Fatturato</strong> quando il record di fatturazione viene fatturato.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Data Fatturazione</td> 
+      <td role="rowheader">Data fatturazione</td> 
       <td>Seleziona la data di fatturazione di questo record fatturazione facendo clic sull’icona del calendario.</td> 
      </tr> 
      <tr> 
@@ -105,7 +105,7 @@ Quando si pianifica l&#39;utilizzo dei record di fatturazione, tenere presente q
 
 1. (Facoltativo) In **Forms personalizzato**, selezionare un modulo personalizzato per i record fatturazione che si desidera aggiungere al record fatturazione.
 
-   Prima di poter essere selezionato qui, è necessario creare un modulo personalizzato per i record di fatturazione, o un altro utente con accesso ai moduli personalizzati. Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. Per informazioni sulla creazione di moduli personalizzati, vedere [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Prima di poter essere selezionato qui, è necessario creare un modulo personalizzato per i record di fatturazione, o un altro utente con accesso ai moduli personalizzati. Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. Per informazioni sulla creazione di moduli personalizzati, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
    È possibile ripetere questo passaggio per aggiungere altri moduli personalizzati necessari per il record di fatturazione.
 

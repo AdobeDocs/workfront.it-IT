@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '3684'
+source-wordcount: '3681'
 ht-degree: 3%
 
 ---
@@ -487,7 +487,7 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
 
 1. Fare clic su **Aggiungi modulo personalizzato** e selezionare il modulo o i moduli personalizzati che si desidera associare all&#39;attività. Devi creare i moduli personalizzati prima che siano disponibili per la selezione in questo campo. Nell’elenco vengono visualizzati solo i moduli personalizzati attivi.
 
-   Per ulteriori informazioni sulla creazione di moduli personalizzati, vedere [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).È possibile aggiungere fino a dieci moduli personalizzati a un&#39;attività
+   Per ulteriori informazioni sulla creazione di moduli personalizzati, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).È possibile aggiungere fino a dieci moduli personalizzati a un&#39;attività
 
 1. (Condizionale) Se hai allegato un modulo personalizzato all’attività, modifica eventuali campi del modulo. È necessario specificare tutti i campi obbligatori prima di salvare l&#39;attività.
 

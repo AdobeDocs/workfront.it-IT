@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: fc321f099c2c6903d0a1cebdd041115ca8a716ff
+source-git-commit: e3e12718441c030c24a7a0625d3c1d1b63ddf974
 workflow-type: tm+mt
-source-wordcount: '14512'
+source-wordcount: '14518'
 ht-degree: 2%
 
 ---
@@ -614,7 +614,7 @@ ht-degree: 2%
          * [Panoramica dei moduli personalizzati](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
          * Progettare un modulo personalizzato {#design-a-form}
             * [Progettazione di un modulo: indice articolo](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form-toc.md)
-            * [Progettare un modulo con il progettista del modulo](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+            * [Creare un modulo personalizzato](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
             * [Progettare un modulo da una copia](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
             * [Aggiungere campi calcolati a un modulo](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
             * [Aggiungere logica di visualizzazione e logica di salto a un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
@@ -1933,6 +1933,7 @@ ht-degree: 2%
             * [Visualizzare le versioni precedenti della bozza nel visualizzatore di bozze](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-previous-version.md)
             * [Modificare la risoluzione della bozza interattiva nel visualizzatore di bozze](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)
             * [Configurare le impostazioni del visualizzatore di verifica](review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)
+            * [Rivedere i contenuti interattivi con lo strumento di revisione Adobe Workfront](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md)
          * Commento su una bozza {#comment-on-a-proof}
             * [Commento sulle bozze: indice dell’articolo](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
             * [Commento su una bozza](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md)

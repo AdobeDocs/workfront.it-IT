@@ -6,9 +6,9 @@ description: È possibile aggiungere un modulo personalizzato a un documento o a
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
-source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '327'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ Per aggiungere un modulo personalizzato a un documento:
 
    >[!NOTE]
    >
-   >Nel menu a discesa vengono visualizzati solo i moduli personalizzati attivi. È possibile aggiungere fino a 10 moduli personalizzati per documento. Se devi creare un modulo personalizzato, consulta [Progettare un modulo con la finestra di progettazione del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   >Nel menu a discesa vengono visualizzati solo i moduli personalizzati attivi. È possibile aggiungere fino a 10 moduli personalizzati per documento. Se devi creare un modulo personalizzato, vedi [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Modificare un modulo personalizzato
 

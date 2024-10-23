@@ -7,9 +7,9 @@ description: Utilizzando un campo personalizzato calcolato, è possibile visuali
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f501ce1a-7a80-458b-9b30-2292426c9262
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ I passaggi seguenti mostrano come creare un campo calcolato per un modulo person
 
    Per informazioni sulla creazione di un modulo personalizzato e sull&#39;aggiunta di campi calcolati, vedere gli articoli seguenti:
 
-   * [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+   * [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
    * [Aggiungere campi calcolati a un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
 
 1. Copia e incolla il seguente codice in modalità testo nel campo **Calcolo** del modulo personalizzato:

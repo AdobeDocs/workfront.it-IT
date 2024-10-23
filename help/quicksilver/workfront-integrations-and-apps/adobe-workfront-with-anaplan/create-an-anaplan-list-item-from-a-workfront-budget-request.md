@@ -6,9 +6,9 @@ description: Questo scenario di integrazione collega un  [!DNL Adobe Workfront] 
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
-source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '801'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Per utilizzare questo scenario, è necessario disporre dei seguenti elementi in 
    </tbody> 
   </table>
 
-  Per informazioni sulla creazione di moduli personalizzati, vedere [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Per informazioni sulla creazione di moduli personalizzati, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Modelli di progetto che rappresentano campagne e altri progetti che richiedono finanziamenti, configurati con un argomento coda [!UICONTROL Richiesta budget]. L&#39;argomento della coda [!UICONTROL Richiesta budget] è assegnato per l&#39;utilizzo del modulo personalizzato [!UICONTROL Richiesta budget].
 * Modulo **[!UICONTROL Brief campagna]** per l&#39;oggetto progetto.
@@ -141,7 +141,7 @@ Per utilizzare questo scenario, è necessario disporre dei seguenti elementi in 
    </tbody> 
   </table>
 
-  Per informazioni sulla creazione di moduli personalizzati, vedere [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Per informazioni sulla creazione di moduli personalizzati, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Configurazione [!DNL Anaplan] prevista
 

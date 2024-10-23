@@ -6,9 +6,9 @@ description: È possibile modificare gli oggetti in linea quando vengono visuali
 feature: Get Started with Workfront
 author: Lisa
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >[!NOTE]
    >
    >Se un campo personalizzato è stato configurato per consentire la formattazione, è possibile applicare il grassetto, il corsivo o il testo sottolineato quando si modifica il campo in linea in un elenco aggiornato.
-   >Per informazioni sulla configurazione della formattazione per un campo personalizzato, vedere [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   >Per informazioni sulla configurazione della formattazione per un campo personalizzato, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
    >Per informazioni sugli elenchi aggiornati, vedere la sezione &quot;Differenza tra gli elenchi aggiornati e quelli legacy&quot; nell&#39;articolo [Introduzione agli elenchi in [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 1. Premi [!UICONTROL Tab] per passare alla cella modificabile successiva.

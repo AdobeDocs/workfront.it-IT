@@ -6,9 +6,9 @@ description: Questo scenario di integrazione condivide i dettagli relativi alle 
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: f9198017-9bbb-4776-86aa-3f78705dbb22
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Per utilizzare questo scenario, è necessario disporre dei seguenti elementi in 
   | [!UICONTROL Data ultima trasmissione] | Data |
   | [!UICONTROL Note di integrazione] | Campo di testo paragrafo |
 
-  Per informazioni sulla creazione di moduli personalizzati, vedere [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Per informazioni sulla creazione di moduli personalizzati, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Configurazione [!DNL Anaplan] prevista
 

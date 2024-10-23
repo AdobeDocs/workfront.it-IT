@@ -6,14 +6,16 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 64a8d2ff8546874cf829738dcea03b2946c360cb
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
 
 # Panoramica sui record collegati
+
+<!--for the Planning connection field, see commented out below; also add preview tags-->
 
 {{planning-important-intro}}
 
@@ -54,3 +56,6 @@ Per informazioni su come connettere i record tra loro o a un altro oggetto, vede
 * È possibile collegare oggetti Workfront ai record di Workfront Planning nelle aree seguenti:
 
    * Dalla sezione Planning di un oggetto Workfront.
+  <!--* From a Planning connection field on a Workfront object's custom form. -->
+
+  Per informazioni, vedere [Gestire le connessioni record dagli oggetti Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md)

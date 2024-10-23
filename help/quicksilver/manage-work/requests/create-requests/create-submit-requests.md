@@ -6,9 +6,9 @@ description: Il lavoro pianificato è rappresentato in Adobe Workfront dai proge
 author: Lisa
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '2303'
+source-wordcount: '2300'
 ht-degree: 1%
 
 ---
@@ -87,7 +87,7 @@ Un amministratore di Workfront deve creare i seguenti componenti di una coda di 
   Per ulteriori informazioni, vedere l&#39;articolo [Creare gruppi di argomenti](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
 * (Facoltativo) Richiedi modulo personalizzato.\
-  Per ulteriori informazioni, vedere l&#39;articolo [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Per ulteriori informazioni, vedere l&#39;articolo [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * (Facoltativo) Processo di approvazione delle richieste.\
   Per ulteriori informazioni, vedere l&#39;articolo [Creare un processo di approvazione per gli elementi di lavoro](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).

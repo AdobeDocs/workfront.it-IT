@@ -7,9 +7,9 @@ description: Nel campo calcolato seguente viene visualizzata la data in cui lo s
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 55817a68-3655-4288-8cc7-48547829c46e
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,8 @@ Per aggiungere a un modulo personalizzato un campo calcolato che visualizzi la c
 
 1. Passare a un modulo personalizzato in cui si desidera aggiungere il campo.
 1. Fare clic su **Calcolato** per aggiungere al modulo un campo personalizzato calcolato.
-1. Digitare un **Etichetta** per il campo personalizzato, ad esempio *Campo personalizzato timestamp stato*.
-1. Fai clic su **Fine**, quindi su **Salva+Chiudi**.
+1. Digitare un **Etichetta** per il campo personalizzato. Ad esempio, &quot;Campo personalizzato Timestamp stato&quot;.
+1. Fai clic su **Salva+Chiudi**.
 1. Riapri il modulo personalizzato, quindi seleziona il nuovo campo personalizzato **Timestamp stato** nel modulo.
 1. Nella casella **Calcolo**, copia e incolla il seguente calcolo per il campo personalizzato:
 

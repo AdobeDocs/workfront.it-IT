@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: 2e526059e240c45ca333bb52cd57e61f87a032f2
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Puoi aggiungere un nuovo campo personalizzato o widget direttamente dall’area 
 
 È inoltre possibile modificare le proprietà di un campo personalizzato, di un&#39;interruzione di sezione o di un widget utilizzato nei moduli personalizzati. Questi includono l’etichetta, il nome, le istruzioni e così via dell’elemento.
 
-Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, vedere [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Requisiti di accesso
 
@@ -64,7 +64,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 1. Fare clic su **Nuovo campo personalizzato**.
 1. Nella casella visualizzata immettere le informazioni obbligatorie e facoltative per l&#39;elemento che si sta aggiungendo.
 
-   Per ulteriori informazioni, vedere [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Per ulteriori informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Fai clic su **Crea**.
 
@@ -77,6 +77,6 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 1. Seleziona il campo personalizzato, l&#39;interruzione di sezione o il widget, quindi fai clic sull&#39;icona ![Modifica](assets/edit-icon.png).
 1. Nella casella visualizzata, modificare le opzioni disponibili per l&#39;elemento che si sta modificando.
 
-   Per ulteriori informazioni, vedere [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Per ulteriori informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Al termine, fare clic su **Modifica**.

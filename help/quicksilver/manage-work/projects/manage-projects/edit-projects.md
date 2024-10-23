@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '7534'
+source-wordcount: '7528'
 ht-degree: 1%
 
 ---
@@ -340,7 +340,7 @@ Per modificare le informazioni sui moduli personalizzati durante la modifica di 
 
    >[!NOTE]
    >
-   >Devi creare i moduli personalizzati prima che siano disponibili per la selezione in questo campo. Nell&#39;elenco vengono visualizzati solo i moduli personalizzati attivi. Per ulteriori informazioni sulla creazione di moduli personalizzati, vedere [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Puoi aggiungere fino a dieci moduli personalizzati a un progetto.
+   >Devi creare i moduli personalizzati prima che siano disponibili per la selezione in questo campo. Nell&#39;elenco vengono visualizzati solo i moduli personalizzati attivi. Per ulteriori informazioni sulla creazione di moduli personalizzati, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Puoi aggiungere fino a dieci moduli personalizzati a un progetto.
 
 
 1. (Condizionale) Se hai allegato un modulo personalizzato al progetto, modifica tutti i campi del modulo. È necessario specificare tutti i campi obbligatori prima di salvare il progetto.
@@ -562,7 +562,7 @@ Per informazioni sull&#39;effetto di queste impostazioni sulla creazione di nuov
    * Quando si selezionano più progetti dallo stesso gruppo, in questo campo vengono visualizzati sia i processi di approvazione delle attività a livello di sistema che quelli specifici del gruppo.
    * Quando si selezionano più progetti da gruppi diversi, in questo campo vengono visualizzati solo i processi di approvazione delle attività a livello di sistema.
 
-1. Nella casella **Forms personalizzato predefinito attività** selezionare il modulo o i moduli personalizzati che si desidera associare a tutte le nuove attività quando vengono aggiunti al progetto. Devi creare i moduli personalizzati prima che siano disponibili per la selezione in questo campo. Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. Per ulteriori informazioni sulla creazione di moduli personalizzati, vedere [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). È possibile associare fino a dieci moduli personalizzati a un&#39;attività.
+1. Nella casella **Forms personalizzato predefinito attività** selezionare il modulo o i moduli personalizzati che si desidera associare a tutte le nuove attività quando vengono aggiunti al progetto. Devi creare i moduli personalizzati prima che siano disponibili per la selezione in questo campo. Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. Per ulteriori informazioni sulla creazione di moduli personalizzati, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). È possibile associare fino a dieci moduli personalizzati a un&#39;attività.
 1. (Facoltativo) Seleziona **Usa Impegno di lavoro per calcolare automaticamente le ore pianificate dell&#39;attività** se desideri abilitare la gestione dell&#39;impegno dell&#39;attività utilizzando Impegno di lavoro invece delle Ore pianificate.
 
    ![](assets/nwe-work-effort-on-projects-350x182.png)

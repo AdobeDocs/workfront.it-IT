@@ -6,9 +6,9 @@ description: Il processo di creazione e gestione delle spese è lo stesso sia pe
 author: Alina
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '577'
 ht-degree: 1%
 
 ---
@@ -74,7 +74,7 @@ Viene visualizzata la finestra di dialogo **Aggiungi una spesa**.
    * **Fatturabile:** Selezionare questa opzione se si desidera fatturare la spesa. La classificazione di una spesa come fatturabile è importante quando si creano i record di fatturazione.
    * **Rimborsabile:** Selezionare questa opzione se la spesa deve essere rimborsata. Puoi quindi contrassegnare la spesa come rimborsata dopo che la spesa è stata rimborsata.
 
-1. Seleziona un **modulo personalizzato** e specifica eventuali informazioni aggiuntive necessarie. È necessario creare un modulo personalizzato prima di associarlo a una spesa. Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. Per informazioni sulla creazione di moduli personalizzati, vedere l&#39;articolo [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Seleziona un **modulo personalizzato** e specifica eventuali informazioni aggiuntive necessarie. È necessario creare un modulo personalizzato prima di associarlo a una spesa. Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. Per informazioni sulla creazione di moduli personalizzati, vedere l&#39;articolo [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Fai clic su **Salva modifiche**.
 

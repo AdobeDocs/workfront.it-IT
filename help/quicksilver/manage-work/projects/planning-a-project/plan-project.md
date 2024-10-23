@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1394'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Considera di porre le seguenti domande:
   Per ulteriori informazioni sulla definizione degli aggiornamenti da tenere traccia in Workfront, vedere l&#39;articolo [Aggiornamenti monitorati dal sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
 * Sono presenti informazioni necessarie per il tracciamento che non dispongono di un campo in Workfront per memorizzarlo in? In caso affermativo, creare un Forms personalizzato per i progetti o le attività in cui è possibile memorizzare tali informazioni.\
-  Per ulteriori informazioni sulla creazione di moduli personalizzati, vedere l&#39;articolo [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Per ulteriori informazioni sulla creazione di moduli personalizzati, vedere l&#39;articolo [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * È necessario concedere punti di controllo per l&#39;approvazione prima di continuare a lavorare su un progetto? In caso affermativo, creare processi di approvazione per i progetti o le attività che è possibile utilizzare durante la creazione del progetto.\
   Per ulteriori informazioni sui processi di approvazione, vedere l&#39;articolo [Creare un processo di approvazione per gli elementi di lavoro](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).

@@ -5,9 +5,9 @@ title: Utilizzo dei fusi orari
 description: Può essere utile capire come [!DNL Adobe Workfront] utilizza i fusi orari per calcolare i campi di tempo per gli oggetti e gli orari in altre aree, ad esempio le e-mail.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1147'
 ht-degree: 0%
 
 ---
@@ -117,4 +117,4 @@ Per ulteriori informazioni, vedere [Aggiungere campi calcolati a un modulo](/hel
 
 Se non si desidera che [!DNL Workfront] converta gli orari configurati per in un oggetto per utenti con fusi orari diversi, è possibile utilizzare un campo di testo in un modulo personalizzato allegato a un oggetto, anziché un campo data. In questo modo, viene visualizzato il tempo digitato per tutti gli utenti del progetto.
 
-In questo caso, si consiglia di ricordare agli utenti del modulo di calcolare la differenza tra il proprio fuso orario e quello dell&#39;utente, in modo che possano determinare quando iniziare e terminare il lavoro. È possibile includerlo nelle istruzioni digitate per il modulo personalizzato o in una descrizione comando per tale campo. Per ulteriori informazioni, vedere [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+In questo caso, si consiglia di ricordare agli utenti del modulo di calcolare la differenza tra il proprio fuso orario e quello dell&#39;utente, in modo che possano determinare quando iniziare e terminare il lavoro. È possibile includerlo nelle istruzioni digitate per il modulo personalizzato o in una descrizione comando per tale campo. Per ulteriori informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

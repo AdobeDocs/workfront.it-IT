@@ -5,15 +5,17 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
 source-wordcount: '1438'
 ht-degree: 1%
 
 ---
 
-
 # Panoramica sui tipi di record collegati
+
+<!--see the commented out markers below for the Planning connection field, might not display in green; also add Preview tags for the article-->
 
 È possibile indicare che i singoli tipi di record sono correlati tra loro o a oggetti di altre applicazioni collegandoli.
 
@@ -70,8 +72,10 @@ Considerare le seguenti informazioni sulla connessione dei tipi di record:
 
       * Nel tipo di record da cui si sta effettuando la connessione viene creato un campo record collegato. Nessun campo record collegato viene creato automaticamente sul tipo di oggetto dell&#39;altra applicazione.
       * I campi dei record di Planning non sono accessibili dagli oggetti di Workfront.
-      * I campi dei record di pianificazione sono accessibili da Experience Manager Assets quando l’amministratore Workfront configura la mappatura dei metadati tramite l’integrazione tra Workfront e Adobe Experience Manager Assets. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
       * I record di Planning sono visibili dalla scheda Planning dell&#39;oggetto Workfront. Per informazioni, vedere [Gestire i record nella sezione Pianificazione degli oggetti Adobe Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+     <!--* Planning records are visible from a Workfront object's custom form when you add the Planning connection field type to the form. For information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). -->
+      * I campi dei record di pianificazione sono accessibili da Experience Manager Assets quando l’amministratore Workfront configura la mappatura dei metadati tramite l’integrazione tra Workfront e Adobe Experience Manager Assets. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+
 
    * **Quando si aggiungono campi di ricerca dal record o dall&#39;oggetto a cui ci si connette**: oltre a creare un campo record collegato, è anche possibile connettersi ai campi del record o del tipo di oggetto connesso denominati campi di ricerca. Un campo di ricerca collegato con le informazioni del record a cui ci si connette viene visualizzato nel record da cui ci si connette.
 
@@ -159,8 +163,3 @@ Ad esempio, se colleghi le campagne ai progetti e scegli questo tipo di connessi
 Un esempio reale di relazione uno-a-uno è quello esistente tra una persona e l&#39;identificatore univoco del suo paese (come un numero di previdenza sociale, un ID passaporto, un ID di identificazione locale): ogni persona ha un solo identificatore univoco per un paese e ogni identificatore univoco può essere collegato a una sola persona.
 
 Quando selezioni questo tipo di connessione, puoi successivamente modificarlo in qualsiasi altro tipo di connessione.
-
-
-
-
-

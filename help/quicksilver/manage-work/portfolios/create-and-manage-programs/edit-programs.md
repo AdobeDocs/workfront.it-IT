@@ -6,9 +6,9 @@ description: È possibile modificare le informazioni relative ai programmi creat
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1007'
 ht-degree: 0%
 
 ---
@@ -168,7 +168,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    >[!NOTE]
    >
-   >A seconda di come l&#39;amministratore di [!DNL Workfront] ha impostato le autorizzazioni per le sezioni nel modulo personalizzato, non tutti possono visualizzare o modificare gli stessi campi in un determinato modulo personalizzato. Le autorizzazioni per modificare i campi all’interno di una sezione di un modulo personalizzato dipendono dalle autorizzazioni di cui disponi per il programma stesso. Per informazioni sull&#39;impostazione delle autorizzazioni per le sezioni di un modulo personalizzato, vedere [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   >A seconda di come l&#39;amministratore di [!DNL Workfront] ha impostato le autorizzazioni per le sezioni nel modulo personalizzato, non tutti possono visualizzare o modificare gli stessi campi in un determinato modulo personalizzato. Le autorizzazioni per modificare i campi all’interno di una sezione di un modulo personalizzato dipendono dalle autorizzazioni di cui disponi per il programma stesso. Per informazioni sull&#39;impostazione delle autorizzazioni per le sezioni di un modulo personalizzato, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Aggiorna i campi nei moduli personalizzati, quindi fai clic su **[!UICONTROL Salva modifiche]** o continua con la sezione seguente.
 

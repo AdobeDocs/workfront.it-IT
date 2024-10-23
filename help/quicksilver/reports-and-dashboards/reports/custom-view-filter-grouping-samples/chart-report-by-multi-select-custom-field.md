@@ -7,9 +7,9 @@ description: È possibile tracciare un report in base a un campo personalizzato 
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1018'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Non è possibile creare un grafico in un report facendo riferimento a un campo p
 Per creare un campo calcolato che faccia riferimento a un campo personalizzato a selezione multipla, è necessario disporre dei seguenti prerequisiti:
 
 * Campo personalizzato a selezione multipla in un modulo personalizzato.\
-  Per informazioni sulla creazione di moduli personalizzati e sull&#39;aggiunta di campi personalizzati a tali moduli, vedere l&#39;articolo [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Per informazioni sulla creazione di moduli personalizzati e sull&#39;aggiunta di campi personalizzati, vedere l&#39;articolo [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Modulo personalizzato con campo personalizzato a selezione multipla associato agli oggetti.
 * Valori per il campo personalizzato a selezione multipla per ciascun oggetto.
@@ -95,7 +95,7 @@ Per generare il campo personalizzato calcolato che fa riferimento al campo perso
 
 1. Crea un modulo personalizzato o modificane uno esistente.
 
-   Per informazioni sulla creazione di moduli personalizzati, vedere [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Per informazioni sulla creazione di moduli personalizzati, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Selezionare l&#39;oggetto o gli oggetti che si intende utilizzare con il modulo personalizzato.
 1. Fai clic su **Aggiungi campo**, quindi su **Calcolato** per aggiungere al modulo il campo personalizzato a selezione multipla.

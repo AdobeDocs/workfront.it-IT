@@ -7,9 +7,9 @@ description: Puoi eseguire il raggruppamento in base al valore in un campo perso
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 Per poter raggruppare in base a un campo personalizzato a selezione multipla, è necessario disporre dei seguenti prerequisiti:
 
 * Crea il campo personalizzato a selezione multipla in un modulo personalizzato.\
-  Per informazioni sulla creazione di moduli personalizzati e sull&#39;aggiunta di campi personalizzati a tali moduli, vedere l&#39;articolo [Progettare un modulo con Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Per informazioni sulla creazione di moduli personalizzati e sull&#39;aggiunta di campi personalizzati, vedere l&#39;articolo [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Allegare il modulo personalizzato agli oggetti.
 * Compila il campo personalizzato a selezione multipla con un valore su ciascun oggetto. 
