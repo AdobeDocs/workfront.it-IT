@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 2b2c15f53602fd250ef490fd06a032fa80ccdcd7
+source-git-commit: df5f37e741f5bd771f91383f9b782ffab8e6160f
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -53,4 +53,6 @@ Per continuare a collegare gli oggetti di Workfront ai record di Workfront Plann
 La modifica in blocco dei campi di connessione di Planning per gli oggetti Workfront non è ancora disponibile.
 
 Per informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3435633/){target=_blank}
 
