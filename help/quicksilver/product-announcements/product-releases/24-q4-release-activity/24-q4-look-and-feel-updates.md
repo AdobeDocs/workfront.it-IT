@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 008713ef6587041310388c05909ad5f78fb9fa4c
+source-git-commit: 10ab6466780d9fe88604bf781c153cde89f1e454
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1192'
 ht-degree: 0%
 
 ---
@@ -28,10 +28,12 @@ L’interfaccia dei rapporti è stata aggiornata per corrispondere al design di 
 
 * È stata aggiunta una palette di colori espansa per le regole di formattazione condizionale nei rapporti. Per ulteriori informazioni sulla formattazione condizionale, vedere [Utilizzare la formattazione condizionale nelle visualizzazioni](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 * È stato aggiunto un nuovo pulsante &quot;Modifica modalità testo&quot; per accedere alla modalità testo quando si modifica una colonna nel generatore di rapporti. Per ulteriori informazioni sulla modifica delle visualizzazioni report in modalità testo, vedere [Modificare una visualizzazione utilizzando la modalità testo](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+* Non è più possibile modificare il titolo di un report facendo clic sul titolo. Per modificare il titolo di un rapporto, fai clic su Azioni rapporto > Modifica, quindi modifica il titolo. Per ulteriori informazioni sulla modifica dei report, vedere [Modifica impostazioni report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md).
+* Non è più possibile creare un raggruppamento facendo clic sul nome di una colonna nel generatore di raggruppamenti. È comunque possibile creare un raggruppamento in base a una colonna esistente in un report selezionando il campo corrispondente nell&#39;elenco Raggruppa per: campo. Per ulteriori informazioni sulla creazione di raggruppamenti, vedere [Creare raggruppamenti in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 * È stato aggiunto un nuovo interruttore all’interfaccia filtro report per passare da un selettore di data calendario a un campo di testo con caratteri jolly per data relativa durante l’applicazione di un filtro in base a un campo data. Inoltre, la selezione di un collegamento con caratteri jolly relativi per la data nell’interfaccia del filtro dei rapporti ora popola automaticamente i campi jolly associati in base alla selezione. Per ulteriori informazioni sull&#39;utilizzo dei caratteri jolly relativi nei filtri dei report, vedere [Utilizzare caratteri jolly basati sulla data per generalizzare i report](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
 * I caratteri jolly basati sugli utenti nei filtri dei rapporti ora suggeriscono caratteri jolly pertinenti per il completamento automatico in base al tipo di campo selezionato. Per ulteriori informazioni sui caratteri jolly basati sugli utenti nei filtri dei report, vedere [Utilizzare caratteri jolly basati sugli utenti per generalizzare i report](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 * I report con prompt condivisi pubblicamente verranno ora visualizzati senza prompt applicati a tutti gli utenti che vi accedono tramite il collegamento di condivisione pubblica. Gli utenti connessi che accedono direttamente al rapporto potranno comunque applicare le richieste. Per informazioni sui prompt dei report, vedere [Aggiungere un prompt a un report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
-* Modifiche ai rapporti esistenti che ne migliorano la compatibilità con le dashboard di Canvas.
+* Sono state apportate modifiche ai rapporti esistenti per migliorarne la compatibilità con le dashboard di Canvas.
 
 _Questi aggiornamenti vengono implementati in modo incrementale in produzione a partire dalla versione 24.10 del 17 ottobre 2024. Le modifiche saranno disponibili inizialmente solo per un numero limitato di clienti, diventando sempre più disponibili nel tempo fino a quando non saranno completamente disponibili per tutti i clienti entro l&#39;8 novembre 2024._
 
@@ -58,9 +60,9 @@ _Questi aggiornamenti vengono implementati in modo incrementale in produzione a 
 
 Negli elenchi sono state aggiornate le interfacce viste, raggruppamenti e filtri legacy in modo che corrispondessero alla progettazione di altre aree di Workfront. Questi aggiornamenti includono modifiche aggiuntive alle viste, ai raggruppamenti e ai filtri legacy negli elenchi:
 
-* Palette di colori espansa per le regole di formattazione condizionale nei rapporti. Per ulteriori informazioni sulla formattazione condizionale, vedere [Utilizzare la formattazione condizionale nelle visualizzazioni](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
-* Un nuovo pulsante &quot;Modifica modalità testo&quot; per accedere alla modalità testo quando si modifica una colonna durante la creazione di una nuova vista. Per ulteriori informazioni sulla modifica delle visualizzazioni in modalità testo, vedere [Modificare una visualizzazione utilizzando la modalità testo](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md).
-* Nuovo interruttore all’interfaccia dei filtri legacy per passare da un selettore di data calendario a un campo di testo con caratteri jolly per data relativa quando si filtra in base a un campo data. Inoltre, la selezione di un collegamento con caratteri jolly relativi per la data nell’interfaccia del filtro dei rapporti ora popola automaticamente i campi jolly associati in base alla selezione.
+* È stata aggiunta una palette di colori espansa per le regole di formattazione condizionale nei rapporti. Per ulteriori informazioni sulla formattazione condizionale, vedere [Utilizzare la formattazione condizionale nelle visualizzazioni](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+* È stato aggiunto un nuovo pulsante &quot;Modifica modalità testo&quot; per accedere alla modalità testo quando si modifica una colonna durante la creazione di una nuova visualizzazione. Per ulteriori informazioni sulla modifica delle visualizzazioni in modalità testo, vedere [Modificare una visualizzazione utilizzando la modalità testo](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md).
+* È stato aggiunto un nuovo interruttore all’interfaccia dei filtri legacy per passare da un selettore di data calendario a un campo di testo con carattere jolly relativo alla data quando si filtra in base a un campo data. Inoltre, la selezione di un collegamento con caratteri jolly relativi per la data nell’interfaccia del filtro dei rapporti ora popola automaticamente i campi jolly associati in base alla selezione.
 * I caratteri jolly basati sull’utente nei filtri legacy ora suggeriscono caratteri jolly pertinenti per il completamento automatico in base al tipo di campo selezionato. Per ulteriori informazioni sull&#39;utilizzo dei filtri legacy, vedere [Creare o modificare filtri in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 _Questi aggiornamenti vengono implementati in modo incrementale in produzione a partire dalla versione 24.10 del 17 ottobre 2024. Le modifiche saranno disponibili inizialmente solo per un numero limitato di clienti, diventando sempre più disponibili nel tempo fino a quando non saranno completamente disponibili per tutti i clienti entro l&#39;8 novembre 2024._
