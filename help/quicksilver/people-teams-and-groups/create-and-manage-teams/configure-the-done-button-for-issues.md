@@ -6,9 +6,9 @@ description: Il pulsante Done (Fine) può impostare automaticamente lo stato di 
 author: Lisa
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1183'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 1%
 # Configura il pulsante [!UICONTROL Fine] per i problemi
 
 Il pulsante [!UICONTROL Fine] può impostare automaticamente lo stato di un&#39;attività o di un problema. Per impostazione predefinita, [!DNL Adobe Workfront] contrassegna un problema come [!UICONTROL Risolto] quando un assegnatario fa clic su [!UICONTROL Fine] sul proprio elemento di lavoro.
+
+>[!NOTE]
+>
+>Il pulsante Done (Fine) viene visualizzato come Mark as done (Contrassegna come completato) in tutte le aree di Workfront.
 
 ## Panoramica
 

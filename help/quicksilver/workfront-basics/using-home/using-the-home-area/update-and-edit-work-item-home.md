@@ -6,9 +6,9 @@ description: Puoi visualizzare e aggiungere aggiornamenti a un elemento di lavor
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 3786f62c16c7d295de3b19fd6b7ea5ec21fc8ce6
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '678'
 ht-degree: 4%
 
 ---
@@ -71,7 +71,7 @@ Puoi visualizzare gli aggiornamenti su qualsiasi elemento di lavoro nella [!UICO
 
 Puoi fornire aggiornamenti su qualsiasi elemento di lavoro nell&#39;elenco [!UICONTROL Lavoro]:
 
-1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
+1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro o sul **menu principale** ![](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro, se disponibile, quindi fai clic su **[!UICONTROL Home]**.
 1. (Condizionale) Fai clic su **Personalizza** per aggiungere i seguenti widget:
 
    | Widget | Descrizione |
@@ -102,7 +102,7 @@ Per informazioni più dettagliate sull&#39;aggiunta di aggiornamenti, vedere [Ag
 
 È possibile modificare qualsiasi campo di qualsiasi elemento di lavoro a cui si ha accesso per la modifica.
 
-1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
+1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro o sul **menu principale** ![](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro, se disponibile, quindi fai clic su **[!UICONTROL Home]**.
 1. (Condizionale) Fai clic su **Personalizza** per aggiungere i seguenti widget:
 
    | Widget | Descrizione |

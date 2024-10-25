@@ -6,20 +6,24 @@ description: Il pulsante Done (Fine) può impostare automaticamente lo stato di 
 author: Lisa
 feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '775'
 ht-degree: 1%
 
 ---
 
 # Configura il pulsante [!UICONTROL Fine] per le attività
 
-Il pulsante [!UICONTROL Fine] può impostare automaticamente lo stato di un&#39;attività o di un problema. Per impostazione predefinita, [!UICONTROL Adobe Workfront] contrassegna un&#39;attività come [!UICONTROL Completata] quando un assegnatario fa clic sul relativo elemento di lavoro.
+Il pulsante [!UICONTROL Fine] può impostare automaticamente lo stato di un&#39;attività o di un problema. Per impostazione predefinita, [!UICONTROL Adobe Workfront] contrassegna un&#39;attività come [!UICONTROL Completata] quando un assegnatario fa clic su Contrassegna come completata sul proprio elemento di lavoro.
+
+>[!NOTE]
+>
+>Il pulsante Done (Fine) viene visualizzato come Mark as done (Contrassegna come completato) in tutte le aree di Workfront.
 
 ## Panoramica
 
-Gli utenti con determinate autorizzazioni possono configurare il pulsante [!UICONTROL Fine] per riflettere determinati stati nel sistema. Il pulsante [!UICONTROL Fine] funziona in due modi diversi per le attività in [!UICONTROL Workfront]:
+Gli utenti con determinate autorizzazioni possono configurare il pulsante [!UICONTROL Fine] per associarlo a determinati stati nel sistema. Il pulsante [!UICONTROL Fine] funziona in due modi diversi per le attività in [!UICONTROL Workfront]:
 
 * Se all&#39;utente è assegnato un team predefinito, un amministratore [!DNL Workfront] o un utente con una licenza [!UICONTROL Plan] può configurare il pulsante [!UICONTROL Done] per riflettere determinati stati per i membri del team. Vedi [Configurare il pulsante [!UICONTROL Fine] per un team](#configure-the-uicontrol-done-button-for-a-team) in questo articolo.
 * Se l&#39;utente non ha un [!UICONTROL Team predefinito], ma ha [!UICONTROL Altri team] nel suo profilo, Workfront cerca l&#39;impostazione del pulsante [!UICONTROL Fine] su uno qualsiasi dei team associati all&#39;utente. La selezione è casuale e per l’attività viene utilizzato lo stato associato a uno dei team.
@@ -98,7 +102,7 @@ Per associare utenti a un team predefinito:
 1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront].
 
 1. Fare clic su **[!UICONTROL Utenti]**, quindi selezionare l&#39;utente o gli utenti che si desidera associare a un team predefinito.
-1. Fai clic sul menu **[!UICONTROL Altro]**, quindi seleziona **[!UICONTROL Modifica]**.\
+1. Fai clic sul menu **[!UICONTROL Altro]**, quindi fai clic su **[!UICONTROL Modifica]**.\
    ![](assets/user-settings-nwe-350x291.png)
 
 1. Nella sezione **[!UICONTROL Organizzazione]**, seleziona il campo **[!UICONTROL Team predefinito]**. Inizia a digitare il nome del team di cui desideri associare le impostazioni agli utenti. Fare clic sul nome del team quando viene visualizzato nell&#39;elenco.

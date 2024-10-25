@@ -7,14 +7,16 @@ description: È possibile visualizzare solo gli elementi con un determinato stat
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: c1de5193-d3d5-406c-aa68-e6ba6d6751ae
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '280'
 ht-degree: 1%
 
 ---
 
 # Filtro: consente di visualizzare solo gli elementi con stato di approvazione
+
+<!--Audited: 10/2024-->
 
 È possibile visualizzare solo gli elementi con un determinato stato attualmente in In attesa di approvazione. Funziona allo stesso modo per qualsiasi altro oggetto con uno stato di approvazione.
 
@@ -26,6 +28,8 @@ ht-degree: 1%
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
@@ -33,45 +37,46 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Richiesta di modifica di un filtro </p>
-   <p>Pianificare la modifica di un rapporto</p> </td> 
+   <td> 
+    <p>Nuovo:</p>
+   <ul><li><p>Collaboratore per modificare un filtro </p></li>
+   <li><p>Standard per modificare un rapporto</p></li> </ul>
+
+<p>Corrente:</p>
+   <ul><li><p>Richiesta di modifica di un filtro </p></li>
+   <li><p>Pianificare la modifica di un rapporto</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l’accesso a Filtri, Viste, Raggruppamenti per modificare un filtro</p> <p><b>NOTA</b>
-
-Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
-</tr>
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l’accesso a Filtri, Viste, Raggruppamenti per modificare un filtro</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Visualizza solo gli elementi nello stato di approvazione
 
-1. Vai al filtro che desideri personalizzare per un elenco di progetti, ad esempio.
-1. Fai clic su **Aggiungi una regola filtro** per il campo **Stato** dell&#39;oggetto dell&#39;elenco.\
+1. Consente di passare a un elenco di progetti.
+1. Dal menu a discesa **Filtro**, selezionare **Nuovo filtro**.
+1. Scegli di filtrare per **Progetto: Stato**, quindi seleziona dall&#39;elenco lo stato in base al quale desideri filtrare.
+
    In un report di progetti, ad esempio, aggiungere **Stato uguale a pianificazione** se si desidera visualizzare solo i progetti con stato **Pianificazione - In attesa di approvazione**.
-
-1. Fare clic su **Passa alla modalità testo**.
-1. Modifica il
-
-   ```
-   status
-   ```
-
-   riga aggiungendo **:A** alla chiave a 3 lettere dello stato:
+1. Fare clic su **Modalità testo**.
+1. Modificare la riga `status` aggiungendo **:A** alla chiave di tre lettere dello stato:
    <pre>status=PLN:A<br>status_Mod=in</pre>
 
-1. Fai clic su **Fine**, quindi su **Salva filtro**.
+1. Fai clic su **Applica** > **Salva come nuovo**.
 
    Nell&#39;elenco vengono visualizzati solo i progetti con stato Pianificazione - In attesa di approvazione.

@@ -6,7 +6,7 @@ description: Puoi fornire l’accesso alle informazioni di cui la tua organizzaz
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
 source-wordcount: '1828'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # Creare un rapporto personalizzato
 
-<!--Audited: 12/2023-->
+<!--Audited: 10/2024-->
 
 Puoi fornire l’accesso alle informazioni di cui la tua organizzazione ha bisogno in Adobe Workfront creando rapporti. Puoi utilizzare uno qualsiasi dei rapporti incorporati disponibili in Workfront, oppure creare rapporti personalizzati da zero.
 
@@ -126,7 +126,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Oppure
 
-   Per modificare una colonna esistente, fare clic sulla colonna, fare clic sull&#39;icona **Rimuovi** ![](assets/x-icon-circled.png) a sinistra del campo corrente nella casella **Mostra campo colonna** nell&#39;angolo superiore sinistro del Report Builder e iniziare a digitare un nuovo campo, quindi fare clic su di esso quando viene visualizzato nell&#39;elenco.
+   Per modificare una colonna esistente, fare clic sulla colonna, fare clic sull&#39;icona **Rimuovi** ![](assets/remove-column-icon.png) a destra del campo corrente nell&#39;area **Mostra campo colonna** nell&#39;angolo superiore sinistro del Report Builder e iniziare a digitare un nuovo campo, quindi fare clic su di esso quando viene visualizzato nell&#39;elenco.
 
    Per ulteriori informazioni sui campi visualizzati nelle colonne, consulta [Glossario della terminologia di Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 

@@ -7,14 +7,16 @@ description: È possibile applicare i filtri delle attività riportati di seguit
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 4c3956e1-59e0-4bf2-8739-8064271d6281
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '808'
 ht-degree: 1%
 
 ---
 
 # Filtro: visualizza le attività padre
+
+<!--Audited: 10/2024-->
 
 È possibile applicare i filtri delle attività riportati di seguito per visualizzare le attività di lavoro. Le attività di lavoro sono attività che possono essere elaborate in modo indipendente e non sono attività padre di altre attività. In un esempio, un filtro identifica le attività secondarie che potrebbero essere padri stessi. In questo caso, non sono attività operative.
 
@@ -26,6 +28,8 @@ ht-degree: 1%
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
@@ -33,47 +37,53 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Richiesta di modifica di un filtro </p>
-   <p>Pianificare la modifica di un rapporto</p> </td> 
+   <td> 
+    <p>Nuovo:</p>
+   <ul><li><p>Collaboratore per modificare un filtro </p></li>
+   <li><p>Standard per modificare un rapporto</p></li> </ul>
+
+<p>Corrente:</p>
+   <ul><li><p>Richiesta di modifica di un filtro </p></li>
+   <li><p>Pianificare la modifica di un rapporto</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l’accesso a Filtri, Viste, Raggruppamenti per modificare un filtro</p> <p><b>NOTA</b>
-
-Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
-</tr>
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l’accesso a Filtri, Viste, Raggruppamenti per modificare un filtro</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Visualizza le attività senza elementi figlio (potrebbero avere un elemento padre)
 
-Per visualizzare le attività senza elementi secondari, è possibile applicare il seguente filtro a un report di attività. Potrebbero avere genitori propri ed essere figli di altre mansioni.
+Per visualizzare le attività senza elementi secondari, è possibile applicare il seguente filtro a un report di attività. Potrebbero avere genitori propri ed essere figli di altre mansioni.
 
-1. Dal **menu principale** ![](assets/main-menu-icon.png), fare clic su **Report.**
+1. Dal **menu principale** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro o dal **menu principale** ![](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro, se disponibile, fare clic su **Report**.
 
 1. Fare clic su **Nuovo report**.
 1. Seleziona un **report attività**.
 1. Fare clic su **Filtri**.
 1. Fai clic su **Aggiungi una regola filtro**.
-1. Nella riga **Inizia a digitare il nome del campo ...**, inizia a digitare **Numero di elementi figlio**.
+1. Nella riga **Inizia a digitare il nome del campo ...**, inizia a digitare **Number of Children**, quindi fai clic su **Task >> Number of Children** quando viene visualizzato nell&#39;elenco.
 
 1. Seleziona **Uguale (distinzione maiuscole/minuscole)** per il modificatore, quindi immetti **0** per il numero di elementi figlio.\
    ![](assets/parent-task-filter-from-the-ui-350x76.png)
 
    Oppure
 
-   Fare clic su **Passa alla modalità testo** e nella finestra di modifica del testo copiare e incollare il testo seguente: 
+   Fare clic su **Passa alla modalità testo** e nella finestra di modifica del testo copiare e incollare il testo seguente
 
    ```
    numberOfChildren=0
@@ -89,12 +99,13 @@ Per visualizzare le attività senza elementi secondari, è possibile applicare i
 
 È possibile applicare il filtro seguente a un report di attività per visualizzare le attività con padre, ovvero le attività figlio. Tuttavia, queste attività possono anche avere figli propri, perché il filtro non esclude i loro figli. Le attività figlio che sono anche padri per altre attività non sono considerate attività di lavoro.
 
-1. Dal **menu principale** ![](assets/main-menu-icon.png), fare clic su **Report.
+1. Dal **menu principale** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro o dal **menu principale** ![](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro, se disponibile, fare clic su **Report**.
+
 1. Fare clic su **Nuovo report**.
 1. Seleziona un **report attività**.
 1. Fare clic su **Filtri**.
 1. Fai clic su **Aggiungi una regola filtro**.
-1. Nella riga **Inizia a digitare il nome del campo ...**, inizia a digitare **ID padre**.
+1. Nella riga **Inizia a digitare il nome del campo ...**, inizia a digitare **ID padre**, quindi seleziona **Attività >> ID padre** quando viene visualizzato nell&#39;elenco.
 1. Seleziona **Non è vuoto** per il modificatore.
 
    ![](assets/filter-parent-id-not-blank-350x100.png)
@@ -111,24 +122,25 @@ Per visualizzare le attività senza elementi secondari, è possibile applicare i
 
 ## Visualizza le attività senza elementi figlio e senza elementi padre (attività autonome)
 
-È possibile applicare il filtro seguente a un report di attività per visualizzare le attività di lavoro autonome. Queste attività non hanno un genitore e non hanno figli propri.
+È possibile applicare il filtro seguente a un report di attività per visualizzare le attività di lavoro autonome. Queste attività non hanno un genitore e non hanno figli propri.
 
-1. Dal **menu principale** ![](assets/main-menu-icon.png), fare clic su **Report.**
+1. Dal **menu principale** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro o dal **menu principale** ![](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro, se disponibile, fare clic su **Report**.
+
 1. Fare clic su **Nuovo report**.
 1. Seleziona un **report attività**.
 1. Fare clic su **Filtri**.
-1. Fai clic su **Aggiungi regola filtro** e, nella **Inizia a digitare il nome del campo ...**, inizia a digitare **Numero di elementi figlio**. Seleziona **Uguale (distinzione maiuscole/minuscole)** per il modificatore, quindi immetti **0** per il numero di elementi figlio.
-1. Fai clic su **Aggiungi un&#39;altra regola filtro** e, nella **Inizia a digitare il nome del campo ...**, inizia a digitare **ID padre**, quindi seleziona **È vuoto**.
+1. Fai clic su **Aggiungi una regola filtro**.
+1. In **Inizia a digitare il nome del campo ...** la riga inizia a digitare **Numero di elementi figlio**, quindi seleziona **Attività >> Numero di elementi figlio** dall&#39;elenco.
+1. Seleziona **Uguale (distinzione maiuscole/minuscole)** per il modificatore, quindi immetti **0** per il numero di elementi figlio.
+1. Fai clic su **Aggiungi un&#39;altra regola filtro**.
+1. In **Inizia a digitare il nome del campo ...** la riga inizia a digitare **ID padre**, quindi seleziona **Attività >> ID padre** dall&#39;elenco.
+1. Selezionare **È vuoto** per il modificatore.
 
    ![](assets/filter-parent-id-blank-and-zero-children-350x121.png)
 
    Oppure
 
-   Anziché i passaggi 6-7, fare clic su **Passa alla modalità testo** e nella finestra di modifica del testo copiare e incollare il testo seguente: 
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure steps above stay accurate)</p>
-   -->
+   Invece dei passaggi 6-10 <!--ensure steps above stay accurate-->, fai clic su **Passa alla modalità testo** e nella finestra di modifica del testo copia e incolla il testo seguente:
 
    ```
    numberOfChildren=0
