@@ -7,24 +7,41 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '959'
 ht-degree: 1%
 
 ---
 
 # Creare attività in un progetto
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 10/2024 -->
 
-È possibile creare attività in un progetto solo dopo averlo creato.
+Puoi creare le attività in Adobe Workfront nei seguenti modi:
 
-Ad esempio, dopo aver creato un progetto, è possibile aggiungere attività e modificarle per organizzare il piano del progetto. Per ulteriori informazioni sulla creazione di un progetto, vedere [Creare un progetto](../../../manage-work/projects/create-projects/create-project.md).
+* Crea un&#39;attività in un progetto da zero, dopo la creazione del progetto.
 
-<!--Not possible anymore, after new Home: For information about creating personal tasks that are not in a project, see the [Create a personal task](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task) section in the article [Create work items and projects from the Home area](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).-->
+  Dopo aver creato un progetto, è possibile aggiungere attività e modificarle per organizzare il piano del progetto. Per ulteriori informazioni sulla creazione di un progetto, vedere [Creare un progetto](../../../manage-work/projects/create-projects/create-project.md).
 
-Questo articolo descrive come creare le attività da zero. È inoltre possibile creare le attività nei modi seguenti:
+* Crea le attività aggiungendo un modello a un progetto.
+
+  Per informazioni, vedere [Allegare un modello a un progetto](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+
+* Creare attività personali e spostarle in un progetto.
+
+  È possibile creare attività personali eseguendo una delle operazioni seguenti:
+
+   * Creare una richiesta di lavoro ad hoc e inviarla a un utente
+   * Creare un&#39;attività nell&#39;area Home
+
+  Per informazioni sulla creazione di attività personali non incluse in un progetto, vedere [Creare attività personali](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md).
+
+  È possibile spostare le attività personali in un progetto che diventano attività di lavoro.
+
+Questo articolo descrive come creare attività da zero e come spostare attività personali in un progetto.
+
+È inoltre possibile creare le attività nei modi seguenti:
 
 * Copiando o duplicando le attività esistenti. Per informazioni, vedere [Copiare e duplicare le attività](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 * Spostando le attività da un progetto all&#39;altro. Per informazioni, vedere [Sposta attività](../../../manage-work/tasks/manage-tasks/move-tasks.md).
@@ -152,3 +169,21 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
          * Fai clic su **Annulla** in qualsiasi momento per annullare l&#39;ultima modifica oppure su **Annulla** per annullare tutte le modifiche apportate all&#39;elenco attività.
          * Se in precedenza hai fatto clic su **Annulla**, fai clic su **Ripristina** per applicare nuovamente l&#39;ultima modifica annullata.
          * Fai clic su **Salva** per salvare le modifiche apportate all&#39;elenco delle attività.
+
+## Creare attività spostando un’attività personale in un progetto
+
+1. (Condizionale) Accertati che tu o altri utenti abbiate creato attività personali.
+
+   Per informazioni, vedere [Creare attività personali](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md).
+1. Creare un filtro attività personale e applicarlo a un report o a un elenco attività.
+
+   Per informazioni, vedere [Filtro: attività personali](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
+
+   ![](assets/personal-tasks-report.png)
+1. Fare clic sul nome di un&#39;attività nel report attività personale per aprirla.
+
+   Workfront salva le attività personali in un progetto personale non elencato che viene sempre denominato in base a questo modello: &quot;&lt; Nome completo dell’utente > Attività di. Ad esempio, un progetto personale potrebbe essere denominato &quot;Attività di Rick&quot;.
+
+1. Dalla pagina dell&#39;attività, fai clic sul **menu Altro** ![](assets/more-icon.png), quindi su **Sposta**. Per ulteriori informazioni sullo spostamento delle attività, vedere [Sposta attività](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md).
+
+   Dopo aver completato lo spostamento, l&#39;attività viene visualizzata nel progetto selezionato. La sequenza temporale del progetto potrebbe essere influenzata dalla sequenza temporale della nuova attività.

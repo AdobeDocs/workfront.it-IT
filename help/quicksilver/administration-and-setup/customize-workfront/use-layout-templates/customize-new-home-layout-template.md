@@ -1,16 +1,16 @@
 ---
-title: Personalizzare la nuova home utilizzando un modello di layout
+title: Personalizzare la Home utilizzando un modello di layout
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: È possibile utilizzare un modello di layout per configurare ciò che gli utenti visualizzano all’apertura della pagina Home.
+description: Puoi utilizzare un modello di layout per configurare ciò che gli utenti visualizzano all’apertura della pagina Home in Adobe Workfront.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 0a19683e2311b1acc57423f5cb5a7dd141c8b79c
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '853'
 ht-degree: 1%
 
 ---
@@ -28,12 +28,10 @@ Puoi configurare:
 >[!IMPORTANT]
 >
 >Gli utenti finali possono modificare lo sfondo e riordinare i widget sulla pagina dopo l’applicazione del modello di layout. Non sono in grado di rimuovere i widget inclusi da un amministratore Workfront.
-> <br>
+> 
 >Gli amministratori possono aggiungere nuovi widget per gli utenti. Tuttavia, se un utente finale ha già personalizzato l’ordine dei widget o la selezione di sfondo, tali personalizzazioni specifiche non vengono modificate.
 
-
-
-Per informazioni sulla home, vedere [Introduzione alla home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+Per informazioni sulla Home, vedere [Introduzione alla Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 Per informazioni sulla creazione di modelli di layout, vedere [Creare e gestire modelli di layout](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -81,7 +79,12 @@ Per personalizzare la Home tramite un modello di layout:
 
 1. Fai clic sulla freccia giù ![](assets/dropdown-arrow.png) in **Personalizza gli elementi visualizzati dagli utenti**, quindi fai clic su **Home Workspace**.
 
-1. Nelle schede visualizzate a destra, fare clic su **Struttura e layout** per scegliere e disporre i widget e lo sfondo oppure su **Impostazioni widget** per gestire le impostazioni per i singoli widget, ad esempio i filtri e i gruppi disponibili.
+1. Nelle schede a destra, fare clic su una delle opzioni seguenti:
+
+   * **Progettazione e layout**: selezionare per scegliere e disporre i widget e lo sfondo
+   * **Impostazioni widget**: selezionare questa opzione per gestire le impostazioni per i singoli widget, ad esempio i filtri e i gruppi disponibili.
+
+   Nella tabella seguente sono riportati i dettagli di ogni scheda:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -90,55 +93,66 @@ Per personalizzare la Home tramite un modello di layout:
      <tr> 
       <td role="rowheader">Progettazione e layout</td> 
       <td>
-      <p>Selezionate i widget che saranno presenti nelle aree di lavoro degli utenti, la loro posizione e scegliete uno sfondo. Gli utenti non possono rimuovere i widget selezionati, ma possono spostarli e ridimensionarli liberamente e aggiungere altri widget.</p>
-      <p>Questa scheda funziona essenzialmente come una piccola area di lavoro principale; in quanto tale, può essere personalizzata in base ai passaggi descritti in <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Aggiungere, modificare o rimuovere widget nella Home</a>. Selezionate i widget e disponete l'area di lavoro come desiderate che appaia per gli utenti.</p>
-      <p>Per modificare lo sfondo, seguire i passaggi descritti in <b>Personalizzazione in background</b> in <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref">Introduzione alla Home</a>.</p>
+      <p>Selezionate i widget da visualizzare nelle aree di lavoro degli utenti, la loro posizione e scegliete uno sfondo.</p> 
+      <p>Gli utenti non possono rimuovere i widget selezionati, ma possono spostarli e ridimensionarli liberamente. Possono anche aggiungere altri widget.</p>
+      <p>Questa scheda funziona essenzialmente come un’anteprima dell’area di lavoro Home effettiva che gli utenti con questo modello di layout sperimenteranno.</p> 
+      <p> Effettua una delle seguenti operazioni: </p>
+      <ul><li>Personalizzare questa scheda in base ai passaggi descritti in <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Aggiungere, modificare o rimuovere widget nella Home</a>. </li>
+      <li>Selezionate i widget e disponete l'area di lavoro come desiderate che appaia per gli utenti.</li>
+      <li>Per modificare lo sfondo, seguire i passaggi descritti in <b>Personalizzazione in background</b> in <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref">Introduzione alla Home</a>.</li></p>
       <p>
 
->[!NOTE]
->
->Solo lo spostamento o il ridimensionamento dei widget nel modello di layout non attiverà le home page degli utenti per aggiornare il layout. Tuttavia, l’aggiunta o la rimozione di un widget attiverà un aggiornamento delle pagine degli utenti.
+   >[!NOTE]
+   >
+   >Solo lo spostamento o il ridimensionamento dei widget nel modello di layout non attiverà le home page degli utenti per aggiornare il layout. Tuttavia, l’aggiunta o la rimozione di un widget attiverà un aggiornamento delle pagine degli utenti.
 
-</p>
+   </p>
      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Impostazioni widget</td> 
       <td>
-      <p>Modificare le impostazioni per i singoli widget. Attualmente sono supportati solo tre widget:</p>
+      <p>Modificare le impostazioni per i singoli widget.</p> 
+      <p>
+
+   >[!NOTE]
+   >
+   >Queste opzioni non si estendono al pannello Riepilogo. È necessario configurare tale area nella scheda Riepilogo del modello di layout.
+
+   </p>
+      <p> Selezionate uno dei seguenti widget dall'elenco a sinistra:</p>
       <ul>
         <li>I miei progetti</li>
         <li>Le mie attività</li>
         <li>I miei problemi</li>
       </ul>
-      <p>Dopo aver selezionato il widget da modificare, le opzioni disponibili vengono visualizzate a destra. Queste opzioni includono <b>Filtri</b>, <b>Colonne</b> e <b>Gruppi</b>. È possibile:</p>
+      <p>Dopo aver selezionato il widget da modificare, seleziona i <b>Filtri</b>, <b>Colonne</b> e <b>Gruppi</b> che desideri rendere disponibili per la Home a destra.</p>
+      <p> È possibile:</p>
       <ul>
-      <li><p><b>Seleziona e ordina Filtri, Colonne o Gruppi disponibili per gli utenti:</b></p>
-      <p>Seleziona la casella accanto a tutte le opzioni nell’elenco che desideri possano essere utilizzate dagli utenti. Queste opzioni non si estendono al pannello Riepilogo. È necessario configurare tale area nella scheda Riepilogo del modello di layout. Le opzioni non selezionate non vengono visualizzate per gli utenti. Trascina le opzioni nell’elenco per impostare un ordine.</li></p>
+      <li><p>Seleziona e ordina i Filtri, le Colonne o i Gruppi disponibili per gli utenti selezionando la casella accanto alle opzioni nell’elenco. Le opzioni non selezionate non vengono visualizzate per gli utenti.</p></li>
+      <li> <p>Trascina le opzioni nell’elenco per impostare un ordine.</p></li>
       <p>
 
->[!IMPORTANT]
->
->* Le opzioni Filtro, Colonne e Gruppo sono collegate alle opzioni di personalizzazione elenco nel modello di layout. Le modifiche apportate qui verranno applicate anche a queste impostazioni.
->* Gli utenti devono disporre almeno dell&#39;accesso Crea alle visualizzazioni per consentire la corretta applicazione della configurazione della colonna Amministratore alle proprie home page.
+   >[!IMPORTANT]
+   >
+   >* Le opzioni Filtro, Colonne e Gruppo sono collegate alle opzioni di personalizzazione elenco nel modello di layout. Le modifiche apportate qui verranno applicate anche a queste impostazioni.
+   >* Gli utenti devono disporre almeno dell&#39;accesso Crea alle visualizzazioni per consentire la corretta applicazione della configurazione della colonna Amministratore alle proprie home page.
 
-</p>
-      <li><p><b>Impostate un filtro o un gruppo predefinito per il widget:</b></p>
-      <p>Passa il puntatore del mouse su un’opzione e viene visualizzato un pulsante che consente di impostare tale opzione come predefinita per gli utenti. Il valore predefinito corrente presenta un contrassegno predefinito blu a destra.</li></p>
-      <li><p><b>Aggiungi un filtro, una colonna o un gruppo esistente all’elenco delle opzioni disponibili:</b></p>
-      <p>Fare clic sul pulsante con il segno più nella parte inferiore di ogni elenco per aggiungere un'opzione all'elenco. Solo i filtri, i campi (per le colonne) o i gruppi esistenti possono essere aggiunti in questo modo.</p></li>
+   </p>
+      <li><p>Impostare un filtro o un gruppo predefinito per il widget passando il mouse su un'opzione e facendo clic su <b>Imposta come predefinito</b>. Il valore predefinito corrente visualizza un contrassegno blu <b>Predefinito</b> a destra.</p></li>
+      <li><p>Aggiungere un filtro, una colonna o un gruppo esistente all'elenco delle opzioni disponibili facendo clic sul pulsante del segno più nella parte inferiore di ogni elenco per aggiungere un'opzione all'elenco. Solo i filtri, i campi (per le colonne) o i gruppi esistenti possono essere aggiunti in questo modo.</p></li>
       </ul>
       <p>
 
->[!NOTE]
->
->Se impostate un filtro o un raggruppamento predefinito per un widget specifico utilizzando un modello di layout, potrebbe non avere effetto immediato a causa delle preferenze utente esistenti. Per applicare immediatamente il nuovo filtro o raggruppamento, è possibile che tu o l’utente debba reimpostare le preferenze utente aggiungendo &quot;/resetUser&quot; alla fine dell’URL.
+   >[!NOTE]
+   >
+   >Se impostate un filtro o un raggruppamento predefinito per un widget specifico utilizzando un modello di layout, potrebbe non avere effetto immediato a causa delle preferenze utente esistenti. Per applicare immediatamente il nuovo filtro o raggruppamento, è possibile che tu o l’utente debba reimpostare le preferenze utente aggiungendo &quot;/resetUser&quot; alla fine dell’URL.
 
-</p>
-  </td> 
-  </tr>
-  </tbody> 
-  </table>
+   </p>
+      </td> 
+      </tr>
+      </tbody> 
+      </table>
 
 1. Continuate a personalizzare il modello di layout.
 
@@ -146,6 +160,6 @@ Per personalizzare la Home tramite un modello di layout:
 
    Se hai completato la personalizzazione, fai clic su **Salva** nell&#39;angolo in basso a sinistra.
 
->[!IMPORTANT]
->
->È necessario aggiornare la home page per visualizzare le personalizzazioni dal modello di layout.
+   >[!IMPORTANT]
+   >
+   >Gli utenti devono aggiornare la home page per visualizzare le personalizzazioni dal modello di layout.

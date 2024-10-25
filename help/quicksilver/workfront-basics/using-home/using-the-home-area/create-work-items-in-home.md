@@ -6,10 +6,10 @@ description: È possibile creare elementi di lavoro e progetti dall'area [!UICON
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 5ff0fabb60cb9e7c2a7b3506693efdb6c5d8e956
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 3%
+source-wordcount: '761'
+ht-degree: 2%
 
 ---
 
@@ -54,16 +54,20 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Creare un&#39;attività personale
 
-È possibile creare un elemento attività personale disponibile solo per l&#39;utente corrente nell&#39;area [!UICONTROL Home]:
+Puoi creare un elemento personale da fare nell&#39;area [!UICONTROL Home]. Gli elementi da fare sono attività personali che vengono create personalmente.
 
-1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
-1. (Condizionale) Aggiungi il widget attività alla schermata iniziale. Fai clic su **Personalizza** e trova **Da-fare**.
+L&#39;utente e gli altri utenti possono visualizzare le attività personali in un report attività personale. Da lì, possono aggiungerli ai progetti, se necessario.
+
+Per creare un elemento attività:
+
+1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro o sul **menu principale** ![](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro, se disponibile, quindi fai clic su **[!UICONTROL Home]**.
+1. (Condizionale) Fai clic su **Personalizza**, quindi fai clic su **Da fare** per aggiungere il widget attività alla schermata iniziale.
 1. Vai al widget **Da fare**, quindi fai clic su **Aggiungi da fare**.
-1. Digita il
+1. Digitare il nome dell&#39;attività personale, quindi fare clic su Invio.
 1. (Facoltativo) Fai clic sull&#39;icona **Data** ![](assets/date-icon.png) per aggiungere una data di scadenza per l&#39;elemento.
    ![](assets/my-work-to-dos.png)
-
-
+1. (Facoltativo) Crea un rapporto o un filtro di attività personale. Per informazioni sulla creazione di un filtro attività personale, vedere [Filtro: attività personale](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
+Nel rapporto attività personale è possibile visualizzare le attività personali e quelle di altri utenti.
 
 ## Aggiungere un’attività a un progetto
 

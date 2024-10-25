@@ -7,10 +7,10 @@ description: Questo filtro attività restituisce predecessori tra progetti incom
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 7ee2432c-1d82-454e-a73a-f1f6b6a5c10d
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 1%
+source-wordcount: '247'
+ht-degree: 0%
 
 ---
 
@@ -54,11 +54,11 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 
 Per applicare questo filtro:
 
-1. Consente di passare a un elenco di attività.
+1. Consente di passare a un elenco di attività o a un report di attività.
 1. Dal menu a discesa **Filtro**, selezionare **Nuovo filtro**.
 
-1. Fare clic su **Passa alla modalità testo**.
-1. Nell&#39;area **Imposta regole filtro per il report**, incolla il seguente codice:
+1. (Facoltativo) Fai clic su **Modalità testo** se hai effettuato l&#39;accesso al filtro da un elenco oppure su **Passa alla modalità testo** se hai effettuato l&#39;accesso al filtro da un report.
+1. Nella nuova area, incolla il seguente codice:
    <pre>predecessorsMM:projectID=FIELD:projectID<br>predecessorsMM:projectID_Mod=ne<br>percentComplete=100<br>percentComplete_Mod=ne</pre>
 
-1. Fai clic su **Salva filtro**.
+1. (Condizionale) Fai clic su **Salva filtro** se hai effettuato l&#39;accesso al filtro da un report oppure su **Applica**, quindi su **Salva come nuovo** se hai effettuato l&#39;accesso al filtro da un elenco di attività.

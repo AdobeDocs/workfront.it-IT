@@ -6,9 +6,9 @@ description: La Data di completamento pianificata di un problema è la data entr
 author: Alina
 feature: Work Management
 exl-id: bdb206dc-18f8-4f8a-862b-e881408a8408
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Per poter aggiornare la Data di completamento pianificata del problema, è neces
 Puoi impostare manualmente la Data di completamento pianificata di un problema nelle seguenti aree di Workfront:
 
 * Nella casella Modifica problema o nell’area Dettagli problema durante la creazione o la modifica di un problema. Per informazioni, vedere [Modifica problemi](../../../manage-work/issues/manage-issues/edit-issues.md).
-* Nell’area Home se viene visualizzata la Data di completamento pianificata quando viene visualizzato un problema. Per informazioni, vedere [Aggiornare o modificare un elemento di lavoro nell&#39;area Home](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
+* Nell’area Home se la Data di completamento pianificata viene visualizzata nel pannello Riepilogo di un problema. Per informazioni, vedere [Aggiornare o modificare un elemento di lavoro nell&#39;area Home](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
 * Nell’intestazione del problema. Per informazioni, vedere [Nuove intestazioni oggetto](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 * In un elenco o in un rapporto di problemi quando il campo Data di completamento pianificata viene visualizzato nella vista.
 
