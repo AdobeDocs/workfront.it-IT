@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: Raggruppare un rapporto per un campo personalizzato a selezione multipla
+title: Raggruppare un report per un campo personalizzato a selezione multipla
 description: Puoi eseguire il raggruppamento in base al valore in un campo personalizzato a selezione multipla in un rapporto di Adobe Workfront solo utilizzando la modalità testo.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
 
 # Raggruppare un rapporto per un campo personalizzato a selezione multipla
+
+<!--Audited: 10/2024-->
 
 Puoi eseguire il raggruppamento in base al valore in un campo personalizzato a selezione multipla in un rapporto di Adobe Workfront solo utilizzando la modalità testo.
 
@@ -37,6 +39,8 @@ Per informazioni sull&#39;utilizzo della modalità testo, vedere l&#39;articolo 
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
@@ -44,28 +48,34 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Richiesta di modifica di un raggruppamento </p>
-   <p>Pianificare la modifica di un rapporto</p> </td> 
+   <td> 
+    <p>Nuovo:</p>
+   <ul><li><p>Collaboratore per modificare un filtro </p></li>
+   <li><p>Standard per modificare un rapporto</p></li> </ul>
+
+<p>Corrente:</p>
+   <ul><li><p>Richiesta di modifica di un filtro </p></li>
+   <li><p>Pianificare la modifica di un rapporto</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modifica l'accesso a Filtri, Viste, Raggruppamenti per modificare un raggruppamento</p> <p><b>NOTA</b>
-
-Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
-</tr>  
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l’accesso a Filtri, Viste, Raggruppamenti per modificare un filtro</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront.
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Raggruppare un rapporto per più campi personalizzati selezionati
 
@@ -75,17 +85,17 @@ Per poter raggruppare in base a un campo personalizzato a selezione multipla, è
   Per informazioni sulla creazione di moduli personalizzati e sull&#39;aggiunta di campi personalizzati, vedere l&#39;articolo [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Allegare il modulo personalizzato agli oggetti.
-* Compila il campo personalizzato a selezione multipla con un valore su ciascun oggetto. 
+* Compila il campo personalizzato a selezione multipla con un valore su ciascun oggetto.
 
 Per raggruppare in base a un campo personalizzato a selezione multipla in un rapporto:
 
 1. Crea un rapporto o modificane uno esistente in cui desideri aggiungere un raggruppamento per un campo personalizzato a selezione multipla.\
    Per informazioni sulla creazione di report, vedere l&#39;articolo [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-
+1. Fai clic su **Azioni report**, quindi su **Modifica**.
 1. Selezionare la scheda **Raggruppamenti**.
 1. Fare clic su **Passa alla modalità testo**.
 
-1. Selezionare il testo nella casella **Raggruppa il report** e sostituirlo con il seguente codice:
+1. Selezionare il testo nella casella **Raggruppa per** e sostituirlo con il seguente codice:
 
    <pre>
    group.0.displayname=Nome campo personalizzato a selezione multipla
@@ -94,7 +104,7 @@ Per raggruppare in base a un campo personalizzato a selezione multipla in un rap
    group.0.textmode=true
    </pre>
 
-1. Sostituisci &quot;Nome campo personalizzato a selezione multipla&quot; con il nome effettivo del campo personalizzato a selezione multipla, come visualizzato in Workfront.
+1. Sostituisci &quot;Nome campo personalizzato a selezione multipla&quot; con il nome effettivo del campo personalizzato a selezione multipla, come visualizzato nell’istanza di Workfront.
 1. Fare clic su **Salva e chiudi**.
 
    Gli oggetti nel report sono raggruppati in base ai valori del campo personalizzato a selezione multipla.

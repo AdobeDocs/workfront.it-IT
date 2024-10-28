@@ -2,25 +2,29 @@
 content-type: tips-tricks-troubleshooting
 product-area: reporting;user-management
 navigation-topic: tips-tricks-and-troubleshooting-reports
-title: "Filtro: rapporto Proof Approval (Approvazione della bozza) per omettere le versioni precedenti della bozza"
+title: "Filtro: rapporto Approvazione bozza per omettere le versioni di bozza precedenti"
 description: In un rapporto Proof Approval (Approvazione bozza) è possibile utilizzare il filtro Is Current Document Version (È versione corrente del documento) per includere solo le versioni correnti delle bozze in attesa di approvazione.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: e844d3ed-75ee-4a0f-a28c-a3d22f203502
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
 
 # Filtro: rapporto Proof Approval (Approvazione della bozza) per omettere le versioni precedenti della bozza
 
+<!--Audited: 10/2024-->
+
 In un report Proof Approval (Approvazione bozza) è possibile utilizzare il filtro **Is Current Document Version** (È la versione corrente del documento) per includere solo le versioni correnti delle bozze in attesa della propria approvazione.
 
-Ciò è utile, ad esempio, se ti è stato chiesto di approvare bozze che hanno più versioni. Quando si esegue il rapporto Proof Approval (Approvazione della bozza) con il filtro Is Current Document Version (È versione corrente del documento), nel rapporto viene elencata solo la versione corrente di ogni bozza in attesa di approvazione, omettendo le versioni precedenti su cui non è più necessario lavorare. 
+Ciò è utile, ad esempio, se ti è stato chiesto di approvare bozze che hanno più versioni. Quando si esegue il rapporto Proof Approval (Approvazione della bozza) con il filtro Is Current Document Version (È versione corrente del documento), nel rapporto viene elencata solo la versione corrente di ogni bozza in attesa di approvazione, omettendo le versioni precedenti su cui non è più necessario lavorare.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -29,30 +33,38 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Richiesta di modifica di un filtro </p>
-   <p>Pianificare la modifica di un rapporto</p> </td> 
+   <td> 
+    <p>Nuovo:</p>
+   <ul><li><p>Collaboratore per modificare un filtro </p></li>
+   <li><p>Standard per modificare un rapporto</p></li> </ul>
+
+<p>Corrente:</p>
+   <ul><li><p>Richiesta di modifica di un filtro </p></li>
+   <li><p>Pianificare la modifica di un rapporto</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l’accesso a Filtri, Viste, Raggruppamenti per modificare un filtro</p> <p><b>NOTA</b>
-
-Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l’accesso a Filtri, Viste, Raggruppamenti per modificare un filtro</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Filtrare il rapporto Proof Approval (Approvazione della bozza) per omettere le versioni precedenti della bozza
+
+Puoi creare un filtro per un rapporto Proof Approval (Approvazione della bozza).
 
 1. Se disponi già di un rapporto Proof Approval (Approvazione della bozza), aprilo.
 
@@ -62,15 +74,20 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
    <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sarah: Add sub bullets for report creation.</p>
    -->
 
-   Per creare un report Proof Approval personalizzato, fai clic sul menu principale ![](assets/main-menu-icon.png), quindi fai clic su **Report** ![](assets/reports-in-main-menu.png). Fare clic su **Nuovo report**. Nell&#39;elenco visualizzato scorrere fino a e fare clic su **Approvazione bozza**. Fai clic su **Salva + Chiudi**, digita un **Nome report** (facoltativo), quindi fai clic su **Salva report**.
+   Per creare un report Proof Approval personalizzato, fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** in alto a destra oppure sull&#39;icona ![](assets/lines-main-menu.png) del **menu principale** in alto a sinistra, se disponibile, quindi fai clic su **Report** ![](assets/reports-in-main-menu.png).
 
-1. Fare clic su **Azioni report > Modifica**.
+1. Fare clic su **Nuovo report**. Viene visualizzato l&#39;elenco dei tipi di oggetto.
+1. Fare clic su **Approvazione bozza** nell&#39;elenco.
+Viene aperto Report Builder (Generatore report).
 1. Fai clic su **Filtri**, quindi fai clic su **Aggiungi una regola filtro**.
 
    <!--
    <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Tell Proof Lehi this isn't visible unless you scroll to it over on the right, not at all obvious. When on a laptop.</p>
    -->
 
-1. Fare clic su **Approvazione bozza**.
-1. Nell&#39;elenco visualizzato fare clic su **È la versione corrente del documento**.
-1. Fai clic su **Salva + Chiudi** nell&#39;angolo inferiore sinistro di Adobe Workfront, quindi fai clic su **Salva report** nella casella visualizzata.
+1. Fai clic nella casella **Imposta regole filtro per il report**, quindi seleziona **Approvazione bozza** dall&#39;elenco.
+1. Fare clic su **Is Current Document Version** nell&#39;elenco dell&#39;oggetto **Proof Approval**.
+1. Scegliere Uguale per il modificatore di filtro, quindi selezionare True.
+1. Fai clic su **Salva + Chiudi** nell&#39;angolo inferiore sinistro di Adobe Workfront, quindi fai clic su **Applica** nella casella visualizzata.
+
+   Nel rapporto Proof Approval (Approvazione bozza) vengono visualizzate solo le bozze associate alle versioni correnti di qualsiasi documento, se le approvazioni di bozza corrispondono a questi criteri di filtro.

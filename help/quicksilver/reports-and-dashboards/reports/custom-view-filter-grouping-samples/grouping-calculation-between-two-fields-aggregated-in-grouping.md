@@ -5,17 +5,19 @@ keywords: calcolato,aggregati,avanzato,visualizzazioni
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "Raggruppamento: visualizza il risultato dell’aggregazione di più valori calcolati in un raggruppamento"
 description: È possibile utilizzare la modalità testo in una colonna per visualizzare un calcolo tra due campi nella visualizzazione di un report o di un elenco. Ogni riga visualizza il calcolo per ogni oggetto nel report o nell'elenco.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: e67c0b10-af9f-4657-8f99-8b63ae3c0865
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
 
 # Raggruppamento: visualizza il risultato dell’aggregazione di più valori calcolati in un raggruppamento
+
+<!--Audited: 10/2024-->
 
 È possibile utilizzare la modalità testo in una colonna per visualizzare un calcolo tra due campi nella visualizzazione di un report o di un elenco. Ogni riga visualizza il calcolo per ogni oggetto nel report o nell&#39;elenco.
 
@@ -25,6 +27,8 @@ ht-degree: 0%
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
@@ -32,33 +36,39 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Richiesta di modifica di un raggruppamento </p>
-   <p>Pianificare la modifica di un rapporto</p> </td> 
+   <td> 
+    <p>Nuovo:</p>
+   <ul><li><p>Collaboratore per modificare un filtro </p></li>
+   <li><p>Standard per modificare un rapporto</p></li> </ul>
+
+<p>Corrente:</p>
+   <ul><li><p>Richiesta di modifica di un filtro </p></li>
+   <li><p>Pianificare la modifica di un rapporto</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modifica l'accesso a Filtri, Viste, Raggruppamenti per modificare un raggruppamento</p> <p><b>NOTA</b>
-
-Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
-</tr>  
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l’accesso a Filtri, Viste, Raggruppamenti per modificare un filtro</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Visualizza il risultato dell&#39;aggregazione di più valori calcolati in un raggruppamento
 
 1. Vai a un report attività, fai clic su **Azioni report** > **Modifica**.
-1. Nella scheda **Raggruppamenti**, fai clic su **Aggiungi raggruppamento** e inizia a digitare **Nome progetto** nel campo **Raggruppa il report** > **In primo luogo per**, quindi selezionalo quando viene visualizzato nell&#39;elenco.
+1. Nella scheda **Raggruppamenti**, fai clic su **Aggiungi raggruppamento** e inizia a digitare **Nome progetto** nel campo **Raggruppa per**, quindi seleziona **Progetto > Nome** quando viene visualizzato nell&#39;elenco.
 
 1. Nella scheda **Columns(View)**, fai clic su **Aggiungi colonna**, quindi inizia a digitare **Ore pianificate** nel campo **Mostra in questa colonna**, quindi selezionalo quando viene visualizzato nell&#39;elenco.
 
@@ -66,10 +76,9 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
    >
    >Inizia sempre ad aggiungere tutte le informazioni utilizzando l&#39;interfaccia Standard prima di modificare le informazioni in modalità testo. Aggiungere i campi più vicini o che contengono la maggior parte delle informazioni che si sta tentando di creare per il calcolo.
 
-1. Nel campo **Riepiloga questa colonna per**, seleziona **Somma**, quindi fai clic su **Fine**.
-1. Fare clic su **Passa alla modalità testo** nella colonna aggiunta.
-1. Passa il puntatore del mouse sull&#39;area della modalità testo e fai clic su **Fai clic per modificare il testo**.
-1. Sostituire le righe `valuefield ` e `aggregator.valuefield` con le righe evidenziate nel seguente esempio di modalità testo:
+1. Nel campo **Riepiloga questa colonna per**, selezionare **Somma**.
+1. Fare clic su **Passa alla modalità testo** nella colonna aggiunta, quindi fare clic su **Modifica modalità testo**.
+1. Sostituire il testo nella casella con il seguente esempio di modalità testo:
 
    ```
    valueformat=compound
@@ -93,5 +102,5 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
    >
    >
    >La definizione `minutesAsHoursString` della riga `aggregator.displayformat` indica che non è necessario dividere ogni campo per 60 come fatto il `valueexpression` per i risultati. In questo `aggregator.valuefield=workRequired` diventa: `aggregator.valueexpression=ROUND(({workRequired}-{actualWorkRequired}),2`.
-
+1. Fai clic su **Fine**.
 1. Fai clic su **Salva+Chiudi**.
