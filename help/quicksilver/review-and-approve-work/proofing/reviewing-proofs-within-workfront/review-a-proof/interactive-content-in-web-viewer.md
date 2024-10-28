@@ -6,14 +6,19 @@ description: È consigliabile esaminare tutti i contenuti interattivi utilizzand
 author: Courtney
 feature: Digital Content and Documents
 exl-id: daddc225-62df-4e1a-98fd-8bb7c7c5553b
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+source-git-commit: eeaf2f2cec65fae9e4b898ed43d8c9b781b29d9e
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
 
 # Configurare la verifica dei contenuti interattivi nel visualizzatore bozze web
+
+>[!IMPORTANT]
+>
+>Si tratta di un’estensione legacy del browser e non è più supportata. È consigliabile installare la nuova estensione del browser attualmente in versione beta: [Adobe Workfront review tool](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md).
+
 
 È consigliabile esaminare tutti i contenuti interattivi utilizzando il Visualizzatore bozze desktop. Tuttavia, se i criteri dell&#39;organizzazione lo impediscono, l&#39;amministratore di Workfront può configurare il sistema per l&#39;utilizzo di Web Proofing Viewer per la verifica interattiva. Per informazioni comparative su questi due visualizzatori, vedere [Differenze tra Web Proofing Viewer e Desktop Proofing Viewer overview](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
 
@@ -47,5 +52,3 @@ Il visualizzatore bozze Web presenta le seguenti limitazioni:
 1. Nel Visualizzatore bozze Web fare clic su **Ricarica la bozza**.
 
 Con l&#39;estensione installata nel browser, il visualizzatore di bozze acquisisce una schermata statica del contenuto ogni volta che fai clic su **Aggiungi commento**. In questa schermata puoi aggiungere commenti con le annotazioni.
-
- 
