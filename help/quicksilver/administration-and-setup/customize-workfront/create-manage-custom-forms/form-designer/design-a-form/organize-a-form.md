@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 83995ccd5fc4a94d7d2574bfa7514f3df6f3618e
+source-git-commit: bd1635dbcd9a49969b99901faf9e3a4744241001
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1335'
 ht-degree: 0%
 
 ---
@@ -160,13 +160,10 @@ In un modulo personalizzato con un&#39;interruzione di sezione configurata con l
 
 1. (Facoltativo) Per posizionare un campo personalizzato o un widget sopra o sotto un altro, trascinarlo sopra o sotto fino a visualizzare una linea blu orizzontale tra gli elementi.
 
-<div class="preview">
+1. Per spostare un campo personalizzato in un&#39;altra sezione del modulo, è possibile trascinarlo nella posizione desiderata, <span class="preview">oppure fare clic sull&#39;icona **Sposta in** nel campo e selezionare la sezione in cui spostarlo.</span>
 
-1. Per spostare un campo personalizzato in un&#39;altra sezione del modulo, è possibile trascinarlo e rilasciarlo nella posizione desiderata oppure fare clic sull&#39;icona **Sposta in** nel campo e selezionare la sezione in cui spostarlo.
-
+   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
    ![Sposta il campo in una sezione](assets/move-field-to-section.png)
-
-</div>
 
 1. Per salvare le modifiche, fai clic su **Applica**
 
