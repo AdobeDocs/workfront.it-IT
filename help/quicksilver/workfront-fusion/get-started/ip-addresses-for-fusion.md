@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion richiede una licenza Adobe Workfront Fusion 
 author: Becky
 feature: Workfront Fusion
 exl-id: f6295cc7-367f-4c8b-891b-cc11ff42a225
-source-git-commit: d4ae54f14c2328888ce80902275b0d390fb4fbb7
+source-git-commit: 2f1244d15ad7729941a35a1dc7ad9f1128d24404
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,34 @@ ht-degree: 0%
 
 Se il firewall o il server di posta è configurato per consentire l&#39;accesso solo a determinati fornitori, è necessario aggiungere determinati indirizzi IP al relativo inserisco nell&#39;elenco Consentiti per consentire la comunicazione aperta tra l&#39;ambiente e [!DNL Adobe Workfront Fusion].
 
-## Identificare il datacenter
+È possibile aggiungere tutti gli indirizzi IP e i domini di Fusion al inserisco nell&#39;elenco Consentiti di oppure individuare il cluster di Fusion e aggiungere solo gli indirizzi IP e i domini per tale cluster.
+
+## Aggiungere tutti gli indirizzi IP e i domini di Fusion
+
+Aggiungi i seguenti indirizzi IP al tuo inserisco nell&#39;elenco Consentiti di:
+
+* 52.30.133.50
+* 54 220 93 204
+* 34 254 76 122
+* 54 244 142 219
+* 52.39.217.230
+* 44 241 82 96
+* 100.20.126.137
+* 34 223 32,4
+* 52.39.176.220
+* 20.36.133.48/28
+* 20.81.156.240/28
+* 172.172.84.48/28
+
+Inoltre, se l’organizzazione utilizza il filtro di rete in uscita, aggiungi il seguente dominio al inserisco nell&#39;elenco Consentiti per consentire al sistema di accedere a Workfront Fusion.
+
+* hook.app.workfrontfusion.com
+* hook.app-eu.workfrontfusion.com
+* hook.app-az.workfrontfusion.com
+
+## Aggiungere indirizzi IP e domini Fusion solo per il cluster
+
+### Identificare il datacenter
 
 Gli indirizzi IP variano in base alla posizione in cui vengono memorizzati i dati.
 
@@ -43,7 +70,7 @@ Se accedi a Fusion tramite experience.adobe.com, puoi controllare la scheda di r
 | Chiamate a `https://eu.fusion.adobe.com` | Datacenter UE |
 | Chiamate a `https://az.fusion.adobe.com` | Datacenter di Azure |
 
-## Indirizzi IP per Workfront Fusion
+### Aggiungere indirizzi IP e domini per il centro dati
 
 Aggiungere i seguenti indirizzi IP al inserisco nell&#39;elenco Consentiti di accesso al sistema per consentire a [!DNL Workfront Fusion] di accedere al sistema.
 
