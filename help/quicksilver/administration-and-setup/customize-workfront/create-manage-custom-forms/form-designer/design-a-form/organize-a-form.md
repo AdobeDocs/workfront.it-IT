@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 83995ccd5fc4a94d7d2574bfa7514f3df6f3618e
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1329'
 ht-degree: 0%
 
 ---
 
 # Organizzare un modulo e visualizzarne l’anteprima
+
+{{highlighted-preview}}
 
 È possibile organizzare un modulo personalizzato con il progettista del modulo e visualizzarlo in anteprima per verificarne la corretta configurazione.
 
@@ -156,7 +158,15 @@ In un modulo personalizzato con un&#39;interruzione di sezione configurata con l
    >* Puoi usare il pulsante **Anteprima** nell&#39;angolo superiore destro per avere un&#39;idea di come verranno visualizzati i campi personalizzati e i widget nel modulo.
    >* I campi personalizzati e i widget potrebbero non essere sempre visualizzati allo stesso modo nel modulo, a seconda dello spazio disponibile sullo schermo quando viene visualizzato da un utente. Ad esempio, il terzo campo di una riga di campi può essere disposto alla riga successiva di campi se lo spazio orizzontale è limitato.
 
-1. (Facoltativo)Per posizionare un campo personalizzato o un widget sopra o sotto un altro campo, trascinarlo sopra o sotto fino a visualizzare una linea blu orizzontale tra gli elementi.
+1. (Facoltativo) Per posizionare un campo personalizzato o un widget sopra o sotto un altro, trascinarlo sopra o sotto fino a visualizzare una linea blu orizzontale tra gli elementi.
+
+<div class="preview">
+
+1. Per spostare un campo personalizzato in un&#39;altra sezione del modulo, è possibile trascinarlo e rilasciarlo nella posizione desiderata oppure fare clic sull&#39;icona **Sposta in** nel campo e selezionare la sezione in cui spostarlo.
+
+   ![Sposta il campo in una sezione](assets/move-field-to-section.png)
+
+</div>
 
 1. Per salvare le modifiche, fai clic su **Applica**
 
