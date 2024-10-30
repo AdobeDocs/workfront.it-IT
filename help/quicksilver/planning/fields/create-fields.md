@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 95f21f064c5298dc6d2e1c24872ee049f77c3fac
+source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
 workflow-type: tm+mt
-source-wordcount: '3612'
+source-wordcount: '3689'
 ht-degree: 2%
 
 ---
@@ -21,6 +21,11 @@ ht-degree: 2%
 <!--Do we need this for FORMULAS: when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula - not sure is needed??-->
 
 # Crea campi
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -77,7 +82,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td role="rowheader"><p>Piattaforma Adobe Workfront</p></td> 
    <td> 
 <p>Per poter accedere a tutte le funzionalità di Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p> 
-<p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata di Adobe per Workfront</a>. </p> 
+<p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata Adobe per Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -233,7 +238,7 @@ I campi di testo a riga singola acquisiscono informazioni alfanumeriche limitate
 
 1. Aggiungi le seguenti informazioni nella scheda **Nuovo campo**:
    * **Nome**: il nome del tipo di campo che verrà visualizzato in una tabella o nella pagina Dettagli del record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sull&#39;intestazione di colonna del campo in una tabella.
+   * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sull&#39;intestazione di colonna del campo in una tabella oppure <span class="preview"> quando si fa clic sull&#39;icona delle informazioni accanto al nome del campo nella pagina dei dettagli del record.</span>
 1. Fai clic su **Crea**.
 
    Il nuovo campo a riga singola viene aggiunto come colonna al tipo di record e i relativi valori possono essere associati ai record.
@@ -366,7 +371,7 @@ I tipi di campo numerico acquisiscono informazioni in formato numerico.
 
 I tipi di campo Percentuale acquisiscono le informazioni in un formato numerico seguito da un segno di percentuale.
 
-1. Inizia a creare un campo come descritto nella sezione [Crea campi da zero](#create-fields-from-scratch) in questo articolo, quindi seleziona il tipo di campo **Percentuale**.
+1. Inizia a creare un campo come descritto nella sezione [Crea campi da zero](#create-fields-from-scratch) in questo articolo, quindi seleziona il tipo di campo **Percentuale**. <!--change screen shot for preview-->
 
    ![](assets/percentage-field-type.png)
 
@@ -376,9 +381,23 @@ I tipi di campo Percentuale acquisiscono le informazioni in un formato numerico 
    * **Precisione**: il numero di posizioni decimali che si desidera registrare per il campo. Puoi visualizzare fino a 6 posizioni decimali.
    * **Consenti numeri negativi**: selezionare questa opzione se si desidera consentire valori percentuali negativi in questo campo. Questa opzione è deselezionata per impostazione predefinita.
 
-   >[!NOTE]
-   >
-   >    Se si seleziona Consenti numeri negativi e i valori negativi vengono memorizzati nei record a cui è associato il campo, non sarà più possibile deselezionare l&#39;impostazione in futuro.
+     >[!NOTE]
+     >
+     >    Se si seleziona Consenti numeri negativi e i valori negativi vengono memorizzati nei record a cui è associato il campo, non sarà più possibile deselezionare l&#39;impostazione in futuro.
+
+   <!--<div class="preview">  
+
+    * **Show as**: From the drop-down menu, choose how you want the percentage values to display in the table view. Select from the following options:
+        * **Number**: The percent value displays as a number followed by the percentage sign. 
+        * **Bar**: The percent value displays as a bar next to the percentage number. The fill color of the bar indicates the percent value. 
+        * **Circle**: The percent value displays as the outline of a circle next to the percentage number. The fill color of the circle's outline indicates the percent value.
+
+    >[!NOTE]
+    >
+    >* The selection you make in the Show as field only applies to the percentage value visible in the table view. The percent value of the field displays as a number followed by the percentage sign everywhere else in Workfront Planning. This also applies to the percentage-type field when it displays as a lookup field in other records' table views.
+    >* You can change the Show as selection when editing the field later. 
+    </div>-->
+
 
 1. Fai clic su **Crea**.
 

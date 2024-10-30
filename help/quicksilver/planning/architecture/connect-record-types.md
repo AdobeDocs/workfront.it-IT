@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
 workflow-type: tm+mt
-source-wordcount: '2248'
+source-wordcount: '2363'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,10 @@ ht-degree: 1%
 
 # Connetti tipi di record
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>-->
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -81,7 +84,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td role="rowheader"><p>Piattaforma Adobe Workfront</p></td> 
    <td> 
 <p>Per poter accedere a tutte le funzionalità di Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p> 
-<p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata di Adobe per Workfront</a>. </p> 
+<p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata Adobe per Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -242,6 +245,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      ![](assets/many-to-many-connection-picker.png)
 
      Per ulteriori informazioni sui tipi di connessione, vedere [Panoramica sui tipi di record connessi](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+
+     >[!NOTE]
+     >
+     ><span class="preview"> Se si seleziona Da uno a molti o Da uno a uno per il tipo di connessione e si desidera connettere in seguito un record o un oggetto già connesso altrove, verrà visualizzato un messaggio di avviso che segnala che la connessione di nuovo lo rimuoverà dalla connessione originale. È possibile consentire la rimozione o selezionare un altro record.</span>
 
    * **Seleziona campi di ricerca**: selezionare questa opzione per aggiungere campi dal tipo di record selezionato. I campi di ricerca sono campi associati al record o al tipo di oggetto a cui si sta effettuando il collegamento. Il collegamento consente di visualizzare le informazioni del record o dell&#39;oggetto a cui si sta effettuando il collegamento nel record da cui si sta effettuando il collegamento. Questa opzione è selezionata per impostazione predefinita.
 

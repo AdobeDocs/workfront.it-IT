@@ -7,9 +7,9 @@ description: È possibile rinominare i raggruppamenti in elenchi e rapporti in m
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 072d3c2b-9ede-4bb9-9a27-dc77ceb732c4
-source-git-commit: 138181de2ad8257785773a5296bc5bcfc144a801
+source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ Quando ad esempio si applica il raggruppamento Nome Portfolio standard a un elen
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
@@ -37,37 +39,34 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td>
+   <td> 
+    <p>Nuovo:</p>
+   <ul><li><p>Collaboratore per modificare un filtro </p></li>
+   <li><p>Standard per modificare un rapporto</p></li> </ul>
 
-<p>Nuovo: </p>
-   <ul>
-   <li> <p>Collaboratore per modificare un raggruppamento </p></li>
-   <li><p>Standard per modificare un rapporto</p></li></ul>
-
-<p> Corrente:</p>
-   <ul>  
-   <li><p>Richiesta di modifica di un raggruppamento </p></li>
-   <li><p>Pianificare la modifica di un rapporto</p></li> </td> 
+<p>Corrente:</p>
+   <ul><li><p>Richiesta di modifica di un filtro </p></li>
+   <li><p>Pianificare la modifica di un rapporto</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modifica l'accesso a Filtri, Viste, Raggruppamenti per modificare un raggruppamento</p> <p><b>NOTA</b>
-
-Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
-</tr>  
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l’accesso a Filtri, Viste, Raggruppamenti per modificare un filtro</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Modificare il nome visualizzato in un raggruppamento
 
@@ -76,7 +75,7 @@ Per modificare il nome visualizzato in un raggruppamento di progetti:
 1. Consente di passare a un elenco di progetti.
 1. Dal menu a discesa **Raggruppamento**, selezionare **Nuovo raggruppamento**.
 
-1. Fare clic su **Aggiungi raggruppamento** e iniziare a digitare &quot;Nome Portfolio&quot; nel campo **Primo per:**, quindi selezionarlo quando viene visualizzato nell&#39;elenco.
+1. Fare clic su **Aggiungi raggruppamento** e iniziare a digitare &quot;Nome Portfolio&quot; nel campo **Raggruppa per:**, quindi selezionarlo quando viene visualizzato nell&#39;elenco.
 
 1. Fare clic su **Passa alla modalità testo**.
 1. Eseguire una delle operazioni seguenti:
@@ -87,7 +86,7 @@ Per modificare il nome visualizzato in un raggruppamento di progetti:
      `group.0.displayname=Your Value`
 
 
-     Oppure, in questo caso:
+     Ad esempio, aggiungi il seguente codice per cambiare il nome visualizzato in &quot;Portfolio&quot;:
 
      `group.0.displayname=Portfolio`
 
@@ -95,7 +94,7 @@ Per modificare il nome visualizzato in un raggruppamento di progetti:
 
      `group.0.name=Your Value`
 
-     Oppure, in questo caso:
+     Ad esempio, aggiungi il seguente codice per cambiare il nome visualizzato in &quot;Portfolio&quot;:
 
      `group.0.name=Portfolio`
 
@@ -107,5 +106,6 @@ Per modificare il nome visualizzato in un raggruppamento di progetti:
      ![](assets/grouping-edited-name-no-name-350x162.png)
 
 1. Fai clic su **Fine**, quindi su **Salva raggruppamento**.
+1. (Facoltativo) Aggiornare il nome del raggruppamento, quindi fare clic su **Salva raggruppamento**.
 
    Il nome predefinito per il raggruppamento viene modificato in base alle informazioni sulla modalità di testo.

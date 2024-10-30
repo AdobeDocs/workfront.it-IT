@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Raggruppamento: progetti per data di ingresso"
+title: "Raggruppamento: progetti per data di inserimento"
 description: In questo raggruppamento di progetti personalizzato, puoi visualizzare i progetti raggruppati per i relativi valori di Data di ingresso.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 511faad5-b5bd-4e2d-8daa-3fcde49a502c
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
 
 # Raggruppamento: progetti per data di inserimento
+
+<!--Audited: 10/2024-->
 
 In questo raggruppamento di progetti personalizzato, puoi visualizzare i progetti raggruppati per i relativi valori di Data di ingresso.
 
@@ -76,11 +78,14 @@ Per applicare questo raggruppamento:
 1. Rimuovi il testo nell&#39;area **Raggruppa per**.
 1. Sostituisci il testo con il seguente codice:
 
+
+   ```
    group.0.linkedname=direct
-group.0.name=Voce progetto
-group.0.valueexpression=IF(ABS(DATEDIFF({entryDate},$$TODAY))&lt;=30,&quot;Ultimi 30 giorni&quot;,IF(ABS(DATEDIFF({entryDate},$$TODAY))>30&amp;&amp;ABS(DATEDIFF({entryDate},$$TODAY))&lt;=60,&quot;30-60 giorni&quot;,&quot;Più vecchi di 60 giorni&quot;))
-group.0.valueformat=atDateAsMonthString
-textmode=true
+   group.0.name=Project Entry
+   group.0.valueexpression=IF(ABS(DATEDIFF({entryDate},$$TODAY))<=30,"Last 30 Days",IF(ABS(DATEDIFF({entryDate},$$TODAY))>30&&ABS(DATEDIFF({entryDate},$$TODAY))<=60,"30-60 Days","Older than 60 days"))
+   group.0.valueformat=atDateAsMonthString
+   textmode=true
+   ```
 
 1. Fai clic su **Fine** > **Salva raggruppamento**.
 1. (Facoltativo) Aggiorna il nome del raggruppamento, quindi fai clic su **Salva raggruppamento**.

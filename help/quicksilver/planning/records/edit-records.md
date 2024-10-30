@@ -6,16 +6,20 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
+source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
 workflow-type: tm+mt
-source-wordcount: '1867'
+source-wordcount: '1948'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # Modifica record
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -68,7 +72,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td role="rowheader"><p>Piattaforma Adobe Workfront</p></td> 
    <td> 
 <p>Per poter accedere a tutte le funzionalità di Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p> 
-<p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata di Adobe per Workfront</a>. </p> 
+<p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata Adobe per Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -345,6 +349,7 @@ Per ulteriori informazioni, vedere [Gestire le visualizzazioni dei record](/help
    >  * Campi collegati creati mediante la connessione di tipi di record. Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Campi dei tipi seguenti: Creato da, Data di creazione, Ultima modifica da, Data ultima modifica, Campi formula.
 
+1. <span class="preview">(Facoltativo) Fare clic sull&#39;icona delle informazioni a destra di qualsiasi campo che la visualizza per visualizzarne la descrizione. </span>
 1. (Facoltativo) Fai clic su **Aggiungi copertina** per aggiungere una copertina al record
 
    Oppure

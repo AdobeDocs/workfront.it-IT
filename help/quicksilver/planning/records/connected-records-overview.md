@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
+source-git-commit: 22a1525658f4ba60d638d5080f8c178fcf500441
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Per informazioni su come connettere i record tra loro o a un altro oggetto, vede
 
 * Tutti coloro che dispongono dell&#39;accesso a Workfront Planning and View o delle autorizzazioni di livello superiore per l&#39;area di lavoro possono visualizzare le connessioni tra record o tra record e oggetti di altre applicazioni. Possono visualizzare i record e gli oggetti connessi indipendentemente dalle autorizzazioni di cui dispongono nelle applicazioni a cui ci si connette.
 * Se si dispone delle autorizzazioni di gestione per l&#39;area di lavoro in cui si trovano i record connessi, è possibile visualizzare e modificare le connessioni di tutti gli altri utenti.
-* È possibile connettere un record a uno o più oggetti di un&#39;altra applicazione. Per ulteriori informazioni, vedere la sezione &quot;Tipi di connessione&quot; nell&#39;articolo [Panoramica sui tipi di record connessi](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+* È possibile connettere un record a uno o più oggetti di un&#39;altra applicazione, a seconda del tipo di connessione selezionata durante la connessione dei tipi di record. Per ulteriori informazioni, vedere la sezione &quot;Tipi di connessione&quot; nell&#39;articolo [Panoramica sui tipi di record connessi](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 ## Aree in cui è possibile collegare i record
 
