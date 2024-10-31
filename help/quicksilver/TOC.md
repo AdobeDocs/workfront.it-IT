@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 88ddadb8ea00d5c45ec414837bf10aa63d11200e
+source-git-commit: 0a7d92d4a869e048ba11b84d5f78df06392d5f94
 workflow-type: tm+mt
-source-wordcount: '14564'
+source-wordcount: '14574'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 2%
       * Versione {#release-24-q3} del terzo trimestre 2024
          * [Panoramica sulla versione del terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
          * [Miglioramenti per gli amministratori del terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md)
-         * [Miglioramenti della gestione finanziaria del 3° trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md)
+         * [Miglioramenti alla gestione finanziaria nel terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md)
          * [Miglioramenti all’integrazione nel terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-integration-enhancements.md)
          * [Miglioramenti al progetto per il terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md)
          * [Miglioramenti alla bozza nel terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-proofing-enhancements.md)
@@ -69,10 +69,10 @@ ht-degree: 2%
          * [Miglioramenti di Financial Management per il quarto trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-financial-mgmt-enhancements.md)
          * [Miglioramenti Home Q4 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md)
          * [Miglioramenti all’integrazione del quarto trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md)
-         * [Miglioramenti del progetto Q4 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md)
-         * [2023 Q4 Altri miglioramenti](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md)
-         * [Aggiornamenti Look-and-feel durante la versione Q4 2023 arco temporale](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md)
-      * 23.3 Versione {#release-23-3}
+         * [Miglioramenti al progetto per il quarto trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md)
+         * [Altri miglioramenti del quarto trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md)
+         * [Aggiornamenti look-and-feel durante il periodo di rilascio del quarto trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md)
+      * Versione 23.3 {#release-23-3}
          * [Panoramica sulla versione 23.3](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
          * [23.3 Miglioramenti per gli amministratori](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md)
          * [23.3 Miglioramenti di Agile](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md)
@@ -218,7 +218,7 @@ ht-degree: 2%
          * [Attività di rilascio di Workfront Fusion: settimana del 3 ottobre 2022](product-announcements/product-releases/fusion-release-activity/fusion-oct-3-22.md)
          * [Attività di rilascio di Workfront Fusion: settimana del 26 settembre 2022](product-announcements/product-releases/fusion-release-activity/fusion-sept-26-22.md)
          * [Attività di rilascio di Workfront Fusion: settimana del 19 settembre 2022](product-announcements/product-releases/fusion-release-activity/fusion-sept-19-22.md)
-         * [Attività di rilascio di Workfront Fusion: settimana dell&#39;11 luglio 2022](product-announcements/product-releases/fusion-release-activity/fusion-july-11-22.md)
+         * [Attività di rilascio di Workfront Fusion: settimana dell’11 luglio 2022](product-announcements/product-releases/fusion-release-activity/fusion-july-11-22.md)
          * [Attività di rilascio di Workfront Fusion: settimana del 27 giugno 2022](product-announcements/product-releases/fusion-release-activity/fusion-jun-27-22.md)
          * [Attività di rilascio di Workfront Fusion: settimana del 20 giugno 2022](product-announcements/product-releases/fusion-release-activity/fusion-jun-20-22.md)
          * [Attività di rilascio di Workfront Fusion: settimana del 16 maggio 2022](product-announcements/product-releases/fusion-release-activity/fusion-may-16-22.md)
@@ -734,17 +734,17 @@ ht-degree: 2%
          * [Esportare i dati Workfront tramite Kick-Start](administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)
          * [Importare dati utilizzando un modello di avvio](administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)
          * [Avvia importazione dati](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md)
-         * [Scenario Kick-Start: Azienda e gruppo](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md)
-         * [Scenario di avvio iniziale: Importa campi personalizzati con più opzioni in Workfront](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-multiple-option-custom-field-import.md)
-         * [Scenario di avvio: importazione di oggetti](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md)
+         * [Scenario Kick-Start: società e gruppo](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md)
+         * [Scenario Kick-Start: importare campi personalizzati con più opzioni in Workfront](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-multiple-option-custom-field-import.md)
+         * [Scenario Kick-Start: importazione degli oggetti](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md)
          * [Domande frequenti su Kick-Start](administration-and-setup/manage-workfront/using-kick-starts/frequently-asked-questions-about-kick-starts.md)
    * Gestisci gruppi {#manage-groups}
       * [Gestisci gruppi](administration-and-setup/manage-groups/manage-groups.md)
       * Gruppi {#groups}
          * [Gruppi: indice articolo](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
          * [Panoramica sui gruppi](administration-and-setup/manage-groups/groups-overview/groups.md)
-         * [Panoramica dei sottogruppi](administration-and-setup/manage-groups/groups-overview/subgroups.md)
-         * [Panoramica sui gruppi principali](administration-and-setup/manage-groups/groups-overview/home-groups.md)
+         * [Panoramica sui sottogruppi](administration-and-setup/manage-groups/groups-overview/subgroups.md)
+         * [Panoramica sui gruppi predefiniti](administration-and-setup/manage-groups/groups-overview/home-groups.md)
       * Crea e gestisci i gruppi {#create-manage-groups}
          * [Creare e gestire i gruppi](administration-and-setup/manage-groups/create-and-manage-groups/create-and-manage-groups.md)
          * [Creare un gruppo](administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
@@ -883,11 +883,11 @@ ht-degree: 2%
       * [Creare sezioni personalizzate](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
       * [Accedi all’Aiuto di Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
       * [Panoramica di [!DNL Adobe Workfront] oggetti](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
-      * [Comprendere le navigazione di una licenza di lavoro utente](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
-      * [Comprendere le navigazione di una licenza di revisione utente](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
-      * [Panoramica del progetto, dell&#39;attività e delle date dei problemi in Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
+      * [Comprendere la navigazione per un utente con licenza Lavoro](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
+      * [Comprendere la navigazione per un utente con licenza Revisione](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
+      * [Panoramica delle date di Progetto, Attività e Problema in Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
    * Priorità {#priorities}
-      * [Priorità: indice degli articoli](workfront-basics/priorities/priorities-toc.md)
+      * [Priorità: indice articoli](workfront-basics/priorities/priorities-toc.md)
       * [Introduzione alle priorità](workfront-basics/priorities/get-started-with-priorities.md)
       * [Filtrare e raggruppare il lavoro in Priorità](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
       * [Personalizzare le colonne dell’elenco lavori](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
@@ -925,6 +925,7 @@ ht-degree: 2%
       * [Riepiloga utilizzando l’Assistente AI](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
       * [Ottieni aiuto da Assistente AI](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)
       * [Rivedere le formule dei campi calcolati con l’Assistente IA](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)
+      * [Utilizzare l’Assistente AI per lavorare con progetti, attività e problemi](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md)
       * [Attivare o disattivare l&#39;Assistente AI](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
    * Aggiorna elementi di lavoro e visualizza aggiornamenti {#update-work-items-view-updates}
       * [Aggiorna elementi di lavoro e visualizza aggiornamenti: indice articolo](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
@@ -1158,8 +1159,8 @@ ht-degree: 2%
       * [Sposta documenti](documents/managing-documents/move-documents.md)
       * [Controllare i limiti di archiviazione dei documenti](documents/managing-documents/check-document-storage.md)
       * [Cancella Documenti](documents/managing-documents/delete-documents.md)
-      * [Incolla immagini dal Appunti](documents/managing-documents/paste-image-clipboard.md)
-      * [Dettagli documento AddBuilder in Workfront](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
+      * [Incolla immagini dagli Appunti](documents/managing-documents/paste-image-clipboard.md)
+      * [Dettagli di AddBuilder in Workfront Document](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
    * Organizza documenti {#organize-documents}
       * [Organizzare i documenti](documents/organizing-documents/organize-documents.md)
       * [Creare cartelle di documenti](documents/organizing-documents/create-documents-folder.md)
@@ -1168,7 +1169,7 @@ ht-degree: 2%
       * [Integrazioni Workfront e Experience Manager Assets](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
       * Workfront, ad Experience Manager connettore avanzato {#wf-aem-enhanced-connector}
          * [Connettore avanzato Workfront per Experience Manager](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)
-         * [Panoramica di Workfront per Experience Manager connettore avanzato](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md)
+         * [Panoramica del connettore avanzato di Workfront ad Experience Manager](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md)
          * [Panoramica dei metadati del connettore avanzato di Workfront ad Experience Manager](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-metadata-overview.md)
          * [Collegare risorse e cartelle con il connettore avanzato](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-link-assets.md)
          * [Inviare un documento con il connettore avanzato](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-send-document.md)
@@ -1308,11 +1309,11 @@ ht-degree: 2%
          * [Allegare una scheda tariffe a un progetto](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)
          * [Panoramica del beneficio pianificato del progetto](manage-work/projects/project-finances/project-planned-benefit.md)
          * [Impostare il metodo PIM (Performance Index Method)](manage-work/projects/project-finances/set-pim.md)
-         * [Calcolare il ritorno sull&#39;investimento (ROI)](manage-work/projects/project-finances/calculate-roi.md)
-         * [Calcola Index prestazioni pianificazione (SPI)](manage-work/projects/project-finances/calculate-spi.md)
+         * [Calcola il ritorno sull’investimento (ROI)](manage-work/projects/project-finances/calculate-roi.md)
+         * [Calcola indice prestazioni Schedule (SPI)](manage-work/projects/project-finances/calculate-spi.md)
          * [Calcola stima al completamento (EAC)](manage-work/projects/project-finances/calculate-eac.md)
-         * [Calcola il costo del rischio potenziale](manage-work/projects/project-finances/potential-risk-cost.md)
-         * [Calcola Valore netto](manage-work/projects/project-finances/calculate-net-value.md)
+         * [Calcola costo rischio potenziale](manage-work/projects/project-finances/potential-risk-cost.md)
+         * [Calcola valore netto](manage-work/projects/project-finances/calculate-net-value.md)
          * [Calcola indice prestazioni programma costi (CSI)](manage-work/projects/project-finances/calculate-csi.md)
          * [Calcola indice prestazioni costi (IPC)](manage-work/projects/project-finances/calculate-cpi.md)
          * [Calcola costo preventivato](manage-work/projects/project-finances/budgeted-cost.md)
@@ -1400,7 +1401,7 @@ ht-degree: 2%
          * [Panoramica sul tipo di durata: assegnazione calcolata](manage-work/tasks/taskdurtn/calculated-assignment.md)
          * [Panoramica sul tipo di durata: basata sulle risorse](manage-work/tasks/taskdurtn/effort-driven.md)
          * [Panoramica sul tipo di durata: lavoro calcolato](manage-work/tasks/taskdurtn/calculated-work.md)
-         * [Panoramica del tipo di durata: Semplice](manage-work/tasks/taskdurtn/simple-duration-type.md)
+         * [Panoramica sul tipo di durata: semplice](manage-work/tasks/taskdurtn/simple-duration-type.md)
          * [Aggiornare il tipo di durata di un&#39;attività](manage-work/tasks/taskdurtn/update-duration-type-of-task.md)
          * [Aggiornare le ore e la durata pianificate di un&#39;attività con un tipo di durata semplice](manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md)
          * [Tipi di durata nei progetti Adobe Workfront e Microsoft](manage-work/tasks/taskdurtn/workfront-ms-project-duration-types.md)
@@ -1791,7 +1792,7 @@ ht-degree: 2%
       * [Panoramica sulla navigazione di Pianificazione risorse](resource-mgmt/resource-planning/resource-planner-navigation.md)
       * [Verificare la disponibilità e l&#39;allocazione delle risorse mediante Adobe Workfront Resource Planner](resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md)
       * [Panoramica di ore, FTE e informazioni sui costi nelle visualizzazioni Progetto e Ruolo della Programmazione delle risorse](resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
-      * [Risorse di budget in Pianificazione risorse utilizzando le viste Progetto e Ruolo](resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)
+      * [Risorse preventivate nella Programmazione delle risorse utilizzando le viste Progetto e Ruolo](resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)
       * [Adeguare le date di budget nella Programmazione risorse](resource-mgmt/resource-planning/adjust-budgeting-dates.md)
       * [Visualizzare le ore disponibili, pianificate ed effettive o FTE nella Programmazione delle risorse quando si utilizza la vista Utente](resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)
       * [Panoramica del calcolo delle ore e dell&#39;FTE per utenti e ruoli nella pianificazione risorse](resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md)
@@ -1823,9 +1824,9 @@ ht-degree: 2%
 * Rivedere e approvare il lavoro {#review-and-approve-work}
    * [Rivedere e approvare il lavoro](review-and-approve-work/review-and-approve-work.md)
    * [Programma di Alpha - Approvazioni documenti](review-and-approve-work/Documents/doc-approvals-alpha.md)
-   * [Panoramica limitata sulla decisione relativa a documenti e prove per utenti non pagati](review-and-approve-work/proof-doc-decision-limits.md)
-   * Approvazioni dei lavori {#work-approvals}
-      * [Approvazioni dei lavori](review-and-approve-work/manage-approvals/manage-approvals.md)
+   * [Documento limitato e decisione sulla bozza per utenti non pagati - Panoramica](review-and-approve-work/proof-doc-decision-limits.md)
+   * Approvazioni lavoro {#work-approvals}
+      * [Approvazioni lavoro](review-and-approve-work/manage-approvals/manage-approvals.md)
       * [Panoramica del processo di approvazione](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
       * [Richiedere le approvazioni dei documenti](review-and-approve-work/manage-approvals/request-document-approvals.md)
       * [Approvazione del lavoro](review-and-approve-work/manage-approvals/approving-work.md)
@@ -1973,10 +1974,10 @@ ht-degree: 2%
    * [Schede orario: indice degli articoli](timesheets/timesheets-all.md)
    * Dettagli scheda orario {#details}
       * [Dettagli scheda orario: indice articolo](timesheets/timesheets/timesheets.md)
-      * [Panoramica delle schede attività](timesheets/timesheets/timesheets-overview.md)
-      * [Panoramica del layout della scheda attività](timesheets/timesheets/timesheet-layout.md)
-   * Schede attività Crea e gestire {#create-and-manage-timesheets-in-adobe-workfront}
-      * [Schede attività Crea e gestire: indice degli articoli](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
+      * [Panoramica schede orario](timesheets/timesheets/timesheets-overview.md)
+      * [Panoramica del layout della scheda orario](timesheets/timesheets/timesheet-layout.md)
+   * Crea e gestisci schede orario {#create-and-manage-timesheets-in-adobe-workfront}
+      * [Creare e gestire le schede orario: indice dell’articolo](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
       * [Creare, modificare e assegnare profili della scheda orario](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
       * [Definire i tipi di ore e la disponibilità](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
       * [Creare una scheda orario monouso](timesheets/create-and-manage-timesheets/create-tmshts.md)
@@ -2457,7 +2458,7 @@ ht-degree: 2%
       * [Accedere ad Adobe Workfront da Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)
       * [Pubblica un commento di Slack come aggiornamento](workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
       * [Ricevere notifiche Adobe Workfront in Slack](workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)
-   * Adobe Systems Workfront con Anaplan {#workfront-with-anaplan}
+   * Adobe Workfront con Anaplan {#workfront-with-anaplan}
       * [Adobe Workfront con Anaplan](workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md)
       * [Domande frequenti sull’integrazione di Adobe Workfront con Anaplan](workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration-faq.md)
       * [Inviare aggiornamenti del progetto Adobe Workfront a un elemento dell’elenco Anaplan](workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
@@ -2489,16 +2490,16 @@ ht-degree: 2%
       * Domande frequenti su Workfront Proof {#wf-proof-faq}
          * [Workfront Proof - domande frequenti](workfront-proof/wp-getstarted/faqs/faqs.md)
          * [Domande frequenti: creare e condividere bozze e file](workfront-proof/wp-getstarted/faqs/faq-create-share-proofs-files.md)
-         * [FAQ - Rivedi le prove](workfront-proof/wp-getstarted/faqs/faq-review-proofs.md)
-         * [Domande frequenti - Workfront Proof account](workfront-proof/wp-getstarted/faqs/faq-wp-account.md)
-         * [Accesso e modifica del password e dell&#39;e-mail per Workfront Proof](workfront-proof/wp-getstarted/faqs/log-in-change-password.md)
+         * [Domande frequenti - Revisione delle bozze](workfront-proof/wp-getstarted/faqs/faq-review-proofs.md)
+         * [Domande frequenti - Account Workfront Proof](workfront-proof/wp-getstarted/faqs/faq-wp-account.md)
+         * [Accesso e modifica della password e dell&#39;e-mail per Workfront Proof](workfront-proof/wp-getstarted/faqs/log-in-change-password.md)
          * [Impostazione dei fusi orari in Workfront Proof](workfront-proof/wp-getstarted/faqs/set-timezones-in-wp.md)
    * Utilizzare bozze e file in Workfront Proof {#work-with-proofs-in-wf-proof}
       * [Utilizzare bozze e file in Workfront Proof](workfront-proof/wp-work-proofsfiles/wp-work-proofs-files.md)
       * Flusso di lavoro automatizzato in Workfront Proof {#automated-workflow-in-wf-proof}
          * [Flusso di lavoro automatizzato in Workfront Proof](workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
          * [Configurare una bozza con un flusso di lavoro automatico in Workfront Proof](workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md)
-         * [Gestire una prova configurata con un flusso di lavoro automatizzato in Workfront Proof](workfront-proof/wp-work-proofsfiles/automated-workflow/manage-proof-configured-auto-workflow.md)
+         * [Gestire una bozza configurata con un flusso di lavoro automatico in Workfront Proof](workfront-proof/wp-work-proofsfiles/automated-workflow/manage-proof-configured-auto-workflow.md)
       * Funzioni di base in Workfront Proof {#basic-features-in-wf-proof}
          * [Funzioni di base in Workfront Proof](workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
          * [Dashboard in Workfront Proof](workfront-proof/wp-work-proofsfiles/basic-features/dashboard.md)
