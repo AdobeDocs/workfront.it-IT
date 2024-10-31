@@ -4,9 +4,9 @@ description: Miglioramenti per gli amministratori del primo trimestre 2025
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0736b1913a8b5a58c88da19fefd55558eb7014eb
+source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 
 >[!NOTE]
 >
->Versione di anteprima: 24 ottobre 2024; produzione per rilascio rapido: con la versione 24.11 (14 novembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (16 gennaio 2024)
+>Versione di anteprima: 29 ottobre 2024; produzione per rilascio rapido: con la versione 24.11 (14 novembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
 
 Quando un modulo personalizzato contiene più sezioni con molti campi, può essere difficile spostare un campo da una sezione all’altra trascinandolo. A ciascun campo è stata aggiunta l’icona &quot;sposta in&quot;, che consente di selezionare la sezione in cui inserire il campo.
 

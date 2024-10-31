@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: df5f37e741f5bd771f91383f9b782ffab8e6160f
+source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -34,13 +34,45 @@ Questo articolo descrive le funzioni rilasciate per Workfront Planning durante l
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning dopo il rilascio di disponibilità generale del 28 agosto 2024, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## I campi di connessione sono ora supportati nei moduli di richiesta
+
+>[!NOTE]
+>
+>Versione di anteprima: 31 ottobre 2024; produzione per rilascio rapido: con la versione 24.11 (14 novembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+
+È ora possibile aggiungere campi collegati per i record di Workfront Planning a un modulo di richiesta di tipo record.
+
+Non è possibile aggiungere campi di ricerca connessione o campi connessi per oggetti Workfront nel modulo di richiesta.
+
+Prima di questo miglioramento, non era possibile aggiungere questi tipi di campi ai moduli di richiesta in Workfront Planning.
+
+Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+## Avviso di connessione durante la connessione di record già collegati ad altri record
+
+>[!NOTE]
+>
+>Versione di anteprima: 31 ottobre 2024; produzione per rilascio rapido: con la versione 24.11 (14 novembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+
+Quando si tenta di connettere record già connessi altrove e appartenenti a un tipo di record connesso tramite un tipo di connessione Uno a molti o Uno a uno, viene visualizzato un messaggio di avviso che indica che i record sono già connessi. Se si conferma che si desidera procedere con la connessione, i record selezionati vengono rimossi dal record originale e aggiunti al record che si sta modificando.
+
+Per informazioni sui tipi di connessione, vedere [Panoramica sui tipi di record connessi](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+
+## Icona delle nuove informazioni con la descrizione dei campi nella pagina dei dettagli del record
+
+>[!NOTE]
+>
+>Versione di anteprima: 30 ottobre 2024; produzione per rilascio rapido: con la versione 24.11 (14 novembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+
+È stata aggiunta un&#39;icona di informazioni a destra dei nomi dei campi in una pagina record. Facendo clic sull’icona delle informazioni viene visualizzata la descrizione del campo, quando esiste già una descrizione. Prima di questo miglioramento, la descrizione del campo visualizzata quando passi il cursore sul nome del campo.
+
+Per informazioni, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).
+
 ## Nuovo tipo di campo Workfront per le connessioni Planning
 
 >[!NOTE]
 >
->Versione di anteprima: 24 ottobre 2024; produzione per rilascio rapido: con la versione 24.11 (14 novembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (16 gennaio 2024)
-
-
+>Versione di anteprima: 24 ottobre 2024; produzione per rilascio rapido: con la versione 24.11 (14 novembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
 
 Per continuare a collegare gli oggetti di Workfront ai record di Workfront Planning, è stato aggiunto un nuovo tipo di campo nei moduli personalizzati di Workfront denominato Connessione Planning. Aggiungendo questo tipo di campo a un modulo personalizzato di Workfront e, in ultima analisi, a un oggetto Workfront, è possibile effettuare le seguenti operazioni:
 
@@ -55,4 +87,3 @@ La modifica in blocco dei campi di connessione di Planning per gli oggetti Workf
 Per informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 [Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3435633/){target=_blank}
-

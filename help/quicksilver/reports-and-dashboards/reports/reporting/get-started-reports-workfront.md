@@ -7,9 +7,9 @@ description: I rapporti forniscono visibilità su ciò che sta accadendo con gli
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
 workflow-type: tm+mt
-source-wordcount: '3295'
+source-wordcount: '3296'
 ht-degree: 0%
 
 ---
@@ -64,8 +64,7 @@ Per migliorare i rapporti, puoi aggiungere i seguenti elementi:
 
 Durante la creazione di un rapporto, puoi modificare singolarmente uno di questi elementi nel Report Builder.
 
-Un altro modo per migliorare la pertinenza delle informazioni incluse nei rapporti consiste nell’applicare la formattazione condizionale alle viste.\
-Per informazioni sull&#39;utilizzo della formattazione condizionale, vedere [Utilizzare la formattazione condizionale nelle visualizzazioni](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+Un altro modo per migliorare la pertinenza delle informazioni incluse nei rapporti consiste nell’applicare la formattazione condizionale alle viste. Per informazioni sull&#39;utilizzo della formattazione condizionale, vedere [Utilizzare la formattazione condizionale nelle visualizzazioni](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
 ## Rapporti di sistema
 
@@ -81,17 +80,20 @@ Oltre ai rapporti sul sistema forniti da Workfront, puoi creare rapporti persona
 Per creare un rapporto è possibile effettuare una delle seguenti operazioni:
 
 * Crea un rapporto da zero.
-* Copia un rapporto esistente.\
+* Copia un rapporto esistente.
+
   Per copiare un report creato da un altro utente è necessario disporre almeno dell&#39;autorizzazione Visualizzazione. Per ulteriori informazioni sulla copia di un report, vedere [Creare una copia di un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
-Per informazioni sulla creazione di report, vedere [Panoramica dei report calendario](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+Per informazioni sulla creazione di report, vedere [Creare un report personalizzato](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ### Prerequisiti per la creazione di rapporti {#prerequisites-for-creating-reports}
 
-* Per creare rapporti personalizzati è necessario disporre di una licenza Pianificazione (licenze correnti) o di una licenza Standard (nuove licenze).\
+* Per creare rapporti personalizzati è necessario disporre di una licenza Pianificazione (licenze correnti) o di una licenza Standard (nuove licenze).
+
   Per informazioni sui tipi di licenza di Workfront, vedere [Panoramica licenze](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) per le licenze correnti e [Panoramica nuove licenze](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) per le nuove licenze.
 
-* L’amministratore di Workfront deve consentire l’accesso alla funzione di modifica dei rapporti nel proprio livello di accesso.\
+* L’amministratore di Workfront deve consentire l’accesso alla funzione di modifica dei rapporti nel proprio livello di accesso.
+
   Per informazioni su come concedere l&#39;accesso a Modifica report, vedere [Concedere l&#39;accesso a report, dashboard e calendari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 * L’amministratore di Workfront deve consentire l’accesso a Modifica filtri, visualizzazioni e raggruppamenti nel livello di accesso.
@@ -109,7 +111,7 @@ Per informazioni sulla copia dei report, vedere [Creare una copia di un report](
 
 Puoi vedere chi possiede un report esaminando il campo **Inserito da**.
 
-![Campo Inserito da](assets/nwe-entered-by-350x218.png)
+![Campo Inserito da](assets/unshimmed-entered-by.png)
 
 ### Creare rapporti nell’interfaccia di generazione {#create-reports-in-the-builder-interface}
 
