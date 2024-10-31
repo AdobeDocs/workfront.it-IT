@@ -6,9 +6,9 @@ description: Puoi condividere una bozza dal visualizzatore di bozze se la condiv
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 20bd2d94-1401-4a38-9042-335d0cb32a3d
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: aaf5beb8692b2fdbb797ba908796d78b4ee8866c
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ Se la bozza dispone di un flusso di lavoro automatizzato, puoi aggiungere l’ut
 Per impostazione predefinita, gli utenti aggiunti alla bozza:
 
 * Ricevi una notifica e-mail con un collegamento alla bozza.
-* Può prendere decisioni di approvazione sulla bozza dalla Home o dall&#39;area Il mio lavoro, come descritto in [Approvazione del lavoro](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+* Può prendere decisioni di approvazione sulla bozza dall&#39;area Home, come descritto in [Approvazione del lavoro](../../../../review-and-approve-work/manage-approvals/approving-work.md).
 * Non è necessario che siano abilitate prove per esaminare la bozza.
 
 Quando il flusso di lavoro automatizzato è abilitato e si aggiunge un utente alla bozza per il quale non sono abilitati gli strumenti di correzione in Workfront, viene creata una nuova fase all’interno del flusso di lavoro automatico. L’utente che stai aggiungendo viene aggiunto automaticamente a questa nuova fase quando visualizza la bozza per la prima volta. Per ulteriori informazioni, vedere [Panoramica del flusso di lavoro automatico](../../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).

@@ -6,9 +6,9 @@ description: I processi di approvazione offrono la flessibilità necessaria per 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: b0b83e8a8a2a076ec20691183605e3d25d10129d
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -62,9 +62,9 @@ Puoi visualizzare o gestire le approvazioni dalle seguenti aree:
 
 * Nell’area Home
 
-   * Tutti i progetti, le attività, i problemi, le schede orario, i documenti e l’accesso in attesa della tua approvazione vengono visualizzati nell’area Home quando scegli di visualizzare Tutti o Approvazioni.
-   * Le approvazioni che hai inviato a te stesso vengono visualizzate anche nell’area Home, nella sezione Approvazioni inviate della sezione Elenco lavori. Per ulteriori informazioni, vedere la sezione [Rivedi il lavoro inviato per l&#39;approvazione nell&#39;area Home](#review-work-you-submit-for-approval-in-the-home-area) in questo articolo.
-   * Le approvazioni vengono rimosse dall&#39;area Home quando il progetto, l&#39;attività o il problema associato è contrassegnato come Risolto, In sospeso, Chiuso o Annullato.
+   * Tutti i progetti, le attività, i problemi, le schede orario, i documenti e l’accesso in attesa della tua approvazione vengono visualizzati nel widget Approvazioni personali nella sezione Home.
+   * Le approvazioni inviate personalmente vengono visualizzate anche nel widget Approvazioni personali nell&#39;area Home quando si sceglie l&#39;opzione di filtro Approvazioni inviate. Per ulteriori informazioni, vedere la sezione [Rivedi il lavoro inviato per l&#39;approvazione nell&#39;area Home](#review-work-you-submit-for-approval-in-the-home-area) in questo articolo.
+   * Le approvazioni vengono rimosse dal widget Approvazioni personali nell&#39;area Home quando il progetto, l&#39;attività o il problema associato è contrassegnato come Risolto, In sospeso, Chiuso o Annullato.
 
   Per informazioni sull&#39;utilizzo della Home, vedere [Introduzione alla Home](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
@@ -82,19 +82,10 @@ Puoi visualizzare o gestire le approvazioni dalle seguenti aree:
 
 ## Rivedi il lavoro che invii per l&#39;approvazione nell&#39;area Home {#review-work-you-submit-for-approval-in-the-home-area}
 
-1. Fai clic sull&#39;icona **Home** ![](assets/home-icon-30x29.png) nell&#39;angolo superiore sinistro di Adobe Workfront.
+1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
+1. (Condizionale) Fai clic su **Personalizza** per aggiungere il widget **Le mie approvazioni**.
+1. (Condizionale) Fai clic sul menu a discesa **Filtro**, quindi seleziona **Approvazioni inviate** per visualizzare le approvazioni inviate.
 
-   >[!NOTE]
-   >
-   >L’amministratore di Workfront potrebbe apportare le seguenti modifiche all’icona Home nel tuo ambiente:
-   >
-   >* Sostituiscilo con un’immagine personalizzata per illustrare la tua organizzazione. In questo caso, l’icona avrà un aspetto diverso da quello mostrato in questo articolo.
-   >* Sostituisci la pagina collegata con un’altra pagina. In questo caso, fai clic sul **menu principale** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro della pagina, quindi fai clic su **Home**.
-
-1. Seleziona **Elenco lavori**, quindi fai clic sul menu a discesa **Filtra** e seleziona **Approvazioni**.
-1. Espandi la sezione **Approvazioni inviate** e individua le approvazioni inviate.
-
-   ![](assets/approvals-submitted-section-in-home-nwe-350x401.png)
 
 ## Visualizzare lo stato di approvazione di un oggetto
 

@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0a8602aa-34c8-44d0-a102-9497d106f806
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '3165'
+source-wordcount: '3158'
 ht-degree: 1%
 
 ---
@@ -59,8 +59,6 @@ Ora è possibile gestire le attività e le pianificazioni di lavoro personali ut
 * Aggiornamenti alle attività assegnate
 
 Se si utilizza un calendario in Outlook, è possibile integrare il calendario per visualizzare gli eventi di Outlook nella visualizzazione Calendario predefinito.
-
-Per ulteriori informazioni, vedere [Visualizzazione Calendario predefinito](../../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
 
 ## Ulteriori aggiornamenti a Work List (Pannello a sinistra) nella Home {#additional-updates-to-the-work-list-left-panel-in-home}
 

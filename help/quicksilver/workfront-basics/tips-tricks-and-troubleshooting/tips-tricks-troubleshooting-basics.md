@@ -5,9 +5,9 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 89a1ac84-123b-487e-8c91-615a36e246c3
-source-git-commit: e6688408c3316a3f99fdb051adeb306f359057d1
+source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,6 @@ Questa sezione contiene i seguenti articoli:
 * [Il [!UICONTROL Laboratorio di innovazione]](../../workfront-basics/tips-tricks-and-troubleshooting/idea-exchange.md)
 * [Utilizzo dei fusi orari](../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md)
 * [[!DNL Workfront] [!UICONTROL Risoluzione dei problemi relativi alle autorizzazioni di Gestione bozze]](../../workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)
-* [Processi di approvazione duplicati visualizzati nella [!UICONTROL Home Work List]](../../workfront-basics/tips-tricks-and-troubleshooting/duplicate-apprval-processes-home.md)
 * [I pulsanti Filtro non vengono visualizzati nelle intestazioni di pagina](../../workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
 * [Cambia il formato delle date in [!DNL Adobe Workfront]](../tips-tricks-and-troubleshooting/change-date-format-chrome.md)
 * [Il filtro Progetti in corso include risultati imprevisti](../tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)

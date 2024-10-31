@@ -6,9 +6,9 @@ description: È possibile condividere un documento revisionato in Adobe Workfron
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a5438db3-6507-4ebc-a27c-65f02c45783e
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: aaf5beb8692b2fdbb797ba908796d78b4ee8866c
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
@@ -172,6 +172,6 @@ Per ulteriori informazioni sul report sugli oggetti Proof Approvals, vedere la s
 
 ## Approvare una bozza condivisa
 
-Quando un utente ti aggiunge a una bozza e concede il ruolo Approvatore o il ruolo Revisore e Approvatore tramite Flusso di lavoro automatico, la richiesta di approvazione viene visualizzata nella scheda Approvazioni nella Home o nell’area Il mio lavoro. Puoi quindi visualizzare la bozza e prendere una decisione di approvazione sulla bozza direttamente da Workfront.
+Quando un utente ti aggiunge a una bozza e concede il ruolo Approvatore o il ruolo Revisore e Approvatore tramite Flusso di lavoro automatico, la richiesta di approvazione viene visualizzata nel widget Approvazioni personali nell’area Home. Puoi quindi visualizzare la bozza e prendere una decisione di approvazione sulla bozza direttamente da Workfront.
 
-Per informazioni su come prendere decisioni di approvazione dall&#39;area Il mio lavoro, vedere [Approvare il lavoro dall&#39;area Home](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area) o [Approvare il lavoro](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area) in [Approvare il lavoro](../../../review-and-approve-work/manage-approvals/approving-work.md).
+Per informazioni su come prendere decisioni di approvazione dal widget Approvazioni personali, vedere [Approvare il lavoro dall&#39;area Home](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area) o [Approvare il lavoro](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area) in [Approvare il lavoro](../../../review-and-approve-work/manage-approvals/approving-work.md).

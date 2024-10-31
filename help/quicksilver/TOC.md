@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 30b4db53220c67a3fa8fe8865329f74a80cd7343
+source-git-commit: 45fc22a324672bced5235e3bbb0fa7c662a7fed4
 workflow-type: tm+mt
-source-wordcount: '14577'
+source-wordcount: '14534'
 ht-degree: 2%
 
 ---
@@ -902,23 +902,16 @@ ht-degree: 2%
       * [Pagina Home](workfront-basics/using-home/home.md)
       * Utilizza l&#39;area Home {#use-home-area}
          * [Utilizzare l’area Home](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
-         * [Passa dalla home legacy alle priorità](workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
          * [Introduzione alla Home](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
          * [Aggiungere, modificare o rimuovere widget in Nuova Home](workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
          * [Visualizzare gli elementi in Work List (Elenco di lavoro) nell’area Home](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
          * [Panoramica dei filtri dei widget Home](workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)
          * [Gestisci il tuo lavoro con il widget Il mio lavoro](workfront-basics/using-home/using-the-home-area/my-work-widget.md)
-         * [Assegna priorità al lavoro nella sezione Home](workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
          * [Gestire le richieste di lavoro e team nell’area Home](workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
          * [Aggiornare o modificare un elemento di lavoro nell’area Home](workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
          * [Creare elementi di lavoro e progetti dall’area Home](workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
          * [Tempo di connessione per un elemento di lavoro dall’area Home](workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
          * [Contrassegna un elemento come completato nell’area Home](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
-         * [Vista Calendario predefinito](workfront-basics/using-home/using-the-home-area/home-calendar-view.md)
-         * [Configurare le impostazioni di visualizzazione Calendario predefinito](workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)
-         * [Area Home per revisori](workfront-basics/using-home/using-the-home-area/home-for-reviewers.md)
-         * [Utilizzare la vista Calendario predefinito](workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)
-         * [Visualizza il Calendario predefinito](workfront-basics/using-home/using-the-home-area/view-home-calendar.md)
          * [Utilizzare l&#39;area I miei aggiornamenti](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
    * Assistente IA {#ai-assistant}
       * [Assistente IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
@@ -1037,7 +1030,6 @@ ht-degree: 2%
       * [Il laboratorio dell&#39;innovazione](workfront-basics/tips-tricks-and-troubleshooting/idea-exchange.md)
       * [Utilizzo dei fusi orari](workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md)
       * [Risoluzione dei problemi relativi alle autorizzazioni di Workfront Proof Manager](workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)
-      * [Processi di approvazione duplicati visualizzati nella sezione Work List (Elenco di lavoro) dell’area Home](workfront-basics/tips-tricks-and-troubleshooting/duplicate-apprval-processes-home.md)
       * [I pulsanti Filtro non vengono visualizzati nelle intestazioni di pagina](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
       * [Il filtro Progetti in corso include risultati imprevisti](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
       * [Più schede del browser causano la disconnessione di Workfront](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)

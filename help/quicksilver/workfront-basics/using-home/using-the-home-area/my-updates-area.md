@@ -6,7 +6,7 @@ description: Puoi usare l'area [!UICONTROL I miei aggiornamenti] per rivedere ra
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
+source-git-commit: 57b6453d4e67e1cb70c4233c1150620867f2e9d1
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%
@@ -146,8 +146,6 @@ Prima di iniziare, è necessario disporre dei seguenti elementi:
 1. (Facoltativo) Fai clic su **[!UICONTROL Ignora]** per cancellare la richiesta di accesso dal tuo elenco di approvazioni senza concederla.
 1. Fai clic su **[!UICONTROL Delega le mie approvazioni]** per delegare le approvazioni inviate se non sei disponibile a prendere decisioni di approvazione per un certo periodo di tempo. Per ulteriori informazioni sulla delega delle approvazioni, vedere [Delegare la richiesta di approvazione](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 1. Scorri fino all&#39;area **[!UICONTROL Menzioni]** sotto le tue approvazioni. Qui è possibile visualizzare tutti gli elementi in cui si è stati inclusi in una conversazione.
-
-   ![](assets/mentions-area-for-reviewers-nwe-350x191.png)
 
    >[!TIP]
    >

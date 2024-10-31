@@ -7,9 +7,9 @@ author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
-source-git-commit: 770f9cd41f4d5b8d17928f98dd4cbd1646dd298a
+source-git-commit: 403fcb01d5a06c257e830724e6e02f0936cc106a
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,6 @@ ht-degree: 0%
 
 Questa sezione contiene i seguenti articoli:
 
-* [Passa dalla home legacy alle priorità](/help/quicksilver/workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
-  <!--* [Move from Legacy home to New Home](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)-->
 * [Introduzione a [!UICONTROL Home]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
 * [Aggiungere, modificare o rimuovere widget in Nuova Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
 * [Utilizza l&#39;area [!UICONTROL I miei aggiornamenti]](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md)
@@ -30,12 +28,3 @@ Questa sezione contiene i seguenti articoli:
 * [Crea elementi di lavoro e progetti dalla [!UICONTROL Home]](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
 * [Tempo di connessione per un elemento di lavoro dall&#39;area [!UICONTROL Home]](../../../workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
 * [Contrassegna un elemento come [!UICONTROL completato] nell&#39;area [!UICONTROL Home]](../../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
-
-I seguenti articoli contengono funzionalità rimosse con la versione precedente di Home obsoleta il 10/17/2014:
-
-* [Assegna priorità al lavoro nella [!UICONTROL Home]](../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
-* [[!UICONTROL Calendario predefinito] visualizzazione](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md)
-* [Configura le impostazioni di visualizzazione del [!UICONTROL Calendario predefinito]](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)
-* [Utilizza la visualizzazione [!UICONTROL Calendario predefinito]](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)
-* [Visualizza il [!UICONTROL Calendario predefinito]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md)
-* [[!UICONTROL Home] area per revisori](../../../workfront-basics/using-home/using-the-home-area/home-for-reviewers.md)

@@ -6,9 +6,9 @@ description: Questa pagina contiene informazioni sull’imminente rimozione dell
 author: Nolan
 feature: Product Announcements
 exl-id: 1fef08c9-624d-4783-a0bd-8009413fc2bd
-source-git-commit: e68972f7334a93f7fbd3db29919a2f2746ce64fe
+source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
@@ -55,13 +55,6 @@ Consigliamo agli amministratori di:
 1. Riassegnare gli altri utenti al nuovo layout della home page.
 
 Procedendo in questo modo, gli utenti avranno il tempo di adattarsi alla nuova esperienza e di personalizzare le nuove pagine iniziali in base alle loro esigenze. Per informazioni su come personalizzare i widget nella nuova home page, vedere [Rimuovere, aggiungere e ridisporre i widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
-
-### Scopri cosa è disponibile nella nuova Home e Priorità
-
-Questi articoli forniscono informazioni sulle funzionalità disponibili nella nuova Home e Priorità:
-
-<!--* [Move from Legacy Home to New Home](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)-->
-* [Passa dalla home page legacy alle priorità](/help/quicksilver/workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
 
 ### Segui l’esperienza Home man mano che si sviluppa
 

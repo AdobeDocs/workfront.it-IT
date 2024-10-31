@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 452fc235-ff90-4451-b48b-354671227f6f
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -49,8 +49,6 @@ Abbiamo rimosso tutti i tag beta nell’area Home. Tutti i modelli di layout ora
 Utilizzando l&#39;opzione di ordinamento Mia priorità, è ora possibile assegnare la priorità a qualsiasi elemento di lavoro importante nell&#39;elenco di lavoro.
 
 In precedenza, era possibile assegnare la priorità solo alle attività e ai problemi nell’area Il mio lavoro.
-
-Per ulteriori informazioni, vedere [Assegna priorità al lavoro nell&#39;area Home](../../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md).
 
 ## Aggiornare i ruoli nel profilo utente come amministratore di gruppo {#update-roles-in-the-user-profile-as-a-group-administrator}
 
