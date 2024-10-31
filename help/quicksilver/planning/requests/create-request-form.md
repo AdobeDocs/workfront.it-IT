@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
+source-git-commit: a7cdee912e5047f1c8ef224aff6a41eaa3633df6
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1375'
 ht-degree: 2%
 
 ---
@@ -16,11 +16,12 @@ ht-degree: 2%
 # Creazione e gestione di un modulo di richiesta in Adobe Workfront Planning
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
+
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -140,33 +141,19 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
      >[!IMPORTANT]
      >
-     >   I campi dei seguenti tipi non vengono visualizzati nel modulo di richiesta:
+     > A seconda dell’ambiente utilizzato per creare un modulo di richiesta, esistono gli scenari seguenti:
+     >
+     >* I campi dei tipi seguenti non vengono visualizzati nel modulo di richiesta <span class="preview"> negli ambienti Anteprima </span> o Produzione:
      >
      >    * Persone (include Creato da e Modificato da ultimo)
-     >    * Campi collegati (include connessioni con Workfront e risorse di Experience Manager)
-     >    * Campi di ricerca connessi
      >    * Formula
      >    * Data di creazione
      >    * Data ultima modifica
+     >    * Campi o campi di ricerca connessi di oggetti Workfront
+     >    * Campi di ricerca connessi ai record di Workfront Planning
+     >* I campi dei seguenti tipi non vengono visualizzati nel modulo di richiesta nell’ambiente di produzione. <span class="preview">Vengono visualizzati nell&#39;ambiente di anteprima:</span>
+     >    * <span class="preview"> campi collegati ai record di Workfront Planning (incluse connessioni con Workfront e risorse Experience Manager)</span>
 
-     <!--replace the above with this: 
-
-            >[!IMPORTANT]
-            >
-            > Depending on what environment you use to create a request form, the following scenarios exist:
-            >
-            >* Fields of the following types do not display in the request form in the Preview or Production environments: 
-            >
-            >    * People (includes Created by and Last modified by)
-            >    * Formula
-            >    * Created date
-            >    * Last modified date
-            >    * Workfront object connected fields
-            >    * Workfront objects connected lookup fields
-            >* <span class="preview">Fields of the following types do not display in the request form in the Production environment. They display in the Preview environment:</span>
-            >    * <span class="preview">Planning records' connected fields (includes connections with Workfront, and Experience Manager assets)</span>
-            >    * <span class="preview">Planning records' connected lookup fields</span>
-      -->
 
    * **Sezione predefinita**: questa è l&#39;interruzione di sezione predefinita che Workfront applica al modulo di richiesta. Impossibile rinominare o rimuovere la sezione predefinita.
    * Campo **Oggetto**: campo che identificherà la richiesta in Workfront. Questa funzionalità non è ancora disponibile. Impossibile modificare la configurazione e il valore del campo Oggetto.
