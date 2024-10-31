@@ -5,10 +5,10 @@ description: Esamina queste aree per comprendere le Priorità in Adobe Workfront
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: b27df0431a958774b0933b8c7ea967cf34153fad
+source-git-commit: f6cd525e061ef3e33d8c8b000596aa15897b62f5
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,6 +16,7 @@ ht-degree: 1%
 
 Questa sezione contiene le seguenti sottosezioni:
 
+* [Priorità: prossime versioni](/help/quicksilver/workfront-basics/priorities/priorities-upcoming-releases.md)
 * [Introduzione alle priorità](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)
 * [Filtrare e raggruppare il lavoro in Priorità](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
 * [Personalizzare le colonne dell’elenco di lavoro Priorità](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
