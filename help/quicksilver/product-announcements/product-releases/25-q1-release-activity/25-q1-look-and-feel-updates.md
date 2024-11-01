@@ -4,9 +4,9 @@ description: Aggiornamenti look-and-feel durante l’intervallo di tempo del ril
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
+source-git-commit: 4b92c4ede61690211dad2cb908c502dbb63d7c34
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,10 @@ Per un elenco di tutte le modifiche disponibili con la versione del primo trimes
 
 Abbiamo aggiornato la barra di navigazione di Workfront per migliorarne le prestazioni. Le modifiche del look-and-feel sono minime.
 
-La modifica più evidente è che le schermate a discesa Preferiti e Recenti non dispongono più di un pulsante di chiusura. È sufficiente fare clic lontano dallo schermo o premere ESC sulla tastiera per chiuderlo.
+Le modifiche più evidenti sono le seguenti:
+
+* Le schermate a discesa Preferiti e Recenti non dispongono più di un pulsante di chiusura. È sufficiente fare clic lontano dallo schermo o premere ESC sulla tastiera per chiuderlo.
+* Non è più possibile trascinare e rilasciare le pagine bloccate per disporle. È invece disponibile un menu a discesa con pulsanti che consentono di spostare le pagine bloccate.
 
 ## Aggiornamento look-and-feel per finestra Invia aggiornamento all&#39;utente
 

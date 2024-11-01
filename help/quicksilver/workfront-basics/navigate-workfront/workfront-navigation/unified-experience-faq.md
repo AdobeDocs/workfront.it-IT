@@ -1,14 +1,14 @@
 ---
 product-area: workfront-navigation
 navigation-topic: workfront-navigation
-title: Domande frequenti sull’esperienza unificata di Adobe
+title: Domande frequenti sull’esperienza unificata in Adobe
 description: Alcune funzionalità sono diverse tra  [!DNL Workfront]  e Adobe Experience Cloud e potresti avere alcune domande durante la migrazione dell'istanza  [!DNL Workfront]  all'esperienza unificata.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: d4ae54f14c2328888ce80902275b0d390fb4fbb7
+source-git-commit: 68a5bfe5d85ac530ac14faf2a6a5cccf602e6c8c
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1385'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,6 @@ Questa tabella descrive alcune funzioni che differiscono tra le due esperienze.
 | Il visualizzatore di bozze si apre in una nuova scheda | Il visualizzatore di bozze si apre in Workfront |
 | URL utilizzato per accedere a Workfront: `experience.adobe.com` | URL utilizzato per accedere a Workfront: `(CompanyName).my.workfront.com` |
 | Il formato della data (ad esempio GG/MM/AAAA) si basa sulle impostazioni della lingua Unified Experience. Se l&#39;utente non ha aggiornato le impostazioni della lingua, verranno utilizzate `en-US` impostazioni. | Il formato della data (ad esempio GG/MM/AAAA) si basa sulle preferenze del browser |
-| L’integrazione JumpSeat non è supportata | L’integrazione Jumpseat è supportata |
 
 {style="table-layout:auto"}
 
@@ -43,12 +42,12 @@ Questa tabella descrive alcune funzioni che differiscono tra le due esperienze.
 
 ### Come posso determinare se utilizzo Adobe Unified Experience o Adobe Workfront?
 
-Per determinare se l’organizzazione si trova nell’esperienza unificata di Adobe, esamina l’URL utilizzato per accedere a Workfront.
+Per determinare se la tua organizzazione utilizza l’esperienza unificata di Adobe, esamina l’URL utilizzato per accedere a Workfront.
 
 | URL | Esperienza Adobe |
 |------------|------------|
 | (NomeSocietà).my.workfront.com | Esperienza Workfront |
-| experience.adobe.com | Adobe di esperienza unificata |
+| experience.adobe.com | Esperienza unificata Adobe |
 
 ### Come posso saperne di più su [!DNL Adobe Admin Console]?
 
@@ -98,7 +97,7 @@ Puoi sempre utilizzare qualsiasi URL personalizzato. Dopo aver fatto clic su uno
 
 Tutti i collegamenti diretti devono essere reindirizzati ai nuovi pattern URL. Tuttavia, se hai distribuito i collegamenti alle persone, devi inviare un aggiornamento per sfruttare il collegamento diretto e evitare ritardi nel raggiungere la pagina prevista.
 
-### Effettueremo la migrazione a [!DNL Experience Cloud] a livello globale oppure è possibile selezionare alcuni utenti (non tutti i nostri utenti utilizzano anche altri prodotti di Adobe)?
+### Effettueremo la migrazione a [!DNL Experience Cloud] a livello globale oppure è possibile selezionare alcuni utenti (non tutti i nostri utenti utilizzano anche altri prodotti Adobe)?
 
 Verrà eseguita la migrazione dell&#39;intero account del cliente [!DNL Workfront]. Non può essere fatto utente per utente.
 
@@ -145,3 +144,7 @@ Nessun impatto per [!DNL Creative Cloud] utenti con la migrazione a [!DNL Adobe 
 ### Gli accessi cambieranno per [!DNL Workfront] utenti di dispositivi mobili?
 
 [!DNL Workfront] utenti di dispositivi mobili non dovrebbero essere interessati dalla migrazione a [!DNL Adobe Unified Experience].
+
+### JumpSeat non funziona con [!DNL Adobe Unified Experience]. Come posso risolvere il problema?
+
+JumpSeat funziona con [!DNL Adobe Unified Experience], ma richiede un aggiornamento della configurazione. Utilizzando il pannello di amministrazione JumpSeat, modifica l&#39;URL dell&#39;applicazione da `workfront.com` in modo che termini con `.workfront.adobe.com`
