@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 0e7651389a8762a2b09b0bcf87bf08c7be72adee
+source-git-commit: 81b003607634f39fbe2dd0ad076f88ce86d275cb
 workflow-type: tm+mt
-source-wordcount: '2353'
+source-wordcount: '2403'
 ht-degree: 0%
 
 ---
@@ -23,20 +23,35 @@ Un campo personalizzato calcolato può contenere:
 
 * Un semplice riferimento a un singolo campo incorporato.
 
-  >[!INFO]
-  >
-  > **Esempio:** Per calcolare le entrate generate dai progetti e dalle attività, è possibile creare un campo personalizzato calcolato contenente il campo predefinito Entrate effettive. Quando un utente allega il modulo personalizzato a un progetto o a un’attività, nel campo vengono visualizzate le entrate relative al progetto o all’attività.
+<div style="padding-left: 2em">
+
+>[!BEGINSHADEBOX]
+
+**Esempio:** Per calcolare le entrate generate dai progetti e dalle attività, è possibile creare un campo personalizzato calcolato contenente il campo predefinito Entrate effettive. Quando un utente allega il modulo personalizzato a un progetto o a un’attività, nel campo vengono visualizzate le entrate relative al progetto o all’attività.
+
+>[!ENDSHADEBOX]
+
+</div>
 
 * Espressione che fa riferimento a uno o più campi. Possono essere campi personalizzati, altri campi personalizzati calcolati e campi incorporati.
 
-  >[!INFO]
-  >
-  >**Esempio:** Per calcolare il profitto generato dai progetti e dalle attività, è possibile creare un campo personalizzato calcolato denominato Profitto contenente un&#39;espressione matematica che sottrae il costo dai ricavi.
-  >
-  >A tale scopo, è possibile utilizzare l&#39;espressione matematica SUB (sottrazione) con i campi incorporati di Workfront Costo effettivo e Ricavo effettivo.
-  >
-  >Nei passaggi seguenti puoi vedere come può essere eseguito questo esempio.
+<div style="padding-left: 2em">
 
+>[!BEGINSHADEBOX]
+
+**Esempio:** Per calcolare il profitto generato dai progetti e dalle attività, è possibile creare un campo personalizzato calcolato denominato Profitto contenente un&#39;espressione matematica che sottrae il costo dai ricavi.
+
+A tale scopo, è possibile utilizzare l&#39;espressione matematica SUB (sottrazione) con i campi incorporati di Workfront Costo effettivo e Ricavo effettivo.
+
+Nei passaggi seguenti, puoi vedere come creare un’espressione come questo esempio.
+
+>[!ENDSHADEBOX]
+
+</div>
+
+>[!NOTE]
+>
+>Le modifiche apportate a un campo diretto attivano automaticamente un aggiornamento del valore del campo calcolato. I campi diretti sono campi disponibili in Esplora API di Workfront o campi personalizzati in un modulo personalizzato allegato a un oggetto. Le modifiche apportate a un riferimento o a una formula richiedono il ricalcolo manuale dei valori dei campi.
 
 ## Requisiti di accesso
 
