@@ -7,7 +7,7 @@ description: È possibile condividere e rivedere vari tipi di file con i revisor
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 0a9bc92df7360565318d7776dae73b414c054fc2
+source-git-commit: b0454e68bdd6e9e78bd748868fc82a7b0cf8f379
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 0%
@@ -49,6 +49,7 @@ Workfront ha i seguenti limiti:
 > * PPSX - Presentazione di Microsoft PowerPoint
 > * XLT - Modello Microsoft Excel
 > * XLTX - Modello Microsoft Excel
+> * EPS - PostScript incapsulato
 
 * ABC - Compressione bitonale avanzata LEAD
 * ABIC - Compressione immagine adattiva a due livelli
@@ -77,7 +78,7 @@ Workfront ha i seguenti limiti:
 * DCS - Sistema di fotocamera digitale Kodak
 * DCM - DICOM
 * DCX - Pennello pittura
-* DNG - Adobe digitale negativo
+* DNG - Adobe digitale negativa
 * DOC - Documento di Microsoft Word
 * DOCX - Microsoft Word Document 2007
 * DRW - DRaWing
@@ -181,7 +182,6 @@ Workfront ha i seguenti limiti:
 > * PPSX - Presentazione di Microsoft PowerPoint
 > * XLT - Modello Microsoft Excel
 > * XLTX - Modello Microsoft Excel
-> * EPS - PostScript incapsulato
 
 
 * AI - Illustrazione di Adobe Illustrator
