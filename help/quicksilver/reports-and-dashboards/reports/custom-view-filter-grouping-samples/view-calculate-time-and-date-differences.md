@@ -2,21 +2,21 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Visualizza: calcolare le differenze di data e ora"
+title: "Visualizza: Calcolare le differenze di data e ora"
 description: Scopri come calcolare le differenze di data e ora.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
 
 # Visualizza: calcolo delle differenze di data e ora
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 >[!IMPORTANT]
 >
@@ -109,10 +109,8 @@ Per un elenco degli oggetti e dei relativi oggetti padre, vedere la sezione &quo
 
 1. Fai clic su **Aggiungi colonna** e inizia a digitare &quot;Data di completamento pianificata&quot; nel campo **Mostra in questa colonna**, quindi selezionala quando viene visualizzata nell&#39;elenco.
 
-1. Fai clic su **Aggiungi colonna**, quindi fai clic su **Passa alla modalità testo**.
-
-1. Passa il puntatore del mouse sull&#39;area della modalità testo e fai clic su **Fai clic per modificare il testo**.
-1. Rimuovere il testo trovato nella casella **Modalità testo** e sostituirlo con uno dei seguenti codici:
+1. Fai clic su **Aggiungi colonna**, quindi fai clic su **Passa a modalità testo** > **Modifica modalità testo**.
+1. Rimuovere il testo trovato nella casella **Modifica modalità testo** e sostituirlo con uno dei seguenti codici:
 
    * Per visualizzare la differenza tra la data di completamento pianificata del progetto e quella dell&#39;attività:
 
@@ -131,4 +129,4 @@ Per un elenco degli oggetti e dei relativi oggetti padre, vedere la sezione &quo
       displayname=Parent Planned Completion - Planned Completion (Days)
      ```
 
-1. Fai clic su **Salva**, quindi su **Salva visualizzazione**.
+1. Fai clic su **Fine**, quindi su **Salva visualizzazione**.

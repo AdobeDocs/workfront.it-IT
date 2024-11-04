@@ -4,17 +4,19 @@ product-area: reporting;timesheets
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "Visualizzazione: calcolo del costo del lavoro straordinario in una visualizzazione Scheda orario"
 description: Il lavoro straordinario non viene calcolato per impostazione predefinita in Adobe Workfront, ma puoi creare un rapporto Scheda orario che calcola il lavoro straordinario.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: ad6205cd-7534-49e5-b142-09f90bf672ce
-source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 1%
+source-wordcount: '359'
+ht-degree: 0%
 
 ---
 
 # Visualizzazione: consente di calcolare il costo del lavoro straordinario in una visualizzazione Scheda orario
+
+<!--Audited: 11/2024-->
 
 Il lavoro straordinario non viene calcolato per impostazione predefinita in Adobe Workfront, ma puoi creare un rapporto Scheda orario che calcola il lavoro straordinario.
 
@@ -25,7 +27,11 @@ Per informazioni sull&#39;associazione degli utenti alle tariffe orarie, vedere 
 >
 >Nel campo Straordinari che è possibile aggiungere a una visualizzazione Scheda orario in un elenco o in un report vengono visualizzate le informazioni presenti nel campo Straordinari della scheda orario. Queste informazioni vengono aggiornate manualmente da un utente con accesso in modifica alla scheda orario. Per ulteriori informazioni sul campo Straordinari in una scheda orario, vedere l&#39;articolo [Panoramica del layout della scheda orario](../../../timesheets/timesheets/timesheet-layout.md).
 
+![calculated_overtime_cost_in_timesheet_report.png](assets/calculated-overtime-cost-in-timesheet-report-350x92.png)
+
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -34,61 +40,63 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Richiesta di modifica di una vista </p>
-   <p>Pianificare la modifica di un rapporto</p> </td> 
+   <td> 
+    <p>Nuovo:</p>
+   <ul><li><p>Collaboratore per modificare un filtro </p></li>
+   <li><p>Standard per modificare un rapporto</p></li> </ul>
+
+<p>Corrente:</p>
+   <ul><li><p>Richiesta di modifica di un filtro </p></li>
+   <li><p>Pianificare la modifica di un rapporto</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare una vista</p> <p><b>NOTA</b>
-
-Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l’accesso a Filtri, Viste, Raggruppamenti per modificare un filtro</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Calcolare il costo del lavoro straordinario in una visualizzazione Scheda orario
 
 Per aggiungere una colonna Tempo eccessivo calcolato a una visualizzazione Scheda orario:
 
-1. Vai a un elenco di schede orario o crea un Rapporto Scheda orario.
+1. Vai a un elenco di schede orario.
 
-   Per informazioni sulla creazione di report, vedere l&#39;articolo [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-
-1. Fare clic su **Personalizza visualizzazione** in un elenco di schede orario.
-
-   Oppure
-
-   Selezionare la scheda **Colonne (Visualizzazione)** in un report Scheda orario.
+1. Fai clic sul menu a discesa **Visualizza**, quindi fai clic su **Nuova visualizzazione**.
 
 1. Fai clic su **Aggiungi colonna**.
-1. Fare clic su **Passa alla modalità testo**.
-1. Nell&#39;area **Mostra in questa colonna** fare clic su **Fare clic per modificare il testo**.
-1. Copiare e incollare il codice della modalità testo seguente nella finestra di dialogo **Modalità testo**.
-   <pre>displayname=Costo straordinario calcolato<br>linkedname=direct<br>namekey=totalHours<br>querysort=totalHours <br>textmode=true<br>valueexpression=IF({totalHours}&gt;40,({totalHours}-40)*{user}.{costPerHour},{totalHours}*{user}.{costPerHour})<br>valueformat=currencyStringCurrencyRounded</pre>
+1. Fare clic su **Passa alla modalità testo**, quindi su **Modifica modalità testo**.
+1. Nella casella **Modifica modalità testo** rimuovere il testo nella casella, quindi copiare e incollare il codice della modalità testo seguente:
+
+   ```
+   displayname=Calculated Overtime Cost
+   linkedname=direct
+   namekey=totalHours
+   querysort=totalHours 
+   textmode=true
+   valueexpression=IF({totalHours}>40,({totalHours}-40)*{user}.{costPerHour},{totalHours}*{user}.{costPerHour})
+   valueformat=currencyStringCurrencyRounded
+   ```
 
    >[!NOTE]
    >
    >Questo calcolo presuppone che l’utente lavori di solito una settimana di 40 ore.
 
-1. Fai clic su **Salva**, quindi denomina la nuova visualizzazione e fai clic su **Salva visualizzazione** in un elenco di schede orario.
-
-   Oppure
-
-   Fai clic su **Salva + Chiudi** in un report Scheda orario.
-
-1. (Facoltativo e condizionale) se si sta creando un report Scheda orario, specificare un nome per il report, quindi fare clic su **Salva report**.
+1. Fai clic su **Fine**, quindi denomina la nuova visualizzazione e fai clic su **Salva visualizzazione** in un elenco di schede orario.
 
    Il costo del lavoro straordinario di ciascun utente viene visualizzato nella colonna **Costo lavoro straordinario calcolato**.
 
-   ![calculated_overtime_cost_in_timesheet_report.png](assets/calculated-overtime-cost-in-timesheet-report-350x92.png)
+

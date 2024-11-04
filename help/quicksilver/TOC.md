@@ -3,7 +3,7 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 8facde17caa9054354c3a632ea3a3ab2ba112a5e
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
 source-wordcount: '14547'
 ht-degree: 2%
@@ -1654,7 +1654,7 @@ ht-degree: 2%
          * [Visualizza: calcolo delle differenze di data e ora](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-time-and-date-differences.md)
          * [Visualizza: visualizza il risultato di un calcolo tra due campi in una colonna](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculation-between-two-fields.md)
          * [Visualizza: aggiungere un elenco di successori attività in una colonna](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-list-successors.md)
-         * [Visualizza e raggruppa: visualizza la durata effettiva del progetto aggregata in base alla media in un raggruppamento](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-project-average-actual-duration-aggregated-grouping.md)
+         * [Visualizza e raggruppa: visualizza la durata effettiva del progetto aggregata per la media in un raggruppamento](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-project-average-actual-duration-aggregated-grouping.md)
          * [Visualizza: dettagli combinati su attività e problemi in un elenco di ore](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md)
          * [Visualizza: visualizza un’immagine invece di una stringa in una colonna](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
          * [Visualizza: oggetti di visualizzazione non inclusi nell&#39;interfaccia standard](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)

@@ -2,25 +2,29 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Visualizza: società e gruppo predefinito dell’utente assegnato"
+title: "Visualizza: Società e gruppo predefinito dell'utente assegnato"
 description: In questa visualizzazione attività vengono visualizzati la società e il gruppo predefinito del proprietario principale dell'attività. Si tratta di valori che non sono disponibili nell’interfaccia standard, ma che sono accessibili tramite la modalità testo.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 818c1f3a-4e82-4dc3-af86-4f9dcf5c11a4
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
 
 # Visualizza: società e gruppo predefinito dell&#39;utente assegnato
 
+<!--Audited: 11/2024-->
+
 In questa visualizzazione attività vengono visualizzati la società e il gruppo predefinito del proprietario principale dell&#39;attività. Si tratta di valori che non sono disponibili nell’interfaccia standard, ma che sono accessibili tramite la modalità testo.
 
 ![](assets/view--assigned-user-s-company-and-home-group-350x80.png)
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -29,28 +33,34 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Richiesta di modifica di una vista </p>
-   <p>Pianificare la modifica di un rapporto</p> </td> 
+   <td> 
+    <p>Nuovo:</p>
+   <ul><li><p>Collaboratore per modificare un filtro </p></li>
+   <li><p>Standard per modificare un rapporto</p></li> </ul>
+
+<p>Corrente:</p>
+   <ul><li><p>Richiesta di modifica di un filtro </p></li>
+   <li><p>Pianificare la modifica di un rapporto</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare una vista</p> <p><b>NOTA</b>
-
-Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l’accesso a Filtri, Viste, Raggruppamenti per modificare un filtro</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Visualizza la società e il gruppo predefinito dell&#39;utente assegnato
 
@@ -59,8 +69,65 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 
 1. Nell&#39;area **Anteprima colonna** eliminare tutte le colonne tranne una.
 1. Fare clic sull&#39;intestazione della colonna rimanente, quindi fare clic su **Passa alla modalità testo**.
-1. Passa il puntatore del mouse sull&#39;area della modalità testo e fai clic su **Fai clic per modificare il testo**.
-1. Rimuovere il testo trovato nella casella **Modalità testo** e sostituirlo con il seguente codice:
-   <pre>column.0.descriptionkey=name<br> column.0.link.linkproperty.0.name=ID<br> column.0.link.linkproperty.0.valuefield=ID<br> column.0.link.linkproperty.0.valueformat=int<br> column.0.link.lookup=link.view<br> column.0.link.valuefield=objCode<br> column.0.link.valueformat=val<br> column.0.linkedname=direct<br> column.0.listsort=string(name)<br> column.0 key=name.abbr<br> column.0.querysort=name<br> column.0.shortview=false<br> column.0.stretch=100<br> column.0.valuefield=name<br> column.0.valueformat=HTML<br> column.0.width=150<br> column.1.descriptionkey=assignedto<br> column.1.link.linkproperty.0.name=ID<br> column.1.link.linkproperty.0 efield=assignedTo:ID<br> column.1.link.linkproperty.0.valueformat=int<br> column.1.link.lookup=link.view<br> column.1.link.valuefield=assignedTo:objCode<br> column.1.link.valueformat=val<br> column.1.linkedname=assignedTo<br> column.1.listsort=nested(assignedTo).string(name)<br> column.1.namekey=assignedto<br> column.1.querysort=assignedTo:name<br> column.1.shortview=false<br> column.1.stretch=0<br> column.1.valuefield=assignedTo:name<br> column.1.valueformat=HTML<br> column.1.width=150<br> column.2.description=Assigned To Company<br> column.2.displayname=Assigned To Company<br> column.2.linkedname=assignedTo:company<br> column.listlistnested(assignedTo:company).string(name)<br> column.2.namekey=assignedto<br> column.2.querysort=assignedTo:company:name<br> column.2.shortview=false<br> column.2.stretch=0<br> column.2.valuefield=assignedTo:company:name<br> column.2.valueformat=HTML<br> column.2.width=150<br> column.3.description=Assigned To Home Group 45} column.3.displayname=Assegnato al gruppo predefinito<br> column.3.linkedname=assignedTo:homeGroup<br> column.3.listsort=nested(assignedTo:homeGroup).string(name)<br> column.3.namekey=assignedto<br> column.3.querysort=assignedTo:homeGroup:name<br> column.3.shortview=false<br> column.3.stretch=0<br> column.3.valuefield=assignedTo 4}nome<br> colonna.3.valueformat=HTML<br> colonna.3.width=150<br>:homeGroup:</pre>
+1. Fare clic su **Modifica modalità testo**.
+1. Rimuovere il testo trovato nella casella **Modifica modalità testo** e sostituirlo con il seguente codice:
 
-1. Fai clic su **Salva modifiche**.
+   ```
+   column.0.descriptionkey=name
+   column.0.link.linkproperty.0.name=ID
+   column.0.link.linkproperty.0.valuefield=ID
+   column.0.link.linkproperty.0.valueformat=int
+   column.0.link.lookup=link.view
+   column.0.link.valuefield=objCode
+   column.0.link.valueformat=val
+   column.0.linkedname=direct
+   column.0.listsort=string(name)
+   column.0.namekey=name.abbr
+   column.0.querysort=name
+   column.0.shortview=false
+   column.0.stretch=100
+   column.0.valuefield=name
+   column.0.valueformat=HTML
+   column.0.width=150
+   column.1.descriptionkey=assignedto
+   column.1.link.linkproperty.0.name=ID
+   column.1.link.linkproperty.0.valuefield=assignedTo:ID
+   column.1.link.linkproperty.0.valueformat=int
+   column.1.link.lookup=link.view
+   column.1.link.valuefield=assignedTo:objCode
+   column.1.link.valueformat=val
+   column.1.linkedname=assignedTo
+   column.1.listsort=nested(assignedTo).string(name)
+   column.1.namekey=assignedto
+   column.1.querysort=assignedTo:name
+   column.1.shortview=false
+   column.1.stretch=0
+   column.1.valuefield=assignedTo:name
+   column.1.valueformat=HTML
+   column.1.width=150
+   column.2.description=Assigned To Company
+   column.2.displayname=Assigned To Company
+   column.2.linkedname=assignedTo:company
+   column.2.listsort=nested(assignedTo:company).string(name)
+   column.2.namekey=assignedto
+   column.2.querysort=assignedTo:company:name
+   column.2.shortview=false
+   column.2.stretch=0
+   column.2.valuefield=assignedTo:company:name
+   column.2.valueformat=HTML
+   column.2.width=150
+   column.3.description=Assigned To Home Group
+   column.3.displayname=Assigned To Home Group
+   column.3.linkedname=assignedTo:homeGroup
+   column.3.listsort=nested(assignedTo:homeGroup).string(name)
+   column.3.namekey=assignedto
+   column.3.querysort=assignedTo:homeGroup:name
+   column.3.shortview=false
+   column.3.stretch=0
+   column.3.valuefield=assignedTo:homeGroup:name
+   column.3.valueformat=HTML
+   column.3.width=150
+   ```
+
+1. Fai clic su **Fine** > **Salva visualizzazione**.
+1. (Facoltativo) Aggiorna il nome della visualizzazione, quindi fai clic su **Salva visualizzazione**.

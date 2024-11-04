@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: a7cdee912e5047f1c8ef224aff6a41eaa3633df6
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1367'
 ht-degree: 2%
 
 ---
@@ -139,20 +139,20 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    * Campi record disponibili nella vista tabella del tipo di record selezionato. <!--they are working on removing the limitation below-->
 
-     >[!IMPORTANT]
-     >
-     > A seconda dell’ambiente utilizzato per creare un modulo di richiesta, esistono gli scenari seguenti:
-     >
-     >* I campi dei tipi seguenti non vengono visualizzati nel modulo di richiesta <span class="preview"> negli ambienti Anteprima </span> o Produzione:
-     >
-     >    * Persone (include Creato da e Modificato da ultimo)
-     >    * Formula
-     >    * Data di creazione
-     >    * Data ultima modifica
-     >    * Campi o campi di ricerca connessi di oggetti Workfront
-     >    * Campi di ricerca connessi ai record di Workfront Planning
-     >* I campi dei seguenti tipi non vengono visualizzati nel modulo di richiesta nell’ambiente di produzione. <span class="preview">Vengono visualizzati nell&#39;ambiente di anteprima:</span>
-     >    * <span class="preview"> campi collegati ai record di Workfront Planning (incluse connessioni con Workfront e risorse Experience Manager)</span>
+   >[!IMPORTANT]
+   >
+   > A seconda dell’ambiente utilizzato per creare un modulo di richiesta, esistono gli scenari seguenti:
+   >
+   >* I campi dei tipi seguenti non vengono visualizzati nel modulo di richiesta <span class="preview"> negli ambienti Anteprima </span> o Produzione:
+   >
+   >    * Persone (include Creato da e Modificato da ultimo)
+   >    * Formula
+   >    * Data di creazione
+   >    * Data ultima modifica
+   >    * Campi o campi di ricerca connessi di oggetti Workfront
+   >    * Campi di ricerca connessi ai record di Workfront Planning
+   >* I campi dei seguenti tipi non vengono visualizzati nel modulo di richiesta nell’ambiente di produzione. <span class="preview">Vengono visualizzati nell&#39;ambiente di anteprima:</span>
+   >    * <span class="preview"> campi collegati ai record di Workfront Planning</span>
 
 
    * **Sezione predefinita**: questa è l&#39;interruzione di sezione predefinita che Workfront applica al modulo di richiesta. Impossibile rinominare o rimuovere la sezione predefinita.

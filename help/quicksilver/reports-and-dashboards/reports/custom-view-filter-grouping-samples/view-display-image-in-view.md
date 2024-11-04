@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Visualizzazione: visualizza un’immagine invece di una stringa in una colonna"
+title: "Visualizzazione: visualizzare un’immagine invece di una stringa in una colonna"
 description: È possibile sostituire il nome di un oggetto in una visualizzazione con un'immagine utilizzando la modalità testo. È inoltre possibile aggiungere all'immagine un collegamento che consenta di aprire l'oggetto che sostituisce.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: e1e4a993-f05c-4b6e-b00a-e96c9ab4c94f
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
 
 # Visualizza: visualizza un’immagine invece di una stringa in una colonna
+
+<!--Audited: 11/2024-->
 
 È possibile sostituire il nome di un oggetto in una visualizzazione con un&#39;immagine utilizzando la modalità testo. È inoltre possibile aggiungere all&#39;immagine un collegamento che consenta di aprire l&#39;oggetto che sostituisce.
 
@@ -26,6 +28,8 @@ ht-degree: 0%
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
@@ -33,28 +37,34 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Richiesta di modifica di una vista </p>
-   <p>Pianificare la modifica di un rapporto</p> </td> 
+   <td> 
+    <p>Nuovo:</p>
+   <ul><li><p>Collaboratore per modificare un filtro </p></li>
+   <li><p>Standard per modificare un rapporto</p></li> </ul>
+
+<p>Corrente:</p>
+   <ul><li><p>Richiesta di modifica di un filtro </p></li>
+   <li><p>Pianificare la modifica di un rapporto</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare una vista</p> <p><b>NOTA</b>
-
-Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l’accesso a Filtri, Viste, Raggruppamenti per modificare un filtro</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Esempio: sostituisci il nome di un progetto in una vista progetto con un’immagine:
 
@@ -79,59 +89,26 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 1. Vai a un progetto, fai clic sul menu **Altro** ![](assets/more-icon-45x33.png) accanto al nome del progetto, quindi fai clic su **Modifica**.
 
 1. Aggiungi il collegamento all&#39;immagine nel campo **URL**.
-1. Passare a una visualizzazione di progetto in un elenco o in un report e personalizzare la visualizzazione.
+1. Consente di passare a una visualizzazione di progetto in un elenco di progetti.
+1. Fai clic sul menu a discesa **Visualizza**, quindi fai clic su **Nuova visualizzazione**.
 1. Fai clic sull&#39;intestazione della colonna per il **Nome progetto**, quindi fai clic su **Passa a modalità testo**.
 
 1. Aggiungi il seguente codice alla colonna del codice esistente:
 
    ```
    displayname=Link Project
-   ```
-
-   ```
    image.name=Link Project
-   ```
-
-   ```
    image.valuefield=URL
-   ```
-
-   ```
    link.linkproperty.0.name=projectID
-   ```
-
-   ```
    link.linkproperty.0.value=ID
-   ```
-
-   ```
    link.lookup=link.edit
-   ```
-
-   ```
    link.page=/view
-   ```
-
-   ```
    link.valuefield=objCode
-   ```
-
-   ```
    link.valueformat=val
-   ```
-
-   ```
    textmode=true
-   ```
-
-   ```
    type=image
-   ```
-
-   ```
    valueformat=
    ```
 
-   L&#39;immagine selezionata sostituisce il nome del progetto nella vista Progetto e l&#39;immagine è un collegamento al progetto.
-
-1. Fai clic su **Salva vista**.
+1. Fai clic su **Fine** > **Salva visualizzazione**.
+L&#39;immagine selezionata sostituisce il nome del progetto nella vista Progetto e l&#39;immagine è un collegamento al progetto.

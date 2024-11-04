@@ -2,12 +2,12 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Raggruppamento: sponsor del progetto per un elenco di attività"
+title: "Raggruppamento: sponsor del progetto per un elenco attività"
 description: Questo raggruppamento di attività consente di raggruppare le attività per sponsor progetto.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d8f85ea-492e-4b08-82f5-726170acc7d5
-source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Raggruppamento: sponsor del progetto per un elenco di attività
+
+<!--Audited: 11/2024-->
 
 Questo raggruppamento di attività consente di raggruppare le attività per sponsor progetto.
 
@@ -71,7 +73,11 @@ Per applicare questo raggruppamento:
 1. Fare clic su **Passa alla modalità testo**.
 1. Rimuovere il testo nell&#39;area visualizzata e sostituirlo con il seguente codice:
 
-   `group.0.name=Project Sponsor<br>group.0.valuefield=project:sponsor:name<br>group.0.valueformat=string`
+   ```
+   group.0.name=Project Sponsor
+   group.0.valuefield=project:sponsor:name
+   group.0.valueformat=string
+   ```
 
 1. Fai clic su **Fine**.
 1. Aggiorna il nome del raggruppamento, quindi fai clic su **Salva raggruppamento**.

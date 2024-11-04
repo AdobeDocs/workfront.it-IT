@@ -2,25 +2,29 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Visualizza: aggiungi un elenco di successori attività in una colonna"
+title: "Visualizzazione: aggiunta di un elenco di successori attività in una colonna"
 description: È possibile aggiungere una colonna a una visualizzazione delle attività per visualizzare un elenco dei successori delle attività. La colonna Successori attività include il numero del successore e il nome.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 45e9cb13-99c7-4401-962e-2aea5e5258c0
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 2%
+source-wordcount: '247'
+ht-degree: 1%
 
 ---
 
 # Visualizza: aggiungere un elenco di successori attività in una colonna
+
+<!--Audited: 11/2024-->
 
 È possibile aggiungere una colonna a una visualizzazione delle attività per visualizzare un elenco dei successori delle attività. La colonna **Successori attività** include il numero del successore e il nome.
 
 ![visualizzazione_attività_con_un_elenco_di_successori_.png](assets/task-view-with-a-list-of-successors--350x118.png)
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -29,40 +33,54 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Richiesta di modifica di una vista </p>
-   <p>Pianificare la modifica di un rapporto</p> </td> 
+   <td> 
+    <p>Nuovo:</p>
+   <ul><li><p>Collaboratore per modificare un filtro </p></li>
+   <li><p>Standard per modificare un rapporto</p></li> </ul>
+
+<p>Corrente:</p>
+   <ul><li><p>Richiesta di modifica di un filtro </p></li>
+   <li><p>Pianificare la modifica di un rapporto</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare una vista</p> <p><b>NOTA</b>
-
-Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l’accesso a Filtri, Viste, Raggruppamenti per modificare un filtro</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 
 ## Aggiungere un elenco di successori attività in una colonna
 
 Per aggiungere questa colonna a una visualizzazione delle attività:
 
-1. Consente di passare a una visualizzazione attività esistente.
-1. Espandere il menu a discesa Visualizza e selezionare **Personalizza visualizzazione**.
+1. Consente di passare a un elenco di attività.
+1. Espandere il menu a discesa **Visualizza** e fare clic su **Nuova visualizzazione**.
 1. Fai clic su **Aggiungi colonna**.
-1. Fare clic su **Passa alla modalità testo**.
-1. Passa il puntatore del mouse sull&#39;area **Mostra in questa colonna** e fai clic su **Fai clic per modificare il testo**.
+1. Fare clic su **Passa alla modalità testo**, quindi su **Modifica modalità testo**.
+1. Rimuovere tutto il testo nella casella **Modifica modalità testo** e sostituirlo con il seguente codice:
 
-1. Rimuovere tutto il testo nella casella Modalità testo e sostituirlo con il seguente codice:
-   <pre>displayname=Successori attività<br>listdelimiter=<br><br>listmethod=nested(successors).LISTS<br>textmode=true<br>type=iterate<br>valueexpression=CONCAT({successor}.{taskNumber},' - ',{successor}.{name})<br>valueformat=HTML</pre>
+   ```
+   displayname=Task Successors
+   listdelimiter=
+   listmethod=nested(successors).lists
+   textmode=true
+   type=iterate
+   valueexpression=CONCAT({successor}.{taskNumber},' - ',{successor}.{name})
+   valueformat=HTML
+   ```
 
-1. Fai clic su **Salva vista**.
+1. Fai clic su **Fine**, quindi su **Salva visualizzazione**.
