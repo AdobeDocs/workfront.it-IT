@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 8%
+source-wordcount: '1028'
+ht-degree: 7%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 8%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
+
+{{highlighted-preview}}
 
 In qualità di amministratore di Adobe Workfront, puoi utilizzare la funzione di esportazione dati di Kick-Start per esportare dati da Workfront. Puoi utilizzarlo in altre applicazioni dopo averlo esportato.
 
@@ -334,11 +336,15 @@ Esistono le seguenti limitazioni quando si esportano dati tramite avvii (i dati 
 
    Non è possibile esportare report matrice. Per ulteriori informazioni sui report matrice, vedere [Creare un report matrice](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-   Kick-Start non supporta i filtri in modalità testo. Per una corretta esportazione, i filtri di reporting devono essere commutati in modalità Standard.
+   Kick-Start non supporta i filtri o i raggruppamenti in modalità testo. Per un’esportazione corretta, i filtri e i raggruppamenti per reporting devono essere commutati in modalità Standard.
 
    Puoi selezionare fino a 100 dashboard e 100 rapporti in una singola esportazione.
 
-   ![](assets/kickstart-export-350x381.png)
+   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
+   ![Esportazione Kick-Start](assets/kickstart-export-spreadsheet-options.png)
+
+   Immagine di esempio nell’ambiente di produzione:
+   ![Esportazione Kick-Start](assets/kickstart-export-350x381.png)
 
    È possibile esportare più oggetti contemporaneamente.
 
@@ -346,4 +352,3 @@ Esistono le seguenti limitazioni quando si esportano dati tramite avvii (i dati 
 
    Per le esportazioni di grandi dimensioni, Workfront lavora in background per produrre il file Excel e ti fornisce un messaggio di avviso relativo al ritardo. Al termine del download, il file di avvio viene inviato all’utente tramite e-mail.
 
-   ![](assets/large-kick-start-file-warning-350x65.png)

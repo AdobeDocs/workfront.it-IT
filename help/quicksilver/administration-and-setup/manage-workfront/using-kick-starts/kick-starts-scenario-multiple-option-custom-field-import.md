@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
 workflow-type: tm+mt
-source-wordcount: '2146'
+source-wordcount: '2175'
 ht-degree: 0%
 
 ---
 
 # Scenario Kick-Start: importare campi personalizzati con più opzioni in Workfront
+
+{{highlighted-preview}}
 
 Puoi importare campi personalizzati con più opzioni in Adobe Workfront utilizzando la funzionalità di avvio.
 
@@ -86,23 +88,23 @@ Per esportare dati esistenti da Workfront:
 
 1. Espandere **Sistema** nel menu a sinistra, quindi fare clic su **Esporta dati (Kick-Start)**.
 
-   ![](assets/export-data-kick-starts-link-in-setup.png)
-
 1. Seleziona **Dati personalizzati** nella sezione **Cosa includere**.
 
-   ![](assets/existing-custom-data-box-checked-kick-starts.png)
+   Immagine di esempio nell’ambiente di anteprima:
+   ![Seleziona Dati Personalizzati](assets/kickstarts-select-existing-data.png)
+
+   Immagine di esempio nell’ambiente di produzione:
+   ![Seleziona Dati Personalizzati](assets/existing-custom-data-box-checked-kick-starts.png)
 
 1. Scegliere il file **.xlsx** nella sezione **Formato di download**.
 
    >[!TIP]
    >
-   >    A seconda della quantità di dati personalizzati disponibili nel sistema, l&#39;operazione potrebbe richiedere molto tempo.
-
-   ![](assets/download-button-for-kick-starts.png)
+   >A seconda della quantità di dati personalizzati disponibili nel sistema, l&#39;operazione potrebbe richiedere molto tempo.
 
 1. Fai clic su **Scarica**. Un file .xlsx viene scaricato nel computer. Individualo e aprilo.
 
-   ![](assets/existing-data-excel-parameter-sheet.png)
+   ![Dati esportati in Excel](assets/existing-data-excel-parameter-sheet.png)
 
 1. Esamina il file scaricato e prendi nota dei seguenti dettagli:
 
@@ -126,9 +128,10 @@ Dopo aver analizzato le informazioni sui campi personalizzati esistenti nel sist
 
 1. Fare clic su **Importa dati (Kick-Start)**.
 
-   ![](assets/import-data-kick-starts-link-in-setup.png)
+1. Nell&#39;area **Scarica un foglio di calcolo Kick-Start vuoto**, selezionare la casella di controllo **Dati personalizzati** e fare clic su **Scarica**.
 
-1. Nell&#39;area **Scarica un foglio di calcolo Kick-Start vuoto**, scegli la casella di controllo **Dati personalizzati** e fai clic su **Scarica**.
+   Immagine di esempio nell’ambiente di anteprima:
+   ![Seleziona Dati Personalizzati](assets/kickstarts-select-existing-data.png)
 
    ![](assets/blank-custom-data-option-checked-kick-starts.png)
 
@@ -280,7 +283,7 @@ Dopo aver eseguito i passaggi descritti nelle sezioni precedenti, continuare con
 
 1. Fare clic su **Scegli file** nella sezione **Carica dati con foglio di calcolo di avvio**.
 
-1. Cercare il foglio di calcolo Excel preparato, nel computer e selezionarlo quando lo si trova.  Quando il file viene riconosciuto da Workfront, il pulsante Carica diventa blu.
+1. Cercare il foglio di calcolo Excel preparato, nel computer e selezionarlo quando lo si trova. Quando Workfront riconosce il file, il pulsante Carica diventa blu.
 1. Fai clic su **Carica.**
 
    ![](assets/kick-start-file-selected-and-upload-blue-button.png)
