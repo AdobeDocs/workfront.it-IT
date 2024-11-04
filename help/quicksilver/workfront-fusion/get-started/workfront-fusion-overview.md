@@ -8,9 +8,9 @@ description: Il ruolo di  [!DNL Adobe Workfront Fusion]  consiste nell'automatiz
 author: Becky
 feature: Workfront Fusion
 exl-id: f1633a93-8f4e-4db0-8618-3ce7d8ba84b1
-source-git-commit: 600f5d41e1dbecf1f354805f7fc17bbcf2409aee
+source-git-commit: 7ad3fbcfa5be5074016f399560cca509d81f4714
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Uno scenario in Workfront Fusion rappresenta un flusso di lavoro specifico. Ad e
 
 Gli scenari possono essere creati per affrontare situazioni e casi d’uso molto specifici. È possibile utilizzare i filtri per modificare l’azione in base a campi o proprietà di dati, scorrere file o dati, salvare dati in un archivio dati e utilizzarli in un’altra esecuzione dello scenario oppure configurare lo scenario in molti altri modi.
 
-Puoi anche aggiungere applicazioni diverse da Workfront allo scenario. Fusion include molti connettori dedicati per applicazioni esterne, tra cui applicazioni per Adobe, Google, Microsoft e molti altri. Se non è presente un connettore dedicato per un’applicazione, Fusion include modalità di connessione a qualsiasi servizio con un’API pubblica.
+Puoi anche aggiungere applicazioni diverse da Workfront allo scenario. Fusion include molti connettori dedicati per applicazioni esterne, incluse applicazioni di Adobe, Google, Microsoft e molte altre. Se non è presente un connettore dedicato per un’applicazione, Fusion include modalità di connessione a qualsiasi servizio con un’API pubblica.
 
 Workfront Fusion offre inoltre funzionalità che supportano scenari, ad esempio modelli di creazione di scenari, cronologia di esecuzione e debug.
 
@@ -77,6 +77,8 @@ Workfront Fusion offre inoltre funzionalità che supportano scenari, ad esempio 
 Quando si inizia a lavorare con Workfront Fusion, potrebbero essere utili le risorse seguenti:
 
 * Per le risorse di formazione su Workfront Fusion, vedere [Panoramica sulla formazione su Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/introduction-and-tech-strategy).
+
+* Per ulteriori informazioni sugli scenari, vedere [Panoramica dello scenario](/help/quicksilver/workfront-fusion/scenarios/scenario-overview.md).
 
 * Per iniziare a creare scenari di esercitazione, vedere [Creare scenari di esercitazione](../../workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md).
 

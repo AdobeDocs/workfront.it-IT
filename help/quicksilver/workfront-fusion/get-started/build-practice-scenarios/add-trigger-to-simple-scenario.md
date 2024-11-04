@@ -7,9 +7,9 @@ description: Scopri come aggiungere un modulo trigger per consentire allo scenar
 author: Becky
 feature: Workfront Fusion
 exl-id: 067ee6a1-f4c1-4602-ac39-0283255cced8
-source-git-commit: 1196e2d7a6d6750944a7c6209222f07382abfee7
+source-git-commit: 7ad3fbcfa5be5074016f399560cca509d81f4714
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,7 @@ In questo esempio viene modificato lo scenario creato in [Crea uno scenario di b
 1. Seleziona **Record di controllo**.
 1. Assicurati che il modulo utilizzi la stessa connessione degli altri moduli dello scenario.
 1. Nel campo Filtro, selezionare **Solo nuovi record**.
+1. Nel campo Tipo di record selezionare **Problema**.
 1. Nella casella Output selezionare `ID`, `Name` e `Project ID`.
 1. Fare clic su **OK** per salvare le impostazioni del modulo.
 
