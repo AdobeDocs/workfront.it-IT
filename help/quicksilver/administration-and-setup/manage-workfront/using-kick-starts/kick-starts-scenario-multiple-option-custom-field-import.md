@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
+source-git-commit: 7512f3e79b3a6af4917cebf631c3f8405baafa2b
 workflow-type: tm+mt
-source-wordcount: '2175'
+source-wordcount: '2184'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Per esportare dati esistenti da Workfront:
 
 1. Seleziona **Dati personalizzati** nella sezione **Cosa includere**.
 
-   Immagine di esempio nell’ambiente di anteprima:
+   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
    ![Seleziona Dati Personalizzati](assets/kickstarts-select-existing-data.png)
 
    Immagine di esempio nell’ambiente di produzione:
@@ -130,10 +130,11 @@ Dopo aver analizzato le informazioni sui campi personalizzati esistenti nel sist
 
 1. Nell&#39;area **Scarica un foglio di calcolo Kick-Start vuoto**, selezionare la casella di controllo **Dati personalizzati** e fare clic su **Scarica**.
 
-   Immagine di esempio nell’ambiente di anteprima:
+   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
    ![Seleziona Dati Personalizzati](assets/kickstarts-select-existing-data.png)
 
-   ![](assets/blank-custom-data-option-checked-kick-starts.png)
+   Immagine di esempio nell’ambiente di produzione:
+   ![Seleziona Dati Personalizzati](assets/blank-custom-data-option-checked-kick-starts.png)
 
    Un file Kick-Start vuoto viene scaricato sul computer.
 
@@ -143,7 +144,7 @@ Dopo aver analizzato le informazioni sui campi personalizzati esistenti nel sist
 
 ## Compilare il foglio di calcolo Kick-Start di Excel
 
-Prima di popolare il foglio di calcolo di Excel, scarica il modello di avvio come descritto nella sezione precedente.
+Prima di popolare il foglio di calcolo Excel, scarica il modello di avvio come descritto nella sezione precedente.
 
 >[!IMPORTANT]
 >
@@ -182,7 +183,7 @@ Per popolare il foglio di calcolo Excel con le informazioni per i nuovi campi pe
 
      >[!TIP]
      >
-     >    Se una riga rappresenta un campo esistente già in Workfront, immettere **`isNew`** = **`FALSE`**.
+     >Se una riga rappresenta un campo esistente già in Workfront, immettere **`isNew`** = **`FALSE`**.
 
    * **`ID`** = deve essere un numero univoco per ogni riga che rappresenta un nuovo campo. È possibile utilizzare qualsiasi numero che inizia con 1, a condizione che ogni nuovo campo abbia un numero univoco.
    * **`setDataType`** = per ogni riga che rappresenta un nuovo campo, immettere il tipo di dati supportato dal campo. Il Tipo di dati deve essere immesso così come apparirebbe nel database. Selezionare uno dei tipi di dati seguenti:
