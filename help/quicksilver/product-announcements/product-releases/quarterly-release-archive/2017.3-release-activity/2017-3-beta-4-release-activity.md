@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d6bb889c-a057-453f-8f80-761cfb1ad4a1
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '1676'
 ht-degree: 0%
@@ -151,7 +151,7 @@ Queste informazioni possono essere visualizzate in un report o in un elenco di a
 
 Prima di questa modifica non era possibile generare rapporti su queste informazioni.
 
-Per ulteriori informazioni sulla creazione della visualizzazione in modalità testo personalizzata che acquisisce le informazioni dal problema originale, vedere [Visualizzazione: visualizzazione delle informazioni sul problema originale negli elenchi di attività e progetti](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
+Per ulteriori informazioni sulla creazione della visualizzazione in modalità testo personalizzata che acquisisce le informazioni dal problema originale, vedere [Visualizzazione: visualizzazione delle informazioni sul problema originale negli elenchi di attività o progetti](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
 
 ## Filtra aggiornamenti di sistema nel flusso di aggiornamento ora è persistente tra gli oggetti {#filter-system-updates-in-the-update-stream-is-now-persistent-across-objects}
 

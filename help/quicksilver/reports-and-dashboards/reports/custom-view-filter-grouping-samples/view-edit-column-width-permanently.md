@@ -2,21 +2,21 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Visualizza: modifica definitivamente la larghezza di una colonna"
+title: "Visualizza: modifica permanente della larghezza di una colonna"
 description: È possibile modificare temporaneamente la larghezza delle colonne trascinandone i margini in modo che corrispondano alla larghezza desiderata. Per ulteriori informazioni, consulta Modificare la larghezza e l’ordine delle colonne.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 42633036-8e42-4cec-876c-f20a5ece2478
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 71c0bf664af66bec7122651c1b62dd1c28022565
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
 
 # Visualizza: modifica definitivamente la larghezza di una colonna
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 È possibile modificare temporaneamente la larghezza delle colonne trascinandone i margini in modo che corrispondano alla larghezza desiderata. Per ulteriori informazioni, vedere [Modificare la larghezza e l&#39;ordine delle colonne](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
@@ -73,7 +73,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    Fai clic sull’intestazione di colonna di una colonna esistente.
 
 1. Fare clic su **Passa alla modalità testo**.
-1. Passa il puntatore del mouse sull&#39;area della modalità testo e fai clic su **Fai clic per modificare il testo**.
+1. Fare clic su **Modifica modalità testo**.T
 1. Aggiungi il seguente codice alla modalità testo della colonna:
 
    ```
@@ -83,6 +83,6 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    Per la riga **width**, specifica un numero (in pixel) che rappresenti la larghezza desiderata per la colonna nella visualizzazione.
 
-1. Fai clic su **Salva**, quindi su **Salva visualizzazione**.
+1. Fai clic su **Fine**, quindi su **Salva visualizzazione**.
 
 

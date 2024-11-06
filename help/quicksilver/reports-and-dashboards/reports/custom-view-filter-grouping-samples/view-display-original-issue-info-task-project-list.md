@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Visualizza: visualizza le informazioni originali sui problemi negli elenchi di attività e progetti"
+title: "Visualizzazione: visualizzazione delle informazioni originali sui problemi in elenchi di attività o progetti"
 description: Dopo aver convertito il problema nelle attività e nei progetti dell’elenco, è possibile visualizzare le informazioni del problema originale in una visualizzazione degli elenchi di attività e progetti.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 235156b6-a9b6-484e-b126-54874da705c8
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 5%
 
 ---
 
-# Visualizza: visualizza le informazioni originali sui problemi negli elenchi di attività e progetti
+# Visualizza: visualizza le informazioni originali sui problemi negli elenchi di attività o progetti
 
 Dopo aver convertito il problema in attività e progetti dell’elenco, puoi visualizzare le seguenti informazioni del problema originale in una visualizzazione degli elenchi di attività e progetti:
 

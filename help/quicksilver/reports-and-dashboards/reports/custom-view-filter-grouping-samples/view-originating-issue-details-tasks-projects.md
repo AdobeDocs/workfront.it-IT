@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Visualizza: dettagli problema origine per attività e progetti"
+title: "Visualizza: dettagli problema di origine per attività e progetti"
 description: Quando un problema viene convertito in un’attività o in un progetto, viene stabilita una relazione tra l’attività o il progetto e il problema. Questa visualizzazione mostra i campi del problema che viene completato automaticamente al completamento dell’attività o del progetto.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 5fefb174-3a18-408f-aa12-3f4aff23acfa
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 4%
+source-wordcount: '310'
+ht-degree: 3%
 
 ---
 
 # Visualizza: dettagli problema di origine per attività e progetti
+
+<!--Audited: 11/2024-->
 
 Quando un problema viene convertito in un’attività o in un progetto, viene stabilita una relazione tra l’attività o il progetto e il problema. Questa vista mostra i seguenti campi del problema che vengono completati automaticamente al completamento dell’attività o del progetto:
 
@@ -28,9 +30,11 @@ Quando un problema viene convertito in un’attività o in un progetto, viene st
 
 ![attività_con_risoluzione_problemi_campi.png](assets/task-with-resolving-issue-fields-350x38.png)
 
-Per ulteriori informazioni, vedere anche [Visualizza: visualizza le informazioni originali sul problema negli elenchi di attività e progetti](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
+Per ulteriori informazioni, vedere anche [Visualizza: visualizza le informazioni originali sul problema negli elenchi di attività o progetti](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -39,40 +43,113 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Richiesta di modifica di una vista </p>
-   <p>Pianificare la modifica di un rapporto</p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> <p> Corrente: 
+   <ul>
+   <li>Richiesta di modifica di una vista</li> 
+   <li>Pianificare la modifica di un rapporto</li>
+   </ul>
+     </p>
+     <p> Nuovo: 
+   <ul>
+   <li>Collaboratore per modificare una visualizzazione</li> 
+   <li>Standard per modificare un rapporto</li>
+   </ul>
+     </p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare una vista</p> <p><b>NOTA</b>
-
-Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
-</tr>  
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare una vista</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Visualizza dettagli problema di origine per attività e progetti
 
 1. Consente di passare a un elenco di attività o a un elenco di progetti.
 1. Dal menu a discesa **Visualizza**, selezionare **Nuova visualizzazione**.
-
 1. Nell&#39;area **Anteprima colonna** eliminare tutte le colonne tranne una.
-1. Fare clic sull&#39;intestazione della colonna rimanente, quindi fare clic su **Passa alla modalità testo**.
-1. Passa il puntatore del mouse sull&#39;area della modalità testo e fai clic su **Fai clic per modificare il testo**.
-1. Rimuovere il testo trovato nella casella **Modalità testo** e sostituirlo con il seguente codice:
+1. Fare clic sull&#39;intestazione della colonna rimanente e fare clic su **Passa alla modalità testo**, quindi su **Modifica modalità testo**.
+1. Rimuovere il testo trovato nella casella **Modifica modalità testo** e sostituirlo con il seguente codice:
 
-   <!-- [Copy](javascript:void(0);) -->
-   <pre><code>column.0.textmode=false<br>column.0.valuefield=name<br>column.0.valueformat=HTML<br>column.0.descriptionkey=name<br>column.0.linkedname=direct<br>column.0.listsort=string(name)<br>column.0.namekey=name<br>column.0.querysort=name<br>column.0.shortview=false<br>column.0.stretch=100<br>column.0.width=150<br>column.1.displayname=Resolvables (Issues)<br>column.1.listdelimiter=<br><br>column.1.listmethod=nested(resolvables).lists<br>column.1.textmode=true<br>column.1.type=iterate<br>column.1.valueexpression={name}<br>column.1.valueformat=HTML<br>column.2.displayname=Resolvables Entry Date<br>column.2.listdelimiter=<br><br>column.2.listmethod=nested(resolvables).lists<br>column.2.textmode=true<br>column.2.type=iterate<br>column.2.valueexpression={entryDate}<br>column.2.valueformat=HTML<br>column.3.displayname=Resolvables Due Date<br>column.3.listdelimiter=<br><br>column.3.listmethod=nested(resolvables).lists<br>column.3.textmode=true<br>column.3.type=iterate<br>column.3.valueexpression={plannedCompletionDate}<br>column.3.valueformat=HTML<br>column.4.displayname=Resolvables Actual Completion Date<br>column.4.listdelimiter=<br><br>column.4.listmethod=nested(resolvables).lists<br>column.4.textmode=true<br>column.4.type=iterate<br>column.4.valueexpression={actualCompletionDate}<br>column.4.valueformat=HTML<br>column.5.displayname=Resolvables Request Type<br>column.5.listdelimiter=<br><br>column.5.listmethod=nested(resolvables).lists<br>column.5.textmode=true<br>column.5.type=iterate<br>column.5.valueexpression={opTaskType}<br>column.5.valueformat=HTML<br>column.6.displayname=Resolvables Originator<br>column.6.listdelimiter=<br><br>column.6.listmethod=nested(resolvables).lists<br>column.6.textmode=true<br>column.6.type=iterate<br>column.6.valueexpression={owner}.{name}<br>column.6.valueformat=HTML<br>column.7.descriptionkey=assignedto<br>column.7.linkedname=assignedTo<br>column.7.listsort=nested(assignedTo).string(name)<br>column.7.namekey=assignedto<br>column.7.querysort=assignedTo:name<br>column.7.shortview=false<br>column.7.stretch=0<br>column.7.textmode=true<br>column.7.valuefield=assignedTo:name<br>column.7.valueformat=HTML<br>column.7.width=150</code></pre>
+   ```
+   column.0.textmode=false
+   column.0.valuefield=name
+   column.0.valueformat=HTML
+   column.0.descriptionkey=name
+   column.0.linkedname=direct
+   column.0.listsort=string(name)
+   column.0.namekey=name
+   column.0.querysort=name
+   column.0.shortview=false
+   column.0.stretch=100
+   column.0.width=150
+   column.1.displayname=Resolvables (Issues)
+   column.1.listdelimiter=
+   column.1.listmethod=nested(resolvables).lists
+   column.1.textmode=true
+   column.1.type=iterate
+   column.1.valueexpression={name}
+   column.1.valueformat=HTML
+   column.2.displayname=Resolvables Entry Date
+   column.2.listdelimiter=
+   column.2.listmethod=nested(resolvables).lists
+   column.2.textmode=true
+   column.2.type=iterate
+   column.2.valueexpression={entryDate}
+   column.2.valueformat=HTML
+   column.3.displayname=Resolvables Due Date
+   column.3.listdelimiter=
+   column.3.listmethod=nested(resolvables).lists
+   column.3.textmode=true
+   column.3.type=iterate
+   column.3.valueexpression={plannedCompletionDate}
+   column.3.valueformat=HTML
+   column.4.displayname=Resolvables Actual Completion Date
+   column.4.listdelimiter=
+   column.4.listmethod=nested(resolvables).lists
+   column.4.textmode=true
+   column.4.type=iterate
+   column.4.valueexpression={actualCompletionDate}
+   column.4.valueformat=HTML
+   column.5.displayname=Resolvables Request Type
+   column.5.listdelimiter=
+   column.5.listmethod=nested(resolvables).lists
+   column.5.textmode=true
+   column.5.type=iterate
+   column.5.valueexpression={opTaskType}
+   column.5.valueformat=HTML
+   column.6.displayname=Resolvables Originator
+   column.6.listdelimiter=
+   column.6.listmethod=nested(resolvables).lists
+   column.6.textmode=true
+   column.6.type=iterate
+   column.6.valueexpression={owner}.{name}
+   column.6.valueformat=HTML
+   column.7.descriptionkey=assignedto
+   column.7.linkedname=assignedTo
+   column.7.listsort=nested(assignedTo).string(name)
+   column.7.namekey=assignedto
+   column.7.querysort=assignedTo:name
+   column.7.shortview=false
+   column.7.stretch=0
+   column.7.textmode=true
+   column.7.valuefield=assignedTo:name
+   column.7.valueformat=HTML
+   column.7.width=150
+   ```
 
-1. Fai clic su **Salva vista**.
+1. Fai clic su **Fine** > **Salva visualizzazione**.

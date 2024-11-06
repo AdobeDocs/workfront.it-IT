@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Visualizza: elenco di utenti del progetto con mansioni"
+title: "Visualizza: elenco utenti progetto con mansioni"
 description: È possibile applicare questa visualizzazione in un elenco di progetti o in un report per visualizzare un elenco di utenti associati al progetto e un elenco delle mansioni che eseguono sul progetto.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: a3f59f69-7f39-4814-bd2f-7734d620081e
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
 
 # Visualizza: elenco di utenti del progetto con mansioni
+
+<!--Audited: 11/2024-->
 
 È possibile applicare questa visualizzazione in un elenco di progetti o in un report per visualizzare un elenco di utenti associati al progetto e un elenco delle mansioni che eseguono sul progetto.
 
@@ -28,6 +30,8 @@ Le informazioni contenute in questo rapporto sono reperibili anche nell’area P
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
@@ -35,38 +39,75 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Richiesta di modifica di una vista </p>
-   <p>Pianificare la modifica di un rapporto</p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> <p> Corrente: 
+   <ul>
+   <li>Richiesta di modifica di una vista</li> 
+   <li>Pianificare la modifica di un rapporto</li>
+   </ul>
+     </p>
+     <p> Nuovo: 
+   <ul>
+   <li>Collaboratore per modificare una visualizzazione</li> 
+   <li>Standard per modificare un rapporto</li>
+   </ul>
+     </p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare una vista</p> <p><b>NOTA</b>
-
-Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
-</tr>  
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare una vista</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 
 ## Visualizza un elenco di utenti del progetto con ruoli
 
 1. Consente di passare a un elenco di progetti.
 1. Dal menu a discesa **Visualizza**, selezionare **Nuova visualizzazione**.
-
 1. Nell&#39;area **Anteprima colonna** eliminare tutte le colonne tranne una.
-1. Fare clic sull&#39;intestazione della colonna rimanente, quindi fare clic su **Passa alla modalità testo**.
-1. Passa il puntatore del mouse sull&#39;area della modalità testo e fai clic su **Fai clic per modificare il testo**.
-1. Rimuovere il testo trovato nella casella **Modalità testo** e sostituirlo con il seguente codice:
-   <pre>column.0.link.valueformat=val<br>column.0.linkedname=direct<br>column.0.listsort=string(name)<br>column.0.namekey=name.abbr<br>column.0.querysort=name<br>column.0.section=0<br>column.0.shortview=false<br>column.0.stretch=100<br>column.0.valuefield=name<br>column.0.valueformat=HTML<br>column.0.width=200<br>column.1 name=Utenti progetto<br>column.1.listdelimiter=&lt;br&gt;<br>column.1.listmethod=nested(projectUsers).LISTS<br>column.1.textmode=true<br>column.1.type=iterate<br>column.1.valueexpression={user}.{name}<br>column.1.valueformat=HTML<br>column.2.displayname=Ruoli di progetto<br>column.2.listdelimiter=&lt;br&gt;<br>column.2.listmethod=nested(projectUserRoles).LISTS<br>column.2.textmode=true<br>column.2.type=iterate<br>column.2.valueexpression={role}.{name}<br>column.2.valueformat=HTML</pre>
+1. Fare clic sull&#39;intestazione della colonna rimanente, quindi fare clic su **Passa a modalità testo** > **Modifica modalità testo**.
+1. Rimuovere il testo trovato nella casella **Modifica modalità testo** e sostituirlo con il seguente codice:
 
-1. Fai clic su **Salva vista**.
+   ```
+   column.0.link.valueformat=val
+   column.0.linkedname=direct
+   column.0.listsort=string(name)
+   column.0.namekey=name.abbr
+   column.0.querysort=name
+   column.0.section=0
+   column.0.shortview=false
+   column.0.stretch=100
+   column.0.valuefield=name
+   column.0.valueformat=HTML
+   column.0.width=200
+   column.1.displayname=Project Users
+   column.1.listdelimiter=<br>
+   column.1.listmethod=nested(projectUsers).lists
+   column.1.textmode=true
+   column.1.type=iterate
+   column.1.valueexpression={user}.{name}
+   column.1.valueformat=HTML
+   column.2.displayname=Project Roles
+   column.2.listdelimiter=<br>
+   column.2.listmethod=nested(projectUserRoles).lists
+   column.2.textmode=true
+   column.2.type=iterate
+   column.2.valueexpression={role}.{name}
+   column.2.valueformat=HTML
+   ```
+
+1. Fai clic su **Fine** > **Salva visualizzazione**.

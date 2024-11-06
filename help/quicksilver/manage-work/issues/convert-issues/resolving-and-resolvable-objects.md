@@ -7,7 +7,7 @@ description: Un oggetto risolvibile è un problema la cui risoluzione è associa
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '1743'
 ht-degree: 1%
@@ -228,7 +228,7 @@ Nella tabella seguente vengono illustrati i campi che è possibile visualizzare 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td><strong>Nome problema originale, Data voce problema originale, Nome creatore</strong>: visualizza il nome e la data di voce del problema originale, nonché il nome dell'utente che ha creato il problema in una visualizzazione personalizzata in modalità testo.<br>Per ulteriori informazioni sulla creazione di una visualizzazione personalizzata in modalità testo per un progetto, un report attività o un elenco per visualizzare informazioni sul problema originale, vedere <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">Visualizzazione: visualizzazione delle informazioni sul problema originale negli elenchi attività e progetti</a>.<br></td> 
+   <td><strong>Nome problema originale, Data voce problema originale, Nome creatore</strong>: visualizza il nome e la data di voce del problema originale, nonché il nome dell'utente che ha creato il problema in una visualizzazione personalizzata in modalità testo.<br>Per ulteriori informazioni sulla creazione di una visualizzazione personalizzata in modalità testo per un progetto, un report attività o un elenco per visualizzare informazioni sul problema originale, vedere <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">Visualizzazione: visualizzazione delle informazioni sul problema originale negli elenchi attività o progetti</a>.<br></td> 
    <td> </td> 
    <td> ✓</td> 
    <td> ✓</td> 

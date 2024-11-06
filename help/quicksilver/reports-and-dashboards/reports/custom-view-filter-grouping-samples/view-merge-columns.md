@@ -2,21 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Visualizzazione: unire le informazioni provenienti da più colonne in una colonna condivisa"
+title: "Visualizza: unire informazioni da più colonne in una colonna condivisa"
 description: È possibile unire le informazioni visualizzate in più colonne separate e visualizzarle in una colonna condivisa.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 8c51f8acbe4cefc2404709d9b52c2fe5ec3c7fca
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
 
 # Vista: unire le informazioni provenienti da più colonne in una colonna condivisa
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 È possibile unire le informazioni visualizzate in più colonne separate e visualizzarle in una colonna condivisa.
 
@@ -94,7 +94,10 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 Per unire i dati di due colonne senza interruzioni di riga:
 
-1. Utilizzando la modalità testo per una visualizzazione, aggiungere il testo seguente alla prima colonna che si desidera unire:
+1. Consente di passare a un elenco di oggetti.
+1. Selezionare una visualizzazione dal menu a discesa **Visualizza**, quindi fare clic sull&#39;icona **Modifica** ![](assets/edit-icon.png) per modificare la visualizzazione.
+1. Passare alla prima colonna da unire, quindi fare clic su **Passa alla modalità testo** > **Modifica modalità testo**.
+1. Aggiungere il testo seguente alla prima colonna che si desidera unire:
 
    `sharecol=true`
 
@@ -104,32 +107,31 @@ Per unire i dati di due colonne senza interruzioni di riga:
 
    Se condividi più colonne, assicurati di aggiungere il numero di colonna nelle righe di codice che contengono le informazioni di condivisione per ciascuna colonna.
 
-   **Esempio:** Di seguito è riportato il codice in modalità testo per una colonna unita che contiene tre colonne separate, a partire dalla seconda colonna dell&#39;elenco. I valori uniti sono Nome progetto, Data inizio pianificata e Nome del proprietario del progetto e non vi è alcuna interruzione tra i tre valori:
 
-   `column.1.valuefield=name`
+   **ESEMPIO:** Di seguito è riportato il codice in modalità testo per una colonna unita che contiene tre colonne separate, a partire dalla seconda colonna dell&#39;elenco. I valori uniti sono Nome progetto, Data inizio pianificata e Nome del proprietario del progetto e non vi è alcuna interruzione tra i tre valori:
 
-   `column.1.valueformat=HTML`
+   ```
+   column.1.valuefield=name
+   column.1.valueformat=HTML
+   column.1.sharecol=true
+   column.2.valuefield=plannedStartDate
+   column.2.valueformat=atDate
+   column.2.sharecol=true
+   column.3.valuefield=owner:name
+   column.3.valueformat=HTML
+   ```
 
-   `column.1.sharecol=true`
+   ![](assets/shared-column-no-line-breaks-350x142.png)
 
-   `column.2.valuefield=plannedStartDate`
 
-   `column.2.valueformat=atDate`
-
-   `column.2.sharecol=true`
-
-   `column.3.valuefield=owner:name`
-
-   `column.3.valueformat=HTML`
-
-![](assets/shared-column-no-line-breaks-350x142.png)
-
-1. Fai clic su **Salva**, quindi su **Salva visualizzazione**.
+1. Fai clic su **Fine**, quindi su **Salva visualizzazione**.
 
 ## Unisci dati da due colonne con un’interruzione di riga
 
 Per unire i dati di più colonne in modo da visualizzarli in una colonna comune con un&#39;interruzione di riga tra i valori di ciascuna colonna, eseguire le operazioni seguenti:
 
+1. Consente di passare a un elenco di oggetti.
+1. Selezionare una visualizzazione dal menu a discesa **Visualizza**, quindi fare clic sull&#39;icona **Modifica** ![](assets/edit-icon.png) per modificare la visualizzazione.
 1. Aggiungere una terza colonna tra le due colonne che si desidera unire.
 
    >[!TIP]
@@ -137,18 +139,16 @@ Per unire i dati di più colonne in modo da visualizzarli in una colonna comune 
    >* Le colonne che si desidera unire devono essere adiacenti.
    >* Fare clic sulla prima colonna che si desidera unire.
 
-1. Fare clic su **Passa alla modalità testo** e aggiungere il codice seguente nella colonna centrale aggiunta al passaggio 1:
+1. Fare clic su **Passa a modalità testo** > **Modifica modalità testo** e aggiungere il codice seguente nella colonna centrale aggiunta al passaggio 1:
 
-   `value=<br>`
+   ```
+   value=<br>
+   valueformat=HTML
+   width=1
+   sharecol=true
+   ```
 
-   `valueformat=HTML`
-
-   `width=1`
-
-   `sharecol=true`
-
-
-1. Fare clic sulla prima colonna e fare clic su **Passa alla modalità testo**, quindi aggiungere il testo seguente alla colonna:
+1. Fare clic sulla prima colonna e fare clic su **Passa alla modalità testo** > **Modifica modalità testo**, quindi aggiungere il testo seguente alla colonna:
 
    `sharecol=true`
 
@@ -158,49 +158,30 @@ Per unire i dati di più colonne in modo da visualizzarli in una colonna comune 
 
    Se condividi più di una colonna, assicurati di aggiungere il numero della colonna nelle righe di codice che contengono le informazioni di condivisione.
 
-   **Esempio:** Di seguito è riportato il codice in modalità testo per una colonna condivisa contenente il nome del progetto, la data di inizio pianificata e il nome del proprietario del progetto con un&#39;interruzione di riga. La colonna condivisa è la seconda colonna di una visualizzazione di progetto.
+   **ESEMPIO:** Di seguito è riportato il codice in modalità testo per una colonna condivisa contenente il nome del progetto, la data di inizio pianificata e il nome del proprietario del progetto con un&#39;interruzione di riga. La colonna condivisa è la seconda colonna di una visualizzazione di progetto.
 
-
-   `column.1.displayname=Project_StartDate_Owner`
-
-   `column.1.sharecol=true`
-
-   `column.1.textmode=true`
-
-   `column.1.valuefield=name`
-
-   `column.1.valueformat=HTML`
-
-   `column.2.value=<br>`
-
-   `column.2.width=1`
-
-   `column.2.valueformat=HTML`
-
-   `column.2.sharecol=true`
-
-   `column.3.valuefield=plannedStartDate`
-
-   `column.3.valueformat=atDate`
-
-   `column.3.sharecol=true`
-
-   `column.4.value=<br>`
-
-   `column.4.width=1`
-
-   `column.4.valueformat=HTML`
-
-   `column.4.sharecol=true`
-
-   `column.5.textmode=true`
-
-   `column.5.valuefield=owner:name`
-
-   `column.5.valueformat=HTML`
-
+   ```
+   column.1.displayname=Project_StartDate_Owner
+   column.1.sharecol=true
+   column.1.textmode=true
+   column.1.valuefield=name
+   column.1.valueformat=HTML
+   column.2.value=<br>
+   column.2.width=1
+   column.2.valueformat=HTML
+   column.2.sharecol=true
+   column.3.valuefield=plannedStartDate
+   column.3.valueformat=atDate
+   column.3.sharecol=true
+   column.4.value=<br>
+   column.4.width=1
+   column.4.valueformat=HTML
+   column.4.sharecol=true
+   column.5.textmode=true
+   column.5.valuefield=owner:name
+   column.5.valueformat=HTML 
+   ```
 
    ![](assets/shared-column-with-line-breaks-350x199.png)
 
-
-1. Fai clic su **Salva**, quindi su **Salva visualizzazione**.
+1. Fai clic su **Fine**, quindi su **Salva visualizzazione**.
