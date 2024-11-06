@@ -6,14 +6,16 @@ description: È possibile generalizzare un rapporto utilizzando caratteri jolly 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 216e2869-b4f8-4cc7-9497-a12ebe00fe49
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '456'
 ht-degree: 1%
 
 ---
 
 # Utilizzare caratteri jolly basati sull&#39;utente per generalizzare i rapporti
+
+<!-- Audited: 11/2024 -->
 
 È possibile generalizzare un rapporto utilizzando caratteri jolly anziché informazioni specifiche durante la creazione di determinati elementi di reporting. Ad esempio, se si desidera creare un report che mostri le attività assegnate a un utente specifico, è possibile utilizzare il nome dell&#39;utente nel campo Assegnato a del filtro. Tuttavia, se si desidera creare un report che mostra le attività assegnate all&#39;utente connesso, indipendentemente dall&#39;utente, è possibile utilizzare un carattere jolly che indichi che quando un utente visualizza il report, vengono visualizzate solo le informazioni che lo riguardano. In questo modo, il rapporto verrà generato una sola volta, ma poiché si utilizza un carattere jolly nel filtro, si otterranno risultati diversi ogni volta che verrà letto da un altro utente.
 
@@ -24,6 +26,8 @@ Puoi utilizzare caratteri jolly basati sugli utenti per creare i seguenti elemen
 * Visualizzazioni durante l’aggiunta di regole per le colonne
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -37,20 +41,31 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licenza Adobe Workfront*</strong></td> 
-   <td> <p>Piano </p> </td> 
+   <td> 
+      <p>Nuovo:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Corrente:</p>
+         <ul>
+         <li><p>Piano</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
-   <td> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> <p>Modificare l’accesso a Rapporti, Dashboard e Calendari per modificare gli elementi di reporting in un rapporto</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> <p>Modificare l’accesso a Rapporti, Dashboard e Calendari per modificare gli elementi di reporting in un rapporto</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Gestire le autorizzazioni per un report per modificare gli elementi di reporting in un report</p> <p>Gestire le autorizzazioni per una visualizzazione o un filtro per modificarle</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un report per modificare gli elementi di reporting in un report</p> <p>Gestire le autorizzazioni per una visualizzazione o un filtro per modificarle</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisiti
 

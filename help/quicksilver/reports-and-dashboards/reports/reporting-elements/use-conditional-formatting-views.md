@@ -6,16 +6,16 @@ description: Quando condividi i tuoi rapporti con altri utenti in Adobe Workfron
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1162'
 ht-degree: 3%
 
 ---
 
 # Utilizzare la formattazione condizionale nelle visualizzazioni
 
-<!--Audited: 01/2024-->
+<!-- Audited: 11/2024 -->
 
 Quando condividi i tuoi rapporti con altri utenti in Adobe Workfront, prendi in considerazione la possibilità di personalizzare la visualizzazione dei rapporti per semplificare la lettura di determinate informazioni o distinguerti facilmente.
 
@@ -54,24 +54,23 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>Nuovo:</p> 
    <ul><li>Standard per le visualizzazioni di report</li>
   <li> Collaboratore o versione successiva per le visualizzazioni elenco</li></ul>
-
-<p>Corrente:</p>
+   <p>Corrente:</p>
    <ul>
     <li> Pianificare le visualizzazioni dei rapporti </li>
     <li> Richiedi o superiore per le visualizzazioni elenco </li> </ul></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
-   <td> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare una visualizzazione in un rapporto</p> <p><b>NOTA</b></p> <p>Se non disponi dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare una visualizzazione in un rapporto</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Gestire le autorizzazioni per un report per creare o modificare una visualizzazione in un report</p> <p>Gestire le autorizzazioni per una visualizzazione</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un report per creare o modificare una visualizzazione in un report</p> <p>Gestire le autorizzazioni per una visualizzazione</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -4,22 +4,24 @@ description: Modifica raggruppamenti esistenti
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bd9e6794-3196-4a73-a86a-9ba6048e613b
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
 
 # Modifica raggruppamenti esistenti
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This is the third part of a former artcle split in 3: two how-tos and one refernece article about creating and customizing groupings)</p>
--->
+<!-- Audited: 11/2024 -->
+
+<!--NOTE: This is the third part of a former article split in 3: two how-tos and one reference article about creating and customizing groupings)-->
 
 Puoi personalizzare un raggruppamento esistente che hai creato originariamente o che è stato condiviso con te. Quindi puoi salvarlo come nuovo raggruppamento.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -33,20 +35,31 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licenza Adobe Workfront*</strong></td> 
-   <td> <p>Richiedi o superiore </p> </td> 
+   <td> 
+      <p>Nuovo:</p>
+         <ul>
+         <li><p>Collaboratore o versione successiva</p></li>
+         </ul>
+      <p>Corrente:</p>
+         <ul>
+         <li><p>Richiedi o superiore</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
-   <td> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un raggruppamento in un rapporto</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un raggruppamento in un rapporto</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Gestire le autorizzazioni per un report per modificare un raggruppamento in un report</p> <p>Gestire le autorizzazioni per un raggruppamento </p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un report per modificare un raggruppamento in un report</p> <p>Gestire le autorizzazioni per un raggruppamento</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisiti
 
@@ -58,7 +71,7 @@ Per informazioni sulla creazione di un raggruppamento, vedere [Creare raggruppam
 
 1. Passare a un elenco di oggetti contenente il raggruppamento che si desidera personalizzare.
 1. Fai clic sull&#39;icona **Raggruppamento**.
-1. Seleziona il raggruppamento da personalizzare, quindi fai clic sull&#39;icona **Modifica**.
+1. Seleziona il raggruppamento da personalizzare, quindi fai clic sull&#39;icona **Modifica** ![Modifica icona](assets/edit-icon.png).
 
    ![Selezionare l&#39;icona di modifica.](assets/customizegrouping-nwe-standard-350x291.png)
 
@@ -83,4 +96,4 @@ Per informazioni sulla creazione di un raggruppamento, vedere [Creare raggruppam
 1. Ripeti i passaggi 4, 5 e 6 per definire raggruppamenti aggiuntivi.\
    È possibile definire fino a tre raggruppamenti per organizzare le informazioni. È possibile organizzare ulteriormente le informazioni con un massimo di quattro raggruppamenti creando un rapporto matrice. Per ulteriori informazioni sui report matrice, vedere [Creare un report matrice](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-1. Fai clic su **Salva come nuovo raggruppamento** per sostituire il raggruppamento corrente con le modifiche.
+1. Fai clic su **Salva raggruppamento** per sostituire il raggruppamento corrente con le modifiche.

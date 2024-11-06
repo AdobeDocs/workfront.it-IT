@@ -7,7 +7,7 @@ description: In Adobe Workfront è possibile utilizzare i filtri per ridurre la 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
 source-wordcount: '1821'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # Panoramica sui filtri
 
-<!-- Audited: 01/2024 -->
+<!-- Audited: 11/2024 -->
 
 In Adobe Workfront è possibile utilizzare i filtri per ridurre la quantità di informazioni visualizzate sullo schermo in elenchi, rapporti o altre aree.
 
@@ -71,13 +71,16 @@ Per ulteriori informazioni sui filtri negli elenchi e nei rapporti, consulta i s
 
 Puoi utilizzare filtri incorporati o creare filtri personalizzati nelle seguenti aree di Workfront:
 
-* Pagina Home\
+* Pagina Home
+
   Per informazioni, vedere [Visualizzare gli elementi nell&#39;elenco di lavoro nell&#39;area Home](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+
 * Area Richieste. Non è possibile personalizzare i filtri nell’area Richieste.
 
   Per informazioni, vedere [Individuare le richieste inviate](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-* Pianificazione risorse\
+* Pianificazione risorse
+
   Per informazioni, vedere l&#39;articolo [Informazioni filtro nella Programmazione delle risorse](../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 * Rapporto utilizzo
@@ -104,9 +107,7 @@ Puoi utilizzare filtri incorporati o creare filtri personalizzati nelle seguenti
   >
   >Non è possibile personalizzare i filtri nella Pianificazione scenario.
 
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the tip above: this might change with the beta filters??)</p>
-  -->
+  <!--(NOTE: the tip above: this might change with the beta filters??)-->
 
   È possibile utilizzare filtri incorporati per piani, iniziative o progetti e personalizzare i filtri dei progetti nella Pianificazione scenario.
 

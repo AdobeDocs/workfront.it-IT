@@ -6,14 +6,16 @@ description: È possibile personalizzare il tipo di informazioni visualizzate su
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '1788'
+source-wordcount: '1718'
 ht-degree: 1%
 
 ---
 
 # Creare o modificare viste in Adobe Workfront
+
+<!-- Audited: 11/2024 -->
 
 È possibile personalizzare il tipo di informazioni visualizzate sullo schermo utilizzando le viste. In Adobe Workfront è possibile utilizzare diversi tipi di visualizzazioni.
 
@@ -30,25 +32,36 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Piano Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>piano Adobe Workfront</strong></td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licenza Adobe Workfront*</strong></td> 
-   <td> <p>Richiedi o superiore</p> </td> 
+   <td> 
+      <p>Nuovo:</p>
+         <ul>
+         <li><p>Collaboratore o versione successiva</p></li>
+         </ul>
+      <p>Corrente:</p>
+         <ul>
+         <li><p>Richiedi o superiore</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
-   <td> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> <p>Modifica l’accesso a Rapporti, Dashboard, Calendari per creare una visualizzazione in un rapporto</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> <p>Modifica l’accesso a Rapporti, Dashboard, Calendari per creare una visualizzazione in un rapporto</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Gestire le autorizzazioni per un report per creare o modificare una visualizzazione in un report</p> <p>Gestire le autorizzazioni per una visualizzazione per modificarla</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td role="rowheader"><strong>Autorizzazioni oggetto*</strong></td> 
+   <td> <p>Gestire le autorizzazioni per un report per creare o modificare una visualizzazione in un report</p> <p>Gestire le autorizzazioni per una visualizzazione per modificarla</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,10 +77,11 @@ Il processo di creazione o personalizzazione di una vista varia a seconda che si
 Potete creare una nuova vista standard oppure personalizzare una vista standard esistente creata in precedenza.
 
 1. Fare clic sul menu a discesa **Visualizza** in qualsiasi elenco in cui si desidera creare o personalizzare una visualizzazione.
-1. (Facoltativo) Per personalizzare una vista esistente, selezionate la vista standard da personalizzare.\
-   Le visualizzazioni standard sono disponibili in qualsiasi tipo di elenco in Workfront, ad esempio un report, un elenco di progetti o un elenco di attività.
-1. Fai clic sul menu a discesa **Visualizza**, quindi fai clic su **Personalizza visualizzazione** o **Nuova visualizzazione**.\
-   Viene visualizzata la finestra di dialogo **Personalizza visualizzazione**.
+
+1. Fare clic sul pulsante **+ Nuova visualizzazione** per creare una nuova visualizzazione.
+Oppure
+Fai clic sull&#39;icona **Modifica** ![Modifica](assets/edit-icon.png) visualizzata al passaggio del mouse a destra di una visualizzazione esistente che desideri modificare.
+Viene visualizzata la finestra di dialogo **Personalizza visualizzazione**.
 
 1. Nella sezione **Anteprima colonna** eseguire una delle operazioni seguenti:
 
@@ -85,7 +99,6 @@ Potete creare una nuova vista standard oppure personalizzare una vista standard 
 
          * Conta
          * SOMMA
-
          * Media
          * Massimo
          * Minimo
@@ -122,7 +135,7 @@ Potete creare una nuova vista standard oppure personalizzare una vista standard 
           </tr> 
           <tr> 
            <td role="rowheader"><strong>Regole colonna</strong></td> 
-           <td><p>Fai clic su <strong>Aggiungi una regola per questa colonna</strong> per definire una regola per la colonna. Dopo aver aggiunto una regola, è possibile definire stili di campo e di testo per la visualizzazione dei campi corrispondenti alla regola. Fai clic su <strong>Aggiungi regola</strong> dopo aver completato la definizione della regola.</p></td> 
+           <td><p>Fare clic su <strong>+ Aggiungi una regola per questa colonna</strong> per definire una regola per la colonna. Dopo aver aggiunto una regola, è possibile definire stili di campo e di testo per la visualizzazione dei campi corrispondenti alla regola. Fai clic su <strong>Aggiungi regola</strong> dopo aver completato la definizione della regola.</p></td> 
           </tr> 
          </tbody> 
         </table>
@@ -235,7 +248,7 @@ Per creare o personalizzare una visualizzazione Agile:
     </tbody> 
    </table>
 
-1. Nella sezione **Agile**, nell&#39;area **Campi aggiuntivi**, fare clic su **Aggiungi campo**, quindi selezionare il campo che si desidera aggiungere alle schede delle storie. Si tratta degli stessi campi che è possibile aggiungere quando si crea una visualizzazione personalizzata o si creano colonne per un report.\
+1. Nell&#39;area **Campi aggiuntivi**, fare clic su **Aggiungi campo**, quindi selezionare il campo che si desidera aggiungere alle schede delle storie. Si tratta degli stessi campi che è possibile aggiungere quando si crea una visualizzazione personalizzata o si creano colonne per un report.\
    Ripetete questa procedura per aggiungere fino a tre campi aggiuntivi alle schede delle storie.\
    Quando si aggiungono campi alle schede delle storie, i campi sono di sola visualizzazione e vengono visualizzati solo quando il campo è popolato.
 

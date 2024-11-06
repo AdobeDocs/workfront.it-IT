@@ -6,7 +6,7 @@ description: Puoi applicare la vista Milestone (Attività cardine) a un elenco o
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
 source-wordcount: '1302'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Utilizzare la vista Milestone
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 Puoi applicare la vista Milestone (Attività cardine) a un elenco o a un rapporto di progetto.
 
@@ -42,8 +42,15 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   <tr> 
    <td role="rowheader"><strong>Licenza Adobe Workfront</strong></td> 
    <td> 
-   <p>Nuovo: Standard</p>
-   <p>Corrente: Lavoro o versione successiva </p> </td> 
+      <p>Nuovo:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Corrente:</p>
+         <ul>
+         <li><p>Lavoro o superiore</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 

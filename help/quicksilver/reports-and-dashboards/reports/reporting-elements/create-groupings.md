@@ -6,24 +6,26 @@ description: Puoi creare un raggruppamento personalizzato da zero o personalizza
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 64cc52b7-d97b-4b41-9101-530e7db2d26e
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
 
 # Creare raggruppamenti in Adobe Workfront
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This is a third part of an article split in 3 about creating and customizing groupings (2 how-tos and one reference) </p>
--->
+<!-- Audited: 11/2024 -->
+
+<!--(NOTE: This is a third part of an article split in 3 about creating and customizing groupings (2 how-tos and one reference)-->
 
 I risultati di un report o di un elenco possono essere organizzati con un raggruppamento. I raggruppamenti categorizzano le informazioni in base a una particolare informazione.
 
 Puoi creare un raggruppamento personalizzato da zero o personalizzarne uno esistente. Per creare un raggruppamento da zero, segui la procedura riportata di seguito.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -37,20 +39,31 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licenza Adobe Workfront*</strong></td> 
-   <td> <p>Richiedi o superiore </p> </td> 
+   <td> 
+      <p>Nuovo:</p>
+         <ul>
+         <li><p>Collaboratore o versione successiva</p></li>
+         </ul>
+      <p>Corrente:</p>
+         <ul>
+         <li><p>Richiedi o superiore</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
-   <td> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per creare un raggruppamento in un rapporto</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per creare un raggruppamento in un rapporto</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Gestire le autorizzazioni per un report per modificare un raggruppamento in un report</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td><p>Gestire le autorizzazioni per un report per modificare un raggruppamento in un report</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Creare un raggruppamento
 
@@ -59,10 +72,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    ![Seleziona nuovo raggruppamento](assets/newgrouping-nwe-standard-350x304.png)
 
-1. Fare clic su **Nuovo raggruppamento**.
+1. Fare clic su **+ Nuovo raggruppamento**.
 Il generatore di interfacce per la creazione dei lanci di raggruppamento.
 
-1. Nella sezione **Anteprima raggruppamento** fare clic su **Aggiungi raggruppamento** per definire la modalità di organizzazione delle informazioni nel report. Di seguito è riportata un’anteprima dell’aspetto del raggruppamento nel rapporto.
+1. Nell&#39;area **Anteprima raggruppamento** fare clic su **Aggiungi raggruppamento** per definire la modalità di organizzazione delle informazioni nel report. Di seguito è riportata un’anteprima dell’aspetto del raggruppamento nel rapporto.
 
 1. Iniziare a digitare il nome del campo che rappresenta la modalità di organizzazione delle informazioni nel report, quindi fare clic su di esso quando viene visualizzato nell&#39;elenco a discesa.
 1. (Facoltativo e condizionale) Quando crei un raggruppamento in un elenco aggiornato, seleziona **Comprimi questo raggruppamento per impostazione predefinita** se desideri che i risultati del raggruppamento vengano visualizzati compressi anziché espansi. Questa impostazione è disabilitata per impostazione predefinita e i risultati del raggruppamento vengono sempre visualizzati nell&#39;elenco espanso.

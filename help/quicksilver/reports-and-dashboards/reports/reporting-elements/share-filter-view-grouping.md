@@ -6,21 +6,19 @@ description: Puoi condividere filtri, viste e raggruppamenti a cui hai accesso p
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '1211'
+source-wordcount: '1178'
 ht-degree: 1%
 
 ---
 
 # Condividere un filtro, una visualizzazione o un raggruppamento
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE: CONSIDER SPLITTING THIS in three articles for each reporting element?)</p>
-<p>(NOTE: This is linked from the TOC article in WF Basics > permissions section)&nbsp;</p>
-</div>
--->
+<!-- Audited: 11/2024 -->
+
+<!--(NOTE: CONSIDER SPLITTING THIS in three articles for each reporting element?)
+(NOTE: This is linked from the TOC article in WF Basics > permissions section)-->
 
 L’amministratore di Adobe Workfront consente agli utenti di visualizzare o modificare gli oggetti quando assegnano i livelli di accesso. Per ulteriori informazioni sulla concessione dell&#39;accesso agli oggetti, vedere [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -38,7 +36,9 @@ Per informazioni su come creare un filtro, una visualizzazione o un raggruppamen
 
 ## Requisiti di accesso
 
-Devi avere i seguenti:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -50,26 +50,35 @@ Devi avere i seguenti:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licenza Adobe Workfront*</strong></td> 
-   <td> <p>Richiedi o superiore</p> </td> 
+   <td> 
+      <p>Nuovo:</p>
+         <ul>
+         <li><p>Collaboratore o versione successiva</p></li>
+         </ul>
+      <p>Corrente:</p>
+         <ul>
+         <li><p>Richiedi o superiore</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
-   <td> <p>Accesso di visualizzazione o superiore a filtri, visualizzazioni, raggruppamenti</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <p>Accesso di visualizzazione o superiore a filtri, visualizzazioni, raggruppamenti</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Autorizzazioni di visualizzazione o di livello superiore con accesso alla condivisione di una visualizzazione, un filtro o un raggruppamento</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td><p>Autorizzazioni di visualizzazione o di livello superiore con accesso alla condivisione di una visualizzazione, un filtro o un raggruppamento</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Condividere un filtro, una visualizzazione o un raggruppamento
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when the beta filters/ groupings come out either consider splitting this in different kinds of FVGs or splitting this article in FVGs for showing sharing on each one of them??)</p>
--->
+<!--(NOTE: when the beta filters/ groupings come out either consider splitting this in different kinds of FVGs or splitting this article in FVGs for showing sharing on each one of them??)-->
 
 La condivisione di filtri negli elenchi di selezione varia a seconda dell’interfaccia utilizzata per condividere il filtro da: standard o legacy. Per informazioni sui tipi di interfacce per la creazione di filtri, vedere [Creare o modificare filtri in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 

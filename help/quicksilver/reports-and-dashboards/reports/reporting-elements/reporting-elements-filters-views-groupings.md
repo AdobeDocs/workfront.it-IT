@@ -6,24 +6,22 @@ description: Gli elementi principali di ogni elenco e rapporto in Workfront sono
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5697905e-42c0-403b-85d4-798a1a3a2e7f
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '838'
 ht-degree: 0%
 
 ---
 
 # Elementi di reporting: filtri, viste e raggruppamenti
 
-<!--
-<div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>AL: Add information here about all the different kinds of FVGs: in reports, in lists, beta, etc // OR: this article should be a high-level overview of reporting elements. Then, each type of element should have:</p>
+<!-- Audited: 11/2024 -->
+
+<!--AL: Add information here about all the different kinds of FVGs: in reports, in lists, beta, etc // OR: this article should be a high-level overview of reporting elements. Then, each type of element should have:</p>
 <p>- overview for Filters</p>
 <p>- create a filter</p>
 <p>- share a filter</p>
-<p>ALL in Reporting elements but the Shared ones should be linked to Basics> Sharing; some of the articles in the Basics> Navigation> Use lists might beed to link here as well</p>
-</div>
--->
+<p>ALL in Reporting elements but the Shared ones should be linked to Basics> Sharing; some of the articles in the Basics> Navigation> Use lists might beed to link here as well-->
 
 In Adobe Workfront sono disponibili diversi elementi che rendono possibile la creazione di un elenco o di un rapporto. Gli elementi principali di ogni elenco e report sono un filtro, una visualizzazione e un raggruppamento. Ogni elemento fornisce informazioni diverse all’interno di qualsiasi rapporto.
 
@@ -56,11 +54,10 @@ Alcuni attributi dei filtri sono:
 
   Per ulteriori informazioni sui filtri, vedere l&#39;articolo [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-![Icona filtro](assets/projects-list-with-filter-drop-down-highlighted-nwe.png)
-
 ## Viste
 
-Definendo la visualizzazione di un rapporto, si definiscono le informazioni da includere nel rapporto. Come tutti gli elementi di reporting, le visualizzazioni si basano su un tipo di oggetto.\
+Definendo la visualizzazione di un rapporto, si definiscono le informazioni da includere nel rapporto. Come tutti gli elementi di reporting, le visualizzazioni si basano su un tipo di oggetto.
+
 Ad esempio, una visualizzazione per un report attività potrebbe mostrare le Date di scadenza, includere dettagli finanziari chiave come il Costo o essere utilizzata per mostrare le assegnazioni e i dettagli della Data di consegna. Le visualizzazioni possono essere utilizzate per fornire una varietà di dettagli sui dati nel rapporto.
 
 Alcuni attributi delle viste sono:

@@ -6,20 +6,24 @@ description: È possibile rimuovere un filtro, una visualizzazione o un raggrupp
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '809'
 ht-degree: 1%
 
 ---
 
 # Rimuovere filtri, visualizzazioni e raggruppamenti
 
+<!-- Audited: 11/2024 -->
+
 È possibile rimuovere un filtro, una visualizzazione o un raggruppamento da elenchi e report se sono stati creati o condivisi con l&#39;utente. Non è possibile rimuovere filtri, viste o raggruppamenti predefiniti.
 
 ## Requisiti di accesso
 
-Devi avere i seguenti:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,20 +37,32 @@ Devi avere i seguenti:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licenza Adobe Workfront*</strong></td> 
-   <td> <p>Richiedi o superiore</p> </td> 
+   <td> 
+      <p>Nuovo:</p>
+         <ul>
+         <li><p>Collaboratore o versione successiva</p></li>
+         </ul>
+      <p>Corrente:</p>
+         <ul>
+         <li><p>Richiedi o superiore</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
-   <td> <p>Accesso di visualizzazione o superiore a filtri, visualizzazioni, raggruppamenti</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td><p>Accesso di visualizzazione o superiore a filtri, visualizzazioni, raggruppamenti</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Visualizzare le autorizzazioni con accesso per condividere il filtro, la visualizzazione o il raggruppamento che si desidera rimuovere</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td><p>Visualizzare le autorizzazioni con accesso per condividere il filtro, la visualizzazione o il raggruppamento che si desidera rimuovere</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Rimuovere o eliminare un filtro mediante il generatore standard
 
@@ -69,9 +85,6 @@ Quando rimuovi o elimini un filtro con il generatore standard esistono gli scena
 1. Consente di accedere a un elenco di progetti, attività, problemi, portafogli, programmi, utenti, modelli o gruppi.
 1. Fai clic sull&#39;icona **Filtro** ![Icona Filtro](assets/filter-nwepng.png).
 1. Passa il puntatore del mouse su un filtro in **Condiviso con me**, fai clic sul menu **Altro** ![Altro](assets/more-icon-spectrum.png), quindi fai clic su **Rimuovi**.
-
-   ![Rimuovi filtro](assets/new-filters-more-menu-remove-filter.png)
-
 1. Selezionare **Rimuovi** nel messaggio di conferma per rimuovere definitivamente il filtro.
 
 ### Eliminare un filtro con il generatore standard

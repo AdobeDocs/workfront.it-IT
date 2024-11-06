@@ -6,16 +6,16 @@ description: È possibile limitare la quantità di informazioni visualizzate sul
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '2461'
+source-wordcount: '2419'
 ht-degree: 1%
 
 ---
 
 # Creare o modificare filtri in Adobe Workfront
 
-<!--Audited: 12/2023-->
+<!-- Audited: 11/2024 -->
 
 È possibile limitare la quantità di informazioni visualizzate sullo schermo in un elenco di elementi con un filtro. È possibile definire determinati criteri in base a informazioni specifiche relative a un oggetto e visualizzare solo gli oggetti che soddisfano tali criteri.
 
@@ -47,42 +47,36 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licenza Adobe Workfront*</strong></td> 
-   <td> <p>Nuovo: Collaboratore o versione successiva</p>
-
-Oppure
-
-<p>Corrente: richiesta o successiva</p>
-
-<p><b>NOTA:</b></p>
-
-Per modificare un filtro in un rapporto, è necessario disporre della seguente licenza:
-
-<p>Nuovo: Standard</p>
-
-Oppure
-
-<p>Corrente: Piano</p>
-
-</td> 
+   <td> 
+      <p>Nuovo:</p>
+         <ul>
+         <li><p>Collaboratore per modificare un filtro</p></li>
+         <li><p>Standard per modificare un filtro in un rapporto</p></li>
+         </ul>
+      <p>Corrente:</p>
+         <ul>
+         <li><p>Richiesta di modifica di un filtro</p></li>
+         <li><p>Pianificare la modifica di un filtro in un rapporto</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
    <td> <ul><li><p>Modificare l’accesso a Filtri, Viste e Raggruppamenti</p></li></ul>
-    <p><b>NOTA:</b></p>
-   Per modificare un filtro in un rapporto, è necessario disporre della seguente configurazione del livello di accesso, oltre all’accesso di modifica a filtri, viste e raggruppamenti:
 
-<ul><li><p>Modificare l’accesso a rapporti, dashboard e calendari</p></li></ul>
+Per modificare un filtro in un rapporto, è necessario disporre della seguente configurazione del livello di accesso, oltre all’accesso di modifica a filtri, viste e raggruppamenti:
 
-<p><b>NOTA:</b></p> <p> Se non disponi dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+<ul><li><p>Modificare l’accesso a rapporti, dashboard e calendari</p></li></ul>   
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Gestire le autorizzazioni per un filtro</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td role="rowheader"><strong>Autorizzazioni oggetto*</strong></td> 
+   <td> <p>Gestire le autorizzazioni per un filtro</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -369,19 +363,17 @@ Puoi creare filtri legacy negli elenchi e nei rapporti nei seguenti modi:
 Indipendentemente dal metodo utilizzato per creare i filtri, la creazione di un filtro da zero o da un filtro esistente è simile.
 
 1. Passare a un elenco o a un report contenente il filtro che si desidera personalizzare.
-1. Fai clic sull&#39;icona **Filtro** ![Icona Filtro](assets/filter-nwepng.png).
+1. Fai clic sull&#39;icona **Filtro** ![Icona Filtro](assets/filter-nwepng.png), quindi fai clic sull&#39;icona **Altro** ![Icona Altro](assets/more-icon.png) e fai clic su **Torna ai filtri legacy**.
 
    >[!TIP]
    >
    >Il creatore del report deve consentire la modifica dei filtri per visualizzare l’elenco a discesa Filtro in un report. Il filtro Report predefinito viene applicato a un report per impostazione predefinita. Il filtro Report predefinito può essere personalizzato solo quando si modifica il report.
 
-   ![Elenco a discesa dei filtri](assets/filter-drop-down-expanded-nwe.png)
-
-1. Fai clic su **Nuovo filtro** nella parte superiore dell&#39;elenco dei filtri.
+1. Fare clic su **+ Nuovo filtro** nella parte superiore dell&#39;elenco dei filtri.
 
    Oppure
 
-   Passa il puntatore del mouse sul filtro che desideri modificare e fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png).
+   Passa il puntatore del mouse sul filtro che desideri modificare e fai clic sull&#39;icona **Modifica** ![Icona Modifica](assets/edit-icon.png).
 
    Il generatore per personalizzare i lanci del filtro.
 
@@ -423,7 +415,7 @@ Indipendentemente dal metodo utilizzato per creare i filtri, la creazione di un 
 
    Oppure
 
-   Fare clic su **Salva come nuovo filtro** per creare un filtro da quello selezionato.
+   Fare clic su **Salva come nuovo filtro** per creare un nuovo filtro da quello selezionato.
 
    Il nuovo filtro viene visualizzato nell’elenco dei filtri e viene applicato automaticamente all’elenco o al report selezionato.
 

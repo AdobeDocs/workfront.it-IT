@@ -7,18 +7,18 @@ description: È possibile aggiungere raggruppamenti per gestire il layout delle 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: d050372e-c4a0-4c49-b220-5b35334ab8d0
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
 
 # Panoramica sui raggruppamenti in Adobe Workfront
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This article was supposed to be replaced by "Groupings overview", but decided to keep this here because this is linked in too many places. "Create groupings" and "Edit existing groupings" have been added also (with videos) to replace portions of the old content here.) </p>
--->
+<!-- Audited: 11/2024 -->
+
+<!--(NOTE: This article was supposed to be replaced by "Groupings overview", but decided to keep this here because this is linked in too many places. "Create groupings" and "Edit existing groupings" have been added also (with videos) to replace portions of the old content here.)-->
 
 È possibile aggiungere raggruppamenti per gestire il layout delle informazioni nei report e negli elenchi.
 
@@ -32,13 +32,13 @@ ht-degree: 0%
 
   Per informazioni sulla creazione di un raggruppamento da zero, vedere [Creare raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).
 
-Per impostazione predefinita, i raggruppamenti sono evidenziati in grigio o blu nel rapporto o nell’elenco. I risultati del report o dell&#39;elenco sono elencati nel relativo raggruppamento, senza evidenziarli.
+Per impostazione predefinita, i raggruppamenti sono evidenziati in grigio nel report o nell’elenco. I risultati del report o dell&#39;elenco sono elencati nel relativo raggruppamento, senza evidenziarli.
+
+![Esempio di raggruppamenti](assets/grouping-example-blue.png)
 
 Puoi aggiungere fino a tre raggruppamenti a un rapporto. È possibile organizzare le informazioni con un massimo di quattro raggruppamenti creando un rapporto matrice. Per ulteriori informazioni sui report matrice, vedere [Creare un report matrice](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-In un report di raggruppamenti standard, il primo raggruppamento è un colore più scuro, il secondo e il terzo raggruppamento sono più chiari. Non è possibile personalizzare il colore dell&#39;evidenziazione per il raggruppamento o il tipo di carattere del nome del raggruppamento. Il numero tra parentesi che segue il nome del raggruppamento rappresenta il numero di risultati del raggruppamento. Se il report si estende su più pagine, assicurati di visualizzare *Tutti* i risultati nel report o nell&#39;elenco per ottenere un conteggio accurato dei risultati in ogni raggruppamento.
-
-![Raggruppamento di esempio](assets/grouping-example-blue.png)
+Il numero tra parentesi che segue il nome del raggruppamento rappresenta il numero di risultati del raggruppamento. Se il report si estende su più pagine, assicurati di visualizzare *Tutti* i risultati nel report o nell&#39;elenco per ottenere un conteggio accurato dei risultati in ogni raggruppamento.
 
 Quando si lavora con i raggruppamenti, considera quanto segue:
 
