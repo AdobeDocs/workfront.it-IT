@@ -5,10 +5,10 @@ description: Puoi fissare il tuo lavoro più importante [!DNL Adobe Workfront] p
 feature: Get Started with Workfront
 author: Nolan
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
+source-git-commit: b42028c7f4934d7d2538e078372dd32262232729
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 1%
+source-wordcount: '413'
+ht-degree: 0%
 
 ---
 
@@ -70,33 +70,32 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 È possibile modificare il nome di una pagina bloccata in modo da renderlo più significativo.
 
 1. Passa il puntatore del mouse sulla pagina bloccata nella navigazione superiore o sul **[!UICONTROL menu Altro]**.
-1. Fare clic sulla freccia accanto al nome del pin e selezionare **[!UICONTROL Rinomina pin]**.
+1. Fare clic sull&#39;icona Altro ![](assets/more-icon.png) accanto al nome del pin e selezionare **[!UICONTROL Rinomina pin]**.
 
-   ![Rinomina pin](assets/rename-remove-pin.png)
+   ![Rinomina pin](assets/pin-menu.png)
 
-1. Digita il nuovo nome del pin e fai clic sull’icona del segno di spunta o premi Invio.
+1. Digitare il nuovo nome del pin e fare clic su **Salva**.
 
-   ![Fare clic sul segno di spunta per rinominare il pin](assets/rename-pin-click-checkmark.png)
+   ![Fare clic sul segno di spunta per rinominare il pin](assets/new-pin-name.png)
 
-   Una piccola finestra pop-up appare per diversi secondi dopo aver fatto clic sul segno di spunta o aver premuto Invio, consentendo di annullare la modifica del nome del pin prima che venga salvato.
 
 ## Riordinare le pagine bloccate
 
 È possibile modificare l&#39;ordine di visualizzazione delle pagine bloccate.
 
-1. Passa il puntatore del mouse sulla pagina bloccata nella navigazione superiore o sul **[!UICONTROL menu Altro]**. Quando viene visualizzato il cursore mano, fare clic e trascinare il pin nell&#39;ordine desiderato.
+1. Passa il puntatore del mouse sulla pagina bloccata da spostare, quindi fai clic sull&#39;icona **Altro**.
+1. Scegli **Sposta a sinistra** o **Sposta a destra** per spostare il pin.
+1. (Facoltativo) Scegli **Sposta in primo piano** per spostare il pin all&#39;estrema destra della barra del pin.
+
+   ![sposta pin](assets/pin-menu.png)
 
    Le modifiche vengono salvate automaticamente e memorizzate al successivo accesso a Workfront.
 
 ## Rimuovere una pagina bloccata
 
-1. Fare clic sulla pagina bloccata che si desidera sbloccare.
-1. Fai clic su **[!UICONTROL Rimuovi puntina dalla pagina corrente]** nella parte superiore dello schermo.
+1. Fare clic sull&#39;icona Altro ![](assets/more-icon.png) accanto al pin che si desidera rimuovere.
+1. Fare clic su **Rimuovi pin**.
 
-   Oppure
-
-   Fare clic sulla freccia accanto al nome del pin e selezionare **[!UICONTROL Rimuovi pin]**.
-
-   ![Rimuovi pin](assets/rename-remove-pin.png)
+   ![Rimuovi pin](assets/pin-menu.png)
 
    La pagina non è più accessibile dalla parte superiore di alcuna pagina in [!DNL Workfront].

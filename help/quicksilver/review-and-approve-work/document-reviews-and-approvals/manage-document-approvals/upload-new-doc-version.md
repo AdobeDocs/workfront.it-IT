@@ -5,9 +5,9 @@ title: Carica una nuova versione del documento e richiedi un’approvazione
 description: Puoi caricare una nuova versione del documento e richiedere l’approvazione di altri utenti in Adobe Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 66aa4c29743c031b1aff3b67364ff95f2b810ef8
+source-git-commit: cf2a6353df0ea0e3e1c473092dab5f263a98a2fd
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Se un documento contrassegnato richiede un lavoro in una revisione precedente, puoi caricare una nuova versione nel documento originale e avviare un altro ciclo di approvazioni.
 
 Se il nome del file della nuova versione è diverso da quello della versione precedente, Workfront visualizza il documento con il nome più recente.
+
+Quando si aggiunge una nuova versione a un documento con approvazioni in sospeso, l&#39;approvazione della versione precedente viene visualizzata come Ritirata. Il precedente processo di approvazione si chiude, anche se alcuni partecipanti non hanno ancora preso una decisione.
 
 ## Requisiti di accesso
 
