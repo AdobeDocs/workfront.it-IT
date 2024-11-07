@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
+source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,6 @@ ht-degree: 0%
 >
 >Per un elenco completo dei requisiti per accedere a Workfront Planning, vedere [Panoramica dell&#39;accesso](/help/quicksilver/planning/access/access-overview.md).
 >Per una panoramica di Workfront Planning, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
->
 
 Questo articolo descrive le funzioni rilasciate per Workfront Planning durante la versione del primo trimestre 2025.
 
@@ -33,6 +32,24 @@ Questo articolo descrive le funzioni rilasciate per Workfront Planning durante l
 <!--remove the general activity mention after First Quarter 2025 is released-->
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning dopo il rilascio di disponibilità generale del 28 agosto 2024, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Nuovi tipi di visualizzazione per i campi di tipo percentuale nella visualizzazione Tabella
+
+>[!NOTE]
+>
+>Versione di anteprima: 7 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+
+Per semplificare la lettura dei numeri nella visualizzazione Tabella, è ora possibile scegliere tra le seguenti opzioni per modificare la modalità di visualizzazione di un campo di tipo Percentuale nella visualizzazione Tabella:
+
+* Numero
+* Barra
+* Cerchio
+
+Questo tipo di visualizzazione è supportato solo nella vista tabella.
+
+Prima di questo miglioramento, era possibile visualizzare i valori percentuali solo come numeri.
+
+Per ulteriori informazioni, vedere [Creare i campi](/help/quicksilver/planning/fields/create-fields.md).
 
 ## I campi di connessione sono ora supportati nei moduli di richiesta
 

@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 82d02cdb0f3f95b79b1cc921bd7e3bdf07daa293
+source-git-commit: 413099ef0ad1cb430e3d0cbdd8f613bd8f579a44
 workflow-type: tm+mt
-source-wordcount: '14554'
+source-wordcount: '14567'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,9 @@ ht-degree: 2%
       * Versione {#release-25-q1} del primo trimestre 2025
          * [Panoramica sulla versione del primo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
          * [Miglioramenti per gli amministratori del primo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md)<!--* [2025 Q1 Boards enhancements](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md)-->
+         * [Miglioramenti alla gestione dei documenti nel primo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md)
+         * [Miglioramenti Home del primo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md)
+         * [Miglioramenti alla bozza del primo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md)
          * [Altri miglioramenti durante il periodo di rilascio del primo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md)
          * [Aggiornamenti look-and-feel durante il periodo di rilascio del primo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md)
       * Versione {#release-24-q4} del quarto trimestre 2024

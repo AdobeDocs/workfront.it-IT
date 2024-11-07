@@ -6,16 +6,16 @@ description: Adobe Workfront dispone di un ampio elenco di rapporti incorporati 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
 workflow-type: tm+mt
-source-wordcount: '2951'
+source-wordcount: '2964'
 ht-degree: 10%
 
 ---
 
 # Utilizzare i rapporti incorporati di Adobe Workfront
 
-<!--Audited: 07/2024-->
+<!--Audited: 11/2024-->
 
 Adobe Workfront dispone di un ampio elenco di rapporti incorporati che puoi utilizzare.
 
@@ -27,6 +27,8 @@ Per ulteriori informazioni su come nascondere i report incorporati, vedere [Nasc
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -37,8 +39,16 @@ Per ulteriori informazioni su come nascondere i report incorporati, vedere [Nasc
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Nuovo: Collaboratore o versione successiva</p>  
-   <p>Corrente: richiesta o successiva</p> </td> 
+   <td> 
+      <p>Nuovo:</p>
+         <ul>
+         <li><p>Collaboratore o versione successiva</p></li>
+         </ul>
+      <p>Corrente:</p>
+         <ul>
+         <li><p>Richiedi o superiore</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
