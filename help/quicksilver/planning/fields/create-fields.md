@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
+source-git-commit: 092c94219e77ba3cef316f581646cb0b4488c5cd
 workflow-type: tm+mt
-source-wordcount: '3689'
+source-wordcount: '3847'
 ht-degree: 2%
 
 ---
@@ -383,21 +383,20 @@ I tipi di campo Percentuale acquisiscono le informazioni in un formato numerico 
 
      >[!NOTE]
      >
-     >    Se si seleziona Consenti numeri negativi e i valori negativi vengono memorizzati nei record a cui è associato il campo, non sarà più possibile deselezionare l&#39;impostazione in futuro.
+     >Se si seleziona Consenti numeri negativi e i valori negativi vengono memorizzati nei record a cui è associato il campo, non sarà più possibile deselezionare l&#39;impostazione in futuro.
 
-   <!--<div class="preview">  
+   <div class="preview">
 
-    * **Show as**: From the drop-down menu, choose how you want the percentage values to display in the table view. Select from the following options:
-        * **Number**: The percent value displays as a number followed by the percentage sign. 
-        * **Bar**: The percent value displays as a bar next to the percentage number. The fill color of the bar indicates the percent value. 
-        * **Circle**: The percent value displays as the outline of a circle next to the percentage number. The fill color of the circle's outline indicates the percent value.
+   * **Mostra come**: dal menu a discesa, scegliere come visualizzare i valori percentuali nella vista tabella. Selezionare una delle opzioni seguenti:
+      * **Numero**: il valore percentuale viene visualizzato come numero seguito dal segno percentuale.
+      * **Barra**: il valore percentuale viene visualizzato come una barra accanto al numero percentuale. Il colore di riempimento della barra indica il valore percentuale.
+      * **Cerchio**: il valore percentuale viene visualizzato come contorno di un cerchio accanto al numero percentuale. Il colore di riempimento del contorno del cerchio indica il valore percentuale.
 
-    >[!NOTE]
-    >
-    >* The selection you make in the Show as field only applies to the percentage value visible in the table view. The percent value of the field displays as a number followed by the percentage sign everywhere else in Workfront Planning. This also applies to the percentage-type field when it displays as a lookup field in other records' table views.
-    >* You can change the Show as selection when editing the field later. 
-    </div>-->
-
+   >[!NOTE]
+   >
+   >* La selezione effettuata nel campo Mostra come si applica solo al valore percentuale visibile nella vista tabella. Il valore percentuale del campo viene visualizzato come numero seguito dal segno di percentuale in qualsiasi altro punto di Workfront Planning. Ciò si applica anche al campo di tipo percentuale quando viene visualizzato come campo di ricerca nelle visualizzazioni tabella di altri record.
+   >* È possibile modificare la selezione di Mostra come quando si modifica il campo in un secondo momento.
+   </div>
 
 1. Fai clic su **Crea**.
 
