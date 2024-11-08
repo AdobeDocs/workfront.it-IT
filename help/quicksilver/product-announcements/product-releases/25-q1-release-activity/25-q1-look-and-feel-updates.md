@@ -4,9 +4,10 @@ description: Aggiornamenti look-and-feel durante l’intervallo di tempo del ril
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
+source-git-commit: 8fa0c5573008a625ae10af051eeabfb6a8519a01
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
@@ -49,19 +50,6 @@ Per informazioni sui tassi di cambio, vedere [Impostare i tassi di cambio](/help
 La pagina Esporta dati (Kick-Start) nell’area Configura è stata aggiornata con un design più moderno che è coerente con le altre aree di Workfront.
 
 Per informazioni, vedere [Esportare dati da Workfront tramite Kick-Start](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
-
-## Aggiornamenti diretti alla barra di navigazione di Workfront
-
->[!NOTE]
->
->Versione di produzione per tutti i clienti: prima della versione 24.11 (14 novembre 2024)
-
-Abbiamo aggiornato la barra di navigazione di Workfront per migliorarne le prestazioni. Le modifiche del look-and-feel sono minime.
-
-Le modifiche più evidenti sono le seguenti:
-
-* Le schermate a discesa Preferiti e Recenti non dispongono più di un pulsante di chiusura. È sufficiente fare clic lontano dallo schermo o premere ESC sulla tastiera per chiuderlo.
-* Non è più possibile trascinare e rilasciare le pagine bloccate per disporle. È invece disponibile un menu a discesa con pulsanti che consentono di spostare le pagine bloccate.
 
 ## Aggiornamento look-and-feel per finestra Invia aggiornamento all&#39;utente
 
