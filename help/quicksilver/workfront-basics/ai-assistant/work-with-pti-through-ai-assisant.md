@@ -4,9 +4,10 @@ content-type: reference
 description: È possibile riepilogare rapidamente gli elementi di lavoro e i documenti utilizzando la funzionalità Riepiloga.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 0eeee68c45003525b9593ce985729f7aa12189cf
+exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
+source-git-commit: e02fd7dc6f1655b69c0433465a51f4c53d486570
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -31,27 +32,29 @@ L’Assistente AI può aiutarti a individuare progetti, attività e problemi in 
 1. Visualizza la risposta nel pannello Assistente AI.
 1. (Facoltativo) Per passare all’elemento di lavoro, fai clic sul collegamento nel pannello Assistente IA.
 
-## Creare un elemento di lavoro
+<!--
 
-1. Fai clic sull&#39;icona **Assistente AI** ![Icona Assistente AI](assets/ai-assistant-icon.png) nell&#39;angolo superiore destro dello schermo.
-1. Immetti un prompt come
+## Create a work item
 
-   * Crea progetto &quot;Campagna primaverile&quot;
-   * Aggiungi il problema &quot;Bug interfaccia utente&quot; al progetto &quot;Nuova interfaccia utente&quot;
-   * Crea attività &quot;servizio fotografico&quot; nel progetto &quot;Campagna primaverile&quot;
+1. Click the **AI Assistant** icon ![AI Assistant icon](assets/ai-assistant-icon.png) near the upper-right corner of the screen.
+1. Enter a prompt such as 
 
-1. Controlla la risposta di AI Assistant per assicurarti che stia eseguendo l’azione desiderata
-1. (Condizionale) Se la risposta descrive l&#39;azione corretta, fare clic su **Sì**.
+   * Create project "Spring campaign"
+   * Add issue "UI Bug" to project "New UI" 
+   * Create "photoshoot" task in project "Spring campaign"
 
-   La creazione dell&#39;elemento può richiedere alcuni minuti, a seconda delle dimensioni o della complessità della richiesta e del numero di record da cercare.
-1. (Condizionale) Per annullare la creazione del nuovo elemento, fare clic su **No**.
-1. (Facoltativo) Per passare all’elemento di lavoro, fai clic sul collegamento nel pannello Assistente IA.
+1. Check the AI Assistant response to ensure that it is taking the desired action
+1. (Conditional) If the response describes the correct action, click **Yes**.
+
+   AI Assistant may take a few moments to create the item, depending on how large or complex the prompt is and how many records it needs to search.
+1. (Conditional) To cancel the creation of the new item, click **No**.
+1. (Optional) To go to the work item, click the link in the AI Assistant panel.
 
 >[!NOTE]
 >
->È consigliabile verificare che il nuovo elemento sia stato creato come previsto.
+>We recommend checking the new item to ensure that it was created as expected.
 
-
+-->
 
 <!--
 
