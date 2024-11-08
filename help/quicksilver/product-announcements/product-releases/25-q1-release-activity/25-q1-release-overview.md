@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: afcb79d0fe3274f2748da535e82f2248578805e7
+source-git-commit: 7ed4b36ef9297560ce9df6aa750b2ac24ac4a129
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '921'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuovo stato ritirato disponibile per le approvazioni delle versioni dei documenti</a></p>
-                <p>Quando si aggiunge una nuova versione a un documento con approvazioni in sospeso, le approvazioni della versione precedente vengono ora visualizzate come Ritirate. Il precedente processo di approvazione si chiude, anche se alcuni partecipanti non hanno ancora preso una decisione.</p>
+                <p>Quando si aggiunge una nuova versione a un documento con approvazioni in sospeso, l’approvazione per la versione precedente viene ora visualizzata come "Ritirata", a indicare che il processo di approvazione preventiva è stato chiuso a causa dell’aggiunta della nuova versione.</p>
             </td>
             <td><p><b>Disponibile in queste date:</b></p>
                 <ul>
