@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 523c2fe466b0afb8f65730ae8f2434f613e31439
+source-git-commit: edbd33cbb343f8c9f3ebd09ebb067444dd9efcf5
 workflow-type: tm+mt
-source-wordcount: '1666'
+source-wordcount: '1668'
 ht-degree: 11%
 
 ---
@@ -228,7 +228,7 @@ Gli utenti con una licenza Standard possono avere accesso completo ai rapporti. 
 | Modifica dettagli | ✓ | ✓ | ✓ |   |
 | Scarica | ✓ | ✓ | ✓ | ✓ |
 | Pagamento | ✓ | ✓ | ✓ |   |
-| Aggiungi approvatori | ✓ | ✓ | ✓ |   |
+| Aggiungi approvatori (documenti) | ✓ | ✓ | ✓ |   |
 | Approva documenti | ✓ | ✓ | ✓ | ✓ |
 | Allegare moduli personalizzati | ✓ | ✓ | ✓ |   |
 | Modifica campi personalizzati | ✓ | ✓ | ✓ |   |
@@ -238,8 +238,8 @@ Gli utenti con una licenza Standard possono avere accesso completo ai rapporti. 
 | Carica nuova versione | ✓ | ✓ | ✓ |   |
 | Eliminare una versione | ✓ | ✓ | ✓ |   |
 | Anteprima | ✓ | ✓ | ✓ | ✓ |
-| Bozza | ✓ | ✓ | ✓ | ✓ |
-| Genera bozza | ✓ |   |   |   |
+| Approvare le bozze | ✓ | ✓ | ✓ | ✓ |
+| Genera bozze | ✓ |   |   |   |
 | Rimuovi bozza | ✓ | ✓ | ✓ |   |
 | Aggiungi/Rimuovi&#42;&#42; | ✓ | ✓ | ✓ |   |
 | Rinomina&#42;&#42; | ✓ | ✓ | ✓ |   |
