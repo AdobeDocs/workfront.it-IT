@@ -7,9 +7,9 @@ description: I rapporti forniscono visibilità su ciò che sta accadendo con gli
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '3296'
+source-wordcount: '3293'
 ht-degree: 0%
 
 ---
@@ -325,7 +325,7 @@ I seguenti termini vengono utilizzati in riferimento ai rapporti di Workfront:
   </tr> 
   <tr> 
    <td>Campi</td> 
-   <td> <p>Si riferisce agli attributi degli oggetti. Ad esempio, "Stato" è un campo per Progetti, Attività o Problemi. "Gestione Portfoli" è un campo per l'oggetto Portfolio.</p> <p>È inoltre possibile creare e aggiungere campi personalizzati ai moduli personalizzati.<br>Per informazioni sulla creazione di moduli personalizzati, vedere l'articolo <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Progettare un modulo con il progettista del modulo</a>.</p> </td> 
+   <td> <p>Si riferisce agli attributi degli oggetti. Ad esempio, "Stato" è un campo per Progetti, Attività o Problemi. "Gestione Portfoli" è un campo per l'oggetto Portfolio.</p> <p>È inoltre possibile creare e aggiungere campi personalizzati ai moduli personalizzati.<br>Per informazioni sulla creazione di moduli personalizzati, vedere l'articolo <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Creare un modulo personalizzato</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Nome Campo </td> 

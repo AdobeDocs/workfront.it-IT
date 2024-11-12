@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '3264'
+source-wordcount: '3261'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
         <p>Se sei un amministratore gruppo e nel tuo livello di accesso hai abilitato l'autorizzazione Amministratore utenti (tutti gli utenti), puoi modificare i campi &lt;Configurazione SSO&gt; per tutti gli utenti.</p> </li> 
         <li><b>Informazioni sul processo:</b> Informazioni sul processo, ad esempio il titolo del processo (nel campo <b>Titolo</b>) e l'area di competenza di cui è responsabile l'utente (nel campo <b>Informazioni su</b>).</li> 
         <li><p><b>Informazioni di contatto</b>: numero di telefono dell'utente (in <b>Numero di telefono, Ext.</b> e <b>Campi Numero cellulare</b>) e indirizzo (nei campi <b>Indirizzo, Città, Stato, CAP, Paese</b> ).</p>
-        <p>Se l'utente è abilitato per Unified User Management (UUM) o Adobe Identity Management System (IMS), il campo <b>Paese</b> nella sezione Informazioni contatto accetta solo valori di codice paese (ad , US, GB, IN).</p></li>
+        <p>Adobe Se l'utente è abilitato per Unified User Management (UUM) o Identity Management System (IMS), il campo <b>Paese</b> nella sezione Informazioni contatto accetta solo valori di codice paese (ad esempio, US, GB, IN).</p></li>
        </ul> </td> 
      </tr> 
      <tr> 
@@ -108,7 +108,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       <li> <p><b>Fuso orario:</b> Fuso orario dell'utente.</p> <p>Per informazioni su come aiutare gli utenti a collaborare in Workfront con fusi orari diversi, consulta <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Lavorare con fusi orari diversi</a>.</p> </li>
 
    <li><p><b>Impostazioni locali e-mail</b>: impostazioni locali e-mail preferite dall'utente. Questo influisce sul formato dei numeri e delle date nelle e-mail inviate da Workfront a questo utente.</p>
-      <p><b>NOTA:</b> quando l'organizzazione si trova nell'esperienza unificata Adobe, le preferenze di lingua dell'utente vengono memorizzate nel profilo di Adobe e le impostazioni locali dell'e-mail non vengono utilizzate. Per informazioni sull'accesso a queste preferenze, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p></li>
+      <p><b>NOTA:</b> quando l'organizzazione si trova nell'esperienza unificata di Adobe, le preferenze della lingua dell'utente vengono memorizzate nel suo profilo di Adobe e le impostazioni locali dell'e-mail non vengono utilizzate. Per informazioni sull'accesso a queste preferenze, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata di Adobe per Workfront</a>.</p></li>
 
    <li><b>Ricevi e-mail da questo ambiente di test</b>: seleziona questa opzione se desideri ricevere notifiche e-mail dall'ambiente in cui hai effettuato l'accesso.
       <p><b>NOTA</b></p>
@@ -232,7 +232,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
      </tr> 
      <tr> 
       <td role="rowheader">Moduli personalizzati</td> 
-      <td><p>Associa a questo utente un modulo personalizzato esistente. È necessario creare un modulo personalizzato prima di associarlo a un utente. Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. I campi ai quali non si dispone dell'accesso per la modifica non vengono visualizzati in un singolo modulo personalizzato.</p> <p><strong>Nota:</strong> le caratteristiche avanzate dei moduli personalizzati, ad esempio i campi di ricerca esterna e i campi nativi di Workfront, sono disponibili solo quando si apre il record utente nella pagina dei dettagli e non nella finestra di dialogo Modifica utente. Dall’elenco degli utenti, fai clic sul nome utente per aprire i dettagli.</p> <p>Per informazioni sulla creazione di moduli personalizzati, vedere <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md" class="MCXref xref">Progettare un modulo con Progettazione moduli</a>.</p></td> 
+      <td><p>Associa a questo utente un modulo personalizzato esistente. È necessario creare un modulo personalizzato prima di associarlo a un utente. Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. I campi ai quali non si dispone dell'accesso per la modifica non vengono visualizzati in un singolo modulo personalizzato.</p> <p><strong>Nota:</strong> le caratteristiche avanzate dei moduli personalizzati, ad esempio i campi di ricerca esterna e i campi nativi di Workfront, sono disponibili solo quando si apre il record utente nella pagina dei dettagli e non nella finestra di dialogo Modifica utente. Dall’elenco degli utenti, fai clic sul nome utente per aprire i dettagli.</p> <p>Per informazioni sulla creazione di moduli personalizzati, vedere <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md" class="MCXref xref">Creare un modulo personalizzato</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Commento</td> 

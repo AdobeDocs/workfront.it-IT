@@ -5,9 +5,9 @@ description: È possibile visualizzare elenchi di oggetti in [!DNL Adobe Workfro
 feature: Get Started with Workfront
 author: Lisa
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 7d43486ca566ae044fac1bbe20874bb45f833ef7
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '2388'
+source-wordcount: '2386'
 ht-degree: 0%
 
 ---
@@ -622,7 +622,7 @@ Nella tabella seguente sono illustrate alcune delle differenze tra gli elenchi l
   </tr> 
   <tr> 
    <td>Non è possibile modificare i campi personalizzati in linea con la formattazione RTF.</td> 
-   <td> <p>Il testo nei campi personalizzati con formattazione può essere configurato per consentire grassetto, corsivo, sottolineatura, punti elenco, numerazione, collegamenti ipertestuali e virgolette.</p> <p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Progettare un modulo con Progettazione moduli</a>.</p> </td> 
+   <td> <p>Il testo nei campi personalizzati con formattazione può essere configurato per consentire grassetto, corsivo, sottolineatura, punti elenco, numerazione, collegamenti ipertestuali e virgolette.</p> <p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Creare un modulo personalizzato/a&gt;.</p> </td> 
   </tr> 
   <tr> 
    <td>La formattazione condizionale può modificare il colore del testo dei collegamenti in un elenco</td> 
