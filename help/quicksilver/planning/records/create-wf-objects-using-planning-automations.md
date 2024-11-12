@@ -5,19 +5,19 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
-source-git-commit: d8631e16234486479aa70233aa3770b28ea0d218
+source-git-commit: cfaacc4137ebfa7f2ed057522d43bd82715011df
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '383'
 ht-degree: 1%
 
 ---
 
 
-# Creazione di oggetti Workfront mediante le automazioni dei record di Workfront Planning
+# Creazione di oggetti mediante le automazioni dei record di Workfront Planning
 
-In Workfront Planning è possibile configurare automazioni che, se attivate, creano oggetti in Workfront.
+In Workfront Planning è possibile configurare automazioni che, se attivate, creano oggetti in Workfront o Workfront Planning.
 
-L’automazione viene attivata nei record. L&#39;oggetto in Workfront è connesso al record Planning in cui è stata attivata l&#39;automazione.
+L’automazione viene attivata nei record. L&#39;oggetto creato è connesso al record Planning in cui è stata attivata l&#39;automazione.
 
 Ad esempio, è possibile creare un&#39;automazione che accetta una campagna di Workfront Planning e crea un progetto in Workfront per tenere traccia dell&#39;avanzamento della campagna. Il progetto sarà collegato alla campagna di pianificazione di Workfront.
 
@@ -26,7 +26,7 @@ Per ulteriori informazioni sui record connessi, vedere [Panoramica sui record co
 
 ## Configurare un&#39;automazione in Workfront Planning
 
-È necessario configurare un&#39;automazione in Workfront Planning prima di poterla utilizzare per creare oggetti di Workfront.
+È necessario configurare un&#39;automazione in Workfront Planning prima di poterla utilizzare per creare oggetti.
 
 1. Fare clic sul menu **Altro** ![](assets/more-menu.png) e selezionare **Automazioni**.
 
@@ -44,14 +44,14 @@ Per ulteriori informazioni sui record connessi, vedere [Panoramica sui record co
    * Programma
    * Gruppo
 
-1. In **Selezionare il campo da utilizzare nel campo nome progetto**, selezionare un campo record. Il nuovo progetto in Workfront avrà come nome il contenuto di questo campo.
-1. Nel campo **Seleziona il campo per ricollegare il progetto creato**, seleziona un campo record. Il nuovo progetto in Workfront verrà visualizzato in questo campo quando si visualizza il record in Workfront Planning.
+1. In **Selezionare il campo da utilizzare nel campo nome progetto**, selezionare un campo record. Il nuovo oggetto avrà il contenuto di questo campo come nome.
+1. Nel campo **Seleziona il campo per ricollegare il progetto creato**, seleziona un campo record. Il nuovo oggetto verrà visualizzato in questo campo quando si visualizza il record in Workfront Planning.
 1. Selezionare le altre opzioni disponibili per il tipo di oggetto che si sta creando.
 1. Fai clic su **Crea**
 
 L’automazione viene visualizzata nell’elenco delle automazioni ed è disponibile per l’utilizzo nei record.
 
-## Utilizzare un&#39;automazione di Workfront Planning per creare un oggetto Workfront
+## Utilizzare un&#39;automazione di Workfront Planning per creare un oggetto
 
 1. In Workfront Planning aprire la pagina del tipo di record contenente i record che si desidera utilizzare per creare oggetti Workfront.
 1. Selezionare uno o più record.
