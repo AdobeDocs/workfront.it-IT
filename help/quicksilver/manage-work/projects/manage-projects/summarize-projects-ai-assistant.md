@@ -5,9 +5,10 @@ title: Riepilogare i progetti con l’Assistente AI
 description: L’intestazione del progetto include un pulsante che utilizza l’Assistente IA per riepilogare i progetti.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: df10444228de70dd460c4df72c4ba7dba6455f15
+exl-id: e0ac2a50-a75b-4453-8edf-850b8de74327
+source-git-commit: 769cacc12f35b019f8c97c243681f4adb3a3c0c9
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '367'
 ht-degree: 1%
 
 ---
@@ -17,8 +18,6 @@ ht-degree: 1%
 L&#39;Assistente AI di Workfront è in grado di riepilogare i progetti, consentendo di comprendere rapidamente le informazioni sul progetto, quali lo scopo e lo stato del progetto, fornisce esempi di attività completate e ancora in sospeso e fornisce alcuni dettagli e note aggiuntivi.
 
 È possibile utilizzare il pulsante Riepilogo progetto per generare un riepilogo oppure immettere una richiesta in Assistente IA.
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 >[!NOTE]
 >
@@ -69,8 +68,6 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 
 
-<div class="preview">
-
 ## Pulsante Riepiloga con riepilogo progetto
 
 1. Passare al flusso di aggiornamento che si desidera riepilogare.
@@ -82,8 +79,6 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Visualizza il riepilogo dell’intelligenza artificiale nel pannello Assistente intelligenza artificiale.
 1. (Facoltativo) Affina il prompt per assicurarti di fornire le informazioni necessarie.
-
-   </div>
 
 ## Riepilogare un oggetto nell’Assistente IA
 
@@ -99,4 +94,3 @@ Per visualizzare un riepilogo di un oggetto:
    La generazione del riepilogo può richiedere alcuni istanti, a seconda delle dimensioni o della complessità dell&#39;oggetto.
 
 1. Visualizza il riepilogo dell’intelligenza artificiale nel pannello Assistente intelligenza artificiale.
-

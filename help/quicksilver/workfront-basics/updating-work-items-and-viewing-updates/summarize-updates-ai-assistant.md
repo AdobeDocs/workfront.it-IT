@@ -5,9 +5,10 @@ title: Riepilogare gli aggiornamenti con l’Assistente AI
 description: Gli Aggiornamenti fanno parte di un oggetto che include un pulsante che utilizza l’Assistente IA per riepilogare gli aggiornamenti.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 11e7a376719e52db3f5e98afff44cb4b4d07db01
+exl-id: d0c26f90-a01b-4226-b6a0-647808f71e08
+source-git-commit: 769cacc12f35b019f8c97c243681f4adb3a3c0c9
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -17,8 +18,6 @@ ht-degree: 0%
 L’Assistente AI di Workfront può riepilogare il contenuto del flusso di aggiornamento, consentendoti di comprendere rapidamente i commenti e le discussioni che si verificano intorno a un oggetto Workfront.
 
 È possibile utilizzare il pulsante Riepiloga contenuto per generare un riepilogo oppure immettere un prompt nell&#39;Assistente IA.
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 >[!NOTE]
 >
@@ -60,8 +59,6 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
   Per ulteriori informazioni, vedere [Attivare o disattivare l&#39;Assistente AI](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).s
 
-<div class="preview">
-
 ## Riepiloga utilizzando il pulsante Riepiloga contenuto
 
 1. Passare al flusso di aggiornamento che si desidera riepilogare.
@@ -75,8 +72,6 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 1. (Facoltativo) Affina il prompt per assicurarti di fornire le informazioni necessarie.
 
    Ad esempio, è possibile perfezionare il prompt Riepiloga contenuto per riepilogare i commenti relativi agli ultimi 14 giorni, anziché agli ultimi 7.
-
-   </div>
 
 ## Riepilogare un oggetto nell’Assistente IA
 
@@ -92,4 +87,3 @@ Per visualizzare un riepilogo di un oggetto:
    La generazione del riepilogo può richiedere alcuni istanti, a seconda delle dimensioni o della complessità dell&#39;oggetto.
 
 1. Visualizza il riepilogo dell’intelligenza artificiale nel pannello Assistente intelligenza artificiale.
-
