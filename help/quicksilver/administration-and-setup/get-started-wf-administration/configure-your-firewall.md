@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: d7565c00c7c81110e1292d8a1d6057d75036dd43
+source-git-commit: df3885233140c5d0af542c8999226f7934c1329f
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1636'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >La procedura descritta in questa pagina si applica solo alle organizzazioni che non hanno ancora effettuato l’onboarding nell’Admin Console. Se la tua organizzazione è stata integrata in Adobe Admin Console, devi eseguire questa azione tramite Adobe Admin Console.
 >
->Inserire nell&#39;elenco Consentiti Per configurare il tuo di accesso a Adobe Admin Console, consulta [Domini per Adobe su app e servizi](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
+>Inserire nell&#39;elenco Consentiti Per configurare il tuo di accesso a Adobe Admin Console, consulta [Domini per le app e i servizi Adobe](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >Per un elenco delle procedure che differiscono a seconda che l&#39;organizzazione sia stata integrata in Adobe Admin Console, consulta [Differenze di amministrazione basate su Platform (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -216,6 +216,12 @@ Se l&#39;ambiente di produzione si trova nel cluster 6, aggiungere i seguenti in
   </tr> 
  </tbody> 
 </table>
+
+### Indirizzi IP per consentire il cluster 10
+
+* 20.36.133.48/28
+* 20.81.156.240/28
+* 172.172.84.48/28
 
 ### Indirizzi IP per consentire un&#39;unità di test
 
