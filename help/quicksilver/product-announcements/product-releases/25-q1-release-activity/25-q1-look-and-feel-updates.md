@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: 8fa0c5573008a625ae10af051eeabfb6a8519a01
+source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,24 @@ ht-degree: 0%
 Questa pagina descrive piccoli aggiornamenti all’aspetto di varie aree dell’applicazione Adobe Workfront che sono stati apportati nell’arco temporale del rilascio del primo trimestre 2025.
 
 Per un elenco di tutte le modifiche disponibili con la versione del primo trimestre 2025, consulta [Panoramica sulla versione del primo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Aggiornamenti look-and-feel per le integrazioni dei documenti
+
+>[!NOTE]
+>
+>Versione di anteprima: 14 novembre 2024; versione di produzione per tutti i clienti: 14 novembre 2024
+
+Abbiamo effettuato aggiornamenti delle prestazioni all’area in Configurazione in cui puoi configurare le integrazioni personalizzate: Configurazione > Documenti > Integrazione personalizzata. Questo aggiornamento include lievi modifiche visive all’area. Nessuna funzionalità è stata modificata.
+
+## Aggiornamenti look-and-feel delle pagine Membri e Tariffe di fatturazione della società
+
+>[!NOTE]
+>
+>Versione di anteprima: 4 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+
+Abbiamo aggiornato le pagine Membri società e Tariffe di fatturazione della società con un design più moderno che è coerente con altre aree di Workfront. Le iscrizioni aziendali sono accessibili tramite Configurazione > Società > seleziona un nome di società > seleziona Membri società nel pannello a sinistra. Le tariffe di fatturazione dell’azienda sono accessibili tramite Configurazione > Aziende > seleziona un nome dell’azienda > seleziona Tariffe di fatturazione nel pannello a sinistra.
+
+Per informazioni, vedere [Creare e modificare le società](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) e [Gestire le appartenenze alle società](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
 
 ## Aggiornamenti look-and-feel per le aree di navigazione principali e secondarie
 

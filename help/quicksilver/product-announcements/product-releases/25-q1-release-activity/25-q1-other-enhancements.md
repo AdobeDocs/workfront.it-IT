@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: e02fd7dc6f1655b69c0433465a51f4c53d486570
+source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,16 @@ ht-degree: 0%
 Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima con la versione del primo trimestre 2025. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del primo trimestre 2025, consulta [Panoramica sulla versione del primo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Le sezioni all’interno di un modulo personalizzato ora sono comprimibili ed espandibili
+
+>[!NOTE]
+>
+>Versione di anteprima: 11 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+
+Quando un modulo personalizzato con più sezioni viene allegato a un oggetto, è ora possibile comprimere ed espandere tutte le sezioni, ad eccezione della sezione predefinita nella parte superiore del modulo. L’amministratore può visualizzare questa funzionalità anche durante l’anteprima del modulo nel progettista del modulo.
+
+Per informazioni sull&#39;aggiunta di una sezione a un modulo personalizzato, vedere [Organizzare e visualizzare in anteprima un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 
 ## L’Assistente AI ora può lavorare con progetti, attività e problemi
 

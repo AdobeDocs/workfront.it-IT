@@ -4,10 +4,11 @@ description: Miglioramenti per la casa nel primo trimestre 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2517e07cacf9563ca3927db0ba3415f81ab41526
+exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
+source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 0%
+source-wordcount: '190'
+ht-degree: 2%
 
 ---
 
@@ -17,6 +18,21 @@ Questa pagina descrive tutti i miglioramenti apportati all’ambiente di antepri
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del primo trimestre 2025, consulta [Panoramica sulla versione del primo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
+## Opzioni aggiornate nella colonna Il mio focus in Priorità
+
+>[!NOTE]
+>
+>Versione di anteprima: 14 novembre 2024; versione di produzione per tutti i clienti: 14 novembre 2024
+
+Sono state aggiornate le opzioni nella colonna Il mio focus per consentire di definire le priorità e ordinare il lavoro in modo più intuitivo. Le nuove etichette includono
+
+* Urgente
+* Alta
+* Normal
+* Basso
+
+Questa modifica semplifica la visualizzazione e l&#39;organizzazione del lavoro in base all&#39;urgenza. Per ulteriori informazioni, vedere [Assegnare la priorità agli elementi di lavoro importanti](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
+
 ## Visualizzare i dettagli del progetto in Priorità
 
 >[!NOTE]
@@ -25,4 +41,4 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 
 È ora possibile visualizzare i dettagli e i commenti del progetto dall’elenco di lavoro in Priorità.
 
-<!--For more information, see [View project and task details in the Priorities worklist](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).-->
+Per ulteriori informazioni, vedere [Visualizzare i dettagli del progetto e dell&#39;attività nell&#39;elenco delle priorità](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).
