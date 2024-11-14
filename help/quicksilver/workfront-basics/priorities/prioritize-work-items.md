@@ -5,13 +5,13 @@ description: Priorities è un’esperienza semplice e intuitiva, personalizzata 
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
+source-git-commit: 2125639c11513439fdd3ae872b336814f8f77adb
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '184'
 ht-degree: 1%
 
 ---
-
 
 # Assegna priorità agli elementi di lavoro importanti
 
@@ -26,14 +26,13 @@ ht-degree: 1%
 
    | Fuoco | Descrizione |
    |-----------|-------------|
-   | **Urgente** | Urgente per un lavoro che richiede attenzione immediata. |
-   | **Principale** | Primaria è per il lavoro su cui intendi concentrarti questa settimana. |
-   | **Secondario** | Secondario è il lavoro che si prevede di trasferire una volta completate le attività principali. |
-   | **Normale** | Normale è per un lavoro su cui non è ancora necessario concentrarsi.  L&#39;impostazione predefinita è Normale per tutte le attività e tutti i problemi. |
+   | **Urgente** | Urgente per gli elementi di lavoro che richiedono attenzione immediata. Gli elementi di lavoro urgenti dovrebbero essere prioritari rispetto a tutti gli altri e affrontati il prima possibile. |
+   | **Alta** | Alta è per gli elementi di lavoro importanti che intendi risolvere dopo il completamento del lavoro urgente. |
+   | **Normale** | Normale è per gli elementi di lavoro di routine su cui lavorerai dopo il completamento degli elementi Urgenti e ad alta priorità. Questa è l&#39;impostazione predefinita per le attività e i problemi. |
+   | **Basso** | Basso è per gli elementi di lavoro che non richiedono attenzione immediata e che possono essere differiti fino al completamento di tutti gli elementi di lavoro con priorità più alta. |
 
    ![](assets/my-focus.png)
 
    >[!TIP]
    >
    >Puoi filtrare e raggruppare il lavoro in base ai livelli di attenzione.
-

@@ -5,13 +5,13 @@ description: Visualizza informazioni sulle prossime versioni di Priorities
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e103da5f938fabf01fead5161263c4324e1c703
+exl-id: 749f4da8-6ffb-4b23-bf3e-18f195df80c9
+source-git-commit: a6ab22e62fa15c6922d7f749b2df7350f6d7b5a6
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
-
 
 # Priorità: prossime versioni
 
@@ -21,8 +21,8 @@ Siamo entusiasti di mostrarvi cosa stiamo arrivando per Priorità. Utilizza il p
   <tr>
     <td><strong>In arrivo</strong>
     <ul>
-    <li><strong>Accedi ai dettagli del progetto dall'elenco lavori</strong>: nella scheda Dettagli progetto vengono visualizzati i dettagli, i commenti e i documenti del progetto.</li>
-   <li><strong>Visualizza documenti nella scheda Documenti</strong>: la scheda Documenti consente di visualizzare i documenti caricati in attività e problemi. È possibile visualizzare un'anteprima e lasciare commenti su un documento. </li>
+
+<li><strong>Visualizza documenti nella scheda Documenti</strong>: la scheda Documenti consente di visualizzare i documenti caricati in attività e problemi. È possibile visualizzare un'anteprima e lasciare commenti su un documento. </li>
     </ul>
     </td>
   </tr>
