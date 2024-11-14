@@ -1,7 +1,7 @@
 ---
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 400ca2ac10a94ccfa79bef8daf06b924dadac230
 workflow-type: tm+mt
-source-wordcount: '2583'
+source-wordcount: '2648'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,12 @@ ht-degree: 1%
 ## Anteprima evidenziata per l&#39;articolo completo {#highlighted-preview-article-level}
 
 <span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
+
+## Anteprima e rilascio rapido generali {#preview-fast-release-general}
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 ## Anteprima e rilascio rapido Q4 2024 {#preview-and-fast-release-Q424}
 
