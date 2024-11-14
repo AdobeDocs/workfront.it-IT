@@ -9,16 +9,16 @@ description: Con il modulo Adobe Authenticator, puoi connetterti a qualsiasi pro
 author: Becky
 feature: Workfront Fusion
 exl-id: 74c943fb-37ad-4d91-8af7-9808ba69992e
-source-git-commit: 443bdb5caee4b8a7ba9df95b0befff27b7aaabc2
+source-git-commit: 4914e6e30d6c4a16de5bd2c91bc6f8e4f208c078
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1209'
 ht-degree: 1%
 
 ---
 
 # Moduli Adobe Authenticator
 
-Il modulo Adobe Authenticator ti consente di connettersi a qualsiasi API Adobe utilizzando una singola connessione. Ciò consente di connettersi più facilmente a prodotti in Adobe che non dispongono ancora di un connettore Fusion dedicato.
+Il modulo Adobe Authenticator ti consente di connettersi a qualsiasi API Adobe utilizzando una singola connessione. Questo consente di connettersi più facilmente a prodotti Adobe che non dispongono ancora di un connettore Fusion dedicato.
 
 Il vantaggio rispetto ai moduli HTTP è che puoi creare una connessione, come in un’app dedicata.
 
@@ -63,7 +63,7 @@ Per visualizzare un elenco delle API Adobe disponibili, vedi [API Adobe](https:/
 
 ## Prerequisiti
 
-* Devi avere accesso al prodotto di Adobe a cui vuoi collegare il modulo.
+* Devi avere accesso al prodotto Adobe a cui desideri che il modulo si connetta.
 * Devi avere accesso a Adobe Developer Console.
 * In Adobe Developer Console è necessario disporre di un progetto che includa l’API a cui desideri che il modulo si connetta. È possibile:
 
@@ -178,15 +178,16 @@ Per creare una connessione:
 
 1. Fai clic su **[!UICONTROL Continua]** per salvare la connessione e tornare al modulo.
 
-## Modulo
+## Moduli
+
+* [Effettuare una chiamata API personalizzata](#make-a-custom-api-call)
+* [Effettuare una chiamata API personalizzata (legacy)](#make-a-custom-api-call-legacy)
 
 ### Effettuare una chiamata API personalizzata
 
-Questo modulo di azione ti consente di effettuare una chiamata a qualsiasi API Adobe.
+Questo modulo di azione ti consente di effettuare una chiamata a qualsiasi API Adobe. Supporta i file di grandi dimensioni, anziché i corpi di solo testo.
 
->[!TIP]
->
->Devi immettere l’intero URL per l’API a cui desideri connetterti. Questo modulo non accetta URL relativi.
+Questo modulo è stato reso disponibile il 14 novembre 2024. Qualsiasi chiamata Adobe Authenticator > Make a custom API configurata prima di questa data non gestisce file di grandi dimensioni e ora è considerata il modulo Make a custom API call (Legacy).
 
 <table>
   <col/>
@@ -198,10 +199,83 @@ Questo modulo di azione ti consente di effettuare una chiamata a qualsiasi API A
     </tr>
     <tr>
       <td role="rowheader">
+        <p>[!UICONTROL URL di base]</p>
+      </td>
+      <td>
+        <p>Immetti l’URL di base del punto API a cui desideri connetterti.</p>
+      </td>
+    <tr>
+      <td role="rowheader">
         <p>[!UICONTROL URL]</p>
       </td>
       <td>
-        <p>Inserisci l’intero URL del punto API a cui desideri connetterti.</p>
+        <p>Immetti il percorso relativo all’URL di base.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Method]</p>
+   <td> <p>Seleziona il metodo di richiesta HTTP necessario per configurare la chiamata API. Per ulteriori informazioni, vedere <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Metodi di richiesta HTTP in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Headers]</td>
+      <td>
+        <p>Aggiungi le intestazioni della richiesta sotto forma di oggetto JSON standard.</p>
+        <p>Ad esempio: <code>{"Content-type":"application/json"}</code></p>
+        <p>Workfront Fusion aggiunge automaticamente le intestazioni di autorizzazione.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Stringa Di Query]  </td>
+      <td>
+        <p>Immettere la stringa di query richiesta.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Body Type]</td>
+   <td> Seleziona il tipo di corpo per questa richiesta API:
+   <ul>
+   <li>application/x-www-form-urlencoded</li>
+   <li>Grezzi</li>
+   <li>multipart/form-data</li>
+   </ul>
+      </td>
+    <tr>
+      <td role="rowheader">[!UICONTROL Fields]  </td>
+      <td>
+        <p>Per ogni file da aggiungere alla richiesta APU, fare clic su <b>Aggiungi elemento</b> e immettere il testo del file (per i dati non elaborati) oppure immettere la chiave <code>uploadedFile</code> e mappare i dati del file.</p>
+      </td>
+    </tr>
+    </tr>
+  </tbody>
+</table>
+
+### Effettuare una chiamata API personalizzata (legacy)
+
+Questo modulo di azione ti consente di effettuare una chiamata a qualsiasi API Adobe.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+     <td role="rowheader">[!UICONTROL Connection]</td>
+     <td>Per istruzioni sulla creazione di una connessione al modulo Adobe Authenticator, vedere <a href="#create-a-connection" class="MCXref xref" >Creare una connessione</a> in questo articolo.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL URL di base]</p>
+      </td>
+      <td>
+        <p>Immetti l’URL di base del punto API a cui desideri connetterti.</p>
+      </td>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL URL]</p>
+      </td>
+      <td>
+        <p>Immetti il percorso relativo all’URL di base.</p>
       </td>
     </tr>
     <tr>

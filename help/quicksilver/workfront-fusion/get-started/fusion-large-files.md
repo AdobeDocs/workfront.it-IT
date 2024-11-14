@@ -7,9 +7,9 @@ description: Il supporto per file di grandi dimensioni è attualmente disponibil
 author: Becky
 feature: Workfront Fusion
 exl-id: e0be458c-a5f4-48e4-a8fb-afd5d072b6ff
-source-git-commit: 5e32c0dd3378fc49f8687668f11daa5dc838c587
+source-git-commit: 4914e6e30d6c4a16de5bd2c91bc6f8e4f208c078
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1100'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,8 @@ Per la versione iniziale, i seguenti connettori supportano file di grandi dimens
 
 * Workfront > Carica documento
 * Adobe Experience Manager Assets > Carica documento
+* Workfront Proof > Carica file
+* Adobe Authenticator > Effettua una chiamata API personalizzata
 * HTTP
 
 Altri connettori saranno supportati nelle versioni future.
