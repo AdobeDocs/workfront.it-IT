@@ -3,16 +3,18 @@ navigation-topic: use-lists
 title: Modificare la modalità di visualizzazione di un elenco
 description: In [!DNL Adobe Workfront] puoi personalizzare la visualizzazione di un elenco. Gli altri utenti che visualizzano l'elenco non visualizzano le modifiche.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
 
 # Modificare la modalità di visualizzazione di un elenco
+
+<!--Audited: 11/2024-->
 
 In [!DNL Adobe Workfront] è possibile personalizzare la visualizzazione di un elenco. Gli altri utenti che visualizzano l&#39;elenco non visualizzano le modifiche.
 
@@ -32,6 +34,8 @@ Per informazioni sulla modifica delle informazioni visualizzate nell&#39;elenco,
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
@@ -39,27 +43,36 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] piano*</strong></td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>[!UICONTROL Request] o versione successiva</p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront*</td> 
+   <td> 
+    <p>Nuovo:</p>
+   <ul><li><p>Collaboratore o versione successiva </p></li>
+   </ul>
+
+<p>Corrente:</p>
+   <ul><li><p>Richiedi o superiore</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
-   <td> <p>Accesso [!UICONTROL View] all'area in cui si trova l'elenco</p> <p>Ad esempio, per modificare la visualizzazione di un progetto, è necessario accedere alla visualizzazione [!UICONTROL] dei progetti.</p> <p>Nota: se non disponi ancora dell'accesso, chiedi all'amministratore [!DNL Workfront] se ha impostato restrizioni aggiuntive nel tuo livello di accesso.<br>Per informazioni su come un amministratore di [!DNL Workfront] può modificare il tuo livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Accesso [!UICONTROL View] all'area in cui si trova l'elenco</p> <p>Ad esempio, per modificare la visualizzazione di un progetto, è necessario accedere alla visualizzazione [!UICONTROL] dei progetti.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Autorizzazioni di [!UICONTROL View] o superiori per la visualizzazione applicata all'elenco</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td> <p>Autorizzazioni di [!UICONTROL View] o superiori per la visualizzazione applicata all'elenco</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Modificare la modalità di visualizzazione di un elenco
++++
+
+## Modificare un elenco
 
 1. Passare all&#39;elenco in [!DNL Workfront] che si desidera modificare.
 
@@ -101,7 +114,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Per riordinare le colonne di un elenco, posizionare il mouse su un&#39;intestazione di colonna per visualizzare lo strumento mano, quindi fare clic per trascinare la colonna nel punto in cui si desidera visualizzarla.
 
-   La posizione della colonna viene salvata fino all’aggiornamento della pagina.\
+   La posizione della colonna viene salvata fino all’aggiornamento della pagina.
+
    Per ulteriori informazioni sulla personalizzazione della larghezza e dell&#39;ordine delle colonne in un elenco, vedere l&#39;articolo [Modificare la larghezza e l&#39;ordine delle colonne](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
 1. Per modificare l&#39;ordinamento di un elenco, fare clic su un&#39;intestazione di colonna per selezionarla, quindi premere e tenere premuto il tasto CMD (su [!DNL Mac]) o CTRL (su [!DNL Windows]) sulla tastiera e selezionare fino a 2 intestazioni di colonna aggiuntive in base alle quali eseguire l&#39;ordinamento.

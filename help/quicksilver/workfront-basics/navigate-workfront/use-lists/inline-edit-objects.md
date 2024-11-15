@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: use-lists
-title: Modifica in linea di elementi in un elenco in [!DNL Adobe Workfront]
+title: Modifica in linea elementi in un elenco in [!DNL Adobe Workfront]
 description: È possibile modificare gli oggetti in linea quando vengono visualizzati in un elenco o in un report. Quando si modificano le informazioni sugli oggetti visualizzati in un elenco o in un report, l'oggetto viene aggiornato immediatamente.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
 
 # Modifica in linea di elementi in un elenco in [!DNL Adobe Workfront]
+
+<!--Audited: 11/2024-->
 
 È possibile modificare gli oggetti in linea quando vengono visualizzati in un elenco o in un report. Quando si modificano le informazioni sugli oggetti visualizzati in un elenco o in un report, l&#39;oggetto viene aggiornato immediatamente.
 
@@ -24,14 +26,18 @@ Per ulteriori informazioni sugli elenchi, vedere [Introduzione agli elenchi in [
 Sebbene la maggior parte degli oggetti visualizzati negli elenchi o nei report sia modificabile in linea in [!DNL Adobe Workfront], esistono alcune limitazioni, tra cui:
 
 * Non è possibile modificare i campi calcolati o [!DNL Workfront] campi incorporati che sono calcoli.
-* È possibile modificare solo i campi associati direttamente agli oggetti dell&#39;elenco. Non è possibile modificare i campi che appartengono a oggetti associati agli oggetti dell&#39;elenco.\
-   È ad esempio possibile modificare lo stato di un&#39;attività in un report attività, ma non il nome del progetto a cui l&#39;attività è associata nello stesso report. Puoi modificare il nome del progetto solo in un report di progetto.
-* Non è possibile modificare i campi in linea quando nella visualizzazione di un elenco non è visualizzata la valuta predefinita.\
-   Per informazioni sulla visualizzazione della valuta predefinita, vedere la sezione [Modificare i report con valute univoche](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md#editing-reports-with-unique-currencies) nell&#39;articolo [Creare report di dati finanziari con tassi di cambio univoci](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
+* È possibile modificare solo i campi associati direttamente agli oggetti dell&#39;elenco. Non è possibile modificare i campi che appartengono a oggetti associati agli oggetti dell&#39;elenco.
+
+  È ad esempio possibile modificare lo stato di un&#39;attività in un report attività, ma non il nome del progetto a cui l&#39;attività è associata nello stesso report. Puoi modificare il nome del progetto solo in un report di progetto.
+* Non è possibile modificare i campi in linea quando nella visualizzazione di un elenco non è visualizzata la valuta predefinita.
+
+  Per informazioni sulla visualizzazione della valuta predefinita, vedere la sezione [Modificare i report con valute univoche](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md#editing-reports-with-unique-currencies) nell&#39;articolo [Creare report di dati finanziari con tassi di cambio univoci](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 * Non è possibile modificare i contrassegni e le icone visualizzate in un elenco.
 * Non è possibile modificare in linea i campi del rapporto originati da altri rapporti.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -40,25 +46,34 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] piano*</strong></td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>[!UICONTROL Review] o versione successiva</p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront*</td> 
+   <td> 
+    <p>Nuovo:</p>
+   <ul><li><p>Collaboratore o versione successiva </p></li>
+   </ul>
+
+<p>Corrente:</p>
+   <ul><li><p>Richiedi o superiore</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
-   <td> <p>Accesso di [!UICONTROL Edit] all'area in cui si trova l'elenco</p> <p>Ad esempio, per modificare le attività in linea in un progetto, è necessario l'accesso [!UICONTROL Edit] ai progetti.</p> <p>Nota: se non disponi ancora dell'accesso, chiedi all'amministratore [!DNL Workfront] se ha impostato restrizioni aggiuntive nel tuo livello di accesso.<br>Per informazioni su come un amministratore di [!DNL Workfront] può modificare il tuo livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Accesso di [!UICONTROL Edit] all'area in cui si trova l'elenco</p> <p>Ad esempio, per modificare le attività in linea in un progetto, è necessario l'accesso [!UICONTROL Edit] ai progetti.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>[!UICONTROL Gestisci]</p> <p>È inoltre necessario disporre delle autorizzazioni per modificare alcuni campi, ad esempio campi personalizzati, stato e così via.</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td> <p>[!UICONTROL Gestisci]</p> <p>È inoltre necessario disporre delle autorizzazioni per modificare alcuni campi, ad esempio campi personalizzati, stato e così via.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Modifica oggetti in linea
 
@@ -72,13 +87,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >
    >Se si dispone di più pagine, è possibile individuare un oggetto utilizzando:
    >
-   >   
-   >   
-   >   * **Paginazione**: fare clic sulle frecce indietro e avanti per spostarsi tra le pagine.\
+   >   * **Paginazione**: fare clic sulle frecce indietro e avanti per spostarsi tra le pagine.
    >     Nell&#39;angolo in basso a destra dell&#39;elenco, l&#39;area [!UICONTROL pagination] rimane fissa durante lo scorrimento dell&#39;elenco.
-   >   * **Filtro rapido**: fare clic sull&#39;icona del filtro o digitare Alt+F per aprire il filtro rapido, quindi immettere il testo per visualizzare solo gli elementi che contengono il testo immesso.\
+   >   * **Filtro rapido**: fare clic sull&#39;icona del filtro o digitare Alt+F per aprire il filtro rapido, quindi immettere il testo per visualizzare solo gli elementi che contengono il testo immesso.
    >     Il filtro rapido si trova nella barra degli strumenti elenco. Per ulteriori informazioni, vedere [Applicare il filtro rapido a un elenco](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
-
 
    Se il campo può essere modificato, il campo e tutti gli altri campi visualizzati nell’elenco diventano celle modificabili.
 

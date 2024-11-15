@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 667b930290c6e2126c5dc7fa95e279ad3405901c
+source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
 workflow-type: tm+mt
-source-wordcount: '3847'
-ht-degree: 2%
+source-wordcount: '4106'
+ht-degree: 1%
 
 ---
 
@@ -264,7 +264,7 @@ I campi Paragrafo acquisiscono informazioni alfanumeriche aggiuntive su un recor
 
 1. Aggiungi le seguenti informazioni nella scheda **Nuovo campo**:
    * **Nome**: il nome del tipo di campo che verrà visualizzato in una tabella o nella pagina Dettagli del record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
+   * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il puntatore del mouse sulla colonna del campo in una tabella oppure <span class="preview"> quando si fa clic sull&#39;icona delle informazioni accanto al nome del campo nella pagina dei dettagli del record.</span>
 1. Fai clic su **Crea**.
 
    Il nuovo campo paragrafo viene aggiunto come colonna al tipo di record e i relativi valori possono essere associati ai record.
@@ -281,7 +281,7 @@ I campi Paragrafo acquisiscono informazioni alfanumeriche aggiuntive su un recor
 
 1. Aggiungi le seguenti informazioni nella scheda **Nuovo campo**:
    * **Nome**: il nome del tipo di campo che verrà visualizzato in una tabella o nella pagina Dettagli del record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
+   * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il puntatore del mouse sulla colonna del campo in una tabella oppure <span class="preview"> quando si fa clic sull&#39;icona delle informazioni accanto al nome del campo nella pagina dei dettagli del record.</span>
    * **Opzioni**: le opzioni che gli utenti possono selezionare quando aggiornano questo campo. È possibile utilizzare sia numeri che lettere per il nome di ciascuna scelta.
 1. Fai clic su **Aggiungi scelta** per aggiungere altre scelte. Non esiste alcun limite al numero di scelte che è possibile aggiungere a un campo a selezione multipla.
 1. (Facoltativo) Trascina e rilascia manualmente ciascuna scelta nell’ordine desiderato, oppure seleziona la
@@ -303,7 +303,7 @@ I campi a selezione singola acquisiscono informazioni aggiuntive in qualsiasi fo
 
 1. Aggiungi le seguenti informazioni nella scheda **Nuovo campo**:
    * **Nome**: il nome del tipo di campo che verrà visualizzato in una tabella o nella pagina Dettagli del record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
+   * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il puntatore del mouse sulla colonna del campo in una tabella oppure <span class="preview"> quando si fa clic sull&#39;icona delle informazioni accanto al nome del campo nella pagina dei dettagli del record.</span>
    * **Opzioni**: le opzioni disponibili per la selezione dal menu a discesa dopo il salvataggio del campo. È possibile utilizzare sia numeri che lettere per il nome di ciascuna scelta.
 
 1. Fai clic su **Aggiungi scelta** per aggiungere altre scelte. Non esiste alcun limite al numero di scelte che è possibile aggiungere a un campo a selezione singola.
@@ -325,7 +325,7 @@ I campi a selezione singola acquisiscono informazioni aggiuntive in qualsiasi fo
 
 1. Aggiungi le seguenti informazioni nella scheda **Nuovo campo**:
    * **Nome**: il nome del tipo di campo che verrà visualizzato in una tabella o nella pagina record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
+   * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il puntatore del mouse sulla colonna del campo in una tabella oppure <span class="preview"> quando si fa clic sull&#39;icona delle informazioni accanto al nome del campo nella pagina dei dettagli del record.</span>
    * **Formato data**: tipo di formato data che si desidera visualizzare in questo campo. <!--update this casing - submitted bug for it-->
 
      Selezionare uno dei formati seguenti:
@@ -355,7 +355,7 @@ I tipi di campo numerico acquisiscono informazioni in formato numerico.
 1. Aggiungi le seguenti informazioni nella scheda **Nuovo campo**:
 
    * **Nome**: il nome del tipo di campo che verrà visualizzato in una tabella o nella pagina record.
-   * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
+   * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il puntatore del mouse sulla colonna del campo in una tabella oppure <span class="preview"> quando si fa clic sull&#39;icona delle informazioni accanto al nome del campo nella pagina dei dettagli del record.</span>
    * **Precisione**: il numero di posizioni decimali che si desidera registrare per il campo. Puoi visualizzare fino a 6 posizioni decimali.
    * **Consenti numeri negativi**: selezionare questa opzione se si desidera consentire i numeri negativi in questo campo. Questa opzione è deselezionata per impostazione predefinita.
 
@@ -377,7 +377,7 @@ I tipi di campo Percentuale acquisiscono le informazioni in un formato numerico 
 
 1. Aggiungi le seguenti informazioni nella scheda **Nuovo campo**:
    * **Nome**: il nome del tipo di campo che verrà visualizzato in una tabella o nella pagina record.
-   * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
+   * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il puntatore del mouse sulla colonna del campo in una tabella oppure <span class="preview"> quando si fa clic sull&#39;icona delle informazioni accanto al nome del campo nella pagina dei dettagli del record.</span>
    * **Precisione**: il numero di posizioni decimali che si desidera registrare per il campo. Puoi visualizzare fino a 6 posizioni decimali.
    * **Consenti numeri negativi**: selezionare questa opzione se si desidera consentire valori percentuali negativi in questo campo. Questa opzione è deselezionata per impostazione predefinita.
 
@@ -389,7 +389,7 @@ I tipi di campo Percentuale acquisiscono le informazioni in un formato numerico 
 
    * **Mostra come**: dal menu a discesa, scegliere come visualizzare i valori percentuali nella vista tabella. Selezionare una delle opzioni seguenti:
       * **Numero**: il valore percentuale viene visualizzato come numero seguito dal segno percentuale.
-      * **Barra**: il valore percentuale viene visualizzato come una barra accanto al numero percentuale. Il colore di riempimento della barra indica il valore percentuale.
+      * **Barra**: il valore percentuale viene visualizzato come una barra accanto al numero percentuale. Il colore di riempimento della barra indica il valore percentuale. Questa è la selezione predefinita.
       * **Cerchio**: il valore percentuale viene visualizzato come contorno di un cerchio accanto al numero percentuale. Il colore di riempimento del contorno del cerchio indica il valore percentuale.
 
    >[!NOTE]
@@ -412,7 +412,7 @@ I tipi di campo Valuta acquisiscono le informazioni in un formato numerico prece
 
 1. Aggiungi le seguenti informazioni nella scheda **Nuovo campo**:
    * **Nome**: il nome del tipo di campo che verrà visualizzato in una tabella o nella pagina record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
+   * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il puntatore del mouse sulla colonna del campo in una tabella oppure <span class="preview"> quando si fa clic sull&#39;icona delle informazioni accanto al nome del campo nella pagina dei dettagli del record.</span>
    * **Valuta**: tipo di valuta che si desidera visualizzare in questo campo. Questa è una lista di valute secondo l&#39;Organizzazione Internazionale di Standardizzazione (ISO).
    * **Precisione**: il numero di posizioni decimali che si desidera registrare per il campo. Puoi visualizzare fino a 6 decimali.
    * **Consenti numeri negativi**: selezionare questa opzione se si desidera consentire valori di valuta negativi in questo campo. Questa opzione è deselezionata per impostazione predefinita.
@@ -435,7 +435,7 @@ I tipi di campo Valuta acquisiscono le informazioni in un formato numerico prece
 
 1. Aggiungi le seguenti informazioni nella scheda **Nuovo campo**:
    * **Nome**: il nome del tipo di campo che verrà visualizzato in una tabella o nella pagina record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
+   * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il puntatore del mouse sulla colonna del campo in una tabella oppure <span class="preview"> quando si fa clic sull&#39;icona delle informazioni accanto al nome del campo nella pagina dei dettagli del record.</span>
 1. Fai clic su **Crea**.
 
    Il nuovo campo casella di controllo viene aggiunto come colonna al tipo di record e i relativi valori possono essere associati ai record.
@@ -453,7 +453,7 @@ Per ulteriori informazioni, vedere [Panoramica dei campi formula](/help/quicksil
 1. Aggiungi le seguenti informazioni nella scheda **Nuovo campo**:
 
    * **Nome**: immettere un nome per il nuovo campo.
-   * **Descrizione**: aggiungi informazioni sul nuovo campo.
+   * **Descrizione**: aggiungi informazioni sul nuovo campo. La descrizione di un campo viene visualizzata quando si passa il puntatore del mouse sulla colonna del campo in una tabella oppure <span class="preview"> quando si fa clic sull&#39;icona delle informazioni accanto al nome del campo nella pagina dei dettagli del record.</span>
    * **Formula**: inizia a digitare almeno un carattere per accedere a un&#39;espressione, quindi selezionalo quando viene visualizzato nell&#39;elenco.
 
 1. Fai clic sull’espressione selezionata per visualizzarne la definizione e la formattazione.
@@ -509,7 +509,7 @@ Utilizzare il tipo di campo Persone per aggiungere un utente <!--, job role, or 
 
 1. Aggiungi le seguenti informazioni nella scheda **Nuovo campo**:
    * **Nome**: il nome del tipo di campo che verrà visualizzato in una tabella o nella pagina record.
-   * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
+   * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il puntatore del mouse sulla colonna del campo in una tabella oppure <span class="preview"> quando si fa clic sull&#39;icona delle informazioni accanto al nome del campo nella pagina dei dettagli del record.</span>
    * **Consenti più valori**: selezionare questa opzione se si desidera consentire agli utenti di aggiungere più utenti in questo campo. Questa opzione è deselezionata per impostazione predefinita.
 
    >[!NOTE]
@@ -531,7 +531,7 @@ Utilizzare il tipo di campo Persone per aggiungere un utente <!--, job role, or 
 1. Aggiungi le seguenti informazioni nella scheda **Nuovo campo**:
 
    * **Nome**: il nome del tipo di campo che verrà visualizzato in una tabella o nella pagina record. <!--this might change and they might prepopulate it with "Created by"-->
-   * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
+   * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il puntatore del mouse sulla colonna del campo in una tabella oppure <span class="preview"> quando si fa clic sull&#39;icona delle informazioni accanto al nome del campo nella pagina dei dettagli del record.</span>
 
 1. Fai clic su **Crea**.
 
@@ -551,7 +551,7 @@ Utilizzare il tipo di campo Persone per aggiungere un utente <!--, job role, or 
 1. Aggiungi le seguenti informazioni nella scheda **Nuovo campo**:
 
    * **Nome**: il nome del tipo di campo che verrà visualizzato in una tabella o nella pagina record. <!--this might change and they might prepopulate it with "Created date"-->
-   * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
+   * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il puntatore del mouse sulla colonna del campo in una tabella oppure <span class="preview"> quando si fa clic sull&#39;icona delle informazioni accanto al nome del campo nella pagina dei dettagli del record.</span>
    * **Formato data**: selezionare uno dei formati seguenti:
 
       * **Impostazioni locali**: corrisponde alle impostazioni locali del browser.
@@ -582,7 +582,7 @@ Utilizzare il tipo di campo Persone per aggiungere un utente <!--, job role, or 
 1. Aggiungi le seguenti informazioni nella scheda **Nuovo campo**:
 
    * **Nome**: il nome del tipo di campo che verrà visualizzato in una tabella o nella pagina record. <!--this might change and they might prepopulate it with "Created by"-->
-   * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
+   * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il puntatore del mouse sulla colonna del campo in una tabella oppure <span class="preview"> quando si fa clic sull&#39;icona delle informazioni accanto al nome del campo nella pagina dei dettagli del record.</span>
 
 1. Fai clic su **Crea**.
 
@@ -602,7 +602,7 @@ Utilizzare il tipo di campo Persone per aggiungere un utente <!--, job role, or 
 1. Aggiungi le seguenti informazioni nella scheda **Nuovo campo**:
 
    * **Nome**: il nome del tipo di campo che verrà visualizzato in una tabella o nella pagina record. <!--this might change and they might prepopulate it with "Created date"-->
-   * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
+   * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il puntatore del mouse sulla colonna del campo in una tabella oppure <span class="preview"> quando si fa clic sull&#39;icona delle informazioni accanto al nome del campo nella pagina dei dettagli del record.</span>
    * **Formato data**: selezionare uno dei formati seguenti:
 
       * **Impostazioni locali**: corrisponde alle impostazioni locali del browser.

@@ -3,22 +3,26 @@ navigation-topic: use-lists
 title: Esportare un elenco
 description: Puoi esportare un elenco di oggetti da Adobe Workfront. Se l'elenco di oggetti di Workfront contiene più di 2.000 elementi, l'esportazione dell'elenco è l'unico modo per esaminare tutti gli elementi dell'elenco in una sola pagina.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: 31159d6d-f03a-4f84-a454-25a232971441
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
 
 # Esportare un elenco
 
+<!--Audited: 11/2024-->
+
 È possibile esportare un elenco di oggetti da [!DNL Adobe Workfront]. Se l&#39;elenco di oggetti in [!DNL Workfront] contiene più di 2.000 elementi, l&#39;esportazione dell&#39;elenco è l&#39;unico modo per esaminare tutti gli elementi dell&#39;elenco in una sola pagina.
 
 Per informazioni sui formati e i limiti di esportazione, vedere [Esporta dati](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -27,31 +31,40 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] piano*</strong></td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>[!UICONTROL Request] o versione successiva</p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront*</td> 
+   <td> 
+    <p>Nuovo:</p>
+   <ul><li><p>Collaboratore o versione successiva </p></li>
+   </ul>
+
+<p>Corrente:</p>
+   <ul><li><p>Richiedi o superiore</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
-   <td> <p>Accesso [!UICONTROL View] all'area in cui si trova l'elenco</p> <p>Ad esempio, per esportare l'elenco delle attività di un progetto, è necessario l'accesso [!UICONTROL View] ai progetti.</p> <p>Nota: se non disponi ancora dell'accesso, chiedi all'amministratore [!DNL Workfront] se ha impostato restrizioni aggiuntive nel tuo livello di accesso.<br>Per informazioni su come un amministratore di [!DNL Workfront] può modificare il tuo livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Accesso di visualizzazione all'area in cui si trova l'elenco</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Visualizzazione [!UICONTROL]</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td> <p>Autorizzazioni di [!UICONTROL View] per l'oggetto in cui si trova l'elenco</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Esportare un elenco
 
 1. Consente di passare a un elenco di oggetti.
-1. (Facoltativo) Seleziona un filtro, una vista o un raggruppamento da applicare all’elenco prima dell’esportazione.\
-   Per informazioni su filtri, viste e raggruppamenti, vedere [Elementi di reporting: filtri, viste e raggruppamenti](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+1. (Facoltativo) Seleziona un filtro, una vista o un raggruppamento da applicare all’elenco prima dell’esportazione.
+Per informazioni su filtri, viste e raggruppamenti, vedere [Elementi di reporting: filtri, viste e raggruppamenti](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
 1. (Facoltativo) Per esportare solo elementi specifici di un elenco, selezionare tutti gli elementi dell&#39;elenco che si desidera inserire nel file esportato.
 
@@ -69,7 +82,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    ![select_all_projects_with_highlight__1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 
-1. Fai clic su **[!UICONTROL Esporta]** ![Esporta](assets/export.png).
+1. Fai clic sull&#39;icona **[!UICONTROL Esporta]** ![Esporta](assets/export.png).
 
 1. Selezionare uno dei formati seguenti:
 
@@ -80,5 +93,5 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
      In questo modo una copia dell&#39;elenco viene esportata in uno di questi formati e salvata nel computer.
 
-1. (Facoltativo) Aprire l&#39;elenco esportato utilizzando l&#39;applicazione appropriata.\
-   Tutti gli elementi dell’elenco vengono visualizzati nel file esportato, indipendentemente dal fatto che vengano visualizzati o meno sullo schermo nell’applicazione web.
+1. (Facoltativo) Aprire l&#39;elenco esportato utilizzando l&#39;applicazione appropriata.
+Tutti gli elementi dell’elenco vengono visualizzati nel file esportato, indipendentemente dal fatto che vengano visualizzati o meno sullo schermo nell’applicazione web.
