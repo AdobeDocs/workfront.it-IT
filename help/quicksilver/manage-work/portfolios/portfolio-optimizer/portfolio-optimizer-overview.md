@@ -7,9 +7,9 @@ description: '[!UICONTROL Ottimizzatore Portfolio] è lo strumento utilizzato pe
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: 1fd3b135682c096f1715e5da0455fed12e882582
+source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
 workflow-type: tm+mt
-source-wordcount: '1629'
+source-wordcount: '1649'
 ht-degree: 0%
 
 ---
@@ -168,7 +168,9 @@ Le icone e le opzioni seguenti sono disponibili per [!UICONTROL Ottimizzatore Po
   <tr> 
    <td> <img src="assets/nwe-set-priority-icon.png"> </td> 
    <td>[!UICONTROL Imposta priorità progetto]</td> 
-   <td>Usa questa icona quando vuoi salvare l'ordine dei progetti, in base alla loro priorità. </td> 
+   <td><p>Usa questa icona quando vuoi salvare l'ordine dei progetti, in base alla loro priorità.</p>
+   <p>Per utilizzare <b>Imposta priorità progetto</b> è necessario disporre delle autorizzazioni di gestione per tutti i progetti dell'elenco</p>.
+    </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/nwe-optimize-icon-in-optimizer.png"> </td> 

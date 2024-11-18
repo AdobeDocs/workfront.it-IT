@@ -6,9 +6,9 @@ description: Puoi assegnare la priorità ai progetti in Ottimizzatore Portfolio,
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '534'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Autorizzazioni di [!UICONTROL Manage] per il portfolio</p> <p>Contribute o autorizzazioni superiori per i progetti</p>  </td> 
+   <td> <p>Autorizzazioni di [!UICONTROL Manage] per il portfolio</p> <p>Contribute o autorizzazioni superiori per i progetti</p> 
+   <p>Per utilizzare <b>Imposta priorità progetto</b> è necessario disporre delle autorizzazioni di gestione per tutti i progetti dell'elenco.</p>
+    </td> 
   </tr> 
  </tbody> 
 </table>
