@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 2bbfd449d913a5134c9c36b1ee10567973c56eaa
+source-git-commit: 4ea4d7d8fd16d4c4d7c2fe5f7adb15c2b44b6705
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '292'
 ht-degree: 3%
 
 ---
@@ -59,11 +59,11 @@ Sì. Ad esempio, puoi passare da Sandox a Produzione, oppure da Produzione a San
 
 No, la condivisione non è attualmente supportata.
 
-## Quando potrebbe diventare disponibile una funzione di rollback?
+## Il rollback del pacchetto è disponibile?
 
 ### Risposta
 
-Il rollback è una priorità assoluta ed è attualmente in fase di sviluppo. La funzionalità di ripristino verrà rilasciata nel terzo o quarto trimestre del 2024.
+Il rollback del pacchetto è disponibile per il pacchetto più recente, entro 24 ore dall’installazione del pacchetto.
 
 ## Sarà possibile saltare la promozione dei singoli componenti? Dove sono presenti le opzioni `Use Existing`, `Overwrite` e `Save with a new Name`&quot;, è possibile aggiungere `Skip` in modo da saltare la promozione dei singoli parametri?
 
