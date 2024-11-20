@@ -6,7 +6,7 @@ description: Non è possibile cambiare il proprietario di un report. Tuttavia, q
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8089cbeb-4258-48b8-b13a-dfbd739c526a
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Cambiare il proprietario di un report
+
+<!-- Audited: 11/2024 -->
 
 Non è possibile cambiare il proprietario di un report. Tuttavia, quando si copia un report, si diventa automaticamente il proprietario del report copiato.
 

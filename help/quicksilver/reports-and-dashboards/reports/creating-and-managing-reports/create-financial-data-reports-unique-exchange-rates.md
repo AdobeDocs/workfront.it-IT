@@ -6,14 +6,16 @@ description: Se in Adobe Workfront sono stati configurati più tassi di cambio, 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a0837c70-8330-4c38-98dc-8cf2e7e2e4bd
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 2322415c173919a1fecffabb4b561645d33eea8d
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
 
 # Creazione di report di dati finanziari con tassi di cambio univoci
+
+<!-- Audited: 11/2024 -->
 
 Se in Adobe Workfront sono stati configurati più tassi di cambio, è possibile impostare i valori finanziari nei report e negli elenchi in modo che vengano visualizzati in una valuta diversa da quella predefinita.
 
@@ -27,6 +29,8 @@ Se nel rapporto sono presenti progetti con una valuta unica, anche le somme in r
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
@@ -39,20 +43,31 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano </p> </td> 
+   <td> 
+      <p>Nuovo:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Corrente:</p>
+         <ul>
+         <li><p>Piano</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari</p> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari</p> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td role="rowheader">Autorizzazioni oggetto*</td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisiti
 
@@ -125,8 +140,6 @@ Per visualizzare in un rapporto due progetti con valute personalizzate:
 1. Fai clic su **Salva e Chiudi**.
 
    Il totale del **Costo effettivo** viene visualizzato nel Raggruppamento utilizzando la valuta predefinita del sistema, indipendentemente dalla valuta dei progetti nel report.
-
-   ![Valuta visualizzata nel raggruppamento](assets/qs-currency-displayed-in-groupings-2022-350x292.png)
 
    Se i due progetti hanno valute diverse tra loro, nel Raggruppamento del rapporto viene visualizzata anche la valuta predefinita del sistema.
 
