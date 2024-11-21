@@ -9,7 +9,7 @@ description: In uno scenario  [!DNL Adobe Workfront Fusion] , puoi automatizzare
 author: Becky
 feature: Workfront Fusion
 exl-id: 1987156c-e003-4f99-8913-cb47f77efbfc
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '1821'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   <tr> 
    <td role="rowheader">Prodotto</td> 
    <td>
-   <p>Fabbisogno prodotto corrente: se si dispone del piano [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], l'organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo. [!DNL Workfront Fusion] è incluso nel piano [!UICONTROL Ultimate] [!DNL Workfront].</p>
+   <p>Fabbisogno prodotto corrente: se disponi del piano [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo. [!DNL Workfront Fusion] è incluso nel piano [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>Oppure</p>
    <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</p>
    </td> 
@@ -279,7 +279,7 @@ Il modulo restituisce l’ID dell’e-mail e degli eventuali campi associati, in
    <td> <p>Selezionare la cartella [!DNL Gmail] che contiene l'e-mail.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Email ID (UID)]</td> 
+   <td>[!UICONTROL ID e-mail (UID)]</td> 
    <td> <p> Inserisci o mappa l’ID e-mail.</p> </td> 
   </tr> 
  </tbody> 
@@ -306,7 +306,7 @@ Il modulo restituisce l’ID dell’e-mail e degli eventuali campi associati, in
    <td> <p>Selezionare la cartella [!DNL Gmail] che contiene l'e-mail.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Email ID (UID)] </td> 
+   <td>[!UICONTROL ID e-mail (UID)] </td> 
    <td> <p>Inserisci o mappa l’ID e-mail dell’e-mail che desideri contrassegnare come non letta.</p> </td> 
   </tr> 
  </tbody> 
@@ -337,7 +337,7 @@ Il modulo restituisce l’ID dell’e-mail e degli eventuali campi associati, in
    <td> <p> Selezionare la cartella di destinazione [!DNL Gmail] in cui si desidera spostare l'e-mail.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Email ID (UID)]</td> 
+   <td>[!UICONTROL ID e-mail (UID)]</td> 
    <td> <p> Inserisci o mappa l’ID e-mail dell’e-mail che desideri spostare.</p> </td> 
   </tr> 
  </tbody> 
@@ -368,7 +368,7 @@ Il modulo restituisce l’ID dell’e-mail e degli eventuali campi associati, in
    <td> <p>Selezionare la cartella di destinazione [!DNL Gmail] in cui copiare l'e-mail.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Email ID (UID)]</td> 
+   <td>[!UICONTROL ID e-mail (UID)]</td> 
    <td> <p>Inserisci o mappa l’ID e-mail dell’e-mail da copiare.</p> </td> 
   </tr> 
  </tbody> 

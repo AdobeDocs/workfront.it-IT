@@ -10,7 +10,7 @@ description: Adobe Workfront Fusion richiede una licenza Adobe Workfront Fusion 
 author: Becky
 feature: Workfront Fusion
 exl-id: bf6c1d82-7926-4bf9-8424-e658650ee6b1
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '4070'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   <tr> 
    <td role="rowheader">Prodotto</td> 
    <td>
-   <p>Fabbisogno prodotto corrente: se si dispone del piano [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], l'organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo. [!DNL Workfront Fusion] è incluso nel piano [!UICONTROL Ultimate] [!DNL Workfront].</p>
+   <p>Fabbisogno prodotto corrente: se disponi del piano [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo. [!DNL Workfront Fusion] è incluso nel piano [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>Oppure</p>
    <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</p>
    </td> 
@@ -996,11 +996,11 @@ Per informazioni sui campi, consulta [Riprodurre un processo](https://docs.gitla
 
 +++
 
-+++**[!UICONTROL Commento Post da confermare]**
++++**[!UICONTROL Pubblica commento per confermare]**
 
 Questo modulo di azione aggiunge un commento a un commit.
 
-Per informazioni sui campi, vedere [Commento di Post per eseguire il commit](https://docs.gitlab.com/ee/api/commits.html#post-comment-to-commit) nella documentazione di [!DNL GitLab].
+Per informazioni sui campi, vedere [Pubblica commento per eseguire il commit](https://docs.gitlab.com/ee/api/commits.html#post-comment-to-commit) nella documentazione di [!DNL GitLab].
 
 +++
 

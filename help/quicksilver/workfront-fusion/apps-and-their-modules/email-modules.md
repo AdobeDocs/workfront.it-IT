@@ -9,7 +9,7 @@ description: In uno scenario  [!DNL Adobe Workfront Fusion] , puoi collegare il 
 author: Becky
 feature: Workfront Fusion
 exl-id: 384ba60a-d79e-4126-a247-6d67b5154ede
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '2626'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   <tr> 
    <td role="rowheader">Prodotto</td> 
    <td>
-   <p>Fabbisogno prodotto corrente: se si dispone del piano [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], l'organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo. [!DNL Workfront Fusion] è incluso nel piano [!UICONTROL Ultimate] [!DNL Workfront].</p>
+   <p>Fabbisogno prodotto corrente: se disponi del piano [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo. [!DNL Workfront Fusion] è incluso nel piano [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>Oppure</p>
    <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</p>
    </td> 
@@ -374,7 +374,7 @@ Contrassegna un&#39;e-mail o una bozza in una cartella selezionata come già let
    <td>Seleziona la cartella dell’e-mail da contrassegnare come letta. Esempio: primario.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL ID e-mail (UID)]</p> </td> 
    <td> <p>Inserisci l’UID e-mail dell’e-mail che desideri contrassegnare come letta.</p> <p>È possibile ottenere l'UID dell'e-mail utilizzando il modulo [!UICONTROL E-mail] &gt;[!UICONTROL E-mail di controllo] o il modulo [!UICONTROL E-mail di ricerca].</p> </td> 
   </tr> 
  </tbody> 
@@ -397,7 +397,7 @@ Contrassegna un messaggio e-mail o una bozza in una cartella selezionata come no
    <td>Seleziona la cartella dell’e-mail da contrassegnare come non letta. Esempio: primario.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL ID e-mail (UID)]</p> </td> 
    <td> <p>Inserisci l’UID e-mail dell’e-mail che desideri contrassegnare come non letta.</p> <p>È possibile ottenere l'UID dell'e-mail utilizzando il modulo [!UICONTROL E-mail] &gt;[!UICONTROL E-mail di controllo] o il modulo [!UICONTROL E-mail di ricerca].</p> </td> 
   </tr> 
  </tbody> 
@@ -424,7 +424,7 @@ Sposta un messaggio e-mail o una bozza selezionati in una cartella selezionata.
    <td> <p> Seleziona la cartella a cui desideri aggiungere l’e-mail. Esempio: lavoro.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL ID e-mail (UID)]</p> </td> 
    <td> <p>Immetti l’UID e-mail dell’e-mail che desideri spostare nella cartella di destinazione.</p> <p>È possibile ottenere l'UID dell'e-mail utilizzando il modulo [!UICONTROL E-mail] &gt;[!UICONTROL E-mail di controllo] o il modulo [!UICONTROL E-mail di ricerca].</p> </td> 
   </tr> 
  </tbody> 
@@ -451,7 +451,7 @@ Copia un messaggio e-mail o una bozza in una cartella selezionata.
    <td> <p> Seleziona la cartella in cui desideri copiare l’e-mail. Esempio: lavoro.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL ID e-mail (UID)]</p> </td> 
    <td> <p>Immetti l’UID e-mail dell’e-mail da copiare nella cartella di destinazione.</p> <p>È possibile ottenere l'UID dell'e-mail utilizzando il modulo [!UICONTROL E-mail] &gt;[!UICONTROL E-mail di controllo] o il modulo [!UICONTROL E-mail di ricerca].</p> </td> 
   </tr> 
  </tbody> 
@@ -474,7 +474,7 @@ Rimuove un messaggio e-mail o una bozza dalla cartella selezionata.
    <td>Seleziona la cartella dell’e-mail da eliminare. Esempio: primario.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL ID e-mail (UID)]</p> </td> 
    <td> <p>Immetti l’UID e-mail dell’e-mail da eliminare.</p> <p>È possibile ottenere l'UID dell'e-mail utilizzando il modulo [!UICONTROL E-mail] &gt;[!UICONTROL E-mail di controllo] o il modulo [!UICONTROL E-mail di ricerca].</p> </td> 
   </tr> 
   <tr> 
@@ -538,7 +538,7 @@ Restituisce e-mail che corrispondono ai criteri specificati.
    <td> <p>Inserisci o mappa le parole chiave per recuperare solo le e-mail contenenti frasi specifiche.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Email ID (UID)]</td> 
+   <td role="rowheader">[!UICONTROL ID e-mail (UID)]</td> 
    <td> <p> Immetti l’ID e-mail (UID) dell’e-mail di cui desideri recuperare i dettagli.</p> <p>È possibile ottenere l'UID dell'e-mail utilizzando il modulo [!UICONTROL Watch Email] di [!DNL Workfront Fusion] o il modulo [!UICONTROL Search Email].</p> </td> 
   </tr> 
   <tr> 
