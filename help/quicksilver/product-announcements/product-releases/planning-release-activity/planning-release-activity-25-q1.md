@@ -6,9 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
+source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -32,6 +33,29 @@ Questo articolo descrive le funzioni rilasciate per Workfront Planning durante l
 <!--remove the general activity mention after First Quarter 2025 is released-->
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning dopo il rilascio di disponibilità generale del 28 agosto 2024, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Assistente AI di Adobe disponibile nelle aree dei dettagli del record
+
+>[!NOTE]
+>
+>Versione di anteprima: 21 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+
+Per semplificare l&#39;esecuzione del lavoro, abbiamo aggiunto l&#39;Assistente AI di Adobe alla pagina di anteprima dei dettagli o alla pagina del record. È possibile utilizzare l&#39;Assistente AI all&#39;interno di una pagina di record per aggiornare le informazioni sul record.
+
+Per informazioni, vedere [Panoramica dell&#39;Assistente di Adobe Workfront Planning AI](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
+
+## Nuova esperienza durante l’aggiunta di una miniatura e di una copertina a una pagina di record
+
+>[!NOTE]
+>
+>Versione di anteprima: 20 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+
+Quando si apre l&#39;anteprima o la pagina di un record e il record non contiene una miniatura o un&#39;immagine di copertina, è necessario passare il puntatore sull&#39;area sopra il nome del record nell&#39;intestazione per visualizzare le opzioni per aggiungere una copertina e un&#39;immagine di miniatura al record. Prima di questo miglioramento, le immagini segnaposto vuote per la miniatura e la copertina mostrate sopra il nome del record.
+
+Per ulteriori informazioni, consulta i seguenti articoli:
+
+* [Aggiungere una copertina a un record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
+* [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
 
 ## Nuovi tipi di visualizzazione per i campi di tipo percentuale nella visualizzazione Tabella
 

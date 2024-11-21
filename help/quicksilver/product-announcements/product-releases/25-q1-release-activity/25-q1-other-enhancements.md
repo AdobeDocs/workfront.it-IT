@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
+source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,17 @@ ht-degree: 0%
 Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima con la versione del primo trimestre 2025. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del primo trimestre 2025, consulta [Panoramica sulla versione del primo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Aggiornamento della modalità di gestione delle risorse spostate o eliminate nelle cartelle collegate
+
+>[!NOTE]
+>
+>Versione di anteprima: 21 novembre 2024; versione di produzione per tutti i clienti: 5 dicembre 2024
+
+Abbiamo modificato il modo in cui vengono gestite le risorse spostate ed eliminate quando si utilizza l’integrazione Adobe Workfront con Experience Manager Assets e gli Assets Essentials:
+
+* Risorse eliminate: quando una risorsa viene eliminata all’interno di una cartella collegata in Assets o in Assets Essentials, la risorsa eliminata viene mantenuta nell’area Documenti progetto.
+* Risorse spostate: quando una risorsa viene spostata all’esterno di una cartella collegata in Assets o Assets Essentials, la risorsa spostata viene mantenuta nell’area Documenti progetti.
 
 ## Le sezioni all’interno di un modulo personalizzato ora sono comprimibili ed espandibili
 

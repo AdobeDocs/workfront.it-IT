@@ -4,9 +4,10 @@ description: Miglioramenti per gli amministratori del primo trimestre 2025
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
+exl-id: fa24040d-0403-4799-b690-c3d172797115
+source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -17,6 +18,36 @@ Questa pagina descrive tutti i miglioramenti per gli amministratori apportati co
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del primo trimestre 2025, consulta [Panoramica sulla versione del primo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
+## Preferenza per l&#39;utilizzo della pianificazione del progetto o dell&#39;utente per le attività a assegnazione singola
+
+>[!NOTE]
+>
+>Versione di anteprima: 21 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+
+In qualità di amministratore di sistema o di gruppo, è ora disponibile una nuova preferenza per indicare se Workfront deve utilizzare la pianificazione del progetto o quella dell&#39;utente per calcolare la sequenza temporale del progetto quando si assegna un utente a un&#39;attività e sia il progetto che l&#39;utente sono associati a una pianificazione. Prima di questo miglioramento, questa impostazione esisteva per le assegnazioni a più utenti. L’impostazione è ora disponibile per le assegnazioni di attività per singolo utente.
+
+Per ulteriori informazioni, vedere [Configurare le preferenze di progetto a livello di sistema](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+
+## Le regole business ora supportano i collegamenti ipertestuali
+
+>[!NOTE]
+>
+>Versione di anteprima: 21 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+
+È ora possibile includere collegamenti ipertestuali nel messaggio di errore personalizzato di una regola business, per guidare l’utente nella modifica della propria azione all’interno del vincolo della regola. L’URL statico potrebbe contenere un collegamento alla documentazione o ad altre pagine utili per l’utente.
+
+Per informazioni, vedere [Creare e modificare le regole business](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+
+## È ora disponibile il filtro per i campi nativi typeahead
+
+>[!NOTE]
+>
+>Versione di anteprima: 21 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+
+Quando si aggiunge un riferimento a un campo nativo in un modulo personalizzato che fa riferimento a un campo typeahead, ad esempio Portfolio, Società o Proprietario, è ora disponibile un&#39;opzione di filtro. Il filtro consente di limitare gli oggetti che gli utenti possono scegliere quando utilizzano il campo. Questo filtro personalizzato funziona come un filtro in un campo typeahead personalizzato, utilizzando la modalità testo per definire il filtro.
+
+Per informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
 ## Icona &quot;Sposta in&quot; aggiunta ai campi personalizzati
 
 >[!NOTE]
@@ -26,4 +57,3 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 Quando un modulo personalizzato contiene più sezioni con molti campi, può essere difficile spostare un campo da una sezione all’altra trascinandolo. A ciascun campo è stata aggiunta l’icona &quot;sposta in&quot;, che consente di selezionare la sezione in cui inserire il campo.
 
 Per ulteriori informazioni, vedere [Organizzazione e anteprima di un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
-
