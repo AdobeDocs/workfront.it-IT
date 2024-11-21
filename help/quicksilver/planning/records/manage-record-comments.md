@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
 source-wordcount: '981'
 ht-degree: 0%
@@ -56,7 +56,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 <p>Workfront Planning non è disponibile per i piani Workfront legacy</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Piano di pianificazione Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Pacchetto Adobe Workfront Planning*</p></td> 
    <td> 
 <p>Qualsiasi </p> 
 <p>Per ulteriori informazioni su quanto incluso in ogni piano di Workfront Planning, contattare l'account manager Workfront. </p> 
@@ -65,7 +65,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td role="rowheader"><p>Piattaforma Adobe Workfront</p></td> 
    <td> 
 <p>Per poter accedere a tutte le funzionalità di Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p> 
-<p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata di Adobe per Workfront</a>. </p> 
+<p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata Adobe per Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -116,7 +116,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
   >[!NOTE]
   >
-  >   Solo gli utenti dei clienti che hanno effettuato l’onboarding con Adobe Unified Experience ricevono sia una notifica in-app che una notifica e-mail. Per determinare se la tua azienda utilizza l&#39;esperienza unificata Adobe, consulta [Esperienza unificata Adobe per Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+  >   Solo gli utenti dei clienti che hanno effettuato l’onboarding con Adobe Unified Experience ricevono sia una notifica in-app che una notifica e-mail. Per determinare se la tua azienda utilizza l&#39;esperienza unificata di Adobe, consulta [Esperienza unificata di Adobe per Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 * È possibile aggiungere un aggiornamento ai record ed esaminare la cronologia delle modifiche dalle seguenti aree di Workfront Planning:
 
@@ -152,7 +152,7 @@ Viene visualizzata la pagina del tipo di record e vengono visualizzati tutti i r
 1. (Facoltativo) Per annullare o ripristinare una modifica, utilizzare i seguenti tasti di scelta rapida:
    * CTRL + Z (⌘+z per Mac) per annullare una modifica
    * CTRL+Y (⌘+y per Mac) per ripetere una modifica
-1. (Facoltativo e condizionale) Se l&#39;istanza Workfront fa parte dell&#39;Adobe Esperienza unificata, aggiungere **@** seguito dal nome di un utente per assegnare un tag a qualcuno nell&#39;aggiornamento. Per ulteriori informazioni, vedere la sezione [Considerazioni sull&#39;inserimento di commenti in un record](#considerations-about-commenting-on-a-record) in questo articolo.
+1. (Facoltativo e condizionale) Se l&#39;istanza di Workfront fa parte di Adobe Unified Experience, aggiungi **@** seguito dal nome di un utente per assegnare un tag a qualcuno nell&#39;aggiornamento. Per ulteriori informazioni, vedere la sezione [Considerazioni sull&#39;inserimento di commenti in un record](#considerations-about-commenting-on-a-record) in questo articolo.
 
 1. (Facoltativo) Utilizza le opzioni nella barra degli strumenti Testo formattato per formattare il testo, aggiungere emoticon, collegamenti o immagini all’aggiornamento, per migliorare i contenuti.
 

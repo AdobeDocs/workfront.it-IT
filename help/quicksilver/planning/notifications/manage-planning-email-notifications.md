@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 1%
@@ -55,7 +55,7 @@ ht-degree: 1%
 <p>Workfront Planning non è disponibile per i piani Workfront legacy</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Piano di pianificazione Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Pacchetto Adobe Workfront Planning*</p></td> 
    <td> 
 <p>Qualsiasi </p> 
 <p>Per ulteriori informazioni su quanto incluso in ogni piano di Workfront Planning, contattare l'account manager Workfront. </p> 
@@ -64,8 +64,8 @@ ht-degree: 1%
    <td role="rowheader"><p>Piattaforma Adobe Workfront</p></td> 
    <td> 
 <p>L’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p> 
-<p>Gli utenti dell’organizzazione ricevono notifiche da Workfront Planning solo quando l’organizzazione è integrata nell’esperienza unificata di Adobe. </p>
-<p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata di Adobe per Workfront</a>. </p> 
+<p>Gli utenti dell’organizzazione ricevono notifiche da Workfront Planning solo quando l’organizzazione è integrata in Adobe Unified Experience. </p>
+<p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata Adobe per Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 

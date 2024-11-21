@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
 source-wordcount: '1367'
 ht-degree: 2%
@@ -64,7 +64,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    </td>
 
 <tr>
-   <td role="rowheader"><p>Piano di pianificazione Adobe Workfront*</p></td>
+   <td role="rowheader"><p>Pacchetto Adobe Workfront Planning*</p></td>
    <td>
 <p>Qualsiasi </p>  
 <p>Per ulteriori informazioni su quanto incluso in ogni piano di Workfront Planning, contattare l'account manager Workfront. </td>
@@ -205,7 +205,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    * Chiunque con accesso per contribuire, o superiore, all’area di lavoro
    * Chiunque abbia il collegamento
 
-   >[!IMPORTANT]
+   >[!WARNING]
+   >
    >
    >Quando si seleziona **Chiunque disponga del collegamento** può accedere al modulo e inviare un nuovo record, anche persone esterne all&#39;organizzazione che non dispongono di un account Workfront.
 

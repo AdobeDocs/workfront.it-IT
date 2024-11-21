@@ -6,7 +6,7 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 1%
@@ -65,7 +65,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    </td>
 
 <tr>
-   <td role="rowheader"><p>Piano di pianificazione Adobe Workfront*</p></td>
+   <td role="rowheader"><p>Pacchetto Adobe Workfront Planning*</p></td>
    <td>
 <p>Uno dei seguenti piani di Workfront Planning:</p>
 <ul><li>In Pianificazione</li>
@@ -78,7 +78,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td role="rowheader"><p>Piattaforma Adobe Workfront</p></td>
    <td>
 <p>Per poter accedere a tutte le funzionalità di Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p>
-<p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata di Adobe per Workfront</a>. </p>
+<p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata Adobe per Workfront</a>. </p>
    </td>
 
 </tr>

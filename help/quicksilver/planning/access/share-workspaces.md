@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 2%
@@ -57,7 +57,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 <p>Workfront Planning non è disponibile per i piani Workfront legacy</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Piano di pianificazione Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Pacchetto Adobe Workfront Planning*</p></td> 
    <td> 
 <p>Qualsiasi </p> 
 <p>Per ulteriori informazioni su quanto incluso in ogni piano di Workfront Planning, contattare l'account manager Workfront. </p> 
@@ -66,8 +66,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td role="rowheader"><p>Piattaforma Adobe Workfront</p></td> 
    <td> 
 <p>Per poter accedere a tutte le funzionalità di Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p>
-<p>Per consentire agli utenti di richiedere e concedere autorizzazioni per un’area di lavoro da una richiesta di autorizzazione, la tua organizzazione deve essere integrata nell’esperienza unificata di Adobe. </p> 
-<p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata di Adobe per Workfront</a>. </p> 
+<p>Per consentire agli utenti di richiedere e concedere autorizzazioni per un’area di lavoro da una richiesta di autorizzazione, è necessario che la tua organizzazione sia integrata nell’esperienza unificata di Adobe. </p> 
+<p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata Adobe per Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 

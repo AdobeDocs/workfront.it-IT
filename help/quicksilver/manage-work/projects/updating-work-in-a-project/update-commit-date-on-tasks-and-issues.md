@@ -6,9 +6,9 @@ description: Puoi aggiornare manualmente la data di conferma di un’attività o
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,9 @@ Puoi aggiornare manualmente la data di conferma di un’attività o di un proble
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per l’attività o il problema</p> </td> 
+   <td> <p>Gestire le autorizzazioni per l’attività o il problema</p>
+   <p> Per aggiornare la data del commit, devi essere assegnato all’attività o al problema </p>
+    </td> 
   </tr> 
  </tbody> 
 </table>

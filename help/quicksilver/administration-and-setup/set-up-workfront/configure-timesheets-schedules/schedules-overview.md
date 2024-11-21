@@ -10,7 +10,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -20,6 +20,13 @@ ht-degree: 0%
 # Panoramica sugli Schedules
 
 <!-- Audited: 1/2024 -->
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  
+
+-->
 
 È possibile definire la settimana lavorativa utilizzando le programmazioni e associare una programmazione a un utente o a un progetto. Questo consente a [!DNL Adobe Workfront] di calcolare le timeline e la disponibilità dell&#39;utente. Per istruzioni, vedere [Creare una pianificazione](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
@@ -60,6 +67,20 @@ Se un&#39;attività viene assegnata a un utente associato a una pianificazione e
 >[!DNL Workfront] utilizza la pianificazione di un utente solo quando l&#39;impostazione [!UICONTROL Calcola disponibilità risorse utilizzando] è impostata su [!UICONTROL La pianificazione dell&#39;utente] nell&#39;area [!UICONTROL Gestione risorse] di [!UICONTROL Configurazione]. Per informazioni sul modo in cui l&#39;impostazione [!UICONTROL Calcola la disponibilità delle risorse utilizzando] influisce sulla pianificazione utilizzata per la gestione delle risorse, vedere [Configurare le preferenze di gestione delle risorse](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 L&#39;ordine in cui le pianificazioni vengono utilizzate dal sistema quando ne esiste più di una è:
+
+<!--Replace the first bullet below with this when the setting releases: 
+* When one user is assigned to a task, the following scenarios exist, depending on what environment you use: 
+
+   * In the Production environment, [!DNL Workfront] uses the user's schedule for calculating the timeline of the task. This also includes the personal time of the user. The schedule of the project is ignored.
+
+      For more information about personal time, see [Configure personal time off](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+
+   * <span class="preview">In the Preview environment, [!DNL Workfront] uses either one of the following schedules, as defined in the [!UICONTROL Project Preferences] area of [!UICONTROL Setup]:</span>
+
+      * <span class="preview">The schedule of the user who is assigned to the task </span>
+      * <span class="preview">The schedule associated with the project.</span>
+
+-->
 
 * Quando un utente viene assegnato a un&#39;attività, [!DNL Workfront] utilizza la pianificazione dell&#39;utente per calcolare la sequenza temporale dell&#39;attività. Questo include anche il tempo personale dell’utente. La pianificazione del progetto viene ignorata.
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
-source-wordcount: '4106'
+source-wordcount: '4129'
 ht-degree: 1%
 
 ---
@@ -73,7 +73,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 <p>Workfront Planning non è disponibile per i piani Workfront legacy</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Piano di pianificazione Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Pacchetto Adobe Workfront Planning*</p></td> 
    <td> 
 <p>Qualsiasi </p> 
 <p>Per ulteriori informazioni su quanto incluso in ogni piano di Workfront Planning, contattare l'account manager Workfront. </p> 
@@ -206,6 +206,9 @@ OLD:
    Passa il puntatore del mouse sull&#39;intestazione di una colonna, fai clic sulla freccia rivolta verso il basso dopo il nome del campo, quindi fai clic su **Inserisci a sinistra** o **Inserisci a destra** per aggiungere il nuovo campo.
 1. Nella scheda **Nuovo campo**, cercare un tipo di campo nella casella **Tipo di campo** oppure selezionare uno dei tipi di campo seguenti:
 
+   Nella scheda **Nuovo campo**, cercare un tipo di campo nella casella <!--using any related keyword--> del **Tipo di campo** oppure selezionare uno dei tipi di campo elencati di seguito.
+
+
    * [Testo a riga singola](#single-line-text)
    * [Paragrafo](#paragraph)
    * [Selezione multipla](#multi-select)
@@ -225,6 +228,9 @@ OLD:
    >[!IMPORTANT]
    >
    >    Non è possibile modificare il tipo di campo dopo averlo salvato.
+
+   <!--Add this to the IMPORTANT above and make it a NOTE - should do directly to Prod:
+    * You can use any keyword that might be related to any of the field type names. For example, a search for "Budget" will display the Number or Currency field type.-->
 
 1. Continua ad aggiungere ogni campo, come descritto nelle sezioni seguenti.
 

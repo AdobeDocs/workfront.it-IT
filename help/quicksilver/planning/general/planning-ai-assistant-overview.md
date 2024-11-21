@@ -6,15 +6,21 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
 
 
 # Panoramica dell’Assistente di Adobe Workfront Planning AI
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> 
+-->
 
 {{planning-important-intro}}
 
@@ -59,9 +65,21 @@ In questo momento, puoi utilizzare l’Assistente IA per eseguire le seguenti az
 * Elimina record
 * Ripristina i record appena eliminati
 
+
+<!-- ## Locate the AI Assistant in Workfront Planning
+
+You can locate the AI Assistant in the following areas of Workfront Planning:
+
+* The main navigation bar, in the upper-right corner of the screen.
+* Inside the details area of a record, after you opened the record in the preview or after you opened the record's page. 
+
+-->
+
 ## Accedere all’Assistente AI nell’area Pianificazione
 
-1. Accedi a Workfront, quindi vai all&#39;area **Planning**.
+1. Accedi a Workfront, quindi fai clic sull&#39;icona ![](assets/dots-main-menu.png) del **menu principale** nell&#39;angolo superiore destro dello schermo o sull&#39;icona ![](assets/lines-main-menu.png) del **menu principale** nell&#39;angolo superiore sinistro, se disponibile.
+
+. Fare clic su **Pianificazione**. Verrà visualizzata l&#39;area Pianificazione.
 
 1. Fai clic su una **scheda dell&#39;area di lavoro**.
 
@@ -69,7 +87,7 @@ In questo momento, puoi utilizzare l’Assistente IA per eseguire le seguenti az
 
 1. (Facoltativo) Fai clic su un **record** per aprire la pagina **Dettagli** del record.
 
-1. Fare clic sull&#39;icona **Assistente AI** nell&#39;angolo superiore destro della schermata nella barra di navigazione globale.
+1. Fai clic sull&#39;icona **Assistente AI** nell&#39;angolo superiore destro della schermata nella barra di navigazione globale <!--or in the upper-right corner of the record's preview or page.-->
 
    ![](assets/ai-assistant-icon-highlighted.png)
 
@@ -87,3 +105,6 @@ In questo momento, puoi utilizzare l’Assistente IA per eseguire le seguenti az
    Viene visualizzato un indicatore visivo mentre l’Assistente AI elabora i comandi, impostando le aspettative per il tempo di risposta.
 
    Dopo aver ricevuto una risposta corretta, segui i collegamenti forniti o osserva le modifiche a sinistra.
+
+
+

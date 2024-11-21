@@ -5,9 +5,9 @@ title: Utilizzo dei fusi orari
 description: Può essere utile capire come [!DNL Adobe Workfront] utilizza i fusi orari per calcolare i campi di tempo per gli oggetti e gli orari in altre aree, ad esempio le e-mail.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,13 @@ ht-degree: 0%
 # Utilizzo dei fusi orari
 
 <!-- Audited: 2/2024 -->
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+
+-->
 
 Può essere utile capire in che modo [!DNL Adobe Workfront] utilizza i fusi orari per calcolare quanto segue:
 
@@ -91,20 +98,37 @@ Gli amministratori di [!DNL Workfront] creano pianificazioni separate per ogni f
 
   Questa pianificazione potrebbe essere diversa da quella di un progetto. Se ad esempio un utente crea un&#39;attività nel progetto e non ne ha ancora assegnata alcuna, l&#39;attività utilizzerà la pianificazione del progetto. Quando un utente viene assegnato all’attività, questa utilizza la pianificazione dell’utente.
 
-  Se a un&#39;attività sono assegnati più utenti, il sistema utilizza uno dei seguenti, come configurato nelle preferenze di progetto a livello di sistema:
+  Se a un&#39;attività sono assegnati più utenti, il sistema utilizza uno dei seguenti elementi, come configurato nelle preferenze di progetto a livello di sistema o di gruppo:
 
    * Fuso orario per la pianificazione del proprietario principale dell&#39;attività
    * Il fuso orario per la pianificazione del progetto.
 
-  Questo può causare la modifica delle date delle attività.
+<!--
+   <div class="preview">
 
-  **Esempio:** un utente EST è assegnato a un&#39;attività di un giorno pianificata per iniziare alle 09:00 PST, ovvero mezzogiorno EST. Poiché all&#39;utente EST rimangono solo 2 ore lavorative al giorno, la data di completamento dell&#39;attività viene estesa di circa 6 ore al giorno lavorativo successivo.
+   If one user is assigned to a task, the system uses one of the following, as configured in the system- or group-wide project preferences: 
 
-  Per informazioni sull&#39;area [!UICONTROL Preferenze progetto] di [!UICONTROL Configurazione], vedere [Configurare le preferenze di progetto a livello di sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   * The time zone for the schedule of the task's assignee
+   * The time zone for the schedule of the project.
 
-  Per istruzioni sull&#39;assegnazione di una pianificazione a un progetto o a un utente, vedere [Creare una pianificazione](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+   </div>
+-->
 
-  Per informazioni su come il fuso orario configurato nella pianificazione influisce sulla distribuzione di [!UICONTROL Ore pianificate] nel [!UICONTROL Bilanciatore dei carichi di lavoro], vedi [Gestione delle allocazioni utente nel [!UICONTROL Bilanciatore dei carichi di lavoro]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Questo può causare la modifica delle date delle attività.
+
+>[!BEGINSHADEBOX]
+
+**ESEMPIO:**
+Un utente EST è assegnato a un&#39;attività di un giorno pianificata per iniziare alle 09:00 PST, che è mezzogiorno EST. Poiché all&#39;utente EST rimangono solo 2 ore lavorative al giorno, la data di completamento dell&#39;attività viene estesa di circa 6 ore al giorno lavorativo successivo.
+
+
+>[!ENDSHADEBOX]
+
+Per informazioni sull&#39;area [!UICONTROL Preferenze progetto] di [!UICONTROL Configurazione], vedere [Configurare le preferenze di progetto a livello di sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+
+Per istruzioni sull&#39;assegnazione di una pianificazione a un progetto o a un utente, vedere [Creare una pianificazione](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+
+Per informazioni su come il fuso orario configurato nella pianificazione influisce sulla distribuzione di [!UICONTROL Ore pianificate] nel [!UICONTROL Bilanciatore dei carichi di lavoro], vedi [Gestione delle allocazioni utente nel [!UICONTROL Bilanciatore dei carichi di lavoro]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 
 ### Utilizzare i campi tempo calcolati in un modulo personalizzato {#use-calculated-time-fields-in-a-custom-form}

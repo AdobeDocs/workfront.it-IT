@@ -1,5 +1,5 @@
 ---
-source-git-commit: 400ca2ac10a94ccfa79bef8daf06b924dadac230
+source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
 workflow-type: tm+mt
 source-wordcount: '2648'
 ht-degree: 1%
@@ -276,7 +276,7 @@ Per impostare le cartelle collegate:
 
    Viene visualizzata la pagina di destinazione Workfront Planning.
 
-1. (Facoltativo e condizionale) Se sei un amministratore di Workfront, fai clic sulle seguenti schede:
+1. (Facoltativo e condizionale) Se si è un amministratore di Workfront, fare clic su una delle schede seguenti:
 
    * **Aree di lavoro personali**: visualizza le aree di lavoro create.
    * **Altre aree di lavoro**: visualizza tutte le aree di lavoro in Workfront Planning, incluse quelle condivise con te.
@@ -291,8 +291,8 @@ Per impostare le cartelle collegate:
 >
 >Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
 >
->* Un nuovo piano e una nuova licenza Workfront. Workfront Planning non è disponibile per i piani o le licenze legacy di Workfront.
->* Una licenza aggiuntiva per Workfront Planning.
+>* Un nuovo pacchetto Workfront e una nuova licenza. Workfront Planning non è disponibile per i pacchetti o le licenze legacy di Workfront.
+>* Un pacchetto di Workfront Planning.
 >* L’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.
 >
 > Per un elenco completo dei requisiti per accedere a Workfront Planning, vedere [Panoramica dell&#39;accesso](/help/quicksilver/planning/access/access-overview.md).

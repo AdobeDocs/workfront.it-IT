@@ -1,52 +1,166 @@
 ---
-title: Creazione di oggetti Workfront mediante le automazioni dei record di Workfront Planning
+title: Creazione di oggetti Workfront mediante Adobe Workfront Planning Record Automations
 description: In Workfront Planning è possibile configurare automazioni che, se attivate, creano oggetti in Workfront.
+hide: true
+hidefromtoc: true
+exl-id: c669217a-40e2-471f-951d-93157a34f1ee
+source-git-commit: 03eedb00ab45b95e87670872cf015c0f6840658e
+workflow-type: tm+mt
+source-wordcount: '1071'
+ht-degree: 4%
+
+---
+
+# Creazione di oggetti mediante le automazioni dei record di Adobe Workfront Planning
+
+<!--add screen shots when UI is finalized-->
+<!--when you make this public, add this to the metadata above (and take the "hide" tags out):
+
 feature: Workfront Planning
 role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
-source-git-commit: cfaacc4137ebfa7f2ed057522d43bd82715011df
-workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 1%
 
----
+-->
 
+In Adobe Workfront Planning è possibile configurare automazioni che, se attivate, creano oggetti in Workfront o Workfront Planning.
 
-# Creazione di oggetti mediante le automazioni dei record di Workfront Planning
-
-In Workfront Planning è possibile configurare automazioni che, se attivate, creano oggetti in Workfront o Workfront Planning.
-
-L’automazione viene attivata nei record. L&#39;oggetto creato è connesso al record Planning in cui è stata attivata l&#39;automazione.
+Puoi configurare e attivare l’automazione nella pagina del record. L&#39;oggetto creato viene connesso al record Planning e posizionato nel campo specificato nell&#39;automazione.
 
 Ad esempio, è possibile creare un&#39;automazione che accetta una campagna di Workfront Planning e crea un progetto in Workfront per tenere traccia dell&#39;avanzamento della campagna. Il progetto sarà collegato alla campagna di pianificazione di Workfront.
 
 Per ulteriori informazioni sui record connessi, vedere [Panoramica sui record connessi](/help/quicksilver/planning/records/connected-records-overview.md).
+
+## Requisiti di accesso
+
++++ Espandere per visualizzare i requisiti di accesso per Workfront Planning.
+
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Prodotti</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Piano Adobe Workfront*</p></td> 
+   <td> 
+<p>Uno dei seguenti piani di Workfront:</p> 
+<ul><li>Seleziona</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning non è disponibile per i piani Workfront legacy</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Pacchetto Adobe Workfront Planning*</p></td> 
+   <td> 
+<p>Qualsiasi </p> 
+<p>Per ulteriori informazioni su quanto incluso in ogni piano di Workfront Planning, contattare l'account manager Workfront. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Piattaforma Adobe Workfront</p></td> 
+   <td> 
+<p>Per poter accedere a tutte le funzionalità di Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p> 
+<p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata Adobe per Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licenza Adobe Workfront*</p></td> 
+   <td> Standard
+   <p>Workfront Planning non è disponibile per le licenze Workfront legacy</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
+   <td> <p>Nessun controllo del livello di accesso per Adobe Workfront Planning</p> 
+   <p>Modifica l'accesso in Workfront per i tipi di oggetto che desideri creare (progetti, portfolio, programmi). </p>  
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td> <p>Consente di gestire le autorizzazioni per l'area di lavoro a cui si desidera aggiungere record. </p>  
+   <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>
+   <p>Gestisci le autorizzazioni per gli oggetti Workfront (portfolio) per aggiungere oggetti figlio (progetti).</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Modello di layout</p></td> 
+   <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+
+## Considerazioni sulla creazione di oggetti e record mediante un&#39;automazione
+
+* Il nome del nuovo oggetto o record corrisponde al nome del record da cui è stato creato.
+* Se nel record per il quale si utilizza l&#39;automazione sono già connessi oggetti dello stesso tipo nel campo selezionato per l&#39;aggiunta di nuovi oggetti, i nuovi oggetti vengono aggiunti al campo di connessione e anche gli oggetti esistenti rimangono connessi.
 
 
 ## Configurare un&#39;automazione in Workfront Planning
 
 È necessario configurare un&#39;automazione in Workfront Planning prima di poterla utilizzare per creare oggetti.
 
-1. Fare clic sul menu **Altro** ![](assets/more-menu.png) e selezionare **Automazioni**.
+{{step1-to-planning}}
+
+1. Fare clic su una scheda del tipo di record, quindi sul nome di un record.
+
+   Viene visualizzata la pagina del tipo di record.
+1. Fai clic sul menu **Altro** ![](assets/more-menu.png) a destra del nome del tipo di record, quindi fai clic su **Gestisci automazioni**.
 
    Viene visualizzato l’elenco delle automazioni disponibili.
 
-1. Fai clic su **Crea nuova automazione** nell&#39;angolo superiore destro dello schermo.
-1. Nel campo **Testo pulsante** immettere il testo che si desidera visualizzare sul pulsante. Gli utenti faranno clic su questo pulsante quando utilizzano l’automazione per creare un oggetto Workfront.
-1. (Facoltativo) Per aggiungere un’icona al pulsante, seleziona un’icona tra le opzioni disponibili.
-1. Nel campo **Crea un tipo di**, selezionare l&#39;oggetto che si desidera creare con l&#39;automazione.
+1. Fai clic su **Nuova automazione** nell&#39;angolo superiore destro dello schermo.
+1. Aggiorna i campi seguenti:
 
-   Gli oggetti disponibili sono:
+   * **Testo pulsante**: immettere il testo da visualizzare sul pulsante di automazione. Gli utenti faranno clic su questo pulsante quando utilizzano l’automazione per creare un oggetto Workfront.
+   * **Icona pulsante**: selezionare un&#39;icona per il pulsante. Per impostazione predefinita, viene selezionata un&#39;icona.
+   * **Tipo di oggetto**: selezionare l&#39;oggetto da creare con l&#39;automazione. Questo è un campo obbligatorio.
 
-   * Progetto
-   * Portfolio
-   * Programma
-   * Gruppo
+     È possibile creare i seguenti oggetti dai record di Workfront Planning:
 
-1. In **Selezionare il campo da utilizzare nel campo nome progetto**, selezionare un campo record. Il nuovo oggetto avrà il contenuto di questo campo come nome.
-1. Nel campo **Seleziona il campo per ricollegare il progetto creato**, seleziona un campo record. Il nuovo oggetto verrà visualizzato in questo campo quando si visualizza il record in Workfront Planning.
-1. Selezionare le altre opzioni disponibili per il tipo di oggetto che si sta creando.
+      * Progetto
+      * Portfolio
+      * Programma
+      * Gruppo
+      * Inserimento
+1. (Condizionale) A seconda del tipo di oggetto da creare, aggiorna i campi seguenti:
+
+   * **Progetto**:
+      * **Campo connesso in cui viene creato l&#39;oggetto**: campo connesso in cui verrà visualizzato il nuovo progetto. Questo campo è obbligatorio
+      * **Modello da cui creare il progetto**: selezionare un modello di progetto che verrà utilizzato da Workfront per creare il progetto.
+   * **Portfolio**:
+      * **Campo connesso in cui viene creato l&#39;oggetto**: campo connesso in cui verrà visualizzato il nuovo portfolio. Questo è un campo obbligatorio.
+      * **Modulo personalizzato da allegare al nuovo portfolio**: selezionare un modulo personalizzato da allegare al nuovo portfolio. È necessario creare un modulo personalizzato portfolio prima di poterlo selezionare.
+   * **Programma**:
+      * **Campo connesso in cui viene creato l&#39;oggetto**: campo connesso in cui verrà visualizzato il nuovo programma. Questo è un campo obbligatorio.
+      * **Portfolio programmi**: seleziona un portfolio in cui verrà aggiunto il nuovo programma. Questo è un campo obbligatorio.
+      * 
+         * **Modulo personalizzato da allegare al nuovo programma**: selezionare un modulo personalizzato da allegare al nuovo programma. È necessario creare un modulo personalizzato per il programma prima di selezionarlo.
+   * **Gruppo**:
+      * **Campo connesso in cui viene creato l&#39;oggetto**: campo connesso in cui verrà visualizzato il nuovo gruppo. Questo è un campo obbligatorio.
+      * **Modulo personalizzato da allegare al nuovo gruppo**: selezionare un modulo personalizzato da allegare al nuovo programma. È necessario creare un modulo personalizzato per il programma prima di selezionarlo.
+   * **Record**:
+      * **Tipo di record connesso**: selezionare il tipo di record che si desidera creare.
+      * **Campo connesso in cui viene creato il record**: campo connesso in cui verrà visualizzato il nuovo record. Questo è un campo obbligatorio.
+      * **Campo mappa**: selezionare i campi dal tipo di record per il quale viene creata l&#39;automazione per eseguirne il mapping ai campi del tipo di record connesso.
+      * **Al campo record connesso**: selezionare dal record connesso i campi corrispondenti ai campi del tipo di record per cui si crea l&#39;automazione.
+1. (Facoltativo e condizionale) Se non si dispone di un campo connessione per un tipo di oggetto Workfront, fare clic sull&#39;icona **Crea un campo connessione** ![](assets/create-a-connection-field-icon.png) per aggiungere un campo.
+1. (Facoltativo e condizionale) Se hai scelto di aggiungere un record, fai clic su **Aggiungi** nell&#39;area **Mappa campi connessi** per aggiungere e mappare campi aggiuntivi.
 1. Fai clic su **Crea**
 
 L’automazione viene visualizzata nell’elenco delle automazioni ed è disponibile per l’utilizzo nei record.
@@ -54,14 +168,20 @@ L’automazione viene visualizzata nell’elenco delle automazioni ed è disponi
 ## Utilizzare un&#39;automazione di Workfront Planning per creare un oggetto
 
 1. In Workfront Planning aprire la pagina del tipo di record contenente i record che si desidera utilizzare per creare oggetti Workfront.
+1. Aprire la vista tabella.
 1. Selezionare uno o più record.
-1. Fai clic sul pulsante di automazione nell’angolo inferiore destro dello schermo.
 
-   In questo esempio, si tratta del pulsante Crea progetto.
+   Nella parte inferiore della tabella viene visualizzata una barra blu con pulsanti aggiuntivi, inclusi i pulsanti di automazione.
+1. Fai clic sul pulsante di automazione nell’angolo inferiore destro dello schermo.
 
    ![Pulsante di automazione](assets/automation-custom-button.png)
 
->[!NOTE]
->
->È consigliabile verificare che l&#39;oggetto sia stato creato e connesso come previsto.
+   Il nuovo oggetto viene visualizzato nel campo connesso indicato nella configurazione del pulsante di automazione.
 
+   >[!NOTE]
+   >
+   >È consigliabile verificare che l&#39;oggetto sia stato creato e connesso come previsto.
+
+1. (Facoltativo) Fare clic sul nuovo oggetto nel campo connesso. Viene visualizzata la pagina dell&#39;oggetto e potete apportare ulteriori modifiche al nuovo oggetto.
+
+<!--you might need to add something about notifications and emails?!-->
