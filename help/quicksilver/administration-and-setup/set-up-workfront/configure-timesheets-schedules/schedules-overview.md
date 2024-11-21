@@ -10,9 +10,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
@@ -21,12 +21,9 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  
-
--->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 È possibile definire la settimana lavorativa utilizzando le programmazioni e associare una programmazione a un utente o a un progetto. Questo consente a [!DNL Adobe Workfront] di calcolare le timeline e la disponibilità dell&#39;utente. Per istruzioni, vedere [Creare una pianificazione](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
@@ -68,23 +65,17 @@ Se un&#39;attività viene assegnata a un utente associato a una pianificazione e
 
 L&#39;ordine in cui le pianificazioni vengono utilizzate dal sistema quando ne esiste più di una è:
 
-<!--Replace the first bullet below with this when the setting releases: 
-* When one user is assigned to a task, the following scenarios exist, depending on what environment you use: 
 
-   * In the Production environment, [!DNL Workfront] uses the user's schedule for calculating the timeline of the task. This also includes the personal time of the user. The schedule of the project is ignored.
+* Quando un utente viene assegnato a un’attività, esistono i seguenti scenari, a seconda dell’ambiente utilizzato:
 
-      For more information about personal time, see [Configure personal time off](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+   * Nell&#39;ambiente di produzione, [!DNL Workfront] utilizza la pianificazione dell&#39;utente per calcolare la sequenza temporale dell&#39;attività. Questo include anche il tempo personale dell’utente. La pianificazione del progetto viene ignorata.
 
-   * <span class="preview">In the Preview environment, [!DNL Workfront] uses either one of the following schedules, as defined in the [!UICONTROL Project Preferences] area of [!UICONTROL Setup]:</span>
+     Per ulteriori informazioni sull&#39;orario personale, vedere [Configurare l&#39;orario di riposo personale](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
-      * <span class="preview">The schedule of the user who is assigned to the task </span>
-      * <span class="preview">The schedule associated with the project.</span>
+   * <span class="preview">Nell&#39;ambiente di anteprima, [!DNL Workfront] utilizza una delle pianificazioni seguenti, come definito nell&#39;area [!UICONTROL Preferenze progetto] di [!UICONTROL Configurazione]:</span>
 
--->
-
-* Quando un utente viene assegnato a un&#39;attività, [!DNL Workfront] utilizza la pianificazione dell&#39;utente per calcolare la sequenza temporale dell&#39;attività. Questo include anche il tempo personale dell’utente. La pianificazione del progetto viene ignorata.
-
-  Per ulteriori informazioni sull&#39;orario personale, vedere [Configurare l&#39;orario di riposo personale](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+      * <span class="preview">Pianificazione dell&#39;utente assegnato all&#39;attività </span>
+      * <span class="preview">Pianificazione associata al progetto.</span>
 
 * Quando più utenti vengono assegnati a un&#39;attività e gli utenti hanno pianificazioni diverse durante l&#39;intervallo di tempo dell&#39;attività, [!DNL Workfront] utilizza una delle pianificazioni seguenti, come definito nell&#39;area [!UICONTROL Preferenze progetto] di [!UICONTROL Configurazione]:
 

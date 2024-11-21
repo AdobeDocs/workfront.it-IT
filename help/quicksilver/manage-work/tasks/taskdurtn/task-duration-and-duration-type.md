@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 06b5d8d7e3f2f3d0ff7ef614861a8898dd9df4eb
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1557'
 ht-degree: 1%
 
 ---
@@ -19,12 +19,9 @@ ht-degree: 1%
 
 <!-- Audited: 12/2023 -->
 
-<!--
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
--->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 La Durata attività è la differenza tra la Data di completamento pianificata e la Data di inizio pianificata dell&#39;attività. La Durata indica l&#39;intervallo di tempo disponibile per il completamento dell&#39;attività.
 
@@ -38,34 +35,27 @@ Se le date di inizio e di completamento effettive dell&#39;attività non rientra
 
 Di seguito sono riportati due scenari che esistono durante il calcolo della durata in Adobe Workfront:
 
-<!--
-<div class="preview">
-* If the task is assigned to one user, the following scenarios exist based on what environment you use: 
+* Se l’attività è assegnata a un utente, esistono i seguenti scenari in base all’ambiente utilizzato:
 
-  * In the Production environment, Workfront uses one of the following schedules, in this exact order to calculate Duration:
-
-   1. Workfront takes into account the user's schedule. 
-   1. If the user is not associated with a schedule, Workfront takes into account the project's schedule.
-   1. If the project is not associated with a schedule, Workfront takes into account the Default Schedule of your system. For information about schedules, see [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
-
-   * In the Preview environment:
-
-      1. Workfront takes into account either the schedule of the project or that of the primary assignee.
-
-          Your Workfront or group administrator determines which schedule Workfront uses when a task is assigned to one  user. For information, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
-
-      1. If the user or the project don't have a schedule, Workfront uses the system Default schedule. 
-
-      The steps are similar to the first scenario after understanding which schedule Workfront uses to calculate Duration.
-
-</div>
--->
-
-* Se l&#39;attività è assegnata a un utente, Workfront utilizza una delle seguenti pianificazioni, nell&#39;ordine esatto per calcolare la Durata:
+   * Nell’ambiente di produzione, Workfront utilizza una delle seguenti pianificazioni, nell’ordine esatto per calcolare la Durata:
 
    1. Workfront tiene conto della pianificazione dell’utente.
    1. Se l’utente non è associato a una pianificazione, Workfront tiene conto della pianificazione del progetto.
    1. Se il progetto non è associato a una pianificazione, Workfront prende in considerazione la pianificazione predefinita del sistema. Per informazioni sulle pianificazioni, vedere [Creare una pianificazione](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+
+<div class="preview">
+
+* Nell’ambiente di anteprima:
+
+   1. Workfront prende in considerazione la pianificazione del progetto o quella dell’utente assegnato all’attività.
+
+      L&#39;amministratore del Workfront o del gruppo determina la pianificazione utilizzata da Workfront quando un&#39;attività viene assegnata a un utente. Per informazioni, vedere [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+
+   1. Se l&#39;utente o il progetto non dispone di una pianificazione, Workfront utilizza la pianificazione predefinita del sistema.
+
+      I passaggi sono simili al primo scenario dopo aver compreso quale pianificazione utilizza Workfront per calcolare la durata.
+
+</div>
 
 * Se l&#39;attività è assegnata a più utenti:
 

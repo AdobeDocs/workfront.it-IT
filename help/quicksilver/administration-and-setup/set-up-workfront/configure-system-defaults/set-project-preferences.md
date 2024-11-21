@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
 workflow-type: tm+mt
-source-wordcount: '2539'
+source-wordcount: '2721'
 ht-degree: 1%
 
 ---
@@ -19,11 +19,10 @@ ht-degree: 1%
 
 <!--Audited: 12/2023-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 In qualità di amministratore [!DNL Adobe Workfront], puoi configurare le preferenze predefinite per tutti i progetti creati nel sistema. Queste preferenze influiscono sul comportamento di un progetto, di un’attività e di un problema.
 
@@ -214,8 +213,23 @@ Configura una delle seguenti preferenze per i progetti appena creati nel sistema
      <li><strong>[!UICONTROL Assegnazione primaria]</strong>: [!DNL Workfront] utilizza la pianificazione dell'Assegnazione primaria nell'attività per calcolare le sequenze temporali.</li> 
      <li><strong>[!UICONTROL Project]</strong>: [!DNL Workfront] utilizza la pianificazione del progetto per calcolare la sequenza temporale di ogni attività.</li> 
     </ul> <p>Per ulteriori informazioni sulle pianificazioni, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Creare una pianificazione</a>.</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
+  </tr>
+
+</tr> 
+  <tr> 
+   <td role="rowheader"> <p><span class="preview">Quando un utente viene assegnato a un’attività, usa la pianificazione di...</span></p> </td> 
+   <td> <div class="preview">
+<p>Se a un progetto non è stata assegnata una pianificazione o se agli utenti assegnati alle relative attività non è stata assegnata una pianificazione, [!DNL Workfront] utilizza la pianificazione predefinita di sistema per calcolare la sequenza temporale delle attività.</p>
+
+<p>Se si assegna un utente a un'attività di un progetto a cui sono associate sia il progetto che l'utente assegnato alle attività, [!UICONTROL Workfront] utilizza le pianificazioni seguenti:</p> 
+    <ul> 
+     <li><strong>[!UICONTROL Utente]</strong>: [!DNL Workfront] utilizza la pianificazione dell'utente assegnato nell'attività per calcolare le timeline.</li> 
+     <li><strong>[!UICONTROL Project]</strong>: [!DNL Workfront] utilizza la pianificazione del progetto per calcolare la sequenza temporale dell'attività.</li> 
+    </ul> <p>Per ulteriori informazioni sulle pianificazioni, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Creare una pianificazione</a>.</p>
+</div></td> 
+  </tr>
+
+<tr data-mc-conditions=""> 
    <td role="rowheader"> <p>[!UICONTROL Calcoli sequenza temporale] </p> </td> 
    <td> 
     <ul> 
@@ -232,18 +246,12 @@ Configura una delle seguenti preferenze per i progetti appena creati nel sistema
  </tbody> 
 </table>
 
-<!--Add this to the table (under the "When multiple users are assigned ..." setting):
 
-<span class="preview">When one user is assigned to a task, use the schedule of the...</span>
 
-<div class="preview">
-<p>If a project does not have a schedule assigned or if the users assigned to its tasks do not have a Schedule assigned to them, [!DNL Workfront] uses the system default schedule to calculate the timeline of the tasks.</p> <p>If you assign one user to a task in a project and the project has an assigned schedule and the user assigned to the tasks also has a schedule assigned to them, [!UICONTROL Workfront] uses the following schedules:</p> 
-    <ul> 
-     <li><strong>[!UICONTROL User]</strong>: [!DNL Workfront] uses the schedule of the assigned user on the task to calculate timelines.</li> 
-     <li><strong>[!UICONTROL Project]</strong>: [!DNL Workfront] uses the schedule of the project to calculate the timeline of the task.</li> 
-    </ul> <p>For more information about schedules, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Create a schedule</a>.</p>
-</div>
--->
+
+
+
+
 
 ### [!UICONTROL Casi di studio] {#business-cases}
 
