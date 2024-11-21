@@ -9,9 +9,9 @@ description: Con i moduli Libraries  [!DNL Adobe Workfront Fusion Adobe Creative
 author: Becky
 feature: Workfront Fusion
 exl-id: 8affa34b-803d-48a5-a986-9fbe0cb8c8f5
-source-git-commit: 103a4a7b58048678739d6125c042503458ae3722
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1338'
+source-wordcount: '1359'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,25 @@ Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adob
 ## Prerequisiti
 
 Per utilizzare i moduli [!DNL Adobe Creative Cloud Libraries], è necessario disporre di un account [!UICONTROL Adobe Creative Cloud].
+
+## Informazioni API sulle librerie Adobe Creative Cloud
+
+Il connettore Adobe Creative Cloud Libraries utilizza quanto segue:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL di base</td> 
+   <td>https://cc-libraries.adobe.io/api/v1</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">Tag API</td> 
+   <td>v1.1.7</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!UICONTROL Moduli Librerie Adobe Creative Cloud] e relativi campi
 

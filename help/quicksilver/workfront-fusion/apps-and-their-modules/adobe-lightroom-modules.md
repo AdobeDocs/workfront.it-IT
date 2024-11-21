@@ -9,9 +9,9 @@ description: Con i moduli di Adobe Lightroom, puoi avviare uno scenario Adobe Wo
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e48bdf18-49f0-436e-9182-16c9da2b3169
-source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '2244'
+source-wordcount: '2255'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,26 @@ Prima di poter utilizzare il connettore [!DNL Adobe Lightroom], è necessario ve
 
 * Devi avere un account [!DNL Adobe Lightroom] attivo.
 
-## Creare una connessione ad Adobe Lightroom
+## Informazioni API di Adobe Lightroom
+
+Il connettore Adobe Lightroom utilizza quanto segue:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL di base</td> 
+   <td>https://lr.adobe.io</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">Tag API</td> 
+   <td>v1.17.128</td> 
+  </tr>
+ </tbody> 
+ </table>
+
+<!--## Create a connection to Adobe Lightroom-->
 
 
 

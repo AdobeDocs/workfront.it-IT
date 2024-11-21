@@ -9,9 +9,9 @@ description: In uno scenario  [!DNL Adobe Workfront Fusion]  è possibile automa
 author: Becky
 feature: Workfront Fusion
 exl-id: 814c285e-c106-458a-a0b1-760677634f4f
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '1999'
+source-wordcount: '2023'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ In uno scenario [!DNL Adobe Workfront Fusion], è possibile automatizzare i flus
 
 Per utilizzare [!DNL Office 365 Calendar] con [!DNL Adobe Workfront Fusion], è necessario disporre di un account [!DNL Office 365 Excel]. Puoi crearne uno in [www.office.com](https://www.office.com/).
 
-Per istruzioni sulla connessione dell&#39;account di Office 365 a [!DNL Workfront Fusion], vedere [Creare una connessione all&#39;Adobe [!DNL Workfront Fusion] - Istruzioni di base](../../workfront-fusion/connections/connect-to-fusion-general.md)
+Per istruzioni sulla connessione dell&#39;account di Office 365 a [!DNL Workfront Fusion], vedere [Creare una connessione ad Adobe [!DNL Workfront Fusion] - Istruzioni di base](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
 Dopo aver concesso il consenso, verrai reindirizzato alla pagina di amministrazione [!UICONTROL Workfront Fusion] in cui potrai continuare a creare lo scenario.
 
@@ -68,6 +68,29 @@ Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adob
 ## Prerequisiti
 
 Per utilizzare i moduli [!DNL Microsoft Office 365 Calendar], è necessario disporre di un account [!DNL Microsoft Office 365 Calendar].
+
+## Informazioni sull&#39;API del calendario di Microsoft Office 365
+
+Il connettore Calendario di Microsoft Office 365 utilizza quanto segue:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL di base</td> 
+   <td> https://graph.microsoft.com/v1.0</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Versione API</td> 
+   <td> v1.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Tag API</td> 
+   <td>v2.0.10</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Connessione del servizio [!DNL Office 365 Calendar] a [!DNL Workfront Fusion]
 

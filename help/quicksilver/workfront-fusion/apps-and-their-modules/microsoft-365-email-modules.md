@@ -9,9 +9,9 @@ description: In uno scenario  [!DNL Adobe Workfront Fusion] , è possibile autom
 author: Becky
 feature: Workfront Fusion
 exl-id: 29b69e8c-a889-441e-a052-287f1db2052d
-source-git-commit: 74aba3bbb0a6aface10559bf84fe3467c5469714
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '2699'
+source-wordcount: '2723'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,29 @@ Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adob
 ## Prerequisiti
 
 Per utilizzare i moduli [!DNL Microsoft Office 365 Email], è necessario disporre di un account [!DNL Microsoft Office 365 Email].
+
+## Informazioni API e-mail di Microsoft Office 365
+
+Il connettore e-mail di Microsoft Office 365 utilizza quanto segue:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL di base</td> 
+   <td> https://graph.microsoft.com/v1.0</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Versione API</td> 
+   <td> v1.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Tag API</td> 
+   <td>v2.6.5</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 
 

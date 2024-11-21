@@ -9,10 +9,10 @@ description: Con i  [!DNL Adobe Campaign] moduli, puoi avviare uno  [!DNL Adobe 
 author: Becky
 feature: Workfront Fusion
 exl-id: 84e8fa35-0c3c-46bd-8886-88c6d8d9e1d5
-source-git-commit: 7decc5cbf4bb2c3d4d1802dec1f369ca061f6b48
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1434'
-ht-degree: 0%
+source-wordcount: '1448'
+ht-degree: 1%
 
 ---
 
@@ -65,6 +65,21 @@ Aggiungere gli indirizzi IP di Fusion a [!DNL Adobe Campaign].
 
 * Per istruzioni sull&#39;aggiunta di indirizzi IP al inserisco nell&#39;elenco Consentiti di targeting di Campaign, consulta [Aggiunta di indirizzi IP al Adobe Campaign di targeting di](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/ip-range-allow-listing#adding-ip-addresses-allow-list) nella documentazione di inserire nell&#39;elenco Consentiti.
 * Per un elenco di indirizzi IP da aggiungere al inserisco nell&#39;elenco Consentiti di, vedere [Indirizzi IP per accedere ad Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/ip-addresses-for-fusion.md).
+
+## Informazioni API di Adobe Campaign
+
+Il connettore Adobe Campaign utilizza quanto segue:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Tag API</td> 
+   <td>v1.7.22</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Connetti [!DNL Adobe Campaign] a [!DNL Adobe Workfront Fusion]
 

@@ -10,9 +10,9 @@ description: Con il connettore  [!DNL Adobe Experience Manager Forms]  per l'acc
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 107d81f7-ca41-4d76-a6dd-e579886dc2ad
-source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '573'
 ht-degree: 1%
 
 ---
@@ -65,6 +65,21 @@ Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adob
 ## Prerequisiti
 
 * Per utilizzare questo modulo è necessario disporre di un account [!DNL Adobe Experience Manager Forms].
+
+## Informazioni API di Adobe Experience Manager Assets
+
+Il connettore Adobe Experience Manager Assets utilizza quanto segue:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Tag API</td> 
+   <td>v1.2.27</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Creare una connessione ad Adobe Experience Manager Forms
 

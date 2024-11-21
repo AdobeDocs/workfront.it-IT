@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e0a5736b-dbdb-43c6-83ff-e88a5625a5bf
-source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '3719'
+source-wordcount: '3738'
 ht-degree: 0%
 
 ---
@@ -85,9 +85,28 @@ Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adob
 
 ## Prerequisiti
 
-Per creare un server OAuth, devi aggiungere l&#39;API dei servizi Adobe PDF nella Console per sviluppatori Adobe. Quando aggiungi l’API, seleziona l’opzione OAuth Server-to-Server.
+Per creare un server OAuth, devi aggiungere l&#39;API dei servizi Adobe PDF nella console per sviluppatori di Adobe. Quando aggiungi l’API, seleziona l’opzione OAuth Server-to-Server.
 
 Per istruzioni, consulta [Aggiungere API al progetto utilizzando OAuth](https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/) Nella documentazione per gli sviluppatori di Adobe.
+
+## Informazioni API dei servizi Adobe PDF
+
+Il connettore Adobe PDF Services utilizza quanto segue:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL di base</td> 
+   <td>https://pdf-services-stage.adobe.io</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">Tag API</td> 
+   <td>v2.1.4</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Crea una connessione a [!DNL Adobe PDF Services]
 

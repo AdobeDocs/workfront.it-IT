@@ -8,9 +8,9 @@ description: L'app  [!DNL Adobe Workfront Fusion] [!UICONTROL JWT] fornisce un m
 author: Becky
 feature: Workfront Fusion
 exl-id: 1c09967e-a236-404f-bf3e-9de66118e77b
-source-git-commit: 2fbf38c3c35761c52416966fb6a4ab032190e04b
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,21 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
 Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore [!DNL Workfront].
 
 Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## Informazioni sull’API JWT
+
+Il connettore JWT utilizza quanto segue:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+   <tr> 
+   <td role="rowheader">Tag API</td> 
+   <td>v1.1.5</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Modulo JWT e relativi campi
 

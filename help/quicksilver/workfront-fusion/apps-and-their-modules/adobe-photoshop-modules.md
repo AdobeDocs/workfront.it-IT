@@ -9,9 +9,9 @@ description: Con i moduli di Adobe Photoshop, puoi avviare uno scenario Adobe Wo
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
-source-git-commit: c3187e3dc21b4705a0e249ed8cc6df66575ef06b
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '4308'
+source-wordcount: '4325'
 ht-degree: 0%
 
 ---
@@ -74,6 +74,25 @@ Prima di poter utilizzare il connettore [!DNL Adobe Photoshop], è necessario ve
 
 * Devi avere un account [!DNL Adobe Photoshop] attivo.
 
+## Informazioni API di Adobe Photoshop
+
+Il connettore Adobe Photoshop utilizza quanto segue:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL di base</td> 
+   <td>https://image.adobe.io/pie/psdService</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">Tag API</td> 
+   <td>v1.12.31</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## Crea una connessione a [!DNL Adobe Photoshop]
 
 Per creare una connessione per i moduli [!DNL Adobe Photoshop]:
@@ -96,7 +115,7 @@ Per creare una connessione per i moduli [!DNL Adobe Photoshop]:
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL ID client]</td>
-        <td>Immetti il [!UICONTROL Adobe] [!UICONTROL ID client]. Questo si trova nella sezione dei dettagli [!UICONTROL Credentials] del [!DNL Adobe Developer Console]</td>
+        <td>Immetti [!UICONTROL Adobe] [!UICONTROL ID client]. Questo si trova nella sezione dei dettagli [!UICONTROL Credentials] del [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Segreto client]</td>
@@ -281,7 +300,7 @@ Questo modulo di azione applica una serie di modifiche a livello di documento e 
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Overwrite]</td>
       <td>
-        <p>Seleziona se il file appena modificato sovrascriverà eventuali file di output già esistenti. Questo vale solo per i file nell'archivio Adobe.</p>
+        <p>Seleziona se il file appena modificato sovrascriverà eventuali file di output già esistenti. Questo vale solo per i file in Adobe storage.</p>
       </td>
     </tr>
         <tr>
@@ -340,7 +359,7 @@ Il colore automatico di questo modulo di azione corregge l’immagine specificat
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Overwrite]</td>
       <td>
-        <p>Seleziona se il file appena modificato sovrascriverà eventuali file di output già esistenti. Questo vale solo per i file nell'archivio Adobe.</p>
+        <p>Seleziona se il file appena modificato sovrascriverà eventuali file di output già esistenti. Questo vale solo per i file in Adobe storage.</p>
       </td>
     </tr>
         <tr>
@@ -404,7 +423,7 @@ Questo modulo di azione converte un file in JPEG, PNG, PSD o TIFF.
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Overwrite]</td>
       <td>
-        <p>Seleziona se il file appena modificato sovrascriverà eventuali file di output già esistenti. Questo vale solo per i file nell'archivio Adobe.</p>
+        <p>Seleziona se il file appena modificato sovrascriverà eventuali file di output già esistenti. Questo vale solo per i file in Adobe storage.</p>
       </td>
     </tr>
         <tr>
@@ -457,7 +476,7 @@ Questo modulo di azione restituisce un file PNG con un albero applicato attorno 
     <tr>
       <td role="rowheader">[!UICONTROL Overwrite]</td>
       <td>
-        <p>Seleziona se il file appena modificato sovrascriverà eventuali file di output già esistenti. Questo vale solo per i file nell'archivio Adobe.</p>
+        <p>Seleziona se il file appena modificato sovrascriverà eventuali file di output già esistenti. Questo vale solo per i file in Adobe storage.</p>
       </td>
     </tr>
     <tr>
@@ -678,7 +697,7 @@ Questo modulo di azione esegue azioni Photoshop utilizzando comandi JSON.
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Overwrite]</td>
       <td>
-        <p>Seleziona se il file appena modificato sovrascriverà eventuali file di output già esistenti. Questo vale solo per i file nell'archivio Adobe.</p>
+        <p>Seleziona se il file appena modificato sovrascriverà eventuali file di output già esistenti. Questo vale solo per i file in Adobe storage.</p>
       </td>
     </tr>
         <tr>
@@ -1034,7 +1053,7 @@ Questo modulo di azione identifica il soggetto principale dell&#39;immagine e ri
     <tr>
       <td role="rowheader">[!UICONTROL Overwrite]</td>
       <td>
-        <p>Seleziona se il file appena modificato sovrascriverà eventuali file di output già esistenti. Questo vale solo per i file nell'archivio Adobe.</p>
+        <p>Seleziona se il file appena modificato sovrascriverà eventuali file di output già esistenti. Questo vale solo per i file in Adobe storage.</p>
       </td>
     </tr>
     <tr>
@@ -1135,7 +1154,7 @@ Questo modulo di azione sostituisce un oggetto avanzato all’interno di un live
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Overwrite]</td>
       <td>
-        <p>Seleziona se il file appena modificato sovrascriverà eventuali file di output già esistenti. Questo vale solo per i file nell'archivio Adobe.</p>
+        <p>Seleziona se il file appena modificato sovrascriverà eventuali file di output già esistenti. Questo vale solo per i file in Adobe storage.</p>
       </td>
     </tr>
         <tr>
@@ -1200,7 +1219,7 @@ Questa azione ridimensiona un’immagine utilizzando le stesse proporzioni.
     <tr>
       <td role="rowheader">[!UICONTROL Overwrite]</td>
       <td>
-        <p>Seleziona se il file appena modificato sovrascriverà eventuali file di output già esistenti. Questo vale solo per i file nell'archivio Adobe.</p>
+        <p>Seleziona se il file appena modificato sovrascriverà eventuali file di output già esistenti. Questo vale solo per i file in Adobe storage.</p>
       </td>
     </tr>
         <tr>
@@ -1298,7 +1317,7 @@ Questo modulo di azione aggiunge una filigrana all’immagine selezionata.
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Overwrite]</td>
       <td>
-        <p>Seleziona se il file appena modificato sovrascriverà eventuali file di output già esistenti. Questo vale solo per i file nell'archivio Adobe.</p>
+        <p>Seleziona se il file appena modificato sovrascriverà eventuali file di output già esistenti. Questo vale solo per i file in Adobe storage.</p>
       </td>
     </tr>
         <tr>

@@ -9,9 +9,9 @@ description: In uno scenario  [!DNL Adobe Workfront Fusion] , è possibile colle
 author: Becky
 feature: Workfront Fusion
 exl-id: e1ef114f-8ce4-4210-b176-727dc4f5e561
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,25 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
 Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore [!DNL Workfront].
 
 Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## Informazioni sulle API SDL Managed Translation
+
+Il connettore SDL Managed Translation utilizza quanto segue:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL di base</td> 
+   <td>https://languagecloud.sdl.com</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">Tag API</td> 
+   <td>v1.4.26</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL SDL Managed Translation] moduli
 

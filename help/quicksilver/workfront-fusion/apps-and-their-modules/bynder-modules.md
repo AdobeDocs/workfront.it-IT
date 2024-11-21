@@ -9,9 +9,9 @@ description: In uno scenario  [!DNL Adobe Workfront Fusion] , puoi automatizzare
 author: Becky
 feature: Workfront Fusion
 exl-id: e4dc9588-334a-41a3-85d1-996cb819c3fa
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '1661'
+source-wordcount: '1676'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,25 @@ Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adob
 ## Prerequisiti
 
 Per utilizzare i moduli [!DNL Bynder], è necessario disporre di un account [!DNL Bynder].
+
+## Informazioni API di Bynder
+
+Il connettore Bynder utilizza quanto segue:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Versione API</td> 
+   <td> v4 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Tag API</td> 
+   <td>v1.25.21</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Connetti [!DNL Bynder] a Workfront Fusion  {#connect-bynder-to-workfront-fusion}
 

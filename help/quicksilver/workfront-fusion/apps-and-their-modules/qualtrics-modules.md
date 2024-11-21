@@ -9,10 +9,10 @@ description: In uno scenario  [!DNL Adobe Workfront Fusion] , puoi automatizzare
 author: Becky
 feature: Workfront Fusion
 exl-id: 146802cd-b863-4c93-b767-50e05892c4de
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 0%
+source-wordcount: '335'
+ht-degree: 1%
 
 ---
 
@@ -66,6 +66,29 @@ Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adob
 ## Prerequisiti
 
 Per utilizzare i moduli [!DNL Qualtrics], è necessario disporre di un account [!UICONTROL Qualtrics].
+
+## Informazioni API Qualtrics
+
+Il connettore Qualtrics utilizza quanto segue:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL di base</td> 
+   <td> https://{{connection.dataCenterCode}}.qualtrics.com/API/v3 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Versione API</td> 
+   <td> v3 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Tag API</td> 
+   <td>v1.1.1</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Connessione di [!DNL Qualtrics] a [!DNL Workfront Fusion]
 

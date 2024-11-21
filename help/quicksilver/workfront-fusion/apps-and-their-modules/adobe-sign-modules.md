@@ -9,9 +9,9 @@ description: Con i  [!DNL Adobe Acrobat Sign] moduli, puoi avviare uno  [!DNL Ad
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 01158218-31a6-4c68-a9b7-6a678a8f40c9
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '6636'
+source-wordcount: '6652'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,26 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
 Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore [!DNL Workfront].
 
 Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## Informazioni API di [!DNL Adobe Acrobat Sign]
+
+Il connettore Adobe Acrobat Sign utilizza quanto segue:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Versione API</td> 
+   <td> v6 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Tag API</td> 
+   <td>v1.35.1</td> 
+  </tr>
+ </tbody> 
+</table>
+
 
 ## [!DNL Adobe Acrobat Sign] consigli per l&#39;utilizzo del connettore
 

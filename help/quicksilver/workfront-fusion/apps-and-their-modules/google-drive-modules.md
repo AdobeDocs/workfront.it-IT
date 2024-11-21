@@ -9,9 +9,9 @@ description: I  [!DNL Adobe Workfront Fusion Google Drive] moduli ti consentono 
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d620c93-d1bf-4451-9f76-1d6fd850cec9
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '2941'
+source-wordcount: '2958'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,29 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
 Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore [!DNL Workfront].
 
 Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## Informazioni sull&#39;API di Google Drive
+
+Il connettore Google Drive utilizza quanto segue:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL di base</td> 
+   <td> https://www.googleapis.com/drive/v3</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Versione API</td> 
+   <td> v3 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Tag API</td> 
+   <td>v4.1.22</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 
 
@@ -867,13 +890,13 @@ Tutti gli esempi in questa pagina mostrano il parametro `<q>q</q>` non codificat
   <pre>fullText contiene '"hello world"'fullText contiene '"hello_world"'</pre>
 * Cercare i file con una query contenente il carattere &quot;\&quot; (ad esempio, &quot;\authors&quot;)
   <pre>fullText contiene "\\authors"</pre>
-* Cerca file scrivibili dall&#39;utente &quot;test@example.org&quot;
+* Cerca file scrivibili dall&#39;utente `test@example.org`
   <pre>'test@example.org' in [!DNL writers]</pre>
 * Cercare l&#39;ID `1234567` nella raccolta `parents`. Verranno trovati tutti i file e le cartelle che si trovano direttamente nella cartella con ID `1234567`.
   <pre>'1234567' in [!UICONTROL parent]</pre>
 * Cercare l&#39;ID alias `appDataFolder` nella raccolta `parents`. Questo consente di trovare tutti i file e le cartelle che si trovano direttamente nella [cartella Dati applicazioni](https://developers.google.com/drive/api/v2/appdata).
   <pre>'appDataFolder' negli elementi padre</pre>
-* Cerca file scrivibili dagli utenti &quot;test@example.org&quot; e &quot;test2@example.org&quot;
+* Cerca file scrivibili dagli utenti `test@example.org` e `test2@example.org`
   <pre>'test@example.org' negli autori e 'test2@example.org' negli autori</pre>
 * Cerca i file che contengono il testo &quot;importante&quot; nel cestino
   <pre>fullText contiene 'important' e cestino = true</pre>

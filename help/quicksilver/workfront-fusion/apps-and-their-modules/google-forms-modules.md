@@ -9,9 +9,9 @@ description: I  [!DNL Adobe Workfront Fusion Google Forms] moduli ti consentono 
 author: Becky
 feature: Workfront Fusion
 exl-id: 45c86879-bc4e-4134-b63c-02410b9de43b
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1435'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,21 @@ Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adob
 ## Prerequisiti
 
 Per utilizzare i moduli [!DNL Google Forms], è necessario disporre di un account [!DNL Google].
+
+## Informazioni API di Google Forms
+
+Il connettore Forms di Google utilizza quanto segue:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Tag API</td> 
+   <td>2.0.10</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Creazione di un foglio di calcolo dal modulo
 

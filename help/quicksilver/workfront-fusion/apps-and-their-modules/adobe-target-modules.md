@@ -9,9 +9,9 @@ description: In uno scenario  [!DNL Adobe Workfront Fusion] , puoi automatizzare
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: 43bd30c2db6219cd4e68380c1d9c0d1421f51592
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '2235'
+source-wordcount: '2249'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,21 @@ Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adob
 Prima di poter utilizzare il connettore [!DNL Adobe Target], è necessario verificare che siano soddisfatti i seguenti prerequisiti:
 
 * Devi avere un account [!DNL Adobe Target] attivo.
+
+## Informazioni API di Adobe Target
+
+Il connettore Adobe Target utilizza quanto segue:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Tag API</td> 
+   <td>v1.7.33</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Crea una connessione a [!DNL Adobe Target]
 

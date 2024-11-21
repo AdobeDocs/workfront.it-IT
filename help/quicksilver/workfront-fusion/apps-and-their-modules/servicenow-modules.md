@@ -9,9 +9,9 @@ description: In uno scenario  [!DNL Adobe Workfront Fusion] , puoi automatizzare
 author: Becky
 feature: Workfront Fusion
 exl-id: b362cd8b-06b3-4f4c-b405-a2afc24abddb
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1604'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,25 @@ Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adob
 ## Prerequisiti
 
 Per utilizzare i moduli [!DNL ServiceNow], è necessario disporre di un account [!DNL ServiceNow].
+
+## Informazioni API ServiceNow
+
+Il connettore ServiceNow utilizza quanto segue:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL di base</td> 
+   <td>https://{{connection.instance}}/api</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">Tag API</td> 
+   <td>v1.5.13</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Connetti [!DNL ServiceNow] a [!DNL Workfront Fusion]
 

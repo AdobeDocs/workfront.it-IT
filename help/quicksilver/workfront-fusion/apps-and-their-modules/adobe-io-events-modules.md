@@ -9,16 +9,16 @@ description: Con i moduli Adobe I/O Events, puoi avviare uno scenario Adobe Work
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 18ad8098-9742-44d2-97cd-b0c2b5591538
-source-git-commit: db322faeb53a0ae4a061076d457f3c10c31ec33c
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '933'
 ht-degree: 1%
 
 ---
 
 # Moduli Eventi Adobe I/O
 
-Con i moduli Adobe I/O Events, puoi avviare uno scenario Adobe Workfront Fusion basato su eventi in account e servizi Adobe che non dispongono di un connettore Workfront Fusion dedicato.
+Con i moduli Adobe I/O Events, puoi avviare uno scenario Adobe Workfront Fusion basato su eventi negli account e nei servizi di Adobe che non dispongono di un connettore Workfront Fusion dedicato.
 
 ## Requisiti di accesso
 
@@ -56,6 +56,25 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
 Prima di poter utilizzare il connettore Adobe I/O Events, è necessario assicurarsi che siano soddisfatti i seguenti prerequisiti:
 
 * Devi disporre di un account Adobe attivo.
+
+## Informazioni API per eventi di Adobe I/O
+
+Il connettore Adobe I/O Events utilizza quanto segue:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL di base</td> 
+   <td>https://api.adobe.io/events</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">Tag API</td> 
+   <td>v1.6.7</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Creare una connessione a eventi Adobe I/O
 

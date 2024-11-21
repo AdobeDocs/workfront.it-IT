@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 6437fe98-2c2b-4b49-97e2-f94b23da93fd
-source-git-commit: 9c76e216cf66f230a12023c349093c45ba2c04a7
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '2087'
+source-wordcount: '2112'
 ht-degree: 1%
 
 ---
@@ -64,6 +64,37 @@ Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adob
 ## Prerequisiti
 
 Per utilizzare i moduli [!DNL Jira] è necessario disporre di un account [!DNL Jira].
+
+## Informazioni API Jira
+
+Il connettore Jira utilizza quanto segue:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"></td> 
+   <td> Jira Cloud</td> 
+   <td> Server Jira</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">apiVersion</td> 
+   <td> 2</td> 
+   <td> 2</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">apiVersionAgile</td> 
+   <td> 1,0 </td> 
+   <td> 1,0</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Tag API</td> 
+   <td>1.7.29</td> 
+   <td>1.0.19</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Connetti [!DNL Jira Software] a [!DNL Workfront Fusion]
 

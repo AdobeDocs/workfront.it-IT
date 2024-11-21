@@ -9,10 +9,10 @@ description: In uno scenario  [!DNL Adobe Workfront Fusion] , puoi automatizzare
 author: Becky
 feature: Workfront Fusion
 exl-id: a0b4352d-a1ce-4459-a58e-71de860b8a90
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 0%
+source-wordcount: '864'
+ht-degree: 1%
 
 ---
 
@@ -66,6 +66,21 @@ Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adob
 ## Prerequisiti
 
 Per utilizzare i moduli [!DNL Datadog], è necessario disporre di un account [!DNL Datadog].
+
+## Informazioni API Datadog
+
+Il connettore Datadog utilizza quanto segue:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Tag API</td> 
+   <td>1.0.11</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Connetti [!DNL Datadog] a [!DNL Workfront Fusion] {#connect-datadog-to-workfront-fusion}
 
@@ -128,10 +143,10 @@ Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possib
 
 ### Azioni
 
-* [[!UICONTROL Punti serie temporale Post]](#post-timeseries-points)
+* [[!UICONTROL Pubblica punti serie temporali]](#post-timeseries-points)
 * [[!UICONTROL Effettuare una chiamata API]](#make-an-api-call)
 
-#### [!UICONTROL Punti serie temporale Post]
+#### [!UICONTROL Pubblica punti serie temporali]
 
 Il modulo ti consente di pubblicare dati di serie temporali che possono essere tracciati nei dashboard di [!DNL Datadog].
 

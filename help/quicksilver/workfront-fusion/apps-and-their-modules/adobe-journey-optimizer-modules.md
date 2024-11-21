@@ -9,9 +9,9 @@ description: In uno scenario  [!DNL Adobe Workfront Fusion] , puoi automatizzare
 author: Becky
 feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
-source-git-commit: a2b9722f3964fccab6e30f2cd79e5ac63f736ba4
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '3673'
+source-wordcount: '3692'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,25 @@ Prima di poter utilizzare il connettore [!DNL Adobe Journey Optimizer], è neces
 
 * Devi avere un account [!DNL Adobe Journey Optimizer] attivo.
 
+## Informazioni API di Adobe Journey Optimizer
+
+Il connettore Adobe Journey Optimizer utilizza quanto segue:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL di base</td> 
+   <td>{{connection.url}}</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">Tag API</td> 
+   <td>v1.7.11</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## Creare una connessione a Adobe Journey Optimizer
 
 Puoi creare una connessione in qualsiasi modulo di Adobe Journey Optimizer.
@@ -109,7 +128,7 @@ Puoi creare una connessione in qualsiasi modulo di Adobe Journey Optimizer.
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL ID client]</td>
-        <td>Immetti il [!UICONTROL Adobe] [!UICONTROL ID client]. Questo si trova nella sezione dei dettagli [!UICONTROL Credentials] del [!DNL Adobe Developer Console]</td>
+        <td>Immetti [!UICONTROL Adobe] [!UICONTROL ID client]. Questo si trova nella sezione dei dettagli [!UICONTROL Credentials] del [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Segreto client]</td>

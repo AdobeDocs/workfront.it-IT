@@ -10,9 +10,9 @@ description: Con il connettore  [!DNL Adobe Experience Manager Assets]  per l'ac
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: 993d10a93eca28573aaa38e4ce76e5a1b30ec42e
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1706'
+source-wordcount: '1724'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,21 @@ Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adob
 * L&#39;account tecnico Adobe Experience Manager deve disporre di autorizzazioni di scrittura.
 
   Per istruzioni sull&#39;aggiunta di autorizzazioni di scrittura all&#39;account tecnico Adobe Experience Manager, vedere [Credenziali di servizio](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials) nella documentazione di Adobe Experience Manager.
+
+## Informazioni API di Adobe Experience Manager Assets
+
+Il connettore Adobe Experience Manager Assets utilizza quanto segue:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Tag API</td> 
+   <td>v1.8.61</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Connetti [!DNL Adobe Experience Manager Assets] a [!DNL Workfront Fusion] {#connect-adobe-experience-manager-assets-to-workfront-fusion}
 

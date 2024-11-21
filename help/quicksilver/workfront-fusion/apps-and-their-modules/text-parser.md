@@ -8,9 +8,9 @@ description: È possibile utilizzare lo strumento parser di testo per analizzare
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d71cf64-4f86-42c5-81e7-8fc15333cbd7
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1048'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,21 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
 Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore [!DNL Workfront].
 
 Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## Informazioni API parser di testo
+
+Il connettore parser di testo utilizza quanto segue:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Tag API</td> 
+   <td>v2</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!UICONTROL Moduli parser di testo] e relativi campi
 
@@ -180,7 +195,7 @@ Una discussione sulle espressioni regolari va oltre lo scopo di questo articolo.
   </tr> 
   <tr> 
    <td>[!UICONTROL Singleline]</td> 
-   <td>Abilita questa opzione per garantire che il periodo (.) corrisponde ai caratteri di nuova riga (<code>\n</code>).</td> 
+   <td>Abilitare questa opzione per assicurarsi che il punto (.) corrisponda ai caratteri di nuova riga (<code>\n</code>).</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Continua l'esecuzione della route anche se il modulo non restituisce alcun risultato]</td> 
@@ -223,7 +238,7 @@ Cerca un valore o un&#39;espressione regolare specificata nel testo immesso e so
   </tr> 
   <tr> 
    <td>[!UICONTROL Singleline]</td> 
-   <td>Abilita questa opzione per garantire che il periodo (.) corrisponde ai caratteri di nuova riga (<code>\n</code>).</td> 
+   <td>Abilitare questa opzione per assicurarsi che il punto (.) corrisponda ai caratteri di nuova riga (<code>\n</code>).</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Text] </td> 

@@ -9,9 +9,9 @@ description: I moduli di Adobe Workfront Fusion [!DNL Google Docs] ti consentono
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: fbe7d628-d833-43ce-83b8-8e4e6a812fd1
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '4085'
+source-wordcount: '4105'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,29 @@ Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adob
 ## Prerequisiti
 
 Per utilizzare i moduli [!DNL Google Docs], è necessario disporre di un account Google.
+
+## Informazioni API per la documentazione di Google
+
+Il connettore Google Docs utilizza quanto segue:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL di base</td> 
+   <td> https://docs.googleapis.com/v1</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Versione API</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Tag API</td> 
+   <td>v1.4.13</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Google Docs] moduli e relativi campi
 

@@ -9,9 +9,9 @@ description: Con i  [!DNL Adobe Workfront Fusion] moduli Figma è possibile recu
 author: Becky
 feature: Workfront Fusion
 exl-id: d88db592-32d4-4765-952f-9ffb58cf1720
-source-git-commit: df4ac2c7fdf319fd8e2e8383cd395e8826e19df0
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2331'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,29 @@ Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adob
 ## Prerequisiti
 
 Per utilizzare i moduli [!DNL Figma], è necessario disporre di un account [!DNL Figma].
+
+## Informazioni API Figma
+
+Il connettore Figma utilizza quanto segue:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL di base</td> 
+   <td> https://api.figma.com/v1</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Versione API</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Tag API</td> 
+   <td>v1.8.25</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Figma] moduli e relativi campi
 

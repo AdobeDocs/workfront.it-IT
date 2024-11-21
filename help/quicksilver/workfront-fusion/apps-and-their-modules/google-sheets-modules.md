@@ -9,9 +9,9 @@ description: Per utilizzare  [!DNL Google Sheets] con [!DNL Adobe Workfront Fusi
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 11d62222-df34-472d-93d7-f0d53eb95c9b
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '4000'
+source-wordcount: '4023'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,29 @@ Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adob
 ## Prerequisiti
 
 Per utilizzare i moduli [!UICONTROL Google Sheets], è necessario disporre di un account [!UICONTROL Google].
+
+## Informazioni API per i fogli di Google
+
+Il connettore Google Sheets utilizza quanto segue:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL di base</td> 
+   <td> https://sheets.googleapis.com/v4</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Versione API</td> 
+   <td> v4 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Tag API</td> 
+   <td>v2.5.7</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Triggers
 
@@ -720,7 +743,7 @@ Utilizza il modulo [!UICONTROL Righe ricerca (avanzate)] e utilizza questa formu
    * Il nome della funzione deve corrispondere al nome specificato nel passaggio 9.
    * Sostituisci l’URL con l’URL del webhook copiato nel passaggio 2.
 
-     <pre>function runScenario() {</pre><pre>UrlFetchApp.fetch("<webhook you copied>");</pre><pre>}</pre>
+     <pre>function runScenario() {</pre><pre>UrlFetchApp.fetch("&lt;webhook copiato&gt;");</pre><pre>}</pre>
 
 1. Premere **[!UICONTROL Ctrl+S]** per salvare il file script, immettere il nome di un progetto e fare clic su **[!UICONTROL OK]**.
 

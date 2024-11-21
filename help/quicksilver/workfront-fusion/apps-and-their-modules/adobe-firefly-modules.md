@@ -9,9 +9,9 @@ description: In uno scenario  [!DNL Adobe Workfront Fusion] , puoi automatizzare
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
-source-git-commit: 7013302a6ba903b410ed1fa8948a195083004eb9
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,21 @@ Prima di poter utilizzare il connettore [!DNL Adobe Firefly], è necessario veri
 
 * Devi avere un account [!DNL Adobe Firefly] attivo.
 
+## Informazioni API di Adobe Campaign
+
+Il connettore Adobe Campaign utilizza quanto segue:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Tag API</td> 
+   <td>v1.4.24</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## Crea una connessione a [!DNL Adobe Firefly]
 
 Per creare una connessione per i moduli [!DNL Adobe Firefly]:
@@ -99,7 +114,7 @@ Per creare una connessione per i moduli [!DNL Adobe Firefly]:
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL ID client]</td>
-        <td>Immetti il [!UICONTROL Adobe] [!UICONTROL ID client]. Questo si trova nella sezione dei dettagli [!UICONTROL Credentials] del [!DNL Adobe Developer Console]</td>
+        <td>Immetti [!UICONTROL Adobe] [!UICONTROL ID client]. Questo si trova nella sezione dei dettagli [!UICONTROL Credentials] del [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Segreto client]</td>
@@ -278,7 +293,7 @@ Questo modulo di azione genera un’immagine e in base a un prompt fornito. È i
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Predefiniti]</td> 
-   <td>Se si desidera utilizzare uno stile predefinito, fare clic su Aggiungi elemento e immettere o mappare lo stile che si desidera utilizzare.<p>Per un elenco degli stili predefiniti, vedi <a href="https://developer.adobe.com/firefly-services/docs/firefly-api/guides/concepts/styles/" >Stili modello immagine</a> nella documentazione per gli sviluppatori di Adobe.</td> 
+   <td>Se si desidera utilizzare uno stile predefinito, fare clic su Aggiungi elemento e immettere o mappare lo stile che si desidera utilizzare.<p>Per un elenco degli stili predefiniti, consulta <a href="https://developer.adobe.com/firefly-services/docs/firefly-api/guides/concepts/styles/" >Stili modello immagine</a> nella documentazione per gli sviluppatori di Adobe.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Negative prompt]</td> 

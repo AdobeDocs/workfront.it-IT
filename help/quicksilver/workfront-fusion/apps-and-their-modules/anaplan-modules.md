@@ -9,9 +9,9 @@ description: In uno scenario  [!DNL Adobe Workfront Fusion] , puoi automatizzare
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 03bcd0a4-c8ec-4f44-b1e1-b57e79595309
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: d281d9eae03254d9cab4ff4bd86cd2d621cc7393
 workflow-type: tm+mt
-source-wordcount: '1844'
+source-wordcount: '1863'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,29 @@ Prima di poter utilizzare il connettore [!DNL Anaplan], è necessario verificare
 
 * Devi avere un account [!UICONTROL Anaplan] attivo.
 * È necessario configurare le aree di lavoro, i modelli e altri oggetti [!DNL Anaplan] nell&#39;account [!UICONTROL Anaplan] prima che [!DNL Workfront Fusion] possa interagire con essi.
+
+## Informazioni API di Anaplan
+
+Il connettore Anaplan utilizza quanto segue:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL di base</td> 
+   <td>https://api.anaplan.com/2/0/
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Versione API</td> 
+   <td> v2 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Tag API</td> 
+   <td>v1.11.5/td&gt; 
+ </tbody> 
+</table>
 
 ## Connetti [!DNL Anaplan] a [!DNL Workfront Fusion] {#connect-anaplan-to-workfront-fusion}
 

@@ -9,10 +9,10 @@ description: Puoi utilizzare il connettore per schede madri Adobe Workfront per 
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: 0b7b63df57c9e99fb782c59af55d1165283dd634
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '2631'
-ht-degree: 0%
+source-wordcount: '2647'
+ht-degree: 1%
 
 ---
 
@@ -71,6 +71,21 @@ Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adob
 ## Prerequisiti
 
 È necessario aver configurato una bacheca in Adobe Workfront prima di potersi connettere ad essa.
+
+## Informazioni API per le schede madri Adobe Workfront
+
+Il connettore delle schede madri Adobe Workfront utilizza quanto segue:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Tag API</td> 
+   <td>v1.23.6</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Creare una connessione alle schede madri Workfront
 
