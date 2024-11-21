@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 6bebe5fa42e50f7aa68b4a87069d47b6ef3323b9
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '1223'
 ht-degree: 0%
 
 ---
 
 # Creare e modificare regole aziendali
+
+{{preview-fast-release-general}}
 
 Una regola business consente di applicare la convalida agli oggetti di Workfront e di impedire agli utenti di creare, modificare o eliminare un oggetto quando vengono soddisfatte determinate condizioni. Le regole aziendali contribuiscono a migliorare la qualità dei dati e l’efficienza operativa impedendo azioni che potrebbero compromettere l’integrità dei dati.
 
@@ -131,6 +133,10 @@ IF(
    * L’&quot;azione&quot; è il trigger selezionato per la regola: crea, modifica o elimina l’oggetto.
    * Poiché l&#39;oggetto e l&#39;azione sono già definiti, non vengono inclusi nella formula.
    * Il messaggio di errore personalizzato viene visualizzato quando l&#39;utente attiva la regola business. Dovrebbe fornire istruzioni chiare su cosa è andato storto e su come correggere il problema.
+
+     <span class="preview">È possibile includere un URL statico nel messaggio di errore, per collegare la documentazione o altre pagine utili per guidare l&#39;utente nella modifica della propria azione nel vincolo della regola.</span>
+
+     <span class="preview">In questo esempio, &quot;Ulteriori informazioni&quot; sarà collegato all&#39;URL. `"You are not allowed to add a new expense in June.[Learn more](http://url)"` L&#39;URL deve essere tra parentesi, ma il testo del collegamento tra parentesi non è obbligatorio. È possibile visualizzare l&#39;URL completo, che sarà un collegamento selezionabile.</span>
 
    ![Finestra di dialogo Aggiungi regola business](assets/add-business-rule-dialog-no-ai-button.png)
 
