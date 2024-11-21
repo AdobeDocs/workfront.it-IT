@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 7d3d3e5ab8a0ee6dd3995ff417fb08d0d64d9a60
+source-git-commit: c34b1573b3a2dce344fcdd60ce5b3114cc095d11
 workflow-type: tm+mt
-source-wordcount: '14607'
+source-wordcount: '14611'
 ht-degree: 2%
 
 ---
@@ -612,7 +612,7 @@ ht-degree: 2%
          * [Personalizzare le intestazioni degli oggetti utilizzando un modello di layout](administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)
          * [Personalizzare il pannello sinistro](administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
          * [Personalizzare la visualizzazione Dettagli](administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
-         * [Personalizza pagina principale e riepilogo](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+         * [Personalizzare il pannello Riepilogo utilizzando un modello di layout](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
          * [Personalizza nuova Home](administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
          * [Personalizzare le pagine bloccate](administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
          * [Personalizza filtri, visualizzazioni, raggruppamenti](administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)

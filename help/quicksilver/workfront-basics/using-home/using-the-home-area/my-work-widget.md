@@ -5,13 +5,13 @@ title: Gestisci il tuo lavoro con il widget Il mio lavoro
 description: Il widget Il mio lavoro mostra tutte le attività, i problemi e le richieste assegnati in un'unica posizione. In questa finestra è possibile filtrare e organizzare il lavoro, registrare il tempo, apportare aggiornamenti e contrassegnare gli elementi di lavoro come completati.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: de782d54a5ab6370b91e7447ed33e5d7511cc50d
+exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
+source-git-commit: 8880891c0f5fd8fecad6c2f58136d36a943105ae
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 5%
 
 ---
-
 
 # Gestisci il tuo lavoro con il widget Il mio lavoro
 
@@ -157,7 +157,7 @@ Puoi aprire il pannello Riepilogo per aggiornare rapidamente le informazioni in 
 * Aggiungi un aggiornamento
 * Passare all&#39;area Documento per caricare un documento
 * Visualizzare i dettagli degli elementi di lavoro e aggiornare i campi personalizzati
-Gli amministratori di Workfront possono personalizzare i campi da visualizzare nel Riepilogo nel modello di layout. Per ulteriori informazioni, vedere [Personalizzare la home e il riepilogo utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+Gli amministratori di Workfront possono personalizzare i campi da visualizzare nel Riepilogo nel modello di layout. Per ulteriori informazioni, vedere [Personalizzare il pannello Riepilogo utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 * Modificare lo stato dell&#39;elemento di lavoro
 * Visualizza le sottoattività
 * Registra ore
@@ -190,7 +190,3 @@ Le approvazioni e le richieste del team non vengono visualizzate nel widget Il m
 * Richieste team
 
 Per informazioni sull&#39;aggiunta di widget alla nuova home page, vedere [Aggiungere, modificare o rimuovere widget nella home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
-
-
-
-
