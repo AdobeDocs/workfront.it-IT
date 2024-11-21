@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
+source-git-commit: 5ebb756ba2f054c37d486d7f54a9f86cf8513328
 workflow-type: tm+mt
-source-wordcount: '6294'
+source-wordcount: '6537'
 ht-degree: 5%
 
 ---
@@ -263,6 +263,10 @@ Per aggiungere un campo di testo:
     <td> Se si desidera applicare un collegamento ipertestuale al testo descrittivo digitato, aggiungerlo qui. Il testo descrittivo viene visualizzato come collegamento sugli oggetti a cui è allegato il modulo.</td>
     <td><ul><li>Testo descrittivo</li></ul></td>
     </tr>
+    <tr> 
+      <td role="rowheader">Rendi il campo obbligatorio</td>
+      <td><p>Seleziona questa opzione se desideri che il campo sia obbligatorio per consentire all’utente di completare il modulo personalizzato.</p></td>
+    </tr> 
    </table>
 
 1. (Facoltativo) Ripeti il passaggio precedente per aggiungere altri campi o widget.
@@ -837,6 +841,27 @@ In questa tabella sono elencati i campi nativi disponibili per oggetti Workfront
       <td role="rowheader">Campo di riferimento</td> 
       <td><p>(Obbligatorio) Seleziona un campo nativo di Workfront.<p><p>Sono disponibili solo campi nativi per gli oggetti del modulo. Se ad esempio l'elenco Tipi di oggetto nella parte superiore del progettista del modulo mostra Project, sarà possibile selezionare campi nativi per i progetti ma non campi specifici delle attività.</p></td>
      </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">Aggiungi filtro</span></td>
+      <td><span class="preview"><p>Aggiungi un filtro per il campo di riferimento per limitare l’elenco di elementi tra cui gli utenti possono scegliere quando utilizzano il campo. </p> <p>Ad esempio, puoi limitare un campo in modo che i nomi utente possano essere selezionati solo se soddisfano i seguenti criteri:</p> 
+       <ul>
+        <li>Appartengono a uno o più gruppi specificati</li> 
+        <li>Sono associati a un ruolo o a una mansione specificata</li> 
+        <li>Appartengono allo stesso gruppo della persona che utilizza il campo</li> 
+       </ul>
+       <p>È necessario definire il filtro per il campo di riferimento selezionato utilizzando la sintassi in modalità testo. Per informazioni sulla creazione di un filtro in modalità testo, vedere <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Modificare un filtro in modalità testo</a>.</p>
+       <p><b>NOTA</b>:
+       <ul> 
+        <li>L’opzione filtro è disponibile solo quando si fa riferimento a un campo typeahead nativo, ad esempio Portfolio, Società o Proprietario.</li>
+        <li>Se si sta modificando un modulo personalizzato esistente, l'aggiunta di un filtro a un campo nativo non rimuove gli oggetti già aggiunti dagli utenti utilizzando il campo, al di fuori dell'ambito del filtro.</li> 
+        <li>Questo filtro non è disponibile sui dispositivi mobili. Se utilizzi il filtro per un campo nativo, il campo verrà visualizzato sui dispositivi mobili degli utenti non interessati dal filtro.</li> 
+        </ul></p></span></td> 
+      <td>
+     </tr>
+     <tr> 
+      <td role="rowheader">Rendi il campo obbligatorio</td>
+      <td><p>Seleziona questa opzione se desideri che il campo sia obbligatorio per consentire all’utente di completare il modulo personalizzato.</p></td>
+     </tr> 
      <tr> 
       <td role="rowheader">Dimensione</td> 
       <td>(Facoltativo) Modifica la dimensione di visualizzazione del campo in base alle esigenze.</td> 
