@@ -7,10 +7,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3fe99aec-1489-4434-b787-cc3f940c9062
-source-git-commit: 10ab6466780d9fe88604bf781c153cde89f1e454
+source-git-commit: 8ad2ed8389fdc00649f0853e07d2e83d21ccb385
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 4%
+source-wordcount: '39'
+ht-degree: 5%
 
 ---
 
@@ -19,7 +19,6 @@ ht-degree: 4%
 Di seguito sono riportati alcuni annunci che è possibile conoscere:
 
 <!--* [Enhanced Analytics deprecation guide](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)-->
-* [Guida obsoleta della home page legacy](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md)
 * [Domande frequenti sulla finestra di manutenzione](../../product-announcements/announcements/maintenance-window-faq.md)
 * [Annulla iscrizione ai messaggi del Centro notifiche](unsubscribe-from-ac-messages.md)
 * [Modifica necessaria per aggiungere le bozze al inserisco nell&#39;elenco Consentiti di lavoro di un’organizzazione](proofhq-domain-change-workfront.md)

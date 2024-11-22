@@ -5,9 +5,9 @@ description: "Le notifiche in-app ti mantengono informato su due tipi di informa
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c5da114-33cc-422b-84f4-67bc7fcd67c6
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: 3210474976f435c75c8cfa38e263f9211b9d016d
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '947'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ L&#39;icona numerata nell&#39;angolo superiore destro di [!DNL Workfront] mostra
 
    ![Notifiche recenti non lette](assets/qs-notifications-350x330.png)
 
-   In un elenco scorrevole vengono visualizzate fino a 80 notifiche. Per ulteriori informazioni, puoi fare clic su **[!UICONTROL Tutte le notifiche]** nella parte inferiore dell&#39;elenco per visualizzare fino a 100 notifiche. Le notifiche vengono eliminate automaticamente dopo 30 giorni.
+   L’icona numerica mostra un elenco scorrevole con un massimo di 80 notifiche. Per ulteriori informazioni, puoi fare clic su **[!UICONTROL Tutte le notifiche]** nella parte inferiore dell&#39;elenco per visualizzare fino a 500 notifiche. Le notifiche vengono eliminate automaticamente dopo 30 giorni.
 
    Nella parte inferiore di ogni notifica vengono visualizzati il tipo di notifica  e un&#39;icona di identificazione corrispondente. Queste informazioni consentono di identificare l&#39;evento dell&#39;elemento [!DNL Workfront] menzionato e di avvisarti se disponi di un elemento azione:
 

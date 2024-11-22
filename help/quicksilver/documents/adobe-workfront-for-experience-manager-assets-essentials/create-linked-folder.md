@@ -7,9 +7,9 @@ description: Puoi creare una cartella collegata a Experience Manager Assets o ag
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: 96830bad7480a99ca8f318dbd791ebcaceddd01e
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 # Creare una cartella collegata a Experience Manager Assets o Assets Essentials
 
 Puoi creare una cartella collegata a Experience Manager Assets o agli Assets Essentials mentre ti trovi in Workfront. Poiché la cartella è collegata, tutte le risorse aggiunte alla cartella verranno visualizzate automaticamente sia in Workfront che in Experience Manager. Se la risorsa si trova in una cartella collegata, non è necessario inviarla manualmente.
+
+Se una risorsa viene eliminata o spostata da una cartella collegata all’interno di Experience Manager Assets o Assets Essentials, Workfront ne conserva una copia nell’area Progetto > Documenti.
 
 
 ## Requisiti di accesso
@@ -53,7 +55,7 @@ Devi avere i seguenti:
   <tr>
    <td><strong>Configurazioni del livello di accesso</strong>
    </td>
-   <td>Per configurare un’integrazione Workfront Experience Manager è necessario essere un amministratore. Una volta configurata, gli utenti con una licenza Pianificazione possono impostare cartelle collegate su singoli progetti.
+   <td>Per configurare un’integrazione Workfront Experienci Manager è necessario essere un amministratore. Una volta configurata, gli utenti con una licenza Pianificazione possono impostare cartelle collegate su singoli progetti.
    </td>
   </tr>
 </table>

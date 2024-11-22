@@ -4,9 +4,10 @@ description: Miglioramenti Home Quarto Trimestre 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4b92c4ede61690211dad2cb908c502dbb63d7c34
+exl-id: 9b8ec3eb-5327-4b5b-b7a9-80205b46b5e3
+source-git-commit: 01ea4c72e61cbc808ed76cb18e3f67d893bacf69
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -63,12 +64,18 @@ Con questa modifica, saranno interessate le seguenti aree:
 
 * L&#39;area di lavoro _Home_ verrà rinominata _Home_.
 * L&#39;area _Home e Riepilogo_ verrà rinominata _Summary panel_. Le personalizzazioni in quest’area verranno comunque applicate al pannello Riepilogo nella nuova Home. Per ulteriori informazioni, vedere [Personalizzare la home e il riepilogo utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+* Verranno rimosse le seguenti schede dal pannello Home e Riepilogo:
+   * Progetti
+   * Documenti
+   * Versioni dei documenti
+
+Nota: le versioni del documento e del documento si applicano solo alla home page legacy. Non ti hanno consentito di personalizzare il Riepilogo nell’area Documenti.
 
 **Gestisci approvazioni**
 
 * Non potrai più richiamare, ricordare o rimuovere utenti dalle approvazioni inviate nell’area Home. Puoi invece gestirlo direttamente dall’approvazione.
 
-Gli utenti sono invitati a iniziare a utilizzare la nuova Home, che continuerà a essere migliorata con funzioni aggiuntive prima che venga dichiarata obsoleta. Per ulteriori informazioni sulla transizione, inclusi consigli su cosa possono fare gli utenti e gli amministratori per prepararsi, consulta [Legacy Home deprecation guide](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
+Gli utenti sono invitati a iniziare a utilizzare la nuova Home, che continuerà a essere migliorata con funzioni aggiuntive prima che venga dichiarata obsoleta.
 
 >[!NOTE]
 >
