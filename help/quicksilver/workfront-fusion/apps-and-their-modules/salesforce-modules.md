@@ -87,7 +87,7 @@ Il connettore Salesforce utilizza quanto segue:
  <tbody> 
   <tr> 
    <td role="rowheader">URL di base</td> 
-   <td> {{connection.instanceUrl}}</td>
+   <td> &lbrace;&lbrace;connection.instanceUrl&rbrace;&rbrace;</td>
   </tr> 
   <tr> 
    <td role="rowheader">Versione API</td> 

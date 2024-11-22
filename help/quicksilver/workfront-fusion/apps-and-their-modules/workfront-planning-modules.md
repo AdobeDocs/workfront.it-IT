@@ -71,7 +71,7 @@ Il connettore Adobe Workfront Planning utilizza quanto segue:
  <tbody> 
   <tr> 
    <td role="rowheader">URL di base</td> 
-   <td>https://{{connection.host}}/maestro/api/{{common.maestroApiVersion}}/</td> 
+   <td>https://&lbrace;&lbrace;connection.host&rbrace;&rbrace;/maestro/api/&lbrace;&lbrace;common.maestroApiVersion&rbrace;&rbrace;/</td> 
   </tr>
   <tr> 
    <td role="rowheader">Tag API</td> 

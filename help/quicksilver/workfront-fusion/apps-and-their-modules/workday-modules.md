@@ -82,7 +82,7 @@ Il connettore Workday utilizza quanto segue:
  <tbody> 
   <tr> 
    <td role="rowheader">URL di base</td> 
-   <td>https://{{connection.servicesUrl}}/api</td> 
+   <td>https://&lbrace;&lbrace;connection.servicesUrl&rbrace;&rbrace;/api</td> 
   </tr>
   <tr> 
    <td role="rowheader">Tag API</td> 
