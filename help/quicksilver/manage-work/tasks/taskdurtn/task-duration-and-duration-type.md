@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 06b5d8d7e3f2f3d0ff7ef614861a8898dd9df4eb
+source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1647'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,13 @@ Il tipo di durata di un&#39;attività identifica la relazione tra il numero di r
 
 Se le date di inizio e di completamento effettive dell&#39;attività non rientrano nella programmazione del progetto, dell&#39;assegnatario principale o della programmazione predefinita, la durata dell&#39;attività è pari a zero.
 
-**Esempio:** Se la pianificazione inizia alle 9.00 e termina alle 12.00 e un&#39;attività è pianificata per iniziare alle 14.00 e terminare alle 16.00, la durata dell&#39;attività è zero.
+>[!BEGINSHADEBOX]
+
+**ESEMPIO**
+Se una pianificazione inizia alle 9 e termina alle 12 e un&#39;attività è pianificata per iniziare alle 14 e terminare alle 16, la durata dell&#39;attività sarà zero.
+
+
+>[!ENDSHADEBOX]
 
 Di seguito sono riportati due scenari che esistono durante il calcolo della durata in Adobe Workfront:
 
@@ -70,6 +76,14 @@ Di seguito sono riportati due scenari che esistono durante il calcolo della dura
 >[!NOTE]
 >
 >Se si tiene conto del tempo libero dell&#39;assegnatario principale in un progetto, le date pianificate dell&#39;attività potrebbero essere modificate, ma la durata dell&#39;attività rimane invariata. Per informazioni su come tenere conto del tempo libero dell&#39;assegnatario principale durante la pianificazione di un progetto, vedere [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+
+## Durata originale di un&#39;attività padre
+
+La durata originale di un&#39;attività è la durata che un&#39;attività aveva prima di diventare un&#39;attività padre, espressa in minuti.
+
+Quando un&#39;attività diventa padre, la durata tra la data di inizio pianificata del primo figlio e la data di completamento pianificata dell&#39;ultimo figlio viene aggregata all&#39;attività padre e diventa la durata dell&#39;attività padre. Questo sostituisce la Durata dell&#39;attività originale.
+
+Per ulteriori informazioni, vedere [Panoramica sulla durata originale dell&#39;attività e sulle ore pianificate originali](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md).
 
 ## Unità di tempo per la durata dell&#39;attività
 

@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 6a881c1d2f7076f1b7f8f98706657851dc6ab454
+source-git-commit: d74bf60a66326c71447679c463de0469cd0de9fa
 workflow-type: tm+mt
-source-wordcount: '14611'
+source-wordcount: '14614'
 ht-degree: 2%
 
 ---
@@ -2119,6 +2119,7 @@ ht-degree: 2%
       * [Connetti record](planning/records/connect-records.md)
       * [Modifica record](planning/records/edit-records.md)
       * [Elimina record](planning/records/delete-records.md)
+      * [Ripristina record eliminati](planning/records/restore-deleted-records.md)
       * [Condividere i record](planning/records/share-records.md)
       * [Record duplicati](planning/records/copy-or-duplicate-records.md)
       * [Gestisci commenti record](planning/records/manage-record-comments.md)

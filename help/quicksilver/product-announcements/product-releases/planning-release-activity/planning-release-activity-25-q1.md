@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+source-git-commit: 6f91c7c75c4565d5e91264481924daf50d3807ec
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,21 @@ Questo articolo descrive le funzioni rilasciate per Workfront Planning durante l
 <!--remove the general activity mention after First Quarter 2025 is released-->
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning dopo il rilascio di disponibilità generale del 28 agosto 2024, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+
+## Ripristina record eliminati
+
+>[!NOTE]
+>
+>Versione di anteprima: 22 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+
+Una volta eliminati, i record vengono temporaneamente spostati in un raccoglitore Eliminato di recente per 30 giorni. È possibile accedere al contenitore eliminato di recente dalla pagina del tipo di record e contiene solo record di un tipo specifico.
+
+I responsabili di Workspace possono ripristinare i record dal cestino per un massimo di 30 giorni dopo l&#39;eliminazione. Vengono ripristinati anche i record collegati e le relative informazioni di campo.
+
+Prima di questo miglioramento, non era possibile ripristinare i record eliminati.
+
+Per ulteriori informazioni, vedere [Ripristinare i record eliminati](/help/quicksilver/planning/records/records-information.md).
 
 ## Assistente AI di Adobe disponibile nelle aree dei dettagli del record
 
