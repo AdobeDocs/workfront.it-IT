@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: df3885233140c5d0af542c8999226f7934c1329f
+source-git-commit: 2b6f5243de9610947ab6836080379a2293f48a10
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1643'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,7 @@ Per ulteriori informazioni, vedere la sezione [Visualizzare il cluster e il pian
 * [Indirizzi IP per consentire i cluster 1, 2, 3, 5, 7, 8 e 9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
 * [Indirizzi IP da consentire per il cluster 4](#ip-addresses-to-allow-for-cluster-4)
 * [Indirizzi IP da consentire per il cluster 6](#ip-addresses-to-allow-for-cluster-6)
+* [Indirizzi IP per consentire il cluster 10](#ip-addresses-to-allow-for-cluster-10)
 * [Indirizzi IP da consentire per un&#39;unità di prova](#IP%20Addre2)
 * [Indirizzi IP da consentire durante l&#39;implementazione di sottoscrizioni eventi](#ip-addresses-to-allow-when-implementing-event-subscriptions)
 * [Indirizzi IP per consentire l&#39;autenticazione avanzata](#ip-addresses-to-allow-for-enhanced-authentication)
