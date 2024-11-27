@@ -9,7 +9,7 @@ description: Puoi utilizzare il connettore Adobe Workfront Fusion Adobe Workfron
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
 workflow-type: tm+mt
 source-wordcount: '6797'
 ht-degree: 2%
@@ -824,18 +824,15 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  <tbody> 
   <tr> 
     <td>[!UICONTROL Connection]</td>
-
-<td> <p>Per istruzioni sulla connessione dell'app [!DNL Workfront] a [!DNL Workfront Fusion], vedere <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL Workfront] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+    <td> <p>Per istruzioni sulla connessione dell'app [!DNL Workfront] a [!DNL Workfront Fusion], vedere <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connessione di [!DNL Workfront] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
     <td>[!UICONTROL Tipo di record]</td>
-
-<td>Scegliere il tipo di oggetto [!DNL Workfront] che si desidera venga letto dal modulo.</td> 
+     <td>Scegliere il tipo di oggetto [!DNL Workfront] che si desidera venga letto dal modulo.</td> 
   </tr> 
   <tr> 
     <td>[!UICONTROL Output]</td>
-
-<td> <p>Seleziona le informazioni da includere nel bundle di output per questo modulo.</p> </td> 
+     <td> <p>Seleziona le informazioni da includere nel bundle di output per questo modulo.</p> </td> 
   </tr> 
   <tr> 
     <td>[!UICONTROL Riferimenti]</td>

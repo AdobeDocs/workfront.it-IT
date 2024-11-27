@@ -10,9 +10,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: 352eaa63638504d0114803fbca640a8eb2745d57
+source-git-commit: 84246c2720e54e270de217167e88e803a92fdafc
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '231'
 ht-degree: 19%
 
 ---
@@ -45,7 +45,7 @@ Questa sezione contiene i seguenti articoli:
 * [Moduli eventi Adobi I/O](../../workfront-fusion/apps-and-their-modules/adobe-io-events-modules.md)
 * [[!DNL Adobe Journey Optimizer] moduli](../../workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
 * [Moduli Adobe Lightroom](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-lightroom-modules.md)
-* [Moduli Adobe Planning](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
+* [Moduli di Adobe Planning](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
 * [[!DNL Adobe PDF Services] moduli](../../workfront-fusion/apps-and-their-modules/pdf-modules.md)
 * [[!DNL Adobe Photoshop] moduli](../../workfront-fusion/apps-and-their-modules/adobe-photoshop-modules.md)
 * [[!DNL Adobe Target] moduli](../../workfront-fusion/apps-and-their-modules/adobe-target-modules.md)
@@ -93,6 +93,7 @@ Questa sezione contiene i seguenti articoli:
 * [[!DNL Marketo] moduli](../../workfront-fusion/apps-and-their-modules/marketo-modules.md)
 * [Matematica](../../workfront-fusion/apps-and-their-modules/math-module.md)
 * [[!DNL Microsoft Dynamics 365] moduli](../../workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md)
+* [[!DNL Microsoft Dynamics 365 Finance and Operations] moduli](../../workfront-fusion/apps-and-their-modules/dynamics-finance-operations-modules.md)
 * [[!DNL Microsoft Office 365 Calendar]](../../workfront-fusion/apps-and-their-modules/microsoft-365-calendar-modules.md)
 * [[!DNL Microsoft Office 365 Email]](../../workfront-fusion/apps-and-their-modules/microsoft-365-email-modules.md)
 * [[!DNL Microsoft Office 365 Excel] moduli](../../workfront-fusion/apps-and-their-modules/microsoft-365-excel-modules.md)

@@ -9,9 +9,9 @@ description: In uno scenario  [!DNL Adobe Workfront Fusion] , puoi automatizzare
 author: Becky
 feature: Workfront Fusion
 exl-id: 116df088-20a7-40a8-8880-9f422dc37632
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1733'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ In uno scenario [!DNL Adobe Workfront Fusion], è possibile automatizzare i flus
 >[!NOTE]
 >
 >Il connettore [!DNL Microsoft Dynamics 365] non supporta [!DNL Dynamics Finance and Operations].
+>
+>Per i moduli Finanza e Operazioni di Microsoft Dynamics 365, vedere [[!DNL Microsoft Dynamics 365 Finance and Operations modules]](/help/quicksilver/workfront-fusion/apps-and-their-modules/dynamics-finance-operations-modules.md).
 
 Se hai bisogno di istruzioni per la creazione di uno scenario, consulta [Creare uno scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 

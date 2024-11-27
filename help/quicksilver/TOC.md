@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: d74bf60a66326c71447679c463de0469cd0de9fa
+source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
 workflow-type: tm+mt
-source-wordcount: '14614'
+source-wordcount: '14642'
 ht-degree: 2%
 
 ---
@@ -184,6 +184,7 @@ ht-degree: 2%
          * [21.1 Altri miglioramenti](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Attività di rilascio di Adobe Workfront Fusion {#fusion-release}
          * [Attività di rilascio di Adobe Workfront Fusion](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Attività di rilascio di Workfront Fusion: settimana del 25 novembre 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-25.md)
          * [Attività di rilascio di Workfront Fusion: settimana dell’11 novembre 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-11.md)
          * [Attività di rilascio di Workfront Fusion: settimana 4 novembre 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-4.md)
          * [Attività di rilascio di Workfront Fusion: settimana del 21 ottobre 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-10-21.md)
@@ -1844,6 +1845,7 @@ ht-degree: 2%
       * [Revisione e approvazione di risorse e documenti: indice articoli](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [Panoramica delle approvazioni dei documenti](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [Panoramica sullo stato delle decisioni relative ai documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
+      * [Creare un dashboard di report per la revisione e le approvazioni](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
       * Imposta e gestisci approvazioni risorse e documenti {#manage-asset-review-and-approval}
          * [Impostare e gestire le approvazioni di risorse e documenti: indice articoli](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [Creare una richiesta di revisione o approvazione documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
@@ -2339,6 +2341,7 @@ ht-degree: 2%
       * [Moduli Marketo](workfront-fusion/apps-and-their-modules/marketo-modules.md)
       * [Matematica](workfront-fusion/apps-and-their-modules/math-module.md)
       * [Moduli Microsoft Dynamics 365](workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md)
+      * [Finanza e operazioni dei moduli Microsoft Dynamics 365](workfront-fusion/apps-and-their-modules/dynamics-finance-operations-modules.md)
       * [Calendario di Microsoft Office 365](workfront-fusion/apps-and-their-modules/microsoft-365-calendar-modules.md)
       * [E-mail Microsoft Office 365](workfront-fusion/apps-and-their-modules/microsoft-365-email-modules.md)
       * [Moduli Excel di Microsoft Office 365](workfront-fusion/apps-and-their-modules/microsoft-365-excel-modules.md)
@@ -2798,6 +2801,7 @@ ht-degree: 2%
       * [Esempi di codice](proofhq-api/general/code-samples.md)
       * [Domande frequenti sulle API SOAP](proofhq-api/general/soap-api-faqs.md)
 * [Documento di prova nascosto](hidden-test.md)
+* [Panoramica sulla versione del primo trimestre 2025 - test](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/release-overview-test.md)
 
 
 <!--
