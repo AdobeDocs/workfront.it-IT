@@ -10,7 +10,7 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: e72018b7-5de2-4661-b27d-6da6ece5cc48
-source-git-commit: 806a4c4835e47da4fbbdb28ec0c35c990f70239e
+source-git-commit: f66b219e9fd203f108844ad397bcfa848b8f1134
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 0%
@@ -43,4 +43,4 @@ Questa sezione contiene i seguenti articoli:
 * [Salvare un file di intestazione e-mail](../../administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md)
 * [La condivisione mostra più di un&#39;autorizzazione](../../administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
 * [L’e-mail non autenticata non è accettata a causa dei criteri DMARC del dominio](../../administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
-* [Workfront: le impostazioni ZScalar possono causare una riduzione delle prestazioni](../../administration-and-setup/tips-tricks-and-troubleshooting/zscalar-affects-performance.md)
+* [Workfront: le impostazioni ZScaler possono causare una riduzione delle prestazioni](../../administration-and-setup/tips-tricks-and-troubleshooting/zscaler-affects-performance.md)
