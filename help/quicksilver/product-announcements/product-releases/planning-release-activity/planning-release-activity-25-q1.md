@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: d27c25e4eedb6b4df67d23b997fdf1222b95da57
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '1747'
+source-wordcount: '1769'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning 
 >
 >Versione di anteprima: 27 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
 
-Ora, quando si aggiungono campi a un tipo di record, è possibile importare campi personalizzati o nativi di Workfront esistenti e associarli al tipo di record selezionato.
+Ora, quando si aggiungono campi a un tipo di record, è possibile importare campi personalizzati o nativi di Workfront esistenti e associarli al tipo di record selezionato. L&#39;importazione di campi esistenti crea una copia dei campi di Workfront in Workfront Planning. I campi copiati sono indipendenti dalle versioni originali.
 
 Prima di questo miglioramento, era necessario creare manualmente tutti i campi e associarli ai tipi di record.
 
@@ -89,13 +89,16 @@ Le pagine aggiunte sono di sola lettura.
 
 Per informazioni, vedere [Gestire il layout della pagina record](/help/quicksilver/planning/records/manage-the-record-page.md).
 
-## Nuova scheda Pianificazione nella sezione Inviata dell&#39;area Richieste
+## Nuove schede Workfront e Planning nella sezione Inviato dell&#39;area Richieste
 
 >[!NOTE]
 >
 >Versione di anteprima: 27 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
 
-Le richieste di Workfront Planning sono ora disponibili nella sezione Inviato dell&#39;area Richieste di Workfront. Nella sezione Inviata sono ora visualizzate due schede: le richieste inviate in Workfront nella scheda Workfront e le richieste inviate utilizzando un modulo di richiesta di Workfront Planning nella scheda Planning.
+Le richieste di Workfront Planning sono ora disponibili nella sezione Inviato dell&#39;area Richieste di Workfront. Nella sezione Inviata sono ora visualizzate le seguenti schede:
+
+* Workfront: visualizza le richieste inviate in Workfront.
+* Planning: visualizza le richieste sottomesse utilizzando un modulo di richiesta Workfront Planning.
 
 Per poter aggiungere richieste a un tipo di record di Workfront Planning, è necessario utilizzare un collegamento al modulo di richiesta. L&#39;invio di una richiesta di Workfront Planning dall&#39;area Richieste di Workfront sarà disponibile in un secondo momento.
 
@@ -127,7 +130,7 @@ Per informazioni, consulta Creare e gestire un modulo di richiesta in Adobe Work
 Non è più possibile condividere un modulo di richiesta pubblicamente se il modulo contiene uno dei tipi di campo seguenti:
 
 * Formula
-* Connessioni
+* Connessioni Workfront e AEM Assets
 * Campi di ricerca
 * Persone
 

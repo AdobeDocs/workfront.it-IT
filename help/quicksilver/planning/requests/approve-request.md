@@ -3,9 +3,9 @@ title: Approvare una richiesta
 description: Quando un utente invia una richiesta a un modulo di richiesta associato a un’approvazione in Adobe Workfront Planning, gli approvatori ricevono una notifica e un messaggio e-mail relativi all’approvazione in sospeso. È necessario approvare la richiesta prima che Workfront Planning crei un oggetto.
 hide: true
 hidefromTOC: true
-source-git-commit: a999b805016361bdd101a6cd9c61967284a71014
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '783'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ Si consiglia inoltre di visualizzare i seguenti articoli:
 Le richieste inviate vengono visualizzate nella scheda Pianificazione della sezione Inviate dell&#39;area Richieste di Workfront con uno dei seguenti stati di richiesta:
 
 * **Revisione in sospeso**: questo stato viene visualizzato quando nessuno degli approvatori ha aperto l&#39;oggetto della richiesta.
-* **In revisione**: lo stato cambia in **In revisione** quando almeno un approvatore apre l&#39;oggetto della richiesta.
+* **In revisione**: lo stato cambia in **In revisione** quando almeno un approvatore apre l&#39;oggetto della richiesta. Lo stato della richiesta rimane **In revisione** fino a quando tutti gli approvatori non avranno approvato la richiesta.
 * **Approvato**: quando un approvatore approva l&#39;oggetto della richiesta, il suo stato individuale diventa
 * **Approvato**, ma lo stato complessivo dell&#39;oggetto della richiesta rimane **In revisione** fino a quando tutti gli approvatori non avranno preso le loro decisioni.
 * **Completato**: se tutti gli approvatori approvano l&#39;oggetto della richiesta, lo stato cambia in **Completato** oppure se la richiesta non ha bisogno di un&#39;approvazione.
@@ -152,7 +152,13 @@ Per approvare una richiesta:
 
 1. Esegui una delle operazioni seguenti:
 
-   * Dal **menu principale** ![](assets/dots-menu.png) di Workfront nell&#39;angolo superiore destro dello schermo o dal **menu principale** ![](assets/lines-menu.png) nell&#39;angolo superiore sinistro, se disponibile, fare clic su **Richieste** > **Inviate** > **Pianificazione** e fare clic sulla richiesta con lo stato di **In revisione**. <!--did they change this to Pending approval; logged  a bug-->
+   * Se hai accesso a Workfront Planning, fai clic su **Menu principale** ![](assets/dots-menu.png) nell&#39;angolo superiore destro dello schermo o su **Menu principale** ![](assets/lines-menu.png) nell&#39;angolo superiore sinistro, se disponibile, quindi fai clic su **Richieste** > **Inviate** > **Planning** e fai clic sulla richiesta con lo stato di **In revisione**. <!--did they change this to Pending approval; logged  a bug-->
+
+     >[!TIP]
+     >
+     >    Se non si dispone dell&#39;accesso a Workfront Planning, è possibile accedere solo a una richiesta di approvazione utilizzando le notifiche.
+
+
    * Vai all&#39;area **Notifiche** nell&#39;angolo superiore destro della schermata e fai clic sulla notifica di una richiesta in attesa della tua approvazione per aprire la richiesta.
    * Vai alla notifica e-mail nell’e-mail che ti notifica una richiesta in attesa della tua approvazione, quindi fai clic su per aprire la richiesta. <!--add the name of the button here, from the email-->
 
@@ -162,5 +168,5 @@ Per approvare una richiesta:
 1. (Facoltativo) Fai clic sull&#39;icona **Approvazioni** ![](assets/approvals-icon.png) nell&#39;angolo superiore destro della richiesta per visualizzare gli approvatori.
 1. Fai clic su **Rivedi e approva**, quindi scegli una delle seguenti opzioni: <!--did they fix the button and removed the &??-->
 
-   * **Approva**: per approvare la richiesta. Viene immediatamente creato un record per il tipo di record associato al modulo di richiesta.
-   * **Rifiuta**: per rifiutare la richiesta. Non viene creato alcun record per il tipo di record associato al modulo di richiesta. <!--check to see if there is a notification sent to the requestor about it being rejected OR approved??-->
+   * **Approva**: questa operazione approva la richiesta. Viene immediatamente creato un record per il tipo di record associato al modulo di richiesta.
+   * **Rifiuta**: questa operazione rifiuta la richiesta. Non viene creato alcun record per il tipo di record associato al modulo di richiesta. <!--check to see if there is a notification sent to the requestor about it being rejected OR approved??--> <!--checking with PM what happens with the other approvers when one of them is rejecting it: does it ask them to approve it? Deleted the request? -->

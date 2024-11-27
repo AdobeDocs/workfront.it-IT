@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1677'
 ht-degree: 1%
 
 ---
@@ -106,7 +106,14 @@ Quando si aggiorna la Durata delle attività in un elenco, è possibile utilizza
 
 {style="table-layout:auto"}
 
-**Esempio:** Se si desidera indicare che la durata di un&#39;attività è di 3 giorni trascorsi, digitare &quot;3 ED&quot; nel campo Durata di un elenco di attività.  È inoltre possibile selezionare l&#39;opzione desiderata per l&#39;unità di tempo di durata dal menu a discesa disponibile quando si modifica un&#39;attività o nella sezione Dettagli attività. Per informazioni sulla modifica delle attività, vedere [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+>[!BEGINSHADEBOX]
+
+**ESEMPIO**
+
+Se si desidera indicare che la durata di un&#39;attività è di 3 giorni trascorsi, digitare &quot;3 ED&quot; nel campo Durata in un elenco di attività.  È inoltre possibile selezionare l&#39;opzione desiderata per l&#39;unità di tempo di durata dal menu a discesa disponibile quando si modifica un&#39;attività o nella sezione Dettagli attività. Per informazioni sulla modifica delle attività, vedere [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
+
+>[!ENDSHADEBOX]
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: stays QS only forever; for the pictures below: make the first one classic at preview time and the second one stays QS always. The second one is yellow >> take out at 21.2 production!!)</p>
@@ -117,8 +124,8 @@ Quando si aggiorna la Durata delle attività in un elenco, è possibile utilizza
 Quando si indica la durata di un&#39;attività, tenere presente quanto segue:
 
 * Il tempo trascorso è un&#39;unità di tempo per la durata di un&#39;attività. Si tratta del tempo che intercorre tra la Data inizio pianificata e la Data completamento pianificata di un&#39;attività e che include ferie, fine settimana e ferie. In altre parole, il tempo trascorso è il trascorrere dei giorni di calendario.
-* L&#39;orario regolare prende in considerazione le festività, i fine settimana e le ferie e le esclude dalla Durata dell&#39;attività.
-
+* I giorni rappresentano i giorni lavorativi definiti nel sistema ed è configurabile nell’area Configura. Nella maggior parte dei casi, un giorno consiste di 8 ore.
+* L&#39;orario regolare (giorni o giorni lavorativi) tiene conto delle festività, dei fine settimana e delle indisponibilità e le esclude dalla Durata dell&#39;attività.
 * Quando si indica la Durata di un&#39;attività in settimane, Workfront calcola la Durata in giorni e ore in base alle impostazioni Giornate lavorative tipiche e Ore tipiche per giorno lavorativo impostate dall&#39;amministratore di Workfront nell&#39;area Preferenze progetto di configurazione.
 * Per calcolare la durata in mesi, Workfront utilizza la durata predefinita di 4 settimane per un mese.
 
