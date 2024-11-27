@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1617'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # Crea record
+
+<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -28,6 +32,8 @@ In Adobe Workfront Planning, un record è un&#39;istanza di un tipo di record.
 * [Duplicare record da una vista tabella](#create-records-by-duplicating-them)
 * [Crea record durante la connessione da altri record](#create-records-as-you-connect-them)
 * [Per crearli, inviare un modulo di richiesta a un tipo di record](#create-records-by-submitting-a-request-form-to-a-record-type)
+* <span class="preview">[Crea record durante l&#39;importazione di tipi di record da un file CSV o Excel](#create-records-when-importing-record-types-from-a-csv-or-excel-file)</span>
+
 
 Per informazioni sulla gestione dei record nelle viste tabella o sequenza temporale, vedere gli articoli seguenti:
 
@@ -270,3 +276,13 @@ Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workf
 Sia gli utenti di Workfront che quelli esterni all&#39;organizzazione possono inviare richieste ai tipi di record di Planning e creare record, se dispongono di un collegamento al modulo di richiesta.
 
 Per informazioni, vedere [Inviare le richieste di Adobe Workfront Planning per la creazione di record](/help/quicksilver/planning/requests/submit-requests.md).
+
+<div class="preview">
+
+## Creare record durante l&#39;importazione di tipi di record da un file CSV o Excel
+
+È possibile importare record quando si importano tipi di record utilizzando un file CSV o Excel.
+
+Per informazioni, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
+
+</div>

@@ -6,16 +6,21 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: d7c7b09b033705142b2c658c9d275e63299d3fd0
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 1%
+source-wordcount: '811'
+ht-degree: 0%
 
 ---
+
 
 # Inviare richieste di Adobe Workfront Planning per creare record
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -112,17 +117,21 @@ Prima di inviare una richiesta a un modulo di richiesta Workfront Planning, è n
 
 * Il modulo di richiesta deve essere condiviso con un collegamento in modo da potervi accedere. Esistono i seguenti scenari:
 
-   * Se disponi di un account Workfront, il collegamento è stato condiviso solo con persone interne e puoi accedere all’area di lavoro. Gli utenti esterni a Workfront non possono accedere a un collegamento condiviso internamente.
+   * Se disponi di un account Workfront, il collegamento è stato condiviso solo con persone interne e puoi contribuire o accedere più facilmente all’area di lavoro. Gli utenti esterni a Workfront non possono accedere a un collegamento condiviso internamente.
    * Se non disponi di un account Workfront, il collegamento è stato condiviso con persone esterne. Gli utenti di Workfront possono anche accedere a un collegamento condiviso con persone esterne.
 
 * Il collegamento al modulo non deve essere scaduto.
 
 ## Considerazioni sull&#39;invio di richieste a Workfront Planning
 
-* Non è possibile accedere ai moduli di richiesta per le richieste di Workfront Planning senza un collegamento specifico ai moduli.
+* È possibile accedere a un modulo di richiesta per le richieste di Workfront Planning solo da un collegamento specifico al modulo.
 * Una richiesta inviata a Workfront Planning non può essere modificata.
-* Ogni richiesta inviata crea un record per il tipo di record associato al modulo utilizzato.
+* Ogni richiesta inviata crea un record per il tipo di record associato al modulo utilizzato <!--<span class="preview">if the form is not associated with an approval, or if the approval has been granted.</span> -->
 * I record creati con l’invio di moduli di richiesta non possono essere differenziati dai record aggiunti tramite qualsiasi altro metodo. Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).
+* <span class="preview">Le richieste inviate vengono visualizzate nella scheda Pianificazione della sezione Inviate nell&#39;area Richieste di Workfront </span>.
+
+<!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some incosistency between unified-approvals-service and intake-approvals-flow.-->
+
 
 ## Inviare una richiesta a Workfront Planning
 
@@ -132,8 +141,35 @@ Prima di inviare una richiesta a un modulo di richiesta Workfront Planning, è n
 
    >[!TIP]
    >
-   >   Se il campo **Oggetto** di Workfront è disponibile, potrebbe non essere visibile in Workfront Planning. È consigliabile aggiornare il maggior numero possibile di campi nella richiesta per rendere identificabile il nuovo record quando viene aggiunto al tipo di record.
+   >   Se il campo **Oggetto** è disponibile, non sarà visibile in Workfront Planning dopo l&#39;invio della richiesta.
+   >
+   >È consigliabile aggiornare il maggior numero possibile di campi nella richiesta per rendere il nuovo record identificabile quando viene aggiunto al tipo di record in Workfront Planning.
 
 1. Fai clic su **Invia**.
 
-   Il modulo viene inviato e viene aggiunto un nuovo record al tipo di record associato al modulo.
+   Il modulo viene inviato e si verificano gli eventi seguenti:
+
+   * <!--If the request form was not associated with an approval, or <span class="preview">if the approval was granted</span>, a-->Viene aggiunto un nuovo record al tipo di record associato alla maschera.
+
+
+   * <!--If the request form was not associated with an approval, the--> <span class="preview"> La richiesta viene aggiunta alla sezione Inviata dell&#39;area Richieste Workfront e viene aggiunto un nuovo record alla pagina del tipo di record.</span>
+
+     ![](assets/planning-tab-in-requests.png)
+
+     >[!IMPORTANT]
+     >
+     ><span class="preview">Tutti gli utenti che hanno accesso ad almeno un&#39;area di lavoro possono visualizzare la scheda Pianificazione nell&#39;area Richieste. Puoi visualizzare solo le richieste che hai inviato. Gli amministratori di Workfront possono visualizzare tutte le richieste nel sistema. </span> <!--ensure this is correct; asking team in slack-->
+
+   <!--
+   * <span class="preview">If the request form was associated with an approval, the request is temporarily saved to the Planning tab in the Submitted section of the Workfront Requests area. No record is created for the record type associated with the request form.</span>
+
+      <span class="preview">For information, see [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).</span>  
+   -->
+   <!--
+
+   * <span class="preview">You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.</span> 
+   * <span class="preview">If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.</span> 
+   -->
+
+
+

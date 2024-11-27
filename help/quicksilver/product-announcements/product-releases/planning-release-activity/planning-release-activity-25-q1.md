@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 6f91c7c75c4565d5e91264481924daf50d3807ec
+source-git-commit: d27c25e4eedb6b4df67d23b997fdf1222b95da57
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1747'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,115 @@ Questo articolo descrive le funzioni rilasciate per Workfront Planning durante l
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning dopo il rilascio di disponibilità generale del 28 agosto 2024, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+
+## Importare i campi Workfront esistenti nei tipi di record di Workfront Planning
+
+>[!NOTE]
+>
+>Versione di anteprima: 27 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+
+Ora, quando si aggiungono campi a un tipo di record, è possibile importare campi personalizzati o nativi di Workfront esistenti e associarli al tipo di record selezionato.
+
+Prima di questo miglioramento, era necessario creare manualmente tutti i campi e associarli ai tipi di record.
+
+I campi calcolati non sono al momento supportati.
+
+Per informazioni, vedere [Importa campi da Adobe Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md)
+
+## Creare tipi di record, record e campi importando un file CSV o Excel
+
+>[!NOTE]
+>
+>Versione di anteprima: 27 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+
+È ora possibile importare nuovi tipi di record importando un file CSV o Excel.
+
+Vengono importate le seguenti informazioni:
+
+* Il nome del foglio o del file viene importato come nome del tipo di record.
+
+* La prima riga di ogni colonna viene importata come nuovo campo. È possibile avere fino a 500 campi in ogni foglio importato.
+
+* Ogni riga viene importata come nuovo record. È possibile avere fino a 10.000 record in ogni foglio.
+
+Per ulteriori informazioni, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
+
+## Evitare riferimenti circolari nelle formule
+
+>[!NOTE]
+>
+>Versione di anteprima: 27 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+
+È stato introdotto un messaggio di avviso durante la modifica o la creazione di un campo formula che potrebbe creare un riferimento circolare a se stesso o a campi condivisi. Non è possibile salvare un campo formula che fa riferimento a se stesso o a elementi a cui viene fatto riferimento nel calcolo.
+
+Per informazioni, vedere [Creare i campi](/help/quicksilver/planning/fields/create-fields.md).
+
+## Aggiungere le pagine delle visualizzazioni collegate alla pagina di un record per visualizzare i record connessi in una visualizzazione tabella
+
+>[!NOTE]
+>
+>Versione di anteprima: 27 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+
+È possibile aggiungere pagine all&#39;area dei dettagli di un record per visualizzare i record connessi in una visualizzazione per tabella. È possibile aggiungere una pagina per ogni record connesso.
+
+Le pagine aggiunte sono di sola lettura.
+
+Per informazioni, vedere [Gestire il layout della pagina record](/help/quicksilver/planning/records/manage-the-record-page.md).
+
+## Nuova scheda Pianificazione nella sezione Inviata dell&#39;area Richieste
+
+>[!NOTE]
+>
+>Versione di anteprima: 27 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+
+Le richieste di Workfront Planning sono ora disponibili nella sezione Inviato dell&#39;area Richieste di Workfront. Nella sezione Inviata sono ora visualizzate due schede: le richieste inviate in Workfront nella scheda Workfront e le richieste inviate utilizzando un modulo di richiesta di Workfront Planning nella scheda Planning.
+
+Per poter aggiungere richieste a un tipo di record di Workfront Planning, è necessario utilizzare un collegamento al modulo di richiesta. L&#39;invio di una richiesta di Workfront Planning dall&#39;area Richieste di Workfront sarà disponibile in un secondo momento.
+
+L&#39;organizzazione deve acquistare un pacchetto di Workfront Planning prima che la scheda Pianificazione sia disponibile nell&#39;area Richieste.
+
+Per informazioni, vedere [Inviare le richieste di Adobe Workfront Planning per la creazione di record](/help/quicksilver/planning/requests/submit-requests.md).
+
+## Nei moduli di richiesta sono ora supportati tipi di campo aggiuntivi
+
+>[!NOTE]
+>
+>Versione di anteprima: 27 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+
+È ora possibile aggiungere i seguenti tipi di campo a un modulo di richiesta di tipo di record in Workfront Planning:
+
+* Persone
+* Connessioni Workfront
+
+Prima di questo miglioramento, non era possibile aggiungere questi tipi di campi ai moduli di richiesta in Workfront Planning.
+
+Per informazioni, consulta Creare e gestire un modulo di richiesta in Adobe Workfront Planning (/help/quicksilver/planning/requests/create-request-form.md).
+
+## Limita la condivisione pubblica dei moduli di richiesta che contengono determinati tipi di campi
+
+>[!NOTE]
+>
+>Versione di anteprima: 27 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+
+Non è più possibile condividere un modulo di richiesta pubblicamente se il modulo contiene uno dei tipi di campo seguenti:
+
+* Formula
+* Connessioni
+* Campi di ricerca
+* Persone
+
+Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+
+## Visualizza i record nella vista calendario per settimana
+
+>[!NOTE]
+>
+>Versione di anteprima: 26 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+
+È ora possibile visualizzare i record nella vista calendario per settimana. Prima di questo miglioramento, era possibile visualizzare la vista calendario solo per mese.
+
+Per informazioni, vedere [Gestire la visualizzazione del calendario](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
 ## Ripristina record eliminati
 

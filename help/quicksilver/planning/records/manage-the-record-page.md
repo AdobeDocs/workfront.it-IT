@@ -6,15 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1631'
 ht-degree: 0%
 
 ---
 
 
 # Gestire il layout della pagina record
+
+<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -249,4 +253,52 @@ Si verificano le seguenti situazioni:
    La nuova posizione del campo viene aggiornata sia nell&#39;anteprima che nella pagina di tutti i record dello stesso tipo per tutti gli utenti che visualizzano i record.
 
    Tutte le modifiche apportate al layout dell&#39;anteprima record o del salvataggio automatico della pagina.
+
+<span class="preview">
+
+## Aggiungere una pagina di visualizzazione connessa alla pagina di un record
+
+È possibile aggiungere una pagina Visualizzazione connessa alla pagina di un record.
+
+Non è possibile aggiungere una pagina Visualizzazione connessa all&#39;area di anteprima di un record.
+
+Le pagine di visualizzazione collegate visualizzano una pagina di record connessa nella visualizzazione tabella. La vista tabella è di sola lettura.
+
+È possibile aggiungere una pagina Visualizzazione connessa per ogni tipo di record connesso.  <!--edit this when we can remove fields from this page-->
+
+Per aggiungere una pagina Visualizzazione connessa:
+
+1. Nella visualizzazione di una pagina di record fare clic sul nome di un record per aprirlo, quindi fare clic sull&#39;icona Apri in una nuova scheda ![](assets/open-details-in-a-new-tab-icon.png) nell&#39;angolo superiore destro della pagina di anteprima.
+1. Fai clic su **Aggiungi pagina** > **Visualizzazione connessa**.
+1. Aggiungi il **nome pagina**, quindi fai clic su **Crea**.
+
+   Viene aggiunta una pagina aggiuntiva alla pagina del record in una nuova scheda.
+1. Cercare o fare clic sul nome di un record o di un tipo di oggetto connesso nell&#39;elenco.
+Viene visualizzata la vista tabella del tipo di record selezionato e i record collegati vengono visualizzati nella vista tabella.
+La vista tabella è di sola lettura.
+
+   ![](assets/audience-connected-table-view-under-campaign-details-page.png)
+1. (Facoltativo) Fai doppio clic sul nome della scheda
+
+   Oppure
+
+   Passa il puntatore del mouse sul nome della scheda, quindi fai clic su **Altro** ![](assets/more-menu.png), quindi fai clic su **Rinomina** per rinominare la nuova scheda Visualizzazione connessa.
+1. (Facoltativo) Utilizza tutti gli elementi della vista nella barra degli strumenti per gestire la vista tabella. Per informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+</span>
+
+<!--
+## Add a Brief page to a record's page
+
+You can add a Brief page to the record's preview or pages. 
+
+Brief pages contain the same information as the Details tab, in a read-only format. <!--edit this when we can remove fields from this page-->
+
+<!--
+1. From a record's page view, click the name of a record to open its preview or page.
+1. Click **Add page** > **Brief**. 
+1. Add the **Page name**, then click **Create**. 
+-->
+
+
 

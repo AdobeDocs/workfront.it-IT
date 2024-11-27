@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 2%
+source-wordcount: '1453'
+ht-degree: 1%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 2%
 <!--this is linked to the UI in an empty workspace screen-->
 
 # Crea tipi di record
+
+<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -95,64 +99,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 +++
 
 
-<!--
-OLD: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td> Adobe Workfront
-   </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>Current: Plan</p>
-   Or
-   <p>New: Standard </p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access level controls for Workfront Planning</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
- </tbody>
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
--->
-
 ## Considerazioni sulla creazione di tipi di record
 
 * È possibile creare tipi di record in un&#39;area di lavoro nei modi seguenti:
@@ -162,15 +108,12 @@ OLD:
 
         Per informazioni, vedere [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-     <!--* When you import them using an Excel or CSV file. 
+      * <span class="preview">Quando vengono importati utilizzando un file Excel o CSV. </span>
 
-            >[!IMPORTANT]
-            >
-            >This functionality has been temporarily removed since March 21, 2024. It will be enabled at a later date.-->
+     >[!TIP]
+     >
+     ><span class="preview">Quando si importa un tipo di record da un file Excel o CSV, è possibile che vengano importati anche record e campi.</span>
 
-     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront Planning which is connected to object types from the original application. 
-        For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
-        For information about connecting objects with records, see [Connect records](/help/quicksilver/planning/records/connect-records.md). -->
    * Manualmente:
 
       * Da zero.
@@ -204,7 +147,7 @@ Per informazioni sui tipi di record inclusi in ogni modello, vedere [Elenco dei 
 
    Da un workspace, espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente, cercare un workspace e selezionarlo quando viene visualizzato nell&#39;elenco.
 1. (Facoltativo) Fai clic su **Aggiungi sezione** per aggiungere una nuova sezione all&#39;area di lavoro.
-1. Fare clic su **Aggiungi tipo di record**.
+1. Fare clic su **Aggiungi tipo di record**, quindi su <span class="preview">**Nuovo**</span>.
 
    Viene visualizzata la casella Aggiungi tipo di record.
    <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
@@ -232,8 +175,6 @@ Sulla scheda viene visualizzata la descrizione del tipo di record.
    ![](assets/operational-record-type-blank.png)
 
    Per impostazione predefinita, la pagina del tipo di record viene visualizzata nella vista tabella. Le colonne della tabella sono campi associati al nuovo tipo di record. Ogni riga è un record univoco da aggiungere.
-
-   <!--TIP: If you import a record type from an Excel or CSV file, records are also imported.-->
 
    Per impostazione predefinita, i campi seguenti vengono visualizzati nelle colonne della vista tabella di un tipo di record operativo:
 
@@ -267,69 +208,76 @@ Sulla scheda viene visualizzata la descrizione del tipo di record.
    * [Modifica tipi di record](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [Gestisci visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md)
 
-<!--
-## Create record types by importing an Excel or CSV file
+<div class="preview">
 
->[!IMPORTANT]
->
->This functionality has been temporarily removed since March 21, 2024. It will be enabled at a later date.
+## Creare tipi di record importando un file Excel o CSV
 
-Consider the following when importing record types using an Excel or CSV file: 
+Quando si importano tipi di record utilizzando un file Excel o CSV, tenere presente quanto segue:
 
-* Each sheet of the Excel file becomes a record type. 
-* The columns of each sheet become the fields associated with each record type. 
-* Fields are unique for their respective record types. 
-* Each row in each sheet becomes a unique record associated with its respective record type. 
-* Each sheet of the Excel file should not exceed the following: 
-    * 50,000 rows
-    * 500 columns
-* The Excel file should not be larger than 5MB.
-* Empty sheets are not supported. 
+* Ogni foglio del file Excel diventa un tipo di record. Il nome del foglio diventa il nome del tipo di record.
+* Se è presente un solo foglio o se si importa un file CSV, il nome del file diventa il nome del tipo di record.
+* Le intestazioni di colonna di ciascun foglio diventano i campi associati a ciascun tipo di record.
+* I campi sono univoci per i rispettivi tipi di record.
+* Ogni riga di ogni foglio diventa un record univoco associato al rispettivo tipo di record.
+* Ogni foglio del file Excel non deve superare i seguenti:
+   * 10.000 righe
+   * 500 colonne
+* Il file Excel non deve superare i 5 MB.
+* I fogli vuoti non sono supportati.
 
-To import record types using an Excel file: 
+Per importare tipi di record utilizzando un file Excel o CSV:
 
 {{step1-to-planning}}
 
-1. Click the workspace where you want to create record types, 
+1. Fare clic sull&#39;area di lavoro in cui si desidera creare i tipi di record.
 
-    Or
+   Oppure
 
-    From a workspace, expand the downward-pointing arrow to the right of an existing workspace name, search for a workspace, then select it when it displays in the list.
-1. Click **Add record type**. 
-1. Click **Excel/CSV**.
-1. Drag and drop an Excel or CSV file previously saved on your computer, or click **Select a CSV or Excel file** to browse for one. 
-1. Click **Review your data**.
-    
-    The Preview and edit box displays with the following information: 
+   Da un workspace, espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente, cercare un workspace e selezionarlo quando viene visualizzato nell&#39;elenco.
+1. Fare clic su **Aggiungi tipo di record**.
+1. Fare clic su **Dal file**.
+1. Trascina e rilascia un file Excel o CSV salvato in precedenza sul computer, oppure fai clic su **Seleziona un file CSV o Excel** per cercarne uno.
+1. Fare clic su **Anteprima e modifica**.
 
-    * The names of the sheets or of the future record types display in the left panel. Workfront Planning selects an icon and a color for each new record type by default.
-    * The first sheet or record type is selected and the names of the fields associated with it display as the column headers. The type of each field is selected by default. 
-    * Each row represents a new record. Only the first 10 records display in the Preview and edit box. 
+   La casella **Anteprima e modifica** viene visualizzata con le seguenti informazioni:
 
-    ![](assets/preview-and-edit-box.png)
+   * I nomi dei fogli o dei tipi di record futuri vengono visualizzati nel pannello sinistro. Per impostazione predefinita, Workfront Planning seleziona un&#39;icona e un colore per ogni nuovo tipo di record.
+   * Il primo foglio o il tipo di record viene selezionato e i nomi dei campi associati vengono visualizzati come intestazioni di colonna. Il tipo di ogni campo è selezionato per impostazione predefinita.
+   * Ogni riga rappresenta un nuovo record. Nella casella Anteprima e modifica vengono visualizzati solo i primi 10 record.
 
-1. (Optional) Click the name of each sheet in the left panel to review the information it contains. 
+   ![](assets/preview-and-edit-box.png)
 
-    >[!NOTE]
-    >
-    >    Sheets that are empty are not supported and are dimmed. 
+1. (Facoltativo) Fate clic sul nome di ciascun foglio nel pannello a sinistra per esaminare le informazioni in esso contenute.
 
+   >[!NOTE]
+   >
+   >I fogli vuoti non sono supportati e sono oscurati.
 
-1. (Optional) Click the **Select sheets to import** drop-down menu and deselect the sheets that you don't want to import. 
+1. (Facoltativo) Deseleziona i fogli che non desideri importare dal pannello a sinistra.
 
-    ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
+   ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
 
-    Sheets you deselected display with a gray background. 
+   I fogli deselezionati vengono visualizzati con uno sfondo grigio.
 
-1. Click **Import** when you are ready to import your file. 
+1. (Facoltativo) Fai clic sulla freccia rivolta verso il basso a destra dell’intestazione della colonna per effettuare una delle seguenti operazioni:
 
-    The following information imports in to Workfront Planning:
+   * Rinomina uno dei campi
+   * Cambia il tipo di campo ****
+   * Aggiorna il campo **Descrizione**
 
-    * New record types
-    * New fields associated with each record type
-    * New records associated with each record type
+1. (Condizionale) Dopo aver aggiornato le informazioni sul campo, fai clic su **Salva**.
 
-    You can start managing fields and records on the record types pages. 
-    
-    Everyone with access to Workfront Planning can now view and edit the imported record types and their information.-->
+1. Fare clic su **Importa** quando si è pronti per importare il file.
+
+   Le informazioni seguenti vengono importate in Workfront Planning:
+
+   * Nuovi tipi di record
+   * Nuovi campi associati a ciascun tipo di record
+   * Nuovi record associati a ciascun tipo di record
+
+   È possibile iniziare a gestire campi e record nelle pagine dei tipi di record.
+
+   Tutti gli utenti con accesso a Workfront Planning possono ora visualizzare e modificare i tipi di record importati e le relative informazioni.
+
+</div>
 

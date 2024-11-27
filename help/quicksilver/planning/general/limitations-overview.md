@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '437'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 1%
 <!--check the workfront.com/plans article linked below to see if there is content in there about Planning - after August 28, 2024-->
 
 # Panoramica sui limiti degli oggetti di Adobe Workfront Planning
+
+<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -40,6 +44,9 @@ Nella tabella seguente vengono illustrati i limiti per il numero di oggetti che 
 | Dimensione del file che è possibile importare tramite l’API per una tabella del tipo di record | 1,5 MB |
 | Frequenza con cui è possibile effettuare richieste API | 200 richieste al minuto |
 | Numero di visualizzazioni che un utente può creare per un tipo di record | 100 |
+| Dimensione del file CSV di Excel che puoi importare per creare tipi di record | 5 MB |
+| <span class="preview">Numero di righe che è possibile importare in un file CSV o Excel per creare tipi di record</span> | 10.000 |
+| <span class="preview">Numero di colonne che è possibile importare in un file CSV o Excel per creare tipi di record</span> | 500 |
 
 *Si consiglia di non disporre di troppe aree di lavoro, in quanto potrebbero diventare difficili da gestire e i flussi di lavoro potrebbero essere troppo frammentati.
 
@@ -47,7 +54,7 @@ Per informazioni sulla determinazione prezzi e sulla creazione pacchetti di Work
 
 <!--
 ****************KEEP THIS COMMENTED OUT:
-| Size of CSV of Excel file you can import** | 5MB |
+
 **This functionality has been temporarily removed and it will be available at a later date.**********************
 -->
 

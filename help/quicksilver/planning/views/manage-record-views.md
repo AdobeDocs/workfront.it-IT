@@ -6,15 +6,20 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1485'
 ht-degree: 1%
 
 ---
 
 
 # Gestire le visualizzazioni record
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -218,6 +223,9 @@ La tabella seguente mostra le somiglianze e le differenze tra le viste tabella, 
 | Cerca record specifici | ✓ | ✓ |
 | Condividere la visualizzazione con altri utenti | ✓ | ✓ | ✓ |
 | Aprire la pagina del record dalla visualizzazione | ✓ | ✓ |    |
+| Visualizza record per anno e trimestre |           | ✓ |    |
+| Visualizza i record per mese |           | ✓ | ✓ |
+| <span class="preview">Visualizza i record per settimana</span> |           |               | ✓ |
 
 
 ## Creare o modificare le viste {#create-or-edit-views}

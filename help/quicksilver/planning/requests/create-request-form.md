@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
 workflow-type: tm+mt
-source-wordcount: '1367'
+source-wordcount: '1397'
 ht-degree: 2%
 
 ---
@@ -145,14 +145,18 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >
    >* I campi dei tipi seguenti non vengono visualizzati nel modulo di richiesta <span class="preview"> negli ambienti Anteprima </span> o Produzione:
    >
-   >    * Persone (include Creato da e Modificato da ultimo)
+   >    * Creato da e Ultima modifica da
    >    * Formula
-   >    * Data di creazione
-   >    * Data ultima modifica
-   >    * Campi o campi di ricerca connessi di oggetti Workfront
-   >    * Campi di ricerca connessi ai record di Workfront Planning
+   >    * Data di creazione e data dell’ultima modifica
+   >    * Campi di ricerca di oggetti Workfront
+   >    * Campi di ricerca dei record connessi di Workfront Planning
+   >    * Campi connessi ad AEM Assets
    >* I campi dei seguenti tipi non vengono visualizzati nel modulo di richiesta nell’ambiente di produzione. <span class="preview">Vengono visualizzati nell&#39;ambiente di anteprima:</span>
    >    * <span class="preview"> campi collegati ai record di Workfront Planning</span>
+   >    * <span class="preview">Persone </span>
+   >    * <span class="preview">Campi connessi di oggetti Workfront</span>
+   >    * <span class="preview">Campi connessi ad AEM Assets </span>
+
 
 
    * **Sezione predefinita**: questa è l&#39;interruzione di sezione predefinita che Workfront applica al modulo di richiesta. Impossibile rinominare o rimuovere la sezione predefinita.
@@ -208,7 +212,15 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >[!WARNING]
    >
    >
-   >Quando si seleziona **Chiunque disponga del collegamento** può accedere al modulo e inviare un nuovo record, anche persone esterne all&#39;organizzazione che non dispongono di un account Workfront.
+   >* Quando si seleziona **Chiunque disponga del collegamento** può accedere al modulo e inviare un nuovo record, anche persone esterne all&#39;organizzazione che non dispongono di un account Workfront.
+   >
+   > * <span class="preview">Impossibile condividere pubblicamente un modulo contenente i seguenti tipi di campi:</span>
+   >
+   >     * <span class="preview">Formula</span>
+   >     * <span class="preview">Connessioni Workfront o AEM Assets</span>
+   >     * <span class="preview">Campi di ricerca</span>
+   >     * <span class="preview">Persone</span>
+   >
 
 1. (Condizionale) Se hai selezionato **Qualcuno con il collegamento** nel passaggio precedente, seleziona **Data di scadenza collegamento** dal calendario disponibile. Gli utenti riceveranno un errore dopo la scadenza del collegamento e dovrai aggiornare la data del collegamento prima di poter accedere nuovamente al modulo.
 

@@ -6,14 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 1%
+source-wordcount: '841'
+ht-degree: 0%
 
 ---
 
 # Gestire la visualizzazione calendario
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -179,7 +183,16 @@ Per gestire una vista calendario:
    * Fai clic su **Oggi** per centrare il calendario alla data odierna.
    * Per aggiornare gli incrementi di tempo, seleziona una delle seguenti opzioni dal menu a discesa dell’intervallo di tempo:
 
-      * Mese
+      * **Mese**: record visualizzati in un calendario mensile.
+
+     <div class="preview">
+
+      * **Settimana**: i record vengono visualizzati nelle seguenti aree:
+
+         * I record che si estendono su più giorni vengono visualizzati nella parte superiore del calendario.
+         * I record che durano un giorno o meno vengono visualizzati nella metà inferiore della visualizzazione calendario. Se si è scelto di visualizzare l&#39;ora delle date di inizio e di fine, il record viene visualizzato all&#39;ora appropriata all&#39;interno del giorno in cui si verifica.
+     </div>
+
 1. Aggiornate i seguenti elementi della vista come descritto nelle sottosezioni seguenti:
    * [Filtri](#add-filters)
    * [Impostazioni](#edit-the-calendar-view-settings)

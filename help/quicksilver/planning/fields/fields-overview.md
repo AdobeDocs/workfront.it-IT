@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
+source-git-commit: fedea99941b6ecb2114d8236d54ce1af70cec6e4
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 2%
@@ -15,6 +15,12 @@ ht-degree: 2%
 
 
 # Panoramica campo
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> 
+-->
 
 {{planning-important-intro}}
 
@@ -46,9 +52,10 @@ In Adobe Workfront Planning è possibile aggiungere nuovi campi che riflettono i
 
       * Collegando i tipi di record. È possibile creare campi record collegati quando si aggiunge una nuova connessione tra due tipi di record o un tipo di record e un tipo di oggetto di altre applicazioni.
 
-        <!--* Importing record types with fields using a CSV or an Excel file. - this is not available yet-->
-
         Per ulteriori informazioni sulla connessione dei tipi di record, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+     <!--* By importing existing fields from Workfront. 
+            For information, see [Import fields from Adobe Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md).-->
 
      <!--* By importing record types using an Excel or CSV file. For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md). -->
 
