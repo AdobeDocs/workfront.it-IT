@@ -89,7 +89,7 @@ Il connettore Adobe Journey Optimizer utilizza quanto segue:
  <tbody> 
   <tr> 
    <td role="rowheader">URL di base</td> 
-   <td>{{connection.url}}</td> 
+   <td>&lbrace;&lbrace;connection.url&rbrace;&rbrace;</td> 
   </tr>
   <tr> 
    <td role="rowheader">Tag API</td> 
