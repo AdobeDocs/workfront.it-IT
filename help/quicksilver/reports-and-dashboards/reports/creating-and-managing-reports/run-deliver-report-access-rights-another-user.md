@@ -6,14 +6,16 @@ description: Per impostazione predefinita, gli utenti possono visualizzare solo 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1179'
 ht-degree: 0%
 
 ---
 
 # Eseguire e consegnare un report con i diritti di accesso di un altro utente
+
+<!-- Audited: 11/2024 -->
 
 Per impostazione predefinita, gli utenti possono visualizzare solo gli oggetti di un report per il quale dispongono delle autorizzazioni di visualizzazione.
 
@@ -28,6 +30,8 @@ Se esegui un rapporto con i diritti di accesso di un altro utente con un livello
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
@@ -40,20 +44,31 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano </p> </td> 
+      <td> 
+      <p>Nuovo:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Corrente:</p>
+         <ul>
+         <li><p>Piano</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari</p> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari</p> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizzare le autorizzazioni per un rapporto (per visualizzare il rapporto consegnato)</p> <p>Gestire le autorizzazioni per un report (per eseguire il report)</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Visualizzare le autorizzazioni per un rapporto (per visualizzare il rapporto consegnato)</p><p>Gestire le autorizzazioni per un report (per eseguire il report)</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Visualizzare un report con i diritti di accesso di un altro utente
 
@@ -63,7 +78,7 @@ Per essere in grado di visualizzare il report, gli utenti che vi accedono devono
 
 Per eseguire un report con i diritti di accesso di un altro utente:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Workfront, quindi fai clic su **Rapporti**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **[!UICONTROL Reports]**.
 
 1. Seleziona il report da visualizzare con i diritti di accesso di un altro utente.
 1. Fai clic su **Azioni report**, quindi su **Modifica**.
@@ -71,7 +86,7 @@ Per eseguire un report con i diritti di accesso di un altro utente:
 1. Fare clic su **Impostazioni report**.
 
 1. Nel campo **Esegui il report con i diritti di accesso di:**, iniziare a digitare il nome dell&#39;utente con cui si desidera visualizzare il report, quindi selezionarlo quando viene visualizzato nell&#39;elenco.\
-   ![](assets/qs-access-rights-of-350x251.png)
+   ![](assets/unshimmed-access-rights-of.png)
 
    >[!NOTE]
    >
@@ -101,7 +116,7 @@ Per consegnare un report con i diritti di accesso di un altro utente:
 1. Fare clic su **Invia report**.
 
 1. Nel campo **Consegna il report con i diritti di accesso di:**, iniziare a digitare il nome dell&#39;utente che si desidera visualizzare nel report come quando viene consegnato in un&#39;e-mail, quindi selezionarlo quando viene visualizzato nell&#39;elenco. L’impostazione predefinita è il nome dell’utente che genera il rapporto.\
-   ![](assets/qs-send-report-access-rights-of-350x446.png)
+   ![](assets/unshimmed-send-report-access-rights-of.png)
 
    >[!NOTE]
    >
@@ -111,8 +126,8 @@ Per consegnare un report con i diritti di accesso di un altro utente:
 
    * HTML
    * PDF
-   * MS Excel
-   * MS Excel (.xlsx)
+   * Excel
+   * Excel (.xlsx)
    * TSV
 
 1. Fai clic su **Invia ora** per inviarlo immediatamente.\
@@ -138,20 +153,22 @@ Ad esempio, puoi aggiungere uno dei seguenti elementi a un rapporto con una colo
 * Le colonne Nome progetto o Nome attività di un report sui problemi.
 * Colonna che utilizza espressioni in modalità testo che fa riferimento a tutti e tre gli oggetti. Di seguito è riportato un esempio per un rapporto di ore:
 
-  `displayname=Custom Source`
-
-  `linkedname=opTask`
-
-  `namekey=view.relatedcolumn`
-
-  `namekeyargkey.0=opTask`
-
-  `namekeyargkey.1=name`
-
-  `textmode=true`
-
-  `valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))`
-
-  `valueformat=HTML`
+  ```
+  displayname=Custom Source
+  
+  linkedname=opTask
+  
+  namekey=view.relatedcolumn
+  
+  namekeyargkey.0=opTask
+  
+  namekeyargkey.1=name
+  
+  textmode=true
+  
+  valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))
+  
+  valueformat=HTML
+  ```
 
   Per informazioni sulle visualizzazioni in modalità testo, vedere [Modificare una visualizzazione utilizzando la modalità testo](../text-mode/edit-text-mode-in-view.md).

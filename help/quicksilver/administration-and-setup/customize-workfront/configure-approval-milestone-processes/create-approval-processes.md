@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: d2a5040c6a9430dc404097c9836ea38bd8b1c648
+source-git-commit: a1ead3895afaf8b601a9c53e08d41b1cab51cb48
 workflow-type: tm+mt
-source-wordcount: '2189'
+source-wordcount: '2191'
 ht-degree: 1%
 
 ---
@@ -52,8 +52,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <tbody> 
   <tr> 
    <td role="rowheader">piano Adobe Workfront</td> 
-   <td><p>Livello di sistema e elemento di lavoro: Qualsiasi</p>
-   <p>A livello di gruppo: Prime o Ultimate</p></td> 
+   <td><p>Processo di approvazione a livello di sistema o a utente singolo: qualsiasi</p>
+   <p>Processo di approvazione a livello di gruppo: Prime o Ultimate</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 

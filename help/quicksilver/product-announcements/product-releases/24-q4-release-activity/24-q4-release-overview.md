@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 8ad2ed8389fdc00649f0853e07d2e83d21ccb385
+source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
 workflow-type: tm+mt
-source-wordcount: '2178'
+source-wordcount: '2187'
 ht-degree: 0%
 
 ---
@@ -469,7 +469,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                             <p>Versione di produzione per tutti i clienti: con la versione 24.10 (17 ottobre 2024)</p>
                         </li>
                     </ul>
-                    <p><i>Disponibile solo per le organizzazioni che utilizzano uno dei nuovi piani di Adobe Workfront. Data Connect è incluso nel piano Ultimate o può essere acquistato come componente aggiuntivo ai piani Prime e Select.</i></p>
+                    <p><i>Disponibile solo per le organizzazioni che utilizzano uno dei nuovi piani di Adobe Workfront. Data Connect è incluso nel piano Ultimate e sarà disponibile per l’acquisto come componente aggiuntivo per i piani Prime e Select nella prima metà del 2025.</i></p>
                 </td>
             </tr>
         </tbody>

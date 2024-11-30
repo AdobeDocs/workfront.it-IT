@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: cea70727aaaa867b55ce999f68a675c453840d41
+source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1610'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,6 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Preferenza per l'utilizzo della pianificazione del progetto o dell'utente per le attività a assegnazione singola</a></p>
-            [!BADGE Nuovo nell'anteprima ]{type=Negative}
             <p>In qualità di amministratore di sistema o di gruppo, è ora disponibile una nuova preferenza per indicare se Workfront deve utilizzare la pianificazione del progetto o quella dell'utente per calcolare la sequenza temporale del progetto quando si assegna un utente a un'attività e sia il progetto che l'utente sono associati a una pianificazione.</p>
         </td>
         <td>
@@ -75,7 +74,6 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Le regole business ora supportano i collegamenti ipertestuali</a></p>
-            [!BADGE Nuovo nell'anteprima ]{type=Negative}
             <p>È ora possibile includere collegamenti ipertestuali nel messaggio di errore personalizzato di una regola business, per guidare l’utente nella modifica della propria azione all’interno del vincolo della regola. L’URL statico potrebbe contenere un collegamento alla documentazione o ad altre pagine utili per l’utente.</p>
         </td>
         <td>
@@ -91,7 +89,6 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             È ora disponibile il filtro per i campi nativi typeahead</a></p>
-            [!BADGE Nuovo nell'anteprima ]{type=Negative}
             <p>Quando si aggiunge un riferimento a un campo nativo in un modulo personalizzato che fa riferimento a un campo typeahead, ad esempio Portfolio, Società o Proprietario, è ora disponibile un'opzione di filtro. Il filtro consente di limitare gli oggetti che gli utenti possono scegliere quando utilizzano il campo. Questo filtro personalizzato funziona come un filtro in un campo typeahead personalizzato, utilizzando la modalità testo per definire il filtro.</p>
         </td>
         <td>
@@ -172,7 +169,6 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Modificare più documenti contemporaneamente</a></p>
-            [!BADGE Nuovo nell'anteprima ]{type=Negative}
             <p>È ora possibile modificare più documenti contemporaneamente. Puoi modificare le descrizioni e aggiornare i moduli personalizzati.</p>
         </td>
         <td>
@@ -309,6 +305,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Pulsante per la creazione del primo account lettore per Data Connect</a></p>
+            [!BADGE In produzione ]{type=Informative}
             <p>Agli amministratori che accedono a Data Connect per la prima volta viene ora offerta l’opzione di creare un nuovo account lettore di Snowflake facendo clic su un singolo pulsante. Il completamento del processo richiede alcuni minuti, ma non richiede ulteriori azioni.</p>
         </td>
         <td>
@@ -332,7 +329,6 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Aggiornamento della modalità di gestione delle risorse spostate o eliminate nelle cartelle collegate</a></p>
-            [!BADGE Nuovo nell'anteprima ]{type=Negative}
             <p>Abbiamo modificato il modo in cui vengono gestite le risorse spostate ed eliminate quando si utilizza l’integrazione Adobe Workfront con Experience Manager Assets e gli Assets Essentials:</p>
             <ul>
                 <li>Risorse eliminate: quando una risorsa viene eliminata all’interno di una cartella collegata in Assets o in Assets Essentials, la risorsa eliminata viene mantenuta nell’area Documenti progetto.</li>
