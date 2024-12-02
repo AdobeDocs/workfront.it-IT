@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 301f8c1b55a91a93616f59e2f530ac51a3696cbf
+source-git-commit: 2682c027b2cd248b2674cebe8f0a0b8d1006257b
 workflow-type: tm+mt
-source-wordcount: '14647'
+source-wordcount: '14666'
 ht-degree: 2%
 
 ---
@@ -2240,6 +2240,7 @@ ht-degree: 2%
       * [Aggiungere un utente a un’organizzazione in Adobe Workfront Fusion](workfront-fusion/organizations/add-user-to-an-organization.md)
       * [Gestione degli utenti in Adobe Workfront Fusion](workfront-fusion/organizations/manage-fusion-users.md)
       * [Ruoli di organizzazione in Adobe Workfront Fusion](workfront-fusion/organizations/organization-roles.md)
+      * [Visualizzare i registri attività di un’organizzazione in Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/organizations/view-activity-logs-for-an-org.md)
    * Scenari in Adobe Workfront Fusion {#scenarios-in-fusion}
       * [Scenari in Adobe Workfront Fusion](workfront-fusion/scenarios/scenarios.md)
       * [Panoramica sullo scenario Adobe Workfront Fusion](workfront-fusion/scenarios/scenario-overview.md)
@@ -2258,6 +2259,7 @@ ht-degree: 2%
       * [Aggiungere un filtro a uno scenario in Adobe Workfront Fusion](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
       * [Scenari di debug con Adobe Workfront Fusion DevTool](workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md)
       * [Generare un segmento di scenario utilizzando IA](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
+      * [Eseguire l’esperto di valutazione degli scenari in Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/scenarios/run-scenario-scoring.md)
       * Modelli di scenario Adobe Workfront Fusion {#fusion-scenario-templates}
          * [Modelli di scenario](workfront-fusion/scenarios/templates/fusion-templates.md)
          * [Panoramica dei modelli [!DNL Fusion]](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
