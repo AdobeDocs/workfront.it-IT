@@ -6,9 +6,9 @@ description: È possibile condividere o rimuovere le autorizzazioni per un ogget
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: e1ac95e8be0f6059700ddacb120b08c7c7b683b1
+source-git-commit: 56b5791fc2e4f875052692c285f43ff03fe91ea9
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1182'
 ht-degree: 1%
 
 ---
@@ -108,6 +108,7 @@ Nella tabella seguente viene illustrato il livello di autorizzazioni che è poss
     <ul> 
      <li><p>Visualizza l'oggetto</p></li> 
      <li><p>Aggiungere documenti all'oggetto</p></li> 
+     <li><p>Aggiungi problemi all'oggetto (se si tratta di un'attività o di un progetto)</p></li> 
      <li><p>Visualizza informazioni finanziarie sull'oggetto</p></li> 
      <li> <p>Condividere l’oggetto<br></p> <p>Quando si condivide l'oggetto, è possibile concedere ad altri utenti lo stesso livello di autorizzazione disponibile solo per l'oggetto e non per un livello superiore.</p> </li> 
     </ul> </td> 
@@ -118,7 +119,6 @@ Nella tabella seguente viene illustrato il livello di autorizzazioni che è poss
     <ul> 
      <li>Tutte le azioni incluse nell’autorizzazione Visualizzazione.</li> 
      <li>Aggiungi spese</li> 
-     <li>Aggiungi problemi (se si tratta di un'attività o di un progetto)</li> 
      <li>Aggiungi attività (se si tratta di un progetto)</li> 
      <li>Modifica Forms personalizzato</li> 
      <li>Registra le ore sull'oggetto</li> 
