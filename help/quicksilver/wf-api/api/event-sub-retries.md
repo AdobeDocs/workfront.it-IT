@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b698cb60-4cff-4ccc-87d7-74afb5badc49
-source-git-commit: 0325d305c892c23046739feff17d4b1fc11100cc
+source-git-commit: 05f8dc8770c185720520fc631e19c75b925a70bf
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
@@ -40,6 +40,7 @@ I clienti devono assicurarsi che tutti gli endpoint che utilizzano messaggi in u
 * Un URL di abbonamento è **bloccato** se ha più di 2.000 errori consecutivi e l&#39;ultimo successo è stato più di 72 ore fa OPPURE se ha 50.000 errori consecutivi in qualsiasi arco temporale.
 * Un URL di abbonamento **disabled** continuerà a tentare la consegna ogni 10 minuti e verrà riabilitato con una consegna riuscita.
 * Un URL di abbonamento **congelato** non tenterà mai la consegna a meno che non venga abilitato manualmente effettuando una richiesta API.
+
 
 
 

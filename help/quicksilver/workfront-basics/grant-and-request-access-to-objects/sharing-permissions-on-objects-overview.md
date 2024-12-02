@@ -6,7 +6,7 @@ description: È possibile condividere o rimuovere le autorizzazioni per un ogget
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 56b5791fc2e4f875052692c285f43ff03fe91ea9
+source-git-commit: 05f8dc8770c185720520fc631e19c75b925a70bf
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 1%
@@ -166,6 +166,7 @@ Per ulteriori informazioni sulla gerarchia e l&#39;interdipendenza degli oggetti
 Se si concedono le autorizzazioni di gestione a un gruppo di utenti su un oggetto e si concedono le autorizzazioni di visualizzazione a un singolo utente di tale gruppo sullo stesso oggetto, l&#39;utente disporrà del livello più alto di autorizzazioni (Gestisci) concesso tramite l&#39;appartenenza al gruppo sull&#39;oggetto. 
 
 Se desideri concedere autorizzazioni inferiori a un utente che fa già parte di un’unità organizzativa (Gruppo, Team, Mansione o Società) con un livello di autorizzazione più alto, devi rimuovere le autorizzazioni dall’unità organizzativa e aggiungere gli utenti singolarmente con un livello di autorizzazione più basso.
+
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
