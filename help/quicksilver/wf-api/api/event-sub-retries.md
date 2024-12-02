@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b698cb60-4cff-4ccc-87d7-74afb5badc49
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: 0325d305c892c23046739feff17d4b1fc11100cc
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -24,45 +24,54 @@ Alcune integrazioni possono accettare un errore di consegna, quindi rilascia il 
 
 Poiché i clienti sfruttano la piattaforma Workfront come parte fondamentale del loro lavoro quotidiano, il framework Workfront Event Subscription fornisce un meccanismo per garantire che la consegna di ogni messaggio venga tentata nella massima misura possibile.
 
-I messaggi in uscita attivati dagli eventi che non vengono consegnati agli endpoint del cliente vengono inviati nuovamente fino alla consegna corretta, per un periodo massimo di 48 ore. Durante questo periodo, i nuovi tentativi si verificano con una frequenza ridotta in modo incrementale fino alla riuscita della consegna o allo scadere di 48 ore.
+I messaggi in uscita attivati dagli eventi che non vengono consegnati agli endpoint del cliente vengono inviati nuovamente fino alla consegna corretta, per un periodo massimo di 48 ore. Durante questo periodo, i nuovi tentativi si verificano con una frequenza incrementale fino a quando la consegna non ha esito positivo o fino a quando non sono stati effettuati 11 tentativi.
+
+La formula per questi nuovi tentativi è:
+
+`((2^attempt) - 1) * 84800ms`
+
+Il primo nuovo tentativo si verifica dopo 1,5 minuti, il secondo dopo quasi 5 minuti e l’undicesimo dopo circa 48 ore.
 
 I clienti devono assicurarsi che tutti gli endpoint che utilizzano messaggi in uscita da Abbonamenti eventi di Workfront siano configurati per restituire a Workfront un messaggio di risposta di 200 livelli quando la consegna ha esito positivo.
 
-## Gestione dei messaggi in uscita attivati da eventi non riusciti
+## Regole di abbonamento disabilitate e congelate
 
-Il diagramma di flusso seguente mostra la strategia per ritentare le consegne dei messaggi con le sottoscrizioni di eventi di Workfront:
+* L&#39;URL di una sottoscrizione è **disabilitato** se ha una percentuale di errori superiore al 70% con oltre 100 tentativi OPPURE se ha 2.000 errori consecutivi
+* Un URL di abbonamento è **bloccato** se ha più di 2.000 errori consecutivi e l&#39;ultimo successo è stato più di 72 ore fa OPPURE se ha 50.000 errori consecutivi in qualsiasi arco temporale.
+* Un URL di abbonamento **disabled** continuerà a tentare la consegna ogni 10 minuti e verrà riabilitato con una consegna riuscita.
+* Un URL di abbonamento **congelato** non tenterà mai la consegna a meno che non venga abilitato manualmente effettuando una richiesta API.
+
+
+
+<!--
+
+## Handling Failed Event-Triggered Outbound Messages
+
+The following flowchart shows the strategy for reattempting message deliveries with Workfront Event Subscriptions:
 
 ![](assets/event-subscription-circuit-breaker-retries-350x234.png)
 
-Le seguenti spiegazioni corrispondono ai passaggi descritti nel diagramma di flusso:
+The following explanations correspond with the steps depicted in the flowchart:
 
-1. Impossibile recapitare il messaggio.
-1. Le informazioni sull’errore di consegna del messaggio sono state registrate.
+1. Message fails to be delivered. 
+1. Message delivery failure information is logged.
 
-   Tutti i tentativi non riusciti di recapitare un messaggio vengono registrati in modo da poter eseguire il debug per determinare la causa principale di un determinato errore o di una serie di errori.
+   All failed attempts to deliver a message are logged so that debugging may be performed to determine the root cause of a given failure or series of failures. 
 
-1. Errori URL incrementati.
-1. Il conteggio dei tentativi di messaggio viene incrementato.
-1. Calcola il ritardo fino al successivo tentativo di consegna del messaggio.
-1. Il messaggio viene inserito nella coda dei nuovi tentativi del messaggio.
+1. URL failures incremented. 
+1. Message attempt count is incremented. 
+1. Calculate the delay until this message's delivery will be attempted again. 
+1. Message is placed onto the message retry queue.
 
-   Come mostrato nel diagramma di flusso precedente, la coda di messaggi utilizzata per l’elaborazione dei nuovi tentativi di consegna dei messaggi è una coda separata da quella che elabora il tentativo di consegna iniziale per ciascun messaggio. Questo consente al flusso di messaggi in tempo reale di continuare senza ostacoli a causa del fallimento di qualsiasi sottoinsieme di messaggi.
+   As shown in the preceding flowchart, the message queue used for processing message delivery retries is a separate queue from the one that processes the initial delivery attempt for each message. This allows the near real-time flow of messages to continue unimpeded by the failure of any subset of messages. 
 
-1. Lo stato del circuito URL viene valutato. Si verifica una delle seguenti situazioni:
+1. URL circuit status is evaluated. One of the following occurs:
 
-   * Se il circuito è aperto e non consente consegne in questo momento, riavviare il processo al punto 5.
-   * Se il circuito è semi-aperto, ciò significa che il nostro circuito è attualmente aperto, ma è trascorso abbastanza tempo per consentire il test dell’URL per vedere se il problema con la consegna ad esso è stato risolto.
-   * Se sono stati raggiunti i limiti di tentativi di consegna del messaggio (48 ore di un nuovo tentativo), il messaggio viene eliminato
+   * If the circuit is open and not allowing deliveries at this time, restart the process at step 5.
+   * If the circuit is half-open, this implies that our circuit is currently open, but enough time has passed to allow testing of the URL to see if the problem with delivering to it has been resolved.
+   * If the message delivery attempt limits have been reached (48 hours of retrying) then the message is dropped
 
-1. Se il circuito URL è chiuso e le consegne sono consentite, prova a consegnare il messaggio. Se questa consegna non riesce, il messaggio verrà riavviato al passaggio 1
+1. If the URL circuit is closed and allowing deliveries, attempt to deliver the message. If this delivery fails, the message will restart at step 1 
 
-1. Se il circuito URL è chiuso e le consegne sono consentite, prova a consegnare il messaggio. Se questa consegna non riesce, il messaggio verrà riavviato al passaggio 1.
-
-   <!--
-   <li value="10" data-mc-conditions="QuicksilverOrClassic.Draft mode">Workfront disables Event Subscriptions when both of the following criteria are met:
-   <ul>
-   <!--
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The Event Subscription has failed 1000 delivery attempts consecutively</li>
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">48 hours have passed since the last successful delivery</li>
-   </ul></li>
+1. If the URL circuit is closed and allowing deliveries, attempt to deliver the message. If this delivery fails, the message will restart at step 1.
    -->
