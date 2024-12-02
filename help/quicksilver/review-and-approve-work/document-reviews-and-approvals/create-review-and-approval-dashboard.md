@@ -7,13 +7,13 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
-source-git-commit: 89c5ed4d73d875fcbb56287ad51859dc8f4bc5ff
+exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
+source-git-commit: 6abe9f371d8121ccbd66a379ad4b25f47417d885
 workflow-type: tm+mt
 source-wordcount: '1991'
 ht-degree: 1%
 
 ---
-
 
 # Creare un dashboard di report per la revisione e le approvazioni
 
@@ -344,9 +344,3 @@ Per visualizzare informazioni più specifiche a seconda del caso di utilizzo, pu
       ![esempio di filtro della tabella di approvazione in sospeso](assets/approvals-ive-submitted-filter.png)
 1. Fai clic su **Fine** nell&#39;angolo in alto a destra dello schermo.
 +++
-
-
-
-
-
-
