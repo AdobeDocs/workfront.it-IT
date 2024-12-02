@@ -5,13 +5,13 @@ title: Rivedi il contenuto interattivo nell’estensione del visualizzatore di b
 description: Lo strumento di revisione Adobe Workfront è un’estensione del browser che consente di verificare il contenuto interattivo in un file ZIP o con un URL.
 author: Courtney
 feature: Digital Content and Documents
-source-git-commit: 5650ebfbf115908cbf2b89ffeab0551a4ecacc2d
+exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
+source-git-commit: 9bc1502149d99624d8494aef86e11e18a95f563b
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '495'
 ht-degree: 1%
 
 ---
-
 
 # Rivedere i contenuti interattivi con lo strumento di revisione Adobe Workfront
 
@@ -23,7 +23,11 @@ Lo strumento di revisione Adobe Workfront è un’estensione del browser basata 
 * Chrome
 * Edge
 
-Per i siti web che impediscono l’apertura del sito in iFrame, come Figma, si consiglia di utilizzare Desktop Proof Viewer (Visualizzatore per bozze desktop).
+È consigliabile utilizzare il Visualizzatore bozze desktop se il contenuto da esaminare si trova su un sito Web che
+
+* Richiede autenticazione SSO
+* Impedisce l&#39;apertura del sito in iFrame, ad esempio Figma
+
 
 
 ## Imposta lo strumento di revisione Adobe Workfront come visualizzatore predefinito per le bozze URL e ZIP
@@ -69,7 +73,3 @@ Una volta installata l’estensione, le bozze interattive vengono aperte automat
 >[!IMPORTANT]
 >
 >Per utilizzare lo strumento Adobe Workfront Review, è necessario rimuovere l’estensione Legacy Web Viewer.
-
-
-
-

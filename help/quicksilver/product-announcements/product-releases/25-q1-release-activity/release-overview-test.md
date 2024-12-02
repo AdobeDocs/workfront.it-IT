@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: d5f21f3568f72273aa0843a45b17053fc9ebf727
+source-git-commit: 1cb0a3380d21d5fe3fb2eb40c5f19ec64d8bbbb4
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1154'
 ht-degree: 3%
 
 ---
@@ -38,6 +38,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
 
 <table>
 <col style="width: 20%;" />
+<col style="width: 50%;" />
 <tbody>
     <tr>
     <td>Area</td>
@@ -89,7 +90,6 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Icona "Sposta in" aggiunta ai campi personalizzati</a></p>
-            [!BADGE In produzione per rilascio rapido ]{type=Positive}
             <p>Quando un modulo personalizzato contiene più sezioni con molti campi, può essere difficile spostare un campo da una sezione all’altra trascinandolo. A ciascun campo è stata aggiunta l’icona "sposta in", che consente di selezionare la sezione in cui inserire il campo.</p>
         </td>
         <td>mercoledì 29 ottobre 2024</td>
@@ -173,8 +173,6 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Icona "Sposta in" aggiunta ai campi personalizzati</a></p>
-            [!BADGE In produzione per rilascio rapido ]{type=Positive}
             <p>Quando un modulo personalizzato contiene più sezioni con molti campi, può essere difficile spostare un campo da una sezione all’altra trascinandolo. A ciascun campo è stata aggiunta l’icona "sposta in", che consente di selezionare la sezione in cui inserire il campo.</p>
         </td>
         <td>mercoledì 29 ottobre 2024</td>
