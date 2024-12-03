@@ -3,17 +3,19 @@ product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: Richiedi accesso agli oggetti
 description: La visibilità degli oggetti in Adobe Workfront dipende dall’accesso a quel tipo di oggetto e dalle autorizzazioni per un singolo oggetto.
-author: Alina
+author: Becky
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
+source-git-commit: dbdcebe0fae91e7b688cad4fd11bd5aaafe51d3b
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
 
 # Richiedi accesso agli oggetti
+
+{{preview-fast-release-general}}
 
 La visibilità degli oggetti in Adobe Workfront dipende dall’accesso a quel tipo di oggetto e dalle autorizzazioni per un singolo oggetto.
 
@@ -92,14 +94,18 @@ Per richiedere l&#39;accesso iniziale a un oggetto:
 1. Fai clic su **Richiedi accesso**.\
    Viene visualizzata la finestra di dialogo **Richiedi accesso**.
 
-1. (Condizionale) Se più utenti dispongono dell’accesso appropriato per concederti l’accesso aggiuntivo, viene visualizzata una freccia a discesa accanto al nome dell’utente.
-1. Seleziona dall’elenco a discesa l’utente che desideri ricevere la richiesta di accesso.\
+1. (Condizionale) Se più utenti dispongono dell’accesso appropriato per concederti l’accesso aggiuntivo, viene visualizzata una freccia a discesa accanto al nome dell’utente. Seleziona dall’elenco a discesa l’utente che deve ricevere la richiesta di accesso.
+
    Nell’elenco a discesa vengono visualizzati solo 10 utenti. L’elenco è ordinato alfabeticamente.\
    Per ulteriori informazioni sull&#39;ordine degli utenti elencati in questo menu a discesa, vedere [Gerarchia dei menu a discesa &quot;Richiedi accesso&quot; e &quot;Richiedi accesso aggiuntivo&quot;](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
 
 1. Dall’elenco a discesa, seleziona il tipo di accesso richiesto.
 1. (Facoltativo) Nel campo **P.S.**, specifica una nota all&#39;utente sul motivo per cui hai bisogno di accesso aggiuntivo.
 
+   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
+   ![Finestra di dialogo Richiedi accesso](assets/request-access-to-project.png)
+
+   Immagine di esempio nell’ambiente di produzione:
    ![](assets/request-access-dialog-350x314.png)
 
 Se non disponi dei diritti di livello di accesso per un oggetto e tenti di accedere a tale oggetto da un collegamento, viene visualizzata una schermata che ti informa di contattare l’amministratore di Workfront.
@@ -115,7 +121,7 @@ Per richiedere accesso aggiuntivo a un oggetto per il quale si dispone già di a
 
 1. Fai clic sul menu **Altro** a destra del nome del progetto, quindi fai clic su **Richiedi accesso aggiuntivo**.
 
-   ![](assets/request-access-in-project-350x201.png)
+   ![Richiedi accesso aggiuntivo](assets/more-menu-request-more-access.png)
 
 1. (Condizionale) Se più utenti dispongono dell’accesso appropriato per concederti l’accesso aggiuntivo, viene visualizzata una freccia a discesa accanto al nome dell’utente.
 1. Seleziona dall’elenco a discesa l’utente che desideri ricevere la richiesta di accesso.\
@@ -124,7 +130,12 @@ Per richiedere accesso aggiuntivo a un oggetto per il quale si dispone già di a
 
 1. Dall’elenco a discesa, seleziona il livello di accesso richiesto.
 1. (Facoltativo) Nel campo **P.S.**, specifica una nota relativa al motivo per cui hai bisogno di accesso aggiuntivo.
-1. Fai clic su **Richiedi accesso**.\
+1. Fai clic su **Richiedi accesso**.
+
+   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
+   ![Finestra di dialogo Richiedi accesso](assets/request-access-to-project.png)
+
+   Immagine di esempio nell’ambiente di produzione:
    ![](assets/request-access-dialog-350x314.png)
 
 ## Gerarchia dei menu a discesa &quot;Richiedi accesso&quot; e &quot;Richiedi accesso aggiuntivo&quot; {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
