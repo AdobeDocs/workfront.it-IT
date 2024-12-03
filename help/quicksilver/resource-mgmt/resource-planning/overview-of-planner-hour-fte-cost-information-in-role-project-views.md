@@ -7,9 +7,9 @@ description: Panoramica di ore, FTE e informazioni sui costi nelle visualizzazio
 author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: c9e77e11fafbf224639289977783e95ccb45a9e2
 workflow-type: tm+mt
-source-wordcount: '2977'
+source-wordcount: '3086'
 ht-degree: 0%
 
 ---
@@ -217,12 +217,6 @@ Quando visualizzi le ore pianificate, tieni presente quanto segue:
 
 Quando si lavora con le ore preventivate, considera quanto segue:
 
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-(Duplicated below ??)
-</MadCap:conditionalText>
--->
-
 * È possibile preventivare le risorse solo se si dispone dell&#39;accesso Modifica a Gestione risorse e dati finanziari e delle autorizzazioni Gestisci dati finanziari per i progetti.
 
   Per informazioni sull&#39;accesso necessario per l&#39;impostazione del budget delle risorse, vedere l&#39;articolo [Accesso necessario per il preventivo delle risorse in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
@@ -232,15 +226,23 @@ Quando si lavora con le ore preventivate, considera quanto segue:
   Per ulteriori informazioni sulle opzioni di progetto e ruolo, vedere la sezione [Panoramica su ore, FTE e informazioni sui costi nelle visualizzazioni Progetto e Ruolo della Programmazione delle risorse](#Budget) in questo articolo.
 
 * Il periodo di tempo più piccolo per il quale è possibile preventivare ore, FTE o Costo è una settimana. Impossibile preventivare ore, FTE o Costo per un giorno.
-* Le ore preventivate vengono equamente distribuite a ogni giorno entro la Durata delle attività, per ogni risorsa ad esse assegnata. La durata dell&#39;attività è basata sulle date pianificate di inizio e completamento dell&#39;attività e include ogni giorno di calendario compreso in tale periodo di tempo.\
-  Workfront tiene conto della pianificazione dell’utente o del progetto al momento della distribuzione delle ore preventivate agli utenti o ai progetti. In questo caso, le ore preventivate vengono distribuite in modo uniforme a ogni giorno entro la durata delle attività, esclusi i fine settimana, ma incluse le eccezioni di indisponibilità e di programmazione.\
+* Le ore preventivate vengono equamente distribuite a ogni giorno entro la Durata delle attività, per ogni risorsa ad esse assegnata. La durata dell&#39;attività è basata sulle date pianificate di inizio e completamento dell&#39;attività e include ogni giorno di calendario compreso in tale periodo di tempo.
+
+  Workfront tiene conto della pianificazione dell’utente o del progetto al momento della distribuzione delle ore preventivate agli utenti o ai progetti. In questo caso, le ore preventivate vengono distribuite in modo uniforme a ogni giorno entro la durata delle attività, esclusi i fine settimana, ma incluse le eccezioni di indisponibilità e di programmazione.
+
   Se ad esempio si visualizza la Programmazione delle risorse per settimana e si dispone di attività che si estendono su più settimane, il numero di ore preventivate per settimana dipende dal numero di giorni della settimana che fanno parte della Durata dell&#39;attività. I giorni di fine settimana sono esclusi da questa distribuzione. Questa funzione funziona in modo simile quando si visualizza la Programmazione delle risorse per mese o trimestre e quando le attività si estendono su più mesi o trimestri.
 
-* Puoi generare rapporti sulle ore preventivate selezionando Ore preventivate come oggetto del rapporto per un nuovo rapporto.\
-  Per informazioni sugli oggetti su cui è possibile creare rapporti in Workfront, vedere la sezione &quot;Report sugli oggetti&quot; nell&#39;articolo [Comprendere gli oggetti in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
+* Puoi generare rapporti sulle ore preventivate selezionando Ore preventivate come oggetto del rapporto per un nuovo rapporto.
+
+  Per informazioni sugli oggetti su cui è possibile creare rapporti in Workfront, vedere la sezione &quot;Report sugli oggetti&quot; nell&#39;articolo [Comprendere gli oggetti in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+
   Per informazioni sulla creazione di un report Ore preventivate, vedere l&#39;articolo [Report: Ore preventivate](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
 
 * Le ore preventivate in precedenza per gli utenti che sono stati successivamente disattivati non vengono visualizzate.
+
+  Si noti che il costo manodopera preventivato di un progetto include ancora le ore preventivate per gli utenti che sono stati disattivati nella pianificazione risorse.
+
+  Ad esempio: se un ruolo viene assegnato a due utenti e vengono aggiunte le ore preventivate (20 ore per utente, per un totale di 40 ore), e il totale viene impostato manualmente per il ruolo, la disattivazione di uno degli utenti in Pianificazione risorse fa sì che le ore non vengano più considerate nel calcolo (portando il totale a 20 ore). Tuttavia, il budget del progetto mantiene correttamente il totale impostato manualmente per il ruolo, pertanto le ore dell&#39;utente disattivato vengono ancora incluse nel calcolo (rimanendo a 40 ore).
 
 ### Colonna VAR (Varianza) {#the-var-variance-column}
 
