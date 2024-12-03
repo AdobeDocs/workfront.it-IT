@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: 1cb0a3380d21d5fe3fb2eb40c5f19ec64d8bbbb4
+source-git-commit: d9bfe029f99bf4c205686dc7a30598f046977afd
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1388'
 ht-degree: 3%
 
 ---
@@ -126,7 +126,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
 
 ### Miglioramenti per gli amministratori
 
-<table style="table-layout:auto">
+<table>
 <col style="width: 50%;" />
 <tbody>
     <tr>
@@ -243,6 +243,53 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
 </tbody>
 </table>
 
+### Miglioramenti alla gestione dei documenti
+
+
+<table>
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><span class="bold">Funzionalità</span></p>
+        </td>
+        <td>Anteprima</td>
+        <td>Rilascio rapido</td>
+        <td>Ogni trimestre</td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Preferenza per l'utilizzo della pianificazione del progetto o dell'utente per le attività a assegnazione singola</a></p>
+            <p>In qualità di amministratore di sistema o di gruppo, è ora disponibile una nuova preferenza per indicare se Workfront deve utilizzare la pianificazione del progetto o quella dell'utente per calcolare la sequenza temporale del progetto quando si assegna un utente a un'attività e sia il progetto che l'utente sono associati a una pianificazione.</p>
+        </td>
+        <td><p>16 novembre 2024</p> <p>[!BADGE Nuovo nell'anteprima ]{type=Negative}<p></td>
+        <td>Dic 2024</td>
+        <td>25,1</td>
+    </tr>     
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Le regole business ora supportano i collegamenti ipertestuali</a></p>
+            <p>È ora possibile includere collegamenti ipertestuali nel messaggio di errore personalizzato di una regola business, per guidare l’utente nella modifica della propria azione all’interno del vincolo della regola. L’URL statico potrebbe contenere un collegamento alla documentazione o ad altre pagine utili per l’utente.</p>
+        </td>
+        <td>14 novembre </td>
+        <td><p>14 novembre</p> <p>[!BADGE Fuori ciclo ]{type=Negative}</p></td>
+        <td><p>14 novembre</p> <p>[!BADGE Fuori ciclo ]{type=Negative}</p></td>
+    </tr>    
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Icona "Sposta in" aggiunta ai campi personalizzati</a></p>
+            <p>Quando un modulo personalizzato contiene più sezioni con molti campi, può essere difficile spostare un campo da una sezione all’altra trascinandolo. A ciascun campo è stata aggiunta l’icona "sposta in", che consente di selezionare la sezione in cui inserire il campo.</p>
+        </td>
+        <td>29 ottobre</td>
+          <td><p>Dicembre 2024</p><p> [!BADGE In produzione per rilascio rapido ]{type=Positive}</p></td>
+        <td>25,1<p> [!BADGE In produzione]{type=Positive}</p></td>
+    </tr>
+</tbody>
+</table>
+
 <!--
 ### Functionality soon to be removed from Workfront
 
@@ -253,6 +300,9 @@ The following functionality is soon to be removed from Workfront:
 
 * [Attività di rilascio di Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 * [Attività sulla versione del primo trimestre 2025 di Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md).
+
+A questo punto della versione non sono presenti aggiornamenti per i seguenti elementi:
+
 * Pianificazione scenario
 * Bozza
 * Obiettivi
