@@ -7,13 +7,11 @@ title: Visualizzare i registri attività di un’organizzazione in Adobe Workfro
 description: Puoi visualizzare un registro delle attività dell’organizzazione, ad esempio la creazione o l’attivazione di uno scenario.
 author: Becky
 feature: Workfront Fusion
-hide: true
-hidefromtoc: true
 exl-id: d60dc97d-2da6-44f4-a2ee-bb5e56317695
-source-git-commit: ff455b5da1db6a4edb9f6de5d9ff50a7658f91bb
+source-git-commit: 1694d54c8b2d6ee3707e8e8bcb3b394c1dfa7a48
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 0%
+source-wordcount: '506'
+ht-degree: 1%
 
 ---
 
@@ -25,42 +23,47 @@ Puoi visualizzare un registro delle attività, ad esempio la creazione di uno sc
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per utilizzare le funzionalità di questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
-<table style="table-layout:auto">  
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] piano*</td> 
-   <td> <p>[!DNL Pro] o superiore</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] piano</td>
+   <td> <p>Nuovo: Ultimate</p> <p>Oppure</p> <p>Corrente: non disponibile</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
+   <td> <p>Nuovo: [!UICONTROL Standard]</p><p>Oppure</p><p>Corrente: non disponibile</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza [!UICONTROL Adobe Workfront Fusion]**</td> 
-  <td>
-   <p>Requisiti di licenza correnti: nessun requisito di licenza [!DNL Workfront Fusion].</p>
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] licenza**</td> 
+   <td>
+   <p>Corrente: nessun requisito di licenza [!DNL Workfront Fusion].</p>
    <p>Oppure</p>
-   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione lavoro], [!UICONTROL [!DNL Workfront Fusion] per automazione lavoro]</p>
-   </td>  
+   <p>Legacy: qualsiasi </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
    <td>
-   <p>Fabbisogno prodotto corrente: se si dispone del piano [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], l'organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo. [!DNL Workfront Fusion] è incluso nel piano [!UICONTROL Ultimate] [!DNL Workfront].</p>
-   <p>Oppure</p>
-   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</p>
+   <p>Nuovo: [!DNL Workfront Fusion] è incluso nel piano Ultimate Workfront.</p> <p>Oppure</p>
+   <p>Corrente: non disponibile</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore [!DNL Workfront].
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
++++
+
+
 
 ## Visualizzare i registri attività
 

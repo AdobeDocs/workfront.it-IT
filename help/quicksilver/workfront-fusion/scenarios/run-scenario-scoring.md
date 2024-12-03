@@ -2,16 +2,14 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Eseguire l’esperto di punteggio scenario
-description: Gestisci scenari bloccati in [!DNL Adobe Workfront Fusion]
+title: Eseguire l’esperto di valutazione degli scenari in Adobe Workfront Fusion
+description: L’esperto di valutazione degli scenari può aiutarti a garantire che lo scenario sia configurato nel modo che segue le best practice. Controlla lo scenario e fornisce consigli per la sua struttura e organizzazione.
 author: Becky
 feature: Workfront Fusion
-hide: true
-hidefromtoc: true
 exl-id: 144c8dbd-a3e9-4267-b3db-0768dac8f384
-source-git-commit: 7bc49dcd8988ef7fd781fb88eba5b03576ca7054
+source-git-commit: 2b455fb2d3892c6bb796aa7ea57a60c861c3d599
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
