@@ -3,7 +3,7 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 6abcd9afbf57162ff1c2dc362e7979fab6d1d997
+source-git-commit: 7bb56395151d88595d446703d5d689c03b1e0372
 workflow-type: tm+mt
 source-wordcount: '14673'
 ht-degree: 2%
@@ -1846,7 +1846,6 @@ ht-degree: 2%
       * [Revisione e approvazione di risorse e documenti: indice articoli](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [Panoramica delle approvazioni dei documenti](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [Panoramica sullo stato delle decisioni relative ai documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-      * [Creare un dashboard di report per la revisione e le approvazioni](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
       * Imposta e gestisci approvazioni risorse e documenti {#manage-asset-review-and-approval}
          * [Impostare e gestire le approvazioni di risorse e documenti: indice articoli](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [Creare una richiesta di revisione o approvazione documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
@@ -1855,6 +1854,7 @@ ht-degree: 2%
          * [Creare un modello di approvazione per risorse e documenti](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
          * [Utilizzare insieme nuove approvazioni di documenti e prove](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
          * [Carica una nuova versione del documento e richiedi un’approvazione](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
+         * [Creare un dashboard di report per la revisione e le approvazioni](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
       * Rivedi e approva risorse e documenti {#review-and-approve-documents}
          * [Revisione e approvazione dei documenti: indice articolo](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
          * [Rivedere un documento](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)

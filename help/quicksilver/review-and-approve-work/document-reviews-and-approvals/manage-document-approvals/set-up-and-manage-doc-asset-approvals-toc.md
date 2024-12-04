@@ -2,15 +2,15 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: "Impostare e gestire le approvazioni di risorse e documenti: indice articolo"
+title: 'Impostare e gestire le approvazioni di risorse e documenti: indice articoli'
 description: Questa sezione contiene articoli sulla gestione delle approvazioni di risorse e documenti in Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 242910b9-f251-49c3-a6ad-de3039bdd2f5
-source-git-commit: ddce65dd04752ee68f8bf249e8aa07082a02d3a6
+source-git-commit: 7bb56395151d88595d446703d5d689c03b1e0372
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '96'
 ht-degree: 0%
 
 ---
@@ -25,3 +25,4 @@ Questa sezione contiene i seguenti articoli:
 * [Creare un modello di approvazione per risorse e documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
 * [Utilizzare insieme nuove approvazioni di documenti e prove](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
 * [Carica una nuova versione del documento e richiedi un’approvazione](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
+* [Creare un dashboard di report per la revisione e le approvazioni](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)

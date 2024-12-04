@@ -5,12 +5,10 @@ title: Creare un dashboard di revisione e approvazione
 description: Puoi rivedere le metriche di approvazione nelle dashboard di Canvas.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: true
-hidefromtoc: true
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-source-git-commit: 6abe9f371d8121ccbd66a379ad4b25f47417d885
+source-git-commit: 53db0a80026d003250e3b31063fb9a502d2ddce1
 workflow-type: tm+mt
-source-wordcount: '1991'
+source-wordcount: '2054'
 ht-degree: 1%
 
 ---
@@ -48,10 +46,9 @@ Dopo aver creato un dashboard, è possibile iniziare ad aggiungere indicatori KP
 
 ### KPI
 
-<!--
->>[!IMPORTANT]
+>[!IMPORTANT]
 >
->New document approvals data currently refreshes during the evenings in the US Mountain timezone. Real-time updates are planned and coming soon.-->
+>I dati di approvazione dei nuovi documenti vengono aggiornati durante le serate nel fuso orario USA di Mountain. Gli aggiornamenti in tempo reale sono pianificati e saranno presto disponibili.
 
 ![Esempi di KPI](assets/kpi-dashboard.png)
 
@@ -132,6 +129,10 @@ Dopo aver creato un dashboard, è possibile iniziare ad aggiungere indicatori KP
 
 ### Grafici
 
+>[!IMPORTANT]
+>
+>I dati di approvazione dei nuovi documenti vengono aggiornati durante le serate nel fuso orario USA di Mountain. Gli aggiornamenti in tempo reale sono pianificati e saranno presto disponibili.
+
 ![Esempi di grafici](assets/chart-dashboard.png)
 
 #### Grafico Approvazioni per barra delle decisioni
@@ -178,6 +179,10 @@ Dopo aver creato un dashboard, è possibile iniziare ad aggiungere indicatori KP
 1. Fai clic su **Fine** nell&#39;angolo in alto a destra dello schermo.
 
 ## Aggiungere informazioni dettagliate di revisione e approvazione con le tabelle
+
+>[!IMPORTANT]
+>
+>I dati di approvazione dei nuovi documenti vengono aggiornati durante le serate nel fuso orario USA di Mountain. Gli aggiornamenti in tempo reale sono pianificati e saranno presto disponibili.
 
 ![esempio tabella](assets/table-dashboard.png)
 
