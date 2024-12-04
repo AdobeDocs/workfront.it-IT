@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: d92dc8581bef1f5fdbef7a853ac27ffc3fa7ddbe
+source-git-commit: 6844e1cef741b60f0d2663ddb9bc9038ec88714d
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '757'
 ht-degree: 9%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 9%
 # Campi delle risorse di abbonamento agli eventi
 
 I campi delle risorse di abbonamento agli eventi rappresentano trigger per gli eventi che fanno sì che una sottoscrizione agli eventi invii un messaggio in uscita a un endpoint configurato. Quando si modifica un campo della risorsa, viene attivato un evento UPDATE.
+
+Tieni presente che i dati possono essere filtrati utilizzando un filtro nidificato. Per ulteriori informazioni, vedere [Utilizzo di filtri nidificati](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters) nell&#39;articolo API sottoscrizione eventi.
 
 Nella tabella seguente sono elencati i campi disponibili per le risorse di abbonamento agli eventi:
 
