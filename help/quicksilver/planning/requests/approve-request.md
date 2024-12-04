@@ -3,9 +3,9 @@ title: Approvare una richiesta
 description: Quando un utente invia una richiesta a un modulo di richiesta associato a un’approvazione in Adobe Workfront Planning, gli approvatori ricevono una notifica e un messaggio e-mail relativi all’approvazione in sospeso. È necessario approvare la richiesta prima che Workfront Planning crei un oggetto.
 hide: true
 hidefromTOC: true
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: ab78b82db567193f32f6c67880b2b037dc78e849
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '798'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ Le richieste inviate vengono visualizzate nella scheda Pianificazione della sezi
 * **Approvato**: quando un approvatore approva l&#39;oggetto della richiesta, il suo stato individuale diventa
 * **Approvato**, ma lo stato complessivo dell&#39;oggetto della richiesta rimane **In revisione** fino a quando tutti gli approvatori non avranno preso le loro decisioni.
 * **Completato**: se tutti gli approvatori approvano l&#39;oggetto della richiesta, lo stato cambia in **Completato** oppure se la richiesta non ha bisogno di un&#39;approvazione.
-* **Rifiutato**: se un approvatore rifiuta l&#39;oggetto della richiesta, lo stato diventa **Rifiutato**.
+* **Rifiutato**: se un approvatore rifiuta l&#39;oggetto della richiesta, lo stato diventa **Rifiutato**. Non viene creato alcun record ed è necessario inviare una nuova richiesta per creare il record.
 
 ## Requisiti di accesso
 

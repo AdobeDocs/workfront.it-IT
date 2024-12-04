@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
+source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1683'
 ht-degree: 0%
 
 ---
@@ -256,23 +256,29 @@ Si verificano le seguenti situazioni:
 
 <span class="preview">
 
-## Aggiungere una pagina di visualizzazione connessa alla pagina di un record
+## Aggiungere una pagina di visualizzazione Connessione alla pagina di un record
 
-È possibile aggiungere una pagina Visualizzazione connessa alla pagina di un record.
+Quando si aggiunge una visualizzazione Connessione alla pagina di un record, tenere presente quanto segue:
 
-Non è possibile aggiungere una pagina Visualizzazione connessa all&#39;area di anteprima di un record.
+* È possibile aggiungere una pagina di visualizzazione Connessione alla pagina di un record.
 
-Le pagine di visualizzazione collegate visualizzano una pagina di record connessa nella visualizzazione tabella. La vista tabella è di sola lettura.
+* Impossibile aggiungere una pagina di visualizzazione Connessione all&#39;area di anteprima di un record.
 
-È possibile aggiungere una pagina Visualizzazione connessa per ogni tipo di record connesso.  <!--edit this when we can remove fields from this page-->
+* Le pagine della visualizzazione Connessione visualizzano una pagina di record connesso nella visualizzazione Tabella. La vista tabella è di sola lettura.
 
-Per aggiungere una pagina Visualizzazione connessa:
+* È possibile aggiungere una pagina di visualizzazione Connessione per ogni tipo di record connesso.  <!--edit this when we can remove fields from this page-->
 
-1. Nella visualizzazione di una pagina di record fare clic sul nome di un record per aprirlo, quindi fare clic sull&#39;icona Apri in una nuova scheda ![](assets/open-details-in-a-new-tab-icon.png) nell&#39;angolo superiore destro della pagina di anteprima.
-1. Fai clic su **Aggiungi pagina** > **Visualizzazione connessa**.
-1. Aggiungi il **nome pagina**, quindi fai clic su **Crea**.
+* Dopo aver aggiunto una pagina di visualizzazione Connessione alla pagina di un record, la pagina sarà visibile dall&#39;area di anteprima del record.
 
-   Viene aggiunta una pagina aggiuntiva alla pagina del record in una nuova scheda.
+Per aggiungere una pagina di visualizzazione Connessione:
+
+1. Da una visualizzazione della pagina record, fare clic sul nome di un record per aprirlo, quindi fare clic sull&#39;icona **Apri in una nuova scheda** ![](assets/open-details-in-a-new-tab-icon.png) nell&#39;angolo superiore destro della pagina di anteprima.
+1. Fai clic su **Aggiungi pagina** > **Visualizzazione connessione**.
+
+   ![](assets/add-connection-view-page-modal.png)
+1. Aggiungi **Nome pagina**, fai clic su **Visualizzazione connessione**, quindi fai clic su **Crea**.
+
+   Viene aggiunta una nuova scheda alla pagina del record.
 1. Cercare o fare clic sul nome di un record o di un tipo di oggetto connesso nell&#39;elenco.
 Viene visualizzata la vista tabella del tipo di record selezionato e i record collegati vengono visualizzati nella vista tabella.
 La vista tabella è di sola lettura.
@@ -284,6 +290,7 @@ La vista tabella è di sola lettura.
 
    Passa il puntatore del mouse sul nome della scheda, quindi fai clic su **Altro** ![](assets/more-menu.png), quindi fai clic su **Rinomina** per rinominare la nuova scheda Visualizzazione connessa.
 1. (Facoltativo) Utilizza tutti gli elementi della vista nella barra degli strumenti per gestire la vista tabella. Per informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
+1. (Facoltativo) Passa il puntatore del mouse sul nome della scheda, quindi fai clic su **Altro** ![](assets/more-menu.png), quindi fai clic su **Elimina** per rimuoverlo nella nuova scheda Visualizzazione connessa.
 
 </span>
 

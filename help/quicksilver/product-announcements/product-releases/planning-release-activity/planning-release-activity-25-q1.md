@@ -7,7 +7,7 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 0%
@@ -77,7 +77,7 @@ Per ulteriori informazioni, vedere [Creare tipi di record](/help/quicksilver/pla
 
 Per informazioni, vedere [Creare i campi](/help/quicksilver/planning/fields/create-fields.md).
 
-## Aggiungere le pagine delle visualizzazioni collegate alla pagina di un record per visualizzare i record connessi in una visualizzazione tabella
+## Aggiungere pagine della visualizzazione Connessione alla pagina di un record per visualizzare i record connessi in una visualizzazione tabella
 
 >[!NOTE]
 >
