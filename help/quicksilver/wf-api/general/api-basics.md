@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
+source-git-commit: a660fa9fedaf05582760029e062abb3d728106bd
 workflow-type: tm+mt
-source-wordcount: '4419'
+source-wordcount: '4383'
 ht-degree: 0%
 
 ---
@@ -26,10 +26,6 @@ Acquisire familiarità con lo schema Workfront ti aiuterà a comprendere le rela
 Per garantire prestazioni coerenti del sistema Workfront on-demand, l’API Workfront limita i thread API simultanei. Questo guardrail impedisce i problemi di sistema causati da chiamate API abusive. L’ambiente Sandbox dispone dello stesso limite di thread API simultanei, che consente a clienti e partner di testare con precisione le chiamate API prima di rilasciare il codice in produzione.
 
 Per gli ambienti di produzione, anteprima e test delle unità, le richieste degli utenti finali hanno una lunghezza URI massima di 8892 byte, in quanto vengono instradate tramite la rete CDN di Workfront (Akamai). Questo limite si applica solo agli URI instradati attraverso la rete CDN.
-
->[!NOTE]
->
->questo limite non è applicabile agli ambienti sandbox perché gli ambienti sandbox non vengono instradati attraverso la rete CDN.
 
 ### Esclusione di responsabilità
 
@@ -112,14 +108,6 @@ GET /attask/api/v15.0/project/search
 SessionID: abc1234
 ```
 
-#### Richiedi autenticazione parametro
-
-Puoi eseguire l’autenticazione trasmettendo un parametro di richiesta denominato sessionID, come illustrato nell’esempio seguente: 
-
-```
-GET /attask/api/v15.0/project/4c78821c0000d6fa8d5e52f07a1d54d0?sessionID=abc1234
-```
-
 #### Autenticazione basata su cookie
 
 L’API utilizza la stessa autenticazione basata su cookie utilizzata dall’interfaccia web per il sistema. Se un client accede a Workfront utilizzando l’interfaccia utente web, tutte le chiamate AJAX effettuate dall’interno dello stesso browser utilizzano la stessa autenticazione.
@@ -145,7 +133,7 @@ L’API utilizza la stessa autenticazione basata su cookie utilizzata dall’int
 
 >[!NOTE]
 >
->La procedura descritta in questa sezione si applica solo alle organizzazioni che non sono ancora state caricate su Adobe Business Platform. L’accesso a Workfront tramite l’API Workfront non è disponibile se l’organizzazione è stata integrata in Adobe Business Platform.
+>La procedura descritta in questa sezione si applica solo alle organizzazioni che non hanno ancora effettuato l’onboarding in Adobe Business Platform. L’accesso a Workfront tramite l’API Workfront non è disponibile se l’organizzazione è stata integrata in Adobe Business Platform.
 >
 >Per un elenco delle procedure che differiscono a seconda che l&#39;organizzazione sia stata integrata o meno in Adobe Business Platform, consulta [Differenze di amministrazione basate su Platform (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
