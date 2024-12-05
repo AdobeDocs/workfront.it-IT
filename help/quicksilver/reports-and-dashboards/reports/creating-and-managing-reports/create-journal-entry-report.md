@@ -5,14 +5,16 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '2742'
+source-wordcount: '2734'
 ht-degree: 4%
 
 ---
 
 # Rapporto sulla sezione Aggiornamenti
+
+<!-- Audited: 11/2024 -->
 
 Il rapporto Voce diario evidenzia gli aggiornamenti di sistema dall’area Aggiornamenti di progetti, attività, problemi e altri oggetti precedentemente disponibili solo tramite l’API Adobe Workfront. Anche se si tratta di un rapporto avanzato destinato a casi d’uso specifici, il formato più digeribile consente di creare un rapporto più semplice sull’attività del progetto e sugli aggiornamenti del sistema in Workfront.
 
@@ -45,7 +47,16 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Nuovo: Standard </p><p>Oppure </p><p>Corrente: Piano </p> </td> 
+      <td> 
+      <p>Nuovo:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Corrente:</p>
+         <ul>
+         <li><p>Piano</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -58,7 +69,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -222,7 +233,7 @@ Queste informazioni possono essere utilizzate per facilitare il controllo e per 
       <td> <p>Chiave per lo stato aggiornato.</p> </td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">Top ObjCode</p> </td> 
+      <td> <p style="font-weight: bold;">Cod. ogg. superiore</p> </td> 
       <td> <p>L'oggetto padre di livello più alto per il campo il cui stato è stato modificato.</p> </td> 
      </tr> 
      <tr> 
@@ -439,7 +450,7 @@ Per vedere come sono cambiati i campi personalizzati nel corso del ciclo di vita
 
    * **ID progetto** > **Uguale** > **`<project>`**
 
-     ![](assets/qs-custom-form-changes-filter-350x92.png)
+   ![](assets/qs-custom-form-changes-filter-350x92.png)
 
    Per ulteriori informazioni sull&#39;aggiunta di filtri, vedere [Panoramica filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -503,7 +514,7 @@ Per vedere come sono cambiati i campi personalizzati nel corso del ciclo di vita
       <td> <p>La data in cui è stata modificata la Data di completamento pianificata del progetto.</p> <p>È necessario ordinare in base a questo campo in ordine decrescente.</p> </td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">Top ObjCode</p> </td> 
+      <td> <p style="font-weight: bold;">Cod. ogg. superiore</p> </td> 
       <td> <p>L'oggetto padre di livello più alto per il campo per il quale è stata modificata la Data di completamento pianificata.</p> </td> 
      </tr> 
      <tr> 
@@ -596,7 +607,7 @@ Per vedere come sono cambiati i campi personalizzati nel corso del ciclo di vita
       <td> <p>Tipo di modifica, ad esempio <strong>Aggiungi</strong>, <strong>Elimina</strong> o <strong>Modifica</strong>.</p> </td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">Top ObjCode</p> </td> 
+      <td> <p style="font-weight: bold;">Cod. ogg. superiore</p> </td> 
       <td> <p>L’oggetto principale di livello più alto per il progetto per il quale è stato aggiornato il proprietario del progetto.</p> </td> 
      </tr> 
      <tr> 
@@ -629,7 +640,7 @@ Per vedere come sono cambiati i campi personalizzati nel corso del ciclo di vita
    * **Nome campo** > **Uguale** > **ownerID**
    * **ID progetto** > **Uguale** > **`<project name>`**
 
-     ![](assets/qs-owner-changes-filter-350x94.png)
+   ![](assets/qs-owner-changes-filter-350x94.png)
 
    Per ulteriori informazioni sull&#39;aggiunta di filtri, vedere [Panoramica filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 

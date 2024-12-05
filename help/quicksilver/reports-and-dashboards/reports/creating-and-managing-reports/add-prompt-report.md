@@ -6,9 +6,9 @@ description: I filtri e i prompt sono simili in quanto limitano la quantità di 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
+source-git-commit: 93fca2a98a8b9d4370841b10be10ed2ba15283c9
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1363'
 ht-degree: 0%
 
 ---
@@ -172,3 +172,5 @@ Di seguito sono riportate le limitazioni relative alla condivisione dei rapporti
 * Quando pianifichi la consegna di un rapporto richiesto, il rapporto nell’allegato e-mail include i dati del rapporto non richiesti. Quando l’utente fa clic sul collegamento nell’e-mail per accedere al rapporto, deve prima accedere per visualizzare il rapporto ed eseguire personalmente il prompt.
 
   Per informazioni sulla pianificazione di un report consegnato, vedere [Pianificare la consegna automatica di un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+
+* Quando si esegue un report con un prompt basato sulla data, i risultati del report verranno filtrati in base alle impostazioni del fuso orario del browser. Questo può causare lievi discrepanze negli intervalli di date visualizzati in un rapporto richiesto per date che si trovano all’inizio o alla fine di un mese. Se le impostazioni del fuso orario del browser sono correlate a una posizione specifica, le variazioni nell’ora locale della posizione (ad esempio il rispetto dell’ora legale) verranno incluse anche nelle date visualizzate per un rapporto richiesto. Questo può causare lievi discrepanze nell’intervallo di date tra gli utenti nello stesso fuso orario ma con impostazioni di posizione diverse.

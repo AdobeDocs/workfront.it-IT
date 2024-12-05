@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
+source-git-commit: 93fca2a98a8b9d4370841b10be10ed2ba15283c9
 workflow-type: tm+mt
-source-wordcount: '1769'
+source-wordcount: '1920'
 ht-degree: 0%
 
 ---
@@ -34,12 +34,31 @@ Questo articolo descrive le funzioni rilasciate per Workfront Planning durante l
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning dopo il rilascio di disponibilità generale del 28 agosto 2024, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Ricerca intelligente durante la ricerca di un tipo di campo
+
+>[!NOTE]
+>
+>Versione di anteprima: 5 dicembre 2024; versione di produzione per tutti i clienti: 5 dicembre 2024
+
+È stata aggiunta la funzionalità di ricerca intelligente quando si cerca un tipo di campo in Workfront Planning. È ora possibile trovare i tipi di campo durante la digitazione di una parola chiave. Ad esempio, digitando &quot;Prezzo&quot; vengono trovati i tipi di campi Numero e Valuta. Prima di questo miglioramento, era possibile cercare solo il nome del tipo di campo effettivo.
+
+Per informazioni, vedere [Creare i campi](/help/quicksilver/planning/fields/create-fields.md).
+
+## Selettore colore personalizzato per le opzioni codificate per colore dei campi a selezione singola o multipla
+
+>[!NOTE]
+>
+>Versione di anteprima: 5 dicembre 2024; produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+
+Ora è possibile effettuare scelte personalizzate dei colori durante la creazione o la modifica di un campo a selezione singola o multipla. Quando si creano o si modificano campi con opzioni codificate con colori, facendo clic sull&#39;icona del colore viene visualizzata una casella di selezione dei colori. È possibile scegliere tra colori predefiniti o crearne di personalizzati utilizzando codici esadecimali o uno spettro di colori.
+
+Per informazioni, vedere [Creare i campi](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Importare i campi Workfront esistenti nei tipi di record di Workfront Planning
 
 >[!NOTE]
 >
->Versione di anteprima: 27 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+>Versione di anteprima: 27 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
 
 Ora, quando si aggiungono campi a un tipo di record, è possibile importare campi personalizzati o nativi di Workfront esistenti e associarli al tipo di record selezionato. L&#39;importazione di campi esistenti crea una copia dei campi di Workfront in Workfront Planning. I campi copiati sono indipendenti dalle versioni originali.
 
@@ -53,7 +72,7 @@ Per informazioni, vedere [Importa campi da Adobe Workfront](/help/quicksilver/pl
 
 >[!NOTE]
 >
->Versione di anteprima: 27 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+>Versione di anteprima: 27 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
 
 È ora possibile importare nuovi tipi di record importando un file CSV o Excel.
 
@@ -71,7 +90,7 @@ Per ulteriori informazioni, vedere [Creare tipi di record](/help/quicksilver/pla
 
 >[!NOTE]
 >
->Versione di anteprima: 27 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+>Versione di anteprima: 27 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
 
 È stato introdotto un messaggio di avviso durante la modifica o la creazione di un campo formula che potrebbe creare un riferimento circolare a se stesso o a campi condivisi. Non è possibile salvare un campo formula che fa riferimento a se stesso o a elementi a cui viene fatto riferimento nel calcolo.
 
@@ -81,7 +100,7 @@ Per informazioni, vedere [Creare i campi](/help/quicksilver/planning/fields/crea
 
 >[!NOTE]
 >
->Versione di anteprima: 27 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+>Versione di anteprima: 27 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
 
 È possibile aggiungere pagine all&#39;area dei dettagli di un record per visualizzare i record connessi in una visualizzazione per tabella. È possibile aggiungere una pagina per ogni record connesso.
 
@@ -93,7 +112,7 @@ Per informazioni, vedere [Gestire il layout della pagina record](/help/quicksilv
 
 >[!NOTE]
 >
->Versione di anteprima: 27 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+>Versione di anteprima: 27 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
 
 Le richieste di Workfront Planning sono ora disponibili nella sezione Inviato dell&#39;area Richieste di Workfront. Nella sezione Inviata sono ora visualizzate le seguenti schede:
 
@@ -110,7 +129,7 @@ Per informazioni, vedere [Inviare le richieste di Adobe Workfront Planning per l
 
 >[!NOTE]
 >
->Versione di anteprima: 27 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+>Versione di anteprima: 27 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
 
 È ora possibile aggiungere i seguenti tipi di campo a un modulo di richiesta di tipo di record in Workfront Planning:
 
@@ -125,7 +144,7 @@ Per informazioni, consulta Creare e gestire un modulo di richiesta in Adobe Work
 
 >[!NOTE]
 >
->Versione di anteprima: 27 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+>Versione di anteprima: 27 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
 
 Non è più possibile condividere un modulo di richiesta pubblicamente se il modulo contiene uno dei tipi di campo seguenti:
 
@@ -141,7 +160,7 @@ Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workf
 
 >[!NOTE]
 >
->Versione di anteprima: 26 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+>Versione di anteprima: 26 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
 
 È ora possibile visualizzare i record nella vista calendario per settimana. Prima di questo miglioramento, era possibile visualizzare la vista calendario solo per mese.
 
@@ -151,7 +170,7 @@ Per informazioni, vedere [Gestire la visualizzazione del calendario](/help/quick
 
 >[!NOTE]
 >
->Versione di anteprima: 22 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+>Versione di anteprima: 22 novembre 2024; Produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024); Produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
 
 Una volta eliminati, i record vengono temporaneamente spostati in un raccoglitore Eliminato di recente per 30 giorni. È possibile accedere al contenitore eliminato di recente dalla pagina del tipo di record e contiene solo record di un tipo specifico.
 
@@ -165,7 +184,7 @@ Per ulteriori informazioni, vedere [Ripristinare i record eliminati](/help/quick
 
 >[!NOTE]
 >
->Versione di anteprima: 21 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+>Versione di anteprima: 21 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
 
 Per semplificare l&#39;esecuzione del lavoro, abbiamo aggiunto l&#39;Assistente AI di Adobe alla pagina di anteprima dei dettagli o alla pagina del record. È possibile utilizzare l&#39;Assistente AI all&#39;interno di una pagina di record per aggiornare le informazioni sul record.
 
@@ -175,7 +194,7 @@ Per informazioni, vedere [Panoramica dell&#39;Assistente di Adobe Workfront Plan
 
 >[!NOTE]
 >
->Versione di anteprima: 20 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+>Versione di anteprima: 20 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
 
 Quando si apre l&#39;anteprima o la pagina di un record e il record non contiene una miniatura o un&#39;immagine di copertina, è necessario passare il puntatore sull&#39;area sopra il nome del record nell&#39;intestazione per visualizzare le opzioni per aggiungere una copertina e un&#39;immagine di miniatura al record. Prima di questo miglioramento, le immagini segnaposto vuote per la miniatura e la copertina mostrate sopra il nome del record.
 
@@ -188,7 +207,7 @@ Per ulteriori informazioni, consulta i seguenti articoli:
 
 >[!NOTE]
 >
->Versione di anteprima: 7 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+>Versione di anteprima: 7 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
 
 Per semplificare la lettura dei numeri nella visualizzazione Tabella, è ora possibile scegliere tra le seguenti opzioni per modificare la modalità di visualizzazione di un campo di tipo Percentuale nella visualizzazione Tabella:
 
