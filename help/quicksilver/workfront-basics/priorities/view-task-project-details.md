@@ -5,13 +5,13 @@ description: È possibile visualizzare i dettagli del progetto e dell'attività 
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 8384c2ce2e83aa07c504c56193b19a557226d15a
+exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
+source-git-commit: 9af607f381ced982d72a19b2a5ce780796747c2e
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '240'
 ht-degree: 1%
 
 ---
-
 
 # Visualizzare i dettagli del progetto e dell&#39;attività nell&#39;elenco di lavoro Priorità
 
@@ -67,8 +67,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    * Visualizzare e aggiungere commenti al progetto
    * Registra ore
    * Aggiungi un file
+   * <span class="preview">Vai direttamente al progetto</span>
 
-   ![dettagli progetto](assets/project-details.png)
+<!-- ![project details](assets/project-details.png)-->
 
 ## Visualizza dettagli attività
 
@@ -83,4 +84,4 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    * Aggiungi un file
    * Aggiungi collegamenti rapidi
 
-   ![dettagli attività](assets/task-details.png)
+   <!-- ![task details](assets/task-details.png)-->
