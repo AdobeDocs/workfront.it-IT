@@ -8,10 +8,10 @@ description: Puoi visualizzare un registro delle attività dell’organizzazione
 author: Becky
 feature: Workfront Fusion
 exl-id: d60dc97d-2da6-44f4-a2ee-bb5e56317695
-source-git-commit: 1694d54c8b2d6ee3707e8e8bcb3b394c1dfa7a48
+source-git-commit: 6f4ba4cde26978305a58cedb9ed606c6032496f1
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 1%
+source-wordcount: '528'
+ht-degree: 0%
 
 ---
 
@@ -47,11 +47,14 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
    <p>Legacy: qualsiasi </p>
    </td> 
   </tr> 
+   <tr> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Per utilizzare il registro attività è necessario essere un amministratore di Fusion.</p></td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
    <td>
-   <p>Nuovo: [!DNL Workfront Fusion] è incluso nel piano Ultimate Workfront.</p> <p>Oppure</p>
-   <p>Corrente: non disponibile</p>
+   <p>Questa funzionalità è disponibile solo per le organizzazioni con il piano Ultimate Workfront, che include [!DNL Workfront Fusion]. Non è necessario alcun ulteriore acquisto di prodotti.</p>
    </td> 
   </tr>
  </tbody> 
