@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 5ebb756ba2f054c37d486d7f54a9f86cf8513328
+source-git-commit: d68c4fd39234d8d5131828e2a4642bd9af8ca7d5
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1269'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,10 @@ Per informazioni sui caratteri jolly basati sugli utenti, vedere [Utilizzare car
 
 Per informazioni sui caratteri jolly basati sulla data, vedere [Utilizzare caratteri jolly basati sulla data per generalizzare i report](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
 
-Un carattere jolly API è disponibile anche nelle regole business. È possibile utilizzare `$$ISAPI` per attivare la regola solo nell&#39;interfaccia utente o solo nell&#39;API.
+Un carattere jolly API è disponibile anche nelle regole business. Utilizza `$$ISAPI` per attivare la regola solo nell&#39;API. Utilizzare `!$$ISAPI` per applicare la regola solo nell&#39;interfaccia utente e consentire agli utenti di ignorarla tramite l&#39;API.
+
+* Ad esempio, questa regola impedisce agli utenti di modificare i progetti completati tramite l’API. Se il carattere jolly non veniva utilizzato, la regola bloccava l’azione sia nell’interfaccia utente che nell’API.
+  `IF({status} = "CPL" && $$ISAPI, "You cannot edit completed projects through the API.")`
 
 I caratteri jolly `$$BEFORE_STATE` e `$$AFTER_STATE` vengono utilizzati nelle espressioni per accedere ai valori dei campi dell&#39;oggetto prima e dopo eventuali modifiche.
 
