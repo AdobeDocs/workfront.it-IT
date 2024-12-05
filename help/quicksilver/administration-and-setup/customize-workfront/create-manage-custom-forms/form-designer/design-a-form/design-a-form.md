@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 5ebb756ba2f054c37d486d7f54a9f86cf8513328
+source-git-commit: e049ab7d27cf5eced12a43c3a2c08887a7c206ad
 workflow-type: tm+mt
-source-wordcount: '6537'
+source-wordcount: '6524'
 ht-degree: 5%
 
 ---
@@ -750,11 +750,11 @@ Per aggiungere immagini, PDF o video:
 
    Fare clic su **Salva e chiudi**.
 
-#### Aggiungere un widget video a un modulo personalizzato dall’area Documenti{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
+#### Aggiungere un’immagine o un video a un modulo personalizzato dall’area Documenti{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
 
 >[!IMPORTANT]
 >
->Quando si aggiunge un video a un modulo personalizzato in questo modo, al video vengono applicate solo le autorizzazioni impostate per il modulo personalizzato quando gli utenti accedono al modulo su un oggetto, non le autorizzazioni impostate per il video nell&#39;area Documenti.
+>Quando si aggiunge un video a un modulo personalizzato in questo modo, le autorizzazioni impostate nell&#39;area Documenti vengono applicate al video quando gli utenti accedono al modulo su un oggetto.
 
 1. Vai al video nell&#39;area Documenti e genera una bozza per esso, come descritto in [Crea una bozza interattiva per un sito Web o altro contenuto Web](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md).
 1. Apri la bozza.
