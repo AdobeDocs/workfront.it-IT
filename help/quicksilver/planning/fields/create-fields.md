@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: ab78b82db567193f32f6c67880b2b037dc78e849
+source-git-commit: b89f4aa6f779e09d6749e59bdf3d54f0dd9bbf03
 workflow-type: tm+mt
-source-wordcount: '4287'
+source-wordcount: '4370'
 ht-degree: 1%
 
 ---
@@ -210,7 +210,12 @@ OLD:
    Passa il puntatore del mouse sull&#39;intestazione di una colonna, fai clic sulla freccia rivolta verso il basso dopo il nome del campo, quindi fai clic su **Inserisci a sinistra** o **Inserisci a destra** per aggiungere il nuovo campo.
 1. Nella scheda **Nuovo campo**, cercare un tipo di campo nella casella **Tipo di campo** oppure selezionare uno dei tipi di campo seguenti:
 
-   Nella scheda **Nuovo campo**, cercare un tipo di campo nella casella <!--using any related keyword--> del **Tipo di campo** oppure selezionare uno dei tipi di campo elencati di seguito.
+   Nella scheda **Nuovo campo**, cercare un tipo di campo nella casella **Tipo di campo** utilizzando una parola chiave correlata oppure selezionare uno dei tipi di campo elencati di seguito.
+
+   >[!TIP]
+   >
+   >    È possibile digitare &quot;Budget&quot; e i tipi di campo Numero e Valuta vengono visualizzati in un breve elenco.
+
 
 
    * [Testo a riga singola](#single-line-text)
@@ -299,15 +304,13 @@ I campi Paragrafo acquisiscono informazioni alfanumeriche aggiuntive su un recor
 1. (Facoltativo) Per rimuovere una scelta, fai clic sull&#39;icona **x** a destra di essa.
 1. Fate clic sul campione di colore a sinistra di una scelta per espandere il selettore di colore e personalizzare il colore di ciascuna opzione.
 
-   <!--
-    1. <span class="preview">Click **Swatches** to select a predefined color</span>
+1. <span class="preview">Fare clic su **Campioni** per selezionare un colore predefinito</span>
 
-        <span class="preview">Or</span>
+   <span class="preview">O</span>
 
-        <span class="preview">Click **Custom** to select a custom color using a color picker or a Hex code. 
-        </span>
-    1. <span class="preview:>Click outside the color box to close it. </span>     
-    -->
+   <span class="preview">Fare clic su **Personalizzato** per selezionare un colore personalizzato utilizzando un selettore di colori o un codice esadecimale.
+   </span>
+1. Fate clic all&#39;esterno della casella del colore per chiuderla.
 1. Fai clic su **Crea**.
 
    Il nuovo campo a selezione multipla viene aggiunto come colonna al tipo di record e i relativi valori possono essere associati ai record.
@@ -330,16 +333,13 @@ I campi a selezione singola acquisiscono informazioni aggiuntive in qualsiasi fo
 1. (Facoltativo) Trascinare manualmente ogni scelta nell&#39;ordine desiderato oppure selezionare l&#39;opzione **Ordina scelte dalla A alla Z** se si desidera che le scelte vengano elencate automaticamente in ordine alfabetico. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (Facoltativo) Per rimuovere una scelta, fai clic sull&#39;icona **x** a destra di essa.
 1. Fate clic sul campione di colore a sinistra di una scelta per espandere il selettore di colore e personalizzare il colore di ciascuna opzione.
+1. <span class="preview">Fare clic su **Campioni** per selezionare un colore predefinito</span>
 
-   <!--
-        1. <span class="preview">Click **Swatches** to select a predefined color</span>
+   <span class="preview">O</span>
 
-            <span class="preview">Or</span>
-
-            <span class="preview">Click **Custom** to select a custom color using a color picker or a Hex code. 
-            </span>
-        1. <span class="preview:>Click outside the color box to close it. </span>     
-        -->
+   <span class="preview">Fare clic su **Personalizzato** per selezionare un colore personalizzato utilizzando un selettore di colori o un codice esadecimale.
+   </span>
+1. Fate clic all&#39;esterno della casella del colore per chiuderla.
 1. Fai clic su **Crea**.
 
    Il nuovo campo a selezione singola viene aggiunto come colonna al tipo di record e i relativi valori possono essere associati ai record.

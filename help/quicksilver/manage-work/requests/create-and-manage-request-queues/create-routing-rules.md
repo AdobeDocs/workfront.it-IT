@@ -2,15 +2,15 @@
 product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Creare regole di instradamento
-description: Le regole di instradamento controllano le operazioni di Adobe Workfront con i problemi quando vengono inviati a una coda di richieste. Per ulteriori informazioni sulla creazione di code di richieste, vedere Creare una coda di richieste.
-author: Lisa
+description: Le regole di instradamento controllano le operazioni di Adobe Workfront con i problemi quando vengono inviati a una coda di richieste.
+author: Alina
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 8ec279ece400c10a37e67664b77b1e0df6639724
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '504'
 ht-degree: 1%
 
 ---
@@ -27,73 +27,42 @@ Le regole di instradamento inviano i problemi a utenti o ruoli specifici in grad
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-<!--drafted - replace the table at P&P:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p> Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader"><p>piano Adobe Workfront</p></td> 
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td>
-    <p>Nuovo: Standard</p>
-    <p>oppure</p>
-    <p>Corrente: Piano</p></td> 
+   <td role="rowheader">Licenza Adobe Workfront*</td> 
+   <td> <p>Nuova licenza: Standard </p> 
+   Oppure
+   <p>Licenza corrente: Piano </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td>
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Modifica accesso ai progetti</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p> Gestire le autorizzazioni per il progetto</p> </td>
+   <td> <p> Gestire le autorizzazioni per il progetto</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Creare una regola di instradamento
 
-1. Passare al progetto in cui si desidera aggiungere le regole di instradamento per le richieste.
+1. Passare al progetto in cui si desidera aggiungere regole di instradamento per le richieste.
 1. Fai clic su **Regole di indirizzamento** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro**, quindi su **Regole di routing**.
-1. Fare clic su **Nuova regola di routing** per aggiungere la nuova regola.
+1. Fare clic su **Nuova regola di routing** per aggiungere la nuova regola. Viene visualizzata la casella **Nuova regola di routing**.
+
+   ![Casella Nuova regola di routing](assets/new-routing-rule-box.png)
 1. Inserire le seguenti informazioni per la Regola di instradamento:
 
    <table style="table-layout:auto"> 
@@ -136,8 +105,6 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    >*Se un utente, una mansione o un team viene disattivato dopo essere stato associato a una regola di instradamento, le richieste continuano a essere instradate a loro. È necessario eseguire periodicamente un inventario di tutte le regole di instradamento e sostituire le assegnazioni disattivate con quelle attive.
 
    Quando si indirizza un problema a un progetto, gli utenti con autorizzazioni per il problema ricevono le autorizzazioni impostate per tale progetto. Per informazioni sull&#39;impostazione delle autorizzazioni per i progetti, vedere [Condividere un progetto in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
-
-   ![Casella Nuova regola di routing](assets/new-routing-rule-box.png)
 
 1. Fai clic su **Salva**.
 

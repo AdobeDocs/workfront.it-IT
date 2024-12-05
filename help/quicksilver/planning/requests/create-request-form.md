@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
+source-git-commit: b89f4aa6f779e09d6749e59bdf3d54f0dd9bbf03
 workflow-type: tm+mt
 source-wordcount: '1397'
 ht-degree: 2%
@@ -131,7 +131,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
-1. Fai clic su **Crea**. Viene aperto il modulo di richiesta per il tipo di record selezionato.
+1. Fai clic su **Crea**. Il modulo di richiesta per il tipo di record selezionato apre <!--<span class="preview"> in the Form tab</span>; add screen shot below with Configuration tab.-->.
 
    ![](assets/campaigns-request-form-edit-mode.png)
 
@@ -156,7 +156,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >    * <span class="preview">Persone </span>
    >    * <span class="preview">Campi connessi di oggetti Workfront</span>
    >    * <span class="preview">Campi connessi ad AEM Assets </span>
-
 
 
    * **Sezione predefinita**: questa è l&#39;interruzione di sezione predefinita che Workfront applica al modulo di richiesta. Impossibile rinominare o rimuovere la sezione predefinita.
@@ -190,6 +189,16 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    Per ulteriori informazioni sulla creazione di un modulo personalizzato, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. (Facoltativo) Fare clic su **Anteprima** per visualizzare la modalità di visualizzazione del modulo per gli altri utenti che lo utilizzeranno per inviare un nuovo record.
+
+   <!--
+   <div class="preview">
+   1. (Optional) Click the **Configuration** tab, then add at least one user to the **Approvers** field to approve new requests for this record form. 
+      When you associate a request form with approvers, any new request must first be approved by all approvers before it generates a new record. 
+      You can add one or several approvers to a request form. If at least one approver rejects the request, the request is rejected and the record is not created.
+   For more information about adding approvals to request forms, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
+   </div>
+   -->
+
 1. (Facoltativo) Fai clic sul menu **Altro** ![](assets/more-menu.png) a destra del nome del modulo nell&#39;intestazione, quindi fai clic su **Modifica** per aggiornare il nome del modulo.
 1. Fai clic su **Publish** per pubblicare il modulo e ottenere un collegamento univoco.
 
