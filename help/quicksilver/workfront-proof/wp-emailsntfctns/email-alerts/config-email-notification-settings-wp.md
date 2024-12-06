@@ -7,9 +7,9 @@ description: Le notifiche e-mail generate da Workfront Proof informano i collabo
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 12f1443d69bb9306af29e4ab295f701089cdfb88
 workflow-type: tm+mt
-source-wordcount: '2049'
+source-wordcount: '2063'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <!--For information about proof settings the [!DNL Workfront] administrator or [!DNL Workfront Proof] administrator can configure, see .-->
 
-1. Fare clic su **[!UICONTROL Impostazioni]** > **[!UICONTROL Impostazioni personali]**.
+1. Fai clic sull&#39;immagine del tuo profilo in alto a destra, quindi fai clic su **[!UICONTROL Impostazioni personali]**.
 
 1. Fare clic sulla scheda **[!UICONTROL Impostazioni predefinite bozza]**.
 1. Fare clic su **[!UICONTROL Impostazioni notifiche e-mail predefinite]** per espanderle.
@@ -163,7 +163,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 Se sei un amministratore di [!DNL Workfront Proof], puoi impostare le impostazioni predefinite della bozza per gli utenti nel tuo account.
 
-1. Fare clic su **[!UICONTROL Impostazioni]** > **[!UICONTROL Impostazioni account]**.
+1. Fai clic su **[!UICONTROL Impostazioni account]** nella parte superiore della schermata.
 
 1. Apri la scheda **[!UICONTROL Utenti]**.
 1. Apri il menu **[!UICONTROL Altro]** ![Altro_button_small.png](assets/more-button-small.png) a destra del nome dell&#39;utente.

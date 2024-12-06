@@ -6,10 +6,10 @@ description: Home ti aiuta a gestire il tuo lavoro. Puoi personalizzare questo s
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
+source-git-commit: 1347911f2d0c03874c759f02b207e3fa93ca5bb4
 workflow-type: tm+mt
-source-wordcount: '1190'
-ht-degree: 3%
+source-wordcount: '1015'
+ht-degree: 4%
 
 ---
 
@@ -148,32 +148,6 @@ Per impostazione predefinita, la home page è compilata con alcuni widget specif
    Viene visualizzato il pannello Personalizza.
 
 1. Nella sezione **Sfondo** del pannello **Personalizza**, fai clic sul colore che desideri selezionare per lo sfondo della Home. Puoi anche fare clic su **Nessuno** per rimuovere lo sfondo.
-
-## Ripristina l’esperienza Home corrente
-
-Se preferisci l’esperienza Home esistente, puoi disattivare la nuova esperienza Home.
-
-Per tornare all’esperienza Home corrente:
-
-1. Passare alla home page eseguendo una delle operazioni seguenti:
-
-   * Se Home è impostata come pagina di destinazione, fai clic sull&#39;icona **Adobe Workfront** ![Icona Adobe Workfront](assets/home-icon-30x29.png) nell&#39;angolo superiore sinistro dello schermo.
-   * Fai clic sull&#39;icona **Main Menu** nell&#39;angolo superiore destro dello schermo oppure sull&#39;icona **Main Menu** ![Main Menu Icon](assets/main-menu-icon.png) nell&#39;angolo superiore sinistro, se disponibile, quindi fai clic su **Home**.
-
-1. Fai clic sul pulsante **Torna alla Home** nell&#39;angolo inferiore destro della pagina.
-
-   ![Torna al pulsante Home corrente](assets/customize-button.png)
-
-   Viene visualizzata una finestra di conferma.
-
-1. Fai un breve sondaggio sulla tua esperienza con la nuova Home oppure fai clic su **Torna alla Home corrente** per ripristinare l&#39;esperienza Home corrente.
-
->[!NOTE]
->
-> Gli amministratori di sistema possono disattivare la nuova Home come impostazione predefinita per i loro utenti. Per informazioni sulla modifica dell&#39;esperienza Home predefinita per gli utenti di un sistema, vedere [Configurare le preferenze di sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
-
-
-
 
 
 
