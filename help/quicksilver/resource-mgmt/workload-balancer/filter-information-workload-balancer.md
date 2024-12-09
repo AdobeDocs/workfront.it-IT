@@ -6,9 +6,9 @@ description: Per trovare in modo efficiente gli elementi di lavoro e concentrars
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: fcc4a105f0f49c34fea4bc11f4bf2c6f54cd7769
 workflow-type: tm+mt
-source-wordcount: '2467'
+source-wordcount: '2458'
 ht-degree: 0%
 
 ---
@@ -179,8 +179,6 @@ Puoi creare un filtro da zero o modificare uno dei filtri predefiniti. Per infor
 
 1. Fare clic su **Nuovo filtro.**
 
-   ![](assets/new-filters-empty-panel-workload-balancer-350x460.png)
-
 1. Per creare un filtro, eseguire le operazioni seguenti:
 
    1. Selezionare un nome di campo nel primo menu a discesa o fare clic su **Sfoglia campi** per iniziare a digitare il nome di un campo che non viene visualizzato per impostazione predefinita.
@@ -198,7 +196,7 @@ Puoi creare un filtro da zero o modificare uno dei filtri predefiniti. Per infor
       >Puoi selezionare un campo dalle sezioni seguenti:
       >
       >* **Selezioni recenti**: i campi filtrati di recente.
-      >* **Campi consigliati**: i campi più comunemente utilizzati.
+      >* **Suggerito**: i campi più comunemente utilizzati.
 
 
    1. Selezionare un modificatore dal secondo menu a discesa. Per informazioni sui modificatori di filtri di Workfront, vedere [Filtri e modificatori di condizioni](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
@@ -206,13 +204,13 @@ Puoi creare un filtro da zero o modificare uno dei filtri predefiniti. Per infor
 
       >[!NOTE]
       >
-      > Quando si desidera visualizzare gli oggetti di lavoro di un portfolio specifico, è possibile applicare il seguente filtro: &quot;Il nome del Portfolio contiene marketing&quot;. In questo modo vengono visualizzati gli elementi di lavoro che appartengono a qualsiasi portfolio che contiene il nome &quot;marketing&quot;.
+      > Quando si desidera visualizzare gli oggetti di lavoro di un portfolio specifico, è possibile applicare il seguente filtro: &quot;ID Portfolio uguale a &lt; nome del portfolio >&quot;.
       >
       >![](assets/portfolio-name-filter-statement-wb-350x262.png)
-
-      >[!NOTE]
       >
       >Per escludere i progetti con lo stato In sospeso, è necessario applicare il seguente filtro: &quot;Progetto: lo stato non è uguale a In sospeso&quot;. Questo impedisce la visualizzazione degli elementi di lavoro dei progetti in sospeso nel Bilanciatore dei carichi di lavoro.
+      >
+      >![](assets/project-status-filter-statement-wb.png)
 
    1. (Facoltativo) Fai clic sull&#39;icona **Elimina** ![](assets/delete.png) per rimuovere un criterio di filtro.
 
@@ -240,8 +238,8 @@ Puoi creare un filtro da zero o modificare uno dei filtri predefiniti. Per infor
    >
    >Facendo clic su **Annulla** in qualsiasi momento, si ritorna all&#39;area di creazione del filtro.
 
-1. Selezionare **Filtro senza titolo** e immettere il nome del nuovo filtro.
-1. Selezionare un&#39;icona per il nuovo filtro dal menu a discesa **Icon**.
+1. Fare clic nel campo **Filtro senza titolo** e immettere il nome del nuovo filtro.
+1. (Facoltativo) Seleziona un&#39;icona per il nuovo filtro dal menu a discesa **Icon**.
 
    ![](assets/new-filters-select-icon-expanded-drop-down-wb.png)
 

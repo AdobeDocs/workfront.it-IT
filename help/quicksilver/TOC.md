@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 7bb56395151d88595d446703d5d689c03b1e0372
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '14673'
+source-wordcount: '14681'
 ht-degree: 2%
 
 ---
@@ -2138,6 +2138,7 @@ ht-degree: 2%
       * [Richieste Adobe Workfront Planning: indice articolo](planning/requests/requests-article-index.md)
       * [Creazione e gestione di un modulo di richiesta in Adobe Workfront Planning](planning/requests/create-request-form.md)
       * [Inviare richieste di Adobe Workfront Planning per creare record](planning/requests/submit-requests.md)
+      * [Annullare la pubblicazione di un modulo di richiesta in Adobe Workfront Planning](planning/requests/unpublish-request-form.md)
    * Visualizzazioni di Adobe Workfront Planning {#adobe-workfront-planning-views}
       * [Visualizzazioni: indice articolo](planning/views/views-information.md)
       * [Gestire le visualizzazioni record](planning/views/manage-record-views.md)

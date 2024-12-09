@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: '1791'
 ht-degree: 1%
 
 ---
@@ -76,14 +76,6 @@ Di seguito sono riportati due scenari che esistono durante il calcolo della dura
 >[!NOTE]
 >
 >Se si tiene conto del tempo libero dell&#39;assegnatario principale in un progetto, le date pianificate dell&#39;attività potrebbero essere modificate, ma la durata dell&#39;attività rimane invariata. Per informazioni su come tenere conto del tempo libero dell&#39;assegnatario principale durante la pianificazione di un progetto, vedere [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
-
-## Durata originale di un&#39;attività padre
-
-La durata originale di un&#39;attività è la durata che un&#39;attività aveva prima di diventare un&#39;attività padre, espressa in minuti.
-
-Quando un&#39;attività diventa padre, la durata tra la data di inizio pianificata del primo figlio e la data di completamento pianificata dell&#39;ultimo figlio viene aggregata all&#39;attività padre e diventa la durata dell&#39;attività padre. Questo sostituisce la Durata dell&#39;attività originale.
-
-Per ulteriori informazioni, vedere [Panoramica sulla durata originale dell&#39;attività e sulle ore pianificate originali](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md).
 
 ## Unità di tempo per la durata dell&#39;attività
 
@@ -181,6 +173,27 @@ Il Tipo di Durata consente di rispondere alle seguenti domande:
 ## Tipo di durata delle nuove attività
 
 Il Tipo di Durata di una nuova attività corrisponde al Tipo di Durata impostato nel sistema. Il tipo di durata predefinito è Assegnazione calcolata. L’amministratore di Workfront o un amministratore gruppo può aggiornare il Tipo di durata predefinito per il sistema o per il gruppo associato al progetto. Per informazioni, consulta [Configurare le preferenze per attività e problemi a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+
+## Durata originale di un&#39;attività padre
+
+La durata originale di un&#39;attività è la durata che un&#39;attività aveva prima di diventare un&#39;attività padre, espressa in minuti.
+
+Quando un&#39;attività diventa padre, la durata tra la data di inizio pianificata del primo figlio e la data di completamento pianificata dell&#39;ultimo figlio viene aggregata all&#39;attività padre e diventa la durata dell&#39;attività padre. Questo sostituisce la Durata dell&#39;attività originale.
+
+Quando i figli utilizzano l&#39;unità di durata Giorni trascorsi e il padre utilizza l&#39;unità di durata Giorni, potrebbero verificarsi discrepanze nel modo in cui Workfront calcola la durata dell&#39;attività padre.
+
+Considera quanto segue:
+
+* L&#39;unità di durata Giorni trascorsi rappresenta i giorni di calendario, che sono sempre costituiti da 24 ore al giorno.
+* L&#39;unità di durata Giorni rappresenta il giorno lavorativo definito nel sistema ed è configurabile. Nella maggior parte dei casi, è costituito da 8 ore al giorno.
+* La formula per calcolare la durata dell&#39;attività padre è la seguente:
+
+  `Parent task duration = Planned Completion Date of the child task that is planned to end the latest - Planned Start Date of the child task that starts the earliest`
+
+* Quando si calcola la durata dell&#39;attività padre, il sistema calcola innanzitutto la durata in base alla formula precedente e quindi applica la pianificazione.
+
+
+Per ulteriori informazioni, vedere [Panoramica sulla durata originale dell&#39;attività e sulle ore pianificate originali](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md).
 
 ## Modificare il tipo di durata di un&#39;attività
 

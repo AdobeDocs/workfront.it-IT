@@ -6,16 +6,16 @@ description: Un predecessore di Progetto Incrociato è un'attività da cui dipen
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
 
 # Creare predecessori per più progetti
 
-<!--Audited: 12/2023-->
+<!--Audited: 12/2024-->
 
 Un predecessore di un progetto incrociato è un&#39;attività da cui dipende un&#39;altra attività (denominata attività successore) in un altro progetto. Il predecessore è l&#39;attività che ha la priorità rispetto all&#39;attività dipendente (successore). Ad esempio, è possibile creare una relazione che richiede che l&#39;attività predecessore sia contrassegnata come Completa prima che l&#39;attività dipendente possa iniziare.
 
@@ -72,12 +72,18 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 ## Creare un predecessore per più progetti
 
 1. Vai all’attività che sarà il tuo successore (attività dipendente).
-1. Fai clic su **Predecessori** nel pannello a sinistra.
+1. Fai clic su **Predecessori** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro** e quindi su **Predecessori**.
+
+   >[!TIP]
+   >
+   >   L&#39;amministratore del Workfront o del gruppo ha potuto rimuovere la sezione **Predecessori** o altre sezioni dal pannello a sinistra.
+
 1. Fai clic su **Aggiungi predecessore.**
 1. Nel campo **Progetto padre**, iniziare a digitare il nome del progetto che contiene l&#39;attività che si desidera sia il predecessore dell&#39;attività corrente.
 1. Fare clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
 1. Nel campo **Attività**, inizia a digitare il nome dell&#39;attività che desideri predecessore dell&#39;attività corrente.
 1. Specificare le informazioni seguenti per definire la relazione tra il predecessore e l&#39;attività dipendente:
+
 
    * **Tipo di dipendenza:** Selezionare la relazione che si desidera che l&#39;attività predecessore abbia con l&#39;attività dipendente. La relazione predefinita è &quot;Finish-Start&quot;, ovvero l&#39;attività predecessore deve terminare prima che l&#39;attività dipendente possa iniziare. Per ulteriori informazioni sui vari tipi di relazione, vedere [Panoramica sui tipi di relazione tra attività](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 

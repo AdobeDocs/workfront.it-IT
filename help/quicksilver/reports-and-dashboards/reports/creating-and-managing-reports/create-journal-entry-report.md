@@ -1,13 +1,13 @@
 ---
-title: Rapporto sulla sezione Aggiornamenti
+title: Rapporto sull’area Aggiornamenti
 description: Il rapporto Voce diario evidenzia gli aggiornamenti di sistema dall’area Aggiornamenti di progetti, attività, problemi e altri oggetti precedentemente disponibili solo tramite l’API Adobe Workfront. Anche se si tratta di un rapporto avanzato destinato a casi d’uso specifici, il formato più digeribile consente di creare un rapporto più semplice sull’attività del progetto e sugli aggiornamenti del sistema in Workfront.
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '2734'
+source-wordcount: '2757'
 ht-degree: 4%
 
 ---
@@ -339,7 +339,7 @@ Per vedere quando un&#39;attività o un problema è stato eliminato:
 1. Nella scheda **Filtri**, fai clic su **Aggiungi regola filtro**, quindi aggiungi i seguenti filtri:
 
    * **Cambia tipo** > **Uguale** > **Elimina**
-   * **ID progetto** > **Uguale** > **`<project>`**
+   * **ID progetto** > **Uguale** > **&lt; nome progetto >**
 
      <!--WRITER check link; this png file has spaces
      [![](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
@@ -383,7 +383,7 @@ Per vedere come sono cambiati i campi personalizzati nel corso del ciclo di vita
 
    Il generatore di report viene caricato.
 
-1. Nella scheda **Colonne (visualizzazione)**, aggiungi le colonne seguenti:
+1. Nella scheda **Colonne (Visualizzazione)**, accertati di avere o fai clic su **Aggiungi colonna** per aggiungere le colonne seguenti:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -440,15 +440,15 @@ Per vedere come sono cambiati i campi personalizzati nel corso del ciclo di vita
 
    Per ulteriori informazioni sull&#39;aggiunta di colonne, vedere [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Nella scheda **Filtri**, fai clic su **Aggiungi regola filtro**, quindi aggiungi i seguenti filtri:
+1. Nella scheda **Filtri**, fai clic su **Aggiungi una regola di filtro**, quindi aggiungi i seguenti filtri:
 
    * **Nome campo voce diario** > **Contiene** > **DE**
 
      >[!TIP]
      >
-     >Per limitare il report a campi personalizzati specifici, aggiungere la regola di filtro **Nome campo voce diario** > **Uguale** > **`<custom field>`**.
+     >Per limitare il report a campi personalizzati specifici, aggiungere la regola di filtro **Nome campo voce diario** > **Uguale** > **&lt; nome campo personalizzato>**.
 
-   * **ID progetto** > **Uguale** > **`<project>`**
+   * **ID progetto** > **Uguale** > **&lt; progetto >**.
 
    ![](assets/qs-custom-form-changes-filter-350x92.png)
 
@@ -549,7 +549,7 @@ Per vedere come sono cambiati i campi personalizzati nel corso del ciclo di vita
 1. Nella scheda **Filtri**, fai clic su **Aggiungi regola filtro**, quindi aggiungi quanto segue:
 
    * **Nome Campo** > **Uguale** > **Data**
-   * **ID progetto** > **Uguale** > **`<project>`**
+   * **ID progetto** > **Uguale** > **&lt; nome progetto >**.
 
    ![](assets/qs-planned-completion-date-change-filter-350x91.png)
 
@@ -638,7 +638,7 @@ Per vedere come sono cambiati i campi personalizzati nel corso del ciclo di vita
 1. Nella scheda **Filtri**, fai clic su **Aggiungi regola filtro**, quindi aggiungi quanto segue:
 
    * **Nome campo** > **Uguale** > **ownerID**
-   * **ID progetto** > **Uguale** > **`<project name>`**
+   * **ID progetto** > **Uguale** > **&lt; nome progetto >**.
 
    ![](assets/qs-owner-changes-filter-350x94.png)
 
@@ -662,4 +662,4 @@ Per vedere come sono cambiati i campi personalizzati nel corso del ciclo di vita
 
 1. Fai clic su **Salva e Chiudi**.
 
-   Il nuovo rapporto viene caricato.
+   Viene visualizzato il nuovo rapporto sulle scritture contabili.
