@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: d9bfe029f99bf4c205686dc7a30598f046977afd
+source-git-commit: 9f77afbb10d51a1bc0d770862a21e158b645da36
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1381'
 ht-degree: 3%
 
 ---
@@ -38,7 +38,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
 
 <table>
 <col style="width: 20%;" />
-<col style="width: 50%;" />
+<col style="width: 75%;" />
 <tbody>
     <tr>
     <td>Area</td>
@@ -247,7 +247,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
 
 
 <table>
-<col style="width: 50%;" />
+<col style="width: 75%;" />
 <tbody>
     <tr>
         <td>
@@ -263,7 +263,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             Preferenza per l'utilizzo della pianificazione del progetto o dell'utente per le attività a assegnazione singola</a></p>
             <p>In qualità di amministratore di sistema o di gruppo, è ora disponibile una nuova preferenza per indicare se Workfront deve utilizzare la pianificazione del progetto o quella dell'utente per calcolare la sequenza temporale del progetto quando si assegna un utente a un'attività e sia il progetto che l'utente sono associati a una pianificazione.</p>
         </td>
-        <td><p>16 novembre 2024</p> <p>[!BADGE Nuovo nell'anteprima ]{type=Negative}<p></td>
+        <td><p>16 novembre 2024</p> <p>[!BADGE New]{type=Negative}<p></td>
         <td>Dic 2024</td>
         <td>25,1</td>
     </tr>     
@@ -284,8 +284,8 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <p>Quando un modulo personalizzato contiene più sezioni con molti campi, può essere difficile spostare un campo da una sezione all’altra trascinandolo. A ciascun campo è stata aggiunta l’icona "sposta in", che consente di selezionare la sezione in cui inserire il campo.</p>
         </td>
         <td>29 ottobre</td>
-          <td><p>Dicembre 2024</p><p> [!BADGE In produzione per rilascio rapido ]{type=Positive}</p></td>
-        <td>25,1<p> [!BADGE In produzione]{type=Positive}</p></td>
+          <td><p>Dicembre 2024</p><p> [!BADGE Production ]{type=Positive}</p></td>
+        <td>25,1<p> [!BADGE Production]{type=Positive}</p></td>
     </tr>
 </tbody>
 </table>
