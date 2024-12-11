@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 0%
@@ -227,6 +227,6 @@ Quando si lavora con i filtri nella vista calendario, considera quanto segue:
 
 ### Modificare le impostazioni della vista calendario
 
-La modifica delle impostazioni della vista calendario è identica alla modifica delle impostazioni di una vista timeline.
+La modifica delle impostazioni della vista calendario è simile alla modifica delle impostazioni di una vista timeline.
 
 Per ulteriori informazioni, vedere la sezione &quot;Modificare le impostazioni della visualizzazione della sequenza temporale&quot; nell&#39;articolo [Gestire la visualizzazione della sequenza temporale](/help/quicksilver/planning/views/manage-the-timeline-view.md).

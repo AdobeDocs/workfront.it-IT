@@ -6,9 +6,9 @@ description: In qualità di amministratore di Adobe Workfront, puoi concedere ag
 author: Alina
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '584'
 ht-degree: 2%
 
 ---
@@ -60,6 +60,8 @@ Le autorizzazioni sono specifiche per un elemento in Workfront e definiscono qua
   Per informazioni sulla gestione dell&#39;accesso alle attività modello e sui problemi relativi al progetto in base alle autorizzazioni di un utente per il progetto, vedere la sezione [Accesso](../../manage-work/projects/create-and-manage-templates/edit-templates.md#access) nell&#39;articolo [Modifica modelli di progetto](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 * L&#39;amministratore di Workfront può specificare se i documenti devono ereditare le autorizzazioni da oggetti di livello superiore nel livello di accesso dell&#39;utente. Per ulteriori informazioni sulla limitazione delle autorizzazioni ereditate sui documenti, vedere [Creare o modificare livelli di accesso personalizzati](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
+* Non è possibile condividere le attività modello singolarmente. La condivisione di un modello consente di condividere anche le attività del modello. La condivisione del progetto dal modello consente di condividere anche le attività future del progetto.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

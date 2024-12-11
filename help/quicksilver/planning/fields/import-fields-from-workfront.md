@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
+exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 7%
+source-wordcount: '760'
+ht-degree: 6%
 
 ---
-
 
 <!--add to TOC-->
 
@@ -180,3 +180,8 @@ Tutti gli altri tipi di campo di Workfront non sono supportati in Workfront Plan
 1. Fai clic su **+**, quindi su **Aggiungi campi**.
 I campi vengono aggiunti alla vista tabella e alle pagine dei dettagli dei record.
 
+   >[!IMPORTANT]
+   >
+   >    È previsto un limite di 500 campi per qualsiasi tipo di record. I campi esistenti e i campi importati contribuiscono a questo limite.
+
+   I campi aggiunti sono copie dei campi Workfront e non si connettono più ai campi originali in Workfront.

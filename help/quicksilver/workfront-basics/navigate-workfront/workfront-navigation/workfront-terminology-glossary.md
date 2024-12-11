@@ -6,9 +6,9 @@ description: Il  [!DNL Adobe Workfront] glossario elenca i termini comunemente u
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '20875'
+source-wordcount: '20930'
 ht-degree: 0%
 
 ---
@@ -812,7 +812,15 @@ La tabella seguente è un elenco dei termini comunemente utilizzati in Adobe Wor
   <tr> 
    <td>[!UICONTROL versione documento]</td> 
    <td> <p>Ogni volta che lo stesso documento viene caricato nello stesso oggetto, gli viene assegnato un numero di versione. Gli utenti possono visualizzare e modificare diverse opzioni per una versione precedente di un documento.</p> <p>Per ulteriori informazioni, vedere <a href="../../../documents/managing-documents/manage-document-versions.md" class="MCXref xref">Gestione versioni documento</a>.</p> </td> 
-  </tr> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Scadenza]</td> 
+   <td> <p>La data in cui un’attività o un problema deve essere completato. La data di scadenza di un'attività o di un problema corrisponde alla data di completamento pianificata.</p>
+    <p>La data di scadenza dell’attività e del problema è visibile negli elenchi e nei rapporti delle attività e dei problemi.</p> 
+    <p>Vedi anche Data di completamento pianificata in questa tabella. 
+    </td> 
+  </tr>
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Duration]</td> 
    <td> <p>Intervallo di tempo allocato per il completamento di un problema o progetto di attività (come determinato dal numero di giorni tra l'inizio pianificato [!UICONTROL] e il completamento pianificato).</p> 
