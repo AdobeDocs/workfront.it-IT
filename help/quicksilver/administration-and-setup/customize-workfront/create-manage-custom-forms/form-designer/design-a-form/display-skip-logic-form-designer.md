@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1314'
 ht-degree: 0%
 
 ---
@@ -77,6 +77,7 @@ Seleziona un campo a cui è applicata la logica per visualizzare le regole di lo
 * Per aggiungere la logica di visualizzazione a un campo personalizzato, a un widget o a un&#39;interruzione di sezione, è necessario posizionare almeno un campo a scelta multipla (pulsanti di scelta, elenco a discesa o caselle di controllo) prima di inserirlo nel modulo.
 Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * Non è possibile aggiungere logica di salto a un widget o a un’interruzione di sezione. È possibile aggiungerlo solo a un campo a scelta multipla (pulsanti di scelta, menu a discesa o caselle di controllo).
+* Non è possibile applicare la logica di visualizzazione o di salto per le opzioni di un campo con più opzioni. Ad esempio, non è possibile limitare la visualizzazione delle opzioni di un campo a discesa, di un gruppo di caselle di controllo o di un campo Pulsante di opzione in base alla logica di visualizzazione o di salto di un altro campo.
 * È possibile aggiungere logica di visualizzazione e logica di salto a un campo personalizzato se si verificano tutte le condizioni seguenti relative al campo personalizzato:
 
    * È un campo a scelta multipla (pulsanti di scelta, menu a discesa o caselle di controllo)

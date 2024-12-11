@@ -6,9 +6,9 @@ description: È possibile condividere o rimuovere le autorizzazioni per un ogget
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 05f8dc8770c185720520fc631e19c75b925a70bf
+source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1289'
 ht-degree: 1%
 
 ---
@@ -89,6 +89,13 @@ In Workfront è possibile condividere i seguenti oggetti con altri utenti:
   >
   >* [Condivisione di un piano nella Pianificazione scenario](../../scenario-planner/share-a-plan.md)
   >* [Condividi un obiettivo negli Obiettivi di Workfront](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
+
+* Workfront invia notifiche agli utenti quando condividi un oggetto con loro. Le notifiche vengono inviate quando entrambe queste impostazioni sono abilitate:
+
+   * Le notifiche e-mail di **Condivisione oggetto con utente** e di **Condivisione oggetto con team** sono abilitate nell&#39;area di configurazione da un amministratore di sistema o di gruppo. Per informazioni, vedere [Configurare le notifiche degli eventi per tutti gli utenti del sistema](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+   * **Qualcuno condivide un oggetto con me** e **Qualcuno condivide un oggetto con il mio team** le notifiche sono abilitate nella pagina del profilo dell&#39;utente. Per informazioni, consulta [Modificare le tue notifiche e-mail](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+
+  Prima di poter abilitare le impostazioni di notifica per l&#39;utente, è necessario attivare le impostazioni a livello di sistema o di gruppo.
 
 ## Limiti di condivisione
 
