@@ -3,12 +3,12 @@ title: Ricalcolare i dati finanziari del progetto
 product-area: projects
 navigation-topic: financials
 description: I dati finanziari vengono calcolati su un progetto in base alle modifiche apportate alle ore registrate per il progetto o ai tassi utilizzati per calcolare costi e ricavi.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 69afad9af3f1e703487fdab092bc84457ee00922
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,8 @@ Quando la frequenza di un utente o di un ruolo cambia durante la durata di un pr
 
 * Quando viene apportata la modifica, il tasso aggiornato viene utilizzato da quel momento in poi, man mano che vengono registrate le ore e vengono calcolate le informazioni finanziarie. La modifica della tariffa non influisce sul modo in cui le cose sono state calcolate prima della modifica. Per tutte le ore registrate esistenti, la tariffa precedente viene utilizzata per calcolare le informazioni finanziarie.
 * Puoi forzare Adobe Workfront a utilizzare la nuova tariffa retroattivamente per tutte le ore registrate finora, utilizzando l’opzione Ricalcola contabilità. Questo costringe Workfront a ricalcolare retroattivamente tutte le ore inserite in precedenza, i costi pianificati e i ricavi in base alle nuove informazioni sui tassi.
+
+Il tipo di report Project (Financial Data) non viene ricalcolato automaticamente prima del caricamento dei dati. Per aggiornare i dati in questo tipo di report, è necessario ricalcolare manualmente i dati finanziari per i singoli progetti.
 
 >[!CAUTION]
 >
