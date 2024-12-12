@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: Calcola costo rischio potenziale
 description: Il costo potenziale del rischio di un progetto tiene conto dei costi potenziali dei rischi del progetto e della loro probabilità di verificarsi.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: f4dc1950-efd8-4936-83fd-1280ee465923
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -28,8 +28,8 @@ Potential Risk Cost =SUM(Potential Risk Costs * Risk Probability)
 
 Quando si esamina il costo del rischio potenziale di un progetto, tenere presente quanto segue:
 
-* Il costo del rischio pianificato di un progetto è identico al costo del rischio potenziale. 
-* Il Costo Rischio Potenziale non viene incorporato nel Costo Pianificato di un progetto. Viene invece utilizzato per determinarne il valore netto. .
+* Il costo del rischio pianificato di un progetto è identico al costo del rischio potenziale.
+* Il Costo Rischio Potenziale non viene incorporato nel Costo Pianificato di un progetto. Viene invece utilizzato per determinarne il valore netto.
 
 ## Individuazione del costo rischio potenziale di un progetto
 

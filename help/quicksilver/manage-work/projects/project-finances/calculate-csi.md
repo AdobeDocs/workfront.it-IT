@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: Calcola indice prestazioni programma costi (CSI)
 description: Il CSI (Cost Schedule Performance Index) è un calcolo automatico che combina l'IPC (Cost Performance Index) e l'IPP (Schedule Performance Index) in un'unica metrica generale che bilancia i costi e la programmazione.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
-source-git-commit: 1cf679376517293f0e0f28b461bd9ecab9283035
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 0%

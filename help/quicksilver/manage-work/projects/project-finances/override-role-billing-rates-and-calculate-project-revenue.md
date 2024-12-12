@@ -3,10 +3,10 @@ product-area: projects
 navigation-topic: financials
 title: Panoramica sulla sostituzione delle tariffe di fatturazione dei ruoli e sul calcolo dei ricavi per un progetto
 description: È possibile utilizzare le tariffe di fatturazione per calcolare i ricavi sui progetti moltiplicandoli per le ore dedicate al progetto. Per ulteriori informazioni sulle tariffe di fatturazione e sui ricavi, consulta l’articolo Panoramica sulla fatturazione e sui ricavi.
-author: Alina, Lisa
+author: Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
-source-git-commit: 1517e3e28fe536a8a72d2802919c8b8819e9ea1a
+source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
 workflow-type: tm+mt
 source-wordcount: '3860'
 ht-degree: 0%

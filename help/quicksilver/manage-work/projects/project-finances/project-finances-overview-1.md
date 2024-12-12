@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: Campi finanziari progetto
 description: Per gestire i progetti è fondamentale tenere traccia delle finanze dei progetti.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: a5e69dea-d0aa-47cd-9b59-6199cec56fe4
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 2%
@@ -66,7 +66,7 @@ La tabella seguente mostra alcuni dei dati finanziari di cui è possibile tenere
    <td>✔</td> 
   </tr> 
   <tr> 
-   <td>Bdg</td> 
+   <td>Budget</td> 
    <td> <p>Per informazioni sulla definizione del budget di un progetto, vedere <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">Gestire le informazioni nell'area Finanza progetto</a>.</p> <p>Per informazioni sulla definizione del budget delle risorse per un progetto, vedere <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md" class="MCXref xref">Risorse budget nel caso aziendale</a>.</p> </td> 
    <td> </td> 
    <td>✔</td> 

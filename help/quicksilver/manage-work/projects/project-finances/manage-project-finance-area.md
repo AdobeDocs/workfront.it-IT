@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: financials
 title: Gestire le informazioni nell'area Finanza progetto
-description: Gestire le informazioni nell'area Finanza progetto
-author: Alina
+description: È possibile visualizzare o modificare le informazioni finanziarie di un progetto accedendo all'area Finanza della sezione Dettagli progetto.
+author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: 647788221b4acff1cfd5e0ce14d5b99cf90ceee0
+source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
 workflow-type: tm+mt
-source-wordcount: '1304'
+source-wordcount: '1285'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 2%
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
@@ -30,26 +32,30 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
-   <td> <p>Qualsiasi</p> </td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
+   <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Revisione o successiva</p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td>
+   <td>
+   <p>Nuovo: Chiaro o superiore</p>
+   <p>oppure</p>
+   <p>Corrente: revisione o versione successiva</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Visualizzare o accedere ai progetti e ai dati finanziari</p> <p>Modifica l'accesso a Progetti e Dati finanziari per modificare le informazioni finanziarie sul progetto</p> <p><b>NOTA</b></p>
-   <p> Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Visualizzare o accedere ai progetti e ai dati finanziari</p> <p>Modifica l'accesso a Progetti e Dati finanziari per modificare le informazioni finanziarie sul progetto</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizzare le autorizzazioni per un progetto o versione successiva che includono le autorizzazioni View Finance</p> <p>Consente di gestire le autorizzazioni per il progetto, tra cui Gestisci dati finanziari, per modificare le informazioni finanziarie per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Visualizzare le autorizzazioni per un progetto o versione successiva che includono le autorizzazioni View Finance</p> <p>Consente di gestire le autorizzazioni per il progetto, tra cui Gestisci dati finanziari, per modificare le informazioni finanziarie per il progetto</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Panoramica dell&#39;area Finanza
 
@@ -95,7 +101,7 @@ Quando si visualizzano o si modificano informazioni nell&#39;area Finanza, tener
       <td> Costo totale previsto del progetto, espresso in ore se il metodo di indicizzazione delle prestazioni (PIM) è basato sulle ore e rappresentato in un valore di valuta, se il metodo di indicizzazione delle prestazioni (PIM) è basato sui costi.<br>Per ulteriori informazioni sul calcolo della stima al completamento, vedere l'articolo <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">Calcola stima al completamento (EAC)</a></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Bdg</td> 
+      <td role="rowheader">Budget</td> 
       <td>Budget impostato per il progetto. Questo viene specificato manualmente dal proprietario del progetto.</td> 
      </tr> 
      <tr> 
@@ -186,7 +192,7 @@ Per modificare le informazioni nella scheda secondaria Dati finanziari progetto:
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Bdg</td> 
+      <td role="rowheader">Budget</td> 
       <td>Specifica il budget per questo progetto.</td> 
      </tr> 
      <tr> 

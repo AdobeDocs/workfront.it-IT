@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: Calcola valore netto
 description: Il valore netto di un progetto è il valore totale previsto del progetto dopo il calcolo del vantaggio e l'eliminazione dei costi.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 44e3f211-c816-4ee1-aafc-c40fc8732f1a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 1%
@@ -16,11 +16,11 @@ ht-degree: 1%
 
 # Calcola valore netto
 
-Il valore netto di un progetto è il valore totale previsto del progetto dopo il calcolo del vantaggio e l&#39;eliminazione dei costi. 
+Il valore netto di un progetto è il valore totale previsto del progetto dopo il calcolo del vantaggio e l&#39;eliminazione dei costi.
 
 ## Panoramica del progetto Valore netto
 
-Adobe Workfront calcola il valore netto di un progetto utilizzando la formula seguente: 
+Adobe Workfront calcola il valore netto di un progetto utilizzando la formula seguente:
 
 ```
 Project Net Value = Planned Benefit - Budgeted Cost - Potential Risk Cost

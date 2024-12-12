@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: financials
 title: Gestisci spese progetto
-description: Il processo di creazione e gestione delle spese è lo stesso sia per le spese relative al progetto che per quelle relative al task. Tutte le spese aggiunte al progetto nel Business Case vengono aggiunte alla scheda Spese come spese pianificate. Per ulteriori informazioni sul Business Case, vedere l'articolo Creare un Business Case per un progetto.
-author: Alina
+description: Il processo di creazione e gestione delle spese è lo stesso sia per le spese relative al progetto che per quelle relative al task. Tutte le spese aggiunte al progetto nel Business Case vengono aggiunte alla scheda Spese come spese pianificate. Per ulteriori informazioni sul caso di business, consulta l’articolo Creare un caso di business per un progetto.
+author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '542'
 ht-degree: 1%
 
 ---
@@ -21,6 +21,8 @@ L&#39;importo totale delle spese relative a tutte le attività e al progetto con
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
@@ -29,25 +31,29 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <tbody> 
   <tr> 
    <td role="rowheader">Piano Adobe Workfront*</td> 
-   <td> <p>Qualsiasi</p> </td> 
+   <td>Qualsiasi</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Lavoro o superiore </p> </td> 
+   <td>
+   <p>Nuovo: Standard</p>
+   <p>oppure</p>
+   <p>Corrente: Lavoro o versione successiva</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modifica accesso a progetti e dati finanziari</p> <p><b>NOTA</b> </p>
-   <p> Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td>Modifica accesso a progetti e dati finanziari</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Autorizzazioni Contribute o superiori per il progetto con autorizzazioni per visualizzare o gestire le finanze</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td>Autorizzazioni Contribute o superiori per il progetto con autorizzazioni per visualizzare o gestire le finanze</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Aggiungi spese
 
