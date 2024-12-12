@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
+source-git-commit: 75aaa531dba8037ed75c0d6baa6d7c69ec4cfefd
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '753'
 ht-degree: 2%
 
 ---
@@ -97,34 +97,38 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
       <td role="rowheader">Problemi</td> 
       <td><p>In un elenco di problemi, questa impostazione influisce sul pannello Riepilogo visualizzato sul lato destro della pagina quando un utente seleziona un problema, quindi fa clic sull'icona Apri riepilogo <img src="assets/summary-panel-icon.png">.</p> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">Progetti</td> 
-      <td><ul><li><p>In Home, quando un utente fa clic su un’approvazione del progetto ad esso assegnata, la configurazione di questa impostazione influisce sull’area a destra dell’approvazione.</p>
-      <p><b>IMPORTANTE:</b> </p><p>Questa è una funzione obsoleta. Qualsiasi modifica apportata a questa area è relativa a una funzione rimossa da Workfront. Questa opzione verrà rimossa da Workfront con un successivo aggiornamento di manutenzione.</p></li>
+    </tbody> 
+   </table>
+
+<!--These were removed with the new Home: 
+
+<tr> 
+      <td role="rowheader">Projects</td> 
+      <td><ul><li><p>In Home, when a user clicks a project approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><b>IMPORTANT:</b> </p><p>This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
       </ul> 
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Documenti</td> 
+      <td role="rowheader">Documents</td> 
       <td>
-     <ul><li><p>In Home, quando un utente fa clic su un’approvazione documento ad esso assegnata, la configurazione di questa impostazione influisce sull’area a destra dell’approvazione.</p>
-      <p><b>IMPORTANTE:</b> </p><p> Questa è una funzione obsoleta. Qualsiasi modifica apportata a questa area è relativa a una funzione rimossa da Workfront. Questa opzione verrà rimossa da Workfront con un successivo aggiornamento di manutenzione.</p></li>
+     <ul><li><p>In Home, when a user clicks a document approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><b>IMPORTANT:</b> </p><p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
       </ul>
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Versioni documento</td> 
-      <td><ul><li><p>In Home, quando un utente fa clic su un’approvazione ad esso assegnata per una particolare versione di un documento, la configurazione di questa impostazione influisce sull’area a destra dell’approvazione.</p>
-      <p><p><b>IMPORTANTE:</b></p> Questa è una funzione obsoleta. Qualsiasi modifica apportata a questa area è relativa a una funzione rimossa da Workfront. Questa opzione verrà rimossa da Workfront con un successivo aggiornamento di manutenzione.</p></li>
+      <td role="rowheader">Document Versions</td> 
+      <td><ul><li><p>In Home, when a user clicks an approval assigned to them for a particular version of a document, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><p><b>IMPORTANT:</b></p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
       </ul>
       </td> 
-     </tr> 
-    </tbody> 
-   </table>
+     </tr> -->
 
-   >[!IMPORTANT]
-   >
-   >Se un’attività viene revocata, l’utente assegnato al modello di layout non visualizzerà le personalizzazioni dei campi nel Riepilogo.
+
+>[!IMPORTANT]
+>
+>Se un’attività viene revocata, l’utente assegnato al modello di layout non visualizzerà le personalizzazioni dei campi nel Riepilogo.
 
 1. (Condizionale) Se nel passaggio precedente hai fatto clic su Attività o Problemi, seleziona la categoria di attività o problema che desideri personalizzare.
 
