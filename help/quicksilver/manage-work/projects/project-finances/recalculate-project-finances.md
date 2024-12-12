@@ -6,7 +6,7 @@ description: I dati finanziari vengono calcolati su un progetto in base alle mod
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: 69afad9af3f1e703487fdab092bc84457ee00922
+source-git-commit: 854844b0cb0207085a99403cf8b76573838feb41
 workflow-type: tm+mt
 source-wordcount: '1678'
 ht-degree: 0%
@@ -18,6 +18,8 @@ ht-degree: 0%
 I dati finanziari vengono calcolati su un progetto in base alle modifiche apportate alle ore registrate per il progetto o ai tassi utilizzati per calcolare costi e ricavi.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -44,6 +46,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 ## Considerazioni sul calcolo dei dati finanziari in Adobe Workfront
@@ -58,13 +64,11 @@ Quando la frequenza di un utente o di un ruolo cambia durante la durata di un pr
 * Quando viene apportata la modifica, il tasso aggiornato viene utilizzato da quel momento in poi, man mano che vengono registrate le ore e vengono calcolate le informazioni finanziarie. La modifica della tariffa non influisce sul modo in cui le cose sono state calcolate prima della modifica. Per tutte le ore registrate esistenti, la tariffa precedente viene utilizzata per calcolare le informazioni finanziarie.
 * Puoi forzare Adobe Workfront a utilizzare la nuova tariffa retroattivamente per tutte le ore registrate finora, utilizzando l’opzione Ricalcola contabilità. Questo costringe Workfront a ricalcolare retroattivamente tutte le ore inserite in precedenza, i costi pianificati e i ricavi in base alle nuove informazioni sui tassi.
 
-Il tipo di report Project (Financial Data) non viene ricalcolato automaticamente prima del caricamento dei dati. Per aggiornare i dati in questo tipo di report, è necessario ricalcolare manualmente i dati finanziari per i singoli progetti.
+Il tipo di report Project (Financial Data) non esegue automaticamente un ricalcolo dei dati finanziari. Per aggiornare i dati in questo tipo di report, è necessario ricalcolare manualmente i dati finanziari per i singoli progetti.
 
 >[!CAUTION]
 >
 >Prima di ricalcolare manualmente i dati finanziari per un determinato progetto, è possibile conservare i dati finanziari già calcolati a un tasso precedente. È consigliabile utilizzare l&#39;opzione Ricalcola dati finanziari solo se si è certi di non apportare modifiche alle informazioni esistenti o solo quando si desidera apportare tali modifiche.
->
->Si noti che l&#39;esecuzione di un report di progetti (dati finanziari) comporta il ricalcolo dei dati finanziari e pertanto è necessario effettuare le stesse considerazioni prima di eseguire il report.
 
 ## Mantieni dati finanziari per le attività con ore esistenti {#preserve-financial-data-for-tasks-with-existing-hours}
 
