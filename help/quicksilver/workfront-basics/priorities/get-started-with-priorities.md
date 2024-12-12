@@ -5,13 +5,13 @@ description: Priorities è un’esperienza semplice e intuitiva, personalizzata 
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 61f4fef12ec53b77feb4adba7b8e4561248be2fd
+exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
+source-git-commit: edc817b305622d704a1543b1e288731fc3bbff33
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '953'
 ht-degree: 3%
 
 ---
-
 
 # Introduzione a [!DNL Priorities]
 
@@ -91,7 +91,6 @@ Trova il tuo lavoro più importante con i filtri. Puoi filtrare le attività e i
 
 Dopo aver filtrato il lavoro, puoi raggruppare gli elementi in base a
 
-* Nessuno
 * Il mio focus
 * Settimana di scadenza
 * Stato
@@ -104,15 +103,16 @@ Per ulteriori informazioni, consulta [Filtrare e raggruppare il lavoro in Priori
 Il mio focus è una colonna nell’elenco di lavoro che ti aiuta a dare la priorità al tuo lavoro. Il valore Il mio focus è personale e non influisce sui dati del progetto, dell’attività o del problema. Puoi utilizzare i seguenti livelli di attivazione:
 
 * Urgente
-* Princp
-* Secondario
+* Alta
 * Normale (impostazione predefinita)
+* Basso
 
 Dopo aver assegnato i livelli di attivazione agli elementi di lavoro, è possibile ordinare la colonna in modo da far emergere gli elementi urgenti nella parte superiore dell&#39;elenco lavori.
 
 Per ulteriori informazioni, vedere [Assegnare la priorità agli elementi di lavoro importanti](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
 
 ![](assets/my-focus-column.png)
+<!-- new screen for prod ![](assets/worklist.png) -->
 
 ### Utilizza la visualizzazione Calendario [!BADGE Disponibile a breve]{type=Informative}
 
@@ -141,6 +141,7 @@ La sezione Aggiornamenti mostra gli aggiornamenti di sistema e fino a 200 degli 
 Per ulteriori informazioni, vedere [Aggiungere e visualizzare commenti in Priorità](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md).
 
 ![](assets/new-update.png)
+<!--new screen for prod ![](assets/update-log-upload.png)-->
 
 ### Registra ore
 
@@ -149,6 +150,7 @@ Per ulteriori informazioni, vedere [Aggiungere e visualizzare commenti in Priori
 Per ulteriori informazioni, consulta [Registra tempo in Priorità](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md).
 
 ![](assets/log-time.png)
+<!--new screen for prod ![](assets/update-log-upload.png)-->
 
 ### Carica file
 
@@ -162,6 +164,7 @@ Caricare i file direttamente nell’area Documenti dell’attività o del proble
 Per ulteriori informazioni, consulta [Caricare i file in Priorities](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md).
 
 ![](assets/upload-file.png)
+<!--new screen for prod ![](assets/update-log-upload.png)-->
 
 ### Visualizza documenti [!BADGE In arrivo]{type=Informative}
 
@@ -197,5 +200,3 @@ Utilizza la funzione [!DNL Catch me up] per vedere cosa ti sei perso. Il comando
 
 * Al momento gli amministratori di Workfront non possono personalizzare le priorità tramite il modello di layout.
 * L’accesso alle attività in Priorità è suddiviso tra schede. In futuro è prevista l’aggiunta di ulteriori schede, ad esempio Documenti, Sottoattività, Approvazioni e così via. Comunicaci che hai bisogno di questi elementi inviando un feedback utilizzando il pulsante **Invia feedback**.
-
-

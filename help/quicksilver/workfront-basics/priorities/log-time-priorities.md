@@ -5,13 +5,13 @@ description: È possibile registrare il tempo degli elementi di lavoro in Adobe 
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 410963f404aa496b2ac4aa43098917d03fc1ca75
+exl-id: 5457f516-c213-4b82-b033-bc8db943a217
+source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%
 
 ---
-
 
 # Tempo di connessione in Priorità
 
@@ -61,6 +61,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Passa il puntatore del mouse sul nome, quindi fai clic su **Registra ora**.
    ![](assets/log-time.png)
+   <!--new screen for prod ![](assets/update-log-upload.png)-->
 1. Nel menu a discesa **Tipo di ora**, seleziona il tipo di ora appropriato. I tipi di ore sono disponibili a seconda di ciò che è stato definito a livello di sistema, progetto e utente, come descritto in Definire i tipi di ore e la disponibilità.
 
 1. (Condizionale) Se l’amministratore del Workfront o del gruppo ha abilitato l’impostazione Assegna ruoli alle voci orarie manualmente, seleziona un ruolo dal menu a discesa. Il ruolo specificato quando si è assegnati all&#39;elemento di lavoro viene visualizzato per impostazione predefinita. Se all&#39;utente non è stato assegnato un ruolo sull&#39;oggetto, il Ruolo principale viene visualizzato come predefinito. Se non ti è stato assegnato un Ruolo principale, non viene visualizzato alcun Ruolo.
@@ -83,4 +84,3 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 1. Immetti l&#39;ora di registrazione, quindi fai clic su **Registra ora**.
 
    ![](assets/log-time-dialog.png)
-

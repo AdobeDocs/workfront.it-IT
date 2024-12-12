@@ -5,15 +5,17 @@ description: È possibile personalizzare le colonne dell’elenco lavori in Prio
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
+source-git-commit: abf502f2bbf48c0bd1cc5705d93d928342cd8a3b
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
 
-
 # Personalizzare le colonne dell’elenco di lavoro Priorità
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 È possibile personalizzare le colonne dell’elenco lavori in Priorità per supportare il modo in cui si lavora.
 
@@ -59,7 +61,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 +++
 
-## Attiva o disattiva colonne
+## Personalizzare le colonne dell’elenco delle priorità in Produzione
+
+### Attiva o disattiva colonne
 
 {{step1-to-priorities}}
 
@@ -67,7 +71,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    ![](assets/columns.png)
 1. Utilizzare gli interruttori per attivare o disattivare le colonne nell&#39;elenco lavori.
 
-## Riordinare le colonne
+### Riordinare le colonne
 
 {{step1-to-priorities}}
 
@@ -75,10 +79,37 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Fai clic sull&#39;icona **Trascina** e sposta la colonna nella posizione desiderata. Spostamento automatico degli aggiornamenti delle colonne nell&#39;elenco lavori.
    ![](assets/reorder-columns.png)
 
-## Reimposta larghezze colonne
+### Reimposta larghezze colonne
 
 {{step1-to-priorities}}
 
 1. Fai clic su **Colonne** sul lato destro dello schermo.
 1. Fai clic sull&#39;icona **Altro** ![](assets/more-icon.png) e scegli **Reimposta larghezza colonne**.
    ![](assets/columns.png)
+
+<div class="preview">
+
+## Personalizzare le colonne dell’elenco di lavoro Priorità in Anteprima
+
+### Attiva o disattiva colonne
+
+{{step1-to-priorities}}
+
+1. Fai clic su **Colonne** nella parte sinistra della schermata.
+   ![](assets/columns-new.png)
+1. Utilizzare gli interruttori per attivare o disattivare le colonne nell&#39;elenco lavori.
+
+### Riordinare le colonne
+
+{{step1-to-priorities}}
+
+1. Fai clic su **Colonne** nella parte sinistra della schermata.
+1. Fai clic sull&#39;icona **Trascina** e sposta la colonna nella posizione desiderata. Spostamento automatico degli aggiornamenti delle colonne nell&#39;elenco lavori.
+   ![](assets/reorder-columns-new.png)
+
+>[!NOTE]
+>
+>La colonna Nome è fissa e non può essere spostata.
+
+
+</div>

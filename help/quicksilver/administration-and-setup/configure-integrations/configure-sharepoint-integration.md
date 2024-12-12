@@ -1,5 +1,5 @@
 ---
-title: Configura l'integrazione  [!DNL SharePoint]
+title: 'Configura l''integrazione  [!DNL SharePoint] '
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 3c87c88245e79581c2a880c13038bcedb24caf4b
+source-git-commit: ad75f6e80d0681b5a769e2fd8fc68285597dbca0
 workflow-type: tm+mt
 source-wordcount: '1729'
 ht-degree: 0%
@@ -176,7 +176,7 @@ La riconfigurazione dell&#39;integrazione legacy di [!DNL SharePoint] consente a
 1. Fai clic su **[!UICONTROL Salva]**.
 1. Seleziona **[!UICONTROL Documenti]** nel menu di navigazione a sinistra, quindi seleziona **[!UICONTROL [!DNL SharePoint]Integrazione]**.
 1. Seleziona il segno di spunta a sinistra dell&#39;elenco per tutte le integrazioni esistenti, quindi seleziona **[!UICONTROL Disattiva]**.
-   ![](assets/disable-old-sharepoint.png)
+
 
 
 ### Configura il segreto client per l&#39;accesso continuo all&#39;integrazione legacy di [!DNL SharePoint]

@@ -5,13 +5,13 @@ description: È possibile aggiungere un aggiornamento a un'attività o a un prob
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: a7237746-0a18-408b-b932-8a608fd72eee
+source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%
 
 ---
-
 
 # Aggiungere e visualizzare commenti in Priorità
 
@@ -65,6 +65,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Individuare l&#39;elemento di lavoro da aggiornare.
 1. Passa il puntatore del mouse sul nome, quindi fai clic su **Aggiungi nuovo aggiornamento**.
    ![](assets/add-update.png)
+   <!--new screen for prod ![](assets/update-log-upload.png)-->
 1. Inizia a digitare il commento.
 1. (Facoltativo) Nella casella **Assegna tag a persone o team**, inizia a digitare il nome o l&#39;e-mail di un utente o di un team che desideri includere in questo commento, quindi selezionalo quando viene visualizzato nell&#39;elenco.
 1. (Facoltativo) Utilizza le opzioni nella barra degli strumenti Testo formattato per formattare il testo, aggiungere emoticon, collegamenti o immagini al commento, per migliorarne il contenuto.
