@@ -3,12 +3,12 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: security
 title: Limita l’accesso ad Adobe Workfront per indirizzo IP
-description: È possibile configurare un Adobe Workfront di di inserire nell'elenco Consentiti che limiti l’accesso a Workfront a 45 indirizzi IP o intervalli di indirizzi IP specificati. Questo fornisce un ulteriore livello di sicurezza per l’applicazione Workfront.
+description: È possibile configurare un Adobe Workfront di di inserire nell'elenco Consentiti che limiti l’accesso a Workfront a 75 indirizzi IP o intervalli di indirizzi IP specificati. Questo fornisce un ulteriore livello di sicurezza per l’applicazione Workfront.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aed65b42-d534-453a-885d-f922114987bc
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: 937965ad495453e185504d53f9d9c88c3cd7e201
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # Limita l’accesso ad Adobe Workfront per indirizzo IP
 
-È possibile configurare un Adobe Workfront di di inserire nell&#39;elenco Consentiti che limiti l’accesso a Workfront a 45 indirizzi IP o intervalli di indirizzi IP specificati. Questo fornisce un ulteriore livello di sicurezza per l’applicazione Workfront.
+È possibile configurare un Adobe Workfront di di inserire nell&#39;elenco Consentiti che limiti l’accesso a Workfront a 75 indirizzi IP o intervalli di indirizzi IP specificati. Questo fornisce un ulteriore livello di sicurezza per l’applicazione Workfront.
 
 Questi indirizzi IP o intervalli di indirizzi IP devono essere forniti dall&#39;amministratore di rete.
 
@@ -77,6 +77,6 @@ Dopo l&#39;aggiunta degli indirizzi IP al Workfront di di inserire nell&#39;elen
 1. Fare clic su **Aggiungi intervallo IP,** quindi specificare l&#39;indirizzo IP o l&#39;intervallo di indirizzi IP a cui si desidera accedere in Workfront.
 1. (Facoltativo) Ripeti il passaggio precedente per aggiungere altri indirizzi IP o intervalli di indirizzi IP.
 
-   Puoi aggiungere fino a 45 indirizzi o intervalli.
+   Puoi aggiungere fino a 75 indirizzi o intervalli.
 
 1. Fai clic su **Salva.**

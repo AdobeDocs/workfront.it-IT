@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 2b6f5243de9610947ab6836080379a2293f48a10
+source-git-commit: 937965ad495453e185504d53f9d9c88c3cd7e201
 workflow-type: tm+mt
 source-wordcount: '1643'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Se il firewall o il server di posta è configurato in modo da consentire l&#39;a
 Se l&#39;organizzazione dispone del piano Enterprise, è inoltre possibile configurare due Workfront di inserire nell&#39;elenco Consentiti:
 
 * **inserisco nell&#39;elenco Consentiti di posta elettronica**: consente di controllare dove gli utenti possono inviare i dati archiviati in Workfront tramite posta elettronica. Per ulteriori informazioni, consulta [Configurare il tuo inserisco nell&#39;elenco Consentiti di e-mail di accesso ai messaggi di posta elettronica](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
-* **inserisco nell&#39;elenco Consentiti IP**: limita l&#39;accesso a Workfront a 45 indirizzi IP o intervalli di indirizzi IP specificati, fornendo un ulteriore livello di sicurezza per l&#39;applicazione Workfront. Per ulteriori informazioni, vedere [Limitare l&#39;accesso ad Adobe Workfront per indirizzo IP](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
+* **inserisco nell&#39;elenco Consentiti IP**: limita l&#39;accesso a Workfront a 75 indirizzi IP o intervalli di indirizzi IP specificati, fornendo un ulteriore livello di sicurezza per l&#39;applicazione Workfront. Per ulteriori informazioni, vedere [Limitare l&#39;accesso ad Adobe Workfront per indirizzo IP](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
 
 ## Individuare il cluster Workfront
 
