@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 8b0c40d6fa5898581c50d6257bc2b2f2a4838b06
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1728'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Preferenza per l'utilizzo della pianificazione del progetto o dell'utente per le attività a assegnazione singola</a></p>
+            [!BADGE In produzione per rilascio rapido ]{type=Positive}
             <p>In qualità di amministratore di sistema o di gruppo, è ora disponibile una nuova preferenza per indicare se Workfront deve utilizzare la pianificazione del progetto o quella dell'utente per calcolare la sequenza temporale del progetto quando si assegna un utente a un'attività e sia il progetto che l'utente sono associati a una pianificazione.</p>
         </td>
         <td>
@@ -74,6 +75,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Le regole business ora supportano i collegamenti ipertestuali</a></p>
+            [!BADGE In produzione per rilascio rapido ]{type=Positive}
             <p>È ora possibile includere collegamenti ipertestuali nel messaggio di errore personalizzato di una regola business, per guidare l’utente nella modifica della propria azione all’interno del vincolo della regola. L’URL statico potrebbe contenere un collegamento alla documentazione o ad altre pagine utili per l’utente.</p>
         </td>
         <td>
@@ -169,6 +171,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Modificare più documenti contemporaneamente</a></p>
+            [!BADGE In produzione per rilascio rapido ]{type=Positive}
             <p>È ora possibile modificare più documenti contemporaneamente. Puoi modificare le descrizioni e aggiornare i moduli personalizzati.</p>
         </td>
         <td>
@@ -217,8 +220,22 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Da Priorità accedi alla pagina Dettagli di un progetto</a></p>
+            Aggiornamenti all’elenco delle priorità</a></p>
             [!BADGE Nuovo nell'anteprima ]{type=Negative}
+            <p>Abbiamo aggiornato l’elenco delle priorità per migliorarne le funzionalità e allinearlo ad altre aree dell’applicazione.</p>
+        </td>
+        <td>
+            <p><b>Disponibile in queste date:</b></p>
+            <ul>
+                <li>Versione di anteprima: 12 dicembre 2024</li>
+                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Da Priorità accedi alla pagina Dettagli di un progetto</a></p>
             <p>Ora è possibile passare direttamente a un progetto in Workfront dall’elenco delle priorità.</p>
         </td>
         <td>
@@ -344,6 +361,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Aggiornamento della modalità di gestione delle risorse spostate o eliminate nelle cartelle collegate</a></p>
+            [!BADGE In produzione ]{type=Informative}
             <p>Abbiamo modificato il modo in cui vengono gestite le risorse spostate ed eliminate quando si utilizza l’integrazione Adobe Workfront con Experience Manager Assets e gli Assets Essentials:</p>
             <ul>
                 <li>Risorse eliminate: quando una risorsa viene eliminata all’interno di una cartella collegata in Assets o in Assets Essentials, la risorsa eliminata viene mantenuta nell’area Documenti progetto.</li>
@@ -362,6 +380,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Le sezioni all’interno di un modulo personalizzato ora sono comprimibili ed espandibili</a></p>
+            [!BADGE In produzione per rilascio rapido ]{type=Positive}
             <p>Quando un modulo personalizzato con più sezioni viene allegato a un oggetto, è ora possibile comprimere ed espandere tutte le sezioni, ad eccezione della sezione predefinita nella parte superiore del modulo. L’amministratore può visualizzare questa funzionalità anche durante l’anteprima del modulo nel progettista del modulo.</p>
         </td>
         <td>
