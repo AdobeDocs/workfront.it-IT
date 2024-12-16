@@ -7,7 +7,7 @@ description: Se disponi del piano Select o Premium, puoi fornire la funzionalit�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 52ac1919-1821-424f-89f8-72865b236e4e
-source-git-commit: 007a603ef1df2a02959d7fb623ac784bf5b9cb80
+source-git-commit: 74a877145b55ccc14b4d5aefd1889919a39e1f20
 workflow-type: tm+mt
 source-wordcount: '1225'
 ht-degree: 0%
@@ -59,12 +59,12 @@ Questo è il collegamento al server SSO (ad esempio, **https://sso.mycompany.com
 1. Immettere l&#39;**URL di accesso** (3).
 Questo è l’URL che verrà richiamato per reindirizzare gli utenti al provider di identità.
 
-1. Non si tratta di un URL effettivo immesso nel browser, ma di un endpoint che elaborerà le informazioni inviate per presentare la schermata di accesso.
+   Non si tratta di un URL effettivo immesso nel browser, ma di un endpoint che elaborerà le informazioni inviate per presentare la schermata di accesso.
 
-Immettere l&#39;**URL disconnessione** (4).
+1. Immettere l&#39;**URL disconnessione** (4).
 Questo è l&#39;URL a cui verrai restituito dopo la disconnessione, ad esempio
 
-**https://www.yourcompany.com/services/logout.asp**
+   **https://www.yourcompany.com/services/logout.asp**
 
 1. Immetti l&#39;**impronta digitale del certificato** (5).
 1. L&#39;impronta digitale SHA1 del certificato SAML fornito dal provider di identità SAML.
