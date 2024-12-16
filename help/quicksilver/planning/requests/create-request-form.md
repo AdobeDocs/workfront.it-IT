@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: b89f4aa6f779e09d6749e59bdf3d54f0dd9bbf03
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1557'
 ht-degree: 2%
 
 ---
@@ -126,12 +126,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    La pagina del tipo di record viene visualizzata nella visualizzazione a cui si è effettuato l&#39;ultimo accesso. Per impostazione predefinita, nella vista tabella viene visualizzata una pagina del tipo di record.
 
 1. Fai clic sul menu **Altro** ![](assets/more-menu.png) a destra del nome del tipo di record nell&#39;intestazione della pagina, quindi fai clic su **Crea modulo di richiesta**.
-1. Aggiorna il nome del modulo di richiesta. Per impostazione predefinita, il nome del modulo è **Modulo di richiesta senza titolo**. <!--check this; you logged a bug to rename it to this but was it fixed?-->
+1. Aggiorna il nome del modulo di richiesta. Per impostazione predefinita, il nome del modulo è **Modulo senza titolo**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (Facoltativo) Aggiungi una **Descrizione** per il modulo di richiesta.
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
-1. Fai clic su **Crea**. Il modulo di richiesta per il tipo di record selezionato apre <!--<span class="preview"> in the Form tab</span>; add screen shot below with Configuration tab.-->.
+1. Fai clic su **Crea**. Il modulo di richiesta per il tipo di record selezionato apre <span class="preview"> nella scheda Modulo</span>.
 
    ![](assets/campaigns-request-form-edit-mode.png)
 
@@ -159,7 +159,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 
    * **Sezione predefinita**: questa è l&#39;interruzione di sezione predefinita che Workfront applica al modulo di richiesta. Impossibile rinominare o rimuovere la sezione predefinita.
-   * Campo **Oggetto**: campo che identificherà la richiesta in Workfront. Questa funzionalità non è ancora disponibile. Impossibile modificare la configurazione e il valore del campo Oggetto.
+   * Campo **Oggetto**: campo che identificherà la richiesta in Workfront. Questa funzionalità non è ancora disponibile nell’ambiente di produzione. <span class="preview">È disponibile nell&#39;ambiente di anteprima.</span> Impossibile modificare la configurazione e il valore del campo Subject.
+
+     >[!TIP]
+     >
+     >Il campo **Subject** richiede un valore quando è visibile nel modulo di richiesta. Tuttavia, è possibile rimuovere il campo **Oggetto**, se necessario, e i richiedenti non lo visualizzeranno nel modulo.
+
    * Tutti i campi associati al tipo di record.
 
      I campi contenuti nel modulo di richiesta saranno visibili a tutti coloro che inviano una richiesta a questo tipo di record.
@@ -190,14 +195,19 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. (Facoltativo) Fare clic su **Anteprima** per visualizzare la modalità di visualizzazione del modulo per gli altri utenti che lo utilizzeranno per inviare un nuovo record.
 
-   <!--
-   <div class="preview">
-   1. (Optional) Click the **Configuration** tab, then add at least one user to the **Approvers** field to approve new requests for this record form. 
-      When you associate a request form with approvers, any new request must first be approved by all approvers before it generates a new record. 
-      You can add one or several approvers to a request form. If at least one approver rejects the request, the request is rejected and the record is not created.
-   For more information about adding approvals to request forms, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
-   </div>
-   -->
+1. 
+   <div class="preview">(Facoltativo) Fai clic sulla scheda **Configurazione**, quindi aggiungi almeno un utente al campo **Approvatori** per approvare nuove richieste per questo modulo record.
+
+   ![](assets/configuration-tab.png)
+
+   <!--below bullet list is duplicated in the Add approval to a request form article-->
+
+   * Quando si associa un modulo di richiesta agli approvatori, prima di generare un nuovo record è necessario che tutte le nuove richieste vengano approvate da tutti gli approvatori.
+   * Puoi aggiungere uno o più approvatori a un modulo di richiesta.
+   * Se almeno un approvatore rifiuta la richiesta, la richiesta viene rifiutata e il record non viene creato.
+   * Tutti gli approvatori devono prendere una decisione prima che una richiesta venga approvata o rifiutata.
+
+     Per ulteriori informazioni sull&#39;aggiunta di approvazioni ai moduli di richiesta, vedere [Aggiungere approvazione a un modulo di richiesta](/help/quicksilver/planning/requests/add-approval-to-request-form.md). </div>
 
 1. (Facoltativo) Fai clic sul menu **Altro** ![](assets/more-menu.png) a destra del nome del modulo nell&#39;intestazione, quindi fai clic su **Modifica** per aggiornare il nome del modulo.
 1. Fai clic su **Publish** per pubblicare il modulo e ottenere un collegamento univoco.
@@ -231,7 +241,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >     * <span class="preview">Persone</span>
    >
 
-1. (Condizionale) Se hai selezionato **Qualcuno con il collegamento** nel passaggio precedente, seleziona **Data di scadenza collegamento** dal calendario disponibile. Gli utenti riceveranno un errore dopo la scadenza del collegamento e dovrai aggiornare la data del collegamento prima di poter accedere nuovamente al modulo.
+1. (Condizionale) Se hai selezionato **Qualcuno con il collegamento** nel passaggio precedente, seleziona **Data di scadenza collegamento** dal calendario disponibile. Gli utenti riceveranno un errore dopo la scadenza del collegamento e, prima di poter accedere nuovamente al modulo, è necessario aggiornare la data del collegamento e generare un nuovo collegamento da condividere.
 
    È possibile selezionare date future entro 180 giorni dalla data corrente.
 
@@ -241,7 +251,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Per informazioni sulla creazione di record mediante un collegamento a un modulo di richiesta, vedere [Inviare richieste Adobe Workfront Planning](/help/quicksilver/planning/requests/submit-requests.md).
 
-1. Fai clic su **Salva** nell&#39;angolo inferiore destro della schermata per salvare il modulo.
+1. Fai clic su **Salva** nell&#39;angolo inferiore destro della scheda **Modulo** per salvare il modulo.
 1. Fare clic sulla freccia rivolta a sinistra a sinistra del nome della maschera nell&#39;intestazione per chiudere la maschera.
 
    Viene visualizzata la pagina del tipo di record.

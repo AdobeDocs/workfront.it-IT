@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 93fca2a98a8b9d4370841b10be10ed2ba15283c9
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '1920'
+source-wordcount: '2114'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,42 @@ Questo articolo descrive le funzioni rilasciate per Workfront Planning durante l
 <!--remove the general activity mention after First Quarter 2025 is released-->
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning dopo il rilascio di disponibilità generale del 28 agosto 2024, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+
+## Configurare le approvazioni per le richieste di Workfront Planning
+
+>[!NOTE]
+>
+>Versione di anteprima: 16 dicembre 2024; versione di produzione per tutti i clienti: 16 gennaio 2025
+
+È ora possibile associare un&#39;approvazione a un modulo di richiesta di Workfront Planning. Puoi aggiungere solo utenti come approvatori di una richiesta. Dopo l’invio, la richiesta viene inviata a tutti gli approvatori per approvarla prima di creare un record.
+
+Per informazioni, vedere [Aggiungere un&#39;approvazione a un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+
+
+## Notifiche per l’invio di richieste, approvazioni e modifiche di stato
+
+>[!NOTE]
+>
+>Versione di anteprima: 16 dicembre 2024; versione di produzione per tutti i clienti: 16 gennaio 2025
+
+Dopo l’invio di una richiesta in Workfront Planning, ora riceverai una notifica in-app e una notifica e-mail per le seguenti azioni:
+
+* Un richiedente riceve una notifica che indica che una richiesta è stata inviata correttamente
+
+* Un richiedente riceve una notifica di approvazione o rifiuto di una richiesta
+
+* Un approvatore riceve una notifica di invio di una richiesta per l&#39;approvazione.
+
+>[!NOTE]
+>
+>Per consentire agli utenti di ricevere notifiche e-mail e in-app, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.
+
+Per informazioni sull’invio o l’approvazione delle richieste, consulta i seguenti articoli:
+
+* [Inviare richieste di Adobe Workfront Planning per creare record](/help/quicksilver/planning/requests/submit-requests.md)
+
+* [Approva una richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).
 
 ## Ricerca intelligente durante la ricerca di un tipo di campo
 
@@ -138,7 +174,7 @@ Per informazioni, vedere [Inviare le richieste di Adobe Workfront Planning per l
 
 Prima di questo miglioramento, non era possibile aggiungere questi tipi di campi ai moduli di richiesta in Workfront Planning.
 
-Per informazioni, consulta Creare e gestire un modulo di richiesta in Adobe Workfront Planning (/help/quicksilver/planning/requests/create-request-form.md).
+Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 ## Limita la condivisione pubblica dei moduli di richiesta che contengono determinati tipi di campi
 

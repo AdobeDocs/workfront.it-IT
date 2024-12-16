@@ -6,15 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 1%
+source-wordcount: '717'
+ht-degree: 0%
 
 ---
 
 
 # Gestire le notifiche e-mail di Adobe Workfront Planning
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -25,6 +29,14 @@ ht-degree: 1%
   Per informazioni sull&#39;assegnazione di tag ad altri utenti in un commento record, vedere [Gestire i commenti record](/help/quicksilver/planning/records/manage-record-comments.md).
 * Qualcuno richiede l’autorizzazione per accedere a una vista o a un’area di lavoro
 * Qualcuno conferma che l&#39;accesso è stato concesso per una visualizzazione o un&#39;area di lavoro <!--Isk confirmed that there is nno email for denying access but did not test-->
+
+<div class="preview">
+
+* Inviare una richiesta di Workfront Planning. Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
+* Qualcuno approva o rifiuta una richiesta di Workfront Planning inviata dall&#39;utente. Per informazioni, vedere [Approvare una richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md)
+* Lo stato viene modificato in una richiesta di Workfront Planning sottomessa.
+
+</div>
 
 
 ## Requisiti di accesso
@@ -155,11 +167,11 @@ OLD:
 
 ## Gestisci le notifiche e-mail quando qualcuno ti assegna i tag in un commento
 
-1. (Facoltativo) Dopo che qualcuno ti ha taggato in un commento su un record, vai alla notifica e-mail che ti informa del tag e del commento. Il mittente dell’e-mail è Adobe Experience Cloud.
+1. (Condizionale e facoltativo) Dopo che un utente ti ha contrassegnato un commento su un record, vai alla notifica e-mail che ti informa del tag e del commento. Il mittente dell’e-mail è Adobe Experience Cloud.
 
    ![](assets/email-notification-example.png)
 
-1. Fare clic sul messaggio nella casella **Workfront**.
+1. (Facoltativo) Fai clic sul messaggio nella casella **Workfront** all&#39;interno dell&#39;e-mail.
 
    La pagina dei dettagli del record viene visualizzata in Workfront. È possibile aggiornare il record o rispondere al commento.
 
@@ -168,8 +180,27 @@ La pagina **Notifiche** viene aperta in Adobe Experience Cloud. Vengono visualiz
 
 ## Gestire le notifiche e-mail quando si richiedono e si concedono le autorizzazioni
 
-Ricevi notifiche e-mail quando qualcuno ti richiede o concede le autorizzazioni per una visualizzazione o un’area di lavoro.
+1. (Condizionale e facoltativo) Dopo che qualcuno ti ha richiesto o concesso le autorizzazioni per accedere a una visualizzazione o a un’area di lavoro, vai all’e-mail che ti informa della richiesta di autorizzazione. Il mittente dell’e-mail è Adobe Experience Cloud.
+
+1. (Facoltativo) Fai clic sul messaggio nella casella **Workfront** all&#39;interno dell&#39;e-mail.
+
+   La pagina dei dettagli del record viene visualizzata in Workfront. È possibile aggiornare il record o rispondere al commento.
+
+1. (Condizionale) Se disponibile, fare clic su **Visualizza tutte le notifiche**.
+La pagina **Notifiche** viene aperta in Adobe Experience Cloud. Vengono visualizzate tutte le notifiche provenienti da tutte le applicazioni Adobe Experience Cloud.
+
 
 Per informazioni sulla richiesta, la concessione o il rifiuto delle autorizzazioni per una visualizzazione o un&#39;area di lavoro, vedere [Richiedere le autorizzazioni per una visualizzazione o un&#39;area di lavoro](/help/quicksilver/planning/access/request-permissions.md).
 
 Per informazioni sulla gestione delle notifiche di Workfront Planning, vedere [Gestione preferenze di notifica di Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
+
+## Gestire le notifiche e-mail relative all&#39;invio, all&#39;approvazione o al rifiuto di richieste di Workfront Planning
+
+1. (Facoltativo) Vai all’e-mail che ti invia Workfront
+dopo aver inviato una richiesta o dopo che una richiesta inviata è stata approvata o rifiutata. Il mittente dell’e-mail è Adobe Workfront.
+
+1. (Facoltativo) Fai clic su **Apri richiesta**. Verrà aperta la richiesta in Workfront Planning.
+
+1. Fai clic sull&#39;icona ![](assets/notifications-area-icon-unified-shell.png) delle **notifiche** nell&#39;angolo superiore destro della schermata per accedere alla pagina **notifiche**.
+
+   Per informazioni sulla gestione delle notifiche di Workfront Planning, vedere [Gestione preferenze di notifica di Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-notification-preferences.md).

@@ -1,30 +1,19 @@
 ---
-title: Aggiungere un’approvazione a un modulo di richiesta
+title: Aggiungere un’approvazione a un modulo di richiesta in Adobe Workfront Planning
 description: È possibile aggiungere un processo di approvazione a un modulo di richiesta di Adobe Workfront Planning, per avviare un'approvazione per ogni richiesta sottomessa, prima di creare un record.
-hide: true
-hidefromTOC: true
-source-git-commit: a999b805016361bdd101a6cd9c61967284a71014
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '766'
 ht-degree: 1%
 
 ---
 
 
-<!--
-
----
-title: Add an Approval to a Request Form
-description: You can add an approval process to an Adobe Workfront Planning request form, to initiate an approval for every submitted request, before it creates a record. 
-feature: Workfront Planning
-role: User, Admin
-author: Alina
-recommendations: noDisplay, noCatalog
----
-
--->
-
-# Aggiungere un’approvazione a un modulo di richiesta
+# Aggiungere un’approvazione a un modulo di richiesta in Adobe Workfront Planning
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
@@ -127,6 +116,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 * È possibile aggiungere uno o più approvatori a un modulo di richiesta. È possibile aggiungere solo utenti come approvatori.
 * Quando si aggiungono più approvatori a un modulo di richiesta, tutti gli approvatori devono accettare la richiesta prima di creare un record in Workfront Planning.
+* Se tutti gli approvatori approvano la richiesta, viene creato un record per il tipo di record associato al modulo di richiesta.
+* Se almeno un approvatore rifiuta la richiesta e tutti gli altri la approvano, viene creata una richiesta per l&#39;area Richieste di Workfront, ma non viene creato alcun record per il tipo di record associato al modulo di richiesta.
 * L’aggiunta di approvazioni a un modulo di richiesta è facoltativa. Workfront Planning crea immediatamente un record quando viene sottomessa una richiesta, se il modulo di richiesta non è associato a un&#39;approvazione.
 
 ## Aggiungere un’approvazione a un modulo di richiesta
@@ -143,16 +134,31 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Iniziare a digitare il nome di un approvatore, quindi selezionarlo quando viene visualizzato nell&#39;elenco.
 
-   >[!TIP]
+   <!--most of the Note below is duplicated in the Create a request form article-->
+
+   >[!NOTE]
    >
-   >    Se si aggiungono più approvatori, tutti gli approvatori devono approvare la richiesta prima che Workfront Planning crei un record.
+   >
+   >* Puoi aggiungere uno o più approvatori a un modulo di richiesta.
+   >
+   >* Se si aggiungono più approvatori, tutti gli approvatori devono approvare la richiesta prima che Workfront Planning crei un record.
+   >
+   >* Se almeno un approvatore rifiuta la richiesta, la richiesta viene rifiutata e il record non viene creato. La richiesta rimane nella scheda Pianificazione della sezione Inviata nell&#39;area Richieste di Workfront.
+   >
+   >* Tutti gli approvatori devono prendere una decisione prima che una richiesta venga approvata o rifiutata.
+
 
 1. (Facoltativo) Fai clic su **Publish** se non hai mai condiviso il modulo di richiesta in precedenza
 
    Oppure
 
    Fai clic su **Condividi** per condividere il modulo, quindi su **Copia collegamento**.
-1. (Facoltativo) Dopo che un utente utilizza il collegamento condiviso e invia una richiesta, Workfront Planning invia una notifica di approvazione e un messaggio e-mail agli approvatori.
+1. (Facoltativo) Dopo che un utente utilizza il collegamento condiviso e invia una richiesta, Workfront Planning invia una notifica in-app di approvazione e un messaggio e-mail agli approvatori.
+
+   >[!NOTE]
+   >
+   >   Per consentire agli utenti di ricevere notifiche e-mail e in-app, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.
+
 
    Per informazioni sull&#39;approvazione delle richieste, vedere [Approvare una richiesta](/help/quicksilver/planning/requests/approve-request.md).
 

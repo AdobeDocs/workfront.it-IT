@@ -1,33 +1,19 @@
 ---
-title: Approvare una richiesta
+title: Approvare una richiesta in Adobe Workfront Planning
 description: Quando un utente invia una richiesta a un modulo di richiesta associato a un’approvazione in Adobe Workfront Planning, gli approvatori ricevono una notifica e un messaggio e-mail relativi all’approvazione in sospeso. È necessario approvare la richiesta prima che Workfront Planning crei un oggetto.
-hide: true
-hidefromTOC: true
-source-git-commit: ab78b82db567193f32f6c67880b2b037dc78e849
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '945'
 ht-degree: 1%
 
 ---
 
 
-<!--
-
----
-title: Approve a Request
-description: When a user submits a request to a request form associated with an approval in Adobe Workfront Planning, approvers receive a notification and an email about the pending approval. They must approve the request before Workfront Planning creates an object. 
-feature: Workfront Planning
-role: User, Admin
-author: Alina
-recommendations: noDisplay, noCatalog
----
-
--->
-
-
-# Approvare una richiesta
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+# Approvare una richiesta in Adobe Workfront Planning
 
 <!--take Preview and Production references at Production time-->
 
@@ -54,9 +40,8 @@ Si consiglia inoltre di visualizzare i seguenti articoli:
 Le richieste inviate vengono visualizzate nella scheda Pianificazione della sezione Inviate dell&#39;area Richieste di Workfront con uno dei seguenti stati di richiesta:
 
 * **Revisione in sospeso**: questo stato viene visualizzato quando nessuno degli approvatori ha aperto l&#39;oggetto della richiesta.
-* **In revisione**: lo stato cambia in **In revisione** quando almeno un approvatore apre l&#39;oggetto della richiesta. Lo stato della richiesta rimane **In revisione** fino a quando tutti gli approvatori non avranno approvato la richiesta.
-* **Approvato**: quando un approvatore approva l&#39;oggetto della richiesta, il suo stato individuale diventa
-* **Approvato**, ma lo stato complessivo dell&#39;oggetto della richiesta rimane **In revisione** fino a quando tutti gli approvatori non avranno preso le loro decisioni.
+* **In revisione**: lo stato **In attesa di revisione** diventa **In revisione** quando almeno un approvatore apre l&#39;oggetto della richiesta. Lo stato della richiesta rimane **In revisione** fino a quando tutti gli approvatori non avranno approvato la richiesta.
+* **Approvato**: quando un approvatore approva l&#39;oggetto della richiesta, il suo stato individuale diventa **Approvato**, ma lo stato complessivo dell&#39;oggetto rimane **In revisione** fino a quando tutti gli approvatori non avranno preso le loro decisioni. Quando tutti gli approvatori approvano una richiesta, lo stato diventa **Approvato**.
 * **Completato**: se tutti gli approvatori approvano l&#39;oggetto della richiesta, lo stato cambia in **Completato** oppure se la richiesta non ha bisogno di un&#39;approvazione.
 * **Rifiutato**: se un approvatore rifiuta l&#39;oggetto della richiesta, lo stato diventa **Rifiutato**. Non viene creato alcun record ed è necessario inviare una nuova richiesta per creare il record.
 
@@ -148,25 +133,39 @@ Gli approvatori ricevono le seguenti notifiche relative a una richiesta in attes
 * Una notifica in-app
 * Una notifica e-mail
 
+>[!NOTE]
+>
+>Per consentire agli utenti di ricevere notifiche e-mail e in-app, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.
+
 Per approvare una richiesta:
 
 1. Esegui una delle operazioni seguenti:
 
-   * Se hai accesso a Workfront Planning, fai clic su **Menu principale** ![](assets/dots-menu.png) nell&#39;angolo superiore destro dello schermo o su **Menu principale** ![](assets/lines-menu.png) nell&#39;angolo superiore sinistro, se disponibile, quindi fai clic su **Richieste** > **Inviate** > **Planning** e fai clic sulla richiesta con lo stato di **In revisione**. <!--did they change this to Pending approval; logged  a bug-->
+   * Se hai accesso a Workfront Planning e puoi visualizzare almeno un&#39;area di lavoro, fai clic su **Menu principale** ![](assets/dots-menu.png) nell&#39;angolo superiore destro dello schermo o sul **Menu principale** ![](assets/lines-menu.png) nell&#39;angolo superiore sinistro, se disponibile, quindi fai clic su **Richieste** > **Inviate** > **Pianificazione** e fai clic sulla richiesta con lo stato di **Revisione in sospeso** o **In revisione**.
 
      >[!TIP]
      >
-     >    Se non si dispone dell&#39;accesso a Workfront Planning, è possibile accedere solo a una richiesta di approvazione utilizzando le notifiche.
+     >Se non disponi dell’accesso a Workfront Planning o se non disponi dell’accesso per visualizzare alcuna area di lavoro, puoi accedere a una richiesta per approvarla solo utilizzando l’e-mail o le notifiche in-app.
 
-
-   * Vai all&#39;area **Notifiche** nell&#39;angolo superiore destro della schermata e fai clic sulla notifica di una richiesta in attesa della tua approvazione per aprire la richiesta.
-   * Vai alla notifica e-mail nell’e-mail che ti notifica una richiesta in attesa della tua approvazione, quindi fai clic su per aprire la richiesta. <!--add the name of the button here, from the email-->
+   * Fai clic sull&#39;icona ![](assets/notifications-area-icon-unified-shell.png) dell&#39;area **Notifiche** nell&#39;angolo superiore destro della schermata e fai clic sulla notifica di una richiesta in attesa della tua approvazione per aprire la richiesta.
+   * Vai alla notifica e-mail nell&#39;e-mail che ti notifica una richiesta in attesa della tua approvazione, quindi fai clic su **Apri richiesta** per aprire la richiesta. <!--add the name of the button here, from the email-->
 
    La pagina della richiesta si apre in modalità di sola lettura.
 
    ![](assets/read-only-reqeust-page-in-review-status.png)
+
 1. (Facoltativo) Fai clic sull&#39;icona **Approvazioni** ![](assets/approvals-icon.png) nell&#39;angolo superiore destro della richiesta per visualizzare gli approvatori.
 1. Fai clic su **Rivedi e approva**, quindi scegli una delle seguenti opzioni: <!--did they fix the button and removed the &??-->
 
-   * **Approva**: questa operazione approva la richiesta. Viene immediatamente creato un record per il tipo di record associato al modulo di richiesta.
-   * **Rifiuta**: questa operazione rifiuta la richiesta. Non viene creato alcun record per il tipo di record associato al modulo di richiesta. <!--check to see if there is a notification sent to the requestor about it being rejected OR approved??--> <!--checking with PM what happens with the other approvers when one of them is rejecting it: does it ask them to approve it? Deleted the request? -->
+   * **Approva**: questa operazione approva la richiesta. Viene creato immediatamente un record per il tipo di record associato al modulo di richiesta dopo che tutti gli approvatori hanno approvato la richiesta.
+   * **Rifiuta**: la richiesta viene rifiutata anche se l&#39;utente è l&#39;unico approvatore a rifiutarla. Non viene creato alcun record per il tipo di record associato al modulo di richiesta.
+
+   L’utente che ha inviato la richiesta riceve un’e-mail e una notifica in un’app quando la richiesta viene approvata o rifiutata.
+
+   Lo stato della richiesta cambia in base alla decisione di approvazione:
+
+   * **Completato**: la richiesta è approvata.
+   * **Rifiutata**: richiesta rifiutata.
+
+   La richiesta rimane nella scheda Pianificazione della sezione Inviata nell&#39;area Richieste di Workfront.
+
