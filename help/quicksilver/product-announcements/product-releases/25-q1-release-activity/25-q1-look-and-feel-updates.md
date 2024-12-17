@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 8475e93b27f2c47bf8a25ff3283a61830aa129de
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Per informazioni, vedere [Creare e modificare le società](/help/quicksilver/adm
 
 >[!NOTE]
 >
->Versione di anteprima: 6 novembre 2024; versione di produzione per tutti i clienti: 6 novembre 2024
+>Versione di anteprima: temporaneamente rimossa il 12 dicembre 2024; rilasciata nuovamente in produzione per tutti i clienti: 17 dicembre 2024
 
 Abbiamo aggiornato le aree di navigazione principale e secondaria di Workfront per migliorare le prestazioni. Le modifiche del look-and-feel sono minime.
 
