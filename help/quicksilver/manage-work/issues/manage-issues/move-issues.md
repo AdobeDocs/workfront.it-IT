@@ -1,19 +1,28 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: Sposta i problemi
+title: Sposta le Issues
 description: Puoi spostare i problemi tra progetti e attività.
 author: Alina
 feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
-source-git-commit: 6c82c585376b41cff0e57b253b6a214fb00309de
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '827'
 ht-degree: 1%
 
 ---
 
 # Sposta i problemi
+
+<!--Audited: 12/2024-->
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 È possibile spostare i problemi tra i seguenti oggetti:
 
@@ -24,6 +33,8 @@ ht-degree: 1%
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
@@ -31,25 +42,34 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Richiedi o superiore</p> <p>Rivedi o ottieni una licenza per spostare i problemi nella sezione Problemi di un progetto.</p> </td> 
+   <td> <p>Nuovo:</p> 
+   <ul><li>Collaboratore o versione successiva</li>
+   <li>Chiaro o superiore per spostare i problemi nella sezione Problemi di un progetto</li></ul>
+   <p>Corrente:</p>
+   <ul>
+   <li><p>Richiedi o superiore</p></li>
+   <li><p>Rivedi o ottieni una licenza per spostare i problemi nella sezione Problemi di un progetto.</p></li></ul>   
+     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modifica l'accesso alle Issues</p> <p>Accesso di visualizzazione o superiore ai progetti e alle attività</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni sull'accesso ai problemi nel tuo livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Concedere l'accesso ai problemi</a>. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>. </p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Modifica l'accesso alle Issues</p> <p>Accesso di visualizzazione o superiore ai progetti e alle attività</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per il problema</p> <p>Autorizzazioni di Contribute per l’elemento in cui stai spostando il problema con la possibilità di aggiungere problemi.</p> <p> Per informazioni sulla concessione delle autorizzazioni per i problemi, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Condividere un problema </a></p> <p>Per informazioni sulla richiesta di autorizzazioni aggiuntive, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per il problema</p> <p>Autorizzazioni di Contribute per l’elemento in cui stai spostando il problema con la possibilità di aggiungere problemi.</td> 
   </tr> 
  </tbody> 
 </table>
 
-*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront.
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Considerazioni sullo spostamento dei problemi
 
@@ -58,6 +78,14 @@ Quando si spostano problemi che contengono documenti o sono associati a una coda
 * **Quando un problema è associato a una coda di richieste:** Quando si sposta un problema in un altro oggetto e il problema è associato a una coda di richieste, il problema spostato non è più associato alla coda originale da cui ha avuto origine il primo problema.
 * **Quando un documento è allegato al problema:** Quando si sposta un problema in un altro oggetto a cui è associato un documento, anche il documento, le relative versioni e bozze vengono spostati nel nuovo problema. Eventuali approvazioni associate al documento non vengono spostate.
 * **Quando un problema è collegato a un documento o a una cartella:** Quando si sposta un problema che include documenti o cartelle collegati a un servizio di terze parti come Google Drive, i collegamenti ai documenti vengono spostati insieme al problema.
+
+<!--
+<div class="preview">
+
+* Your system or group administrator can prevent you from moving issues that have logged hours, depending on how they configure the Allow users to move tasks and issues with logged hours preference in the Setup area. For information, see [Configure system-wide task and issue preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md). 
+
+</div>
+-->
 
 ## Sposta i problemi in un elenco
 
@@ -74,13 +102,7 @@ Quando si spostano problemi che contengono documenti o sono associati a una coda
 
    ![](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
 
-1. Continuare con lo spostamento del problema, come descritto nella sezione [Spostare un singolo problema](#move-a-single-issue) a partire dal passaggio 2.
-
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE: ensure step stays accurate)
-   </MadCap:conditionalText>
-   -->
+1. Continuare con lo spostamento dei problemi, come descritto nella sezione [Spostare un singolo problema](#move-a-single-issue) a partire dal passaggio 2.
 
 ## Spostare un singolo problema {#move-a-single-issue}
 

@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: f8f86eae11e7f175e130d7f0265d92519923402f
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
 source-wordcount: '2107'
 ht-degree: 0%
@@ -21,6 +21,13 @@ ht-degree: 0%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 Linked to Converting Issues.-->
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 In qualità di amministratore [!DNL Adobe Workfront], puoi configurare le preferenze a livello di sistema per le attività e i problemi. Queste preferenze influiscono sul modo in cui gli utenti creano attività e problemi in [!DNL Workfront].
 
@@ -42,7 +49,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licenza*</td> 
    <td><p>Nuovo: [!UICONTROL Standard]</p>
    oppure
    <p>Corrente: [!UICONTROL Plan]</p></td> 
@@ -54,7 +61,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -69,6 +76,9 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    * [[!UICONTROL Nuovi valori predefiniti attività]](#new-task-defaults)
    * [[!UICONTROL Problemi]](#issues)
    * [[!UICONTROL Eliminazione]](#deletion)
+
+   <!--* <span class="preview">[Move](#move)</span>-->
+
    * [[!UICONTROL Date effettive]](#actual-dates)
    * [[!UICONTROL Delega]](#delegation)
    * [[!UICONTROL Accesso]](#access)
@@ -162,6 +172,22 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
   >Quando elimini un progetto con attività e problemi che hanno registrato ore, le ore registrate vengono eliminate o vengono mantenute in base alle impostazioni nell&#39;area [!UICONTROL Preferenze schede orario e ore] di [!UICONTROL Configurazione]. Il messaggio di avviso non viene visualizzato quando si elimina un progetto.
 
 * Quando deselezioni questa opzione, viene visualizzato un avviso proibitivo quando elimini un’attività o un problema con ore registrate o quando elimini un progetto con ore registrate per le relative attività o problemi. L&#39;avviso specifica che l&#39;amministratore non consente l&#39;eliminazione di attività o problemi con ore registrate. Impossibile eliminare le attività, i problemi o i progetti per i quali sono state registrate ore per attività e problemi.
+
+<!--*****also replace the & with "and" in the Deletion section
+
+<div class="preview">
+
+### Move
+
+**[!UICONTROL Allow users to move tasks and issues with logged hours]**: Lets you determine whether you allow the move of tasks or issues where hours are logged. This option is selected by default.
+
+* When it is selected, you can move tasks and issues that have time logged. The hours also move with the tasks or issues. 
+
+* When you deselect this option, you receive a prohibitive warning when you move a task or issue with logged hours. The warning specifies that the administrator does not allow for tasks or issues with logged hours to be moved. The tasks or issues that have hours logged cannot be moved. 
+
+</div>
+
+-->
 
 ### [!UICONTROL Date effettive] {#actual-dates}
 

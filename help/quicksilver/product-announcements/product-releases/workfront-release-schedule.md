@@ -8,9 +8,9 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
 
 I rilasci avvengono generalmente intorno alle 20:00 (ora delle Montagne Rocciose) della sera prima della data di rilascio.
 
-In genere, le funzioni in Anteprima sono rese disponibili nell’ambiente di produzione con la versione successiva. Tuttavia, in alcuni casi, le funzioni di sono rese disponibili nell’ambiente di produzione al di fuori di una versione pianificata. Queste modifiche rimangono in Anteprima per un minimo di 2 settimane per fornire il tempo necessario per conoscere le modifiche. Queste modifiche vengono comunicate anche tramite il Centro notifiche al momento dell’aggiunta all’anteprima.
+In genere, le funzioni in Anteprima sono rese disponibili nell’ambiente di produzione con la versione successiva. Tuttavia, in alcuni casi, le funzioni di sono rese disponibili nell’ambiente di produzione al di fuori di una versione pianificata. Queste modifiche in genere rimangono in Anteprima per un minimo di 2 settimane per fornire il tempo necessario per conoscere le modifiche.
 
 Per ulteriori informazioni sui processi di rilascio trimestrali e rapidi, vedere [Abilitare o disabilitare i rilasci rapidi per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 

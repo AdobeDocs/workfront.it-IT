@@ -1,21 +1,23 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: Creare elementi di lavoro e progetti dall’area Home
+title: Creare elementi di lavoro e progetti dall'area Home
 description: È possibile creare elementi di lavoro e progetti dall'area [!UICONTROL Home].
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '811'
 ht-degree: 2%
 
 ---
 
 # Creare elementi di lavoro e progetti dall’area Home
 
-È possibile creare elementi di lavoro e progetti dall&#39;area [!UICONTROL Home]. Da Home, puoi
+È possibile creare elementi di lavoro e progetti dall&#39;area [!UICONTROL Home].
+
+Da Home, puoi
 
 * Crea cose da fare personali per te
 * Inviare richieste
@@ -23,6 +25,8 @@ ht-degree: 2%
 * Crea progetti da un modello, un progetto vuoto o importa un progetto MS.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -52,16 +56,23 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
 
++++
+
 ## Creare un&#39;attività personale
 
-Puoi creare un elemento personale da fare nell&#39;area [!UICONTROL Home]. Gli elementi da fare sono attività personali che vengono create personalmente.
+È possibile creare un elemento attività personale nel widget Attività nell&#39;area [!UICONTROL Home]. Gli elementi da fare sono attività personali che vengono create personalmente.
 
 L&#39;utente e gli altri utenti possono visualizzare le attività personali in un report attività personale. Da lì, possono aggiungerli ai progetti, se necessario.
+
+>[!TIP]
+>
+>Gli elementi di lavoro inviati ad altri utenti o a se stessi dalla pagina del profilo utente vengono visualizzati anche nel widget Da fare nell&#39;area Home dell&#39;utente. Per informazioni, vedere [Creare attività personali](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md).
+
 
 Per creare un elemento attività:
 
 1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro o sul **menu principale** ![](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro, se disponibile, quindi fai clic su **[!UICONTROL Home]**.
-1. (Condizionale) Fai clic su **Personalizza**, quindi fai clic su **Da fare** per aggiungere il widget attività alla schermata iniziale.
+1. (Condizionale) Fai clic su **Personalizza**, quindi fai clic su **Da fare** per aggiungere il widget Da fare alla schermata iniziale.
 1. Vai al widget **Da fare**, quindi fai clic su **Aggiungi da fare**.
 1. Digitare il nome dell&#39;attività personale, quindi fare clic su Invio.
 1. (Facoltativo) Fai clic sull&#39;icona **Data** ![](assets/date-icon.png) per aggiungere una data di scadenza per l&#39;elemento.

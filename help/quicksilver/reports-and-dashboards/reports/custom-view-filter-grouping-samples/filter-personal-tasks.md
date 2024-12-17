@@ -2,13 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Filtro: Attività personali"
+title: 'Filtro: Attività personali'
 description: Questo filtro attività restituisce le richieste di lavoro ad hoc inviate a un utente o gli elementi da fare aggiunti dagli utenti nella propria area Home. Le attività personali non sono collegate a un progetto, ma possono essere spostate in un progetto, se necessario.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+exl-id: 204cfae1-7c57-4223-9e00-ac94e1e2ba3a
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 0%
 
 <!--Audited: 10/2024-->
 
-Questo filtro attività restituisce le richieste di lavoro ad hoc inviate a un utente o gli elementi da fare aggiunti dagli utenti nella propria area Home.
+Questo filtro attività restituisce le richieste di lavoro ad hoc inviate a un utente o gli elementi da fare aggiunti dagli utenti nel widget Da fare nell’area Home.
 
 Le richieste di lavoro ad hoc e gli elementi da fare vengono salvati in Adobe Workfront come attività personali.
 
-Le attività personali non sono collegate a un progetto, ma possono essere spostate in un progetto, se necessario.
+Le attività personali non sono collegate a un progetto, ma possono essere spostate in un progetto, se necessario. Per informazioni, vedere [Creare attività personali](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md).
 
 ![](assets/personal-tasks-report.png)
 
@@ -75,7 +76,7 @@ Per creare questo filtro:
 1. (Condizionale) Seleziona i seguenti criteri di filtro:
 
    * Da un filtro elenco: **Attività** > **Personali** **È true**
-   * Da un filtro report: **Attività** > **Personali** > **Uguali** > **Vero**.
+   * Da un filtro report: **Attività** > **Personali** > **Uguali (distinzione maiuscole/minuscole)** > **Vero**.
 1. Salva il filtro.
 
    Nell&#39;elenco vengono visualizzate solo le attività personali che non si trovano in alcun progetto.

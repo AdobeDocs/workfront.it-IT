@@ -8,7 +8,7 @@ feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 2%
@@ -137,7 +137,7 @@ Quando ripristini un progetto, un’attività o un problema, le seguenti informa
 
 * Risoluzione di oggetti
 
-  Un oggetto di risoluzione è un problema convertito configurato con l&#39;opzione **Mantieni il problema originale e collegane la risoluzione a questo** &lt;**progetto** o **attività)**>. Se si elimina il progetto o l&#39;attività padre, il problema non viene più identificato come oggetto di risoluzione perché non esiste più un collegamento che lo collega al progetto o all&#39;attività. Se ripristini l’elemento padre, il collegamento non viene ripristinato.
+  Un oggetto di risoluzione è un problema convertito configurato con l&#39;opzione **Mantieni il problema originale e collegane la risoluzione a questa** &lt;**(progetto** o **attività)**>. Se si elimina il progetto o l&#39;attività padre, il problema non viene più identificato come oggetto di risoluzione perché non esiste più un collegamento che lo collega al progetto o all&#39;attività. Se ripristini l’elemento padre, il collegamento non viene ripristinato.
 
   Per ulteriori informazioni su come un amministratore di Workfront o un amministratore di gruppo configura i problemi in modo che corrispondano all&#39;oggetto di risoluzione quando viene convertito, vedere [Configurare le preferenze per attività e problemi a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) e [Configurare le preferenze per attività e problemi per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 

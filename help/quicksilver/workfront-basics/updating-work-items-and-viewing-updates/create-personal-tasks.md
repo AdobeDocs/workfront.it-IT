@@ -2,41 +2,43 @@
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Crea attività personali
-description: Le attività personali sono richieste di lavoro ad hoc inviate a un utente o elementi da fare creati personalmente nell'area Home. In Workfront le richieste di lavoro ad hoc vengono salvate e gli elementi vengono eseguiti come attività personali.
+description: Le attività personali sono richieste di lavoro ad hoc inviate a un utente, a se stessi o a elementi da fare creati personalmente nell’area Home. In Workfront le richieste di lavoro ad hoc vengono salvate e gli elementi vengono eseguiti come attività personali.
 author: Lisa
 feature: Get Started with Workfront
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+exl-id: b40d6b10-19c7-4e11-a74f-a8af3ebafb65
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
-
 
 # Creare attività personali
 
 <!--Audited: 10/2024-->
 
-Le attività personali sono richieste di lavoro ad hoc inviate a un utente o elementi da fare creati personalmente nell&#39;area Home.
+Le attività personali sono richieste di lavoro ad hoc che invii a un utente o che invii o aggiungi personalmente.
 
-In Workfront le richieste di lavoro ad hoc vengono salvate e gli elementi vengono eseguiti come attività personali.
+Adobe Workfront salva le richieste di lavoro ad hoc e esegue gli elementi come attività personali.
 
-Per impostazione predefinita, tutti gli utenti di Workfront hanno un progetto denominato &quot;&lt; Nome completo > Attività&quot;. Ad esempio, &quot;Attività di Rick Kuvec&quot;.
+Per impostazione predefinita, tutti gli utenti di Workfront hanno un progetto personale denominato &quot;Attività di&lt; Nome completo dell’utente>&quot;. Ad esempio, &quot;John Smith&#39;s Tasks&quot;.
 
-Questo progetto non viene visualizzato nelle ricerche ed è nascosto. Tutte le attività personali sono memorizzate in questo progetto.
+Il progetto personale di ciascun utente non viene visualizzato nelle ricerche ed è nascosto. Tutte le attività personali sono memorizzate in questo progetto.
 
 Se necessario, puoi spostare le attività personali in un progetto.
 
 È possibile creare attività personali nei modi seguenti:
 
-* Creare un elemento attività nell&#39;area Home
+* Creare un&#39;attività nell&#39;area Home
 
   Per informazioni, vedere [Creare elementi di lavoro e progetti dall&#39;area Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
-* Creare una richiesta di lavoro personale a un altro utente
-* Creare una richiesta di lavoro personale per l&#39;utente
+* Creare e inviare una richiesta di lavoro personale a un altro utente dalla pagina del profilo utente
+* Creare e inviare una richiesta di lavoro personale dalla pagina del profilo utente
 
-Questo articolo descrive come creare una richiesta di lavoro personale per un utente.
+Questo articolo descrive come creare una richiesta di lavoro personale per un utente o per te stesso dalla pagina del profilo utente.
+
+Indipendentemente dalla modalità di aggiunta di un&#39;attività personale, è possibile trovarla nelle stesse aree di Workfront. Per ulteriori informazioni, vedere la sezione [Individuare l&#39;attività personale](#locate-personal-tasks) in questo articolo.
 
 ## Requisiti di accesso
 
@@ -57,9 +59,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   <tr> 
    <td role="rowheader"><strong>Licenza Adobe Workfront*</strong></td> 
    <td> 
-   <p>Corrente: prevede di inviare richieste ad altri utenti. Tutti gli utenti possono creare autonomamente una richiesta di lavoro.</p>
    <p>Nuovo: Standard per inviare richieste ad altri utenti. Tutti gli utenti possono creare autonomamente una richiesta di lavoro.</p> 
-   </td> 
+   <p>Corrente: prevede di inviare richieste ad altri utenti. Tutti gli utenti possono creare autonomamente una richiesta di lavoro.</p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurazioni del livello di accesso</strong></td> 
@@ -98,19 +100,17 @@ Viene visualizzata la casella **Invia all&#39;utente una richiesta di lavoro**.
 
 1. Fai clic su **Invia richiesta** per salvare la richiesta di lavoro.
 
-   La richiesta di lavoro viene salvata come attività personale in Workfront e viene aggiunta al widget Da fare nell’area Home.
+   La richiesta di lavoro viene salvata come attività personale in Workfront e viene aggiunta al widget Da fare dell’utente nella sua area Home. Se invii la richiesta di lavoro a te stesso, questa viene visualizzata nel widget Da fare nella Home.
 
-   <!--this last step will need to be updated when they fix this functionality and the work requests you create for others actually go to their To do widget instead of yours-->
 
 ## Individua attività personali
 
 È possibile individuare le attività personali nelle seguenti aree:
 
-* Il widget Da fare nell&#39;area Home. Per informazioni, vedere [Creare elementi di lavoro e progetti dall&#39;area Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+* Il widget Da fare nell’area Home dell’utente a cui è stata inviata la richiesta personale.
 
-* Un elenco o un report di attività personali. È possibile generare e applicare un filtro attività personale a un report o elenco attività. Per informazioni, vedere [Filtro: attività personali](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
+  Per informazioni, vedere [Creare elementi di lavoro e progetti dall&#39;area Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
+* Un elenco o un report di attività personali. È possibile creare e applicare un filtro attività personale a un report o a un elenco attività per visualizzare solo le attività personali ed escludere le attività di progetto.
 
-
-
-
+  Per informazioni, vedere [Filtro: attività personali](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).

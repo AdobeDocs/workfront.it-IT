@@ -5,14 +5,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1551'
 ht-degree: 1%
 
 ---
 
 # Concedere a un utente l&#39;accesso amministrativo completo
+
+<!--Audited: 12/2024-->
 
 >[!IMPORTANT]
 >
@@ -47,16 +49,18 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td>Piano</td> 
+   <td role="rowheader">Licenza Adobe Workfront*</td> 
+   <td> <p>Nuovo: Standard</p>
+   <p>Corrente: Piano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Devi essere un amministratore di Workfront. Per ulteriori informazioni, vedere <a href="#" class="MCXref xref selected">Concedere a un utente l'accesso amministrativo completo</a>.</p> <p><b>NOTA</b>: se non disponi ancora dell'accesso, chiedi all'amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <p>Devi essere un amministratore di Workfront. </td> 
   </tr> 
  </tbody> 
 </table>
 
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Concedere a un singolo utente l&#39;accesso completo come amministratore di sistema
@@ -64,11 +68,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 {{step-1-to-users}}
 
 1. Fare clic sul nome dell&#39;utente a cui si desidera concedere i diritti di amministratore.
-1. Fai clic sul menu Altro ![](assets/more-icon.png), quindi fai clic su **Modifica**.
+1. Fai clic sul menu **Altro** ![](assets/more-icon.png) a destra del nome utente, quindi fai clic su **Modifica**.
 
-1. Nella casella **Modifica persona** visualizzata, fare clic su **Accesso**.
-
-1. Nell&#39;elenco a discesa **livello di accesso**, selezionare il livello di accesso **Amministratore di sistema**.
+   Viene visualizzata la casella **Modifica persona**.
+1. Fai clic su **Accesso** nel pannello a sinistra.
+1. Nell&#39;elenco a discesa **Livello di accesso**, selezionare il livello di accesso **Amministratore di sistema**.
 
    A seconda delle modifiche apportate nel sistema, il nome di questo livello di accesso potrebbe essere stato modificato.
 
@@ -78,7 +82,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Accesso di un amministratore di Workfront e accesso di un utente del piano con diritti amministrativi  {#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights}
 
-Le due tabelle seguenti mostrano la differenza tra i diritti di accesso di un utente con un livello di accesso amministratore di Workfront e quelli di un utente con una licenza Pianificazione con alcuni diritti amministrativi.
+Le due tabelle seguenti mostrano la differenza tra i diritti di accesso di un utente con un livello di accesso Amministratore di sistema di Workfront e quelli di un utente con una licenza Pianificazione con alcuni diritti amministrativi.
 
 Gli amministratori di Workfront possono visualizzare tutti gli oggetti del sistema, indipendentemente da chi li ha creati, crearne di nuovi e modificare o eliminare quelli esistenti. Hanno accesso completo a tutti gli oggetti nel sistema.
 
