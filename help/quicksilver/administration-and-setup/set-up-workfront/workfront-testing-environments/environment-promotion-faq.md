@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 4ea4d7d8fd16d4c4d7c2fe5f7adb15c2b44b6705
+source-git-commit: 8fe93796b2bc89352ac2c924d6a5e3bf25551ff0
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 3%
@@ -32,7 +32,7 @@ La promozione dell’ambiente tra più domini non è attualmente supportata. Dev
 
 No. La promozione dell’ambiente è disponibile sia per le istanze di Workfront IMS che per quelle non-IMS.
 
-## Come possiamo sapere se la nostra istanza di Workfront è su licenza Prime o Ultimate?
+## Come possiamo scoprire se la nostra istanza di Workfront si trova su una licenza Prime o Ultimate?
 
 ### Risposta
 
@@ -68,7 +68,6 @@ Il rollback del pacchetto è disponibile per il pacchetto più recente, entro 24
 ## Sarà possibile saltare la promozione dei singoli componenti? Dove sono presenti le opzioni `Use Existing`, `Overwrite` e `Save with a new Name`&quot;, è possibile aggiungere `Skip` in modo da saltare la promozione dei singoli parametri?
 
 ### Risposta
-
 
 * &quot;Usa esistente&quot; equivale a &quot;ignorare&quot; o &quot;ignorare&quot; la distribuzione, perché viene mappato sull’oggetto esistente nell’ambiente di destinazione e non apporta modifiche.
 * Per ignorare gli oggetti, si consiglia di rimuovere

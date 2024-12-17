@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: e9df34c206dd65ccc2edec00087248eb4ed16f54
+source-git-commit: 8fe93796b2bc89352ac2c924d6a5e3bf25551ff0
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,8 @@ Dopo aver creato un pacchetto, puoi installarlo in un ambiente diverso.
 
 >[!IMPORTANT]
 >
->Se la Sandbox di aggiornamento personalizzata viene aggiornata durante la configurazione dell’oggetto per la promozione dell’ambiente, tale configurazione andrà persa con l’aggiornamento. È consigliabile non aggiornare la Sandbox di aggiornamento personalizzata a meno che tutti gli oggetti e i pacchetti di promozione dell’ambiente in sospeso non siano stati promossi correttamente.
+>* Se la Sandbox di aggiornamento personalizzata viene aggiornata durante la configurazione dell’oggetto per la promozione dell’ambiente, tale configurazione andrà persa con l’aggiornamento. È consigliabile non aggiornare la Sandbox di aggiornamento personalizzata a meno che tutti gli oggetti e i pacchetti di promozione dell’ambiente in sospeso non siano stati promossi correttamente.
+>* Gli oggetti creati nell&#39;ambiente di destinazione come parte dell&#39;installazione del pacchetto **not** hanno lo stesso ID dell&#39;oggetto nell&#39;ambiente originale. Ciò è dovuto al fatto che gli ID vengono assegnati dal sistema al momento della creazione degli oggetti.
 
 ## Requisiti di accesso
 
@@ -34,7 +35,7 @@ Devi avere i seguenti:
   <tr>
    <td><strong>[!DNL Adobe Workfront] piano</strong>
    </td>
-   <td> Prime o Ultimate (solo per i nuovi piani)
+   <td> Prime o Ultimate (solo nuovi piani)
    </td>
   </tr>
   <tr>
