@@ -6,16 +6,20 @@ description: Le persone devono essere aggiunte alla bacheca come membri prima ch
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 7ac846d6224663b4e820ab45379a4ab0611514bb
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
 
 # Aggiungere o rimuovere membri da una bacheca
 
+{{highlighted-preview}}
+
 Persone e team devono essere aggiunti alla bacheca come membri prima che possano visualizzarla.
+
+Per impostazione predefinita, il proprietario è il creatore di una bacheca. Il proprietario della bacheca è l’unica persona che può eliminarla o aggiornarne i filtri nel pannello Configura. <span class="preview">Solo un amministratore di sistema o il proprietario corrente della bacheca può modificare il proprietario della bacheca.</span>
 
 ## Requisiti di accesso
 
@@ -80,3 +84,23 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    >[!NOTE]
    >
    >Non puoi rimuovere il proprietario della bacheca.
+
+<div class="preview">
+
+## Cambia il proprietario della bacheca
+
+>[!NOTE]
+>
+>Solo un amministratore di sistema o il proprietario corrente della bacheca può modificare il proprietario della bacheca. Una bacheca può avere un solo proprietario.
+
+1. Accedi alla bacheca.
+1. Fai clic sul menu **[!UICONTROL Altro]** ![Altro menu](assets/more-icon-spectrum.png) accanto al nome della bacheca, quindi scegli **[!UICONTROL Cambia proprietario della bacheca]**.
+1. Nella finestra di dialogo Cambia proprietario della bacheca cercare e selezionare l&#39;utente che si desidera impostare come proprietario.
+
+   Non puoi cercare utenti che sono già membri della bacheca. Per rendere proprietario un membro esistente, devi prima rimuoverlo dalla bacheca. Facendo in modo che un utente sia il proprietario della bacheca, lo aggiunge alla bacheca.
+
+   Solo un utente può essere il proprietario della bacheca. Una squadra non può essere un proprietario.
+
+1. Fai clic su [!UICONTROL **Aggiorna**].
+
+</div>

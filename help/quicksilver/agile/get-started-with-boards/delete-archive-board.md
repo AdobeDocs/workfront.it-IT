@@ -7,9 +7,9 @@ description: Puoi eliminare o archiviare una bacheca in Workfront. L’eliminazi
 author: Lisa
 feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 3e33ba722ff066fd7fec8c7762c63e8c8d3fc4b8
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 # Eliminare o archiviare una bacheca
 
 È possibile eliminare o archiviare una bacheca in [!DNL Workfront]. Se si elimina una bacheca, questa viene rimossa definitivamente da [!DNL Workfront], mentre l&#39;archiviazione di una bacheca conserva tutte le schede e ne consente il ripristino in un secondo momento.
+
+Solo il proprietario della bacheca può eliminarla.
 
 ## Requisiti di accesso
 
@@ -58,7 +60,7 @@ Quando si elimina una bacheca, questa viene rimossa definitivamente da [!DNL Wor
 
    >[!NOTE]
    >
-   >Puoi eliminare solo le bacheche che hai creato, non quelle a cui sei stato aggiunto.
+   >Puoi eliminare solo le bacheche che hai creato o di cui sei stato nominato proprietario, non quelle di cui sei stato aggiunto come membro.
 
    ![Menu Altro bacheca](assets/boards-board-more-menu.png)
 
