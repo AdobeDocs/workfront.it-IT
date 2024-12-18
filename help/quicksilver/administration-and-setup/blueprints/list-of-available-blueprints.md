@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 04d41a8c9c8c04f2e7ef308465328ccc57bd3195
 workflow-type: tm+mt
-source-wordcount: '2019'
+source-wordcount: '2017'
 ht-degree: 0%
 
 ---
@@ -80,11 +80,9 @@ Questo blueprint contiene un modello che l&#39;organizzazione [!DNL Workfront pr
 Questo blueprint contiene un modello che l&#39;organizzazione dei servizi professionali [!DNL Workfront] ha utilizzato per anni durante gli impegni di implementazione con i team delle risorse umane per sollecitare gli specialisti delle risorse umane e i responsabili delle assunzioni a completare le attività essenziali per rendere straordinario il primo giorno di un nuovo dipendente.
 
 **Offboarding | Dashboard utente in partenza**
-
 Questo blueprint contiene un singolo dashboard con 13 rapporti per trovare, riassegnare o gestire in altro modo gli oggetti e le assegnazioni associati a un utente che esce da Workfront. Puoi inoltre utilizzare questi rapporti per consentire a un utente che si sposta in un nuovo ruolo o gruppo di riassegnare il proprio lavoro.
 
-[!BADGE Nuovo]{type=negative}**Dashboard di People Manager**
-
+**Dashboard di People Manager**
 Questo blueprint contiene un singolo dashboard con 12 rapporti per dare visibilità ai responsabili delle persone nel lavoro dei loro referenti diretti.
 
 **[!UICONTROL Post-implementazione: rollout nuovo caso d&#39;uso]**
@@ -138,7 +136,7 @@ Questo blueprint contiene un singolo dashboard con 21 rapporti per aiutarti a mi
 
 Questo blueprint contiene un’unica dashboard con 8 rapporti per aiutarti a sfruttare i vantaggi di Workfront. Questi rapporti sono progettati per aiutarti a tradurre i servizi rivolti ai clienti in un valore misurabile che puoi monitorare nel tempo per ottenere risultati migliori.
 
-[!BADGE Nuovo]{type=negative}**Realizzazione valore | Gestisci dashboard flussi di lavoro di conformità**
+**Realizzazione valore | Gestisci dashboard flussi di lavoro di conformità**
 
 Questo blueprint contiene un singolo dashboard con 7 rapporti per aiutarti a realizzare il valore di Workfront. Per l’uso quotidiano o in settori altamente regolamentati, questi rapporti, che consentono di risparmiare tempo, favoriscono la responsabilità e migliorano i risultati nel tempo, aiutando a tenere traccia e gestire i flussi di lavoro e le esigenze di conformità.
 
