@@ -6,18 +6,18 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: cd60710c8002d090bf1ed7a300d3e600d98032b1
+source-git-commit: 5e33bdb50b2f283606d3a7a74edaec701de60bca
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 1%
+source-wordcount: '395'
+ht-degree: 2%
 
 ---
 
-# Visualizzare i dettagli del progetto e dell&#39;attività nell&#39;elenco di lavoro Priorità
+# Visualizzare i dettagli del progetto e dell’attività in Priorità
 
 <span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
-È possibile visualizzare i dettagli del progetto e dell&#39;attività nell&#39;elenco delle priorità.
+Puoi visualizzare i dettagli del progetto, dell’attività e del problema nell’elenco di lavoro delle priorità.
 
 ## Requisiti di accesso
 
@@ -57,7 +57,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 +++
 
-## Visualizza dettagli progetto
+## Visualizzare i dettagli nel pannello laterale dell’elenco lavori
+
+### Visualizza dettagli progetto
 
 {{step1-to-priorities}}
 
@@ -72,7 +74,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    ![dettagli progetto](assets/project-details.png)
    <!--new screen for prod ![](assets/project-details-new.png)-->
 
-## Visualizza dettagli attività
+### Visualizza dettagli attività
 
 {{step1-to-priorities}}
 
@@ -80,10 +82,47 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Attività selezionata per impostazione predefinita. Qui è possibile
    * Visualizzare e modificare i dettagli e la descrizione del progetto
    * Visualizzare e aggiungere commenti al progetto
-   * Visualizzare e aggiungere documenti
+   * <span class="preview">Visualizza e aggiungi documenti</span>
+   * <span class="preview">Crea una bozza</span>
    * Registra ore
    * Aggiungi un file
    * Aggiungi collegamenti rapidi
 
    ![dettagli attività](assets/task-details.png)
    <!--new screen for prod ![](assets/task-details-new.png)-->
+
+### Visualizza dettagli problema
+
+{{step1-to-priorities}}
+
+1. Nell&#39;elenco lavori, passa il puntatore sul nome del lavoro, quindi fai clic sull&#39;icona **Riepilogo** ![apri icona riepilogo](assets/summary-icon.png).
+1. La Issue è selezionata per impostazione predefinita. Qui è possibile
+   * Visualizzare e modificare i dettagli e la descrizione del progetto
+   * Visualizzare e aggiungere commenti al progetto
+* <span class="preview">Visualizza e aggiungi documenti</span>
+* <span class="preview">Crea una bozza</span>
+   * Registra ore
+   * Aggiungi un file
+   * Aggiungi collegamenti rapidi
+
+  <!--new screen for prod ![issue details](assets/issue-details.png)-->
+
+## Visualizzare i dettagli nella pagina Dettagli
+
+<span class="preview">Puoi visualizzare gli aggiornamenti in tempo reale nella pagina Dettagli di un&#39;attività o di un problema. È inoltre possibile verificare se altri utenti visualizzano la pagina contemporaneamente a te con indicatori di presenza in tempo reale.</span>
+
+## Visualizza dettagli elemento di lavoro
+
+{{step1-to-priorities}}
+
+1. Nell&#39;elenco lavori fare clic sul nome dell&#39;elemento di lavoro. Nella pagina Dettagli puoi:
+
+* Visualizzare e modificare i dettagli e la descrizione del progetto
+* Visualizzare e aggiungere commenti al progetto
+* <span class="preview">Visualizza e aggiungi documenti</span>
+* <span class="preview">Crea una bozza</span>
+* Registra ore
+* Aggiungi un file
+* Aggiungi collegamenti rapidi
+
+<!-- screenshot for prod-->

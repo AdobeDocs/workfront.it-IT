@@ -6,9 +6,9 @@ description: Puoi rivedere le metriche di approvazione nelle dashboard di Canvas
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-source-git-commit: 53db0a80026d003250e3b31063fb9a502d2ddce1
+source-git-commit: 9c86cf877e0d1bbb0c4700dfc362062028496e3c
 workflow-type: tm+mt
-source-wordcount: '2054'
+source-wordcount: '1991'
 ht-degree: 1%
 
 ---
@@ -45,10 +45,6 @@ Dopo aver creato un dashboard, è possibile iniziare ad aggiungere indicatori KP
 È possibile visualizzare informazioni di alto livello sulle approvazioni di documenti con indicatori KPI e grafici. Le informazioni di drill-down non sono attualmente disponibili nella versione beta.
 
 ### KPI
-
->[!IMPORTANT]
->
->I dati di approvazione dei nuovi documenti vengono aggiornati durante le serate nel fuso orario USA di Mountain. Gli aggiornamenti in tempo reale sono pianificati e saranno presto disponibili.
 
 ![Esempi di KPI](assets/kpi-dashboard.png)
 
@@ -129,10 +125,6 @@ Dopo aver creato un dashboard, è possibile iniziare ad aggiungere indicatori KP
 
 ### Grafici
 
->[!IMPORTANT]
->
->I dati di approvazione dei nuovi documenti vengono aggiornati durante le serate nel fuso orario USA di Mountain. Gli aggiornamenti in tempo reale sono pianificati e saranno presto disponibili.
-
 ![Esempi di grafici](assets/chart-dashboard.png)
 
 #### Grafico Approvazioni per barra delle decisioni
@@ -179,10 +171,6 @@ Dopo aver creato un dashboard, è possibile iniziare ad aggiungere indicatori KP
 1. Fai clic su **Fine** nell&#39;angolo in alto a destra dello schermo.
 
 ## Aggiungere informazioni dettagliate di revisione e approvazione con le tabelle
-
->[!IMPORTANT]
->
->I dati di approvazione dei nuovi documenti vengono aggiornati durante le serate nel fuso orario USA di Mountain. Gli aggiornamenti in tempo reale sono pianificati e saranno presto disponibili.
 
 ![esempio tabella](assets/table-dashboard.png)
 

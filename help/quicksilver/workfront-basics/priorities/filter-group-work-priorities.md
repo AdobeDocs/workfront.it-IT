@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 1f27c7e56681fe8c22141b0a98b3dcdb547366d5
+source-git-commit: 449a8bbdacb77db2f8c697573bc8fa74641522e7
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '929'
 ht-degree: 6%
 
 ---
@@ -172,13 +172,14 @@ Per espandere o comprimere tutte le sezioni, aprire **Gruppo** e fare clic su **
 
 ## Filtrare e raggruppare il lavoro con priorità in Anteprima
 
-### Filtrare il lavoro
+### Filtrare il lavoro con filtri standard
 
 Puoi filtrare le attività e i problemi assegnati.
 
 {{step1-to-priorities}}
 
 1. Fai clic su **Filtri** in alto a sinistra nell&#39;elenco lavori.
+1. fare clic su **Filtri standard**.
 1. Selezionare uno o più filtri per limitare gli elementi di lavoro.
    ![](assets/filter-new.png)
 
@@ -243,6 +244,23 @@ Puoi filtrare le attività e i problemi assegnati.
 
 1. (Facoltativo) Fai clic su **Torna al valore predefinito** per ripristinare la selezione.
 
+### Filtrare il lavoro con filtri avanzati
+
+Utilizza il linguaggio naturale per filtrare rapidamente il lavoro.
+
+{{step1-to-priorities}}
+
+1. Fai clic su **Filtri** in alto a sinistra nell&#39;elenco lavori.
+1. Fare clic su **Filtri avanzati**.
+1. Digitare come si desidera filtrare il lavoro.
+
+   Puoi digitare:
+
+   * Mostra attività in ritardo
+   * Mostra le mie priorità principali
+   * Mostra lavoro in scadenza oggi
+
+
 ### Raggruppare il lavoro
 
 {{step1-to-priorities}}
@@ -261,6 +279,8 @@ Puoi filtrare le attività e i problemi assegnati.
 | Stato | Gli elementi vengono raggruppati in base ai seguenti stati: Nuovo, In corso, Completo. <br>Nota: al momento non è possibile utilizzare gli stati personalizzati nelle priorità. |
 
 +++
+
+
 
 ### Ordinare il lavoro
 

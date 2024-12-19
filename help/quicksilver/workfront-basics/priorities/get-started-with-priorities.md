@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: edc817b305622d704a1543b1e288731fc3bbff33
+source-git-commit: c709219fa78ed2742bd9b7286e35c09d1b3927ba
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 3%
+source-wordcount: '1002'
+ht-degree: 2%
 
 ---
 
@@ -29,7 +29,7 @@ In Priorità puoi filtrare e raggruppare il lavoro per aiutarti a gestire le sca
 
 ### Trovare il lavoro con i filtri
 
-Trova il tuo lavoro più importante con i filtri. Puoi filtrare le attività e i problemi assegnati nei seguenti modi:
+Trova il tuo lavoro più importante con i filtri. <span class="preview">È possibile utilizzare un linguaggio naturale per trovare il lavoro con il filtro avanzato</span> oppure utilizzare il filtro Standard per trovare le attività e i problemi assegnati:
 
 <table>
   <tbody>
@@ -166,11 +166,6 @@ Per ulteriori informazioni, consulta [Caricare i file in Priorities](/help/quick
 ![](assets/upload-file.png)
 <!--new screen for prod ![](assets/update-log-upload.png)-->
 
-### Visualizza documenti [!BADGE In arrivo]{type=Informative}
-
-La scheda Documenti consente di visualizzare tutti i file relativi a un elemento di lavoro. Sarà possibile filtrare i documenti in base al nome, al tipo di file o alla persona, nonché ordinare i documenti in base al nome e alla data di caricamento.
-
-Sarà inoltre possibile aprire il documento o la bozza.
 
 ### Aggiungi collegamenti rapidi
 
@@ -180,21 +175,33 @@ Puoi incorporare i collegamenti utilizzati di frequente nella pagina dei dettagl
 
 Per ulteriori informazioni, consulta [Aggiungere e gestire collegamenti rapidi in Priorità](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md).
 
-### Rivedi e approva le risorse [!BADGE In arrivo]{type=Informative}
+### Visualizza documenti [!BADGE disponibili in anteprima]{type=Informative}
 
-La possibilità di rivedere e approvare le risorse si trova nella roadmap delle priorità.
+La scheda Documenti consente di visualizzare tutti i file relativi a un elemento di lavoro. Sarà possibile filtrare i documenti in base al nome, al tipo di file o alla persona, nonché ordinare i documenti in base al nome e alla data di caricamento.
 
-Per il momento, consigliamo di utilizzare i widget Approvazione personale e Tutte le approvazioni in Nuova Home.
+Sarà inoltre possibile aprire il documento o la bozza.
 
-Per ulteriori informazioni, vedere [Aggiungere, modificare o rimuovere widget nella Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
+### Rivedi e approva le risorse [!BADGE Disponibili in anteprima]{type=Informative}
+
+Dalla scheda Documenti relativa a un’attività o a un problema, puoi
+
+* Creare bozze semplici o avanzate
+* Avvia il visualizzatore di verifica per lasciare commenti e prendere decisioni
 
 
 ## Utilizza [!DNL Catch me up] per vedere cosa ti sei perso [!BADGE In arrivo]{type=Informative}
 
 Utilizza la funzione [!DNL Catch me up] per vedere cosa ti sei perso. Il comando Recupera riepiloga aggiornamenti, documenti caricati, approvazioni e altre modifiche di rilievo apportate ai progetti entro i seguenti intervalli di tempo: 24 ore, 3 giorni, 7 giorni.
 
+<!--For more information, see Catch up on work in Priorities /help/quicksilver/workfront-basics/priorities/catch-me-up.md.-->
 
 ![](assets/catch-me-up.png)
+
+<!--need new screen for prod-->
+
+## Visualizza aggiornamenti in tempo reale nella pagina Dettagli [!BADGE Disponibile in anteprima]{type=Informative}
+
+Puoi visualizzare gli aggiornamenti in tempo reale nella pagina Dettagli di un’attività o di un problema. Puoi anche verificare se altri utenti visualizzano la pagina contemporaneamente a te con gli indicatori di presenza in tempo reale.
 
 ## Considerazioni
 
