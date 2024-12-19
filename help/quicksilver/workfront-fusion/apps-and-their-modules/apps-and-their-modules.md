@@ -10,9 +10,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: 84246c2720e54e270de217167e88e803a92fdafc
+source-git-commit: 4cc881f4f5a28bd105e6898ad7ffb57c1dafb563
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '233'
 ht-degree: 19%
 
 ---
@@ -87,6 +87,7 @@ Questa sezione contiene i seguenti articoli:
 * [Moduli immagine](../../workfront-fusion/apps-and-their-modules/image-module.md)
 * [[!DNL Jira] Moduli software](../../workfront-fusion/apps-and-their-modules/jira-software-modules.md)
 * [[!UICONTROL Moduli JSON]](../../workfront-fusion/apps-and-their-modules/json-modules.md)
+* [Modulo [!UICONTROL JSONata]](../../workfront-fusion/apps-and-their-modules/jsonata-module.md)
 * [Modulo [!UICONTROL JWT]](../../workfront-fusion/apps-and-their-modules/jwt-modules.md)
 * [[!DNL MariaDB] moduli](../../workfront-fusion/apps-and-their-modules/mariadb-modules.md)
 * [[!UICONTROL Moduli Markdown]](../../workfront-fusion/apps-and-their-modules/markdown-modules.md)
