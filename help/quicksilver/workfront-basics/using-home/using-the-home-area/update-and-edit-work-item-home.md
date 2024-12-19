@@ -6,10 +6,10 @@ description: Puoi visualizzare e aggiungere aggiornamenti a un elemento di lavor
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 4%
+source-wordcount: '906'
+ht-degree: 6%
 
 ---
 
@@ -17,11 +17,16 @@ ht-degree: 4%
 
 <!--Audited: April 2024-->
 
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 Puoi visualizzare e aggiungere aggiornamenti a un elemento di lavoro all&#39;interno dell&#39;area [!UICONTROL Home] in [!DNL Adobe Workfront]. È inoltre possibile modificare altri dati relativi all&#39;elemento di lavoro se si dispone dell&#39;accesso per modificarlo.
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
-
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -48,7 +53,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Autorizzazioni Contribute o superiori per le attività e i problemi su cui devi lavorare</p> </td> 
+   <td> <p>Autorizzazioni Contribute o superiore per le attività e i problemi su cui devi lavorare</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,36 +62,57 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 +++
 
-## Visualizzare gli aggiornamenti su un elemento di lavoro
+<!--not sure if this  from the old UI: we don't have a Work List anymore - should this section come off? 
 
-Puoi visualizzare gli aggiornamenti su qualsiasi elemento di lavoro nella [!UICONTROL Elenco lavori]:
+## View updates on a work item
+
+You can view updates on any work item in the [!UICONTROL Work List]:
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **[!UICONTROL Home]**.
+1. In the **[!UICONTROL Work List]** area, select the item where you want to view updates.\
+   Updates are displayed in the right panel.
+
+-->
+
+## Panoramica dei widget in cui è possibile aggiungere commenti o modificare elementi nell’area Home
+
+È possibile aggiungere commenti nei seguenti widget nell&#39;area Home:
+
+| Widget | Descrizione |
+|--------------|---------------------------------------------------------------------------------------------------|
+| Bacheche | Visualizza tutte le bacheche create o che sono state invitate a utilizzare |
+| Il mio lavoro | Visualizza le attività e i problemi assegnati all&#39;utente |
+| I miei progetti | Visualizza i progetti di cui sei proprietario o a cui lavori |
+| Le mie attività | Visualizza le attività assegnate a te |
+| I miei problemi | Visualizza le Issues assegnate a te |
+| Le mie richieste | Visualizza tutte le richieste inviate |
+| Le mie approvazioni | Visualizza tutte le approvazioni in sospeso, assegnate, delegate e inviate |
+| Menzioni | Visualizza i thread di commenti recenti in Workfront, in modo analogo alla pagina Aggiornamenti personali, nonché un pulsante di risposta che consente di comporre una risposta all’interno del widget. |
+
+È possibile modificare gli elementi di lavoro nei seguenti widget nell&#39;area Home:
+
+| Widget | Descrizione |
+|--------------|---------------------------------------------------------------------------------------------------|
+| Bacheche | Visualizza tutte le bacheche create o che sono state invitate a utilizzare |
+| Il mio lavoro | Visualizza le attività e i problemi assegnati all&#39;utente |
+| I miei progetti | Visualizza i progetti di cui sei proprietario o a cui lavori |
+| Le mie attività | Visualizza le attività assegnate a te |
+| I miei problemi | Visualizza le Issues assegnate a te |
+| Le mie richieste | Visualizza tutte le richieste inviate |
+| Le mie approvazioni | Visualizza tutte le approvazioni in sospeso, assegnate, delegate e inviate |
+
+## Aggiungere un commento a un elemento di lavoro nel widget Il mio lavoro
+
+Puoi fornire aggiornamenti su qualsiasi elemento di lavoro nel widget [!UICONTROL Il mio lavoro]:
 
 1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro o sul **menu principale** ![](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro, se disponibile, quindi fai clic su **[!UICONTROL Home]**.
-1. Nell&#39;area **[!UICONTROL Elenco lavori]**, selezionare l&#39;elemento in cui si desidera visualizzare gli aggiornamenti.\
-   Gli aggiornamenti vengono visualizzati nel pannello di destra.
+1. (Condizionale) Fai clic su **Personalizza** per aggiungere il widget [!UICONTROL **Il mio lavoro**].
 
+1. Individuare l&#39;elemento di lavoro che si desidera aggiornare nel widget [!UICONTROL **Il mio lavoro**].
+1. Passa il puntatore del mouse sul nome, quindi fai clic sull&#39;icona **Aggiungi nuovo aggiornamento**.
 
-
-## Aggiungere un commento a un elemento di lavoro
-
-Puoi fornire aggiornamenti su qualsiasi elemento di lavoro nell&#39;elenco [!UICONTROL Lavoro]:
-
-1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro o sul **menu principale** ![](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro, se disponibile, quindi fai clic su **[!UICONTROL Home]**.
-1. (Condizionale) Fai clic su **Personalizza** per aggiungere i seguenti widget:
-
-   | Widget | Descrizione |
-   |--------------|---------------------------------------------------------------------------------------------------|
-   | Bacheche | Visualizza tutte le bacheche create o che sono state invitate a utilizzare |
-   | Il mio lavoro | Visualizza le attività e i problemi assegnati all&#39;utente |
-   | I miei progetti | Visualizza i progetti di cui sei proprietario o a cui lavori |
-   | Le mie attività | Visualizza le attività assegnate a te |
-   | I miei problemi | Visualizza le Issues assegnate a te |
-   | Le mie richieste | Visualizza tutte le richieste inviate |
-   | Le mie approvazioni | Visualizza tutte le approvazioni in sospeso, assegnate, delegate e inviate |
-
-1. Individuare l&#39;elemento di lavoro da aggiornare.
-1. Passa il puntatore del mouse sul nome, quindi fai clic su **Aggiungi nuovo aggiornamento**.
    ![](assets/add-update-on-widget.png)
+
 1. Inizia a digitare il commento.
 1. (Facoltativo) Nella casella **Assegna tag a persone o team**, inizia a digitare il nome o l&#39;e-mail di un utente o di un team che desideri includere in questo commento, quindi selezionalo quando viene visualizzato nell&#39;elenco.
 1. (Facoltativo) Utilizza le opzioni nella barra degli strumenti Testo formattato per formattare il testo, aggiungere emoticon, collegamenti o immagini al commento, per migliorarne il contenuto.
@@ -96,24 +122,40 @@ Puoi fornire aggiornamenti su qualsiasi elemento di lavoro nell&#39;elenco [!UIC
    >
    >È possibile modificare il commento solo entro 15 minuti dall&#39;invio. Per modificare un commento, fai clic sul menu **Altro** nell&#39;angolo superiore destro del commento, quindi fai clic su **Modifica**.
 
-Per informazioni più dettagliate sull&#39;aggiunta di aggiornamenti, vedere [Aggiungere un aggiornamento a un elemento di lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   Per informazioni più dettagliate sull&#39;aggiunta di aggiornamenti, vedere [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+
+## Aggiungere un commento a un elemento nel widget Menzioni
+
+1. Aggiungi il widget **Menzioni** alla tua area Home.
+
+1. Individua l’elemento incluso in un aggiornamento per e al quale desideri rispondere.
+
+1. Fai clic su **Risposta**.
+
+   <div class="preview">
+
+   ![](assets/reply-to-comment-in-mentions-widget.png)
+
+   </div>
+
+1. Inizia a digitare il commento.
+1. (Facoltativo) Nella casella <span class="preview">**Assegna tag a persone**</span>, inizia a digitare il nome di un utente o di un team che desideri includere in questo commento, quindi selezionalo quando viene visualizzato nell&#39;elenco.
+1. (Facoltativo) Utilizza le opzioni nella barra degli strumenti Testo formattato per formattare il testo, aggiungere emoticon, collegamenti o immagini al commento, per migliorarne il contenuto.
+1. <span class="preview">Fare clic su **Invia** per aggiungere il commento all&#39;elemento di lavoro.</span>
+
+   >[!IMPORTANT]
+   >
+   ><span class="preview">È possibile modificare il commento solo entro 15 minuti dall&#39;invio. Per modificare un commento, fai clic sul menu **Altro** nell&#39;angolo superiore destro del commento, quindi fai clic su **Modifica**.</span>
+
+   <span class="preview">Per ulteriori informazioni dettagliate sull&#39;aggiunta di aggiornamenti, vedere [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).</span>
 
 ## Modificare un elemento di lavoro
 
 È possibile modificare qualsiasi campo di qualsiasi elemento di lavoro a cui si ha accesso per la modifica.
 
 1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro o sul **menu principale** ![](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro, se disponibile, quindi fai clic su **[!UICONTROL Home]**.
-1. (Condizionale) Fai clic su **Personalizza** per aggiungere i seguenti widget:
-
-   | Widget | Descrizione |
-   |--------------|---------------------------------------------------------------------------------------------------|
-   | Bacheche | Visualizza tutte le bacheche create o che sono state invitate a utilizzare |
-   | Il mio lavoro | Visualizza le attività e i problemi assegnati all&#39;utente |
-   | I miei progetti | Visualizza i progetti di cui sei proprietario o a cui lavori |
-   | Le mie attività | Visualizza le attività assegnate a te |
-   | I miei problemi | Visualizza le Issues assegnate a te |
-   | Le mie richieste | Visualizza tutte le richieste inviate |
-   | Le mie approvazioni | Visualizza tutte le approvazioni in sospeso, assegnate, delegate e inviate |
+1. (Condizionale) Fai clic su **Personalizza** per aggiungere il widget **Il mio lavoro**.
 
 1. Passa il puntatore del mouse sull&#39;elemento di lavoro, quindi fai clic sull&#39;icona **Riepilogo**.
    ![](assets/open-summary-new-home.png)

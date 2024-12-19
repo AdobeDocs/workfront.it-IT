@@ -6,14 +6,19 @@ description: Puoi usare l'area [!UICONTROL I miei aggiornamenti] per rivedere ra
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 57b6453d4e67e1cb70c4233c1150620867f2e9d1
+source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
 
+
 # Utilizza l&#39;area [!UICONTROL I miei aggiornamenti]
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 Puoi usare l&#39;area [!UICONTROL I miei aggiornamenti] per rivedere rapidamente le approvazioni in attesa della tua decisione o le conversazioni in cui sei stato incluso.
@@ -77,9 +82,13 @@ Prima di iniziare, è necessario disporre dei seguenti elementi:
 
    Le approvazioni e le richieste di accesso che ti vengono assegnate sono elencate nella prima metà della pagina, in **I miei aggiornamenti**.
 
+   <div class="preview">
+
    ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
-1. (Facoltativo) Scorri fino alla parte inferiore dell&#39;area [!UICONTROL I miei aggiornamenti] e fai clic sulla freccia rivolta a destra per visualizzare altre approvazioni visualizzate in altre pagine.
+   </div>
+
+1. (Facoltativo) Scorri fino alla parte inferiore dell&#39;area [!UICONTROL **I miei aggiornamenti**] e fai clic sulla freccia rivolta a destra per visualizzare altre approvazioni visualizzate in altre pagine.
 
    >[!TIP]
    >
@@ -157,7 +166,14 @@ Prima di iniziare, è necessario disporre dei seguenti elementi:
    * Utilizza la barra degli strumenti Testo formattato per formattare il testo, aggiungere collegamenti, elenchi, emoticon, virgolette o immagini al messaggio
    * Aggiungi utenti o team per notificare loro la tua risposta.
 
-     Dopo aver aggiunto la risposta, fai di nuovo clic su **[!UICONTROL Rispondi]**.
+     Per ulteriori informazioni sulla risposta agli aggiornamenti, vedere [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+     <span class="preview">Dopo aver aggiunto la risposta, fare clic su **[!UICONTROL Invia]**.</span>
+
+     <div class="preview">
 
      ![](assets/reply-in-the-my-updates-area.png)
+
+     </div>
+
 1. (Facoltativo) Fai clic su **[!UICONTROL Aggiungi alla pagina corrente]** per fissare l&#39;area [!UICONTROL I miei aggiornamenti] alla navigazione superiore.

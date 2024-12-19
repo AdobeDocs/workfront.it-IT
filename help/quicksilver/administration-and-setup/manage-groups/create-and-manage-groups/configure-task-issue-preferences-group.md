@@ -9,14 +9,18 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
 workflow-type: tm+mt
-source-wordcount: '1885'
-ht-degree: 2%
+source-wordcount: '2226'
+ht-degree: 1%
 
 ---
 
 # Configurare le preferenze per attività e problemi per un gruppo
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Se i gruppi dell’organizzazione devono configurare una preferenza per attività o problemi indipendentemente dalla modalità di configurazione a livello di sistema, un amministratore Adobe Workfront può sbloccare la preferenza. Quindi, in qualità di amministratore di gruppo, puoi configurare la preferenza per il gruppo e influenzerà tutte le attività o i problemi associati al gruppo.
 
@@ -91,10 +95,9 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    * [Nuovi valori predefiniti attività](#new-task-defaults)
    * [Problemi](#issues)
    * [Eliminazione](#deletion)
-
-   <!--* <span class="preview">[Move](#move)</span>-->
-
+   * <span class="preview">[Sposta](#move)</span>
    * [Date effettive](#actual-dates)
+   * [Delega](#delegation)
    * [Accesso](#access)
 
 ### Nuovi valori predefiniti attività {#new-task-defaults}
@@ -166,7 +169,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Consenti agli utenti di eliminare le attività e i problemi con ore registrate</td> 
+      <td role="rowheader">Consenti agli utenti di eliminare attività e problemi con ore registrate</td> 
       <td> <p> Consente di determinare se consentire l’eliminazione di attività o problemi in cui sono registrate le ore. Questa opzione è selezionata per impostazione predefinita.</p> 
        <div> 
         <p><b>Suggerimento</b>: questa impostazione si applica anche all'eliminazione di progetti con attività o problemi con ore registrate. Questa impostazione non si applica all’eliminazione di progetti in cui il tempo viene registrato direttamente per il progetto. </p> 
@@ -181,31 +184,27 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    </table>
 
 
-<!-- *****also replace the & with "and" in the Deletion section
-
 <div class="preview">
 
-### Move
+### Sposta
 
 <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Allow users to move tasks and issues with logged hours</td> 
-      <td> <p> Lets you determine whether you allow the move of tasks or issues where hours are logged. This option is selected by default.</p> 
-       <p>Consider the following:</p> 
+      <td role="rowheader">Consenti agli utenti di spostare attività e problemi con ore registrate</td> 
+      <td> <p> Consente di determinare se consentire lo spostamento di attività o problemi in cui vengono registrate le ore. Questa opzione è selezionata per impostazione predefinita.</p> 
+       <p>Considera quanto segue:</p> 
         <ul> 
-         <li> When it is selected, you can move tasks and issues that have time logged. The hours also move with the tasks or issues. </li>
-      <li>When you deselect this option, you receive a prohibitive warning when you move a task or issue with logged hours. The warning specifies that the administrator does not allow for tasks or issues with logged hours to be moved. The tasks or issues that have hours logged cannot be moved. </li></ul>
+         <li> Quando è selezionato, puoi spostare le attività e i problemi con tempo registrato. Le ore vengono spostate anche con le attività o i problemi. </li>
+      <li>Quando deselezioni questa opzione, viene visualizzato un avviso proibitivo quando sposti un’attività o un problema con ore registrate. L'avviso specifica che l'amministratore non consente lo spostamento di attività o problemi con ore registrate. Impossibile spostare le attività o i problemi con ore registrate. </li></ul>
       </td> 
      </tr> 
     </tbody> 
    </table>
 
 </div>
-
--->
 
 ### Date effettive {#actual-dates}
 
@@ -255,6 +254,28 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    This setting can be configured both at the system level and at the Team level. Enabling the Start button for everyone in the system automatically disables the same setting at the Team level.
    If the Work On It setting is enabled, then disabled, tasks and issues function with a Work On It button the way they did before.
    -->
+
+### Delega
+
+L&#39;abilitazione dell&#39;impostazione **[!UICONTROL Consenti agli utenti di delegare le loro attività e i loro problemi]** consente a tutti gli utenti del gruppo di delegare temporaneamente il loro lavoro ad altri.
+
+Quando questa impostazione è abilitata, gli utenti del gruppo possono visualizzare quanto segue:
+
+* Il collegamento [!UICONTROL **Delega**] nei rispettivi widget [!UICONTROL Il mio lavoro], [!UICONTROL Le mie attività] o [!UICONTROL I miei problemi] nell&#39;area [!UICONTROL Home]. Da lì possono delegare le assegnazioni di attività e problemi.
+
+  >[!NOTE]
+  >
+  >  Il collegamento [!UICONTROL **Delegate approvals**] è sempre abilitato nell&#39;area [!UICONTROL Home].
+
+* Indica che un&#39;attività o un problema è delegato a un altro utente nell&#39;area [!UICONTROL Assegnazioni e deleghe] nell&#39;intestazione dell&#39;attività o del problema.
+* Indica che un&#39;attività o un problema è delegato a un altro utente nel widget [!UICONTROL Il mio lavoro] in [!UICONTROL Home].
+
+  Se disattivi l&#39;impostazione [!UICONTROL Consenti agli utenti di delegare le attività e i problemi], le deleghe attualmente pianificate verranno interrotte e gli utenti delegati riceveranno una notifica e-mail di interruzione della delega.
+
+Per informazioni sulla delega del lavoro ad altri, vedere gli articoli seguenti:
+
+* [Panoramica sul lavoro dei delegati](../../../manage-work/delegate-work/delegate-work-overview.md)
+* [Delega attività e problemi](../../../manage-work/delegate-work/how-to-delegate-work.md)
 
 ### Accesso {#access}
 

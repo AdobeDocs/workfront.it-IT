@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
 workflow-type: tm+mt
-source-wordcount: '2107'
+source-wordcount: '2279'
 ht-degree: 0%
 
 ---
@@ -22,12 +22,10 @@ ht-degree: 0%
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 Linked to Converting Issues.-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
--->
 
 In qualità di amministratore [!DNL Adobe Workfront], puoi configurare le preferenze a livello di sistema per le attività e i problemi. Queste preferenze influiscono sul modo in cui gli utenti creano attività e problemi in [!DNL Workfront].
 
@@ -76,9 +74,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    * [[!UICONTROL Nuovi valori predefiniti attività]](#new-task-defaults)
    * [[!UICONTROL Problemi]](#issues)
    * [[!UICONTROL Eliminazione]](#deletion)
-
-   <!--* <span class="preview">[Move](#move)</span>-->
-
+   * <span class="preview">[Sposta](#move)</span>
    * [[!UICONTROL Date effettive]](#actual-dates)
    * [[!UICONTROL Delega]](#delegation)
    * [[!UICONTROL Accesso]](#access)
@@ -173,21 +169,17 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 * Quando deselezioni questa opzione, viene visualizzato un avviso proibitivo quando elimini un’attività o un problema con ore registrate o quando elimini un progetto con ore registrate per le relative attività o problemi. L&#39;avviso specifica che l&#39;amministratore non consente l&#39;eliminazione di attività o problemi con ore registrate. Impossibile eliminare le attività, i problemi o i progetti per i quali sono state registrate ore per attività e problemi.
 
-<!--*****also replace the & with "and" in the Deletion section
-
 <div class="preview">
 
-### Move
+### Sposta
 
-**[!UICONTROL Allow users to move tasks and issues with logged hours]**: Lets you determine whether you allow the move of tasks or issues where hours are logged. This option is selected by default.
+**[!UICONTROL Consenti agli utenti di spostare attività e problemi con ore registrate]**: consente di determinare se consentire lo spostamento di attività o problemi in cui sono registrate ore. Questa opzione è selezionata per impostazione predefinita.
 
-* When it is selected, you can move tasks and issues that have time logged. The hours also move with the tasks or issues. 
+* Quando è selezionato, puoi spostare le attività e i problemi con tempo registrato. Le ore vengono spostate anche con le attività o i problemi.
 
-* When you deselect this option, you receive a prohibitive warning when you move a task or issue with logged hours. The warning specifies that the administrator does not allow for tasks or issues with logged hours to be moved. The tasks or issues that have hours logged cannot be moved. 
+* Quando deselezioni questa opzione, viene visualizzato un avviso proibitivo quando sposti un’attività o un problema con ore registrate. L&#39;avviso specifica che l&#39;amministratore non consente lo spostamento di attività o problemi con ore registrate. Impossibile spostare le attività o i problemi con ore registrate.
 
 </div>
-
--->
 
 ### [!UICONTROL Date effettive] {#actual-dates}
 
@@ -216,7 +208,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ### Delega
 
-L&#39;abilitazione dell&#39;impostazione **[!UICONTROL Consenti agli utenti di delegare le loro attività e i loro problemi]** consente a tutti gli utenti in di delegare temporaneamente il loro lavoro ad altri.
+L&#39;abilitazione dell&#39;impostazione **[!UICONTROL Consenti agli utenti di delegare le loro attività e i loro problemi]** consente a tutti gli utenti del sistema di delegare temporaneamente il loro lavoro ad altri.
 
 Quando questa impostazione è abilitata, gli utenti possono visualizzare quanto segue:
 
@@ -229,7 +221,7 @@ Quando questa impostazione è abilitata, gli utenti possono visualizzare quanto 
 * Indica che un&#39;attività o un problema è delegato a un altro utente nell&#39;area [!UICONTROL Assegnazioni e deleghe] nell&#39;intestazione dell&#39;attività o del problema.
 * Indica che un&#39;attività o un problema è delegato a un altro utente nel widget [!UICONTROL Il mio lavoro] in [!UICONTROL Home].
 
-  Se disattivi l&#39;impostazione [!UICONTROL Consenti agli utenti di delegare le loro attività e i loro problemi], le deleghe attualmente pianificate verranno interrotte e gli utenti delegati riceveranno una notifica e-mail di interruzione della delega.
+  Se disattivi l&#39;impostazione [!UICONTROL Consenti agli utenti di delegare le attività e i problemi], le deleghe attualmente pianificate verranno interrotte e gli utenti delegati riceveranno una notifica e-mail di interruzione della delega.
 
 Per informazioni sulla delega del lavoro ad altri, vedere gli articoli seguenti:
 
