@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: 8b0c40d6fa5898581c50d6257bc2b2f2a4838b06
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '571'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,58 @@ ht-degree: 1%
 Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione del primo trimestre 2025. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del primo trimestre 2025, consulta [Panoramica sulla versione del primo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+<!--## Catch up on work in Priorities
+
+>[!NOTE]
+>
+>Preview release: December 20, 2024; Production release for all customers: With the 25.1 release (January 2025)
+>
+>_This feature is only available for customers on the Unified Adobe Experience using the AI Assistant._
+
+You can use Catch me up to help reduce the amount of time looking for information on active projects. 
+
+Powered by Workfront's AI Assistant, Catch me up summarizes updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, or 7 days.
+
+For more information, see [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).-->
+
+## Visualizza le modifiche in tempo reale nella pagina Dettagli in Priorità
+
+>[!NOTE]
+>
+>Versione di anteprima: 19 dicembre 2024; versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)
+
+Ora puoi visualizzare gli aggiornamenti in tempo reale nella pagina Dettagli di un’attività o di un problema. Puoi anche verificare se altri utenti visualizzano la pagina contemporaneamente a te con gli indicatori di presenza in tempo reale.
+
+Per ulteriori informazioni, vedere [Visualizzare i dettagli del progetto e dell&#39;attività nell&#39;elenco delle priorità](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).
+
+## Caricare e visualizzare documenti e bozze in Priorità
+
+>[!NOTE]
+>
+>Versione di anteprima: 19 dicembre 2024; versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)
+
+Ora puoi interagire con i documenti e le bozze per le attività e i problemi. Nella nuova scheda Documenti, è possibile:
+
+* Caricare un documento
+* Creare una bozza
+* Avvia il visualizzatore di bozze
+* E altro ancora
+
+<!--For more information, see [Upload Documents and create proofs in Priorities](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md).-->
+
+## La vista Calendario è ora disponibile in Priorità
+
+>[!NOTE]
+>
+>Versione di anteprima: 19 dicembre 2024; versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)
+
+Monitora facilmente il tuo lavoro con un calendario mensile chiaro e visivo. Con il calendario Priorità è possibile:
+
+* Utilizzare i filtri per trovare il lavoro
+* Visualizza campi come stato e livello di attivazione
+* Applicazione di colori per una rapida definizione delle priorità
+* E altro ancora
 
 ## Aggiornamenti all’elenco delle priorità
 

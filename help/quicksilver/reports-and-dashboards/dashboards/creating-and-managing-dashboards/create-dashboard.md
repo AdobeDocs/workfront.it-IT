@@ -6,9 +6,9 @@ description: Puoi creare dashboard per accedere rapidamente alle informazioni in
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 008713ef6587041310388c05909ad5f78fb9fa4c
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '499'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--Audited: 01/2024-->
 
-Puoi creare dashboard per accedere rapidamente alle informazioni in Adobe Workfront. Rapporti, calendari e pagine esterne possono essere aggiunti alle dashboard che puoi condividere con altri per una collaborazione ottimale.
+Puoi creare dashboard per accedere rapidamente alle informazioni in Adobe Workfront. È possibile aggiungere ai dashboard fino a 25 rapporti, calendari e pagine esterne da condividere con altri utenti per una collaborazione ottimale.
 
 Per ulteriori informazioni sulle dashboard, vedere [Introduzione alle dashboard](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
 

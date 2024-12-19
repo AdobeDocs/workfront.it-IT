@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '1824'
+source-wordcount: '1844'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guardare
                                 <p>Versione di produzione per tutti i clienti: con la versione 24.7 (18 luglio 2024)</p>
                             </li>
                         </ul>
-                        <p><i>Disponibile solo per le organizzazioni che utilizzano il nuovo piano Ultimate.</i></p>
+                        <p><i>Disponibile solo per le organizzazioni che fanno parte del nuovo piano Ultimate.</i></p>
                     </td>
                 </tr>
                 <tr>
@@ -295,10 +295,8 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guardare
                             <li>
                                 <p>Produzione per rilascio rapido: con la versione 24.5 (16 maggio 2024)</p>
                             </li>
-                            <li>
-                                <p>Versione di produzione per tutti i clienti: da annunciare</p>
-                            </li>
                         </ul>
+                    <p><i>Questa funzione verrà rimossa da Anteprima il 19 dicembre 2024 e da Produzione a rilascio rapido con 25.1 (gennaio 2025).</i></p>
                     </td>
                  </tr>
                  <tr>
@@ -315,10 +313,8 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guardare
                             <li>
                                 <p>Produzione per rilascio rapido: con la versione 24.5 (16 maggio 2024)</p>
                             </li>
-                            <li>
-                                <p>Versione di produzione per tutti i clienti: da annunciare</p>
-                            </li>
                         </ul>
+                    <p><i>Questa funzione verrà rimossa da Anteprima il 19 dicembre 2024 e da Produzione a rilascio rapido con 25.1 (gennaio 2025).</i></p>
                     </td>
                  </tr>
            </tbody>
@@ -427,7 +423,7 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guardare
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience è ora disponibile per altre organizzazioni Workfront</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Esperienza unificata Adobe ora disponibile per altre organizzazioni Workfront</a></p>
                         [!BADGE In produzione ]{type=Informative}
                         <p>Per consentire alle organizzazioni di accedere ai vantaggi di Adobe Unified Experience, abbiamo iniziato a renderla disponibile ai clienti Workfront esistenti. </p>
                     </td>

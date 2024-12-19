@@ -7,9 +7,9 @@ description: Lo scopo di una dashboard è quello di fornire un accesso rapido al
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Oggetti che è possibile aggiungere a un dashboard
 
-In Adobe Workfront, puoi popolare un dashboard con i seguenti elementi:
+In Adobe Workfront è possibile popolare un dashboard con un massimo di 25 dei seguenti elementi:
 
 * Report\
   Per ulteriori informazioni sulla creazione di report, vedere [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
