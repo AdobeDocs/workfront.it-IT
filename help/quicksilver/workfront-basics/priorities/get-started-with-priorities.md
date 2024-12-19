@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: c709219fa78ed2742bd9b7286e35c09d1b3927ba
+source-git-commit: b637694c598540343383af15658a069c305f6bbf
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 2%
+source-wordcount: '988'
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,8 @@ In Priorità puoi filtrare e raggruppare il lavoro per aiutarti a gestire le sca
 
 ### Trovare il lavoro con i filtri
 
-Trova il tuo lavoro più importante con i filtri. <span class="preview">È possibile utilizzare un linguaggio naturale per trovare il lavoro con il filtro avanzato</span> oppure utilizzare il filtro Standard per trovare le attività e i problemi assegnati:
+Trova il tuo lavoro più importante con i filtri. <!--<span class="preview">You can use a natural language to find work with the Smart filter</span>, or -->
+Puoi utilizzare il filtro Standard per trovare le attività e i problemi assegnati:
 
 <table>
   <tbody>
