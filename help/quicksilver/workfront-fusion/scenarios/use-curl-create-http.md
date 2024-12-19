@@ -6,10 +6,11 @@ title: Utilizzare cURL per aggiungere un modulo HTTP
 description: È possibile incollare una richiesta cURL nello scenario e Fusion crea un modulo HTTP configurato dalla richiesta cURL.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 4cc881f4f5a28bd105e6898ad7ffb57c1dafb563
+exl-id: 5eac3e87-0dd3-4bad-ae3e-77264329b717
+source-git-commit: 785f39fabcb19233fd1bc79c14222225a3ea72a2
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 0%
+source-wordcount: '283'
+ht-degree: 1%
 
 ---
 
@@ -69,10 +70,6 @@ Per informazioni sulle [!DNL Adobe Workfront Fusion] licenze, vedere [[!DNL Adob
 Per creare un modulo HTTP utilizzando cURL:
 
 1. Crea il testo della richiesta cURL al di fuori di Fusion, ad esempio in un editor di testo.
-
-   >[!IMPORTANT]
-   >
-   >Se utilizzi Fusion su un computer Windows, la richiesta cURL non deve includere interruzioni di riga.
 1. Copia la richiesta cURL negli Appunti.
 1. Fai clic sulla scheda **[!UICONTROL Scenario]** nel pannello a sinistra.
 1. Seleziona lo scenario in cui desideri creare il modulo.
@@ -89,10 +86,6 @@ Per creare un modulo HTTP utilizzando cURL:
 
 ## Risoluzione dei problemi
 
-Se il tuo cURL non viene incollato nello scenario, verifica quanto segue:
-
-* Controlla le impostazioni del browser per assicurarti che l’operazione Incolla dagli Appunti sia abilitata.
-* Se esegui Windows, controlla la richiesta cURL per assicurarti che non includa interruzioni di riga.
-
+Se il cURL non viene incollato nello scenario, controlla le impostazioni del browser per assicurarti che l’operazione Incolla dagli Appunti sia abilitata.
 
 
