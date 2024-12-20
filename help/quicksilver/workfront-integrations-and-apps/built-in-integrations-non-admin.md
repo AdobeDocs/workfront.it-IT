@@ -7,9 +7,9 @@ description: Puoi integrare [!DNL Adobe Workfront] con applicazioni di terze par
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: ac349d205d7526b03bebc497883f9ed1682191ad
+source-git-commit: 502e3fae874df91d4699867dcd25812659a3ffdf
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '502'
 ht-degree: 3%
 
 ---
@@ -99,8 +99,7 @@ Le seguenti integrazioni integrate sono attualmente disponibili in Workfront.
    <td role="rowheader">Calendari Microsoft (Office 365 / Outlook Live)</td> 
    <td> 
     <ul> 
-     <li> <p>Integrare con una versione basata sul Web di Outlook in Office 365 o Outlook Live ospitato dal cloud. </p> </li> 
-     <li> <p>Visualizzare tutti gli eventi del calendario [!DNL Outlook] e dei calendari associati selezionati, ad esempio i calendari di compleanni e festività, nel Calendario predefinito.</p>  <p>Nota: la configurazione del calendario di Outlook è completamente separata dal componente aggiuntivo di Outlook (integrazione di Outlook o Workfront per Outlook). Non è necessaria alcuna installazione per configurare il calendario.</p></li> 
+     <li> <p>Integrare con una versione basata sul Web di Outlook in Office 365 o Outlook Live ospitato dal cloud. </p>
     </ul> </td> 
   </tr> 
   <tr> 
