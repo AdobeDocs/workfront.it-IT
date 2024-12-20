@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: b637694c598540343383af15658a069c305f6bbf
+source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '1000'
 ht-degree: 3%
 
 ---
@@ -115,7 +115,7 @@ Per ulteriori informazioni, vedere [Assegnare la priorità agli elementi di lavo
 ![](assets/my-focus-column.png)
 <!-- new screen for prod ![](assets/worklist.png) -->
 
-### Utilizza la visualizzazione Calendario [!BADGE Disponibile a breve]{type=Informative}
+### Utilizza la visualizzazione Calendario [!BADGE Disponibile nell&#39;anteprima]{type=Informative}
 
 La visualizzazione Calendario fornisce una rappresentazione visiva delle attività e dei problemi. Puoi scegliere tra la visualizzazione per giorno, per settimana o per mese. Sarà inoltre possibile filtrare gli elementi in modo simile all’elenco lavori.
 
@@ -190,11 +190,11 @@ Dalla scheda Documenti relativa a un’attività o a un problema, puoi
 * Avvia il visualizzatore di verifica per lasciare commenti e prendere decisioni
 
 
-## Utilizza [!DNL Catch me up] per vedere cosa ti sei perso [!BADGE In arrivo]{type=Informative}
+## Utilizza [!DNL Catch me up] per vedere cosa ti sei perso [!BADGE Disponibile nell&#39;anteprima]{type=Informative}
 
 Utilizza la funzione [!DNL Catch me up] per vedere cosa ti sei perso. Il comando Recupera riepiloga aggiornamenti, documenti caricati, approvazioni e altre modifiche di rilievo apportate ai progetti entro i seguenti intervalli di tempo: 24 ore, 3 giorni, 7 giorni.
 
-<!--For more information, see Catch up on work in Priorities /help/quicksilver/workfront-basics/priorities/catch-me-up.md.-->
+Per ulteriori informazioni, consulta [Recuperare il lavoro in Priorità](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
 ![](assets/catch-me-up.png)
 

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
+source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '700'
 ht-degree: 1%
 
 ---
@@ -18,19 +18,19 @@ Questa pagina descrive tutti i miglioramenti apportati all’ambiente di antepri
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del primo trimestre 2025, consulta [Panoramica sulla versione del primo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
-<!--## Catch up on work in Priorities
+## Recuperare il lavoro in Priorità
 
 >[!NOTE]
 >
->Preview release: December 20, 2024; Production release for all customers: With the 25.1 release (January 2025)
+>Versione di anteprima: 20 dicembre 2024; versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)
 >
->_This feature is only available for customers on the Unified Adobe Experience using the AI Assistant._
+>_Questa funzionalità è disponibile solo per i clienti dell&#39;esperienza Unified Adobe che utilizzano l&#39;Assistente all&#39;intelligenza artificiale._
 
-You can use Catch me up to help reduce the amount of time looking for information on active projects. 
+Puoi utilizzare Recupera per contribuire a ridurre il tempo necessario per cercare informazioni sui progetti attivi.
 
-Powered by Workfront's AI Assistant, Catch me up summarizes updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, or 7 days.
+Con l’Assistente AI di Workfront, Catch me up riassume gli aggiornamenti, i documenti caricati e altre modifiche di rilievo sui progetti entro i seguenti intervalli di tempo: 24 ore, 3 giorni o 7 giorni.
 
-For more information, see [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).-->
+Per ulteriori informazioni, consulta [Recuperare il lavoro in Priorità](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
 ## Visualizza le modifiche in tempo reale nella pagina Dettagli in Priorità
 
