@@ -1,20 +1,22 @@
 ---
-title: Suggerimenti, trucchi e risoluzione dei problemi per  [!DNL Adobe Workfront] Nozioni di base
-description: Suggerimenti, trucchi e risoluzione dei problemi per  [!DNL Adobe Workfront] Nozioni di base
+title: 'Suggerimenti, trucchi e risoluzione dei problemi per  [!DNL Adobe Workfront]: indice articolo'
+description: Scopri suggerimenti per la risoluzione dei problemi o le risposte ad alcune domande frequenti, ma rivedendo gli articoli in questa sezione.
 author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 89a1ac84-123b-487e-8c91-615a36e246c3
-source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
 
-# Suggerimenti e risoluzione dei problemi per le nozioni di base su [!DNL Adobe Workfront]
+# Suggerimenti, trucchi e risoluzione dei problemi per [!DNL Adobe Workfront]: indice articolo
 
-Questa sezione contiene i seguenti articoli:
+<!--Audited: 12/2024-->
+
+Scopri suggerimenti per la risoluzione dei problemi o le risposte ad alcune domande frequenti, ma consultando i seguenti articoli:
 
 * [La tua guida rapida per trovare aiuto in [!DNL Adobe Workfront]](../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
 * [Contatta l’Assistenza clienti](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)
@@ -27,3 +29,4 @@ Questa sezione contiene i seguenti articoli:
 * [Cambia il formato delle date in [!DNL Adobe Workfront]](../tips-tricks-and-troubleshooting/change-date-format-chrome.md)
 * [Il filtro Progetti in corso include risultati imprevisti](../tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
 * [Più schede del browser causano la disconnessione di Workfront](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
+* [Come condividere gli oggetti senza generare notifiche](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/how-to-share-objects-without-sending-out-notifications.md)

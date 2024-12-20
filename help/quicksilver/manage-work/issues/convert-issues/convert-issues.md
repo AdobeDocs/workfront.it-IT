@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1476'
 ht-degree: 2%
 
 ---
@@ -33,6 +33,11 @@ Per informazioni sulla conversione dei problemi in progetti, vedere [Convertire 
 
    * Durante la conversione, potrebbe essere richiesto se si desidera mantenere il problema e la sua risoluzione legati al progetto o all&#39;attività che si sta creando.
    * Se si mantiene il problema, lo stato e la percentuale di completamento del progetto o dell&#39;attività aggiornano automaticamente lo stato e la percentuale di completamento del problema quando si verificano modifiche al progetto, all&#39;attività o al problema oppure quando Workfront ricalcola la timeline.
+
+  >[!NOTE]
+  >
+  >   Quando lo stato del problema diventa Chiuso (a seguito della chiusura dell&#39;attività o del progetto), indipendentemente dallo stato in cui si trova l&#39;attività o il progetto dopo la chiusura, il problema rimane chiuso.
+
 
 * Quando si converte un problema in un’attività o un progetto, il problema viene rimosso dall’area Home dell’utente assegnato al problema.
 

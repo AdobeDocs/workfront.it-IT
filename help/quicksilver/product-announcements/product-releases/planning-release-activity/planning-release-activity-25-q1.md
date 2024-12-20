@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '2114'
+source-wordcount: '2182'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,18 @@ Questo articolo descrive le funzioni rilasciate per Workfront Planning durante l
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning dopo il rilascio di disponibilità generale del 28 agosto 2024, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+
+## I campi di connessione con le risorse Adobe Experience Manager ora sono supportati nei moduli di richiesta
+
+>[!NOTE]
+>
+>Versione di anteprima: 20 dicembre 2024; versione di produzione per tutti i clienti: 16 gennaio 2025
+
+È ora possibile aggiungere campi di connessione con risorse AEM a un modulo di richiesta di tipo record in Workfront Planning.
+
+Prima di questo miglioramento, non era possibile aggiungere questi tipi di campi ai moduli di richiesta.
+
+Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 ## Configurare le approvazioni per le richieste di Workfront Planning
 

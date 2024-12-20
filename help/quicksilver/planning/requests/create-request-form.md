@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1553'
 ht-degree: 2%
 
 ---
@@ -150,13 +150,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >    * Data di creazione e data dell’ultima modifica
    >    * Campi di ricerca di oggetti Workfront
    >    * Campi di ricerca dei record connessi di Workfront Planning
-   >    * Campi connessi ad AEM Assets
    >* I campi dei seguenti tipi non vengono visualizzati nel modulo di richiesta nell’ambiente di produzione. <span class="preview">Vengono visualizzati nell&#39;ambiente di anteprima:</span>
    >    * <span class="preview"> campi collegati ai record di Workfront Planning</span>
    >    * <span class="preview">Persone </span>
    >    * <span class="preview">Campi connessi di oggetti Workfront</span>
    >    * <span class="preview">Campi connessi ad AEM Assets </span>
-
 
    * **Sezione predefinita**: questa è l&#39;interruzione di sezione predefinita che Workfront applica al modulo di richiesta. Impossibile rinominare o rimuovere la sezione predefinita.
    * Campo **Oggetto**: campo che identificherà la richiesta in Workfront. Questa funzionalità non è ancora disponibile nell’ambiente di produzione. <span class="preview">È disponibile nell&#39;ambiente di anteprima.</span> Impossibile modificare la configurazione e il valore del campo Subject.
