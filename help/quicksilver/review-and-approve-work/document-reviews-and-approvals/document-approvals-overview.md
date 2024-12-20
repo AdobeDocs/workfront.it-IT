@@ -6,7 +6,7 @@ description: È possibile aggiungere ulteriori approvatori o revisori a un docum
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 0b92e1b80aab05e1deb4651ef41f2a042d697e1e
+source-git-commit: 1fbb5cb2082e6b926930793984bd34a759c7eec7
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 1%
@@ -25,7 +25,7 @@ Le nuove approvazioni di documenti sono una riprogettazione completa del process
 
 **Differenze rispetto alla verifica**
 
-* I pulsanti di decisione per l&#39;approvazione dei documenti non sono disponibili nel visualizzatore di bozze. Le decisioni possono essere prese nella pagina Riepilogo documento, Widget Home Workfront o nella pagina Dettagli documento.
+* I pulsanti di decisione per l&#39;approvazione del documento non sono disponibili nel visualizzatore di bozze. Le decisioni possono essere prese nella pagina Riepilogo documento, Widget Home Workfront o nella pagina Dettagli documento.
 * I partecipanti all&#39;approvazione del documento vengono visualizzati nel Riepilogo del documento, non nella scheda del flusso di lavoro di verifica.
 * Le approvazioni di nuovi documenti non sono supportate nello strumento di reporting corrente. Il widget Tutte le approvazioni disponibile nei nuovi dashboard Home e Canvas fornisce i seguenti dettagli sulle nuove approvazioni di documenti:
 
