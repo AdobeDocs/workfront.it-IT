@@ -1,19 +1,19 @@
 ---
 navigation-topic: get-started-with-workfront
-title: Visualizzare i dettagli del progetto e dell'attività nell'elenco di lavoro Priorità
+title: Visualizzare i dettagli del progetto e dell'elemento di lavoro nell'elenco delle priorità
 description: È possibile visualizzare i dettagli del progetto e dell'attività nell'elenco delle priorità.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: 5e33bdb50b2f283606d3a7a74edaec701de60bca
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 2%
+source-wordcount: '401'
+ht-degree: 1%
 
 ---
 
-# Visualizzare i dettagli del progetto e dell’attività in Priorità
+# Visualizzare i dettagli del progetto e dell’elemento di lavoro in Priorità
 
 <span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
@@ -80,13 +80,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Nell&#39;elenco lavori, passa il puntatore sul nome del lavoro, quindi fai clic sull&#39;icona **Riepilogo** ![apri icona riepilogo](assets/summary-icon.png).
 1. Attività selezionata per impostazione predefinita. Qui è possibile
-   * Visualizzare e modificare i dettagli e la descrizione del progetto
+   * Visualizzare e modificare i dettagli e la descrizione del progetto e dell&#39;attività
    * Visualizzare e aggiungere commenti al progetto
    * <span class="preview">Visualizza e aggiungi documenti</span>
    * <span class="preview">Crea una bozza</span>
    * Registra ore
    * Aggiungi un file
    * Aggiungi collegamenti rapidi
+
 
    ![dettagli attività](assets/task-details.png)
    <!--new screen for prod ![](assets/task-details-new.png)-->
@@ -97,7 +98,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Nell&#39;elenco lavori, passa il puntatore sul nome del lavoro, quindi fai clic sull&#39;icona **Riepilogo** ![apri icona riepilogo](assets/summary-icon.png).
 1. La Issue è selezionata per impostazione predefinita. Qui è possibile
-   * Visualizzare e modificare i dettagli e la descrizione del progetto
+   * Visualizzare e modificare i dettagli e la descrizione del progetto e del problema
    * Visualizzare e aggiungere commenti al progetto
 * <span class="preview">Visualizza e aggiungi documenti</span>
 * <span class="preview">Crea una bozza</span>

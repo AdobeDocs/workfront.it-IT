@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '604'
 ht-degree: 1%
 
 ---
@@ -48,14 +48,14 @@ Per ulteriori informazioni, vedere [Visualizzare i dettagli del progetto e dell&
 >
 >Versione di anteprima: 19 dicembre 2024; versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)
 
-Ora puoi interagire con i documenti e le bozze per le attività e i problemi. Nella nuova scheda Documenti, è possibile:
+È ora possibile interagire con i documenti e le bozze per le attività e i problemi nell’elenco lavori e nel calendario. Nella nuova scheda Documenti, è possibile:
 
 * Caricare un documento
 * Creare una bozza
 * Avvia il visualizzatore di bozze
 * E altro ancora
 
-<!--For more information, see [Upload Documents and create proofs in Priorities](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md).-->
+Per ulteriori informazioni, consulta [Caricare documenti e creare bozze in Priorità](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md).
 
 ## La vista Calendario è ora disponibile in Priorità
 
@@ -63,12 +63,14 @@ Ora puoi interagire con i documenti e le bozze per le attività e i problemi. Ne
 >
 >Versione di anteprima: 19 dicembre 2024; versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)
 
-Monitora facilmente il tuo lavoro con un calendario mensile chiaro e visivo. Con il calendario Priorità è possibile:
+Ora puoi tenere traccia del tuo lavoro con un calendario chiaro e visivo. Con il calendario Priorità è possibile:
 
 * Utilizzare i filtri per trovare il lavoro
-* Visualizza campi come stato e livello di attivazione
-* Applicazione di colori per una rapida definizione delle priorità
+* Applicare campi personalizzati come stato e livello di attivazione per identificare il lavoro ad alta priorità
+* Applicazione dei colori per un&#39;organizzazione rapida
 * E altro ancora
+
+Per ulteriori informazioni, consulta [Gestire il lavoro nel calendario delle priorità](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md).
 
 ## Aggiornamenti all’elenco delle priorità
 

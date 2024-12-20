@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
-source-wordcount: '2295'
+source-wordcount: '2306'
 ht-degree: 0%
 
 ---
@@ -267,7 +267,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Caricare e visualizzare documenti e bozze in Priorità</a></p>
-            <p>Ora puoi interagire con i documenti e le bozze per le attività e i problemi. Nella nuova scheda Documenti, è possibile:</p>
+            <p>È ora possibile interagire con i documenti e le bozze per le attività e i problemi nell’elenco lavori e nel calendario. Nella nuova scheda Documenti, è possibile:</p>
             <ul>
                 <li>Caricare un documento</li>
                 <li>Creare una bozza</li>
@@ -287,11 +287,11 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             La vista Calendario è ora disponibile in Priorità</a></p>
-            <p>Monitora facilmente il tuo lavoro con un calendario mensile chiaro e visivo. Con il calendario Priorità è possibile:</p>
+            <p>Puoi tenere traccia del tuo lavoro con un calendario mensile chiaro e visivo. Con il calendario Priorità è possibile:</p>
             <ul>
                 <li>Utilizzare i filtri per trovare il lavoro</li>
-                <li>Visualizza campi come stato e livello di attivazione</li>
-                <li>Applicazione di colori per una rapida definizione delle priorità</li>
+                <li>Applicare campi personalizzati come stato e livello di attivazione per identificare il lavoro ad alta priorità</li>
+                <li>Applicazione dei colori per un'organizzazione rapida</li>
                 <li>E altro ancora</li>
             </ul>
         </td>
