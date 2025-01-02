@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 66659813798d330bb441b32c692693b54d4cfad6
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1457'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Per risparmiare tempo e comprendere meglio lo stato generale di un progetto, in 
 
 È possibile effettuare selezioni nei grafici per visualizzare diversi aspetti delle attività e dei problemi di un progetto e fare clic su alcuni elementi per visualizzare le informazioni sulle attività.
 
-Questa funzionalità è ora inclusa in [Planner Fundamentals, Part 3 learning path](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-20Y0z000000bm7xEAA) su Workfront One.
+<!--This feature is now included in the [Planner Fundamentals, Part 3 learning path](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-20Y0z000000bm7xEAA) on Workfront One. -->
 
 ## Novità per gli amministratori: assegnare un Business Leader a un gruppo
 
