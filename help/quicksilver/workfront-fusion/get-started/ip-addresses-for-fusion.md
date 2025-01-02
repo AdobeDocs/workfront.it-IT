@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion richiede una licenza Adobe Workfront Fusion 
 author: Becky
 feature: Workfront Fusion
 exl-id: f6295cc7-367f-4c8b-891b-cc11ff42a225
-source-git-commit: 2f1244d15ad7729941a35a1dc7ad9f1128d24404
+source-git-commit: 800cf889ff2729fca0c9d75d0ace0ecc1ee53a79
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Aggiungi i seguenti indirizzi IP al tuo inserisco nell&#39;elenco Consentiti di:
 * 20.81.156.240/28
 * 172.172.84.48/28
 
-Inoltre, se l’organizzazione utilizza il filtro di rete in uscita, aggiungi il seguente dominio al inserisco nell&#39;elenco Consentiti per consentire al sistema di accedere a Workfront Fusion.
+Inoltre, se l’organizzazione utilizza il filtro di rete in uscita, aggiungi il seguente dominio al inserisco nell&#39;elenco Consentiti per consentire al sistema di accedere a Workfront Fusion. Questi vengono utilizzati per i webhook.
 
 * hook.app.workfrontfusion.com
 * hook.app-eu.workfrontfusion.com
