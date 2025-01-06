@@ -1,19 +1,19 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Panoramica delle approvazioni di risorse e documenti
+title: Funzionalità disponibili per la revisione e l’approvazione di risorse e documenti
 description: Panoramica dei sistemi disponibili per la revisione e l'approvazione in Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 9bce16218e002912883994ce2ced6c9d2fce93e7
+exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
+source-git-commit: f2f58e3db7d99043281384cc2f6047fd9254f4fd
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
 
-
-# Panoramica delle approvazioni di risorse e documenti
+# Funzionalità disponibili per la revisione e l’approvazione di risorse e documenti
 
 Al momento in Workfront sono disponibili 3 diversi sistemi per la revisione e l’approvazione di risorse e documenti:
 
@@ -85,4 +85,6 @@ Funzioni disponibili per la verifica:
 
 * Utilizzare flussi di lavoro di base o automatizzati
 
-
+<!--
+## Upcoming deprecations
+-->
