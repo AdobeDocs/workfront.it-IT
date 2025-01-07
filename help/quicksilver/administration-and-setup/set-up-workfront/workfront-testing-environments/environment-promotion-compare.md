@@ -8,9 +8,9 @@ description: Puoi confrontare gli oggetti tra ambienti diversi per garantire che
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: f476b1f84fcb905537bde0c10d0a322773f6af0f
+source-git-commit: 2ff7a8b0ae3cc1f641c0d7c0b1384548c9603423
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -82,6 +82,12 @@ In questo esempio:
 * La terza riga mostra un oggetto non presente nell’ambiente di destinazione.
 
 >[!ENDSHADEBOX]
+
+Per visualizzare specifiche differenze tra gli oggetti:
+
+1. Fare clic sull&#39;icona della lente di ingrandimento ![](assets/compare-icon.png) nella riga dell&#39;oggetto.
+
+   Viene visualizzata una finestra con tutti i campi dell&#39;oggetto. le differenze sono evidenziate in rosso.
 
 ## Creare un pacchetto da un confronto di oggetti
 
