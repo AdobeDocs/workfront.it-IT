@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
+source-git-commit: 5755894ff320db368d07a3ab3ff18bbc9e157e0a
 workflow-type: tm+mt
-source-wordcount: '2380'
+source-wordcount: '2478'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,34 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+           Confrontare gli oggetti tra ambienti diversi per la promozione dell’ambiente</a></p>
+            <p>Per determinare più facilmente quale oggetto deve essere incluso in un pacchetto di promozione dell’ambiente, è stata aggiunta la possibilità di confrontare oggetti tra ambienti diversi. È quindi possibile aggiungere oggetti a un pacchetto direttamente da questo confronto.</p>
+        </td>
+        <td>
+            <p><b>Disponibile in queste date:</b></p>
+            <ul>
+                <li>Versione di anteprima: 6 gennaio 2024</li>
+                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Altri oggetti disponibili per la promozione dell’ambiente</a></p>
+            <p>Per espandere le funzionalità di promozione dell’ambiente, sono stati aggiunti altri oggetti.</p>
+        </td>
+        <td>
+            <p><b>Disponibile in queste date:</b></p>
+            <ul>
+                <li>Versione di anteprima: 6 gennaio 2024</li>
+                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)</li>
+            </ul>
+        </td>
+    </tr>  
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Impedisci lo spostamento di attività quando sono presenti ore registrate</a></p>
             <p>Poiché lo spostamento di attività o problemi che hanno registrato ore può talvolta causare problemi di conformità o di controllo, nell’area Preferenze attività e problemi di Configura è stata aggiunta una preferenza che consente di impedire agli utenti di spostare attività e problemi se sono presenti ore registrate.</p>
         </td>
@@ -71,7 +99,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                 <li>Versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)</li>
             </ul>
         </td>
-    </tr>  
+    </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
