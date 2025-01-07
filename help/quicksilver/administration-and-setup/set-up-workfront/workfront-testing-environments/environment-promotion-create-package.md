@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 2e4bcd6400971104e9138fab0faf20d33af32e51
+source-git-commit: 839b53afb9233ef0e36e981b243c8b2593b45f0f
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Devi avere i seguenti:
   <tr>
    <td><strong>[!DNL Adobe Workfront] piano</strong>
    </td>
-   <td> Prime o Ultimate (solo per i nuovi piani)
+   <td> Prime o Ultimate (solo nuovi piani)
    </td>
   </tr>
   <tr>
@@ -105,3 +105,15 @@ Un pacchetto deve essere nello stato `DRAFT` per essere modificato. Per spostare
 1. Per installare il pacchetto, fare clic su **Installa** in alto a destra.
 
    Per istruzioni sull&#39;installazione di un pacchetto, vedere [Installare un pacchetto di promozione dell&#39;ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).
+
+## Creare un pacchetto da un confronto di oggetti
+
+Puoi creare un pacchetto direttamente da un confronto di oggetti.
+
+1. Creare un confronto degli oggetti, come descritto in [Confrontare gli oggetti tra ambienti](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md).
+1. Nel confronto generato, selezionare gli oggetti che si desidera includere nel pacchetto.
+1. Fai clic su **Crea pacchetto** nell&#39;angolo superiore destro della schermata.
+1. Immettere un nome e una descrizione per il pacchetto.
+1. Fare clic su **Crea pacchetto** nella finestra Crea pacchetto.
+
+   Il pacchetto viene generato.
