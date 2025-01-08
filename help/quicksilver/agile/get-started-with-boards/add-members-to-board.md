@@ -6,9 +6,9 @@ description: Le persone devono essere aggiunte alla bacheca come membri prima ch
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: 7ac846d6224663b4e820ab45379a4ab0611514bb
+source-git-commit: bf8d566ba9d24310e75d2fbaf523fe5464bb6657
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -92,6 +92,8 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 >[!NOTE]
 >
 >Solo un amministratore di sistema o il proprietario corrente della bacheca può modificare il proprietario della bacheca. Una bacheca può avere un solo proprietario.
+>
+>La possibilità di cambiare il proprietario della bacheca è disponibile su bacheche di base, retrospettive e Kanban, ma non su bacheche dinamiche.
 
 1. Accedi alla bacheca.
 1. Fai clic sul menu **[!UICONTROL Altro]** ![Altro menu](assets/more-icon-spectrum.png) accanto al nome della bacheca, quindi scegli **[!UICONTROL Cambia proprietario della bacheca]**.
