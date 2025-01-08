@@ -6,7 +6,7 @@ description: Il Visualizzatore bozze desktop, progettato principalmente per la v
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: 7a8a4709bab58e6b802f578ea47b20babeebeb1b
+source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 0%
@@ -64,7 +64,7 @@ In caso contrario, puoi seguire i passaggi seguenti.
 1. Per scaricare l’app, effettua una delle seguenti operazioni:
 
    * Se si utilizza l&#39;ambiente di produzione, fare clic su [Download di produzione Mac per il Visualizzatore bozze desktop.](https://app.proofhq.com/desktopviewer/mac)
-   * Se si utilizza l&#39;ambiente di anteprima, fare clic su [Download anteprima Mac per il visualizzatore di bozze desktop.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.39.pkg)
+   * Se si utilizza l&#39;ambiente di anteprima, fare clic su [Download anteprima Mac per il visualizzatore di bozze desktop.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.44.pkg)
 
 1. Aprire il file appena scaricato per avviare l&#39;installazione.
 1. Nella casella di installazione visualizzata, fare clic su **Continua**, quindi su **Installa**.
@@ -88,7 +88,7 @@ Se l’amministratore di Workfront o Workfront Proof ha scaricato l’app sulla 
 1. Per scaricare l’app, effettua una delle seguenti operazioni:
 
    * Nell&#39;ambiente di produzione, fare clic su [Download di produzione Windows per il Visualizzatore bozze desktop.](https://app.proofhq.com/desktopviewer/windows)
-   * Nell&#39;ambiente di anteprima, fare clic su [Scarica anteprima Windows per il Visualizzatore bozze desktop](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.39.exe)
+   * Nell&#39;ambiente di anteprima, fare clic su [Scarica anteprima Windows per il Visualizzatore bozze desktop](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.44.exe)
 
 1. Aprire il file appena scaricato per avviare l&#39;installazione.
 1. Nella casella di installazione visualizzata, aprire il file appena scaricato per avviare l&#39;installazione.

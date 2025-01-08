@@ -6,9 +6,9 @@ description: Il widget Il mio lavoro mostra tutte le attività, i problemi e le 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
-source-git-commit: 8880891c0f5fd8fecad6c2f58136d36a943105ae
+source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '725'
 ht-degree: 5%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 5%
 # Gestisci il tuo lavoro con il widget Il mio lavoro
 
 Il widget Il mio lavoro mostra tutte le attività, i problemi e le richieste assegnati in un&#39;unica posizione. In questa finestra è possibile filtrare e organizzare il lavoro, registrare il tempo, apportare aggiornamenti e contrassegnare gli elementi di lavoro come completati.
+
+>[!IMPORTANT]
+>
+>Per visualizzare le attività e i problemi nel widget Il mio lavoro, il progetto principale deve trovarsi nello stato Corrente o in uno stato equivalente a Corrente.
 
 ## Requisiti di accesso
 

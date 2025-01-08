@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
+source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '426'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,11 @@ ht-degree: 1%
 <span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 Puoi visualizzare i dettagli del progetto, dell’attività e del problema nell’elenco di lavoro delle priorità.
+
+>[!IMPORTANT]
+>
+>I progetti devono essere nello stato Attuale o in uno stato che sia uguale a Attuale per poter visualizzare i progetti e le relative attività e Issues figlio.
+
 
 ## Requisiti di accesso
 

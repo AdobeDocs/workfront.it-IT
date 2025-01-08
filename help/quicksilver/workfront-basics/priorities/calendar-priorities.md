@@ -5,13 +5,13 @@ description: Tieni traccia del tuo lavoro con un calendario chiaro e visivo.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
+exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
+source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '538'
 ht-degree: 4%
 
 ---
-
 
 # Gestire il lavoro nel calendario Priorità
 
@@ -22,6 +22,11 @@ Monitora facilmente il tuo lavoro con un calendario chiaro e visivo. Con il cale
 * Utilizzare i filtri per trovare il lavoro
 * Applicare campi personalizzati come stato e livello di attivazione per identificare il lavoro ad alta priorità
 * Applicazione dei colori per un&#39;organizzazione rapida
+
+>[!IMPORTANT]
+>
+>I progetti devono essere nello stato Attuale o in uno stato che sia uguale a Attuale per poter visualizzare i progetti e le relative attività e Issues figlio.
+
 
 ## Requisiti di accesso
 
@@ -154,4 +159,3 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Nella scheda **Colore** scegliere la modalità di visualizzazione degli elementi di lavoro. Se ad esempio si sceglie Progetto, gli elementi di lavoro vengono visualizzati in base al colore assegnato al progetto nell&#39;elenco lavori.
    ![progetto colore campione](assets/sample-calendar-projects.png)
-
