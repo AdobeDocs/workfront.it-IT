@@ -6,20 +6,20 @@ product-area: workfront-integrations
 keywords: connettore
 navigation-topic: apps-and-their-modules
 title: Moduli Adobe Experience Manager Assets
-description: Con il connettore  [!DNL Adobe Experience Manager Assets]  per l'account  [!DNL Adobe Workfront Fusion], you can start a scenario based on events in your [!DNL Adobe Experience Manager Assets] , crea, carica e aggiorna le risorse e copia o sposta cartelle e risorse.
+description: Con il connettore  [!DNL Adobe Experience Manager Assets]  per  [!DNL Adobe Workfront Fusion], puoi creare, caricare e aggiornare risorse e copiare o spostare cartelle e risorse.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: a287bc6d7d4755deb19296523d1666f0fcb60526
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1716'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Experience Manager Assets] moduli
 
-Con il connettore [!DNL Adobe Experience Manager Assets] per [!DNL Adobe Workfront Fusion], puoi avviare uno scenario basato sugli eventi nel tuo account [!DNL Adobe Experience Manager Assets], creare, caricare e aggiornare le risorse e copiare o spostare cartelle e risorse.
+Con il connettore [!DNL Adobe Experience Manager Assets] per [!DNL Adobe Workfront Fusion], puoi creare, caricare e aggiornare risorse e copiare o spostare cartelle e risorse.
 
 Per un’introduzione al connettore Adobe Experience Manager Assets, consulta:
 
@@ -52,7 +52,7 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   <tr> 
    <td role="rowheader">Prodotto</td> 
    <td>
-   <p>Fabbisogno prodotto corrente: se disponi del piano [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo. [!DNL Workfront Fusion] è incluso nel piano [!UICONTROL Ultimate] [!DNL Workfront].</p>
+   <p>Fabbisogno prodotto corrente: se si dispone del piano [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], l'organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo. [!DNL Workfront Fusion] è incluso nel piano [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>Oppure</p>
    <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] e [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</p>
    </td> 
