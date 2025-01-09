@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '2226'
-ht-degree: 1%
+source-wordcount: '2245'
+ht-degree: 2%
 
 ---
 
@@ -198,7 +198,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
        <p>Considera quanto segue:</p> 
         <ul> 
          <li> Quando è selezionato, puoi spostare le attività e i problemi con tempo registrato. Le ore vengono spostate anche con le attività o i problemi. </li>
-      <li>Quando deselezioni questa opzione, viene visualizzato un avviso proibitivo quando sposti un’attività o un problema con ore registrate. L'avviso specifica che l'amministratore non consente lo spostamento di attività o problemi con ore registrate. Impossibile spostare le attività o i problemi con ore registrate. </li></ul>
+      <li>Quando deselezioni questa opzione, viene visualizzato un avviso proibitivo quando sposti un’attività o un problema con ore registrate. L'avviso specifica che l'amministratore non consente lo spostamento di attività o problemi con ore registrate. Impossibile spostare in un altro progetto le attività o i problemi registrati. È possibile spostare le attività con ore registrate all’interno dello stesso progetto, anche deselezionando questa opzione.  </li></ul>
       </td> 
      </tr> 
     </tbody> 

@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 17a277a5a63a521ec7285e3f5051bfd42fc204bf
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '3657'
+source-wordcount: '3848'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,10 @@ ht-degree: 0%
 
 <!--Audited: 12/2023-->
 
-<!--remove all preview and production references from this article with 23.3 release-->
+<!--remove all preview and production references if any-->
+<!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). 
-
-<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
--->
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente di anteprima per tutti i clienti.</span>
 
 È possibile registrare il tempo degli elementi di lavoro in Adobe Workfront per indicare il numero di ore dedicate al loro lavoro. È inoltre possibile registrare il tempo non correlato al lavoro, ad esempio ferie, malattia o riunioni. L&#39;ora registrata viene visualizzata nella scheda orario.
 
@@ -490,23 +486,74 @@ Per ulteriori informazioni, vedere [Adobe Workfront per Android](/help/quicksilv
 * Numero di ore
 * Tipo di ora
 * Ruolo associato alla voce delle ore
+* Descrizione della voce dell&#39;ora
 
-A seconda del tipo di ore che si modificano, sono disponibili per la modifica i campi riportati di seguito.
+A seconda del tipo di voci orarie modificate, i campi seguenti sono disponibili per la modifica in un elenco o in un report di ore:
 
 * Quando si modificano le ore specifiche di un progetto:
 
-   * Puoi modificare il numero di ore.
-   * Puoi cambiare il Tipo di Ora solo in tipi specifici per il progetto.
-   * È possibile modificare l&#39;assegnazione del ruolo delle ore solo se è stata abilitata in Configurazione. Per informazioni, consulta [Configurare le preferenze di orario e scheda orario](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
+   * Numero di ore
+   * Il Tipo di Ora. Puoi cambiare il Tipo di Ora solo in tipi specifici per il progetto.
+   * Assegnazione mansione. È possibile modificare l&#39;assegnazione della mansione solo se è stata abilitata in Configurazione. Per informazioni, consulta [Configurare le preferenze di orario e scheda orario](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
+   * Descrizione della voce di ore.
+
+<div class="preview">
+
+![](assets/edit-hour-box-project-hour-type.png)
+
+</div>
 
 * Quando si modificano le ore generali:
 
-   * Puoi modificare il numero di ore.
-   * È possibile modificare il Tipo di Ora solo in tipi generali.
-   * Non è possibile modificare l&#39;assegnazione del ruolo alle ore, perché le ore generali non possono essere associate ai ruoli.
+   * Il numero di ore.
+   * Il Tipo di Ora. È possibile modificare il Tipo di Ora solo in tipi generali.
+   * Descrizione della voce di ore.
+
+>[!TIP]
+>
+> Non è possibile modificare l&#39;assegnazione del ruolo alle ore, perché le ore generali non possono essere associate ai ruoli.
+
+<!--update the screen shot at production - we should not see the job role field for general hours-->
+
+![](assets/edit-hour-box-general-overhead-hour-type.png)
+
 
 * Quando si modifica una combinazione di ore generali e di ore specifiche per il progetto, in blocco:
 
-   * Puoi modificare il numero di ore.
-   * Non è possibile modificare il Tipo di Ora, perché i Tipi di Ora generali non possono essere modificati in Tipi di Ora specifici del progetto e i Tipi di Ora specifici del progetto non possono essere modificati in Tipi Generali.
-   * Non è possibile modificare l&#39;assegnazione della mansione, perché le ore generiche non possono essere associate ai ruoli.
+   * Il numero di ore.
+   * Descrizione della voce di ore.
+
+>[!TIP]
+>
+>* Non è possibile modificare il Tipo di Ora, perché i Tipi di Ora generali non possono essere modificati in Tipi di Ora specifici del progetto e i Tipi di Ora specifici del progetto non possono essere modificati in Tipi Generali.
+>* Non è possibile modificare l&#39;assegnazione della mansione, perché le ore generiche non possono essere associate ai ruoli.
+
+
+<!--update the screen shot at production - we should not see the job role and the hour type fields for mixed hour types-->
+
+![](assets/edit-hour-box-mixed-hour-types-in-bulk.png)
+
+Per modificare i tipi di ore in un report o un elenco di ore:
+
+1. Passa a un elenco di ore o a un report.
+1. Fare clic sulla casella a sinistra di una o più ore per selezionarle.
+1. Fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png) nella parte superiore dell&#39;elenco.
+
+   Viene visualizzata la casella **Modifica ore** o **Modifica ore**.
+1. Aggiorna uno dei seguenti campi disponibili:
+
+   * Ore. Questo è un campo obbligatorio.
+   * Tipo di Ora. Questo è un campo obbligatorio.
+   * Ruolo
+   * Descrizione
+
+   >[!TIP]
+   >
+   >   Non tutti i campi sono disponibili, a seconda del tipo di ora associato alle voci orarie selezionate.
+
+1. Fai clic su **Salva <span class="preview">modifiche</span>**.
+
+   Le informazioni sulle ore vengono aggiornate.
+Se sono state selezionate più ore e si è modificato il campo Ore, la stessa quantità di ore viene allocata a tutte le ore selezionate. Le ore originali vengono sostituite con il nuovo valore per tutte le ore inserite selezionate.
+
+

@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!-- Audited: 2/2024 -->
 
-I gruppi di argomenti sono associati alle code di richieste. Consentono di disporre le code di richieste in più categorie, a seconda della natura delle richieste.
+I gruppi di argomenti sono associati alle code di richieste. È possibile disporre le code di richieste in più categorie, a seconda della natura delle richieste, utilizzando i gruppi di argomenti.
 
 ## Requisiti di accesso
 
@@ -64,12 +64,12 @@ Ad esempio, se disponi di una coda di richieste per richieste di marketing, puoi
 
 Per ulteriori informazioni su come creare code di richieste, vedere [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
->[!TIP]
->
->* È possibile creare fino a 10 livelli di Gruppi di argomenti in una coda di richieste.
->* Non esiste alcun limite al numero di argomenti della coda che è possibile associare a un gruppo di argomenti.
->* I gruppi di argomenti sono oggetti segnalabili.
->
+Quando si lavora con i gruppi di argomenti, tenere presente quanto segue:
+
+* È possibile creare fino a 10 livelli di Gruppi di argomenti in una coda di richieste.
+* Non esiste alcun limite al numero di argomenti della coda che è possibile associare a un gruppo di argomenti.
+* I gruppi di argomenti sono oggetti segnalabili.
+* Non è possibile spostare gruppi di argomenti da un progetto a un altro.
 
 ## Crea gruppi di argomenti
 

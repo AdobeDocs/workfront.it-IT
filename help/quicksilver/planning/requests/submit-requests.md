@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '975'
 ht-degree: 0%
 
 ---
@@ -149,9 +149,10 @@ Prima di inviare una richiesta a un modulo di richiesta Workfront Planning, è n
 
    Il modulo viene inviato e si verificano gli eventi seguenti:
 
-   * Se il modulo di richiesta non è stato associato a un&#39;approvazione o <span class="preview">se l&#39;approvazione è stata concessa da tutti gli approvatori</span>, viene aggiunto un nuovo record al tipo di record associato al modulo.
+   * Se il modulo di richiesta non è stato associato a un&#39;approvazione, la richiesta viene aggiunta alla scheda <span class="preview">Pianificazione della sezione Inviata dell&#39;area Richieste di Workfront </span> e viene aggiunto un nuovo record al tipo di record associato al modulo.
 
-   * Se il modulo di richiesta non è associato a un&#39;approvazione, la richiesta <span class="preview"> viene aggiunta alla scheda Pianificazione della sezione Inviata dell&#39;area Richieste Workfront e viene aggiunto un nuovo record alla pagina del tipo di record.</span>
+   * Se il modulo di richiesta è stato associato a un&#39;approvazione, la richiesta <span class="preview"> viene aggiunta alla scheda Pianificazione della sezione Inviata dell&#39;area Richieste Workfront. Un nuovo record viene aggiunto alla pagina del tipo di record solo dopo l&#39;approvazione di tutti gli approvatori.</span>
+     <span class="preview">Per informazioni, vedere [Aggiungere un&#39;approvazione a un modulo di richiesta](/help/quicksilver/planning/requests/add-approval-to-request-form.md).</span>
 
      ![](assets/planning-tab-in-requests.png)
 
@@ -159,9 +160,6 @@ Prima di inviare una richiesta a un modulo di richiesta Workfront Planning, è n
      >
      ><span class="preview">Tutti gli utenti che hanno accesso ad almeno un&#39;area di lavoro possono visualizzare la scheda Pianificazione nell&#39;area Richieste. Puoi visualizzare solo le richieste inviate da te o da altri utenti alle aree di lavoro per le quali disponi almeno delle autorizzazioni di visualizzazione. Gli amministratori di Workfront possono visualizzare tutte le richieste inviate a qualsiasi area di lavoro del sistema. </span> <!--ensure this is correct; asking team in slack-->
 
-   * <span class="preview">Se il modulo di richiesta era associato a un&#39;approvazione, la richiesta viene temporaneamente salvata nella scheda Pianificazione nella sezione Inviata dell&#39;area Richieste Workfront. Nessun record creato per il tipo di record associato al modulo di richiesta.</span>
-
-     <span class="preview">Per informazioni, vedere [Aggiungere un&#39;approvazione a un modulo di richiesta](/help/quicksilver/planning/requests/add-approval-to-request-form.md).</span>
    * <span class="preview">Ricevi una notifica in-app e un messaggio e-mail che informa che la richiesta è stata inviata correttamente o è stata inviata per la revisione.</span>
    * <span class="preview">Se il modulo di richiesta era associato a un&#39;approvazione, gli approvatori ricevono una notifica in-app e un messaggio di posta elettronica per rivedere e approvare la richiesta.</span>
 

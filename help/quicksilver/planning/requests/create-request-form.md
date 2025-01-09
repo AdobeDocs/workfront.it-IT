@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1564'
 ht-degree: 2%
 
 ---
@@ -139,33 +139,40 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    * Campi record disponibili nella vista tabella del tipo di record selezionato. <!--they are working on removing the limitation below-->
 
-   >[!IMPORTANT]
-   >
-   > A seconda dell’ambiente utilizzato per creare un modulo di richiesta, esistono gli scenari seguenti:
-   >
-   >* I campi dei tipi seguenti non vengono visualizzati nel modulo di richiesta <span class="preview"> negli ambienti Anteprima </span> o Produzione:
-   >
-   >    * Creato da e Ultima modifica da
-   >    * Formula
-   >    * Data di creazione e data dell’ultima modifica
-   >    * Campi di ricerca di oggetti Workfront
-   >    * Campi di ricerca dei record connessi di Workfront Planning
-   >* I campi dei seguenti tipi non vengono visualizzati nel modulo di richiesta nell’ambiente di produzione. <span class="preview">Vengono visualizzati nell&#39;ambiente di anteprima:</span>
-   >    * <span class="preview"> campi collegati ai record di Workfront Planning</span>
-   >    * <span class="preview">Persone </span>
-   >    * <span class="preview">Campi connessi di oggetti Workfront</span>
-   >    * <span class="preview">Campi connessi ad AEM Assets </span>
+<!-- when we go to prod, the Preview batch below will become the only batch-->
 
-   * **Sezione predefinita**: questa è l&#39;interruzione di sezione predefinita che Workfront applica al modulo di richiesta. Impossibile rinominare o rimuovere la sezione predefinita.
-   * Campo **Oggetto**: campo che identificherà la richiesta in Workfront. Questa funzionalità non è ancora disponibile nell’ambiente di produzione. <span class="preview">È disponibile nell&#39;ambiente di anteprima.</span> Impossibile modificare la configurazione e il valore del campo Subject.
+>[!IMPORTANT]
+>
+> A seconda dell’ambiente utilizzato per creare un modulo di richiesta, esistono gli scenari seguenti:
+>
+>* I campi dei seguenti tipi non vengono visualizzati nel modulo di richiesta nell’ambiente di produzione:
+>
+>    * Creato da e Ultima modifica da
+>    * Data di creazione e data dell’ultima modifica
+>    * Formula
+>    * Persone
+>    * Campi connessi a Workfront
+>    * Campi di ricerca di oggetti Workfront
+>    * Campi collegati dei record di Workfront Planning
+>    * Campi di ricerca dei record connessi di Workfront Planning
+>    * Campi di connessione AEM Assets
+>* I campi dei tipi seguenti non vengono visualizzati nel modulo di richiesta in <span class="preview">ambiente di anteprima:</span>
+>    * <span class="preview"> Creato da e Ultima modifica da</span>
+>    * <span class="preview">Data di creazione e data ultima modifica</span>
+>    * <span class="preview">Formula</span>
+>    * <span class="preview"> campi di ricerca di oggetti Workfront</span>
+>    * <span class="preview">Campi di ricerca dei record connessi a Workfront Planning </span>
 
-     >[!TIP]
-     >
-     >Il campo **Subject** richiede un valore quando è visibile nel modulo di richiesta. Tuttavia, è possibile rimuovere il campo **Oggetto**, se necessario, e i richiedenti non lo visualizzeranno nel modulo.
+* **Sezione predefinita**: questa è l&#39;interruzione di sezione predefinita che Workfront applica al modulo di richiesta. Impossibile rinominare o rimuovere la sezione predefinita.
+* Campo **Oggetto**: campo che identificherà la richiesta in Workfront. Questa funzionalità non è ancora disponibile nell’ambiente di produzione. <span class="preview">È disponibile nell&#39;ambiente di anteprima.</span> Impossibile modificare la configurazione e il valore del campo Subject.
 
-   * Tutti i campi associati al tipo di record.
+  >[!TIP]
+  >
+  >Il campo **Subject** richiede un valore quando è visibile nel modulo di richiesta. Tuttavia, è possibile rimuovere il campo **Oggetto**, se necessario, e i richiedenti non lo visualizzeranno nel modulo.
 
-     I campi contenuti nel modulo di richiesta saranno visibili a tutti coloro che inviano una richiesta a questo tipo di record.
+* Tutti i campi associati al tipo di record.
+
+  I campi contenuti nel modulo di richiesta saranno visibili a tutti coloro che inviano una richiesta a questo tipo di record.
 
 1. (Facoltativo) Passa il puntatore del mouse su tutti i campi del modulo che desideri rimuovere, quindi fai clic sull&#39;icona **x** per rimuoverli. Vengono aggiunti alla scheda **Campi** a sinistra del modulo.
 
@@ -233,9 +240,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >
    > * <span class="preview">Impossibile condividere pubblicamente un modulo contenente i seguenti tipi di campi:</span>
    >
-   >     * <span class="preview">Formula</span>
    >     * <span class="preview">Connessioni Workfront o AEM Assets</span>
-   >     * <span class="preview">Campi di ricerca</span>
    >     * <span class="preview">Persone</span>
    >
 
