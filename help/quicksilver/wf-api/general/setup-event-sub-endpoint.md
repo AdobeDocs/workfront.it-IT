@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1b621b35-6c8b-4f6a-bcba-ed6cbfe83a8c
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 77c07c7c7104d37360cc7630a89dd72836da477c
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -35,3 +35,5 @@ Gli endpoint di servizio che utilizzano i messaggi di abbonamento agli eventi di
 
    1. l’endpoint salva le informazioni sul messaggio al momento della ricezione e risponde immediatamente con uno stato di 200 livelli.
    1. Dopo che un endpoint ha risposto a una richiesta di consegna della sottoscrizione dell’evento, è possibile elaborare i messaggi salvati.
+
+* I messaggi o gli oggetti di sottoscrizione degli eventi non possono superare 1 MB.

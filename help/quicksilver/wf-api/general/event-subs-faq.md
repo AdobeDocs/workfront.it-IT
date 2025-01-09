@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 77c07c7c7104d37360cc7630a89dd72836da477c
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,7 @@ Cerca i seguenti scenari e utilizza la soluzione consigliata:
 * Gli eventi potrebbero non generare il modo in cui pensi. Assicurati di non fare supposizioni su come e quando attivare gli eventi. Ad esempio, si potrebbe pensare che l&#39;aggiornamento di un documento su un&#39;attività generi un evento di aggiornamento dell&#39;attività, ma genera invece un evento di creazione o aggiornamento del documento.
 * L’abbonamento potrebbe non essere configurato come previsto. Puoi creare sottoscrizioni di eventi in ambienti diversi e aspettarti che vengano trasferite come fanno gli altri dati di Workfront. Tuttavia, i dati di abbonamento agli eventi non sono configurati per essere copiati o promossi in altri ambienti. Assicurati di inviare richieste API all’ambiente corretto e che gli abbonamenti in tale ambiente siano configurati come previsto.
 * Il payload non è stato ricevuto perché l&#39;indirizzo IP di Workfront necessario non è stato aggiunto al inserisco nell&#39;elenco Consentiti di sul firewall. Gli eventi di abbonamento agli eventi vengono inviati solo da alcuni indirizzi IP. Assicurati che la rete di destinazione disponga di tutte le eccezioni IP necessarie per ricevere payload da Workfront Event Subscriptions.
+* Payload non ricevuto perché superiore a 1 MB. I messaggi o l&#39;oggetto di sottoscrizione degli eventi non possono superare 1 MB.
 
 ## Perché i miei messaggi richiedono un tempo eccessivo per raggiungere il mio endpoint?
 
