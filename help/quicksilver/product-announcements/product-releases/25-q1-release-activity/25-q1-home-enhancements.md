@@ -1,28 +1,26 @@
 ---
 title: Miglioramenti per la casa nel primo trimestre 2025
-description: Miglioramenti per la casa nel primo trimestre 2025
+description: Miglioramenti delle priorità del primo trimestre 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 11b25decc88146568aad615eb06ef3521f7aa761
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '801'
 ht-degree: 0%
 
 ---
 
-# Miglioramenti per la casa nel primo trimestre 2025
+# Miglioramenti delle priorità del primo trimestre 2025
 
-Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione del primo trimestre 2025. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
+Questa pagina descrive tutti i miglioramenti relativi alle priorità apportati con la versione del primo trimestre 2025 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del primo trimestre 2025, consulta [Panoramica sulla versione del primo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
 ## Panoramica sui miglioramenti alle priorità
 
-Guarda il video seguente per una panoramica generale delle nuove funzioni aggiunte a Priorità questo trimestre.
-
-[Video introduttivo sui miglioramenti alle priorità](https://video.tv.adobe.com/v/3442750/){target=_blank}
+>[!VIDEO](https://video.tv.adobe.com/v/3442750/?quality=12&learn=on)
 
 Per una dimostrazione completa delle funzioni incluse in questa panoramica, consulta il video dimostrativo [Miglioramenti delle priorità](#priorities-enhancements-demo-video) di seguito.
 
@@ -165,4 +163,6 @@ Per ulteriori informazioni, vedere [Visualizzare i dettagli del progetto e dell&
 
 Guarda il video seguente per una dimostrazione dettagliata delle nuove funzioni aggiunte a Priorità questo trimestre.
 
-[Video dimostrativo sui miglioramenti delle priorità](https://video.tv.adobe.com/v/3442751/){target=_blank}
+>[!VIDEO](https://video.tv.adobe.com/v/3442751/?quality=12&learn=on)
+
+
