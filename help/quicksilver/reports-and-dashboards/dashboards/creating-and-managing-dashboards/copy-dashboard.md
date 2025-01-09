@@ -6,18 +6,22 @@ description: È possibile copiare un dashboard e tutto il relativo contenuto (re
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a88cc171-2bb1-40f0-a778-8dac7eecb718
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '896'
 ht-degree: 0%
 
 ---
 
 # Copiare un dashboard
 
+<!-- Audited: 1/2025 -->
+
 È possibile copiare un dashboard e tutto il relativo contenuto (report, calendari e pagine esterne). Quando copiate il contenuto di un quadro comandi, potete scegliere di mantenerlo così come viene visualizzato nel quadro comandi originale oppure creare nuovi elementi, ovvero copie di quelli presenti nel quadro comandi originale. È inoltre possibile scegliere di non trasferire o copiare elementi nel nuovo dashboard.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Devi avere i seguenti:
 
@@ -31,18 +35,31 @@ Devi avere i seguenti:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licenza Adobe Workfront*</strong></td> 
-   <td> <p>Piano </p> </td> 
+    <td> 
+      <p>Nuovo:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Corrente:</p>
+         <ul>
+         <li><p>Piano</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
-   <td> <p>Modificare l’accesso a rapporti, dashboard e calendari</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <p>Modificare l’accesso a rapporti, dashboard e calendari</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Visualizzare l’accesso a un dashboard</p> <p>Otterrai l’accesso Gestisci al dashboard copiato</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Visualizzare l’accesso a un dashboard</p> <p>Otterrai l’accesso Gestisci al dashboard copiato</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisiti
 
@@ -52,7 +69,7 @@ Per informazioni sulla creazione di dashboard, vedere [Creare un dashboard](../.
 
 ## Copiare un dashboard
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale**, quindi fai clic su **Dashboard**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **[!UICONTROL Dashboards]**.
 
 1. Seleziona il dashboard da copiare, quindi fai clic su **Copia** ![](assets/copy-icon.png).\
    Oppure\

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: fa24040d-0403-4799-b690-c3d172797115
-source-git-commit: a7a3272cb7bfa22abfee45211e3154b6e21434b8
+source-git-commit: d2e3379e9390f2b419bb2d78b1999c8c2dd7d0d3
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Per ulteriori informazioni sugli oggetti disponibili per la promozione dell&#39;
 
 >[!NOTE]
 >
->Versione di anteprima: 19 dicembre 2024; versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)
+>Versione di anteprima: 19 dicembre 2024; versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)
 
 Poiché lo spostamento di attività o problemi che hanno registrato ore può talvolta causare problemi di conformità o di controllo, nell’area Preferenze attività e problemi di Configura è stata aggiunta una preferenza che consente di impedire agli utenti di spostare attività e problemi se sono presenti ore registrate. Prima di questo miglioramento, gli utenti potevano spostare attività e problemi in altri progetti, anche se avevano effettuato l’accesso in ore.
 
@@ -60,7 +60,7 @@ Per informazioni, consulta [Configurare le preferenze per attività e problemi a
 
 >[!NOTE]
 >
->Versione di anteprima: 21 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+>Versione di anteprima: 21 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (16 gennaio 2025)
 
 In qualità di amministratore di sistema o di gruppo, è ora disponibile una nuova preferenza per indicare se Workfront deve utilizzare la pianificazione del progetto o quella dell&#39;utente per calcolare la sequenza temporale del progetto quando si assegna un utente a un&#39;attività e sia il progetto che l&#39;utente sono associati a una pianificazione. Prima di questo miglioramento, questa impostazione esisteva per le assegnazioni a più utenti. L’impostazione è ora disponibile per le assegnazioni di attività per singolo utente.
 
@@ -70,7 +70,7 @@ Per ulteriori informazioni, vedere [Configurare le preferenze di progetto a live
 
 >[!NOTE]
 >
->Versione di anteprima: 21 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+>Versione di anteprima: 21 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (16 gennaio 2025)
 
 È ora possibile includere collegamenti ipertestuali nel messaggio di errore personalizzato di una regola business, per guidare l’utente nella modifica della propria azione all’interno del vincolo della regola. L’URL statico potrebbe contenere un collegamento alla documentazione o ad altre pagine utili per l’utente.
 
@@ -80,7 +80,7 @@ Per informazioni, vedere [Creare e modificare le regole business](/help/quicksil
 
 >[!NOTE]
 >
->Versione di anteprima: 21 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+>Versione di anteprima: 21 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (16 gennaio 2025)
 
 Quando si aggiunge un riferimento a un campo nativo in un modulo personalizzato che fa riferimento a un campo typeahead, ad esempio Portfolio, Società o Proprietario, è ora disponibile un&#39;opzione di filtro. Il filtro consente di limitare gli oggetti che gli utenti possono scegliere quando utilizzano il campo. Questo filtro personalizzato funziona come un filtro in un campo typeahead personalizzato, utilizzando la modalità testo per definire il filtro.
 
@@ -90,7 +90,7 @@ Per informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/adm
 
 >[!NOTE]
 >
->Versione di anteprima: 29 ottobre 2024; produzione per rilascio rapido: con la versione 24.11 (14 novembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+>Versione di anteprima: 29 ottobre 2024; produzione per rilascio rapido: con la versione 24.11 (14 novembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (16 gennaio 2025)
 
 Quando un modulo personalizzato contiene più sezioni con molti campi, può essere difficile spostare un campo da una sezione all’altra trascinandolo. A ciascun campo è stata aggiunta l’icona &quot;sposta in&quot;, che consente di selezionare la sezione in cui inserire il campo.
 

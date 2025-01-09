@@ -4,7 +4,8 @@ description: Miglioramenti della bozza nel primo trimestre del 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: 41eff095-ff9b-4791-81c3-758e101b3e88
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 0%
@@ -21,7 +22,7 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 
 >[!NOTE]
 >
->Versione di anteprima: 30 agosto 2024; versione di produzione per tutti i clienti: 30 agosto 2024.
+>Versione di anteprima: 7 novembre 2024; versione di produzione per tutti i clienti: 7 novembre 2024.
 
 Stiamo introducendo una nuova estensione del browser, lo strumento di revisione Adobe Workfront, per sostituire l’estensione del browser legacy per la revisione di contenuti ZIP interattivi. L’estensione legacy del browser verrà rimossa il 28 febbraio 2025.
 

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Abbiamo modificato il modo in cui vengono gestite le risorse spostate ed elimina
 
 >[!NOTE]
 >
->Versione di anteprima: 11 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+>Versione di anteprima: 11 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (16 gennaio 2025)
 
 Quando un modulo personalizzato con più sezioni viene allegato a un oggetto, è ora possibile comprimere ed espandere tutte le sezioni, ad eccezione della sezione predefinita nella parte superiore del modulo. L’amministratore può visualizzare questa funzionalità anche durante l’anteprima del modulo nel progettista del modulo.
 
@@ -43,7 +43,7 @@ Per informazioni sull&#39;aggiunta di una sezione a un modulo personalizzato, ve
 
 >[!NOTE]
 >
->Versione di anteprima: 31 ottobre 2024; produzione per rilascio rapido: con la versione 24.11 (14 novembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+>Versione di anteprima: 31 ottobre 2024; produzione per rilascio rapido: con la versione 24.11 (14 novembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (16 gennaio 2025)
 
 Per semplificare la gestione degli elementi di lavoro in Workfront, abbiamo aggiornato l’Assistente IA per lavorare con progetti, attività e problemi. L’Assistente AI è ora in grado di individuare progetti, attività e problemi in base a criteri specifici, ad esempio &quot;Trova le attività personali in scadenza questa settimana&quot;.
 In precedenza, l’Assistente AI non era in grado di lavorare direttamente con progetti, attività e problemi.

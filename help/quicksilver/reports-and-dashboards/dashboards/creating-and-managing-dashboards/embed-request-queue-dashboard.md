@@ -6,22 +6,26 @@ description: Puoi incorporare una nuova coda di richieste in un dashboard per fo
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: 2894161b61a00dab04c17ef642ace4a45179eb17
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1137'
 ht-degree: 1%
 
 ---
 
 # Incorporare una coda di richieste in un dashboard
 
-Puoi incorporare una nuova coda di richieste in un dashboard per fornire accesso diretto alla coda di richieste agli utenti, senza dover passare all’area Richieste. 
+<!-- Audited: 1/2025 -->
+
+Puoi incorporare una nuova coda di richieste in un dashboard per fornire accesso diretto alla coda di richieste agli utenti, senza dover passare all’area Richieste.
 
 Ad esempio, se disponi di una coda di richieste aperta all’intera organizzazione, come una coda di helpdesk o una coda di richieste PTO a cui tutti devono accedere regolarmente, potrebbe essere utile inserire la coda di richieste direttamente in una delle loro dashboard per accedervi in modo rapido e semplice. Il processo di configurazione è simile a quello di creazione di una pagina esterna su una dashboard.
 
 Innanzitutto, devi ottenere un URL per la coda delle richieste. In secondo luogo, puoi incorporare l’URL in una dashboard aggiungendo una pagina esterna.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -30,31 +34,43 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Piano Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>piano Adobe Workfront</strong></td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licenza Adobe Workfront*</strong></td> 
-   <td> <p>Piano </p> </td> 
+   <td role="rowheader"><strong>Licenza Adobe Workfront</strong></td> 
+   <td> 
+      <p>Nuovo:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Corrente:</p>
+         <ul>
+         <li><p>Piano</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
-   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader"><strong>Configurazioni del livello di accesso</strong></td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Gestire le autorizzazioni per il dashboard</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per il dashboard</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisiti
 
 Prima di poter incorporare una coda di richieste in un dashboard, è necessario creare entrambe le operazioni seguenti:
 
 * **Dashboard**: per informazioni sulla creazione dei dashboard, vedere [Creare un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+
 * **Coda richieste**: per informazioni sulla creazione di code richieste, vedere [Creare una coda richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
 
 ## Ottenere l’URL della coda di richieste {#obtain-the-url-of-the-request-queue}
@@ -62,7 +78,9 @@ Prima di poter incorporare una coda di richieste in un dashboard, è necessario 
 Puoi ottenere l’URL di una coda di richieste in diversi modi, a seconda della parte di coda che desideri esporre agli utenti quando vi accedono da un dashboard.
 
 * [Ottieni un collegamento a un argomento della coda specifico con la possibilità di modificare il tipo di richiesta](#obtain-a-link-to-a-specific-queue-topic-with-ability-to-change-the-request-type)
+
 * [Ottieni un collegamento a una coda di richieste e modifica del tipo di richiesta](#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type)
+
 * [Ottenere un collegamento a una coda di richieste senza la possibilità di modificare il tipo di richiesta](#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type)
 
 ### Ottieni un collegamento a un argomento della coda specifico con la possibilità di modificare il tipo di richiesta {#obtain-a-link-to-a-specific-queue-topic-with-ability-to-change-the-request-type}
@@ -139,8 +157,11 @@ Quando condividi un collegamento a un tipo di richiesta preselezionato, il tipo 
 Puoi incorporare in un dashboard un collegamento alla coda delle richieste o a un argomento della coda nidificato sotto una coda di richieste, in modo da consentire agli utenti di accedere direttamente all’immissione delle richieste.
 
 1. Ottenere un URL della coda richieste utilizzando uno dei metodi descritti nella sezione [Ottenere l&#39;URL della coda richieste](#obtain-the-url-of-the-request-queue) di questo articolo.
+
 1. Fai clic sul **menu principale** > **dashboard** > **nuovo dashboard**.
+
 1. Digita un **Nome** per il dashboard. Questo è un campo obbligatorio.
+
 1. Fare clic su **Aggiungi pagina esterna**.
 
    ![](assets/add-external-page-highlighted---nwe-350x214.png)
@@ -150,35 +171,20 @@ Puoi incorporare in un dashboard un collegamento alla coda delle richieste o a u
    * **Nome**: immettere il nome della coda di richieste che si desidera visualizzare nel dashboard. Questo è un campo obbligatorio.
 
    * **Descrizione**: immettere una descrizione per la visualizzazione di questa pagina esterna. Questo campo non è obbligatorio ed è importante solo a scopo di reporting. Non viene visualizzato nel dashboard.
-   * **URL**: incolla l&#39;URL ottenuto utilizzando uno dei metodi descritti nel passaggio 1.
 
-     <!--   
-     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     <MadCap:conditionalText data-mc-conditions="">   
-     (NOTE: ensure this stays accurate)   
-     </MadCap:conditionalText>   
-     </MadCap:conditionalText>   
-     -->
+   * **URL**: incolla l&#39;URL ottenuto utilizzando uno dei metodi descritti nel passaggio 1.
 
    * **Altezza**: immettere l&#39;altezza della pagina esterna. Questo definisce quanto spazio occupa nel dashboard la pagina esterna contenente la coda di richieste. Questo campo è obbligatorio e il valore predefinito è 500.
 
 1. Fai clic su **Salva**.
-1. Fai clic su **Salva + Chiudi**. 
+
+1. Fai clic su **Salva e Chiudi**.
 
    La coda di richieste viene visualizzata nel dashboard come componente separato del dashboard.
 
-   ![](assets/new-dashboard-with-embedded-request-queue-nwe-350x260.png)
+1. (Facoltativo) Fai clic su **Azioni dashboard**, quindi su **Modifica** per aggiungere report, calendari o altre pagine esterne alla stessa dashboard.
 
-1. (Facoltativo) Fai clic su **Azioni dashboard**, quindi su **Modifica** per aggiungere report, calendari o altre pagine esterne alla stessa dashboard.\
    Per informazioni sull&#39;aggiunta di componenti a un dashboard, vedere [Creare un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
-
- 
-
- 
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted - old information)</p>
--->
 
 <!--
 <ol data-mc-conditions="QuicksilverOrClassic.Draft mode">

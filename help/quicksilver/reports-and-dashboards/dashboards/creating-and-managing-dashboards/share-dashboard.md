@@ -6,14 +6,16 @@ description: L’amministratore di Adobe Workfront consente agli utenti di visua
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 21bd531f-8732-4d6c-b91f-990887285447
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
 
 # Condividere un dashboard
+
+<!-- Audited: 1/2025 -->
 
 L’amministratore di Adobe Workfront consente agli utenti di visualizzare o modificare le dashboard quando assegnano i livelli di accesso. Per ulteriori informazioni sulla concessione dell&#39;accesso ai problemi, vedere [Concedere l&#39;accesso a report, dashboard e calendari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
@@ -27,6 +29,8 @@ Le autorizzazioni sono specifiche per un elemento in Workfront e definiscono qua
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per condividere gli oggetti, è necessario disporre dei seguenti elementi:
 
 <table style="table-layout:auto"> 
@@ -34,25 +38,36 @@ Per condividere gli oggetti, è necessario disporre dei seguenti elementi:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Piano Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>piano Adobe Workfront</strong></td> 
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licenza Adobe Workfront*</strong></td> 
-   <td> <p>Revisione o successiva</p> </td> 
+   <td role="rowheader"><strong>Licenza Adobe Workfront</strong></td> 
+    <td> 
+      <p>Nuovo:</p>
+         <ul>
+         <li><p>Chiaro o superiore</p></li>
+         </ul>
+      <p>Corrente:</p>
+         <ul>
+         <li><p>Revisione o successiva</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
-   <td> <p>Accesso di visualizzazione o superiore a report, dashboard, calendari</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader"><strong>Configurazioni del livello di accesso</strong></td> 
+   <td> <p>Accesso di visualizzazione o superiore a report, dashboard, calendari</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Visualizza le autorizzazioni o superiore al dashboard</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Visualizza le autorizzazioni o superiore al dashboard</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisiti
 
@@ -83,11 +98,11 @@ La condivisione di uno o più dashboard da un elenco è identica.
 
    Oppure
 
-   Fai clic sul nome di un dashboard, quindi fai clic su **Azioni dashboard >****Condivisione**.
+   Fai clic sul nome di un dashboard, quindi fai clic su **Azioni dashboard** > **Condivisione**.
 
-   ![](assets/qs-dashboard-actions-menu-350x318.png)
+   ![](assets/unshimmed-share-dashboard.png)
 
-1. Nel campo **Aggiungi persone, team, ruoli, gruppi o società ...**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo o della società con cui vuoi condividere il dashboard, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
-1. (Facoltativo) Per rendere il dashboard accessibile a tutti gli utenti del sistema, fai clic sull&#39;icona **Impostazioni** nell&#39;angolo superiore destro della finestra di dialogo di condivisione, quindi seleziona **Rendi visibile a livello di sistema**.
+1. Nel campo **Aggiungi persone, team, ruoli, gruppi o società**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo o della società con cui vuoi condividere il dashboard, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
+1. (Facoltativo) Per rendere il dashboard accessibile a tutti gli utenti del sistema, fai clic sul menu a discesa **Solo gli invitati possono accedere** nella finestra di dialogo di condivisione, quindi seleziona **Tutti nel sistema possono visualizzare**.
 
 1. Fai clic su **Salva**.

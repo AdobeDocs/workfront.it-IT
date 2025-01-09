@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 5755894ff320db368d07a3ab3ff18bbc9e157e0a
+source-git-commit: d2e3379e9390f2b419bb2d78b1999c8c2dd7d0d3
 workflow-type: tm+mt
-source-wordcount: '2478'
+source-wordcount: '2527'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <p><b>Disponibile in queste date:</b></p>
             <ul>
                 <li>Versione di anteprima: 19 dicembre 2024</li>
-                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)</li>
+                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
         </td>
     </tr>
@@ -112,7 +112,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <ul>
                 <li>Versione di anteprima: 21 novembre 2024</li>
                 <li>Produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024)</li>
-                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)</li>
+                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
         </td>
     </tr>     
@@ -128,7 +128,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <ul>
                 <li>Versione di anteprima: 21 novembre 2024</li>
                 <li>Produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024)</li>
-                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)</li>
+                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
         </td>
     </tr>    
@@ -143,7 +143,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <ul>
                 <li>Versione di anteprima: 21 novembre 2024</li>
                 <li>Produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024)</li>
-                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)</li>
+                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
         </td>
     </tr>
@@ -159,7 +159,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <ul>
                 <li>Versione di anteprima: 29 ottobre 2024</li>
                 <li>Produzione per rilascio rapido: con la versione 24.11 (14 novembre 2024)</li>
-                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)</li>
+                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
         </td>
     </tr>
@@ -185,13 +185,13 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Cambia il proprietario di una bacheca</a></p>
             <p>Per impostazione predefinita, il proprietario è il creatore di una bacheca. Il proprietario della bacheca è l’unica persona che può eliminarla o aggiornarne i filtri nel pannello Configura.</p>
-            <p>È stata aggiunta la funzionalità per consentire agli amministratori di sistema di Workfront di cambiare il proprietario di una bacheca. L’attuale proprietario di una bacheca può anche cambiare il proprietario di quella specifica bacheca.</p>
+            <p>È stata aggiunta la funzionalità per consentire agli amministratori di sistema di Workfront di cambiare il proprietario di una bacheca. L’attuale proprietario di una bacheca può anche cambiare il proprietario di quella specifica bacheca. Questa funzionalità è disponibile su schede di base, retrospettive e Kanban, ma non su schede dinamiche.</p>
         </td>
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
                 <li>Versione di anteprima: 18 dicembre 2024</li>
-                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)</li>
+                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
         </td>
     </tr>
@@ -224,7 +224,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <ul>
                 <li>Versione di anteprima: 21 novembre 2024</li>
                 <li>Produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024)</li>
-                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)</li>
+                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
         </td>
     </tr>    
@@ -240,7 +240,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <ul>
                 <li>Versione di anteprima: 7 novembre 2024</li>
                 <li>Produzione per rilascio rapido: con la versione 24.11 (14 novembre 2024)</li>
-                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)</li>
+                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
             <p><i>Questa funzione fa parte di un rilascio graduale ed è disponibile solo per clienti specifici.</i></p>
         </td>
@@ -265,6 +265,25 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Utilizzare i filtri avanzati per trovare il lavoro in Priorità</a></p>
+            <p>Utilizza il linguaggio naturale per filtrare rapidamente il lavoro nell’elenco Priorità. Puoi digitare: </p>
+            <ul>
+                <li>Mostra attività in ritardo</li>
+                <li>Mostra attività in scadenza questa settimana</li>
+                <li>Mostra priorità principali</li>
+            </ul>
+        </td>
+        <td>
+            <p><b>Disponibile in queste date:</b></p>
+            <ul>
+                <li>Versione di anteprima: 9 gennaio 2025</li>
+                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Recuperare il lavoro in Priorità</a></p>
             <p>Puoi utilizzare Recupera per contribuire a ridurre il tempo necessario per cercare informazioni sui progetti attivi.</p>
             <p>Con l’Assistente AI di Workfront, Catch me up riassume gli aggiornamenti, i documenti caricati e altre modifiche di rilievo sui progetti entro i seguenti intervalli di tempo: 24 ore, 3 giorni o 7 giorni.</p>
@@ -273,7 +292,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <p><b>Disponibile in queste date:</b></p>
             <ul>
                 <li>Versione di anteprima: 20 dicembre 2024</li>
-                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)</li>
+                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
         </td>
     </tr>
@@ -287,7 +306,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <p><b>Disponibile in queste date:</b></p>
             <ul>
                 <li>Versione di anteprima: 19 dicembre 2024</li>
-                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)</li>
+                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
         </td>
     </tr>
@@ -307,7 +326,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <p><b>Disponibile in queste date:</b></p>
             <ul>
                 <li>Versione di anteprima: 19 dicembre 2024</li>
-                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)</li>
+                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
         </td>
     </tr>
@@ -327,7 +346,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <p><b>Disponibile in queste date:</b></p>
             <ul>
                 <li>Versione di anteprima: 19 dicembre 2024</li>
-                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)</li>
+                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
         </td>
     </tr>
@@ -341,7 +360,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <p><b>Disponibile in queste date:</b></p>
             <ul>
                 <li>Versione di anteprima: 12 dicembre 2024</li>
-                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)</li>
+                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
         </td>
     </tr>
@@ -355,7 +374,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <p><b>Disponibile in queste date:</b></p>
             <ul>
                 <li>Versione di anteprima: 5 dicembre 2024</li>
-                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)</li>
+                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
         </td>
     </tr>
@@ -392,7 +411,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <ul>
                 <li>Versione di anteprima: 6 novembre 2024</li>
                 <li>Produzione per rilascio rapido: con la versione 24.11 (14 novembre 2024)</li>
-                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)</li>
+                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
         </td>
     </tr>
@@ -423,7 +442,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <p><b>Disponibile in queste date:</b></p>
             <ul>
                 <li>Versione di anteprima: 19 dicembre 2024</li>
-                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)</li>
+                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
         </td>
     </tr>
@@ -487,7 +506,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <p><b>Disponibile in queste date:</b></p>
             <ul>
                 <li>Versione di anteprima: 16 dicembre 2024</li>
-                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)</li>
+                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
         </td>
     </tr>
@@ -533,7 +552,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <p><b>Disponibile in queste date:</b></p>
             <ul>
                 <li>Versione di anteprima: 19 dicembre 2024</li>
-                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)</li>
+                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
         </td>
     </tr>
@@ -577,7 +596,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <ul>
                 <li>Versione di anteprima: 11 novembre 2024</li>
                 <li>Produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024)</li>
-                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)</li>
+                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
         </td>
     </tr>
@@ -593,7 +612,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <ul>
                 <li>Versione di anteprima: 31 ottobre 2024</li>
                 <li>Produzione per rilascio rapido: con la versione 24.11 (14 novembre 2024)</li>
-                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)</li>
+                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
         </td>
     </tr>

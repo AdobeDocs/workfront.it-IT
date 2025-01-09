@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 0%
@@ -14,6 +14,7 @@ ht-degree: 0%
 
 # Panoramica dei dashboard di Canvas
 
+<!-- This page is hidden as it is outdated, delete once full Canvas Dashboard docs are live-->
 <!-- Audited: 12/2023 -->
 
 Dashboard di Canvas, una funzione attualmente in fase di sviluppo per i dashboard, offre una nuova opzione per la creazione di dashboard efficaci in Workfront. Le dashboard di Canvas consentono di includere facilmente le visualizzazioni di Reporting Canvas nei rapporti esistenti, offrendo maggiore flessibilità e nuove opzioni di layout.
@@ -81,6 +82,7 @@ Per accedere alle dashboard di Canvas, è possibile abilitare la nuova opzione D
 1. Inizia a digitare il nome del report da visualizzare nel campo **Trova report**. Quando visualizzi il report nell&#39;elenco, fai clic sull&#39;icona **Report elenco** o **Report grafico** accanto al nome per visualizzare le informazioni di quel report nel formato scelto.
 
 >[!WARNING]
+>
 > Mentre l’aggiunta di più widget che visualizzano informazioni dallo stesso rapporto è attualmente possibile, si consiglia di visualizzare ogni rapporto solo una volta, in quanto può influire sulle prestazioni del dashboard.
 
 ### Modificare un widget in un dashboard di Canvas

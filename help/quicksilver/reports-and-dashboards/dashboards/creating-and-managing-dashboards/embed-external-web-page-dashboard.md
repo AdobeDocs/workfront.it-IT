@@ -6,16 +6,16 @@ description: Puoi incorporare una pagina web esterna in una dashboard per fornir
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 0%
+source-wordcount: '1011'
+ht-degree: 1%
 
 ---
 
 # Incorporare una pagina web esterna in una dashboard
 
-<!--Audited: 01/2024-->
+<!--Audited: 01/2025-->
 
 Puoi incorporare una pagina web esterna in un dashboard per fornire accesso alle informazioni correlate provenienti da altri sistemi o dall’interno di Adobe Workfront.
 
@@ -64,10 +64,17 @@ Devi avere i seguenti:
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licenza Adobe Workfront*</strong></td> 
-   <td> <p>Corrente: Piano </p>
-   Oppure
-   <p>Nuovo: Standard </p> </td> 
+   <td role="rowheader"><strong>Licenza Adobe Workfront</strong></td> 
+   <td> 
+      <p>Nuovo:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Corrente:</p>
+         <ul>
+         <li><p>Piano</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurazioni del livello di accesso</strong></td> 
@@ -75,12 +82,12 @@ Devi avere i seguenti:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> </td> 
+   <td> <p>Modificare l’accesso al dashboard</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront. Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -162,7 +169,7 @@ Per aggiornare le informazioni per una pagina esterna utilizzata in un dashboard
 
    Viene visualizzata la casella **Dettagli dashboard**.
 
-1. Nell&#39;area **Seleziona layout / Aggiungi report / Aggiungi calendari** della casella **Dettagli dashboard**, individuare la pagina esterna da aggiornare, passare il puntatore del mouse su di essa e fare clic sull&#39;icona **Modifica**.\
+1. Nell&#39;area **Seleziona layout / Aggiungi report** della casella **Dettagli dashboard**, individuare la pagina esterna che si desidera aggiornare, passare il puntatore del mouse su di essa e fare clic sull&#39;icona **Modifica**.\
    ![](assets/nwe-inline-edit-external-page-350x226.png)
 
 1. Nella casella **Modifica pagina esterna**, aggiorna i campi che desideri modificare, quindi fai clic su **Salva**.
@@ -175,7 +182,7 @@ Puoi visualizzare tutte le pagine esterne in Workfront in un rapporto di pagina 
 
 {{step1-to-reports}}
 
-1. Fai clic su **Nuovo rapporto** > seleziona **Pagina esterna**.
+1. Fai clic su **Nuovo rapporto** > seleziona **Sezione esterna**.
 
    ![](assets/external-page-new-report-in-dropdown-nwe.png)
 
@@ -183,8 +190,7 @@ Puoi visualizzare tutte le pagine esterne in Workfront in un rapporto di pagina 
 
    Per ulteriori informazioni, vedere [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. Fai clic su **Salva+Chiudi**.
+1. Fai clic su **Salva e Chiudi**.
 
-   Puoi visualizzare il nome e l’URL associati alle pagine esterne nel tuo sistema nel nuovo rapporto.
+   Puoi visualizzare il nome e l’URL associati a qualsiasi pagina esterna nel sistema nel nuovo rapporto.
 
-   ![](assets/external-page-report-name-url-columns-nwe-350x213.png)

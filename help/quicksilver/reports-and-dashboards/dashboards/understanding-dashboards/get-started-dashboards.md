@@ -7,16 +7,16 @@ description: Lo scopo di una dashboard è quello di fornire un accesso rapido al
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
 
 # Introduzione alle dashboard
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 1/2025 -->
 
 Lo scopo di una dashboard è quello di fornire un accesso rapido alle informazioni provenienti da più report. Innanzitutto, è possibile raccogliere informazioni nei rapporti e quindi inserire più rapporti nei dashboard per semplificare l’accesso alle informazioni.
 
@@ -38,7 +38,16 @@ Devi avere i seguenti:
   </tr> 
   <tr> 
    <td> <p><strong>Licenza Adobe Workfront</strong></p> </td> 
-   <td> <p>Nuovo: Collaboratore o versione successiva</p><p>Oppure</p><p>Corrente: revisione o versione successiva</p> </td> 
+      <td> 
+      <p>Nuovo:</p>
+         <ul>
+         <li><p>Collaboratore o versione successiva</p></li>
+         </ul>
+      <p>Corrente:</p>
+         <ul>
+         <li><p>Revisione o successiva</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
    <td><strong>Livello di accesso</strong> </td> 
@@ -51,7 +60,7 @@ Devi avere i seguenti:
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

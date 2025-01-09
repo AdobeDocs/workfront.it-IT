@@ -6,14 +6,16 @@ description: Potete esportare un dashboard in un file .pdf utilizzando le opzion
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6c8dc5be-6adb-400a-b86a-a7f7e84d0ba7
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 5%
+source-wordcount: '372'
+ht-degree: 6%
 
 ---
 
 # Esportare un dashboard
+
+<!-- Audited: 1/2025 -->
 
 Potete esportare un dashboard in un file .pdf utilizzando le opzioni di stampa disponibili nel browser Web.
 
@@ -24,6 +26,8 @@ Potete esportare un dashboard in un file .pdf utilizzando le opzioni di stampa d
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Devi avere i seguenti:
 
 <table style="table-layout:auto"> 
@@ -31,25 +35,36 @@ Devi avere i seguenti:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Piano Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>piano Adobe Workfront</strong></td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licenza Adobe Workfront*</strong></td> 
-   <td> <p>Lavoro o superiore</p> </td> 
+   <td role="rowheader"><strong>Licenza Adobe Workfront</strong></td> 
+    <td> 
+      <p>Nuovo:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Corrente:</p>
+         <ul>
+         <li><p>Lavoro o superiore</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
-   <td> <p>Accesso a report, dashboard e calendari</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader"><strong>Configurazioni del livello di accesso</strong></td> 
+   <td> <p>Accesso a report, dashboard e calendari</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Visualizzare le autorizzazioni per il dashboard</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Visualizzare le autorizzazioni per il dashboard</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisiti
 
@@ -60,13 +75,13 @@ Per informazioni sulla creazione di dashboard, vedere [Creare un dashboard](../.
 ## Esportare un dashboard in un file .pdf:
 
 1. Vai alla dashboard che desideri esportare.
-1. Fai clic su **Azioni dashboard**, quindi seleziona **Stampa**.
+1. Fai clic su **Azioni dashboard**, quindi seleziona **Anteprima di stampa**.
 
    ![](assets/dashboard-actions-print-350x254.png)
 
-   Viene visualizzata la finestra di dialogo Stampa.
+   Viene visualizzata la finestra Anteprima di stampa.
 
-1. In base al browser Web utilizzato, selezionare le opzioni di stampa appropriate per completare il file .pdf. esportazione file:
+1. Fai clic su **Stampa**, quindi seleziona le opzioni di stampa appropriate in base al browser Web per completare il file .pdf. esportazione file:
 
    <table style="table-layout:auto"> 
     <col> 

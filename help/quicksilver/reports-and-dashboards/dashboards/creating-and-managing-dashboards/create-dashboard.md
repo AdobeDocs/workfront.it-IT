@@ -6,16 +6,16 @@ description: Puoi creare dashboard per accedere rapidamente alle informazioni in
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '484'
 ht-degree: 1%
 
 ---
 
 # Creare un dashboard
 
-<!--Audited: 01/2024-->
+<!--Audited: 01/2025-->
 
 Puoi creare dashboard per accedere rapidamente alle informazioni in Adobe Workfront. È possibile aggiungere ai dashboard fino a 25 rapporti, calendari e pagine esterne da condividere con altri utenti per una collaborazione ottimale.
 
@@ -38,7 +38,7 @@ Devi avere i seguenti:
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Licenza Adobe Workfront*</strong></p> </td> 
+   <td> <p><strong>Licenza Adobe Workfront</strong></p> </td> 
    <td> <p>Corrente: Piano </p>
    Oppure
    <p>Nuovo: Standard </p> </td> 
@@ -54,7 +54,7 @@ Devi avere i seguenti:
  </tbody> 
 </table>
 
-*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront. Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

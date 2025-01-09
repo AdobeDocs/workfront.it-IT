@@ -4,9 +4,10 @@ description: Miglioramenti alle schede madri per il primo trimestre 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+exl-id: 8f88e9e4-3f87-48f8-a37b-cca50348daaf
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 
 Per impostazione predefinita, il proprietario è il creatore di una bacheca. Il proprietario della bacheca è l’unica persona che può eliminarla o aggiornarne i filtri nel pannello Configura.
 
-È stata aggiunta la funzionalità per consentire agli amministratori di sistema di Workfront di cambiare il proprietario di una bacheca. L’attuale proprietario di una bacheca può anche cambiare il proprietario di quella specifica bacheca.
+È stata aggiunta la funzionalità per consentire agli amministratori di sistema di Workfront di cambiare il proprietario di una bacheca. L’attuale proprietario di una bacheca può anche cambiare il proprietario di quella specifica bacheca. Questa funzionalità è disponibile su schede di base, retrospettive e Kanban, ma non su schede dinamiche.
 
 In precedenza, il proprietario del consiglio di amministrazione non poteva essere cambiato senza l’intervento sul back-end.
 

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0639cb37-212c-46d5-bfe0-b524efc085d3
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 
 >[!NOTE]
 >
->Versione di anteprima: 21 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+>Versione di anteprima: 21 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (16 gennaio 2025)
 
 È ora possibile modificare più documenti contemporaneamente. Puoi modificare le descrizioni e aggiornare i moduli personalizzati.
 
@@ -36,7 +36,7 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 
 >[!NOTE]
 >
->Versione di anteprima: 7 novembre 2024; produzione per rilascio rapido: con la versione 24.11 (14 novembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+>Versione di anteprima: 7 novembre 2024; produzione per rilascio rapido: con la versione 24.11 (14 novembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (16 gennaio 2025)
 
 Quando si aggiunge una nuova versione a un documento con approvazioni in sospeso, l’approvazione per la versione precedente viene ora visualizzata come &quot;Ritirata&quot;, a indicare che il processo di approvazione preventiva è stato chiuso a causa dell’aggiunta della nuova versione.
 

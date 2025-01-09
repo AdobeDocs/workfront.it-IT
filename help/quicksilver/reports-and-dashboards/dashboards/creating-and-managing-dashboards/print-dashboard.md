@@ -6,14 +6,16 @@ description: È possibile stampare o esportare un dashboard in un file PDF. Per 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 30f3481b-23b6-4dc9-be0d-9cffd5d4dfed
-source-git-commit: efae17458f2aa08ca2286ef5e43c68d1f9334b7b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
 
 # Stampare un dashboard
+
+<!-- Audited: 1/2025 -->
 
 È possibile stampare o esportare un dashboard in un file PDF. Per stampare un dashboard, è necessario disporre dell&#39;autorizzazione per visualizzarlo.
 
@@ -23,6 +25,8 @@ ht-degree: 0%
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Devi avere i seguenti:
 
 <table style="table-layout:auto"> 
@@ -30,25 +34,36 @@ Devi avere i seguenti:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Piano Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>piano Adobe Workfront</strong></td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licenza Adobe Workfront*</strong></td> 
-   <td> <p>Lavoro o superiore</p> </td> 
+   <td role="rowheader"><strong>Licenza Adobe Workfront</strong></td> 
+      <td> 
+      <p>Nuovo:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Corrente:</p>
+         <ul>
+         <li><p>Lavoro o superiore</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
-   <td> <p>Accesso a report, dashboard e calendari</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader"><strong>Configurazioni del livello di accesso</strong></td> 
+   <td> <p>Accesso a report, dashboard e calendari</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong>/td&gt; 
-   <td> <p>Visualizzare le autorizzazioni per il dashboard</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Visualizzare le autorizzazioni per il dashboard</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisiti
 
@@ -86,7 +101,7 @@ Le seguenti informazioni non sono incluse nel file del dashboard stampato o espo
 1. Passare alla dashboard che si desidera stampare.
 1. Effettuare una delle seguenti operazioni:
 
-   * Fai clic su **Azioni dashboard** > **Stampa**
+   * Fai clic su **Azioni dashboard** > **Anteprima di stampa**
 
    * Premi **Ctrl+P** (su Windows) o **Comando+P** (su Mac)
 

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: 8475e93b27f2c47bf8a25ff3283a61830aa129de
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Una piccola modifica di funzionalità è stata applicata all’integrazione Quip
 
 >[!NOTE]
 >
->Versione di anteprima: 28 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+>Versione di anteprima: 28 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (16 gennaio 2025)
 
 La finestra di dialogo per richiedere l’accesso agli oggetti è stata aggiornata con un design più moderno che è coerente con altre aree di Workfront. Questa finestra di dialogo è disponibile quando si richiede l’accesso a progetti, attività, problemi, programmi, portfolio, modelli e attività di modelli.
 
@@ -50,7 +50,7 @@ Abbiamo effettuato aggiornamenti delle prestazioni all’area in Configurazione 
 
 >[!NOTE]
 >
->Versione di anteprima: 4 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+>Versione di anteprima: 4 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (16 gennaio 2025)
 
 Abbiamo aggiornato le pagine Membri società e Tariffe di fatturazione della società con un design più moderno che è coerente con altre aree di Workfront. Le iscrizioni aziendali sono accessibili tramite Configurazione > Società > seleziona un nome di società > seleziona Membri società nel pannello a sinistra. Le tariffe di fatturazione dell’azienda sono accessibili tramite Configurazione > Aziende > seleziona un nome dell’azienda > seleziona Tariffe di fatturazione nel pannello a sinistra.
 
@@ -73,7 +73,7 @@ Le modifiche più evidenti sono le seguenti:
 
 >[!NOTE]
 >
->Versione di anteprima: 4 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+>Versione di anteprima: 4 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (16 gennaio 2025)
 
 Nell’area di configurazione di Workfront verrà introdotto un nuovo formato di elenco e l’elenco dei tassi di cambio sarà la prima pagina a utilizzare questo formato di tabella. La funzionalità per l&#39;aggiunta di nuovi tassi di cambio e la ricerca dei tassi di cambio non è stata modificata.
 
@@ -83,7 +83,7 @@ Per informazioni sui tassi di cambio, vedere [Impostare i tassi di cambio](/help
 
 >[!NOTE]
 >
->Versione di anteprima: 4 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+>Versione di anteprima: 4 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (16 gennaio 2025)
 
 La pagina Esporta dati (Kick-Start) nell’area Configura è stata aggiornata con un design più moderno che è coerente con le altre aree di Workfront.
 
@@ -93,7 +93,7 @@ Per informazioni, vedere [Esportare dati da Workfront tramite Kick-Start](/help/
 
 >[!NOTE]
 >
->Versione di anteprima: 24 ottobre 2024; produzione per rilascio rapido: con la versione 24.11 (14 novembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+>Versione di anteprima: 24 ottobre 2024; Produzione per rilascio rapido: con la versione 24.11 (14 novembre 2024); Produzione per rilascio trimestrale: con la versione 25.1 (16 gennaio 2025)
 
 La finestra Invia aggiornamento all’utente è stata aggiornata con un design più moderno che è coerente con altre aree di Workfront.
 

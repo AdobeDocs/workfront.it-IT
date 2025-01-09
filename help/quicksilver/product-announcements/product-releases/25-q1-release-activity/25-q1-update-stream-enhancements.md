@@ -4,9 +4,10 @@ description: Miglioramenti al flusso di aggiornamenti e alle notifiche del primo
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+exl-id: 29fa2641-9ac0-4cad-aef1-0f5ac877bab1
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 
 >[!NOTE]
 >
->Versione di anteprima: 19 dicembre 2024; versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)
+>Versione di anteprima: 19 dicembre 2024; versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)
 
 Stiamo aggiornando l’esperienza di aggiunta di commenti nel widget Menzioni in Home e nella sezione Menzioni nell’area I miei aggiornamenti. Ora, la stessa esperienza nell’area Aggiornamenti della maggior parte degli oggetti Workfront è disponibile anche nel widget Menzioni e nella sezione Menzioni di My Updates.
 

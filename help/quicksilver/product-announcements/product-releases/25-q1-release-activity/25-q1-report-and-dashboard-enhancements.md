@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3c0b4797-594c-44d0-b3ad-a64384b6c4a8
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 
 >[!NOTE]
 >
->Versione di anteprima: 16 dicembre 2024; versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)
+>Versione di anteprima: 16 dicembre 2024; versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)
 
 Per mantenere le prestazioni della dashboard, è stato implementato un limite al numero totale di report, pagine esterne o calendari che è possibile inserire in una dashboard. Durante la creazione di un nuovo dashboard, è possibile aggiungere un massimo di 25 elementi.
 

@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 1%
+source-wordcount: '826'
+ht-degree: 0%
 
 ---
 
@@ -18,11 +18,35 @@ Questa pagina descrive tutti i miglioramenti apportati all’ambiente di antepri
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del primo trimestre 2025, consulta [Panoramica sulla versione del primo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
+## Panoramica sui miglioramenti alle priorità
+
+Guarda il video seguente per una panoramica generale delle nuove funzioni aggiunte a Priorità questo trimestre.
+
+[Video introduttivo sui miglioramenti alle priorità](https://video.tv.adobe.com/v/3442750/){target=_blank}
+
+Per una dimostrazione completa delle funzioni incluse in questa panoramica, consulta il video dimostrativo [Miglioramenti delle priorità](#priorities-enhancements-demo-video) di seguito.
+
+## Utilizzare i filtri avanzati per trovare il lavoro in Priorità
+
+>[!NOTE]
+>
+>Versione di anteprima: 9 gennaio 2025; versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)
+
+Utilizza il linguaggio naturale per filtrare rapidamente il lavoro nell’elenco Priorità. Puoi digitare:
+
+* Mostra attività in ritardo
+* Mostra attività in scadenza questa settimana
+* Mostra priorità principali
+
+Disponibile solo per le istanze abilitate IMS.
+
+Per ulteriori informazioni, consulta [Filtrare e raggruppare il lavoro con priorità](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
+
 ## Recuperare il lavoro in Priorità
 
 >[!NOTE]
 >
->Versione di anteprima: 20 dicembre 2024; versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)
+>Versione di anteprima: 20 dicembre 2024; versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)
 >
 >_Questa funzionalità è disponibile solo per i clienti dell&#39;esperienza Unified Adobe che utilizzano l&#39;Assistente all&#39;intelligenza artificiale._
 
@@ -36,7 +60,7 @@ Per ulteriori informazioni, consulta [Recuperare il lavoro in Priorità](/help/q
 
 >[!NOTE]
 >
->Versione di anteprima: 19 dicembre 2024; versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)
+>Versione di anteprima: 19 dicembre 2024; versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)
 
 Ora puoi visualizzare gli aggiornamenti in tempo reale nella pagina Dettagli di un’attività o di un problema. Puoi anche verificare se altri utenti visualizzano la pagina contemporaneamente a te con gli indicatori di presenza in tempo reale.
 
@@ -46,7 +70,7 @@ Per ulteriori informazioni, vedere [Visualizzare i dettagli del progetto e dell&
 
 >[!NOTE]
 >
->Versione di anteprima: 19 dicembre 2024; versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)
+>Versione di anteprima: 19 dicembre 2024; versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)
 
 È ora possibile interagire con i documenti e le bozze per le attività e i problemi nell’elenco lavori e nel calendario. Nella nuova scheda Documenti, è possibile:
 
@@ -61,7 +85,7 @@ Per ulteriori informazioni, consulta [Caricare documenti e creare bozze in Prior
 
 >[!NOTE]
 >
->Versione di anteprima: 19 dicembre 2024; versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)
+>Versione di anteprima: 19 dicembre 2024; versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)
 
 Ora puoi tenere traccia del tuo lavoro con un calendario chiaro e visivo. Con il calendario Priorità è possibile:
 
@@ -76,7 +100,7 @@ Per ulteriori informazioni, consulta [Gestire il lavoro nel calendario delle pri
 
 >[!NOTE]
 >
->Versione di anteprima: 12 dicembre 2024; versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)
+>Versione di anteprima: 12 dicembre 2024; versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)
 
 Abbiamo aggiornato l’elenco delle priorità per migliorarne le funzionalità e allinearlo ad altre aree dell’applicazione.
 
@@ -106,7 +130,7 @@ Per ulteriori informazioni, consulta [Filtrare e raggruppare il lavoro con prior
 
 >[!NOTE]
 >
->Versione di anteprima: 5 dicembre 2024; versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)
+>Versione di anteprima: 5 dicembre 2024; versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)
 
 Ora è possibile passare direttamente a un progetto in Workfront dall’elenco delle priorità.
 
@@ -131,8 +155,14 @@ Questa modifica semplifica la visualizzazione e l&#39;organizzazione del lavoro 
 
 >[!NOTE]
 >
->Versione di anteprima: 6 novembre 2024; produzione per rilascio rapido: con la versione 24.11 (14 novembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
+>Versione di anteprima: 6 novembre 2024; produzione per rilascio rapido: con la versione 24.11 (14 novembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (16 gennaio 2025)
 
 È ora possibile visualizzare i dettagli e i commenti del progetto dall’elenco di lavoro in Priorità.
 
 Per ulteriori informazioni, vedere [Visualizzare i dettagli del progetto e dell&#39;attività nell&#39;elenco delle priorità](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).
+
+## Video dimostrativo sui miglioramenti delle priorità
+
+Guarda il video seguente per una dimostrazione dettagliata delle nuove funzioni aggiunte a Priorità questo trimestre.
+
+[Video dimostrativo sui miglioramenti delle priorità](https://video.tv.adobe.com/v/3442751/){target=_blank}
