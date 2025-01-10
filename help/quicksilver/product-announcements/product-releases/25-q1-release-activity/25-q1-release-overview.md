@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 11b25decc88146568aad615eb06ef3521f7aa761
+source-git-commit: 5ad96cc98e3bd8556224885940052a4f3d22697f
 workflow-type: tm+mt
-source-wordcount: '2527'
+source-wordcount: '2525'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <p><b>Disponibile in queste date:</b></p>
             <ul>
                 <li>Versione di anteprima: 6 gennaio 2024</li>
-                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)</li>
+                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
         </td>
     </tr>
@@ -82,7 +82,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <p><b>Disponibile in queste date:</b></p>
             <ul>
                 <li>Versione di anteprima: 6 gennaio 2024</li>
-                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (gennaio 2025)</li>
+                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
         </td>
     </tr>  

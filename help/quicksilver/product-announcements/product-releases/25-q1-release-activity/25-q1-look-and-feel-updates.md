@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 5ad96cc98e3bd8556224885940052a4f3d22697f
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,19 @@ ht-degree: 0%
 Questa pagina descrive piccoli aggiornamenti all’aspetto di varie aree dell’applicazione Adobe Workfront che sono stati apportati nell’arco temporale del rilascio del primo trimestre 2025.
 
 Per un elenco di tutte le modifiche disponibili con la versione del primo trimestre 2025, consulta [Panoramica sulla versione del primo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+
+## Aggiornamenti di tipo look-and-feel per la modifica delle ore inserite da un elenco di ore o da un report
+
+>[!NOTE]
+>
+>Versione di anteprima: 9 gennaio 2025; versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)
+
+È stato aggiornato l’aspetto della casella Modifica ora, quando si modificano le ore da un elenco o da un rapporto, in modo che corrispondessero al design di altre aree di Workfront.
+
+Per informazioni, vedere [Tempo di connessione](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+
+
 
 ## Esperienza aggiornata nella pagina Cloud Providers (Provider cloud) nell’area Setup (Configura)
 
