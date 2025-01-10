@@ -6,10 +6,10 @@ description: Un report calendario è un report dinamico che fornisce una rappres
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 27bf6f03-2f6b-4556-a715-75c4a21bfbbb
-source-git-commit: e5a3024b1657942cd7abdfff76a7a6795127a4f5
+source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 1%
+source-wordcount: '617'
+ht-degree: 2%
 
 ---
 
@@ -23,6 +23,8 @@ Un report calendario è un report dinamico che fornisce una rappresentazione vis
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
@@ -32,35 +34,39 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
+   <td><p>Nuovo: Standard</p>
+       <p>oppure</p>
+       <p>Corrente: Piano</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
-   <td> <p>Accesso di [!UICONTROL Edit] a [!UICONTROL Reports], [!UICONTROL Dashboards] e [!UICONTROL Calendars]</p> <p>Nota: se non disponi ancora dell'accesso, chiedi all'amministratore [!DNL Workfront] se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di [!DNL Workfront] può modificare il tuo livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Accesso di [!UICONTROL Edit] a [!UICONTROL Reports], [!UICONTROL Dashboards] e [!UICONTROL Calendars]</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Accesso [!UICONTROL Gestisci] al report calendario</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td>Accesso [!UICONTROL Gestisci] al report calendario</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Imposta il gruppo di elementi
 
 È possibile scegliere la modalità di visualizzazione del gruppo di elementi nel calendario.
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Calendari]**.
+{{step1-to-calendars}}
 
-1. Selezionare il calendario a cui si desidera aggiungere un nuovo gruppo di elementi.\
-   Oppure\
-   Fare clic su **[!UICONTROL + Nuovo calendario]** e immettere il nome del calendario.
+1. Selezionare il calendario a cui si desidera aggiungere un nuovo gruppo di elementi.
+Oppure
+Fare clic su **[!UICONTROL + Nuovo calendario]** e immettere il nome del calendario.
 
    >[!NOTE]
    >
@@ -124,7 +130,7 @@ Dopo aver impostato la modalità di visualizzazione degli elementi, è necessari
    * **[!UICONTROL Progetti]**
    * **[!UICONTROL Problemi]**
 
-1. Fai clic su **[!UICONTROL Aggiungi attività]**, **[!UICONTROL Aggiungi progetti]** o **[!UICONTROL Aggiungi problemi]**, a seconda del tipo di oggetto che stai aggiungendo al calendario.\
+1. Fai clic su **[!UICONTROL Aggiungi attività]**, **[!UICONTROL Aggiungi progetti]** o **[!UICONTROL Aggiungi problemi]**, a seconda del tipo di oggetto che stai aggiungendo al calendario.
    ![Seleziona l&#39;oggetto per il calendario](assets/field-name.png)
 
 1. Nel menu a discesa, iniziare a digitare il nome del campo, quindi selezionare l&#39;origine del campo dell&#39;oggetto che si desidera visualizzare nel calendario, ad esempio **[!UICONTROL Attività in ritardo]**.
