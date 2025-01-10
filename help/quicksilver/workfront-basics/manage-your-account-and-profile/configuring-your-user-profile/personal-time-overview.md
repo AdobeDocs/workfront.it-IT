@@ -7,10 +7,10 @@ description: È importante indicare in Adobe Workfront quando si verifica l’as
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: fa5a59c15395f825ad73d889d4d877224a676891
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 1%
+source-wordcount: '428'
+ht-degree: 0%
 
 ---
 
@@ -67,6 +67,13 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 ## Configura indisponibilità personale in [!DNL Workfront]
 
 {{step1-click-profile-pic}}
+
+>[!NOTE]
+>
+>Se ti trovi in Adobe Unified Experience, puoi accedere al tuo profilo Workfront facendo clic sul menu dell’account Adobe (immagine del tuo profilo) nell’area di navigazione superiore, quindi scegliendo Profilo Workfront.
+>
+>![profilo Workfront](assets/aue-profile.png)
+
 
 1. Nel pannello a sinistra, fai clic su **[!UICONTROL Indisponibilità]**.
 1. Seleziona la data desiderata per il tuo tempo libero personale.
