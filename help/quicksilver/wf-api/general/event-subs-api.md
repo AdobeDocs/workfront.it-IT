@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: a1c94dd17f96fbd1fb397fd927403317335cefa0
+source-git-commit: 90b863fe27b05524ff9d89f1bdeaa8d056dc1cec
 workflow-type: tm+mt
-source-wordcount: '2181'
+source-wordcount: '2198'
 ht-degree: 3%
 
 ---
@@ -653,7 +653,7 @@ Questo connettore applica il filtro al nuovo stato o al vecchio stato dell’ogg
 
 ### Utilizzo di filtri nidificati
 
-Sottoscrizione eventi supporta il filtro sui campi nidificati degli eventi utilizzando la parola chiave `fieldValue.fields`.
+Sottoscrizione eventi supporta il filtro sui campi nidificati degli eventi utilizzando i nomi dei campi nidificati. Ad esempio, per filtrare un messaggio in cui `newState.data.customField1 = 'myCustomeFieldValue'`, è possibile creare la seguente sottoscrizione con filtro:
 
 ```
 {
@@ -665,25 +665,11 @@ Sottoscrizione eventi supporta il filtro sui campi nidificati degli eventi utili
         {
             "fieldName": "data",
             "fieldValue": {
-                "fields": {
-                    "customerID": "customer1234"
-                }
+                    "customField1": "myCustomFieldValue"
             },
             "comparison": "eq",
             "state": "newState"
-        },
-        {
-            "fieldName": "options",
-            "fieldValue": {
-                "objects": {
-                    "projectID": "project1234"
-                }
-            },
-            "comparison": "contains",
-            "state": "newState"
-        },
-    ],
-    "filterConnector": 'AND'
+        }
 }
 ```
 
