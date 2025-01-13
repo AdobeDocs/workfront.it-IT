@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: b333ea67bb909ca55306f6474832c275ebad590c
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 18%
+source-wordcount: '410'
+ht-degree: 23%
 
 ---
 
@@ -148,9 +148,11 @@ La tabella seguente indica il livello massimo di accesso (Modifica o Visualizza)
 
 >[!NOTE]
 >
->Gli utenti con una licenza Light o una licenza Contributor dispongono di funzionalità di condivisione limitate. Per ulteriori informazioni, vedere [Panoramica licenze](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+>* Gli utenti con una licenza Light o una licenza Contributor dispongono di funzionalità di condivisione limitate. Per ulteriori informazioni, vedere [Panoramica licenze](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 >
->Gli utenti esterni non possono cercare elementi in Workfront. Possono visualizzare documenti e calendari condivisi in modo specifico con loro. Possono inoltre visualizzare gli utenti che condividono gli elementi con loro.
+>* Gli utenti esterni non possono cercare elementi in Workfront. Possono visualizzare documenti e calendari condivisi in modo specifico con loro. Possono inoltre visualizzare gli utenti che condividono gli elementi con loro.
+>
+>* Gli utenti collaboratori e gli utenti esterni non possono visualizzare il contenuto condiviso a livello di sistema.  Deve essere condiviso esplicitamente con loro.
 
 Nei seguenti articoli sono disponibili informazioni dettagliate sui livelli di accesso consentiti per ciascun oggetto e area:
 
