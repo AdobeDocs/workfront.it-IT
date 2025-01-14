@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 41eff095-ff9b-4791-81c3-758e101b3e88
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: f5eb5165183986f55919bdf2c59a31c12a1c64fe
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,15 @@ ht-degree: 0%
 Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione del primo trimestre 2025. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione con la versione del primo trimestre 2025.
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del primo trimestre 2025, consulta [Panoramica sulla versione del primo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Aggiornamento visualizzatore bozze desktop
+
+Abbiamo aggiornato Desktop Viewer con la versione più recente di Electron 33.3.0 che utilizza Chromium 130.0.6723.152.
+
+Per informazioni sull&#39;installazione del Visualizzatore bozze desktop, vedere [Installare il Visualizzatore bozze desktop](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+
+
+Ultima versione: 2.1.44
 
 ## Nuova estensione del browser per la revisione interattiva disponibile in versione beta
 
