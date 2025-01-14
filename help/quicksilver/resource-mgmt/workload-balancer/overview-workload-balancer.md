@@ -7,7 +7,7 @@ description: Dopo che i project manager hanno pianificato il lavoro sui progetti
 author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 233e61c011cc87f49d0d4082a20b7790104c96c8
 workflow-type: tm+mt
 source-wordcount: '1176'
 ht-degree: 0%
@@ -64,7 +64,7 @@ Quando utilizzi il Bilanciatore dei carichi di lavoro, considera i seguenti vant
 
 * I dirigenti possono prendere decisioni tempestive in materia di assegnazione del personale attraverso la trasparenza delle modalità di utilizzo delle persone all&#39;interno dell&#39;organizzazione.
 * I membri del team traggono vantaggio da una migliore collaborazione, in quanto possono tutti visualizzare su cosa stanno lavorando i loro colleghi in un dato momento. Per informazioni sull&#39;accesso necessario per visualizzare o gestire risorse nel Bilanciatore dei carichi di lavoro, vedere [Accesso necessario per gestire risorse nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
-* Per condividerlo con utenti che non hanno accesso all&#39;area Risorse, incorpora un collegamento in una scheda personalizzata. Per informazioni, consulta [Condividere il Bilanciatore dei carichi di lavoro con un collegamento](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)
+* Per condividerlo con altri utenti che non dispongono di Risorse nel menu principale, incorpora un collegamento in una scheda personalizzata. Per informazioni, consulta [Condividere il Bilanciatore dei carichi di lavoro con un collegamento](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md).
 * Visualizza e gestisci i carichi di lavoro e la domanda delle persone in un’unica vista a livello globale, di progetto o di team, a seconda del ruolo. Durante la gestione dei progetti, questo include non solo l’allocazione delle risorse per il progetto, ma anche la visualizzazione dell’allocazione delle risorse da Adobe Workfront Scenario Planner. I responsabili delle persone utilizzano Workfront Scenario Planner per gestire le competenze professionali in tutta l’organizzazione. La funzione Pianificazione scenario è disponibile solo nella nuova esperienza Adobe Workfront.
 
   >[!NOTE]
