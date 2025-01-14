@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 6%
@@ -38,15 +38,13 @@ Per informazioni su come condividere aree di lavoro o visualizzazioni, vedere i 
 
    * È possibile condividere le aree di lavoro con altri utenti all&#39;interno dell&#39;organizzazione.
    * Quando si condivide un&#39;area di lavoro, vengono condivisi anche tutti i tipi di record, i record e i campi associati alle aree di lavoro.
-
-     Quando si condivide un&#39;area di lavoro, le visualizzazioni non vengono condivise. Le visualizzazioni sono condivise separatamente.
+   * Quando si condivide un&#39;area di lavoro, le visualizzazioni non vengono condivise. Le visualizzazioni sono condivise separatamente.
 
 * Viste
 
-   * È necessario concedere agli utenti, inclusi gli amministratori di sistema, le autorizzazioni per accedere alle visualizzazioni separatamente dalle autorizzazioni per l’accesso alle aree di lavoro.
+   * È necessario concedere agli utenti, inclusi gli amministratori di sistema, le autorizzazioni per accedere alle visualizzazioni separatamente dalle relative autorizzazioni per accedere alle aree di lavoro.
    * Quando si condivide una visualizzazione, vengono condivisi tutti gli elementi della visualizzazione, inclusi filtri, raggruppamenti, ordinamento o Impostazioni.
-
-     Quando si condivide una visualizzazione, i record visibili nella visualizzazione non vengono condivisi. I record devono essere condivisi condividendo le aree di lavoro.
+   * Quando si condivide una visualizzazione, i record visibili nella visualizzazione non vengono condivisi. I record devono essere condivisi condividendo le aree di lavoro.
    * È possibile condividere una visualizzazione pubblicamente con utenti esterni all&#39;organizzazione quando si genera un collegamento pubblico per una visualizzazione.Gli utenti che accedono alla pagina record da un collegamento pubblico possono visualizzare tutti i record e i relativi campi, inclusi i record e i campi collegati.
 
   Per informazioni, vedere [Condividi visualizzazioni](/help/quicksilver/planning/access/share-views.md).

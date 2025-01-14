@@ -7,9 +7,9 @@ description: Un oggetto risolvibile è un problema la cui risoluzione è associa
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1771'
 ht-degree: 1%
 
 ---
@@ -120,11 +120,13 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 ### Sincronizzare gli stati quando l&#39;oggetto risolutivo è un problema {#synchronize-statuses-when-the-resolving-object-is-an-issue}
 
-Se un problema è legato manualmente a un altro problema, lo stato del secondo problema (oggetto risolutivo) attiva una modifica dello stato del primo problema (oggetto risolvibile). Lo stato del primo problema corrisponde allo stato in cui viene modificato il secondo problema. Questo vale sia per gli stati di problema predefiniti che per quelli personalizzati.
+Quando un problema è legato manualmente a un altro problema, lo stato del secondo problema (Oggetto risolutivo) attiva una modifica dello stato del primo problema (Oggetto risolvibile). Lo stato del primo problema corrisponde allo stato in cui viene modificato il secondo problema. Questo vale sia per gli stati di problema predefiniti che per quelli personalizzati.
 
 ### Sincronizzare gli stati quando l&#39;oggetto risolutivo è un&#39;attività o un progetto {#synchronize-statuses-when-the-resolving-object-is-a-task-or-a-project}
 
 Quando un problema è l’oggetto risolvibile di un’attività o di un progetto, le modifiche allo stato delle attività e dei progetti attivano le modifiche allo stato del problema. In questo caso, gli stati predefiniti vengono attivati in modo diverso dagli stati personalizzati.
+
+Quando lo stato personalizzato del progetto è uguale a uno stato predefinito che non attiva una modifica allo stato del problema, non attiva la modifica dello stato del problema.
 
 * [Sincronizzare lo stato predefinito dell&#39;oggetto risolutivo con lo stato predefinito dell&#39;oggetto risolvibile](#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object)
 * [Sincronizza lo stato personalizzato dell&#39;oggetto risolutivo con lo stato personalizzato dell&#39;oggetto risolvibile](#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object)

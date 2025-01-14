@@ -6,9 +6,9 @@ description: Puoi aggiungere un aggiornamento a un oggetto Adobe Workfront (prog
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 1426f806b72d740712eba5e337c8424f8af6c9dc
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '3065'
+source-wordcount: '3104'
 ht-degree: 0%
 
 ---
@@ -382,16 +382,26 @@ La scheda **Commenti** è selezionata per impostazione predefinita.
    1. In **Testo da visualizzare** digitare o incollare il testo del collegamento.
    1. Fai clic su **Salva**.
 
-1. (Facoltativo) Per allegare un&#39;immagine all&#39;aggiornamento, effettuare una delle seguenti operazioni:
+1. (Facoltativo) Allega un’immagine a un aggiornamento.
+
+   >[!WARNING]
+   >
+   >Non è possibile allegare un&#39;immagine all&#39;area aggiornamenti dei seguenti oggetti:
+   >
+   >* Obiettivi
+   >* Schede ad hoc su bacheche
+   >* Record in Workfront Planning. Per informazioni, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
+   >
+
+   Per allegare un&#39;immagine all&#39;aggiornamento, effettuare una delle seguenti operazioni:
 
    * Salva l’immagine sul computer, quindi trascinala e rilasciala nell’area Nuovo commento.
    * Copia uno screenshot dal computer, quindi incollalo nel commento.
    * Fai clic sull&#39;icona **Aggiungi immagine** ![](assets/add-image-mountain-with-plus-icon.png) e individua l&#39;immagine nel computer.
 
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >**IMPORTANTE**
    >
    ><!--<span class="preview">You cannot add images to goals or ad-hoc cards on boards.</span> -->
    >
@@ -598,7 +608,7 @@ Nella sezione Aggiornamenti di un oggetto Workfront vengono visualizzati due tip
    * Team
    * Modello
    * Attività modello
-   * Scheda ad hoc
+   * Scheda ad hoc su una bacheca
 
 Per ulteriori informazioni sugli aggiornamenti di utenti e sistemi e sulla relativa visualizzazione nella sezione Aggiornamenti degli oggetti di Workfront, vedere [Panoramica della sezione Aggiornamenti](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 

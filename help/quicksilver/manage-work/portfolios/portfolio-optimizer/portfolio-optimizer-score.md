@@ -7,14 +7,16 @@ description: Puoi trovare il punteggio di Portfolio Optimizer in Portfolio Optim
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 4451b1a3-57ae-4c66-a6a1-a85bd51a1648
-source-git-commit: b6defd7dba91a06feb365ead74bd9c48f5165c77
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 0%
 
 ---
 
-# Panoramica del punteggio [!UICONTROL Portfolio Optimizer]
+# Panoramica del punteggio di [!UICONTROL Portfolio Optimizer]
+
+<!--Audited: 01/2025-->
 
 È possibile trovare il punteggio [!UICONTROL Portfolio Optimizer] in [!UICONTROL Portfolio Optimizer]. Viene visualizzato nella colonna **[!UICONTROL Punteggio]** per ogni progetto. Questo rappresenta un punteggio per ogni progetto del portfolio.
 
@@ -26,7 +28,8 @@ Per informazioni su come [!DNL Adobe Workfront] utilizza il punteggio del proget
 
 Esiste una differenza tra il punteggio di allineamento e il punteggio dell’ottimizzatore del portfolio di un progetto.
 
-Il punteggio di allineamento di un progetto viene calcolato in base ai punti ottenuti dopo il completamento della scorecard. Questo punteggio viene quindi utilizzato per determinare il punteggio di allineamento del portfolio. Il punteggio di allineamento viene visualizzato come percentuale.\
+Il punteggio di allineamento di un progetto viene calcolato in base ai punti ottenuti dopo il completamento della scorecard. Questo punteggio viene quindi utilizzato per determinare il punteggio di allineamento del portfolio. Il punteggio di allineamento viene visualizzato come percentuale.
+
 Il punteggio di allineamento di un progetto viene visualizzato nella colonna **[!UICONTROL Allineamento]** dell&#39;[!UICONTROL Ottimizzatore Portfolio] o nel campo [!UICONTROL Allineamento] del [!UICONTROL Riepilogo caso di business].
 
 ![](assets/business-case-summary-aligned-field-highlighted.png)
@@ -68,7 +71,13 @@ Per conoscere la classificazione di un progetto, effettuare le seguenti operazio
 
 L’algoritmo per il calcolo dei punteggi prende in considerazione i valori delineati nei Business Case dei progetti e il peso che comportano. Attribuisce un punteggio a ogni progetto nell’ottimizzatore e normalizza tale punteggio in modo che ci sia sempre un progetto con un punteggio di 100. Questo dà un punteggio alto al progetto migliore.
 
-**Esempio:** Se ad esempio si rende [!UICONTROL l&#39;allineamento superiore] l&#39;unico fattore da considerare, il progetto con l&#39;allineamento più alto ottiene il punteggio di 100.
+>[!BEGINSHADEBOX]
+
+**ESEMPIO**
+
+Ad esempio, se l&#39;allineamento [!UICONTROL più alto] è l&#39;unico fattore da considerare, il progetto con l&#39;allineamento più alto ottiene il punteggio di 100.
+
+>[!ENDSHADEBOX]
 
 Di seguito sono riportati i criteri in base ai quali è possibile assegnare un punteggio a un progetto:
 
