@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 <!--take Preview and Prod references out when releasing to Prod all-->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -126,9 +126,9 @@ Prima di inviare una richiesta a un modulo di richiesta Workfront Planning, è n
 
 * È possibile accedere a un modulo di richiesta per le richieste di Workfront Planning solo da un collegamento specifico al modulo.
 * Una richiesta inviata a Workfront Planning non può essere modificata.
-* Ogni richiesta inviata crea un record per il tipo di record associato al modulo utilizzato <span class="preview">se il modulo non è associato a un&#39;approvazione o se l&#39;approvazione è stata concessa da tutti gli approvatori.</span>
+* Ogni richiesta sottomessa crea un record per il tipo di record associato al modulo utilizzato se il modulo non è associato a un&#39;approvazione o se l&#39;approvazione è stata concessa da tutti gli approvatori.
 * I record creati con l’invio di moduli di richiesta non possono essere differenziati dai record aggiunti tramite qualsiasi altro metodo. Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).
-* <span class="preview">Le richieste inviate vengono visualizzate nella scheda Pianificazione della sezione Inviate nell&#39;area Richieste di Workfront </span>.
+* Le richieste inviate vengono visualizzate nella scheda Pianificazione della sezione Inviate dell&#39;area Richieste di Workfront.
 
 <!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
@@ -149,23 +149,24 @@ Prima di inviare una richiesta a un modulo di richiesta Workfront Planning, è n
 
    Il modulo viene inviato e si verificano gli eventi seguenti:
 
-   * Se il modulo di richiesta non è stato associato a un&#39;approvazione, la richiesta viene aggiunta alla scheda <span class="preview">Pianificazione della sezione Inviata dell&#39;area Richieste di Workfront </span> e viene aggiunto un nuovo record al tipo di record associato al modulo.
+   * Se il modulo di richiesta non è stato associato a un&#39;approvazione, la richiesta viene aggiunta alla scheda Pianificazione della sezione Inviata dell&#39;area Richieste di Workfront e viene aggiunto un nuovo record al tipo di record associato al modulo.
 
-   * Se il modulo di richiesta è stato associato a un&#39;approvazione, la richiesta <span class="preview"> viene aggiunta alla scheda Pianificazione della sezione Inviata dell&#39;area Richieste Workfront. Un nuovo record viene aggiunto alla pagina del tipo di record solo dopo l&#39;approvazione di tutti gli approvatori.</span>
-     <span class="preview">Per informazioni, vedere [Aggiungere un&#39;approvazione a un modulo di richiesta](/help/quicksilver/planning/requests/add-approval-to-request-form.md).</span>
+   * Se il modulo di richiesta era associato a un’approvazione, la richiesta viene aggiunta alla scheda Pianificazione della sezione Inviata dell’area Richieste di Workfront. Un nuovo record viene aggiunto alla pagina del tipo di record solo dopo l&#39;approvazione di tutti gli approvatori.
+
+     Per informazioni, vedere [Aggiungere un&#39;approvazione a un modulo di richiesta](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
      ![](assets/planning-tab-in-requests.png)
 
      >[!IMPORTANT]
      >
-     ><span class="preview">Tutti gli utenti che hanno accesso ad almeno un&#39;area di lavoro possono visualizzare la scheda Pianificazione nell&#39;area Richieste. Puoi visualizzare solo le richieste inviate da te o da altri utenti alle aree di lavoro per le quali disponi almeno delle autorizzazioni di visualizzazione. Gli amministratori di Workfront possono visualizzare tutte le richieste inviate a qualsiasi area di lavoro del sistema. </span> <!--ensure this is correct; asking team in slack-->
+     >Tutti gli utenti che hanno accesso ad almeno un&#39;area di lavoro possono visualizzare la scheda Pianificazione nell&#39;area Richieste. Puoi visualizzare solo le richieste inviate da te o da altri utenti alle aree di lavoro per le quali disponi almeno delle autorizzazioni di visualizzazione. Gli amministratori di Workfront possono visualizzare tutte le richieste inviate a qualsiasi area di lavoro del sistema. <!--ensure this is correct; asking team in slack-->
 
-   * <span class="preview">Ricevi una notifica in-app e un messaggio e-mail che informa che la richiesta è stata inviata correttamente o è stata inviata per la revisione.</span>
-   * <span class="preview">Se il modulo di richiesta era associato a un&#39;approvazione, gli approvatori ricevono una notifica in-app e un messaggio di posta elettronica per rivedere e approvare la richiesta.</span>
+   * Ricevi una notifica in-app e un messaggio e-mail che informa che la richiesta è stata inviata correttamente o è stata inviata per la revisione.
+   * Se il modulo di richiesta era associato a un’approvazione, gli approvatori ricevono una notifica in-app e un messaggio e-mail per rivedere e approvare la richiesta.
 
      >[!NOTE]
      >
-     ><span class="preview">Le notifiche e-mail e in-app sono visibili solo quando l&#39;istanza di Workfront dell&#39;organizzazione è integrata in Adobe Unified Experience.</span>
+     >Le notifiche e-mail e in-app sono visibili solo quando l’istanza di Workfront della tua organizzazione viene integrata in Adobe Unified Experience.
 
 
 

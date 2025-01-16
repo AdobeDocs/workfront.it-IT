@@ -7,9 +7,9 @@ description: Un oggetto risolvibile è un problema la cui risoluzione è associa
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1778'
 ht-degree: 1%
 
 ---
@@ -126,7 +126,7 @@ Quando un problema è legato manualmente a un altro problema, lo stato del secon
 
 Quando un problema è l’oggetto risolvibile di un’attività o di un progetto, le modifiche allo stato delle attività e dei progetti attivano le modifiche allo stato del problema. In questo caso, gli stati predefiniti vengono attivati in modo diverso dagli stati personalizzati.
 
-Quando lo stato personalizzato del progetto è uguale a uno stato predefinito che non attiva una modifica allo stato del problema, non attiva la modifica dello stato del problema.
+Quando lo stato personalizzato di un progetto è uguale a uno stato predefinito che non attiva una modifica dello stato del problema, la modifica dello stato del progetto non attiva una modifica dello stato del problema.
 
 * [Sincronizzare lo stato predefinito dell&#39;oggetto risolutivo con lo stato predefinito dell&#39;oggetto risolvibile](#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object)
 * [Sincronizza lo stato personalizzato dell&#39;oggetto risolutivo con lo stato personalizzato dell&#39;oggetto risolvibile](#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object)

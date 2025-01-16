@@ -9,18 +9,18 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '2245'
+source-wordcount: '2185'
 ht-degree: 2%
 
 ---
 
 # Configurare le preferenze per attività e problemi per un gruppo
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Se i gruppi dell’organizzazione devono configurare una preferenza per attività o problemi indipendentemente dalla modalità di configurazione a livello di sistema, un amministratore Adobe Workfront può sbloccare la preferenza. Quindi, in qualità di amministratore di gruppo, puoi configurare la preferenza per il gruppo e influenzerà tutte le attività o i problemi associati al gruppo.
 
@@ -95,7 +95,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    * [Nuovi valori predefiniti attività](#new-task-defaults)
    * [Problemi](#issues)
    * [Eliminazione](#deletion)
-   * <span class="preview">[Sposta](#move)</span>
+   * [Sposta](#move)
    * [Date effettive](#actual-dates)
    * [Delega](#delegation)
    * [Accesso](#access)
@@ -184,8 +184,6 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    </table>
 
 
-<div class="preview">
-
 ### Sposta
 
 <table style="table-layout:auto"> 
@@ -203,8 +201,6 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
      </tr> 
     </tbody> 
    </table>
-
-</div>
 
 ### Date effettive {#actual-dates}
 

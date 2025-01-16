@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 0%

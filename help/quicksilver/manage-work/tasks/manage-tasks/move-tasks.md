@@ -6,9 +6,9 @@ description: In Adobe Workfront è possibile spostare le attività in progetti d
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1487'
 ht-degree: 2%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 2%
 <!--Audited: 12/2024-->
 
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 Puoi spostare le attività in Adobe Workfront tra i seguenti oggetti:
@@ -72,6 +72,8 @@ Per eseguire le azioni descritte in questo articolo, è necessario disporre dei 
 
 Quando si sposta un&#39;attività, tenere presente quanto segue:
 
+* L&#39;amministratore di sistema o di gruppo può impedire lo spostamento di attività con ore registrate, a seconda di come configurano la preferenza Consenti agli utenti di spostare attività e problemi con ore registrate nell&#39;area Configura. Per informazioni, consulta [Configurare le preferenze per attività e problemi a livello di sistema](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+
 * Quando si sposta un&#39;attività da un progetto a un altro, è possibile che le date dell&#39;attività vengano ricalcolate. Il ricalcolo terrà conto della pianificazione utilizzata dal nuovo progetto e delle informazioni di Schedule From del progetto.
 
 * È possibile scegliere di spostare alcuni elementi associati all&#39;attività nell&#39;attività spostata durante il processo di spostamento. Tuttavia, per impostazione predefinita, i seguenti oggetti vengono trasferiti all&#39;attività spostata:
@@ -82,16 +84,9 @@ Quando si sposta un&#39;attività, tenere presente quanto segue:
    * Moduli personalizzati e informazioni sui campi personalizzati
    * Sottoattività
 
-Per impostazione predefinita, i seguenti elementi non si spostano con l’attività:
+* Per impostazione predefinita, i seguenti elementi non si spostano con l’attività:
 
-* Le Milestone
-
-<div class="preview">
-
-* L&#39;amministratore di sistema o di gruppo può impedire lo spostamento di attività con ore registrate, a seconda di come configurano la preferenza Consenti agli utenti di spostare attività e problemi con ore registrate nell&#39;area Configura. Per informazioni, consulta [Configurare le preferenze per attività e problemi a livello di sistema](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
-
-</div>
-
+   * Le Milestone
 
 ## Spostare le attività in un elenco
 

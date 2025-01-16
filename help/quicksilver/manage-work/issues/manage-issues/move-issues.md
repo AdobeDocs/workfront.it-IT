@@ -6,9 +6,9 @@ description: Puoi spostare i problemi tra progetti e attività.
 author: Alina
 feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '868'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 <!--Audited: 12/2024-->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 È possibile spostare i problemi tra i seguenti oggetti:
 
@@ -72,15 +72,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 Quando si spostano problemi che contengono documenti o sono associati a una coda di richieste, considera quanto segue:
 
+* L’amministratore di sistema o di gruppo può impedire lo spostamento di problemi che hanno registrato ore, a seconda di come ha configurato la preferenza Consenti agli utenti di spostare attività e problemi con ore registrate nell’area Configura. Per informazioni, consulta [Configurare le preferenze per attività e problemi a livello di sistema](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+
 * **Quando un problema è associato a una coda di richieste:** Quando si sposta un problema in un altro oggetto e il problema è associato a una coda di richieste, il problema spostato non è più associato alla coda originale da cui ha avuto origine il primo problema.
 * **Quando un documento è allegato al problema:** Quando si sposta un problema in un altro oggetto a cui è associato un documento, anche il documento, le relative versioni e bozze vengono spostati nel nuovo problema. Eventuali approvazioni associate al documento non vengono spostate.
 * **Quando un problema è collegato a un documento o a una cartella:** Quando si sposta un problema che include documenti o cartelle collegati a un servizio di terze parti come Google Drive, i collegamenti ai documenti vengono spostati insieme al problema.
-
-<div class="preview">
-
-* L’amministratore di sistema o di gruppo può impedire lo spostamento di problemi che hanno registrato ore, a seconda di come ha configurato la preferenza Consenti agli utenti di spostare attività e problemi con ore registrate nell’area Configura. Per informazioni, consulta [Configurare le preferenze per attività e problemi a livello di sistema](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
-
-</div>
 
 ## Sposta i problemi in un elenco
 
@@ -103,9 +99,9 @@ Quando si spostano problemi che contengono documenti o sono associati a una coda
 
 È possibile spostare un problema durante la visualizzazione.
 
-### Spostare un singolo problema nell’ambiente di anteprima
+### Spostare un singolo problema
 
-1. Vai al problema che desideri copiare, fai clic sul menu **Altro** ![](assets/more-icon.png)a destra del nome del problema, quindi seleziona **Sposta** in.
+1. Passa al problema che desideri spostare, fai clic sul menu **Altro** ![](assets/more-icon.png) a destra del nome del problema, quindi fai clic su **Sposta in**.
 
    ![](assets/nwe-move-at-issue-level-highlighted-350x579.png)
 

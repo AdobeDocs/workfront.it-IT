@@ -6,21 +6,20 @@ description: Puoi visualizzare e aggiungere aggiornamenti a un elemento di lavor
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 6%
+source-wordcount: '846'
+ht-degree: 7%
 
 ---
 
 # Aggiornare o modificare un elemento di lavoro nell&#39;area [!UICONTROL Home]
 
-<!--Audited: April 2024-->
+<!--Audited: 04/2024-->
 
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
-
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Puoi visualizzare e aggiungere aggiornamenti a un elemento di lavoro all&#39;interno dell&#39;area [!UICONTROL Home] in [!DNL Adobe Workfront]. È inoltre possibile modificare altri dati relativi all&#39;elemento di lavoro se si dispone dell&#39;accesso per modificarlo.
 
@@ -133,22 +132,18 @@ Puoi fornire aggiornamenti su qualsiasi elemento di lavoro nel widget [!UICONTRO
 
 1. Fai clic su **Risposta**.
 
-   <div class="preview">
-
    ![](assets/reply-to-comment-in-mentions-widget.png)
 
-   </div>
-
 1. Inizia a digitare il commento.
-1. (Facoltativo) Nella casella <span class="preview">**Assegna tag a persone**</span>, inizia a digitare il nome di un utente o di un team che desideri includere in questo commento, quindi selezionalo quando viene visualizzato nell&#39;elenco.
+1. (Facoltativo) Nella casella **Assegna tag a persone**, inizia a digitare il nome di un utente o di un team che desideri includere in questo commento, quindi selezionalo quando viene visualizzato nell&#39;elenco.
 1. (Facoltativo) Utilizza le opzioni nella barra degli strumenti Testo formattato per formattare il testo, aggiungere emoticon, collegamenti o immagini al commento, per migliorarne il contenuto.
-1. <span class="preview">Fare clic su **Invia** per aggiungere il commento all&#39;elemento di lavoro.</span>
+1. Fai clic su **Invia** per aggiungere il commento all&#39;elemento di lavoro.
 
    >[!IMPORTANT]
    >
-   ><span class="preview">È possibile modificare il commento solo entro 15 minuti dall&#39;invio. Per modificare un commento, fai clic sul menu **Altro** nell&#39;angolo superiore destro del commento, quindi fai clic su **Modifica**.</span>
+   >È possibile modificare il commento solo entro 15 minuti dall&#39;invio. Per modificare un commento, fai clic sul menu **Altro** nell&#39;angolo superiore destro del commento, quindi fai clic su **Modifica**.
 
-   <span class="preview">Per ulteriori informazioni dettagliate sull&#39;aggiunta di aggiornamenti, vedere [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).</span>
+   Per informazioni più dettagliate sull&#39;aggiunta di aggiornamenti, vedere [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Modificare un elemento di lavoro
 

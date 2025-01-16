@@ -8,9 +8,9 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '949'
 ht-degree: 1%
 
 ---
@@ -21,12 +21,19 @@ ht-degree: 1%
 
 Puoi individuare i seguenti tipi di richieste inviate da te o da un altro utente oppure richieste avviate ma non ancora inviate. Puoi individuare queste richieste nelle seguenti aree di Adobe Workfront:
 
-* **Sezione inviata**: tutte le richieste inviate da te o da un altro utente e a cui hai accesso sono almeno View.
-* **Sezione bozza**: tutte le richieste avviate ma non completate e non inviate. Per ulteriori informazioni sulle bozze di richieste, vedere [Creare e inviare richieste Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
+* Scheda **Workfront** dell&#39;area Richieste in Workfront: individuare le richieste inviate alle code di richieste di Workfront nelle sezioni seguenti:
+   * **Sezione inviata**: tutte le richieste inviate da te o da un altro utente e a cui hai accesso sono almeno View.
+   * **Sezione bozza**: tutte le richieste avviate ma non completate e non inviate. Per ulteriori informazioni sulle bozze di richieste, vedere [Creare e inviare richieste Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
   >[!TIP]
   >
   >È possibile visualizzare solo le proprie bozze di richieste.
+
+* Scheda **Planning** dell&#39;area Richieste in Workfront: individuare le richieste inviate ai moduli di richiesta di Workfront Planning. L&#39;organizzazione deve acquistare un pacchetto Workfront Planning. Per informazioni, vedere i seguenti articoli:
+
+   * [Creazione e gestione di un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
+   * [Inviare richieste di Adobe Workfront Planning per creare record](/help/quicksilver/planning/requests/submit-requests.md)
+
 
 ## Requisiti di accesso
 
@@ -70,6 +77,7 @@ Per individuare le richieste inviate da te o da altri utenti:
 
 {{step1-to-requests}}
 
+1. (Condizionale) Se la tua organizzazione ha acquistato un pacchetto Workfront Planning, fai clic sulla scheda **Workfront** per visualizzare le richieste di Workfront.
 1. Fai clic su **Inviato** nel pannello a sinistra per visualizzare tutte le richieste inviate.
 
    È possibile visualizzare fino a 2.000 richieste, che possono essere visualizzate su più pagine.
@@ -191,6 +199,12 @@ Per individuare le richieste inviate da te o da altri utenti:
    -->
 
 1. Fai clic su **Bozze** per visualizzare tutte le richieste bozze. Workfront salva un numero illimitato di bozze per ogni coda di richieste in questa cartella. Quando si immette una nuova richiesta per un argomento della coda che presenta già una bozza, viene richiesto di utilizzare una bozza esistente. Per ulteriori informazioni, vedere [Creare richieste dalle bozze](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
+
+1. (Facoltativo e condizionale) Se la tua organizzazione ha acquistato un pacchetto Workfront Planning, fai clic sulla scheda **Planning**, quindi fai clic su **Inviato** nel pannello a sinistra per visualizzare le richieste di Workfront Planning.
+
+   ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+
+   Per informazioni, vedere [Inviare le richieste di Adobe Workfront Planning per la creazione di record](/help/quicksilver/planning/requests/submit-requests.md).
 
  
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '2296'
+source-wordcount: '2236'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 0%
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 Linked to Converting Issues.-->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 In qualità di amministratore [!DNL Adobe Workfront], puoi configurare le preferenze a livello di sistema per le attività e i problemi. Queste preferenze influiscono sul modo in cui gli utenti creano attività e problemi in [!DNL Workfront].
@@ -74,15 +74,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    * [[!UICONTROL Nuovi valori predefiniti attività]](#new-task-defaults)
    * [[!UICONTROL Problemi]](#issues)
    * [[!UICONTROL Eliminazione]](#deletion)
-   * <span class="preview">[Sposta](#move)</span>
+   * [Sposta](#move)
    * [[!UICONTROL Date effettive]](#actual-dates)
    * [[!UICONTROL Delega]](#delegation)
    * [[!UICONTROL Accesso]](#access)
-
-<!--
-  <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>
--->
-
 
 
 ### [!UICONTROL Nuovi valori predefiniti attività] {#new-task-defaults}
@@ -169,8 +164,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 * Quando deselezioni questa opzione, viene visualizzato un avviso proibitivo quando elimini un’attività o un problema con ore registrate o quando elimini un progetto con ore registrate per le relative attività o problemi. L&#39;avviso specifica che l&#39;amministratore non consente l&#39;eliminazione di attività o problemi con ore registrate. Impossibile eliminare le attività, i problemi o i progetti per i quali sono state registrate ore per attività e problemi.
 
-<div class="preview">
-
 ### Sposta
 
 **[!UICONTROL Consenti agli utenti di spostare attività e problemi con ore registrate]**: consente di determinare se consentire lo spostamento di attività o problemi in cui sono registrate ore. Questa opzione è selezionata per impostazione predefinita.
@@ -178,8 +171,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 * Quando è selezionato, puoi spostare le attività e i problemi con tempo registrato. Le ore vengono spostate anche con le attività o i problemi.
 
 * Quando deselezioni questa opzione, ricevi un avviso proibitivo quando sposti un’attività o un problema con ore registrate in un altro progetto. L&#39;avviso specifica che l&#39;amministratore non consente lo spostamento di attività o problemi con ore registrate. Impossibile spostare le attività o i problemi con ore registrate. È possibile spostare le attività all’interno dello stesso progetto, anche quando questa opzione è deselezionata.
-
-</div>
 
 ### [!UICONTROL Date effettive] {#actual-dates}
 

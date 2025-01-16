@@ -6,9 +6,9 @@ description: In Adobe Workfront, le attività possono avere relazioni padre-figl
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 >[!NOTE]
 >
->L&#39;amministratore del Workfront o del gruppo potrebbe nascondere la sezione Attività secondarie nell&#39;ambiente.
+>L’amministratore di Workfront o di gruppo potrebbe rimuovere la sezione Sottoattività nel tuo ambiente utilizzando un modello di layout.
 
 1. Passare al progetto in cui si desidera creare le sottoattività.
 1. Fai clic sulla sezione **Attività** nel pannello a sinistra.
