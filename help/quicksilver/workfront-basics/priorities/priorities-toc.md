@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 26f13890-5d79-44b6-9cf8-70ef05e4564d
-source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 1%
+source-wordcount: '101'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,7 @@ Questa sezione contiene le seguenti sottosezioni:
 * [Aggiungere e visualizzare aggiornamenti in Priorità](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md)
 * [Tempo di connessione in Priorità](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md)
 * [Caricare file in Priorità](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)
-* [Aggiungi e gestisci collegamenti rapidi in Priorità](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)
-  <!--* [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md)-->
+* [Aggiungere e gestire collegamenti rapidi in Priorità](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)
+* [Recuperare il lavoro in Priorità](/help/quicksilver/workfront-basics/priorities/catch-me-up.md)
 * [Caricare documenti e creare bozze in Priorità](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md)
 * [Gestire il lavoro nel calendario Priorità](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md)

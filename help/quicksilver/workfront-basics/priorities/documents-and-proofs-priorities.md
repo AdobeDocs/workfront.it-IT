@@ -5,17 +5,15 @@ description: Documenti
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: a59d092e700f1f661ad8e3cb74b7d96ee2418f41
+exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '498'
 ht-degree: 2%
 
 ---
 
-
 # Caricare documenti e creare bozze in Priorità
-
-<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 È possibile caricare documenti e creare bozze in Priorità.
 
@@ -182,6 +180,3 @@ Add new version, open proof, edit, download, move, share, remove
 
 * Data di aggiunta
 * Tipo di file
-
-
-

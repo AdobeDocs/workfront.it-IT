@@ -6,16 +6,14 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 11b25decc88146568aad615eb06ef3521f7aa761
+source-git-commit: 223e84eaccbfddb9a798af2528f4d33060bf60f2
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 5%
+source-wordcount: '622'
+ht-degree: 4%
 
 ---
 
 # Filtrare e raggruppare il lavoro con priorità
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 È possibile utilizzare i filtri per trovare il lavoro che si sta cercando e quindi applicare un raggruppamento per mantenerlo organizzato.
 
@@ -57,122 +55,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 +++
 
-## Filtrare e raggruppare il lavoro con Priorità in Produzione
-
-### Filtrare il lavoro
-
-Puoi filtrare le attività e i problemi assegnati.
-
-{{step1-to-priorities}}
-
-1. Fai clic su **Filtri** in alto a destra nell&#39;elenco lavori.
-1. Selezionare uno o più filtri per limitare gli elementi di lavoro.
-   ![](assets/filters.png)
-
-+++Espandi per visualizzare informazioni dettagliate sui filtri disponibili
-<table>
-  <tbody>
-   <tr>
-   <th>Filtro</th>
-   <th>Descrizione</th>
-   </tr>
-    <tr>
-      <td>Ci sto lavorando</td>
-      <td>Visualizza gli elementi su cui si sta lavorando</td>
-    </tr>
-    <tr>
-      <td>È il momento di iniziare?</td>
-      <td>Visualizza gli elementi con 
-      <ul>
-      <li>Nessun predecessore o vincolo di attività incompleto</li>
-      <p>e</p>
-      <li>La data di inizio pianificata è nel passato o è prevista entro due settimane</li>
-      </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>Non pronto</td>
-      <td>Visualizza gli elementi con
-       <ul>
-      <li>Predecessori incompleti o vincoli di attività che impediscono la lavorazione dell'elemento</li>
-      <p>oppure</p>
-      <li>La data di inizio pianificata nel futuro è tra più di due settimane</li>
-      </ul>
-       </td>
-    </tr>
-    <tr>
-      <td>Richiesto il</td>
-      <td>Visualizza i problemi per i quali non hai iniziato a lavorare</td>
-    </tr>
-      <td>Terminato</td>
-      <td>Visualizza il lavoro completato nelle ultime due settimane. Questa opzione di filtro non include le approvazioni.</td>
-    </tr>
-    <tr>
-    <td>Progetto</td>
-    <td>Visualizza i progetti che contengono le attività o i problemi assegnati</td>
-    </tr>
-    <tr>
-    <td>Data di scadenza</td>
-    <td>Visualizza il lavoro per data di completamento pianificata</td>
-    </tr>
-    <tr>
-    <td>Stato</td>
-    <td>Visualizza le attività o i problemi in stato Nuovo, In corso e Completato</td>
-    </tr>
-    <tr>
-    <td>Il mio focus</td>
-    <td>Visualizza le attività o i problemi in cui sono stati assegnati livelli di attivazione. I livelli di attivazione vengono assegnati e gestiti dal singolo utente.</td>
-    </tr>
-  </tbody>
-</table>
-
-+++
-
-1. (Facoltativo) Fai clic su **Torna al valore predefinito** per ripristinare la selezione.
-
-### Raggruppare il lavoro
-
-{{step1-to-priorities}}
-
-1. Fai clic su **Gruppi** in alto a destra nell&#39;elenco lavori.
-1. Selezionare un gruppo per organizzare l&#39;elenco di lavoro
-   ![](assets/groups.png)
-
-+++Espandi per visualizzare informazioni dettagliate sui gruppi disponibili
-
-| Gruppo | Descrizione |
-|-----------|-------------|
-| Nessuno | I raggruppamenti verranno rimossi dall&#39;elenco lavori. |
-| Il mio focus | Raggruppa gli elementi in base al livello di attivazione assegnato. |
-| Settimana di scadenza | Raggruppa le voci in base alla settimana di scadenza. Le date di scadenza sono determinate dalla data di completamento pianificata. |
-| Stato | Gli elementi vengono raggruppati in base ai seguenti stati: Nuovo, In corso, Completo. <br>Nota: al momento non è possibile utilizzare gli stati personalizzati nelle priorità. |
-| Progetto | Raggruppa gli elementi per progetto. |
-
-+++
-
-### Ordinare il lavoro
-
-Per ordinare il lavoro, apri **Gruppo** e fai clic su **Ordine crescente** o **Ordine decrescente**.
-
-![](assets/expand-sort-groups.png)
-
->[!IMPORTANT]
->
->L’opzione di ordinamento non è al momento disponibile se è stato applicato un gruppo.
-
-
-
-### Espandere o comprimere tutte le sezioni
-
-Per espandere o comprimere tutte le sezioni, aprire **Gruppo** e fare clic su **Espandi tutto** o **Comprimi tutto**.
-
-![](assets/expand-sort-groups.png)
-
-<div class="preview">
-
-## Filtrare e raggruppare il lavoro con priorità in Anteprima
-
-### Filtrare il lavoro con filtri standard
+## Filtrare il lavoro con filtri standard
 
 Puoi filtrare le attività e i problemi assegnati.
 
@@ -244,9 +127,7 @@ Puoi filtrare le attività e i problemi assegnati.
 
 1. (Facoltativo) Fai clic su **Torna al valore predefinito** per ripristinare la selezione.
 
-<div class="preview">
-
-### Filtrare il lavoro con filtri avanzati
+## Filtrare il lavoro con filtri avanzati
 
 Utilizza il linguaggio naturale per filtrare rapidamente il lavoro. L’istanza di Workfront deve essere in un nuovo piano Workfront e abilitata in Adobe Unified Experience. Per ulteriori informazioni, vedere [Esperienza unificata Adobe per Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
@@ -264,7 +145,7 @@ Utilizza il linguaggio naturale per filtrare rapidamente il lavoro. L’istanza 
 
 </div>
 
-### Raggruppare il lavoro
+## Raggruppare il lavoro
 
 {{step1-to-priorities}}
 
@@ -283,28 +164,30 @@ Utilizza il linguaggio naturale per filtrare rapidamente il lavoro. L’istanza 
 
 +++
 
+### Trascina gli elementi di lavoro quando si raggruppano per Mia priorità o Stato
 
+È possibile trascinare singoli elementi di lavoro da una categoria all&#39;altra quando si esegue il raggruppamento in base a Mia priorità o Stato.
 
-### Ordinare il lavoro
+1. Raggruppa il tuo lavoro per **Stato** o **Mia priorità**.
+2. Passa il cursore del mouse sull’elemento di lavoro per trovare l’icona Sposta e trascinala nella categoria desiderata.
+   ![icona di trascinamento](assets/drag-and-drop.png)
 
-**Ordina in gruppi**
+## Ordinare il lavoro
+
+### Ordina in gruppi
 
 Per ordinare il lavoro all&#39;interno di un gruppo, apri **Gruppo** e fai clic su **Ordine crescente** o **Ordine decrescente**.
 
 ![](assets/sort-in-groups.png)
 
-**Ordina colonne**
+### Ordinare le colonne
 
 Per ordinare le singole colonne, passare alla colonna e fare clic sulla freccia giù.
 
 ![freccia giù nella colonna](assets/sort-columns.png)
-
-
 
 ### Espandere o comprimere tutte le sezioni del gruppo
 
 Per espandere o comprimere tutte le sezioni del gruppo, aprire **Gruppo** e fare clic su **Espandi tutto** o **Comprimi tutto**.
 
 ![](assets/expand-collapse-groups.png)
-
-</div>

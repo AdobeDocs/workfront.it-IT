@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
-source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 1%
@@ -31,8 +31,7 @@ ht-degree: 1%
    | **Normale** | Normale è per gli elementi di lavoro di routine su cui lavorerai dopo il completamento degli elementi Urgenti e ad alta priorità. Questa è l&#39;impostazione predefinita per le attività e i problemi. |
    | **Basso** | Basso è per gli elementi di lavoro che non richiedono attenzione immediata e che possono essere differiti fino al completamento di tutti gli elementi di lavoro con priorità più alta. |
 
-   ![](assets/my-focus.png)
-   <!--new screen for prod ![](assets/my-focus-new.png)-->
+   ![](assets/my-focus-new.png)
 
    >[!TIP]
    >

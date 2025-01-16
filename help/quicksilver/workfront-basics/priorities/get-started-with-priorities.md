@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: da688217a1240b74667f31d20e086164e1536576
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 2%
+source-wordcount: '999'
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,7 @@ In Priorità puoi filtrare e raggruppare il lavoro per aiutarti a gestire le sca
 
 ### Trovare il lavoro con i filtri
 
-Trova il tuo lavoro più importante con i filtri. <span class="preview">È possibile utilizzare un linguaggio naturale per trovare lavoro con il filtro avanzato</span> oppure
+Trova il tuo lavoro più importante con i filtri. È possibile utilizzare un linguaggio naturale per trovare lavoro con il filtro Smart, oppure
 Puoi utilizzare il filtro Standard per trovare le attività e i problemi assegnati:
 
 <table>
@@ -112,10 +112,9 @@ Dopo aver assegnato i livelli di attivazione agli elementi di lavoro, è possibi
 
 Per ulteriori informazioni, vedere [Assegnare la priorità agli elementi di lavoro importanti](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
 
-![](assets/my-focus-column.png)
-<!-- new screen for prod ![](assets/worklist.png) -->
+![](assets/worklist.png)
 
-### Utilizza la visualizzazione Calendario [!BADGE Disponibile nell&#39;anteprima]{type=Informative}
+### Utilizzare la vista Calendario
 
 La visualizzazione Calendario fornisce una rappresentazione visiva delle attività e dei problemi. Puoi scegliere tra la visualizzazione per giorno, per settimana o per mese. Sarà inoltre possibile filtrare gli elementi in modo simile all’elenco lavori.
 
@@ -141,8 +140,7 @@ La sezione Aggiornamenti mostra gli aggiornamenti di sistema e fino a 200 degli 
 
 Per ulteriori informazioni, vedere [Aggiungere e visualizzare commenti in Priorità](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md).
 
-![](assets/new-update.png)
-<!--new screen for prod ![](assets/update-log-upload.png)-->
+![](assets/update-log-upload.png)
 
 ### Registra ore
 
@@ -150,8 +148,7 @@ Per ulteriori informazioni, vedere [Aggiungere e visualizzare commenti in Priori
 
 Per ulteriori informazioni, consulta [Registra tempo in Priorità](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md).
 
-![](assets/log-time.png)
-<!--new screen for prod ![](assets/update-log-upload.png)-->
+![](assets/update-log-upload.png)
 
 ### Carica file
 
@@ -164,8 +161,7 @@ Caricare i file direttamente nell’area Documenti dell’attività o del proble
 
 Per ulteriori informazioni, consulta [Caricare i file in Priorities](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md).
 
-![](assets/upload-file.png)
-<!--new screen for prod ![](assets/update-log-upload.png)-->
+![](assets/update-log-upload.png)
 
 
 ### Aggiungi collegamenti rapidi
@@ -176,13 +172,13 @@ Puoi incorporare i collegamenti utilizzati di frequente nella pagina dei dettagl
 
 Per ulteriori informazioni, consulta [Aggiungere e gestire collegamenti rapidi in Priorità](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md).
 
-### Visualizza documenti [!BADGE disponibili in anteprima]{type=Informative}
+### Visualizza documenti
 
 La scheda Documenti consente di visualizzare tutti i file relativi a un elemento di lavoro. Sarà possibile filtrare i documenti in base al nome, al tipo di file o alla persona, nonché ordinare i documenti in base al nome e alla data di caricamento.
 
 Sarà inoltre possibile aprire il documento o la bozza.
 
-### Rivedi e approva le risorse [!BADGE Disponibili in anteprima]{type=Informative}
+### Rivedere e approvare le risorse
 
 Dalla scheda Documenti relativa a un’attività o a un problema, puoi
 
@@ -190,7 +186,7 @@ Dalla scheda Documenti relativa a un’attività o a un problema, puoi
 * Avvia il visualizzatore di verifica per lasciare commenti e prendere decisioni
 
 
-## Utilizza [!DNL Catch me up] per vedere cosa ti sei perso [!BADGE Disponibile nell&#39;anteprima]{type=Informative}
+## Usa [!DNL Catch me up] per vedere cosa ti sei perso
 
 Utilizza la funzione [!DNL Catch me up] per vedere cosa ti sei perso. Il comando Recupera riepiloga aggiornamenti, documenti caricati, approvazioni e altre modifiche di rilievo apportate ai progetti entro i seguenti intervalli di tempo: 24 ore, 3 giorni, 7 giorni.
 
@@ -200,7 +196,7 @@ Per ulteriori informazioni, consulta [Recuperare il lavoro in Priorità](/help/q
 
 <!--need new screen for prod-->
 
-## Visualizza aggiornamenti in tempo reale nella pagina Dettagli [!BADGE Disponibile in anteprima]{type=Informative}
+## Visualizzare gli aggiornamenti in tempo reale nella pagina Dettagli
 
 Puoi visualizzare gli aggiornamenti in tempo reale nella pagina Dettagli di un’attività o di un problema. Puoi anche verificare se altri utenti visualizzano la pagina contemporaneamente a te con gli indicatori di presenza in tempo reale.
 

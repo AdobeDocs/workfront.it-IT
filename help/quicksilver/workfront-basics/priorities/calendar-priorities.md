@@ -6,16 +6,14 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
-source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '517'
 ht-degree: 4%
 
 ---
 
 # Gestire il lavoro nel calendario Priorità
-
-<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 Monitora facilmente il tuo lavoro con un calendario chiaro e visivo. Con il calendario Priorità è possibile:
 

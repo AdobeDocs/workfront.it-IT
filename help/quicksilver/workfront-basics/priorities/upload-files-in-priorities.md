@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 0%
@@ -53,8 +53,7 @@ Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, co
 {{step1-to-priorities}}
 
 1. Passa il puntatore del mouse sul nome, quindi fai clic su **Carica**.
-   ![](assets/upload-file.png)
-   <!--new screen for prod ![](assets/update-log-upload.png)-->
+   ![](assets/update-log-upload.png)
 1. Seleziona una cartella (facoltativo).
 1. Trascina e rilascia il file o usa Cmd/Ctrl + V per incollarlo dagli Appunti
 o

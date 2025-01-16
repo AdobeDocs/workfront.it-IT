@@ -6,16 +6,14 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: abf502f2bbf48c0bd1cc5705d93d928342cd8a3b
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
 # Personalizzare le colonne dell’elenco di lavoro Priorità
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 È possibile personalizzare le colonne dell’elenco lavori in Priorità per supportare il modo in cui si lavora.
 
@@ -87,9 +85,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Fai clic sull&#39;icona **Altro** ![](assets/more-icon.png) e scegli **Reimposta larghezza colonne**.
    ![](assets/columns.png)
 
-<div class="preview">
-
-## Personalizzare le colonne dell’elenco di lavoro Priorità in Anteprima
+## Personalizzare le colonne dell’elenco di lavoro Priorità
 
 ### Attiva o disattiva colonne
 
@@ -110,6 +106,3 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 >[!NOTE]
 >
 >La colonna Nome è fissa e non può essere spostata.
-
-
-</div>

@@ -5,17 +5,15 @@ description: Aggiornami
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: ccdbc3402164bba66c08b8b97fdfdd2013ad884e
+exl-id: c3ff90cc-2a9b-472e-ac6c-88b8ec93c8fb
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 5%
+source-wordcount: '180'
+ht-degree: 6%
 
 ---
 
-
 # Recuperare il lavoro in Priorità
-
-<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 Catch me up (Rispondi a me), con tecnologia di Workfront AI Assistant, riepiloga aggiornamenti, documenti caricati e altre modifiche di rilievo apportate ai tuoi progetti entro i seguenti intervalli di tempo: 24 ore, 3 giorni, 7 giorni, riducendo il tempo necessario per cercare informazioni sui progetti attivi.
 
