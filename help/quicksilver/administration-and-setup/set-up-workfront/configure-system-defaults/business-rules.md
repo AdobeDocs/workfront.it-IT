@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: d68c4fd39234d8d5131828e2a4642bd9af8ca7d5
+source-git-commit: a36a74def754d1318d2a82145537f7c0ef3f3bbd
 workflow-type: tm+mt
 source-wordcount: '1269'
 ht-degree: 0%
@@ -112,7 +112,7 @@ IF(
 1. Fare clic su **Nuova regola business**.
 1. Selezionare il tipo di oggetto a cui assegnare la regola business, quindi fare clic su **Continua**.
 
-   ![Seleziona un oggetto](assets/object-for-business-rule2.png)
+   ![Seleziona un oggetto](assets/object-for-business-rule3.png)
 
 1. Digitare **Nome** per la regola business.
 1. Nel campo **È attivo**, selezionare se la regola deve essere attiva al momento del salvataggio.
