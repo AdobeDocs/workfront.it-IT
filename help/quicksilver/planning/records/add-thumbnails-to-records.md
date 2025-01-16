@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '872'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Aggiungere una miniatura a un record
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -184,11 +184,7 @@ Considera quanto segue:
 
    Viene visualizzata la pagina dei dettagli del record.
 
-1. (Condizionale) Nell&#39;anteprima del record o nella pagina, passa il puntatore sull&#39;immagine miniatura o sull&#39;icona ![](assets/record-thumbnail-icon-on-details-page.png), quindi fai clic sul menu **Altro** ![](assets/more-menu.png) > **Modifica miniatura** nell&#39;ambiente di produzione
-
-   Oppure
-
-   <span class="preview">Passa il puntatore del mouse sullo spazio sopra il nome del record, quindi fai clic su **Aggiungi miniatura** o su **Modifica miniatura** nell&#39;ambiente di anteprima.</span>
+1. (Condizionale) Nella pagina di anteprima o dettagli del record, passa il cursore del mouse sull&#39;immagine miniatura o sull&#39;icona ![](assets/record-thumbnail-icon-on-details-page.png), passa il puntatore del mouse sullo spazio sopra il nome del record, quindi fai clic su **Aggiungi miniatura** o **Modifica miniatura**.
 
    Per impostazione predefinita, nella casella **Miniatura record** viene aperta la scheda **Carica**.
 

@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1791'
+source-wordcount: '1649'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 1%
 
 <!-- Audited: 12/2023 -->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 La Durata attività è la differenza tra la Data di completamento pianificata e la Data di inizio pianificata dell&#39;attività. La Durata indica l&#39;intervallo di tempo disponibile per il completamento dell&#39;attività.
 
@@ -41,17 +41,7 @@ Se una pianificazione inizia alle 9 e termina alle 12 e un&#39;attività è pian
 
 Di seguito sono riportati due scenari che esistono durante il calcolo della durata in Adobe Workfront:
 
-* Se l’attività è assegnata a un utente, esistono i seguenti scenari in base all’ambiente utilizzato:
-
-   * Nell’ambiente di produzione, Workfront utilizza una delle seguenti pianificazioni, nell’ordine esatto per calcolare la Durata:
-
-   1. Workfront tiene conto della pianificazione dell’utente.
-   1. Se l’utente non è associato a una pianificazione, Workfront tiene conto della pianificazione del progetto.
-   1. Se il progetto non è associato a una pianificazione, Workfront prende in considerazione la pianificazione predefinita del sistema. Per informazioni sulle pianificazioni, vedere [Creare una pianificazione](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
-
-<div class="preview">
-
-* Nell’ambiente di anteprima:
+* Se l’attività è assegnata a un utente:
 
    1. Workfront prende in considerazione la pianificazione del progetto o quella dell’utente assegnato all’attività.
 
@@ -60,8 +50,6 @@ Di seguito sono riportati due scenari che esistono durante il calcolo della dura
    1. Se l&#39;utente o il progetto non dispone di una pianificazione, Workfront utilizza la pianificazione predefinita del sistema.
 
       I passaggi sono simili al primo scenario dopo aver compreso quale pianificazione utilizza Workfront per calcolare la durata.
-
-</div>
 
 * Se l&#39;attività è assegnata a più utenti:
 

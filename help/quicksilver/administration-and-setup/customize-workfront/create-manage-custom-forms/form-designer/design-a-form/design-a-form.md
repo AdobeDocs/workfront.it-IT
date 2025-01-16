@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
 source-wordcount: '6474'
 ht-degree: 5%
@@ -85,7 +85,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    * [Aggiungere immagini, PDF e video](#add-images-pdfs-and-videos)
    * [Aggiungi campi nativi Workfront](#add-workfront-native-fields)
    * [Aggiungere file Adobe XD](#add-adobe-xd-files)
-   * <span class="preview">[Aggiungi campi di connessione Planning](#add-planning-connection-fields)</span>
+   * [Aggiungi campi di connessione Planning](#add-planning-connection-fields)
 
 ## Aggiungere campi nuovi o esistenti al modulo personalizzato
 

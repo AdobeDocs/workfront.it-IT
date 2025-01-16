@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '3848'
+source-wordcount: '3824'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 0%
 
 <!--remove all preview and production references if any-->
 <!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente di anteprima per tutti i clienti.</span>
 
 È possibile registrare il tempo degli elementi di lavoro in Adobe Workfront per indicare il numero di ore dedicate al loro lavoro. È inoltre possibile registrare il tempo non correlato al lavoro, ad esempio ferie, malattia o riunioni. L&#39;ora registrata viene visualizzata nella scheda orario.
 
@@ -497,11 +495,8 @@ A seconda del tipo di voci orarie modificate, i campi seguenti sono disponibili 
    * Assegnazione mansione. È possibile modificare l&#39;assegnazione della mansione solo se è stata abilitata in Configurazione. Per informazioni, consulta [Configurare le preferenze di orario e scheda orario](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
    * Descrizione della voce di ore.
 
-<div class="preview">
 
-![](assets/edit-hour-box-project-hour-type.png)
-
-</div>
+  ![](assets/edit-hour-box-project-hour-type.png)
 
 * Quando si modificano le ore generali:
 
@@ -551,7 +546,7 @@ Per modificare i tipi di ore in un report o un elenco di ore:
    >
    >   Non tutti i campi sono disponibili, a seconda del tipo di ora associato alle voci orarie selezionate.
 
-1. Fai clic su **Salva <span class="preview">modifiche</span>**.
+1. Fai clic su **Salva modifiche**.
 
    Le informazioni sulle ore vengono aggiornate.
 Se sono state selezionate più ore e si è modificato il campo Ore, la stessa quantità di ore viene allocata a tutte le ore selezionate. Le ore originali vengono sostituite con il nuovo valore per tutte le ore inserite selezionate.

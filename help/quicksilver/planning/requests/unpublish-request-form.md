@@ -5,22 +5,22 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '658'
 ht-degree: 1%
 
 ---
-
 
 # Annullare la pubblicazione di un modulo di richiesta in Adobe Workfront Planning
 
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -157,4 +157,4 @@ Quando un modulo di richiesta diventa irrilevante e non desideri più che qualcu
 
    Tutti i record aggiunti in precedenza utilizzando il modulo di richiesta rimangono nella pagina del tipo di record.
 
-   <span class="preview">Tutte le richieste precedentemente aggiunte rimangono nell&#39;area Richieste di Workfront, nella scheda Pianificazione.</span>
+   Tutte le richieste precedentemente aggiunte rimangono nell&#39;area Richieste di Workfront, nella scheda Pianificazione.

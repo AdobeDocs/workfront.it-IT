@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '378'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 # Panoramica sui limiti degli oggetti di Adobe Workfront Planning
 
-<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -45,8 +45,8 @@ Nella tabella seguente vengono illustrati i limiti per il numero di oggetti che 
 | Frequenza con cui è possibile effettuare richieste API | 200 richieste al minuto |
 | Numero di visualizzazioni che un utente può creare per un tipo di record | 100 |
 | Dimensione del file CSV di Excel che puoi importare per creare tipi di record | 5 MB |
-| <span class="preview">Numero di righe che è possibile importare in un file CSV o Excel per creare tipi di record</span> | 10.000 |
-| <span class="preview">Numero di colonne che è possibile importare in un file CSV o Excel per creare tipi di record</span> | 500 |
+| Numero di righe che è possibile importare in un file CSV o Excel per creare tipi di record | 10.000 |
+| Numero di colonne che è possibile importare in un file CSV o Excel per creare tipi di record | 500 |
 
 *Si consiglia di non disporre di troppe aree di lavoro, in quanto potrebbero diventare difficili da gestire e i flussi di lavoro potrebbero essere troppo frammentati.
 

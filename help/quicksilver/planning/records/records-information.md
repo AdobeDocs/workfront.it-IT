@@ -1,14 +1,14 @@
 ---
-title: "Record: indice articolo"
+title: 'Record: indice articolo'
 description: Dopo aver creato i tipi di record in Adobe Workfront Planning, è possibile creare singoli record di tali tipi. Nei seguenti articoli viene descritto come creare e gestire record e relative informazioni in Adobe Workfront Planning.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '122'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Record: indice articolo
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -29,7 +29,7 @@ Nei seguenti articoli viene descritto come creare e gestire i record e le relati
 * [Crea record](/help/quicksilver/planning/records/create-records.md)
 * [Modifica record](/help/quicksilver/planning/records/edit-records.md)
 * [Elimina record](/help/quicksilver/planning/records/delete-records.md)
-* <span class="preview">[Ripristina record eliminati](/help/quicksilver/planning/records/restore-deleted-records.md)</span>
+* [Ripristina record eliminati](/help/quicksilver/planning/records/restore-deleted-records.md)
 * [Condividere i record](/help/quicksilver/planning/records/share-records.md)
 * [Panoramica sui record collegati](/help/quicksilver/planning/records/connected-records-overview.md)
 * [Connetti record](/help/quicksilver/planning/records/connect-records.md)

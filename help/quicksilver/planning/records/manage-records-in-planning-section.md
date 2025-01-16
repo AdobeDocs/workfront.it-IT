@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1433'
 ht-degree: 1%
 
 ---
@@ -18,16 +18,16 @@ ht-degree: 1%
 
 # Gestire le connessioni record dagli oggetti Workfront
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedi [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
 
 {{planning-important-intro}}
 
 In Workfront è possibile visualizzare i record di Workfront Planning e i rispettivi record connessi agli oggetti di Adobe Workfront nelle seguenti aree:
 
 * Sezione Planning di un oggetto Workfront: visualizza tutti i tipi di record connessi a un oggetto e i rispettivi record connessi.
-* <span class="preview">Campo personalizzato della connessione Planning: visualizza un tipo di record e i rispettivi record connessi. </span>
+* Un campo personalizzato della connessione Planning: visualizza un tipo di record e i relativi record collegati.
 
 ## Requisiti di accesso
 
@@ -180,8 +180,6 @@ Si verificano le seguenti situazioni:
    * L&#39;oggetto Workfront viene aggiunto al campo connesso del record di Workfront Planning.
    * I valori dei campi di ricerca di Workfront connessi al record Planning vengono inseriti in Workfront Planning.
 
-<div class="preview">
-
 ## Gestire i record nel tipo di campo Connessione Planning
 
 È possibile utilizzare un campo personalizzato della connessione Planning su un oggetto Workfront per visualizzare un tipo di record e i relativi record collegati all&#39;oggetto Workfront.
@@ -254,5 +252,3 @@ In Workfront Planning viene visualizzata la scheda Dettagli record.
 
 1. (Facoltativo) Dal modulo personalizzato in Workfront, fare clic sull&#39;icona ![](assets/remove-icon.png) **Rimuovi** su un record per rimuoverlo dal campo di connessione di Planning e disconnetterlo dall&#39;oggetto Workfront.
 L&#39;oggetto Workfront viene disconnesso dal record Planning e tutte le informazioni di ricerca provenienti da Workfront vengono rimosse dal record.
-
-</div>

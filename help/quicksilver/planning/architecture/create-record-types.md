@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1394'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 # Crea tipi di record
 
-<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -108,11 +108,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
         Per informazioni, vedere [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-      * <span class="preview">Quando vengono importati utilizzando un file Excel o CSV. </span>
+      * Quando vengono importati utilizzando un file Excel o CSV.
 
      >[!TIP]
      >
-     ><span class="preview">Quando si importa un tipo di record da un file Excel o CSV, è possibile che vengano importati anche record e campi.</span>
+     >Quando si importa un tipo di record da un file Excel o CSV, è inoltre possibile importare record e campi.
 
    * Manualmente:
 
@@ -147,7 +147,7 @@ Per informazioni sui tipi di record inclusi in ogni modello, vedere [Elenco dei 
 
    Da un workspace, espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente, cercare un workspace e selezionarlo quando viene visualizzato nell&#39;elenco.
 1. (Facoltativo) Fai clic su **Aggiungi sezione** per aggiungere una nuova sezione all&#39;area di lavoro.
-1. Fare clic su **Aggiungi tipo di record**, quindi su <span class="preview">**Nuovo**</span>.
+1. Fare clic su **Aggiungi tipo di record**, quindi su **Nuovo**.
 
    Viene visualizzata la casella Aggiungi tipo di record.
    <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
@@ -207,8 +207,6 @@ Sulla scheda viene visualizzata la descrizione del tipo di record.
    * [Elimina tipi di record](/help/quicksilver/planning/architecture/delete-record-types.md)
    * [Modifica tipi di record](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [Gestisci visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md)
-
-<div class="preview">
 
 ## Creare tipi di record importando un file Excel o CSV
 
@@ -278,6 +276,3 @@ Per importare tipi di record utilizzando un file Excel o CSV:
    È possibile iniziare a gestire campi e record nelle pagine dei tipi di record.
 
    Tutti gli utenti con accesso a Workfront Planning possono ora visualizzare e modificare i tipi di record importati e le relative informazioni.
-
-</div>
-

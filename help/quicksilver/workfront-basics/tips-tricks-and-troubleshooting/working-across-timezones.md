@@ -5,9 +5,9 @@ title: Utilizzo dei fusi orari
 description: Può essere utile capire come [!DNL Adobe Workfront] utilizza i fusi orari per calcolare i campi di tempo per gli oggetti e gli orari in altre aree, ad esempio le e-mail.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1192'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 <!-- Audited: 2/2024 -->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Può essere utile capire in che modo [!DNL Adobe Workfront] utilizza i fusi orari per calcolare quanto segue:
 
@@ -100,14 +100,10 @@ Gli amministratori di [!DNL Workfront] creano pianificazioni separate per ogni f
    * Fuso orario per la pianificazione del proprietario principale dell&#39;attività
    * Il fuso orario per la pianificazione del progetto.
 
-  <div class="preview">
-
   Se a un&#39;attività è assegnato un utente, il sistema utilizza uno dei seguenti elementi, come configurato nelle preferenze di progetto a livello di sistema o di gruppo:
 
    * Fuso orario per la pianificazione dell&#39;assegnatario dell&#39;attività
    * Il fuso orario per la pianificazione del progetto.
-
-  </div>
 
   Questo può causare la modifica delle date delle attività.
 
