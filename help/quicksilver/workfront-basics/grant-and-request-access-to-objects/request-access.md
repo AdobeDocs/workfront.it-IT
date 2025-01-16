@@ -6,16 +6,14 @@ description: La visibilità degli oggetti in Adobe Workfront dipende dall’acce
 author: Becky
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 6409f8fa5072413444545d2d3a80935dc6e04b4c
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1380'
 ht-degree: 0%
 
 ---
 
 # Richiedi accesso agli oggetti
-
-{{preview-fast-release-general}}
 
 La visibilità degli oggetti in Adobe Workfront dipende dall’accesso a quel tipo di oggetto e dalle autorizzazioni per un singolo oggetto.
 
@@ -102,11 +100,7 @@ Per richiedere l&#39;accesso iniziale a un oggetto:
 1. Dall’elenco a discesa, seleziona il tipo di accesso richiesto.
 1. (Facoltativo) Nel campo **P.S.**, specifica una nota all&#39;utente sul motivo per cui hai bisogno di accesso aggiuntivo.
 
-   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
    ![Finestra di dialogo Richiedi accesso](assets/request-access-to-project.png)
-
-   Immagine di esempio nell’ambiente di produzione:
-   ![](assets/request-access-dialog-350x314.png)
 
 <!--
 If you do not have access level rights to an object and you try to access that object from a link, a screen is displayed informing you to contact the Workfront administrator.
@@ -134,11 +128,8 @@ Per richiedere accesso aggiuntivo a un oggetto per il quale si dispone già di a
 1. (Facoltativo) Nel campo **P.S.**, specifica una nota relativa al motivo per cui hai bisogno di accesso aggiuntivo.
 1. Fai clic su **Richiedi accesso**.
 
-   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
+   Immagine di esempio nell’ambiente di anteprima:
    ![Finestra di dialogo Richiedi accesso](assets/request-access-to-project.png)
-
-   Immagine di esempio nell’ambiente di produzione:
-   ![](assets/request-access-dialog-350x314.png)
 
 ## Gerarchia dei menu a discesa &quot;Richiedi accesso&quot; e &quot;Richiedi accesso aggiuntivo&quot; {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
 

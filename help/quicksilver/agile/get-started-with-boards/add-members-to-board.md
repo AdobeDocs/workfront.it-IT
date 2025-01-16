@@ -6,7 +6,7 @@ description: Le persone devono essere aggiunte alla bacheca come membri prima ch
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: bf8d566ba9d24310e75d2fbaf523fe5464bb6657
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 0%
@@ -15,11 +15,9 @@ ht-degree: 0%
 
 # Aggiungere o rimuovere membri da una bacheca
 
-{{highlighted-preview}}
-
 Persone e team devono essere aggiunti alla bacheca come membri prima che possano visualizzarla.
 
-Per impostazione predefinita, il proprietario è il creatore di una bacheca. Il proprietario della bacheca è l’unica persona che può eliminarla o aggiornarne i filtri nel pannello Configura. <span class="preview">Solo un amministratore di sistema o il proprietario corrente della bacheca può modificare il proprietario della bacheca.</span>
+Per impostazione predefinita, il proprietario è il creatore di una bacheca. Il proprietario della bacheca è l’unica persona che può eliminarla o aggiornarne i filtri nel pannello Configura. Solo un amministratore di sistema o il proprietario corrente della bacheca può modificare il proprietario della bacheca.
 
 ## Requisiti di accesso
 
@@ -85,8 +83,6 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    >
    >Non puoi rimuovere il proprietario della bacheca.
 
-<div class="preview">
-
 ## Cambia il proprietario della bacheca
 
 >[!NOTE]
@@ -104,5 +100,3 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    Solo un utente può essere il proprietario della bacheca. Una squadra non può essere un proprietario.
 
 1. Fai clic su [!UICONTROL **Aggiorna**].
-
-</div>

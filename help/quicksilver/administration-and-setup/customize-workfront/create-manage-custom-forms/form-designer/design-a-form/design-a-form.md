@@ -8,18 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 75aaa531dba8037ed75c0d6baa6d7c69ec4cfefd
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '6534'
+source-wordcount: '6474'
 ht-degree: 5%
 
 ---
 
 # Creare un modulo personalizzato
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
-
-<span class="preview">Per informazioni sulle versioni rapide, vedi [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 Puoi progettare un modulo personalizzato con il progettista del modulo in Adobe Workfront. È possibile allegare moduli personalizzati a diversi oggetti di Workfront per acquisire dati su tali oggetti.
 
@@ -847,8 +843,8 @@ In questa tabella sono elencati i campi nativi disponibili per oggetti Workfront
       <td><p>(Obbligatorio) Seleziona un campo nativo di Workfront.<p><p>Sono disponibili solo campi nativi per gli oggetti del modulo. Se ad esempio l'elenco Tipi di oggetto nella parte superiore del progettista del modulo mostra Project, sarà possibile selezionare campi nativi per i progetti ma non campi specifici delle attività.</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">Aggiungi filtro</span></td>
-      <td><span class="preview"><p>Aggiungi un filtro per il campo di riferimento per limitare l’elenco di elementi tra cui gli utenti possono scegliere quando utilizzano il campo. </p> <p>Ad esempio, puoi limitare un campo in modo che i nomi utente possano essere selezionati solo se soddisfano i seguenti criteri:</p> 
+      <td role="rowheader">Aggiungi filtro</td>
+      <td><p>Aggiungi un filtro per il campo di riferimento per limitare l’elenco di elementi tra cui gli utenti possono scegliere quando utilizzano il campo. </p> <p>Ad esempio, puoi limitare un campo in modo che i nomi utente possano essere selezionati solo se soddisfano i seguenti criteri:</p> 
        <ul>
         <li>Appartengono a uno o più gruppi specificati</li> 
         <li>Sono associati a un ruolo o a una mansione specificata</li> 
@@ -860,7 +856,7 @@ In questa tabella sono elencati i campi nativi disponibili per oggetti Workfront
         <li>L’opzione filtro è disponibile solo quando si fa riferimento a un campo typeahead nativo, ad esempio Portfolio, Società o Proprietario.</li>
         <li>Se si sta modificando un modulo personalizzato esistente, l'aggiunta di un filtro a un campo nativo non rimuove gli oggetti già aggiunti dagli utenti utilizzando il campo, al di fuori dell'ambito del filtro.</li> 
         <li>Questo filtro non è disponibile sui dispositivi mobili. Se utilizzi il filtro per un campo nativo, il campo verrà visualizzato sui dispositivi mobili degli utenti non interessati dal filtro.</li> 
-        </ul></p></span></td> 
+        </ul></p></td> 
       <td>
      </tr>
      <tr> 
@@ -936,8 +932,6 @@ Per aggiungere un file Adobe XD:
    oppure
 
    Fare clic su **Salva e chiudi**.
-
-<div class="preview">
 
 ### Aggiungi campi di connessione Planning
 
@@ -1031,8 +1025,6 @@ Per aggiungere un campo di connessione Planning:
    * Connettere o disconnettere i record dall&#39;oggetto Workfront.
 
    Per ulteriori informazioni, vedere [Gestire le connessioni record dagli oggetti Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
-
-</div>
 
 ## Organizzare e visualizzare in anteprima un modulo con il progettista del modulo
 

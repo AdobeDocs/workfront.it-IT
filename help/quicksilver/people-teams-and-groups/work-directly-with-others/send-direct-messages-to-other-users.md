@@ -7,16 +7,14 @@ description: Adobe Workfront consente di inviare in modo rapido e semplice messa
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 82dc1cef02c6724dd0bc5b98d2a8f60a420b72bd
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
 
 # Inviare messaggi diretti ad altri utenti
-
-{{preview-fast-release-general}}
 
 [!DNL Adobe Workfront] consente di inviare in modo rapido e semplice messaggi non correlati ad alcun elemento di lavoro direttamente ad altri utenti di [!DNL Workfront]. I messaggi inviati come descritto in questa sezione vengono visualizzati nella scheda [!UICONTROL Aggiornamenti] nella pagina del profilo dell&#39;utente e sono visibili a tutti gli utenti. Per ulteriori informazioni sugli aggiornamenti, vedere [Aggiorna elementi di lavoro e visualizza aggiornamenti: indice articolo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
 
@@ -87,9 +85,7 @@ Questa opzione è disponibile solo se si dispone di una licenza Standard, Pianif
 1. Selezionare l&#39;utente o gli utenti a cui si desidera inviare un messaggio e fare clic su [!UICONTROL **Invia aggiornamento all&#39;utente**].
 1. Digita il messaggio nella finestra [!UICONTROL Invia aggiornamento all&#39;utente].
 
-   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
-
-   <span class="preview">![Invia messaggio all&#39;utente nella finestra Invia aggiornamento all&#39;utente](assets/send-message-to-user-dialog-from-user-list.png)</span>
+   ![Invia messaggio all&#39;utente nella finestra Invia aggiornamento all&#39;utente](assets/send-message-to-user-dialog-from-user-list.png)
 
 1. (Facoltativo) Cerca eventuali altri utenti a cui assegnare tag nel messaggio. Non è necessario assegnare tag agli utenti già selezionati nell’elenco di utenti.
 1. (Facoltativo) Seleziona **[!UICONTROL Privato per la mia azienda]** per rendere questo messaggio visibile solo agli altri utenti della tua azienda.

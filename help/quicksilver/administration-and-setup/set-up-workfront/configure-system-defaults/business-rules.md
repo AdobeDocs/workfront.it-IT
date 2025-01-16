@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: a36a74def754d1318d2a82145537f7c0ef3f3bbd
+source-git-commit: 38541313ae1c2b330bf4bad994bee43ee6e84227
 workflow-type: tm+mt
 source-wordcount: '1269'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 ---
 
 # Creare e modificare regole aziendali
-
-{{preview-fast-release-general}}
 
 Una regola business consente di applicare la convalida agli oggetti di Workfront e di impedire agli utenti di creare, modificare o eliminare un oggetto quando vengono soddisfatte determinate condizioni. Le regole aziendali contribuiscono a migliorare la qualità dei dati e l’efficienza operativa impedendo azioni che potrebbero compromettere l’integrità dei dati.
 
@@ -137,9 +135,9 @@ IF(
    * Poiché l&#39;oggetto e l&#39;azione sono già definiti, non vengono inclusi nella formula.
    * Il messaggio di errore personalizzato viene visualizzato quando l&#39;utente attiva la regola business. Dovrebbe fornire istruzioni chiare su cosa è andato storto e su come correggere il problema.
 
-     <span class="preview">È possibile includere un URL statico nel messaggio di errore, per collegare la documentazione o altre pagine utili per guidare l&#39;utente nella modifica della propria azione nel vincolo della regola.</span>
+     Puoi includere un URL statico nel messaggio di errore, per collegare alla documentazione o ad altre pagine utili per guidare l’utente nella modifica della sua azione entro il vincolo della regola.
 
-     <span class="preview">In questo esempio, &quot;Ulteriori informazioni&quot; sarà collegato all&#39;URL. `"You are not allowed to add a new project in November.[Learn more](http://url)"` L&#39;URL deve essere tra parentesi, ma il testo del collegamento tra parentesi non è obbligatorio. È possibile visualizzare l&#39;URL completo, che sarà un collegamento selezionabile.</span>
+     In questo esempio, &quot;Ulteriori informazioni&quot; si collegherà all’URL. `"You are not allowed to add a new project in November.[Learn more](http://url)"` L&#39;URL deve essere tra parentesi, ma il testo del collegamento tra parentesi non è obbligatorio. Puoi visualizzare l’URL completo, che sarà un collegamento cliccabile.
 
    ![Finestra di dialogo Aggiungi regola business](assets/add-business-rule-dialog-no-ai-button.png)
 

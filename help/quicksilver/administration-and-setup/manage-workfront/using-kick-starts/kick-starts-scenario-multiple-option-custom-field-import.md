@@ -3,22 +3,20 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: kick-start, kick-start, kick-start, kick-start
 navigation-topic: use-kick-starts
-title: "Scenario di avvio: importare campi personalizzati con più opzioni in Workfront"
+title: 'Scenario di avvio: importare campi personalizzati con più opzioni in Workfront'
 description: Puoi importare campi personalizzati con più opzioni in Adobe Workfront utilizzando la funzionalità di avvio.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 310333b71d2a92d71a0d8caf73ee8609ed6edd83
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '2185'
+source-wordcount: '2155'
 ht-degree: 0%
 
 ---
 
 # Scenario Kick-Start: importare campi personalizzati con più opzioni in Workfront
-
-{{highlighted-preview}}
 
 Puoi importare campi personalizzati con più opzioni in Adobe Workfront utilizzando la funzionalità di avvio.
 
@@ -90,11 +88,7 @@ Per esportare dati esistenti da Workfront:
 
 1. Seleziona **Dati personalizzati** nella sezione **Cosa includere**.
 
-   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
    ![Seleziona Dati Personalizzati](assets/kickstarts-select-existing-data.png)
-
-   Immagine di esempio nell’ambiente di produzione:
-   ![Seleziona Dati Personalizzati](assets/existing-custom-data-box-checked-kick-starts.png)
 
 1. Scegliere il file **.xlsx** nella sezione **Formato di download**.
 
@@ -130,11 +124,7 @@ Dopo aver analizzato le informazioni sui campi personalizzati esistenti nel sist
 
 1. Nell&#39;area **Scarica un foglio di calcolo Kick-Start vuoto**, selezionare la casella di controllo **Dati personalizzati** e fare clic su **Scarica**.
 
-   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
    ![Seleziona Dati Personalizzati](assets/kickstarts-select-existing-data.png)
-
-   Immagine di esempio nell’ambiente di produzione:
-   ![Seleziona Dati Personalizzati](assets/blank-custom-data-option-checked-kick-starts.png)
 
    Un file Kick-Start vuoto viene scaricato sul computer.
 
