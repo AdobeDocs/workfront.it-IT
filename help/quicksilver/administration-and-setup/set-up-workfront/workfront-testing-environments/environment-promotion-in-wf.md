@@ -9,16 +9,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: fa70a7ae5d8edce9dab4ca2ac4c2266b2c463734
+source-git-commit: 9a588df1ef48b40056c5228c8ff03b5819eb4410
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 1%
+source-wordcount: '1041'
+ht-degree: 2%
 
 ---
 
 # Panoramica sullo spostamento di oggetti tra ambienti Workfront (promozione dell&#39;ambiente)
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 La funzionalità di promozione dell&#39;ambiente consente di spostare gli oggetti da un ambiente Workfront a un altro. Ad esempio, puoi creare un modello e configurarlo nel tuo ambiente sandbox, sapendo che eventuali test eseguiti non influiranno sui dati effettivi della tua organizzazione. Dopo aver configurato e testato il modello, puoi spostarlo nell’ambiente di produzione pronto per l’uso.
 
@@ -100,8 +98,8 @@ Poiché la promozione dell’ambiente riguarda la configurazione dell’oggetto,
 | Tipo di rischio (RSKTYP) | Tipo Rischio |
 | Pool di Risorse (RSPL) | Gruppo di risorse |
 | Livello di accesso (ACSLVL) | Livello di accesso |
-| <span class="preview">Scheda tariffa (RTCRD)</span> | <span class="preview">Biglietto da visita</span> |
-| <span class="preview">Posizione / Classificatore (CLSF)</span> | <span class="preview">Posizione / Classificatore</span> |
+| Scheda tariffa (RTCRD) | Scheda tariffa |
+| Posizione/Classificatore (CLSF) | Posizione/Classificatore |
 
 \* Attualmente non disponibile
 
