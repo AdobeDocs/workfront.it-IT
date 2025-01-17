@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: 5ad96cc98e3bd8556224885940052a4f3d22697f
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 0%
@@ -28,7 +28,6 @@ Per un elenco di tutte le modifiche disponibili con la versione del primo trimes
 È stato aggiornato l’aspetto della casella Modifica ora, quando si modificano le ore da un elenco o da un rapporto, in modo che corrispondessero al design di altre aree di Workfront.
 
 Per informazioni, vedere [Tempo di connessione](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
-
 
 
 ## Esperienza aggiornata nella pagina Cloud Providers (Provider cloud) nell’area Setup (Configura)

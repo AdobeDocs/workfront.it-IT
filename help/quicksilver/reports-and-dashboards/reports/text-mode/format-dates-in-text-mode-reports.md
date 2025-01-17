@@ -6,7 +6,7 @@ description: Le date possono essere configurate per la visualizzazione in divers
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ff0686aa-b306-4954-8f9b-3e98bf8cff22
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Formattare le date nei report in modalità testo
+
+<!-- Audited: 1/2025 -->
 
 Le date possono essere configurate per la visualizzazione in diversi formati nei rapporti ed elenchi in Adobe Workfront. Per stabilire un formato data, è necessario modificare la riga `valueformat` del codice in modalità testo nella colonna.
 
@@ -33,13 +35,7 @@ valuefield=plannedCompletionDate
 
 Per ulteriori informazioni sull&#39;applicazione della formattazione condizionale nei report e negli elenchi di Workfront utilizzando la modalità testo, vedere [Utilizzare la formattazione condizionale in modalità testo](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
-È possibile formattare le date utilizzando i seguenti
-
-```
-valueformat
-```
-
- valori modalità testo:
+È possibile formattare le date utilizzando i seguenti `valueformat` valori in modalità testo:
 
 | **Formato** | Esempio  | ***formato valore=*** |
 |---|---|---|

@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3c0b4797-594c-44d0-b3ad-a64384b6c4a8
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 0%
+source-wordcount: '324'
+ht-degree: 4%
 
 ---
 
@@ -17,6 +17,31 @@ ht-degree: 0%
 Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima per report e dashboard con la versione del primo trimestre 2025. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del primo trimestre 2025, consulta [Panoramica sulla versione del primo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Nuove entità disponibili in Data Connect
+
+>[!NOTE]
+>
+>Versione di anteprima: 15 gennaio 2025; versione di produzione per tutti i clienti: 15 gennaio 2025
+
+È stato aggiunto il supporto per le seguenti entità in Data Connect:
+
+* Utente team progetto
+* Ruolo utente team progetto
+* Ore preventivate da segnalare
+* Conteggio delle statistiche della vista rapporto
+* Responsabile risorse
+* Nota Rich Text
+
+Abbiamo anche aggiunto il supporto per le seguenti entità specifiche per le agenzie:
+
+* Profilo aziendale
+* Regola di business
+* Posizione
+* Categoria risorsa non manodopera
+* Posizione utente
+
+Per ulteriori informazioni, vedere [Dizionario dati di Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md).
 
 ## Limite di 25 rapporti, pagine esterne o calendari nei dashboard
 

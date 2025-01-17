@@ -7,7 +7,7 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
 source-wordcount: '1862'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Panoramica sulla sintassi della modalità testo
 
-<!--Audited: 12/2023-->
+<!--Audited: 1/2025-->
 
 È possibile utilizzare l’interfaccia in modalità testo per creare visualizzazioni, filtri, raggruppamenti e prompt personalizzati più complessi in elenchi e rapporti. La modalità testo consente di accedere ai campi e ai relativi attributi non disponibili nell&#39;interfaccia della modalità standard.
 
@@ -29,7 +29,7 @@ Per ulteriori informazioni sulla creazione di rapporti utilizzando la modalità 
 ## Considerazioni sulla sintassi della modalità testo
 
 * Devi comprendere la sintassi di Adobe Workfront prima di iniziare a creare elementi di reporting in modalità testo. La sintassi Workfront per la modalità testo è univoca per questa applicazione e presenta caratteristiche univoche che è necessario conoscere.
-* Prima di iniziare a utilizzare la modalità testo nei rapporti, consigliamo vivamente di seguire le nostre lezioni sui rapporti avanzati per comprendere meglio il linguaggio della modalità testo. <!--outdated link: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
+* Prima di iniziare a utilizzare la modalità testo nei rapporti, consigliamo vivamente di seguire le nostre lezioni sui rapporti avanzati per comprendere meglio il linguaggio della modalità testo.
 * Puoi personalizzare viste, filtri e raggruppamenti utilizzando l’interfaccia in modalità standard. Tuttavia, è possibile creare prompt personalizzati solo utilizzando la modalità testo.
 
 ## Linee guida comuni per la creazione di elementi di reporting in modalità testo
@@ -44,13 +44,11 @@ Di seguito sono riportate le linee guida comuni per la creazione di elementi di 
 
   **Esempio:** È possibile visualizzare il nome o il GUID del proprietario del Portfolio in una visualizzazione delle attività:
 
-
   `valuefield=project:portfolio:ownerID`
 
   Non è possibile raggruppare, filtrare o richiedere il proprietario del Portfolio in una visualizzazione delle attività:
 
   `project:portfolio:ownerID=5808f4bc00790b270a9629dd128e63fa`
-
 
   In questi esempi, l&#39;ID proprietario Portfolio è a tre oggetti dall&#39;oggetto dell&#39;elenco.
 
@@ -90,7 +88,7 @@ Esistono le seguenti somiglianze tra la sintassi dei set di elementi di reportin
   Per informazioni sulle righe chiave dei codici per le visualizzazioni e i raggruppamenti durante la creazione in modalità testo, vedere:
 
    * [Modificare una visualizzazione utilizzando la modalità testo](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
-   * [Modifica modalità testo in un raggruppamento](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+   * [Modificare un raggruppamento utilizzando la modalità testo](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
 * Le righe di codice e la sintassi sono simili per i filtri e i prompt personalizzati.
 

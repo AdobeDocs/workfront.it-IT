@@ -7,9 +7,9 @@ description: Questa pagina contiene informazioni sulla struttura e sul contenuto
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '4294'
+source-wordcount: '4609'
 ht-degree: 4%
 
 ---
@@ -177,23 +177,47 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <td>PRENOTAZIONE | Prenotazione</td>
         <td>BOOKINGS_CURRENT<br>BOOKINGS_DAILY_HISTORY<br>BOOKINGS_EVENT</td>
         <td>BOOKINGID (self)<br>ENTEREDBYID<br>LASTUPDATEDBYID<br>NLBRCATEGORYID<br>NONLABORRESOURCEID<br>OBJID<br>PROJECTID<br>SYSID<br>TASKID<br>TEMPLATEID<br>TEMPLATETASKID<br>TOPOBJID</td>
-        <td>Self<br>USERS_CURRENT | USERID<br>USERS_CURRENT | USERID<br>Tabella categorie risorse non manodopera non supportata al momento<br>NONLABORRESOURCES_CURRENT | NONLABORRESOURCEID<br>ID dell'oggetto identificato nel campo OBJOBJCODE<br>PROJECTS_CURRENT | PROJECTID <br>Non è una relazione; viene utilizzato per scopi interni all'applicazione<br>TASKS_CURRENT | TASKID     <br>MODELLI_CORRENTI | TEMPLATEID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID<br>ID dell'oggetto identificato nel campo TOPOBJCODE.</td>
+        <td>Self<br>USERS_CURRENT | USERID<br>USERS_CURRENT | USERID<br>Tabella categorie risorse non manodopera non supportata al momento<br>NONLABORRESOURCES_CURRENT | NONLABORRESOURCEID<br>ID dell'oggetto identificato nel campo OBJOBJCODE<br>PROJECTS_CURRENT | PROJECTID <br>Non è una relazione; viene utilizzato per scopi interni all'applicazione<br>TASKS_CURRENT | TASKID<br>TEMPLATES_CURRENT | TEMPLATEID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID<br>ID dell'oggetto identificato nel campo TOPOBJCODE.</td>
+    </tr>
+    <tr>
+        <td>Profilo aziendale</td>
+        <td>Profilo aziendale</td>
+        <td>BSNPRF | ProfiloBusiness</td>
+        <td>BUSINESSPROFILE_CURRENT<br>BUSINESSPROFILE_DAILY_HISTORY<br>BUSINESSPROFILE_EVENT</td>
+        <td>ACCESSLEVELID<br>BUSINESSPROFILEID (self)<br>ENTEREDBYID<br>GROUPID<br>LASTUPDATEDBYID<br>SYSID</td>
+        <td>ACCESSLEVELS_CURRENT | ACCESSLEVELID<br>Self<br>USERS_CURRENT | USERID<br>GROUPS_CURRENT | GROUPID<br>USERS_CURRENT | USERID<br>Non è una relazione; utilizzato per scopi interni all'applicazione</td>
+    </tr>
+    <tr>
+        <td>Regola di business</td>
+        <td>Regola di business</td>
+        <td>BSNRUL | Regola aziendale</td>
+        <td>BUSINESSRULE_CURRENT<br>BUSINESSRULE_DAILY_HISTORY<br>BUSINESSRULE_EVENT</td>
+        <td>BUSINESSRULEID (self)<br>ENTEREDBYID<br>LASTUPDATEDBYID<br>SYSID</td>
+        <td>Self<br>USERS_CURRENT | USERID<br>USERS_CURRENT | USERID<br>Non è una relazione; utilizzato per scopi interni all'applicazione</td>
     </tr>
     <tr>
         <td>Categoria</td>
         <td>Modulo personalizzato</td>
         <td>CITTÀ | Categoria</td>
         <td>CATEGORIES_CURRENT<br>CATEGORIES_DAILY_HISTORY<br>CATEGORIES_EVENT</td>
-        <td>CATEGORYID (self)<br>ENTEREDBYID<br>GROUPID <br>LASTUPDATEDBYID <br>SYSID</td>
-        <td>Self<br>USERS_CURRENT | USERID<br>GROUPS_CURRENT | GROUPID <br>UTENTI_CORRENTE | USERID <br>Non è una relazione; utilizzato per scopi interni all'applicazione</td>
+        <td>CATEGORYID (self)<br>ENTEREDBYID<br>GROUPID<br>LASTUPDATEDBYID<br>SYSID</td>
+        <td>Self<br>USERS_CURRENT | USERID<br>GROUPS_CURRENT | GROUPID<br>USERS_CURRENT | USERID<br>Non è una relazione; utilizzato per scopi interni all'applicazione</td>
     </tr>
     <tr>
         <td>Parametro di Categoria</td>
         <td>Campi modulo personalizzati</td>
         <td>CTGYPA | Parametro di Categoria</td>
         <td>CATEGORIESPARAMETERS_CURRENT<br>CATEGORIESPARAMETERS_DAILY_HISTORY<br>CATEGORIESPARAMETERS_EVENT</td>
-        <td>CATEGORIESPARAMETERID (self)<br>CATEGORYID<br>PARAMETERGROUPID<br>PARAMETERID    <br>SYSID</td>
+        <td>CATEGORIESPARAMETERID (self)<br>CATEGORYID<br>PARAMETERGROUPID<br>PARAMETERID<br>SYSID</td>
         <td>Self<br>CATEGORIES_CURRENT | CATEGORYID<br>Tabella di gruppi di parametri non supportata al momento<br>PARAMETERS_CURRENT | PARAMETERID    <br>Nessuna relazione; utilizzato per scopi interni all'applicazione</td>
+    </tr>
+    <tr>
+        <td>Classificatore</td>
+        <td>Posizione</td>
+        <td>CLSF | Posizione</td>
+        <td>CLASSIFICATORE_CORRENTE<br>CLASSIFICATORE_CRONOLOGIA_GIORNALIERA<br>CLASSIFICATORE_EVENTO</td>
+        <td>CLASSIFIERID (self)<br>ENTEREDBYID<br>LASTUPDATEDBYID<br>PARENTID<br>SYSID</td>
+        <td>Self<br>USERS_CURRENT | USERID<br>USERS_CURRENT | USERID<br>CLASSIFICATORE_CORRENTE | CLASSIFIERID<br>Non è una relazione; utilizzato per scopi interni all'applicazione</td>
     </tr>
     <tr>
         <td>Azienda</td>
@@ -336,7 +360,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <td>Voce del diario</td>
         <td>GERGO | Voce diario</td>
         <td>JOURNALENTRIES_CURRENT<br>JOURNALENTRIES_DAILY_HISTORY<br>JOURNALENTRIES_EVENT</td>
-        <td>APPROVERSTATUSID<br>ASSIGNMENTID<br>AUDITRECORDID<br>BASELINEID <br>BILLINGRECORDID<br>COMPANYID <br>DOCUMENTID <br>DOCUMENTSHAREID <br>EDITEDBYID<br>EXPENSEID<br>HOURID<br>INITIATIVEID<br>JOURNALENTRIEID (self)<br>OBJID<br>OPTASKID<br>PORTFOLIOID<br>PROGRAMID<br>PROJECTID<br>SUBOBJID<br>SUBSCRIPTID ID<br>SYSID<br>TASKID<br>TEMPLATEID<br>TIMESHEETID<br>TOPOBJID<br>USERID</td>
+        <td>APPROVERSTATUSID<br>ASSIGNMENTID<br>AUDITRECORDID<br>BASELINEID <br>BILLINGRECORDID<br>COMPANYID <br>DOCUMENTID <br>DOCUMENTSHAREID <br>EDITEDBYID<br>EXPENSEID<br>HOURID<br>INITIATIVEID<br>JOURNALENTRIEID (self)<br>OBJID<br>OPTASKID<br>PORTFOLIOID<br>PROGRAMID<br>PROJECTID<br>SUBOBJID<br>SUBSCRIBEID<br>SYSID<br>TASKID<br>TEMPLATEID<br>TIMESHEETID<br>TOPOBJID<br>USERID</td>
         <td>APPROVERSTATUSES_CURRENT | APPROVERSTATUSID<br>ASSIGNMENTS_CURRENT | ASSIGNMENTID<br>Tabella record di controllo non supportata al momento<br>BASELINES_CURRENT | BASELINEID <br>BILLINGRECORDS_CURRENT | BILLINGRECORDID<br>COMPANIES_CURRENT | COMPANYID <br>DOCUMENTI_CORRENTI | La tabella di condivisione documenti <br>ID documento non è attualmente supportata <br>USERS_CURRENT | ID UTENTE<br>SPESE_CORRENTE | EXPENSEID<br>HOURS_CURRENT | HOURID<br>Tabella iniziativa non supportata al momento<br>Self<br>ID dell'oggetto identificato nel campo OBJCODE<br>OPTASKS_CURRENT | OPTASKID<br>PORTFOLIO_CORRENTE | PORTFOLIOID<br>PROGRAMMA_CORRENTE | PROGRAMID<br>PROJECTS_CURRENT | PROJECTID <br>L'ID dell'oggetto identificato nel campo SUBOBJCODE<br>Tabella di sottoscrizione non supportata al momento<br>Nessuna relazione. Utilizzato per applicazioni interne<br>TASKS_CURRENT | TASKID<br>TEMPLATES_CURRENT | TEMPLATEID<br>TIMESHEETS_CURRENT | TIMESHEETID<br>ID dell'oggetto identificato nel campo TOPOBJCODE<br>USERS_CURRENT | USERID</td>
     </tr>
     <tr>
@@ -368,8 +392,16 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <td>Risorsa non di manodopera</td>
         <td>NLBR | Risorsa non manodopera</td>
         <td>NONLABORRESOURCES_CURRENT<br>NONLABORRESOURCES_DAILY_HISTORY<br>NONLABORRESOURCES_EVENT</td>
-        <td>CATEGORYID<br>NONLABORRESOURCEID (self)<br>ENTEREDBYID<br>HOMEGROUPID<br>LASTUPDATEDBYID<br>NONLABORRESOURCECATEGORYID <br>SYSID  </td>
-        <td>CATEGORIES_CURRENT | CATEGORYID<br>Self<br>USERS_CURRENT | ID UTENTE <br>GROUPS_CURRENT | GROUPID<br>USERS_CURRENT | USERID <br>Tabella delle categorie di risorse non manodopera non supportata al momento <br>Nessuna relazione. Utilizzata per applicazioni interne    </td>
+        <td>CATEGORYID<br>NONLABORRESOURCEID (self)<br>ENTEREDBYID<br>HOMEGROUPID<br>LASTUPDATEDBYID<br>NONLABORRESOURCECATEGORYID<br>SYSID  </td>
+        <td>CATEGORIES_CURRENT | CATEGORYID<br>Self<br>USERS_CURRENT | USERID<br>GROUPS_CURRENT | GROUPID<br>USERS_CURRENT | USERID<br>Tabella delle categorie di risorse non manodopera non supportata al momento<br>Nessuna relazione; utilizzata per scopi interni all'applicazione</td>
+    </tr>
+    <tr>
+        <td>Categoria risorsa non manodopera</td>
+        <td>Categoria risorsa non manodopera</td>
+        <td>NLBRCY | Categoria di risorse non manodopera</td>
+        <td>NLBRCATEGORIES_CURRENT<br>NLBRCATEGORIES_DAILY_HISTORY<br>NLBRCATEGORIES_EVENT</td>
+        <td>CATEGORYID<br>ENTEREDBYID<br>LASTUPDATEDBYID<br>NLBRCATEGORYID (self)<br>PRIVATERATECARDID<br>SCHEDULEID<br>SYSID</td>
+        <td>CATEGORIES_CURRENT | CATEGORYID<br>USERS_CURRENT | USERID<br>USERS_CURRENT | USERID<br>Self<br>RATECARD_CURRENT | RATECARDID<br>USERS_CURRENT | USERID<br>Non è una relazione; utilizzato per scopi interni all'applicazione</td>
     </tr>
     <tr>
         <td>Giorno non feriale</td>
@@ -492,6 +524,22 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <td>Relazione non Workfront; utilizzata per l'integrazione con sistemi esterni<br>La tabella delle scorecard non è attualmente supportata<br>APPROVALPROCESSES_CURRENT | APPROVALPROCESSID<br>RATECARD_CURRENT | RATECARDID<br>CATEGORIES_CURRENT | CATEGORYID<br>COMPANIES_CURRENT | COMPANYID <br>OPTASK_CURRENT | OPTASKID<br>UTENTE_CORRENTE | ID UTENTE<br>APPROVALSTEPS_CURRENT | APPROVALSTEPID<br>Tabella scorecard non supportata al momento<br>USER_CURRENT | USERID<br>GROUP_CURRENT | GROUPID<br>NOTE_CURRENT | NOTEID<br>NOTE_CURRENT | NOTEID<br>UTENTE_CORRENTE | ID UTENTE<br>MILESTONEPATH_CURRENT | MILESTONEPATHID<br>UTENTE_CORRENTE | USERID<br>Tabella account POP non supportata al momento<br>PORTFOLIO_CURRENT | PORTFOLIOID<br>RATECARD_CURRENT | RATECARDID<br>PROGRAM_CURRENT | PROGRAMID<br>Self<br>Tabella di definizione coda non supportata al momento<br>OPTASK_CURRENT | OPTASKID<br>RESOURCEPOOLS_CURRENT | RESOURCEPOOLID<br>SCHEDULE_CURRENT | SCHEDULEID<br>UTENTE_CORRENTE | ID UTENTE<br>UTENTE_CORRENTE | USERID<br>TEAM_CURRENT | TEAMID<br>TEMPLATES_CURRENT | TEMPLATEID</td>
     </tr>
     <tr>
+        <td>Utente team progetto</td>
+        <td>Utente team progetto</td>
+        <td>PRTU | Utente progetto</td>
+        <td>PROJECTSUSERS_CURRENT<br>PROJECTSUSERS_DAILY_HISTORY<br>PROJECTSUSERS_EVENT</td>
+        <td>PROJECTID<br>PROJECTSUSERID (self)<br>SYSID<br>TMPUSERID<br>USERID</td>
+        <td>PROJECTS_CURRENT | PROJECTID<br>Self<br>Non è una relazione; utilizzato per scopi interni dell'applicazione<br>TEMPLATES_CURRENT | TEMPLATEID<br>USERS_CURRENT | USERID</td>
+    </tr>
+    <tr>
+        <td>Ruolo utente team progetto</td>
+        <td>Ruolo utente team progetto</td>
+        <td>PTEAM | RuoloUtenteProgetto</td>
+        <td>PROJECTSUSERSROLES_CURRENT<br>PROJECTSUSERSROLES_DAILY_HISTORY<br>PROJECTSUSERSROLES_EVENT</td>
+        <td>PROJECTID<br>PROJECTSUSERSROLEID (self)<br>ROLEID<br>SYSID<br>USERID</td>
+        <td>PROJECTS_CURRENT | PROJECTID<br>Self<br>ROLES_CURRENT | ROLEID<br>Non è una relazione; utilizzato per scopi interni all'applicazione<br>USERS_CURRENT | USERID</td>
+    </tr>
+    <tr>
         <td>RateCard</td>
         <td>Scheda tariffa</td>
         <td>RTCRD |Biglietto tariffa</td>
@@ -504,16 +552,40 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <td>Cartella Report</td>
         <td>RPTFDR | Cartella report</td>
         <td>REPORTFOLDERS_CURRENT<br>REPORTFOLDERS_DAILY_HISTORY<br>REPORTFOLDERS_EVENT</td>
-        <td>REPORTFOLDERID (self) <br>SYSID  </td>
-        <td>Autonomo <br>Non è una relazione; utilizzato per scopi interni all'applicazione  </td>
+        <td>REPORTFOLDERID (self)<br>SYSID</td>
+        <td>Self<br>Non è una relazione; utilizzato per scopi interni dell'applicazione</td>
+    </tr>
+    <tr>
+        <td>Conteggio delle statistiche della vista rapporto</td>
+        <td>Conteggio delle statistiche della vista rapporto</td>
+        <td>PLSVST | PortalSectionStatisticInfo</td>
+        <td>REPORTVIEWSTATISTICCOUNTS_CURRENT<br>REPORTVIEWSTATISTICCOUNTS_DAILY_HISTORY<br>REPORTVIEWSTATISTICCOUNTS_EVENT</td>
+        <td>REPORTID<br>REPORTVIEWSTATISTICCOUNTID (self)<br>SYSID</td>
+        <td>PORTALSECTIONS_CURRENT | PORTALSECTIONID<br>Self<br>Non è una relazione; viene utilizzato per scopi interni all'applicazione</td>
+    </tr>
+    <tr>
+        <td>Ore preventivate da segnalare</td>
+        <td>Ore preventivate da segnalare</td>
+        <td>RPBGHR | Ore preventivate</td>
+        <td>REPORTABLEBUDGETEDHOURS_CURRENT<br>REPORTABLEBUDGETEDHOURS_DAILY_HISTORY<br>REPORTABLEBUDGETEDHOURS_EVENT</td>
+        <td>PROJECTID<br>REPORTABLEBUDGETEDHOURID (self)<br>ROLEID<br>SYSID<br>USERID</td>
+        <td>PROJECTS_CURRENT | PROJECTID<br>Self<br>ROLES_CURRENT | ROLEID<br>Non è una relazione; utilizzato per scopi interni all'applicazione<br>USERS_CURRENT | USERID</td>
     </tr>
     <tr>
         <td>Tempo riservato</td>
         <td>Indisponibilità (personale)</td>
         <td>RESVT | Indisponibilità</td>
         <td>RESERVEDTIMES_CURRENT<br>RESERVEDTIMES_DAILY_HISTORY<br>RESERVEDTIMES_EVENT</td>
-        <td>RESERVEDTIMEID (self) <br>SYSID<br>TASKID<br>USERID  </td>
-        <td>Self<br>Non è una relazione; utilizzato per scopi interni dell'applicazione<br>TASKS_CURRENT | TASKID<br>UTENTI_CORRENTE | USERID  </td>
+        <td>RESERVEDTIMEID (self)<br>SYSID<br>TASKID<br>USERID</td>
+        <td>Self<br>Non è una relazione; utilizzato per scopi interni dell'applicazione<br>TASKS_CURRENT | TASKID<br>UTENTI_CORRENTE | USERID</td>
+    </tr>
+    <tr>
+        <td>Responsabile risorse</td>
+        <td>Responsabile risorse</td>
+        <td>RESMGR | Responsabile risorse</td>
+        <td>RESOURCEMANAGERS_CURRENT<br>RESOURCEMANAGERS_DAILY_HISTORY<br>RESOURCEMANAGERS_EVENT</td>
+        <td>ID (self)<br>PROJECTID<br>RESOURCEMANAGERID<br>SYSID<br>TEMPLATEID</td>
+        <td>Self<br>PROJECTS_CURRENT | PROJECTID<br>USERS_CURRENT | USERID<br>Non è una relazione; utilizzato per scopi interni all'applicazione<br>TEMPLATES_CURRENT | TEMPLATEID</td>
     </tr>
     <tr>
         <td>Gruppo di risorse</td>
@@ -528,8 +600,8 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <td>Nota Rich Text</td>
         <td>RHNOTE | Nota Rich Text</td>
         <td>RESERVEDTEXTNOTES_CURRENT<br>RESERVEDTEXTNOTES_DAILY_HISTORY<br>RESERVEDTEXTNOTES_EVENT</td>
-        <td>RICHTEXTNOTEID (self) <br>SYSID  </td>
-        <td>Autonomo <br>Non è una relazione; utilizzato per scopi interni all'applicazione  </td>
+        <td>RICHTEXTNOTEID (self)<br>SYSID</td>
+        <td>Self<br>Non è una relazione; utilizzato per scopi interni dell'applicazione</td>
     </tr>
     <tr>
         <td>Valore parametro Rich Text</td>
@@ -722,6 +794,14 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <td>USERSGROUPS_CURRENT<br>USERSGROUPS_DAILY_HISTORY<br>USERSGROUPS_EVENT</td>
         <td>GROUPID <br>SYSID<br>ID UTENTE <br>USERSGROUPID (self)</td>
         <td>GROUPS_CURRENT | GROUPID <br>Non è una relazione; utilizzato per scopi interni dell'applicazione<br>USERS_CURRENT | ID UTENTE <br>Autonomo</td>
+    </tr>
+    <tr>
+        <td>Posizione utente</td>
+        <td>Posizione utente</td>
+        <td>USRLOC | UserLocation</td>
+        <td>USERLOCATIONS_CURRENT<br>USERLOCATIONS_DAILY_HISTORY<br>USERLOCATIONS_EVENT</td>
+        <td>CLASSIFIERID<br>SYSID<br>USERID<br>USERLOCATIONID (self)</td>
+        <td>CLASSIFICATORE_CORRENTE | CLASSIFIERID<br>Non è una relazione; viene utilizzato per scopi applicativi interni<br>USERS_CURRENT | USERID<br>Self</td>
     </tr>
     <tr>
         <td>Mansione utente</td>

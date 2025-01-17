@@ -6,20 +6,16 @@ description: È possibile modificare un filtro in un elenco o in un report utili
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 0%
+source-wordcount: '1042'
+ht-degree: 1%
 
 ---
 
 # Modificare un filtro utilizzando la modalità testo
 
-<!-- Audited: 01/2024 -->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-fitlers.html; *** Also, draft this area in the Text Mode overview article)</p>
--->
+<!-- Audited: 1/2025 -->
 
 È possibile modificare un filtro in un elenco o in un report utilizzando la modalità testo per accedere a campi non disponibili nell’interfaccia standard e creare filtri più complessi.
 
@@ -29,7 +25,7 @@ Per ulteriori esempi in modalità testo durante la creazione di un filtro, veder
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+Devi avere i seguenti:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,9 +37,16 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td><p>Nuovo: Standard</p>
-    <p>oppure</p>
-    <p>Corrente: Piano</p> </td> 
+   <td> 
+      <p>Nuovo:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Corrente:</p>
+         <ul>
+         <li><p>Piano</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -56,7 +59,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -84,12 +87,20 @@ Per informazioni sulla creazione di un report, vedere [Creare un report personal
 
 1. Esegui una delle operazioni seguenti:
 
-   1. Per accedere al filtro da un report, passa al report, quindi fai clic sulla scheda **Azioni report** > **Modifica** > **Filtri**.
-   1. Per accedere al filtro da un elenco, passa all&#39;elenco e dal menu **Filtro**, passa il puntatore del mouse sul filtro che desideri modificare e fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png).
+   Per accedere al filtro da un elenco, vai all&#39;elenco e fai clic sull&#39;icona **Filtro**, quindi passa il puntatore del mouse sul filtro nel pannello laterale **Filtri** che desideri modificare e fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png). Nel pannello laterale **Filtri** viene visualizzato il filtro selezionato oppure viene aperto il generatore di filtri legacy.
 
-      Viene aperto il generatore di filtri.
+   OPPURE
 
-1. Fai clic su **Aggiungi regola filtro** per iniziare ad aggiungere le condizioni del filtro, quindi fai clic su **Modalità testo** o **Passa alla modalità testo** sul lato destro del generatore.
+   Per accedere al filtro da un report, passa al report, quindi fai clic sulla scheda **Azioni report** > **Modifica** > **Filtri**.
+
+1. Esegui una delle operazioni seguenti:
+
+   Se si utilizza il pannello laterale **Filtri** in un elenco, fare clic su **Modalità testo**.
+
+   OPPURE
+
+   Se utilizzi il generatore di filtri legacy o in un report, fai clic su **Aggiungi una regola di filtro** per iniziare ad aggiungere le condizioni del filtro. Quindi fare clic su **Passa alla modalità testo** e quindi su **Modifica modalità testo** sul lato destro del generatore.
+
 1. Aggiungere istruzioni di filtro utilizzando la modalità testo. Ogni istruzione di filtro può contenere le seguenti righe e informazioni aggiuntive:
 
    <table style="table-layout:auto"> 
@@ -175,7 +186,7 @@ Per informazioni sulla creazione di un report, vedere [Creare un report personal
       >`OR:2:plannedCompletionDate=$$TODAY`
       >`OR:2:plannedCompletionDate_Mod=eq`
 
-1. Fai clic su **Esci da modalità testo** o **Fine** per salvare le modifiche apportate alla modalità testo e continuare a modificare il report o il filtro.
+1. Fai clic su **Applica** o **Fine** per salvare le modifiche apportate alla modalità testo e continuare a modificare il report o il filtro.
 1. Fai clic su **Salva + Chiudi** per salvare il rapporto oppure su **Salva filtro** per salvare il filtro nell&#39;elenco.
 
 

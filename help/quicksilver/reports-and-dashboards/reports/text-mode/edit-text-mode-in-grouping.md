@@ -1,23 +1,21 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: Modifica modalità testo in un raggruppamento
-description: "NOTA: rendi tutti gli articoli FVG uguali per la modifica in modalità testo"
+title: Modificare un raggruppamento utilizzando la modalità testo
+description: 'NOTA: rendi tutti gli articoli FVG uguali per la modifica in modalità testo)'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1520'
 ht-degree: 0%
 
 ---
 
-# Modifica modalità testo in un raggruppamento
+# Modificare un raggruppamento utilizzando la modalità testo
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: make all FVG articles the same for editing in text mode)</p>
--->
+<!-- Audited: 1/2025 -->
 
 È possibile modificare un raggruppamento in un elenco o in un report utilizzando la modalità testo per accedere a campi non disponibili nell’interfaccia standard e creare raggruppamenti più complessi.
 
@@ -27,32 +25,45 @@ ht-degree: 0%
 
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
+Devi avere i seguenti:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano </p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> 
+      <p>Nuovo:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Corrente:</p>
+         <ul>
+         <li><p>Piano</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare i raggruppamenti in un rapporto</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare i raggruppamenti in un rapporto</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un report per modificare i raggruppamenti in un report</p> <p>Gestire le autorizzazioni per un raggruppamento per modificarlo</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un report per modificare i raggruppamenti in un report</p> <p>Gestire le autorizzazioni per un raggruppamento per modificarlo</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisiti
 
@@ -64,7 +75,7 @@ Per ulteriori informazioni, consulta:
 * [Panoramica sulla sintassi della modalità testo](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
 * [Esempi di visualizzazione, filtro e raggruppamento personalizzati: indice articolo](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
-## Modifica modalità testo in un raggruppamento
+## Modificare un raggruppamento utilizzando la modalità testo
 
 La modifica di un raggruppamento utilizzando la modalità testo è identica per i report e gli elenchi. L’accesso al raggruppamento da un rapporto o da un elenco è diverso.
 
@@ -83,7 +94,7 @@ Per informazioni sulla creazione di un report, vedere [Creare un report personal
 
       Viene aperto il generatore di raggruppamenti.
 
-1. Fai clic su **Aggiungi raggruppamento** per aggiungere i raggruppamenti, quindi fai clic su **Passa alla modalità testo** nell&#39;angolo superiore destro del generatore.
+1. Fai clic su **Aggiungi raggruppamento** per aggiungere i raggruppamenti, fai clic su **Passa alla modalità testo** nell&#39;angolo superiore destro del generatore, quindi fai clic su **Modifica modalità testo**.
 
    >[!TIP]
    >
