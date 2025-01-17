@@ -4,11 +4,11 @@ product-area: projects;user-management
 navigation-topic: tasks
 title: Assegnazione di attività
 description: In Adobe Workfront puoi gestire le assegnazioni delle attività in vari modi. I metodi descritti in questa sezione descrivono i diversi modi in cui è possibile assegnare attività a utenti, team e ruoli.
-author: Alina
+author: Lisa
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 2b79998d-7436-43ef-a5f5-6302f1f1b7a7
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%

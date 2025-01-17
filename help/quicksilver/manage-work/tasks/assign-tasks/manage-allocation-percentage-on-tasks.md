@@ -3,10 +3,10 @@ product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Gestire la percentuale di allocazione di utenti o ruoli sulle attività
 description: La percentuale di allocazione rappresenta la quantità di tempo in cui una risorsa assegnata deve lavorare su un'attività in un giorno. Rappresenta la percentuale di un giorno lavorativo (in base alla programmazione dell'utente o del progetto) in cui una risorsa viene allocata per l'intera durata dell'attività.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 830ad0411084844ace1e1e543c3ebefcb558af80
+source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 1%
