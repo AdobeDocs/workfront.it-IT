@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Attiva o disattiva uno scenario in [!DNL Adobe] Workfront Fusion
-description: Questo articolo descrive perché gli scenari attivi o disattivati sono utili in situazioni diverse e come attivare o disattivare uno scenario.
+description: La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione. Questo articolo è stato dichiarato obsoleto, ma contiene un collegamento al nuovo articolo che descrive questa funzionalità.
 author: Becky
 feature: Workfront Fusion
 exl-id: b3eea763-f0bf-4037-8d73-20d112dc5ac3
-source-git-commit: b1764e443ebb0ad48ca4ae0263d326f4156fb155
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '345'
 ht-degree: 1%
 
 ---
 
 # Attiva o disattiva uno scenario in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione.
+>
+>Le informazioni contenute in questo articolo sono ora disponibili nell’articolo:
+>
+>* [Attiva o disattiva uno scenario](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/activate-deactivate-scenarios.html)
+>
+>Aggiorna eventuali segnalibri.
+>
+>Questo articolo non è più in fase di aggiornamento e verrà rimosso nel prossimo futuro.
 
 È possibile utilizzare scenari in uno stato attivo o inattivo:
 

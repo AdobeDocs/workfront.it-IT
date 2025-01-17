@@ -4,18 +4,31 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: Organizzazioni e team di Adobe Workfront Fusion
-description: Le funzioni Organizzazione e Team di Adobe Workfront Fusion consentono alle aziende di controllare l'accesso a scenari e altre funzioni all'interno di Fusion.
+description: La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione. Questo articolo è stato dichiarato obsoleto, ma contiene un collegamento al nuovo articolo che descrive questa funzionalità.
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 063c4a885d43b41ba6ff72ac22a1552486531fa6
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 0%
+source-wordcount: '1300'
+ht-degree: 1%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] organizzazioni e team
+
+>[!IMPORTANT]
+>
+>La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione.
+>
+>Le informazioni contenute in questo articolo sono ora disponibili negli articoli:
+>
+>* [Panoramica sui team e sulle organizzazioni di Adobe Workfront Fusion](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/org-and-team-overview.html)
+>* [Imposta opzioni di notifica team](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/set-team-notification-options.html)
+>
+>Aggiorna eventuali segnalibri.
+>
+>Questo articolo non è più in fase di aggiornamento e verrà rimosso nel prossimo futuro.
 
 Le funzionalità Organizzazione e Team di [!DNL Adobe Workfront Fusion] consentono alle aziende di controllare l&#39;accesso a scenari e altre funzionalità in Fusion.
 
@@ -112,7 +125,7 @@ L&#39;invito scadrà tra un giorno.
 
 È possibile far parte di più organizzazioni in Fusion. Le risorse non sono condivise tra le organizzazioni.
 
-Per cambiare organizzazione all’interno dell’esperienza unificata di Adobe, fai clic sul nome dell’organizzazione nell’angolo in alto a destra e seleziona la nuova organizzazione dal menu a discesa. Solo le organizzazioni con un account di Fusion verranno visualizzate nel menu a discesa, anche se sei membro di altre organizzazioni in Adobe.
+Per cambiare organizzazione all’interno di Adobe Unified Experience, fai clic sul nome dell’organizzazione nell’angolo in alto a destra e seleziona la nuova organizzazione dal menu a discesa. Solo le organizzazioni con un account di Fusion verranno visualizzate nel menu a discesa, anche se sei membro di altre organizzazioni in Adobe.
 
 ## Team
 
@@ -169,9 +182,9 @@ Per creare un team:
 
 >[!NOTE]
 >
->Se l’organizzazione è stata spostata in Unified Shell, riceverai notifiche tramite l’area Notifiche di Adobe. Per visualizzare le notifiche nell’area Notifiche di Adobe, è necessario utilizzare l’esperienza Unified Shell.
+>Se l’organizzazione è stata spostata in Unified Shell, riceverai notifiche tramite l’area Adobe Notifications. Utilizza l’esperienza Unified Shell per visualizzare le notifiche nell’area Notifiche di Adobe.
 >
->Per utilizzare l’esperienza Unified Shell, inclusa l’area Notifiche dell’Adobe, fai clic sul pulsante Prova nuova interfaccia utente di Fusion in Esperienza unificata nella parte superiore della pagina. Questo pulsante è disponibile solo se l’organizzazione è stata spostata in Unified Shell.
+>Per utilizzare l’esperienza Unified Shell, inclusa l’area Notifiche di Adobe, fai clic sul pulsante Prova nuova interfaccia utente di Fusion in Esperienza unificata nella parte superiore della pagina. Questo pulsante è disponibile solo se l’organizzazione è stata spostata in Unified Shell.
 >
 >Per ulteriori informazioni, vedere [Accedere alle notifiche](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) in [!DNL Adobe Unified Experience] per [!DNL Workfront Fusion].
 
@@ -207,9 +220,9 @@ Le modifiche alle opzioni di notifica vengono salvate automaticamente
 
 È possibile far parte di più team in Fusion. Poiché i team non condividono le risorse, potrebbe essere necessario cambiare team per accedere a scenari specifici o ad altre risorse.
 
-Se la tua organizzazione non fa parte dell’esperienza unificata di Adobe, puoi cambiare team facendo clic sul nome del team nell’area di navigazione a sinistra, quindi selezionando un team dal menu a discesa.
+Se la tua organizzazione non fa parte di Adobe Unified Experience, puoi cambiare team facendo clic sul nome del team nell’area di navigazione a sinistra, quindi selezionando un team dal menu a discesa.
 
-Se il tuo team fa parte dell’esperienza unificata di Adobe, puoi selezionare un nuovo team facendo clic sul nome del team nell’intestazione e selezionando un team dal menu a discesa. Questa opzione è disponibile in tutte le pagine specifiche di un determinato team, ad esempio la pagina di uno scenario o la pagina Connessioni.
+Se il tuo team fa parte di Adobe Unified Experience, puoi selezionare un nuovo team facendo clic sul nome del team nell’intestazione e selezionando un team dal menu a discesa. Questa opzione è disponibile in tutte le pagine specifiche di un determinato team, ad esempio la pagina di uno scenario o la pagina Connessioni.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/organization-add-team-350x181.png" style="width: 350;height: 181;"> </p>

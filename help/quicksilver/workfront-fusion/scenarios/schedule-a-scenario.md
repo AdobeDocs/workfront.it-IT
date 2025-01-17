@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Pianificazione di uno scenario in Adobe Workfront Fusion
-description: Per impostazione predefinita, uno scenario viene eseguito ogni 15 minuti. Puoi modificare questa impostazione definendo quando e con quale frequenza viene eseguito uno scenario attivato.
+description: La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione. Questo articolo è stato dichiarato obsoleto, ma contiene un collegamento al nuovo articolo che descrive questa funzionalità.
 author: Becky
 feature: Workfront Fusion
 exl-id: bce89abe-ec37-4705-a88f-de62c8b27f49
-source-git-commit: f5549be5951a2648d6a77d25bebbd4141f18d36c
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
 
 # Pianifica uno scenario in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione.
+>
+>Le informazioni contenute in questo articolo sono ora disponibili nell’articolo:
+>
+>* [Pianifica uno scenario](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/configure-scenario-settings/schedule-a-scenario.html)
+>
+>Aggiorna eventuali segnalibri.
+>
+>Questo articolo non è più in fase di aggiornamento e verrà rimosso nel prossimo futuro.
 
 Per impostazione predefinita, uno scenario viene eseguito ogni 15 minuti. Puoi modificare questa impostazione definendo quando e con quale frequenza viene eseguito uno scenario attivato. È possibile pianificare l&#39;esecuzione di scenari di fusione ogni 5 minuti.
 

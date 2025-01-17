@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Modelli di Adobe Workfront Fusion attualmente disponibili
-description: In Adobe Workfront Fusion sono attualmente disponibili i seguenti modelli pubblici.
+description: La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione. Questo articolo è stato dichiarato obsoleto, ma contiene un collegamento al nuovo articolo che descrive questa funzionalità.
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 3c22860b1a9bdc653a772a48ccfcbb4456b11c8c
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1323'
 ht-degree: 0%
 
 ---
 
 # Modelli di Adobe Workfront Fusion attualmente disponibili
+
+>[!IMPORTANT]
+>
+>La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione.
+>
+>Le informazioni contenute in questo articolo sono ora disponibili nell’articolo:
+>
+>* [Modelli di Adobe Workfront Fusion attualmente disponibili](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-and-manage-templates/currently-available-fusion-templates.html)
+>
+>Aggiorna eventuali segnalibri.
+>
+>Questo articolo non è più in fase di aggiornamento e verrà rimosso nel prossimo futuro.
 
 In Adobe Workfront Fusion sono attualmente disponibili i seguenti modelli pubblici.
 

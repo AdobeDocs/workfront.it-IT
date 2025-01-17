@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Panoramica dei modelli di Adobe Workfront Fusion
-description: La funzionalità dei modelli di Workfront Fusion consente di creare e utilizzare modelli esistenti come punto di partenza per gli  [!DNL Workfront Fusion]  scenari.
+description: La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione. Questo articolo è stato dichiarato obsoleto, ma contiene un collegamento al nuovo articolo che descrive questa funzionalità.
 author: Becky
 feature: Workfront Fusion
 exl-id: 02c10997-28bd-46b4-bbcc-0c907cdaeb7b
-source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '448'
 ht-degree: 1%
 
 ---
 
 # Panoramica dei modelli [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione.
+>
+>Le informazioni contenute in questo articolo sono ora disponibili nell’articolo:
+>
+>* [Visualizza, modifica ed elimina modelli](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-and-manage-templates/view-edit-and-delete-fusion-templates.html)
+>
+>Aggiorna eventuali segnalibri.
+>
+>Questo articolo non è più in fase di aggiornamento e verrà rimosso nel prossimo futuro.
 
 La funzionalità [!DNL Workfront Fusion] modelli consente di creare e utilizzare modelli esistenti come punto di partenza per gli scenari [!DNL Workfront Fusion]. I modelli rappresentano casi d’uso comuni che è possibile configurare e modificare per soddisfare le esigenze della tua organizzazione e casi d’uso specifici.
 
@@ -74,8 +86,8 @@ Nell&#39;area Modelli è possibile visualizzare i modelli disponibili, le applic
    >
    >Se i modelli previsti non vengono visualizzati nella scheda Modelli team, controlla nella barra di navigazione a sinistra o nell’intestazione per assicurarti di visualizzare il team corretto.
 1. (Facoltativo) Per cercare un’applicazione o un nome specifico, inizia a digitare nella casella Cerca app o nome, quindi seleziona il termine quando viene visualizzato nel menu a discesa.
-1. (Facoltativo e condizionale) Se utilizzi Fusion su Unified Shell di Adobe, filtra per una categoria specifica di casi d’uso facendo clic sulla categoria nella sezione Per categoria a destra.
-1. (Facoltativo e condizionale) Se si utilizza Fusion su Unified Shell di Adobe, visualizzare la struttura del modello di scenario passando con il mouse sulla scheda del modello.
+1. (Facoltativo e condizionale) Se utilizzi Fusion su Adobe Unified Shell, filtra per una categoria specifica di casi d’uso facendo clic sulla categoria nella sezione Per categoria a destra.
+1. (Facoltativo e condizionale) Se si utilizza Fusion su Adobe Unified Shell, visualizzare la struttura del modello di scenario passando con il mouse sulla scheda del modello.
 1. Fai clic sul modello da utilizzare per creare uno scenario.
 
    Viene visualizzato un diagramma del modello.

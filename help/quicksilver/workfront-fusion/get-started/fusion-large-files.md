@@ -3,22 +3,36 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Utilizzo di file di grandi dimensioni in Adobe Workfront Fusion
-description: Il supporto per file di grandi dimensioni è attualmente disponibile per i connettori Workfront e HTTP.
+description: La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione. Questo articolo è stato dichiarato obsoleto, ma contiene un collegamento al nuovo articolo che descrive questa funzionalità.
 author: Becky
 feature: Workfront Fusion
 exl-id: e0be458c-a5f4-48e4-a8fb-afd5d072b6ff
-source-git-commit: 4914e6e30d6c4a16de5bd2c91bc6f8e4f208c078
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1163'
 ht-degree: 0%
 
 ---
 
 # Utilizzo di file di grandi dimensioni in Adobe Workfront Fusion
 
+
+
 >[!IMPORTANT]
 >
->La funzionalità per file di grandi dimensioni è disponibile solo per i clienti di Workfront Ultimate ed è un rollout graduale. Tutte le organizzazioni di Fusion che dispongono di un piano Workfront Ultimate disporranno di funzionalità di file di grandi dimensioni entro gennaio 2025.
+>La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione.
+>
+>Le informazioni contenute in questo articolo sono ora disponibili nell’articolo:
+>
+>* [Utilizzo di file di grandi dimensioni](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/scenarios/fusion-large-files.html)
+>
+>Aggiorna eventuali segnalibri.
+>
+>Questo articolo non è più in fase di aggiornamento e verrà rimosso nel prossimo futuro.
+
+>[!IMPORTANT]
+>
+>La funzionalità per file di grandi dimensioni è disponibile solo per i clienti di Workfront Ultimate ed è un rollout graduale. Tutte le organizzazioni di Fusion che dispongono di un piano Workfront Ultimate disporranno di grandi capacità di file entro gennaio 2025.
 
 In Workfront Fusion sono ora disponibili funzionalità di trasferimento dati migliorate che consentono di elaborare file di dimensioni notevolmente maggiori.
 
@@ -53,7 +67,7 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   <tr> 
    <td role="rowheader">Prodotto</td> 
    <td>
-   <p>Nuovo: [!DNL Workfront Fusion] è incluso nel piano Ultimate Workfront.</p> <p>Oppure</p>
+   <p>Nuovo: [!DNL Workfront Fusion] incluso nel piano Ultimate Workfront.</p> <p>Oppure</p>
    <p>Corrente: non disponibile</p>
    </td> 
   </tr>

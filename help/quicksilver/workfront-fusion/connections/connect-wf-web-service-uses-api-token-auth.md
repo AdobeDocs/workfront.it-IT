@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
 title: Connetti [!DNL Adobe Workfront Fusion] a un servizio Web che utilizza l'autorizzazione token API
-description: Alcuni servizi non consentono alle soluzioni di integrazione come  [!DNL Adobe Workfront Fusion]  di creare un'app che puoi facilmente utilizzare nel tuo scenario.
+description: La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione. Questo articolo è stato dichiarato obsoleto, ma contiene un collegamento al nuovo articolo che descrive questa funzionalità.
 author: Becky
 feature: Workfront Fusion
 exl-id: 0feb745a-1ee0-4b29-92ab-14c12a8647d4
-source-git-commit: e61dc6646e221cffb30aad055663dcf8fd3299e2
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '1008'
 ht-degree: 0%
 
 ---
 
 # Connetti [!DNL Adobe Workfront Fusion] a un servizio Web che utilizza l&#39;autorizzazione token API
+
+>[!IMPORTANT]
+>
+>La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione.
+>
+>Le informazioni contenute in questo articolo sono ora disponibili nell’articolo:
+>
+>* [Connettere Adobe Workfront Fusion a un servizio Web che utilizza l&#39;autorizzazione token API](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/connect-wf-web-service-uses-api-token-auth.html)
+>
+>Aggiorna eventuali segnalibri.
+>
+>Questo articolo non è più in fase di aggiornamento e verrà rimosso nel prossimo futuro.
 
 Alcuni servizi non consentono alle soluzioni di integrazione come [!DNL Adobe Workfront Fusion] di creare un&#39;app che puoi facilmente utilizzare nel tuo scenario.
 

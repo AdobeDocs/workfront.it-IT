@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Creare uno scenario in Adobe Workfront Fusion
-description: Le attività seguenti spiegano come creare uno scenario  [!DNL Adobe Workfront Fusion] .
+description: La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione. Questo articolo è stato dichiarato obsoleto, ma contiene un collegamento al nuovo articolo che descrive questa funzionalità.
 author: Becky
 feature: Workfront Fusion
 exl-id: adf66cfc-ccaf-4b29-9199-c13260695569
-source-git-commit: ee2283ac159ca26ca473cac28ec4bed85d1dea04
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1473'
 ht-degree: 0%
 
 ---
 
 # Crea uno scenario in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione.
+>
+>Le informazioni contenute in questo articolo sono ora disponibili nell’articolo:
+>
+>* [Flusso di lavoro per la creazione di uno scenario](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/create-a-scenario-workflow.html)
+>
+>Aggiorna eventuali segnalibri.
+>
+>Questo articolo non è più in fase di aggiornamento e verrà rimosso nel prossimo futuro.
 
 Le attività seguenti spiegano come creare uno scenario [!DNL Adobe Workfront Fusion].
 
@@ -57,8 +69,8 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
     <tr>  
       <td>Prodotto</td>  
       <td> 
-        Nuovo: Seleziona o imposta il piano Workfront: la tua organizzazione deve acquistare Adobe Workfront Fusion.<br>
-        Ultimate Workfront Plan: Workfront Fusion è incluso.<br>
+        Nuovo: selezionare o Prime Workfront Plan: l’organizzazione deve acquistare Adobe Workfront Fusion.<br>
+        Piano Ultimate Workfront: Workfront Fusion è incluso.<br>
         Oppure<br>
         Corrente: la tua organizzazione deve acquistare Adobe Workfront Fusion.
       </td>  

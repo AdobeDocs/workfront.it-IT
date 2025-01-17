@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Publish e condividi [!DNL Adobe Workfront Fusion]  modelli
-description: Quando si crea un modello, il modello diventa disponibile per tutti i membri del team. Se desideri condividere il modello con un utente esterno al team, devi prima pubblicarlo.
+description: La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione. Questo articolo è stato dichiarato obsoleto, ma contiene un collegamento al nuovo articolo che descrive questa funzionalità.
 author: Becky
 feature: Workfront Fusion
 exl-id: aaa59a1e-aa16-41f5-9f56-ce0615c1b685
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
 
 # Publish e condividi [!DNL Adobe Workfront Fusion] modelli
+
+>[!IMPORTANT]
+>
+>La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione.
+>
+>Le informazioni contenute in questo articolo sono ora disponibili nell’articolo:
+>
+>* [Publish e modelli di condivisione](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-and-manage-templates/publish-and-share-fusion-templates.html)
+>
+>Aggiorna eventuali segnalibri.
+>
+>Questo articolo non è più in fase di aggiornamento e verrà rimosso nel prossimo futuro.
 
 Quando si crea un modello, il modello diventa disponibile per tutti i membri del team. Se desideri condividere il modello con un utente esterno al team, devi prima pubblicarlo.
 

@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Creare uno scenario di integrazione pratica in Adobe Workfront Fusion
-description: Questo articolo descrive come creare uno scenario di integrazione con Adobe Workfront Fusion. Gli scenari di integrazione collegano app separate, consentendo il flusso dei dati attraverso applicazioni diverse.
+description: La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione. Questo articolo è stato dichiarato obsoleto, ma contiene un collegamento al nuovo articolo che descrive questa funzionalità.
 author: Becky
 feature: Workfront Fusion
 exl-id: 643bb1d5-d7bc-402b-8ed1-9ca9a30e4560
-source-git-commit: cb4edb02aad8a0738ea80f058fcc2bc016832ce1
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '2139'
+source-wordcount: '2188'
 ht-degree: 0%
 
 ---
 
 # Creare uno scenario di integrazione pratica in Adobe Workfront Fusion
+
+>[!IMPORTANT]
+>
+>La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione.
+>
+>Le informazioni contenute in questo articolo sono ora disponibili nell’articolo:
+>
+>* [Flusso di lavoro per la creazione di uno scenario](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/create-a-scenario-workflow.html)
+>
+>Aggiorna eventuali segnalibri.
+>
+>Questo articolo non è più in fase di aggiornamento e verrà rimosso nel prossimo futuro.
 
 Questo articolo descrive come creare uno scenario di integrazione con Adobe Workfront Fusion. Gli scenari di integrazione collegano app separate, consentendo il flusso dei dati attraverso applicazioni diverse.
 

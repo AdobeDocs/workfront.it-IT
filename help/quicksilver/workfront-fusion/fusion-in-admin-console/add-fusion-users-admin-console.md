@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Aggiungere utenti ad Adobe Workfront Fusion tramite Adobe Admin Console
-description: È possibile aggiungere un utente a Adobe Admin Console e assegnarlo ad Adobe Workfront Fusion oppure assegnare un utente esistente in Adobe Admin Console a Workfront Fusion.
+description: La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione. Questo articolo è stato dichiarato obsoleto, ma contiene un collegamento al nuovo articolo che descrive questa funzionalità.
 author: Becky
 feature: Workfront Fusion
 exl-id: c8924e00-1154-4cf8-84e8-472251b5fc28
-source-git-commit: b7ceec2750ded516cae20d12b991b8fec94c6029
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '690'
 ht-degree: 1%
 
 ---
 
 # Aggiungi utenti a [!DNL Adobe Workfront Fusion] tramite [!DNL Adobe Admin Console]
+
+>[!IMPORTANT]
+>
+>La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione.
+>
+>Le informazioni contenute in questo articolo sono ora disponibili nell’articolo:
+>
+>* [Aggiungere utenti ad Adobe Workfront Fusion tramite Adobe Admin Console](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/add-fusion-users-admin-console.html)
+>
+>Aggiorna eventuali segnalibri.
+>
+>Questo articolo non è più in fase di aggiornamento e verrà rimosso nel prossimo futuro.
 
 >[!IMPORTANT]
 >
@@ -82,7 +94,7 @@ Prima di utilizzare [!DNL Admin Console] per [!DNL Workfront], è necessario ric
 
    Oppure
 
-   Se disponi già di un account Adobe, passa alla [[!DNL Adobe Admin Console] pagina](https://adminconsole.adobe.com/).
+   Se hai già un account Adobe, passa alla [[!DNL Adobe Admin Console] pagina](https://adminconsole.adobe.com/).
 
 
 ## Aggiungi un nuovo utente a [!DNL Adobe Admin Console] e [!DNL Workfront Fusion]

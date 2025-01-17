@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: Strutture di dati in [!DNL Adobe Workfront Fusion]
-description: Una struttura di dati è un documento che descrive in dettaglio il formato dei dati trasferiti ad Adobe Workfront Fusion. In base a questo documento, l’editor di scenari è in grado di capire quale modulo restituisce o riceve quale tipo di dati. I documenti della struttura dati vengono utilizzati in genere per la serializzazione/analisi dei formati di dati come JSON, XML, CSV e altri.
+description: La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione. Questo articolo è stato dichiarato obsoleto, ma contiene un collegamento al nuovo articolo che descrive questa funzionalità.
 author: Becky
 feature: Workfront Fusion
 exl-id: 35a7e906-7ca2-433d-87a9-bbb01babffb0
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
 
 # Strutture dati in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione.
+>
+>Le informazioni contenute in questo articolo sono ora disponibili nell’articolo:
+>
+>* [Crea e gestisci archivi dati](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/data-stores.html)
+>
+>Aggiorna eventuali segnalibri.
+>
+>Questo articolo non è più in fase di aggiornamento e verrà rimosso nel prossimo futuro.
 
 Una struttura dati è un documento che descrive in dettaglio il formato dei dati trasferiti a [!DNL Adobe Workfront Fusion]. In base a questo documento, l’editor di scenari è in grado di capire quale modulo restituisce o riceve quale tipo di dati. I documenti della struttura dati vengono utilizzati in genere per la serializzazione/analisi dei formati di dati come JSON, XML, CSV e altri.
 

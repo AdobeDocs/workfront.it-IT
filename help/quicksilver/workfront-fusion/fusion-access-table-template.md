@@ -4,16 +4,16 @@ product-area: workfront-integrations
 keywords: fusione
 navigation-topic: workfront-fusion-navigation-topic
 title: Modello per tabella di accesso Fusion
-description: Modello per tabella di accesso Fusion
+description: La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione. Questo articolo è stato dichiarato obsoleto, ma contiene un collegamento al nuovo articolo che descrive questa funzionalità.
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 511c0831-a23f-4fbd-8c06-e4276c1c140d
-source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '13'
+source-wordcount: '37'
 ht-degree: 0%
 
 ---

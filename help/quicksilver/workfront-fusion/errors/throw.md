@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
 title: Gestione degli errori in Adobe Workfront Fusion
-description: In alcuni casi può essere utile interrompere forzatamente l’esecuzione dello scenario seguita dalla fase di rollback o commit o interrompere l’elaborazione di una route e, facoltativamente, memorizzarla nella coda di visualizzazione e risolvere le esecuzioni incomplete in Adobe Workfront Fusion.
+description: La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione. Questo articolo è stato dichiarato obsoleto, ma contiene un collegamento al nuovo articolo che descrive questa funzionalità.
 author: Becky
 feature: Workfront Fusion
 exl-id: 6258bd4d-31a0-4fbb-b1b4-8e9a5a9dbe36
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
 # Gestione degli errori in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione.
+>
+>Le informazioni contenute in questo articolo sono ora disponibili nell’articolo:
+>
+>* [Soluzione alternativa per configurare `throw` errore](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/configure-error-handling/throw.html)
+>
+>Aggiorna eventuali segnalibri.
+>
+>Questo articolo non è più in fase di aggiornamento e verrà rimosso nel prossimo futuro.
 
 In alcuni casi, è possibile interrompere forzatamente l&#39;esecuzione dello scenario seguita da [Rollback](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback) o [Commit](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#commit) o interrompere l&#39;elaborazione di una route e, facoltativamente, archiviarla nella coda di esecuzioni incomplete.
 

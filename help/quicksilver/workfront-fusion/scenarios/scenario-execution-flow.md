@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Flusso di esecuzione dello scenario in Adobe Workfront Fusion
-description: Questo articolo spiega come viene eseguito uno scenario e come i dati scorrono attraverso di esso. Vengono inoltre illustrate le aree in cui è possibile trovare informazioni sui dati elaborati e su come leggerle.
+description: La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione. Questo articolo è stato dichiarato obsoleto, ma contiene un collegamento al nuovo articolo che descrive questa funzionalità.
 author: Becky
 feature: Workfront Fusion
 exl-id: 95c6e969-66b4-4b57-9e62-aae0cfb9bf98
-source-git-commit: 75cf9af858e90a640c45b211d36f35b684128c2f
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
 
 # Flusso di esecuzione dello scenario in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione.
+>
+>Le informazioni contenute in questo articolo sono ora disponibili nell’articolo:
+>
+>* [Flusso di esecuzione dello scenario](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/scenarios/scenario-execution-flow.html)
+>
+>Aggiorna eventuali segnalibri.
+>
+>Questo articolo non è più in fase di aggiornamento e verrà rimosso nel prossimo futuro.
 
 Questo articolo spiega come viene eseguito uno scenario e come i dati scorrono attraverso di esso. Vengono inoltre illustrate le aree in cui è possibile trovare informazioni sui dati elaborati e su come leggerle.
 

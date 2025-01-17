@@ -1,17 +1,29 @@
 ---
 title: Chiama l'API REST di MS Graph tramite il  [!DNL Adobe Workfront Fusion] HTTP &gt; Crea un modulo di richiesta OAuth 2.0
-description: Chiama l'API REST di MS Graph tramite il  [!DNL Adobe Workfront Fusion] HTTP &gt; Crea un modulo di richiesta OAuth 2.0
+description: La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione. Questo articolo è stato dichiarato obsoleto, ma contiene un collegamento al nuovo articolo che descrive questa funzionalità.
 author: Becky
 feature: Workfront Fusion
 exl-id: adae390d-8b9e-4dab-8551-605e50af5a1e
-source-git-commit: b90343eab40e91c6f5cddeaa960ce9c9c97b1d29
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '631'
 ht-degree: 1%
 
 ---
 
 # Chiama l&#39;API REST di MS Graph  tramite [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Crea una richiesta OAuth 2.0]
+
+>[!IMPORTANT]
+>
+>La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione.
+>
+>Le informazioni contenute in questo articolo sono ora disponibili nell’articolo:
+>
+>* [Chiama l&#39;API REST di MS Graph](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/call-the-ms-graph-rest-api.html)
+>
+>Aggiorna eventuali segnalibri.
+>
+>Questo articolo non è più in fase di aggiornamento e verrà rimosso nel prossimo futuro.
 
 <!-- Audited: 3/2024-->
 

@@ -3,13 +3,13 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: Aggiungere un utente a un’organizzazione in Adobe Workfront Fusion
-description: È possibile aggiungere utenti alle organizzazioni in Adobe Workfront Fusion.
+description: La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione. Questo articolo è stato dichiarato obsoleto, ma contiene un collegamento al nuovo articolo che descrive questa funzionalità.
 author: Becky
 feature: Workfront Fusion
 exl-id: 98248cca-98f5-4eb5-b203-67e261df33f1
-source-git-commit: 5cdc438c6757d438b2c09796cf77e59dc19c45d9
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,15 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
+>Questo articolo verrà rimosso nel prossimo futuro, poiché tutte le organizzazioni verranno spostate in Adobe Admin Console.
+
+>[!IMPORTANT]
+>
 >La procedura descritta in questa pagina si applica solo alle organizzazioni che non sono ancora state caricate in [!DNL Adobe Admin Console]. Se la tua organizzazione è stata integrata in [!DNL Adobe Admin Console], devi eseguire questa azione tramite [!DNL Adobe Admin Console].
 >
->Per istruzioni sull&#39;aggiunta di un utente dopo che l&#39;organizzazione è stata spostata in [!DNL  Adobe Admin Console] e l&#39;esperienza unificata di Adobe, vedi [Aggiungere utenti a [!DNL Adobe Workfront Fusion] tramite il [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md).
+>Per istruzioni sull&#39;aggiunta di un utente dopo che l&#39;organizzazione è stata spostata in [!DNL  Adobe Admin Console] e nell&#39;esperienza unificata di Adobe, vedi [Aggiungere utenti a [!DNL Adobe Workfront Fusion] tramite il [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md).
 >
->Per un elenco delle procedure che differiscono a seconda che l&#39;organizzazione sia stata integrata in Adobe Admin Console, vedere [Differenze di amministrazione basate su Platform (Adobe Workfront Fusion/Adobe Business Platform)](../../../quicksilver/workfront-fusion/fusion-in-admin-console/fusion-in-admin-console.md).
+>Per un elenco delle procedure che differiscono a seconda che l&#39;organizzazione sia stata integrata in Adobe Admin Console, vedi [Differenze di amministrazione basate su Platform (Adobe Workfront Fusion/Adobe Business Platform)](../../../quicksilver/workfront-fusion/fusion-in-admin-console/fusion-in-admin-console.md).
 
 ## Requisiti di accesso
 

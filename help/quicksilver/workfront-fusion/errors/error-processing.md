@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
 title: Errore durante l'elaborazione in [!DNL Adobe Workfront Fusion]
-description: A volte può verificarsi un errore durante l’esecuzione di uno scenario. Ciò si verifica in genere se un servizio non è disponibile a causa di un errore di connessione a un servizio o se una convalida non riesce. In questo articolo vengono descritti gli errori comuni che possono verificarsi.
+description: La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione. Questo articolo è stato dichiarato obsoleto, ma contiene un collegamento al nuovo articolo che descrive questa funzionalità.
 author: Becky
 feature: Workfront Fusion
 exl-id: 468d7460-3853-4016-bff9-b9d3b87198ed
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1276'
 ht-degree: 1%
 
 ---
 
 # Errore di elaborazione in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione.
+>
+>Le informazioni contenute in questo articolo sono ora disponibili nell’articolo:
+>
+>* [Tipi di errore](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/errors/error-processing.html)
+>
+>Aggiorna eventuali segnalibri.
+>
+>Questo articolo non è più in fase di aggiornamento e verrà rimosso nel prossimo futuro.
 
 A volte può verificarsi un errore durante l’esecuzione di uno scenario. Ciò si verifica in genere se un servizio non è disponibile a causa di un errore di connessione a un servizio o se una convalida non riesce. In questo articolo vengono descritti gli errori comuni che possono verificarsi.
 

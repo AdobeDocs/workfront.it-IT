@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: workfront-fusion-basics
 title: Modifica impostazioni profilo in [!DNL Adobe Workfront Fusion]
-description: È possibile modificare le informazioni nel profilo dell'account  [!DNL Adobe Workfront Fusion] .
+description: La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione. Questo articolo è stato dichiarato obsoleto, ma contiene un collegamento al nuovo articolo che descrive questa funzionalità.
 author: Becky
 feature: Workfront Fusion
 exl-id: 590c8549-0877-46f4-bf73-174b6b10638c
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
 
 # Modifica impostazioni profilo in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione.
+>
+>Le informazioni contenute in questo articolo sono ora disponibili nell’articolo:
+>
+>* [Modifica impostazioni profilo](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/navigate-workfront-fusion/change-profile-settings.html)
+>
+>Aggiorna eventuali segnalibri.
+>
+>Questo articolo non è più in fase di aggiornamento e verrà rimosso nel prossimo futuro.
 
 È possibile modificare le informazioni nel profilo account [!DNL Adobe Workfront Fusion].
 
@@ -62,7 +74,7 @@ La procedura per modificare l’impostazione del profilo varia a seconda che l�
 
 ### Modificare le impostazioni del profilo in Unified Shell
 
-Se la tua organizzazione si trova nell’Adobe Unified Shell, puoi accedere alle opzioni di profilo e preferenze facendo clic sull’immagine del profilo nell’area di navigazione superiore.
+Se la tua organizzazione si trova in Adobe Unified Shell, puoi accedere alle opzioni di profilo e preferenze facendo clic sull’immagine del profilo nell’area di navigazione superiore.
 
 Questo menu consente di:
 
@@ -73,7 +85,7 @@ Questo menu consente di:
 
 ### Modificare le impostazioni del profilo senza Unified Shell
 
-Per modificare le informazioni nel profilo dell’account in organizzazioni che non utilizzano l’Adobe Unified ShellS:
+Per modificare le informazioni nel profilo dell’account in organizzazioni che non utilizzano Adobe Unified Shell:
 
 1. Fai clic sul tuo avatar nella parte inferiore del pannello a sinistra, quindi fai clic su **[!UICONTROL Profilo]**.
 1. Fai clic su: **[!UICONTROL Opzioni generali]**, quindi modifica una delle seguenti opzioni:

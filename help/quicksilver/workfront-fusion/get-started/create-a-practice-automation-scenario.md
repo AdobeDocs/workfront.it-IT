@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Crea uno scenario di automazione dell'esercitazione in [!DNL Adobe Workfront Fusion]
-description: Questo articolo descrive come creare uno scenario di automazione con Adobe Workfront Fusion. Gli scenari di automazione automatizzano i processi Workfront, inclusa la manipolazione e la trasformazione dei dati. In questo esempio viene illustrato il processo di creazione di uno scenario in cui viene eseguita la ricerca di un progetto e vengono quindi restituite tutte le attività associate a tale progetto.
+description: La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione. Questo articolo è stato dichiarato obsoleto, ma contiene un collegamento al nuovo articolo che descrive questa funzionalità.
 author: Becky
 feature: Workfront Fusion
 exl-id: f6a6eb28-9b0b-48ea-af11-f55009a01178
-source-git-commit: 8769ed5844e340e007f844370791e93393696819
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1536'
+source-wordcount: '1562'
 ht-degree: 0%
 
 ---
 
 # Crea uno scenario di automazione dell&#39;esercitazione in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione.
+>
+>Le informazioni contenute in questo articolo sono ora disponibili nell’articolo:
+>
+>* [Flusso di lavoro per la creazione di uno scenario](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/create-a-scenario-workflow.html)
+>
+>Aggiorna eventuali segnalibri.
+>
+>Questo articolo non è più in fase di aggiornamento e verrà rimosso nel prossimo futuro.
 
 Gli scenari di automazione automatizzano i processi Workfront, inclusa la manipolazione e la trasformazione dei dati. Questo articolo illustra il processo di creazione di uno scenario che cerca un progetto e quindi restituisce tutte le attività associate a tale progetto.
 
@@ -56,8 +68,8 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
     <tr>  
       <td>Prodotto</td>  
       <td> 
-        Nuovo: Seleziona o imposta il piano Workfront: la tua organizzazione deve acquistare Adobe Workfront Fusion.<br>
-        Ultimate Workfront Plan: Workfront Fusion è incluso.<br>
+        Nuovo: selezionare o Prime Workfront Plan: l’organizzazione deve acquistare Adobe Workfront Fusion.<br>
+        Piano Ultimate Workfront: Workfront Fusion è incluso.<br>
         Oppure<br>
         Corrente: la tua organizzazione deve acquistare Adobe Workfront Fusion.
       </td>  

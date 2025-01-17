@@ -2,19 +2,23 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: "Esempio di scenario Adobe Workfront Fusion: connettere e-mail, parser di testo e fogli di Google"
-description: Questo scenario consente di creare un registro di tutti i messaggi e-mail e di assegnarvi tag per ulteriori azioni in un foglio di calcolo. Acquisisce il corpo di un’e-mail in due tabelle separate in un foglio di calcolo utilizzando Espressioni regolari (Regex) come pattern di ricerca. Il primo modello cerca una frase, mentre il secondo cerca la stessa frase e un indirizzo e-mail.
+title: 'Esempio di scenario Adobe Workfront Fusion: connessione di e-mail, parser di testo e fogli Google'
+description: La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione. Questo articolo è stato dichiarato obsoleto.
 author: Becky
 feature: Workfront Fusion
 exl-id: ebcfa3b9-3207-441c-9ce5-9af696c0119d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
 
 # Esempio di scenario [!DNL Adobe Workfront Fusion]: Connect email, [!UICONTROL Text Parser] e [!DNL Google Sheets]
+
+>[!IMPORTANT]
+>
+>Questo articolo verrà rimosso a breve.
 
 Questo scenario consente di creare un registro di tutti i messaggi e-mail e di assegnarvi tag per ulteriori azioni in un foglio di calcolo. Acquisisce il corpo di un’e-mail in due tabelle separate in un foglio di calcolo utilizzando Espressioni regolari (Regex) come pattern di ricerca. Il primo modello cerca una frase, mentre il secondo cerca la stessa frase e un indirizzo e-mail.
 

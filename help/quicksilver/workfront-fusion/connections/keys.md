@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
 title: Chiavi in Adobe Workfront Fusion
-description: Il portachiavi in [!DNL Adobe Workfront Fusion] ti aiuterà ad amministrare le chiavi pubbliche e private. Le chiavi vengono utilizzate, ad esempio, dall'app Encryptor per crittografare o decrittografare i messaggi PGP.
+description: La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione. Questo articolo è stato dichiarato obsoleto, ma contiene un collegamento al nuovo articolo che descrive questa funzionalità.
 author: Becky
 feature: Workfront Fusion
 exl-id: a36947aa-c218-4ff0-879c-2041c3cccae0
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 0%
+source-wordcount: '264'
+ht-degree: 1%
 
 ---
 
 # Chiavi in Adobe Workfront Fusion
+
+>[!IMPORTANT]
+>
+>La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione.
+>
+>Le informazioni contenute in questo articolo sono ora disponibili nell’articolo:
+>
+>* [Chiavi](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/modules/keys.html)
+>
+>Aggiorna eventuali segnalibri.
+>
+>Questo articolo non è più in fase di aggiornamento e verrà rimosso nel prossimo futuro.
 
 Il portachiavi in [!DNL Adobe Workfront Fusion] ti aiuterà ad amministrare le chiavi pubbliche e private. Le chiavi vengono utilizzate, ad esempio, dall&#39;app [!UICONTROL Encryptor] per crittografare o decrittografare i messaggi PGP.
 

@@ -5,19 +5,31 @@ product-area: workfront-integrations
 keywords: connettore
 navigation-topic: workfront-fusion-2-0
 title: App e relativi moduli
-description: Adobe Workfront Fusion offre attualmente connettori dedicati per le app elencate in questo elenco. Se l’app che desideri utilizzare non è presente in questo elenco, puoi connetterti utilizzando i moduli HTTP, SOAP o JSON.
+description: La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione. Questo articolo è stato dichiarato obsoleto, ma contiene un collegamento al nuovo articolo che descrive questa funzionalità.
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: 5b24a91a9ea5dadb071dfdd88d9f80b2589a1323
+source-git-commit: 3983d811a849c01b3c34b1cd6ee895e5552225a6
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 19%
+source-wordcount: '275'
+ht-degree: 16%
 
 ---
 
 # App e relativi moduli
+
+>[!IMPORTANT]
+>
+>La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione.
+>
+>Le informazioni contenute in questo articolo sono ora disponibili nell’articolo:
+>
+>* [Riferimenti alle applicazioni Fusion e ai relativi moduli: indice articolo](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/apps-and-modules-toc.html)
+>
+>Aggiorna eventuali segnalibri.
+>
+>Questo articolo non è più in fase di aggiornamento e verrà rimosso nel prossimo futuro.
 
 >[!IMPORTANT]
 >

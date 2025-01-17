@@ -3,18 +3,31 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
 title: Panoramica delle connessioni
-description: Per la maggior parte delle app, è necessario creare una connessione, attraverso la quale [!DNL Adobe Workfront Fusion] può comunicare con il servizio di terze parti specificato in base alle impostazioni dello scenario specifico.
+description: La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione. Questo articolo è stato dichiarato obsoleto, ma contiene un collegamento al nuovo articolo che descrive questa funzionalità.
 author: Becky
 feature: Workfront Fusion
 exl-id: 2d5cf083-9893-45e8-8f7d-0f8f5a74eef3
-source-git-commit: b90343eab40e91c6f5cddeaa960ce9c9c97b1d29
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
 
 # Panoramica delle connessioni
+
+>[!IMPORTANT]
+>
+>La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione.
+>
+>Le informazioni contenute in questo articolo sono ora disponibili negli articoli:
+>
+>* [Panoramica connessione](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/connection-overview.html)
+>* [Gestione connessioni](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/manage-connections.html)
+>
+>Aggiorna eventuali segnalibri.
+>
+>Questo articolo non è più in fase di aggiornamento e verrà rimosso nel prossimo futuro.
 
 <!-- Audited: 3/2024-->
 
@@ -24,7 +37,7 @@ Ad esempio, se si desidera creare uno scenario che recuperi informazioni da [!DN
 
 Una connessione rappresenta l&#39;autorizzazione e le autorizzazioni utilizzate da Fusion per accedere all&#39;applicazione. È possibile creare una o più connessioni per ogni applicazione e utilizzare la stessa connessione in più moduli o scenari.
 
-La maggior parte delle connessioni viene utilizzata solo per una singola applicazione. Ad esempio, non è possibile utilizzare una connessione [!DNL Workfront] in un modulo [!UICONTROL Salesforce]. Alcune applicazioni di [!DNL Adobe] possono condividere le connessioni. Per informazioni dettagliate, vedere gli articoli relativi alle applicazioni elencate in [App e relativi moduli](/help/quicksilver/workfront-fusion/apps-and-their-modules/apps-and-their-modules.md).
+La maggior parte delle connessioni viene utilizzata solo per una singola applicazione. Impossibile ad esempio utilizzare una connessione [!DNL Workfront] in un modulo [!UICONTROL Salesforce]. Alcune applicazioni di [!DNL Adobe] possono condividere le connessioni. Per informazioni dettagliate, vedere gli articoli relativi alle applicazioni elencate in [App e relativi moduli](/help/quicksilver/workfront-fusion/apps-and-their-modules/apps-and-their-modules.md).
 
 Le connessioni vengono gestite a livello di team. Tutti i membri di un team hanno accesso alle connessioni del team e gli utenti all&#39;esterno di un team non hanno accesso alle connessioni del team.
 

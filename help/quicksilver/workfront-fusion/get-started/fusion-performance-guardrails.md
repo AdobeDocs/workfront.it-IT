@@ -4,18 +4,30 @@ product-area: workfront-integrations
 keywords: scenario,prestazioni
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Guardrail delle prestazioni di Adobe Workfront Fusion
-description: Adobe Workfront Fusion richiede una licenza Adobe Workfront Fusion oltre a una licenza Adobe Workfront.
+description: La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione. Questo articolo è stato dichiarato obsoleto, ma contiene un collegamento al nuovo articolo che descrive questa funzionalità.
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: 7c27dc98c4ce59d598be537a1f09c6eddf9bce42
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 0%
+source-wordcount: '765'
+ht-degree: 1%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] guardrail delle prestazioni
+
+>[!IMPORTANT]
+>
+>La documentazione di Adobe Workfront Fusion è stata spostata in una nuova posizione.
+>
+>Le informazioni contenute in questo articolo sono ora disponibili nell’articolo:
+>
+>* [Guardrail per le prestazioni di Adobe Workfront Fusion](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/scenarios/fusion-performance-guardrails.html)
+>
+>Aggiorna eventuali segnalibri.
+>
+>Questo articolo non è più in fase di aggiornamento e verrà rimosso nel prossimo futuro.
 
 >[!NOTE]
 >
@@ -50,7 +62,7 @@ L&#39;automazione del lavoro richiede una rapida elaborazione, quindi [!DNL Adob
 ## File
 
 * La capacità di elaborazione totale di Fusion per i file è **1 GB**. Il limite si basa sul costo totale della memoria. Ogni operazione contribuisce a tale costo. Se viene scaricato e caricato un singolo file di 400 MB, il costo totale per la capacità del file sarebbe di 800 MB.
-* Le organizzazioni che aderiscono al piano Workfront Ultimate possono accedere a una maggiore capacità di elaborazione dei file oltre 1 GB. La piattaforma Fusion può supportare singoli file fino a 15 GB per una singola azione (ad esempio, caricamento di file), ma ci sono altri fattori che influiscono sul trasferimento dei dati. Il limite di dimensione file per una singola azione dipende dal servizio web a cui Fusion si connette. Il trasferimento di dati è l’elaborazione totale per una singola esecuzione. Ciò significa che più azioni in una singola esecuzione contribuiscono al trasferimento totale dei dati. Fusion elaborerà i file fino al raggiungimento del limite di esecuzione di 40 minuti.
+* Le organizzazioni che aderiscono al piano Workfront Ultimate hanno accesso a una maggiore capacità di elaborazione dei file superiore a 1 GB. La piattaforma Fusion può supportare singoli file fino a 15 GB per una singola azione (ad esempio, caricamento di file), ma ci sono altri fattori che influiscono sul trasferimento dei dati. Il limite di dimensione file per una singola azione dipende dal servizio web a cui Fusion si connette. Il trasferimento di dati è l’elaborazione totale per una singola esecuzione. Ciò significa che più azioni in una singola esecuzione contribuiscono al trasferimento totale dei dati. Fusion elaborerà i file fino al raggiungimento del limite di esecuzione di 40 minuti.
 
   Per ulteriori informazioni, vedere [Utilizzo di file di grandi dimensioni in Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/fusion-large-files.md).
 
