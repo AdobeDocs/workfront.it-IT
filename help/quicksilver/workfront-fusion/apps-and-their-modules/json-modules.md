@@ -100,7 +100,7 @@ Se il campo stringa JSON contiene una raccolta `{ ... }`, l&#39;output è un sin
 >       "name" : "Peter",
 >
 >    
-   "ID" : 1
+>   "ID" : 1
 >}
 >```
 >
@@ -120,7 +120,7 @@ Se il campo stringa JSON contiene un array `[ ... ]`, l&#39;output è una serie 
 >   },
 >
 >  
- {
+> {
 >       "name" : "Mike",
 >       "ID" : 2
 >   }
@@ -258,27 +258,28 @@ Questo modulo di azione trasforma un oggetto in una stringa json.
 >
 1. Connetti [!UICONTROL JSON] > [!UICONTROL Crea modulo JSON] dopo il modulo [!UICONTROL Array Aggregator]. La configurazione del modulo richiede una struttura dati che descriva il formato JSON. Fai clic su **[!UICONTROL Aggiungi]** per aprire la configurazione della struttura dati. Il modo più semplice per creare questa struttura dati è generarla automaticamente da un campione JSON. Fai clic su **[!UICONTROL Generatore]** e incolla il tuo esempio JSON nel campo **[!UICONTROL Dati di esempio]**:
 >
-**Esempio:**
+>     **Esempio:**
 >
-```
-{
-
-"books": [
-
-{
-
-"id": "ID",
-
-"title": "Title",
-
-"author": "Author"
-
-}
-
-]
-
-}
-```
+>     ```
+>     {
+>     
+>     "books": [
+>     
+>     {
+>     
+>     "id": "ID",
+>     
+>     "title": "Title",
+>     
+>     "author": "Author"
+>     
+>     }
+>     
+>     ]
+>     
+>     }
+>     
+>     ```
 >
 1. Fai clic su **[!UICONTROL Salva]**. Il campo [!UICONTROL Specifica] nella struttura dati contiene ora la struttura generata.
 1. Modifica il nome della struttura dati specificando qualcosa di più specifico e fai clic su **[!UICONTROL Salva]**. Un campo corrispondente all’attributo dell’array principale viene visualizzato come campo mappabile nella configurazione del modulo JSON.
