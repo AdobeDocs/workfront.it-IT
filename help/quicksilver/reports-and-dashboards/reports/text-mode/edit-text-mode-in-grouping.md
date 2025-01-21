@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Modificare un raggruppamento utilizzando la modalità testo
-description: 'NOTA: rendi tutti gli articoli FVG uguali per la modifica in modalità testo)'
+description: È possibile modificare un raggruppamento in un elenco o in un report utilizzando la modalità testo per accedere a campi non disponibili nell’interfaccia standard e creare raggruppamenti più complessi.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
-source-wordcount: '1520'
+source-wordcount: '1537'
 ht-degree: 0%
 
 ---

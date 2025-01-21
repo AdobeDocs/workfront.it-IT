@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
-source-wordcount: '2207'
+source-wordcount: '2193'
 ht-degree: 0%
 
 ---
@@ -341,7 +341,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                             <p>Produzione per rilascio rapido: con la versione 24.5 (16 maggio 2024)</p>
                         </li>
                     </ul>
-                <p><i>Questa funzione verrà rimossa da Anteprima il 19 dicembre 2024 e da Produzione a rilascio rapido con 25.1 (gennaio 2025).</i></p>
+                <p><i>Questa funzione è stata rimossa dall’anteprima e dalla produzione con rilascio rapido.</i></p>
                 </td>
             </tr>
             <tr>
@@ -359,7 +359,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                             <p>Produzione per rilascio rapido: con la versione 24.5 (16 maggio 2024)</p>
                         </li>
                     </ul>
-                <p><i>Questa funzione verrà rimossa da Anteprima il 19 dicembre 2024 e da Produzione a rilascio rapido con 25.1 (gennaio 2025).</i></p>
+                <p><i>Questa funzione è stata rimossa dall’anteprima e dalla produzione con rilascio rapido.</i></p>
                 </td>
             </tr>
         </tbody>

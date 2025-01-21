@@ -7,7 +7,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 6d90f544b73f79b545fbcafbc18d7a653554d75f
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 2%
@@ -44,15 +44,6 @@ Questo aggiornamento include modifiche visive all’area. Nessuna funzionalità 
 
 ## Report e dashboard
 
-### Modalità testo per filtri e raggruppamenti
-
-**Anteprima versione: 9 gennaio 2025; produzione versione: a partire dal 9 gennaio 2025**
-
-È stato aggiunto un nuovo pulsante Modifica modalità testo e la modifica modale nelle seguenti aree:
-
-* Filtri legacy
-* Raggruppamenti
-
 ### Rapporti di approvazione aggiornati con nuovo stile
 
 **Anteprima versione: 16 gennaio 2025; versione di produzione: da definire**
@@ -64,3 +55,12 @@ Abbiamo aggiornato l’interfaccia dei seguenti rapporti di approvazione:
 * Rapporto del processo di approvazione
 
 Questi aggiornamenti includono modifiche visive all’area. Nessuna funzionalità è stata modificata.
+
+### Modalità testo per filtri e raggruppamenti
+
+**Anteprima versione: 9 gennaio 2025; produzione versione: a partire dal 9 gennaio 2025**
+
+È stato aggiunto un nuovo pulsante Modifica modalità testo e la modifica modale nelle seguenti aree:
+
+* Filtri legacy
+* Raggruppamenti

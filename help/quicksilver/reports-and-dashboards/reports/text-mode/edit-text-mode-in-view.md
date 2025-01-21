@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Modificare una vista utilizzando la modalità testo
-description: 'NOTA: aggiungi una sezione in questo articolo: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html *** Inoltre, crea un''area in modalità testo (articolo Panoramica)'
+description: È possibile modificare una visualizzazione in un elenco o in un report utilizzando la modalità testo per accedere a campi non disponibili nell'interfaccia standard e creare visualizzazioni più complesse.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '459'
 ht-degree: 2%
 
 ---
