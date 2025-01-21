@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
-source-git-commit: 77c07c7c7104d37360cc7630a89dd72836da477c
+source-git-commit: 074f78e27d2ab1cb1d1b8216f14557b91d9afd00
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '973'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Contatta il supporto Workfront. Per informazioni su come contattare il supporto,
 
 ## Quali diversi tipi di autenticazione è possibile utilizzare con gli abbonamenti agli eventi di Workfront?
 
-Puoi utilizzare qualsiasi autenticazione che utilizza un token Bearer. Il campo **authToken** di una sottoscrizione è una stringa che rappresenta un token Bearer OAuth2 utilizzato per l&#39;autenticazione con l&#39;URL specificato nel campo **url**. In teoria, questo valore di token potrebbe essere qualsiasi cosa, purché l&#39;endpoint di destinazione sia consapevole di come gestire la propria codifica, che è **utf-8**.
+Puoi utilizzare qualsiasi autenticazione che utilizza un token Bearer. Il campo **authToken** di una sottoscrizione è una stringa che rappresenta un token Bearer OAuth2 utilizzato per l&#39;autenticazione con l&#39;URL specificato nel campo **url**. In teoria, questo valore di token potrebbe essere inferiore a 255 caratteri, purché l&#39;endpoint di destinazione sappia come gestire la relativa codifica, ovvero **utf-8**.
 
 ## Quanto tempo deve trascorrere prima che io riceva il payload dell’evento da Workfront Event Subscriptions?
 
