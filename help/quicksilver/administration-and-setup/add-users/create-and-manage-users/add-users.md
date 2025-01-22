@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1128'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 >
 >Se la tua organizzazione è stata integrata in Adobe Admin Console, devi creare gli amministratori di sistema tramite Adobe Admin Console.
 >
->Per istruzioni sulla creazione degli amministratori di sistema in Adobe Admin Console, vedere [Gestire gli amministratori di sistema in Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+>Per istruzioni sulla creazione di amministratori di sistema in Adobe Admin Console, vedere [Gestione degli utenti in Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
 >Gli amministratori di gruppi nelle organizzazioni che hanno effettuato l’onboarding in Adobe Admin Console possono utilizzare questa procedura per creare utenti e inviare l’utente per l’approvazione dell’amministratore.
 >
@@ -122,7 +122,7 @@ Prima di aggiungere un utente, raccogliere le informazioni sull&#39;utente elenc
    >
    * Se la tua organizzazione è stata integrata nell’Admin Console e aggiungi un utente tramite Workfront, non puoi inviare un invito e-mail.
    >
-   Per gli Adobi esistenti, l’utente potrebbe ricevere o meno un’e-mail sulla disponibilità di Workfront. Questa è una preferenza controllata dall’amministratore di Adobe per il prodotto.
+   Per gli utenti esistenti di Adobe, l’utente può ricevere o meno un’e-mail sulla disponibilità di Workfront. Questa è una preferenza controllata dall’amministratore di Adobe per il prodotto.
 
 1. Fai clic su **Aggiungi questa persona**.
 
@@ -170,4 +170,4 @@ Se hai selezionato l’opzione per inviare un invito all’utente, questo dovreb
 >
 Se la tua organizzazione è stata integrata nell’Admin Console e aggiungi un utente tramite Workfront, non puoi inviare un invito e-mail.
 >
-Per gli Adobi esistenti, l’utente potrebbe ricevere o meno un’e-mail sulla disponibilità di Workfront. Questa è una preferenza controllata dall’amministratore di Adobe per il prodotto.
+Per gli utenti esistenti di Adobe, l’utente può ricevere o meno un’e-mail sulla disponibilità di Workfront. Questa è una preferenza controllata dall’amministratore di Adobe per il prodotto.

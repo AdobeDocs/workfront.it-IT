@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
 title: Differenze di amministrazione basate sulla piattaforma (Adobe Workfront/Adobe Business Platform)
-description: Se la tua organizzazione è stata integrata in Adobe Business Platform, gli utenti utilizzano Adobe Business Platform per accedere ad Adobe Workfront. Ciò significa che la gestione degli utenti viene in gran parte eseguita tramite Adobe Admin Console e che il Single Sign-On (SSO) viene gestito tramite Adobe Business Platform anziché tramite Workfront. In qualità di amministratore di Adobe Workfront, le responsabilità e le procedure di amministrazione variano a seconda che l’organizzazione sia stata integrata o meno in Adobe Business Platform. In questo articolo sono elencate le procedure che devono essere gestite in modo diverso e sono disponibili collegamenti alle istruzioni per Workfront e Adobe Admin Console.
+description: Se per la tua organizzazione è stato eseguito l’onboarding in Adobe Business Platform, gli utenti utilizzano Adobe Business Platform per accedere ad Adobe Workfront. Ciò significa che la gestione degli utenti viene in gran parte eseguita tramite Adobe Admin Console e che il Single Sign-On (SSO) viene gestito tramite la piattaforma aziendale di Adobe anziché tramite Workfront. In qualità di amministratore di Adobe Workfront, le responsabilità e le procedure di amministrazione variano a seconda che l’organizzazione sia stata integrata o meno in Adobe Business Platform. In questo articolo sono elencate le procedure che devono essere gestite in modo diverso e sono disponibili collegamenti alle istruzioni per Workfront e Adobe Admin Console.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a84a5a8d-7c2a-4b51-a614-91a6dc9aa4ed
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 In qualità di amministratore di Adobe Workfront, le responsabilità e le procedure di amministrazione possono variare a seconda che l’organizzazione sia stata integrata o meno in Adobe Business Platform. In questo articolo sono elencate le procedure gestite in modo diverso e sono presenti collegamenti alle istruzioni per Workfront e Adobe Admin Console.
 
-Se la tua organizzazione è stata integrata in Adobe Business Platform, gli utenti utilizzano Adobe Business Platform per accedere ad Adobe Workfront. Ciò significa che:
+Se per la tua organizzazione è stato eseguito l’onboarding in Adobe Business Platform, gli utenti utilizzano Adobe Business Platform per accedere ad Adobe Workfront. Ciò significa che:
 
 * Gli amministratori di sistema vengono creati tramite Adobe Admin Console
 * Il rinnovo di un certificato SAML viene gestito tramite Adobe Admin Console.
@@ -31,7 +31,7 @@ Se la tua organizzazione è stata integrata in Adobe Business Platform, gli uten
 >
 >È consigliabile aggiungere utenti non amministratori di sistema direttamente in Workfront. È possibile aggiungere utenti in Adobe Admin Console, ma aggiungerli in Workfront consente di impostarne il livello di accesso durante la creazione, con un conseguente risparmio di tempo.
 
-Per istruzioni sulla creazione degli amministratori di sistema di Workfront, vedere [Gestire gli amministratori di sistema in Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+Per istruzioni sulla creazione degli amministratori di sistema di Workfront, vedere [Gestione degli utenti in Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
 <!--
 <table style="table-layout:auto"> 
@@ -182,7 +182,7 @@ Per istruzioni sul rinnovo del certificato SAML sul Adobe Admin Console, vedere 
 
 ## SSO (Single Sign-On)
 
-Poiché Adobe Business Platform controlla il Single Sign-On (SSO) per gli utenti, le azioni e le funzionalità seguenti vengono gestite automaticamente tramite Adobe Business Platform. Se la tua organizzazione non è ancora stata integrata in Adobe Business Platform, devi eseguire queste azioni in Workfront.
+Poiché la piattaforma Adobe Business controlla il Single Sign-On (SSO) per gli utenti, le azioni e le funzionalità seguenti vengono gestite automaticamente tramite la piattaforma Adobe Business. Se la tua organizzazione non è ancora stata integrata in Adobe Business Platform, devi eseguire queste azioni in Workfront.
 
 
 * [Configura Adobe Workfront con SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)

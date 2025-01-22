@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1553'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Crea record
 
-<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -32,7 +32,7 @@ In Adobe Workfront Planning, un record è un&#39;istanza di un tipo di record.
 * [Duplicare record da una vista tabella](#create-records-by-duplicating-them)
 * [Crea record durante la connessione da altri record](#create-records-as-you-connect-them)
 * [Per crearli, inviare un modulo di richiesta a un tipo di record](#create-records-by-submitting-a-request-form-to-a-record-type)
-* <span class="preview">[Crea record durante l&#39;importazione di tipi di record da un file CSV o Excel](#create-records-when-importing-record-types-from-a-csv-or-excel-file)</span>
+* [Creare record durante l&#39;importazione di tipi di record da un file CSV o Excel](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
 
 
 Per informazioni sulla gestione dei record nelle viste tabella o sequenza temporale, vedere gli articoli seguenti:
@@ -233,34 +233,46 @@ Per informazioni sulla duplicazione dei record, vedere [Record duplicati](/help/
 
 ## Creare i record durante la connessione
 
-È possibile creare record o oggetti Workfront quando vengono collegati da altri record.
+È possibile creare i seguenti tipi di oggetto quando si collegano da altri record:
 
-Prima di aggiungere nuovi record o oggetti Workfront collegandoli da record esistenti, è necessario disporre dei seguenti elementi:
+* Record di Workfront Planning
+* Oggetti Workfront
 
-* Tipi di record collegati. Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).
-* Record collegati. Per informazioni, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md).
-* L&#39;accesso e le autorizzazioni corretti in Workfront Planning e Workfront, come descritto nella sezione [Requisiti di accesso](#access-requirements) in questo articolo.
+In questa sezione viene descritto come creare record di Workfront Planning durante la connessione da altri record.
 
 >[!NOTE]
 >
 >La creazione di progetti e portafogli di Workfront quando vengono collegati ai record di Workfront Planning è simile alla creazione di record di Planning quando vengono collegati da altri record.
+>
+>Per informazioni sulla creazione di oggetti Workfront da Workfront Planning, vedere [Creare oggetti Workfront da Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
+
+Prima di poter aggiungere nuovi record collegandoli da quelli esistenti, è necessario disporre dei seguenti elementi:
+
+* Tipi di record collegati. Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Record.
+* L&#39;accesso e le autorizzazioni corretti in Workfront Planning e Workfront, come descritto nella sezione [Requisiti di accesso](#access-requirements) in questo articolo.
 
 Per creare i record durante la connessione da altri record:
 
-1. Avviare la connessione dei record di Workfront Planning, come descritto nell&#39;articolo [Connetti record](/help/quicksilver/planning/records/connect-records.md).
-1. (Condizionale) Se non è possibile trovare un record quando si tenta di aggiungerlo dal campo record connesso di un altro record, cercare un record, quindi fare clic su **+ Aggiungi**. Il pulsante **+ Aggiungi** è seguito dal nome del tipo di record da cui si sta effettuando la connessione.
+1. Avviare la connessione dei record di Workfront Planning, come descritto nell&#39;articolo [Connetti record](/help/quicksilver/planning/records/connect-records.md). È possibile collegare record da un campo di connessione nelle seguenti aree di Workfront Planning:
+
+   * Vista tabella
+   * Pagina dei dettagli o casella di anteprima di un record
+
+1. (Condizionale) Se non è possibile trovare un record quando si tenta di aggiungerlo dal campo record connesso di un altro record, cercare un record, quindi fare clic su **+ Aggiungi**. Il pulsante **+ Aggiungi** è seguito dal nome del tipo di record a cui ti stai connettendo. Ad esempio, &quot;Aggiungi marchi&quot; quando si aggiunge un marchio a una campagna esistente.
 
    ![](assets/add-button-to-create-records-in-context-highlighted.png)
 
    Il record viene creato e aggiunto al campo record connesso.
 
-   >[!IMPORTANT]
-   >
-   >* Puoi creare solo progetti e portfolio in Workfront quando li connetti da un record.
-   >
-   >* Non è possibile creare programmi, gruppi o società quando si collegano da un record in Workfront Planning.
-   >
-   >* Non è possibile creare un progetto da un modello quando si creano progetti collegandoli da un record. È necessario aggiungere manualmente le attività e le informazioni di progetto o un modello al nuovo progetto dopo averlo aggiunto al record.
+   <!--
+    >[!IMPORTANT]
+    >
+    >* You can create only projects and portfolios in Workfront when connecting them from a record. 
+    >
+    >* You cannot create programs, groups, or companies when connecting them from a record in Workfront Planning. 
+    >
+    >* You cannot create a project from a template when when you create projects by connecting them from a record. You must manually add tasks and project information or a template to the new project after you add it to the record. -->
 
 1. (Facoltativo) Passare alla visualizzazione tabella del tipo di record di cui è stato creato il record. Nell&#39;ultima riga della visualizzazione viene visualizzato un nuovo record.
 1. (Facoltativo) Inizia ad aggiungere informazioni per il nuovo record nella vista tabella
@@ -277,12 +289,9 @@ Sia gli utenti di Workfront che quelli esterni all&#39;organizzazione possono in
 
 Per informazioni, vedere [Inviare le richieste di Adobe Workfront Planning per la creazione di record](/help/quicksilver/planning/requests/submit-requests.md).
 
-<div class="preview">
-
 ## Creare record durante l&#39;importazione di tipi di record da un file CSV o Excel
 
 È possibile importare record quando si importano tipi di record utilizzando un file CSV o Excel.
 
 Per informazioni, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
 
-</div>

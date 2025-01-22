@@ -5,14 +5,14 @@ content-type: reference
 product-area: system-administration;workfront-integrations
 navigation-topic: adobe-admin-console
 title: Preparare l’onboarding dell’organizzazione in Adobe Admin Console
-description: Poiché Adobe Workfront è un prodotto di Adobe, puoi accedervi tramite Adobe Admin Console. Questo consente di gestire Workfront insieme ad altri account e prodotti di Adobe per i tuoi utenti da una posizione centrale.
+description: Poiché Adobe Workfront è un prodotto Adobe, puoi accedervi tramite Adobe Admin Console. Questo consente di gestire Workfront insieme ad altri account e prodotti Adobe per i tuoi utenti da una posizione centrale.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d9b5e4a1-069e-48be-80d0-84f4bf8aea8b
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
-Poiché Adobe Workfront è un prodotto di Adobe, puoi accedervi tramite Adobe Admin Console. Questo consente di gestire Workfront insieme ad altri account e prodotti di Adobe per i tuoi utenti da una posizione centrale.
+Poiché Adobe Workfront è un prodotto Adobe, puoi accedervi tramite Adobe Admin Console. Questo consente di gestire Workfront insieme ad altri account e prodotti Adobe per i tuoi utenti da una posizione centrale.
 
 Tutti i clienti Workfront verranno infine trasferiti a Adobe Admin Console. Dopo il passaggio dell’organizzazione a Adobe Admin Console, l’autenticazione Workfront viene gestita dalla console. La preparazione e la realizzazione di questo passo in tempi più brevi pongono le basi per l&#39;efficienza nella gestione del lavoro e posizionano la tua organizzazione per un&#39;innovazione più rapida in futuro
 
@@ -35,7 +35,7 @@ Per garantire che la tua organizzazione possa migrare al Adobe Admin Console, de
 
    * Se la tua organizzazione non dispone di un Adobe Admin Console esistente o se non desideri utilizzare un Adobe Admin Console esistente, il supporto Workfront può aiutarti a crearne uno nuovo.
 
-   * Se disponi di più Admin Console di Adobe e non sei sicuro di quale sia più appropriato aggiungere Workfront a, contatta il supporto Workfront.
+   * Adobe Se disponi di più Admin Console e non sai quale sia più appropriato aggiungere Workfront a, contatta il supporto Workfront.
 
 1. Confermare con il Supporto Workfront che si desidera utilizzare un Adobe Admin Console esistente o crearne uno nuovo.
 
@@ -85,6 +85,6 @@ Per garantire che la tua organizzazione possa migrare al Adobe Admin Console, de
 
 Dopo aver configurato Adobe Admin Console con Workfront, puoi utilizzarlo per creare gli amministratori di sistema di Workfront.
 
-Per ulteriori informazioni, vedere [Gestire gli amministratori di sistema in Adobe Admin Console](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+Per ulteriori informazioni, vedere [Gestione degli utenti in Adobe Admin Console](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
 Per un elenco di altre azioni diverse a seconda che l&#39;organizzazione sia stata integrata in Adobe Admin Console, consulta [Differenze di amministrazione basate su Platform (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '2928'
+source-wordcount: '2912'
 ht-degree: 1%
 
 ---
@@ -228,7 +228,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Il campo record collegato **Campagna** visualizza i nomi delle campagne collegate ai prodotti nella pagina Tipo record prodotto. L’aggiornamento delle informazioni della campagna aggiorna automaticamente il campo del record collegato della campagna per il tipo di record Prodotto.
 
-### Collegare i record di Adobe Workfront Planning agli oggetti di Workfront dalla vista tabella o dalla scheda Dettagli della pagina record
+### Collegare i record di Adobe Workfront Planning agli oggetti di Workfront dalla vista tabella o dalla pagina dei dettagli di un record
 
 <!--when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications-->
 
@@ -264,7 +264,7 @@ Dopo aver creato una connessione tra un tipo di record e un tipo di oggetto Work
 
 1. (Facoltativo) Se non riesci a trovare un oggetto da connettere e vuoi aggiungerlo, fai clic su **+ Aggiungi** per creare e aggiungere un nuovo progetto o portfolio.
 
-   È possibile aggiungere progetti senza un modello o portafogli solo quando si collegano ai record di Planning. Non è possibile aggiungere nuovi programmi, gruppi o società.
+   Per informazioni, vedere [Creare oggetti Workfront da Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 
 1. (Facoltativo) Fai clic su **Visualizza tutti** per visualizzare tutti gli oggetti per i quali disponi almeno delle autorizzazioni di visualizzazione.
 

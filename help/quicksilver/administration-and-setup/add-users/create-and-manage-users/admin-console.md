@@ -5,14 +5,18 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
 
-# Gestire gli amministratori di sistema in Adobe Admin Console
+# Gestione degli utenti in Adobe Admin Console
+
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 >[!IMPORTANT]
 >
@@ -20,11 +24,15 @@ ht-degree: 0%
 >
 >Per un elenco delle procedure che differiscono a seconda che l&#39;organizzazione sia stata integrata o meno in Adobe Business Platform, consulta [Differenze di amministrazione basate su Platform (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-In qualità di amministratore di Adobe, puoi creare amministratori di sistema di Adobe Workfront utilizzando Adobe Admin Console. La console è una posizione centrale per la gestione dei diritti Adobi in tutta l’organizzazione. Per ulteriori informazioni, vedere [Panoramica Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html).
+In qualità di amministratore di Adobe, puoi creare amministratori di sistema di Adobe Workfront utilizzando Adobe Admin Console. La console è una posizione centrale per la gestione dei diritti Adobe in tutta l’organizzazione. Per ulteriori informazioni, vedere [Panoramica Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html).
 
 >[!NOTE]
 >
 >È consigliabile aggiungere utenti non amministratori di sistema direttamente in Workfront. È possibile aggiungere utenti in Adobe Admin Console, ma aggiungerli in Workfront consente di impostarne il livello di accesso durante la creazione, con un conseguente risparmio di tempo.
+
+<!--
+<span class="preview">When making any changes to users from the Admin Console, an update is added to the System activity tab of the user in Workfront indicating that there is an update from the "System". This refers to the Adobe Admin Console administrator and not to the Workfront main Administrator.</span> 
+-->
 
 ## Requisiti di accesso
 
@@ -43,8 +51,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Diritti di amministratore Adobe</td> 
-   <td> <p>Devi essere amministratore della configurazione del prodotto di Adobe products per la tua organizzazione</p> </td> 
+   <td role="rowheader">diritti di amministratore Adobe</td> 
+   <td> <p>Devi essere amministratore di configurazione prodotto di Adobe products per la tua organizzazione</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,7 +65,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 Prima di utilizzare l’Admin Console per Workfront, dovresti ricevere un’e-mail di invito alla console.
 
-1. Se hai poca esperienza con Adobe e hai ricevuto un’e-mail che ti informa di disporre dei diritti di amministrazione per gestire il software e i servizi Adobe per la tua organizzazione, fai clic sul pulsante nell’e-mail per creare un account Adobe e aprire l’Admin Console.
+1. Se sei un nuovo utente di Adobe e hai ricevuto un’e-mail che ti informa di disporre dei diritti di amministratore per gestire il software e i servizi di Adobe per la tua organizzazione, fai clic sul pulsante nell’e-mail per creare un account di Adobe e aprire l’Admin Console.
 
    Oppure
 
@@ -177,9 +185,9 @@ Il livello di accesso Amministratore di sistema è concesso solo su Adobe Admin 
 
    >[!NOTE]
    >
-   >Per i nuovi utenti di Adobe, l’Admin Console fornisce un’e-mail per invitarli a completare la procedura di registrazione. Tutti gli utenti devono completare la procedura di registrazione per accedere a qualsiasi applicazione di Adobe.
+   >Per i nuovi utenti di Adobe, l’Admin Console fornisce un’e-mail per invitarli a completare la procedura di registrazione. Tutti gli utenti devono completare la procedura di registrazione per accedere a qualsiasi applicazione Adobe.
    >
-   >Per gli Adobi esistenti, l’utente potrebbe ricevere o meno un’e-mail sulla disponibilità di Workfront. Questa è una preferenza controllata dall’amministratore di Adobe per il prodotto. L’amministratore Adobe potrebbe essere una persona diversa dall’amministratore Workfront.
+   >Per gli utenti esistenti di Adobe, l’utente può ricevere o meno un’e-mail sulla disponibilità di Workfront. Questa è una preferenza controllata dall’amministratore di Adobe per il prodotto. L’amministratore di Adobe potrebbe essere una persona diversa dall’amministratore di Workfront.
 
 ### Creare utenti in Workfront e approvarli per Adobe Admin Console
 
