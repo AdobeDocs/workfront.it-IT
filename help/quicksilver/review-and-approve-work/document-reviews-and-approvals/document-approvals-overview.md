@@ -6,9 +6,9 @@ description: È possibile aggiungere ulteriori approvatori o revisori a un docum
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 1fbb5cb2082e6b926930793984bd34a759c7eec7
+source-git-commit: 5027807d93994b9ce9954be461b571379b36c960
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '610'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,9 @@ Le nuove approvazioni di documenti sono una riprogettazione completa del process
 
 * I pulsanti di decisione per l&#39;approvazione del documento non sono disponibili nel visualizzatore di bozze. Le decisioni possono essere prese nella pagina Riepilogo documento, Widget Home Workfront o nella pagina Dettagli documento.
 * I partecipanti all&#39;approvazione del documento vengono visualizzati nel Riepilogo del documento, non nella scheda del flusso di lavoro di verifica.
-* Le approvazioni di nuovi documenti non sono supportate nello strumento di reporting corrente. Il widget Tutte le approvazioni disponibile nei nuovi dashboard Home e Canvas fornisce i seguenti dettagli sulle nuove approvazioni di documenti:
+* Le approvazioni di nuovi documenti non sono supportate nello strumento di reporting corrente.
+
+  È possibile unire la nuova versione beta di Canvas Dashboards a [Creare un dashboard per i report per la revisione e le approvazioni](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md), oppure è possibile utilizzare il widget Tutte le approvazioni disponibile nelle nuove dashboard Home e Canvas fornisce i seguenti dettagli sulle nuove approvazioni di documenti:
 
    * Approvazioni mediante decisione
    * Tempo medio approvazione

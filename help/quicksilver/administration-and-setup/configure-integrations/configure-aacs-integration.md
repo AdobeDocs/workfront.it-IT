@@ -6,9 +6,9 @@ description: Puoi collegare il tuo lavoro al contenuto in [!DNL Experience Manag
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 25d250e7be17773117761aa739b8e4804c6fc55a
 workflow-type: tm+mt
-source-wordcount: '1697'
+source-wordcount: '1708'
 ht-degree: 0%
 
 ---
@@ -254,6 +254,8 @@ Nell’integrazione di Adobe Experience Manager sono disponibili i seguenti flus
 * [Risorse Publish inviate ad Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
 
 ### Creare cartelle collegate a Adobe Experience Manager
+
+È possibile creare fino a 100 cartelle collegate per ogni struttura di cartelle.
 
 1. Attiva **[!UICONTROL Crea cartella collegata]**.
 1. Immettere un nome per la cartella collegata che si sta creando.
