@@ -5,9 +5,9 @@ title: La tua guida rapida per trovare aiuto in [!DNL Adobe Workfront]
 description: La tua guida rapida per trovare aiuto in [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: 3cdbf342-4809-44e3-ad9b-b5841950a1e4
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---
@@ -143,13 +143,13 @@ Le risorse seguenti sono utili per ottenere ulteriori informazioni sull&#39;API 
 | [[!DNL Adobe Workfront] integrazioni](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) | È possibile integrare [!DNL Workfront] con applicazioni di terze parti. Le integrazioni possono estendere l&#39;utilità di [!DNL Workfront] e personalizzarla in base alle esigenze della tua organizzazione. Questo articolo della knowledge base descrive le opzioni di integrazione e ti indirizza nella direzione successiva. |
 |---|---|
 | [[!DNL Workfront] integrazioni incorporate](https://www.workfront.com/integrations) | Le integrazioni integrate gratuite di Workfront consentono a te e al tuo team di passare senza problemi alla piattaforma Workfront mantenendo gli stessi flussi di lavoro e processi. |
-| [[!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-2.md) | Consente di collegare [!DNL Workfront] a più di 100 applicazioni, semplificando l&#39;automazione dei processi aziendali critici senza codice. |
+| [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home) | Consente di collegare [!DNL Workfront] a più di 100 applicazioni, semplificando l&#39;automazione dei processi aziendali critici senza codice. |
 
 {style="table-layout:auto"}
 
 ## Quando [!DNL Workfront] esegue la manutenzione? Come posso sapere se [!DNL Workfront] non funziona?
 
-Iscriviti a [status.adobe.com](https://status.adobe.com/) per ricevere informazioni sulle pianificazioni di manutenzione e sui problemi di interruzione.
+Iscriviti a [status.adobe.com](https://status.adobe.com/it) per ricevere informazioni sulle pianificazioni di manutenzione e sui problemi di interruzione.
 
 Per ulteriori informazioni sul sito di stato [!DNL Workfront], vedere [Il [!DNL Adobe Workfront] sito di stato](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md).
 

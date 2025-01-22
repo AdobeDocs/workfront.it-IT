@@ -6,9 +6,9 @@ description: Puoi modificare la lingua in cui vengono visualizzati Adobe Workfro
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: cac27d995a1b5295e05ea1f67990b05f28b66211
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1072'
 ht-degree: 1%
 
 ---
@@ -91,7 +91,7 @@ Attualmente, Workfront Fusion supporta solo l’inglese.
 * Workfront Fusion non supporta l&#39;utilizzo di caratteri di testo non inglesi nei campi immessi dall&#39;utente.
 
 Per poter accedere a Workfront Fusion, l’azienda deve acquistare una licenza Workfront Fusion.\
-Per ulteriori informazioni su Workfront Fusion, vedere [Panoramica di Adobe Workfront Fusion](../workfront-fusion/get-started/workfront-fusion-overview.md).
+Per ulteriori informazioni su Workfront Fusion, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ## Modificare la lingua
 
@@ -152,7 +152,7 @@ Quando modifichi le impostazioni internazionali dell’e-mail utente, puoi modif
 
 >[!NOTE]
 >
->Quando la tua organizzazione utilizza l’esperienza unificata di Adobe, le preferenze della lingua vengono memorizzate nel profilo dell’Adobe e le impostazioni locali dell’e-mail non vengono utilizzate. Vedi [Modificare la lingua di Adobe Experience Cloud](#change-the-adobe-experience-cloud-language) in questo articolo.
+>Quando la tua organizzazione si trova nell’esperienza unificata di Adobe, le preferenze della lingua vengono memorizzate nel tuo profilo Adobe e le impostazioni locali dell’e-mail non vengono utilizzate. Vedi [Modificare la lingua di Adobe Experience Cloud](#change-the-adobe-experience-cloud-language) in questo articolo.
 
 Per modificare le impostazioni internazionali dell&#39;e-mail utente:
 

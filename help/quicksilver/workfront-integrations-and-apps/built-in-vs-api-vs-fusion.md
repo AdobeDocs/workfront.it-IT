@@ -7,9 +7,9 @@ title: Metodi di integrazione di Adobe Workfront
 description: Puoi integrare [!DNL Adobe Workfront] con applicazioni di terze parti. Queste integrazioni possono estendere l'utilità di  [!DNL Workfront]  e personalizzarla in base alle esigenze della tua organizzazione. Puoi utilizzare una o tutte queste integrazioni, a seconda di quale sia più utile per una determinata attività.
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: bf13a7c9-eab3-4ae3-a060-8a422236122d
-source-git-commit: 328d3a8d16ace22100d86efc127874d7edd6cb6d
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '946'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Per ulteriori informazioni sulle integrazioni incorporate, incluso un elenco del
 
 ## Applicazioni OAuth2 personalizzate
 
-Gli amministratori di Adobe [!DNL Workfront] possono creare applicazioni OAuth2 per l&#39;istanza di [!DNL Workfront], che consentono ad altre applicazioni di accedere a [!DNL Workfront]. Gli utenti potranno quindi concedere a queste altre applicazioni l&#39;autorizzazione di accesso ai propri dati di [!DNL Workfront]. In questo modo, è possibile integrare Workfront con le applicazioni di propria scelta, incluse quelle interne.
+Adobe Gli amministratori di [!DNL Workfront] possono creare applicazioni OAuth2 per l&#39;istanza di [!DNL Workfront], che consentono ad altre applicazioni di accedere a [!DNL Workfront]. Gli utenti potranno quindi concedere a queste altre applicazioni l&#39;autorizzazione di accesso ai propri dati di [!DNL Workfront]. In questo modo, è possibile integrare Workfront con le applicazioni di propria scelta, incluse quelle interne.
 
 >[!NOTE]
 >
@@ -97,4 +97,4 @@ I vantaggi di [!DNL Workfront Fusion] possono includere i seguenti:
 >
 >![](assets/fusion-example-comment-350x416.png)
 
-Per ulteriori informazioni su [!DNL Workfront Fusion], vedere [[!DNL Adobe Workfront Fusion]](../workfront-fusion/workfront-fusion-2.md).
+Per ulteriori informazioni su [!DNL Workfront Fusion], vedere [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home).

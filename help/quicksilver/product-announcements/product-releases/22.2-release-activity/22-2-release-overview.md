@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e490a955-b2cb-4b9b-9794-12ff2a2c2338
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '3973'
+source-wordcount: '3974'
 ht-degree: 0%
 
 ---
@@ -216,7 +216,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#ability" class="MCXref xref" xrefformat="{para}">Possibilità di gestire progetti da elenchi e report da un nuovo menu Altro</a> </p> <p>È stato aggiunto un nuovo menu Altro negli elenchi e nei rapporti dei progetti per consentire di eseguire le seguenti azioni da queste aree:</p> 
     <ul> 
      <li> <p>Per più progetti alla volta:</p> </li> 
-     <li> <p>Ricalcola timeline</p> </li> 
+     <li> <p>Ricalcola la timeline</p> </li> 
      <li> <p>Ricalcola Finanze</p> </li> 
      <li> <p>Ricalcolare Espressioni Customizzate</p> </li> 
      <li> <p>Per un singolo progetto:</p> </li> 
@@ -552,7 +552,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-other-enhancements.md#enhancem" class="MCXref xref" xrefformat="{para}">Miglioramenti alla barra di navigazione superiore</a> </p> <p>Sono stati apportati diversi miglioramenti alla barra di navigazione superiore di Adobe Workfront.</p> 
     <ul> 
      <li> <p>Preferiti e Recenti ora dispongono di icone separate nella barra di navigazione superiore. Ogni pagina visualizza ancora lo stesso contenuto (le pagine contrassegnate come preferite e quelle visitate di recente) e puoi continuare ad aggiungere e rimuovere le pagine preferite nello stesso modo.</p> </li> 
-     <li> <p>Il look and feel di entrambi i pin e del menu principale è stato aggiornato agli standard di design Adobi, inclusi colori e font. Il modo in cui aggiungi e rimuovi i pin e le aree a cui hai accesso nel menu principale non sono cambiati.</p> </li> 
+     <li> <p>L'aspetto di entrambi i pin e del menu principale è stato aggiornato agli standard di progettazione Adobe, inclusi colori e font. Il modo in cui aggiungi e rimuovi i pin e le aree a cui hai accesso nel menu principale non sono cambiati.</p> </li> 
      <li> <p>Le icone sulla destra della barra di navigazione superiore sono state riordinate per essere più intuitive. L’ordine delle icone è: collegamento della guida, notifiche, preferiti, recenti, ricerca, menu principale.</p> </li> 
     </ul> </td> 
    <td><strong>Disponibile in queste date:</strong> 
@@ -584,7 +584,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
 
 ## Miglioramenti apportati a Workfront Fusion
 
-Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione della versione 22.2. Per ulteriori informazioni sulle funzionalità più recenti, vedere [Attività di Adobe Workfront Fusion release](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione della versione 22.2. Per ulteriori informazioni sulle funzionalità più recenti, vedere [Attività di Adobe Workfront Fusion release](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ## Miglioramenti di Workfront Scenario Planner
 

@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '3271'
+source-wordcount: '3272'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione c
                 <tr>
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Migrazione ad Adobe Unified Experience</a> </p>
-                        <p>Se per la tua organizzazione è stato eseguito l’onboarding in Adobe Admin Console, l’istanza di Workfront verrà migrata all’esperienza unificata Adobe con la versione 22.4.</p>
+                        <p>Se per la tua organizzazione è stato eseguito l’onboarding in Adobe Admin Console, l’istanza di Workfront verrà migrata ad Adobe Unified Experience con la versione 22.4.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                      <p>
@@ -666,18 +666,18 @@ Le campagne sono state rilasciate in anteprima beta con la versione 22.3, a lugl
     &lt;td>&lt;p>&lt;b>Disponibile in queste date:&lt;/b>&lt;/p>
     &lt;ul>
     &lt;li>
-    &lt;p>Versione di anteprima:&amp;#160;Durante l&#39;intervallo di tempo della versione 22.4&lt;br />&lt;/p>
+    &lt;p>Anteprima:&amp;#GenStudio for Performance Marketers&amp;-160;Nell&#39;arco temporale della versione 22.4&lt;br />&lt;/p>
     &lt;/li>
     &lt;li>
-    &lt;p>Versione di produzione:&amp;#160;TBD&lt;/p>
+    &lt;p>Produzione release:&amp;#GenStudio for Performance Marketers&amp;-160;TBD&lt;/p>
     &lt;/li>
     &lt;/ul>
     &lt;/td>
     &lt;/tr>
-    &lt;tr> 13}&lt;td>
-    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Descrizione team espansa&lt;/a>&lt;/p>
-    &lt;p>Nell&#39;area Team è ora possibile visualizzare la descrizione completa del team facendo clic sulla descrizione per visualizzarla in una finestra a comparsa. 
-     Qualsiasi URL nella descrizione è cliccabile nel pop-up e puoi fare clic nel testo della descrizione per modificarlo (se hai accesso per modificare le impostazioni del team).&lt;/p>
+    &lt;tr>
+    &lt;td>
+    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref&quot; xrefformat=&quot;{para}&quot;>Descrizione team espansa&lt;/a>&lt;/p>
+    &lt;p>Nell&#39;area Team è ora possibile visualizzare la descrizione completa del team facendo clic sulla descrizione per visualizzarla in un pop-up. Qualsiasi URL nella descrizione è cliccabile nel pop-up e puoi fare clic nel testo della descrizione per modificarlo (se hai accesso per modificare le impostazioni del team).&lt;/p>
     &lt;p>In precedenza, l&#39;unico modo per visualizzare tutto il contenuto era scorrere la descrizione in un&#39;area ristretta.&lt;/p>
 <p>Questo miglioramento alla descrizione si applica sia ai team agili che a quelli non agili.</p>
                     </td>
@@ -710,7 +710,7 @@ Con questo aggiornamento, il Visualizzatore bozze desktop supporterà Chrome ver
 
 ### Miglioramenti apportati a Workfront Fusion
 
-Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione della versione 22.4. Per ulteriori informazioni sulle funzionalità più recenti, vedere [Attività di Adobe Workfront Fusion release](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione della versione 22.4. Per ulteriori informazioni sulle funzionalità più recenti, vedere [Attività di Adobe Workfront Fusion release](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Miglioramenti di Workfront Scenario Planner
 

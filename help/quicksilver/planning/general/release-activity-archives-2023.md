@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '2983'
+source-wordcount: '2985'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >È necessario acquistare un piano Workfront Planning, oltre a un piano Workfront per poter accedere e utilizzare le funzionalità di Workfront Planning.
 >
->Per un elenco completo dei requisiti per accedere a Workfront Planning, vedere [Panoramica dell&#39;accesso di Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
+>Per un elenco completo dei requisiti per accedere a Workfront Planning, vedere [Panoramica sull&#39;accesso ad Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
 >Per una panoramica di Workfront Planning, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 >
 
@@ -45,7 +45,7 @@ Nella tabella seguente viene illustrata la sequenza temporale del rilascio di Wo
 |--------------------|-----------------------------------------|
 | Agosto - dicembre 2023 | Versione beta di Workfront Planning* |
 | Gennaio - agosto 2024 | Rilascio anticipato di Workfront Planning* |
-| giovedì 28 agosto 2024 | Disponibilità generale di Workfront Planning |
+| 28 agosto 2024 | Disponibilità generale di Workfront Planning |
 
 *Le fasi beta e rilascio anticipato erano disponibili per un gruppo limitato di clienti.
 
@@ -89,7 +89,7 @@ Produzione: 21 dicembre 2023
 >
 >La tua organizzazione deve acquistare Adobe Workfront Fusion per poter creare connessioni con le funzionalità di pianificazione di Adobe Workfront.
 >
->Per informazioni, vedere [Panoramica di Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
+>Per informazioni, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 Ora è possibile utilizzare Adobe Workfront Fusion per connettersi alle funzionalità di pianificazione. Con la nuova connessione Fusion, è possibile:
 
@@ -105,7 +105,7 @@ Ora è possibile utilizzare Adobe Workfront Fusion per connettersi alle funziona
 
 * Attiva uno scenario quando viene apportata una modifica alle funzionalità di pianificazione
 
-Per ulteriori informazioni, vedere [Moduli di Adobe Workfront Planning](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
+Per ulteriori informazioni, vedere [Moduli di Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules).
 
 ## Settimana dell’11 dicembre 2023
 
@@ -147,7 +147,7 @@ Versione di produzione: 21 dicembre 2023
 >
 >Per poter collegare i record delle funzionalità di Adobe Workfront Planning ad Adobe Experience Manager Assets, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Business Platform o Adobe Admin Console.
 >
->Se hai domande sull&#39;onboarding in Adobe Admin Console, consulta le [Domande frequenti sull&#39;esperienza unificata di Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+>Se hai domande sull&#39;onboarding in Adobe Admin Console, consulta le [domande frequenti su Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 È ora possibile stabilire una connessione tra i tipi di record delle funzionalità di Adobe Workfront Planning e Adobe Experience Manager Assets.
 

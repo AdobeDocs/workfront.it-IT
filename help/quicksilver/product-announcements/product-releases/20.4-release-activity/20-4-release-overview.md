@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7cf7f6ed-fe85-4c86-bb4b-dd93197338cf
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '3694'
+source-wordcount: '3695'
 ht-degree: 0%
 
 ---
@@ -298,7 +298,7 @@ La maggior parte delle nuove funzioni arriva alla versione degli Obiettivi di Wo
 
 ## Miglioramenti apportati a Workfront Fusion
 
-Le nuove funzioni di Workfront Fusion sono disponibili in produzione ad una cadenza al di fuori della pianificazione della versione 20.4. Per ulteriori informazioni sulle funzioni più recenti, consulta [Attività di rilascio di Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+Le nuove funzioni di Workfront Fusion sono disponibili in produzione ad una cadenza al di fuori della pianificazione della versione 20.4. Per ulteriori informazioni sulle funzioni più recenti, consulta [Attività di rilascio di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 
 ## Miglioramenti API
 
@@ -334,7 +334,7 @@ Per informazioni sugli aggiornamenti di manutenzione apportati durante la versio
 
 ### Obsolescenza Flash {#flash-deprecation}
 
-Alla fine del 2020, Adobe e tutti i principali browser finalizzano la tecnologia obsoleta di Flash Adobe, il che significa che questi strumenti cesseranno di funzionare.
+Alla fine del 2020, Adobe e tutti i principali browser finalizzeranno la tecnologia Adobe Flash obsoleta, il che significa che questi strumenti cesseranno di funzionare.
 
 Workfront si propone di assisterti nel passaggio alla tecnologia più recente fornendo una suite di nuove soluzioni che non si basano sul Flash. Per ulteriori informazioni sulle soluzioni sostitutive per ogni specifico strumento basato su Flash, vedere l&#39;articolo seguente: [Sostituzione degli strumenti basati su Flash in Adobe Workfront](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 
