@@ -9,9 +9,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
-source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
+source-git-commit: dee1c75e134309a25ba6c739059048972696f2c1
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,6 @@ Questa sezione contiene i seguenti articoli:
 * [Esempio di scenario [!DNL Adobe Workfront Fusion]: Connect email, [!UICONTROL Text Parser], and [!DNL Google Sheets]](../../workfront-fusion/scenarios/example-connect-email-text-parser-gsheets.md)
 * [Ripristina una versione dello scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/restore-a-scenario-version.md)
 * [Copia moduli o scenari in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md)
-* [Aggiornare un modulo a una nuova versione in uno scenario  [!DNL Adobe Workfront Fusion] ](../../workfront-fusion/scenarios/update-module-to-new-version.md)
 * [Visualizza e gestisci scenari bloccati in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
 * [Eseguire l’esperto di valutazione degli scenari in Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/scenarios/run-scenario-scoring.md)
 * [Utilizzare cURL per aggiungere un modulo HTTP](/help/quicksilver/workfront-fusion/scenarios/use-curl-create-http.md)
