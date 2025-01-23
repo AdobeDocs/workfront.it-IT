@@ -4,9 +4,10 @@ description: Questa pagina fornisce informazioni sulle funzionalità incluse nel
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
+source-git-commit: ef390581f250515983ba51fb4b1f9ee53fcff693
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -46,15 +47,15 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            L’Assistente AI ora può lavorare con progetti, attività e problemi</a></p>
-            <p>Per semplificare la gestione degli elementi di lavoro in Workfront, abbiamo aggiornato l’Assistente IA per lavorare con progetti, attività e problemi. Ora l’Assistente AI può individuare progetti, attività e problemi in base ai criteri specificati.</p>
+            Rappresenta le modifiche utente di Adobe Admin Console come "System" nel feed di aggiornamento di Workfront</a></p>
+            <p>Ora, quando l’amministratore di Adobe Admin Console apporta una modifica alle informazioni utente di un utente Workfront, Workfront registra tale modifica nella scheda Attività di sistema dell’area Aggiornamenti dell’utente come appartenente al "Sistema". Si riferisce all’amministratore di Adobe Admin Console.</p>
         </td>
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Versione di anteprima: 31 ottobre 2024</li>
-                <li>Produzione per rilascio rapido: con la versione 24.11 (14 novembre 2024)</li>
-                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
+                <li>Versione di anteprima: 23 gennaio 2025</li>
+                <li>Produzione per rilascio rapido: con la versione 25.2 (febbraio 2025)</li>
+                <li>Versione di produzione per tutti i clienti: con la versione 25.4 (aprile 2025)</li>
             </ul>
         </td>
     </tr>
