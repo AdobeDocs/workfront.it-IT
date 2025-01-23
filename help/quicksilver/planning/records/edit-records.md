@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 9db8ea3f26dd7e8b4c8aa52fb9902832db7a6a5c
 workflow-type: tm+mt
-source-wordcount: '1889'
+source-wordcount: '2007'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Modifica record
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -243,6 +243,16 @@ Per ulteriori informazioni, vedere [Gestire le visualizzazioni dei record](/help
 
      ![](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
+   <div class="preview">
+
+   * Copiare una o più celle da un&#39;origine esterna, ad esempio un file di Excel, quindi incollarle in uno dei seguenti tipi di campi:
+
+      * Campi di connessione di Workfront Planning.
+      * Campi Persone. Sono supportati solo i campi con un valore.
+
+     Non è possibile copiare informazioni da un’origine esterna e incollarle in altri tipi di campi, inclusi i campi di connessione Workfront o AEM Assets.
+   </div>
+
    >[!NOTE]
    >
    >Considera quanto segue:
@@ -254,8 +264,7 @@ Per ulteriori informazioni, vedere [Gestire le visualizzazioni dei record](/help
    >* Non è possibile copiare e incollare i valori dei campi nella pagina record. Questa funzionalità è supportata solo nella vista tabella di un tipo di record.
    >* Non è possibile copiare e incollare valori di campo per i tipi di campo seguenti:
    >
-   >
-   >    * Campi collegati (o campi di ricerca) creati mediante la connessione di tipi di record. È possibile copiare e incollare campi record collegati. Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >    * Campi di ricerca creati durante la connessione di tipi di record. È possibile copiare e incollare campi record collegati. Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
    >    * Campi dei seguenti tipi: Creato da, Data di creazione, Ultima modifica da, Data ultima modifica
 
 1. (Facoltativo) Utilizzare le seguenti scelte rapide da tastiera per annullare o ripetere la modifica o la copia e l&#39;incollamento delle informazioni del record:

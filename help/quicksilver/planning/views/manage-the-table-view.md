@@ -6,14 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 9db8ea3f26dd7e8b4c8aa52fb9902832db7a6a5c
 workflow-type: tm+mt
-source-wordcount: '2802'
-ht-degree: 3%
+source-wordcount: '2879'
+ht-degree: 2%
 
 ---
 
 # Gestire la vista tabella
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -397,13 +401,22 @@ Per aggiungere un filtro a una vista tabella:
 1. (Facoltativo) Fai clic su **Aggiungi condizione** per aggiungere un&#39;altra opzione di filtro e ripetere i passaggi precedenti. Il numero di filtri applicati viene visualizzato a sinistra dell’icona Filtri.
 1. Fai clic sugli operatori seguenti per indicare come vengono unite e devono essere applicate le condizioni del filtro:
 
-   * **And**: tutte le condizioni specificate devono essere soddisfatte.
-   * **Oppure**: è necessario che una delle condizioni specificate sia soddisfatta. Questa è l&#39;opzione predefinita.
+   * **AND**: tutte le condizioni specificate devono essere soddisfatte.
+   * **OR**: è necessario soddisfare una delle condizioni specificate. Questa è l&#39;opzione predefinita.
+
+   <div class="preview">
+
+   1. (Facoltativo) Aggiungi altri operatori **AND** o **OR** tra più raggruppamenti di condizioni.
+
+      ![](assets/multi-tiered-filters-in-views.png)
+
+   </div>
 
    L’elenco dei record viene filtrato automaticamente.  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
-1. (Facoltativo) Fai clic su **Filtri**, quindi fai clic sull&#39;icona **x** per rimuovere un filtro. <!--right now you cannot "clear all" for filters, but this might come later-->
+1. (Facoltativo) Fai clic sull&#39;icona **x** per rimuovere una condizione di filtro.
+1. (Facoltativo) Fai clic su **Filtri** per chiudere la casella dei filtri. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 ### Aggiungi raggruppamenti {#add-groupings}
 
