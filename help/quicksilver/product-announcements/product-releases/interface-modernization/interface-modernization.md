@@ -3,14 +3,12 @@ title: Aggiornamenti dell’interfaccia
 description: In questa pagina sono elencati gli aggiornamenti dell’interfaccia che stiamo apportando in Adobe Workfront per migliorare l’esperienza utente e per coerenza con altre applicazioni Adobe.
 author: Nolan
 feature: Product Announcements
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 2%
+source-wordcount: '354'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +26,7 @@ Per tutte le altre modifiche apportate ad Adobe Workfront, vedi [Versioni del pr
 
 ### Aggiornamento dell&#39;interfaccia per la finestra di dialogo Aggiungi Sharepoint
 
-**Anteprima versione: 16 gennaio 2025; versione di produzione: da definire**
+**Anteprima versione: 16 gennaio 2025; Versione di produzione: da annunciare**
 
 La finestra di dialogo Aggiungi Sharepoint in Configurazione > Documenti > Integrazione Sharepoint è stata aggiornata con un design più moderno che è coerente con altre aree di Workfront.
 
@@ -36,7 +34,7 @@ Questo aggiornamento include modifiche visive all’area. Nessuna funzionalità 
 
 ### Aggiornamento dell’interfaccia per l’area Approvals (Approvazioni) nella configurazione
 
-**Anteprima versione: 16 gennaio 2025; versione di produzione: da definire**
+**Anteprima versione: 16 gennaio 2025; Versione di produzione: da annunciare**
 
 Gli elenchi Approvazioni progetti, attività e problemi sono stati aggiornati in Configurazione > Processi > Approvazioni con un design più moderno che è coerente con le altre aree di Workfront.
 
@@ -44,9 +42,19 @@ Questo aggiornamento include modifiche visive all’area. Nessuna funzionalità 
 
 ## Report e dashboard
 
+### È stato aggiornato il rapporto di iterazione con un nuovo stile
+
+**Anteprima versione: 17 gennaio 2025; Versione di produzione: da annunciare**
+
+Il rapporto Iterazioni è stato aggiornato con un design più moderno, coerente con le altre aree di Workfront.
+
+Questo aggiornamento include modifiche visive al rapporto. Nessuna funzionalità è stata modificata.
+
+Per creare un rapporto di iterazione, passare a Rapporti > Nuovo rapporto > Iterazione.
+
 ### Rapporti di approvazione aggiornati con nuovo stile
 
-**Anteprima versione: 16 gennaio 2025; versione di produzione: da definire**
+**Anteprima versione: 16 gennaio 2025; Versione di produzione: da annunciare**
 
 Abbiamo aggiornato l’interfaccia dei seguenti rapporti di approvazione:
 

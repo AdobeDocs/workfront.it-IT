@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: 46faf723ea7a8e9dfa02c0f2bed1f5f450976fc8
 workflow-type: tm+mt
-source-wordcount: '2782'
+source-wordcount: '2775'
 ht-degree: 0%
 
 ---
@@ -614,14 +614,13 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Esperienza di commento aggiornata nel widget Menzioni in Home e My Updates (I miei aggiornamenti)</a></p>
-            [!BADGE In produzione ]{type=Informative}
             <p>Stiamo aggiornando l’esperienza di aggiunta di commenti nel widget Menzioni in Home e nella sezione Menzioni nell’area I miei aggiornamenti. Ora, la stessa esperienza nell’area Aggiornamenti della maggior parte degli oggetti Workfront è disponibile anche nel widget Menzioni e nella sezione Menzioni di My Updates.</p>
         </td>
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
                 <li>Versione di anteprima: 19 dicembre 2024</li>
-                <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
+                <li>Versione di produzione per tutti i clienti: da annunciare</li>
             </ul>
         </td>
     </tr>

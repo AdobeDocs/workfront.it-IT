@@ -7,36 +7,22 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: d27f937b-e179-4f67-aebd-ed351440cb0f
-source-git-commit: 2c6d01d009e3dc09b65d7c414e1a3d8536d384e0
+source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 0%
+source-wordcount: '380'
+ht-degree: 1%
 
 ---
 
 # Attività della versione del quarto trimestre 2024 per Adobe Workfront Planning
 
-<!--remove this important intro after the 25.1 release-->
-
->[!IMPORTANT]
->
->Le informazioni contenute in questo articolo si riferiscono alla pianificazione di Adobe Workfront, una nuova offerta di Adobe Workfront.
->
->È necessario acquistare un piano Workfront Planning, oltre a un piano Workfront per poter accedere e utilizzare le funzionalità di Workfront Planning.
->
->Per un elenco completo dei requisiti per accedere a Workfront Planning, vedere [Panoramica dell&#39;accesso](/help/quicksilver/planning/access/access-overview.md).
->Per una panoramica di Workfront Planning, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
->
-
 Questo articolo descrive le funzioni rilasciate per Workfront Planning durante la versione del quarto trimestre 2024.
 
 Per informazioni sulle funzionalità incluse in questa versione, consulta [Attività sulla versione di Adobe Workfront Planning per il 2024](/help/quicksilver/planning/general/release-activity.md).
 
-
 <!--keep the sentence below for all future quarterly release pages-->
-<!--remove the general activity mention after fourth quarter 2024 is released-->
 
-Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning dopo il rilascio di disponibilità generale del 28 agosto 2024, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 ## Opzioni di visualizzazione per i record collegati
 
