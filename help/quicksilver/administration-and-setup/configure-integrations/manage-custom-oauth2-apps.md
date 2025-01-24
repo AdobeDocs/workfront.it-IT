@@ -8,9 +8,9 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Becky
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: bb81e32263348128b7661db6102ad5ac14e9a434
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,6 @@ Per ulteriori informazioni, consulta [Creare applicazioni OAuth2 per [!DNL Workf
 {{step-1-to-setup}}
 
 1. Nel pannello di navigazione a sinistra, fai clic su **[!UICONTROL Sistema]**, quindi seleziona **[!UICONTROL Applicazioni OAuth]**.
-1. Fai clic su ** **.
 1. Passa il puntatore del mouse sull&#39;applicazione e fai clic su **[!UICONTROL Elimina]** ![](assets/delete.png) quando viene visualizzato all&#39;estrema destra.
 
 ## Gestire i segreti client nelle applicazioni OAuth2

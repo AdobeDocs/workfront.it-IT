@@ -3,15 +3,15 @@ user-type: administrator
 content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
-title: L'ambiente sandbox di aggiornamento personalizzato  [!DNL Adobe Workfront]
+title: 'L''ambiente sandbox di aggiornamento personalizzato  [!DNL Adobe Workfront] '
 description: La sandbox di aggiornamento personalizzata è un ambiente in cui puoi testare e lavorare utilizzando i dati dell’ambiente di produzione. È ideale anche per l’esecuzione di corsi di formazione e per determinare le funzionalità di configurazione.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
+source-git-commit: bb81e32263348128b7661db6102ad5ac14e9a434
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1739'
 ht-degree: 0%
 
 ---
@@ -118,11 +118,11 @@ Per accedere alla sandbox di aggiornamento personalizzata utilizzando un URL:
 
 1. Passa a questo URL se disponi di una sola sandbox di aggiornamento personalizzata:
 
-   https://companyname.sb01.workfront.com (URL precedente:https://cr1.attasksandbox.com/.)
+   `https://companyname.sb01.workfront.com` (URL precedente:`https://cr1.attasksandbox.com/`.)
 
    Oppure, se disponi di due sandbox di aggiornamento personalizzate, oltre agli URL indicati sopra, puoi passare al seguente URL per accedere alla seconda sandbox di aggiornamento personalizzata:
 
-   https://companyname.sb02.workfront.com (URL precedente:https://cr2.attasksandbox.com/)
+   `https://companyname.sb02.workfront.com` (URL precedente:`https://cr2.attasksandbox.com/`)
 
 1. Nella schermata di accesso, effettua l’accesso utilizzando le credenziali Sandbox di aggiornamento personalizzate.
 1. Le credenziali Sandbox di aggiornamento personalizzate sono uguali alle credenziali di produzione, a meno che tu non abbia modificato le credenziali di produzione dall’ultimo aggiornamento della Sandbox di aggiornamento personalizzata. Gli accessi vengono sincronizzati solo quando si verifica un aggiornamento. Non vengono sincronizzati automaticamente.
@@ -137,15 +137,15 @@ Per accedere alla sandbox di aggiornamento personalizzata utilizzando un URL:
 
 1. Passa a questo URL se disponi di una sola sandbox di aggiornamento personalizzata:
 
-   https://companyname.sb01.workfront.com (vecchio URL:https://cr3.attasksandbox.com)
+   `https://companyname.sb01.workfront.com` (URL precedente:`https://cr3.attasksandbox.com`)
 
    Oppure
 
    Se disponi di due sandbox di aggiornamento personalizzate, accedi a uno di questi URL:
 
-   https://companyname.sb01.workfront.com (vecchio URL:https://cr3.attasksandbox.com)
+   `https://companyname.sb01.workfront.com` (URL precedente:`https://cr3.attasksandbox.com`)
 
-   https://companyname.sb02.workfront.com (vecchio URL:https://cr4.attasksandbox.com)
+   `https://companyname.sb02.workfront.com` (URL precedente:`https://cr4.attasksandbox.com`)
 
 1. Nella schermata di accesso, effettua l’accesso utilizzando le credenziali Sandbox di aggiornamento personalizzate.
 
