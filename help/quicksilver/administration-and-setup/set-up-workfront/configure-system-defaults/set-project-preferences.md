@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 90405d79f605d788331cb7a04ebf354dc4379bf5
 workflow-type: tm+mt
-source-wordcount: '2661'
+source-wordcount: '2693'
 ht-degree: 1%
 
 ---
@@ -246,13 +246,6 @@ Configura una delle seguenti preferenze per i progetti appena creati nel sistema
  </tbody> 
 </table>
 
-
-
-
-
-
-
-
 ### [!UICONTROL Casi di studio] {#business-cases}
 
 È possibile creare un Business Case per i nuovi progetti creati in tutto il sistema per inviare richieste di progetto. È possibile definire le preferenze per determinare quali aree sono visibili nel modulo **[!UICONTROL Business Case]**. È consigliabile attivare queste opzioni in modo che altri strumenti, ad esempio [!UICONTROL Ottimizzatore Portfolio], vengano aggiornati correttamente. Per ulteriori informazioni su ogni campo, vedere [Definire un caso di business: indice articolo](../../../manage-work/projects/define-a-business-case/define-business-case.md).
@@ -279,11 +272,12 @@ Configura una delle seguenti preferenze per i progetti appena creati nel sistema
    <td role="rowheader"> <p>[!UICONTROL Dopo aver contrassegnato un progetto come Completo, Inattivo o In attesa di approvazione, è ancora possibile]</p> </td> 
    <td> <p>Determina le regole per l'organizzazione (o il gruppo, se stai configurando le preferenze di progetto per un gruppo) per quanto riguarda ciò che accade ad attività, problemi, documenti e altri oggetti in un progetto dopo che lo stato del progetto è stato contrassegnato <strong>[!UICONTROL Complete]</strong>, <strong>[!UICONTROL Dead]</strong>, o è <strong>[!UICONTROL Pending Approval]</strong>.</p> 
     <ul> 
-     <li><strong>[!UICONTROL Aggiungi e modifica attività]</strong> Consente agli utenti di:
+     <li><strong>[!UICONTROL Aggiungi e modifica attività:]</strong> Consente agli utenti di:
       <ul>
-       <li>Modifica le attività all'interno di un progetto dopo che è stato contrassegnato come [!UICONTROL Complete], [!UICONTROL Dead] o come [!UICONTROL Pending Approval]. Ciò include l'aggiunta di ore e la modifica delle voci di spesa per un'attività.</li>
+       <li><p>Modifica le attività all'interno di un progetto dopo che è stato contrassegnato come [!UICONTROL Complete], [!UICONTROL Dead] o come [!UICONTROL Pending Approval].</p>
+           <p>Nota: anche quando questa opzione non è selezionata, gli utenti possono aggiungere e modificare voci di spesa. Le ore di registrazione sono impostate separatamente. Per consentire o impedire agli utenti di registrare il tempo sui progetti con stato Complete (Completato) o Dead (Inattivo), vedere <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Configurare le preferenze di orario e scheda orario</a>.</p></li>
        <li>Aggiungere attività a un progetto.</li>
-      </ul></li> 
+      </ul></li>
      <li><strong>[!UICONTROL Aggiungi e modifica problemi]</strong>: consente agli utenti di:
       <ul>
        <li>Modifica i problemi all'interno di un progetto dopo che è stato contrassegnato [!UICONTROL Complete], [!UICONTROL Dead] o [!UICONTROL Pending Approval].</li>
