@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1d5f76ef-bea7-4630-8051-454b0d109341
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -80,5 +80,5 @@ Ad esempio, puoi impostare questo rapporto in modo da mostrare l’attività int
 
 In precedenza, era possibile creare rapporti sugli aggiornamenti di sistema solo tramite l’API Workfront.
 
-Per ulteriori informazioni su questo report e sui motivi per cui è possibile utilizzarlo, vedere [Report sull&#39;area Aggiornamenti](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+Per ulteriori informazioni su questo report e sui motivi per cui è possibile utilizzarlo, vedere [Report sull&#39;area Aggiornamenti con un report sulle voci diario](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 

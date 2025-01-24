@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 46faf723ea7a8e9dfa02c0f2bed1f5f450976fc8
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '13008'
+source-wordcount: '13013'
 ht-degree: 2%
 
 ---
@@ -1538,7 +1538,7 @@ ht-degree: 2%
          * [Creazione di report di dati finanziari con tassi di cambio univoci](reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)
          * [Modificare le impostazioni dei rapporti](reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md)
          * [Cambiare il proprietario di un report](reports-and-dashboards/reports/creating-and-managing-reports/change-owner-report.md)
-         * [Rapporto sulla sezione Aggiornamenti](reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
+         * [Rapporto sull&#39;area Aggiornamenti con un rapporto Voce diario](reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
          * [Creare un rapporto di delega utente](reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md)
       * Dati personalizzati calcolati nei report {#calculated-custom-data}
          * [Dati personalizzati calcolati nei rapporti](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)

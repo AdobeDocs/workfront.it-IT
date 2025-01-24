@@ -6,9 +6,9 @@ description: Il  [!DNL Adobe Workfront] glossario elenca i termini comunemente u
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '20931'
+source-wordcount: '20935'
 ht-degree: 0%
 
 ---
@@ -1168,7 +1168,7 @@ Le ore possono avere uno dei seguenti stati in Workfront:
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>[!UICONTROL Voce Diario]</p> </td> 
-   <td> <p>Oggetto segnalabile che fornisce informazioni sugli aggiornamenti di sistema per i campi tracciati visualizzati nell'area [!UICONTROL Aggiornamenti] di progetti, attività, problemi e altri oggetti.</p> <p>Per ulteriori informazioni, vedere <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md" class="MCXref xref">Report sull'area [!UICONTROL Updates]</a>.</p> </td> 
+   <td> <p>Oggetto segnalabile che fornisce informazioni sugli aggiornamenti di sistema per i campi tracciati visualizzati nell'area [!UICONTROL Aggiornamenti] di progetti, attività, problemi e altri oggetti.</p> <p>Per ulteriori informazioni, vedere <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md" class="MCXref xref">Report sull'area Aggiornamenti con un report sulle voci diario</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Flag Kanban]</td> 

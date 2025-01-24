@@ -6,9 +6,9 @@ description: Visualizzare tutti gli aggiornamenti in un report Nota
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '377'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Per impostazione predefinita, nell&#39;area Aggiornamenti di un oggetto viene vi
 
 >[!NOTE]
 >
->È possibile creare un report per visualizzare gli aggiornamenti sugli oggetti in Anteprima con il report Voce diario. Per ulteriori informazioni, vedere [Report sull&#39;area Aggiornamenti](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+>È possibile creare un report per visualizzare gli aggiornamenti sugli oggetti in Anteprima con il report Voce diario. Per ulteriori informazioni, vedere [Report sull&#39;area Aggiornamenti con un report sulle voci diario](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
 ## Requisiti di accesso
 

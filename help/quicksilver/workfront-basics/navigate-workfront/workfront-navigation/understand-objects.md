@@ -1,14 +1,14 @@
 ---
 content-type: overview;reference
 navigation-topic: workfront-navigation
-title: "[!DNL Adobe Workfront] oggetti panoramica"
-description: "Le informazioni visualizzate in [!DNL Adobe Workfront] sono rappresentate da oggetti archiviati nel database [!DNL Workfront] . Gli oggetti sono ciò che determina le informazioni in [!DNL Workfront]. Per ulteriori informazioni su questi oggetti, consulta questo articolo."
+title: Panoramica di [!DNL Adobe Workfront] oggetti
+description: Le informazioni visualizzate in [!DNL Adobe Workfront] sono rappresentate da oggetti archiviati nel database [!DNL Workfront] . Gli oggetti sono ciò che determina le informazioni in [!DNL Workfront]. Per ulteriori informazioni su questi oggetti, consulta questo articolo.
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 25939493f6ffed31ae1bdaf26d417ce4e5e5c004
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '2419'
+source-wordcount: '2424'
 ht-degree: 1%
 
 ---
@@ -283,7 +283,7 @@ Per ulteriori informazioni sull&#39;API, vedere [API Explorer](../../../wf-api/g
 * [!UICONTROL Iterazione]
 * [!UICONTROL Mansione]
 * [!UICONTROL Voce diario]
-   * Puoi creare rapporti sugli aggiornamenti di sistema tracciati nell&#39;area [!UICONTROL Aggiornamenti] di oggetti come attività, progetti, problemi, ecc. Per ulteriori informazioni, vedere [Report sull&#39;area [!UICONTROL Aggiornamenti]](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+   * Puoi creare rapporti sugli aggiornamenti di sistema tracciati nell&#39;area [!UICONTROL Aggiornamenti] di oggetti come attività, progetti, problemi, ecc. Per ulteriori informazioni, vedere [Report sull&#39;area Aggiornamenti con un report sulle voci diario](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
 * [!UICONTROL Modello di layout]
 * [!UICONTROL Milestone]

@@ -1,18 +1,18 @@
 ---
-title: Rapporto sull’area Aggiornamenti
+title: Rapporto sull'area Aggiornamenti con un rapporto sulle scritture contabili
 description: Il rapporto Voce diario evidenzia gli aggiornamenti di sistema dall’area Aggiornamenti di progetti, attività, problemi e altri oggetti precedentemente disponibili solo tramite l’API Adobe Workfront. Anche se si tratta di un rapporto avanzato destinato a casi d’uso specifici, il formato più digeribile consente di creare un rapporto più semplice sull’attività del progetto e sugli aggiornamenti del sistema in Workfront.
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '2757'
+source-wordcount: '2767'
 ht-degree: 4%
 
 ---
 
-# Rapporto sulla sezione Aggiornamenti
+# Rapporto sull&#39;area Aggiornamenti con un rapporto Voce diario
 
 <!-- Audited: 11/2024 -->
 
