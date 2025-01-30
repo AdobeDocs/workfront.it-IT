@@ -6,14 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 2%
+source-wordcount: '784'
+ht-degree: 1%
 
 ---
 
 # Condividere le aree di lavoro
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -173,9 +177,13 @@ Per condividere un’area di lavoro con altri utenti:
 
    ![](assets/share-button-on-workspace-top-right.png)
 
-1. Nel campo **Concedi l&#39;accesso all&#39;area di lavoro a**, inizia a digitare il nome di un utente o di un gruppo, quindi fai clic su di esso quando viene visualizzato nell&#39;elenco.
+1. Nel campo **Concedi l&#39;accesso all&#39;area di lavoro a**, inizia a digitare il nome di un utente, un gruppo, un <span class="preview">team, un&#39;azienda o una mansione</span>, quindi fai clic su di esso quando viene visualizzato nell&#39;elenco.
+
+   <div class="preview">
 
    ![](assets/sharing-ui-with-groups.png)
+
+   </div>
 
 1. Seleziona uno dei seguenti livelli di autorizzazione dal menu a discesa:
    * Visualizza
@@ -221,7 +229,7 @@ Dalla notifica e-mail, fai clic su **Visualizza tutte le notifiche**, quindi fai
 {{step1-to-planning}}
 
 1. Apri l&#39;area di lavoro a cui vuoi rimuovere le autorizzazioni, quindi fai clic su **Condividi** nell&#39;angolo superiore destro dello schermo.
-1. Fai clic sul menu a discesa a destra del nome di un utente o di un gruppo, quindi fai clic su **Rimuovi**.
+1. Fai clic sul menu a discesa a destra del nome di un&#39;entità con cui stai condividendo l&#39;area di lavoro, quindi fai clic su **Rimuovi**.
 1. Fai clic su **Salva**.
 
-   L&#39;utente o gli utenti che appartengono al gruppo rimosso non hanno più accesso al workspace o ai relativi oggetti.
+   Gli utenti rimossi non hanno più accesso al workspace o ai relativi oggetti.

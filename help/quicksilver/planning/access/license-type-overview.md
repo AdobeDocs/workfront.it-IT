@@ -6,15 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
 
 
 # Panoramica del tipo di licenza quando si utilizza Adobe Workfront Planning
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -25,7 +29,7 @@ Il tipo di licenza di Adobe Workfront funziona in combinazione con le autorizzaz
 
 Per informazioni sulle autorizzazioni per gli oggetti in Workfront Planning, vedere [Panoramica sulle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
-Per informazioni sull&#39;accesso a Workfront Planning, vedere [Panoramica dell&#39;accesso di Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
+Per informazioni sull&#39;accesso a Workfront Planning, vedere [Panoramica dell&#39;accesso a Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
 
 ## Relazione tra i tipi di licenza di Workfront e le autorizzazioni di Workfront Planning
 
@@ -68,7 +72,7 @@ Gli amministratori di sistema possono visualizzare tutte le aree di lavoro del s
 >
 >Nella casella Condivisione è indicato che non è possibile concedere agli utenti le autorizzazioni per contribuire a o gestire un’area di lavoro quando dispongono di una licenza di livello inferiore, poiché tali livelli di autorizzazione sono disabilitati.
 >
->![](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
+><span class="preview">![](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)</span>
 
 
 ### Tipi di licenze e autorizzazioni di visualizzazione
@@ -83,4 +87,4 @@ Solo gli utenti con una licenza Standard possono disporre delle autorizzazioni d
 >
 >Nella casella di condivisione è indicato che non è possibile concedere agli utenti le autorizzazioni per gestire una visualizzazione quando dispongono di una licenza di livello inferiore, poiché tali livelli di autorizzazione sono disattivati.
 >
->![](assets/permissions-grayed-out-for-light-user.png)
+><span class="preview">![](assets/permissions-grayed-out-for-light-user.png)</span>

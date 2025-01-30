@@ -7,7 +7,7 @@ description: Scenario Planner richiede una licenza separata da Adobe Workfront e
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: 99711cef67750a04f7a971538a978eff3656ff85
+source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
 workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Prima di poter accedere a [!DNL Workfront Scenario Planner], è necessario verif
 
    * Per i piani Workfront correnti, l&#39;organizzazione deve disporre di entrambi i seguenti elementi:
 
-      * La tua organizzazione deve acquistare un piano [!DNL Workfront] [!UICONTROL Business] o superiore [!DNL Workfront]. Per informazioni sui piani [!DNL Workfront], vedere [Piani Workfront](https://workfront.com/plans).
+      * La tua organizzazione deve acquistare un piano [!DNL Workfront] [!UICONTROL Business] o superiore [!DNL Workfront]. Per informazioni sui piani [!DNL Workfront], vedere [Piani Workfront](https://www.workfront.com/plans).
 
       * La tua organizzazione deve acquistare una licenza di [!DNL Workfront Scenario Planner], oltre a una licenza di [!DNL Workfront]. Contatta il rappresentante commerciale [!DNL Workfront] per informazioni sulle licenze di [!DNL Workfront Scenario Planner].
 

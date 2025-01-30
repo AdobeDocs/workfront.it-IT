@@ -6,16 +6,20 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 7%
+source-wordcount: '664'
+ht-degree: 8%
 
 ---
 
 # Panoramica sui campi formula
 
 <!--when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula-->
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -175,9 +179,26 @@ OLD:
 
 ## Formule supportate
 
-I campi formula di Adobe Workfront Planning supportano tutte le espressioni dei campi calcolati di Workfront. Per un elenco delle espressioni di Workfront, vedere [Panoramica delle espressioni di dati calcolati](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+I campi formula di Adobe Workfront Planning supportano la maggior parte delle espressioni dei campi calcolati di Workfront.
 
-Sono inoltre supportate le seguenti espressioni per i campi formula di Workfront Planning:
+<!-- make the note available when WF releases the expressions listed in it: 
+
+>[!NOTE]
+>
+>The following Workfront expressions are not supported for Workfront Planning formula fields: 
+>
+>* SORTASCARRAY
+>* SORTDESCARRAY
+>* ADDHOUR
+>* SWITCH
+>* FORMAT
+-->
+
+Per un elenco completo delle espressioni di Workfront, vedere [Panoramica delle espressioni di dati calcolati](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+Sono inoltre supportate le seguenti espressioni per i campi formula di Workfront Planning. Le espressioni seguenti non sono supportate per le espressioni Workfront:
+
+<!--take these three out when they also come to WF and Lisa has added them to the WF expression article linked above-->
 
 <table style="table-layout:auto"> 
  <col> 
@@ -190,6 +211,21 @@ Sono inoltre supportate le seguenti espressioni per i campi formula di Workfront
  </thead> 
  <tbody>
 
+<tr>
+   <td><strong>MATRICE</strong> </td>
+   <td> <p>Converte una stringa in un array. Il delimitatore può essere una qualsiasi stringa.</p>
+   <p>L’espressione viene formattata come segue:</p>
+   <p><code>ARRAY(string1, "delimiter")</code></p>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>ARRAYELEMENT</strong> </td>
+   <td> <p>Restituisce l’elemento al numero specificato nella matrice. Se l’indice non rientra nei limiti, restituisce vuoto.</p>
+   <p>L’espressione viene formattata come segue:</p>
+   <p><code>ARRAYELEMENT(array, number)</code></p>
+   </td>
+  </tr>
+
 <tr> 
    <td><strong>ARRAYJOIN</strong> </td> 
    <td> <p>Restituisce una stringa concatenata per delimitatore.</p> <p>L’espressione viene formattata come segue:
@@ -197,6 +233,12 @@ Sono inoltre supportate le seguenti espressioni per i campi formula di Workfront
 <code>ARRAYJOIN(delimitatore,matrice)</code>
 </p>
    </td></tr>
+  <tr>
+   <td><strong>LUNGHEZZA MATRICE</strong> </td>
+   <td> <p>Restituisce il numero di elementi nella matrice e viene formattato come segue:</p>
+   <p><code>ARRAYLENGTH(array)</code></p>
+   </td>
+  </tr>
 
 <tr> 
    <td><strong>ARRAYUNIQUE</strong> </td> 

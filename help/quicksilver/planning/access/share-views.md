@@ -6,15 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1519'
 ht-degree: 1%
 
 ---
 
 
 # Condividere le visualizzazioni
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -31,7 +35,7 @@ ht-degree: 1%
 
 Potete condividere una vista con le seguenti entità:
 
-* Internamente, con utenti e gruppi di Workfront
+* Internamente, con utenti, gruppi, <span class="preview">team, aziende e ruoli di Workfront</span>
 * Pubblicamente, con utenti esterni a Workfront
 
 <!--
@@ -182,7 +186,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Condivisione interna delle autorizzazioni per una visualizzazione
 
-Puoi condividere con utenti o gruppi in Workfront le viste che hai creato o le viste per le quali disponi delle autorizzazioni di gestione.
+Puoi condividere le visualizzazioni che hai creato o le visualizzazioni per le quali disponi delle autorizzazioni di gestione con utenti, gruppi, <span class="preview">team, aziende e mansioni</span> in Workfront.
 
 >[!NOTE]
 >
@@ -204,12 +208,16 @@ Puoi condividere con utenti o gruppi in Workfront le viste che hai creato o le v
 
 1. (Facoltativo) Nell&#39;area **Chi ha accesso**, selezionare una delle opzioni seguenti:
 
-   * **L&#39;accesso è consentito solo alle persone invitate**: è necessario specificare gli utenti o i gruppi con cui si desidera condividere la visualizzazione. Questa è l&#39;opzione predefinita.
+   * **Solo le persone invitate possono accedere**: è necessario specificare gli utenti, i gruppi, il <span class="preview">team, la società o la mansione</span> con cui si desidera condividere la visualizzazione. Questa è l&#39;opzione predefinita.
    * **Tutti gli utenti nell&#39;area di lavoro possono visualizzare**: tutti gli utenti che dispongono di autorizzazioni di visualizzazione o di livello superiore per le aree di lavoro possono accedere alla visualizzazione.
 
-1. Nel campo **Concedi l&#39;accesso in visualizzazione a**, inizia a digitare il nome di un utente o di un gruppo, quindi fai clic su di esso quando viene visualizzato nell&#39;elenco.
+1. Nel campo **Concedi l&#39;accesso in visualizzazione a**, inizia a digitare il nome di un utente, un gruppo, <span class="preview">team, società o mansione</span> e fai clic su di esso quando viene visualizzato nell&#39;elenco.
+
+   <div class="preview">
 
    ![](assets/sharing-a-view-ui-with-groups.png)
+
+   </div>
 
 1. Seleziona uno dei seguenti livelli di autorizzazione dal menu a discesa:
    * Visualizza
@@ -308,7 +316,7 @@ Dalla notifica e-mail, fai clic su **Visualizza tutte le notifiche**, quindi fai
 1. Per rimuovere la condivisione interna di una vista, eseguire le operazioni seguenti:
 
    1. Verificare che la scheda **Condivisione interna** sia selezionata.
-   1. Individuare l&#39;utente o il gruppo da rimuovere, espandere il menu a discesa delle autorizzazioni a destra del nome dell&#39;utente o del gruppo, quindi fare clic su **Rimuovi**.
+   1. Individua l&#39;utente, il gruppo, il <span class="preview">team, la società o la mansione</span> che desideri rimuovere, espandi il menu a discesa delle autorizzazioni a destra del nome dell&#39;entità con cui stai condividendo la visualizzazione, quindi fai clic su **Rimuovi**.
 
 1. Per rimuovere la condivisione pubblica di una visualizzazione, eseguire le operazioni seguenti:
 
