@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 5620b1023e5708b7acf3aa2304b28a83112dbe55
+source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,6 @@ Per visualizzare questa pagina, vai a Configurazione > Gruppi > Seleziona un gru
 
 Questo aggiornamento include modifiche visive minori all’area. Nessuna funzionalità è stata modificata.
 
-
 ### Aggiornamenti dell’interfaccia per la scheda Notifiche promemoria in Configurazione
 
 **Anteprima versione: 23 gennaio 2025; Versione di produzione: da annunciare**
@@ -99,9 +98,21 @@ Gli elenchi Approvazioni progetti, attività e problemi sono stati aggiornati in
 
 Questo aggiornamento include modifiche visive all’area. Nessuna funzionalità è stata modificata.
 
+## Agile
+
+### Aggiornamento interfaccia per l&#39;elenco Iterazioni
+
+**Anteprima versione: 23 gennaio 2025; Versione di produzione: da annunciare**
+
+Abbiamo aggiornato l’elenco Team > Iterazioni con un design più moderno che è coerente con altre aree di Workfront.
+
+Questo aggiornamento include modifiche visive all’area. Nessuna funzionalità è stata modificata.
+
+Per visualizzare questa modifica, vai a Team > scegli un team > Iterazioni.
+
 ## Report e dashboard
 
-## Rapporti e-mail aggiornati con nuovo stile
+### Rapporti e-mail aggiornati con nuovo stile
 
 **Anteprima versione: 23 gennaio 2025; Versione di produzione: da annunciare**
 
@@ -114,7 +125,7 @@ Questo aggiornamento include modifiche visive all’area. Nessuna funzionalità 
 
 ### È stato aggiornato il rapporto di iterazione con un nuovo stile
 
-**Anteprima versione: 17 gennaio 2025; Versione di produzione: da annunciare**
+**Versione di anteprima: 17 gennaio 2025; versione di produzione: a partire dalla settimana del 20 gennaio 2025**
 
 Il rapporto Iterazioni è stato aggiornato con un design più moderno, coerente con le altre aree di Workfront.
 

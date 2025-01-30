@@ -6,14 +6,16 @@ description: Fare riferimento alle raccolte in un rapporto
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
 workflow-type: tm+mt
-source-wordcount: '2598'
+source-wordcount: '2539'
 ht-degree: 0%
 
 ---
 
 # Fare riferimento alle raccolte in un rapporto
+
+<!-- Audited: 1/2025 -->
 
 La creazione di un report in Adobe Workfront consente di visualizzare un set di oggetti, i rispettivi campi o gli oggetti collegati in un elenco, una griglia o un formato grafico.
 
@@ -23,32 +25,41 @@ Per ulteriori informazioni sulla creazione di un report in Workfront, vedere [Cr
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+Devi avere i seguenti:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano </p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> 
+      <p>Nuovo:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Corrente:</p>
+         <ul>
+         <li><p>Piano</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Gestire le autorizzazioni per una visualizzazione, un filtro o un raggruppamento </p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Gestire le autorizzazioni per una visualizzazione, un filtro o un raggruppamento </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -128,8 +139,9 @@ Ad esempio, è possibile visualizzare le informazioni sulle attività o sui prob
 
 È possibile visualizzare informazioni sulle attività o sui problemi, ad esempio nomi, date, assegnatari principali, percentuale di completamento e così via nella visualizzazione della raccolta.
 
-Nella visualizzazione le informazioni sulle attività o sui problemi vengono visualizzate in formato elenco, con ogni riga dell&#39;elenco che rappresenta le informazioni su un&#39;attività o un problema. L&#39;elenco delle attività o dei problemi e i relativi campi vengono visualizzati sulla stessa riga del progetto a cui appartengono le attività o i problemi.\
-![issue_and_tasks_collections_in_reports.png](assets/issue-and-tasks-collections-in-reports-350x171.png)
+Nella visualizzazione le informazioni sulle attività o sui problemi vengono visualizzate in formato elenco, con ogni riga dell&#39;elenco che rappresenta le informazioni su un&#39;attività o un problema. L&#39;elenco delle attività o dei problemi e i relativi campi vengono visualizzati sulla stessa riga del progetto a cui appartengono le attività o i problemi.
+
+![issue_and_tasks_collections_in_reports.png](assets/issue-and-tasks-collections-in-reports-350x171.png){width=400}
 
 * [Aggiungere una colonna della raccolta in una visualizzazione report](#add-a-collection-column-in-a-report-view)
 * [Comprendere le righe di una visualizzazione raccolta in modalità testo](#understand-the-lines-of-a-collection-view-in-text-mode)
@@ -144,7 +156,8 @@ Per aggiungere una colonna di raccolta in una visualizzazione report:
 1. Seleziona l’oggetto del rapporto.
 1. Esci dal report e, utilizzando [API Explorer](../../../wf-api/general/api-explorer.md), determina quali raccolte sono disponibili per l&#39;oggetto selezionato per il report.
 
-   Per ulteriori informazioni sulla selezione dell&#39;oggetto della raccolta, vedere la sezione [Trova gli oggetti della raccolta e i relativi campi in API Explorer](#find-collection-objects-and-their-fields-in-the-api-explorer) in questo articolo.\
+   Per ulteriori informazioni sulla selezione dell&#39;oggetto della raccolta, vedere la sezione [Trova gli oggetti della raccolta e i relativi campi in API Explorer](#find-collection-objects-and-their-fields-in-the-api-explorer) in questo articolo.
+
    Prendere nota del nome dell&#39;oggetto per l&#39;insieme.
 
 1. Utilizzando [API Explorer](../../../wf-api/general/api-explorer.md), vai all&#39;elenco dei campi per l&#39;oggetto che desideri visualizzare nell&#39;insieme.
@@ -155,7 +168,7 @@ Per aggiungere una colonna di raccolta in una visualizzazione report:
 
 1. Torna al report e nella scheda **Colonne (Visualizzazione)** fai clic su **Aggiungi colonna**.
 1. Fare clic su **Passa alla modalità testo**.
-1. Passa il puntatore del mouse sulla finestra di dialogo e fai clic su **Fai clic per modificare il testo**.
+1. Fare clic su **Modifica modalità testo**.
 1. Selezionare tutto il testo nella finestra di dialogo **Modalità testo** e rimuoverlo, quindi incollare il codice seguente se si fa riferimento a un campo dell&#39;oggetto raccolta:
 
    ```
@@ -223,7 +236,7 @@ Per aggiungere una colonna di raccolta in una visualizzazione report:
 
 1. Nel rapporto del progetto viene visualizzata la colonna seguente, in cui sono elencate tutte le attività di ciascun progetto insieme ai relativi assegnatari principali:
 
-   ![](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png)
+   ![](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
 
 1. Fai clic su **Salva**.
 1. (Facoltativo) Continua a modificare il rapporto.
@@ -311,7 +324,7 @@ Per aggiungere un riferimento a una raccolta in un filtro di report:
 
    Prendere nota del campo che si desidera visualizzare nella raccolta.
 
-1. Torna al report e nella scheda **Filtri** fai clic su **Passa alla modalità testo**.
+1. Tornare al report e nella scheda **Filtri** fare clic su **Passa alla modalità testo** e quindi su **Modifica modalità testo**.
 
 1. Nell&#39;area **Imposta regole filtro per il report**, incolla il seguente codice:
 
@@ -337,7 +350,7 @@ Per aggiungere un riferimento a una raccolta in un filtro di report:
 
    Questo report visualizza solo i progetti che hanno almeno un&#39;attività il cui nome contiene la parola &quot;marketing&quot;.
 
-   ![](assets/marketing-only-tasks-in-project-report-nwe-350x309.png)
+   ![](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
 
 1. Per filtrare in base al nome di un problema, utilizza il seguente codice:
 
@@ -391,7 +404,7 @@ Per aggiungere un riferimento a una raccolta nel prompt personalizzato di un rep
    ```
 
 1. (Facoltativo) Specifica se questa scelta viene visualizzata per impostazione predefinita nel prompt.
-1. Sostituisci **nome oggetto raccolta** con il nome dell&#39;oggetto raccolta come visualizzato in [API Explorer](../../../wf-api/general/api-explorer.md). Questo valore è in genere la forma plurale del nome dell&#39;oggetto raccolta.
+1. Sostituisci **nome oggetto raccolta** con il nome dell&#39;oggetto raccolta come visualizzato in [API Explorer](../../../wf-api/general/api-explorer.md). Questo valore è in genere la forma plurale del nome dell&#39;oggetto raccolta.
 1. Sostituisci il campo **oggetto raccolta** con il nome del campo dell&#39;oggetto raccolta, come visualizzato in [API Explorer](../../../wf-api/general/api-explorer.md).
 1. Sostituire **il valore dell&#39;oggetto raccolta** con il valore dell&#39;oggetto raccolta visualizzato in Workfront.
 
@@ -399,7 +412,7 @@ Per aggiungere un riferimento a una raccolta nel prompt personalizzato di un rep
 
 1. Sostituisci **il valore del modificatore** con un modificatore valido.
 
-   Per un elenco dei modificatori, vedi  [Filtri e modificatori di condizioni](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Per un elenco dei modificatori, vedere [Filtro e modificatori di condizione](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
    **Esempio:** Ad esempio, per creare un report di progetti con un prompt personalizzato in cui si desidera visualizzare solo i progetti a cui è stata assegnata almeno un&#39;attività, utilizzare il codice seguente:
 
@@ -423,7 +436,7 @@ Per aggiungere un riferimento a una raccolta nel prompt personalizzato di un rep
 
    >[!NOTE]
    >
-   >È necessario utilizzare **issues** per il nome dell&#39;oggetto raccolta. API Explorer  al momento non offre un nome di oggetto raccolta per i problemi.
+   >È necessario utilizzare **issues** per il nome dell&#39;oggetto raccolta. API Explorer non offre al momento un nome di oggetto raccolta per i problemi.
 
 1. Fai clic su **Fine**.
 1. (Facoltativo) Continua a modificare il rapporto.

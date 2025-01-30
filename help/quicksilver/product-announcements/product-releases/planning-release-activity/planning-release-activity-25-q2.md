@@ -6,9 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
+source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -20,6 +21,42 @@ Questo articolo descrive le funzioni rilasciate per Workfront Planning durante l
 <!--keep the sentence below for all future quarterly release pages-->
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Funzioni aggiunte ai campi formula
+
+>[!NOTE]
+>
+>Versione di anteprima: 30 gennaio 2025; versione di produzione per tutti i clienti: 30 gennaio 2025
+
+Nei campi delle formule di Workfront sono ora disponibili le seguenti espressioni: ARRAY, ARRAYLENGTH, ARRAYELEMENT. Le definizioni e gli esempi di ciascuna espressione sono disponibili nell’editor di formule.
+
+Per informazioni, vedere [Panoramica dei campi formula](/help/quicksilver/planning/fields/formula-fields.md).
+
+<!--## Real-time presence indicators in a record's details preview or page
+
+>[!NOTE]
+>
+>Preview release: January 30, 2025; Production for fast release: With the 25.2 release (February 2025); Production for quarterly release: With the 25.4 release (April 2025)
+
+To understand what information is edited by other users when working in a record's preview or details page, we have introduced real-time presence indicators for this area of Workfront Planning.
+
+The field edited by another user will now be highlighted, and other users' avatars will be visible to you in the upper-right corner of the preview or details page.
+
+For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).-->
+
+## Condivisione di Workfront Planning con team, mansioni e società
+
+>[!NOTE]
+>
+>Versione di anteprima: 30 gennaio 2025; produzione per rilascio rapido: con la versione 25.2 (febbraio 2025); produzione per rilascio trimestrale: con la versione 25.4 (aprile 2025)
+
+In Workfront Planning è ora possibile condividere visualizzazioni e aree di lavoro con team, mansioni e aziende. Prima di questo miglioramento, era possibile condividere visualizzazioni e aree di lavoro con utenti e gruppi.
+
+Per informazioni, vedere i seguenti articoli:
+
+[Condividere le visualizzazioni](/help/quicksilver/planning/access/share-views.md)
+
+[Condividere le aree di lavoro](/help/quicksilver/planning/access/share-workspaces.md)
 
 ## È ora possibile copiare e incollare testo esterno per connessioni e campi Persone
 

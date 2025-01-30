@@ -6,16 +6,16 @@ description: È possibile creare filtri in modalità testo complessi utilizzando
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
 workflow-type: tm+mt
-source-wordcount: '2660'
+source-wordcount: '2668'
 ht-degree: 0%
 
 ---
 
 # Creare filtri in modalità testo complessi utilizzando istruzioni EXISTS
 
-<!-- Audited: 01/2024 -->
+<!-- Audited: 01/2025 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: do not EVER&nbsp;delete this article as long as Text Mode still exists in the system.&nbsp;Google ordered this article to be written and we wrote it with the help of consultants, so the use case is very complex and very hard to understand without this. It is also very much used by many customers)</p>
@@ -92,7 +92,7 @@ Quando si utilizzano istruzioni EXISTS in un filtro, considera le seguenti regol
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+Devi avere i seguenti:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -104,12 +104,19 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td><p>Nuovo: Standard</p>
-       <p>Oppure</p>
-       <p>Corrente: Piano</p> </td> 
+   <td> 
+      <p>Nuovo:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Corrente:</p>
+         <ul>
+         <li><p>Piano</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare i filtri in un rapporto</p></td> 
   </tr> 
   <tr> 
@@ -119,7 +126,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -156,14 +163,14 @@ Per creare un filtro che si estenda su più livelli nella gerarchia degli oggett
    Ad esempio, crea un filtro Problema.\
    Per informazioni sulla creazione di filtri, vedere [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Fare clic su **Passa alla modalità testo**.
+1. Fare clic su **Passa alla modalità testo**, quindi su **Modifica modalità testo**.
 1. Incolla il seguente esempio di formula nell’interfaccia della modalità testo del nuovo filtro e sostituisci il testo di esempio con gli oggetti e i campi corretti:
 
-   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
-
-   `EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>`
-
-   `EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
+   ```
+   EXISTS:A:$$OBJCODE=<Object code of the Linking Object>
+   EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>
+   EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>
+   ```
 
    Ad esempio, utilizzando i campi identificati in precedenza, consulta la sezione [Esempio 1: filtrare i problemi in base al nome del proprietario del Portfolio](#example-1-filter-for-issues-by-portfolio-owner-name) in questo articolo.
 
@@ -204,12 +211,14 @@ Per creare un filtro che faccia riferimento a oggetti mancanti:
    Ad esempio, crea un filtro Parametro.\
    Per informazioni sulla creazione di filtri, vedere [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Fare clic su **Passa alla modalità testo**.
+1. Fare clic su **Passa alla modalità testo**, quindi su **Modifica modalità testo**.
 1. (Facoltativo) Se si applica un filtro per gli oggetti mancanti, incollare il seguente esempio di formula nell&#39;interfaccia della modalità testo del nuovo filtro e sostituire il testo di esempio con gli oggetti e i campi corretti:
 
-   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
-
-   `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
+   ```
+   EXISTS:A:$$OBJCODE=<Object code of the Linking Object>
+   EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>
+   EXISTS:A:$$EXISTSMOD=NOTEXISTS
+   ```
 
    Per un esempio di creazione di rapporti sui campi personalizzati non associati a Custom Forms, vedere la sezione [Esempio 2: Filtro per gli oggetti mancanti: campi personalizzati non visualizzati in alcun modulo personalizzato](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) in questo articolo.
 
@@ -228,22 +237,22 @@ Per filtrare i problemi in base al nome del proprietario del Portfolio:
 1. Creare un filtro Problema.\
    Per informazioni sulla creazione di filtri, vedere [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Fare clic su **Passa alla modalità testo**.
+1. Fare clic su **Passa alla modalità testo**, quindi su **Modifica modalità testo**.
 1. Fai riferimento al seguente codice generico:
 
-   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
-
-   `EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>`
-
-   `EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
+   ```
+   EXISTS:A:$$OBJCODE=<Object code of the Linking Object>
+   EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>
+   EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>
+   ```
 
 1. Incolla il seguente codice nell&#39;area **Imposta regole filtro per il report** per sostituire il codice generico precedente:
 
-   `EXISTS:A:$$OBJCODE=PROJ`
-
-   `EXISTS:A:ID=FIELD:projectID`
-
-   `EXISTS:A:portfolio:ownerID=4d94d7da001699b19edf50de15682221`
+   ```
+   EXISTS:A:$$OBJCODE=PROJ
+   EXISTS:A:ID=FIELD:projectID
+   EXISTS:A:portfolio:ownerID=4d94d7da001699b19edf50de15682221
+   ```
 
    >[!NOTE]
    >
@@ -270,20 +279,22 @@ Per filtrare i campi personalizzati non associati a un modulo personalizzato:
 1. Crea un filtro Parametro o Campo personalizzato.\
    Per informazioni sulla creazione di filtri, vedere [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Fare clic su **Passa alla modalità testo**.
+1. Fare clic su **Passa alla modalità testo**, quindi su **Modifica modalità testo**.
 1. Fai riferimento al seguente codice generico:
 
-   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
-
-   `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
+   ```
+   EXISTS:A:$$OBJCODE=<Object code of the Linking Object>
+   EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>
+   EXISTS:A:$$EXISTSMOD=NOTEXISTS
+   ```
 
 1. Incolla il seguente codice nell&#39;area **Imposta regole filtro per il report** per sostituire il codice generico precedente:
 
-   `EXISTS:A:$$OBJCODE=CTGYPA`
-
-   `EXISTS:A:parameterID=FIELD:ID`
-
-   `EXISTS:A:$$EXISTSMOD=NOTEXISTS`
+   ```
+   EXISTS:A:$$OBJCODE=CTGYPA
+   EXISTS:A:parameterID=FIELD:ID
+   EXISTS:A:$$EXISTSMOD=NOTEXISTS
+   ```
 
    >[!NOTE]
    >
@@ -305,16 +316,25 @@ Per filtrare gli utenti che non hanno registrato l&#39;ora durante la settimana 
 1. Creare un filtro Utente.\
    Per informazioni sulla creazione di filtri, vedere [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Fare clic su **Passa alla modalità testo**.
+1. Fare clic su **Passa alla modalità testo**, quindi su **Modifica modalità testo**.
 1. Fai riferimento al seguente codice generico:
 
-   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
-
-   `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
+   ```
+   EXISTS:A:$$OBJCODE=<Object code of the Linking Object>
+   EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>
+   EXISTS:A:$$EXISTSMOD=NOTEXISTS
+   ```
 
 1. Incolla il seguente codice nell&#39;area **Imposta regole filtro per il report** per sostituire il codice generico precedente:
 
-   `EXISTS:A:$$OBJCODE=HOUR<br>EXISTS:A:ownerID=FIELD:ID<br>EXISTS:A:entryDate=$$TODAYb-1w<br>EXISTS:A:entryDate_Range=$$TODAYe-1w<br>EXISTS:A:entryDate_Mod=between<br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
+   ```
+   EXISTS:A:$$OBJCODE=HOUR
+   EXISTS:A:ownerID=FIELD:ID
+   EXISTS:A:entryDate=$$TODAYb-1w
+   EXISTS:A:entryDate_Range=$$TODAYe-1w
+   EXISTS:A:entryDate_Mod=between
+   EXISTS:A:$$EXISTSMOD=NOTEXISTS
+   ```
 
    >[!NOTE]
    >
@@ -343,16 +363,18 @@ Per filtrare le attività in base al nome del proprietario del Portfolio e all�
 1. Crea un filtro Attività.\
    Per informazioni sulla creazione di filtri, vedere [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Fare clic su **Passa alla modalità testo**.
+1. Fare clic su **Passa alla modalità testo**, quindi su **Modifica modalità testo**.
 1. Incolla il seguente codice nell&#39;area **Imposta regole filtro per il report**:
 
-   `EXISTS:A:$$OBJCODE=PROJ`
-   `EXISTS:A:ID=FIELD:projectID`
-   `EXISTS:A:portfolio:ownerID=4d80ce5200000528787d57807732a33f`
-   `AND:A:EXISTS:A:$$EXISTSMOD=NOTEXISTS`
-   `AND:A:EXISTS:A:$$OBJCODE=PROJ`
-   `AND:A:EXISTS:A:ID=FIELD:projectID`
-   `AND:A:EXISTS:A:portfolio:alignmentScoreCardID=4da387b00001cbc732bb259355c33dad`
+   ```
+   EXISTS:A:$$OBJCODE=PROJ
+   EXISTS:A:ID=FIELD:projectID
+   EXISTS:A:portfolio:ownerID=4d80ce5200000528787d57807732a33f
+   AND:A:EXISTS:A:$$EXISTSMOD=NOTEXISTS
+   AND:A:EXISTS:A:$$OBJCODE=PROJ
+   AND:A:EXISTS:A:ID=FIELD:projectID
+   AND:A:EXISTS:A:portfolio:alignmentScoreCardID=4da387b00001cbc732bb259355c33dad
+   ```
 
    >[!NOTE]
    >

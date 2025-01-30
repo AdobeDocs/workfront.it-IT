@@ -6,9 +6,9 @@ description: È possibile includere più istruzioni quando si crea un filtro in 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: be145e22-d66c-4a74-af0e-8bb0598b4d67
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -19,12 +19,12 @@ ht-degree: 0%
 
 Per informazioni sulla creazione di filtri, consulta i seguenti articoli:
 
-* [Panoramica filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-* [Modificare un filtro utilizzando la modalità testo](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
+* [Panoramica filtri](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [Modificare un filtro utilizzando la modalità testo](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
 
 ## Operatori filtro modalità testo
 
-Per informazioni sugli operatori dei filtri Adobe Workfront nell&#39;interfaccia dei filtri standard, vedere [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Per informazioni sugli operatori dei filtri Adobe Workfront nell&#39;interfaccia dei filtri standard, vedere [Panoramica sui filtri](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 Workfront dispone di 2 operatori di filtro che collegano ogni istruzione di filtro:
 
@@ -36,7 +36,12 @@ Workfront dispone di 2 operatori di filtro che collegano ogni istruzione di filt
 
   **Esempio:** Per filtrare le attività con una data di completamento pianificata di oggi e una percentuale di completamento inferiore al 100%, utilizzare il codice in modalità testo seguente:
 
-  <pre>plannedCompletionDate=$$TODAY</pre><pre>plannedCompletionDate_Mod=eq</pre><pre>percentComplete=100</pre><pre>percentComplete_Mod=lt</pre>
+  ```
+  plannedCompletionDate=$$TODAY
+  plannedCompletionDate_Mod=eq 
+  percentComplete=100 percent
+  Complete_Mod=lt
+  ```
 
 * **OR**: quando si uniscono due istruzioni di filtro dell&#39;operatore OR, si indica che si desidera soddisfare una delle due istruzioni.
 
@@ -48,7 +53,12 @@ Workfront dispone di 2 operatori di filtro che collegano ogni istruzione di filt
 
   **Esempio:** Per filtrare le attività con una data di completamento pianificata di oggi o una percentuale di completamento inferiore al 100%, utilizzare il codice in modalità testo seguente:
 
-  <pre>plannedCompletionDate=$$TODAY</pre><pre>plannedCompletionDate_Mod=eq</pre><pre>OR:1:percentComplete=100</pre><pre>OR:1:percentComplete_Mod=lt</pre>
+  ```
+  plannedCompletionDate=$$TODAY
+  plannedCompletionDate_Mod=eq
+  OR:1:percentComplete=100
+  OR:1:percentComplete_Mod=lt
+  ```
 
 ## Sintassi in modalità testo per i filtri OR
 
@@ -58,7 +68,12 @@ La sintassi della modalità testo per un filtro OR deve contenere i seguenti ele
 
   Segui questo pattern durante la creazione di un filtro OR:
 
-  <pre><field name in camel case>=<value></pre><pre><field name in camel case>_Mod=<modifier value></pre><pre>OPPURE:1:<field name in camel case>=<value></pre><pre>OPPURE:1:<field name in camel case>_Mod=<modifier value></pre>
+  ```
+  <field name in camel case>=<value>
+  <field name in camel case>_Mod=<modifier value>
+  OR:1:<field name in camel case>=<value>
+  OR:1:<field name in camel case>_Mod=<modifier value>
+  ```
 
   >[!TIP]
   >
@@ -68,11 +83,25 @@ La sintassi della modalità testo per un filtro OR deve contenere i seguenti ele
 
   **Esempio:** Per filtrare le attività con data di completamento pianificata di oggi o con percentuale di completamento inferiore al 100% OPPURE con stato Nuovo, utilizzare il codice della modalità testo seguente:
 
-  <pre>plannedCompletionDate=$$TODAY</pre><pre>plannedCompletionDate_Mod=eq</pre><pre>OR:1:status=NEW</pre><pre>OR:1:status_Mod=in</pre><pre>OR:2:percentComplete=100</pre><pre>OR:2:percentComplete_Mod=lt</pre>
+  ```
+  plannedCompletionDate=$$TODAY
+  plannedCompletionDate_Mod=eq
+  OR:1:status=NEW
+  OR:1:status_Mod=in
+  OR:2:percentComplete=100
+  OR:2:percentComplete_Mod=lt
+  ```
 
 * Il nome dei campi o gli attributi a cui si fa riferimento in un filtro devono essere scritti in Camel Case. Per informazioni sull&#39;uso di Camel Case, vedere [Panoramica sulla sintassi della modalità testo](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 * Quando si fa riferimento a campi personalizzati in un filtro OR, è necessario inserire DE: tra la sintassi del modificatore OR e il nome del campo personalizzato. È necessario digitare il nome del campo personalizzato così come viene visualizzato nell&#39;interfaccia di Workfront.
 
   **Esempio:** Per filtrare le attività con uno stato Nuovo o una percentuale di completamento inferiore al 100% OPPURE un campo personalizzato denominato &quot;Tipo account&quot; con un valore &quot;Uguale a&quot;, utilizzare il codice della modalità testo seguente:
 
-  <pre>status=NEW</pre><pre>status_Mod=in</pre><pre>OR:1:percentComplete=100</pre><pre>OR:1:percentComplete_Mod=lt</pre><pre>OR:2:DE:Tipo di account=Capitale</pre><pre>OR:2:DE:Tipo di account_Mod=in</pre>
+  ```
+  status=NEW
+  status_Mod=in
+  OR:1:percentComplete=100
+  OR:1:percentComplete_Mod=lt
+  OR:2:DE:Account Type=Capital
+  OR:2:DE:Account Type_Mod=in
+  ```
