@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: get-started-with-workfront
 title: 'nozioni di base su Adobe Workfront: indice degli articoli'
-description: Esamina queste aree per comprendere le nozioni di base di Adobe Workfront e scopri come eseguire funzioni di base, come utilizzare l’area Home o Priorità, gestire il profilo dell’account, utilizzare l’Assistente AI o capire quali sono i requisiti del browser e le lingue supportate. Per informazioni sulla terminologia comune in Workfront, consulta il Glossario di Workfront.
+description: 'Rivedi queste sezioni per comprendere le nozioni di base di Adobe Workfront e scopri come eseguire funzioni di base: utilizzare l’area Home o Priorità, gestire il profilo dell’account e utilizzare l’Assistente IA. Scopri anche quali sono le lingue supportate e i requisiti del browser. Per informazioni sulla terminologia comune in Workfront, consulta il Glossario di Workfront.'
 author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
@@ -10,7 +10,7 @@ exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
 source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
 source-wordcount: '192'
-ht-degree: 0%
+ht-degree: 58%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!--Audited: 01/2025-->
 
-Esamina queste aree per comprendere le nozioni di base di Adobe Workfront e scopri come eseguire funzioni di base, come utilizzare l’area Home o Priorità, gestire il profilo dell’account, utilizzare l’Assistente AI o capire quali sono i requisiti del browser e le lingue supportate. Per informazioni sulla terminologia comune in Workfront, consulta il Glossario di Workfront.
+Rivedi queste sezioni per comprendere le nozioni di base di Adobe Workfront e scopri come eseguire funzioni di base: utilizzare l’area Home o Priorità, gestire il profilo dell’account e utilizzare l’Assistente IA. Scopri anche quali sono le lingue supportate e i requisiti del browser. Per informazioni sulla terminologia comune in Workfront, consulta il Glossario di Workfront.
 
 Questa sezione contiene le seguenti sottosezioni:
 
