@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
+source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 8%
+source-wordcount: '621'
+ht-degree: 7%
 
 ---
 
@@ -181,18 +181,16 @@ OLD:
 
 I campi formula di Adobe Workfront Planning supportano la maggior parte delle espressioni dei campi calcolati di Workfront.
 
-<!-- make the note available when WF releases the expressions listed in it: 
-
 >[!NOTE]
 >
->The following Workfront expressions are not supported for Workfront Planning formula fields: 
+>Le seguenti espressioni di Workfront non sono supportate per i campi formula di Workfront Planning:
 >
 >* SORTASCARRAY
 >* SORTDESCARRAY
 >* ADDHOUR
 >* SWITCH
->* FORMAT
--->
+>* FORMATO
+
 
 Per un elenco completo delle espressioni di Workfront, vedere [Panoramica delle espressioni di dati calcolati](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
@@ -211,21 +209,6 @@ Sono inoltre supportate le seguenti espressioni per i campi formula di Workfront
  </thead> 
  <tbody>
 
-<tr>
-   <td><strong>MATRICE</strong> </td>
-   <td> <p>Converte una stringa in un array. Il delimitatore può essere una qualsiasi stringa.</p>
-   <p>L’espressione viene formattata come segue:</p>
-   <p><code>ARRAY(string1, "delimiter")</code></p>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>ARRAYELEMENT</strong> </td>
-   <td> <p>Restituisce l’elemento al numero specificato nella matrice. Se l’indice non rientra nei limiti, restituisce vuoto.</p>
-   <p>L’espressione viene formattata come segue:</p>
-   <p><code>ARRAYELEMENT(array, number)</code></p>
-   </td>
-  </tr>
-
 <tr> 
    <td><strong>ARRAYJOIN</strong> </td> 
    <td> <p>Restituisce una stringa concatenata per delimitatore.</p> <p>L’espressione viene formattata come segue:
@@ -233,14 +216,7 @@ Sono inoltre supportate le seguenti espressioni per i campi formula di Workfront
 <code>ARRAYJOIN(delimitatore,matrice)</code>
 </p>
    </td></tr>
-  <tr>
-   <td><strong>LUNGHEZZA MATRICE</strong> </td>
-   <td> <p>Restituisce il numero di elementi nella matrice e viene formattato come segue:</p>
-   <p><code>ARRAYLENGTH(array)</code></p>
-   </td>
-  </tr>
-
-<tr> 
+    <tr> 
    <td><strong>ARRAYUNIQUE</strong> </td> 
    <td> <p>Restituisce una matrice con valori univoci.</p> <p>L’espressione viene formattata come segue:
 

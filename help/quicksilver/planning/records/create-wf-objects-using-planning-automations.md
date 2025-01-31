@@ -1,12 +1,12 @@
 ---
 title: Creazione di oggetti Workfront mediante Adobe Workfront Planning Record Automations
-description: In Workfront Planning è possibile configurare automazioni che, se attivate, creano oggetti in Workfront.
+description: In Adobe Workfront Planning è possibile configurare automazioni che, se attivate, creano oggetti in Workfront o record in Workfront Planning. Gli oggetti e i record creati vengono automaticamente connessi ai record di Planning esistenti.
 hide: true
 hidefromtoc: true
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1307'
 ht-degree: 3%
 
 ---
@@ -23,13 +23,16 @@ recommendations: noDisplay, noCatalog
 
 -->
 
+<!--add a new section to this article to mention a new way to create objects: help/quicksilver/planning/records/create-records.md-->
+<!-- add a new section to this article to mention a new way to create WF objects from Planning: help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md-->
+
 <!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
 
-In Adobe Workfront Planning è possibile configurare automazioni che, se attivate, creano oggetti in Workfront o Workfront Planning.
+In Adobe Workfront Planning è possibile configurare automazioni che, se attivate, creano oggetti in Workfront o registrano Workfront Planning. Gli oggetti o i record creati vengono automaticamente collegati ai record da cui si sta attivando l&#39;automazione.
 
-Puoi configurare e attivare l’automazione nella pagina del record. L&#39;oggetto creato viene connesso al record Planning e inserito nel campo specificato nell&#39;automazione.
+È possibile configurare e attivare l&#39;automazione nella pagina del record in Workfront Planning. L&#39;oggetto connesso creato viene inserito nel campo connesso del tipo di record da cui viene eseguita l&#39;automazione.
 
-Ad esempio, è possibile creare un&#39;automazione che accetta una campagna di Workfront Planning e crea un progetto in Workfront per tenere traccia dell&#39;avanzamento della campagna. Il progetto sarà collegato alla campagna di pianificazione di Workfront.
+Ad esempio, è possibile creare un&#39;automazione che accetta una campagna di Workfront Planning e crea un progetto in Workfront per tenere traccia dell&#39;avanzamento della campagna. Il progetto sarà collegato alla campagna di pianificazione di Workfront nel campo Progetto connesso della campagna.
 
 Per ulteriori informazioni sui record connessi, vedere [Panoramica sui record connessi](/help/quicksilver/planning/records/connected-records-overview.md).
 
@@ -109,12 +112,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Considerazioni sulla creazione di oggetti e record mediante un&#39;automazione
 
-* Il nome del nuovo oggetto o record corrisponde al nome del record da cui è stato creato.
-* Se nel record utilizzato per l&#39;automazione sono già connessi oggetti dello stesso tipo nel campo a cui si desidera aggiungere nuovi oggetti, i nuovi oggetti vengono aggiunti al campo di connessione e anche gli oggetti esistenti rimangono connessi.
+* Il nome del nuovo oggetto o record corrisponde al nome del record da cui è stato creato. <!--take this out when they add the field mapping - no longer just the name of the original record-->
+* I nuovi oggetti non sostituiscono quelli esistenti nello stesso campo.
+* L’automazione crea oggetti aggiuntivi solo nei campi del tipo di connessione Molti a molti o Uno a molti.
 
 ## Configurare un&#39;automazione in Workfront Planning
 
-È necessario configurare un&#39;automazione in Workfront Planning prima di poterla utilizzare per creare oggetti.
+È necessario configurare un&#39;automazione per un tipo di record in Workfront Planning prima di poterla utilizzare per creare oggetti.
 
 {{step1-to-planning}}
 
@@ -128,14 +132,16 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Fai clic su **Nuova automazione** nell&#39;angolo superiore destro dello schermo. Viene visualizzata la casella **Nuova automazione**.
 1. Aggiorna i campi seguenti:
 
-   * Sostituisci **Automazione senza titolo** con il testo che desideri visualizzare sul pulsante di automazione. Gli utenti faranno clic su questo pulsante quando utilizzano l’automazione per creare un oggetto Workfront.
+   * Sostituisci **Automazione senza titolo** con il testo che desideri visualizzare sul pulsante di automazione. Gli utenti faranno clic su questo pulsante quando utilizzano l&#39;automazione per creare un oggetto Workfront o un record Planning.
    * **Descrizione**: aggiungere una descrizione per identificare lo scopo dell&#39;automazione.
+1. Fai clic su **Salva**.
+Viene visualizzata la pagina dei dettagli dell’automazione.
 
 1. Nella pagina dei dettagli dell&#39;automazione, aggiorna i campi seguenti nella sezione **Triggers**:
 
    * **Trigger**: selezionare l&#39;azione che attiverà l&#39;automazione. Selezionare ad esempio **Pulsante clic**. <!--update this step with a list of all possible triggers; right not only Button click is available-->
 
-1. Aggiorna i campi seguenti nella sezione **Azioni**:
+1. Aggiorna i campi seguenti nella sezione **Azioni**: <!--submitted bugs for these fields - see if they need changing here-->
    * **Tipo di oggetto**: selezionare l&#39;oggetto da creare con l&#39;automazione. Questo è un campo obbligatorio.
 
      È possibile creare i seguenti oggetti dai record di Workfront Planning:
@@ -163,25 +169,26 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
       * **Modulo personalizzato da allegare al nuovo gruppo**: selezionare un modulo personalizzato da allegare al nuovo programma. È necessario creare un modulo personalizzato per il programma prima di selezionarlo.
    * **Record**:
       * **Tipo di record connesso**: selezionare il tipo di record che si desidera creare.
-      * **Campo connesso in cui viene creato il record**: campo connesso in cui verrà visualizzato il nuovo record. Questo è un campo obbligatorio.
-      * **Campo mappa**: selezionare i campi dal tipo di record per il quale viene creata l&#39;automazione per eseguirne il mapping ai campi del tipo di record connesso.
-      * **Al campo record connesso**: selezionare dal record connesso i campi corrispondenti ai campi del tipo di record per cui si crea l&#39;automazione.
+      * **Campo connesso in cui viene creato il record**: campo connesso in cui verrà visualizzato il nuovo record. Questo campo è obbligatorio. <!--this might need revision as right now it shows the field on the connected record table where the current record will display; submitted a bug to correct this label-->
+      * **Mappa campi**
+         * **Trasferisci da**: seleziona i campi dal tipo di record per il quale viene creata l&#39;automazione per eseguirne il mapping ai campi del tipo di record connesso.
+      * **Trasferisci a**: seleziona dal nuovo record appena creato i campi che verranno compilati con le informazioni del record da cui stai eseguendo l&#39;automazione.
+1. (Facoltativo e condizionale) Se hai scelto di creare un record, fai clic su **Aggiungi campi** per mappare campi di ricerca aggiuntivi da un record all&#39;altro.
 1. (Facoltativo e condizionale) Se non si dispone di un campo connessione per un tipo di oggetto Workfront, fare clic sull&#39;icona **Crea un campo connessione** ![](assets/create-a-connection-field-icon.png) per aggiungere un campo.
-1. (Facoltativo e condizionale) Se hai scelto di aggiungere un record, fai clic su **Aggiungi** nell&#39;area **Mappa campi** per aggiungere e mappare campi aggiuntivi, quindi seleziona un campo a **Trasferisci da** e un campo a **Trasferisci a** per indicare quale campo del record selezionato originariamente deve essere visualizzato in quale campo del record connesso.
-1. Fai clic su **Salva**.
+1. Fai clic su **Salva** nell&#39;angolo superiore destro della pagina dei dettagli di automazione.
 
    L’automazione viene visualizzata nell’elenco delle automazioni ed è disponibile per l’utilizzo nei record.
 1. (Facoltativo) Per modificare, disabilitare o eliminare un&#39;automazione, effettuare le seguenti operazioni:
 
-   Nell&#39;elenco delle automazioni, passare il puntatore del mouse sul nome di un&#39;automazione salvata, quindi fare clic sul menu **Altro** ![](assets/more-menu.png) e scegliere una delle opzioni seguenti:
+   1. Nell&#39;elenco delle automazioni, passare il puntatore del mouse sul nome di un&#39;automazione salvata, quindi fare clic sul menu **Altro** ![](assets/more-menu.png).
 
-   * **Modifica**: aggiorna le informazioni e configura i campi nell&#39;automazione.
-   * **Disabilita**: l&#39;automazione non verrà visualizzata come opzione nella barra degli strumenti della vista tabella dei record e gli utenti non potranno più utilizzarla per creare record o oggetti. Per renderla nuovamente disponibile, fai clic di nuovo sul menu **Altro** ![](assets/more-menu.png), quindi fai clic su **Attiva**.
-   * **Elimina**: l&#39;automazione viene eliminata e non può essere ripristinata. I record creati con l&#39;automazione rimangono collegati al record selezionato originariamente.
+   1. Fai clic su **Modifica** per aggiornare le informazioni sui campi e configurarli nell&#39;automazione.
+   1. Fare clic su **Disattiva** per rimuovere l&#39;automazione dalla visualizzazione tabella e impedire agli utenti di utilizzarla per creare record o oggetti. Per renderla nuovamente disponibile, fai clic di nuovo sul menu **Altro** ![](assets/more-menu.png), quindi fai clic su **Attiva**.
+   1. Fai clic su **Elimina** per eliminare l&#39;automazione. Non è possibile recuperare un’automazione eliminata. I record creati con l&#39;automazione rimangono collegati al record selezionato originariamente.
 
-## Utilizzare un&#39;automazione di Workfront Planning per creare un oggetto
+## Utilizzare un&#39;automazione di Workfront Planning per creare un oggetto o un record
 
-1. In Workfront Planning aprire la pagina del tipo di record contenente i record che si desidera utilizzare per creare oggetti Workfront.
+1. In Workfront Planning aprire la pagina del tipo di record contenente i record che si desidera utilizzare per creare oggetti di Workfront o record di Planning.
 1. Aprire la vista tabella.
 1. Selezionare uno o più record.
 
@@ -190,7 +197,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    ![Pulsante di automazione](assets/automation-custom-button.png)
 
-   Il nuovo oggetto viene visualizzato nel campo connesso indicato nella configurazione del pulsante di automazione.
+   Se l’automazione ha creato un oggetto o un record, nella parte inferiore dello schermo viene visualizzato un messaggio di conferma.
+
+   Il nuovo oggetto viene visualizzato nel campo connesso indicato nella configurazione del pulsante di automazione. Potrebbe essere necessario aggiornare la pagina prima di visualizzare il nuovo oggetto.
 
    >[!NOTE]
    >
