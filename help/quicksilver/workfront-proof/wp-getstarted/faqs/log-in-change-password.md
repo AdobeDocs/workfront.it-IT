@@ -8,9 +8,9 @@ description: L’amministratore di Workfront Proof può impostare un branding pe
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c67d411e-1cea-4a89-94a3-7503c4ce2eb7
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 0de21a39e2a4d2239e89eb2b10e44d9c9aa91a27
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## Accesso
 
-1. Vai alla [pagina di accesso](https://www.proofhq.com/login) (o al nostro sito Web all&#39;indirizzo [www.proofhq.com](https://www.proofhq.com/)).
+1. Vai alla [pagina di accesso](https://app.proofhq.com/login).
 
 1. Fai clic sul pulsante [!UICONTROL accesso] in alto a destra.
 1. Inserisci il tuo indirizzo e-mail e la tua password.\
@@ -46,7 +46,7 @@ Per i piani [!UICONTROL Enterprise] e [!UICONTROL Unlimited], è disponibile la 
 
 Se dimentichi la password, puoi ricevere un messaggio e-mail di reimpostazione da [!DNL Workfront Proof].
 
-1. Vai alla [pagina di accesso](https://www.proofhq.com/login) (o al nostro sito Web all&#39;indirizzo [www.proofhq.com](https://www.proofhq.com/)).
+1. Vai alla [pagina di accesso](https://app.proofhq.com/login).
 
 1. Fai clic su **[!UICONTROL Password dimenticata?]**
 1. Nella casella visualizzata digitare l&#39;indirizzo di posta elettronica e quindi fare clic su **[!UICONTROL Ottieni collegamento]**.
