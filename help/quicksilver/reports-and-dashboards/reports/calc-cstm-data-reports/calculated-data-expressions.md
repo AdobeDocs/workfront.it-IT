@@ -7,9 +7,9 @@ description: Puoi utilizzare le espressioni di dati per definire campi di dati p
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: b60a1e74d62e9b3945f69dc590f8cc202302c5af
 workflow-type: tm+mt
-source-wordcount: '2165'
+source-wordcount: '2425'
 ht-degree: 0%
 
 ---
@@ -131,6 +131,13 @@ Puoi creare un campo personalizzato calcolato per la data o l’ora utilizzando 
 
 <p><code>ADDYEARS(date, number)</code></p> </td> 
   </tr> 
+  <tr> 
+   <td><strong>ADDHOUR</strong> </td> 
+   <td> <p>Aggiunge il numero di ore alla data e viene formattato come segue:</p>
+
+<p><code>ADDHOUR(date, number)</code></p>
+   <p>Nota: questa funzione non è supportata in Workfront Planning.</p></td> 
+  </tr>
   <tr> 
    <td><strong>CLEARTIME</strong> </td> 
    <td> <p>Cancella la porzione di ora di una data e viene formattata come segue. In questo esempio, la data corrisponde alla data di immissione di un oggetto di lavoro.</p>
@@ -378,6 +385,42 @@ Puoi creare un campo personalizzato calcolato per la data o l’ora utilizzando 
  </thead> 
  <tbody> 
   <tr> 
+   <td><strong>MATRICE</strong> </td> 
+   <td> <p>Converte una stringa in un array. Il delimitatore può essere una qualsiasi stringa.</p> 
+   <p>L’espressione viene formattata come segue:</p>
+   <p><code>ARRAY(string1, "delimiter")</code></p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong>LUNGHEZZA MATRICE</strong> </td> 
+   <td> <p>Restituisce il numero di elementi nella matrice e viene formattato come segue:</p>
+   <p><code>ARRAYLENGTH(array)</code></p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong>ARRAYELEMENT</strong> </td> 
+   <td> <p>Restituisce l’elemento al numero specificato nella matrice. Se l’indice non rientra nei limiti, restituisce vuoto.</p> 
+   <p>L’espressione viene formattata come segue:</p>
+   <p><code>ARRAYELEMENT(array, number)</code></p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong>SORTASCARRAY</strong> </td> 
+   <td> <p>Ordina gli elementi della matrice in ordine crescente e li converte nel tipo del primo elemento.</p>
+   <p>L’espressione viene formattata come segue:</p>
+   <p><code>SORTASCARRAY(array)</code></p>
+   <p>Ad esempio, ["-12,6", -13,0] diventa ["-12,6", "-13"].</p>
+   <p>Nota: questa funzione non è supportata in Workfront Planning.</p></td> 
+  </tr>
+  <tr> 
+   <td><strong>DESCARRAY ORDINARIO</strong> </td> 
+   <td> <p>Ordina gli elementi della matrice in ordine decrescente e li converte nel tipo del primo elemento.</p>
+   <p>L’espressione viene formattata come segue:</p>
+   <p><code>SORTDESCARRAY(array)</code></p>
+   <p>Ad esempio, ["-12,6", -13,0] diventa ["-13", "-12,6"].</p>
+   <p>Nota: questa funzione non è supportata in Workfront Planning.</p></td> 
+  </tr>
+  <tr>   
    <td><strong>CASO</strong> </td> 
    <td> <p>Viene utilizzato con altre espressioni per scegliere un valore da un elenco in base a un numero di indice. </p>
    <p>Un numero di indice è un campo o una funzione che restituisce un valore numerico (in genere in un intervallo noto).</p> 
@@ -413,6 +456,13 @@ Puoi creare un campo personalizzato calcolato per la data o l’ora utilizzando 
 
 <p><code>ENCODEURL(string)</code></p></td> 
   </tr> 
+  <tr> 
+   <td><strong>FORMATO</strong> </td> 
+   <td><p>Restituisce il testo formattato. Le opzioni di colore sono $$POSITIVE, $$INFORMATIVE, $$NEGATIVE, $$NOTICE e le altre opzioni di formattazione sono $$BOLD, $$ITALIC, $$UNDERLINE. È possibile utilizzare una sola opzione di colore per funzione, insieme ad altre tre opzioni di formattazione. Se non viene specificata alcuna opzione di colore, viene applicato il colore predefinito del sistema.</p>
+   <p>L’espressione viene formattata come segue:</p>
+   <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
+   <p>Nota: questa funzione non è supportata in Workfront Planning.</p></td> 
+  </tr>   
   <tr> 
    <td><strong>SE</strong> </td> 
    <td> <p>Valuta una condizione specificata e restituisce il valore di trueExpression se è true oppure il valore di falseExpression se è false.</p>
@@ -504,18 +554,16 @@ Puoi creare un campo personalizzato calcolato per la data o l’ora utilizzando 
    <td> <p>Converte un numero in una stringa e viene formattato come segue:</p>
 
 <p><code>STRING(number)</code></p> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td><strong>STRINGAORDINAMENTO</strong> </td> 
    <td> <p>Ordina un elenco di stringhe in ordine crescente e viene formattato come segue:</p>
-
-<p><code>SORTASCSTRING(string1, string2, ...)</code></p> </td> 
-  </tr> 
+   <p><code>SORTASCSTRING(string1, string2, ...)</code></p> </td> 
+  </tr>
   <tr> 
    <td><strong>STRINGAORDINAMENTO</strong> </td> 
    <td> <p> Ordina un elenco di stringhe in ordine decrescente e viene formattato come segue:</p>
-
-<p><code>SORTDESCSTRING(string1, string2, ...)</code></p> </td> 
+   <p><code>SORTDESCSTRING(string1, string2, ...)</code></p> </td> 
   </tr> 
   <tr> 
    <td><strong>SUBSTR</strong> </td> 
@@ -523,6 +571,13 @@ Puoi creare un campo personalizzato calcolato per la data o l’ora utilizzando 
 
 <p><code>SUBSTR({string}, number of start position, number of end position)</code></p> </td> 
   </tr> 
+  <tr> 
+   <td><strong>OPZIONE</strong> </td> 
+   <td> <p>Valuta l'espressione rispetto a un elenco di valori e restituisce il risultato corrispondente al primo valore corrispondente.</p>
+   <p>L’espressione è formattata come segue:</p>
+   <p><code>SWITCH(expression, value1, result1, [value2, result2], ...)</code></p>
+   <p>Funzione non supportata in Workfront Planning.</p></td> 
+  </tr>   
   <tr> 
    <td><strong>RITAGLIA</strong> </td> 
    <td> <p>Rimuove lo spazio vuoto dall'inizio e dalla fine di una stringa e viene formattato come segue:</p>
