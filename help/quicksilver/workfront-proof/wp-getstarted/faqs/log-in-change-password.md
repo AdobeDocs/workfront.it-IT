@@ -8,7 +8,7 @@ description: L’amministratore di Workfront Proof può impostare un branding pe
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c67d411e-1cea-4a89-94a3-7503c4ce2eb7
-source-git-commit: 0de21a39e2a4d2239e89eb2b10e44d9c9aa91a27
+source-git-commit: e842e6714d6fa9c3944f03723f95029af1a85379
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 0%
@@ -22,6 +22,7 @@ ht-degree: 0%
 >Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Accesso
+
 
 1. Vai alla [pagina di accesso](https://app.proofhq.com/login).
 
@@ -45,6 +46,7 @@ Per i piani [!UICONTROL Enterprise] e [!UICONTROL Unlimited], è disponibile la 
 ## Quando Dimentichi La Password {#when-you-forget-your-password}
 
 Se dimentichi la password, puoi ricevere un messaggio e-mail di reimpostazione da [!DNL Workfront Proof].
+
 
 1. Vai alla [pagina di accesso](https://app.proofhq.com/login).
 

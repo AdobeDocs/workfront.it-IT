@@ -6,10 +6,10 @@ description: Ogni widget contiene il proprio elenco di lavoro. Negli elenchi di 
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
+source-git-commit: 107bb601b8d4fd9376657b5cf5840cee5d086613
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 6%
+source-wordcount: '991'
+ht-degree: 4%
 
 ---
 
@@ -59,6 +59,40 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Requisiti per gli elementi di lavoro da visualizzare nell’elenco lavori
+
+Esistono requisiti incorporati per i quali gli elementi di lavoro vengono visualizzati in determinati elenchi di lavoro dei widget. Gli elementi di lavoro devono soddisfare questi requisiti per essere visualizzati negli elenchi di lavoro dei widget seguenti.
+
+### Widget attività personali
+
+Le attività devono soddisfare i seguenti requisiti per essere visualizzate nel widget Le mie attività:
+
+* Lo stato dell&#39;attività non corrisponde a Completo.
+* L&#39;utente connesso deve essere assegnato all&#39;attività.
+* Lo stato dell&#39;attività non è uguale a Fine.
+* Lo stato del progetto a cui appartiene l&#39;attività deve essere Corrente.
+
+
+### Widget problemi personali
+
+Affinché i problemi vengano visualizzati nel widget I miei problemi, è necessario che soddisfino i seguenti requisiti:
+
+* L&#39;utente connesso deve essere assegnato al problema.
+* Lo stato del problema non corrisponde a Completo.
+* Non è presente un oggetto non risolto associato al problema.
+* Lo stato del problema non è uguale a Fine.
+* Lo stato del progetto a cui appartiene il problema deve essere Corrente.
+
+### Widget team personali
+
+Per essere visualizzate nel widget Team personali, le richieste del team devono soddisfare i seguenti requisiti:
+
+* L&#39;utente connesso appartiene al team a cui è assegnato l&#39;elemento di lavoro.
+* Lo stato dell&#39;elemento di lavoro non equivale a Completato.
+* All&#39;elemento di lavoro non è associato un processo di approvazione non risolto.
+* L&#39;elemento di lavoro non è un&#39;attività ricorrente.
+* Lo stato del progetto a cui appartiene l&#39;elemento di lavoro deve essere Corrente.
 
 ## Filtrare il lavoro
 
