@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 99431b88648919c5f4f90228dbedd97cd2efbd65
+source-git-commit: d8a76c9afacde32336fb8de4da531173e323112a
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1134'
 ht-degree: 0%
 
 ---
@@ -109,6 +109,17 @@ Gli elenchi Approvazioni progetti, attività e problemi sono stati aggiornati in
 Questo aggiornamento include modifiche visive all’area. Nessuna funzionalità è stata modificata.
 
 ## Agile
+
+## Aggiornamento dell’interfaccia per l’area Team > Backlog
+
+**Versione di anteprima: 23 gennaio 2025; versione di produzione: a partire dalla settimana del 13 febbraio 2025**
+
+Abbiamo aggiornato l’area Team > Backlog con un design più moderno che è coerente con altre aree di Workfront.
+
+Questo aggiornamento include le seguenti modifiche:
+
+* Miglioramenti visivi alla scheda Storie e problemi e alla finestra di dialogo Breakdown Story
+* Una nuova finestra di dialogo per lo strumento Iterazione piano
 
 ### Aggiornamento interfaccia per l&#39;elenco Iterazioni
 

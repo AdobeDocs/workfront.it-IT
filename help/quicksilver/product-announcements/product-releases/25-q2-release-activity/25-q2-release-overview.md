@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 31d8528c5e6d31e59492f869a426dc0a5d484edb
+source-git-commit: dcfae507d531e0062bfa9552f6c397be3e8bb007
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -83,20 +83,20 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
             </ul>
         </td>
     </tr>
-    <tr>
+    <!--<tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">
-            Aggiornamenti look-and-feel durante l’arco temporale del secondo trimestre 2025</a></p>
-            <p>Aggiornamenti minori al look and feel di varie aree dell’applicazione Adobe Workfront vengono effettuati entro l’arco temporale del secondo trimestre 2025. Consulta le singole note sulla versione per specifiche date di rilascio.</p>
+            Look-and-feel updates during the Second Quarter 2025 timeframe</a></p>
+            <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the Second Quarter 2025 timeframe. Review the individual release notes for specific release dates.</p>
         </td>
         <td>
-            <p><b>Disponibile in queste date:</b></p>
+            <p><b>Available on these dates:</b></p>
             <ul>
-                <li>Versione di anteprima: nell’arco temporale di rilascio del secondo trimestre 2025</li>
-                <li><span class="preview">Versione di produzione: consulta le note sulla versione per date specifiche</span></li>
+                <li>Preview release: Throughout the Second Quarter 2025 release timeframe</li>
+                <li><span class="preview">Production release: Review the release notes for specific dates</span></li>
             </ul>
         </td>
-    </tr>
+    </tr>-->
 </tbody>
 </table>
 
