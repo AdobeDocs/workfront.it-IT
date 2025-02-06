@@ -6,7 +6,7 @@ description: È possibile visualizzare tutte le iterazioni per un determinato te
 author: Lisa
 feature: Agile
 exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Nel pannello a sinistra, seleziona **[!UICONTROL Iterazioni]** per scegliere un&#39;iterazione specifica oppure seleziona **[!UICONTROL Iterazione corrente]**.
 
-   ![Elenco iterazioni](assets/view-iteration-NWE.png)
+   ![Elenco iterazioni](assets/view-iteration-list.png)
 
    >[!NOTE]
    >

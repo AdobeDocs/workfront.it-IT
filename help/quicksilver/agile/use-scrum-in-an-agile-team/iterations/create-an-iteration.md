@@ -6,9 +6,9 @@ description: Le iterazioni sono un componente chiave per i team agili Scrum nell
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -48,18 +48,19 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Aggiungi un’iterazione
 
-Utilizza la funzione [!UICONTROL Aggiungi iterazione] per creare rapidamente un&#39;iterazione e aggiungere attività e problemi in un secondo momento.
+È possibile aggiungere un&#39;iterazione nell&#39;elenco per creare rapidamente un&#39;iterazione e aggiungervi attività e problemi in un secondo momento.
 
 {{step1-to-team}}
 
 1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Cambia team](assets/switch-team-icon.png), quindi seleziona un nuovo team Scrum dal menu a discesa o cerca un team nella barra di ricerca.
 
 1. Nella scheda **[!UICONTROL Iterazioni]**, fare clic su **[!UICONTROL Aggiungi iterazione]**.
-   ![](assets/add-iteration-adobe-350x275.png)
+
+   ![Fare clic su Aggiungi iterazione](assets/click-add-iteration.png)
 
 1. Specifica quanto segue:
 
-   <table style="table-layout:auto"> 
+   <table style="table-layout:auto">
     <col> 
     <col> 
     <tbody> 
@@ -90,7 +91,7 @@ Utilizza la funzione [!UICONTROL Aggiungi iterazione] per creare rapidamente un&
     </tbody> 
    </table>
 
-1. Fai clic su **[!UICONTROL Invia]**. Ora che hai creato un’iterazione, devi aggiungere delle storie. Per ulteriori informazioni, vedere [Aggiungere brani a un&#39;iterazione esistente](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+1. Fare clic su **[!UICONTROL Aggiungi iterazione]**. Ora che hai creato un’iterazione, devi aggiungere delle storie. Per ulteriori informazioni, vedere [Aggiungere brani a un&#39;iterazione esistente](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
 
 ## Pianifica un&#39;iterazione nella scheda [!UICONTROL Backlog]
 

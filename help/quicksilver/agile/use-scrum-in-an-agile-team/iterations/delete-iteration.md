@@ -6,9 +6,9 @@ description: Se non è più necessaria, puoi eliminare un’iterazione per il te
 author: Lisa
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '165'
 ht-degree: 1%
 
 ---
@@ -57,4 +57,4 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Cambia team](assets/switch-team-icon.png), quindi seleziona un nuovo team Scrum dal menu a discesa o cerca un team nella barra di ricerca.
 
 1. Nel pannello a sinistra, seleziona **[!UICONTROL Iterazioni]**.
-1. Selezionare l&#39;iterazione da eliminare, quindi fare clic su **[!UICONTROL Elimina]**.
+1. Seleziona l&#39;iterazione da eliminare, quindi fai clic sull&#39;icona [!UICONTROL **Elimina**] ![Elimina](assets/delete-icon.png).
