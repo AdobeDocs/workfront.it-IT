@@ -7,9 +7,9 @@ description: Le notifiche e-mail generate da Workfront Proof informano i collabo
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: 12f1443d69bb9306af29e4ab295f701089cdfb88
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '2063'
+source-wordcount: '2065'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 È possibile modificare gli avvisi e-mail per un destinatario specifico in un&#39;azione batch.
 
 1. Fai clic su **[!UICONTROL Contatti]** nel pannello di navigazione a sinistra.
-1. Fai clic sul menu **[!UICONTROL Altro]** ![](assets/more-button-small.png) per il destinatario, quindi fai clic su **[!UICONTROL Visualizza dettagli membro]** nel menu a discesa.
+1. Fai clic sul menu **[!UICONTROL Altro]** ![Altro menu](assets/more-button-small.png) per il destinatario, quindi fai clic su **[!UICONTROL Visualizza dettagli membro]** nel menu a discesa.
 
 1. Apri la sezione **[!UICONTROL Elementi condivisi]**.
 1. Seleziona la casella di controllo a sinistra di ogni elemento per il quale desideri modificare l’avviso e-mail.

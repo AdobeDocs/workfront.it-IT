@@ -7,9 +7,9 @@ description: Puoi visualizzare confronti affiancati di due bozze. Possono essere
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d4ec0c53-1451-4475-aa38-2319c6432936
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '949'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Puoi visualizzare confronti affiancati di due bozze. Possono essere due versioni
 1. Apri la bozza con più versioni che desideri confrontare.
 1. Nell&#39;angolo superiore sinistro del visualizzatore di bozze visualizzato fare clic sul nome della bozza. Nell&#39;elenco delle versioni visualizzate fare clic sull&#39;icona **Confronta** accanto alla versione che si desidera aprire e confrontare.
 
-   ![](assets/compare-proofs-choose-version-350x115.jpg)
+   ![Confronta bozze scegli versione](assets/compare-proofs-choose-version-350x115.jpg)
 
    Le bozze vengono visualizzate una accanto all’altra, con la versione più recente a sinistra.
 

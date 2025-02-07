@@ -7,9 +7,9 @@ description: Il pannello Flusso di lavoro visualizza il flusso di lavoro della b
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 4e6736bb-2859-4309-841b-67ed83dab6a0
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Per accedere al pannello [!UICONTROL Flusso di lavoro]:
 
    Viene visualizzato il pannello **[!UICONTROL Workflow]**.
 
-   ![](assets/workflow-panel-350x115.png)
+   ![Pannello Flusso di lavoro](assets/workflow-panel-350x115.png)
 
    Ogni sezione del pannello Flusso di lavoro mostra l’avanzamento e lo stato di bozza, fasi e revisori.
 

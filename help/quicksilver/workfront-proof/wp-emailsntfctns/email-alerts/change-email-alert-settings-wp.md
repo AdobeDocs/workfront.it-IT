@@ -7,9 +7,9 @@ description: Puoi anche modificare gli  [!DNL Workfront Proof] avvisi e-mail ric
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ac24a339-6f9f-4452-a37b-023752447700
-source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## Modificare gli avvisi e-mail per i revisori su una bozza
 
-1. Da qualsiasi visualizzazione elenco, fai clic sul menu **[!UICONTROL Altro]** a destra della bozza. ![](assets/more-button-small.png)
+1. Da qualsiasi visualizzazione elenco, fai clic sul menu **[!UICONTROL Altro]** a destra della bozza. ![Altro menu](assets/more-button-small.png)
 
 1. Fai clic su **[!UICONTROL Visualizza dettagli bozza]**.
 1. Nella pagina **[!UICONTROL Dettagli bozza]**, apri il menu a discesa [!UICONTROL avviso e-mail] per un revisore, quindi seleziona la nuova impostazione.

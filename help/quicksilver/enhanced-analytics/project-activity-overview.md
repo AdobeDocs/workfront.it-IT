@@ -7,9 +7,9 @@ description: La visualizzazione delle attività del progetto mostra una visualiz
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9ef52be8-48d0-4f83-a214-dd32e794c73e
-source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '778'
 ht-degree: 8%
 
 ---
@@ -68,15 +68,15 @@ Le attività del progetto vengono visualizzate in colori diversi per riepilogare
 
 * **Utenti connessi**: le caselle viola mostrano che gli utenti assegnati al progetto hanno effettuato l&#39;accesso in quel giorno. Una tonalità più scura indica un numero maggiore di utenti che effettuano l’accesso.
 
-  ![](assets/project-activity-users-logged-in.png)
+  ![Utenti connessi](assets/project-activity-users-logged-in.png)
 
 * **Modifica stato attività**: le caselle di colore rosa indicano che in quel giorno le persone hanno modificato lo stato di un&#39;attività per il progetto. Una tonalità più scura indica un numero maggiore di cambiamenti di stati delle attività.
 
-  ![](assets/project-activity-task-status-changes.png)
+  ![Modifica stato attività](assets/project-activity-task-status-changes.png)
 
 * **Attività completate**: le caselle blu indicano che le persone hanno completato un&#39;attività per il progetto. Una tonalità più scura indica un numero maggiore di attività completate.
 
-  ![](assets/project-activity-tasks-completed.png)
+  ![Attività completate](assets/project-activity-tasks-completed.png)
 
 Passando il puntatore del mouse su una casella viene visualizzato il numero esatto di volte in cui l’azione è stata completata in un dato giorno. Puoi selezionare un progetto per visualizzare un raggruppamento di queste attività per ogni singolo collaboratore del progetto.
 
@@ -90,10 +90,10 @@ Per informazioni su come ottenere i dati migliori per questa visualizzazione, co
 
 ## Visualizzare l’attività Progetto
 
-1. Fai clic sull&#39;icona del menu principale ![](assets/main-menu-icon-16x12.png), quindi seleziona **Analytics**.
+1. Fai clic sull&#39;icona del menu principale ![icona del menu principale](assets/main-menu-icon-16x12.png), quindi seleziona **Analytics**.
 1. (Facoltativo) Per utilizzare un intervallo di date diverso, seleziona nuove date di inizio e fine dal filtro dell’intervallo di date.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Seleziona intervallo date](assets/filters-select-date-range-350x344.png)
 
    Per informazioni sull&#39;utilizzo del filtro dell&#39;intervallo di date, vedere [Applicare filtri in Analisi avanzate](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
@@ -111,7 +111,7 @@ Per informazioni su come ottenere i dati migliori per questa visualizzazione, co
 
    Tutte le altre visualizzazioni vengono aggiornate allo stesso intervallo di date e viene creato un filtro per l’intervallo di tempo.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![Filtro intervallo di tempo](assets/timeframe-filter-350x220.png)
 
 1. (Facoltativo) Per modificare l&#39;ordinamento dei progetti, fare clic sul menu **Ordina per**, quindi selezionare una nuova opzione di ordinamento:
 
@@ -126,7 +126,7 @@ Per informazioni su come ottenere i dati migliori per questa visualizzazione, co
 
    Tutte le altre visualizzazioni nella pagina vengono aggiornate in base alla selezione della pagina.
 
-   ![](assets/pagination-350x118.png)
+   ![Paginazione](assets/pagination-350x118.png)
 
 1. Fai clic su un progetto nella visualizzazione per visualizzare ulteriori dettagli relativi al progetto.
 
@@ -134,9 +134,9 @@ Per informazioni su come ottenere i dati migliori per questa visualizzazione, co
 
 1. Passa il puntatore del mouse su una casella per vedere la data in cui gli utenti hanno completato un&#39;azione, nonché il numero di volte in cui l&#39;azione è stata completata per quel giorno.
 
-   ![](assets/project-activity-activity-pop-up-350x137.png)
+   ![Popup attività](assets/project-activity-activity-pop-up-350x137.png)
 
-1. (Facoltativo) Per esportare i dati di visualizzazione, fai clic sull&#39;icona **Esporta** ![](assets/export.png) nell&#39;angolo in alto a destra della visualizzazione, quindi seleziona il formato di esportazione:
+1. (Facoltativo) Per esportare i dati di visualizzazione, fai clic sull&#39;**icona Esporta** ![icona Esporta](assets/export.png) nell&#39;angolo in alto a destra della visualizzazione, quindi seleziona il formato di esportazione:
 
    * **Grafico (PNG)**
    * **Tabella dati (XSLX)**

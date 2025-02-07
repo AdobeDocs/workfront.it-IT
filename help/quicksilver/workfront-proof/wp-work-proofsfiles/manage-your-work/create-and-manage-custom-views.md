@@ -7,9 +7,9 @@ description: È possibile creare visualizzazioni personalizzate dei file e delle
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 7c6f3fdd-f767-4e8d-937a-1c7645aba55b
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '2458'
+source-wordcount: '2472'
 ht-degree: 0%
 
 ---
@@ -46,10 +46,10 @@ Per creare una visualizzazione personalizzata:
 
    * Per creare una nuova visualizzazione personalizzata basata su una visualizzazione standard esistente: dal menu a discesa, selezionare la visualizzazione standard esistente da utilizzare come base per la nuova visualizzazione personalizzata. Fai clic sull&#39;icona **[!UICONTROL Visualizza impostazioni]**, quindi fai clic su **[!UICONTROL Copia]** nella nuova visualizzazione personalizzata.
 
-   * ![](assets/proof-custom-view-icon.png)
+   * ![Icona visualizzazione personalizzata](assets/proof-custom-view-icon.png)
 
    * Per creare una nuova visualizzazione personalizzata da zero: fai clic sull&#39;icona **[!UICONTROL Nuova visualizzazione]**.
-   * ![](assets/proof-newview.png)
+   * ![Nuova visualizzazione](assets/proof-newview.png)
 
 1. Nella sezione **[!UICONTROL Dettagli]**, specifica le seguenti informazioni:
 
@@ -59,7 +59,7 @@ Per creare una visualizzazione personalizzata:
 1. Nella sezione **[!UICONTROL Colonne]**, determina le colonne da includere nella visualizzazione personalizzata.
 
    1. Fare clic sull&#39;icona freccia destra.
-   1. ![](assets/proof-view-rightarrow.png)
+   1. ![Freccia destra](assets/proof-view-rightarrow.png)
 
    1. Fare doppio clic sul nome della colonna selezionata.
    1. È necessario selezionare almeno una colonna, che può essere aggiunta una sola volta.
@@ -274,10 +274,10 @@ Per creare una visualizzazione personalizzata:
 
 1. Fai clic sul pulsante [!UICONTROL Visualizzazioni] (1)
 1. Seleziona la vista da modificare dal menu a discesa.\
-   ![](assets/proof-view-edit.png)
+   ![Modifica visualizzazione](assets/proof-view-edit.png)
 
 1. Fai clic sul pulsante **[!UICONTROL Opzioni visualizzazione]**, quindi fai clic su **[!UICONTROL Modifica visualizzazione]**.\
-   ![](assets/proof-view-options.png)\
+   ![Opzioni di visualizzazione](assets/proof-view-options.png)\
    Viene visualizzata la pagina Modifica visualizzazione personalizzata.
 
 1. Fai clic sul menu [!UICONTROL Azioni]. 3)\
@@ -312,7 +312,7 @@ Per copiare una visualizzazione personalizzata:
    ![copia_custom_view.png](assets/copying-custom-view-350x258.png)
 
 1. Nella pagina Copia visualizzazione personalizzata vengono inserite tutte le impostazioni originali. Modifica la visualizzazione personalizzata in base alla tua scelta e fai clic sul pulsante **[!UICONTROL Copia visualizzazione]**. Verrà immediatamente visualizzata la nuova visualizzazione.\
-   ![](assets/copy-custom-view-page-350x542.png)
+   ![Copia visualizzazione personalizzata](assets/copy-custom-view-page-350x542.png)
 
 ## Condivisione di visualizzazioni personalizzate
 

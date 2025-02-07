@@ -7,9 +7,9 @@ description: La visualizzazione Attività in volo mostra quante attività (entro
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cc738450-362a-49e8-836f-611fa82057b5
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '749'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 La visualizzazione Attività in volo mostra quante attività (entro i criteri di filtro applicati) sono in corso per un progetto, la percentuale di lavoro completato per ogni attività e come sono programmate le attività.
 
-![](assets/tasks-in-flight-possible-replacement-350x104.png)
+![Attività in corso](assets/tasks-in-flight-possible-replacement-350x104.png)
 
 ## Requisiti di accesso
 
@@ -59,15 +59,15 @@ La visualizzazione Attività nel piano di volo mostra i seguenti dettagli di att
 
 * **Durata attività pianificata**: la lunghezza di una barra delle attività indica la durata pianificata, basata sulla data di inizio e sulla data di completamento dell&#39;attività.
 
-  ![](assets/tasks-in-flight-duration-350x80.png)
+  ![Attività nella durata del volo](assets/tasks-in-flight-duration-350x80.png)
 
 * **Impegno di lavoro completato**: il colore blu scuro all&#39;interno di una barra delle attività indica la quantità di lavoro completato per un&#39;attività. La percentuale di completamento viene visualizzata a destra della barra delle applicazioni.
 
-  ![](assets/tasks-in-flight-dark-blue-350x35.png)
+  ![Attività in volo blu scuro](assets/tasks-in-flight-dark-blue-350x35.png)
 
 * **Impegno di lavoro rimanente**: il colore blu chiaro nella barra delle attività indica la quantità di lavoro da completare per un&#39;attività.
 
-  ![](assets/tasks-in-flight-light-blue-350x35.png)
+  ![Attività in volo azzurro](assets/tasks-in-flight-light-blue-350x35.png)
 
 Queste informazioni possono essere utili per determinare:
 
@@ -80,10 +80,10 @@ Per informazioni su come ottenere i dati migliori per questa visualizzazione, co
 
 ## Visualizza la visualizzazione Attività in volo
 
-1. Fai clic sull&#39;icona del menu principale ![](assets/main-menu-icon-16x12.png), quindi seleziona **Analytics**.
+1. Fai clic sull&#39;icona del menu principale ![icona del menu principale](assets/main-menu-icon-16x12.png), quindi seleziona **Analytics**.
 1. (Facoltativo) Per utilizzare un intervallo di date diverso, seleziona nuove date di inizio e fine dal filtro dell’intervallo di date.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Seleziona intervallo date](assets/filters-select-date-range-350x344.png)
 
    Per informazioni sull&#39;utilizzo del filtro dell&#39;intervallo di date, vedere [Applicare filtri in Analisi avanzate](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
@@ -113,7 +113,7 @@ Per informazioni su come ottenere i dati migliori per questa visualizzazione, co
 
    Tutte le altre visualizzazioni vengono aggiornate allo stesso intervallo di date e viene creato un filtro per l’intervallo di tempo.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![Filtro intervallo di tempo](assets/timeframe-filter-350x220.png)
 
 1. (Facoltativo) Per modificare l&#39;ordinamento delle attività, fare clic sul menu **Ordina per**, quindi selezionare una nuova opzione di ordinamento:
 
@@ -125,13 +125,13 @@ Per informazioni su come ottenere i dati migliori per questa visualizzazione, co
 
 1. Esamina l’avanzamento delle attività nel progetto selezionato, quindi passa il cursore su un’attività specifica per visualizzare il numero di ore pianificate, la data di scadenza pianificata e la percentuale di completamento.
 
-   ![](assets/tasks-in-flight-task-details-350x242.png)
+   ![Attività nei dettagli del volo](assets/tasks-in-flight-task-details-350x242.png)
 
 1. Fare clic su un&#39;attività per aprirne i dettagli sul lato destro della schermata, dove è possibile visualizzare ulteriori informazioni sull&#39;attività, visualizzare o immettere aggiornamenti o apportare modifiche all&#39;attività.
 
-   ![](assets/task-details-qs-350x675.png)
+   ![Dettagli attività](assets/task-details-qs-350x675.png)
 
-1. (Facoltativo) Per esportare i dati di visualizzazione, fai clic sull&#39;icona **Esporta** ![](assets/export.png) nell&#39;angolo in alto a destra della visualizzazione, quindi seleziona il formato di esportazione:
+1. (Facoltativo) Per esportare i dati di visualizzazione, fai clic sull&#39;**icona Esporta** ![icona Esporta](assets/export.png) nell&#39;angolo in alto a destra della visualizzazione, quindi seleziona il formato di esportazione:
 
    * **Grafico (PNG)**
    * **Tabella dati (XSLX)**

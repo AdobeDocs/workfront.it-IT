@@ -7,9 +7,9 @@ description: La visualizzazione Mappa ad albero progetto è una visualizzazione 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6216465e-c3bb-4f2f-b71c-766ad0c2ed40
-source-git-commit: 364b668f23f5437e5cca0c4cc4793b17d444fb56
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '854'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 La visualizzazione Mappa ad albero progetto è una visualizzazione delle ore, o giorni, lavorate in una specifica finestra di tempo rispetto ad altre attività lavorative per dimensioni. Questo ti aiuta a capire quanto tempo le persone si sono dedicate a un progetto.
 
-![](assets/project-treemap-350x126.png){width="700"}
+![Mappa ad albero progetto](assets/project-treemap-350x126.png){width="700"}
 
 ## Requisiti di accesso
 
@@ -71,22 +71,22 @@ La visualizzazione Mappa ad albero Progetto è composta da:
 
 * **Caselle blu chiaro più piccole**: i progetti con un numero inferiore di ore o giorni vengono visualizzati come caselle più piccole con un colore blu chiaro.
 
-  ![](assets/project-treemap-smaller-box.png)
+  ![Scatola più piccola](assets/project-treemap-smaller-box.png)
 
 * **Caselle blu più grandi e scure**: i progetti con più ore o giorni vengono visualizzati come caselle più grandi con un colore blu scuro.
 
-  ![](assets/project-treemap-larger-box-350x205.png)
+  ![Casella più grande](assets/project-treemap-larger-box-350x205.png)
 
 * **Caselle blu di dimensioni Medium**: i progetti compresi tra le due categorie vengono visualizzati come caselle di medie dimensioni con una sfumatura blu tra i colori blu scuro e blu chiaro. Ci sono 3 possibili sfumature di blu per le scatole di medie dimensioni.
 
 La legenda a destra mostra un raggruppamento di ore completate per ogni tonalità di blu. Questa legenda è dinamica e si aggiorna in base ai dati.
 
-![](assets/project-treemap-hours-completed.png)
+![Ore mappa ad albero completate](assets/project-treemap-hours-completed.png)
 
 >[!NOTE]
 >
 >Se osservi la visualizzazione Mappa ad albero del progetto per durata anziché per ore pianificate, questa legenda mostra un raggruppamento dei giorni di lavoro per ogni tonalità di blu.\
->![](assets/project-treemap-days-worked.png)>
+>![Giorni mappa ad albero lavorati](assets/project-treemap-days-worked.png)>
 
 La visualizzazione di queste informazioni consente di determinare:
 
@@ -99,10 +99,10 @@ Per informazioni su come ottenere i dati migliori per questa visualizzazione, co
 
 ## Visualizzare la mappa ad albero del progetto
 
-1. Fai clic sull&#39;icona del menu principale ![](assets/main-menu-icon-16x12.png), quindi seleziona **Analytics**.
+1. Fai clic sull&#39;icona del menu principale ![icona del menu principale](assets/main-menu-icon-16x12.png), quindi seleziona **Analytics**.
 1. (Facoltativo) Per utilizzare un intervallo di date diverso, seleziona nuove date di inizio e fine dal filtro dell’intervallo di date.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Seleziona intervallo date](assets/filters-select-date-range-350x344.png)
 
    Per informazioni sull&#39;utilizzo del filtro dell&#39;intervallo di date, vedere [Applicare filtri in Analisi avanzate](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
@@ -125,7 +125,7 @@ Per informazioni su come ottenere i dati migliori per questa visualizzazione, co
 
    Tutte le altre visualizzazioni nella pagina vengono aggiornate in base alla selezione della pagina.
 
-   ![](assets/pagination-350x118.png)
+   ![Paginazione](assets/pagination-350x118.png)
 
 1. (Facoltativo) Cambia la visualizzazione da **ore pianificate** a **durata**.
 
@@ -133,7 +133,7 @@ Per informazioni su come ottenere i dati migliori per questa visualizzazione, co
 
 1. Passa il cursore del mouse su un progetto per vedere la condizione del progetto, il numero di ore pianificate totali, il numero di ore completate totali e il numero medio di ore dedicate al progetto al giorno.
 
-   ![](assets/project-treemap-project-details-350x404.png)
+   ![Dettagli progetto mappa ad albero](assets/project-treemap-project-details-350x404.png)
 
    >[!NOTE]
    >
@@ -142,11 +142,11 @@ Per informazioni su come ottenere i dati migliori per questa visualizzazione, co
    >* **Intervallo temporale pianificato**: il numero di giorni pianificati per il completamento del progetto.
    >* **Giorni di lavoro**: la durata pianificata per ogni attività completata entro l&#39;intervallo di date selezionato nella parte superiore, divisa per il numero di ore in un giorno.
    >   
-   >![](assets/duration-treemap-350x159.png)
+   >![Durata mappa ad albero](assets/duration-treemap-350x159.png)
    >
    >Per ulteriori informazioni sulla durata, consulta la sezione &quot;Visualizzazione durata&quot; in [Panoramica analisi avanzata](../enhanced-analytics/enhanced-analytics-overview.md).
 
-1. (Facoltativo) Per esportare i dati di visualizzazione, fai clic sull&#39;icona **Esporta** ![](assets/export.png) nell&#39;angolo in alto a destra della visualizzazione, quindi seleziona il formato di esportazione:
+1. (Facoltativo) Per esportare i dati di visualizzazione, fai clic sull&#39;**icona Esporta** ![icona Esporta](assets/export.png) nell&#39;angolo in alto a destra della visualizzazione, quindi seleziona il formato di esportazione:
 
    * **Grafico (PNG)**
    * **Tabella dati (XSLX)**

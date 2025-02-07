@@ -8,9 +8,9 @@ description: La dashboard è la prima pagina visualizzata quando si accede al pr
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bd0ecc43-4bbf-4caa-924f-6c8935123bf9
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '996'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,7 @@ Il dashboard contiene quanto segue:
 >
 >I menu e i collegamenti che puoi visualizzare e utilizzare sul tuo dashboard dipenderanno dal tuo profilo utente e dalle tue autorizzazioni.
 
-![](assets/dashboard-350x495.png)
+![Dashboard](assets/dashboard-350x495.png)
 
 Puoi aggiungere un marchio al tuo account per mostrare il logo, i colori, i collegamenti personalizzati e altro ancora della tua organizzazione. Per ulteriori informazioni, consulta [Assegna il marchio al [!DNL Workfront Proof] sito](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).&quot;
 
@@ -49,7 +49,7 @@ Se non usi il tuo account come marchio, vengono visualizzati il logo [!DNL Workf
 
 ## Menu intestazione
 
-![](assets/header-menu-350x150.png)
+![Menu intestazione](assets/header-menu-350x150.png)
 
 ### Nome utente
 
@@ -97,7 +97,7 @@ Per aprire il menu Nuovo:
    * Nuovo utente (12)
    * Nuovo gruppo (13)
 
-![](assets/new-proof-350x256.png)
+![Nuova bozza](assets/new-proof-350x256.png)
 
 ## Menu del dashboard
 
@@ -116,7 +116,7 @@ Il menu [!UICONTROL Modifica tag] (1) consente di:
 * Creare nuovi tag
 * Gestire i tag (2)
 
-![](assets/edit-tags-350x204.png)
+![Modifica tag](assets/edit-tags-350x204.png)
 
 ## Sposta in
 
@@ -126,7 +126,7 @@ Questa funzione consente di spostare bozze e file in una delle cartelle. Per ese
 1. Fai clic su **[!UICONTROL Sposta in]** (3) e scegli la cartella pertinente (4).
 1. Fai clic su **[!UICONTROL Salva]** (5).
 
-   ![](assets/move-to-350x297.png)
+   ![Sposta in](assets/move-to-350x297.png)
 
 ### Altre azioni
 
@@ -138,7 +138,7 @@ Nel menu [!UICONTROL Altre azioni] (6) è possibile eseguire le azioni seguenti:
 * Annulla archiviazione (solo bozze)
 * Modifica proprietario
 
-![](assets/more-actions-350x303.png)
+![Altre azioni](assets/more-actions-350x303.png)
 
 ### Elimina
 
@@ -146,11 +146,11 @@ Per eliminare gli elementi:
 
 1. Selezionare la casella di spunta a sinistra degli elementi e fare clic su **[!UICONTROL Elimina]** (7).
 
-![](assets/delete-350x109.png)
+![Icona Elimina](assets/delete-350x109.png)
 
 1. Nella schermata di conferma visualizzata, controllare i dettagli e confermare facendo clic su **[!UICONTROL Sì]** (8).
 
-![](assets/deleteing-items-350x237.png)
+![Eliminazione elementi](assets/deleteing-items-350x237.png)
 
 ### Barra laterale
 
@@ -168,7 +168,7 @@ La barra laterale contiene collegamenti alle pagine seguenti:
 * Cartelle di altre organizzazioni (10) (in cui è possibile trovare elementi condivisi da altre organizzazioni)
 * Tag (11)
 
-![](assets/sidebar-350x426.png)
+![Barra laterale](assets/sidebar-350x426.png)
 
 La barra laterale viene descritta più dettagliatamente nella pagina della guida di Sidebar.
 
@@ -181,7 +181,7 @@ La sezione [!UICONTROL Benvenuto] include i collegamenti utili seguenti:
 * Informazioni di contatto per il supporto (3)
 * Collegamento &quot;Non visualizzare più la sezione Benvenuti&quot; (4)
 
-![](assets/welcome-350x73.png)
+![Benvenuto](assets/welcome-350x73.png)
 
 ### Panoramica
 
@@ -197,7 +197,7 @@ Nella sezione panoramica vengono inoltre visualizzate informazioni prefiltrate. 
 * Bozze da gestire: numero totale di bozze attive di tua proprietà e a te delegate
 * Bozze in attesa di decisione: numero totale di bozze attive che richiedono decisioni
 
-  ![](assets/dashboard-overview-350x169.png)
+  ![Panoramica dashboard](assets/dashboard-overview-350x169.png)
 
 Qui puoi vedere immediatamente quante bozze richiedono un’azione immediata da parte tua o dei tuoi revisori:
 
@@ -237,7 +237,7 @@ Per accedere alla pagina dei dettagli della bozza:
 1. Fai clic sul menu **[!UICONTROL Azioni]** (1) disponibile a destra del nome della bozza.
 1. Seleziona **[!UICONTROL Visualizza dettagli bozza]** (2) dal menu.
 
-![](assets/accessing-the-proof-details-page-recently-accessed-items-350x126.png)
+![Elementi recenti](assets/accessing-the-proof-details-page-recently-accessed-items-350x126.png)
 
 ### Attività recente
 
@@ -258,4 +258,4 @@ Per passare alla pagina dei dettagli della bozza:
 1. Fare clic sul menu **[!UICONTROL Azioni]** (1).
 1. Seleziona **[!UICONTROL Visualizza dettagli bozza]** (2) dal menu a discesa.
 
-   ![](assets/accessing-the-proof-details-page-recent-activity-350x51.png)
+   ![Attività recente](assets/accessing-the-proof-details-page-recent-activity-350x51.png)

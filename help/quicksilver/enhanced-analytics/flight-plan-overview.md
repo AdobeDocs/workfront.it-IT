@@ -7,9 +7,9 @@ description: La visualizzazione del piano di volo mostra quanti progetti (entro 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c64ed752-151a-40f7-ab18-684e2cd032bc
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '885'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 La visualizzazione del piano di volo mostra quanti progetti (entro i criteri di filtro applicati) erano in corso di esecuzione, quali cambiamenti di condizioni si sono verificati durante l’intero ciclo di vita di tali progetti e con quale frequenza questi progetti hanno rispettato le scadenze di completamento pianificate.
 
-![](assets/flight-plan-350x132.png)
+![Piano di volo](assets/flight-plan-350x132.png)
 
 ## Requisiti di accesso
 
@@ -67,11 +67,11 @@ La visualizzazione del piano di volo mostra i seguenti dettagli del progetto:
 
 * **Durata pianificata**: la linea blu orizzontale rappresenta la lunghezza pianificata del progetto, con i triangoli alla fine della linea che indicano la data di inizio e la data di fine.
 
-  ![](assets/planned-duration-line-350x37.png)
+  ![Durata pianificata](assets/planned-duration-line-350x37.png)
 
 * **Durata effettiva**: la linea spessa e colorata sotto la durata pianificata rappresenta la lunghezza effettiva del progetto. Il colore della riga cambia a seconda delle condizioni del progetto in quel particolare momento della vita del progetto.
 
-  ![](assets/actual-duration-line.png)
+  ![Durata effettiva](assets/actual-duration-line.png)
 
 * **Condizione effettiva**: la linea spessa e colorata mostra anche la condizione di un progetto in momenti diversi. Il colore della linea cambia a seconda delle condizioni del progetto:
 
@@ -79,7 +79,7 @@ La visualizzazione del piano di volo mostra i seguenti dettagli del progetto:
    * **Arancione**: A Rischio
    * **Rosso**: Problemi
 
-  ![](assets/actual-condition-color.png)
+  ![Condizione effettiva](assets/actual-condition-color.png)
 
 Passando il cursore sopra una riga del progetto nella visualizzazione Piano di volo, puoi visualizzare informazioni sull’arco temporale pianificato del progetto, la condizione del progetto corrente e, se applicabile, la condizione personalizzata. Per ottenere una visualizzazione più dettagliata di ciò che può aver influenzato la durata o la condizione, puoi guardare le altre visualizzazioni nell’area Analisi avanzata.
 
@@ -95,10 +95,10 @@ Per informazioni su come ottenere i dati migliori per questa visualizzazione, co
 
 ## Visualizza la visualizzazione del piano di volo
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon-16x12.png) del **menu principale**, quindi seleziona **Analytics**.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon-16x12.png), quindi seleziona **Analytics**.
 1. (Facoltativo) Per utilizzare un intervallo di date diverso, seleziona nuove date di inizio e fine dal filtro dell’intervallo di date.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Seleziona intervallo date](assets/filters-select-date-range-350x344.png)
 
    Per informazioni sull&#39;utilizzo del filtro dell&#39;intervallo di date, vedere [Applicare filtri in Analisi avanzate](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
@@ -112,7 +112,7 @@ Per informazioni su come ottenere i dati migliori per questa visualizzazione, co
 
    Tutte le altre visualizzazioni vengono aggiornate allo stesso intervallo di date e viene creato un filtro per l’intervallo di tempo.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![Filtro intervallo di tempo](assets/timeframe-filter-350x220.png)
 
 1. (Facoltativo) Per modificare l&#39;ordinamento dei progetti, fare clic sul menu **Ordina per** nell&#39;angolo superiore destro della visualizzazione del piano di volo, quindi selezionare una nuova opzione di ordinamento:
 
@@ -127,7 +127,7 @@ Per informazioni su come ottenere i dati migliori per questa visualizzazione, co
 
    Tutte le altre visualizzazioni nella pagina vengono aggiornate in base alla selezione della pagina.
 
-   ![](assets/pagination-350x118.png)
+   ![Paginazione](assets/pagination-350x118.png)
 
 1. Passa il puntatore del mouse sul grafico a barre del progetto per visualizzare la linea blu della data e i seguenti dettagli:
 
@@ -135,9 +135,9 @@ Per informazioni su come ottenere i dati migliori per questa visualizzazione, co
    * Condizione corrente
    * Condizione personalizzata (se applicabile)
 
-   ![](assets/project-bar-graph-350x143.png)
+   ![Grafico a barre del progetto](assets/project-bar-graph-350x143.png)
 
-1. (Facoltativo) Per esportare i dati di visualizzazione, fai clic sull&#39;icona **Esporta** ![](assets/export.png) nell&#39;angolo in alto a destra della visualizzazione, quindi seleziona il formato di esportazione:
+1. (Facoltativo) Per esportare i dati di visualizzazione, fai clic sull&#39;icona **Esporta** ![Icona Esporta](assets/export.png) nell&#39;angolo in alto a destra della visualizzazione, quindi seleziona il formato di esportazione:
 
    * **Grafico (PNG)**
    * **Tabella dati (XSLX)**

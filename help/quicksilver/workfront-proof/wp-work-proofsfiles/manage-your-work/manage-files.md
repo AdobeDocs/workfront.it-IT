@@ -7,9 +7,9 @@ description: Puoi gestire, condividere e visualizzare informazioni sui file (non
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 9bbf2448-74dc-412a-b17c-4321d0acaf07
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
@@ -25,28 +25,28 @@ Puoi gestire, condividere e visualizzare informazioni sui file (non bozze) caric
 1. Fai clic sulla freccia rivolta verso il basso a destra di **[!UICONTROL Viste]** nel pannello di navigazione a sinistra, quindi fai clic su **[!UICONTROL File]** nel menu a discesa.
 
 1. Fai clic sul pulsante **[!UICONTROL Altro]** per il file, quindi fai clic su **[!UICONTROL Visualizza dettagli file]** nel menu visualizzato.\
-   ![](assets/click-more-then-view-file-details.png)\
+   ![Visualizza dettagli file](assets/click-more-then-view-file-details.png)\
    È possibile visualizzare e modificare i dettagli del file nella finestra visualizzata. Ad esempio, puoi modificare il nome del file nella parte superiore della finestra, la [!DNL Workfront Proof] **cartella** in cui è memorizzato il file e il **proprietario** del file.\
-   ![](assets/file-details-page-350x129.png)
+   ![Dettagli file](assets/file-details-page-350x129.png)
 
 1. (Facoltativo) Se disponi dei diritti di modifica per il file, utilizza i pulsanti di azione in alto a destra per gestire e condividere il file:
 
 * **[!UICONTROL Tag]**. Gestisci i tag applicati al file.\
-   ![](assets/tags-button.png)\
+   ![Pulsante Tag](assets/tags-button.png)\
    Sotto i pulsanti di azione è possibile visualizzare tutti i tag applicati al file. Per rimuovere un tag indesiderato, fai clic sulla x accanto a esso.\
-   ![](assets/view-file-tags-350x64.png)
+   ![Visualizza tag file](assets/view-file-tags-350x64.png)
 
 * **[!UICONTROL Sposta in]**. Organizza i file in cartelle. Puoi spostare un file tra cartelle esistenti o inserirlo in una nuova cartella.\
-   ![](assets/folder-button.png)
+   ![Pulsante Cartella](assets/folder-button.png)
 
 * **[!UICONTROL Condividi]**. Condividere file con altri utenti. [!DNL Workfront Proof] invia una notifica e-mail contenente un messaggio personalizzato e i collegamenti di download ai destinatari.\
-   ![](assets/share-button.png)
+   ![Pulsante Condividi](assets/share-button.png)
 
 * **[!UICONTROL Elimina]**. Puoi eliminare il file spostandolo nel Cestino. Tieni presente che il file verrà conteggiato ai fini del limite di archiviazione finché il cestino non verrà svuotato (vedi [Ripristina e svuota il cestino in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)).\
-   ![](assets/trash-button.png)
+   ![Pulsante Elimina](assets/trash-button.png)
 
 * **[!UICONTROL Altro]**. In questo elenco a discesa puoi fare clic su **[!UICONTROL Converti in bozza]** per creare una bozza per un file (vedi [Genera bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)). Il file deve soddisfare i requisiti dei tipi di file per le bozze (vedi [Panoramica sui tipi di file di bozza supportati e sui limiti di dimensione](../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)). Se il nome del file corrisponde al nome di una bozza esistente, [!DNL Workfront Proof] visualizzerà un messaggio con un collegamento che consente di convertire il file in una **[!UICONTROL nuova versione]** della bozza (vedere ).\
-   ![](assets/more-button-text-version.png)
+   ![Altro pulsante](assets/more-button-text-version.png)
 
   >[!TIP]
   >
@@ -58,7 +58,7 @@ Puoi gestire, condividere e visualizzare informazioni sui file (non bozze) caric
 
    Puoi **[!UICONTROL Messaggiare]** o **[!UICONTROL Rimuovere]** un utente utilizzando l&#39;icona **[!UICONTROL Altro]** a destra.
 
-   ![](assets/message-and-remove.png)
+   ![Messaggio e rimozione](assets/message-and-remove.png)
 
    Se si sceglie di inviare un messaggio a uno di questi utenti, verrà visualizzata la pagina **[!DNL Message all]**, in cui è possibile inviare più messaggi contemporaneamente.
 

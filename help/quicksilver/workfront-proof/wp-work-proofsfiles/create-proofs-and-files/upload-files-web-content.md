@@ -7,9 +7,9 @@ description: Puoi caricare i file in  [!DNL Workfront Proof]  senza creare una b
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 88693211-b5f5-4f99-97a9-5c29039f4f01
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Ciò è utile, ad esempio, se non si dispone dei diritti di verifica ma è neces
 Per caricare un file in [!DNL Workfront Proof]:
 
 1. Nell&#39;angolo superiore sinistro di [!DNL Workfront Proof] fare clic sulla freccia giù del pulsante **[!UICONTROL Nuova bozza]**, quindi scegliere **[!UICONTROL Carica file]** dal menu visualizzato.\
-   ![](assets/new-proof-button-menu.png)
+   ![Pulsante Nuova bozza](assets/new-proof-button-menu.png)
 
 1. Viene visualizzata la pagina **[!DNL New File]**.
 1. Effettua una delle seguenti operazioni per caricare o aggiungere il contenuto da verificare:

@@ -7,9 +7,9 @@ description: Puoi visualizzare l’attività recente per una determinata bozza. 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e99f4e8f-eb3f-4575-83fb-97acb8932e25
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Puoi visualizzare l’attività recente per una determinata bozza. Ciò include 
 
 1. Se la barra degli strumenti sinistra non è visualizzata, fare clic sull&#39;icona **[!UICONTROL Menu]** nell&#39;angolo superiore sinistro del visualizzatore di bozze.
 
-   ![](assets/menu-icon-in-proofing-viewer-350x188.png)
+   ![Menu visualizzatore bozza](assets/menu-icon-in-proofing-viewer-350x188.png)
 
 1. Nella barra degli strumenti sulla sinistra del visualizzatore di bozze, fare clic sul pulsante **[!UICONTROL Dettagli bozza]**.
 

@@ -7,9 +7,9 @@ description: La visualizzazione Attività per team mostra le attività che avven
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c4f9886c-ce76-43a8-bd43-cb64fff27e79
-source-git-commit: 364b668f23f5437e5cca0c4cc4793b17d444fb56
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '727'
 ht-degree: 7%
 
 ---
@@ -25,7 +25,7 @@ La visualizzazione Attività per team mostra le attività che avvengono durante 
 >La visualizzazione delle attività del progetto è simile a questa, ma mostra le attività in base alle persone assegnate ai progetti anziché alle persone assegnate a un team principale.\
 >Per informazioni sulla visualizzazione delle attività del progetto, vedi [Visualizzare la visualizzazione delle attività del progetto in Analisi avanzate](../enhanced-analytics/project-activity-overview.md).
 
-![](assets/activity-by-team-350x113.png){width="700"}
+![Attività per team](assets/activity-by-team-350x113.png){width="700"}
 
 ## Requisiti di accesso
 
@@ -75,15 +75,15 @@ Le diverse attività vengono visualizzate in colori diversi per riepilogare even
 
 * **Utenti connessi**: le caselle viola mostrano che gli utenti del team principale hanno effettuato l&#39;accesso in quel giorno. Una tonalità più scura indica un numero maggiore di utenti che effettuano l’accesso.
 
-  ![](assets/project-activity-users-logged-in.png)
+  ![Utenti connessi](assets/project-activity-users-logged-in.png)
 
 * **Modifica stato attività**: le caselle di colore rosa indicano che gli utenti del team principale hanno modificato lo stato di un&#39;attività in quel giorno. Una tonalità più scura indica un numero maggiore di cambiamenti di stati delle attività.
 
-  ![](assets/project-activity-task-status-changes.png)
+  ![Modifiche stato attività](assets/project-activity-task-status-changes.png)
 
 * **Attività completate**: le caselle blu indicano che le persone nel team principale hanno completato un&#39;attività in quel giorno. Una tonalità più scura indica un numero maggiore di attività completate.
 
-  ![](assets/project-activity-tasks-completed.png)
+  ![Attività completate](assets/project-activity-tasks-completed.png)
 
 Passando il puntatore del mouse su una casella viene visualizzato il numero esatto di volte in cui l’azione è stata completata in un dato giorno. Puoi selezionare un team per visualizzare un raggruppamento di queste attività per ogni persona nel team principale.
 
@@ -97,14 +97,14 @@ Per informazioni su come ottenere i dati migliori per questa visualizzazione, co
 
 ## Visualizzazione Attività per team
 
-1. Fai clic sull&#39;icona del menu principale ![](assets/main-menu-icon-16x12.png), quindi seleziona **Analytics**.
+1. Fai clic sull&#39;icona del menu principale ![icona del menu principale](assets/main-menu-icon-16x12.png), quindi seleziona **Analytics**.
 1. Nel pannello a sinistra, seleziona **Persone**.
 
-   ![](assets/people-area-cropped-qs-350x276.png)
+   ![Area persone](assets/people-area-cropped-qs-350x276.png)
 
 1. (Facoltativo) Per utilizzare un intervallo di date diverso, seleziona nuove date di inizio e fine dal filtro dell’intervallo di date.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Seleziona intervallo date](assets/filters-select-date-range-350x344.png)
 
    Per informazioni sull&#39;utilizzo del filtro dell&#39;intervallo di date, vedere [Applicare filtri in Analisi avanzate](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
@@ -118,7 +118,7 @@ Per informazioni su come ottenere i dati migliori per questa visualizzazione, co
 
    Tutte le altre visualizzazioni vengono aggiornate allo stesso intervallo di date e viene creato un filtro per l’intervallo di tempo.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![Filtro intervallo di tempo](assets/timeframe-filter-350x220.png)
 
 1. Fai clic sul nome di un team
 
@@ -140,9 +140,9 @@ Per informazioni su come ottenere i dati migliori per questa visualizzazione, co
 
    I colori più scuri indicano un’attività più elevata.
 
-   ![](assets/activity-by-team-activity-pop-up-350x155.png)
+   ![Attività per team](assets/activity-by-team-activity-pop-up-350x155.png)
 
-1. (Facoltativo) Per esportare i dati di visualizzazione, fai clic sull&#39;icona Esporta ![](assets/export.png) nell&#39;angolo in alto a destra della visualizzazione, quindi seleziona il formato di esportazione:
+1. (Facoltativo) Per esportare i dati della visualizzazione, fai clic sull&#39;icona Esporta ![icona Esporta](assets/export.png) nell&#39;angolo in alto a destra della visualizzazione, quindi seleziona il formato di esportazione:
 
    * **Grafico (PNG)**
    * **Tabella dati (XSLX)**

@@ -7,9 +7,9 @@ description: Se disponi dei diritti di modifica per una bozza, puoi condividerla
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bc145c50-9ab5-4ee8-9ed7-d307da6b0e8f
-source-git-commit: 178fcf680fbf97e3fa634182f161ba3c73439fe5
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Puoi aggiungere i revisori a una bozza quando crei una nuova bozza o carichi una
 ## Aggiunta di revisori a una bozza esistente
 
 1. Nel dashboard o in una visualizzazione elenco, fai clic sul pulsante **[!UICONTROL Altro]** a discesa a destra della bozza.\
-   ![](assets/more-button-small.png)
+   ![Altro menu](assets/more-button-small.png)
 
 1. Fai clic su **[!UICONTROL Condividi]** nel menu a discesa.
 1. Nella pagina **[!UICONTROL Condividi questa versione]** visualizzata, aggiungi i revisori aggiungendo i loro indirizzi e-mail.\

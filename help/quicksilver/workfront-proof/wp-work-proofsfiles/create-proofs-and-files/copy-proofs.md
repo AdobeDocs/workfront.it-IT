@@ -7,9 +7,9 @@ description: I revisori con i diritti di modifica su una bozza possono crearne u
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 7d2db918-ebf0-4c52-9039-54c3eb5515f0
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ I revisori presenti nella bozza originale vengono visualizzati automaticamente n
 1. Passare a una delle **[!UICONTROL visualizzazioni]** pagine, come descritto in [Gestione elementi nella pagina delle visualizzazioni in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md).
 
 1. Apri il menu **[!UICONTROL Altro]** per la bozza.\
-   ![](assets/more-button-small.png)
+   ![Altro menu](assets/more-button-small.png)
 
 1. Scegli **[!UICONTROL Copia]** dal menu a discesa.
 1. Nella pagina **[!UICONTROL Copia bozza]** visualizzata, specificare se si desidera creare la copia come nuova versione della bozza esistente o come nuova bozza.\
@@ -77,7 +77,7 @@ Per copiare le impostazioni di una bozza esistente per una nuova bozza:
 1. Passare a una delle **[!UICONTROL visualizzazioni]** pagine, come descritto in [Gestione elementi nella pagina delle visualizzazioni in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md).
 
 1. Apri il menu **[!UICONTROL Altro]** per la bozza.\
-   ![](assets/more-button-small.png)
+   ![Altro menu](assets/more-button-small.png)
 
 1. Scegliere **[!UICONTROL Visualizza dettagli bozza]** dal menu a discesa.
 1. Fai clic su **[!UICONTROL Altro]**.\

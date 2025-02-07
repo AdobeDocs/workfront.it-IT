@@ -7,9 +7,9 @@ description: La pagina Dettagli bozza consente di gestire una bozza esistente. A
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e9530c2f-03ff-42f5-acbf-afe303e234e3
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -33,10 +33,10 @@ Per informazioni su come gestire le bozze dei flussi di lavoro automatizzati, ve
 ## Apertura della pagina Dettagli bozza dal visualizzatore di bozze
 
 1. se la barra degli strumenti a sinistra non è visualizzata, fare clic sull&#39;icona **[!UICONTROL Menu]** nell&#39;angolo superiore sinistro.\
-   ![](assets/menu-icon-in-proofing-viewer-350x188.png)
+   ![Menu visualizzatore bozza](assets/menu-icon-in-proofing-viewer-350x188.png)
 
 1. Passa il puntatore del mouse sulla barra degli strumenti a sinistra, quindi fai clic su **[!UICONTROL Dettagli bozza]**.\
-   ![](assets/proof-details-in-proofing-viewer-350x215.png)
+   ![Dettagli visualizzatore bozza](assets/proof-details-in-proofing-viewer-350x215.png)
 
    >[!NOTE]
    >

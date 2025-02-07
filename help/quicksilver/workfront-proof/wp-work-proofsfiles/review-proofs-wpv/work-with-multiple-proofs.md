@@ -7,9 +7,9 @@ description: In [!DNL Workfront] Bozza è possibile utilizzare le cartelle per r
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1a3dbf0e-ec5b-4bd0-9eee-c1d613a67f53
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -64,4 +64,4 @@ In qualità di revisore, puoi lavorare con più bozze in una cartella senza usci
 
      Durante il confronto delle bozze, se si desidera passare a una nuova bozza sul lato sinistro o destro del visualizzatore di bozze, fare clic sul pulsante [!UICONTROL Confronta] sopra la bozza.
 
-     ![](assets/mceclip0-350x126.png)
+     ![Confronta](assets/mceclip0-350x126.png)

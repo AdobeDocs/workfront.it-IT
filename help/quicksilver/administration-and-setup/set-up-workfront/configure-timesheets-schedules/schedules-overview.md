@@ -10,9 +10,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ L&#39;ordine in cui le pianificazioni vengono utilizzate dal sistema quando ne e
 * Se l&#39;utente assegnato all&#39;attività non ha alcuna pianificazione o l&#39;attività è assegnata solo a una mansione, a un team o non è assegnata, [!DNL Workfront] utilizza la pianificazione del progetto per i calcoli della sequenza temporale.
 * Se l&#39;utente assegnato all&#39;attività non dispone di una pianificazione o l&#39;attività è assegnata solo a una mansione, a un team o non è assegnata e il progetto non dispone di una pianificazione, [!DNL Workfront] utilizza la pianificazione nel sistema designato come pianificazione predefinita per i calcoli della sequenza temporale.
 
-  ![](assets/default-schedule.png)
+  ![Pianificazione predefinita](assets/default-schedule.png)
 
 ## Collaboration in [!DNL Workfront] tra fusi orari
 

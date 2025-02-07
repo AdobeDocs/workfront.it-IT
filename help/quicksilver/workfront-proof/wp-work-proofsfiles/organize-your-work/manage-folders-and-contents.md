@@ -7,9 +7,9 @@ description: Uno dei vantaggi dell'organizzazione di progetti e bozze in cartell
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cec385de-f1b9-4e28-8493-987536c04905
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Puoi gestire facilmente i tuoi file dalla pagina [!UICONTROL Dettagli cartella].
    * Vedere il nome dell&#39;**Autore** della cartella.
 
 1. (Facoltativo)Per modificare le informazioni associate a un elemento nella cartella, fai clic sull&#39;icona **[!UICONTROL Altro]** a destra dell&#39;elemento, quindi utilizza una delle opzioni visualizzate.\
-   ![](assets/more-button-small.png)\
+   ![Altro menu](assets/more-button-small.png)\
    Le opzioni visualizzate dipendono dal fatto che l’elemento sia una bozza o un file.
 
    * **[!UICONTROL Visualizza dettagli bozza]** o **[!UICONTROL Visualizza dettagli file]**: apre la pagina Dettagli bozza o Dettagli file. Per ulteriori informazioni, vedere [Gestione dei file in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md) o [Gestione dei dettagli delle bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
@@ -111,9 +111,9 @@ Puoi gestire facilmente i tuoi file dalla pagina [!UICONTROL Dettagli cartella].
 1. (Facoltativo) Fai clic su **[!UICONTROL Attività]** per visualizzare tutte le azioni eseguite nella cartella in ordine cronologico.
 1. (Facoltativo) Fai clic sulla sezione **[!UICONTROL Messaggi]** per visualizzare i messaggi inviati agli utenti della cartella.\
    Quando passi il cursore su un messaggio, puoi fare clic sull&#39;icona **i** a destra per visualizzare il messaggio completo.\
-   ![](assets/messages-1-350x74.png)\
+   ![Messaggi](assets/messages-1-350x74.png)\
    Viene visualizzato un pop-up con l’e-mail completa:\
-   ![](assets/messages-2-350x252.png)
+   ![Messaggio a comparsa](assets/messages-2-350x252.png)
 
 ## Gestione delle sottocartelle
 

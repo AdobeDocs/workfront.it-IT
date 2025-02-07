@@ -8,9 +8,9 @@ description: In qualità di amministratore di Workfront o di Workfront Proof, pu
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 249aa332-c051-49ac-be85-264d8babfcad
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '1764'
+source-wordcount: '1924'
 ht-degree: 0%
 
 ---
@@ -36,12 +36,12 @@ Nella tabella seguente vengono visualizzate le autorizzazioni disponibili per og
 | **Elementi propri** |  |  |  |  | **Elementi di altri utenti** |  |  | **Amministratore** | **Fatturazione** |
 |---|---|---|---|---|---|---|---|---|---|
 |   | **Aggiungi** | **Visualizza** | **Modifica** | **Elimina** | **Visualizza** | **Modifica** | **Elimina** | **Modifica ed Elimina** | **Modifica** |
-| Amministratore fatturazione | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) |
-| Amministratore | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) |   |
-| Supervisore | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) |   |   |
-| Manager | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) |   |   |   |   |   |
-| Osservatore |   | ![](assets/cleaner2.png) |   |   |   |   |   |   |   |
-| Visitatore |   | ![](assets/cleaner2.png) |   |   |   |   |   |   |   |
+| Amministratore fatturazione | ![Segno di spunta](assets/cleaner2.png) | ![Segno di spunta](assets/cleaner2.png) | ![Segno di spunta](assets/cleaner2.png) | ![Segno di spunta](assets/cleaner2.png) | ![Segno di spunta](assets/cleaner2.png) | ![Segno di spunta](assets/cleaner2.png) | ![Segno di spunta](assets/cleaner2.png) | ![Segno di spunta](assets/cleaner2.png) | ![Segno di spunta](assets/cleaner2.png) |
+| Amministratore | ![Segno di spunta](assets/cleaner2.png) | ![Segno di spunta](assets/cleaner2.png) | ![Segno di spunta](assets/cleaner2.png) | ![Segno di spunta](assets/cleaner2.png) | ![Segno di spunta](assets/cleaner2.png) | ![Segno di spunta](assets/cleaner2.png) | ![Segno di spunta](assets/cleaner2.png) | ![Segno di spunta](assets/cleaner2.png) |   |
+| Supervisore | ![Segno di spunta](assets/cleaner2.png) | ![Segno di spunta](assets/cleaner2.png) | ![Segno di spunta](assets/cleaner2.png) | ![Segno di spunta](assets/cleaner2.png) | ![Segno di spunta](assets/cleaner2.png) | ![Segno di spunta](assets/cleaner2.png) | ![Segno di spunta](assets/cleaner2.png) |   |   |
+| Manager | ![Segno di spunta](assets/cleaner2.png) | ![Segno di spunta](assets/cleaner2.png) | ![Segno di spunta](assets/cleaner2.png) | ![Segno di spunta](assets/cleaner2.png) |   |   |   |   |   |
+| Osservatore |   | ![Segno di spunta](assets/cleaner2.png) |   |   |   |   |   |   |   |
+| Visitatore |   | ![Segno di spunta](assets/cleaner2.png) |   |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -66,35 +66,35 @@ Le sezioni seguenti descrivono ogni profilo e le autorizzazioni associate al pro
 
 Gli amministratori fatturazione hanno accesso alle [impostazioni account in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) and [The [!DNL Workfront Proof] Pagina fatturazione](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) e dispongono delle seguenti autorizzazioni:
 
-![](assets/cleaner2.png)Può generare bozze, caricare file e creare cartelle. Per ulteriori informazioni, vedere [Generare bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Caricare file e contenuti Web in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) e [Creare cartelle in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
+![Segno di spunta](assets/cleaner2.png)Consente di generare bozze, caricare file e creare cartelle. Per ulteriori informazioni, vedere [Generare bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Caricare file e contenuti Web in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) e [Creare cartelle in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
 
-![](assets/cleaner2.png)È possibile visualizzare, modificare ed eliminare le proprie bozze e i propri file creati.
+![Segno di spunta](assets/cleaner2.png)Consente di visualizzare, modificare ed eliminare le proprie bozze e i propri file creati.
 
-![](assets/cleaner2.png)È possibile visualizzare, modificare ed eliminare bozze e file creati da tutti gli utenti dell&#39;organizzazione.
+![Segno di spunta](assets/cleaner2.png)Consente di visualizzare, modificare ed eliminare bozze e file creati da tutti gli utenti dell&#39;organizzazione.
 
-![](assets/cleaner2.png)È possibile eliminare le cartelle pubbliche di altri utenti. Per ulteriori informazioni, vedere [Gestione cartelle in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![Segno di spunta](assets/cleaner2.png)È possibile eliminare le cartelle pubbliche di altri utenti. Per ulteriori informazioni, vedere [Gestione cartelle in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![](assets/cleaner2.png)Dispone dei diritti di modifica per tutte le bozze create nell&#39;account.
+![Segno di spunta](assets/cleaner2.png)Dispone dei diritti di modifica per tutte le bozze create nell&#39;account.
 
-![](assets/cleaner2.png) può essere impostato come proprietario di Dropzone. Per ulteriori informazioni, vedere [Configurare la zona di rilascio in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
+![Segno di spunta](assets/cleaner2.png)Può essere impostato come proprietario di Dropzone. Per ulteriori informazioni, vedere [Configurare la zona di rilascio in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-![](assets/cleaner2.png)È possibile accedere alla pagina di fatturazione e modificare i dettagli di fatturazione. Per ulteriori informazioni, vedere [Pagina fatturazione [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+![Segno di spunta](assets/cleaner2.png)Può accedere alla pagina di fatturazione e modificare i dettagli di fatturazione. Per ulteriori informazioni, vedere [Pagina fatturazione [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
-![](assets/cleaner2.png)È possibile accedere alla pagina Impostazioni account e modificare i dettagli dell&#39;account. Per ulteriori informazioni, vedere [Impostazioni account in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![Segno di spunta](assets/cleaner2.png)Consente di accedere alla pagina Impostazioni account e modificare i dettagli dell&#39;account. Per ulteriori informazioni, vedere [Impostazioni account in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
-![](assets/cleaner2.png)Svuotare il cestino. Per ulteriori informazioni, vedere [Ripristina e svuota il cestino in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+![Segno di spunta](assets/cleaner2.png)Può svuotare il cestino. Per ulteriori informazioni, vedere [Ripristina e svuota il cestino in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
-![](assets/cleaner2.png)È possibile aggiungere, modificare ed eliminare utenti.
+![Segno di spunta](assets/cleaner2.png)Consente di aggiungere, modificare ed eliminare utenti.
 
-![](assets/cleaner2.png)È possibile creare gruppi e aggiungere nuovi contatti.
+![Segno di spunta](assets/cleaner2.png)Consente di creare gruppi e aggiungere nuovi contatti.
 
-![](assets/cleaner2.png)È possibile eliminare i contatti.
+![Segno di spunta](assets/cleaner2.png)È possibile eliminare i contatti.
 
-![](assets/cleaner2.png)È possibile modificare le bozze se non sono presenti risposte.
+![Segno di spunta](assets/cleaner2.png)È possibile modificare le bozze se non sono presenti risposte.
 
-![](assets/no2.png)Impossibile modificare le risposte alle bozze.
+![Rosso X](assets/no2.png)Impossibile modificare le risposte alle bozze.
 
-![](assets/no2.png)Impossibile eliminare le cartelle private di altri utenti. Per ulteriori informazioni, vedere [Gestione cartelle in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![X](assets/no2.png)Rosso: impossibile eliminare le cartelle private di altri utenti. Per ulteriori informazioni, vedere [Gestione cartelle in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
 Per informazioni sulle impostazioni account, vedere [Impostazioni account in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
@@ -104,127 +104,127 @@ Per informazioni sulla fatturazione, vedere [The [!DNL Workfront Proof] Billing 
 
 Gli amministratori hanno accesso a [Impostazioni account](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)e dispongono delle seguenti autorizzazioni:
 
-![](assets/cleaner2.png)È possibile creare bozze, caricare file e creare cartelle. Per ulteriori informazioni, vedere [Generare bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Caricare file e contenuti Web in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) e [Creare cartelle in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
+![Segno di spunta](assets/cleaner2.png)Consente di creare bozze, caricare file e creare cartelle. Per ulteriori informazioni, vedere [Generare bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Caricare file e contenuti Web in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) e [Creare cartelle in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
 
-![](assets/cleaner2.png)È possibile visualizzare, modificare ed eliminare le bozze e i file creati.
+![Segno di spunta](assets/cleaner2.png)Consente di visualizzare, modificare ed eliminare bozze e file creati.
 
-![](assets/cleaner2.png)È possibile visualizzare, modificare ed eliminare bozze e file creati da tutti gli utenti dell&#39;organizzazione.
+![Segno di spunta](assets/cleaner2.png)Consente di visualizzare, modificare ed eliminare bozze e file creati da tutti gli utenti dell&#39;organizzazione.
 
-![](assets/cleaner2.png)È possibile eliminare le cartelle pubbliche di altri utenti. Per ulteriori informazioni, vedere [Gestione cartelle in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![Segno di spunta](assets/cleaner2.png)È possibile eliminare le cartelle pubbliche di altri utenti. Per ulteriori informazioni, vedere [Gestione cartelle in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![](assets/cleaner2.png)Dispone dei diritti di modifica per tutte le bozze create nell&#39;account.
+![Segno di spunta](assets/cleaner2.png)Dispone dei diritti di modifica per tutte le bozze create nell&#39;account.
 
-![](assets/cleaner2.png) può essere impostato come proprietario di Dropzone. Per ulteriori informazioni, vedere [Configurare la zona di rilascio in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
+![Segno di spunta](assets/cleaner2.png)Può essere impostato come proprietario di Dropzone. Per ulteriori informazioni, vedere [Configurare la zona di rilascio in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-![](assets/cleaner2.png)È possibile accedere alla pagina Impostazioni account e modificare i dettagli dell&#39;account. Per ulteriori informazioni, vedere [Impostazioni account in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![Segno di spunta](assets/cleaner2.png)Consente di accedere alla pagina Impostazioni account e modificare i dettagli dell&#39;account. Per ulteriori informazioni, vedere [Impostazioni account in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
-![](assets/cleaner2.png)Svuotare il cestino. Per ulteriori informazioni, vedere [Ripristina e svuota il cestino in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+![Segno di spunta](assets/cleaner2.png)Può svuotare il cestino. Per ulteriori informazioni, vedere [Ripristina e svuota il cestino in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
-![](assets/cleaner2.png)È possibile aggiungere, modificare ed eliminare utenti.
+![Segno di spunta](assets/cleaner2.png)Consente di aggiungere, modificare ed eliminare utenti.
 
-![](assets/cleaner2.png)È possibile creare gruppi e aggiungere nuovi contatti.
+![Segno di spunta](assets/cleaner2.png)Consente di creare gruppi e aggiungere nuovi contatti.
 
-![](assets/cleaner2.png)È possibile eliminare i contatti.
+![Segno di spunta](assets/cleaner2.png)È possibile eliminare i contatti.
 
-![](assets/cleaner2.png)È possibile modificare le bozze se non sono presenti risposte.
+![Segno di spunta](assets/cleaner2.png)È possibile modificare le bozze se non sono presenti risposte.
 
-![](assets/no2.png)Impossibile modificare le risposte alle bozze.
+![Rosso X](assets/no2.png)Impossibile modificare le risposte alle bozze.
 
-![](assets/no2.png)Impossibile eliminare le cartelle private di altri utenti. Per ulteriori informazioni, vedere [Gestione cartelle in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![X](assets/no2.png)Rosso: impossibile eliminare le cartelle private di altri utenti. Per ulteriori informazioni, vedere [Gestione cartelle in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![](assets/no2.png)Impossibile accedere alla pagina Fatturazione o modificare i dettagli di fatturazione. Per ulteriori informazioni, vedere [Pagina fatturazione [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+![Rosso X](assets/no2.png)Impossibile accedere alla pagina Fatturazione o modificare i dettagli di fatturazione. Per ulteriori informazioni, vedere [Pagina fatturazione [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
 ### Supervisore {#supervisor}
 
 I supervisori dispongono delle seguenti autorizzazioni:
 
-![](assets/cleaner2.png)È possibile creare bozze, caricare file e creare cartelle. Per ulteriori informazioni, vedere [Generare bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Caricare file e contenuti Web in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) e [Creare cartelle in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
+![Segno di spunta](assets/cleaner2.png)Consente di creare bozze, caricare file e creare cartelle. Per ulteriori informazioni, vedere [Generare bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Caricare file e contenuti Web in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) e [Creare cartelle in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
 
-![](assets/cleaner2.png)È possibile visualizzare, modificare ed eliminare le proprie bozze e i file creati.
+![Segno di spunta](assets/cleaner2.png)Consente di visualizzare, modificare ed eliminare le proprie bozze e i file creati.
 
-![](assets/cleaner2.png)È possibile visualizzare, modificare ed eliminare bozze e file creati da tutti gli utenti dell&#39;organizzazione.
+![Segno di spunta](assets/cleaner2.png)Consente di visualizzare, modificare ed eliminare bozze e file creati da tutti gli utenti dell&#39;organizzazione.
 
-![](assets/cleaner2.png)È possibile eliminare le cartelle pubbliche di altri utenti. Per ulteriori informazioni, vedere [Gestione cartelle in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![Segno di spunta](assets/cleaner2.png)È possibile eliminare le cartelle pubbliche di altri utenti. Per ulteriori informazioni, vedere [Gestione cartelle in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![](assets/cleaner2.png)Dispone dei diritti di modifica per tutte le bozze create nell&#39;account.
+![Segno di spunta](assets/cleaner2.png)Dispone dei diritti di modifica per tutte le bozze create nell&#39;account.
 
-![](assets/cleaner2.png) può essere impostato come proprietario di Dropzone. Per ulteriori informazioni, vedere [Configurare la zona di rilascio in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
+![Segno di spunta](assets/cleaner2.png)Può essere impostato come proprietario di Dropzone. Per ulteriori informazioni, vedere [Configurare la zona di rilascio in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-![](assets/cleaner2.png)È possibile creare gruppi e aggiungere nuovi contatti.
+![Segno di spunta](assets/cleaner2.png)Consente di creare gruppi e aggiungere nuovi contatti.
 
-![](assets/cleaner2.png)È possibile eliminare i contatti.
+![Segno di spunta](assets/cleaner2.png)È possibile eliminare i contatti.
 
-![](assets/cleaner2.png)È possibile modificare le bozze se non sono presenti risposte.
+![Segno di spunta](assets/cleaner2.png)È possibile modificare le bozze se non sono presenti risposte.
 
-![](assets/no2.png)Impossibile modificare le risposte alle bozze.
+![Rosso X](assets/no2.png)Impossibile modificare le risposte alle bozze.
 
-![](assets/no2.png)Impossibile eliminare le cartelle private di altri utenti. Per ulteriori informazioni, vedere [Cartelle in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md).
+![X](assets/no2.png)Rosso: impossibile eliminare le cartelle private di altri utenti. Per ulteriori informazioni, vedere [Cartelle in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md).
 
-![](assets/no2.png)Impossibile accedere alla pagina Fatturazione o alle impostazioni dell&#39;account. Per ulteriori informazioni, vedere [Pagina fatturazione [!DNL Workfront Proof] e [Impostazioni account in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+![Rosso X](assets/no2.png)Impossibile accedere alla pagina Fatturazione o alle impostazioni dell&#39;account. Per ulteriori informazioni, vedere [Pagina fatturazione [!DNL Workfront Proof] e [Impostazioni account in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 
-![](assets/no2.png)Impossibile aggiungere, modificare o eliminare utenti.
+![Rosso X](assets/no2.png)Impossibile aggiungere, modificare o eliminare utenti.
 
-![](assets/no2.png)Impossibile svuotare il cestino. Per ulteriori informazioni, vedere [Ripristina e svuota il cestino in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+![Rosso X](assets/no2.png)Impossibile svuotare il cestino. Per ulteriori informazioni, vedere [Ripristina e svuota il cestino in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
 ### Manager {#manager}
 
 I manager dispongono delle seguenti autorizzazioni:
 
-![](assets/cleaner2.png)È possibile creare bozze, caricare file e creare cartelle. Per ulteriori informazioni, vedere [Generare bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Caricare file e contenuti Web in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) e [Creare cartelle in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
+![Segno di spunta](assets/cleaner2.png)Consente di creare bozze, caricare file e creare cartelle. Per ulteriori informazioni, vedere [Generare bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Caricare file e contenuti Web in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) e [Creare cartelle in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
 
-![](assets/cleaner2.png)È possibile visualizzare, modificare ed eliminare le proprie bozze e i propri file.
+![Segno di spunta](assets/cleaner2.png)Consente di visualizzare, modificare ed eliminare le proprie bozze e i file che creano o di cui sono proprietari.
 
-![](assets/cleaner2.png)Consente di visualizzare, esaminare e approvare le bozze di altri utenti condivisi in modo esplicito con loro (diritti di sola lettura per tutti gli elementi di una cartella condivisa). Per ulteriori informazioni, vedere [Gestione dei ruoli bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+![Segno di spunta](assets/cleaner2.png)Consente di visualizzare, esaminare e approvare le bozze di altri utenti condivisi in modo esplicito con loro (diritti di sola lettura per tutto ciò che si trova in una cartella condivisa). Per ulteriori informazioni, vedere [Gestione dei ruoli bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
-![](assets/cleaner2.png)È possibile creare gruppi e aggiungere un nuovo contatto.
+![Segno di spunta](assets/cleaner2.png)Consente di creare gruppi e aggiungere un nuovo contatto.
 
-![](assets/no2.png)Impossibile visualizzare, modificare o eliminare bozze e file creati da altri utenti dell&#39;organizzazione.
+![X](assets/no2.png)Rosso: impossibile visualizzare, modificare o eliminare bozze e file creati da altri utenti dell&#39;organizzazione.
 
-![](assets/no2.png)Impossibile modificare bozze o risposte.
+![Rosso X](assets/no2.png)Impossibile modificare bozze o risposte.
 
-![](assets/no2.png)Impossibile eliminare le cartelle private di altri utenti. Per ulteriori informazioni, vedere [Gestione cartelle in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![X](assets/no2.png)Rosso: impossibile eliminare le cartelle private di altri utenti. Per ulteriori informazioni, vedere [Gestione cartelle in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![](assets/no2.png)Impossibile eliminare le cartelle pubbliche di altri utenti. Per ulteriori informazioni, vedere [Gestione cartelle in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![X](assets/no2.png)Rosso: impossibile eliminare le cartelle pubbliche di altri utenti. Per ulteriori informazioni, vedere [Gestione cartelle in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![](assets/no2.png)Impossibile accedere alla pagina Fatturazione o alle impostazioni dell&#39;account. Per ulteriori informazioni, vedere [Pagina fatturazione [!DNL Workfront Proof] e [Impostazioni account in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+![Rosso X](assets/no2.png)Impossibile accedere alla pagina Fatturazione o alle impostazioni dell&#39;account. Per ulteriori informazioni, vedere [Pagina fatturazione [!DNL Workfront Proof] e [Impostazioni account in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 
-![](assets/no2.png)Impossibile impostare come proprietario di Dropzone. Per ulteriori informazioni, vedere [Configurare la zona di rilascio in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
+![Rosso X](assets/no2.png)Impossibile impostare come proprietario Dropzone. Per ulteriori informazioni, vedere [Configurare la zona di rilascio in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-![](assets/no2.png)Impossibile svuotare il cestino. Per ulteriori informazioni, vedere [Ripristina e svuota il cestino in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+![Rosso X](assets/no2.png)Impossibile svuotare il cestino. Per ulteriori informazioni, vedere [Ripristina e svuota il cestino in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
-![](assets/no2.png)Impossibile aggiungere, modificare o eliminare utenti.
+![Rosso X](assets/no2.png)Impossibile aggiungere, modificare o eliminare utenti.
 
-![](assets/no2.png)Impossibile eliminare i contatti.
+![Rosso X](assets/no2.png)Impossibile eliminare i contatti.
 
 ### Osservatore {#observer}
 
 Gli osservatori dispongono delle seguenti autorizzazioni:
 
-![](assets/cleaner2.png)Consente di visualizzare, esaminare e approvare le bozze di altri utenti che sono esplicitamente condivisi con loro (diritti di sola lettura per tutto ciò che si trova in una cartella condivisa). Per ulteriori informazioni, vedere [Gestione dei ruoli bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+![Segno di spunta](assets/cleaner2.png)Consente di visualizzare, esaminare e approvare le bozze di altri utenti condivisi in modo esplicito con loro (diritti di sola lettura per tutto ciò che si trova in una cartella condivisa). Per ulteriori informazioni, vedere [Gestione dei ruoli bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
-![](assets/cleaner2.png)Può visualizzare i file condivisi in modo esplicito con loro.
+![Segno di spunta](assets/cleaner2.png)Può visualizzare i file condivisi in modo esplicito con loro.
 
-![](assets/cleaner2.png) può visualizzare contatti e gruppi
+![Segno di spunta](assets/cleaner2.png) Può visualizzare contatti e gruppi
 
-![](assets/no2.png)Impossibile creare bozze, caricare file e creare cartelle. Per ulteriori informazioni, vedere [Caricare file e contenuto Web in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
+![X](assets/no2.png)Rosso: impossibile creare bozze, caricare file e creare cartelle. Per ulteriori informazioni, vedere [Caricare file e contenuto Web in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
 
-![](assets/no2.png)Impossibile visualizzare, modificare o eliminare bozze e file creati da altri utenti dell&#39;organizzazione.
+![X](assets/no2.png)Rosso: impossibile visualizzare, modificare o eliminare bozze e file creati da altri utenti dell&#39;organizzazione.
 
-![](assets/no2.png)Impossibile modificare bozze o risposte.
+![Rosso X](assets/no2.png)Impossibile modificare bozze o risposte.
 
-![](assets/no2.png)Impossibile eliminare gli elementi creati nell&#39;organizzazione.
+![Rosso X](assets/no2.png)Impossibile eliminare gli elementi creati nell&#39;organizzazione.
 
-![](assets/no2.png)Impossibile accedere alla pagina Fatturazione o alle impostazioni dell&#39;account. Per ulteriori informazioni, vedere [Pagina fatturazione [!DNL Workfront Proof] e [Impostazioni account in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+![Rosso X](assets/no2.png)Impossibile accedere alla pagina Fatturazione o alle impostazioni dell&#39;account. Per ulteriori informazioni, vedere [Pagina fatturazione [!DNL Workfront Proof] e [Impostazioni account in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 
-![](assets/no2.png)Impossibile impostare come proprietario di Dropzone. Per ulteriori informazioni, vedere [Configurare la zona di rilascio in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
+![Rosso X](assets/no2.png)Impossibile impostare come proprietario Dropzone. Per ulteriori informazioni, vedere [Configurare la zona di rilascio in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-![](assets/no2.png)Impossibile svuotare il cestino. Per ulteriori informazioni, vedere [Ripristina e svuota il cestino in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+![Rosso X](assets/no2.png)Impossibile svuotare il cestino. Per ulteriori informazioni, vedere [Ripristina e svuota il cestino in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
-![](assets/no2.png)Impossibile aggiungere, modificare o eliminare utenti.
+![Rosso X](assets/no2.png)Impossibile aggiungere, modificare o eliminare utenti.
 
-![](assets/no2.png)Impossibile creare gruppi o aggiungere nuovi contatti.
+![Rosso X](assets/no2.png)Impossibile creare gruppi o aggiungere nuovi contatti.
 
-![](assets/no2.png)Impossibile eliminare i contatti.
+![Rosso X](assets/no2.png)Impossibile eliminare i contatti.
 
 >[!NOTE]
 >
@@ -238,31 +238,31 @@ Gli osservatori dispongono delle seguenti autorizzazioni:
 
 I visitatori dispongono delle seguenti autorizzazioni:
 
-![](assets/cleaner2.png)Consente di visualizzare, esaminare e approvare le bozze di altri utenti condivisi in modo esplicito con loro (diritti di sola lettura per tutti gli elementi di una cartella condivisa). Per ulteriori informazioni, vedere [Gestione dei ruoli bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+![Segno di spunta](assets/cleaner2.png)Consente di visualizzare, esaminare e approvare le bozze di altri utenti condivisi in modo esplicito con loro (diritti di sola lettura per tutto ciò che si trova in una cartella condivisa). Per ulteriori informazioni, vedere [Gestione dei ruoli bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
-![](assets/cleaner2.png)Può visualizzare i file condivisi in modo esplicito con loro.
+![Segno di spunta](assets/cleaner2.png)Può visualizzare i file condivisi in modo esplicito con loro.
 
-![](assets/no2.png) Impossibile visualizzare contatti e gruppi
+![Rosso X](assets/no2.png) Impossibile visualizzare contatti e gruppi
 
-![](assets/no2.png)Impossibile creare bozze, caricare file e creare cartelle. Per ulteriori informazioni, vedere [Caricare file e contenuto Web in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
+![X](assets/no2.png)Rosso: impossibile creare bozze, caricare file e creare cartelle. Per ulteriori informazioni, vedere [Caricare file e contenuto Web in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
 
-![](assets/no2.png)Impossibile visualizzare, modificare o eliminare bozze e file creati da altri utenti dell&#39;organizzazione.
+![X](assets/no2.png)Rosso: impossibile visualizzare, modificare o eliminare bozze e file creati da altri utenti dell&#39;organizzazione.
 
-![](assets/no2.png)Impossibile modificare bozze o risposte.
+![Rosso X](assets/no2.png)Impossibile modificare bozze o risposte.
 
-![](assets/no2.png)Impossibile eliminare gli elementi creati nell&#39;organizzazione.
+![Rosso X](assets/no2.png)Impossibile eliminare gli elementi creati nell&#39;organizzazione.
 
-![](assets/no2.png)Impossibile accedere alla pagina Fatturazione o alle impostazioni dell&#39;account. Per ulteriori informazioni, vedere [Pagina fatturazione [!DNL Workfront Proof] e [Impostazioni account in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+![Rosso X](assets/no2.png)Impossibile accedere alla pagina Fatturazione o alle impostazioni dell&#39;account. Per ulteriori informazioni, vedere [Pagina fatturazione [!DNL Workfront Proof] e [Impostazioni account in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 
-![](assets/no2.png)Impossibile impostare come proprietario di Dropzone. Per ulteriori informazioni, vedere [Configurare la zona di rilascio in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
+![Rosso X](assets/no2.png)Impossibile impostare come proprietario Dropzone. Per ulteriori informazioni, vedere [Configurare la zona di rilascio in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-![](assets/no2.png)Impossibile svuotare il cestino. Per ulteriori informazioni, vedere [Ripristina e svuota il cestino in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+![Rosso X](assets/no2.png)Impossibile svuotare il cestino. Per ulteriori informazioni, vedere [Ripristina e svuota il cestino in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
-![](assets/no2.png)Impossibile aggiungere, modificare o eliminare utenti.
+![Rosso X](assets/no2.png)Impossibile aggiungere, modificare o eliminare utenti.
 
-![](assets/no2.png)Impossibile creare gruppi o aggiungere nuovi contatti.
+![Rosso X](assets/no2.png)Impossibile creare gruppi o aggiungere nuovi contatti.
 
-![](assets/no2.png)Impossibile eliminare i contatti.
+![Rosso X](assets/no2.png)Impossibile eliminare i contatti.
 
 >[!NOTE]
 >
@@ -276,15 +276,15 @@ I visitatori dispongono delle seguenti autorizzazioni:
 
 Il profilo Guest viene utilizzato per consentire l’accesso alle bozze ai revisori che non dispongono di un proprio account Workfront Proof. Gli ospiti possono accedere alle bozze condivise con loro direttamente tramite le loro notifiche e-mail personali.
 
-![](assets/cleaner2.png)Può visualizzare, esaminare e approvare le bozze condivise in modo esplicito con loro.
+![Segno di spunta](assets/cleaner2.png)Consente di visualizzare, esaminare e approvare le bozze condivise in modo esplicito con gli utenti.
 
-![](assets/cleaner2.png)Può visualizzare i file condivisi in modo esplicito con loro.
+![Segno di spunta](assets/cleaner2.png)Può visualizzare i file condivisi in modo esplicito con loro.
 
-![](assets/no2.png)Impossibile accedere al dashboard.
+![X](assets/no2.png)Rosso: impossibile accedere al dashboard.
 
-![](assets/no2.png)Impossibile condividere le cartelle con le cartelle. Per ulteriori informazioni, vedere [Gestione cartelle in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![X](assets/no2.png)Rosso: impossibile condividere le cartelle con le cartelle. Per ulteriori informazioni, vedere [Gestione cartelle in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![](assets/no2.png)Impossibile aggiungere come autori o moderatori alle bozze. Per ulteriori informazioni, vedere [Gestione dei ruoli bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+![X](assets/no2.png)Non può essere aggiunto come Autore o Moderatore alle bozze. Per ulteriori informazioni, vedere [Gestione dei ruoli bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
 >[!NOTE]
 >
@@ -300,11 +300,11 @@ Gli amministratori e gli amministratori di fatturazione possono modificare i pro
 
    * Passare alla pagina **[!UICONTROL Contatti]**.
 
-1. Fai clic sul nome dell’utente di cui desideri modificare le autorizzazioni. ![](assets/screenshot-2018-03-30-14-16-05a-350x69.png)
+1. Fai clic sul nome dell’utente di cui desideri modificare le autorizzazioni. ![Seleziona utente](assets/screenshot-2018-03-30-14-16-05a-350x69.png)
 
 1. Fare clic sul menu a discesa **[!UICONTROL Profilo autorizzazioni]** e selezionare un nuovo profilo di autorizzazione. :
 
-   ![Schermata_2018-03-30_14-18-03.png](assets/screenshot-2018-03-30-14-18-03a.png)
+   ![Profilo autorizzazioni](assets/screenshot-2018-03-30-14-18-03a.png)
 
    I profili di autorizzazione sono Amministratore, Supervisore, Manager e Osservatore.
 

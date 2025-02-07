@@ -7,9 +7,9 @@ description: Le funzioni di analisi avanzate sono uno strumento potente di Adobe
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1204'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ Le funzioni di analisi avanzate consentono di identificare:
 * Frequenza con cui gli utenti completano azioni specifiche durante un progetto
 * Avanzamento dei progetti e singole attività all’interno di un progetto
 
-![](assets/nwe-full-screen-analytics-350x222.png)
+![Analytics](assets/nwe-full-screen-analytics-350x222.png)
 
 Per visualizzare i casi d&#39;uso o per ulteriori informazioni sulla gestione del lavoro corrente e sulla pianificazione per il lavoro futuro con le analisi avanzate, consulta [Percorsi di apprendimento delle analisi avanzate](https://one.workfront.com/s/enhanced-analytics-program).
 

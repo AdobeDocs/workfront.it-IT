@@ -7,9 +7,9 @@ description: Gli utenti che dispongono di diritti di modifica su una bozza posso
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 0b2a953f-bd70-4606-b327-57412b0d2095
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Per informazioni sul cestino, vedere [Ripristinare e svuotare il cestino in [!DN
 ## Eliminazione di una bozza
 
 1. Da qualsiasi visualizzazione elenco, fai clic sul menu **[!UICONTROL Altro]** a destra della bozza.\
-   ![](assets/more-button-small.png)
+   ![Altro menu](assets/more-button-small.png)
 
 1. Fare clic su **[!UICONTROL Visualizza dettagli bozza]** nel menu a discesa visualizzato.
 1. Fai clic sul pulsante **[!UICONTROL Elimina]** in alto a destra nella pagina.
