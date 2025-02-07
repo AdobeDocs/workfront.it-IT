@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 2e72dd6a4ef91a11627a48b52e96033410c4435c
+source-git-commit: adde34e472a762274b00f5c050b76e71002cea15
 workflow-type: tm+mt
-source-wordcount: '2198'
+source-wordcount: '2362'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 3%
 {{highlighted-preview}}
 -->
 
-Quando si verifica un&#39;azione su un oggetto Adobe Workfront supportato dalle sottoscrizioni di eventi, puoi configurare Workfront per inviare una risposta all&#39;endpoint desiderato. Ciò significa che le applicazioni di terze parti possono ricevere aggiornamenti dalle interazioni Workfront tramite l’API Workfront subito dopo che si verificano. In generale, puoi aspettarti di ricevere le notifiche del webhook in meno di 5 secondi dalla registrazione della modifica dei dati. In media, i clienti ricevono le notifiche dei webhook in meno di 1 secondo dalla registrazione della modifica dei dati.  
+Quando si verifica un&#39;azione su un oggetto Adobe Workfront supportato dalle sottoscrizioni di eventi, puoi configurare Workfront per inviare una risposta all&#39;endpoint desiderato. Ciò significa che le applicazioni di terze parti possono ricevere aggiornamenti dalle interazioni Workfront tramite l’API Workfront subito dopo che si verificano. In generale, puoi aspettarti di ricevere le notifiche del webhook in meno di 5 secondi dalla registrazione della modifica dei dati. In media, i clienti ricevono le notifiche dei webhook in meno di 1 secondo dalla registrazione della modifica dei dati.
 
 Per ricevere i payload degli abbonamenti agli eventi tramite il firewall, è necessario aggiungere i seguenti indirizzi IP al inserisco nell&#39;elenco Consentiti di accesso agli eventi:
 
@@ -110,7 +110,7 @@ La risorsa abbonamento contiene i campi seguenti.
         <td scope="col"><p>ASSEGNA</p></td> 
        </tr> 
        <tr> 
-        <td scope="col">Azienda </td> 
+        <td scope="col">Azienda </td> 
         <td scope="col"><p>AZIENDA</p></td> 
        </tr> 
        <tr> 
@@ -119,7 +119,7 @@ La risorsa abbonamento contiene i campi seguenti.
        </tr> 
        <tr> 
         <td scope="col"><p>Documento</p></td> 
-        <td scope="col">DOCU </td> 
+        <td scope="col">DOCU </td> 
        </tr> 
        <tr> 
         <td scope="col"><p>Spesa</p></td> 
@@ -193,7 +193,7 @@ La risorsa abbonamento contiene i campi seguenti.
    * **Stringa** - Valore che rappresenta il tipo di evento a cui l&#39;oggetto è abbonato. I tipi di evento disponibili includono:
 
       * CREA
-      * DELETE 
+      * ELIMINA
       * AGGIORNA
 
 * url (obbligatorio)
@@ -202,7 +202,7 @@ La risorsa abbonamento contiene i campi seguenti.
 
 * authToken (obbligatorio)
 
-   * **Stringa** - Il token Bearer OAuth2 utilizzato per l&#39;autenticazione con l&#39;URL specificato nel campo &quot;URL&quot;. 
+   * **Stringa** - Il token Bearer OAuth2 utilizzato per l&#39;autenticazione con l&#39;URL specificato nel campo &quot;URL&quot;.
 
 ## Creazione di richieste API di abbonamento a eventi
 
@@ -210,14 +210,14 @@ Dopo aver verificato che l’utente disponga dell’accesso di amministratore e 
 
 Utilizza la sintassi seguente per creare l’URL.
 
-**URL richiesta:**
+**URL richiesta**
 
 
 ```
 POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 ```
 
-**Intestazioni richiesta:**
+**Intestazioni richiesta**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -253,6 +253,15 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
             }
 ```
 
+**Esempio di corpo della risposta**
+
+```
+{
+    "id": <NEW SUBSCRIPTION ID>,
+    "version": <NEW SUBSCRIPTION VERSION>
+}
+```
+
 | Codice di risposta | Descrizione |
 |---|---|
 | 201 (creato) | La sottoscrizione dell’evento è stata creata correttamente. |
@@ -264,7 +273,7 @@ Il passaggio di una risorsa di abbonamento come corpo di una richiesta (con il t
 
 >[!NOTE]
 >
-> L’intestazione di risposta &quot;Location&quot; contiene l’URI della sottoscrizione dell’evento appena creata.
+> L’intestazione di risposta &quot;Location&quot; contiene l’URI della sottoscrizione dell’evento appena creata.
 
 **Esempio di intestazioni di risposta:**
 
@@ -288,7 +297,7 @@ Puoi eseguire una query su tutte le sottoscrizioni di eventi per un cliente oppu
 
 La sintassi della richiesta per elencare tutte le sottoscrizioni di eventi per un cliente specifico è la seguente:
 
-**URL richiesta:**
+**URL richiesta**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -315,7 +324,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
  </tbody> 
 </table>
 
-**Codici di risposta:**
+**Codici di risposta**
 
 | Codice di risposta | Descrizione |
 |---|---|
@@ -324,7 +333,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | 403 (non consentito) | L’utente, che corrisponde all’ID sessione fornito, non dispone dell’accesso di amministratore. |
 
 
-**Esempio di intestazioni di risposta:**
+**Esempio di intestazioni di risposta**
 
 | Intestazione risposta | Esempio |
 |---|---|
@@ -334,7 +343,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | Transfer-Encoding | `→chunked` |
 
 
-**Esempio di corpo della risposta:**
+**Esempio di corpo della risposta**
 
 ```
 {
@@ -368,7 +377,7 @@ Dove
 
 Puoi eseguire una query per le sottoscrizioni di eventi in base all’ID della sottoscrizione di eventi. La sintassi della richiesta per l’elenco delle sottoscrizioni di eventi è la seguente:
 
-**URL richiesta:**
+**URL richiesta**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -376,7 +385,7 @@ Puoi eseguire una query per le sottoscrizioni di eventi in base all’ID della s
 GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID>
 ```
 
-**Intestazioni richiesta:**
+**Intestazioni richieste**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -395,7 +404,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
  </tbody> 
 </table>
 
-**Codici di risposta:**
+**Codici di risposta**
 
 | Codice di risposta | Descrizione |
 |---|---|
@@ -404,7 +413,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 | 403 (non consentito) | L’utente, che corrisponde all’ID sessione fornito, non dispone dell’accesso di amministratore. |
 
 
-**Esempio di corpo della risposta:**
+**Esempio di corpo della risposta**
 
 
 
@@ -429,6 +438,95 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
    }
 }
 ```
+
+## Controllo delle versioni delle sottoscrizioni agli eventi
+
+In Workfront sono disponibili due versioni delle sottoscrizioni di eventi.
+
+La possibilità di aggiornare o effettuare il downgrade degli abbonamenti agli eventi assicura che, quando vengono apportate modifiche alla struttura degli eventi, gli abbonamenti esistenti non si interrompano, consentendo di testare e aggiornare alla nuova versione senza interruzioni nell’abbonamento agli eventi.
+
+Per ulteriori informazioni sul controllo delle versioni delle sottoscrizioni di eventi, incluse differenze specifiche tra la versione e le date importanti, vedere [Controllo delle versioni delle sottoscrizioni di eventi](/help/quicksilver/wf-api/general/event-subs-versioning.md).
+
+### Modifica della versione di un singolo abbonamento
+
+La sintassi della richiesta per modificare la versione di una singola sottoscrizione è la seguente:
+
+**URL richiesta**
+
+```
+PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID>/version 
+```
+
+**Esempio di corpo della richiesta**
+
+```
+{
+    "version": "v2" 
+}
+```
+
+
+**Esempio di corpo della risposta (200)**
+
+```
+{
+    "id": <SUBSCRIPTION ID>,
+    "version": "v2" 
+}
+```
+
+**Codici di risposta possibili**
+
+* 200
+* 400
+* 404
+
+
+### Modifica di più versioni di abbonamento
+
+Questo endpoint modifica la versione di più sottoscrizioni, in base all’elenco delle sottoscrizioni o al flag di tutte le sottoscrizioni del cliente.
+
+La sintassi della richiesta per modificare la versione di una singola sottoscrizione è la seguente:
+
+**URL richiesta**
+
+```
+PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
+```
+
+**Corpi di richiesta di esempio**
+
+* Corpo della richiesta dell’elenco degli abbonamenti
+
+  ```
+  {
+      "subscriptionIds": [<SUBSCRIPTION ID 1>, <SUBSCRIPTION ID 2>],
+      "version": "v2" 
+  }
+  ```
+
+* Corpo della richiesta per tutti gli abbonamenti del cliente
+
+  ```
+  {
+      "allCustomerSubscriptions": true,
+      "version": "v2" 
+  }
+  ```
+
+**Esempio di corpo della risposta (200)**
+
+```
+{
+    "subscription_ids": [<SUBSCRIPTION ID 1>, <SUBSCRIPTION ID 2>, ...],
+    "version": "v2" 
+}
+```
+
+**Codici di risposta possibili**
+
+* 200
+* 400
 
 ## Filtro abbonamento eventi
 
@@ -760,7 +858,7 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
  <thead> 
   <tr> 
    <th> <p>Codice di risposta</p> </th> 
-   <th> Descrizione</th> 
+   <th> Descrizione</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -1001,7 +1099,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
  <thead> 
   <tr> 
    <th> <p>Codice di risposta</p> </th> 
-   <th> Descrizione</th> 
+   <th> Descrizione</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -1020,7 +1118,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
  </tbody> 
 </table>
 
- 
+
 
 ### Esempio di corpo della risposta
 
